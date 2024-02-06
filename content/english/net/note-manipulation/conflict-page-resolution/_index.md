@@ -33,7 +33,7 @@ namespace Aspose.Note.Examples.CSharp.Pages
             // ExFor:RevisionSummary.LastModifiedTime
             // ExSummary:Shows how to check if a page is a conflict page(i.e. it has changes that OneNote couldn't automatically merge).
 
-            string dataDir = RunExamples.GetDataDir_Pages();
+            string dataDir = "Your Document Directory";
 
             // Load OneNote document
             Document doc = new Document(dataDir + "Aspose.one", new LoadOptions { LoadHistory = true });

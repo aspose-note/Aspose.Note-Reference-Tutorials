@@ -32,7 +32,7 @@ namespace Aspose.Note.Examples.CSharp.Text
             // ExFor:Title.TitleTime
             // ExSummary:Shows how to set a title for a page.
 
-            string dataDir = RunExamples.GetDataDir_Text();
+            string dataDir = "Your Document Directory";
             string outputPath = dataDir + "CreateTitleMsStyle_out.one";
 
             var doc = new Document();

@@ -31,7 +31,7 @@ namespace Aspose.Note.Examples.CSharp.Text
             // ExFor:Style.Highlight
             // ExFor:Style.FontSize
             // ExSummary:Shows how to change style for a text.
-            string dataDir = RunExamples.GetDataDir_Text();
+            string dataDir = "Your Document Directory";
 
             // Load the document into Aspose.Note.
             Document document = new Document(dataDir + "Aspose.one");

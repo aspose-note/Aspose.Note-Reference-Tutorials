@@ -29,7 +29,7 @@ namespace Aspose.Note.Examples.CSharp.Pages
             // ExSummary:Shows how to restore previous version of a page.
 
             // The path to the documents directory.
-            string dataDir = RunExamples.GetDataDir_Pages();
+            string dataDir = "Your Document Directory";
 
             // Load OneNote document and get first child           
             Document document = new Document(dataDir + "Aspose.one");

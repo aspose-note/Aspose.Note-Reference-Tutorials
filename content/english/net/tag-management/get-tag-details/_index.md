@@ -41,7 +41,7 @@ namespace Aspose.Note.Examples.CSharp.Tags
             // ExSummary:Shows how to access details of a tag.
 
             // The path to the documents directory.
-            string dataDir = RunExamples.GetDataDir_Tags();
+            string dataDir = "Your Document Directory";
 
             // Load the document into Aspose.Note.
             Document oneFile = new Document(dataDir + "TagFile.one");

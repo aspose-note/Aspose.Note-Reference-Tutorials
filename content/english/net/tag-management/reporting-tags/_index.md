@@ -42,7 +42,7 @@ namespace Aspose.Note.Examples.CSharp.Tags
             // ExSummary:Shows how to generate a pdf containing pages with items marked by incomplete checkboxes and created during last week.
 
             // The path to the documents directory.
-            string dataDir = RunExamples.GetDataDir_Tags();
+            string dataDir = "Your Document Directory";
 
             // Load the document into Aspose.Note.
             var oneFile = new Document(Path.Combine(dataDir, "TagFile.one"));
@@ -72,7 +72,7 @@ namespace Aspose.Note.Examples.CSharp.Tags
             // ExSummary:Shows how to generate a pdf containing pages with Outlook incomplete tasks to complete on this week.
 
             // The path to the documents directory.
-            string dataDir = RunExamples.GetDataDir_Tags();
+            string dataDir = "Your Document Directory";
 
             // Load the document into Aspose.Note.
             var oneFile = new Document(Path.Combine(dataDir, "TagFile.one"));
@@ -105,7 +105,7 @@ namespace Aspose.Note.Examples.CSharp.Tags
             // ExSummary:Shows how to generate a pdf containing all pages related to 'Project A'.
 
             // The path to the documents directory.
-            string dataDir = RunExamples.GetDataDir_Tags();
+            string dataDir = "Your Document Directory";
 
             // Load the document into Aspose.Note.
             var oneFile = new Document(Path.Combine(dataDir, "ProjectNotes.one"));

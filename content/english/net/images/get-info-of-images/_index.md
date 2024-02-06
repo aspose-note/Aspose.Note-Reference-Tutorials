@@ -34,7 +34,7 @@ namespace Aspose.Note.Examples.CSharp.Images
             // ExSummary:Shows how to get image's meta information.
 
             // The path to the documents directory.
-            string dataDir = RunExamples.GetDataDir_Images();
+            string dataDir = "Your Document Directory";
 
             // Load the document into Aspose.Note.
             Document oneFile = new Document(dataDir + "Aspose.one");

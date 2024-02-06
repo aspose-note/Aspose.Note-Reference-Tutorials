@@ -27,7 +27,7 @@ namespace Aspose.Note.Examples.CSharp.Loading_Saving
             // ExSummary:Shows how to save a document.
 
             string inputFile = "Sample1.one";
-            string dataDir = RunExamples.GetDataDir_LoadingAndSaving();
+            string dataDir = "Your Document Directory";
             string outputFile = "SaveDocToOneNoteFormat_out.one";
             
             Document doc = new Document(dataDir + inputFile);

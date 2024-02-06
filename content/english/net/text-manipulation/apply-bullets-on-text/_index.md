@@ -37,7 +37,7 @@ namespace Aspose.Note.Examples.CSharp.Text
             // ExFor:RichText.Text
             // ExSummary:Shows how to insert new bulleted lis.
 
-            string dataDir = RunExamples.GetDataDir_Text();
+            string dataDir = "Your Document Directory";
 
             // Create an object of the Document class
             Aspose.Note.Document doc = new Aspose.Note.Document();

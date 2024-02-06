@@ -64,7 +64,7 @@ namespace Aspose.Note.Examples.CSharp.Tables
 
             doc.AppendChildLast(page);
 
-            doc.Save(Path.Combine(RunExamples.GetDataDir_Tables(), "SettingCellBackGroundColor.pdf"));
+            doc.Save(Path.Combine("Your Document Directory", "SettingCellBackGroundColor.pdf"));
 
             // ExEnd:SettingCellBackGroundColor
         }

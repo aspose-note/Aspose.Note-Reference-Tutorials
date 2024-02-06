@@ -32,7 +32,7 @@ namespace Aspose.Note.Examples.CSharp.Loading_Saving
             // ExSummary:Shows how to save a document in pdf format using specific settings.
 
             // The path to the documents directory.
-            string dataDir = RunExamples.GetDataDir_LoadingAndSaving();
+            string dataDir = "Your Document Directory";
 
             // Load the document into Aspose.Note.
             Document doc = new Document(dataDir + "Aspose.one");

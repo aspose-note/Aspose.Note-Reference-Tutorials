@@ -35,7 +35,7 @@ namespace Aspose.Note.Examples.CSharp.Loading_and_Saving
             // ExSummary:Shows how to apply Dark theme style to a Document.
 
             // The path to the documents directory.
-            string dataDir = RunExamples.GetDataDir_Text();
+            string dataDir = "Your Document Directory";
 
             // Load the document into Aspose.Note.
             Document doc = new Document(Path.Combine(dataDir, "Aspose.one"));

@@ -32,7 +32,7 @@ namespace Aspose.Note.Examples.CSharp.Images
                 // ExSummary:Shows how to get an image from a document.
 
                 // The path to the documents directory.
-                string dataDir = RunExamples.GetDataDir_Images();
+                string dataDir = "Your Document Directory";
 
                 // Load the document into Aspose.Note.
                 Document oneFile = new Document(dataDir + "Aspose.one");

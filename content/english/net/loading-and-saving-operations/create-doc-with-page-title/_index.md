@@ -34,7 +34,7 @@ namespace Aspose.Note.Examples.CSharp.Loading_Saving
             // ExSummary:Shows how to create a document with titled page.
 
             // The path to the documents directory.
-            string dataDir = RunExamples.GetDataDir_LoadingAndSaving();
+            string dataDir = "Your Document Directory";
 
             // Create an object of the Document class
             Document doc = new Aspose.Note.Document();

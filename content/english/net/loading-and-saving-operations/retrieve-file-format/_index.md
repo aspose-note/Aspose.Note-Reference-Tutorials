@@ -27,7 +27,7 @@ namespace Aspose.Note.Examples.CSharp.Loading_Saving
             // ExSummary:Shows how to get file format of a document.
 
             // The path to the documents directory.
-            string dataDir = RunExamples.GetDataDir_LoadingAndSaving();
+            string dataDir = "Your Document Directory";
 
             var document = new Aspose.Note.Document(dataDir + "Aspose.one");
             switch (document.FileFormat)

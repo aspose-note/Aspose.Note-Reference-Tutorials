@@ -26,7 +26,7 @@ namespace Aspose.Note.Examples.CSharp.NoteBook
             // ExSummary:Shows how to access all sections from a notebook.
 
             string inputFile = "notebook.onetoc2";
-            string dataDir = RunExamples.GetDataDir_NoteBook();
+            string dataDir = "Your Document Directory";
             
             Notebook rootNotebook = new Notebook(dataDir + inputFile);
 

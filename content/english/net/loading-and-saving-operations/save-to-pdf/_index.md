@@ -42,7 +42,7 @@ namespace Aspose.Note.Examples.CSharp.Loading_and_Saving
             // ExSummary:Shows how to save a document in Pdf format with Letter page layout.
 
             // The path to the documents directory.
-            string dataDir = RunExamples.GetDataDir_LoadingAndSaving();
+            string dataDir = "Your Document Directory";
 
             // Load the document into Aspose.Note.
             Document oneFile = new Document(dataDir + "OneNote.one");
@@ -68,7 +68,7 @@ namespace Aspose.Note.Examples.CSharp.Loading_and_Saving
             // ExSummary:Shows how to save a document in Pdf format with A4 page layout without height limit.
 
             // The path to the documents directory.
-            string dataDir = RunExamples.GetDataDir_LoadingAndSaving();
+            string dataDir = "Your Document Directory";
 
             // Load the document into Aspose.Note.
             Document oneFile = new Document(dataDir + "OneNote.one");

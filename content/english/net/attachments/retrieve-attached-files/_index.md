@@ -29,7 +29,7 @@ namespace Aspose.Note.Examples.CSharp.Attachments
             // ExSummary:Shows how to get content of an attached file.
 
             // The path to the documents directory.
-            string dataDir = RunExamples.GetDataDir_Attachments();
+            string dataDir = "Your Document Directory";
 
             // Load the document into Aspose.Note.
             Document oneFile = new Document(dataDir + "Sample1.one");

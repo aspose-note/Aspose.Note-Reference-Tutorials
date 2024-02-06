@@ -34,7 +34,7 @@ namespace Aspose.Note.Examples.CSharp.Loading_Saving
             // ExSummary:Shows how to save a document in png format.
 
             // The path to the documents directory.
-            string dataDir = RunExamples.GetDataDir_LoadingAndSaving();
+            string dataDir = "Your Document Directory";
 
             // Load the document into Aspose.Note.
             Document oneFile = new Document(dataDir + "Aspose.one");
@@ -66,7 +66,7 @@ namespace Aspose.Note.Examples.CSharp.Loading_Saving
             // ExSummary:Shows how to set a image resolution when saving document as image.
 
             // The path to the documents directory.
-            string dataDir = RunExamples.GetDataDir_LoadingAndSaving();
+            string dataDir = "Your Document Directory";
 
             // Load the document into Aspose.Note.
             Document doc = new Document(dataDir + "Aspose.one");
@@ -91,7 +91,7 @@ namespace Aspose.Note.Examples.CSharp.Loading_Saving
             // ExSummary:Shows how to set a image quality when saving document as image in JPEG format.
 
             // The path to the documents directory.
-            string dataDir = RunExamples.GetDataDir_LoadingAndSaving();
+            string dataDir = "Your Document Directory";
 
             // Load the document into Aspose.Note.
             Document doc = new Document(dataDir + "Aspose.one");

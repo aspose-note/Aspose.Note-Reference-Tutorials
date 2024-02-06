@@ -40,7 +40,7 @@ namespace Aspose.Note.Examples.CSharp.Import
             // ExStart:ImportSetOfFiles_SimpleMerge
             // ExFor:Document.Import(System.String,PdfImportOptions,MergeOptions)
             // ExSummary:Shows how to import all pages from a set of PDF documents page by page.
-            string dataDir = RunExamples.GetDataDir_Import();
+            string dataDir = "Your Document Directory";
 
             var d = new Document();
 
@@ -63,7 +63,7 @@ namespace Aspose.Note.Examples.CSharp.Import
             // ExFor:MergeOptions.InsertAt
             // ExFor:MergeOptions.InsertAsChild
             // ExSummary:Shows how to import all pages from a set of PDF documents while inserting pages from every PDF document as children of a top level OneNote page.
-            string dataDir = RunExamples.GetDataDir_Import();
+            string dataDir = "Your Document Directory";
 
             var d = new Document();
 
@@ -88,7 +88,7 @@ namespace Aspose.Note.Examples.CSharp.Import
             // ExFor:MergeOptions.ImportAsSinglePage
             // ExFor:MergeOptions.PageSpacing
             // ExSummary:Shows how to import all content from a set of PDF documents while merging pages from every PDF document to a single OneNote page.
-            string dataDir = RunExamples.GetDataDir_Import();
+            string dataDir = "Your Document Directory";
 
             var d = new Document();
 
@@ -117,7 +117,7 @@ namespace Aspose.Note.Examples.CSharp.Import
             // ExFor:MergeOptions.ImportAsSinglePage
             // ExFor:MergeOptions.PageSpacing
             // ExSummary:Shows how to import all pages from PDF document grouping every 5 pages to a single OneNote page.
-            string dataDir = RunExamples.GetDataDir_Import();
+            string dataDir = "Your Document Directory";
 
             var d = new Document();
 

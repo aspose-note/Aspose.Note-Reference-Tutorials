@@ -33,7 +33,7 @@ namespace Aspose.Note.Examples.CSharp.Loading_Saving
             // ExSummary:Shows how to pass through content of a notebook.
 
             // The path to the documents directory.
-            string dataDir = RunExamples.GetDataDir_LoadingAndSaving();
+            string dataDir = "Your Document Directory";
             string fileName = "Open Notebook.onetoc2";
             try
             {
@@ -72,7 +72,7 @@ namespace Aspose.Note.Examples.CSharp.Loading_Saving
             // ExSummary:Shows how to check if a document is password-protected.
 
             // The path to the documents directory.
-            string dataDir = RunExamples.GetDataDir_LoadingAndSaving();
+            string dataDir = "Your Document Directory";
             string fileName = Path.Combine(dataDir, "Aspose.one");
 
             Document document;
@@ -101,7 +101,7 @@ namespace Aspose.Note.Examples.CSharp.Loading_Saving
             // ExSummary:Shows how to check if a document is password-protected by specific password.
 
             // The path to the documents directory.
-            string dataDir = RunExamples.GetDataDir_LoadingAndSaving();
+            string dataDir = "Your Document Directory";
             string fileName = Path.Combine(dataDir, "Aspose.one");
 
             Document document;
@@ -134,7 +134,7 @@ namespace Aspose.Note.Examples.CSharp.Loading_Saving
             // ExSummary:Shows how to check if a document load is failed because OneNote 2007 format is not supported.
 
             // The path to the documents directory.
-            string dataDir = RunExamples.GetDataDir_LoadingAndSaving();
+            string dataDir = "Your Document Directory";
             string fileName = Path.Combine(dataDir, "OneNote2007.one");
 
             try

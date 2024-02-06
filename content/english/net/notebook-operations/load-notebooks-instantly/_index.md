@@ -31,7 +31,7 @@ namespace Aspose.Note.Examples.CSharp.NoteBook
             NotebookLoadOptions loadOptions = new NotebookLoadOptions { InstantLoading = true };
 
             String inputFile = "Notizbuch öffnen.onetoc2";
-            String dataDir = RunExamples.GetDataDir_NoteBook();
+            String dataDir = "Your Document Directory";
             Notebook notebook = new Notebook(dataDir + inputFile, loadOptions);
 
             // All child documents are already loaded.

@@ -27,7 +27,7 @@ namespace Aspose.Note.Examples.CSharp.PrintingDocument
             // ExSummary:Shows how to sent document to a printer using standard Windows dialog with default options.
 
             // The path to the documents directory.
-            string dataDir = RunExamples.GetDataDir_LoadingAndSaving();
+            string dataDir = "Your Document Directory";
 
             var document = new Aspose.Note.Document(dataDir + "Aspose.one");
 

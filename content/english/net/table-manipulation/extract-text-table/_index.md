@@ -29,7 +29,7 @@ namespace Aspose.Note.Examples.CSharp.Tables
             // ExSummary:Shows how to get text from a table.
 
             // The path to the documents directory.
-            string dataDir = RunExamples.GetDataDir_Tables();
+            string dataDir = "Your Document Directory";
 
             // Load the document into Aspose.Note.
             Document document = new Document(dataDir + "Sample1.one");

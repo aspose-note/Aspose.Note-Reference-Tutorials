@@ -27,7 +27,7 @@ namespace Aspose.Note.Examples.CSharp.Pages
             // ExSummary:Shows how to get page's count of a document.
 
             // The path to the documents directory.
-            string dataDir = RunExamples.GetDataDir_Pages();
+            string dataDir = "Your Document Directory";
 
             // Load the document into Aspose.Note.
             Document oneFile = new Document(dataDir + "Aspose.one");

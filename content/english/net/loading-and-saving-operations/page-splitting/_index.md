@@ -29,7 +29,7 @@ namespace Aspose.Note.Examples.CSharp.Loading_Saving
             // ExSummary:When long OneNote pages are saved in pdf format they are split across pages. The sample shows how to configure the splitting logic of objects located on page's breaks.
 
             // The path to the documents directory.
-            string dataDir = RunExamples.GetDataDir_LoadingAndSaving();
+            string dataDir = "Your Document Directory";
 
             // Load the document into Aspose.Note.
             Document doc = new Document(dataDir + "Aspose.one");

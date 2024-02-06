@@ -27,7 +27,7 @@ namespace Aspose.Note.Examples.CSharp.Loading_Saving
         public static void Run()
         {
             // The path to the documents directory.
-            string dataDir = RunExamples.GetDataDir_LoadingAndSaving();
+            string dataDir = "Your Document Directory";
 
             // Open the document we want to convert.
             Document doc = new Document(dataDir + "Aspose.one");

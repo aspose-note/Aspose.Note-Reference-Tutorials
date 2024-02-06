@@ -29,7 +29,7 @@ namespace Aspose.Note.Examples.CSharp.Text
             // ExStart:GenerateDocumentFromTemplate
             // ExFor:RichText.Replace(System.String,System.String)
             // ExSummary:Shows how to generate a new document by replacing special text pieces in a template.
-            string dataDir = RunExamples.GetDataDir_Text();
+            string dataDir = "Your Document Directory";
 
             var D = new Dictionary<string, string>
                         {

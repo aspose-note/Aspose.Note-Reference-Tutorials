@@ -35,7 +35,7 @@ namespace Aspose.Note.Examples.CSharp.Loading_Saving
             // ExSummary:Shows how to save a document in different formats.
 
             // The path to the documents directory.
-            string dataDir = RunExamples.GetDataDir_LoadingAndSaving();
+            string dataDir = "Your Document Directory";
 
             // Initialize the new Document
             Document doc = new Document() { AutomaticLayoutChangesDetectionEnabled = false };

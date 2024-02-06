@@ -33,7 +33,7 @@ namespace Aspose.Note.Examples.CSharp.Text
             // ExSummary:Shows how to pass through page's text and make a replacement.
 
             // The path to the documents directory.
-            string dataDir = RunExamples.GetDataDir_Text();
+            string dataDir = "Your Document Directory";
 
             Dictionary<string, string> replacements = new Dictionary<string, string>();
             replacements.Add("voice over", "voice over new text");

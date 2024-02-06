@@ -41,7 +41,7 @@ namespace Aspose.Note.Examples.CSharp.Hyperlinks
             // ExSummary:Shows how to bind a hyperlink to a text.
 
             // The path to the documents directory.
-            string dataDir = RunExamples.GetDataDir_Tasks();
+            string dataDir = "Your Document Directory";
 
             // Create an object of the Document class
             Document doc = new Document();

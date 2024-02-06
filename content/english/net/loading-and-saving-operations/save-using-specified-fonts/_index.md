@@ -32,7 +32,7 @@ namespace Aspose.Note.Examples.CSharp.Loading_and_Saving
             SaveUsingDocumentFontsSubsystemWithDefaultFontFromFile();
             SaveUsingDocumentFontsSubsystemWithDefaultFontFromStream();
 
-            Console.WriteLine("\nDocument with unknown font is successfully saved at " + RunExamples.GetDataDir_LoadingAndSaving());
+            Console.WriteLine("\nDocument with unknown font is successfully saved at " + "Your Document Directory");
         }
 
         public static void SaveUsingDocumentFontsSubsystemWithDefaultFontName()
@@ -45,7 +45,7 @@ namespace Aspose.Note.Examples.CSharp.Loading_and_Saving
             // ExSummary:Shows how to save a document in pdf format using specified default font.
 
             // The path to the documents directory.
-            string dataDir = RunExamples.GetDataDir_LoadingAndSaving();
+            string dataDir = "Your Document Directory";
 
             // Load the document into Aspose.Note.
             Document oneFile = new Document(Path.Combine(dataDir, "missing-font.one"));
@@ -70,7 +70,7 @@ namespace Aspose.Note.Examples.CSharp.Loading_and_Saving
             // ExSummary:Shows how to save a document in pdf format using default font from a file.
 
             // The path to the documents directory.
-            string dataDir = RunExamples.GetDataDir_LoadingAndSaving();
+            string dataDir = "Your Document Directory";
 
             string fontFile = Path.Combine(dataDir, "geo_1.ttf");
 
@@ -97,7 +97,7 @@ namespace Aspose.Note.Examples.CSharp.Loading_and_Saving
             // ExSummary:Shows how to save a document in pdf format using default font from a stream.
 
             // The path to the documents directory.
-            string dataDir = RunExamples.GetDataDir_LoadingAndSaving();
+            string dataDir = "Your Document Directory";
 
             string fontFile = Path.Combine(dataDir, "geo_1.ttf");
 

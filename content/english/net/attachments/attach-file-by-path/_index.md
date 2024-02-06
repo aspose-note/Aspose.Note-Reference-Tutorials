@@ -28,7 +28,7 @@ namespace Aspose.Note.Examples.CSharp.Attachments
             // ExSummary:Shows how to add a file to a document by using filepath.
 
             // The path to the documents directory.
-            string dataDir = RunExamples.GetDataDir_Attachments();
+            string dataDir = "Your Document Directory";
 
             // Create an object of the Document class
             Document doc = new Document();

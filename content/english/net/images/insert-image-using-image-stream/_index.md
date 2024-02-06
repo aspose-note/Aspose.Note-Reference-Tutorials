@@ -29,7 +29,7 @@ namespace Aspose.Note.Examples.CSharp.Images
             // ExSummary:Shows how to add an image from stream to a document.
 
             // The path to the documents directory.
-            string dataDir = RunExamples.GetDataDir_Images();
+            string dataDir = "Your Document Directory";
 
             // Create an object of the Document class
             Document doc = new Document();

@@ -28,7 +28,7 @@ namespace Aspose.Note.Examples.CSharp.Attachments
             // ExSummary:Shows how to add a file from a stream to a document.
 
             // The path to the documents directory.
-            string dataDir = RunExamples.GetDataDir_Attachments();
+            string dataDir = "Your Document Directory";
 
             // Create an object of the Document class
             Document doc = new Document();

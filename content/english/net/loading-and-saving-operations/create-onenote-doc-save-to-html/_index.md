@@ -52,7 +52,7 @@ namespace Aspose.Note.Examples.CSharp.Loading_Saving
             // ExSummary:Shows how to create a document and save it in html format using default options.
 
             // The path to the documents directory.
-            string dataDir = RunExamples.GetDataDir_LoadingAndSaving();
+            string dataDir = "Your Document Directory";
 
             // Initialize OneNote document
             Document doc = new Document();
@@ -94,7 +94,7 @@ namespace Aspose.Note.Examples.CSharp.Loading_Saving
             // ExSummary:Shows how to create a document and save in html format specified range of pages.
 
             // The path to the documents directory.
-            string dataDir = RunExamples.GetDataDir_LoadingAndSaving();
+            string dataDir = "Your Document Directory";
 
             // Initialize OneNote document
             Document doc = new Document();
@@ -132,7 +132,7 @@ namespace Aspose.Note.Examples.CSharp.Loading_Saving
             // ExFor:HtmlSaveOptions.ExportImages
             // ExFor:HtmlSaveOptions.FontFaceTypes
             // ExSummary:Shows how to save a document to a stream in html format with embedding of all resources(css/fonts/images).
-            string dataDir = RunExamples.GetDataDir_LoadingAndSaving();
+            string dataDir = "Your Document Directory";
             var document = new Document(Path.Combine(dataDir, "Aspose.one"));
 
             var options = new HtmlSaveOptions()
@@ -159,7 +159,7 @@ namespace Aspose.Note.Examples.CSharp.Loading_Saving
             // ExFor:HtmlSaveOptions.ExportImages
             // ExFor:HtmlSaveOptions.FontFaceTypes
             // ExSummary:Shows how to save a document in html format with storing all resources(css/fonts/images) to a separate files.
-            string dataDir = RunExamples.GetDataDir_LoadingAndSaving();
+            string dataDir = "Your Document Directory";
             var document = new Document(Path.Combine(dataDir, "Aspose.one"));
 
             var options = new HtmlSaveOptions()
@@ -208,7 +208,7 @@ namespace Aspose.Note.Examples.CSharp.Loading_Saving
                 Directory.CreateDirectory(savingCallbacks.RootFolder);
             }
 
-            string dataDir = RunExamples.GetDataDir_LoadingAndSaving();
+            string dataDir = "Your Document Directory";
             var document = new Document(Path.Combine(dataDir, "Aspose.one"));
 
             using (var stream = File.Create(Path.Combine(savingCallbacks.RootFolder, "document.html")))

@@ -30,7 +30,7 @@ namespace Aspose.Note.Examples.CSharp.WorkingWithNoteBook
             // ExSummary:Shows how to load notebook from a stream.
 
             // The path to the documents directory.
-            string dataDir = RunExamples.GetDataDir_NoteBook();
+            string dataDir = "Your Document Directory";
             
             FileStream stream = new FileStream(dataDir + "Notizbuch öffnen.onetoc2", FileMode.Open);
 

@@ -28,7 +28,7 @@ namespace Aspose.Note.Examples.CSharp.WorkingWithNoteBook
             // ExSummary:Shows how to remove a section from a notebook.
 
             // The path to the documents directory.
-            string dataDir = RunExamples.GetDataDir_NoteBook();
+            string dataDir = "Your Document Directory";
 
             // Load a OneNote Notebook
             var notebook = new Notebook(dataDir + "test.onetoc2");

@@ -33,7 +33,7 @@ namespace Aspose.Note.Examples.CSharp.Loading_and_Saving
             // ExSummary:Shows how to save a document as image in Jpeg format using SaveFormat.
 
             // The path to the documents directory.
-            string dataDir = RunExamples.GetDataDir_LoadingAndSaving();
+            string dataDir = "Your Document Directory";
 
             // Load the document into Aspose.Note.
             Document oneFile = new Document(dataDir + "Aspose.one");

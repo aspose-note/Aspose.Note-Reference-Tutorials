@@ -26,7 +26,7 @@ namespace Aspose.Note.Examples.CSharp.NoteBook
             // ExSummary:Shows how to iterate through documents of a notebook loading them lazily.
 
             string inputFile = "Notizbuch öffnen.onetoc2";
-            string dataDir = RunExamples.GetDataDir_NoteBook();
+            string dataDir = "Your Document Directory";
 
             // By default children loading is "lazy".
             Notebook notebook = new Notebook(dataDir + inputFile);

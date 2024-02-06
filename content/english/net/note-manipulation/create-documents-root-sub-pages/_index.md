@@ -28,7 +28,7 @@ namespace Aspose.Note.Examples.CSharp.Pages
             // ExSummary:Shows how to add a page with a subpage.
 
             // The path to the documents directory.
-            string dataDir = RunExamples.GetDataDir_Pages();
+            string dataDir = "Your Document Directory";
 
             // Create an object of the Document class
             Document doc = new Document();

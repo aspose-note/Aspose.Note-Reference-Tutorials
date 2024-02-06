@@ -30,7 +30,7 @@ namespace Aspose.Note.Examples.CSharp.Images
             // ExSummary:Shows how to set text description for an image.
 
             // The path to the documents directory.
-            string dataDir = RunExamples.GetDataDir_Images();
+            string dataDir = "Your Document Directory";
 
             var document = new Document();
             var page = new Page(document);

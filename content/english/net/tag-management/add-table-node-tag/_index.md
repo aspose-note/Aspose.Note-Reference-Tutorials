@@ -35,7 +35,7 @@ namespace Aspose.Note.Examples.CSharp.Tags
             // ExSummary:Shows how to add new table with tag.
 
             // The path to the documents directory.
-            string dataDir = RunExamples.GetDataDir_Tags();
+            string dataDir = "Your Document Directory";
 
             // Create an object of the Document class
             Document doc = new Document();

@@ -33,7 +33,7 @@ namespace Aspose.Note.Examples.CSharp.Tables
             // ExFor:Style.Highlight
             // ExFor:Style.FontSize
             // ExSummary:Shows how to compose a table having text with various styles.
-            string dataDir = RunExamples.GetDataDir_Text();
+            string dataDir = "Your Document Directory";
 
             var headerText = new RichText() { ParagraphStyle = new ParagraphStyle() { FontSize = 18, IsBold = true }, Alignment = HorizontalAlignment.Center }
                                 .Append("Super contest for suppliers.");

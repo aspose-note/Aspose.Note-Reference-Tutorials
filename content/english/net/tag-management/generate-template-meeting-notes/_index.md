@@ -38,7 +38,7 @@ namespace Aspose.Note.Examples.CSharp.Tags
             // ExSummary:Shows how to prepare a template for weekly meeting.
 
             // The path to the documents directory.
-            string dataDir = RunExamples.GetDataDir_Tags();
+            string dataDir = "Your Document Directory";
 
             // Create an object of the Document class
             var headerStyle = new ParagraphStyle() { FontName = "Calibri", FontSize = 16 };

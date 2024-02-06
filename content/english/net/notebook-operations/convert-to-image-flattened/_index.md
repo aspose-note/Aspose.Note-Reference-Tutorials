@@ -32,7 +32,7 @@ namespace Aspose.Note.Examples.CSharp.NoteBook
             // ExSummary:Shows how to save flattened notebook as image.
 
             // The path to the documents directory.
-            string dataDir = RunExamples.GetDataDir_NoteBook();
+            string dataDir = "Your Document Directory";
 
             // Load a OneNote Notebook
             var notebook = new Notebook(dataDir + "Notizbuch öffnen.onetoc2");

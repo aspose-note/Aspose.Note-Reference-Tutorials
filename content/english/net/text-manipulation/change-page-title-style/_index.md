@@ -34,7 +34,7 @@ namespace Aspose.Note.Examples.CSharp.Text
             // ExFor:RichText.ParagraphStyle
             // ExFor:ParagraphStyle
             // ExSummary:Let's emphasize page's titles among other headers by increasing font's size.
-            string dataDir = RunExamples.GetDataDir_Text();
+            string dataDir = "Your Document Directory";
 
             // Load the document into Aspose.Note.
             Document document = new Document(dataDir + "Aspose.one");

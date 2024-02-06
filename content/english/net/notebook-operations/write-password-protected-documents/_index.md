@@ -30,7 +30,7 @@ namespace Aspose.Note.Examples.CSharp.WorkingWithNoteBook
             // ExSummary:Shows how to save a notebook.
 
             // The path to the documents directory.
-            string dataDir = RunExamples.GetDataDir_NoteBook();
+            string dataDir = "Your Document Directory";
 
             var notebook = new Notebook(dataDir + "test.onetoc2", new NotebookLoadOptions() { DeferredLoading = false });
 

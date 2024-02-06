@@ -50,7 +50,7 @@ namespace Aspose.Note.Examples.CSharp.Text
             page.AppendChildLast(outline);
             document.AppendChildLast(page);
 
-            document.Save(Path.Combine(RunExamples.GetDataDir_Text(), "SetDefaultParagraphStyle.one"));
+            document.Save(Path.Combine("Your Document Directory", "SetDefaultParagraphStyle.one"));
 
             // ExEnd:SetDefaultParagraphStyle
         }

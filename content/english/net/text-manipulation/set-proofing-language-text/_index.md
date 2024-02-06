@@ -46,7 +46,7 @@ namespace Aspose.Note.Examples.CSharp.Text
             page.AppendChildLast(outline);
             document.AppendChildLast(page);
 
-            document.Save(Path.Combine(RunExamples.GetDataDir_Text(), "SetProofingLanguageForText.one"));
+            document.Save(Path.Combine("Your Document Directory", "SetProofingLanguageForText.one"));
 
             // ExEnd:SetProofingLanguageForText
         }

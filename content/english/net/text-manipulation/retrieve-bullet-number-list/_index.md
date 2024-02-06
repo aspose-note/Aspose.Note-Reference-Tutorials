@@ -34,7 +34,7 @@ namespace Aspose.Note.Examples.CSharp.Text
             // ExFor:NumberList.IsItalic
             // ExSummary:Shows how to retrieve information about list's formatting.
 
-            string dataDir = RunExamples.GetDataDir_Text();
+            string dataDir = "Your Document Directory";
 
             // Load the document into Aspose.Note.
             Document oneFile = new Document(dataDir + "ApplyNumberingOnText.one");

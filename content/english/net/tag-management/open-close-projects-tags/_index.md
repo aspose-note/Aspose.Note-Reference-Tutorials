@@ -43,7 +43,7 @@ namespace Aspose.Note.Examples.CSharp.Tags
             // ExSummary:Shows how to make completed all checkbox items related to 'Project C'.
 
             // The path to the documents directory.
-            string dataDir = RunExamples.GetDataDir_Tags();
+            string dataDir = "Your Document Directory";
 
             // Load the document into Aspose.Note.
             var oneFile = new Document(Path.Combine(dataDir, "ProjectNotes.one"));
@@ -76,7 +76,7 @@ namespace Aspose.Note.Examples.CSharp.Tags
             // ExSummary:Shows how to make open all checkbox items related to 'Project C'.
 
             // The path to the documents directory.
-            string dataDir = RunExamples.GetDataDir_Tags();
+            string dataDir = "Your Document Directory";
 
             // Load the document into Aspose.Note.
             var oneFile = new Document(Path.Combine(dataDir, ClosedProjectCNotesFileName));

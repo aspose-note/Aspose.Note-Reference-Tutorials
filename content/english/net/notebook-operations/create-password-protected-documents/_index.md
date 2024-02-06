@@ -30,7 +30,7 @@ namespace Aspose.Note.Examples.CSharp.WorkingWithNoteBook
             // ExSummary:Shows how to save document with encryption.
 
             // The path to the documents directory.
-            string dataDir = RunExamples.GetDataDir_NoteBook();
+            string dataDir = "Your Document Directory";
 
             Document document = new Document();
             document.Save(dataDir + "CreatingPasswordProtectedDoc_out.one", new OneSaveOptions() { DocumentPassword = "pass" });

@@ -27,7 +27,7 @@ namespace Aspose.Note.Examples.CSharp.WorkingWithNoteBook
             // ExSummary:Shows how to add new section to a notebook.
 
             // The path to the documents directory.
-            string dataDir = RunExamples.GetDataDir_NoteBook();
+            string dataDir = "Your Document Directory";
 
             // Load a OneNote Notebook
             var notebook = new Notebook(dataDir + "Notizbuch �ffnen.onetoc2");

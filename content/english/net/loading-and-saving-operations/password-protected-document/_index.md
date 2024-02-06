@@ -27,7 +27,7 @@ namespace Aspose.Note.Examples.CSharp.Loading_Saving
             // ExSummary:Shows how to an encrypted document.
 
             // The path to the documents directory.
-            string dataDir = RunExamples.GetDataDir_LoadingAndSaving();
+            string dataDir = "Your Document Directory";
 
             LoadOptions loadOptions = new LoadOptions { DocumentPassword = "password" };
             Document doc = new Document(dataDir + "Sample1.one", loadOptions);

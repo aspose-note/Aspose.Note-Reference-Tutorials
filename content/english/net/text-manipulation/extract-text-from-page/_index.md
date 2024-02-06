@@ -30,7 +30,7 @@ namespace Aspose.Note.Examples.CSharp.Text
             // ExSummary:Shows how to get all text from the page.
 
             // The path to the documents directory.
-            string dataDir = RunExamples.GetDataDir_Text();
+            string dataDir = "Your Document Directory";
 
             // Load the document into Aspose.Note.
             Document oneFile = new Document(dataDir + "Aspose.one");

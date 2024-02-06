@@ -33,7 +33,7 @@ namespace Aspose.Note.Examples.CSharp.WorkingWithNoteBook
             // ExSummary:Shows how to save notebook in pdf format with specified options.
 
             // The path to the documents directory.
-            string dataDir = RunExamples.GetDataDir_NoteBook();
+            string dataDir = "Your Document Directory";
 
             // Load a OneNote Notebook
             var notebook = new Notebook(dataDir + "Notizbuch �ffnen.onetoc2");

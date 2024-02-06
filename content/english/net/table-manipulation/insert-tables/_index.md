@@ -33,7 +33,7 @@ namespace Aspose.Note.Examples.CSharp.Tables
             // ExSummary:Shows how to create a new table.
 
             // The path to the documents directory.
-            string dataDir = RunExamples.GetDataDir_Tables();
+            string dataDir = "Your Document Directory";
 
             // Create an object of the Document class
             Document doc = new Document();

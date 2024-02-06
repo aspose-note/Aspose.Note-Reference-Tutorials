@@ -34,7 +34,7 @@ namespace Aspose.Note.Examples.CSharp.Pages
             // ExSummary:Shows how to get page's history.
 
             // The path to the documents directory.
-            string dataDir = RunExamples.GetDataDir_Pages();
+            string dataDir = "Your Document Directory";
 
             // Load OneNote document
             Document document = new Document(dataDir + "Aspose.one", new LoadOptions { LoadHistory = true });

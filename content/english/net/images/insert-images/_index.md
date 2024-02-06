@@ -32,7 +32,7 @@ namespace Aspose.Note.Examples.CSharp.Images
             // ExSummary:Shows how to add an image from file to a document with user defined properties.
 
             // The path to the documents directory.
-            string dataDir = RunExamples.GetDataDir_Images();
+            string dataDir = "Your Document Directory";
 
             // Load document from the stream.
             Document doc = new Document(dataDir + "Aspose.one");

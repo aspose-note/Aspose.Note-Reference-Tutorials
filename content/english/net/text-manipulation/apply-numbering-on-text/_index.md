@@ -38,7 +38,7 @@ namespace Aspose.Note.Examples.CSharp.Text
             // ExFor:RichText.Text
             // ExSummary:Shows how to insert new list with numbering.
 
-            string dataDir = RunExamples.GetDataDir_Text();
+            string dataDir = "Your Document Directory";
             
             // Create an object of the Document class
             Document doc = new Document();

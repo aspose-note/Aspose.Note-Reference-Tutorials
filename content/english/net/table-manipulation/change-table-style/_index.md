@@ -48,7 +48,7 @@ namespace Aspose.Note.Examples.CSharp.Tables
 
         public static void Run()
         {
-            string dataDir = RunExamples.GetDataDir_Tables();
+            string dataDir = "Your Document Directory";
 
             // Load the document into Aspose.Note.
             Document document = new Document(dataDir + "ChangeTableStyleIn.one");
