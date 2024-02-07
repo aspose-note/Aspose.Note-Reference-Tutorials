@@ -36,12 +36,20 @@ Learn how to save a range of pages from OneNote documents as PDF files using Asp
 ### [Save to Binary Image in Aspose.Note](./save-to-binary-image/)
 Learn how to convert documents to binary images using Aspose.Note for .NET. Follow our step-by-step guide for seamless integration.
 ### [Save to Image in Aspose.Note](./save-to-image/)
+Effortlessly convert Microsoft OneNote documents to image format in BMP with Aspose.Note for .NET. Seamless integration, easy steps, and robust functionality.
 ### [Save to Grayscale Image in Aspose.Note](./save-to-grayscale-image/)
 Learn how to save OneNote documents as grayscale images using Aspose.Note for .NET. Follow this comprehensive tutorial for efficient document processing.
 ### [Save to JPEG Image in Aspose.Note](./save-to-jpeg-image/)
+Learn how to save OneNote documents to JPEG images effortlessly using Aspose.Note for .NET. Step-by-step guide included.
 ### [Save to PDF in Aspose.Note](./save-to-pdf/)
+Learn how to save Microsoft OneNote documents to PDF format using Aspose.Note for .NET. Step-by-step tutorial with code examples for Letter and A4 page layouts.
 ### [Save to TIFF Image in Aspose.Note](./save-to-tiff-image/)
+Learn how to save OneNote documents as TIFF images with various compression methods using Aspose.Note for .NET.
 ### [Save Using Specified Fonts in Aspose.Note](./save-using-specified-fonts/)
+Learn how to save documents with specified fonts in Aspose.Note for .NET. Customize font settings easily for consistent document formatting.
 ### [Save with Default Settings in Aspose.Note](./save-with-default-settings/)
+Learn how to save a document with default settings in Aspose.Note for .NET through a step-by-step guide.
 ### [Specify Save Options in Aspose.Note](./specify-save-options/)
+Learn how to specify save options in Aspose.Note for .NET to customize output format & quality of OneNote documents.
 ### [User-Saving Callbacks in Aspose.Note](./user-saving-callbacks/)
+Learn how to implement user-saving callbacks in Aspose.Note for .NET to customize saving fonts, CSS, and images.
