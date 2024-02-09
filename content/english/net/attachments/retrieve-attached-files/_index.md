@@ -2,7 +2,7 @@
 title: Retrieve Attached Files with Aspose.Note
 linktitle: Retrieve Attached Files with Aspose.Note
 second_title: Aspose.Note .NET API
-description: Learn how to retrieve attached files from Microsoft OneNote documents using Aspose.Note for .NET.
+description: Learn how to retrieve attached files from Microsoft OneNote documents using Aspose.Note for .NET. Follow steps to load, get nodes, and iterate through attachments. 
 type: docs
 weight: 12
 url: /net/attachments/retrieve-attached-files/

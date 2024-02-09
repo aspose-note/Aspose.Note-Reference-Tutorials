@@ -2,7 +2,7 @@
 title: Insert Tables into Aspose.Note Documents
 linktitle: Insert Tables into Aspose.Note Documents
 second_title: Aspose.Note .NET API
-description: Learn how to insert tables into Aspose.Note documents using C# with Aspose.Note for .NET.
+description: Learn to insert tables into Note documents with Aspose.Note for .NET. Organize data seamlessly for improved readability and presentation.
 type: docs
 weight: 16
 url: /net/table-manipulation/insert-tables/
