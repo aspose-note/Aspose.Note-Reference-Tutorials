@@ -18,17 +18,17 @@ Embark on a transformative journey with Aspose.Note for .NET, where comprehensiv
 
 These are links to some useful resources:
  
-- [Licensing](./licensing/)
-- [Attachments](./attachments/)
-- [Hyperlinks](./hyperlinks/)
-- [Images](./images/)
-- [Import](./import/)
-- [Loading and Saving Operations](./loading-and-saving-operations/)
-- [Notebook Operations](./notebook-operations/)
-- [Note Manipulation](./note-manipulation/)
-- [Printing Document](./printing-document/)
-- [Table Manipulation](./table-manipulation/)
-- [Tag Management](./tag-management/)
-- [Text Manipulation](./text-manipulation/)
+- [Licensing](./net/licensing/)
+- [Attachments](./net/attachments/)
+- [Hyperlinks](./net/hyperlinks/)
+- [Images](./net/images/)
+- [Import](./net/import/)
+- [Loading and Saving Operations](./net/loading-and-saving-operations/)
+- [Notebook Operations](./net/notebook-operations/)
+- [Note Manipulation](./net/note-manipulation/)
+- [Printing Document](./net/printing-document/)
+- [Table Manipulation](./net/table-manipulation/)
+- [Tag Management](./net/tag-management/)
+- [Text Manipulation](./net/text-manipulation/)
 
 
