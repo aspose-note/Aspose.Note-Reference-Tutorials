@@ -42,6 +42,8 @@ Attaching files to a OneNote document using Aspose.Note for .NET is a straightfo
 ### Step 1: Initialize Document Object
 
 ```csharp
+// The path to the documents directory.
+string dataDir = RunExamples.GetDataDir_Attachments();
 Document doc = new Document();
 ```
 
@@ -114,6 +116,7 @@ Finally, the page is appended to the document.
 ### Step 10: Save Document
 
 ```csharp
+dataDir = dataDir + "AttachFileByPath_out.one";
 doc.Save(dataDir);
 ```
 
