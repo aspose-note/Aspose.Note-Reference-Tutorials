@@ -78,22 +78,22 @@ In this tutorial, we have learned how to read rich text from a OneNote notebook 
 
 ## FAQ's
 
-### 1. Can I use Aspose.Note for .NET to create new OneNote files?
+### Q1: Can I use Aspose.Note for .NET to create new OneNote files?
 
 A1: Yes, Aspose.Note for .NET allows you to create, edit, and manipulate OneNote files programmatically.
 
-### 2. Is there a free trial available for Aspose.Note for .NET?
+### Q2: Is there a free trial available for Aspose.Note for .NET?
 
 A2: Yes, you can get a free trial of Aspose.Note for .NET from the [release page](https://releases.aspose.com/).
 
-### 3. How can I get support for Aspose.Note for .NET?
+### Q3: How can I get support for Aspose.Note for .NET?
 
 A3: You can get support for Aspose.Note for .NET by visiting the [Aspose.Note forum](https://forum.aspose.com/c/note/28) where you can ask questions and interact with other users and developers.
 
-### 4. Can I purchase a temporary license for Aspose.Note for .NET?
+### Q4: Can I purchase a temporary license for Aspose.Note for .NET?
 
 A4: Yes, you can purchase a temporary license for Aspose.Note for .NET from the [temporary license page](https://purchase.aspose.com/temporary-license/).
 
-### 5. Where can I find detailed documentation for Aspose.Note for .NET?
+### Q5: Where can I find detailed documentation for Aspose.Note for .NET?
 
 A5: You can find comprehensive documentation for Aspose.Note for .NET on the [reference page](https://reference.aspose.com/note/net/).
