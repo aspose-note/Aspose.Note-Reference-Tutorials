@@ -84,7 +84,7 @@ Yes, using Aspose.Note for .NET, you can set proofing language for individual wo
 ### Is Aspose.Note compatible with the latest .NET frameworks?
 Absolutely! Aspose.Note is regularly updated to ensure compatibility with the latest .NET frameworks, allowing you to leverage the newest features and improvements.
 ### Where can I find additional examples and documentation?
-Explore the official [Aspose.Note documentation](https://reference.aspose.com/note/net/) for a wealth of examples, API reference, and detailed explanations.
+Explore the [Aspose.Note documentation](https://reference.aspose.com/note/net/) for a wealth of examples, API reference, and detailed explanations.
 ### Can I try Aspose.Note for .NET before purchasing?
 Certainly! You can access a free trial of Aspose.Note for .NET [here](https://releases.aspose.com/).
 ### Facing issues or need assistance?

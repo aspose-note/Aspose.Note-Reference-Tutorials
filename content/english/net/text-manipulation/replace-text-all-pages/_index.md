@@ -12,7 +12,7 @@ In the dynamic landscape of .NET development, Aspose.Note stands out as a powerf
 Aspose.Note for .NET empowers developers to handle OneNote files with ease. The ability to replace text on all pages opens up a myriad of possibilities for enhancing and customizing documents. In this tutorial, we will delve into the process of replacing text efficiently, enabling you to streamline your document processing workflow.
 ## Prerequisites
 Before we embark on this coding journey, ensure you have the following prerequisites in place:
-1. Aspose.Note for .NET Installation: Download and install the Aspose.Note for .NET library from the official [documentation](https://reference.aspose.com/note/net/).
+1. Aspose.Note for .NET Installation: Download and install the Aspose.Note for .NET library from the [documentation](https://reference.aspose.com/note/net/).
 2. Development Environment: Have a functional .NET development environment, including Visual Studio or any other preferred IDE.
 3. Document Directory: Organize your documents in a dedicated directory.
 Now that we have our groundwork laid, let's proceed to the next crucial steps.
@@ -78,6 +78,6 @@ A: Yes, you can explore the capabilities of Aspose.Note by obtaining a free tria
 ### Q: How do I get community support for Aspose.Note for .NET?
 A: Join the Aspose.Note community [forum](https://forum.aspose.com/c/note/28) for discussions and assistance.
 ### Q: Where can I find more tutorials and documentation for Aspose.Note for .NET?
-A: Visit the official [documentation](https://reference.aspose.com/note/net/) for in-depth resources and tutorials.
+A: Visit the [documentation](https://reference.aspose.com/note/net/) for in-depth resources and tutorials.
 ### Q: Can I use Aspose.Note for commercial projects?
 A: Yes, explore licensing options and make purchases [here](https://purchase.aspose.com/buy).

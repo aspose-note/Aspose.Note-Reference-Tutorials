@@ -11,7 +11,7 @@ url: /net/text-manipulation/generate-document-from-template/
 In the ever-evolving landscape of document creation, Aspose.Note for .NET stands out as a powerful tool for generating dynamic documents effortlessly. Whether you're dealing with reports, invoices, or personalized documents, this tutorial will guide you through the process of generating a document from a template using Aspose.Note for .NET.
 ## Prerequisites
 Before diving into the step-by-step guide, ensure you have the following prerequisites in place:
-1. Aspose.Note for .NET Library: Download and install the library from the [official Aspose.Note for .NET documentation](https://reference.aspose.com/note/net/).
+1. Aspose.Note for .NET Library: Download and install the library from the [Aspose.Note for .NET documentation](https://reference.aspose.com/note/net/).
 2. Document Template: Prepare a template document in the OneNote format (with a .one extension). This will serve as the foundation for your dynamically generated document.
 ## Import Namespaces
 Make sure to include the necessary namespaces in your project:
@@ -79,4 +79,4 @@ Visit the [Aspose.Note for .NET forum](https://forum.aspose.com/c/note/28) to ge
 ### Are temporary licenses available for Aspose.Note for .NET?
 Yes, you can obtain a temporary license [here](https://purchase.aspose.com/temporary-license/) for testing and evaluation purposes.
 ### Where can I find comprehensive documentation for Aspose.Note for .NET?
-Refer to the official [documentation](https://reference.aspose.com/note/net/) for in-depth information on using Aspose.Note for .NET.
+Refer to the [documentation](https://reference.aspose.com/note/net/) for in-depth information on using Aspose.Note for .NET.

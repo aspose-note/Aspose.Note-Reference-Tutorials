@@ -11,7 +11,7 @@ url: /net/text-manipulation/apply-dark-theme-text/
 Welcome to our step-by-step guide on applying a dark theme to text in Aspose.Note for .NET. Aspose.Note is a powerful .NET API that allows developers to work with Microsoft OneNote files programmatically. In this tutorial, we will explore how to give your OneNote documents a sleek and modern look by applying a dark theme to the text.
 ## Prerequisites
 Before we dive into the tutorial, ensure you have the following prerequisites in place:
-- Aspose.Note for .NET: Make sure you have Aspose.Note for .NET installed. If not, you can download it from the [official Aspose.Note documentation](https://reference.aspose.com/note/net/).
+- Aspose.Note for .NET: Make sure you have Aspose.Note for .NET installed. If not, you can download it from the [Aspose.Note documentation](https://reference.aspose.com/note/net/).
 - Development Environment: Set up your preferred .NET development environment, such as Visual Studio.
 - Document Directory: Prepare the directory where your OneNote document is located.
 ## Import Namespaces
@@ -66,4 +66,4 @@ Aspose.Note can handle documents of varying sizes, and its performance is optimi
 ### Can I revert to the original theme after applying the dark theme?
 Yes, you can modify the code to switch between themes based on your preferences.
 ### Where can I get support for Aspose.Note-related queries?
-For any assistance, visit the [Aspose.Note forum](https://forum.aspose.com/c/note/28) or explore the [official documentation](https://reference.aspose.com/note/net/).
+For any assistance, visit the [Aspose.Note forum](https://forum.aspose.com/c/note/28) or explore the [documentation](https://reference.aspose.com/note/net/).

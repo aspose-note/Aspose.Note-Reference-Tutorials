@@ -11,7 +11,7 @@ url: /net/text-manipulation/extract-text-from-page/
 Welcome to this comprehensive tutorial on extracting text from a page in Aspose.Note using .NET. Aspose.Note is a powerful document manipulation library that allows you to work seamlessly with Microsoft OneNote files. In this guide, we'll focus on the step-by-step process of extracting text from a page, providing you with the knowledge needed to enhance your document processing capabilities.
 ## Prerequisites
 Before we delve into the tutorial, make sure you have the following prerequisites in place:
-- Aspose.Note for .NET: Ensure that you have the Aspose.Note library installed in your .NET project. You can download it from the official [Aspose.Note for .NET documentation](https://reference.aspose.com/note/net/).
+- Aspose.Note for .NET: Ensure that you have the Aspose.Note library installed in your .NET project. You can download it from the [Aspose.Note for .NET documentation](https://reference.aspose.com/note/net/).
 - Document Directory: Have a directory set up with the OneNote document you want to process.
 Now, let's jump into the action.
 ## Import Namespaces

@@ -79,4 +79,4 @@ Absolutely, you can customize the page further by adding various elements using 
 ### How can I handle errors during the document creation process?
 Utilize exception handling mechanisms in C# to catch and handle any potential errors that may occur during the document creation process.
 ### Where can I find more examples and documentation for Aspose.Note for .NET?
-Refer to the [official Aspose.Note for .NET documentation](https://reference.aspose.com/note/net/) for detailed examples and comprehensive documentation.
+Refer to the [Aspose.Note for .NET documentation](https://reference.aspose.com/note/net/) for detailed examples and comprehensive documentation.

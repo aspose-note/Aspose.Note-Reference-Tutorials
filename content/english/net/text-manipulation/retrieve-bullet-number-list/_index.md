@@ -11,7 +11,7 @@ url: /net/text-manipulation/retrieve-bullet-number-list/
 Welcome to the world of Aspose.Note for .NET, a robust and versatile library that empowers developers to handle OneNote document manipulation effortlessly. In this tutorial, we will delve into the process of retrieving bullet or number lists using Aspose.Note for .NET. Whether you're a seasoned developer or a coding enthusiast, this guide will equip you with the knowledge to navigate through the intricacies of working with lists in Aspose.Note.
 ## Prerequisites
 Before we embark on this coding journey, make sure you have the following prerequisites in place:
-- Aspose.Note for .NET: Ensure that you have the Aspose.Note library installed. If not, you can download it from the [official Aspose.Note for .NET documentation](https://reference.aspose.com/note/net/).
+- Aspose.Note for .NET: Ensure that you have the Aspose.Note library installed. If not, you can download it from the [Aspose.Note for .NET documentation](https://reference.aspose.com/note/net/).
 - Development Environment: Have a working development environment, preferably Microsoft Visual Studio, set up on your machine.
 - Basic Knowledge of C#: Familiarize yourself with C# as this tutorial is written in this language.
 ## Import Namespaces
@@ -75,7 +75,7 @@ Console.WriteLine();
 ```
 These lines of code extract various font-related information from the number list.
 ## Conclusion
-Congratulations! You've successfully learned how to retrieve bullet or number lists using Aspose.Note for .NET. As you continue your exploration, refer to the [official documentation](https://reference.aspose.com/note/net/) for more in-depth insights and functionalities.
+Congratulations! You've successfully learned how to retrieve bullet or number lists using Aspose.Note for .NET. As you continue your exploration, refer to the [documentation](https://reference.aspose.com/note/net/) for more in-depth insights and functionalities.
 ## FAQs
 ### Can I use Aspose.Note for .NET with other programming languages?
 Aspose.Note primarily supports .NET, but there are other versions of the library tailored for different platforms and languages.

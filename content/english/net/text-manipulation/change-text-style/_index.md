@@ -11,7 +11,7 @@ url: /net/text-manipulation/change-text-style/
 Are you ready to elevate your document styling game with Aspose.Note for .NET? In this comprehensive guide, we'll walk you through the process of changing text styles effortlessly. Aspose.Note is a powerful library that enables you to manipulate Microsoft OneNote files programmatically. If you're keen on enhancing the visual appeal of your notes or documents, read on to discover how to change text styles seamlessly.
 ## Prerequisites
 Before diving into the tutorial, ensure you have the following prerequisites in place:
-- Aspose.Note for .NET Library: Download and install the library from the [official Aspose.Note for .NET documentation](https://reference.aspose.com/note/net/).
+- Aspose.Note for .NET Library: Download and install the library from the [Aspose.Note for .NET documentation](https://reference.aspose.com/note/net/).
 - Integrated Development Environment (IDE): Have a suitable IDE for .NET development installed, such as Visual Studio.
 - Document Setup: Prepare the document you want to work on and note down its directory path.
 ## Import Namespaces

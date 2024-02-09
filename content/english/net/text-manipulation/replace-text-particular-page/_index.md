@@ -13,7 +13,7 @@ In the world of .NET development, Aspose.Note stands out as a powerful tool for 
 Before diving into the tutorial, make sure you have the following prerequisites in place:
 - Basic understanding of C# and .NET programming.
 - Installed Visual Studio or any preferred .NET development environment.
-- Aspose.Note for .NET library. You can download it from the official [Aspose.Note .NET documentation](https://reference.aspose.com/note/net/).
+- Aspose.Note for .NET library. You can download it from the [Aspose.Note .NET documentation](https://reference.aspose.com/note/net/).
 ## Import Namespaces
 Ensure you import the necessary namespaces in your .NET project to leverage Aspose.Note functionalities:
 ```csharp

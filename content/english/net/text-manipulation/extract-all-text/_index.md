@@ -11,7 +11,7 @@ url: /net/text-manipulation/extract-all-text/
 Are you looking to seamlessly extract text from your Aspose.Note documents in .NET applications? Aspose.Note for .NET provides a robust solution to effortlessly retrieve text from Aspose.Note files, ensuring smooth integration into your projects. In this tutorial, we'll walk through the process step by step, allowing you to harness the power of Aspose.Note for efficient text extraction.
 ## Prerequisites
 Before diving into the tutorial, ensure you have the following prerequisites in place:
-1. Aspose.Note for .NET Library: Download and install the library from the [official Aspose.Note documentation](https://reference.aspose.com/note/net/).
+1. Aspose.Note for .NET Library: Download and install the library from the [Aspose.Note documentation](https://reference.aspose.com/note/net/).
 2. Document Directory: Prepare the directory where your Aspose.Note document is stored.
 ## Import Namespaces
 To get started, include the necessary namespaces in your project:

@@ -11,7 +11,7 @@ url: /net/text-manipulation/highlight-recent-changes/
 Are you looking to add dynamic and visually appealing features to your Note documents using .NET? Aspose.Note for .NET is a powerful solution that allows you to manipulate and enhance your Note files seamlessly. In this tutorial, we'll dive into one specific aspect: highlighting all recent changes in Aspose.Note text.
 ## Prerequisites
 Before we embark on this journey, make sure you have the following prerequisites in place:
-- Aspose.Note for .NET: Ensure that you have the Aspose.Note library installed. You can download it from the official [Aspose.Note for .NET documentation](https://reference.aspose.com/note/net/).
+- Aspose.Note for .NET: Ensure that you have the Aspose.Note library installed. You can download it from the [Aspose.Note for .NET documentation](https://reference.aspose.com/note/net/).
 - Development Environment: Set up a .NET development environment, including an IDE like Visual Studio.
 - Sample Document: Prepare a Note document (in this case, "Aspose.one") that contains the text you want to highlight.
 ## Import Namespaces
