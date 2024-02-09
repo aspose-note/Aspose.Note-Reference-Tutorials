@@ -45,7 +45,7 @@ Repeat these steps in your .NET application, and you'll have successfully extrac
 ## Conclusion
 In conclusion, extracting text from Aspose.Note documents in .NET is a straightforward process with Aspose.Note for .NET. By following the steps outlined in this tutorial, you can seamlessly integrate text extraction into your applications.
 ## Frequently Asked Questions
-=### Q: Can I extract text from encrypted Aspose.Note documents?
+### Q: Can I extract text from encrypted Aspose.Note documents?
 A: Yes, Aspose.Note for .NET supports text extraction from encrypted documents.
 ### Q: Are there any file format restrictions for text extraction?
 A: Aspose.Note for .NET supports various file formats, including .one and .onenote.

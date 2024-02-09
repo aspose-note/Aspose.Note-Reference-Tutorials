@@ -52,7 +52,7 @@ Console.WriteLine("\nStyle changed successfully.");
 ```
 ## Conclusion
 Congratulations! You've successfully mastered the art of changing text styles in Aspose.Note for .NET. This simple yet effective tutorial empowers you to enhance the visual appeal of your documents effortlessly. Now, go ahead and unleash your creativity!
-## FAQs
+## FAQ's
 ### Is Aspose.Note for .NET suitable for beginners?
 Absolutely! Aspose.Note for .NET provides a user-friendly interface, making it accessible for developers of all skill levels.
 ### Can I try Aspose.Note for .NET before purchasing?

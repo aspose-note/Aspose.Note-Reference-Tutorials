@@ -76,7 +76,7 @@ Console.WriteLine();
 These lines of code extract various font-related information from the number list.
 ## Conclusion
 Congratulations! You've successfully learned how to retrieve bullet or number lists using Aspose.Note for .NET. As you continue your exploration, refer to the [documentation](https://reference.aspose.com/note/net/) for more in-depth insights and functionalities.
-## FAQs
+## FAQ's
 ### Can I use Aspose.Note for .NET with other programming languages?
 Aspose.Note primarily supports .NET, but there are other versions of the library tailored for different platforms and languages.
 ### Is Aspose.Note compatible with the latest OneNote formats?

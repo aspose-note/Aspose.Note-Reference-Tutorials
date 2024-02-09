@@ -70,7 +70,7 @@ Console.WriteLine("\nNumbering applied successfully on a text.\nFile saved at " 
 ```
 ## Conclusion
 Congratulations! You've successfully learned how to apply numbering on text in Aspose.Note for .NET. Experiment with different formatting options to create visually appealing documents effortlessly.
-## FAQs
+## FAQ's
 ### 1. Can I customize the numbering format?
 Yes, the NumberList class allows you to customize the numbering format according to your preferences.
 ### 2. Are there other formatting options available?

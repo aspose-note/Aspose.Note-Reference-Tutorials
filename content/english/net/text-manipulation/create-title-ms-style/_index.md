@@ -69,7 +69,7 @@ Console.WriteLine("\nPage title set up successfully in Microsoft OneNote style.\
 Now, you've successfully created a Microsoft-style title using Aspose.Note for .NET. Enhance your document generation process with this simple yet powerful feature.
 ## Conclusion
 Incorporating Microsoft-style titles into your documents has never been easier, thanks to Aspose.Note for .NET. By following this step-by-step guide, you can seamlessly integrate professional-looking titles, enhancing the visual appeal of your documents.
-## FAQs
+## FAQ's
 ### Can I customize the formatting of the title text?
 Yes, you can customize the formatting of the title text by modifying the `ParagraphStyle` property.
 ### Is Aspose.Note for .NET compatible with the latest .NET frameworks?

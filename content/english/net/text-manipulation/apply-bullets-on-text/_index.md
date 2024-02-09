@@ -75,7 +75,7 @@ Console.WriteLine("\nBullets applied successfully on a text.\nFile saved at " + 
 ```
 ## Conclusion
 Congratulations! You have successfully learned how to apply bullets to text using Aspose.Note for .NET. This feature can significantly enhance the formatting of your OneNote documents, making them more visually appealing.
-## FAQs
+## FAQ's
 ### Can I apply different bullet styles to each item in the list?
 Yes, you can customize the bullet styles by modifying the `NumberList` properties for each `OutlineElement`.
 ### Is Aspose.Note compatible with the latest version of Microsoft OneNote?

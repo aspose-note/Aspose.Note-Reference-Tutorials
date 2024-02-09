@@ -41,13 +41,13 @@ var templateData = new Dictionary<string, string>
 };
 ```
 Define a dictionary where the keys are placeholders in your template, and values are the data you want to replace them with.
----
+
 ## Step 3: Load the Template Document
 ```csharp
 var templateDocument = new Document(Path.Combine(dataDir, "JobOffer.one"));
 ```
 Load your OneNote template document into Aspose.Note.
----
+
 ## Step 4: Replace Template Words with Dynamic Data
 ```csharp
 foreach (var paragraph in templateDocument.GetChildNodes<RichText>())
@@ -59,16 +59,16 @@ foreach (var paragraph in templateDocument.GetChildNodes<RichText>())
 }
 ```
 Iterate through each paragraph in the template, replacing placeholders with dynamic data.
----
+
 ## Step 5: Save the Generated Document
 ```csharp
 templateDocument.Save(Path.Combine(dataDir, "JobOffer_out.one"));
 ```
 Save the dynamically generated document to your specified directory.
----
+
 ## Conclusion
 Congratulations! You've successfully generated a dynamic document using Aspose.Note for .NET. This process opens up a world of possibilities for creating personalized and data-driven documents seamlessly.
----
+
 ## Frequently Asked Questions
 ### Can I use Aspose.Note for .NET with other document formats?
 Yes, Aspose.Note for .NET primarily deals with OneNote documents, but Aspose provides various libraries for different formats.

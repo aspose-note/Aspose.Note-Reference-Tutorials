@@ -70,7 +70,6 @@ Now you've successfully set the default paragraph style in your Aspose.Note docu
 ## Conclusion
 Mastering the art of setting default paragraph styles using Aspose.Note for .NET opens up a world of possibilities in document manipulation. With these simple yet powerful steps, you can enhance the visual appeal of your documents and deliver a more polished user experience.
 ## Frequently Asked Questions
- (FAQs)
 ### Can I change the default paragraph style after saving the document?
 No, the default paragraph style is set during document creation and cannot be altered post-saving.
 ### Does Aspose.Note support other font styles beyond the examples provided?

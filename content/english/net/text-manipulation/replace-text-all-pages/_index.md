@@ -70,7 +70,6 @@ Inform the user that the text replacement process was successful.
 ## Conclusion: Empower Your .NET Development with Aspose.Note
 In conclusion, mastering the art of replacing text on all pages with Aspose.Note for .NET adds a valuable tool to your developer toolkit. The step-by-step guide presented here equips you with the knowledge to seamlessly integrate this functionality into your projects, enhancing document processing efficiency.
 ## Frequently Asked Questions
- (FAQs)
 ### Q: Can I replace text in other document formats besides PDF?
 A: Yes, Aspose.Note for .NET supports various output formats. Adjust the `SaveFormat` parameter accordingly.
 ### Q: Is there a trial version available for Aspose.Note for .NET?

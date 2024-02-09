@@ -77,8 +77,8 @@ document.Save(Path.Combine("Your Document Directory", "SetProofingLanguageForTex
 Congratulations! You have successfully set the proofing language for text using Aspose.Note for .NET.
 ## Conclusion
 In this tutorial, we delved into the process of setting proofing language for text in Aspose.Note for .NET. With a step-by-step guide and code snippets, you are now equipped to enhance your text manipulation capabilities. Experiment with different languages and unleash the full potential of Aspose.Note in your .NET projects.
----
-## FAQs
+
+## FAQ's
 ### Can I set proofing language for specific words in a paragraph?
 Yes, using Aspose.Note for .NET, you can set proofing language for individual words within a paragraph, providing granular control over language settings.
 ### Is Aspose.Note compatible with the latest .NET frameworks?
