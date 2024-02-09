@@ -38,6 +38,7 @@ Now, let's break down the process of building a document and inserting an image 
 ## Step 1: Create Document Object
 
 ```csharp
+string dataDir = "Your Document Directory";
 Document doc = new Document();
 ```
 
@@ -118,7 +119,8 @@ Finally, we add the page, complete with its content, to the document.
 ## Step 11: Save Document
 
 ```csharp
-doc.Save(dataDir + "BuildDocAndInsertImage_out.one");
+dataDir = dataDir + "BuildDocAndInsertImage_out.one";
+doc.Save(dataDir);
 ```
 
 This line saves the modified document to the specified location.

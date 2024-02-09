@@ -34,6 +34,8 @@ Now, let's break down the process of inserting images using image streams into m
 
 ## Step 1: Initialize Document Object
 ```csharp
+// The path to the documents directory.
+string dataDir = "Your Document Directory";
 Document doc = new Document();
 ```
 We initialize a new instance of the Document class, which represents the OneNote document.
