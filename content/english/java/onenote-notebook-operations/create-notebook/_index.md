@@ -20,7 +20,7 @@ import com.aspose.note.examples.Utils;
 public class CreateNoteBook {
 	public static void main(String... args) throws IOException {
 		// ExStart:CreateNoteBook	
-		String dataDir = Utils.getSharedDataDir(CreateNoteBook.class) + "Notebook/";
+		String dataDir = "Your Document Directory";
 
 		Notebook notebook = new Notebook();
 

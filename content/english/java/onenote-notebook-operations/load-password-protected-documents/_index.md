@@ -23,7 +23,7 @@ public class LoadPasswordProtectedDocuments {
 	public static void main(String... args) throws IOException {
 		// ExStart:LoadingPasswordProtectedDoc
 		// Load the document into Aspose.Note.
-		String dataDir = Utils.getSharedDataDir(LoadPasswordProtectedDocuments.class) + "Notebook/";
+		String dataDir = "Your Document Directory";
 		
 		NotebookLoadOptions loadOptions = new NotebookLoadOptions();
 		loadOptions.setDeferredLoading(true);

@@ -24,7 +24,7 @@ import com.aspose.note.examples.Utils;
 public class GetOutlookTask {
 	public static void main(String... args) throws IOException {
 		// ExStart:GetOutlookTask
-		String dataDir = Utils.getSharedDataDir(GetOutlookTask.class) + "tasks/";
+		String dataDir = "Your Document Directory";
 
 		// Load the document into Aspose.Note
 		Document doc = new Document(dataDir + "Sample1.one");

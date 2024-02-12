@@ -31,7 +31,7 @@ public class SaveToPdfUsingPageSettings {
         // ExSummary:Shows how to save a document in Pdf format with Letter page layout.
 
         // The path to the documents directory.
-        String dataDir = Utils.getSharedDataDir(SaveToPdfUsingPageSettings.class) + "load/";
+        String dataDir = "Your Document Directory";
 
         // Load the document into Aspose.Note.
         Document oneFile = new Document(Paths.get(dataDir, "OneNote.one").toString());
@@ -52,7 +52,7 @@ public class SaveToPdfUsingPageSettings {
         // ExSummary:Shows how to save a document in Pdf format with A4 page layout without height limit.
 
         // The path to the documents directory.
-        String dataDir = Utils.getSharedDataDir(SaveToPdfUsingPageSettings.class) + "load/";
+        String dataDir = "Your Document Directory";
 
         // Load the document into Aspose.Note.
         Document oneFile = new Document(Paths.get(dataDir, "OneNote.one").toString());

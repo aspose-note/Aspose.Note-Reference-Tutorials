@@ -28,7 +28,7 @@ public class ReplaceTextonParticularPage {
 
 	public static void main(String... args) throws IOException {
 		// ExStart:ReplaceTextOnParticularPage
-		String dataDir = Utils.getSharedDataDir(ReplaceTextonParticularPage.class) + "text/";
+		String dataDir = "Your Document Directory";
 
 		Map<String, String> replacements = new HashMap<String, String>();
 		replacements.put("2. Get organized", "New Text Here");

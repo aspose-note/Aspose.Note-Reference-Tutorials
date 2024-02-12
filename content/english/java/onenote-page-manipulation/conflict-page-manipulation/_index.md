@@ -29,7 +29,7 @@ public class ConflictPageManipulation {
 		// TODO Auto-generated method stub
 
 		//ExStart: ConflictPageManipulation
-		String dataDir = Utils.getSharedDataDir(GetInfo.class) + "pages/";
+		String dataDir = "Your Document Directory";
 		// Load the document into Aspose.Note
 		LoadOptions options = new LoadOptions();
 		Document doc = new Document(dataDir + "Aspose.one", options);

@@ -27,7 +27,7 @@ public class SaveToJpegImageUsingSaveFormat {
         // ExSummary:Shows how to save a document as image in Jpeg format using SaveFormat.
 
         // The path to the documents directory.
-        String dataDir = Utils.getSharedDataDir(SaveOneNoteDocToStream.class) + "load/";
+        String dataDir = "Your Document Directory";
 
         // Load the document into Aspose.Note.
         Document oneFile = new Document(dataDir + "Aspose.one");

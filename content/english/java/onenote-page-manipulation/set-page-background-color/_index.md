@@ -25,7 +25,7 @@ public class SetPageBackgroundColor {
     public static void main(String[] args) throws IOException {
         // ExStart:SetPageBackgroundColor
         // The path to the documents directory.
-        Path dataDir = Paths.get(Utils.getSharedDataDir(WorkingWithPageRevisions.class), "pages");
+        Path dataDir = "Your Document Directory";
 
         // Load OneNote document and get first child
         Document document = new Document(dataDir.resolve("Sample1.one").toString());

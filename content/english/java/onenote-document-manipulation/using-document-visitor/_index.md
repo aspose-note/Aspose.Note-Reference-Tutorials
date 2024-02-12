@@ -28,7 +28,7 @@ import com.aspose.note.examples.Utils;
 public class UsingDocumentVisitor {
 	public static void main(String... args) throws IOException {
 
-		String dataDir = Utils.getSharedDataDir(UsingDocumentVisitor.class) + "dom/";
+		String dataDir = "Your Document Directory";
 
 		// Load the document into Aspose.Note
 		Document doc = new Document(dataDir + "Sample1.one");

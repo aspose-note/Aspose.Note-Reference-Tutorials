@@ -24,7 +24,7 @@ public class WritingPasswordProtectedDoc {
 	public static void main(String... args) throws IOException {
 		// ExStart:WritingPasswordProtectedDoc
 		// Load the document into Aspose.Note.
-		String dataDir = Utils.getSharedDataDir(WritingPasswordProtectedDoc.class) + "Notebook/";
+		String dataDir = "Your Document Directory";
 		
 		Notebook notebook = new Notebook();
 		

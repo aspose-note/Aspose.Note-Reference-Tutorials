@@ -31,7 +31,7 @@ public class AddTextNodeWithTag {
 		// TODO Auto-generated method stub
 		// ExStart:AddTextNodeWithTag
 		// The path to the documents directory.
-		String dataDir = Utils.getSharedDataDir(AddTextNodeWithTag.class) + "tags/";
+		String dataDir = "Your Document Directory";
 
 		// Create an object of the Document class
 		Document doc = new Document();

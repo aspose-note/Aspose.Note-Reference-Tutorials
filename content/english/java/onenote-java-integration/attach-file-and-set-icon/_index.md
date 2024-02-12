@@ -24,7 +24,7 @@ public class AttachFileAndSetIcon {
     public static void main(String[] args) throws IOException {
         // ExStart:AttachFileAndSetIcon
         // The path to the documents directory.
-        String dataDir = Utils.getSharedDataDir(AttachFileByPath.class) + "attachments\\";
+        String dataDir = "Your Document Directory";
 
         // Create an object of the Document class
         Document doc = new Document();

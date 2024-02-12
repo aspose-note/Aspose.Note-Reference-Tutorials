@@ -26,7 +26,7 @@ public class SetDefaultParagraphStyle {
     public static void main(String... args) throws IOException {
         // ExStart:SetDefaultParagraphStyle
         // ExSummary:Manipulate by text format using paragraph style.
-        String dataDir = Paths.get(Utils.getSharedDataDir(LoadPasswordProtectedOneNoteDoc.class), "styles").toString();
+        String dataDir = "Your Document Directory";
 
         Document document = new Document();
         Page page = new Page();

@@ -22,7 +22,7 @@ import com.aspose.note.examples.Utils;
 public class RetrieveDocumentsfromOneNoteNotebook {
 	public static void main(String... args) throws IOException {
 		// ExStart:RetrieveDocumentsfromOneNoteNotebook
-		String dataDir = Utils.getSharedDataDir(RetrieveDocumentsfromOneNoteNotebook.class) + "Notebook/";
+		String dataDir = "Your Document Directory";
 		Notebook rootNotebook = new Notebook(dataDir + "test.onetoc2");
 
 		List<Document> allDocuments = rootNotebook.getChildNodes(Document.class);

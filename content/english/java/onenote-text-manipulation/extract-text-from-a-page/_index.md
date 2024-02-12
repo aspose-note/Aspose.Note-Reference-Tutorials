@@ -27,7 +27,7 @@ public class ExtractingTextFromAPage {
     {
         // ExStart:ExtractingTextFromAPage
         // The path to the documents directory.
-        String dataDir = Utils.getSharedDataDir(ExtractingTextFromAPage.class) + "text\\";
+        String dataDir = "Your Document Directory";
 
         // Load the document into Aspose.Note.
         Document oneFile = new Document(dataDir + "Sample1.one");

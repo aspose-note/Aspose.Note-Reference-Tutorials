@@ -30,7 +30,7 @@ public class PrintDocuments {
 	public static void PrintDocument() throws PrintException
 	{
 		//ExStart: PrintDocument
-		String dataDir = Utils.getSharedDataDir(AlternativeText.class) + "load/";
+		String dataDir = "Your Document Directory";
 		
 		Document document = new Document(dataDir + "Aspose.one");
 
@@ -41,7 +41,7 @@ public class PrintDocuments {
 	public static void PrintDocumentWithPrintOptions() throws PrintException
 	{
 		//ExStart: PrintDocumentWithPrintOptions
-		String dataDir = Utils.getSharedDataDir(AlternativeText.class) + "load/";
+		String dataDir = "Your Document Directory";
 
 		Document document = new Document(dataDir + "Aspose.one");
 
@@ -63,7 +63,7 @@ public class PrintDocuments {
 		//ExStart: PrintDocumentsWithVirtualPrinter
 		//Prints 3 copies of first and second pages using virtual pdf printer doPDF 8
 		//It is free and can be downloaded here http://www.dopdf.com/download.php
-		String dataDir = Utils.getSharedDataDir(AlternativeText.class) + "load/";
+		String dataDir = "Your Document Directory";
 		Document doc = new Document(dataDir + "test.one");
 		 
 		 

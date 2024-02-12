@@ -21,7 +21,7 @@ import com.aspose.note.examples.Utils;
 public class LoadPasswordProtectedOneNoteDoc {
 	public static void main(String... args) throws IOException {
 		// ExStart:PasswordProtectedDoc
-		String dataDir = Utils.getSharedDataDir(LoadPasswordProtectedOneNoteDoc.class) + "load/";
+		String dataDir = "Your Document Directory";
 
 		LoadOptions loadOptions = new LoadOptions();
 

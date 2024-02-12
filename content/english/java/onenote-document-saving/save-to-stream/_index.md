@@ -22,7 +22,7 @@ import com.aspose.note.examples.Utils;
 public class SaveToStream {
 	public static void main(String... args) throws IOException {
 		// ExStart:SaveToStream
-		String dataDir = Utils.getSharedDataDir(SaveOneNoteDocToStream.class) + "load/";
+		String dataDir = "Your Document Directory";
 
 		// Load the document into Aspose.Note
 		Document doc = new Document(dataDir + "Sample1.one");

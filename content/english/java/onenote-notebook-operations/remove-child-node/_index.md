@@ -22,7 +22,7 @@ import com.aspose.note.system.collections.Generic.List;
 public class RemoveChildNode {
 	public static void main(String... args) throws IOException {
 		// ExStart:RemoveChildNode
-		String dataDir = Utils.getSharedDataDir(RemoveChildNode.class) + "Notebook/";
+		String dataDir = "Your Document Directory";
 		
 		// Load a OneNote Notebook
 		Notebook notebook = new Notebook(dataDir + "test.onetoc2");

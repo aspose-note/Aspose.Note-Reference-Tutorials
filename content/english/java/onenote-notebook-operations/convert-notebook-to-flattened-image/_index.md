@@ -23,7 +23,7 @@ import com.aspose.note.examples.Utils;
 public class ConvertToImageAsFlattenedNotebook {
 	public static void main(String... args) throws IOException {
 		// ExStart:ConvertToImageAsFlattenedNotebook
-		String dataDir = Utils.getSharedDataDir(ConvertToImageAsFlattenedNotebook.class) + "Notebook/";
+		String dataDir = "Your Document Directory";
 		
 		Notebook notebook = new Notebook(dataDir + "test.onetoc2");
 

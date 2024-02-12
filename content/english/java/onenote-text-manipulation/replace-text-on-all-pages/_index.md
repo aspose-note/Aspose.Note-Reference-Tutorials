@@ -26,7 +26,7 @@ import com.aspose.note.examples.Utils;
 public class ReplaceTextonAllPages {
 	public static void main(String... args) throws IOException {
 		// ExStart:ReplaceTextOnAllPages
-		String dataDir = Utils.getSharedDataDir(ReplaceTextonAllPages.class) + "text/";
+		String dataDir = "Your Document Directory";
 
 		Map<String, String> replacements = new HashMap<String, String>();
 		replacements.put("2. Get organized", "New Text Here");

@@ -21,7 +21,7 @@ public class SaveDocToOneNoteFormat {
 
 	public static void main(String... args) throws IOException {
 		// ExStart:SaveDocToOneNoteFormat
-		String dataDir = Utils.getSharedDataDir(SaveDocToOneNoteFormat.class) + "load/";
+		String dataDir = "Your Document Directory";
 		
 		Document doc = new Document(dataDir + "Sample1.one");
 		doc.save(dataDir + "SaveDocToOneNoteFormat_out.one");

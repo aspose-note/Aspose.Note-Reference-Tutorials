@@ -32,7 +32,7 @@ public class OpenCloseProjectC {
         // ExSummary:Shows how to make completed all checkbox items related to 'Project C'.
 
         // The path to the documents directory.
-        String dataDir = Utils.getSharedDataDir(Reporting.class) + "tags/";
+        String dataDir = "Your Document Directory";
 
         // Load the document into Aspose.Note.
         Document oneFile = new Document(Paths.get(dataDir, "ProjectNotes.one").toString());
@@ -67,7 +67,7 @@ public class OpenCloseProjectC {
         // ExSummary:Shows how to make open all checkbox items related to 'Project C'.
 
         // The path to the documents directory.
-        String dataDir = Utils.getSharedDataDir(Reporting.class) + "tags/";
+        String dataDir = "Your Document Directory";
 
         // Load the document into Aspose.Note.
         Document oneFile = new Document(Paths.get(dataDir, ClosedProjectCNotesFileName).toString());

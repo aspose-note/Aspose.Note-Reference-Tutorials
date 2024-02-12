@@ -43,7 +43,7 @@ public class ChangeTableStyle {
 
     public static void main(String... args) throws IOException {
         // ExStart:ChangeTableStyle
-        String dataDir = Utils.getSharedDataDir(CreateTableWithLockedColumns.class) + "tables\\";
+        String dataDir = "Your Document Directory";
 
         // Load the document into Aspose.Note.
         Document document = new Document(dataDir + "ChangeTableStyleIn.one");

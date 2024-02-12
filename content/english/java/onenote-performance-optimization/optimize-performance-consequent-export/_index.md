@@ -24,7 +24,7 @@ import com.aspose.note.examples.Utils;
 public class OptimizePerformanceForConsequentExportOperations {
 	public static void main(String... args) {
 		// ExStart:ConsequentExportOperations
-		String dataDir = Utils.getSharedDataDir(OptimizePerformanceForConsequentExportOperations.class) + "load/";
+		String dataDir = "Your Document Directory";
 		// initialize the new Document
 		Document doc = new Document();
 		doc.setAutomaticLayoutChangesDetectionEnabled(false);

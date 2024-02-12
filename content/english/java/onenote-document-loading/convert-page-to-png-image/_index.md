@@ -24,7 +24,7 @@ public class ConvertSpecificPageToPngImage {
 	public static void main(String... args) throws IOException {
 		// ExStart:ConvertSpecificPageToPng
 		// Load the document into Aspose.Note.
-		String dataDir = Utils.getSharedDataDir(ConvertSpecificPageToPngImage.class) + "load/";
+		String dataDir = "Your Document Directory";
 		Document oneFile = new Document(dataDir + "Sample1.one", new LoadOptions());
 
 		// Initialize ImageSaveOptions object

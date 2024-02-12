@@ -24,7 +24,7 @@ import com.aspose.note.examples.Utils;
 public class UsingSplittingAlgorithmMethod {
 	public static void main(String... args) throws IOException {
 
-		String dataDir = Utils.getSharedDataDir(UsingSplittingAlgorithmMethod.class) + "load/";
+		String dataDir = "Your Document Directory";
 
 		Document doc = new Document(dataDir + "Sample1.one");
 

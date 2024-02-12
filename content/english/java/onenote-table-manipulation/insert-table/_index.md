@@ -22,7 +22,7 @@ public class InsertTable {
     public static void main(String[] args) throws IOException {
         // ExStart:InsertTable
         // The path to th documents directory.
-        String dataDir = Utils.getSharedDataDir(InsertTable.class) + "tables\\";
+        String dataDir = "Your Document Directory";
 
         Document doc = new Document();
 

@@ -21,7 +21,7 @@ import com.aspose.note.examples.Utils;
 public class AddChildNode {
 	public static void main(String... args) throws IOException {
 		// ExStart:AddChildNode
-		String dataDir = Utils.getSharedDataDir(AddChildNode.class) + "Notebook/";
+		String dataDir = "Your Document Directory";
 		// Load a OneNote Notebook
 		Notebook notebook = new Notebook(dataDir + "Notizbuch �ffnen.onetoc2");
 

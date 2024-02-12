@@ -25,7 +25,7 @@ public class ApplyDarkTheme {
         // ExSummary:Shows how to apply Dark theme style to a Document.
 
         // The path to the documents directory.
-        String dataDir = Utils.getSharedDataDir(ApplyDarkTheme.class) + "text/";
+        String dataDir = "Your Document Directory";
 
         // Load the document into Aspose.Note.
         Document doc = new Document(Paths.get(dataDir, "Aspose.one").toString());

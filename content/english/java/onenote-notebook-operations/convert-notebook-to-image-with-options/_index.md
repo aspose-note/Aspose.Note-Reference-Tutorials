@@ -23,7 +23,7 @@ import com.aspose.note.examples.Utils;
 public class ConvertToImageWithOptions {
 	public static void main(String... args) throws IOException {
 		// ExStart:ConvertToImageWithOptions
-		String dataDir = Utils.getSharedDataDir(ConvertToImageWithOptions.class) + "Notebook/";
+		String dataDir = "Your Document Directory";
 		// Load a OneNote Notebook
 		Notebook notebook = new Notebook(dataDir + "test.onetoc2");
 

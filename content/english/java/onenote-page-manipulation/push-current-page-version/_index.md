@@ -22,7 +22,7 @@ import com.aspose.note.examples.Utils;
 public class PushCurrentPageVersion {
 	public static void main(String... args) throws IOException {
 		// ExStart:PushCurrentPageVersion
-		String dataDir = Utils.getSharedDataDir(InsertPages.class) + "pages/";
+		String dataDir = "Your Document Directory";
 		// Load OneNote document and get first child
 		Document document = new Document(dataDir + "Sample1.one");
 		Page page = document.getFirstChild();

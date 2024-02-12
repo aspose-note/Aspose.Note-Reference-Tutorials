@@ -30,7 +30,7 @@ public class BuildDocAndInsertImageUsingImageStream {
 	public static void main(String... args) throws IOException {
 
 		// ExStart:BuildDocAndInsertImageUsingImageStream
-		String dataDir = Utils.getSharedDataDir(BuildDocAndInsertImageUsingImageStream.class) + "images/";
+		String dataDir = "Your Document Directory";
 
 		// create an object of the Document class
 		Document doc = new Document();

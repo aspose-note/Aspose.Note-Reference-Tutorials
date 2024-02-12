@@ -28,7 +28,7 @@ public class InsertanImage {
 		// load document from the stream.
 		LoadOptions options = new LoadOptions();
 
-		String dataDir = Utils.getSharedDataDir(InsertanImage.class) + "images/";
+		String dataDir = "Your Document Directory";
 		
 		Document oneFile = new Document(dataDir + "Sample1.one", options);
 

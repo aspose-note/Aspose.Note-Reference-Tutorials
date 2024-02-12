@@ -26,7 +26,7 @@ import com.aspose.note.examples.Utils;
 public class BuildDocAndInsertImage {
 	public static void main(String... args) throws IOException {
 		// ExStart:BuildDocAndInsertImage
-		String dataDir = Utils.getSharedDataDir(BuildDocAndInsertImage.class) + "images/";
+		String dataDir = "Your Document Directory";
 		// create an object of the Document class
 		Document doc = new Document();
 		// initialize Page class object

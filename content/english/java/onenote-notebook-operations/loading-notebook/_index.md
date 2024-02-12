@@ -22,7 +22,7 @@ import com.aspose.note.examples.Utils;
 public class LoadingNotebook {
 	public static void main(String... args) throws IOException {
 		// ExStart:LoadingNotebook
-		String dataDir = Utils.getSharedDataDir(LoadingNotebook.class) + "Notebook/";
+		String dataDir = "Your Document Directory";
 		Notebook notebook = new Notebook(dataDir + "Notizbuch �ffnen.onetoc2");
         
         

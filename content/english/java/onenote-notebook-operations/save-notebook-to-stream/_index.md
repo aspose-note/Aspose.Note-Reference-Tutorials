@@ -24,7 +24,7 @@ public class SaveNotebooktoStream {
 	public static void main(String... args) throws IOException {
 		// ExStart:SaveNotebookToStream
 		// Load the document into Aspose.Note.
-		String dataDir = Utils.getSharedDataDir(SaveNotebooktoStream.class) + "Notebook/";
+		String dataDir = "Your Document Directory";
 
 		Notebook notebook = new Notebook();
 

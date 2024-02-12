@@ -22,7 +22,7 @@ public class ConvertSpecificPageRangeToPdf {
 	public static void main(String... args) throws IOException {
 		// ExStart:SaveRangeOfPagesAsPDF
 		// Load the document into Aspose.Note.
-		String dataDir = Utils.getSharedDataDir(ConvertSpecificPageRangeToPdf.class) + "load/";
+		String dataDir = "Your Document Directory";
 		
 		Document oneFile = new Document(dataDir + "Sample1.one");
 

@@ -26,7 +26,7 @@ public class SaveToBmpImageUsingImageSaveOptions {
         // ExSummary:Shows how to save a document as image in Bmp format using ImageSaveOptions.
 
         // The path to the documents directory.
-        String dataDir = Utils.getSharedDataDir(SaveOneNoteDocToStream.class) + "load/";
+        String dataDir = "Your Document Directory";
 
         // Load the document into Aspose.Note.
         Document oneFile = new Document(dataDir + "Aspose.one");

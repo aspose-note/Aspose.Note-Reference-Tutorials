@@ -37,7 +37,7 @@ public class Reporting {
         // ExSummary:Shows how to generate a pdf containing pages with items marked by incomplete checkboxes and created during last week.
 
         // The path to the documents directory.
-        String dataDir = Utils.getSharedDataDir(Reporting.class) + "tags/";
+        String dataDir = "Your Document Directory";
 
         // Load the document into Aspose.Note.
         Document oneFile = new Document(Paths.get(dataDir, "ProjectNotes.one").toString());
@@ -67,7 +67,7 @@ public class Reporting {
         // ExSummary:Shows how to generate a pdf containing pages with Outlook incomplete tasks to complete on this week.
 
         // The path to the documents directory.
-        String dataDir = Utils.getSharedDataDir(Reporting.class) + "tags/";
+        String dataDir = "Your Document Directory";
 
         // Load the document into Aspose.Note.
         Document oneFile = new Document(Paths.get(dataDir, "TagFile.one").toString());
@@ -106,7 +106,7 @@ public class Reporting {
         // ExSummary:Shows how to generate a pdf containing all pages related to 'Project A'.
 
         // The path to the documents directory.
-        String dataDir = Utils.getSharedDataDir(Reporting.class) + "tags/";
+        String dataDir = "Your Document Directory";
 
         // Load the document into Aspose.Note.
         Document oneFile = new Document(Paths.get(dataDir, "ProjectNotes.one").toString());

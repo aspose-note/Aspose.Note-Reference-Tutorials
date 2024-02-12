@@ -22,7 +22,7 @@ import com.aspose.note.examples.Utils;
 public class LoadingNotebookFilewithLoadOptions {
 	public static void main(String... args) throws IOException {
 		// ExStart:LoadingNotebookFilewithLoadOptions
-		String dataDir = Utils.getSharedDataDir(LoadingNotebookFilewithLoadOptions.class) + "Notebook/";
+		String dataDir = "Your Document Directory";
 
 		// By default children loading is "lazy".
 		Notebook notebook = new Notebook(dataDir + "test.onetoc2");

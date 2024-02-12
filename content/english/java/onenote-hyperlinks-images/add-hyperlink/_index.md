@@ -27,7 +27,7 @@ import com.aspose.note.examples.Utils;
 public class AddHyperlink {
 	public static void main(String... args) throws IOException {
 		// ExStart:AddHyperlink
-		String dataDir = Utils.getSharedDataDir(AddHyperlink.class) + "hyperlinks/";
+		String dataDir = "Your Document Directory";
 		
 		// create an object of the Document class
 		Document doc = new Document();

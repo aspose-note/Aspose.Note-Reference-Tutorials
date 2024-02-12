@@ -25,7 +25,7 @@ import com.aspose.note.examples.Utils;
 public class OptimizeExportPerformance {
 	public static void main(String... args) throws IOException {
 		// ExStart: OptimizeExportPerformance
-		String dataDir = Utils.getSharedDataDir(OptimizeExportPerformance.class) + "load/";
+		String dataDir = "Your Document Directory";
 
 		// initialize the new Document
 		Document doc = new Document();

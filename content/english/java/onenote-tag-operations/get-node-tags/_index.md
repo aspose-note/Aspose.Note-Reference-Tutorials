@@ -24,7 +24,7 @@ import com.aspose.note.examples.Utils;
 public class GetNodeTags {
 	public static void main(String... args) throws IOException {
 		// ExStart:GetNodeTags
-		String dataDir = Utils.getSharedDataDir(GetNodeTags.class) + "tags/";
+		String dataDir = "Your Document Directory";
 
 		// Load the document into Aspose.Note
 		Document doc = new Document(dataDir + "Sample1.one");

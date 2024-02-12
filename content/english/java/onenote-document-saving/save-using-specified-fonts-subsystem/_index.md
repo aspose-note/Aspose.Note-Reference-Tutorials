@@ -28,7 +28,7 @@ public class SaveUsingSpecifiedFontsSubsystem {
         SaveUsingDocumentFontsSubsystemWithDefaultFontFromFile();
         SaveUsingDocumentFontsSubsystemWithDefaultFontFromStream();
 
-        System.out.println("\nDocument with missing font is successfully saved at " + Utils.getSharedDataDir(SaveOneNoteDocToStream.class) + "load/");
+        System.out.println("\nDocument with missing font is successfully saved at " + "Your Document Directory";
     }
 
     public static void SaveUsingDocumentFontsSubsystemWithDefaultFontName() throws IOException
@@ -37,7 +37,7 @@ public class SaveUsingSpecifiedFontsSubsystem {
         // ExSummary:Shows how to save a document in pdf format using specified default font.
 
         // The path to the documents directory.
-        String dataDir = Utils.getSharedDataDir(SaveOneNoteDocToStream.class) + "load/";
+        String dataDir = "Your Document Directory";
 
         // Load the document into Aspose.Note.
         Document oneFile = new Document(Paths.get(dataDir, "missing-font.one").toString());
@@ -58,7 +58,7 @@ public class SaveUsingSpecifiedFontsSubsystem {
         // ExSummary:Shows how to save a document in pdf format using default font from a file.
 
         // The path to the documents directory.
-        String dataDir = Utils.getSharedDataDir(SaveOneNoteDocToStream.class) + "load/";
+        String dataDir = "Your Document Directory";
 
         String fontFile = Paths.get(dataDir, "geo_1.ttf").toString();
 
@@ -81,7 +81,7 @@ public class SaveUsingSpecifiedFontsSubsystem {
         // ExSummary:Shows how to save a document in pdf format using default font from a stream.
 
         // The path to the documents directory.
-        String dataDir = Utils.getSharedDataDir(SaveOneNoteDocToStream.class) + "load/";
+        String dataDir = "Your Document Directory";
 
         String fontFile = Paths.get(dataDir, "geo_1.ttf").toString();
 

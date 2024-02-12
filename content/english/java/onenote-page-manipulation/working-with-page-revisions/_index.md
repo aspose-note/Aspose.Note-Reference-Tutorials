@@ -24,7 +24,7 @@ public class WorkingWithPageRevisions {
     public static void main(String[] args) throws IOException {
         // ExStart:WorkingWithPageRevisions
         // The path to the documents directory.
-        String dataDir = Utils.getSharedDataDir(WorkingWithPageRevisions.class) + "pages\\";
+        String dataDir = "Your Document Directory";
 
         // Load OneNote document and get first child
         Document document = new Document(dataDir + "Sample1.one");

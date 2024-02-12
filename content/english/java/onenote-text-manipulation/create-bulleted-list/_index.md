@@ -27,7 +27,7 @@ import com.aspose.note.examples.Utils;
 public class CreateBulletedList {
 	public static void main(String... args) throws IOException {
 		// ExStart:CreateBulletedList
-		String dataDir = Utils.getSharedDataDir(CreateBulletedList.class) + "text/";
+		String dataDir = "Your Document Directory";
 
 		// create an object of the Document class
 		Document doc = new Document();

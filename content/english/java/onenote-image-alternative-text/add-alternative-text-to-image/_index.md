@@ -25,7 +25,7 @@ public class AlternativeText {
 	public static void main(String[] args) throws IOException {
 
 		// ExStart:ImageAlternativeText
-		String dataDir = Utils.getSharedDataDir(AlternativeText.class) + "images/";
+		String dataDir = "Your Document Directory";
 
 		Document document = new Document();
 

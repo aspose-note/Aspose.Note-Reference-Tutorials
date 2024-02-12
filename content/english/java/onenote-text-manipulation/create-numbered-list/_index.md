@@ -28,7 +28,7 @@ import com.aspose.note.examples.Utils;
 public class CreateNumberedList {
 	public static void main(String... args) throws IOException {
 		// ExStart:CreateNumberedList
-		String dataDir = Utils.getSharedDataDir(CreateNumberedList.class) + "text/";
+		String dataDir = "Your Document Directory";
 
 		// create an object of the Document class
 		Document doc = new Document();

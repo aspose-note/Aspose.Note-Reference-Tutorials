@@ -27,7 +27,7 @@ import com.aspose.note.examples.Utils;
 public class AddNewImageNodeWithTag {
 	public static void main(String... args) throws IOException {
 		// ExStart:AddNewImageNodeWithTag
-		String dataDir = Utils.getSharedDataDir(AddNewImageNodeWithTag.class) + "tags/";
+		String dataDir = "Your Document Directory";
 
 		// create an object of the Document class
 		Document doc = new Document();

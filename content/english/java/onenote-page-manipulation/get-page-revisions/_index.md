@@ -23,7 +23,7 @@ public class GetPageRevisions {
 
 	public static void main(String... args) throws IOException {
 		// ExStart:GetPageRevisions
-		String dataDir = Utils.getSharedDataDir(GetPageRevisions.class) + "pages/";
+		String dataDir = "Your Document Directory";
 
 		LoadOptions loadOptions = new LoadOptions();
 		loadOptions.setLoadHistory(true);

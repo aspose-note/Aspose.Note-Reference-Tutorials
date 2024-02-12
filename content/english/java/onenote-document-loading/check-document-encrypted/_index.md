@@ -30,7 +30,7 @@ public class CheckIfDocumentIsEncrypted {
     public static void CheckIfDocumentFromStreamIsEncrypted() throws IOException
     {
         // ExStart:CheckIfDocumentFromStreamIsEncrypted
-        String dataDir = Paths.get(Utils.getSharedDataDir(LoadPasswordProtectedOneNoteDoc.class), "load").toString();
+        String dataDir = "Your Document Directory";
 
         LoadOptions loadOptions = new LoadOptions();
         loadOptions.setDocumentPassword("password");
@@ -58,7 +58,7 @@ public class CheckIfDocumentIsEncrypted {
     public static void CheckIfDocumentFromFileIsEncrypted() throws IOException
     {
         // ExStart:CheckIfDocumentFromFileIsEncrypted
-        String dataDir = Paths.get(Utils.getSharedDataDir(LoadPasswordProtectedOneNoteDoc.class), "load").toString();
+        String dataDir = "Your Document Directory";
 
         Document ref[] = { null };
         if (!Document.isEncrypted(Paths.get(dataDir, "Sample1.one").toString(), "VerySecretPassword", ref))

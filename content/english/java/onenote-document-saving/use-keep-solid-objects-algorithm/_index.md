@@ -25,7 +25,7 @@ public class UsingKeepSolidObjectsAlgorithm {
 	public static void main(String... args) throws IOException {
 		
 		// The path to the documents directory.
-		String dataDir = Utils.getSharedDataDir(UsingKeepSolidObjectsAlgorithm.class) + "load\\";
+		String dataDir = "Your Document Directory";
 
         // Load the document into Aspose.Note.
         Document doc = new Document(dataDir + "Aspose.one");

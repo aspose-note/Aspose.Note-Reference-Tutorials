@@ -25,7 +25,7 @@ public class SettingPageTitleinMicrosoftOneNoteStyle {
 
 	public static void main(String... args) throws IOException {
 		// ExStart: SettingPageTitleinMicrosoftOneNoteStyle
-		String dataDir = Utils.getSharedDataDir(SettingPageTitleinMicrosoftOneNoteStyle.class) + "text/";
+		String dataDir = "Your Document Directory";
 
 		// initialize new Document
 		Document doc = new Document(dataDir + "Sample1.one");

@@ -35,7 +35,7 @@ import com.aspose.note.examples.Utils;
 public class ExtractRowtextfromtableinOneNotedocument {
 	public static void main(String... args) throws IOException {
 		// ExStart:ExtractRowtextfromtableinOneNotedocument
-		String dataDir = Utils.getSharedDataDir(ExtractRowtextfromtableinOneNotedocument.class) + "tables/";
+		String dataDir = "Your Document Directory";
 
 		// Load the document into Aspose.Note.
 		Document document = new Document(dataDir + "Sample1.one", new LoadOptions());

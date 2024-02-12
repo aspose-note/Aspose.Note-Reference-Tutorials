@@ -23,7 +23,7 @@ import java.util.Map;
 public class GenerateDocumentFromTemplate {
     public static void main(String... args) throws IOException {
         // ExStart:GenerateDocumentFromTemplate
-        String dataDir = Paths.get(Utils.getSharedDataDir(GenerateDocumentFromTemplate.class), "text").toString();
+        String dataDir = "Your Document Directory";
 
 
         HashMap<String, String> D = new HashMap<>();

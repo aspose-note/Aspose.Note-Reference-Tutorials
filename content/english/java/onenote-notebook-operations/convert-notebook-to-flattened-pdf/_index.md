@@ -21,7 +21,7 @@ import java.io.IOException;
 public class ConvertToPDFAsFlattened {
     public static void main(String[] args) throws IOException {
         // ExStart:ConvertToPDFAsFlattened
-        String dataDir = Utils.getSharedDataDir(ConvertToPDFAsFlattened.class) + "Notebook/";
+        String dataDir = "Your Document Directory";
 
         // Load a OneNote Notebook
         Notebook notebook = new Notebook(dataDir + "Notizbuch îffnen.onetoc2");

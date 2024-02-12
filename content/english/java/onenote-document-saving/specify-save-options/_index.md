@@ -23,7 +23,7 @@ public class SpecifySaveOptions {
     public static void main(String[] args) throws IOException {
         // ExStart:SpecifySaveOptions
         // The path to the documents directory.
-        String dataDir = Utils.getSharedDataDir(SpecifySaveOptions.class) + "load\\";
+        String dataDir = "Your Document Directory";
 
         // Load the document into Aspose.Note.
         Document doc = new Document(dataDir + "Aspose.one");

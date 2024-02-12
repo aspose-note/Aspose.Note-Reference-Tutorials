@@ -27,7 +27,7 @@ public class CreateDocWithRootAndSubPages {
 
 	public static void main(String... args) {
 		// ExStart:CreateDocWithRootAndSubPages
-		String dataDir = Utils.getSharedDataDir(CreateDocWithRootAndSubPages.class) + "pages/";
+		String dataDir = "Your Document Directory";
 		
 		// create an object of the Document class
 		Document doc = new Document();

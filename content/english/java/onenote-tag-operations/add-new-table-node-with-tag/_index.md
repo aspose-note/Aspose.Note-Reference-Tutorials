@@ -30,7 +30,7 @@ import com.aspose.note.examples.Utils;
 public class AddNewTableNodeWithTag {
 	public static void main(String... args) throws IOException {
 		// ExStart:AddNewTableNodeWithTag
-		String dataDir = Utils.getSharedDataDir(AddNewTableNodeWithTag.class) + "tags/";
+		String dataDir = "Your Document Directory";
 		// create an object of the Document class
 		Document doc = new Document();
 		// initialize Page class object

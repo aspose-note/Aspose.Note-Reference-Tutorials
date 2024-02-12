@@ -23,7 +23,7 @@ import java.util.stream.StreamSupport;
 public class ComposeTable {
     public static void main(String... args) throws IOException {
         // ExStart:ComposeTable
-        String dataDir = Paths.get(Utils.getSharedDataDir(CreateTableWithLockedColumns.class), "tables").toString();
+        String dataDir = "Your Document Directory";
 
 
         RichText headerText = new RichText().append("Super contest for suppliers.");

@@ -21,7 +21,7 @@ public class CreateTableWithLockedColumns {
     public static void main(String[] args) throws IOException {
         // ExStart:CreateTableWithLockedColumns
 
-        String dataDir = Utils.getSharedDataDir(CreateTableWithLockedColumns.class) + "tables\\";
+        String dataDir = "Your Document Directory";
 
         // Create an object of the Document class
         Document doc = new Document();

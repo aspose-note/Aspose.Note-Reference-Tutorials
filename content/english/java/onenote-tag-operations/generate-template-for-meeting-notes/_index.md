@@ -27,7 +27,7 @@ public class GenerateTemplateForMeetingNotes {
         // TODO Auto-generated method stub
         // ExStart:GenerateTemplateForMeetingNotes
         // The path to the documents directory.
-        String dataDir = Utils.getSharedDataDir(GenerateTemplateForMeetingNotes.class) + "tags/";
+        String dataDir = "Your Document Directory";
 
         // Create an object of the Document class
         ParagraphStyle headerStyle = new ParagraphStyle()

@@ -29,7 +29,7 @@ import com.aspose.note.examples.Utils;
 public class CreateOneNoteDocumentWithFormattedRichText {
 	public static void main(String... args) throws IOException {
 		// ExStart:CreateDocWithFormattedRichText
-		String dataDir = Utils.getSharedDataDir(CreateOneNoteDocumentWithFormattedRichText.class) + "introduction/";
+		String dataDir = "Your Document Directory";
 
 		// For complete examples and data files, please go to
 		// https://github.com/aspose-note/Aspose.Note-for-Java

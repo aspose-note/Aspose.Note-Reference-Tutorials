@@ -22,7 +22,7 @@ import com.aspose.note.examples.Utils;
 public class GetImageInfo {
 	public static void main(String... args) throws IOException {
 		// ExStart:GetInformationOfImages
-		String dataDir = Utils.getSharedDataDir(GetImageInfo.class) + "images/";
+		String dataDir = "Your Document Directory";
 
 		// Load the document into Aspose.Note
 		Document doc = new Document(dataDir + "Sample1.one");

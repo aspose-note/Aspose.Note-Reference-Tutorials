@@ -24,7 +24,7 @@ public class AddHyperlinkToImage {
 	public static void main(String[] args) throws IOException {
 		// TODO Auto-generated method stub
 
-		String dataDir = Utils.getSharedDataDir(AlternativeText.class) + "images/";
+		String dataDir = "Your Document Directory";
 		//ExStart: AddHyperlinkToImage
 		Document document = new Document();
 		Page page = new Page();

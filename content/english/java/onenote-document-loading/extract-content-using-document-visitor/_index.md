@@ -99,7 +99,7 @@ public class ExtractOneNoteContentUsingDocumentvisitor extends DocumentVisitor {
 	public static void main(String[] args) throws IOException {
 		// Open the document we want to convert.
 
-		String dataDir = Utils.getSharedDataDir(ExtractOneNoteContentUsingDocumentvisitor.class) + "load/";
+		String dataDir = "Your Document Directory";
 
 		Document doc = new Document(dataDir + "Sample1.one", new LoadOptions());
 

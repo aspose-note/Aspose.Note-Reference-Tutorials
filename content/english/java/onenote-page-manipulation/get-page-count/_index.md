@@ -21,7 +21,7 @@ import com.aspose.note.examples.Utils;
 public class GetPageCount {
 	public static void main(String... args) throws IOException {
 		// ExStart: GetPageCount
-		String dataDir = Utils.getSharedDataDir(GetPageCount.class) + "pages/";
+		String dataDir = "Your Document Directory";
 		// Load the document into Aspose.Note
 		Document doc = new Document(dataDir + "Sample1.one");
 

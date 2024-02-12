@@ -22,7 +22,7 @@ public class SaveDocToOneNoteFormatUsingSaveformat {
 
 	public static void main(String... args) throws IOException {
 		// ExStart:SaveDocToOneNoteFormatUsingSaveFormat
-		String dataDir = Utils.getSharedDataDir(SaveDocToOneNoteFormatUsingSaveformat.class) + "load/";
+		String dataDir = "Your Document Directory";
 		
 		Document document = new Document(dataDir + "Sample1.one");
 

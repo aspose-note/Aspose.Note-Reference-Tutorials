@@ -22,7 +22,7 @@ import com.aspose.note.examples.Utils;
 public class ConvertSpecificPageToImage {
 	public static void main(String... args) throws IOException {
 		// ExStart:ConvertSpecificPageToImage
-		String dataDir = Utils.getSharedDataDir(ConvertSpecificPageToImage.class) + "load/";
+		String dataDir = "Your Document Directory";
 
 		// Load the document into Aspose.Note
 		Document oneFile = new Document(dataDir + "Sample1.one");

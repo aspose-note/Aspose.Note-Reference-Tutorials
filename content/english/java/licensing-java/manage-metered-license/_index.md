@@ -30,7 +30,7 @@ public class MeteredLicense {
             System.out.println(String.format("Credit before operation: %.02f", Metered.getConsumptionCredit()));
             System.out.println(String.format("Consumption quantity before operation: %.02f", Metered.getConsumptionQuantity()));
 
-            String dataDir = Paths.get(Utils.getSharedDataDir(LoadPasswordProtectedOneNoteDoc.class), "load").toString();
+            String dataDir = "Your Document Directory";
 
             Document doc = new Document(Paths.get(dataDir,"Sample1.one").toString());
             doc.save(Paths.get(dataDir,"MeteredLicense.pdf").toString());

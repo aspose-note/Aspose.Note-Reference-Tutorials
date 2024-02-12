@@ -26,7 +26,7 @@ import com.aspose.note.examples.Utils;
 public class GetCellTextFromRowOfTable {
 	public static void main(String... args) throws IOException {
 		// ExStart:GetCellTextFromRowOfTable
-		String dataDir = Utils.getSharedDataDir(GetCellTextFromRowOfTable.class) + "tables/";
+		String dataDir = "Your Document Directory";
 
 		// Load the document into Aspose.Note.
 		Document document = new Document(dataDir + "Sample1.one");

@@ -45,7 +45,7 @@ public class CreateOneNoteDocandSavetoHtml {
 	}
 
 	public static void SaveAsHtmlToMemoryStream() throws IOException {
-		String dataDir = Utils.getSharedDataDir(ConvertSpecificPageRangeToPdf.class) + "load/";
+		String dataDir = "Your Document Directory";
 
 		// ExStart: SaveAsHtmlToMemoryStream
 		Document document = new Document(dataDir + "Sample1.one");
@@ -62,7 +62,7 @@ public class CreateOneNoteDocandSavetoHtml {
 	}
 
 	public static void SaveAsHtmlWithResourcesInSeparateFiles() throws IOException {
-		String dataDir = Utils.getSharedDataDir(ConvertSpecificPageRangeToPdf.class) + "load/";
+		String dataDir = "Your Document Directory";
 
 		// ExStart: SaveAsHtmlWithResourcesInSeparateFiles
 		Document document = new Document(dataDir + "Sample1.one");
@@ -77,7 +77,7 @@ public class CreateOneNoteDocandSavetoHtml {
 	}
 
 	public static void SaveAsHtmlToMemoryStreamWithCallbacksToSaveResources() throws IOException {
-		String dataDir = Utils.getSharedDataDir(ConvertSpecificPageRangeToPdf.class) + "load/";
+		String dataDir = "Your Document Directory";
 
 		// ExStart: SaveAsHtmlToMemoryStreamWithCallbacksToSaveResources
 		Document document = new Document(dataDir + "Sample1.one");

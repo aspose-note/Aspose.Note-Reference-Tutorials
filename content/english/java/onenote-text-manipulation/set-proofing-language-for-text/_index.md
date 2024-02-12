@@ -24,7 +24,7 @@ public class SetProofingLanguageForText {
     public static void main(String... args) throws IOException {
         // ExStart:SetProofingLanguageForText
         // ExSummary:Set proofing language for a text.
-        String dataDir = Paths.get(Utils.getSharedDataDir(LoadPasswordProtectedOneNoteDoc.class), "text").toString();
+        String dataDir = "Your Document Directory";
 
         Document document = new Document();
         Page page = new Page();

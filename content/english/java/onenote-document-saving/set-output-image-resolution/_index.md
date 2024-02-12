@@ -22,7 +22,7 @@ import com.aspose.note.examples.Utils;
 public class SetOutputImageResolution {
 	public static void main(String... args) throws IOException {
 		//ExStart: SetOutputImageResolution
-		String dataDir = Utils.getSharedDataDir(SetOutputImageResolution.class) + "load/";
+		String dataDir = "Your Document Directory";
 
 		Document doc = new Document(dataDir + "Sample1.one");
 

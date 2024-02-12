@@ -24,7 +24,7 @@ public class SaveToTiffImageUsingImageSaveOptions {
         SaveToTiffUsingPackBitsCompression();
         SaveToTiffUsingCcitt3Compression();
 
-        System.out.println("\nDocument saved in TIFF format at " + Utils.getSharedDataDir(SaveOneNoteDocToStream.class) + "load");
+        System.out.println("\nDocument saved in TIFF format at " + "Your Document Directory";
     }
 
     public static void SaveToTiffUsingJpegCompression() throws IOException
@@ -33,7 +33,7 @@ public class SaveToTiffImageUsingImageSaveOptions {
         // ExSummary:Shows how to save a document as image in Tiff format using Jpeg compression.
 
         // The path to the documents directory.
-        String dataDir = Paths.get(Utils.getSharedDataDir(SaveOneNoteDocToStream.class), "load").toString();
+        String dataDir = "Your Document Directory";
 
         // Load the document into Aspose.Note.
         Document oneFile = new Document(Paths.get(dataDir, "Aspose.one").toString());
@@ -53,7 +53,7 @@ public class SaveToTiffImageUsingImageSaveOptions {
         // ExSummary:Shows how to save a document as image in Tiff format using PackBits compression.
 
         // The path to the documents directory.
-        String dataDir = Paths.get(Utils.getSharedDataDir(SaveOneNoteDocToStream.class), "load").toString();
+        String dataDir = "Your Document Directory";
 
         // Load the document into Aspose.Note.
         Document oneFile = new Document(Paths.get(dataDir, "Aspose.one").toString());
@@ -72,7 +72,7 @@ public class SaveToTiffImageUsingImageSaveOptions {
         // ExSummary:Shows how to save a document as image in Tiff format using CCITT Group 3 fax compression.
 
         // The path to the documents directory.
-        String dataDir = Paths.get(Utils.getSharedDataDir(SaveOneNoteDocToStream.class), "load").toString();
+        String dataDir = "Your Document Directory";
 
         // Load the document into Aspose.Note.
         Document oneFile = new Document(Paths.get(dataDir, "Aspose.one").toString());

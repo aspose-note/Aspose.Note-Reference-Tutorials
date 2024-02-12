@@ -33,7 +33,7 @@ public class SaveToBinaryImageUsingFixedThreshold {
         // ExSummary:Shows how to save a document as binary image using fixed threshold.
 
         // The path to the documents directory.
-        String dataDir = Utils.getSharedDataDir(SaveOneNoteDocToStream.class) + "load/";
+        String dataDir = "Your Document Directory";
 
         // Load the document into Aspose.Note.
         Document oneFile = new Document(dataDir + "Aspose.one");

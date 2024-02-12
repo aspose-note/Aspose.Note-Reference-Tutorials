@@ -20,7 +20,7 @@ import com.aspose.note.examples.Utils;
 public class LoadOneNote2007 {
     public static void main(String[] args)
     {
-        String dataDir = Utils.getSharedDataDir(LoadOneNote.class) + "load\\";
+        String dataDir = "Your Document Directory";
 
         // ExStart:LoadOneNote2007
         // Load the document into Aspose.Note.

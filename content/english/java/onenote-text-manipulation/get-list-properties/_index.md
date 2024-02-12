@@ -23,7 +23,7 @@ import com.aspose.note.examples.Utils;
 public class GetListProperties {
 	public static void main(String... args) throws IOException {
 		// ExStart:GetListProperties
-		String dataDir = Utils.getSharedDataDir(GetListProperties.class) + "text/";
+		String dataDir = "Your Document Directory";
 
 		// Load the document into Aspose.Note
 		Document oneFile = new Document(dataDir + "Sample1.one");

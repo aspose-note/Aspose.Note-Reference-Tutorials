@@ -28,7 +28,7 @@ public class LoadingNotebookInstantly {
 		// it is necessary to set the NotebookLoadOptions.InstantLoading flag.
 		NotebookLoadOptions loadOptions = new NotebookLoadOptions();
 		loadOptions.setInstantLoading(true);
-		String dataDir = Utils.getSharedDataDir(LoadingNotebookInstantly.class) + "Notebook/";
+		String dataDir = "Your Document Directory";
 		Notebook notebook = new Notebook(dataDir + "test.onetoc2", loadOptions);
 
 		// All child documents are already loaded.
