@@ -13,7 +13,7 @@ url: /java/onenote-table-manipulation/change-table-style/
 
 
 import com.aspose.note.*;
-import com.aspose.note.examples.Utils;
+
 
 import java.awt.Color;
 import java.io.IOException;

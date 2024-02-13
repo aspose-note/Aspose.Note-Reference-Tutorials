@@ -18,7 +18,7 @@ import com.aspose.note.Document;
 import com.aspose.note.Notebook;
 import com.aspose.note.NotebookOneSaveOptions;
 import com.aspose.note.OneSaveOptions;
-import com.aspose.note.examples.Utils;
+
 
 public class WritingPasswordProtectedDoc {
 	public static void main(String... args) throws IOException {

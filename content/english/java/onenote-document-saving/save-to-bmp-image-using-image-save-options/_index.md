@@ -13,7 +13,7 @@ url: /java/onenote-document-saving/save-to-bmp-image-using-image-save-options/
 
 
 import com.aspose.note.*;
-import com.aspose.note.examples.Utils;
+
 
 import java.io.IOException;
 

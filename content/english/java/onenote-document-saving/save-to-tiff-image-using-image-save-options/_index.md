@@ -13,7 +13,7 @@ url: /java/onenote-document-saving/save-to-tiff-image-using-image-save-options/
 
 
 import com.aspose.note.*;
-import com.aspose.note.examples.Utils;
+
 
 import java.io.IOException;
 import java.nio.file.Paths;

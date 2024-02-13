@@ -14,7 +14,7 @@ url: /java/onenote-document-loading/check-document-encrypted/
 
 import com.aspose.note.Document;
 import com.aspose.note.LoadOptions;
-import com.aspose.note.examples.Utils;
+
 
 import java.io.FileInputStream;
 import java.io.IOException;

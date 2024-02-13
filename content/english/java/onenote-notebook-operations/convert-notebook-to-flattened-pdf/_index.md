@@ -14,7 +14,7 @@ url: /java/onenote-notebook-operations/convert-notebook-to-flattened-pdf/
 
 import com.aspose.note.Notebook;
 import com.aspose.note.NotebookPdfSaveOptions;
-import com.aspose.note.examples.Utils;
+
 
 import java.io.IOException;
 

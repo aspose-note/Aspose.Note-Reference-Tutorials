@@ -2,19 +2,22 @@
 title: Create Numbered List in OneNote - Aspose.Note
 linktitle: Create Numbered List in OneNote - Aspose.Note
 second_title: Aspose.Note Java API
-description: 
+description: Learn how to effortlessly create a numbered list in OneNote with Aspose.Note for Java. Download a free trial and dive into the world of Java development!
 type: docs
 weight: 14
 url: /java/onenote-text-manipulation/create-numbered-list/
 ---
-
-## Complete Source Code
+## Introduction
+Aspose.Note for Java empowers Java developers to seamlessly work with Microsoft OneNote files. In this tutorial, we'll walk you through the process of crafting a numbered list in OneNote with the powerful Aspose.Note for Java library.
+## Prerequisites
+Before diving into the tutorial, ensure the following prerequisites are in place:
+- Installed Java Development Kit (JDK) on your machine.
+- Aspose.Note for Java library downloaded from [here](https://releases.aspose.com/note/java/).
+## Importing Packages
+First, let's import the necessary packages in your Java project to make the most of Aspose.Note functionalities. Include the following code in your project:
 ```java
-
-
 import java.awt.Color;
 import java.io.IOException;
-
 import com.aspose.note.Document;
 import com.aspose.note.NumberFormat;
 import com.aspose.note.NumberList;
@@ -23,66 +26,68 @@ import com.aspose.note.OutlineElement;
 import com.aspose.note.Page;
 import com.aspose.note.RichText;
 import com.aspose.note.ParagraphStyle;
-import com.aspose.note.examples.Utils;
-
-public class CreateNumberedList {
-	public static void main(String... args) throws IOException {
-		// ExStart:CreateNumberedList
-		String dataDir = "Your Document Directory";
-
-		// create an object of the Document class
-		Document doc = new Document();
-
-		// initialize Page class object
-		Page page = new Page();
-
-		// initialize Outline class object
-		Outline outline = new Outline();
-
-		// initialize TextStyle class object and set formatting properties
-		ParagraphStyle defaultStyle = new ParagraphStyle()
-												.setFontColor(Color.black)
-												.setFontName("Arial")
-												.setFontSize(10);
-
-		// initialize OutlineElement class objects and apply numbering
-		// numbers in the same outline are automatically incremented.
-		OutlineElement outlineElem1 = new OutlineElement();
-
-		outlineElem1.setNumberList(new NumberList("{0})", NumberFormat.DecimalNumbers, "Arial", 10));
-
-		RichText text1 = new RichText().append("First");
-		text1.setParagraphStyle(defaultStyle);
-		outlineElem1.appendChildLast(text1);
-
-		OutlineElement outlineElem2 = new OutlineElement();
-		outlineElem2.setNumberList(new NumberList("{0})", NumberFormat.DecimalNumbers, "Arial", 10));
-		RichText text2 = new RichText().append("Second");
-		text2.setParagraphStyle(defaultStyle);
-		outlineElem2.appendChildLast(text2);
-
-		OutlineElement outlineElem3 = new OutlineElement();
-		outlineElem3.setNumberList(new NumberList("{0})", NumberFormat.DecimalNumbers, "Arial", 10));
-		RichText text3 = new RichText().append("Third");
-		text3.setParagraphStyle(defaultStyle);
-		outlineElem3.appendChildLast(text3);
-
-		// add outline elements
-		outline.appendChildLast(outlineElem1);
-		outline.appendChildLast(outlineElem2);
-		outline.appendChildLast(outlineElem3);
-
-		// add Outline node
-		page.appendChildLast(outline);
-
-		// add Page node
-		doc.appendChildLast(page);
-
-		// save the document
-		doc.save(dataDir + "CreateNumberedList_out.pdf");
-		// ExEnd:CreateNumberedList
-		System.out.printf("File saved: %s\n", dataDir + "CreateNumberedList_out.pdf");
-	}
-}
-
 ```
+## Step 1: Initializing Document, Page, and Outline Objects
+```java
+// Your Document Directory
+String dataDir = "Your Document Directory";
+// Create Document, Page, and Outline objects
+Document doc = new Document();
+Page page = new Page();
+Outline outline = new Outline();
+// Set default text style
+ParagraphStyle defaultStyle = new ParagraphStyle()
+                                        .setFontColor(Color.black)
+                                        .setFontName("Arial")
+                                        .setFontSize(10);
+Document doc = new Document();
+Page page = new Page();
+Outline outline = new Outline();
+```
+## Step 2: Setting Default Text Style
+```java
+ParagraphStyle defaultStyle = new ParagraphStyle()
+                                        .setFontColor(Color.black)
+                                        .setFontName("Arial")
+                                        .setFontSize(10);
+```
+## Step 3: Creating Outline Elements
+Now, let's create the elements for your numbered list.
+```java
+OutlineElement outlineElem1 = new OutlineElement();
+outlineElem1.setNumberList(new NumberList("{0})", NumberFormat.DecimalNumbers, "Arial", 10));
+RichText text1 = new RichText().append("First");
+text1.setParagraphStyle(defaultStyle);
+outlineElem1.appendChildLast(text1);
+// Repeat for other elements (outlineElem2 and outlineElem3)
+```
+## Step 4: Adding Outline Elements to Outline
+```java
+outline.appendChildLast(outlineElem1);
+outline.appendChildLast(outlineElem2);
+outline.appendChildLast(outlineElem3);
+```
+## Step 5: Adding Outline to Page
+```java
+page.appendChildLast(outline);
+```
+## Step 6: Saving the Document
+```java
+doc.appendChildLast(page);
+doc.save(dataDir + "CreateNumberedList_out.pdf");
+System.out.printf("File saved: %s\n", dataDir + "CreateNumberedList_out.pdf");
+```
+Follow these steps meticulously, and you'll effortlessly create a numbered list in OneNote using Aspose.Note for Java.
+## Conclusion
+In this tutorial, we explored the seamless process of creating a numbered list in OneNote using Aspose.Note for Java. The library's robust features make it an invaluable tool for Java developers working with Microsoft OneNote files.
+## Frequently Asked Questions
+### Q: Can I customize the numbering format in my OneNote list?
+A: Absolutely! You can customize the numbering format using the NumberList class provided by Aspose.Note for Java.
+### Q: Is there a trial version available for Aspose.Note for Java?
+A: Yes, you can download a free trial [here](https://releases.aspose.com/).
+### Q: How can I get support for Aspose.Note for Java?
+A: Visit the [Aspose.Note for Java forum](https://forum.aspose.com/c/note/28) for community support.
+### Q: Where can I find detailed documentation for Aspose.Note for Java?
+A: Refer to the official [documentation](https://reference.aspose.com/note/java/) for comprehensive information.
+### Q: How do I purchase a license for Aspose.Note for Java?
+A: You can buy a license [here](https://purchase.aspose.com/buy).

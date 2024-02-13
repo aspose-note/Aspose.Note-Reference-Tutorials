@@ -14,8 +14,8 @@ url: /java/licensing-java/manage-metered-license/
 
 import com.aspose.note.Document;
 import com.aspose.note.Metered;
-import com.aspose.note.examples.Utils;
-import com.aspose.note.examples.load.LoadPasswordProtectedOneNoteDoc;
+
+
 
 import java.nio.file.Paths;
 

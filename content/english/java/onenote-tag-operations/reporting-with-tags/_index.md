@@ -13,7 +13,7 @@ url: /java/onenote-tag-operations/reporting-with-tags/
 
 
 import com.aspose.note.*;
-import com.aspose.note.examples.Utils;
+
 
 import java.io.IOException;
 import java.nio.file.Paths;

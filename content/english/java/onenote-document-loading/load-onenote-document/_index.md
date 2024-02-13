@@ -13,7 +13,7 @@ url: /java/onenote-document-loading/load-onenote-document/
 
 
 import com.aspose.note.Document;
-import com.aspose.note.examples.Utils;
+
 
 public class LoadOneNote {
     public static void main(String[] args)

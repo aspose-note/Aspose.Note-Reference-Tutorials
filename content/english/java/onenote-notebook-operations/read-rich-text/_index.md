@@ -17,7 +17,7 @@ import java.util.List;
 
 import com.aspose.note.Notebook;
 import com.aspose.note.RichText;
-import com.aspose.note.examples.Utils;
+
 
 public class ReadRichText {
 	public static void main(String... args) throws IOException {

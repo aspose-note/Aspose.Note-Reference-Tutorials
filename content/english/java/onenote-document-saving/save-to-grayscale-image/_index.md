@@ -16,7 +16,7 @@ import com.aspose.note.ColorMode;
 import com.aspose.note.Document;
 import com.aspose.note.ImageSaveOptions;
 import com.aspose.note.SaveFormat;
-import com.aspose.note.examples.Utils;
+
 
 import java.io.IOException;
 

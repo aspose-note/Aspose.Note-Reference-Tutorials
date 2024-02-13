@@ -19,7 +19,7 @@ import java.util.stream.Collectors;
 import com.aspose.note.Document;
 import com.aspose.note.RichText;
 import com.aspose.note.Table;
-import com.aspose.note.examples.Utils;
+
 
 public class ExtractTextFromTable {
 	public static void main(String... args) throws IOException {

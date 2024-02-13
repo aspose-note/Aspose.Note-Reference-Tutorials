@@ -24,7 +24,7 @@ import com.aspose.note.SaveFormat;
 import com.aspose.note.TextStyle;
 import com.aspose.note.ParagraphStyle;
 import com.aspose.note.Title;
-import com.aspose.note.examples.Utils;
+
 
 public class CreateOneNoteDocumentWithFormattedRichText {
 	public static void main(String... args) throws IOException {

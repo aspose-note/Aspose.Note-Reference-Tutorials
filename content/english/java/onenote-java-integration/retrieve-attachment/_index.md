@@ -21,7 +21,7 @@ import java.util.List;
 
 import com.aspose.note.AttachedFile;
 import com.aspose.note.Document;
-import com.aspose.note.examples.Utils;
+
 
 public class RetrieveAttachment {
 	public static void main(String[] args) throws IOException {

@@ -13,8 +13,8 @@ url: /java/onenote-styles/set-default-paragraph-style/
 
 
 import com.aspose.note.*;
-import com.aspose.note.examples.Utils;
-import com.aspose.note.examples.load.LoadPasswordProtectedOneNoteDoc;
+
+
 
 import java.awt.*;
 import java.io.FileInputStream;

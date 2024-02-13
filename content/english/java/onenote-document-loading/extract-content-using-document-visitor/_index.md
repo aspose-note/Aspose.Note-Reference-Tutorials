@@ -24,7 +24,7 @@ import com.aspose.note.OutlineGroup;
 import com.aspose.note.Page;
 import com.aspose.note.RichText;
 import com.aspose.note.Title;
-import com.aspose.note.examples.Utils;
+
 
 //ExStart: ExtractOneNoteContentUsingDocumentvisitor
 public class ExtractOneNoteContentUsingDocumentvisitor extends DocumentVisitor {

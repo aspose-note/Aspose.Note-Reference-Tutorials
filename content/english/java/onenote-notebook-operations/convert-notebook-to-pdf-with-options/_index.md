@@ -18,7 +18,7 @@ import com.aspose.note.KeepSolidObjectsAlgorithm;
 import com.aspose.note.Notebook;
 import com.aspose.note.NotebookPdfSaveOptions;
 import com.aspose.note.PdfSaveOptions;
-import com.aspose.note.examples.Utils;
+
 
 public class ConvertToPDFWithOptions {
 	public static void main(String... args) throws IOException {

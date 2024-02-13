@@ -13,7 +13,7 @@ url: /java/onenote-document-saving/save-to-pdf-using-page-settings/
 
 
 import com.aspose.note.*;
-import com.aspose.note.examples.Utils;
+
 
 import java.io.IOException;
 import java.nio.file.Paths;

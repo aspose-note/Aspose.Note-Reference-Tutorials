@@ -17,7 +17,7 @@ import java.util.List;
 
 import com.aspose.note.Document;
 import com.aspose.note.Image;
-import com.aspose.note.examples.Utils;
+
 
 public class GetImageInfo {
 	public static void main(String... args) throws IOException {

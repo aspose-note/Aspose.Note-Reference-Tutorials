@@ -22,7 +22,7 @@ import com.aspose.note.RichText;
 import com.aspose.note.TextStyle;
 import com.aspose.note.ParagraphStyle;
 import com.aspose.note.Title;
-import com.aspose.note.examples.Utils;
+
 
 public class AddHyperlink {
 	public static void main(String... args) throws IOException {

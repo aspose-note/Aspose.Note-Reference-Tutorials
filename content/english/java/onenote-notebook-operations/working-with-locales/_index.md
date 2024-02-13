@@ -19,8 +19,8 @@ import java.util.Locale;
 import com.aspose.note.Document;
 import com.aspose.note.License;
 import com.aspose.note.LocaleOptions;
-import com.aspose.note.examples.Utils;
-import com.aspose.note.examples.load.SaveToStream;
+
+
 
 public class WorkingWithLocales {
 

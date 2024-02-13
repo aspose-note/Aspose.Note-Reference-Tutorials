@@ -15,7 +15,7 @@ url: /java/onenote-notebook-operations/create-notebook/
 import java.io.IOException;
 
 import com.aspose.note.Notebook;
-import com.aspose.note.examples.Utils;
+
 
 public class CreateNoteBook {
 	public static void main(String... args) throws IOException {

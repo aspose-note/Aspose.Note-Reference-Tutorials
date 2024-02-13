@@ -13,7 +13,7 @@ url: /java/onenote-document-saving/save-to-binary-image-using-fixed-threshold/
 
 
 import com.aspose.note.*;
-import com.aspose.note.examples.Utils;
+
 
 import java.io.IOException;
 

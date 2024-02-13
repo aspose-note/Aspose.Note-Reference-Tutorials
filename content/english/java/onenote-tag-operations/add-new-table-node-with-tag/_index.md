@@ -25,7 +25,7 @@ import com.aspose.note.TableCell;
 import com.aspose.note.TableColumn;
 import com.aspose.note.TableRow;
 import com.aspose.note.TagIcon;
-import com.aspose.note.examples.Utils;
+
 
 public class AddNewTableNodeWithTag {
 	public static void main(String... args) throws IOException {

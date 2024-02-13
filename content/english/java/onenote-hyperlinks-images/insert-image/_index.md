@@ -20,7 +20,7 @@ import com.aspose.note.Image;
 import com.aspose.note.LoadOptions;
 import com.aspose.note.Page;
 import com.aspose.note.SaveFormat;
-import com.aspose.note.examples.Utils;
+
 
 public class InsertanImage {
 	public static void main(String... args) throws IOException {

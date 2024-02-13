@@ -19,7 +19,7 @@ import com.aspose.note.Document;
 import com.aspose.note.ITag;
 import com.aspose.note.NoteTag;
 import com.aspose.note.RichText;
-import com.aspose.note.examples.Utils;
+
 
 public class GetNodeTags {
 	public static void main(String... args) throws IOException {

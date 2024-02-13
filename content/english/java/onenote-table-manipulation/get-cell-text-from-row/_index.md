@@ -21,7 +21,7 @@ import com.aspose.note.RichText;
 import com.aspose.note.Table;
 import com.aspose.note.TableCell;
 import com.aspose.note.TableRow;
-import com.aspose.note.examples.Utils;
+
 
 public class GetCellTextFromRowOfTable {
 	public static void main(String... args) throws IOException {

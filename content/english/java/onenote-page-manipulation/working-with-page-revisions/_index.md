@@ -15,7 +15,7 @@ url: /java/onenote-page-manipulation/working-with-page-revisions/
 import com.aspose.note.Document;
 import com.aspose.note.Page;
 import com.aspose.note.RevisionSummary;
-import com.aspose.note.examples.Utils;
+
 
 import java.io.IOException;
 import java.util.Calendar;

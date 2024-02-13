@@ -20,7 +20,7 @@ import com.aspose.note.Document;
 import com.aspose.note.RichText;
 import com.aspose.note.TextRun;
 import com.aspose.note.TextStyle;
-import com.aspose.note.examples.Utils;
+
 
 public class ChangeTextStyle {
 	public static void main(String... args) throws IOException {

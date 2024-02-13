@@ -21,7 +21,7 @@ import com.aspose.note.Page;
 import com.aspose.note.RichText;
 import com.aspose.note.SaveFormat;
 import com.aspose.note.ParagraphStyle;
-import com.aspose.note.examples.Utils;
+
 
 public class InsertPages {
 	public static void main(String... args) throws IOException {

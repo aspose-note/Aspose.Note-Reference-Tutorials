@@ -17,8 +17,8 @@ import javax.print.PrintException;
 import com.aspose.note.Document;
 import com.aspose.note.DocumentPrintAttributeSet;
 import com.aspose.note.PrintOptions;
-import com.aspose.note.examples.Utils;
-import com.aspose.note.examples.images.AlternativeText;
+
+
 
 public class PrintDocuments {
 

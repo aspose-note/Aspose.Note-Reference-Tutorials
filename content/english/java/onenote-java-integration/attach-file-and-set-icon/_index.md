@@ -13,7 +13,7 @@ url: /java/onenote-java-integration/attach-file-and-set-icon/
 
 
 import com.aspose.note.*;
-import com.aspose.note.examples.Utils;
+
 import com.aspose.note.system.drawing.ImageFormat;
 
 import java.io.FileInputStream;

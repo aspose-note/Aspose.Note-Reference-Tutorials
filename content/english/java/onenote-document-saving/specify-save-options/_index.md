@@ -15,7 +15,7 @@ url: /java/onenote-document-saving/specify-save-options/
 import com.aspose.note.Document;
 import com.aspose.note.PdfImageCompression;
 import com.aspose.note.PdfSaveOptions;
-import com.aspose.note.examples.Utils;
+
 
 import java.io.IOException;
 

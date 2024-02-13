@@ -10,3 +10,4 @@ url: /java/task-and-outlook-integration/
 
 ## Task and Outlook Integration Tutorials
 ### [Get Outlook Task in OneNote - Aspose.Note](./get-outlook-task/)
+Explore the power of Aspose.Note for Java in extracting Outlook tasks from OneNote effortlessly. Follow our step-by-step guide and enhance your document processing capabilities.

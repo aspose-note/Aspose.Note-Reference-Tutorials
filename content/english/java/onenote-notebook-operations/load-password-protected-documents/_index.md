@@ -17,7 +17,7 @@ import java.io.IOException;
 import com.aspose.note.LoadOptions;
 import com.aspose.note.Notebook;
 import com.aspose.note.NotebookLoadOptions;
-import com.aspose.note.examples.Utils;
+
 
 public class LoadPasswordProtectedDocuments {
 	public static void main(String... args) throws IOException {

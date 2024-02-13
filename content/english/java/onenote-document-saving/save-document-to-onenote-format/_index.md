@@ -15,7 +15,7 @@ url: /java/onenote-document-saving/save-document-to-onenote-format/
 import java.io.IOException;
 
 import com.aspose.note.Document;
-import com.aspose.note.examples.Utils;
+
 
 public class SaveDocToOneNoteFormat {
 

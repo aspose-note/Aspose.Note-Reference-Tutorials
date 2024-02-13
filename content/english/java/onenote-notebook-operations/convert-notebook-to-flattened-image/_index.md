@@ -18,7 +18,7 @@ import com.aspose.note.ImageSaveOptions;
 import com.aspose.note.Notebook;
 import com.aspose.note.NotebookImageSaveOptions;
 import com.aspose.note.SaveFormat;
-import com.aspose.note.examples.Utils;
+
 
 public class ConvertToImageAsFlattenedNotebook {
 	public static void main(String... args) throws IOException {

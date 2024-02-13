@@ -17,7 +17,7 @@ import java.io.IOException;
 import com.aspose.note.Document;
 import com.aspose.note.Page;
 import com.aspose.note.PageHistory;
-import com.aspose.note.examples.Utils;
+
 
 public class GetRevisions {
 	public static void main(String... args) throws IOException {

@@ -13,7 +13,7 @@ url: /java/onenote-java-integration/attach-file-by-path/
 
 
 import com.aspose.note.*;
-import com.aspose.note.examples.Utils;
+
 
 import java.io.IOException;
 

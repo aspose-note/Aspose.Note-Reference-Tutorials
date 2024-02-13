@@ -13,7 +13,7 @@ url: /java/onenote-table-manipulation/compose-table/
 
 
 import com.aspose.note.*;
-import com.aspose.note.examples.Utils;
+
 
 import java.awt.*;
 import java.io.IOException;

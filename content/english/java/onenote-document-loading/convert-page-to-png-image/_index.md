@@ -18,7 +18,7 @@ import com.aspose.note.Document;
 import com.aspose.note.ImageSaveOptions;
 import com.aspose.note.LoadOptions;
 import com.aspose.note.SaveFormat;
-import com.aspose.note.examples.Utils;
+
 
 public class ConvertSpecificPageToPngImage {
 	public static void main(String... args) throws IOException {

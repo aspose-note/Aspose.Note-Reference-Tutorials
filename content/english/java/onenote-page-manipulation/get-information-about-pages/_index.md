@@ -18,7 +18,7 @@ import java.util.List;
 import com.aspose.note.Document;
 import com.aspose.note.LoadOptions;
 import com.aspose.note.Page;
-import com.aspose.note.examples.Utils;
+
 
 public class GetInfo {
 	public static void main(String... args) throws IOException {

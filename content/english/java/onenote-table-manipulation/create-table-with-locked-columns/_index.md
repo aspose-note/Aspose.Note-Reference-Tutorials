@@ -13,7 +13,7 @@ url: /java/onenote-table-manipulation/create-table-with-locked-columns/
 
 
 import com.aspose.note.*;
-import com.aspose.note.examples.Utils;
+
 
 import java.io.IOException;
 

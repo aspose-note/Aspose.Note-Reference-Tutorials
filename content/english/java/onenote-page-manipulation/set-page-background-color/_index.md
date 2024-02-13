@@ -14,7 +14,7 @@ url: /java/onenote-page-manipulation/set-page-background-color/
 
 import com.aspose.note.Document;
 import com.aspose.note.Page;
-import com.aspose.note.examples.Utils;
+
 
 import java.awt.*;
 import java.io.IOException;

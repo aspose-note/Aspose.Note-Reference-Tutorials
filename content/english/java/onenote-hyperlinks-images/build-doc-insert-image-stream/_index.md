@@ -24,7 +24,7 @@ import com.aspose.note.Outline;
 import com.aspose.note.OutlineElement;
 import com.aspose.note.Page;
 import com.aspose.note.SaveFormat;
-import com.aspose.note.examples.Utils;
+
 
 public class BuildDocAndInsertImageUsingImageStream {
 	public static void main(String... args) throws IOException {

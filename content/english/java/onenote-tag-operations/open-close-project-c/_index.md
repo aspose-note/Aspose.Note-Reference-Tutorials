@@ -13,7 +13,7 @@ url: /java/onenote-tag-operations/open-close-project-c/
 
 
 import com.aspose.note.*;
-import com.aspose.note.examples.Utils;
+
 
 import java.io.IOException;
 import java.nio.file.Paths;
