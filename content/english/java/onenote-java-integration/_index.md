@@ -14,3 +14,4 @@ Learn how to attach files and set icons in OneNote using Java with Aspose.Note f
 ### [Attach File by Path in OneNote with Java](./attach-file-by-path/)
 Learn how to attach files to your OneNote notes programmatically using Java with Aspose.Note.
 ### [Retrieve Attachment from OneNote using Java](./retrieve-attachment/)
+Learn how to retrieve attachments from OneNote using Java with Aspose.Note, a powerful API for seamless document manipulation.
