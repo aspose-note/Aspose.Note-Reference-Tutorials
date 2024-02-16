@@ -24,6 +24,8 @@ Before we begin, make sure you have the following prerequisites:
 In your Java project, import the necessary packages for using Aspose.Note:
 
 ```java
+import java.io.IOException;
+
 import com.aspose.note.Document;
 import com.aspose.note.PdfSaveOptions;
 ```
@@ -83,39 +85,3 @@ A4: Yes, you can customize various aspects such as page size, orientation, and h
 ### Q5: Does Aspose.Note for Java support batch conversion of multiple OneNote documents?
 
 A5: Yes, you can batch convert multiple OneNote documents to PDF by looping through each document and applying the conversion process.
-
-
-
-## Complete Source Code
-```java
-
-
-import java.io.IOException;
-
-import com.aspose.note.Document;
-import com.aspose.note.PdfSaveOptions;
-
-
-public class ConvertSpecificPageRangeToPdf {
-	public static void main(String... args) throws IOException {
-// ExStart:SaveRangeOfPagesAsPDF
-// Load the document into Aspose.Note.
-String dataDir = "Your Document Directory";
-
-Document oneFile = new Document(dataDir + "Sample1.one");
-
-// Initialize PdfSaveOptions object
-PdfSaveOptions opts = new PdfSaveOptions();
-// Set page index
-opts.setPageIndex(2);
-// Set page count
-opts.setPageCount(3);
-
-// Save the document as PDF
-oneFile.save(dataDir +"ConvertSpecificPageRangeToPdf_out.pdf", opts);
-System.out.println("File saved: " + dataDir + "ConvertSpecificPageRangeToPdf_out.pdf");
-// ExEnd:SaveRangeOfPagesAsPDF
-	}
-}
-
-```

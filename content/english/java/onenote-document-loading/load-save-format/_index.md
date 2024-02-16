@@ -32,25 +32,6 @@ import java.io.IOException;
 
 import com.aspose.note.Document;
 import com.aspose.note.SaveFormat;
-<<<<<<< Updated upstream
-
-
-public class LoadDocIntoAsposeNoteUsingSaveformat {
-	public static void main(String... args) throws IOException {
-		// ExStart:SaveDocToOneNoteFormatUsingSaveFormat
-		// Load the document into Aspose.Note.
-		String dataDir = "Your Document Directory";
-		Document oneFile = new Document(dataDir + "Sample1.one");
-
-		// Save the document as PDF
-		oneFile.save(dataDir + "LoadDocIntoAsposeNoteUsingSaveformat_out.pdf", SaveFormat.Pdf);
-		// ExEnd:SaveDocToOneNoteFormatUsingSaveFormat
-	}
-}
-
-=======
-import com.aspose.note.examples.Utils;
->>>>>>> Stashed changes
 ```
 
 Now, let's break down the process of loading a OneNote document into Aspose.Note using SaveFormat in Java into manageable steps:

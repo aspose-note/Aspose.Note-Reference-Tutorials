@@ -26,26 +26,6 @@ To begin, make sure you import the necessary packages in your Java project to ut
 
 ```java
 import com.aspose.note.Document;
-<<<<<<< Updated upstream
-
-
-public class LoadOneNote {
-    public static void main(String[] args)
-    {
-        String dataDir = "Your Document Directory";
-
-        // ExStart:LoadOneNote
-        // Load the document into Aspose.Note.
-        Document oneFile = new Document(dataDir + "Aspose.one");
-        
-        System.out.println(oneFile.getFileFormat());
-        // ExEnd:LoadOneNote
-    }
-}
-
-=======
-import com.aspose.note.examples.Utils;
->>>>>>> Stashed changes
 ```
 
 This line imports the `Document` class from the Aspose.Note package, allowing you to work with OneNote documents in your Java code.

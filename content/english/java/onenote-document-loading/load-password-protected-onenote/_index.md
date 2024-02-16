@@ -32,28 +32,6 @@ import java.io.IOException;
 
 import com.aspose.note.Document;
 import com.aspose.note.LoadOptions;
-<<<<<<< Updated upstream
-
-
-public class LoadPasswordProtectedOneNoteDoc {
-	public static void main(String... args) throws IOException {
-		// ExStart:PasswordProtectedDoc
-		String dataDir = "Your Document Directory";
-
-		LoadOptions loadOptions = new LoadOptions();
-
-		loadOptions.setDocumentPassword("password");
-
-		Document doc = new Document(dataDir + "Sample1.one", loadOptions);
-		
-		System.out.println(doc.getFileFormat());
-		// ExEnd:PasswordProtectedDoc
-	}
-}
-
-=======
-import com.aspose.note.examples.Utils;
->>>>>>> Stashed changes
 ```
 
 Let's break down the process of loading a password-protected OneNote document into multiple steps:
@@ -95,7 +73,7 @@ System.out.println(doc.getFileFormat());
 
 In conclusion, Aspose.Note for Java empowers developers to seamlessly handle password-protected OneNote documents with ease and efficiency. By following the steps outlined in this tutorial, you can effortlessly integrate this functionality into your Java applications, enhancing document management capabilities.
 
-## FAQs
+## FAQ's
 
 ### Q1: Can I load multiple password-protected OneNote documents simultaneously using Aspose.Note for Java?
 

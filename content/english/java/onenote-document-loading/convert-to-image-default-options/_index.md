@@ -37,25 +37,6 @@ import java.io.IOException;
 import com.aspose.note.Document;
 import com.aspose.note.LoadOptions;
 import com.aspose.note.SaveFormat;
-<<<<<<< Updated upstream
-
-
-public class ConvertToImageUsingDefaultOptions {
-	public static void main(String... args) throws IOException {
-		// ExStart:SaveToImageDefaultOptions
-		// Load the document into Aspose.Note.
-		String dataDir = "Your Document Directory";
-		Document oneFile = new Document(dataDir + "Sample1.one", new LoadOptions());
-
-		// Save the document as Gif.
-		oneFile.save(dataDir + "ConvertToImageUsingDefaultOptions_out.gif", SaveFormat.Gif);
-		// ExEnd:SaveToImageDefaultOptions
-	}
-}
-
-=======
-import com.aspose.note.examples.Utils;
->>>>>>> Stashed changes
 ```
 
 Now, let's break down the process of converting a OneNote document to an image using default options into multiple steps:

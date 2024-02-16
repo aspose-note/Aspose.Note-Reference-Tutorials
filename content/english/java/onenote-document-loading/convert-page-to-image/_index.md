@@ -29,34 +29,6 @@ import java.io.IOException;
 import com.aspose.note.Document;
 import com.aspose.note.ImageSaveOptions;
 import com.aspose.note.SaveFormat;
-<<<<<<< Updated upstream
-
-
-public class ConvertSpecificPageToImage {
-	public static void main(String... args) throws IOException {
-		// ExStart:ConvertSpecificPageToImage
-		String dataDir = "Your Document Directory";
-
-		// Load the document into Aspose.Note
-		Document oneFile = new Document(dataDir + "Sample1.one");
-
-		// Initialize PdfSaveOptions object
-		ImageSaveOptions options = new ImageSaveOptions(SaveFormat.Jpeg);
-
-		// Specify second page for conversion
-		options.setPageIndex(1);
-
-		// Save the document
-		oneFile.save(dataDir + "ConvertSpecificPageToImage_out.jpg", options);
-
-		System.out.println("File saved: " + dataDir + "ConvertSpecificPageToImage_out.jpg");
-		// ExEnd:ConvertSpecificPageToImage
-	}
-}
-
-=======
-import com.aspose.note.examples.Utils;
->>>>>>> Stashed changes
 ```
 
 ## Step 1: Load the Document
