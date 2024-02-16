@@ -11,7 +11,7 @@ url: /de/net/text-manipulation/set-proofing-language-text/
 Willkommen in der Welt von Aspose.Note für .NET! In diesem umfassenden Leitfaden erkunden wir den faszinierenden Prozess der Festlegung der Korrektursprache für Text mithilfe von Aspose.Note. Egal, ob Sie ein erfahrener Entwickler sind oder gerade erst mit Aspose.Note beginnen, dieses Tutorial bietet Ihnen detaillierte Einblicke und Schritt-für-Schritt-Anleitungen, um Ihre Fähigkeiten zur Textbearbeitung zu verbessern.
 ## Voraussetzungen
 Bevor wir uns mit dem Tutorial befassen, stellen Sie sicher, dass die folgenden Voraussetzungen erfüllt sind:
--  Aspose.Note für .NET: Stellen Sie sicher, dass Sie die neueste Version von Aspose.Note für .NET installiert haben. Sie können es herunterladen[Hier](https://releases.aspose.com/note/net/).
+- Aspose.Note für .NET: Stellen Sie sicher, dass Sie die neueste Version von Aspose.Note für .NET installiert haben. Sie können es herunterladen[Hier](https://releases.aspose.com/note/net/).
 - .NET-Entwicklungsumgebung: Halten Sie auf Ihrem Computer eine funktionsfähige .NET-Entwicklungsumgebung bereit.
 - Texteditor oder IDE: Wählen Sie Ihren bevorzugten Texteditor oder Ihre integrierte Entwicklungsumgebung (IDE) zum Codieren.
 Beginnen wir nun mit der Festlegung der Korrektursprache für Text in Aspose.Note!

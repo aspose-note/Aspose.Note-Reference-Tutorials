@@ -97,4 +97,4 @@ foreach (Aspose.Note.Image image in images)
 
 ### س5: أين يمكنني العثور على دعم أو مساعدة إضافية فيما يتعلق بـ Aspose.Note؟
 
- ج5: لأية استفسارات أو مساعدة يمكنك زيارة منتدى Aspose.Note[هنا](https://forum.aspose.com/c/note/28).
+ج5: لأية استفسارات أو مساعدة يمكنك زيارة منتدى Aspose.Note[هنا](https://forum.aspose.com/c/note/28).

@@ -76,7 +76,7 @@ A képet hozzáfűzzük az OutlineElementhez, hatékonyan hozzáadva a dokumentu
 ```csharp
 outline1.AppendChildLast(outlineElem1);
 ```
-képet tartalmazó OutlineElement elemet hozzáfűzzük az Outline-hoz.
+A képet tartalmazó OutlineElement elemet hozzáfűzzük az Outline-hoz.
 
 ## 7. lépés: Vázlat hozzáfűzése az oldalhoz
 ```csharp

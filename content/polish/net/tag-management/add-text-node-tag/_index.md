@@ -9,7 +9,7 @@ url: /pl/net/tag-management/add-text-node-tag/
 ---
 ## Wstęp
 
-Aspose.Note dla .NET to potężna biblioteka, która umożliwia programistom tworzenie, manipulowanie i konwertowanie plików Microsoft OneNote programowo przy użyciu platformy .NET. W tym samouczku omówimy, jak dodać węzeł tekstowy ze znacznikiem do dokumentu OneNote za pomocą Aspose.Note dla .NET.
+Aspose.Note dla .NET to potężna biblioteka, która umożliwia programistom programowe tworzenie, manipulowanie i konwertowanie plików Microsoft OneNote przy użyciu platformy .NET. W tym samouczku omówimy, jak dodać węzeł tekstowy ze znacznikiem do dokumentu OneNote za pomocą Aspose.Note dla .NET.
 
 ## Warunki wstępne
 
@@ -106,4 +106,4 @@ O4: Tak, Aspose.Note dla .NET obsługuje szyfrowanie dokumentów, aby zapewnić 
 
 ### P5: Gdzie mogę znaleźć więcej zasobów i wsparcia dla Aspose.Note dla .NET?
 
- Odpowiedź 5: Możesz eksplorować[Aspose.Note dla dokumentacji .NET](https://reference.aspose.com/note/net/) i zwrócić się o pomoc do[Forum Aspose.Note](https://forum.aspose.com/c/note/28).
+ Odpowiedź 5: Możesz eksplorować[Aspose.Note dla dokumentacji .NET](https://reference.aspose.com/note/net/) zwrócić się o pomoc do[Forum Aspose.Note](https://forum.aspose.com/c/note/28).

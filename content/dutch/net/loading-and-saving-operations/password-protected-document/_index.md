@@ -15,7 +15,7 @@ In deze zelfstudie doorlopen we het proces van het omgaan met met een wachtwoord
 
 Voordat we beginnen, zorg ervoor dat u aan de volgende vereisten voldoet:
 
-1.  Aspose.Note voor .NET-bibliotheek: Zorg ervoor dat u de Aspose.Note voor .NET-bibliotheek hebt gedownload en geïnstalleerd. Je kunt het downloaden van[hier](https://releases.aspose.com/note/net/).
+1. Aspose.Note voor .NET-bibliotheek: Zorg ervoor dat u de Aspose.Note voor .NET-bibliotheek hebt gedownload en geïnstalleerd. Je kunt het downloaden van[hier](https://releases.aspose.com/note/net/).
 
 2. Ontwikkelomgeving: Zet een ontwikkelomgeving op met .NET-mogelijkheden.
 
@@ -77,7 +77,7 @@ A3: Ja, Aspose.Note voor .NET biedt functionaliteit om wachtwoordbeveiliging pro
 
 ### Vraag 4: Is er een limiet aan de lengte of complexiteit van het documentwachtwoord?
 
-A4: Hoewel er enkele beperkingen kunnen zijn op basis van de gebruikte versleutelingsalgoritmen, zijn er over het algemeen geen strikte limieten voor de lengte of complexiteit van het documentwachtwoord.
+A4: Hoewel er enkele beperkingen kunnen zijn op basis van de gebruikte versleutelingsalgoritmen, zijn er over het algemeen geen strikte beperkingen voor de lengte of complexiteit van het documentwachtwoord.
 
 ### Vraag 5: Kan ik het proces voor het verwerken van met een wachtwoord beveiligde documenten automatiseren?
 

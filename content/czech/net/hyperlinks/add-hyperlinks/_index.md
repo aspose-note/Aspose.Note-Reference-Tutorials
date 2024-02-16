@@ -9,7 +9,7 @@ url: /cs/net/hyperlinks/add-hyperlinks/
 ---
 ## Úvod
 
-tomto tutoriálu se naučíte přidávat hypertextové odkazy do textu v dokumentech Aspose.Note pomocí rozhraní .NET. Aspose.Note poskytuje výkonné funkce pro programovou manipulaci s dokumenty OneNotu. Přidání hypertextových odkazů může zlepšit interaktivitu a použitelnost vašich dokumentů a učinit je pro uživatele poutavějšími.
+V tomto tutoriálu se naučíte přidávat hypertextové odkazy do textu v dokumentech Aspose.Note pomocí rozhraní .NET. Aspose.Note poskytuje výkonné funkce pro programovou manipulaci s dokumenty OneNotu. Přidání hypertextových odkazů může zlepšit interaktivitu a použitelnost vašich dokumentů a učinit je pro uživatele poutavějšími.
 
 ## Předpoklady:
 

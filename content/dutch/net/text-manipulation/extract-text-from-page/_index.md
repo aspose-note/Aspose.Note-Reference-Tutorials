@@ -8,7 +8,7 @@ weight: 17
 url: /nl/net/text-manipulation/extract-text-from-page/
 ---
 ## Invoering
-Welkom bij deze uitgebreide tutorial over het extraheren van tekst van een pagina in Aspose.Note met behulp van .NET. Aspose.Note is een krachtige bibliotheek voor documentmanipulatie waarmee u naadloos kunt werken met Microsoft OneNote-bestanden. In deze handleiding concentreren we ons op het stapsgewijze proces van het extraheren van tekst van een pagina, zodat u de kennis krijgt die nodig is om uw documentverwerkingsmogelijkheden te verbeteren.
+Welkom bij deze uitgebreide tutorial over het extraheren van tekst van een pagina in Aspose.Note met behulp van .NET. Aspose.Note is een krachtige bibliotheek voor documentmanipulatie waarmee u naadloos kunt werken met Microsoft OneNote-bestanden. In deze handleiding concentreren we ons op het stapsgewijze proces van het extraheren van tekst van een pagina, zodat u de kennis krijgt die u nodig heeft om uw documentverwerkingsmogelijkheden te verbeteren.
 ## Vereisten
 Voordat we dieper ingaan op de zelfstudie, moet u ervoor zorgen dat u aan de volgende vereisten voldoet:
 -  Aspose.Note voor .NET: Zorg ervoor dat de Aspose.Note-bibliotheek in uw .NET-project is geïnstalleerd. Je kunt het downloaden van de[Aspose.Note voor .NET-documentatie](https://reference.aspose.com/note/net/).

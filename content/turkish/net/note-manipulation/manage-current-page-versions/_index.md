@@ -15,7 +15,7 @@ Yazılım geliştirme dünyasında, belgelerin farklı versiyonlarının yöneti
 
 Eğiticiye dalmadan önce aşağıdaki önkoşulları oluşturduğunuzdan emin olun:
 
-1.  Aspose.Note for .NET'i yükleyin: Aspose.Note for .NET'i şu adresten indirip yükleyin:[Burada](https://releases.aspose.com/note/net/).
+1. Aspose.Note for .NET'i yükleyin: Aspose.Note for .NET'i şu adresten indirip yükleyin:[Burada](https://releases.aspose.com/note/net/).
 
 2. .NET Ortamına Aşinalık: .NET ortamına ve C# programlama diline ilişkin temel anlayış.
 

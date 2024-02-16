@@ -67,7 +67,7 @@ Aspose.Note.License license = new Aspose.Note.License();
 
 ## Langkah 2: Tetapkan Lisensi dari Path
 
- Selanjutnya, gunakan`SetLicense` metode`License` kelas untuk menerapkan lisensi dari jalur yang ditentukan:
+Selanjutnya, gunakan`SetLicense` metode`License` kelas untuk menerapkan lisensi dari jalur yang ditentukan:
 
 ```csharp
 license.SetLicense("Aspose.Note.lic");

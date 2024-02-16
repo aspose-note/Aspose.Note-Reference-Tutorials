@@ -70,7 +70,7 @@ Table table = new Table(doc)
 };
 ```
 
-## Stap 5: rij toevoegen aan tabel
+## Stap 5: Rij toevoegen aan tabel
 
 Voeg het rijknooppunt toe aan de tabel:
 

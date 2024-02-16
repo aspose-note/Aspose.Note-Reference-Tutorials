@@ -17,7 +17,7 @@ url: /ja/net/loading-and-saving-operations/save-doc-to-onenote-format/
 
 1. C# および .NET 開発の知識: このチュートリアルは、C# プログラミング言語と .NET フレームワークの基本的な理解を前提としています。
 
-2. Aspose.Note for .NET のインストール: Aspose.Note for .NET ライブラリを次の場所からダウンロードしてインストールします。[Webサイト](https://releases.aspose.com/note/net/).
+2.  Aspose.Note for .NET のインストール: Aspose.Note for .NET ライブラリを次の場所からダウンロードしてインストールします。[Webサイト](https://releases.aspose.com/note/net/).
 
 3. 開発環境: Visual Studio または .NET 開発用の任意の優先 IDE を使用して開発環境をセットアップします。
 

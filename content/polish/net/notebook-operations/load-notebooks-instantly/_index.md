@@ -9,7 +9,7 @@ url: /pl/net/notebook-operations/load-notebooks-instantly/
 ---
 ## Wstęp
 
-W tym samouczku przyjrzymy się, jak natychmiastowo załadować notesy w Aspose.Note dla .NET. Błyskawiczne ładowanie notatników umożliwia sprawną manipulację i przetwarzanie dokumentów notatników.
+tym samouczku przyjrzymy się, jak natychmiastowo załadować notesy w Aspose.Note dla .NET. Błyskawiczne ładowanie notatników umożliwia sprawną manipulację i przetwarzanie dokumentów notatników.
 
 ## Warunki wstępne
 
@@ -61,7 +61,7 @@ foreach (INotebookChildNode notebookChildNode in notebook.OfType<Document>())
 
 ## Wniosek
 
- W tym samouczku nauczyliśmy się, jak natychmiastowo ładować notesy w Aspose.Note dla .NET. Ustawiając`InstantLoading` flaga w`NotebookLoadOptions`, możemy efektywnie przeglądać wstępnie załadowane dokumenty w notatniku, zwiększając wydajność i produktywność.
+ tym samouczku nauczyliśmy się, jak natychmiastowo ładować notesy w Aspose.Note dla .NET. Ustawiając`InstantLoading` flaga w`NotebookLoadOptions`, możemy efektywnie przeglądać wstępnie załadowane dokumenty w notatniku, zwiększając wydajność i produktywność.
 
 ## Często zadawane pytania
 

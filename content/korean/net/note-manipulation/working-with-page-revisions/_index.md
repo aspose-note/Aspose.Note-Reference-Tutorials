@@ -11,7 +11,7 @@ url: /ko/net/note-manipulation/working-with-page-revisions/
 
 .NET 개발 영역에서 Aspose.Note는 Microsoft OneNote 파일을 효율적으로 처리하기 위한 다목적 도구로 돋보입니다. Aspose.Note의 특히 유용한 기능 중 하나는 페이지 개정판을 원활하게 관리하는 기능입니다. 이 튜토리얼에서는 .NET용 Aspose.Note를 사용하여 페이지 개정 작업의 복잡성을 자세히 살펴보겠습니다.
 
-## 전제 조건
+## 전제조건
 
 이 튜토리얼을 시작하기 전에 다음 전제 조건이 충족되었는지 확인하세요.
 

@@ -11,13 +11,13 @@ url: /ko/net/loading-and-saving-operations/save-doc-to-onenote-format/
 
 .NET 개발 영역에서 Aspose.Note는 OneNote 문서를 프로그래밍 방식으로 관리하고 조작하기 위한 강력한 도구로 돋보입니다. 직관적인 API와 포괄적인 기능 세트를 통해 개발자는 응용 프로그램 내에서 OneNote 파일과 관련된 다양한 작업을 쉽게 처리할 수 있습니다. 이 튜토리얼에서는 .NET용 Aspose.Note를 사용하여 문서를 OneNote 형식으로 저장하는 과정을 자세히 살펴보고 명확성과 이해를 보장하기 위해 각 단계를 세분화합니다.
 
-## 전제 조건
+## 전제조건
 
 이 튜토리얼을 시작하기 전에 다음 전제 조건이 충족되었는지 확인하세요.
 
 1. C# 및 .NET 개발에 대한 지식: 이 자습서에서는 C# 프로그래밍 언어 및 .NET 프레임워크에 대한 기본적인 이해가 있다고 가정합니다.
 
-2. .NET용 Aspose.Note 설치: 다음에서 .NET용 Aspose.Note 라이브러리를 다운로드하여 설치하세요.[웹사이트](https://releases.aspose.com/note/net/).
+2.  .NET용 Aspose.Note 설치: 다음에서 .NET용 Aspose.Note 라이브러리를 다운로드하여 설치하세요.[웹사이트](https://releases.aspose.com/note/net/).
 
 3. 개발 환경: Visual Studio 또는 .NET 개발을 위해 선호하는 IDE를 사용하여 개발 환경을 설정합니다.
 
@@ -68,7 +68,7 @@ doc.Save(dataDir + outputFile);
 
 ## FAQ
 
-### Q1: .NET용 Aspose.Note는 대용량 OneNote 문서를 처리할 수 있습니까?
+### Q1: .NET용 Aspose.Note는 대용량 OneNote 문서를 처리할 수 있나요?
 
 A: 예, .NET용 Aspose.Note는 성능 저하 없이 대규모 OneNote 문서를 효율적으로 처리하도록 설계되었습니다.
 

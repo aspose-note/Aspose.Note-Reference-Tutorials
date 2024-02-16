@@ -13,7 +13,7 @@ Ebben az oktatóanyagban a dokumentum képformátumba mentésének folyamatát m
 
 ## Előfeltételek
 
-Mielőtt elkezdené, győződjön meg arról, hogy rendelkezik az alábbiakkal:
+Mielőtt elkezdené, győződjön meg arról, hogy rendelkezik a következőkkel:
 
 1.  Aspose.Note .NET-hez: Győződjön meg arról, hogy letöltötte és telepítette az Aspose.Note könyvtárat. től lehet kapni[itt](https://releases.aspose.com/note/net/).
 2. Fejlesztői környezet: Állítsa be fejlesztői környezetét a Visual Studio vagy bármely más .NET IDE segítségével.

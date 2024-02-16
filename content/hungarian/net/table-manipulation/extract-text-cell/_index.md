@@ -22,7 +22,7 @@ Mielőtt folytatnánk, győződjön meg arról, hogy rendelkezik az alábbiakkal
 
 ## Névterek importálása
 
-A kódolás megkezdése előtt importáljuk a szükséges névtereket az Aspose által biztosított funkciók eléréséhez.Megjegyzés:
+kódolás megkezdése előtt importáljuk a szükséges névtereket az Aspose által biztosított funkciók eléréséhez.Megjegyzés:
 
 ```csharp
 using System.IO;
@@ -72,7 +72,7 @@ foreach (Table table in nodes)
 
 ## Következtetés
 
-Ebben az oktatóanyagban megvizsgáltuk a táblázatcellákból a szöveg Aspose.Note for .NET használatával történő kinyerésének folyamatát. Az alábbi lépések követésével hatékonyan kérheti le a szöveget a dokumentumokon belüli táblázatokból, lehetővé téve különféle alkalmazások, például adatkinyerés és elemzések használatát.
+Ebben az oktatóanyagban megvizsgáltuk a táblázatcellákból a szöveg Aspose.Note for .NET használatával történő kinyerésének folyamatát. Ezen lépések követésével hatékonyan kérheti le a szöveget a dokumentumokon belüli táblázatokból, lehetővé téve különféle alkalmazások, például adatkinyerés és elemzések használatát.
 
 ## GYIK
 

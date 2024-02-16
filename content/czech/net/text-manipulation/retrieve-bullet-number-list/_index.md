@@ -14,7 +14,7 @@ Než se pustíme do této kódovací cesty, ujistěte se, že máte splněny ná
 -  Aspose.Note pro .NET: Ujistěte se, že máte nainstalovanou knihovnu Aspose.Note. Pokud ne, můžete si jej stáhnout z[Aspose.Note pro dokumentaci .NET](https://reference.aspose.com/note/net/).
 - Vývojové prostředí: Mějte na svém počítači nastavené funkční vývojové prostředí, nejlépe Microsoft Visual Studio.
 - Základní znalost C#: Seznamte se s C#, protože tento tutoriál je napsán v tomto jazyce.
-## Importovat jmenné prostory
+## Import jmenných prostorů
 Abyste mohli komunikovat s Aspose.Note pro .NET, musíte do svého projektu importovat potřebné jmenné prostory. Na začátek kódu uveďte následující jmenné prostory:
 ```csharp
 using System;
@@ -35,7 +35,7 @@ string dataDir = "Your Document Directory";
 // Vložte dokument do Aspose.Note.
 Document oneFile = new Document(dataDir + "ApplyNumberingOnText.one");
 ```
- Ujistěte se, že jste vyměnili`"ApplyNumberingOnText.one"` s názvem vašeho konkrétního dokumentu OneNotu.
+ Ujistěte se, že vyměníte`"ApplyNumberingOnText.one"` s názvem vašeho konkrétního dokumentu OneNotu.
 ## Krok 3: Načtení kolekce uzlů
 ```csharp
 // Načtěte kolekci uzlů prvku osnovy.
@@ -84,6 +84,6 @@ Ano, Aspose.Note podporuje širokou škálu formátů OneNote, což zajišťuje 
 ### Jak mohu získat dočasnou licenci pro Aspose.Note?
  Návštěva[tento odkaz](https://purchase.aspose.com/temporary-license/) získat dočasnou licenci pro účely hodnocení.
 ### Jaké možnosti podpory jsou k dispozici pro uživatele Aspose.Note?
- Můžete prozkoumat a vyhledat pomoc v[Aspose.Note fórum](https://forum.aspose.com/c/note/28) pro jakékoli dotazy nebo problémy, se kterými se můžete setkat.
+Můžete prozkoumat a vyhledat pomoc v[Aspose.Note fórum](https://forum.aspose.com/c/note/28) pro jakékoli dotazy nebo problémy, se kterými se můžete setkat.
 ### Existuje bezplatná zkušební verze Aspose.Note pro .NET?
  Ano, máte přístup k bezplatné zkušební verzi Aspose.Note pro .NET[tady](https://releases.aspose.com/).

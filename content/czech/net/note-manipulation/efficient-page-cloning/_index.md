@@ -20,7 +20,7 @@ Než začneme, ujistěte se, že máte následující předpoklady:
 -  Aspose.Note pro .NET nainstalován. Můžete si jej stáhnout z[tady](https://releases.aspose.com/note/net/).
 - Dokument OneNotu, se kterým můžete pracovat.
 
-## Importovat jmenné prostory
+## Import jmenných prostorů
 
 Chcete-li začít, musíte do svého projektu C# importovat potřebné jmenné prostory:
 
@@ -35,7 +35,7 @@ Nyní si proces klonování stránek rozdělíme do několika kroků:
 
 ## Krok 1: Načtěte dokument OneNotu
 
-Nejprve musíme načíst dokument OneNotu do paměti. Toho můžeme dosáhnout pomocí`Document` třídu poskytuje Aspose.Poznámka:
+ Nejprve musíme načíst dokument OneNotu do paměti. Toho můžeme dosáhnout pomocí`Document` třídu poskytuje Aspose.Poznámka:
 
 ```csharp
 // Cesta k adresáři dokumentů.

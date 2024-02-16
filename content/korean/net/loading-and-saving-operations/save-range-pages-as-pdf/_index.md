@@ -11,7 +11,7 @@ url: /ko/net/loading-and-saving-operations/save-range-pages-as-pdf/
 
 .NET 개발 영역에서 Aspose.Note는 OneNote 문서를 쉽고 효율적으로 처리하기 위한 다목적 도구로 돋보입니다. 수많은 기능 중에서 가장 많이 찾는 기능 중 하나는 다양한 페이지를 PDF 파일로 저장하는 기능입니다. 이 튜토리얼에서는 이 기능을 프로젝트에 원활하게 통합할 수 있도록 프로세스를 단계별로 안내합니다.
 
-## 전제 조건
+## 전제조건
 
 튜토리얼을 시작하기 전에 다음 전제 조건이 충족되었는지 확인하세요.
 
@@ -82,7 +82,7 @@ oneFile.Save(dataDir, opts);
 
 ### Q1: Aspose.Note를 사용하여 여러 페이지 범위를 별도의 PDF 파일로 저장할 수 있나요?
 
- A1: 예, 저장하려는 각 페이지 범위에 대해 프로세스를 반복하고`PageIndex` 그리고`PageCount` 따라서.
+A1: 예, 저장하려는 각 페이지 범위에 대해 프로세스를 반복하고`PageIndex` 그리고`PageCount` 따라서.
    
 ### Q2: Aspose.Note는 PDF 이외의 형식으로 문서 저장을 지원합니까?
 

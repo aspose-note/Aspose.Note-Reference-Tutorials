@@ -15,7 +15,7 @@ url: /ar/net/note-manipulation/manage-current-page-versions/
 
 قبل الغوص في البرنامج التعليمي، تأكد من إعداد المتطلبات الأساسية التالية:
 
-1.  تثبيت Aspose.Note لـ .NET: قم بتنزيل Aspose.Note لـ .NET وتثبيته من[هنا](https://releases.aspose.com/note/net/).
+1. تثبيت Aspose.Note لـ .NET: قم بتنزيل Aspose.Note لـ .NET وتثبيته من[هنا](https://releases.aspose.com/note/net/).
 
 2. الإلمام ببيئة .NET: الفهم الأساسي لبيئة .NET ولغة البرمجة C#.
 

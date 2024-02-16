@@ -11,7 +11,7 @@ url: /ko/net/loading-and-saving-operations/save-with-default-settings/
 
 .NET 개발 영역에서 Aspose.Note는 Microsoft OneNote 파일 작업을 위한 강력한 도구로 돋보입니다. 메모 작성 애플리케이션, 디지털 노트북 또는 기타 관련 프로젝트를 처리하든 Aspose.Note는 개발 프로세스를 간소화하는 데 필요한 기능을 제공합니다. 이 튜토리얼에서는 Aspose.Note for .NET을 사용하여 기본 설정으로 문서를 저장하는 과정을 살펴보겠습니다. 우리는 각 단계를 세분화하여 모든 수준의 개발자에게 명확성과 이해를 보장할 것입니다.
 
-## 전제 조건
+## 전제조건
 
 이 튜토리얼을 시작하기 전에 다음 전제 조건이 충족되었는지 확인하세요.
 

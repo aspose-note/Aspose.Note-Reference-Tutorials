@@ -120,7 +120,7 @@ A1：是的，Aspose.Note for .NET 可以與其他 .NET 相容語言（例如 VB
 
 ## 問題 2：Aspose.Note for .NET 是否有免費試用版？
 
- A2：是的，您可以從以下地址存取 Aspose.Note for .NET 的免費試用版：[網站](https://releases.aspose.com/).
+A2：是的，您可以從以下地址存取 Aspose.Note for .NET 的免費試用版：[網站](https://releases.aspose.com/).
 
 ## Q3：如何取得 Aspose.Note for .NET 的臨時授權？
 

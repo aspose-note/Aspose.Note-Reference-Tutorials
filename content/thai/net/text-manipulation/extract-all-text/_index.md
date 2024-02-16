@@ -30,7 +30,7 @@ string dataDir = "Your Document Directory";
 ```csharp
 Document oneFile = new Document(dataDir + "Aspose.one");
 ```
- โหลดเอกสาร Aspose.Note ของคุณลงในไฟล์`Document` วัตถุเพื่อการประมวลผลต่อไป
+โหลดเอกสาร Aspose.Note ของคุณลงในไฟล์`Document` วัตถุเพื่อการประมวลผลต่อไป
 ## ขั้นตอนที่ 3: ดึงข้อความ
 ```csharp
 string text = string.Join(Environment.NewLine, oneFile.GetChildNodes<RichText>().Select(e => e.Text)) + Environment.NewLine;

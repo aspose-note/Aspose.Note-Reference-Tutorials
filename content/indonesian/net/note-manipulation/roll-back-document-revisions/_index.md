@@ -16,7 +16,7 @@ Dalam dunia manajemen dan pengeditan dokumen, sangat penting untuk memiliki kema
 Sebelum mendalami tutorial ini, pastikan Anda memiliki prasyarat berikut:
 
 1. Pemahaman Dasar C#: Keakraban dengan bahasa pemrograman C# diperlukan untuk mengikuti contoh kode.
-2.  Aspose.Note untuk .NET Library: Instal perpustakaan Aspose.Note untuk .NET di lingkungan pengembangan Anda. Anda dapat mengunduhnya dari[Di Sini](https://releases.aspose.com/note/net/).
+2. Aspose.Note untuk .NET Library: Instal perpustakaan Aspose.Note untuk .NET di lingkungan pengembangan Anda. Anda dapat mengunduhnya dari[Di Sini](https://releases.aspose.com/note/net/).
 3. Lingkungan Pengembangan Terpadu (IDE): Miliki IDE seperti Visual Studio yang terinstal di sistem Anda.
 
 ## Impor Namespace

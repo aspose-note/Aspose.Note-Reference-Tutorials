@@ -9,19 +9,19 @@ url: /cs/net/notebook-operations/add-child-nodes/
 ---
 ## Úvod
 
-V tomto tutoriálu se naučíme, jak přidat podřízené uzly v Aspose Note .NET. Přidání podřízených uzlů je základní operací při práci s dokumenty a Aspose Note .NET poskytuje přímý způsob, jak tento úkol splnit.
+tomto tutoriálu se naučíme, jak přidat podřízené uzly v Aspose Note .NET. Přidání podřízených uzlů je základní operací při práci s dokumenty a Aspose Note .NET poskytuje přímý způsob, jak tento úkol splnit.
 
 ## Předpoklady
 
 Než začneme, ujistěte se, že máte následující:
 
-1. Aspose.Note pro .NET: Ujistěte se, že máte ve svém vývojovém prostředí nainstalovaný Aspose.Note pro .NET. Můžete si jej stáhnout z[webová stránka](https://releases.aspose.com/note/net/).
+1.  Aspose.Note pro .NET: Ujistěte se, že máte ve svém vývojovém prostředí nainstalovaný Aspose.Note pro .NET. Můžete si jej stáhnout z[webová stránka](https://releases.aspose.com/note/net/).
 
 2. Vývojové prostředí: Nastavte vývojové prostředí .NET, jako je Visual Studio.
 
 3. Základní znalost C#: Spolu s tímto návodem je nutná znalost programovacího jazyka C#.
 
-## Importovat jmenné prostory
+## Import jmenných prostorů
 
 Nejprve importujme potřebné jmenné prostory do našeho kódu C#:
 

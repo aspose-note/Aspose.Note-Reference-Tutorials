@@ -11,7 +11,7 @@ url: /ko/net/loading-and-saving-operations/save-to-image/
 
 이 튜토리얼에서는 Aspose.Note for .NET을 사용하여 문서를 이미지 형식으로 저장하는 과정을 살펴보겠습니다. Aspose.Note는 개발자가 프로그래밍 방식으로 Microsoft OneNote 파일을 사용하여 문서를 조작하고 변환할 수 있는 다양한 기능을 제공할 수 있는 강력한 API입니다.
 
-## 전제 조건
+## 전제조건
 
 시작하기 전에 다음 사항이 있는지 확인하세요.
 

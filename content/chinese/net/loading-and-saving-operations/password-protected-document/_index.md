@@ -15,7 +15,7 @@ url: /zh/net/loading-and-saving-operations/password-protected-document/
 
 在我们开始之前，请确保您具备以下先决条件：
 
-1.  Aspose.Note for .NET 库：确保您已下载并安装 Aspose.Note for .NET 库。您可以从以下位置下载：[这里](https://releases.aspose.com/note/net/).
+1. Aspose.Note for .NET 库：确保您已下载并安装 Aspose.Note for .NET 库。您可以从以下位置下载：[这里](https://releases.aspose.com/note/net/).
 
 2. 开发环境：搭建具有.NET功能的开发环境。
 

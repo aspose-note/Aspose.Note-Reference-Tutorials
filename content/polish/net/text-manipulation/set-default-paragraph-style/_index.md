@@ -8,10 +8,10 @@ weight: 24
 url: /pl/net/text-manipulation/set-default-paragraph-style/
 ---
 ## Wstęp
-dziedzinie programowania .NET Aspose.Note wyróżnia się jako potężne narzędzie do pracy z plikami OneNote. Jedną z podstawowych funkcji, jakie oferuje, jest możliwość ustawienia domyślnych stylów akapitów, zapewniając programistom elastyczność w kontrolowaniu wyglądu tekstu w swoich dokumentach. W tym samouczku zagłębimy się w proces ustawiania domyślnych stylów akapitów za pomocą Aspose.Note dla .NET. Postępuj zgodnie z opisem każdego kroku, aby pomóc Ci opanować ten kluczowy aspekt manipulacji dokumentami.
+W dziedzinie programowania .NET Aspose.Note wyróżnia się jako potężne narzędzie do pracy z plikami OneNote. Jedną z podstawowych funkcji, jakie oferuje, jest możliwość ustawienia domyślnych stylów akapitów, zapewniając programistom elastyczność w kontrolowaniu wyglądu tekstu w swoich dokumentach. W tym samouczku zagłębimy się w proces ustawiania domyślnych stylów akapitów za pomocą Aspose.Note dla .NET. Postępuj zgodnie z opisem każdego kroku, aby pomóc Ci opanować ten kluczowy aspekt manipulacji dokumentami.
 ## Warunki wstępne
 Zanim przejdziemy do samouczka, upewnij się, że spełniasz następujące wymagania wstępne:
--  Aspose.Note dla .NET: Upewnij się, że masz zainstalowaną bibliotekę Aspose.Note dla .NET. Można go pobrać z[Dokumentacja Aspose.Note .NET](https://reference.aspose.com/note/net/).
+- Aspose.Note dla .NET: Upewnij się, że masz zainstalowaną bibliotekę Aspose.Note dla .NET. Można go pobrać z[Dokumentacja Aspose.Note .NET](https://reference.aspose.com/note/net/).
 - Zintegrowane środowisko programistyczne (IDE): Zainstaluj na swoim komputerze działające środowisko IDE do programowania w środowisku .NET, takie jak Visual Studio.
 Teraz, gdy masz już niezbędne narzędzia, przejdźmy do kolejnych kroków.
 ## Importuj przestrzenie nazw
@@ -79,4 +79,4 @@ Tak, w tym samym dokumencie możesz utworzyć wiele konspektów lub stron z ró�
 ### Czy Aspose.Note jest kompatybilny z najnowszymi frameworkami .NET?
 Tak, Aspose.Note jest regularnie aktualizowany, aby zapewnić kompatybilność z najnowszymi frameworkami .NET.
 ### Czy dostępne są licencje tymczasowe dla Aspose.Note?
-Tak, możesz uzyskać tymczasową licencję na Aspose.Note od[Tutaj](https://purchase.aspose.com/temporary-license/).
+ Tak, możesz uzyskać tymczasową licencję na Aspose.Note od[Tutaj](https://purchase.aspose.com/temporary-license/).

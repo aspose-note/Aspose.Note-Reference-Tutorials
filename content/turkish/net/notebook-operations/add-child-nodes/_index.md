@@ -15,7 +15,7 @@ Bu eğitimde Aspose Note .NET'te alt düğümlerin nasıl ekleneceğini öğrene
 
 Başlamadan önce aşağıdakilere sahip olduğunuzdan emin olun:
 
-1. Aspose.Note for .NET: Geliştirme ortamınızda Aspose.Note for .NET'in kurulu olduğundan emin olun. adresinden indirebilirsiniz.[İnternet sitesi](https://releases.aspose.com/note/net/).
+1.  Aspose.Note for .NET: Geliştirme ortamınızda Aspose.Note for .NET'in kurulu olduğundan emin olun. adresinden indirebilirsiniz.[İnternet sitesi](https://releases.aspose.com/note/net/).
 
 2. Geliştirme Ortamı: Visual Studio gibi bir .NET geliştirme ortamı kurun.
 

@@ -9,7 +9,7 @@ url: /hu/net/loading-and-saving-operations/save-range-pages-as-pdf/
 ---
 ## Bevezetés
 
-.NET fejlesztés területén az Aspose.Note sokoldalú eszközként tűnik ki a OneNote dokumentumok egyszerű és hatékony kezeléséhez. Rengeteg funkciója közül az egyik legkeresettebb funkció az, hogy számos oldalt PDF-fájlként menthet. Ez az oktatóanyag lépésről lépésre végigvezeti a folyamaton, biztosítva, hogy ezt a képességet zökkenőmentesen integrálhassa projektjeibe.
+A .NET fejlesztés területén az Aspose.Note sokoldalú eszközként tűnik ki a OneNote dokumentumok egyszerű és hatékony kezeléséhez. Rengeteg funkciója közül az egyik legkeresettebb funkció az, hogy számos oldalt PDF-fájlként menthet. Ez az oktatóanyag lépésről lépésre végigvezeti a folyamaton, biztosítva, hogy ezt a képességet zökkenőmentesen integrálhassa projektjeibe.
 
 ## Előfeltételek
 
@@ -82,7 +82,7 @@ Gratulálunk! Sikeresen megtanulta, hogyan menthet egy sor oldalt egy OneNote-do
 
 ### 1. kérdés: Az Aspose.Note segítségével több oldaltartományt is elmenthetek külön PDF-fájlként?
 
- V1: Igen, ezt úgy érheti el, hogy megismétli a folyamatot a menteni kívánt oldalak minden egyes tartományára, és módosítja a`PageIndex` és`PageCount` Eszerint.
+V1: Igen, ezt úgy érheti el, hogy megismétli a folyamatot a menteni kívánt oldalak minden egyes tartományára, és módosítja a`PageIndex` és`PageCount` Eszerint.
    
 ### 2. kérdés: Az Aspose.Note támogatja a dokumentumok PDF-től eltérő formátumban történő mentését?
 

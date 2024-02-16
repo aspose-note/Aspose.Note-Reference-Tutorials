@@ -43,7 +43,7 @@ public static void SaveToTiffUsingJpegCompression()
     // Tải tài liệu vào Aspose.Note.
     Document oneFile = new Document("Path_to_your_OneNote_document");
 
-    // Đặt đường dẫn đích cho hình ảnh TIFF.
+    //Đặt đường dẫn đích cho hình ảnh TIFF.
     var dst = "Destination_path_for_TIFF_image";
 
     // Lưu tài liệu dưới dạng hình ảnh TIFF với nén JPEG.
@@ -67,7 +67,7 @@ public static void SaveToTiffUsingPackBitsCompression()
     // Tải tài liệu vào Aspose.Note.
     Document oneFile = new Document("Path_to_your_OneNote_document");
 
-    // Đặt đường dẫn đích cho hình ảnh TIFF.
+    //Đặt đường dẫn đích cho hình ảnh TIFF.
     var dst = "Destination_path_for_TIFF_image";
 
     // Lưu tài liệu dưới dạng hình ảnh TIFF với tính năng nén PackBits.
@@ -90,7 +90,7 @@ public static void SaveToTiffUsingCcitt3Compression()
     // Tải tài liệu vào Aspose.Note.
     Document oneFile = new Document("Path_to_your_OneNote_document");
 
-    // Đặt đường dẫn đích cho hình ảnh TIFF.
+    //Đặt đường dẫn đích cho hình ảnh TIFF.
     var dst = "Destination_path_for_TIFF_image";
 
     // Lưu tài liệu dưới dạng hình ảnh TIFF với nén CCITT Nhóm 3.
@@ -130,4 +130,4 @@ Câu trả lời 4: Có, bạn có thể tự động hóa quy trình chuyển �
 
 ### Câu hỏi 5: Có phiên bản dùng thử cho Aspose.Note không?
 
- Câu trả lời 5: Có, bạn có thể dùng thử miễn phí Aspose.Note từ[đây](https://releases.aspose.com/).
+Câu trả lời 5: Có, bạn có thể dùng thử miễn phí Aspose.Note từ[đây](https://releases.aspose.com/).

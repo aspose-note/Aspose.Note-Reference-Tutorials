@@ -11,7 +11,7 @@ url: /id/net/text-manipulation/set-default-paragraph-style/
 Di bidang pengembangan .NET, Aspose.Note menonjol sebagai alat yang ampuh untuk bekerja dengan file OneNote. Salah satu fitur penting yang ditawarkannya adalah kemampuan untuk mengatur gaya paragraf default, memberikan fleksibilitas kepada pengembang untuk mengontrol tampilan teks dalam dokumen mereka. Dalam tutorial ini, kita akan mempelajari proses pengaturan gaya paragraf default menggunakan Aspose.Note untuk .NET. Ikuti terus kami menguraikan setiap langkah untuk membantu Anda menguasai aspek penting manipulasi dokumen ini.
 ## Prasyarat
 Sebelum kita mendalami tutorialnya, pastikan Anda memiliki prasyarat berikut:
--  Aspose.Note untuk .NET: Pastikan Anda telah menginstal perpustakaan Aspose.Note untuk .NET. Anda dapat mengunduhnya dari[Aspose.Catatan Dokumentasi .NET](https://reference.aspose.com/note/net/).
+- Aspose.Note untuk .NET: Pastikan Anda telah menginstal perpustakaan Aspose.Note untuk .NET. Anda dapat mengunduhnya dari[Aspose.Catatan Dokumentasi .NET](https://reference.aspose.com/note/net/).
 - Lingkungan Pengembangan Terpadu (IDE): Miliki IDE yang berfungsi untuk pengembangan .NET, seperti Visual Studio, yang diinstal pada mesin Anda.
 Sekarang Anda memiliki alat yang diperlukan, mari lanjutkan ke langkah berikutnya.
 ## Impor Namespace
@@ -79,4 +79,4 @@ Ya, Anda dapat membuat beberapa kerangka atau halaman dengan gaya paragraf defau
 ### Apakah Aspose.Note kompatibel dengan kerangka .NET terbaru?
 Ya, Aspose.Note diperbarui secara berkala untuk memastikan kompatibilitas dengan kerangka .NET terbaru.
 ### Apakah lisensi sementara tersedia untuk Aspose.Note?
-Ya, Anda bisa mendapatkan lisensi sementara untuk Aspose.Note dari[Di Sini](https://purchase.aspose.com/temporary-license/).
+ Ya, Anda bisa mendapatkan lisensi sementara untuk Aspose.Note dari[Di Sini](https://purchase.aspose.com/temporary-license/).

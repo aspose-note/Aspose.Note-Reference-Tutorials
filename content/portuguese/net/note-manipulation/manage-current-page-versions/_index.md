@@ -15,7 +15,7 @@ No mundo do desenvolvimento de software, gerenciar e manter diferentes versões 
 
 Antes de mergulhar no tutorial, certifique-se de ter os seguintes pré-requisitos configurados:
 
-1.  Instale o Aspose.Note para .NET: Baixe e instale o Aspose.Note para .NET em[aqui](https://releases.aspose.com/note/net/).
+1. Instale o Aspose.Note para .NET: Baixe e instale o Aspose.Note para .NET em[aqui](https://releases.aspose.com/note/net/).
 
 2. Familiaridade com o ambiente .NET: Compreensão básica do ambiente .NET e da linguagem de programação C#.
 

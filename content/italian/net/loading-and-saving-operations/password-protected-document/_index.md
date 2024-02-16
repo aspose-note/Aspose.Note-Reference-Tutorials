@@ -15,7 +15,7 @@ In questo tutorial, esamineremo il processo di gestione dei documenti protetti d
 
 Prima di iniziare, assicurati di avere i seguenti prerequisiti:
 
-1.  Aspose.Note per la libreria .NET: assicurati di aver scaricato e installato la libreria Aspose.Note per .NET. Puoi scaricarlo da[Qui](https://releases.aspose.com/note/net/).
+1. Aspose.Note per la libreria .NET: assicurati di aver scaricato e installato la libreria Aspose.Note per .NET. Puoi scaricarlo da[Qui](https://releases.aspose.com/note/net/).
 
 2. Ambiente di sviluppo: configura un ambiente di sviluppo con funzionalità .NET.
 

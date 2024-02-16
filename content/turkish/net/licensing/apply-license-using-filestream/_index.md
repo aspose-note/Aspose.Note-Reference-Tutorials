@@ -76,11 +76,11 @@ Cevap1: Hayır, Aspose.Note'un tüm işlevlerini kullanabilmek için geçerli bi
 
 ### S3: Ücretsiz deneme sürümü mevcut mu?
 
-A3: Evet, ücretsiz deneme sürümünden yararlanabilirsiniz[Burada](https://releases.aspose.com/).
+ A3: Evet, ücretsiz deneme sürümünden yararlanabilirsiniz[Burada](https://releases.aspose.com/).
 
 ### S4: Nasıl destek alabilirim?
 
- Cevap4: Aspose.Note topluluğundan destek alabilirsiniz[forum](https://forum.aspose.com/c/note/28).
+Cevap4: Aspose.Note topluluğundan destek alabilirsiniz[forum](https://forum.aspose.com/c/note/28).
 
 ### S5: Geçici lisanslar sunuyor musunuz?
 

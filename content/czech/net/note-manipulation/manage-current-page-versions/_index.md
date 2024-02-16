@@ -15,11 +15,11 @@ Ve světě vývoje softwaru je správa a údržba různých verzí dokumentů z�
 
 Než se pustíte do výukového programu, ujistěte se, že máte nastaveny následující předpoklady:
 
-1.  Instalace Aspose.Note pro .NET: Stáhněte a nainstalujte Aspose.Note pro .NET z[tady](https://releases.aspose.com/note/net/).
+1. Instalace Aspose.Note pro .NET: Stáhněte a nainstalujte Aspose.Note pro .NET z[tady](https://releases.aspose.com/note/net/).
 
 2. Znalost prostředí .NET: Základní znalost prostředí .NET a programovacího jazyka C#.
 
-## Importovat jmenné prostory
+## Import jmenných prostorů
 
 Nejprve musíme importovat potřebné jmenné prostory pro přístup k funkcím poskytovaným Aspose.Note pro .NET. Můžete to udělat takto:
 

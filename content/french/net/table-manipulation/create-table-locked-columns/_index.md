@@ -81,7 +81,7 @@ Table table = new Table(doc)
 };
 ```
 
-## Étape 6 : Ajouter des lignes au tableau
+## Étape 6 : ajouter des lignes au tableau
 
 Ajoutez les lignes initialisées au tableau :
 
@@ -142,8 +142,8 @@ A3 : Oui, Aspose.Note pour .NET s'intègre de manière transparente à d'autres 
 
 ### Q4 : Le support technique est-il disponible pour Aspose.Note pour .NET ?
 
- A4 : Oui, vous pouvez accéder au support technique via le[Forum Aspose.Note](https://forum.aspose.com/c/note/28) où des experts sont disponibles pour vous aider avec toutes les questions ou problèmes que vous pourriez rencontrer.
+A4 : Oui, vous pouvez accéder au support technique via le[Forum Aspose.Note](https://forum.aspose.com/c/note/28) où des experts sont disponibles pour vous aider avec toutes les questions ou problèmes que vous pourriez rencontrer.
 
 ### Q5 : Puis-je essayer Aspose.Note pour .NET avant d’acheter ?
 
- A5 : Oui, vous pouvez télécharger une version d'essai gratuite d'Aspose.Note pour .NET à partir de[ici](https://releases.aspose.com/)pour évaluer ses fonctionnalités et sa compatibilité avec vos besoins.
+ A5 : Oui, vous pouvez télécharger une version d'essai gratuite d'Aspose.Note pour .NET à partir de[ici](https://releases.aspose.com/) pour évaluer ses fonctionnalités et sa compatibilité avec vos besoins.

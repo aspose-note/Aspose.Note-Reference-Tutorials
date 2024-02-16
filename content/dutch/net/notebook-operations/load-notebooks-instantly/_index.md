@@ -61,7 +61,7 @@ foreach (INotebookChildNode notebookChildNode in notebook.OfType<Document>())
 
 ## Conclusie
 
- In deze zelfstudie hebben we geleerd hoe u notitieboekjes direct in Aspose.Note voor .NET kunt laden. Door het instellen van de`InstantLoading` vlag in de`NotebookLoadOptions`kunnen we efficiënt de vooraf geladen documenten van een notebook doorlopen, waardoor de prestaties en productiviteit worden verbeterd.
+In deze zelfstudie hebben we geleerd hoe u notitieboekjes direct in Aspose.Note voor .NET kunt laden. Door het instellen van de`InstantLoading` vlag in de`NotebookLoadOptions`kunnen we efficiënt de vooraf geladen documenten van een notebook doorlopen, waardoor de prestaties en productiviteit worden verbeterd.
 
 ## Veelgestelde vragen
 

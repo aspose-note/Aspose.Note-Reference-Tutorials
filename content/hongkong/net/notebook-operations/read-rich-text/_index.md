@@ -84,7 +84,7 @@ A1：是的，Aspose.Note for .NET 可讓您以程式設計方式建立、編輯
 
 ### 問題 2：Aspose.Note for .NET 是否有免費試用版？
 
-A2：是的，您可以從 Aspose.Note for .NET 取得免費試用版[發布頁面](https://releases.aspose.com/).
+ A2：是的，您可以從 Aspose.Note for .NET 取得免費試用版[發布頁面](https://releases.aspose.com/).
 
 ### Q3：如何獲得 Aspose.Note for .NET 支援？
 

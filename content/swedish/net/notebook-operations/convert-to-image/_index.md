@@ -72,7 +72,7 @@ S2: Ja, förutom bilder stöder Aspose.Note för .NET konvertering till olika an
 
 ### F3: Finns det en testversion tillgänglig för Aspose.Note för .NET?
 
- A3: Ja, du kan ladda ner en gratis testversion från[här](https://releases.aspose.com/), så att du kan utforska funktionerna innan du gör ett köp.
+A3: Ja, du kan ladda ner en gratis testversion från[här](https://releases.aspose.com/), så att du kan utforska funktionerna innan du gör ett köp.
 
 ### F4: Hur kan jag få support för Aspose.Note för .NET?
 

@@ -13,7 +13,7 @@ url: /ko/net/note-manipulation/create-documents-root-sub-pages/
 
 이 자습서에서는 루트 및 하위 페이지가 포함된 OneNote 문서를 만드는 과정을 단계별로 안내합니다. .NET용 Aspose.Note를 사용하여 자세한 설명과 코드 조각을 제공하므로 귀하가 쉽게 따라하고 자신의 프로젝트에 구현할 수 있습니다.
 
-## 전제 조건
+## 전제조건
 
 시작하기 전에 다음 필수 구성 요소가 있는지 확인하세요.
 
@@ -38,7 +38,7 @@ using System.Drawing;
 ## 1단계: 문서 개체 초기화
 
 ```csharp
-// Document 클래스의 객체 생성
+//Document 클래스의 객체 생성
 Document doc = new Document();
 ```
 

@@ -15,7 +15,7 @@ url: /ru/net/notebook-operations/add-child-nodes/
 
 Прежде чем мы начнем, убедитесь, что у вас есть следующее:
 
-1. Aspose.Note для .NET: убедитесь, что в вашей среде разработки установлен Aspose.Note для .NET. Вы можете скачать его с сайта[Веб-сайт](https://releases.aspose.com/note/net/).
+1.  Aspose.Note для .NET: убедитесь, что в вашей среде разработки установлен Aspose.Note для .NET. Вы можете скачать его с сайта[Веб-сайт](https://releases.aspose.com/note/net/).
 
 2. Среда разработки: настройте среду разработки .NET, например Visual Studio.
 

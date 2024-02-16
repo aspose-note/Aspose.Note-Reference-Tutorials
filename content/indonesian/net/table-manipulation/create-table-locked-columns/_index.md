@@ -142,8 +142,8 @@ A3: Ya, Aspose.Note untuk .NET terintegrasi secara mulus dengan kerangka kerja .
 
 ### Q4: Apakah dukungan teknis tersedia untuk Aspose.Note untuk .NET?
 
- A4: Ya, Anda dapat mengakses dukungan teknis melalui[Aspose.Catatan forum](https://forum.aspose.com/c/note/28) di mana para ahli tersedia untuk membantu Anda dengan pertanyaan atau masalah apa pun yang mungkin Anda temui.
+A4: Ya, Anda dapat mengakses dukungan teknis melalui[Aspose.Catatan forum](https://forum.aspose.com/c/note/28) di mana para ahli tersedia untuk membantu Anda dengan pertanyaan atau masalah apa pun yang mungkin Anda temui.
 
 ### Q5: Dapatkah saya mencoba Aspose.Note untuk .NET sebelum membeli?
 
- A5: Ya, Anda dapat mengunduh Aspose.Note versi uji coba gratis untuk .NET dari[Di Sini](https://releases.aspose.com/)untuk mengevaluasi fitur dan kompatibilitasnya dengan kebutuhan Anda.
+ A5: Ya, Anda dapat mengunduh Aspose.Note versi uji coba gratis untuk .NET dari[Di Sini](https://releases.aspose.com/) untuk mengevaluasi fitur dan kompatibilitasnya dengan kebutuhan Anda.

@@ -21,7 +21,7 @@ Než začneme, ujistěte se, že máte následující předpoklady:
 ### 2. Vývojové prostředí
 Měli byste mít nastavené vývojové prostředí, jako je Visual Studio, s nainstalovaným nezbytným .NET frameworkem.
 
-## Importovat jmenné prostory
+## Import jmenných prostorů
 
 Než začneme používat Aspose.Note pro .NET v našem projektu, importujme požadované jmenné prostory:
 

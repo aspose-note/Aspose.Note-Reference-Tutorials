@@ -95,7 +95,7 @@ O arquivo anexado é anexado ao elemento de estrutura de tópicos.
 outline.AppendChildLast(outlineElem);
 ```
 
-O elemento de contorno é anexado ao contorno.
+elemento de contorno é anexado ao contorno.
 
 ### Etapa 8: anexar esboço
 
@@ -138,7 +138,7 @@ A2: Sim, você pode editar, modificar e manipular arquivos existentes do OneNote
 
 ### Q3: O Aspose.Note for .NET requer uma licença para uso comercial?
 
- A3: Sim, você precisa adquirir uma licença para uso comercial do Aspose.Note for .NET. Você pode obter uma licença do[página de compra](https://purchase.aspose.com/buy).
+A3: Sim, você precisa adquirir uma licença para uso comercial do Aspose.Note for .NET. Você pode obter uma licença do[página de compra](https://purchase.aspose.com/buy).
 
 ### Q4: Existe uma avaliação gratuita disponível para Aspose.Note for .NET?
 

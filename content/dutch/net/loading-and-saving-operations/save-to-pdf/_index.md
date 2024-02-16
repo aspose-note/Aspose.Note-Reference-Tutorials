@@ -46,7 +46,7 @@ public static void SaveToPdfUsingLetterPageSettings()
 
     var dst = Path.Combine(dataDir, "SaveToPdfUsingLetterPageSettings.pdf");
 
-    //Bewaar het document.
+    // Bewaar het document.
     oneFile.Save(dst, new PdfSaveOptions() { PageSettings = PageSettings.Letter });
 
     Console.WriteLine("\nOneNote document saved successfully.\nFile saved at " + dst);
@@ -72,7 +72,7 @@ public static void SaveToPdfUsingA4PageSettingsWithoutHeightLimit()
 
     var dst = Path.Combine(dataDir, "SaveToPdfUsingA4PageSettingsWithoutHeightLimit.pdf");
 
-    //Bewaar het document.
+    // Bewaar het document.
     oneFile.Save(dst, new PdfSaveOptions() { PageSettings = PageSettings.A4NoHeightLimit });
 
     Console.WriteLine("\nOneNote document saved successfully.\nFile saved at " + dst);
@@ -87,7 +87,7 @@ public static void SaveToPdfUsingA4PageSettingsWithoutHeightLimit()
 
 ## Conclusie
 
-In deze zelfstudie hebben we geleerd hoe u documenten in PDF-indeling kunt opslaan met Aspose.Note voor .NET. We hebben twee verschillende pagina-indelingen behandeld: Letter en A4 zonder hoogtelimiet. Met Aspose.Note kunnen ontwikkelaars OneNote-bestanden eenvoudig programmatisch manipuleren, wat flexibiliteit en efficiëntie biedt bij documentbeheertaken.
+In deze zelfstudie hebben we geleerd hoe u documenten in PDF-indeling kunt opslaan met Aspose.Note voor .NET. We hebben twee verschillende pagina-indelingen besproken: Letter en A4 zonder hoogtelimiet. Met Aspose.Note kunnen ontwikkelaars OneNote-bestanden eenvoudig programmatisch manipuleren, wat flexibiliteit en efficiëntie biedt bij documentbeheertaken.
 
 ## Veelgestelde vragen
 

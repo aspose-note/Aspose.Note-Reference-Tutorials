@@ -9,7 +9,7 @@ url: /pl/net/tag-management/generate-template-meeting-notes/
 ---
 ## Wstęp
 
-W tym samouczku omówimy proces generowania szablonu notatek ze spotkań przy użyciu Aspose.Note dla .NET. Ta biblioteka udostępnia zaawansowane narzędzia do programowego tworzenia, edytowania i manipulowania dokumentami programu OneNote.
+tym samouczku omówimy proces generowania szablonu notatek ze spotkań przy użyciu Aspose.Note dla .NET. Ta biblioteka udostępnia zaawansowane narzędzia do programowego tworzenia, edytowania i manipulowania dokumentami programu OneNote.
 
 ## Warunki wstępne
 

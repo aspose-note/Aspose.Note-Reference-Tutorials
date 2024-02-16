@@ -11,7 +11,7 @@ url: /ko/net/notebook-operations/load-notebooks-instantly/
 
 이 튜토리얼에서는 .NET용 Aspose.Note에서 노트북을 즉시 로드하는 방법을 살펴보겠습니다. 노트북을 즉시 로드하면 노트북 문서를 효율적으로 조작하고 처리할 수 있습니다.
 
-## 전제 조건
+## 전제조건
 
 시작하기 전에 다음 전제 조건이 충족되었는지 확인하세요.
 
@@ -61,7 +61,7 @@ foreach (INotebookChildNode notebookChildNode in notebook.OfType<Document>())
 
 ## 결론
 
- 이 튜토리얼에서는 .NET용 Aspose.Note에서 노트북을 즉시 로드하는 방법을 배웠습니다. 설정하여`InstantLoading` 에 깃발을 꽂다`NotebookLoadOptions`, 노트북에 미리 로드된 문서를 통해 효율적으로 반복하여 성능과 생산성을 향상시킬 수 있습니다.
+이 튜토리얼에서는 .NET용 Aspose.Note에서 노트북을 즉시 로드하는 방법을 배웠습니다. 설정하여`InstantLoading` 에 깃발을 꽂다`NotebookLoadOptions`, 노트북에 미리 로드된 문서를 통해 효율적으로 반복하여 성능과 생산성을 향상시킬 수 있습니다.
 
 ## FAQ
 

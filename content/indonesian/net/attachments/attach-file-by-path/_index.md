@@ -138,7 +138,7 @@ A2: Ya, Anda bisa mengedit, memodifikasi, dan memanipulasi file OneNote yang ada
 
 ### Q3: Apakah Aspose.Note untuk .NET memerlukan lisensi untuk penggunaan komersial?
 
- A3: Ya, Anda perlu memperoleh lisensi untuk penggunaan komersial Aspose.Note untuk .NET. Anda dapat memperoleh lisensi dari[halaman pembelian](https://purchase.aspose.com/buy).
+A3: Ya, Anda perlu memperoleh lisensi untuk penggunaan komersial Aspose.Note untuk .NET. Anda dapat memperoleh lisensi dari[halaman pembelian](https://purchase.aspose.com/buy).
 
 ### Q4: Apakah ada uji coba gratis yang tersedia untuk Aspose.Note untuk .NET?
 

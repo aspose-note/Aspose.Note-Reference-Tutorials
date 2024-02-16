@@ -41,7 +41,7 @@ string text = string.Join(Environment.NewLine, oneFile.GetChildNodes<RichText>()
 Console.WriteLine(text);
 ```
 在輸出畫面上列印提取的文字或根據需要將其合併到您的應用程式中。
-在 .NET 應用程式中重複這些步驟，您將成功從 Aspose.Note 文件中提取文字。
+在您的 .NET 應用程式中重複這些步驟，您將成功從 Aspose.Note 文件中提取文字。
 ## 結論
 總之，使用 Aspose.Note for .NET 從 .NET 中的 Aspose.Note 文件中提取文字是一個簡單的過程。透過遵循本教程中概述的步驟，您可以將文字擷取無縫整合到您的應用程式中。
 ## 經常問的問題

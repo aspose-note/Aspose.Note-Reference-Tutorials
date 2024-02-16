@@ -35,7 +35,7 @@ Lassen Sie uns nun den Prozess des Klonens von Seiten in mehrere Schritte untert
 
 ## Schritt 1: Laden Sie das OneNote-Dokument
 
-Zuerst müssen wir das OneNote-Dokument in den Speicher laden. Dies können wir mit dem erreichen`Document` Von Aspose bereitgestellte Klasse.Hinweis:
+ Zuerst müssen wir das OneNote-Dokument in den Speicher laden. Dies können wir mit dem erreichen`Document` Von Aspose bereitgestellte Klasse.Hinweis:
 
 ```csharp
 // Der Pfad zum Dokumentenverzeichnis.

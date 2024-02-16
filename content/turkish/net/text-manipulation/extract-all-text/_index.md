@@ -30,7 +30,7 @@ string dataDir = "Your Document Directory";
 ```csharp
 Document oneFile = new Document(dataDir + "Aspose.one");
 ```
- Aspose.Note belgenizi şuraya yükleyin:`Document` daha fazla işlem için nesne.
+Aspose.Note belgenizi şuraya yükleyin:`Document` daha fazla işlem için nesne.
 ## 3. Adım: Metni Alın
 ```csharp
 string text = string.Join(Environment.NewLine, oneFile.GetChildNodes<RichText>().Select(e => e.Text)) + Environment.NewLine;

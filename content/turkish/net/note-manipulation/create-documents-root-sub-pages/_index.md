@@ -38,7 +38,7 @@ using System.Drawing;
 ## 1. Adım: Belge Nesnesini Başlatın
 
 ```csharp
-// Document sınıfının bir nesnesini oluşturun
+//Document sınıfının bir nesnesini oluşturun
 Document doc = new Document();
 ```
 

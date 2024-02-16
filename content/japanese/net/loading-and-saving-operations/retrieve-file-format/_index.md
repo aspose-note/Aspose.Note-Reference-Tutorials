@@ -48,7 +48,7 @@ var document = new Aspose.Note.Document("path_to_your_document.one");
 switch (document.FileFormat)
 {
     case FileFormat.OneNote2010:
-        //OneNote 2010 のプロセス
+        // OneNote 2010 のプロセス
         break;
     case FileFormat.OneNoteOnline:
         //OneNote をオンラインで処理する
@@ -74,7 +74,7 @@ A2: Aspose.Note は、.NET Framework、.NET Core、および .NET Standard と�
 
 ### Q3: 購入する前に Aspose.Note を試してみることはできますか?
 
- A3: はい、Aspose.Note の機能を試すには、[ Webサイト](https://releases.aspose.com/).
+A3: はい、Aspose.Note の機能を試すには、[ Webサイト](https://releases.aspose.com/).
 
 ### Q4: Aspose.Note のサポートを受けるにはどうすればよいですか?
 
@@ -82,4 +82,4 @@ A4: 技術的なサポートや質問がある場合は、次のサイトにア�
 
 ### Q5: 評価目的には一時ライセンスが必要ですか?
 
-A5: 無料トライアルでは Aspose.Note をテストできますが、拡張評価用に一時ライセンスを選択することもできます。訪問[ここ](https://purchase.aspose.com/temporary-license/)詳細については。
+ A5: 無料トライアルでは Aspose.Note をテストできますが、拡張評価用に一時ライセンスを選択することもできます。訪問[ここ](https://purchase.aspose.com/temporary-license/)詳細については。

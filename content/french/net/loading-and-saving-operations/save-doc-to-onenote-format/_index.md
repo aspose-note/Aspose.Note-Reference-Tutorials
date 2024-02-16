@@ -17,7 +17,7 @@ Avant de vous lancer dans ce didacticiel, assurez-vous d'avoir les prérequis su
 
 1. Connaissance du développement C# et .NET : ce didacticiel suppose une compréhension de base du langage de programmation C# et du framework .NET.
 
-2. Installation d'Aspose.Note pour .NET : Téléchargez et installez la bibliothèque Aspose.Note pour .NET à partir du[site web](https://releases.aspose.com/note/net/).
+2.  Installation d'Aspose.Note pour .NET : Téléchargez et installez la bibliothèque Aspose.Note pour .NET à partir du[site web](https://releases.aspose.com/note/net/).
 
 3. Environnement de développement : configurez votre environnement de développement avec Visual Studio ou tout autre IDE préféré pour le développement .NET.
 
@@ -82,7 +82,7 @@ R : Oui, Aspose.Note pour .NET est entièrement compatible avec .NET Core, perme
 
 ### Q4 : Puis-je personnaliser l’apparence des documents OneNote enregistrés à l’aide d’Aspose.Note ?
 
-: Absolument, Aspose.Note offre de nombreuses options pour personnaliser l'apparence des documents OneNote enregistrés, notamment des ajustements de style, de formatage et de mise en page.
+R : Absolument, Aspose.Note offre de nombreuses options pour personnaliser l'apparence des documents OneNote enregistrés, notamment des ajustements de style, de formatage et de mise en page.
 
 ### Q5 : Existe-t-il un forum communautaire ou un canal d'assistance disponible pour les utilisateurs d'Aspose.Note ?
 

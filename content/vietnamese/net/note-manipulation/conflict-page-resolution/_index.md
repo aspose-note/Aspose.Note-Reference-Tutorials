@@ -9,7 +9,7 @@ url: /vi/net/note-manipulation/conflict-page-resolution/
 ---
 ## Giới thiệu
 
-Giải quyết xung đột trong tài liệu Aspose.Note là một nhiệm vụ quan trọng, đặc biệt là khi xử lý các dự án hợp tác hoặc có nhiều người đóng góp. Những xung đột này có thể phát sinh do các chỉnh sửa đồng thời, các phiên bản khác nhau hoặc những khác biệt khác trong tài liệu. Trong hướng dẫn này, chúng ta sẽ đi sâu vào quá trình xác định và giải quyết xung đột trong tài liệu Aspose.Note bằng .NET. Bằng cách làm theo các bước này, bạn sẽ được trang bị để quản lý xung đột một cách hiệu quả và đảm bảo tính toàn vẹn của tài liệu.
+Giải quyết xung đột trong tài liệu Aspose.Note là một nhiệm vụ quan trọng, đặc biệt là khi xử lý các dự án hợp tác hoặc có nhiều người đóng góp. Những xung đột này có thể phát sinh do các chỉnh sửa đồng thời, các phiên bản khác nhau hoặc những khác biệt khác trong tài liệu. Trong hướng dẫn này, chúng ta sẽ đi sâu vào quy trình xác định và giải quyết xung đột trong tài liệu Aspose.Note bằng .NET. Bằng cách làm theo các bước này, bạn sẽ được trang bị để quản lý xung đột một cách hiệu quả và đảm bảo tính toàn vẹn của tài liệu.
 
 ## Điều kiện tiên quyết
 

@@ -80,7 +80,7 @@ Trong hướng dẫn này, chúng ta đã tìm hiểu cách lưu tài liệu và
 
 ### Câu hỏi 1: Tôi có thể điều chỉnh ngưỡng nhị phân không?
 
-Trả lời 1: Có, bạn có thể tùy chỉnh ngưỡng nhị phân theo yêu cầu của mình bằng cách sửa đổi`BinarizationThreshold` thuộc tính trong mã.
+ Trả lời 1: Có, bạn có thể tùy chỉnh ngưỡng nhị phân theo yêu cầu của mình bằng cách sửa đổi`BinarizationThreshold` thuộc tính trong mã.
 
 ### Câu hỏi 2: Những định dạng nào khác được hỗ trợ để lưu tài liệu?
 
@@ -96,4 +96,4 @@ Câu trả lời 3: Có, Aspose.Note tương thích với .NET Core, cho phép b
 
 ### Câu hỏi 5: Tôi có thể tìm thêm tài nguyên và hỗ trợ cho Aspose.Note ở đâu?
 
- A5: Bạn có thể khám phá[Tài liệu Aspose.Note](https://reference.aspose.com/note/net/) và tìm kiếm sự giúp đỡ từ[Diễn đàn Aspose.Note](https://forum.aspose.com/c/note/28) cho bất kỳ truy vấn hoặc vấn đề.
+ A5: Bạn có thể khám phá[Tài liệu Aspose.Note](https://reference.aspose.com/note/net/)và tìm kiếm sự giúp đỡ từ[Diễn đàn Aspose.Note](https://forum.aspose.com/c/note/28) cho bất kỳ truy vấn hoặc vấn đề.

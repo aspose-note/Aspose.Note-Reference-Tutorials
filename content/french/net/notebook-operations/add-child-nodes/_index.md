@@ -15,7 +15,7 @@ Dans ce didacticiel, nous apprendrons comment ajouter des nœuds enfants dans As
 
 Avant de commencer, assurez-vous d'avoir les éléments suivants :
 
-1. Aspose.Note pour .NET : assurez-vous que Aspose.Note pour .NET est installé dans votre environnement de développement. Vous pouvez le télécharger depuis le[site web](https://releases.aspose.com/note/net/).
+1.  Aspose.Note pour .NET : assurez-vous que Aspose.Note pour .NET est installé dans votre environnement de développement. Vous pouvez le télécharger depuis le[site web](https://releases.aspose.com/note/net/).
 
 2. Environnement de développement : configurez un environnement de développement .NET, tel que Visual Studio.
 

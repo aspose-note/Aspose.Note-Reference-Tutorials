@@ -67,7 +67,7 @@ Aspose.Note.License license = new Aspose.Note.License();
 
 ## Stap 2: Stel de licentie in via het pad
 
- Gebruik vervolgens de`SetLicense` werkwijze van de`License` class om de licentie toe te passen vanaf het opgegeven pad:
+Gebruik vervolgens de`SetLicense` werkwijze van de`License` class om de licentie toe te passen vanaf het opgegeven pad:
 
 ```csharp
 license.SetLicense("Aspose.Note.lic");

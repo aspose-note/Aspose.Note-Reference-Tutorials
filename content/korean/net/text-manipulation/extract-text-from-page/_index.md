@@ -9,7 +9,7 @@ url: /ko/net/text-manipulation/extract-text-from-page/
 ---
 ## 소개
 .NET을 사용하여 Aspose.Note의 페이지에서 텍스트를 추출하는 방법에 대한 포괄적인 튜토리얼에 오신 것을 환영합니다. Aspose.Note는 Microsoft OneNote 파일을 원활하게 사용할 수 있게 해주는 강력한 문서 조작 라이브러리입니다. 이 가이드에서는 페이지에서 텍스트를 추출하는 단계별 프로세스에 중점을 두고 문서 처리 기능을 향상시키는 데 필요한 지식을 제공합니다.
-## 전제 조건
+## 전제조건
 튜토리얼을 자세히 살펴보기 전에 다음 전제 조건이 충족되었는지 확인하세요.
 -  .NET용 Aspose.Note: .NET 프로젝트에 Aspose.Note 라이브러리가 설치되어 있는지 확인하세요. 다음에서 다운로드할 수 있습니다.[.NET 문서용 Aspose.Note](https://reference.aspose.com/note/net/).
 - 문서 디렉터리: 처리하려는 OneNote 문서가 포함된 디렉터리를 설정하세요.

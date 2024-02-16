@@ -92,8 +92,8 @@ A3 : Aspose.Note s'intègre de manière transparente à d'autres bibliothèques 
 
 ### Q4 : Comment puis-je obtenir de l'aide pour Aspose.Note ?
 
-A4 : Vous pouvez obtenir de l'aide pour Aspose.Note en visitant le[Forum Aspose.Note](https://forum.aspose.com/c/note/28), où vous pouvez poser des questions et trouver des solutions.
+ A4 : Vous pouvez obtenir de l'aide pour Aspose.Note en visitant le[Forum Aspose.Note](https://forum.aspose.com/c/note/28), où vous pouvez poser des questions et trouver des solutions.
 
 ### Q5 : Existe-t-il un essai gratuit disponible pour Aspose.Note ?
 
- A5 : Oui, vous pouvez bénéficier d'un essai gratuit d'Aspose.Note en visitant[ici](https://releases.aspose.com/).
+A5 : Oui, vous pouvez bénéficier d'un essai gratuit d'Aspose.Note en visitant[ici](https://releases.aspose.com/).

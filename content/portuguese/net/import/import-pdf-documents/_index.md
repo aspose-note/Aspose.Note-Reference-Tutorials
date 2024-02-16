@@ -55,7 +55,7 @@ public static void ImportSetOfFiles_SimpleMerge()
 
 ## Passo 2: Importe documentos PDF usando mesclagem estruturada
 
-mesclagem estruturada importa todas as páginas de documentos PDF enquanto insere páginas de cada documento como filhos de uma página de nível superior do OneNote:
+A mesclagem estruturada importa todas as páginas de documentos PDF enquanto insere páginas de cada documento como filhos de uma página de nível superior do OneNote:
 
 ```csharp
 public static void ImportSetOfFiles_StructuredMerge()

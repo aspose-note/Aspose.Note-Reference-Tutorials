@@ -40,7 +40,7 @@ var page = new Page(document);
 
 ## Langkah 2: Sisipkan Gambar dengan Hyperlink
 
- Sekarang, mari sisipkan gambar dengan hyperlink. Kami akan membuat`Image` objek dan mengaturnya`HyperlinkUrl` properti ke URL yang diinginkan.
+Sekarang, mari sisipkan gambar dengan hyperlink. Kami akan membuat`Image` objek dan mengaturnya`HyperlinkUrl` properti ke URL yang diinginkan.
 
 ```csharp
 string imagePath = "path_to_your_image.jpg";

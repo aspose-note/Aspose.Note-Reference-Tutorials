@@ -40,7 +40,7 @@ var page = new Page(document);
 
 ## Etapa 2: inserir imagem com hiperlink
 
- Agora vamos inserir a imagem com um hiperlink. Criaremos um`Image` objeto e definir seu`HyperlinkUrl` propriedade para o URL desejado.
+Agora vamos inserir a imagem com um hiperlink. Criaremos um`Image` objeto e definir seu`HyperlinkUrl` propriedade para o URL desejado.
 
 ```csharp
 string imagePath = "path_to_your_image.jpg";

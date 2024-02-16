@@ -18,7 +18,7 @@ Než se vrhneme na extrahování informací o obrázku pomocí Aspose.Note, ujis
 1. Základní znalost C#: Pro pochopení příkladů kódu je nezbytná znalost programovacího jazyka C#.
 2.  Nainstalovaný Aspose.Note for .NET: Ujistěte se, že máte ve svém vývojovém prostředí nainstalovanou knihovnu Aspose.Note. Můžete si jej stáhnout[tady](https://releases.aspose.com/note/net/).
 
-## Importovat jmenné prostory
+## Import jmenných prostorů
 
 Než začneme, importujme potřebné jmenné prostory:
 
@@ -97,4 +97,4 @@ A4: Ano, máte přístup k bezplatné zkušební verzi Aspose.Note a prozkoumejt
 
 ### Q5: Kde najdu další podporu nebo pomoc s Aspose.Note?
 
- A5: Pro jakékoli dotazy nebo pomoc můžete navštívit fórum Aspose.Note[tady](https://forum.aspose.com/c/note/28).
+A5: Pro jakékoli dotazy nebo pomoc můžete navštívit fórum Aspose.Note[tady](https://forum.aspose.com/c/note/28).

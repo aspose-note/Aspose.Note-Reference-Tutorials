@@ -11,11 +11,11 @@ url: /ko/net/loading-and-saving-operations/password-protected-document/
 
 이 튜토리얼에서는 .NET용 Aspose.Note를 사용하여 비밀번호로 보호된 문서를 처리하는 과정을 안내합니다. 비밀번호 보호는 문서에 추가 보안 계층을 추가하여 승인된 사용자만 문서에 액세스할 수 있도록 보장합니다.
 
-## 전제 조건
+## 전제조건
 
 시작하기 전에 다음 필수 구성 요소가 있는지 확인하세요.
 
-1.  .NET 라이브러리용 Aspose.Note: .NET 라이브러리용 Aspose.Note를 다운로드하고 설치했는지 확인하세요. 다음에서 다운로드할 수 있습니다.[여기](https://releases.aspose.com/note/net/).
+1. .NET 라이브러리용 Aspose.Note: .NET 라이브러리용 Aspose.Note를 다운로드하고 설치했는지 확인하세요. 다음에서 다운로드할 수 있습니다.[여기](https://releases.aspose.com/note/net/).
 
 2. 개발 환경: .NET 기능을 사용하여 개발 환경을 설정합니다.
 
@@ -67,7 +67,7 @@ Console.WriteLine("\nPassword protected document loaded successfully.");
 
 A1: 예, 보안을 강화하기 위해 문서마다 다른 비밀번호를 지정할 수 있습니다.
 
-### Q2: 문서 비밀번호를 잊어버렸을 경우 어떻게 하나요?
+### Q2: 문서 비밀번호를 잊어버렸을 경우에는 어떻게 하나요?
 
 A2: 안타깝게도 문서 비밀번호를 잊어버린 경우에는 복구할 수 있는 방법이 없습니다. 비밀번호를 안전하게 보관하고 접근 가능하도록 하세요.
 

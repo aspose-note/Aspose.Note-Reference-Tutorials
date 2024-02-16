@@ -108,7 +108,7 @@ Bu eğitimde Aspose.Note for .NET kullanarak toplantı notları için nasıl şa
 
 ### S1: Başlık ve gövde paragraflarının stillerini özelleştirebilir miyim?
 
-Cevap1: Evet, yazı tipi adını, yazı tipi boyutunu ve diğer stil özelliklerini gereksinimlerinize göre özelleştirebilirsiniz.
+Cevap1: Evet, yazı tipi adını, yazı tipi boyutunu ve diğer stil özelliklerini ihtiyaçlarınıza göre özelleştirebilirsiniz.
 
 ### S2: Aspose.Note for .NET Visual Studio ile uyumlu mu?
 

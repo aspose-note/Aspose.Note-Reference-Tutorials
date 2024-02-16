@@ -21,7 +21,7 @@ Než začneme, ujistěte se, že máte splněny následující předpoklady:
 
 3. Vývojové prostředí: Nastavte si preferované vývojové prostředí, jako je Visual Studio.
 
-## Importovat jmenné prostory
+## Import jmenných prostorů
 
 Nejprve naimportujme potřebné jmenné prostory, abychom nastartovali naši cestu kódování:
 
@@ -81,7 +81,7 @@ Odpověď 1: Ano, Aspose.Note pro .NET poskytuje komplexní rozhraní API pro pr
 
 ### Q2: Je k dispozici bezplatná zkušební verze pro Aspose.Note pro .NET?
 
- A2: Ano, můžete využít bezplatnou zkušební verzi Aspose.Note pro .NET od[tady](https://releases.aspose.com/).
+A2: Ano, můžete využít bezplatnou zkušební verzi Aspose.Note pro .NET od[tady](https://releases.aspose.com/).
 
 ### Q3: Kde najdu dokumentaci k Aspose.Note pro .NET?
 

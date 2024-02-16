@@ -53,7 +53,7 @@ PdfSaveOptions opts = new PdfSaveOptions
     // Используйте сжатие Jpeg
     ImageCompression = Saving.Pdf.PdfImageCompression.Jpeg,
     
-    //Качество сжатия JPEG
+    // Качество сжатия JPEG
     JpegQuality = 90
 };
 ```

@@ -72,7 +72,7 @@ A2: Ya, selain gambar, Aspose.Note untuk .NET mendukung konversi ke berbagai for
 
 ### Q3: Apakah ada versi uji coba yang tersedia untuk Aspose.Note untuk .NET?
 
- A3: Ya, Anda dapat mengunduh versi uji coba gratis dari[Di Sini](https://releases.aspose.com/), memungkinkan Anda menjelajahi fitur sebelum melakukan pembelian.
+A3: Ya, Anda dapat mengunduh versi uji coba gratis dari[Di Sini](https://releases.aspose.com/), memungkinkan Anda menjelajahi fitur sebelum melakukan pembelian.
 
 ### Q4: Bagaimana saya bisa mendapatkan dukungan untuk Aspose.Note untuk .NET?
 

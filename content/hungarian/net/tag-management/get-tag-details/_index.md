@@ -47,7 +47,7 @@ Document oneFile = new Document(dataDir + "TagFile.one");
 Ezután kérje le az összes RichText csomópontot a dokumentumból.
 
 ```csharp
-// Az összes RichText csomópont letöltése
+// Szerezze be az összes RichText csomópontot
 IList<RichText> nodes = oneFile.GetChildNodes<RichText>();
 ```
 

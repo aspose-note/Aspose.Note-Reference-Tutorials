@@ -15,7 +15,7 @@ Op het gebied van documentverwerking en -beheer onderscheidt Aspose.Note voor .N
 
 Voordat u aan deze zelfstudie begint, moet u ervoor zorgen dat u aan de volgende vereisten voldoet:
 
-1. Installatie van Aspose.Note voor .NET: Download en installeer de Aspose.Note voor .NET-bibliotheek van de[download link](https://releases.aspose.com/note/net/).
+1.  Installatie van Aspose.Note voor .NET: Download en installeer de Aspose.Note voor .NET-bibliotheek van de[download link](https://releases.aspose.com/note/net/).
    
 2. Bekendheid met programmeren in C#: Basiskennis van de programmeertaal C# is noodzakelijk om de gegeven voorbeelden te begrijpen en te implementeren.
 
@@ -110,7 +110,7 @@ public static void GenerateReport_ItemsRelatedToSpecifiedProject()
 
 ## Conclusie
 
-Concluderend biedt rapportage met tags in Aspose.Note voor .NET een robuuste oplossing voor het genereren van georganiseerde en inzichtelijke rapporten uit digitale documenten. Door gebruik te maken van de gegeven voorbeelden en de stapsgewijze handleiding te volgen, kunnen gebruikers op efficiënte wijze relevante informatie extraheren en waardevolle inzichten verkrijgen uit hun aantekeningen en annotaties.
+Concluderend biedt rapportage met tags in Aspose.Note voor .NET een robuuste oplossing voor het genereren van georganiseerde en inzichtelijke rapporten uit digitale documenten. Door gebruik te maken van de gegeven voorbeelden en het volgen van de stapsgewijze handleiding kunnen gebruikers op efficiënte wijze relevante informatie extraheren en waardevolle inzichten verkrijgen uit hun aantekeningen en annotaties.
 
 ## Veelgestelde vragen
 
@@ -120,7 +120,7 @@ A1: Ja, Aspose.Note voor .NET kan worden gebruikt met andere .NET-compatibele ta
 
 ## V2: Is er een gratis proefversie beschikbaar voor Aspose.Note voor .NET?
 
- A2: Ja, u kunt toegang krijgen tot een gratis proefversie van Aspose.Note voor .NET via de[website](https://releases.aspose.com/).
+A2: Ja, u kunt toegang krijgen tot een gratis proefversie van Aspose.Note voor .NET via de[website](https://releases.aspose.com/).
 
 ## V3: Hoe kan ik een tijdelijke licentie verkrijgen voor Aspose.Note voor .NET?
 

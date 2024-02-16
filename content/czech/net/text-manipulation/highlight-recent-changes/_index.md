@@ -14,7 +14,7 @@ Než se vydáme na tuto cestu, ujistěte se, že máte splněny následující p
 -  Aspose.Note pro .NET: Ujistěte se, že máte nainstalovanou knihovnu Aspose.Note. Můžete si jej stáhnout z[Aspose.Note pro dokumentaci .NET](https://reference.aspose.com/note/net/).
 - Vývojové prostředí: Nastavte vývojové prostředí .NET, včetně IDE, jako je Visual Studio.
 - Ukázkový dokument: Připravte dokument Note (v tomto případě "Aspose.one"), který obsahuje text, který chcete zvýraznit.
-## Importovat jmenné prostory
+## Import jmenných prostorů
 Chcete-li začít, importujte potřebné jmenné prostory do svého projektu .NET:
 ```csharp
     using System;
@@ -58,7 +58,7 @@ Nakonec zobrazte zprávu o úspěchu, která informuje uživatele:
 Console.WriteLine("\nText's recent changes are highlighted successfully.");
 ```
 ## Závěr
-V tomto tutoriálu jsme prozkoumali, jak používat Aspose.Note pro .NET ke zvýraznění všech posledních změn v textu v dokumentu Note. Tato funkce zlepšuje viditelnost dokumentů a je cenným doplňkem vaší sady nástrojů pro práci se soubory Note.
+tomto tutoriálu jsme prozkoumali, jak používat Aspose.Note pro .NET ke zvýraznění všech posledních změn v textu v dokumentu Note. Tato funkce zlepšuje viditelnost dokumentů a je cenným doplňkem vaší sady nástrojů pro práci se soubory Note.
 ## Nejčastější dotazy
 ### Mohu použít různé zvýrazňující barvy pro různá časová období?
 Ano, kód můžete přizpůsobit tak, aby nastavil různé barvy zvýraznění na základě vašich konkrétních požadavků.

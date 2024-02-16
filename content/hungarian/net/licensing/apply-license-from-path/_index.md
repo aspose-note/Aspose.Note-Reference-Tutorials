@@ -67,7 +67,7 @@ Aspose.Note.License license = new Aspose.Note.License();
 
 ## 2. lépés: Állítsa be a licencet az elérési útból
 
- Ezután használja a`SetLicense` módszere a`License` osztály a licenc alkalmazásához a megadott útvonalról:
+Ezután használja a`SetLicense` módszere a`License` osztály a licenc alkalmazásához a megadott útvonalról:
 
 ```csharp
 license.SetLicense("Aspose.Note.lic");

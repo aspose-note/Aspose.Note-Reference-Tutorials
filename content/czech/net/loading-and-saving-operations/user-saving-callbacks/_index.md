@@ -9,7 +9,7 @@ url: /cs/net/loading-and-saving-operations/user-saving-callbacks/
 ---
 ## Úvod
 
-V tomto tutoriálu prozkoumáme, jak implementovat zpětná volání šetřící uživatele v Aspose.Note pro .NET. Tato zpětná volání vám umožňují přizpůsobit proces ukládání poskytnutím háčků pro zásah v různých fázích, jako je ukládání písem, šablon stylů CSS a obrázků. Využitím těchto zpětných volání můžete přizpůsobit chování při ukládání tak, aby vyhovovalo vašim konkrétním požadavkům, a zvýšit tak flexibilitu a kontrolu nad výstupem.
+tomto tutoriálu prozkoumáme, jak implementovat zpětná volání šetřící uživatele v Aspose.Note pro .NET. Tato zpětná volání vám umožňují přizpůsobit proces ukládání poskytnutím háčků pro zásah v různých fázích, jako je ukládání písem, šablon stylů CSS a obrázků. Využitím těchto zpětných volání můžete přizpůsobit chování při ukládání tak, aby vyhovovalo vašim konkrétním požadavkům, a zvýšit tak flexibilitu a kontrolu nad výstupem.
 
 ## Předpoklady
 
@@ -19,7 +19,7 @@ Než se ponoříte do implementace zpětných volání šetřících uživatele 
    
 2. Vývojové prostředí: Mějte nastavené vhodné vývojové prostředí, jako je Visual Studio nebo jakékoli jiné vývojové prostředí .NET.
 
-## Importovat jmenné prostory
+## Import jmenných prostorů
 
 Chcete-li začít, ujistěte se, že jste do projektu importovali potřebné jmenné prostory, abyste získali přístup k požadovaným třídám a metodám z knihovny Aspose.Note:
 
@@ -76,7 +76,7 @@ public void CssSaving(CssSavingArgs args)
 }
 ```
 
- Zde definujeme`CssSaving`metoda zpětného volání pro správu ukládání šablon stylů CSS. Vytvoří prostředek v zadané složce CSS a podle toho nastaví stream, URI a další vlastnosti.
+ Zde definujeme`CssSaving` metoda zpětného volání pro správu ukládání šablon stylů CSS. Vytvoří prostředek v zadané složce CSS a podle toho nastaví stream, URI a další vlastnosti.
 
 ## Krok 4: Implementujte zpětné volání funkce Image Saving
 
@@ -95,7 +95,7 @@ public void ImageSaving(ImageSavingArgs args)
 
 ## Závěr
 
-V tomto tutoriálu jsme se naučili, jak implementovat zpětná volání šetřící uživatele v Aspose.Note pro .NET. Pomocí uvedených kroků můžete přizpůsobit proces ukládání písem, šablon stylů CSS a obrázků, což umožňuje větší flexibilitu a kontrolu nad výstupem.
+tomto tutoriálu jsme se naučili, jak implementovat zpětná volání šetřící uživatele v Aspose.Note pro .NET. Pomocí uvedených kroků můžete přizpůsobit proces ukládání písem, šablon stylů CSS a obrázků, což umožňuje větší flexibilitu a kontrolu nad výstupem.
 
 ## Nejčastější dotazy
 

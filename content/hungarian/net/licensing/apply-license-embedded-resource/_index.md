@@ -17,7 +17,7 @@ Mielőtt elkezdené, győződjön meg arról, hogy a következő előfeltételek
 
 ### 1. A Visual Studio telepítve
 
- Győződjön meg arról, hogy a Visual Studio telepítve van a rendszeren. Letöltheti innen[itt](https://visualstudio.microsoft.com/).
+Győződjön meg arról, hogy a Visual Studio telepítve van a rendszeren. Letöltheti innen[itt](https://visualstudio.microsoft.com/).
 
 ### 2. Aspose.Note for .NET telepítve
 

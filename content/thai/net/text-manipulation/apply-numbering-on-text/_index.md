@@ -29,7 +29,7 @@ using System.Collections.Generic;
 ```csharp
 // เส้นทางไปยังไดเร็กทอรีเอกสาร
 string dataDir = "Your Document Directory";
-// สร้างวัตถุของคลาสเอกสาร
+//สร้างวัตถุของคลาสเอกสาร
 Document doc = new Document();
 // เริ่มต้นวัตถุคลาสหน้า
 Aspose.Note.Page page = new Aspose.Note.Page(doc);

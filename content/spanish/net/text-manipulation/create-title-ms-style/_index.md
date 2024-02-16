@@ -79,4 +79,4 @@ Por supuesto, puede personalizar aún más la página agregando varios elementos
 ### ¿Cómo puedo manejar los errores durante el proceso de creación del documento?
 Utilice mecanismos de manejo de excepciones en C# para detectar y manejar cualquier error potencial que pueda ocurrir durante el proceso de creación del documento.
 ### ¿Dónde puedo encontrar más ejemplos y documentación de Aspose.Note para .NET?
- Referirse a[Aspose.Note para la documentación de .NET](https://reference.aspose.com/note/net/) para ejemplos detallados y documentación completa.
+ Referirse a[Aspose.Note para la documentación de .NET](https://reference.aspose.com/note/net/)para ejemplos detallados y documentación completa.

@@ -103,7 +103,7 @@ oneFile.Save(Path.Combine(dataDir, "ProjectNoteWithOpenProjectC.one"));
 
 ### س3: هل يقدم Aspose.Note نسخة تجريبية مجانية؟
 
-ج3: نعم، يمكنك الحصول على نسخة تجريبية مجانية[هنا](https://releases.aspose.com/).
+ ج3: نعم، يمكنك الحصول على نسخة تجريبية مجانية[هنا](https://releases.aspose.com/).
 
 ### س4: أين يمكنني العثور على وثائق Aspose.Note؟
 
@@ -111,4 +111,4 @@ oneFile.Save(Path.Combine(dataDir, "ProjectNoteWithOpenProjectC.one"));
 
 ### س5: أين يمكنني الحصول على الدعم لـ Aspose.Note؟
 
-ج5: للحصول على الدعم، يمكنك زيارة Aspose.Note[المنتدى](https://forum.aspose.com/c/note/28).
+ ج5: للحصول على الدعم، يمكنك زيارة Aspose.Note[المنتدى](https://forum.aspose.com/c/note/28).

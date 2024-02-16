@@ -15,7 +15,7 @@ Trong hướng dẫn này, chúng ta sẽ tìm hiểu cách thêm các nút con 
 
 Trước khi chúng tôi bắt đầu, hãy đảm bảo bạn có những điều sau:
 
-1. Aspose.Note for .NET: Đảm bảo bạn đã cài đặt Aspose.Note for .NET trong môi trường phát triển của mình. Bạn có thể tải nó xuống từ[trang mạng](https://releases.aspose.com/note/net/).
+1.  Aspose.Note for .NET: Đảm bảo bạn đã cài đặt Aspose.Note for .NET trong môi trường phát triển của mình. Bạn có thể tải nó xuống từ[trang mạng](https://releases.aspose.com/note/net/).
 
 2. Môi trường phát triển: Thiết lập môi trường phát triển .NET, chẳng hạn như Visual Studio.
 

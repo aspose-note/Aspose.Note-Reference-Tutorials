@@ -61,7 +61,7 @@ Nyomtasson ki egy megerősítő üzenetet, amely jelzi, hogy a címstílusok fri
 Gratulálunk! Sikeresen megtanulta, hogyan módosíthatja az oldalcímstílusokat az Aspose.Note for .NET programban. Ez az egyszerű, de hatékony funkció jelentősen javíthatja dokumentumai vizuális vonzerejét.
 ## GYIK
 ### Az Aspose.Note kompatibilis a legújabb .NET-keretrendszer-verziókkal?
-Az Aspose.Note-ot úgy tervezték, hogy kompatibilis legyen a .NET keretrendszer verzióinak széles skálájával, beleértve a legújabbakat is. Utal[dokumentáció](https://reference.aspose.com/note/net/) részletes kompatibilitási információkért.
+ Az Aspose.Note-ot úgy tervezték, hogy kompatibilis legyen a .NET keretrendszer verzióinak széles skálájával, beleértve a legújabbakat is. Utal[dokumentáció](https://reference.aspose.com/note/net/) részletes kompatibilitási információkért.
 ### Kipróbálhatom az Aspose.Note-ot a vásárlás előtt?
  Igen, felfedezheti az Aspose.Note-ot az ingyenes próbaverzió letöltésével[itt](https://releases.aspose.com/).
 ### Hogyan kaphatok támogatást az Aspose.Note-hoz?

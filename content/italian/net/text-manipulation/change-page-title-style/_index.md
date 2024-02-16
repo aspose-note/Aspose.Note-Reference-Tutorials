@@ -61,7 +61,7 @@ Stampa un messaggio di conferma indicante che gli stili del titolo sono stati ag
 Congratulazioni! Hai imparato con successo come modificare gli stili del titolo della pagina in Aspose.Note per .NET. Questa funzionalità semplice ma potente può migliorare in modo significativo l'attrattiva visiva dei tuoi documenti.
 ## Domande frequenti
 ### Aspose.Note è compatibile con le ultime versioni di .NET framework?
-Aspose.Note è progettato per essere compatibile con un'ampia gamma di versioni di .NET framework, comprese quelle più recenti. Fare riferimento al[documentazione](https://reference.aspose.com/note/net/) per informazioni dettagliate sulla compatibilità.
+ Aspose.Note è progettato per essere compatibile con un'ampia gamma di versioni di .NET framework, comprese quelle più recenti. Fare riferimento al[documentazione](https://reference.aspose.com/note/net/) per informazioni dettagliate sulla compatibilità.
 ### Posso provare Aspose.Note prima dell'acquisto?
  Sì, puoi esplorare Aspose.Note scaricando la versione di prova gratuita[Qui](https://releases.aspose.com/).
 ### Come posso ottenere supporto per Aspose.Note?

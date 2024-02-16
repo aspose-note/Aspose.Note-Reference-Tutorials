@@ -11,7 +11,7 @@ url: /ko/net/notebook-operations/convert-to-image-options/
 
 이 튜토리얼에서는 Aspose.Note for .NET 라이브러리를 사용하여 다양한 옵션을 사용하여 노트북을 이미지로 변환하는 방법을 살펴보겠습니다. Aspose.Note는 개발자가 Microsoft OneNote 파일을 프로그래밍 방식으로 작업할 수 있게 해주는 강력한 .NET API입니다. 이 가이드에 설명된 단계를 수행하면 요구 사항에 따라 출력을 사용자 지정하면서 노트북을 이미지로 쉽게 변환하는 방법을 배울 수 있습니다.
 
-## 전제 조건
+## 전제조건
 
 시작하기 전에 다음 전제 조건이 충족되었는지 확인하세요.
 
@@ -78,7 +78,7 @@ notebook.Save(dataDir, notebookSaveOptions);
 
 ### Q1: Aspose.Note for .NET을 사용하여 여러 노트북을 동시에 변환할 수 있나요?
 
-A1: 예, 이 튜토리얼에서 설명하는 유사한 방법을 사용하여 여러 노트북 파일을 반복하고 이를 이미지로 변환할 수 있습니다.
+A1: 예, 이 튜토리얼에서 설명하는 유사한 방법을 사용하여 여러 노트북 파일을 반복하고 이미지로 변환할 수 있습니다.
 
 ### Q2: .NET용 Aspose.Note는 .NET Core와 호환됩니까?
 

@@ -2,7 +2,7 @@
 title: Mentés az Aspose.Note alapértelmezett beállításaival
 linktitle: Mentés az Aspose.Note alapértelmezett beállításaival
 second_title: Aspose.Note .NET API
-description: lépésenkénti útmutatóból megtudhatja, hogyan menthet el egy dokumentumot alapértelmezett beállításokkal az Aspose.Note for .NET alkalmazásban.
+description: A lépésenkénti útmutatóból megtudhatja, hogyan menthet el egy dokumentumot alapértelmezett beállításokkal az Aspose.Note for .NET alkalmazásban.
 type: docs
 weight: 29
 url: /hu/net/loading-and-saving-operations/save-with-default-settings/

@@ -20,7 +20,7 @@ Než budete pokračovat, ujistěte se, že máte následující:
 3.  Nainstalovaná knihovna Aspose.Note pro .NET. Můžete si jej stáhnout z[tady](https://releases.aspose.com/note/net/).
 4. Přístup k textovému editoru pro psaní kódu C#.
 
-## Importovat jmenné prostory
+## Import jmenných prostorů
 
 Nejprve se ujistěte, že do kódu C# importujete potřebné jmenné prostory. Tyto jmenné prostory poskytují přístup ke třídám a metodám potřebným pro manipulaci s dokumenty OneNote pomocí Aspose.Note pro .NET.
 
@@ -70,7 +70,7 @@ Nakonec upravený dokument uložte:
 document.Save(Path.Combine(dataDir, "SetPageBackgroundColor.one"));
 ```
 
- Zajistěte výměnu`"SetPageBackgroundColor.one"` požadovaným názvem souboru pro upravený dokument.
+ Zajistěte výměnu`"SetPageBackgroundColor.one"` s požadovaným názvem souboru pro upravený dokument.
 
 ## Závěr
 
@@ -88,7 +88,7 @@ A2: Aspose.Note se primárně zaměřuje na práci s dokumenty OneNote, ale posk
 
 ### Q3: Je k dispozici zkušební verze pro Aspose.Note pro .NET?
 
- A3: Ano, můžete si stáhnout bezplatnou zkušební verzi z[tady](https://releases.aspose.com/).
+A3: Ano, můžete si stáhnout bezplatnou zkušební verzi z[tady](https://releases.aspose.com/).
 
 ### Q4: Mohu získat dočasné licence pro testovací účely?
 

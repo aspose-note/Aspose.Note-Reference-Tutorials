@@ -79,4 +79,4 @@ Tájékoztassa a felhasználót, hogy a szövegcsere sikeres volt.
 ### K: Hol találok további oktatóanyagokat és dokumentációt az Aspose.Note for .NET-hez?
  V: Látogassa meg a[dokumentáció](https://reference.aspose.com/note/net/) mélyreható forrásokért és oktatóanyagokért.
 ### K: Használhatom az Aspose.Note-ot kereskedelmi projektekhez?
- V: Igen, fedezze fel a licencelési lehetőségeket, és vásároljon[itt](https://purchase.aspose.com/buy).
+V: Igen, fedezze fel a licencelési lehetőségeket, és vásároljon[itt](https://purchase.aspose.com/buy).

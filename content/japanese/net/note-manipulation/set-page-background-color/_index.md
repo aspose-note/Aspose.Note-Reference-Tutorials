@@ -39,7 +39,7 @@ string dataDir = "Your Document Directory";
 Document document = new Document(Path.Combine(dataDir, "Aspose.one"));
 ```
 
-交換する`"Your Document Directory"` OneNote ドキュメントを含むディレクトリへのパスを置き換えます。
+交換する`"Your Document Directory"`OneNote ドキュメントを含むディレクトリへのパスを置き換えます。
 
 ## ステップ 2: ページを反復処理する
 
@@ -88,7 +88,7 @@ A2: Aspose.Note は主に OneNote ドキュメントの操作に重点を置い�
 
 ### Q3: Aspose.Note for .NET の試用版はありますか?
 
- A3: はい、以下から無料試用版をダウンロードできます。[ここ](https://releases.aspose.com/).
+A3: はい、以下から無料試用版をダウンロードできます。[ここ](https://releases.aspose.com/).
 
 ### Q4: テスト目的で一時ライセンスを取得できますか?
 

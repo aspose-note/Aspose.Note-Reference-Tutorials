@@ -30,7 +30,7 @@ string dataDir = "Your Document Directory";
 // Ladda dokumentet i Aspose.Note.
 Document oneFile = new Document(dataDir + "Aspose.one");
 ```
-I det här steget ställer du in sökvägen till din dokumentkatalog och laddar OneNote-dokumentet med Aspose.Note.
+det här steget ställer du in sökvägen till din dokumentkatalog och laddar OneNote-dokumentet med Aspose.Note.
 ## Steg 2: Skaffa sidnoder
 ```csharp
 // Få lista över sidnoder

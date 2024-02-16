@@ -15,7 +15,7 @@ Bu eğitimde, Aspose.Note for .NET'i kullanarak parola korumalı belgeleri işle
 
 Başlamadan önce aşağıdaki önkoşullara sahip olduğunuzdan emin olun:
 
-1.  Aspose.Note for .NET Library: Aspose.Note for .NET kütüphanesini indirip yüklediğinizden emin olun. Şuradan indirebilirsiniz[Burada](https://releases.aspose.com/note/net/).
+1. Aspose.Note for .NET Library: Aspose.Note for .NET kütüphanesini indirip yüklediğinizden emin olun. Şuradan indirebilirsiniz[Burada](https://releases.aspose.com/note/net/).
 
 2. Geliştirme Ortamı: .NET özelliklerine sahip bir geliştirme ortamı kurun.
 

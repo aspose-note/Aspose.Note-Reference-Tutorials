@@ -53,7 +53,7 @@ PdfSaveOptions opts = new PdfSaveOptions
     // استخدم ضغط Jpeg
     ImageCompression = Saving.Pdf.PdfImageCompression.Jpeg,
     
-    //جودة ضغط JPEG
+    // جودة ضغط JPEG
     JpegQuality = 90
 };
 ```

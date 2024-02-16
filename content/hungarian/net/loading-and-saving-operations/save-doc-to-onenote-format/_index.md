@@ -9,7 +9,7 @@ url: /hu/net/loading-and-saving-operations/save-doc-to-onenote-format/
 ---
 ## Bevezetés
 
-A .NET-fejlesztés területén az Aspose.Note a OneNote-dokumentumok programozott kezelésének és kezelésének hatékony eszköze. Intuitív API-jával és átfogó szolgáltatáskészletével a fejlesztők könnyedén kezelhetik a OneNote-fájlokkal kapcsolatos különféle feladatokat alkalmazásaikban. Ez az oktatóanyag a dokumentumok OneNote formátumba mentésének folyamatát mutatja be az Aspose.Note for .NET használatával, az egyes lépéseket lebontva az egyértelműség és érthetőség érdekében.
+.NET-fejlesztés területén az Aspose.Note a OneNote-dokumentumok programozott kezelésének és kezelésének hatékony eszköze. Intuitív API-jával és átfogó szolgáltatáskészletével a fejlesztők könnyedén kezelhetik a OneNote-fájlokkal kapcsolatos különféle feladatokat alkalmazásaikban. Ez az oktatóanyag a dokumentumok OneNote formátumba mentésének folyamatát mutatja be az Aspose.Note for .NET használatával, az egyes lépéseket lebontva az egyértelműség és érthetőség érdekében.
 
 ## Előfeltételek
 
@@ -17,7 +17,7 @@ Mielőtt belevágna ebbe az oktatóanyagba, győződjön meg arról, hogy rendel
 
 1. C# és .NET fejlesztés ismerete: Ez az oktatóanyag a C# programozási nyelv és a .NET keretrendszer alapvető ismereteit feltételezi.
 
-2. Az Aspose.Note for .NET telepítése: Töltse le és telepítse az Aspose.Note for .NET könyvtárat a[weboldal](https://releases.aspose.com/note/net/).
+2.  Az Aspose.Note for .NET telepítése: Töltse le és telepítse az Aspose.Note for .NET könyvtárat a[weboldal](https://releases.aspose.com/note/net/).
 
 3. Fejlesztői környezet: Állítsa be fejlesztői környezetét a Visual Studio vagy bármely előnyben részesített IDE segítségével .NET-fejlesztéshez.
 

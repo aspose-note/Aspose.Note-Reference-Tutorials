@@ -114,7 +114,7 @@ Dans ce didacticiel, nous avons expliqué comment enregistrer des documents à l
 
 ### Q1 : Puis-je utiliser n’importe quelle police pour enregistrer des documents dans Aspose.Note ?
 
-A1 : Oui, vous pouvez spécifier n'importe quelle police pour enregistrer des documents. Assurez-vous simplement que le fichier de police est accessible et chargé correctement.
+A1 : Oui, vous pouvez spécifier n'importe quelle police pour enregistrer les documents. Assurez-vous simplement que le fichier de police est accessible et chargé correctement.
 
 ### Q2 : Aspose.Note est-il compatible avec différents formats de documents ?
 

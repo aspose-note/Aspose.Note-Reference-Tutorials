@@ -27,7 +27,7 @@ using System.Collections.Generic;
 ```csharp
 // A dokumentumok könyvtárának elérési útja.
 string dataDir = "Your Document Directory";
-// Hozzon létre egy objektumot a Dokumentum osztályból
+//Hozzon létre egy objektumot a Dokumentum osztályból
 Aspose.Note.Document doc = new Aspose.Note.Document();
 ```
 ## 2. lépés: Inicializálja az oldalt és a körvonalat
@@ -63,7 +63,7 @@ page.AppendChildLast(outline);
 ```
 ## 7. lépés: Oldal hozzáadása a dokumentumhoz
 ```csharp
-// Oldalcsomópont hozzáadása
+//Oldalcsomópont hozzáadása
 doc.AppendChildLast(page);
 ```
 ## 8. lépés: Mentse el a OneNote-dokumentumot
@@ -81,7 +81,7 @@ Gratulálunk! Sikeresen megtanulta, hogyan lehet felsorolásjeleket alkalmazni a
 ### Az Aspose.Note kompatibilis a Microsoft OneNote legújabb verziójával?
 Az Aspose.Note támogatja a Microsoft OneNote különféle verzióit, így biztosítja a kompatibilitást a régebbi és az újabb verziókkal egyaránt.
 ### Használhatom az Aspose.Note-ot kereskedelmi célokra?
- Igen, az Aspose.Note for .NET használható kereskedelmi projektekben. Engedély megszerzéséhez látogasson el[itt](https://purchase.aspose.com/buy).
+ Igen, az Aspose.Note for .NET használható kereskedelmi projektekben. Engedély megszerzéséhez látogassa meg[itt](https://purchase.aspose.com/buy).
 ### Elérhető az Aspose.Note .NET-hez próbaverziója?
  Igen, letölthet egy ingyenes próbaverziót[itt](https://releases.aspose.com/).
 ### Hol találhatok további támogatást és forrásokat?

@@ -15,7 +15,7 @@ In de wereld van softwareontwikkeling is het beheren en onderhouden van verschil
 
 Voordat u in de zelfstudie duikt, moet u ervoor zorgen dat u aan de volgende vereisten voldoet:
 
-1.  Aspose.Note voor .NET installeren: Download en installeer Aspose.Note voor .NET van[hier](https://releases.aspose.com/note/net/).
+1. Aspose.Note voor .NET installeren: Download en installeer Aspose.Note voor .NET van[hier](https://releases.aspose.com/note/net/).
 
 2. Bekendheid met de .NET-omgeving: basiskennis van de .NET-omgeving en de programmeertaal C#.
 

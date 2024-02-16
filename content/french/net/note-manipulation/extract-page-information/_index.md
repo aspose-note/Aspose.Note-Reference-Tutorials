@@ -15,7 +15,7 @@ Aspose.Note pour .NET est une bibliothèque puissante qui permet aux développeu
 
 Avant de commencer, assurez-vous que les conditions préalables suivantes sont remplies :
 
-1.  Bibliothèque Aspose.Note pour .NET : assurez-vous d'avoir téléchargé et installé la bibliothèque Aspose.Note pour .NET. Vous pouvez le télécharger depuis[ici](https://releases.aspose.com/note/net/).
+1. Bibliothèque Aspose.Note pour .NET : assurez-vous d'avoir téléchargé et installé la bibliothèque Aspose.Note pour .NET. Vous pouvez le télécharger depuis[ici](https://releases.aspose.com/note/net/).
 
 2. Environnement de développement : configurez votre environnement de développement avec Visual Studio ou tout autre outil de développement .NET préféré.
 

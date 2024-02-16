@@ -74,7 +74,7 @@ A2: Aspose.Note is compatibel met .NET Framework, .NET Core en .NET Standard.
 
 ### Vraag 3: Kan ik Aspose.Note uitproberen voordat ik een aankoop doe?
 
- A3: Ja, u kunt de mogelijkheden van Aspose.Note verkennen met een gratis proefversie die beschikbaar is op de website[ website](https://releases.aspose.com/).
+A3: Ja, u kunt de mogelijkheden van Aspose.Note verkennen met een gratis proefversie die beschikbaar is op de website[ website](https://releases.aspose.com/).
 
 ### V4: Hoe kan ik ondersteuning krijgen voor Aspose.Note?
 
@@ -82,4 +82,4 @@ A2: Aspose.Note is compatibel met .NET Framework, .NET Core en .NET Standard.
 
 ### Vraag 5: Heb ik een tijdelijke licentie nodig voor evaluatiedoeleinden?
 
-A5: Hoewel u met de gratis proefperiode Aspose.Note kunt testen, kunt u ook kiezen voor een tijdelijke licentie voor uitgebreide evaluatie. Bezoek[hier](https://purchase.aspose.com/temporary-license/) voor meer details.
+ A5: Hoewel u met de gratis proefperiode Aspose.Note kunt testen, kunt u ook kiezen voor een tijdelijke licentie voor uitgebreide evaluatie. Bezoek[hier](https://purchase.aspose.com/temporary-license/) voor meer details.

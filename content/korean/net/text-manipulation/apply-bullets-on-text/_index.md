@@ -9,7 +9,7 @@ url: /ko/net/text-manipulation/apply-bullets-on-text/
 ---
 ## 소개
 .NET용 Aspose.Note를 사용하여 텍스트에 글머리 기호를 적용하는 방법에 대한 단계별 가이드에 오신 것을 환영합니다. Aspose.Note는 개발자가 .NET 애플리케이션에서 Microsoft OneNote 파일을 원활하게 사용할 수 있게 해주는 강력한 라이브러리입니다. 이 튜토리얼에서는 텍스트에 글머리 기호를 적용하여 OneNote 문서의 시각적 매력을 향상시키는 과정을 안내합니다.
-## 전제 조건
+## 전제조건
 튜토리얼을 시작하기 전에 다음 전제 조건이 충족되었는지 확인하세요.
 - C# 및 .NET 프로그래밍에 대한 기본 지식.
 -  .NET 라이브러리용 Aspose.Note가 설치되었습니다. 당신은 그것을 다운로드 할 수 있습니다[여기](https://releases.aspose.com/note/net/).
@@ -27,7 +27,7 @@ using System.Collections.Generic;
 ```csharp
 // 문서 디렉터리의 경로입니다.
 string dataDir = "Your Document Directory";
-// Document 클래스의 객체 생성
+//Document 클래스의 객체 생성
 Aspose.Note.Document doc = new Aspose.Note.Document();
 ```
 ## 2단계: 페이지 및 개요 초기화
@@ -63,7 +63,7 @@ page.AppendChildLast(outline);
 ```
 ## 7단계: 문서에 페이지 추가
 ```csharp
-// 페이지 노드 추가
+//페이지 노드 추가
 doc.AppendChildLast(page);
 ```
 ## 8단계: OneNote 문서 저장

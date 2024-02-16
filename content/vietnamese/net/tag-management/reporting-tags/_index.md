@@ -15,7 +15,7 @@ Trong lĩnh vực xử lý và quản lý tài liệu, Aspose.Note for .NET nổ
 
 Trước khi bắt tay vào hướng dẫn này, hãy đảm bảo bạn có sẵn các điều kiện tiên quyết sau:
 
-1. Cài đặt Aspose.Note cho .NET: Tải xuống và cài đặt thư viện Aspose.Note cho .NET từ[Liên kết tải xuống](https://releases.aspose.com/note/net/).
+1.  Cài đặt Aspose.Note cho .NET: Tải xuống và cài đặt thư viện Aspose.Note cho .NET từ[Liên kết tải xuống](https://releases.aspose.com/note/net/).
    
 2. Làm quen với lập trình C#: Cần có kiến thức cơ bản về ngôn ngữ lập trình C# để hiểu và triển khai các ví dụ được cung cấp.
 
@@ -110,7 +110,7 @@ public static void GenerateReport_ItemsRelatedToSpecifiedProject()
 
 ## Phần kết luận
 
-Tóm lại, báo cáo bằng thẻ trong Aspose.Note for .NET cung cấp một giải pháp mạnh mẽ để tạo báo cáo có tổ chức và sâu sắc từ các tài liệu kỹ thuật số. Bằng cách tận dụng các ví dụ được cung cấp và làm theo hướng dẫn từng bước, người dùng có thể trích xuất thông tin liên quan một cách hiệu quả và thu được thông tin chi tiết có giá trị từ các ghi chú và chú thích của họ.
+Tóm lại, báo cáo bằng thẻ trong Aspose.Note for .NET cung cấp một giải pháp mạnh mẽ để tạo báo cáo có tổ chức và sâu sắc từ các tài liệu kỹ thuật số. Bằng cách tận dụng các ví dụ được cung cấp và làm theo hướng dẫn từng bước, người dùng có thể trích xuất thông tin liên quan một cách hiệu quả và thu được thông tin chi tiết có giá trị từ ghi chú và chú thích của họ.
 
 ## Câu hỏi thường gặp
 
@@ -120,7 +120,7 @@ Câu trả lời 1: Có, Aspose.Note for .NET có thể được sử dụng v�
 
 ## Câu hỏi 2: Có bản dùng thử miễn phí dành cho Aspose.Note dành cho .NET không?
 
- Câu trả lời 2: Có, bạn có thể truy cập bản dùng thử miễn phí Aspose.Note dành cho .NET từ[trang mạng](https://releases.aspose.com/).
+Câu trả lời 2: Có, bạn có thể truy cập bản dùng thử miễn phí Aspose.Note dành cho .NET từ[trang mạng](https://releases.aspose.com/).
 
 ## Câu hỏi 3: Làm cách nào tôi có thể nhận được giấy phép tạm thời cho Aspose.Note cho .NET?
 

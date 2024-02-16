@@ -47,7 +47,7 @@ Låt oss nu dela upp processen att skapa ett dokument med en sidrubrik i flera s
 ## Steg 1: Skapa ett dokumentobjekt
 
 ```csharp
-// Skapa ett objekt av klassen Document
+//Skapa ett objekt av klassen Document
 Document doc = new Aspose.Note.Document();
 ```
 

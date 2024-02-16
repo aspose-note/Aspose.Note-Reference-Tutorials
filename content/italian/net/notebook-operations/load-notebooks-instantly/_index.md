@@ -61,7 +61,7 @@ foreach (INotebookChildNode notebookChildNode in notebook.OfType<Document>())
 
 ## Conclusione
 
- In questo tutorial, abbiamo imparato come caricare istantaneamente i notebook in Aspose.Note per .NET. Impostando il`InstantLoading` bandiera nel`NotebookLoadOptions`, possiamo scorrere in modo efficiente i documenti precaricati di un notebook, migliorando le prestazioni e la produttività.
+In questo tutorial, abbiamo imparato come caricare istantaneamente i notebook in Aspose.Note per .NET. Impostando il`InstantLoading` bandiera nel`NotebookLoadOptions`, possiamo scorrere in modo efficiente i documenti precaricati di un notebook, migliorando le prestazioni e la produttività.
 
 ## Domande frequenti
 

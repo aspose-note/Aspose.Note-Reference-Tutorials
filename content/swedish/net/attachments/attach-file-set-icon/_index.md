@@ -1,6 +1,6 @@
 ---
-title: Bifoga fil och ikon i Aspose.Note
-linktitle: Bifoga fil och ikon i Aspose.Note
+title: Bifoga fil och ange ikon i Aspose.Note
+linktitle: Bifoga fil och ange ikon i Aspose.Note
 second_title: Aspose.Note .NET API
 description: Lär dig hur du bifogar filer och ställer in ikoner i Aspose.Note för .NET. Förbättra dina .NET-applikationer med denna steg-för-steg handledning.
 type: docs
@@ -31,7 +31,7 @@ using System.Collections.Generic;
 using System.Drawing.Imaging;
 ```
 
-## Bifoga fil och ikon i Aspose.Note
+## Bifoga fil och ange ikon i Aspose.Note
 
 Låt oss nu dela upp processen för att bifoga en fil och ställa in dess ikon i Aspose.Note i flera steg:
 

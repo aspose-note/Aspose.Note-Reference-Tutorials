@@ -9,7 +9,7 @@ url: /sv/net/loading-and-saving-operations/user-saving-callbacks/
 ---
 ## Introduktion
 
-I den här handledningen kommer vi att utforska hur man implementerar användarbesparande återuppringningar i Aspose.Note för .NET. Dessa återuppringningar låter dig anpassa sparprocessen genom att tillhandahålla krokar för att ingripa i olika skeden, såsom att spara teckensnitt, CSS-formatmallar och bilder. Genom att använda dessa återuppringningar kan du skräddarsy sparbeteendet för att passa dina specifika krav, vilket ökar flexibiliteten och kontrollen över resultatet.
+den här handledningen kommer vi att utforska hur man implementerar användarbesparande återuppringningar i Aspose.Note för .NET. Dessa återuppringningar låter dig anpassa sparprocessen genom att tillhandahålla krokar för att ingripa i olika skeden, såsom att spara teckensnitt, CSS-formatmallar och bilder. Genom att använda dessa återuppringningar kan du skräddarsy sparbeteendet för att passa dina specifika krav, vilket ökar flexibiliteten och kontrollen över resultatet.
 
 ## Förutsättningar
 
@@ -76,7 +76,7 @@ public void CssSaving(CssSavingArgs args)
 }
 ```
 
- Här definierar vi`CssSaving`återuppringningsmetod för att hantera sparandet av CSS-formatmallar. Den skapar en resurs i den angivna CSS-mappen och ställer in strömmen, URI och andra egenskaper därefter.
+ Här definierar vi`CssSaving` återuppringningsmetod för att hantera sparandet av CSS-formatmallar. Den skapar en resurs i den angivna CSS-mappen och ställer in strömmen, URI och andra egenskaper därefter.
 
 ## Steg 4: Implementera bildsparande återuppringning
 
@@ -95,7 +95,7 @@ public void ImageSaving(ImageSavingArgs args)
 
 ## Slutsats
 
-I den här handledningen har vi lärt oss hur man implementerar användarbesparande återuppringningar i Aspose.Note för .NET. Genom att följa de medföljande stegen kan du anpassa sparprocessen för typsnitt, CSS-formatmallar och bilder, vilket möjliggör större flexibilitet och kontroll över utdata.
+den här handledningen har vi lärt oss hur man implementerar användarbesparande återuppringningar i Aspose.Note för .NET. Genom att följa de medföljande stegen kan du anpassa sparprocessen för typsnitt, CSS-formatmallar och bilder, vilket möjliggör större flexibilitet och kontroll över utdata.
 
 ## Vanliga frågor
 

@@ -38,7 +38,7 @@ using System.Drawing;
 ## ステップ 1: ドキュメント オブジェクトを初期化する
 
 ```csharp
-// Documentクラスのオブジェクトを作成する
+//Documentクラスのオブジェクトを作成する
 Document doc = new Document();
 ```
 
@@ -99,7 +99,7 @@ doc.AppendChildLast(page3);
 ## ステップ 5: ドキュメントを保存する
 
 ```csharp
-//OneNote ドキュメントを保存する
+// OneNote ドキュメントを保存する
 string dataDir = "Your Document Directory";
 dataDir = dataDir + "CreateDocWithRootAndSubPages_out.one";
 doc.Save(dataDir);

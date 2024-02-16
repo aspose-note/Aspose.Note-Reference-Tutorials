@@ -138,7 +138,7 @@ S2: Ja, du kan redigera, modifiera och manipulera befintliga OneNote-filer progr
 
 ### F3: Kräver Aspose.Note för .NET en licens för kommersiellt bruk?
 
- S3: Ja, du måste skaffa en licens för kommersiell användning av Aspose.Note för .NET. Du kan få en licens från[köpsidan](https://purchase.aspose.com/buy).
+S3: Ja, du måste skaffa en licens för kommersiell användning av Aspose.Note för .NET. Du kan få en licens från[köpsidan](https://purchase.aspose.com/buy).
 
 ### F4: Finns det en gratis testversion tillgänglig för Aspose.Note för .NET?
 

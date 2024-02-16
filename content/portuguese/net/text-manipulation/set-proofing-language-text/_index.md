@@ -11,7 +11,7 @@ url: /pt/net/text-manipulation/set-proofing-language-text/
 Bem-vindo ao mundo do Aspose.Note para .NET! Neste guia completo, exploraremos o fascinante processo de configuração do idioma de revisão de texto usando Aspose.Note. Quer você seja um desenvolvedor experiente ou esteja apenas começando com Aspose.Note, este tutorial fornecerá insights detalhados e instruções passo a passo para aprimorar suas habilidades de manipulação de texto.
 ## Pré-requisitos
 Antes de mergulharmos no tutorial, certifique-se de ter os seguintes pré-requisitos em vigor:
--  Aspose.Note for .NET: Certifique-se de ter a versão mais recente do Aspose.Note for .NET instalada. Você pode baixá-lo[aqui](https://releases.aspose.com/note/net/).
+- Aspose.Note for .NET: Certifique-se de ter a versão mais recente do Aspose.Note for .NET instalada. Você pode baixá-lo[aqui](https://releases.aspose.com/note/net/).
 - Ambiente de desenvolvimento .NET: tenha um ambiente de desenvolvimento .NET funcional pronto em sua máquina.
 - Editor de texto ou IDE: Escolha seu editor de texto preferido ou ambiente de desenvolvimento integrado (IDE) para codificação.
 Agora, vamos começar a definir o idioma de revisão de texto no Aspose.Note!
@@ -21,7 +21,7 @@ No seu projeto .NET, é crucial importar os namespaces necessários para acessar
     using System.Globalization;
     using System.IO;
 ```
-## Etapa 1: criar um objeto de documento
+## Etapa 1: crie um objeto de documento
 Comece criando um novo documento Aspose.Note. Isso prepara o terreno para adicionar páginas e elementos de texto.
 ```csharp
 var document = new Document();

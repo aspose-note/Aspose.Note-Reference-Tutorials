@@ -11,11 +11,11 @@ url: /ko/net/notebook-operations/add-child-nodes/
 
 이 튜토리얼에서는 Aspose Note .NET에서 하위 노드를 추가하는 방법을 알아봅니다. 하위 노드를 추가하는 것은 문서 작업 시 기본적인 작업이며 Aspose Note .NET은 이 작업을 수행하는 간단한 방법을 제공합니다.
 
-## 전제 조건
+## 전제조건
 
 시작하기 전에 다음 사항이 있는지 확인하세요.
 
-1. .NET용 Aspose.Note: 개발 환경에 .NET용 Aspose.Note가 설치되어 있는지 확인하세요. 다음에서 다운로드할 수 있습니다.[웹사이트](https://releases.aspose.com/note/net/).
+1.  .NET용 Aspose.Note: 개발 환경에 .NET용 Aspose.Note가 설치되어 있는지 확인하세요. 다음에서 다운로드할 수 있습니다.[웹사이트](https://releases.aspose.com/note/net/).
 
 2. 개발 환경: Visual Studio와 같은 .NET 개발 환경을 설정합니다.
 
@@ -86,6 +86,6 @@ notebook.Save(dataDir);
 
  A4: 웹사이트에서 .NET용 Aspose.Note를 구입할 수 있습니다.[여기](https://purchase.aspose.com/buy).
 
-### Q5: .NET용 Aspose.Note에는 설명서가 포함되어 있습니까?
+### Q5: .NET용 Aspose.Note에는 설명서가 포함되어 있나요?
 
  A5: 예, 자세한 문서를 찾을 수 있습니다.[여기](https://reference.aspose.com/note/net/).

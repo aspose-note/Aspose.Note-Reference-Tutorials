@@ -27,7 +27,7 @@ using System.Collections.Generic;
 ```csharp
 // Η διαδρομή προς τον κατάλογο εγγράφων.
 string dataDir = "Your Document Directory";
-// Δημιουργήστε ένα αντικείμενο της κλάσης Document
+//Δημιουργήστε ένα αντικείμενο της κλάσης Document
 Aspose.Note.Document doc = new Aspose.Note.Document();
 ```
 ## Βήμα 2: Αρχικοποίηση σελίδας και περίγραμμα
@@ -63,7 +63,7 @@ page.AppendChildLast(outline);
 ```
 ## Βήμα 7: Προσθήκη σελίδας στο Έγγραφο
 ```csharp
-// Προσθήκη κόμβου σελίδας
+//Προσθήκη κόμβου σελίδας
 doc.AppendChildLast(page);
 ```
 ## Βήμα 8: Αποθηκεύστε το έγγραφο OneNote

@@ -138,7 +138,7 @@ C2: Evet, Aspose.Note for .NET'i kullanarak mevcut OneNote dosyalarını program
 
 ### S3: Aspose.Note for .NET ticari kullanım için lisans gerektiriyor mu?
 
- C3: Evet, Aspose.Note for .NET'in ticari kullanımı için bir lisans almanız gerekiyor. adresinden lisans alabilirsiniz.[satın alma sayfası](https://purchase.aspose.com/buy).
+C3: Evet, Aspose.Note for .NET'in ticari kullanımı için bir lisans almanız gerekiyor. adresinden lisans alabilirsiniz.[satın alma sayfası](https://purchase.aspose.com/buy).
 
 ### S4: Aspose.Note for .NET'in ücretsiz deneme sürümü mevcut mu?
 

@@ -21,7 +21,7 @@ Mielőtt belevágna az Aspose.Note for .NET használatába, győződjön meg arr
 
 3. C# ismerete: Ismerkedjen meg a C# programozási nyelvvel, mivel az Aspose.Note for .NET elsősorban a C# nyelvvel használatos.
 
-4. A OneNote alapismeretei: Bár nem kötelező, a OneNote szerkezetének és koncepcióinak alapvető ismerete előnyös lesz.
+4. OneNote alapismeretei: Bár nem kötelező, a OneNote szerkezetének és koncepcióinak alapvető ismerete előnyös lesz.
 
 ## Névterek importálása
 
@@ -95,7 +95,7 @@ A csatolt fájl a vázlat elemhez fűződik.
 outline.AppendChildLast(outlineElem);
 ```
 
-A körvonal elemet a vázlathoz fűzzük.
+körvonal elemet a vázlathoz fűzzük.
 
 ### 8. lépés: Vázlat hozzáfűzése
 
@@ -138,7 +138,7 @@ Az Aspose.Note for .NET leegyszerűsíti a OneNote-dokumentumok programozott kez
 
 ### 3. kérdés: Az Aspose.Note for .NET használatához licenc szükséges a kereskedelmi használatra?
 
- 3. válasz: Igen, licencet kell szereznie az Aspose.Note for .NET kereskedelmi használatához. Engedélyt szerezhet a[vásárlási oldal](https://purchase.aspose.com/buy).
+3. válasz: Igen, licencet kell szereznie az Aspose.Note for .NET kereskedelmi használatához. Engedélyt szerezhet a[vásárlási oldal](https://purchase.aspose.com/buy).
 
 ### 4. kérdés: Elérhető ingyenes próbaverzió az Aspose.Note for .NET számára?
 

@@ -74,7 +74,7 @@ Câu trả lời 2: Aspose.Note tương thích với .NET Framework, .NET Core v
 
 ### Câu 3: Tôi có thể dùng thử Aspose.Note trước khi mua không?
 
- Câu trả lời 3: Có, bạn có thể khám phá các khả năng của Aspose.Note bằng bản dùng thử miễn phí có sẵn trên[ trang mạng](https://releases.aspose.com/).
+Câu trả lời 3: Có, bạn có thể khám phá các khả năng của Aspose.Note bằng bản dùng thử miễn phí có sẵn trên[ trang mạng](https://releases.aspose.com/).
 
 ### Câu hỏi 4: Làm cách nào tôi có thể nhận được hỗ trợ cho Aspose.Note?
 
@@ -82,4 +82,4 @@ Câu trả lời 2: Aspose.Note tương thích với .NET Framework, .NET Core v
 
 ### Câu hỏi 5: Tôi có cần giấy phép tạm thời cho mục đích đánh giá không?
 
-Câu trả lời 5: Mặc dù bản dùng thử miễn phí cho phép bạn kiểm tra Aspose.Note, nhưng bạn có thể chọn giấy phép tạm thời để đánh giá mở rộng. Thăm nom[đây](https://purchase.aspose.com/temporary-license/) để biết thêm chi tiết.
+ Câu trả lời 5: Mặc dù bản dùng thử miễn phí cho phép bạn kiểm tra Aspose.Note, nhưng bạn có thể chọn giấy phép tạm thời để đánh giá mở rộng. Thăm nom[đây](https://purchase.aspose.com/temporary-license/) để biết thêm chi tiết.

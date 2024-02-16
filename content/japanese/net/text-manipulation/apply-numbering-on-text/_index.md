@@ -29,9 +29,9 @@ using System.Collections.Generic;
 ```csharp
 //ドキュメントディレクトリへのパス。
 string dataDir = "Your Document Directory";
-// Documentクラスのオブジェクトを作成する
+//Documentクラスのオブジェクトを作成する
 Document doc = new Document();
-//Pageクラスオブジェクトの初期化
+// Pageクラスオブジェクトの初期化
 Aspose.Note.Page page = new Aspose.Note.Page(doc);
 //アウトラインクラスオブジェクトの初期化
 Outline outline = new Outline(doc);

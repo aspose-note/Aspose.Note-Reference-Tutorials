@@ -61,7 +61,7 @@ Console.WriteLine("\nTitle's styles are changed successfully.");
 恭喜！您已成功学习如何在 Aspose.Note for .NET 中更改页面标题样式。这个简单而强大的功能可以显着增强文档的视觉吸引力。
 ## 常见问题解答
 ### Aspose.Note 与最新的 .NET Framework 版本兼容吗？
-Aspose.Note 旨在与各种 .NET 框架版本兼容，包括最新版本。请参阅[文档](https://reference.aspose.com/note/net/)获取详细的兼容性信息。
+ Aspose.Note 旨在与各种 .NET 框架版本兼容，包括最新版本。请参阅[文档](https://reference.aspose.com/note/net/)获取详细的兼容性信息。
 ### 我可以在购买前试用 Aspose.Note 吗？
 是的，您可以通过下载免费试用版来探索 Aspose.Note[这里](https://releases.aspose.com/).
 ### 我如何获得 Aspose.Note 支持？

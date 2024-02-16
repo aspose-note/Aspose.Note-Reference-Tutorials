@@ -15,7 +15,7 @@ url: /ja/net/tag-management/reporting-tags/
 
 このチュートリアルを開始する前に、次の前提条件が満たされていることを確認してください。
 
-1. Aspose.Note for .NET のインストール: Aspose.Note for .NET ライブラリを次の場所からダウンロードしてインストールします。[ダウンロードリンク](https://releases.aspose.com/note/net/).
+1.  Aspose.Note for .NET のインストール: Aspose.Note for .NET ライブラリを次の場所からダウンロードしてインストールします。[ダウンロードリンク](https://releases.aspose.com/note/net/).
    
 2. C# プログラミングに精通していること: 提供されている例を理解して実装するには、C# プログラミング言語の基本的な知識が必要です。
 
@@ -120,7 +120,7 @@ A1: はい、Aspose.Note for .NET は、VB.NET などの他の .NET 互換言語
 
 ## Q2: Aspose.Note for .NET に利用できる無料トライアルはありますか?
 
- A2: はい、Aspose.Note for .NET の無料トライアルにアクセスできます。[Webサイト](https://releases.aspose.com/).
+A2: はい、Aspose.Note for .NET の無料トライアルにアクセスできます。[Webサイト](https://releases.aspose.com/).
 
 ## Q3: Aspose.Note for .NET の一時ライセンスを取得するにはどうすればよいですか?
 

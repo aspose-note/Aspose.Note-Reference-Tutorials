@@ -27,7 +27,7 @@ Než začneme, ujistěte se, že máte splněny následující předpoklady:
 
  Získejte platný licenční soubor pro Aspose.Note. Pokud žádný nemáte, můžete požádat o a[dočasná licence](https://purchase.aspose.com/temporary-license/) nebo zakoupit licenci od[tady](https://purchase.aspose.com/buy).
 
-## Importovat jmenné prostory
+## Import jmenných prostorů
 
 Nyní importujme potřebné jmenné prostory do vašeho projektu .NET, abyste mohli začít pracovat s Aspose. Poznámka:
 
@@ -67,7 +67,7 @@ Aspose.Note.License license = new Aspose.Note.License();
 
 ## Krok 2: Nastavte licenci z cesty
 
- Dále použijte`SetLicense` metoda`License` třídy pro použití licence ze zadané cesty:
+Dále použijte`SetLicense` metoda`License` třídy pro použití licence ze zadané cesty:
 
 ```csharp
 license.SetLicense("Aspose.Note.lic");

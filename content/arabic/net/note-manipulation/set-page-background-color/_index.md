@@ -70,7 +70,7 @@ page.BackgroundColor = Color.BlueViolet;
 document.Save(Path.Combine(dataDir, "SetPageBackgroundColor.one"));
 ```
 
- تأكد من الاستبدال`"SetPageBackgroundColor.one"`باسم الملف المطلوب للمستند المعدل.
+ تأكد من الاستبدال`"SetPageBackgroundColor.one"` باسم الملف المطلوب للمستند المعدل.
 
 ## خاتمة
 
@@ -88,7 +88,7 @@ A1: نعم، يمكنك تكرار الصفحات بشكل فردي وتعيين
 
 ### س3: هل هناك إصدار تجريبي متاح لـ Aspose.Note لـ .NET؟
 
- ج3: نعم، يمكنك تنزيل نسخة تجريبية مجانية من[هنا](https://releases.aspose.com/).
+ج3: نعم، يمكنك تنزيل نسخة تجريبية مجانية من[هنا](https://releases.aspose.com/).
 
 ### س4: هل يمكنني الحصول على تراخيص مؤقتة لأغراض الاختبار؟
 

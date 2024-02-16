@@ -73,7 +73,7 @@ Belgenin tamamına uygulanacak varsayılan metin stilini tanımlayın.
 RichText titleText = new RichText() { ParagraphStyle = defaultTextStyle }.Append("Title!");
 ```
 
- Bir inşa et`RichText` başlık için belirtilen biçimlendirmeye sahip nesne.
+ Bir inşa et`RichText`başlık için belirtilen biçimlendirmeye sahip nesne.
 
 ## Adım 6: Anahat ve Anahat Öğesi Nesnelerini Başlatın
 

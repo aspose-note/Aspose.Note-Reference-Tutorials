@@ -15,7 +15,7 @@ url: /th/net/note-manipulation/manage-current-page-versions/
 
 ก่อนที่จะเข้าสู่บทช่วยสอน ตรวจสอบให้แน่ใจว่าคุณได้ตั้งค่าข้อกำหนดเบื้องต้นต่อไปนี้:
 
-1.  ติดตั้ง Aspose.Note สำหรับ .NET: ดาวน์โหลดและติดตั้ง Aspose.Note สำหรับ .NET จาก[ที่นี่](https://releases.aspose.com/note/net/).
+1. ติดตั้ง Aspose.Note สำหรับ .NET: ดาวน์โหลดและติดตั้ง Aspose.Note สำหรับ .NET จาก[ที่นี่](https://releases.aspose.com/note/net/).
 
 2. ความคุ้นเคยกับ .NET Environment: ความเข้าใจพื้นฐานเกี่ยวกับสภาพแวดล้อม .NET และภาษาการเขียนโปรแกรม C#
 

@@ -79,4 +79,4 @@ Absolument, vous pouvez personnaliser davantage la page en ajoutant divers élé
 ### Comment puis-je gérer les erreurs lors du processus de création de documents ?
 Utilisez les mécanismes de gestion des exceptions en C# pour détecter et gérer toutes les erreurs potentielles pouvant survenir lors du processus de création de document.
 ### Où puis-je trouver plus d’exemples et de documentation pour Aspose.Note pour .NET ?
- Se référer au[Aspose.Note pour la documentation .NET](https://reference.aspose.com/note/net/) pour des exemples détaillés et une documentation complète.
+ Se référer au[Aspose.Note pour la documentation .NET](https://reference.aspose.com/note/net/)pour des exemples détaillés et une documentation complète.

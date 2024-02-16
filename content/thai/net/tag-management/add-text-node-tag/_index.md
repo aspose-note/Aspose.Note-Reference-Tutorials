@@ -106,4 +106,4 @@ A3: ได้ คุณสามารถปรับแต่งสีและ
 
 ### คำถามที่ 5: ฉันจะค้นหาแหล่งข้อมูลเพิ่มเติมและการสนับสนุนสำหรับ Aspose.Note สำหรับ .NET ได้ที่ไหน
 
- A5: คุณสามารถสำรวจ[Aspose.Note สำหรับเอกสาร .NET](https://reference.aspose.com/note/net/) และขอความช่วยเหลือจาก[ฟอรั่ม Aspose.Note](https://forum.aspose.com/c/note/28).
+ A5: คุณสามารถสำรวจ[Aspose.Note สำหรับเอกสาร .NET](https://reference.aspose.com/note/net/)และขอความช่วยเหลือจาก[ฟอรั่ม Aspose.Note](https://forum.aspose.com/c/note/28).

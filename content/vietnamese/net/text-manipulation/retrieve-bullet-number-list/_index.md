@@ -84,6 +84,6 @@ Có, Aspose.Note hỗ trợ nhiều định dạng OneNote, đảm bảo khả n
 ### Làm cách nào tôi có thể nhận được giấy phép tạm thời cho Aspose.Note?
  Thăm nom[liên kết này](https://purchase.aspose.com/temporary-license/) để có được giấy phép tạm thời cho mục đích đánh giá.
 ### Những tùy chọn hỗ trợ nào có sẵn cho người dùng Aspose.Note?
- Bạn có thể tìm hiểu và tìm kiếm sự trợ giúp trong[Diễn đàn Aspose.Note](https://forum.aspose.com/c/note/28) cho bất kỳ truy vấn hoặc vấn đề nào bạn có thể gặp phải.
+Bạn có thể tìm hiểu và tìm kiếm sự trợ giúp trong[Diễn đàn Aspose.Note](https://forum.aspose.com/c/note/28) cho bất kỳ truy vấn hoặc vấn đề nào bạn có thể gặp phải.
 ### Có phiên bản dùng thử miễn phí của Aspose.Note cho .NET không?
  Có, bạn có thể truy cập phiên bản dùng thử miễn phí của Aspose.Note cho .NET[đây](https://releases.aspose.com/).

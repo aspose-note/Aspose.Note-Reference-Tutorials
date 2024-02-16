@@ -17,7 +17,7 @@ Aspose.Note for .NET عبارة عن واجهة برمجة تطبيقات قوي
 
 ### 1. تم تثبيت Visual Studio
 
- تأكد من تثبيت Visual Studio على نظامك. يمكنك تنزيله من[هنا](https://visualstudio.microsoft.com/).
+تأكد من تثبيت Visual Studio على نظامك. يمكنك تنزيله من[هنا](https://visualstudio.microsoft.com/).
 
 ### 2. تم تثبيت Aspose.Note لـ .NET
 

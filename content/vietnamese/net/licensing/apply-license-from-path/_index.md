@@ -67,7 +67,7 @@ Aspose.Note.License license = new Aspose.Note.License();
 
 ## Bước 2: Đặt giấy phép từ đường dẫn
 
- Tiếp theo, sử dụng`SetLicense` phương pháp của`License` lớp để áp dụng giấy phép từ đường dẫn đã chỉ định:
+Tiếp theo, sử dụng`SetLicense` phương pháp của`License` lớp để áp dụng giấy phép từ đường dẫn đã chỉ định:
 
 ```csharp
 license.SetLicense("Aspose.Note.lic");

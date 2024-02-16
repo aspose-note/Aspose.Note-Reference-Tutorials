@@ -20,7 +20,7 @@ Než začneme, ujistěte se, že máte následující předpoklady:
 -  Aspose.Note for .NET API nainstalované ve vašem projektu. Můžete si jej stáhnout z[tady](https://releases.aspose.com/note/net/).
 - Seznámení se strukturou dokumentů Microsoft OneNote.
 
-## Importovat jmenné prostory
+## Import jmenných prostorů
 
 Než se ponoříme do kódovací části, importujme potřebné jmenné prostory:
 
@@ -139,7 +139,7 @@ public static void SaveAsHTMLToFileWithResourcesInSeparateFiles()
         FontFaceTypes = FontFaceType.Ttf
     };
 
-    //Uložte dokument do souboru HTML se zdroji uloženými v samostatných souborech
+    // Uložte dokument do souboru HTML se zdroji uloženými v samostatných souborech
     document.Save(Path.Combine(dataDir, "document_out.html"), options);
 }
 ```

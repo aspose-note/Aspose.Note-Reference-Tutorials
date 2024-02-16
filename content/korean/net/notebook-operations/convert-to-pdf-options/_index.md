@@ -11,7 +11,7 @@ url: /ko/net/notebook-operations/convert-to-pdf-options/
 
 이 튜토리얼에서는 Aspose.Note for .NET 라이브러리를 사용하여 노트북을 PDF 형식으로 변환하는 과정을 안내합니다. .NET용 Aspose.Note는 Microsoft OneNote 파일을 프로그래밍 방식으로 작업할 수 있는 강력한 기능 세트를 제공합니다.
 
-## 전제 조건
+## 전제조건
 
 시작하기 전에 다음 전제 조건이 충족되었는지 확인하세요.
 

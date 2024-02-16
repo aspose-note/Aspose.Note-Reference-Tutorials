@@ -87,7 +87,7 @@ R2: Aspose.Note para .NET proporciona funcionalidades para revertir o deshacer l
 
 R3: Sí, los usuarios deben adquirir las licencias adecuadas de Aspose para utilizar Aspose.Note para .NET en proyectos comerciales. Sin embargo, hay licencias temporales disponibles para fines de prueba.
 
-### P4: ¿Aspose.Note para .NET ofrece soporte para los desarrolladores que tienen problemas?
+### P4: ¿Aspose.Note para .NET ofrece soporte a los desarrolladores que tienen problemas?
 
 R4: Sí, los desarrolladores pueden buscar ayuda y orientación en el foro de soporte de Aspose dedicado a Aspose.Note para .NET.
 

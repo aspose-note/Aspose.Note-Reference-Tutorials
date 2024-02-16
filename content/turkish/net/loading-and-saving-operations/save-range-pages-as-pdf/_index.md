@@ -82,7 +82,7 @@ Tebrikler! Aspose.Note for .NET kullanarak bir OneNote belgesindeki çeşitli sa
 
 ### S1: Aspose.Note'u kullanarak birden fazla sayfa aralığını ayrı PDF dosyaları olarak kaydedebilir miyim?
 
- C1: Evet, bunu, kaydetmek istediğiniz her sayfa aralığı için işlemi tekrarlayarak,`PageIndex` Ve`PageCount` buna göre.
+C1: Evet, bunu, kaydetmek istediğiniz her sayfa aralığı için işlemi tekrarlayarak,`PageIndex` Ve`PageCount` buna göre.
    
 ### S2: Aspose.Note, belgelerin PDF dışındaki formatlarda kaydedilmesini destekliyor mu?
 

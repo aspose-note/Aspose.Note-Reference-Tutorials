@@ -80,7 +80,7 @@ Neste tutorial, aprendemos como salvar um documento em uma imagem binária usand
 
 ### Q1: Posso ajustar o limite de binarização?
 
-A1: Sim, você pode personalizar o limite de binarização de acordo com seus requisitos, modificando o`BinarizationThreshold` propriedade no código.
+ A1: Sim, você pode personalizar o limite de binarização de acordo com seus requisitos, modificando o`BinarizationThreshold` propriedade no código.
 
 ### P2: Que outros formatos são suportados para salvar documentos?
 
@@ -96,4 +96,4 @@ A4: Sim, você pode percorrer vários documentos e salvá-los como imagens biná
 
 ### P5: Onde posso encontrar mais recursos e suporte para Aspose.Note?
 
- A5: Você pode explorar o[Documentação Aspose.Note](https://reference.aspose.com/note/net/) e procure ajuda do[Fórum Aspose.Note](https://forum.aspose.com/c/note/28) para qualquer dúvida ou problema.
+ A5: Você pode explorar o[Documentação Aspose.Note](https://reference.aspose.com/note/net/) procure ajuda do[Fórum Aspose.Note](https://forum.aspose.com/c/note/28) para qualquer dúvida ou problema.

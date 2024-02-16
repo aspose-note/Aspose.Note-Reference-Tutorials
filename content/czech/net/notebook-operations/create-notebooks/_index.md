@@ -20,7 +20,7 @@ Než začneme, ujistěte se, že máte splněny následující předpoklady:
 3. Znalost C#: Základní znalost programovacího jazyka C#.
 4. Adresář dokumentů: Nastavte adresář, do kterého budete ukládat své dokumenty.
 
-## Importovat jmenné prostory
+## Import jmenných prostorů
 
 Pro začátek importujme potřebné jmenné prostory pro náš projekt:
 
@@ -74,7 +74,7 @@ Console.WriteLine("\nNotebook created successfully.\nFile saved at " + dataDir);
 
 ## Závěr
 
-V tomto tutoriálu jsme se naučili vytvářet poznámkové bloky v Aspose Note pro .NET. Podle výše uvedených jednoduchých kroků můžete efektivně spravovat a manipulovat se soubory OneNote programově, čímž vylepšíte pracovní postupy zpracování dokumentů.
+V tomto tutoriálu jsme se naučili vytvářet poznámkové bloky v Aspose Note pro .NET. Dodržením výše uvedených jednoduchých kroků můžete efektivně spravovat a manipulovat se soubory OneNote programově a zlepšit tak pracovní postupy zpracování dokumentů.
 
 ## FAQ
 
@@ -92,7 +92,7 @@ Odpověď 1: Ano, Aspose.Note pro .NET je kompatibilní s různými frameworky .
 
 ### Q4: Mohu si zakoupit dočasnou licenci pro Aspose.Note pro .NET?
 
- A4: Ano, můžete získat dočasnou licenci z webu Aspose:[Dočasná licence](https://purchase.aspose.com/temporary-license/).
+A4: Ano, můžete získat dočasnou licenci z webu Aspose:[Dočasná licence](https://purchase.aspose.com/temporary-license/).
 
 ### Q5: Kde najdu komplexní dokumentaci pro Aspose.Note pro .NET?
 

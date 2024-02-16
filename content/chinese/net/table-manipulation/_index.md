@@ -34,7 +34,7 @@ Aspose.Note for .NET 使您能够在文档处理任务中无缝地运用表格�
 
 ## 从 Aspose.Note 中的表格中提取文本
 
-解决使用 C# 和 .NET 框架从表中提取文本的复杂性。我们的教程[从 Aspose.Note 中的表格中提取文本](./extract-text-table/)提供分步指南，包含代码片段和解释。无缝提升您的文档处理能力。
+解决使用 C# 和 .NET 框架从表中提取文本的复杂性。我们的教程[从 Aspose.Note 中的表格中提取文本](./extract-text-table/)提供分步指南，包含代码片段和说明。无缝提升您的文档处理能力。
 
 ## 将表格插入 Aspose.Note 文档
 

@@ -17,7 +17,7 @@ Trước khi chúng tôi bắt đầu, hãy đảm bảo bạn có các điều 
 
 1. Kiến thức cơ bản về C#: Cần phải làm quen với ngôn ngữ lập trình C# để hiểu và triển khai các đoạn mã được cung cấp.
 
-2.  Aspose.Note for .NET: Tải xuống và cài đặt Aspose.Note for .NET từ[trang mạng](https://releases.aspose.com/note/net/). Bạn có thể dùng thử miễn phí hoặc mua giấy phép theo nhu cầu của mình.
+2.  Aspose.Note for .NET: Tải xuống và cài đặt Aspose.Note for .NET từ[trang mạng](https://releases.aspose.com/note/net/). Bạn có thể dùng thử miễn phí hoặc mua giấy phép theo nhu cầu của bạn.
 
 3. Môi trường phát triển: Thiết lập môi trường phát triển ưa thích của bạn với Visual Studio hoặc bất kỳ IDE nào khác hỗ trợ phát triển .NET.
 

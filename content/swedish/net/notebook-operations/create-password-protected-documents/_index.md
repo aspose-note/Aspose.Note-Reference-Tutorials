@@ -9,7 +9,7 @@ url: /sv/net/notebook-operations/create-password-protected-documents/
 ---
 ## Introduktion
 
-den här handledningen kommer vi att fördjupa oss i processen att skapa lösenordsskyddade dokument med Aspose.Note för .NET. Dokumentsäkerhet är av största vikt, särskilt när man hanterar känslig information. Med Aspose.Note kan du kryptera dina dokument för att skydda dem från obehörig åtkomst. Vi guidar dig genom de steg som krävs för att implementera denna säkerhetsåtgärd effektivt.
+I den här handledningen kommer vi att fördjupa oss i processen att skapa lösenordsskyddade dokument med Aspose.Note för .NET. Dokumentsäkerhet är av största vikt, särskilt när man hanterar känslig information. Med Aspose.Note kan du kryptera dina dokument för att skydda dem från obehörig åtkomst. Vi guidar dig genom de steg som krävs för att implementera denna säkerhetsåtgärd effektivt.
 
 ## Förutsättningar
 

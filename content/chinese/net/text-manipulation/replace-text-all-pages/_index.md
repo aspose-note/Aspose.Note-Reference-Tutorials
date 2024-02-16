@@ -68,7 +68,7 @@ Console.WriteLine("\nText replaced successfully on all pages.\nFile saved at " +
 ```
 通知用户文本替换过程已成功。
 ## 结论：使用 Aspose.Note 增强您的 .NET 开发能力
-总之，掌握使用 Aspose.Note for .NET 替换所有页面上的文本的艺术可以为您的开发人员工具箱添加一个有价值的工具。此处提供的分步指南为您提供了将此功能无缝集成到您的项目中的知识，从而提高了文档处理效率。
+总之，掌握使用 Aspose.Note for .NET 替换所有页面上的文本的艺术可以为您的开发人员工具箱添加一个有价值的工具。这里提供的分步指南为您提供了将此功能无缝集成到您的项目中的知识，从而提高了文档处理效率。
 ## 经常问的问题
 ### 问：除了 PDF 之外，我可以替换其他文档格式的文本吗？
 答：是的，Aspose.Note for .NET 支持各种输出格式。调整`SaveFormat`相应的参数。

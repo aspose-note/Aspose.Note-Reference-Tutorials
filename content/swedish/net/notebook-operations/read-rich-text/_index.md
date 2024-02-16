@@ -53,7 +53,7 @@ Notebook rootNotebook = new Notebook(dataDir + inputFile);
 
  Här skapar vi en ny instans av`Notebook` klass och skickar sökvägen till notebook-filen som en parameter.
 
-## Steg 3: Hämta Rich Text-noder
+## Steg 3: Hämta Rich Text Noder
 
 ```csharp
 IList<RichText> allRichTextNodes = rootNotebook.GetChildNodes<RichText>();
@@ -84,7 +84,7 @@ S1: Ja, Aspose.Note för .NET låter dig skapa, redigera och manipulera OneNote-
 
 ### F2: Finns det en gratis testversion tillgänglig för Aspose.Note för .NET?
 
-S2: Ja, du kan få en gratis provversion av Aspose.Note för .NET från[släpp sida](https://releases.aspose.com/).
+ S2: Ja, du kan få en gratis provversion av Aspose.Note för .NET från[släpp sida](https://releases.aspose.com/).
 
 ### F3: Hur kan jag få support för Aspose.Note för .NET?
 

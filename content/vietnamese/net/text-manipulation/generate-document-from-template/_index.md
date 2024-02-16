@@ -73,7 +73,7 @@ Chúc mừng! Bạn đã tạo thành công tài liệu động bằng Aspose.No
 ### Tôi có thể sử dụng Aspose.Note cho .NET với các định dạng tài liệu khác không?
 Có, Aspose.Note for .NET chủ yếu xử lý các tài liệu OneNote, nhưng Aspose cung cấp nhiều thư viện khác nhau cho các định dạng khác nhau.
 ### Có bản dùng thử miễn phí dành cho Aspose.Note cho .NET không?
- Có, bạn có thể khám phá các khả năng của Aspose.Note dành cho .NET bằng bản dùng thử miễn phí. Thăm nom[đây](https://releases.aspose.com/) để biết thêm thông tin.
+Có, bạn có thể khám phá các khả năng của Aspose.Note dành cho .NET bằng bản dùng thử miễn phí. Thăm nom[đây](https://releases.aspose.com/) để biết thêm thông tin.
 ### Làm cách nào tôi có thể nhận được hỗ trợ cho Aspose.Note cho .NET?
  Tham quan[Aspose.Note dành cho diễn đàn .NET](https://forum.aspose.com/c/note/28) để nhận được sự hỗ trợ từ cộng đồng và các chuyên gia.
 ### Giấy phép tạm thời có sẵn cho Aspose.Note cho .NET không?

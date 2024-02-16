@@ -19,7 +19,7 @@ Než se pustíte do řešení konfliktů s Aspose.Note pro .NET, ujistěte se, �
 2.  Instalace Aspose.Note pro .NET: Stáhněte a nainstalujte Aspose.Note pro .NET z[webová stránka](https://releases.aspose.com/note/net/).
 3. IDE: Mějte na svém systému nainstalované integrované vývojové prostředí (IDE), jako je Visual Studio.
 
-## Importovat jmenné prostory
+## Import jmenných prostorů
 
 Chcete-li začít řešit konflikty v dokumentech Aspose.Note, importujte potřebné jmenné prostory:
 

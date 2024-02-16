@@ -76,7 +76,7 @@ public void CssSaving(CssSavingArgs args)
 }
 ```
 
- Burada şunu tanımlıyoruz:`CssSaving`CSS stil sayfalarının kaydedilmesini yönetmek için geri çağırma yöntemi. Belirtilen CSS klasöründe bir kaynak oluşturur ve akışı, URI'yi ve diğer özellikleri buna göre ayarlar.
+ Burada şunu tanımlıyoruz:`CssSaving` CSS stil sayfalarının kaydedilmesini yönetmek için geri çağırma yöntemi. Belirtilen CSS klasöründe bir kaynak oluşturur ve akışı, URI'yi ve diğer özellikleri buna göre ayarlar.
 
 ## Adım 4: Görüntü Kaydederek Geri Aramayı Uygulayın
 

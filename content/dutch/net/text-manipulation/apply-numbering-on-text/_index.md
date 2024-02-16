@@ -29,7 +29,7 @@ Begin met het maken van een nieuw document en het initialiseren van de vereiste 
 ```csharp
 // Het pad naar de documentenmap.
 string dataDir = "Your Document Directory";
-// Maak een object van de klasse Document
+//Maak een object van de klasse Document
 Document doc = new Document();
 // Initialiseer het Page-klasseobject
 Aspose.Note.Page page = new Aspose.Note.Page(doc);

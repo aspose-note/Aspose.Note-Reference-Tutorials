@@ -15,11 +15,11 @@ Aspose.Note for .NET je výkonná knihovna, která umožňuje vývojářům prac
 
 Než začnete, ujistěte se, že máte splněny následující předpoklady:
 
-1.  Aspose.Note for .NET Library: Ujistěte se, že jste si stáhli a nainstalovali knihovnu Aspose.Note for .NET. Můžete si jej stáhnout z[tady](https://releases.aspose.com/note/net/).
+1. Aspose.Note for .NET Library: Ujistěte se, že jste si stáhli a nainstalovali knihovnu Aspose.Note for .NET. Můžete si jej stáhnout z[tady](https://releases.aspose.com/note/net/).
 
 2. Vývojové prostředí: Nastavte své vývojové prostředí pomocí sady Visual Studio nebo jakéhokoli jiného preferovaného vývojového nástroje .NET.
 
-## Importovat jmenné prostory
+## Import jmenných prostorů
 
 Nejprve musíte importovat potřebné jmenné prostory pro přístup ke třídám a metodám potřebným pro práci s Aspose.Note pro .NET.
 
@@ -80,7 +80,7 @@ foreach (Page page in oneFile)
 
 ## Závěr
 
-V tomto kurzu jsme se naučili, jak extrahovat informace o stránce ze souborů Microsoft OneNote pomocí Aspose.Note pro .NET. Podle podrobného průvodce můžete snadno integrovat tuto funkci do svých aplikací .NET, což vám umožní efektivněji analyzovat a spravovat dokumenty OneNotu.
+tomto kurzu jsme se naučili, jak extrahovat informace o stránce ze souborů Microsoft OneNote pomocí Aspose.Note pro .NET. Podle podrobného průvodce můžete snadno integrovat tuto funkci do svých aplikací .NET, což vám umožní efektivněji analyzovat a spravovat dokumenty OneNotu.
 
 ## FAQ
 

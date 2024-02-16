@@ -30,7 +30,7 @@ Sostituisci "La tua directory dei documenti" con il percorso della directory con
 ```csharp
 Document oneFile = new Document(dataDir + "Aspose.one");
 ```
- Carica il tuo documento Aspose.Note nel file`Document` opporsi ad ulteriori elaborazioni.
+Carica il tuo documento Aspose.Note nel file`Document` opporsi ad ulteriori elaborazioni.
 ## Passaggio 3: recupera il testo
 ```csharp
 string text = string.Join(Environment.NewLine, oneFile.GetChildNodes<RichText>().Select(e => e.Text)) + Environment.NewLine;

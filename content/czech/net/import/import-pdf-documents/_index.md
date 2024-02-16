@@ -18,7 +18,7 @@ Než se pustíte do výukového programu, ujistěte se, že máte následující
 1.  Aspose.Note pro .NET: Stáhněte a nainstalujte knihovnu z[tady](https://releases.aspose.com/note/net/).
 2. Základní znalost C# a .NET Framework: Výhodou bude znalost programovacího jazyka C# a .NET Framework.
 
-## Importovat jmenné prostory
+## Import jmenných prostorů
 
 Ujistěte se, že jste naimportovali potřebné jmenné prostory pro přístup ke třídám a metodám požadovaným pro funkci importu PDF:
 

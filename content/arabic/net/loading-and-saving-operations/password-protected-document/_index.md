@@ -15,7 +15,7 @@ url: /ar/net/loading-and-saving-operations/password-protected-document/
 
 قبل أن نبدأ، تأكد من توفر المتطلبات الأساسية التالية:
 
-1.  Aspose.Note لمكتبة .NET: تأكد من أنك قمت بتنزيل وتثبيت Aspose.Note لمكتبة .NET. يمكنك تنزيله من[هنا](https://releases.aspose.com/note/net/).
+1. Aspose.Note لمكتبة .NET: تأكد من أنك قمت بتنزيل وتثبيت Aspose.Note لمكتبة .NET. يمكنك تنزيله من[هنا](https://releases.aspose.com/note/net/).
 
 2. بيئة التطوير: قم بإعداد بيئة تطوير بقدرات .NET.
 

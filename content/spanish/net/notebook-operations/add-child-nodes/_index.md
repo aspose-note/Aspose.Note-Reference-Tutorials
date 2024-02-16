@@ -15,7 +15,7 @@ En este tutorial, aprenderemos cómo agregar nodos secundarios en Aspose Note .N
 
 Antes de comenzar, asegúrese de tener lo siguiente:
 
-1. Aspose.Note para .NET: asegúrese de tener Aspose.Note para .NET instalado en su entorno de desarrollo. Puedes descargarlo desde el[sitio web](https://releases.aspose.com/note/net/).
+1.  Aspose.Note para .NET: asegúrese de tener Aspose.Note para .NET instalado en su entorno de desarrollo. Puedes descargarlo desde el[sitio web](https://releases.aspose.com/note/net/).
 
 2. Entorno de desarrollo: configure un entorno de desarrollo .NET, como Visual Studio.
 

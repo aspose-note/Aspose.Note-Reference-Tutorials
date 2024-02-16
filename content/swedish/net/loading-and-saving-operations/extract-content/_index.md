@@ -9,7 +9,7 @@ url: /sv/net/loading-and-saving-operations/extract-content/
 ---
 ## Introduktion
 
-den här handledningen kommer vi att utforska hur man extraherar innehåll från Aspose.Note-dokument med Aspose.Note för .NET. Aspose.Note är ett kraftfullt bibliotek som låter dig arbeta med Microsoft OneNote-filer programmatiskt. Vi går igenom processen steg för steg och delar upp varje exempel i flera steg för att säkerställa klarhet och förståelse.
+I den här handledningen kommer vi att utforska hur man extraherar innehåll från Aspose.Note-dokument med Aspose.Note för .NET. Aspose.Note är ett kraftfullt bibliotek som låter dig arbeta med Microsoft OneNote-filer programmatiskt. Vi går igenom processen steg för steg och delar upp varje exempel i flera steg för att säkerställa klarhet och förståelse.
 
 ## Förutsättningar
 
@@ -39,11 +39,11 @@ string dataDir = "Your Document Directory";
 Document doc = new Document(dataDir + "Aspose.one");
 ```
 
- Byta ut`"Your Document Directory"` med katalogen där ditt Aspose.Note-dokument finns. Se till att du anger rätt filnamn med dess tillägg.
+ Byta ut`"Your Document Directory"`med katalogen där ditt Aspose.Note-dokument finns. Se till att du anger rätt filnamn med dess tillägg.
 
 ## Steg 2: Skapa en DocumentVisitor
 
- Därefter skapar vi en anpassad`DocumentVisitor`för att besöka olika noder i dokumentet. Denna besökare kommer att tillåta oss att gå igenom dokumentets struktur och extrahera innehållet.
+ Därefter skapar vi en anpassad`DocumentVisitor` för att besöka olika noder i dokumentet. Denna besökare kommer att tillåta oss att gå igenom dokumentets struktur och extrahera innehållet.
 
 ```csharp
 public class MyOneNoteToTxtWriter : DocumentVisitor
@@ -97,7 +97,7 @@ public string GetText()
 
 ## Steg 5: Utför besök
 
-Slutligen kommer vi att utföra besöksprocessen genom att ringa till`Accept` metod på dokumentobjektet och skickar vår anpassade besökarinstans som en parameter.
+ Slutligen kommer vi att utföra besöksprocessen genom att ringa till`Accept` metod på dokumentobjektet och skickar vår anpassade besökarinstans som en parameter.
 
 ```csharp
 MyOneNoteToTxtWriter myConverter = new MyOneNoteToTxtWriter();

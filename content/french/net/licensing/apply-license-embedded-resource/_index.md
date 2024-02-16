@@ -17,7 +17,7 @@ Avant de commencer, assurez-vous que les conditions préalables suivantes sont r
 
 ### 1. Visual Studio installé
 
- Assurez-vous que Visual Studio est installé sur votre système. Vous pouvez le télécharger depuis[ici](https://visualstudio.microsoft.com/).
+Assurez-vous que Visual Studio est installé sur votre système. Vous pouvez le télécharger depuis[ici](https://visualstudio.microsoft.com/).
 
 ### 2. Aspose.Note pour .NET installé
 

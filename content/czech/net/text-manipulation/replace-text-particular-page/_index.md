@@ -14,7 +14,7 @@ Než se pustíte do výukového programu, ujistěte se, že máte splněny násl
 - Základní znalost programování v C# a .NET.
 - Nainstalované Visual Studio nebo jakékoli preferované vývojové prostředí .NET.
 -  Aspose.Note pro knihovnu .NET. Můžete si jej stáhnout z[Dokumentace Aspose.Note .NET](https://reference.aspose.com/note/net/).
-## Importovat jmenné prostory
+## Import jmenných prostorů
 Ujistěte se, že jste do svého projektu .NET importovali potřebné jmenné prostory, abyste mohli využívat funkce Aspose.Note:
 ```csharp
     using System;

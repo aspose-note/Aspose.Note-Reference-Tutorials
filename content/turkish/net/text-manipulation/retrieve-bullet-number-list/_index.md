@@ -84,6 +84,6 @@ Evet, Aspose.Note çok çeşitli OneNote formatlarını destekleyerek en son sü
 ### Aspose.Note için nasıl geçici lisans alabilirim?
  Ziyaret etmek[bu bağlantı](https://purchase.aspose.com/temporary-license/) değerlendirme amacıyla geçici bir lisans almak.
 ### Aspose.Note kullanıcıları için hangi destek seçenekleri mevcut?
- Şurayı keşfedebilir ve yardım isteyebilirsiniz:[Aspose.Note forumu](https://forum.aspose.com/c/note/28) Karşılaşabileceğiniz her türlü soru veya sorun için.
+Şurayı keşfedebilir ve yardım isteyebilirsiniz:[Aspose.Note forumu](https://forum.aspose.com/c/note/28) Karşılaşabileceğiniz her türlü soru veya sorun için.
 ### Aspose.Note for .NET'in ücretsiz deneme sürümü var mı?
  Evet, Aspose.Note for .NET'in ücretsiz deneme sürümüne erişebilirsiniz[Burada](https://releases.aspose.com/).

@@ -61,7 +61,7 @@ Druk een bevestigingsbericht af waarin wordt aangegeven dat de titelstijlen succ
 Gefeliciteerd! U hebt met succes geleerd hoe u paginatitelstijlen kunt wijzigen in Aspose.Note voor .NET. Deze eenvoudige maar krachtige functie kan de visuele aantrekkingskracht van uw documenten aanzienlijk verbeteren.
 ## Veelgestelde vragen
 ### Is Aspose.Note compatibel met de nieuwste .NET-frameworkversies?
-Aspose.Note is ontworpen om compatibel te zijn met een breed scala aan .NET-frameworkversies, inclusief de nieuwste. Verwijs naar de[documentatie](https://reference.aspose.com/note/net/) voor gedetailleerde compatibiliteitsinformatie.
+ Aspose.Note is ontworpen om compatibel te zijn met een breed scala aan .NET-frameworkversies, inclusief de nieuwste. Verwijs naar de[documentatie](https://reference.aspose.com/note/net/) voor gedetailleerde compatibiliteitsinformatie.
 ### Kan ik Aspose.Note uitproberen voordat ik een aankoop doe?
  Ja, u kunt Aspose.Note verkennen door de gratis proefversie te downloaden[hier](https://releases.aspose.com/).
 ### Hoe kan ik ondersteuning krijgen voor Aspose.Note?

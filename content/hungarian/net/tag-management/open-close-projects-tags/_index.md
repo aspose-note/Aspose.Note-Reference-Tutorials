@@ -103,7 +103,7 @@ Az Aspose.Note for .NET kényelmes módot kínál a OneNote-dokumentumok program
 
 ### 3. kérdés: Az Aspose.Note ingyenes próbaverziót kínál?
 
-V3: Igen, ingyenes próbaverziót kaphat[itt](https://releases.aspose.com/).
+ V3: Igen, ingyenes próbaverziót kaphat[itt](https://releases.aspose.com/).
 
 ### 4. kérdés: Hol találom az Aspose.Note dokumentációját?
 
@@ -111,4 +111,4 @@ V3: Igen, ingyenes próbaverziót kaphat[itt](https://releases.aspose.com/).
 
 ### 5. kérdés: Hol kaphatok támogatást az Aspose.Note-hoz?
 
-5. válasz: Támogatásért keresse fel az Aspose.Note oldalt[fórum](https://forum.aspose.com/c/note/28).
+ 5. válasz: Támogatásért keresse fel az Aspose.Note oldalt[fórum](https://forum.aspose.com/c/note/28).

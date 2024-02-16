@@ -11,7 +11,7 @@ url: /ko/net/notebook-operations/load-notebook-files-with-load-options/
 
 이 튜토리얼에서는 Aspose.Note for .NET을 사용하여 로드 옵션이 있는 노트북 파일을 로드하는 복잡한 과정을 살펴보겠습니다. Aspose.Note는 개발자가 프로그래밍 방식으로 Microsoft OneNote 파일을 사용하여 노트북 데이터를 원활하게 통합하고 효율적으로 처리할 수 있도록 하는 강력한 API입니다.
 
-## 전제 조건
+## 전제조건
 
 시작하기 전에 다음 전제 조건이 충족되었는지 확인하세요.
 
@@ -81,7 +81,7 @@ A1: 예, .NET용 Aspose.Note는 Microsoft OneNote 파일을 프로그래밍 방�
 
 ### Q2: Aspose.Note for .NET에 대한 무료 평가판이 있습니까?
 
- A2: 예, 다음에서 .NET용 Aspose.Note 무료 평가판을 이용할 수 있습니다.[여기](https://releases.aspose.com/).
+A2: 예, 다음에서 .NET용 Aspose.Note 무료 평가판을 이용할 수 있습니다.[여기](https://releases.aspose.com/).
 
 ### Q3: .NET용 Aspose.Note에 대한 설명서는 어디에서 찾을 수 있습니까?
 

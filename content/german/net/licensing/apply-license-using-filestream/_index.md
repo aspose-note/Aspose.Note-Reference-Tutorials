@@ -76,11 +76,11 @@ A1: Nein, um die volle Funktionalität von Aspose.Note nutzen zu können, ist ei
 
 ### F3: Gibt es eine kostenlose Testversion?
 
-A3: Ja, Sie können eine kostenlose Testversion erhalten[Hier](https://releases.aspose.com/).
+ A3: Ja, Sie können eine kostenlose Testversion erhalten[Hier](https://releases.aspose.com/).
 
 ### F4: Wie kann ich Unterstützung erhalten?
 
- A4: Sie können Unterstützung von der Aspose.Note-Community erhalten[Forum](https://forum.aspose.com/c/note/28).
+A4: Sie können Unterstützung von der Aspose.Note-Community erhalten[Forum](https://forum.aspose.com/c/note/28).
 
 ### F5: Bieten Sie temporäre Lizenzen an?
 

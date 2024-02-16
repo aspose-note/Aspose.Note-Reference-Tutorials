@@ -90,7 +90,7 @@ S2: Aspose.Note uppdateras regelbundet för att säkerställa kompatibilitet med
 
 ### F3: Kan jag manipulera den extraherade texten innan vidare bearbetning?
 
-S3: Absolut, du kan manipulera den extraherade texten enligt dina krav med standard C#-strängmanipuleringstekniker innan du fortsätter med ytterligare bearbetning.
+S3: Absolut, du kan manipulera den extraherade texten enligt dina krav med hjälp av standardtekniker för C#-strängmanipulering innan du fortsätter med ytterligare bearbetning.
 
 ### F4: Stöder Aspose.Note andra programmeringsspråk förutom C#?
 

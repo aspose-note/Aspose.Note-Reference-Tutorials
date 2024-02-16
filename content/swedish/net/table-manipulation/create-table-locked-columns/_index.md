@@ -124,7 +124,7 @@ Efter att ha följt dessa steg har du framgångsrikt skapat en tabell med låsta
 
 ## Slutsats
 
-I den här handledningen lärde vi oss hur man skapar en tabell med låsta kolumner med Aspose.Note för .NET. Genom att följa dessa steg kan du effektivt manipulera tabeller i dina dokument för att uppfylla dina specifika krav.
+den här handledningen lärde vi oss hur man skapar en tabell med låsta kolumner med Aspose.Note för .NET. Genom att följa dessa steg kan du effektivt manipulera tabeller i dina dokument för att uppfylla dina specifika krav.
 
 ## FAQ's
 
@@ -142,8 +142,8 @@ S3: Ja, Aspose.Note för .NET integreras sömlöst med andra .NET-ramverk, vilke
 
 ### F4: Finns teknisk support tillgänglig för Aspose.Note för .NET?
 
- S4: Ja, du kan få tillgång till teknisk support via[Aspose.Note forum](https://forum.aspose.com/c/note/28) där experter finns tillgängliga för att hjälpa dig med alla frågor eller problem du kan stöta på.
+S4: Ja, du kan få tillgång till teknisk support via[Aspose.Note forum](https://forum.aspose.com/c/note/28) där experter finns tillgängliga för att hjälpa dig med alla frågor eller problem du kan stöta på.
 
 ### F5: Kan jag prova Aspose.Note för .NET innan jag köper?
 
- S5: Ja, du kan ladda ner en gratis testversion av Aspose.Note för .NET från[här](https://releases.aspose.com/)för att utvärdera dess funktioner och kompatibilitet med dina krav.
+ S5: Ja, du kan ladda ner en gratis testversion av Aspose.Note för .NET från[här](https://releases.aspose.com/) för att utvärdera dess funktioner och kompatibilitet med dina krav.

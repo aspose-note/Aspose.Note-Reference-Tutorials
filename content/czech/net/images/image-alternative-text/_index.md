@@ -20,7 +20,7 @@ Než začnete, ujistěte se, že máte následující předpoklady:
 -  Aspose.Note pro .NET nainstalován. Můžete si jej stáhnout[tady](https://releases.aspose.com/note/net/).
 - Soubor obrázku, se kterým se dá pracovat.
 
-## Importovat jmenné prostory
+## Import jmenných prostorů
 
 Nejprve nezapomeňte zahrnout potřebné jmenné prostory:
 
@@ -92,8 +92,8 @@ Odpověď 3: Aspose.Note se hladce integruje s dalšími knihovnami .NET a posky
 
 ### Q4: Jak mohu získat podporu pro Aspose.Note?
 
-A4: Podporu pro Aspose.Note můžete získat návštěvou[Aspose.Note fórum](https://forum.aspose.com/c/note/28), kde můžete klást otázky a hledat řešení.
+ A4: Podporu pro Aspose.Note můžete získat návštěvou[Aspose.Note fórum](https://forum.aspose.com/c/note/28), kde můžete klást otázky a hledat řešení.
 
 ### Q5: Je k dispozici bezplatná zkušební verze pro Aspose.Note?
 
- A5: Ano, můžete využít bezplatnou zkušební verzi Aspose.Note návštěvou[tady](https://releases.aspose.com/).
+A5: Ano, můžete využít bezplatnou zkušební verzi Aspose.Note návštěvou[tady](https://releases.aspose.com/).

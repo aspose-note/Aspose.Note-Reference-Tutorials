@@ -66,4 +66,4 @@ Az Aspose.Note különböző méretű dokumentumokat tud kezelni, teljesítmény
 ### Visszatérhetek az eredeti témához a sötét téma alkalmazása után?
 Igen, módosíthatja a kódot a témák közötti váltáshoz saját preferenciái alapján.
 ### Hol kaphatok támogatást az Aspose.Note-tal kapcsolatos lekérdezésekhez?
- Bármilyen segítségért keresse fel a[Aspose.Note fórum](https://forum.aspose.com/c/note/28) vagy fedezze fel a[dokumentáció](https://reference.aspose.com/note/net/).
+ Ha segítségre van szüksége, keresse fel a[Aspose.Note fórum](https://forum.aspose.com/c/note/28) vagy fedezze fel a[dokumentáció](https://reference.aspose.com/note/net/).

@@ -9,13 +9,13 @@ url: /sv/net/loading-and-saving-operations/password-protected-document/
 ---
 ## Introduktion
 
-den här handledningen går vi igenom processen att hantera lösenordsskyddade dokument med Aspose.Note för .NET. Lösenordsskydd lägger till ett extra lager av säkerhet till dina dokument, vilket säkerställer att endast behöriga användare kan komma åt dem.
+I den här handledningen går vi igenom processen att hantera lösenordsskyddade dokument med Aspose.Note för .NET. Lösenordsskydd lägger till ett extra lager av säkerhet till dina dokument, vilket säkerställer att endast behöriga användare kan komma åt dem.
 
 ## Förutsättningar
 
 Innan vi börjar, se till att du har följande förutsättningar:
 
-1.  Aspose.Note for .NET Library: Se till att du har laddat ner och installerat Aspose.Note for .NET-biblioteket. Du kan ladda ner den från[här](https://releases.aspose.com/note/net/).
+1. Aspose.Note for .NET Library: Se till att du har laddat ner och installerat Aspose.Note for .NET-biblioteket. Du kan ladda ner den från[här](https://releases.aspose.com/note/net/).
 
 2. Utvecklingsmiljö: Skapa en utvecklingsmiljö med .NET-funktioner.
 

@@ -80,7 +80,7 @@ W tym samouczku nauczyliśmy się, jak zapisać dokument w obrazie binarnym za p
 
 ### P1: Czy mogę dostosować próg binaryzacji?
 
-Odpowiedź 1: Tak, możesz dostosować próg binaryzacji zgodnie ze swoimi wymaganiami, modyfikując plik`BinarizationThreshold` właściwość w kodzie.
+ Odpowiedź 1: Tak, możesz dostosować próg binaryzacji zgodnie ze swoimi wymaganiami, modyfikując plik`BinarizationThreshold` właściwość w kodzie.
 
 ### P2: Jakie inne formaty są obsługiwane przy zapisywaniu dokumentów?
 
@@ -96,4 +96,4 @@ O4: Tak, możesz przeglądać wiele dokumentów i zapisywać je jako obrazy bina
 
 ### P5: Gdzie mogę znaleźć więcej zasobów i wsparcia dla Aspose.Note?
 
- Odpowiedź 5: Możesz eksplorować[Dokumentacja Aspose.Note](https://reference.aspose.com/note/net/) i zwrócić się o pomoc do[Forum Aspose.Note](https://forum.aspose.com/c/note/28) w przypadku jakichkolwiek pytań lub problemów.
+ Odpowiedź 5: Możesz eksplorować[Dokumentacja Aspose.Note](https://reference.aspose.com/note/net/) zwrócić się o pomoc do[Forum Aspose.Note](https://forum.aspose.com/c/note/28) w przypadku jakichkolwiek pytań lub problemów.

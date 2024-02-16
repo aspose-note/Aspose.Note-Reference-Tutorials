@@ -11,7 +11,7 @@ url: /ko/net/attachments/attach-file-by-path/
 
 Aspose.Note for .NET은 개발자가 Microsoft OneNote 파일을 프로그래밍 방식으로 작업할 수 있게 해주는 강력한 라이브러리입니다. OneNote 문서를 생성, 편집, 변환 또는 조작하려는 경우 Aspose.Note for .NET은 개발 프로세스를 간소화하는 포괄적인 기능을 제공합니다.
 
-## 전제 조건
+## 전제조건
 
 .NET용 Aspose.Note를 사용하기 전에 다음 전제 조건이 충족되었는지 확인하세요.
 
@@ -65,7 +65,7 @@ Outline outline = new Outline(doc);
 
  안`Outline` 페이지 내의 콘텐츠를 구성하기 위해 개체가 생성됩니다.
 
-### 4단계: OutlineElement 개체 초기화
+### 4단계: OutlineElement 객체 초기화
 
 ```csharp
 OutlineElement outlineElem = new OutlineElement(doc);
@@ -138,7 +138,7 @@ A1: .NET용 Aspose.Note는 OneNote 2010, 2013, 2016 및 Windows 10용 최신 One
 
 ### Q3: .NET용 Aspose.Note를 상업적으로 사용하려면 라이선스가 필요합니까?
 
- A3: 예, Aspose.Note for .NET을 상업적으로 사용하려면 라이선스를 취득해야 합니다. 에서 라이센스를 취득하실 수 있습니다.[구매 페이지](https://purchase.aspose.com/buy).
+A3: 예, Aspose.Note for .NET을 상업적으로 사용하려면 라이선스를 취득해야 합니다. 에서 라이센스를 취득하실 수 있습니다.[구매 페이지](https://purchase.aspose.com/buy).
 
 ### Q4: Aspose.Note for .NET에 대한 무료 평가판이 있습니까?
 

@@ -71,7 +71,7 @@ page.AppendChildLast(outline);
 ```csharp
 doc.AppendChildLast(page);
 ```
-## Stap 8: OneNote-document opslaan
+## Stap 8: Bewaar OneNote-document
 ```csharp
 dataDir = dataDir + "InsertChineseNumberList_out.one"; 
 doc.Save(dataDir);
@@ -86,7 +86,7 @@ In deze zelfstudie hebben we het stapsgewijze proces besproken van het opnemen v
 ### Vraag: Is Aspose.Note compatibel met de nieuwste versie van .NET?
 A: Ja, Aspose.Note wordt regelmatig bijgewerkt om de nieuwste versies van .NET te ondersteunen.
 ### Vraag: Waar kan ik aanvullende voorbeelden en documentatie vinden?
- A: Ontdek het uitgebreide[Aspose.Note-documentatie](https://reference.aspose.com/note/net/).
+A: Ontdek het uitgebreide[Aspose.Note-documentatie](https://reference.aspose.com/note/net/).
 ### Vraag: Hoe kan ik een tijdelijke licentie krijgen voor Aspose.Note?
  A: Zorg voor een tijdelijke licentie[hier](https://purchase.aspose.com/temporary-license/).
 ### Vraag: Waar kan ik hulp zoeken of Aspose.Note-gerelateerde vragen bespreken?

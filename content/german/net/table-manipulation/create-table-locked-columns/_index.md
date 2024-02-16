@@ -142,8 +142,8 @@ A3: Ja, Aspose.Note für .NET lässt sich nahtlos in andere .NET-Frameworks inte
 
 ### F4: Ist technischer Support für Aspose.Note für .NET verfügbar?
 
- A4: Ja, Sie können über das auf technischen Support zugreifen[Aspose.Note-Forum](https://forum.aspose.com/c/note/28) Hier stehen Ihnen Experten zur Verfügung, die Ihnen bei allen Fragen und Problemen behilflich sind.
+A4: Ja, Sie können über das auf technischen Support zugreifen[Aspose.Note-Forum](https://forum.aspose.com/c/note/28) Hier stehen Ihnen Experten zur Verfügung, die Ihnen bei allen Fragen und Problemen behilflich sind.
 
 ### F5: Kann ich Aspose.Note für .NET vor dem Kauf testen?
 
- A5: Ja, Sie können eine kostenlose Testversion von Aspose.Note für .NET herunterladen unter[Hier](https://releases.aspose.com/)um seine Funktionen und Kompatibilität mit Ihren Anforderungen zu bewerten.
+ A5: Ja, Sie können eine kostenlose Testversion von Aspose.Note für .NET herunterladen unter[Hier](https://releases.aspose.com/) um seine Funktionen und Kompatibilität mit Ihren Anforderungen zu bewerten.

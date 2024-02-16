@@ -11,7 +11,7 @@ url: /zh/net/text-manipulation/set-proofing-language-text/
 欢迎来到 Aspose.Note for .NET 的世界！在本综合指南中，我们将探索使用 Aspose.Note 设置文本校对语言的迷人过程。无论您是经验丰富的开发人员还是刚刚开始使用 Aspose.Note，本教程都将为您提供详细的见解和分步说明，以增强您的文本操作技能。
 ## 先决条件
 在我们深入学习本教程之前，请确保您具备以下先决条件：
--  Aspose.Note for .NET：确保您安装了最新版本的 Aspose.Note for .NET。你可以下载它[这里](https://releases.aspose.com/note/net/).
+- Aspose.Note for .NET：确保您安装了最新版本的 Aspose.Note for .NET。你可以下载它[这里](https://releases.aspose.com/note/net/).
 - .NET 开发环境：在您的计算机上准备好功能齐全的 .NET 开发环境。
 - 文本编辑器或 IDE：选择您喜欢的文本编辑器或集成开发环境 (IDE) 进行编码。
 现在，让我们开始在 Aspose.Note 中设置文本校对语言！

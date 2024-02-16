@@ -30,7 +30,7 @@ string dataDir = "Your Document Directory";
 ```csharp
 Document oneFile = new Document(dataDir + "Aspose.one");
 ```
- Загрузите документ Aspose.Note в`Document` объект для дальнейшей обработки.
+Загрузите документ Aspose.Note в`Document` объект для дальнейшей обработки.
 ## Шаг 3: Получить текст
 ```csharp
 string text = string.Join(Environment.NewLine, oneFile.GetChildNodes<RichText>().Select(e => e.Text)) + Environment.NewLine;

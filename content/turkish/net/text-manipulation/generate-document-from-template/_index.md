@@ -73,7 +73,7 @@ Tebrikler! Aspose.Note for .NET'i kullanarak başarıyla dinamik bir belge oluş
 ### Aspose.Note for .NET'i diğer belge formatlarıyla kullanabilir miyim?
 Evet, Aspose.Note for .NET öncelikle OneNote belgeleriyle ilgilenir, ancak Aspose farklı formatlar için çeşitli kütüphaneler sağlar.
 ### Aspose.Note for .NET'in ücretsiz deneme sürümü mevcut mu?
- Evet, ücretsiz deneme sürümüyle Aspose.Note for .NET'in yeteneklerini keşfedebilirsiniz. Ziyaret etmek[Burada](https://releases.aspose.com/) daha fazla bilgi için.
+Evet, ücretsiz deneme sürümüyle Aspose.Note for .NET'in yeteneklerini keşfedebilirsiniz. Ziyaret etmek[Burada](https://releases.aspose.com/) daha fazla bilgi için.
 ### Aspose.Note for .NET için nasıl destek alabilirim?
  Ziyaret edin[.NET forumu için Aspose.Note](https://forum.aspose.com/c/note/28) toplumdan ve uzmanlardan yardım almak.
 ### Aspose.Note for .NET için geçici lisanslar mevcut mu?

@@ -29,7 +29,7 @@ using System.Collections.Generic;
 ```csharp
 // Путь к каталогу документов.
 string dataDir = "Your Document Directory";
-// Создайте объект класса Document
+//Создайте объект класса Document
 Document doc = new Document();
 // Инициализировать объект класса страницы
 Aspose.Note.Page page = new Aspose.Note.Page(doc);

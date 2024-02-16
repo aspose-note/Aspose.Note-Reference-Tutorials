@@ -9,7 +9,7 @@ url: /sv/net/notebook-operations/load-notebooks-instantly/
 ---
 ## Introduktion
 
-I den här handledningen kommer vi att utforska hur man laddar anteckningsböcker direkt i Aspose.Note för .NET. Att ladda anteckningsböcker omedelbart möjliggör effektiv hantering och bearbetning av anteckningsbokdokument.
+den här handledningen kommer vi att utforska hur man laddar anteckningsböcker direkt i Aspose.Note för .NET. Att ladda anteckningsböcker omedelbart möjliggör effektiv hantering och bearbetning av anteckningsbokdokument.
 
 ## Förutsättningar
 
@@ -61,7 +61,7 @@ foreach (INotebookChildNode notebookChildNode in notebook.OfType<Document>())
 
 ## Slutsats
 
- I den här handledningen har vi lärt oss hur man omedelbart laddar anteckningsböcker i Aspose.Note för .NET. Genom att ställa in`InstantLoading` flagga i`NotebookLoadOptions`, kan vi effektivt iterera genom förinstallerade dokument i en bärbar dator, vilket förbättrar prestanda och produktivitet.
+ den här handledningen har vi lärt oss hur man omedelbart laddar anteckningsböcker i Aspose.Note för .NET. Genom att ställa in`InstantLoading` flagga i`NotebookLoadOptions`, kan vi effektivt iterera genom förinstallerade dokument i en bärbar dator, vilket förbättrar prestanda och produktivitet.
 
 ## FAQ's
 

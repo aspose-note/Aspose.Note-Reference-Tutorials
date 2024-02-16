@@ -84,7 +84,7 @@ A1 : Oui, Aspose.Note pour .NET vous permet de créer, modifier et manipuler des
 
 ### Q2 : Existe-t-il un essai gratuit disponible pour Aspose.Note pour .NET ?
 
-A2 : Oui, vous pouvez obtenir un essai gratuit d'Aspose.Note pour .NET à partir du[page de sortie](https://releases.aspose.com/).
+ A2 : Oui, vous pouvez obtenir un essai gratuit d'Aspose.Note pour .NET à partir du[page de sortie](https://releases.aspose.com/).
 
 ### Q3 : Comment puis-je obtenir de l'assistance pour Aspose.Note pour .NET ?
 

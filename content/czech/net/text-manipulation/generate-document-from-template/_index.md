@@ -8,12 +8,12 @@ weight: 18
 url: /cs/net/text-manipulation/generate-document-from-template/
 ---
 ## Úvod
-V neustále se vyvíjejícím prostředí tvorby dokumentů vyniká Aspose.Note for .NET jako výkonný nástroj pro snadné generování dynamických dokumentů. Ať už se zabýváte zprávami, fakturami nebo personalizovanými dokumenty, tento tutoriál vás provede procesem generování dokumentu ze šablony pomocí Aspose.Note pro .NET.
+neustále se vyvíjejícím prostředí tvorby dokumentů vyniká Aspose.Note for .NET jako výkonný nástroj pro snadné generování dynamických dokumentů. Ať už se zabýváte zprávami, fakturami nebo personalizovanými dokumenty, tento tutoriál vás provede procesem generování dokumentu ze šablony pomocí Aspose.Note pro .NET.
 ## Předpoklady
 Než se ponoříte do podrobného průvodce, ujistěte se, že máte splněny následující předpoklady:
 1.  Aspose.Note for .NET Library: Stáhněte a nainstalujte knihovnu z[Aspose.Note pro dokumentaci .NET](https://reference.aspose.com/note/net/).
 2. Šablona dokumentu: Připravte šablonu dokumentu ve formátu OneNote (s příponou .one). To bude sloužit jako základ pro váš dynamicky generovaný dokument.
-## Importovat jmenné prostory
+## Import jmenných prostorů
 Nezapomeňte do projektu zahrnout potřebné jmenné prostory:
 ```csharp
     using System;
@@ -73,7 +73,7 @@ Gratulujeme! Úspěšně jste vygenerovali dynamický dokument pomocí Aspose.No
 ### Mohu použít Aspose.Note pro .NET s jinými formáty dokumentů?
 Ano, Aspose.Note pro .NET se primárně zabývá dokumenty OneNote, ale Aspose poskytuje různé knihovny pro různé formáty.
 ### Je k dispozici bezplatná zkušební verze pro Aspose.Note pro .NET?
- Ano, můžete prozkoumat možnosti Aspose.Note pro .NET pomocí bezplatné zkušební verze. Návštěva[tady](https://releases.aspose.com/) Pro více informací.
+Ano, můžete prozkoumat možnosti Aspose.Note pro .NET pomocí bezplatné zkušební verze. Návštěva[tady](https://releases.aspose.com/) Pro více informací.
 ### Jak mohu získat podporu pro Aspose.Note pro .NET?
  Navštivte[Aspose.Note pro .NET fórum](https://forum.aspose.com/c/note/28) získat pomoc od komunity a odborníků.
 ### Jsou k dispozici dočasné licence pro Aspose.Note pro .NET?

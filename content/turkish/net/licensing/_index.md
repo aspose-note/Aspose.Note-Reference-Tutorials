@@ -29,7 +29,7 @@ Aspose.Note lisanslarını belirli bir yoldan nasıl uygulayacağınızı öğre
 ## Aspose.Note ile Ölçülü Lisanslama
 ### [Aspose.Note ile Ölçülü Lisanslama](./metered-licensing/)
 
-Aspose.Note for .NET ile yazılım lisanslarını ölçülü lisanslama yoluyla verimli bir şekilde yönetin. Kaynak kullanımını optimize etmek, maliyetleri etkili bir şekilde kontrol etmek ve OneNote ile sorunsuz entegrasyon da dahil olmak üzere Aspose.Note'un özelliklerinden en iyi şekilde nasıl yararlanabileceğinizi daha iyi anlamak için eğitimimize dalın.
+Aspose.Note for .NET ile yazılım lisanslarını ölçülü lisanslama yoluyla verimli bir şekilde yönetin. Kaynak kullanımını optimize etmek, maliyetleri etkili bir şekilde kontrol etmek ve OneNote ile kusursuz entegrasyon da dahil olmak üzere Aspose.Note'un özelliklerinden en iyi şekilde nasıl yararlanabileceğinizi daha iyi anlamak için eğitimimize göz atın.
 
 İster kaynakları yerleştirmeyi, ister belirli yolları kullanmayı, ister FileStream'den yararlanmayı tercih edin, eğitimlerimiz ihtiyacınız olan rehberliği sağlar. Aspose.Note ile .NET uygulama geliştirme sürecinizi geliştirin, özellikle OneNote entegrasyonuyla uğraşırken sorunsuz bir lisanslama süreci sağlayın.
 ## Lisanslama Eğitimleri

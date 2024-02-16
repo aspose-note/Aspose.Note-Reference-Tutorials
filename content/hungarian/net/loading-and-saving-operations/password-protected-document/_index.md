@@ -15,7 +15,7 @@ Ebben az oktatóanyagban végigvezetjük a jelszóval védett dokumentumok kezel
 
 Mielőtt elkezdené, győződjön meg arról, hogy rendelkezik a következő előfeltételekkel:
 
-1.  Aspose.Note for .NET Library: Győződjön meg arról, hogy letöltötte és telepítette az Aspose.Note for .NET könyvtárat. Letöltheti innen[itt](https://releases.aspose.com/note/net/).
+1. Aspose.Note for .NET Library: Győződjön meg arról, hogy letöltötte és telepítette az Aspose.Note for .NET könyvtárat. Letöltheti innen[itt](https://releases.aspose.com/note/net/).
 
 2. Fejlesztői környezet: .NET képességekkel rendelkező fejlesztői környezet beállítása.
 
@@ -51,7 +51,7 @@ Document doc = new Document(dataDir + "Sample1.one", loadOptions);
 
 ## 3. lépés: Kezelje a dokumentumbetöltést
 
-betöltési folyamat során ellenőrizze, hogy a dokumentum sikeresen betöltődött-e.
+A betöltési folyamat során ellenőrizze, hogy a dokumentum sikeresen betöltődött-e.
 
 ```csharp
 Console.WriteLine("\nPassword protected document loaded successfully.");

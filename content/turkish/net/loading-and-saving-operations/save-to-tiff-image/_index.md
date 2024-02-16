@@ -43,7 +43,7 @@ public static void SaveToTiffUsingJpegCompression()
     // Belgeyi Aspose.Note'a yükleyin.
     Document oneFile = new Document("Path_to_your_OneNote_document");
 
-    // TIFF görüntüsünün hedef yolunu ayarlayın.
+    //TIFF görüntüsünün hedef yolunu ayarlayın.
     var dst = "Destination_path_for_TIFF_image";
 
     // Belgeyi JPEG sıkıştırmalı TIFF görüntüsü olarak kaydedin.
@@ -67,7 +67,7 @@ public static void SaveToTiffUsingPackBitsCompression()
     // Belgeyi Aspose.Note'a yükleyin.
     Document oneFile = new Document("Path_to_your_OneNote_document");
 
-    // TIFF görüntüsünün hedef yolunu ayarlayın.
+    //TIFF görüntüsünün hedef yolunu ayarlayın.
     var dst = "Destination_path_for_TIFF_image";
 
     // Belgeyi PackBits sıkıştırmasıyla TIFF görüntüsü olarak kaydedin.
@@ -90,7 +90,7 @@ public static void SaveToTiffUsingCcitt3Compression()
     // Belgeyi Aspose.Note'a yükleyin.
     Document oneFile = new Document("Path_to_your_OneNote_document");
 
-    // TIFF görüntüsünün hedef yolunu ayarlayın.
+    //TIFF görüntüsünün hedef yolunu ayarlayın.
     var dst = "Destination_path_for_TIFF_image";
 
     // Belgeyi CCITT Grup 3 sıkıştırmasıyla TIFF görüntüsü olarak kaydedin.
@@ -130,4 +130,4 @@ Cevap4: Evet, Aspose.Note API'leri ile toplu işlemeyi kullanarak dönüştürme
 
 ### S5: Aspose.Note'un deneme sürümü mevcut mu?
 
- Cevap5: Evet, Aspose.Note'un ücretsiz deneme sürümünü şu adresten edinebilirsiniz:[Burada](https://releases.aspose.com/).
+Cevap5: Evet, Aspose.Note'un ücretsiz deneme sürümünü şu adresten edinebilirsiniz:[Burada](https://releases.aspose.com/).

@@ -80,7 +80,7 @@ In questo tutorial, abbiamo imparato come salvare un documento in un'immagine bi
 
 ### Q1: Posso regolare la soglia di binarizzazione?
 
-R1: Sì, puoi personalizzare la soglia di binarizzazione in base alle tue esigenze modificando il file`BinarizationThreshold` proprietà nel codice.
+ R1: Sì, puoi personalizzare la soglia di binarizzazione in base alle tue esigenze modificando il file`BinarizationThreshold` proprietà nel codice.
 
 ### Q2: Quali altri formati sono supportati per il salvataggio dei documenti?
 
@@ -96,4 +96,4 @@ R4: Sì, puoi scorrere più documenti e salvarli come immagini binarie utilizzan
 
 ### Q5: Dove posso trovare più risorse e supporto per Aspose.Note?
 
- A5: Puoi esplorare il[Documentazione Aspose.Note](https://reference.aspose.com/note/net/) e chiedere assistenza al[Forum Aspose.Note](https://forum.aspose.com/c/note/28) per qualsiasi domanda o problema.
+ A5: Puoi esplorare il[Documentazione Aspose.Note](https://reference.aspose.com/note/net/) chiedere assistenza al[Forum Aspose.Note](https://forum.aspose.com/c/note/28) per qualsiasi domanda o problema.

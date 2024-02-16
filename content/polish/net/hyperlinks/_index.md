@@ -13,7 +13,7 @@ url: /pl/net/hyperlinks/
 
 ## Dlaczego hiperłącza mają znaczenie
 
-Hiperłącza to niedoceniani bohaterowie dokumentów cyfrowych, przekształcający zawartość statyczną w dynamiczne doświadczenia. W naszej serii tutoriali odkrywamy znaczenie hiperłączy w dokumentach Aspose.Note. Od usprawnienia nawigacji użytkownika po tworzenie interaktywnych treści, możliwości są nieograniczone.
+Hiperłącza to niedoceniani bohaterowie dokumentów cyfrowych, przekształcający zawartość statyczną w dynamiczne doświadczenia. W naszej serii tutoriali odkrywamy znaczenie hiperłączy w dokumentach Aspose.Note. Od usprawnienia nawigacji użytkownika po tworzenie interaktywnych treści – możliwości są nieograniczone.
 
 ## Dodawanie hiperłączy za pomocą Aspose.Note dla .NET
 

@@ -124,7 +124,7 @@ Po wykonaniu tych kroków pomyślnie utworzysz tabelę z zablokowanymi kolumnami
 
 ## Wniosek
 
-W tym samouczku nauczyliśmy się tworzyć tabelę z zablokowanymi kolumnami za pomocą Aspose.Note dla .NET. Wykonując poniższe kroki, możesz efektywnie manipulować tabelami w dokumentach, aby spełnić określone wymagania.
+tym samouczku nauczyliśmy się tworzyć tabelę z zablokowanymi kolumnami za pomocą Aspose.Note dla .NET. Wykonując poniższe kroki, możesz efektywnie manipulować tabelami w dokumentach, aby spełnić określone wymagania.
 
 ## Często zadawane pytania
 
@@ -142,8 +142,8 @@ O3: Tak, Aspose.Note dla .NET bezproblemowo integruje się z innymi frameworkami
 
 ### P4: Czy dostępna jest pomoc techniczna dla Aspose.Note dla .NET?
 
- Odpowiedź 4: Tak, możesz uzyskać dostęp do pomocy technicznej poprzez[Forum Aspose.Note](https://forum.aspose.com/c/note/28) gdzie eksperci są dostępni, aby pomóc Ci w przypadku jakichkolwiek pytań lub problemów, jakie możesz napotkać.
+Odpowiedź 4: Tak, możesz uzyskać dostęp do pomocy technicznej poprzez[Forum Aspose.Note](https://forum.aspose.com/c/note/28) gdzie eksperci są dostępni, aby pomóc Ci w przypadku jakichkolwiek pytań lub problemów, jakie możesz napotkać.
 
 ### P5: Czy przed zakupem mogę wypróbować Aspose.Note dla .NET?
 
- O5: Tak, możesz pobrać bezpłatną wersję próbną Aspose.Note dla .NET ze strony[Tutaj](https://releases.aspose.com/)aby ocenić jego funkcje i zgodność z Twoimi wymaganiami.
+ O5: Tak, możesz pobrać bezpłatną wersję próbną Aspose.Note dla .NET ze strony[Tutaj](https://releases.aspose.com/) aby ocenić jego funkcje i zgodność z Twoimi wymaganiami.

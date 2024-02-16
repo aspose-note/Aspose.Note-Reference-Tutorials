@@ -47,7 +47,7 @@ Laten we nu het proces van het maken van een document met een paginatitel in mee
 ## Stap 1: Maak een documentobject
 
 ```csharp
-// Maak een object van de klasse Document
+//Maak een object van de klasse Document
 Document doc = new Aspose.Note.Document();
 ```
 

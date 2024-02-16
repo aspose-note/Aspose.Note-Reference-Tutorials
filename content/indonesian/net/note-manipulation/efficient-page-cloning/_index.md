@@ -35,7 +35,7 @@ Sekarang mari kita uraikan proses mengkloning halaman menjadi beberapa langkah:
 
 ## Langkah 1: Muat Dokumen OneNote
 
-Pertama, kita perlu memuat dokumen OneNote ke dalam memori. Kita dapat mencapai hal ini dengan menggunakan`Document` kelas yang disediakan oleh Aspose.Catatan:
+ Pertama, kita perlu memuat dokumen OneNote ke dalam memori. Kita dapat mencapai hal ini dengan menggunakan`Document` kelas yang disediakan oleh Aspose.Catatan:
 
 ```csharp
 // Jalur ke direktori dokumen.

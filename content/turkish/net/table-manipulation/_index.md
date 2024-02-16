@@ -30,7 +30,7 @@ Aspose.Note for .NET, belge işleme görevlerinizde tabloların gücünden sorun
 
 ## Aspose.Note'ta Tablo Satırlarından Metin Çıkarma
 
-Aspose.Note for .NET ile tablo satırlarından metin çıkarmanın inceliklerine dalın. Kapsamlı eğitimimiz[Aspose.Note'ta Tablo Satırlarından Metin Çıkarma](./extract-text-row/) Metni verimli bir şekilde ayıklamak için ayrıntılı bir kılavuz sağlar. Belge işleme görevlerinizi zahmetsizce optimize edin.
+Aspose.Note for .NET ile tablo satırlarından metin çıkarmanın inceliklerini keşfedin. Kapsamlı eğitimimiz[Aspose.Note'ta Tablo Satırlarından Metin Çıkarma](./extract-text-row/) Metni verimli bir şekilde ayıklamak için ayrıntılı bir kılavuz sağlar. Belge işleme görevlerinizi zahmetsizce optimize edin.
 
 ## Aspose.Note'taki Tablolardan Metin Çıkarma
 

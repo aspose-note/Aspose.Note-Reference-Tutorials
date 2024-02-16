@@ -17,7 +17,7 @@ Antes de sumergirse en este tutorial, asegúrese de tener los siguientes requisi
 
 1. Conocimiento de desarrollo de C# y .NET: este tutorial asume una comprensión básica del lenguaje de programación C# y el marco .NET.
 
-2. Instalación de Aspose.Note para .NET: Descargue e instale la biblioteca Aspose.Note para .NET desde[sitio web](https://releases.aspose.com/note/net/).
+2.  Instalación de Aspose.Note para .NET: Descargue e instale la biblioteca Aspose.Note para .NET desde[sitio web](https://releases.aspose.com/note/net/).
 
 3. Entorno de desarrollo: configure su entorno de desarrollo con Visual Studio o cualquier IDE preferido para el desarrollo .NET.
 

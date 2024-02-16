@@ -48,7 +48,7 @@ Page sınıfı nesnesini başlatın:
 Aspose.Note.Page page = new Aspose.Note.Page(doc);
 ```
 
-## 3. Adım: TableRow Nesnelerini Başlatın
+## Adım 3: TableRow Nesnelerini Başlatın
 
 Tablo için TableRow nesneleri oluşturun:
 
@@ -142,8 +142,8 @@ C3: Evet, Aspose.Note for .NET diğer .NET çerçeveleriyle sorunsuz bir şekild
 
 ### S4: Aspose.Note for .NET için teknik destek mevcut mu?
 
- C4: Evet, teknik desteğe şu adresten erişebilirsiniz:[Aspose.Note forumu](https://forum.aspose.com/c/note/28) Karşılaşabileceğiniz her türlü soru veya sorunda size yardımcı olacak uzmanların bulunduğu yer.
+C4: Evet, teknik desteğe şu adresten erişebilirsiniz:[Aspose.Note forumu](https://forum.aspose.com/c/note/28) Karşılaşabileceğiniz her türlü soru veya sorunda size yardımcı olacak uzmanların bulunduğu yer.
 
 ### S5: Satın almadan önce Aspose.Note for .NET'i deneyebilir miyim?
 
- Cevap5: Evet, Aspose.Note for .NET'in ücretsiz deneme sürümünü şu adresten indirebilirsiniz:[Burada](https://releases.aspose.com/)özelliklerini ve gereksinimlerinize uygunluğunu değerlendirmek.
+ Cevap5: Evet, Aspose.Note for .NET'in ücretsiz deneme sürümünü şu adresten indirebilirsiniz:[Burada](https://releases.aspose.com/) özelliklerini ve gereksinimlerinize uygunluğunu değerlendirmek.

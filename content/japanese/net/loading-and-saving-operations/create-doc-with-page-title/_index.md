@@ -47,14 +47,14 @@ using System.Globalization;
 ## ステップ 1: ドキュメント オブジェクトを作成する
 
 ```csharp
-// Documentクラスのオブジェクトを作成する
+//Documentクラスのオブジェクトを作成する
 Document doc = new Aspose.Note.Document();
 ```
 
 ## ステップ 2: ページ クラス オブジェクトを初期化する
 
 ```csharp
-//Pageクラスオブジェクトの初期化
+// Pageクラスオブジェクトの初期化
 Aspose.Note.Page page = new Aspose.Note.Page(doc);
 ```
 
@@ -87,7 +87,7 @@ doc.AppendChildLast(page);
 ## ステップ 6: OneNote ドキュメントを保存する
 
 ```csharp
-//OneNote ドキュメントを保存する
+// OneNote ドキュメントを保存する
 string dataDir = "Your Document Directory";
 dataDir = dataDir + "CreateDocWithPageTitle_out.one";
 doc.Save(dataDir);

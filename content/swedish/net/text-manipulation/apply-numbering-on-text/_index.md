@@ -29,7 +29,7 @@ Börja med att skapa ett nytt dokument och initiera de nödvändiga objekten:
 ```csharp
 // Sökvägen till dokumentkatalogen.
 string dataDir = "Your Document Directory";
-// Skapa ett objekt av klassen Document
+//Skapa ett objekt av klassen Document
 Document doc = new Document();
 // Initiera Sidklassobjekt
 Aspose.Note.Page page = new Aspose.Note.Page(doc);

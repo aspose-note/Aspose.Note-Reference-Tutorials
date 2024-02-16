@@ -73,10 +73,10 @@ En conclusion, maîtriser l'art du remplacement du texte sur toutes les pages av
 ### Q : Puis-je remplacer du texte dans d'autres formats de document que le PDF ?
  R : Oui, Aspose.Note pour .NET prend en charge différents formats de sortie. Ajuste le`SaveFormat` paramètre en conséquence.
 ### Q : Existe-t-il une version d'essai disponible pour Aspose.Note pour .NET ?
- R : Oui, vous pouvez explorer les capacités d'Aspose.Note en obtenant un essai gratuit[ici](https://releases.aspose.com/).
+ R : Oui, vous pouvez explorer les capacités d'Aspose.Note en obtenant un essai gratuit[ici](https://releases.aspose.com/).
 ### Q : Comment puis-je obtenir le support de la communauté pour Aspose.Note pour .NET ?
  R : Rejoignez la communauté Aspose.Note[forum](https://forum.aspose.com/c/note/28) pour des discussions et de l'aide.
 ### Q : Où puis-je trouver davantage de didacticiels et de documentation pour Aspose.Note pour .NET ?
  R : Visitez le[Documentation](https://reference.aspose.com/note/net/) pour des ressources et des didacticiels approfondis.
 ### Q : Puis-je utiliser Aspose.Note pour des projets commerciaux ?
- R : Oui, explorez les options de licence et effectuez des achats[ici](https://purchase.aspose.com/buy).
+R : Oui, explorez les options de licence et effectuez des achats[ici](https://purchase.aspose.com/buy).

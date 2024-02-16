@@ -57,7 +57,7 @@ var document = new Document(dataDir + "Aspose.one");
 
 ## Schritt 2: Dokument drucken
 
- Rufen Sie die auf`Print` Methode auf der`Document`Objekt, um den Druckvorgang zu starten. Bei dieser Methode wird das Dokument mithilfe des Standard-Windows-Dialogfelds mit Standardoptionen an den Standarddrucker gesendet.
+ Rufen Sie die auf`Print` Methode auf der`Document` Objekt, um den Druckvorgang zu starten. Bei dieser Methode wird das Dokument mithilfe des Standard-Windows-Dialogfelds mit Standardoptionen an den Standarddrucker gesendet.
 
 ```csharp
 document.Print();

@@ -73,7 +73,7 @@ Definieer een standaardtekststijl die op het hele document moet worden toegepast
 RichText titleText = new RichText() { ParagraphStyle = defaultTextStyle }.Append("Title!");
 ```
 
- Construeer een`RichText` object voor de titel met de opgegeven opmaak.
+ Construeer een`RichText`object voor de titel met de opgegeven opmaak.
 
 ## Stap 6: Initialiseer omtrek- en omtrekelementobjecten
 

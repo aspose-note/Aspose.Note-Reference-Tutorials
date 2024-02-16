@@ -9,7 +9,7 @@ url: /zh/net/attachments/retrieve-attached-files/
 ---
 ## 介绍
 
-在本教程中，我们将探讨如何使用 Aspose.Note for .NET 从文档中检索附加文件。 Aspose.Note 是一个功能强大的 API，允许开发人员以编程方式使用 Microsoft OneNote 文件。我们将把这个过程分解为简单的步骤，以便于遵循。
+在本教程中，我们将探讨如何使用 Aspose.Note for .NET 从文档中检索附加文件。 Aspose.Note 是一个功能强大的 API，允许开发人员以编程方式处理 Microsoft OneNote 文件。我们将把这个过程分解为简单的步骤，以便于遵循。
 
 ## 先决条件
 

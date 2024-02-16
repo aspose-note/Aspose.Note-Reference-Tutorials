@@ -103,7 +103,7 @@ A2: Absolut, Aspose.Note bietet Funktionen zum Zugriff auf und Wiederherstellen 
 
 ### F3: Unterstützt Aspose.Note die gemeinsame Bearbeitung von OneNote-Dokumenten?
 
-A3: Während sich Aspose.Note hauptsächlich auf die Bearbeitung und Verwaltung von Dokumenten konzentriert, ermöglicht es nicht direkt die gemeinsame Bearbeitung in Echtzeit.
+A3: Während sich Aspose.Note hauptsächlich auf die Manipulation und Verwaltung von Dokumenten konzentriert, ermöglicht es nicht direkt die gemeinsame Bearbeitung in Echtzeit.
 
 ### F4: Gibt es Einschränkungen hinsichtlich der Anzahl der Revisionen, die Aspose.Note verarbeiten kann?
 

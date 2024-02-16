@@ -59,7 +59,7 @@ document.Save(dataDir + "CreatingPasswordProtectedDoc_out.one", new OneSaveOptio
 
 ### คำถามที่ 1: Aspose.Note สำหรับ .NET เข้ากันได้กับเฟรมเวิร์ก .NET อื่นๆ หรือไม่
 
-คำตอบ 1: Aspose.Note สำหรับ .NET เข้ากันได้กับ .NET Framework, .NET Core และ .NET Standard ทำให้มั่นใจได้ถึงความยืดหยุ่นในสภาพแวดล้อมการพัฒนา
+คำตอบ 1: Aspose.Note สำหรับ .NET เข้ากันได้กับ .NET Framework, .NET Core และ .NET Standard ทำให้มั่นใจถึงความยืดหยุ่นในสภาพแวดล้อมการพัฒนา
 
 ### คำถามที่ 2: ฉันสามารถเข้ารหัสเอกสารที่มีอยู่ด้วย Aspose.Note สำหรับ .NET ได้หรือไม่
 

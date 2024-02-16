@@ -17,7 +17,7 @@ Sebelum kita mulai, pastikan Anda telah menyiapkan prasyarat berikut:
 
 ### Visual Studio Terpasang
 
- Pastikan Anda telah menginstal Visual Studio di sistem Anda. Anda dapat mengunduhnya dari[situs web](https://visualstudio.microsoft.com/).
+Pastikan Anda telah menginstal Visual Studio di sistem Anda. Anda dapat mengunduhnya dari[situs web](https://visualstudio.microsoft.com/).
 
 ### Aspose.Note untuk .NET Terpasang
 

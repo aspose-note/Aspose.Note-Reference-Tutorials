@@ -9,13 +9,13 @@ url: /hu/net/note-manipulation/manage-current-page-versions/
 ---
 ## Bevezetés
 
-szoftverfejlesztés világában a dokumentumok különböző verzióinak kezelése és karbantartása kulcsfontosságú a pontosság, a nyomon követhetőség és az elszámoltathatóság érdekében. Az Aspose.Note for .NET hatékony eszközöket kínál ennek a folyamatnak a megkönnyítésére, lehetővé téve a fejlesztők számára, hogy zökkenőmentesen nyomkodják és kezeljék az aktuális oldalverziókat. Ebben az oktatóanyagban az aktuális oldalverziók Aspose.Note for .NET segítségével történő leküldéséhez és kezeléséhez szükséges lépésekbe fogunk bele.
+A szoftverfejlesztés világában a dokumentumok különböző verzióinak kezelése és karbantartása kulcsfontosságú a pontosság, a nyomon követhetőség és az elszámoltathatóság érdekében. Az Aspose.Note for .NET hatékony eszközöket kínál ennek a folyamatnak a megkönnyítésére, lehetővé téve a fejlesztők számára, hogy zökkenőmentesen nyomkodják és kezeljék az aktuális oldalverziókat. Ebben az oktatóanyagban az aktuális oldalverziók Aspose.Note for .NET segítségével történő leküldéséhez és kezeléséhez szükséges lépésekbe fogunk bele.
 
 ## Előfeltételek
 
 Mielőtt belevágna az oktatóanyagba, győződjön meg arról, hogy beállította a következő előfeltételeket:
 
-1.  Az Aspose.Note for .NET telepítése: Töltse le és telepítse az Aspose.Note for .NET programot innen:[itt](https://releases.aspose.com/note/net/).
+1. Az Aspose.Note for .NET telepítése: Töltse le és telepítse az Aspose.Note for .NET programot innen:[itt](https://releases.aspose.com/note/net/).
 
 2. .NET környezet ismerete: A .NET környezet és a C# programozási nyelv alapvető ismerete.
 

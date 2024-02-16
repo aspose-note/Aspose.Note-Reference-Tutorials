@@ -9,7 +9,7 @@ url: /nl/net/table-manipulation/change-table-style/
 ---
 ## Invoering
 
-In deze zelfstudie onderzoeken we hoe u de tabelstijl in Aspose.Note kunt wijzigen met behulp van het .NET-framework. Aspose.Note is een krachtige API waarmee ontwikkelaars programmatisch met Microsoft OneNote-bestanden kunnen werken. Door de stijl van tabellen in OneNote-documenten aan te passen, kunt u hun visuele aantrekkingskracht en leesbaarheid verbeteren. We doorlopen stap voor stap het proces van het aanpassen van tabelstijlen, waardoor duidelijkheid en effectiviteit worden gegarandeerd.
+In deze zelfstudie onderzoeken we hoe u de tabelstijl in Aspose.Note kunt wijzigen met behulp van het .NET-framework. Aspose.Note is een krachtige API waarmee ontwikkelaars programmatisch met Microsoft OneNote-bestanden kunnen werken. Door de stijl van tabellen in OneNote-documenten aan te passen, kunt u hun visuele aantrekkingskracht en leesbaarheid verbeteren. We doorlopen stap voor stap het proces van het aanpassen van tabelstijlen, waardoor duidelijkheid en effectiviteit worden gewaarborgd.
 
 ## Vereisten
 
@@ -90,7 +90,7 @@ A3: Ja, Aspose.Note biedt functionaliteit voor het exporteren van OneNote-docume
 
 ### V4: Kan ik programmatisch nieuwe tabellen maken met Aspose.Note?
 
-A4: Zeker, u kunt dynamisch nieuwe tabellen genereren binnen OneNote-documenten met behulp van de API van Aspose.Note, waardoor scenario's voor het automatisch genereren van documenten mogelijk zijn.
+A4: Zeker, u kunt dynamisch nieuwe tabellen binnen OneNote-documenten genereren met behulp van de API van Aspose.Note, waardoor scenario's voor het automatisch genereren van documenten mogelijk zijn.
 
 ### V5: Waar kan ik meer bronnen en ondersteuning voor Aspose.Note vinden?
 

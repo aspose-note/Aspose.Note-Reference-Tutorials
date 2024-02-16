@@ -68,7 +68,7 @@ public static void SimpleLoadNotebook()
 ```
 
 ### Paso 2: Verifique si el documento está cifrado y cárguelo:
-   - Compruebe si el documento de OneNote está cifrado llamando al`Document.IsEncrypted` método, pasando el nombre del archivo.
+   -  Compruebe si el documento de OneNote está cifrado llamando al`Document.IsEncrypted` método, pasando el nombre del archivo.
    - Si no está cifrado, continúe con el procesamiento del documento.
    - Si está cifrado, solicite al usuario que proporcione una contraseña para descifrarlo.
 
@@ -124,7 +124,7 @@ public static void Document_CheckIfEncryptedByPasswordAndLoad()
 
 ### Paso 4: Manejar el formato OneNote 2007 no compatible:
    - Intente cargar un documento de OneNote en formato 2007.
-   -  Si el formato no es compatible, capture el`UnsupportedFileFormatException` y manejarlo adecuadamente, informando al usuario sobre el formato no soportado.
+   -  Si el formato no es compatible, capture el`UnsupportedFileFormatException` manejarlo adecuadamente, informando al usuario sobre el formato no soportado.
 
 ```csharp
 public static void Document_OneNote2007_Is_NotSupported()

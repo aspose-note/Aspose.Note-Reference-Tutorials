@@ -9,9 +9,9 @@ url: /ko/net/text-manipulation/set-proofing-language-text/
 ---
 ## 소개
 .NET용 Aspose.Note의 세계에 오신 것을 환영합니다! 이 종합 가이드에서는 Aspose.Note를 사용하여 텍스트 교정 언어를 설정하는 흥미로운 과정을 살펴보겠습니다. 숙련된 개발자이든 Aspose.Note를 처음 시작하든 이 튜토리얼은 텍스트 조작 기술을 향상시키기 위한 자세한 통찰력과 단계별 지침을 제공합니다.
-## 전제 조건
+## 전제조건
 튜토리얼을 시작하기 전에 다음 전제 조건이 충족되었는지 확인하세요.
--  .NET용 Aspose.Note: 최신 버전의 .NET용 Aspose.Note가 설치되어 있는지 확인하세요. 당신은 그것을 다운로드 할 수 있습니다[여기](https://releases.aspose.com/note/net/).
+- .NET용 Aspose.Note: 최신 버전의 .NET용 Aspose.Note가 설치되어 있는지 확인하세요. 당신은 그것을 다운로드 할 수 있습니다[여기](https://releases.aspose.com/note/net/).
 - .NET 개발 환경: 컴퓨터에 기능적인 .NET 개발 환경을 준비하십시오.
 - 텍스트 편집기 또는 IDE: 코딩을 위해 선호하는 텍스트 편집기 또는 통합 개발 환경(IDE)을 선택하세요.
 이제 Aspose.Note에서 텍스트 교정 언어 설정을 시작해 보겠습니다!
@@ -76,11 +76,11 @@ document.Save(Path.Combine("Your Document Directory", "SetProofingLanguageForTex
 ```
 축하해요! .NET용 Aspose.Note를 사용하여 텍스트 교정 언어를 성공적으로 설정했습니다.
 ## 결론
-이 튜토리얼에서는 Aspose.Note for .NET에서 텍스트 교정 언어를 설정하는 과정을 살펴보았습니다. 단계별 가이드와 코드 조각을 통해 이제 텍스트 조작 기능을 향상시킬 수 있습니다. 다양한 언어로 실험하고 .NET 프로젝트에서 Aspose.Note의 잠재력을 최대한 활용해 보세요.
+이 튜토리얼에서는 Aspose.Note for .NET에서 텍스트 교정 언어를 설정하는 과정을 살펴보았습니다. 단계별 가이드와 코드 조각을 통해 이제 텍스트 조작 기능을 향상시킬 수 있습니다. 다양한 언어로 실험하고 .NET 프로젝트에서 Aspose.Note의 잠재력을 최대한 활용해보세요.
 
 ## FAQ
 ### 단락의 특정 단어에 교정 언어를 설정할 수 있나요?
-예, .NET용 Aspose.Note를 사용하면 단락 내 개별 단어에 대한 교정 언어를 설정하여 언어 설정을 세부적으로 제어할 수 있습니다.
+예, .NET용 Aspose.Note를 사용하면 단락 내의 개별 단어에 대한 교정 언어를 설정하여 언어 설정을 세부적으로 제어할 수 있습니다.
 ### Aspose.Note는 최신 .NET 프레임워크와 호환됩니까?
 전적으로! Aspose.Note는 최신 .NET 프레임워크와의 호환성을 보장하기 위해 정기적으로 업데이트되므로 최신 기능과 개선 사항을 활용할 수 있습니다.
 ### 추가 예제와 문서는 어디에서 찾을 수 있나요?

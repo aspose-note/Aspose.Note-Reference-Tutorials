@@ -29,7 +29,7 @@ Yeni bir belge oluşturarak ve gerekli nesneleri başlatarak başlayın:
 ```csharp
 // Belgeler dizininin yolu.
 string dataDir = "Your Document Directory";
-// Document sınıfının bir nesnesini oluşturun
+//Document sınıfının bir nesnesini oluşturun
 Document doc = new Document();
 // Sayfa sınıfı nesnesini başlat
 Aspose.Note.Page page = new Aspose.Note.Page(doc);

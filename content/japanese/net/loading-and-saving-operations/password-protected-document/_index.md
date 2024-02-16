@@ -15,7 +15,7 @@ url: /ja/net/loading-and-saving-operations/password-protected-document/
 
 始める前に、次の前提条件を満たしていることを確認してください。
 
-1.  Aspose.Note for .NET ライブラリ: Aspose.Note for .NET ライブラリをダウンロードしてインストールしていることを確認してください。からダウンロードできます[ここ](https://releases.aspose.com/note/net/).
+1. Aspose.Note for .NET ライブラリ: Aspose.Note for .NET ライブラリをダウンロードしてインストールしていることを確認してください。からダウンロードできます[ここ](https://releases.aspose.com/note/net/).
 
 2. 開発環境: .NET 機能を備えた開発環境をセットアップします。
 

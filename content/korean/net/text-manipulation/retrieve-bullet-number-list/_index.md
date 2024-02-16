@@ -9,7 +9,7 @@ url: /ko/net/text-manipulation/retrieve-bullet-number-list/
 ---
 ## 소개
 개발자가 OneNote 문서 조작을 쉽게 처리할 수 있도록 지원하는 강력하고 다재다능한 라이브러리인 .NET용 Aspose.Note의 세계에 오신 것을 환영합니다. 이 튜토리얼에서는 .NET용 Aspose.Note를 사용하여 글머리 기호 또는 번호 목록을 검색하는 프로세스를 자세히 살펴보겠습니다. 당신이 노련한 개발자이든 코딩 매니아이든 관계없이 이 가이드는 Aspose.Note에서 목록 작업의 복잡성을 탐색할 수 있는 지식을 제공합니다.
-## 전제 조건
+## 전제조건
 이 코딩 여정을 시작하기 전에 다음 전제 조건이 충족되었는지 확인하세요.
 -  .NET용 Aspose.Note: Aspose.Note 라이브러리가 설치되어 있는지 확인하세요. 그렇지 않은 경우 다음에서 다운로드할 수 있습니다.[.NET 문서용 Aspose.Note](https://reference.aspose.com/note/net/).
 - 개발 환경: 작업 개발 환경(가급적이면 Microsoft Visual Studio)을 컴퓨터에 설정하십시오.
@@ -84,6 +84,6 @@ Aspose.Note는 주로 .NET을 지원하지만 다양한 플랫폼과 언어에 �
 ### Aspose.Note의 임시 라이선스는 어떻게 얻을 수 있나요?
  방문하다[이 링크](https://purchase.aspose.com/temporary-license/) 평가 목적으로 임시 라이센스를 취득합니다.
 ### Aspose.Note 사용자는 어떤 지원 옵션을 사용할 수 있나요?
- 다음에서 탐색하고 도움을 구할 수 있습니다.[Aspose.Note 포럼](https://forum.aspose.com/c/note/28) 귀하가 직면할 수 있는 모든 질문이나 문제에 대해.
+다음에서 탐색하고 도움을 구할 수 있습니다.[Aspose.Note 포럼](https://forum.aspose.com/c/note/28) 귀하가 직면할 수 있는 모든 질문이나 문제에 대해.
 ### .NET용 Aspose.Note의 무료 평가판이 있습니까?
  예, .NET용 Aspose.Note의 무료 평가판 버전에 액세스할 수 있습니다.[여기](https://releases.aspose.com/).

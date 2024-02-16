@@ -15,7 +15,7 @@ In diesem Tutorial führen wir den Prozess der Handhabung passwortgeschützter D
 
 Bevor wir beginnen, stellen Sie sicher, dass Sie die folgenden Voraussetzungen erfüllen:
 
-1.  Aspose.Note für .NET-Bibliothek: Stellen Sie sicher, dass Sie die Aspose.Note für .NET-Bibliothek heruntergeladen und installiert haben. Sie können es herunterladen unter[Hier](https://releases.aspose.com/note/net/).
+1. Aspose.Note für .NET-Bibliothek: Stellen Sie sicher, dass Sie die Aspose.Note für .NET-Bibliothek heruntergeladen und installiert haben. Sie können es herunterladen unter[Hier](https://releases.aspose.com/note/net/).
 
 2. Entwicklungsumgebung: Richten Sie eine Entwicklungsumgebung mit .NET-Funktionen ein.
 

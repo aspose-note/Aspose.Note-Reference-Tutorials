@@ -24,12 +24,12 @@ using System.Collections.Generic;
 using Aspose.Note.Examples.CSharp.Tables;
 ```
 
-## 전제 조건
+## 전제조건
 
 계속하기 전에 다음 필수 구성 요소가 설정되어 있는지 확인하세요.
 
 1.  설치: 다음에서 Aspose.Note for .NET 라이브러리를 다운로드하여 설치하세요.[여기](https://releases.aspose.com/note/net/).
-2.  라이센스: 라이센스를 취득하거나[임시 면허증](https://purchase.aspose.com/temporary-license/) 도서관을 이용하려고.
+2.  라이센스: 라이센스를 취득하거나[임시면허](https://purchase.aspose.com/temporary-license/) 도서관을 이용하려고.
 3. 개발 환경: Visual Studio와 같은 호환 가능한 개발 환경을 설정합니다.
 
 ## 1단계: 문서 및 페이지 개체 초기화

@@ -15,7 +15,7 @@ En este tutorial, recorreremos el proceso de manejo de documentos protegidos con
 
 Antes de comenzar, asegúrese de tener los siguientes requisitos previos:
 
-1.  Aspose.Note para la biblioteca .NET: asegúrese de haber descargado e instalado la biblioteca Aspose.Note para .NET. Puedes descargarlo desde[aquí](https://releases.aspose.com/note/net/).
+1. Aspose.Note para la biblioteca .NET: asegúrese de haber descargado e instalado la biblioteca Aspose.Note para .NET. Puedes descargarlo desde[aquí](https://releases.aspose.com/note/net/).
 
 2. Entorno de desarrollo: configure un entorno de desarrollo con capacidades .NET.
 

@@ -43,7 +43,7 @@ Aspose.Note.Page page = doc.FirstChild;
 
 ## Paso 2: Cargue la imagen y establezca las propiedades
 
-continuación, cargue la imagen que desea insertar y especifique sus propiedades como ancho, alto, desplazamientos y alineación según sus requisitos.
+A continuación, cargue la imagen que desea insertar y especifique sus propiedades como ancho, alto, desplazamientos y alineación según sus requisitos.
 
 ```csharp
 Aspose.Note.Image image = new Aspose.Note.Image(doc, dataDir + "image.jpg")

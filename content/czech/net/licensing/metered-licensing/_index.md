@@ -19,7 +19,7 @@ Než se pustíme do této cesty porozumění měřenému licencování s Aspose.
 
 2.  Přístup k dokumentaci Aspose.Note: Seznamte se s dokumentací Aspose.Note pro .NET, která poskytuje podrobné informace o různých vlastnostech a funkcích. Můžete se podívat na dokumentaci[tady](https://reference.aspose.com/note/net/).
 
-## Importovat jmenné prostory
+## Import jmenných prostorů
 
 Chcete-li začít využívat měřené licencování s Aspose.Note pro .NET, importujte potřebné jmenné prostory do svého projektu. Tento krok zajistí, že budete mít přístup k požadovaným třídám a metodám.
 

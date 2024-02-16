@@ -11,7 +11,7 @@ url: /fr/net/text-manipulation/set-default-paragraph-style/
 Dans le domaine du développement .NET, Aspose.Note se distingue comme un outil puissant pour travailler avec des fichiers OneNote. L'une des fonctionnalités essentielles qu'il offre est la possibilité de définir des styles de paragraphe par défaut, offrant ainsi aux développeurs la possibilité de contrôler l'apparence du texte dans leurs documents. Dans ce didacticiel, nous approfondirons le processus de définition des styles de paragraphe par défaut à l'aide d'Aspose.Note pour .NET. Suivez-nous pendant que nous décomposons chaque étape pour vous aider à maîtriser cet aspect crucial de la manipulation de documents.
 ## Conditions préalables
 Avant de plonger dans le didacticiel, assurez-vous que les conditions préalables suivantes sont remplies :
--  Aspose.Note pour .NET : assurez-vous que la bibliothèque Aspose.Note pour .NET est installée. Vous pouvez le télécharger depuis le[Documentation Aspose.Note .NET](https://reference.aspose.com/note/net/).
+- Aspose.Note pour .NET : assurez-vous que la bibliothèque Aspose.Note pour .NET est installée. Vous pouvez le télécharger depuis le[Documentation Aspose.Note .NET](https://reference.aspose.com/note/net/).
 - Environnement de développement intégré (IDE) : disposez d'un IDE fonctionnel pour le développement .NET, tel que Visual Studio, installé sur votre ordinateur.
 Maintenant que vous disposez des outils nécessaires, passons aux étapes suivantes.
 ## Importer des espaces de noms
@@ -79,4 +79,4 @@ Oui, vous pouvez créer plusieurs plans ou pages avec des styles de paragraphe p
 ### Aspose.Note est-il compatible avec les derniers frameworks .NET ?
 Oui, Aspose.Note est régulièrement mis à jour pour garantir la compatibilité avec les derniers frameworks .NET.
 ### Des licences temporaires sont-elles disponibles pour Aspose.Note ?
-Oui, vous pouvez obtenir une licence temporaire pour Aspose.Note auprès de[ici](https://purchase.aspose.com/temporary-license/).
+ Oui, vous pouvez obtenir une licence temporaire pour Aspose.Note auprès de[ici](https://purchase.aspose.com/temporary-license/).

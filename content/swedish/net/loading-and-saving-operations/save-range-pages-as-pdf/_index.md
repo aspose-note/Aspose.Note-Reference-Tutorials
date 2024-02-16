@@ -82,7 +82,7 @@ Grattis! Du har framgångsrikt lärt dig hur du sparar en rad sidor från ett On
 
 ### F1: Kan jag spara flera sidor som separata PDF-filer med Aspose.Note?
 
- S1: Ja, du kan uppnå detta genom att upprepa processen för varje intervall av sidor du vill spara, justera`PageIndex` och`PageCount` följaktligen.
+S1: Ja, du kan uppnå detta genom att upprepa processen för varje intervall av sidor du vill spara, justera`PageIndex` och`PageCount` följaktligen.
    
 ### F2: Stöder Aspose.Note att spara dokument i andra format än PDF?
 

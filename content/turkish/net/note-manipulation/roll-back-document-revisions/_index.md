@@ -16,7 +16,7 @@ Belge yönetimi ve düzenleme dünyasında, değişiklikleri takip etme ve önce
 Bu eğitime dalmadan önce aşağıdaki önkoşullara sahip olduğunuzdan emin olun:
 
 1. Temel C# Anlayışı: Kod örneklerini takip etmek için C# programlama diline aşinalık gereklidir.
-2.  Aspose.Note for .NET Kütüphanesi: Aspose.Note for .NET kütüphanesini geliştirme ortamınıza yükleyin. Şuradan indirebilirsiniz[Burada](https://releases.aspose.com/note/net/).
+2. Aspose.Note for .NET Kütüphanesi: Aspose.Note for .NET kütüphanesini geliştirme ortamınıza yükleyin. Şuradan indirebilirsiniz[Burada](https://releases.aspose.com/note/net/).
 3. Tümleşik Geliştirme Ortamı (IDE): Sisteminizde Visual Studio gibi bir IDE yüklü olsun.
 
 ## Ad Alanlarını İçe Aktar

@@ -9,7 +9,7 @@ url: /cs/net/attachments/attach-file-set-icon/
 ---
 ## Úvod
 
-V oblasti vývoje .NET vyniká Aspose.Note jako výkonný nástroj pro programovou manipulaci s dokumenty Microsoft OneNote. S využitím jeho schopností mohou vývojáři automatizovat různé úlohy související s vytvářením, úpravami a správou souborů OneNotu v rámci svých aplikací. Jednou ze základních funkcí je možnost připojit soubory k poznámkám a nastavit ikony pro tyto přílohy. V tomto tutoriálu se ponoříme do procesu připojení souboru a nastavení ikony pomocí Aspose.Note pro .NET.
+oblasti vývoje .NET vyniká Aspose.Note jako výkonný nástroj pro programovou manipulaci s dokumenty Microsoft OneNote. S využitím jeho schopností mohou vývojáři automatizovat různé úlohy související s vytvářením, úpravami a správou souborů OneNotu v rámci svých aplikací. Jednou ze základních funkcí je možnost připojit soubory k poznámkám a nastavit ikony pro tyto přílohy. V tomto tutoriálu se ponoříme do procesu připojení souboru a nastavení ikony pomocí Aspose.Note pro .NET.
 
 ## Předpoklady
 
@@ -19,7 +19,7 @@ Než se pustíte do tohoto tutoriálu, ujistěte se, že máte následující p�
 - Nainstalovaná knihovna Aspose.Note pro .NET
 - Vývojové prostředí nastavené pomocí sady Visual Studio nebo libovolného preferovaného IDE
 
-## Importovat jmenné prostory
+## Import jmenných prostorů
 
 Začněme importem potřebných jmenných prostorů do vašeho projektu C#:
 

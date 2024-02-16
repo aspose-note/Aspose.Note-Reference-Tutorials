@@ -15,7 +15,7 @@ In deze zelfstudie leren we hoe u onderliggende knooppunten kunt toevoegen in As
 
 Voordat we beginnen, zorg ervoor dat u over het volgende beschikt:
 
-1. Aspose.Note voor .NET: Zorg ervoor dat Aspose.Note voor .NET in uw ontwikkelomgeving is geïnstalleerd. Je kunt het downloaden van de[website](https://releases.aspose.com/note/net/).
+1.  Aspose.Note voor .NET: Zorg ervoor dat Aspose.Note voor .NET in uw ontwikkelomgeving is geïnstalleerd. Je kunt het downloaden van de[website](https://releases.aspose.com/note/net/).
 
 2. Ontwikkelomgeving: Zet een .NET-ontwikkelomgeving op, zoals Visual Studio.
 

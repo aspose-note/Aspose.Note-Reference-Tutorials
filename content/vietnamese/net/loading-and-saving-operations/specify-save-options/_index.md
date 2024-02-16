@@ -53,7 +53,7 @@ PdfSaveOptions opts = new PdfSaveOptions
     // Sử dụng nén Jpeg
     ImageCompression = Saving.Pdf.PdfImageCompression.Jpeg,
     
-    //Chất lượng nén JPEG
+    // Chất lượng nén JPEG
     JpegQuality = 90
 };
 ```

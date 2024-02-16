@@ -81,7 +81,7 @@ S1: Ja, Aspose.Note för .NET tillhandahåller omfattande API:er för att arbeta
 
 ### F2: Finns det en gratis testversion tillgänglig för Aspose.Note för .NET?
 
- S2: Ja, du kan använda en gratis testversion av Aspose.Note för .NET från[här](https://releases.aspose.com/).
+S2: Ja, du kan använda en gratis testversion av Aspose.Note för .NET från[här](https://releases.aspose.com/).
 
 ### F3: Var kan jag hitta dokumentation för Aspose.Note för .NET?
 

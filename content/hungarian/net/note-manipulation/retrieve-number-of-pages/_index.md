@@ -17,7 +17,7 @@ Mielőtt elkezdené, győződjön meg arról, hogy beállította a következő e
 
 ### Visual Studio telepítve
 
- Győződjön meg arról, hogy a Visual Studio telepítve van a rendszeren. Letöltheti a[weboldal](https://visualstudio.microsoft.com/).
+Győződjön meg arról, hogy a Visual Studio telepítve van a rendszeren. Letöltheti a[weboldal](https://visualstudio.microsoft.com/).
 
 ### Aspose.Note for .NET telepítve
 

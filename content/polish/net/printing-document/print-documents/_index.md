@@ -57,7 +57,7 @@ var document = new Document(dataDir + "Aspose.one");
 
 ## Krok 2: Wydrukuj dokument
 
- Wywołaj`Print` metoda na`Document`obiektu, aby rozpocząć proces drukowania. Ta metoda wysyła dokument do drukarki domyślnej przy użyciu standardowego okna dialogowego systemu Windows z opcjami domyślnymi.
+ Wywołaj`Print` metoda na`Document` obiektu, aby rozpocząć proces drukowania. Ta metoda wysyła dokument do drukarki domyślnej przy użyciu standardowego okna dialogowego systemu Windows z opcjami domyślnymi.
 
 ```csharp
 document.Print();

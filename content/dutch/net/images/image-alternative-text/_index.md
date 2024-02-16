@@ -92,8 +92,8 @@ A3: Aspose.Note kan naadloos worden geïntegreerd met andere .NET-bibliotheken e
 
 ### V4: Hoe kan ik ondersteuning krijgen voor Aspose.Note?
 
-A4: U kunt ondersteuning krijgen voor Aspose.Note door naar de[Aspose.Note-forum](https://forum.aspose.com/c/note/28), waar u vragen kunt stellen en oplossingen kunt vinden.
+ A4: U kunt ondersteuning krijgen voor Aspose.Note door naar de[Aspose.Note-forum](https://forum.aspose.com/c/note/28), waar u vragen kunt stellen en oplossingen kunt vinden.
 
 ### V5: Is er een gratis proefversie beschikbaar voor Aspose.Note?
 
- A5: Ja, u kunt Aspose.Note gratis uitproberen door te bezoeken[hier](https://releases.aspose.com/).
+A5: Ja, u kunt Aspose.Note gratis uitproberen door te bezoeken[hier](https://releases.aspose.com/).

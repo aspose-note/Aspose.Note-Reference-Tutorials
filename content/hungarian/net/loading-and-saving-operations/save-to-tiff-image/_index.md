@@ -13,7 +13,7 @@ Ebben az oktatóanyagban megvizsgáljuk, hogyan lehet dokumentumokat menteni ké
 
 ## Előfeltételek
 
-Mielőtt elkezdené, győződjön meg arról, hogy rendelkezik az alábbiakkal:
+Mielőtt elkezdené, győződjön meg arról, hogy rendelkezik a következőkkel:
 
 1.  Aspose.Note for .NET: Győződjön meg arról, hogy telepítette az Aspose.Note for .NET-et. Letöltheti innen[itt](https://releases.aspose.com/note/net/).
 
@@ -43,7 +43,7 @@ public static void SaveToTiffUsingJpegCompression()
     // Töltse be a dokumentumot az Aspose.Note-ba.
     Document oneFile = new Document("Path_to_your_OneNote_document");
 
-    // Állítsa be a TIFF-kép célútvonalát.
+    //Állítsa be a TIFF-kép célútvonalát.
     var dst = "Destination_path_for_TIFF_image";
 
     // Mentse el a dokumentumot TIFF-képként JPEG-tömörítéssel.
@@ -67,7 +67,7 @@ public static void SaveToTiffUsingPackBitsCompression()
     // Töltse be a dokumentumot az Aspose.Note-ba.
     Document oneFile = new Document("Path_to_your_OneNote_document");
 
-    // Állítsa be a TIFF-kép célútvonalát.
+    //Állítsa be a TIFF-kép célútvonalát.
     var dst = "Destination_path_for_TIFF_image";
 
     // Mentse el a dokumentumot TIFF-képként PackBits tömörítéssel.
@@ -90,7 +90,7 @@ public static void SaveToTiffUsingCcitt3Compression()
     // Töltse be a dokumentumot az Aspose.Note-ba.
     Document oneFile = new Document("Path_to_your_OneNote_document");
 
-    // Állítsa be a TIFF-kép célútvonalát.
+    //Állítsa be a TIFF-kép célútvonalát.
     var dst = "Destination_path_for_TIFF_image";
 
     // Mentse el a dokumentumot TIFF-képként CCITT Group 3 tömörítéssel.
@@ -130,4 +130,4 @@ Ebben az oktatóanyagban megtanultuk, hogyan lehet OneNote-dokumentumokat TIFF-k
 
 ### 5. kérdés: Elérhető az Aspose.Note próbaverziója?
 
- 5. válasz: Igen, ingyenes próbaverziót kaphat az Aspose.Note webhelyről[itt](https://releases.aspose.com/).
+5. válasz: Igen, ingyenes próbaverziót kaphat az Aspose.Note webhelyről[itt](https://releases.aspose.com/).

@@ -20,7 +20,7 @@ Než začneme, ujistěte se, že máte následující:
 3.  Aspose.Note pro knihovnu .NET. Můžete si jej stáhnout z[tady](https://releases.aspose.com/note/net/).
 4. Ukázkový dokument OneNotu obsahující tabulky pro extrakci textu.
 
-## Importovat jmenné prostory
+## Import jmenných prostorů
 
 Chcete-li začít, importujme potřebné jmenné prostory:
 

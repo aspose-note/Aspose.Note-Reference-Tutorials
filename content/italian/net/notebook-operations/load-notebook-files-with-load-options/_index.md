@@ -81,7 +81,7 @@ A1: Sì, Aspose.Note per .NET fornisce API complete per lavorare con i file Micr
 
 ### Q2: È disponibile una prova gratuita per Aspose.Note per .NET?
 
- A2: Sì, puoi usufruire di una prova gratuita di Aspose.Note per .NET da[Qui](https://releases.aspose.com/).
+A2: Sì, puoi usufruire di una prova gratuita di Aspose.Note per .NET da[Qui](https://releases.aspose.com/).
 
 ### Q3: Dove posso trovare la documentazione per Aspose.Note per .NET?
 

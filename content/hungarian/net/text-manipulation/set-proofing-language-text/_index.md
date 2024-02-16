@@ -11,7 +11,7 @@ url: /hu/net/text-manipulation/set-proofing-language-text/
 Üdvözöljük az Aspose.Note for .NET világában! Ebben az átfogó útmutatóban az Aspose.Note segítségével a szövegkorrekciós nyelv beállításának lenyűgöző folyamatát vizsgáljuk meg. Akár tapasztalt fejlesztő, akár csak most kezdi az Aspose.Note-ot, ez az oktatóanyag részletes betekintést és lépésről lépésre szóló utasításokat nyújt Önnek szövegmanipulációs készségeinek fejlesztéséhez.
 ## Előfeltételek
 Mielőtt belevágnánk az oktatóanyagba, győződjön meg arról, hogy a következő előfeltételek teljesülnek:
--  Aspose.Note for .NET: Győződjön meg arról, hogy az Aspose.Note for .NET legújabb verziója telepítve van. Letöltheti[itt](https://releases.aspose.com/note/net/).
+- Aspose.Note for .NET: Győződjön meg arról, hogy az Aspose.Note for .NET legújabb verziója telepítve van. Letöltheti[itt](https://releases.aspose.com/note/net/).
 - .NET fejlesztői környezet: Készítsen működőképes .NET fejlesztői környezetet a gépén.
 - Szövegszerkesztő vagy IDE: Válassza ki a kívánt szövegszerkesztőt vagy integrált fejlesztői környezetet (IDE) a kódoláshoz.
 Most pedig kezdjük el a lektorálási nyelv beállításával a szöveghez az Aspose-ban.Note!

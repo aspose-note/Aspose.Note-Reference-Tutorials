@@ -15,7 +15,7 @@ In diesem Tutorial erfahren Sie, wie Sie untergeordnete Knoten in Aspose Note .N
 
 Bevor wir beginnen, stellen Sie sicher, dass Sie über Folgendes verfügen:
 
-1. Aspose.Note für .NET: Stellen Sie sicher, dass Aspose.Note für .NET in Ihrer Entwicklungsumgebung installiert ist. Sie können es hier herunterladen[Webseite](https://releases.aspose.com/note/net/).
+1.  Aspose.Note für .NET: Stellen Sie sicher, dass Aspose.Note für .NET in Ihrer Entwicklungsumgebung installiert ist. Sie können es hier herunterladen[Webseite](https://releases.aspose.com/note/net/).
 
 2. Entwicklungsumgebung: Richten Sie eine .NET-Entwicklungsumgebung ein, z. B. Visual Studio.
 

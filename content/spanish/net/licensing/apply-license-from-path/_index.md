@@ -67,7 +67,7 @@ Aspose.Note.License license = new Aspose.Note.License();
 
 ## Paso 2: configurar la licencia desde la ruta
 
- A continuación, utilice el`SetLicense` método de la`License` clase para aplicar la licencia desde la ruta especificada:
+ continuación, utilice el`SetLicense` método de la`License` clase para aplicar la licencia desde la ruta especificada:
 
 ```csharp
 license.SetLicense("Aspose.Note.lic");

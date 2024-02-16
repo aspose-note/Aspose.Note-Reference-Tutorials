@@ -76,11 +76,11 @@ A1: No, è necessaria una licenza valida per utilizzare tutte le funzionalità d
 
 ### Q3: È disponibile una prova gratuita?
 
-R3: Sì, puoi ottenere una prova gratuita[Qui](https://releases.aspose.com/).
+ R3: Sì, puoi ottenere una prova gratuita[Qui](https://releases.aspose.com/).
 
 ### Q4: Come posso ottenere supporto?
 
- A4: puoi ottenere supporto dalla community Aspose.Note[Forum](https://forum.aspose.com/c/note/28).
+A4: puoi ottenere supporto dalla community Aspose.Note[Forum](https://forum.aspose.com/c/note/28).
 
 ### Q5: Offrite licenze temporanee?
 

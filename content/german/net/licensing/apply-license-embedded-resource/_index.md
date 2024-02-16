@@ -17,7 +17,7 @@ Bevor Sie beginnen, stellen Sie sicher, dass die folgenden Voraussetzungen erfü
 
 ### 1. Visual Studio installiert
 
- Stellen Sie sicher, dass Visual Studio auf Ihrem System installiert ist. Sie können es herunterladen unter[Hier](https://visualstudio.microsoft.com/).
+Stellen Sie sicher, dass Visual Studio auf Ihrem System installiert ist. Sie können es herunterladen unter[Hier](https://visualstudio.microsoft.com/).
 
 ### 2. Aspose.Note für .NET installiert
 
@@ -79,7 +79,7 @@ A1: Nein, Sie benötigen eine gültige Lizenz, um Aspose.Note für .NET zu verwe
 
  A3: Sie können Unterstützung von der Aspose.Note-Community erhalten[Hier](https://forum.aspose.com/c/note/28).
 
-### F4: Kann ich Aspose.Note vor dem Kauf ausprobieren?
+### F4: Kann ich Aspose.Note vor dem Kauf testen?
 
  A4: Ja, Sie können eine kostenlose Testversion herunterladen von[Hier](https://releases.aspose.com/).
 

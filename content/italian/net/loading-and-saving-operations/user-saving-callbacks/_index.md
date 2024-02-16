@@ -76,7 +76,7 @@ public void CssSaving(CssSavingArgs args)
 }
 ```
 
- Qui definiamo il`CssSaving`metodo di callback per gestire il salvataggio dei fogli di stile CSS. Crea una risorsa nella cartella CSS specificata e imposta di conseguenza il flusso, l'URI e altre proprietà.
+ Qui definiamo il`CssSaving` metodo di callback per gestire il salvataggio dei fogli di stile CSS. Crea una risorsa nella cartella CSS specificata e imposta di conseguenza il flusso, l'URI e altre proprietà.
 
 ## Passaggio 4: implementare la richiamata per il salvataggio delle immagini
 

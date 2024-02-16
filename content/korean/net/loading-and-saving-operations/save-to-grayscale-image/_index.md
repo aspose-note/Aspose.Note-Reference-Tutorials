@@ -11,7 +11,7 @@ url: /ko/net/loading-and-saving-operations/save-to-grayscale-image/
 
 이 튜토리얼에서는 .NET용 Aspose.Note를 활용하여 문서를 회색조 이미지로 저장하는 방법을 살펴보겠습니다. Aspose.Note는 개발자가 Microsoft OneNote 파일을 프로그래밍 방식으로 작업하여 광범위한 기능을 제공할 수 있는 강력한 라이브러리입니다.
 
-## 전제 조건
+## 전제조건
 
 계속하기 전에 다음 전제 조건이 충족되었는지 확인하세요.
 
@@ -33,7 +33,7 @@ using Aspose.Note.Saving;
 
 ## 1단계: 문서 로드
 
-먼저 Aspose.Note에 문서를 불러옵니다. 
+먼저 문서를 Aspose.Note에 불러옵니다. 
 
 ```csharp
 string dataDir = "Your Document Directory";

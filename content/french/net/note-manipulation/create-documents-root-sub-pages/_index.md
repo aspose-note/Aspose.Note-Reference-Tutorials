@@ -38,7 +38,7 @@ using System.Drawing;
 ## Étape 1 : initialiser l'objet de document
 
 ```csharp
-// Créer un objet de la classe Document
+//Créer un objet de la classe Document
 Document doc = new Document();
 ```
 

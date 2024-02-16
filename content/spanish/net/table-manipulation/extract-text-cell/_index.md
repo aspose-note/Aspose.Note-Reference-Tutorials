@@ -43,7 +43,7 @@ Document document = new Document(dataDir + "Sample1.one");
 
 ## Paso 2: obtener nodos de tabla
 
-continuación, recuperamos una lista de nodos de la tabla del documento cargado.
+A continuación, recuperamos una lista de nodos de la tabla del documento cargado.
 
 ```csharp
 IList<Table> nodes = document.GetChildNodes<Table>();

@@ -9,7 +9,7 @@ url: /pl/net/notebook-operations/create-password-protected-documents/
 ---
 ## Wstęp
 
-tym samouczku zagłębimy się w proces tworzenia dokumentów chronionych hasłem przy użyciu Aspose.Note dla .NET. Bezpieczeństwo dokumentów ma ogromne znaczenie, szczególnie w przypadku poufnych informacji. Dzięki Aspose.Note możesz szyfrować swoje dokumenty, aby zabezpieczyć je przed nieautoryzowanym dostępem. Przeprowadzimy Cię przez kroki niezbędne do skutecznego wdrożenia tego środka bezpieczeństwa.
+W tym samouczku zagłębimy się w proces tworzenia dokumentów chronionych hasłem przy użyciu Aspose.Note dla .NET. Bezpieczeństwo dokumentów ma ogromne znaczenie, szczególnie w przypadku poufnych informacji. Dzięki Aspose.Note możesz szyfrować swoje dokumenty, aby zabezpieczyć je przed nieautoryzowanym dostępem. Przeprowadzimy Cię przez kroki niezbędne do skutecznego wdrożenia tego środka bezpieczeństwa.
 
 ## Warunki wstępne
 

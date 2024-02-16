@@ -85,7 +85,7 @@ Cevap1: Aspose.Note, .one, .onepkg ve .onetoc2 dahil olmak üzere çeşitli OneN
 
 ### S2: Aspose.Note'u kullanarak görüntü özelliklerini değiştirebilir miyim?
 
-Cevap2: Evet, Aspose.Note boyutlar, dosya adları ve değişiklik süreleri gibi görüntü özelliklerini programlı olarak değiştirmenize olanak sağlar.
+Cevap2: Evet, Aspose.Note boyutlar, dosya adları ve değişiklik süreleri gibi görüntü özelliklerini programlı olarak değiştirmenize olanak tanır.
 
 ### S3: Aspose.Note .NET Core desteği sunuyor mu?
 
@@ -97,4 +97,4 @@ Cevap4: Evet, satın alma işlemi yapmadan önce özelliklerini keşfetmek için
 
 ### S5: Aspose.Note ile ilgili ek desteği veya yardımı nerede bulabilirim?
 
- Cevap5: Sorularınız veya yardımlarınız için Aspose.Note forumunu ziyaret edebilirsiniz.[Burada](https://forum.aspose.com/c/note/28).
+Cevap5: Sorularınız veya yardımlarınız için Aspose.Note forumunu ziyaret edebilirsiniz.[Burada](https://forum.aspose.com/c/note/28).

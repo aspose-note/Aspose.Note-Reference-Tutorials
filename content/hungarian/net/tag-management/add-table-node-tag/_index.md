@@ -29,7 +29,7 @@ using Aspose.Note.Examples.CSharp.Tables;
 A folytatás előtt győződjön meg arról, hogy beállította a következő előfeltételeket:
 
 1.  Telepítés: Töltse le és telepítse az Aspose.Note for .NET könyvtárat innen[itt](https://releases.aspose.com/note/net/).
-2.  Licenc: Szerezzen licencet vagy használja a[ideiglenes engedély](https://purchase.aspose.com/temporary-license/) használni a könyvtárat.
+2.  Licenc: Szerezzen licencet vagy használja a[ideiglenes engedély](https://purchase.aspose.com/temporary-license/) a könyvtár használatához.
 3. Fejlesztői környezet: legyen beállítva egy kompatibilis fejlesztői környezet, például a Visual Studio.
 
 ## 1. lépés: Inicializálja a dokumentum- és oldalobjektumokat

@@ -79,7 +79,7 @@ A2: Aspose.Note は、.one と .onepkg の両方のファイル形式の読み�
 
 ### Q3: Aspose.Note for .NET に利用できる無料トライアルはありますか?
 
- A3: はい、Aspose.Note for .NET の無料トライアル版を次のサイトからダウンロードできます。[ここ](https://releases.aspose.com/).
+A3: はい、Aspose.Note for .NET の無料トライアル版を次のサイトからダウンロードできます。[ここ](https://releases.aspose.com/).
 
 ### Q4: Aspose.Note for .NET の一時ライセンスを取得するにはどうすればよいですか?
 

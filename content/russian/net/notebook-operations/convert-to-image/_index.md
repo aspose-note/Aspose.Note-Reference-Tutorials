@@ -1,6 +1,6 @@
 ---
-title: Преобразование блокнотов в изображения в Aspose Note .NET
-linktitle: Преобразование блокнотов в изображения в Aspose Note .NET
+title: Преобразование блокнотов в изображение в Aspose Note .NET
+linktitle: Преобразование блокнотов в изображение в Aspose Note .NET
 second_title: Aspose.Note .NET API
 description: Узнайте, как конвертировать записные книжки OneNote в изображения с помощью Aspose.Note для .NET. Следуйте этому пошаговому руководству для бесшовной интеграции.
 type: docs
@@ -72,7 +72,7 @@ Console.WriteLine("\nNotebook document converted to image successfully.\nFile sa
 
 ### Вопрос 3. Доступна ли пробная версия Aspose.Note для .NET?
 
- О3: Да, вы можете загрузить бесплатную пробную версию с сайта[здесь](https://releases.aspose.com/), что позволяет вам изучить функции перед совершением покупки.
+О3: Да, вы можете загрузить бесплатную пробную версию с сайта[здесь](https://releases.aspose.com/), что позволяет вам изучить функции перед совершением покупки.
 
 ### Вопрос 4: Как я могу получить поддержку Aspose.Note для .NET?
 

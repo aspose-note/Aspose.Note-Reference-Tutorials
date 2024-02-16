@@ -9,7 +9,7 @@ url: /ko/net/text-manipulation/generate-document-from-template/
 ---
 ## 소개
 끊임없이 진화하는 문서 생성 환경에서 .NET용 Aspose.Note는 동적 문서를 쉽게 생성할 수 있는 강력한 도구로 돋보입니다. 보고서, 송장, 개인화된 문서 등 무엇을 처리하든 이 튜토리얼은 .NET용 Aspose.Note를 사용하여 템플릿에서 문서를 생성하는 과정을 안내합니다.
-## 전제 조건
+## 전제조건
 단계별 가이드를 시작하기 전에 다음 전제 조건이 충족되었는지 확인하세요.
 1.  .NET 라이브러리용 Aspose.Note: 다음에서 라이브러리를 다운로드하고 설치하세요.[.NET 문서용 Aspose.Note](https://reference.aspose.com/note/net/).
 2. 문서 템플릿: OneNote 형식(확장자 .one)의 템플릿 문서를 준비합니다. 이는 동적으로 생성된 문서의 기반이 됩니다.
@@ -73,7 +73,7 @@ templateDocument.Save(Path.Combine(dataDir, "JobOffer_out.one"));
 ### 다른 문서 형식과 함께 .NET용 Aspose.Note를 사용할 수 있나요?
 예, .NET용 Aspose.Note는 주로 OneNote 문서를 다루지만 Aspose는 다양한 형식에 대한 다양한 라이브러리를 제공합니다.
 ### .NET용 Aspose.Note에 대한 무료 평가판이 있습니까?
- 예, 무료 평가판을 통해 .NET용 Aspose.Note의 기능을 탐색할 수 있습니다. 방문하다[여기](https://releases.aspose.com/) 자세한 내용은.
+예, 무료 평가판을 통해 .NET용 Aspose.Note의 기능을 탐색할 수 있습니다. 방문하다[여기](https://releases.aspose.com/) 자세한 내용은.
 ### .NET용 Aspose.Note에 대한 지원을 어떻게 받을 수 있나요?
  방문하다[.NET 포럼용 Aspose.Note](https://forum.aspose.com/c/note/28) 지역사회와 전문가로부터 도움을 받으세요.
 ### .NET용 Aspose.Note에 임시 라이선스를 사용할 수 있나요?

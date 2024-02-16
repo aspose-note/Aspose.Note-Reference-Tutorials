@@ -77,11 +77,11 @@ W tym samouczku nauczyliśmy się ładować pliki notatnika z opcjami ładowania
 
 ### P1: Czy mogę używać Aspose.Note dla .NET do programowego manipulowania plikami OneNote?
 
-O1: Tak, Aspose.Note dla .NET zapewnia wszechstronne interfejsy API do programowej pracy z plikami Microsoft OneNote, umożliwiając łatwe tworzenie, edytowanie i manipulowanie danymi notatnika.
+O1: Tak, Aspose.Note dla .NET zapewnia kompleksowe interfejsy API do programowej pracy z plikami Microsoft OneNote, umożliwiając łatwe tworzenie, edytowanie i manipulowanie danymi notatnika.
 
 ### P2: Czy dostępna jest bezpłatna wersja próbna Aspose.Note dla .NET?
 
- A2: Tak, możesz skorzystać z bezpłatnej wersji próbnej Aspose.Note dla .NET z[Tutaj](https://releases.aspose.com/).
+A2: Tak, możesz skorzystać z bezpłatnej wersji próbnej Aspose.Note dla .NET z[Tutaj](https://releases.aspose.com/).
 
 ### P3: Gdzie mogę znaleźć dokumentację Aspose.Note dla .NET?
 

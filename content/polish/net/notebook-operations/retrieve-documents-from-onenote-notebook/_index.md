@@ -72,7 +72,7 @@ foreach (Document document in allDocuments)
 
 ## Wniosek
 
-Opanowanie odzyskiwania dokumentów z notatników OneNote przy użyciu Aspose.Note dla .NET otwiera świat możliwości w zakresie programowego zarządzania zawartością OneNote i manipulowania nią. Wykonując ten samouczek, poznałeś podstawowe kroki wymagane do bezproblemowej integracji tej funkcjonalności z aplikacjami .NET.
+Opanowanie odzyskiwania dokumentów z notatników OneNote za pomocą Aspose.Note dla .NET otwiera świat możliwości w zakresie programowego zarządzania zawartością OneNote i manipulowania nią. Wykonując ten samouczek, poznałeś podstawowe kroki wymagane do bezproblemowej integracji tej funkcjonalności z aplikacjami .NET.
 
 ## Często zadawane pytania
 

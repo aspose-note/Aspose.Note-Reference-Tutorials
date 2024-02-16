@@ -14,7 +14,7 @@ Než se pustíte do výukového programu, ujistěte se, že máte splněny násl
 -  Aspose.Note for .NET Library: Stáhněte a nainstalujte knihovnu z[Aspose.Note pro dokumentaci .NET](https://reference.aspose.com/note/net/).
 - Integrované vývojové prostředí (IDE): Mějte nainstalované vhodné IDE pro vývoj .NET, jako je Visual Studio.
 - Nastavení dokumentu: Připravte dokument, na kterém chcete pracovat, a poznamenejte si jeho cestu k adresáři.
-## Importovat jmenné prostory
+## Import jmenných prostorů
 Chcete-li začít, importujme potřebné jmenné prostory:
 ```csharp
     using System;

@@ -57,7 +57,7 @@ url: /th/net/notebook-operations/
 ## ลบโหนดลูกใน Aspose Note .NET
  ลดความซับซ้อนในการจัดการไฟล์ OneNote ของคุณโดยการลบโหนดย่อยอย่างง่ายดายด้วย Aspose.Note สำหรับ .NET ปฏิบัติตามคำแนะนำทีละขั้นตอนของเรา[เรียนรู้เพิ่มเติม](./remove-child-nodes/)
 
-## ดึงเอกสารจากสมุดบันทึก OneNote ใน Aspose Note .NET
+## ดึงเอกสารจาก OneNote Notebook ใน Aspose Note .NET
 เพิ่มศักยภาพในการบูรณาการและการจัดการอย่างราบรื่นด้วยการเรียนรู้วิธีดึงเอกสารจากสมุดบันทึก OneNote โดยทางโปรแกรมด้วย Aspose.Note สำหรับ .NET[เรียนรู้เพิ่มเติม](./retrieve-documents-from-onenote-notebook/)
 
 ## เขียนเอกสารที่ป้องกันด้วยรหัสผ่านใน Aspose Note .NET
@@ -95,7 +95,7 @@ url: /th/net/notebook-operations/
 เรียนรู้วิธีอ่าน Rich Text จากสมุดบันทึก OneNote โดยทางโปรแกรมโดยใช้ Aspose.Note สำหรับ .NET ปฏิบัติตามบทช่วยสอนทีละขั้นตอนของเราเพื่อการบูรณาการที่ง่ายดาย
 ### [ลบโหนดลูกใน Aspose Note .NET](./remove-child-nodes/)
 เรียนรู้วิธีลบโหนดย่อยใน Aspose.Note สำหรับ .NET ได้อย่างง่ายดาย ลดความซับซ้อนในการจัดการไฟล์ OneNote ของคุณด้วยคำแนะนำทีละขั้นตอนนี้
-### [ดึงเอกสารจากสมุดบันทึก OneNote ใน Aspose Note .NET](./retrieve-documents-from-onenote-notebook/)
-เรียนรู้วิธีดึงเอกสารจากสมุดบันทึก OneNote โดยใช้โปรแกรม Aspose.Note สำหรับ .NET ซึ่งช่วยเพิ่มศักยภาพในการบูรณาการและการจัดการที่ราบรื่น
+### [ดึงเอกสารจาก OneNote Notebook ใน Aspose Note .NET](./retrieve-documents-from-onenote-notebook/)
+เรียนรู้วิธีดึงเอกสารจากสมุดบันทึก OneNote โดยทางโปรแกรมโดยใช้ Aspose.Note สำหรับ .NET ซึ่งช่วยเพิ่มศักยภาพในการบูรณาการและการจัดการที่ราบรื่น
 ### [เขียนเอกสารที่ป้องกันด้วยรหัสผ่านใน Aspose Note .NET](./write-password-protected-documents/)
 เรียนรู้วิธีสร้างเอกสารที่ป้องกันด้วยรหัสผ่านใน Aspose Note .NET เพื่อเพิ่มความปลอดภัย รวมการสอนทีละขั้นตอน

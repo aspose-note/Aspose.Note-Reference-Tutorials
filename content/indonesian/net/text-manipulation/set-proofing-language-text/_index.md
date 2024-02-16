@@ -11,7 +11,7 @@ url: /id/net/text-manipulation/set-proofing-language-text/
 Selamat datang di dunia Aspose.Note untuk .NET! Dalam panduan komprehensif ini, kita akan menjelajahi proses menarik dalam mengatur bahasa pemeriksaan untuk teks menggunakan Aspose.Note. Baik Anda seorang pengembang berpengalaman atau baru memulai Aspose.Note, tutorial ini akan memberi Anda wawasan mendetail dan petunjuk langkah demi langkah untuk meningkatkan keterampilan manipulasi teks Anda.
 ## Prasyarat
 Sebelum kita mendalami tutorialnya, pastikan Anda memiliki prasyarat berikut:
--  Aspose.Note for .NET: Pastikan Anda menginstal Aspose.Note for .NET versi terbaru. Anda dapat mengunduhnya[Di Sini](https://releases.aspose.com/note/net/).
+- Aspose.Note for .NET: Pastikan Anda menginstal Aspose.Note for .NET versi terbaru. Anda dapat mengunduhnya[Di Sini](https://releases.aspose.com/note/net/).
 - Lingkungan Pengembangan .NET: Siapkan lingkungan pengembangan .NET yang fungsional di mesin Anda.
 - Editor Teks atau IDE: Pilih editor teks atau lingkungan pengembangan terintegrasi (IDE) pilihan Anda untuk pengkodean.
 Sekarang, mari kita mulai mengatur bahasa pemeriksaan untuk teks di Aspose.Note!

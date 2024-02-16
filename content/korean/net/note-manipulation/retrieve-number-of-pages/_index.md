@@ -11,17 +11,17 @@ url: /ko/net/note-manipulation/retrieve-number-of-pages/
 
 Aspose.Note for .NET은 개발자가 Microsoft OneNote 파일을 프로그래밍 방식으로 작업할 수 있는 강력한 라이브러리입니다. OneNote 문서를 생성, 조작 또는 변환해야 하는 경우 Aspose.Note는 작업을 간소화하는 포괄적인 기능을 제공합니다. 이 튜토리얼에서는 필수 작업 중 하나인 C#을 사용하여 Aspose.Note 문서의 페이지 수를 검색하는 방법을 살펴보겠습니다.
 
-## 전제 조건
+## 전제조건
 
 시작하기 전에 다음 전제 조건이 설정되어 있는지 확인하세요.
 
 ### 비주얼 스튜디오가 설치됨
 
- 시스템에 Visual Studio가 설치되어 있는지 확인하세요. 다음에서 다운로드할 수 있습니다.[웹사이트](https://visualstudio.microsoft.com/).
+시스템에 Visual Studio가 설치되어 있는지 확인하세요. 다음에서 다운로드할 수 있습니다.[웹사이트](https://visualstudio.microsoft.com/).
 
-### .NET용 Aspose.Note가 설치됨
+### .NET용 Aspose.Note가 설치되었습니다.
 
- Visual Studio 프로젝트에 .NET용 Aspose.Note 라이브러리가 설치되어 있어야 합니다. 아직 다운로드하지 않으셨다면, 다음 사이트에서 다운로드하세요.[Aspose 웹사이트](https://releases.aspose.com/note/net/) 설치 지침을 따르십시오.
+ Visual Studio 프로젝트에 .NET용 Aspose.Note 라이브러리가 설치되어 있어야 합니다. 아직 다운로드하지 않았다면 다음에서 다운로드하세요.[Aspose 웹사이트](https://releases.aspose.com/note/net/) 설치 지침을 따르십시오.
 
 ### C#의 기본 이해
 

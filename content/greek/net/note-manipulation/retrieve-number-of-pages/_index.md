@@ -17,7 +17,7 @@ url: /el/net/note-manipulation/retrieve-number-of-pages/
 
 ### Εγκαταστάθηκε το Visual Studio
 
- Βεβαιωθείτε ότι έχετε εγκαταστήσει το Visual Studio στο σύστημά σας. Μπορείτε να το κατεβάσετε από το[δικτυακός τόπος](https://visualstudio.microsoft.com/).
+Βεβαιωθείτε ότι έχετε εγκαταστήσει το Visual Studio στο σύστημά σας. Μπορείτε να το κατεβάσετε από το[δικτυακός τόπος](https://visualstudio.microsoft.com/).
 
 ### Aspose.Note for .NET Installed
 

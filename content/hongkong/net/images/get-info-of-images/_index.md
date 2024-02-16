@@ -95,6 +95,6 @@ A3：是的，Aspose.Note 提供對 .NET Core 的支持，使您的應用程式�
 
 A4：是的，您可以在購買之前免費試用 Aspose.Note 以探索其功能。
 
-### Q5：我可以在哪裡找到有關 Aspose.Note 的其他支援或協助？
+### 問題 5：我可以在哪裡找到有關 Aspose.Note 的其他支援或協助？
 
- A5：如有任何疑問或協助，您可以造訪 Aspose.Note 論壇[這裡](https://forum.aspose.com/c/note/28).
+A5：如有任何疑問或協助，您可以造訪 Aspose.Note 論壇[這裡](https://forum.aspose.com/c/note/28).

@@ -16,7 +16,7 @@ url: /zh/net/note-manipulation/roll-back-document-revisions/
 在深入学习本教程之前，请确保您具备以下先决条件：
 
 1. 对 C# 的基本了解：需要熟悉 C# 编程语言才能理解代码示例。
-2.  Aspose.Note for .NET 库：在您的开发环境中安装 Aspose.Note for .NET 库。您可以从以下位置下载：[这里](https://releases.aspose.com/note/net/).
+2. Aspose.Note for .NET 库：在您的开发环境中安装 Aspose.Note for .NET 库。您可以从以下位置下载：[这里](https://releases.aspose.com/note/net/).
 3. 集成开发环境 (IDE)：在系统上安装 IDE，例如 Visual Studio。
 
 ## 导入命名空间

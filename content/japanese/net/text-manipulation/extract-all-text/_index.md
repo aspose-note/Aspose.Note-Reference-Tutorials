@@ -30,7 +30,7 @@ string dataDir = "Your Document Directory";
 ```csharp
 Document oneFile = new Document(dataDir + "Aspose.one");
 ```
- Aspose.Note ドキュメントを`Document`さらに処理するためのオブジェクト。
+Aspose.Note ドキュメントを`Document`さらに処理するためのオブジェクト。
 ## ステップ 3: テキストを取得する
 ```csharp
 string text = string.Join(Environment.NewLine, oneFile.GetChildNodes<RichText>().Select(e => e.Text)) + Environment.NewLine;
@@ -40,7 +40,7 @@ string text = string.Join(Environment.NewLine, oneFile.GetChildNodes<RichText>()
 ```csharp
 Console.WriteLine(text);
 ```
-抽出されたテキストを出力画面に印刷するか、必要に応じてアプリケーションに組み込みます。
+抽出したテキストを出力画面に印刷するか、必要に応じてアプリケーションに組み込みます。
 .NET アプリケーションでこれらの手順を繰り返すと、Aspose.Note ドキュメントからテキストが正常に抽出されます。
 ## 結論
 結論として、.NET の Aspose.Note ドキュメントからのテキストの抽出は、Aspose.Note for .NET を使用した簡単なプロセスです。このチュートリアルで概説されている手順に従うことで、テキスト抽出をアプリケーションにシームレスに統合できます。

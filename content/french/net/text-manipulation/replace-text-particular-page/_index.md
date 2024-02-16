@@ -26,7 +26,7 @@ Maintenant, décomposons le processus de remplacement du texte sur une page part
 string dataDir = "Your Document Directory";
 ```
  Remplacer`"Your Document Directory"` avec le chemin d’accès à votre document Aspose.Note.
-## Étape 2 : définir les remplacements
+## Étape 2 : Définir les remplacements
 ```csharp
 Dictionary<string, string> replacements = new Dictionary<string, string>();
 replacements.Add("voice over", "voice over new text");

@@ -57,7 +57,7 @@ var document = new Document(dataDir + "Aspose.one");
 
 ## Stap 2: Document afdrukken
 
- Roep de`Print` methode op de`Document`bezwaar maken om het afdrukproces te starten. Deze methode verzendt het document naar de standaardprinter met behulp van het standaard Windows-dialoogvenster met standaardopties.
+ Roep de`Print` methode op de`Document` bezwaar maken om het afdrukproces te starten. Deze methode verzendt het document naar de standaardprinter met behulp van het standaard Windows-dialoogvenster met standaardopties.
 
 ```csharp
 document.Print();

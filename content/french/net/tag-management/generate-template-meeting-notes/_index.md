@@ -9,7 +9,7 @@ url: /fr/net/tag-management/generate-template-meeting-notes/
 ---
 ## Introduction
 
-Dans ce didacticiel, nous allons parcourir le processus de génération d'un modèle de notes de réunion à l'aide d'Aspose.Note pour .NET. Cette bibliothèque fournit des outils puissants pour créer, modifier et manipuler des documents OneNote par programme.
+Dans ce didacticiel, nous allons parcourir le processus de génération d'un modèle de notes de réunion à l'aide d'Aspose.Note pour .NET. Cette bibliothèque fournit des outils puissants pour créer, modifier et manipuler des documents OneNote par programmation.
 
 ## Conditions préalables
 
@@ -17,7 +17,7 @@ Avant de commencer, assurez-vous d'avoir les éléments suivants :
 
 1. Visual Studio : assurez-vous que Visual Studio est installé sur votre système.
 2.  Aspose.Note pour .NET : téléchargez et installez Aspose.Note pour .NET à partir de[ce lien](https://releases.aspose.com/note/net/).
-3. Compréhension de base de C# : Une connaissance du langage de programmation C# est requise pour suivre les exemples.
+3. Compréhension de base de C# : Une connaissance du langage de programmation C# est requise pour suivre les exemples.
 
 ## Importer des espaces de noms
 

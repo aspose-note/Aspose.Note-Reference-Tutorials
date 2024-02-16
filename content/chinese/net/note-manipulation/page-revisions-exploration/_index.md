@@ -79,7 +79,7 @@ A2：Aspose.Note 支持.one 和.onepkg 文件格式的加载历史记录。
 
 ### 问题 3：Aspose.Note for .NET 是否有免费试用版？
 
- A3：是的，您可以从以下位置下载 Aspose.Note for .NET 的免费试用版：[这里](https://releases.aspose.com/).
+A3：是的，您可以从以下位置下载 Aspose.Note for .NET 的免费试用版：[这里](https://releases.aspose.com/).
 
 ### Q4：如何获得 Aspose.Note for .NET 的临时许可证？
 

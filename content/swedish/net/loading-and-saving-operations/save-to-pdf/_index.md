@@ -9,7 +9,7 @@ url: /sv/net/loading-and-saving-operations/save-to-pdf/
 ---
 ## Introduktion
 
-I den här handledningen kommer vi att utforska hur man sparar dokument i PDF-format med Aspose.Note för .NET. Aspose.Note är ett kraftfullt bibliotek som gör det möjligt för utvecklare att arbeta med Microsoft OneNote-filer programmatiskt. Vi kommer att täcka förutsättningarna, importera namnutrymmen och tillhandahålla steg-för-steg-guider för att spara dokument till PDF i olika sidlayouter.
+den här handledningen kommer vi att utforska hur man sparar dokument i PDF-format med Aspose.Note för .NET. Aspose.Note är ett kraftfullt bibliotek som gör det möjligt för utvecklare att arbeta med Microsoft OneNote-filer programmatiskt. Vi kommer att täcka förutsättningarna, importera namnutrymmen och tillhandahålla steg-för-steg-guider för att spara dokument till PDF i olika sidlayouter.
 
 ## Förutsättningar
 
@@ -46,7 +46,7 @@ public static void SaveToPdfUsingLetterPageSettings()
 
     var dst = Path.Combine(dataDir, "SaveToPdfUsingLetterPageSettings.pdf");
 
-    //Spara dokumentet.
+    // Spara dokumentet.
     oneFile.Save(dst, new PdfSaveOptions() { PageSettings = PageSettings.Letter });
 
     Console.WriteLine("\nOneNote document saved successfully.\nFile saved at " + dst);
@@ -72,7 +72,7 @@ public static void SaveToPdfUsingA4PageSettingsWithoutHeightLimit()
 
     var dst = Path.Combine(dataDir, "SaveToPdfUsingA4PageSettingsWithoutHeightLimit.pdf");
 
-    //Spara dokumentet.
+    // Spara dokumentet.
     oneFile.Save(dst, new PdfSaveOptions() { PageSettings = PageSettings.A4NoHeightLimit });
 
     Console.WriteLine("\nOneNote document saved successfully.\nFile saved at " + dst);
@@ -81,7 +81,7 @@ public static void SaveToPdfUsingA4PageSettingsWithoutHeightLimit()
 
 ### Förklaring:
 
-- I likhet med föregående steg laddar vi OneNote-dokumentet i Aspose.Note.
+- likhet med föregående steg laddar vi OneNote-dokumentet i Aspose.Note.
 - Definiera destinationssökvägen för den sparade PDF-filen.
 -  Spara dokumentet till PDF med`PdfSaveOptions` med`PageSettings` satt till`A4NoHeightLimit`.
 

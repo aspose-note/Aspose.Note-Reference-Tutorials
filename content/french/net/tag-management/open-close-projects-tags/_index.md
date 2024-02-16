@@ -103,7 +103,7 @@ A1 : Aspose.Note prend en charge Microsoft OneNote 2010 et les versions plus ré
 
 ### Q3 : Aspose.Note propose-t-il un essai gratuit ?
 
-A3 : Oui, vous pouvez bénéficier d'un essai gratuit[ici](https://releases.aspose.com/).
+ A3 : Oui, vous pouvez bénéficier d'un essai gratuit[ici](https://releases.aspose.com/).
 
 ### Q4 : Où puis-je trouver de la documentation pour Aspose.Note ?
 
@@ -111,4 +111,4 @@ A3 : Oui, vous pouvez bénéficier d'un essai gratuit[ici](https://releases.as
 
 ### Q5 : Où puis-je obtenir de l'aide pour Aspose.Note ?
 
-A5 : Pour obtenir de l'aide, vous pouvez visiter Aspose.Note[forum](https://forum.aspose.com/c/note/28).
+ A5 : Pour obtenir de l'aide, vous pouvez visiter Aspose.Note[forum](https://forum.aspose.com/c/note/28).

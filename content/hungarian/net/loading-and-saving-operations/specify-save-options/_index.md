@@ -9,7 +9,7 @@ url: /hu/net/loading-and-saving-operations/specify-save-options/
 ---
 ## Bevezetés
 
-A .NET-fejlesztés területén az Aspose.Note a OneNote-dokumentumok kezelésének hatékony eszköze. A fájlok hatékony kezeléséhez és kezeléséhez funkciók átfogó készletét kínálja. Az Aspose.Note-tal végzett munka egyik kulcsfontosságú szempontja a mentési beállítások megadása, amelyek lehetővé teszik a fejlesztők számára, hogy igényeiknek megfelelően testreszabják a kimeneti formátumot és a minőséget.
+.NET-fejlesztés területén az Aspose.Note a OneNote-dokumentumok kezelésének hatékony eszköze. A fájlok hatékony kezeléséhez és kezeléséhez funkciók átfogó készletét kínálja. Az Aspose.Note-tel való munkavégzés egyik kulcsfontosságú szempontja a mentési beállítások megadása, amelyek lehetővé teszik a fejlesztők számára, hogy igényeiknek megfelelően testreszabják a kimeneti formátumot és a minőséget.
 
 ## Előfeltételek
 
@@ -53,7 +53,7 @@ PdfSaveOptions opts = new PdfSaveOptions
     // Használj Jpeg tömörítést
     ImageCompression = Saving.Pdf.PdfImageCompression.Jpeg,
     
-    //Minőség a JPEG tömörítéshez
+    // Minőség a JPEG tömörítéshez
     JpegQuality = 90
 };
 ```
@@ -77,7 +77,7 @@ Ebben az oktatóanyagban megvizsgáltuk, hogyan adhatunk meg mentési beállít�
 
 ### 1. kérdés: Megadhatok különböző tömörítési módszereket a OneNote-dokumentumok mentéséhez?
 
-1. válasz: Igen, az Aspose.Note for .NET különféle tömörítési lehetőségeket kínál, beleértve a JPEG-et, PNG-t és ZIP-t, így a fejlesztők kiválaszthatják a legmegfelelőbb módszert igényeik alapján.
+1. válasz: Igen, az Aspose.Note for .NET különféle tömörítési lehetőségeket kínál, beleértve a JPEG-et, a PNG-t és a ZIP-t, így a fejlesztők kiválaszthatják a legmegfelelőbb módszert igényeik alapján.
 
 ### 2. kérdés: Az Aspose.Note kompatibilis a OneNote-fájlok különböző verzióival?
 

@@ -40,7 +40,7 @@ Document document = new Document(dataDir + "ChangeTableStyleIn.one");
 
 ## 2. lépés: Szerezze be a táblázat csomópontjait
 
-táblázat csomópontjainak listájának lekérése a betöltött dokumentumból. Ez lehetővé teszi számunkra, hogy az egyes táblákat ismételjük, és alkalmazzuk a kívánt stílusmódosításokat.
+A táblázat csomópontjainak listájának lekérése a betöltött dokumentumból. Ez lehetővé teszi számunkra, hogy az egyes táblákat ismételjük, és alkalmazzuk a kívánt stílusmódosításokat.
 ```csharp
 IList<Table> nodes = document.GetChildNodes<Table>();
 ```

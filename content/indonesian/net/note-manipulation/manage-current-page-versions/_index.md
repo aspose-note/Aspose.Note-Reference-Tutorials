@@ -15,7 +15,7 @@ Dalam dunia pengembangan perangkat lunak, mengelola dan memelihara berbagai vers
 
 Sebelum masuk ke tutorial, pastikan Anda telah menyiapkan prasyarat berikut:
 
-1.  Instal Aspose.Note untuk .NET: Unduh dan instal Aspose.Note untuk .NET dari[Di Sini](https://releases.aspose.com/note/net/).
+1. Instal Aspose.Note untuk .NET: Unduh dan instal Aspose.Note untuk .NET dari[Di Sini](https://releases.aspose.com/note/net/).
 
 2. Keakraban dengan Lingkungan .NET: Pemahaman dasar tentang lingkungan .NET dan bahasa pemrograman C#.
 
@@ -73,7 +73,7 @@ Mengelola versi dokumen sangat penting untuk menjaga integritas data dan melacak
 
 ### Q1: Bisakah saya memasukkan beberapa versi halaman ke riwayat menggunakan Aspose.Note untuk .NET?
 
-A1: Ya, Anda dapat memasukkan beberapa versi halaman ke riwayat dengan mengulangi langkah-langkah yang diuraikan dalam tutorial untuk setiap versi.
+A1: Ya, Anda dapat memasukkan beberapa versi halaman ke riwayat dengan mengulangi langkah-langkah yang dijelaskan dalam tutorial untuk setiap versi.
 
 ### Q2: Apakah Aspose.Note untuk .NET kompatibel dengan semua versi dokumen OneNote?
 

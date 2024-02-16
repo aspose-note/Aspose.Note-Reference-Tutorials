@@ -47,7 +47,7 @@ Bây giờ, hãy chia quá trình tạo tài liệu có tiêu đề trang thành
 ## Bước 1: Tạo đối tượng tài liệu
 
 ```csharp
-// Tạo một đối tượng của lớp Tài liệu
+//Tạo một đối tượng của lớp Tài liệu
 Document doc = new Aspose.Note.Document();
 ```
 

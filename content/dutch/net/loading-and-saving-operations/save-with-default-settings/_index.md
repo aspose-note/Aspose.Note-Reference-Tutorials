@@ -63,7 +63,7 @@ Ten slotte geven we een succesbericht weer dat aangeeft dat het document succesv
 
 ## Conclusie
 
-In deze zelfstudie hebben we geleerd hoe u een document met standaardinstellingen kunt opslaan in Aspose.Note voor .NET. Door de stapsgewijze handleiding te volgen, kunt u deze functionaliteit eenvoudig in uw .NET-toepassingen integreren, waardoor hun mogelijkheden bij het verwerken van OneNote-bestanden worden uitgebreid.
+In deze zelfstudie hebben we geleerd hoe u een document met standaardinstellingen kunt opslaan in Aspose.Note voor .NET. Door de stapsgewijze handleiding te volgen, kunt u deze functionaliteit eenvoudig in uw .NET-toepassingen integreren, waardoor hun mogelijkheden bij het verwerken van OneNote-bestanden worden vergroot.
 
 ## Veelgestelde vragen
 

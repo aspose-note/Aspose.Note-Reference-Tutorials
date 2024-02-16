@@ -73,7 +73,7 @@ templateDocument.Save(Path.Combine(dataDir, "JobOffer_out.one"));
 ### هل يمكنني استخدام Aspose.Note لـ .NET مع تنسيقات المستندات الأخرى؟
 نعم، يتعامل Aspose.Note for .NET بشكل أساسي مع مستندات OneNote، لكن Aspose يوفر مكتبات متنوعة لتنسيقات مختلفة.
 ### هل تتوفر نسخة تجريبية مجانية من Aspose.Note لـ .NET؟
- نعم، يمكنك استكشاف إمكانيات Aspose.Note لـ .NET من خلال النسخة التجريبية المجانية. يزور[هنا](https://releases.aspose.com/) للمزيد من المعلومات.
+نعم، يمكنك استكشاف إمكانيات Aspose.Note لـ .NET من خلال النسخة التجريبية المجانية. يزور[هنا](https://releases.aspose.com/) للمزيد من المعلومات.
 ### كيف يمكنني الحصول على دعم Aspose.Note لـ .NET؟
  قم بزيارة[Aspose.Note لمنتدى .NET](https://forum.aspose.com/c/note/28) للحصول على المساعدة من المجتمع والخبراء.
 ### هل التراخيص المؤقتة متاحة لـ Aspose.Note لـ .NET؟

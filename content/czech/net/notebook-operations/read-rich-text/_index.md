@@ -23,7 +23,7 @@ Ujistěte se, že máte v systému nainstalované Visual Studio IDE. Můžete si
 
  Stáhněte a nainstalujte knihovnu Aspose.Note for .NET z[odkaz ke stažení](https://releases.aspose.com/note/net/). Postupujte podle instalační příručky a integrujte ji do projektu sady Visual Studio.
 
-## Importovat jmenné prostory
+## Import jmenných prostorů
 
 Než se ponoříme do kódu, importujme potřebné jmenné prostory, abychom mohli efektivně využívat funkce Aspose.Note.
 
@@ -36,7 +36,7 @@ using System.Text;
 
 Nyní si uvedený příklad rozdělíme do několika kroků a podrobně porozumíme každému kroku.
 
-## Krok 1: Zadejte cestu vstupního souboru
+## Krok 1: Zadejte cestu k vstupnímu souboru
 
 ```csharp
 string inputFile = "notebook.onetoc2";
@@ -84,7 +84,7 @@ Odpověď 1: Ano, Aspose.Note pro .NET umožňuje vytvářet, upravovat a manipu
 
 ### Q2: Je k dispozici bezplatná zkušební verze pro Aspose.Note pro .NET?
 
-A2: Ano, můžete získat bezplatnou zkušební verzi Aspose.Note pro .NET od[stránka vydání](https://releases.aspose.com/).
+ A2: Ano, můžete získat bezplatnou zkušební verzi Aspose.Note pro .NET od[stránka vydání](https://releases.aspose.com/).
 
 ### Q3: Jak mohu získat podporu pro Aspose.Note pro .NET?
 

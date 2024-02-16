@@ -11,7 +11,7 @@ url: /ko/net/images/extract-images/
 
 Aspose.Note 문서에서 이미지를 효율적으로 추출하고 싶으십니까? .NET용 Aspose.Note는 이 작업을 원활하게 수행할 수 있는 강력한 솔루션을 제공합니다. 이 튜토리얼에서는 문서에서 이미지를 쉽게 검색할 수 있도록 프로세스를 단계별로 안내합니다.
 
-## 전제 조건
+## 전제조건
 
 시작하기 전에 다음 전제 조건이 충족되었는지 확인하세요.
 
@@ -59,7 +59,7 @@ foreach (Aspose.Note.Image image in nodes)
     {
         using (Bitmap bitMap = new Bitmap(stream))
         {
-            //이미지 바이트를 파일에 저장
+            // 이미지 바이트를 파일에 저장
             bitMap.Save(String.Format(dataDir + "{0}", Path.GetFileName(image.FileName)));
         }
     }

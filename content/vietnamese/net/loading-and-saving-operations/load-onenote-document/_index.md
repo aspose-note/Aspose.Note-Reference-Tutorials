@@ -68,7 +68,7 @@ public static void SimpleLoadNotebook()
 ```
 
 ### Bước 2: Kiểm tra xem tài liệu đã được mã hóa chưa và tải:
-   - Kiểm tra xem tài liệu OneNote có được mã hóa hay không bằng cách gọi`Document.IsEncrypted` phương thức, truyền tên tệp.
+   -  Kiểm tra xem tài liệu OneNote có được mã hóa hay không bằng cách gọi`Document.IsEncrypted` phương thức, truyền tên tệp.
    - Nếu chưa được mã hóa, hãy tiến hành xử lý tài liệu.
    - Nếu được mã hóa, hãy nhắc người dùng cung cấp mật khẩu để giải mã.
 
@@ -124,7 +124,7 @@ public static void Document_CheckIfEncryptedByPasswordAndLoad()
 
 ### Bước 4: Xử lý định dạng OneNote 2007 không được hỗ trợ:
    - Cố gắng tải tài liệu OneNote ở định dạng 2007.
-   -  Nếu định dạng không được hỗ trợ, hãy bắt`UnsupportedFileFormatException` và xử lý phù hợp, thông báo cho người dùng về định dạng không được hỗ trợ.
+   -  Nếu định dạng không được hỗ trợ, hãy bắt`UnsupportedFileFormatException`và xử lý phù hợp, thông báo cho người dùng về định dạng không được hỗ trợ.
 
 ```csharp
 public static void Document_OneNote2007_Is_NotSupported()

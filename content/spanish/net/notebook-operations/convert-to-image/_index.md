@@ -72,7 +72,7 @@ R2: Sí, además de las imágenes, Aspose.Note para .NET admite la conversión a
 
 ### P3: ¿Existe una versión de prueba disponible de Aspose.Note para .NET?
 
- R3: Sí, puedes descargar una versión de prueba gratuita desde[aquí](https://releases.aspose.com/), permitiéndole explorar las funciones antes de realizar una compra.
+R3: Sí, puedes descargar una versión de prueba gratuita desde[aquí](https://releases.aspose.com/), permitiéndole explorar las funciones antes de realizar una compra.
 
 ### P4: ¿Cómo puedo obtener soporte para Aspose.Note para .NET?
 

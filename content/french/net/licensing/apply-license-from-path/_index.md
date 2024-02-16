@@ -67,7 +67,7 @@ Aspose.Note.License license = new Aspose.Note.License();
 
 ## Étape 2 : Définir la licence à partir du chemin
 
- Ensuite, utilisez le`SetLicense` méthode du`License` classe pour appliquer la licence à partir du chemin spécifié :
+Ensuite, utilisez le`SetLicense` méthode du`License` classe pour appliquer la licence à partir du chemin spécifié :
 
 ```csharp
 license.SetLicense("Aspose.Note.lic");

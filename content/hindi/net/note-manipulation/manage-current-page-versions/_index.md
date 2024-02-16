@@ -15,7 +15,7 @@ url: /hi/net/note-manipulation/manage-current-page-versions/
 
 ट्यूटोरियल में जाने से पहले, सुनिश्चित करें कि आपने निम्नलिखित आवश्यक शर्तें स्थापित कर ली हैं:
 
-1.  .NET के लिए Aspose.Note इंस्टॉल करें: .NET के लिए Aspose.Note को डाउनलोड और इंस्टॉल करें[यहाँ](https://releases.aspose.com/note/net/).
+1. .NET के लिए Aspose.Note इंस्टॉल करें: .NET के लिए Aspose.Note को डाउनलोड और इंस्टॉल करें[यहाँ](https://releases.aspose.com/note/net/).
 
 2. .NET वातावरण से परिचित: .NET वातावरण और C# प्रोग्रामिंग भाषा की बुनियादी समझ।
 

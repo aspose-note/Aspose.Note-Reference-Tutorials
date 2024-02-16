@@ -15,7 +15,7 @@ Trong thế giới phát triển phần mềm, việc quản lý và duy trì c�
 
 Trước khi đi sâu vào hướng dẫn, hãy đảm bảo bạn đã thiết lập các điều kiện tiên quyết sau:
 
-1.  Cài đặt Aspose.Note cho .NET: Tải xuống và cài đặt Aspose.Note cho .NET từ[đây](https://releases.aspose.com/note/net/).
+1. Cài đặt Aspose.Note cho .NET: Tải xuống và cài đặt Aspose.Note cho .NET từ[đây](https://releases.aspose.com/note/net/).
 
 2. Làm quen với Môi trường .NET: Hiểu biết cơ bản về môi trường .NET và ngôn ngữ lập trình C#.
 

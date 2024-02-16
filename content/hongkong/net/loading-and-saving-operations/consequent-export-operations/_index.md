@@ -85,7 +85,7 @@ doc.Save(dataDir + "ConsequentExportOperations_out.bmp");
 
 ## 結論
 
-總之，我們學習如何使用 Aspose.Note for .NET 執行後續導出操作。透過遵循本教學中概述的步驟，您可以無縫地以各種格式儲存 OneNote 文檔，從而增強應用程式的多功能性。
+總之，我們已經學習如何使用 Aspose.Note for .NET 執行後續匯出操作。透過遵循本教學中概述的步驟，您可以無縫地以各種格式儲存 OneNote 文檔，從而增強應用程式的多功能性。
 
 ## 常見問題解答
 

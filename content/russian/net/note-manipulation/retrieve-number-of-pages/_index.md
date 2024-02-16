@@ -17,7 +17,7 @@ Aspose.Note для .NET — это мощная библиотека, котор
 
 ### Visual Studio установлена
 
- Убедитесь, что в вашей системе установлена Visual Studio. Вы можете скачать его с сайта[Веб-сайт](https://visualstudio.microsoft.com/).
+Убедитесь, что в вашей системе установлена Visual Studio. Вы можете скачать его с сайта[Веб-сайт](https://visualstudio.microsoft.com/).
 
 ### Aspose.Note для .NET установлен
 

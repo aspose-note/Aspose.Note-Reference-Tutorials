@@ -1,6 +1,6 @@
 ---
-title: Конвертируйте блокноты в PDF (сведенный) в Aspose Note .NET
-linktitle: Конвертируйте блокноты в PDF (сведенный) в Aspose Note .NET
+title: Преобразование блокнотов в PDF (сведенный) в Aspose Note .NET
+linktitle: Преобразование блокнотов в PDF (сведенный) в Aspose Note .NET
 second_title: Aspose.Note .NET API
 description: Узнайте, как легко конвертировать записные книжки OneNote в плоские PDF-файлы с помощью Aspose.Note для .NET. Сохраняйте свой контент без проблем.
 type: docs

@@ -95,7 +95,7 @@ A3: Hoewel Aspose.Note robuuste mogelijkheden voor conflictoplossing biedt, kunn
 
 ### V4: Kan ik conflictoplossingsprocessen automatiseren met Aspose.Note?
 
-A4: Ja, u kunt de oplossing van conflicten automatiseren door aangepaste logica in uw .NET-applicaties te implementeren met behulp van Aspose.Note API's.
+A4: Ja, u kunt conflictoplossing automatiseren door aangepaste logica te implementeren in uw .NET-applicaties met behulp van Aspose.Note API's.
 
 ### V5: Ondersteunt Aspose.Note realtime samenwerkingsfuncties?
 

@@ -15,7 +15,7 @@ Dans ce didacticiel, nous passerons en revue le processus de gestion des documen
 
 Avant de commencer, assurez-vous d'avoir les prérequis suivants :
 
-1.  Bibliothèque Aspose.Note pour .NET : assurez-vous d'avoir téléchargé et installé la bibliothèque Aspose.Note pour .NET. Vous pouvez le télécharger depuis[ici](https://releases.aspose.com/note/net/).
+1. Bibliothèque Aspose.Note pour .NET : assurez-vous d'avoir téléchargé et installé la bibliothèque Aspose.Note pour .NET. Vous pouvez le télécharger depuis[ici](https://releases.aspose.com/note/net/).
 
 2. Environnement de développement : configurez un environnement de développement avec des fonctionnalités .NET.
 

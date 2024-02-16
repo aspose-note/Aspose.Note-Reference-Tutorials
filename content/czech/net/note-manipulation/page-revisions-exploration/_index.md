@@ -9,7 +9,7 @@ url: /cs/net/note-manipulation/page-revisions-exploration/
 ---
 ## Úvod
 
-V tomto tutoriálu se ponoříme do zkoumání revizí stránek v dokumentech Aspose.Note pomocí rozhraní .NET. Aspose.Note je výkonná knihovna, která umožňuje vývojářům pracovat se soubory Microsoft OneNote programově a nabízí různé funkce pro manipulaci a extrahování dat z těchto souborů.
+tomto tutoriálu se ponoříme do zkoumání revizí stránek v dokumentech Aspose.Note pomocí rozhraní .NET. Aspose.Note je výkonná knihovna, která umožňuje vývojářům pracovat se soubory Microsoft OneNote programově a nabízí různé funkce pro manipulaci a extrahování dat z těchto souborů.
 
 ## Předpoklady
 
@@ -79,7 +79,7 @@ Odpověď 2: Aspose.Note podporuje historii načítání pro formáty souborů .
 
 ### Q3: Je k dispozici bezplatná zkušební verze pro Aspose.Note pro .NET?
 
- A3: Ano, můžete si stáhnout bezplatnou zkušební verzi Aspose.Note pro .NET z[tady](https://releases.aspose.com/).
+A3: Ano, můžete si stáhnout bezplatnou zkušební verzi Aspose.Note pro .NET z[tady](https://releases.aspose.com/).
 
 ### Q4: Jak mohu získat dočasnou licenci pro Aspose.Note pro .NET?
 

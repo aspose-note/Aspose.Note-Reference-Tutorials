@@ -80,7 +80,7 @@ A3：是的，您可以获得免费试用[这里](https://releases.aspose.com/).
 
 ### Q4: 我如何获得支持？
 
- A4：您可以从 Aspose.Note 社区获得支持[论坛](https://forum.aspose.com/c/note/28).
+A4：您可以从 Aspose.Note 社区获得支持[论坛](https://forum.aspose.com/c/note/28).
 
 ### Q5: 你们提供临时许可证吗？
 

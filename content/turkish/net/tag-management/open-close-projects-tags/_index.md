@@ -103,7 +103,7 @@ Cevap1: Aspose.Note, Microsoft OneNote 2010 ve daha yeni sürümleri destekler.
 
 ### S3: Aspose.Note ücretsiz deneme sunuyor mu?
 
-A3: Evet, ücretsiz deneme sürümünden yararlanabilirsiniz[Burada](https://releases.aspose.com/).
+ A3: Evet, ücretsiz deneme sürümünden yararlanabilirsiniz[Burada](https://releases.aspose.com/).
 
 ### S4: Aspose.Note belgelerini nerede bulabilirim?
 
@@ -111,4 +111,4 @@ A3: Evet, ücretsiz deneme sürümünden yararlanabilirsiniz[Burada](https://rel
 
 ### S5: Aspose.Note için nereden destek alabilirim?
 
-Cevap5: Destek için Aspose.Note'u ziyaret edebilirsiniz.[forum](https://forum.aspose.com/c/note/28).
+ Cevap5: Destek için Aspose.Note'u ziyaret edebilirsiniz.[forum](https://forum.aspose.com/c/note/28).

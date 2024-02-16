@@ -11,8 +11,8 @@ url: /nl/net/text-manipulation/set-proofing-language-text/
 Welkom in de wereld van Aspose.Note voor .NET! In deze uitgebreide handleiding verkennen we het fascinerende proces van het instellen van de proeftaal voor tekst met behulp van Aspose.Note. Of u nu een doorgewinterde ontwikkelaar bent of net begint met Aspose.Note, deze tutorial biedt u gedetailleerde inzichten en stapsgewijze instructies om uw vaardigheden op het gebied van tekstmanipulatie te verbeteren.
 ## Vereisten
 Voordat we ingaan op de tutorial, zorg ervoor dat je aan de volgende vereisten voldoet:
--  Aspose.Note voor .NET: Zorg ervoor dat u de nieuwste versie van Aspose.Note voor .NET hebt geïnstalleerd. Je kunt het downloaden[hier](https://releases.aspose.com/note/net/).
-- .NET-ontwikkelomgeving: Zorg ervoor dat er een functionele .NET-ontwikkelomgeving op uw computer aanwezig is.
+- Aspose.Note voor .NET: Zorg ervoor dat u de nieuwste versie van Aspose.Note voor .NET hebt geïnstalleerd. Je kunt het downloaden[hier](https://releases.aspose.com/note/net/).
+- .NET-ontwikkelomgeving: zorg ervoor dat er een functionele .NET-ontwikkelomgeving op uw machine aanwezig is.
 - Teksteditor of IDE: Kies uw favoriete teksteditor of geïntegreerde ontwikkelomgeving (IDE) voor codering.
 Laten we nu aan de slag gaan met het instellen van de taal voor tekst in Aspose.Note!
 ## Naamruimten importeren
@@ -69,7 +69,7 @@ Voeg ten slotte de pagina toe aan het document.
 ```csharp
 document.AppendChildLast(page);
 ```
-## Stap 10: Sla het document op
+## Stap 10: Bewaar het document
 Geef de map op waarin u het document wilt opslaan.
 ```csharp
 document.Save(Path.Combine("Your Document Directory", "SetProofingLanguageForText.one"));

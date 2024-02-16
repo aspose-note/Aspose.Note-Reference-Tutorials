@@ -138,7 +138,7 @@ Câu trả lời 2: Có, bạn có thể chỉnh sửa, sửa đổi và thao t�
 
 ### Câu hỏi 3: Aspose.Note cho .NET có yêu cầu giấy phép sử dụng thương mại không?
 
- Câu trả lời 3: Có, bạn cần có giấy phép sử dụng thương mại Aspose.Note cho .NET. Bạn có thể nhận được giấy phép từ[trang mua hàng](https://purchase.aspose.com/buy).
+Câu trả lời 3: Có, bạn cần có giấy phép sử dụng thương mại Aspose.Note cho .NET. Bạn có thể nhận được giấy phép từ[trang mua hàng](https://purchase.aspose.com/buy).
 
 ### Câu hỏi 4: Có bản dùng thử miễn phí dành cho Aspose.Note dành cho .NET không?
 

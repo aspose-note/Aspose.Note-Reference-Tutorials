@@ -1,6 +1,6 @@
 ---
 title: Opanowanie manipulacji plikami OneNote za pomocą Aspose.Note
-linktitle: Poradniki Aspose.Page
+linktitle: Poradniki Aspose.Note
 additionalTitle: Aspose Referencje API
 description: Opanuj Aspose.Note dzięki samouczkom krok po kroku! Dowiedz się, jak programowo manipulować plikami programu OneNote w celu wydajnego przetwarzania dokumentów.
 type: docs
@@ -9,7 +9,7 @@ url: /pl/
 is_root: true
 ---
 
-Witamy na stronie z listą samouczków Aspose.Note – kompleksowego przewodnika po opanowaniu potężnych możliwości Aspose.Note, wiodącego interfejsu API do manipulacji dokumentami. Niezależnie od tego, czy jesteś doświadczonym programistą, czy nowicjuszem chcącym poznać świat przetwarzania dokumentów, te samouczki mają na celu zapewnienie wskazówek krok po kroku i praktycznych przykładów. Aspose.Note umożliwia programową pracę z plikami Microsoft OneNote, odblokowując niezliczone możliwości tworzenia, modyfikowania i wyodrębniania treści z dokumentów OneNote. Poruszaj się po naszych starannie dobranych samouczkach, aby udoskonalić swoje umiejętności, usprawnić proces programowania i wykorzystać pełny potencjał Aspose.Note w swoich aplikacjach. Wyruszmy razem w tę podróż po wiedzę i efektywność!
+Wyrusz w transformacyjną podróż dzięki samouczkom Aspose.Note, dostosowanym zarówno do platform .NET, jak i Java, aby na nowo zdefiniować swoje podejście do manipulacji dokumentami OneNote. Nasze obszerne przewodniki zapewniają Twoim aplikacjom szczegółowe informacje, obejmujące szeroki zakres tematów, od zawiłości licencjonowania po doskonałą obsługę obrazów. Podnieś swoje umiejętności w zakresie załączników, hiperłączy i manipulacji tekstem, odblokowując pełny potencjał Aspose.Note w celu płynnego tworzenia dokumentów. Zanurz się w precyzyjnym tworzeniu tabel, wydajnym importowaniu plików PDF i mistrzowskim zarządzaniu tagami. Drukuj swoje dzieła w programie OneNote z opcjami dostosowywania i bez trudu przeglądaj operacje ładowania, zapisywania i notatnika. Zrewolucjonizuj swoje doświadczenie w manipulowaniu dokumentami, jeden samouczek na raz, eksplorując te cenne zasoby zarówno dla .NET, jak i Java.
 
 ## Aspose.Note dla samouczków .NET
 {{% alert color="primary" %}}
@@ -31,3 +31,26 @@ Oto linki do przydatnych zasobów:
 - [Zarządzanie tagami](./net/tag-management/)
 - [Manipulacja tekstem](./net/text-manipulation/)
 
+## Aspose.Note dla samouczków Java
+{{% alert color="primary" %}}
+Wyrusz w transformacyjną podróż dzięki samouczkom Aspose.Note for Java, zaprojektowanym w celu podniesienia poziomu doświadczenia OneNote i usprawnienia programowania w języku Java. Zapoznaj się z obszernymi przewodnikami obejmującymi integrację języka Java, manipulację dokumentami, hiperłącza, obrazy, licencjonowanie, optymalizację wydajności, zapisywanie dokumentów, operacje na notatnikach, manipulację stronami, drukowanie, style, manipulację tabelami, operacje na znacznikach, manipulację tekstem i integrację z programem Outlook. Uwolnij pełny potencjał Aspose.Note, zwiększając możliwości przetwarzania dokumentów i opanowując sztukę wydajnego programowania w języku Java. 
+{{% /alert %}}
+
+Oto linki do przydatnych zasobów:
+ 
+- [Integracja z Javą OneNote](./java/onenote-java-integration/)
+- [Manipulacja dokumentami programu OneNote](./java/onenote-document-manipulation/)
+- [Hiperłącza i obrazy programu OneNote](./java/onenote-hyperlinks-images/)
+- [Tekst alternatywny obrazu programu OneNote](./java/onenote-image-alternative-text/)
+- [Licencjonowanie Aspose.Note z Javą](./java/licensing-java/)
+- [Ładowanie dokumentu programu OneNote](./java/onenote-document-loading/)
+- [Optymalizacja wydajności programu OneNote](./java/onenote-performance-optimization/)
+- [Zapisywanie dokumentów programu OneNote](./java/onenote-document-saving/)
+- [Operacje w notesie programu OneNote](./java/onenote-notebook-operations/)
+- [Manipulacja stroną programu OneNote](./java/onenote-page-manipulation/)
+- [Drukowanie dokumentów w programie OneNote](./java/onenote-printing-documents/)
+- [Style OneNota](./java/onenote-styles/)
+- [Manipulacja tabelą OneNote](./java/onenote-table-manipulation/)
+- [Operacje na tagach programu OneNote](./java/onenote-tag-operations/)
+- [Manipulacja tekstem w programie OneNote](./java/onenote-text-manipulation/)
+- [Integracja zadań i Outlooka](./java/task-and-outlook-integration/)

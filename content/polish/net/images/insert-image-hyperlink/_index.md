@@ -40,7 +40,7 @@ var page = new Page(document);
 
 ## Krok 2: Wstaw obraz z hiperłączem
 
- Teraz wstawmy obraz z hiperłączem. Stworzymy`Image` obiekt i ustaw go`HyperlinkUrl` właściwość do żądanego adresu URL.
+Teraz wstawmy obraz z hiperłączem. Stworzymy`Image` obiekt i ustaw go`HyperlinkUrl` właściwość do żądanego adresu URL.
 
 ```csharp
 string imagePath = "path_to_your_image.jpg";

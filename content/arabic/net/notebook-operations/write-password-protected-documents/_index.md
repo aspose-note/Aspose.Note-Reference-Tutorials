@@ -20,7 +20,7 @@ url: /ar/net/notebook-operations/write-password-protected-documents/
 
 ## استيراد مساحات الأسماء
 
-أولاً، لنستورد مساحات الأسماء الضرورية للوصول إلى وظائف Aspose.Note لـ .NET.
+أولاً، لنستورد مساحات الأسماء الضرورية للوصول إلى وظيفة Aspose.Note لـ .NET.
 
 ```csharp
 using System.IO;

@@ -38,7 +38,7 @@ using System.Drawing;
 ## Bước 1: Khởi tạo đối tượng tài liệu
 
 ```csharp
-// Tạo một đối tượng của lớp Tài liệu
+//Tạo một đối tượng của lớp Tài liệu
 Document doc = new Document();
 ```
 

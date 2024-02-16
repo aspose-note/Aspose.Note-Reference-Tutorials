@@ -73,7 +73,7 @@ ParagraphStyle defaultTextStyle = new ParagraphStyle
 RichText titleText = new RichText() { ParagraphStyle = defaultTextStyle }.Append("Title!");
 ```
 
- بناء أ`RichText` كائن للعنوان بالتنسيق المحدد.
+ بناء أ`RichText`كائن للعنوان بالتنسيق المحدد.
 
 ## الخطوة 6: تهيئة كائنات المخطط التفصيلي وعناصر المخطط التفصيلي
 

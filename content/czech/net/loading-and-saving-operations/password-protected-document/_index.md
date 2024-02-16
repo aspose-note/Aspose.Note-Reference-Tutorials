@@ -9,19 +9,19 @@ url: /cs/net/loading-and-saving-operations/password-protected-document/
 ---
 ## Úvod
 
-tomto tutoriálu si projdeme proces manipulace s dokumenty chráněnými heslem pomocí Aspose.Note pro .NET. Ochrana heslem přidává k vašim dokumentům další vrstvu zabezpečení a zajišťuje, že k nim budou mít přístup pouze oprávnění uživatelé.
+V tomto tutoriálu si projdeme proces manipulace s dokumenty chráněnými heslem pomocí Aspose.Note pro .NET. Ochrana heslem přidává k vašim dokumentům další vrstvu zabezpečení a zajišťuje, že k nim budou mít přístup pouze oprávnění uživatelé.
 
 ## Předpoklady
 
 Než začneme, ujistěte se, že máte následující předpoklady:
 
-1.  Aspose.Note for .NET Library: Ujistěte se, že jste si stáhli a nainstalovali knihovnu Aspose.Note for .NET. Můžete si jej stáhnout z[tady](https://releases.aspose.com/note/net/).
+1. Aspose.Note for .NET Library: Ujistěte se, že jste si stáhli a nainstalovali knihovnu Aspose.Note for .NET. Můžete si jej stáhnout z[tady](https://releases.aspose.com/note/net/).
 
 2. Vývojové prostředí: Nastavte vývojové prostředí s možnostmi .NET.
 
 3. Vzorový dokument: Připravte si vzorový dokument chráněný heslem pro testovací účely.
 
-## Importovat jmenné prostory
+## Import jmenných prostorů
 
 Než se ponoříte do implementace, importujte potřebné jmenné prostory:
 

@@ -92,8 +92,8 @@ A3: Aspose.Note si integra perfettamente con altre librerie .NET, fornendo funzi
 
 ### Q4: Come posso ottenere supporto per Aspose.Note?
 
-A4: È possibile ottenere supporto per Aspose.Note visitando il sito[Forum Aspose.Note](https://forum.aspose.com/c/note/28), dove puoi porre domande e trovare soluzioni.
+ A4: È possibile ottenere supporto per Aspose.Note visitando il sito[Forum Aspose.Note](https://forum.aspose.com/c/note/28), dove puoi porre domande e trovare soluzioni.
 
 ### Q5: È disponibile una prova gratuita per Aspose.Note?
 
- A5: Sì, puoi usufruire di una prova gratuita di Aspose.Note visitando[Qui](https://releases.aspose.com/).
+A5: Sì, puoi usufruire di una prova gratuita di Aspose.Note visitando[Qui](https://releases.aspose.com/).

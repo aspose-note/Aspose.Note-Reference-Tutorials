@@ -40,7 +40,7 @@ var page = new Page(document);
 
 ## Stap 2: Afbeelding invoegen met hyperlink
 
- Laten we nu de afbeelding met een hyperlink invoegen. We maken een`Image` object en stel het in`HyperlinkUrl` eigenschap naar de gewenste URL.
+Laten we nu de afbeelding met een hyperlink invoegen. We maken een`Image` object en stel het in`HyperlinkUrl` eigenschap naar de gewenste URL.
 
 ```csharp
 string imagePath = "path_to_your_image.jpg";

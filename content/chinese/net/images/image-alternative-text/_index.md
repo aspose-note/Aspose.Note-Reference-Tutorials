@@ -92,8 +92,8 @@ A3：Aspose.Note 与其他.NET 库无缝集成，为文档操作提供全面的�
 
 ### Q4：如何获得 Aspose.Note 的支持？
 
-A4：您可以通过访问获取 Aspose.Note 支持[Aspose.Note 论坛](https://forum.aspose.com/c/note/28)，您可以在其中提出问题并找到解决方案。
+ A4：您可以通过访问获取 Aspose.Note 支持[Aspose.Note 论坛](https://forum.aspose.com/c/note/28)，您可以在其中提出问题并找到解决方案。
 
 ### Q5：Aspose.Note 有免费试用版吗？
 
- A5：是的，您可以通过访问免费试用 Aspose.Note[这里](https://releases.aspose.com/).
+A5：是的，您可以通过访问免费试用 Aspose.Note[这里](https://releases.aspose.com/).

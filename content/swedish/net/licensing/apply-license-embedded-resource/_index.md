@@ -17,7 +17,7 @@ Innan du börjar, se till att du har följande förutsättningar på plats:
 
 ### 1. Visual Studio installerad
 
- Se till att du har Visual Studio installerat på ditt system. Du kan ladda ner den från[här](https://visualstudio.microsoft.com/).
+Se till att du har Visual Studio installerat på ditt system. Du kan ladda ner den från[här](https://visualstudio.microsoft.com/).
 
 ### 2. Aspose.Note för .NET installerat
 

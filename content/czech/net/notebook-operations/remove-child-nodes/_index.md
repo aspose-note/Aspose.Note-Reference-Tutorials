@@ -18,7 +18,7 @@ Než začneme, ujistěte se, že máte následující předpoklady:
 2.  Instalace Aspose.Note pro .NET: Stáhněte si a nainstalujte knihovnu Aspose.Note pro .NET z[webová stránka](https://releases.aspose.com/note/net/).
 3. Vývojové prostředí: Nastavte vývojové prostředí s kompatibilním IDE, jako je Visual Studio.
 
-## Importovat jmenné prostory
+## Import jmenných prostorů
 
 Než se ponoříte do implementace, nezapomeňte importovat potřebné jmenné prostory:
 

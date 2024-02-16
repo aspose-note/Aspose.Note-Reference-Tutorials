@@ -86,7 +86,7 @@ Ebben az oktatóanyagban lépésről lépésre bemutattuk a kínai számlisták 
 ### K: Az Aspose.Note kompatibilis a .NET legújabb verziójával?
 V: Igen, az Aspose.Note rendszeresen frissül, hogy támogassa a .NET legújabb verzióit.
 ### K: Hol találhatok további példákat és dokumentációt?
- V: Fedezze fel az átfogó[Aspose.Note dokumentáció](https://reference.aspose.com/note/net/).
+V: Fedezze fel az átfogó[Aspose.Note dokumentáció](https://reference.aspose.com/note/net/).
 ### K: Hogyan szerezhetek ideiglenes licencet az Aspose.Note számára?
  V: Szerezzen ideiglenes engedélyt[itt](https://purchase.aspose.com/temporary-license/).
 ### K: Hol kérhetek segítséget vagy vitathatom meg az Aspose.Note-tal kapcsolatos kérdéseket?

@@ -9,7 +9,7 @@ url: /it/net/table-manipulation/extract-text-row/
 ---
 ## introduzione
 
-Nel campo dell'elaborazione dei documenti, Aspose.Note per .NET rappresenta una soluzione solida che consente agli sviluppatori di manipolare in modo efficiente i file OneNote a livello di programmazione. Tra le sue innumerevoli funzionalità, l'estrazione del testo dalle righe della tabella è un'attività comune incontrata dagli sviluppatori. Questo tutorial ti guiderà attraverso il processo di estrazione del testo dalle righe della tabella utilizzando Aspose.Note per .NET.
+Nel campo dell'elaborazione dei documenti, Aspose.Note per .NET rappresenta una soluzione solida che consente agli sviluppatori di manipolare in modo efficiente i file OneNote a livello di codice. Tra le sue innumerevoli funzionalità, l'estrazione del testo dalle righe della tabella è un'attività comune incontrata dagli sviluppatori. Questo tutorial ti guiderà attraverso il processo di estrazione del testo dalle righe della tabella utilizzando Aspose.Note per .NET.
 
 ## Prerequisiti
 

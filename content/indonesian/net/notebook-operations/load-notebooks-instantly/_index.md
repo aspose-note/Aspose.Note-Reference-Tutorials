@@ -61,7 +61,7 @@ foreach (INotebookChildNode notebookChildNode in notebook.OfType<Document>())
 
 ## Kesimpulan
 
- Dalam tutorial ini, kita telah mempelajari cara memuat buku catatan secara instan di Aspose.Note untuk .NET. Dengan mengatur`InstantLoading` bendera di`NotebookLoadOptions`, kami dapat melakukan iterasi secara efisien melalui dokumen yang dimuat sebelumnya di notebook, sehingga meningkatkan kinerja dan produktivitas.
+Dalam tutorial ini, kita telah mempelajari cara memuat buku catatan secara instan di Aspose.Note untuk .NET. Dengan mengatur`InstantLoading` bendera di`NotebookLoadOptions`, kami dapat melakukan iterasi secara efisien melalui dokumen yang dimuat sebelumnya di notebook, sehingga meningkatkan kinerja dan produktivitas.
 
 ## FAQ
 

@@ -92,8 +92,8 @@ A3: Aspose.Note terintegrasi secara mulus dengan perpustakaan .NET lainnya, meny
 
 ### Q4: Bagaimana saya bisa mendapatkan dukungan untuk Aspose.Note?
 
-A4: Anda bisa mendapatkan dukungan untuk Aspose.Note dengan mengunjungi[Aspose.Catatan forum](https://forum.aspose.com/c/note/28), tempat Anda dapat mengajukan pertanyaan dan mencari solusi.
+ A4: Anda bisa mendapatkan dukungan untuk Aspose.Note dengan mengunjungi[Aspose.Catatan forum](https://forum.aspose.com/c/note/28), tempat Anda dapat mengajukan pertanyaan dan mencari solusi.
 
 ### Q5: Apakah ada uji coba gratis yang tersedia untuk Aspose.Note?
 
- A5: Ya, Anda dapat memanfaatkan uji coba gratis Aspose.Note dengan mengunjungi[Di Sini](https://releases.aspose.com/).
+A5: Ya, Anda dapat memanfaatkan uji coba gratis Aspose.Note dengan mengunjungi[Di Sini](https://releases.aspose.com/).

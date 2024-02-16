@@ -15,7 +15,7 @@ Aspose.Note for .NET là một thư viện mạnh mẽ cho phép các nhà phát
 
 Trước khi bắt đầu, hãy đảm bảo bạn có sẵn các điều kiện tiên quyết sau:
 
-1.  Aspose.Note for .NET Library: Đảm bảo rằng bạn đã tải xuống và cài đặt thư viện Aspose.Note for .NET. Bạn có thể tải nó xuống từ[đây](https://releases.aspose.com/note/net/).
+1. Aspose.Note for .NET Library: Đảm bảo rằng bạn đã tải xuống và cài đặt thư viện Aspose.Note for .NET. Bạn có thể tải nó xuống từ[đây](https://releases.aspose.com/note/net/).
 
 2. Môi trường phát triển: Thiết lập môi trường phát triển của bạn với Visual Studio hoặc bất kỳ công cụ phát triển .NET ưa thích nào khác.
 

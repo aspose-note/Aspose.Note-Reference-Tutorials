@@ -11,7 +11,7 @@ url: /ko/net/loading-and-saving-operations/extract-content/
 
 이 튜토리얼에서는 .NET용 Aspose.Note를 사용하여 Aspose.Note 문서에서 콘텐츠를 추출하는 방법을 살펴보겠습니다. Aspose.Note는 Microsoft OneNote 파일을 프로그래밍 방식으로 작업할 수 있는 강력한 라이브러리입니다. 명확성과 이해를 보장하기 위해 각 예를 여러 단계로 나누어 프로세스를 단계별로 살펴보겠습니다.
 
-## 전제 조건
+## 전제조건
 
 시작하기 전에 다음 사항이 있는지 확인하세요.
 
@@ -32,18 +32,18 @@ using System;
 
 ## 1단계: 문서 열기
 
- Aspose.Note 문서에서 콘텐츠를 추출하려면 먼저 작업하려는 문서를 열어야 합니다. 이는 다음을 사용하여 수행됩니다.`Document` Aspose.Note에서 제공하는 클래스입니다.
+ Aspose.Note 문서에서 콘텐츠를 추출하려면 먼저 작업하려는 문서를 열어야 합니다. 이 작업은 다음을 사용하여 수행됩니다.`Document` Aspose.Note에서 제공하는 클래스입니다.
 
 ```csharp
 string dataDir = "Your Document Directory";
 Document doc = new Document(dataDir + "Aspose.one");
 ```
 
- 바꾸다`"Your Document Directory"` Aspose.Note 문서가 있는 디렉토리를 사용하세요. 확장자와 함께 올바른 파일 이름을 제공했는지 확인하십시오.
+ 바꾸다`"Your Document Directory"`Aspose.Note 문서가 있는 디렉토리를 사용하세요. 확장자와 함께 올바른 파일 이름을 제공했는지 확인하십시오.
 
 ## 2단계: DocumentVisitor 만들기
 
- 다음으로 맞춤설정을 만들어 보겠습니다.`DocumentVisitor`문서 내의 다른 노드를 방문합니다. 이 방문자를 통해 문서 구조를 탐색하고 콘텐츠를 추출할 수 있습니다.
+ 다음으로 맞춤설정을 만들어 보겠습니다.`DocumentVisitor` 문서 내의 다른 노드를 방문합니다. 이 방문자를 통해 문서 구조를 탐색하고 콘텐츠를 추출할 수 있습니다.
 
 ```csharp
 public class MyOneNoteToTxtWriter : DocumentVisitor
@@ -74,7 +74,7 @@ public override void VisitPageStart(Page page)
 
 ## 4단계: 텍스트 축적
 
-방문자 클래스 내에서 추출된 텍스트를 StringBuilder에 누적합니다. 이는 방문 프로세스가 완료되면 액세스할 수 있습니다.
+방문자 클래스 내에서 추출된 텍스트를 방문 프로세스가 완료되면 액세스할 수 있는 StringBuilder에 축적합니다.
 
 ```csharp
 private readonly StringBuilder mBuilder;
@@ -97,7 +97,7 @@ public string GetText()
 
 ## 5단계: 방문 실행
 
-마지막으로 다음을 호출하여 방문 프로세스를 실행합니다.`Accept` 문서 객체에 대한 메소드를 사용하여 사용자 정의 방문자 인스턴스를 매개변수로 전달합니다.
+ 마지막으로 다음을 호출하여 방문 프로세스를 실행합니다.`Accept` 문서 객체에 대한 메소드를 사용하여 사용자 정의 방문자 인스턴스를 매개변수로 전달합니다.
 
 ```csharp
 MyOneNoteToTxtWriter myConverter = new MyOneNoteToTxtWriter();

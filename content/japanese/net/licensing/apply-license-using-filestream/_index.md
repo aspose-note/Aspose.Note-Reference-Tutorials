@@ -76,11 +76,11 @@ A1: いいえ、Aspose.Note の全機能を利用するには有効なライセ�
 
 ### Q3: 無料トライアルはありますか?
 
-A3: はい、無料トライアルを利用できます。[ここ](https://releases.aspose.com/).
+ A3: はい、無料トライアルを利用できます。[ここ](https://releases.aspose.com/).
 
 ### Q4: サポートを受けるにはどうすればよいですか?
 
- A4: Aspose.Note コミュニティからサポートを受けることができます。[フォーラム](https://forum.aspose.com/c/note/28).
+A4: Aspose.Note コミュニティからサポートを受けることができます。[フォーラム](https://forum.aspose.com/c/note/28).
 
 ### Q5: 一時ライセンスは提供していますか?
 

@@ -142,8 +142,8 @@ A3: Ja, Aspose.Note voor .NET kan naadloos worden geïntegreerd met andere .NET-
 
 ### V4: Is er technische ondersteuning beschikbaar voor Aspose.Note voor .NET?
 
- A4: Ja, u kunt toegang krijgen tot technische ondersteuning via de[Aspose.Note-forum](https://forum.aspose.com/c/note/28) waar experts beschikbaar zijn om u te helpen met eventuele vragen of problemen die u tegenkomt.
+A4: Ja, u kunt toegang krijgen tot technische ondersteuning via de[Aspose.Note-forum](https://forum.aspose.com/c/note/28) waar experts beschikbaar zijn om u te helpen met eventuele vragen of problemen die u tegenkomt.
 
 ### V5: Kan ik Aspose.Note voor .NET uitproberen voordat ik een aankoop doe?
 
- A5: Ja, u kunt een gratis proefversie van Aspose.Note voor .NET downloaden van[hier](https://releases.aspose.com/)om de functies en compatibiliteit ervan met uw vereisten te evalueren.
+ A5: Ja, u kunt een gratis proefversie van Aspose.Note voor .NET downloaden van[hier](https://releases.aspose.com/) om de functies en compatibiliteit ervan met uw vereisten te evalueren.

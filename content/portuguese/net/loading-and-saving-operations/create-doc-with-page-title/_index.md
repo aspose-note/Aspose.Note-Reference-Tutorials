@@ -44,10 +44,10 @@ using System.Globalization;
 
 Agora, vamos dividir o processo de criação de um documento com título de página em várias etapas:
 
-## Etapa 1: criar um objeto de documento
+## Etapa 1: crie um objeto de documento
 
 ```csharp
-// Crie um objeto da classe Document
+//Crie um objeto da classe Document
 Document doc = new Aspose.Note.Document();
 ```
 

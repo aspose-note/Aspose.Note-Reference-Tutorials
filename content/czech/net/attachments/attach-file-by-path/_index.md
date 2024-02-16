@@ -23,7 +23,7 @@ Než se pustíte do používání Aspose.Note pro .NET, ujistěte se, že máte 
 
 4. Základní porozumění OneNotu: I když to není povinné, základní znalost struktury a konceptů OneNotu bude přínosem.
 
-## Importovat jmenné prostory
+## Import jmenných prostorů
 
 Abyste mohli ve svém projektu používat Aspose.Note pro .NET, musíte importovat potřebné jmenné prostory. Můžete to udělat takto:
 
@@ -138,7 +138,7 @@ Odpověď 2: Ano, existující soubory OneNote můžete upravovat, upravovat a m
 
 ### Q3: Vyžaduje Aspose.Note pro .NET licenci pro komerční použití?
 
- A3: Ano, musíte získat licenci pro komerční použití Aspose.Note pro .NET. Licenci můžete získat od[nákupní stránku](https://purchase.aspose.com/buy).
+A3: Ano, musíte získat licenci pro komerční použití Aspose.Note pro .NET. Licenci můžete získat od[nákupní stránku](https://purchase.aspose.com/buy).
 
 ### Q4: Je k dispozici bezplatná zkušební verze pro Aspose.Note pro .NET?
 

@@ -86,7 +86,7 @@ Bu eğitimde, Çince sayı listelerini Aspose.Note for .NET belgelerinize adım 
 ### S: Aspose.Note .NET'in en son sürümüyle uyumlu mu?
 C: Evet, Aspose.Note, .NET'in en son sürümlerini destekleyecek şekilde düzenli olarak güncellenmektedir.
 ### S: Ek örnekleri ve belgeleri nerede bulabilirim?
- C: Kapsamlı olanı keşfedin[Aspose.Note belgeleri](https://reference.aspose.com/note/net/).
+C: Kapsamlı olanı keşfedin[Aspose.Note belgeleri](https://reference.aspose.com/note/net/).
 ### S: Aspose.Note için nasıl geçici lisans alabilirim?
  C: Geçici bir lisans alın[Burada](https://purchase.aspose.com/temporary-license/).
 ### S: Nereden yardım alabilirim veya Aspose.Note ile ilgili soruları tartışabilirim?

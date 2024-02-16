@@ -17,7 +17,7 @@ Voordat we beginnen, zorg ervoor dat u aan de volgende vereisten voldoet:
 
 ### Visual Studio geïnstalleerd
 
- Zorg ervoor dat Visual Studio op uw systeem is geïnstalleerd. Je kunt het downloaden van de[website](https://visualstudio.microsoft.com/).
+Zorg ervoor dat Visual Studio op uw systeem is geïnstalleerd. Je kunt het downloaden van de[website](https://visualstudio.microsoft.com/).
 
 ### Aspose.Note voor .NET geïnstalleerd
 

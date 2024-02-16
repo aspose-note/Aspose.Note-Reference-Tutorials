@@ -58,7 +58,7 @@ Na koniec wyświetl komunikat o powodzeniu, aby poinformować użytkownika:
 Console.WriteLine("\nText's recent changes are highlighted successfully.");
 ```
 ## Wniosek
-W tym samouczku omówiliśmy, jak używać Aspose.Note dla .NET do podświetlania wszystkich ostatnich zmian w tekście w dokumencie Note. Ta funkcja poprawia widoczność dokumentu i stanowi cenne uzupełnienie zestawu narzędzi do pracy z plikami Note.
+tym samouczku omówiliśmy, jak używać Aspose.Note dla .NET do podświetlania wszystkich ostatnich zmian w tekście w dokumencie Note. Ta funkcja poprawia widoczność dokumentu i stanowi cenne uzupełnienie zestawu narzędzi do pracy z plikami Note.
 ## Często zadawane pytania
 ### Czy mogę zastosować różne kolory podświetlenia dla różnych okresów czasu?
 Tak, możesz dostosować kod, aby ustawić różne kolory podświetlenia w zależności od konkretnych wymagań.

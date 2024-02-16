@@ -72,7 +72,7 @@ Ebben az oktatóanyagban megtanultuk, hogyan konvertálhat OneNote-jegyzetfüzet
 
 ### 3. kérdés: Elérhető-e próbaverzió az Aspose.Note-hoz .NET-hez?
 
- 3. válasz: Igen, letölthet egy ingyenes próbaverziót a webhelyről[itt](https://releases.aspose.com/), amely lehetővé teszi a funkciók felfedezését a vásárlás előtt.
+3. válasz: Igen, letölthet egy ingyenes próbaverziót a webhelyről[itt](https://releases.aspose.com/), amely lehetővé teszi a funkciók felfedezését a vásárlás előtt.
 
 ### 4. kérdés: Hogyan kaphatok támogatást az Aspose.Note for .NET számára?
 

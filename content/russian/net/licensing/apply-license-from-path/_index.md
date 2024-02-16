@@ -67,7 +67,7 @@ Aspose.Note.License license = new Aspose.Note.License();
 
 ## Шаг 2. Установите лицензию по пути
 
- Далее используйте`SetLicense` метод`License` класс для применения лицензии по указанному пути:
+Далее используйте`SetLicense` метод`License` класс для применения лицензии по указанному пути:
 
 ```csharp
 license.SetLicense("Aspose.Note.lic");

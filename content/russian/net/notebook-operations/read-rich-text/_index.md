@@ -84,7 +84,7 @@ foreach (RichText richTextNode in allRichTextNodes)
 
 ### Вопрос 2. Существует ли бесплатная пробная версия Aspose.Note для .NET?
 
-О2: Да, вы можете получить бесплатную пробную версию Aspose.Note для .NET на сайте[страница выпуска](https://releases.aspose.com/).
+ О2: Да, вы можете получить бесплатную пробную версию Aspose.Note для .NET на сайте[страница выпуска](https://releases.aspose.com/).
 
 ### Вопрос 3: Как я могу получить поддержку Aspose.Note для .NET?
 

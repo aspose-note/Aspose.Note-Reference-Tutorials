@@ -15,7 +15,7 @@ url: /ja/net/note-manipulation/manage-current-page-versions/
 
 チュートリアルに入る前に、次の前提条件が設定されていることを確認してください。
 
-1.  Aspose.Note for .NET をインストールする: Aspose.Note for .NET を次の場所からダウンロードしてインストールします。[ここ](https://releases.aspose.com/note/net/).
+1. Aspose.Note for .NET をインストールする: Aspose.Note for .NET を次の場所からダウンロードしてインストールします。[ここ](https://releases.aspose.com/note/net/).
 
 2. .NET 環境に関する知識: .NET 環境と C# プログラミング言語についての基本的な理解。
 

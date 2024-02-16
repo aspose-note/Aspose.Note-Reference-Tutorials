@@ -1,6 +1,6 @@
 ---
 title: OneNote fájlkezelés elsajátítása az Aspose.Note segítségével
-linktitle: Aspose.Page oktatóanyagok
+linktitle: Aspose.Note oktatóanyagok
 additionalTitle: Aspose API referenciák
 description: Mester Aspose.Note lépésről lépésre oktatóanyagok! Ismerje meg a OneNote-fájlok programozott kezelését a hatékony dokumentumfeldolgozás érdekében.
 type: docs
@@ -9,7 +9,7 @@ url: /hu/
 is_root: true
 ---
 
-Üdvözöljük az Aspose.Note oktatóanyagok listázási oldalán – átfogó útmutató az Aspose.Note, a vezető dokumentumkezelési API hatékony képességeinek elsajátításához. Akár tapasztalt fejlesztő, akár újonc, aki szívesen fedezné fel a dokumentumfeldolgozás világát, ezek az oktatóanyagok úgy készültek, hogy lépésről lépésre útmutatást és gyakorlati példákat nyújtsanak Önnek. Az Aspose.Note lehetővé teszi, hogy programozottan dolgozzon a Microsoft OneNote fájlokkal, és számtalan lehetőséget kínál a OneNote-dokumentumok tartalmának létrehozására, módosítására és kibontására. Navigáljon gondosan összeállított oktatóanyagaink között, hogy javítsa készségeit, ésszerűsítse a fejlesztési folyamatot, és kihasználja az Aspose.Note teljes potenciálját alkalmazásaiban. Induljunk el együtt erre a tudás és hatékonyság útjára!
+Induljon el egy átalakuló utazásra a .NET és Java platformra szabott Aspose.Note oktatóanyagok segítségével, hogy újradefiniálja a OneNote dokumentumkezelési megközelítését. Átfogó útmutatóink lépésről-lépésre betekintést nyújtanak az alkalmazásaiba, amelyek a témakörök széles skáláját fedik le, az engedélyezési bonyodalmaktól a képkezelési ragyogásig. Növelje készségeit a mellékletek, hiperhivatkozások és szövegmanipuláció terén, felszabadítva az Aspose.Note-ban rejlő lehetőségeket a zökkenőmentes dokumentumfejlesztés érdekében. Merüljön el a precíz táblázatkészítésben, a hatékony PDF-importálásban és a mesteri címkekezelésben. Nyomtassa ki OneNote-alkotásait testreszabási lehetőségekkel, és könnyedén fedezze fel a betöltési, mentési és a jegyzetfüzet műveleteit. Forradalmasítsa dokumentumkezelési tapasztalatát, egy-egy oktatóanyaggal, miközben felfedezi ezeket az értékes erőforrásokat a .NET és a Java számára egyaránt.
 
 ## Aspose.Note .NET oktatóanyagokhoz
 {{% alert color="primary" %}}
@@ -31,3 +31,26 @@ Ezek a linkek néhány hasznos forráshoz:
 - [Címkekezelés](./net/tag-management/)
 - [Szövegmanipuláció](./net/text-manipulation/)
 
+## Aspose.Note a Java oktatóanyagokhoz
+{{% alert color="primary" %}}
+Induljon el egy átalakuló utazásra az Aspose.Note for Java oktatóanyagaival, amelyek célja a OneNote-élmény fokozása és a Java-fejlesztés egyszerűsítése. Merüljön el a Java integrációt, dokumentumkezelést, hiperhivatkozásokat, képeket, licencelést, teljesítményoptimalizálást, dokumentummentést, jegyzetfüzet-műveleteket, oldalkezelést, nyomtatást, stílusokat, táblázatkezelést, címkeműveleteket, szövegkezelést és Outlook-integrációt tartalmazó átfogó útmutatókba. Engedje szabadjára az Aspose.Note-ban rejlő lehetőségeket, javítsa dokumentumfeldolgozási képességeit, és sajátítsa el a hatékony Java-fejlesztés művészetét. 
+{{% /alert %}}
+
+Ezek a linkek néhány hasznos forráshoz:
+ 
+- [OneNote Java integráció](./java/onenote-java-integration/)
+- [OneNote-dokumentummanipuláció](./java/onenote-document-manipulation/)
+- [OneNote hiperhivatkozások és képek](./java/onenote-hyperlinks-images/)
+- [OneNote kép alternatív szöveg](./java/onenote-image-alternative-text/)
+- [Aspose.Note licencelés Java-val](./java/licensing-java/)
+- [OneNote-dokumentum betöltése](./java/onenote-document-loading/)
+- [OneNote teljesítményoptimalizálás](./java/onenote-performance-optimization/)
+- [OneNote-dokumentummentés](./java/onenote-document-saving/)
+- [OneNote notebook műveletek](./java/onenote-notebook-operations/)
+- [OneNote oldalkezelés](./java/onenote-page-manipulation/)
+- [OneNote dokumentumok nyomtatása](./java/onenote-printing-documents/)
+- [OneNote stílusok](./java/onenote-styles/)
+- [OneNote táblázatkezelés](./java/onenote-table-manipulation/)
+- [OneNote címkeműveletek](./java/onenote-tag-operations/)
+- [OneNote szövegmanipuláció](./java/onenote-text-manipulation/)
+- [Task és Outlook integráció](./java/task-and-outlook-integration/)

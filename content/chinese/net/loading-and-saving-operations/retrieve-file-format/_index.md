@@ -74,7 +74,7 @@ A2：Aspose.Note 与 .NET Framework、.NET Core 和 .NET Standard 兼容。
 
 ### Q3：我可以在购买前试用 Aspose.Note 吗？
 
- A3：是的，您可以通过以下网站上的免费试用版来探索 Aspose.Note 的功能：[网站](https://releases.aspose.com/).
+A3：是的，您可以通过以下网站上的免费试用版来探索 Aspose.Note 的功能：[网站](https://releases.aspose.com/).
 
 ### Q4：如何获得 Aspose.Note 的支持？
 
@@ -82,4 +82,4 @@ A4：如需任何技术帮助或疑问，您可以访问[Aspose.Note 论坛](htt
 
 ### Q5：出于评估目的，我需要临时许可证吗？
 
-A5：虽然免费试用版允许您测试 Aspose.Note，但您可以选择临时许可证来进行扩展评估。访问[这里](https://purchase.aspose.com/temporary-license/)更多细节。
+ A5：虽然免费试用版允许您测试 Aspose.Note，但您可以选择临时许可证来进行扩展评估。访问[这里](https://purchase.aspose.com/temporary-license/)更多细节。

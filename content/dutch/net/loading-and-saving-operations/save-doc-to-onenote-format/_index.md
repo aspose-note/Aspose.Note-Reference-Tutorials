@@ -17,7 +17,7 @@ Voordat u in deze zelfstudie duikt, moet u ervoor zorgen dat u aan de volgende v
 
 1. Kennis van C# en .NET-ontwikkeling: deze tutorial gaat uit van een basiskennis van de programmeertaal C# en het .NET-framework.
 
-2. Installatie van Aspose.Note voor .NET: Download en installeer de Aspose.Note voor .NET-bibliotheek van de[website](https://releases.aspose.com/note/net/).
+2.  Installatie van Aspose.Note voor .NET: Download en installeer de Aspose.Note voor .NET-bibliotheek van de[website](https://releases.aspose.com/note/net/).
 
 3. Ontwikkelomgeving: Stel uw ontwikkelomgeving in met Visual Studio of een andere gewenste IDE voor .NET-ontwikkeling.
 

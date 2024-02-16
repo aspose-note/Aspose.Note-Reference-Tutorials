@@ -25,7 +25,7 @@ Aspose.Note の機能を利用するには、.NET プロジェクトに必要な
 ```csharp
 string dataDir = "Your Document Directory";
 ```
-交換する`"Your Document Directory"`Aspose.Note ドキュメントへのパスを置き換えます。
+交換する`"Your Document Directory"` Aspose.Note ドキュメントへのパスを置き換えます。
 ## ステップ 2: 置換を定義する
 ```csharp
 Dictionary<string, string> replacements = new Dictionary<string, string>();

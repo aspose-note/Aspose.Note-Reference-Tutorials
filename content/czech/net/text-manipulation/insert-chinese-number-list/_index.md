@@ -13,7 +13,7 @@ Chcete zlepšit své dovednosti Aspose.Note for .NET začleněním čínských �
 Než se pustíme do výukového programu, ujistěte se, že máte splněny následující předpoklady:
 - Základní znalost programování v C#.
 -  Aspose.Note pro .NET nainstalován. Můžete si jej stáhnout[tady](https://releases.aspose.com/note/net/).
-## Importovat jmenné prostory
+## Import jmenných prostorů
 Chcete-li začít, importujte do projektu potřebné jmenné prostory:
 ```csharp
 using System;
@@ -86,7 +86,7 @@ V tomto tutoriálu jsme se zabývali procesem začlenění čínských číseln�
 ### Otázka: Je Aspose.Note kompatibilní s nejnovější verzí .NET?
 Odpověď: Ano, Aspose.Note je pravidelně aktualizován, aby podporoval nejnovější verze .NET.
 ### Otázka: Kde najdu další příklady a dokumentaci?
- Odpověď: Prozkoumejte komplexní[Aspose.Note dokumentaci](https://reference.aspose.com/note/net/).
+Odpověď: Prozkoumejte komplexní[Aspose.Note dokumentaci](https://reference.aspose.com/note/net/).
 ### Otázka: Jak mohu získat dočasnou licenci pro Aspose.Note?
  A: Získejte dočasnou licenci[tady](https://purchase.aspose.com/temporary-license/).
 ### Otázka: Kde mohu vyhledat pomoc nebo prodiskutovat dotazy týkající se Aspose.Note?

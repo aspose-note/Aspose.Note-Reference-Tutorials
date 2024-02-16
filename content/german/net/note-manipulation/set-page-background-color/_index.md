@@ -70,7 +70,7 @@ Speichern Sie abschließend das geänderte Dokument:
 document.Save(Path.Combine(dataDir, "SetPageBackgroundColor.one"));
 ```
 
- Stellen Sie sicher, dass Sie es ersetzen`"SetPageBackgroundColor.one"`mit dem gewünschten Dateinamen für das geänderte Dokument.
+ Stellen Sie sicher, dass Sie es ersetzen`"SetPageBackgroundColor.one"` mit dem gewünschten Dateinamen für das geänderte Dokument.
 
 ## Abschluss
 
@@ -88,7 +88,7 @@ A2: Aspose.Note konzentriert sich hauptsächlich auf die Arbeit mit OneNote-Doku
 
 ### F3: Gibt es eine Testversion für Aspose.Note für .NET?
 
- A3: Ja, Sie können eine kostenlose Testversion herunterladen von[Hier](https://releases.aspose.com/).
+A3: Ja, Sie können eine kostenlose Testversion herunterladen von[Hier](https://releases.aspose.com/).
 
 ### F4: Kann ich zu Testzwecken temporäre Lizenzen erhalten?
 

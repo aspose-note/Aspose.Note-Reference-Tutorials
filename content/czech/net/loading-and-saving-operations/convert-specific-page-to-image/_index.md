@@ -19,7 +19,7 @@ Než se pustíme do používání Aspose.Note pro .NET k převodu stránek OneNo
 -  Aspose.Note pro .NET: Stáhněte a nainstalujte Aspose.Note pro .NET z[tady](https://releases.aspose.com/note/net/).
 - Microsoft OneNote: Abyste mohli vytvářet nebo získávat dokumenty OneNotu, budete potřebovat OneNote nainstalovaný v systému.
 
-## Importovat jmenné prostory
+## Import jmenných prostorů
 
 Ve svém projektu C# importujte potřebné jmenné prostory pro přístup k třídám a metodám Aspose.Note for .NET.
 

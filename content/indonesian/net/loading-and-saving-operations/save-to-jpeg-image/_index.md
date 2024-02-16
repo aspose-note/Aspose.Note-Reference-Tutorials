@@ -15,7 +15,7 @@ Dalam tutorial ini, kita akan mempelajari penggunaan Aspose.Note untuk .NET untu
 
 Sebelum melanjutkan, pastikan Anda memiliki hal berikut:
 - Pemahaman dasar tentang kerangka C# dan .NET.
--  Aspose.Note untuk .NET diinstal. Jika tidak, Anda dapat mengunduhnya dari[Di Sini](https://releases.aspose.com/note/net/).
+- Aspose.Note untuk .NET diinstal. Jika tidak, Anda dapat mengunduhnya dari[Di Sini](https://releases.aspose.com/note/net/).
 - Lingkungan Pengembangan Terpadu (IDE) seperti Visual Studio.
 - Contoh file dokumen untuk dikerjakan.
 
@@ -54,7 +54,7 @@ dataDir = dataDir + "SaveToJpegImageUsingSaveFormat_out.jpg";
 Simpan dokumen yang dimuat ke format JPEG:
 
 ```csharp
-//Simpan dokumennya.
+// Simpan dokumennya.
 oneFile.Save(dataDir, SaveFormat.Jpeg);
 ```
 
@@ -82,4 +82,4 @@ A3: Ya, Aspose.Note mendukung penyimpanan dokumen ke berbagai format gambar, ter
 
 ### Q5: Bagaimana saya bisa mendapatkan bantuan jika saya menemui masalah?
 
-A5: Anda dapat mencari bantuan dari forum komunitas Aspose[Di Sini](https://forum.aspose.com/c/note/28), atau hubungi tim dukungan mereka untuk mendapatkan bantuan yang dipersonalisasi.
+ A5: Anda dapat mencari bantuan dari forum komunitas Aspose[Di Sini](https://forum.aspose.com/c/note/28), atau hubungi tim dukungan mereka untuk mendapatkan bantuan yang dipersonalisasi.

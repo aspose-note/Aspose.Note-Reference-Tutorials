@@ -2,7 +2,7 @@
 title: Получение документов из записной книжки OneNote в Aspose Note .NET
 linktitle: Получение документов из записной книжки OneNote в Aspose Note .NET
 second_title: Aspose.Note .NET API
-description: Узнайте, как программно извлекать документы из записных книжек OneNote с помощью Aspose.Note для .NET, что обеспечивает плавную интеграцию и манипулирование.
+description: Узнайте, как программно извлекать документы из записных книжек OneNote с помощью Aspose.Note для .NET, обеспечивая плавную интеграцию и манипулирование.
 type: docs
 weight: 25
 url: /ru/net/notebook-operations/retrieve-documents-from-onenote-notebook/

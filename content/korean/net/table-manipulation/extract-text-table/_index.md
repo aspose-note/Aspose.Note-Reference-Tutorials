@@ -11,7 +11,7 @@ url: /ko/net/table-manipulation/extract-text-table/
 
 이 튜토리얼에서는 .NET 프레임워크와 C#을 사용하여 Aspose.Note의 테이블에서 텍스트를 추출하는 방법을 살펴보겠습니다. Aspose.Note는 개발자가 프로그래밍 방식으로 Microsoft OneNote 파일을 사용하여 OneNote 문서 생성, 읽기, 조작 및 변환과 같은 다양한 작업을 수행할 수 있도록 하는 강력한 API입니다.
 
-## 전제 조건
+## 전제조건
 
 시작하기 전에 다음 사항이 있는지 확인하세요.
 

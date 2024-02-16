@@ -16,7 +16,7 @@ Nel mondo della gestione e modifica dei documenti, è fondamentale avere la capa
 Prima di immergerti in questo tutorial, assicurati di possedere i seguenti prerequisiti:
 
 1. Comprensione di base di C#: è necessaria la familiarità con il linguaggio di programmazione C# insieme agli esempi di codice.
-2.  Aspose.Note per la libreria .NET: installa la libreria Aspose.Note per .NET nel tuo ambiente di sviluppo. Puoi scaricarlo da[Qui](https://releases.aspose.com/note/net/).
+2. Aspose.Note per la libreria .NET: installa la libreria Aspose.Note per .NET nel tuo ambiente di sviluppo. Puoi scaricarlo da[Qui](https://releases.aspose.com/note/net/).
 3. Ambiente di sviluppo integrato (IDE): disporre di un IDE come Visual Studio installato sul sistema.
 
 ## Importa spazi dei nomi

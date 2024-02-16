@@ -72,7 +72,7 @@ A2: Ja, naast afbeeldingen ondersteunt Aspose.Note voor .NET conversie naar vers
 
 ### V3: Is er een proefversie beschikbaar voor Aspose.Note voor .NET?
 
- A3: Ja, u kunt een gratis proefversie downloaden van[hier](https://releases.aspose.com/), zodat u de functies kunt verkennen voordat u een aankoop doet.
+A3: Ja, u kunt een gratis proefversie downloaden van[hier](https://releases.aspose.com/), zodat u de functies kunt verkennen voordat u een aankoop doet.
 
 ### V4: Hoe kan ik ondersteuning krijgen voor Aspose.Note voor .NET?
 

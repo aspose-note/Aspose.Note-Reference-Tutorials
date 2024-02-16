@@ -16,7 +16,7 @@ No mundo do gerenciamento e edição de documentos, é crucial ter a capacidade 
 Antes de mergulhar neste tutorial, certifique-se de ter os seguintes pré-requisitos:
 
 1. Compreensão básica de C#: É necessária familiaridade com a linguagem de programação C# para acompanhar os exemplos de código.
-2.  Biblioteca Aspose.Note for .NET: Instale a biblioteca Aspose.Note for .NET em seu ambiente de desenvolvimento. Você pode baixá-lo em[aqui](https://releases.aspose.com/note/net/).
+2. Biblioteca Aspose.Note for .NET: Instale a biblioteca Aspose.Note for .NET em seu ambiente de desenvolvimento. Você pode baixá-lo em[aqui](https://releases.aspose.com/note/net/).
 3. Ambiente de Desenvolvimento Integrado (IDE): Tenha um IDE como o Visual Studio instalado em seu sistema.
 
 ## Importar namespaces

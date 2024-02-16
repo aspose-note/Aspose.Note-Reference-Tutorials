@@ -103,7 +103,7 @@ A1: Aspose.Note Microsoft OneNote 2010 और नए संस्करणों
 
 ### Q3: क्या Aspose.Note निःशुल्क परीक्षण की पेशकश करता है?
 
-उ3: हाँ, आप निःशुल्क परीक्षण प्राप्त कर सकते हैं[यहाँ](https://releases.aspose.com/).
+ उ3: हाँ, आप निःशुल्क परीक्षण प्राप्त कर सकते हैं[यहाँ](https://releases.aspose.com/).
 
 ### Q4: मुझे Aspose.Note के लिए दस्तावेज़ कहां मिल सकते हैं?
 
@@ -111,4 +111,4 @@ A1: Aspose.Note Microsoft OneNote 2010 और नए संस्करणों
 
 ### Q5: मुझे Aspose.Note के लिए समर्थन कहाँ से मिल सकता है?
 
-A5: समर्थन के लिए, आप Aspose.Note पर जा सकते हैं[मंच](https://forum.aspose.com/c/note/28).
+ A5: समर्थन के लिए, आप Aspose.Note पर जा सकते हैं[मंच](https://forum.aspose.com/c/note/28).

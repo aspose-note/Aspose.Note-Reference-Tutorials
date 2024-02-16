@@ -15,7 +15,7 @@ Bu eğitimde, bir belgeyi JPEG formatında kaydetmek için Aspose.Note for .NET'
 
 Devam etmeden önce aşağıdakilere sahip olduğunuzdan emin olun:
 - C# ve .NET çerçevesine ilişkin temel anlayış.
--  Aspose.Note for .NET kuruldu. Değilse, adresinden indirebilirsiniz.[Burada](https://releases.aspose.com/note/net/).
+- Aspose.Note for .NET kuruldu. Değilse, adresinden indirebilirsiniz.[Burada](https://releases.aspose.com/note/net/).
 - Visual Studio gibi bir Entegre Geliştirme Ortamı (IDE).
 - Üzerinde çalışılacak örnek belge dosyaları.
 
@@ -54,7 +54,7 @@ dataDir = dataDir + "SaveToJpegImageUsingSaveFormat_out.jpg";
 Yüklenen belgeyi JPEG formatında kaydedin:
 
 ```csharp
-//Belgeyi kaydedin.
+// Belgeyi kaydedin.
 oneFile.Save(dataDir, SaveFormat.Jpeg);
 ```
 
@@ -82,4 +82,4 @@ Cevap3: Evet, Aspose.Note, belgelerin JPEG, PNG, TIFF ve daha fazlası dahil olm
 
 ### S5: Herhangi bir sorunla karşılaşırsam nasıl yardım alabilirim?
 
-Cevap5: Aspose topluluk forumundan yardım isteyebilirsiniz[Burada](https://forum.aspose.com/c/note/28)veya kişiselleştirilmiş yardım için destek ekibine ulaşın.
+ Cevap5: Aspose topluluk forumundan yardım isteyebilirsiniz[Burada](https://forum.aspose.com/c/note/28)veya kişiselleştirilmiş yardım için destek ekibine ulaşın.

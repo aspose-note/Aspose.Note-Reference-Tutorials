@@ -106,4 +106,4 @@ Cevap4: Evet, Aspose.Note for .NET, veri güvenliğini sağlamak için belge şi
 
 ### S5: Aspose.Note for .NET için daha fazla kaynağı ve desteği nerede bulabilirim?
 
- A5: keşfedebilirsiniz[.NET belgeleri için Aspose.Note](https://reference.aspose.com/note/net/) ve yardım isteyin[Aspose.Note forumu](https://forum.aspose.com/c/note/28).
+ A5: keşfedebilirsiniz[.NET belgeleri için Aspose.Note](https://reference.aspose.com/note/net/)ve yardım isteyin[Aspose.Note forumu](https://forum.aspose.com/c/note/28).

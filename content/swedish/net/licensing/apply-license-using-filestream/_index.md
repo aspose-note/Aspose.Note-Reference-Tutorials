@@ -76,11 +76,11 @@ S1: Nej, en giltig licens krävs för att kunna använda alla funktioner i Aspos
 
 ### F3: Finns det en gratis provperiod?
 
-A3: Ja, du kan få en gratis provperiod[här](https://releases.aspose.com/).
+ A3: Ja, du kan få en gratis provperiod[här](https://releases.aspose.com/).
 
 ### F4: Hur kan jag få support?
 
- S4: Du kan få stöd från Aspose.Note-communityt[forum](https://forum.aspose.com/c/note/28).
+S4: Du kan få stöd från Aspose.Note-communityt[forum](https://forum.aspose.com/c/note/28).
 
 ### F5: Erbjuder ni tillfälliga licenser?
 

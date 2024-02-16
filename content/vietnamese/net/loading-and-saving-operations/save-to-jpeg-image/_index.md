@@ -15,7 +15,7 @@ Trong hướng dẫn này, chúng ta sẽ đi sâu vào việc sử dụng Aspos
 
 Trước khi tiếp tục, hãy đảm bảo bạn có những điều sau:
 - Hiểu biết cơ bản về C# và .NET framework.
--  Aspose.Note cho .NET đã được cài đặt. Nếu không, bạn có thể tải nó từ[đây](https://releases.aspose.com/note/net/).
+- Aspose.Note cho .NET đã được cài đặt. Nếu không, bạn có thể tải nó từ[đây](https://releases.aspose.com/note/net/).
 - Môi trường phát triển tích hợp (IDE) như Visual Studio.
 - Các tệp tài liệu mẫu để làm việc.
 
@@ -54,7 +54,7 @@ dataDir = dataDir + "SaveToJpegImageUsingSaveFormat_out.jpg";
 Lưu tài liệu đã tải sang định dạng JPEG:
 
 ```csharp
-//Lưu tài liệu.
+// Lưu tài liệu.
 oneFile.Save(dataDir, SaveFormat.Jpeg);
 ```
 
@@ -82,4 +82,4 @@ Câu trả lời 3: Có, Aspose.Note hỗ trợ lưu tài liệu sang nhiều đ
 
 ### Câu hỏi 5: Làm cách nào tôi có thể nhận được hỗ trợ nếu gặp bất kỳ vấn đề nào?
 
-Câu trả lời 5: Bạn có thể tìm kiếm trợ giúp từ diễn đàn cộng đồng Aspose[đây](https://forum.aspose.com/c/note/28)hoặc liên hệ với nhóm hỗ trợ của họ để được hỗ trợ cá nhân.
+ Câu trả lời 5: Bạn có thể tìm kiếm trợ giúp từ diễn đàn cộng đồng Aspose[đây](https://forum.aspose.com/c/note/28)hoặc liên hệ với nhóm hỗ trợ của họ để được hỗ trợ cá nhân.

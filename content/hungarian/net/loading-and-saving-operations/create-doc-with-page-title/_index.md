@@ -17,7 +17,7 @@ Mielőtt elkezdené, győződjön meg arról, hogy telepítette és beállított
 
 ### A Visual Studio telepítése
 
-1. A Visual Studio letöltése: Ha még nem tette meg, töltse le és telepítse a Visual Studio alkalmazást a Microsoft webhelyéről.
+1. Visual Studio letöltése: Ha még nem tette meg, töltse le és telepítse a Visual Studio alkalmazást a Microsoft webhelyéről.
 
 2. .NET-fejlesztési munkaterhelés telepítése: A telepítési folyamat során ügyeljen arra, hogy a „.NET asztali fejlesztés” munkaterhelést válassza ki, hogy biztosítsa a .NET-fejlesztéshez szükséges összes összetevőt.
 
@@ -47,7 +47,7 @@ Most bontsuk le egy oldalcímmel rendelkező dokumentum létrehozásának folyam
 ## 1. lépés: Hozzon létre egy dokumentumobjektumot
 
 ```csharp
-// Hozzon létre egy objektumot a Dokumentum osztályból
+//Hozzon létre egy objektumot a Dokumentum osztályból
 Document doc = new Aspose.Note.Document();
 ```
 

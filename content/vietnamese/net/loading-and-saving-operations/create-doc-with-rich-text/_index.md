@@ -73,7 +73,7 @@ Xác định kiểu văn bản mặc định sẽ được áp dụng cho toàn 
 RichText titleText = new RichText() { ParagraphStyle = defaultTextStyle }.Append("Title!");
 ```
 
- Xây dựng một`RichText` đối tượng cho tiêu đề với định dạng được chỉ định.
+ Xây dựng một`RichText`đối tượng cho tiêu đề với định dạng được chỉ định.
 
 ## Bước 6: Khởi tạo các đối tượng Outline và Outline Element
 
@@ -87,7 +87,7 @@ Outline outline = new Outline()
 OutlineElement outlineElem = new OutlineElement();
 ```
 
- Tạo nên`Outline` Và`OutlineElement` các đối tượng để tổ chức cấu trúc nội dung.
+ Tạo nên`Outline` Và`OutlineElement` đối tượng để tổ chức cấu trúc nội dung.
 
 ## Bước 7: Xác định kiểu văn bản
 

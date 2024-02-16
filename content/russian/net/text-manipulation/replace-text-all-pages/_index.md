@@ -79,4 +79,4 @@ Console.WriteLine("\nText replaced successfully on all pages.\nFile saved at " +
 ### Вопрос: Где я могу найти дополнительные руководства и документацию по Aspose.Note для .NET?
  А: Посетите[документация](https://reference.aspose.com/note/net/) для получения подробных ресурсов и учебных пособий.
 ### Вопрос: Могу ли я использовать Aspose.Note для коммерческих проектов?
- О: Да, изучите варианты лицензирования и совершайте покупки.[здесь](https://purchase.aspose.com/buy).
+О: Да, изучите варианты лицензирования и совершайте покупки.[здесь](https://purchase.aspose.com/buy).

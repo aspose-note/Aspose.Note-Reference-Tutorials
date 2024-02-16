@@ -11,7 +11,7 @@ url: /zh-hant/net/text-manipulation/set-default-paragraph-style/
 在 .NET 開發領域，Aspose.Note 作為處理 OneNote 檔案的強大工具脫穎而出。它提供的基本功能之一是能夠設定預設段落樣式，使開發人員能夠靈活地控製文件中文字的外觀。在本教學中，我們將深入研究使用 Aspose.Note for .NET 設定預設段落樣式的過程。請跟隨我們分解每個步驟來幫助您掌握文件操作的這一關鍵方面。
 ## 先決條件
 在我們深入學習本教程之前，請確保您具備以下先決條件：
--  Aspose.Note for .NET：確保您已安裝 Aspose.Note 庫 for .NET。您可以從[Aspose.Note .NET 文檔](https://reference.aspose.com/note/net/).
+- Aspose.Note for .NET：確保您已安裝 Aspose.Note 庫 for .NET。您可以從[Aspose.Note .NET 文檔](https://reference.aspose.com/note/net/).
 - 整合開發環境 (IDE)：在您的電腦上安裝一個用於 .NET 開發的可用 IDE，例如 Visual Studio。
 現在您已擁有必要的工具，讓我們繼續執行後續步驟。
 ## 導入命名空間

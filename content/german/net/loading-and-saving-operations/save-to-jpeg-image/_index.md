@@ -15,7 +15,7 @@ In diesem Tutorial befassen wir uns mit der Verwendung von Aspose.Note für .NET
 
 Bevor Sie fortfahren, stellen Sie sicher, dass Sie über Folgendes verfügen:
 - Grundlegendes Verständnis von C# und .NET Framework.
--  Aspose.Note für .NET installiert. Wenn nicht, können Sie es hier herunterladen[Hier](https://releases.aspose.com/note/net/).
+- Aspose.Note für .NET installiert. Wenn nicht, können Sie es hier herunterladen[Hier](https://releases.aspose.com/note/net/).
 - Eine integrierte Entwicklungsumgebung (IDE) wie Visual Studio.
 - Beispieldokumentdateien zum Arbeiten.
 
@@ -54,7 +54,7 @@ dataDir = dataDir + "SaveToJpegImageUsingSaveFormat_out.jpg";
 Speichern Sie das geladene Dokument im JPEG-Format:
 
 ```csharp
-//Speichern Sie das Dokument.
+// Speichern Sie das Dokument.
 oneFile.Save(dataDir, SaveFormat.Jpeg);
 ```
 
@@ -76,10 +76,10 @@ A2: Absolut, Aspose.Note wird regelmäßig aktualisiert, um die Kompatibilität 
 
 A3: Ja, Aspose.Note unterstützt das Speichern von Dokumenten in verschiedenen Bildformaten, einschließlich JPEG, PNG, TIFF und mehr.
 
-### F4: Kann ich Aspose.Note vor dem Kauf ausprobieren?
+### F4: Kann ich Aspose.Note vor dem Kauf testen?
 
  A4: Natürlich können Sie eine kostenlose Testversion von nutzen[Hier](https://releases.aspose.com/) um seine Fähigkeiten zu erkunden.
 
 ### F5: Wie kann ich Hilfe erhalten, wenn ich auf Probleme stoße?
 
-A5: Sie können Hilfe im Aspose-Community-Forum suchen[Hier](https://forum.aspose.com/c/note/28), oder wenden Sie sich für persönliche Unterstützung an ihr Support-Team.
+ A5: Sie können Hilfe im Aspose-Community-Forum suchen[Hier](https://forum.aspose.com/c/note/28), oder wenden Sie sich für persönliche Unterstützung an ihr Support-Team.

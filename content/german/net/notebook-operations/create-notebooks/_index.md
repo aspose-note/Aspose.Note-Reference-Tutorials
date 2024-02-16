@@ -92,7 +92,7 @@ A1: Ja, Aspose.Note für .NET ist mit verschiedenen .NET-Frameworks kompatibel, 
 
 ### F4: Kann ich eine temporäre Lizenz für Aspose.Note für .NET erwerben?
 
- A4: Ja, Sie können eine temporäre Lizenz auf der Aspose-Website erwerben:[Temporäre Lizenz](https://purchase.aspose.com/temporary-license/).
+A4: Ja, Sie können eine temporäre Lizenz auf der Aspose-Website erwerben:[Temporäre Lizenz](https://purchase.aspose.com/temporary-license/).
 
 ### F5: Wo finde ich eine umfassende Dokumentation für Aspose.Note für .NET?
 

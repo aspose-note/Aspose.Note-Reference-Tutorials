@@ -11,7 +11,7 @@ url: /tr/net/text-manipulation/set-default-paragraph-style/
 .NET geliştirme alanında Aspose.Note, OneNote dosyalarıyla çalışmak için güçlü bir araç olarak öne çıkıyor. Sunduğu temel özelliklerden biri, geliştiricilere belgelerindeki metnin görünümünü kontrol etme esnekliği sağlayan varsayılan paragraf stillerini ayarlama yeteneğidir. Bu eğitimde, Aspose.Note for .NET'i kullanarak varsayılan paragraf stillerini ayarlama sürecini derinlemesine inceleyeceğiz. Belge manipülasyonunun bu önemli yönünde uzmanlaşmanıza yardımcı olmak için her adımı ayrıntılı olarak takip edin.
 ## Önkoşullar
 Eğiticiye dalmadan önce aşağıdaki önkoşulların mevcut olduğundan emin olun:
--  Aspose.Note for .NET: Aspose.Note for .NET kütüphanesinin kurulu olduğundan emin olun. adresinden indirebilirsiniz.[Aspose.Note .NET Belgeleri](https://reference.aspose.com/note/net/).
+- Aspose.Note for .NET: Aspose.Note for .NET kütüphanesinin kurulu olduğundan emin olun. adresinden indirebilirsiniz.[Aspose.Note .NET Belgeleri](https://reference.aspose.com/note/net/).
 - Tümleşik Geliştirme Ortamı (IDE): Makinenizde Visual Studio gibi .NET geliştirme için çalışan bir IDE'nin yüklü olmasını sağlayın.
 Artık gerekli araçlara sahip olduğunuza göre sonraki adımlara geçebiliriz.
 ## Ad Alanlarını İçe Aktar
@@ -79,4 +79,4 @@ Evet, aynı belgede farklı varsayılan paragraf stillerine sahip birden çok ta
 ### Aspose.Note en yeni .NET çerçeveleriyle uyumlu mu?
 Evet, Aspose.Note en son .NET çerçeveleriyle uyumluluğun sağlanması amacıyla düzenli olarak güncellenmektedir.
 ### Aspose.Note için geçici lisanslar mevcut mu?
-Evet, Aspose.Note için geçici lisansı şu adresten edinebilirsiniz:[Burada](https://purchase.aspose.com/temporary-license/).
+ Evet, Aspose.Note için geçici lisansı şu adresten edinebilirsiniz:[Burada](https://purchase.aspose.com/temporary-license/).

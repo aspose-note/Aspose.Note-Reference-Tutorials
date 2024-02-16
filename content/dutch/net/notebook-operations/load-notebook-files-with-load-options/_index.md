@@ -81,7 +81,7 @@ A1: Ja, Aspose.Note voor .NET biedt uitgebreide API's om programmatisch met Micr
 
 ### V2: Is er een gratis proefversie beschikbaar voor Aspose.Note voor .NET?
 
- A2: Ja, u kunt profiteren van een gratis proefversie van Aspose.Note voor .NET vanaf[hier](https://releases.aspose.com/).
+A2: Ja, u kunt profiteren van een gratis proefversie van Aspose.Note voor .NET vanaf[hier](https://releases.aspose.com/).
 
 ### V3: Waar kan ik documentatie vinden voor Aspose.Note voor .NET?
 

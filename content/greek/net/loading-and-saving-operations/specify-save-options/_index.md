@@ -53,7 +53,7 @@ PdfSaveOptions opts = new PdfSaveOptions
     // Χρησιμοποιήστε συμπίεση Jpeg
     ImageCompression = Saving.Pdf.PdfImageCompression.Jpeg,
     
-    //Ποιότητα για συμπίεση JPEG
+    // Ποιότητα για συμπίεση JPEG
     JpegQuality = 90
 };
 ```

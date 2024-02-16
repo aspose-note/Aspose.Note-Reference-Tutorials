@@ -9,7 +9,7 @@ url: /ko/net/text-manipulation/insert-chinese-number-list/
 ---
 ## 소개
 중국어 번호 목록을 문서에 통합하여 .NET용 Aspose.Note 기술을 향상시키고 싶으십니까? 그렇다면, 당신은 바로 이곳에 있습니다! 이 튜토리얼에서는 .NET용 Aspose.Note를 사용하여 중국어 숫자 목록을 삽입하는 과정을 안내합니다. 이 강력한 라이브러리를 사용하면 OneNote 문서를 원활하게 조작할 수 있습니다.
-## 전제 조건
+## 전제조건
 튜토리얼을 시작하기 전에 다음 전제 조건이 충족되었는지 확인하세요.
 - C# 프로그래밍에 대한 기본 지식.
 -  .NET용 Aspose.Note가 설치되었습니다. 당신은 그것을 다운로드 할 수 있습니다[여기](https://releases.aspose.com/note/net/).
@@ -86,7 +86,7 @@ Console.WriteLine("\nChinese number list inserted successfully.\nFile saved at "
 ### Q: Aspose.Note는 최신 버전의 .NET과 호환됩니까?
 A: 예, Aspose.Note는 최신 버전의 .NET을 지원하도록 정기적으로 업데이트됩니다.
 ### Q: 추가 예제와 문서는 어디에서 찾을 수 있습니까?
- A: 포괄적인 탐색[Aspose.Note 문서](https://reference.aspose.com/note/net/).
+A: 포괄적인 탐색[Aspose.Note 문서](https://reference.aspose.com/note/net/).
 ### Q: Aspose.Note의 임시 라이선스는 어떻게 얻을 수 있나요?
  A: 임시 면허를 취득하세요[여기](https://purchase.aspose.com/temporary-license/).
 ### Q: Aspose.Note 관련 질문에 대해 도움을 구하거나 논의할 수 있는 곳은 어디입니까?

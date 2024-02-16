@@ -61,7 +61,7 @@ Başlık stillerinin başarıyla güncellendiğini belirten bir onay mesajı yaz
 Tebrikler! Aspose.Note for .NET'te sayfa başlığı stillerini nasıl değiştireceğinizi başarıyla öğrendiniz. Bu basit ama güçlü özellik, belgelerinizin görsel çekiciliğini önemli ölçüde artırabilir.
 ## SSS
 ### Aspose.Note en son .NET framework sürümleriyle uyumlu mu?
-Aspose.Note, en yenileri de dahil olmak üzere çok çeşitli .NET framework sürümleriyle uyumlu olacak şekilde tasarlanmıştır. Bakın[dokümantasyon](https://reference.aspose.com/note/net/) ayrıntılı uyumluluk bilgileri için.
+ Aspose.Note, en yenileri de dahil olmak üzere çok çeşitli .NET framework sürümleriyle uyumlu olacak şekilde tasarlanmıştır. Bakın[dokümantasyon](https://reference.aspose.com/note/net/) ayrıntılı uyumluluk bilgileri için.
 ### Satın almadan önce Aspose.Note'u deneyebilir miyim?
  Evet, ücretsiz deneme sürümünü indirerek Aspose.Note'u keşfedebilirsiniz[Burada](https://releases.aspose.com/).
 ### Aspose.Note için nasıl destek alabilirim?

@@ -9,7 +9,7 @@ url: /pl/net/loading-and-saving-operations/save-to-grayscale-image/
 ---
 ## Wstęp
 
-tym samouczku odkryjemy, jak wykorzystać Aspose.Note dla .NET do zapisania dokumentu jako obrazu w skali szarości. Aspose.Note to potężna biblioteka, która umożliwia programistom programową pracę z plikami Microsoft OneNote, zapewniając szeroki zakres funkcjonalności.
+W tym samouczku odkryjemy, jak wykorzystać Aspose.Note dla .NET do zapisania dokumentu jako obrazu w skali szarości. Aspose.Note to potężna biblioteka, która umożliwia programistom programową pracę z plikami Microsoft OneNote, zapewniając szeroki zakres funkcjonalności.
 
 ## Warunki wstępne
 
@@ -62,7 +62,7 @@ Console.WriteLine("\nOneNote document converted successfully to grayscale image.
 
 ## Wniosek
 
-tym samouczku nauczyliśmy się, jak używać Aspose.Note dla .NET do konwertowania dokumentu na obraz w skali szarości. Wykonując te proste kroki, programiści mogą skutecznie włączyć tę funkcjonalność do swoich aplikacji, zwiększając możliwości przetwarzania dokumentów.
+W tym samouczku nauczyliśmy się, jak używać Aspose.Note dla .NET do konwertowania dokumentu na obraz w skali szarości. Wykonując te proste kroki, programiści mogą skutecznie włączyć tę funkcjonalność do swoich aplikacji, zwiększając możliwości przetwarzania dokumentów.
 
 ## Często zadawane pytania
 

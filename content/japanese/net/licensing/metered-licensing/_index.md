@@ -17,7 +17,7 @@ Aspose.Note for .NET の従量制ライセンスを理解するこの旅に着�
 
 1.  Aspose.Note for .NET のインストール: Aspose.Note for .NET をダウンロードしてインストールしていることを確認します。最新バージョンは次から入手できます。[ダウンロードページ](https://releases.aspose.com/note/net/).
 
-2. Aspose.Note ドキュメントへのアクセス: Aspose.Note for .NET ドキュメントに慣れてください。このドキュメントでは、さまざまな機能についての詳細な洞察が得られます。ドキュメントを参照できます[ここ](https://reference.aspose.com/note/net/).
+2.  Aspose.Note ドキュメントへのアクセス: Aspose.Note for .NET ドキュメントに慣れてください。このドキュメントでは、さまざまな機能についての詳細な洞察が得られます。ドキュメントを参照できます[ここ](https://reference.aspose.com/note/net/).
 
 ## 名前空間のインポート
 

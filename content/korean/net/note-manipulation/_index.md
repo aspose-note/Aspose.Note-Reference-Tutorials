@@ -45,7 +45,7 @@ OneNote 문서에 개인화를 추가해보세요! C#을 사용하여 Aspose.Not
 ## 페이지 개정 작업 - Aspose.Note 팁
  Aspose.Note를 사용하여 Microsoft OneNote 페이지 개정판을 관리하는 기술을 잠금 해제하세요. 당사의 단계별 가이드는 특히 OneNote에 맞춰진 .NET 애플리케이션의 원활한 통합 및 버전 제어를 보장합니다. 탐색[페이지 개정 팁](./working-with-page-revisions/) 오늘 버전관리의 달인이 되어보세요!
 
-지금 Aspose.Note 여행을 시작하고 전문적으로 제작된 OneNote 중심 튜토리얼을 통해 문서 처리 경험에 혁명을 일으키세요!
+지금 Aspose.Note 여정을 시작하고 전문적으로 제작된 OneNote 중심 튜토리얼을 통해 문서 처리 경험에 혁명을 일으키세요!
 ## 노트 조작 튜토리얼
 ### [Aspose.Note 문서의 충돌 해결](./conflict-page-resolution/)
 .NET을 사용하여 Aspose.Note 문서의 충돌을 해결하는 방법을 알아보세요. 효율적인 갈등 해결을 위한 단계별 가이드입니다.

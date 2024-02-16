@@ -15,7 +15,7 @@ Zanim przejdziemy do samouczka, upewnij się, że spełniasz następujące wymag
 - Aspose.Note dla .NET zainstalowany w Twoim środowisku programistycznym.
 Zacznijmy teraz od przewodnika krok po kroku.
 ## Importuj przestrzenie nazw
-Po pierwsze, upewnij się, że zaimportowałeś niezbędne przestrzenie nazw, aby wykorzystać funkcjonalności oferowane przez Aspose.Note dla .NET. Uwzględnij w swoim kodzie następujące przestrzenie nazw:
+Po pierwsze, upewnij się, że zaimportowałeś niezbędne przestrzenie nazw, aby wykorzystać funkcje oferowane przez Aspose.Note dla .NET. Uwzględnij w swoim kodzie następujące przestrzenie nazw:
 ```csharp
 using System;
 using System.Globalization;
@@ -79,4 +79,4 @@ Oczywiście możesz jeszcze bardziej dostosować stronę, dodając różne eleme
 ### Jak sobie poradzić z błędami w procesie tworzenia dokumentu?
 Wykorzystaj mechanizmy obsługi wyjątków w języku C#, aby wychwycić i obsłużyć potencjalne błędy, które mogą wystąpić podczas procesu tworzenia dokumentu.
 ### Gdzie mogę znaleźć więcej przykładów i dokumentacji dla Aspose.Note dla .NET?
- Patrz[Aspose.Note dla dokumentacji .NET](https://reference.aspose.com/note/net/) szczegółowe przykłady i obszerną dokumentację.
+ Patrz[Aspose.Note dla dokumentacji .NET](https://reference.aspose.com/note/net/)szczegółowe przykłady i obszerną dokumentację.

@@ -57,7 +57,7 @@ var document = new Document(dataDir + "Aspose.one");
 
 ## Étape 2 : Imprimer le document
 
- Invoquer le`Print` méthode sur le`Document`objet pour lancer le processus d’impression. Cette méthode envoie le document à l'imprimante par défaut à l'aide de la boîte de dialogue Windows standard avec les options par défaut.
+ Invoquer le`Print` méthode sur le`Document` objet pour lancer le processus d’impression. Cette méthode envoie le document à l'imprimante par défaut à l'aide de la boîte de dialogue Windows standard avec les options par défaut.
 
 ```csharp
 document.Print();
@@ -87,4 +87,4 @@ A4 : Oui, Aspose.Note vous permet d'imprimer des documents en silence en spécif
 
 ### Q5 : Aspose.Note prend-il en charge l'impression au format PDF ou d'autres formats de fichiers ?
 
-A5 : Oui, outre l'impression sur des imprimantes physiques, Aspose.Note facilite l'impression vers divers formats de fichiers, notamment PDF, XPS et les formats d'image.
+A5 : Oui, outre l'impression sur des imprimantes physiques, Aspose.Note facilite l'impression sur divers formats de fichiers, notamment PDF, XPS et formats d'image.

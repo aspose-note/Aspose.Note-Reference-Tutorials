@@ -72,7 +72,7 @@ Cevap2: Evet, Aspose.Note for .NET, görsellerin yanı sıra PDF, HTML ve Micros
 
 ### S3: Aspose.Note for .NET'in deneme sürümü mevcut mu?
 
- C3: Evet, ücretsiz deneme sürümünü şuradan indirebilirsiniz:[Burada](https://releases.aspose.com/), satın alma işlemi yapmadan önce özellikleri keşfetmenize olanak tanır.
+C3: Evet, ücretsiz deneme sürümünü şuradan indirebilirsiniz:[Burada](https://releases.aspose.com/), satın alma işlemi yapmadan önce özellikleri keşfetmenize olanak tanır.
 
 ### S4: Aspose.Note for .NET desteğini nasıl alabilirim?
 

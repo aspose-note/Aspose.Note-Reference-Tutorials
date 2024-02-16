@@ -47,7 +47,7 @@ using System.Globalization;
 ## الخطوة 1: إنشاء كائن مستند
 
 ```csharp
-// قم بإنشاء كائن من فئة المستند
+//قم بإنشاء كائن من فئة المستند
 Document doc = new Aspose.Note.Document();
 ```
 

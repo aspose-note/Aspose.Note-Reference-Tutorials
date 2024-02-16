@@ -9,7 +9,7 @@ url: /pl/net/hyperlinks/add-hyperlinks/
 ---
 ## Wstęp
 
-tym samouczku dowiesz się, jak dodawać hiperłącza do tekstu w dokumentach Aspose.Note przy użyciu platformy .NET. Aspose.Note zapewnia zaawansowane funkcje do programowego manipulowania dokumentami OneNote. Dodanie hiperłączy może zwiększyć interaktywność i użyteczność dokumentów, czyniąc je bardziej atrakcyjnymi dla użytkowników.
+W tym samouczku dowiesz się, jak dodawać hiperłącza do tekstu w dokumentach Aspose.Note przy użyciu platformy .NET. Aspose.Note zapewnia zaawansowane funkcje do programowego manipulowania dokumentami OneNote. Dodanie hiperłączy może zwiększyć interaktywność i użyteczność dokumentów, czyniąc je bardziej atrakcyjnymi dla użytkowników.
 
 ## Warunki wstępne:
 

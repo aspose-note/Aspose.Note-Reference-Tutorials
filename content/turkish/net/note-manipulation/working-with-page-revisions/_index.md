@@ -111,4 +111,4 @@ Cevap4: Aspose.Note, önemli sayıda revizyonu verimli bir şekilde yönetecek �
 
 ### S5: Aspose.Note'u kullanarak sayfa revizyonlarını yönetme sürecini otomatikleştirebilir miyim?
 
-C5: Evet, Aspose.Note, geliştiricilerin sayfa revizyonlarıyla ilgili görevleri otomatikleştirmesine ve iş akışı süreçlerini kolaylaştırmasına olanak tanıyan kapsamlı API'ler sunar.
+Cevap5: Evet, Aspose.Note, geliştiricilerin sayfa revizyonlarıyla ilgili görevleri otomatikleştirmesine ve iş akışı süreçlerini kolaylaştırmasına olanak tanıyan kapsamlı API'ler sunar.

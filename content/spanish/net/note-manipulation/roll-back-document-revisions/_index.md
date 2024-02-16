@@ -16,7 +16,7 @@ En el mundo de la gestión y edición de documentos, es fundamental tener la cap
 Antes de sumergirse en este tutorial, asegúrese de tener los siguientes requisitos previos:
 
 1. Comprensión básica de C#: es necesario estar familiarizado con el lenguaje de programación C# para seguir los ejemplos de código.
-2.  Biblioteca Aspose.Note para .NET: instale la biblioteca Aspose.Note para .NET en su entorno de desarrollo. Puedes descargarlo desde[aquí](https://releases.aspose.com/note/net/).
+2. Biblioteca Aspose.Note para .NET: instale la biblioteca Aspose.Note para .NET en su entorno de desarrollo. Puedes descargarlo desde[aquí](https://releases.aspose.com/note/net/).
 3. Entorno de desarrollo integrado (IDE): tenga un IDE como Visual Studio instalado en su sistema.
 
 ## Importar espacios de nombres

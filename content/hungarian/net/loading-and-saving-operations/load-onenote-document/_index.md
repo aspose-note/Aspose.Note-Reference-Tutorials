@@ -68,7 +68,7 @@ public static void SimpleLoadNotebook()
 ```
 
 ### 2. lépés: Ellenőrizze, hogy a dokumentum titkosított-e, és töltse be:
-   - Ellenőrizze, hogy a OneNote-dokumentum titkosítva van-e a`Document.IsEncrypted` módszerrel, átadva a fájl nevét.
+   -  Ellenőrizze, hogy a OneNote-dokumentum titkosítva van-e a`Document.IsEncrypted` módszerrel, átadva a fájl nevét.
    - Ha nincs titkosítva, folytassa a dokumentumfeldolgozással.
    - Ha titkosított, kérje meg a felhasználót, hogy adjon meg jelszót a visszafejtéshez.
 
@@ -124,7 +124,7 @@ public static void Document_CheckIfEncryptedByPasswordAndLoad()
 
 ### 4. lépés: A nem támogatott OneNote 2007 formátum kezelése:
    - Próbálja meg betölteni a OneNote-dokumentumot 2007-es formátumban.
-   -  Ha a formátum nem támogatott, fogja meg a`UnsupportedFileFormatException` és megfelelően kezelje, tájékoztatva a felhasználót a nem támogatott formátumról.
+   -  Ha a formátum nem támogatott, fogja meg a`UnsupportedFileFormatException`és megfelelően kezelje, tájékoztatva a felhasználót a nem támogatott formátumról.
 
 ```csharp
 public static void Document_OneNote2007_Is_NotSupported()

@@ -72,7 +72,7 @@ Console.WriteLine("\nNotebook document converted to image successfully.\nFile sa
 
 ### س3: هل هناك إصدار تجريبي متاح لـ Aspose.Note لـ .NET؟
 
- ج3: نعم، يمكنك تنزيل نسخة تجريبية مجانية من[هنا](https://releases.aspose.com/)مما يسمح لك باستكشاف الميزات قبل إجراء عملية الشراء.
+ج3: نعم، يمكنك تنزيل نسخة تجريبية مجانية من[هنا](https://releases.aspose.com/)مما يسمح لك باستكشاف الميزات قبل إجراء عملية الشراء.
 
 ### س٤: كيف يمكنني الحصول على دعم Aspose.Note لـ .NET؟
 

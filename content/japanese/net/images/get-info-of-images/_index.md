@@ -41,7 +41,7 @@ string dataDir = "Your Document Directory";
 Document oneFile = new Document(dataDir + "Aspose.one");
 ```
 
-交換する`"Your Document Directory"`OneNote ファイルへのパスを置き換えます。
+交換する`"Your Document Directory"` OneNote ファイルへのパスを置き換えます。
 
 ## ステップ 2: 画像情報を取得する
 
@@ -97,4 +97,4 @@ A4: はい、Aspose.Note の無料トライアルにアクセスして、購入�
 
 ### Q5: Aspose.Note に関する追加のサポートや支援はどこで入手できますか?
 
- A5: お問い合わせやサポートが必要な場合は、Aspose.Note フォーラムにアクセスしてください。[ここ](https://forum.aspose.com/c/note/28).
+A5: お問い合わせやサポートが必要な場合は、Aspose.Note フォーラムにアクセスしてください。[ここ](https://forum.aspose.com/c/note/28).

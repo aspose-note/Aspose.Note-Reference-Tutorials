@@ -9,7 +9,7 @@ url: /cs/net/loading-and-saving-operations/create-doc-with-rich-text/
 ---
 ## Úvod
 
-oblasti vývoje .NET vyniká Aspose.Note jako výkonný nástroj pro programovou manipulaci se soubory Microsoft OneNote. Ať už se zaměřujete na automatizaci vytváření dokumentů nebo manipulaci se stávajícími poznámkami, Aspose.Note vybaví vývojáře komplexní sadou funkcí. Mezi tyto funkce patří schopnost generovat dokumenty ve formátu RTF s různými možnostmi formátování. V tomto tutoriálu se ponoříme do procesu vytváření takových dokumentů krok za krokem pomocí Aspose.Note pro .NET.
+V oblasti vývoje .NET vyniká Aspose.Note jako výkonný nástroj pro programovou manipulaci se soubory Microsoft OneNote. Ať už se zaměřujete na automatizaci vytváření dokumentů nebo manipulaci se stávajícími poznámkami, Aspose.Note vybaví vývojáře komplexní sadou funkcí. Mezi tyto funkce patří schopnost generovat dokumenty ve formátu RTF s různými možnostmi formátování. V tomto tutoriálu se ponoříme do procesu vytváření takových dokumentů krok za krokem pomocí Aspose.Note pro .NET.
 
 ## Předpoklady
 
@@ -73,7 +73,7 @@ Definujte výchozí styl textu, který se použije na celý dokument.
 RichText titleText = new RichText() { ParagraphStyle = defaultTextStyle }.Append("Title!");
 ```
 
- Konstrukce a`RichText` objekt pro nadpis se zadaným formátováním.
+ Konstrukce a`RichText`objekt pro nadpis se zadaným formátováním.
 
 ## Krok 6: Inicializujte objekty obrysu a prvků obrysu
 

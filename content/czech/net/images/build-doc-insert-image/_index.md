@@ -21,7 +21,7 @@ Než začneme, ujistěte se, že máte následující předpoklady:
 
 3. Základní porozumění C#: Seznamte se se základy programovacího jazyka C#. I když tento tutoriál poskytuje pokyny krok za krokem, mít základní znalost C# bude přínosem.
 
-## Importovat jmenné prostory
+## Import jmenných prostorů
 
 Začněme importem potřebných jmenných prostorů do vašeho projektu C#. Tyto jmenné prostory obsahují třídy a metody, které budeme používat k provádění úloh manipulace s dokumenty.
 

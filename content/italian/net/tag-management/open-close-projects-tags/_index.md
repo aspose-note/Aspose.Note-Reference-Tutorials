@@ -103,7 +103,7 @@ A1: Aspose.Note supporta Microsoft OneNote 2010 e versioni successive.
 
 ### Q3: Aspose.Note offre una prova gratuita?
 
-R3: Sì, puoi ottenere una prova gratuita[Qui](https://releases.aspose.com/).
+ R3: Sì, puoi ottenere una prova gratuita[Qui](https://releases.aspose.com/).
 
 ### Q4: Dove posso trovare la documentazione per Aspose.Note?
 
@@ -111,4 +111,4 @@ R3: Sì, puoi ottenere una prova gratuita[Qui](https://releases.aspose.com/).
 
 ### Q5: Dove posso ottenere supporto per Aspose.Note?
 
-R5: Per supporto, è possibile visitare Aspose.Note[Forum](https://forum.aspose.com/c/note/28).
+ R5: Per supporto, è possibile visitare Aspose.Note[Forum](https://forum.aspose.com/c/note/28).

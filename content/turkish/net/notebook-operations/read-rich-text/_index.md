@@ -84,7 +84,7 @@ C1: Evet, Aspose.Note for .NET, OneNote dosyalarını programlı olarak oluştur
 
 ### S2: Aspose.Note for .NET'in ücretsiz deneme sürümü mevcut mu?
 
-C2: Evet, Aspose.Note for .NET'in ücretsiz deneme sürümünü şu adresten edinebilirsiniz:[yayın sayfası](https://releases.aspose.com/).
+ C2: Evet, Aspose.Note for .NET'in ücretsiz deneme sürümünü şu adresten edinebilirsiniz:[yayın sayfası](https://releases.aspose.com/).
 
 ### S3: Aspose.Note for .NET desteğini nasıl alabilirim?
 

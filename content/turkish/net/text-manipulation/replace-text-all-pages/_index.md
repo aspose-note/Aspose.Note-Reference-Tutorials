@@ -79,4 +79,4 @@ Sonuç olarak, Aspose.Note for .NET ile tüm sayfalardaki metni değiştirme san
 ### S: Aspose.Note for .NET için daha fazla eğitim ve belgeyi nerede bulabilirim?
  C: Ziyaret edin[dokümantasyon](https://reference.aspose.com/note/net/) Ayrıntılı kaynaklar ve öğreticiler için.
 ### S: Aspose.Note'u ticari projeler için kullanabilir miyim?
- C: Evet, lisanslama seçeneklerini keşfedin ve satın alma işlemi yapın[Burada](https://purchase.aspose.com/buy).
+C: Evet, lisanslama seçeneklerini keşfedin ve satın alma işlemi yapın[Burada](https://purchase.aspose.com/buy).

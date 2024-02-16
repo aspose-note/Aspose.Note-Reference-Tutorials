@@ -30,7 +30,7 @@ Vervang "Uw documentenmap" door het pad naar de map met uw Aspose.Note-document.
 ```csharp
 Document oneFile = new Document(dataDir + "Aspose.one");
 ```
- Laad uw Aspose.Note-document in het`Document` bezwaar maken tegen verdere verwerking.
+Laad uw Aspose.Note-document in het`Document` bezwaar maken tegen verdere verwerking.
 ## Stap 3: tekst ophalen
 ```csharp
 string text = string.Join(Environment.NewLine, oneFile.GetChildNodes<RichText>().Select(e => e.Text)) + Environment.NewLine;

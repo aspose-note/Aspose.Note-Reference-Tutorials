@@ -11,11 +11,11 @@ url: /ko/net/tag-management/reporting-tags/
 
 문서 처리 및 관리 영역에서 Aspose.Note for .NET은 디지털 문서 내의 메모, 주석 및 태그를 처리하는 강력한 도구로 돋보입니다. 태그는 문서 내의 정보를 구성, 분류 및 필터링하여 효율적인 검색 및 분석을 가능하게 하는 데 중요한 역할을 합니다. 이 튜토리얼에서는 Aspose.Note에서 태그를 사용한 보고의 복잡성을 자세히 살펴보고 다양한 기준에 따라 보고서를 생성하는 방법에 대한 단계별 지침을 제공합니다.
 
-## 전제 조건
+## 전제조건
 
 이 튜토리얼을 시작하기 전에 다음 전제 조건이 충족되었는지 확인하세요.
 
-1. .NET용 Aspose.Note 설치: 다음에서 .NET용 Aspose.Note 라이브러리를 다운로드하여 설치하세요.[다운로드 링크](https://releases.aspose.com/note/net/).
+1.  .NET용 Aspose.Note 설치: 다음에서 .NET용 Aspose.Note 라이브러리를 다운로드하여 설치하세요.[다운로드 링크](https://releases.aspose.com/note/net/).
    
 2. C# 프로그래밍에 대한 지식: 제공된 예제를 이해하고 구현하려면 C# 프로그래밍 언어에 대한 기본 지식이 필요합니다.
 
@@ -120,7 +120,7 @@ A1: 예, .NET용 Aspose.Note는 VB.NET과 같은 다른 .NET 호환 언어와 �
 
 ## Q2: Aspose.Note for .NET에 대한 무료 평가판이 있습니까?
 
- A2: 예, 다음에서 .NET용 Aspose.Note 무료 평가판에 액세스할 수 있습니다.[웹사이트](https://releases.aspose.com/).
+A2: 예, 다음에서 .NET용 Aspose.Note 무료 평가판에 액세스할 수 있습니다.[웹사이트](https://releases.aspose.com/).
 
 ## Q3: Aspose.Note for .NET의 임시 라이선스를 어떻게 얻을 수 있나요?
 

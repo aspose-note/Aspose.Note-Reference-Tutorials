@@ -147,7 +147,7 @@ Console.WriteLine("\nThe document is composed successfully.");
 
 ## Wniosek
 
-tym samouczku omówiliśmy, jak tworzyć tabele z zawartością tekstu sformatowanego przy użyciu Aspose.Note dla .NET. Postępując zgodnie z tymi szczegółowymi instrukcjami, możesz skutecznie tworzyć w dokumentach uporządkowane tabele, poprawiając czytelność i organizację.
+W tym samouczku omówiliśmy, jak tworzyć tabele z zawartością tekstu sformatowanego przy użyciu Aspose.Note dla .NET. Postępując zgodnie z tymi szczegółowymi instrukcjami, możesz skutecznie tworzyć w dokumentach uporządkowane tabele, poprawiając czytelność i organizację.
 
 ## Często zadawane pytania
 

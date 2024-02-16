@@ -11,7 +11,7 @@ url: /ko/net/notebook-operations/load-notebooks-from-stream/
 
 이 튜토리얼에서는 .NET용 Aspose.Note를 사용하여 스트림에서 노트북을 로드하는 방법을 살펴보겠습니다. Aspose.Note는 개발자가 Microsoft OneNote 파일을 프로그래밍 방식으로 작업할 수 있게 해주는 강력한 라이브러리입니다. 스트림에서 노트북을 로드하는 것은 .NET 애플리케이션에서 파일 입력/출력 작업을 처리할 때 일반적인 작업입니다.
 
-## 전제 조건
+## 전제조건
 
 이 튜토리얼을 진행하기 전에 다음 필수 구성 요소가 있는지 확인하세요.
 

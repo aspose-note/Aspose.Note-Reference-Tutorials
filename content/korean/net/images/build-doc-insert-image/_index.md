@@ -11,7 +11,7 @@ url: /ko/net/images/build-doc-insert-image/
 
 이 튜토리얼에서는 .NET용 Aspose.Note를 사용하여 문서 조작의 세계를 탐구합니다. Aspose.Note는 개발자가 프로그래밍 방식으로 Microsoft OneNote 파일을 사용하여 문서 생성, 수정 및 변환과 같은 작업을 쉽게 수행할 수 있도록 하는 강력한 API입니다. 
 
-## 전제 조건
+## 전제조건
 
 시작하기 전에 다음 필수 구성 요소가 있는지 확인하세요.
 
@@ -60,7 +60,7 @@ Outline outline = new Outline(doc);
 
  그만큼`Outline`클래스는 문서 계층의 개요 노드를 나타냅니다. 문서를 구성하기 위해 새로운 개요 개체를 만듭니다.
 
-## 4단계: OutlineElement 개체 초기화
+## 4단계: OutlineElement 객체 초기화
 
 ```csharp
 OutlineElement outlineElem = new OutlineElement(doc);

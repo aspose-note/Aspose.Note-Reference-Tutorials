@@ -11,7 +11,7 @@ url: /ko/net/table-manipulation/create-table-locked-columns/
 
 잠긴 열이 있는 테이블을 만드는 것은 문서 처리 응용 프로그램의 일반적인 요구 사항입니다. Aspose.Note for .NET은 이 작업을 효율적으로 수행할 수 있는 강력한 도구를 제공합니다. 이 튜토리얼에서는 Aspose.Note for .NET을 사용하여 잠긴 열이 있는 테이블을 만드는 과정을 단계별로 안내합니다.
 
-## 전제 조건
+## 전제조건
 
 시작하기 전에 다음 필수 구성 요소가 있는지 확인하세요.
 
@@ -142,8 +142,8 @@ A3: 예, .NET용 Aspose.Note는 다른 .NET 프레임워크와 원활하게 통�
 
 ### Q4: Aspose.Note for .NET에 대한 기술 지원이 제공됩니까?
 
- A4: 예, 다음을 통해 기술 지원을 받을 수 있습니다.[Aspose.Note 포럼](https://forum.aspose.com/c/note/28) 귀하가 직면할 수 있는 질문이나 문제에 대해 전문가의 도움을 받을 수 있는 곳입니다.
+A4: 예, 다음을 통해 기술 지원을 받을 수 있습니다.[Aspose.Note 포럼](https://forum.aspose.com/c/note/28) 귀하가 직면할 수 있는 질문이나 문제에 대해 전문가의 도움을 받을 수 있는 곳입니다.
 
 ### Q5: 구매하기 전에 Aspose.Note for .NET을 사용해 볼 수 있나요?
 
- A5: 예, 다음에서 .NET용 Aspose.Note의 무료 평가판을 다운로드할 수 있습니다.[여기](https://releases.aspose.com/)기능과 요구 사항과의 호환성을 평가합니다.
+ A5: 예, 다음에서 .NET용 Aspose.Note의 무료 평가판을 다운로드할 수 있습니다.[여기](https://releases.aspose.com/) 기능과 요구 사항과의 호환성을 평가합니다.

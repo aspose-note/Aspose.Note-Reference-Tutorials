@@ -19,7 +19,7 @@ Než začneme, ujistěte se, že máte splněny následující předpoklady:
    
 2. Soubory obrázků: Připravte soubory obrázků, které chcete vložit do dokumentů Aspose.Note.
 
-## Importovat jmenné prostory
+## Import jmenných prostorů
 
 Nejprve musíte importovat potřebné jmenné prostory pro práci s Aspose.Note ve vašem .NET projektu. Můžete to udělat takto:
 

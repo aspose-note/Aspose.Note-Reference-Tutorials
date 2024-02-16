@@ -30,7 +30,7 @@ using System.Collections.Generic;
 using System.Drawing;
 ```
 
-## Etapa 1: criar um objeto de documento
+## Etapa 1: crie um objeto de documento
 
 Inicialize um objeto Document:
 

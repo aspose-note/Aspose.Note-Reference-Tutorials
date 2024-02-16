@@ -53,7 +53,7 @@ PdfSaveOptions opts = new PdfSaveOptions
     // Usar compactação JPEG
     ImageCompression = Saving.Pdf.PdfImageCompression.Jpeg,
     
-    //Qualidade para compactação JPEG
+    // Qualidade para compactação JPEG
     JpegQuality = 90
 };
 ```

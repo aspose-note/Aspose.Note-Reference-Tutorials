@@ -79,7 +79,7 @@ A2: Aspose.Note .one और .onepkg दोनों फ़ाइल स्वर
 
 ### Q3: क्या .NET के लिए Aspose.Note का निःशुल्क परीक्षण उपलब्ध है?
 
- उ3: हाँ, आप .NET के लिए Aspose.Note का निःशुल्क परीक्षण डाउनलोड कर सकते हैं[यहाँ](https://releases.aspose.com/).
+उ3: हाँ, आप .NET के लिए Aspose.Note का निःशुल्क परीक्षण डाउनलोड कर सकते हैं[यहाँ](https://releases.aspose.com/).
 
 ### Q4: मैं .NET के लिए Aspose.Note के लिए अस्थायी लाइसेंस कैसे प्राप्त कर सकता हूं?
 

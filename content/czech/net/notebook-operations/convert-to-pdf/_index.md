@@ -19,7 +19,7 @@ Než začneme, ujistěte se, že máte následující předpoklady:
    
 2. Vývojové prostředí: Ujistěte se, že máte nastavené vývojové prostředí s nainstalovaným rozhraním .NET Framework nebo .NET Core.
 
-## Importovat jmenné prostory
+## Import jmenných prostorů
 
 Chcete-li začít s procesem převodu, musíte do svého projektu .NET importovat potřebné jmenné prostory. Následuj tyto kroky:
 

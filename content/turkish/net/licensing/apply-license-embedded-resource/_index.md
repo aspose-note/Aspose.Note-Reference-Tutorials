@@ -17,7 +17,7 @@ Başlamadan önce aşağıdaki önkoşulların mevcut olduğundan emin olun:
 
 ### 1. Visual Studio Yüklü
 
- Sisteminizde Visual Studio'nun kurulu olduğundan emin olun. Şuradan indirebilirsiniz[Burada](https://visualstudio.microsoft.com/).
+Sisteminizde Visual Studio'nun kurulu olduğundan emin olun. Şuradan indirebilirsiniz[Burada](https://visualstudio.microsoft.com/).
 
 ### 2. Aspose.Note for .NET Yüklendi
 

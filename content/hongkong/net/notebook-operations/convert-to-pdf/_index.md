@@ -73,7 +73,7 @@ A1：Aspose.Note for .NET 支援各種版本的 Microsoft OneNote，確保不同
 
 ### Q2: 我可以自訂轉換後的 PDF 檔案的佈局和外觀嗎？
 
-A2：是的，Aspose.Note for .NET 提供了廣泛的選項，用於在轉換過程中自訂 PDF 檔案的佈局、外觀和格式。
+A2：是的，Aspose.Note for .NET 提供了廣泛的選項，用於在轉換過程中自訂 PDF 文件的佈局、外觀和格式。
 
 ### Q3：Aspose.Note for .NET支援筆記本批次轉換為PDF嗎？
 

@@ -17,7 +17,7 @@ url: /hi/net/licensing/apply-license-embedded-resource/
 
 ### 1. विजुअल स्टूडियो स्थापित
 
- सुनिश्चित करें कि आपके सिस्टम पर विज़ुअल स्टूडियो स्थापित है। आप इसे यहां से डाउनलोड कर सकते हैं[यहाँ](https://visualstudio.microsoft.com/).
+सुनिश्चित करें कि आपके सिस्टम पर विज़ुअल स्टूडियो स्थापित है। आप इसे यहां से डाउनलोड कर सकते हैं[यहाँ](https://visualstudio.microsoft.com/).
 
 ### 2. .NET के लिए Aspose.Note स्थापित
 

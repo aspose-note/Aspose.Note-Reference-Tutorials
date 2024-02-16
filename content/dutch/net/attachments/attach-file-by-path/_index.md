@@ -138,7 +138,7 @@ A2: Ja, u kunt bestaande OneNote-bestanden programmatisch bewerken, wijzigen en 
 
 ### V3: Heeft Aspose.Note voor .NET een licentie nodig voor commercieel gebruik?
 
- A3: Ja, u heeft een licentie nodig voor commercieel gebruik van Aspose.Note voor .NET. Een licentie kunt u verkrijgen bij de[aankooppagina](https://purchase.aspose.com/buy).
+A3: Ja, u heeft een licentie nodig voor commercieel gebruik van Aspose.Note voor .NET. Een licentie kunt u verkrijgen bij de[aankooppagina](https://purchase.aspose.com/buy).
 
 ### V4: Is er een gratis proefversie beschikbaar voor Aspose.Note voor .NET?
 

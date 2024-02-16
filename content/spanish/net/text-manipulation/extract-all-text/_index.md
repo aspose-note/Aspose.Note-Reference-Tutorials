@@ -30,7 +30,7 @@ Reemplace "Su directorio de documentos" con la ruta al directorio que contiene s
 ```csharp
 Document oneFile = new Document(dataDir + "Aspose.one");
 ```
- Cargue su documento Aspose.Note en el`Document` objeto para su posterior procesamiento.
+Cargue su documento Aspose.Note en el`Document` objeto para su posterior procesamiento.
 ## Paso 3: recuperar texto
 ```csharp
 string text = string.Join(Environment.NewLine, oneFile.GetChildNodes<RichText>().Select(e => e.Text)) + Environment.NewLine;

@@ -48,7 +48,7 @@ var templateDocument = new Document(Path.Combine(dataDir, "JobOffer.one"));
 ```
 Laden Sie Ihr OneNote-Vorlagendokument in Aspose.Note.
 
-## Schritt 4: Ersetzen Sie Vorlagewörter durch dynamische Daten
+## Schritt 4: Ersetzen Sie Vorlagenwörter durch dynamische Daten
 ```csharp
 foreach (var paragraph in templateDocument.GetChildNodes<RichText>())
 {
@@ -73,7 +73,7 @@ Glückwunsch! Sie haben erfolgreich ein dynamisches Dokument mit Aspose.Note fü
 ### Kann ich Aspose.Note für .NET mit anderen Dokumentformaten verwenden?
 Ja, Aspose.Note für .NET befasst sich hauptsächlich mit OneNote-Dokumenten, Aspose bietet jedoch verschiedene Bibliotheken für verschiedene Formate.
 ### Gibt es eine kostenlose Testversion für Aspose.Note für .NET?
- Ja, Sie können die Funktionen von Aspose.Note für .NET mit einer kostenlosen Testversion erkunden. Besuchen[Hier](https://releases.aspose.com/) für mehr Informationen.
+Ja, Sie können die Funktionen von Aspose.Note für .NET mit einer kostenlosen Testversion erkunden. Besuchen[Hier](https://releases.aspose.com/) für mehr Informationen.
 ### Wie erhalte ich Unterstützung für Aspose.Note für .NET?
  Besuche den[Aspose.Note für .NET-Forum](https://forum.aspose.com/c/note/28) um Unterstützung von der Community und Experten zu erhalten.
 ### Sind temporäre Lizenzen für Aspose.Note für .NET verfügbar?

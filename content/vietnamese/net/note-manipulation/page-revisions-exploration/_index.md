@@ -79,7 +79,7 @@ Câu trả lời 2: Aspose.Note hỗ trợ lịch sử tải cho cả định d�
 
 ### Câu hỏi 3: Có bản dùng thử miễn phí dành cho Aspose.Note dành cho .NET không?
 
- Câu trả lời 3: Có, bạn có thể tải xuống bản dùng thử miễn phí Aspose.Note cho .NET từ[đây](https://releases.aspose.com/).
+Câu trả lời 3: Có, bạn có thể tải xuống bản dùng thử miễn phí Aspose.Note cho .NET từ[đây](https://releases.aspose.com/).
 
 ### Câu hỏi 4: Làm cách nào tôi có thể nhận được giấy phép tạm thời cho Aspose.Note cho .NET?
 

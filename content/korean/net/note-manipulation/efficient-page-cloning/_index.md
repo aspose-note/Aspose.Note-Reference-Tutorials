@@ -11,7 +11,7 @@ url: /ko/net/note-manipulation/efficient-page-cloning/
 
 이 튜토리얼에서는 .NET용 Aspose.Note를 사용하여 페이지를 효율적으로 복제하는 방법을 살펴보겠습니다. Aspose.Note는 개발자가 Microsoft OneNote 파일을 프로그래밍 방식으로 작업할 수 있게 해주는 강력한 .NET API입니다. 페이지 복제는 문서 조작에서 일반적인 작업이며 Aspose.Note를 사용하면 이 프로세스가 간단하고 효율적이 됩니다.
 
-## 전제 조건
+## 전제조건
 
 시작하기 전에 다음 필수 구성 요소가 있는지 확인하세요.
 
@@ -35,7 +35,7 @@ using System.Text;
 
 ## 1단계: OneNote 문서 로드
 
-먼저 OneNote 문서를 메모리에 로드해야 합니다. 우리는 다음을 사용하여 이를 달성할 수 있습니다.`Document` Aspose.Note에서 제공하는 클래스:
+ 먼저 OneNote 문서를 메모리에 로드해야 합니다. 우리는 다음을 사용하여 이를 달성할 수 있습니다.`Document` Aspose.Note에서 제공하는 클래스:
 
 ```csharp
 // 문서 디렉터리의 경로입니다.

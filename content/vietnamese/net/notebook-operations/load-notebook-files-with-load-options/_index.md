@@ -81,7 +81,7 @@ Câu trả lời 1: Có, Aspose.Note for .NET cung cấp các API toàn diện �
 
 ### Câu hỏi 2: Có bản dùng thử miễn phí dành cho Aspose.Note dành cho .NET không?
 
- Câu trả lời 2: Có, bạn có thể tận dụng bản dùng thử miễn phí Aspose.Note dành cho .NET từ[đây](https://releases.aspose.com/).
+Câu trả lời 2: Có, bạn có thể tận dụng bản dùng thử miễn phí Aspose.Note dành cho .NET từ[đây](https://releases.aspose.com/).
 
 ### Câu hỏi 3: Tôi có thể tìm tài liệu về Aspose.Note cho .NET ở đâu?
 

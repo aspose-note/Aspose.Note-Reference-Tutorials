@@ -76,11 +76,11 @@ A1 : Non, une licence valide est requise pour utiliser toutes les fonctionnalit�
 
 ### Q3 : Existe-t-il un essai gratuit disponible ?
 
-A3 : Oui, vous pouvez bénéficier d'un essai gratuit[ici](https://releases.aspose.com/).
+ A3 : Oui, vous pouvez bénéficier d'un essai gratuit[ici](https://releases.aspose.com/).
 
 ### Q4 : Comment puis-je obtenir de l'aide ?
 
- A4 : Vous pouvez obtenir l'assistance de la communauté Aspose.Note[forum](https://forum.aspose.com/c/note/28).
+A4 : Vous pouvez obtenir l'assistance de la communauté Aspose.Note[forum](https://forum.aspose.com/c/note/28).
 
 ### Q5 : Proposez-vous des licences temporaires ?
 

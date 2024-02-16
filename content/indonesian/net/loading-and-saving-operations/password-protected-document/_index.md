@@ -15,7 +15,7 @@ Dalam tutorial ini, kita akan memandu proses penanganan dokumen yang dilindungi 
 
 Sebelum kita mulai, pastikan Anda memiliki prasyarat berikut:
 
-1.  Aspose.Note untuk .NET Library: Pastikan Anda telah mengunduh dan menginstal perpustakaan Aspose.Note untuk .NET. Anda dapat mengunduhnya dari[Di Sini](https://releases.aspose.com/note/net/).
+1. Aspose.Note untuk .NET Library: Pastikan Anda telah mengunduh dan menginstal perpustakaan Aspose.Note untuk .NET. Anda dapat mengunduhnya dari[Di Sini](https://releases.aspose.com/note/net/).
 
 2. Lingkungan Pengembangan: Siapkan lingkungan pengembangan dengan kemampuan .NET.
 

@@ -80,7 +80,7 @@ Bu eğitimde Aspose.Note for .NET kullanarak bir belgeyi ikili görüntüye nas�
 
 ### S1: İkilileştirme eşiğini ayarlayabilir miyim?
 
-C1: Evet, ikilileştirme eşiğini gereksinimlerinize göre değiştirerek özelleştirebilirsiniz.`BinarizationThreshold` koddaki özellik.
+ C1: Evet, ikilileştirme eşiğini gereksinimlerinize göre değiştirerek özelleştirebilirsiniz.`BinarizationThreshold` koddaki özellik.
 
 ### S2: Belgeleri kaydetmek için başka hangi formatlar destekleniyor?
 
@@ -96,4 +96,4 @@ Cevap4: Evet, birden çok belge arasında geçiş yapabilir ve bunları benzer k
 
 ### S5: Aspose.Note için daha fazla kaynağı ve desteği nerede bulabilirim?
 
- A5: keşfedebilirsiniz[Aspose.Note belgeleri](https://reference.aspose.com/note/net/) ve yardım isteyin[Aspose.Note forumu](https://forum.aspose.com/c/note/28) Herhangi bir sorunuz veya sorununuz için.
+ A5: keşfedebilirsiniz[Aspose.Note belgeleri](https://reference.aspose.com/note/net/)ve yardım isteyin[Aspose.Note forumu](https://forum.aspose.com/c/note/28) Herhangi bir sorunuz veya sorununuz için.

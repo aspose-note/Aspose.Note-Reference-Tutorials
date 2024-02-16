@@ -15,7 +15,7 @@ Di bidang pemrosesan dan manajemen dokumen, Aspose.Note untuk .NET menonjol seba
 
 Sebelum memulai tutorial ini, pastikan Anda memiliki prasyarat berikut:
 
-1. Instalasi Aspose.Note for .NET: Unduh dan instal perpustakaan Aspose.Note for .NET dari[tautan unduhan](https://releases.aspose.com/note/net/).
+1.  Instalasi Aspose.Note for .NET: Unduh dan instal perpustakaan Aspose.Note for .NET dari[tautan unduhan](https://releases.aspose.com/note/net/).
    
 2. Keakraban dengan Pemrograman C#: Pengetahuan dasar bahasa pemrograman C# diperlukan untuk memahami dan mengimplementasikan contoh yang diberikan.
 
@@ -120,7 +120,7 @@ A1: Ya, Aspose.Note untuk .NET dapat digunakan dengan bahasa lain yang kompatibe
 
 ## Q2: Apakah ada uji coba gratis yang tersedia untuk Aspose.Note untuk .NET?
 
- A2: Ya, Anda dapat mengakses uji coba gratis Aspose.Note untuk .NET dari[situs web](https://releases.aspose.com/).
+A2: Ya, Anda dapat mengakses uji coba gratis Aspose.Note untuk .NET dari[situs web](https://releases.aspose.com/).
 
 ## Q3: Bagaimana cara mendapatkan lisensi sementara Aspose.Note untuk .NET?
 

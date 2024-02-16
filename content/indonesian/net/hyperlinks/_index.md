@@ -9,7 +9,7 @@ url: /id/net/hyperlinks/
 ---
 ## Perkenalan
 
-Di ranah Aspose.Note untuk .NET, kemampuan untuk menambahkan hyperlink ke dokumen Anda merupakan terobosan baru. Tingkatkan interaktivitas dan interaksi dokumen Anda dengan mengikuti tutorial langkah demi langkah kami.
+Di ranah Aspose.Note untuk .NET, kemampuan untuk menambahkan hyperlink ke dokumen Anda merupakan terobosan baru. Tingkatkan interaktivitas dan keterlibatan dokumen Anda dengan mengikuti tutorial langkah demi langkah kami.
 
 ## Mengapa Hyperlink Penting
 

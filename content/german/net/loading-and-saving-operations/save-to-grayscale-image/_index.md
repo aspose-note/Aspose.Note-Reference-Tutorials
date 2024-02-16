@@ -78,7 +78,7 @@ A2: Absolut, Aspose.Note unterstützt verschiedene Dateiformate und sorgt so fü
 
 A3: Ja, Entwickler können über das Aspose-Forum und die Dokumentation auf umfassenden Support zugreifen.
 
-### F4: Kann ich Aspose.Note vor dem Kauf ausprobieren?
+### F4: Kann ich Aspose.Note vor dem Kauf testen?
 
 A4: Ja, Sie können Aspose.Note über die kostenlose Testversion auf der Website erkunden.
 

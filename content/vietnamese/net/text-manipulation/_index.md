@@ -109,4 +109,4 @@ Khai phá tiềm năng của Aspose.Note dành cho .NET với hướng dẫn t�
 ### [Đặt kiểu đoạn văn mặc định trong Aspose.Note](./set-default-paragraph-style/)
 Khám phá sức mạnh của Aspose.Note dành cho .NET với hướng dẫn từng bước của chúng tôi về cách đặt kiểu đoạn văn mặc định. Nâng cao kỹ năng thao tác tài liệu của bạn một cách dễ dàng.
 ### [Đặt ngôn ngữ soát lỗi cho văn bản trong Aspose.Note](./set-proofing-language-text/)
-Mở khóa thao tác văn bản mạnh mẽ với Aspose.Note cho .NET. Thiết lập ngôn ngữ soát lỗi dễ dàng với hướng dẫn từng bước. Hãy nâng cao các dự án .NET của bạn ngay bây giờ!
+Mở khóa thao tác văn bản mạnh mẽ với Aspose.Note for .NET. Thiết lập ngôn ngữ soát lỗi dễ dàng với hướng dẫn từng bước. Hãy nâng cao các dự án .NET của bạn ngay bây giờ!

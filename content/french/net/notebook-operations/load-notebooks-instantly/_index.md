@@ -61,7 +61,7 @@ foreach (INotebookChildNode notebookChildNode in notebook.OfType<Document>())
 
 ## Conclusion
 
- Dans ce didacticiel, nous avons appris à charger instantanément des blocs-notes dans Aspose.Note pour .NET. En définissant le`InstantLoading` drapeau dans le`NotebookLoadOptions`, nous pouvons parcourir efficacement les documents préchargés d'un ordinateur portable, améliorant ainsi les performances et la productivité.
+Dans ce didacticiel, nous avons appris à charger instantanément des blocs-notes dans Aspose.Note pour .NET. En définissant le`InstantLoading` drapeau dans le`NotebookLoadOptions`, nous pouvons parcourir efficacement les documents préchargés d'un ordinateur portable, améliorant ainsi les performances et la productivité.
 
 ## FAQ
 

@@ -73,7 +73,7 @@ ParagraphStyle defaultTextStyle = new ParagraphStyle
 RichText titleText = new RichText() { ParagraphStyle = defaultTextStyle }.Append("Title!");
 ```
 
- Построить`RichText` объект для заголовка с указанным форматированием.
+ Построить`RichText`объект для заголовка с указанным форматированием.
 
 ## Шаг 6. Инициализация объектов Outline и Outline Element
 

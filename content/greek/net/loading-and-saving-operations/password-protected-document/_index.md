@@ -15,7 +15,7 @@ url: /el/net/loading-and-saving-operations/password-protected-document/
 
 Πριν ξεκινήσουμε, βεβαιωθείτε ότι έχετε τις ακόλουθες προϋποθέσεις:
 
-1.  Aspose.Note για .NET Library: Βεβαιωθείτε ότι έχετε κατεβάσει και εγκαταστήσει τη βιβλιοθήκη Aspose.Note για .NET. Μπορείτε να το κατεβάσετε από[εδώ](https://releases.aspose.com/note/net/).
+1. Aspose.Note για .NET Library: Βεβαιωθείτε ότι έχετε κατεβάσει και εγκαταστήσει τη βιβλιοθήκη Aspose.Note για .NET. Μπορείτε να το κατεβάσετε από[εδώ](https://releases.aspose.com/note/net/).
 
 2. Περιβάλλον ανάπτυξης: Ρυθμίστε ένα περιβάλλον ανάπτυξης με δυνατότητες .NET.
 

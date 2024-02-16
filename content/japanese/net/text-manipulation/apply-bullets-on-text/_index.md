@@ -27,12 +27,12 @@ using System.Collections.Generic;
 ```csharp
 //ドキュメントディレクトリへのパス。
 string dataDir = "Your Document Directory";
-// Documentクラスのオブジェクトを作成する
+//Documentクラスのオブジェクトを作成する
 Aspose.Note.Document doc = new Aspose.Note.Document();
 ```
 ## ステップ 2: ページとアウトラインを初期化する
 ```csharp
-//Pageクラスオブジェクトの初期化
+// Pageクラスオブジェクトの初期化
 Aspose.Note.Page page = new Aspose.Note.Page(doc);
 //アウトラインクラスオブジェクトの初期化
 Outline outline = new Outline(doc);
@@ -68,7 +68,7 @@ doc.AppendChildLast(page);
 ```
 ## ステップ 8: OneNote ドキュメントを保存する
 ```csharp
-//OneNote ドキュメントを保存する
+// OneNote ドキュメントを保存する
 dataDir = dataDir + "ApplyBulletsOnText_out.one"; 
 doc.Save(dataDir);
 Console.WriteLine("\nBullets applied successfully on a text.\nFile saved at " + dataDir); 

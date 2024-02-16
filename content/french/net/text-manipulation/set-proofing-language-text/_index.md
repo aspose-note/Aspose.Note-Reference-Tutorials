@@ -11,7 +11,7 @@ url: /fr/net/text-manipulation/set-proofing-language-text/
 Bienvenue dans le monde d'Aspose.Note pour .NET ! Dans ce guide complet, nous explorerons le processus fascinant de définition du langage de vérification linguistique pour le texte à l'aide d'Aspose.Note. Que vous soyez un développeur chevronné ou que vous débutiez tout juste avec Aspose.Note, ce didacticiel vous fournira des informations détaillées et des instructions étape par étape pour améliorer vos compétences en manipulation de texte.
 ## Conditions préalables
 Avant de plonger dans le didacticiel, assurez-vous que les conditions préalables suivantes sont remplies :
--  Aspose.Note pour .NET : assurez-vous que la dernière version d'Aspose.Note pour .NET est installée. Vous pouvez le télécharger[ici](https://releases.aspose.com/note/net/).
+- Aspose.Note pour .NET : assurez-vous que la dernière version d'Aspose.Note pour .NET est installée. Vous pouvez le télécharger[ici](https://releases.aspose.com/note/net/).
 - Environnement de développement .NET : disposez d'un environnement de développement .NET fonctionnel sur votre machine.
 - Éditeur de texte ou IDE : choisissez votre éditeur de texte préféré ou votre environnement de développement intégré (IDE) pour le codage.
 Commençons maintenant par définir la langue de vérification linguistique du texte dans Aspose.Note !
@@ -50,7 +50,7 @@ text.Append("United States", new TextStyle() { Language = CultureInfo.GetCulture
     .Append(" China", new TextStyle() { Language = CultureInfo.GetCultureInfo("zh-CN") });
 ```
 ## Étape 6 : Ajouter du texte enrichi à l'élément de plan
-Ajoutez le texte enrichi à l'élément de plan.
+Ajoutez le texte enrichi à l'élément de contour.
 ```csharp
 outlineElem.AppendChildLast(text);
 ```
@@ -74,7 +74,7 @@ Spécifiez le répertoire dans lequel vous souhaitez enregistrer le document.
 ```csharp
 document.Save(Path.Combine("Your Document Directory", "SetProofingLanguageForText.one"));
 ```
-Toutes nos félicitations! Vous avez défini avec succès la langue de vérification linguistique du texte à l'aide d'Aspose.Note pour .NET.
+Toutes nos félicitations! Vous avez correctement défini la langue de vérification linguistique du texte à l'aide d'Aspose.Note pour .NET.
 ## Conclusion
 Dans ce didacticiel, nous avons approfondi le processus de définition du langage de vérification linguistique pour le texte dans Aspose.Note pour .NET. Avec un guide étape par étape et des extraits de code, vous êtes désormais équipé pour améliorer vos capacités de manipulation de texte. Expérimentez avec différents langages et libérez tout le potentiel d'Aspose.Note dans vos projets .NET.
 

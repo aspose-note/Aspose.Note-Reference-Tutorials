@@ -9,7 +9,7 @@ url: /nl/net/attachments/attach-file-set-icon/
 ---
 ## Invoering
 
-Op het gebied van .NET-ontwikkeling onderscheidt Aspose.Note zich als een krachtig hulpmiddel voor het programmatisch manipuleren van Microsoft OneNote-documenten. Door gebruik te maken van de mogelijkheden kunnen ontwikkelaars verschillende taken automatiseren die verband houden met het maken, bewerken en beheren van OneNote-bestanden binnen hun toepassingen. Een essentieel kenmerk is de mogelijkheid om bestanden aan notities toe te voegen en pictogrammen voor die bijlagen in te stellen. In deze zelfstudie gaan we dieper in op het proces van het bijvoegen van een bestand en het instellen van een pictogram met Aspose.Note voor .NET.
+Op het gebied van .NET-ontwikkeling onderscheidt Aspose.Note zich als een krachtig hulpmiddel voor het programmatisch manipuleren van Microsoft OneNote-documenten. Door gebruik te maken van de mogelijkheden kunnen ontwikkelaars verschillende taken automatiseren die verband houden met het maken, bewerken en beheren van OneNote-bestanden binnen hun applicaties. Een essentieel kenmerk is de mogelijkheid om bestanden aan notities toe te voegen en pictogrammen voor die bijlagen in te stellen. In deze zelfstudie gaan we dieper in op het proces van het bijvoegen van een bestand en het instellen van een pictogram met Aspose.Note voor .NET.
 
 ## Vereisten
 

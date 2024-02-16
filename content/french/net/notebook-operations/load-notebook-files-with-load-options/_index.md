@@ -81,7 +81,7 @@ A1 : Oui, Aspose.Note pour .NET fournit des API complètes pour travailler avec 
 
 ### Q2 : Existe-t-il un essai gratuit disponible pour Aspose.Note pour .NET ?
 
- A2 : Oui, vous pouvez bénéficier d'un essai gratuit d'Aspose.Note pour .NET à partir de[ici](https://releases.aspose.com/).
+A2 : Oui, vous pouvez bénéficier d'un essai gratuit d'Aspose.Note pour .NET à partir de[ici](https://releases.aspose.com/).
 
 ### Q3 : Où puis-je trouver de la documentation pour Aspose.Note pour .NET ?
 

@@ -2,7 +2,7 @@
 title: Načtení dokumentů z OneNote Notebook v Aspose Note .NET
 linktitle: Načtení dokumentů z OneNote Notebook v Aspose Note .NET
 second_title: Aspose.Note .NET API
-description: Naučte se načítat dokumenty z poznámkových bloků OneNote programově pomocí Aspose.Note pro .NET, což umožňuje bezproblémovou integraci a manipulaci.
+description: Naučte se, jak programově získávat dokumenty z poznámkových bloků OneNote pomocí Aspose.Note pro .NET, což umožňuje bezproblémovou integraci a manipulaci.
 type: docs
 weight: 25
 url: /cs/net/notebook-operations/retrieve-documents-from-onenote-notebook/
@@ -23,7 +23,7 @@ Než se pustíte do výukového programu, ujistěte se, že máte splněny násl
 
 4. Poznámkový blok OneNotu: Získejte přístup k poznámkovému bloku OneNotu, který obsahuje dokumenty, které chcete programově načíst.
 
-## Importovat jmenné prostory
+## Import jmenných prostorů
 
 Chcete-li začít pracovat s Aspose.Note ve vašem projektu .NET, musíte importovat potřebné jmenné prostory. To vám umožní přístup ke třídám a metodám poskytovaným knihovnou Aspose.Note.
 

@@ -11,7 +11,7 @@ url: /vi/net/text-manipulation/set-default-paragraph-style/
 Trong lĩnh vực phát triển .NET, Aspose.Note nổi bật như một công cụ mạnh mẽ để làm việc với các tệp OneNote. Một trong những tính năng thiết yếu mà nó cung cấp là khả năng đặt kiểu đoạn văn mặc định, cung cấp cho các nhà phát triển sự linh hoạt để kiểm soát sự xuất hiện của văn bản trong tài liệu của họ. Trong hướng dẫn này, chúng ta sẽ đi sâu vào quá trình thiết lập kiểu đoạn văn mặc định bằng Aspose.Note cho .NET. Hãy làm theo khi chúng tôi chia nhỏ từng bước để giúp bạn nắm vững khía cạnh quan trọng này của thao tác tài liệu.
 ## Điều kiện tiên quyết
 Trước khi chúng ta đi sâu vào hướng dẫn, hãy đảm bảo bạn có sẵn các điều kiện tiên quyết sau:
--  Aspose.Note for .NET: Đảm bảo rằng bạn đã cài đặt thư viện Aspose.Note cho .NET. Bạn có thể tải nó xuống từ[Tài liệu Aspose.Note .NET](https://reference.aspose.com/note/net/).
+- Aspose.Note for .NET: Đảm bảo rằng bạn đã cài đặt thư viện Aspose.Note cho .NET. Bạn có thể tải nó xuống từ[Tài liệu Aspose.Note .NET](https://reference.aspose.com/note/net/).
 - Môi trường phát triển tích hợp (IDE): Có một IDE đang hoạt động để phát triển .NET, chẳng hạn như Visual Studio, được cài đặt trên máy của bạn.
 Bây giờ bạn đã có các công cụ cần thiết, hãy chuyển sang các bước tiếp theo.
 ## Nhập không gian tên
@@ -79,4 +79,4 @@ Có, bạn có thể tạo nhiều dàn bài hoặc nhiều trang với các ki�
 ### Aspose.Note có tương thích với các khung .NET mới nhất không?
 Có, Aspose.Note được cập nhật thường xuyên để đảm bảo khả năng tương thích với các khung .NET mới nhất.
 ### Giấy phép tạm thời có sẵn cho Aspose.Note không?
-Có, bạn có thể xin giấy phép tạm thời cho Aspose.Note từ[đây](https://purchase.aspose.com/temporary-license/).
+ Có, bạn có thể xin giấy phép tạm thời cho Aspose.Note từ[đây](https://purchase.aspose.com/temporary-license/).

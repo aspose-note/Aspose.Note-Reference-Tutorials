@@ -17,11 +17,11 @@ Innan vi börjar, se till att du har ställt in följande förutsättningar:
 
 ### Visual Studio installerad
 
- Se till att du har Visual Studio installerat på ditt system. Du kan ladda ner den från[hemsida](https://visualstudio.microsoft.com/).
+Se till att du har Visual Studio installerat på ditt system. Du kan ladda ner den från[hemsida](https://visualstudio.microsoft.com/).
 
 ### Aspose.Note för .NET installerat
 
- Du måste ha Aspose.Note för .NET-biblioteket installerat i ditt Visual Studio-projekt. Om du inte redan har gjort det, ladda ner den från[Aspose hemsida](https://releases.aspose.com/note/net/) och följ installationsanvisningarna.
+ Du måste ha Aspose.Note för .NET-biblioteket installerat i ditt Visual Studio-projekt. Om du inte redan har gjort det, ladda ner det från[Aspose hemsida](https://releases.aspose.com/note/net/) och följ installationsanvisningarna.
 
 ### Grundläggande förståelse för C#
 

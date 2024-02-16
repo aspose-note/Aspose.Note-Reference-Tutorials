@@ -26,7 +26,7 @@ Steigern Sie Ihre .NET-Anwendungen mit Aspose.Note! Tauchen Sie ein in Tutorials
 
 Verbessern Sie mühelos die Interaktivität in Aspose.Note-Dokumenten! Unsere Schritt-für-Schritt-Anleitungen zum Hinzufügen von Hyperlinks mit Aspose.Note für .NET werden die Interaktion mit Ihrem Dokument verändern. Entdecken Sie die Geheimnisse effektiver Hyperlinks und steigern Sie die interaktiven Elemente Ihrer OneNote-Kreationen.
 
-## Hervorragende Bildverarbeitung 
+## Hervorragende Bildbearbeitung 
 [Entdecken Sie Bild-Tutorials](./images/)
 
 Betreten Sie die Welt der OneNote-Dokumentbearbeitung mit Tutorials zur nahtlosen Bildbearbeitung. Werten Sie Ihre visuellen Inhalte mühelos mit Aspose.Note für .NET auf. Entdecken Sie die Feinheiten der Bearbeitung von Bildern in Ihren OneNote-Dokumenten.

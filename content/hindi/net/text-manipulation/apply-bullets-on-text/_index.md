@@ -27,7 +27,7 @@ using System.Collections.Generic;
 ```csharp
 // दस्तावेज़ निर्देशिका का पथ.
 string dataDir = "Your Document Directory";
-// दस्तावेज़ वर्ग का एक ऑब्जेक्ट बनाएं
+//दस्तावेज़ वर्ग का एक ऑब्जेक्ट बनाएं
 Aspose.Note.Document doc = new Aspose.Note.Document();
 ```
 ## चरण 2: पृष्ठ और रूपरेखा प्रारंभ करें
@@ -63,7 +63,7 @@ page.AppendChildLast(outline);
 ```
 ## चरण 7: दस्तावेज़ में पेज जोड़ें
 ```csharp
-// पेज नोड जोड़ें
+//पेज नोड जोड़ें
 doc.AppendChildLast(page);
 ```
 ## चरण 8: OneNote दस्तावेज़ सहेजें

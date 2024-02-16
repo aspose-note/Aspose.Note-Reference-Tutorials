@@ -31,7 +31,7 @@ using System;
 using System.Collections.Generic;
 ```
 
-## Etapa 1: criar um objeto de documento
+## Etapa 1: crie um objeto de documento
 
 Inicialize um objeto Document para começar a trabalhar com um documento do OneNote.
 
@@ -106,4 +106,4 @@ A4: Sim, Aspose.Note for .NET oferece suporte à criptografia de documentos para
 
 ### P5: Onde posso encontrar mais recursos e suporte para Aspose.Note for .NET?
 
- A5: Você pode explorar o[Documentação do Aspose.Note para .NET](https://reference.aspose.com/note/net/) e procure ajuda do[Fórum Aspose.Note](https://forum.aspose.com/c/note/28).
+ A5: Você pode explorar o[Documentação do Aspose.Note para .NET](https://reference.aspose.com/note/net/) procure ajuda do[Fórum Aspose.Note](https://forum.aspose.com/c/note/28).

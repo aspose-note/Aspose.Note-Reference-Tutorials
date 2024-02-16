@@ -29,7 +29,7 @@ Kezdje egy új dokumentum létrehozásával és a szükséges objektumok inicial
 ```csharp
 // A dokumentumok könyvtárának elérési útja.
 string dataDir = "Your Document Directory";
-// Hozzon létre egy objektumot a Dokumentum osztályból
+//Hozzon létre egy objektumot a Dokumentum osztályból
 Document doc = new Document();
 // Oldal osztály objektum inicializálása
 Aspose.Note.Page page = new Aspose.Note.Page(doc);

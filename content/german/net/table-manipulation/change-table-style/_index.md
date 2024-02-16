@@ -90,7 +90,7 @@ A3: Ja, Aspose.Note bietet Funktionen zum Exportieren von OneNote-Dokumenten, ei
 
 ### F4: Kann ich mit Aspose.Note programmgesteuert neue Tabellen erstellen?
 
-A4: Selbstverständlich können Sie mithilfe der Aspose.Note-API dynamisch neue Tabellen in OneNote-Dokumenten generieren und so Szenarios zur automatisierten Dokumentgenerierung ermöglichen.
+A4: Natürlich können Sie mithilfe der Aspose.Note-API dynamisch neue Tabellen in OneNote-Dokumenten generieren und so Szenarios zur automatisierten Dokumentgenerierung ermöglichen.
 
 ### F5: Wo finde ich weitere Ressourcen und Support für Aspose.Note?
 

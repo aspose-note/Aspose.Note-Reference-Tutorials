@@ -79,7 +79,7 @@ A1：不需要，您需要有效的許可證才能使用 Aspose.Note for .NET。
 
  A3：您可以從 Aspose.Note 社群獲得支持[這裡](https://forum.aspose.com/c/note/28).
 
-### Q4: 我可以在購買前試用 Aspose.Note 嗎？
+### Q4：我可以在購買前試用 Aspose.Note 嗎？
 
  A4：是的，您可以從以下位置下載免費試用版：[這裡](https://releases.aspose.com/).
 

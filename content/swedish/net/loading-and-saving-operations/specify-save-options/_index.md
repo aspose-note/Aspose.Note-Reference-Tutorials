@@ -53,7 +53,7 @@ PdfSaveOptions opts = new PdfSaveOptions
     // Använd Jpeg-komprimering
     ImageCompression = Saving.Pdf.PdfImageCompression.Jpeg,
     
-    //Kvalitet för JPEG-komprimering
+    // Kvalitet för JPEG-komprimering
     JpegQuality = 90
 };
 ```
@@ -71,7 +71,7 @@ doc.Save(dataDir, opts);
 
 ## Slutsats
 
-I den här handledningen har vi utforskat hur man anger sparalternativ i Aspose.Note för .NET för att anpassa utdataformatet och kvaliteten när du sparar OneNote-dokument. Genom att följa dessa steg kan utvecklare effektivt manipulera och hantera sina OneNote-filer enligt deras specifika krav.
+den här handledningen har vi utforskat hur man anger sparalternativ i Aspose.Note för .NET för att anpassa utdataformatet och kvaliteten när du sparar OneNote-dokument. Genom att följa dessa steg kan utvecklare effektivt manipulera och hantera sina OneNote-filer enligt deras specifika krav.
 
 ## FAQ's
 

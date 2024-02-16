@@ -82,7 +82,7 @@ Selamat! Anda telah berhasil mempelajari cara menyimpan berbagai halaman dari do
 
 ### Q1: Dapatkah saya menyimpan beberapa rentang halaman sebagai file PDF terpisah menggunakan Aspose.Note?
 
- A1: Ya, Anda dapat mencapai hal ini dengan mengulangi proses untuk setiap rentang halaman yang ingin Anda simpan, menyesuaikannya`PageIndex` Dan`PageCount` demikian.
+A1: Ya, Anda dapat mencapai hal ini dengan mengulangi proses untuk setiap rentang halaman yang ingin Anda simpan, menyesuaikannya`PageIndex` Dan`PageCount` demikian.
    
 ### Q2: Apakah Aspose.Note mendukung penyimpanan dokumen dalam format selain PDF?
 

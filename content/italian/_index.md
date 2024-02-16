@@ -1,6 +1,6 @@
 ---
 title: Padroneggiare la manipolazione dei file OneNote con Aspose.Note
-linktitle: Aspose.Page Tutorial
+linktitle: Aspose.Note Tutorial
 additionalTitle: Riferimenti API Aspose
 description: Padroneggia Aspose.Note con tutorial passo-passo! Impara a manipolare i file OneNote a livello di codice per un'elaborazione efficiente dei documenti.
 type: docs
@@ -9,7 +9,7 @@ url: /it/
 is_root: true
 ---
 
-Benvenuti nella pagina di elenco dei tutorial di Aspose.Note: la tua guida completa per padroneggiare le potenti funzionalità di Aspose.Note, un'API leader nella manipolazione dei documenti. Che tu sia uno sviluppatore esperto o un nuovo arrivato desideroso di esplorare il mondo dell'elaborazione dei documenti, questi tutorial sono progettati per fornirti una guida passo passo ed esempi pratici. Aspose.Note ti consente di lavorare con i file Microsoft OneNote a livello di codice, sbloccando una miriade di possibilità per creare, modificare ed estrarre contenuti dai documenti OneNote. Esplora i nostri tutorial attentamente curati per migliorare le tue competenze, semplificare il processo di sviluppo e sfruttare tutto il potenziale di Aspose.Note nelle tue applicazioni. Intraprendiamo insieme questo viaggio di conoscenza ed efficienza!
+Intraprendi un viaggio di trasformazione con i tutorial Aspose.Note, su misura per le piattaforme .NET e Java, per ridefinire il tuo approccio alla manipolazione dei documenti OneNote. Le nostre guide complete potenziano le tue applicazioni con approfondimenti passo passo, coprendo una vasta gamma di argomenti, dalle complessità delle licenze alla brillantezza della gestione delle immagini. Migliora le tue abilità negli allegati, nei collegamenti ipertestuali e nella manipolazione del testo, sbloccando tutto il potenziale di Aspose.Note per uno sviluppo di documenti senza interruzioni. Immergiti nella creazione precisa di tabelle, nell'importazione efficiente di PDF e nella gestione magistrale dei tag. Stampa le tue creazioni OneNote con opzioni di personalizzazione ed esplora facilmente il caricamento, il salvataggio e le operazioni del taccuino. Rivoluziona la tua esperienza di manipolazione dei documenti, un tutorial alla volta, mentre esplori queste preziose risorse sia per .NET che per Java.
 
 ## Aspose.Note per tutorial .NET
 {{% alert color="primary" %}}
@@ -31,3 +31,26 @@ Questi sono i link ad alcune risorse utili:
 - [Gestione dei tag](./net/tag-management/)
 - [Manipolazione del testo](./net/text-manipulation/)
 
+## Aspose.Note per tutorial Java
+{{% alert color="primary" %}}
+Intraprendi un viaggio di trasformazione con i tutorial Aspose.Note per Java, progettati per migliorare la tua esperienza OneNote e semplificare lo sviluppo Java. Esplora guide complete che coprono l'integrazione Java, la manipolazione dei documenti, i collegamenti ipertestuali, le immagini, le licenze, l'ottimizzazione delle prestazioni, il salvataggio dei documenti, le operazioni del notebook, la manipolazione delle pagine, la stampa, gli stili, la manipolazione delle tabelle, le operazioni sui tag, la manipolazione del testo e l'integrazione con Outlook. Scatena tutto il potenziale di Aspose.Note, migliorando le tue capacità di elaborazione dei documenti e padroneggiando l'arte dello sviluppo Java efficiente. 
+{{% /alert %}}
+
+Questi sono i link ad alcune risorse utili:
+ 
+- [Integrazione Java di OneNote](./java/onenote-java-integration/)
+- [Manipolazione dei documenti OneNote](./java/onenote-document-manipulation/)
+- [Collegamenti ipertestuali e immagini di OneNote](./java/onenote-hyperlinks-images/)
+- [Testo alternativo all'immagine di OneNote](./java/onenote-image-alternative-text/)
+- [Aspose.Note Licenza con Java](./java/licensing-java/)
+- [Caricamento del documento OneNote](./java/onenote-document-loading/)
+- [Ottimizzazione delle prestazioni di OneNote](./java/onenote-performance-optimization/)
+- [Salvataggio di documenti OneNote](./java/onenote-document-saving/)
+- [Operazioni del blocco appunti di OneNote](./java/onenote-notebook-operations/)
+- [Manipolazione della pagina OneNote](./java/onenote-page-manipulation/)
+- [Stampa di documenti OneNote](./java/onenote-printing-documents/)
+- [Stili di OneNote](./java/onenote-styles/)
+- [Manipolazione della tabella OneNote](./java/onenote-table-manipulation/)
+- [Operazioni sui tag di OneNote](./java/onenote-tag-operations/)
+- [Manipolazione del testo di OneNote](./java/onenote-text-manipulation/)
+- [Integrazione di attività e Outlook](./java/task-and-outlook-integration/)

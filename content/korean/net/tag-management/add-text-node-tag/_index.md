@@ -9,9 +9,9 @@ url: /ko/net/tag-management/add-text-node-tag/
 ---
 ## 소개
 
-Aspose.Note for .NET은 개발자가 .NET 프레임워크를 사용하여 프로그래밍 방식으로 Microsoft OneNote 파일을 생성, 조작 및 변환할 수 있게 해주는 강력한 라이브러리입니다. 이 튜토리얼에서는 .NET용 Aspose.Note를 사용하여 OneNote 문서에 태그가 있는 텍스트 노드를 추가하는 방법을 살펴보겠습니다.
+Aspose.Note for .NET은 개발자가 .NET 프레임워크를 사용하여 프로그래밍 방식으로 Microsoft OneNote 파일을 생성, 조작 및 변환할 수 있도록 하는 강력한 라이브러리입니다. 이 튜토리얼에서는 .NET용 Aspose.Note를 사용하여 OneNote 문서에 태그가 있는 텍스트 노드를 추가하는 방법을 살펴보겠습니다.
 
-## 전제 조건
+## 전제조건
 
 시작하기 전에 다음 필수 구성 요소가 있는지 확인하세요.
 
@@ -106,4 +106,4 @@ A4: 예, .NET용 Aspose.Note는 데이터 보안을 보장하기 위해 문서 �
 
 ### Q5: .NET용 Aspose.Note에 대한 추가 리소스와 지원은 어디서 찾을 수 있나요?
 
- A5: 다음을 탐색할 수 있습니다.[.NET 문서용 Aspose.Note](https://reference.aspose.com/note/net/) 그리고 해당 기관의 도움을 구하세요.[Aspose.Note 포럼](https://forum.aspose.com/c/note/28).
+ A5: 다음을 탐색할 수 있습니다.[.NET 문서용 Aspose.Note](https://reference.aspose.com/note/net/)그리고 해당 기관의 도움을 구하세요.[Aspose.Note 포럼](https://forum.aspose.com/c/note/28).

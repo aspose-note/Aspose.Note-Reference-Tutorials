@@ -61,7 +61,7 @@ Skriv ut ett bekräftelsemeddelande som anger att titelstilarna har uppdaterats.
 Grattis! Du har framgångsrikt lärt dig hur du ändrar sidrubrikstilar i Aspose.Note för .NET. Denna enkla men kraftfulla funktion kan avsevärt förbättra det visuella tilltalandet av dina dokument.
 ## Vanliga frågor
 ### Är Aspose.Note kompatibel med de senaste .NET framework-versionerna?
-Aspose.Note är designad för att vara kompatibel med ett brett utbud av .NET framework-versioner, inklusive de senaste. Referera till[dokumentation](https://reference.aspose.com/note/net/) för detaljerad kompatibilitetsinformation.
+ Aspose.Note är designad för att vara kompatibel med ett brett utbud av .NET framework-versioner, inklusive de senaste. Referera till[dokumentation](https://reference.aspose.com/note/net/) för detaljerad kompatibilitetsinformation.
 ### Kan jag prova Aspose.Note innan jag köper?
  Ja, du kan utforska Aspose.Note genom att ladda ner den kostnadsfria testversionen[här](https://releases.aspose.com/).
 ### Hur kan jag få support för Aspose.Note?

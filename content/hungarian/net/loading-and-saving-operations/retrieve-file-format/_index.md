@@ -74,7 +74,7 @@ Itt egy switch utasítást használunk a különböző fájlformátumok kezelés
 
 ### 3. kérdés: Kipróbálhatom az Aspose.Note-t a vásárlás előtt?
 
- 3. válasz: Igen, felfedezheti az Aspose.Note képességeit a webhelyen elérhető ingyenes próbaverzióval.[ weboldal](https://releases.aspose.com/).
+3. válasz: Igen, felfedezheti az Aspose.Note képességeit a webhelyen elérhető ingyenes próbaverzióval.[ weboldal](https://releases.aspose.com/).
 
 ### 4. kérdés: Hogyan kaphatok támogatást az Aspose.Note-hoz?
 
@@ -82,4 +82,4 @@ Itt egy switch utasítást használunk a különböző fájlformátumok kezelés
 
 ### 5. kérdés: Szükségem van ideiglenes licencre értékelési célokra?
 
-5. válasz: Míg az ingyenes próbaverzió lehetővé teszi az Aspose.Note tesztelését, a kiterjesztett értékeléshez ideiglenes licencet is választhat. Látogatás[itt](https://purchase.aspose.com/temporary-license/) további részletekért.
+ 5. válasz: Míg az ingyenes próbaverzió lehetővé teszi az Aspose.Note tesztelését, a kiterjesztett értékeléshez ideiglenes licencet is választhat. Látogatás[itt](https://purchase.aspose.com/temporary-license/) további részletekért.

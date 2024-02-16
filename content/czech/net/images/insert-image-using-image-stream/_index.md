@@ -19,7 +19,7 @@ Než začneme, ujistěte se, že máte splněny následující předpoklady:
 3. Obrazové soubory: Připravte si obrazové soubory, které chcete vložit do dokumentu Note.
 4. Základní porozumění: Seznamte se se základními pojmy programovacího jazyka C# a práce se soubory.
 
-## Importovat jmenné prostory
+## Import jmenných prostorů
 Nejprve importujme potřebné jmenné prostory do našeho projektu. Tyto jmenné prostory budou poskytovat přístup ke třídám a metodám potřebným pro práci s Aspose.Note a zvládnou vkládání obrázků.
 
 ```csharp
@@ -76,7 +76,7 @@ Obrázek připojíme k prvku OutlineElement a efektivně jej přidáme do strukt
 ```csharp
 outline1.AppendChildLast(outlineElem1);
 ```
-Outline připojíme OutlineElement obsahující obrázek.
+K Outline připojíme OutlineElement obsahující obrázek.
 
 ## Krok 7: Připojte obrys na stránku
 ```csharp

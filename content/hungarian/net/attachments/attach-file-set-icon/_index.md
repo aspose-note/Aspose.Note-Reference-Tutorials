@@ -9,7 +9,7 @@ url: /hu/net/attachments/attach-file-set-icon/
 ---
 ## Bevezetés
 
-A .NET fejlesztés területén az Aspose.Note a Microsoft OneNote dokumentumok programozott kezelésének hatékony eszközeként tűnik ki. Lehetőségeit kihasználva a fejlesztők automatizálhatják a OneNote-fájlok létrehozásával, szerkesztésével és kezelésével kapcsolatos különféle feladatokat alkalmazásaikban. Az egyik alapvető funkció a fájlok csatolása a jegyzetekhez és ikonok beállítása ezekhez a mellékletekhez. Ebben az oktatóanyagban a fájl csatolásának és az Aspose.Note for .NET-hez való ikon beállításának folyamatába fogunk bele.
+.NET fejlesztés területén az Aspose.Note a Microsoft OneNote dokumentumok programozott kezelésének hatékony eszközeként tűnik ki. Lehetőségeit kihasználva a fejlesztők automatizálhatják a OneNote-fájlok létrehozásával, szerkesztésével és kezelésével kapcsolatos különféle feladatokat alkalmazásaikban. Az egyik alapvető funkció a fájlok csatolása a jegyzetekhez és ikonok beállítása ezekhez a mellékletekhez. Ebben az oktatóanyagban a fájl csatolásának és az Aspose.Note for .NET-hez való ikon beállításának folyamatába fogunk bele.
 
 ## Előfeltételek
 

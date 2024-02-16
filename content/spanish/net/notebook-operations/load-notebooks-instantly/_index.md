@@ -61,7 +61,7 @@ foreach (INotebookChildNode notebookChildNode in notebook.OfType<Document>())
 
 ## Conclusión
 
- En este tutorial, hemos aprendido cómo cargar instantáneamente cuadernos en Aspose.Note para .NET. Al configurar el`InstantLoading` bandera en el`NotebookLoadOptions`, podemos iterar de manera eficiente a través de documentos precargados de una computadora portátil, mejorando el rendimiento y la productividad.
+En este tutorial, hemos aprendido cómo cargar instantáneamente cuadernos en Aspose.Note para .NET. Al configurar el`InstantLoading` bandera en el`NotebookLoadOptions`, podemos iterar de manera eficiente a través de documentos precargados de una computadora portátil, mejorando el rendimiento y la productividad.
 
 ## Preguntas frecuentes
 

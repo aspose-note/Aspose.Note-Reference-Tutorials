@@ -82,7 +82,7 @@ Chúc mừng! Bạn đã học thành công cách lưu nhiều trang từ tài l
 
 ### Câu hỏi 1: Tôi có thể lưu nhiều phạm vi trang dưới dạng tệp PDF riêng biệt bằng Aspose.Note không?
 
- Đáp 1: Có, bạn có thể đạt được điều này bằng cách lặp lại quy trình cho từng phạm vi trang bạn muốn lưu, điều chỉnh`PageIndex` Và`PageCount` tương ứng.
+Đáp 1: Có, bạn có thể đạt được điều này bằng cách lặp lại quy trình cho từng phạm vi trang bạn muốn lưu, điều chỉnh`PageIndex` Và`PageCount` tương ứng.
    
 ### Câu hỏi 2: Aspose.Note có hỗ trợ lưu tài liệu ở các định dạng khác ngoài PDF không?
 

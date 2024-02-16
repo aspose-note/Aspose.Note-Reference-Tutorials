@@ -79,7 +79,7 @@ A2 : Aspose.Note prend en charge l’historique de chargement pour les formats 
 
 ### Q3 : Existe-t-il un essai gratuit disponible pour Aspose.Note pour .NET ?
 
- A3 : Oui, vous pouvez télécharger un essai gratuit d'Aspose.Note pour .NET à partir de[ici](https://releases.aspose.com/).
+A3 : Oui, vous pouvez télécharger un essai gratuit d'Aspose.Note pour .NET à partir de[ici](https://releases.aspose.com/).
 
 ### Q4 : Comment puis-je obtenir une licence temporaire pour Aspose.Note pour .NET ?
 

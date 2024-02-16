@@ -92,8 +92,8 @@ A3: Aspose.Note は他の .NET ライブラリとシームレスに統合し、�
 
 ### Q4: Aspose.Note のサポートを受けるにはどうすればよいですか?
 
-A4: Aspose.Note のサポートを受けるには、次のサイトにアクセスしてください。[Aspose.Note フォーラム](https://forum.aspose.com/c/note/28)、質問をしたり、解決策を見つけることができます。
+ A4: Aspose.Note のサポートを受けるには、次のサイトにアクセスしてください。[Aspose.Note フォーラム](https://forum.aspose.com/c/note/28)、質問をしたり、解決策を見つけることができます。
 
 ### Q5: Aspose.Note に利用できる無料トライアルはありますか?
 
- A5: はい、次のサイトにアクセスして、Aspose.Note の無料トライアルを利用できます。[ここ](https://releases.aspose.com/).
+A5: はい、次のサイトにアクセスして、Aspose.Note の無料トライアルを利用できます。[ここ](https://releases.aspose.com/).

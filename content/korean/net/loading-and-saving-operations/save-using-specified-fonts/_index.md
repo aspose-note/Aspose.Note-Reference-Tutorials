@@ -11,7 +11,7 @@ url: /ko/net/loading-and-saving-operations/save-using-specified-fonts/
 
 이 튜토리얼에서는 Aspose.Note for .NET에서 지정된 글꼴을 사용하여 문서를 저장하는 방법을 알아봅니다. 이를 달성하기 위한 다양한 방법을 단계별로 살펴보겠습니다.
 
-## 전제 조건
+## 전제조건
 
 시작하기 전에 다음 사항이 있는지 확인하세요.
 

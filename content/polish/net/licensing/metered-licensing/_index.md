@@ -17,7 +17,7 @@ Zanim wyruszymy w podróż mającą na celu zrozumienie licencjonowania odmierzo
 
 1.  Instalacja Aspose.Note dla .NET: Upewnij się, że pobrałeś i zainstalowałeś Aspose.Note dla .NET. Najnowszą wersję można uzyskać ze strony[strona pobierania](https://releases.aspose.com/note/net/).
 
-2.  Dostęp do dokumentacji Aspose.Note: Zapoznaj się z dokumentacją Aspose.Note dla .NET, która zapewnia szczegółowy wgląd w jej różne funkcje i funkcjonalności. Możesz zapoznać się z dokumentacją[Tutaj](https://reference.aspose.com/note/net/).
+2.  Dostęp do dokumentacji Aspose.Note: Zapoznaj się z dokumentacją Aspose.Note dla .NET, która zapewnia szczegółowy wgląd w różne funkcje i funkcjonalności. Możesz zapoznać się z dokumentacją[Tutaj](https://reference.aspose.com/note/net/).
 
 ## Importuj przestrzenie nazw
 

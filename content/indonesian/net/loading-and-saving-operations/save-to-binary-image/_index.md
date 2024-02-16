@@ -80,7 +80,7 @@ Dalam tutorial ini, kita telah mempelajari cara menyimpan dokumen ke gambar bine
 
 ### Q1: Dapatkah saya menyesuaikan ambang binarisasi?
 
-A1: Ya, Anda dapat menyesuaikan ambang binarisasi sesuai kebutuhan Anda dengan memodifikasi`BinarizationThreshold` properti dalam kode.
+ A1: Ya, Anda dapat menyesuaikan ambang binarisasi sesuai kebutuhan Anda dengan memodifikasi`BinarizationThreshold` properti dalam kode.
 
 ### Q2: Format lain apa yang didukung untuk menyimpan dokumen?
 
@@ -96,4 +96,4 @@ A4: Ya, Anda dapat mengulang beberapa dokumen dan menyimpannya sebagai gambar bi
 
 ### Q5: Di mana saya dapat menemukan lebih banyak sumber daya dan dukungan untuk Aspose.Note?
 
- A5: Anda dapat menjelajahi[Dokumentasi Aspose.Note](https://reference.aspose.com/note/net/) dan mencari bantuan dari[Aspose.Catatan forum](https://forum.aspose.com/c/note/28) untuk pertanyaan atau masalah apa pun.
+ A5: Anda dapat menjelajahi[Dokumentasi Aspose.Note](https://reference.aspose.com/note/net/)dan mencari bantuan dari[Aspose.Catatan forum](https://forum.aspose.com/c/note/28) untuk pertanyaan atau masalah apa pun.

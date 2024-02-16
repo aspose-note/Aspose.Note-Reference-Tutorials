@@ -30,7 +30,7 @@ Ersetzen Sie „Ihr Dokumentverzeichnis“ durch den Pfad zu dem Verzeichnis, da
 ```csharp
 Document oneFile = new Document(dataDir + "Aspose.one");
 ```
- Laden Sie Ihr Aspose.Note-Dokument in das`Document` Objekt zur weiteren Bearbeitung.
+Laden Sie Ihr Aspose.Note-Dokument in das`Document` Objekt zur weiteren Bearbeitung.
 ## Schritt 3: Text abrufen
 ```csharp
 string text = string.Join(Environment.NewLine, oneFile.GetChildNodes<RichText>().Select(e => e.Text)) + Environment.NewLine;

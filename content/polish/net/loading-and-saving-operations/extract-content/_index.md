@@ -9,7 +9,7 @@ url: /pl/net/loading-and-saving-operations/extract-content/
 ---
 ## Wstęp
 
-tym samouczku przyjrzymy się, jak wyodrębnić zawartość z dokumentów Aspose.Note przy użyciu Aspose.Note dla .NET. Aspose.Note to potężna biblioteka, która umożliwia programową pracę z plikami Microsoft OneNote. Przeanalizujemy ten proces krok po kroku, dzieląc każdy przykład na wiele kroków, aby zapewnić przejrzystość i zrozumienie.
+W tym samouczku przyjrzymy się, jak wyodrębnić zawartość z dokumentów Aspose.Note przy użyciu Aspose.Note dla .NET. Aspose.Note to potężna biblioteka, która umożliwia programową pracę z plikami Microsoft OneNote. Przeanalizujemy ten proces krok po kroku, dzieląc każdy przykład na wiele kroków, aby zapewnić przejrzystość i zrozumienie.
 
 ## Warunki wstępne
 
@@ -32,18 +32,18 @@ using System;
 
 ## Krok 1: Otwórz dokument
 
- Aby wyodrębnić zawartość z dokumentu Aspose.Note, musisz najpierw otworzyć dokument, z którym chcesz pracować. Odbywa się to za pomocą`Document` klasa dostarczona przez Aspose.Note.
+ Aby wyodrębnić treść z dokumentu Aspose.Note, musisz najpierw otworzyć dokument, z którym chcesz pracować. Odbywa się to za pomocą`Document` klasa dostarczona przez Aspose.Note.
 
 ```csharp
 string dataDir = "Your Document Directory";
 Document doc = new Document(dataDir + "Aspose.one");
 ```
 
- Zastępować`"Your Document Directory"` z katalogiem, w którym znajduje się dokument Aspose.Note. Upewnij się, że podałeś poprawną nazwę pliku wraz z rozszerzeniem.
+ Zastępować`"Your Document Directory"` katalogiem, w którym znajduje się dokument Aspose.Note. Upewnij się, że podałeś poprawną nazwę pliku wraz z rozszerzeniem.
 
 ## Krok 2: Utwórz obiekt DocumentVisitor
 
- Następnie utworzymy niestandardowy`DocumentVisitor`aby odwiedzić różne węzły w dokumencie. Ten gość umożliwi nam przeglądanie struktury dokumentu i wyodrębnianie treści.
+ Następnie utworzymy niestandardowy`DocumentVisitor` aby odwiedzić różne węzły w dokumencie. Ten gość umożliwi nam przeglądanie struktury dokumentu i wyodrębnianie treści.
 
 ```csharp
 public class MyOneNoteToTxtWriter : DocumentVisitor
@@ -74,7 +74,7 @@ public override void VisitPageStart(Page page)
 
 ## Krok 4: Zgromadź tekst
 
-W klasie odwiedzającego zgromadzimy wyodrębniony tekst w StringBuilder, który będzie dostępny po zakończeniu procesu odwiedzania.
+klasie odwiedzającego zgromadzimy wyodrębniony tekst w StringBuilder, który będzie dostępny po zakończeniu procesu odwiedzania.
 
 ```csharp
 private readonly StringBuilder mBuilder;
@@ -97,7 +97,7 @@ public string GetText()
 
 ## Krok 5: Przeprowadź wizytację
 
-Na koniec przeprowadzimy proces wizytacji, wywołując metodę`Accept` metodę na obiekcie dokumentu, przekazując jako parametr naszą niestandardową instancję gościa.
+ Na koniec przeprowadzimy proces wizytacji, wywołując metodę`Accept` metodę na obiekcie dokumentu, przekazując jako parametr naszą niestandardową instancję gościa.
 
 ```csharp
 MyOneNoteToTxtWriter myConverter = new MyOneNoteToTxtWriter();

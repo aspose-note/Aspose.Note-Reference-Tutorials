@@ -79,4 +79,4 @@ Tóm lại, việc nắm vững nghệ thuật thay thế văn bản trên tất
 ### Câu hỏi: Tôi có thể tìm thêm hướng dẫn và tài liệu về Aspose.Note cho .NET ở đâu?
  Đáp: Hãy ghé thăm[tài liệu](https://reference.aspose.com/note/net/) để có các tài nguyên và hướng dẫn chuyên sâu.
 ### Câu hỏi: Tôi có thể sử dụng Aspose.Note cho các dự án thương mại không?
- Đáp: Có, hãy khám phá các tùy chọn cấp phép và mua hàng[đây](https://purchase.aspose.com/buy).
+Đáp: Có, hãy khám phá các tùy chọn cấp phép và mua hàng[đây](https://purchase.aspose.com/buy).

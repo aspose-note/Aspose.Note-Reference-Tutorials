@@ -17,7 +17,7 @@ url: /ar/net/licensing/metered-licensing/
 
 1.  تثبيت Aspose.Note لـ .NET: تأكد من أنك قمت بتنزيل Aspose.Note لـ .NET وتثبيته. يمكنك الحصول على أحدث إصدار من[صفحة التحميل](https://releases.aspose.com/note/net/).
 
-2.  الوصول إلى وثائق Aspose.Note: تعرف على وثائق Aspose.Note لـ .NET، والتي توفر رؤى تفصيلية حول ميزاتها ووظائفها المتنوعة. يمكنك الرجوع إلى الوثائق[هنا](https://reference.aspose.com/note/net/).
+2.  الوصول إلى وثائق Aspose.Note: تعرف على وثائق Aspose.Note لـ .NET، والتي توفر رؤى تفصيلية حول ميزاته ووظائفه المتنوعة. يمكنك الرجوع إلى الوثائق[هنا](https://reference.aspose.com/note/net/).
 
 ## استيراد مساحات الأسماء
 

@@ -67,7 +67,7 @@ Aspose.Note.License license = new Aspose.Note.License();
 
 ## الخطوة 2: تعيين الترخيص من المسار
 
- بعد ذلك، استخدم`SetLicense` طريقة`License` فئة لتطبيق الترخيص من المسار المحدد:
+بعد ذلك، استخدم`SetLicense` طريقة`License` فئة لتطبيق الترخيص من المسار المحدد:
 
 ```csharp
 license.SetLicense("Aspose.Note.lic");

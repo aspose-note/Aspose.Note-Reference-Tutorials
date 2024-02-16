@@ -103,7 +103,7 @@ Trả lời 1: Aspose.Note hỗ trợ Microsoft OneNote 2010 và các phiên b�
 
 ### Câu 3: Aspose.Note có cung cấp bản dùng thử miễn phí không?
 
-A3: Có, bạn có thể dùng thử miễn phí[đây](https://releases.aspose.com/).
+ A3: Có, bạn có thể dùng thử miễn phí[đây](https://releases.aspose.com/).
 
 ### Câu hỏi 4: Tôi có thể tìm tài liệu về Aspose.Note ở đâu?
 
@@ -111,4 +111,4 @@ A3: Có, bạn có thể dùng thử miễn phí[đây](https://releases.aspose.
 
 ### Câu hỏi 5: Tôi có thể nhận hỗ trợ cho Aspose.Note ở đâu?
 
-Câu trả lời 5: Để được hỗ trợ, bạn có thể truy cập Aspose.Note[diễn đàn](https://forum.aspose.com/c/note/28).
+ Câu trả lời 5: Để được hỗ trợ, bạn có thể truy cập Aspose.Note[diễn đàn](https://forum.aspose.com/c/note/28).

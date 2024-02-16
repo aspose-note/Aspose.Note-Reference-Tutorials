@@ -76,7 +76,7 @@ public void CssSaving(CssSavingArgs args)
 }
 ```
 
- Ở đây, chúng tôi xác định`CssSaving`phương thức gọi lại để quản lý việc lưu các bảng định kiểu CSS. Nó tạo một tài nguyên trong thư mục CSS được chỉ định và đặt luồng, URI và các thuộc tính khác tương ứng.
+ Ở đây, chúng tôi xác định`CssSaving` phương thức gọi lại để quản lý việc lưu các bảng định kiểu CSS. Nó tạo một tài nguyên trong thư mục CSS được chỉ định và đặt luồng, URI và các thuộc tính khác tương ứng.
 
 ## Bước 4: Thực hiện gọi lại lưu hình ảnh
 

@@ -73,7 +73,7 @@ Définissez un style de texte par défaut à appliquer à l'ensemble du document
 RichText titleText = new RichText() { ParagraphStyle = defaultTextStyle }.Append("Title!");
 ```
 
- Construire un`RichText` objet pour le titre avec le formatage spécifié.
+ Construire un`RichText`objet pour le titre avec le formatage spécifié.
 
 ## Étape 6 : Initialiser les objets de contour et d'élément de contour
 

@@ -9,7 +9,7 @@ url: /cs/net/table-manipulation/change-table-style/
 ---
 ## Úvod
 
-tomto tutoriálu prozkoumáme, jak změnit styl tabulky v Aspose.Note pomocí rozhraní .NET. Aspose.Note je výkonné rozhraní API, které umožňuje vývojářům pracovat se soubory Microsoft OneNote programově. Přizpůsobením stylu tabulek v dokumentech OneNotu můžete zlepšit jejich vizuální přitažlivost a čitelnost. Projdeme si procesem úpravy stylů tabulek krok za krokem, abychom zajistili přehlednost a efektivitu.
+V tomto tutoriálu prozkoumáme, jak změnit styl tabulky v Aspose.Note pomocí rozhraní .NET. Aspose.Note je výkonné rozhraní API, které umožňuje vývojářům pracovat se soubory Microsoft OneNote programově. Přizpůsobením stylu tabulek v dokumentech OneNotu můžete zlepšit jejich vizuální přitažlivost a čitelnost. Projdeme si procesem úpravy stylů tabulek krok za krokem, abychom zajistili přehlednost a efektivitu.
 
 ## Předpoklady
 
@@ -72,7 +72,7 @@ Console.WriteLine("\nTable's style is updated successfully.\nFile saved at " + d
 
 ## Závěr
 
-V tomto tutoriálu jsme se naučili, jak změnit styly tabulek v Aspose.Note pomocí rozhraní .NET. Pomocí těchto kroků můžete přizpůsobit vzhled tabulek v dokumentech OneNotu, zlepšit jejich vizuální prezentaci a čitelnost.
+tomto tutoriálu jsme se naučili, jak změnit styly tabulek v Aspose.Note pomocí rozhraní .NET. Pomocí těchto kroků můžete přizpůsobit vzhled tabulek v dokumentech OneNotu, zlepšit jejich vizuální prezentaci a čitelnost.
 
 ## FAQ
 

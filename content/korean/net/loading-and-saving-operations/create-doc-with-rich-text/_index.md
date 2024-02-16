@@ -11,7 +11,7 @@ url: /ko/net/loading-and-saving-operations/create-doc-with-rich-text/
 
 .NET 개발 영역에서 Aspose.Note는 Microsoft OneNote 파일을 프로그래밍 방식으로 처리하기 위한 강력한 도구로 돋보입니다. 문서 생성 자동화를 목표로 하거나 기존 노트를 조작하려는 경우 Aspose.Note는 개발자에게 포괄적인 기능 세트를 제공합니다. 이러한 기능 중에는 다양한 서식 옵션을 갖춘 서식 있는 텍스트 문서를 생성하는 기능이 있습니다. 이 튜토리얼에서는 .NET용 Aspose.Note를 사용하여 이러한 문서를 만드는 과정을 단계별로 살펴보겠습니다.
 
-## 전제 조건
+## 전제조건
 
 튜토리얼을 시작하기 전에 다음 전제 조건이 충족되었는지 확인하세요.
 
@@ -73,7 +73,7 @@ ParagraphStyle defaultTextStyle = new ParagraphStyle
 RichText titleText = new RichText() { ParagraphStyle = defaultTextStyle }.Append("Title!");
 ```
 
- 구축하다`RichText` 지정된 형식의 제목 개체입니다.
+ 구축하다`RichText`지정된 형식의 제목 개체입니다.
 
 ## 6단계: 윤곽선 및 윤곽선 요소 개체 초기화
 

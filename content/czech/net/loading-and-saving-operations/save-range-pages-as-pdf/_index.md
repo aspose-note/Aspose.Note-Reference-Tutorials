@@ -9,7 +9,7 @@ url: /cs/net/loading-and-saving-operations/save-range-pages-as-pdf/
 ---
 ## Úvod
 
-oblasti vývoje .NET vyniká Aspose.Note jako všestranný nástroj pro snadnou a efektivní manipulaci s dokumenty OneNote. Mezi jeho nepřeberné množství funkcí je jednou z nejvyhledávanějších funkcí možnost uložit řadu stránek jako soubor PDF. Tento výukový program vás provede procesem krok za krokem a zajistí, že tuto schopnost můžete bez problémů integrovat do svých projektů.
+V oblasti vývoje .NET vyniká Aspose.Note jako všestranný nástroj pro snadnou a efektivní manipulaci s dokumenty OneNote. Mezi jeho nepřeberné množství funkcí je jednou z nejvyhledávanějších funkcí možnost uložit řadu stránek jako soubor PDF. Tento výukový program vás provede procesem krok za krokem a zajistí, že tuto schopnost můžete bez problémů integrovat do svých projektů.
 
 ## Předpoklady
 
@@ -21,7 +21,7 @@ Než se pustíte do výukového programu, ujistěte se, že máte splněny násl
    
 3. Vývojové prostředí: Nastavte si preferované vývojové prostředí, ať už je to Visual Studio nebo jakékoli jiné IDE kompatibilní s vývojem .NET.
 
-## Importovat jmenné prostory
+## Import jmenných prostorů
 
 Chcete-li začít, musíte do kódu C# importovat potřebné jmenné prostory. To vám umožní přístup ke třídám a metodám poskytovaným knihovnou Aspose.Note.
 
@@ -82,7 +82,7 @@ Gratulujeme! Úspěšně jste se naučili, jak uložit řadu stránek z dokument
 
 ### Q1: Mohu uložit více rozsahů stránek jako samostatné soubory PDF pomocí Aspose.Note?
 
- Odpověď 1: Ano, můžete toho dosáhnout opakováním procesu pro každý rozsah stránek, které chcete uložit, a upravit nastavení`PageIndex` a`PageCount` podle toho.
+Odpověď 1: Ano, můžete toho dosáhnout opakováním procesu pro každý rozsah stránek, které chcete uložit, a upravit nastavení`PageIndex` a`PageCount` podle toho.
    
 ### Q2: Podporuje Aspose.Note ukládání dokumentů v jiných formátech než PDF?
 

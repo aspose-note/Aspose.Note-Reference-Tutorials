@@ -84,7 +84,7 @@ Câu trả lời 1: Có, Aspose.Note for .NET cho phép bạn tạo, chỉnh s�
 
 ### Câu hỏi 2: Có bản dùng thử miễn phí dành cho Aspose.Note dành cho .NET không?
 
-Câu trả lời 2: Có, bạn có thể dùng thử miễn phí Aspose.Note cho .NET từ[trang phát hành](https://releases.aspose.com/).
+ Câu trả lời 2: Có, bạn có thể dùng thử miễn phí Aspose.Note cho .NET từ[trang phát hành](https://releases.aspose.com/).
 
 ### Câu hỏi 3: Làm cách nào tôi có thể nhận được hỗ trợ cho Aspose.Note cho .NET?
 

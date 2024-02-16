@@ -18,7 +18,7 @@ Mielőtt elkezdené, győződjön meg arról, hogy rendelkezik a következő el�
 - C# programozási nyelv alapismerete.
 - A Visual Studio telepítve van a rendszerére.
 -  Aspose.Note a projektben telepített .NET API-hoz. Letöltheti innen[itt](https://releases.aspose.com/note/net/).
-- A Microsoft OneNote dokumentumok szerkezetének ismerete.
+- Microsoft OneNote dokumentumok szerkezetének ismerete.
 
 ## Névterek importálása
 
@@ -113,7 +113,7 @@ public static void SaveAsHTMLToMemoryStreamWithEmbeddedResources()
         FontFaceTypes = FontFaceType.Ttf
     };
 
-    // Mentse el a dokumentumot egy memóriafolyamba
+    // Mentse a dokumentumot egy memóriafolyamba
     var memoryStream = new MemoryStream();
     document.Save(memoryStream, options);
 }
@@ -139,7 +139,7 @@ public static void SaveAsHTMLToFileWithResourcesInSeparateFiles()
         FontFaceTypes = FontFaceType.Ttf
     };
 
-    //Mentse a dokumentumot HTML-fájlba, külön fájlokban tárolt erőforrásokkal
+    // Mentse a dokumentumot HTML-fájlba, külön fájlokban tárolt erőforrásokkal
     document.Save(Path.Combine(dataDir, "document_out.html"), options);
 }
 ```

@@ -19,7 +19,7 @@ Než se pustíte do používání Aspose.Note pro .NET, ujistěte se, že máte 
    
 2.  Knihovna Aspose.Note: Stáhněte a nainstalujte knihovnu Aspose.Note for .NET. Můžete jej získat z[webová stránka](https://releases.aspose.com/note/net/).
 
-## Importovat jmenné prostory
+## Import jmenných prostorů
 
 Chcete-li začít používat Aspose.Note ve své aplikaci .NET, importujte potřebné jmenné prostory:
 
@@ -42,7 +42,7 @@ var document = new Aspose.Note.Document("path_to_your_document.one");
 
  Tento krok vytvoří instanci souboru`Document` třídy představující dokument OneNotu, který chcete analyzovat.
 
-### Krok 2: Načtěte formát souboru
+### Krok 2: Načtení formátu souboru
 
 ```csharp
 switch (document.FileFormat)
@@ -74,7 +74,7 @@ A2: Aspose.Note je kompatibilní s .NET Framework, .NET Core a .NET Standard.
 
 ### Q3: Mohu vyzkoušet Aspose.Note před nákupem?
 
- A3: Ano, můžete prozkoumat možnosti Aspose.Note pomocí bezplatné zkušební verze dostupné na webu[ webová stránka](https://releases.aspose.com/).
+A3: Ano, můžete prozkoumat možnosti Aspose.Note pomocí bezplatné zkušební verze dostupné na webu[ webová stránka](https://releases.aspose.com/).
 
 ### Q4: Jak mohu získat podporu pro Aspose.Note?
 
@@ -82,4 +82,4 @@ A2: Aspose.Note je kompatibilní s .NET Framework, .NET Core a .NET Standard.
 
 ### Q5: Potřebuji dočasnou licenci pro účely hodnocení?
 
-A5: I když vám bezplatná zkušební verze umožňuje testovat Aspose.Note, můžete se rozhodnout pro dočasnou licenci pro rozšířené hodnocení. Návštěva[tady](https://purchase.aspose.com/temporary-license/) Více podrobností.
+ A5: I když vám bezplatná zkušební verze umožňuje testovat Aspose.Note, můžete se rozhodnout pro dočasnou licenci pro rozšířené hodnocení. Návštěva[tady](https://purchase.aspose.com/temporary-license/) Více podrobností.

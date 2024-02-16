@@ -13,7 +13,7 @@ Ebben az oktatóanyagban megvizsgáljuk, hogyan lehet szöveget kivonni az Aspos
 
 ## Előfeltételek
 
-Mielőtt elkezdené, győződjön meg arról, hogy rendelkezik az alábbiakkal:
+Mielőtt elkezdené, győződjön meg arról, hogy rendelkezik a következőkkel:
 
 1. C# programozási nyelv alapismerete.
 2. Visual Studio vagy bármely más C# IDE telepítve a rendszerére.

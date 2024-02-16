@@ -15,7 +15,7 @@ url: /el/net/note-manipulation/extract-page-information/
 
 Πριν ξεκινήσετε, βεβαιωθείτε ότι έχετε τις ακόλουθες προϋποθέσεις:
 
-1.  Aspose.Note για .NET Library: Βεβαιωθείτε ότι έχετε κατεβάσει και εγκαταστήσει τη βιβλιοθήκη Aspose.Note για .NET. Μπορείτε να το κατεβάσετε από[εδώ](https://releases.aspose.com/note/net/).
+1. Aspose.Note για .NET Library: Βεβαιωθείτε ότι έχετε κατεβάσει και εγκαταστήσει τη βιβλιοθήκη Aspose.Note για .NET. Μπορείτε να το κατεβάσετε από[εδώ](https://releases.aspose.com/note/net/).
 
 2. Περιβάλλον ανάπτυξης: Ρυθμίστε το περιβάλλον ανάπτυξης με το Visual Studio ή οποιοδήποτε άλλο προτιμώμενο εργαλείο ανάπτυξης .NET.
 

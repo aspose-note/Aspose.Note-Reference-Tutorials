@@ -79,4 +79,4 @@ Hoàn toàn có thể, bạn có thể tùy chỉnh trang hơn nữa bằng các
 ### Làm cách nào để xử lý lỗi trong quá trình tạo tài liệu?
 Sử dụng các cơ chế xử lý ngoại lệ trong C# để nắm bắt và xử lý mọi lỗi tiềm ẩn có thể xảy ra trong quá trình tạo tài liệu.
 ### Tôi có thể tìm thêm ví dụ và tài liệu về Aspose.Note cho .NET ở đâu?
- Tham khảo đến[Aspose.Note dành cho tài liệu .NET](https://reference.aspose.com/note/net/) để biết ví dụ chi tiết và tài liệu toàn diện.
+ Tham khảo đến[Aspose.Note dành cho tài liệu .NET](https://reference.aspose.com/note/net/)để biết ví dụ chi tiết và tài liệu toàn diện.

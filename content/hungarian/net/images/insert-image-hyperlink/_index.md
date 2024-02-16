@@ -13,7 +13,7 @@ Az Aspose.Note for .NET hatékony funkciókat kínál a képekkel való munkavé
 
 ## Előfeltételek
 
-Mielőtt elkezdené, győződjön meg arról, hogy rendelkezik az alábbiakkal:
+Mielőtt elkezdené, győződjön meg arról, hogy rendelkezik a következőkkel:
 
 1.  Aspose.Note for .NET: Győződjön meg arról, hogy telepítette az Aspose.Note for .NET-et. Ha nem, letöltheti innen[itt](https://releases.aspose.com/note/net/).
 2. Fejlesztői környezet: Állítsa be fejlesztői környezetét .NET keretrendszerrel.
@@ -40,7 +40,7 @@ var page = new Page(document);
 
 ## 2. lépés: Kép beszúrása hiperhivatkozással
 
- Most illesszük be a képet egy hiperhivatkozással. Létrehozunk egy`Image` objektumot, és állítsa be`HyperlinkUrl` tulajdonság a kívánt URL-hez.
+Most illesszük be a képet egy hiperhivatkozással. Létrehozunk egy`Image` objektumot, és állítsa be`HyperlinkUrl` tulajdonság a kívánt URL-hez.
 
 ```csharp
 string imagePath = "path_to_your_image.jpg";

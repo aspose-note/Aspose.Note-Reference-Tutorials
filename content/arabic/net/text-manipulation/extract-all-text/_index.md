@@ -30,7 +30,7 @@ string dataDir = "Your Document Directory";
 ```csharp
 Document oneFile = new Document(dataDir + "Aspose.one");
 ```
- قم بتحميل مستند Aspose.Note الخاص بك إلى ملف`Document` كائن لمزيد من المعالجة.
+قم بتحميل مستند Aspose.Note الخاص بك إلى ملف`Document` كائن لمزيد من المعالجة.
 ## الخطوة 3: استرداد النص
 ```csharp
 string text = string.Join(Environment.NewLine, oneFile.GetChildNodes<RichText>().Select(e => e.Text)) + Environment.NewLine;

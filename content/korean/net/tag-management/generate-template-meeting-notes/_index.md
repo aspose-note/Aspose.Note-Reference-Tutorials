@@ -11,7 +11,7 @@ url: /ko/net/tag-management/generate-template-meeting-notes/
 
 이 튜토리얼에서는 Aspose.Note for .NET을 사용하여 회의록용 템플릿을 생성하는 과정을 안내합니다. 이 라이브러리는 OneNote 문서를 프로그래밍 방식으로 생성, 편집 및 조작하기 위한 강력한 도구를 제공합니다.
 
-## 전제 조건
+## 전제조건
 
 시작하기 전에 다음 사항이 있는지 확인하세요.
 

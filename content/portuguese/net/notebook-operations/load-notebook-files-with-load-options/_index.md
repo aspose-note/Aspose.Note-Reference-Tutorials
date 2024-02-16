@@ -81,7 +81,7 @@ A1: Sim, o Aspose.Note for .NET fornece APIs abrangentes para trabalhar com arqu
 
 ### Q2: Existe uma avaliação gratuita disponível para Aspose.Note for .NET?
 
- A2: Sim, você pode aproveitar uma avaliação gratuita do Aspose.Note for .NET em[aqui](https://releases.aspose.com/).
+A2: Sim, você pode aproveitar uma avaliação gratuita do Aspose.Note for .NET em[aqui](https://releases.aspose.com/).
 
 ### Q3: Onde posso encontrar a documentação do Aspose.Note para .NET?
 

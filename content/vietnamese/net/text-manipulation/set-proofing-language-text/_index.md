@@ -2,7 +2,7 @@
 title: Đặt ngôn ngữ soát lỗi cho văn bản trong Aspose.Note
 linktitle: Đặt ngôn ngữ soát lỗi cho văn bản trong Aspose.Note
 second_title: Aspose.Note .NET API
-description: Mở khóa thao tác văn bản mạnh mẽ với Aspose.Note cho .NET. Thiết lập ngôn ngữ soát lỗi dễ dàng với hướng dẫn từng bước. Hãy nâng cao các dự án .NET của bạn ngay bây giờ!
+description: Mở khóa thao tác văn bản mạnh mẽ với Aspose.Note for .NET. Thiết lập ngôn ngữ soát lỗi dễ dàng với hướng dẫn từng bước. Hãy nâng cao các dự án .NET của bạn ngay bây giờ!
 type: docs
 weight: 25
 url: /vi/net/text-manipulation/set-proofing-language-text/
@@ -11,7 +11,7 @@ url: /vi/net/text-manipulation/set-proofing-language-text/
 Chào mừng đến với thế giới của Aspose.Note dành cho .NET! Trong hướng dẫn toàn diện này, chúng ta sẽ khám phá quy trình hấp dẫn để thiết lập ngôn ngữ soát lỗi cho văn bản bằng Aspose.Note. Cho dù bạn là nhà phát triển dày dạn kinh nghiệm hay mới bắt đầu với Aspose.Note, hướng dẫn này sẽ cung cấp cho bạn thông tin chi tiết và hướng dẫn từng bước để nâng cao kỹ năng thao tác văn bản của bạn.
 ## Điều kiện tiên quyết
 Trước khi chúng ta đi sâu vào hướng dẫn, hãy đảm bảo bạn có sẵn các điều kiện tiên quyết sau:
--  Aspose.Note for .NET: Đảm bảo rằng bạn đã cài đặt phiên bản Aspose.Note mới nhất cho .NET. Bạn có thể tải nó xuống[đây](https://releases.aspose.com/note/net/).
+- Aspose.Note for .NET: Đảm bảo rằng bạn đã cài đặt phiên bản Aspose.Note mới nhất cho .NET. Bạn có thể tải nó xuống[đây](https://releases.aspose.com/note/net/).
 - Môi trường phát triển .NET: Có sẵn môi trường phát triển .NET chức năng trên máy của bạn.
 - Trình soạn thảo văn bản hoặc IDE: Chọn trình soạn thảo văn bản hoặc môi trường phát triển tích hợp (IDE) ưa thích của bạn để mã hóa.
 Bây giờ, hãy bắt đầu với việc thiết lập ngôn ngữ soát lỗi cho văn bản trong Aspose.Note!

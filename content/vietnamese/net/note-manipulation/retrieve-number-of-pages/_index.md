@@ -17,7 +17,7 @@ Trước khi chúng tôi bắt đầu, hãy đảm bảo bạn đã thiết lậ
 
 ### Đã cài đặt Visual Studio
 
- Đảm bảo bạn đã cài đặt Visual Studio trên hệ thống của mình. Bạn có thể tải nó xuống từ[trang mạng](https://visualstudio.microsoft.com/).
+Đảm bảo bạn đã cài đặt Visual Studio trên hệ thống của mình. Bạn có thể tải nó xuống từ[trang mạng](https://visualstudio.microsoft.com/).
 
 ### Aspose.Note dành cho .NET đã được cài đặt
 

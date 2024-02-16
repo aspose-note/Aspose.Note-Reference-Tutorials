@@ -79,7 +79,7 @@ A2: Aspose.Note suporta carregamento de histórico para formatos de arquivo .one
 
 ### Q3: Existe uma avaliação gratuita disponível para Aspose.Note for .NET?
 
- A3: Sim, você pode baixar uma avaliação gratuita do Aspose.Note for .NET em[aqui](https://releases.aspose.com/).
+A3: Sim, você pode baixar uma avaliação gratuita do Aspose.Note for .NET em[aqui](https://releases.aspose.com/).
 
 ### Q4: Como posso obter uma licença temporária do Aspose.Note for .NET?
 

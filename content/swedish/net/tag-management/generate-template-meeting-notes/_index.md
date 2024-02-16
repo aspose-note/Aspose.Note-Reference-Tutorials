@@ -9,7 +9,7 @@ url: /sv/net/tag-management/generate-template-meeting-notes/
 ---
 ## Introduktion
 
-I den här handledningen går vi igenom processen att skapa en mall för mötesanteckningar med Aspose.Note för .NET. Det här biblioteket tillhandahåller kraftfulla verktyg för att skapa, redigera och manipulera OneNote-dokument programmatiskt.
+den här handledningen går vi igenom processen att skapa en mall för mötesanteckningar med Aspose.Note för .NET. Det här biblioteket tillhandahåller kraftfulla verktyg för att skapa, redigera och manipulera OneNote-dokument programmatiskt.
 
 ## Förutsättningar
 

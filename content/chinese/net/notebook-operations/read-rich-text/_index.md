@@ -84,7 +84,7 @@ A1：是的，Aspose.Note for .NET 允许您以编程方式创建、编辑和操
 
 ### 问题 2：Aspose.Note for .NET 是否有免费试用版？
 
-A2：是的，您可以从 Aspose.Note for .NET 获取免费试用版[发布页面](https://releases.aspose.com/).
+ A2：是的，您可以从 Aspose.Note for .NET 获取免费试用版[发布页面](https://releases.aspose.com/).
 
 ### Q3：如何获得 Aspose.Note for .NET 支持？
 

@@ -15,7 +15,7 @@ Dans ce didacticiel, nous verrons comment utiliser Aspose.Note pour .NET pour en
 
 Avant de continuer, assurez-vous d'avoir les éléments suivants :
 - Compréhension de base du framework C# et .NET.
--  Aspose.Note pour .NET installé. Sinon, vous pouvez le télécharger depuis[ici](https://releases.aspose.com/note/net/).
+- Aspose.Note pour .NET installé. Sinon, vous pouvez le télécharger depuis[ici](https://releases.aspose.com/note/net/).
 - Un environnement de développement intégré (IDE) tel que Visual Studio.
 - Exemples de fichiers de documents avec lesquels travailler.
 
@@ -54,7 +54,7 @@ dataDir = dataDir + "SaveToJpegImageUsingSaveFormat_out.jpg";
 Enregistrez le document chargé au format JPEG :
 
 ```csharp
-//Enregistrez le document.
+// Enregistrez le document.
 oneFile.Save(dataDir, SaveFormat.Jpeg);
 ```
 
@@ -82,4 +82,4 @@ A3 : Oui, Aspose.Note prend en charge l'enregistrement de documents dans différ
 
 ### Q5 : Comment puis-je obtenir de l'aide si je rencontre des problèmes ?
 
-A5 : Vous pouvez demander de l'aide sur le forum de la communauté Aspose.[ici](https://forum.aspose.com/c/note/28), ou contactez leur équipe d'assistance pour une assistance personnalisée.
+ A5 : Vous pouvez demander de l'aide sur le forum de la communauté Aspose.[ici](https://forum.aspose.com/c/note/28), ou contactez leur équipe d'assistance pour une assistance personnalisée.

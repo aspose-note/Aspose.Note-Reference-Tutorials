@@ -18,7 +18,7 @@ Než začnete, ujistěte se, že máte následující:
 - Visual Studio nainstalované ve vašem systému.
 -  Aspose.Note pro .NET nainstalován. Můžete si jej stáhnout z[tady](https://releases.aspose.com/note/net/).
 
-## Importovat jmenné prostory
+## Import jmenných prostorů
 
 Nejprve importujme potřebné jmenné prostory pro přístup k funkcím Aspose.Note pro .NET.
 

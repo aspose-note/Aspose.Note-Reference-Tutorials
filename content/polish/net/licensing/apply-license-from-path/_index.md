@@ -67,7 +67,7 @@ Aspose.Note.License license = new Aspose.Note.License();
 
 ## Krok 2: Ustaw licencję ze ścieżki
 
- Następnie użyj`SetLicense` metoda`License` class, aby zastosować licencję z określonej ścieżki:
+Następnie użyj`SetLicense` metoda`License` class, aby zastosować licencję z określonej ścieżki:
 
 ```csharp
 license.SetLicense("Aspose.Note.lic");

@@ -73,7 +73,7 @@ Definieren Sie einen Standardtextstil, der auf das gesamte Dokument angewendet w
 RichText titleText = new RichText() { ParagraphStyle = defaultTextStyle }.Append("Title!");
 ```
 
- Konstruieren Sie a`RichText` Objekt für den Titel mit der angegebenen Formatierung.
+ Konstruieren Sie a`RichText`Objekt für den Titel mit der angegebenen Formatierung.
 
 ## Schritt 6: Gliederung und Gliederungselementobjekte initialisieren
 

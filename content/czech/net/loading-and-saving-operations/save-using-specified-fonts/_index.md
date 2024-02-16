@@ -19,7 +19,7 @@ Než začneme, ujistěte se, že máte následující:
 
 2. Vývojové prostředí: Potřebujete vývojové prostředí nastavené pro vývoj .NET.
 
-## Importovat jmenné prostory
+## Import jmenných prostorů
 
 Nejprve importujme potřebné jmenné prostory:
 

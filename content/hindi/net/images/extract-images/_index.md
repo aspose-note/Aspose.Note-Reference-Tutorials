@@ -59,7 +59,7 @@ foreach (Aspose.Note.Image image in nodes)
     {
         using (Bitmap bitMap = new Bitmap(stream))
         {
-            //छवि बाइट्स को किसी फ़ाइल में सहेजें
+            // छवि बाइट्स को किसी फ़ाइल में सहेजें
             bitMap.Save(String.Format(dataDir + "{0}", Path.GetFileName(image.FileName)));
         }
     }

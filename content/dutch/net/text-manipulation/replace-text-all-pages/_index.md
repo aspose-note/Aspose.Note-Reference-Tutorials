@@ -79,4 +79,4 @@ Kortom, het beheersen van de kunst van het vervangen van tekst op alle pagina's 
 ### Vraag: Waar kan ik meer tutorials en documentatie vinden voor Aspose.Note voor .NET?
  A: Bezoek de[documentatie](https://reference.aspose.com/note/net/) voor diepgaande bronnen en tutorials.
 ### Vraag: Kan ik Aspose.Note gebruiken voor commerciële projecten?
- A: Ja, verken de licentieopties en doe aankopen[hier](https://purchase.aspose.com/buy).
+A: Ja, verken de licentieopties en doe aankopen[hier](https://purchase.aspose.com/buy).

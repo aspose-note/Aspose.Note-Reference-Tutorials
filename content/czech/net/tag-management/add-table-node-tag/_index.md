@@ -11,7 +11,7 @@ url: /cs/net/tag-management/add-table-node-tag/
 
 V tomto tutoriálu vás provedeme procesem přidání uzlu tabulky se značkou pomocí Aspose.Note pro .NET. Chcete-li toho dosáhnout, postupujte podle níže uvedených kroků.
 
-## Importovat jmenné prostory
+## Import jmenných prostorů
 
 Než začnete, ujistěte se, že jste importovali potřebné jmenné prostory pro práci s Aspose. Poznámka:
 
@@ -114,7 +114,7 @@ Po provedení těchto kroků byste měli úspěšně přidat uzel tabulky se zna
 
 ## Závěr
 
-tomto tutoriálu jsme probrali proces přidávání uzlu tabulky pomocí značky v Aspose.Note pro .NET. Pomocí těchto kroků můžete efektivně manipulovat s dokumenty OneNotu programově a vylepšit tak možnosti správy dokumentů.
+V tomto tutoriálu jsme probrali proces přidávání uzlu tabulky pomocí značky v Aspose.Note pro .NET. Pomocí těchto kroků můžete efektivně manipulovat s dokumenty OneNotu programově a vylepšit tak možnosti správy dokumentů.
 
 ## FAQ
 
@@ -128,7 +128,7 @@ Odpověď 1: Aspose.Note pro .NET podporuje rozhraní .NET Framework verze 2.0 a
 
 ### Q3: Jak získám dočasnou licenci pro Aspose.Note?
 
- A3: Můžete získat dočasnou licenci od[tento odkaz](https://purchase.aspose.com/temporary-license/), která má platnost 30 dnů.
+ A3: Můžete získat dočasnou licenci od[tento odkaz](https://purchase.aspose.com/temporary-license/), který má platnost 30 dnů.
 
 ### Q4: Podporuje Aspose.Note šifrování dokumentů?
 
@@ -136,4 +136,4 @@ Odpověď 4: Ano, Aspose.Note poskytuje podporu pro šifrování dokumentů OneN
 
 ### Q5: Je pro uživatele Aspose.Note k dispozici technická podpora?
 
- Odpověď 5: Ano, technická podpora je poskytována prostřednictvím fór Aspose[tady](https://forum.aspose.com/c/note/28), kde můžete vyhledat pomoc odborníků.
+ Odpověď 5: Ano, technická podpora je poskytována prostřednictvím fór Aspose[tady](https://forum.aspose.com/c/note/28), kde můžete vyhledat pomoc od odborníků.

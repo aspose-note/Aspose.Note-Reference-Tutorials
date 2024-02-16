@@ -30,7 +30,7 @@ string dataDir = "Your Document Directory";
 ```csharp
 Document oneFile = new Document(dataDir + "Aspose.one");
 ```
- अपने Aspose.Note दस्तावेज़ को इसमें लोड करें`Document` आगे की प्रक्रिया के लिए वस्तु.
+अपने Aspose.Note दस्तावेज़ को इसमें लोड करें`Document` आगे की प्रक्रिया के लिए वस्तु.
 ## चरण 3: पाठ पुनः प्राप्त करें
 ```csharp
 string text = string.Join(Environment.NewLine, oneFile.GetChildNodes<RichText>().Select(e => e.Text)) + Environment.NewLine;

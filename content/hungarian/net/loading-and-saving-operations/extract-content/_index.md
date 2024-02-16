@@ -13,7 +13,7 @@ Ebben az oktatóanyagban megvizsgáljuk, hogyan lehet tartalmat kivonni az Aspos
 
 ## Előfeltételek
 
-Mielőtt elkezdené, győződjön meg arról, hogy rendelkezik az alábbiakkal:
+Mielőtt elkezdené, győződjön meg arról, hogy rendelkezik a következőkkel:
 
 1.  Aspose.Note for .NET: Töltse le és telepítse az Aspose.Note for .NET programot a[letöltési oldal](https://releases.aspose.com/note/net/).
 2. Fejlesztői környezet: Hozzon létre egy fejlesztői környezetet a .NET-keretrendszerrel.
@@ -39,11 +39,11 @@ string dataDir = "Your Document Directory";
 Document doc = new Document(dataDir + "Aspose.one");
 ```
 
- Cserélje ki`"Your Document Directory"` azzal a könyvtárral, ahol az Aspose.Note dokumentum található. Győződjön meg arról, hogy a megfelelő fájlnevet és annak kiterjesztését adta meg.
+ Cserélje ki`"Your Document Directory"`azzal a könyvtárral, ahol az Aspose.Note dokumentum található. Győződjön meg arról, hogy a megfelelő fájlnevet és annak kiterjesztését adta meg.
 
 ## 2. lépés: Hozzon létre egy DocumentVisitor programot
 
- Ezután létrehozunk egy egyedit`DocumentVisitor`hogy meglátogassa a dokumentum különböző csomópontjait. Ez a látogató lehetővé teszi számunkra, hogy bejárjuk a dokumentum szerkezetét, és kivonjuk a tartalmat.
+ Ezután létrehozunk egy egyedit`DocumentVisitor` hogy meglátogassa a dokumentum különböző csomópontjait. Ez a látogató lehetővé teszi számunkra, hogy bejárjuk a dokumentum szerkezetét, és kivonjuk a tartalmat.
 
 ```csharp
 public class MyOneNoteToTxtWriter : DocumentVisitor
@@ -74,7 +74,7 @@ public override void VisitPageStart(Page page)
 
 ## 4. lépés: Szöveg összegyűjtése
 
-A látogatói osztályon belül a kivont szöveget egy StringBuilderbe gyűjtjük, amely a látogatási folyamat befejezése után elérhető lesz.
+látogatói osztályon belül a kivonatolt szöveget egy StringBuilderbe gyűjtjük, amely a látogatási folyamat befejezése után elérhető lesz.
 
 ```csharp
 private readonly StringBuilder mBuilder;
@@ -97,7 +97,7 @@ public string GetText()
 
 ## 5. lépés: Hajtsa végre a látogatást
 
-Végül végrehajtjuk a látogatási folyamatot a`Accept` metódust a dokumentum objektumon, paraméterként átadva az egyéni látogatópéldányunkat.
+ Végül végrehajtjuk a látogatási folyamatot a`Accept` metódust a dokumentum objektumon, paraméterként átadva az egyéni látogatópéldányunkat.
 
 ```csharp
 MyOneNoteToTxtWriter myConverter = new MyOneNoteToTxtWriter();

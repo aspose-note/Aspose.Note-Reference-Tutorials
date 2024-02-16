@@ -58,7 +58,7 @@ Till sist, visa ett framgångsmeddelande för att informera användaren:
 Console.WriteLine("\nText's recent changes are highlighted successfully.");
 ```
 ## Slutsats
-I den här handledningen undersökte vi hur man använder Aspose.Note för .NET för att markera alla senaste ändringar i text i ett Note-dokument. Den här funktionen förbättrar dokumentets synlighet och är ett värdefullt tillägg till din verktygslåda för att arbeta med anteckningsfiler.
+den här handledningen undersökte vi hur man använder Aspose.Note för .NET för att markera alla senaste ändringar i text i ett Note-dokument. Den här funktionen förbättrar dokumentets synlighet och är ett värdefullt tillägg till din verktygslåda för att arbeta med anteckningsfiler.
 ## Vanliga frågor
 ### Kan jag använda olika högdagerfärger för olika tidsperioder?
 Ja, du kan anpassa koden för att ställa in olika höjdpunkter baserat på dina specifika krav.

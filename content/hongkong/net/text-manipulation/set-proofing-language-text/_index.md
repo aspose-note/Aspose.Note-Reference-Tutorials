@@ -11,7 +11,7 @@ url: /zh-hant/net/text-manipulation/set-proofing-language-text/
 歡迎來到 Aspose.Note for .NET 的世界！在本綜合指南中，我們將探索使用 Aspose.Note 設定文字校對語言的迷人過程。無論您是經驗豐富的開發人員還是剛開始使用 Aspose.Note，本教學都將為您提供詳細的見解和逐步說明，以增強您的文字操作技能。
 ## 先決條件
 在我們深入學習本教程之前，請確保您具備以下先決條件：
--  Aspose.Note for .NET：確保您安裝了最新版本的 Aspose.Note for .NET。你可以下載它[這裡](https://releases.aspose.com/note/net/).
+- Aspose.Note for .NET：確保您安裝了最新版本的 Aspose.Note for .NET。你可以下載它[這裡](https://releases.aspose.com/note/net/).
 - .NET 開發環境：在您的電腦上準備好功能齊全的 .NET 開發環境。
 - 文字編輯器或 IDE：選擇您喜歡的文字編輯器或整合開發環境 (IDE) 進行編碼。
 現在，讓我們開始在 Aspose.Note 中設定文字校對語言！

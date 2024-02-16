@@ -72,7 +72,7 @@ A2: Ja, neben Bildern unterstützt Aspose.Note für .NET auch die Konvertierung 
 
 ### F3: Gibt es eine Testversion für Aspose.Note für .NET?
 
- A3: Ja, Sie können eine kostenlose Testversion herunterladen von[Hier](https://releases.aspose.com/), sodass Sie die Funktionen erkunden können, bevor Sie einen Kauf tätigen.
+A3: Ja, Sie können eine kostenlose Testversion herunterladen von[Hier](https://releases.aspose.com/), sodass Sie die Funktionen erkunden können, bevor Sie einen Kauf tätigen.
 
 ### F4: Wie erhalte ich Unterstützung für Aspose.Note für .NET?
 

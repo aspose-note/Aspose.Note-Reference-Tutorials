@@ -61,7 +61,7 @@ In thông báo xác nhận cho biết kiểu tiêu đề đã được cập nh�
 Chúc mừng! Bạn đã học thành công cách thay đổi kiểu tiêu đề trang trong Aspose.Note dành cho .NET. Tính năng đơn giản nhưng mạnh mẽ này có thể nâng cao đáng kể sự hấp dẫn trực quan cho tài liệu của bạn.
 ## Câu hỏi thường gặp
 ### Aspose.Note có tương thích với các phiên bản .NET framework mới nhất không?
-Aspose.Note được thiết kế để tương thích với nhiều phiên bản .NET framework, bao gồm cả phiên bản mới nhất. Tham khảo đến[tài liệu](https://reference.aspose.com/note/net/) để biết thông tin chi tiết về khả năng tương thích.
+ Aspose.Note được thiết kế để tương thích với nhiều phiên bản .NET framework, bao gồm cả phiên bản mới nhất. Tham khảo đến[tài liệu](https://reference.aspose.com/note/net/) để biết thông tin chi tiết về khả năng tương thích.
 ### Tôi có thể dùng thử Aspose.Note trước khi mua không?
  Có, bạn có thể khám phá Aspose.Note bằng cách tải xuống phiên bản dùng thử miễn phí[đây](https://releases.aspose.com/).
 ### Làm cách nào tôi có thể nhận được hỗ trợ cho Aspose.Note?

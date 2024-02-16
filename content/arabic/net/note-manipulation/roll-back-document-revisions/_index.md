@@ -16,7 +16,7 @@ url: /ar/net/note-manipulation/roll-back-document-revisions/
 قبل الغوص في هذا البرنامج التعليمي، تأكد من أن لديك المتطلبات الأساسية التالية:
 
 1. الفهم الأساسي لـ C#: الإلمام بلغة البرمجة C# ضروري للمتابعة مع أمثلة التعليمات البرمجية.
-2.  Aspose.Note لمكتبة .NET: قم بتثبيت مكتبة Aspose.Note لـ .NET في بيئة التطوير الخاصة بك. يمكنك تنزيله من[هنا](https://releases.aspose.com/note/net/).
+2. Aspose.Note لمكتبة .NET: قم بتثبيت مكتبة Aspose.Note لـ .NET في بيئة التطوير الخاصة بك. يمكنك تنزيله من[هنا](https://releases.aspose.com/note/net/).
 3. بيئة التطوير المتكاملة (IDE): قم بتثبيت بيئة تطوير متكاملة مثل Visual Studio على نظامك.
 
 ## استيراد مساحات الأسماء

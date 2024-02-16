@@ -9,7 +9,7 @@ url: /ko/net/text-manipulation/create-title-ms-style/
 ---
 ## 소개
 .NET용 Aspose.Note를 사용하여 Microsoft 스타일 제목을 추가하여 문서 작성 프로세스를 향상시키고 싶으십니까? 이 종합 가이드는 MS 스타일로 타이틀을 쉽게 만드는 단계를 안내합니다. Aspose.Note for .NET은 개발자가 OneNote 문서를 프로그래밍 방식으로 조작할 수 있는 강력한 도구입니다.
-## 전제 조건
+## 전제조건
 튜토리얼을 시작하기 전에 다음 전제 조건이 충족되었는지 확인하세요.
 - C# 및 .NET 개발에 대한 실무 지식.
 - 개발 환경에 설치된 .NET용 Aspose.Note.
@@ -79,4 +79,4 @@ Console.WriteLine("\nPage title set up successfully in Microsoft OneNote style.\
 ### 문서 작성 과정에서 발생하는 오류는 어떻게 처리하나요?
 C#의 예외 처리 메커니즘을 활용하여 문서 생성 프로세스 중에 발생할 수 있는 잠재적인 오류를 포착하고 처리합니다.
 ### .NET용 Aspose.Note에 대한 추가 예제와 문서는 어디서 찾을 수 있나요?
- 다음을 참조하세요.[.NET 문서용 Aspose.Note](https://reference.aspose.com/note/net/) 자세한 예와 포괄적인 문서를 확인하세요.
+ 다음을 참조하세요.[.NET 문서용 Aspose.Note](https://reference.aspose.com/note/net/)자세한 예와 포괄적인 문서를 확인하세요.

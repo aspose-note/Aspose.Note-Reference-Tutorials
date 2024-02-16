@@ -15,7 +15,7 @@ Aspose.Note voor .NET is een krachtige bibliotheek waarmee ontwikkelaars program
 
 Voordat u begint, moet u ervoor zorgen dat u aan de volgende vereisten voldoet:
 
-1.  Aspose.Note voor .NET-bibliotheek: Zorg ervoor dat u de Aspose.Note voor .NET-bibliotheek hebt gedownload en geïnstalleerd. Je kunt het downloaden van[hier](https://releases.aspose.com/note/net/).
+1. Aspose.Note voor .NET-bibliotheek: Zorg ervoor dat u de Aspose.Note voor .NET-bibliotheek hebt gedownload en geïnstalleerd. Je kunt het downloaden van[hier](https://releases.aspose.com/note/net/).
 
 2. Ontwikkelomgeving: Stel uw ontwikkelomgeving in met Visual Studio of een ander gewenst .NET-ontwikkelprogramma.
 

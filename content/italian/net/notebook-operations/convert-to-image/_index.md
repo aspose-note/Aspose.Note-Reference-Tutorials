@@ -72,7 +72,7 @@ A2: Sì, oltre alle immagini, Aspose.Note per .NET supporta la conversione in va
 
 ### Q3: È disponibile una versione di prova per Aspose.Note per .NET?
 
- R3: Sì, puoi scaricare una versione di prova gratuita da[Qui](https://releases.aspose.com/), permettendoti di esplorare le funzionalità prima di effettuare un acquisto.
+R3: Sì, puoi scaricare una versione di prova gratuita da[Qui](https://releases.aspose.com/), permettendoti di esplorare le funzionalità prima di effettuare un acquisto.
 
 ### Q4: Come posso ottenere supporto per Aspose.Note per .NET?
 

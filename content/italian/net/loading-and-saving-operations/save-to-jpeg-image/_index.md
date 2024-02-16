@@ -15,7 +15,7 @@ In questo tutorial, approfondiremo l'utilizzo di Aspose.Note per .NET per salvar
 
 Prima di procedere, assicurati di avere quanto segue:
 - Conoscenza di base di C# e .NET framework.
--  Aspose.Note per .NET installato. In caso contrario, puoi scaricarlo da[Qui](https://releases.aspose.com/note/net/).
+- Aspose.Note per .NET installato. In caso contrario, puoi scaricarlo da[Qui](https://releases.aspose.com/note/net/).
 - Un ambiente di sviluppo integrato (IDE) come Visual Studio.
 - File di documenti di esempio con cui lavorare.
 
@@ -54,7 +54,7 @@ dataDir = dataDir + "SaveToJpegImageUsingSaveFormat_out.jpg";
 Salvare il documento caricato in formato JPEG:
 
 ```csharp
-//Salva il documento.
+// Salva il documento.
 oneFile.Save(dataDir, SaveFormat.Jpeg);
 ```
 
@@ -82,4 +82,4 @@ A3: Sì, Aspose.Note supporta il salvataggio di documenti in vari formati di imm
 
 ### Q5: Come posso ottenere assistenza in caso di problemi?
 
-R5: Puoi chiedere aiuto al forum della community Aspose[Qui](https://forum.aspose.com/c/note/28)oppure contatta il team di supporto per ricevere assistenza personalizzata.
+ R5: Puoi chiedere aiuto al forum della community Aspose[Qui](https://forum.aspose.com/c/note/28)oppure contatta il team di supporto per ricevere assistenza personalizzata.

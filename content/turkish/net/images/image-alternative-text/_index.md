@@ -92,8 +92,8 @@ Cevap3: Aspose.Note, diğer .NET kitaplıklarıyla sorunsuz bir şekilde bütün
 
 ### S4: Aspose.Note için nasıl destek alabilirim?
 
-Cevap4: Aspose.Note için destek almak için şu adresi ziyaret edebilirsiniz:[Aspose.Note forumu](https://forum.aspose.com/c/note/28)Soru sorabileceğiniz ve çözüm bulabileceğiniz yer.
+ Cevap4: Aspose.Note için destek almak için şu adresi ziyaret edebilirsiniz:[Aspose.Note forumu](https://forum.aspose.com/c/note/28)Soru sorabileceğiniz ve çözüm bulabileceğiniz yer.
 
 ### S5: Aspose.Note'un ücretsiz deneme sürümü mevcut mu?
 
- Cevap5: Evet, adresini ziyaret ederek Aspose.Note'un ücretsiz denemesinden yararlanabilirsiniz.[Burada](https://releases.aspose.com/).
+Cevap5: Evet, adresini ziyaret ederek Aspose.Note'un ücretsiz denemesinden yararlanabilirsiniz.[Burada](https://releases.aspose.com/).

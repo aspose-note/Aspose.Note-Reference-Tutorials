@@ -9,7 +9,7 @@ url: /pl/net/note-manipulation/page-revisions-exploration/
 ---
 ## Wstęp
 
-W tym samouczku zagłębimy się w odkrywanie wersji stron w dokumentach Aspose.Note przy użyciu platformy .NET. Aspose.Note to potężna biblioteka, która umożliwia programistom programową pracę z plikami Microsoft OneNote, oferując różne funkcje manipulowania i wyodrębniania danych z tych plików.
+tym samouczku zagłębimy się w odkrywanie wersji stron w dokumentach Aspose.Note przy użyciu platformy .NET. Aspose.Note to potężna biblioteka, która umożliwia programistom programową pracę z plikami Microsoft OneNote, oferując różne funkcje manipulowania i wyodrębniania danych z tych plików.
 
 ## Warunki wstępne
 
@@ -79,7 +79,7 @@ O2: Aspose.Note obsługuje historię ładowania zarówno dla formatów plików .
 
 ### P3: Czy dostępna jest bezpłatna wersja próbna Aspose.Note dla .NET?
 
- A3: Tak, możesz pobrać bezpłatną wersję próbną Aspose.Note dla .NET ze strony[Tutaj](https://releases.aspose.com/).
+A3: Tak, możesz pobrać bezpłatną wersję próbną Aspose.Note dla .NET ze strony[Tutaj](https://releases.aspose.com/).
 
 ### P4: Jak mogę uzyskać tymczasową licencję na Aspose.Note dla .NET?
 

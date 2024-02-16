@@ -92,7 +92,7 @@ A1: Ya, Aspose.Note untuk .NET kompatibel dengan berbagai kerangka .NET, termasu
 
 ### Q4: Bisakah saya membeli lisensi sementara Aspose.Note untuk .NET?
 
- A4: Ya, Anda dapat memperoleh lisensi sementara dari situs web Aspose:[Lisensi Sementara](https://purchase.aspose.com/temporary-license/).
+A4: Ya, Anda dapat memperoleh lisensi sementara dari situs web Aspose:[Lisensi Sementara](https://purchase.aspose.com/temporary-license/).
 
 ### Q5: Di mana saya dapat menemukan dokumentasi komprehensif untuk Aspose.Note untuk .NET?
 

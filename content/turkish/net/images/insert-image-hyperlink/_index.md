@@ -40,7 +40,7 @@ var page = new Page(document);
 
 ## Adım 2: Köprülü Resim Ekleme
 
- Şimdi görseli bir köprü ile ekleyelim. Bir oluşturacağız`Image` nesneyi ve onu ayarlayın`HyperlinkUrl` özelliğini istediğiniz URL'ye taşıyın.
+Şimdi görseli bir köprü ile ekleyelim. Bir oluşturacağız`Image` nesneyi ve onu ayarlayın`HyperlinkUrl` özelliğini istediğiniz URL'ye taşıyın.
 
 ```csharp
 string imagePath = "path_to_your_image.jpg";

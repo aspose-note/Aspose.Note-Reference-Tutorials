@@ -86,7 +86,7 @@ W tym samouczku omówiliśmy krok po kroku proces włączania chińskich list nu
 ### P: Czy Aspose.Note jest kompatybilny z najnowszą wersją .NET?
 O: Tak, Aspose.Note jest regularnie aktualizowany, aby obsługiwał najnowsze wersje .NET.
 ### P: Gdzie mogę znaleźć dodatkowe przykłady i dokumentację?
- O: Poznaj kompleksowość[Dokumentacja Aspose.Note](https://reference.aspose.com/note/net/).
+O: Poznaj kompleksowość[Dokumentacja Aspose.Note](https://reference.aspose.com/note/net/).
 ### P: Jak mogę uzyskać tymczasową licencję na Aspose.Note?
  Odp.: Uzyskaj tymczasową licencję[Tutaj](https://purchase.aspose.com/temporary-license/).
 ### P: Gdzie mogę szukać pomocy lub omówić zapytania związane z Aspose.Note?

@@ -106,4 +106,4 @@ A3: Igen, testreszabhatja a címke színeit és stílusait az Ön igényei szeri
 
 ### 5. kérdés: Hol találok további forrásokat és támogatást az Aspose.Note for .NET-hez?
 
- A5: Felfedezheti a[Aspose.Note a .NET dokumentációhoz](https://reference.aspose.com/note/net/) és kérjen segítséget a[Aspose.Note fórum](https://forum.aspose.com/c/note/28).
+ A5: Felfedezheti a[Aspose.Note a .NET dokumentációhoz](https://reference.aspose.com/note/net/)és kérjen segítséget a[Aspose.Note fórum](https://forum.aspose.com/c/note/28).

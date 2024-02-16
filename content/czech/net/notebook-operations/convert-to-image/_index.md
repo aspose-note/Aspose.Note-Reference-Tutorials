@@ -19,7 +19,7 @@ Než začneme, ujistěte se, že máte následující předpoklady:
 
 2. Vývojové prostředí: Ujistěte se, že máte nastavené vývojové prostředí s nainstalovaným .NET frameworkem.
 
-## Importovat jmenné prostory
+## Import jmenných prostorů
 
 Než se ponoříme do kódu, importujme potřebné jmenné prostory:
 
@@ -72,7 +72,7 @@ Odpověď 2: Ano, kromě obrázků podporuje Aspose.Note pro .NET převod do rů
 
 ### Q3: Je k dispozici zkušební verze pro Aspose.Note pro .NET?
 
- A3: Ano, můžete si stáhnout bezplatnou zkušební verzi z[tady](https://releases.aspose.com/), což vám umožní prozkoumat funkce před nákupem.
+A3: Ano, můžete si stáhnout bezplatnou zkušební verzi z[tady](https://releases.aspose.com/), což vám umožní prozkoumat funkce před nákupem.
 
 ### Q4: Jak mohu získat podporu pro Aspose.Note pro .NET?
 

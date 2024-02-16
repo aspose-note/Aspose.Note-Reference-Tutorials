@@ -40,7 +40,7 @@ var page = new Page(document);
 
 ## Paso 2: insertar imagen con hipervínculo
 
- Ahora, insertemos la imagen con un hipervínculo. Crearemos un`Image` objeto y establecer su`HyperlinkUrl` propiedad a la URL deseada.
+Ahora, insertemos la imagen con un hipervínculo. Crearemos un`Image` objeto y establecer su`HyperlinkUrl` propiedad a la URL deseada.
 
 ```csharp
 string imagePath = "path_to_your_image.jpg";

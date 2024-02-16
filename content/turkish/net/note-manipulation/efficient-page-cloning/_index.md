@@ -35,7 +35,7 @@ using System.Text;
 
 ## 1. Adım: OneNote Belgesini Yükleyin
 
-Öncelikle OneNote belgesini belleğe yüklememiz gerekiyor. kullanarak bunu başarabiliriz.`Document` Aspose.Note tarafından sağlanan sınıf:
+ Öncelikle OneNote belgesini belleğe yüklememiz gerekiyor. kullanarak bunu başarabiliriz.`Document` Aspose.Note tarafından sağlanan sınıf:
 
 ```csharp
 // Belgeler dizininin yolu.

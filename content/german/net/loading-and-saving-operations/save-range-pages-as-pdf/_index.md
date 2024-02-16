@@ -82,7 +82,7 @@ Glückwunsch! Sie haben erfolgreich gelernt, wie Sie mit Aspose.Note für .NET e
 
 ### F1: Kann ich mit Aspose.Note mehrere Seitenbereiche als separate PDF-Dateien speichern?
 
- A1: Ja, Sie können dies erreichen, indem Sie den Vorgang für jeden Seitenbereich wiederholen, den Sie speichern möchten, und die anpassen`PageIndex` Und`PageCount` entsprechend.
+A1: Ja, Sie können dies erreichen, indem Sie den Vorgang für jeden Seitenbereich wiederholen, den Sie speichern möchten, und die anpassen`PageIndex` Und`PageCount` entsprechend.
    
 ### F2: Unterstützt Aspose.Note das Speichern von Dokumenten in anderen Formaten als PDF?
 

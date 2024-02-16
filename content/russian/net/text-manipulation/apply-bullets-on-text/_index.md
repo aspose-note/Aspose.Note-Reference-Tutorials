@@ -27,10 +27,10 @@ using System.Collections.Generic;
 ```csharp
 // Путь к каталогу документов.
 string dataDir = "Your Document Directory";
-// Создайте объект класса Document
+//Создайте объект класса Document
 Aspose.Note.Document doc = new Aspose.Note.Document();
 ```
-## Шаг 2. Инициализируйте страницу и структуру
+## Шаг 2. Инициализация страницы и структуры
 ```csharp
 // Инициализировать объект класса страницы
 Aspose.Note.Page page = new Aspose.Note.Page(doc);
@@ -63,7 +63,7 @@ page.AppendChildLast(outline);
 ```
 ## Шаг 7. Добавьте страницу в документ
 ```csharp
-// Добавить узел страницы
+//Добавить узел страницы
 doc.AppendChildLast(page);
 ```
 ## Шаг 8. Сохраните документ OneNote.
