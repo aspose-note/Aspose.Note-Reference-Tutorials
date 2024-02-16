@@ -25,9 +25,12 @@ Before we begin, ensure you have the following:
 Before we dive into the implementation, let's import the necessary packages:
 
 ```java
-// TODO Auto-generated method stub
+import java.io.IOException;
 
-import com.aspose.note.*;
+import com.aspose.note.Document;
+import com.aspose.note.Image;
+import com.aspose.note.Page;
+import com.aspose.note.examples.Utils;
 ```
 
 ## Step 1: Set up Document Directory
