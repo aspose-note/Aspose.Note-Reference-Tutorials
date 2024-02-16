@@ -76,7 +76,7 @@ document.save(Paths.get(dataDir, "ChangeTableStyleOut.one").toString());
 ```
 ## Conclusion
 Aspose.Note for Java simplifies the process of manipulating OneNote files. By leveraging the library's capabilities, you can enhance the visual presentation of your tables effortlessly.
----
+
 ## FAQs
 ### Where can I find the documentation for Aspose.Note for Java?
 Visit the [official documentation](https://reference.aspose.com/note/java/) for comprehensive guidance.
