@@ -24,7 +24,6 @@ First, let's import the necessary packages:
 
 ```java
 import java.io.IOException;
-
 import com.aspose.note.AlwaysSplitObjectsAlgorithm;
 import com.aspose.note.Document;
 import com.aspose.note.KeepPartAndCloneSolidObjectToNextPageAlgorithm;

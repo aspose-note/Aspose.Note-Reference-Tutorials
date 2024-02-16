@@ -12,7 +12,7 @@ In the dynamic world of software development, Aspose.Note for Java stands out as
 ## Prerequisites
 Before diving into the tutorial, make sure you have the following prerequisites in place:
 1. Java Development Environment: Ensure you have a Java development environment set up on your machine.
-2. Aspose.Note for Java Library: Download and install the Aspose.Note for Java library from the [official download link](https://releases.aspose.com/note/java/).
+2. Aspose.Note for Java Library: Download and install the Aspose.Note for Java library from the [download link](https://releases.aspose.com/note/java/).
 3. Document Directory: Create a directory for your documents to store the output file.
 ## Import Packages
 Start by importing the necessary packages to kickstart your development process. Here's a snippet of code to help you get started:
@@ -66,4 +66,4 @@ A: Implement error handling mechanisms using try-catch blocks to address any pot
 ### Q: Can I integrate this code into web applications?
 A: Certainly! Ensure you have the Aspose.Note for Java library properly configured in your web project.
 ### Q: Where can I find additional examples and documentation for Aspose.Note for Java?
-A: Explore the [official documentation](https://reference.aspose.com/note/java/) for comprehensive resources.
+A: Explore the [documentation](https://reference.aspose.com/note/java/) for comprehensive resources.

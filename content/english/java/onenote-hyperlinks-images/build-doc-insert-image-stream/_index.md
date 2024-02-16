@@ -17,7 +17,7 @@ Before we dive into the tutorial, make sure you have the following prerequisites
 
 ### Java Development Kit (JDK)
 
-Ensure you have Java Development Kit (JDK) installed on your system. You can download it from the official Oracle website.
+Ensure you have Java Development Kit (JDK) installed on your system. You can download it from the Oracle website.
 
 ### Aspose.Note for Java Library
 
@@ -36,7 +36,6 @@ import java.io.FileInputStream;
 import java.io.FileNotFoundException;
 import java.io.IOException;
 import java.io.InputStream;
-
 import com.aspose.note.Document;
 import com.aspose.note.HorizontalAlignment;
 import com.aspose.note.Image;

@@ -2,7 +2,7 @@
 title: Modify Page History in OneNote - Aspose.Note
 linktitle: Modify Page History in OneNote - Aspose.Note
 second_title: Aspose.Note Java API
-description: Learn how to modify page history in OneNote documents using Aspose.Note for Java. Step-by-step tutorial with code examples.
+description: Delete, modify, & add page history entries seamlessly! Step-by-step guide & code for mastering OneNote with Aspose.Note. #OneNote #Java #Aspose
 type: docs
 weight: 17
 url: /java/onenote-page-manipulation/modify-page-history/

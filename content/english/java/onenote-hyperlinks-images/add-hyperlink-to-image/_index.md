@@ -2,7 +2,7 @@
 title: Add Hyperlink to Image in OneNote using Java
 linktitle: Add Hyperlink to Image in OneNote using Java
 second_title: Aspose.Note Java API
-description: Learn how to add hyperlinks to images in OneNote documents using Java with this step-by-step tutorial.
+description: Make OneNote docs interactive! Learn how to add hyperlinks to images in Java with Aspose.Note. Easy steps & code examples included! #OneNote #Java #Aspose
 type: docs
 weight: 11
 url: /java/onenote-hyperlinks-images/add-hyperlink-to-image/
@@ -26,11 +26,7 @@ Before we dive into the implementation, let's import the necessary packages:
 
 ```java
 import java.io.IOException;
-
-import com.aspose.note.Document;
-import com.aspose.note.Image;
-import com.aspose.note.Page;
-import com.aspose.note.examples.Utils;
+import com.aspose.note.*;
 ```
 
 ## Step 1: Set up Document Directory

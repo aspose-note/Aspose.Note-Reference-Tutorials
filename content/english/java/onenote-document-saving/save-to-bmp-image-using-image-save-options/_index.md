@@ -26,8 +26,6 @@ First, you need to import the necessary packages from Aspose.Note for Java to ut
 
 ```java
 import com.aspose.note.*;
-
-
 import java.io.IOException;
 ```
 

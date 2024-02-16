@@ -2,7 +2,8 @@
 title: Create OneNote Document and Save to HTML - Java
 linktitle: Create OneNote Document and Save to HTML - Java
 second_title: Aspose.Note Java API
-description: Learn how to use Aspose.Note for Java to create OneNote documents and save them as HTML with embedded resources.
+description: Learn to create and save OneNote documents as HTML using Aspose.Note for Java. Integrate into Java applications for programmatic OneNote file handling. 
+
 type: docs
 weight: 18
 url: /java/onenote-document-loading/create-onenote-save-to-html/
@@ -31,7 +32,6 @@ import java.io.IOException;
 import java.io.OutputStream;
 import java.io.OutputStreamWriter;
 import java.nio.file.Paths;
-
 import com.aspose.note.CssSavingArgs;
 import com.aspose.note.Document;
 import com.aspose.note.FontFaceType;

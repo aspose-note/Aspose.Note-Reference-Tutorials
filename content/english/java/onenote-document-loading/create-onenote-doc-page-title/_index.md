@@ -33,8 +33,6 @@ Firstly, import the necessary packages from the Aspose.Note for Java library to 
 
 ```java
 import com.aspose.note.*;
-
-
 import java.awt.*;
 import java.io.IOException;
 import java.util.Calendar;

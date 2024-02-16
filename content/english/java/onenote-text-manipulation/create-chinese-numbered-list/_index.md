@@ -106,6 +106,6 @@ Absolutely. As shown in the tutorial, you can adjust the font, color, and size t
 ### Is there a trial version available for Aspose.Note?
 Yes, you can explore the trial version [here](https://releases.aspose.com/).
 ### Where can I find detailed documentation for Aspose.Note?
-Refer to the official documentation [here](https://reference.aspose.com/note/java/).
+Refer to the documentation [here](https://reference.aspose.com/note/java/).
 ### How can I get support for Aspose.Note?
 Visit the support forum [here](https://forum.aspose.com/c/note/28) for any assistance or queries.

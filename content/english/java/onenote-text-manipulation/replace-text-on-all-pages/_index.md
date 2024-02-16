@@ -11,7 +11,7 @@ url: /java/onenote-text-manipulation/replace-text-on-all-pages/
 Welcome to this comprehensive tutorial on using Aspose.Note for Java to replace text on all pages in OneNote. If you're looking to efficiently update and organize your OneNote documents, you've come to the right place. In this step-by-step guide, we'll walk you through the process, ensuring you understand each step along the way.
 ## Prerequisites
 Before we dive into the tutorial, make sure you have the following in place:
-- Aspose.Note for Java Library: Ensure you have the Aspose.Note for Java library installed. You can download it from the [official download link](https://releases.aspose.com/note/java/).
+- Aspose.Note for Java Library: Ensure you have the Aspose.Note for Java library installed. You can download it from the [download link](https://releases.aspose.com/note/java/).
 - Document Directory: Have a directory ready where your OneNote documents are stored. Replace "Your Document Directory" in the code examples with the path to your actual document directory.
 ## Import Packages
 In your Java project, import the necessary Aspose.Note packages. Add the following lines at the beginning of your Java file:
@@ -76,7 +76,7 @@ Aspose.Note primarily supports Microsoft OneNote files, but Aspose provides libr
 You can obtain a temporary license from [here](https://purchase.aspose.com/temporary-license/).
 ### Q: Is there community support available for Aspose.Note?
 Yes, you can find community support on the [Aspose.Note forum](https://forum.aspose.com/c/note/28).
-### Q: Where can I find the official documentation for Aspose.Note for Java?
-The official documentation is available [here](https://reference.aspose.com/note/java/).
+### Q: Where can I find the documentation for Aspose.Note for Java?
+The documentation is available [here](https://reference.aspose.com/note/java/).
 ### Q: Can I purchase Aspose.Note for Java? 
 Yes, you can buy Aspose.Note for Java [here](https://purchase.aspose.com/buy).

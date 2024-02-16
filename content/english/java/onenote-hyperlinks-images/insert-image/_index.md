@@ -27,7 +27,6 @@ Start by importing the necessary packages into your Java project. These packages
 
 ```java
 import java.io.IOException;
-
 import com.aspose.note.Document;
 import com.aspose.note.HorizontalAlignment;
 import com.aspose.note.Image;

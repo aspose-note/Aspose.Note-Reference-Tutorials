@@ -2,7 +2,7 @@
 title: Working with Locales in OneNote - Aspose.Note
 linktitle: Working with Locales in OneNote - Aspose.Note
 second_title: Aspose.Note Java API
-description: Unlock the power of Aspose.Note for Java streamline OneNote file processing with ease. Explore features, tutorials, and support.
+description: Harness Aspose.Note's power to work with OneNote locales! Extract, manipulate, & generate reports tailored to different languages & regions. #OneNote #Java #Aspose
 type: docs
 weight: 10
 url: /java/onenote-notebook-operations/working-with-locales/
@@ -31,7 +31,6 @@ Before getting started, import the necessary packages into your Java project. Th
 import java.io.IOException;
 import java.nio.file.Path;
 import java.util.Locale;
-
 import com.aspose.note.Document;
 import com.aspose.note.License;
 import com.aspose.note.LocaleOptions;

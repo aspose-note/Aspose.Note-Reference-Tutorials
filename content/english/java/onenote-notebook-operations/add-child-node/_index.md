@@ -24,7 +24,6 @@ First, import the necessary packages to work with Aspose.Note for Java.
 
 ```java
 import java.io.IOException;
-
 import com.aspose.note.Document;
 import com.aspose.note.Notebook;
 ```

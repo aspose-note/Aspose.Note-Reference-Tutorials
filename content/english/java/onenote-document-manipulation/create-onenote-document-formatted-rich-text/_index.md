@@ -26,7 +26,6 @@ Firstly, you need to import the necessary packages to your Java project. Add the
 ```java
 import java.awt.Color;
 import java.io.IOException;
-
 import com.aspose.note.Document;
 import com.aspose.note.Outline;
 import com.aspose.note.OutlineElement;

@@ -2,7 +2,7 @@
 title: Retrieve Attachment from OneNote using Java
 linktitle: Retrieve Attachment from OneNote using Java
 second_title: Aspose.Note Java API
-description: Learn how to retrieve attachments from OneNote using Java with Aspose.Note, a powerful API for seamless document manipulation.
+description: Effortlessly extract attachments from OneNote docs in Java! Aspose.Note handles all formats & batch processing. Easy steps & code included! #OneNote #Java #Aspose
 type: docs
 weight: 12
 url: /java/onenote-java-integration/retrieve-attachment/
@@ -42,7 +42,6 @@ import java.nio.file.Files;
 import java.nio.file.Path;
 import java.nio.file.StandardCopyOption;
 import java.util.List;
-
 import com.aspose.note.AttachedFile;
 import com.aspose.note.Document;
 ```

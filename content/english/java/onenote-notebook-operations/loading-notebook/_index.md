@@ -2,7 +2,7 @@
 title: Loading Notebook in OneNote - Aspose.Note
 linktitle: Loading Notebook in OneNote - Aspose.Note
 second_title: Aspose.Note Java API
-description: Learn how to load a notebook in OneNote using Aspose.Note for Java. Step-by-step guide for developers.
+description: Master OneNote notebooks in Java! Learn to load, explore & process content - from docs to sub-notebooks. Easy steps & code included! #OneNote #Java #Aspose
 type: docs
 weight: 19
 url: /java/onenote-notebook-operations/loading-notebook/

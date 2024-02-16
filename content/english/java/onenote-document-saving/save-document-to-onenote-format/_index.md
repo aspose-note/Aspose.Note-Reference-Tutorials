@@ -25,7 +25,6 @@ To get started, import the necessary packages in your Java project:
 
 ```java
 import java.io.IOException;
-
 import com.aspose.note.Document;
 import com.aspose.note.examples.Utils;
 ```

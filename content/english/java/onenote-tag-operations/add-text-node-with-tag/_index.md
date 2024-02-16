@@ -119,5 +119,5 @@ A: Yes, you can access the free trial [here](https://releases.aspose.com/).
 A: You can seek support from the Aspose.Note community [forum](https://forum.aspose.com/c/note/28).
 ### Q: Are temporary licenses available for Aspose.Note for Java?
 A: Yes, you can obtain temporary licenses [here](https://purchase.aspose.com/temporary-license/).
-### Q: Where can I find the official documentation for Aspose.Note for Java?
-A: The official documentation is available [here](https://reference.aspose.com/note/java/).
+### Q: Where can I find the documentation for Aspose.Note for Java?
+A: The documentation is available [here](https://reference.aspose.com/note/java/).

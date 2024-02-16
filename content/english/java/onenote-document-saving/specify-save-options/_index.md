@@ -27,7 +27,6 @@ To start, import the necessary packages in your Java code:
 import com.aspose.note.Document;
 import com.aspose.note.PdfImageCompression;
 import com.aspose.note.PdfSaveOptions;
-
 import java.io.IOException;
 ```
 

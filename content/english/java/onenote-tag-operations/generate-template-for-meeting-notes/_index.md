@@ -102,6 +102,6 @@ Aspose.Note can be integrated with other Java libraries seamlessly for extended 
 ### How can I add additional sections to my meeting notes?
 You can easily extend the outline structure by following the same pattern demonstrated in the tutorial.
 ### Are there any licensing considerations for Aspose.Note?
-Refer to the [official Aspose.Note documentation](https://reference.aspose.com/note/java/) for licensing details.
+Refer to the [Aspose.Note documentation](https://reference.aspose.com/note/java/) for licensing details.
 ### Is there a trial version available for Aspose.Note?
 Yes, you can access the [free trial here](https://releases.aspose.com/).

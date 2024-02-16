@@ -2,7 +2,7 @@
 title: Attach File by Path in OneNote with Java
 linktitle: Attach File by Path in OneNote with Java
 second_title: Aspose.Note Java API
-description: Learn how to attach files to your OneNote notes programmatically using Java with Aspose.Note.
+description: Add files to your OneNote notes seamlessly! Learn how to attach by path in Java with Aspose.Note. Easy guide & code included! #OneNote #Java #Aspose
 type: docs
 weight: 11
 url: /java/onenote-java-integration/attach-file-by-path/
@@ -25,7 +25,6 @@ To get started, import the necessary packages into your Java project:
 
 ```java
 import com.aspose.note.*;
-
 import java.io.IOException;
 ```
 

@@ -2,12 +2,31 @@
 title: OneNote Text Manipulation
 linktitle: OneNote Text Manipulation
 second_title: Aspose.Note Java API
-description: 
+description: Explore Aspose.Note Java tutorials on OneNote text manipulation. Explore efficient methods for tasks like extracting text, applying themes, creating lists & more. 
 type: docs
 weight: 34
 url: /java/onenote-text-manipulation/
 ---
 
+## Introduction
+
+Learn how to leverage Aspose.Note for Java to enhance your Java development skills in OneNote text manipulation. Elevate your digital documentation experience effortlessly with these comprehensive tutorials.
+
+##  [Get Outlook Task in OneNote - Aspose.Note](./get-outlook-task/)
+Discover the potential of Aspose.Note for Java in extracting Outlook Task details from OneNote documents effortlessly. Follow the step-by-step guide to seamlessly integrate this robust library into your Java projects.
+
+## [Apply Dark Theme to Text in OneNote - Aspose.Note](./apply-dark-theme/)
+Uncover the easy steps to apply a dark theme to your OneNote text using Aspose.Note for Java. Enhance the visual appeal of your digital documentation with the guidance provided in this tutorial.
+
+## [Create Bulleted List in OneNote - Aspose.Note](./create-bulleted-list/)
+Master the art of creating bulleted lists in OneNote with Aspose.Note for Java. Elevate your document creation process with ease by following the detailed steps outlined in this tutorial.
+
+These tutorials cover a range of topics, including creating Chinese numbered lists, extracting all text, generating documents from templates, retrieving list properties, and efficiently replacing text on specific pages or throughout your OneNote documents.
+
+Whether you're a seasoned Java developer or just starting, Aspose.Note for Java tutorials provide valuable insights and practical guidance. Download a free trial, dive into the world of Java development, and explore the powerful features of Aspose.Note for seamless OneNote text manipulation.
+
+## Conclusion
+Aspose.Note for Java simplifies complex tasks in OneNote text manipulation, making it an indispensable tool for Java developers. Elevate your skills, streamline your processes, and enhance your digital documentation effortlessly with Aspose.Note for Java.
 ## OneNote Text Manipulation Tutorials
 ### [Get Outlook Task in OneNote - Aspose.Note](./get-outlook-task/)
 Explore the potential of Aspose.Note for Java in extracting Outlook Task details from OneNote documents effortlessly. Elevate your Java development with this robust library.

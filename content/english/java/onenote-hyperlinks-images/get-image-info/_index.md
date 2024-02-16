@@ -2,7 +2,7 @@
 title: Get Image Info from OneNote using Java
 linktitle: Get Image Info from OneNote using Java
 second_title: Aspose.Note Java API
-description: Learn how to extract image info from OneNote documents using Java with Aspose.Note. Easy steps for developers.
+description: Extract image info from OneNote docs in Java! Get image dimensions, file names, & more. Easy steps & code examples included. #OneNote #Java #Aspose
 type: docs
 weight: 15
 url: /java/onenote-hyperlinks-images/get-image-info/
@@ -34,7 +34,6 @@ To start, import the necessary packages from Aspose.Note for Java:
 ```java
 import java.io.IOException;
 import java.util.List;
-
 import com.aspose.note.Document;
 import com.aspose.note.Image;
 ```

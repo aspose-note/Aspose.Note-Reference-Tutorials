@@ -2,7 +2,7 @@
 title: Working with Page Revisions in OneNote - Aspose.Note
 linktitle: Working with Page Revisions in OneNote - Aspose.Note
 second_title: Aspose.Note Java API
-description: Learn how to manage page revisions in OneNote documents using Aspose.Note for Java. This tutorial provides a step-by-step guide for effective revision tracking and collaboration.
+description: Learn how to manage page revisions in OneNote documents using Aspose.Note for Java. Provides step-by-step guide for effective revision tracking and collaboration.
 type: docs
 weight: 21
 url: /java/onenote-page-manipulation/working-with-page-revisions/
@@ -35,8 +35,6 @@ In your Java project, import the necessary packages to work with Aspose.Note for
 import com.aspose.note.Document;
 import com.aspose.note.Page;
 import com.aspose.note.RevisionSummary;
-
-
 import java.io.IOException;
 import java.util.Calendar;
 ```

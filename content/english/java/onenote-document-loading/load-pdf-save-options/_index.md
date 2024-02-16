@@ -17,7 +17,7 @@ Before we begin, ensure you have the following prerequisites:
 
 ### 1. Java Development Environment Setup
 
-Ensure you have JDK (Java Development Kit) installed on your system. You can download and install JDK from the official Oracle website.
+Ensure you have JDK (Java Development Kit) installed on your system. You can download and install JDK from the Oracle website.
 
 ### 2. Aspose.Note for Java Library
 
@@ -33,7 +33,6 @@ To start, import the necessary packages into your Java project. These packages w
 
 ```java
 import java.io.IOException;
-
 import com.aspose.note.Document;
 import com.aspose.note.PdfSaveOptions;
 ```

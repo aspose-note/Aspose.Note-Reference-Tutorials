@@ -2,7 +2,7 @@
 title: Push Current Page Version in OneNote - Aspose.Note
 linktitle: Push Current Page Version in OneNote - Aspose.Note
 second_title: Aspose.Note Java API
-description: Learn how to push current page version in OneNote using Aspose.Note for Java. Seamlessly manage document versioning with ease.
+description: Keep OneNote content fresh! Learn to update page history & manage versions, step-by-step guide & code included. #OneNote #Java #Aspose
 type: docs
 weight: 18
 url: /java/onenote-page-manipulation/push-current-page-version/

@@ -12,7 +12,7 @@ Aspose.Note for Java is a powerful library that allows developers to manipulate 
 ## Prerequisites
 Before you begin, make sure you have the following in place:
 - Java Development Environment: Ensure that you have a Java development environment set up on your machine.
-- Aspose.Note for Java Library: Download and install the Aspose.Note for Java library from the [official download page](https://releases.aspose.com/note/java/).
+- Aspose.Note for Java Library: Download and install the Aspose.Note for Java library from the [download page](https://releases.aspose.com/note/java/).
 - Document Directory: Prepare a directory to store your OneNote documents.
 ## Import Packages
 In your Java project, import the necessary packages to work with Aspose.Note:
@@ -79,7 +79,7 @@ Aspose.Note for Java simplifies the process of manipulating OneNote files. By le
 
 ## FAQs
 ### Where can I find the documentation for Aspose.Note for Java?
-Visit the [official documentation](https://reference.aspose.com/note/java/) for comprehensive guidance.
+Visit the [documentation](https://reference.aspose.com/note/java/) for comprehensive guidance.
 ### How can I obtain a temporary license for Aspose.Note for Java?
 Follow this [link](https://purchase.aspose.com/temporary-license/) to acquire a temporary license.
 ### Is there a free trial available for Aspose.Note for Java?

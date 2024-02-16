@@ -11,7 +11,7 @@ url: /java/onenote-table-manipulation/extract-row-text-from-table/
 Welcome to this comprehensive tutorial on extracting row text from tables in OneNote documents using Aspose.Note for Java. Aspose.Note is a powerful Java library that enables developers to work with Microsoft OneNote files seamlessly. In this tutorial, we'll guide you through the process step by step, demonstrating how to efficiently extract row text from tables in your OneNote documents.
 ## Prerequisites
 Before we dive into the tutorial, make sure you have the following prerequisites in place:
-- Aspose.Note for Java Library: Ensure that you have the Aspose.Note for Java library installed. You can download it from the [official download link](https://releases.aspose.com/note/java/).
+- Aspose.Note for Java Library: Ensure that you have the Aspose.Note for Java library installed. You can download it from the [download link](https://releases.aspose.com/note/java/).
 - Java Development Environment: Make sure you have a Java development environment set up on your machine.
 - OneNote Document: Prepare a sample OneNote document (e.g., "Sample1.one") containing tables from which you want to extract row text.
 ## Import Packages
@@ -65,7 +65,7 @@ Repeat these steps for each table in your OneNote document, and you'll successfu
 Congratulations! You've learned how to extract row text from tables in OneNote documents using Aspose.Note for Java. This tutorial provides a foundation for leveraging the powerful capabilities of Aspose.Note in your Java applications.
 ## Frequently Asked Questions
 ### Is Aspose.Note compatible with the latest version of Microsoft OneNote?
-Aspose.Note supports various OneNote versions, including the latest. Refer to the [official documentation](https://reference.aspose.com/note/java/) for compatibility details.
+Aspose.Note supports various OneNote versions, including the latest. Refer to the [documentation](https://reference.aspose.com/note/java/) for compatibility details.
 ### Can I try Aspose.Note for Java before purchasing?
 Yes, you can explore a free trial of Aspose.Note at [this link](https://releases.aspose.com/).
 ### Where can I find additional support and assistance?
@@ -73,4 +73,4 @@ Visit the [Aspose.Note forum](https://forum.aspose.com/c/note/28) for community 
 ### How do I obtain a temporary license for Aspose.Note?
 Get a temporary license from [this link](https://purchase.aspose.com/temporary-license/).
 ### Are there any specific system requirements for using Aspose.Note for Java?
-Refer to the official documentation for detailed system requirements.
+Refer to the documentation for detailed system requirements.

@@ -87,9 +87,9 @@ Congratulations! You've successfully added a new image node with a tag in OneNot
 Mastering Aspose.Note for Java opens up exciting possibilities in OneNote document manipulation. By following this tutorial, you've gained a practical skill that can be applied to various projects. Keep exploring the Aspose.Note documentation [here](https://reference.aspose.com/note/java/) for more advanced features and possibilities.
 ## FAQs
 ### Where can I find Aspose.Note documentation?
-You can find the official documentation [here](https://reference.aspose.com/note/java/).
+You can find the documentation [here](https://reference.aspose.com/note/java/).
 ### How do I download Aspose.Note for Java?
-You can download it from the official releases page [here](https://releases.aspose.com/note/java/).
+You can download it from the releases page [here](https://releases.aspose.com/note/java/).
 ### Is there a free trial available?
 Yes, you can access the free trial [here](https://releases.aspose.com/).
 ### Where can I get support for Aspose.Note?

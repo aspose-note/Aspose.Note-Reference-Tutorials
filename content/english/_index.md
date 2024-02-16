@@ -31,4 +31,27 @@ These are links to some useful resources:
 - [Tag Management](./net/tag-management/)
 - [Text Manipulation](./net/text-manipulation/)
 
+## Aspose.Note for Java Tutorials
+{{% alert color="primary" %}}
+Embark on a transformative journey with Aspose.Note for Java tutorials, designed to elevate your OneNote experience and streamline Java development. Dive into comprehensive guides covering Java integration, document manipulation, hyperlinks, images, licensing, performance optimization, document saving, notebook operations, page manipulation, printing, styles, table manipulation, tag operations, text manipulation, and Outlook integration. Unleash the full potential of Aspose.Note, enhancing your document processing capabilities and mastering the art of efficient Java development. 
+{{% /alert %}}
+
+These are links to some useful resources:
+ 
+- [OneNote Java Integration](./java/onenote-java-integration/)
+- [OneNote Document Manipulation](./java/onenote-document-manipulation/)
+- [OneNote Hyperlinks and Images](./java/onenote-hyperlinks-images/)
+- [OneNote Image Alternative Text](./java/onenote-image-alternative-text/)
+- [Aspose.Note Licensing with Java](./java/licensing-java/)
+- [OneNote Document Loading](./java/onenote-document-loading/)
+- [OneNote Performance Optimization](./java/onenote-performance-optimization/)
+- [OneNote Document Saving](./java/onenote-document-saving/)
+- [OneNote Notebook Operations](./java/onenote-notebook-operations/)
+- [OneNote Page Manipulation](./java/onenote-page-manipulation/)
+- [OneNote Printing Documents](./java/onenote-printing-documents/)
+- [OneNote Styles](./java/onenote-styles/)
+- [OneNote Table Manipulation](./java/onenote-table-manipulation/)
+- [OneNote Tag Operations](./java/onenote-tag-operations/)
+- [OneNote Text Manipulation](./java/onenote-text-manipulation/)
+- [Task and Outlook Integration](./java/task-and-outlook-integration/)
 

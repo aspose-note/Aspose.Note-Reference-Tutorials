@@ -2,12 +2,53 @@
 title: OneNote Page Manipulation
 linktitle: OneNote Page Manipulation
 second_title: Aspose.Note Java API
-description: 
+description: Manage conflict pages, create organized documents, and track revisions in OneNote using Aspose.Note for Java. Step-by-step tutorials for efficient document management.
 type: docs
 weight: 29
 url: /java/onenote-page-manipulation/
 ---
 
+## Introduction
+
+Are you ready to elevate your OneNote game? Dive into the world of efficient page manipulation with Aspose.Note for Java. Whether you're dealing with conflict pages, organizing documents, or tracking revisions, we've got you covered. Let's explore the key tutorials step by step:
+
+## Conflict Page Manipulation in OneNote - Aspose.Note
+Conflict pages can be a headache, but with Aspose.Note for Java, resolution becomes a breeze. Our [step-by-step guide](./conflict-page-manipulation/) ensures you smoothly navigate through managing conflict pages, keeping your notes seamlessly organized. Explore more.
+
+## Create Document with Root and Sub Pages in OneNote - Aspose.Note
+Organize your thoughts systematically by creating documents with root and sub-pages using Aspose.Note for Java. Our [guide](./create-document-with-root-and-sub-pages/) provides you with easy-to-follow steps, allowing you to efficiently structure and manage your notes. Explore more.
+
+## Get Information about Pages in OneNote - Aspose.Note
+Unlock the power of information extraction from OneNote documents using Aspose.Note for Java. Developers, this [tutorial](./get-information-about-pages/) is for you! Dive into the world of extracting page details effortlessly with our user-friendly guide. Explore more.
+
+## Get Page Count in OneNote - Aspose.Note
+Curious about the number of pages in your OneNote document? Aspose.Note for Java has you covered. Follow our [straightforward tutorial](./get-page-count/) to retrieve page counts effortlessly, simplifying your document management process. Explore more.
+
+## Get Page Revisions in OneNote - Aspose.Note
+Efficiently track changes in your OneNote documents with Aspose.Note for Java. Our [step-by-step guide](./get-page-revisions/) empowers you to retrieve page revisions seamlessly, ensuring you stay on top of your document's evolution. Explore more.
+
+## Get Revisions of Pages in OneNote - Aspose.Note
+Integrate revision tracking seamlessly into your Java applications with [Aspose.Note](https://link-to-aspose.note). Learn how to retrieve revisions of pages within OneNote documents and enhance your document management capabilities. Explore more.
+
+## Insert Pages in OneNote - Aspose.Note
+Looking to programmatically insert pages into OneNote documents? Aspose.Note for Java has you covered with a comprehensive tutorial. Follow the [step-by-step instructions](./insert-pages/) for seamless document modification. Explore more.
+
+## Modify Page History in OneNote - Aspose.Note
+Navigate the intricacies of modifying page history in OneNote documents with Aspose.Note for Java. Our [tutorial](./modify-page-history/), complete with code examples, guides you through the process effortlessly. Explore more.
+
+## Push Current Page Version in OneNote - Aspose.Note
+Effortlessly manage document versioning by learning how to push the current page version in OneNote using Aspose.Note for Java. Simplify your version control with our [easy-to-follow tutorial](./push-current-page-version/). Explore more.
+
+## Roll Back to Previous Page Version in OneNote - Aspose.Note
+Mistakes happen, but with Aspose.Note for Java, correcting them is a breeze. Learn how to roll back to previous page versions in OneNote with our [step-by-step guide](./roll-back-to-previous-page-version/), ensuring efficient document management. Explore more.
+
+## Set Page Background Color in OneNote - Aspose.Note
+Enhance the visual appeal of your OneNote documents by learning how to set the page background color with Aspose.Note for Java. Our [tutorial](./set-page-background-color/) makes the process simple, allowing you to create visually stunning notes effortlessly. Explore more.
+
+## Working with Page Revisions in OneNote - Aspose.Note
+Collaborate effectively by mastering page revisions in OneNote documents with Aspose.Note for Java. Our [tutorial](./working-with-page-revisions/) provides a detailed step-by-step guide, empowering you to manage revisions and facilitate seamless collaboration. Explore more.
+
+Embark on your journey to OneNote mastery with Aspose.Note for Java - where efficient page manipulation meets simplicity! Explore more.
 ## OneNote Page Manipulation Tutorials
 ### [Conflict Page Manipulation in OneNote - Aspose.Note](./conflict-page-manipulation/)
 Learn how to efficiently manage conflict pages in OneNote using Aspose.Note for Java. Resolve conflicts seamlessly with step-by-step guidance.

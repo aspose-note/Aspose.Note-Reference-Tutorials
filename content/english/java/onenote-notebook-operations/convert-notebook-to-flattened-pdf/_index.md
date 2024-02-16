@@ -26,7 +26,6 @@ Firstly, let's import the necessary packages in your Java project:
 ```java
 import com.aspose.note.Notebook;
 import com.aspose.note.NotebookPdfSaveOptions;
-
 import java.io.IOException;
 ```
 

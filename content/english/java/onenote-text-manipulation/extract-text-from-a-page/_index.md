@@ -66,7 +66,7 @@ Continue these steps to enhance your Java application's capabilities in extracti
 Congratulations! You've successfully learned how to extract text from OneNote pages using Aspose.Note for Java. Incorporate this knowledge into your projects and streamline your text extraction processes effortlessly.
 ## Frequently Asked Questions
 ### Can I use Aspose.Note for Java with other programming languages?
-Aspose.Note primarily supports Java but has versions for other languages like .NET. Check the official documentation for language compatibility.
+Aspose.Note primarily supports Java but has versions for other languages like .NET. Check the documentation for language compatibility.
 ### Is there a trial version available for Aspose.Note for Java?
 Yes, you can explore a free trial version [here](https://releases.aspose.com/).
 ### Where can I find support for Aspose.Note for Java?

@@ -28,7 +28,6 @@ First, you need to import the required packages into your Java project. These pa
 ```java
 import java.io.ByteArrayOutputStream;
 import java.io.IOException;
-
 import com.aspose.note.Document;
 import com.aspose.note.SaveFormat;
 ```

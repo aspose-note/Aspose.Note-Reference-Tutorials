@@ -15,7 +15,7 @@ In this tutorial, we'll guide you through the process of extracting images from 
 
 Before you begin, ensure you have the following:
 
-1. Java Development Kit (JDK): Make sure you have Java installed on your system. You can download and install it from the [official website](https://www.oracle.com/java/technologies/javase-jdk15-downloads.html).
+1. Java Development Kit (JDK): Make sure you have Java installed on your system. You can download and install it from the [website](https://www.oracle.com/java/technologies/javase-jdk15-downloads.html).
 
 2. Aspose.Note Library: Download and include the Aspose.Note library in your Java project. You can get it from the [download link](https://releases.aspose.com/note/java/).
 
@@ -28,7 +28,6 @@ import java.io.IOException;
 import java.nio.file.Files;
 import java.nio.file.Paths;
 import java.util.List;
-
 import com.aspose.note.Document;
 import com.aspose.note.Image;
 ```

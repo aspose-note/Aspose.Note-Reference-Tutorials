@@ -25,7 +25,6 @@ Ensure that you have imported the necessary packages for using Aspose.Note for J
 
 ```java
 import com.aspose.note.*;
-
 import java.io.IOException;
 import java.nio.file.Paths;
 ```

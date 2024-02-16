@@ -33,7 +33,6 @@ In this step, you'll import the required packages to kickstart the process of co
 
 ```java
 import java.io.IOException;
-
 import com.aspose.note.Document;
 import com.aspose.note.LoadOptions;
 import com.aspose.note.SaveFormat;

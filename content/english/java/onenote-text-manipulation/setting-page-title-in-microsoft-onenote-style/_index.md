@@ -11,7 +11,7 @@ url: /java/onenote-text-manipulation/setting-page-title-in-microsoft-onenote-sty
 In the dynamic world of Java development, creating visually appealing and structured documents is crucial. If you're looking to enhance your Java applications with Microsoft OneNote-style page titles, Aspose.Note for Java is your go-to solution. In this comprehensive tutorial, we'll walk you through the process of setting page titles in the OneNote style using Aspose.Note, ensuring your documents stand out with a professional touch.
 ## Prerequisites
 Before diving into the tutorial, ensure you have the following prerequisites in place:
-- Aspose.Note for Java Library: Download and install the library from the [official Aspose.Note documentation](https://reference.aspose.com/note/java/).
+- Aspose.Note for Java Library: Download and install the library from the [Aspose.Note documentation](https://reference.aspose.com/note/java/).
 - Java Development Environment: Make sure you have a working Java development environment set up on your system.
 ## Import Packages
 Start by importing the necessary packages into your Java project. These packages are crucial for integrating Aspose.Note functionalities into your application.
@@ -26,7 +26,7 @@ import com.aspose.note.Title;
 ## Step 1: Import Aspose.Note Library
 Ensure you've imported the Aspose.Note for Java library into your project. You can download it [here](https://releases.aspose.com/note/java/).
 ### Step 2: Set Up Java Development Environment
-Make sure you have a functional Java development environment. If not, follow the official Java installation guide.
+Make sure you have a functional Java development environment. If not, follow the Java installation guide.
 ## Step 3: Initialize Document and Page
 Create a new Document object and initialize a Page within it.
 ```java
@@ -67,7 +67,7 @@ Yes, you can customize the formatting by adjusting the properties of the RichTex
 ### Is Aspose.Note compatible with other Java libraries?
 Aspose.Note is designed to work seamlessly with other Java libraries, offering flexibility in your development projects.
 ### Where can I find additional resources for Aspose.Note?
-Visit the [official Aspose.Note documentation](https://reference.aspose.com/note/java/) for comprehensive resources and examples.
+Visit the [Aspose.Note documentation](https://reference.aspose.com/note/java/) for comprehensive resources and examples.
 ### How can I get support for Aspose.Note-related queries?
 Seek assistance from the Aspose.Note community at [Aspose.Note Forum](https://forum.aspose.com/c/note/28).
 ### Is there a trial version available?

@@ -12,7 +12,7 @@ In the dynamic landscape of Java development, creating engaging and organized do
 ## Prerequisites
 Before we begin, ensure that you have the following prerequisites:
 - Basic knowledge of Java programming.
-- Aspose.Note for Java library installed. You can download it from the official [Aspose.Note for Java Documentation](https://reference.aspose.com/note/java/).
+- Aspose.Note for Java library installed. You can download it from the [Aspose.Note for Java Documentation](https://reference.aspose.com/note/java/).
 - A Java Integrated Development Environment (IDE) set up on your machine.
 ## Import Packages
 Start by importing the necessary packages into your Java project. This ensures that you have access to the Aspose.Note for Java functionalities.

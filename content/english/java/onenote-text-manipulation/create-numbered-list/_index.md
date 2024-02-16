@@ -88,6 +88,6 @@ A: Yes, you can download a free trial [here](https://releases.aspose.com/).
 ### Q: How can I get support for Aspose.Note for Java?
 A: Visit the [Aspose.Note for Java forum](https://forum.aspose.com/c/note/28) for community support.
 ### Q: Where can I find detailed documentation for Aspose.Note for Java?
-A: Refer to the official [documentation](https://reference.aspose.com/note/java/) for comprehensive information.
+A: Refer to the [documentation](https://reference.aspose.com/note/java/) for comprehensive information.
 ### Q: How do I purchase a license for Aspose.Note for Java?
 A: You can buy a license [here](https://purchase.aspose.com/buy).

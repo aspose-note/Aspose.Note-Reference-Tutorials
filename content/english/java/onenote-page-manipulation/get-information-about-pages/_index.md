@@ -2,7 +2,7 @@
 title: Get Information about Pages in OneNote - Aspose.Note
 linktitle: Get Information about Pages in OneNote - Aspose.Note
 second_title: Aspose.Note Java API
-description: Learn how to extract page information from OneNote documents using Aspose.Note for Java. Easy-to-follow tutorial for developers.
+description: Uncover page secrets in your OneNote docs! Extract revisions, creation times, & more with Aspose.Note. Step-by-step guide & code included! #OneNote #Java #Aspose
 type: docs
 weight: 12
 url: /java/onenote-page-manipulation/get-information-about-pages/

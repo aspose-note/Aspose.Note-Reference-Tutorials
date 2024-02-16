@@ -79,7 +79,7 @@ Aspose.Note primarily supports Java, but there are versions available for other 
 ### Is Aspose.Note for Java compatible with different document formats?
 Yes, Aspose.Note supports various formats, including OneNote, PDF, and images.
 ### Where can I find more examples and documentation?
-Refer to the official [documentation](https://reference.aspose.com/note/java/) for comprehensive guidance and examples.
+Refer to the [documentation](https://reference.aspose.com/note/java/) for comprehensive guidance and examples.
 ### How can I get support for Aspose.Note for Java?
 Visit the [Aspose.Note forum](https://forum.aspose.com/c/note/28) to seek assistance from the community and Aspose support.
 ### Is there a free trial available?

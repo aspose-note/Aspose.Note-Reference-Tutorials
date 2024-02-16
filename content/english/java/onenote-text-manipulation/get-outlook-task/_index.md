@@ -12,7 +12,7 @@ Welcome to the world of Aspose.Note for Java – a powerful tool that empowers J
 ## Prerequisites
 Before diving into the tutorial, ensure you have the following prerequisites in place:
 - Java Development Kit (JDK): Make sure you have Java installed on your system.
-- Aspose.Note for Java: Download and install the Aspose.Note library from the [official download page](https://releases.aspose.com/note/java/).
+- Aspose.Note for Java: Download and install the Aspose.Note library from the [download page](https://releases.aspose.com/note/java/).
 ## Import Packages
 Begin by importing the necessary packages into your Java project. Add the following lines at the beginning of your Java file:
 ```java
@@ -69,6 +69,6 @@ A: Yes, you can explore a free trial of Aspose.Note for Java [here](https://rele
 ### Q: How can I get support for Aspose.Note for Java?
 A: Visit the [Aspose.Note Forum](https://forum.aspose.com/c/note/28) for community support or explore premium support options.
 ### Q: Where can I find detailed documentation for Aspose.Note for Java?
-A: Refer to the official [Aspose.Note for Java documentation](https://reference.aspose.com/note/java/) for in-depth information.
+A: Refer to the [Aspose.Note for Java documentation](https://reference.aspose.com/note/java/) for in-depth information.
 ### Q: How do I obtain a temporary license for Aspose.Note for Java?
 A: Get your temporary license [here](https://purchase.aspose.com/temporary-license/).

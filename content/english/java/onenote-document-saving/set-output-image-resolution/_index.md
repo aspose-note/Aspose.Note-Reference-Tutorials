@@ -25,7 +25,6 @@ In your Java project, import the necessary Aspose.Note packages:
 
 ```java
 import java.io.IOException;
-
 import com.aspose.note.Document;
 import com.aspose.note.ImageSaveOptions;
 import com.aspose.note.SaveFormat;

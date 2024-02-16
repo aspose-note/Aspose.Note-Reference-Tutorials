@@ -2,7 +2,7 @@
 title: Attach File and Set Icon in OneNote using Java
 linktitle: Attach File and Set Icon in OneNote using Java
 second_title: Aspose.Note Java API
-description: Learn how to attach files and set icons in OneNote using Java with Aspose.Note for Java.
+description: Boost your OneNote workflow! Learn how to attach files & customize icons programmatically in Java with Aspose.Note. Easy steps & code included! #OneNote #Java #Aspose
 type: docs
 weight: 10
 url: /java/onenote-java-integration/attach-file-and-set-icon/
@@ -25,9 +25,7 @@ First, you need to import the necessary packages from the Aspose.Note library in
 
 ```java
 import com.aspose.note.*;
-
 import com.aspose.note.system.drawing.ImageFormat;
-
 import java.io.FileInputStream;
 import java.io.FileNotFoundException;
 import java.io.IOException;

@@ -26,8 +26,6 @@ To begin, import the necessary packages in your Java project:
 ```java
 import com.aspose.note.Document;
 import com.aspose.note.LoadOptions;
-
-
 import java.io.FileInputStream;
 import java.io.IOException;
 import java.nio.file.Paths;

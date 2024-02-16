@@ -17,11 +17,11 @@ Before we begin, ensure that you have the following prerequisites set up:
 
 ## Java Development Environment
 
-Make sure you have Java Development Kit (JDK) installed on your system. You can download and install JDK from the official Oracle website.
+Make sure you have Java Development Kit (JDK) installed on your system. You can download and install JDK from the Oracle website.
 
 ## Aspose.Note for Java
 
-Download and install Aspose.Note for Java from the official [download link](https://releases.aspose.com/note/java/). Follow the installation instructions provided in the documentation for seamless integration.
+Download and install Aspose.Note for Java from the [download link](https://releases.aspose.com/note/java/). Follow the installation instructions provided in the documentation for seamless integration.
 
 ## Import Packages
 
@@ -91,7 +91,7 @@ A2: Absolutely! Aspose.Note provides a wide range of functionalities to manipula
 
 ### Q3: Is Aspose.Note suitable for commercial use?
 
-A3: Yes, Aspose.Note offers licensing options for both personal and commercial use. You can purchase a license from the official website.
+A3: Yes, Aspose.Note offers licensing options for both personal and commercial use. You can purchase a license from the website.
 
 ### Q4: Can I try Aspose.Note before making a purchase?
 

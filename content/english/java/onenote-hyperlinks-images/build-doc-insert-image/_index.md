@@ -16,7 +16,7 @@ In this tutorial, we'll explore how to use Aspose.Note for Java to build OneNote
 Before we begin, ensure you have the following prerequisites:
 
 1. Java Development Kit (JDK): Make sure you have JDK installed on your system.
-2. Aspose.Note for Java library: Download and install Aspose.Note for Java library from the [official website](https://releases.aspose.com/note/java/).
+2. Aspose.Note for Java library: Download and install Aspose.Note for Java library from the [website](https://releases.aspose.com/note/java/).
 3. IDE (Integrated Development Environment): Use any Java-supported IDE such as IntelliJ IDEA or Eclipse for coding.
 
 ## Import Packages
@@ -24,9 +24,7 @@ Before we begin, ensure you have the following prerequisites:
 Start by importing the necessary packages in your Java code:
 
 ```java
-
 import java.io.IOException;
-
 import com.aspose.note.Document;
 import com.aspose.note.HorizontalAlignment;
 import com.aspose.note.Image;
@@ -108,11 +106,11 @@ A1: You can access the documentation [here](https://reference.aspose.com/note/ja
 
 ### Q2: How do I download Aspose.Note for Java?
 
-A2: You can download Aspose.Note for Java from the official [download page](https://releases.aspose.com/note/java/).
+A2: You can download Aspose.Note for Java from the [download page](https://releases.aspose.com/note/java/).
 
 ### Q3: Is there a free trial available for Aspose.Note for Java?
 
-A3: Yes, you can get a free trial from the [official website](https://releases.aspose.com/).
+A3: Yes, you can get a free trial from the [website](https://releases.aspose.com/).
 
 ### Q4: Where can I get support for Aspose.Note for Java?
 
