@@ -55,7 +55,7 @@ Repeat these steps for any OneNote document, and Aspose.Note for Java will effic
 ## Conclusion
 In this guide, we've explored how to use Aspose.Note for Java to extract all text from a OneNote document. With its simplicity and powerful features, Aspose.Note streamlines the process, making text extraction hassle-free.
 ## Frequently Asked Questions
- (FAQs)
+
 ### Q: Can I extract text from password-protected OneNote files?
 A: As of now, Aspose.Note for Java does not support extracting text from password-protected OneNote files.
 ### Q: Is Aspose.Note for Java compatible with all versions of OneNote?
