@@ -14,13 +14,13 @@ Are you looking to enhance the export performance of your OneNote documents usin
 
 ## Unlocking Export Efficiency in OneNote with Java
 
-Exporting OneNote documents can sometimes be a time-consuming task, impacting overall productivity. With Aspose.Note for Java, you can streamline this process and achieve optimal export performance. The tutorial [**Optimize Export Performance in OneNote with Java**](./optimize-export-performance/) is your go-to resource for mastering this technique.
+Exporting OneNote documents can sometimes be a time-consuming task, impacting overall productivity. With Aspose.Note for Java, you can streamline this process and achieve optimal export performance. The tutorial [Optimize Export Performance in OneNote with Java](./optimize-export-performance/) is your go-to resource for mastering this technique.
 
 In this tutorial, we break down the steps to help you efficiently export your OneNote documents to various formats. From PDFs to images, Aspose.Note for Java empowers you to seamlessly convert your files, ensuring a swift and smooth export process. Say goodbye to sluggish exports and hello to a more productive workflow.
 
 ## Maximizing Performance for Export Operations in OneNote - Java Mastery
 
-If you're seeking in-depth insights into optimizing performance for export operations in OneNote, our tutorial [**Optimize Performance for Export Operations in OneNote - Java**](./optimize-performance-consequent-export/) is tailored just for you. Dive into the world of Java programming and harness the capabilities of Aspose.Note to elevate your export operations.
+If you're seeking in-depth insights into optimizing performance for export operations in OneNote, our tutorial [Optimize Performance for Export Operations in OneNote - Java](./optimize-performance-consequent-export/) is tailored just for you. Dive into the world of Java programming and harness the capabilities of Aspose.Note to elevate your export operations.
 
 This tutorial provides a step-by-step guide, allowing you to navigate through the intricacies of performance optimization. Learn how to fine-tune your Java code to achieve efficient conversion, ensuring that your OneNote export operations are not only fast but also seamless. Boost your productivity and save valuable time with the expert guidance provided in this tutorial.
 
