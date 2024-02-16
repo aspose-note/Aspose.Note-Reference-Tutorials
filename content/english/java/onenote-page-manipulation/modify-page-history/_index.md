@@ -24,7 +24,11 @@ Before getting started, ensure you have the following:
 First, you need to import the necessary packages to start working with Aspose.Note for Java.
 
 ```java
-import com.aspose.note.*;
+import java.io.IOException;
+
+import com.aspose.note.Document;
+import com.aspose.note.Page;
+import com.aspose.note.PageHistory;
 ```
 
 Now, let's break down the provided example into multiple steps.
