@@ -9,13 +9,13 @@ url: /pl/net/notebook-operations/add-child-nodes/
 ---
 ## Wstęp
 
-W tym samouczku nauczymy się dodawać węzły podrzędne w Aspose Note .NET. Dodawanie węzłów podrzędnych jest podstawową operacją podczas pracy z dokumentami, a Aspose Note .NET zapewnia prosty sposób na wykonanie tego zadania.
+tym samouczku nauczymy się dodawać węzły podrzędne w Aspose Note .NET. Dodawanie węzłów podrzędnych jest podstawową operacją podczas pracy z dokumentami, a Aspose Note .NET zapewnia prosty sposób na wykonanie tego zadania.
 
 ## Warunki wstępne
 
 Zanim zaczniemy, upewnij się, że masz następujące elementy:
 
-1. Aspose.Note dla .NET: Upewnij się, że masz zainstalowany Aspose.Note dla .NET w swoim środowisku programistycznym. Można go pobrać z[strona internetowa](https://releases.aspose.com/note/net/).
+1.  Aspose.Note dla .NET: Upewnij się, że masz zainstalowany Aspose.Note dla .NET w swoim środowisku programistycznym. Można go pobrać z[strona internetowa](https://releases.aspose.com/note/net/).
 
 2. Środowisko programistyczne: skonfiguruj środowisko programistyczne .NET, takie jak Visual Studio.
 

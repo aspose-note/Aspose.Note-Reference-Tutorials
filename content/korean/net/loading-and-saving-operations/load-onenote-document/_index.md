@@ -11,7 +11,7 @@ url: /ko/net/loading-and-saving-operations/load-onenote-document/
 
 Aspose.Note for .NET은 개발자가 .NET 애플리케이션에서 Microsoft OneNote 파일을 프로그래밍 방식으로 작업할 수 있게 해주는 강력한 API입니다. OneNote 문서를 로드, 조작 또는 변환해야 하는 경우 Aspose.Note for .NET은 작업 흐름을 간소화하는 포괄적인 기능을 제공합니다.
 
-## 전제 조건
+## 전제조건
 
 튜토리얼을 시작하기 전에 다음 전제조건이 충족되었는지 확인하십시오.
 
@@ -68,7 +68,7 @@ public static void SimpleLoadNotebook()
 ```
 
 ### 2단계: 문서가 암호화되었는지 확인하고 로드합니다.
-   - OneNote 문서가 암호화되었는지 확인하려면`Document.IsEncrypted` 메서드를 사용하여 파일 이름을 전달합니다.
+   -  OneNote 문서가 암호화되었는지 확인하려면`Document.IsEncrypted` 메서드를 사용하여 파일 이름을 전달합니다.
    - 암호화되지 않은 경우 문서 처리를 진행하세요.
    - 암호화된 경우 사용자에게 암호 해독을 위한 비밀번호를 제공하라는 메시지를 표시합니다.
 
@@ -124,7 +124,7 @@ public static void Document_CheckIfEncryptedByPasswordAndLoad()
 
 ### 4단계: 지원되지 않는 OneNote 2007 형식 처리:
    - 2007 형식의 OneNote 문서를 로드해 보세요.
-   -  형식이 지원되지 않으면`UnsupportedFileFormatException` 적절하게 처리하고 지원되지 않는 형식에 대해 사용자에게 알립니다.
+   -  형식이 지원되지 않으면`UnsupportedFileFormatException`적절하게 처리하고 지원되지 않는 형식에 대해 사용자에게 알립니다.
 
 ```csharp
 public static void Document_OneNote2007_Is_NotSupported()

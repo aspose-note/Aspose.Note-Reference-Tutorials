@@ -83,6 +83,6 @@ A3: Auf jeden Fall! Aspose.Note bietet robuste Funktionen und Leistung und eigne
 
  A4: Sie können Unterstützung erhalten, indem Sie die besuchen[Aspose.Note-Forum](https://forum.aspose.com/c/note/28), wo Sie Fragen stellen und mit der Community interagieren können.
 
-### F5: Kann ich Aspose.Note vor dem Kauf testen?
+### F5: Kann ich Aspose.Note vor dem Kauf ausprobieren?
 
  A5: Ja, Sie können eine kostenlose Testversion herunterladen[Webseite](https://releases.aspose.com/) um die Funktionen von Aspose.Note zu erkunden, bevor Sie einen Kauf tätigen.

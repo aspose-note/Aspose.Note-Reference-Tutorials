@@ -53,7 +53,7 @@ PdfSaveOptions opts = new PdfSaveOptions
     // Gunakan kompresi JPEG
     ImageCompression = Saving.Pdf.PdfImageCompression.Jpeg,
     
-    //Kualitas untuk kompresi JPEG
+    // Kualitas untuk kompresi JPEG
     JpegQuality = 90
 };
 ```
@@ -83,7 +83,7 @@ A1: Ya, Aspose.Note untuk .NET menyediakan berbagai opsi kompresi, termasuk JPEG
 
 A2: Ya, Aspose.Note mendukung versi file OneNote yang lebih lama dan lebih baru, memastikan kompatibilitas di berbagai platform dan lingkungan.
 
-### Q3: Dapatkah saya menyimpan dokumen OneNote ke format lain selain PDF?
+### Q3: Bisakah saya menyimpan dokumen OneNote ke format lain selain PDF?
 
 A3: Tentu saja, Aspose.Note untuk .NET mendukung berbagai format keluaran, termasuk gambar, HTML, dan dokumen Microsoft Word, memberikan fleksibilitas dalam konversi dokumen.
 

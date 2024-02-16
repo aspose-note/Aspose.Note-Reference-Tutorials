@@ -15,7 +15,7 @@ Belge işleme ve yönetimi alanında Aspose.Note for .NET, dijital belgelerdeki 
 
 Bu eğitime başlamadan önce aşağıdaki önkoşulların yerine getirildiğinden emin olun:
 
-1. Aspose.Note for .NET Kurulumu: Aspose.Note for .NET kütüphanesini aşağıdaki adresten indirip yükleyin:[İndirme: {link](https://releases.aspose.com/note/net/).
+1.  Aspose.Note for .NET Kurulumu: Aspose.Note for .NET kütüphanesini aşağıdaki adresten indirip yükleyin:[İndirme: {link](https://releases.aspose.com/note/net/).
    
 2. C# Programlamaya Aşinalık: Sunulan örnekleri anlamak ve uygulamak için temel C# programlama dili bilgisi gereklidir.
 
@@ -120,7 +120,7 @@ Cevap1: Evet, Aspose.Note for .NET, VB.NET gibi diğer .NET uyumlu dillerle kull
 
 ## S2: Aspose.Note for .NET'in ücretsiz deneme sürümü mevcut mu?
 
- C2: Evet, Aspose.Note for .NET'in ücretsiz deneme sürümüne şu adresten erişebilirsiniz:[İnternet sitesi](https://releases.aspose.com/).
+C2: Evet, Aspose.Note for .NET'in ücretsiz deneme sürümüne şu adresten erişebilirsiniz:[İnternet sitesi](https://releases.aspose.com/).
 
 ## S3: Aspose.Note for .NET için nasıl geçici lisans alabilirim?
 

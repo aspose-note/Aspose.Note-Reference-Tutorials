@@ -101,7 +101,7 @@ A1：是的，Aspose.Note 支援各種特性和功能來有效處理複雜的 On
 
 ### Q3：Aspose.Note 提供免費試用嗎？
 
- A3：是的，您可以透過免費試用版探索 Aspose.Note[這裡](https://releases.aspose.com/).
+A3：是的，您可以透過免費試用版探索 Aspose.Note[這裡](https://releases.aspose.com/).
 
 ### Q4：在哪裡可以找到 Aspose.Note 的文檔？
 

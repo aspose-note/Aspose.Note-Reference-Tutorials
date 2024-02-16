@@ -9,7 +9,7 @@ url: /pl/net/table-manipulation/extract-text-row/
 ---
 ## Wstęp
 
-dziedzinie przetwarzania dokumentów Aspose.Note dla .NET jest solidnym rozwiązaniem, które umożliwia programistom efektywne programowe manipulowanie plikami OneNote. Wśród niezliczonych możliwości tego narzędzia, częstym zadaniem, z jakim spotykają się programiści, jest wyodrębnianie tekstu z wierszy tabeli. Ten samouczek poprowadzi Cię przez proces wyodrębniania tekstu z wierszy tabeli przy użyciu Aspose.Note dla .NET.
+W dziedzinie przetwarzania dokumentów Aspose.Note dla .NET jest solidnym rozwiązaniem, które umożliwia programistom efektywne programowe manipulowanie plikami OneNote. Wśród niezliczonych możliwości tego narzędzia, częstym zadaniem, z jakim spotykają się programiści, jest wyodrębnianie tekstu z wierszy tabeli. Ten samouczek poprowadzi Cię przez proces wyodrębniania tekstu z wierszy tabeli przy użyciu Aspose.Note dla .NET.
 
 ## Warunki wstępne
 

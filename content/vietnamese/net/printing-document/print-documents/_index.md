@@ -57,7 +57,7 @@ var document = new Document(dataDir + "Aspose.one");
 
 ## Bước 2: In tài liệu
 
- Gọi`Print` phương pháp trên`Document`đối tượng để bắt đầu quá trình in. Phương pháp này gửi tài liệu đến máy in mặc định bằng hộp thoại Windows tiêu chuẩn với các tùy chọn mặc định.
+ Gọi`Print` phương pháp trên`Document` đối tượng để bắt đầu quá trình in. Phương pháp này gửi tài liệu đến máy in mặc định bằng hộp thoại Windows tiêu chuẩn với các tùy chọn mặc định.
 
 ```csharp
 document.Print();

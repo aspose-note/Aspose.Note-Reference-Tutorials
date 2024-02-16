@@ -92,7 +92,7 @@ Console.WriteLine("\nNotebook created successfully.\nFile saved at " + dataDir);
 
 ### Вопрос 4: Могу ли я приобрести временную лицензию на Aspose.Note для .NET?
 
- О4: Да, вы можете приобрести временную лицензию на веб-сайте Aspose:[Временная лицензия](https://purchase.aspose.com/temporary-license/).
+О4: Да, вы можете приобрести временную лицензию на веб-сайте Aspose:[Временная лицензия](https://purchase.aspose.com/temporary-license/).
 
 ### Вопрос 5: Где я могу найти подробную документацию по Aspose.Note для .NET?
 

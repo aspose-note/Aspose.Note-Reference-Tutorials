@@ -17,7 +17,7 @@ url: /el/net/licensing/apply-license-embedded-resource/
 
 ### 1. Εγκαταστάθηκε το Visual Studio
 
- Βεβαιωθείτε ότι έχετε εγκαταστήσει το Visual Studio στο σύστημά σας. Μπορείτε να το κατεβάσετε από[εδώ](https://visualstudio.microsoft.com/).
+Βεβαιωθείτε ότι έχετε εγκαταστήσει το Visual Studio στο σύστημά σας. Μπορείτε να το κατεβάσετε από[εδώ](https://visualstudio.microsoft.com/).
 
 ### 2. Aspose.Note for .NET Installed
 
@@ -39,7 +39,7 @@ using System.Linq;
 using System.Text;
 ```
 
- Αυτή η οδηγία εισάγει το`Aspose.Note` namespace, που περιέχει τις κλάσεις και τα μέλη για εργασία με έγγραφα OneNote.
+ Αυτή η οδηγία εισάγει το`Aspose.Note` namespace, που περιέχει τις κλάσεις και τα μέλη για εργασία με έγγραφα του OneNote.
 
 ## Εφαρμόστε την άδεια χρήσης Aspose.Note από τον ενσωματωμένο πόρο
 

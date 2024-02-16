@@ -11,11 +11,11 @@ url: /ko/net/note-manipulation/manage-current-page-versions/
 
 소프트웨어 개발 세계에서 다양한 버전의 문서를 관리하고 유지하는 것은 정확성, 추적성 및 책임성을 보장하는 데 중요합니다. .NET용 Aspose.Note는 이 프로세스를 용이하게 하는 강력한 도구를 제공하여 개발자가 현재 페이지 버전을 원활하게 푸시하고 관리할 수 있도록 합니다. 이 튜토리얼에서는 .NET용 Aspose.Note를 사용하여 현재 페이지 버전을 푸시하고 관리하는 데 필요한 단계를 자세히 살펴보겠습니다.
 
-## 전제 조건
+## 전제조건
 
 튜토리얼을 시작하기 전에 다음 전제 조건이 설정되어 있는지 확인하세요.
 
-1.  .NET용 Aspose.Note 설치: 다음에서 .NET용 Aspose.Note를 다운로드하여 설치하세요.[여기](https://releases.aspose.com/note/net/).
+1. .NET용 Aspose.Note 설치: 다음에서 .NET용 Aspose.Note를 다운로드하여 설치하세요.[여기](https://releases.aspose.com/note/net/).
 
 2. .NET 환경에 대한 지식: .NET 환경 및 C# 프로그래밍 언어에 대한 기본적인 이해.
 

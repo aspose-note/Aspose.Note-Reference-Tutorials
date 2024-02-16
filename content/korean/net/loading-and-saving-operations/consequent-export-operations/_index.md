@@ -11,7 +11,7 @@ url: /ko/net/loading-and-saving-operations/consequent-export-operations/
 
 이 튜토리얼에서는 .NET용 Aspose.Note를 사용하여 후속 내보내기 작업을 수행하는 방법을 살펴보겠습니다. Aspose.Note는 개발자가 Microsoft OneNote 파일을 프로그래밍 방식으로 작업할 수 있게 해주는 강력한 라이브러리입니다. 문서를 다른 형식으로 내보내는 것은 일반적인 요구 사항이며 Aspose.Note는 이 작업을 효율적으로 단순화합니다. 다양한 형식으로 문서를 저장하는 방법을 단계별로 살펴보겠습니다.
 
-## 전제 조건
+## 전제조건
 
 이 튜토리얼을 진행하기 전에 다음 사항을 확인하세요.
 
@@ -33,7 +33,7 @@ using System.Globalization;
 
 ## 1단계: 문서 초기화
 
- 먼저, 새로운 것을 초기화하십시오.`Document` 자동 레이아웃 변경 감지가 비활성화된 개체:
+ 먼저, 새로운 것을 초기화하십시오.`Document` 자동 레이아웃 변경 감지가 비활성화된 객체:
 
 ```csharp
 Document doc = new Document() { AutomaticLayoutChangesDetectionEnabled = false };
@@ -41,7 +41,7 @@ Document doc = new Document() { AutomaticLayoutChangesDetectionEnabled = false }
 
 ## 2단계: 새 페이지 초기화
 
- 새로 만들기`Page` 개체를 선택하고 해당 속성을 지정합니다.
+ 새로 만들기`Page`개체를 선택하고 해당 속성을 지정합니다.
 
 ```csharp
 Aspose.Note.Page page = new Aspose.Note.Page(doc);

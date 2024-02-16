@@ -41,7 +41,7 @@ Document doc = new Document() { AutomaticLayoutChangesDetectionEnabled = false }
 
 ## Bước 2: Khởi tạo một trang mới
 
- Tạo một cái mới`Page` đối tượng và chỉ định các thuộc tính của nó:
+ Tạo một cái mới`Page`đối tượng và chỉ định các thuộc tính của nó:
 
 ```csharp
 Aspose.Note.Page page = new Aspose.Note.Page(doc);

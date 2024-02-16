@@ -138,7 +138,7 @@ A2：是的，您可以使用 Aspose.Note for .NET 以编程方式编辑、修�
 
 ### Q3：Aspose.Note for .NET 商业使用需要许可证吗？
 
- A3：是的，您需要获得 Aspose.Note for .NET 的商业使用许可证。您可以从以下机构获得许可证[购买页面](https://purchase.aspose.com/buy).
+A3：是的，您需要获得 Aspose.Note for .NET 的商业使用许可证。您可以从以下机构获得许可证[购买页面](https://purchase.aspose.com/buy).
 
 ### 问题 4：Aspose.Note for .NET 是否有免费试用版？
 

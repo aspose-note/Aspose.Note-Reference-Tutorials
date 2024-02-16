@@ -2,7 +2,7 @@
 title: Aspose.Note でページ タイトルのスタイルを変更する
 linktitle: Aspose.Note でページ タイトルのスタイルを変更する
 second_title: Aspose.Note .NET API
-description: Aspose.Note を使用して .NET ドキュメントを変換しましょう!ページタイトルのスタイルを簡単に変更する方法を学びましょう。いくつかの簡単な手順で美しさを高めます。
+description: Aspose.Note を使用して .NET ドキュメントを変換します。ページタイトルのスタイルを簡単に変更する方法を学びましょう。いくつかの簡単な手順で美しさを高めます。
 type: docs
 weight: 13
 url: /ja/net/text-manipulation/change-page-title-style/
@@ -61,7 +61,7 @@ Console.WriteLine("\nTitle's styles are changed successfully.");
 おめでとう！ Aspose.Note for .NET でページ タイトル スタイルを変更する方法を学習しました。このシンプルかつ強力な機能により、ドキュメントの視覚的な魅力が大幅に向上します。
 ## よくある質問
 ### Aspose.Note は、最新の .NET Framework バージョンと互換性がありますか?
-Aspose.Note は、最新のものを含む幅広い .NET Framework バージョンと互換性があるように設計されています。を参照してください。[ドキュメンテーション](https://reference.aspose.com/note/net/)詳細な互換性情報については、
+ Aspose.Note は、最新のものを含む幅広い .NET Framework バージョンと互換性があるように設計されています。を参照してください。[ドキュメンテーション](https://reference.aspose.com/note/net/)詳細な互換性情報については、
 ### 購入する前に Aspose.Note を試してみることはできますか?
 はい、無料試用版をダウンロードして、Aspose.Note を探索できます。[ここ](https://releases.aspose.com/).
 ### Aspose.Note のサポートを受けるにはどうすればよいですか?

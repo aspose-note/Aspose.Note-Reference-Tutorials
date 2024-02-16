@@ -84,6 +84,6 @@ Sim, o Aspose.Note oferece suporte a uma ampla variedade de formatos do OneNote,
 ### Como posso obter uma licença temporária para Aspose.Note?
  Visita[esse link](https://purchase.aspose.com/temporary-license/) para obter uma licença temporária para fins de avaliação.
 ### Quais opções de suporte estão disponíveis para usuários do Aspose.Note?
- Você pode explorar e procurar ajuda no[Fórum Aspose.Note](https://forum.aspose.com/c/note/28) para quaisquer dúvidas ou problemas que você possa encontrar.
+Você pode explorar e procurar ajuda no[Fórum Aspose.Note](https://forum.aspose.com/c/note/28) para quaisquer dúvidas ou problemas que você possa encontrar.
 ### Existe uma versão de teste gratuita do Aspose.Note para .NET?
  Sim, você pode acessar a versão de avaliação gratuita do Aspose.Note for .NET[aqui](https://releases.aspose.com/).

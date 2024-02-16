@@ -13,7 +13,7 @@ Chcete zvýšit vizuální přitažlivost svých dokumentů .NET pomocí dynamic
 Než se pustíte do výukového programu, ujistěte se, že máte splněny následující předpoklady:
 -  Aspose.Note pro .NET: Ujistěte se, že máte nainstalovanou nejnovější verzi Aspose.Note pro .NET. Pokud ne, můžete si jej stáhnout[tady](https://releases.aspose.com/note/net/).
 - Adresář dokumentů: Mějte určený adresář, kde jsou uloženy vaše dokumenty. Tento adresář budete muset zadat v kódu.
-## Importovat jmenné prostory
+## Import jmenných prostorů
 Ve svém projektu .NET importujte potřebné jmenné prostory pro přístup k funkcím Aspose.Note. Na začátek kódu přidejte následující řádky:
 ```csharp
     using System;
@@ -61,7 +61,7 @@ Vytiskněte potvrzovací zprávu oznamující, že styly titulků byly úspěšn
 Gratulujeme! Úspěšně jste se naučili, jak změnit styly nadpisů stránek v Aspose.Note pro .NET. Tato jednoduchá, ale výkonná funkce může výrazně zlepšit vizuální přitažlivost vašich dokumentů.
 ## Nejčastější dotazy
 ### Je Aspose.Note kompatibilní s nejnovějšími verzemi .NET frameworku?
-Aspose.Note je navržen tak, aby byl kompatibilní s celou řadou verzí .NET frameworku, včetně těch nejnovějších. Odkazovat na[dokumentace](https://reference.aspose.com/note/net/) pro podrobné informace o kompatibilitě.
+ Aspose.Note je navržen tak, aby byl kompatibilní s celou řadou verzí .NET frameworku, včetně těch nejnovějších. Odkazovat na[dokumentace](https://reference.aspose.com/note/net/) pro podrobné informace o kompatibilitě.
 ### Mohu Aspose.Note před nákupem vyzkoušet?
  Ano, Aspose.Note můžete prozkoumat stažením bezplatné zkušební verze[tady](https://releases.aspose.com/).
 ### Jak mohu získat podporu pro Aspose.Note?

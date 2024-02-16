@@ -76,11 +76,11 @@ A1: Nee, er is een geldige licentie vereist om de volledige functionaliteit van 
 
 ### Vraag 3: Is er een gratis proefversie beschikbaar?
 
-A3: Ja, u kunt een gratis proefperiode krijgen[hier](https://releases.aspose.com/).
+ A3: Ja, u kunt een gratis proefperiode krijgen[hier](https://releases.aspose.com/).
 
 ### Vraag 4: Hoe kan ik ondersteuning krijgen?
 
- A4: U kunt ondersteuning krijgen van de Aspose.Note-gemeenschap[forum](https://forum.aspose.com/c/note/28).
+A4: U kunt ondersteuning krijgen van de Aspose.Note-gemeenschap[forum](https://forum.aspose.com/c/note/28).
 
 ### Vraag 5: Bieden jullie tijdelijke licenties aan?
 

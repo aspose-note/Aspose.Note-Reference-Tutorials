@@ -9,7 +9,7 @@ url: /pl/net/notebook-operations/convert-to-image-options/
 ---
 ## Wstęp
 
-tym samouczku zajmiemy się konwersją notatników na obrazy za pomocą różnych opcji przy użyciu biblioteki Aspose.Note dla .NET. Aspose.Note to potężny interfejs API .NET, który umożliwia programistom programową pracę z plikami Microsoft OneNote. Wykonując kroki opisane w tym przewodniku, dowiesz się, jak bez wysiłku konwertować notesy na obrazy, dostosowując wydruk do swoich wymagań.
+tym samouczku zajmiemy się konwersją notatników na obrazy za pomocą różnych opcji przy użyciu biblioteki Aspose.Note dla .NET. Aspose.Note to potężny interfejs API .NET, który umożliwia programistom programową pracę z plikami Microsoft OneNote. Wykonując kroki opisane w tym przewodniku, dowiesz się, jak bez wysiłku konwertować notatki na obrazy, dostosowując wydruk do swoich wymagań.
 
 ## Warunki wstępne
 

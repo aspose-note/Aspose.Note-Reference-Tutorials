@@ -40,7 +40,7 @@ var page = new Page(document);
 
 ## Steg 2: Infoga bild med hyperlänk
 
- Låt oss nu infoga bilden med en hyperlänk. Vi skapar en`Image` objekt och ställ in dess`HyperlinkUrl` egenskap till önskad URL.
+Låt oss nu infoga bilden med en hyperlänk. Vi skapar en`Image` objekt och ställ in dess`HyperlinkUrl` egenskap till önskad URL.
 
 ```csharp
 string imagePath = "path_to_your_image.jpg";

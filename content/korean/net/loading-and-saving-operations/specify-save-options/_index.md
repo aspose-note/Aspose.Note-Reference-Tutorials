@@ -11,7 +11,7 @@ url: /ko/net/loading-and-saving-operations/specify-save-options/
 
 .NET 개발 영역에서 Aspose.Note는 OneNote 문서 작업을 위한 강력한 도구로 돋보입니다. 이러한 파일을 효율적으로 조작하고 관리할 수 있는 포괄적인 기능 세트를 제공합니다. Aspose.Note 작업의 중요한 측면 중 하나는 저장 옵션을 지정하는 것입니다. 이를 통해 개발자는 요구 사항에 따라 출력 형식과 품질을 사용자 지정할 수 있습니다.
 
-## 전제 조건
+## 전제조건
 
 .NET용 Aspose.Note에서 저장 옵션을 지정하기 전에 다음 전제 조건이 있는지 확인하세요.
 
@@ -53,7 +53,7 @@ PdfSaveOptions opts = new PdfSaveOptions
     // JPEG 압축 사용
     ImageCompression = Saving.Pdf.PdfImageCompression.Jpeg,
     
-    //JPEG 압축 품질
+    // JPEG 압축 품질
     JpegQuality = 90
 };
 ```
@@ -77,7 +77,7 @@ doc.Save(dataDir, opts);
 
 ### Q1: OneNote 문서를 저장할 때 다른 압축 방법을 지정할 수 있나요?
 
-A1: 예, Aspose.Note for .NET은 JPEG, PNG, ZIP을 포함한 다양한 압축 옵션을 제공하므로 개발자는 필요에 따라 가장 적합한 방법을 선택할 수 있습니다.
+A1: 예, .NET용 Aspose.Note는 JPEG, PNG 및 ZIP을 포함한 다양한 압축 옵션을 제공하므로 개발자는 필요에 따라 가장 적합한 방법을 선택할 수 있습니다.
 
 ### Q2: Aspose.Note는 다른 버전의 OneNote 파일과 호환됩니까?
 

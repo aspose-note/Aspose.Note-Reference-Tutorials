@@ -80,7 +80,7 @@ oneFile.Save(outputFilePath, saveOptions);
 
 ### Q1：我可以调整二值化阈值吗？
 
-A1: 是的，您可以根据您的需求自定义二值化阈值，通过修改`BinarizationThreshold`代码中的属性。
+ A1: 是的，您可以根据您的需求自定义二值化阈值，通过修改`BinarizationThreshold`代码中的属性。
 
 ### Q2：还支持哪些其他格式保存文档？
 

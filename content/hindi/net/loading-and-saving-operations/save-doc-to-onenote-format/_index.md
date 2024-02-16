@@ -17,7 +17,7 @@ url: /hi/net/loading-and-saving-operations/save-doc-to-onenote-format/
 
 1. C# और .NET विकास का ज्ञान: यह ट्यूटोरियल C# प्रोग्रामिंग भाषा और .NET फ्रेमवर्क की बुनियादी समझ मानता है।
 
-2. .NET के लिए Aspose.Note की स्थापना: .NET लाइब्रेरी के लिए Aspose.Note को डाउनलोड और इंस्टॉल करें।[वेबसाइट](https://releases.aspose.com/note/net/).
+2.  .NET के लिए Aspose.Note की स्थापना: .NET लाइब्रेरी के लिए Aspose.Note को डाउनलोड और इंस्टॉल करें।[वेबसाइट](https://releases.aspose.com/note/net/).
 
 3. विकास परिवेश: .NET विकास के लिए विजुअल स्टूडियो या किसी पसंदीदा आईडीई के साथ अपना विकास परिवेश स्थापित करें।
 

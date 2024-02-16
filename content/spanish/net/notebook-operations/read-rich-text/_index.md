@@ -84,7 +84,7 @@ R1: Sí, Aspose.Note para .NET le permite crear, editar y manipular archivos de 
 
 ### P2: ¿Hay una prueba gratuita disponible para Aspose.Note para .NET?
 
-R2: Sí, puede obtener una prueba gratuita de Aspose.Note para .NET desde[página de lanzamiento](https://releases.aspose.com/).
+ R2: Sí, puede obtener una prueba gratuita de Aspose.Note para .NET desde[página de lanzamiento](https://releases.aspose.com/).
 
 ### P3: ¿Cómo puedo obtener soporte para Aspose.Note para .NET?
 

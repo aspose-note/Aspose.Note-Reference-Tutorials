@@ -21,7 +21,7 @@ Než se pustíte do tohoto tutoriálu, ujistěte se, že máte následující p�
 2. Znalost .NET Framework: Základní znalost vývojového prostředí .NET.
 3. Integrované vývojové prostředí (IDE): Vyberte si preferované IDE, jako je Visual Studio, pro vývoj .NET.
 
-## Importovat jmenné prostory
+## Import jmenných prostorů
 
 Nejprve se ujistěte, že jste do projektu zahrnuli potřebné jmenné prostory:
 

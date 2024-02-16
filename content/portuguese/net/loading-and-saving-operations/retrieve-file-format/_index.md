@@ -74,7 +74,7 @@ A2: Aspose.Note é compatível com .NET Framework, .NET Core e .NET Standard.
 
 ### Q3: Posso experimentar o Aspose.Note antes de comprar?
 
- A3: Sim, você pode explorar os recursos do Aspose.Note com uma avaliação gratuita disponível no[ local na rede Internet](https://releases.aspose.com/).
+A3: Sim, você pode explorar os recursos do Aspose.Note com uma avaliação gratuita disponível no[ local na rede Internet](https://releases.aspose.com/).
 
 ### Q4: Como posso obter suporte para Aspose.Note?
 
@@ -82,4 +82,4 @@ A2: Aspose.Note é compatível com .NET Framework, .NET Core e .NET Standard.
 
 ### P5: Preciso de uma licença temporária para fins de avaliação?
 
-A5: Embora a avaliação gratuita permita testar o Aspose.Note, você pode optar por uma licença temporária para avaliação estendida. Visita[aqui](https://purchase.aspose.com/temporary-license/) para mais detalhes.
+ A5: Embora a avaliação gratuita permita testar o Aspose.Note, você pode optar por uma licença temporária para avaliação estendida. Visita[aqui](https://purchase.aspose.com/temporary-license/) para mais detalhes.

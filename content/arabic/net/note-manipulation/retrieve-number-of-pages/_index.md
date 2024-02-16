@@ -17,7 +17,7 @@ url: /ar/net/note-manipulation/retrieve-number-of-pages/
 
 ### تم تثبيت الاستوديو المرئي
 
- تأكد من تثبيت Visual Studio على نظامك. يمكنك تنزيله من[موقع إلكتروني](https://visualstudio.microsoft.com/).
+تأكد من تثبيت Visual Studio على نظامك. يمكنك تنزيله من[موقع إلكتروني](https://visualstudio.microsoft.com/).
 
 ### تم تثبيت Aspose.Note لـ .NET
 

@@ -13,7 +13,7 @@ In questo tutorial imparerai come aggiungere collegamenti ipertestuali al testo 
 
 ## Prerequisiti:
 
-Prima di iniziare, assicurati di avere i seguenti prerequisiti:
+Prima di iniziare, assicurati di possedere i seguenti prerequisiti:
 
 1. Conoscenza base del linguaggio di programmazione C#.
 2. Visual Studio installato nel sistema.

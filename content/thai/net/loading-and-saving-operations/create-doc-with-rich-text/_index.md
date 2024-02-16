@@ -73,7 +73,7 @@ ParagraphStyle defaultTextStyle = new ParagraphStyle
 RichText titleText = new RichText() { ParagraphStyle = defaultTextStyle }.Append("Title!");
 ```
 
- สร้างก`RichText` วัตถุสำหรับชื่อเรื่องที่มีการจัดรูปแบบที่ระบุ
+ สร้างก`RichText`วัตถุสำหรับชื่อเรื่องที่มีการจัดรูปแบบที่ระบุ
 
 ## ขั้นตอนที่ 6: เริ่มต้นออบเจ็กต์องค์ประกอบโครงร่างและโครงร่าง
 
@@ -99,7 +99,7 @@ TextStyle textStyleForHelloWord = new TextStyle
     FontSize = 10,
 };
 
-// กำหนดรูปแบบข้อความเพิ่มเติมตามต้องการ
+// กำหนดรูปแบบข้อความเพิ่มเติมตามความจำเป็น
 ```
 
 กำหนดสไตล์ข้อความต่างๆ สำหรับส่วนต่างๆ ของ Rich Text

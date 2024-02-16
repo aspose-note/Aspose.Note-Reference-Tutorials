@@ -17,7 +17,7 @@ url: /ru/net/loading-and-saving-operations/save-doc-to-onenote-format/
 
 1. Знание разработки на C# и .NET. В этом руководстве предполагается базовое понимание языка программирования C# и платформы .NET.
 
-2. Установка Aspose.Note for .NET: Загрузите и установите библиотеку Aspose.Note for .NET из[Веб-сайт](https://releases.aspose.com/note/net/).
+2.  Установка Aspose.Note for .NET: Загрузите и установите библиотеку Aspose.Note for .NET из[Веб-сайт](https://releases.aspose.com/note/net/).
 
 3. Среда разработки: настройте среду разработки с помощью Visual Studio или любой другой предпочтительной среды разработки для .NET.
 

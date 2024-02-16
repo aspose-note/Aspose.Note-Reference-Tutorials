@@ -15,7 +15,7 @@ url: /zh-hant/net/loading-and-saving-operations/password-protected-document/
 
 在我們開始之前，請確保您具備以下先決條件：
 
-1.  Aspose.Note for .NET 函式庫：確保您已下載並安裝 Aspose.Note for .NET 函式庫。您可以從以下位置下載：[這裡](https://releases.aspose.com/note/net/).
+1. Aspose.Note for .NET 函式庫：確保您已下載並安裝 Aspose.Note for .NET 函式庫。您可以從以下位置下載：[這裡](https://releases.aspose.com/note/net/).
 
 2. 開發環境：建構具有.NET功能的開發環境。
 

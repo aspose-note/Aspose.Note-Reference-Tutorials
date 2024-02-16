@@ -41,7 +41,7 @@ Document doc = new Document() { AutomaticLayoutChangesDetectionEnabled = false }
 
 ## 2. lépés: Új oldal inicializálása
 
- Újat csinálni`Page` objektumot, és adja meg a tulajdonságait:
+ Újat csinálni`Page`objektumot, és adja meg a tulajdonságait:
 
 ```csharp
 Aspose.Note.Page page = new Aspose.Note.Page(doc);

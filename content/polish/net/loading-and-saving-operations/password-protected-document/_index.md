@@ -9,13 +9,13 @@ url: /pl/net/loading-and-saving-operations/password-protected-document/
 ---
 ## Wstęp
 
-tym samouczku omówimy proces obsługi dokumentów chronionych hasłem przy użyciu Aspose.Note dla .NET. Ochrona hasłem dodaje dodatkową warstwę bezpieczeństwa do Twoich dokumentów, zapewniając, że dostęp do nich mają tylko upoważnieni użytkownicy.
+W tym samouczku omówimy proces obsługi dokumentów chronionych hasłem przy użyciu Aspose.Note dla .NET. Ochrona hasłem dodaje dodatkową warstwę bezpieczeństwa do Twoich dokumentów, zapewniając, że dostęp do nich mają tylko upoważnieni użytkownicy.
 
 ## Warunki wstępne
 
 Zanim zaczniemy, upewnij się, że masz następujące wymagania wstępne:
 
-1.  Biblioteka Aspose.Note dla .NET: Upewnij się, że pobrałeś i zainstalowałeś bibliotekę Aspose.Note dla .NET. Można go pobrać z[Tutaj](https://releases.aspose.com/note/net/).
+1. Biblioteka Aspose.Note dla .NET: Upewnij się, że pobrałeś i zainstalowałeś bibliotekę Aspose.Note dla .NET. Można go pobrać z[Tutaj](https://releases.aspose.com/note/net/).
 
 2. Środowisko programistyczne: skonfiguruj środowisko programistyczne z możliwościami platformy .NET.
 

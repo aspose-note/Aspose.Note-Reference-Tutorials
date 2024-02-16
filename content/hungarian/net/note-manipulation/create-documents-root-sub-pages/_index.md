@@ -38,7 +38,7 @@ using System.Drawing;
 ## 1. lépés: Inicializálja a dokumentumobjektumot
 
 ```csharp
-// Hozzon létre egy objektumot a Dokumentum osztályból
+//Hozzon létre egy objektumot a Dokumentum osztályból
 Document doc = new Document();
 ```
 
@@ -90,7 +90,7 @@ page3.AppendChildLast(outline3);
 ## 4. lépés: Oldalak hozzáadása a dokumentumhoz
 
 ```csharp
-// Oldalak hozzáadása a OneNote-dokumentumhoz
+// Adjon hozzá oldalakat a OneNote-dokumentumhoz
 doc.AppendChildLast(page1);
 doc.AppendChildLast(page2);
 doc.AppendChildLast(page3);

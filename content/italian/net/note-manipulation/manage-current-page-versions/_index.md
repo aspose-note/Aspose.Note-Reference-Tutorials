@@ -15,7 +15,7 @@ Nel mondo dello sviluppo software, la gestione e il mantenimento di diverse vers
 
 Prima di immergerti nel tutorial, assicurati di aver impostato i seguenti prerequisiti:
 
-1.  Installa Aspose.Note per .NET: scarica e installa Aspose.Note per .NET da[Qui](https://releases.aspose.com/note/net/).
+1. Installa Aspose.Note per .NET: scarica e installa Aspose.Note per .NET da[Qui](https://releases.aspose.com/note/net/).
 
 2. Familiarità con l'ambiente .NET: conoscenza di base dell'ambiente .NET e del linguaggio di programmazione C#.
 

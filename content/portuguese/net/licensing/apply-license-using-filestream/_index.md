@@ -76,11 +76,11 @@ A1: Não, é necessária uma licença válida para utilizar todas as funcionalid
 
 ### Q3: Existe um teste gratuito disponível?
 
-A3: Sim, você pode obter uma avaliação gratuita[aqui](https://releases.aspose.com/).
+ A3: Sim, você pode obter uma avaliação gratuita[aqui](https://releases.aspose.com/).
 
 ### P4: Como posso obter suporte?
 
- A4: Você pode obter suporte da comunidade Aspose.Note[fórum](https://forum.aspose.com/c/note/28).
+A4: Você pode obter suporte da comunidade Aspose.Note[fórum](https://forum.aspose.com/c/note/28).
 
 ### Q5: Vocês oferecem licenças temporárias?
 

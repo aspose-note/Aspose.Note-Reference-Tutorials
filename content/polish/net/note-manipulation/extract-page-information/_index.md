@@ -2,7 +2,7 @@
 title: Wyodrębnij informacje o stronie za pomocą Aspose.Note dla .NET
 linktitle: Wyodrębnij informacje o stronie za pomocą Aspose.Note dla .NET
 second_title: Aspose.Note .NET API
-description: Dowiedz się, jak wyodrębnić informacje o stronie z plików Microsoft OneNote za pomocą Aspose.Note dla .NET. Ten kompleksowy samouczek przeprowadzi Cię przez cały proces krok po kroku.
+description: Dowiedz się, jak wyodrębnić informacje o stronie z plików Microsoft OneNote za pomocą Aspose.Note dla .NET. Ten kompleksowy samouczek przeprowadzi Cię przez proces krok po kroku.
 type: docs
 weight: 13
 url: /pl/net/note-manipulation/extract-page-information/
@@ -15,7 +15,7 @@ Aspose.Note dla .NET to potężna biblioteka, która umożliwia programistom pro
 
 Zanim zaczniesz, upewnij się, że spełnione są następujące wymagania wstępne:
 
-1.  Biblioteka Aspose.Note dla .NET: Upewnij się, że pobrałeś i zainstalowałeś bibliotekę Aspose.Note dla .NET. Można go pobrać z[Tutaj](https://releases.aspose.com/note/net/).
+1. Biblioteka Aspose.Note dla .NET: Upewnij się, że pobrałeś i zainstalowałeś bibliotekę Aspose.Note dla .NET. Można go pobrać z[Tutaj](https://releases.aspose.com/note/net/).
 
 2. Środowisko programistyczne: Skonfiguruj środowisko programistyczne za pomocą programu Visual Studio lub dowolnego innego preferowanego narzędzia programistycznego .NET.
 
@@ -80,7 +80,7 @@ foreach (Page page in oneFile)
 
 ## Wniosek
 
-W tym samouczku nauczyliśmy się, jak wyodrębnić informacje o stronie z plików Microsoft OneNote za pomocą Aspose.Note dla .NET. Postępując zgodnie z przewodnikiem krok po kroku, możesz łatwo zintegrować tę funkcjonalność z aplikacjami .NET, umożliwiając efektywniejsze analizowanie dokumentów OneNote i zarządzanie nimi.
+tym samouczku nauczyliśmy się, jak wyodrębnić informacje o stronie z plików Microsoft OneNote za pomocą Aspose.Note dla .NET. Postępując zgodnie z przewodnikiem krok po kroku, możesz łatwo zintegrować tę funkcjonalność z aplikacjami .NET, umożliwiając efektywniejsze analizowanie dokumentów OneNote i zarządzanie nimi.
 
 ## Często zadawane pytania
 

@@ -31,7 +31,7 @@ Mějte na svém systému nainstalované IDE, jako je Visual Studio. Poskytuje po
 
 Ujistěte se, že máte přístup k adresáři obsahujícímu dokument OneNotu, který chcete vytisknout.
 
-## Importovat jmenné prostory
+## Import jmenných prostorů
 
 Ve svém projektu C# začněte importováním potřebných jmenných prostorů pro přístup ke třídám a metodám Aspose.Note.
 
@@ -57,7 +57,7 @@ var document = new Document(dataDir + "Aspose.one");
 
 ## Krok 2: Vytiskněte dokument
 
- Vyvolat`Print` metoda na`Document`objekt k zahájení procesu tisku. Tato metoda odešle dokument na výchozí tiskárnu pomocí standardního dialogového okna Windows s výchozími možnostmi.
+ Vyvolat`Print` metoda na`Document` objekt k zahájení procesu tisku. Tato metoda odešle dokument na výchozí tiskárnu pomocí standardního dialogového okna Windows s výchozími možnostmi.
 
 ```csharp
 document.Print();

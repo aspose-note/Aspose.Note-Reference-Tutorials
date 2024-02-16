@@ -20,7 +20,7 @@ Než začneme, ujistěte se, že máte následující:
 3. Obrázek: Připravte si obrázek, který chcete vložit, do adresáře dokumentů.
 4. Základní znalosti: Znalost C# a .NET frameworku.
 
-## Importovat jmenné prostory
+## Import jmenných prostorů
 
 ```csharp
 using System;
@@ -40,7 +40,7 @@ var page = new Page(document);
 
 ## Krok 2: Vložte obrázek s hypertextovým odkazem
 
- Nyní vložíme obrázek s hypertextovým odkazem. Vytvoříme`Image` objekt a nastavte jej`HyperlinkUrl` vlastnost na požadovanou adresu URL.
+Nyní vložíme obrázek s hypertextovým odkazem. Vytvoříme`Image` objekt a nastavte jej`HyperlinkUrl` vlastnost na požadovanou adresu URL.
 
 ```csharp
 string imagePath = "path_to_your_image.jpg";

@@ -9,7 +9,7 @@ url: /cs/net/attachments/retrieve-attached-files/
 ---
 ## Úvod
 
-V tomto tutoriálu prozkoumáme, jak načíst přiložené soubory z dokumentu pomocí Aspose.Note pro .NET. Aspose.Note je výkonné API, které umožňuje vývojářům pracovat se soubory Microsoft OneNote programově. Proces rozdělíme do jednoduchých kroků, aby bylo snadné jej sledovat.
+tomto tutoriálu prozkoumáme, jak načíst přiložené soubory z dokumentu pomocí Aspose.Note pro .NET. Aspose.Note je výkonné API, které umožňuje vývojářům pracovat se soubory Microsoft OneNote programově. Proces rozdělíme do jednoduchých kroků, aby bylo snadné jej sledovat.
 
 ## Předpoklady
 
@@ -17,7 +17,7 @@ Než začneme, ujistěte se, že máte následující:
 
 -  Aspose.Note pro .NET: Ujistěte se, že jste nainstalovali Aspose.Note pro .NET. Můžete si jej stáhnout z[tady](https://releases.aspose.com/note/net/).
 
-## Importovat jmenné prostory
+## Import jmenných prostorů
 
 Nejprve importujme potřebné jmenné prostory pro práci s Aspose. Poznámka:
 

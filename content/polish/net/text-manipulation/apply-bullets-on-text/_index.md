@@ -27,7 +27,7 @@ using System.Collections.Generic;
 ```csharp
 // Ścieżka do katalogu dokumentów.
 string dataDir = "Your Document Directory";
-// Utwórz obiekt klasy Dokument
+//Utwórz obiekt klasy Dokument
 Aspose.Note.Document doc = new Aspose.Note.Document();
 ```
 ## Krok 2: Zainicjuj stronę i konspekt
@@ -63,7 +63,7 @@ page.AppendChildLast(outline);
 ```
 ## Krok 7: Dodaj stronę do dokumentu
 ```csharp
-// Dodaj węzeł strony
+//Dodaj węzeł strony
 doc.AppendChildLast(page);
 ```
 ## Krok 8: Zapisz dokument OneNote
@@ -85,4 +85,4 @@ Aspose.Note obsługuje różne wersje Microsoft OneNote, zapewniając kompatybil
 ### Czy dostępna jest wersja próbna Aspose.Note dla .NET?
  Tak, możesz pobrać bezpłatną wersję próbną[Tutaj](https://releases.aspose.com/).
 ### Gdzie mogę znaleźć dodatkowe wsparcie i zasoby?
- Możesz odwiedzić forum społeczności Aspose.Note[Tutaj](https://forum.aspose.com/c/note/28) za wsparcie i dyskusję.
+ Możesz odwiedzić forum społeczności Aspose.Note[Tutaj](https://forum.aspose.com/c/note/28) za wsparcie i dyskusje.

@@ -68,7 +68,7 @@ public static void SimpleLoadNotebook()
 ```
 
 ### الخطوة 2: التحقق مما إذا كان المستند مشفرًا وقم بتحميله:
-   - تحقق مما إذا كان مستند OneNote مشفرًا عن طريق الاتصال بـ`Document.IsEncrypted` طريقة تمرير اسم الملف.
+   -  تحقق مما إذا كان مستند OneNote مشفرًا عن طريق الاتصال بـ`Document.IsEncrypted` طريقة تمرير اسم الملف.
    - إذا لم تكن مشفرة، تابع معالجة المستندات.
    - إذا كانت مشفرة، فاطلب من المستخدم تقديم كلمة مرور لفك التشفير.
 
@@ -124,7 +124,7 @@ public static void Document_CheckIfEncryptedByPasswordAndLoad()
 
 ### الخطوة 4: التعامل مع تنسيق OneNote 2007 غير المدعوم:
    - حاول تحميل مستند OneNote بتنسيق 2007.
-   -  إذا كان التنسيق غير مدعوم، فالتقط ملف`UnsupportedFileFormatException` والتعامل معها بشكل مناسب، وإعلام المستخدم بالتنسيق غير المدعوم.
+   -  إذا كان التنسيق غير مدعوم، فالتقط ملف`UnsupportedFileFormatException`والتعامل معها بشكل مناسب، وإعلام المستخدم بالتنسيق غير المدعوم.
 
 ```csharp
 public static void Document_OneNote2007_Is_NotSupported()

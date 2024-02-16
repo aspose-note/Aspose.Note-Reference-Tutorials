@@ -14,7 +14,7 @@ Než se pustíme do výukového programu, ujistěte se, že máte splněny násl
 - Pracovní znalost vývoje C# a .NET.
 - Aspose.Note pro .NET nainstalovaný ve vašem vývojovém prostředí.
 Nyní začneme s průvodcem krok za krokem.
-## Importovat jmenné prostory
+## Import jmenných prostorů
 Nejprve se ujistěte, že importujete potřebné jmenné prostory, abyste mohli využít funkcí poskytovaných Aspose.Note pro .NET. Zahrňte do svého kódu následující jmenné prostory:
 ```csharp
 using System;
@@ -79,4 +79,4 @@ Rozhodně si můžete stránku dále přizpůsobit přidáním různých prvků 
 ### Jak mohu řešit chyby během procesu vytváření dokumentu?
 Využijte mechanismy zpracování výjimek v C# k zachycení a ošetření všech potenciálních chyb, které mohou nastat během procesu vytváření dokumentu.
 ### Kde najdu další příklady a dokumentaci pro Aspose.Note pro .NET?
- Odkazovat na[Aspose.Note pro dokumentaci .NET](https://reference.aspose.com/note/net/) pro podrobné příklady a komplexní dokumentaci.
+ Odkazovat na[Aspose.Note pro dokumentaci .NET](https://reference.aspose.com/note/net/)pro podrobné příklady a komplexní dokumentaci.

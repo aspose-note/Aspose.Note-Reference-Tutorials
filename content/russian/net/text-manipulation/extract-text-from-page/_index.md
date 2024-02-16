@@ -30,7 +30,7 @@ string dataDir = "Your Document Directory";
 // Загрузите документ в Aspose.Note.
 Document oneFile = new Document(dataDir + "Aspose.one");
 ```
-На этом этапе вы задаете путь к каталогу вашего документа и загружаете документ OneNote с помощью Aspose.Note.
+На этом этапе вы указываете путь к каталогу вашего документа и загружаете документ OneNote с помощью Aspose.Note.
 ## Шаг 2. Получите узлы страниц
 ```csharp
 // Получить список узлов страницы

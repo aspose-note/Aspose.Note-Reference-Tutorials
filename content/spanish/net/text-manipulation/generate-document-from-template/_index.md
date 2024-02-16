@@ -73,7 +73,7 @@ Guarde el documento generado dinámicamente en su directorio especificado.
 ### ¿Puedo usar Aspose.Note para .NET con otros formatos de documentos?
 Sí, Aspose.Note para .NET se ocupa principalmente de documentos de OneNote, pero Aspose proporciona varias bibliotecas para diferentes formatos.
 ### ¿Hay una prueba gratuita disponible para Aspose.Note para .NET?
- Sí, puede explorar las capacidades de Aspose.Note para .NET con una prueba gratuita. Visita[aquí](https://releases.aspose.com/) para más información.
+Sí, puede explorar las capacidades de Aspose.Note para .NET con una prueba gratuita. Visita[aquí](https://releases.aspose.com/) para más información.
 ### ¿Cómo puedo obtener soporte para Aspose.Note para .NET?
  Visita el[Aspose.Note para el foro .NET](https://forum.aspose.com/c/note/28) para obtener ayuda de la comunidad y de expertos.
 ### ¿Hay licencias temporales disponibles para Aspose.Note para .NET?

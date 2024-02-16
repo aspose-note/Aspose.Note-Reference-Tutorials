@@ -27,7 +27,7 @@ using System.Collections.Generic;
 ```csharp
 // Sökvägen till dokumentkatalogen.
 string dataDir = "Your Document Directory";
-// Skapa ett objekt av klassen Document
+//Skapa ett objekt av klassen Document
 Aspose.Note.Document doc = new Aspose.Note.Document();
 ```
 ## Steg 2: Initiera sida och disposition
@@ -63,7 +63,7 @@ page.AppendChildLast(outline);
 ```
 ## Steg 7: Lägg till sida i dokumentet
 ```csharp
-// Lägg till sidnod
+//Lägg till sidnod
 doc.AppendChildLast(page);
 ```
 ## Steg 8: Spara OneNote-dokumentet

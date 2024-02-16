@@ -83,7 +83,7 @@ Cevap3: Evet, Aspose.Note'u ticari amaçlarla kullanmak için lisans almanız ge
 
 ### S4: Çıktı görüntü formatını ve çözünürlüğünü özelleştirebilir miyim?
 
-Cevap4: Aspose.Note kesinlikle çıktı görüntü formatını, çözünürlüğü ve diğer parametreleri ihtiyaçlarınıza göre özelleştirmek için kapsamlı seçenekler sunuyor.
+Cevap4: Aspose.Note kesinlikle çıktı görüntü formatını, çözünürlüğünü ve diğer parametreleri ihtiyaçlarınıza göre özelleştirmek için kapsamlı seçenekler sunuyor.
 
 ### S5: Aspose.Note geliştiricilere teknik destek sağlıyor mu?
 

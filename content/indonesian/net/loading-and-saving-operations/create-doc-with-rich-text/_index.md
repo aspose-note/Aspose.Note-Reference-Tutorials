@@ -28,7 +28,7 @@ using System;
 using System.Drawing;
 ```
 
-Sekarang setelah kita mengimpor namespace yang diperlukan, mari kita uraikan proses pembuatan dokumen teks kaya menjadi beberapa langkah.
+Sekarang kita telah mengimpor namespace yang diperlukan, mari kita uraikan proses pembuatan dokumen teks kaya menjadi beberapa langkah.
 
 ## Langkah 1: Buat Objek Dokumen
 
@@ -73,7 +73,7 @@ Tentukan gaya teks default untuk diterapkan ke seluruh dokumen.
 RichText titleText = new RichText() { ParagraphStyle = defaultTextStyle }.Append("Title!");
 ```
 
- Membangun a`RichText` objek untuk judul dengan format yang ditentukan.
+ Membangun a`RichText`objek untuk judul dengan format yang ditentukan.
 
 ## Langkah 6: Inisialisasi Objek Garis Besar dan Elemen Garis Besar
 

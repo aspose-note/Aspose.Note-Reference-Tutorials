@@ -29,7 +29,7 @@ Bắt đầu bằng cách tạo một tài liệu mới và khởi tạo các đ
 ```csharp
 // Đường dẫn đến thư mục tài liệu.
 string dataDir = "Your Document Directory";
-// Tạo một đối tượng của lớp Tài liệu
+//Tạo một đối tượng của lớp Tài liệu
 Document doc = new Document();
 // Khởi tạo đối tượng lớp Trang
 Aspose.Note.Page page = new Aspose.Note.Page(doc);

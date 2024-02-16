@@ -27,7 +27,7 @@ using System.Collections.Generic;
 ```csharp
 // المسار إلى دليل المستندات.
 string dataDir = "Your Document Directory";
-// قم بإنشاء كائن من فئة المستند
+//قم بإنشاء كائن من فئة المستند
 Aspose.Note.Document doc = new Aspose.Note.Document();
 ```
 ## الخطوة 2: تهيئة الصفحة والمخطط التفصيلي
@@ -63,7 +63,7 @@ page.AppendChildLast(outline);
 ```
 ## الخطوة 7: إضافة صفحة إلى المستند
 ```csharp
-// إضافة عقدة الصفحة
+//إضافة عقدة الصفحة
 doc.AppendChildLast(page);
 ```
 ## الخطوة 8: احفظ مستند OneNote

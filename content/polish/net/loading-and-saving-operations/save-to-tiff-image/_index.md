@@ -43,7 +43,7 @@ public static void SaveToTiffUsingJpegCompression()
     // Załaduj dokument do Aspose.Note.
     Document oneFile = new Document("Path_to_your_OneNote_document");
 
-    // Ustaw ścieżkę docelową dla obrazu TIFF.
+    //Ustaw ścieżkę docelową dla obrazu TIFF.
     var dst = "Destination_path_for_TIFF_image";
 
     // Zapisz dokument jako obraz TIFF z kompresją JPEG.
@@ -67,7 +67,7 @@ public static void SaveToTiffUsingPackBitsCompression()
     // Załaduj dokument do Aspose.Note.
     Document oneFile = new Document("Path_to_your_OneNote_document");
 
-    // Ustaw ścieżkę docelową dla obrazu TIFF.
+    //Ustaw ścieżkę docelową dla obrazu TIFF.
     var dst = "Destination_path_for_TIFF_image";
 
     // Zapisz dokument jako obraz TIFF z kompresją PackBits.
@@ -90,7 +90,7 @@ public static void SaveToTiffUsingCcitt3Compression()
     // Załaduj dokument do Aspose.Note.
     Document oneFile = new Document("Path_to_your_OneNote_document");
 
-    // Ustaw ścieżkę docelową dla obrazu TIFF.
+    //Ustaw ścieżkę docelową dla obrazu TIFF.
     var dst = "Destination_path_for_TIFF_image";
 
     // Zapisz dokument jako obraz TIFF z kompresją CCITT Group 3.
@@ -108,7 +108,7 @@ Wykonując poniższe kroki, możesz łatwo zapisać dokumenty OneNote jako obraz
 
 ## Wniosek
 
-W tym samouczku nauczyliśmy się, jak zapisywać dokumenty OneNote jako obrazy TIFF przy użyciu różnych metod kompresji w Aspose.Note dla .NET. Niezależnie od tego, czy potrzebujesz kompresji JPEG, PackBits czy CCITT Group 3, Aspose.Note zapewnia elastyczność pozwalającą efektywnie obsługiwać różne wymagania.
+tym samouczku nauczyliśmy się, jak zapisywać dokumenty OneNote jako obrazy TIFF przy użyciu różnych metod kompresji w Aspose.Note dla .NET. Niezależnie od tego, czy potrzebujesz kompresji JPEG, PackBits czy CCITT Group 3, Aspose.Note zapewnia elastyczność pozwalającą efektywnie obsługiwać różne wymagania.
 
 ## Często zadawane pytania
 
@@ -130,4 +130,4 @@ O4: Tak, możesz zautomatyzować proces konwersji za pomocą przetwarzania wsado
 
 ### P5: Czy dostępna jest wersja próbna Aspose.Note?
 
- O5: Tak, możesz uzyskać bezpłatną wersję próbną Aspose.Note od[Tutaj](https://releases.aspose.com/).
+O5: Tak, możesz uzyskać bezpłatną wersję próbną Aspose.Note od[Tutaj](https://releases.aspose.com/).

@@ -9,7 +9,7 @@ url: /tr/net/notebook-operations/create-notebooks/
 ---
 ## giriiş
 
-Bu eğitimde Aspose.Note for .NET'i kullanarak not defterleri oluşturmanın inceliklerini inceleyeceğiz. Aspose.Note, geliştiricilerin Microsoft OneNote dosyalarını programlı olarak yönetmelerine olanak tanıyan, belge yönetimini ve işleme görevlerini kolaylaştırmak için geniş bir işlevsellik yelpazesi sunan güçlü bir kitaplıktır.
+Bu eğitimde Aspose.Note for .NET'i kullanarak not defterleri oluşturmanın inceliklerini inceleyeceğiz. Aspose.Note, geliştiricilerin Microsoft OneNote dosyalarını programlı olarak yönetmelerine olanak tanıyan, belge yönetimini ve işleme görevlerini kolaylaştırmak için çok çeşitli işlevler sunan güçlü bir kitaplıktır.
 
 ## Önkoşullar
 
@@ -31,9 +31,9 @@ using System;
 using System.Collections.Generic;
 ```
 
-## 1. Adım: Bir Defter Nesnesi Oluşturun
+## Adım 1: Bir Defter Nesnesi Oluşturun
 
- İlk olarak, kullanarak yeni bir not defteri nesnesi oluşturmamız gerekiyor.`Notebook` Aspose.Note tarafından sağlanan sınıf:
+ Öncelikle aşağıdaki komutu kullanarak yeni bir not defteri nesnesi oluşturmamız gerekiyor:`Notebook` Aspose.Note tarafından sağlanan sınıf:
 
 ```csharp
 string dataDir = "Your Document Directory";
@@ -92,7 +92,7 @@ Cevap1: Evet, Aspose.Note for .NET, .NET Core ve .NET Standard dahil olmak üzer
 
 ### S4: Aspose.Note for .NET için geçici bir lisans satın alabilir miyim?
 
- Cevap4: Evet, Aspose web sitesinden geçici bir lisans alabilirsiniz:[Geçici Lisans](https://purchase.aspose.com/temporary-license/).
+Cevap4: Evet, Aspose web sitesinden geçici bir lisans alabilirsiniz:[Geçici Lisans](https://purchase.aspose.com/temporary-license/).
 
 ### S5: Aspose.Note for .NET'in kapsamlı belgelerini nerede bulabilirim?
 

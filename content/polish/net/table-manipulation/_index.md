@@ -34,7 +34,7 @@ Zanurz się w zawiłościach wyodrębniania tekstu z wierszy tabeli za pomocą A
 
 ## Wyodrębnij tekst z tabel w Aspose.Note
 
- Poruszaj się po złożoności wyodrębniania tekstu z tabel przy użyciu języka C# i platformy .NET. Nasz poradnik[Wyodrębnij tekst z tabel w Aspose.Note](./extract-text-table/) zawiera przewodnik krok po kroku, zawierający fragmenty kodu i wyjaśnienia. Zwiększ możliwości płynnego przetwarzania dokumentów.
+ Poruszaj się po złożoności wyodrębniania tekstu z tabel przy użyciu języka C# i środowiska .NET. Nasz poradnik[Wyodrębnij tekst z tabel w Aspose.Note](./extract-text-table/) zawiera przewodnik krok po kroku, zawierający fragmenty kodu i wyjaśnienia. Zwiększ możliwości płynnego przetwarzania dokumentów.
 
 ## Wstaw tabele do dokumentów Aspose.Note
 

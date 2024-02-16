@@ -19,7 +19,7 @@ Než budete pokračovat v tomto návodu, ujistěte se, že máte následující:
 2. Visual Studio nainstalované ve vašem systému.
 3. Knihovna Aspose.Note pro .NET integrovaná do vašeho projektu.
 
-## Importovat jmenné prostory
+## Import jmenných prostorů
 
 Nejprve se ujistěte, že jste do kódu C# importovali potřebné jmenné prostory:
 
@@ -41,7 +41,7 @@ Document doc = new Document() { AutomaticLayoutChangesDetectionEnabled = false }
 
 ## Krok 2: Inicializujte novou stránku
 
- Vytvoř nový`Page` objekt a specifikujte jeho vlastnosti:
+ Vytvoř nový`Page`objekt a specifikujte jeho vlastnosti:
 
 ```csharp
 Aspose.Note.Page page = new Aspose.Note.Page(doc);

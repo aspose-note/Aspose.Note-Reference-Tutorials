@@ -13,7 +13,7 @@ url: /vi/net/tag-management/
 Bạn đã sẵn sàng nâng cao kỹ năng thao tác tài liệu của mình chưa? Đi sâu vào lĩnh vực Aspose.Note dành cho .NET và nắm vững nghệ thuật quản lý thẻ với các hướng dẫn toàn diện của chúng tôi. Cho dù bạn là nhà phát triển dày dạn kinh nghiệm hay người mới tham gia vào thế giới Aspose.Note, những hướng dẫn từng bước này sẽ giúp bạn nâng cao tài liệu OneNote của mình theo chương trình.
 
 ## Thêm nút hình ảnh bằng thẻ tùy chỉnh
- Tìm hiểu sự kỳ diệu của việc kết hợp hình ảnh với các thẻ tùy chỉnh trong tài liệu OneNote của bạn bằng cách sử dụng[Aspose.Note dành cho .NET](./add-image-node-tag/). Mở khóa một chiều hướng mới về sự phong phú về hình ảnh và khả năng tùy chỉnh để làm cho tài liệu của bạn nổi bật một cách dễ dàng.
+ Tìm hiểu sự kỳ diệu của việc kết hợp hình ảnh với các thẻ tùy chỉnh trong tài liệu OneNote của bạn bằng cách sử dụng[Aspose.Note dành cho .NET](./add-image-node-tag/). Mở khóa một chiều hướng mới về sự phong phú và tùy chỉnh trực quan để làm cho tài liệu của bạn nổi bật một cách dễ dàng.
 
 ## Thêm bảng có thẻ
  Khám phá sự tích hợp liền mạch của các bảng với thẻ trong Aspose.Note for .NET. Hướng dẫn của chúng tôi về[thêm các nút bảng bằng thẻ](./add-table-node-tag/) đảm bảo bạn có thể thao tác và nâng cao tài liệu của mình theo chương trình, làm cho nội dung của bạn có cấu trúc và hấp dẫn trực quan hơn.

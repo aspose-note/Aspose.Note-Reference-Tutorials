@@ -139,7 +139,7 @@ public static void SaveAsHTMLToFileWithResourcesInSeparateFiles()
         FontFaceTypes = FontFaceType.Ttf
     };
 
-    //Speichern Sie das Dokument in einer HTML-Datei, wobei die Ressourcen in separaten Dateien gespeichert werden
+    // Speichern Sie das Dokument in einer HTML-Datei, wobei die Ressourcen in separaten Dateien gespeichert werden
     document.Save(Path.Combine(dataDir, "document_out.html"), options);
 }
 ```
@@ -174,7 +174,7 @@ public static void SaveAsHTMLToMemoryStreamWithCallBacksToSaveResources()
     string dataDir = "Your Document Directory";
     var document = new Document(Path.Combine(dataDir, "Aspose.one"));
 
-    // Speichern Sie das Dokument im HTML-Format mit Ressourcen, die durch benutzerdefinierte Rückrufe verwaltet werden
+    // Speichern Sie das Dokument im HTML-Format, wobei die Ressourcen durch benutzerdefinierte Rückrufe verwaltet werden
     using (var stream = File.Create(Path.Combine(savingCallbacks.RootFolder, "document.html")))
     {
         document.Save(stream, options);

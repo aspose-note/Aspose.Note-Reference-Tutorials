@@ -17,7 +17,7 @@ url: /hi/net/note-manipulation/retrieve-number-of-pages/
 
 ### विजुअल स्टूडियो स्थापित
 
- सुनिश्चित करें कि आपके सिस्टम पर विजुअल स्टूडियो स्थापित है। आप इसे यहां से डाउनलोड कर सकते हैं[वेबसाइट](https://visualstudio.microsoft.com/).
+सुनिश्चित करें कि आपके सिस्टम पर विजुअल स्टूडियो स्थापित है। आप इसे यहां से डाउनलोड कर सकते हैं[वेबसाइट](https://visualstudio.microsoft.com/).
 
 ### .NET के लिए Aspose.Note स्थापित
 

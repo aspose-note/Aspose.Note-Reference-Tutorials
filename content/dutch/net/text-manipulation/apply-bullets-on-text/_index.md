@@ -27,7 +27,7 @@ using System.Collections.Generic;
 ```csharp
 // Het pad naar de documentenmap.
 string dataDir = "Your Document Directory";
-// Maak een object van de klasse Document
+//Maak een object van de klasse Document
 Aspose.Note.Document doc = new Aspose.Note.Document();
 ```
 ## Stap 2: Initialiseer pagina en overzicht
@@ -63,7 +63,7 @@ page.AppendChildLast(outline);
 ```
 ## Stap 7: Pagina toevoegen aan het document
 ```csharp
-// Paginaknooppunt toevoegen
+//Paginaknooppunt toevoegen
 doc.AppendChildLast(page);
 ```
 ## Stap 8: Sla het OneNote-document op

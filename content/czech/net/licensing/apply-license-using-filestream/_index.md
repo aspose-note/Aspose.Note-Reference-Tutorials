@@ -20,7 +20,7 @@ Než se pustíte do tohoto tutoriálu, ujistěte se, že máte následující p�
 3. Licenční soubor: Získejte platný licenční soubor Aspose.Note.
 4. Základní znalost C#: Znalost programovacího jazyka C#.
 
-## Importovat jmenné prostory
+## Import jmenných prostorů
 
 Chcete-li začít, importujme potřebné jmenné prostory do našeho projektu C#:
 
@@ -76,11 +76,11 @@ Odpověď 1: Ne, k využití plné funkčnosti Aspose.Note je nutná platná lic
 
 ### Q3: Je k dispozici bezplatná zkušební verze?
 
-A3: Ano, můžete získat bezplatnou zkušební verzi[tady](https://releases.aspose.com/).
+ A3: Ano, můžete získat bezplatnou zkušební verzi[tady](https://releases.aspose.com/).
 
 ### Q4: Jak mohu získat podporu?
 
- A4: Můžete získat podporu od komunity Aspose.Note[Fórum](https://forum.aspose.com/c/note/28).
+A4: Můžete získat podporu od komunity Aspose.Note[Fórum](https://forum.aspose.com/c/note/28).
 
 ### Q5: Nabízíte dočasné licence?
 

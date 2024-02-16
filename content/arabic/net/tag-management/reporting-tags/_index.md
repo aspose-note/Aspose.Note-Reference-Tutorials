@@ -15,7 +15,7 @@ url: /ar/net/tag-management/reporting-tags/
 
 قبل الشروع في هذا البرنامج التعليمي، تأكد من توفر المتطلبات الأساسية التالية:
 
-1. تثبيت Aspose.Note لـ .NET: قم بتنزيل وتثبيت مكتبة Aspose.Note لـ .NET من[رابط التحميل](https://releases.aspose.com/note/net/).
+1.  تثبيت Aspose.Note لـ .NET: قم بتنزيل وتثبيت مكتبة Aspose.Note لـ .NET من[رابط التحميل](https://releases.aspose.com/note/net/).
    
 2. الإلمام ببرمجة C#: المعرفة الأساسية بلغة البرمجة C# ضرورية لفهم الأمثلة المقدمة وتنفيذها.
 
@@ -120,7 +120,7 @@ public static void GenerateReport_ItemsRelatedToSpecifiedProject()
 
 ## س2: هل تتوفر نسخة تجريبية مجانية من Aspose.Note لـ .NET؟
 
- ج2: نعم، يمكنك الوصول إلى النسخة التجريبية المجانية من Aspose.Note لـ .NET من[موقع إلكتروني](https://releases.aspose.com/).
+ج2: نعم، يمكنك الوصول إلى النسخة التجريبية المجانية من Aspose.Note لـ .NET من[موقع إلكتروني](https://releases.aspose.com/).
 
 ## س3: كيف يمكنني الحصول على ترخيص مؤقت لـ Aspose.Note لـ .NET؟
 

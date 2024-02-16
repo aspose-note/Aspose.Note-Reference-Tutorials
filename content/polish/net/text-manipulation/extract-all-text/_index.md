@@ -30,7 +30,7 @@ Zastąp „Twój katalog dokumentów” ścieżką do katalogu zawierającego Tw
 ```csharp
 Document oneFile = new Document(dataDir + "Aspose.one");
 ```
- Załaduj dokument Aspose.Note do`Document` przedmiot do dalszego przetwarzania.
+Załaduj dokument Aspose.Note do`Document` przedmiot do dalszego przetwarzania.
 ## Krok 3: Pobierz tekst
 ```csharp
 string text = string.Join(Environment.NewLine, oneFile.GetChildNodes<RichText>().Select(e => e.Text)) + Environment.NewLine;

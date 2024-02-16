@@ -43,7 +43,7 @@ public static void SaveToTiffUsingJpegCompression()
     // Muat dokumen ke Aspose.Note.
     Document oneFile = new Document("Path_to_your_OneNote_document");
 
-    // Tetapkan jalur tujuan untuk gambar TIFF.
+    //Tetapkan jalur tujuan untuk gambar TIFF.
     var dst = "Destination_path_for_TIFF_image";
 
     // Simpan dokumen sebagai gambar TIFF dengan kompresi JPEG.
@@ -67,7 +67,7 @@ public static void SaveToTiffUsingPackBitsCompression()
     // Muat dokumen ke Aspose.Note.
     Document oneFile = new Document("Path_to_your_OneNote_document");
 
-    // Tetapkan jalur tujuan untuk gambar TIFF.
+    //Tetapkan jalur tujuan untuk gambar TIFF.
     var dst = "Destination_path_for_TIFF_image";
 
     // Simpan dokumen sebagai gambar TIFF dengan kompresi PackBits.
@@ -90,7 +90,7 @@ public static void SaveToTiffUsingCcitt3Compression()
     // Muat dokumen ke Aspose.Note.
     Document oneFile = new Document("Path_to_your_OneNote_document");
 
-    // Tetapkan jalur tujuan untuk gambar TIFF.
+    //Tetapkan jalur tujuan untuk gambar TIFF.
     var dst = "Destination_path_for_TIFF_image";
 
     // Simpan dokumen sebagai gambar TIFF dengan kompresi CCITT Grup 3.
@@ -130,4 +130,4 @@ A4: Ya, Anda dapat mengotomatiskan proses konversi menggunakan pemrosesan batch 
 
 ### Q5: Apakah ada versi uji coba yang tersedia untuk Aspose.Note?
 
- A5: Ya, Anda bisa mendapatkan uji coba gratis Aspose.Note dari[Di Sini](https://releases.aspose.com/).
+A5: Ya, Anda bisa mendapatkan uji coba gratis Aspose.Note dari[Di Sini](https://releases.aspose.com/).

@@ -97,7 +97,7 @@ A3: Sì, Aspose.Note per .NET supporta la conversione in vari altri formati come
 
 ### Q4: È disponibile una prova gratuita per Aspose.Note per .NET?
 
-R4: Sì, è possibile scaricare una versione di prova gratuita di Aspose.Note per .NET dal sito Web per valutarne le funzionalità prima di effettuare un acquisto.
+R4: Sì, è possibile scaricare una prova gratuita di Aspose.Note per .NET dal sito Web per valutarne le funzionalità prima di effettuare un acquisto.
 
 ### Q5: Come posso ottenere supporto tecnico per Aspose.Note per .NET?
 

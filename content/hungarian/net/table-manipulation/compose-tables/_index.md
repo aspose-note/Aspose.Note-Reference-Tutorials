@@ -9,7 +9,7 @@ url: /hu/net/table-manipulation/compose-tables/
 ---
 ## Bevezetés
 
-táblázatok a dokumentumok alapvető összetevői, amelyek lehetővé teszik az információk strukturált megjelenítését. Az Aspose.Note for .NET robusztus eszközöket kínál a táblázatok könnyű összeállításához. Ebben az oktatóanyagban végigvezetjük az Aspose.Note használatával formázott szöveget tartalmazó táblázatok létrehozásának folyamatán.
+A táblázatok a dokumentumok alapvető összetevői, amelyek lehetővé teszik az információk strukturált megjelenítését. Az Aspose.Note for .NET robusztus eszközöket kínál a táblázatok könnyű összeállításához. Ebben az oktatóanyagban végigvezetjük az Aspose.Note használatával formázott szöveget tartalmazó táblázatok létrehozásának folyamatán.
 
 ## Előfeltételek
 
@@ -61,7 +61,7 @@ outline.AppendChildLast(new OutlineElement()).AppendChildLast(headerText);
 
 ## 4. lépés: Összefoglaló szöveg hozzáadása
 
-A táblázat elé írjon összefoglaló szöveget.
+A táblázat elé foglaljon összefoglaló szöveget.
 
 ```csharp
 var bodyTextHeader = outline.AppendChildLast(new OutlineElement()).AppendChildLast(new RichText() { ParagraphStyle = ParagraphStyle.Default });

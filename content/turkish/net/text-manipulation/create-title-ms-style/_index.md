@@ -79,4 +79,4 @@ Aspose.Note for .NET API'sini kullanarak çeşitli öğeler ekleyerek sayfayı k
 ### Belge oluşturma sürecindeki hataları nasıl halledebilirim?
 Belge oluşturma işlemi sırasında oluşabilecek olası hataları yakalamak ve işlemek için C#'taki istisna işleme mekanizmalarından yararlanın.
 ### Aspose.Note for .NET için daha fazla örnek ve belgeyi nerede bulabilirim?
- Bakın[.NET belgeleri için Aspose.Note](https://reference.aspose.com/note/net/) ayrıntılı örnekler ve kapsamlı belgeler için.
+ Bakın[.NET belgeleri için Aspose.Note](https://reference.aspose.com/note/net/)ayrıntılı örnekler ve kapsamlı belgeler için.

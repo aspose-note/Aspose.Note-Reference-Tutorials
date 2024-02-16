@@ -11,7 +11,7 @@ url: /pl/net/text-manipulation/set-proofing-language-text/
 Witamy w świecie Aspose.Note dla .NET! W tym obszernym przewodniku zbadamy fascynujący proces ustawiania języka sprawdzającego tekst za pomocą Aspose.Note. Niezależnie od tego, czy jesteś doświadczonym programistą, czy dopiero zaczynasz pracę z Aspose.Note, ten samouczek zapewni Ci szczegółowe informacje i instrukcje krok po kroku, które pozwolą Ci ulepszyć umiejętności manipulacji tekstem.
 ## Warunki wstępne
 Zanim przejdziemy do samouczka, upewnij się, że spełniasz następujące wymagania wstępne:
--  Aspose.Note dla .NET: Upewnij się, że masz zainstalowaną najnowszą wersję Aspose.Note dla .NET. Możesz go pobrać[Tutaj](https://releases.aspose.com/note/net/).
+- Aspose.Note dla .NET: Upewnij się, że masz zainstalowaną najnowszą wersję Aspose.Note dla .NET. Możesz go pobrać[Tutaj](https://releases.aspose.com/note/net/).
 - Środowisko programistyczne .NET: Przygotuj funkcjonalne środowisko programistyczne .NET na swoim komputerze.
 - Edytor tekstu lub IDE: Wybierz preferowany edytor tekstu lub zintegrowane środowisko programistyczne (IDE) do kodowania.
 Teraz zacznijmy od ustawienia języka sprawdzającego tekst w Aspose.Note!
@@ -76,7 +76,7 @@ document.Save(Path.Combine("Your Document Directory", "SetProofingLanguageForTex
 ```
 Gratulacje! Pomyślnie ustawiłeś język sprawdzający tekst przy użyciu Aspose.Note dla .NET.
 ## Wniosek
-W tym samouczku zagłębiliśmy się w proces ustawiania języka sprawdzającego tekst w Aspose.Note dla .NET. Dzięki przewodnikowi krok po kroku i fragmentom kodu możesz teraz zwiększyć możliwości manipulacji tekstem. Eksperymentuj z różnymi językami i uwolnij pełny potencjał Aspose.Note w swoich projektach .NET.
+tym samouczku zagłębiliśmy się w proces ustawiania języka sprawdzającego tekst w Aspose.Note dla .NET. Dzięki przewodnikowi krok po kroku i fragmentom kodu możesz teraz zwiększyć możliwości manipulacji tekstem. Eksperymentuj z różnymi językami i uwolnij pełny potencjał Aspose.Note w swoich projektach .NET.
 
 ## Często zadawane pytania
 ### Czy mogę ustawić język sprawdzania dla określonych słów w akapicie?

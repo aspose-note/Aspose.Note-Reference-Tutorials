@@ -15,7 +15,7 @@ Aspose.Note for .NET, geliştiricilerin Microsoft OneNote dosyalarıyla programl
 
 Başlamadan önce aşağıdaki önkoşulların mevcut olduğundan emin olun:
 
-1.  Aspose.Note for .NET Library: Aspose.Note for .NET kütüphanesini indirip yüklediğinizden emin olun. Şuradan indirebilirsiniz[Burada](https://releases.aspose.com/note/net/).
+1. Aspose.Note for .NET Library: Aspose.Note for .NET kütüphanesini indirip yüklediğinizden emin olun. Şuradan indirebilirsiniz[Burada](https://releases.aspose.com/note/net/).
 
 2. Geliştirme Ortamı: Geliştirme ortamınızı Visual Studio veya tercih edilen herhangi bir başka .NET geliştirme aracıyla kurun.
 

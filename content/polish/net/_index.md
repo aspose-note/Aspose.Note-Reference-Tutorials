@@ -31,7 +31,7 @@ Zwiększ interaktywność w dokumentach Aspose.Note bez wysiłku! Nasze szczegó
 
 Wejdź do świata manipulacji dokumentami OneNote dzięki samouczkom dotyczącym płynnej obsługi obrazów. Podnieś poziom swojej zawartości wizualnej bez wysiłku dzięki Aspose.Note dla .NET. Poznaj zawiłości manipulowania obrazami w dokumentach programu OneNote.
 
-## Mistrzostwo w importowaniu plików PDF 
+## Mistrzostwo importu plików PDF 
 [Zanurz się w samouczkach dotyczących importu](./import/)
 
 Bezproblemowo importuj dokumenty PDF do Aspose.Note .NET! Nasze samouczki przeprowadzą Cię przez proces integracji, korzystając z różnych opcji scalania. Ucz się dzięki szczegółowym wskazówkom, w tym integracji z OneNote, i odblokuj pełny potencjał Aspose.Note dla .NET.

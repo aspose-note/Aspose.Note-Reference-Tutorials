@@ -19,7 +19,7 @@ Než se ponoříte do kompozice tabulky s Aspose.Note pro .NET, ujistěte se, ž
 2.  Instalace: Stáhněte a nainstalujte Aspose.Note pro .NET z[webová stránka](https://releases.aspose.com/note/net/).
 3. Základní znalosti: Seznamte se se základními pojmy programování v C# a manipulaci s dokumenty.
 
-## Importovat jmenné prostory
+## Import jmenných prostorů
 
 Než začnete sestavovat tabulky, ujistěte se, že jste importovali potřebné jmenné prostory:
 
@@ -147,7 +147,7 @@ Console.WriteLine("\nThe document is composed successfully.");
 
 ## Závěr
 
-tomto tutoriálu jsme prozkoumali, jak skládat tabulky s bohatým textovým obsahem pomocí Aspose.Note pro .NET. Dodržováním těchto podrobných pokynů můžete efektivně vytvářet strukturované tabulky ve svých dokumentech, což zlepšuje čitelnost a organizaci.
+V tomto tutoriálu jsme prozkoumali, jak skládat tabulky s bohatým textovým obsahem pomocí Aspose.Note pro .NET. Dodržováním těchto podrobných pokynů můžete efektivně vytvářet strukturované tabulky ve svých dokumentech, což zlepšuje čitelnost a organizaci.
 
 ## FAQ
 

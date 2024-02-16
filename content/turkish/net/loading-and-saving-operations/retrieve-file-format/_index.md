@@ -74,7 +74,7 @@ Cevap2: Aspose.Note; .NET Framework, .NET Core ve .NET Standard ile uyumludur.
 
 ### S3: Satın almadan önce Aspose.Note'u deneyebilir miyim?
 
- C3: Evet, Aspose.Note'un yeteneklerini aşağıdaki ücretsiz deneme sürümüyle keşfedebilirsiniz.[ İnternet sitesi](https://releases.aspose.com/).
+C3: Evet, Aspose.Note'un yeteneklerini aşağıdaki ücretsiz deneme sürümüyle keşfedebilirsiniz.[ İnternet sitesi](https://releases.aspose.com/).
 
 ### S4: Aspose.Note için nasıl destek alabilirim?
 
@@ -82,4 +82,4 @@ Cevap2: Aspose.Note; .NET Framework, .NET Core ve .NET Standard ile uyumludur.
 
 ### S5: Değerlendirme amacıyla geçici bir lisansa ihtiyacım var mı?
 
-Cevap5: Ücretsiz deneme Aspose.Note'u test etmenize olanak sağlarken, genişletilmiş değerlendirme için geçici bir lisansı tercih edebilirsiniz. Ziyaret etmek[Burada](https://purchase.aspose.com/temporary-license/) daha fazla ayrıntı için.
+ Cevap5: Ücretsiz deneme Aspose.Note'u test etmenize olanak sağlarken, genişletilmiş değerlendirme için geçici bir lisansı tercih edebilirsiniz. Ziyaret etmek[Burada](https://purchase.aspose.com/temporary-license/) daha fazla ayrıntı için.

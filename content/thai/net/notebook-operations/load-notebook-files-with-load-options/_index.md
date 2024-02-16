@@ -81,7 +81,7 @@ foreach (var notebookChildNode in notebook.OfType<Document>())
 
 ### คำถามที่ 2: Aspose.Note สำหรับ .NET มีรุ่นทดลองใช้ฟรีหรือไม่
 
- ตอบ 2: ได้ คุณสามารถทดลองใช้ Aspose.Note สำหรับ .NET ได้ฟรีจาก[ที่นี่](https://releases.aspose.com/).
+ตอบ 2: ได้ คุณสามารถทดลองใช้ Aspose.Note สำหรับ .NET ได้ฟรีจาก[ที่นี่](https://releases.aspose.com/).
 
 ### คำถามที่ 3: ฉันจะหาเอกสารสำหรับ Aspose.Note for .NET ได้ที่ไหน
 

@@ -67,7 +67,7 @@ Aspose.Note.License license = new Aspose.Note.License();
 
 ## Schritt 2: Lizenz aus Pfad festlegen
 
- Als nächstes verwenden Sie die`SetLicense` Methode der`License` Klasse, um die Lizenz aus dem angegebenen Pfad anzuwenden:
+Als nächstes verwenden Sie die`SetLicense` Methode der`License` Klasse, um die Lizenz aus dem angegebenen Pfad anzuwenden:
 
 ```csharp
 license.SetLicense("Aspose.Note.lic");
@@ -95,6 +95,6 @@ A3: Sie können Ihre Lizenz über die Aspose-Website erneuern oder aktualisieren
 
 A4: Ja, Aspose bietet umfassende Dokumentation, Foren und Support, um Entwickler bei der effektiven Nutzung ihrer Produkte zu unterstützen.
 
-### F5: Kann ich Aspose.Note vor dem Kauf testen?
+### F5: Kann ich Aspose.Note vor dem Kauf ausprobieren?
 
 A5: Ja, Sie können eine kostenlose Testversion von Aspose.Note von der Website herunterladen, um die Funktionen und Fähigkeiten zu testen.

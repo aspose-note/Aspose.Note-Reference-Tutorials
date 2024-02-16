@@ -29,7 +29,7 @@ using System.Collections.Generic;
 ```csharp
 // दस्तावेज़ निर्देशिका का पथ.
 string dataDir = "Your Document Directory";
-// दस्तावेज़ वर्ग का एक ऑब्जेक्ट बनाएं
+//दस्तावेज़ वर्ग का एक ऑब्जेक्ट बनाएं
 Document doc = new Document();
 // पेज क्लास ऑब्जेक्ट को इनिशियलाइज़ करें
 Aspose.Note.Page page = new Aspose.Note.Page(doc);

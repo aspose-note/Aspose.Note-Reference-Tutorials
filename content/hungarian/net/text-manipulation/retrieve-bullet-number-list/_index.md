@@ -35,7 +35,7 @@ string dataDir = "Your Document Directory";
 // Töltse be a dokumentumot az Aspose.Note-ba.
 Document oneFile = new Document(dataDir + "ApplyNumberingOnText.one");
 ```
- Győződjön meg róla, hogy cseréli`"ApplyNumberingOnText.one"` az adott OneNote-dokumentum nevével.
+ Győződjön meg róla, hogy kicserélte`"ApplyNumberingOnText.one"` az adott OneNote-dokumentum nevével.
 ## 3. lépés: A csomópontok gyűjteményének lekérése
 ```csharp
 // A körvonalelem csomópontjainak gyűjteményének lekérése.
@@ -84,6 +84,6 @@ Igen, az Aspose.Note a OneNote formátumok széles skáláját támogatja, így 
 ### Hogyan szerezhetek ideiglenes licencet az Aspose.Note számára?
  Látogatás[ez a link](https://purchase.aspose.com/temporary-license/) ideiglenes engedély megszerzésére értékelési célból.
 ### Milyen támogatási lehetőségek állnak rendelkezésre az Aspose.Note felhasználók számára?
- Feltérképezheti és segítséget kérhet a[Aspose.Note fórum](https://forum.aspose.com/c/note/28) az esetlegesen felmerülő kérdésekre vagy problémákra.
+Feltérképezheti és segítséget kérhet a[Aspose.Note fórum](https://forum.aspose.com/c/note/28) az esetlegesen felmerülő kérdésekre vagy problémákra.
 ### Létezik az Aspose.Note ingyenes próbaverziója .NET-hez?
  Igen, elérheti az Aspose.Note .NET ingyenes próbaverzióját[itt](https://releases.aspose.com/).

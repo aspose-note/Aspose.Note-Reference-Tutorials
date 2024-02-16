@@ -19,7 +19,7 @@ Než začneme, ujistěte se, že máte následující:
 2. Vývojové prostředí: Nastavte své vývojové prostředí pomocí sady Visual Studio nebo jakéhokoli jiného .NET IDE.
 3. Dokument Microsoft OneNote: Připravte si dokument Microsoft OneNotu, který chcete převést do formátu obrázku.
 
-## Importovat jmenné prostory
+## Import jmenných prostorů
 
 Než se ponoříme do kódu, importujme potřebné jmenné prostory:
 

@@ -9,7 +9,7 @@ url: /pl/net/note-manipulation/modify-page-history/
 ---
 ## Wstęp
 
-W dziedzinie przetwarzania dokumentów Aspose.Note dla .NET okazuje się solidnym narzędziem, umożliwiającym programistom łatwe manipulowanie plikami OneNote. Jednym z typowych zadań, z jakimi spotykają się programiści, jest modyfikowanie historii stron w dokumentach Aspose.Note. Ten samouczek wyjaśnia proces krok po kroku, prowadząc Cię przez niezbędne przestrzenie nazw, wymagania wstępne i fragmenty kodu, aby skutecznie zmieniać historię strony za pomocą Aspose.Note dla .NET.
+dziedzinie przetwarzania dokumentów Aspose.Note dla .NET okazuje się solidnym narzędziem, umożliwiającym programistom łatwe manipulowanie plikami OneNote. Jednym z typowych zadań, z jakimi spotykają się programiści, jest modyfikowanie historii stron w dokumentach Aspose.Note. Ten samouczek wyjaśnia proces krok po kroku, prowadząc Cię przez niezbędne przestrzenie nazw, wymagania wstępne i fragmenty kodu, aby skutecznie zmieniać historię strony za pomocą Aspose.Note dla .NET.
 
 ## Warunki wstępne
 
@@ -81,11 +81,11 @@ O1: Tak, Aspose.Note dla .NET obsługuje różne wersje plików OneNote, zapewni
 
 ### P2: Czy mogę cofnąć zmiany wprowadzone w historii stron za pomocą Aspose.Note dla .NET?
 
-O2: Aspose.Note dla .NET zapewnia funkcje przywracania lub cofania zmian wprowadzonych w historii strony, umożliwiając programistom zachowanie integralności dokumentów.
+Odpowiedź 2: Aspose.Note dla .NET zapewnia funkcje przywracania lub cofania zmian wprowadzonych w historii strony, umożliwiając programistom zachowanie integralności dokumentów.
 
 ### P3: Czy istnieją jakieś wymagania licencyjne dotyczące korzystania z Aspose.Note dla .NET?
 
-Odpowiedź 3: Tak, użytkownicy muszą nabyć odpowiednie licencje od Aspose, aby korzystać z Aspose.Note dla .NET w projektach komercyjnych. Jednakże licencje tymczasowe są dostępne do celów próbnych.
+Odpowiedź 3: Tak, użytkownicy muszą nabyć odpowiednie licencje od Aspose, aby móc korzystać z Aspose.Note dla .NET w projektach komercyjnych. Jednakże licencje tymczasowe są dostępne do celów próbnych.
 
 ### P4: Czy Aspose.Note dla .NET oferuje wsparcie dla programistów napotykających problemy?
 

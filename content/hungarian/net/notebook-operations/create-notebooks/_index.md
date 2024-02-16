@@ -92,7 +92,7 @@ Ebben az oktatóanyagban megtanultuk, hogyan hozhat létre jegyzetfüzeteket az 
 
 ### 4. kérdés: Vásárolhatok ideiglenes licencet az Aspose.Note for .NET számára?
 
- 4. válasz: Igen, ideiglenes licencet szerezhet be az Aspose webhelyéről:[Ideiglenes jogosítvány](https://purchase.aspose.com/temporary-license/).
+4. válasz: Igen, ideiglenes licencet szerezhet be az Aspose webhelyéről:[Ideiglenes jogosítvány](https://purchase.aspose.com/temporary-license/).
 
 ### 5. kérdés: Hol találom az Aspose.Note for .NET átfogó dokumentációját?
 

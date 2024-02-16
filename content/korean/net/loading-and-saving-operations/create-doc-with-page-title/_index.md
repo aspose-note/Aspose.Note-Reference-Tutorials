@@ -11,7 +11,7 @@ url: /ko/net/loading-and-saving-operations/create-doc-with-page-title/
 
 이 튜토리얼에서는 .NET용 Aspose.Note를 사용하여 제목이 있는 페이지가 있는 문서를 만드는 과정을 안내합니다. Aspose.Note는 개발자가 Microsoft OneNote 파일을 프로그래밍 방식으로 작업할 수 있는 강력한 API입니다.
 
-## 전제 조건
+## 전제조건
 
 시작하기 전에 다음 필수 구성 요소가 설치 및 설정되어 있는지 확인하세요.
 
@@ -47,7 +47,7 @@ using System.Globalization;
 ## 1단계: 문서 개체 만들기
 
 ```csharp
-// Document 클래스의 객체 생성
+//Document 클래스의 객체 생성
 Document doc = new Aspose.Note.Document();
 ```
 

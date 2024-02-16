@@ -92,7 +92,7 @@ Câu trả lời 1: Có, Aspose.Note for .NET tương thích với nhiều khung
 
 ### Câu hỏi 4: Tôi có thể mua giấy phép tạm thời cho Aspose.Note cho .NET không?
 
- Câu trả lời 4: Có, bạn có thể lấy giấy phép tạm thời từ trang web Aspose:[Giấy phép tạm thời](https://purchase.aspose.com/temporary-license/).
+Câu trả lời 4: Có, bạn có thể lấy giấy phép tạm thời từ trang web Aspose:[Giấy phép tạm thời](https://purchase.aspose.com/temporary-license/).
 
 ### Câu hỏi 5: Tôi có thể tìm tài liệu toàn diện về Aspose.Note cho .NET ở đâu?
 

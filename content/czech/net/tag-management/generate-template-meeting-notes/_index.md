@@ -9,7 +9,7 @@ url: /cs/net/tag-management/generate-template-meeting-notes/
 ---
 ## Úvod
 
-V tomto tutoriálu projdeme procesem generování šablony pro poznámky ke schůzce pomocí Aspose.Note pro .NET. Tato knihovna poskytuje výkonné nástroje pro vytváření, úpravy a manipulaci s dokumenty OneNote programově.
+tomto tutoriálu projdeme procesem generování šablony pro poznámky ke schůzce pomocí Aspose.Note pro .NET. Tato knihovna poskytuje výkonné nástroje pro vytváření, úpravy a manipulaci s dokumenty OneNote programově.
 
 ## Předpoklady
 
@@ -19,7 +19,7 @@ Než začneme, ujistěte se, že máte následující:
 2.  Aspose.Note pro .NET: Stáhněte a nainstalujte Aspose.Note pro .NET z[tento odkaz](https://releases.aspose.com/note/net/).
 3. Základní porozumění C#: Spolu s příklady je vyžadována znalost programovacího jazyka C#.
 
-## Importovat jmenné prostory
+## Import jmenných prostorů
 
 Chcete-li začít, musíte do svého projektu C# importovat potřebné jmenné prostory. Tyto jmenné prostory poskytují přístup k funkcím poskytovaným Aspose.Note pro .NET.
 

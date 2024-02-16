@@ -43,7 +43,7 @@ public static void SaveToTiffUsingJpegCompression()
     // Φορτώστε το έγγραφο στο Aspose.Note.
     Document oneFile = new Document("Path_to_your_OneNote_document");
 
-    // Ορίστε τη διαδρομή προορισμού για την εικόνα TIFF.
+    //Ορίστε τη διαδρομή προορισμού για την εικόνα TIFF.
     var dst = "Destination_path_for_TIFF_image";
 
     // Αποθηκεύστε το έγγραφο ως εικόνα TIFF με συμπίεση JPEG.
@@ -67,7 +67,7 @@ public static void SaveToTiffUsingPackBitsCompression()
     // Φορτώστε το έγγραφο στο Aspose.Note.
     Document oneFile = new Document("Path_to_your_OneNote_document");
 
-    // Ορίστε τη διαδρομή προορισμού για την εικόνα TIFF.
+    //Ορίστε τη διαδρομή προορισμού για την εικόνα TIFF.
     var dst = "Destination_path_for_TIFF_image";
 
     // Αποθηκεύστε το έγγραφο ως εικόνα TIFF με συμπίεση PackBits.
@@ -90,7 +90,7 @@ public static void SaveToTiffUsingCcitt3Compression()
     // Φορτώστε το έγγραφο στο Aspose.Note.
     Document oneFile = new Document("Path_to_your_OneNote_document");
 
-    // Ορίστε τη διαδρομή προορισμού για την εικόνα TIFF.
+    //Ορίστε τη διαδρομή προορισμού για την εικόνα TIFF.
     var dst = "Destination_path_for_TIFF_image";
 
     // Αποθηκεύστε το έγγραφο ως εικόνα TIFF με συμπίεση CCITT Group 3.
@@ -130,4 +130,4 @@ A4: Ναι, μπορείτε να αυτοματοποιήσετε τη διαδ
 
 ### Ε5: Υπάρχει διαθέσιμη δοκιμαστική έκδοση για το Aspose.Note;
 
- A5: Ναι, μπορείτε να λάβετε μια δωρεάν δοκιμή του Aspose.Note από[εδώ](https://releases.aspose.com/).
+A5: Ναι, μπορείτε να λάβετε μια δωρεάν δοκιμή του Aspose.Note από[εδώ](https://releases.aspose.com/).

@@ -13,9 +13,9 @@ Ebben az oktatóanyagban megtudjuk, hogyan adhatunk hozzá gyermekcsomópontokat
 
 ## Előfeltételek
 
-Mielőtt elkezdené, győződjön meg arról, hogy rendelkezik az alábbiakkal:
+Mielőtt elkezdené, győződjön meg arról, hogy rendelkezik a következőkkel:
 
-1. Aspose.Note for .NET: Győződjön meg arról, hogy az Aspose.Note for .NET telepítve van a fejlesztői környezetében. Letöltheti a[weboldal](https://releases.aspose.com/note/net/).
+1.  Aspose.Note for .NET: Győződjön meg arról, hogy az Aspose.Note for .NET telepítve van a fejlesztői környezetében. Letöltheti a[weboldal](https://releases.aspose.com/note/net/).
 
 2. Fejlesztői környezet: .NET fejlesztői környezet beállítása, például a Visual Studio.
 

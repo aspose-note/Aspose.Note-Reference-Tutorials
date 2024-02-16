@@ -53,7 +53,7 @@ document.Save(dataDir + "CreatingPasswordProtectedDoc_out.one", new OneSaveOptio
 
 ## Conclusão
 
-Concluindo, proteger seus documentos com senhas usando Aspose.Note for .NET é um processo simples. Seguindo as etapas descritas neste tutorial, você pode garantir a confidencialidade de suas informações confidenciais. A implementação da criptografia de documentos adiciona uma camada extra de proteção, melhorando a segurança geral dos seus dados.
+Concluindo, proteger seus documentos com senhas usando Aspose.Note for .NET é um processo simples. Seguindo as etapas descritas neste tutorial, você pode garantir a confidencialidade de suas informações confidenciais. A implementação da criptografia de documentos adiciona uma camada extra de proteção, aumentando a segurança geral dos seus dados.
 
 ## Perguntas frequentes
 

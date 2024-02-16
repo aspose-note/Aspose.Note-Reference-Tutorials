@@ -9,7 +9,7 @@ url: /hu/net/import/import-pdf-documents/
 ---
 ## Bevezetés
 
-ma rendelkezésre álló hatalmas mennyiségű digitális tartalom miatt kulcsfontosságú a PDF-dokumentumok zökkenőmentes integrálása a projektekbe. Az Aspose.Note for .NET hatékony funkciókat kínál a PDF dokumentumok hatékony importálásához. Ebben az oktatóanyagban lépésről lépésre megvizsgáljuk, hogyan importálhat PDF dokumentumokat az Aspose.Note for .NET segítségével.
+A ma rendelkezésre álló hatalmas mennyiségű digitális tartalom miatt kulcsfontosságú a PDF-dokumentumok zökkenőmentes integrálása a projektekbe. Az Aspose.Note for .NET hatékony funkciókat kínál a PDF dokumentumok hatékony importálásához. Ebben az oktatóanyagban lépésről lépésre megvizsgáljuk, hogyan importálhat PDF dokumentumokat az Aspose.Note for .NET segítségével.
 
 ## Előfeltételek
 
@@ -55,7 +55,7 @@ public static void ImportSetOfFiles_SimpleMerge()
 
 ## 2. lépés: Importáljon PDF-dokumentumokat a Strukturált egyesítés használatával
 
-Strukturált egyesítés az összes oldalt importálja a PDF-dokumentumokból, miközben az egyes dokumentumokból oldalakat szúr be a legfelső szintű OneNote-oldal alárendeltjeként:
+A Strukturált egyesítés az összes oldalt importálja a PDF-dokumentumokból, miközben az egyes dokumentumokból oldalakat szúr be a legfelső szintű OneNote-oldal alárendeltjeként:
 
 ```csharp
 public static void ImportSetOfFiles_StructuredMerge()
@@ -128,7 +128,7 @@ public static void ImportSetOfFiles_CustomMerge()
 
 ## Következtetés
 
-A PDF-dokumentumok integrálása .NET-alkalmazásaiba az Aspose.Note segítségével egy egyszerű folyamat, amely különféle összevonási lehetőségeket kínál a projekt követelményei szerint. Akár több oldalt kell importálnia, akár hierarchikusan kell rendeznie a tartalmat, az Aspose.Note biztosítja a szükséges eszközöket a zökkenőmentes integrációhoz.
+PDF-dokumentumok integrálása .NET-alkalmazásaiba az Aspose.Note segítségével egy egyszerű folyamat, amely különféle összevonási lehetőségeket kínál a projekt követelményei szerint. Akár több oldalt kell importálnia, akár hierarchikusan kell rendeznie a tartalmat, az Aspose.Note biztosítja a szükséges eszközöket a zökkenőmentes integrációhoz.
 
 ## GYIK
 

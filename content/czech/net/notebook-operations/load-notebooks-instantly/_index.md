@@ -9,7 +9,7 @@ url: /cs/net/notebook-operations/load-notebooks-instantly/
 ---
 ## Úvod
 
-V tomto tutoriálu prozkoumáme, jak okamžitě načíst notebooky v Aspose.Note pro .NET. Okamžité načítání notebooků umožňuje efektivní manipulaci a zpracování dokumentů notebooku.
+tomto tutoriálu prozkoumáme, jak okamžitě načíst notebooky v Aspose.Note pro .NET. Okamžité načítání notebooků umožňuje efektivní manipulaci a zpracování dokumentů notebooku.
 
 ## Předpoklady
 
@@ -19,7 +19,7 @@ Než začneme, ujistěte se, že máte následující předpoklady:
 2. .NET Framework: Ujistěte se, že máte v systému nainstalované rozhraní .NET Framework.
 3. Vývojové prostředí: Nastavte vývojové prostředí, jako je Visual Studio nebo jakékoli jiné IDE, které podporuje vývoj .NET.
 
-## Importovat jmenné prostory
+## Import jmenných prostorů
 
 Chcete-li začít, importujte potřebné jmenné prostory potřebné pro práci s Aspose.Note pro .NET:
 
@@ -61,7 +61,7 @@ foreach (INotebookChildNode notebookChildNode in notebook.OfType<Document>())
 
 ## Závěr
 
- V tomto tutoriálu jsme se naučili, jak okamžitě načíst notebooky v Aspose.Note pro .NET. Nastavením`InstantLoading` vlajka v`NotebookLoadOptions`, můžeme efektivně iterovat prostřednictvím předinstalovaných dokumentů notebooku, což zvyšuje výkon a produktivitu.
+ tomto tutoriálu jsme se naučili, jak okamžitě načíst notebooky v Aspose.Note pro .NET. Nastavením`InstantLoading` vlajka v`NotebookLoadOptions`, můžeme efektivně iterovat prostřednictvím předinstalovaných dokumentů notebooku, což zvyšuje výkon a produktivitu.
 
 ## FAQ
 

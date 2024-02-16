@@ -138,7 +138,7 @@ A2: Ja, Sie können vorhandene OneNote-Dateien programmgesteuert mit Aspose.Note
 
 ### F3: Benötigt Aspose.Note für .NET eine Lizenz für die kommerzielle Nutzung?
 
- A3: Ja, Sie müssen eine Lizenz für die kommerzielle Nutzung von Aspose.Note für .NET erwerben. Eine Lizenz erhalten Sie bei der[Kaufseite](https://purchase.aspose.com/buy).
+A3: Ja, Sie müssen eine Lizenz für die kommerzielle Nutzung von Aspose.Note für .NET erwerben. Eine Lizenz erhalten Sie bei der[Kaufseite](https://purchase.aspose.com/buy).
 
 ### F4: Gibt es eine kostenlose Testversion für Aspose.Note für .NET?
 

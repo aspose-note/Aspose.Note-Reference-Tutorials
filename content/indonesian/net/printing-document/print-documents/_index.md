@@ -57,7 +57,7 @@ var document = new Document(dataDir + "Aspose.one");
 
 ## Langkah 2: Cetak Dokumen
 
- Panggil`Print` metode pada`Document`objek untuk memulai proses pencetakan. Metode ini mengirimkan dokumen ke printer default menggunakan dialog standar Windows dengan opsi default.
+ Panggil`Print` metode pada`Document` objek untuk memulai proses pencetakan. Metode ini mengirimkan dokumen ke printer default menggunakan dialog standar Windows dengan opsi default.
 
 ```csharp
 document.Print();

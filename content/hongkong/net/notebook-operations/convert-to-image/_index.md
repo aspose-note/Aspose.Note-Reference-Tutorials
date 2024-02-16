@@ -72,7 +72,7 @@ A2：是的，除了圖片之外，Aspose.Note for .NET 還支援轉換為各種
 
 ### Q3：Aspose.Note for .NET 有試用版嗎？
 
- A3：是的，您可以從以下位置下載免費試用版：[這裡](https://releases.aspose.com/)，讓您可以在購買前探索功能。
+A3：是的，您可以從以下位置下載免費試用版：[這裡](https://releases.aspose.com/)，讓您可以在購買前探索功能。
 
 ### 問題 4：如何獲得 Aspose.Note for .NET 支援？
 

@@ -9,7 +9,7 @@ url: /zh/net/images/insert-image-using-image-stream/
 ---
 ## 介绍
 
-在本教程中，我们将探讨如何使用 .NET 中的图像流将图像插入到 Aspose.Note 文档中。 Aspose.Note 是一个功能强大的 API，允许开发人员以编程方式处理 Microsoft OneNote 文件。通过遵循本指南中概述的步骤，您将了解如何将图像无缝集成到 Note 文档中，从而增强其视觉吸引力和整体功能。
+在本教程中，我们将探讨如何使用 .NET 中的图像流将图像插入到 Aspose.Note 文档中。 Aspose.Note 是一个功能强大的 API，允许开发人员以编程方式使用 Microsoft OneNote 文件。通过遵循本指南中概述的步骤，您将了解如何将图像无缝集成到 Note 文档中，从而增强其视觉吸引力和整体功能。
 
 ## 先决条件
 

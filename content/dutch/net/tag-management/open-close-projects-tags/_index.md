@@ -103,7 +103,7 @@ A1: Aspose.Note ondersteunt Microsoft OneNote 2010 en nieuwere versies.
 
 ### V3: Biedt Aspose.Note een gratis proefperiode?
 
-A3: Ja, u kunt een gratis proefperiode krijgen[hier](https://releases.aspose.com/).
+ A3: Ja, u kunt een gratis proefperiode krijgen[hier](https://releases.aspose.com/).
 
 ### V4: Waar kan ik documentatie voor Aspose.Note vinden?
 
@@ -111,4 +111,4 @@ A3: Ja, u kunt een gratis proefperiode krijgen[hier](https://releases.aspose.com
 
 ### V5: Waar kan ik ondersteuning krijgen voor Aspose.Note?
 
-A5: Voor ondersteuning kunt u terecht op Aspose.Note[forum](https://forum.aspose.com/c/note/28).
+ A5: Voor ondersteuning kunt u terecht op Aspose.Note[forum](https://forum.aspose.com/c/note/28).

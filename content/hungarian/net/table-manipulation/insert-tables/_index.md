@@ -13,7 +13,7 @@ Ebben az oktatóanyagban megvizsgáljuk, hogyan használható az Aspose.Note for
 
 ## Előfeltételek
 
-Mielőtt elkezdené, győződjön meg arról, hogy rendelkezik az alábbiakkal:
+Mielőtt elkezdené, győződjön meg arról, hogy rendelkezik a következőkkel:
 - A C# programozási nyelv alapvető ismerete.
 - Az Aspose.Note telepítve a .NET SDK-hoz.
 - Integrált fejlesztői környezet (IDE), például a Visual Studio.

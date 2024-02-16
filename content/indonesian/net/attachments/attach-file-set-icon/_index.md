@@ -108,7 +108,7 @@ Dalam tutorial ini, kita menjelajahi cara melampirkan file dan mengatur ikonnya 
 
 ### Q1: Bisakah saya melampirkan banyak file ke satu catatan menggunakan Aspose.Note untuk .NET?
 
-A1: Ya, Anda dapat melampirkan banyak file ke catatan dengan mengulangi proses yang dijelaskan dalam tutorial ini untuk setiap file.
+A1: Ya, Anda dapat melampirkan banyak file ke catatan dengan mengulangi proses yang diuraikan dalam tutorial ini untuk setiap file.
 
 ### Q2: Apakah mungkin untuk mengatur ikon khusus untuk lampiran file?
 

@@ -106,4 +106,4 @@ A4: Ja, Aspose.Note für .NET unterstützt die Dokumentenverschlüsselung, um di
 
 ### F5: Wo finde ich weitere Ressourcen und Unterstützung für Aspose.Note für .NET?
 
- A5: Sie können das erkunden[Aspose.Note für .NET-Dokumentation](https://reference.aspose.com/note/net/) und suchen Sie Hilfe bei der[Aspose.Note-Forum](https://forum.aspose.com/c/note/28).
+ A5: Sie können das erkunden[Aspose.Note für .NET-Dokumentation](https://reference.aspose.com/note/net/)und suchen Sie Hilfe bei der[Aspose.Note-Forum](https://forum.aspose.com/c/note/28).

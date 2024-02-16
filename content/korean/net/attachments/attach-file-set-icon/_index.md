@@ -11,7 +11,7 @@ url: /ko/net/attachments/attach-file-set-icon/
 
 .NET 개발 영역에서 Aspose.Note는 Microsoft OneNote 문서를 프로그래밍 방식으로 조작하기 위한 강력한 도구로 돋보입니다. 개발자는 해당 기능을 활용하여 응용 프로그램 내에서 OneNote 파일 생성, 편집 및 관리와 관련된 다양한 작업을 자동화할 수 있습니다. 필수 기능 중 하나는 파일을 노트에 첨부하고 해당 첨부 파일에 대한 아이콘을 설정하는 기능입니다. 이번 튜토리얼에서는 Aspose.Note for .NET을 사용하여 파일을 첨부하고 아이콘을 설정하는 과정을 살펴보겠습니다.
 
-## 전제 조건
+## 전제조건
 
 이 튜토리얼을 시작하기 전에 다음 전제 조건이 충족되었는지 확인하세요.
 
@@ -53,7 +53,7 @@ Aspose.Note.Page page = new Aspose.Note.Page(doc);
 Outline outline = new Outline(doc);
 ```
 
-### 4단계: OutlineElement 개체 초기화
+### 4단계: OutlineElement 객체 초기화
 
 ```csharp
 OutlineElement outlineElem = new OutlineElement(doc);

@@ -40,7 +40,7 @@ var page = new Page(document);
 
 ## Passaggio 2: inserisci l'immagine con il collegamento ipertestuale
 
- Ora inseriamo l'immagine con un collegamento ipertestuale. Creeremo un`Image` oggetto e impostarlo`HyperlinkUrl` proprietà all'URL desiderato.
+Ora inseriamo l'immagine con un collegamento ipertestuale. Creeremo un`Image` oggetto e impostarlo`HyperlinkUrl` proprietà all'URL desiderato.
 
 ```csharp
 string imagePath = "path_to_your_image.jpg";

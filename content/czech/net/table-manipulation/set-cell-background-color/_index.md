@@ -18,7 +18,7 @@ Než začneme, ujistěte se, že máte následující předpoklady:
 1.  Instalace Aspose.Note pro .NET: Ujistěte se, že jste nainstalovali Aspose.Note pro .NET. Můžete si jej stáhnout z[tady](https://releases.aspose.com/note/net/).
 2. Znalost jazyka C#: K implementaci poskytnutých fragmentů kódu je nutná základní znalost programovacího jazyka C#.
 
-## Importovat jmenné prostory
+## Import jmenných prostorů
 
 Nejprve importujme potřebné jmenné prostory do našeho projektu:
 

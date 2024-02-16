@@ -11,7 +11,7 @@ url: /ko/net/printing-document/print-documents/
 
 .NET 개발 영역에서 Aspose.Note는 OneNote 파일을 관리하고 조작하기 위한 강력한 도구 역할을 합니다. 수많은 기능 중에서 중요한 기능 중 하나는 .NET 응용 프로그램에서 직접 문서를 인쇄하는 기능입니다. 이 튜토리얼은 .NET용 Aspose.Note를 사용하여 문서를 인쇄하는 과정을 안내하고 그에 따른 단계별 지침을 제공합니다.
 
-## 전제 조건
+## 전제조건
 
 .NET용 Aspose.Note를 사용하여 인쇄 프로세스를 시작하기 전에 다음 전제 조건이 충족되었는지 확인하세요.
 
@@ -57,7 +57,7 @@ var document = new Document(dataDir + "Aspose.one");
 
 ## 2단계: 문서 인쇄
 
- 호출`Print` 에 대한 방법`Document`인쇄 프로세스를 시작하는 개체입니다. 이 방법은 기본 옵션이 포함된 표준 Windows 대화 상자를 사용하여 문서를 기본 프린터로 보냅니다.
+ 호출`Print` 에 대한 방법`Document` 인쇄 프로세스를 시작하는 개체입니다. 이 방법은 기본 옵션이 포함된 표준 Windows 대화 상자를 사용하여 문서를 기본 프린터로 보냅니다.
 
 ```csharp
 document.Print();

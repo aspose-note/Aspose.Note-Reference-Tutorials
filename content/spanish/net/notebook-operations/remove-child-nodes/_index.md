@@ -69,7 +69,7 @@ notebook.Save(dataDir);
 
 ## Conclusión
 
-¡Felicidades! Ha aprendido con éxito cómo eliminar nodos secundarios en Aspose.Note para .NET. Con solo unos sencillos pasos, puede administrar eficientemente sus blocs de notas OneNote mediante programación, mejorando la productividad y la flexibilidad de sus aplicaciones.
+¡Felicidades! Ha aprendido con éxito cómo eliminar nodos secundarios en Aspose.Note para .NET. Con sólo unos sencillos pasos, puede administrar eficientemente sus blocs de notas OneNote mediante programación, mejorando la productividad y la flexibilidad de sus aplicaciones.
 
 ## Preguntas frecuentes
 

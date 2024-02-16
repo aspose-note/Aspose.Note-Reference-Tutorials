@@ -9,13 +9,13 @@ url: /cs/net/tag-management/open-close-projects-tags/
 ---
 ## Úvod
 
-V tomto tutoriálu se naučíme, jak používat Aspose.Note pro .NET k otevírání a zavírání projektů pomocí značek. Aspose.Note je výkonné rozhraní API, které umožňuje vývojářům pracovat se soubory Microsoft OneNote programově, což umožňuje úkoly, jako je manipulace s textem, obrázky a tagy v dokumentech.
+tomto tutoriálu se naučíme, jak používat Aspose.Note pro .NET k otevírání a zavírání projektů pomocí značek. Aspose.Note je výkonné rozhraní API, které umožňuje vývojářům pracovat se soubory Microsoft OneNote programově, což umožňuje úkoly, jako je manipulace s textem, obrázky a tagy v dokumentech.
 
 ## Předpoklady
 
 Než začneme, ujistěte se, že máte nastaveny následující předpoklady:
 
-## Importovat jmenné prostory
+## Import jmenných prostorů
 
 ```csharp
 using System.IO;
@@ -103,7 +103,7 @@ Odpověď 1: Aspose.Note podporuje Microsoft OneNote 2010 a novější verze.
 
 ### Q3: Nabízí Aspose.Note bezplatnou zkušební verzi?
 
-A3: Ano, můžete získat bezplatnou zkušební verzi[tady](https://releases.aspose.com/).
+ A3: Ano, můžete získat bezplatnou zkušební verzi[tady](https://releases.aspose.com/).
 
 ### Q4: Kde najdu dokumentaci k Aspose.Note?
 
@@ -111,4 +111,4 @@ A3: Ano, můžete získat bezplatnou zkušební verzi[tady](https://releases.asp
 
 ### Q5: Kde mohu získat podporu pro Aspose.Note?
 
-A5: Pro podporu můžete navštívit Aspose.Note[Fórum](https://forum.aspose.com/c/note/28).
+ A5: Pro podporu můžete navštívit Aspose.Note[Fórum](https://forum.aspose.com/c/note/28).

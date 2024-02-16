@@ -76,11 +76,11 @@ Câu trả lời 1: Không, cần có giấy phép hợp lệ để sử dụng 
 
 ### Câu 3: Có bản dùng thử miễn phí không?
 
-A3: Có, bạn có thể dùng thử miễn phí[đây](https://releases.aspose.com/).
+ A3: Có, bạn có thể dùng thử miễn phí[đây](https://releases.aspose.com/).
 
 ### Q4: Làm thế nào tôi có thể nhận được hỗ trợ?
 
- Câu trả lời 4: Bạn có thể nhận hỗ trợ từ cộng đồng Aspose.Note[diễn đàn](https://forum.aspose.com/c/note/28).
+Câu trả lời 4: Bạn có thể nhận hỗ trợ từ cộng đồng Aspose.Note[diễn đàn](https://forum.aspose.com/c/note/28).
 
 ### Câu 5: Bạn có cung cấp giấy phép tạm thời không?
 

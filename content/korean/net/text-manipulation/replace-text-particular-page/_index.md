@@ -9,7 +9,7 @@ url: /ko/net/text-manipulation/replace-text-particular-page/
 ---
 ## 소개
 .NET 개발 세계에서 Aspose.Note는 Microsoft OneNote 파일을 프로그래밍 방식으로 조작하기 위한 강력한 도구로 돋보입니다. 개발자가 자주 직면하는 일반적인 작업 중 하나는 Aspose.Note 문서 내 특정 페이지의 텍스트를 바꾸는 것입니다. 이 단계별 가이드에서는 .NET용 Aspose.Note를 사용하여 이를 달성하는 방법을 살펴보겠습니다.
-## 전제 조건
+## 전제조건
 튜토리얼을 시작하기 전에 다음 전제 조건이 충족되었는지 확인하세요.
 - C# 및 .NET 프로그래밍에 대한 기본 이해.
 - Visual Studio 또는 선호하는 .NET 개발 환경을 설치했습니다.

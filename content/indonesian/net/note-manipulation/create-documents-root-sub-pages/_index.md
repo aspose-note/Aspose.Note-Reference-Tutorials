@@ -38,7 +38,7 @@ using System.Drawing;
 ## Langkah 1: Inisialisasi Objek Dokumen
 
 ```csharp
-// Buat objek kelas Dokumen
+//Buat objek kelas Dokumen
 Document doc = new Document();
 ```
 

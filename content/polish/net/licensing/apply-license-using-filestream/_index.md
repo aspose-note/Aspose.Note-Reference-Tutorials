@@ -9,7 +9,7 @@ url: /pl/net/licensing/apply-license-using-filestream/
 ---
 ## Wstęp
 
-Aspose.Note dla .NET to potężny interfejs API, który umożliwia programistom programową pracę z plikami Microsoft OneNote. Niezależnie od tego, czy chcesz tworzyć, czytać, modyfikować czy konwertować dokumenty OneNote, Aspose.Note dla .NET zapewnia kompleksowe funkcje usprawniające przepływ pracy. W tym samouczku omówimy, jak zastosować licencję Aspose.Note przy użyciu FileStream, upewniając się, że aplikacja ma odpowiednią licencję do użytku produkcyjnego.
+Aspose.Note dla .NET to potężny interfejs API, który umożliwia programistom programową pracę z plikami Microsoft OneNote. Niezależnie od tego, czy chcesz tworzyć, czytać, modyfikować czy konwertować dokumenty OneNote, Aspose.Note dla .NET zapewnia kompleksowe funkcje usprawniające przepływ pracy. W tym samouczku omówimy, jak zastosować licencję Aspose.Note przy użyciu FileStream, upewniając się, że Twoja aplikacja ma odpowiednią licencję do użytku produkcyjnego.
 
 ## Warunki wstępne
 
@@ -76,11 +76,11 @@ Odpowiedź 1: Nie, do korzystania z pełnej funkcjonalności Aspose.Note wymagan
 
 ### P3: Czy dostępny jest bezpłatny okres próbny?
 
-A3: Tak, możesz uzyskać bezpłatną wersję próbną[Tutaj](https://releases.aspose.com/).
+ A3: Tak, możesz uzyskać bezpłatną wersję próbną[Tutaj](https://releases.aspose.com/).
 
 ### P4: Jak mogę uzyskać wsparcie?
 
- O4: Możesz uzyskać wsparcie od społeczności Aspose.Note[forum](https://forum.aspose.com/c/note/28).
+O4: Możesz uzyskać wsparcie od społeczności Aspose.Note[forum](https://forum.aspose.com/c/note/28).
 
 ### P5: Czy oferujecie licencje tymczasowe?
 

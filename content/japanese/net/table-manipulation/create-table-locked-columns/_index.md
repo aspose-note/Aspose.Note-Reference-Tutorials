@@ -142,7 +142,7 @@ A3: はい、Aspose.Note for .NET は他の .NET フレームワークとシー�
 
 ### Q4: Aspose.Note for .NET のテクニカル サポートは利用できますか?
 
- A4: はい、テクニカル サポートにアクセスできます。[Aspose.Note フォーラム](https://forum.aspose.com/c/note/28)専門家が、遭遇する可能性のある質問や問題についてサポートします。
+A4: はい、テクニカル サポートにアクセスできます。[Aspose.Note フォーラム](https://forum.aspose.com/c/note/28)専門家が、遭遇する可能性のある質問や問題についてサポートします。
 
 ### Q5: 購入する前に Aspose.Note for .NET を試すことはできますか?
 

@@ -79,4 +79,4 @@ Podsumowując, opanowanie sztuki zastępowania tekstu na wszystkich stronach za 
 ### P: Gdzie mogę znaleźć więcej samouczków i dokumentacji dla Aspose.Note dla .NET?
  O: Odwiedź[dokumentacja](https://reference.aspose.com/note/net/) w celu uzyskania szczegółowych zasobów i samouczków.
 ### P: Czy mogę używać Aspose.Note do projektów komercyjnych?
- Odpowiedź: Tak, sprawdź opcje licencjonowania i dokonaj zakupów[Tutaj](https://purchase.aspose.com/buy).
+Odpowiedź: Tak, sprawdź opcje licencjonowania i dokonaj zakupów[Tutaj](https://purchase.aspose.com/buy).

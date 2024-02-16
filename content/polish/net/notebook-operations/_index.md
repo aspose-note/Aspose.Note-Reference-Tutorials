@@ -10,7 +10,7 @@ url: /pl/net/notebook-operations/
 
 ## Wstęp
 
-Czy jesteś gotowy, aby zostać mistrzem w Aspose Note .NET? Zapoznaj się z naszymi obszernymi samouczkami dotyczącymi różnych operacji na notebookach. Od dodawania węzłów podrzędnych po tworzenie dokumentów chronionych hasłem – mamy wszystko, czego potrzebujesz!
+Czy jesteś gotowy, aby zostać mistrzem w Aspose Note .NET? Zapoznaj się z naszymi obszernymi samouczkami dotyczącymi różnych operacji na notebooku. Od dodawania węzłów podrzędnych po tworzenie dokumentów chronionych hasłem – mamy wszystko, czego potrzebujesz!
 
 ## Dodaj węzły podrzędne w Aspose Note .NET
 Odblokuj moc Aspose Note .NET, bez wysiłku dodając węzły podrzędne. Zwiększ swoje umiejętności manipulowania dokumentami dzięki naszemu przewodnikowi krok po kroku.[Ucz się więcej](./add-child-nodes/)

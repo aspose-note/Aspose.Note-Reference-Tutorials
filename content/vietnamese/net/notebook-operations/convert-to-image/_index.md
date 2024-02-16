@@ -72,7 +72,7 @@ Câu trả lời 2: Có, ngoài hình ảnh, Aspose.Note for .NET còn hỗ tr�
 
 ### Câu hỏi 3: Có phiên bản dùng thử cho Aspose.Note cho .NET không?
 
- Đ3: Có, bạn có thể tải xuống phiên bản dùng thử miễn phí từ[đây](https://releases.aspose.com/), cho phép bạn khám phá các tính năng trước khi mua hàng.
+Đ3: Có, bạn có thể tải xuống phiên bản dùng thử miễn phí từ[đây](https://releases.aspose.com/), cho phép bạn khám phá các tính năng trước khi mua hàng.
 
 ### Câu hỏi 4: Làm cách nào tôi có thể nhận được hỗ trợ cho Aspose.Note cho .NET?
 

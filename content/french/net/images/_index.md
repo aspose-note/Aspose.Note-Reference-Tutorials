@@ -35,7 +35,7 @@ url: /fr/net/images/
 Embarquez pour un voyage d'amélioration visuelle avec Aspose.Note pour .NET dans le monde des documents OneNote. Explorez nos didacticiels, suivez les étapes détaillées et libérez tout le potentiel de la manipulation d'images dans vos fichiers OneNote. Élevez vos compétences en développement et créez sans effort des documents visuellement époustouflants.
 ## Tutoriels d'images
 ### [Créer un document et insérer une image dans Aspose.Note](./build-doc-insert-image/)
-Découvrez comment insérer des images dans des documents OneNote par programmation à l'aide d'Aspose.Note pour .NET. Étapes simples pour une manipulation fluide des documents.
+Découvrez comment insérer des images dans des documents OneNote par programmation à l'aide d'Aspose.Note pour .NET. Étapes simples pour une manipulation transparente des documents.
 ### [Insérer des images à l'aide d'Image Stream dans Aspose.Note](./insert-image-using-image-stream/)
 Découvrez comment insérer de manière transparente des images dans des documents Aspose.Note à l'aide de flux d'images dans .NET. Améliorez vos fichiers Note avec des visuels sans effort.
 ### [Extraire des images de documents Aspose.Note](./extract-images/)

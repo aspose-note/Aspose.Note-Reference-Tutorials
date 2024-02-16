@@ -81,7 +81,7 @@ R1: Sí, Aspose.Note para .NET proporciona API integrales para trabajar con arch
 
 ### P2: ¿Hay una prueba gratuita disponible para Aspose.Note para .NET?
 
- R2: Sí, puede aprovechar una prueba gratuita de Aspose.Note para .NET desde[aquí](https://releases.aspose.com/).
+R2: Sí, puede aprovechar una prueba gratuita de Aspose.Note para .NET desde[aquí](https://releases.aspose.com/).
 
 ### P3: ¿Dónde puedo encontrar documentación para Aspose.Note para .NET?
 

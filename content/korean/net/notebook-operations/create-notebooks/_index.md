@@ -11,7 +11,7 @@ url: /ko/net/notebook-operations/create-notebooks/
 
 이 튜토리얼에서는 Aspose.Note for .NET을 사용하여 노트북을 만드는 복잡한 과정을 살펴보겠습니다. Aspose.Note는 개발자가 Microsoft OneNote 파일을 프로그래밍 방식으로 조작할 수 있도록 하는 강력한 라이브러리로, 문서 관리 및 처리 작업을 간소화하는 다양한 기능을 제공합니다.
 
-## 전제 조건
+## 전제조건
 
 시작하기 전에 다음 전제 조건이 충족되었는지 확인하세요.
 
@@ -92,7 +92,7 @@ A1: 예, .NET용 Aspose.Note는 .NET Core 및 .NET Standard를 포함한 다양�
 
 ### Q4: .NET용 Aspose.Note의 임시 라이선스를 구입할 수 있나요?
 
- A4: 예, Aspose 웹사이트에서 임시 라이선스를 얻을 수 있습니다.[임시면허](https://purchase.aspose.com/temporary-license/).
+A4: 예, Aspose 웹사이트에서 임시 라이선스를 얻을 수 있습니다.[임시면허](https://purchase.aspose.com/temporary-license/).
 
 ### Q5: .NET용 Aspose.Note에 대한 포괄적인 문서는 어디에서 찾을 수 있습니까?
 

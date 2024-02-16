@@ -57,7 +57,7 @@ var document = new Document(dataDir + "Aspose.one");
 
 ## 2. lépés: Nyomtasson dokumentumot
 
- Hívja fel a`Print` módszer a`Document`tiltakozik a nyomtatási folyamat elindítására. Ez a módszer elküldi a dokumentumot az alapértelmezett nyomtatóra az alapértelmezett beállításokkal rendelkező szabványos Windows párbeszédpanelen.
+ Hívja fel a`Print` módszer a`Document` tiltakozik a nyomtatási folyamat elindítására. Ez a módszer elküldi a dokumentumot az alapértelmezett nyomtatóra az alapértelmezett beállításokkal rendelkező szabványos Windows párbeszédpanelen.
 
 ```csharp
 document.Print();
@@ -65,7 +65,7 @@ document.Print();
 
 ## Következtetés
 
-A dokumentumok nyomtatása az Aspose.Note for .NET használatával egy egyszerű folyamat, amely zökkenőmentesen integrálható .NET-alkalmazásaiba. Az oktatóanyagban ismertetett lépések követésével könnyedén, hatékonyan nyomtathat ki OneNote-dokumentumokat.
+dokumentumok nyomtatása az Aspose.Note for .NET használatával egy egyszerű folyamat, amely zökkenőmentesen integrálható .NET-alkalmazásaiba. Az oktatóanyagban ismertetett lépések követésével könnyedén, hatékonyan nyomtathat ki OneNote-dokumentumokat.
 
 ## GYIK
 

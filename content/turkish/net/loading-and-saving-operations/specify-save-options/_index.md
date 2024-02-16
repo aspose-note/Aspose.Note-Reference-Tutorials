@@ -53,7 +53,7 @@ PdfSaveOptions opts = new PdfSaveOptions
     // Jpeg sıkıştırmasını kullan
     ImageCompression = Saving.Pdf.PdfImageCompression.Jpeg,
     
-    //JPEG sıkıştırma kalitesi
+    // JPEG sıkıştırma kalitesi
     JpegQuality = 90
 };
 ```
@@ -89,7 +89,7 @@ Cevap3: Kesinlikle, Aspose.Note for .NET; görüntüler, HTML ve Microsoft Word 
 
 ### S4: Aspose.Note kullanılarak işlenebilecek OneNote belgelerinin boyutunda herhangi bir sınırlama var mı?
 
-Cevap4: Aspose.Note, küçük notlardan büyük not defterlerine kadar çeşitli boyutlardaki OneNote belgelerini, dosya boyutuna önemli sınırlamalar getirmeden işlemek için tasarlanmıştır.
+Cevap4: Aspose.Note, dosya boyutunda önemli sınırlamalar getirmeden, küçük notlardan büyük not defterlerine kadar çeşitli boyutlardaki OneNote belgelerini işlemek için tasarlanmıştır.
 
 ### S5: Aspose.Note, sorunlarla karşılaşan geliştiricilere destek ve yardım sunuyor mu?
 

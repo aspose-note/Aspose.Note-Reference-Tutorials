@@ -79,6 +79,6 @@ Igen, az Aspose.Note rendszeresen frissül, hogy támogassa a legújabb .NET-ker
 ### K: Lecserélhetem a szöveget más típusú csomópontokban?
 Teljesen. Ez az oktatóanyag a RichText csomópontokra összpontosított, de az Aspose.Note módszereket kínál a különféle csomóponttípusokkal való munkavégzéshez.
 ### K: Hogyan kezelhetem a szövegcsere során fellépő hibákat?
-A hibakezelést try-catch blokkokkal valósíthatja meg a folyamat során előforduló kivételek kezelésére.
+A hibakezelést try-catch blokkokkal valósíthatja meg a folyamat során esetlegesen előforduló kivételek kezelésére.
 ### K: Létezik közösségi fórum az Aspose.Note támogatására?
  Igen, kérhet segítséget, és megoszthatja tapasztalatait az oldalon[Aspose.Note fórum](https://forum.aspose.com/c/note/28).

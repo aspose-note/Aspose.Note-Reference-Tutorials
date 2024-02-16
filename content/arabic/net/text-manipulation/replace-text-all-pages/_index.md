@@ -79,4 +79,4 @@ Console.WriteLine("\nText replaced successfully on all pages.\nFile saved at " +
 ### س: أين يمكنني العثور على المزيد من البرامج التعليمية والوثائق الخاصة بـ Aspose.Note لـ .NET؟
  ج: قم بزيارة[توثيق](https://reference.aspose.com/note/net/) للحصول على موارد ودروس متعمقة.
 ### س: هل يمكنني استخدام Aspose.Note للمشاريع التجارية؟
- ج: نعم، استكشف خيارات الترخيص وقم بإجراء عمليات الشراء[هنا](https://purchase.aspose.com/buy).
+ج: نعم، استكشف خيارات الترخيص وقم بإجراء عمليات الشراء[هنا](https://purchase.aspose.com/buy).

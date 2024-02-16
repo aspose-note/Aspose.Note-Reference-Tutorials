@@ -9,7 +9,7 @@ url: /pl/net/loading-and-saving-operations/consequent-export-operations/
 ---
 ## Wstęp
 
-W tym samouczku zajmiemy się wykonywaniem kolejnych operacji eksportu przy użyciu Aspose.Note dla .NET. Aspose.Note to potężna biblioteka, która umożliwia programistom programową pracę z plikami Microsoft OneNote. Eksportowanie dokumentów do różnych formatów jest powszechnym wymaganiem, a Aspose.Note skutecznie upraszcza to zadanie. Przyjrzyjmy się krok po kroku, jak zapisać dokument w różnych formatach.
+W tym samouczku zagłębimy się w wykonywanie kolejnych operacji eksportu przy użyciu Aspose.Note dla .NET. Aspose.Note to potężna biblioteka, która umożliwia programistom programową pracę z plikami Microsoft OneNote. Eksportowanie dokumentów do różnych formatów jest powszechnym wymaganiem, a Aspose.Note skutecznie upraszcza to zadanie. Przyjrzyjmy się krok po kroku, jak zapisać dokument w różnych formatach.
 
 ## Warunki wstępne
 
@@ -41,7 +41,7 @@ Document doc = new Document() { AutomaticLayoutChangesDetectionEnabled = false }
 
 ## Krok 2: Zainicjuj nową stronę
 
- Stwórz nowy`Page` obiekt i określ jego właściwości:
+ Stwórz nowy`Page`obiekt i określ jego właściwości:
 
 ```csharp
 Aspose.Note.Page page = new Aspose.Note.Page(doc);
@@ -85,7 +85,7 @@ doc.Save(dataDir + "ConsequentExportOperations_out.bmp");
 
 ## Wniosek
 
-Podsumowując, nauczyliśmy się wykonywać kolejne operacje eksportu za pomocą Aspose.Note dla .NET. Wykonując kroki opisane w tym samouczku, możesz bezproblemowo zapisywać dokumenty programu OneNote w różnych formatach, zwiększając w ten sposób wszechstronność aplikacji.
+Podsumowując, nauczyliśmy się wykonywać kolejne operacje eksportu za pomocą Aspose.Note dla .NET. Wykonując czynności opisane w tym samouczku, możesz bezproblemowo zapisywać dokumenty programu OneNote w różnych formatach, zwiększając w ten sposób wszechstronność aplikacji.
 
 ## Często zadawane pytania
 

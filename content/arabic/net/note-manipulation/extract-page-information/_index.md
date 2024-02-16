@@ -15,7 +15,7 @@ url: /ar/net/note-manipulation/extract-page-information/
 
 قبل البدء، تأكد من توفر المتطلبات الأساسية التالية:
 
-1.  Aspose.Note لمكتبة .NET: تأكد من أنك قمت بتنزيل وتثبيت مكتبة Aspose.Note لمكتبة .NET. يمكنك تنزيله من[هنا](https://releases.aspose.com/note/net/).
+1. Aspose.Note لمكتبة .NET: تأكد من أنك قمت بتنزيل وتثبيت مكتبة Aspose.Note لمكتبة .NET. يمكنك تنزيله من[هنا](https://releases.aspose.com/note/net/).
 
 2. بيئة التطوير: قم بإعداد بيئة التطوير الخاصة بك باستخدام Visual Studio أو أي أداة تطوير .NET مفضلة أخرى.
 

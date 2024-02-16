@@ -13,7 +13,7 @@ Ebben az oktatóanyagban megtudjuk, hogyan használhatja az Aspose.Note for .NET
 
 ## Előfeltételek
 
-Mielőtt elkezdené, győződjön meg arról, hogy rendelkezik az alábbiakkal:
+Mielőtt elkezdené, győződjön meg arról, hogy rendelkezik a következőkkel:
 
 1.  Aspose.Note for .NET: Ha még nem tette meg, töltse le és telepítse az Aspose.Note for .NET programot innen:[itt](https://releases.aspose.com/note/net/).
 2. Fejlesztői környezet: Győződjön meg arról, hogy megfelelő fejlesztői környezetet állít be a .NET fejlesztéshez.

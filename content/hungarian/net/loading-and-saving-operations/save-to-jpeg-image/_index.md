@@ -15,7 +15,7 @@ Ebben az oktatóanyagban az Aspose.Note for .NET használatával foglalkozunk a 
 
 Mielőtt folytatná, győződjön meg arról, hogy rendelkezik a következőkkel:
 - A C# és .NET keretrendszer alapvető ismerete.
--  Aspose.Note for .NET telepítve. Ha nem, letöltheti innen[itt](https://releases.aspose.com/note/net/).
+- Aspose.Note for .NET telepítve. Ha nem, letöltheti innen[itt](https://releases.aspose.com/note/net/).
 - Integrált fejlesztői környezet (IDE), például a Visual Studio.
 - Minta dokumentumfájlok a munkához.
 
@@ -54,7 +54,7 @@ dataDir = dataDir + "SaveToJpegImageUsingSaveFormat_out.jpg";
 Mentse el a betöltött dokumentumot JPEG formátumba:
 
 ```csharp
-//Mentse el a dokumentumot.
+// Mentse el a dokumentumot.
 oneFile.Save(dataDir, SaveFormat.Jpeg);
 ```
 
@@ -82,4 +82,4 @@ Gratulálunk! Sikeresen elmentett egy dokumentumot JPEG formátumba az Aspose.No
 
 ### 5. kérdés: Hogyan kaphatok segítséget, ha bármilyen problémába ütközöm?
 
-5. válasz: Kérhet segítséget az Aspose közösségi fórumtól[itt](https://forum.aspose.com/c/note/28), vagy forduljon ügyfélszolgálati csapatához személyre szabott segítségért.
+ 5. válasz: Kérhet segítséget az Aspose közösségi fórumtól[itt](https://forum.aspose.com/c/note/28), vagy forduljon ügyfélszolgálati csapatához személyre szabott segítségért.

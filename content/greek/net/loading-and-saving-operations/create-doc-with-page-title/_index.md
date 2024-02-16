@@ -47,7 +47,7 @@ using System.Globalization;
 ## Βήμα 1: Δημιουργήστε ένα αντικείμενο εγγράφου
 
 ```csharp
-// Δημιουργήστε ένα αντικείμενο της κλάσης Document
+//Δημιουργήστε ένα αντικείμενο της κλάσης Document
 Document doc = new Aspose.Note.Document();
 ```
 

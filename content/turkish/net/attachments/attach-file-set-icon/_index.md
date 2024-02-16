@@ -124,4 +124,4 @@ Cevap4: Aspose.Note öncelikle yerel olarak depolanan veya akışlar aracılığ
 
 ### S5: Aspose.Note for .NET'te dosya ekleri için boyut sınırı var mı?
 
-Cevap5: Aspose.Note, dosya ekleri için belirli boyut sınırlamaları getirmez ancak sistem kaynaklarına ve performans değerlendirmelerine bağlı olarak pratik sınırlamalar geçerli olabilir.
+Cevap5: Aspose.Note, dosya ekleri için belirli boyut sınırlamaları getirmez ancak sistem kaynaklarına ve performans hususlarına bağlı olarak pratik sınırlamalar geçerli olabilir.

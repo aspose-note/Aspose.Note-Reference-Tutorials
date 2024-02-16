@@ -17,7 +17,7 @@ Prima di iniziare, assicurati di disporre dei seguenti prerequisiti:
 
 ### 1. Visual Studio installato
 
- Assicurati di avere Visual Studio installato sul tuo sistema. Puoi scaricarlo da[Qui](https://visualstudio.microsoft.com/).
+Assicurati di avere Visual Studio installato sul tuo sistema. Puoi scaricarlo da[Qui](https://visualstudio.microsoft.com/).
 
 ### 2. Aspose.Note per .NET installato
 

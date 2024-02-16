@@ -86,7 +86,7 @@ In questo tutorial, abbiamo trattato il processo passo passo per incorporare gli
 ### D: Aspose.Note è compatibile con l'ultima versione di .NET?
 R: Sì, Aspose.Note viene regolarmente aggiornato per supportare le ultime versioni di .NET.
 ### D: Dove posso trovare ulteriori esempi e documentazione?
- A: Esplora il completo[Documentazione Aspose.Note](https://reference.aspose.com/note/net/).
+A: Esplora il completo[Documentazione Aspose.Note](https://reference.aspose.com/note/net/).
 ### D: Come posso ottenere una licenza temporanea per Aspose.Note?
  R: Ottieni una licenza temporanea[Qui](https://purchase.aspose.com/temporary-license/).
 ### D: Dove posso chiedere assistenza o discutere domande relative ad Aspose.Note?

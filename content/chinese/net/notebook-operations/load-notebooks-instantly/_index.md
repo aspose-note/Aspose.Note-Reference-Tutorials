@@ -61,7 +61,7 @@ foreach (INotebookChildNode notebookChildNode in notebook.OfType<Document>())
 
 ## 结论
 
-在本教程中，我们学习了如何在 Aspose.Note for .NET 中立即加载笔记本。通过设置`InstantLoading`标志在`NotebookLoadOptions`，我们可以有效地迭代笔记本的预加载文档，从而提高性能和生产力。
+在本教程中，我们学习了如何在 Aspose.Note for .NET 中即时加载笔记本。通过设置`InstantLoading`标志在`NotebookLoadOptions`，我们可以有效地迭代笔记本的预加载文档，从而提高性能和生产力。
 
 ## 常见问题解答
 

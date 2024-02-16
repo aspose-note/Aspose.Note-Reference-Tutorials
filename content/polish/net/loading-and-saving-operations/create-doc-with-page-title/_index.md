@@ -47,7 +47,7 @@ Podzielmy teraz proces tworzenia dokumentu z tytułem strony na kilka kroków:
 ## Krok 1: Utwórz obiekt dokumentu
 
 ```csharp
-// Utwórz obiekt klasy Dokument
+//Utwórz obiekt klasy Dokument
 Document doc = new Aspose.Note.Document();
 ```
 

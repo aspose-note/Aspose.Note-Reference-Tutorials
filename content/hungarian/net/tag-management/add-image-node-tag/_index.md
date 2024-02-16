@@ -105,7 +105,7 @@ Az alábbi lépések követésével zökkenőmentesen hozzáadhat egy képcsomó
 
 ### 4. kérdés: Az Aspose.Note támogatja képek URL-ekből való hozzáadását?
 
-4. válasz: Az Aspose.Note elsősorban a helyi könyvtárakból származó képek hozzáadását támogatja, de beépíthet külső képeket, ha először helyileg tölti le őket.
+4. válasz: Az Aspose.Note elsősorban a helyi könyvtárakból származó képek hozzáadását támogatja, de külső képeket is beépíthet, ha először helyileg tölti le őket.
 
 ### 5. kérdés: Vannak-e korlátozások a hozzáadható képek méretére vagy formátumára vonatkozóan?
 

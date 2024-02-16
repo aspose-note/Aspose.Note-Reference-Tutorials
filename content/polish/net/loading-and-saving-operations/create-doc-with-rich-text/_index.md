@@ -9,7 +9,7 @@ url: /pl/net/loading-and-saving-operations/create-doc-with-rich-text/
 ---
 ## Wstęp
 
-dziedzinie programowania .NET Aspose.Note wyróżnia się jako potężne narzędzie do programowej obsługi plików Microsoft OneNote. Niezależnie od tego, czy chcesz zautomatyzować tworzenie dokumentów, czy manipulować istniejącymi notatkami, Aspose.Note zapewnia programistom kompleksowy zestaw funkcji. Wśród tych możliwości znajduje się możliwość generowania dokumentów tekstowych z różnymi opcjami formatowania. W tym samouczku zagłębimy się w proces tworzenia takich dokumentów krok po kroku za pomocą Aspose.Note dla .NET.
+W dziedzinie programowania .NET Aspose.Note wyróżnia się jako potężne narzędzie do programowej obsługi plików Microsoft OneNote. Niezależnie od tego, czy chcesz zautomatyzować tworzenie dokumentów, czy manipulować istniejącymi notatkami, Aspose.Note zapewnia programistom kompleksowy zestaw funkcji. Wśród tych możliwości znajduje się możliwość generowania dokumentów tekstowych z różnymi opcjami formatowania. W tym samouczku zagłębimy się w proces tworzenia takich dokumentów krok po kroku za pomocą Aspose.Note dla .NET.
 
 ## Warunki wstępne
 
@@ -73,7 +73,7 @@ Zdefiniuj domyślny styl tekstu, który będzie stosowany w całym dokumencie.
 RichText titleText = new RichText() { ParagraphStyle = defaultTextStyle }.Append("Title!");
 ```
 
- Zbuduj a`RichText` obiekt dla tytułu z określonym formatowaniem.
+ Zbuduj a`RichText`obiekt dla tytułu z określonym formatowaniem.
 
 ## Krok 6: Zainicjuj obiekty konspektu i elementu konspektu
 

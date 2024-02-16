@@ -92,8 +92,8 @@ A3：Aspose.Note 與其他.NET 函式庫無縫集成，為文件操作提供全�
 
 ### Q4：如何獲得 Aspose.Note 的支援？
 
-A4：您可以透過造訪取得 Aspose.Note 支持[Aspose.Note 論壇](https://forum.aspose.com/c/note/28)，您可以在其中提出問題並找到解決方案。
+ A4：您可以透過造訪取得 Aspose.Note 支持[Aspose.Note 論壇](https://forum.aspose.com/c/note/28)，您可以在其中提出問題並找到解決方案。
 
 ### Q5：Aspose.Note 有免費試用版嗎？
 
- A5：是的，您可以透過造訪免費試用 Aspose.Note[這裡](https://releases.aspose.com/).
+A5：是的，您可以透過造訪免費試用 Aspose.Note[這裡](https://releases.aspose.com/).

@@ -9,13 +9,13 @@ url: /sv/net/notebook-operations/add-child-nodes/
 ---
 ## Introduktion
 
-I den här handledningen kommer vi att lära oss hur du lägger till underordnade noder i Aspose Note .NET. Att lägga till underordnade noder är en grundläggande operation när man arbetar med dokument, och Aspose Note .NET ger ett enkelt sätt att utföra denna uppgift.
+den här handledningen kommer vi att lära oss hur du lägger till underordnade noder i Aspose Note .NET. Att lägga till underordnade noder är en grundläggande operation när man arbetar med dokument, och Aspose Note .NET ger ett enkelt sätt att utföra denna uppgift.
 
 ## Förutsättningar
 
 Innan vi börjar, se till att du har följande:
 
-1. Aspose.Note for .NET: Se till att du har Aspose.Note for .NET installerat i din utvecklingsmiljö. Du kan ladda ner den från[hemsida](https://releases.aspose.com/note/net/).
+1.  Aspose.Note for .NET: Se till att du har Aspose.Note for .NET installerat i din utvecklingsmiljö. Du kan ladda ner den från[hemsida](https://releases.aspose.com/note/net/).
 
 2. Utvecklingsmiljö: Konfigurera en .NET-utvecklingsmiljö, till exempel Visual Studio.
 

@@ -50,7 +50,7 @@ foreach (OutlineElement node in nodes)
     if (node.NumberList != null)
     {
         NumberList list = node.NumberList;
-        // Lanjutkan ke langkah berikutnya...
+        // Lanjutkan ke langkah selanjutnya...
     }
 }
 ```
@@ -84,6 +84,6 @@ Ya, Aspose.Note mendukung berbagai format OneNote, memastikan kompatibilitas den
 ### Bagaimana saya bisa mendapatkan lisensi sementara untuk Aspose.Note?
  Mengunjungi[Link ini](https://purchase.aspose.com/temporary-license/) untuk mendapatkan izin sementara untuk tujuan evaluasi.
 ### Opsi dukungan apa yang tersedia untuk pengguna Aspose.Note?
- Anda dapat menjelajahi dan mencari bantuan di[Aspose.Catatan forum](https://forum.aspose.com/c/note/28) untuk pertanyaan atau masalah apa pun yang mungkin Anda temui.
+Anda dapat menjelajahi dan mencari bantuan di[Aspose.Catatan forum](https://forum.aspose.com/c/note/28) untuk pertanyaan atau masalah apa pun yang mungkin Anda temui.
 ### Apakah ada versi uji coba gratis Aspose.Note untuk .NET?
  Ya, Anda dapat mengakses Aspose.Note versi uji coba gratis untuk .NET[Di Sini](https://releases.aspose.com/).

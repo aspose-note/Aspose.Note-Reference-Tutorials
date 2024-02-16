@@ -11,7 +11,7 @@ url: /ar/net/text-manipulation/set-default-paragraph-style/
 في مجال تطوير .NET، يبرز Aspose.Note كأداة قوية للعمل مع ملفات OneNote. إحدى الميزات الأساسية التي تقدمها هي القدرة على تعيين أنماط الفقرة الافتراضية، مما يوفر للمطورين المرونة للتحكم في مظهر النص في مستنداتهم. في هذا البرنامج التعليمي، سوف نتعمق في عملية تعيين أنماط الفقرة الافتراضية باستخدام Aspose.Note لـ .NET. تابع معنا بينما نقوم بتفصيل كل خطوة لمساعدتك على إتقان هذا الجانب الحاسم من معالجة المستندات.
 ## المتطلبات الأساسية
 قبل أن نتعمق في البرنامج التعليمي، تأكد من توفر المتطلبات الأساسية التالية:
--  Aspose.Note لـ .NET: تأكد من تثبيت مكتبة Aspose.Note لـ .NET. يمكنك تنزيله من[Aspose.Note وثائق .NET](https://reference.aspose.com/note/net/).
+- Aspose.Note لـ .NET: تأكد من تثبيت مكتبة Aspose.Note لـ .NET. يمكنك تنزيله من[Aspose.Note وثائق .NET](https://reference.aspose.com/note/net/).
 - بيئة التطوير المتكاملة (IDE): احصل على بيئة تطوير متكاملة فعالة لتطوير .NET، مثل Visual Studio، مثبتة على جهازك.
 والآن بعد أن أصبحت لديك الأدوات اللازمة، دعنا ننتقل إلى الخطوات التالية.
 ## استيراد مساحات الأسماء
@@ -79,4 +79,4 @@ document.Save(Path.Combine("Your Document Directory", "SetDefaultParagraphStyle.
 ### هل Aspose.Note متوافق مع أحدث أطر عمل .NET؟
 نعم، يتم تحديث Aspose.Note بانتظام لضمان التوافق مع أحدث أطر عمل .NET.
 ### هل التراخيص المؤقتة متاحة لـ Aspose.Note؟
-نعم، يمكنك الحصول على ترخيص مؤقت لـ Aspose.Note من[هنا](https://purchase.aspose.com/temporary-license/).
+ نعم، يمكنك الحصول على ترخيص مؤقت لـ Aspose.Note من[هنا](https://purchase.aspose.com/temporary-license/).

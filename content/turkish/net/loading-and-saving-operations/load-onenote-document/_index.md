@@ -68,7 +68,7 @@ public static void SimpleLoadNotebook()
 ```
 
 ### Adım 2: Belgenin Şifreli Olup Olmadığını Kontrol Edin ve Yükleyin:
-   - OneNote belgesinin şifrelenip şifrelenmediğini kontrol etmek için`Document.IsEncrypted` yöntem, dosya adını ileterek.
+   -  OneNote belgesinin şifrelenip şifrelenmediğini kontrol etmek için`Document.IsEncrypted` yöntem, dosya adını ileterek.
    - Şifrelenmemişse belge işlemeye devam edin.
    - Şifrelenmişse, kullanıcıdan şifre çözme için bir şifre girmesini isteyin.
 
@@ -124,7 +124,7 @@ public static void Document_CheckIfEncryptedByPasswordAndLoad()
 
 ### 4. Adım: Desteklenmeyen OneNote 2007 Formatını İşleyin:
    - 2007 biçiminde bir OneNote belgesi yüklemeyi deneyin.
-   -  Format desteklenmiyorsa,`UnsupportedFileFormatException` ve kullanıcıyı desteklenmeyen format hakkında bilgilendirerek uygun şekilde kullanın.
+   -  Format desteklenmiyorsa,`UnsupportedFileFormatException`ve kullanıcıyı desteklenmeyen format hakkında bilgilendirerek uygun şekilde kullanın.
 
 ```csharp
 public static void Document_OneNote2007_Is_NotSupported()

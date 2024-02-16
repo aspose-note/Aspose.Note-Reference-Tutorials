@@ -9,7 +9,7 @@ url: /hu/net/loading-and-saving-operations/create-doc-with-rich-text/
 ---
 ## Bevezetés
 
-.NET fejlesztés területén az Aspose.Note a Microsoft OneNote fájlok programozott kezelésének hatékony eszköze. Akár a dokumentumok létrehozásának automatizálására, akár a meglévő jegyzetek manipulálására törekszik, az Aspose.Note szolgáltatások átfogó készletével látja el a fejlesztőket. E lehetőségek közé tartozik a formázott szöveges dokumentumok generálása, különféle formázási lehetőségekkel kiegészítve. Ebben az oktatóanyagban lépésről lépésre elmélyülünk az ilyen dokumentumok létrehozásának folyamatában az Aspose.Note for .NET használatával.
+A .NET fejlesztés területén az Aspose.Note a Microsoft OneNote fájlok programozott kezelésének hatékony eszköze. Akár a dokumentumok létrehozásának automatizálására, akár a meglévő jegyzetek manipulálására törekszik, az Aspose.Note szolgáltatások átfogó készletével látja el a fejlesztőket. E lehetőségek közé tartozik a formázott szöveges dokumentumok generálása, különféle formázási lehetőségekkel kiegészítve. Ebben az oktatóanyagban lépésről lépésre elmélyülünk az ilyen dokumentumok létrehozásának folyamatában az Aspose.Note for .NET használatával.
 
 ## Előfeltételek
 
@@ -73,7 +73,7 @@ Határozzon meg egy alapértelmezett szövegstílust a teljes dokumentumra.
 RichText titleText = new RichText() { ParagraphStyle = defaultTextStyle }.Append("Title!");
 ```
 
- Építsd meg a`RichText` objektum a címhez a megadott formázással.
+ Építsd meg a`RichText`objektum a címhez a megadott formázással.
 
 ## 6. lépés: Inicializálja a Vázlat és a Vázlatelem objektumokat
 

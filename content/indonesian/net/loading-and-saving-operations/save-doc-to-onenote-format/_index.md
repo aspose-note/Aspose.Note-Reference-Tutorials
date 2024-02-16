@@ -17,7 +17,7 @@ Sebelum mendalami tutorial ini, pastikan Anda memiliki prasyarat berikut:
 
 1. Pengetahuan tentang Pengembangan C# dan .NET: Tutorial ini mengasumsikan pemahaman dasar bahasa pemrograman C# dan kerangka .NET.
 
-2. Instalasi Aspose.Note for .NET: Unduh dan instal perpustakaan Aspose.Note for .NET dari[situs web](https://releases.aspose.com/note/net/).
+2.  Instalasi Aspose.Note for .NET: Unduh dan instal perpustakaan Aspose.Note for .NET dari[situs web](https://releases.aspose.com/note/net/).
 
 3. Lingkungan Pengembangan: Siapkan lingkungan pengembangan Anda dengan Visual Studio atau IDE pilihan apa pun untuk pengembangan .NET.
 
@@ -60,11 +60,11 @@ Document doc = new Document(dataDir + inputFile);
 doc.Save(dataDir + outputFile);
 ```
 
- Di sini, itu`Save` metode dipanggil di`Document` objek untuk menyimpan dokumen ke file keluaran yang ditentukan dalam format OneNote.
+ Di sini, itu`Save` metode dipanggil pada`Document` objek untuk menyimpan dokumen ke file keluaran yang ditentukan dalam format OneNote.
 
 ## Kesimpulan
 
-Dalam tutorial ini, kita telah menjelajahi proses menyimpan dokumen ke format OneNote menggunakan Aspose.Note untuk .NET. Dengan mengikuti panduan langkah demi langkah, pengembang dapat dengan mudah mengintegrasikan fungsi ini ke dalam aplikasi .NET mereka, sehingga memungkinkan pengelolaan dokumen OneNote secara terprogram secara efisien.
+Dalam tutorial ini, kita telah menjelajahi proses menyimpan dokumen ke format OneNote menggunakan Aspose.Note untuk .NET. Dengan mengikuti panduan langkah demi langkah, pengembang dapat dengan mudah mengintegrasikan fungsi ini ke dalam aplikasi .NET mereka, sehingga memungkinkan pengelolaan dokumen OneNote yang efisien secara terprogram.
 
 ## FAQ
 

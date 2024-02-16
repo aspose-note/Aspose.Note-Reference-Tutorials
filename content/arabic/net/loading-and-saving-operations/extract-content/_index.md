@@ -39,11 +39,11 @@ string dataDir = "Your Document Directory";
 Document doc = new Document(dataDir + "Aspose.one");
 ```
 
- يستبدل`"Your Document Directory"` مع الدليل الذي يوجد به مستند Aspose.Note الخاص بك. تأكد من توفير اسم الملف الصحيح بامتداده.
+ يستبدل`"Your Document Directory"`مع الدليل الذي يوجد به مستند Aspose.Note الخاص بك. تأكد من توفير اسم الملف الصحيح بامتداده.
 
 ## الخطوة 2: إنشاء DocumentVisitor
 
- بعد ذلك، سنقوم بإنشاء مخصص`DocumentVisitor`لزيارة العقد المختلفة داخل المستند. سيسمح لنا هذا الزائر باجتياز بنية المستند واستخراج المحتوى.
+ بعد ذلك، سنقوم بإنشاء مخصص`DocumentVisitor` لزيارة العقد المختلفة داخل المستند. سيسمح لنا هذا الزائر باجتياز بنية المستند واستخراج المحتوى.
 
 ```csharp
 public class MyOneNoteToTxtWriter : DocumentVisitor
@@ -97,7 +97,7 @@ public string GetText()
 
 ## الخطوة 5: تنفيذ الزيارة
 
-أخيرًا، سنقوم بتنفيذ عملية الزيارة عن طريق الاتصال بـ`Accept` الطريقة على كائن المستند، وتمرير مثيل الزائر المخصص لدينا كمعلمة.
+ أخيرًا، سنقوم بتنفيذ عملية الزيارة عن طريق الاتصال بـ`Accept` الطريقة على كائن المستند، وتمرير مثيل الزائر المخصص لدينا كمعلمة.
 
 ```csharp
 MyOneNoteToTxtWriter myConverter = new MyOneNoteToTxtWriter();

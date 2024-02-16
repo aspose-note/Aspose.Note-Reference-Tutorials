@@ -17,7 +17,7 @@ Innan du dyker in i den här handledningen, se till att du har följande föruts
 
 1. Kunskaper om C#- och .NET-utveckling: Denna handledning förutsätter en grundläggande förståelse av C#-programmeringsspråket och .NET-ramverket.
 
-2. Installation av Aspose.Note for .NET: Ladda ner och installera Aspose.Note for .NET-biblioteket från[hemsida](https://releases.aspose.com/note/net/).
+2.  Installation av Aspose.Note for .NET: Ladda ner och installera Aspose.Note for .NET-biblioteket från[hemsida](https://releases.aspose.com/note/net/).
 
 3. Utvecklingsmiljö: Konfigurera din utvecklingsmiljö med Visual Studio eller någon föredragen IDE för .NET-utveckling.
 
@@ -64,7 +64,7 @@ doc.Save(dataDir + outputFile);
 
 ## Slutsats
 
-den här handledningen har vi utforskat processen att spara dokument i OneNote-format med Aspose.Note för .NET. Genom att följa steg-för-steg-guiden kan utvecklare sömlöst integrera denna funktionalitet i sina .NET-applikationer, vilket möjliggör effektiv hantering av OneNote-dokument programmässigt.
+I den här handledningen har vi utforskat processen att spara dokument i OneNote-format med Aspose.Note för .NET. Genom att följa steg-för-steg-guiden kan utvecklare sömlöst integrera denna funktionalitet i sina .NET-applikationer, vilket möjliggör effektiv hantering av OneNote-dokument programmässigt.
 
 ## FAQ's
 

@@ -27,7 +27,7 @@ using System.Collections.Generic;
 ```csharp
 // Jalur ke direktori dokumen.
 string dataDir = "Your Document Directory";
-// Buat objek kelas Dokumen
+//Buat objek kelas Dokumen
 Aspose.Note.Document doc = new Aspose.Note.Document();
 ```
 ## Langkah 2: Inisialisasi Halaman dan Garis Besar
@@ -63,7 +63,7 @@ page.AppendChildLast(outline);
 ```
 ## Langkah 7: Tambahkan Halaman ke Dokumen
 ```csharp
-// Tambahkan simpul Halaman
+//Tambahkan simpul Halaman
 doc.AppendChildLast(page);
 ```
 ## Langkah 8: Simpan Dokumen OneNote

@@ -15,7 +15,7 @@ url: /zh-hant/net/notebook-operations/add-child-nodes/
 
 在我們開始之前，請確保您具備以下條件：
 
-1. Aspose.Note for .NET：確保您的開發環境中安裝了 Aspose.Note for .NET。您可以從[網站](https://releases.aspose.com/note/net/).
+1.  Aspose.Note for .NET：確保您的開發環境中安裝了 Aspose.Note for .NET。您可以從[網站](https://releases.aspose.com/note/net/).
 
 2. 開發環境：建置.NET開發環境，例如Visual Studio。
 

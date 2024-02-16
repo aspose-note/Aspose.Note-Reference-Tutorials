@@ -142,8 +142,8 @@ Câu trả lời 3: Có, Aspose.Note for .NET tích hợp liền mạch với c�
 
 ### Câu hỏi 4: Aspose.Note dành cho .NET có hỗ trợ kỹ thuật không?
 
- Đ4: Có, bạn có thể tiếp cận hỗ trợ kỹ thuật thông qua[Diễn đàn Aspose.Note](https://forum.aspose.com/c/note/28) nơi các chuyên gia sẵn sàng hỗ trợ bạn với bất kỳ câu hỏi hoặc vấn đề nào bạn có thể gặp phải.
+Đ4: Có, bạn có thể tiếp cận hỗ trợ kỹ thuật thông qua[Diễn đàn Aspose.Note](https://forum.aspose.com/c/note/28) nơi các chuyên gia sẵn sàng hỗ trợ bạn với bất kỳ câu hỏi hoặc vấn đề nào bạn có thể gặp phải.
 
 ### Câu hỏi 5: Tôi có thể dùng thử Aspose.Note cho .NET trước khi mua không?
 
- Câu trả lời 5: Có, bạn có thể tải xuống phiên bản dùng thử miễn phí của Aspose.Note dành cho .NET từ[đây](https://releases.aspose.com/)để đánh giá các tính năng và khả năng tương thích của nó với yêu cầu của bạn.
+ Câu trả lời 5: Có, bạn có thể tải xuống phiên bản dùng thử miễn phí của Aspose.Note dành cho .NET từ[đây](https://releases.aspose.com/) để đánh giá các tính năng và khả năng tương thích của nó với yêu cầu của bạn.

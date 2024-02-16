@@ -114,7 +114,7 @@ Po wykonaniu tych kroków powinieneś pomyślnie dodać węzeł tabeli ze znaczn
 
 ## Wniosek
 
-tym samouczku omówiliśmy proces dodawania węzła tabeli ze znacznikiem w Aspose.Note dla .NET. Wykonując te kroki, możesz efektywnie programowo manipulować dokumentami programu OneNote, zwiększając możliwości zarządzania dokumentami.
+W tym samouczku omówiliśmy proces dodawania węzła tabeli ze znacznikiem w Aspose.Note dla .NET. Wykonując te kroki, możesz efektywnie programowo manipulować dokumentami programu OneNote, zwiększając możliwości zarządzania dokumentami.
 
 ## Często zadawane pytania
 

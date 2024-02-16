@@ -79,4 +79,4 @@ Console.WriteLine("\nPage title set up successfully in Microsoft OneNote style.\
 ### كيف يمكنني معالجة الأخطاء أثناء عملية إنشاء المستند؟
 استخدم آليات معالجة الاستثناءات في C# لاكتشاف ومعالجة أي أخطاء محتملة قد تحدث أثناء عملية إنشاء المستند.
 ### أين يمكنني العثور على المزيد من الأمثلة والوثائق الخاصة بـ Aspose.Note لـ .NET؟
- الرجوع إلى[Aspose.Note لوثائق .NET](https://reference.aspose.com/note/net/) للحصول على أمثلة مفصلة ووثائق شاملة.
+ الرجوع إلى[Aspose.Note لوثائق .NET](https://reference.aspose.com/note/net/)للحصول على أمثلة مفصلة ووثائق شاملة.

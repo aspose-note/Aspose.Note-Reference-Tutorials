@@ -17,7 +17,7 @@ Antes de começarmos, certifique-se de ter os seguintes pré-requisitos configur
 
 ### Visual Studio instalado
 
- Certifique-se de ter o Visual Studio instalado em seu sistema. Você pode baixá-lo no[local na rede Internet](https://visualstudio.microsoft.com/).
+Certifique-se de ter o Visual Studio instalado em seu sistema. Você pode baixá-lo no[local na rede Internet](https://visualstudio.microsoft.com/).
 
 ### Aspose.Note para .NET instalado
 

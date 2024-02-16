@@ -15,7 +15,7 @@ Aspose.Note untuk .NET adalah perpustakaan canggih yang memungkinkan pengembang 
 
 Sebelum memulai, pastikan Anda memiliki prasyarat berikut:
 
-1.  Aspose.Note untuk .NET Library: Pastikan Anda telah mengunduh dan menginstal perpustakaan Aspose.Note untuk .NET. Anda dapat mengunduhnya dari[Di Sini](https://releases.aspose.com/note/net/).
+1. Aspose.Note untuk .NET Library: Pastikan Anda telah mengunduh dan menginstal perpustakaan Aspose.Note untuk .NET. Anda dapat mengunduhnya dari[Di Sini](https://releases.aspose.com/note/net/).
 
 2. Lingkungan Pengembangan: Siapkan lingkungan pengembangan Anda dengan Visual Studio atau alat pengembangan .NET pilihan lainnya.
 

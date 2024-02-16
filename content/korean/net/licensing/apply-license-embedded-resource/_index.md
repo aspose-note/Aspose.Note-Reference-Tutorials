@@ -11,13 +11,13 @@ url: /ko/net/licensing/apply-license-embedded-resource/
 
 Aspose.Note for .NET은 개발자가 Microsoft OneNote 파일을 프로그래밍 방식으로 작업할 수 있는 강력한 API입니다. OneNote 문서를 생성, 수정 또는 변환하려는 경우 Aspose.Note는 귀하의 요구 사항을 충족하는 포괄적인 기능 세트를 제공합니다. 이 튜토리얼에서는 .NET 애플리케이션에 포함된 리소스에서 Aspose.Note 라이선스를 적용하는 과정을 안내합니다.
 
-## 전제 조건
+## 전제조건
 
 시작하기 전에 다음 전제조건이 충족되었는지 확인하십시오.
 
 ### 1. 비주얼 스튜디오 설치
 
- 시스템에 Visual Studio가 설치되어 있는지 확인하십시오. 다음에서 다운로드할 수 있습니다.[여기](https://visualstudio.microsoft.com/).
+시스템에 Visual Studio가 설치되어 있는지 확인하십시오. 다음에서 다운로드할 수 있습니다.[여기](https://visualstudio.microsoft.com/).
 
 ### 2. .NET용 Aspose.Note 설치
 

@@ -16,7 +16,7 @@ In de wereld van documentbeheer en -bewerking is het van cruciaal belang om de m
 Voordat u in deze zelfstudie duikt, moet u ervoor zorgen dat u aan de volgende vereisten voldoet:
 
 1. Basiskennis van C#: Bekendheid met de programmeertaal C# is noodzakelijk om de codevoorbeelden te volgen.
-2.  Aspose.Note voor .NET-bibliotheek: Installeer de Aspose.Note voor .NET-bibliotheek in uw ontwikkelomgeving. Je kunt het downloaden van[hier](https://releases.aspose.com/note/net/).
+2. Aspose.Note voor .NET-bibliotheek: Installeer de Aspose.Note voor .NET-bibliotheek in uw ontwikkelomgeving. Je kunt het downloaden van[hier](https://releases.aspose.com/note/net/).
 3. Integrated Development Environment (IDE): Zorg ervoor dat een IDE zoals Visual Studio op uw systeem is geïnstalleerd.
 
 ## Naamruimten importeren

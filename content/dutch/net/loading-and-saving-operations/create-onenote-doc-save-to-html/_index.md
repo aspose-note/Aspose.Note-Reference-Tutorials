@@ -139,7 +139,7 @@ public static void SaveAsHTMLToFileWithResourcesInSeparateFiles()
         FontFaceTypes = FontFaceType.Ttf
     };
 
-    //Sla het document op in een HTML-bestand, waarbij de bronnen in afzonderlijke bestanden worden opgeslagen
+    // Sla het document op in een HTML-bestand, waarbij de bronnen in afzonderlijke bestanden worden opgeslagen
     document.Save(Path.Combine(dataDir, "document_out.html"), options);
 }
 ```

@@ -88,4 +88,4 @@ A4: Gemeten licenties kunnen bepaalde beperkingen hebben, afhankelijk van de spe
 
 ### Vraag 5: Zijn licenties op basis van meter geschikt voor alle soorten softwaretoepassingen?
 
-A5: Hoewel gemeten licenties voordelig kunnen zijn voor veel softwaretoepassingen, hangt de geschiktheid ervan af van factoren zoals gebruikspatronen en kostenoverwegingen.
+A5: Hoewel gemeten licenties voor veel softwaretoepassingen voordelig kunnen zijn, hangt de geschiktheid ervan af van factoren zoals gebruikspatronen en kostenoverwegingen.

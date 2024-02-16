@@ -97,4 +97,4 @@ Câu trả lời 4: Có, bạn có thể truy cập bản dùng thử miễn ph�
 
 ### Câu hỏi 5: Tôi có thể tìm sự hỗ trợ hoặc hỗ trợ bổ sung với Aspose.Note ở đâu?
 
- Câu trả lời 5: Nếu có bất kỳ thắc mắc hoặc hỗ trợ nào, bạn có thể truy cập diễn đàn Aspose.Note[đây](https://forum.aspose.com/c/note/28).
+Câu trả lời 5: Nếu có bất kỳ thắc mắc hoặc hỗ trợ nào, bạn có thể truy cập diễn đàn Aspose.Note[đây](https://forum.aspose.com/c/note/28).

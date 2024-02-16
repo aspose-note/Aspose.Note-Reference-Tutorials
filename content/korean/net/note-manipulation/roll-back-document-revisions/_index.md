@@ -11,12 +11,12 @@ url: /ko/net/note-manipulation/roll-back-document-revisions/
 
 문서 관리 및 편집 분야에서는 변경 사항을 추적하고 이전 버전으로 원활하게 되돌릴 수 있는 능력을 갖추는 것이 중요합니다. Aspose.Note for .NET은 개정판을 효과적으로 관리할 수 있는 강력한 도구를 제공하므로 필요할 때마다 변경 사항을 롤백할 수 있습니다. 이 튜토리얼에서는 Aspose.Note 문서의 개정판을 롤백하는 과정을 단계별로 살펴보겠습니다.
 
-## 전제 조건
+## 전제조건
 
 이 튜토리얼을 시작하기 전에 다음 전제 조건이 충족되었는지 확인하세요.
 
 1. C#에 대한 기본 이해: 코드 예제를 따라가려면 C# 프로그래밍 언어에 대한 지식이 필요합니다.
-2.  .NET용 Aspose.Note 라이브러리: 개발 환경에 .NET용 Aspose.Note 라이브러리를 설치합니다. 다음에서 다운로드할 수 있습니다.[여기](https://releases.aspose.com/note/net/).
+2. .NET용 Aspose.Note 라이브러리: 개발 환경에 .NET용 Aspose.Note 라이브러리를 설치합니다. 다음에서 다운로드할 수 있습니다.[여기](https://releases.aspose.com/note/net/).
 3. 통합 개발 환경(IDE): 시스템에 Visual Studio와 같은 IDE가 설치되어 있습니다.
 
 ## 네임스페이스 가져오기

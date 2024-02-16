@@ -70,7 +70,7 @@ foreach (RichText richTextNode in allRichTextNodes)
 }
 ```
 
-أخيرًا، نقوم بالتكرار عبر كل عقدة نصية منسقة في القائمة ونطبع محتوى النص على وحدة التحكم.
+أخيرًا، نقوم بالتكرار عبر كل عقدة نصية منسقة في القائمة ونطبع محتوى النص إلى وحدة التحكم.
 
 ## خاتمة
 
@@ -84,7 +84,7 @@ foreach (RichText richTextNode in allRichTextNodes)
 
 ### س2: هل تتوفر نسخة تجريبية مجانية من Aspose.Note لـ .NET؟
 
-ج2: نعم، يمكنك الحصول على نسخة تجريبية مجانية من Aspose.Note لـ .NET من[صفحة الإصدار](https://releases.aspose.com/).
+ ج2: نعم، يمكنك الحصول على نسخة تجريبية مجانية من Aspose.Note لـ .NET من[صفحة الإصدار](https://releases.aspose.com/).
 
 ### س3: كيف يمكنني الحصول على دعم Aspose.Note لـ .NET؟
 

@@ -138,7 +138,7 @@ A2: はい、Aspose.Note for .NET を使用して、既存の OneNote ファイ�
 
 ### Q3: Aspose.Note for .NET を商用利用するにはライセンスが必要ですか?
 
- A3: はい、Aspose.Note for .NET の商用利用にはライセンスを取得する必要があります。からライセンスを取得できます。[購入ページ](https://purchase.aspose.com/buy).
+A3: はい、Aspose.Note for .NET の商用利用にはライセンスを取得する必要があります。からライセンスを取得できます。[購入ページ](https://purchase.aspose.com/buy).
 
 ### Q4: Aspose.Note for .NET に利用できる無料トライアルはありますか?
 

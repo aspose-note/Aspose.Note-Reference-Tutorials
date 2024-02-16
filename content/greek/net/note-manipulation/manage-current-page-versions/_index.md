@@ -15,7 +15,7 @@ url: /el/net/note-manipulation/manage-current-page-versions/
 
 Πριν ξεκινήσετε το σεμινάριο, βεβαιωθείτε ότι έχετε ρυθμίσει τις ακόλουθες προϋποθέσεις:
 
-1.  Εγκαταστήστε το Aspose.Note για .NET: Κάντε λήψη και εγκαταστήστε το Aspose.Note για .NET από[εδώ](https://releases.aspose.com/note/net/).
+1. Εγκαταστήστε το Aspose.Note για .NET: Κάντε λήψη και εγκαταστήστε το Aspose.Note για .NET από[εδώ](https://releases.aspose.com/note/net/).
 
 2. Εξοικείωση με το .NET Environment: Βασική κατανόηση του περιβάλλοντος .NET και της γλώσσας προγραμματισμού C#.
 

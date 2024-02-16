@@ -79,7 +79,7 @@ Cevap2: Aspose.Note, hem .one hem de .onepkg dosya formatları için yükleme ge
 
 ### S3: Aspose.Note for .NET'in ücretsiz deneme sürümü mevcut mu?
 
- Cevap3: Evet, Aspose.Note for .NET'in ücretsiz deneme sürümünü şu adresten indirebilirsiniz:[Burada](https://releases.aspose.com/).
+Cevap3: Evet, Aspose.Note for .NET'in ücretsiz deneme sürümünü şu adresten indirebilirsiniz:[Burada](https://releases.aspose.com/).
 
 ### S4: Aspose.Note for .NET için nasıl geçici lisans alabilirim?
 

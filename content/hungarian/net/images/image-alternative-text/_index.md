@@ -92,8 +92,8 @@ Alternatív szöveg hozzáadása a képekhez kulcsfontosságú a hozzáférhető
 
 ### 4. kérdés: Hogyan kaphatok támogatást az Aspose.Note-hoz?
 
-4. válasz: Az Aspose.Note-hoz támogatást kaphat, ha felkeresi a[Aspose.Note fórum](https://forum.aspose.com/c/note/28), ahol kérdéseket tehet fel és megoldásokat találhat.
+ 4. válasz: Az Aspose.Note-hoz támogatást kaphat, ha felkeresi a[Aspose.Note fórum](https://forum.aspose.com/c/note/28), ahol kérdéseket tehet fel és megoldásokat találhat.
 
 ### 5. kérdés: Elérhető az Aspose.Note ingyenes próbaverziója?
 
- 5. válasz: Igen, igénybe veheti az Aspose.Note ingyenes próbaverzióját, ha felkeresi[itt](https://releases.aspose.com/).
+5. válasz: Igen, igénybe veheti az Aspose.Note ingyenes próbaverzióját, ha felkeresi[itt](https://releases.aspose.com/).

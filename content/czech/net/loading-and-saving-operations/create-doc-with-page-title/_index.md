@@ -15,7 +15,7 @@ V tomto tutoriálu vás provedeme procesem vytváření dokumentu s titulní str
 
 Než začneme, ujistěte se, že máte nainstalované a nastavené následující předpoklady:
 
-### Instalace Visual Studia
+### Instalace sady Visual Studio
 
 1. Stáhnout Visual Studio: Pokud jste to ještě neudělali, stáhněte si a nainstalujte Visual Studio z webu Microsoftu.
 
@@ -47,7 +47,7 @@ Nyní si proces vytváření dokumentu s názvem stránky rozdělíme do několi
 ## Krok 1: Vytvořte objekt dokumentu
 
 ```csharp
-// Vytvořte objekt třídy Document
+//Vytvořte objekt třídy Document
 Document doc = new Aspose.Note.Document();
 ```
 
@@ -77,7 +77,7 @@ page.Title = new Title(doc)
 };
 ```
 
-## Krok 5: Přidejte uzel stránky do dokumentu
+## Krok 5: Přidejte uzel stránky v dokumentu
 
 ```csharp
 // Připojit uzel stránky v dokumentu

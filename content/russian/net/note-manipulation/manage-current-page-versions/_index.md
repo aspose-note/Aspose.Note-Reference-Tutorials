@@ -15,7 +15,7 @@ url: /ru/net/note-manipulation/manage-current-page-versions/
 
 Прежде чем приступить к изучению руководства, убедитесь, что у вас настроены следующие предварительные условия:
 
-1.  Установите Aspose.Note для .NET: Загрузите и установите Aspose.Note для .NET с сайта[здесь](https://releases.aspose.com/note/net/).
+1. Установите Aspose.Note для .NET: Загрузите и установите Aspose.Note для .NET с сайта[здесь](https://releases.aspose.com/note/net/).
 
 2. Знакомство со средой .NET: базовое понимание среды .NET и языка программирования C#.
 

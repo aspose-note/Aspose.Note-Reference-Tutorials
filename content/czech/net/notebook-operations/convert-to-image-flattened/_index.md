@@ -19,7 +19,7 @@ Než začneme, ujistěte se, že máte následující:
 2. Vývojové prostředí: Ujistěte se, že máte pro vývoj .NET nastaveno vhodné vývojové prostředí.
 3. Poznámkový blok OneNotu: Připravte si poznámkový blok OneNotu, který chcete převést na obrázek.
 
-## Importovat jmenné prostory
+## Import jmenných prostorů
 
 Než začnete s procesem převodu, musíte do kódu importovat potřebné jmenné prostory:
 

@@ -27,7 +27,7 @@ using System.Collections.Generic;
 ```csharp
 // Der Pfad zum Dokumentenverzeichnis.
 string dataDir = "Your Document Directory";
-// Erstellen Sie ein Objekt der Document-Klasse
+//Erstellen Sie ein Objekt der Document-Klasse
 Aspose.Note.Document doc = new Aspose.Note.Document();
 ```
 ## Schritt 2: Seite und Gliederung initialisieren
@@ -63,7 +63,7 @@ page.AppendChildLast(outline);
 ```
 ## Schritt 7: Seite zum Dokument hinzufügen
 ```csharp
-// Seitenknoten hinzufügen
+//Seitenknoten hinzufügen
 doc.AppendChildLast(page);
 ```
 ## Schritt 8: Speichern Sie das OneNote-Dokument

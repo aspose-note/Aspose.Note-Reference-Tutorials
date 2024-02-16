@@ -76,7 +76,7 @@ public void CssSaving(CssSavingArgs args)
 }
 ```
 
- Hier definieren wir die`CssSaving`Rückrufmethode zum Verwalten des Speicherns von CSS-Stylesheets. Es erstellt eine Ressource im angegebenen CSS-Ordner und legt den Stream, den URI und andere Eigenschaften entsprechend fest.
+ Hier definieren wir die`CssSaving` Rückrufmethode zum Verwalten des Speicherns von CSS-Stylesheets. Es erstellt eine Ressource im angegebenen CSS-Ordner und legt den Stream, den URI und andere Eigenschaften entsprechend fest.
 
 ## Schritt 4: Implementieren Sie den Rückruf zum Speichern von Bildern
 

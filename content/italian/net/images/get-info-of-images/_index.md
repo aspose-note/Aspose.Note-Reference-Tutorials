@@ -97,4 +97,4 @@ A4: Sì, puoi accedere a una prova gratuita di Aspose.Note per esplorarne le fun
 
 ### Q5: Dove posso trovare ulteriore supporto o assistenza con Aspose.Note?
 
- R5: Per qualsiasi domanda o assistenza, è possibile visitare il forum Aspose.Note[Qui](https://forum.aspose.com/c/note/28).
+R5: Per qualsiasi domanda o assistenza, è possibile visitare il forum Aspose.Note[Qui](https://forum.aspose.com/c/note/28).

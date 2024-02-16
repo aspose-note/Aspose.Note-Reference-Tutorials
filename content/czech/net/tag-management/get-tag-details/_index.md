@@ -9,7 +9,7 @@ url: /cs/net/tag-management/get-tag-details/
 ---
 ## Úvod
 
-V tomto tutoriálu se ponoříme do toho, jak získat podrobnosti o značkách z dokumentů Aspose.Note pomocí .NET. Tagy jsou nezbytné pro anotaci dokumentů, správu úkolů a efektivní organizaci informací. Aspose.Note pro .NET poskytuje robustní funkce pro snadnou práci se značkami.
+tomto tutoriálu se ponoříme do toho, jak získat podrobnosti o značkách z dokumentů Aspose.Note pomocí .NET. Tagy jsou nezbytné pro anotaci dokumentů, správu úkolů a efektivní organizaci informací. Aspose.Note pro .NET poskytuje robustní funkce pro snadnou práci se značkami.
 
 ## Předpoklady
 
@@ -19,7 +19,7 @@ Než budete pokračovat, ujistěte se, že máte následující:
 - Visual Studio nainstalované ve vašem systému.
 - Knihovna Aspose.Note pro .NET stažená a odkazovaná ve vašem projektu.
 
-## Importovat jmenné prostory
+## Import jmenných prostorů
 
 Ujistěte se, že jste importovali potřebné jmenné prostory pro přístup k funkcím Aspose.Note:
 

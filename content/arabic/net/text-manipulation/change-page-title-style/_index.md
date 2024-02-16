@@ -61,7 +61,7 @@ Console.WriteLine("\nTitle's styles are changed successfully.");
 تهانينا! لقد تعلمت بنجاح كيفية تغيير أنماط عنوان الصفحة في Aspose.Note لـ .NET. يمكن لهذه الميزة البسيطة والقوية أن تعزز المظهر المرئي لمستنداتك بشكل كبير.
 ## الأسئلة الشائعة
 ### هل Aspose.Note متوافق مع أحدث إصدارات .NET Framework؟
-تم تصميم Aspose.Note ليكون متوافقًا مع نطاق واسع من إصدارات .NET Framework، بما في ذلك الإصدارات الأحدث. الرجوع إلى[توثيق](https://reference.aspose.com/note/net/) للحصول على معلومات التوافق التفصيلية.
+ تم تصميم Aspose.Note ليكون متوافقًا مع نطاق واسع من إصدارات .NET Framework، بما في ذلك الإصدارات الأحدث. الرجوع إلى[توثيق](https://reference.aspose.com/note/net/) للحصول على معلومات التوافق التفصيلية.
 ### هل يمكنني تجربة Aspose.Note قبل الشراء؟
  نعم، يمكنك استكشاف Aspose.Note عن طريق تنزيل الإصدار التجريبي المجاني[هنا](https://releases.aspose.com/).
 ### كيف يمكنني الحصول على الدعم لـ Aspose.Note؟

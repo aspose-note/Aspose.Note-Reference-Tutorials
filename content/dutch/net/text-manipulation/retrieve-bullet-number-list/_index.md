@@ -84,6 +84,6 @@ Ja, Aspose.Note ondersteunt een breed scala aan OneNote-indelingen, waardoor com
 ### Hoe kan ik een tijdelijke licentie voor Aspose.Note verkrijgen?
  Bezoek[deze link](https://purchase.aspose.com/temporary-license/) om een tijdelijke licentie te verkrijgen voor evaluatiedoeleinden.
 ### Welke ondersteuningsopties zijn beschikbaar voor Aspose.Note-gebruikers?
- U kunt de omgeving verkennen en hulp zoeken[Aspose.Note-forum](https://forum.aspose.com/c/note/28) voor eventuele vragen of problemen die u tegenkomt.
+ kunt de omgeving verkennen en hulp zoeken[Aspose.Note-forum](https://forum.aspose.com/c/note/28) voor eventuele vragen of problemen die u tegenkomt.
 ### Bestaat er een gratis proefversie van Aspose.Note voor .NET?
  Ja, u heeft toegang tot de gratis proefversie van Aspose.Note voor .NET[hier](https://releases.aspose.com/).

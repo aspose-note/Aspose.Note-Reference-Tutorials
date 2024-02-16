@@ -47,7 +47,7 @@ using System.Globalization;
 ## Adım 1: Belge Nesnesi Oluşturun
 
 ```csharp
-// Document sınıfının bir nesnesini oluşturun
+//Document sınıfının bir nesnesini oluşturun
 Document doc = new Aspose.Note.Document();
 ```
 

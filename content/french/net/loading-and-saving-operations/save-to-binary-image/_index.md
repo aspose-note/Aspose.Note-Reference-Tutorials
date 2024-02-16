@@ -17,7 +17,7 @@ Avant de commencer, assurez-vous de disposer des prérequis suivants :
 
 1. Visual Studio : installez Visual Studio IDE sur votre système.
 2.  Aspose.Note pour .NET : téléchargez et installez Aspose.Note pour .NET à partir de[ici](https://releases.aspose.com/note/net/).
-3. Compréhension de base de C# : Une connaissance du langage de programmation C# est requise pour suivre les exemples.
+3. Compréhension de base de C# : Une connaissance du langage de programmation C# est requise pour suivre les exemples.
 
 ## Importer des espaces de noms
 
@@ -80,7 +80,7 @@ Dans ce didacticiel, nous avons appris à enregistrer un document dans une image
 
 ### Q1 : Puis-je ajuster le seuil de binarisation ?
 
-A1 : Oui, vous pouvez personnaliser le seuil de binarisation selon vos besoins en modifiant le`BinarizationThreshold` propriété dans le code.
+ A1 : Oui, vous pouvez personnaliser le seuil de binarisation selon vos besoins en modifiant le`BinarizationThreshold` propriété dans le code.
 
 ### Q2 : Quels autres formats sont pris en charge pour enregistrer des documents ?
 
@@ -96,4 +96,4 @@ A4 : Oui, vous pouvez parcourir plusieurs documents et les enregistrer sous form
 
 ### Q5 : Où puis-je trouver plus de ressources et d'assistance pour Aspose.Note ?
 
- A5 : Vous pouvez explorer le[Documentation Aspose.Note](https://reference.aspose.com/note/net/) et solliciter l'aide du[Forum Aspose.Note](https://forum.aspose.com/c/note/28) pour toute question ou problème.
+ A5 : Vous pouvez explorer le[Documentation Aspose.Note](https://reference.aspose.com/note/net/)et solliciter l'aide du[Forum Aspose.Note](https://forum.aspose.com/c/note/28) pour toute question ou problème.

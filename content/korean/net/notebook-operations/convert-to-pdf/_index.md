@@ -11,7 +11,7 @@ url: /ko/net/notebook-operations/convert-to-pdf/
 
 .NET용 Aspose.Note를 사용하여 노트북을 PDF로 변환하는 방법에 대한 튜토리얼에 오신 것을 환영합니다! 이 가이드에서는 노트북을 PDF 형식으로 쉽게 원활하게 변환할 수 있도록 프로세스를 단계별로 안내합니다. Aspose.Note for .NET은 Microsoft OneNote 문서 작업을 위한 강력한 기능을 제공하여 PDF로 변환을 포함한 다양한 작업을 수행할 수 있습니다.
 
-## 전제 조건
+## 전제조건
 
 시작하기 전에 다음 전제 조건이 충족되었는지 확인하세요.
 
@@ -63,7 +63,7 @@ notebook.Save(dataDir);
 
 ## 결론
 
-축하해요! .NET용 Aspose.Note를 사용하여 노트북을 PDF 형식으로 변환하는 방법을 성공적으로 배웠습니다. 이제 몇 가지 간단한 단계만 거치면 내용과 서식을 유지하면서 OneNote 문서를 PDF로 쉽게 변환할 수 있습니다.
+축하해요! .NET용 Aspose.Note를 사용하여 노트북을 PDF 형식으로 변환하는 방법을 성공적으로 배웠습니다. 이제 몇 가지 간단한 단계만 거치면 내용과 서식을 유지하면서 OneNote 문서를 PDF로 손쉽게 변환할 수 있습니다.
 
 ## FAQ
 

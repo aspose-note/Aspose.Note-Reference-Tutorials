@@ -62,7 +62,7 @@ Druk OneNote-documenten af met Aspose.Note voor .NET. Ontdek de naadloze integra
 Creëer visueel aantrekkelijke documenten met Aspose.Note voor .NET! Onze tutorials over tabelmanipulatie behandelen alles, van het veranderen van stijlen tot het samenstellen van tabellen en het extraheren van tekst. Verbeter de esthetiek van uw document met precisietafelbewerking.
 
 ## Beheersing van tagbeheer 
-[Hoofdtagbeheer](./tag-management/)
+[Mastertagbeheer](./tag-management/)
 
 Word een meester in Aspose.Note met tagbeheer. Voeg afbeeldingen, tabellen en tekstknooppunten toe en genereer vergadernotities. Haal tagdetails op en verbeter uw vaardigheden op het gebied van documentmanipulatie met onze uitgebreide tutorials.
 

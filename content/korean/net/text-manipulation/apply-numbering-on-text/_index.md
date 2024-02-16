@@ -9,7 +9,7 @@ url: /ko/net/text-manipulation/apply-numbering-on-text/
 ---
 ## 소개
 Aspose.Note for .NET은 C# 애플리케이션의 문서 조작을 위한 강력한 도구를 제공합니다. 이 튜토리얼에서는 Aspose.Note를 사용하여 텍스트에 번호 매기기를 적용하는 과정을 살펴보겠습니다. 문서 형식을 손쉽게 향상하려면 다음 단계별 지침을 따르세요.
-## 전제 조건
+## 전제조건
 튜토리얼을 시작하기 전에 다음 전제 조건이 충족되었는지 확인하세요.
 - C# 프로그래밍 언어에 대한 기본 이해.
 -  .NET용 Aspose.Note가 설치되었습니다. 당신은 그것을 다운로드 할 수 있습니다[여기](https://releases.aspose.com/note/net/).
@@ -29,7 +29,7 @@ using System.Collections.Generic;
 ```csharp
 // 문서 디렉터리의 경로입니다.
 string dataDir = "Your Document Directory";
-// Document 클래스의 객체 생성
+//Document 클래스의 객체 생성
 Document doc = new Document();
 // 페이지 클래스 객체 초기화
 Aspose.Note.Page page = new Aspose.Note.Page(doc);

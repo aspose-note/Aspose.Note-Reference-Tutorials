@@ -39,11 +39,11 @@ string dataDir = "Your Document Directory";
 Document doc = new Document(dataDir + "Aspose.one");
 ```
 
- Sostituire`"Your Document Directory"` con la directory in cui si trova il documento Aspose.Note. Assicurati di fornire il nome file corretto con la sua estensione.
+ Sostituire`"Your Document Directory"`con la directory in cui si trova il documento Aspose.Note. Assicurati di fornire il nome file corretto con la sua estensione.
 
 ## Passaggio 2: crea un DocumentVisitor
 
- Successivamente, creeremo un file personalizzato`DocumentVisitor`per visitare diversi nodi all'interno del documento. Questo visitatore ci permetterà di attraversare la struttura del documento ed estrarne il contenuto.
+ Successivamente, creeremo un file personalizzato`DocumentVisitor` per visitare diversi nodi all'interno del documento. Questo visitatore ci permetterà di attraversare la struttura del documento ed estrarne il contenuto.
 
 ```csharp
 public class MyOneNoteToTxtWriter : DocumentVisitor
@@ -97,7 +97,7 @@ public string GetText()
 
 ## Passaggio 5: eseguire la visita
 
-Infine, eseguiremo il processo di visita chiamando il`Accept` sull'oggetto documento, passando la nostra istanza del visitatore personalizzata come parametro.
+ Infine, eseguiremo il processo di visita chiamando il`Accept` sull'oggetto documento, passando la nostra istanza del visitatore personalizzata come parametro.
 
 ```csharp
 MyOneNoteToTxtWriter myConverter = new MyOneNoteToTxtWriter();

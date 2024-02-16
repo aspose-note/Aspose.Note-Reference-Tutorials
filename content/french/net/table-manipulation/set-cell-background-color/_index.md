@@ -105,7 +105,7 @@ En conclusion, Aspose.Note pour .NET fournit un moyen pratique et efficace de ma
 
 ### Q1 : Puis-je personnaliser davantage la couleur d’arrière-plan, par exemple en utilisant des dégradés ou des motifs ?
 
-A1 : Aspose.Note pour .NET prend en charge les couleurs unies pour les arrière-plans de cellules. Cependant, vous pouvez simuler des dégradés ou des motifs en utilisant des images comme arrière-plans.
+A1 : Aspose.Note pour .NET prend en charge les couleurs unies pour les arrière-plans des cellules. Cependant, vous pouvez simuler des dégradés ou des motifs en utilisant des images comme arrière-plans.
 
 ### Q2 : Aspose.Note pour .NET prend-il en charge d’autres options de formatage de tableau ?
 

@@ -16,7 +16,7 @@ Trong thế giới quản lý và chỉnh sửa tài liệu, điều quan trọn
 Trước khi đi sâu vào hướng dẫn này, hãy đảm bảo bạn có các điều kiện tiên quyết sau:
 
 1. Hiểu biết cơ bản về C#: Cần phải làm quen với ngôn ngữ lập trình C# để làm theo các ví dụ về mã.
-2.  Aspose.Note for .NET Library: Cài đặt thư viện Aspose.Note for .NET trong môi trường phát triển của bạn. Bạn có thể tải nó xuống từ[đây](https://releases.aspose.com/note/net/).
+2. Aspose.Note for .NET Library: Cài đặt thư viện Aspose.Note for .NET trong môi trường phát triển của bạn. Bạn có thể tải nó xuống từ[đây](https://releases.aspose.com/note/net/).
 3. Môi trường phát triển tích hợp (IDE): Cài đặt IDE như Visual Studio trên hệ thống của bạn.
 
 ## Nhập không gian tên

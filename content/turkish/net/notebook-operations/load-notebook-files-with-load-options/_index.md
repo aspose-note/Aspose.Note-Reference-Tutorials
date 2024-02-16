@@ -81,7 +81,7 @@ C1: Evet, Aspose.Note for .NET, Microsoft OneNote dosyalarıyla programlı olara
 
 ### S2: Aspose.Note for .NET'in ücretsiz deneme sürümü mevcut mu?
 
- C2: Evet, Aspose.Note for .NET'in ücretsiz denemesinden şu adresten yararlanabilirsiniz:[Burada](https://releases.aspose.com/).
+C2: Evet, Aspose.Note for .NET'in ücretsiz denemesinden şu adresten yararlanabilirsiniz:[Burada](https://releases.aspose.com/).
 
 ### S3: Aspose.Note for .NET belgelerini nerede bulabilirim?
 

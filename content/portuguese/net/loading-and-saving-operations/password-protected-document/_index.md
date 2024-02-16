@@ -15,7 +15,7 @@ Neste tutorial, percorreremos o processo de manipulação de documentos protegid
 
 Antes de começarmos, certifique-se de ter os seguintes pré-requisitos:
 
-1.  Biblioteca Aspose.Note for .NET: Certifique-se de ter baixado e instalado a biblioteca Aspose.Note for .NET. Você pode baixá-lo em[aqui](https://releases.aspose.com/note/net/).
+1. Biblioteca Aspose.Note for .NET: Certifique-se de ter baixado e instalado a biblioteca Aspose.Note for .NET. Você pode baixá-lo em[aqui](https://releases.aspose.com/note/net/).
 
 2. Ambiente de desenvolvimento: configure um ambiente de desenvolvimento com recursos .NET.
 

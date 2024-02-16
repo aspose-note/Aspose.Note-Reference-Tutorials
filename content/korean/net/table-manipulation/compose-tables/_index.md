@@ -11,7 +11,7 @@ url: /ko/net/table-manipulation/compose-tables/
 
 표는 문서의 기본 구성 요소로, 정보를 체계적으로 표시할 수 있게 해줍니다. Aspose.Note for .NET은 테이블을 손쉽게 구성할 수 있는 강력한 도구를 제공합니다. 이 튜토리얼에서는 Aspose.Note를 사용하여 서식 있는 텍스트 콘텐츠가 포함된 테이블을 만드는 과정을 안내합니다.
 
-## 전제 조건
+## 전제조건
 
 .NET용 Aspose.Note를 사용하여 테이블 구성을 시작하기 전에 다음 전제 조건이 있는지 확인하세요.
 

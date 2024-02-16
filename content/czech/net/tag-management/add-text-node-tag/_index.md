@@ -19,7 +19,7 @@ Než začneme, ujistěte se, že máte následující předpoklady:
 2.  Aspose.Note pro .NET: Stáhněte a nainstalujte Aspose.Note pro .NET z[webová stránka](https://releases.aspose.com/note/net/).
 3. Základní znalost C#: Seznamte se se základy programovacího jazyka C#.
 
-## Importovat jmenné prostory
+## Import jmenných prostorů
 
 Nejprve musíte importovat potřebné jmenné prostory pro přístup ke třídám a metodám potřebným pro práci s Aspose.Note pro .NET.
 
@@ -106,4 +106,4 @@ Odpověď 4: Ano, Aspose.Note pro .NET podporuje šifrování dokumentů, aby by
 
 ### Q5: Kde najdu další zdroje a podporu pro Aspose.Note pro .NET?
 
- A5: Můžete prozkoumat[Aspose.Note pro dokumentaci .NET](https://reference.aspose.com/note/net/) a vyhledat pomoc od[Aspose.Note fórum](https://forum.aspose.com/c/note/28).
+ A5: Můžete prozkoumat[Aspose.Note pro dokumentaci .NET](https://reference.aspose.com/note/net/) vyhledat pomoc u[Aspose.Note fórum](https://forum.aspose.com/c/note/28).

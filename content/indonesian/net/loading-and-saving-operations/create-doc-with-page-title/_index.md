@@ -47,7 +47,7 @@ Sekarang, mari kita uraikan proses pembuatan dokumen dengan judul halaman menjad
 ## Langkah 1: Buat Objek Dokumen
 
 ```csharp
-// Buat objek kelas Dokumen
+//Buat objek kelas Dokumen
 Document doc = new Aspose.Note.Document();
 ```
 

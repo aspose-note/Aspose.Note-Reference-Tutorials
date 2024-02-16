@@ -16,7 +16,7 @@ url: /zh-hant/net/note-manipulation/roll-back-document-revisions/
 在深入學習本教程之前，請確保您具備以下先決條件：
 
 1. 對 C# 的基本了解：需要熟悉 C# 程式語言才能理解程式碼範例。
-2.  Aspose.Note for .NET 函式庫：在您的開發環境中安裝 Aspose.Note for .NET 函式庫。您可以從以下位置下載：[這裡](https://releases.aspose.com/note/net/).
+2. Aspose.Note for .NET 函式庫：在您的開發環境中安裝 Aspose.Note for .NET 函式庫。您可以從以下位置下載：[這裡](https://releases.aspose.com/note/net/).
 3. 整合開發環境 (IDE)：在系統上安裝 IDE，例如 Visual Studio。
 
 ## 導入命名空間

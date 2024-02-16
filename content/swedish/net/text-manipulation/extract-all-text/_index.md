@@ -30,7 +30,7 @@ Ersätt "Din dokumentkatalog" med sökvägen till katalogen som innehåller ditt
 ```csharp
 Document oneFile = new Document(dataDir + "Aspose.one");
 ```
- Ladda ditt Aspose.Note-dokument i`Document` föremål för vidare bearbetning.
+Ladda ditt Aspose.Note-dokument i`Document` föremål för vidare bearbetning.
 ## Steg 3: Hämta text
 ```csharp
 string text = string.Join(Environment.NewLine, oneFile.GetChildNodes<RichText>().Select(e => e.Text)) + Environment.NewLine;

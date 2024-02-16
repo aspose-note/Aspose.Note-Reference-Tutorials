@@ -63,7 +63,7 @@ outline.AppendChildLast(outlineElem1);
 outline.AppendChildLast(outlineElem2);
 outline.AppendChildLast(outlineElem3);
 ```
-## Steg 6: Lägg till disposition på sidan
+## Steg 6: Lägg till disposition till sidan
 ```csharp
 page.AppendChildLast(outline);
 ```
@@ -86,7 +86,7 @@ I den här handledningen täckte vi steg-för-steg-processen för att införliva
 ### F: Är Aspose.Note kompatibel med den senaste versionen av .NET?
 S: Ja, Aspose.Note uppdateras regelbundet för att stödja de senaste versionerna av .NET.
 ### F: Var kan jag hitta ytterligare exempel och dokumentation?
- S: Utforska det omfattande[Aspose.Note dokumentation](https://reference.aspose.com/note/net/).
+S: Utforska det omfattande[Aspose.Note dokumentation](https://reference.aspose.com/note/net/).
 ### F: Hur kan jag få en tillfällig licens för Aspose.Note?
  S: Skaffa en tillfällig licens[här](https://purchase.aspose.com/temporary-license/).
 ### F: Var kan jag söka hjälp eller diskutera Aspose.Note-relaterade frågor?

@@ -11,7 +11,7 @@ url: /ko/net/note-manipulation/set-page-background-color/
 
 .NET용 Aspose.Note를 사용하면 개발자는 OneNote 문서를 프로그래밍 방식으로 조작할 수 있습니다. 일반적인 작업 중 하나는 이러한 문서 내 페이지의 배경색을 설정하는 것입니다. 이 튜토리얼에서는 프로세스를 단계별로 안내합니다.
 
-## 전제 조건
+## 전제조건
 
 계속하기 전에 다음 사항을 확인하세요.
 
@@ -70,7 +70,7 @@ page.BackgroundColor = Color.BlueViolet;
 document.Save(Path.Combine(dataDir, "SetPageBackgroundColor.one"));
 ```
 
- 교체를 확인하세요`"SetPageBackgroundColor.one"`수정된 문서에 대해 원하는 파일 이름을 사용합니다.
+ 반드시 교체하세요`"SetPageBackgroundColor.one"` 수정된 문서에 대해 원하는 파일 이름을 사용합니다.
 
 ## 결론
 
@@ -88,7 +88,7 @@ A2: Aspose.Note는 주로 OneNote 문서 작업에 중점을 두고 있지만 PD
 
 ### Q3: Aspose.Note for .NET에 사용할 수 있는 평가판이 있습니까?
 
- A3: 예, 다음에서 무료 평가판을 다운로드할 수 있습니다.[여기](https://releases.aspose.com/).
+A3: 예, 다음에서 무료 평가판을 다운로드할 수 있습니다.[여기](https://releases.aspose.com/).
 
 ### Q4: 테스트 목적으로 임시 라이선스를 얻을 수 있나요?
 

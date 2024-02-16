@@ -41,7 +41,7 @@ Document doc = new Document() { AutomaticLayoutChangesDetectionEnabled = false }
 
 ## الخطوة 2: تهيئة صفحة جديدة
 
- إنشاء جديد`Page` الكائن وتحديد خصائصه:
+ إنشاء جديد`Page`الكائن وتحديد خصائصه:
 
 ```csharp
 Aspose.Note.Page page = new Aspose.Note.Page(doc);

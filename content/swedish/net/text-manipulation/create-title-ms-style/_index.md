@@ -75,8 +75,8 @@ Att införliva titlar i Microsoft-stil i dina dokument har aldrig varit enklare,
 ### Är Aspose.Note för .NET kompatibelt med de senaste .NET-ramverken?
 Ja, Aspose.Note för .NET uppdateras regelbundet för att säkerställa kompatibilitet med de senaste .NET-ramverken.
 ### Kan jag lägga till ytterligare element på sidan tillsammans med titeln?
-Absolut, du kan anpassa sidan ytterligare genom att lägga till olika element med hjälp av Aspose.Note för .NET API.
+Absolut, du kan anpassa sidan ytterligare genom att lägga till olika element med Aspose.Note för .NET API.
 ### Hur kan jag hantera fel under processen att skapa dokument?
 Använd undantagshanteringsmekanismer i C# för att fånga upp och hantera eventuella fel som kan uppstå under processen att skapa dokument.
 ### Var kan jag hitta fler exempel och dokumentation för Aspose.Note för .NET?
- Referera till[Aspose.Note för .NET-dokumentation](https://reference.aspose.com/note/net/) för detaljerade exempel och omfattande dokumentation.
+ Referera till[Aspose.Note för .NET-dokumentation](https://reference.aspose.com/note/net/)för detaljerade exempel och omfattande dokumentation.

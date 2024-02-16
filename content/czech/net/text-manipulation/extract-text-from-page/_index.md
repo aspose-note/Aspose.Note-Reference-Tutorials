@@ -14,7 +14,7 @@ Než se pustíme do výukového programu, ujistěte se, že máte splněny násl
 -  Aspose.Note pro .NET: Ujistěte se, že máte v projektu .NET nainstalovanou knihovnu Aspose.Note. Můžete si jej stáhnout z[Aspose.Note pro dokumentaci .NET](https://reference.aspose.com/note/net/).
 - Adresář dokumentů: Mějte nastavený adresář s dokumentem OneNotu, který chcete zpracovat.
 Nyní se vrhneme do akce.
-## Importovat jmenné prostory
+## Import jmenných prostorů
 Začněte importováním potřebných jmenných prostorů do vašeho projektu .NET. Tyto jmenné prostory budou poskytovat požadované třídy a metody pro práci s Aspose.Note.
 ```csharp
 using System.IO;
@@ -30,7 +30,7 @@ string dataDir = "Your Document Directory";
 // Vložte dokument do Aspose.Note.
 Document oneFile = new Document(dataDir + "Aspose.one");
 ```
-V tomto kroku nastavíte cestu k adresáři dokumentů a načtete dokument OneNote pomocí Aspose.Note.
+tomto kroku nastavíte cestu k adresáři dokumentů a načtete dokument OneNote pomocí Aspose.Note.
 ## Krok 2: Získejte uzly stránky
 ```csharp
 // Získejte seznam uzlů stránky

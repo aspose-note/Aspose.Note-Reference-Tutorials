@@ -138,7 +138,7 @@ A2: Sì, è possibile modificare, modificare e manipolare i file OneNote esisten
 
 ### Q3: Aspose.Note per .NET richiede una licenza per uso commerciale?
 
- A3: Sì, è necessario acquisire una licenza per uso commerciale di Aspose.Note per .NET. È possibile ottenere una licenza da[pagina di acquisto](https://purchase.aspose.com/buy).
+A3: Sì, è necessario acquisire una licenza per uso commerciale di Aspose.Note per .NET. È possibile ottenere una licenza da[pagina di acquisto](https://purchase.aspose.com/buy).
 
 ### Q4: È disponibile una prova gratuita per Aspose.Note per .NET?
 

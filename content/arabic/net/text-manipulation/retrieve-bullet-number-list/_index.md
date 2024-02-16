@@ -84,6 +84,6 @@ Console.WriteLine();
 ### كيف يمكنني الحصول على ترخيص مؤقت لـ Aspose.Note؟
  يزور[هذا الرابط](https://purchase.aspose.com/temporary-license/) للحصول على ترخيص مؤقت لأغراض التقييم.
 ### ما هي خيارات الدعم المتاحة لمستخدمي Aspose.Note؟
- يمكنك الاستكشاف وطلب المساعدة في[منتدى Aspose.Note](https://forum.aspose.com/c/note/28) لأية استفسارات أو مشاكل قد تواجهها.
+يمكنك الاستكشاف وطلب المساعدة في[منتدى Aspose.Note](https://forum.aspose.com/c/note/28) لأية استفسارات أو مشاكل قد تواجهها.
 ### هل هناك نسخة تجريبية مجانية من Aspose.Note لـ .NET؟
  نعم، يمكنك الوصول إلى الإصدار التجريبي المجاني من Aspose.Note لـ .NET[هنا](https://releases.aspose.com/).

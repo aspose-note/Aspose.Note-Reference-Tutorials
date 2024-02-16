@@ -72,7 +72,7 @@ A3: Wenn Sie für ein kennwortgeschütztes Dokument das falsche Kennwort angeben
 
 ### F4: Kann ich für verschiedene untergeordnete Dokumente in einem Notizbuch unterschiedliche Passwörter festlegen?
 
-A4: Ja, Sie können mit Aspose.Note für .NET unterschiedliche Passwörter für verschiedene untergeordnete Dokumente in einem Notizbuch festlegen, was Flexibilität und Sicherheit bietet.
+A4: Ja, Sie können mit Aspose.Note für .NET unterschiedliche Kennwörter für verschiedene untergeordnete Dokumente in einem Notizbuch festlegen, was Flexibilität und Sicherheit bietet.
 
 ### F5: Gibt es eine Testversion für Aspose.Note für .NET?
 

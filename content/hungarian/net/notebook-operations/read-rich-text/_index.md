@@ -9,7 +9,7 @@ url: /hu/net/notebook-operations/read-rich-text/
 ---
 ## Bevezetés
 
-Ebben az oktatóanyagban megvizsgáljuk, hogyan olvashatunk formázott szöveget az Aspose.Note for .NET használatával. Az Aspose.Note egy hatékony API, amely lehetővé teszi a fejlesztők számára, hogy programozottan dolgozzanak Microsoft OneNote-dokumentumokkal, és a OneNote-fájlok létrehozásához, szerkesztéséhez és kezeléséhez a funkciók széles skáláját kínálja.
+Ebben az oktatóanyagban megvizsgáljuk, hogyan olvashatunk formázott szöveget az Aspose.Note for .NET használatával. Az Aspose.Note egy hatékony API, amely lehetővé teszi a fejlesztők számára, hogy programozottan dolgozzanak a Microsoft OneNote-dokumentumokkal, és a OneNote-fájlok létrehozásához, szerkesztéséhez és kezeléséhez a funkciók széles skáláját kínálja.
 
 ## Előfeltételek
 
@@ -74,7 +74,7 @@ Végül a lista minden egyes rich text csomópontját iteráljuk, és kinyomtatj
 
 ## Következtetés
 
-Ebben az oktatóanyagban megtanultuk, hogyan lehet formás szöveget olvasni OneNote-jegyzetfüzetből az Aspose.Note for .NET használatával. A lépésenkénti útmutató követésével és a mellékelt kódrészletek felhasználásával egyszerűen, programozottan kinyerhet szöveges tartalmat OneNote-dokumentumaiból.
+Ebben az oktatóanyagban megtanultuk, hogyan lehet formás szöveget olvasni OneNote-jegyzetfüzetből az Aspose.Note for .NET használatával. A lépésenkénti útmutató követésével és a mellékelt kódrészletek felhasználásával programozottan egyszerűen kinyerhet szöveges tartalmat OneNote-dokumentumaiból.
 
 ## GYIK
 
@@ -84,7 +84,7 @@ Ebben az oktatóanyagban megtanultuk, hogyan lehet formás szöveget olvasni One
 
 ### 2. kérdés: Elérhető ingyenes próbaverzió az Aspose.Note for .NET számára?
 
-2. válasz: Igen, letöltheti az Aspose.Note ingyenes próbaverzióját a .NET-hez a[kiadási oldal](https://releases.aspose.com/).
+ 2. válasz: Igen, letöltheti az Aspose.Note ingyenes próbaverzióját a .NET-hez a[kiadási oldal](https://releases.aspose.com/).
 
 ### 3. kérdés: Hogyan kaphatok támogatást az Aspose.Note for .NET számára?
 

@@ -115,7 +115,7 @@ Cevap3: Kesinlikle Aspose.Note, eklenen görüntülerin hizalamasını, boyutunu
 
 ### S4: Aspose.Note .NET'in tüm sürümleriyle uyumlu mu?
 
-Cevap4: Aspose.Note for .NET, .NET framework'ün birden fazla sürümüyle uyumludur ve farklı geliştirme ortamlarında geniş uyumluluk sağlar.
+Cevap4: Aspose.Note for .NET, .NET framework'ün birden fazla sürümüyle uyumludur ve farklı geliştirme ortamları arasında geniş uyumluluk sağlar.
 
 ### S5: Aspose.Note için ek kaynakları ve desteği nerede bulabilirim?
 

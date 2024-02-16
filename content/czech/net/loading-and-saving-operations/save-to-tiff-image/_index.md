@@ -21,7 +21,7 @@ Než začneme, ujistěte se, že máte následující:
 
 3. Dokument OneNotu: Připravte si ukázkový dokument OneNotu, který chcete převést do formátu TIFF.
 
-## Importovat jmenné prostory
+## Import jmenných prostorů
 
 Nejprve musíte do projektu importovat potřebné jmenné prostory:
 
@@ -43,7 +43,7 @@ public static void SaveToTiffUsingJpegCompression()
     // Vložte dokument do Aspose.Note.
     Document oneFile = new Document("Path_to_your_OneNote_document");
 
-    // Nastavte cílovou cestu pro obrázek TIFF.
+    //Nastavte cílovou cestu pro obrázek TIFF.
     var dst = "Destination_path_for_TIFF_image";
 
     // Uložte dokument jako obrázek TIFF s kompresí JPEG.
@@ -67,7 +67,7 @@ public static void SaveToTiffUsingPackBitsCompression()
     // Vložte dokument do Aspose.Note.
     Document oneFile = new Document("Path_to_your_OneNote_document");
 
-    // Nastavte cílovou cestu pro obrázek TIFF.
+    //Nastavte cílovou cestu pro obrázek TIFF.
     var dst = "Destination_path_for_TIFF_image";
 
     // Uložte dokument jako obrázek TIFF s kompresí PackBits.
@@ -90,7 +90,7 @@ public static void SaveToTiffUsingCcitt3Compression()
     // Vložte dokument do Aspose.Note.
     Document oneFile = new Document("Path_to_your_OneNote_document");
 
-    // Nastavte cílovou cestu pro obrázek TIFF.
+    //Nastavte cílovou cestu pro obrázek TIFF.
     var dst = "Destination_path_for_TIFF_image";
 
     // Uložte dokument jako obrázek TIFF s kompresí CCITT Group 3.
@@ -108,7 +108,7 @@ Pomocí těchto kroků můžete snadno uložit své dokumenty OneNote jako obrá
 
 ## Závěr
 
-V tomto tutoriálu jsme se naučili, jak uložit dokumenty OneNote jako obrázky TIFF pomocí různých metod komprese pomocí Aspose.Note pro .NET. Ať už potřebujete kompresi JPEG, PackBits nebo CCITT Group 3, Aspose.Note poskytuje flexibilitu pro efektivní zpracování různých požadavků.
+tomto tutoriálu jsme se naučili, jak uložit dokumenty OneNote jako obrázky TIFF pomocí různých metod komprese pomocí Aspose.Note pro .NET. Ať už potřebujete kompresi JPEG, PackBits nebo CCITT Group 3, Aspose.Note poskytuje flexibilitu pro efektivní zpracování různých požadavků.
 
 ## FAQ
 
@@ -130,4 +130,4 @@ A4: Ano, můžete automatizovat proces převodu pomocí dávkového zpracování
 
 ### Q5: Je k dispozici zkušební verze pro Aspose.Note?
 
- A5: Ano, můžete získat bezplatnou zkušební verzi Aspose.Note od[tady](https://releases.aspose.com/).
+A5: Ano, můžete získat bezplatnou zkušební verzi Aspose.Note od[tady](https://releases.aspose.com/).

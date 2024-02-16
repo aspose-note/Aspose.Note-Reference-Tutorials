@@ -47,7 +47,7 @@ Maintenant, décomposons le processus de création d'un document avec un titre d
 ## Étape 1 : Créer un objet de document
 
 ```csharp
-// Créer un objet de la classe Document
+//Créer un objet de la classe Document
 Document doc = new Aspose.Note.Document();
 ```
 

@@ -29,7 +29,7 @@ using System.Collections.Generic;
 ```csharp
 // Η διαδρομή προς τον κατάλογο εγγράφων.
 string dataDir = "Your Document Directory";
-// Δημιουργήστε ένα αντικείμενο της κλάσης Document
+//Δημιουργήστε ένα αντικείμενο της κλάσης Document
 Document doc = new Document();
 // Αρχικοποίηση αντικειμένου κλάσης σελίδας
 Aspose.Note.Page page = new Aspose.Note.Page(doc);

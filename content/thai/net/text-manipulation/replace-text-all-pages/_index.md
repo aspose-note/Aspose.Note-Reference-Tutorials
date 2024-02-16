@@ -79,4 +79,4 @@ Console.WriteLine("\nText replaced successfully on all pages.\nFile saved at " +
 ### ถาม: ฉันจะหาบทช่วยสอนและเอกสารประกอบเพิ่มเติมสำหรับ Aspose.Note สำหรับ .NET ได้ที่ไหน
  ตอบ: เยี่ยมชม[เอกสารประกอบ](https://reference.aspose.com/note/net/) สำหรับแหล่งข้อมูลเชิงลึกและบทช่วยสอน
 ### ถาม: ฉันสามารถใช้ Aspose.Note สำหรับโครงการเชิงพาณิชย์ได้หรือไม่
- ตอบ: ได้ สำรวจตัวเลือกใบอนุญาตและทำการซื้อ[ที่นี่](https://purchase.aspose.com/buy).
+ตอบ: ได้ สำรวจตัวเลือกใบอนุญาตและทำการซื้อ[ที่นี่](https://purchase.aspose.com/buy).

@@ -11,7 +11,7 @@ url: /ko/net/notebook-operations/convert-to-pdf-flattened/
 
 Aspose Note .NET을 사용하여 OneNote 노트북을 평면화된 PDF로 변환하려고 하시나요? 당신은 바로 이곳에 있습니다! 이 튜토리얼에서는 프로세스를 단계별로 살펴보겠습니다.
 
-## 전제 조건
+## 전제조건
 
 시작하기 전에 다음 사항이 있는지 확인하세요.
 

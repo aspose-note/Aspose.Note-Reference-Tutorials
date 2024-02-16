@@ -82,7 +82,7 @@ oneFile.Save(dataDir, opts);
 
 ### P1: ¿Puedo guardar varios rangos de páginas como archivos PDF separados usando Aspose.Note?
 
- R1: Sí, puede lograr esto repitiendo el proceso para cada rango de páginas que desee guardar, ajustando el`PageIndex` y`PageCount` respectivamente.
+R1: Sí, puede lograr esto repitiendo el proceso para cada rango de páginas que desee guardar, ajustando el`PageIndex` y`PageCount` respectivamente.
    
 ### P2: ¿Aspose.Note admite guardar documentos en formatos distintos de PDF?
 

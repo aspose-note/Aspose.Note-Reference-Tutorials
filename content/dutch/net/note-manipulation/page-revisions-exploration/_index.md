@@ -79,7 +79,7 @@ A2: Aspose.Note ondersteunt laadgeschiedenis voor zowel .one- als .onepkg-bestan
 
 ### V3: Is er een gratis proefversie beschikbaar voor Aspose.Note voor .NET?
 
- A3: Ja, u kunt een gratis proefversie van Aspose.Note voor .NET downloaden van[hier](https://releases.aspose.com/).
+A3: Ja, u kunt een gratis proefversie van Aspose.Note voor .NET downloaden van[hier](https://releases.aspose.com/).
 
 ### V4: Hoe kan ik een tijdelijke licentie verkrijgen voor Aspose.Note voor .NET?
 

@@ -27,7 +27,7 @@ using System.Collections.Generic;
 ```csharp
 // La ruta al directorio de documentos.
 string dataDir = "Your Document Directory";
-// Crear un objeto de la clase Documento.
+//Crear un objeto de la clase Documento.
 Aspose.Note.Document doc = new Aspose.Note.Document();
 ```
 ## Paso 2: inicializar la página y el esquema
@@ -42,7 +42,7 @@ Outline outline = new Outline(doc);
 // Inicialice el objeto de clase TextStyle y establezca las propiedades de formato
 ParagraphStyle defaultStyle = new ParagraphStyle { FontColor = Color.Black, FontName = "Arial", FontSize = 10 };
 ```
-## Paso 4: crea elementos de contorno con viñetas
+## Paso 4: crea elementos de esquema con viñetas
 ```csharp
 // Inicializar objetos de clase OutlineElement y aplicar viñetas
 OutlineElement outlineElem1 = new OutlineElement(doc) { NumberList = new NumberList("*", "Arial", 10) };
@@ -63,7 +63,7 @@ page.AppendChildLast(outline);
 ```
 ## Paso 7: agregar página al documento
 ```csharp
-// Agregar nodo de página
+//Agregar nodo de página
 doc.AppendChildLast(page);
 ```
 ## Paso 8: guarde el documento de OneNote

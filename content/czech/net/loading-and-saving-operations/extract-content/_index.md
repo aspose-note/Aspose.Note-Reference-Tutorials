@@ -9,7 +9,7 @@ url: /cs/net/loading-and-saving-operations/extract-content/
 ---
 ## Úvod
 
-tomto tutoriálu prozkoumáme, jak extrahovat obsah z dokumentů Aspose.Note pomocí Aspose.Note pro .NET. Aspose.Note je výkonná knihovna, která vám umožňuje pracovat se soubory Microsoft OneNote programově. Projdeme si procesem krok za krokem a každý příklad rozdělíme do několika kroků, abychom zajistili jasnost a porozumění.
+V tomto tutoriálu prozkoumáme, jak extrahovat obsah z dokumentů Aspose.Note pomocí Aspose.Note pro .NET. Aspose.Note je výkonná knihovna, která vám umožňuje pracovat se soubory Microsoft OneNote programově. Projdeme si procesem krok za krokem a každý příklad rozdělíme do několika kroků, abychom zajistili jasnost a porozumění.
 
 ## Předpoklady
 
@@ -19,7 +19,7 @@ Než začneme, ujistěte se, že máte následující:
 2. Vývojové prostředí: Nastavte vývojové prostředí s nainstalovaným rozhraním .NET Framework.
 3. Základní znalost C#: Vyžaduje se znalost programovacího jazyka C#.
 
-## Importovat jmenné prostory
+## Import jmenných prostorů
 
 Nejprve se ujistěte, že jste importovali potřebné jmenné prostory pro práci s Aspose. Poznámka ve vašem kódu C#:
 
@@ -39,11 +39,11 @@ string dataDir = "Your Document Directory";
 Document doc = new Document(dataDir + "Aspose.one");
 ```
 
- Nahradit`"Your Document Directory"` s adresářem, kde se nachází váš dokument Aspose.Note. Ujistěte se, že zadáváte správný název souboru s jeho příponou.
+ Nahradit`"Your Document Directory"` adresářem, kde se nachází váš dokument Aspose.Note. Ujistěte se, že zadáváte správný název souboru s jeho příponou.
 
 ## Krok 2: Vytvořte DocumentVisitor
 
- Dále vytvoříme vlastní`DocumentVisitor`navštívit různé uzly v dokumentu. Tento návštěvník nám umožní procházet strukturu dokumentu a extrahovat obsah.
+ Dále vytvoříme vlastní`DocumentVisitor` navštívit různé uzly v dokumentu. Tento návštěvník nám umožní procházet strukturu dokumentu a extrahovat obsah.
 
 ```csharp
 public class MyOneNoteToTxtWriter : DocumentVisitor
@@ -74,7 +74,7 @@ public override void VisitPageStart(Page page)
 
 ## Krok 4: Akumulujte text
 
-V rámci třídy návštěvníků shromáždíme extrahovaný text do StringBuilderu, který bude přístupný po dokončení procesu návštěvy.
+rámci třídy návštěvníků shromáždíme extrahovaný text do StringBuilderu, který bude přístupný po dokončení procesu návštěvy.
 
 ```csharp
 private readonly StringBuilder mBuilder;
@@ -97,7 +97,7 @@ public string GetText()
 
 ## Krok 5: Proveďte návštěvu
 
-Nakonec provedeme proces návštěvy voláním`Accept` metoda na objektu dokumentu a předá naši vlastní instanci návštěvníka jako parametr.
+ Nakonec provedeme proces návštěvy voláním`Accept` metoda na objektu dokumentu a předá naši vlastní instanci návštěvníka jako parametr.
 
 ```csharp
 MyOneNoteToTxtWriter myConverter = new MyOneNoteToTxtWriter();

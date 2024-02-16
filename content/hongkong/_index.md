@@ -1,6 +1,6 @@
 ---
 title: 使用 Aspose.Note 掌握 OneNote 檔案操作
-linktitle: Aspose.Page 教學課程
+linktitle: Aspose.Note 教學課程
 additionalTitle: Aspose API 參考
 description: 透過逐步教學掌握 Aspose.Note！了解以程式設計方式操作 OneNote 檔案以實現高效的文件處理。
 type: docs
@@ -9,7 +9,7 @@ url: /zh-hant/
 is_root: true
 ---
 
-歡迎來到 Aspose.Note 教學清單頁面 – 掌握 Aspose.Note（領先的文件操作 API）強大功能的綜合指南。無論您是經驗豐富的開發人員還是渴望探索文件處理世界的新手，這些教程都旨在為您提供逐步指導和實踐範例。 Aspose.Note 可讓您以程式設計方式處理 Microsoft OneNote 文件，從而解鎖從 OneNote 文件建立、修改和提取內容的無數可能性。瀏覽我們精心策劃的教程，以增強您的技能，簡化您的開發流程，並在您的應用程式中充分發揮 Aspose.Note 的潛力。讓我們一起踏上這趟知識與效率之旅吧！
+透過專為 .NET 和 Java 平台量身定制的 Aspose.Note 教學踏上變革之旅，重新定義 OneNote 文件操作方法。我們的綜合指南為您的應用程式提供逐步的見解，涵蓋從複雜的許可到圖像處理的精彩等一系列主題。提升您在附件、超連結和文字操作方面的技能，釋放 Aspose.Note 無縫文件開發的全部潛力。深入研究精確的表格製作、高效的 PDF 匯入和熟練的標籤管理。使用自訂選項列印 OneNote 創作，並輕鬆探索載入、儲存和筆記本操作。當您探索 .NET 和 Java 的這些寶貴資源時，一次一個教程，徹底改變您的文件操作體驗。
 
 ## Aspose.Note for .NET 教學課程
 {{% alert color="primary" %}}
@@ -31,3 +31,26 @@ is_root: true
 - [標籤管理](./net/tag-management/)
 - [文字處理](./net/text-manipulation/)
 
+## Java 教學的 Aspose.Note
+{{% alert color="primary" %}}
+透過 Aspose.Note for Java 教學踏上變革之旅，該教學課程旨在提升您的 OneNote 體驗並簡化 Java 開發。深入了解涵蓋 Java 整合、文件操作、超連結、圖像、授權、效能最佳化、文件保存、筆記型電腦操作、頁面操作、列印、樣式、表格操作、標籤操作、文字操作和 Outlook 整合的綜合指南。釋放 Aspose.Note 的全部潛力，增強您的文件處理能力並掌握高效 Java 開發的藝術。 
+{{% /alert %}}
+
+這些是一些有用資源的連結：
+ 
+- [OneNote Java 集成](./java/onenote-java-integration/)
+- [OneNote 文檔操作](./java/onenote-document-manipulation/)
+- [OneNote 超連結與圖片](./java/onenote-hyperlinks-images/)
+- [OneNote 圖片替代文字](./java/onenote-image-alternative-text/)
+- [Aspose.Note Java 許可](./java/licensing-java/)
+- [OneNote 文件加載](./java/onenote-document-loading/)
+- [OneNote 效能最佳化](./java/onenote-performance-optimization/)
+- [OneNote 文件保存](./java/onenote-document-saving/)
+- [OneNote 筆記本操作](./java/onenote-notebook-operations/)
+- [OneNote 頁面操作](./java/onenote-page-manipulation/)
+- [OneNote 列印文檔](./java/onenote-printing-documents/)
+- [OneNote 樣式](./java/onenote-styles/)
+- [OneNote 表格操作](./java/onenote-table-manipulation/)
+- [OneNote 標籤操作](./java/onenote-tag-operations/)
+- [OneNote 文字操作](./java/onenote-text-manipulation/)
+- [任務和 Outlook 集成](./java/task-and-outlook-integration/)

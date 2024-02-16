@@ -15,7 +15,7 @@ När det gäller dokumentbearbetning och hantering framstår Aspose.Note för .N
 
 Innan du börjar med denna handledning, se till att du har följande förutsättningar på plats:
 
-1. Installation av Aspose.Note for .NET: Ladda ner och installera Aspose.Note for .NET-biblioteket från[nedladdningslänk](https://releases.aspose.com/note/net/).
+1.  Installation av Aspose.Note for .NET: Ladda ner och installera Aspose.Note for .NET-biblioteket från[nedladdningslänk](https://releases.aspose.com/note/net/).
    
 2. Kännedom om C#-programmering: Grundläggande kunskaper i programmeringsspråket C# är nödvändiga för att förstå och implementera exemplen.
 
@@ -120,7 +120,7 @@ S1: Ja, Aspose.Note för .NET kan användas med andra .NET-kompatibla språk som
 
 ## F2: Finns det en gratis testversion tillgänglig för Aspose.Note för .NET?
 
- S2: Ja, du kan få tillgång till en gratis provversion av Aspose.Note för .NET från[hemsida](https://releases.aspose.com/).
+S2: Ja, du kan få tillgång till en gratis provversion av Aspose.Note för .NET från[hemsida](https://releases.aspose.com/).
 
 ## F3: Hur kan jag få en tillfällig licens för Aspose.Note för .NET?
 

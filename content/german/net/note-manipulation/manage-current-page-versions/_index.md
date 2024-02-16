@@ -15,7 +15,7 @@ In der Welt der Softwareentwicklung ist die Verwaltung und Pflege verschiedener 
 
 Bevor Sie mit dem Tutorial beginnen, stellen Sie sicher, dass die folgenden Voraussetzungen erfüllt sind:
 
-1.  Aspose.Note für .NET installieren: Laden Sie Aspose.Note für .NET herunter und installieren Sie es von[Hier](https://releases.aspose.com/note/net/).
+1. Aspose.Note für .NET installieren: Laden Sie Aspose.Note für .NET herunter und installieren Sie es von[Hier](https://releases.aspose.com/note/net/).
 
 2. Vertrautheit mit der .NET-Umgebung: Grundlegendes Verständnis der .NET-Umgebung und der Programmiersprache C#.
 

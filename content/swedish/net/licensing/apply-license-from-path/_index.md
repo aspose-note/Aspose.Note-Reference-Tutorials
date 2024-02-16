@@ -67,7 +67,7 @@ Aspose.Note.License license = new Aspose.Note.License();
 
 ## Steg 2: Ställ in licens från sökväg
 
- Använd sedan`SetLicense` metod för`License` klass för att tillämpa licensen från den angivna sökvägen:
+Använd sedan`SetLicense` metod för`License` klass för att tillämpa licensen från den angivna sökvägen:
 
 ```csharp
 license.SetLicense("Aspose.Note.lic");

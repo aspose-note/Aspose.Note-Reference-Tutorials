@@ -11,7 +11,7 @@ url: /ko/net/notebook-operations/retrieve-documents-from-onenote-notebook/
 
 .NET 개발 영역에서 Aspose.Note는 OneNote 문서를 쉽게 관리하고 조작할 수 있는 강력한 도구로 돋보입니다. 숙련된 개발자이든 .NET 프로그래밍의 세계에 발을 담그고 있든 관계없이 Aspose.Note를 사용하여 OneNote 노트북에서 문서를 검색하는 기술을 익히는 것은 귀중한 기술입니다.
 
-## 전제 조건
+## 전제조건
 
 튜토리얼을 자세히 살펴보기 전에 다음 전제 조건이 충족되었는지 확인하세요.
 

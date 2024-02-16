@@ -79,7 +79,7 @@ foreach (Page pageRevision in document.GetPageHistory(firstPage))
 
 ### س3: هل تتوفر نسخة تجريبية مجانية من Aspose.Note لـ .NET؟
 
- ج3: نعم، يمكنك تنزيل نسخة تجريبية مجانية من Aspose.Note لـ .NET من[هنا](https://releases.aspose.com/).
+ج3: نعم، يمكنك تنزيل نسخة تجريبية مجانية من Aspose.Note لـ .NET من[هنا](https://releases.aspose.com/).
 
 ### س٤: كيف يمكنني الحصول على ترخيص مؤقت لـ Aspose.Note لـ .NET؟
 

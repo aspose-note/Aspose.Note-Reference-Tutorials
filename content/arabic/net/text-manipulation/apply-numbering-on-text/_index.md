@@ -29,7 +29,7 @@ using System.Collections.Generic;
 ```csharp
 // المسار إلى دليل المستندات.
 string dataDir = "Your Document Directory";
-// قم بإنشاء كائن من فئة المستند
+//قم بإنشاء كائن من فئة المستند
 Document doc = new Document();
 // تهيئة كائن فئة الصفحة
 Aspose.Note.Page page = new Aspose.Note.Page(doc);

@@ -57,7 +57,7 @@ var document = new Document(dataDir + "Aspose.one");
 
 ## Steg 2: Skriv ut dokument
 
- Åberopa`Print` metod på`Document`objekt för att initiera utskriftsprocessen. Den här metoden skickar dokumentet till standardskrivaren med standarddialogrutan i Windows med standardalternativ.
+ Åberopa`Print` metod på`Document` objekt för att initiera utskriftsprocessen. Den här metoden skickar dokumentet till standardskrivaren med standarddialogrutan i Windows med standardalternativ.
 
 ```csharp
 document.Print();

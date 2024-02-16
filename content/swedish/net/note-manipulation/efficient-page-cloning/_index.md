@@ -35,7 +35,7 @@ Låt oss nu dela upp processen med att klona sidor i flera steg:
 
 ## Steg 1: Ladda OneNote-dokumentet
 
-Först måste vi ladda OneNote-dokumentet i minnet. Vi kan uppnå detta med hjälp av`Document` klass tillhandahållen av Aspose.Note:
+ Först måste vi ladda OneNote-dokumentet i minnet. Vi kan uppnå detta med hjälp av`Document` klass tillhandahållen av Aspose.Note:
 
 ```csharp
 // Sökvägen till dokumentkatalogen.

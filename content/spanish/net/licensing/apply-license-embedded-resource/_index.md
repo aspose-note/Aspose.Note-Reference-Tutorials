@@ -17,7 +17,7 @@ Antes de comenzar, asegúrese de cumplir con los siguientes requisitos previos:
 
 ### 1. Visual Studio instalado
 
- Asegúrese de tener Visual Studio instalado en su sistema. Puedes descargarlo desde[aquí](https://visualstudio.microsoft.com/).
+Asegúrese de tener Visual Studio instalado en su sistema. Puedes descargarlo desde[aquí](https://visualstudio.microsoft.com/).
 
 ### 2. Aspose.Note para .NET instalado
 

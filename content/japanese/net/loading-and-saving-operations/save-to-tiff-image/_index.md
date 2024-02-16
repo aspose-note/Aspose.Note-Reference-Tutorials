@@ -43,7 +43,7 @@ public static void SaveToTiffUsingJpegCompression()
     //ドキュメントを Aspose.Note にロードします。
     Document oneFile = new Document("Path_to_your_OneNote_document");
 
-    // TIFF画像の保存先パスを設定します。
+    //TIFF画像の保存先パスを設定します。
     var dst = "Destination_path_for_TIFF_image";
 
     //ドキュメントを JPEG 圧縮の TIFF 画像として保存します。
@@ -67,7 +67,7 @@ public static void SaveToTiffUsingPackBitsCompression()
     //ドキュメントを Aspose.Note にロードします。
     Document oneFile = new Document("Path_to_your_OneNote_document");
 
-    // TIFF画像の保存先パスを設定します。
+    //TIFF画像の保存先パスを設定します。
     var dst = "Destination_path_for_TIFF_image";
 
     // PackBits 圧縮を使用してドキュメントを TIFF 画像として保存します。
@@ -90,7 +90,7 @@ public static void SaveToTiffUsingCcitt3Compression()
     //ドキュメントを Aspose.Note にロードします。
     Document oneFile = new Document("Path_to_your_OneNote_document");
 
-    // TIFF画像の保存先パスを設定します。
+    //TIFF画像の保存先パスを設定します。
     var dst = "Destination_path_for_TIFF_image";
 
     //ドキュメントを CCITT Group 3 圧縮の TIFF 画像として保存します。
@@ -130,4 +130,4 @@ A4: はい、Aspose.Note API によるバッチ処理を使用して変換プロ
 
 ### Q5: Aspose.Note の試用版はありますか?
 
- A5: はい、Aspose.Note の無料トライアルを次のサイトから入手できます。[ここ](https://releases.aspose.com/).
+A5: はい、Aspose.Note の無料トライアルを次のサイトから入手できます。[ここ](https://releases.aspose.com/).

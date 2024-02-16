@@ -48,7 +48,7 @@ Defina o caminho do diretório onde você deseja salvar o arquivo do seu noteboo
 string dataDir = "Your Document Directory";
 ```
 
-## Etapa 3: especifique o nome e o formato do arquivo
+## Etapa 3: especifique o nome e formato do arquivo
 
 Anexe o nome e formato do arquivo desejado ao caminho do diretório:
 
@@ -92,7 +92,7 @@ A1: Sim, Aspose.Note for .NET é compatível com vários frameworks .NET, inclui
 
 ### Q4: Posso adquirir uma licença temporária do Aspose.Note for .NET?
 
- A4: Sim, você pode adquirir uma licença temporária no site Aspose:[Licença Temporária](https://purchase.aspose.com/temporary-license/).
+A4: Sim, você pode adquirir uma licença temporária no site Aspose:[Licença Temporária](https://purchase.aspose.com/temporary-license/).
 
 ### Q5: Onde posso encontrar documentação abrangente para Aspose.Note for .NET?
 

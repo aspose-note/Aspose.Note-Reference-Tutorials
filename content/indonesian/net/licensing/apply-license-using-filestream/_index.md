@@ -76,11 +76,11 @@ A1: Tidak, lisensi yang valid diperlukan untuk memanfaatkan fungsionalitas penuh
 
 ### Q3: Apakah tersedia uji coba gratis?
 
-A3: Ya, Anda bisa mendapatkan uji coba gratis[Di Sini](https://releases.aspose.com/).
+ A3: Ya, Anda bisa mendapatkan uji coba gratis[Di Sini](https://releases.aspose.com/).
 
 ### Q4: Bagaimana saya bisa mendapatkan dukungan?
 
- A4: Anda bisa mendapatkan dukungan dari komunitas Aspose.Note[forum](https://forum.aspose.com/c/note/28).
+A4: Anda bisa mendapatkan dukungan dari komunitas Aspose.Note[forum](https://forum.aspose.com/c/note/28).
 
 ### Q5: Apakah Anda menawarkan lisensi sementara?
 

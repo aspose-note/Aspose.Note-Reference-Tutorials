@@ -79,7 +79,7 @@ A2: Aspose.Note supporta il caricamento della cronologia per entrambi i formati 
 
 ### Q3: È disponibile una prova gratuita per Aspose.Note per .NET?
 
- A3: Sì, puoi scaricare una versione di prova gratuita di Aspose.Note per .NET da[Qui](https://releases.aspose.com/).
+A3: Sì, puoi scaricare una versione di prova gratuita di Aspose.Note per .NET da[Qui](https://releases.aspose.com/).
 
 ### Q4: Come posso ottenere una licenza temporanea per Aspose.Note per .NET?
 

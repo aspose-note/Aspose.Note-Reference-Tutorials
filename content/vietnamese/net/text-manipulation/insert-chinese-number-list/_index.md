@@ -86,7 +86,7 @@ Trong hướng dẫn này, chúng tôi đã trình bày quy trình từng bướ
 ### Câu hỏi: Aspose.Note có tương thích với phiên bản .NET mới nhất không?
 Trả lời: Có, Aspose.Note được cập nhật thường xuyên để hỗ trợ các phiên bản .NET mới nhất.
 ### Câu hỏi: Tôi có thể tìm thêm ví dụ và tài liệu ở đâu?
- A: Khám phá toàn diện[Tài liệu Aspose.Note](https://reference.aspose.com/note/net/).
+A: Khám phá toàn diện[Tài liệu Aspose.Note](https://reference.aspose.com/note/net/).
 ### Câu hỏi: Làm cách nào tôi có thể nhận được giấy phép tạm thời cho Aspose.Note?
  A: Xin giấy phép tạm thời[đây](https://purchase.aspose.com/temporary-license/).
 ### Câu hỏi: Tôi có thể tìm kiếm trợ giúp hoặc thảo luận các truy vấn liên quan đến Aspose.Note ở đâu?

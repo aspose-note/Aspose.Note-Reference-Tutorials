@@ -15,7 +15,7 @@ Aspose.Note för .NET är ett kraftfullt bibliotek som låter utvecklare arbeta 
 
 Innan du börjar, se till att du har följande förutsättningar på plats:
 
-1.  Aspose.Note for .NET Library: Se till att du har laddat ner och installerat Aspose.Note for .NET-biblioteket. Du kan ladda ner den från[här](https://releases.aspose.com/note/net/).
+1. Aspose.Note for .NET Library: Se till att du har laddat ner och installerat Aspose.Note for .NET-biblioteket. Du kan ladda ner den från[här](https://releases.aspose.com/note/net/).
 
 2. Utvecklingsmiljö: Ställ in din utvecklingsmiljö med Visual Studio eller något annat föredraget .NET-utvecklingsverktyg.
 
@@ -80,7 +80,7 @@ foreach (Page page in oneFile)
 
 ## Slutsats
 
-I den här handledningen har vi lärt oss hur man extraherar sidinformation från Microsoft OneNote-filer med Aspose.Note för .NET. Genom att följa steg-för-steg-guiden kan du enkelt integrera den här funktionen i dina .NET-applikationer, vilket gör att du kan analysera och hantera OneNote-dokument mer effektivt.
+den här handledningen har vi lärt oss hur man extraherar sidinformation från Microsoft OneNote-filer med Aspose.Note för .NET. Genom att följa steg-för-steg-guiden kan du enkelt integrera den här funktionen i dina .NET-applikationer, vilket gör att du kan analysera och hantera OneNote-dokument mer effektivt.
 
 ## FAQ's
 

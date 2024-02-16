@@ -78,7 +78,7 @@ outline1.AppendChildLast(outlineElem1);
 ```
 Vi lägger till OutlineElement som innehåller bilden till Outline.
 
-## Steg 7: Lägg till disposition på sidan
+## Steg 7: Lägg till disposition till sidan
 ```csharp
 page.AppendChildLast(outline1);
 ```

@@ -65,7 +65,7 @@ Dentro del bucle, recorra cada revisión de la página y acceda a sus propiedade
 
 ## Conclusión
 
-Explorar revisiones de páginas en documentos Aspose.Note usando .NET es un proceso sencillo. Si sigue los pasos descritos en este tutorial, puede recuperar y analizar eficazmente el historial de revisión de sus archivos de OneNote mediante programación.
+Explorar revisiones de páginas en documentos Aspose.Note usando .NET es un proceso sencillo. Si sigue los pasos descritos en este tutorial, puede recuperar y analizar eficazmente el historial de revisiones de sus archivos de OneNote mediante programación.
 
 ## Preguntas frecuentes
 
@@ -79,7 +79,7 @@ R2: Aspose.Note admite el historial de carga para los formatos de archivo .one y
 
 ### P3: ¿Hay una prueba gratuita disponible para Aspose.Note para .NET?
 
- R3: Sí, puede descargar una versión de prueba gratuita de Aspose.Note para .NET desde[aquí](https://releases.aspose.com/).
+R3: Sí, puede descargar una versión de prueba gratuita de Aspose.Note para .NET desde[aquí](https://releases.aspose.com/).
 
 ### P4: ¿Cómo puedo obtener una licencia temporal de Aspose.Note para .NET?
 

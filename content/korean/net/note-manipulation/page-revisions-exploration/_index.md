@@ -11,7 +11,7 @@ url: /ko/net/note-manipulation/page-revisions-exploration/
 
 이 튜토리얼에서는 .NET 프레임워크를 사용하여 Aspose.Note 문서의 페이지 개정을 탐색하는 방법을 살펴보겠습니다. Aspose.Note는 개발자가 Microsoft OneNote 파일을 프로그래밍 방식으로 작업할 수 있도록 지원하고 이러한 파일에서 데이터를 조작하고 추출할 수 있는 다양한 기능을 제공하는 강력한 라이브러리입니다.
 
-## 전제 조건
+## 전제조건
 
 시작하기 전에 다음 전제 조건이 설정되어 있는지 확인하세요.
 
@@ -65,7 +65,7 @@ foreach (Page pageRevision in document.GetPageHistory(firstPage))
 
 ## 결론
 
-.NET을 사용하여 Aspose.Note 문서의 페이지 개정판을 탐색하는 것은 간단한 프로세스입니다. 이 자습서에 설명된 단계를 수행하면 OneNote 파일의 개정 기록을 프로그래밍 방식으로 효과적으로 검색하고 분석할 수 있습니다.
+.NET을 사용하여 Aspose.Note 문서의 페이지 개정판을 탐색하는 것은 간단한 프로세스입니다. 이 자습서에 설명된 단계를 따르면 OneNote 파일의 수정 기록을 프로그래밍 방식으로 효과적으로 검색하고 분석할 수 있습니다.
 
 ## FAQ
 
@@ -79,7 +79,7 @@ A2: Aspose.Note는 .one 및 .onepkg 파일 형식 모두에 대한 로딩 기록
 
 ### Q3: Aspose.Note for .NET에 대한 무료 평가판이 있습니까?
 
- A3: 예, 다음에서 .NET용 Aspose.Note 무료 평가판을 다운로드할 수 있습니다.[여기](https://releases.aspose.com/).
+A3: 예, 다음에서 .NET용 Aspose.Note 무료 평가판을 다운로드할 수 있습니다.[여기](https://releases.aspose.com/).
 
 ### Q4: Aspose.Note for .NET의 임시 라이선스를 어떻게 얻을 수 있나요?
 

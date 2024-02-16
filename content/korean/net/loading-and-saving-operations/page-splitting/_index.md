@@ -11,7 +11,7 @@ url: /ko/net/loading-and-saving-operations/page-splitting/
 
 이 튜토리얼에서는 .NET용 Aspose.Note를 사용하여 페이지를 효과적으로 분할하는 방법을 살펴보겠습니다. 페이지 분할은 특히 PDF 형식으로 변환해야 하는 긴 OneNote 페이지를 처리할 때 중요한 기능입니다. Aspose.Note는 분할 논리를 제어하는 다양한 알고리즘을 제공하여 결과 PDF를 잘 구성하고 읽을 수 있도록 보장합니다.
 
-## 전제 조건
+## 전제조건
 
 시작하기 전에 다음 전제 조건이 충족되었는지 확인하세요.
 

@@ -35,7 +35,7 @@ Ora suddividiamo il processo di clonazione delle pagine in più passaggi:
 
 ## Passaggio 1: caricare il documento OneNote
 
-Innanzitutto, dobbiamo caricare il documento OneNote in memoria. Possiamo raggiungere questo obiettivo utilizzando il file`Document` classe fornita da Aspose.Nota:
+ Innanzitutto, dobbiamo caricare il documento OneNote in memoria. Possiamo raggiungere questo obiettivo utilizzando il file`Document` classe fornita da Aspose.Nota:
 
 ```csharp
 // Il percorso della directory dei documenti.

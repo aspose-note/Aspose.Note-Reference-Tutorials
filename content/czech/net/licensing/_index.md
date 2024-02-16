@@ -9,7 +9,7 @@ url: /cs/net/licensing/
 ---
 ## Úvod
 
-Jste vývojář .NET, který se ponoří do dynamické oblasti Aspose.Note? Pochopení způsobu použití licencí je klíčové, zejména při práci se soubory OneNotu. V tomto rozsáhlém průvodci projdeme různými licenčními kurzy, zajistíme bezproblémový proces integrace a umožníme vám bez námahy manipulovat se soubory OneNotu.
+Jste vývojář .NET, který se ponoří do dynamické oblasti Aspose.Note? Pochopení způsobu použití licencí je klíčové, zejména při práci se soubory OneNotu. V tomto rozsáhlém průvodci projdeme různými licenčními kurzy, zajistíme bezproblémový proces integrace a umožníme vám snadno manipulovat se soubory OneNotu.
 
 ## Použití licence Aspose.Note z Embedded Resource
 ### [Použijte licenci Aspose.Note z Embedded Resource](./apply-license-embedded-resource/)

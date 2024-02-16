@@ -76,7 +76,7 @@ public void CssSaving(CssSavingArgs args)
 }
 ```
 
- Hier definiëren we de`CssSaving`callback-methode om het opslaan van CSS-stylesheets te beheren. Het creëert een bron in de opgegeven CSS-map en stelt de stream, URI en andere eigenschappen dienovereenkomstig in.
+ Hier definiëren we de`CssSaving` callback-methode om het opslaan van CSS-stylesheets te beheren. Het creëert een bron in de opgegeven CSS-map en stelt de stream, URI en andere eigenschappen dienovereenkomstig in.
 
 ## Stap 4: Implementeer Callback voor het opslaan van afbeeldingen
 
@@ -95,7 +95,7 @@ public void ImageSaving(ImageSavingArgs args)
 
 ## Conclusie
 
-In deze zelfstudie hebben we geleerd hoe u gebruikersbesparende callbacks kunt implementeren in Aspose.Note voor .NET. Door de gegeven stappen te volgen, kunt u het opslagproces voor lettertypen, CSS-stylesheets en afbeeldingen aanpassen, waardoor u meer flexibiliteit en controle over de uitvoer krijgt.
+In deze zelfstudie hebben we geleerd hoe u gebruikersbesparende callbacks kunt implementeren in Aspose.Note voor .NET. Door de aangegeven stappen te volgen, kunt u het opslagproces voor lettertypen, CSS-stylesheets en afbeeldingen aanpassen, waardoor u meer flexibiliteit en controle over de uitvoer krijgt.
 
 ## Veelgestelde vragen
 

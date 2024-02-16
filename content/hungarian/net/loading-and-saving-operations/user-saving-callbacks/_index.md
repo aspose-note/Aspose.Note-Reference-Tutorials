@@ -76,7 +76,7 @@ public void CssSaving(CssSavingArgs args)
 }
 ```
 
- Itt definiáljuk a`CssSaving`visszahívási módszer a CSS-stíluslapok mentésének kezelésére. Létrehoz egy erőforrást a megadott CSS mappában, és ennek megfelelően állítja be az adatfolyamot, az URI-t és az egyéb tulajdonságokat.
+ Itt definiáljuk a`CssSaving` visszahívási módszer a CSS-stíluslapok mentésének kezelésére. Létrehoz egy erőforrást a megadott CSS mappában, és ennek megfelelően állítja be az adatfolyamot, az URI-t és az egyéb tulajdonságokat.
 
 ## 4. lépés: Végezze el a képmentő visszahívást
 

@@ -16,7 +16,7 @@ In deze zelfstudie verdiepen we ons in het proces van het maken van met een wach
 Voordat we beginnen, zorg ervoor dat u aan de volgende vereisten voldoet:
 
 1.  Aspose.Note voor .NET: Zorg ervoor dat u Aspose.Note voor .NET hebt geïnstalleerd. Als dit niet het geval is, kunt u deze downloaden van de[website](https://releases.aspose.com/note/net/).
-2. Ontwikkelomgeving: Zorg dat er een ontwikkelomgeving is opgezet voor .NET-programmering, inclusief Visual Studio of een andere gewenste IDE.
+2. Ontwikkelomgeving: Zorg ervoor dat er een ontwikkelomgeving is opgezet voor .NET-programmering, inclusief Visual Studio of een andere gewenste IDE.
 3. Basiskennis van C#: maak uzelf vertrouwd met de basisbeginselen van de programmeertaal C#, zoals we deze in onze voorbeelden zullen gebruiken.
 
 ## Naamruimten importeren

@@ -40,7 +40,7 @@ foreach (var node in richTextNodes)
 {
     // Markeerkleur voor alinea instellen
     node.ParagraphStyle.Highlight = Color.DarkGreen;
-    // Stel de markeringskleur in voor elke tekstrun
+    // Stel de markeringskleur in voor elke tekstuitvoering
     foreach (var run in node.TextRuns)
     {
         run.Style.Highlight = Color.DarkSeaGreen;
@@ -65,7 +65,7 @@ Ja, u kunt de code aanpassen om verschillende markeringskleuren in te stellen op
 ### Is Aspose.Note compatibel met de nieuwste .NET-frameworks?
 Aspose.Note werkt zijn bibliotheken regelmatig bij om compatibiliteit met de nieuwste .NET-frameworks te garanderen.
 ### Hoe kan ik omgaan met fouten tijdens het implementeren van deze functie?
-kunt try-catch-blokken opnemen om uitzonderingen af te handelen en een soepele gebruikerservaring te bieden.
+U kunt try-catch-blokken opnemen om uitzonderingen af te handelen en een soepele gebruikerservaring te bieden.
 ### Ondersteunt Aspose.Note andere functies voor tekstopmaak?
 Absoluut! Aspose.Note biedt een breed scala aan functies voor tekstopmaak, inclusief lettertypestijlen, -groottes en meer.
 ### Kan ik deze oplossing integreren in een webapplicatie?

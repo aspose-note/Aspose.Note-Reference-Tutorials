@@ -70,7 +70,7 @@ Sla ten slotte het gewijzigde document op:
 document.Save(Path.Combine(dataDir, "SetPageBackgroundColor.one"));
 ```
 
- Zorg ervoor dat u deze vervangt`"SetPageBackgroundColor.one"`met de gewenste bestandsnaam voor het gewijzigde document.
+ Zorg ervoor dat u deze vervangt`"SetPageBackgroundColor.one"` met de gewenste bestandsnaam voor het gewijzigde document.
 
 ## Conclusie
 
@@ -88,7 +88,7 @@ A2: Aspose.Note richt zich primair op het werken met OneNote-documenten, maar bi
 
 ### V3: Is er een proefversie beschikbaar voor Aspose.Note voor .NET?
 
- A3: Ja, u kunt een gratis proefversie downloaden van[hier](https://releases.aspose.com/).
+A3: Ja, u kunt een gratis proefversie downloaden van[hier](https://releases.aspose.com/).
 
 ### V4: Kan ik tijdelijke licenties krijgen voor testdoeleinden?
 

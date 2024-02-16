@@ -27,7 +27,7 @@ using System.Collections.Generic;
 ```csharp
 // Belgeler dizininin yolu.
 string dataDir = "Your Document Directory";
-// Document sınıfının bir nesnesini oluşturun
+//Document sınıfının bir nesnesini oluşturun
 Aspose.Note.Document doc = new Aspose.Note.Document();
 ```
 ## Adım 2: Sayfayı ve Anahattı Başlatın
@@ -63,7 +63,7 @@ page.AppendChildLast(outline);
 ```
 ## Adım 7: Belgeye Sayfa Ekleme
 ```csharp
-// Sayfa düğümü ekle
+//Sayfa düğümü ekle
 doc.AppendChildLast(page);
 ```
 ## Adım 8: OneNote Belgesini Kaydetme

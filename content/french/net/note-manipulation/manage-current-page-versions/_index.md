@@ -15,7 +15,7 @@ Dans le monde du développement de logiciels, la gestion et la maintenance des d
 
 Avant de plonger dans le didacticiel, assurez-vous d'avoir configuré les conditions préalables suivantes :
 
-1.  Installez Aspose.Note pour .NET : Téléchargez et installez Aspose.Note pour .NET à partir de[ici](https://releases.aspose.com/note/net/).
+1. Installez Aspose.Note pour .NET : Téléchargez et installez Aspose.Note pour .NET à partir de[ici](https://releases.aspose.com/note/net/).
 
 2. Familiarité avec l'environnement .NET : Compréhension de base de l'environnement .NET et du langage de programmation C#.
 

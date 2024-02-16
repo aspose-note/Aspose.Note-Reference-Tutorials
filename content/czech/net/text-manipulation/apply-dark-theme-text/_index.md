@@ -2,7 +2,7 @@
 title: Dark Theme Transformation s Aspose.Note pro .NET
 linktitle: Použijte tmavý motiv na text v Aspose.Note
 second_title: Aspose.Note .NET API
-description: Transformujte své dokumenty OneNote pomocí Aspose.Note pro .NET! Aplikujte elegantní tmavé téma bez námahy. Stáhněte si nyní a vylepšete svůj zážitek z psaní poznámek.
+description: Transformujte své dokumenty OneNote pomocí Aspose.Note pro .NET! Bez námahy naneste elegantní tmavý motiv. Stáhněte si nyní a vylepšete svůj zážitek z psaní poznámek.
 type: docs
 weight: 11
 url: /cs/net/text-manipulation/apply-dark-theme-text/
@@ -14,7 +14,7 @@ Než se pustíme do výukového programu, ujistěte se, že máte splněny násl
 -  Aspose.Note pro .NET: Ujistěte se, že máte nainstalovaný Aspose.Note pro .NET. Pokud ne, můžete si jej stáhnout z[Aspose.Note dokumentaci](https://reference.aspose.com/note/net/).
 - Vývojové prostředí: Nastavte si preferované vývojové prostředí .NET, jako je Visual Studio.
 - Adresář dokumentů: Připravte adresář, kde se nachází váš dokument OneNotu.
-## Importovat jmenné prostory
+## Import jmenných prostorů
 Ve svém projektu .NET importujte potřebné jmenné prostory pro práci s Aspose. Poznámka:
 ```csharp
     using System;

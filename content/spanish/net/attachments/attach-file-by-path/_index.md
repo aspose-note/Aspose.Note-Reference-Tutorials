@@ -73,7 +73,7 @@ OutlineElement outlineElem = new OutlineElement(doc);
 
 `OutlineElement` representa un elemento dentro de la estructura del esquema.
 
-### Paso 5: Inicializar el objeto AttachedFile
+### Paso 5: inicializar el objeto AttachedFile
 
 ```csharp
 AttachedFile attachedFile = new AttachedFile(doc,  dataDir + "attachment.txt");
@@ -138,7 +138,7 @@ R2: Sí, puede editar, modificar y manipular archivos OneNote existentes mediant
 
 ### P3: ¿Aspose.Note para .NET requiere una licencia para uso comercial?
 
- R3: Sí, necesita adquirir una licencia para uso comercial de Aspose.Note para .NET. Puede obtener una licencia de la[pagina de compra](https://purchase.aspose.com/buy).
+R3: Sí, necesita adquirir una licencia para uso comercial de Aspose.Note para .NET. Puede obtener una licencia de la[pagina de compra](https://purchase.aspose.com/buy).
 
 ### P4: ¿Hay una prueba gratuita disponible para Aspose.Note para .NET?
 

@@ -30,7 +30,7 @@ Cserélje ki a "Your Document Directory" elemet az Aspose.Note dokumentumot tart
 ```csharp
 Document oneFile = new Document(dataDir + "Aspose.one");
 ```
- Töltse be az Aspose.Note dokumentumot a`Document` tárgy további feldolgozásra.
+Töltse be az Aspose.Note dokumentumot a`Document` tárgy további feldolgozásra.
 ## 3. lépés: Szöveg lekérése
 ```csharp
 string text = string.Join(Environment.NewLine, oneFile.GetChildNodes<RichText>().Select(e => e.Text)) + Environment.NewLine;

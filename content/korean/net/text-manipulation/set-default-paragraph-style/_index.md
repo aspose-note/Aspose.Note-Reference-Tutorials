@@ -9,9 +9,9 @@ url: /ko/net/text-manipulation/set-default-paragraph-style/
 ---
 ## 소개
 .NET 개발 영역에서 Aspose.Note는 OneNote 파일 작업을 위한 강력한 도구로 돋보입니다. 이 앱이 제공하는 필수 기능 중 하나는 기본 단락 스타일을 설정하는 기능으로, 개발자는 문서의 텍스트 모양을 유연하게 제어할 수 있습니다. 이 튜토리얼에서는 Aspose.Note for .NET을 사용하여 기본 단락 스타일을 설정하는 과정을 살펴보겠습니다. 문서 조작의 중요한 측면을 익히는 데 도움이 되도록 각 단계를 자세히 살펴보세요.
-## 전제 조건
+## 전제조건
 튜토리얼을 시작하기 전에 다음 전제 조건이 충족되었는지 확인하세요.
--  .NET용 Aspose.Note: .NET용 Aspose.Note 라이브러리가 설치되어 있는지 확인하세요. 다음에서 다운로드할 수 있습니다.[Aspose.Note .NET 문서](https://reference.aspose.com/note/net/).
+- .NET용 Aspose.Note: .NET용 Aspose.Note 라이브러리가 설치되어 있는지 확인하세요. 다음에서 다운로드할 수 있습니다.[Aspose.Note .NET 문서](https://reference.aspose.com/note/net/).
 - 통합 개발 환경(IDE): Visual Studio와 같은 .NET 개발용으로 작동하는 IDE를 컴퓨터에 설치합니다.
 이제 필요한 도구가 준비되었으므로 다음 단계로 진행하겠습니다.
 ## 네임스페이스 가져오기
@@ -79,4 +79,4 @@ document.Save(Path.Combine("Your Document Directory", "SetDefaultParagraphStyle.
 ### Aspose.Note는 최신 .NET 프레임워크와 호환됩니까?
 예, Aspose.Note는 최신 .NET 프레임워크와의 호환성을 보장하기 위해 정기적으로 업데이트됩니다.
 ### Aspose.Note에 임시 라이선스를 사용할 수 있나요?
-예, Aspose.Note에 대한 임시 라이센스를 얻을 수 있습니다.[여기](https://purchase.aspose.com/temporary-license/).
+ 예, Aspose.Note에 대한 임시 라이센스를 얻을 수 있습니다.[여기](https://purchase.aspose.com/temporary-license/).

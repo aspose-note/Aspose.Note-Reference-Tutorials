@@ -138,7 +138,7 @@ Odpowiedź 2: Tak, możesz programowo edytować, modyfikować i manipulować ist
 
 ### P3: Czy Aspose.Note dla .NET wymaga licencji do użytku komercyjnego?
 
- Odpowiedź 3: Tak, musisz nabyć licencję na komercyjne wykorzystanie Aspose.Note dla .NET. Licencję można uzyskać od firmy[strona zakupu](https://purchase.aspose.com/buy).
+Odpowiedź 3: Tak, musisz nabyć licencję na komercyjne wykorzystanie Aspose.Note dla .NET. Licencję można uzyskać od firmy[strona zakupu](https://purchase.aspose.com/buy).
 
 ### P4: Czy dostępna jest bezpłatna wersja próbna Aspose.Note dla .NET?
 

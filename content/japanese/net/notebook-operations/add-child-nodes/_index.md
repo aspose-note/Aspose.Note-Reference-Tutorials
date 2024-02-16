@@ -15,7 +15,7 @@ url: /ja/net/notebook-operations/add-child-nodes/
 
 始める前に、以下のものがあることを確認してください。
 
-1. Aspose.Note for .NET: 開発環境に Aspose.Note for .NET がインストールされていることを確認してください。からダウンロードできます。[Webサイト](https://releases.aspose.com/note/net/).
+1.  Aspose.Note for .NET: 開発環境に Aspose.Note for .NET がインストールされていることを確認してください。からダウンロードできます。[Webサイト](https://releases.aspose.com/note/net/).
 
 2. 開発環境: Visual Studio などの .NET 開発環境をセットアップします。
 

@@ -39,11 +39,11 @@ string dataDir = "Your Document Directory";
 Document doc = new Document(dataDir + "Aspose.one");
 ```
 
- Yer değiştirmek`"Your Document Directory"` Aspose.Note belgenizin bulunduğu dizinle. Uzantısıyla birlikte doğru dosya adını girdiğinizden emin olun.
+ Yer değiştirmek`"Your Document Directory"`Aspose.Note belgenizin bulunduğu dizinle. Uzantısıyla birlikte doğru dosya adını girdiğinizden emin olun.
 
 ## 2. Adım: DocumentVisitor oluşturun
 
- Daha sonra özel bir tane oluşturacağız`DocumentVisitor`belge içindeki farklı düğümleri ziyaret etmek için. Bu ziyaretçi belgenin yapısından geçmemize ve içeriği çıkarmamıza olanak tanıyacak.
+ Daha sonra özel bir tane oluşturacağız`DocumentVisitor` belge içindeki farklı düğümleri ziyaret etmek için. Bu ziyaretçi belgenin yapısından geçmemize ve içeriği çıkarmamıza olanak tanıyacak.
 
 ```csharp
 public class MyOneNoteToTxtWriter : DocumentVisitor
@@ -72,7 +72,7 @@ public override void VisitPageStart(Page page)
 
  Her biri`Visit*` yöntem, belge yapısındaki belirli bir düğüm türüne karşılık gelir. Bu yöntemler içerisinde ilgili içerikleri çıkarabilir veya istediğiniz işlemleri gerçekleştirebilirsiniz.
 
-## 4. Adım: Metni Biriktirin
+## Adım 4: Metni Biriktirin
 
 Ziyaretçi sınıfı içinde, çıkarılan metni, ziyaret süreci tamamlandıktan sonra erişilebilecek bir StringBuilder'da biriktireceğiz.
 
@@ -97,7 +97,7 @@ public string GetText()
 
 ## Adım 5: Ziyareti Gerçekleştirin
 
-Son olarak, ziyaret sürecini arayarak gerçekleştireceğiz.`Accept` Özel ziyaretçi örneğimizi parametre olarak ileten belge nesnesindeki yöntem.
+ Son olarak, ziyaret sürecini arayarak gerçekleştireceğiz.`Accept` Özel ziyaretçi örneğimizi parametre olarak ileten belge nesnesindeki yöntem.
 
 ```csharp
 MyOneNoteToTxtWriter myConverter = new MyOneNoteToTxtWriter();

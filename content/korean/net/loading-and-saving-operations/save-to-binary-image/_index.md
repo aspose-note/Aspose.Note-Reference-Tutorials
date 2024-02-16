@@ -11,7 +11,7 @@ url: /ko/net/loading-and-saving-operations/save-to-binary-image/
 
 이 튜토리얼에서는 .NET용 Aspose.Note를 사용하여 문서를 바이너리 이미지로 저장하는 방법을 살펴보겠습니다. 이 프로세스에는 문서를 고정된 임계값을 사용하여 흑백 이미지로 변환하는 작업이 포함되며, 이는 다양한 응용 프로그램에 유용할 수 있습니다.
 
-## 전제 조건
+## 전제조건
 
 시작하기 전에 다음 전제 조건이 충족되었는지 확인하세요.
 
@@ -80,7 +80,7 @@ oneFile.Save(outputFilePath, saveOptions);
 
 ### Q1: 이진화 임계값을 조정할 수 있나요?
 
-A1: 예, 요구 사항에 따라 이진화 임계값을 수정하여 사용자 정의할 수 있습니다.`BinarizationThreshold` 코드의 속성입니다.
+ A1: 예, 요구 사항에 따라 이진화 임계값을 수정하여 사용자 정의할 수 있습니다.`BinarizationThreshold` 코드의 속성입니다.
 
 ### Q2: 문서 저장에 지원되는 다른 형식은 무엇입니까?
 
@@ -96,4 +96,4 @@ A4: 예, 여러 문서를 반복하여 유사한 코드를 사용하여 이진 �
 
 ### Q5: Aspose.Note에 대한 추가 리소스와 지원은 어디서 찾을 수 있나요?
 
- A5: 다음을 탐색할 수 있습니다.[Aspose.Note 문서](https://reference.aspose.com/note/net/) 그리고 해당 기관의 도움을 구하세요.[Aspose.Note 포럼](https://forum.aspose.com/c/note/28) 문의 사항이나 문제가 있으면.
+ A5: 다음을 탐색할 수 있습니다.[Aspose.Note 문서](https://reference.aspose.com/note/net/)그리고 해당 기관의 도움을 구하세요.[Aspose.Note 포럼](https://forum.aspose.com/c/note/28) 문의 사항이나 문제가 있으면.

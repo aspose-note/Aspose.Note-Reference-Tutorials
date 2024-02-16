@@ -61,7 +61,7 @@ foreach (INotebookChildNode notebookChildNode in notebook.OfType<Document>())
 
 ## Çözüm
 
- Bu eğitimde Aspose.Note for .NET'te not defterlerinin anında nasıl yükleneceğini öğrendik. Ayarlayarak`InstantLoading` bayrak`NotebookLoadOptions`sayesinde, bir dizüstü bilgisayarın önceden yüklenmiş belgelerini verimli bir şekilde yineleyebilir, performansı ve üretkenliği artırabiliriz.
+Bu eğitimde Aspose.Note for .NET'te not defterlerinin anında nasıl yükleneceğini öğrendik. Ayarlayarak`InstantLoading` bayrak`NotebookLoadOptions`sayesinde, bir dizüstü bilgisayarın önceden yüklenmiş belgelerini verimli bir şekilde yineleyebilir, performansı ve üretkenliği artırabiliriz.
 
 ## SSS'ler
 

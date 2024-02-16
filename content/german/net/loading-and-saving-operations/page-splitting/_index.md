@@ -16,8 +16,8 @@ In diesem Tutorial erfahren Sie, wie Sie Seiten mit Aspose.Note für .NET effekt
 Bevor wir beginnen, stellen Sie sicher, dass Sie die folgenden Voraussetzungen erfüllen:
 
 1. Visual Studio: Installieren Sie Visual Studio auf Ihrem System.
-2.  Aspose.Note für .NET: Laden Sie die Aspose.Note für .NET-Bibliothek herunter und installieren Sie sie von[Hier](https://releases.aspose.com/note/net/).
-3. Grundkenntnisse in C#: Kenntnisse der Programmiersprache C# sind hilfreich.
+2.  Aspose.Note für .NET: Laden Sie die Aspose.Note für .NET-Bibliothek von herunter und installieren Sie sie[Hier](https://releases.aspose.com/note/net/).
+3. Grundkenntnisse in C#: Vertrautheit mit der Programmiersprache C# ist hilfreich.
 
 ## Namespaces importieren
 

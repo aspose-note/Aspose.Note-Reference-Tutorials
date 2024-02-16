@@ -9,7 +9,7 @@ url: /tr/net/loading-and-saving-operations/save-doc-to-onenote-format/
 ---
 ## giriiş
 
-.NET geliştirme alanında Aspose.Note, OneNote belgelerini programlı olarak yönetmek ve değiştirmek için güçlü bir araç olarak öne çıkıyor. Sezgisel API'si ve kapsamlı özellik seti sayesinde geliştiriciler, uygulamaları içindeki OneNote dosyalarıyla ilgili çeşitli görevleri zahmetsizce gerçekleştirebilir. Bu eğitimde, Aspose.Note for .NET kullanarak belgeleri OneNote formatında kaydetme süreci açıklanacak ve netlik ve anlayış sağlamak için her adım ayrıntılı olarak anlatılacaktır.
+.NET geliştirme alanında Aspose.Note, OneNote belgelerini programlı olarak yönetmek ve değiştirmek için güçlü bir araç olarak öne çıkıyor. Sezgisel API'si ve kapsamlı özellik seti sayesinde geliştiriciler, uygulamaları içindeki OneNote dosyalarıyla ilgili çeşitli görevleri zahmetsizce gerçekleştirebilir. Bu eğitimde, Aspose.Note for .NET kullanarak belgeleri OneNote formatında kaydetme süreci açıklanacak ve netlik ve anlayış sağlamak için her adımın ayrıntılarına inilecektir.
 
 ## Önkoşullar
 
@@ -17,7 +17,7 @@ Bu eğitime dalmadan önce aşağıdaki önkoşullara sahip olduğunuzdan emin o
 
 1. C# ve .NET Geliştirme Bilgisi: Bu eğitimde, C# programlama dili ve .NET çerçevesine ilişkin temel bir anlayış varsayılmaktadır.
 
-2. Aspose.Note for .NET Kurulumu: Aspose.Note for .NET kütüphanesini aşağıdaki adresten indirip yükleyin:[İnternet sitesi](https://releases.aspose.com/note/net/).
+2.  Aspose.Note for .NET Kurulumu: Aspose.Note for .NET kütüphanesini aşağıdaki adresten indirip yükleyin:[İnternet sitesi](https://releases.aspose.com/note/net/).
 
 3. Geliştirme Ortamı: Geliştirme ortamınızı Visual Studio veya .NET geliştirme için tercih edilen herhangi bir IDE ile kurun.
 

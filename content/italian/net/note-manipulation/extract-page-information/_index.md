@@ -15,7 +15,7 @@ Aspose.Note per .NET è una potente libreria che consente agli sviluppatori di l
 
 Prima di iniziare, assicurati di disporre dei seguenti prerequisiti:
 
-1.  Aspose.Note per la libreria .NET: assicurarsi di aver scaricato e installato la libreria Aspose.Note per .NET. Puoi scaricarlo da[Qui](https://releases.aspose.com/note/net/).
+1. Aspose.Note per la libreria .NET: assicurarsi di aver scaricato e installato la libreria Aspose.Note per .NET. Puoi scaricarlo da[Qui](https://releases.aspose.com/note/net/).
 
 2. Ambiente di sviluppo: configura il tuo ambiente di sviluppo con Visual Studio o qualsiasi altro strumento di sviluppo .NET preferito.
 

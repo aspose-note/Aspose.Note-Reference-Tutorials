@@ -82,7 +82,7 @@ Toutes nos félicitations! Vous avez appris avec succès comment enregistrer une
 
 ### Q1 : Puis-je enregistrer plusieurs plages de pages sous forme de fichiers PDF distincts à l'aide d'Aspose.Note ?
 
- A1 : Oui, vous pouvez y parvenir en répétant le processus pour chaque plage de pages que vous souhaitez enregistrer, en ajustant le`PageIndex` et`PageCount` par conséquent.
+A1 : Oui, vous pouvez y parvenir en répétant le processus pour chaque plage de pages que vous souhaitez enregistrer, en ajustant le`PageIndex` et`PageCount` par conséquent.
    
 ### Q2 : Aspose.Note prend-il en charge l'enregistrement de documents dans des formats autres que PDF ?
 

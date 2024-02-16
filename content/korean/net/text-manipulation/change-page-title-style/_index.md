@@ -9,7 +9,7 @@ url: /ko/net/text-manipulation/change-page-title-style/
 ---
 ## 소개
 동적 페이지 제목 스타일을 사용하여 .NET 문서의 시각적 매력을 높이고 싶으십니까? .NET용 Aspose.Note는 페이지 제목의 스타일을 쉽게 변경할 수 있는 완벽한 솔루션을 제공합니다. 이 튜토리얼에서는 번거로움 없이 문서의 미적 아름다움을 향상시킬 수 있도록 프로세스를 단계별로 안내해 드립니다.
-## 전제 조건
+## 전제조건
 튜토리얼을 시작하기 전에 다음 전제 조건이 충족되었는지 확인하세요.
 -  .NET용 Aspose.Note: 최신 버전의 .NET용 Aspose.Note가 설치되어 있는지 확인하세요. 그렇지 않은 경우 다운로드할 수 있습니다.[여기](https://releases.aspose.com/note/net/).
 - 문서 디렉토리: 문서가 저장되는 지정된 디렉토리가 있습니다. 코드에서 이 디렉터리를 지정해야 합니다.
@@ -61,12 +61,12 @@ Console.WriteLine("\nTitle's styles are changed successfully.");
 축하해요! .NET용 Aspose.Note에서 페이지 제목 스타일을 변경하는 방법을 성공적으로 배웠습니다. 이 간단하면서도 강력한 기능은 문서의 시각적 매력을 크게 향상시킬 수 있습니다.
 ## 자주 묻는 질문
 ### Aspose.Note는 최신 .NET Framework 버전과 호환됩니까?
-Aspose.Note는 최신 버전을 포함하여 다양한 .NET 프레임워크 버전과 호환되도록 설계되었습니다. 다음을 참조하세요.[선적 서류 비치](https://reference.aspose.com/note/net/) 자세한 호환성 정보를 확인하세요.
+ Aspose.Note는 최신 버전을 포함하여 다양한 .NET 프레임워크 버전과 호환되도록 설계되었습니다. 다음을 참조하세요.[선적 서류 비치](https://reference.aspose.com/note/net/) 자세한 호환성 정보를 확인하세요.
 ### 구매하기 전에 Aspose.Note를 사용해 볼 수 있나요?
  예, 무료 평가판을 다운로드하여 Aspose.Note를 탐색할 수 있습니다.[여기](https://releases.aspose.com/).
 ### Aspose.Note에 대한 지원은 어떻게 받을 수 있나요?
  지원 관련 문의사항이 있는 경우 다음을 방문하세요.[Aspose.Note 포럼](https://forum.aspose.com/c/note/28).
 ### Aspose.Note 라이선스는 어디서 구매할 수 있나요?
- Aspose 라이선스를 구매하실 수 있습니다.참고[여기](https://purchase.aspose.com/buy).
+ Aspose 라이선스를 구매하실 수 있습니다.Note[여기](https://purchase.aspose.com/buy).
 ### 테스트 목적으로 임시 라이센스가 필요합니까?
  예, Aspose.Note를 테스트하는 경우 임시 라이선스를 얻을 수 있습니다.[여기](https://purchase.aspose.com/temporary-license/).

@@ -17,7 +17,7 @@ url: /el/net/loading-and-saving-operations/save-doc-to-onenote-format/
 
 1. Γνώση ανάπτυξης C# και .NET: Αυτό το σεμινάριο προϋποθέτει μια βασική κατανόηση της γλώσσας προγραμματισμού C# και του πλαισίου .NET.
 
-2. Εγκατάσταση του Aspose.Note για .NET: Λήψη και εγκατάσταση της βιβλιοθήκης Aspose.Note για .NET από τη[δικτυακός τόπος](https://releases.aspose.com/note/net/).
+2.  Εγκατάσταση του Aspose.Note για .NET: Λήψη και εγκατάσταση της βιβλιοθήκης Aspose.Note για .NET από τη[δικτυακός τόπος](https://releases.aspose.com/note/net/).
 
 3. Περιβάλλον ανάπτυξης: Ρυθμίστε το περιβάλλον ανάπτυξης με το Visual Studio ή οποιοδήποτε προτιμώμενο IDE για ανάπτυξη .NET.
 

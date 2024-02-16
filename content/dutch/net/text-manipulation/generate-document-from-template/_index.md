@@ -73,7 +73,7 @@ Gefeliciteerd! U hebt met succes een dynamisch document gegenereerd met Aspose.N
 ### Kan ik Aspose.Note voor .NET gebruiken met andere documentformaten?
 Ja, Aspose.Note voor .NET houdt zich voornamelijk bezig met OneNote-documenten, maar Aspose biedt verschillende bibliotheken voor verschillende formaten.
 ### Is er een gratis proefversie beschikbaar voor Aspose.Note voor .NET?
- Ja, u kunt de mogelijkheden van Aspose.Note voor .NET verkennen met een gratis proefperiode. Bezoek[hier](https://releases.aspose.com/) voor meer informatie.
+Ja, u kunt de mogelijkheden van Aspose.Note voor .NET verkennen met een gratis proefperiode. Bezoek[hier](https://releases.aspose.com/) voor meer informatie.
 ### Hoe kan ik ondersteuning krijgen voor Aspose.Note voor .NET?
  Bezoek de[Aspose.Note voor .NET-forum](https://forum.aspose.com/c/note/28) om hulp te krijgen van de gemeenschap en experts.
 ### Zijn er tijdelijke licenties beschikbaar voor Aspose.Note voor .NET?

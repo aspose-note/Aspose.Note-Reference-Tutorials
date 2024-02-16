@@ -11,7 +11,7 @@ url: /ko/net/licensing/apply-license-using-filestream/
 
 Aspose.Note for .NET은 개발자가 Microsoft OneNote 파일을 프로그래밍 방식으로 작업할 수 있는 강력한 API입니다. OneNote 문서를 생성, 읽기, 수정 또는 변환해야 하는 경우 Aspose.Note for .NET은 작업 흐름을 간소화하는 포괄적인 기능을 제공합니다. 이 튜토리얼에서는 FileStream을 사용하여 Aspose.Note 라이선스를 적용하여 애플리케이션이 프로덕션 용도로 적절하게 라이선스가 부여되었는지 확인하는 방법을 살펴보겠습니다.
 
-## 전제 조건
+## 전제조건
 
 이 튜토리얼을 시작하기 전에 다음 전제 조건이 충족되었는지 확인하세요.
 
@@ -76,11 +76,11 @@ A1: 아니요. Aspose.Note의 전체 기능을 활용하려면 유효한 라이�
 
 ### Q3: 무료 평가판이 제공됩니까?
 
-A3: 예, 무료 평가판을 받을 수 있습니다.[여기](https://releases.aspose.com/).
+ A3: 예, 무료 평가판을 받을 수 있습니다.[여기](https://releases.aspose.com/).
 
 ### Q4: 어떻게 지원을 받을 수 있나요?
 
- A4: Aspose.Note 커뮤니티에서 지원을 받을 수 있습니다.[법정](https://forum.aspose.com/c/note/28).
+A4: Aspose.Note 커뮤니티에서 지원을 받을 수 있습니다.[법정](https://forum.aspose.com/c/note/28).
 
 ### Q5: 임시 라이센스를 제공합니까?
 

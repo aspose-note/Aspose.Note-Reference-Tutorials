@@ -39,11 +39,11 @@ string dataDir = "Your Document Directory";
 Document doc = new Document(dataDir + "Aspose.one");
 ```
 
- Ersetzen`"Your Document Directory"` mit dem Verzeichnis, in dem sich Ihr Aspose.Note-Dokument befindet. Stellen Sie sicher, dass Sie den richtigen Dateinamen mit Erweiterung angeben.
+ Ersetzen`"Your Document Directory"`mit dem Verzeichnis, in dem sich Ihr Aspose.Note-Dokument befindet. Stellen Sie sicher, dass Sie den richtigen Dateinamen mit Erweiterung angeben.
 
 ## Schritt 2: Erstellen Sie einen DocumentVisitor
 
- Als Nächstes erstellen wir eine benutzerdefinierte`DocumentVisitor`um verschiedene Knoten innerhalb des Dokuments zu besuchen. Dieser Besucher ermöglicht es uns, die Struktur des Dokuments zu durchqueren und den Inhalt zu extrahieren.
+ Als Nächstes erstellen wir eine benutzerdefinierte`DocumentVisitor` um verschiedene Knoten innerhalb des Dokuments zu besuchen. Dieser Besucher ermöglicht es uns, die Struktur des Dokuments zu durchqueren und den Inhalt zu extrahieren.
 
 ```csharp
 public class MyOneNoteToTxtWriter : DocumentVisitor
@@ -67,7 +67,7 @@ public override void VisitPageStart(Page page)
     // Behandeln Sie den Seitenknoten
 }
 
-// Implementieren Sie nach Bedarf weitere Visit*-Methoden ...
+// Implementieren Sie nach Bedarf weitere Visit*-Methoden...
 ```
 
  Jede`Visit*` Die Methode entspricht einem bestimmten Knotentyp in der Dokumentstruktur. Mit diesen Methoden können Sie relevante Inhalte extrahieren oder gewünschte Vorgänge ausführen.
@@ -97,7 +97,7 @@ public string GetText()
 
 ## Schritt 5: Visitation durchführen
 
-Abschließend führen wir den Besuchsprozess aus, indem wir die aufrufen`Accept` Methode für das Dokumentobjekt und übergibt unsere benutzerdefinierte Besucherinstanz als Parameter.
+ Abschließend führen wir den Besuchsprozess aus, indem wir die aufrufen`Accept` Methode für das Dokumentobjekt und übergibt unsere benutzerdefinierte Besucherinstanz als Parameter.
 
 ```csharp
 MyOneNoteToTxtWriter myConverter = new MyOneNoteToTxtWriter();

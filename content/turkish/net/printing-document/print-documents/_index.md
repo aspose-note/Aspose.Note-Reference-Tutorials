@@ -57,7 +57,7 @@ var document = new Document(dataDir + "Aspose.one");
 
 ## Adım 2: Belgeyi Yazdır
 
- Çağır`Print` konusundaki yöntem`Document`Yazdırma işlemini başlatmak için nesneyi seçin. Bu yöntem, belgeyi varsayılan seçeneklerle birlikte standart Windows iletişim kutusunu kullanarak varsayılan yazıcıya gönderir.
+ Çağır`Print` konusundaki yöntem`Document` Yazdırma işlemini başlatmak için nesneyi seçin. Bu yöntem, belgeyi varsayılan seçeneklerle birlikte standart Windows iletişim kutusunu kullanarak varsayılan yazıcıya gönderir.
 
 ```csharp
 document.Print();

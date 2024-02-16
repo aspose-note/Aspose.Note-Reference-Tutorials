@@ -79,4 +79,4 @@ Sammanfattningsvis, att bemästra konsten att ersätta text på alla sidor med A
 ### F: Var kan jag hitta fler handledningar och dokumentation för Aspose.Note för .NET?
  A: Besök[dokumentation](https://reference.aspose.com/note/net/) för djupgående resurser och handledning.
 ### F: Kan jag använda Aspose.Note för kommersiella projekt?
- S: Ja, utforska licensalternativ och gör inköp[här](https://purchase.aspose.com/buy).
+S: Ja, utforska licensalternativ och gör inköp[här](https://purchase.aspose.com/buy).

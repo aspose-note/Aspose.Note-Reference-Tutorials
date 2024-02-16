@@ -76,7 +76,7 @@ public void CssSaving(CssSavingArgs args)
 }
 ```
 
- Aquí definimos la`CssSaving`Método de devolución de llamada para gestionar el guardado de hojas de estilo CSS. Crea un recurso en la carpeta CSS especificada y establece la secuencia, el URI y otras propiedades en consecuencia.
+ Aquí definimos la`CssSaving` Método de devolución de llamada para gestionar el guardado de hojas de estilo CSS. Crea un recurso en la carpeta CSS especificada y establece la secuencia, el URI y otras propiedades en consecuencia.
 
 ## Paso 4: implementar la devolución de llamada para guardar imágenes
 

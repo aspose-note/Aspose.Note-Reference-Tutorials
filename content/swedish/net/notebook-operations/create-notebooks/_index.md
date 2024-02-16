@@ -92,7 +92,7 @@ S1: Ja, Aspose.Note för .NET är kompatibelt med olika .NET-ramverk, inklusive 
 
 ### F4: Kan jag köpa en tillfällig licens för Aspose.Note för .NET?
 
- A4: Ja, du kan skaffa en tillfällig licens från Aspose-webbplatsen:[Tillfällig licens](https://purchase.aspose.com/temporary-license/).
+A4: Ja, du kan skaffa en tillfällig licens från Aspose-webbplatsen:[Tillfällig licens](https://purchase.aspose.com/temporary-license/).
 
 ### F5: Var kan jag hitta omfattande dokumentation för Aspose.Note för .NET?
 

@@ -47,7 +47,7 @@ Lassen Sie uns nun den Prozess der Erstellung eines Dokuments mit einem Seitenti
 ## Schritt 1: Erstellen Sie ein Dokumentobjekt
 
 ```csharp
-// Erstellen Sie ein Objekt der Document-Klasse
+//Erstellen Sie ein Objekt der Document-Klasse
 Document doc = new Aspose.Note.Document();
 ```
 

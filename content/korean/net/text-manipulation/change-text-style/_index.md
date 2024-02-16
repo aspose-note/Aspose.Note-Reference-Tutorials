@@ -9,7 +9,7 @@ url: /ko/net/text-manipulation/change-text-style/
 ---
 ## 소개
 .NET용 Aspose.Note로 문서 스타일링 게임을 향상시킬 준비가 되셨습니까? 이 종합 가이드에서는 텍스트 스타일을 쉽게 변경하는 과정을 안내합니다. Aspose.Note는 Microsoft OneNote 파일을 프로그래밍 방식으로 조작할 수 있는 강력한 라이브러리입니다. 노트나 문서의 시각적 매력을 향상시키고 싶다면 텍스트 스타일을 원활하게 변경하는 방법을 읽어보세요.
-## 전제 조건
+## 전제조건
 튜토리얼을 시작하기 전에 다음 전제 조건이 충족되었는지 확인하세요.
 -  .NET 라이브러리용 Aspose.Note: 다음에서 라이브러리를 다운로드하고 설치하세요.[.NET 문서용 Aspose.Note](https://reference.aspose.com/note/net/).
 - 통합 개발 환경(IDE): Visual Studio와 같은 .NET 개발에 적합한 IDE를 설치합니다.

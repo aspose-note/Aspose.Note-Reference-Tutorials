@@ -76,7 +76,7 @@ public void CssSaving(CssSavingArgs args)
 }
 ```
 
- Aqui, definimos o`CssSaving`método de retorno de chamada para gerenciar o salvamento de folhas de estilo CSS. Ele cria um recurso na pasta CSS especificada e define o fluxo, o URI e outras propriedades de acordo.
+ Aqui, definimos o`CssSaving` método de retorno de chamada para gerenciar o salvamento de folhas de estilo CSS. Ele cria um recurso na pasta CSS especificada e define o fluxo, o URI e outras propriedades de acordo.
 
 ## Etapa 4: implementar retorno de chamada para salvar imagem
 

@@ -72,7 +72,7 @@ Console.WriteLine("\nTable's style is updated successfully.\nFile saved at " + d
 
 ## Conclusión
 
-En este tutorial, aprendimos cómo cambiar los estilos de las tablas en Aspose.Note usando el marco .NET. Si sigue estos pasos, puede personalizar la apariencia de las tablas dentro de sus documentos de OneNote, mejorando su presentación visual y legibilidad.
+En este tutorial, aprendimos cómo cambiar los estilos de tabla en Aspose.Note usando el marco .NET. Si sigue estos pasos, puede personalizar la apariencia de las tablas dentro de sus documentos de OneNote, mejorando su presentación visual y legibilidad.
 
 ## Preguntas frecuentes
 

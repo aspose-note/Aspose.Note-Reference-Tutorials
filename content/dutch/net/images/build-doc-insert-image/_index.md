@@ -139,7 +139,7 @@ A1: Absoluut! U kunt zoveel afbeeldingen als u nodig heeft in een document invoe
 
 A2: Ja, Aspose.Note biedt uitgebreide ondersteuning voor verschillende bestandsformaten, waaronder PDF, DOCX, HTML en meer.
 
-### V3: Is Aspose.Note geschikt voor documentbeheeroplossingen op bedrijfsniveau?
+### Vraag 3: Is Aspose.Note geschikt voor documentbeheeroplossingen op bedrijfsniveau?
 
 A3: Zeker! Aspose.Note biedt robuuste functies en uitstekende prestaties, waardoor het een ideale keuze is voor zakelijk documentbeheer.
 

@@ -68,7 +68,7 @@ Console.WriteLine("\nPage title set up successfully in Microsoft OneNote style.\
 ```
 Sikeresen létrehozott egy Microsoft-stílusú címet az Aspose.Note for .NET használatával. Fokozza dokumentum-előállítási folyamatát ezzel az egyszerű, de hatékony funkcióval.
 ## Következtetés
-A Microsoft-stílusú címek dokumentumaiba foglalása még soha nem volt ilyen egyszerű az Aspose.Note for .NET-nek köszönhetően. A részletes útmutató követésével zökkenőmentesen integrálhatja a professzionális megjelenésű címeket, javítva dokumentumai vizuális vonzerejét.
+Microsoft-stílusú címek dokumentumaiba foglalása még soha nem volt ilyen egyszerű az Aspose.Note for .NET-nek köszönhetően. A részletes útmutató követésével zökkenőmentesen integrálhatja a professzionális megjelenésű címeket, javítva dokumentumai vizuális vonzerejét.
 ## GYIK
 ### Testreszabhatom a cím szövegének formázását?
  Igen, testreszabhatja a cím szövegének formázását a`ParagraphStyle` ingatlan.
@@ -79,4 +79,4 @@ Természetesen tovább testreszabhatja az oldalt az Aspose.Note for .NET API has
 ### Hogyan kezelhetem a hibákat a dokumentumkészítési folyamat során?
 Használja a C# kivételkezelési mechanizmusait a dokumentumkészítési folyamat során esetlegesen előforduló hibák észlelésére és kezelésére.
 ### Hol találok további példákat és dokumentációt az Aspose.Note for .NET-hez?
- Utal[Aspose.Note a .NET dokumentációhoz](https://reference.aspose.com/note/net/) részletes példákért és átfogó dokumentációért.
+ Utal[Aspose.Note a .NET dokumentációhoz](https://reference.aspose.com/note/net/)részletes példákért és átfogó dokumentációért.

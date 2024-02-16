@@ -101,7 +101,7 @@ A1: はい、Aspose.Note は、複雑な OneNote ファイルを効果的に処�
 
 ### Q3: Aspose.Note には無料トライアルがありますか?
 
- A3: はい、無料トライアルを利用して Aspose.Note を探索できます。[ここ](https://releases.aspose.com/).
+A3: はい、無料トライアルを利用して Aspose.Note を探索できます。[ここ](https://releases.aspose.com/).
 
 ### Q4: Aspose.Note のドキュメントはどこで見つけられますか?
 

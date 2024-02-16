@@ -17,7 +17,7 @@ Prima di iniziare, assicurati di aver configurato i seguenti prerequisiti:
 
 ### Visual Studio installato
 
- Assicurati di avere Visual Studio installato sul tuo sistema. Puoi scaricarlo da[sito web](https://visualstudio.microsoft.com/).
+Assicurati di avere Visual Studio installato sul tuo sistema. Puoi scaricarlo da[sito web](https://visualstudio.microsoft.com/).
 
 ### Aspose.Note per .NET installato
 
@@ -62,7 +62,7 @@ Successivamente, recupera il numero di pagine nel documento caricato.
 int count = oneFile.Count();
 ```
 
- IL`Count()` Il metodo restituisce il numero totale di pagine del documento.
+ IL`Count()` Il metodo restituisce il numero totale di pagine nel documento.
 
 ## Passaggio 3: visualizzare il conteggio
 

@@ -16,7 +16,7 @@ Než se pustíme do této kódovací cesty, ujistěte se, že máte splněny ná
 2. Vývojové prostředí: Mějte funkční vývojové prostředí .NET, včetně sady Visual Studio nebo jakéhokoli jiného preferovaného IDE.
 3. Adresář dokumentů: Uspořádejte své dokumenty do vyhrazeného adresáře.
 Nyní, když máme položeny základy, přistoupíme k dalším zásadním krokům.
-## Importovat jmenné prostory
+## Import jmenných prostorů
 Ve svém projektu .NET se ujistěte, že jste importovali potřebné jmenné prostory, abyste mohli efektivně využívat funkce Aspose.Note. Přidejte do souboru kódu následující jmenné prostory:
 ```csharp
     using System;
@@ -79,4 +79,4 @@ Na závěr, zvládnutí umění nahrazování textu na všech stránkách pomoc�
 ### Otázka: Kde najdu další návody a dokumentaci pro Aspose.Note pro .NET?
  A: Navštivte[dokumentace](https://reference.aspose.com/note/net/) pro podrobné zdroje a výukové programy.
 ### Otázka: Mohu použít Aspose.Note pro komerční projekty?
- Odpověď: Ano, prozkoumejte možnosti licencování a nakupujte[tady](https://purchase.aspose.com/buy).
+Odpověď: Ano, prozkoumejte možnosti licencování a nakupujte[tady](https://purchase.aspose.com/buy).

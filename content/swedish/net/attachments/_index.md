@@ -11,7 +11,7 @@ url: /sv/net/attachments/
 
 Är du redo att ta dina .NET-applikationer till nästa nivå? Dyk in i Asposes värld. Notera och lås upp ett rike av möjligheter. Denna omfattande självstudielista guidar dig genom nyckelfunktioner, med fokus på att bifoga filer, ställa in ikoner och sömlöst hämta bifogade filer.
 
-## Bifoga fil och ikon i Aspose.Note
+## Bifoga fil och ange ikon i Aspose.Note
 I den första handledningen kommer vi att reda ut magin med att bifoga filer och inställningsikoner med Aspose.Note för .NET. Följ vår steg-för-steg-guide för att förbättra funktionaliteten i dina .NET-applikationer. Oavsett om du är en erfaren utvecklare eller precis har börjat, vänder sig den här handledningen till alla färdighetsnivåer. Lär dig repen och förstärk dina applikationer med förmågan att sömlöst hantera tillbehör.
 
 ### [Bifoga fil och ikon i Aspose.Note Tutorial](./attach-file-set-icon/)
@@ -31,7 +31,7 @@ Den sista handledningen avslöjar konsten att hämta bifogade filer från Micros
 
 Ge dig ut på den här resan med Aspose.Note för .NET-tutorials, där enkelhet möter sofistikering och dina applikationer når nya höjder. Lyft ditt utvecklingsspel idag!
 ## Bilagor självstudier
-### [Bifoga fil och ikon i Aspose.Note](./attach-file-set-icon/)
+### [Bifoga fil och ange ikon i Aspose.Note](./attach-file-set-icon/)
 Lär dig hur du bifogar filer och ställer in ikoner i Aspose.Note för .NET. Förbättra dina .NET-applikationer med denna steg-för-steg handledning.
 ### [Bifoga fil efter sökväg i Aspose.Note](./attach-file-by-path/)
 Lär dig hur du bifogar filer till Microsoft OneNote-dokument programmatiskt med Aspose.Note för .NET. Förenkla din utvecklingsprocess med denna omfattande handledning.

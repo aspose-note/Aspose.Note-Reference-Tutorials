@@ -15,7 +15,7 @@ url: /hi/net/loading-and-saving-operations/password-protected-document/
 
 शुरू करने से पहले, सुनिश्चित करें कि आपके पास निम्नलिखित शर्तें हैं:
 
-1.  .NET लाइब्रेरी के लिए Aspose.Note: सुनिश्चित करें कि आपने .NET लाइब्रेरी के लिए Aspose.Note को डाउनलोड और इंस्टॉल कर लिया है। आप इसे यहां से डाउनलोड कर सकते हैं[यहाँ](https://releases.aspose.com/note/net/).
+1. .NET लाइब्रेरी के लिए Aspose.Note: सुनिश्चित करें कि आपने .NET लाइब्रेरी के लिए Aspose.Note को डाउनलोड और इंस्टॉल कर लिया है। आप इसे यहां से डाउनलोड कर सकते हैं[यहाँ](https://releases.aspose.com/note/net/).
 
 2. विकास परिवेश: .NET क्षमताओं के साथ एक विकास परिवेश स्थापित करें।
 

@@ -9,7 +9,7 @@ url: /cs/net/table-manipulation/extract-text-row/
 ---
 ## Úvod
 
-oblasti zpracování dokumentů představuje Aspose.Note for .NET robustní řešení, které umožňuje vývojářům efektivně programově manipulovat se soubory OneNote. Mezi jeho nesčetnými možnostmi je extrahování textu z řádků tabulky běžným úkolem, se kterým se vývojáři setkávají. Tento tutoriál vás provede procesem extrahování textu z řádků tabulky pomocí Aspose.Note pro .NET.
+V oblasti zpracování dokumentů představuje Aspose.Note for .NET robustní řešení, které umožňuje vývojářům efektivně programově manipulovat se soubory OneNote. Mezi jeho nesčetnými možnostmi je extrahování textu z řádků tabulky běžným úkolem, se kterým se vývojáři setkávají. Tento tutoriál vás provede procesem extrahování textu z řádků tabulky pomocí Aspose.Note pro .NET.
 
 ## Předpoklady
 
@@ -19,7 +19,7 @@ Než se ponoříte do výukového programu, ujistěte se, že máte následujíc
 2.  Instalace Aspose.Note pro .NET: Ujistěte se, že máte ve svém vývojovém prostředí nainstalovaný Aspose.Note pro .NET. Knihovnu si můžete stáhnout z[tady](https://releases.aspose.com/note/net/).
 3. Nastavení vývojového prostředí: Nastavte své vývojové prostředí pomocí sady Visual Studio nebo jakéhokoli preferovaného IDE C#.
 
-## Importovat jmenné prostory
+## Import jmenných prostorů
 
 Nejprve musíte importovat potřebné jmenné prostory, abyste mohli využít funkce Aspose.Note pro .NET ve vašem kódu. Na začátek souboru C# přidejte následující jmenné prostory:
 

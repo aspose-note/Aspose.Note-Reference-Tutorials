@@ -16,7 +16,7 @@ url: /ja/net/note-manipulation/roll-back-document-revisions/
 このチュートリアルに入る前に、次の前提条件を満たしていることを確認してください。
 
 1. C# の基本的な理解: コード例を理解するには、C# プログラミング言語に精通している必要があります。
-2.  Aspose.Note for .NET ライブラリ: Aspose.Note for .NET ライブラリを開発環境にインストールします。からダウンロードできます[ここ](https://releases.aspose.com/note/net/).
+2. Aspose.Note for .NET ライブラリ: Aspose.Note for .NET ライブラリを開発環境にインストールします。からダウンロードできます[ここ](https://releases.aspose.com/note/net/).
 3. 統合開発環境 (IDE): Visual Studio などの IDE をシステムにインストールします。
 
 ## 名前空間のインポート

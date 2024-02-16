@@ -79,4 +79,4 @@ Concluindo, dominar a arte de substituir texto em todas as páginas com Aspose.N
 ### P: Onde posso encontrar mais tutoriais e documentação do Aspose.Note for .NET?
  R: Visite o[documentação](https://reference.aspose.com/note/net/) para recursos e tutoriais detalhados.
 ### P: Posso usar o Aspose.Note para projetos comerciais?
- R: Sim, explore opções de licenciamento e faça compras[aqui](https://purchase.aspose.com/buy).
+R: Sim, explore opções de licenciamento e faça compras[aqui](https://purchase.aspose.com/buy).

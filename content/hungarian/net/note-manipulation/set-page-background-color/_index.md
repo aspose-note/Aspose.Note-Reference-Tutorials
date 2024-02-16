@@ -70,7 +70,7 @@ Végül mentse el a módosított dokumentumot:
 document.Save(Path.Combine(dataDir, "SetPageBackgroundColor.one"));
 ```
 
- Győződjön meg a cseréről`"SetPageBackgroundColor.one"` módosított dokumentum kívánt fájlnevével.
+ Biztosítsa a cserét`"SetPageBackgroundColor.one"` a módosított dokumentum kívánt fájlnevével.
 
 ## Következtetés
 
@@ -88,7 +88,7 @@ Az alábbi lépések követésével egyszerűen beállíthatja a OneNote-dokumen
 
 ### 3. kérdés: Elérhető-e próbaverzió az Aspose.Note-hoz .NET-hez?
 
- 3. válasz: Igen, letölthet egy ingyenes próbaverziót a webhelyről[itt](https://releases.aspose.com/).
+3. válasz: Igen, letölthet egy ingyenes próbaverziót a webhelyről[itt](https://releases.aspose.com/).
 
 ### 4. kérdés: Kaphatok ideiglenes licenceket tesztelési célokra?
 

@@ -9,7 +9,7 @@ url: /ko/net/text-manipulation/extract-all-text/
 ---
 ## 소개
 .NET 애플리케이션의 Aspose.Note 문서에서 텍스트를 원활하게 추출하고 싶으십니까? .NET용 Aspose.Note는 Aspose.Note 파일에서 텍스트를 쉽게 검색할 수 있는 강력한 솔루션을 제공하여 프로젝트에 원활하게 통합되도록 합니다. 이 튜토리얼에서는 효율적인 텍스트 추출을 위해 Aspose.Note의 기능을 활용할 수 있도록 프로세스를 단계별로 안내합니다.
-## 전제 조건
+## 전제조건
 튜토리얼을 시작하기 전에 다음 전제 조건이 충족되었는지 확인하세요.
 1.  .NET 라이브러리용 Aspose.Note: 다음에서 라이브러리를 다운로드하고 설치하세요.[Aspose.Note 문서](https://reference.aspose.com/note/net/).
 2. 문서 디렉터리: Aspose.Note 문서가 저장된 디렉터리를 준비합니다.
@@ -30,7 +30,7 @@ string dataDir = "Your Document Directory";
 ```csharp
 Document oneFile = new Document(dataDir + "Aspose.one");
 ```
- Aspose.Note 문서를`Document` 추가 처리를 위한 개체입니다.
+Aspose.Note 문서를`Document` 추가 처리를 위한 개체입니다.
 ## 3단계: 텍스트 검색
 ```csharp
 string text = string.Join(Environment.NewLine, oneFile.GetChildNodes<RichText>().Select(e => e.Text)) + Environment.NewLine;

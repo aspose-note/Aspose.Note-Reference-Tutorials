@@ -112,7 +112,7 @@ for (int i = 0; i < 5; i++)
 
 ## Langkah 8: Tambahkan Informasi Kontak
 
-Isi kolom 'Kontak' dengan konten template.
+Isi kolom 'Kontak' dengan konten templat.
 
 ```csharp
 foreach (var row in ranking.Skip(1))

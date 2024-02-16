@@ -9,13 +9,13 @@ url: /cs/net/note-manipulation/modify-page-history/
 ---
 ## Úvod
 
-V oblasti zpracování dokumentů se Aspose.Note for .NET ukazuje jako robustní nástroj, který umožňuje vývojářům bez námahy manipulovat se soubory OneNote. Jedním z běžných úkolů, se kterými se vývojáři setkávají, je úprava historie stránek v dokumentech Aspose.Note. Tento výukový program objasňuje proces krok za krokem a provede vás nezbytnými jmennými prostory, předpoklady a úryvky kódu k efektivní změně historie stránky pomocí Aspose.Note pro .NET.
+oblasti zpracování dokumentů se Aspose.Note for .NET ukazuje jako robustní nástroj, který umožňuje vývojářům bez námahy manipulovat se soubory OneNote. Jedním z běžných úkolů, se kterými se vývojáři setkávají, je úprava historie stránek v dokumentech Aspose.Note. Tento výukový program objasňuje proces krok za krokem a provede vás nezbytnými jmennými prostory, předpoklady a úryvky kódu k efektivní změně historie stránky pomocí Aspose.Note pro .NET.
 
 ## Předpoklady
 
 Než se pustíte do úprav historie stránek pomocí Aspose.Note pro .NET, ujistěte se, že máte splněny následující předpoklady:
 
-## Importovat jmenné prostory
+## Import jmenných prostorů
 
 1. Aspose.Note: Importujte tento jmenný prostor, abyste využili funkcí poskytovaných Aspose.Note pro .NET.
 
@@ -93,4 +93,4 @@ Odpověď 4: Ano, vývojáři mohou požádat o pomoc a pokyny na fóru podpory 
 
 ### Q5: Mohu vyzkoušet Aspose.Note pro .NET před nákupem?
 
-A5: Vývojáři mohou samozřejmě využít bezplatnou zkušební verzi Aspose.Note pro .NET, aby vyhodnotili její funkce a vhodnost pro jejich projekty.
+Odpověď 5: Vývojáři mohou samozřejmě využít bezplatnou zkušební verzi Aspose.Note pro .NET, aby vyhodnotili její funkce a vhodnost pro jejich projekty.

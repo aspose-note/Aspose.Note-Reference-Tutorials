@@ -15,7 +15,7 @@ Az Aspose.Note for .NET egy hatékony könyvtár, amely lehetővé teszi a fejle
 
 Mielőtt elkezdené, győződjön meg arról, hogy a következő előfeltételeket teljesítette:
 
-1.  Aspose.Note for .NET Library: Győződjön meg arról, hogy letöltötte és telepítette az Aspose.Note for .NET könyvtárat. Letöltheti innen[itt](https://releases.aspose.com/note/net/).
+1. Aspose.Note for .NET Library: Győződjön meg arról, hogy letöltötte és telepítette az Aspose.Note for .NET könyvtárat. Letöltheti innen[itt](https://releases.aspose.com/note/net/).
 
 2. Fejlesztői környezet: Állítsa be fejlesztői környezetét a Visual Studio vagy bármely más preferált .NET fejlesztőeszköz segítségével.
 

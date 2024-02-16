@@ -9,7 +9,7 @@ url: /hu/net/licensing/metered-licensing/
 ---
 ## Bevezetés
 
-A szoftverfejlesztés területén a licencek hatékony kezelése kulcsfontosságú, különösen az olyan termékek esetében, mint az Aspose.Note for .NET. A mért licencelés olyan módszer, amely nagyobb rugalmasságot és ellenőrzést biztosít a fejlesztőknek szoftverhasználatuk felett, lehetővé téve számukra az erőforrás-felhasználás hatékony nyomon követését és kezelését. Ebben az oktatóanyagban az Aspose.Note for .NET segítségével történő mérőszámos licencelés bonyolultságába fogunk beleásni, az egyes lépéseket lebontva az átfogó megértés érdekében.
+A szoftverfejlesztés területén a licencek hatékony kezelése kulcsfontosságú, különösen az olyan termékek esetében, mint az Aspose.Note for .NET. A mért licencelés olyan módszer, amely nagyobb rugalmasságot és ellenőrzést biztosít a fejlesztőknek szoftverhasználatuk felett, lehetővé téve számukra az erőforrás-felhasználás hatékony nyomon követését és kezelését. Ebben az oktatóanyagban az Aspose.Note for .NET segítségével történő mért licencelés bonyolultságába fogunk beleásni, az egyes lépéseket lebontva az átfogó megértés érdekében.
 
 ## Előfeltételek
 

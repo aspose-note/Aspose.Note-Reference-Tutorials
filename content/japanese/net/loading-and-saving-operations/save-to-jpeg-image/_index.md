@@ -15,7 +15,7 @@ url: /ja/net/loading-and-saving-operations/save-to-jpeg-image/
 
 続行する前に、次のものが揃っていることを確認してください。
 - C# と .NET Framework の基本的な理解。
--  Aspose.Note for .NET がインストールされています。そうでない場合は、からダウンロードできます[ここ](https://releases.aspose.com/note/net/).
+- Aspose.Note for .NET がインストールされています。そうでない場合は、からダウンロードできます[ここ](https://releases.aspose.com/note/net/).
 - Visual Studio などの統合開発環境 (IDE)。
 - 使用するサンプル ドキュメント ファイル。
 
@@ -82,4 +82,4 @@ A3: はい、Aspose.Note は、JPEG、PNG、TIFF などのさまざまな画像�
 
 ### Q5: 問題が発生した場合、どうすればサポートを受けられますか?
 
-A5: Aspose コミュニティ フォーラムに助けを求めることができます。[ここ](https://forum.aspose.com/c/note/28)、または個別のサポートについてはサポート チームにお問い合わせください。
+ A5: Aspose コミュニティ フォーラムに助けを求めることができます。[ここ](https://forum.aspose.com/c/note/28)、または個別のサポートについてはサポート チームにお問い合わせください。

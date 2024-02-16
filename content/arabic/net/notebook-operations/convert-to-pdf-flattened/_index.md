@@ -15,7 +15,7 @@ url: /ar/net/notebook-operations/convert-to-pdf-flattened/
 
 قبل أن نبدأ، تأكد من أن لديك ما يلي:
 
-1.  Aspose.Note لـ .NET: تأكد من أنك قمت بتنزيل Aspose.Note لـ .NET وتثبيته. إذا لم يكن الأمر كذلك، يمكنك الحصول عليه من[هنا](https://releases.aspose.com/note/net/).
+1.  Aspose.Note لـ .NET: تأكد من أنك قمت بتنزيل Aspose.Note لـ .NET وتثبيته. إذا لم يكن كذلك، يمكنك الحصول عليه من[هنا](https://releases.aspose.com/note/net/).
 2. Visual Studio: ستحتاج إلى تثبيت Visual Studio على نظامك من أجل البرمجة والتجميع.
 3. OneNote Notebook: جهز OneNote Notebook الذي تريد تحويله إلى PDF.
 

@@ -43,7 +43,7 @@ public static void SaveToTiffUsingJpegCompression()
     // Ladda dokumentet i Aspose.Note.
     Document oneFile = new Document("Path_to_your_OneNote_document");
 
-    // Ställ in destinationssökvägen för TIFF-bilden.
+    //Ställ in destinationssökvägen för TIFF-bilden.
     var dst = "Destination_path_for_TIFF_image";
 
     // Spara dokumentet som en TIFF-bild med JPEG-komprimering.
@@ -67,7 +67,7 @@ public static void SaveToTiffUsingPackBitsCompression()
     // Ladda dokumentet i Aspose.Note.
     Document oneFile = new Document("Path_to_your_OneNote_document");
 
-    // Ställ in destinationssökvägen för TIFF-bilden.
+    //Ställ in destinationssökvägen för TIFF-bilden.
     var dst = "Destination_path_for_TIFF_image";
 
     // Spara dokumentet som en TIFF-bild med PackBits-komprimering.
@@ -90,7 +90,7 @@ public static void SaveToTiffUsingCcitt3Compression()
     // Ladda dokumentet i Aspose.Note.
     Document oneFile = new Document("Path_to_your_OneNote_document");
 
-    // Ställ in destinationssökvägen för TIFF-bilden.
+    //Ställ in destinationssökvägen för TIFF-bilden.
     var dst = "Destination_path_for_TIFF_image";
 
     // Spara dokumentet som en TIFF-bild med CCITT Group 3-komprimering.
@@ -108,7 +108,7 @@ Genom att följa dessa steg kan du enkelt spara dina OneNote-dokument som TIFF-b
 
 ## Slutsats
 
-I den här handledningen har vi lärt oss hur man sparar OneNote-dokument som TIFF-bilder med hjälp av olika komprimeringsmetoder med Aspose.Note för .NET. Oavsett om du behöver JPEG, PackBits eller CCITT Group 3-komprimering ger Aspose.Note flexibiliteten att hantera olika krav effektivt.
+den här handledningen har vi lärt oss hur man sparar OneNote-dokument som TIFF-bilder med hjälp av olika komprimeringsmetoder med Aspose.Note för .NET. Oavsett om du behöver JPEG, PackBits eller CCITT Group 3-komprimering ger Aspose.Note flexibiliteten att hantera olika krav effektivt.
 
 ## FAQ's
 
@@ -130,4 +130,4 @@ S4: Ja, du kan automatisera konverteringsprocessen med hjälp av batchbearbetnin
 
 ### F5: Finns det en testversion tillgänglig för Aspose.Note?
 
- S5: Ja, du kan få en gratis provversion av Aspose.Note från[här](https://releases.aspose.com/).
+S5: Ja, du kan få en gratis provversion av Aspose.Note från[här](https://releases.aspose.com/).

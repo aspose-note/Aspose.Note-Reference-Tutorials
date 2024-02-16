@@ -106,4 +106,4 @@ R4: Sí, Aspose.Note para .NET admite el cifrado de documentos para garantizar l
 
 ### P5: ¿Dónde puedo encontrar más recursos y soporte para Aspose.Note para .NET?
 
- A5: Puedes explorar el[Aspose.Note para la documentación de .NET](https://reference.aspose.com/note/net/) y buscar ayuda del[Foro Aspose.Note](https://forum.aspose.com/c/note/28).
+ A5: Puedes explorar el[Aspose.Note para la documentación de .NET](https://reference.aspose.com/note/net/) buscar ayuda del[Foro Aspose.Note](https://forum.aspose.com/c/note/28).

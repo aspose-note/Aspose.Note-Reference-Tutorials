@@ -46,7 +46,7 @@ public static void SaveToPdfUsingLetterPageSettings()
 
     var dst = Path.Combine(dataDir, "SaveToPdfUsingLetterPageSettings.pdf");
 
-    //दस्तावेज़ सहेजें.
+    // दस्तावेज़ सहेजें.
     oneFile.Save(dst, new PdfSaveOptions() { PageSettings = PageSettings.Letter });
 
     Console.WriteLine("\nOneNote document saved successfully.\nFile saved at " + dst);
@@ -72,7 +72,7 @@ public static void SaveToPdfUsingA4PageSettingsWithoutHeightLimit()
 
     var dst = Path.Combine(dataDir, "SaveToPdfUsingA4PageSettingsWithoutHeightLimit.pdf");
 
-    //दस्तावेज़ सहेजें.
+    // दस्तावेज़ सहेजें.
     oneFile.Save(dst, new PdfSaveOptions() { PageSettings = PageSettings.A4NoHeightLimit });
 
     Console.WriteLine("\nOneNote document saved successfully.\nFile saved at " + dst);

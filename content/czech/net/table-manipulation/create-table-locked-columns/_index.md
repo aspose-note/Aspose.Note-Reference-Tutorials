@@ -20,7 +20,7 @@ Než začnete, ujistěte se, že máte následující předpoklady:
 -  Aspose.Note pro .NET nainstalován. Můžete si jej stáhnout z[tady](https://releases.aspose.com/note/net/).
 - Znalost konceptů manipulace s dokumenty.
 
-## Importovat jmenné prostory
+## Import jmenných prostorů
 
 Nejprve musíte do projektu importovat potřebné jmenné prostory:
 
@@ -124,7 +124,7 @@ Po provedení těchto kroků úspěšně vytvoříte tabulku se zamčenými slou
 
 ## Závěr
 
-V tomto tutoriálu jsme se naučili, jak vytvořit tabulku se zamčenými sloupci pomocí Aspose.Note pro .NET. Pomocí těchto kroků můžete efektivně manipulovat s tabulkami v dokumentech tak, aby splňovaly vaše specifické požadavky.
+tomto tutoriálu jsme se naučili, jak vytvořit tabulku se zamčenými sloupci pomocí Aspose.Note pro .NET. Pomocí těchto kroků můžete efektivně manipulovat s tabulkami v dokumentech tak, aby splňovaly vaše specifické požadavky.
 
 ## FAQ
 
@@ -142,8 +142,8 @@ Odpověď 3: Ano, Aspose.Note for .NET se hladce integruje s jinými frameworky 
 
 ### Q4: Je k dispozici technická podpora pro Aspose.Note pro .NET?
 
- A4: Ano, máte přístup k technické podpoře prostřednictvím[Aspose.Note fórum](https://forum.aspose.com/c/note/28) kde jsou k dispozici odborníci, kteří vám pomohou s jakýmikoli dotazy nebo problémy, se kterými se můžete setkat.
+A4: Ano, máte přístup k technické podpoře prostřednictvím[Aspose.Note fórum](https://forum.aspose.com/c/note/28) kde jsou k dispozici odborníci, kteří vám pomohou s jakýmikoli dotazy nebo problémy, se kterými se můžete setkat.
 
 ### Q5: Mohu vyzkoušet Aspose.Note pro .NET před nákupem?
 
- A5: Ano, můžete si stáhnout bezplatnou zkušební verzi Aspose.Note pro .NET z[tady](https://releases.aspose.com/)vyhodnotit jeho vlastnosti a kompatibilitu s vašimi požadavky.
+ A5: Ano, můžete si stáhnout bezplatnou zkušební verzi Aspose.Note pro .NET z[tady](https://releases.aspose.com/) vyhodnotit jeho vlastnosti a kompatibilitu s vašimi požadavky.

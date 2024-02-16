@@ -43,7 +43,7 @@ Document document = new Document(dataDir + "Sample1.one");
 
 ## Etapa 2: obter nós de tabela
 
-seguir, recuperamos uma lista de nós da tabela do documento carregado.
+A seguir, recuperamos uma lista de nós da tabela do documento carregado.
 
 ```csharp
 IList<Table> nodes = document.GetChildNodes<Table>();

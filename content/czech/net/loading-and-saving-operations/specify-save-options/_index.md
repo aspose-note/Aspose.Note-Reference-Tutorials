@@ -9,7 +9,7 @@ url: /cs/net/loading-and-saving-operations/specify-save-options/
 ---
 ## Úvod
 
-V oblasti vývoje .NET vyniká Aspose.Note jako výkonný nástroj pro práci s dokumenty OneNotu. Nabízí komplexní sadu funkcí pro efektivní manipulaci a správu těchto souborů. Jedním z klíčových aspektů práce s Aspose.Note je specifikování možností ukládání, které umožňuje vývojářům přizpůsobit výstupní formát a kvalitu podle jejich požadavků.
+oblasti vývoje .NET vyniká Aspose.Note jako výkonný nástroj pro práci s dokumenty OneNotu. Nabízí komplexní sadu funkcí pro efektivní manipulaci a správu těchto souborů. Jedním z klíčových aspektů práce s Aspose.Note je specifikování možností ukládání, které umožňuje vývojářům přizpůsobit výstupní formát a kvalitu podle jejich požadavků.
 
 ## Předpoklady
 
@@ -19,7 +19,7 @@ Než se ponoříte do zadávání možností uložení v Aspose.Note pro .NET, u
    
 2.  Instalace Aspose.Note pro .NET: Ujistěte se, že máte ve svém vývojovém prostředí nainstalovaný Aspose.Note pro .NET. Pokud ne, můžete si jej stáhnout z[tady](https://releases.aspose.com/note/net/).
 
-## Importovat jmenné prostory
+## Import jmenných prostorů
 
 Než začnete pracovat s Aspose.Note ve vaší aplikaci .NET, musíte importovat požadované jmenné prostory. Tyto obory názvů poskytují přístup ke třídám a metodám potřebným k efektivní manipulaci s dokumenty OneNotu.
 
@@ -53,7 +53,7 @@ PdfSaveOptions opts = new PdfSaveOptions
     // Použijte kompresi Jpeg
     ImageCompression = Saving.Pdf.PdfImageCompression.Jpeg,
     
-    //Kvalita pro kompresi JPEG
+    // Kvalita pro kompresi JPEG
     JpegQuality = 90
 };
 ```
@@ -71,7 +71,7 @@ doc.Save(dataDir, opts);
 
 ## Závěr
 
-V tomto kurzu jsme prozkoumali, jak určit možnosti ukládání v Aspose.Note pro .NET, abychom přizpůsobili výstupní formát a kvalitu při ukládání dokumentů OneNotu. Pomocí těchto kroků mohou vývojáři efektivně manipulovat a spravovat své soubory OneNotu podle svých specifických požadavků.
+tomto kurzu jsme prozkoumali, jak určit možnosti ukládání v Aspose.Note pro .NET, abychom přizpůsobili výstupní formát a kvalitu při ukládání dokumentů OneNotu. Pomocí těchto kroků mohou vývojáři efektivně manipulovat a spravovat své soubory OneNotu podle svých specifických požadavků.
 
 ## FAQ
 

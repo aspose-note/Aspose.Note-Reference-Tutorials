@@ -17,7 +17,7 @@ Zanim zaczniemy, upewnij się, że masz skonfigurowane następujące wymagania w
 
 ### Zainstalowano Visual Studio
 
- Upewnij się, że masz zainstalowany program Visual Studio w swoim systemie. Można go pobrać z[strona internetowa](https://visualstudio.microsoft.com/).
+Upewnij się, że masz zainstalowany program Visual Studio w swoim systemie. Można go pobrać z[strona internetowa](https://visualstudio.microsoft.com/).
 
 ### Zainstalowano Aspose.Note dla .NET
 

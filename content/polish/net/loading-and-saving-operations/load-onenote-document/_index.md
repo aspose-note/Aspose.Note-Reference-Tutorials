@@ -68,7 +68,7 @@ public static void SimpleLoadNotebook()
 ```
 
 ### Krok 2: Sprawdź, czy dokument jest zaszyfrowany i załaduj:
-   - Sprawdź, czy dokument OneNote jest zaszyfrowany, wywołując metodę`Document.IsEncrypted` metodę, przekazując nazwę pliku.
+   -  Sprawdź, czy dokument OneNote jest zaszyfrowany, wywołując metodę`Document.IsEncrypted` metodę, przekazując nazwę pliku.
    - Jeśli nie jest zaszyfrowany, kontynuuj przetwarzanie dokumentu.
    - Jeśli są zaszyfrowane, poproś użytkownika o podanie hasła do odszyfrowania.
 
@@ -124,7 +124,7 @@ public static void Document_CheckIfEncryptedByPasswordAndLoad()
 
 ### Krok 4: Obsługa nieobsługiwanego formatu OneNote 2007:
    - Spróbuj załadować dokument OneNote w formacie 2007.
-   -  Jeśli format nie jest obsługiwany, złap`UnsupportedFileFormatException` i obsłużyć się z nim odpowiednio, informując użytkownika o nieobsługiwanym formacie.
+   -  Jeśli format nie jest obsługiwany, złap`UnsupportedFileFormatException` obsłużyć się z nim odpowiednio, informując użytkownika o nieobsługiwanym formacie.
 
 ```csharp
 public static void Document_OneNote2007_Is_NotSupported()
@@ -151,7 +151,7 @@ public static void Document_OneNote2007_Is_NotSupported()
 
 ## Wniosek
 
-tym samouczku omówiliśmy, jak ładować dokumenty OneNote w Aspose.Note dla .NET przy użyciu różnych metod. Postępując zgodnie z tymi szczegółowymi instrukcjami, możesz bezproblemowo zintegrować możliwości przetwarzania dokumentów programu OneNote z aplikacjami .NET.
+W tym samouczku omówiliśmy, jak ładować dokumenty OneNote w Aspose.Note dla .NET przy użyciu różnych metod. Postępując zgodnie z tymi szczegółowymi instrukcjami, możesz bezproblemowo zintegrować możliwości przetwarzania dokumentów programu OneNote z aplikacjami .NET.
 
 ## Często zadawane pytania
 

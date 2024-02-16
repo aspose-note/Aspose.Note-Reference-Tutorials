@@ -9,7 +9,7 @@ url: /sv/net/tag-management/get-tag-details/
 ---
 ## Introduktion
 
-I den här handledningen kommer vi att fördjupa oss i hur du hämtar taggdetaljer från Aspose.Note-dokument med .NET. Taggar är viktiga för att kommentera dokument, hantera uppgifter och organisera information effektivt. Aspose.Note för .NET ger robust funktionalitet för att arbeta med taggar utan ansträngning.
+den här handledningen kommer vi att fördjupa oss i hur du hämtar taggdetaljer från Aspose.Note-dokument med .NET. Taggar är viktiga för att kommentera dokument, hantera uppgifter och organisera information effektivt. Aspose.Note för .NET ger robust funktionalitet för att arbeta med taggar utan ansträngning.
 
 ## Förutsättningar
 

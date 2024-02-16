@@ -92,8 +92,8 @@ S3: Aspose.Note integreras sömlöst med andra .NET-bibliotek, vilket ger omfatt
 
 ### F4: Hur kan jag få support för Aspose.Note?
 
-S4: Du kan få support för Aspose.Note genom att besöka[Aspose.Note forum](https://forum.aspose.com/c/note/28), där du kan ställa frågor och hitta lösningar.
+ S4: Du kan få support för Aspose.Note genom att besöka[Aspose.Note forum](https://forum.aspose.com/c/note/28), där du kan ställa frågor och hitta lösningar.
 
 ### F5: Finns det en gratis testversion tillgänglig för Aspose.Note?
 
- S5: Ja, du kan använda en gratis testversion av Aspose.Note genom att besöka[här](https://releases.aspose.com/).
+S5: Ja, du kan använda en gratis testversion av Aspose.Note genom att besöka[här](https://releases.aspose.com/).

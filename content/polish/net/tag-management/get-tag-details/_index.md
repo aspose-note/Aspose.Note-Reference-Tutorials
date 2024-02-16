@@ -9,7 +9,7 @@ url: /pl/net/tag-management/get-tag-details/
 ---
 ## Wstęp
 
-W tym samouczku zagłębimy się w sposób pobierania szczegółów znaczników z dokumentów Aspose.Note przy użyciu platformy .NET. Tagi są niezbędne do dodawania adnotacji do dokumentów, zarządzania zadaniami i efektywnego organizowania informacji. Aspose.Note dla .NET zapewnia solidną funkcjonalność do łatwej pracy ze znacznikami.
+tym samouczku zagłębimy się w sposób pobierania szczegółów znaczników z dokumentów Aspose.Note przy użyciu platformy .NET. Tagi są niezbędne do dodawania adnotacji do dokumentów, zarządzania zadaniami i efektywnego organizowania informacji. Aspose.Note dla .NET zapewnia solidną funkcjonalność do łatwej pracy ze znacznikami.
 
 ## Warunki wstępne
 

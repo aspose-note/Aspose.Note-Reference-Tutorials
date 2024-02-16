@@ -9,17 +9,17 @@ url: /cs/net/tag-management/reporting-tags/
 ---
 ## Úvod
 
-V oblasti zpracování a správy dokumentů vyniká Aspose.Note for .NET jako výkonný nástroj pro práci s poznámkami, anotacemi a štítky v digitálních dokumentech. Tagy slouží k organizování, kategorizaci a filtrování informací v dokumentech, což umožňuje efektivní vyhledávání a analýzu. Tento tutoriál se ponoří do složitosti vytváření sestav pomocí značek v Aspose.Note a nabízí podrobné pokyny pro generování sestav na základě různých kritérií.
+oblasti zpracování a správy dokumentů vyniká Aspose.Note for .NET jako výkonný nástroj pro práci s poznámkami, anotacemi a štítky v digitálních dokumentech. Tagy slouží k organizování, kategorizaci a filtrování informací v dokumentech, což umožňuje efektivní vyhledávání a analýzu. Tento tutoriál se ponoří do složitosti vytváření sestav pomocí značek v Aspose.Note a nabízí podrobné pokyny pro generování sestav na základě různých kritérií.
 
 ## Předpoklady
 
 Než se pustíte do tohoto kurzu, ujistěte se, že máte splněny následující předpoklady:
 
-1. Instalace Aspose.Note pro .NET: Stáhněte a nainstalujte knihovnu Aspose.Note pro .NET z[odkaz ke stažení](https://releases.aspose.com/note/net/).
+1.  Instalace Aspose.Note pro .NET: Stáhněte si a nainstalujte knihovnu Aspose.Note pro .NET z[odkaz ke stažení](https://releases.aspose.com/note/net/).
    
 2. Znalost programování v C#: Pro pochopení a implementaci uvedených příkladů je nutná základní znalost programovacího jazyka C#.
 
-## Importovat jmenné prostory
+## Import jmenných prostorů
 
 Než se ponoříte do příkladů kódu, nezapomeňte importovat potřebné jmenné prostory do svého projektu C#:
 
@@ -120,7 +120,7 @@ Odpověď 1: Ano, Aspose.Note pro .NET lze použít s jinými jazyky kompatibiln
 
 ## Q2: Je k dispozici bezplatná zkušební verze pro Aspose.Note pro .NET?
 
- A2: Ano, máte přístup k bezplatné zkušební verzi Aspose.Note pro .NET z[webová stránka](https://releases.aspose.com/).
+A2: Ano, máte přístup k bezplatné zkušební verzi Aspose.Note pro .NET z[webová stránka](https://releases.aspose.com/).
 
 ## Q3: Jak mohu získat dočasnou licenci pro Aspose.Note pro .NET?
 

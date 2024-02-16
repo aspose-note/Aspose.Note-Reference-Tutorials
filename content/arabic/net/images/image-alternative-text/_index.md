@@ -92,8 +92,8 @@ Console.WriteLine("\nImage alternative text setup successfully.\nFile saved at "
 
 ### س4: كيف يمكنني الحصول على الدعم لـ Aspose.Note؟
 
-ج4: يمكنك الحصول على الدعم لـ Aspose.Note بزيارة الموقع[منتدى Aspose.Note](https://forum.aspose.com/c/note/28)حيث يمكنك طرح الأسئلة وإيجاد الحلول.
+ ج4: يمكنك الحصول على الدعم لـ Aspose.Note بزيارة الموقع[منتدى Aspose.Note](https://forum.aspose.com/c/note/28)حيث يمكنك طرح الأسئلة وإيجاد الحلول.
 
 ### س5: هل هناك نسخة تجريبية مجانية متاحة لـ Aspose.Note؟
 
- ج5: نعم، يمكنك الاستفادة من النسخة التجريبية المجانية من Aspose.Note عن طريق زيارة الموقع[هنا](https://releases.aspose.com/).
+ج5: نعم، يمكنك الاستفادة من النسخة التجريبية المجانية من Aspose.Note عن طريق زيارة الموقع[هنا](https://releases.aspose.com/).

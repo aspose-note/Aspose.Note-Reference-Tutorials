@@ -82,7 +82,7 @@ Congratulazioni! Hai imparato con successo come salvare un intervallo di pagine 
 
 ### Q1: Posso salvare più intervalli di pagine come file PDF separati utilizzando Aspose.Note?
 
- R1: Sì, puoi ottenere questo risultato ripetendo il processo per ogni intervallo di pagine che desideri salvare, regolando il file`PageIndex` E`PageCount` di conseguenza.
+R1: Sì, puoi ottenere questo risultato ripetendo il processo per ogni intervallo di pagine che desideri salvare, regolando il file`PageIndex` E`PageCount` di conseguenza.
    
 ### Q2: Aspose.Note supporta il salvataggio di documenti in formati diversi da PDF?
 

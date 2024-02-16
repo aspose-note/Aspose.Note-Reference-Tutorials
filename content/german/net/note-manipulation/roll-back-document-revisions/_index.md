@@ -16,7 +16,7 @@ In der Welt der Dokumentenverwaltung und -bearbeitung ist es von entscheidender 
 Bevor Sie mit diesem Tutorial beginnen, stellen Sie sicher, dass Sie die folgenden Voraussetzungen erfüllen:
 
 1. Grundlegendes Verständnis von C#: Um den Codebeispielen folgen zu können, sind Kenntnisse der Programmiersprache C# erforderlich.
-2.  Aspose.Note für .NET-Bibliothek: Installieren Sie die Aspose.Note für .NET-Bibliothek in Ihrer Entwicklungsumgebung. Sie können es herunterladen unter[Hier](https://releases.aspose.com/note/net/).
+2. Aspose.Note für .NET-Bibliothek: Installieren Sie die Aspose.Note für .NET-Bibliothek in Ihrer Entwicklungsumgebung. Sie können es herunterladen unter[Hier](https://releases.aspose.com/note/net/).
 3. Integrierte Entwicklungsumgebung (IDE): Installieren Sie eine IDE wie Visual Studio auf Ihrem System.
 
 ## Namespaces importieren

@@ -23,7 +23,7 @@ Než začneme, ujistěte se, že máte následující předpoklady:
 
 Nyní, když máte vše nastaveno, pojďme se vrhnout na tutoriál!
 
-## Importovat jmenné prostory
+## Import jmenných prostorů
 
 Nejprve importujme potřebné jmenné prostory do našeho projektu:
 
@@ -38,7 +38,7 @@ using System.Drawing;
 ## Krok 1: Inicializujte objekt dokumentu
 
 ```csharp
-// Vytvořte objekt třídy Document
+//Vytvořte objekt třídy Document
 Document doc = new Document();
 ```
 

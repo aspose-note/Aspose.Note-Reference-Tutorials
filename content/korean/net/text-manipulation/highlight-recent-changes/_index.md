@@ -9,7 +9,7 @@ url: /ko/net/text-manipulation/highlight-recent-changes/
 ---
 ## 소개
 .NET을 사용하여 Note 문서에 동적이고 시각적으로 매력적인 기능을 추가하고 싶으십니까? Aspose.Note for .NET은 노트 파일을 원활하게 조작하고 향상시킬 수 있는 강력한 솔루션입니다. 이 튜토리얼에서는 Aspose.Note 텍스트의 모든 최근 변경 사항을 강조하는 특정 측면을 살펴보겠습니다.
-## 전제 조건
+## 전제조건
 이 여정을 시작하기 전에 다음과 같은 전제 조건이 갖추어져 있는지 확인하세요.
 -  .NET용 Aspose.Note: Aspose.Note 라이브러리가 설치되어 있는지 확인하세요. 다음에서 다운로드할 수 있습니다.[.NET 문서용 Aspose.Note](https://reference.aspose.com/note/net/).
 - 개발 환경: Visual Studio와 같은 IDE를 포함하여 .NET 개발 환경을 설정합니다.

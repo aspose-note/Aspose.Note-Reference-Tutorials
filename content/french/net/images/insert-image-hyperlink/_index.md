@@ -40,7 +40,7 @@ var page = new Page(document);
 
 ## Étape 2 : Insérer une image avec un lien hypertexte
 
- Maintenant, insérons l'image avec un lien hypertexte. Nous allons créer un`Image` objet et définir son`HyperlinkUrl` propriété à l’URL souhaitée.
+Maintenant, insérons l'image avec un lien hypertexte. Nous allons créer un`Image` objet et définir son`HyperlinkUrl` propriété à l’URL souhaitée.
 
 ```csharp
 string imagePath = "path_to_your_image.jpg";

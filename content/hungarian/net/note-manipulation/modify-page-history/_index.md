@@ -9,7 +9,7 @@ url: /hu/net/note-manipulation/modify-page-history/
 ---
 ## Bevezetés
 
-A dokumentumfeldolgozás területén az Aspose.Note for .NET robusztus eszközként jelenik meg, amely lehetővé teszi a fejlesztők számára, hogy könnyedén kezeljék a OneNote fájlokat. Az egyik gyakori feladat, amellyel a fejlesztők találkoznak, az oldalelőzmények módosítása az Aspose.Note dokumentumokon belül. Ez az oktatóanyag lépésről lépésre ismerteti a folyamatot, végigvezeti Önt a szükséges névtereken, előfeltételeken és kódrészleteken, amelyek segítségével hatékonyan módosíthatja az oldalelőzményeket az Aspose.Note for .NET használatával.
+dokumentumfeldolgozás területén az Aspose.Note for .NET robusztus eszközként jelenik meg, amely lehetővé teszi a fejlesztők számára, hogy könnyedén kezeljék a OneNote fájlokat. Az egyik gyakori feladat, amellyel a fejlesztők találkoznak, az oldalelőzmények módosítása az Aspose.Note dokumentumokon belül. Ez az oktatóanyag lépésről lépésre ismerteti a folyamatot, végigvezeti Önt a szükséges névtereken, előfeltételeken és kódrészleteken, amelyek segítségével hatékonyan módosíthatja az oldalelőzményeket az Aspose.Note for .NET használatával.
 
 ## Előfeltételek
 

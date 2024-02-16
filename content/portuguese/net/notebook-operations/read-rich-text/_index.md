@@ -84,7 +84,7 @@ A1: Sim, o Aspose.Note for .NET permite criar, editar e manipular arquivos do On
 
 ### Q2: Existe uma avaliação gratuita disponível para Aspose.Note for .NET?
 
-A2: Sim, você pode obter uma avaliação gratuita do Aspose.Note for .NET no[página de lançamento](https://releases.aspose.com/).
+ A2: Sim, você pode obter uma avaliação gratuita do Aspose.Note for .NET no[página de lançamento](https://releases.aspose.com/).
 
 ### Q3: Como posso obter suporte para Aspose.Note para .NET?
 

@@ -17,7 +17,7 @@ Aspose.Note สำหรับ .NET เป็น API ที่ทรงพลั
 
 ### 1. ติดตั้ง Visual Studio แล้ว
 
- ตรวจสอบให้แน่ใจว่าคุณได้ติดตั้ง Visual Studio บนระบบของคุณ คุณสามารถดาวน์โหลดได้จาก[ที่นี่](https://visualstudio.microsoft.com/).
+ตรวจสอบให้แน่ใจว่าคุณได้ติดตั้ง Visual Studio บนระบบของคุณ คุณสามารถดาวน์โหลดได้จาก[ที่นี่](https://visualstudio.microsoft.com/).
 
 ### 2. ติดตั้ง Aspose.Note สำหรับ .NET แล้ว
 

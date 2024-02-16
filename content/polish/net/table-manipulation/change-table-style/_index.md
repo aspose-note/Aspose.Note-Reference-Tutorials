@@ -9,7 +9,7 @@ url: /pl/net/table-manipulation/change-table-style/
 ---
 ## Wstęp
 
-tym samouczku przyjrzymy się, jak zmienić styl tabeli w Aspose.Note przy użyciu platformy .NET. Aspose.Note to potężny interfejs API, który umożliwia programistom programową pracę z plikami Microsoft OneNote. Dostosowując styl tabel w dokumentach OneNote, możesz poprawić ich atrakcyjność wizualną i czytelność. Krok po kroku przeprowadzimy przez proces modyfikowania stylów tabeli, zapewniając przejrzystość i efektywność.
+W tym samouczku przyjrzymy się, jak zmienić styl tabeli w Aspose.Note przy użyciu platformy .NET. Aspose.Note to potężny interfejs API, który umożliwia programistom programową pracę z plikami Microsoft OneNote. Dostosowując styl tabel w dokumentach OneNote, możesz poprawić ich atrakcyjność wizualną i czytelność. Krok po kroku przeprowadzimy przez proces modyfikowania stylów tabeli, zapewniając przejrzystość i efektywność.
 
 ## Warunki wstępne
 
@@ -72,7 +72,7 @@ Console.WriteLine("\nTable's style is updated successfully.\nFile saved at " + d
 
 ## Wniosek
 
-W tym samouczku nauczyliśmy się zmieniać style tabel w Aspose.Note przy użyciu platformy .NET. Wykonując poniższe kroki, możesz dostosować wygląd tabel w dokumentach programu OneNote, poprawiając ich prezentację wizualną i czytelność.
+tym samouczku nauczyliśmy się zmieniać style tabel w Aspose.Note przy użyciu platformy .NET. Wykonując poniższe kroki, możesz dostosować wygląd tabel w dokumentach programu OneNote, poprawiając ich prezentację wizualną i czytelność.
 
 ## Często zadawane pytania
 

@@ -80,7 +80,7 @@ Ebben az oktatóanyagban megtanultuk, hogyan lehet dokumentumot bináris képfor
 
 ### 1. kérdés: Beállíthatom a binarizálási küszöböt?
 
-V1: Igen, testreszabhatja a binarizálási küszöböt igényeinek megfelelően a`BinarizationThreshold` tulajdonság a kódban.
+ V1: Igen, testreszabhatja a binarizálási küszöböt igényeinek megfelelően a`BinarizationThreshold` tulajdonság a kódban.
 
 ### 2. kérdés: Milyen egyéb formátumok támogatottak a dokumentumok mentéséhez?
 
@@ -96,4 +96,4 @@ V1: Igen, testreszabhatja a binarizálási küszöböt igényeinek megfelelően 
 
 ### 5. kérdés: Hol találok további forrásokat és támogatást az Aspose.Note számára?
 
- A5: Felfedezheti a[Aspose.Note dokumentáció](https://reference.aspose.com/note/net/) és kérjen segítséget a[Aspose.Note fórum](https://forum.aspose.com/c/note/28) bármilyen kérdés vagy probléma esetén.
+ A5: Felfedezheti a[Aspose.Note dokumentáció](https://reference.aspose.com/note/net/)és kérjen segítséget a[Aspose.Note fórum](https://forum.aspose.com/c/note/28) bármilyen kérdés vagy probléma esetén.

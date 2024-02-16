@@ -30,7 +30,7 @@ Ganti "Direktori Dokumen Anda" dengan jalur ke direktori yang berisi dokumen Asp
 ```csharp
 Document oneFile = new Document(dataDir + "Aspose.one");
 ```
- Muat dokumen Aspose.Note Anda ke dalam`Document` objek untuk diproses lebih lanjut.
+Muat dokumen Aspose.Note Anda ke dalam`Document` objek untuk diproses lebih lanjut.
 ## Langkah 3: Ambil Teks
 ```csharp
 string text = string.Join(Environment.NewLine, oneFile.GetChildNodes<RichText>().Select(e => e.Text)) + Environment.NewLine;

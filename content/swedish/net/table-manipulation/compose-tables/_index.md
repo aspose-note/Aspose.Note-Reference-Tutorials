@@ -147,7 +147,7 @@ Console.WriteLine("\nThe document is composed successfully.");
 
 ## Slutsats
 
-den här självstudien har vi utforskat hur man komponerar tabeller med rikt textinnehåll med Aspose.Note för .NET. Genom att följa dessa steg-för-steg-instruktioner kan du effektivt skapa strukturerade tabeller i dina dokument, vilket förbättrar läsbarheten och organisationen.
+I den här självstudien har vi utforskat hur man komponerar tabeller med rikt textinnehåll med Aspose.Note för .NET. Genom att följa dessa steg-för-steg-instruktioner kan du effektivt skapa strukturerade tabeller i dina dokument, vilket förbättrar läsbarheten och organisationen.
 
 ## FAQ's
 

@@ -50,7 +50,7 @@ Aspose.Note.Page page = new Aspose.Note.Page(doc);
 Outline outline = new Outline(doc);
 ```
 
-## Étape 3 : ajouter un nœud de texte avec une balise
+## Étape 3 : Ajouter un nœud de texte avec une balise
 
 Créez un objet RichText avec le texte et le style souhaités, puis ajoutez-le à OutlineElement.
 
@@ -106,4 +106,4 @@ A4 : Oui, Aspose.Note pour .NET prend en charge le cryptage des documents pour g
 
 ### Q5 : Où puis-je trouver plus de ressources et d’assistance pour Aspose.Note pour .NET ?
 
- A5 : Vous pouvez explorer le[Aspose.Note pour la documentation .NET](https://reference.aspose.com/note/net/) et solliciter l'aide du[Forum Aspose.Note](https://forum.aspose.com/c/note/28).
+ A5 : Vous pouvez explorer le[Aspose.Note pour la documentation .NET](https://reference.aspose.com/note/net/)et solliciter l'aide du[Forum Aspose.Note](https://forum.aspose.com/c/note/28).

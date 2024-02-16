@@ -9,7 +9,7 @@ url: /cs/net/notebook-operations/create-password-protected-documents/
 ---
 ## Úvod
 
-tomto tutoriálu se ponoříme do procesu vytváření dokumentů chráněných heslem pomocí Aspose.Note pro .NET. Zabezpečení dokumentů je prvořadé, zejména při práci s citlivými informacemi. S Aspose.Note můžete zašifrovat své dokumenty, abyste je ochránili před neoprávněným přístupem. Provedeme vás kroky nezbytnými k efektivní implementaci tohoto bezpečnostního opatření.
+V tomto tutoriálu se ponoříme do procesu vytváření dokumentů chráněných heslem pomocí Aspose.Note pro .NET. Zabezpečení dokumentů je prvořadé, zejména při práci s citlivými informacemi. S Aspose.Note můžete zašifrovat své dokumenty, abyste je ochránili před neoprávněným přístupem. Provedeme vás kroky nezbytnými k efektivní implementaci tohoto bezpečnostního opatření.
 
 ## Předpoklady
 
@@ -19,7 +19,7 @@ Než začneme, ujistěte se, že máte následující předpoklady:
 2. Vývojové prostředí: Mějte nastavené vývojové prostředí pro programování .NET, včetně sady Visual Studio nebo jakéhokoli jiného preferovaného IDE.
 3. Základní znalost C#: Seznamte se se základy programovacího jazyka C#, protože jej budeme používat v našich příkladech.
 
-## Importovat jmenné prostory
+## Import jmenných prostorů
 
 Než se ponoříme do implementace, importujme potřebné jmenné prostory pro usnadnění našeho procesu kódování:
 

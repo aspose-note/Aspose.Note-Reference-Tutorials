@@ -17,7 +17,7 @@ Než začneme, ujistěte se, že máte nastaveny následující předpoklady:
 
 ### Visual Studio nainstalováno
 
- Ujistěte se, že máte v systému nainstalované Visual Studio. Můžete si jej stáhnout z[webová stránka](https://visualstudio.microsoft.com/).
+Ujistěte se, že máte v systému nainstalované Visual Studio. Můžete si jej stáhnout z[webová stránka](https://visualstudio.microsoft.com/).
 
 ### Aspose.Note pro .NET nainstalován
 
@@ -27,7 +27,7 @@ Než začneme, ujistěte se, že máte nastaveny následující předpoklady:
 
 Seznamte se se základy programovacího jazyka C# a postupujte podle příkladů.
 
-## Importovat jmenné prostory
+## Import jmenných prostorů
 
 Do souboru kódu C# importujte potřebné jmenné prostory, abyste mohli využívat funkce Aspose.Note:
 

@@ -82,7 +82,7 @@ oneFile.Save(dataDir, opts);
 
 ### Q1：我可以使用 Aspose.Note 將多個頁面範圍儲存為單獨的 PDF 檔案嗎？
 
- A1：是的，您可以透過對要儲存的每個頁面範圍重複該過程，調整`PageIndex`和`PageCount`因此。
+A1：是的，您可以透過對要儲存的每個頁面範圍重複該過程，調整`PageIndex`和`PageCount`因此。
    
 ### Q2：Aspose.Note是否支援保存PDF以外的格式文件？
 

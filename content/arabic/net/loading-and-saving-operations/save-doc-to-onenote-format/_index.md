@@ -17,7 +17,7 @@ url: /ar/net/loading-and-saving-operations/save-doc-to-onenote-format/
 
 1. معرفة تطوير C# و.NET: يفترض هذا البرنامج التعليمي فهمًا أساسيًا للغة البرمجة C# وإطار .NET.
 
-2. تثبيت Aspose.Note لـ .NET: قم بتنزيل وتثبيت مكتبة Aspose.Note لـ .NET من[موقع إلكتروني](https://releases.aspose.com/note/net/).
+2.  تثبيت Aspose.Note لـ .NET: قم بتنزيل وتثبيت مكتبة Aspose.Note لـ .NET من[موقع إلكتروني](https://releases.aspose.com/note/net/).
 
 3. بيئة التطوير: قم بإعداد بيئة التطوير الخاصة بك باستخدام Visual Studio أو أي بيئة تطوير متكاملة (IDE) مفضلة لتطوير .NET.
 

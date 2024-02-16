@@ -9,7 +9,7 @@ url: /hu/net/notebook-operations/retrieve-documents-from-onenote-notebook/
 ---
 ## Bevezetés
 
-A .NET fejlesztés területén az Aspose.Note robusztus eszköz a OneNote-dokumentumok könnyű kezeléséhez és kezeléséhez. Akár tapasztalt fejlesztő, akár csak belemerül a .NET-programozás világába, a OneNote-jegyzetfüzetekből az Aspose.Note segítségével való dokumentumok lekérésének művészetének elsajátítása értékes készség.
+A .NET fejlesztés területén az Aspose.Note robusztus eszköz a OneNote-dokumentumok könnyű kezeléséhez és kezeléséhez. Akár tapasztalt fejlesztő, akár csak belemerül a .NET-programozás világába, az Aspose.Note segítségével a OneNote-jegyzetfüzetekből dokumentumok lekérésének művészetének elsajátítása értékes készség.
 
 ## Előfeltételek
 

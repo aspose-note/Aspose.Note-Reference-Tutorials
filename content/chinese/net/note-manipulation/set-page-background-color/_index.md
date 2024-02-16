@@ -88,7 +88,7 @@ A2：Aspose.Note 主要专注于处理 OneNote 文档，但它也提供导出为
 
 ### Q3：Aspose.Note for .NET 有试用版吗？
 
- A3：是的，您可以从以下位置下载免费试用版：[这里](https://releases.aspose.com/).
+A3：是的，您可以从以下位置下载免费试用版：[这里](https://releases.aspose.com/).
 
 ### Q4：我可以获得用于测试目的的临时许可证吗？
 

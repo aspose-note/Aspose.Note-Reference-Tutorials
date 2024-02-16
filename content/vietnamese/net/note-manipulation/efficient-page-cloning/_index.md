@@ -35,7 +35,7 @@ Bây giờ hãy chia quá trình sao chép trang thành nhiều bước:
 
 ## Bước 1: Tải tài liệu OneNote
 
-Đầu tiên, chúng ta cần tải tài liệu OneNote vào bộ nhớ. Chúng ta có thể đạt được điều này bằng cách sử dụng`Document` lớp được cung cấp bởi Aspose.Lưu ý:
+ Đầu tiên, chúng ta cần tải tài liệu OneNote vào bộ nhớ. Chúng ta có thể đạt được điều này bằng cách sử dụng`Document` lớp được cung cấp bởi Aspose.Lưu ý:
 
 ```csharp
 // Đường dẫn đến thư mục tài liệu.
@@ -60,7 +60,7 @@ cloned.AppendChildLast(document.FirstChild.Clone());
 Tương tự, chúng ta có thể sao chép một trang vào một tài liệu mới trong khi vẫn giữ được lịch sử của nó:
 
 ```csharp
-// Sao chép vào tài liệu mới với lịch sử
+// Sao chép vào tài liệu mới có lịch sử
 cloned = new Document();
 cloned.AppendChildLast(document.FirstChild.Clone(true));
 ```

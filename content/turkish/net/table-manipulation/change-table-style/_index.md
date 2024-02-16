@@ -82,7 +82,7 @@ Y1: Evet, SetRowStyle yöntemi içinde kodu uygun şekilde değiştirerek tek te
   
 ### S2: Tablo hücrelerindeki metnin yazı tipi boyutunu veya hizalamasını değiştirmek mümkün müdür?
 
-Cevap2: Kesinlikle, TextRun sınıfının uygun özelliklerine erişerek yazı tipi boyutu, hizalama ve renk gibi çeşitli metin özelliklerini ayarlayabilirsiniz.
+Cevap2: TextRun sınıfının uygun özelliklerine erişerek yazı tipi boyutu, hizalama ve renk gibi çeşitli metin özelliklerini kesinlikle ayarlayabilirsiniz.
 
 ### S3: Aspose.Note, tabloların PDF veya HTML gibi diğer formatlara aktarılmasını destekliyor mu?
 
@@ -90,7 +90,7 @@ Cevap3: Evet, Aspose.Note, tablolar da dahil olmak üzere OneNote belgelerini PD
 
 ### S4: Aspose.Note'u kullanarak programlı olarak yeni tablolar oluşturabilir miyim?
 
-Cevap4: Elbette, Aspose.Note'un API'sini kullanarak OneNote belgeleri içinde dinamik olarak yeni tablolar oluşturabilirsiniz, bu da otomatik belge oluşturma senaryolarına olanak tanır.
+Cevap4: Kesinlikle Aspose.Note'un API'sini kullanarak OneNote belgeleri içinde dinamik olarak yeni tablolar oluşturabilirsiniz, bu da otomatik belge oluşturma senaryolarına olanak tanır.
 
 ### S5: Aspose.Note için daha fazla kaynağı ve desteği nerede bulabilirim?
 

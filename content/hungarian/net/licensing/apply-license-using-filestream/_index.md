@@ -76,11 +76,11 @@ Ebben az oktatóanyagban megtanultuk, hogyan kell Aspose.Note licencet alkalmazn
 
 ### 3. kérdés: Van ingyenes próbaverzió?
 
-V3: Igen, ingyenes próbaverziót kaphat[itt](https://releases.aspose.com/).
+ V3: Igen, ingyenes próbaverziót kaphat[itt](https://releases.aspose.com/).
 
 ### 4. kérdés: Hogyan kaphatok támogatást?
 
- 4. válasz: Támogatást kaphat az Aspose.Note közösségtől[fórum](https://forum.aspose.com/c/note/28).
+4. válasz: Támogatást kaphat az Aspose.Note közösségtől[fórum](https://forum.aspose.com/c/note/28).
 
 ### 5. kérdés: Kínál ideiglenes licenceket?
 

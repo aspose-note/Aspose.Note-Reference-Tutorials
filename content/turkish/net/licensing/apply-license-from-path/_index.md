@@ -67,7 +67,7 @@ Aspose.Note.License license = new Aspose.Note.License();
 
 ## 2. Adım: Lisansı Yoldan Ayarlayın
 
- Daha sonra şunu kullanın:`SetLicense` yöntemi`License` Lisansı belirtilen yoldan uygulamak için sınıf:
+Daha sonra şunu kullanın:`SetLicense` yöntemi`License` Lisansı belirtilen yoldan uygulamak için sınıf:
 
 ```csharp
 license.SetLicense("Aspose.Note.lic");
@@ -75,7 +75,7 @@ license.SetLicense("Aspose.Note.lic");
 
 ## Çözüm
 
-Sonuç olarak, bu eğitimde Aspose.Note lisansının .NET uygulamalarındaki bir yoldan uygulanmasına ilişkin ayrıntılı bir kılavuz sağlanmıştır. Yukarıda özetlenen adımları takip ederek, lisanslama mekanizmasını projelerinize sorunsuz bir şekilde entegre edebilir ve OneNote dosyalarıyla programlı olarak çalışmak için Aspose.Note'un tüm potansiyelini açığa çıkarabilirsiniz.
+Sonuç olarak, bu eğitimde Aspose.Note lisansının .NET uygulamalarındaki bir yoldan uygulanmasına ilişkin ayrıntılı bir kılavuz sağlanmıştır. Yukarıda özetlenen adımları izleyerek, lisanslama mekanizmasını projelerinize sorunsuz bir şekilde entegre edebilir ve OneNote dosyalarıyla programlı olarak çalışmak için Aspose.Note'un tüm potansiyelini açığa çıkarabilirsiniz.
 
 ## SSS'ler
 

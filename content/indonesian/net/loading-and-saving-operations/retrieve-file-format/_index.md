@@ -74,7 +74,7 @@ A2: Aspose.Note kompatibel dengan .NET Framework, .NET Core, dan .NET Standard.
 
 ### Q3: Dapatkah saya mencoba Aspose.Note sebelum membeli?
 
- A3: Ya, Anda dapat menjelajahi kemampuan Aspose.Note dengan uji coba gratis yang tersedia di[ situs web](https://releases.aspose.com/).
+A3: Ya, Anda dapat menjelajahi kemampuan Aspose.Note dengan uji coba gratis yang tersedia di[ situs web](https://releases.aspose.com/).
 
 ### Q4: Bagaimana saya bisa mendapatkan dukungan untuk Aspose.Note?
 
@@ -82,4 +82,4 @@ A2: Aspose.Note kompatibel dengan .NET Framework, .NET Core, dan .NET Standard.
 
 ### Q5: Apakah saya memerlukan lisensi sementara untuk tujuan evaluasi?
 
-A5: Meskipun uji coba gratis memungkinkan Anda menguji Aspose.Note, Anda dapat memilih lisensi sementara untuk evaluasi yang diperpanjang. Mengunjungi[Di Sini](https://purchase.aspose.com/temporary-license/) untuk lebih jelasnya.
+ A5: Meskipun uji coba gratis memungkinkan Anda menguji Aspose.Note, Anda dapat memilih lisensi sementara untuk evaluasi yang diperpanjang. Mengunjungi[Di Sini](https://purchase.aspose.com/temporary-license/) untuk lebih jelasnya.

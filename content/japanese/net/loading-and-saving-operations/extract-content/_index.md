@@ -39,7 +39,7 @@ string dataDir = "Your Document Directory";
 Document doc = new Document(dataDir + "Aspose.one");
 ```
 
-交換する`"Your Document Directory"` Aspose.Note ドキュメントが配置されているディレクトリに置き換えます。正しいファイル名と拡張子を必ず指定してください。
+交換する`"Your Document Directory"`Aspose.Note ドキュメントが配置されているディレクトリに置き換えます。正しいファイル名と拡張子を必ず指定してください。
 
 ## ステップ 2: DocumentVisitor を作成する
 

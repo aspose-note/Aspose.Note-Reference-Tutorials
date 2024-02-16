@@ -11,12 +11,12 @@ url: /ko/net/loading-and-saving-operations/save-to-pdf/
 
 이 튜토리얼에서는 .NET용 Aspose.Note를 사용하여 문서를 PDF 형식으로 저장하는 방법을 살펴보겠습니다. Aspose.Note는 개발자가 Microsoft OneNote 파일을 프로그래밍 방식으로 작업할 수 있게 해주는 강력한 라이브러리입니다. 전제 조건을 다루고, 네임스페이스를 가져오고, 다양한 페이지 레이아웃에서 문서를 PDF로 저장하기 위한 단계별 가이드를 제공합니다.
 
-## 전제 조건
+## 전제조건
 
 시작하기 전에 다음 사항이 있는지 확인하세요.
 
 - 시스템에 Visual Studio가 설치되어 있습니다.
--  .NET용 Aspose.Note 라이브러리가 다운로드되어 설치되었습니다. 다음에서 다운로드할 수 있습니다.[여기](https://releases.aspose.com/note/net/).
+-  .NET 라이브러리용 Aspose.Note가 다운로드되어 설치되었습니다. 다음에서 다운로드할 수 있습니다.[여기](https://releases.aspose.com/note/net/).
 - C# 프로그래밍 언어에 대한 기본 지식.
 
 ## 네임스페이스 가져오기
@@ -46,7 +46,7 @@ public static void SaveToPdfUsingLetterPageSettings()
 
     var dst = Path.Combine(dataDir, "SaveToPdfUsingLetterPageSettings.pdf");
 
-    //문서를 저장합니다.
+    // 문서를 저장합니다.
     oneFile.Save(dst, new PdfSaveOptions() { PageSettings = PageSettings.Letter });
 
     Console.WriteLine("\nOneNote document saved successfully.\nFile saved at " + dst);
@@ -72,7 +72,7 @@ public static void SaveToPdfUsingA4PageSettingsWithoutHeightLimit()
 
     var dst = Path.Combine(dataDir, "SaveToPdfUsingA4PageSettingsWithoutHeightLimit.pdf");
 
-    //문서를 저장합니다.
+    // 문서를 저장합니다.
     oneFile.Save(dst, new PdfSaveOptions() { PageSettings = PageSettings.A4NoHeightLimit });
 
     Console.WriteLine("\nOneNote document saved successfully.\nFile saved at " + dst);

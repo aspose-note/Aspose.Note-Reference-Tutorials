@@ -80,7 +80,7 @@ oneFile.Save(outputFilePath, saveOptions);
 
 ### Q1: 2値化の閾値を調整できますか?
 
-A1: はい、要件に応じて二値化のしきい値をカスタマイズできます。`BinarizationThreshold`コード内のプロパティ。
+ A1: はい、要件に応じて二値化のしきい値をカスタマイズできます。`BinarizationThreshold`コード内のプロパティ。
 
 ### Q2: ドキュメントの保存には他にどのような形式がサポートされていますか?
 

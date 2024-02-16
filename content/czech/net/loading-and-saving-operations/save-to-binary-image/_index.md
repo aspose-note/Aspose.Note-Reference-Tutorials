@@ -19,7 +19,7 @@ Než začneme, ujistěte se, že máte následující předpoklady:
 2.  Aspose.Note pro .NET: Stáhněte a nainstalujte Aspose.Note pro .NET z[tady](https://releases.aspose.com/note/net/).
 3. Základní porozumění C#: Spolu s příklady je vyžadována znalost programovacího jazyka C#.
 
-## Importovat jmenné prostory
+## Import jmenných prostorů
 
 Než se pustíme do implementace, nezapomeňte do projektu importovat potřebné jmenné prostory:
 
@@ -74,13 +74,13 @@ oneFile.Save(outputFilePath, saveOptions);
 
 ## Závěr
 
-V tomto tutoriálu jsme se naučili, jak uložit dokument do binárního obrazu pomocí Aspose.Note pro .NET. Pokud budete postupovat podle podrobného průvodce a pomocí poskytnutých úryvků kódu, můžete tuto funkci snadno implementovat do svých aplikací .NET.
+V tomto tutoriálu jsme se naučili, jak uložit dokument do binárního obrazu pomocí Aspose.Note pro .NET. Pokud budete postupovat podle podrobného průvodce a pomocí poskytnutých fragmentů kódu, můžete tuto funkci snadno implementovat do svých aplikací .NET.
 
 ## FAQ
 
 ### Q1: Mohu upravit práh binarizace?
 
-A1: Ano, můžete upravit práh binarizace podle svých požadavků úpravou`BinarizationThreshold` vlastnost v kódu.
+ A1: Ano, můžete upravit práh binarizace podle svých požadavků úpravou`BinarizationThreshold` vlastnost v kódu.
 
 ### Q2: Jaké další formáty jsou podporovány pro ukládání dokumentů?
 
@@ -96,4 +96,4 @@ A4: Ano, můžete procházet více dokumenty a uložit je jako binární obrázk
 
 ### Q5: Kde najdu další zdroje a podporu pro Aspose.Note?
 
- A5: Můžete prozkoumat[Aspose.Note dokumentaci](https://reference.aspose.com/note/net/) a vyhledat pomoc od[Aspose.Note fórum](https://forum.aspose.com/c/note/28) pro jakékoli dotazy nebo problémy.
+ A5: Můžete prozkoumat[Aspose.Note dokumentaci](https://reference.aspose.com/note/net/) vyhledat pomoc u[Aspose.Note fórum](https://forum.aspose.com/c/note/28) pro jakékoli dotazy nebo problémy.

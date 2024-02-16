@@ -9,7 +9,7 @@ url: /ko/net/text-manipulation/apply-dark-theme-text/
 ---
 ## 소개
 .NET용 Aspose.Note의 텍스트에 어두운 테마를 적용하는 방법에 대한 단계별 가이드에 오신 것을 환영합니다. Aspose.Note는 개발자가 Microsoft OneNote 파일을 프로그래밍 방식으로 작업할 수 있게 해주는 강력한 .NET API입니다. 이 튜토리얼에서는 텍스트에 어두운 테마를 적용하여 OneNote 문서를 세련되고 현대적인 모양으로 만드는 방법을 살펴보겠습니다.
-## 전제 조건
+## 전제조건
 튜토리얼을 시작하기 전에 다음 전제 조건이 충족되었는지 확인하세요.
 -  .NET용 Aspose.Note: .NET용 Aspose.Note가 설치되어 있는지 확인하세요. 그렇지 않은 경우 다음에서 다운로드할 수 있습니다.[Aspose.Note 문서](https://reference.aspose.com/note/net/).
 - 개발 환경: Visual Studio와 같은 선호하는 .NET 개발 환경을 설정합니다.

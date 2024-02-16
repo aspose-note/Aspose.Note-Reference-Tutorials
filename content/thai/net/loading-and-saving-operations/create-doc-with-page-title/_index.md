@@ -47,7 +47,7 @@ using System.Globalization;
 ## ขั้นตอนที่ 1: สร้างวัตถุเอกสาร
 
 ```csharp
-// สร้างวัตถุของคลาสเอกสาร
+//สร้างวัตถุของคลาสเอกสาร
 Document doc = new Aspose.Note.Document();
 ```
 

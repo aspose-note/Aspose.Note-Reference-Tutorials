@@ -15,7 +15,7 @@ Dalam tutorial ini, kita akan mempelajari cara menambahkan node anak di Aspose N
 
 Sebelum kita mulai, pastikan Anda memiliki hal berikut:
 
-1. Aspose.Note for .NET: Pastikan Anda telah menginstal Aspose.Note for .NET di lingkungan pengembangan Anda. Anda dapat mengunduhnya dari[situs web](https://releases.aspose.com/note/net/).
+1.  Aspose.Note for .NET: Pastikan Anda telah menginstal Aspose.Note for .NET di lingkungan pengembangan Anda. Anda dapat mengunduhnya dari[situs web](https://releases.aspose.com/note/net/).
 
 2. Lingkungan Pengembangan: Siapkan lingkungan pengembangan .NET, seperti Visual Studio.
 

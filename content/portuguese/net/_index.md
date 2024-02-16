@@ -19,7 +19,7 @@ Aplicar licenças Aspose.Note em seus aplicativos .NET nunca foi tão fácil! Na
 ## Domínio de anexos 
 [Descubra tutoriais de anexos](./attachments/)
 
-Aumente seus aplicativos .NET com Aspose.Note! Mergulhe em tutoriais que desvendam a magia de anexar arquivos, definir ícones e recuperar anexos para aprimorar o desenvolvimento. Eleve suas habilidades de manipulação de documentos dominando a arte do manuseio eficiente de anexos.
+Aumente seus aplicativos .NET com Aspose.Note! Mergulhe em tutoriais que desvendam a magia de anexar arquivos, definir ícones e recuperar anexos para um desenvolvimento aprimorado. Eleve suas habilidades de manipulação de documentos dominando a arte do manuseio eficiente de anexos.
 
 ## Brilho de hiperlinks 
 [Aprenda técnicas de hiperlinks](./hyperlinks/)

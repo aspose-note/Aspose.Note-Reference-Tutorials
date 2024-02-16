@@ -18,7 +18,7 @@ Než se pustíte do procesu přizpůsobení, ujistěte se, že máte následují
 1.  Aspose.Note pro .NET: Stáhněte si a nainstalujte knihovnu Aspose.Note pro .NET z[odkaz ke stažení](https://releases.aspose.com/note/net/).
 2. Dokument k vytištění: Mějte připravený dokument v adresáři, kde k němu má váš kód přístup.
 
-## Importovat jmenné prostory
+## Import jmenných prostorů
 
 Ujistěte se, že jste importovali potřebné jmenné prostory pro přístup k požadovaným třídám a metodám:
 
@@ -72,7 +72,7 @@ document.Print(new PrintOptions()
 
 ## Závěr
 
-Přizpůsobení tisku pomocí Aspose.Note for .NET umožňuje vývojářům doladit výtisky podle konkrétních požadavků. Využitím možností tisku, jako je nastavení tiskárny, rozlišení a algoritmy dělení stránek, mohou uživatelé zajistit přesné a optimalizované výsledky tisku.
+Přizpůsobení tisku pomocí Aspose.Note for .NET umožňuje vývojářům doladit výtisky podle konkrétních požadavků. Využitím možností tisku, jako je nastavení tiskárny, rozlišení a algoritmy pro dělení stránek, mohou uživatelé zajistit přesné a optimalizované výsledky tisku.
 
 ## FAQ
 

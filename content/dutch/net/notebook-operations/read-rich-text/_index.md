@@ -74,7 +74,7 @@ Ten slotte doorlopen we elk rich-text-knooppunt in de lijst en drukken we de tek
 
 ## Conclusie
 
-In deze zelfstudie hebben we geleerd hoe u rich-text van een OneNote-notitieblok kunt lezen met Aspose.Note voor .NET. Door de stapsgewijze handleiding te volgen en de meegeleverde codefragmenten te gebruiken, kunt u eenvoudig programmatisch tekstinhoud uit uw OneNote-documenten extraheren.
+In deze zelfstudie hebben we geleerd hoe u rich-text van een OneNote-notitieblok kunt lezen met Aspose.Note voor .NET. Door de stapsgewijze handleiding te volgen en de meegeleverde codefragmenten te gebruiken, kunt u eenvoudig tekstinhoud programmatisch uit uw OneNote-documenten extraheren.
 
 ## Veelgestelde vragen
 
@@ -84,7 +84,7 @@ A1: Ja, met Aspose.Note voor .NET kunt u OneNote-bestanden programmatisch maken,
 
 ### V2: Is er een gratis proefversie beschikbaar voor Aspose.Note voor .NET?
 
-A2: Ja, u kunt een gratis proefversie van Aspose.Note voor .NET krijgen van de[pagina vrijgeven](https://releases.aspose.com/).
+ A2: Ja, u kunt een gratis proefversie van Aspose.Note voor .NET krijgen van de[pagina vrijgeven](https://releases.aspose.com/).
 
 ### V3: Hoe kan ik ondersteuning krijgen voor Aspose.Note voor .NET?
 

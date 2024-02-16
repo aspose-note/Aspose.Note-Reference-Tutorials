@@ -76,7 +76,7 @@ public void CssSaving(CssSavingArgs args)
 }
 ```
 
- Di sini, kami mendefinisikan`CssSaving`metode panggilan balik untuk mengelola penyimpanan stylesheet CSS. Ini membuat sumber daya di folder CSS yang ditentukan dan mengatur aliran, URI, dan properti lainnya sesuai dengan itu.
+ Di sini, kami mendefinisikan`CssSaving` metode panggilan balik untuk mengelola penyimpanan stylesheet CSS. Ini membuat sumber daya di folder CSS yang ditentukan dan mengatur aliran, URI, dan properti lainnya sesuai dengan itu.
 
 ## Langkah 4: Terapkan Panggilan Balik Penghematan Gambar
 

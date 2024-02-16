@@ -43,7 +43,7 @@ public static void SaveToTiffUsingJpegCompression()
     // दस्तावेज़ को Aspose.Note में लोड करें।
     Document oneFile = new Document("Path_to_your_OneNote_document");
 
-    // TIFF छवि के लिए गंतव्य पथ सेट करें।
+    //TIFF छवि के लिए गंतव्य पथ सेट करें।
     var dst = "Destination_path_for_TIFF_image";
 
     // दस्तावेज़ को JPEG संपीड़न के साथ TIFF छवि के रूप में सहेजें।
@@ -67,7 +67,7 @@ public static void SaveToTiffUsingPackBitsCompression()
     // दस्तावेज़ को Aspose.Note में लोड करें।
     Document oneFile = new Document("Path_to_your_OneNote_document");
 
-    // TIFF छवि के लिए गंतव्य पथ सेट करें।
+    //TIFF छवि के लिए गंतव्य पथ सेट करें।
     var dst = "Destination_path_for_TIFF_image";
 
     // पैकबिट्स संपीड़न के साथ दस्तावेज़ को TIFF छवि के रूप में सहेजें।
@@ -90,7 +90,7 @@ public static void SaveToTiffUsingCcitt3Compression()
     // दस्तावेज़ को Aspose.Note में लोड करें।
     Document oneFile = new Document("Path_to_your_OneNote_document");
 
-    // TIFF छवि के लिए गंतव्य पथ सेट करें।
+    //TIFF छवि के लिए गंतव्य पथ सेट करें।
     var dst = "Destination_path_for_TIFF_image";
 
     // CCITT समूह 3 संपीड़न के साथ दस्तावेज़ को TIFF छवि के रूप में सहेजें।
@@ -130,4 +130,4 @@ A4: हां, आप Aspose.Note API के साथ बैच प्रोस
 
 ### Q5: क्या Aspose.Note के लिए कोई परीक्षण संस्करण उपलब्ध है?
 
- A5: हाँ, आप Aspose.Note का निःशुल्क परीक्षण प्राप्त कर सकते हैं[यहाँ](https://releases.aspose.com/).
+A5: हाँ, आप Aspose.Note का निःशुल्क परीक्षण प्राप्त कर सकते हैं[यहाँ](https://releases.aspose.com/).

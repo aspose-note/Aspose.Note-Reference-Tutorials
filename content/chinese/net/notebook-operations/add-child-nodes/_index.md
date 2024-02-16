@@ -15,7 +15,7 @@ url: /zh/net/notebook-operations/add-child-nodes/
 
 在我们开始之前，请确保您具备以下条件：
 
-1. Aspose.Note for .NET：确保您的开发环境中安装了 Aspose.Note for .NET。您可以从[网站](https://releases.aspose.com/note/net/).
+1.  Aspose.Note for .NET：确保您的开发环境中安装了 Aspose.Note for .NET。您可以从[网站](https://releases.aspose.com/note/net/).
 
 2. 开发环境：搭建.NET开发环境，例如Visual Studio。
 

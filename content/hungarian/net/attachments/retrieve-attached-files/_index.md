@@ -13,7 +13,7 @@ Ebben az oktatóanyagban megvizsgáljuk, hogyan lehet letölteni csatolt fájlok
 
 ## Előfeltételek
 
-Mielőtt elkezdené, győződjön meg arról, hogy rendelkezik az alábbiakkal:
+Mielőtt elkezdené, győződjön meg arról, hogy rendelkezik a következőkkel:
 
 -  Aspose.Note for .NET: Győződjön meg arról, hogy telepítette az Aspose.Note for .NET-et. Letöltheti innen[itt](https://releases.aspose.com/note/net/).
 

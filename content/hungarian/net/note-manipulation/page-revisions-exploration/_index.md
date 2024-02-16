@@ -43,7 +43,7 @@ Document document = new Document(dataDir + "Aspose.one", new LoadOptions { LoadH
 
 ## 2. lépés: Töltse le az oldalváltozatokat
 
-A dokumentum betöltése után le tudjuk kérni egy adott oldal revízióit. Ebben a példában az első oldal átdolgozásait kapjuk meg.
+dokumentum betöltése után le tudjuk kérni egy adott oldal revízióit. Ebben a példában az első oldal átdolgozásait kapjuk meg.
 
 ```csharp
 Page firstPage = document.FirstChild;
@@ -79,7 +79,7 @@ Az Aspose.Note dokumentumok oldalváltozatainak feltárása .NET használatával
 
 ### 3. kérdés: Elérhető ingyenes próbaverzió az Aspose.Note for .NET számára?
 
- 3. válasz: Igen, letöltheti az Aspose.Note .NET-hez ingyenes próbaverzióját a webhelyről[itt](https://releases.aspose.com/).
+3. válasz: Igen, letöltheti az Aspose.Note .NET-hez ingyenes próbaverzióját a webhelyről[itt](https://releases.aspose.com/).
 
 ### 4. kérdés: Hogyan szerezhetek ideiglenes licencet az Aspose.Note for .NET számára?
 

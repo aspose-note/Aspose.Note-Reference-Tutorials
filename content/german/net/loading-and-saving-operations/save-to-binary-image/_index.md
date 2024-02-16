@@ -80,7 +80,7 @@ In diesem Tutorial haben wir gelernt, wie man ein Dokument mit Aspose.Note für 
 
 ### F1: Kann ich den Binarisierungsschwellenwert anpassen?
 
-A1: Ja, Sie können den Binarisierungsschwellenwert entsprechend Ihren Anforderungen anpassen, indem Sie die ändern`BinarizationThreshold` Eigenschaft im Code.
+ A1: Ja, Sie können den Binarisierungsschwellenwert entsprechend Ihren Anforderungen anpassen, indem Sie die ändern`BinarizationThreshold` Eigenschaft im Code.
 
 ### F2: Welche anderen Formate werden zum Speichern von Dokumenten unterstützt?
 
@@ -96,4 +96,4 @@ A4: Ja, Sie können mehrere Dokumente durchlaufen und sie mit ähnlichem Code al
 
 ### F5: Wo finde ich weitere Ressourcen und Support für Aspose.Note?
 
- A5: Sie können das erkunden[Aspose.Note-Dokumentation](https://reference.aspose.com/note/net/) und suchen Sie Hilfe bei der[Aspose.Note-Forum](https://forum.aspose.com/c/note/28) für alle Fragen oder Probleme.
+ A5: Sie können das erkunden[Aspose.Note-Dokumentation](https://reference.aspose.com/note/net/)und suchen Sie Hilfe bei der[Aspose.Note-Forum](https://forum.aspose.com/c/note/28) für alle Fragen oder Probleme.

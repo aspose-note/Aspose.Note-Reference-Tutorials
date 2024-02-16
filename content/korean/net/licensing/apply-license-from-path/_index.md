@@ -11,7 +11,7 @@ url: /ko/net/licensing/apply-license-from-path/
 
 .NET을 사용하여 경로에서 Aspose.Note 라이센스를 적용하는 방법에 대한 포괄적인 튜토리얼에 오신 것을 환영합니다! Aspose.Note는 개발자가 Microsoft OneNote 파일을 프로그래밍 방식으로 작업하여 OneNote 문서를 생성, 편집 및 조작하기 위한 광범위한 기능을 사용할 수 있도록 하는 강력한 API입니다. 이 튜토리얼에서는 .NET 애플리케이션의 지정된 경로에서 Aspose.Note 라이선스를 적용하는 과정을 안내합니다.
 
-## 전제 조건
+## 전제조건
 
 시작하기 전에 다음 전제 조건이 충족되었는지 확인하세요.
 
@@ -25,7 +25,7 @@ url: /ko/net/licensing/apply-license-from-path/
 
 ### 3. 유효한 라이센스 파일
 
- Aspose.Note에 대한 유효한 라이센스 파일을 얻습니다. 없으시면 요청하시면 됩니다[임시 면허증](https://purchase.aspose.com/temporary-license/) 또는 다음에서 라이센스를 구매하세요.[여기](https://purchase.aspose.com/buy).
+ Aspose.Note에 대한 유효한 라이센스 파일을 얻습니다. 없으시면 요청하시면 됩니다[임시면허](https://purchase.aspose.com/temporary-license/) 또는 다음에서 라이센스를 구매하세요.[여기](https://purchase.aspose.com/buy).
 
 ## 네임스페이스 가져오기
 
@@ -67,7 +67,7 @@ Aspose.Note.License license = new Aspose.Note.License();
 
 ## 2단계: 경로에서 라이센스 설정
 
- 다음으로`SetLicense` 의 방법`License` 지정된 경로에서 라이센스를 적용하는 클래스:
+다음으로`SetLicense` 의 방법`License` 지정된 경로에서 라이센스를 적용하는 클래스:
 
 ```csharp
 license.SetLicense("Aspose.Note.lic");

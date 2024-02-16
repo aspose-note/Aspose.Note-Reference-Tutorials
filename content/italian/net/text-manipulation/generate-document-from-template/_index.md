@@ -73,7 +73,7 @@ Congratulazioni! Hai generato con successo un documento dinamico utilizzando Asp
 ### Posso utilizzare Aspose.Note per .NET con altri formati di documenti?
 Sì, Aspose.Note per .NET si occupa principalmente di documenti OneNote, ma Aspose fornisce varie librerie per diversi formati.
 ### È disponibile una prova gratuita per Aspose.Note per .NET?
- Sì, puoi esplorare le funzionalità di Aspose.Note per .NET con una prova gratuita. Visita[Qui](https://releases.aspose.com/) per maggiori informazioni.
+Sì, puoi esplorare le funzionalità di Aspose.Note per .NET con una prova gratuita. Visita[Qui](https://releases.aspose.com/) per maggiori informazioni.
 ### Come posso ottenere supporto per Aspose.Note per .NET?
  Visitare il[Aspose.Note per il forum .NET](https://forum.aspose.com/c/note/28) per ottenere assistenza dalla comunità e dagli esperti.
 ### Sono disponibili licenze temporanee per Aspose.Note per .NET?

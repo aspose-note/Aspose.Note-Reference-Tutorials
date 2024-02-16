@@ -29,7 +29,7 @@ Mulailah dengan membuat dokumen baru dan menginisialisasi objek yang diperlukan:
 ```csharp
 // Jalur ke direktori dokumen.
 string dataDir = "Your Document Directory";
-// Buat objek kelas Dokumen
+//Buat objek kelas Dokumen
 Document doc = new Document();
 // Inisialisasi objek kelas Halaman
 Aspose.Note.Page page = new Aspose.Note.Page(doc);

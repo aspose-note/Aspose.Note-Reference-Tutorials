@@ -91,6 +91,6 @@ A3: Ya, pengguna perlu memperoleh lisensi yang sesuai dari Aspose untuk mengguna
 
 A4: Ya, pengembang dapat mencari bantuan dan panduan dari forum dukungan Aspose yang didedikasikan untuk Aspose.Note untuk .NET.
 
-### Q5: Dapatkah saya mencoba Aspose.Note untuk .NET sebelum melakukan pembelian?
+### Q5: Bisakah saya mencoba Aspose.Note untuk .NET sebelum melakukan pembelian?
 
 A5: Tentu saja, pengembang dapat memanfaatkan versi uji coba gratis Aspose.Note untuk .NET untuk mengevaluasi fitur dan kesesuaiannya dengan proyek mereka.

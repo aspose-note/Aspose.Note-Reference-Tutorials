@@ -73,7 +73,7 @@ Defina um estilo de texto padrão a ser aplicado a todo o documento.
 RichText titleText = new RichText() { ParagraphStyle = defaultTextStyle }.Append("Title!");
 ```
 
- Construa um`RichText` objeto para o título com a formatação especificada.
+ Construa um`RichText`objeto para o título com a formatação especificada.
 
 ## Etapa 6: inicializar objetos de contorno e elemento de contorno
 

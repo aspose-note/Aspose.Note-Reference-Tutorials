@@ -43,7 +43,7 @@ public static void SaveToTiffUsingJpegCompression()
     // Laad het document in Aspose.Note.
     Document oneFile = new Document("Path_to_your_OneNote_document");
 
-    // Stel het bestemmingspad voor de TIFF-afbeelding in.
+    //Stel het bestemmingspad voor de TIFF-afbeelding in.
     var dst = "Destination_path_for_TIFF_image";
 
     // Sla het document op als een TIFF-afbeelding met JPEG-compressie.
@@ -67,7 +67,7 @@ public static void SaveToTiffUsingPackBitsCompression()
     // Laad het document in Aspose.Note.
     Document oneFile = new Document("Path_to_your_OneNote_document");
 
-    // Stel het bestemmingspad voor de TIFF-afbeelding in.
+    //Stel het bestemmingspad voor de TIFF-afbeelding in.
     var dst = "Destination_path_for_TIFF_image";
 
     // Sla het document op als TIFF-afbeelding met PackBits-compressie.
@@ -90,7 +90,7 @@ public static void SaveToTiffUsingCcitt3Compression()
     // Laad het document in Aspose.Note.
     Document oneFile = new Document("Path_to_your_OneNote_document");
 
-    // Stel het bestemmingspad voor de TIFF-afbeelding in.
+    //Stel het bestemmingspad voor de TIFF-afbeelding in.
     var dst = "Destination_path_for_TIFF_image";
 
     // Sla het document op als TIFF-afbeelding met CCITT Groep 3-compressie.
@@ -130,4 +130,4 @@ A4: Ja, u kunt het conversieproces automatiseren met behulp van batchverwerking 
 
 ### V5: Is er een proefversie beschikbaar voor Aspose.Note?
 
- A5: Ja, u kunt een gratis proefversie van Aspose.Note krijgen[hier](https://releases.aspose.com/).
+A5: Ja, u kunt een gratis proefversie van Aspose.Note krijgen[hier](https://releases.aspose.com/).

@@ -9,7 +9,7 @@ url: /sv/net/note-manipulation/page-revisions-exploration/
 ---
 ## Introduktion
 
-I den här handledningen kommer vi att fördjupa oss i att utforska sidversioner i Aspose.Note-dokument med hjälp av .NET-ramverket. Aspose.Note är ett kraftfullt bibliotek som gör det möjligt för utvecklare att arbeta med Microsoft OneNote-filer programmatiskt, och erbjuder olika funktioner för att manipulera och extrahera data från dessa filer.
+den här handledningen kommer vi att fördjupa oss i att utforska sidversioner i Aspose.Note-dokument med hjälp av .NET-ramverket. Aspose.Note är ett kraftfullt bibliotek som gör det möjligt för utvecklare att arbeta med Microsoft OneNote-filer programmatiskt, och erbjuder olika funktioner för att manipulera och extrahera data från dessa filer.
 
 ## Förutsättningar
 
@@ -79,7 +79,7 @@ S2: Aspose.Note stöder laddningshistorik för både .one och .onepkg filformat.
 
 ### F3: Finns det en gratis testversion tillgänglig för Aspose.Note för .NET?
 
- S3: Ja, du kan ladda ner en gratis testversion av Aspose.Note för .NET från[här](https://releases.aspose.com/).
+S3: Ja, du kan ladda ner en gratis testversion av Aspose.Note för .NET från[här](https://releases.aspose.com/).
 
 ### F4: Hur kan jag få en tillfällig licens för Aspose.Note för .NET?
 

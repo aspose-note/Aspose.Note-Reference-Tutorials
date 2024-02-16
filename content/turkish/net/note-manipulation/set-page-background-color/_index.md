@@ -70,7 +70,7 @@ Son olarak değiştirilen belgeyi kaydedin:
 document.Save(Path.Combine(dataDir, "SetPageBackgroundColor.one"));
 ```
 
- Değiştirildiğinden emin olun`"SetPageBackgroundColor.one"`değiştirilen belge için istenen dosya adıyla.
+ Değiştirildiğinden emin olun`"SetPageBackgroundColor.one"` değiştirilen belge için istenen dosya adıyla.
 
 ## Çözüm
 
@@ -88,7 +88,7 @@ Cevap2: Aspose.Note öncelikle OneNote belgeleriyle çalışmaya odaklanır anca
 
 ### S3: Aspose.Note for .NET'in deneme sürümü mevcut mu?
 
- C3: Evet, ücretsiz deneme sürümünü şuradan indirebilirsiniz:[Burada](https://releases.aspose.com/).
+C3: Evet, ücretsiz deneme sürümünü şuradan indirebilirsiniz:[Burada](https://releases.aspose.com/).
 
 ### S4: Test amaçlı geçici lisanslar alabilir miyim?
 

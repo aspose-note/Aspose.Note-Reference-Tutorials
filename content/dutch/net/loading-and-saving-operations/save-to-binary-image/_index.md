@@ -80,7 +80,7 @@ In deze zelfstudie hebben we geleerd hoe u een document kunt opslaan in een bina
 
 ### Vraag 1: Kan ik de binarisatiedrempel aanpassen?
 
-A1: Ja, u kunt de binarisatiedrempel aanpassen aan uw vereisten door de`BinarizationThreshold` eigenschap in de code.
+ A1: Ja, u kunt de binarisatiedrempel aanpassen aan uw vereisten door de`BinarizationThreshold` eigenschap in de code.
 
 ### Vraag 2: Welke andere formaten worden ondersteund voor het opslaan van documenten?
 
@@ -96,4 +96,4 @@ A4: Ja, u kunt meerdere documenten doorlopen en deze opslaan als binaire afbeeld
 
 ### V5: Waar kan ik meer bronnen en ondersteuning voor Aspose.Note vinden?
 
- A5: U kunt de verkennen[Aspose.Note-documentatie](https://reference.aspose.com/note/net/) en hulp zoeken bij de[Aspose.Note-forum](https://forum.aspose.com/c/note/28) voor eventuele vragen of problemen.
+ A5: U kunt de verkennen[Aspose.Note-documentatie](https://reference.aspose.com/note/net/)en hulp zoeken bij de[Aspose.Note-forum](https://forum.aspose.com/c/note/28) voor eventuele vragen of problemen.

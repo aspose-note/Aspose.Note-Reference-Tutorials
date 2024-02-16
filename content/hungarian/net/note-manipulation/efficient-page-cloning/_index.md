@@ -35,7 +35,7 @@ Most bontsuk le az oldalak klónozásának folyamatát több lépésre:
 
 ## 1. lépés: Töltse be a OneNote-dokumentumot
 
-Először is be kell töltenünk a OneNote dokumentumot a memóriába. Ezt a segítségével érhetjük el`Document` az Aspose által biztosított osztály. Megjegyzés:
+ Először is be kell töltenünk a OneNote dokumentumot a memóriába. Ezt a segítségével érhetjük el`Document` az Aspose által biztosított osztály. Megjegyzés:
 
 ```csharp
 // A dokumentumok könyvtárának elérési útja.

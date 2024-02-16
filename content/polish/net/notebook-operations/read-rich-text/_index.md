@@ -84,7 +84,7 @@ O1: Tak, Aspose.Note dla .NET umożliwia programowe tworzenie, edytowanie i mani
 
 ### P2: Czy dostępna jest bezpłatna wersja próbna Aspose.Note dla .NET?
 
-A2: Tak, możesz uzyskać bezpłatną wersję próbną Aspose.Note dla .NET z[strona wydania](https://releases.aspose.com/).
+ A2: Tak, możesz uzyskać bezpłatną wersję próbną Aspose.Note dla .NET z[strona wydania](https://releases.aspose.com/).
 
 ### P3: Jak mogę uzyskać wsparcie dla Aspose.Note dla .NET?
 

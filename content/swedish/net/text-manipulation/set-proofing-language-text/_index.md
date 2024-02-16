@@ -11,7 +11,7 @@ url: /sv/net/text-manipulation/set-proofing-language-text/
 Välkommen till Aspose.Note för .NET-världen! I den här omfattande guiden kommer vi att utforska den fascinerande processen att ställa in korrekturspråk för text med Aspose.Note. Oavsett om du är en erfaren utvecklare eller precis har börjat med Aspose.Note, kommer den här handledningen att ge dig detaljerade insikter och steg-för-steg-instruktioner för att förbättra dina färdigheter i textmanipulation.
 ## Förutsättningar
 Innan vi dyker in i handledningen, se till att du har följande förutsättningar på plats:
--  Aspose.Note för .NET: Se till att du har den senaste versionen av Aspose.Note för .NET installerad. Du kan ladda ner den[här](https://releases.aspose.com/note/net/).
+- Aspose.Note för .NET: Se till att du har den senaste versionen av Aspose.Note för .NET installerad. Du kan ladda ner den[här](https://releases.aspose.com/note/net/).
 - .NET-utvecklingsmiljö: Ha en funktionell .NET-utvecklingsmiljö redo på din dator.
 - Textredigerare eller IDE: Välj önskad textredigerare eller integrerad utvecklingsmiljö (IDE) för kodning.
 Låt oss nu börja med att ställa in korrekturspråk för text i Aspose.Note!
@@ -76,7 +76,7 @@ document.Save(Path.Combine("Your Document Directory", "SetProofingLanguageForTex
 ```
 Grattis! Du har ställt in korrekturspråket för text med Aspose.Note för .NET.
 ## Slutsats
-I den här handledningen fördjupade vi oss i processen att ställa in korrekturspråk för text i Aspose.Note för .NET. Med en steg-för-steg-guide och kodavsnitt är du nu utrustad för att förbättra dina textmanipuleringsmöjligheter. Experimentera med olika språk och släpp lös den fulla potentialen hos Aspose.Note i dina .NET-projekt.
+den här handledningen fördjupade vi oss i processen att ställa in korrekturspråk för text i Aspose.Note för .NET. Med en steg-för-steg-guide och kodavsnitt är du nu utrustad för att förbättra dina textmanipuleringsmöjligheter. Experimentera med olika språk och släpp lös den fulla potentialen hos Aspose.Note i dina .NET-projekt.
 
 ## FAQ's
 ### Kan jag ställa in korrekturspråk för specifika ord i ett stycke?

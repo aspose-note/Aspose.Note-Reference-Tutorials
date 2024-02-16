@@ -9,7 +9,7 @@ url: /pl/net/loading-and-saving-operations/user-saving-callbacks/
 ---
 ## Wstęp
 
-W tym samouczku omówimy, jak zaimplementować wywołania zwrotne oszczędzające użytkownika w Aspose.Note dla .NET. Te wywołania zwrotne pozwalają dostosować proces zapisywania, udostępniając zaczepy do interwencji na różnych etapach, takich jak zapisywanie czcionek, arkuszy stylów CSS i obrazów. Korzystając z tych wywołań zwrotnych, możesz dostosować sposób zapisywania do swoich konkretnych wymagań, zwiększając elastyczność i kontrolę nad wynikami.
+tym samouczku omówimy, jak zaimplementować wywołania zwrotne oszczędzające użytkownika w Aspose.Note dla .NET. Te wywołania zwrotne pozwalają dostosować proces zapisywania, udostępniając zaczepy do interwencji na różnych etapach, takich jak zapisywanie czcionek, arkuszy stylów CSS i obrazów. Korzystając z tych wywołań zwrotnych, możesz dostosować sposób zapisywania do swoich konkretnych wymagań, zwiększając elastyczność i kontrolę nad wynikami.
 
 ## Warunki wstępne
 
@@ -76,7 +76,7 @@ public void CssSaving(CssSavingArgs args)
 }
 ```
 
- Tutaj definiujemy`CssSaving`metoda wywołania zwrotnego do zarządzania zapisywaniem arkuszy stylów CSS. Tworzy zasób w określonym folderze CSS i odpowiednio ustawia strumień, URI i inne właściwości.
+ Tutaj definiujemy`CssSaving` metoda wywołania zwrotnego do zarządzania zapisywaniem arkuszy stylów CSS. Tworzy zasób w określonym folderze CSS i odpowiednio ustawia strumień, URI i inne właściwości.
 
 ## Krok 4: Zaimplementuj wywołanie zwrotne zapisywania obrazu
 
@@ -95,7 +95,7 @@ public void ImageSaving(ImageSavingArgs args)
 
 ## Wniosek
 
-W tym samouczku dowiedzieliśmy się, jak zaimplementować wywołania zwrotne oszczędzające użytkownika w Aspose.Note dla .NET. Wykonując podane kroki, możesz dostosować proces zapisywania czcionek, arkuszy stylów CSS i obrazów, zapewniając większą elastyczność i kontrolę nad wynikami.
+tym samouczku dowiedzieliśmy się, jak zaimplementować wywołania zwrotne oszczędzające użytkownika w Aspose.Note dla .NET. Wykonując podane kroki, możesz dostosować proces zapisywania czcionek, arkuszy stylów CSS i obrazów, zapewniając większą elastyczność i kontrolę nad wynikami.
 
 ## Często zadawane pytania
 

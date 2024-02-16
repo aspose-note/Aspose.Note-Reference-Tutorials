@@ -92,7 +92,7 @@ Console.WriteLine("\nNotebook created successfully.\nFile saved at " + dataDir);
 
 ### คำถามที่ 4: ฉันสามารถซื้อใบอนุญาตชั่วคราวสำหรับ Aspose.Note สำหรับ .NET ได้หรือไม่
 
- A4: ได้ คุณสามารถรับใบอนุญาตชั่วคราวได้จากเว็บไซต์ Aspose:[ใบอนุญาตชั่วคราว](https://purchase.aspose.com/temporary-license/).
+A4: ได้ คุณสามารถรับใบอนุญาตชั่วคราวได้จากเว็บไซต์ Aspose:[ใบอนุญาตชั่วคราว](https://purchase.aspose.com/temporary-license/).
 
 ### คำถามที่ 5: ฉันจะหาเอกสารที่ครอบคลุมสำหรับ Aspose.Note สำหรับ .NET ได้ที่ไหน
 

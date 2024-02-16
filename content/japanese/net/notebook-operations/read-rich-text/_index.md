@@ -84,7 +84,7 @@ A1: はい、Aspose.Note for .NET を使用すると、OneNote ファイルを�
 
 ### Q2: Aspose.Note for .NET に利用できる無料トライアルはありますか?
 
-A2: はい、Aspose.Note for .NET の無料トライアルを次のサイトから入手できます。[リリースページ](https://releases.aspose.com/).
+ A2: はい、Aspose.Note for .NET の無料トライアルを次のサイトから入手できます。[リリースページ](https://releases.aspose.com/).
 
 ### Q3: Aspose.Note for .NET のサポートを受けるにはどうすればよいですか?
 

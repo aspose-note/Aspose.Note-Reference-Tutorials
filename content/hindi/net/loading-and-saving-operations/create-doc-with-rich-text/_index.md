@@ -73,7 +73,7 @@ ParagraphStyle defaultTextStyle = new ParagraphStyle
 RichText titleText = new RichText() { ParagraphStyle = defaultTextStyle }.Append("Title!");
 ```
 
- ए का निर्माण करें`RichText` निर्दिष्ट स्वरूपण के साथ शीर्षक के लिए ऑब्जेक्ट।
+ ए का निर्माण करें`RichText`निर्दिष्ट स्वरूपण के साथ शीर्षक के लिए ऑब्जेक्ट।
 
 ## चरण 6: आउटलाइन और आउटलाइन एलिमेंट ऑब्जेक्ट को आरंभ करें
 

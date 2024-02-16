@@ -9,7 +9,7 @@ url: /pl/net/tag-management/open-close-projects-tags/
 ---
 ## Wstęp
 
-W tym samouczku nauczymy się używać Aspose.Note dla .NET do otwierania i zamykania projektów za pomocą tagów. Aspose.Note to potężny interfejs API, który umożliwia programistom programową pracę z plikami Microsoft OneNote, umożliwiając wykonywanie takich zadań, jak manipulowanie tekstem, obrazami i znacznikami w dokumentach.
+tym samouczku nauczymy się używać Aspose.Note dla .NET do otwierania i zamykania projektów za pomocą tagów. Aspose.Note to potężny interfejs API, który umożliwia programistom programową pracę z plikami Microsoft OneNote, umożliwiając wykonywanie takich zadań, jak manipulowanie tekstem, obrazami i znacznikami w dokumentach.
 
 ## Warunki wstępne
 
@@ -103,7 +103,7 @@ O1: Aspose.Note obsługuje Microsoft OneNote 2010 i nowsze wersje.
 
 ### P3: Czy Aspose.Note oferuje bezpłatną wersję próbną?
 
-A3: Tak, możesz uzyskać bezpłatną wersję próbną[Tutaj](https://releases.aspose.com/).
+ A3: Tak, możesz uzyskać bezpłatną wersję próbną[Tutaj](https://releases.aspose.com/).
 
 ### P4: Gdzie mogę znaleźć dokumentację dla Aspose.Note?
 
@@ -111,4 +111,4 @@ A3: Tak, możesz uzyskać bezpłatną wersję próbną[Tutaj](https://releases.a
 
 ### P5: Gdzie mogę uzyskać wsparcie dla Aspose.Note?
 
-O5: Aby uzyskać pomoc, możesz odwiedzić stronę Aspose.Note[forum](https://forum.aspose.com/c/note/28).
+ O5: Aby uzyskać pomoc, możesz odwiedzić stronę Aspose.Note[forum](https://forum.aspose.com/c/note/28).

@@ -38,7 +38,7 @@ using System.Drawing;
 ## Βήμα 1: Αρχικοποίηση αντικειμένου εγγράφου
 
 ```csharp
-// Δημιουργήστε ένα αντικείμενο της κλάσης Document
+//Δημιουργήστε ένα αντικείμενο της κλάσης Document
 Document doc = new Document();
 ```
 

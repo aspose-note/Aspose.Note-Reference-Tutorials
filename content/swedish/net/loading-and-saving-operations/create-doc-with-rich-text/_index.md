@@ -73,7 +73,7 @@ Definiera en standardtextstil som ska tillämpas på hela dokumentet.
 RichText titleText = new RichText() { ParagraphStyle = defaultTextStyle }.Append("Title!");
 ```
 
- Konstruera en`RichText` objekt för titeln med angiven formatering.
+ Konstruera en`RichText`objekt för titeln med angiven formatering.
 
 ## Steg 6: Initiera Outline- och Outline-elementobjekt
 

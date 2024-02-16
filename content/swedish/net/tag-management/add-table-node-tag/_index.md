@@ -114,7 +114,7 @@ Efter att ha följt dessa steg bör du ha lagt till en tabellnod med en tagg med
 
 ## Slutsats
 
-den här handledningen har vi täckt processen att lägga till en tabellnod med en tagg i Aspose.Note för .NET. Genom att följa dessa steg kan du effektivt manipulera OneNote-dokument programmässigt, vilket förbättrar dina dokumenthanteringsmöjligheter.
+I den här handledningen har vi täckt processen att lägga till en tabellnod med en tagg i Aspose.Note för .NET. Genom att följa dessa steg kan du effektivt manipulera OneNote-dokument programmässigt, vilket förbättrar dina dokumenthanteringsmöjligheter.
 
 ## FAQ's
 

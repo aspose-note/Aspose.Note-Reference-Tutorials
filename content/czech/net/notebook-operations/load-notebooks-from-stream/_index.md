@@ -19,7 +19,7 @@ Než budete pokračovat v tomto kurzu, ujistěte se, že máte následující p�
 - Visual Studio nainstalované ve vašem systému.
 -  Nainstalovaná knihovna Aspose.Note pro .NET. Můžete si jej stáhnout z[tady](https://releases.aspose.com/note/net/).
 
-## Importovat jmenné prostory
+## Import jmenných prostorů
 
 Chcete-li začít, musíte do kódu C# importovat potřebné jmenné prostory:
 

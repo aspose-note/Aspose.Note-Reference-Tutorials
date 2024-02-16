@@ -11,7 +11,7 @@ url: /ko/net/notebook-operations/load-password-protected-documents/
 
 Aspose.Note for .NET은 개발자가 Microsoft OneNote 파일을 프로그래밍 방식으로 작업할 수 있게 해주는 강력한 API입니다. 이 튜토리얼에서는 .NET용 Aspose.Note를 사용하여 비밀번호로 보호된 문서를 로드하는 방법을 알아봅니다.
 
-## 전제 조건
+## 전제조건
 
 시작하기 전에 다음 전제 조건이 충족되었는지 확인하세요.
 

@@ -44,7 +44,7 @@ Aspose.Note for .NET cho phép bạn sử dụng sức mạnh của bảng một
 
  Nâng cao hình ảnh tài liệu của bạn một cách dễ dàng! Hướng dẫn từng bước của chúng tôi về[Đặt màu nền ô trong bảng Aspose.Note](./set-cell-background-color/)hướng dẫn bạn qua quá trình này. Nâng cao bản trình bày tài liệu của bạn bằng cách nắm vững nghệ thuật thiết lập màu nền ô với Aspose.Note for .NET.
 
-Khám phá sức mạnh của Aspose.Note dành cho .NET trong các hướng dẫn này và nắm vững nghệ thuật thao tác bảng để xử lý tài liệu được cải thiện. Cho dù bạn là nhà phát triển dày dạn kinh nghiệm hay người mới, những hướng dẫn này đáp ứng mọi cấp độ kỹ năng, đảm bảo bạn tận dụng tối đa khả năng của Aspose.Note. Hãy bắt đầu tối ưu hóa các tác vụ xử lý tài liệu của bạn ngay hôm nay!
+Khám phá sức mạnh của Aspose.Note dành cho .NET trong các hướng dẫn này và nắm vững nghệ thuật thao tác bảng để xử lý tài liệu được cải thiện. Cho dù bạn là nhà phát triển dày dạn hay người mới, những hướng dẫn này đáp ứng mọi cấp độ kỹ năng, đảm bảo bạn tận dụng tối đa khả năng của Aspose.Note. Hãy bắt đầu tối ưu hóa các tác vụ xử lý tài liệu của bạn ngay hôm nay!
 ## Hướng dẫn thao tác bảng
 ### [Thay đổi kiểu bảng trong Aspose.Note](./change-table-style/)
 Tìm hiểu cách tùy chỉnh kiểu bảng trong Aspose.Note bằng C#. Sửa đổi màu sắc, phông chữ và nhiều thứ khác để nâng cao trình bày tài liệu.

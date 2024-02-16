@@ -90,7 +90,7 @@ O2: Aspose.Note jest regularnie aktualizowany, aby zapewnić kompatybilność z 
 
 ### P3: Czy mogę manipulować wyodrębnionym tekstem przed dalszym przetwarzaniem?
 
-O3: Oczywiście, możesz manipulować wyodrębnionym tekstem zgodnie ze swoimi wymaganiami, używając standardowych technik manipulacji ciągami C# przed przystąpieniem do dodatkowego przetwarzania.
+O3: Oczywiście możesz manipulować wyodrębnionym tekstem zgodnie ze swoimi wymaganiami, używając standardowych technik manipulacji ciągami C# przed przystąpieniem do dodatkowego przetwarzania.
 
 ### P4: Czy Aspose.Note obsługuje inne języki programowania oprócz C#?
 

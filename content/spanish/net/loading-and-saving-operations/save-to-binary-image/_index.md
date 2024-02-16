@@ -80,7 +80,7 @@ En este tutorial, aprendimos cómo guardar un documento en una imagen binaria us
 
 ### P1: ¿Puedo ajustar el umbral de binarización?
 
-R1: Sí, puede personalizar el umbral de binarización según sus requisitos modificando el`BinarizationThreshold` propiedad en el código.
+ R1: Sí, puede personalizar el umbral de binarización según sus requisitos modificando el`BinarizationThreshold` propiedad en el código.
 
 ### P2: ¿Qué otros formatos se admiten para guardar documentos?
 
@@ -96,4 +96,4 @@ R4: Sí, puede recorrer varios documentos y guardarlos como imágenes binarias u
 
 ### P5: ¿Dónde puedo encontrar más recursos y soporte para Aspose.Note?
 
- A5: Puedes explorar el[Documentación de Aspose.Note](https://reference.aspose.com/note/net/) y buscar ayuda del[Foro Aspose.Note](https://forum.aspose.com/c/note/28) para cualquier consulta o problema.
+ A5: Puedes explorar el[Documentación de Aspose.Note](https://reference.aspose.com/note/net/) buscar ayuda del[Foro Aspose.Note](https://forum.aspose.com/c/note/28) para cualquier consulta o problema.

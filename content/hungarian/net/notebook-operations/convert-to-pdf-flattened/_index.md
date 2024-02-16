@@ -46,7 +46,7 @@ var notebook = new Notebook(dataDir + "Notizbuch �ffnen.onetoc2");
 ## 2. lépés: Konvertálás PDF-be egyengetéssel
 
 ```csharp
-// Mentse el a Jegyzetfüzetet PDF-ként lapítással
+// Mentse el a Jegyzetfüzetet PDF formátumban lapítással
 dataDir = dataDir + "ConvertToPDFAsFlattened_out.pdf";
 notebook.Save(
     dataDir,
@@ -84,7 +84,7 @@ Gratulálunk! Sikeresen konvertálta OneNote-jegyzetfüzetét lapos PDF-formátu
 
 A3: Abszolút! Az Aspose.Note széles körű testreszabási lehetőségeket kínál az átalakítási folyamat során, lehetővé téve a kimenet igényeinek megfelelő testreszabását.
 
-### 4. kérdés: Elérhető próbaverzió?
+### 4. kérdés: Elérhető-e próbaverzió?
 
  4. válasz: Igen, ingyenes próbaverziót kaphat az Aspose.Note webhelyről[itt](https://releases.aspose.com/).
 

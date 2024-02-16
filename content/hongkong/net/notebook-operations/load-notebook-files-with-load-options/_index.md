@@ -81,7 +81,7 @@ A1：是的，Aspose.Note for .NET 提供了全面的 API 來以程式設計方�
 
 ### 問題 2：Aspose.Note for .NET 是否有免費試用版？
 
- A2：是的，您可以從以下位置免費試用 Aspose.Note for .NET：[這裡](https://releases.aspose.com/).
+A2：是的，您可以從以下位置免費試用 Aspose.Note for .NET：[這裡](https://releases.aspose.com/).
 
 ### Q3：在哪裡可以找到 Aspose.Note for .NET 的文件？
 

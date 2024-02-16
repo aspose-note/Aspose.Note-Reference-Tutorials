@@ -81,7 +81,7 @@ foreach (var notebookChildNode in notebook.OfType<Document>())
 
 ### Вопрос 2. Существует ли бесплатная пробная версия Aspose.Note для .NET?
 
- О2: Да, вы можете воспользоваться бесплатной пробной версией Aspose.Note для .NET на сайте[здесь](https://releases.aspose.com/).
+О2: Да, вы можете воспользоваться бесплатной пробной версией Aspose.Note для .NET на сайте[здесь](https://releases.aspose.com/).
 
 ### Вопрос 3. Где я могу найти документацию по Aspose.Note для .NET?
 
@@ -89,7 +89,7 @@ foreach (var notebookChildNode in notebook.OfType<Document>())
 
 ### Вопрос 4: Как получить временную лицензию на Aspose.Note для .NET?
 
- О4: Вы можете получить временную лицензию на[здесь](https://purchase.aspose.com/temporary-license/) в целях оценки.
+ A4: Вы можете получить временную лицензию на[здесь](https://purchase.aspose.com/temporary-license/) в целях оценки.
 
 ### Вопрос 5. Куда я могу обратиться за помощью, если у меня возникнут какие-либо проблемы или возникнут вопросы, связанные с Aspose.Note для .NET?
 

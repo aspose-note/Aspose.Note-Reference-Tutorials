@@ -10,7 +10,7 @@ url: /es/net/note-manipulation/
 
 ## Introducción
 
-¿Está listo para potenciar sus habilidades de procesamiento de documentos con Aspose.Note para .NET, mientras se integra perfectamente con OneNote? Sumérgete en nuestros Tutoriales de manipulación de notas, una colección cuidadosamente seleccionada y diseñada para capacitar a los desarrolladores con habilidades esenciales. Embárquenos en un viaje para desbloquear todo el potencial de Aspose.Note, paso a paso, centrándonos en la integración de OneNote.
+¿Está listo para potenciar sus habilidades de procesamiento de documentos con Aspose.Note para .NET, mientras se integra perfectamente con OneNote? Sumérjase en nuestros Tutoriales de manipulación de notas, una colección cuidadosamente seleccionada y diseñada para capacitar a los desarrolladores con habilidades esenciales. Embárquenos en un viaje para desbloquear todo el potencial de Aspose.Note, paso a paso, centrándonos en la integración de OneNote.
 
 ## Resolver conflictos en documentos Aspose.Note
  Navegue por los conflictos sin esfuerzo en sus documentos de OneNote con nuestra guía detallada. Aprenda técnicas eficientes de resolución de conflictos utilizando .NET, garantizando una colaboración perfecta en sus archivos de OneNote. Explorar el[Tutorial de resolución de conflictos](./conflict-page-resolution/)¡ahora!

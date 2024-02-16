@@ -61,7 +61,7 @@ Cetak pesan konfirmasi yang menunjukkan bahwa gaya judul telah berhasil diperbar
 Selamat! Anda telah berhasil mempelajari cara mengubah gaya judul halaman di Aspose.Note untuk .NET. Fitur sederhana namun canggih ini dapat meningkatkan daya tarik visual dokumen Anda secara signifikan.
 ## FAQ
 ### Apakah Aspose.Note kompatibel dengan versi kerangka .NET terbaru?
-Aspose.Note dirancang agar kompatibel dengan berbagai versi kerangka .NET, termasuk yang terbaru. Mengacu kepada[dokumentasi](https://reference.aspose.com/note/net/) untuk informasi kompatibilitas terperinci.
+ Aspose.Note dirancang agar kompatibel dengan berbagai versi kerangka .NET, termasuk yang terbaru. Mengacu kepada[dokumentasi](https://reference.aspose.com/note/net/) untuk informasi kompatibilitas terperinci.
 ### Bisakah saya mencoba Aspose.Note sebelum membeli?
  Ya, Anda dapat menjelajahi Aspose.Note dengan mengunduh versi uji coba gratis[Di Sini](https://releases.aspose.com/).
 ### Bagaimana saya bisa mendapatkan dukungan untuk Aspose.Note?

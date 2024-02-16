@@ -11,7 +11,7 @@ url: /ja/net/text-manipulation/set-proofing-language-text/
 Aspose.Note for .NET の世界へようこそ!この包括的なガイドでは、Aspose.Note を使用してテキストの校正言語を設定する興味深いプロセスについて説明します。あなたが経験豊富な開発者であっても、Aspose.Note を使い始めたばかりであっても、このチュートリアルでは、テキスト操作スキルを向上させるための詳細な洞察と段階的な手順を提供します。
 ## 前提条件
 チュートリアルに入る前に、次の前提条件が満たされていることを確認してください。
--  Aspose.Note for .NET: 最新バージョンの Aspose.Note for .NET がインストールされていることを確認してください。ダウンロードできます[ここ](https://releases.aspose.com/note/net/).
+- Aspose.Note for .NET: 最新バージョンの Aspose.Note for .NET がインストールされていることを確認してください。ダウンロードできます[ここ](https://releases.aspose.com/note/net/).
 - .NET 開発環境: マシン上に機能的な .NET 開発環境を準備します。
 - テキスト エディターまたは IDE: コーディングに使用するテキスト エディターまたは統合開発環境 (IDE) を選択します。
 それでは、Aspose.Note でテキストの校正言語を設定してみましょう。

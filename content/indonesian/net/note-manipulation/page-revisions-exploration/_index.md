@@ -79,7 +79,7 @@ A2: Aspose.Note mendukung riwayat pemuatan untuk format file .one dan .onepkg.
 
 ### Q3: Apakah ada uji coba gratis yang tersedia untuk Aspose.Note untuk .NET?
 
- A3: Ya, Anda dapat mengunduh uji coba gratis Aspose.Note untuk .NET dari[Di Sini](https://releases.aspose.com/).
+A3: Ya, Anda dapat mengunduh uji coba gratis Aspose.Note untuk .NET dari[Di Sini](https://releases.aspose.com/).
 
 ### Q4: Bagaimana cara mendapatkan lisensi sementara Aspose.Note untuk .NET?
 

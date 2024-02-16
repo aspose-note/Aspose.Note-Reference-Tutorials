@@ -95,7 +95,7 @@ public static void CreateAndSavePageRange()
 
 Aqui demonstramos como criar um documento e salvar um intervalo de páginas específico no formato HTML.
 
-## Etapa 3: Salvar como HTML no Memory Stream com recursos incorporados
+## Etapa 3: Salvar como HTML no fluxo de memória com recursos incorporados
 
 ```csharp
 public static void SaveAsHTMLToMemoryStreamWithEmbeddedResources()
@@ -139,7 +139,7 @@ public static void SaveAsHTMLToFileWithResourcesInSeparateFiles()
         FontFaceTypes = FontFaceType.Ttf
     };
 
-    //Salve o documento em arquivo HTML com recursos armazenados em arquivos separados
+    // Salve o documento em arquivo HTML com recursos armazenados em arquivos separados
     document.Save(Path.Combine(dataDir, "document_out.html"), options);
 }
 ```

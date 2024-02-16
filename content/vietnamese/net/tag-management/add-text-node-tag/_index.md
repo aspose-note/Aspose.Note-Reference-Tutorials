@@ -106,4 +106,4 @@ Câu trả lời 4: Có, Aspose.Note for .NET hỗ trợ mã hóa tài liệu đ
 
 ### Câu hỏi 5: Tôi có thể tìm thêm tài nguyên và hỗ trợ cho Aspose.Note cho .NET ở đâu?
 
- A5: Bạn có thể khám phá[Aspose.Note dành cho tài liệu .NET](https://reference.aspose.com/note/net/) và tìm kiếm sự giúp đỡ từ[Diễn đàn Aspose.Note](https://forum.aspose.com/c/note/28).
+ A5: Bạn có thể khám phá[Aspose.Note dành cho tài liệu .NET](https://reference.aspose.com/note/net/)và tìm kiếm sự giúp đỡ từ[Diễn đàn Aspose.Note](https://forum.aspose.com/c/note/28).

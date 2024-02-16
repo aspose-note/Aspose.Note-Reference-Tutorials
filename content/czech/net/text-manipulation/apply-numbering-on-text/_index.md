@@ -14,7 +14,7 @@ Než se pustíte do výukového programu, ujistěte se, že máte splněny násl
 - Základní znalost programovacího jazyka C#.
 -  Aspose.Note pro .NET nainstalován. Můžete si jej stáhnout[tady](https://releases.aspose.com/note/net/).
 - Integrované vývojové prostředí (IDE), jako je Visual Studio.
-## Importovat jmenné prostory
+## Import jmenných prostorů
 Chcete-li začít, nezapomeňte importovat potřebné jmenné prostory do svého projektu C#:
 ```csharp
 using System;
@@ -29,7 +29,7 @@ Začněte vytvořením nového dokumentu a inicializací požadovaných objektů
 ```csharp
 // Cesta k adresáři dokumentů.
 string dataDir = "Your Document Directory";
-// Vytvořte objekt třídy Document
+//Vytvořte objekt třídy Document
 Document doc = new Document();
 // Inicializujte objekt třídy Page
 Aspose.Note.Page page = new Aspose.Note.Page(doc);

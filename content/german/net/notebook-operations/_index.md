@@ -28,7 +28,7 @@ Nutzen Sie die Leistungsfähigkeit von Aspose Note .NET, indem Sie mühelos unte
  Konvertieren Sie Notizbücher mühelos in das PDF-Format mit Aspose.Note für .NET. Behalten Sie Inhalte und Formatierungen nahtlos bei.[Erfahren Sie mehr](./convert-to-pdf/)
 
 ## Konvertieren Sie Notizbücher in Aspose Note .NET in PDF (komprimiert).
- Lernen Sie mit Aspose.Note für .NET die Kunst, OneNote-Notizbücher mühelos in reduzierte PDFs zu konvertieren. Bewahren Sie Ihre Inhalte nahtlos auf.[Erfahren Sie mehr](./convert-to-pdf-flattened/)
+ Lernen Sie die Kunst der mühelosen Konvertierung von OneNote-Notizbüchern in reduzierte PDFs mit Aspose.Note für .NET. Bewahren Sie Ihre Inhalte nahtlos auf.[Erfahren Sie mehr](./convert-to-pdf-flattened/)
 
 ## Konvertieren Sie Notizbücher mit Optionen in Aspose Note .NET in PDF
  Meistern Sie die Konvertierung von Microsoft OneNote-Notizbüchern in das PDF-Format mit anpassbaren Optionen mithilfe der Aspose.Note für .NET-Bibliothek.[Erfahren Sie mehr](./convert-to-pdf-options/)

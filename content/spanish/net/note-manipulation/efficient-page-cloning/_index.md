@@ -35,7 +35,7 @@ Ahora dividamos el proceso de clonación de páginas en varios pasos:
 
 ## Paso 1: cargue el documento de OneNote
 
-Primero, necesitamos cargar el documento de OneNote en la memoria. Esto lo podemos lograr usando el`Document` clase proporcionada por Aspose.Nota:
+ Primero, necesitamos cargar el documento de OneNote en la memoria. Esto lo podemos lograr usando el`Document` clase proporcionada por Aspose.Nota:
 
 ```csharp
 // La ruta al directorio de documentos.
@@ -47,7 +47,7 @@ Document document = new Document(dataDir + "Aspose.one", new LoadOptions { LoadH
 
 ## Paso 2: clonar una página sin historial
 
-A continuación, clonaremos una página del documento cargado en un documento nuevo sin conservar su historial:
+continuación, clonaremos una página del documento cargado en un documento nuevo sin conservar su historial:
 
 ```csharp
 // Clonar en un nuevo documento sin historial

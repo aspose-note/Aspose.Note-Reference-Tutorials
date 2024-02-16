@@ -106,4 +106,4 @@ A3: Да, вы можете настроить цвета и стили тего
 
 ### Вопрос 5. Где я могу найти дополнительные ресурсы и поддержку Aspose.Note для .NET?
 
- A5: Вы можете изучить[Документация Aspose.Note для .NET](https://reference.aspose.com/note/net/) и обратиться за помощью к[Форум Aspose.Note](https://forum.aspose.com/c/note/28).
+ A5: Вы можете изучить[Документация Aspose.Note для .NET](https://reference.aspose.com/note/net/)и обратиться за помощью к[Форум Aspose.Note](https://forum.aspose.com/c/note/28).

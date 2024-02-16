@@ -9,7 +9,7 @@ url: /pl/net/attachments/attach-file-set-icon/
 ---
 ## Wstęp
 
-W dziedzinie programowania .NET Aspose.Note wyróżnia się jako potężne narzędzie do programowego manipulowania dokumentami Microsoft OneNote. Wykorzystując jego możliwości, programiści mogą zautomatyzować różne zadania związane z tworzeniem, edytowaniem i zarządzaniem plikami OneNote w swoich aplikacjach. Jedną z istotnych funkcji jest możliwość dołączania plików do notatek i ustawiania ikon dla tych załączników. W tym samouczku zagłębimy się w proces dołączania pliku i ustawiania ikony za pomocą Aspose.Note dla .NET.
+dziedzinie programowania .NET Aspose.Note wyróżnia się jako potężne narzędzie do programowego manipulowania dokumentami Microsoft OneNote. Wykorzystując jego możliwości, programiści mogą zautomatyzować różne zadania związane z tworzeniem, edytowaniem i zarządzaniem plikami OneNote w swoich aplikacjach. Jedną z istotnych funkcji jest możliwość dołączania plików do notatek i ustawiania ikon dla tych załączników. W tym samouczku zagłębimy się w proces dołączania pliku i ustawiania ikony za pomocą Aspose.Note dla .NET.
 
 ## Warunki wstępne
 

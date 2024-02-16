@@ -32,7 +32,7 @@ Bạn đã sẵn sàng nâng cao kỹ năng thao tác tài liệu OneNote của 
 ## Chèn hình ảnh vào tài liệu OneNote bằng Aspose.Note for .NET
  Trong hướng dẫn cuối cùng của chúng tôi,[Chèn hình ảnh vào tài liệu OneNote](./insert-images/), chúng tôi sẽ hướng dẫn bạn cách chèn hình ảnh một cách liền mạch bằng .NET. Nâng cao nội dung trực quan của tài liệu Aspose.Note dành cho .NET bằng hướng dẫn từng bước của chúng tôi, đảm bảo tích hợp dễ dàng và mang lại kết quả hấp dẫn.
 
-Bắt tay vào hành trình nâng cao hình ảnh với Aspose.Note cho .NET trong thế giới tài liệu OneNote. Khám phá hướng dẫn của chúng tôi, làm theo các bước chi tiết và khám phá toàn bộ tiềm năng của thao tác hình ảnh trong tệp OneNote của bạn. Nâng cao kỹ năng phát triển của bạn và dễ dàng tạo ra các tài liệu trực quan ấn tượng.
+Bắt tay vào hành trình nâng cao hình ảnh với Aspose.Note for .NET trong thế giới tài liệu OneNote. Khám phá hướng dẫn của chúng tôi, làm theo các bước chi tiết và khám phá toàn bộ tiềm năng của thao tác hình ảnh trong tệp OneNote của bạn. Nâng cao kỹ năng phát triển của bạn và dễ dàng tạo ra các tài liệu trực quan ấn tượng.
 ## Hình ảnh Hướng dẫn
 ### [Xây dựng tài liệu và chèn hình ảnh trong Aspose.Note](./build-doc-insert-image/)
 Tìm hiểu cách chèn hình ảnh vào tài liệu OneNote theo chương trình bằng Aspose.Note for .NET. Các bước dễ dàng để thao tác tài liệu liền mạch.

@@ -1,8 +1,8 @@
 ---
-title: ดึงเอกสารจากสมุดบันทึก OneNote ใน Aspose Note .NET
-linktitle: ดึงเอกสารจากสมุดบันทึก OneNote ใน Aspose Note .NET
+title: ดึงเอกสารจาก OneNote Notebook ใน Aspose Note .NET
+linktitle: ดึงเอกสารจาก OneNote Notebook ใน Aspose Note .NET
 second_title: Aspose.Note .NET API
-description: เรียนรู้วิธีดึงเอกสารจากสมุดบันทึก OneNote โดยใช้โปรแกรม Aspose.Note สำหรับ .NET ซึ่งช่วยเพิ่มศักยภาพในการบูรณาการและการจัดการที่ราบรื่น
+description: เรียนรู้วิธีดึงเอกสารจากสมุดบันทึก OneNote โดยทางโปรแกรมโดยใช้ Aspose.Note สำหรับ .NET ซึ่งช่วยเพิ่มศักยภาพในการบูรณาการและการจัดการที่ราบรื่น
 type: docs
 weight: 25
 url: /th/net/notebook-operations/retrieve-documents-from-onenote-notebook/
@@ -36,7 +36,7 @@ using System.Linq;
 using System.Text;
 ```
 
-## ดึงเอกสารจากสมุดบันทึก OneNote ใน Aspose Note .NET
+## ดึงเอกสารจาก OneNote Notebook ใน Aspose Note .NET
 
 ตอนนี้ เรามาแจกแจงขั้นตอนการดึงเอกสารจากสมุดบันทึก OneNote โดยใช้ Aspose.Note สำหรับ .NET ออกเป็นหลายขั้นตอน:
 

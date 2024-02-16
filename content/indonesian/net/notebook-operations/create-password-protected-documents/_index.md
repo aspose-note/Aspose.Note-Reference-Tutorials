@@ -53,7 +53,7 @@ document.Save(dataDir + "CreatingPasswordProtectedDoc_out.one", new OneSaveOptio
 
 ## Kesimpulan
 
-Kesimpulannya, mengamankan dokumen Anda dengan kata sandi menggunakan Aspose.Note untuk .NET adalah proses yang mudah. Dengan mengikuti langkah-langkah yang diuraikan dalam tutorial ini, Anda dapat memastikan kerahasiaan informasi sensitif Anda. Menerapkan enkripsi dokumen menambah lapisan perlindungan ekstra, meningkatkan keamanan data Anda secara keseluruhan.
+Kesimpulannya, mengamankan dokumen Anda dengan kata sandi menggunakan Aspose.Note untuk .NET adalah proses yang mudah. Dengan mengikuti langkah-langkah yang diuraikan dalam tutorial ini, Anda dapat memastikan kerahasiaan informasi sensitif Anda. Menerapkan enkripsi dokumen menambahkan lapisan perlindungan ekstra, sehingga meningkatkan keamanan data Anda secara keseluruhan.
 
 ## FAQ
 

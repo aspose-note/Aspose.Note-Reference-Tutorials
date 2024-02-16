@@ -9,14 +9,14 @@ url: /hu/net/note-manipulation/roll-back-document-revisions/
 ---
 ## Bevezetés
 
-dokumentumkezelés és -szerkesztés világában kulcsfontosságú a változások nyomon követésének és a korábbi verziók zökkenőmentes visszaállításának képessége. Az Aspose.Note for .NET hatékony eszközöket kínál a revíziók hatékony kezeléséhez, biztosítva, hogy szükség esetén visszaállítsa a módosításokat. Ebben az oktatóanyagban lépésről lépésre elmélyülünk az Aspose.Note dokumentumok változatainak visszagörgetési folyamatában.
+A dokumentumkezelés és -szerkesztés világában kulcsfontosságú a változások nyomon követésének és a korábbi verziók zökkenőmentes visszaállításának képessége. Az Aspose.Note for .NET hatékony eszközöket kínál a revíziók hatékony kezeléséhez, biztosítva, hogy szükség esetén visszaállítsa a módosításokat. Ebben az oktatóanyagban lépésről lépésre elmélyülünk az Aspose.Note dokumentumok változatainak visszagörgetési folyamatában.
 
 ## Előfeltételek
 
 Mielőtt belevágna ebbe az oktatóanyagba, győződjön meg arról, hogy rendelkezik a következő előfeltételekkel:
 
 1. A C# alapvető ismerete: A C# programozási nyelv ismerete szükséges a kódpéldák követéséhez.
-2.  Aspose.Note for .NET Library: Telepítse az Aspose.Note for .NET könyvtárat a fejlesztői környezetébe. Letöltheti innen[itt](https://releases.aspose.com/note/net/).
+2. Aspose.Note for .NET Library: Telepítse az Aspose.Note for .NET könyvtárat a fejlesztői környezetébe. Letöltheti innen[itt](https://releases.aspose.com/note/net/).
 3. Integrált fejlesztői környezet (IDE): A rendszeren telepítve legyen egy IDE, például a Visual Studio.
 
 ## Névterek importálása

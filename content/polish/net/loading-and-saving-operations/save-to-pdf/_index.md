@@ -9,7 +9,7 @@ url: /pl/net/loading-and-saving-operations/save-to-pdf/
 ---
 ## Wstęp
 
-W tym samouczku omówimy, jak zapisywać dokumenty w formacie PDF za pomocą Aspose.Note dla .NET. Aspose.Note to potężna biblioteka, która umożliwia programistom programową pracę z plikami Microsoft OneNote. Omówimy wymagania wstępne, zaimportujemy przestrzenie nazw i udostępnimy przewodniki krok po kroku dotyczące zapisywania dokumentów w formacie PDF w różnych układach stron.
+tym samouczku omówimy, jak zapisywać dokumenty w formacie PDF za pomocą Aspose.Note dla .NET. Aspose.Note to potężna biblioteka, która umożliwia programistom programową pracę z plikami Microsoft OneNote. Omówimy wymagania wstępne, zaimportujemy przestrzenie nazw i udostępnimy przewodniki krok po kroku dotyczące zapisywania dokumentów w formacie PDF w różnych układach stron.
 
 ## Warunki wstępne
 
@@ -46,7 +46,7 @@ public static void SaveToPdfUsingLetterPageSettings()
 
     var dst = Path.Combine(dataDir, "SaveToPdfUsingLetterPageSettings.pdf");
 
-    //Zapisz dokument.
+    // Zapisz dokument.
     oneFile.Save(dst, new PdfSaveOptions() { PageSettings = PageSettings.Letter });
 
     Console.WriteLine("\nOneNote document saved successfully.\nFile saved at " + dst);
@@ -72,7 +72,7 @@ public static void SaveToPdfUsingA4PageSettingsWithoutHeightLimit()
 
     var dst = Path.Combine(dataDir, "SaveToPdfUsingA4PageSettingsWithoutHeightLimit.pdf");
 
-    //Zapisz dokument.
+    // Zapisz dokument.
     oneFile.Save(dst, new PdfSaveOptions() { PageSettings = PageSettings.A4NoHeightLimit });
 
     Console.WriteLine("\nOneNote document saved successfully.\nFile saved at " + dst);

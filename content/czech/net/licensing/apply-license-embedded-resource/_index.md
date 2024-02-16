@@ -17,7 +17,7 @@ Než začnete, ujistěte se, že máte splněny následující předpoklady:
 
 ### 1. Visual Studio nainstalováno
 
- Ujistěte se, že máte v systému nainstalované Visual Studio. Můžete si jej stáhnout z[tady](https://visualstudio.microsoft.com/).
+Ujistěte se, že máte v systému nainstalované Visual Studio. Můžete si jej stáhnout z[tady](https://visualstudio.microsoft.com/).
 
 ### 2. Aspose.Note for .NET Installed
 
@@ -27,7 +27,7 @@ Než začnete, ujistěte se, že máte splněny následující předpoklady:
 
  Získejte platný licenční soubor Aspose.Note. Pokud žádnou nemáte, můžete získat dočasnou licenci od[tady](https://purchase.aspose.com/temporary-license/).
 
-## Importovat jmenné prostory
+## Import jmenných prostorů
 
 Chcete-li začít, importujte potřebné jmenné prostory do svého projektu .NET. To vám umožní přístup ke třídám a metodám poskytovaným rozhraním Aspose.Note API.
 

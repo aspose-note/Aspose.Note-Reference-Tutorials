@@ -9,7 +9,7 @@ url: /de/net/images/insert-image-using-image-stream/
 ---
 ## Einführung
 
-In diesem Tutorial erfahren Sie, wie Sie mithilfe von Bildstreams in .NET Bilder in ein Aspose.Note-Dokument einfügen. Aspose.Note ist eine leistungsstarke API, die es Entwicklern ermöglicht, programmgesteuert mit Microsoft OneNote-Dateien zu arbeiten. Indem Sie die in diesem Leitfaden beschriebenen Schritte befolgen, erfahren Sie, wie Sie Bilder nahtlos in Ihre Note-Dokumente integrieren und so deren visuelle Attraktivität und allgemeine Funktionalität verbessern.
+In diesem Tutorial erfahren Sie, wie Sie mithilfe von Bildstreams in .NET Bilder in ein Aspose.Note-Dokument einfügen. Aspose.Note ist eine leistungsstarke API, die es Entwicklern ermöglicht, programmgesteuert mit Microsoft OneNote-Dateien zu arbeiten. Indem Sie die in dieser Anleitung beschriebenen Schritte befolgen, erfahren Sie, wie Sie Bilder nahtlos in Ihre Note-Dokumente integrieren und so deren visuelle Attraktivität und Gesamtfunktionalität verbessern.
 
 ## Voraussetzungen
 

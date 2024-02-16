@@ -30,7 +30,7 @@ string dataDir = "Your Document Directory";
 // Załaduj dokument do Aspose.Note.
 Document oneFile = new Document(dataDir + "Aspose.one");
 ```
-W tym kroku konfigurujesz ścieżkę do katalogu dokumentów i ładujesz dokument OneNote za pomocą Aspose.Note.
+tym kroku konfigurujesz ścieżkę do katalogu dokumentów i ładujesz dokument OneNote za pomocą Aspose.Note.
 ## Krok 2: Pobierz węzły strony
 ```csharp
 // Pobierz listę węzłów strony

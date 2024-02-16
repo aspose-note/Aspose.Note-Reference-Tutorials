@@ -138,7 +138,7 @@ A2：是的，您可以使用 Aspose.Note for .NET 以程式設計方式編輯�
 
 ### Q3：Aspose.Note for .NET 商業使用需要授權嗎？
 
- A3：是的，您需要取得 Aspose.Note for .NET 的商業使用授權。您可以從以下機構獲得許可證[購買頁面](https://purchase.aspose.com/buy).
+A3：是的，您需要取得 Aspose.Note for .NET 的商業使用授權。您可以從以下機構獲得許可證[購買頁面](https://purchase.aspose.com/buy).
 
 ### 問題 4：Aspose.Note for .NET 是否有免費試用版？
 

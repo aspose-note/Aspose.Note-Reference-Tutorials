@@ -142,8 +142,8 @@ Console.WriteLine("\nTable with locked columns created successfully.\nFile saved
 
 ### س4: هل يتوفر الدعم الفني لـ Aspose.Note لـ .NET؟
 
- ج4: نعم، يمكنك الوصول إلى الدعم الفني من خلال[منتدى Aspose.Note](https://forum.aspose.com/c/note/28) حيث يتوفر الخبراء لمساعدتك في أي أسئلة أو مشكلات قد تواجهها.
+ج4: نعم، يمكنك الوصول إلى الدعم الفني من خلال[منتدى Aspose.Note](https://forum.aspose.com/c/note/28) حيث يتوفر الخبراء لمساعدتك في أي أسئلة أو مشكلات قد تواجهها.
 
 ### س5: هل يمكنني تجربة Aspose.Note لـ .NET قبل الشراء؟
 
- ج5: نعم، يمكنك تنزيل نسخة تجريبية مجانية من Aspose.Note لـ .NET من[هنا](https://releases.aspose.com/)لتقييم مميزاته ومدى توافقه مع متطلباتك.
+ ج5: نعم، يمكنك تنزيل نسخة تجريبية مجانية من Aspose.Note لـ .NET من[هنا](https://releases.aspose.com/) لتقييم مميزاته ومدى توافقه مع متطلباتك.

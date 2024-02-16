@@ -15,7 +15,7 @@ In questo tutorial impareremo come aggiungere nodi figlio in Aspose Note .NET. L
 
 Prima di iniziare, assicurati di avere quanto segue:
 
-1. Aspose.Note per .NET: assicurati di avere Aspose.Note per .NET installato nel tuo ambiente di sviluppo. Puoi scaricarlo da[sito web](https://releases.aspose.com/note/net/).
+1.  Aspose.Note per .NET: assicurati di avere Aspose.Note per .NET installato nel tuo ambiente di sviluppo. Puoi scaricarlo da[sito web](https://releases.aspose.com/note/net/).
 
 2. Ambiente di sviluppo: configura un ambiente di sviluppo .NET, come Visual Studio.
 

@@ -99,7 +99,7 @@ Seguendo questi passaggi, hai impostato correttamente il colore di sfondo della 
 
 ## Conclusione
 
-In conclusione, Aspose.Note per .NET fornisce un modo comodo ed efficiente per manipolare le proprietà della tabella, come l'impostazione dei colori di sfondo delle celle. Con la sua API intuitiva e la documentazione completa, puoi facilmente migliorare la presentazione visiva dei tuoi documenti.
+In conclusione, Aspose.Note per .NET fornisce un modo conveniente ed efficiente per manipolare le proprietà della tabella, come l'impostazione dei colori di sfondo delle celle. Con la sua API intuitiva e la documentazione completa, puoi facilmente migliorare la presentazione visiva dei tuoi documenti.
 
 ## Domande frequenti
 

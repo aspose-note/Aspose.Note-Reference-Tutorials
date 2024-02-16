@@ -47,7 +47,7 @@ Ora suddividiamo il processo di creazione di un documento con un titolo di pagin
 ## Passaggio 1: creare un oggetto documento
 
 ```csharp
-// Crea un oggetto della classe Document
+//Crea un oggetto della classe Document
 Document doc = new Aspose.Note.Document();
 ```
 

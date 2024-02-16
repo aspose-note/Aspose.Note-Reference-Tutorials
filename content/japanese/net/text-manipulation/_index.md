@@ -85,7 +85,7 @@ Aspose.Note for .NET を使用して OneNote ドキュメントを変換しま�
 ### [Aspose.Note のテキストに番号付けを適用する](./apply-numbering-on-text/)
 この包括的なチュートリアルで、Aspose.Note for .NET でテキストの番号付けを適用する方法を学びましょう。ドキュメントの書式設定を簡単に強化できます。
 ### [Aspose.Note でページ タイトルのスタイルを変更する](./change-page-title-style/)
-Aspose.Note を使用して .NET ドキュメントを変換しましょう!ページタイトルのスタイルを簡単に変更する方法を学びましょう。いくつかの簡単な手順で美しさを高めます。
+Aspose.Note を使用して .NET ドキュメントを変換します。ページタイトルのスタイルを簡単に変更する方法を学びましょう。いくつかの簡単な手順で美しさを高めます。
 ### [Aspose.Note でテキスト スタイルを変更する](./change-text-style/)
 Aspose.Note for .NET を使用してドキュメントのスタイルを向上させます。このステップバイステップのガイドで、テキスト スタイルを簡単に変更する方法を学びましょう。無料でお試しください!
 ### [Aspose.Note で MS スタイルのタイトルを作成する](./create-title-ms-style/)

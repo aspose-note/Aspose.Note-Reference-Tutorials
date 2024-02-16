@@ -79,7 +79,7 @@ A2: Aspose.Note unterstützt den Ladeverlauf für die Dateiformate .one und .one
 
 ### F3: Gibt es eine kostenlose Testversion für Aspose.Note für .NET?
 
- A3: Ja, Sie können eine kostenlose Testversion von Aspose.Note für .NET herunterladen unter[Hier](https://releases.aspose.com/).
+A3: Ja, Sie können eine kostenlose Testversion von Aspose.Note für .NET herunterladen unter[Hier](https://releases.aspose.com/).
 
 ### F4: Wie kann ich eine temporäre Lizenz für Aspose.Note für .NET erhalten?
 

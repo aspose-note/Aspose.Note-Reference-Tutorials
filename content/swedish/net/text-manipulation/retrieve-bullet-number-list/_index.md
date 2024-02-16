@@ -8,7 +8,7 @@ weight: 23
 url: /sv/net/text-manipulation/retrieve-bullet-number-list/
 ---
 ## Introduktion
-Välkommen till Aspose.Note-världen för .NET, ett robust och mångsidigt bibliotek som ger utvecklare möjlighet att hantera OneNote-dokumentmanipulation utan ansträngning. I den här handledningen kommer vi att fördjupa oss i processen för att hämta punktlistor eller nummerlistor med Aspose.Note för .NET. Oavsett om du är en erfaren utvecklare eller en kodningsentusiast, kommer den här guiden att utrusta dig med kunskapen för att navigera genom krångligheterna med att arbeta med listor i Aspose.Note.
+Välkommen till Aspose.Note för .NET-världen, ett robust och mångsidigt bibliotek som gör det möjligt för utvecklare att hantera OneNote-dokumentmanipulation utan ansträngning. I den här handledningen kommer vi att fördjupa oss i processen för att hämta punktlistor eller nummerlistor med Aspose.Note för .NET. Oavsett om du är en erfaren utvecklare eller en kodningsentusiast, kommer den här guiden att utrusta dig med kunskapen för att navigera genom krångligheterna med att arbeta med listor i Aspose.Note.
 ## Förutsättningar
 Innan vi ger oss ut på denna kodningsresa, se till att du har följande förutsättningar på plats:
 -  Aspose.Note för .NET: Se till att du har Aspose.Note-biblioteket installerat. Om inte kan du ladda ner den från[Aspose.Note för .NET-dokumentation](https://reference.aspose.com/note/net/).
@@ -84,6 +84,6 @@ Ja, Aspose.Note stöder ett brett utbud av OneNote-format, vilket säkerställer
 ### Hur kan jag få en tillfällig licens för Aspose.Note?
  Besök[den här länken](https://purchase.aspose.com/temporary-license/) för att få en tillfällig licens för utvärderingsändamål.
 ### Vilka supportalternativ finns tillgängliga för Aspose.Note-användare?
- Du kan utforska och söka hjälp i[Aspose.Note forum](https://forum.aspose.com/c/note/28) för alla frågor eller problem du kan stöta på.
+Du kan utforska och söka hjälp i[Aspose.Note forum](https://forum.aspose.com/c/note/28) för alla frågor eller problem du kan stöta på.
 ### Finns det en gratis testversion av Aspose.Note för .NET?
  Ja, du kan komma åt den kostnadsfria testversionen av Aspose.Note för .NET[här](https://releases.aspose.com/).

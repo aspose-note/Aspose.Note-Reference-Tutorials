@@ -13,7 +13,7 @@ Ebből az oktatóanyagból megtudjuk, hogyan mentheti el a dokumentumokat meghat
 
 ## Előfeltételek
 
-Mielőtt elkezdené, győződjön meg arról, hogy rendelkezik az alábbiakkal:
+Mielőtt elkezdené, győződjön meg arról, hogy rendelkezik a következőkkel:
 
 1.  Aspose.Note for .NET: Győződjön meg arról, hogy telepítette az Aspose.Note for .NET-et. Letöltheti innen[itt](https://releases.aspose.com/note/net/).
 

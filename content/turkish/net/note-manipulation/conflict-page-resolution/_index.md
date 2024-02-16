@@ -77,7 +77,7 @@ doc.Save(dataDir + "ConflictPageManipulation_out.one", SaveFormat.One);
 
 ## Çözüm
 
-Aspose.Note belgelerindeki çakışmaları çözmek, belge bütünlüğünü ve işbirliği verimliliğini korumak için zorunludur. Bu eğitimde özetlenen adımları takip ederek Aspose.Note belgelerinizdeki çakışmaları sorunsuz bir şekilde tanımlayıp çözebilir, böylece projenin sorunsuz ilerlemesini sağlayabilirsiniz.
+Aspose.Note belgelerindeki çakışmaları çözmek, belge bütünlüğünü ve işbirliği verimliliğini korumak için zorunludur. Bu eğitimde özetlenen adımları takip ederek Aspose.Note belgelerinizdeki çakışmaları sorunsuz bir şekilde tanımlayıp çözebilir, projenin sorunsuz ilerlemesini sağlayabilirsiniz.
 
 ## SSS'ler
 

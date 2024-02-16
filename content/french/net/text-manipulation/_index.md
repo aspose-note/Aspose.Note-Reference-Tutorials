@@ -70,7 +70,7 @@ Explorez les diverses options de formatage disponibles dans Aspose.Note pour .NE
 
 ## Définir le style de paragraphe par défaut dans Aspose.Note
 
-Découvrez la puissance d'Aspose.Note pour .NET en définissant[Styles de paragraphe par défaut](./set-default-paragraph-style/) sans effort. Élevez vos compétences en manipulation de documents avec notre guide convivial.
+Découvrez la puissance d'Aspose.Note pour .NET en définissant[Styles de paragraphe par défaut](./set-default-paragraph-style/) sans effort. Améliorez vos compétences en manipulation de documents grâce à notre guide convivial.
 
 ## Définir la langue de vérification linguistique pour le texte dans Aspose.Note
 

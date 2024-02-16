@@ -68,7 +68,7 @@ public static void SimpleLoadNotebook()
 ```
 
 ### Stap 2: Controleer of het document gecodeerd is en laad:
-   - Controleer of het OneNote-document is gecodeerd door het bestand`Document.IsEncrypted` methode, waarbij de bestandsnaam wordt doorgegeven.
+   -  Controleer of het OneNote-document is gecodeerd door het bestand`Document.IsEncrypted` methode, waarbij de bestandsnaam wordt doorgegeven.
    - Indien niet gecodeerd, ga dan verder met de documentverwerking.
    - Indien gecodeerd, vraagt u de gebruiker een wachtwoord op te geven voor decodering.
 
@@ -94,7 +94,7 @@ public static void Document_CheckIfEncryptedAndLoad()
 ### Stap 3: Controleer of het document is gecodeerd met een wachtwoord en laad:
    - Controleer net als bij de vorige stap of het document is gecodeerd met een specifiek wachtwoord.
    - Als het is gecodeerd en het juiste wachtwoord is opgegeven, gaat u verder met de documentverwerking.
-   - Als het gecodeerd is maar er een onjuist wachtwoord is opgegeven, vraagt u de gebruiker naar het ongeldige wachtwoord.
+   - Als het gecodeerd is maar er een onjuist wachtwoord is opgegeven, vraagt u de gebruiker om het ongeldige wachtwoord.
 
 ```csharp
 public static void Document_CheckIfEncryptedByPasswordAndLoad()
@@ -124,7 +124,7 @@ public static void Document_CheckIfEncryptedByPasswordAndLoad()
 
 ### Stap 4: Niet-ondersteunde OneNote 2007-indeling verwerken:
    - Probeer een OneNote-document in de 2007-indeling te laden.
-   -  Als het formaat niet wordt ondersteund, download dan het`UnsupportedFileFormatException` en ga er op de juiste manier mee om, waarbij u de gebruiker informeert over het niet-ondersteunde formaat.
+   -  Als het formaat niet wordt ondersteund, download dan het`UnsupportedFileFormatException`en ga er op de juiste manier mee om, waarbij u de gebruiker informeert over het niet-ondersteunde formaat.
 
 ```csharp
 public static void Document_OneNote2007_Is_NotSupported()

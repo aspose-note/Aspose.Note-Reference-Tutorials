@@ -68,7 +68,7 @@ public static void SimpleLoadNotebook()
 ```
 
 ### Schritt 2: Überprüfen Sie, ob das Dokument verschlüsselt ist, und laden Sie es:
-   - Überprüfen Sie, ob das OneNote-Dokument verschlüsselt ist, indem Sie aufrufen`Document.IsEncrypted` -Methode und übergibt den Dateinamen.
+   -  Überprüfen Sie, ob das OneNote-Dokument verschlüsselt ist, indem Sie aufrufen`Document.IsEncrypted` -Methode und übergibt den Dateinamen.
    - Wenn nicht verschlüsselt, fahren Sie mit der Dokumentenverarbeitung fort.
    - Wenn es verschlüsselt ist, fordern Sie den Benutzer auf, ein Passwort für die Entschlüsselung anzugeben.
 
@@ -124,7 +124,7 @@ public static void Document_CheckIfEncryptedByPasswordAndLoad()
 
 ### Schritt 4: Umgang mit nicht unterstütztem OneNote 2007-Format:
    - Versuchen Sie, ein OneNote-Dokument im 2007-Format zu laden.
-   -  Wenn das Format nicht unterstützt wird, fangen Sie das ab`UnsupportedFileFormatException` und gehen Sie angemessen damit um, indem Sie den Benutzer über das nicht unterstützte Format informieren.
+   -  Wenn das Format nicht unterstützt wird, fangen Sie das ab`UnsupportedFileFormatException`und gehen Sie angemessen damit um, indem Sie den Benutzer über das nicht unterstützte Format informieren.
 
 ```csharp
 public static void Document_OneNote2007_Is_NotSupported()

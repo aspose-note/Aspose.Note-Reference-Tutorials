@@ -46,6 +46,6 @@ Als u eenmaal bekend bent met de afdrukopties, kunt u zich verdiepen in het aanp
 Concluderend: het beheersen van het afdrukken en aanpassen van documenten met Aspose.Note voor .NET, vooral voor OneNote, is een waardevolle vaardigheid voor elke .NET-ontwikkelaar. Volg onze stapsgewijze tutorials en ontgrendel het volledige potentieel van deze krachtige tool in uw toepassingen. Veel printplezier!
 ## Handleidingen voor het afdrukken van documenten
 ### [Documenten afdrukken met Aspose.Note voor .NET](./print-documents/)
-Leer hoe u OneNote-documenten kunt afdrukken met Aspose.Note voor .NET. Stap-voor-stap handleiding voor naadloze integratie in uw .NET-applicaties.
+Leer hoe u OneNote-documenten kunt afdrukken met Aspose.Note voor .NET. Stapsgewijze handleiding voor naadloze integratie in uw .NET-applicaties.
 ### [Pas het afdrukken aan met Aspose.Note-afdrukopties](./customize-printing-options/)
 Leer hoe u het afdrukken van documenten kunt aanpassen met Aspose.Note voor .NET. Verfijn de instellingen voor optimale afdrukken.

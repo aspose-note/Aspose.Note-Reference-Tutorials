@@ -15,7 +15,7 @@ url: /ru/net/tag-management/reporting-tags/
 
 Прежде чем приступить к изучению этого руководства, убедитесь, что у вас есть следующие предварительные условия:
 
-1. Установка Aspose.Note for .NET: Загрузите и установите библиотеку Aspose.Note for .NET из[ссылка для скачивания](https://releases.aspose.com/note/net/).
+1.  Установка Aspose.Note for .NET: Загрузите и установите библиотеку Aspose.Note for .NET из[ссылка для скачивания](https://releases.aspose.com/note/net/).
    
 2. Знакомство с программированием на C#. Для понимания и реализации предоставленных примеров необходимы базовые знания языка программирования C#.
 
@@ -120,7 +120,7 @@ public static void GenerateReport_ItemsRelatedToSpecifiedProject()
 
 ## Вопрос 2. Существует ли бесплатная пробная версия Aspose.Note для .NET?
 
- О2: Да, вы можете получить доступ к бесплатной пробной версии Aspose.Note для .NET на сайте[Веб-сайт](https://releases.aspose.com/).
+О2: Да, вы можете получить доступ к бесплатной пробной версии Aspose.Note для .NET на сайте[Веб-сайт](https://releases.aspose.com/).
 
 ## Вопрос 3: Как я могу получить временную лицензию на Aspose.Note для .NET?
 

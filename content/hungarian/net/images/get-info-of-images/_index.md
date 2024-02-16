@@ -54,7 +54,7 @@ IList<Aspose.Note.Image> images = oneFile.GetChildNodes<Aspose.Note.Image>();
 
 Ez a kódrészlet lekéri a betöltött OneNote-dokumentum összes képcsomópontját.
 
-## 3. lépés: Iterálás képeken keresztül
+## 3. lépés: Iteráció képeken keresztül
 
 Most ismételjük át az egyes képcsomópontokat a metaadatok kinyeréséhez:
 
@@ -97,4 +97,4 @@ Az Aspose.Note for .NET segítségével a képadatok kinyerése a OneNote-dokume
 
 ### 5. kérdés: Hol találhatok további támogatást vagy segítséget az Aspose.Note-hoz?
 
- 5. válasz: Ha kérdése van, vagy segítségre van szüksége, keresse fel az Aspose.Note fórumot[itt](https://forum.aspose.com/c/note/28).
+5. válasz: Ha kérdése van, vagy segítségre van szüksége, keresse fel az Aspose.Note fórumot[itt](https://forum.aspose.com/c/note/28).

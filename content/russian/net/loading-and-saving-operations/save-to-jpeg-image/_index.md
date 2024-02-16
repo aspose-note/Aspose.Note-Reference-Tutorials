@@ -15,7 +15,7 @@ url: /ru/net/loading-and-saving-operations/save-to-jpeg-image/
 
 Прежде чем продолжить, убедитесь, что у вас есть следующее:
 - Базовое понимание C# и .NET framework.
--  Aspose.Note для .NET установлен. Если нет, вы можете скачать его с[здесь](https://releases.aspose.com/note/net/).
+- Aspose.Note для .NET установлен. Если нет, вы можете скачать его с[здесь](https://releases.aspose.com/note/net/).
 - Интегрированная среда разработки (IDE), например Visual Studio.
 - Примеры файлов документов для работы.
 
@@ -54,7 +54,7 @@ dataDir = dataDir + "SaveToJpegImageUsingSaveFormat_out.jpg";
 Сохраните загруженный документ в формате JPEG:
 
 ```csharp
-//Сохраните документ.
+// Сохраните документ.
 oneFile.Save(dataDir, SaveFormat.Jpeg);
 ```
 
@@ -82,4 +82,4 @@ oneFile.Save(dataDir, SaveFormat.Jpeg);
 
 ### В5: Как я могу получить помощь, если у меня возникнут какие-либо проблемы?
 
-О5: Вы можете обратиться за помощью на форум сообщества Aspose.[здесь](https://forum.aspose.com/c/note/28)или обратитесь в их службу поддержки для индивидуальной помощи.
+ О5: Вы можете обратиться за помощью на форум сообщества Aspose.[здесь](https://forum.aspose.com/c/note/28)или обратитесь в их службу поддержки для индивидуальной помощи.

@@ -11,7 +11,7 @@ url: /de/net/text-manipulation/set-default-paragraph-style/
 Im Bereich der .NET-Entwicklung sticht Aspose.Note als leistungsstarkes Tool für die Arbeit mit OneNote-Dateien hervor. Eine der wesentlichen Funktionen, die es bietet, ist die Möglichkeit, Standardabsatzstile festzulegen, was Entwicklern die Flexibilität gibt, das Erscheinungsbild von Text in ihren Dokumenten zu steuern. In diesem Tutorial befassen wir uns mit dem Prozess des Festlegens von Standardabsatzstilen mithilfe von Aspose.Note für .NET. Folgen Sie uns, während wir jeden Schritt aufschlüsseln, um Ihnen dabei zu helfen, diesen entscheidenden Aspekt der Dokumentenmanipulation zu meistern.
 ## Voraussetzungen
 Bevor wir uns mit dem Tutorial befassen, stellen Sie sicher, dass die folgenden Voraussetzungen erfüllt sind:
--  Aspose.Note für .NET: Stellen Sie sicher, dass Sie die Aspose.Note-Bibliothek für .NET installiert haben. Sie können es hier herunterladen[Aspose.Note .NET-Dokumentation](https://reference.aspose.com/note/net/).
+- Aspose.Note für .NET: Stellen Sie sicher, dass Sie die Aspose.Note-Bibliothek für .NET installiert haben. Sie können es hier herunterladen[Aspose.Note .NET-Dokumentation](https://reference.aspose.com/note/net/).
 - Integrierte Entwicklungsumgebung (IDE): Installieren Sie auf Ihrem Computer eine funktionierende IDE für die .NET-Entwicklung, z. B. Visual Studio.
 Nachdem Sie nun über die erforderlichen Werkzeuge verfügen, fahren wir mit den nächsten Schritten fort.
 ## Namespaces importieren
@@ -79,4 +79,4 @@ Ja, Sie können innerhalb desselben Dokuments mehrere Gliederungen oder Seiten m
 ### Ist Aspose.Note mit den neuesten .NET-Frameworks kompatibel?
 Ja, Aspose.Note wird regelmäßig aktualisiert, um die Kompatibilität mit den neuesten .NET-Frameworks sicherzustellen.
 ### Sind temporäre Lizenzen für Aspose.Note verfügbar?
-Ja, Sie können eine temporäre Lizenz für Aspose.Note erhalten von[Hier](https://purchase.aspose.com/temporary-license/).
+ Ja, Sie können eine temporäre Lizenz für Aspose.Note erhalten von[Hier](https://purchase.aspose.com/temporary-license/).

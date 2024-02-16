@@ -43,7 +43,7 @@ Effizienz trifft auf Dokumentklonen in OneNote! Beherrschen Sie die Kunst des ef
 Verleihen Sie Ihren OneNote-Dokumenten einen Hauch von Personalisierung! Erfahren Sie, wie Sie die Hintergrundfarbe von Seiten in Aspose.Note-Dokumenten mit C# festlegen. Unser Tutorial bietet eine Schritt-für-Schritt-Anleitung für die einfache Umsetzung. Werden Sie kreativ mit dem[Tutorial zur Hintergrundfarbe](./set-page-background-color/)Jetzt!
 
 ## Arbeiten mit Seitenrevisionen – Aspose.Note-Tipps
- Entdecken Sie die Kunst, Microsoft OneNote-Seitenrevisionen mit Aspose.Note zu verwalten. Unsere Schritt-für-Schritt-Anleitung sorgt für eine nahtlose Integration und Versionskontrolle in Ihren .NET-Anwendungen, speziell zugeschnitten auf OneNote. Entdecke die[Tipps zur Seitenrevision](./working-with-page-revisions/) Werden Sie noch heute zum Meister der Versionierung!
+ Entdecken Sie die Kunst, Microsoft OneNote-Seitenrevisionen mit Aspose.Note zu verwalten. Unsere Schritt-für-Schritt-Anleitung sorgt für eine nahtlose Integration und Versionskontrolle in Ihren .NET-Anwendungen, speziell zugeschnitten auf OneNote. Entdecke die[Tipps zur Seitenrevision](./working-with-page-revisions/) Werden Sie noch heute ein Meister der Versionierung!
 
 Begeben Sie sich jetzt auf Ihre Aspose.Note-Reise und revolutionieren Sie Ihr Dokumentverarbeitungserlebnis mit unseren fachmännisch erstellten, auf OneNote ausgerichteten Tutorials!
 ## Tutorials zur Notenmanipulation

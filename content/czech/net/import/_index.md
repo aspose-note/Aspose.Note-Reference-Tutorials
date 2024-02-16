@@ -26,7 +26,7 @@ Vítejte v bráně poznání! V tomto tutoriálu vás provedeme procesem importu
 
 ### Možnosti sloučení
 
-Nyní si promluvme o koření – možnostech sloučení. Aspose.Note pro .NET nabízí řadu možností, jak přizpůsobit proces slučování vašim potřebám. Zde je malý náhled do říše divů možností sloučení:
+Nyní si promluvme o koření – možnostech sloučení. Aspose.Note for .NET nabízí řadu možností, jak přizpůsobit proces slučování vašim potřebám. Zde je malý náhled do říše divů možností sloučení:
 
 1. Připojování dokumentů PDF: Bez námahy spojujte soubory PDF jejich připojováním jeden po druhém. Dosáhněte soudržného dokumentu s plynulým tokem.
 
@@ -42,7 +42,7 @@ Věříme, že vás budeme držet za ruku po celou dobu cesty. Naše podrobné p
 
 Možná se divíte: "Proč zvolit Aspose.Note?" Jednoduché – je to změna hry. S Aspose.Note pro .NET nejen importujete soubory PDF; uvolňujete sílu schopností manipulace s dokumenty.
 
- Závěrem lze říci, že zvládnutí umění importu dokumentů PDF do Aspose.Note for .NET otevírá dveře do světa, kde se správa dokumentů stává bezproblémovou a příjemnou zkušeností. Jste připraveni vydat se na tuto cestu? Zamiřte k našemu[Výukový program Import dokumentů PDF](./import-pdf-documents/)Nyní!
+ Závěrem lze říci, že zvládnutí umění importu dokumentů PDF do Aspose.Note for .NET otevírá dveře do světa, kde se správa dokumentů stává bezproblémovou a příjemnou zkušeností. Jste připraveni vydat se na tuto cestu? Vydejte se k našemu[Výukový program Import dokumentů PDF](./import-pdf-documents/)Nyní!
 
 Pamatujte, že v oblasti Aspose nejsou vaše dokumenty jen soubory; jsou to příběhy, které čekají na prozkoumání a vytvoření. Šťastné učení!
 ## Import výukových programů

@@ -43,7 +43,7 @@ public static void SaveToTiffUsingJpegCompression()
     // Cargue el documento en Aspose.Note.
     Document oneFile = new Document("Path_to_your_OneNote_document");
 
-    // Establezca la ruta de destino para la imagen TIFF.
+    //Establezca la ruta de destino para la imagen TIFF.
     var dst = "Destination_path_for_TIFF_image";
 
     // Guarde el documento como una imagen TIFF con compresión JPEG.
@@ -67,7 +67,7 @@ public static void SaveToTiffUsingPackBitsCompression()
     // Cargue el documento en Aspose.Note.
     Document oneFile = new Document("Path_to_your_OneNote_document");
 
-    // Establezca la ruta de destino para la imagen TIFF.
+    //Establezca la ruta de destino para la imagen TIFF.
     var dst = "Destination_path_for_TIFF_image";
 
     // Guarde el documento como una imagen TIFF con compresión PackBits.
@@ -90,7 +90,7 @@ public static void SaveToTiffUsingCcitt3Compression()
     // Cargue el documento en Aspose.Note.
     Document oneFile = new Document("Path_to_your_OneNote_document");
 
-    // Establezca la ruta de destino para la imagen TIFF.
+    //Establezca la ruta de destino para la imagen TIFF.
     var dst = "Destination_path_for_TIFF_image";
 
     // Guarde el documento como una imagen TIFF con compresión CCITT Grupo 3.
@@ -130,4 +130,4 @@ R4: Sí, puede automatizar el proceso de conversión mediante el procesamiento p
 
 ### P5: ¿Existe una versión de prueba disponible para Aspose.Note?
 
- R5: Sí, puede obtener una prueba gratuita de Aspose.Note de[aquí](https://releases.aspose.com/).
+R5: Sí, puede obtener una prueba gratuita de Aspose.Note de[aquí](https://releases.aspose.com/).

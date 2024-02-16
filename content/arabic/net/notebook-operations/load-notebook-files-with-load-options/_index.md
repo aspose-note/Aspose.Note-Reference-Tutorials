@@ -81,7 +81,7 @@ foreach (var notebookChildNode in notebook.OfType<Document>())
 
 ### س2: هل تتوفر نسخة تجريبية مجانية من Aspose.Note لـ .NET؟
 
- ج2: نعم، يمكنك الاستفادة من النسخة التجريبية المجانية من Aspose.Note لـ .NET من[هنا](https://releases.aspose.com/).
+ج2: نعم، يمكنك الاستفادة من النسخة التجريبية المجانية من Aspose.Note لـ .NET من[هنا](https://releases.aspose.com/).
 
 ### س3: أين يمكنني العثور على وثائق Aspose.Note لـ .NET؟
 

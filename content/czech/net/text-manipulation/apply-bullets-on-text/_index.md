@@ -13,7 +13,7 @@ Vítejte v tomto podrobném návodu k použití odrážek na text pomocí Aspose
 Než se pustíme do výukového programu, ujistěte se, že máte následující předpoklady:
 - Základní znalost programování v C# a .NET.
 -  Nainstalovaná knihovna Aspose.Note pro .NET. Můžete si jej stáhnout[tady](https://releases.aspose.com/note/net/).
-## Importovat jmenné prostory
+## Import jmenných prostorů
 V kódu C# nezapomeňte zahrnout potřebné jmenné prostory:
 ```csharp
 using System;
@@ -27,10 +27,10 @@ using System.Collections.Generic;
 ```csharp
 // Cesta k adresáři dokumentů.
 string dataDir = "Your Document Directory";
-// Vytvořte objekt třídy Document
+//Vytvořte objekt třídy Document
 Aspose.Note.Document doc = new Aspose.Note.Document();
 ```
-## Krok 2: Inicializujte stránku a osnovu
+## Krok 2: Inicializujte stránku a obrys
 ```csharp
 // Inicializujte objekt třídy Page
 Aspose.Note.Page page = new Aspose.Note.Page(doc);
@@ -63,7 +63,7 @@ page.AppendChildLast(outline);
 ```
 ## Krok 7: Přidejte stránku do dokumentu
 ```csharp
-// Přidat uzel stránky
+//Přidat uzel stránky
 doc.AppendChildLast(page);
 ```
 ## Krok 8: Uložte dokument OneNotu

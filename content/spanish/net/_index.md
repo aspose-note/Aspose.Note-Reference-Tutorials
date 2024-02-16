@@ -29,7 +29,7 @@ is_root: true
 ## Excelencia en el manejo de imágenes 
 [Explorar tutoriales de imágenes](./images/)
 
-Ingrese al mundo de la manipulación de documentos de OneNote con tutoriales sobre el manejo perfecto de imágenes. Mejore su contenido visual sin esfuerzo con Aspose.Note para .NET. Explore las complejidades de la manipulación de imágenes dentro de sus documentos de OneNote.
+Ingrese al mundo de la manipulación de documentos de OneNote con tutoriales sobre el manejo fluido de imágenes. Mejore su contenido visual sin esfuerzo con Aspose.Note para .NET. Explore las complejidades de la manipulación de imágenes dentro de sus documentos de OneNote.
 
 ## Dominio de la importación de PDF 
 [Sumérgete en los tutoriales de importación](./import/)

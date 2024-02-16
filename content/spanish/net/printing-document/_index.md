@@ -25,7 +25,7 @@ Una vez integrado, exploremos el apasionante ámbito de la impresión de documen
 
 ### Paso 3: Optimización de la configuración de impresión
 
-Reconociendo que cada documento es único, personalice las opciones de impresión para satisfacer sus necesidades específicas. Desde ajustar la orientación de la página hasta configurar la calidad de impresión, nuestro tutorial lo guiará a través del ajuste de la configuración para obtener resultados de documentos óptimos y personalizados.[Leer más](./print-documents/)
+Reconociendo que cada documento es único, personalice las opciones de impresión para satisfacer sus necesidades específicas. Desde ajustar la orientación de la página hasta configurar la calidad de impresión, nuestro tutorial lo guía a través del ajuste de la configuración para obtener resultados de documentos óptimos y personalizados.[Leer más](./print-documents/)
 
 ## Personalice la impresión con las opciones de impresión de Aspose.Note
 

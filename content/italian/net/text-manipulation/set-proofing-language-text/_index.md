@@ -11,7 +11,7 @@ url: /it/net/text-manipulation/set-proofing-language-text/
 Benvenuti nel mondo di Aspose.Note per .NET! In questa guida completa, esploreremo l'affascinante processo di impostazione del linguaggio di correzione per il testo utilizzando Aspose.Note. Che tu sia uno sviluppatore esperto o che tu abbia appena iniziato con Aspose.Note, questo tutorial ti fornirà approfondimenti dettagliati e istruzioni dettagliate per migliorare le tue capacità di manipolazione del testo.
 ## Prerequisiti
 Prima di immergerci nel tutorial, assicurati di disporre dei seguenti prerequisiti:
--  Aspose.Note per .NET: assicurati di avere installata la versione più recente di Aspose.Note per .NET. Puoi scaricarlo[Qui](https://releases.aspose.com/note/net/).
+- Aspose.Note per .NET: assicurati di avere installata la versione più recente di Aspose.Note per .NET. Puoi scaricarlo[Qui](https://releases.aspose.com/note/net/).
 - Ambiente di sviluppo .NET: tieni pronto un ambiente di sviluppo .NET funzionale sul tuo computer.
 - Editor di testo o IDE: scegli il tuo editor di testo preferito o l'ambiente di sviluppo integrato (IDE) per la codifica.
 Ora iniziamo con l'impostazione della lingua di correzione per il testo in Aspose.Note!
@@ -49,7 +49,7 @@ text.Append("United States", new TextStyle() { Language = CultureInfo.GetCulture
     .Append(" Germany", new TextStyle() { Language = CultureInfo.GetCultureInfo("de-DE") })
     .Append(" China", new TextStyle() { Language = CultureInfo.GetCultureInfo("zh-CN") });
 ```
-## Passaggio 6: aggiungi testo RTF all'elemento di struttura
+## Passaggio 6: aggiungi testo RTF all'elemento di contorno
 Aggiungi il testo RTF all'elemento del contorno.
 ```csharp
 outlineElem.AppendChildLast(text);

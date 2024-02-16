@@ -11,7 +11,7 @@ url: /ko/net/images/insert-image-hyperlink/
 
 .NET용 Aspose.Note는 하이퍼링크와 함께 이미지를 삽입하는 기능을 포함하여 이미지 작업을 위한 강력한 기능 세트를 제공합니다. 이 튜토리얼에서는 Aspose.Note for .NET을 사용하여 하이퍼링크가 포함된 이미지를 삽입하는 과정을 안내합니다.
 
-## 전제 조건
+## 전제조건
 
 시작하기 전에 다음 사항이 있는지 확인하세요.
 
@@ -40,7 +40,7 @@ var page = new Page(document);
 
 ## 2단계: 하이퍼링크로 이미지 삽입
 
- 이제 하이퍼링크가 포함된 이미지를 삽입해 보겠습니다. 우리는`Image` 개체를 설정하고`HyperlinkUrl` 속성을 원하는 URL에 추가하세요.
+이제 하이퍼링크가 포함된 이미지를 삽입해 보겠습니다. 우리는`Image` 개체를 설정하고`HyperlinkUrl` 속성을 원하는 URL에 추가하세요.
 
 ```csharp
 string imagePath = "path_to_your_image.jpg";

@@ -72,7 +72,7 @@ A2: はい、画像の他に、Aspose.Note for .NET は PDF、HTML、Microsoft W
 
 ### Q3: Aspose.Note for .NET の試用版はありますか?
 
- A3: はい、以下から無料試用版をダウンロードできます。[ここ](https://releases.aspose.com/)を使用すると、購入前に機能を調べることができます。
+A3: はい、以下から無料試用版をダウンロードできます。[ここ](https://releases.aspose.com/)を使用すると、購入前に機能を調べることができます。
 
 ### Q4: Aspose.Note for .NET のサポートを受けるにはどうすればよいですか?
 

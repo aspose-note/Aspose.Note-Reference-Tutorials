@@ -54,7 +54,7 @@ IList<Table> nodes = document.GetChildNodes<Table>();
 
  Ở đây, chúng tôi truy xuất danh sách các nút bảng từ tài liệu bằng cách sử dụng`GetChildNodes<Table>()` phương pháp.
 
-## Bước 3: Trích xuất văn bản từ các hàng trong bảng
+## Bước 3: Trích xuất văn bản từ các hàng của bảng
 
 ```csharp
 foreach (Table table in nodes)

@@ -27,7 +27,7 @@ using System.Collections.Generic;
 ```csharp
 // เส้นทางไปยังไดเร็กทอรีเอกสาร
 string dataDir = "Your Document Directory";
-// สร้างวัตถุของคลาสเอกสาร
+//สร้างวัตถุของคลาสเอกสาร
 Aspose.Note.Document doc = new Aspose.Note.Document();
 ```
 ## ขั้นตอนที่ 2: เริ่มต้นเพจและโครงร่าง
@@ -63,7 +63,7 @@ page.AppendChildLast(outline);
 ```
 ## ขั้นตอนที่ 7: เพิ่มหน้าลงในเอกสาร
 ```csharp
-// เพิ่มโหนดหน้า
+//เพิ่มโหนดหน้า
 doc.AppendChildLast(page);
 ```
 ## ขั้นตอนที่ 8: บันทึกเอกสาร OneNote

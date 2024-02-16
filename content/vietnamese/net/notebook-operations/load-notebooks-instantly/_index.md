@@ -61,7 +61,7 @@ foreach (INotebookChildNode notebookChildNode in notebook.OfType<Document>())
 
 ## Phần kết luận
 
- Trong hướng dẫn này, chúng ta đã tìm hiểu cách tải ngay sổ ghi chép trong Aspose.Note cho .NET. Bằng cách thiết lập`InstantLoading` cờ trong`NotebookLoadOptions`, chúng ta có thể lặp lại một cách hiệu quả thông qua các tài liệu được tải sẵn của sổ tay, nâng cao hiệu suất và năng suất.
+Trong hướng dẫn này, chúng ta đã tìm hiểu cách tải ngay sổ ghi chép trong Aspose.Note cho .NET. Bằng cách thiết lập`InstantLoading` cờ trong`NotebookLoadOptions`, chúng ta có thể lặp lại một cách hiệu quả thông qua các tài liệu được tải sẵn của sổ tay, nâng cao hiệu suất và năng suất.
 
 ## Câu hỏi thường gặp
 

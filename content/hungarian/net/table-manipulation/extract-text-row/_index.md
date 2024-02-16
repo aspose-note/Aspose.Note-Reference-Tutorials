@@ -9,7 +9,7 @@ url: /hu/net/table-manipulation/extract-text-row/
 ---
 ## Bevezetés
 
-dokumentumfeldolgozás területén az Aspose.Note for .NET robusztus megoldás, amely lehetővé teszi a fejlesztők számára a OneNote-fájlok hatékony, programozott kezelését. Számtalan képessége közül a fejlesztők gyakori feladatai közé tartozik a szövegek kinyerése a táblázat soraiból. Ez az oktatóanyag végigvezeti Önt a táblázat soraiból a szöveg Aspose.Note for .NET segítségével történő kinyerésének folyamatán.
+A dokumentumfeldolgozás területén az Aspose.Note for .NET robusztus megoldás, amely lehetővé teszi a fejlesztők számára a OneNote-fájlok hatékony, programozott kezelését. Számtalan képessége közül a fejlesztők gyakori feladatai közé tartozik a szövegek kinyerése a táblázat soraiból. Ez az oktatóanyag végigvezeti Önt a táblázat soraiból a szöveg Aspose.Note for .NET segítségével történő kinyerésének folyamatán.
 
 ## Előfeltételek
 
@@ -45,7 +45,7 @@ Document document = new Document(dataDir + "Sample1.one");
 
  Ebben a lépésben betöltjük a cél OneNote-dokumentumot a példány egy példányába`Document` osztály által biztosított Aspose.Megjegyzés.
 
-## 2. lépés: Táblázat csomópontok lekérése
+## 2. lépés: Táblázat csomópontjainak lekérése
 
 ```csharp
 // Szerezze meg a táblázat csomópontjainak listáját

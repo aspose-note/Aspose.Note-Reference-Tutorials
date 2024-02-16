@@ -68,7 +68,7 @@ public static void SimpleLoadNotebook()
 ```
 
 ### Langkah 2: Periksa Apakah Dokumen Dienkripsi dan Muat:
-   - Periksa apakah dokumen OneNote dienkripsi dengan memanggil`Document.IsEncrypted` metode, meneruskan nama file.
+   -  Periksa apakah dokumen OneNote dienkripsi dengan memanggil`Document.IsEncrypted` metode, meneruskan nama file.
    - Jika tidak dienkripsi, lanjutkan dengan pemrosesan dokumen.
    - Jika dienkripsi, minta pengguna memberikan kata sandi untuk dekripsi.
 
@@ -124,7 +124,7 @@ public static void Document_CheckIfEncryptedByPasswordAndLoad()
 
 ### Langkah 4: Tangani Format OneNote 2007 yang Tidak Didukung:
    - Mencoba memuat dokumen OneNote dalam format 2007.
-   -  Jika formatnya tidak didukung, tangkap`UnsupportedFileFormatException` dan menanganinya dengan tepat, memberi tahu pengguna tentang format yang tidak didukung.
+   -  Jika formatnya tidak didukung, tangkap`UnsupportedFileFormatException`dan menanganinya dengan tepat, memberi tahu pengguna tentang format yang tidak didukung.
 
 ```csharp
 public static void Document_OneNote2007_Is_NotSupported()

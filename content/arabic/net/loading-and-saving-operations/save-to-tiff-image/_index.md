@@ -43,7 +43,7 @@ public static void SaveToTiffUsingJpegCompression()
     // قم بتحميل المستند إلى Aspose.Note.
     Document oneFile = new Document("Path_to_your_OneNote_document");
 
-    // قم بتعيين مسار الوجهة لصورة TIFF.
+    //قم بتعيين مسار الوجهة لصورة TIFF.
     var dst = "Destination_path_for_TIFF_image";
 
     // احفظ المستند كصورة TIFF مع ضغط JPEG.
@@ -67,7 +67,7 @@ public static void SaveToTiffUsingPackBitsCompression()
     // قم بتحميل المستند إلى Aspose.Note.
     Document oneFile = new Document("Path_to_your_OneNote_document");
 
-    // قم بتعيين مسار الوجهة لصورة TIFF.
+    //قم بتعيين مسار الوجهة لصورة TIFF.
     var dst = "Destination_path_for_TIFF_image";
 
     // احفظ المستند كصورة TIFF مع ضغط PackBits.
@@ -90,7 +90,7 @@ public static void SaveToTiffUsingCcitt3Compression()
     // قم بتحميل المستند إلى Aspose.Note.
     Document oneFile = new Document("Path_to_your_OneNote_document");
 
-    // قم بتعيين مسار الوجهة لصورة TIFF.
+    //قم بتعيين مسار الوجهة لصورة TIFF.
     var dst = "Destination_path_for_TIFF_image";
 
     // احفظ المستند كصورة TIFF باستخدام ضغط CCITT Group 3.
@@ -130,4 +130,4 @@ A1: نعم، يمكنك ضبط معلمة الجودة عند الحفظ باس�
 
 ### س5: هل هناك نسخة تجريبية متاحة لـ Aspose.Note؟
 
- ج5: نعم، يمكنك الحصول على نسخة تجريبية مجانية من Aspose.Note من[هنا](https://releases.aspose.com/).
+ج5: نعم، يمكنك الحصول على نسخة تجريبية مجانية من Aspose.Note من[هنا](https://releases.aspose.com/).

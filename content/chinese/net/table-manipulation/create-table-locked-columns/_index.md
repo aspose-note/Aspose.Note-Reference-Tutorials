@@ -142,7 +142,7 @@ A3：是的，Aspose.Note for .NET 与其他 .NET 框架无缝集成，可以轻
 
 ### Q4：Aspose.Note for .NET 是否提供技术支持？
 
- A4：是的，您可以通过以下方式获得技术支持：[Aspose.Note 论坛](https://forum.aspose.com/c/note/28)专家可以帮助您解决可能遇到的任何问题。
+A4：是的，您可以通过以下方式获得技术支持：[Aspose.Note 论坛](https://forum.aspose.com/c/note/28)专家可以帮助您解决可能遇到的任何问题。
 
 ### Q5：我可以在购买前试用 Aspose.Note for .NET 吗？
 

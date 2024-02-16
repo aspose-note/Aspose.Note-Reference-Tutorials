@@ -18,7 +18,7 @@ Než začneme, ujistěte se, že máte následující:
 - Nainstalován Aspose.Note pro .NET SDK.
 - Integrované vývojové prostředí (IDE), jako je Visual Studio.
 
-## Importovat jmenné prostory
+## Import jmenných prostorů
 
 Než budete pokračovat, importujte potřebné jmenné prostory:
 ```csharp

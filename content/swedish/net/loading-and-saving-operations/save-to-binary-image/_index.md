@@ -80,7 +80,7 @@ I den här handledningen har vi lärt oss hur man sparar ett dokument till en bi
 
 ### F1: Kan jag justera binariseringströskeln?
 
-S1: Ja, du kan anpassa binariseringströskeln enligt dina krav genom att ändra`BinarizationThreshold` egendom i koden.
+ S1: Ja, du kan anpassa binariseringströskeln enligt dina krav genom att ändra`BinarizationThreshold` egendom i koden.
 
 ### F2: Vilka andra format stöds för att spara dokument?
 
@@ -96,4 +96,4 @@ S4: Ja, du kan gå igenom flera dokument och spara dem som binära bilder med li
 
 ### F5: Var kan jag hitta fler resurser och support för Aspose.Note?
 
- A5: Du kan utforska[Aspose.Note dokumentation](https://reference.aspose.com/note/net/) och söka hjälp från[Aspose.Note forum](https://forum.aspose.com/c/note/28) för eventuella frågor eller problem.
+ A5: Du kan utforska[Aspose.Note dokumentation](https://reference.aspose.com/note/net/)och söka hjälp från[Aspose.Note forum](https://forum.aspose.com/c/note/28) för eventuella frågor eller problem.

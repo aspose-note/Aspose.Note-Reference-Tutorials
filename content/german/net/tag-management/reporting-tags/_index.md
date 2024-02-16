@@ -15,7 +15,7 @@ Im Bereich der Dokumentenverarbeitung und -verwaltung zeichnet sich Aspose.Note 
 
 Bevor Sie mit diesem Tutorial beginnen, stellen Sie sicher, dass die folgenden Voraussetzungen erfüllt sind:
 
-1. Installation von Aspose.Note für .NET: Laden Sie die Aspose.Note für .NET-Bibliothek von herunter und installieren Sie sie[Download-Link](https://releases.aspose.com/note/net/).
+1.  Installation von Aspose.Note für .NET: Laden Sie die Aspose.Note für .NET-Bibliothek von herunter und installieren Sie sie[Download-Link](https://releases.aspose.com/note/net/).
    
 2. Vertrautheit mit der C#-Programmierung: Grundkenntnisse der Programmiersprache C# sind erforderlich, um die bereitgestellten Beispiele zu verstehen und umzusetzen.
 
@@ -120,7 +120,7 @@ A1: Ja, Aspose.Note für .NET kann mit anderen .NET-kompatiblen Sprachen wie VB.
 
 ## F2: Gibt es eine kostenlose Testversion für Aspose.Note für .NET?
 
- A2: Ja, Sie können über die auf eine kostenlose Testversion von Aspose.Note für .NET zugreifen[Webseite](https://releases.aspose.com/).
+A2: Ja, Sie können über die auf eine kostenlose Testversion von Aspose.Note für .NET zugreifen[Webseite](https://releases.aspose.com/).
 
 ## F3: Wie kann ich eine temporäre Lizenz für Aspose.Note für .NET erhalten?
 

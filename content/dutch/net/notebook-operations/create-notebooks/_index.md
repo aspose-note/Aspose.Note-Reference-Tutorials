@@ -92,7 +92,7 @@ A1: Ja, Aspose.Note voor .NET is compatibel met verschillende .NET-frameworks, w
 
 ### V4: Kan ik een tijdelijke licentie kopen voor Aspose.Note voor .NET?
 
- A4: Ja, u kunt een tijdelijke licentie verkrijgen via de Aspose-website:[Tijdelijke licentie](https://purchase.aspose.com/temporary-license/).
+A4: Ja, u kunt een tijdelijke licentie verkrijgen via de Aspose-website:[Tijdelijke licentie](https://purchase.aspose.com/temporary-license/).
 
 ### V5: Waar kan ik uitgebreide documentatie vinden voor Aspose.Note voor .NET?
 

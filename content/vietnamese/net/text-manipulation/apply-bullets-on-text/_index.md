@@ -27,7 +27,7 @@ using System.Collections.Generic;
 ```csharp
 // Đường dẫn đến thư mục tài liệu.
 string dataDir = "Your Document Directory";
-// Tạo một đối tượng của lớp Tài liệu
+//Tạo một đối tượng của lớp Tài liệu
 Aspose.Note.Document doc = new Aspose.Note.Document();
 ```
 ## Bước 2: Khởi tạo trang và dàn ý
@@ -63,7 +63,7 @@ page.AppendChildLast(outline);
 ```
 ## Bước 7: Thêm trang vào tài liệu
 ```csharp
-// Thêm nút Trang
+//Thêm nút Trang
 doc.AppendChildLast(page);
 ```
 ## Bước 8: Lưu tài liệu OneNote

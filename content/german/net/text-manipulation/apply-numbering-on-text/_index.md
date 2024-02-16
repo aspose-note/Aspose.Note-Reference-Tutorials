@@ -29,7 +29,7 @@ Beginnen Sie mit der Erstellung eines neuen Dokuments und der Initialisierung de
 ```csharp
 // Der Pfad zum Dokumentenverzeichnis.
 string dataDir = "Your Document Directory";
-// Erstellen Sie ein Objekt der Document-Klasse
+//Erstellen Sie ein Objekt der Document-Klasse
 Document doc = new Document();
 // Initialisieren Sie das Page-Klassenobjekt
 Aspose.Note.Page page = new Aspose.Note.Page(doc);

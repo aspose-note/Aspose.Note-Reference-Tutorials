@@ -9,13 +9,13 @@ url: /pl/net/tag-management/reporting-tags/
 ---
 ## Wstęp
 
-W dziedzinie przetwarzania i zarządzania dokumentami Aspose.Note dla .NET wyróżnia się jako potężne narzędzie do obsługi notatek, adnotacji i znaczników w dokumentach cyfrowych. Tagi odgrywają zasadniczą rolę w organizowaniu, kategoryzowaniu i filtrowaniu informacji w dokumentach, umożliwiając efektywne wyszukiwanie i analizę. Ten samouczek zagłębia się w zawiłości raportowania za pomocą tagów w Aspose.Note, oferując wskazówki krok po kroku dotyczące generowania raportów w oparciu o różne kryteria.
+dziedzinie przetwarzania i zarządzania dokumentami Aspose.Note dla .NET wyróżnia się jako potężne narzędzie do obsługi notatek, adnotacji i znaczników w dokumentach cyfrowych. Tagi odgrywają zasadniczą rolę w organizowaniu, kategoryzowaniu i filtrowaniu informacji w dokumentach, umożliwiając efektywne wyszukiwanie i analizę. Ten samouczek zagłębia się w zawiłości raportowania za pomocą tagów w Aspose.Note, oferując wskazówki krok po kroku dotyczące generowania raportów w oparciu o różne kryteria.
 
 ## Warunki wstępne
 
 Przed rozpoczęciem korzystania z tego samouczka upewnij się, że spełnione są następujące wymagania wstępne:
 
-1. Instalacja Aspose.Note dla .NET: Pobierz i zainstaluj bibliotekę Aspose.Note dla .NET z[link do pobrania](https://releases.aspose.com/note/net/).
+1.  Instalacja Aspose.Note dla .NET: Pobierz i zainstaluj bibliotekę Aspose.Note dla .NET z[link do pobrania](https://releases.aspose.com/note/net/).
    
 2. Znajomość programowania w C#: Do zrozumienia i wdrożenia podanych przykładów niezbędna jest podstawowa znajomość języka programowania C#.
 
@@ -120,7 +120,7 @@ O1: Tak, Aspose.Note dla .NET może być używany z innymi językami kompatybiln
 
 ## P2: Czy dostępna jest bezpłatna wersja próbna Aspose.Note dla .NET?
 
- A2: Tak, możesz uzyskać dostęp do bezpłatnej wersji próbnej Aspose.Note dla .NET z[strona internetowa](https://releases.aspose.com/).
+A2: Tak, możesz uzyskać dostęp do bezpłatnej wersji próbnej Aspose.Note dla .NET z[strona internetowa](https://releases.aspose.com/).
 
 ## P3: Jak mogę uzyskać tymczasową licencję na Aspose.Note dla .NET?
 
@@ -132,4 +132,4 @@ O1: Tak, Aspose.Note dla .NET może być używany z innymi językami kompatybiln
 
 ## P5: Czy mogę dostosować kryteria raportowania w Aspose.Note dla .NET?
 
-Odpowiedź 5: Tak, możesz dostosować kryteria raportowania zgodnie ze swoimi konkretnymi wymaganiami, korzystając z dostarczonych interfejsów API i przykładów.
+Odpowiedź 5: Tak, możesz dostosować kryteria raportowania do swoich konkretnych wymagań, korzystając z dostarczonych interfejsów API i przykładów.

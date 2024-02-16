@@ -47,7 +47,7 @@ using System.Globalization;
 ## चरण 1: एक दस्तावेज़ ऑब्जेक्ट बनाएँ
 
 ```csharp
-// दस्तावेज़ वर्ग का एक ऑब्जेक्ट बनाएं
+//दस्तावेज़ वर्ग का एक ऑब्जेक्ट बनाएं
 Document doc = new Aspose.Note.Document();
 ```
 

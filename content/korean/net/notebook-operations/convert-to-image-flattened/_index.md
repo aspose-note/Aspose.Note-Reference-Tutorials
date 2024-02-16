@@ -11,7 +11,7 @@ url: /ko/net/notebook-operations/convert-to-image-flattened/
 
 이 튜토리얼에서는 .NET용 Aspose.Note를 사용하여 노트북을 평면화된 이미지로 변환하는 방법을 알아봅니다. 프로세스를 간단한 단계로 나누어 효과적으로 이해하고 구현하는 데 도움을 드리겠습니다.
 
-## 전제 조건
+## 전제조건
 
 시작하기 전에 다음 사항이 있는지 확인하세요.
 

@@ -43,7 +43,7 @@ string inputFile = "notebook.onetoc2";
 string dataDir = "Your Document Directory";
 ```
 
-Pada langkah ini, kita menentukan jalur ke file notebook input (`notebook.onetoc2`) dan direktori tempat dokumen tersebut berada (`Your Document Directory`).
+Pada langkah ini, kita menentukan jalur ke file notebook masukan (`notebook.onetoc2`) dan direktori tempat dokumen tersebut berada (`Your Document Directory`).
 
 ## Langkah 2: Inisialisasi Objek Notebook
 
@@ -84,7 +84,7 @@ A1: Ya, Aspose.Note untuk .NET memungkinkan Anda membuat, mengedit, dan memanipu
 
 ### Q2: Apakah ada uji coba gratis yang tersedia untuk Aspose.Note untuk .NET?
 
-A2: Ya, Anda bisa mendapatkan uji coba gratis Aspose.Note untuk .NET dari[halaman rilis](https://releases.aspose.com/).
+ A2: Ya, Anda bisa mendapatkan uji coba gratis Aspose.Note untuk .NET dari[halaman rilis](https://releases.aspose.com/).
 
 ### Q3: Bagaimana saya bisa mendapatkan dukungan untuk Aspose.Note untuk .NET?
 

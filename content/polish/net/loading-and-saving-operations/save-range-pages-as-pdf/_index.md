@@ -9,7 +9,7 @@ url: /pl/net/loading-and-saving-operations/save-range-pages-as-pdf/
 ---
 ## Wstęp
 
-dziedzinie programowania .NET Aspose.Note wyróżnia się jako wszechstronne narzędzie do łatwej i wydajnej obsługi dokumentów OneNote. Wśród mnóstwa funkcji jedną z najbardziej poszukiwanych jest możliwość zapisywania zakresu stron w formacie PDF. Ten samouczek poprowadzi Cię krok po kroku przez proces, zapewniając bezproblemową integrację tej funkcji ze swoimi projektami.
+W dziedzinie programowania .NET Aspose.Note wyróżnia się jako wszechstronne narzędzie do łatwej i wydajnej obsługi dokumentów OneNote. Wśród mnóstwa funkcji jedną z najbardziej poszukiwanych jest możliwość zapisywania zakresu stron w formacie PDF. Ten samouczek poprowadzi Cię krok po kroku przez proces, zapewniając bezproblemową integrację tej funkcji ze swoimi projektami.
 
 ## Warunki wstępne
 
@@ -82,7 +82,7 @@ Gratulacje! Pomyślnie nauczyłeś się, jak zapisać zakres stron z dokumentu O
 
 ### P1: Czy mogę zapisać wiele zakresów stron jako osobne pliki PDF przy użyciu Aspose.Note?
 
- Odpowiedź 1: Tak, możesz to osiągnąć, powtarzając proces dla każdego zakresu stron, które chcesz zapisać, dostosowując`PageIndex` I`PageCount` odpowiednio.
+Odpowiedź 1: Tak, możesz to osiągnąć, powtarzając proces dla każdego zakresu stron, które chcesz zapisać, dostosowując`PageIndex` I`PageCount` odpowiednio.
    
 ### P2: Czy Aspose.Note obsługuje zapisywanie dokumentów w formatach innych niż PDF?
 

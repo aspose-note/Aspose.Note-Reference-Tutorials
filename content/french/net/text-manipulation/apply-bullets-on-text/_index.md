@@ -27,7 +27,7 @@ using System.Collections.Generic;
 ```csharp
 // Le chemin d'accès au répertoire des documents.
 string dataDir = "Your Document Directory";
-// Créer un objet de la classe Document
+//Créer un objet de la classe Document
 Aspose.Note.Document doc = new Aspose.Note.Document();
 ```
 ## Étape 2 : initialiser la page et le plan
@@ -61,9 +61,9 @@ outline.AppendChildLast(outlineElem1);
 // Ajouter un nœud de plan
 page.AppendChildLast(outline);
 ```
-## Étape 7 : Ajouter une page au document
+## Étape 7 : ajouter une page au document
 ```csharp
-// Ajouter un nœud de page
+//Ajouter un nœud de page
 doc.AppendChildLast(page);
 ```
 ## Étape 8 : Enregistrez le document OneNote

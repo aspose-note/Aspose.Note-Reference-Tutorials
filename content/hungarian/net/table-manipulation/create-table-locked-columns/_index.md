@@ -142,8 +142,8 @@ A2: Abszolút! Az Aspose.Note for .NET a nagyméretű dokumentumfeldolgozási fe
 
 ### 4. kérdés: Rendelkezésre áll műszaki támogatás az Aspose.Note for .NET számára?
 
- V4: Igen, elérheti a technikai támogatást a következőn keresztül[Aspose.Note fórum](https://forum.aspose.com/c/note/28) ahol szakértők állnak rendelkezésére, hogy segítséget nyújtsanak az esetlegesen felmerülő kérdésekben vagy problémákban.
+V4: Igen, elérheti a technikai támogatást a következőn keresztül[Aspose.Note fórum](https://forum.aspose.com/c/note/28) ahol szakértők állnak rendelkezésére, hogy segítséget nyújtsanak az esetlegesen felmerülő kérdésekben vagy problémákban.
 
 ### 5. kérdés: Kipróbálhatom az Aspose.Note-ot .NET-hez a vásárlás előtt?
 
- 5. válasz: Igen, letöltheti az Aspose.Note .NET-hez ingyenes próbaverzióját a webhelyről[itt](https://releases.aspose.com/)hogy értékelje jellemzőit és kompatibilitását az Ön igényeivel.
+ 5. válasz: Igen, letöltheti az Aspose.Note .NET-hez ingyenes próbaverzióját a webhelyről[itt](https://releases.aspose.com/) hogy értékelje jellemzőit és kompatibilitását az Ön igényeivel.

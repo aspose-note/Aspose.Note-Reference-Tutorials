@@ -19,7 +19,7 @@ Než začneme, ujistěte se, že máte následující:
 2. Visual Studio: Pro kódování a kompilaci budete potřebovat Visual Studio nainstalované ve vašem systému.
 3. OneNote Notebook: Připravte si OneNote Notebook, který chcete převést do PDF.
 
-## Importovat jmenné prostory
+## Import jmenných prostorů
 
 Začněme importem potřebných jmenných prostorů do vašeho kódu C#:
 

@@ -11,7 +11,7 @@ url: /es/net/text-manipulation/set-default-paragraph-style/
 En el ámbito del desarrollo .NET, Aspose.Note se destaca como una poderosa herramienta para trabajar con archivos OneNote. Una de las características esenciales que ofrece es la capacidad de establecer estilos de párrafo predeterminados, lo que brinda a los desarrolladores la flexibilidad de controlar la apariencia del texto en sus documentos. En este tutorial, profundizaremos en el proceso de configuración de estilos de párrafo predeterminados usando Aspose.Note para .NET. Continúe mientras desglosamos cada paso para ayudarlo a dominar este aspecto crucial de la manipulación de documentos.
 ## Requisitos previos
 Antes de sumergirnos en el tutorial, asegúrese de cumplir con los siguientes requisitos previos:
--  Aspose.Note para .NET: asegúrese de tener instalada la biblioteca Aspose.Note para .NET. Puedes descargarlo desde el[Aspose.Note Documentación .NET](https://reference.aspose.com/note/net/).
+- Aspose.Note para .NET: asegúrese de tener instalada la biblioteca Aspose.Note para .NET. Puedes descargarlo desde el[Aspose.Note Documentación .NET](https://reference.aspose.com/note/net/).
 - Entorno de desarrollo integrado (IDE): tenga instalado en su máquina un IDE que funcione para el desarrollo .NET, como Visual Studio.
 Ahora que tiene las herramientas necesarias, pasemos a los siguientes pasos.
 ## Importar espacios de nombres
@@ -79,4 +79,4 @@ Sí, puedes crear varios esquemas o páginas con distintos estilos de párrafo p
 ### ¿Aspose.Note es compatible con los últimos frameworks .NET?
 Sí, Aspose.Note se actualiza periódicamente para garantizar la compatibilidad con los últimos marcos .NET.
 ### ¿Hay licencias temporales disponibles para Aspose.Note?
-Sí, puede obtener una licencia temporal para Aspose.Note de[aquí](https://purchase.aspose.com/temporary-license/).
+ Sí, puede obtener una licencia temporal para Aspose.Note de[aquí](https://purchase.aspose.com/temporary-license/).

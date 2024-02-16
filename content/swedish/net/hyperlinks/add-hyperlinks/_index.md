@@ -9,7 +9,7 @@ url: /sv/net/hyperlinks/add-hyperlinks/
 ---
 ## Introduktion
 
-den här handledningen kommer du att lära dig hur du lägger till hyperlänkar till text i Aspose.Note-dokument med hjälp av .NET-ramverket. Aspose.Note tillhandahåller kraftfulla funktioner för att manipulera OneNote-dokument programmatiskt. Att lägga till hyperlänkar kan förbättra interaktiviteten och användbarheten av dina dokument, vilket gör dem mer engagerande för användarna.
+I den här handledningen kommer du att lära dig hur du lägger till hyperlänkar till text i Aspose.Note-dokument med hjälp av .NET-ramverket. Aspose.Note tillhandahåller kraftfulla funktioner för att manipulera OneNote-dokument programmatiskt. Att lägga till hyperlänkar kan förbättra interaktiviteten och användbarheten av dina dokument, vilket gör dem mer engagerande för användarna.
 
 ## Förutsättningar:
 

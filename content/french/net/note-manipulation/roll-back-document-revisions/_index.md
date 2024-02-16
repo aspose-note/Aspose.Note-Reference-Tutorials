@@ -16,7 +16,7 @@ Dans le monde de la gestion et de l'édition de documents, il est crucial de pou
 Avant de vous lancer dans ce didacticiel, assurez-vous d'avoir les prérequis suivants :
 
 1. Compréhension de base de C# : Une familiarité avec le langage de programmation C# est nécessaire pour suivre les exemples de code.
-2.  Bibliothèque Aspose.Note pour .NET : installez la bibliothèque Aspose.Note pour .NET dans votre environnement de développement. Vous pouvez le télécharger depuis[ici](https://releases.aspose.com/note/net/).
+2. Bibliothèque Aspose.Note pour .NET : installez la bibliothèque Aspose.Note pour .NET dans votre environnement de développement. Vous pouvez le télécharger depuis[ici](https://releases.aspose.com/note/net/).
 3. Environnement de développement intégré (IDE) : installez un IDE tel que Visual Studio sur votre système.
 
 ## Importer des espaces de noms

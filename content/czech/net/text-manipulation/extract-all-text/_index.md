@@ -13,7 +13,7 @@ Hledáte bezproblémové extrahování textu z vašich dokumentů Aspose.Note v 
 Než se pustíte do výukového programu, ujistěte se, že máte splněny následující předpoklady:
 1.  Aspose.Note for .NET Library: Stáhněte a nainstalujte knihovnu z[Aspose.Note dokumentaci](https://reference.aspose.com/note/net/).
 2. Adresář dokumentů: Připravte adresář, kde je uložen váš dokument Aspose.Note.
-## Importovat jmenné prostory
+## Import jmenných prostorů
 Chcete-li začít, zahrňte do projektu potřebné jmenné prostory:
 ```csharp
 using System.IO;
@@ -30,7 +30,7 @@ Nahraďte "Your Document Directory" cestou k adresáři obsahujícímu váš dok
 ```csharp
 Document oneFile = new Document(dataDir + "Aspose.one");
 ```
- Vložte dokument Aspose.Note do`Document` objekt k dalšímu zpracování.
+Vložte dokument Aspose.Note do`Document` objekt k dalšímu zpracování.
 ## Krok 3: Načtení textu
 ```csharp
 string text = string.Join(Environment.NewLine, oneFile.GetChildNodes<RichText>().Select(e => e.Text)) + Environment.NewLine;

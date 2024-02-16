@@ -16,10 +16,10 @@ Ve světě správy a úprav dokumentů je zásadní mít možnost sledovat změn
 Než se pustíte do tohoto tutoriálu, ujistěte se, že máte následující předpoklady:
 
 1. Základní porozumění C#: Znalost programovacího jazyka C# je nutné dodržovat spolu s příklady kódu.
-2.  Aspose.Note for .NET Library: Nainstalujte si knihovnu Aspose.Note for .NET do vašeho vývojového prostředí. Můžete si jej stáhnout z[tady](https://releases.aspose.com/note/net/).
+2. Aspose.Note for .NET Library: Nainstalujte si knihovnu Aspose.Note for .NET do vašeho vývojového prostředí. Můžete si jej stáhnout z[tady](https://releases.aspose.com/note/net/).
 3. Integrované vývojové prostředí (IDE): Mějte na svém systému nainstalované IDE, jako je Visual Studio.
 
-## Importovat jmenné prostory
+## Import jmenných prostorů
 
 Než začneme pracovat s Aspose.Note pro .NET, importujme potřebné jmenné prostory:
 
@@ -76,7 +76,7 @@ document.Save(dataDir + "RollBackRevisions_out.one");
 
 ## Závěr
 
-V tomto tutoriálu jsme prozkoumali, jak vrátit revize v dokumentech Aspose.Note pomocí Aspose.Note pro .NET. Pomocí těchto jednoduchých kroků můžete efektivně spravovat revize a zajistit integritu dokumentů ve vašich aplikacích.
+tomto tutoriálu jsme prozkoumali, jak vrátit revize v dokumentech Aspose.Note pomocí Aspose.Note pro .NET. Pomocí těchto jednoduchých kroků můžete efektivně spravovat revize a zajistit integritu dokumentů ve vašich aplikacích.
 
 ## FAQ
 

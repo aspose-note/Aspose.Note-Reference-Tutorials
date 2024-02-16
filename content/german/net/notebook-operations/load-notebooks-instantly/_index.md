@@ -15,7 +15,7 @@ In diesem Tutorial erfahren Sie, wie Sie Notizbücher sofort in Aspose.Note für
 
 Bevor wir beginnen, stellen Sie sicher, dass Sie die folgenden Voraussetzungen erfüllen:
 
-1.  Aspose.Note für .NET: Laden Sie die Aspose.Note für .NET-Bibliothek herunter und installieren Sie sie von[Hier](https://releases.aspose.com/note/net/).
+1.  Aspose.Note für .NET: Laden Sie die Aspose.Note für .NET-Bibliothek von herunter und installieren Sie sie[Hier](https://releases.aspose.com/note/net/).
 2. .NET Framework: Stellen Sie sicher, dass .NET Framework auf Ihrem System installiert ist.
 3. Entwicklungsumgebung: Richten Sie eine Entwicklungsumgebung wie Visual Studio oder eine andere IDE ein, die die .NET-Entwicklung unterstützt.
 
@@ -61,7 +61,7 @@ foreach (INotebookChildNode notebookChildNode in notebook.OfType<Document>())
 
 ## Abschluss
 
- In diesem Tutorial haben wir gelernt, wie man Notizbücher sofort in Aspose.Note für .NET lädt. Durch Einstellen der`InstantLoading` Flagge in der`NotebookLoadOptions`können wir vorinstallierte Dokumente eines Notebooks effizient durchlaufen und so die Leistung und Produktivität steigern.
+In diesem Tutorial haben wir gelernt, wie man Notizbücher sofort in Aspose.Note für .NET lädt. Durch Einstellen der`InstantLoading` Flagge in der`NotebookLoadOptions`können wir vorinstallierte Dokumente eines Notebooks effizient durchlaufen und so die Leistung und Produktivität steigern.
 
 ## FAQs
 

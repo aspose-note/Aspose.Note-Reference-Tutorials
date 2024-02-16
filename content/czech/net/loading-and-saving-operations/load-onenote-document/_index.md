@@ -19,7 +19,7 @@ Než se ponoříte do výukového programu, ujistěte se, že máte následujíc
 2.  Aspose.Note pro .NET: Stáhněte a nainstalujte Aspose.Note pro .NET z[stránka ke stažení](https://releases.aspose.com/note/net/).
 3. Základní znalost C#: Pro pochopení a implementaci příkladů uvedených v tomto tutoriálu je nezbytná znalost základů programovacího jazyka C#.
 
-## Importovat jmenné prostory
+## Import jmenných prostorů
 
 Než začnete pracovat s Aspose.Note pro .NET, nezapomeňte importovat požadované jmenné prostory do svého projektu C#:
 
@@ -68,7 +68,7 @@ public static void SimpleLoadNotebook()
 ```
 
 ### Krok 2: Zkontrolujte, zda je dokument zašifrován a načtěte jej:
-   - Zkontrolujte, zda je dokument OneNotu zašifrován, zavoláním na`Document.IsEncrypted` metoda, předání názvu souboru.
+   -  Zkontrolujte, zda je dokument OneNotu zašifrován, zavoláním na`Document.IsEncrypted` metoda, předání názvu souboru.
    - Pokud není zašifrován, pokračujte ve zpracování dokumentu.
    - Je-li zašifrováno, požádejte uživatele o zadání hesla pro dešifrování.
 
@@ -124,7 +124,7 @@ public static void Document_CheckIfEncryptedByPasswordAndLoad()
 
 ### Krok 4: Zpracování nepodporovaného formátu OneNotu 2007:
    - Pokuste se načíst dokument OneNotu ve formátu 2007.
-   -  Pokud formát není podporován, zachyťte`UnsupportedFileFormatException` a náležitě s ním zacházet a informovat uživatele o nepodporovaném formátu.
+   -  Pokud formát není podporován, zachyťte`UnsupportedFileFormatException` náležitě s ním zacházet a informovat uživatele o nepodporovaném formátu.
 
 ```csharp
 public static void Document_OneNote2007_Is_NotSupported()
@@ -151,7 +151,7 @@ public static void Document_OneNote2007_Is_NotSupported()
 
 ## Závěr
 
-tomto tutoriálu jsme prozkoumali, jak načíst dokumenty OneNote v Aspose.Note pro .NET pomocí různých metod. Podle těchto podrobných pokynů můžete bez problémů integrovat možnosti zpracování dokumentů OneNote do aplikací .NET.
+V tomto tutoriálu jsme prozkoumali, jak načíst dokumenty OneNote v Aspose.Note pro .NET pomocí různých metod. Podle těchto podrobných pokynů můžete bez problémů integrovat možnosti zpracování dokumentů OneNote do aplikací .NET.
 
 ## FAQ
 

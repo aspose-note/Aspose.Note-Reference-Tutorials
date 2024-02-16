@@ -67,7 +67,7 @@ Aspose.Note.License license = new Aspose.Note.License();
 
 ## ขั้นตอนที่ 2: ตั้งค่าใบอนุญาตจากเส้นทาง
 
- ต่อไปให้ใช้`SetLicense` วิธีการของ`License` คลาสเพื่อใช้ใบอนุญาตจากเส้นทางที่ระบุ:
+ต่อไปให้ใช้`SetLicense` วิธีการของ`License` คลาสเพื่อใช้ใบอนุญาตจากเส้นทางที่ระบุ:
 
 ```csharp
 license.SetLicense("Aspose.Note.lic");

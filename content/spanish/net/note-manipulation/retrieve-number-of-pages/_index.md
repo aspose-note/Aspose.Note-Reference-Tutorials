@@ -17,7 +17,7 @@ Antes de comenzar, asegúrese de tener configurados los siguientes requisitos pr
 
 ### Visual Studio instalado
 
- Asegúrese de tener Visual Studio instalado en su sistema. Puedes descargarlo desde el[sitio web](https://visualstudio.microsoft.com/).
+Asegúrese de tener Visual Studio instalado en su sistema. Puedes descargarlo desde el[sitio web](https://visualstudio.microsoft.com/).
 
 ### Aspose.Note para .NET instalado
 

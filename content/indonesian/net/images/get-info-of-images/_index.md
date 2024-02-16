@@ -75,7 +75,7 @@ Loop ini mencetak berbagai atribut setiap gambar, seperti lebar, tinggi, dimensi
 
 ## Kesimpulan
 
-Dengan Aspose.Note untuk .NET, mengekstraksi informasi gambar dari dokumen OneNote menjadi proses yang lancar. Dengan mengikuti langkah-langkah yang dijelaskan dalam tutorial ini, pengembang dapat secara efisien mengambil metadata dari gambar yang disematkan, sehingga memberdayakan mereka untuk membangun aplikasi yang tangguh.
+Dengan Aspose.Note untuk .NET, mengekstraksi informasi gambar dari dokumen OneNote menjadi proses yang lancar. Dengan mengikuti langkah-langkah yang diuraikan dalam tutorial ini, pengembang dapat secara efisien mengambil metadata dari gambar yang disematkan, sehingga memberdayakan mereka untuk membangun aplikasi yang tangguh.
 
 ## FAQ
 
@@ -97,4 +97,4 @@ A4: Ya, Anda dapat mengakses uji coba gratis Aspose.Note untuk menjelajahi fitur
 
 ### Q5: Di mana saya dapat menemukan dukungan atau bantuan tambahan dengan Aspose.Note?
 
- A5: Untuk pertanyaan atau bantuan apa pun, Anda dapat mengunjungi forum Aspose.Note[Di Sini](https://forum.aspose.com/c/note/28).
+A5: Untuk pertanyaan atau bantuan apa pun, Anda dapat mengunjungi forum Aspose.Note[Di Sini](https://forum.aspose.com/c/note/28).

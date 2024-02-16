@@ -79,4 +79,4 @@ Kesimpulannya, menguasai seni mengganti teks di semua halaman dengan Aspose.Note
 ### T: Di mana saya dapat menemukan tutorial dan dokumentasi lainnya untuk Aspose.Note untuk .NET?
  J: Kunjungi[dokumentasi](https://reference.aspose.com/note/net/) untuk sumber daya dan tutorial mendalam.
 ### T: Dapatkah saya menggunakan Aspose.Note untuk proyek komersial?
- J: Ya, jelajahi opsi lisensi dan lakukan pembelian[Di Sini](https://purchase.aspose.com/buy).
+J: Ya, jelajahi opsi lisensi dan lakukan pembelian[Di Sini](https://purchase.aspose.com/buy).

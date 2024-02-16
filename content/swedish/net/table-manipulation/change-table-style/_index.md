@@ -9,7 +9,7 @@ url: /sv/net/table-manipulation/change-table-style/
 ---
 ## Introduktion
 
-den här handledningen kommer vi att utforska hur man ändrar tabellstilen i Aspose.Note med hjälp av .NET-ramverket. Aspose.Note är ett kraftfullt API som gör det möjligt för utvecklare att arbeta med Microsoft OneNote-filer programmatiskt. Genom att anpassa stilen på tabeller i OneNote-dokument kan du förbättra deras visuella tilltalande och läsbarhet. Vi går igenom processen att ändra tabellstilar steg för steg, för att säkerställa tydlighet och effektivitet.
+I den här handledningen kommer vi att utforska hur man ändrar tabellstilen i Aspose.Note med hjälp av .NET-ramverket. Aspose.Note är ett kraftfullt API som gör det möjligt för utvecklare att arbeta med Microsoft OneNote-filer programmatiskt. Genom att anpassa stilen på tabeller i OneNote-dokument kan du förbättra deras visuella tilltalande och läsbarhet. Vi går igenom processen att ändra tabellstilar steg för steg, för att säkerställa tydlighet och effektivitet.
 
 ## Förutsättningar
 
@@ -72,7 +72,7 @@ Console.WriteLine("\nTable's style is updated successfully.\nFile saved at " + d
 
 ## Slutsats
 
-I den här handledningen har vi lärt oss hur man ändrar tabellstilar i Aspose.Note med hjälp av .NET-ramverket. Genom att följa dessa steg kan du anpassa utseendet på tabeller i dina OneNote-dokument, vilket förbättrar deras visuella presentation och läsbarhet.
+den här handledningen har vi lärt oss hur man ändrar tabellstilar i Aspose.Note med hjälp av .NET-ramverket. Genom att följa dessa steg kan du anpassa utseendet på tabeller i dina OneNote-dokument, vilket förbättrar deras visuella presentation och läsbarhet.
 
 ## FAQ's
 

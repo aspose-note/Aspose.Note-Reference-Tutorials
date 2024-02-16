@@ -61,7 +61,7 @@ foreach (INotebookChildNode notebookChildNode in notebook.OfType<Document>())
 
 ## Következtetés
 
- Ebben az oktatóanyagban megtanultuk, hogyan töltsünk be azonnal jegyzetfüzeteket az Aspose.Note for .NET-be. Beállításával a`InstantLoading` zászló a`NotebookLoadOptions`, hatékonyan iterálhatjuk a notebook előre betöltött dokumentumait, növelve a teljesítményt és a termelékenységet.
+Ebben az oktatóanyagban megtanultuk, hogyan töltsünk be azonnal jegyzetfüzeteket az Aspose.Note for .NET-be. Beállításával a`InstantLoading` zászló a`NotebookLoadOptions`, hatékonyan iterálhatjuk a notebook előre betöltött dokumentumait, növelve a teljesítményt és a termelékenységet.
 
 ## GYIK
 
@@ -79,7 +79,7 @@ foreach (INotebookChildNode notebookChildNode in notebook.OfType<Document>())
 
 ### 4. kérdés: Rendelkezésre állnak-e ideiglenes licencek az Aspose.Note for .NET számára?
 
- 4. válasz: Igen, ideiglenes licenceket szerezhet tesztelési és értékelési célokra a következőtől:[itt](https://purchase.aspose.com/temporary-license/).
+ 4. válasz: Igen, tesztelési és értékelési célú ideiglenes licenceket szerezhet be a webhelyről[itt](https://purchase.aspose.com/temporary-license/).
 
 ### 5. kérdés: Hol vásárolhatok teljes licencet az Aspose.Note for .NET számára?
 

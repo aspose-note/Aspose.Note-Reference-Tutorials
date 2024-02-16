@@ -76,7 +76,7 @@ public void CssSaving(CssSavingArgs args)
 }
 ```
 
- Ici, nous définissons le`CssSaving`méthode de rappel pour gérer la sauvegarde des feuilles de style CSS. Il crée une ressource dans le dossier CSS spécifié et définit le flux, l'URI et d'autres propriétés en conséquence.
+ Ici, nous définissons le`CssSaving` méthode de rappel pour gérer la sauvegarde des feuilles de style CSS. Il crée une ressource dans le dossier CSS spécifié et définit le flux, l'URI et d'autres propriétés en conséquence.
 
 ## Étape 4 : implémenter le rappel d'enregistrement d'image
 

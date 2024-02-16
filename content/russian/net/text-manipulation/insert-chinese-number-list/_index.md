@@ -86,7 +86,7 @@ Console.WriteLine("\nChinese number list inserted successfully.\nFile saved at "
 ### Вопрос: Совместим ли Aspose.Note с последней версией .NET?
 О: Да, Aspose.Note регулярно обновляется для поддержки последних версий .NET.
 ### Вопрос: Где я могу найти дополнительные примеры и документацию?
- A: Изучите всестороннее[Документация Aspose.Note](https://reference.aspose.com/note/net/).
+A: Изучите всестороннее[Документация Aspose.Note](https://reference.aspose.com/note/net/).
 ### Вопрос: Как я могу получить временную лицензию на Aspose.Note?
  О: Получите временную лицензию[здесь](https://purchase.aspose.com/temporary-license/).
 ### Вопрос: Где я могу обратиться за помощью или обсудить вопросы, связанные с Aspose.Note?

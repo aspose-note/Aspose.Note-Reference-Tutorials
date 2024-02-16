@@ -35,7 +35,7 @@ Podzielmy teraz proces klonowania stron na kilka etapów:
 
 ## Krok 1: Załaduj dokument OneNote
 
-Najpierw musimy załadować dokument OneNote do pamięci. Możemy to osiągnąć za pomocą`Document` klasa dostarczona przez Aspose. Uwaga:
+ Najpierw musimy załadować dokument OneNote do pamięci. Możemy to osiągnąć za pomocą`Document` klasa dostarczona przez Aspose. Uwaga:
 
 ```csharp
 // Ścieżka do katalogu dokumentów.

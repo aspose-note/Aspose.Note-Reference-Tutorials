@@ -42,7 +42,7 @@ Document oneFile = new Document(dataDir + "Aspose.one");
 
 ## Paso 2: guardar como imagen en escala de grises
 
-A continuación, especifique la ruta para guardar la imagen en escala de grises y guarde el documento en consecuencia.
+continuación, especifique la ruta para guardar la imagen en escala de grises y guarde el documento en consecuencia.
 
 ```csharp
 dataDir = dataDir + "SaveAsGrayscaleImage_out.png";

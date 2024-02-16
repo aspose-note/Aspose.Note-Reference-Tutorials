@@ -92,8 +92,8 @@ Câu trả lời 3: Aspose.Note tích hợp liền mạch với các thư viện
 
 ### Câu hỏi 4: Làm cách nào tôi có thể nhận được hỗ trợ cho Aspose.Note?
 
-Câu trả lời 4: Bạn có thể nhận hỗ trợ cho Aspose.Note bằng cách truy cập[Diễn đàn Aspose.Note](https://forum.aspose.com/c/note/28), nơi bạn có thể đặt câu hỏi và tìm giải pháp.
+ Câu trả lời 4: Bạn có thể nhận hỗ trợ cho Aspose.Note bằng cách truy cập[Diễn đàn Aspose.Note](https://forum.aspose.com/c/note/28), nơi bạn có thể đặt câu hỏi và tìm giải pháp.
 
 ### Câu hỏi 5: Aspose.Note có bản dùng thử miễn phí không?
 
- Câu trả lời 5: Có, bạn có thể tận dụng bản dùng thử miễn phí của Aspose.Note bằng cách truy cập[đây](https://releases.aspose.com/).
+Câu trả lời 5: Có, bạn có thể tận dụng bản dùng thử miễn phí của Aspose.Note bằng cách truy cập[đây](https://releases.aspose.com/).

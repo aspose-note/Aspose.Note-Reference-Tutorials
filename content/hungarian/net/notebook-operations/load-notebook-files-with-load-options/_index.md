@@ -77,11 +77,11 @@ Ebben az oktatóanyagban megtanultuk, hogyan tölthet be notebook fájlokat bet�
 
 ### 1. kérdés: Használhatom az Aspose.Note for .NET-et a OneNote-fájlok programozott kezeléséhez?
 
-1. válasz: Igen, az Aspose.Note for .NET átfogó API-kat biztosít a Microsoft OneNote-fájlok programozott kezeléséhez, lehetővé téve a notebookadatok könnyű létrehozását, szerkesztését és kezelését.
+1. válasz: Igen, az Aspose.Note for .NET átfogó API-kat biztosít a Microsoft OneNote-fájlok programozott kezeléséhez, lehetővé téve a jegyzetfüzetadatok könnyű létrehozását, szerkesztését és kezelését.
 
 ### 2. kérdés: Elérhető ingyenes próbaverzió az Aspose.Note for .NET számára?
 
- 2. válasz: Igen, igénybe veheti az Aspose.Note ingyenes próbaverzióját a .NET-hez[itt](https://releases.aspose.com/).
+2. válasz: Igen, igénybe veheti az Aspose.Note ingyenes próbaverzióját a .NET-hez[itt](https://releases.aspose.com/).
 
 ### 3. kérdés: Hol találom az Aspose.Note for .NET dokumentációját?
 

@@ -9,7 +9,7 @@ url: /cs/net/loading-and-saving-operations/save-to-grayscale-image/
 ---
 ## Úvod
 
-tomto tutoriálu prozkoumáme, jak využít Aspose.Note pro .NET k uložení dokumentu jako obrázku ve stupních šedi. Aspose.Note je výkonná knihovna, která umožňuje vývojářům pracovat se soubory Microsoft OneNote programově a poskytuje širokou škálu funkcí.
+V tomto tutoriálu prozkoumáme, jak využít Aspose.Note pro .NET k uložení dokumentu jako obrázku ve stupních šedi. Aspose.Note je výkonná knihovna, která umožňuje vývojářům pracovat se soubory Microsoft OneNote programově a poskytuje širokou škálu funkcí.
 
 ## Předpoklady
 
@@ -20,7 +20,7 @@ Než budeme pokračovat, ujistěte se, že máte následující předpoklady:
 -  Nainstalovaná knihovna Aspose.Note pro .NET. Můžete si jej stáhnout[tady](https://releases.aspose.com/note/net/).
 - Znalost přístupu a manipulace se soubory pomocí .NET.
 
-## Importovat jmenné prostory
+## Import jmenných prostorů
 
 Začněme importem potřebných jmenných prostorů:
 
@@ -62,7 +62,7 @@ Console.WriteLine("\nOneNote document converted successfully to grayscale image.
 
 ## Závěr
 
-tomto tutoriálu jsme se naučili, jak používat Aspose.Note pro .NET k převodu dokumentu na obrázek ve stupních šedi. Dodržením těchto jednoduchých kroků mohou vývojáři efektivně začlenit tuto funkci do svých aplikací a zlepšit tak své možnosti zpracování dokumentů.
+V tomto tutoriálu jsme se naučili, jak používat Aspose.Note pro .NET k převodu dokumentu na obrázek ve stupních šedi. Dodržením těchto jednoduchých kroků mohou vývojáři efektivně začlenit tuto funkci do svých aplikací a zlepšit tak své možnosti zpracování dokumentů.
 
 ## FAQ
 

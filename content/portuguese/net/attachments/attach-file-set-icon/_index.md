@@ -35,7 +35,7 @@ using System.Drawing.Imaging;
 
 Agora, vamos dividir o processo de anexar um arquivo e definir seu ícone no Aspose.Note em várias etapas:
 
-### Etapa 1: criar um objeto de documento
+### Etapa 1: crie um objeto de documento
 
 ```csharp
 Document doc = new Document();

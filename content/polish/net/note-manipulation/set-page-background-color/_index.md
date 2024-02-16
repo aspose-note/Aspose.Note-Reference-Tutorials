@@ -9,7 +9,7 @@ url: /pl/net/note-manipulation/set-page-background-color/
 ---
 ## Wstęp
 
-Aspose.Note dla .NET umożliwia programistom programowe manipulowanie dokumentami OneNote. Jednym z typowych zadań jest ustawienie koloru tła stron w tych dokumentach. W tym samouczku przeprowadzimy Cię krok po kroku przez ten proces.
+Aspose.Note dla .NET umożliwia programistom programowe manipulowanie dokumentami OneNote. Jednym z typowych zadań jest ustawienie koloru tła stron w tych dokumentach. W tym samouczku przeprowadzimy Cię przez ten proces krok po kroku.
 
 ## Warunki wstępne
 
@@ -70,7 +70,7 @@ Na koniec zapisz zmodyfikowany dokument:
 document.Save(Path.Combine(dataDir, "SetPageBackgroundColor.one"));
 ```
 
- Pamiętaj o wymianie`"SetPageBackgroundColor.one"` żądaną nazwą pliku zmodyfikowanego dokumentu.
+ Pamiętaj o wymianie`"SetPageBackgroundColor.one"` z żądaną nazwą pliku zmodyfikowanego dokumentu.
 
 ## Wniosek
 
@@ -88,7 +88,7 @@ O2: Aspose.Note koncentruje się przede wszystkim na pracy z dokumentami OneNote
 
 ### P3: Czy dostępna jest wersja próbna Aspose.Note dla .NET?
 
- Odpowiedź 3: Tak, możesz pobrać bezpłatną wersję próbną ze strony[Tutaj](https://releases.aspose.com/).
+Odpowiedź 3: Tak, możesz pobrać bezpłatną wersję próbną ze strony[Tutaj](https://releases.aspose.com/).
 
 ### P4: Czy mogę uzyskać licencje tymczasowe do celów testowych?
 

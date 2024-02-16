@@ -111,4 +111,4 @@ A4: Aspose.Note dirancang untuk menangani revisi dalam jumlah besar secara efisi
 
 ### Q5: Bisakah saya mengotomatiskan proses pengelolaan revisi halaman menggunakan Aspose.Note?
 
-A5: Ya, Aspose.Note menawarkan API komprehensif yang memungkinkan pengembang mengotomatiskan tugas terkait revisi halaman, menyederhanakan proses alur kerja.
+A5: Ya, Aspose.Note menawarkan API komprehensif yang memungkinkan pengembang mengotomatiskan tugas yang terkait dengan revisi halaman, menyederhanakan proses alur kerja.

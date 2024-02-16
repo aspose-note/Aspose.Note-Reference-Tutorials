@@ -9,7 +9,7 @@ url: /cs/net/loading-and-saving-operations/save-to-pdf/
 ---
 ## Úvod
 
-V tomto tutoriálu prozkoumáme, jak ukládat dokumenty do formátu PDF pomocí Aspose.Note pro .NET. Aspose.Note je výkonná knihovna, která umožňuje vývojářům pracovat se soubory Microsoft OneNote programově. Pokryjeme předpoklady, importujeme jmenné prostory a poskytneme podrobné průvodce ukládáním dokumentů do PDF v různých rozvrženích stránek.
+tomto tutoriálu prozkoumáme, jak ukládat dokumenty do formátu PDF pomocí Aspose.Note pro .NET. Aspose.Note je výkonná knihovna, která umožňuje vývojářům pracovat se soubory Microsoft OneNote programově. Pokryjeme předpoklady, importujeme jmenné prostory a poskytneme podrobné průvodce ukládáním dokumentů do PDF v různých rozvrženích stránek.
 
 ## Předpoklady
 
@@ -19,7 +19,7 @@ Než začneme, ujistěte se, že máte následující:
 -  Knihovna Aspose.Note pro .NET byla stažena a nainstalována. Můžete si jej stáhnout z[tady](https://releases.aspose.com/note/net/).
 - Základní znalost programovacího jazyka C#.
 
-## Importovat jmenné prostory
+## Import jmenných prostorů
 
 Nejprve importujme potřebné jmenné prostory do našeho kódu C#:
 
@@ -46,7 +46,7 @@ public static void SaveToPdfUsingLetterPageSettings()
 
     var dst = Path.Combine(dataDir, "SaveToPdfUsingLetterPageSettings.pdf");
 
-    //Uložte dokument.
+    // Uložte dokument.
     oneFile.Save(dst, new PdfSaveOptions() { PageSettings = PageSettings.Letter });
 
     Console.WriteLine("\nOneNote document saved successfully.\nFile saved at " + dst);
@@ -72,7 +72,7 @@ public static void SaveToPdfUsingA4PageSettingsWithoutHeightLimit()
 
     var dst = Path.Combine(dataDir, "SaveToPdfUsingA4PageSettingsWithoutHeightLimit.pdf");
 
-    //Uložte dokument.
+    // Uložte dokument.
     oneFile.Save(dst, new PdfSaveOptions() { PageSettings = PageSettings.A4NoHeightLimit });
 
     Console.WriteLine("\nOneNote document saved successfully.\nFile saved at " + dst);

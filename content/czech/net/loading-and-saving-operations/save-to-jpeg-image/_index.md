@@ -15,11 +15,11 @@ V tomto tutoriálu se ponoříme do využití Aspose.Note pro .NET k uložení d
 
 Než budete pokračovat, ujistěte se, že máte následující:
 - Základní znalost C# a .NET frameworku.
--  Aspose.Note pro .NET nainstalován. Pokud ne, můžete si jej stáhnout z[tady](https://releases.aspose.com/note/net/).
+- Aspose.Note pro .NET nainstalován. Pokud ne, můžete si jej stáhnout z[tady](https://releases.aspose.com/note/net/).
 - Integrované vývojové prostředí (IDE), jako je Visual Studio.
 - Ukázkové soubory dokumentů pro práci.
 
-## Importovat jmenné prostory
+## Import jmenných prostorů
 
 Nejprve se ujistěte, že jste do projektu importovali potřebné jmenné prostory:
 
@@ -54,7 +54,7 @@ dataDir = dataDir + "SaveToJpegImageUsingSaveFormat_out.jpg";
 Uložte načtený dokument do formátu JPEG:
 
 ```csharp
-//Uložte dokument.
+// Uložte dokument.
 oneFile.Save(dataDir, SaveFormat.Jpeg);
 ```
 
@@ -82,4 +82,4 @@ Odpověď 3: Ano, Aspose.Note podporuje ukládání dokumentů do různých obra
 
 ### Q5: Jak mohu získat pomoc, pokud narazím na nějaké problémy?
 
-Odpověď 5: Můžete vyhledat pomoc na fóru komunity Aspose[tady](https://forum.aspose.com/c/note/28)nebo se obraťte na jejich tým podpory pro personalizovanou pomoc.
+ Odpověď 5: Můžete vyhledat pomoc na fóru komunity Aspose[tady](https://forum.aspose.com/c/note/28)nebo se obraťte na jejich tým podpory pro personalizovanou pomoc.

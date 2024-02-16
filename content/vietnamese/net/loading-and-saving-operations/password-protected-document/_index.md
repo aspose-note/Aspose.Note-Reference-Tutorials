@@ -15,7 +15,7 @@ Trong hướng dẫn này, chúng ta sẽ tìm hiểu quy trình xử lý các t
 
 Trước khi chúng tôi bắt đầu, hãy đảm bảo bạn có các điều kiện tiên quyết sau:
 
-1.  Aspose.Note for .NET Library: Đảm bảo bạn đã tải xuống và cài đặt thư viện Aspose.Note for .NET. Bạn có thể tải nó xuống từ[đây](https://releases.aspose.com/note/net/).
+1. Aspose.Note for .NET Library: Đảm bảo bạn đã tải xuống và cài đặt thư viện Aspose.Note for .NET. Bạn có thể tải nó xuống từ[đây](https://releases.aspose.com/note/net/).
 
 2. Môi trường phát triển: Thiết lập môi trường phát triển với khả năng .NET.
 
@@ -65,7 +65,7 @@ Việc xử lý các tài liệu được bảo vệ bằng mật khẩu trong A
 
 ### Câu hỏi 1: Tôi có thể đặt các mật khẩu khác nhau cho các tài liệu khác nhau không?
 
-Trả lời 1: Có, bạn có thể chỉ định các mật khẩu khác nhau cho các tài liệu khác nhau để tăng cường bảo mật.
+Câu trả lời 1: Có, bạn có thể chỉ định các mật khẩu khác nhau cho các tài liệu khác nhau để tăng cường bảo mật.
 
 ### Q2: Nếu tôi quên mật khẩu tài liệu thì sao?
 

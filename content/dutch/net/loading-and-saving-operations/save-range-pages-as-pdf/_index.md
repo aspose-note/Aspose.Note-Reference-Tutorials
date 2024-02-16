@@ -82,7 +82,7 @@ Gefeliciteerd! U hebt met succes geleerd hoe u een reeks pagina's uit een OneNot
 
 ### V1: Kan ik meerdere paginabereiken opslaan als afzonderlijke PDF-bestanden met Aspose.Note?
 
- A1: Ja, u kunt dit bereiken door het proces te herhalen voor elk paginabereik dat u wilt opslaan, waarbij u de instellingen aanpast`PageIndex` En`PageCount` overeenkomstig.
+A1: Ja, u kunt dit bereiken door het proces te herhalen voor elk paginabereik dat u wilt opslaan, waarbij u de instellingen aanpast`PageIndex` En`PageCount` overeenkomstig.
    
 ### V2: Ondersteunt Aspose.Note het opslaan van documenten in andere formaten dan PDF?
 

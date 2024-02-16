@@ -51,7 +51,7 @@ Sayfanın boş olmadığından emin olun ve ardından metni çıkarmaya devam ed
 ## Çözüm
 Tebrikler! Aspose.Note'ta .NET kullanarak bir sayfadan nasıl metin çıkaracağınızı başarıyla öğrendiniz. Bu bilgi şüphesiz belge işleme yeteneklerinizi geliştirecek ve uygulamalarınızda yeni olanakların kilidini açmanıza olanak tanıyacaktır.
 ## Sıkça Sorulan Sorular
-### S: Aynı yaklaşımı kullanarak birden çok sayfadan metin çıkarabilir miyim?
+### S: Aynı yaklaşımı kullanarak birden fazla sayfadan metin çıkarabilir miyim?
 C: Kesinlikle! Basitçe sayfalar arasında geçiş yapın ve her biri için metin çıkarma mantığını uygulayın.
 ### S: Aspose.Note diğer belge formatlarını destekliyor mu?
 C: Aspose.Note öncelikli olarak Microsoft OneNote dosyalarına odaklanır ve bu format için güçlü bir destek sağlar.

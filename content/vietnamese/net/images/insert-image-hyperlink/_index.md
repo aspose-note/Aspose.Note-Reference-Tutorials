@@ -40,7 +40,7 @@ var page = new Page(document);
 
 ## Bước 2: Chèn ảnh bằng Hyperlink
 
- Bây giờ, hãy chèn hình ảnh có siêu liên kết. Chúng tôi sẽ tạo một`Image` đối tượng và thiết lập nó`HyperlinkUrl` thuộc tính vào URL mong muốn.
+Bây giờ, hãy chèn hình ảnh có siêu liên kết. Chúng tôi sẽ tạo một`Image` đối tượng và thiết lập nó`HyperlinkUrl` thuộc tính vào URL mong muốn.
 
 ```csharp
 string imagePath = "path_to_your_image.jpg";

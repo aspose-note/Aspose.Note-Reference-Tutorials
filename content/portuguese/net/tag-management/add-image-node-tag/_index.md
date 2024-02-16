@@ -109,4 +109,4 @@ A4: Aspose.Note suporta principalmente a adição de imagens de diretórios loca
 
 ### P5: Há alguma limitação quanto ao tamanho ou formato das imagens que podem ser adicionadas?
 
-R5: Aspose.Note suporta uma ampla variedade de formatos de imagem e não impõe limitações estritas ao tamanho da imagem, permitindo incorporar diversos recursos visuais em seus documentos.
+R5: Aspose.Note oferece suporte a uma ampla variedade de formatos de imagem e não impõe limitações estritas ao tamanho da imagem, permitindo incorporar diversos recursos visuais em seus documentos.

@@ -15,7 +15,7 @@ Neste tutorial, aprenderemos como adicionar nós filhos no Aspose Note .NET. Adi
 
 Antes de começarmos, certifique-se de ter o seguinte:
 
-1. Aspose.Note for .NET: Certifique-se de ter o Aspose.Note for .NET instalado em seu ambiente de desenvolvimento. Você pode baixá-lo no[local na rede Internet](https://releases.aspose.com/note/net/).
+1.  Aspose.Note for .NET: Certifique-se de ter o Aspose.Note for .NET instalado em seu ambiente de desenvolvimento. Você pode baixá-lo no[local na rede Internet](https://releases.aspose.com/note/net/).
 
 2. Ambiente de desenvolvimento: configure um ambiente de desenvolvimento .NET, como o Visual Studio.
 

@@ -33,7 +33,7 @@ string dataDir = "Your Document Directory";
 var oneFile = new Document(Path.Combine(dataDir, "ProjectNotes.one"));
 ```
 
-## ステップ 2: プロジェクト C 項目を閉じる
+## ステップ 2: プロジェクト C アイテムを閉じる
 
 ここで、「プロジェクト C」に関連するすべてのチェックボックス項目を閉じましょう。
 
@@ -103,7 +103,7 @@ A1: Aspose.Note は Microsoft OneNote 2010 以降のバージョンをサポー�
 
 ### Q3: Aspose.Note には無料トライアルがありますか?
 
-A3: はい、無料トライアルを利用できます。[ここ](https://releases.aspose.com/).
+ A3: はい、無料トライアルを利用できます。[ここ](https://releases.aspose.com/).
 
 ### Q4: Aspose.Note のドキュメントはどこで見つけられますか?
 
@@ -111,4 +111,4 @@ A3: はい、無料トライアルを利用できます。[ここ](https://relea
 
 ### Q5: Aspose.Note のサポートはどこで受けられますか?
 
-A5: サポートが必要な場合は、Aspose.Note にアクセスしてください。[フォーラム](https://forum.aspose.com/c/note/28).
+ A5: サポートが必要な場合は、Aspose.Note にアクセスしてください。[フォーラム](https://forum.aspose.com/c/note/28).

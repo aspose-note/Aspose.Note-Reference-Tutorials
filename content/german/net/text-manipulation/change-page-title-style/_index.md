@@ -61,7 +61,7 @@ Drucken Sie eine Bestätigungsmeldung aus, die angibt, dass die Titelstile erfol
 Glückwunsch! Sie haben erfolgreich gelernt, wie Sie Seitentitelstile in Aspose.Note für .NET ändern. Diese einfache, aber leistungsstarke Funktion kann die visuelle Attraktivität Ihrer Dokumente erheblich verbessern.
 ## FAQs
 ### Ist Aspose.Note mit den neuesten .NET Framework-Versionen kompatibel?
-Aspose.Note ist so konzipiert, dass es mit einer Vielzahl von .NET Framework-Versionen kompatibel ist, einschließlich der neuesten. Siehe die[Dokumentation](https://reference.aspose.com/note/net/) Ausführliche Informationen zur Kompatibilität finden Sie hier.
+ Aspose.Note ist so konzipiert, dass es mit einer Vielzahl von .NET Framework-Versionen kompatibel ist, einschließlich der neuesten. Siehe die[Dokumentation](https://reference.aspose.com/note/net/) Ausführliche Informationen zur Kompatibilität finden Sie hier.
 ### Kann ich Aspose.Note vor dem Kauf ausprobieren?
  Ja, Sie können Aspose.Note erkunden, indem Sie die kostenlose Testversion herunterladen[Hier](https://releases.aspose.com/).
 ### Wie kann ich Unterstützung für Aspose.Note erhalten?

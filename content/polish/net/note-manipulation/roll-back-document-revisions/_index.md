@@ -9,14 +9,14 @@ url: /pl/net/note-manipulation/roll-back-document-revisions/
 ---
 ## Wstęp
 
-świecie zarządzania i edytowania dokumentów kluczowa jest możliwość śledzenia zmian i płynnego powrotu do poprzednich wersji. Aspose.Note dla .NET zapewnia potężne narzędzia do skutecznego zarządzania wersjami, zapewniając możliwość wycofania zmian w razie potrzeby. W tym poradniku krok po kroku zagłębimy się w proces wycofywania wersji dokumentów Aspose.Note.
+W świecie zarządzania i edytowania dokumentów kluczowa jest możliwość śledzenia zmian i płynnego powrotu do poprzednich wersji. Aspose.Note dla .NET zapewnia potężne narzędzia do skutecznego zarządzania wersjami, zapewniając możliwość wycofania zmian w razie potrzeby. W tym poradniku krok po kroku zagłębimy się w proces wycofywania wersji dokumentów Aspose.Note.
 
 ## Warunki wstępne
 
 Zanim zagłębisz się w ten samouczek, upewnij się, że spełniasz następujące wymagania wstępne:
 
 1. Podstawowa znajomość języka C#: Znajomość języka programowania C# jest konieczna, aby postępować zgodnie z przykładami kodu.
-2.  Biblioteka Aspose.Note dla .NET: Zainstaluj bibliotekę Aspose.Note dla .NET w swoim środowisku programistycznym. Można go pobrać z[Tutaj](https://releases.aspose.com/note/net/).
+2. Biblioteka Aspose.Note dla .NET: Zainstaluj bibliotekę Aspose.Note dla .NET w swoim środowisku programistycznym. Można go pobrać z[Tutaj](https://releases.aspose.com/note/net/).
 3. Zintegrowane środowisko programistyczne (IDE): Zainstaluj w swoim systemie środowisko IDE, takie jak Visual Studio.
 
 ## Importuj przestrzenie nazw
@@ -76,7 +76,7 @@ document.Save(dataDir + "RollBackRevisions_out.one");
 
 ## Wniosek
 
-W tym samouczku omówiliśmy, jak wycofać wersje w dokumentach Aspose.Note przy użyciu Aspose.Note dla .NET. Wykonując te proste kroki, możesz skutecznie zarządzać wersjami i zapewnić integralność dokumentów w swoich aplikacjach.
+tym samouczku omówiliśmy, jak wycofać wersje w dokumentach Aspose.Note przy użyciu Aspose.Note dla .NET. Wykonując te proste kroki, możesz skutecznie zarządzać wersjami i zapewnić integralność dokumentów w swoich aplikacjach.
 
 ## Często zadawane pytania
 

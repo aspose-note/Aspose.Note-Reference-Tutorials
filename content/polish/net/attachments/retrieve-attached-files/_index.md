@@ -9,7 +9,7 @@ url: /pl/net/attachments/retrieve-attached-files/
 ---
 ## Wstęp
 
-W tym samouczku omówimy, jak odzyskać załączone pliki z dokumentu za pomocą Aspose.Note dla .NET. Aspose.Note to potężny interfejs API, który umożliwia programistom programową pracę z plikami Microsoft OneNote. Podzielimy ten proces na proste kroki, aby ułatwić jego wykonanie.
+tym samouczku omówimy, jak odzyskać załączone pliki z dokumentu za pomocą Aspose.Note dla .NET. Aspose.Note to potężny interfejs API, który umożliwia programistom programową pracę z plikami Microsoft OneNote. Podzielimy ten proces na proste kroki, aby ułatwić jego wykonanie.
 
 ## Warunki wstępne
 

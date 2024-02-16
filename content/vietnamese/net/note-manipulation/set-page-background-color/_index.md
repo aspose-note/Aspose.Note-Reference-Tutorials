@@ -70,7 +70,7 @@ Cuối cùng, lưu tài liệu đã sửa đổi:
 document.Save(Path.Combine(dataDir, "SetPageBackgroundColor.one"));
 ```
 
- Đảm bảo thay thế`"SetPageBackgroundColor.one"`với tên tệp mong muốn cho tài liệu đã sửa đổi.
+ Đảm bảo thay thế`"SetPageBackgroundColor.one"` với tên tệp mong muốn cho tài liệu đã sửa đổi.
 
 ## Phần kết luận
 
@@ -88,7 +88,7 @@ Câu trả lời 2: Aspose.Note chủ yếu tập trung vào làm việc với c
 
 ### Câu hỏi 3: Có phiên bản dùng thử cho Aspose.Note cho .NET không?
 
- Đ3: Có, bạn có thể tải xuống phiên bản dùng thử miễn phí từ[đây](https://releases.aspose.com/).
+Đ3: Có, bạn có thể tải xuống phiên bản dùng thử miễn phí từ[đây](https://releases.aspose.com/).
 
 ### Câu hỏi 4: Tôi có thể xin giấy phép tạm thời cho mục đích thử nghiệm không?
 

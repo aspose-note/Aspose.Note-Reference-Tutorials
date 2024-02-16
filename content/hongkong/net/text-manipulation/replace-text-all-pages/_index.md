@@ -68,7 +68,7 @@ Console.WriteLine("\nText replaced successfully on all pages.\nFile saved at " +
 ```
 通知使用者文字替換流程已成功。
 ## 結論：使用 Aspose.Note 增強您的 .NET 開發能力
-總之，掌握使用 Aspose.Note for .NET 取代所有頁面上的文字的藝術可以為您的開發人員工具箱添加一個有價值的工具。此處提供的逐步指南為您提供了將此功能無縫整合到您的專案中的知識，從而提高了文件處理效率。
+總之，掌握使用 Aspose.Note for .NET 取代所有頁面上的文字的藝術可以為您的開發人員工具箱添加一個有價值的工具。這裡提供的逐步指南為您提供了將此功能無縫整合到您的專案中的知識，從而提高了文件處理效率。
 ## 經常問的問題
 ### Q：除了 PDF 之外，我可以替換其他文件格式的文字嗎？
 答：是的，Aspose.Note for .NET 支援各種輸出格式。調整`SaveFormat`相應的參數。

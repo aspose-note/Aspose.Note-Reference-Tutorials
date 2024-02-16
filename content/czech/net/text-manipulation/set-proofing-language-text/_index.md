@@ -8,14 +8,14 @@ weight: 25
 url: /cs/net/text-manipulation/set-proofing-language-text/
 ---
 ## Úvod
-Vítejte ve světě Aspose.Note pro .NET! V tomto komplexním průvodci prozkoumáme fascinující proces nastavení jazyka korektury textu pomocí Aspose.Note. Ať už jste zkušený vývojář nebo s Aspose.Note teprve začínáte, tento tutoriál vám poskytne podrobné informace a podrobné pokyny, jak zlepšit své dovednosti v práci s textem.
+Vítejte ve světě Aspose.Note pro .NET! V tomto komplexním průvodci prozkoumáme fascinující proces nastavení jazyka korektury textu pomocí Aspose.Note. Ať už jste zkušený vývojář nebo s Aspose.Note teprve začínáte, tento tutoriál vám poskytne podrobné informace a podrobné pokyny, jak zlepšit své dovednosti v manipulaci s textem.
 ## Předpoklady
 Než se pustíme do výukového programu, ujistěte se, že máte splněny následující předpoklady:
--  Aspose.Note pro .NET: Ujistěte se, že máte nainstalovanou nejnovější verzi Aspose.Note pro .NET. Můžete si jej stáhnout[tady](https://releases.aspose.com/note/net/).
+- Aspose.Note pro .NET: Ujistěte se, že máte nainstalovanou nejnovější verzi Aspose.Note pro .NET. Můžete si jej stáhnout[tady](https://releases.aspose.com/note/net/).
 - Vývojové prostředí .NET: Mějte na svém počítači připraveno funkční vývojové prostředí .NET.
 - Textový editor nebo IDE: Vyberte si preferovaný textový editor nebo integrované vývojové prostředí (IDE) pro kódování.
 Nyní začněme s nastavením jazyka korektury pro text v Aspose.Note!
-## Importovat jmenné prostory
+## Import jmenných prostorů
 Ve vašem projektu .NET je zásadní importovat potřebné jmenné prostory pro přístup k funkcím Aspose.Note. Na začátek kódu uveďte následující jmenné prostory:
 ```csharp
     using System.Globalization;
@@ -76,7 +76,7 @@ document.Save(Path.Combine("Your Document Directory", "SetProofingLanguageForTex
 ```
 Gratulujeme! Úspěšně jste nastavili jazyk kontroly pravopisu pro text pomocí Aspose.Note pro .NET.
 ## Závěr
-V tomto tutoriálu jsme se ponořili do procesu nastavení jazyka korektury pro text v Aspose.Note pro .NET. S podrobným průvodcem a úryvky kódu jste nyní vybaveni pro vylepšení svých možností manipulace s textem. Experimentujte s různými jazyky a uvolněte plný potenciál Aspose.Note ve svých projektech .NET.
+tomto tutoriálu jsme se ponořili do procesu nastavení jazyka korektury pro text v Aspose.Note pro .NET. S podrobným průvodcem a úryvky kódu jste nyní vybaveni pro vylepšení svých možností manipulace s textem. Experimentujte s různými jazyky a uvolněte plný potenciál Aspose.Note ve svých projektech .NET.
 
 ## FAQ
 ### Mohu nastavit jazyk korektury pro konkrétní slova v odstavci?

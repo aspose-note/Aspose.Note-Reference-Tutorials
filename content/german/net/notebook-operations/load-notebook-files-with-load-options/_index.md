@@ -81,7 +81,7 @@ A1: Ja, Aspose.Note für .NET bietet umfassende APIs für die programmgesteuerte
 
 ### F2: Gibt es eine kostenlose Testversion für Aspose.Note für .NET?
 
- A2: Ja, Sie können eine kostenlose Testversion von Aspose.Note für .NET unter nutzen[Hier](https://releases.aspose.com/).
+A2: Ja, Sie können eine kostenlose Testversion von Aspose.Note für .NET unter nutzen[Hier](https://releases.aspose.com/).
 
 ### F3: Wo finde ich Dokumentation für Aspose.Note für .NET?
 

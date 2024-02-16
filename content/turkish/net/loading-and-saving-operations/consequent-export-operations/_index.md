@@ -41,7 +41,7 @@ Document doc = new Document() { AutomaticLayoutChangesDetectionEnabled = false }
 
 ## Adım 2: Yeni Bir Sayfa Başlatın
 
- Yeni bir tane oluştur`Page` nesneyi seçin ve özelliklerini belirtin:
+ Yeni bir tane oluştur`Page`nesneyi seçin ve özelliklerini belirtin:
 
 ```csharp
 Aspose.Note.Page page = new Aspose.Note.Page(doc);

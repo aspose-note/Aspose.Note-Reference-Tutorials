@@ -17,7 +17,7 @@ Bevor wir uns auf die Codierungsreise begeben, stellen Sie sicher, dass die folg
 3. Dokumentenverzeichnis: Organisieren Sie Ihre Dokumente in einem speziellen Verzeichnis.
 Nachdem wir nun den Grundstein gelegt haben, können wir mit den nächsten entscheidenden Schritten fortfahren.
 ## Namespaces importieren
-Stellen Sie in Ihrem .NET-Projekt sicher, dass Sie die erforderlichen Namespaces importieren, um die Funktionen von Aspose.Note effektiv nutzen zu können. Fügen Sie Ihrer Codedatei die folgenden Namespaces hinzu:
+Stellen Sie in Ihrem .NET-Projekt sicher, dass Sie die erforderlichen Namespaces importieren, um die Aspose.Note-Funktionen effektiv nutzen zu können. Fügen Sie Ihrer Codedatei die folgenden Namespaces hinzu:
 ```csharp
     using System;
     using System.Collections.Generic;
@@ -79,4 +79,4 @@ Zusammenfassend lässt sich sagen, dass die Beherrschung der Kunst des Ersetzens
 ### F: Wo finde ich weitere Tutorials und Dokumentation für Aspose.Note für .NET?
  A: Besuchen Sie die[Dokumentation](https://reference.aspose.com/note/net/) für ausführliche Ressourcen und Tutorials.
 ### F: Kann ich Aspose.Note für kommerzielle Projekte verwenden?
- A: Ja, prüfen Sie die Lizenzoptionen und tätigen Sie Käufe[Hier](https://purchase.aspose.com/buy).
+A: Ja, prüfen Sie die Lizenzoptionen und tätigen Sie Käufe[Hier](https://purchase.aspose.com/buy).

@@ -30,7 +30,7 @@ Thay thế "Thư mục tài liệu của bạn" bằng đường dẫn đến th
 ```csharp
 Document oneFile = new Document(dataDir + "Aspose.one");
 ```
- Tải tài liệu Aspose.Note của bạn vào`Document` đối tượng để xử lý tiếp.
+Tải tài liệu Aspose.Note của bạn vào`Document` đối tượng để xử lý tiếp.
 ## Bước 3: Truy xuất văn bản
 ```csharp
 string text = string.Join(Environment.NewLine, oneFile.GetChildNodes<RichText>().Select(e => e.Text)) + Environment.NewLine;

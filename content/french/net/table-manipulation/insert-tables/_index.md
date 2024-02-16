@@ -56,7 +56,7 @@ cell12.AppendChildLast(GetOutlineElementWithText(doc, "cell_1.2"));
 cell13.AppendChildLast(GetOutlineElementWithText(doc, "cell_1.3"));
 ```
 
-## Étape 4 : Ajouter des lignes au tableau
+## Étape 4 : ajouter des lignes au tableau
 
 Ajoutez les cellules à leurs lignes respectives.
 ```csharp
@@ -76,7 +76,7 @@ Table table = new Table(doc)
 };
 ```
 
-## Étape 6 : Ajouter des lignes au tableau
+## Étape 6 : ajouter des lignes au tableau
 
 Ajoutez les lignes contenant des cellules au tableau.
 ```csharp

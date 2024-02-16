@@ -103,7 +103,7 @@ A1: Aspose.Note mendukung Microsoft OneNote 2010 dan versi yang lebih baru.
 
 ### Q3: Apakah Aspose.Note menawarkan uji coba gratis?
 
-A3: Ya, Anda bisa mendapatkan uji coba gratis[Di Sini](https://releases.aspose.com/).
+ A3: Ya, Anda bisa mendapatkan uji coba gratis[Di Sini](https://releases.aspose.com/).
 
 ### Q4: Di mana saya dapat menemukan dokumentasi untuk Aspose.Note?
 
@@ -111,4 +111,4 @@ A3: Ya, Anda bisa mendapatkan uji coba gratis[Di Sini](https://releases.aspose.c
 
 ### Q5: Di mana saya bisa mendapatkan dukungan untuk Aspose.Note?
 
-A5: Untuk dukungan, Anda dapat mengunjungi Aspose.Note[forum](https://forum.aspose.com/c/note/28).
+ A5: Untuk dukungan, Anda dapat mengunjungi Aspose.Note[forum](https://forum.aspose.com/c/note/28).

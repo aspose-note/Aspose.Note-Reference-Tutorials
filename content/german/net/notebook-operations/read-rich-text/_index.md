@@ -84,7 +84,7 @@ A1: Ja, mit Aspose.Note für .NET können Sie OneNote-Dateien programmgesteuert 
 
 ### F2: Gibt es eine kostenlose Testversion für Aspose.Note für .NET?
 
-A2: Ja, Sie können eine kostenlose Testversion von Aspose.Note für .NET erhalten[Release-Seite](https://releases.aspose.com/).
+ A2: Ja, Sie können eine kostenlose Testversion von Aspose.Note für .NET erhalten[Release-Seite](https://releases.aspose.com/).
 
 ### F3: Wie erhalte ich Unterstützung für Aspose.Note für .NET?
 

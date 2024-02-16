@@ -29,7 +29,7 @@ Uvědomte si, že každý dokument je jedinečný, přizpůsobte možnosti tisku
 
 ## Přizpůsobte si tisk pomocí Aspose.Note Print Options
 
-Posuňte tisk dokumentů na další úroveň s naším výukovým programem o přizpůsobení možností tisku pomocí Aspose.Note pro .NET, a to vše při zachování zaměření OneNotu.
+Posuňte tisk dokumentů na další úroveň s naším výukovým programem o přizpůsobení možností tisku pomocí Aspose.Note pro .NET, a to vše při zachování zaměření na OneNote.
 
 ### Krok 1: Přístup k možnostem tisku OneNotu
 

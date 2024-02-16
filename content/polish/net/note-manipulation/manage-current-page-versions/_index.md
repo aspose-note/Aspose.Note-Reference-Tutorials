@@ -9,13 +9,13 @@ url: /pl/net/note-manipulation/manage-current-page-versions/
 ---
 ## Wstęp
 
-świecie tworzenia oprogramowania zarządzanie różnymi wersjami dokumentów i utrzymywanie ich ma kluczowe znaczenie dla zapewnienia dokładności, identyfikowalności i odpowiedzialności. Aspose.Note dla .NET zapewnia potężne narzędzia ułatwiające ten proces, umożliwiając programistom płynne przesyłanie i zarządzanie bieżącymi wersjami stron. W tym samouczku zagłębimy się w kroki wymagane do przesyłania i zarządzania bieżącymi wersjami stron za pomocą Aspose.Note dla .NET.
+W świecie tworzenia oprogramowania zarządzanie różnymi wersjami dokumentów i utrzymywanie ich ma kluczowe znaczenie dla zapewnienia dokładności, identyfikowalności i odpowiedzialności. Aspose.Note dla .NET zapewnia potężne narzędzia ułatwiające ten proces, umożliwiając programistom płynne przesyłanie i zarządzanie bieżącymi wersjami stron. W tym samouczku zagłębimy się w kroki wymagane do przesyłania i zarządzania bieżącymi wersjami stron za pomocą Aspose.Note dla .NET.
 
 ## Warunki wstępne
 
 Zanim przejdziesz do samouczka, upewnij się, że masz skonfigurowane następujące wymagania wstępne:
 
-1.  Zainstaluj Aspose.Note dla .NET: Pobierz i zainstaluj Aspose.Note dla .NET z[Tutaj](https://releases.aspose.com/note/net/).
+1. Zainstaluj Aspose.Note dla .NET: Pobierz i zainstaluj Aspose.Note dla .NET z[Tutaj](https://releases.aspose.com/note/net/).
 
 2. Znajomość środowiska .NET: Podstawowa znajomość środowiska .NET i języka programowania C#.
 

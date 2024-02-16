@@ -76,10 +76,10 @@ A2：当然，Aspose.Note 会定期更新，以确保与最新的 .NET 框架兼
 
 A3：是的，Aspose.Note 支持将文档保存为各种图像格式，包括 JPEG、PNG、TIFF 等。
 
-### Q4: 我可以在购买前试用 Aspose.Note 吗？
+### Q4：我可以在购买前试用 Aspose.Note 吗？
 
  A4：当然，您可以免费试用[这里](https://releases.aspose.com/)探索其能力。
 
 ### Q5：如果我遇到任何问题，如何获得帮助？
 
-A5：您可以从Aspose社区论坛寻求帮助[这里](https://forum.aspose.com/c/note/28)，或联系他们的支持团队以获得个性化帮助。
+ A5：您可以从Aspose社区论坛寻求帮助[这里](https://forum.aspose.com/c/note/28)，或联系他们的支持团队以获得个性化帮助。

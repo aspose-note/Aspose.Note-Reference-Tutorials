@@ -9,7 +9,7 @@ url: /pl/net/loading-and-saving-operations/specify-save-options/
 ---
 ## Wstęp
 
-W dziedzinie programowania .NET Aspose.Note wyróżnia się jako potężne narzędzie do pracy z dokumentami OneNote. Oferuje kompleksowy zestaw funkcji do efektywnego manipulowania i zarządzania tymi plikami. Jednym z kluczowych aspektów pracy z Aspose.Note jest określenie opcji zapisywania, które pozwalają programistom dostosować format wyjściowy i jakość zgodnie z ich wymaganiami.
+dziedzinie programowania .NET Aspose.Note wyróżnia się jako potężne narzędzie do pracy z dokumentami OneNote. Oferuje kompleksowy zestaw funkcji do efektywnego manipulowania i zarządzania tymi plikami. Jednym z kluczowych aspektów pracy z Aspose.Note jest określenie opcji zapisywania, które pozwalają programistom dostosować format wyjściowy i jakość zgodnie z ich wymaganiami.
 
 ## Warunki wstępne
 
@@ -53,7 +53,7 @@ PdfSaveOptions opts = new PdfSaveOptions
     // Użyj kompresji JPEG
     ImageCompression = Saving.Pdf.PdfImageCompression.Jpeg,
     
-    //Jakość kompresji JPEG
+    // Jakość kompresji JPEG
     JpegQuality = 90
 };
 ```
@@ -71,7 +71,7 @@ doc.Save(dataDir, opts);
 
 ## Wniosek
 
-W tym samouczku omówiliśmy, jak określić opcje zapisywania w Aspose.Note dla .NET, aby dostosować format wyjściowy i jakość podczas zapisywania dokumentów OneNote. Wykonując te kroki, programiści mogą skutecznie manipulować plikami programu OneNote i zarządzać nimi zgodnie ze swoimi specyficznymi wymaganiami.
+tym samouczku omówiliśmy, jak określić opcje zapisywania w Aspose.Note dla .NET, aby dostosować format wyjściowy i jakość podczas zapisywania dokumentów OneNote. Wykonując te kroki, programiści mogą skutecznie manipulować plikami programu OneNote i zarządzać nimi zgodnie ze swoimi specyficznymi wymaganiami.
 
 ## Często zadawane pytania
 

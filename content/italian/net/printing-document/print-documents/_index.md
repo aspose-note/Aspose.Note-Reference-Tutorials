@@ -57,7 +57,7 @@ var document = new Document(dataDir + "Aspose.one");
 
 ## Passaggio 2: stampare il documento
 
- Invocare il`Print` metodo sul`Document`oggetto per avviare il processo di stampa. Questo metodo invia il documento alla stampante predefinita utilizzando la finestra di dialogo standard di Windows con opzioni predefinite.
+ Invocare il`Print` metodo sul`Document` oggetto per avviare il processo di stampa. Questo metodo invia il documento alla stampante predefinita utilizzando la finestra di dialogo standard di Windows con opzioni predefinite.
 
 ```csharp
 document.Print();

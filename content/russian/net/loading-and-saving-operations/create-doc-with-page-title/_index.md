@@ -47,7 +47,7 @@ using System.Globalization;
 ## Шаг 1. Создайте объект документа
 
 ```csharp
-// Создайте объект класса Document
+//Создайте объект класса Document
 Document doc = new Aspose.Note.Document();
 ```
 
