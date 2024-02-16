@@ -70,7 +70,7 @@ System.out.println(myConverter.getText());
 
 After the visiting process is complete, we can retrieve the results. In this example, we print the total number of nodes visited and the accumulated text content.
 
-### Conclusion
+## Conclusion
 
 In this tutorial, we learned how to use the Document Visitor in OneNote with Java using Aspose.Note. Document Visitor provides a powerful way to traverse through the elements of a document and perform various operations.
 
