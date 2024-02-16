@@ -1,6 +1,6 @@
 ---
 title: Mastering OneNote File Manipulation with Aspose.Note
-linktitle: Aspose.Page Tutorials
+linktitle: Aspose.Note Tutorials
 additionalTitle: Aspose API References
 description: Master Aspose.Note with step-by-step tutorials! Learn to manipulate OneNote files programmatically for efficient document processing.
 type: docs
@@ -9,7 +9,7 @@ url: /
 is_root: true
 ---
 
-Welcome to the Aspose.Note Tutorials Listing Page – your comprehensive guide to mastering the powerful capabilities of Aspose.Note, a leading document manipulation API. Whether you're a seasoned developer or a newcomer eager to explore the world of document processing, these tutorials are designed to provide you with step-by-step guidance and hands-on examples. Aspose.Note empowers you to work with Microsoft OneNote files programmatically, unlocking a myriad of possibilities for creating, modifying, and extracting content from OneNote documents. Navigate through our carefully curated tutorials to enhance your skills, streamline your development process, and harness the full potential of Aspose.Note in your applications. Let's embark on this journey of knowledge and efficiency together!
+Embark on a transformative journey with Aspose.Note tutorials, tailored for both .NET and Java platforms, to redefine your approach to OneNote document manipulation. Our comprehensive guides empower your applications with step-by-step insights, covering a spectrum of topics from licensing intricacies to image handling brilliance. Elevate your skills in attachments, hyperlinks, and text manipulation, unlocking the full potential of Aspose.Note for seamless document development. Dive into precise table crafting, efficient PDF imports, and masterful tag management. Print your OneNote creations with customization options, and effortlessly explore loading, saving, and notebook operations. Revolutionize your document manipulation experience, one tutorial at a time, as you explore these valuable resources for both .NET and Java.
 
 ## Aspose.Note for .NET Tutorials
 {{% alert color="primary" %}}
