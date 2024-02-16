@@ -105,12 +105,12 @@ A2: Yes, you can utilize Aspose.Note for Java for both personal and commercial p
 
 ### Q3: Does Aspose.Note for Java offer technical support?
 
-A3: Yes, technical support is available through the Aspose forums at [https://forum.aspose.com/c/note/28](https://forum.aspose.com/c/note/28).
+A3: Yes, technical support is available through the Aspose forums at [here](https://forum.aspose.com/c/note/28).
 
 ### Q4: Can I try Aspose.Note for Java before making a purchase?
 
-A4: Yes, you can explore a free trial version of Aspose.Note for Java from [https://releases.aspose.com/](https://releases.aspose.com/).
+A4: Yes, you can explore a free trial version of Aspose.Note for Java from [Aspose.Note for Java](https://releases.aspose.com/note/java/).
 
 ### Q5: How can I obtain a temporary license for Aspose.Note for Java?
  
-A5: You can acquire a temporary license from [https://purchase.aspose.com/temporary-license/](https://purchase.aspose.com/temporary-license/).
+A5: You can acquire a temporary license from [Temporary license/](https://purchase.aspose.com/temporary-license/).
