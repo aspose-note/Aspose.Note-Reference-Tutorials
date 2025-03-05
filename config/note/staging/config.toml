@@ -1,8 +1,0 @@
-baseURL = "https://reference2.aspose.com/tutorials/note"
-
-[[deployment.targets]]
-name = "Stage"
-URL = "s3://reference2.aspose.com/?prefix=tutorials/note/&region=us-west-2"
-
-
-
