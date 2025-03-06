@@ -3,10 +3,16 @@ title: A csatolt fájlok letöltése az Aspose.Note segítségével
 linktitle: A csatolt fájlok letöltése az Aspose.Note segítségével
 second_title: Aspose.Note .NET API
 description: Ismerje meg, hogyan kérhet le csatolt fájlokat a Microsoft OneNote dokumentumokból az Aspose.Note for .NET használatával. Kövesse a lépéseket a betöltéshez, a csomópontok lekéréséhez és a mellékleteken keresztüli iterációhoz.
-type: docs
 weight: 12
 url: /hu/net/attachments/retrieve-attached-files/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# A csatolt fájlok letöltése az Aspose.Note segítségével
+
 ## Bevezetés
 
 Ebben az oktatóanyagban megvizsgáljuk, hogyan lehet letölteni csatolt fájlokat egy dokumentumból az Aspose.Note for .NET segítségével. Az Aspose.Note egy hatékony API, amely lehetővé teszi a fejlesztők számára, hogy programozottan dolgozzanak Microsoft OneNote fájlokkal. A folyamatot egyszerű lépésekre bontjuk, hogy könnyen követhető legyen.
@@ -90,3 +96,9 @@ A3: Abszolút! Az Aspose kiterjedt dokumentációt és egy dedikált támogatás
 ### 5. kérdés: Hogyan szerezhetek ideiglenes licencet az Aspose.Note számára?
 
 5. válasz: Kérhet ideiglenes licencet az Aspose-tól, hogy értékelje az API teljes képességeit a fejlesztői környezetben.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

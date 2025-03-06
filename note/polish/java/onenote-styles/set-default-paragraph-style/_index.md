@@ -3,10 +3,16 @@ title: Ustaw domyślny styl akapitu w programie OneNote - Aspose.Note
 linktitle: Ustaw domyślny styl akapitu w programie OneNote - Aspose.Note
 second_title: Aspose.Note API Java
 description: Dowiedz się, jak ustawić domyślne style akapitów w programie OneNote przy użyciu programu Aspose.Note dla języka Java. Postępuj zgodnie z naszym przewodnikiem krok po kroku, aby efektywnie formatować tekst w aplikacjach Java.
-type: docs
 weight: 11
 url: /pl/java/onenote-styles/set-default-paragraph-style/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Ustaw domyślny styl akapitu w programie OneNote - Aspose.Note
+
 ## Wstęp
 
 Aspose.Note dla Java oferuje zaawansowane możliwości manipulowania formatowaniem tekstu, w tym ustawianie domyślnych stylów akapitów. Ten samouczek poprowadzi Cię przez proces ustawiania domyślnych stylów akapitów w programie OneNote przy użyciu Aspose.Note.
@@ -127,3 +133,9 @@ O4: Tak, możesz łatwo zintegrować Aspose.Note ze swoimi projektami Java, doda
 ### P5: Czy dostępna jest wersja próbna Aspose.Note?
 
  O5: Tak, możesz uzyskać dostęp do bezpłatnej wersji próbnej Aspose.Note z poziomu[strona internetowa](https://releases.aspose.com/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

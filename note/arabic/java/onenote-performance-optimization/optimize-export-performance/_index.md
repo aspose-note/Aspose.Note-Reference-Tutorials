@@ -3,10 +3,16 @@ title: تحسين أداء التصدير في OneNote باستخدام Java
 linktitle: تحسين أداء التصدير في OneNote باستخدام Java
 second_title: Aspose.Note جافا API
 description: تعرف على كيفية تحسين أداء التصدير في OneNote باستخدام Java مع Aspose.Note. قم بتصدير المستندات إلى تنسيقات مختلفة بكفاءة مع إرشادات خطوة بخطوة.
-type: docs
 weight: 10
 url: /ar/java/onenote-performance-optimization/optimize-export-performance/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# تحسين أداء التصدير في OneNote باستخدام Java
+
 ## مقدمة
 
 ستتعلم في هذا البرنامج التعليمي كيفية تحسين أداء تصدير مستندات OneNote باستخدام Java مع Aspose.Note. سنقوم بإرشادك خلال العملية خطوة بخطوة، مما يضمن أنه يمكنك تصدير مستندات OneNote بكفاءة إلى تنسيقات مختلفة مع الحفاظ على الأداء.
@@ -169,3 +175,9 @@ doc.detectLayoutChanges();
 ### س5: هل يتوفر الدعم الفني لمستخدمي Aspose.Note؟
 
 ج5: نعم، يوفر Aspose دعمًا فنيًا مخصصًا لمساعدة المستخدمين في أي استفسارات أو مشكلات قد يواجهونها أثناء استخدام Aspose.Note.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

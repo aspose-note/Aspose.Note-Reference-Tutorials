@@ -3,10 +3,16 @@ title: Aspose Note .NET의 스트림에서 노트북 로드
 linktitle: Aspose Note .NET의 스트림에서 노트북 로드
 second_title: Aspose.Note .NET API
 description: .NET용 Aspose.Note의 스트림에서 노트북을 로드하는 방법을 알아보세요. .NET 애플리케이션에 원활하게 통합하려면 이 단계별 가이드를 따르세요.
-type: docs
 weight: 19
 url: /ko/net/notebook-operations/load-notebooks-from-stream/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Aspose Note .NET의 스트림에서 노트북 로드
+
 ## 소개
 
 이 튜토리얼에서는 .NET용 Aspose.Note를 사용하여 스트림에서 노트북을 로드하는 방법을 살펴보겠습니다. Aspose.Note는 개발자가 Microsoft OneNote 파일을 프로그래밍 방식으로 작업할 수 있게 해주는 강력한 라이브러리입니다. 스트림에서 노트북을 로드하는 것은 .NET 애플리케이션에서 파일 입력/출력 작업을 처리할 때 일반적인 작업입니다.
@@ -92,3 +98,9 @@ A1: 예, .NET용 Aspose.Note는 .one, .onetoc2 등을 포함한 다양한 버전
 ### Q5: 임시 라이센스 옵션이 있습니까?
 
  A5: 예, 다음에서 임시 라이센스를 얻을 수 있습니다.[여기](https://purchase.aspose.com/temporary-license/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

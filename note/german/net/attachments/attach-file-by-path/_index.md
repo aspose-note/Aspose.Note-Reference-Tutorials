@@ -3,10 +3,16 @@ title: Datei nach Pfad in Aspose.Note anhängen
 linktitle: Datei nach Pfad in Aspose.Note anhängen
 second_title: Aspose.Note .NET-API
 description: Erfahren Sie, wie Sie mithilfe von Aspose.Note für .NET Dateien programmgesteuert an Microsoft OneNote-Dokumente anhängen. Vereinfachen Sie Ihren Entwicklungsprozess mit diesem umfassenden Tutorial.
-type: docs
 weight: 11
 url: /de/net/attachments/attach-file-by-path/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Datei nach Pfad in Aspose.Note anhängen
+
 ## Einführung
 
 Aspose.Note für .NET ist eine leistungsstarke Bibliothek, die es Entwicklern ermöglicht, programmgesteuert mit Microsoft OneNote-Dateien zu arbeiten. Unabhängig davon, ob Sie OneNote-Dokumente erstellen, bearbeiten, konvertieren oder manipulieren möchten, bietet Aspose.Note für .NET umfassende Funktionen zur Optimierung Ihres Entwicklungsprozesses.
@@ -147,3 +153,9 @@ A3: Ja, Sie müssen eine Lizenz für die kommerzielle Nutzung von Aspose.Note f�
 ### F5: Wo kann ich Unterstützung für Aspose.Note für .NET suchen?
 
  A5: Sie können Unterstützung in den Aspose.Note-Community-Foren suchen[Hier](https://forum.aspose.com/c/note/28).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

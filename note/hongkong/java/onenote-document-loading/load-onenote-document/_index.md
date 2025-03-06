@@ -3,10 +3,16 @@ title: 載入 OneNote 文件 - Java
 linktitle: 載入 OneNote 文件 - Java
 second_title: Aspose.Note Java API
 description: 了解如何使用 Aspose.Note for Java 輕鬆載入和操作 OneNote 文件。針對 Java 開發人員的綜合教程。
-type: docs
 weight: 25
 url: /zh-hant/java/onenote-document-loading/load-onenote-document/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# 載入 OneNote 文件 - Java
+
 ## 介紹
 
 在本教程中，我們將深入研究使用 Aspose.Note for Java 的複雜性，這是一個用於以程式設計方式處理 OneNote 文件的強大函式庫。 Aspose.Note 提供了全面的功能來輕鬆操作、建立和轉換 OneNote 檔案。無論您是經驗豐富的 Java 開發人員還是希望探索 OneNote 文件處理功能的初學者，本教學都將引導您完成入門的基本步驟。
@@ -82,3 +88,10 @@ A2：Aspose.Note for Java 支援各種版本的 OneNote 文檔，包括 .one 和
 ### Q5：如何取得 Aspose.Note for Java 的臨時授權？
 
  A5：如果您需要臨時許可證用於評估或測試目的，您可以向[這裡](https://purchase.aspose.com/temporary-license/).
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

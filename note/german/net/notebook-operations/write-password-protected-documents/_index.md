@@ -3,10 +3,16 @@ title: Schreiben Sie passwortgeschützte Dokumente in Aspose Note .NET
 linktitle: Schreiben Sie passwortgeschützte Dokumente in Aspose Note .NET
 second_title: Aspose.Note .NET-API
 description: Erfahren Sie, wie Sie in Aspose Note .NET passwortgeschützte Dokumente für mehr Sicherheit erstellen. Schritt-für-Schritt-Anleitung enthalten.
-type: docs
 weight: 26
 url: /de/net/notebook-operations/write-password-protected-documents/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Schreiben Sie passwortgeschützte Dokumente in Aspose Note .NET
+
 ## Einführung
 
 In diesem Tutorial befassen wir uns mit dem Prozess der Erstellung passwortgeschützter Dokumente mit Aspose.Note für .NET. Der Passwortschutz verleiht Ihren Dokumenten eine zusätzliche Sicherheitsebene und stellt sicher, dass nur autorisierte Personen auf ihre Inhalte zugreifen können. Wir führen Sie durch jeden Schritt, vom Importieren von Namespaces bis zum Schreiben des Codes für den Passwortschutz.
@@ -90,3 +96,9 @@ A4: Ja, Aspose.Note für .NET verwendet starke Verschlüsselungsalgorithmen, um 
 ### F5: Ist technischer Support für Aspose.Note für .NET verfügbar?
 
  A5: Ja, technischer Support ist über verfügbar[Aspose.Note-Forum](https://forum.aspose.com/c/note/28), wo Sie Hilfe und Beratung von Experten erhalten können.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

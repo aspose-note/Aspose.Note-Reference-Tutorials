@@ -3,10 +3,16 @@ title: A kimeneti képfelbontás beállítása a OneNote-ban – Aspose.Note
 linktitle: A kimeneti képfelbontás beállítása a OneNote-ban – Aspose.Note
 second_title: Aspose.Note Java API
 description: Ismerje meg, hogyan állíthatja be a képfelbontást a OneNote-dokumentumokban az Aspose.Note for Java segítségével. Kövesse lépésről lépésre útmutatónkat az egyszerű megvalósítás érdekében
-type: docs
 weight: 23
 url: /hu/java/onenote-document-saving/set-output-image-resolution/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# A kimeneti képfelbontás beállítása a OneNote-ban – Aspose.Note
+
 ## Bevezetés
 
 Szeretné manipulálni a képek felbontását a OneNote-dokumentumokban Java segítségével? Az Aspose.Note for Java robusztus megoldást kínál az ilyen feladatokra. Ebben az oktatóanyagban végigvezetjük a kimeneti képfelbontás Aspose.Note segítségével történő beállításának lépéseit.
@@ -88,3 +94,9 @@ V1: Igen, a felbontást bármilyen kívánt értékre állíthatja az igényeine
 ### 5. kérdés: Hol kaphatok támogatást az Aspose.Note-tal kapcsolatos lekérdezésekhez?
 
  5. válasz: Kérhet segítséget az Aspose.Note közösségi fórumtól[itt](https://forum.aspose.com/c/note/28).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

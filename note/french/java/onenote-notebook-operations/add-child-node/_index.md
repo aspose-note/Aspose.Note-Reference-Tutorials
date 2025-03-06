@@ -3,10 +3,16 @@ title: Ajouter un nœud enfant dans le bloc-notes OneNote - Aspose.Note
 linktitle: Ajouter un nœud enfant dans le bloc-notes OneNote - Aspose.Note
 second_title: API Java Aspose.Note
 description: Découvrez comment ajouter par programmation des nœuds enfants aux blocs-notes OneNote à l’aide d’Aspose.Note pour Java. Améliorez l'organisation de vos notes sans effort.
-type: docs
 weight: 11
 url: /fr/java/onenote-notebook-operations/add-child-node/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Ajouter un nœud enfant dans le bloc-notes OneNote - Aspose.Note
+
 ## Introduction
 
 OneNote est un outil puissant pour organiser vos notes et vos idées. Aspose.Note pour Java fournit des moyens pratiques de manipuler les fichiers OneNote par programme. Dans ce didacticiel, nous verrons étape par étape le processus d’ajout d’un nœud enfant à un bloc-notes OneNote.
@@ -89,3 +95,9 @@ A4 : Oui, vous pouvez facilement intégrer Aspose.Note pour Java dans vos projet
 ### Q5 : Existe-t-il un forum communautaire où je peux demander de l'aide et des conseils pour utiliser Aspose.Note pour Java ?
 
  A5 : Oui, vous pouvez visiter le[Forum Aspose.Note](https://forum.aspose.com/c/note/28) pour poser des questions, partager des connaissances et interagir avec d’autres utilisateurs et experts.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

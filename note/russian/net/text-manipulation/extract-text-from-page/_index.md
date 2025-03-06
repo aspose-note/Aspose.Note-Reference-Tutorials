@@ -3,10 +3,16 @@ title: Извлечь текст со страницы в Aspose.Note
 linktitle: Извлечь текст со страницы в Aspose.Note
 second_title: Aspose.Note .NET API
 description: Раскройте возможности Aspose.Note в .NET! Научитесь шаг за шагом извлекать текст из страниц OneNote. Повысьте свои навыки обработки документов сегодня.
-type: docs
 weight: 17
 url: /ru/net/text-manipulation/extract-text-from-page/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Извлечь текст со страницы в Aspose.Note
+
 ## Введение
 Добро пожаловать в это подробное руководство по извлечению текста со страницы в Aspose.Note с использованием .NET. Aspose.Note — это мощная библиотека для работы с документами, которая позволяет беспрепятственно работать с файлами Microsoft OneNote. В этом руководстве мы сосредоточимся на пошаговом процессе извлечения текста со страницы, предоставляя вам знания, необходимые для расширения ваших возможностей обработки документов.
 ## Предварительные условия
@@ -61,3 +67,9 @@ if (page != null)
 О: Да, Aspose.Note предоставляет комплексные возможности редактирования, позволяя вам изменять и сохранять документ после извлечения текста.
 ### Вопрос: Где я могу получить дополнительную поддержку или помощь?
  А: Посетите[Форум Aspose.Note](https://forum.aspose.com/c/note/28) за поддержку и обсуждения со стороны сообщества.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

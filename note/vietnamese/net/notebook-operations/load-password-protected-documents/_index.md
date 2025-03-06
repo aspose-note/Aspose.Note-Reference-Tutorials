@@ -3,10 +3,16 @@ title: Tải tài liệu được bảo vệ bằng mật khẩu trong Aspose No
 linktitle: Tải tài liệu được bảo vệ bằng mật khẩu trong Aspose Note .NET
 second_title: Aspose.Note .NET API
 description: Tìm hiểu cách tải tài liệu được bảo vệ bằng mật khẩu một cách an toàn trong Aspose Note .NET bằng các bước đơn giản. Đảm bảo tính bảo mật dữ liệu bằng mã hóa.
-type: docs
 weight: 22
 url: /vi/net/notebook-operations/load-password-protected-documents/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Tải tài liệu được bảo vệ bằng mật khẩu trong Aspose Note .NET
+
 ## Giới thiệu
 
 Aspose.Note for .NET là một API mạnh mẽ cho phép các nhà phát triển làm việc với các tệp Microsoft OneNote theo chương trình. Trong hướng dẫn này, chúng ta sẽ tìm hiểu cách tải tài liệu được bảo vệ bằng mật khẩu bằng Aspose.Note cho .NET.
@@ -77,3 +83,9 @@ Câu trả lời 4: Có, bạn có thể đặt các mật khẩu khác nhau cho
 ### Câu hỏi 5: Có phiên bản dùng thử cho Aspose.Note cho .NET không?
 
  Câu trả lời 5: Có, bạn có thể truy cập phiên bản dùng thử miễn phí của Aspose.Note dành cho .NET từ[đây](https://releases.aspose.com/), cho phép bạn khám phá các tính năng của nó trước khi mua hàng.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -3,10 +3,16 @@ title: Taak- en Outlook-integratie
 linktitle: Taak- en Outlook-integratie
 second_title: Aspose.Note Java-API
 description: Ontgrendel het potentieel van Aspose.Note Java met onze tutorials over het integreren van Outlook-taken in OneNote. Verbeter uw vaardigheden op het gebied van documentverwerking met onze tutorials.
-type: docs
 weight: 35
 url: /nl/java/task-and-outlook-integration/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Taak- en Outlook-integratie
+
 
 ## Invoering
 
@@ -38,3 +44,9 @@ Wanneer u aan deze reis met Aspose.Note voor Java begint, onthoud dan dat effici
 ## Tutorials voor taak- en Outlook-integratie
 ### [Outlook-taak ophalen in OneNote - Aspose.Note](./get-outlook-task/)
 Ontdek de kracht van Aspose.Note voor Java bij het moeiteloos extraheren van Outlook-taken uit OneNote. Volg onze stapsgewijze handleiding en verbeter uw documentverwerkingsmogelijkheden.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

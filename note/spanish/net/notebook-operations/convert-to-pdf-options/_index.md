@@ -3,10 +3,16 @@ title: Convierta cuadernos a PDF con opciones en Aspose Note .NET
 linktitle: Convierta cuadernos a PDF con opciones en Aspose Note .NET
 second_title: Aspose.Nota .NET API
 description: Aprenda a convertir cuadernos de Microsoft OneNote a formato PDF utilizando la biblioteca Aspose.Note para .NET con opciones personalizables.
-type: docs
 weight: 16
 url: /es/net/notebook-operations/convert-to-pdf-options/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Convierta cuadernos a PDF con opciones en Aspose Note .NET
+
 ## Introducción
 
 En este tutorial, recorreremos el proceso de conversión de cuadernos a formato PDF utilizando Aspose.Note para la biblioteca .NET. Aspose.Note para .NET proporciona un potente conjunto de funciones para trabajar con archivos de Microsoft OneNote mediante programación.
@@ -102,3 +108,9 @@ R4: Sí, puede descargar una prueba gratuita de Aspose.Note para .NET desde el s
 ### P5: ¿Cómo puedo obtener soporte técnico para Aspose.Note para .NET?
 
  R5: Puede obtener soporte técnico para Aspose.Note para .NET visitando el[Foro Aspose.Note](https://forum.aspose.com/c/note/28) o contactando directamente al equipo de soporte de Aspose.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

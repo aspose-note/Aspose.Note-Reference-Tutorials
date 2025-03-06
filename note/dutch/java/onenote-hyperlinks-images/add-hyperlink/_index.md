@@ -3,10 +3,16 @@ title: Hyperlink toevoegen in OneNote met Java
 linktitle: Hyperlink toevoegen in OneNote met Java
 second_title: Aspose.Note Java-API
 description: Leer hoe u hyperlinks toevoegt in OneNote met behulp van Java met de Aspose.Note-bibliotheek. Verbeter uw notities moeiteloos met interactieve links.
-type: docs
 weight: 10
 url: /nl/java/onenote-hyperlinks-images/add-hyperlink/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Hyperlink toevoegen in OneNote met Java
+
 ## Invoering
 
 Het toevoegen van hyperlinks aan uw OneNote-documenten met behulp van Java kan de interactiviteit en bruikbaarheid van uw notities aanzienlijk vergroten. In deze zelfstudie begeleiden we u stap voor stap door het proces met behulp van de Aspose.Note voor Java-bibliotheek. Laten we erin duiken!
@@ -136,3 +142,9 @@ A4: Ja, het integreren van Aspose.Note in uw Java-projecten is eenvoudig en goed
 ### V5: Waar kan ik meer hulp en bronnen vinden voor het gebruik van Aspose.Note?
 
  A5: U kunt uitgebreide documentatie, tutorials en community-ondersteuning vinden op de[Aspose.Note-forum](https://forum.aspose.com/c/note/28).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

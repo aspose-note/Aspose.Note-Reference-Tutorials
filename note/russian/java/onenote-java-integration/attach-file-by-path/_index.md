@@ -3,10 +3,16 @@ title: Прикрепить файл по пути в OneNote с помощью 
 linktitle: Прикрепить файл по пути в OneNote с помощью Java
 second_title: Aspose.Note Java API
 description: Легко добавляйте файлы в свои заметки OneNote! Узнайте, как прикреплять файлы по пути в Java с помощью Aspose.Note. Простое руководство и код включены! #OneNote #Java #Aspose
-type: docs
 weight: 11
 url: /ru/java/onenote-java-integration/attach-file-by-path/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Прикрепить файл по пути в OneNote с помощью Java
+
 ## Введение
 
 OneNote — это универсальный инструмент для организации и управления заметками, а с помощью Aspose.Note для Java вы можете расширить его функциональность, программно прикрепляя файлы к своим заметкам. В этом руководстве мы покажем вам, как прикрепить файл по его пути в OneNote с помощью Java.
@@ -148,3 +154,9 @@ doc.save(dataDir);
 ### В5: Существует ли ограничение на размер файла, который я могу прикрепить?
 
 О5: Aspose.Note не накладывает строгих ограничений на размер файла, но учитывает влияние на производительность для очень больших файлов.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

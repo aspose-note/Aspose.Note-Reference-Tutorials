@@ -3,10 +3,16 @@ title: Push aktuell sidversion i OneNote - Aspose.Note
 linktitle: Push aktuell sidversion i OneNote - Aspose.Note
 second_title: Aspose.Note Java API
 description: Håll OneNote-innehåll fräscht! Lär dig att uppdatera sidhistorik och hantera versioner, steg-för-steg-guide och kod ingår. #OneNote #Java #Aspose
-type: docs
 weight: 18
 url: /sv/java/onenote-page-manipulation/push-current-page-version/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Push aktuell sidversion i OneNote - Aspose.Note
+
 ## Introduktion
 
 I den här handledningen kommer vi att utforska hur man använder Aspose.Note för Java för att driva den aktuella sidversionen i OneNote. Aspose.Note är ett kraftfullt Java-bibliotek som låter utvecklare arbeta med Microsoft OneNote-dokument programmatiskt, vilket möjliggör olika operationer som att skapa, manipulera och konvertera OneNote-filer.
@@ -90,3 +96,9 @@ S4: Ja, Aspose.Note för Java stöder konvertering av OneNote-filer till olika f
 ### F5: Var kan jag få support för Aspose.Note för Java om jag stöter på några problem?
 
  A5: Du kan besöka[Aspose.Note forum](https://forum.aspose.com/c/note/28) att söka hjälp från samhället eller kontakta Aspose support direkt.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

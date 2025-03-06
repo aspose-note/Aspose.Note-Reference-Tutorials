@@ -3,10 +3,16 @@ title: Obtenha tags de nó no OneNote - Aspose.Note
 linktitle: Obtenha tags de nó no OneNote - Aspose.Note
 second_title: API Java Aspose.Note
 description: Descubra os segredos do OneNote com Aspose.Note para Java. Este guia permite que você extraia tags de nó sem esforço. Mergulhe no futuro da manipulação de documentos!
-type: docs
 weight: 15
 url: /pt/java/onenote-tag-operations/get-node-tags/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Obtenha tags de nó no OneNote - Aspose.Note
+
 ## Introdução
 Bem-vindo ao reino do Aspose.Note para Java! Se você deseja se aprofundar no gerenciamento e na extração de informações de documentos do OneNote, você está no lugar certo. Neste tutorial, orientaremos você no processo de obtenção de tags de nó no OneNote usando Aspose.Note para Java. Ao final, você estará equipado com o conhecimento necessário para aproveitar todo o potencial desta poderosa API Java.
 ## Pré-requisitos
@@ -81,3 +87,9 @@ Sim, Aspose.Note permite modificar e atualizar as propriedades do NoteTag progra
  Explore a documentação detalhada[aqui](https://reference.aspose.com/note/java/).
 ### Como posso obter suporte para quaisquer problemas ou dúvidas?
  Acesse o fórum de suporte[aqui](https://forum.aspose.com/c/note/28) para obter assistência da comunidade Aspose.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

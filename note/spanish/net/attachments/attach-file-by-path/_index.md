@@ -3,10 +3,16 @@ title: Adjuntar archivo por ruta en Aspose.Note
 linktitle: Adjuntar archivo por ruta en Aspose.Note
 second_title: Aspose.Nota .NET API
 description: Aprenda a adjuntar archivos a documentos de Microsoft OneNote mediante programación utilizando Aspose.Note para .NET. Simplifique su proceso de desarrollo con este completo tutorial.
-type: docs
 weight: 11
 url: /es/net/attachments/attach-file-by-path/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Adjuntar archivo por ruta en Aspose.Note
+
 ## Introducción
 
 Aspose.Note para .NET es una potente biblioteca que permite a los desarrolladores trabajar con archivos de Microsoft OneNote mediante programación. Ya sea que desee crear, editar, convertir o manipular documentos de OneNote, Aspose.Note para .NET proporciona una funcionalidad integral para agilizar su proceso de desarrollo.
@@ -147,3 +153,9 @@ R3: Sí, necesita adquirir una licencia para uso comercial de Aspose.Note para .
 ### P5: ¿Dónde puedo buscar soporte para Aspose.Note para .NET?
 
  R5: Puede buscar ayuda en los foros de la comunidad Aspose.Note[aquí](https://forum.aspose.com/c/note/28).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

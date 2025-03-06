@@ -3,10 +3,16 @@ title: Zapisz w formacie PDF przy użyciu ustawień strony w programie OneNote �
 linktitle: Zapisz w formacie PDF przy użyciu ustawień strony w programie OneNote — Aspose.Note
 second_title: Aspose.Note API Java
 description: Dowiedz się, jak zapisywać dokumenty OneNote w formacie PDF w Javie przy użyciu biblioteki Aspose.Note. Przewodnik krok po kroku z przykładami kodu dla różnych ustawień strony.
-type: docs
 weight: 19
 url: /pl/java/onenote-document-saving/save-to-pdf-using-page-settings/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Zapisz w formacie PDF przy użyciu ustawień strony w programie OneNote — Aspose.Note
+
 ## Wstęp
 
 W tym samouczku nauczymy się, jak zapisywać dokumenty OneNote w formacie PDF przy użyciu różnych ustawień strony w Aspose.Note dla Java. Omówimy dwie metody: zapisywanie z ustawieniami strony Letter i zapisywanie z ustawieniami strony A4 bez ograniczenia wysokości.
@@ -112,3 +118,9 @@ O4: Tak, możesz przetwarzać wsadowo wiele plików OneNote za pomocą Aspose.No
 ### P5: Czy dostępna jest wersja próbna do celów testowych?
 
 Odpowiedź 5: Tak, możesz pobrać bezpłatną wersję próbną Aspose.Note dla Java ze strony internetowej.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

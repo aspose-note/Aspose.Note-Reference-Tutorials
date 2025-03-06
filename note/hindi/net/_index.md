@@ -1,12 +1,17 @@
 ---
 title: .NET के लिए Aspose.Note के व्यापक ट्यूटोरियल और उदाहरण
 linktitle: .NET ट्यूटोरियल के लिए Aspose.Note
-type: docs
 weight: 10
 url: /hi/net/
 description: व्यापक ट्यूटोरियल के साथ .NET के लिए मास्टर Aspose.Note! अनुलग्नकों, हाइपरलिंक्स, छवियों और बहुत कुछ में गोता लगाएँ। अपने OneNote दस्तावेज़ हेरफेर को उन्नत करें।
-is_root: true
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# .NET के लिए Aspose.Note के व्यापक ट्यूटोरियल और उदाहरण
+
 ## परिचय
 
 क्या आप अपने OneNote दस्तावेज़ हेरफेर गेम को उन्नत करने के लिए तैयार हैं? .NET के लिए Aspose.Note संभावनाओं की दुनिया के द्वार खोलता है, और हमने आपके लिए व्यापक ट्यूटोरियल और उदाहरण उपलब्ध कराए हैं। लाइसेंसिंग जटिलताओं से लेकर उन्नत पाठ हेरफेर तक, बेहतर दस्तावेज़ विकास की यात्रा शुरू करें।
@@ -97,3 +102,9 @@ Aspose.Note दस्तावेज़ों में अन्तरक्र
 टैग प्रबंधन के साथ मास्टर Aspose.Note। चित्र, तालिकाएँ, टेक्स्ट नोड्स जोड़ें और मीटिंग नोट्स तैयार करें। टैग विवरण पुनर्प्राप्त करें और दस्तावेज़ हेरफेर बढ़ाएँ।
 ### [पाठ में हेरफेर](./text-manipulation/)
 .NET के लिए Aspose.Note के साथ अपने OneNote दस्तावेज़ों को रूपांतरित करें! बुलेट लगाने और नंबरिंग से लेकर स्टाइल बदलने तक, टेक्स्ट हेरफेर तकनीक सीखें।
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

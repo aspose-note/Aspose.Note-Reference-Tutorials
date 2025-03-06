@@ -3,10 +3,16 @@ title: แยกแยะประเภทโหนดในเอกสาร 
 linktitle: แยกแยะประเภทโหนดในเอกสาร OneNote - Java
 second_title: Aspose.Note Java API
 description: เรียนรู้วิธีแยกแยะประเภทโหนดภายในเอกสาร OneNote โดยใช้ Java กับ Aspose.Note สำรวจคำแนะนำทีละขั้นตอนและคำถามที่พบบ่อยเพื่อการบูรณาการที่ราบรื่น
-type: docs
 weight: 20
 url: /th/java/onenote-document-loading/distinguish-node-type/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# แยกแยะประเภทโหนดในเอกสาร OneNote - Java
+
 ## การแนะนำ
 
 ในขอบเขตของการเขียนโปรแกรม Java การทำงานกับเอกสาร OneNote นำเสนอความท้าทายและความซับซ้อนในตัวเอง โชคดีที่ Aspose.Note สำหรับ Java มอบโซลูชันที่ครอบคลุมเพื่อนำทาง จัดการ และแยกข้อมูลจากเอกสารเหล่านี้ได้อย่างราบรื่น ในบทช่วยสอนนี้ เราจะเจาะลึกประเด็นเฉพาะด้านหนึ่ง: การแยกประเภทโหนดภายในเอกสาร OneNote โดยใช้ Java ในตอนท้ายของคู่มือนี้ คุณจะมีความเข้าใจที่ชัดเจนเกี่ยวกับวิธีการระบุประเภทโหนดต่างๆ และใช้ประโยชน์จากความรู้นี้อย่างมีประสิทธิภาพในแอปพลิเคชัน Java ของคุณ
@@ -74,3 +80,10 @@ A3: แน่นอนว่า Aspose.Note สำหรับ Java ช่วย
 ### คำถามที่ 5: Aspose.Note สำหรับ Java มีรุ่นทดลองใช้ฟรีหรือไม่
 
  A5: ได้ คุณสามารถสำรวจคุณลักษณะต่างๆ ของ Aspose.Note สำหรับ Java ได้โดยให้ทดลองใช้ฟรีที่[ลิงค์นี้](https://releases.aspose.com/).
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

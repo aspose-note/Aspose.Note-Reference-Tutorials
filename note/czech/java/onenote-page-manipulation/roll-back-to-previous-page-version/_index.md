@@ -3,10 +3,16 @@ title: Vrátit se zpět na předchozí verzi stránky ve OneNotu – Aspose.Note
 linktitle: Vrátit se zpět na předchozí verzi stránky ve OneNotu – Aspose.Note
 second_title: Aspose.Note Java API
 description: Přečtěte si, jak se vrátit k předchozím verzím stránek ve OneNotu pomocí Aspose.Note pro Java. Postupujte podle tohoto podrobného průvodce pro efektivní správu dokumentů.
-type: docs
 weight: 19
 url: /cs/java/onenote-page-manipulation/roll-back-to-previous-page-version/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Vrátit se zpět na předchozí verzi stránky ve OneNotu – Aspose.Note
+
 ## Úvod
 
 V tomto kurzu se ponoříme do využití Aspose.Note pro Java k návratu k předchozí verzi stránky ve OneNotu. OneNote je výkonný nástroj pro psaní poznámek, spolupráci a organizaci, ale občas dojde k chybám nebo je třeba vrátit změny. Aspose.Note nabízí bezproblémovou integraci s Javou a poskytuje vývojářům možnost programově spravovat dokumenty OneNotu. Návrat k předchozí verzi stránky je zásadní funkcí pro zachování přesnosti a integrity v dokumentech OneNotu.
@@ -91,3 +97,9 @@ Odpověď: Aspose.Note nabízí rozsáhlé možnosti pro programovou manipulaci 
 ### Q5: Je pro Aspose.Note k dispozici komunitní fórum nebo podpora?
 
  Odpověď: Ano, můžete navštívit[Aspose.Note fórum](https://forum.aspose.com/c/note/28) pro podporu komunity nebo se obraťte na zákaznickou podporu Aspose.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

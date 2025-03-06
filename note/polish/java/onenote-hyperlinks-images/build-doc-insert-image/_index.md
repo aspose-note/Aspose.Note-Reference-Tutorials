@@ -3,10 +3,16 @@ title: Utwórz dokument i wstaw obraz w programie OneNote przy użyciu języka J
 linktitle: Utwórz dokument i wstaw obraz w programie OneNote przy użyciu języka Java
 second_title: Aspose.Note API Java
 description: Dowiedz się, jak tworzyć dokumenty OneNote i wstawiać obrazy za pomocą Aspose.Note dla Java. Samouczek krok po kroku dotyczący bezproblemowej integracji.
-type: docs
 weight: 12
 url: /pl/java/onenote-hyperlinks-images/build-doc-insert-image/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Utwórz dokument i wstaw obraz w programie OneNote przy użyciu języka Java
+
 ## Wstęp
 
 W tym samouczku omówimy, jak używać Aspose.Note dla Java do tworzenia dokumentów OneNote i wstawiania do nich obrazów. Aspose.Note to potężny interfejs API Java, który umożliwia programistom programową pracę z plikami Microsoft OneNote. Szczegółowo opiszemy każdy krok, aby poprowadzić Cię przez proces.
@@ -119,3 +125,10 @@ Gratulacje! Pomyślnie nauczyłeś się tworzyć dokumenty OneNote i wstawiać d
 ### P5: Czy mogę uzyskać tymczasową licencję na Aspose.Note dla Java?
 
  Odpowiedź 5: Tak, możesz poprosić o licencję tymczasową[Tutaj](https://purchase.aspose.com/temporary-license/).
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

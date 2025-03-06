@@ -3,10 +3,16 @@ title: Αποθήκευση στην εικόνα σε κλίμακα του γ�
 linktitle: Αποθήκευση στην εικόνα σε κλίμακα του γκρι στο OneNote - Aspose.Note
 second_title: Aspose.Note Java API
 description: Μάθετε πώς να αποθηκεύετε ένα έγγραφο ως εικόνα σε κλίμακα του γκρι στο OneNote χρησιμοποιώντας το Aspose.Note για Java. Χειριστείτε εύκολα τα έγγραφα του Microsoft OneNote μέσω προγραμματισμού.
-type: docs
 weight: 17
 url: /el/java/onenote-document-saving/save-to-grayscale-image/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Αποθήκευση στην εικόνα σε κλίμακα του γκρι στο OneNote - Aspose.Note
+
 ## Εισαγωγή
 
 Σε αυτό το σεμινάριο, θα διερευνήσουμε πώς να αποθηκεύσετε ένα έγγραφο ως εικόνα σε κλίμακα του γκρι στο OneNote χρησιμοποιώντας το Aspose.Note για Java. Οι εικόνες σε κλίμακα του γκρι είναι μονόχρωμες εικόνες όπου οι πληροφορίες χρώματος αντιπροσωπεύονται μόνο με αποχρώσεις του γκρι. Το Aspose.Note είναι ένα ισχυρό Java API που επιτρέπει τον χειρισμό των εγγράφων του Microsoft OneNote μέσω προγραμματισμού.
@@ -83,3 +89,9 @@ A3: Ναι, χρειάζεστε έγκυρη άδεια χρήσης για ν�
 ### Ε5: Πού μπορώ να βρω υποστήριξη εάν αντιμετωπίσω προβλήματα;
 
 A5: Μπορείτε να βρείτε υποστήριξη στο φόρουμ Aspose.Note[εδώ](https://forum.aspose.com/c/note/28).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

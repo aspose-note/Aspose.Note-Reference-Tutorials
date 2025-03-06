@@ -3,10 +3,16 @@ title: Создать документ из шаблона в OneNote — Aspose
 linktitle: Создать документ из шаблона в OneNote — Aspose.Note
 second_title: Aspose.Note Java API
 description: Легко создавайте динамические документы с помощью Aspose.Note для Java. Следуйте нашему пошаговому руководству для эффективного создания документов на основе шаблонов.
-type: docs
 weight: 18
 url: /ru/java/onenote-text-manipulation/generate-document-from-template/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Создать документ из шаблона в OneNote — Aspose.Note
+
 ## Введение
 Вы хотите упростить создание документов в своем Java-приложении? Aspose.Note для Java представляет собой мощное решение. В этом руководстве мы покажем вам, как создавать документы из шаблонов с помощью Aspose.Note для Java, что сделает весь процесс простым и эффективным.
 ## Предварительные условия
@@ -84,3 +90,9 @@ Aspose.Note в основном поддерживает Java, но сущест
  Посетить[Форум Aspose.Note](https://forum.aspose.com/c/note/28)обратиться за помощью к сообществу и поддержке Aspose.
 ### Доступна ли бесплатная пробная версия?
  Да, вы можете получить доступ к[бесплатная пробная версия](https://releases.aspose.com/) чтобы изучить возможности перед совершением покупки.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

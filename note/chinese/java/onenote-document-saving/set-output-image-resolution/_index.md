@@ -3,10 +3,16 @@ title: 在 OneNote 中设置输出图像分辨率 - Aspose.Note
 linktitle: 在 OneNote 中设置输出图像分辨率 - Aspose.Note
 second_title: Aspose.Note Java API
 description: 了解如何使用 Aspose.Note for Java 调整 OneNote 文档中的图像分辨率。按照我们的分步指南轻松实施
-type: docs
 weight: 23
 url: /zh/java/onenote-document-saving/set-output-image-resolution/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# 在 OneNote 中设置输出图像分辨率 - Aspose.Note
+
 ## 介绍
 
 您是否希望使用 Java 来操纵 OneNote 文档中图像的分辨率？ Aspose.Note for Java 为此类任务提供了强大的解决方案。在本教程中，我们将逐步完成使用 Aspose.Note 设置输出图像分辨率的步骤。
@@ -88,3 +94,9 @@ A4：是的，Aspose.Note 提供了全面的图像处理功能，包括调整大
 ### Q5：在哪里可以获得 Aspose.Note 相关查询的支持？
 
  A5：您可以从Aspose.Note社区论坛寻求帮助[这里](https://forum.aspose.com/c/note/28).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -3,10 +3,16 @@ title: Converta cadernos em imagem com opções no Aspose Note .NET
 linktitle: Converta cadernos em imagem com opções no Aspose Note .NET
 second_title: API Aspose.Note .NET
 description: Aprenda como converter cadernos em imagens com opções personalizáveis usando Aspose.Note for .NET.
-type: docs
 weight: 13
 url: /pt/net/notebook-operations/convert-to-image-options/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Converta cadernos em imagem com opções no Aspose Note .NET
+
 ## Introdução
 
 Neste tutorial, nos aprofundaremos na conversão de notebooks em imagens com várias opções usando a biblioteca Aspose.Note for .NET. Aspose.Note é uma API .NET poderosa que permite aos desenvolvedores trabalhar com arquivos do Microsoft OneNote programaticamente. Seguindo as etapas descritas neste guia, você aprenderá como converter blocos de anotações em imagens sem esforço e, ao mesmo tempo, personalizar a saída de acordo com suas necessidades.
@@ -95,3 +101,9 @@ R4: Sim, o Aspose.Note for .NET oferece várias opções para personalizar a sa�
 ### Q5: O Aspose.Note for .NET oferece suporte a outros formatos de imagem além de PNG?
 
 R5: Sim, o Aspose.Note for .NET oferece suporte a vários formatos de imagem, incluindo JPEG, BMP, GIF e TIFF.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

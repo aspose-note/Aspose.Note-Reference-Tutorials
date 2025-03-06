@@ -3,10 +3,16 @@ title: Tạo mẫu cho ghi chú cuộc họp với Aspose.Note
 linktitle: Tạo mẫu cho ghi chú cuộc họp với Aspose.Note
 second_title: Aspose.Note .NET API
 description: Tìm hiểu cách tạo ghi chú cuộc họp có cấu trúc bằng Aspose.Note cho .NET. Hướng dẫn này cung cấp hướng dẫn từng bước với các ví dụ về mã.
-type: docs
 weight: 13
 url: /vi/net/tag-management/generate-template-meeting-notes/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Tạo mẫu cho ghi chú cuộc họp với Aspose.Note
+
 ## Giới thiệu
 
 Trong hướng dẫn này, chúng ta sẽ tìm hiểu quy trình tạo mẫu ghi chú cuộc họp bằng Aspose.Note cho .NET. Thư viện này cung cấp các công cụ mạnh mẽ để tạo, chỉnh sửa và thao tác các tài liệu OneNote theo chương trình.
@@ -126,3 +132,9 @@ Câu trả lời 4: Có, Aspose.Note for .NET hỗ trợ nhiều định dạng 
 
  Câu trả lời 5: Có, bạn có thể tải xuống bản dùng thử miễn phí từ[liên kết này](https://releases.aspose.com/).
    
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

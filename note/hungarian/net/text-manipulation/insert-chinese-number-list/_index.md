@@ -3,10 +3,16 @@ title: Szúrja be a kínai számlistát az Aspose.Note szövegbe
 linktitle: Szúrja be a kínai számlistát az Aspose.Note szövegbe
 second_title: Aspose.Note .NET API
 description: Ismerje meg, hogyan illeszthet be könnyedén kínai számlistákat az Aspose.Note-ba .NET dokumentumokhoz. Növelje dokumentumformázási készségeit ezzel a lépésenkénti útmutatóval.
-type: docs
 weight: 20
 url: /hu/net/text-manipulation/insert-chinese-number-list/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Szúrja be a kínai számlistát az Aspose.Note szövegbe
+
 ## Bevezetés
 Bővíteni szeretné Aspose.Note for .NET készségeit azáltal, hogy kínai számlistákat épít be dokumentumaiba? Ha igen, akkor jó helyen jársz! Ebben az oktatóanyagban végigvezetjük a kínai számlisták beszúrásának folyamatán az Aspose.Note for .NET használatával. Ez a hatékony könyvtár lehetővé teszi a OneNote-dokumentumok zökkenőmentes kezelését.
 ## Előfeltételek
@@ -91,3 +97,9 @@ V: Fedezze fel az átfogó[Aspose.Note dokumentáció](https://reference.aspose.
  V: Szerezzen ideiglenes engedélyt[itt](https://purchase.aspose.com/temporary-license/).
 ### K: Hol kérhetek segítséget vagy vitathatom meg az Aspose.Note-tal kapcsolatos kérdéseket?
  V: Látogassa meg a[Aspose.Note támogatási fórum](https://forum.aspose.com/c/note/28) közösségi támogatásért.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

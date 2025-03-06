@@ -3,10 +3,16 @@ title: Bewaar het gebruik van gespecificeerde lettertypen in Aspose.Note
 linktitle: Bewaar het gebruik van gespecificeerde lettertypen in Aspose.Note
 second_title: Aspose.Note .NET API
 description: Leer hoe u documenten met opgegeven lettertypen opslaat in Aspose.Note voor .NET. Pas lettertype-instellingen eenvoudig aan voor consistente documentopmaak.
-type: docs
 weight: 28
 url: /nl/net/loading-and-saving-operations/save-using-specified-fonts/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Bewaar het gebruik van gespecificeerde lettertypen in Aspose.Note
+
 ## Invoering
 
 In deze zelfstudie leren we hoe u documenten kunt opslaan met opgegeven lettertypen in Aspose.Note voor .NET. We zullen verschillende methoden verkennen om dit stap voor stap te bereiken.
@@ -131,3 +137,9 @@ A4: Ja, Aspose.Note maakt het insluiten van lettertypen mogelijk om de portabili
 ### V5: Waar kan ik verdere hulp krijgen met Aspose.Note?
 
  A5: Voor verdere hulp of technische ondersteuning kunt u terecht op de[Aspose.Note-forum](https://forum.aspose.com/c/note/28).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

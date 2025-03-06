@@ -3,10 +3,16 @@ title: OneNote에서 즉시 전자 필기장 로드 - Aspose.Note
 linktitle: OneNote에서 즉시 전자 필기장 로드 - Aspose.Note
 second_title: Aspose.Note 자바 API
 description: Aspose.Note for Java를 사용하여 Java에서 OneNote 노트북을 즉시 로드하는 방법을 알아보세요. 효율적인 노트북 처리로 생산성을 향상시키세요.
-type: docs
 weight: 21
 url: /ko/java/onenote-notebook-operations/load-notebook-instantly/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# OneNote에서 즉시 전자 필기장 로드 - Aspose.Note
+
 ## 소개
 
 이 튜토리얼에서는 Aspose.Note for Java를 사용하여 OneNote에서 노트북을 즉시 로드하는 과정을 안내합니다. Aspose.Note는 개발자가 Microsoft OneNote 파일을 프로그래밍 방식으로 작업할 수 있는 강력한 Java API입니다.
@@ -87,3 +93,9 @@ A2: Java용 Aspose.Note는 .one, .onetoc2 및 .onepkg를 포함한 다양한 버
 ### Q5: Aspose.Note for Java의 임시 라이선스를 어떻게 얻을 수 있나요?
 
  A5: 임시 라이센스를 요청할 수 있습니다.[임시 라이센스 페이지](https://purchase.aspose.com/temporary-license/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -3,10 +3,16 @@ title: Sötét téma alkalmazása a OneNote szövegére – Aspose.Note
 linktitle: Sötét téma alkalmazása a OneNote szövegére – Aspose.Note
 second_title: Aspose.Note Java API
 description: Fedezze fel a sötét téma OneNote-szövegére történő alkalmazásának egyszerű lépéseit az Aspose.Note for Java segítségével. Fokozza a digitális dokumentációs élményt könnyedén.
-type: docs
 weight: 11
 url: /hu/java/onenote-text-manipulation/apply-dark-theme/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Sötét téma alkalmazása a OneNote szövegére – Aspose.Note
+
 ## Bevezetés
 A digitális dokumentáció folyamatosan fejlődő környezetében a jegyzetek esztétikája jelentősen befolyásolhatja az olvashatóságot és a felhasználói élményt. Az egyik figyelemre méltó szempont a sötét téma megvalósítása, amely vizuálisan vonzó és kényelmes környezetet biztosít. Ebben az oktatóanyagban végigvezetjük Önt azon a folyamaton, hogyan alkalmazhat sötét témát a OneNote szövegére az Aspose.Note for Java segítségével.
 ## Előfeltételek
@@ -62,3 +68,9 @@ Igen, az Aspose.Note for Java különféle dokumentumformátumokat támogat, bel
  Igen, hozzáférhet az ingyenes próbaverzióhoz[itt](https://releases.aspose.com/).
 ### Hogyan kaphatok támogatást az Aspose.Note for Java számára?
  Meglátogatni a[Aspose.Note fórum](https://forum.aspose.com/c/note/28) közösségi támogatásért, vagy fedezze fel a prémium támogatási lehetőségeket[itt](https://purchase.aspose.com/temporary-license/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

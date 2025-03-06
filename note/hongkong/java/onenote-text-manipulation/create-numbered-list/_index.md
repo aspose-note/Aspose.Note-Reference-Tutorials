@@ -3,10 +3,16 @@ title: 在 OneNote 中建立編號清單 - Aspose.Note
 linktitle: 在 OneNote 中建立編號清單 - Aspose.Note
 second_title: Aspose.Note Java API
 description: 了解如何使用 Aspose.Note for Java 在 OneNote 中輕鬆建立編號清單。下載免費試用版並深入了解 Java 開發的世界！
-type: docs
 weight: 14
 url: /zh-hant/java/onenote-text-manipulation/create-numbered-list/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# 在 OneNote 中建立編號清單 - Aspose.Note
+
 ## 介紹
 Aspose.Note for Java 讓 Java 開發人員能夠無縫地使用 Microsoft OneNote 檔案。在本教學中，我們將引導您完成使用強大的 Aspose.Note for Java 程式庫在 OneNote 中製作編號清單的過程。
 ## 先決條件
@@ -91,3 +97,9 @@ System.out.printf("File saved: %s\n", dataDir + "CreateNumberedList_out.pdf");
 答：請參閱[文件](https://reference.aspose.com/note/java/)以獲得全面的資訊。
 ### Q：如何購買 Aspose.Note for Java 的授權？
 答：您可以購買許可證[這裡](https://purchase.aspose.com/buy).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

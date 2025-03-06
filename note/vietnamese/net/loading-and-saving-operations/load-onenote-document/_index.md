@@ -3,10 +3,16 @@ title: Tải tài liệu OneNote trong Aspose.Note
 linktitle: Tải tài liệu OneNote trong Aspose.Note
 second_title: Aspose.Note .NET API
 description: Tìm hiểu cách tải, mã hóa và giải mã tài liệu OneNote theo lập trình trong .NET bằng Aspose.Note.
-type: docs
 weight: 16
 url: /vi/net/loading-and-saving-operations/load-onenote-document/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Tải tài liệu OneNote trong Aspose.Note
+
 ## Giới thiệu
 
 Aspose.Note for .NET là một API mạnh mẽ cho phép các nhà phát triển làm việc với các tệp Microsoft OneNote theo chương trình trong các ứng dụng .NET của họ. Cho dù bạn cần tải, thao tác hay chuyển đổi tài liệu OneNote, Aspose.Note for .NET đều cung cấp chức năng toàn diện để hợp lý hóa quy trình làm việc của bạn.
@@ -174,3 +180,9 @@ Câu trả lời 2: Có, bạn có thể kiểm tra xem tài liệu có được
 ### Câu hỏi 5: Làm cách nào tôi có thể nhận được giấy phép tạm thời cho Aspose.Note cho .NET?
 
  Câu trả lời 5: Bạn có thể yêu cầu giấy phép tạm thời từ[Trang mua hàng](https://purchase.aspose.com/temporary-license/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -3,10 +3,16 @@ title: สร้างรายการลำดับเลขใน OneNote -
 linktitle: สร้างรายการลำดับเลขใน OneNote - Aspose.Note
 second_title: Aspose.Note Java API
 description: เรียนรู้วิธีสร้างรายการลำดับเลขใน OneNote ด้วย Aspose.Note for Java ได้อย่างง่ายดาย ดาวน์โหลดรุ่นทดลองใช้ฟรีและดำดิ่งสู่โลกแห่งการพัฒนา Java!
-type: docs
 weight: 14
 url: /th/java/onenote-text-manipulation/create-numbered-list/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# สร้างรายการลำดับเลขใน OneNote - Aspose.Note
+
 ## การแนะนำ
 Aspose.Note สำหรับ Java ช่วยให้นักพัฒนา Java สามารถทำงานกับไฟล์ Microsoft OneNote ได้อย่างราบรื่น ในบทช่วยสอนนี้ เราจะแนะนำคุณตลอดกระบวนการสร้างรายการลำดับเลขใน OneNote ด้วย Aspose.Note สำหรับไลบรารี Java อันทรงพลัง
 ## ข้อกำหนดเบื้องต้น
@@ -91,3 +97,9 @@ System.out.printf("File saved: %s\n", dataDir + "CreateNumberedList_out.pdf");
  ตอบ: โปรดดูที่[เอกสารประกอบ](https://reference.aspose.com/note/java/) เพื่อข้อมูลที่ครบถ้วน
 ### ถาม: ฉันจะซื้อใบอนุญาตสำหรับ Aspose.Note สำหรับ Java ได้อย่างไร
  ตอบ: คุณสามารถซื้อใบอนุญาตได้[ที่นี่](https://purchase.aspose.com/buy).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -1,12 +1,17 @@
 ---
 title: Πλήρη σεμινάρια και παραδείγματα Aspose.Note για .NET
 linktitle: Aspose.Note για .NET Tutorials
-type: docs
 weight: 10
 url: /el/net/
 description: Master Aspose.Note για .NET με ολοκληρωμένα σεμινάρια! Βουτήξτε σε συνημμένα, υπερσυνδέσμους, εικόνες και πολλά άλλα. Αυξήστε τον χειρισμό του εγγράφου OneNote.
-is_root: true
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Πλήρη σεμινάρια και παραδείγματα Aspose.Note για .NET
+
 ## Εισαγωγή
 
 Είστε έτοιμοι να αναβαθμίσετε το παιχνίδι χειρισμού εγγράφων του OneNote; Το Aspose.Note για το .NET ανοίγει τις πόρτες σε έναν κόσμο δυνατοτήτων και σας καλύψαμε με περιεκτικά σεμινάρια και παραδείγματα. Από τις περιπλοκές αδειοδότησης έως την προηγμένη επεξεργασία κειμένου, ξεκινήστε ένα ταξίδι βελτιωμένης ανάπτυξης εγγράφων.
@@ -97,3 +102,9 @@ is_root: true
 Master Aspose.Note με διαχείριση ετικετών. Προσθέστε εικόνες, πίνακες, κόμβους κειμένου και δημιουργήστε σημειώσεις συσκέψεων. Ανακτήστε λεπτομέρειες ετικέτας και βελτιώστε τη διαχείριση εγγράφων.
 ### [Χειρισμός κειμένου](./text-manipulation/)
 Μεταμορφώστε τα έγγραφά σας στο OneNote με το Aspose.Note για .NET! Μάθετε τεχνικές χειρισμού κειμένου, από την εφαρμογή κουκκίδων και την αρίθμηση έως την αλλαγή στυλ.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

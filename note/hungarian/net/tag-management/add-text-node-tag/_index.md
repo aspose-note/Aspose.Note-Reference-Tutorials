@@ -3,10 +3,16 @@ title: Szövegcsomópont hozzáadása címkével az Aspose.Note-ban
 linktitle: Szövegcsomópont hozzáadása címkével az Aspose.Note-ban
 second_title: Aspose.Note .NET API
 description: Ismerje meg, hogyan adhat hozzá szöveges csomópontokat címkékkel a OneNote-dokumentumokhoz az Aspose.Note for .NET használatával.
-type: docs
 weight: 12
 url: /hu/net/tag-management/add-text-node-tag/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Szövegcsomópont hozzáadása címkével az Aspose.Note-ban
+
 ## Bevezetés
 
 Az Aspose.Note for .NET egy hatékony könyvtár, amely lehetővé teszi a fejlesztők számára Microsoft OneNote-fájlok létrehozását, kezelését és konvertálását programozottan a .NET-keretrendszer használatával. Ebben az oktatóanyagban megvizsgáljuk, hogyan adhatunk hozzá címkével ellátott szöveges csomópontot egy OneNote-dokumentumhoz az Aspose.Note for .NET használatával.
@@ -107,3 +113,9 @@ A3: Igen, testreszabhatja a címke színeit és stílusait az Ön igényei szeri
 ### 5. kérdés: Hol találok további forrásokat és támogatást az Aspose.Note for .NET-hez?
 
  A5: Felfedezheti a[Aspose.Note a .NET dokumentációhoz](https://reference.aspose.com/note/net/)és kérjen segítséget a[Aspose.Note fórum](https://forum.aspose.com/c/note/28).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

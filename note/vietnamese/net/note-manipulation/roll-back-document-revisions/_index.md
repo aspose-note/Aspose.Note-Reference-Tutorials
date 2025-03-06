@@ -3,10 +3,16 @@ title: Khôi phục các bản sửa đổi trong tài liệu Aspose.Note
 linktitle: Khôi phục các bản sửa đổi trong tài liệu Aspose.Note
 second_title: Aspose.Note .NET API
 description: Tìm hiểu cách quản lý hiệu quả các bản sửa đổi trong tài liệu Aspose.Note bằng Aspose.Note for .NET. Làm theo hướng dẫn từng bước để khôi phục các bản sửa đổi một cách liền mạch.
-type: docs
 weight: 18
 url: /vi/net/note-manipulation/roll-back-document-revisions/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Khôi phục các bản sửa đổi trong tài liệu Aspose.Note
+
 ## Giới thiệu
 
 Trong thế giới quản lý và chỉnh sửa tài liệu, điều quan trọng là có khả năng theo dõi các thay đổi và hoàn nguyên về các phiên bản trước một cách liền mạch. Aspose.Note for .NET cung cấp các công cụ mạnh mẽ để quản lý các bản sửa đổi một cách hiệu quả, đảm bảo rằng bạn có thể khôi phục các thay đổi bất cứ khi nào cần thiết. Trong hướng dẫn này, chúng ta sẽ đi sâu vào quy trình khôi phục các bản sửa đổi trong tài liệu Aspose.Note theo từng bước.
@@ -99,3 +105,9 @@ Câu trả lời 4: Có, bạn có thể tích hợp chức năng khôi phục v
 ### Câu hỏi 5: Aspose.Note có cung cấp hỗ trợ nếu tôi gặp bất kỳ vấn đề nào trong quá trình khôi phục không?
 
  Câu trả lời 5: Có, Aspose cung cấp hỗ trợ tận tình thông qua diễn đàn của họ. Bạn có thể ghé thăm[Diễn đàn Aspose.Note](https://forum.aspose.com/c/note/28) để được hỗ trợ.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

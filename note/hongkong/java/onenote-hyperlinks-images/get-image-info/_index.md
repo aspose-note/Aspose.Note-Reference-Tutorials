@@ -3,10 +3,16 @@ title: 使用 Java 從 OneNote 獲取圖像信息
 linktitle: 使用 Java 從 OneNote 獲取圖像信息
 second_title: Aspose.Note Java API
 description: 使用 Java 從 OneNote 文件中提取圖像資訊！取得影像尺寸、檔案名稱等。包括簡單的步驟和程式碼範例。 #OneNote #Java #Aspose
-type: docs
 weight: 15
 url: /zh-hant/java/onenote-hyperlinks-images/get-image-info/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# 使用 Java 從 OneNote 獲取圖像信息
+
 ## 介紹
 
 在 Java 開發領域，從各種文件格式中提取資訊是一項常見任務。 OneNote 是一種流行的筆記平台，通常在文字旁邊包含圖像。使用 Java 以程式設計方式從 OneNote 檔案中檢索影像資訊可以簡化文件處理工作流程。在本教程中，我們將深入研究如何使用 Aspose.Note for Java 從 OneNote 文件中提取圖像詳細資訊。
@@ -113,3 +119,9 @@ A2：是的，您可以將 Aspose.Note for Java 用於個人和商業目的。
 ### Q5：如何取得 Aspose.Note for Java 的臨時授權？
  
  A5：您可以從以下機構取得臨時許可證：[臨時牌照/](https://purchase.aspose.com/temporary-license/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

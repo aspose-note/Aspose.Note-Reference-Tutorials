@@ -3,10 +3,16 @@ title: Aspose.Note Αδειοδότηση με Java
 linktitle: Aspose.Note Αδειοδότηση με Java
 second_title: Aspose.Note Java API
 description: Ανακαλύψτε την τέχνη της διαχείρισης μετρημένων αδειών χρήσης για το OneNote σε Java με το Aspose.Note. Ελέγξτε αποτελεσματικά τη χρήση, παρακολουθήστε τις πιστώσεις και βελτιστοποιήστε το κόστος.
-type: docs
 weight: 24
 url: /el/java/licensing-java/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Aspose.Note Αδειοδότηση με Java
+
 ## Εισαγωγή
 
 Είστε έτοιμοι να ξεκινήσετε ένα ταξίδι στον κόσμο του Aspose.Note για Java; Σε αυτόν τον περιεκτικό οδηγό, θα εμβαθύνουμε στις περιπλοκές της διαχείρισης μετρημένων αδειών για το OneNote σε Java. Ας περιηγηθούμε στο τοπίο της αδειοδότησης με το Aspose.Note, ξετυλίγοντας τα μυστήρια και δίνοντάς σας τη δυνατότητα να το χειριστείτε αποτελεσματικά.
@@ -40,3 +46,9 @@ url: /el/java/licensing-java/
 ## Aspose.Note Αδειοδότηση με Java Tutorials
 ### [Διαχείριση μετρημένης άδειας χρήσης για το OneNote σε Java](./manage-metered-license/)
 Μάθετε πώς να διαχειρίζεστε τις μετρημένες άδειες χρήσης για το OneNote σε Java χρησιμοποιώντας τη βιβλιοθήκη Aspose.Note. Ελέγξτε τη χρήση, παρακολουθήστε τις πιστώσεις και βελτιστοποιήστε το κόστος αποτελεσματικά.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -3,10 +3,16 @@ title: Converter bloco de notas em imagem achatada no OneNote - Aspose.Note
 linktitle: Converter bloco de notas em imagem achatada no OneNote - Aspose.Note
 second_title: API Java Aspose.Note
 description: Aprenda como converter um bloco de notas em uma imagem achatada no OneNote usando Aspose.Note para Java. Preserve todos os elementos em um único arquivo de imagem sem esforço.
-type: docs
 weight: 13
 url: /pt/java/onenote-notebook-operations/convert-notebook-to-flattened-image/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Converter bloco de notas em imagem achatada no OneNote - Aspose.Note
+
 ## Introdução
 
 Neste tutorial, iremos guiá-lo através do processo de conversão de um notebook em uma imagem achatada no OneNote usando Aspose.Note para Java. Isso permite que você salve seu notebook como um arquivo de imagem, garantindo que todos os elementos sejam preservados em um único formato de imagem.
@@ -108,3 +114,9 @@ A3: Sim, Aspose.Note oferece amplas opções para personalizar a imagem de saíd
 ### Q5: Onde posso encontrar suporte para Aspose.Note para Java?
 
  A5: Você pode encontrar suporte e recursos no fórum Aspose.Note[aqui](https://forum.aspose.com/c/note/28).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

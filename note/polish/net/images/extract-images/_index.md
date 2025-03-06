@@ -3,10 +3,16 @@ title: Wyodrębnij obrazy z dokumentów Aspose.Note
 linktitle: Wyodrębnij obrazy z dokumentów Aspose.Note
 second_title: Aspose.Note .NET API
 description: Dowiedz się, jak bez wysiłku wyodrębniać obrazy z dokumentów Aspose.Note za pomocą Aspose.Note dla .NET. Zwiększ swoje możliwości manipulowania dokumentami dzięki temu wszechstronnemu samouczkowi.
-type: docs
 weight: 12
 url: /pl/net/images/extract-images/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Wyodrębnij obrazy z dokumentów Aspose.Note
+
 ## Wstęp
 
 Czy chcesz efektywnie wyodrębniać obrazy z dokumentów Aspose.Note? Aspose.Note dla .NET zapewnia solidne rozwiązanie umożliwiające bezproblemową realizację tego zadania. W tym samouczku przeprowadzimy przez ten proces krok po kroku, aby zapewnić bezproblemowe pobieranie obrazów z dokumentów.
@@ -91,3 +97,9 @@ O3: Tak, Aspose.Note dla .NET obsługuje różne formaty dokumentów, zapewniaj�
 ### P5: Gdzie mogę szukać pomocy lub wsparcia dla Aspose.Note dla .NET?
 
  O5: W przypadku jakichkolwiek pytań lub pomocy dotyczącej Aspose.Note dla .NET, możesz odwiedzić stronę[Forum Aspose.Note](https://forum.aspose.com/c/note/28) do interakcji z ekspertami i innymi programistami.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

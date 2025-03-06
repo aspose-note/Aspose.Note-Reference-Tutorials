@@ -3,10 +3,16 @@ title: Преобразование темной темы с помощью Aspo
 linktitle: Применить темную тему к тексту в Aspose.Note
 second_title: Aspose.Note .NET API
 description: Преобразуйте свои документы OneNote с помощью Aspose.Note для .NET! Легко примените гладкую темную тему. Загрузите сейчас и улучшите свои возможности ведения заметок.
-type: docs
 weight: 11
 url: /ru/net/text-manipulation/apply-dark-theme-text/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Преобразование темной темы с помощью Aspose.Note для .NET
+
 ## Введение
 Добро пожаловать в наше пошаговое руководство по применению темной темы к тексту в Aspose.Note для .NET. Aspose.Note — это мощный .NET API, который позволяет разработчикам программно работать с файлами Microsoft OneNote. В этом уроке мы рассмотрим, как придать вашим документам OneNote элегантный и современный вид, применив к тексту темную тему.
 ## Предварительные условия
@@ -67,3 +73,9 @@ Aspose.Note может обрабатывать документы разных 
 Да, вы можете изменить код для переключения между темами в соответствии с вашими предпочтениями.
 ### Где я могу получить поддержку по запросам, связанным с Aspose.Note?
  Для получения любой помощи посетите[Форум Aspose.Note](https://forum.aspose.com/c/note/28) или изучить[документация](https://reference.aspose.com/note/net/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

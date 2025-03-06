@@ -3,10 +3,16 @@ title: Načíst počet stránek v dokumentu Aspose.Note
 linktitle: Načíst počet stránek v dokumentu Aspose.Note
 second_title: Aspose.Note .NET API
 description: Naučte se počítat stránky v dokumentu Aspose.Note pomocí C#. Pro snadnou integraci postupujte podle našeho podrobného průvodce.
-type: docs
 weight: 12
 url: /cs/net/note-manipulation/retrieve-number-of-pages/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Načíst počet stránek v dokumentu Aspose.Note
+
 ## Úvod
 
 Aspose.Note for .NET je výkonná knihovna, která umožňuje vývojářům pracovat se soubory Microsoft OneNote programově. Ať už potřebujete vytvářet, manipulovat nebo převádět dokumenty OneNote, Aspose.Note poskytuje komplexní funkce pro zefektivnění vašich úkolů. V tomto tutoriálu se ponoříme do jedné ze základních operací: načtení počtu stránek v dokumentu Aspose.Note pomocí C#.
@@ -100,3 +106,9 @@ A2: Absolutně, Aspose.Note podporuje převod do různých formátů včetně PD
 ### Q5: Jak mohu získat technickou podporu pro Aspose.Note?
 
  A5: Můžete vyhledat pomoc a zapojit se do komunity na[Fórum podpory Aspose.Note](https://forum.aspose.com/c/note/28).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

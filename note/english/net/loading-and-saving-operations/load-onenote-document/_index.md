@@ -3,10 +3,16 @@ title: Load OneNote Document in Aspose.Note
 linktitle: Load OneNote Document in Aspose.Note
 second_title: Aspose.Note .NET API
 description: Learn how to load, encrypt, and decrypt OneNote documents programmatically in .NET using Aspose.Note.
-type: docs
 weight: 16
 url: /net/loading-and-saving-operations/load-onenote-document/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Load OneNote Document in Aspose.Note
+
 ## Introduction
 
 Aspose.Note for .NET is a powerful API that allows developers to work with Microsoft OneNote files programmatically in their .NET applications. Whether you need to load, manipulate, or convert OneNote documents, Aspose.Note for .NET provides comprehensive functionality to streamline your workflow.
@@ -174,3 +180,10 @@ A4: Yes, you can download a free trial from the [Aspose website](https://release
 ### Q5: How can I obtain a temporary license for Aspose.Note for .NET?
 
 A5: You can request a temporary license from the [Aspose purchase page](https://purchase.aspose.com/temporary-license/).
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -3,10 +3,16 @@ title: Zapisz, używając określonego podsystemu czcionek w programie OneNote
 linktitle: Zapisz, używając określonego podsystemu czcionek w programie OneNote
 second_title: Aspose.Note API Java
 description: Dowiedz się, jak zapisywać dokumenty OneNote przy użyciu określonego podsystemu czcionek w Javie za pomocą Aspose.Note. Bez wysiłku zapewnij spójną reprezentację czcionek na różnych platformach.
-type: docs
 weight: 22
 url: /pl/java/onenote-document-saving/save-using-specified-fonts-subsystem/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Zapisz, używając określonego podsystemu czcionek w programie OneNote
+
 ## Wstęp
 
 Aspose.Note dla Java zapewnia solidne możliwości pracy z dokumentami OneNote. Jednym z powszechnych wymagań podczas pracy z takimi dokumentami jest zapewnienie prawidłowego utrzymania czcionek, zwłaszcza jeśli dokument ma zostać wyeksportowany lub zapisany w różnych formatach, takich jak PDF. Ten samouczek przeprowadzi Cię przez proces zapisywania dokumentów programu OneNote przy określaniu podsystemu czcionek, zapewniając spójną i dokładną reprezentację tekstu na różnych platformach.
@@ -152,3 +158,9 @@ O4: Tak, możesz dostosować właściwości czcionki, takie jak rozmiar, styl i 
 ### P5: Czy dostępna jest wersja próbna Aspose.Note dla Java?
 
 Odpowiedź 5: Tak, możesz pobrać bezpłatną wersję próbną Aspose.Note dla Java ze strony internetowej.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -3,10 +3,16 @@ title: Hozzon létre dokumentumokat gyökér- és aloldalakkal az Aspose.Note se
 linktitle: Hozzon létre dokumentumokat gyökér- és aloldalakkal az Aspose.Note segítségével
 second_title: Aspose.Note .NET API
 description: Ismerje meg, hogyan használhatja az Aspose.Note for .NET-et dinamikus OneNote-dokumentumok létrehozásához hierarchikus struktúrákkal.
-type: docs
 weight: 11
 url: /hu/net/note-manipulation/create-documents-root-sub-pages/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Hozzon létre dokumentumokat gyökér- és aloldalakkal az Aspose.Note segítségével
+
 ## Bevezetés
 
 Üdvözöljük a gyökér- és aloldalakkal rendelkező dokumentumok létrehozásáról szóló oktatóanyagunkban az Aspose.Note for .NET használatával! Az Aspose.Note egy hatékony könyvtár, amely lehetővé teszi a fejlesztők számára, hogy programozottan dolgozzanak Microsoft OneNote fájlokkal, lehetővé téve a OneNote dokumentumok létrehozását, kezelését és konvertálását.
@@ -130,3 +136,9 @@ Gratulálunk! Sikeresen megtanulta, hogyan hozhat létre dokumentumokat gyökér
 ### 5. kérdés: Rendelkezésre áll technikai támogatás az Aspose.Note számára?
 
 5. válasz: Igen, az Aspose speciális technikai támogatást nyújt fórumán keresztül, ahol kérdéseket tehet fel és segítséget kérhet.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

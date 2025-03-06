@@ -3,10 +3,16 @@ title: Aspose.Note ドキュメントのリビジョンのロールバック
 linktitle: Aspose.Note ドキュメントのリビジョンのロールバック
 second_title: Aspose.Note .NET API
 description: Aspose.Note for .NET を使用して、Aspose.Note ドキュメントのリビジョンを効果的に管理する方法を学びます。段階的なガイドに従って、リビジョンをシームレスにロールバックします。
-type: docs
 weight: 18
 url: /ja/net/note-manipulation/roll-back-document-revisions/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Aspose.Note ドキュメントのリビジョンのロールバック
+
 ## 導入
 
 ドキュメントの管理と編集の世界では、変更を追跡し、前のバージョンにシームレスに戻すことができることが重要です。 Aspose.Note for .NET は、リビジョンを効果的に管理するための強力なツールを提供し、必要に応じていつでも変更をロールバックできるようにします。このチュートリアルでは、Aspose.Note ドキュメントのリビジョンをロールバックするプロセスを段階的に詳しく説明します。
@@ -99,3 +105,9 @@ A4: はい、ロールバック機能をアプリケーションに統合し、�
 ### Q5: ロールバック プロセス中に問題が発生した場合、Aspose.Note はサポートを提供しますか?
 
  A5: はい、Aspose はフォーラムを通じて専用のサポートを提供しています。訪問できます。[Aspose.Note フォーラム](https://forum.aspose.com/c/note/28)援助のために。
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

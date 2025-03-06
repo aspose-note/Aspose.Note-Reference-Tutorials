@@ -3,10 +3,16 @@ title: OneNote의 페이지에서 텍스트 추출 - Aspose.Note
 linktitle: OneNote의 페이지에서 텍스트 추출 - Aspose.Note
 second_title: Aspose.Note 자바 API
 description: Java용 Aspose.Note를 사용하여 OneNote 페이지에서 텍스트를 손쉽게 추출하는 방법을 알아보세요. 이 포괄적인 단계별 가이드를 통해 프로세스를 간소화하세요.
-type: docs
 weight: 16
 url: /ko/java/onenote-text-manipulation/extract-text-from-a-page/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# OneNote의 페이지에서 텍스트 추출 - Aspose.Note
+
 ## 소개
 Java를 사용하여 OneNote 페이지에서 효율적으로 텍스트를 추출할 수 있는 잠재력을 활용하고 싶다면 잘 찾아오셨습니다. 이 단계별 가이드는 Aspose.Note for Java를 사용하는 과정을 안내합니다. Aspose.Note는 OneNote 문서 작업을 단순화하는 강력한 API로, 페이지에서 텍스트를 쉽게 원활하게 추출할 수 있습니다.
 ## 전제조건
@@ -75,3 +81,9 @@ Aspose.Note는 주로 Java를 지원하지만 .NET과 같은 다른 언어용 �
  제품을 구매하실 수 있습니다.[여기](https://purchase.aspose.com/buy).
 ### Java용 Aspose.Note에 대한 임시 라이선스가 필요합니까?
  임시 라이센스가 필요한 경우 임시 라이센스를 얻을 수 있습니다.[여기](https://purchase.aspose.com/temporary-license/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

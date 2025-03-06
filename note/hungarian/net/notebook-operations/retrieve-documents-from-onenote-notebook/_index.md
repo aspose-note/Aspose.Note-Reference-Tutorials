@@ -3,10 +3,16 @@ title: Dokumentumok lekérése a OneNote-jegyzetfüzetből az Aspose Note .NET-b
 linktitle: Dokumentumok lekérése a OneNote-jegyzetfüzetből az Aspose Note .NET-ben
 second_title: Aspose.Note .NET API
 description: Ismerje meg, hogyan lehet programozottan letölteni dokumentumokat OneNote-jegyzetfüzetekből az Aspose.Note for .NET használatával, amely lehetővé teszi a zökkenőmentes integrációt és manipulációt.
-type: docs
 weight: 25
 url: /hu/net/notebook-operations/retrieve-documents-from-onenote-notebook/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Dokumentumok lekérése a OneNote-jegyzetfüzetből az Aspose Note .NET-ben
+
 ## Bevezetés
 
 A .NET fejlesztés területén az Aspose.Note robusztus eszköz a OneNote-dokumentumok könnyű kezeléséhez és kezeléséhez. Akár tapasztalt fejlesztő, akár csak belemerül a .NET-programozás világába, az Aspose.Note segítségével a OneNote-jegyzetfüzetekből dokumentumok lekérésének művészetének elsajátítása értékes készség.
@@ -95,3 +101,9 @@ A3: Abszolút! Akár egyéni fejlesztő, akár egy nagy szervezet tagja, az Aspo
 ### 5. kérdés: Hol találhatok további támogatást vagy segítséget az Aspose.Note-hoz?
 
  5. válasz: Ha kérdése van, vagy segítségre van szüksége, keresse fel az Aspose.Note fórumot a címen[Támogatói fórum](https://forum.aspose.com/c/note/28).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

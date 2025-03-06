@@ -3,10 +3,16 @@ title: Onderliggend knooppunt toevoegen in OneNote Notebook - Aspose.Note
 linktitle: Onderliggend knooppunt toevoegen in OneNote Notebook - Aspose.Note
 second_title: Aspose.Note Java-API
 description: Leer hoe u via Aspose.Note voor Java programmatisch onderliggende knooppunten kunt toevoegen aan OneNote-notebooks. Verbeter moeiteloos uw notitieorganisatie.
-type: docs
 weight: 11
 url: /nl/java/onenote-notebook-operations/add-child-node/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Onderliggend knooppunt toevoegen in OneNote Notebook - Aspose.Note
+
 ## Invoering
 
 OneNote is een krachtig hulpmiddel voor het ordenen van uw notities en ideeën. Aspose.Note voor Java biedt handige manieren om OneNote-bestanden programmatisch te manipuleren. In deze zelfstudie doorlopen we stap voor stap het proces van het toevoegen van een onderliggend knooppunt aan een OneNote-notitieblok.
@@ -89,3 +95,9 @@ A4: Ja, u kunt Aspose.Note voor Java eenvoudig in uw Java-projecten integreren d
 ### V5: Bestaat er een communityforum waar ik hulp en begeleiding kan zoeken bij het gebruik van Aspose.Note voor Java?
 
  A5: Ja, u kunt de bezoeken[Aspose.Note-forum](https://forum.aspose.com/c/note/28) om vragen te stellen, kennis te delen en te communiceren met andere gebruikers en experts.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -3,10 +3,16 @@ title: Aspose.Note för .NET Tag Management Tutorials
 linktitle: Tagghantering
 second_title: Aspose.Note .NET API
 description: Master Aspose.Note med tagghantering. Lägg till bilder, tabeller, textnoder och generera mötesanteckningar. Hämta taggdetaljer och förbättra dokumentmanipulationen.
-type: docs
 weight: 30
 url: /sv/net/tag-management/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Aspose.Note för .NET Tag Management Tutorials
+
 
 ## Introduktion
 
@@ -49,3 +55,9 @@ Lär dig hur du hämtar taggdetaljer från Aspose.Note-dokument med .NET. Hanter
 Lär dig hur du manipulerar Microsoft OneNote-filer programmatiskt med Aspose.Note för .NET. Öppna och stäng projekt med taggar effektivt.
 ### [Rapportering med Taggar i Aspose.Note](./reporting-tags/)
 Lär dig hur du genererar insiktsfulla rapporter från digitala dokument med Aspose.Note för .NET. Steg-för-steg guide tillhandahålls.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

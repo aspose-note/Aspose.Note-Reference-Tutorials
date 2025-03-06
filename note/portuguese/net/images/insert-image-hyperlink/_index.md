@@ -3,10 +3,16 @@ title: Insira imagens com hiperlinks no Aspose.Note
 linktitle: Insira imagens com hiperlinks no Aspose.Note
 second_title: API Aspose.Note .NET
 description: Aprenda como inserir imagens com hiperlinks no Aspose.Note for .NET sem esforço. Melhore a interatividade dos documentos com imagens clicáveis.
-type: docs
 weight: 15
 url: /pt/net/images/insert-image-hyperlink/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Insira imagens com hiperlinks no Aspose.Note
+
 ## Introdução
 
 Aspose.Note for .NET fornece um poderoso conjunto de recursos para trabalhar com imagens, incluindo a capacidade de inserir imagens com hiperlinks. Neste tutorial, orientaremos você no processo de inserção de imagens com hiperlinks usando Aspose.Note for .NET.
@@ -89,3 +95,9 @@ A3: Sim, você pode personalizar a aparência dos hiperlinks, incluindo cor, sub
 ### Q5: Onde posso obter suporte para Aspose.Note for .NET?
 
  A5: Você pode obter suporte para Aspose.Note for .NET no[Fóruns Aspose.Note](https://forum.aspose.com/c/note/28), onde você pode tirar dúvidas, buscar orientação e interagir com outros usuários e especialistas.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

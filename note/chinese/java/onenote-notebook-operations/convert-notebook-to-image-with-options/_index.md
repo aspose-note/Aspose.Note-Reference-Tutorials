@@ -3,10 +3,16 @@ title: 使用 OneNote 中的选项将笔记本转换为图像 - Aspose.Note
 linktitle: 使用 OneNote 中的选项将笔记本转换为图像 - Aspose.Note
 second_title: Aspose.Note Java API
 description: 了解如何使用 Aspose.Note for Java 将笔记本转换为带有选项的图像。按照我们的分步教程无缝集成到您的 Java 应用程序中。
-type: docs
 weight: 14
 url: /zh/java/onenote-notebook-operations/convert-notebook-to-image-with-options/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# 使用 OneNote 中的选项将笔记本转换为图像 - Aspose.Note
+
 ## 介绍
 
 在本教程中，我们将深入研究使用 Aspose.Note for Java 将笔记本转换为具有各种选项的图像的过程。 Aspose.Note 是一个功能强大的 Java API，使开发人员能够以编程方式使用 Microsoft OneNote 文件，从而无缝集成到他们的 Java 应用程序中。
@@ -89,3 +95,9 @@ A4：是的，Aspose 通过论坛和文档为开发人员提供出色的支持�
 ### Q5：Aspose.Note for Java 有免费试用版吗？
 
  A5：是的，您可以从以下位置免费试用 Aspose.Note for Java：[这里](https://releases.aspose.com/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

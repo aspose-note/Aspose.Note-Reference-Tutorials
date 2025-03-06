@@ -3,10 +3,16 @@ title: 使用 SaveFormat 將文件儲存到 OneNote - Aspose.Note
 linktitle: 使用 SaveFormat 將文件儲存到 OneNote - Aspose.Note
 second_title: Aspose.Note Java API
 description: 了解如何使用 Aspose.Note for Java 將文件儲存為 OneNote 格式。按照此逐步教程無縫整合到您的 Java 應用程式中。
-type: docs
 weight: 12
 url: /zh-hant/java/onenote-document-saving/save-document-to-onenote-format-using-saveformat/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# 使用 SaveFormat 將文件儲存到 OneNote - Aspose.Note
+
 ## 介紹
 
 Aspose.Note for Java 是一個功能強大的函式庫，使開發人員能夠以程式設計方式使用 Microsoft OneNote 檔案。使用 SaveFormat 將文件儲存為 OneNote 格式是一個簡單的過程。在本教程中，我們將逐步完成完成此任務所需的步驟。
@@ -78,3 +84,9 @@ A1：Aspose.Note for Java支援各種版本的Microsoft OneNote，確保不同�
 ### Q5：Aspose.Note for Java 是否有臨時許可選項？
 
  A5：是的，您可以從下列位置取得 Aspose.Note for Java 的臨時授權：[這裡](https://purchase.aspose.com/temporary-license/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

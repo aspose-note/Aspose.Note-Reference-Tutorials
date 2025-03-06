@@ -3,10 +3,16 @@ title: Określ opcje zapisu w Aspose.Note
 linktitle: Określ opcje zapisu w Aspose.Note
 second_title: Aspose.Note .NET API
 description: Dowiedz się, jak określić opcje zapisywania w Aspose.Note dla .NET, aby dostosować format wyjściowy i jakość dokumentów OneNote.
-type: docs
 weight: 30
 url: /pl/net/loading-and-saving-operations/specify-save-options/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Określ opcje zapisu w Aspose.Note
+
 ## Wstęp
 
 dziedzinie programowania .NET Aspose.Note wyróżnia się jako potężne narzędzie do pracy z dokumentami OneNote. Oferuje kompleksowy zestaw funkcji do efektywnego manipulowania i zarządzania tymi plikami. Jednym z kluczowych aspektów pracy z Aspose.Note jest określenie opcji zapisywania, które pozwalają programistom dostosować format wyjściowy i jakość zgodnie z ich wymaganiami.
@@ -94,3 +100,9 @@ A4: Aspose.Note jest przeznaczony do obsługi dokumentów OneNote o różnych ro
 ### P5: Czy Aspose.Note oferuje wsparcie i pomoc programistom napotykającym problemy?
 
 Odpowiedź 5: Tak, programiści mogą szukać pomocy i pomocy ze strony zespołu wsparcia Aspose.Note za pośrednictwem forum lub bezpośrednio kontaktując się z Aspose w celu szybkiego rozwiązania wszelkich problemów lub zapytań.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

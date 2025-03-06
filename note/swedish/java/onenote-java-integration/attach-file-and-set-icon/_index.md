@@ -3,10 +3,16 @@ title: Bifoga fil och ange ikon i OneNote med Java
 linktitle: Bifoga fil och ange ikon i OneNote med Java
 second_title: Aspose.Note Java API
 description: Förbättra ditt OneNote-arbetsflöde! Lär dig hur du bifogar filer och anpassar ikoner programmatiskt i Java med Aspose.Note. Enkla steg & kod ingår! #OneNote #Java #Aspose
-type: docs
 weight: 10
 url: /sv/java/onenote-java-integration/attach-file-and-set-icon/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Bifoga fil och ange ikon i OneNote med Java
+
 ## Introduktion
 
 OneNote är ett populärt verktyg för att göra anteckningar och organisera information, och med hjälp av Aspose.Note för Java kan du förbättra dess möjligheter genom att programmatiskt bifoga filer och ställa in ikoner för att förbättra den visuella representationen av dina anteckningar. I den här handledningen guidar vi dig genom processen steg för steg.
@@ -149,3 +155,10 @@ S3: Absolut, du kan välja anpassade ikoner för att representera olika typer av
 ### F5: Finns det en testversion tillgänglig för Aspose.Note för Java?
 
 S5: Ja, du kan utforska funktionerna i Aspose.Note för Java med en gratis provversion tillgänglig på[den här länken](https://releases.aspose.com/).
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

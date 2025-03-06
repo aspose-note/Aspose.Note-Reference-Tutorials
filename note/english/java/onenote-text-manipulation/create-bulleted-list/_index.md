@@ -3,10 +3,16 @@ title: Create Bulleted List in OneNote - Aspose.Note
 linktitle: Create Bulleted List in OneNote - Aspose.Note
 second_title: Aspose.Note Java API
 description: Explore the step-by-step guide on creating bulleted lists in OneNote using Aspose.Note for Java. Elevate your document creation with ease.
-type: docs
 weight: 12
 url: /java/onenote-text-manipulation/create-bulleted-list/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Create Bulleted List in OneNote - Aspose.Note
+
 ## Introduction
 In the dynamic landscape of Java development, creating engaging and organized documents is essential. Aspose.Note for Java provides a powerful toolset to enhance your document creation process. This tutorial will guide you through the process of creating bulleted lists in OneNote using Aspose.Note for Java. Let's dive into the details.
 ## Prerequisites
@@ -92,3 +98,10 @@ Visit the [Aspose.Note for Java support forum](https://forum.aspose.com/c/note/2
 Yes, you can explore a free trial version [here](https://releases.aspose.com/).
 ### How can I obtain a temporary license for Aspose.Note for Java?
 Get a temporary license [here](https://purchase.aspose.com/temporary-license/).
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

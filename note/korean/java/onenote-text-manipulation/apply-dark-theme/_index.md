@@ -3,10 +3,16 @@ title: OneNote의 텍스트에 어두운 테마 적용 - Aspose.Note
 linktitle: OneNote의 텍스트에 어두운 테마 적용 - Aspose.Note
 second_title: Aspose.Note 자바 API
 description: Java용 Aspose.Note를 사용하여 OneNote 텍스트에 어두운 테마를 적용하는 쉬운 단계를 살펴보세요. 디지털 문서 경험을 쉽게 향상시키십시오.
-type: docs
 weight: 11
 url: /ko/java/onenote-text-manipulation/apply-dark-theme/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# OneNote의 텍스트에 어두운 테마 적용 - Aspose.Note
+
 ## 소개
 끊임없이 진화하는 디지털 문서 환경에서 노트의 미학은 가독성과 사용자 경험에 큰 영향을 미칠 수 있습니다. 주목할만한 점 중 하나는 어두운 테마를 구현하여 시각적으로 매력적이고 편안한 환경을 제공한다는 것입니다. 이 튜토리얼에서는 Aspose.Note for Java를 사용하여 OneNote의 텍스트에 어두운 테마를 적용하는 과정을 안내합니다.
 ## 전제조건
@@ -62,3 +68,9 @@ doc.save(Paths.get(dataDir, "AsposeDarkTheme.pdf").toString());
  예, 무료 평가판에 액세스할 수 있습니다[여기](https://releases.aspose.com/).
 ### Java용 Aspose.Note에 대한 지원을 어떻게 받을 수 있나요?
  방문하다[Aspose.Note 포럼](https://forum.aspose.com/c/note/28) 커뮤니티 지원을 원하거나 프리미엄 지원 옵션을 살펴보세요[여기](https://purchase.aspose.com/temporary-license/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

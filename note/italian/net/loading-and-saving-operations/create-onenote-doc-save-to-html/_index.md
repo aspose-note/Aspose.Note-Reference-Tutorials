@@ -3,10 +3,16 @@ title: Crea un documento OneNote e salva in HTML in Aspose.Note
 linktitle: Crea un documento OneNote e salva in HTML in Aspose.Note
 second_title: Aspose.Note API .NET
 description: Scopri come creare e salvare documenti Microsoft OneNote in formato HTML nelle applicazioni .NET utilizzando l'API Aspose.Note. Segui il nostro tutorial completo con esempi passo passo.
-type: docs
 weight: 14
 url: /it/net/loading-and-saving-operations/create-onenote-doc-save-to-html/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Crea un documento OneNote e salva in HTML in Aspose.Note
+
 ## introduzione
 
 Aspose.Note per .NET è una potente API che consente agli sviluppatori di lavorare con documenti Microsoft OneNote a livello di codice nelle loro applicazioni .NET. Con Aspose.Note puoi creare, manipolare e convertire file OneNote senza sforzo. In questo tutorial, esploreremo come creare un documento OneNote e salvarlo in formato HTML utilizzando varie opzioni fornite dall'API Aspose.Note per .NET.
@@ -218,3 +224,9 @@ A4: Sì, puoi estrarre testo e immagini nonché eseguire varie altre manipolazio
 ### Q5: È disponibile una versione di prova per testare le funzionalità di Aspose.Note?
 
  R5: Sì, puoi scaricare una versione di prova gratuita da[Qui](https://releases.aspose.com/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

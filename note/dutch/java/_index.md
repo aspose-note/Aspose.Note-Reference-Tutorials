@@ -1,12 +1,17 @@
 ---
 title: Uitgebreide tutorials en voorbeelden van Aspose.Note voor Java
 linktitle: Aspose.Note voor Java-zelfstudies
-type: docs
 weight: 10
 url: /nl/java/
 description: Ontdek uitgebreide tutorials en voorbeelden voor Aspose.Note voor Java. Verbeter uw OneNote-ervaring met stapsgewijze handleidingen voor Java-integratie.
-is_root: true
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Uitgebreide tutorials en voorbeelden van Aspose.Note voor Java
+
 
 ## Invoering
 
@@ -91,3 +96,9 @@ Ontdek de kracht van Aspose.Note voor Java. Verbeter uw OneNote-ervaring met sta
 Ontdek Aspose.Note Java-tutorials over tekstmanipulatie in OneNote. Ontdek efficiënte methoden voor taken zoals het extraheren van tekst, het toepassen van thema's, het maken van lijsten en meer. 
 ### [Taak- en Outlook-integratie](./task-and-outlook-integration/)
 Ontgrendel het potentieel van Aspose.Note Java met onze tutorials over het integreren van Outlook-taken in OneNote. Verbeter uw vaardigheden op het gebied van documentverwerking met onze tutorials.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

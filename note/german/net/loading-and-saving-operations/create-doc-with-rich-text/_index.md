@@ -3,10 +3,16 @@ title: Erstellen Sie ein Dokument mit Rich Text in Aspose.Note
 linktitle: Erstellen Sie ein Dokument mit Rich Text in Aspose.Note
 second_title: Aspose.Note .NET-API
 description: Erfahren Sie, wie Sie mit Aspose.Note für .NET programmgesteuert Rich-Text-Dokumente erstellen. Schritt-für-Schritt-Anleitung mit Codebeispielen.
-type: docs
 weight: 12
 url: /de/net/loading-and-saving-operations/create-doc-with-rich-text/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Erstellen Sie ein Dokument mit Rich Text in Aspose.Note
+
 ## Einführung
 
 Im Bereich der .NET-Entwicklung sticht Aspose.Note als leistungsstarkes Tool für die programmgesteuerte Verarbeitung von Microsoft OneNote-Dateien hervor. Unabhängig davon, ob Sie die Dokumenterstellung automatisieren oder vorhandene Notizen bearbeiten möchten, bietet Aspose.Note Entwicklern umfassende Funktionen. Zu diesen Funktionen gehört die Möglichkeit, Rich-Text-Dokumente mit verschiedenen Formatierungsoptionen zu erstellen. In diesem Tutorial befassen wir uns Schritt für Schritt mit dem Prozess der Erstellung solcher Dokumente mit Aspose.Note für .NET.
@@ -170,3 +176,9 @@ A4: Aspose.Note konzentriert sich hauptsächlich auf die lokale Dokumentenverarb
 ### F5: Wo finde ich weitere Ressourcen und Support für Aspose.Note?
 
  A5: Sie können das erkunden[Aspose.Note-Forum](https://forum.aspose.com/c/note/28) für Community-Unterstützung und Zugangsdokumentation zum[Webseite](https://reference.aspose.com/note/net/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

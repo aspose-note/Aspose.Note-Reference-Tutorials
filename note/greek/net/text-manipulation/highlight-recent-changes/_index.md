@@ -3,10 +3,16 @@ title: Επισημάνετε όλες τις πρόσφατες αλλαγές 
 linktitle: Επισημάνετε όλες τις πρόσφατες αλλαγές στο κείμενο Aspose.Note
 second_title: Aspose.Note .NET API
 description: Βελτιώστε τα έγγραφα Σημείωσης με το Aspose.Note για .NET! Μάθετε πώς να επισημαίνετε τις πρόσφατες αλλαγές στο κείμενο με αυτό το βήμα προς βήμα εκμάθηση.
-type: docs
 weight: 19
 url: /el/net/text-manipulation/highlight-recent-changes/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Επισημάνετε όλες τις πρόσφατες αλλαγές στο κείμενο Aspose.Note
+
 ## Εισαγωγή
 Ψάχνετε να προσθέσετε δυναμικές και οπτικά ελκυστικές λειτουργίες στα έγγραφά σας Note χρησιμοποιώντας το .NET; Το Aspose.Note για .NET είναι μια ισχυρή λύση που σας επιτρέπει να χειρίζεστε και να βελτιώνετε τα αρχεία Note σας απρόσκοπτα. Σε αυτό το σεμινάριο, θα εξετάσουμε μια συγκεκριμένη πτυχή: την επισήμανση όλων των πρόσφατων αλλαγών στο κείμενο Aspose.Note.
 ## Προαπαιτούμενα
@@ -70,3 +76,9 @@ Console.WriteLine("\nText's recent changes are highlighted successfully.");
 Απολύτως! Το Aspose.Note παρέχει ένα ευρύ φάσμα δυνατοτήτων για τη μορφοποίηση κειμένου, συμπεριλαμβανομένων των στυλ γραμματοσειρών, των μεγεθών και άλλων.
 ### Μπορώ να ενσωματώσω αυτήν τη λύση σε μια εφαρμογή web;
 Ναι, μπορείτε να ενσωματώσετε το Aspose.Note για .NET σε εφαρμογές web για να βελτιώσετε τις δυνατότητες επεξεργασίας εγγράφων.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -3,10 +3,16 @@ title: Dodaj węzły podrzędne w Aspose Note .NET
 linktitle: Dodaj węzły podrzędne w Aspose Note .NET
 second_title: Aspose.Note .NET API
 description: Dzięki temu wszechstronnemu samouczkowi dowiedz się, jak bez wysiłku dodawać węzły podrzędne w Aspose Note .NET. Zwiększ teraz swoje umiejętności manipulowania dokumentami.
-type: docs
 weight: 10
 url: /pl/net/notebook-operations/add-child-nodes/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Dodaj węzły podrzędne w Aspose Note .NET
+
 ## Wstęp
 
 tym samouczku nauczymy się dodawać węzły podrzędne w Aspose Note .NET. Dodawanie węzłów podrzędnych jest podstawową operacją podczas pracy z dokumentami, a Aspose Note .NET zapewnia prosty sposób na wykonanie tego zadania.
@@ -89,3 +95,9 @@ Gratulacje! Pomyślnie nauczyłeś się dodawać węzły podrzędne w Aspose Not
 ### P5: Czy Aspose.Note dla .NET jest dostarczany z dokumentacją?
 
  Odpowiedź 5: Tak, możesz znaleźć szczegółową dokumentację[Tutaj](https://reference.aspose.com/note/net/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

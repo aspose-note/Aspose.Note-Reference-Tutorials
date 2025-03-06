@@ -3,10 +3,16 @@ title: Allega file per percorso in Aspose.Note
 linktitle: Allega file per percorso in Aspose.Note
 second_title: Aspose.Note API .NET
 description: Scopri come allegare file ai documenti Microsoft OneNote a livello di codice utilizzando Aspose.Note per .NET. Semplifica il tuo processo di sviluppo con questo tutorial completo.
-type: docs
 weight: 11
 url: /it/net/attachments/attach-file-by-path/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Allega file per percorso in Aspose.Note
+
 ## introduzione
 
 Aspose.Note per .NET è una potente libreria che consente agli sviluppatori di lavorare con i file Microsoft OneNote a livello di codice. Sia che tu voglia creare, modificare, convertire o manipolare documenti OneNote, Aspose.Note per .NET fornisce funzionalità complete per semplificare il processo di sviluppo.
@@ -147,3 +153,9 @@ A3: Sì, è necessario acquisire una licenza per uso commerciale di Aspose.Note 
 ### Q5: Dove posso cercare supporto per Aspose.Note per .NET?
 
  A5: È possibile chiedere supporto ai forum della community Aspose.Note[Qui](https://forum.aspose.com/c/note/28).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

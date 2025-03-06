@@ -3,10 +3,16 @@ title: Remove Child Node in OneNote Notebook - Aspose.Note
 linktitle: Remove Child Node in OneNote Notebook - Aspose.Note
 second_title: Aspose.Note Java API
 description: Learn how to remove a child node from a OneNote Notebook using Aspose.Note for Java. Follow our step-by-step guide for seamless document manipulation.
-type: docs
 weight: 24
 url: /java/onenote-notebook-operations/remove-child-node/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Remove Child Node in OneNote Notebook - Aspose.Note
+
 ## Introduction
 
 In this tutorial, we will delve into the process of removing a child node in a OneNote Notebook using Aspose.Note for Java. Aspose.Note is a powerful API that allows developers to work with Microsoft OneNote files programmatically, enabling various operations such as creation, manipulation, and conversion of OneNote documents.
@@ -92,3 +98,10 @@ A4: You can get a temporary license for Aspose.Note from [here](https://purchase
 ### Q5: Where can I find detailed documentation for Aspose.Note for Java?
 
 A5: You can access the complete documentation for Aspose.Note for Java [here](https://reference.aspose.com/note/java/).
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

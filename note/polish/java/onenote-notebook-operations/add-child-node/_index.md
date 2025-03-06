@@ -3,10 +3,16 @@ title: Dodaj węzeł podrzędny w notesie programu OneNote — Aspose.Note
 linktitle: Dodaj węzeł podrzędny w notesie programu OneNote — Aspose.Note
 second_title: Aspose.Note API Java
 description: Dowiedz się, jak programowo dodawać węzły podrzędne do notesów programu OneNote przy użyciu programu Aspose.Note dla języka Java. Popraw organizację notatek bez wysiłku.
-type: docs
 weight: 11
 url: /pl/java/onenote-notebook-operations/add-child-node/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Dodaj węzeł podrzędny w notesie programu OneNote — Aspose.Note
+
 ## Wstęp
 
 OneNote to potężne narzędzie do porządkowania notatek i pomysłów. Aspose.Note dla Java zapewnia wygodne sposoby programowego manipulowania plikami OneNote. W tym samouczku omówimy krok po kroku proces dodawania węzła podrzędnego do notesu programu OneNote.
@@ -89,3 +95,9 @@ O4: Tak, możesz łatwo zintegrować Aspose.Note for Java ze swoimi projektami J
 ### P5: Czy istnieje forum społeczności, na którym mogę szukać pomocy i wskazówek dotyczących korzystania z Aspose.Note dla Java?
 
  A5: Tak, możesz odwiedzić[Forum Aspose.Note](https://forum.aspose.com/c/note/28) do zadawania pytań, dzielenia się wiedzą i interakcji z innymi użytkownikami i ekspertami.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

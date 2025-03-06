@@ -3,10 +3,16 @@ title: Načtěte notebooky ze streamu v Aspose Note .NET
 linktitle: Načtěte notebooky ze streamu v Aspose Note .NET
 second_title: Aspose.Note .NET API
 description: Přečtěte si, jak načíst poznámkové bloky ze streamu v Aspose.Note pro .NET. Postupujte podle tohoto podrobného průvodce pro bezproblémovou integraci do vašich aplikací .NET.
-type: docs
 weight: 19
 url: /cs/net/notebook-operations/load-notebooks-from-stream/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Načtěte notebooky ze streamu v Aspose Note .NET
+
 ## Úvod
 
 tomto tutoriálu prozkoumáme, jak načíst notebooky ze streamu pomocí Aspose.Note pro .NET. Aspose.Note je výkonná knihovna, která umožňuje vývojářům pracovat se soubory Microsoft OneNote programově. Načítání poznámkových bloků ze streamu je běžným úkolem při práci se souborovými vstupními/výstupními operacemi v aplikacích .NET.
@@ -92,3 +98,9 @@ Odpověď 1: Ano, Aspose.Note pro .NET podporuje různé verze souborů OneNote,
 ### Q5: Existuje možnost dočasného licencování?
 
  A5: Ano, můžete získat dočasnou licenci od[tady](https://purchase.aspose.com/temporary-license/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

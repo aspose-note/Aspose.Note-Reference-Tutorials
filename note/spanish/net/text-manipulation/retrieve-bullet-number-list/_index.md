@@ -3,10 +3,16 @@ title: Recuperar lista de viñetas o números en texto Aspose.Note
 linktitle: Recuperar lista de viñetas o números en texto Aspose.Note
 second_title: Aspose.Nota .NET API
 description: Libere el potencial de Aspose.Note para .NET con nuestra guía paso a paso sobre cómo recuperar listas de viñetas o números. ¡Mejore sus habilidades de manipulación de documentos OneNote!
-type: docs
 weight: 23
 url: /es/net/text-manipulation/retrieve-bullet-number-list/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Recuperar lista de viñetas o números en texto Aspose.Note
+
 ## Introducción
 Bienvenido al mundo de Aspose.Note para .NET, una biblioteca sólida y versátil que permite a los desarrolladores manejar la manipulación de documentos OneNote sin esfuerzo. En este tutorial, profundizaremos en el proceso de recuperación de listas de viñetas o números usando Aspose.Note para .NET. Ya sea que sea un desarrollador experimentado o un entusiasta de la codificación, esta guía le brindará el conocimiento para navegar a través de las complejidades de trabajar con listas en Aspose.Note.
 ## Requisitos previos
@@ -87,3 +93,9 @@ Sí, Aspose.Note admite una amplia gama de formatos de OneNote, lo que garantiza
 Puede explorar y buscar ayuda en el[Foro Aspose.Note](https://forum.aspose.com/c/note/28) para cualquier consulta o problema que pueda surgir.
 ### ¿Existe una versión de prueba gratuita de Aspose.Note para .NET?
  Sí, puedes acceder a la versión de prueba gratuita de Aspose.Note para .NET[aquí](https://releases.aspose.com/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -3,10 +3,16 @@ title: Insérer un tableau dans OneNote - Aspose.Note
 linktitle: Insérer un tableau dans OneNote - Aspose.Note
 second_title: API Java Aspose.Note
 description: Apprenez à insérer des tableaux dans OneNote à l'aide d'Aspose.Note pour Java. Guide étape par étape pour la création de contenu dynamique. Améliorez vos documents sans effort.
-type: docs
 weight: 16
 url: /fr/java/onenote-table-manipulation/insert-table/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Insérer un tableau dans OneNote - Aspose.Note
+
 ## Introduction
 Si vous souhaitez améliorer vos documents OneNote en insérant des tableaux par programme, Aspose.Note pour Java est votre solution incontournable. Dans ce guide étape par étape, nous vous guiderons tout au long du processus d'insertion d'un tableau dans un document OneNote à l'aide de la puissante bibliothèque Java d'Aspose.Note.
 ## Conditions préalables
@@ -101,3 +107,9 @@ R : Oui, Aspose.Note pour Java peut être utilisé dans des projets personnels e
  R : Oui, vous pouvez explorer la bibliothèque avec un[essai gratuit](https://releases.aspose.com/).
 ### Q : Comment puis-je obtenir une licence temporaire pour Aspose.Note pour Java ?
  R : Obtenez une licence temporaire[ici](https://purchase.aspose.com/temporary-license/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

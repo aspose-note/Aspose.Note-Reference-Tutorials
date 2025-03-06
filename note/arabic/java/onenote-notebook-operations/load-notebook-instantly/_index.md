@@ -3,10 +3,16 @@ title: تحميل دفتر الملاحظات على الفور في OneNote - A
 linktitle: تحميل دفتر الملاحظات على الفور في OneNote - Aspose.Note
 second_title: Aspose.Note جافا API
 description: تعرف على كيفية تحميل دفاتر ملاحظات OneNote على الفور في Java باستخدام Aspose.Note لـ Java. قم بتحسين إنتاجيتك من خلال التعامل الفعال مع أجهزة الكمبيوتر المحمولة.
-type: docs
 weight: 21
 url: /ar/java/onenote-notebook-operations/load-notebook-instantly/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# تحميل دفتر الملاحظات على الفور في OneNote - Aspose.Note
+
 ## مقدمة
 
 في هذا البرنامج التعليمي، سنرشدك خلال عملية تحميل دفتر ملاحظات على الفور في OneNote باستخدام Aspose.Note لـ Java. Aspose.Note عبارة عن واجهة برمجة تطبيقات Java قوية تتيح للمطورين العمل مع ملفات Microsoft OneNote برمجيًا.
@@ -87,3 +93,9 @@ for (INotebookChildNode notebookChildNode : notebook) {
 ### س5: كيف يمكنني الحصول على ترخيص مؤقت لـ Aspose.Note لـ Java؟
 
  ج5: يمكنك طلب ترخيص مؤقت من[صفحة الترخيص المؤقتة](https://purchase.aspose.com/temporary-license/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

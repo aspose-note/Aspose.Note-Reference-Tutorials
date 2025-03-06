@@ -3,10 +3,16 @@ title: Convierta cuadernos en imágenes (aplanadas) en Aspose Note .NET
 linktitle: Convierta cuadernos en imágenes (aplanadas) en Aspose Note .NET
 second_title: Aspose.Nota .NET API
 description: Aprenda cómo convertir cuadernos de OneNote en imágenes aplanadas usando Aspose.Note para .NET. Guía paso a paso para una integración perfecta.
-type: docs
 weight: 12
 url: /es/net/notebook-operations/convert-to-image-flattened/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Convierta cuadernos en imágenes (aplanadas) en Aspose Note .NET
+
 ## Introducción
 
 En este tutorial, aprenderemos cómo usar Aspose.Note para .NET para convertir cuadernos en imágenes aplanadas. Dividiremos el proceso en pasos simples para ayudarlo a comprenderlo e implementarlo de manera efectiva.
@@ -93,3 +99,9 @@ R1: Sí, Aspose.Note para .NET es capaz de manejar cuadernos complejos de manera
 ### P5: ¿Dónde puedo encontrar documentación para Aspose.Note para .NET?
 
  A5: Puedes encontrar la documentación.[aquí](https://reference.aspose.com/note/net/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

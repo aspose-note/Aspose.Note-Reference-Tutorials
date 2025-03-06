@@ -3,10 +3,16 @@ title: Aspose.Note를 사용하여 잠긴 열이 있는 테이블 만들기
 linktitle: Aspose.Note를 사용하여 잠긴 열이 있는 테이블 만들기
 second_title: Aspose.Note .NET API
 description: .NET용 Aspose.Note를 사용하여 잠긴 열이 있는 테이블을 만드는 방법을 알아보세요. 효율적인 문서 처리 업무를 위한 단계별 가이드입니다.
-type: docs
 weight: 12
 url: /ko/net/table-manipulation/create-table-locked-columns/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Aspose.Note를 사용하여 잠긴 열이 있는 테이블 만들기
+
 ## 소개
 
 잠긴 열이 있는 테이블을 만드는 것은 문서 처리 응용 프로그램의 일반적인 요구 사항입니다. Aspose.Note for .NET은 이 작업을 효율적으로 수행할 수 있는 강력한 도구를 제공합니다. 이 튜토리얼에서는 Aspose.Note for .NET을 사용하여 잠긴 열이 있는 테이블을 만드는 과정을 단계별로 안내합니다.
@@ -147,3 +153,9 @@ A4: 예, 다음을 통해 기술 지원을 받을 수 있습니다.[Aspose.Note 
 ### Q5: 구매하기 전에 Aspose.Note for .NET을 사용해 볼 수 있나요?
 
  A5: 예, 다음에서 .NET용 Aspose.Note의 무료 평가판을 다운로드할 수 있습니다.[여기](https://releases.aspose.com/) 기능과 요구 사항과의 호환성을 평가합니다.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

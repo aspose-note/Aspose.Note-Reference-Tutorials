@@ -3,10 +3,16 @@ title: Aspose.Note में पृष्ठ इतिहास को संश
 linktitle: Aspose.Note में पृष्ठ इतिहास को संशोधित करें
 second_title: Aspose.Note .NET API
 description: इस व्यापक ट्यूटोरियल का उपयोग करके .NET के लिए Aspose.Note में पृष्ठ इतिहास को संशोधित करना सीखें। अपनी दस्तावेज़ प्रसंस्करण क्षमताओं को सहजता से बढ़ाएँ।
-type: docs
 weight: 15
 url: /hi/net/note-manipulation/modify-page-history/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Aspose.Note में पृष्ठ इतिहास को संशोधित करें
+
 ## परिचय
 
 दस्तावेज़ प्रसंस्करण के क्षेत्र में, .NET के लिए Aspose.Note एक मजबूत उपकरण के रूप में उभरता है, जो डेवलपर्स को OneNote फ़ाइलों में आसानी से हेरफेर करने के लिए सशक्त बनाता है। डेवलपर्स द्वारा सामना किया जाने वाला एक सामान्य कार्य Aspose.Note दस्तावेज़ों के भीतर पृष्ठ इतिहास को संशोधित करना है। यह ट्यूटोरियल .NET के लिए Aspose.Note का उपयोग करके पृष्ठ इतिहास को प्रभावी ढंग से बदलने के लिए आवश्यक नामस्थान, पूर्वापेक्षाएँ और कोड स्निपेट के माध्यम से आपका मार्गदर्शन करते हुए चरण दर चरण प्रक्रिया को समझाता है।
@@ -94,3 +100,10 @@ A4: हां, डेवलपर्स .NET के लिए Aspose.Note को
 ### Q5: क्या मैं खरीदारी करने से पहले .NET के लिए Aspose.Note आज़मा सकता हूँ?
 
 A5: बिल्कुल, डेवलपर्स अपनी परियोजनाओं के लिए इसकी विशेषताओं और उपयुक्तता का मूल्यांकन करने के लिए .NET के लिए Aspose.Note के निःशुल्क परीक्षण संस्करण का लाभ उठा सकते हैं।
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

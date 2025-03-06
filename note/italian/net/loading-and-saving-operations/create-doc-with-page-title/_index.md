@@ -3,10 +3,16 @@ title: Crea un documento con il titolo della pagina in Aspose.Note
 linktitle: Crea un documento con il titolo della pagina in Aspose.Note
 second_title: Aspose.Note API .NET
 description: Scopri come creare documenti con pagine intitolate utilizzando Aspose.Note per .NET. Segui la nostra guida passo passo per un'integrazione perfetta.
-type: docs
 weight: 13
 url: /it/net/loading-and-saving-operations/create-doc-with-page-title/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Crea un documento con il titolo della pagina in Aspose.Note
+
 ## introduzione
 
 In questo tutorial ti guideremo attraverso il processo di creazione di un documento con una pagina intitolata utilizzando Aspose.Note per .NET. Aspose.Note è una potente API che consente agli sviluppatori di lavorare con i file Microsoft OneNote a livello di codice.
@@ -118,3 +124,9 @@ A4: Sì, puoi utilizzare Aspose.Note per leggere, modificare e manipolare facilm
 ### Q5: Dove posso trovare supporto in caso di problemi?
 
  R5: Puoi trovare supporto e assistenza su[Forum Aspose.Note](https://forum.aspose.com/c/note/28), dove esperti e membri della community possono aiutarti con le tue domande.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

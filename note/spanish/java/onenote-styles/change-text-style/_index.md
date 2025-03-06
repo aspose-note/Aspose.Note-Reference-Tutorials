@@ -3,10 +3,16 @@ title: Cambiar estilo de texto en OneNote - Aspose.Note
 linktitle: Cambiar estilo de texto en OneNote - Aspose.Note
 second_title: Aspose.Nota Java API
 description: ¡Negrita, resalte y cambie el tamaño! Aprenda a formatear texto en documentos de OneNote con Aspose.Note. ¡Guía paso a paso y código incluidos! #OneNote #Java #Aspose
-type: docs
 weight: 10
 url: /es/java/onenote-styles/change-text-style/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Cambiar estilo de texto en OneNote - Aspose.Note
+
 ## Introducción
 
 ¡Bienvenido a nuestro tutorial sobre cómo cambiar el estilo del texto en OneNote usando Aspose.Note para Java! En esta guía, lo guiaremos a través del proceso paso a paso, permitiéndole manipular sin esfuerzo los estilos de texto dentro de sus documentos de OneNote. Ya sea que esté buscando cambiar el color de la fuente, resaltar texto o ajustar el tamaño de la fuente, Aspose.Note proporciona una solución integral para satisfacer sus necesidades.
@@ -104,3 +110,9 @@ R4: Sí, Aspose.Note se puede utilizar tanto para fines personales como comercia
 ### P5: ¿Dónde puedo encontrar recursos adicionales y soporte para Aspose.Note?
 
 R5: Puede explorar la documentación de Aspose.Note, descargar la biblioteca, acceder a pruebas gratuitas y buscar soporte en el foro de Aspose.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

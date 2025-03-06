@@ -3,10 +3,16 @@ title: Tạo tài liệu với tiêu đề trang trong Aspose.Note
 linktitle: Tạo tài liệu với tiêu đề trang trong Aspose.Note
 second_title: Aspose.Note .NET API
 description: Tìm hiểu cách tạo tài liệu với các trang có tiêu đề bằng Aspose.Note for .NET. Hãy làm theo hướng dẫn từng bước của chúng tôi để tích hợp liền mạch.
-type: docs
 weight: 13
 url: /vi/net/loading-and-saving-operations/create-doc-with-page-title/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Tạo tài liệu với tiêu đề trang trong Aspose.Note
+
 ## Giới thiệu
 
 Trong hướng dẫn này, chúng tôi sẽ hướng dẫn bạn quy trình tạo tài liệu có trang có tiêu đề bằng Aspose.Note cho .NET. Aspose.Note là một API mạnh mẽ cho phép các nhà phát triển làm việc với các tệp Microsoft OneNote theo chương trình.
@@ -118,3 +124,9 @@ Câu trả lời 4: Có, bạn có thể sử dụng Aspose.Note để đọc, s
 ### Câu hỏi 5: Tôi có thể tìm hỗ trợ ở đâu nếu gặp bất kỳ vấn đề nào?
 
  Câu trả lời 5: Bạn có thể tìm thấy sự hỗ trợ và trợ giúp trên[Diễn đàn Aspose.Note](https://forum.aspose.com/c/note/28), nơi các chuyên gia và thành viên cộng đồng có thể giúp bạn giải đáp các thắc mắc.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

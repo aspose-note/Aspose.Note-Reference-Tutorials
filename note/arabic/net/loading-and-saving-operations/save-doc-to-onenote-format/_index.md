@@ -3,10 +3,16 @@ title: احفظ المستند بتنسيق OneNote في Aspose.Note
 linktitle: احفظ المستند بتنسيق OneNote في Aspose.Note
 second_title: Aspose.Note .NET API
 description: تعرف على كيفية حفظ مستندات OneNote برمجياً في .NET باستخدام Aspose.Note. تم تضمين البرنامج التعليمي خطوة بخطوة مع أمثلة التعليمات البرمجية.
-type: docs
 weight: 20
 url: /ar/net/loading-and-saving-operations/save-doc-to-onenote-format/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# احفظ المستند بتنسيق OneNote في Aspose.Note
+
 ## مقدمة
 
 في مجال تطوير .NET، يبرز Aspose.Note كأداة قوية لإدارة مستندات OneNote ومعالجتها برمجيًا. بفضل واجهة برمجة التطبيقات البديهية ومجموعة الميزات الشاملة، يمكن للمطورين التعامل بسهولة مع المهام المختلفة المتعلقة بملفات OneNote داخل تطبيقاتهم. سيتعمق هذا البرنامج التعليمي في عملية حفظ المستندات بتنسيق OneNote باستخدام Aspose.Note لـ .NET، مع تفصيل كل خطوة لضمان الوضوح والفهم.
@@ -87,3 +93,9 @@ doc.Save(dataDir + outputFile);
 ### س5: هل يوجد منتدى مجتمعي أو قناة دعم متاحة لمستخدمي Aspose.Note؟
 
  ج: نعم، يوفر Aspose منتدى مخصصًا لمستخدمي Aspose.Note حيث يمكنهم طلب المساعدة ومشاركة المعرفة والتفاعل مع المجتمع. قم بزيارة[منتدى Aspose.Note](https://forum.aspose.com/c/note/28) للدعم.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

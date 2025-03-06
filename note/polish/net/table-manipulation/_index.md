@@ -3,10 +3,16 @@ title: Opanowywanie tabel dzięki integracji z programem OneNote
 linktitle: Manipulacja stołem
 second_title: Aspose.Note .NET API
 description: Twórz atrakcyjne wizualnie dokumenty za pomocą Aspose.Note dla .NET! Zapoznaj się z samouczkami dotyczącymi manipulacji tabelami — zmieniaj style, twórz tabele, wyodrębniaj tekst i nie tylko.
-type: docs
 weight: 29
 url: /pl/net/table-manipulation/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Opanowywanie tabel dzięki integracji z programem OneNote
+
 
 ## Wstęp
 
@@ -62,3 +68,9 @@ Dowiedz się, jak wyodrębnić tekst z tabel w Aspose.Note przy użyciu języka 
 Naucz się wstawiać tabele do dokumentów Note za pomocą Aspose.Note dla .NET. Organizuj dane płynnie, aby poprawić czytelność i prezentację.
 ### [Ustaw kolor tła komórki w tabelach Aspose.Note](./set-cell-background-color/)
 Dowiedz się, jak ustawić kolor tła komórki w tabelach Aspose.Note, korzystając z przewodnika krok po kroku. Bez wysiłku ulepszaj wizualizację dokumentów.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

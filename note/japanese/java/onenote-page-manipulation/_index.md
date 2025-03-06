@@ -3,10 +3,16 @@ title: OneNote ページの操作
 linktitle: OneNote ページの操作
 second_title: Aspose.Note Java API
 description: Aspose.Note for Java を使用して、競合ページを管理し、整理されたドキュメントを作成し、OneNote でリビジョンを追跡します。効率的なドキュメント管理のためのステップバイステップのチュートリアル。
-type: docs
 weight: 29
 url: /ja/java/onenote-page-manipulation/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# OneNote ページの操作
+
 
 ## 導入
 
@@ -74,3 +80,9 @@ Aspose.Note for Java を使用して OneNote の前のページ バージョン�
 Aspose.Note for Java を使用して、OneNote でページの背景色を簡単に設定する方法を学びます。この簡単なチュートリアルを使用して、ドキュメントの視覚的な魅力を高めます。
 ### [OneNote でのページ リビジョンの操作 - Aspose.Note](./working-with-page-revisions/)
 Aspose.Note for Java を使用して OneNote ドキュメントのページ リビジョンを管理する方法を学習します。このチュートリアルでは、効果的なリビジョン追跡とコラボレーションのためのステップバイステップのガイドを提供します。
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

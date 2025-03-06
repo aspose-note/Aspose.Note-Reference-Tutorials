@@ -3,10 +3,16 @@ title: OneNote Not Defteri İşlemleri
 linktitle: OneNote Not Defteri İşlemleri
 second_title: Aspose.Note Java API'si
 description: OneNote Dizüstü Bilgisayar İşlemleri Eğitimlerimiz ile Aspose.Note for Java'nın tüm potansiyelini ortaya çıkarın. Java uygulamalarınızı geliştirmek için adım adım bir kılavuz sağlayın.
-type: docs
 weight: 28
 url: /tr/java/onenote-notebook-operations/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# OneNote Not Defteri İşlemleri
+
 
 ## giriiş
 
@@ -66,3 +72,9 @@ Aspose.Note for Java'yı kullanarak OneNote Notebook'tan belgeleri nasıl alaca�
 Aspose.Note for Java'yı kullanarak not defterlerini OneNote'taki akışlara nasıl kaydedeceğinizi öğrenin. Etkin dizüstü bilgisayar yönetimiyle üretkenliği artırın.
 ### [OneNote'ta Parola Korumalı Belge Yazma - Aspose.Note](./write-password-protected-document/)
 Aspose.Note for Java'yı kullanarak OneNote'ta parola korumalı belgeleri nasıl yazacağınızı öğrenin. Takip edilmesi kolay adımlarla güvenliği sağlayın.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

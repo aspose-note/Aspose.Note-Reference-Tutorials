@@ -3,10 +3,16 @@ title: Aspose.Note의 테이블에서 텍스트 추출
 linktitle: Aspose.Note의 테이블에서 텍스트 추출
 second_title: Aspose.Note .NET API
 description: .NET 프레임워크와 C#을 사용하여 Aspose.Note의 테이블에서 텍스트를 추출하는 방법을 알아보세요. 코드 조각과 설명이 포함된 단계별 튜토리얼입니다.
-type: docs
 weight: 15
 url: /ko/net/table-manipulation/extract-text-table/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Aspose.Note의 테이블에서 텍스트 추출
+
 ## 소개
 
 이 튜토리얼에서는 .NET 프레임워크와 C#을 사용하여 Aspose.Note의 테이블에서 텍스트를 추출하는 방법을 살펴보겠습니다. Aspose.Note는 개발자가 프로그래밍 방식으로 Microsoft OneNote 파일을 사용하여 OneNote 문서 생성, 읽기, 조작 및 변환과 같은 다양한 작업을 수행할 수 있도록 하는 강력한 API입니다.
@@ -99,3 +105,9 @@ A4: 예, Aspose.Note는 Java 및 Python을 포함한 여러 플랫폼 및 프로
 ### Q5: Aspose.Note에 대한 추가 리소스와 지원은 어디서 찾을 수 있나요?
 
  A5: 다음 사이트에서 광범위한 문서, 튜토리얼 및 지원 포럼을 찾을 수 있습니다.[Aspose.Note 포럼](https://forum.aspose.com/c/note/28)를 사용하면 개발 중에 발생하는 모든 쿼리나 문제를 탐색하고 해결할 수 있습니다.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

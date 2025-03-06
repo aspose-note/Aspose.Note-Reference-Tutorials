@@ -3,10 +3,16 @@ title: Konwertuj notatnik na obraz w programie OneNote — Aspose.Note
 linktitle: Konwertuj notatnik na obraz w programie OneNote — Aspose.Note
 second_title: Aspose.Note API Java
 description: Dowiedz się, jak konwertować notesy na obrazy w programie OneNote przy użyciu programu Aspose.Note dla języka Java. Z łatwością zintegruj tę funkcjonalność z aplikacjami Java.
-type: docs
 weight: 12
 url: /pl/java/onenote-notebook-operations/convert-notebook-to-image/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Konwertuj notatnik na obraz w programie OneNote — Aspose.Note
+
 ## Wstęp
 
 W tym samouczku omówimy, jak przekonwertować notatnik na obraz w programie OneNote przy użyciu biblioteki Aspose.Note dla Java. Konwertowanie notatników na obrazy może być przydatne do różnych celów, takich jak udostępnianie notatek, osadzanie ich w dokumentach lub uwzględnianie ich w prezentacjach.
@@ -94,3 +100,9 @@ O4: Tak, możesz efektywnie konwertować wiele notatników na obrazy za pomocą 
 ### P5: Gdzie mogę znaleźć dodatkowe zasoby i wsparcie dla Aspose.Note?
 
  Odpowiedź 5: Dalszą dokumentację, przykłady i wsparcie społeczności można znaleźć na stronie[Forum Aspose.Note](https://forum.aspose.com/c/note/28) i eksploruj[dokumentacja](https://reference.aspose.com/note/java/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

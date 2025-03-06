@@ -3,10 +3,16 @@ title: Zapisywanie dokumentów programu OneNote
 linktitle: Zapisywanie dokumentów programu OneNote
 second_title: Aspose.Note API Java
 description: Oszczędzaj czas i usprawniaj swoje aplikacje Java dzięki samouczkom Aspose.Note for Java na temat zapisywania dokumentów OneNote. Dowiedz się o integracji krok po kroku w celu zapewnienia wydajnego przepływu pracy.
-type: docs
 weight: 27
 url: /pl/java/onenote-document-saving/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Zapisywanie dokumentów programu OneNote
+
 ## Wstęp
 
 Witamy w świecie samouczków Aspose.Note for Java, w którym odkrywamy zawiłości zapisywania dokumentów OneNote z precyzją i wydajnością. W dzisiejszym cyfrowym krajobrazie bezproblemowa integracja i usprawnione przepływy pracy są najważniejsze, a nasze szczegółowe przewodniki zostały opracowane, aby pomóc programistom Java w opanowaniu technik zapisywania dokumentów. Niezależnie od tego, czy jesteś doświadczonym programistą, czy entuzjastą kodowania, nasze samouczki obejmują spektrum tematów, od zapisywania dokumentów w różnych formatach po wykorzystanie zaawansowanych algorytmów w celu uzyskania optymalnych wyników. Zanurz się w świecie Aspose.Note dla Java, gdzie upraszczamy złożone procesy, sprawiając, że obsługa dokumentów staje się przyjemna i bezproblemowa. Wyruszmy w podróż pełną odkryć i udoskonaleń w dziedzinie tworzenia aplikacji Java.
@@ -96,3 +102,9 @@ Dowiedz się, jak określić opcje zapisywania w programie OneNote przy użyciu 
 Dowiedz się, jak zachować obiekty bryłowe w dokumentach Aspose.Note podczas konwersji do formatu PDF za pomocą algorytmu Zachowaj obiekty bryłowe w Javie.
 ### [Użyj metody algorytmu podziału w programie OneNote - Aspose.Note](./use-splitting-algorithm-method/)
 Dowiedz się, jak efektywnie dzielić dokumenty OneNote za pomocą Aspose.Note dla Java.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

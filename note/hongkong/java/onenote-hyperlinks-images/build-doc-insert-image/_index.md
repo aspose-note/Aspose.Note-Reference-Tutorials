@@ -3,10 +3,16 @@ title: 使用 Java 在 OneNote 中建立文件並插入圖像
 linktitle: 使用 Java 在 OneNote 中建立文件並插入圖像
 second_title: Aspose.Note Java API
 description: 了解如何使用 Aspose.Note for Java 建立 OneNote 文件並插入映像。無縫整合的分步教程。
-type: docs
 weight: 12
 url: /zh-hant/java/onenote-hyperlinks-images/build-doc-insert-image/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# 使用 Java 在 OneNote 中建立文件並插入圖像
+
 ## 介紹
 
 在本教程中，我們將探索如何使用 Aspose.Note for Java 建立 OneNote 文件並向其中插入圖像。 Aspose.Note 是一個功能強大的 Java API，使開發人員能夠以程式設計方式使用 Microsoft OneNote 檔案。我們將詳細分解每個步驟，以引導您完成整個過程。
@@ -119,3 +125,10 @@ A4：如需支持，請訪問[Aspose.Note 論壇](https://forum.aspose.com/c/not
 ### Q5：我可以取得 Aspose.Note for Java 的臨時授權嗎？
 
  A5：是的，您可以申請臨時許可證[這裡](https://purchase.aspose.com/temporary-license/).
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

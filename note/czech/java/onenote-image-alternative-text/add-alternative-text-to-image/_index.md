@@ -3,10 +3,16 @@ title: Přidejte alternativní text k obrázku ve OneNotu pomocí Java
 linktitle: Přidejte alternativní text k obrázku ve OneNotu pomocí Java
 second_title: Aspose.Note Java API
 description: Naučte se, jak přidat alternativní text k obrázkům v dokumentech OneNotu pomocí Java s Aspose.Note, čímž se zlepší přístupnost a inkluzivita.
-type: docs
 weight: 10
 url: /cs/java/onenote-image-alternative-text/add-alternative-text-to-image/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Přidejte alternativní text k obrázku ve OneNotu pomocí Java
+
 ## Úvod
 
 V tomto tutoriálu se ponoříme do komplexního průvodce používáním Aspose.Note pro Java k přidání alternativního textu k obrázkům v dokumentech OneNotu. Alternativní text slouží jako textový popis obrázků, který usnadňuje přístup a porozumění pro jednotlivce, kteří nemusí být schopni přímo prohlížet obrázky, jako jsou ti, kteří používají programy pro čtení z obrazovky. Podle tohoto kurzu se naučíte, jak bezproblémově integrovat alternativní text do dokumentů OneNotu pomocí programovacího jazyka Java.
@@ -131,3 +137,9 @@ A4: Ano, Aspose.Note je k dispozici pro více programovacích jazyků včetně .
 ### Q5: Je k dispozici zkušební verze pro Aspose.Note?
 
  A5: Ano, můžete využít bezplatnou zkušební verzi Aspose.Note od[tady](https://releases.aspose.com/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

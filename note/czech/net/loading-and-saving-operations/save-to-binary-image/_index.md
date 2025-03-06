@@ -3,10 +3,16 @@ title: Uložit do binárního obrázku v Aspose.Note
 linktitle: Uložit do binárního obrázku v Aspose.Note
 second_title: Aspose.Note .NET API
 description: Naučte se převádět dokumenty na binární obrázky pomocí Aspose.Note pro .NET. Postupujte podle našeho podrobného průvodce pro bezproblémovou integraci.
-type: docs
 weight: 22
 url: /cs/net/loading-and-saving-operations/save-to-binary-image/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Uložit do binárního obrázku v Aspose.Note
+
 ## Úvod
 
 V tomto tutoriálu prozkoumáme, jak uložit dokument do binárního obrazu pomocí Aspose.Note pro .NET. Tento proces zahrnuje převod dokumentu na černobílý obrázek s pevnou prahovou hodnotou, což může být užitečné pro různé aplikace.
@@ -97,3 +103,9 @@ A4: Ano, můžete procházet více dokumenty a uložit je jako binární obrázk
 ### Q5: Kde najdu další zdroje a podporu pro Aspose.Note?
 
  A5: Můžete prozkoumat[Aspose.Note dokumentaci](https://reference.aspose.com/note/net/) vyhledat pomoc u[Aspose.Note fórum](https://forum.aspose.com/c/note/28) pro jakékoli dotazy nebo problémy.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

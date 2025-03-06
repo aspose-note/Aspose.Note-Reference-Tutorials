@@ -3,10 +3,16 @@ title: Save to Stream in OneNote - Aspose.Note
 linktitle: Save to Stream in OneNote - Aspose.Note
 second_title: Aspose.Note Java API
 description: Learn how to save OneNote documents to a stream in Java using Aspose.Note. Effortlessly integrate this functionality into your applications.
-type: docs
 weight: 20
 url: /java/onenote-document-saving/save-to-stream/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Save to Stream in OneNote - Aspose.Note
+
 ## Introduction
 
 In this tutorial, we will delve into using Aspose.Note for Java, a powerful library for working with Microsoft OneNote documents programmatically. Specifically, we will focus on the process of saving OneNote documents to a stream. By following the steps outlined in this guide, you'll be able to efficiently manipulate OneNote files within your Java applications.
@@ -95,3 +101,10 @@ A4: You can find documentation, forums, and support for Aspose.Note for Java on 
 ### Q5: Can I try Aspose.Note for Java before purchasing?
 
 A5: Yes, you can obtain a free trial of Aspose.Note for Java from the [Aspose website](https://releases.aspose.com/).
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

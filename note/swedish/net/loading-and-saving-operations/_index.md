@@ -3,10 +3,16 @@ title: OneNote-dokumenthantering med Aspose.Note för .NET
 linktitle: Ladda och spara operationer
 second_title: Aspose.Note .NET API
 description: Lås upp kraften i Aspose.Note för .NET! Dyk in i våra självstudier för steg-för-steg-vägledning om hur du laddar, sparar och manipulerar OneNote-dokument utan ansträngning.
-type: docs
 weight: 25
 url: /sv/net/loading-and-saving-operations/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# OneNote-dokumenthantering med Aspose.Note för .NET
+
 
 ## Introduktion
 
@@ -80,3 +86,9 @@ Lär dig hur du sparar ett dokument med standardinställningar i Aspose.Note fö
 Lär dig hur du anger sparalternativ i Aspose.Note för .NET för att anpassa utdataformat och kvalitet på OneNote-dokument.
 ### [Användarsparande återuppringningar i Aspose.Note](./user-saving-callbacks/)
 Lär dig hur du implementerar användarbesparande callbacks i Aspose.Note för .NET för att anpassa lagringsteckensnitt, CSS och bilder.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

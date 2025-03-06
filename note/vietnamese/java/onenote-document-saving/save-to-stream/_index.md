@@ -3,10 +3,16 @@ title: Lưu vào luồng trong OneNote - Aspose.Note
 linktitle: Lưu vào luồng trong OneNote - Aspose.Note
 second_title: API Java Aspose.Note
 description: Tìm hiểu cách lưu tài liệu OneNote vào một luồng trong Java bằng Aspose.Note. Dễ dàng tích hợp chức năng này vào ứng dụng của bạn.
-type: docs
 weight: 20
 url: /vi/java/onenote-document-saving/save-to-stream/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Lưu vào luồng trong OneNote - Aspose.Note
+
 ## Giới thiệu
 
 Trong hướng dẫn này, chúng ta sẽ đi sâu vào việc sử dụng Aspose.Note cho Java, một thư viện mạnh mẽ để làm việc với các tài liệu Microsoft OneNote theo chương trình. Cụ thể, chúng tôi sẽ tập trung vào quá trình lưu tài liệu OneNote vào một luồng. Bằng cách làm theo các bước được nêu trong hướng dẫn này, bạn sẽ có thể thao tác hiệu quả với các tệp OneNote trong ứng dụng Java của mình.
@@ -95,3 +101,9 @@ Câu trả lời 4: Bạn có thể tìm tài liệu, diễn đàn và hỗ tr�
 ### Câu hỏi 5: Tôi có thể dùng thử Aspose.Note cho Java trước khi mua không?
 
  Câu trả lời 5: Có, bạn có thể tải bản dùng thử miễn phí Aspose.Note dành cho Java từ[trang web giả định](https://releases.aspose.com/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

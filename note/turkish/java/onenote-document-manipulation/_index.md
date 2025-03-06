@@ -3,10 +3,16 @@ title: OneNote Belge İşleme
 linktitle: OneNote Belge İşleme
 second_title: Aspose.Note Java API'si
 description: Aspose.Note ile Java'da OneNote belgeleri oluşturun, yönetin ve otomatikleştirin. Belge Ziyaretçisi, biçimlendirilmiş zengin metin ve zengin metin oluşturma hakkında adım adım eğitimler.
-type: docs
 weight: 21
 url: /tr/java/onenote-document-manipulation/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# OneNote Belge İşleme
+
 
 ## giriiş
 
@@ -29,3 +35,9 @@ Aspose.Note ile Java kullanarak OneNote'ta Belge Ziyaretçisini nasıl kullanaca
 Aspose.Note for Java'yı kullanarak Java'da zengin formatlı OneNote belgelerini programlı olarak nasıl oluşturacağınızı öğrenin. Sorunsuz belge otomasyonu için adım adım kılavuzumuzu izleyin.
 ### [Java'da Basit Zengin Metinle OneNote Belgesi Oluşturun](./create-onenote-document-simple-rich-text/)
 Aspose.Note for Java'yı kullanarak basit, zengin metinli OneNote belgelerini nasıl oluşturacağınızı öğrenin. Verimli belge yönetimi için bu işlevselliği Java uygulamalarınıza sorunsuz bir şekilde entegre edin.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

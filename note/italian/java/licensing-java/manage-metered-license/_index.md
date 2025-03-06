@@ -3,10 +3,16 @@ title: Gestisci la licenza a consumo per OneNote in Java
 linktitle: Gestisci la licenza a consumo per OneNote in Java
 second_title: Aspose.Note API Java
 description: Scopri come gestire le licenze a consumo per OneNote in Java utilizzando la libreria Aspose.Note. Controlla l'utilizzo, monitora i crediti e ottimizza i costi in modo efficiente.
-type: docs
 weight: 10
 url: /it/java/licensing-java/manage-metered-license/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Gestisci la licenza a consumo per OneNote in Java
+
 ## introduzione
 
 In questo tutorial impareremo come gestire una licenza a consumo per OneNote utilizzando Aspose.Note per Java. La licenza misurata ti consente di monitorare e controllare il tuo utilizzo in base ai crediti, fornendo una soluzione flessibile ed economica.
@@ -85,3 +91,9 @@ R3: Sì, una licenza a consumo può essere utilizzata per più applicazioni, ma 
 ### Q5: Dove posso ottenere supporto per Aspose.Note per Java?
 
  R5: Puoi ottenere supporto dai forum della community Aspose[Qui](https://forum.aspose.com/c/note/28).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

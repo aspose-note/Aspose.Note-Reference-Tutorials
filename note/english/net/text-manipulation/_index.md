@@ -3,10 +3,16 @@ title: Text Manipulation in OneNote with Aspose.Note for .NET
 linktitle: Text Manipulation
 second_title: Aspose.Note .NET API
 description: Transform your OneNote documents with Aspose.Note for .NET! Learn text manipulation techniques, from applying bullets and numbering to changing styles.
-type: docs
 weight: 31
 url: /net/text-manipulation/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Text Manipulation in OneNote with Aspose.Note for .NET
+
 
 ## Introduction
 
@@ -110,3 +116,9 @@ Unlock the potential of Aspose.Note for .NET with our step-by-step guide on retr
 Explore the power of Aspose.Note for .NET with our step-by-step guide on setting default paragraph styles. Elevate your document manipulation skills effortlessly.
 ### [Set Proofing Language for Text in Aspose.Note](./set-proofing-language-text/)
 Unlock powerful text manipulation with Aspose.Note for .NET. Set proofing language effortlessly with step-by-step guidance. Enhance your .NET projects now!
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

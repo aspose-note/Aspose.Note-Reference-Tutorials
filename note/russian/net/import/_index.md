@@ -3,10 +3,16 @@ title: Бесшовный импорт PDF с интеграцией OneNote
 linktitle: Импортировать
 second_title: Aspose.Note .NET API
 description: Импортируйте PDF-документы в Aspose.Note .NET с полной интеграцией и использованием различных вариантов слияния. Учитесь с помощью пошаговых руководств, включая интеграцию с OneNote.
-type: docs
 weight: 24
 url: /ru/net/import/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Бесшовный импорт PDF с интеграцией OneNote
+
 
 ## Введение
 
@@ -48,3 +54,9 @@ url: /ru/net/import/
 ## Импорт учебных пособий
 ### [Импортируйте PDF-документы в Aspose.Note.](./import-pdf-documents/)
 Узнайте, как легко импортировать PDF-документы в Aspose.Note для .NET, используя различные варианты слияния для бесшовной интеграции.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

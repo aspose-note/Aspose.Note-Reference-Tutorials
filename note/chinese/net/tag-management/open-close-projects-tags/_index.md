@@ -3,10 +3,16 @@ title: 在 Aspose.Note 中打开和关闭带有标签的项目
 linktitle: 在 Aspose.Note 中打开和关闭带有标签的项目
 second_title: Aspose.Note .NET API
 description: 了解如何使用 Aspose.Note for .NET 以编程方式操作 Microsoft OneNote 文件。有效地打开和关闭带有标签的项目。
-type: docs
 weight: 15
 url: /zh/net/tag-management/open-close-projects-tags/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# 在 Aspose.Note 中打开和关闭带有标签的项目
+
 ## 介绍
 
 在本教程中，我们将学习如何使用 Aspose.Note for .NET 打开和关闭带有标签的项目。 Aspose.Note 是一个功能强大的 API，允许开发人员以编程方式处理 Microsoft OneNote 文件，从而实现处理文档中的文本、图像和标签等任务。
@@ -112,3 +118,9 @@ A3：是的，您可以获得免费试用[这里](https://releases.aspose.com/).
 ### Q5：在哪里可以获得 Aspose.Note 的支持？
 
  A5：如需支持，您可以访问Aspose.Note[论坛](https://forum.aspose.com/c/note/28).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

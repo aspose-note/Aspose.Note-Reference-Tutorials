@@ -3,10 +3,16 @@ title: Учебные пособия по управлению тегами Aspo
 linktitle: Управление тегами
 second_title: Aspose.Note .NET API
 description: Мастер Aspose.Note с управлением тегами. Добавляйте изображения, таблицы, текстовые узлы и создавайте заметки о встречах. Получите подробную информацию о тегах и улучшите манипулирование документами.
-type: docs
 weight: 30
 url: /ru/net/tag-management/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Учебные пособия по управлению тегами Aspose.Note для .NET
+
 
 ## Введение
 
@@ -49,3 +55,9 @@ url: /ru/net/tag-management/
 Узнайте, как программно манипулировать файлами Microsoft OneNote с помощью Aspose.Note для .NET. Эффективно открывайте и закрывайте проекты с помощью тегов.
 ### [Отчетность с помощью тегов в Aspose.Note](./reporting-tags/)
 Узнайте, как создавать подробные отчеты из цифровых документов с помощью Aspose.Note для .NET. Предоставлено пошаговое руководство.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

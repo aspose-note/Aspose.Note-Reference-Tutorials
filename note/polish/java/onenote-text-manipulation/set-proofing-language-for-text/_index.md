@@ -3,10 +3,16 @@ title: Ustaw język sprawdzania tekstu w programie OneNote — Aspose.Note
 linktitle: Ustaw język sprawdzania tekstu w programie OneNote — Aspose.Note
 second_title: Aspose.Note API Java
 description: Odblokuj potencjał Aspose.Note dla Java! Dowiedz się, jak bezproblemowo ustawić język sprawdzania tekstu w programie OneNote, korzystając z naszego przewodnika krok po kroku.
-type: docs
 weight: 22
 url: /pl/java/onenote-text-manipulation/set-proofing-language-for-text/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Ustaw język sprawdzania tekstu w programie OneNote — Aspose.Note
+
 ## Wstęp
 W dynamicznym świecie tworzenia oprogramowania Aspose.Note for Java wyróżnia się jako potężne narzędzie do programowego zarządzania dokumentami OneNote i manipulowania nimi. Jeśli chcesz ulepszyć swoje aplikacje Java dzięki możliwości ustawienia języka sprawdzającego tekst w programie OneNote, trafiłeś we właściwe miejsce. Ten samouczek przeprowadzi Cię przez proces krok po kroku, zapewniając jasne zrozumienie każdej koncepcji.
 ## Warunki wstępne
@@ -67,3 +73,9 @@ O: Zaimplementuj mechanizmy obsługi błędów, używając bloków try-catch, ab
 Odp.: Oczywiście! Upewnij się, że masz poprawnie skonfigurowaną bibliotekę Aspose.Note dla Java w swoim projekcie internetowym.
 ### P: Gdzie mogę znaleźć dodatkowe przykłady i dokumentację dla Aspose.Note dla Java?
  O: Poznaj[dokumentacja](https://reference.aspose.com/note/java/) dla kompleksowych zasobów.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

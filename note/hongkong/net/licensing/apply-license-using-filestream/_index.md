@@ -3,10 +3,16 @@ title: 使用 FileStream 應用 Aspose.Note 許可證
 linktitle: 使用 FileStream 應用 Aspose.Note 許可證
 second_title: Aspose.Note .NET API
 description: 了解如何在 .NET 應用程式中使用 FileStream 應用 Aspose.Note 授權以實現無縫整合。
-type: docs
 weight: 12
 url: /zh-hant/net/licensing/apply-license-using-filestream/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# 使用 FileStream 應用 Aspose.Note 許可證
+
 ## 介紹
 
 Aspose.Note for .NET 是一個功能強大的 API，可讓開發人員以程式設計方式使用 Microsoft OneNote 檔案。無論您需要建立、閱讀、修改或轉換 OneNote 文檔，Aspose.Note for .NET 都提供全面的功能來簡化您的工作流程。在本教程中，我們將探討如何使用 FileStream 應用 Aspose.Note 許可證，確保您的應用程式獲得正確的生產使用許可。
@@ -85,3 +91,9 @@ A4：您可以從 Aspose.Note 社群獲得支持[論壇](https://forum.aspose.co
 ### Q5: 你們提供臨時許可證嗎？
 
  A5：是的，可以使用臨時許可證[這裡](https://purchase.aspose.com/temporary-license/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

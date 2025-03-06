@@ -3,10 +3,16 @@ title: 在 OneNote 中加载笔记本 - Aspose.Note
 linktitle: 在 OneNote 中加载笔记本 - Aspose.Note
 second_title: Aspose.Note Java API
 description: 用 Java 掌握 OneNote 笔记本！学习加载、探索和处理内容 - 从文档到子笔记本。包含简单的步骤和代码！ #OneNote #Java #Aspose
-type: docs
 weight: 19
 url: /zh/java/onenote-notebook-operations/loading-notebook/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# 在 OneNote 中加载笔记本 - Aspose.Note
+
 ## 介绍
 
 欢迎来到我们关于使用 Aspose.Note for Java 来处理 OneNote 笔记本的教程。 Aspose.Note 是一个功能强大的 Java 库，允许开发人员以编程方式创建、操作和转换 OneNote 文档。在本教程中，我们将指导您完成使用 Aspose.Note for Java 在 OneNote 中加载笔记本的过程。
@@ -98,3 +104,9 @@ A3：是的，您需要购买许可证才能用于商业用途。但是，您也
 ### Q5：我可以获得临时许可证用于测试目的吗？
 
  A5：是的，您可以申请临时许可证[这里](https://purchase.aspose.com/temporary-license/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

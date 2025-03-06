@@ -3,10 +3,16 @@ title: Manipulação de documentos do OneNote com Aspose.Note para .NET
 linktitle: Carregando e salvando operações
 second_title: API Aspose.Note .NET
 description: Desbloqueie o poder do Aspose.Note para .NET! Mergulhe em nossos tutoriais para obter orientação passo a passo sobre como carregar, salvar e manipular documentos do OneNote sem esforço.
-type: docs
 weight: 25
 url: /pt/net/loading-and-saving-operations/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Manipulação de documentos do OneNote com Aspose.Note para .NET
+
 
 ## Introdução
 
@@ -80,3 +86,9 @@ Aprenda como salvar um documento com configurações padrão no Aspose.Note for 
 Aprenda como especificar opções de salvamento no Aspose.Note for .NET para personalizar o formato de saída e a qualidade dos documentos do OneNote.
 ### [Retornos de chamada para salvar o usuário em Aspose.Note](./user-saving-callbacks/)
 Aprenda como implementar retornos de chamada para salvar o usuário no Aspose.Note for .NET para personalizar o salvamento de fontes, CSS e imagens.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

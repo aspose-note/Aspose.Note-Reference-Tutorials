@@ -3,10 +3,16 @@ title: แนบไฟล์และตั้งค่าไอคอนใน 
 linktitle: แนบไฟล์และตั้งค่าไอคอนใน OneNote โดยใช้ Java
 second_title: Aspose.Note Java API
 description: เพิ่มประสิทธิภาพเวิร์กโฟลว์ OneNote ของคุณ! เรียนรู้วิธีแนบไฟล์และปรับแต่งไอคอนโดยทางโปรแกรมใน Java ด้วย Aspose.Note รวมขั้นตอนและโค้ดง่ายๆ! #OneNote #Java #Aspose
-type: docs
 weight: 10
 url: /th/java/onenote-java-integration/attach-file-and-set-icon/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# แนบไฟล์และตั้งค่าไอคอนใน OneNote โดยใช้ Java
+
 ## การแนะนำ
 
 OneNote เป็นเครื่องมือยอดนิยมสำหรับการจดบันทึกและจัดระเบียบข้อมูล และด้วยความช่วยเหลือของ Aspose.Note สำหรับ Java คุณสามารถเพิ่มขีดความสามารถได้ด้วยการแนบไฟล์และการตั้งค่าไอคอนทางโปรแกรมเพื่อปรับปรุงการแสดงภาพบันทึกย่อของคุณ ในบทช่วยสอนนี้ เราจะแนะนำคุณตลอดกระบวนการทีละขั้นตอน
@@ -149,3 +155,10 @@ A3: แน่นอน คุณสามารถเลือกไอคอน
 ### คำถามที่ 5: Aspose.Note สำหรับ Java มีเวอร์ชันทดลองใช้งานหรือไม่
 
 A5: ได้ คุณสามารถสำรวจฟังก์ชันการทำงานของ Aspose.Note สำหรับ Java พร้อมให้ทดลองใช้ฟรีได้ที่[ลิงค์นี้](https://releases.aspose.com/).
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

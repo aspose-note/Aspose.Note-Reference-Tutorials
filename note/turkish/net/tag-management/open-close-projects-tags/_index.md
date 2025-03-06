@@ -3,10 +3,16 @@ title: Aspose.Note'ta Projeleri Etiketlerle Açma ve Kapatma
 linktitle: Aspose.Note'ta Projeleri Etiketlerle Açma ve Kapatma
 second_title: Aspose.Note .NET API'si
 description: Aspose.Note for .NET'i kullanarak Microsoft OneNote dosyalarını programlı olarak nasıl değiştireceğinizi öğrenin. Projeleri etiketlerle verimli bir şekilde açın ve kapatın.
-type: docs
 weight: 15
 url: /tr/net/tag-management/open-close-projects-tags/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Aspose.Note'ta Projeleri Etiketlerle Açma ve Kapatma
+
 ## giriiş
 
 Bu eğitimde, etiketleri olan projeleri açmak ve kapatmak için Aspose.Note for .NET'i nasıl kullanacağımızı öğreneceğiz. Aspose.Note, geliştiricilerin Microsoft OneNote dosyalarıyla programlı olarak çalışmasına olanak tanıyan, belgelerdeki metin, resim ve etiketleri değiştirme gibi görevleri mümkün kılan güçlü bir API'dir.
@@ -112,3 +118,9 @@ Cevap1: Aspose.Note, Microsoft OneNote 2010 ve daha yeni sürümleri destekler.
 ### S5: Aspose.Note için nereden destek alabilirim?
 
  Cevap5: Destek için Aspose.Note'u ziyaret edebilirsiniz.[forum](https://forum.aspose.com/c/note/28).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

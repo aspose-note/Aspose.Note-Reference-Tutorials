@@ -3,10 +3,16 @@ title: 在Aspose.Note中设置页面的背景颜色
 linktitle: 在Aspose.Note中设置页面的背景颜色
 second_title: Aspose.Note .NET API
 description: 通过分步指南了解如何使用 C# 编程语言在 Aspose.Note 文档中设置页面背景颜色。
-type: docs
 weight: 19
 url: /zh/net/note-manipulation/set-page-background-color/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# 在Aspose.Note中设置页面的背景颜色
+
 ## 介绍
 
 Aspose.Note for .NET 允许开发人员以编程方式操作 OneNote 文档。一项常见任务是设置这些文档中页面的背景颜色。在本教程中，我们将逐步指导您完成该过程。
@@ -97,3 +103,9 @@ A3：是的，您可以从以下位置下载免费试用版：[这里](https://r
 ### Q5：我在哪里可以找到有关 Aspose.Note 的额外支持或提出问题？
 
  A5：您可以访问[Aspose.Note 论坛](https://forum.aspose.com/c/note/28)以获得支持并与其他用户联系。
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -3,10 +3,16 @@ title: Az oldalváltozatok elsajátítása a OneNote-dokumentumokban
 linktitle: Az oldalváltozatok elsajátítása a OneNote-dokumentumokban
 second_title: Aspose.Note .NET API
 description: Ismerje meg a Microsoft OneNote oldalverziók kezelését az Aspose.Note segítségével. Lépésről lépésre útmutató a .NET-alkalmazások zökkenőmentes integrációjához és verziókezeléséhez.
-type: docs
 weight: 20
 url: /hu/net/note-manipulation/working-with-page-revisions/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Az oldalváltozatok elsajátítása a OneNote-dokumentumokban
+
 ## Bevezetés
 
 A .NET fejlesztés területén az Aspose.Note a Microsoft OneNote fájlok hatékony kezelésének sokoldalú eszköze. Az Aspose.Note egyik különösen hasznos funkciója, hogy zökkenőmentesen tudja kezelni az oldalváltozatokat. Ebben az oktatóanyagban az Aspose.Note for .NET használatával végzett oldalváltozatokkal való munka bonyolultságába fogunk beleásni.
@@ -112,3 +118,9 @@ document.Save(dataDir + "WorkingWithPageRevisions_out.one");
 ### 5. kérdés: Automatizálhatom az oldalverziók kezelésének folyamatát az Aspose.Note segítségével?
 
 5. válasz: Igen, az Aspose.Note átfogó API-kat kínál, amelyek lehetővé teszik a fejlesztők számára, hogy automatizálják az oldalváltozatokkal kapcsolatos feladatokat, és egyszerűsítsék a munkafolyamatokat.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

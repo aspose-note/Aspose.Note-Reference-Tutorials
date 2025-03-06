@@ -3,10 +3,16 @@ title: Untergeordneten Knoten im OneNote-Notizbuch hinzufügen – Aspose.Note
 linktitle: Untergeordneten Knoten im OneNote-Notizbuch hinzufügen – Aspose.Note
 second_title: Aspose.Note Java API
 description: Erfahren Sie, wie Sie mit Aspose.Note für Java programmgesteuert untergeordnete Knoten zu OneNote-Notizbüchern hinzufügen. Verbessern Sie mühelos Ihre Notizenorganisation.
-type: docs
 weight: 11
 url: /de/java/onenote-notebook-operations/add-child-node/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Untergeordneten Knoten im OneNote-Notizbuch hinzufügen – Aspose.Note
+
 ## Einführung
 
 OneNote ist ein leistungsstarkes Tool zum Organisieren Ihrer Notizen und Ideen. Aspose.Note für Java bietet praktische Möglichkeiten, OneNote-Dateien programmgesteuert zu bearbeiten. In diesem Tutorial führen wir Sie Schritt für Schritt durch den Prozess des Hinzufügens eines untergeordneten Knotens zu einem OneNote-Notizbuch.
@@ -89,3 +95,9 @@ A4: Ja, Sie können Aspose.Note für Java problemlos in Ihre Java-Projekte integ
 ### F5: Gibt es ein Community-Forum, in dem ich Hilfe und Anleitung zur Verwendung von Aspose.Note für Java suchen kann?
 
  A5: Ja, Sie können die besuchen[Aspose.Note-Forum](https://forum.aspose.com/c/note/28) um Fragen zu stellen, Wissen auszutauschen und mit anderen Benutzern und Experten zu interagieren.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

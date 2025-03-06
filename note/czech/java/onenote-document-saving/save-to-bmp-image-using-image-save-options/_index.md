@@ -3,10 +3,16 @@ title: Uložit do obrázku BMP pomocí možností uložení obrázku ve OneNotu
 linktitle: Uložit do obrázku BMP pomocí možností uložení obrázku ve OneNotu
 second_title: Aspose.Note Java API
 description: Naučte se ukládat dokumenty OneNotu do obrázků BMP programově pomocí Aspose.Note pro Java. Podrobný průvodce s příklady kódu.
-type: docs
 weight: 16
 url: /cs/java/onenote-document-saving/save-to-bmp-image-using-image-save-options/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Uložit do obrázku BMP pomocí možností uložení obrázku ve OneNotu
+
 ## Úvod
 
 Aspose.Note for Java je výkonná knihovna, která umožňuje vývojářům Java pracovat se soubory Microsoft OneNote programově. S Aspose.Note pro Java můžete bezproblémově vytvářet, manipulovat a převádět dokumenty OneNotu. V tomto tutoriálu se ponoříme do toho, jak uložit dokument OneNote do obrázku BMP pomocí možností uložení obrázku, které poskytuje Aspose.Note pro Java.
@@ -79,3 +85,9 @@ Odpověď 4: Ano, můžete manipulovat s obsahem, strukturou a formátováním d
 ### Q5: Poskytuje Aspose.Note pro Java technickou podporu?
 
  A5: Ano, Aspose poskytuje technickou podporu pro své produkty. Můžete navštívit[Aspose.Note fórum](https://forum.aspose.com/c/note/28) pro pomoc.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

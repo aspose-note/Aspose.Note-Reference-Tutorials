@@ -3,10 +3,16 @@ title: OneNote'ta Not Defterini Düzleştirilmiş PDF'ye Dönüştürme - Aspose
 linktitle: OneNote'ta Not Defterini Düzleştirilmiş PDF'ye Dönüştürme - Aspose.Note
 second_title: Aspose.Note Java API'si
 description: Aspose.Note for Java ile not defterlerini zahmetsizce düzleştirilmiş PDF'lere dönüştürün. Sorunsuz entegrasyon ve özelleştirme seçeneklerinin keyfini çıkarın.
-type: docs
 weight: 16
 url: /tr/java/onenote-notebook-operations/convert-notebook-to-flattened-pdf/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# OneNote'ta Not Defterini Düzleştirilmiş PDF'ye Dönüştürme - Aspose.Note
+
 ## giriiş
 
 Bu eğitimde Aspose.Note for Java'yı kullanarak bir not defterini düzleştirilmiş PDF formatına nasıl dönüştürebileceğimizi inceleyeceğiz. Defterleri PDF'lere dönüştürmek birçok uygulamanın ortak gereksinimidir ve Aspose.Note, kapsamlı özellikleri ve kullanımı kolay API'si ile bu süreci basitleştirir.
@@ -82,3 +88,9 @@ Cevap3: Evet, Aspose.Note for Java'yı kullanarak birden fazla not defterini ver
 ### S5: Aspose.Note for Java desteğini nerede bulabilirim?
 
  Cevap5: Aspose.Note for Java için destek ve yardımı şu adreste bulabilirsiniz:[Aspose.Note forumu](https://forum.aspose.com/c/note/28).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

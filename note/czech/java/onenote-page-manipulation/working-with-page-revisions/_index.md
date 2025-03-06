@@ -3,10 +3,16 @@ title: Práce s revizemi stránky ve OneNotu – Aspose.Note
 linktitle: Práce s revizemi stránky ve OneNotu – Aspose.Note
 second_title: Aspose.Note Java API
 description: Přečtěte si, jak spravovat revize stránek v dokumentech OneNotu pomocí Aspose.Note pro Java. Poskytuje průvodce krok za krokem pro efektivní sledování revizí a spolupráci.
-type: docs
 weight: 21
 url: /cs/java/onenote-page-manipulation/working-with-page-revisions/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Práce s revizemi stránky ve OneNotu – Aspose.Note
+
 ## Úvod
 
 OneNote je výkonný nástroj pro organizaci a správu poznámek, ale někdy je potřeba pracovat s revizemi, abyste mohli sledovat změny a efektivně spolupracovat. S Aspose.Note pro Java můžete snadno programově spravovat revize stránek v dokumentech OneNotu. Tento tutoriál vás provede procesem krok za krokem.
@@ -98,3 +104,9 @@ Odpověď: Ano, pomocí Aspose.Note pro Java si můžete upravit revize stránek
 ### Q5: Kde mohu získat podporu pro Aspose.Note pro Java?
 
  Odpověď: Podporu pro Aspose.Note pro Javu můžete získat z[Aspose.Note fórum](https://forum.aspose.com/c/note/28).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

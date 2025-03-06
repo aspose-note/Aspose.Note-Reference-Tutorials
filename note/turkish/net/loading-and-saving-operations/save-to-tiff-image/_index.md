@@ -3,10 +3,16 @@ title: Aspose.Note'ta TIFF Görüntüsüne Kaydet
 linktitle: Aspose.Note'ta TIFF Görüntüsüne Kaydet
 second_title: Aspose.Note .NET API'si
 description: Aspose.Note for .NET'i kullanarak OneNote belgelerini çeşitli sıkıştırma yöntemleriyle TIFF görüntüleri olarak nasıl kaydedeceğinizi öğrenin.
-type: docs
 weight: 27
 url: /tr/net/loading-and-saving-operations/save-to-tiff-image/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Aspose.Note'ta TIFF Görüntüsüne Kaydet
+
 ## giriiş
 
 Bu eğitimde, Aspose.Note for .NET kullanarak belgeleri TIFF formatında görüntü olarak nasıl kaydedeceğimizi inceleyeceğiz. Aspose.Note, geliştiricilerin Microsoft OneNote dosyalarıyla programlı olarak çalışmasına olanak tanıyan güçlü bir API'dir. OneNote belgelerini TIFF görüntüleri olarak kaydetmek, arşivleme, paylaşma veya yazdırma gibi çeşitli uygulamalar için yararlı olabilir.
@@ -131,3 +137,9 @@ Cevap4: Evet, Aspose.Note API'leri ile toplu işlemeyi kullanarak dönüştürme
 ### S5: Aspose.Note'un deneme sürümü mevcut mu?
 
 Cevap5: Evet, Aspose.Note'un ücretsiz deneme sürümünü şu adresten edinebilirsiniz:[Burada](https://releases.aspose.com/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -3,10 +3,16 @@ title: Definir estilo de parágrafo padrão no OneNote - Aspose.Note
 linktitle: Definir estilo de parágrafo padrão no OneNote - Aspose.Note
 second_title: API Java Aspose.Note
 description: Aprenda como definir estilos de parágrafo padrão no OneNote usando Aspose.Note para Java. Siga nosso guia passo a passo para formatação de texto eficiente em seus aplicativos Java.
-type: docs
 weight: 11
 url: /pt/java/onenote-styles/set-default-paragraph-style/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Definir estilo de parágrafo padrão no OneNote - Aspose.Note
+
 ## Introdução
 
 Aspose.Note for Java oferece recursos poderosos para manipular a formatação de texto, incluindo a configuração de estilos de parágrafo padrão. Este tutorial irá guiá-lo através do processo de configuração de estilos de parágrafo padrão no OneNote usando Aspose.Note.
@@ -127,3 +133,9 @@ A4: Sim, você pode integrar facilmente o Aspose.Note em seus projetos Java adic
 ### Q5: Existe uma versão de teste disponível para Aspose.Note?
 
  A5: Sim, você pode acessar uma avaliação gratuita do Aspose.Note no[local na rede Internet](https://releases.aspose.com/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -3,10 +3,16 @@ title: Vytvořte dokument s názvem stránky v Aspose.Note
 linktitle: Vytvořte dokument s názvem stránky v Aspose.Note
 second_title: Aspose.Note .NET API
 description: Naučte se vytvářet dokumenty s titulkovými stránkami pomocí Aspose.Note pro .NET. Postupujte podle našeho podrobného průvodce pro bezproblémovou integraci.
-type: docs
 weight: 13
 url: /cs/net/loading-and-saving-operations/create-doc-with-page-title/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Vytvořte dokument s názvem stránky v Aspose.Note
+
 ## Úvod
 
 V tomto tutoriálu vás provedeme procesem vytváření dokumentu s titulní stránkou pomocí Aspose.Note pro .NET. Aspose.Note je výkonné API, které umožňuje vývojářům pracovat se soubory Microsoft OneNote programově.
@@ -118,3 +124,9 @@ Odpověď 4: Ano, Aspose.Note můžete použít ke snadnému čtení, úpravám 
 ### Q5: Kde najdu podporu, pokud narazím na nějaké problémy?
 
  A5: Podporu a pomoc najdete na[Aspose.Note fórum](https://forum.aspose.com/c/note/28), kde vám odborníci a členové komunity mohou pomoci s vašimi dotazy.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

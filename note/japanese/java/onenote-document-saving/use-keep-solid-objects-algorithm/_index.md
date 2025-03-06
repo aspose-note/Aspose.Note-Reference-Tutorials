@@ -3,10 +3,16 @@ title: OneNote でソリッド オブジェクト保持アルゴリズムを使�
 linktitle: OneNote でソリッド オブジェクト保持アルゴリズムを使用する - Aspose.Note
 second_title: Aspose.Note Java API
 description: Java のソリッド オブジェクト保持アルゴリズムを使用して PDF に変換するときに、Aspose.Note ドキュメント内のソリッド オブジェクトを保持する方法を学びます。
-type: docs
 weight: 25
 url: /ja/java/onenote-document-saving/use-keep-solid-objects-algorithm/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# OneNote でソリッド オブジェクト保持アルゴリズムを使用する - Aspose.Note
+
 ## 導入
 
 このチュートリアルでは、Aspose.Note for Java の Keep Solid Objects アルゴリズムを利用する方法を検討します。このアルゴリズムは、ドキュメント内のソリッド オブジェクトを PDF 形式に変換する際にその整合性を維持するのに非常に役立ちます。プロセスを段階的に分けて、各段階での明確さと理解を確保します。
@@ -93,3 +99,10 @@ doc.save(outputFile);
 ### Q5: ライセンスはどこで購入できますか?
 
  A5: Aspose.Note for Java のライセンスを購入できます。[ここ](https://purchase.aspose.com/buy).
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

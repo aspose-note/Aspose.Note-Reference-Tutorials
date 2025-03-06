@@ -3,10 +3,16 @@ title: บันทึกเอกสารเป็นรูปแบบ OneNot
 linktitle: บันทึกเอกสารเป็นรูปแบบ OneNote - Aspose.Note
 second_title: Aspose.Note Java API
 description: เรียนรู้วิธีบันทึกเอกสารเป็นรูปแบบ OneNote โดยใช้ Aspose.Note สำหรับ Java ปฏิบัติตามคำแนะนำทีละขั้นตอนของเราเพื่อการบูรณาการที่ราบรื่น
-type: docs
 weight: 10
 url: /th/java/onenote-document-saving/save-document-to-onenote-format/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# บันทึกเอกสารเป็นรูปแบบ OneNote - Aspose.Note
+
 ## การแนะนำ
 
 ยินดีต้อนรับสู่บทช่วยสอนเกี่ยวกับการบันทึกเอกสารเป็นรูปแบบ OneNote โดยใช้ Aspose.Note สำหรับ Java Aspose.Note เป็นไลบรารี Java ที่ทรงพลังที่ช่วยให้คุณทำงานกับไฟล์ Microsoft OneNote โดยทางโปรแกรม ทำให้คุณสามารถสร้าง จัดการ และแปลงเอกสาร OneNote ได้อย่างง่ายดาย
@@ -90,3 +96,9 @@ doc.save(dataDir + "SaveDocToOneNoteFormat_out.one");
 ### คำถามที่ 5: ฉันจะหาเอกสารโดยละเอียดสำหรับ Aspose.Note สำหรับ Java ได้ที่ไหน
 
  A5: คุณสามารถเข้าถึงเอกสารโดยละเอียดได้[ที่นี่](https://reference.aspose.com/note/java/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

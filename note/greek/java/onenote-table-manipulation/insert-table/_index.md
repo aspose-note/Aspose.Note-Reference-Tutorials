@@ -3,10 +3,16 @@ title: Εισαγωγή πίνακα στο OneNote - Aspose.Note
 linktitle: Εισαγωγή πίνακα στο OneNote - Aspose.Note
 second_title: Aspose.Note Java API
 description: Μάθετε να εισάγετε πίνακες στο OneNote χρησιμοποιώντας το Aspose.Note για Java. Οδηγός βήμα προς βήμα για δυναμική δημιουργία περιεχομένου. Βελτιώστε τα έγγραφά σας χωρίς κόπο.
-type: docs
 weight: 16
 url: /el/java/onenote-table-manipulation/insert-table/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Εισαγωγή πίνακα στο OneNote - Aspose.Note
+
 ## Εισαγωγή
 Αν θέλετε να βελτιώσετε τα έγγραφά σας στο OneNote εισάγοντας πίνακες μέσω προγραμματισμού, το Aspose.Note για Java είναι η λύση που προτιμάτε. Σε αυτόν τον οδηγό βήμα προς βήμα, θα σας καθοδηγήσουμε στη διαδικασία εισαγωγής ενός πίνακα σε ένα έγγραφο του OneNote χρησιμοποιώντας την ισχυρή βιβλιοθήκη Java του Aspose.Note.
 ## Προαπαιτούμενα
@@ -101,3 +107,9 @@ public static OutlineElement GetOutlineElementWithText(String text)
  Α: Ναι, μπορείτε να εξερευνήσετε τη βιβλιοθήκη με α[δωρεάν δοκιμή](https://releases.aspose.com/).
 ### Ε: Πώς μπορώ να αποκτήσω μια προσωρινή άδεια χρήσης για το Aspose.Note για Java;
  Α: Πάρτε μια προσωρινή άδεια[εδώ](https://purchase.aspose.com/temporary-license/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

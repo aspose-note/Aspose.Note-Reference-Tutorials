@@ -3,10 +3,16 @@ title: Inserisci immagini con collegamenti ipertestuali in Aspose.Note
 linktitle: Inserisci immagini con collegamenti ipertestuali in Aspose.Note
 second_title: Aspose.Note API .NET
 description: Scopri come inserire immagini con collegamenti ipertestuali in Aspose.Note per .NET senza sforzo. Migliora l'interattività dei documenti con immagini cliccabili.
-type: docs
 weight: 15
 url: /it/net/images/insert-image-hyperlink/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Inserisci immagini con collegamenti ipertestuali in Aspose.Note
+
 ## introduzione
 
 Aspose.Note per .NET fornisce un potente set di funzionalità per lavorare con le immagini, inclusa la possibilità di inserire immagini con collegamenti ipertestuali. In questo tutorial ti guideremo attraverso il processo di inserimento di immagini con collegamenti ipertestuali utilizzando Aspose.Note per .NET.
@@ -89,3 +95,9 @@ A3: Sì, è possibile personalizzare l'aspetto dei collegamenti ipertestuali, in
 ### Q5: Dove posso ottenere supporto per Aspose.Note per .NET?
 
  A5: È possibile ottenere supporto per Aspose.Note per .NET da[Aspose.Note forum](https://forum.aspose.com/c/note/28), dove puoi porre domande, chiedere assistenza e interagire con altri utenti ed esperti.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

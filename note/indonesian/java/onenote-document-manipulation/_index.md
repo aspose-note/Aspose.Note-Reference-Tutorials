@@ -3,10 +3,16 @@ title: Manipulasi Dokumen OneNote
 linktitle: Manipulasi Dokumen OneNote
 second_title: Aspose.Catatan Java API
 description: Buat, manipulasi, dan otomatisasi dokumen OneNote di Java dengan Aspose.Note. Tutorial langkah demi langkah tentang Pengunjung Dokumen, teks kaya yang diformat & pembuatan teks kaya.
-type: docs
 weight: 21
 url: /id/java/onenote-document-manipulation/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Manipulasi Dokumen OneNote
+
 
 ## Perkenalan
 
@@ -29,3 +35,9 @@ Pelajari cara memanfaatkan Pengunjung Dokumen di OneNote menggunakan Java dengan
 Pelajari cara membuat dokumen OneNote berformat kaya secara terprogram di Java menggunakan Aspose.Note untuk Java. Ikuti panduan langkah demi langkah kami untuk otomatisasi dokumen yang lancar.
 ### [Buat Dokumen OneNote dengan Teks Kaya Sederhana di Java](./create-onenote-document-simple-rich-text/)
 Pelajari cara membuat dokumen OneNote dengan teks kaya sederhana menggunakan Aspose.Note untuk Java. Integrasikan fungsi ini dengan mulus ke dalam aplikasi Java Anda untuk manajemen dokumen yang efisien.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

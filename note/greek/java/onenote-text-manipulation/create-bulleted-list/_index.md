@@ -3,10 +3,16 @@ title: Δημιουργία λίστας με κουκκίδες στο OneNote 
 linktitle: Δημιουργία λίστας με κουκκίδες στο OneNote - Aspose.Note
 second_title: Aspose.Note Java API
 description: Εξερευνήστε τον οδηγό βήμα προς βήμα για τη δημιουργία λιστών με κουκκίδες στο OneNote χρησιμοποιώντας το Aspose.Note για Java. Αναβαθμίστε τη δημιουργία εγγράφων με ευκολία.
-type: docs
 weight: 12
 url: /el/java/onenote-text-manipulation/create-bulleted-list/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Δημιουργία λίστας με κουκκίδες στο OneNote - Aspose.Note
+
 ## Εισαγωγή
 Στο δυναμικό τοπίο της ανάπτυξης Java, η δημιουργία ελκυστικών και οργανωμένων εγγράφων είναι απαραίτητη. Το Aspose.Note για Java παρέχει ένα ισχυρό σύνολο εργαλείων για τη βελτίωση της διαδικασίας δημιουργίας εγγράφων. Αυτό το σεμινάριο θα σας καθοδηγήσει στη διαδικασία δημιουργίας λιστών με κουκκίδες στο OneNote χρησιμοποιώντας το Aspose.Note για Java. Ας βουτήξουμε στις λεπτομέρειες.
 ## Προαπαιτούμενα
@@ -92,3 +98,9 @@ doc.save(dataDir + "CreateBulletedList_out.pdf");
  Ναι, μπορείτε να εξερευνήσετε μια δωρεάν δοκιμαστική έκδοση[εδώ](https://releases.aspose.com/).
 ### Πώς μπορώ να αποκτήσω μια προσωρινή άδεια χρήσης για το Aspose.Note για Java;
  Πάρτε μια προσωρινή άδεια[εδώ](https://purchase.aspose.com/temporary-license/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

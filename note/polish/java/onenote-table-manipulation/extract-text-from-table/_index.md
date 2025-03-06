@@ -3,10 +3,16 @@ title: Wyodrębnij tekst z tabeli w programie OneNote — Aspose.Note
 linktitle: Wyodrębnij tekst z tabeli w programie OneNote — Aspose.Note
 second_title: Aspose.Note API Java
 description: Dowiedz się, jak bez wysiłku wyodrębnić tekst z tabel w programie OneNote przy użyciu Aspose.Note dla języka Java. Postępuj zgodnie z naszym przewodnikiem krok po kroku, aby zapewnić bezproblemową integrację.
-type: docs
 weight: 14
 url: /pl/java/onenote-table-manipulation/extract-text-from-table/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Wyodrębnij tekst z tabeli w programie OneNote — Aspose.Note
+
 ## Wstęp
 W dziedzinie programowania w języku Java Aspose.Note wyróżnia się jako potężne narzędzie do obsługi dokumentów OneNote. Jedną z jego godnych uwagi funkcji jest możliwość łatwego wyodrębniania tekstu z tabel. Ten samouczek przeprowadzi Cię przez cały proces, szczegółowo opisując każdy krok, aby zapewnić płynną obsługę.
 ## Warunki wstępne
@@ -73,3 +79,9 @@ Tak, Aspose.Note został zaprojektowany tak, aby był kompatybilny z najnowszymi
  Wsparcie społeczności znajdziesz w[Fora Aspose.Note](https://forum.aspose.com/c/note/28).
 ### Jak kupić bibliotekę Aspose.Note?
  Bibliotekę można kupić[Tutaj](https://purchase.aspose.com/buy).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

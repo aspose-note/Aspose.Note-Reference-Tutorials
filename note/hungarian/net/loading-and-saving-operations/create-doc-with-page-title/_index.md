@@ -3,10 +3,16 @@ title: Hozzon létre dokumentumot oldalcímmel az Aspose.Note-ban
 linktitle: Hozzon létre dokumentumot oldalcímmel az Aspose.Note-ban
 second_title: Aspose.Note .NET API
 description: Ismerje meg, hogyan hozhat létre címoldalakat tartalmazó dokumentumokat az Aspose.Note for .NET segítségével. Kövesse lépésenkénti útmutatónkat a zökkenőmentes integráció érdekében.
-type: docs
 weight: 13
 url: /hu/net/loading-and-saving-operations/create-doc-with-page-title/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Hozzon létre dokumentumot oldalcímmel az Aspose.Note-ban
+
 ## Bevezetés
 
 Ebben az oktatóanyagban végigvezetjük a címoldallal rendelkező dokumentum létrehozásának folyamatán az Aspose.Note for .NET használatával. Az Aspose.Note egy hatékony API, amely lehetővé teszi a fejlesztők számára, hogy programozottan dolgozzanak Microsoft OneNote fájlokkal.
@@ -118,3 +124,9 @@ A3: Abszolút! Az Aspose.Note API-kat biztosít a képek, mellékletek és egyé
 ### 5. kérdés: Hol találok támogatást, ha bármilyen problémába ütközöm?
 
  V5: Támogatást és segítséget találhat a következő oldalon[Aspose.Note fórum](https://forum.aspose.com/c/note/28), ahol a szakértők és a közösség tagjai segíthetnek kérdéseiben.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -1,12 +1,17 @@
 ---
 title: Hướng dẫn toàn diện và ví dụ về Aspose.Note cho Java
 linktitle: Aspose.Note dành cho Hướng dẫn Java
-type: docs
 weight: 10
 url: /vi/java/
 description: Khám phá các hướng dẫn và ví dụ toàn diện về Aspose.Note for Java. Nâng cao trải nghiệm OneNote của bạn với hướng dẫn từng bước về tích hợp Java.
-is_root: true
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Hướng dẫn toàn diện và ví dụ về Aspose.Note cho Java
+
 
 ## Giới thiệu
 
@@ -91,3 +96,9 @@ Khám phá sức mạnh của Aspose.Note dành cho Java. Nâng cao trải nghi�
 Khám phá các hướng dẫn Java của Aspose.Note về thao tác văn bản OneNote. Khám phá các phương pháp hiệu quả cho các tác vụ như trích xuất văn bản, áp dụng chủ đề, tạo danh sách, v.v. 
 ### [Tích hợp tác vụ và Outlook](./task-and-outlook-integration/)
 Khai phá tiềm năng của Aspose.Note Java bằng hướng dẫn của chúng tôi về cách tích hợp các tác vụ Outlook vào OneNote. Nâng cao kỹ năng xử lý tài liệu của bạn với các hướng dẫn của chúng tôi.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

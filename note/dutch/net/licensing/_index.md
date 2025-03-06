@@ -3,10 +3,16 @@ title: Beheersing van Aspose.Note-licenties voor OneNote-integratie
 linktitle: Licentie
 second_title: Aspose.Note .NET API
 description: Pas Aspose.Note-licenties toe in uw .NET-applicaties! Ontdek stapsgewijze handleidingen voor het insluiten van bronnen, met behulp van paden, FileStream en efficiënte licentieverlening.
-type: docs
 weight: 20
 url: /nl/net/licensing/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Beheersing van Aspose.Note-licenties voor OneNote-integratie
+
 ## Invoering
 
 Ben jij een .NET-ontwikkelaar die zich verdiept in de dynamische wereld van Aspose.Note? Inzicht in het toepassen van licenties is van cruciaal belang, vooral als u met OneNote-bestanden werkt. In deze uitgebreide handleiding navigeren we door verschillende licentie-tutorials, waardoor we een naadloos integratieproces garanderen en u in staat stellen om moeiteloos OneNote-bestanden te manipuleren.
@@ -41,3 +47,9 @@ Leer hoe u de Aspose.Note-licentie van pad toepast in .NET-toepassingen. Ontgren
 Leer hoe u een Aspose.Note-licentie kunt toepassen met behulp van FileStream in uw .NET-applicaties voor naadloze integratie.
 ### [Gemeten licenties met Aspose.Note](./metered-licensing/)
 Leer hoe u softwarelicenties efficiënt kunt beheren met Aspose.Note voor .NET via gemeten licenties. Optimaliseer het gebruik van hulpbronnen en beheer de kosten effectief.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -3,10 +3,16 @@ title: Geef opslagopties op in OneNote - Aspose.Note
 linktitle: Geef opslagopties op in OneNote - Aspose.Note
 second_title: Aspose.Note Java-API
 description: Leer hoe u in OneNote opslagopties kunt opgeven met Aspose.Note voor Java. Pas de pagina-index, telling en compressie-instellingen moeiteloos aan.
-type: docs
 weight: 24
 url: /nl/java/onenote-document-saving/specify-save-options/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Geef opslagopties op in OneNote - Aspose.Note
+
 ## Invoering
 
 In deze zelfstudie leren we hoe u opslagopties in OneNote kunt opgeven met behulp van Aspose.Note voor Java. Aspose.Note is een krachtige Java-bibliotheek waarmee ontwikkelaars OneNote-documenten programmatisch kunnen maken, manipuleren en converteren. Met Aspose.Note kunt u eenvoudig verschillende opslagopties beheren om de uitvoer aan uw wensen aan te passen.
@@ -109,3 +115,9 @@ A4: Ja, Aspose.Note biedt API's voor het versleutelen en ontsleutelen van OneNot
 ### Vraag 5: Is Aspose.Note geschikt voor commercieel gebruik?
 
 A5: Ja, Aspose.Note kan voor commerciële doeleinden worden gebruikt door een licentie aan te schaffen.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

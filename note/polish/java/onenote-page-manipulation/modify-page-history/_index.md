@@ -3,10 +3,16 @@ title: Modyfikuj historię stron w programie OneNote — Aspose.Note
 linktitle: Modyfikuj historię stron w programie OneNote — Aspose.Note
 second_title: Aspose.Note API Java
 description: Bezproblemowo usuwaj, modyfikuj i dodawaj wpisy historii strony! Przewodnik krok po kroku i kod do opanowania programu OneNote za pomocą Aspose.Note. #OneNote #Java #Aspose
-type: docs
 weight: 17
 url: /pl/java/onenote-page-manipulation/modify-page-history/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Modyfikuj historię stron w programie OneNote — Aspose.Note
+
 ## Wstęp
 
 W tym samouczku omówimy użycie Aspose.Note dla języka Java do modyfikowania historii stron w dokumentach OneNote. Aspose.Note to potężny interfejs API Java, który umożliwia programistom bezproblemową pracę z plikami OneNote, umożliwiając różne operacje, takie jak programowe tworzenie, odczytywanie i modyfikowanie tych plików.
@@ -108,3 +114,10 @@ O4: Tak, Aspose.Note dla Java udostępnia interfejsy API umożliwiające efektyw
 ### P5: Czy istnieje forum społecznościowe dla Aspose.Note dla Java, gdzie mogę poprosić o pomoc?
 
  A5: Tak, możesz odwiedzić[Forum Aspose.Note](https://forum.aspose.com/c/note/28) za pomoc lub zapytania związane z biblioteką.
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

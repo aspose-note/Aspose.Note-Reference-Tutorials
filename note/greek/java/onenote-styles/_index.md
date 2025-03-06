@@ -3,10 +3,16 @@ title: Στυλ OneNote
 linktitle: Στυλ OneNote
 second_title: Aspose.Note Java API
 description: Ανακαλύψτε την τέχνη της τροποποίησης στυλ κειμένου OneNote χρησιμοποιώντας το Aspose.Note για Java. Μάθετε να αλλάζετε το χρώμα, το μέγεθος και την επισήμανση της γραμματοσειράς στα βήμα προς βήμα σεμινάρια μας.
-type: docs
 weight: 31
 url: /el/java/onenote-styles/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Στυλ OneNote
+
 
 ## Εισαγωγή
 
@@ -36,3 +42,9 @@ url: /el/java/onenote-styles/
 Μάθετε πώς μπορείτε να αλλάξετε το στυλ κειμένου στο OneNote με το Aspose.Note για Java. Τροποποιήστε χωρίς κόπο το χρώμα, το μέγεθος και την επισήμανση της γραμματοσειράς.
 ### [Ορίστε το προεπιλεγμένο στυλ παραγράφου στο OneNote - Aspose.Note](./set-default-paragraph-style/)
 Μάθετε πώς να ορίζετε προεπιλεγμένα στυλ παραγράφου στο OneNote χρησιμοποιώντας το Aspose.Note για Java. Ακολουθήστε τον βήμα προς βήμα οδηγό μας για αποτελεσματική μορφοποίηση κειμένου στις εφαρμογές σας Java.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

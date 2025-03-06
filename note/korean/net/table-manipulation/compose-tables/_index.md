@@ -3,10 +3,16 @@ title: Aspose.Note로 테이블 작성
 linktitle: Aspose.Note로 테이블 작성
 second_title: Aspose.Note .NET API
 description: .NET용 Aspose.Note를 사용하여 서식 있는 텍스트 콘텐츠로 구조화된 테이블을 구성하는 방법을 알아보세요. 손쉽게 문서 구성과 가독성을 향상하세요.
-type: docs
 weight: 11
 url: /ko/net/table-manipulation/compose-tables/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Aspose.Note로 테이블 작성
+
 ## 소개
 
 표는 문서의 기본 구성 요소로, 정보를 체계적으로 표시할 수 있게 해줍니다. Aspose.Note for .NET은 테이블을 손쉽게 구성할 수 있는 강력한 도구를 제공합니다. 이 튜토리얼에서는 Aspose.Note를 사용하여 서식 있는 텍스트 콘텐츠가 포함된 테이블을 만드는 과정을 안내합니다.
@@ -170,3 +176,9 @@ A3: 물론입니다. Aspose.Note를 사용하면 테이블을 PDF, DOCX 및 HTML
 ### Q5: Aspose.Note 사용자에게 기술 지원이 제공됩니까?
    
 A5: 네, Aspose는 포럼과 전용 지원 채널을 통해 포괄적인 기술 지원을 제공합니다.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

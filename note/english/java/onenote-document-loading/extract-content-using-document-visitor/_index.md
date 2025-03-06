@@ -3,10 +3,16 @@ title: Extract OneNote Content using Document Visitor - Java
 linktitle: Extract OneNote Content using Document Visitor - Java
 second_title: Aspose.Note Java API
 description: Learn how to extract content from OneNote documents in Java using Aspose.Note for Java. Step-by-step tutorial with code examples provided.
-type: docs
 weight: 21
 url: /java/onenote-document-loading/extract-content-using-document-visitor/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Extract OneNote Content using Document Visitor - Java
+
 ## Introduction
 
 Aspose.Note for Java provides powerful features for extracting content from OneNote documents. In this tutorial, we'll guide you through the process of extracting content from a OneNote document using the Document Visitor in Java.
@@ -147,3 +153,10 @@ A4: Yes, Aspose.Note for Java offers comprehensive support for handling complex 
 ### Q5: Is there any limit to the size of the OneNote document that can be processed using Aspose.Note for Java?
 
 A5: Aspose.Note for Java is designed to handle OneNote documents of various sizes efficiently, ensuring optimal performance even with large documents.
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

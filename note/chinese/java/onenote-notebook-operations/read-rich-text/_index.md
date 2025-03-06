@@ -3,10 +3,16 @@ title: 从 OneNote 笔记本读取富文本 - Aspose.Note
 linktitle: 从 OneNote 笔记本读取富文本 - Aspose.Note
 second_title: Aspose.Note Java API
 description: 了解如何使用 Aspose.Note for Java 从 OneNote 笔记本读取富文本。通过无缝 OneNote 集成增强您的 Java 应用程序。
-type: docs
 weight: 23
 url: /zh/java/onenote-notebook-operations/read-rich-text/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# 从 OneNote 笔记本读取富文本 - Aspose.Note
+
 ## 介绍
 
 在本教程中，我们将深入研究如何利用 Aspose.Note for Java 从 OneNote 笔记本中读取富文本。 Aspose.Note 是一个功能强大的 Java API，允许开发人员无缝地使用 Microsoft OneNote 文件。通过执行下面列出的步骤，您将能够轻松提取富文本数据，从而使您能够轻松操作和分析 OneNote 内容。
@@ -91,3 +97,9 @@ A4：是的，您可以从[网站](https://releases.aspose.com/).
 ### Q5：哪里可以找到 Aspose.Note for Java 的支持？
 
 A5：您可以在以下位置找到支持和帮助：[Aspose.Note 论坛](https://forum.aspose.com/c/note/28).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

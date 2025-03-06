@@ -3,10 +3,16 @@ title: Ottieni il testo della cella dalla riga della tabella in OneNote - Aspose
 linktitle: Ottieni il testo della cella dalla riga della tabella in OneNote - Aspose.Note
 second_title: Aspose.Note API Java
 description: Svela i segreti dell'estrazione del testo dalle tabelle OneNote in Java utilizzando Aspose.Note. Segui la nostra guida passo passo per migliorare le tue capacità di elaborazione dei documenti.
-type: docs
 weight: 15
 url: /it/java/onenote-table-manipulation/get-cell-text-from-row/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Ottieni il testo della cella dalla riga della tabella in OneNote - Aspose.Note
+
 ## introduzione
 Intraprendi un viaggio nel regno dello sviluppo Java mentre sveliamo il processo di estrazione del testo dalle righe della tabella OneNote utilizzando la potente libreria Aspose.Note. Questa guida passo passo ti fornirà le competenze per navigare e manipolare in modo efficiente il testo all'interno delle tabelle.
 ## Prerequisiti
@@ -73,3 +79,9 @@ Assolutamente! Una versione di prova gratuita ti aspetta[Qui](https://releases.a
  Unisciti alla vivace comunità Aspose.Note su[il Forum](https://forum.aspose.com/c/note/28) per discussioni e assistenza.
 ### Sono disponibili documenti campione a scopo di test?
 Immergiti nella documentazione di Aspose.Note per un tesoro di documenti di esempio e frammenti di codice.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

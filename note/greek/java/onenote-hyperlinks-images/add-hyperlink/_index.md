@@ -3,10 +3,16 @@ title: Προσθήκη υπερ-σύνδεσης στο OneNote με Java
 linktitle: Προσθήκη υπερ-σύνδεσης στο OneNote με Java
 second_title: Aspose.Note Java API
 description: Μάθετε πώς να προσθέτετε υπερσυνδέσμους στο OneNote χρησιμοποιώντας Java με τη βιβλιοθήκη Aspose.Note. Βελτιώστε τις σημειώσεις σας με διαδραστικούς συνδέσμους χωρίς κόπο.
-type: docs
 weight: 10
 url: /el/java/onenote-hyperlinks-images/add-hyperlink/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Προσθήκη υπερ-σύνδεσης στο OneNote με Java
+
 ## Εισαγωγή
 
 Η προσθήκη υπερσυνδέσμων στα έγγραφά σας στο OneNote χρησιμοποιώντας Java μπορεί να βελτιώσει σημαντικά τη διαδραστικότητα και τη χρησιμότητα των σημειώσεων σας. Σε αυτό το σεμινάριο, θα σας καθοδηγήσουμε στη διαδικασία βήμα προς βήμα, χρησιμοποιώντας το Aspose.Note για τη βιβλιοθήκη Java. Ας βουτήξουμε!
@@ -136,3 +142,9 @@ A4: Ναι, η ενσωμάτωση του Aspose.Note στα έργα σας Ja
 ### Ε5: Πού μπορώ να βρω περισσότερη βοήθεια και πόρους για τη χρήση του Aspose.Note;
 
  A5: Μπορείτε να βρείτε εκτενή τεκμηρίωση, σεμινάρια και υποστήριξη κοινότητας στο[Aspose.Note φόρουμ](https://forum.aspose.com/c/note/28).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

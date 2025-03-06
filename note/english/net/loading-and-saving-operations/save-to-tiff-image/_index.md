@@ -3,10 +3,16 @@ title: Save to TIFF Image in Aspose.Note
 linktitle: Save to TIFF Image in Aspose.Note
 second_title: Aspose.Note .NET API
 description: Learn how to save OneNote documents as TIFF images with various compression methods using Aspose.Note for .NET.
-type: docs
 weight: 27
 url: /net/loading-and-saving-operations/save-to-tiff-image/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Save to TIFF Image in Aspose.Note
+
 ## Introduction
 
 In this tutorial, we'll explore how to save documents as images in TIFF format using Aspose.Note for .NET. Aspose.Note is a powerful API that allows developers to work with Microsoft OneNote files programmatically. Saving OneNote documents as TIFF images can be useful for various applications such as archiving, sharing, or printing.
@@ -131,3 +137,10 @@ A4: Yes, you can automate the conversion process using batch processing with Asp
 ### Q5: Is there a trial version available for Aspose.Note?
 
 A5: Yes, you can get a free trial of Aspose.Note from [here](https://releases.aspose.com/).
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

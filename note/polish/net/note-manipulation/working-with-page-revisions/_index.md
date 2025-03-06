@@ -3,10 +3,16 @@ title: Opracowywanie wersji stron wzorcowych w dokumentach programu OneNote
 linktitle: Opracowywanie wersji stron wzorcowych w dokumentach programu OneNote
 second_title: Aspose.Note .NET API
 description: Dowiedz się, jak zarządzać wersjami stron programu Microsoft OneNote za pomocą Aspose.Note. Przewodnik krok po kroku dotyczący bezproblemowej integracji i kontroli wersji w aplikacjach .NET.
-type: docs
 weight: 20
 url: /pl/net/note-manipulation/working-with-page-revisions/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Opracowywanie wersji stron wzorcowych w dokumentach programu OneNote
+
 ## Wstęp
 
 W dziedzinie programowania .NET Aspose.Note wyróżnia się jako wszechstronne narzędzie do wydajnej obsługi plików Microsoft OneNote. Szczególnie użyteczną funkcją Aspose.Note jest możliwość płynnego zarządzania wersjami stron. W tym samouczku zagłębimy się w zawiłości pracy z wersjami stron przy użyciu Aspose.Note dla .NET.
@@ -112,3 +118,9 @@ O4: Aspose.Note został zaprojektowany tak, aby skutecznie obsługiwać znaczną
 ### P5: Czy mogę zautomatyzować proces zarządzania wersjami stron za pomocą Aspose.Note?
 
 Odpowiedź 5: Tak, Aspose.Note oferuje kompleksowe interfejsy API, które pozwalają programistom automatyzować zadania związane z rewizjami stron, usprawniając procesy przepływu pracy.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -3,10 +3,16 @@ title: Aspose.Note でのページ分割
 linktitle: Aspose.Note でのページ分割
 second_title: Aspose.Note .NET API
 description: さまざまなアルゴリズムを使用して Aspose.Note for .NET でページを効果的に分割する方法を学びます。 OneNote ドキュメントを PDF 形式できちんと整理します。
-type: docs
 weight: 17
 url: /ja/net/loading-and-saving-operations/page-splitting/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Aspose.Note でのページ分割
+
 ## 導入
 
 このチュートリアルでは、Aspose.Note for .NET を使用してページを効果的に分割する方法を検討します。ページ分割は、特に PDF 形式に変換する必要がある長い OneNote ページを処理する場合に重要な機能です。 Aspose.Note は、分割ロジックを制御するさまざまなアルゴリズムを提供し、結果として得られる PDF が適切に整理され、読みやすいものになるようにします。
@@ -87,3 +93,9 @@ A4: Aspose.Note は主に .NET フレームワークをターゲットとして�
 ### Q5: 問題が発生した場合はどこに問い合わせればよいですか?
 
  A5: Aspose.Note コミュニティ フォーラムから支援を求めることができます。[ここ](https://forum.aspose.com/c/note/28).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

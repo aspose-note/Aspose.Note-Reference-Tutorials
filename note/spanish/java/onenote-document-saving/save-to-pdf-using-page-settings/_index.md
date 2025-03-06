@@ -3,10 +3,16 @@ title: Guardar en PDF usando la configuración de página en OneNote - Aspose.No
 linktitle: Guardar en PDF usando la configuración de página en OneNote - Aspose.Note
 second_title: Aspose.Nota Java API
 description: Aprenda cómo guardar documentos de OneNote en PDF en Java usando la biblioteca Aspose.Note. Guía paso a paso con ejemplos de código para diferentes configuraciones de página.
-type: docs
 weight: 19
 url: /es/java/onenote-document-saving/save-to-pdf-using-page-settings/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Guardar en PDF usando la configuración de página en OneNote - Aspose.Note
+
 ## Introducción
 
 En este tutorial, aprenderemos cómo guardar documentos de OneNote en formato PDF usando diferentes configuraciones de página con Aspose.Note para Java. Cubriremos dos métodos: guardar con la configuración de página Carta y guardar con la configuración de página A4 sin límite de altura.
@@ -112,3 +118,9 @@ R4: Sí, puede procesar por lotes varios archivos de OneNote utilizando Aspose.N
 ### P5: ¿Existe alguna versión de prueba disponible para fines de prueba?
 
 R5: Sí, puede obtener una prueba gratuita de Aspose.Note para Java desde el sitio web.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

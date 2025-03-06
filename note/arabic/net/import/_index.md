@@ -3,10 +3,16 @@ title: استيراد ملفات PDF بسلاسة مع تكامل OneNote
 linktitle: يستورد
 second_title: Aspose.Note .NET API
 description: قم باستيراد مستندات PDF إلى Aspose.Note .NET مع التكامل السلس باستخدام خيارات الدمج المتنوعة. تعلم من خلال البرامج التعليمية خطوة بخطوة، بما في ذلك التكامل مع OneNote.
-type: docs
 weight: 24
 url: /ar/net/import/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# استيراد ملفات PDF بسلاسة مع تكامل OneNote
+
 
 ## مقدمة
 
@@ -48,3 +54,9 @@ url: /ar/net/import/
 ## استيراد الدروس
 ### [استيراد مستندات PDF إلى Aspose.Note](./import-pdf-documents/)
 تعرف على كيفية استيراد مستندات PDF إلى Aspose.Note لـ .NET دون عناء باستخدام خيارات الدمج المتنوعة لتحقيق التكامل السلس.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

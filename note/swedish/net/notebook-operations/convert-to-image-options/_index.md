@@ -3,10 +3,16 @@ title: Konvertera anteckningsböcker till bild med alternativ i Aspose Note .NET
 linktitle: Konvertera anteckningsböcker till bild med alternativ i Aspose Note .NET
 second_title: Aspose.Note .NET API
 description: Lär dig hur du konverterar anteckningsböcker till bilder med anpassningsbara alternativ med Aspose.Note för .NET.
-type: docs
 weight: 13
 url: /sv/net/notebook-operations/convert-to-image-options/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Konvertera anteckningsböcker till bild med alternativ i Aspose Note .NET
+
 ## Introduktion
 
 den här handledningen kommer vi att fördjupa oss i att konvertera anteckningsböcker till bilder med olika alternativ med hjälp av Aspose.Note för .NET-biblioteket. Aspose.Note är ett kraftfullt .NET API som låter utvecklare arbeta med Microsoft OneNote-filer programmatiskt. Genom att följa stegen som beskrivs i den här guiden kommer du att lära dig hur du enkelt konverterar anteckningsböcker till bilder samtidigt som du anpassar utskriften efter dina krav.
@@ -95,3 +101,9 @@ S4: Ja, Aspose.Note för .NET tillhandahåller olika alternativ för att anpassa
 ### F5: Stöder Aspose.Note för .NET andra bildformat än PNG?
 
 S5: Ja, Aspose.Note för .NET stöder flera bildformat, inklusive JPEG, BMP, GIF och TIFF.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

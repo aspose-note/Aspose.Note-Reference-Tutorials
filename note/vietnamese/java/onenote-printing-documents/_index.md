@@ -3,10 +3,16 @@ title: Tài liệu in OneNote
 linktitle: Tài liệu in OneNote
 second_title: API Java Aspose.Note
 description: In tài liệu dễ dàng trong OneNote với Aspose.Note for Java. Các hướng dẫn này cung cấp hướng dẫn từng bước và ví dụ về mã để in tài liệu liền mạch.
-type: docs
 weight: 30
 url: /vi/java/onenote-printing-documents/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Tài liệu in OneNote
+
 
 ## Giới thiệu
 
@@ -38,3 +44,9 @@ Tóm lại, việc nắm vững nghệ thuật in tài liệu trong OneNote bằ
 ## Hướng dẫn in tài liệu OneNote
 ### [In tài liệu trong OneNote - Aspose.Note](./print-documents/)
 Tìm hiểu cách in tài liệu trong OneNote bằng Aspose.Note for Java. Hướng dẫn từng bước với các ví dụ về mã và các tùy chọn có thể tùy chỉnh.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

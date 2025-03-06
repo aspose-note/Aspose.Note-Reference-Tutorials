@@ -3,10 +3,16 @@ title: OneNote-dokumentum betöltése
 linktitle: OneNote-dokumentum betöltése
 second_title: Aspose.Note Java API
 description: Fedezze fel az átfogó oktatóanyagokat a OneNote dokumentumok betöltéséhez, konvertálásához és létrehozásához az Aspose.Note for Java segítségével. Könnyedén növelheti dokumentumfeldolgozási képességeit.
-type: docs
 weight: 25
 url: /hu/java/onenote-document-loading/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# OneNote-dokumentum betöltése
+
 
 ## Bevezetés
 
@@ -97,3 +103,9 @@ Ismerje meg, hogyan használja az Aspose.Note for Java alkalmazást a OneNote-do
 Ismerje meg, hogyan tölthet be OneNote 2007 dokumentumokat Java nyelven az Aspose.Note segítségével a zökkenőmentes integráció érdekében.
 ### [Jelszóval védett OneNote-dokumentum betöltése – Java](./load-password-protected-onenote/)
 Ismerje meg, hogyan tölthet be jelszóval védett OneNote-dokumentumokat Java használatával az Aspose.Note for Java segítségével.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

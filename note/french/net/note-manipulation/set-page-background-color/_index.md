@@ -3,10 +3,16 @@ title: Définir la couleur d'arrière-plan des pages dans Aspose.Note
 linktitle: Définir la couleur d'arrière-plan des pages dans Aspose.Note
 second_title: API Aspose.Note .NET
 description: Découvrez comment définir la couleur d'arrière-plan des pages dans les documents Aspose.Note à l'aide du langage de programmation C# avec un guide étape par étape.
-type: docs
 weight: 19
 url: /fr/net/note-manipulation/set-page-background-color/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Définir la couleur d'arrière-plan des pages dans Aspose.Note
+
 ## Introduction
 
 Aspose.Note pour .NET permet aux développeurs de manipuler les documents OneNote par programme. Une tâche courante consiste à définir la couleur d’arrière-plan des pages de ces documents. Dans ce didacticiel, nous vous guiderons étape par étape tout au long du processus.
@@ -97,3 +103,9 @@ A3 : Oui, vous pouvez télécharger une version d'essai gratuite à partir de[
 ### Q5 : Où puis-je trouver une assistance supplémentaire ou poser des questions sur Aspose.Note ?
 
  A5 : Vous pouvez visiter le[Forum Aspose.Note](https://forum.aspose.com/c/note/28) pour obtenir de l'aide et se connecter avec d'autres utilisateurs.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

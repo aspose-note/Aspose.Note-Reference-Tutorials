@@ -3,10 +3,16 @@ title: Jegyzetfüzetfájl betöltése a OneNote betöltési beállításaival �
 linktitle: Jegyzetfüzetfájl betöltése a OneNote betöltési beállításaival – Aspose.Note
 second_title: Aspose.Note Java API
 description: Ismerje meg, hogyan használhatja az Aspose.Note for Java alkalmazást a OneNote-fájlok programozott kezeléséhez. Kezdje el most átfogó oktatóanyagunkat.
-type: docs
 weight: 20
 url: /hu/java/onenote-notebook-operations/load-notebook-file-with-load-options/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Jegyzetfüzetfájl betöltése a OneNote betöltési beállításaival – Aspose.Note
+
 ## Bevezetés
 
 Az Aspose.Note for Java egy hatékony könyvtár, amely lehetővé teszi a fejlesztők számára, hogy programozottan dolgozzanak Microsoft OneNote fájlokkal. Akár OneNote-dokumentumokat szeretne létrehozni, kezelni vagy konvertálni, az Aspose.Note for Java biztosítja a szükséges eszközöket a munkafolyamat egyszerűsítéséhez. Ebben az oktatóanyagban megvizsgáljuk, hogyan kezdjük el az Aspose.Note for Java használatát, lefedjük az előfeltételeket, a csomagok importálását, és a példákat könnyen követhető lépésekre bontjuk.
@@ -94,3 +100,9 @@ Iteráljon a jegyzetfüzet gyermekein keresztül. Ha a gyermek dokumentum, akkor
 ### 5. kérdés: Szükségem van ideiglenes licencre az Aspose.Note for Java használatához?
 
  5. válasz: Ha értékeli a terméket, ideiglenes licencet szerezhet[itt](https://purchase.aspose.com/temporary-license/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

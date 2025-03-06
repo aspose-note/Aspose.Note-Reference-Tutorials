@@ -3,10 +3,16 @@ title: OneNote でノートブックを画像に変換する - Aspose.Note
 linktitle: OneNote でノートブックを画像に変換する - Aspose.Note
 second_title: Aspose.Note Java API
 description: Aspose.Note for Java を使用して、OneNote でノートブックを画像に変換する方法を学習します。この機能を Java アプリケーションに簡単に統合できます。
-type: docs
 weight: 12
 url: /ja/java/onenote-notebook-operations/convert-notebook-to-image/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# OneNote でノートブックを画像に変換する - Aspose.Note
+
 ## 導入
 
 このチュートリアルでは、Aspose.Note for Java ライブラリを使用して、OneNote でノートブックを画像に変換する方法を説明します。ノートブックを画像に変換すると、ノートの共有、文書への埋め込み、プレゼンテーションへの組み込みなど、さまざまな目的に役立ちます。
@@ -94,3 +100,9 @@ A4: はい、Aspose.Note を使用すると、複数のノートブックを効�
 ### Q5: Aspose.Note の追加リソースとサポートはどこで入手できますか?
 
  A5: さらに詳しいドキュメント、例、コミュニティ サポートについては、次のサイトにアクセスしてください。[Aspose.Note フォーラム](https://forum.aspose.com/c/note/28)そして探索してください[ドキュメンテーション](https://reference.aspose.com/note/java/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

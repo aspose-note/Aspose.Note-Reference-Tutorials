@@ -3,10 +3,16 @@ title: Integrace úkolů a Outlooku
 linktitle: Integrace úkolů a Outlooku
 second_title: Aspose.Note Java API
 description: Odemkněte potenciál Aspose.Note Java pomocí našich výukových programů o integraci úloh aplikace Outlook do OneNotu. Zvyšte své dovednosti v oblasti zpracování dokumentů pomocí našich výukových programů.
-type: docs
 weight: 35
 url: /cs/java/task-and-outlook-integration/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Integrace úkolů a Outlooku
+
 
 ## Úvod
 
@@ -38,3 +44,9 @@ Když se vydáte na tuto cestu s Aspose.Note pro Javu, pamatujte, že efektivita
 ## Výukové programy pro integraci úloh a aplikace Outlook
 ### [Získejte Outlook úkol ve OneNotu - Aspose.Note](./get-outlook-task/)
 Prozkoumejte sílu Aspose.Note pro Java při extrahování úloh aplikace Outlook z OneNotu bez námahy. Postupujte podle našeho podrobného průvodce a vylepšete své možnosti zpracování dokumentů.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

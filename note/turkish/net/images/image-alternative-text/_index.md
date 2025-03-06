@@ -3,10 +3,16 @@ title: Aspose.Note'ta Görsellere Alternatif Metin Ekleme
 linktitle: Aspose.Note'ta Görsellere Alternatif Metin Ekleme
 second_title: Aspose.Note .NET API'si
 description: Aspose.Note for .NET'te görsellere nasıl alternatif metin ekleyeceğinizi öğrenin. Bu adım adım kılavuzla erişilebilirliği artırın ve kullanıcı deneyimini iyileştirin.
-type: docs
 weight: 14
 url: /tr/net/images/image-alternative-text/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Aspose.Note'ta Görsellere Alternatif Metin Ekleme
+
 ## giriiş
 
 Aspose.Note for .NET'te görsellere alternatif metin eklemek erişilebilirliği geliştirebilir ve engelli kullanıcılar için görsellerin anlaşılmasını geliştirebilir. Bu eğitimde size süreç boyunca adım adım rehberlik edeceğiz.
@@ -97,3 +103,9 @@ Cevap3: Aspose.Note, diğer .NET kitaplıklarıyla sorunsuz bir şekilde bütün
 ### S5: Aspose.Note'un ücretsiz deneme sürümü mevcut mu?
 
 Cevap5: Evet, adresini ziyaret ederek Aspose.Note'un ücretsiz denemesinden yararlanabilirsiniz.[Burada](https://releases.aspose.com/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

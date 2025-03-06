@@ -3,10 +3,16 @@ title: Jegyzetfüzetek konvertálása képpé (lapított) az Aspose Note .NET-be
 linktitle: Jegyzetfüzetek konvertálása képpé (lapított) az Aspose Note .NET-ben
 second_title: Aspose.Note .NET API
 description: Ismerje meg, hogyan konvertálhat OneNote-jegyzetfüzeteket lapított képekké az Aspose.Note for .NET segítségével. Lépésről lépésre útmutató a zökkenőmentes integrációhoz.
-type: docs
 weight: 12
 url: /hu/net/notebook-operations/convert-to-image-flattened/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Jegyzetfüzetek konvertálása képpé (lapított) az Aspose Note .NET-ben
+
 ## Bevezetés
 
 Ebben az oktatóanyagban megtudjuk, hogyan használhatja az Aspose.Note for .NET alkalmazást a notebookok lapított képekké alakításához. A folyamatot egyszerű lépésekre bontjuk, hogy segítsünk megérteni és hatékonyan végrehajtani.
@@ -93,3 +99,9 @@ Ebben az oktatóanyagban megtanultuk, hogyan lehet notebookokat laposított kép
 ### 5. kérdés: Hol találom az Aspose.Note for .NET dokumentációját?
 
  V5: Megtalálhatja a dokumentációt[itt](https://reference.aspose.com/note/net/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

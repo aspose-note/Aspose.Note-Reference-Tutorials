@@ -3,10 +3,16 @@ title: Laad een OneNote-document in Aspose.Note
 linktitle: Laad een OneNote-document in Aspose.Note
 second_title: Aspose.Note .NET API
 description: Leer hoe u OneNote-documenten programmatisch kunt laden, coderen en decoderen in .NET met behulp van Aspose.Note.
-type: docs
 weight: 16
 url: /nl/net/loading-and-saving-operations/load-onenote-document/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Laad een OneNote-document in Aspose.Note
+
 ## Invoering
 
 Aspose.Note voor .NET is een krachtige API waarmee ontwikkelaars programmatisch met Microsoft OneNote-bestanden kunnen werken in hun .NET-toepassingen. Of u nu OneNote-documenten moet laden, manipuleren of converteren, Aspose.Note voor .NET biedt uitgebreide functionaliteit om uw workflow te stroomlijnen.
@@ -174,3 +180,9 @@ A2: Ja, u kunt controleren of een document is gecodeerd en gedecodeerd met Aspos
 ### V5: Hoe kan ik een tijdelijke licentie verkrijgen voor Aspose.Note voor .NET?
 
  A5: U kunt een tijdelijke licentie aanvragen bij de[Aspose aankooppagina](https://purchase.aspose.com/temporary-license/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

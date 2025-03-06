@@ -3,10 +3,16 @@ title: Chèn trang trong OneNote - Aspose.Note
 linktitle: Chèn trang trong OneNote - Aspose.Note
 second_title: API Java Aspose.Note
 description: Tìm hiểu cách chèn trang vào tài liệu OneNote theo chương trình bằng Aspose.Note for Java. Hướng dẫn toàn diện với hướng dẫn từng bước.
-type: docs
 weight: 16
 url: /vi/java/onenote-page-manipulation/insert-pages/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Chèn trang trong OneNote - Aspose.Note
+
 ## Giới thiệu
 
 Trong hướng dẫn này, chúng ta sẽ tìm hiểu cách chèn các trang vào tài liệu OneNote bằng Aspose.Note cho Java.
@@ -132,3 +138,9 @@ Câu trả lời 4: Có, bạn có thể phát triển ứng dụng bằng Aspos
 ### Câu hỏi 5: Tôi có thể tùy chỉnh hình thức của các trang được chèn trong OneNote không?
 
 Câu trả lời 5: Hoàn toàn có thể, Aspose.Note cung cấp các tùy chọn mở rộng để tùy chỉnh bố cục trang, kiểu và nội dung nhằm đáp ứng các yêu cầu cụ thể của bạn.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

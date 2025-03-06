@@ -3,10 +3,16 @@ title: 在 OneNote 中將特定頁面轉換為 PNG 映像 - Java
 linktitle: 在 OneNote 中將特定頁面轉換為 PNG 映像 - Java
 second_title: Aspose.Note Java API
 description: 學習使用 Aspose.Note for Java，將 OneNote 頁面轉換為 PNG。按照簡單的步驟操作，載入文件並設定選項。使用此功能增強 Java 應用程式。
-type: docs
 weight: 13
 url: /zh-hant/java/onenote-document-loading/convert-page-to-png-image/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# 在 OneNote 中將特定頁面轉換為 PNG 映像 - Java
+
 ## 介紹
 
 在本教學中，您將學習如何使用 Aspose.Note for Java 將特定頁面從 OneNote 文件轉換為 PNG 映像。我們將把該過程分解為易於遵循的步驟，以幫助您將此功能無縫整合到您的 Java 應用程式中。
@@ -93,3 +99,9 @@ A2：是的，Aspose.Note 支援多種影像格式，例如 JPEG、GIF、BMP 和
 ### Q5：在哪裡可以購買 Aspose.Note for Java 的授權？
 
  A5：您可以從[購買頁面](https://purchase.aspose.com/buy).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -3,10 +3,16 @@ title: Stel de achtergrondkleur van pagina's in Aspose.Note in
 linktitle: Stel de achtergrondkleur van pagina's in Aspose.Note in
 second_title: Aspose.Note .NET API
 description: Leer hoe u de achtergrondkleur van pagina's in Aspose.Note-documenten instelt met behulp van de programmeertaal C# met stapsgewijze handleiding.
-type: docs
 weight: 19
 url: /nl/net/note-manipulation/set-page-background-color/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Stel de achtergrondkleur van pagina's in Aspose.Note in
+
 ## Invoering
 
 Met Aspose.Note voor .NET kunnen ontwikkelaars OneNote-documenten programmatisch manipuleren. Een veel voorkomende taak is het instellen van de achtergrondkleur van pagina's in deze documenten. In deze tutorial begeleiden we u stap voor stap door het proces.
@@ -97,3 +103,9 @@ A3: Ja, u kunt een gratis proefversie downloaden van[hier](https://releases.aspo
 ### V5: Waar kan ik aanvullende ondersteuning vinden of vragen stellen over Aspose.Note?
 
  A5: U kunt de bezoeken[Aspose.Note-forum](https://forum.aspose.com/c/note/28) voor ondersteuning en om verbinding te maken met andere gebruikers.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

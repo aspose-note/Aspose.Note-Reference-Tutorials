@@ -3,10 +3,16 @@ title: قم بتحميل دفاتر الملاحظات من الدفق في Aspo
 linktitle: قم بتحميل دفاتر الملاحظات من الدفق في Aspose Note .NET
 second_title: Aspose.Note .NET API
 description: تعرف على كيفية تحميل دفاتر الملاحظات من التدفق في Aspose.Note لـ .NET. اتبع هذا الدليل التفصيلي خطوة بخطوة للتكامل السلس مع تطبيقات .NET الخاصة بك.
-type: docs
 weight: 19
 url: /ar/net/notebook-operations/load-notebooks-from-stream/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# قم بتحميل دفاتر الملاحظات من الدفق في Aspose Note .NET
+
 ## مقدمة
 
 في هذا البرنامج التعليمي، سوف نستكشف كيفية تحميل دفاتر الملاحظات من التدفق باستخدام Aspose.Note لـ .NET. Aspose.Note هي مكتبة قوية تمكن المطورين من العمل مع ملفات Microsoft OneNote برمجياً. يعد تحميل دفاتر الملاحظات من الدفق مهمة شائعة عند التعامل مع عمليات إدخال/إخراج الملفات في تطبيقات .NET.
@@ -92,3 +98,9 @@ notebook.LoadChildDocument(dataDir + "Sample1.one");
 ### س5: هل هناك خيار للترخيص المؤقت؟
 
  ج5: نعم، يمكنك الحصول على ترخيص مؤقت من[هنا](https://purchase.aspose.com/temporary-license/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

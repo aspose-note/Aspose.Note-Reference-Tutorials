@@ -3,10 +3,16 @@ title: OneNote'ta Gri Tonlamalı Görüntüye Kaydetme - Aspose.Note
 linktitle: OneNote'ta Gri Tonlamalı Görüntüye Kaydetme - Aspose.Note
 second_title: Aspose.Note Java API'si
 description: Aspose.Note for Java kullanarak bir belgeyi OneNote'ta gri tonlamalı görüntü olarak nasıl kaydedeceğinizi öğrenin. Microsoft OneNote belgelerini program aracılığıyla kolayca yönetin.
-type: docs
 weight: 17
 url: /tr/java/onenote-document-saving/save-to-grayscale-image/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# OneNote'ta Gri Tonlamalı Görüntüye Kaydetme - Aspose.Note
+
 ## giriiş
 
 Bu eğitimde, Aspose.Note for Java kullanarak bir belgeyi OneNote'ta gri tonlamalı görüntü olarak nasıl kaydedeceğimizi keşfedeceğiz. Gri tonlamalı görüntüler, renk bilgilerinin yalnızca grinin tonlarıyla temsil edildiği tek renkli görüntülerdir. Aspose.Note, Microsoft OneNote belgelerinin programlı olarak değiştirilmesine olanak tanıyan güçlü bir Java API'sidir.
@@ -83,3 +89,9 @@ Cevap4: Kesinlikle! Aspose.Note, OneNote belgelerini programlı olarak düzenlem
 ### S5: Sorunlarla karşılaşırsam nereden destek bulabilirim?
 
 Cevap5: Aspose.Note forumunda destek bulabilirsiniz[Burada](https://forum.aspose.com/c/note/28).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

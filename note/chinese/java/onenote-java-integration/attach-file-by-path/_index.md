@@ -3,10 +3,16 @@ title: 使用 Java 在 OneNote 中按路径附加文件
 linktitle: 使用 Java 在 OneNote 中按路径附加文件
 second_title: Aspose.Note Java API
 description: 无缝地将文件添加到您的 OneNote 笔记中！了解如何使用 Aspose.Note 在 Java 中按路径附加。包含简单指南和代码！ #OneNote #Java #Aspose
-type: docs
 weight: 11
 url: /zh/java/onenote-java-integration/attach-file-by-path/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# 使用 Java 在 OneNote 中按路径附加文件
+
 ## 介绍
 
 OneNote 是用于组织和管理笔记的多功能工具，借助 Aspose.Note for Java，您可以通过以编程方式将文件附加到笔记来增强其功能。在本教程中，我们将指导您完成使用 Java 在 OneNote 中按文件路径附加文件的过程。
@@ -148,3 +154,9 @@ A4：是的，您可以通过在大纲中相应地组织文件来将文件附加
 ### Q5：我可以附加的文件大小有限制吗？
 
 A5：Aspose.Note 对文件大小没有严格限制，但会考虑非常大的文件对性能的影响。
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

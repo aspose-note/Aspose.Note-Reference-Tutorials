@@ -3,10 +3,16 @@ title: Zárolt oszlopokat tartalmazó táblázat létrehozása a OneNote-ban –
 linktitle: Zárolt oszlopokat tartalmazó táblázat létrehozása a OneNote-ban – Aspose.Note
 second_title: Aspose.Note Java API
 description: Növelje OneNote-élményét az Aspose.Note for Java segítségével. A lépésenkénti útmutató segítségével megtudhatja, hogyan hozhat létre zárolt oszlopokat tartalmazó táblázatokat. Töltse le ingyenes próbaverzióját most!
-type: docs
 weight: 12
 url: /hu/java/onenote-table-manipulation/create-table-with-locked-columns/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Zárolt oszlopokat tartalmazó táblázat létrehozása a OneNote-ban – Aspose.Note
+
 ## Bevezetés
 A OneNote egy hatékony eszköz az információk rendszerezésére, és az Aspose.Note for Java továbbfejleszti képességeit azáltal, hogy zökkenőmentesen hozhat létre zárolt oszlopokat tartalmazó táblázatokat. Ebben az oktatóanyagban végigvezetjük az Aspose.Note for Java használatával a OneNote-ban zárolt oszlopokat tartalmazó táblázat létrehozásához.
 ## Előfeltételek
@@ -90,3 +96,9 @@ Teljesen! Az Aspose.Note for Java kiterjedt lehetőségeket kínál a táblázat
  Meglátogatni a[Aspose.Note fórum](https://forum.aspose.com/c/note/28) támogatásra és közösségi megbeszélésekre.
 ### Hogyan szerezhetek ideiglenes licencet az Aspose.Note for Java számára?
  Látogatás[ez a link](https://purchase.aspose.com/temporary-license/) tesztelési célból ideiglenes engedélyt szerezni.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

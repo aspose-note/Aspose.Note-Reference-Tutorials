@@ -3,10 +3,16 @@ title: OneNote'ta Liste Özelliklerini Alma - Aspose.Note
 linktitle: OneNote'ta Liste Özelliklerini Alma - Aspose.Note
 second_title: Aspose.Note Java API'si
 description: Aspose.Note for Java'yı keşfedin ve OneNote belgelerindeki liste özelliklerini zahmetsizce alın. Bu güçlü Java kitaplığıyla belge işlemenizi geliştirin.
-type: docs
 weight: 19
 url: /tr/java/onenote-text-manipulation/get-list-properties/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# OneNote'ta Liste Özelliklerini Alma - Aspose.Note
+
 ## giriiş
 OneNote belgelerindeki liste özelliklerini almak ve analiz etmek için Aspose.Note for Java'dan yararlanmaya yönelik bu kapsamlı eğitime hoş geldiniz. İster deneyimli bir geliştirici olun ister Aspose.Note'a yeni başlıyor olun, bu kılavuz süreç boyunca size yol gösterecek ve net bir anlayış sağlamak için her adımı parçalara ayıracaktır.
 ## Önkoşullar
@@ -95,3 +101,9 @@ Evet, kodu ihtiyaçlarınıza uyacak şekilde değiştirebilir ve belirli yazı 
  Evet, geçici lisans alabilirsiniz[Burada](https://purchase.aspose.com/temporary-license/) test amaçlı.
 ### Aspose.Note for Java'yı satın almak istersem ne olur?
  Ürünü satın alabilirsiniz[Burada](https://purchase.aspose.com/buy)Projeleriniz için tüm potansiyelini açığa çıkarmak için.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

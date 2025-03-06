@@ -3,10 +3,16 @@ title: Définition du titre de la page dans le style Microsoft OneNote - Aspose.
 linktitle: Définition du titre de la page dans le style Microsoft OneNote - Aspose.Note
 second_title: API Java Aspose.Note
 description: Découvrez comment définir les titres de page dans le style Microsoft OneNote à l'aide d'Aspose.Note pour Java. Améliorez vos documents Java avec un formatage professionnel.
-type: docs
 weight: 23
 url: /fr/java/onenote-text-manipulation/setting-page-title-in-microsoft-onenote-style/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Définition du titre de la page dans le style Microsoft OneNote - Aspose.Note
+
 ## Introduction
 Dans le monde dynamique du développement Java, la création de documents visuellement attrayants et structurés est cruciale. Si vous souhaitez améliorer vos applications Java avec des titres de page de style Microsoft OneNote, Aspose.Note pour Java est votre solution incontournable. Dans ce didacticiel complet, nous vous guiderons tout au long du processus de définition des titres de page dans le style OneNote à l'aide d'Aspose.Note, garantissant ainsi que vos documents se démarquent avec une touche professionnelle.
 ## Conditions préalables
@@ -72,3 +78,9 @@ Aspose.Note est conçu pour fonctionner de manière transparente avec d'autres b
  Demandez de l'aide à la communauté Aspose.Note à l'adresse[Forum Aspose.Note](https://forum.aspose.com/c/note/28).
 ### Existe-t-il une version d'essai disponible ?
  Oui, vous pouvez explorer les capacités d'Aspose.Note avec un essai gratuit de[ici](https://releases.aspose.com/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

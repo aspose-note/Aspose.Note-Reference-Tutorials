@@ -3,10 +3,16 @@ title: إنشاء مستند وإدراج صورة في Aspose.Note
 linktitle: إنشاء مستند وإدراج صورة في Aspose.Note
 second_title: Aspose.Note .NET API
 description: تعرف على كيفية إدراج الصور في مستندات OneNote برمجياً باستخدام Aspose.Note لـ .NET. خطوات سهلة للتعامل السلس مع المستندات.
-type: docs
 weight: 10
 url: /ar/net/images/build-doc-insert-image/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# إنشاء مستند وإدراج صورة في Aspose.Note
+
 ## مقدمة
 
 في هذا البرنامج التعليمي، سوف نتعمق في عالم معالجة المستندات باستخدام Aspose.Note لـ .NET. Aspose.Note عبارة عن واجهة برمجة تطبيقات قوية تتيح للمطورين العمل مع ملفات Microsoft OneNote برمجيًا، مما يتيح مهام مثل إنشاء المستندات وتعديلها وتحويلها بسهولة. 
@@ -150,3 +156,9 @@ doc.Save(dataDir);
 ### س5: أين يمكنني العثور على موارد إضافية ودعم لـ Aspose.Note لـ .NET؟
 
  ج5: يمكنك استكشاف وثائق Aspose.Note[هنا](https://reference.aspose.com/note/net/) واطلب المساعدة من منتدى مجتمع Aspose[هنا](https://forum.aspose.com/c/note/28).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

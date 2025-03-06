@@ -3,10 +3,16 @@ title: تحميل ملف دفتر الملاحظات مع خيارات التح�
 linktitle: تحميل ملف دفتر الملاحظات مع خيارات التحميل في OneNote - Aspose.Note
 second_title: Aspose.Note جافا API
 description: تعرف على كيفية استخدام Aspose.Note لـ Java لمعالجة ملفات OneNote برمجياً. ابدأ مع برنامجنا التعليمي الشامل الآن.
-type: docs
 weight: 20
 url: /ar/java/onenote-notebook-operations/load-notebook-file-with-load-options/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# تحميل ملف دفتر الملاحظات مع خيارات التحميل في OneNote - Aspose.Note
+
 ## مقدمة
 
 Aspose.Note for Java هي مكتبة قوية تمكن المطورين من العمل مع ملفات Microsoft OneNote برمجياً. سواء كنت تريد إنشاء مستندات OneNote أو معالجتها أو تحويلها، فإن Aspose.Note for Java يوفر الأدوات اللازمة لتبسيط سير عملك. في هذا البرنامج التعليمي، سنستكشف كيفية البدء في استخدام Aspose.Note لـ Java، وتغطية المتطلبات الأساسية، واستيراد الحزم، وتقسيم الأمثلة إلى خطوات سهلة المتابعة.
@@ -94,3 +100,9 @@ for (INotebookChildNode notebookChildNode : notebook) {
 ### س5: هل أحتاج إلى ترخيص مؤقت لاستخدام Aspose.Note لـ Java؟
 
  ج5: إذا كنت تقوم بتقييم المنتج، فيمكنك الحصول على ترخيص مؤقت[هنا](https://purchase.aspose.com/temporary-license/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

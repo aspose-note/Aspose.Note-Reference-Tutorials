@@ -3,10 +3,16 @@ title: Java を使用して OneNote の特定のページを画像に変換す�
 linktitle: Java を使用して OneNote の特定のページを画像に変換する
 second_title: Aspose.Note Java API
 description: Java と Aspose.Note を使用して、OneNote の特定のページを画像に変換する方法を学習します。シームレスな統合については、ステップバイステップのガイドに従ってください。
-type: docs
 weight: 12
 url: /ja/java/onenote-document-loading/convert-page-to-image/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Java を使用して OneNote の特定のページを画像に変換する
+
 ## 導入
 
 このチュートリアルでは、Java と Aspose.Note を使用して、OneNote の特定のページを画像に変換するプロセスを説明します。これらの手順に従うことで、この機能を Java アプリケーションにシームレスに統合できるようになります。
@@ -101,3 +107,9 @@ A4: はい、Aspose.Note は、.NET、Python などを含むさまざまなプ�
 ### Q5: 追加のサポートや支援はどこで入手できますか?
 
  A5: 追加のサポートや支援が必要な場合は、次のサイトにアクセスしてください。[Aspose.Note フォーラム](https://forum.aspose.com/c/note/28)または入手可能なドキュメントを参照してください[ここ](https://reference.aspose.com/note/java/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

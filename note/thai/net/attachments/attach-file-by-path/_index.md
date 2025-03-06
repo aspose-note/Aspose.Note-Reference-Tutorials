@@ -3,10 +3,16 @@ title: แนบไฟล์ตามเส้นทางใน Aspose.Note
 linktitle: แนบไฟล์ตามเส้นทางใน Aspose.Note
 second_title: Aspose.Note .NET API
 description: เรียนรู้วิธีแนบไฟล์ลงในเอกสาร Microsoft OneNote โดยใช้โปรแกรม Aspose.Note สำหรับ .NET ลดความซับซ้อนของกระบวนการพัฒนาของคุณด้วยบทช่วยสอนที่ครอบคลุมนี้
-type: docs
 weight: 11
 url: /th/net/attachments/attach-file-by-path/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# แนบไฟล์ตามเส้นทางใน Aspose.Note
+
 ## การแนะนำ
 
 Aspose.Note for .NET เป็นไลบรารีที่มีประสิทธิภาพซึ่งช่วยให้นักพัฒนาสามารถทำงานกับไฟล์ Microsoft OneNote โดยทางโปรแกรม ไม่ว่าคุณจะต้องการสร้าง แก้ไข แปลง หรือจัดการเอกสาร OneNote Aspose.Note สำหรับ .NET ก็มีฟังก์ชันการทำงานที่ครอบคลุมเพื่อปรับปรุงกระบวนการพัฒนาของคุณ
@@ -147,3 +153,9 @@ A3: ใช่ คุณต้องได้รับใบอนุญาตส
 ### คำถามที่ 5: ฉันจะขอรับการสนับสนุนสำหรับ Aspose.Note สำหรับ .NET ได้ที่ไหน
 
  A5: คุณสามารถขอการสนับสนุนจากฟอรั่มชุมชน Aspose.Note[ที่นี่](https://forum.aspose.com/c/note/28).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

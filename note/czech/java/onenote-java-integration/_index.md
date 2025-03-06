@@ -3,10 +3,16 @@ title: Integrace OneNote Java
 linktitle: Integrace OneNote Java
 second_title: Aspose.Note Java API
 description: Vylepšete své prostředí OneNote pomocí Aspose.Note Java! Prozkoumejte výukové programy pro připojování souborů, nastavení ikon a načítání příloh programově pomocí Javy.
-type: docs
 weight: 20
 url: /cs/java/onenote-java-integration/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Integrace OneNote Java
+
 ## Úvod
 
 Vítejte v našem komplexním průvodci integrací OneNotu s Javou pomocí Aspose.Note. Ať už jste zkušený vývojář nebo právě začínáte, tyto výukové programy vám umožní programově maximalizovat možnosti OneNotu.
@@ -36,3 +42,9 @@ Naučte se připojovat soubory a nastavovat ikony ve OneNotu pomocí Javy s Aspo
 Naučte se připojovat soubory k poznámkám OneNote programově pomocí Javy s Aspose.Note.
 ### [Načtěte přílohu z OneNotu pomocí Javy](./retrieve-attachment/)
 Naučte se, jak načíst přílohy z OneNotu pomocí Javy s Aspose.Note, výkonným API pro bezproblémovou manipulaci s dokumenty.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

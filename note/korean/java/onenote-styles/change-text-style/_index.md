@@ -3,10 +3,16 @@ title: OneNote에서 텍스트 스타일 변경 - Aspose.Note
 linktitle: OneNote에서 텍스트 스타일 변경 - Aspose.Note
 second_title: Aspose.Note 자바 API
 description: 굵게, 강조 표시 및 크기 조정! Aspose.Note를 사용하여 OneNote 문서의 텍스트 서식을 지정하는 방법을 알아보세요. 단계별 가이드 및 코드가 포함되어 있습니다! #OneNote #Java #Aspose
-type: docs
 weight: 10
 url: /ko/java/onenote-styles/change-text-style/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# OneNote에서 텍스트 스타일 변경 - Aspose.Note
+
 ## 소개
 
 Java용 Aspose.Note를 사용하여 OneNote에서 텍스트 스타일을 변경하는 방법에 대한 튜토리얼에 오신 것을 환영합니다! 이 가이드에서는 OneNote 문서 내에서 텍스트 스타일을 손쉽게 조작할 수 있도록 프로세스를 단계별로 안내합니다. 글꼴 색상 변경, 텍스트 강조 표시, 글꼴 크기 조정 등 무엇을 원하든 Aspose.Note는 귀하의 요구 사항을 충족하는 포괄적인 솔루션을 제공합니다.
@@ -104,3 +110,9 @@ A4: 예, Aspose.Note는 개인 및 상업적 목적으로 모두 사용할 수 �
 ### Q5: Aspose.Note에 대한 추가 리소스와 지원은 어디서 찾을 수 있나요?
 
 A5: Aspose.Note 문서를 탐색하고, 라이브러리를 다운로드하고, 무료 평가판에 액세스하고, Aspose 포럼에서 지원을 요청할 수 있습니다.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

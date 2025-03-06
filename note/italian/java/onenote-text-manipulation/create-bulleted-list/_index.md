@@ -3,10 +3,16 @@ title: Crea un elenco puntato in OneNote - Aspose.Note
 linktitle: Crea un elenco puntato in OneNote - Aspose.Note
 second_title: Aspose.Note API Java
 description: Esplora la guida passo passo sulla creazione di elenchi puntati in OneNote utilizzando Aspose.Note per Java. Migliora la creazione di documenti con facilità.
-type: docs
 weight: 12
 url: /it/java/onenote-text-manipulation/create-bulleted-list/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Crea un elenco puntato in OneNote - Aspose.Note
+
 ## introduzione
 Nel panorama dinamico dello sviluppo Java, la creazione di documenti coinvolgenti e organizzati è essenziale. Aspose.Note per Java fornisce un potente set di strumenti per migliorare il processo di creazione dei documenti. Questo tutorial ti guiderà attraverso il processo di creazione di elenchi puntati in OneNote utilizzando Aspose.Note per Java. Immergiamoci nei dettagli.
 ## Prerequisiti
@@ -92,3 +98,9 @@ Assolutamente! Puoi modificare il carattere, il colore e la dimensione degli ele
  Sì, puoi esplorare una versione di prova gratuita[Qui](https://releases.aspose.com/).
 ### Come posso ottenere una licenza temporanea per Aspose.Note per Java?
  Ottieni una licenza temporanea[Qui](https://purchase.aspose.com/temporary-license/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

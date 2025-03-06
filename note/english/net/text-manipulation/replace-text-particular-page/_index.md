@@ -3,10 +3,16 @@ title: Replace Text on a Particular Page in Aspose.Note
 linktitle: Replace Text on a Particular Page in Aspose.Note
 second_title: Aspose.Note .NET API
 description: Learn how to replace text on a specific page in Aspose.Note using .NET. Follow our step-by-step guide for efficient text manipulation.
-type: docs
 weight: 22
 url: /net/text-manipulation/replace-text-particular-page/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Replace Text on a Particular Page in Aspose.Note
+
 ## Introduction
 In the world of .NET development, Aspose.Note stands out as a powerful tool for manipulating Microsoft OneNote files programmatically. One common task developers often face is replacing text on a particular page within an Aspose.Note document. In this step-by-step guide, we'll explore how to achieve this using Aspose.Note for .NET.
 ## Prerequisites
@@ -82,3 +88,10 @@ Absolutely. This tutorial focused on RichText nodes, but Aspose.Note provides me
 You can implement error handling using try-catch blocks to manage exceptions that may occur during the process.
 ### Q: Is there a community forum for Aspose.Note support?
 Yes, you can seek help and share your experiences on the [Aspose.Note forum](https://forum.aspose.com/c/note/28).
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

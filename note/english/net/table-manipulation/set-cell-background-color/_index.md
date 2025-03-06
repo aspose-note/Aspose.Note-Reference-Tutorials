@@ -3,10 +3,16 @@ title: Set Cell Background Color in Aspose.Note Tables
 linktitle: Set Cell Background Color in Aspose.Note Tables
 second_title: Aspose.Note .NET API
 description: Learn how to set cell background color in Aspose.Note tables using step-by-step guide. Enhance document visuals effortlessly.
-type: docs
 weight: 17
 url: /net/table-manipulation/set-cell-background-color/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Set Cell Background Color in Aspose.Note Tables
+
 ## Introduction
 
 In this tutorial, we'll delve into how to set cell background color within tables using Aspose.Note for .NET. This feature can significantly enhance the visual appeal and readability of your documents. Follow the steps below to learn how to achieve this.
@@ -122,3 +128,10 @@ A4: Aspose.Note for .NET specifically targets OneNote file formats. For working 
 ### Q5: Where can I find more resources and support for Aspose.Note for .NET?
 
 A5: You can explore the [Aspose.Note documentation](https://reference.aspose.com/note/net/) for detailed API references and examples. Additionally, you can seek assistance from the Aspose community on the [Aspose.Note forum](https://forum.aspose.com/c/note/28).
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

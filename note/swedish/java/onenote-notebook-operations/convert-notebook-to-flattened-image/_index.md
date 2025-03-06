@@ -3,10 +3,16 @@ title: Konvertera anteckningsbok till tillplattad bild i OneNote - Aspose.Note
 linktitle: Konvertera anteckningsbok till tillplattad bild i OneNote - Aspose.Note
 second_title: Aspose.Note Java API
 description: Lär dig hur du konverterar en anteckningsbok till en tillplattad bild i OneNote med Aspose.Note för Java. Bevara alla element i en enda bildfil utan ansträngning.
-type: docs
 weight: 13
 url: /sv/java/onenote-notebook-operations/convert-notebook-to-flattened-image/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Konvertera anteckningsbok till tillplattad bild i OneNote - Aspose.Note
+
 ## Introduktion
 
 den här handledningen kommer vi att guida dig genom processen att konvertera en anteckningsbok till en tillplattad bild i OneNote med Aspose.Note för Java. Detta gör att du kan spara din anteckningsbok som en bildfil, vilket säkerställer att alla element bevaras i ett enda bildformat.
@@ -108,3 +114,9 @@ S3: Ja, Aspose.Note erbjuder omfattande alternativ för att anpassa utdatabilden
 ### F5: Var kan jag hitta support för Aspose.Note för Java?
 
  S5: Du kan hitta support och resurser på Aspose.Note-forumet[här](https://forum.aspose.com/c/note/28).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

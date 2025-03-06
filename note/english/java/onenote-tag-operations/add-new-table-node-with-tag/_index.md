@@ -3,10 +3,16 @@ title: Add New Table Node with Tag in OneNote - Aspose.Note
 linktitle: Add New Table Node with Tag in OneNote - Aspose.Note
 second_title: Aspose.Note Java API
 description: Learn how to add dynamic table nodes with tags in OneNote using Aspose.Note for Java. Enhance your document organization effortlessly.
-type: docs
 weight: 11
 url: /java/onenote-tag-operations/add-new-table-node-with-tag/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Add New Table Node with Tag in OneNote - Aspose.Note
+
 ## Introduction
 Are you looking to enhance your OneNote documents by adding a new table node with a tag? With Aspose.Note for Java, this task becomes straightforward, allowing you to create dynamic and organized content. In this step-by-step guide, we'll walk you through the process of adding a new table node with a tag in OneNote using Aspose.Note for Java.
 ## Prerequisites
@@ -98,3 +104,10 @@ Absolutely! Aspose.Note provides various options for customizing table appearanc
 Visit the [Aspose.Note Java Documentation](https://reference.aspose.com/note/java/) for comprehensive examples and documentation.
 ### How can I get support for Aspose.Note for Java?
 Visit the [Aspose.Note Forum](https://forum.aspose.com/c/note/28) for community support or [purchase a support plan](https://purchase.aspose.com/buy) for dedicated assistance.
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

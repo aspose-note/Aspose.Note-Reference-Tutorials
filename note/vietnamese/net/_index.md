@@ -1,12 +1,17 @@
 ---
 title: Hướng dẫn toàn diện và ví dụ về Aspose.Note cho .NET
 linktitle: Aspose.Note dành cho hướng dẫn .NET
-type: docs
 weight: 10
 url: /vi/net/
 description: Master Aspose.Note for .NET với các hướng dẫn toàn diện! Đi sâu vào phần đính kèm, siêu liên kết, hình ảnh, v.v. Nâng cao thao tác tài liệu OneNote của bạn.
-is_root: true
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Hướng dẫn toàn diện và ví dụ về Aspose.Note cho .NET
+
 ## Giới thiệu
 
 Bạn đã sẵn sàng nâng tầm trò chơi thao tác tài liệu OneNote của mình chưa? Aspose.Note for .NET mở ra cánh cửa dẫn đến vô số khả năng và chúng tôi cung cấp cho bạn các hướng dẫn và ví dụ toàn diện. Từ những vấn đề phức tạp về cấp phép cho đến thao tác văn bản nâng cao, hãy bắt tay vào hành trình phát triển tài liệu nâng cao.
@@ -97,3 +102,9 @@ Tạo tài liệu hấp dẫn trực quan với Aspose.Note cho .NET! Khám phá
 Làm chủ Aspose.Note với quản lý thẻ. Thêm hình ảnh, bảng, nút văn bản và tạo ghi chú cuộc họp. Truy xuất chi tiết thẻ và nâng cao thao tác tài liệu.
 ### [Thao tác văn bản](./text-manipulation/)
 Chuyển đổi tài liệu OneNote của bạn bằng Aspose.Note for .NET! Tìm hiểu các kỹ thuật thao tác văn bản, từ áp dụng dấu đầu dòng và đánh số đến thay đổi kiểu.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -3,10 +3,16 @@ title: Extract Text from Tables in Aspose.Note
 linktitle: Extract Text from Tables in Aspose.Note
 second_title: Aspose.Note .NET API
 description: Learn how to extract text from tables in Aspose.Note using C# with the .NET framework. Step-by-step tutorial with code snippets and explanations.
-type: docs
 weight: 15
 url: /net/table-manipulation/extract-text-table/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Extract Text from Tables in Aspose.Note
+
 ## Introduction
 
 In this tutorial, we'll explore how to extract text from tables in Aspose.Note using C# with the .NET framework. Aspose.Note is a powerful API that allows developers to work with Microsoft OneNote files programmatically, enabling various operations such as creating, reading, manipulating, and converting OneNote documents.
@@ -99,3 +105,10 @@ A4: Yes, Aspose.Note is available for multiple platforms and programming languag
 ### Q5: Where can I find more resources and support for Aspose.Note?
 
 A5: You can find extensive documentation, tutorials, and support forums on the [Aspose.Note forum](https://forum.aspose.com/c/note/28), enabling you to explore and resolve any queries or issues you encounter during development.
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -3,10 +3,16 @@ title: معالجة صفحة OneNote
 linktitle: معالجة صفحة OneNote
 second_title: Aspose.Note جافا API
 description: يمكنك إدارة الصفحات المتعارضة وإنشاء مستندات منظمة وتتبع المراجعات في OneNote باستخدام Aspose.Note لـ Java. برامج تعليمية خطوة بخطوة لإدارة المستندات بكفاءة.
-type: docs
 weight: 29
 url: /ar/java/onenote-page-manipulation/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# معالجة صفحة OneNote
+
 
 ## مقدمة
 
@@ -74,3 +80,9 @@ url: /ar/java/onenote-page-manipulation/
 تعرف على كيفية تعيين لون خلفية الصفحة في OneNote دون عناء باستخدام Aspose.Note لـ Java. عزز المظهر المرئي لمستنداتك من خلال هذا البرنامج التعليمي البسيط.
 ### [العمل مع مراجعات الصفحة في OneNote - Aspose.Note](./working-with-page-revisions/)
 تعرف على كيفية إدارة مراجعات الصفحات في مستندات OneNote باستخدام Aspose.Note لـ Java. يوفر هذا البرنامج التعليمي دليلاً خطوة بخطوة لتتبع المراجعة والتعاون بشكل فعال.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

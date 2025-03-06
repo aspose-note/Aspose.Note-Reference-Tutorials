@@ -3,10 +3,16 @@ title: Aspose.Note에서 텍스트에 글머리 기호 적용
 linktitle: Aspose.Note에서 텍스트에 글머리 기호 적용
 second_title: Aspose.Note .NET API
 description: OneNote 문서를 향상시키기 위해 .NET용 Aspose.Note에서 텍스트에 글머리 기호를 적용하는 방법을 알아보세요. 효과적인 포맷을 위해서는 이 단계별 가이드를 따르세요.
-type: docs
 weight: 10
 url: /ko/net/text-manipulation/apply-bullets-on-text/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Aspose.Note에서 텍스트에 글머리 기호 적용
+
 ## 소개
 .NET용 Aspose.Note를 사용하여 텍스트에 글머리 기호를 적용하는 방법에 대한 단계별 가이드에 오신 것을 환영합니다. Aspose.Note는 개발자가 .NET 애플리케이션에서 Microsoft OneNote 파일을 원활하게 사용할 수 있게 해주는 강력한 라이브러리입니다. 이 튜토리얼에서는 텍스트에 글머리 기호를 적용하여 OneNote 문서의 시각적 매력을 향상시키는 과정을 안내합니다.
 ## 전제조건
@@ -86,3 +92,9 @@ Aspose.Note는 다양한 버전의 Microsoft OneNote를 지원하여 이전 버�
  예, 무료 평가판을 다운로드할 수 있습니다[여기](https://releases.aspose.com/).
 ### 추가 지원과 리소스는 어디에서 찾을 수 있나요?
  Aspose.Note 커뮤니티 포럼을 방문하실 수 있습니다[여기](https://forum.aspose.com/c/note/28) 지원과 토론을 위해.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

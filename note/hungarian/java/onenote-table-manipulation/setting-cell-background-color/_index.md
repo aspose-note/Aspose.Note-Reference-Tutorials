@@ -3,10 +3,16 @@ title: Cellák háttérszínének beállítása a OneNote-ban – Aspose.Note
 linktitle: Cellák háttérszínének beállítása a OneNote-ban – Aspose.Note
 second_title: Aspose.Note Java API
 description: Az Aspose.Note for Java segítségével könnyedén átalakíthatja a OneNote-dokumentumokat. Könnyedén testreszabhatja a cella háttérszíneit. Próbálja ki most az ingyenes próbaverziót!
-type: docs
 weight: 17
 url: /hu/java/onenote-table-manipulation/setting-cell-background-color/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Cellák háttérszínének beállítása a OneNote-ban – Aspose.Note
+
 ## Bevezetés
 Üdvözöljük oktatóanyagunkban a cella háttérszínének beállításáról a OneNote-ban az Aspose.Note for Java használatával! Ebben a részletes útmutatóban végigvezetjük a OneNote-dokumentumok cella háttérszíneinek testreszabásának folyamatán.
 ## Előfeltételek
@@ -66,3 +72,9 @@ Igen, a táblázat soraiban és celláiban végighaladva alkalmazhatja a hátté
  Látogassa meg a támogatási fórumot[itt](https://forum.aspose.com/c/note/28) segítséget kérni az Aspose közösségtől.
 ### Hol vásárolhatom meg az Aspose.Note for Java-t?
  Megvásárolhatja a könyvtárat[itt](https://purchase.aspose.com/buy).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

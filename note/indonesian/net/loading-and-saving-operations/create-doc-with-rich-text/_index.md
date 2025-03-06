@@ -3,10 +3,16 @@ title: Buat Dokumen dengan Rich Text di Aspose.Note
 linktitle: Buat Dokumen dengan Rich Text di Aspose.Note
 second_title: Aspose.Catatan .NET API
 description: Pelajari cara membuat dokumen teks kaya secara terprogram menggunakan Aspose.Note untuk .NET. Panduan langkah demi langkah dengan contoh kode.
-type: docs
 weight: 12
 url: /id/net/loading-and-saving-operations/create-doc-with-rich-text/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Buat Dokumen dengan Rich Text di Aspose.Note
+
 ## Perkenalan
 
 Dalam bidang pengembangan .NET, Aspose.Note menonjol sebagai alat yang ampuh untuk menangani file Microsoft OneNote secara terprogram. Baik Anda ingin mengotomatiskan pembuatan dokumen atau memanipulasi catatan yang ada, Aspose.Note melengkapi pengembang dengan serangkaian fitur yang komprehensif. Di antara kemampuan tersebut adalah kemampuan menghasilkan dokumen rich text, lengkap dengan berbagai pilihan format. Dalam tutorial ini, kita akan mempelajari proses pembuatan dokumen tersebut langkah demi langkah menggunakan Aspose.Note untuk .NET.
@@ -170,3 +176,9 @@ A4: Aspose.Note terutama berfokus pada pemrosesan dokumen lokal tetapi menawarka
 ### Q5: Di mana saya dapat menemukan lebih banyak sumber daya dan dukungan untuk Aspose.Note?
 
  A5: Anda dapat menjelajahi[Aspose.Catatan forum](https://forum.aspose.com/c/note/28) untuk dukungan komunitas dan mengakses dokumentasi di[situs web](https://reference.aspose.com/note/net/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

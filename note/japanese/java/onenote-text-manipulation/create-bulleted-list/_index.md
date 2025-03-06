@@ -3,10 +3,16 @@ title: OneNote で箇条書きリストを作成する - Aspose.Note
 linktitle: OneNote で箇条書きリストを作成する - Aspose.Note
 second_title: Aspose.Note Java API
 description: Aspose.Note for Java を使用して OneNote で箇条書きリストを作成するためのステップバイステップ ガイドをご覧ください。ドキュメント作成を簡単に向上させます。
-type: docs
 weight: 12
 url: /ja/java/onenote-text-manipulation/create-bulleted-list/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# OneNote で箇条書きリストを作成する - Aspose.Note
+
 ## 導入
 Java 開発の動的な状況では、魅力的で整理されたドキュメントを作成することが不可欠です。 Aspose.Note for Java は、ドキュメント作成プロセスを強化する強力なツールセットを提供します。このチュートリアルでは、Aspose.Note for Java を使用して OneNote で箇条書きリストを作成するプロセスを説明します。詳細を見ていきましょう。
 ## 前提条件
@@ -92,3 +98,9 @@ Aspose.Note for Java は、整形式のドキュメントを作成するプロ�
 はい、無料試用版を試すことができます[ここ](https://releases.aspose.com/).
 ### Aspose.Note for Java の一時ライセンスを取得するにはどうすればよいですか?
 仮免許を取得する[ここ](https://purchase.aspose.com/temporary-license/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

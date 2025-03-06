@@ -3,10 +3,16 @@ title: Aspose.Note untuk .NET Hyperlink & Integrasi OneNote
 linktitle: Hyperlink
 second_title: Aspose.Catatan .NET API
 description: Pelajari cara meningkatkan interaktivitas dalam dokumen Aspose.Note! Temukan tutorial tentang menambahkan hyperlink dengan Aspose.Note untuk .NET, sehingga meningkatkan keterlibatan dokumen Anda.
-type: docs
 weight: 22
 url: /id/net/hyperlinks/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Aspose.Note untuk .NET Hyperlink & Integrasi OneNote
+
 ## Perkenalan
 
 Di ranah Aspose.Note untuk .NET, kemampuan untuk menambahkan hyperlink ke dokumen Anda merupakan terobosan baru. Tingkatkan interaktivitas dan keterlibatan dokumen Anda dengan mengikuti tutorial langkah demi langkah kami.
@@ -45,3 +51,9 @@ Kesimpulannya, Aspose.Note untuk .NET membuka banyak kemungkinan untuk interakti
 ## Tutorial Hyperlink
 ### [Tambahkan Hyperlink di Dokumen Aspose.Note](./add-hyperlinks/)
 Pelajari cara menambahkan hyperlink ke dokumen Aspose.Note menggunakan Aspose.Note untuk .NET. Tingkatkan interaktivitas dokumen dengan tutorial langkah demi langkah ini.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

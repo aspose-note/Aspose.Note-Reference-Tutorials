@@ -3,10 +3,16 @@ title: Carregamento de documento do OneNote
 linktitle: Carregamento de documento do OneNote
 second_title: API Java Aspose.Note
 description: Explore tutoriais abrangentes sobre como carregar, converter e criar documentos do OneNote com Aspose.Note para Java. Aprimore facilmente seus recursos de processamento de documentos.
-type: docs
 weight: 25
 url: /pt/java/onenote-document-loading/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Carregamento de documento do OneNote
+
 
 ## Introdução
 
@@ -97,3 +103,9 @@ Aprenda como usar Aspose.Note for Java para carregar e manipular documentos do O
 Aprenda como carregar documentos do OneNote 2007 em Java usando Aspose.Note para integração perfeita.
 ### [Carregar documento do OneNote protegido por senha - Java](./load-password-protected-onenote/)
 Aprenda como carregar documentos do OneNote protegidos por senha usando Java com Aspose.Note para Java.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -3,10 +3,16 @@ title: إضافة العقد التابعة في Aspose Note .NET
 linktitle: إضافة العقد التابعة في Aspose Note .NET
 second_title: Aspose.Note .NET API
 description: تعرف على كيفية إضافة العقد الفرعية في Aspose Note .NET بسهولة من خلال هذا البرنامج التعليمي الشامل. عزز مهاراتك في التعامل مع المستندات الآن.
-type: docs
 weight: 10
 url: /ar/net/notebook-operations/add-child-nodes/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# إضافة العقد التابعة في Aspose Note .NET
+
 ## مقدمة
 
 في هذا البرنامج التعليمي، سوف نتعلم كيفية إضافة العقد الفرعية في Aspose Note .NET. تعد إضافة العقد الفرعية عملية أساسية عند العمل مع المستندات، ويوفر Aspose Note .NET طريقة مباشرة لإنجاز هذه المهمة.
@@ -89,3 +95,9 @@ notebook.Save(dataDir);
 ### س5: هل يأتي Aspose.Note for .NET مزودًا بالوثائق؟
 
  ج5: نعم، يمكنك العثور على وثائق مفصلة[هنا](https://reference.aspose.com/note/net/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

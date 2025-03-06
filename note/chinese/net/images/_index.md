@@ -3,10 +3,16 @@ title: 掌握 OneNote 图像操作
 linktitle: 图片
 second_title: Aspose.Note .NET API
 description: 使用 Aspose.Note for .NET 教程探索 OneNote 文档操作的世界，了解无缝图像处理。轻松提升您的视觉内容。
-type: docs
 weight: 23
 url: /zh/net/images/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# 掌握 OneNote 图像操作
+
 ## 介绍
 
 您准备好增强 OneNote 文档操作技能了吗？深入研究我们关于 Aspose.Note for .NET 的综合教程，重点关注图像处理的复杂世界。从以编程方式插入图像到提取有价值的视觉信息，我们都能满足您的需求。
@@ -48,3 +54,9 @@ url: /zh/net/images/
 了解如何在 Aspose.Note for .NET 中轻松插入带有超链接的图像。通过可点击的图像增强文档交互性。
 ### [在 Aspose.Note 文档中插入图像](./insert-images/)
 了解如何使用 .NET 将图像无缝插入到 Aspose.Note 文档中以增强视觉内容。请遵循我们的分步指南以轻松集成。
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -3,10 +3,16 @@ title: حدد خيارات الحفظ في Aspose.Note
 linktitle: حدد خيارات الحفظ في Aspose.Note
 second_title: Aspose.Note .NET API
 description: تعرف على كيفية تحديد خيارات الحفظ في Aspose.Note لـ .NET لتخصيص تنسيق الإخراج وجودة مستندات OneNote.
-type: docs
 weight: 30
 url: /ar/net/loading-and-saving-operations/specify-save-options/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# حدد خيارات الحفظ في Aspose.Note
+
 ## مقدمة
 
 في مجال تطوير .NET، يبرز Aspose.Note كأداة قوية للعمل مع مستندات OneNote. فهو يقدم مجموعة شاملة من الميزات للتعامل مع هذه الملفات وإدارتها بكفاءة. أحد الجوانب الحاسمة للعمل مع Aspose.Note هو تحديد خيارات الحفظ، مما يسمح للمطورين بتخصيص تنسيق الإخراج وجودته وفقًا لمتطلباتهم.
@@ -94,3 +100,9 @@ doc.Save(dataDir, opts);
 ### س5: هل يقدم Aspose.Note الدعم والمساعدة للمطورين الذين يواجهون مشكلات؟
 
 ج5: نعم، يمكن للمطورين طلب المساعدة والمساعدة من فريق دعم Aspose.Note من خلال المنتدى أو عن طريق الاتصال بـ Aspose مباشرة لحل أي مشكلات أو استفسارات في الوقت المناسب.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

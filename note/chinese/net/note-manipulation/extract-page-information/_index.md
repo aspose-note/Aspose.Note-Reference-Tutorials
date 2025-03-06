@@ -3,10 +3,16 @@ title: 使用 Aspose.Note for .NET 提取页面信息
 linktitle: 使用 Aspose.Note for .NET 提取页面信息
 second_title: Aspose.Note .NET API
 description: 了解如何使用 Aspose.Note for .NET 从 Microsoft OneNote 文件中提取页面信息。这个综合教程将逐步指导您完成整个过程。
-type: docs
 weight: 13
 url: /zh/net/note-manipulation/extract-page-information/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# 使用 Aspose.Note for .NET 提取页面信息
+
 ## 介绍
 
 Aspose.Note for .NET 是一个功能强大的库，允许开发人员以编程方式使用 Microsoft OneNote 文件。从这些文件中提取页面信息对于从数据分析到文档管理的各种应用程序至关重要。在本教程中，我们将指导您使用 Aspose.Note for .NET 逐步完成提取页面信息的过程。
@@ -103,3 +109,9 @@ A4：是的，您可以使用 Aspose.Note for .NET 提取、修改和添加附�
 ### Q5：在哪里可以找到有关 Aspose.Note for .NET 的更多支持和资源？
 
  A5：您可以访问Aspose.Note for .NET 论坛[这里](https://forum.aspose.com/c/note/28)如果您有任何帮助或疑问。
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

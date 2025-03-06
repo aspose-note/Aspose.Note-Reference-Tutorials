@@ -3,10 +3,16 @@ title: Cargue el documento de OneNote en Aspose.Note
 linktitle: Cargue el documento de OneNote en Aspose.Note
 second_title: Aspose.Nota .NET API
 description: Aprenda a cargar, cifrar y descifrar documentos de OneNote mediante programación en .NET utilizando Aspose.Note.
-type: docs
 weight: 16
 url: /es/net/loading-and-saving-operations/load-onenote-document/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Cargue el documento de OneNote en Aspose.Note
+
 ## Introducción
 
 Aspose.Note para .NET es una potente API que permite a los desarrolladores trabajar con archivos de Microsoft OneNote mediante programación en sus aplicaciones .NET. Ya sea que necesite cargar, manipular o convertir documentos de OneNote, Aspose.Note para .NET proporciona una funcionalidad integral para optimizar su flujo de trabajo.
@@ -174,3 +180,9 @@ R2: Sí, puede comprobar si un documento está cifrado y descifrarlo utilizando 
 ### P5: ¿Cómo puedo obtener una licencia temporal de Aspose.Note para .NET?
 
  R5: Puede solicitar una licencia temporal al[Aspose página de compra](https://purchase.aspose.com/temporary-license/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

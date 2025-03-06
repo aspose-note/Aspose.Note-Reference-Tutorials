@@ -3,10 +3,16 @@ title: Převést Poznámkový blok na sloučený PDF ve OneNotu – Aspose.Note
 linktitle: Převést Poznámkový blok na sloučený PDF ve OneNotu – Aspose.Note
 second_title: Aspose.Note Java API
 description: Převádějte notebooky na sloučené PDF bez námahy pomocí Aspose.Note pro Java. Užijte si bezproblémovou integraci a možnosti přizpůsobení.
-type: docs
 weight: 16
 url: /cs/java/onenote-notebook-operations/convert-notebook-to-flattened-pdf/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Převést Poznámkový blok na sloučený PDF ve OneNotu – Aspose.Note
+
 ## Úvod
 
 V tomto tutoriálu prozkoumáme, jak převést notebook do sloučeného formátu PDF pomocí Aspose.Note pro Java. Převod poznámkových bloků do PDF je běžným požadavkem mnoha aplikací a Aspose.Note tento proces zjednodušuje pomocí komplexní sady funkcí a snadno použitelného rozhraní API.
@@ -82,3 +88,9 @@ Odpověď 3: Ano, pomocí Aspose.Note pro Java můžete dávkově převést víc
 ### Q5: Kde najdu podporu pro Aspose.Note pro Java?
 
  A5: Podporu a pomoc pro Aspose.Note pro Java najdete na[Aspose.Note fórum](https://forum.aspose.com/c/note/28).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

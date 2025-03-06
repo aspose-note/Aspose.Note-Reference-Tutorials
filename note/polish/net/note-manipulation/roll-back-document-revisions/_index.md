@@ -3,10 +3,16 @@ title: Wycofuj wersje w dokumentach Aspose.Note
 linktitle: Wycofuj wersje w dokumentach Aspose.Note
 second_title: Aspose.Note .NET API
 description: Dowiedz się, jak skutecznie zarządzać wersjami w dokumentach Aspose.Note przy użyciu Aspose.Note dla .NET. Postępuj zgodnie z przewodnikiem krok po kroku, aby bezproblemowo wycofać wersje.
-type: docs
 weight: 18
 url: /pl/net/note-manipulation/roll-back-document-revisions/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Wycofuj wersje w dokumentach Aspose.Note
+
 ## Wstęp
 
 W świecie zarządzania i edytowania dokumentów kluczowa jest możliwość śledzenia zmian i płynnego powrotu do poprzednich wersji. Aspose.Note dla .NET zapewnia potężne narzędzia do skutecznego zarządzania wersjami, zapewniając możliwość wycofania zmian w razie potrzeby. W tym poradniku krok po kroku zagłębimy się w proces wycofywania wersji dokumentów Aspose.Note.
@@ -99,3 +105,9 @@ Odpowiedź 4: Tak, możesz zintegrować funkcję przywracania zmian ze swoimi ap
 ### P5: Czy Aspose.Note zapewnia wsparcie, jeśli napotkam jakiekolwiek problemy podczas procesu wycofywania?
 
  Odpowiedź 5: Tak, Aspose zapewnia dedykowane wsparcie za pośrednictwem swoich forów. Możesz odwiedzić[Forum Aspose.Note](https://forum.aspose.com/c/note/28) do pomocy.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

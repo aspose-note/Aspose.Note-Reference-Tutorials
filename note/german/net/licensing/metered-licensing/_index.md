@@ -3,10 +3,16 @@ title: Gemessene Lizenzierung mit Aspose.Note
 linktitle: Gemessene Lizenzierung mit Aspose.Note
 second_title: Aspose.Note .NET-API
 description: Erfahren Sie, wie Sie Softwarelizenzen mit Aspose.Note für .NET durch getaktete Lizenzierung effizient verwalten. Optimieren Sie den Ressourcenverbrauch und kontrollieren Sie die Kosten effektiv.
-type: docs
 weight: 13
 url: /de/net/licensing/metered-licensing/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Gemessene Lizenzierung mit Aspose.Note
+
 ## Einführung
 
 Im Bereich der Softwareentwicklung ist die effiziente Verwaltung von Lizenzen von entscheidender Bedeutung, insbesondere beim Umgang mit Produkten wie Aspose.Note für .NET. Die getaktete Lizenzierung ist eine Methode, die Entwicklern mehr Flexibilität und Kontrolle über ihre Softwarenutzung bietet und es ihnen ermöglicht, den Ressourcenverbrauch effektiv zu überwachen und zu verwalten. In diesem Tutorial befassen wir uns mit den Feinheiten der getakteten Lizenzierung mit Aspose.Note für .NET und schlüsseln jeden Schritt auf, um ein umfassendes Verständnis zu gewährleisten.
@@ -89,3 +95,9 @@ A4: Abhängig von den spezifischen Geschäftsbedingungen des Softwareanbieters k
 ### F5: Ist die getaktete Lizenzierung für alle Arten von Softwareanwendungen geeignet?
 
 A5: Während eine getaktete Lizenzierung für viele Softwareanwendungen von Vorteil sein kann, hängt ihre Eignung von Faktoren wie Nutzungsmustern und Kostenüberlegungen ab.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

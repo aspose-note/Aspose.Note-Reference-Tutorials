@@ -3,10 +3,16 @@ title: Obtenir des informations sur l'image à partir de OneNote à l'aide de Ja
 linktitle: Obtenir des informations sur l'image à partir de OneNote à l'aide de Java
 second_title: API Java Aspose.Note
 description: Extrayez les informations sur les images des documents OneNote en Java ! Obtenez les dimensions des images, les noms de fichiers et bien plus encore. Étapes faciles et exemples de code inclus. #OneNote #Java #Aspose
-type: docs
 weight: 15
 url: /fr/java/onenote-hyperlinks-images/get-image-info/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Obtenir des informations sur l'image à partir de OneNote à l'aide de Java
+
 ## Introduction
 
 Dans le domaine du développement Java, extraire des informations de différents formats de documents est une tâche courante. OneNote, une plateforme populaire de prise de notes, contient souvent des images à côté du texte. La récupération par programme d'informations sur les images à partir de fichiers OneNote à l'aide de Java peut rationaliser les flux de travail de traitement des documents. Dans ce didacticiel, nous verrons comment extraire les détails d'une image à partir de documents OneNote à l'aide d'Aspose.Note pour Java.
@@ -113,3 +119,9 @@ A2 : Oui, vous pouvez utiliser Aspose.Note pour Java à des fins personnelles et
 ### Q5 : Comment puis-je obtenir une licence temporaire pour Aspose.Note pour Java ?
  
  A5 : Vous pouvez acquérir une licence temporaire auprès de[Permis temporaire/](https://purchase.aspose.com/temporary-license/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

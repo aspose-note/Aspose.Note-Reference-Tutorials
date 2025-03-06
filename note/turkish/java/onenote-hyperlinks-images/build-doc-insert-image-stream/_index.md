@@ -3,10 +3,16 @@ title: OneNote'ta Akış ile Belge Oluşturma ve Görüntü Ekleme - Java
 linktitle: OneNote'ta Akış ile Belge Oluşturma ve Görüntü Ekleme - Java
 second_title: Aspose.Note Java API'si
 description: Aspose.Note for Java'yı kullanarak görüntüleri OneNote belgelerine zahmetsizce nasıl entegre edebileceğinizi öğrenin. Java geliştiricileri için adım adım eğitim.
-type: docs
 weight: 13
 url: /tr/java/onenote-hyperlinks-images/build-doc-insert-image-stream/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# OneNote'ta Akış ile Belge Oluşturma ve Görüntü Ekleme - Java
+
 ## giriiş
 
 OneNote'ta görüntü akışlarını kullanarak belgeler oluşturmak ve görüntüler eklemek için Aspose.Note for Java'yı kullanmayla ilgili kapsamlı eğitimimize hoş geldiniz! Bu eğitimde, süreç boyunca size adım adım rehberlik edeceğiz ve her aşamayı net bir şekilde anlamanızı sağlayacağız. Sonunda, Java'yı kullanarak resimleri OneNote belgelerinize zahmetsizce entegre edebileceksiniz.
@@ -180,3 +186,10 @@ Cevap4: Sağlanan bağlantılar aracılığıyla Aspose.Note for Java belgelerin
 ### S5: Aspose.Note for Java'nın deneme sürümü mevcut mu?
 
 Cevap5: Evet, satın alma kararını vermeden önce özelliklerini ve yeteneklerini keşfetmek için Aspose.Note for Java'nın ücretsiz deneme sürümünü edinebilirsiniz.
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

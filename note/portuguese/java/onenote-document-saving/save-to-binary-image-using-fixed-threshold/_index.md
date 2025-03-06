@@ -3,10 +3,16 @@ title: Salvar em imagem binária usando limite fixo no OneNote
 linktitle: Salvar em imagem binária usando limite fixo no OneNote
 second_title: API Java Aspose.Note
 description: Salve facilmente documentos do Microsoft OneNote como imagens binárias usando limite fixo com Aspose.Note Java. Eleve seus recursos de manipulação de arquivos do OneNote.
-type: docs
 weight: 14
 url: /pt/java/onenote-document-saving/save-to-binary-image-using-fixed-threshold/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Salvar em imagem binária usando limite fixo no OneNote
+
 ## Introdução
 
 Aspose.Note for Java é uma API poderosa que permite aos desenvolvedores trabalhar com arquivos do Microsoft OneNote programaticamente. Neste tutorial, exploraremos como salvar um documento como uma imagem binária usando um limite fixo. Siga as etapas abaixo para conseguir isso.
@@ -91,3 +97,9 @@ A4: Sim, você pode processar em lote vários documentos do OneNote iterando cad
 ### Q5: O suporte técnico está disponível para Aspose.Note para Java?
 
  A5: Sim, o suporte técnico está disponível através do[Fórum Aspose.Note](https://forum.aspose.com/c/note/28), onde você pode tirar dúvidas e buscar ajuda de especialistas.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

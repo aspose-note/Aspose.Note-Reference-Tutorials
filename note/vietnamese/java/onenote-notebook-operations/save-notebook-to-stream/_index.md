@@ -3,10 +3,16 @@ title: Lưu sổ ghi chép vào luồng trong OneNote - Aspose.Note
 linktitle: Lưu sổ ghi chép vào luồng trong OneNote - Aspose.Note
 second_title: API Java Aspose.Note
 description: Tìm hiểu cách lưu sổ ghi chép vào luồng trong OneNote bằng Aspose.Note for Java. Tăng năng suất với quản lý máy tính xách tay hiệu quả.
-type: docs
 weight: 26
 url: /vi/java/onenote-notebook-operations/save-notebook-to-stream/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Lưu sổ ghi chép vào luồng trong OneNote - Aspose.Note
+
 ## Giới thiệu
 
 Trong hướng dẫn này, chúng tôi sẽ hướng dẫn bạn quy trình lưu sổ ghi chép vào luồng trong OneNote bằng Aspose.Note cho Java. Bằng cách làm theo các bước này, bạn sẽ có thể quản lý sổ ghi chép của mình một cách hiệu quả theo chương trình.
@@ -88,3 +94,9 @@ A3: Chắc chắn rồi! Aspose.Note for Java cung cấp khả năng tích hợp
 ### Câu hỏi 5: Có phiên bản dùng thử cho Aspose.Note cho Java không?
 
  A5: Có, bạn có thể truy cập phiên bản dùng thử[đây](https://releases.aspose.com/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

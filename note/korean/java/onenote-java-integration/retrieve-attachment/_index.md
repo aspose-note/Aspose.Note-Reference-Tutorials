@@ -3,10 +3,16 @@ title: Java를 사용하여 OneNote에서 첨부 파일 검색
 linktitle: Java를 사용하여 OneNote에서 첨부 파일 검색
 second_title: Aspose.Note 자바 API
 description: Java로 OneNote 문서에서 첨부 파일을 손쉽게 추출하세요! Aspose.Note는 모든 형식 및 일괄 처리를 처리합니다. 쉬운 단계 및 코드가 포함되어 있습니다! #OneNote #Java #Aspose
-type: docs
 weight: 12
 url: /ko/java/onenote-java-integration/retrieve-attachment/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Java를 사용하여 OneNote에서 첨부 파일 검색
+
 ## 소개
 
 오늘날 디지털 시대에 다양한 문서 형식을 효율적으로 처리하는 것은 소프트웨어 개발의 중요한 측면입니다. Aspose.Note for Java는 개발자가 Java 애플리케이션을 사용하여 Microsoft OneNote 파일을 원활하게 작업할 수 있도록 지원하는 강력한 API입니다. 첨부 파일 검색, 페이지 조작 또는 텍스트 추출이 필요한 경우 Aspose.Note for Java는 작업 흐름을 간소화하는 포괄적인 기능을 제공합니다.
@@ -112,3 +118,9 @@ A: 예, 개발자는 요구 사항에 따라 사용자 지정 출력 위치와 �
 ### Q5: Aspose.Note for Java는 기술적 문제나 문의 사항이 있는 경우 지원을 제공합니까?
 
 A: 예, 개발자는 Aspose.Note 포럼을 통해 포괄적인 지원에 액세스할 수 있습니다.[https://forum.aspose.com/c/note/28](https://forum.aspose.com/c/note/28) 기술 지원이나 문의 사항이 있는 경우.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

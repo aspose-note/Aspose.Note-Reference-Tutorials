@@ -3,10 +3,16 @@ title: Simpan ke Gambar Skala Abu-Abu di OneNote - Aspose.Note
 linktitle: Simpan ke Gambar Skala Abu-Abu di OneNote - Aspose.Note
 second_title: Aspose.Catatan Java API
 description: Pelajari cara menyimpan dokumen sebagai gambar skala abu-abu di OneNote menggunakan Aspose.Note untuk Java. Memanipulasi dokumen Microsoft OneNote dengan mudah secara terprogram.
-type: docs
 weight: 17
 url: /id/java/onenote-document-saving/save-to-grayscale-image/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Simpan ke Gambar Skala Abu-Abu di OneNote - Aspose.Note
+
 ## Perkenalan
 
 Dalam tutorial ini, kita akan mempelajari cara menyimpan dokumen sebagai gambar skala abu-abu di OneNote menggunakan Aspose.Note untuk Java. Gambar skala abu-abu adalah gambar monokromatik yang informasi warnanya hanya diwakili oleh nuansa abu-abu. Aspose.Note adalah Java API kuat yang memungkinkan manipulasi dokumen Microsoft OneNote secara terprogram.
@@ -83,3 +89,9 @@ A4: Tentu saja! Aspose.Note menyediakan berbagai fitur untuk mengedit dokumen On
 ### Q5: Di mana saya bisa mendapatkan dukungan jika saya mengalami masalah?
 
 A5: Anda dapat menemukan dukungan di forum Aspose.Note[Di Sini](https://forum.aspose.com/c/note/28).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

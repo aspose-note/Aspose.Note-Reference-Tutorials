@@ -3,10 +3,16 @@ title: Onderscheid knooppunttype in OneNote-document - Java
 linktitle: Onderscheid knooppunttype in OneNote-document - Java
 second_title: Aspose.Note Java-API
 description: Leer hoe u knooppunttypen kunt onderscheiden in OneNote-documenten met behulp van Java met Aspose.Note. Ontdek de stapsgewijze handleiding en veelgestelde vragen voor naadloze integratie.
-type: docs
 weight: 20
 url: /nl/java/onenote-document-loading/distinguish-node-type/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Onderscheid knooppunttype in OneNote-document - Java
+
 ## Invoering
 
 Op het gebied van Java-programmeren brengt het werken met OneNote-documenten zijn eigen reeks uitdagingen en ingewikkeldheden met zich mee. Gelukkig biedt Aspose.Note voor Java een uitgebreide oplossing om naadloos gegevens uit deze documenten te navigeren, te manipuleren en te extraheren. In deze tutorial gaan we dieper in op één specifiek aspect: het onderscheiden van knooppunttypen binnen een OneNote-document met behulp van Java. Aan het einde van deze handleiding heeft u een goed begrip van hoe u verschillende knooppunttypen kunt identificeren en hoe u deze kennis effectief kunt benutten in uw Java-toepassingen.
@@ -74,3 +80,10 @@ A3: Absoluut, met Aspose.Note voor Java kunt u eenvoudig tekst, afbeeldingen en 
 ### V5: Is er een gratis proefversie beschikbaar voor Aspose.Note voor Java?
 
  A5: Ja, u kunt de functies van Aspose.Note voor Java verkennen met een gratis proefversie die beschikbaar is op[deze link](https://releases.aspose.com/).
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

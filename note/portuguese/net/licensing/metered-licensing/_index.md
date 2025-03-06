@@ -3,10 +3,16 @@ title: Licenciamento medido com Aspose.Note
 linktitle: Licenciamento medido com Aspose.Note
 second_title: API Aspose.Note .NET
 description: Aprenda como gerenciar licenças de software de maneira eficiente com Aspose.Note for .NET por meio de licenciamento medido. Otimize o uso de recursos e controle os custos de forma eficaz.
-type: docs
 weight: 13
 url: /pt/net/licensing/metered-licensing/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Licenciamento medido com Aspose.Note
+
 ## Introdução
 
 No domínio do desenvolvimento de software, o gerenciamento eficiente de licenças é crucial, especialmente quando se trata de produtos como Aspose.Note for .NET. O licenciamento medido é um método que fornece aos desenvolvedores maior flexibilidade e controle sobre o uso de software, permitindo-lhes monitorar e gerenciar o consumo de recursos de maneira eficaz. Neste tutorial, nos aprofundaremos nos meandros do licenciamento medido com Aspose.Note for .NET, detalhando cada etapa para garantir uma compreensão abrangente.
@@ -89,3 +95,9 @@ R4: O licenciamento medido pode ter certas limitações dependendo dos termos e 
 ### P5: O licenciamento medido é adequado para todos os tipos de aplicativos de software?
 
 R5: Embora o licenciamento medido possa ser benéfico para muitos aplicativos de software, sua adequação depende de fatores como padrões de uso e considerações de custo.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

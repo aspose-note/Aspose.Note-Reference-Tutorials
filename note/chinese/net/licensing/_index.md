@@ -3,10 +3,16 @@ title: 掌握 OneNote 集成的 Aspose.Note 许可
 linktitle: 许可
 second_title: Aspose.Note .NET API
 description: 在您的 .NET 应用程序中应用 Aspose.Note 许可证！探索嵌入资源、使用路径、FileStream 和高效计量许可的分步指南。
-type: docs
 weight: 20
 url: /zh/net/licensing/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# 掌握 OneNote 集成的 Aspose.Note 许可
+
 ## 介绍
 
 您是一名正在深入研究 Aspose.Note 动态领域的 .NET 开发人员吗？了解如何应用许可证至关重要，尤其是在使用 OneNote 文件时。在这份内容广泛的指南中，我们将浏览各种许可教程，确保无缝集成过程并使您能够轻松操作 OneNote 文件。
@@ -41,3 +47,9 @@ url: /zh/net/licensing/
 了解如何在 .NET 应用程序中使用 FileStream 应用 Aspose.Note 许可证以实现无缝集成。
 ### [使用 Aspose.Note 进行计量许可](./metered-licensing/)
 了解如何通过计量许可使用 Aspose.Note for .NET 高效管理软件许可证。优化资源利用，有效控制成本。
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

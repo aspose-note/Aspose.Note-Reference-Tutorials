@@ -3,10 +3,16 @@ title: Hoạt động của sổ ghi chép OneNote
 linktitle: Hoạt động của sổ ghi chép OneNote
 second_title: API Java Aspose.Note
 description: Khai phá toàn bộ tiềm năng của Aspose.Note dành cho Java bằng Hướng dẫn vận hành sổ ghi chép OneNote của chúng tôi. Cung cấp hướng dẫn từng bước để nâng cao ứng dụng Java của bạn.
-type: docs
 weight: 28
 url: /vi/java/onenote-notebook-operations/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Hoạt động của sổ ghi chép OneNote
+
 
 ## Giới thiệu
 
@@ -66,3 +72,9 @@ Tìm hiểu cách truy xuất tài liệu từ OneNote Notebook bằng Aspose.No
 Tìm hiểu cách lưu sổ ghi chép vào luồng trong OneNote bằng Aspose.Note for Java. Tăng năng suất với quản lý máy tính xách tay hiệu quả.
 ### [Viết tài liệu được bảo vệ bằng mật khẩu trong OneNote - Aspose.Note](./write-password-protected-document/)
 Tìm hiểu cách viết tài liệu được bảo vệ bằng mật khẩu trong OneNote bằng Aspose.Note for Java. Đảm bảo an ninh với các bước dễ thực hiện.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

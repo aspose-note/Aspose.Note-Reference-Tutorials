@@ -3,10 +3,16 @@ title: Lưu vào hình ảnh JPEG bằng cách sử dụng định dạng lưu t
 linktitle: Lưu vào hình ảnh JPEG bằng cách sử dụng định dạng lưu trong OneNote
 second_title: API Java Aspose.Note
 description: Biến tài liệu OneNote thành hình ảnh JPEG một cách dễ dàng! Hướng dẫn Java này cho thấy cách sử dụng Aspose.Note. Chuyển đổi và tự động hóa với các ví dụ về mã! #OneNote #Java #Aspose
-type: docs
 weight: 18
 url: /vi/java/onenote-document-saving/save-to-jpeg-image-using-save-format/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Lưu vào hình ảnh JPEG bằng cách sử dụng định dạng lưu trong OneNote
+
 ## Giới thiệu
 
 Trong hướng dẫn này, chúng ta sẽ đi sâu vào quy trình lưu tài liệu sang định dạng hình ảnh JPEG bằng Aspose.Note cho Java. Aspose.Note là một API Java mạnh mẽ cho phép các nhà phát triển làm việc với các tệp Microsoft OneNote theo chương trình, cho phép thực hiện nhiều hoạt động khác nhau như chuyển đổi, thao tác và trích xuất nội dung.
@@ -78,3 +84,9 @@ Trả lời 1: Có, Aspose.Note được thiết kế để xử lý các tệp 
 ### Câu hỏi 5: Tôi có thể tìm tài liệu chi tiết về Aspose.Note cho Java ở đâu?
 
 Câu trả lời 5: Bạn có thể tìm tài liệu chi tiết về Aspose.Note for Java[đây](https://reference.aspose.com/note/java/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

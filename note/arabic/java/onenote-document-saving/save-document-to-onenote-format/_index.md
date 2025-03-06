@@ -3,10 +3,16 @@ title: حفظ المستند بتنسيق OneNote - Aspose.Note
 linktitle: حفظ المستند بتنسيق OneNote - Aspose.Note
 second_title: Aspose.Note جافا API
 description: تعرف على كيفية حفظ المستندات بتنسيق OneNote باستخدام Aspose.Note لـ Java. اتبع دليلنا خطوة بخطوة للتكامل السلس.
-type: docs
 weight: 10
 url: /ar/java/onenote-document-saving/save-document-to-onenote-format/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# حفظ المستند بتنسيق OneNote - Aspose.Note
+
 ## مقدمة
 
 مرحبًا بك في البرنامج التعليمي حول حفظ المستندات بتنسيق OneNote باستخدام Aspose.Note لـ Java. Aspose.Note هي مكتبة Java قوية تتيح لك العمل مع ملفات Microsoft OneNote برمجيًا، مما يتيح لك إنشاء مستندات OneNote ومعالجتها وتحويلها بسهولة.
@@ -90,3 +96,9 @@ doc.save(dataDir + "SaveDocToOneNoteFormat_out.one");
 ### س5: أين يمكنني العثور على الوثائق التفصيلية الخاصة بـ Aspose.Note لـ Java؟
 
  ج5: يمكنك الوصول إلى الوثائق التفصيلية[هنا](https://reference.aspose.com/note/java/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

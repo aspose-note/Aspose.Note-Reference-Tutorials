@@ -3,10 +3,16 @@ title: Passen Sie das Drucken mit den Aspose.Note-Druckoptionen an
 linktitle: Passen Sie das Drucken mit den Aspose.Note-Druckoptionen an
 second_title: Aspose.Note .NET-API
 description: Erfahren Sie, wie Sie den Dokumentendruck mit Aspose.Note für .NET anpassen. Passen Sie die Einstellungen für optimale Ausdrucke an.
-type: docs
 weight: 11
 url: /de/net/printing-document/customize-printing-options/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Passen Sie das Drucken mit den Aspose.Note-Druckoptionen an
+
 ## Einführung
 
 Das Drucken von Dokumenten mit Aspose.Note für .NET kann mithilfe von Druckoptionen an spezifische Anforderungen angepasst werden. In diesem Tutorial erfahren Sie, wie Sie das Drucken mithilfe verschiedener Optionen von Aspose.Note anpassen können. Ganz gleich, ob Sie Druckereinstellungen anpassen, Auflösungen festlegen oder Seitenaufteilungsalgorithmen definieren müssen, Aspose.Note bietet Flexibilität, um die gewünschten Druckergebnisse zu erzielen.
@@ -95,3 +101,9 @@ A4: Aspose.Note unterstützt das Drucken auf einer Vielzahl von Druckern, die mi
 ### F5: Kann ich Druckaufgaben mit Aspose.Note automatisieren?
 
 A5: Ja, Aspose.Note ermöglicht Entwicklern die Automatisierung von Druckaufgaben durch die Integration von Druckoptionen in ihre .NET-Anwendungen.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

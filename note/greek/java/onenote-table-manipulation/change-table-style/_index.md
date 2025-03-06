@@ -3,10 +3,16 @@ title: Αλλαγή στυλ πίνακα στο OneNote - Aspose.Note
 linktitle: Αλλαγή στυλ πίνακα στο OneNote - Aspose.Note
 second_title: Aspose.Note Java API
 description: Βελτιώστε τους πίνακες OneNote χωρίς κόπο με το Aspose.Note για Java. Ακολουθήστε τον βήμα προς βήμα οδηγό μας για να αλλάξετε στυλ πίνακα. Κατεβάστε τη βιβλιοθήκη τώρα!
-type: docs
 weight: 10
 url: /el/java/onenote-table-manipulation/change-table-style/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Αλλαγή στυλ πίνακα στο OneNote - Aspose.Note
+
 ## Εισαγωγή
 Το Aspose.Note για Java είναι μια ισχυρή βιβλιοθήκη που επιτρέπει στους προγραμματιστές να χειρίζονται τα αρχεία του OneNote χωρίς κόπο. Σε αυτό το σεμινάριο, θα επικεντρωθούμε στην αλλαγή του στυλ πίνακα σε ένα έγγραφο του OneNote χρησιμοποιώντας το Aspose.Note για Java. Ακολουθήστε τον οδηγό βήμα προς βήμα για να βελτιώσετε την οπτική γοητεία των τραπεζιών σας.
 ## Προαπαιτούμενα
@@ -88,3 +94,9 @@ document.save(Paths.get(dataDir, "ChangeTableStyleOut.one").toString());
  Γίνε μελος[Aspose.Note φόρουμ](https://forum.aspose.com/c/note/28) να ζητήσει βοήθεια από την κοινότητα.
 ### Πώς μπορώ να αγοράσω το Aspose.Note για Java;
  Μπορείτε να αγοράσετε τη βιβλιοθήκη[εδώ](https://purchase.aspose.com/buy).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

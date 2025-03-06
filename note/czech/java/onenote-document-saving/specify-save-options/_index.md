@@ -3,10 +3,16 @@ title: Určete možnosti uložení ve OneNotu – Aspose.Note
 linktitle: Určete možnosti uložení ve OneNotu – Aspose.Note
 second_title: Aspose.Note Java API
 description: Přečtěte si, jak určit možnosti uložení ve OneNotu pomocí Aspose.Note pro Java. Přizpůsobte si index, počet a nastavení komprese bez námahy.
-type: docs
 weight: 24
 url: /cs/java/onenote-document-saving/specify-save-options/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Určete možnosti uložení ve OneNotu – Aspose.Note
+
 ## Úvod
 
 tomto tutoriálu se naučíme, jak určit možnosti uložení ve OneNotu pomocí Aspose.Note pro Javu. Aspose.Note je výkonná knihovna Java, která umožňuje vývojářům vytvářet, manipulovat a převádět dokumenty OneNote programově. S Aspose.Note můžete snadno ovládat různé možnosti ukládání a přizpůsobit výstup podle svých požadavků.
@@ -109,3 +115,9 @@ Odpověď 4: Ano, Aspose.Note poskytuje rozhraní API pro šifrování a dešifr
 ### Q5: Je Aspose.Note vhodný pro komerční použití?
 
 A5: Ano, Aspose.Note lze použít pro komerční účely zakoupením licence.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

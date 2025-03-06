@@ -3,10 +3,16 @@ title: ไฮเปอร์ลิงก์และรูปภาพของ 
 linktitle: ไฮเปอร์ลิงก์และรูปภาพของ OneNote
 second_title: Aspose.Note Java API
 description: ปรับปรุงประสบการณ์ OneNote ของคุณด้วย Aspose.Note สำหรับบทช่วยสอน Java เรียนรู้วิธีการเพิ่มไฮเปอร์ลิงก์ แทรกรูปภาพ และแยกข้อมูลรูปภาพได้อย่างราบรื่นด้วยการพัฒนา Java
-type: docs
 weight: 22
 url: /th/java/onenote-hyperlinks-images/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# ไฮเปอร์ลิงก์และรูปภาพของ OneNote
+
 
 ## การแนะนำ
 
@@ -48,3 +54,9 @@ url: /th/java/onenote-hyperlinks-images/
 เรียนรู้วิธีแยกข้อมูลรูปภาพจากเอกสาร OneNote โดยใช้ Java กับ Aspose.Note ขั้นตอนง่ายๆ สำหรับนักพัฒนา
 ### [แทรกรูปภาพในเอกสาร OneNote ด้วย Java](./insert-image/)
 เรียนรู้วิธีแทรกรูปภาพลงในเอกสาร OneNote โดยใช้ Java กับ Aspose.Note สำหรับไลบรารี Java ปฏิบัติตามคำแนะนำทีละขั้นตอนของเราเพื่อการบูรณาการที่ราบรื่น
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

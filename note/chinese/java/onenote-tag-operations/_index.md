@@ -3,10 +3,16 @@ title: OneNote 标签操作
 linktitle: OneNote 标签操作
 second_title: Aspose.Note Java API
 description: 发现 Aspose.Note for Java 的强大功能。通过标签操作、添加图像、表格、文本节点等的分步指南提升您的 OneNote 体验。
-type: docs
 weight: 33
 url: /zh/java/onenote-tag-operations/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# OneNote 标签操作
+
 ## 介绍
 
 了解如何使用 Aspose.Note for Java 优化您的 OneNote 体验。从添加新的图像节点到动态表节点，本教程系列可以轻松增强您的 Java 编程技能。
@@ -47,3 +53,9 @@ url: /zh/java/onenote-tag-operations/
 与 Aspose.Note for Java 增强协作！了解如何逐步创建动态会议记录模板。立即下载库！
 ### [在 OneNote 中获取节点标签 - Aspose.Note](./get-node-tags/)
 使用 Aspose.Note for Java 揭开 OneNote 的秘密。本指南使您能够轻松提取节点标签。深入了解文档操作的未来！
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

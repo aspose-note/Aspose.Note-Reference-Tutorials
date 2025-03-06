@@ -3,10 +3,16 @@ title: قم بتحميل المستندات المحمية بكلمة مرور �
 linktitle: قم بتحميل المستندات المحمية بكلمة مرور في OneNote - Aspose.Note
 second_title: Aspose.Note جافا API
 description: تعرف على كيفية تحميل المستندات المحمية بكلمة مرور في OneNote باستخدام Aspose.Note لـ Java. اتبع دليلنا خطوة بخطوة للتكامل السلس.
-type: docs
 weight: 22
 url: /ar/java/onenote-notebook-operations/load-password-protected-documents/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# قم بتحميل المستندات المحمية بكلمة مرور في OneNote - Aspose.Note
+
 ## مقدمة
 
 في هذا البرنامج التعليمي، سنتعرف على عملية تحميل المستندات المحمية بكلمة مرور في OneNote باستخدام Aspose.Note لـ Java. Aspose.Note هي مكتبة Java قوية تتيح للمطورين العمل مع ملفات Microsoft OneNote برمجيًا، مما يتيح عمليات متنوعة مثل تحميل المستندات وتحريرها وحفظها.
@@ -79,3 +85,9 @@ notebook.loadChildDocument(dataDir + "Locked Pass2.one", documentLoadOptions2);
 ### س5: هل هناك نسخة تجريبية متاحة لـ Aspose.Note؟
 
 ج: نعم، يمكنك تنزيل نسخة تجريبية مجانية من Aspose.Note من هنا[هنا](https://releases.aspose.com/) لاستكشاف ميزاته قبل إجراء عملية الشراء.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

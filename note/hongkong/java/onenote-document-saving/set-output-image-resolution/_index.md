@@ -3,10 +3,16 @@ title: 在 OneNote 中設定輸出影像解析度 - Aspose.Note
 linktitle: 在 OneNote 中設定輸出影像解析度 - Aspose.Note
 second_title: Aspose.Note Java API
 description: 了解如何使用 Aspose.Note for Java 調整 OneNote 文件中的影像解析度。按照我們的逐步指南輕鬆實施
-type: docs
 weight: 23
 url: /zh-hant/java/onenote-document-saving/set-output-image-resolution/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# 在 OneNote 中設定輸出影像解析度 - Aspose.Note
+
 ## 介紹
 
 您是否希望使用 Java 來操縱 OneNote 文件中影像的解析度？ Aspose.Note for Java 為此類任務提供了強大的解決方案。在本教學中，我們將逐步完成使用 Aspose.Note 設定輸出影像解析度的步驟。
@@ -88,3 +94,9 @@ A4：是的，Aspose.Note 提供了全面的影像處理功能，包括調整大
 ### Q5：在哪裡可以獲得 Aspose.Note 相關查詢的支援？
 
  A5：您可以向Aspose.Note社群論壇尋求協助[這裡](https://forum.aspose.com/c/note/28).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

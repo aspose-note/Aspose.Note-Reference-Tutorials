@@ -3,10 +3,16 @@ title: OneNote belgelerinde Dosya Ekleri ve Alma
 linktitle: Ekler
 second_title: Aspose.Note .NET API'si
 description: Aspose.Note ile .NET uygulamalarınızı güçlendirin! Gelişmiş geliştirme için dosya ekleme, simge ayarlama ve ekleri alma konusundaki eğitimleri keşfedin.
-type: docs
 weight: 21
 url: /tr/net/attachments/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# OneNote belgelerinde Dosya Ekleri ve Alma
+
 ## giriiş
 
 .NET uygulamalarınızı bir sonraki seviyeye taşımaya hazır mısınız? Aspose.Note dünyasına dalın ve olasılıklar dünyasının kilidini açın. Bu kapsamlı eğitim listesi, dosya eklemeye, simgeleri ayarlamaya ve ekli dosyaları sorunsuz bir şekilde almaya odaklanarak temel özellikler konusunda size rehberlik edecektir.
@@ -37,3 +43,9 @@ Aspose.Note for .NET'te nasıl dosya ekleyeceğinizi ve simgeleri nasıl ayarlay
 Aspose.Note for .NET'i kullanarak Microsoft OneNote belgelerine programlı olarak nasıl dosya ekleyeceğinizi öğrenin. Bu kapsamlı eğitimle geliştirme sürecinizi basitleştirin.
 ### [Aspose.Note ile Ekli Dosyaları Alın](./retrieve-attached-files/)
 Aspose.Note for .NET'i kullanarak Microsoft OneNote belgelerinden ekli dosyaları nasıl alacağınızı öğrenin. Yükleme, düğüm alma ve ekleri yineleme adımlarını izleyin.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

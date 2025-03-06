@@ -3,10 +3,16 @@ title: 从嵌入式资源应用 Aspose.Note 许可证
 linktitle: 从嵌入式资源应用 Aspose.Note 许可证
 second_title: Aspose.Note .NET API
 description: 了解如何从 .NET 应用程序中的嵌入式资源应用 Aspose.Note 许可证。请按照我们的分步指南进行无缝集成。
-type: docs
 weight: 10
 url: /zh/net/licensing/apply-license-embedded-resource/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# 从嵌入式资源应用 Aspose.Note 许可证
+
 ## 介绍
 
 Aspose.Note for .NET 是一个功能强大的 API，允许开发人员以编程方式使用 Microsoft OneNote 文件。无论您是要创建、修改还是转换 OneNote 文档，Aspose.Note 都提供了一套全面的功能来满足您的需求。在本教程中，我们将逐步介绍从 .NET 应用程序中的嵌入式资源应用 Aspose.Note 许可证的过程。
@@ -86,3 +92,9 @@ A1：不需要，您需要有效的许可证才能使用 Aspose.Note for .NET。
 ### Q5: 在哪里可以购买 Aspose.Note 许可证？
 
  A5：您可以购买Aspose.Note许可证[这里](https://purchase.aspose.com/buy).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

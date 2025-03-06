@@ -3,10 +3,16 @@ title: الارتباطات التشعبية والصور الخاصة بـ OneN
 linktitle: الارتباطات التشعبية والصور الخاصة بـ OneNote
 second_title: Aspose.Note جافا API
 description: عزز تجربة OneNote الخاصة بك مع دروس Aspose.Note الخاصة بـ Java. تعلم كيفية إضافة الارتباطات التشعبية وإدراج الصور واستخراج معلومات الصورة بسلاسة باستخدام تطوير Java.
-type: docs
 weight: 22
 url: /ar/java/onenote-hyperlinks-images/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# الارتباطات التشعبية والصور الخاصة بـ OneNote
+
 
 ## مقدمة
 
@@ -48,3 +54,9 @@ url: /ar/java/onenote-hyperlinks-images/
 تعرف على كيفية استخراج معلومات الصورة من مستندات OneNote باستخدام Java مع Aspose.Note. خطوات سهلة للمطورين.
 ### [إدراج صورة في مستند OneNote باستخدام Java](./insert-image/)
 تعرف على كيفية إدراج الصور في مستندات OneNote باستخدام Java مع Aspose.Note لمكتبة Java. اتبع دليلنا خطوة بخطوة للتكامل السلس.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

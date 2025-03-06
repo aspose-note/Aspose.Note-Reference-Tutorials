@@ -3,10 +3,16 @@ title: 使用 OneNote 中的图像保存选项保存到 TIFF 图像
 linktitle: 使用 OneNote 中的图像保存选项保存到 TIFF 图像
 second_title: Aspose.Note Java API
 description: 将 OneNote 文档转换为 TIFF 并控制文件大小和质量！在 Java 中选择 Jpeg、PackBits 或 Fax 压缩。获取代码示例并了解如何操作！ #OneNote #Java #Aspose
-type: docs
 weight: 21
 url: /zh/java/onenote-document-saving/save-to-tiff-image-using-image-save-options/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# 使用 OneNote 中的图像保存选项保存到 TIFF 图像
+
 ## 介绍
 
 在本教程中，您将学习如何在 Aspose.Note for Java 中使用不同的压缩方法将文档保存为 TIFF 图像格式。我们将介绍先决条件、导入包，并为每种压缩方法提供分步指南。
@@ -121,3 +127,9 @@ A4: 是的，您可以调整质量、分辨率和压缩方法等参数，以根�
 ### Q5：Aspose.Note for Java 提供技术支持吗？
 
 A5：是的，Aspose 通过论坛和基于票证的系统提供全面的技术支持。
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

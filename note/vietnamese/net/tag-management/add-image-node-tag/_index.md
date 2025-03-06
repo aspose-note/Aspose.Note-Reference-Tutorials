@@ -3,10 +3,16 @@ title: Thêm nút hình ảnh có thẻ trong Aspose.Note
 linktitle: Thêm nút hình ảnh có thẻ trong Aspose.Note
 second_title: Aspose.Note .NET API
 description: Tìm hiểu cách nâng cao tài liệu OneNote của bạn bằng cách thêm hình ảnh có thẻ tùy chỉnh bằng Aspose.Note for .NET.
-type: docs
 weight: 10
 url: /vi/net/tag-management/add-image-node-tag/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Thêm nút hình ảnh có thẻ trong Aspose.Note
+
 ## Giới thiệu
 
 Trong hướng dẫn này, chúng ta sẽ khám phá cách thêm nút hình ảnh có thẻ bằng Aspose.Note cho .NET. Tính năng này cho phép bạn nâng cao tài liệu OneNote của mình bằng cách thêm hình ảnh bằng thẻ tùy chỉnh.
@@ -110,3 +116,9 @@ Câu trả lời 4: Aspose.Note chủ yếu hỗ trợ thêm hình ảnh từ c�
 ### Câu hỏi 5: Có bất kỳ hạn chế nào về kích thước hoặc định dạng của hình ảnh có thể được thêm vào không?
 
 Câu trả lời 5: Aspose.Note hỗ trợ nhiều định dạng hình ảnh và không đặt ra giới hạn nghiêm ngặt nào về kích thước hình ảnh, cho phép bạn kết hợp các hình ảnh đa dạng vào tài liệu của mình.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

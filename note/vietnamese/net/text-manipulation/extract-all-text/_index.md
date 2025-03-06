@@ -3,10 +3,16 @@ title: Hướng dẫn trích xuất văn bản cho OneNote bằng Aspose.Note
 linktitle: Trích xuất tất cả văn bản từ Aspose.Note
 second_title: Aspose.Note .NET API
 description: Dễ dàng trích xuất văn bản từ tài liệu Aspose.Note trong .NET với Aspose.Note for .NET. Hãy làm theo hướng dẫn từng bước của chúng tôi để tích hợp liền mạch.
-type: docs
 weight: 16
 url: /vi/net/text-manipulation/extract-all-text/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Hướng dẫn trích xuất văn bản cho OneNote bằng Aspose.Note
+
 ## Giới thiệu
 Bạn đang tìm cách trích xuất liền mạch văn bản từ tài liệu Aspose.Note của mình trong các ứng dụng .NET? Aspose.Note for .NET cung cấp một giải pháp mạnh mẽ để dễ dàng truy xuất văn bản từ các tệp Aspose.Note, đảm bảo tích hợp suôn sẻ vào các dự án của bạn. Trong hướng dẫn này, chúng tôi sẽ hướng dẫn từng bước quy trình, cho phép bạn khai thác sức mạnh của Aspose.Note để trích xuất văn bản hiệu quả.
 ## Điều kiện tiên quyết
@@ -55,3 +61,9 @@ Trả lời: Hoàn toàn có thể, bạn có toàn quyền kiểm soát định
 Trả lời: Không, Aspose.Note for .NET có thể xử lý các tài liệu có kích thước khác nhau mà không bị giới hạn.
 ### Câu hỏi: Có bất kỳ cân nhắc nào về hiệu suất khi trích xuất văn bản từ các tài liệu lớn không?
 Đáp: Aspose.Note for .NET được tối ưu hóa về hiệu suất, đảm bảo trích xuất văn bản hiệu quả ngay cả từ các tài liệu lớn.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

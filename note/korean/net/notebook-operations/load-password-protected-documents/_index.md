@@ -3,10 +3,16 @@ title: Aspose Note .NET에서 비밀번호로 보호된 문서 로드
 linktitle: Aspose Note .NET에서 비밀번호로 보호된 문서 로드
 second_title: Aspose.Note .NET API
 description: 간단한 단계를 통해 Aspose Note .NET에서 비밀번호로 보호된 문서를 안전하게 로드하는 방법을 알아보세요. 암호화를 통해 데이터 기밀성을 보장합니다.
-type: docs
 weight: 22
 url: /ko/net/notebook-operations/load-password-protected-documents/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Aspose Note .NET에서 비밀번호로 보호된 문서 로드
+
 ## 소개
 
 Aspose.Note for .NET은 개발자가 Microsoft OneNote 파일을 프로그래밍 방식으로 작업할 수 있게 해주는 강력한 API입니다. 이 튜토리얼에서는 .NET용 Aspose.Note를 사용하여 비밀번호로 보호된 문서를 로드하는 방법을 알아봅니다.
@@ -77,3 +83,9 @@ A4: 예, .NET용 Aspose.Note를 사용하여 노트북 내의 여러 하위 문�
 ### Q5: Aspose.Note for .NET에 사용할 수 있는 평가판이 있습니까?
 
  A5: 예, 다음에서 .NET용 Aspose.Note의 무료 평가판 버전에 액세스할 수 있습니다.[여기](https://releases.aspose.com/), 구매하기 전에 기능을 탐색할 수 있습니다.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

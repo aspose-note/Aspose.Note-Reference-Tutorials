@@ -3,10 +3,16 @@ title: إتقان تكامل OneNote مع Aspose.Note لـ .NET
 linktitle: التلاعب بالملاحظة
 second_title: Aspose.Note .NET API
 description: أطلق العنان لقوة Aspose.Note لـ .NET من خلال برامجنا التعليمية التي تركز على OneNote. حل التعارضات، وإنشاء مستندات ديناميكية، واستكشاف المعالجة الفعالة للصفحات.
-type: docs
 weight: 27
 url: /ar/net/note-manipulation/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# إتقان تكامل OneNote مع Aspose.Note لـ .NET
+
 
 ## مقدمة
 
@@ -69,3 +75,9 @@ url: /ar/net/note-manipulation/
 تعرف على كيفية تعيين لون خلفية الصفحات في Aspose.Note المستندات باستخدام لغة البرمجة C# مع دليل خطوة بخطوة.
 ### [العمل مع مراجعات الصفحة - نصائح Aspose.Note](./working-with-page-revisions/)
 تعلم كيفية إدارة مراجعات صفحة Microsoft OneNote باستخدام Aspose.Note. دليل خطوة بخطوة للتكامل السلس والتحكم في الإصدار في تطبيقات .NET الخاصة بك.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

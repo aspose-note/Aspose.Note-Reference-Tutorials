@@ -3,10 +3,16 @@ title: แยกเนื้อหาใน Aspose.Note
 linktitle: แยกเนื้อหาใน Aspose.Note
 second_title: Aspose.Note .NET API
 description: เรียนรู้วิธีแยกเนื้อหาจากเอกสาร Aspose.Note โดยใช้ Aspose.Note สำหรับ .NET บทช่วยสอนที่ครอบคลุมนี้จะแนะนำคุณตลอดกระบวนการทีละขั้นตอน
-type: docs
 weight: 15
 url: /th/net/loading-and-saving-operations/extract-content/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# แยกเนื้อหาใน Aspose.Note
+
 ## การแนะนำ
 
 ในบทช่วยสอนนี้ เราจะสำรวจวิธีแยกเนื้อหาจากเอกสาร Aspose.Note โดยใช้ Aspose.Note สำหรับ .NET Aspose.Note เป็นไลบรารีอันทรงพลังที่ช่วยให้คุณทำงานกับไฟล์ Microsoft OneNote โดยทางโปรแกรม เราจะอธิบายกระบวนการทีละขั้นตอน โดยแบ่งแต่ละตัวอย่างออกเป็นหลายขั้นตอนเพื่อให้มั่นใจในความชัดเจนและความเข้าใจ
@@ -133,3 +139,9 @@ A4: ใช่ Aspose.Note รองรับการแปลงเป็นร
 ### คำถามที่ 5: มีการสนับสนุนทางเทคนิคสำหรับผู้ใช้ Aspose.Note หรือไม่
 
 A5: ใช่ Aspose ให้การสนับสนุนทางเทคนิคโดยเฉพาะผ่านทางฟอรัมเพื่อช่วยเหลือผู้ใช้ในประเด็นหรือข้อสงสัยใดๆ
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

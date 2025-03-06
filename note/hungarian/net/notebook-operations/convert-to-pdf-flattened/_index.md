@@ -3,10 +3,16 @@ title: Jegyzetfüzetek konvertálása PDF formátumba (lapított) az Aspose Note
 linktitle: Jegyzetfüzetek konvertálása PDF formátumba (lapított) az Aspose Note .NET-ben
 second_title: Aspose.Note .NET API
 description: Ismerje meg, hogyan konvertálhat könnyedén OneNote-jegyzetfüzeteket lapos PDF-fájlokká az Aspose.Note for .NET segítségével. Zökkenőmentesen őrizze meg tartalmát.
-type: docs
 weight: 15
 url: /hu/net/notebook-operations/convert-to-pdf-flattened/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Jegyzetfüzetek konvertálása PDF formátumba (lapított) az Aspose Note .NET-ben
+
 ## Bevezetés
 
 Az Aspose Note .NET segítségével szeretné átalakítani a OneNote-jegyzetfüzeteket lapos PDF-fájlokká? Jó helyen jársz! Ebben az oktatóanyagban lépésről lépésre végigjárjuk a folyamatot.
@@ -91,3 +97,9 @@ A3: Abszolút! Az Aspose.Note széles körű testreszabási lehetőségeket kín
 ### 5. kérdés: Hol kaphatok támogatást, ha problémákba ütközöm?
 
  5. válasz: Kérhet támogatást az Aspose közösségtől a címen[Aspose.Note fórumok](https://forum.aspose.com/c/note/28).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

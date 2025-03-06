@@ -3,10 +3,16 @@ title: Zapisz w obrazie w skali szarości w programie OneNote — Aspose.Note
 linktitle: Zapisz w obrazie w skali szarości w programie OneNote — Aspose.Note
 second_title: Aspose.Note API Java
 description: Dowiedz się, jak zapisać dokument jako obraz w skali szarości w programie OneNote przy użyciu programu Aspose.Note dla języka Java. Z łatwością programowo manipuluj dokumentami Microsoft OneNote.
-type: docs
 weight: 17
 url: /pl/java/onenote-document-saving/save-to-grayscale-image/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Zapisz w obrazie w skali szarości w programie OneNote — Aspose.Note
+
 ## Wstęp
 
 W tym samouczku omówimy, jak zapisać dokument jako obraz w skali szarości w programie OneNote przy użyciu programu Aspose.Note dla języka Java. Obrazy w skali szarości to obrazy monochromatyczne, w których informacja o kolorze jest reprezentowana jedynie przez odcienie szarości. Aspose.Note to potężny interfejs API Java, który umożliwia programową manipulację dokumentami Microsoft OneNote.
@@ -83,3 +89,9 @@ A4: Absolutnie! Aspose.Note zapewnia szeroką gamę funkcji do programowej edycj
 ### P5: Gdzie mogę znaleźć pomoc, jeśli napotkam problemy?
 
 O5: Możesz znaleźć pomoc na forum Aspose.Note[Tutaj](https://forum.aspose.com/c/note/28).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -3,10 +3,16 @@ title: Dapatkan Informasi Gambar di Aspose.Note
 linktitle: Dapatkan Informasi Gambar di Aspose.Note
 second_title: Aspose.Catatan .NET API
 description: Pelajari cara mengekstrak informasi gambar dari file Microsoft OneNote menggunakan Aspose.Note untuk .NET. Ikuti panduan langkah demi langkah kami untuk pengembangan yang efisien.
-type: docs
 weight: 13
 url: /id/net/images/get-info-of-images/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Dapatkan Informasi Gambar di Aspose.Note
+
 ## Perkenalan
 
 Dalam dunia pengembangan .NET, Aspose.Note menyediakan seperangkat alat canggih untuk bekerja dengan file Microsoft OneNote. Salah satu tugas umum yang sering dihadapi pengembang adalah mengekstraksi informasi dari gambar yang tertanam dalam catatan ini. Baik itu perolehan dimensi, nama file, atau waktu modifikasi, Aspose.Note menyederhanakan proses ini.
@@ -98,3 +104,9 @@ A4: Ya, Anda dapat mengakses uji coba gratis Aspose.Note untuk menjelajahi fitur
 ### Q5: Di mana saya dapat menemukan dukungan atau bantuan tambahan dengan Aspose.Note?
 
 A5: Untuk pertanyaan atau bantuan apa pun, Anda dapat mengunjungi forum Aspose.Note[Di Sini](https://forum.aspose.com/c/note/28).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

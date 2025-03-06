@@ -3,10 +3,16 @@ title: Simpan Rentang Halaman sebagai PDF di Aspose.Note
 linktitle: Simpan Rentang Halaman sebagai PDF di Aspose.Note
 second_title: Aspose.Catatan .NET API
 description: Pelajari cara menyimpan berbagai halaman dari dokumen OneNote sebagai file PDF menggunakan Aspose.Note untuk .NET. Tutorial langkah demi langkah disertakan.
-type: docs
 weight: 21
 url: /id/net/loading-and-saving-operations/save-range-pages-as-pdf/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Simpan Rentang Halaman sebagai PDF di Aspose.Note
+
 ## Perkenalan
 
 Dalam bidang pengembangan .NET, Aspose.Note menonjol sebagai alat serbaguna untuk menangani dokumen OneNote dengan mudah dan efisien. Di antara banyaknya fiturnya, salah satu fungsi yang paling dicari adalah kemampuan untuk menyimpan berbagai halaman sebagai file PDF. Tutorial ini akan memandu Anda melalui proses langkah demi langkah, memastikan bahwa Anda dapat mengintegrasikan kemampuan ini ke dalam proyek Anda dengan lancar.
@@ -99,3 +105,9 @@ A4: Tentu saja! Aspose.Note menawarkan opsi ekstensif untuk menyesuaikan tampila
 ### Q5: Di mana saya dapat menemukan dukungan dan sumber daya tambahan untuk Aspose.Note?
 
  A5: Untuk dukungan tambahan, dokumentasi, dan interaksi komunitas, Anda dapat mengunjungi[Aspose.Catatan Forum](https://forum.aspose.com/c/note/28).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

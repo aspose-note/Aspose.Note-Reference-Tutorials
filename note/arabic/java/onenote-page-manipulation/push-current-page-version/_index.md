@@ -3,10 +3,16 @@ title: دفع إصدار الصفحة الحالية في OneNote - Aspose.Note
 linktitle: دفع إصدار الصفحة الحالية في OneNote - Aspose.Note
 second_title: Aspose.Note جافا API
 description: حافظ على تحديث محتوى OneNote! تعرف على كيفية تحديث سجل الصفحة وإدارة الإصدارات، ويتضمن الدليل خطوة بخطوة والتعليمات البرمجية. #OneNote #Java #Aspose
-type: docs
 weight: 18
 url: /ar/java/onenote-page-manipulation/push-current-page-version/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# دفع إصدار الصفحة الحالية في OneNote - Aspose.Note
+
 ## مقدمة
 
 في هذا البرنامج التعليمي، سنستكشف كيفية استخدام Aspose.Note لـ Java لدفع إصدار الصفحة الحالي في OneNote. Aspose.Note هي مكتبة Java قوية تتيح للمطورين العمل مع مستندات Microsoft OneNote برمجيًا، مما يتيح عمليات متنوعة مثل إنشاء ملفات OneNote ومعالجتها وتحويلها.
@@ -90,3 +96,9 @@ document.save(dataDir + "PushCurrentPageVersion_out.one");
 ### س5: أين يمكنني الحصول على دعم Aspose.Note لـ Java إذا واجهت أية مشكلات؟
 
  ج5: يمكنك زيارة[منتدى Aspose.Note](https://forum.aspose.com/c/note/28) لطلب المساعدة من المجتمع أو الاتصال بدعم Aspose مباشرة.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

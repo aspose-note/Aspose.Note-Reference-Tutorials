@@ -3,10 +3,16 @@ title: Enregistrer en utilisant les polices spécifiées dans Aspose.Note
 linktitle: Enregistrer en utilisant les polices spécifiées dans Aspose.Note
 second_title: API Aspose.Note .NET
 description: Découvrez comment enregistrer des documents avec les polices spécifiées dans Aspose.Note pour .NET. Personnalisez facilement les paramètres de police pour un formatage cohérent des documents.
-type: docs
 weight: 28
 url: /fr/net/loading-and-saving-operations/save-using-specified-fonts/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Enregistrer en utilisant les polices spécifiées dans Aspose.Note
+
 ## Introduction
 
 Dans ce didacticiel, nous apprendrons comment enregistrer des documents en utilisant les polices spécifiées dans Aspose.Note pour .NET. Nous explorerons différentes méthodes pour y parvenir, étape par étape.
@@ -131,3 +137,9 @@ A4 : Oui, Aspose.Note permet d'intégrer des polices pour garantir la portabili
 ### Q5 : Où puis-je obtenir de l'aide supplémentaire concernant Aspose.Note ?
 
  A5 : Pour une assistance supplémentaire ou un support technique, vous pouvez visiter le[Forum Aspose.Note](https://forum.aspose.com/c/note/28).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

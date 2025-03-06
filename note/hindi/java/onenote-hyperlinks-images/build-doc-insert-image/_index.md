@@ -3,10 +3,16 @@ title: जावा का उपयोग करके OneNote में दस
 linktitle: जावा का उपयोग करके OneNote में दस्तावेज़ बनाएँ और छवि सम्मिलित करें
 second_title: Aspose.नोट जावा एपीआई
 description: जावा के लिए Aspose.Note का उपयोग करके OneNote दस्तावेज़ बनाने और छवियाँ सम्मिलित करने का तरीका जानें। निर्बाध एकीकरण के लिए चरण-दर-चरण ट्यूटोरियल।
-type: docs
 weight: 12
 url: /hi/java/onenote-hyperlinks-images/build-doc-insert-image/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# जावा का उपयोग करके OneNote में दस्तावेज़ बनाएँ और छवि सम्मिलित करें
+
 ## परिचय
 
 इस ट्यूटोरियल में, हम देखेंगे कि OneNote दस्तावेज़ बनाने और उनमें छवियां सम्मिलित करने के लिए जावा के लिए Aspose.Note का उपयोग कैसे करें। Aspose.Note एक शक्तिशाली जावा एपीआई है जो डेवलपर्स को Microsoft OneNote फ़ाइलों के साथ प्रोग्रामेटिक रूप से काम करने में सक्षम बनाता है। प्रक्रिया में आपका मार्गदर्शन करने के लिए हम प्रत्येक चरण का विस्तार से वर्णन करेंगे।
@@ -119,3 +125,10 @@ try {
 ### Q5: क्या मैं जावा के लिए Aspose.Note के लिए अस्थायी लाइसेंस प्राप्त कर सकता हूँ?
 
  A5: हाँ, आप अस्थायी लाइसेंस का अनुरोध कर सकते हैं[यहाँ](https://purchase.aspose.com/temporary-license/).
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

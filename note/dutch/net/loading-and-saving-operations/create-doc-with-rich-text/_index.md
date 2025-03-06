@@ -3,10 +3,16 @@ title: Maak een document met opgemaakte tekst in Aspose.Note
 linktitle: Maak een document met opgemaakte tekst in Aspose.Note
 second_title: Aspose.Note .NET API
 description: Leer hoe u programmatisch rich-text-documenten kunt maken met Aspose.Note voor .NET. Stapsgewijze handleiding met codevoorbeelden.
-type: docs
 weight: 12
 url: /nl/net/loading-and-saving-operations/create-doc-with-rich-text/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Maak een document met opgemaakte tekst in Aspose.Note
+
 ## Invoering
 
 Op het gebied van .NET-ontwikkeling onderscheidt Aspose.Note zich als een krachtig hulpmiddel voor het programmatisch verwerken van Microsoft OneNote-bestanden. Of u nu het maken van documenten wilt automatiseren of bestaande notities wilt manipuleren, Aspose.Note voorziet ontwikkelaars van een uitgebreide reeks functies. Een van deze mogelijkheden is de mogelijkheid om rich-text-documenten te genereren, compleet met verschillende opmaakopties. In deze zelfstudie verdiepen we ons stap voor stap in het proces van het maken van dergelijke documenten met Aspose.Note voor .NET.
@@ -170,3 +176,9 @@ A4: Aspose.Note richt zich primair op lokale documentverwerking, maar biedt API'
 ### V5: Waar kan ik meer bronnen en ondersteuning voor Aspose.Note vinden?
 
  A5: U kunt de verkennen[Aspose.Note-forum](https://forum.aspose.com/c/note/28) voor gemeenschapsondersteuning en toegang tot documentatie over de[website](https://reference.aspose.com/note/net/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

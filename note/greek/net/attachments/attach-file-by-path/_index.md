@@ -3,10 +3,16 @@ title: Επισύναψη αρχείου ανά διαδρομή στο Aspose.N
 linktitle: Επισύναψη αρχείου ανά διαδρομή στο Aspose.Note
 second_title: Aspose.Note .NET API
 description: Μάθετε πώς να επισυνάπτετε αρχεία σε έγγραφα του Microsoft OneNote μέσω προγραμματισμού χρησιμοποιώντας το Aspose.Note για .NET. Απλοποιήστε τη διαδικασία ανάπτυξής σας με αυτό το ολοκληρωμένο σεμινάριο.
-type: docs
 weight: 11
 url: /el/net/attachments/attach-file-by-path/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Επισύναψη αρχείου ανά διαδρομή στο Aspose.Note
+
 ## Εισαγωγή
 
 Το Aspose.Note για .NET είναι μια ισχυρή βιβλιοθήκη που επιτρέπει στους προγραμματιστές να εργάζονται με αρχεία Microsoft OneNote μέσω προγραμματισμού. Είτε θέλετε να δημιουργήσετε, να επεξεργαστείτε, να μετατρέψετε ή να χειριστείτε έγγραφα OneNote, το Aspose.Note για .NET παρέχει ολοκληρωμένη λειτουργικότητα για τον εξορθολογισμό της διαδικασίας ανάπτυξής σας.
@@ -147,3 +153,9 @@ A3: Ναι, πρέπει να αποκτήσετε άδεια για εμπορ�
 ### Ε5: Πού μπορώ να αναζητήσω υποστήριξη για το Aspose.Note για .NET;
 
  A5: Μπορείτε να αναζητήσετε υποστήριξη από τα φόρουμ κοινότητας Aspose.Note[εδώ](https://forum.aspose.com/c/note/28).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

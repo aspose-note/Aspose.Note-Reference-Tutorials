@@ -3,10 +3,16 @@ title: Manipolazione della pagina OneNote
 linktitle: Manipolazione della pagina OneNote
 second_title: Aspose.Note API Java
 description: Gestisci le pagine di conflitto, crea documenti organizzati e tieni traccia delle revisioni in OneNote utilizzando Aspose.Note per Java. Tutorial passo passo per una gestione efficiente dei documenti.
-type: docs
 weight: 29
 url: /it/java/onenote-page-manipulation/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Manipolazione della pagina OneNote
+
 
 ## introduzione
 
@@ -74,3 +80,9 @@ Scopri come ripristinare le versioni precedenti della pagina in OneNote utilizza
 Scopri come impostare facilmente il colore di sfondo della pagina in OneNote utilizzando Aspose.Note per Java. Migliora l'impatto visivo dei tuoi documenti con questo semplice tutorial.
 ### [Lavorare con le revisioni delle pagine in OneNote - Aspose.Note](./working-with-page-revisions/)
 Scopri come gestire le revisioni delle pagine nei documenti OneNote utilizzando Aspose.Note per Java. Questo tutorial fornisce una guida passo passo per un monitoraggio e una collaborazione efficaci delle revisioni.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

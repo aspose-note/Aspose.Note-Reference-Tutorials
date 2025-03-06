@@ -3,10 +3,16 @@ title: Använd Keep Solid Objects Algorithm i OneNote - Aspose.Note
 linktitle: Använd Keep Solid Objects Algorithm i OneNote - Aspose.Note
 second_title: Aspose.Note Java API
 description: Lär dig hur du bevarar solida objekt i dina Aspose.Note-dokument när du konverterar till PDF med hjälp av Keep Solid Objects Algorithm i Java.
-type: docs
 weight: 25
 url: /sv/java/onenote-document-saving/use-keep-solid-objects-algorithm/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Använd Keep Solid Objects Algorithm i OneNote - Aspose.Note
+
 ## Introduktion
 
 den här handledningen kommer vi att utforska hur man använder Keep Solid Objects-algoritmen i Aspose.Note för Java. Denna algoritm är ovärderlig för att upprätthålla integriteten hos solida objekt i dina dokument när du konverterar dem till PDF-format. Vi kommer att bryta ner processen steg för steg, för att säkerställa klarhet och förståelse i varje steg.
@@ -93,3 +99,10 @@ I den här handledningen har vi lärt oss hur man använder Keep Solid Objects-a
 ### F5: Var kan jag köpa en licens?
 
  S5: Du kan köpa en licens för Aspose.Note för Java[här](https://purchase.aspose.com/buy).
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

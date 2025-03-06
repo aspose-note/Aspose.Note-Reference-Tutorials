@@ -3,10 +3,16 @@ title: OneNote에서 지정된 글꼴 하위 시스템을 사용하여 저장
 linktitle: OneNote에서 지정된 글꼴 하위 시스템을 사용하여 저장
 second_title: Aspose.Note 자바 API
 description: Aspose.Note를 사용하여 Java에서 지정된 글꼴 하위 시스템을 사용하여 OneNote 문서를 저장하는 방법을 알아보세요. 플랫폼 전체에서 손쉽게 일관된 글꼴 표현을 보장합니다.
-type: docs
 weight: 22
 url: /ko/java/onenote-document-saving/save-using-specified-fonts-subsystem/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# OneNote에서 지정된 글꼴 하위 시스템을 사용하여 저장
+
 ## 소개
 
 Aspose.Note for Java는 OneNote 문서 작업을 위한 강력한 기능을 제공합니다. 이러한 문서 작업 시 일반적인 요구 사항 중 하나는 특히 문서를 PDF와 같은 다른 형식으로 내보내거나 저장하는 경우 글꼴이 제대로 유지되는지 확인하는 것입니다. 이 튜토리얼은 글꼴 하위 시스템을 지정하면서 OneNote 문서를 저장하는 과정을 안내하여 다양한 플랫폼에서 텍스트를 일관되고 정확하게 표현하도록 합니다.
@@ -152,3 +158,9 @@ A4: 예, Aspose.Note for Java를 사용하여 크기, 스타일, 색상과 같�
 ### Q5: Aspose.Note for Java에 사용할 수 있는 평가판이 있나요?
 
 A5: 예, 웹사이트에서 Aspose.Note for Java의 무료 평가판을 받을 수 있습니다.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

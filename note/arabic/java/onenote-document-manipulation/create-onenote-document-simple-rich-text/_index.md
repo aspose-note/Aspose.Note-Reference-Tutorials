@@ -3,10 +3,16 @@ title: إنشاء مستند OneNote بنص منسق بسيط في Java
 linktitle: إنشاء مستند OneNote بنص منسق بسيط في Java
 second_title: Aspose.Note جافا API
 description: تعرف على كيفية إنشاء مستندات OneNote بنص منسق باستخدام Aspose.Note Java. قم بدمج هذه الوظيفة في تطبيقات Java الخاصة بك لإدارة المستندات بكفاءة.
-type: docs
 weight: 12
 url: /ar/java/onenote-document-manipulation/create-onenote-document-simple-rich-text/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# إنشاء مستند OneNote بنص منسق بسيط في Java
+
 ## مقدمة
 
 في العصر الرقمي الحالي، أصبحت الحاجة إلى إدارة المستندات ومعالجتها بكفاءة أمرًا بالغ الأهمية. يظهر Aspose.Note for Java كأداة قوية تتيح للمطورين العمل بسلاسة مع مستندات OneNote داخل تطبيقات Java. يهدف هذا البرنامج التعليمي إلى توفير دليل شامل حول إنشاء مستندات OneNote بنص منسق بسيط باستخدام Aspose.Note لـ Java.
@@ -164,3 +170,9 @@ doc.save(dataDir + "CreateOneNoteDocumentWithSimpleRichText_out.pdf", SaveFormat
 ### س5: هل يوفر Aspose.Note for Java وثائق ودعمًا شاملين؟
 
  ج5: بالتأكيد، يمكنك العثور على الوثائق التفصيلية والدعم المخصص لـ Aspose.Note لـ Java على الموقع[منتدى الدعم](https://forum.aspose.com/c/note/28).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

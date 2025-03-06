@@ -3,10 +3,16 @@ title: تحويل مستند OneNote إلى PDF - جافا
 linktitle: تحويل مستند OneNote إلى PDF - جافا
 second_title: Aspose.Note جافا API
 description: تعرف على كيفية تحويل مستندات OneNote إلى PDF باستخدام Aspose.Note لـ Java. عزز قدرات معالجة المستندات لديك باستخدام هذا الدليل المفصّل خطوة بخطوة.
-type: docs
 weight: 16
 url: /ar/java/onenote-document-loading/convert-to-pdf/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# تحويل مستند OneNote إلى PDF - جافا
+
 ## مقدمة
 
 في هذا البرنامج التعليمي، سنستكشف كيفية تحويل مستندات OneNote إلى PDF باستخدام Aspose.Note لـ Java. Aspose.Note هي مكتبة Java قوية تسمح بالمعالجة السلسة لملفات OneNote، وتوفر وظائف متنوعة للعمل مع عناصر مختلفة داخل هذه المستندات. أحد المتطلبات الشائعة هو تحويل هذه الملفات إلى تنسيق PDF، وهو ما يمكن تحقيقه بسهولة باستخدام Aspose.Note.
@@ -105,3 +111,9 @@ System.out.println("File saved: " + dataDir + "ConvertToPdf_out.pdf");
 ### س5: هل يمكنني تجربة Aspose.Note قبل الشراء؟
 
 ج5: نعم، يمكنك طلب نسخة تجريبية مجانية من Aspose.Note من[هنا](https://releases.aspose.com/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

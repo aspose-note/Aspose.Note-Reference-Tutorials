@@ -3,10 +3,16 @@ title: OneNote의 페이지 설정을 사용하여 PDF로 저장 - Aspose.Note
 linktitle: OneNote의 페이지 설정을 사용하여 PDF로 저장 - Aspose.Note
 second_title: Aspose.Note 자바 API
 description: Aspose.Note 라이브러리를 사용하여 Java에서 OneNote 문서를 PDF로 저장하는 방법을 알아보세요. 다양한 페이지 설정에 대한 코드 예제가 포함된 단계별 가이드입니다.
-type: docs
 weight: 19
 url: /ko/java/onenote-document-saving/save-to-pdf-using-page-settings/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# OneNote의 페이지 설정을 사용하여 PDF로 저장 - Aspose.Note
+
 ## 소개
 
 이 튜토리얼에서는 Aspose.Note for Java의 다양한 페이지 설정을 사용하여 OneNote 문서를 PDF 형식으로 저장하는 방법을 알아봅니다. Letter 페이지 설정으로 저장하는 방법과 높이 제한 없이 A4 페이지 설정으로 저장하는 두 가지 방법을 다루겠습니다.
@@ -112,3 +118,9 @@ A4: 예, Aspose.Note for Java를 사용하여 여러 OneNote 파일을 일괄 �
 ### Q5: 테스트 목적으로 사용할 수 있는 평가판이 있습니까?
 
 A5: 예, 웹사이트에서 Aspose.Note for Java의 무료 평가판을 받을 수 있습니다.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

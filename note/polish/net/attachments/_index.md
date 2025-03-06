@@ -3,10 +3,16 @@ title: Załączniki i pobieranie plików w dokumentach programu OneNote
 linktitle: Załączniki
 second_title: Aspose.Note .NET API
 description: Ulepsz swoje aplikacje .NET dzięki Aspose.Note! Zapoznaj się z samouczkami dotyczącymi dołączania plików, ustawiania ikon i pobierania załączników w celu usprawnienia programowania.
-type: docs
 weight: 21
 url: /pl/net/attachments/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Załączniki i pobieranie plików w dokumentach programu OneNote
+
 ## Wstęp
 
 Czy jesteś gotowy, aby przenieść swoje aplikacje .NET na wyższy poziom? Zanurz się w świecie Aspose.Note i odblokuj królestwo możliwości. Ta obszerna lista samouczków poprowadzi Cię przez najważniejsze funkcje, skupiając się na dołączaniu plików, ustawianiu ikon i bezproblemowym pobieraniu załączonych plików.
@@ -37,3 +43,9 @@ Dowiedz się, jak dołączać pliki i ustawiać ikony w Aspose.Note dla .NET. Ul
 Dowiedz się, jak programowo dołączać pliki do dokumentów Microsoft OneNote przy użyciu Aspose.Note dla .NET. Uprość proces programowania dzięki temu wszechstronnemu samouczkowi.
 ### [Odzyskaj załączone pliki za pomocą Aspose.Note](./retrieve-attached-files/)
 Dowiedz się, jak odzyskać załączone pliki z dokumentów Microsoft OneNote przy użyciu Aspose.Note dla .NET. Postępuj zgodnie z instrukcjami, aby załadować, pobrać węzły i przeglądać załączniki.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

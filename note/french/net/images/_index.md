@@ -3,10 +3,16 @@ title: Maîtriser la manipulation d'images OneNote
 linktitle: Images
 second_title: API Aspose.Note .NET
 description: Explorez le monde de la manipulation de documents OneNote avec les didacticiels Aspose.Note pour .NET sur la gestion transparente des images. Élevez votre contenu visuel sans effort.
-type: docs
 weight: 23
 url: /fr/net/images/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Maîtriser la manipulation d'images OneNote
+
 ## Introduction
 
 Êtes-vous prêt à améliorer vos compétences en manipulation de documents OneNote ? Plongez dans nos didacticiels complets sur Aspose.Note pour .NET, en vous concentrant sur le monde complexe de la gestion des images. De l'insertion d'images par programmation à l'extraction d'informations visuelles précieuses, nous avons ce qu'il vous faut.
@@ -48,3 +54,9 @@ Découvrez comment ajouter facilement du texte alternatif aux images dans Aspose
 Apprenez à insérer des images avec des hyperliens dans Aspose.Note pour .NET sans effort. Améliorez l’interactivité des documents avec des images cliquables.
 ### [Insérer des images dans des documents Aspose.Note](./insert-images/)
 Découvrez comment insérer de manière transparente des images dans des documents Aspose.Note à l'aide de .NET pour un contenu visuel amélioré. Suivez notre guide étape par étape pour une intégration facile.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

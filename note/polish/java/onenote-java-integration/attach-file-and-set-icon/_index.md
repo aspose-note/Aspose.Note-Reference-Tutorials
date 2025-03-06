@@ -3,10 +3,16 @@ title: Dołącz plik i ustaw ikonę w programie OneNote przy użyciu języka Jav
 linktitle: Dołącz plik i ustaw ikonę w programie OneNote przy użyciu języka Java
 second_title: Aspose.Note API Java
 description: Usprawnij przepływ pracy w programie OneNote! Dowiedz się, jak dołączać pliki i programowo dostosowywać ikony w Javie za pomocą Aspose.Note. Łatwe kroki i kod w zestawie! #OneNote #Java #Aspose
-type: docs
 weight: 10
 url: /pl/java/onenote-java-integration/attach-file-and-set-icon/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Dołącz plik i ustaw ikonę w programie OneNote przy użyciu języka Java
+
 ## Wstęp
 
 OneNote to popularne narzędzie do robienia notatek i organizowania informacji. Za pomocą Aspose.Note dla języka Java możesz zwiększyć jego możliwości, programowo dołączając pliki i ustawiając ikony, aby poprawić wizualną reprezentację notatek. W tym samouczku przeprowadzimy Cię przez ten proces krok po kroku.
@@ -149,3 +155,10 @@ Odpowiedź 3: Oczywiście możesz wybrać niestandardowe ikony reprezentujące r
 ### P5: Czy dostępna jest wersja próbna Aspose.Note dla Java?
 
 Odpowiedź 5: Tak, możesz poznać funkcjonalność Aspose.Note dla Java w ramach bezpłatnej wersji próbnej dostępnej pod adresem[ten link](https://releases.aspose.com/).
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

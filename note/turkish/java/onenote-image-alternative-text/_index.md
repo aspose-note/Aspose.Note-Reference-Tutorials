@@ -3,10 +3,16 @@ title: OneNote Görüntüsü Alternatif Metin
 linktitle: OneNote Görüntüsü Alternatif Metin
 second_title: Aspose.Note Java API'si
 description: Aspose.Note ile Java kullanarak OneNote görüntülerinin erişilebilirliğini geliştirmeyi öğrenin. Kapsayıcılığı artırmak ve kullanıcı deneyimini geliştirmek için alternatif metni zahmetsizce ekleyin.
-type: docs
 weight: 23
 url: /tr/java/onenote-image-alternative-text/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# OneNote Görüntüsü Alternatif Metin
+
 ## giriiş
 
 Dijital ortamda gezinmek erişilebilirlik konusunda kararlı olmayı gerektirir ve OneNote kullanıcıları da istisna değildir. Bu eğitim serisinde, belgenizin erişilebilirliğini artırmak için Java ve Aspose.Note'un gücünü gösteren OneNote görüntü alternatif metni dünyasını derinlemesine inceliyoruz.
@@ -32,3 +38,9 @@ OneNote görsel alternatif metni alanında Java ve Aspose.Note güçlü müttefi
 ## OneNote Görüntüsü Alternatif Metin Eğitimleri
 ### [Java kullanarak OneNote'ta Resme Alternatif Metin Ekleme](./add-alternative-text-to-image/)
 Aspose.Note ile Java kullanarak, erişilebilirliği ve kapsayıcılığı geliştirerek OneNote belgelerindeki görsellere nasıl alternatif metin ekleyeceğinizi öğrenin.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -3,10 +3,16 @@ title: استرداد الملفات المرفقة مع Aspose.Note
 linktitle: استرداد الملفات المرفقة مع Aspose.Note
 second_title: Aspose.Note .NET API
 description: تعرف على كيفية استرداد الملفات المرفقة من مستندات Microsoft OneNote باستخدام Aspose.Note لـ .NET. اتبع خطوات التحميل والحصول على العقد والتكرار عبر المرفقات.
-type: docs
 weight: 12
 url: /ar/net/attachments/retrieve-attached-files/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# استرداد الملفات المرفقة مع Aspose.Note
+
 ## مقدمة
 
 في هذا البرنامج التعليمي، سوف نستكشف كيفية استرداد الملفات المرفقة من مستند باستخدام Aspose.Note لـ .NET. Aspose.Note عبارة عن واجهة برمجة تطبيقات قوية تتيح للمطورين العمل مع ملفات Microsoft OneNote برمجيًا. سنقوم بتقسيم العملية إلى خطوات بسيطة لتسهيل متابعتها.
@@ -90,3 +96,9 @@ foreach (AttachedFile file in nodes)
 ### س5: كيف يمكنني الحصول على ترخيص مؤقت لـ Aspose.Note؟
 
 ج5: يمكنك طلب ترخيص مؤقت من Aspose لتقييم الإمكانات الكاملة لواجهة برمجة التطبيقات (API) في بيئة التطوير الخاصة بك.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

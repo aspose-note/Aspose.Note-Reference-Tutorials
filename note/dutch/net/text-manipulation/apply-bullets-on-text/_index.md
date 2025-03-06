@@ -3,10 +3,16 @@ title: Pas opsommingstekens toe op tekst in Aspose.Note
 linktitle: Pas opsommingstekens toe op tekst in Aspose.Note
 second_title: Aspose.Note .NET API
 description: Leer hoe u opsommingstekens op tekst kunt toepassen in Aspose.Note voor .NET om uw OneNote-documenten te verbeteren. Volg deze stapsgewijze handleiding voor effectieve opmaak.
-type: docs
 weight: 10
 url: /nl/net/text-manipulation/apply-bullets-on-text/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Pas opsommingstekens toe op tekst in Aspose.Note
+
 ## Invoering
 Welkom bij deze stapsgewijze handleiding voor het toepassen van opsommingstekens op tekst met Aspose.Note voor .NET. Aspose.Note is een krachtige bibliotheek waarmee ontwikkelaars naadloos kunnen werken met Microsoft OneNote-bestanden in hun .NET-toepassingen. In deze zelfstudie begeleiden we u bij het toepassen van opsommingstekens op tekst, waardoor de visuele aantrekkingskracht van uw OneNote-documenten wordt vergroot.
 ## Vereisten
@@ -86,3 +92,9 @@ Aspose.Note ondersteunt verschillende versies van Microsoft OneNote, waardoor co
  Ja, u kunt een gratis proefversie downloaden[hier](https://releases.aspose.com/).
 ### Waar kan ik aanvullende ondersteuning en hulpmiddelen vinden?
  U kunt het Aspose.Note-communityforum bezoeken[hier](https://forum.aspose.com/c/note/28) voor ondersteuning en discussies.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

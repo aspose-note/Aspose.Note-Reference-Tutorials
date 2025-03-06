@@ -3,10 +3,16 @@ title: 在Aspose.Note中使用图像流插入图像
 linktitle: 在Aspose.Note中使用图像流插入图像
 second_title: Aspose.Note .NET API
 description: 了解如何使用 .NET 中的图像流将图像无缝插入到 Aspose.Note 文档中。轻松通过视觉效果增强您的 Note 文件。
-type: docs
 weight: 11
 url: /zh/net/images/insert-image-using-image-stream/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# 在Aspose.Note中使用图像流插入图像
+
 ## 介绍
 
 在本教程中，我们将探讨如何使用 .NET 中的图像流将图像插入到 Aspose.Note 文档中。 Aspose.Note 是一个功能强大的 API，允许开发人员以编程方式使用 Microsoft OneNote 文件。通过遵循本指南中概述的步骤，您将了解如何将图像无缝集成到 Note 文档中，从而增强其视觉吸引力和整体功能。
@@ -120,3 +126,9 @@ A4：Aspose.Note for .NET 与.NET 框架的多个版本兼容，确保跨不同�
 ### Q5：在哪里可以找到 Aspose.Note 的其他资源和支持？
 
  A5：您可以在 Aspose.Note 上找到全面的文档、论坛和支持[Aspose论坛](https://forum.aspose.com/c/note/28).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

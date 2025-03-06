@@ -3,10 +3,16 @@ title: Используйте метод алгоритма разделения
 linktitle: Используйте метод алгоритма разделения в OneNote — Aspose.Note
 second_title: Aspose.Note Java API
 description: Освойте разделение документов OneNote на Java с помощью Aspose.Note! Выбирайте алгоритмы, управляйте разрывами страниц и легко сохраняйте в формате PDF. Код включен! #OneNote #Java #Aspose
-type: docs
 weight: 26
 url: /ru/java/onenote-document-saving/use-splitting-algorithm-method/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Используйте метод алгоритма разделения в OneNote — Aspose.Note
+
 ## Введение
 
 В этом уроке мы углубимся в использование метода алгоритма разделения в Aspose.Note для Java. Aspose.Note — мощная библиотека, которая позволяет разработчикам программно работать с файлами Microsoft OneNote. Использование алгоритма разделения может быть особенно полезно, когда вам нужно манипулировать документами OneNote и экспортировать их, особенно при работе со сложными макетами или большими файлами.
@@ -101,3 +107,9 @@ try {
 ### Вопрос 5: Как я могу получить временную лицензию для Aspose.Note?
 
  A5: Вы можете запросить[временная лицензия](https://purchase.aspose.com/temporary-license/) оценить продукт в рамках пробного периода.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

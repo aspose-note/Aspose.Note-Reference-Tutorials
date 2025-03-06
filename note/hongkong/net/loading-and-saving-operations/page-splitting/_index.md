@@ -3,10 +3,16 @@ title: Aspose.Note 中的頁面拆分
 linktitle: Aspose.Note 中的頁面拆分
 second_title: Aspose.Note .NET API
 description: 了解如何使用不同的演算法在 Aspose.Note for .NET 中有效地分割頁面。確保 PDF 格式的 OneNote 文件組織整齊。
-type: docs
 weight: 17
 url: /zh-hant/net/loading-and-saving-operations/page-splitting/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Aspose.Note 中的頁面拆分
+
 ## 介紹
 
 在本教學中，我們將探索如何使用 Aspose.Note for .NET 有效地分割頁面。頁面分割是一項至關重要的功能，尤其是在處理需要轉換為 PDF 格式的冗長 OneNote 頁面時。 Aspose.Note 提供了各種演算法來控制分割邏輯，確保產生的 PDF 組織良好且可讀。
@@ -87,3 +93,9 @@ A4：Aspose.Note 主要針對 .NET 框架，但也可以與 .NET Core 等框架�
 ### Q5：如果我遇到任何問題，我可以從哪裡獲得協助？
 
  A5：您可以向Aspose.Note社群論壇尋求協助[這裡](https://forum.aspose.com/c/note/28).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

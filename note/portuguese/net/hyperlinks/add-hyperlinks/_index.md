@@ -3,10 +3,16 @@ title: Adicionar hiperlinks em documentos Aspose.Note
 linktitle: Adicionar hiperlinks em documentos Aspose.Note
 second_title: API Aspose.Note .NET
 description: Aprenda como adicionar hiperlinks a documentos Aspose.Note usando Aspose.Note for .NET. Melhore a interatividade dos documentos com este tutorial passo a passo.
-type: docs
 weight: 10
 url: /pt/net/hyperlinks/add-hyperlinks/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Adicionar hiperlinks em documentos Aspose.Note
+
 ## Introdução
 
 Neste tutorial, você aprenderá como adicionar hiperlinks ao texto em documentos Aspose.Note usando o .NET framework. Aspose.Note fornece recursos poderosos para manipular documentos do OneNote programaticamente. Adicionar hiperlinks pode melhorar a interatividade e a usabilidade dos seus documentos, tornando-os mais atraentes para os usuários.
@@ -131,3 +137,9 @@ A4: Aspose.Note foi projetado para funcionar com o Microsoft OneNote 2010 e vers
 ### Q5: Posso adicionar hiperlinks programaticamente usando APIs Aspose.Note?
 
 A5: Sim, Aspose.Note fornece APIs que permitem adicionar hiperlinks a texto programaticamente em seus aplicativos .NET.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

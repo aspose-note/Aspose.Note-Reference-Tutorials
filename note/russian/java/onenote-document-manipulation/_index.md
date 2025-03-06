@@ -3,10 +3,16 @@ title: Манипуляции с документами OneNote
 linktitle: Манипуляции с документами OneNote
 second_title: Aspose.Note Java API
 description: Создавайте, управляйте и автоматизируйте документы OneNote на Java с помощью Aspose.Note. Пошаговые руководства по использованию Document Visitor, форматированному тексту и созданию форматированного текста.
-type: docs
 weight: 21
 url: /ru/java/onenote-document-manipulation/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Манипуляции с документами OneNote
+
 
 ## Введение
 
@@ -29,3 +35,9 @@ Aspose.Note для Java предоставляет надежное решени
 Узнайте, как программно создавать форматированные документы OneNote на Java с помощью Aspose.Note для Java. Следуйте нашему пошаговому руководству для бесперебойной автоматизации документооборота.
 ### [Создать документ OneNote с простым форматированным текстом на Java](./create-onenote-document-simple-rich-text/)
 Узнайте, как создавать документы OneNote с простым форматированным текстом с помощью Aspose.Note для Java. Легко интегрируйте эту функцию в свои приложения Java для эффективного управления документами.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

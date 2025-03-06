@@ -3,10 +3,16 @@ title: 在 OneNote 中使用 Otsu 方法儲存為二值影像
 linktitle: 在 OneNote 中使用 Otsu 方法儲存為二值影像
 second_title: Aspose.Note Java API
 description: 學習使用 Otsu 方法和 Aspose.Note for Java 將 OneNote 文件儲存為二進位影像。使用 Aspose.Note 提升 Java 應用程式的功能。
-type: docs
 weight: 15
 url: /zh-hant/java/onenote-document-saving/save-to-binary-image-using-otsu-method/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# 在 OneNote 中使用 Otsu 方法儲存為二值影像
+
 ## 介紹
 
 在本教程中，我們將學習如何使用 Aspose.Note for Java 中的 Otsu 方法將文件儲存為二進位影像。 Aspose.Note 是一個功能強大的 API，使 Java 開發人員能夠以程式設計方式處理 Microsoft OneNote 檔案。將文件儲存為二進位影像可用於各種應用，例如影像處理、OCR（光學字元辨識）等。
@@ -82,3 +88,9 @@ A4：雖然 Aspose.Note 主要處理 OneNote 文件的操作，但您可以使�
 ### Q5：如果在使用 Aspose.Note for Java 時遇到問題，我可以在哪裡獲得支援？
 
 A5：您可以造訪 Aspose.Note 論壇或聯絡他們的支援團隊，以取得任何技術問題或疑問的協助。
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

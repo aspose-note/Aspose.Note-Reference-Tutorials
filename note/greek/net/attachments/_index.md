@@ -3,10 +3,16 @@ title: Συνημμένα και ανάκτηση αρχείων σε έγγρα
 linktitle: Συνημμένα
 second_title: Aspose.Note .NET API
 description: Ενισχύστε τις εφαρμογές σας .NET με το Aspose.Note! Εξερευνήστε μαθήματα για την επισύναψη αρχείων, τη ρύθμιση εικονιδίων και την ανάκτηση συνημμένων για βελτιωμένη ανάπτυξη.
-type: docs
 weight: 21
 url: /el/net/attachments/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Συνημμένα και ανάκτηση αρχείων σε έγγραφα του OneNote
+
 ## Εισαγωγή
 
 Είστε έτοιμοι να μεταφέρετε τις εφαρμογές σας .NET στο επόμενο επίπεδο; Βουτήξτε στον κόσμο του Aspose. Σημειώστε και ξεκλειδώστε ένα βασίλειο δυνατοτήτων. Αυτή η ολοκληρωμένη λίστα εκμάθησης θα σας καθοδηγήσει στις βασικές λειτουργίες, εστιάζοντας στην επισύναψη αρχείων, στη ρύθμιση εικονιδίων και στην απρόσκοπτη ανάκτηση συνημμένων αρχείων.
@@ -37,3 +43,9 @@ url: /el/net/attachments/
 Μάθετε πώς να επισυνάπτετε αρχεία σε έγγραφα του Microsoft OneNote μέσω προγραμματισμού χρησιμοποιώντας το Aspose.Note για .NET. Απλοποιήστε τη διαδικασία ανάπτυξής σας με αυτό το ολοκληρωμένο σεμινάριο.
 ### [Ανακτήστε τα συνημμένα αρχεία με το Aspose.Note](./retrieve-attached-files/)
 Μάθετε πώς να ανακτάτε συνημμένα αρχεία από έγγραφα του Microsoft OneNote χρησιμοποιώντας το Aspose.Note για .NET. Ακολουθήστε τα βήματα για φόρτωση, λήψη κόμβων και επανάληψη μέσω συνημμένων.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -3,10 +3,16 @@ title: Ekstrak Gambar dari Dokumen Aspose.Note
 linktitle: Ekstrak Gambar dari Dokumen Aspose.Note
 second_title: Aspose.Catatan .NET API
 description: Pelajari cara mengekstrak gambar dengan mudah dari dokumen Aspose.Note menggunakan Aspose.Note untuk .NET. Tingkatkan kemampuan manipulasi dokumen Anda dengan tutorial komprehensif ini.
-type: docs
 weight: 12
 url: /id/net/images/extract-images/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Ekstrak Gambar dari Dokumen Aspose.Note
+
 ## Perkenalan
 
 Apakah Anda ingin mengekstrak gambar dari dokumen Aspose.Note Anda secara efisien? Aspose.Note untuk .NET memberikan solusi tangguh untuk menyelesaikan tugas ini dengan lancar. Dalam tutorial ini, kami akan memandu proses langkah demi langkah untuk memastikan Anda dapat dengan mudah mengambil gambar dari dokumen Anda.
@@ -91,3 +97,9 @@ A3: Ya, Aspose.Note untuk .NET mendukung berbagai format dokumen, memberikan sol
 ### Q5: Di mana saya dapat mencari bantuan atau dukungan untuk Aspose.Note untuk .NET?
 
  A5: Untuk pertanyaan atau bantuan apa pun mengenai Aspose.Note untuk .NET, Anda dapat mengunjungi[Aspose.Catatan forum](https://forum.aspose.com/c/note/28) untuk berinteraksi dengan para ahli dan sesama pengembang.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

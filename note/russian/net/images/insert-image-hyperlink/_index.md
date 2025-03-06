@@ -3,10 +3,16 @@ title: Вставка изображений с гиперссылками в As
 linktitle: Вставка изображений с гиперссылками в Aspose.Note
 second_title: Aspose.Note .NET API
 description: Узнайте, как легко вставлять изображения с гиперссылками в Aspose.Note для .NET. Повысьте интерактивность документа с помощью кликабельных изображений.
-type: docs
 weight: 15
 url: /ru/net/images/insert-image-hyperlink/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Вставка изображений с гиперссылками в Aspose.Note
+
 ## Введение
 
 Aspose.Note для .NET предоставляет мощный набор функций для работы с изображениями, включая возможность вставки изображений с гиперссылками. В этом уроке мы покажем вам процесс вставки изображений с гиперссылками с помощью Aspose.Note для .NET.
@@ -89,3 +95,9 @@ document.Save("path_to_output_file.one");
 ### Вопрос 5: Где я могу получить поддержку Aspose.Note для .NET?
 
  О5: Вы можете получить поддержку Aspose.Note для .NET на сайте[Форумы Aspose.Note](https://forum.aspose.com/c/note/28), где вы можете задавать вопросы, обращаться за советом и общаться с другими пользователями и экспертами.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -3,10 +3,16 @@ title: Salvar usando fontes especificadas em Aspose.Note
 linktitle: Salvar usando fontes especificadas em Aspose.Note
 second_title: API Aspose.Note .NET
 description: Aprenda como salvar documentos com fontes especificadas no Aspose.Note for .NET. Personalize facilmente as configurações de fonte para uma formatação consistente de documentos.
-type: docs
 weight: 28
 url: /pt/net/loading-and-saving-operations/save-using-specified-fonts/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Salvar usando fontes especificadas em Aspose.Note
+
 ## Introdução
 
 Neste tutorial, aprenderemos como salvar documentos usando fontes especificadas no Aspose.Note for .NET. Exploraremos diferentes métodos para conseguir isso, passo a passo.
@@ -131,3 +137,9 @@ A4: Sim, Aspose.Note permite incorporar fontes para garantir a portabilidade do 
 ### Q5: Onde posso obter mais assistência com Aspose.Note?
 
  A5: Para obter mais assistência ou suporte técnico, você pode visitar o[Fórum Aspose.Note](https://forum.aspose.com/c/note/28).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

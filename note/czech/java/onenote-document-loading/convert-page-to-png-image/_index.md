@@ -3,10 +3,16 @@ title: Převést konkrétní stránku na obrázek PNG ve OneNotu - Java
 linktitle: Převést konkrétní stránku na obrázek PNG ve OneNotu - Java
 second_title: Aspose.Note Java API
 description: Naučte se používat Aspose.Note pro Java, převod stránky OneNotu na PNG. Postupujte podle jednoduchých kroků, načtěte dokument a nastavte možnosti. Vylepšete aplikace Java o tuto funkci.
-type: docs
 weight: 13
 url: /cs/java/onenote-document-loading/convert-page-to-png-image/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Převést konkrétní stránku na obrázek PNG ve OneNotu - Java
+
 ## Úvod
 
 V tomto kurzu se naučíte, jak používat Aspose.Note pro Java k převodu konkrétní stránky z dokumentu OneNotu na obrázek PNG. Tento proces rozdělíme do snadno srozumitelných kroků, které vám pomohou hladce integrovat tuto funkci do vaší Java aplikace.
@@ -93,3 +99,9 @@ Odpověď 2: Ano, Aspose.Note podporuje různé formáty obrázků, jako jsou JP
 ### Q5: Kde si mohu zakoupit licenci pro Aspose.Note pro Java?
 
  A5: Můžete si koupit licenci od[nákupní stránku](https://purchase.aspose.com/buy).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

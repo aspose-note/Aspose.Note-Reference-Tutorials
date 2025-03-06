@@ -3,10 +3,16 @@ title: ดึงรูปแบบไฟล์ใน Aspose.Note
 linktitle: ดึงรูปแบบไฟล์ใน Aspose.Note
 second_title: Aspose.Note .NET API
 description: สำรวจ Aspose.Note สำหรับ .NET ซึ่งเป็น API อันทรงพลังสำหรับการทำงานกับเอกสาร Microsoft OneNote โดยทางโปรแกรม
-type: docs
 weight: 19
 url: /th/net/loading-and-saving-operations/retrieve-file-format/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# ดึงรูปแบบไฟล์ใน Aspose.Note
+
 ## การแนะนำ
 
 Aspose.Note สำหรับ .NET เป็น API อันทรงพลังที่ช่วยให้นักพัฒนาสามารถทำงานกับเอกสาร Microsoft OneNote โดยทางโปรแกรม ไม่ว่าคุณจะต้องการสร้าง จัดการ หรือแปลงไฟล์ OneNote Aspose.Note จะทำให้กระบวนการง่ายขึ้นด้วยชุดฟีเจอร์ที่ใช้งานง่ายและครอบคลุม
@@ -83,3 +89,9 @@ A1: ใช่ Aspose.Note รองรับ OneNote เวอร์ชันต
 ### คำถามที่ 5: ฉันจำเป็นต้องมีใบอนุญาตชั่วคราวเพื่อวัตถุประสงค์ในการประเมินผลหรือไม่
 
  A5: แม้ว่ารุ่นทดลองใช้ฟรีจะอนุญาตให้คุณทดสอบ Aspose.Note ได้ แต่คุณสามารถเลือกรับใบอนุญาตชั่วคราวสำหรับการประเมินแบบขยายได้ เยี่ยม[ที่นี่](https://purchase.aspose.com/temporary-license/) สำหรับรายละเอียดเพิ่มเติม
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -3,10 +3,16 @@ title: Beheers het afdrukken in OneNote met Aspose.Note voor .NET
 linktitle: Document afdrukken
 second_title: Aspose.Note .NET API
 description: Druk OneNote-documenten af met Aspose.Note voor .NET. Ontdek de naadloze integratie in .NET-apps, pas printopties aan en ontketen de kracht van het printen van documenten.
-type: docs
 weight: 28
 url: /nl/net/printing-document/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Beheers het afdrukken in OneNote met Aspose.Note voor .NET
+
 ## Invoering
 
 Bent u klaar om uw documentafdrukgame naar een hoger niveau te tillen met Aspose.Note voor .NET? Zoek niet verder! In deze gedetailleerde handleiding gaan we dieper in op twee essentiële zelfstudies, zodat u gemakkelijk OneNote-documenten kunt afdrukken en de afdrukopties kunt aanpassen voor een ervaring op maat.
@@ -49,3 +55,9 @@ Concluderend: het beheersen van het afdrukken en aanpassen van documenten met As
 Leer hoe u OneNote-documenten kunt afdrukken met Aspose.Note voor .NET. Stapsgewijze handleiding voor naadloze integratie in uw .NET-applicaties.
 ### [Pas het afdrukken aan met Aspose.Note-afdrukopties](./customize-printing-options/)
 Leer hoe u het afdrukken van documenten kunt aanpassen met Aspose.Note voor .NET. Verfijn de instellingen voor optimale afdrukken.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

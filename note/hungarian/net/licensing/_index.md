@@ -3,10 +3,16 @@ title: Az Aspose.Note licencének elsajátítása a OneNote integrációhoz
 linktitle: Engedélyezés
 second_title: Aspose.Note .NET API
 description: Alkalmazza az Aspose.Note licenceket .NET-alkalmazásaiban! Fedezze fel az erőforrások beágyazásának, az elérési utak, a FileStream és a hatékony, mért licencelés használatának lépésenkénti útmutatóit.
-type: docs
 weight: 20
 url: /hu/net/licensing/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Az Aspose.Note licencének elsajátítása a OneNote integrációhoz
+
 ## Bevezetés
 
 Ön .NET-fejlesztő, aki az Aspose.Note dinamikus birodalmába nyúl? A licencek alkalmazásának megértése kulcsfontosságú, különösen a OneNote-fájlokkal való munka során. Ebben a kiterjedt útmutatóban különféle licencelési oktatóanyagokat tekintünk át, biztosítva a zökkenőmentes integrációs folyamatot, és lehetővé téve a OneNote-fájlok könnyű kezelését.
@@ -41,3 +47,9 @@ Ismerje meg, hogyan alkalmazhat Aspose.Note licencet a .NET-alkalmazások elér�
 Ismerje meg, hogyan alkalmazhat Aspose.Note licencet a FileStream használatával a .NET-alkalmazásaiban a zökkenőmentes integráció érdekében.
 ### [Méréses engedélyezés az Aspose-val.Megjegyzés](./metered-licensing/)
 Tanulja meg, hogyan kezelheti hatékonyan a szoftverlicenceket az Aspose.Note for .NET segítségével, mért licencek segítségével. Az erőforrás-felhasználás optimalizálása és a költségek hatékony ellenőrzése.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

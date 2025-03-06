@@ -3,10 +3,16 @@ title: Írjon jelszóval védett dokumentumot a OneNote-ban – Aspose.Note
 linktitle: Írjon jelszóval védett dokumentumot a OneNote-ban – Aspose.Note
 second_title: Aspose.Note Java API
 description: Védje érzékeny OneNote-információit! Ismerje meg, hogyan állíthat be jelszavakat bizonyos dokumentumokhoz és szakaszokhoz – lépésről lépésre útmutatót és kódot tartalmaz. #OneNote #Java #Aspose
-type: docs
 weight: 27
 url: /hu/java/onenote-notebook-operations/write-password-protected-document/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Írjon jelszóval védett dokumentumot a OneNote-ban – Aspose.Note
+
 ## Bevezetés
 
 Ebből az oktatóanyagból megtudhatja, hogyan hozhat létre jelszóval védett dokumentumokat a OneNote-ban az Aspose.Note for Java használatával. Ez a képesség biztosítja a notebookokban lévő érzékeny adatok biztonságát és titkosságát. Ezeket a lépésről lépésre követve könnyedén bevezetheti dokumentumai jelszavas védelmét.
@@ -95,3 +101,9 @@ V: Igen, az Aspose.Note API-k segítségével különböző jelszavakat állíth
 ### 5. kérdés: Van-e korlátozás a jelszavak hosszára vagy összetettségére?
 
 V: Az Aspose.Note nem szab konkrét korlátozásokat a jelszó hosszára vagy összetettségére vonatkozóan, így szükség szerint erős és biztonságos jelszavakat állíthat be.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

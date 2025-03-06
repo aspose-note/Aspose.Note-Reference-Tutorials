@@ -3,10 +3,16 @@ title: Convertir un bloc-notes en image avec les options dans OneNote - Aspose.N
 linktitle: Convertir un bloc-notes en image avec les options dans OneNote - Aspose.Note
 second_title: API Java Aspose.Note
 description: Découvrez comment convertir un bloc-notes en image avec des options à l'aide d'Aspose.Note pour Java. Suivez notre didacticiel étape par étape pour une intégration transparente dans vos applications Java.
-type: docs
 weight: 14
 url: /fr/java/onenote-notebook-operations/convert-notebook-to-image-with-options/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Convertir un bloc-notes en image avec les options dans OneNote - Aspose.Note
+
 ## Introduction
 
 Dans ce didacticiel, nous aborderons le processus de conversion d'un bloc-notes en image avec diverses options à l'aide d'Aspose.Note pour Java. Aspose.Note est une puissante API Java qui permet aux développeurs de travailler avec des fichiers Microsoft OneNote par programme, permettant une intégration transparente dans leurs applications Java.
@@ -89,3 +95,9 @@ A4 : Oui, Aspose fournit un excellent support aux développeurs via ses forums e
 ### Q5 : Existe-t-il un essai gratuit disponible pour Aspose.Note pour Java ?
 
  A5 : Oui, vous pouvez bénéficier d'un essai gratuit d'Aspose.Note pour Java à partir de[ici](https://releases.aspose.com/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

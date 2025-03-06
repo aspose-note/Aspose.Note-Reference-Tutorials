@@ -3,10 +3,16 @@ title: Δημιουργήστε έγγραφα με τη ρίζα και τις 
 linktitle: Δημιουργήστε έγγραφα με τη ρίζα και τις δευτερεύουσες σελίδες χρησιμοποιώντας το Aspose.Note
 second_title: Aspose.Note .NET API
 description: Μάθετε πώς να χρησιμοποιείτε το Aspose.Note για .NET για τη δημιουργία δυναμικών εγγράφων OneNote με ιεραρχικές δομές.
-type: docs
 weight: 11
 url: /el/net/note-manipulation/create-documents-root-sub-pages/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Δημιουργήστε έγγραφα με τη ρίζα και τις δευτερεύουσες σελίδες χρησιμοποιώντας το Aspose.Note
+
 ## Εισαγωγή
 
 Καλώς ήρθατε στο σεμινάριο μας για τη δημιουργία εγγράφων με root και υποσελίδες χρησιμοποιώντας το Aspose.Note για .NET! Το Aspose.Note είναι μια ισχυρή βιβλιοθήκη που επιτρέπει στους προγραμματιστές να εργάζονται με αρχεία Microsoft OneNote μέσω προγραμματισμού, επιτρέποντας τη δημιουργία, τον χειρισμό και τη μετατροπή εγγράφων OneNote.
@@ -130,3 +136,9 @@ A4: Το Aspose.Note εστιάζει κυρίως στην ανάπτυξη ε�
 ### Ε5: Διατίθεται τεχνική υποστήριξη για το Aspose.Note;
 
 A5: Ναι, η Aspose παρέχει ειδική τεχνική υποστήριξη μέσω του φόρουμ της, όπου μπορείτε να κάνετε ερωτήσεις και να λάβετε βοήθεια.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

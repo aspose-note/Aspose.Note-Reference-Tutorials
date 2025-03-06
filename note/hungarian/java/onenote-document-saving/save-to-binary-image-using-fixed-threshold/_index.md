@@ -3,10 +3,16 @@ title: Mentés bináris képbe a OneNote rögzített küszöbértékével
 linktitle: Mentés bináris képbe a OneNote rögzített küszöbértékével
 second_title: Aspose.Note Java API
 description: Könnyedén mentheti a Microsoft OneNote dokumentumokat bináris képként a rögzített küszöbértékkel az Aspose.Note Java segítségével. Növelje OneNote fájlkezelési képességeit.
-type: docs
 weight: 14
 url: /hu/java/onenote-document-saving/save-to-binary-image-using-fixed-threshold/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Mentés bináris képbe a OneNote rögzített küszöbértékével
+
 ## Bevezetés
 
 Az Aspose.Note for Java egy hatékony API, amely lehetővé teszi a fejlesztők számára, hogy programozottan dolgozzanak Microsoft OneNote fájlokkal. Ebben az oktatóanyagban megvizsgáljuk, hogyan menthetünk el egy dokumentumot bináris képként rögzített küszöbérték használatával. Ennek eléréséhez kövesse az alábbi lépéseket.
@@ -91,3 +97,9 @@ Ebben az oktatóanyagban megtanultuk, hogyan lehet dokumentumot bináris képké
 ### 5. kérdés: Rendelkezésre áll műszaki támogatás az Aspose.Note for Java számára?
 
  V5: Igen, a technikai támogatás a következőn keresztül érhető el[Aspose.Note fórum](https://forum.aspose.com/c/note/28), ahol kérdéseket tehet fel, és szakértőktől kérhet segítséget.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

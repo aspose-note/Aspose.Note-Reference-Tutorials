@@ -3,10 +3,16 @@ title: حفظ إلى صورة JPEG باستخدام تنسيق الحفظ في O
 linktitle: حفظ إلى صورة JPEG باستخدام تنسيق الحفظ في OneNote
 second_title: Aspose.Note جافا API
 description: قم بتحويل مستند OneNote إلى صورة JPEG بسهولة! يوضح هذا البرنامج التعليمي لـ Java كيفية استخدام Aspose.Note. تحويل وأتمتة مع أمثلة التعليمات البرمجية! #OneNote #Java #Aspose
-type: docs
 weight: 18
 url: /ar/java/onenote-document-saving/save-to-jpeg-image-using-save-format/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# حفظ إلى صورة JPEG باستخدام تنسيق الحفظ في OneNote
+
 ## مقدمة
 
 في هذا البرنامج التعليمي، سوف نتعمق في عملية حفظ مستند بتنسيق صورة JPEG باستخدام Aspose.Note لـ Java. Aspose.Note عبارة عن واجهة برمجة تطبيقات Java قوية تتيح للمطورين العمل مع ملفات Microsoft OneNote برمجيًا، مما يتيح عمليات متنوعة مثل التحويل والمعالجة واستخراج المحتوى.
@@ -78,3 +84,9 @@ oneFile.save(dataDir, SaveFormat.Jpeg);
 ### س5: أين يمكنني العثور على الوثائق التفصيلية الخاصة بـ Aspose.Note لـ Java؟
 
 ج5: يمكنك العثور على الوثائق التفصيلية لـ Aspose.Note لـ Java[هنا](https://reference.aspose.com/note/java/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

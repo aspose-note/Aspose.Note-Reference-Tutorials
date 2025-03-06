@@ -3,10 +3,16 @@ title: 從 Aspose.Note 中的表格中提取文本
 linktitle: 從 Aspose.Note 中的表格中提取文本
 second_title: Aspose.Note .NET API
 description: 了解如何使用 C# 和 .NET 框架從 Aspose.Note 中的表格中提取文字。包含程式碼片段和解釋的分步教程。
-type: docs
 weight: 15
 url: /zh-hant/net/table-manipulation/extract-text-table/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# 從 Aspose.Note 中的表格中提取文本
+
 ## 介紹
 
 在本教程中，我們將探索如何使用 C# 和 .NET 框架從 Aspose.Note 中的表格中提取文字。 Aspose.Note 是一個功能強大的 API，允許開發人員以程式設計方式處理 Microsoft OneNote 文件，從而實現創建、讀取、操作和轉換 OneNote 文件等各種操作。
@@ -99,3 +105,9 @@ A4：是的，Aspose.Note 可用於多種平台和程式語言，包括 Java 和
 ### Q5：在哪裡可以找到更多 Aspose.Note 資源和支援？
 
  A5：您可以在以下位置找到大量文件、教學和支援論壇：[Aspose.Note 論壇](https://forum.aspose.com/c/note/28)，使您能夠探索並解決開發過程中遇到的任何疑問或問題。
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

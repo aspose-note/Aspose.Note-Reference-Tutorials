@@ -3,10 +3,16 @@ title: 从 OneNote 笔记本中检索文档 - Aspose.Note
 linktitle: 从 OneNote 笔记本中检索文档 - Aspose.Note
 second_title: Aspose.Note Java API
 description: 了解如何使用 Aspose.Note for Java 从 OneNote Notebook 检索文档。请按照我们的分步指南进行无缝集成。
-type: docs
 weight: 25
 url: /zh/java/onenote-notebook-operations/retrieve-documents-from-onenote-notebook/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# 从 OneNote 笔记本中检索文档 - Aspose.Note
+
 ## 介绍
 
 欢迎阅读有关使用 Aspose.Note for Java 从 OneNote Notebook 检索文档的综合指南！ Aspose.Note 是一个功能强大的 Java API，允许开发人员轻松操作 OneNote 文件。在本教程中，我们将逐步完成该过程，将每个示例分解为多个步骤，以确保清晰理解。
@@ -92,3 +98,9 @@ A3：是的，Aspose.Note for Java 允许文档检索任务自动化，从而能
 ### Q5：Aspose.Note for Java 提供免费试用吗？
 
  A5：是的，您可以通过访问 Aspose.Note for Java 免费试用[免费试用页面](https://releases.aspose.com/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

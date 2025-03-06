@@ -3,10 +3,16 @@ title: Obtener información sobre páginas en OneNote - Aspose.Note
 linktitle: Obtener información sobre páginas en OneNote - Aspose.Note
 second_title: Aspose.Nota Java API
 description: ¡Descubra secretos de páginas en sus documentos de OneNote! Extraiga revisiones, tiempos de creación y más con Aspose.Note. ¡Guía paso a paso y código incluidos! #OneNote #Java #Aspose
-type: docs
 weight: 12
 url: /es/java/onenote-page-manipulation/get-information-about-pages/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Obtener información sobre páginas en OneNote - Aspose.Note
+
 ## Introducción
 
 En este tutorial, lo guiaremos a través del proceso de extracción de información sobre páginas en OneNote usando Aspose.Note para Java. Aspose.Note es una potente API que le permite trabajar con documentos de Microsoft OneNote mediante programación. Ya sea que necesite acceder a revisiones de páginas, tiempos de creación, títulos o autores, Aspose.Note simplifica la tarea con su interfaz intuitiva.
@@ -90,3 +96,9 @@ R4: Sí, Aspose brinda soporte técnico dedicado para ayudar a los desarrollador
 ### P5: ¿Existe una versión de prueba disponible de Aspose.Note para Java?
 
  R5: Sí, puede descargar una versión de prueba gratuita de Aspose.Note para Java desde[aquí](https://releases.aspose.com/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

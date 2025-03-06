@@ -3,10 +3,16 @@ title: Hämta punktlista eller nummerlista i Aspose.Note-text
 linktitle: Hämta punktlista eller nummerlista i Aspose.Note-text
 second_title: Aspose.Note .NET API
 description: Lås upp potentialen hos Aspose.Note för .NET med vår steg-för-steg-guide för att hämta punkt- eller nummerlistor. Öka dina färdigheter i OneNote-dokumenthantering!
-type: docs
 weight: 23
 url: /sv/net/text-manipulation/retrieve-bullet-number-list/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Hämta punktlista eller nummerlista i Aspose.Note-text
+
 ## Introduktion
 Välkommen till Aspose.Note för .NET-världen, ett robust och mångsidigt bibliotek som gör det möjligt för utvecklare att hantera OneNote-dokumentmanipulation utan ansträngning. I den här handledningen kommer vi att fördjupa oss i processen för att hämta punktlistor eller nummerlistor med Aspose.Note för .NET. Oavsett om du är en erfaren utvecklare eller en kodningsentusiast, kommer den här guiden att utrusta dig med kunskapen för att navigera genom krångligheterna med att arbeta med listor i Aspose.Note.
 ## Förutsättningar
@@ -87,3 +93,9 @@ Ja, Aspose.Note stöder ett brett utbud av OneNote-format, vilket säkerställer
 Du kan utforska och söka hjälp i[Aspose.Note forum](https://forum.aspose.com/c/note/28) för alla frågor eller problem du kan stöta på.
 ### Finns det en gratis testversion av Aspose.Note för .NET?
  Ja, du kan komma åt den kostnadsfria testversionen av Aspose.Note för .NET[här](https://releases.aspose.com/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

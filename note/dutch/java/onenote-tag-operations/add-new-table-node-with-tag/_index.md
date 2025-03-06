@@ -3,10 +3,16 @@ title: Nieuw tabelknooppunt met tag toevoegen in OneNote - Aspose.Note
 linktitle: Nieuw tabelknooppunt met tag toevoegen in OneNote - Aspose.Note
 second_title: Aspose.Note Java-API
 description: Leer hoe u dynamische tabelknooppunten met tags toevoegt in OneNote met behulp van Aspose.Note voor Java. Verbeter moeiteloos uw documentorganisatie.
-type: docs
 weight: 11
 url: /nl/java/onenote-tag-operations/add-new-table-node-with-tag/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Nieuw tabelknooppunt met tag toevoegen in OneNote - Aspose.Note
+
 ## Invoering
 Wilt u uw OneNote-documenten verbeteren door een nieuw tabelknooppunt met een tag toe te voegen? Met Aspose.Note voor Java wordt deze taak eenvoudig, waardoor u dynamische en georganiseerde inhoud kunt creëren. In deze stapsgewijze handleiding leiden we u door het proces van het toevoegen van een nieuw tabelknooppunt met een tag in OneNote met behulp van Aspose.Note voor Java.
 ## Vereisten
@@ -98,3 +104,9 @@ Absoluut! Aspose.Note biedt verschillende opties voor het aanpassen van het uite
  Bezoek de[Aspose.Note Java-documentatie](https://reference.aspose.com/note/java/) voor uitgebreide voorbeelden en documentatie.
 ### Hoe kan ik ondersteuning krijgen voor Aspose.Note voor Java?
  Bezoek de[Aspose.Note-forum](https://forum.aspose.com/c/note/28) voor gemeenschapssteun of[een ondersteuningsplan aanschaffen](https://purchase.aspose.com/buy) voor toegewijde hulp.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

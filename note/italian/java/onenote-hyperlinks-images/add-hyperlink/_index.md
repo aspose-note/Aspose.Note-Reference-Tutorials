@@ -3,10 +3,16 @@ title: Aggiungi collegamento ipertestuale in OneNote con Java
 linktitle: Aggiungi collegamento ipertestuale in OneNote con Java
 second_title: Aspose.Note API Java
 description: Scopri come aggiungere collegamenti ipertestuali in OneNote utilizzando Java con la libreria Aspose.Note. Migliora le tue note con collegamenti interattivi senza sforzo.
-type: docs
 weight: 10
 url: /it/java/onenote-hyperlinks-images/add-hyperlink/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Aggiungi collegamento ipertestuale in OneNote con Java
+
 ## introduzione
 
 L'aggiunta di collegamenti ipertestuali ai documenti OneNote utilizzando Java può migliorare notevolmente l'interattività e l'utilità delle note. In questo tutorial, ti guideremo attraverso il processo passo dopo passo, utilizzando la libreria Aspose.Note per Java. Immergiamoci!
@@ -136,3 +142,9 @@ A4: Sì, l'integrazione di Aspose.Note nei tuoi progetti Java è semplice e ben 
 ### Q5: Dove posso trovare ulteriore aiuto e risorse per l'utilizzo di Aspose.Note?
 
  R5: Puoi trovare documentazione completa, tutorial e supporto della community su[Forum Aspose.Note](https://forum.aspose.com/c/note/28).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

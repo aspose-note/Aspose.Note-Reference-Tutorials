@@ -3,10 +3,16 @@ title: Cargar documentos protegidos con contraseña en OneNote - Aspose.Note
 linktitle: Cargar documentos protegidos con contraseña en OneNote - Aspose.Note
 second_title: Aspose.Nota Java API
 description: Aprenda a cargar documentos protegidos con contraseña en OneNote usando Aspose.Note para Java. Siga nuestra guía paso a paso para una integración perfecta.
-type: docs
 weight: 22
 url: /es/java/onenote-notebook-operations/load-password-protected-documents/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Cargar documentos protegidos con contraseña en OneNote - Aspose.Note
+
 ## Introducción
 
 En este tutorial, recorreremos el proceso de carga de documentos protegidos con contraseña en OneNote usando Aspose.Note para Java. Aspose.Note es una poderosa biblioteca de Java que permite a los desarrolladores trabajar con archivos de Microsoft OneNote mediante programación, permitiendo diversas operaciones como cargar, editar y guardar documentos.
@@ -79,3 +85,9 @@ R: Sí, Aspose.Note ofrece soporte para cargar y manejar documentos cifrados o p
 ### P5: ¿Existe una versión de prueba disponible para Aspose.Note?
 
 R: Sí, puede descargar una versión de prueba gratuita de Aspose.Note desde[aquí](https://releases.aspose.com/) para explorar sus características antes de realizar una compra.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

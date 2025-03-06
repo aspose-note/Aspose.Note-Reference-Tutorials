@@ -3,10 +3,16 @@ title: OneNote에서 목록 속성 가져오기 - Aspose.Note
 linktitle: OneNote에서 목록 속성 가져오기 - Aspose.Note
 second_title: Aspose.Note 자바 API
 description: Java용 Aspose.Note를 탐색하고 OneNote 문서의 목록 속성을 손쉽게 검색하세요. 이 강력한 Java 라이브러리를 사용하여 문서 처리를 강화하세요.
-type: docs
 weight: 19
 url: /ko/java/onenote-text-manipulation/get-list-properties/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# OneNote에서 목록 속성 가져오기 - Aspose.Note
+
 ## 소개
 OneNote 문서의 목록 속성을 검색하고 분석하기 위해 Java용 Aspose.Note를 활용하는 포괄적인 튜토리얼에 오신 것을 환영합니다. 숙련된 개발자이든 Aspose.Note를 처음 시작하든 이 가이드는 명확한 이해를 보장하기 위해 각 단계를 세분화하여 프로세스를 안내합니다.
 ## 전제조건
@@ -95,3 +101,9 @@ Aspose.Note는 다양한 OneNote 버전을 지원하여 다양한 문서 형식 
  네, 임시 면허를 취득하실 수 있습니다[여기](https://purchase.aspose.com/temporary-license/) 테스트 목적으로.
 ### Java용 Aspose.Note를 구매하려면 어떻게 해야 하나요?
  해당 상품을 구매하실 수 있습니다[여기](https://purchase.aspose.com/buy)귀하의 프로젝트에 대한 잠재력을 최대한 발휘할 수 있습니다.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -3,10 +3,16 @@ title: Obtenha o texto da célula da linha da tabela no OneNote - Aspose.Note
 linktitle: Obtenha o texto da célula da linha da tabela no OneNote - Aspose.Note
 second_title: API Java Aspose.Note
 description: Desvende os segredos da extração de texto de tabelas do OneNote em Java usando Aspose.Note. Siga nosso guia passo a passo para aprimorar suas habilidades de processamento de documentos.
-type: docs
 weight: 15
 url: /pt/java/onenote-table-manipulation/get-cell-text-from-row/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Obtenha o texto da célula da linha da tabela no OneNote - Aspose.Note
+
 ## Introdução
 Embarque em uma jornada no domínio do desenvolvimento Java enquanto desvendamos o processo de extração de texto das linhas da tabela do OneNote usando a poderosa biblioteca Aspose.Note. Este guia passo a passo irá equipá-lo com as habilidades necessárias para navegar e manipular texto com eficiência em tabelas.
 ## Pré-requisitos
@@ -73,3 +79,9 @@ Absolutamente! Uma versão de teste gratuita espera por você[aqui](https://rele
  Junte-se à vibrante comunidade Aspose.Note em[o Fórum](https://forum.aspose.com/c/note/28) para discussões e assistência.
 ### Existem exemplos de documentos disponíveis para fins de teste?
 Mergulhe na documentação do Aspose.Note para obter um tesouro de exemplos de documentos e trechos de código.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -3,10 +3,16 @@ title: OneNote에서 페이지 배경색 설정 - Aspose.Note
 linktitle: OneNote에서 페이지 배경색 설정 - Aspose.Note
 second_title: Aspose.Note 자바 API
 description: Java용 Aspose.Note를 사용하여 OneNote에서 페이지 배경색을 쉽게 설정하는 방법을 알아보세요. 이 간단한 튜토리얼을 통해 문서의 시각적 매력을 향상시키세요.
-type: docs
 weight: 20
 url: /ko/java/onenote-page-manipulation/set-page-background-color/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# OneNote에서 페이지 배경색 설정 - Aspose.Note
+
 ## 소개
 
 이번 튜토리얼에서는 Aspose.Note for Java를 사용하여 OneNote에서 페이지 배경색을 설정하는 과정을 살펴보겠습니다. Aspose.Note는 개발자가 OneNote 문서를 프로그래밍 방식으로 조작할 수 있게 해주는 강력한 Java 라이브러리입니다. 페이지 배경색을 변경하면 OneNote 문서의 시각적 매력을 향상시켜 문서를 더욱 매력적이고 체계적으로 만들 수 있습니다.
@@ -100,3 +106,9 @@ A4: 물론이죠! Aspose.Note의 무료 평가판을 사용하여 결정을 내�
 ### Q5: Aspose.Note에 대한 추가 지원은 어디서 찾을 수 있나요?
 
 A5: 질문이나 도움이 필요한 경우 Aspose.Note 포럼을 방문하거나 지원 팀에 연락하여 즉각적인 도움을 받을 수 있습니다.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

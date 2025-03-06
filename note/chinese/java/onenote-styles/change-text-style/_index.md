@@ -3,10 +3,16 @@ title: 更改 OneNote 中的文本样式 - Aspose.Note
 linktitle: 更改 OneNote 中的文本样式 - Aspose.Note
 second_title: Aspose.Note Java API
 description: 加粗、突出显示并调整大小！了解使用 Aspose.Note 设置 OneNote 文档中文本的格式。包含分步指南和代码！ #OneNote #Java #Aspose
-type: docs
 weight: 10
 url: /zh/java/onenote-styles/change-text-style/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# 更改 OneNote 中的文本样式 - Aspose.Note
+
 ## 介绍
 
 欢迎来到我们关于使用 Aspose.Note for Java 更改 OneNote 中的文本样式的教程！在本指南中，我们将逐步引导您完成该过程，使您能够轻松地操作 OneNote 文档中的文本样式。无论您想要更改字体颜色、突出显示文本还是调整字体大小，Aspose.Note 都能提供全面的解决方案来满足您的需求。
@@ -104,3 +110,9 @@ A4：是的，Aspose.Note 可用于个人和商业目的，提供灵活的许可
 ### Q5：在哪里可以找到 Aspose.Note 的其他资源和支持？
 
 A5：您可以浏览 Aspose.Note 文档、下载库、访问免费试用版并在 Aspose 论坛上寻求支持。
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

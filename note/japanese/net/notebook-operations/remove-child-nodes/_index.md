@@ -3,10 +3,16 @@ title: Aspose Note .NET で子ノードを削除する
 linktitle: Aspose Note .NET で子ノードを削除する
 second_title: Aspose.Note .NET API
 description: Aspose.Note for .NET で子ノードを簡単に削除する方法を学びます。このステップバイステップ ガイドを使用して、OneNote ファイル管理を簡素化します。
-type: docs
 weight: 24
 url: /ja/net/notebook-operations/remove-child-nodes/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Aspose Note .NET で子ノードを削除する
+
 ## 導入
 
 このチュートリアルでは、Aspose.Note for .NET を使用して子ノードを効率的に削除する方法を検討します。 Aspose.Note は、開発者が Microsoft OneNote ファイルをプログラムで操作できるようにする強力なライブラリです。ノートブック、セクション、または個々のページを管理している場合でも、Aspose.Note の直感的な API によりプロセスが簡素化されます。ここでは、特にノートブックから子ノードを削除することに焦点を当てます。
@@ -92,3 +98,9 @@ A4：もちろんです！ Aspose.Note は、OneNote ファイル内のページ
 ### Q5: Aspose.Note の追加サポートはどこで見つけられますか?
 
  A5: さらにサポートや問い合わせが必要な場合は、次のサイトにアクセスしてください。[Aspose.Note フォーラム](https://forum.aspose.com/c/note/28)専門家や開発者仲間が助けてくれます。
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

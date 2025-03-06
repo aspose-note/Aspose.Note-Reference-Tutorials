@@ -3,10 +3,16 @@ title: Retrieve Attachment from OneNote using Java
 linktitle: Retrieve Attachment from OneNote using Java
 second_title: Aspose.Note Java API
 description: Effortlessly extract attachments from OneNote docs in Java! Aspose.Note handles all formats & batch processing. Easy steps & code included! #OneNote #Java #Aspose
-type: docs
 weight: 12
 url: /java/onenote-java-integration/retrieve-attachment/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Retrieve Attachment from OneNote using Java
+
 ## Introduction
 
 In today's digital era, handling various document formats efficiently is a crucial aspect of software development. Aspose.Note for Java is a powerful API that empowers developers to work seamlessly with Microsoft OneNote files using Java applications. Whether you need to retrieve attachments, manipulate pages, or extract text, Aspose.Note for Java provides comprehensive functionalities to streamline your workflow.
@@ -112,3 +118,10 @@ A: Yes, developers have the flexibility to specify custom output locations and f
 ### Q5: Does Aspose.Note for Java provide support and assistance in case of technical issues or inquiries?
 
 A: Yes, developers can access comprehensive support through the Aspose.Note forum at [https://forum.aspose.com/c/note/28](https://forum.aspose.com/c/note/28) for any technical assistance or inquiries.
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

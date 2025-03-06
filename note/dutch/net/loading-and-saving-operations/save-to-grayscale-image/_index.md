@@ -3,10 +3,16 @@ title: Opslaan in grijswaardenafbeelding in Aspose.Note
 linktitle: Opslaan in grijswaardenafbeelding in Aspose.Note
 second_title: Aspose.Note .NET API
 description: Leer hoe u OneNote-documenten opslaat als grijswaardenafbeeldingen met Aspose.Note voor .NET. Volg deze uitgebreide tutorial voor een efficiënte documentverwerking.
-type: docs
 weight: 24
 url: /nl/net/loading-and-saving-operations/save-to-grayscale-image/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Opslaan in grijswaardenafbeelding in Aspose.Note
+
 ## Invoering
 
 In deze zelfstudie onderzoeken we hoe u Aspose.Note voor .NET kunt gebruiken om een document op te slaan als een grijswaardenafbeelding. Aspose.Note is een krachtige bibliotheek waarmee ontwikkelaars programmatisch met Microsoft OneNote-bestanden kunnen werken en een breed scala aan functionaliteiten bieden.
@@ -85,3 +91,9 @@ A4: Ja, u kunt Aspose.Note verkennen via de gratis proefversie die beschikbaar i
 ### V5: Hoe kan ik een tijdelijke licentie voor Aspose.Note verkrijgen?
 
 A5: U kunt een tijdelijke licentie voor Aspose.Note verkrijgen door de meegeleverde link te bezoeken en de instructies te volgen.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

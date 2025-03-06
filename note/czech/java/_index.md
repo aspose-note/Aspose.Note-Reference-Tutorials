@@ -1,12 +1,17 @@
 ---
 title: Komplexní návody a příklady Aspose.Note pro Javu
 linktitle: Aspose.Note pro Java tutoriály
-type: docs
 weight: 10
 url: /cs/java/
 description: Objevte komplexní návody a příklady pro Aspose.Note pro Javu. Vylepšete své prostředí OneNote pomocí podrobných průvodců integrací Java.
-is_root: true
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Komplexní návody a příklady Aspose.Note pro Javu
+
 
 ## Úvod
 
@@ -91,3 +96,9 @@ Objevte sílu Aspose.Note pro Java. Vylepšete své prostředí OneNotu pomocí 
 Prozkoumejte výukové programy Aspose.Note Java o manipulaci s textem ve OneNotu. Prozkoumejte efektivní metody pro úkoly, jako je extrahování textu, použití motivů, vytváření seznamů a další. 
 ### [Integrace úkolů a Outlooku](./task-and-outlook-integration/)
 Odemkněte potenciál Aspose.Note Java pomocí našich výukových programů o integraci úloh aplikace Outlook do OneNotu. Zvyšte své dovednosti v oblasti zpracování dokumentů pomocí našich výukových programů.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -3,10 +3,16 @@ title: Converter cadernos em imagem (achatada) no Aspose Note .NET
 linktitle: Converter cadernos em imagem (achatada) no Aspose Note .NET
 second_title: API Aspose.Note .NET
 description: Aprenda como converter blocos de anotações do OneNote em imagens niveladas usando Aspose.Note para .NET. Guia passo a passo para integração perfeita.
-type: docs
 weight: 12
 url: /pt/net/notebook-operations/convert-to-image-flattened/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Converter cadernos em imagem (achatada) no Aspose Note .NET
+
 ## Introdução
 
 Neste tutorial, aprenderemos como usar Aspose.Note for .NET para converter notebooks em imagens achatadas. Dividiremos o processo em etapas simples para ajudá-lo a entendê-lo e implementá-lo de maneira eficaz.
@@ -93,3 +99,9 @@ A1: Sim, o Aspose.Note for .NET é capaz de lidar com notebooks complexos com ef
 ### Q5: Onde posso encontrar documentação para Aspose.Note for .NET?
 
  A5: Você pode encontrar a documentação[aqui](https://reference.aspose.com/note/net/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

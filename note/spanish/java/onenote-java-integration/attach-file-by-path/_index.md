@@ -3,10 +3,16 @@ title: Adjuntar archivo por ruta en OneNote con Java
 linktitle: Adjuntar archivo por ruta en OneNote con Java
 second_title: Aspose.Nota Java API
 description: ¡Agregue archivos a sus notas de OneNote sin problemas! Aprenda cómo adjuntar por ruta en Java con Aspose.Note. ¡Guía fácil y código incluidos! #OneNote #Java #Aspose
-type: docs
 weight: 11
 url: /es/java/onenote-java-integration/attach-file-by-path/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Adjuntar archivo por ruta en OneNote con Java
+
 ## Introducción
 
 OneNote es una herramienta versátil para organizar y administrar notas, y con Aspose.Note para Java, puede mejorar su funcionalidad adjuntando archivos a sus notas mediante programación. En este tutorial, lo guiaremos a través del proceso de adjuntar un archivo por su ruta en OneNote usando Java.
@@ -148,3 +154,9 @@ R4: Sí, puede adjuntar archivos a secciones específicas organizándolos dentro
 ### P5: ¿Existe un límite en el tamaño del archivo que puedo adjuntar?
 
 R5: Aspose.Note no impone límites estrictos al tamaño del archivo, pero considera las implicaciones de rendimiento para archivos muy grandes.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -3,10 +3,16 @@ title: Upravte historii stránky v Aspose.Note
 linktitle: Upravte historii stránky v Aspose.Note
 second_title: Aspose.Note .NET API
 description: Naučte se, jak upravit historii stránek v Aspose.Note pro .NET pomocí tohoto komplexního kurzu. Vylepšete své možnosti zpracování dokumentů bez námahy.
-type: docs
 weight: 15
 url: /cs/net/note-manipulation/modify-page-history/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Upravte historii stránky v Aspose.Note
+
 ## Úvod
 
 oblasti zpracování dokumentů se Aspose.Note for .NET ukazuje jako robustní nástroj, který umožňuje vývojářům bez námahy manipulovat se soubory OneNote. Jedním z běžných úkolů, se kterými se vývojáři setkávají, je úprava historie stránek v dokumentech Aspose.Note. Tento výukový program objasňuje proces krok za krokem a provede vás nezbytnými jmennými prostory, předpoklady a úryvky kódu k efektivní změně historie stránky pomocí Aspose.Note pro .NET.
@@ -94,3 +100,10 @@ Odpověď 4: Ano, vývojáři mohou požádat o pomoc a pokyny na fóru podpory 
 ### Q5: Mohu vyzkoušet Aspose.Note pro .NET před nákupem?
 
 Odpověď 5: Vývojáři mohou samozřejmě využít bezplatnou zkušební verzi Aspose.Note pro .NET, aby vyhodnotili její funkce a vhodnost pro jejich projekty.
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

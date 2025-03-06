@@ -3,10 +3,16 @@ title: Ottieni revisioni di pagina in OneNote - Aspose.Note
 linktitle: Ottieni revisioni di pagina in OneNote - Aspose.Note
 second_title: Aspose.Note API Java
 description: Scopri come recuperare le revisioni delle pagine in OneNote utilizzando Aspose.Note per Java. Segui la nostra guida passo passo per monitorare in modo efficiente le modifiche.
-type: docs
 weight: 14
 url: /it/java/onenote-page-manipulation/get-page-revisions/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Ottieni revisioni di pagina in OneNote - Aspose.Note
+
 ## introduzione
 
 OneNote è un potente strumento per organizzare e gestire le tue note, ma a volte è necessario tenere traccia delle modifiche e delle revisioni apportate alle tue pagine. Con Aspose.Note per Java, puoi facilmente recuperare le revisioni delle pagine a livello di codice. In questo tutorial ti guideremo attraverso il processo per ottenere revisioni di pagina in OneNote utilizzando Aspose.Note per Java.
@@ -107,3 +113,9 @@ A3: Sì, è necessario acquistare una licenza per utilizzare Aspose.Note per Jav
 ### Q5: È disponibile una prova gratuita per Aspose.Note per Java?
 
  A5: Sì, puoi accedere a una prova gratuita di Aspose.Note per Java da[sito web](https://releases.aspose.com/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

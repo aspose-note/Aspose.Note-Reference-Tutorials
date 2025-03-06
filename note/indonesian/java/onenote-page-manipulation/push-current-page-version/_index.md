@@ -3,10 +3,16 @@ title: Dorong Versi Halaman Saat Ini di OneNote - Aspose.Note
 linktitle: Dorong Versi Halaman Saat Ini di OneNote - Aspose.Note
 second_title: Aspose.Catatan Java API
 description: Jaga agar konten OneNote tetap segar! Pelajari cara memperbarui riwayat halaman & mengelola versi, termasuk panduan langkah demi langkah & kode. #OneNote #Java #Aspose
-type: docs
 weight: 18
 url: /id/java/onenote-page-manipulation/push-current-page-version/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Dorong Versi Halaman Saat Ini di OneNote - Aspose.Note
+
 ## Perkenalan
 
 Dalam tutorial ini, kita akan mempelajari cara memanfaatkan Aspose.Note untuk Java untuk mendorong versi halaman saat ini di OneNote. Aspose.Note adalah pustaka Java canggih yang memungkinkan pengembang bekerja dengan dokumen Microsoft OneNote secara terprogram, memungkinkan berbagai operasi seperti membuat, memanipulasi, dan mengonversi file OneNote.
@@ -90,3 +96,9 @@ A4: Ya, Aspose.Note untuk Java mendukung konversi file OneNote ke berbagai forma
 ### Q5: Di mana saya bisa mendapatkan dukungan untuk Aspose.Note untuk Java jika saya mengalami masalah?
 
  A5: Anda dapat mengunjungi[Aspose.Catatan forum](https://forum.aspose.com/c/note/28) untuk mencari bantuan dari komunitas atau menghubungi dukungan Aspose secara langsung.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

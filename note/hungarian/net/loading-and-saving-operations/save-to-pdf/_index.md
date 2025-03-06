@@ -3,10 +3,16 @@ title: Mentse PDF-be az Aspose.Note-ban
 linktitle: Mentse PDF-be az Aspose.Note-ban
 second_title: Aspose.Note .NET API
 description: Ismerje meg, hogyan mentheti a Microsoft OneNote dokumentumokat PDF formátumba az Aspose.Note for .NET használatával. Lépésről lépésre bemutató oktatóprogram kódpéldákkal Letter és A4-es oldalelrendezésekhez.
-type: docs
 weight: 26
 url: /hu/net/loading-and-saving-operations/save-to-pdf/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Mentse PDF-be az Aspose.Note-ban
+
 ## Bevezetés
 
 Ebben az oktatóanyagban megvizsgáljuk, hogyan lehet dokumentumokat PDF formátumba menteni az Aspose.Note for .NET segítségével. Az Aspose.Note egy hatékony könyvtár, amely lehetővé teszi a fejlesztők számára, hogy programozottan dolgozzanak Microsoft OneNote fájlokkal. Leírjuk az előfeltételeket, importálunk névtereket, és lépésről lépésre útmutatást adunk a dokumentumok PDF formátumba mentéséhez különböző oldalelrendezésekben.
@@ -110,3 +116,9 @@ Ebben az oktatóanyagban megtanultuk, hogyan lehet dokumentumokat PDF formátumb
 ### 5. kérdés: További segítségre van szüksége?
 
  5. válasz: Nyugodtan tegyen fel kérdéseket, vagy kérjen támogatást az Aspose.Note fórumon[itt](https://forum.aspose.com/c/note/28).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

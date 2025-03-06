@@ -3,10 +3,16 @@ title: Добавить гиперссылку в OneNote с помощью Java
 linktitle: Добавить гиперссылку в OneNote с помощью Java
 second_title: Aspose.Note Java API
 description: Узнайте, как добавлять гиперссылки в OneNote с помощью Java с библиотекой Aspose.Note. Усовершенствуйте свои заметки с помощью интерактивных ссылок без особых усилий.
-type: docs
 weight: 10
 url: /ru/java/onenote-hyperlinks-images/add-hyperlink/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Добавить гиперссылку в OneNote с помощью Java
+
 ## Введение
 
 Добавление гиперссылок в документы OneNote с помощью Java может значительно повысить интерактивность и полезность ваших заметок. В этом руководстве мы шаг за шагом проведем вас через этот процесс, используя библиотеку Aspose.Note для Java. Давайте погрузимся!
@@ -136,3 +142,9 @@ System.out.printf("File saved: %s\n", dataDir + "AddHyperlink_out.pdf");
 ### Вопрос 5. Где я могу найти дополнительную помощь и ресурсы по использованию Aspose.Note?
 
  О5: Вы можете найти обширную документацию, учебные пособия и поддержку сообщества на сайте[Форум Aspose.Note](https://forum.aspose.com/c/note/28).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

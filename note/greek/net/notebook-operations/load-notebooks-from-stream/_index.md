@@ -3,10 +3,16 @@ title: Φορτώστε σημειωματάρια από τη ροή στο Asp
 linktitle: Φορτώστε σημειωματάρια από τη ροή στο Aspose Note .NET
 second_title: Aspose.Note .NET API
 description: Μάθετε πώς να φορτώνετε σημειωματάρια από μια ροή στο Aspose.Note για .NET. Ακολουθήστε αυτόν τον οδηγό βήμα προς βήμα για απρόσκοπτη ενσωμάτωση στις εφαρμογές σας .NET.
-type: docs
 weight: 19
 url: /el/net/notebook-operations/load-notebooks-from-stream/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Φορτώστε σημειωματάρια από τη ροή στο Aspose Note .NET
+
 ## Εισαγωγή
 
 Σε αυτό το σεμινάριο, θα εξερευνήσουμε πώς να φορτώνουμε σημειωματάρια από μια ροή χρησιμοποιώντας το Aspose.Note για .NET. Το Aspose.Note είναι μια ισχυρή βιβλιοθήκη που επιτρέπει στους προγραμματιστές να εργάζονται με αρχεία Microsoft OneNote μέσω προγραμματισμού. Η φόρτωση φορητών υπολογιστών από μια ροή είναι μια συνηθισμένη εργασία όταν ασχολούμαστε με λειτουργίες εισόδου/εξόδου αρχείων σε εφαρμογές .NET.
@@ -92,3 +98,9 @@ A1: Ναι, το Aspose.Note για .NET υποστηρίζει διάφορες
 ### Ε5: Υπάρχει επιλογή για προσωρινή αδειοδότηση;
 
  A5: Ναι, μπορείτε να αποκτήσετε προσωρινή άδεια από[εδώ](https://purchase.aspose.com/temporary-license/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

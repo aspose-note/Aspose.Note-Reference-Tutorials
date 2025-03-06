@@ -3,10 +3,16 @@ title: Stel de standaard alineastijl in OneNote in - Aspose.Note
 linktitle: Stel de standaard alineastijl in OneNote in - Aspose.Note
 second_title: Aspose.Note Java-API
 description: Leer hoe u standaard alineastijlen in OneNote instelt met Aspose.Note voor Java. Volg onze stapsgewijze handleiding voor efficiënte tekstopmaak in uw Java-applicaties.
-type: docs
 weight: 11
 url: /nl/java/onenote-styles/set-default-paragraph-style/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Stel de standaard alineastijl in OneNote in - Aspose.Note
+
 ## Invoering
 
 Aspose.Note voor Java biedt krachtige mogelijkheden voor het manipuleren van tekstopmaak, inclusief het instellen van standaard alineastijlen. Deze zelfstudie leidt u door het proces van het instellen van standaard alineastijlen in OneNote met behulp van Aspose.Note.
@@ -127,3 +133,9 @@ A4: Ja, u kunt Aspose.Note eenvoudig in uw Java-projecten integreren door de noo
 ### V5: Is er een proefversie beschikbaar voor Aspose.Note?
 
  A5: Ja, u heeft toegang tot een gratis proefversie van Aspose.Note van de[website](https://releases.aspose.com/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

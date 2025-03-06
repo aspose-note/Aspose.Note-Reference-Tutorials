@@ -3,10 +3,16 @@ title: Составить таблицу в OneNote — Aspose.Note
 linktitle: Составить таблицу в OneNote — Aspose.Note
 second_title: Aspose.Note Java API
 description: Узнайте, как программно составлять таблицы в OneNote с помощью Aspose.Note для Java. Пошаговое руководство для эффективного создания документов.
-type: docs
 weight: 11
 url: /ru/java/onenote-table-manipulation/compose-table/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Составить таблицу в OneNote — Aspose.Note
+
 ## Введение
 В современной конкурентной деловой среде эффективное общение и сотрудничество являются ключевыми факторами достижения успеха. Aspose.Note для Java предоставляет мощное решение для программного создания документов OneNote и управления ими. В этом уроке мы рассмотрим, как составлять таблицы в OneNote с помощью Aspose.Note для Java. Следуйте пошаговому руководству ниже, чтобы улучшить процесс создания документа.
 ## Предварительные условия
@@ -77,3 +83,9 @@ d.save(Paths.get(dataDir, "ComposeTable_out.one").toString());
  Посетите форум поддержки[здесь](https://forum.aspose.com/c/note/28).
 ### Вопрос: Могу ли я получить временную лицензию?
  Да, вы можете получить временную лицензию[здесь](https://purchase.aspose.com/temporary-license/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -3,10 +3,16 @@ title: Szöveg lektorálási nyelvének beállítása a OneNote-ban – Aspose.N
 linktitle: Szöveg lektorálási nyelvének beállítása a OneNote-ban – Aspose.Note
 second_title: Aspose.Note Java API
 description: Használja ki az Aspose.Note for Java-ban rejlő lehetőségeket! Lépésről lépésre szóló útmutatónkból megtudhatja, hogyan állíthat be zökkenőmentesen a szöveghez a OneNote-ban a korrektúra nyelvét.
-type: docs
 weight: 22
 url: /hu/java/onenote-text-manipulation/set-proofing-language-for-text/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Szöveg lektorálási nyelvének beállítása a OneNote-ban – Aspose.Note
+
 ## Bevezetés
 A szoftverfejlesztés dinamikus világában az Aspose.Note for Java a OneNote-dokumentumok programozott kezelésének és kezelésének hatékony eszközeként tűnik ki. Ha Java-alkalmazásait a OneNote-ban szöveglektorálási nyelv beállításával szeretné továbbfejleszteni, akkor jó helyen jár. Ez az oktatóanyag lépésről lépésre végigvezeti Önt a folyamaton, biztosítva, hogy világosan megértse az egyes fogalmakat.
 ## Előfeltételek
@@ -67,3 +73,9 @@ V: Valósítson meg hibakezelési mechanizmusokat try-catch blokkokkal az esetle
 V: Természetesen! Győződjön meg arról, hogy az Aspose.Note for Java könyvtár megfelelően van konfigurálva a webprojektben.
 ### K: Hol találhatok további példákat és dokumentációt az Aspose.Note for Java-hoz?
  V: Fedezze fel a[dokumentáció](https://reference.aspose.com/note/java/) átfogó forrásokért.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

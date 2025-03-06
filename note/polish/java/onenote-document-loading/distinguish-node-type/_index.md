@@ -3,10 +3,16 @@ title: Rozróżnij typ węzła w dokumencie programu OneNote — Java
 linktitle: Rozróżnij typ węzła w dokumencie programu OneNote — Java
 second_title: Aspose.Note API Java
 description: Dowiedz się, jak rozróżniać typy węzłów w dokumentach OneNote przy użyciu języka Java z Aspose.Note. Zapoznaj się z przewodnikiem krok po kroku i często zadawanymi pytaniami dotyczącymi bezproblemowej integracji.
-type: docs
 weight: 20
 url: /pl/java/onenote-document-loading/distinguish-node-type/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Rozróżnij typ węzła w dokumencie programu OneNote — Java
+
 ## Wstęp
 
 W dziedzinie programowania w języku Java praca z dokumentami OneNote wiąże się z pewnymi wyzwaniami i zawiłościami. Na szczęście Aspose.Note dla Java zapewnia kompleksowe rozwiązanie do płynnej nawigacji, manipulowania i wydobywania danych z tych dokumentów. W tym samouczku zajmiemy się jednym konkretnym aspektem: rozróżnianiem typów węzłów w dokumencie OneNote przy użyciu języka Java. Pod koniec tego przewodnika będziesz mieć solidną wiedzę, jak identyfikować różne typy węzłów i efektywnie wykorzystywać tę wiedzę w aplikacjach Java.
@@ -74,3 +80,10 @@ O3: Oczywiście, Aspose.Note dla Java pozwala z łatwością wyodrębniać tekst
 ### P5: Czy dostępna jest bezpłatna wersja próbna Aspose.Note dla Java?
 
  Odpowiedź 5: Tak, możesz poznać funkcje Aspose.Note dla Java w ramach bezpłatnej wersji próbnej dostępnej pod adresem[ten link](https://releases.aspose.com/).
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

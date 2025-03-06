@@ -3,10 +3,16 @@ title: معالجة النص في OneNote باستخدام Aspose.Note لـ .NET
 linktitle: التلاعب بالنص
 second_title: Aspose.Note .NET API
 description: قم بتحويل مستندات OneNote الخاصة بك باستخدام Aspose.Note لـ .NET! تعلم تقنيات معالجة النص، بدءًا من تطبيق التعداد النقطي والترقيم وحتى تغيير الأنماط.
-type: docs
 weight: 31
 url: /ar/net/text-manipulation/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# معالجة النص في OneNote باستخدام Aspose.Note لـ .NET
+
 
 ## مقدمة
 
@@ -110,3 +116,9 @@ url: /ar/net/text-manipulation/
 اكتشف قوة Aspose.Note لـ .NET من خلال دليلنا خطوة بخطوة حول تعيين أنماط الفقرة الافتراضية. ارفع مهاراتك في التعامل مع المستندات دون عناء.
 ### [قم بتعيين لغة التدقيق للنص في Aspose.Note](./set-proofing-language-text/)
 أطلق العنان للمعالجة القوية للنص باستخدام Aspose.Note لـ .NET. قم بتعيين لغة التدقيق بسهولة من خلال إرشادات خطوة بخطوة. قم بتحسين مشاريع .NET الخاصة بك الآن!
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

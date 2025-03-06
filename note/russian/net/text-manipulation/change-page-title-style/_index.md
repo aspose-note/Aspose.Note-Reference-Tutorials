@@ -3,10 +3,16 @@ title: Изменить стиль заголовка страницы в Aspose
 linktitle: Изменить стиль заголовка страницы в Aspose.Note
 second_title: Aspose.Note .NET API
 description: Преобразуйте свои .NET-документы с помощью Aspose.Note! Научитесь легко менять стили заголовков страниц. Поднимите эстетику за несколько простых шагов.
-type: docs
 weight: 13
 url: /ru/net/text-manipulation/change-page-title-style/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Изменить стиль заголовка страницы в Aspose.Note
+
 ## Введение
 Вы хотите повысить визуальную привлекательность своих .NET-документов с помощью динамического оформления заголовков страниц? Aspose.Note для .NET предлагает простое решение, позволяющее легко изменить стиль заголовков страниц. В этом уроке мы шаг за шагом проведем вас через этот процесс, гарантируя, что вы сможете улучшить эстетику своих документов без каких-либо хлопот.
 ## Предварительные условия
@@ -70,3 +76,9 @@ Console.WriteLine("\nTitle's styles are changed successfully.");
  Вы можете купить лицензию на Aspose.Note[здесь](https://purchase.aspose.com/buy).
 ### Нужна ли мне временная лицензия для целей тестирования?
  Да, если вы тестируете Aspose.Note, вы можете получить временную лицензию.[здесь](https://purchase.aspose.com/temporary-license/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -3,10 +3,16 @@ title: 在 OneNote 中設定文字校對語言 - Aspose.Note
 linktitle: 在 OneNote 中設定文字校對語言 - Aspose.Note
 second_title: Aspose.Note Java API
 description: 釋放 Aspose.Note for Java 的潛力！透過我們的逐步指南，了解如何在 OneNote 中無縫設定文字校對語言。
-type: docs
 weight: 22
 url: /zh-hant/java/onenote-text-manipulation/set-proofing-language-for-text/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# 在 OneNote 中設定文字校對語言 - Aspose.Note
+
 ## 介紹
 在軟體開發的動態世界中，Aspose.Note for Java 作為以程式設計方式管理和操作 OneNote 文件的強大工具脫穎而出。如果您希望透過在 OneNote 中設定文字校對語言的能力來增強 Java 應用程序，那麼您來對地方了。本教學將逐步引導您完成整個過程，確保您清楚掌握每個概念。
 ## 先決條件
@@ -67,3 +73,9 @@ document.save(Paths.get(dataDir, "SetProofingLanguageForText.one").toString());
 答：當然可以！確保您的 Web 專案中正確配置了 Aspose.Note for Java 程式庫。
 ### Q：在哪裡可以找到 Aspose.Note for Java 的其他範例和文件？
 答：探索[文件](https://reference.aspose.com/note/java/)以獲得綜合資源。
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

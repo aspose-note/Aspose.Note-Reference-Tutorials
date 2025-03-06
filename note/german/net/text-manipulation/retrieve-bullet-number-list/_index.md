@@ -3,10 +3,16 @@ title: Rufen Sie eine Aufzählungs- oder Nummernliste in Aspose.Note Text ab
 linktitle: Rufen Sie eine Aufzählungs- oder Nummernliste in Aspose.Note Text ab
 second_title: Aspose.Note .NET-API
 description: Nutzen Sie das Potenzial von Aspose.Note für .NET mit unserer Schritt-für-Schritt-Anleitung zum Abrufen von Aufzählungs- oder Nummernlisten. Verbessern Sie Ihre Fähigkeiten zur Bearbeitung von OneNote-Dokumenten!
-type: docs
 weight: 23
 url: /de/net/text-manipulation/retrieve-bullet-number-list/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Rufen Sie eine Aufzählungs- oder Nummernliste in Aspose.Note Text ab
+
 ## Einführung
 Willkommen in der Welt von Aspose.Note für .NET, einer robusten und vielseitigen Bibliothek, die Entwicklern die mühelose Handhabung von OneNote-Dokumenten ermöglicht. In diesem Tutorial befassen wir uns mit dem Prozess des Abrufens von Aufzählungs- oder Nummernlisten mit Aspose.Note für .NET. Egal, ob Sie ein erfahrener Entwickler oder ein begeisterter Programmierer sind, dieser Leitfaden vermittelt Ihnen das Wissen, um durch die Feinheiten der Arbeit mit Listen in Aspose.Note zu navigieren.
 ## Voraussetzungen
@@ -87,3 +93,9 @@ Ja, Aspose.Note unterstützt eine Vielzahl von OneNote-Formaten und gewährleist
 Sie können das erkunden und Hilfe suchen[Aspose.Note-Forum](https://forum.aspose.com/c/note/28) für alle Fragen oder Probleme, auf die Sie stoßen könnten.
 ### Gibt es eine kostenlose Testversion von Aspose.Note für .NET?
  Ja, Sie können auf die kostenlose Testversion von Aspose.Note für .NET zugreifen[Hier](https://releases.aspose.com/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

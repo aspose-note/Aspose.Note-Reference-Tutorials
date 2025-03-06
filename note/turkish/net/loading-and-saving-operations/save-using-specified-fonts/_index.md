@@ -3,10 +3,16 @@ title: Aspose.Note'ta Belirtilen Yazı Tiplerini Kullanarak Kaydetme
 linktitle: Aspose.Note'ta Belirtilen Yazı Tiplerini Kullanarak Kaydetme
 second_title: Aspose.Note .NET API'si
 description: Aspose.Note for .NET'te belirli yazı tiplerine sahip belgeleri nasıl kaydedeceğinizi öğrenin. Tutarlı belge biçimlendirmesi için yazı tipi ayarlarını kolayca özelleştirin.
-type: docs
 weight: 28
 url: /tr/net/loading-and-saving-operations/save-using-specified-fonts/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Aspose.Note'ta Belirtilen Yazı Tiplerini Kullanarak Kaydetme
+
 ## giriiş
 
 Bu eğitimde, Aspose.Note for .NET'te belirtilen yazı tiplerini kullanarak belgeleri nasıl kaydedeceğimizi öğreneceğiz. Bunu başarmak için farklı yöntemleri adım adım inceleyeceğiz.
@@ -131,3 +137,9 @@ Cevap4: Evet, Aspose.Note, belgenin taşınabilirliğini ve farklı platformlard
 ### S5: Aspose.Note ile ilgili daha fazla yardımı nereden alabilirim?
 
  Cevap5: Daha fazla yardım veya teknik destek için şu adresi ziyaret edebilirsiniz:[Aspose.Note forumu](https://forum.aspose.com/c/note/28).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

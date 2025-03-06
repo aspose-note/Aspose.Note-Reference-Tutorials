@@ -3,10 +3,16 @@ title: Verwenden Sie die Aufteilungsalgorithmus-Methode in OneNote – Aspose.No
 linktitle: Verwenden Sie die Aufteilungsalgorithmus-Methode in OneNote – Aspose.Note
 second_title: Aspose.Note Java API
 description: Meistern Sie die Aufteilung von OneNote-Dokumenten in Java mit Aspose.Note! Wählen Sie Algorithmen, steuern Sie Seitenumbrüche und speichern Sie ganz einfach als PDF. Code enthalten! #OneNote #Java #Aspose
-type: docs
 weight: 26
 url: /de/java/onenote-document-saving/use-splitting-algorithm-method/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Verwenden Sie die Aufteilungsalgorithmus-Methode in OneNote – Aspose.Note
+
 ## Einführung
 
 In diesem Tutorial befassen wir uns intensiv mit der Verwendung der Splitting-Algorithmus-Methode in Aspose.Note für Java. Aspose.Note ist eine leistungsstarke Bibliothek, die es Entwicklern ermöglicht, programmgesteuert mit Microsoft OneNote-Dateien zu arbeiten. Die Verwendung des Aufteilungsalgorithmus kann besonders nützlich sein, wenn Sie OneNote-Dokumente bearbeiten und exportieren müssen, insbesondere wenn Sie mit komplexen Layouts oder großen Dateien arbeiten.
@@ -101,3 +107,9 @@ A2: Auf jeden Fall! Aspose.Note bietet robuste Funktionen für den effizienten U
 ### F5: Wie kann ich eine temporäre Lizenz für Aspose.Note erhalten?
 
  A5: Sie können eine anfordern[temporäre Lizenz](https://purchase.aspose.com/temporary-license/) um das Produkt im Rahmen einer Testphase zu bewerten.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -3,10 +3,16 @@ title: Buat Dokumen OneNote dengan Teks Kaya Sederhana di Java
 linktitle: Buat Dokumen OneNote dengan Teks Kaya Sederhana di Java
 second_title: Aspose.Catatan Java API
 description: Pelajari cara membuat dokumen OneNote dengan teks kaya menggunakan Aspose.Note Java. Integrasikan fungsi ini ke dalam aplikasi Java Anda untuk pengelolaan dokumen yang efisien.
-type: docs
 weight: 12
 url: /id/java/onenote-document-manipulation/create-onenote-document-simple-rich-text/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Buat Dokumen OneNote dengan Teks Kaya Sederhana di Java
+
 ## Perkenalan
 
 Di era digital saat ini, kebutuhan untuk mengelola dan memanipulasi dokumen secara efisien adalah hal yang terpenting. Aspose.Note untuk Java muncul sebagai alat canggih yang memungkinkan pengembang bekerja dengan lancar dengan dokumen OneNote dalam aplikasi Java. Tutorial ini bertujuan untuk memberikan panduan komprehensif tentang cara membuat dokumen OneNote dengan teks kaya sederhana menggunakan Aspose.Note untuk Java.
@@ -164,3 +170,9 @@ A4: Ya, Aspose.Note untuk Java dapat diintegrasikan secara mulus dengan pustaka 
 ### Q5: Apakah Aspose.Note untuk Java menyediakan dokumentasi dan dukungan yang komprehensif?
 
  A5: Tentu saja, Anda dapat menemukan dokumentasi terperinci dan dukungan khusus untuk Aspose.Note untuk Java di[forum dukungan](https://forum.aspose.com/c/note/28).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

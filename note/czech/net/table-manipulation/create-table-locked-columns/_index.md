@@ -3,10 +3,16 @@ title: Vytvořte tabulku s uzamčenými sloupci pomocí Aspose.Note
 linktitle: Vytvořte tabulku s uzamčenými sloupci pomocí Aspose.Note
 second_title: Aspose.Note .NET API
 description: Naučte se vytvářet tabulky s uzamčenými sloupci pomocí Aspose.Note pro .NET. Podrobný průvodce pro efektivní úlohy zpracování dokumentů.
-type: docs
 weight: 12
 url: /cs/net/table-manipulation/create-table-locked-columns/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Vytvořte tabulku s uzamčenými sloupci pomocí Aspose.Note
+
 ## Úvod
 
 Vytváření tabulek s uzamčenými sloupci je běžným požadavkem v aplikacích pro zpracování dokumentů. Aspose.Note pro .NET poskytuje výkonné nástroje pro efektivní splnění tohoto úkolu. V tomto tutoriálu vás krok za krokem provedeme procesem vytváření tabulky se zamčenými sloupci pomocí Aspose.Note pro .NET.
@@ -147,3 +153,9 @@ A4: Ano, máte přístup k technické podpoře prostřednictvím[Aspose.Note fó
 ### Q5: Mohu vyzkoušet Aspose.Note pro .NET před nákupem?
 
  A5: Ano, můžete si stáhnout bezplatnou zkušební verzi Aspose.Note pro .NET z[tady](https://releases.aspose.com/) vyhodnotit jeho vlastnosti a kompatibilitu s vašimi požadavky.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

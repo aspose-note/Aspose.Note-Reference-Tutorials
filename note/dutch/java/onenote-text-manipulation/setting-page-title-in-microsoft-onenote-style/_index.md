@@ -3,10 +3,16 @@ title: Paginatitel instellen in Microsoft OneNote-stijl - Aspose.Note
 linktitle: Paginatitel instellen in Microsoft OneNote-stijl - Aspose.Note
 second_title: Aspose.Note Java-API
 description: Leer hoe u paginatitels in Microsoft OneNote-stijl instelt met Aspose.Note voor Java. Verbeter uw Java-documenten met professionele opmaak.
-type: docs
 weight: 23
 url: /nl/java/onenote-text-manipulation/setting-page-title-in-microsoft-onenote-style/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Paginatitel instellen in Microsoft OneNote-stijl - Aspose.Note
+
 ## Invoering
 In de dynamische wereld van Java-ontwikkeling is het creëren van visueel aantrekkelijke en gestructureerde documenten cruciaal. Als u uw Java-toepassingen wilt uitbreiden met paginatitels in Microsoft OneNote-stijl, is Aspose.Note voor Java uw beste oplossing. In deze uitgebreide zelfstudie leiden we u door het proces van het instellen van paginatitels in de OneNote-stijl met behulp van Aspose.Note, zodat uw documenten opvallen met een professioneel tintje.
 ## Vereisten
@@ -72,3 +78,9 @@ Aspose.Note is ontworpen om naadloos samen te werken met andere Java-bibliotheke
  Zoek hulp bij de Aspose.Note-gemeenschap op[Aspose.Note-forum](https://forum.aspose.com/c/note/28).
 ### Is er een proefversie beschikbaar?
  Ja, u kunt de mogelijkheden van Aspose.Note verkennen met een gratis proefperiode van[hier](https://releases.aspose.com/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

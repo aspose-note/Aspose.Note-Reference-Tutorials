@@ -3,10 +3,16 @@ title: แก้ไขข้อขัดแย้งในเอกสาร Asp
 linktitle: แก้ไขข้อขัดแย้งในเอกสาร Aspose.Note
 second_title: Aspose.Note .NET API
 description: เรียนรู้วิธีแก้ไขข้อขัดแย้งในเอกสาร Aspose.Note โดยใช้ .NET คำแนะนำทีละขั้นตอนเพื่อการแก้ไขข้อขัดแย้งที่มีประสิทธิภาพ
-type: docs
 weight: 10
 url: /th/net/note-manipulation/conflict-page-resolution/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# แก้ไขข้อขัดแย้งในเอกสาร Aspose.Note
+
 ## การแนะนำ
 
 การแก้ไขข้อขัดแย้งในเอกสาร Aspose.Note ถือเป็นงานที่สำคัญ โดยเฉพาะอย่างยิ่งเมื่อต้องจัดการกับโครงการที่มีการทำงานร่วมกันหรือผู้ร่วมให้ข้อมูลหลายคน ข้อขัดแย้งเหล่านี้อาจเกิดขึ้นเนื่องจากการแก้ไขพร้อมกัน เวอร์ชันที่แตกต่างกัน หรือความคลาดเคลื่อนอื่นๆ ภายในเอกสาร ในบทช่วยสอนนี้ เราจะเจาะลึกกระบวนการระบุและแก้ไขข้อขัดแย้งภายในเอกสาร Aspose.Note โดยใช้ .NET เมื่อทำตามขั้นตอนเหล่านี้ คุณจะพร้อมที่จะจัดการข้อขัดแย้งอย่างมีประสิทธิภาพและรับประกันความสมบูรณ์ของเอกสาร
@@ -100,3 +106,9 @@ A3: ในขณะที่ Aspose.Note มีความสามารถใ
 ### คำถามที่ 5: Aspose.Note รองรับฟีเจอร์การทำงานร่วมกันแบบเรียลไทม์หรือไม่
 
 A5: Aspose.Note มุ่งเน้นไปที่การจัดการเอกสารเป็นหลัก และไม่มีฟีเจอร์การทำงานร่วมกันแบบเรียลไทม์นอกกรอบ
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

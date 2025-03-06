@@ -3,10 +3,16 @@ title: Tệp đính kèm và truy xuất trong tài liệu OneNote
 linktitle: Tệp đính kèm
 second_title: Aspose.Note .NET API
 description: Tăng cường các ứng dụng .NET của bạn với Aspose.Note! Khám phá các hướng dẫn về cách đính kèm tệp, đặt biểu tượng và truy xuất tệp đính kèm để nâng cao khả năng phát triển.
-type: docs
 weight: 21
 url: /vi/net/attachments/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Tệp đính kèm và truy xuất trong tài liệu OneNote
+
 ## Giới thiệu
 
 Bạn đã sẵn sàng đưa ứng dụng .NET của mình lên một tầm cao mới chưa? Đi sâu vào thế giới của Aspose.Note và mở khóa vô số khả năng. Danh sách hướng dẫn toàn diện này sẽ hướng dẫn bạn các tính năng chính, tập trung vào việc đính kèm tệp, cài đặt biểu tượng và truy xuất tệp đính kèm một cách liền mạch.
@@ -37,3 +43,9 @@ Tìm hiểu cách đính kèm tệp và đặt biểu tượng trong Aspose.Note
 Tìm hiểu cách đính kèm tệp vào tài liệu Microsoft OneNote theo chương trình bằng Aspose.Note for .NET. Đơn giản hóa quá trình phát triển của bạn với hướng dẫn toàn diện này.
 ### [Truy xuất các tệp đính kèm bằng Aspose.Note](./retrieve-attached-files/)
 Tìm hiểu cách truy xuất tệp đính kèm từ tài liệu Microsoft OneNote bằng Aspose.Note for .NET. Làm theo các bước để tải, nhận nút và lặp lại thông qua các tệp đính kèm.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

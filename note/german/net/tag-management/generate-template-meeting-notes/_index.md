@@ -3,10 +3,16 @@ title: Generieren Sie eine Vorlage für Besprechungsnotizen mit Aspose.Note
 linktitle: Generieren Sie eine Vorlage für Besprechungsnotizen mit Aspose.Note
 second_title: Aspose.Note .NET-API
 description: Erfahren Sie, wie Sie mit Aspose.Note für .NET strukturierte Besprechungsnotizen erstellen. Dieses Tutorial bietet eine Schritt-für-Schritt-Anleitung mit Codebeispielen.
-type: docs
 weight: 13
 url: /de/net/tag-management/generate-template-meeting-notes/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Generieren Sie eine Vorlage für Besprechungsnotizen mit Aspose.Note
+
 ## Einführung
 
 In diesem Tutorial führen wir den Prozess der Generierung einer Vorlage für Besprechungsnotizen mit Aspose.Note für .NET durch. Diese Bibliothek bietet leistungsstarke Tools zum programmgesteuerten Erstellen, Bearbeiten und Bearbeiten von OneNote-Dokumenten.
@@ -126,3 +132,9 @@ A4: Ja, Aspose.Note für .NET unterstützt eine Vielzahl von Dokumentformaten, e
 
  A5: Ja, Sie können eine kostenlose Testversion herunterladen[dieser Link](https://releases.aspose.com/).
    
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

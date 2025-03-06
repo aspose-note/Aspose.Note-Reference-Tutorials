@@ -3,10 +3,16 @@ title: إنشاء جدول بالأعمدة المقفلة باستخدام Aspo
 linktitle: إنشاء جدول بالأعمدة المقفلة باستخدام Aspose.Note
 second_title: Aspose.Note .NET API
 description: تعرف على كيفية إنشاء جداول ذات أعمدة مقفلة باستخدام Aspose.Note لـ .NET. دليل خطوة بخطوة لمهام معالجة المستندات بكفاءة.
-type: docs
 weight: 12
 url: /ar/net/table-manipulation/create-table-locked-columns/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# إنشاء جدول بالأعمدة المقفلة باستخدام Aspose.Note
+
 ## مقدمة
 
 يعد إنشاء الجداول ذات الأعمدة المقفلة متطلبًا شائعًا في تطبيقات معالجة المستندات. يوفر Aspose.Note for .NET أدوات قوية لإنجاز هذه المهمة بكفاءة. في هذا البرنامج التعليمي، سنرشدك خلال عملية إنشاء جدول بأعمدة مقفلة خطوة بخطوة باستخدام Aspose.Note لـ .NET.
@@ -147,3 +153,9 @@ Console.WriteLine("\nTable with locked columns created successfully.\nFile saved
 ### س5: هل يمكنني تجربة Aspose.Note لـ .NET قبل الشراء؟
 
  ج5: نعم، يمكنك تنزيل نسخة تجريبية مجانية من Aspose.Note لـ .NET من[هنا](https://releases.aspose.com/) لتقييم مميزاته ومدى توافقه مع متطلباتك.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

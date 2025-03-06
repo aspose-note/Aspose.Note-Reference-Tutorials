@@ -3,10 +3,16 @@ title: Aspose.Note'u kullanarak Kök ve Alt Sayfaları Olan Belgeler Oluşturun
 linktitle: Aspose.Note'u kullanarak Kök ve Alt Sayfaları Olan Belgeler Oluşturun
 second_title: Aspose.Note .NET API'si
 description: Hiyerarşik yapılara sahip dinamik OneNote belgeleri oluşturmak için Aspose.Note for .NET'i nasıl kullanacağınızı öğrenin.
-type: docs
 weight: 11
 url: /tr/net/note-manipulation/create-documents-root-sub-pages/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Aspose.Note'u kullanarak Kök ve Alt Sayfaları Olan Belgeler Oluşturun
+
 ## giriiş
 
 Aspose.Note for .NET'i kullanarak kök ve alt sayfalarla belgeler oluşturma eğitimimize hoş geldiniz! Aspose.Note, geliştiricilerin Microsoft OneNote dosyalarıyla programlı olarak çalışmasına olanak tanıyan, OneNote belgelerinin oluşturulmasına, değiştirilmesine ve dönüştürülmesine olanak tanıyan güçlü bir kitaplıktır.
@@ -130,3 +136,9 @@ Cevap4: Aspose.Note öncelikle şirket içi geliştirmeye odaklanır, ancak bunu
 ### S5: Aspose.Note için teknik destek mevcut mu?
 
 C5: Evet, Aspose, soru sorabileceğiniz ve yardım alabileceğiniz forumları aracılığıyla özel teknik destek sağlıyor.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -3,10 +3,16 @@ title: احفظ إلى PDF باستخدام إعدادات الصفحة في One
 linktitle: احفظ إلى PDF باستخدام إعدادات الصفحة في OneNote - Aspose.Note
 second_title: Aspose.Note جافا API
 description: تعرف على كيفية حفظ مستندات OneNote إلى PDF في Java باستخدام مكتبة Aspose.Note. دليل خطوة بخطوة مع أمثلة التعليمات البرمجية لإعدادات الصفحة المختلفة.
-type: docs
 weight: 19
 url: /ar/java/onenote-document-saving/save-to-pdf-using-page-settings/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# احفظ إلى PDF باستخدام إعدادات الصفحة في OneNote - Aspose.Note
+
 ## مقدمة
 
 في هذا البرنامج التعليمي، سوف نتعلم كيفية حفظ مستندات OneNote بتنسيق PDF باستخدام إعدادات صفحة مختلفة باستخدام Aspose.Note لـ Java. سنغطي طريقتين: الحفظ باستخدام إعدادات صفحة Letter والحفظ باستخدام إعدادات صفحة A4 بدون حد للارتفاع.
@@ -112,3 +118,9 @@ oneFile.save(dst, options);
 ### س5: هل هناك أي نسخة تجريبية متاحة لأغراض الاختبار؟
 
 ج5: نعم، يمكنك الحصول على نسخة تجريبية مجانية من Aspose.Note لـ Java من موقع الويب.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

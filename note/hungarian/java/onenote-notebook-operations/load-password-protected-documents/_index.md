@@ -3,10 +3,16 @@ title: Jelszóval védett dokumentumok betöltése a OneNote-ba – Aspose.Note
 linktitle: Jelszóval védett dokumentumok betöltése a OneNote-ba – Aspose.Note
 second_title: Aspose.Note Java API
 description: Ismerje meg, hogyan tölthet be jelszóval védett dokumentumokat a OneNote-ba az Aspose.Note for Java használatával. Kövesse lépésenkénti útmutatónkat a zökkenőmentes integráció érdekében.
-type: docs
 weight: 22
 url: /hu/java/onenote-notebook-operations/load-password-protected-documents/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Jelszóval védett dokumentumok betöltése a OneNote-ba – Aspose.Note
+
 ## Bevezetés
 
 Ebben az oktatóanyagban végigvezetjük a jelszóval védett dokumentumok OneNote-ba való betöltésének folyamatát az Aspose.Note for Java használatával. Az Aspose.Note egy hatékony Java-könyvtár, amely lehetővé teszi a fejlesztők számára, hogy programozottan dolgozzanak a Microsoft OneNote fájlokkal, lehetővé téve különféle műveleteket, például dokumentumok betöltését, szerkesztését és mentését.
@@ -79,3 +85,9 @@ V: Igen, az Aspose.Note támogatja a jelszóval védett vagy titkosított dokume
 ### 5. kérdés: Elérhető az Aspose.Note próbaverziója?
 
 V: Igen, letöltheti az Aspose.Note ingyenes próbaverzióját a webhelyről[itt](https://releases.aspose.com/) hogy vásárlás előtt ismerkedjen meg funkcióival.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

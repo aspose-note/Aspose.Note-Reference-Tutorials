@@ -3,10 +3,16 @@ title: Zvládnutí integrace OneNotu s Aspose.Note pro .NET
 linktitle: Manipulace s poznámkami
 second_title: Aspose.Note .NET API
 description: Odemkněte sílu Aspose.Note pro .NET pomocí našich výukových programů zaměřených na OneNote. Vyřešte konflikty, vytvářejte dynamické dokumenty a prozkoumejte efektivní manipulaci se stránkami.
-type: docs
 weight: 27
 url: /cs/net/note-manipulation/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Zvládnutí integrace OneNotu s Aspose.Note pro .NET
+
 
 ## Úvod
 
@@ -69,3 +75,9 @@ Naučte se, jak efektivně spravovat revize v dokumentech Aspose.Note pomocí As
 Naučte se, jak nastavit barvu pozadí stránek v dokumentech Aspose.Note pomocí programovacího jazyka C# s podrobným průvodcem.
 ### [Práce s revizemi stránek – tipy Aspose.Note](./working-with-page-revisions/)
 Naučte se spravovat revize stránek Microsoft OneNote pomocí Aspose.Note. Podrobný průvodce pro bezproblémovou integraci a správu verzí ve vašich aplikacích .NET.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

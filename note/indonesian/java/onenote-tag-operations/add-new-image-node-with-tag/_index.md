@@ -3,10 +3,16 @@ title: Tambahkan Node Gambar Baru dengan Tag di OneNote - Aspose.Note
 linktitle: Tambahkan Node Gambar Baru dengan Tag di OneNote - Aspose.Note
 second_title: Aspose.Catatan Java API
 description: Pelajari cara menambahkan simpul gambar baru dengan tag di OneNote menggunakan Aspose.Note untuk Java. Tingkatkan keterampilan pemrograman Java Anda dengan mudah.
-type: docs
 weight: 10
 url: /id/java/onenote-tag-operations/add-new-image-node-with-tag/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Tambahkan Node Gambar Baru dengan Tag di OneNote - Aspose.Note
+
 ## Perkenalan
 Di bidang pemrograman Java, Aspose.Note menonjol sebagai alat yang ampuh untuk menangani dokumen OneNote dengan mudah. Jika Anda ingin meningkatkan keterampilan Anda dan mempelajari cara menambahkan simpul gambar baru dengan tag di OneNote menggunakan Aspose.Note, Anda datang ke tempat yang tepat. Panduan langkah demi langkah ini akan memandu Anda melalui prosesnya, memastikan Anda memahami setiap konsep secara menyeluruh.
 ## Prasyarat
@@ -96,3 +102,9 @@ Selamat! Anda telah berhasil menambahkan simpul gambar baru dengan tag di OneNot
  Kunjungi forum komunitas[Di Sini](https://forum.aspose.com/c/note/28) untuk dukungan.
 ### Apakah saya memerlukan lisensi sementara?
  Jika diperlukan, Anda bisa mendapatkan lisensi sementara[Di Sini](https://purchase.aspose.com/temporary-license/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

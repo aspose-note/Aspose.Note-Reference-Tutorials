@@ -3,10 +3,16 @@ title: Speichern Sie mit angegebenen Schriftarten in Aspose.Note
 linktitle: Speichern Sie mit angegebenen Schriftarten in Aspose.Note
 second_title: Aspose.Note .NET-API
 description: Erfahren Sie, wie Sie Dokumente mit bestimmten Schriftarten in Aspose.Note für .NET speichern. Passen Sie die Schriftarteinstellungen einfach an, um eine konsistente Dokumentformatierung zu gewährleisten.
-type: docs
 weight: 28
 url: /de/net/loading-and-saving-operations/save-using-specified-fonts/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Speichern Sie mit angegebenen Schriftarten in Aspose.Note
+
 ## Einführung
 
 In diesem Tutorial erfahren Sie, wie Sie Dokumente mit bestimmten Schriftarten in Aspose.Note für .NET speichern. Wir werden Schritt für Schritt verschiedene Methoden erkunden, um dies zu erreichen.
@@ -131,3 +137,9 @@ A4: Ja, Aspose.Note ermöglicht das Einbetten von Schriftarten, um die Portabili
 ### F5: Wo kann ich weitere Unterstützung zu Aspose.Note erhalten?
 
  A5: Für weitere Hilfe oder technischen Support können Sie die besuchen[Aspose.Note-Forum](https://forum.aspose.com/c/note/28).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

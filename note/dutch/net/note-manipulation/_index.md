@@ -3,10 +3,16 @@ title: Beheersing van OneNote-integratie met Aspose.Note voor .NET
 linktitle: Let op manipulatie
 second_title: Aspose.Note .NET API
 description: Ontgrendel de kracht van Aspose.Note voor .NET met onze op OneNote gerichte tutorials. Los conflicten op, maak dynamische documenten en verken efficiënte paginamanipulatie.
-type: docs
 weight: 27
 url: /nl/net/note-manipulation/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Beheersing van OneNote-integratie met Aspose.Note voor .NET
+
 
 ## Invoering
 
@@ -69,3 +75,9 @@ Leer hoe u revisies in Aspose.Note-documenten effectief kunt beheren met Aspose.
 Leer hoe u de achtergrondkleur van pagina's in Aspose.Note-documenten instelt met behulp van de programmeertaal C# met stapsgewijze handleiding.
 ### [Werken met paginarevisies - Aspose.Note Tips](./working-with-page-revisions/)
 Leer hoe u paginarevisies van Microsoft OneNote kunt beheren met Aspose.Note. Stapsgewijze handleiding voor naadloze integratie en versiebeheer in uw .NET-applicaties.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

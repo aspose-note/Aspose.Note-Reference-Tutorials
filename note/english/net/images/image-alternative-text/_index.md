@@ -3,10 +3,16 @@ title: Add Alternative Text to Images in Aspose.Note
 linktitle: Add Alternative Text to Images in Aspose.Note
 second_title: Aspose.Note .NET API
 description: Learn how to add alternative text to images in Aspose.Note for .NET easily. Enhance accessibility and improve user experience with this step-by-step guide.
-type: docs
 weight: 14
 url: /net/images/image-alternative-text/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Add Alternative Text to Images in Aspose.Note
+
 ## Introduction
 
 Adding alternative text to images in Aspose.Note for .NET can enhance accessibility and improve the understanding of images for users with disabilities. In this tutorial, we'll guide you through the process step by step.
@@ -97,3 +103,10 @@ A4: You can get support for Aspose.Note by visiting the [Aspose.Note forum](http
 ### Q5: Is there a free trial available for Aspose.Note?
 
 A5: Yes, you can avail of a free trial of Aspose.Note by visiting [here](https://releases.aspose.com/).
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

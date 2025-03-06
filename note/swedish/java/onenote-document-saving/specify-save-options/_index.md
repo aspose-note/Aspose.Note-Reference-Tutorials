@@ -3,10 +3,16 @@ title: Ange Spara alternativ i OneNote - Aspose.Note
 linktitle: Ange Spara alternativ i OneNote - Aspose.Note
 second_title: Aspose.Note Java API
 description: Lär dig hur du anger sparalternativ i OneNote med Aspose.Note för Java. Anpassa inställningarna för sidindex, antal och komprimering utan ansträngning.
-type: docs
 weight: 24
 url: /sv/java/onenote-document-saving/specify-save-options/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Ange Spara alternativ i OneNote - Aspose.Note
+
 ## Introduktion
 
 den här handledningen kommer vi att lära oss hur du anger sparalternativ i OneNote med Aspose.Note för Java. Aspose.Note är ett kraftfullt Java-bibliotek som låter utvecklare skapa, manipulera och konvertera OneNote-dokument programmatiskt. Med Aspose.Note kan du enkelt styra olika sparalternativ för att anpassa utdata enligt dina krav.
@@ -109,3 +115,9 @@ S4: Ja, Aspose.Note tillhandahåller API:er för kryptering och dekryptering av 
 ### F5: Är Aspose.Note lämplig för kommersiellt bruk?
 
 S5: Ja, Aspose.Note kan användas för kommersiella ändamål genom att köpa en licens.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

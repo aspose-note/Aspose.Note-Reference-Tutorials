@@ -3,10 +3,16 @@ title: Erstellen Sie Dokumente mit Stamm- und Unterseiten mit Aspose.Note
 linktitle: Erstellen Sie Dokumente mit Stamm- und Unterseiten mit Aspose.Note
 second_title: Aspose.Note .NET-API
 description: Erfahren Sie, wie Sie mit Aspose.Note für .NET dynamische OneNote-Dokumente mit hierarchischen Strukturen erstellen.
-type: docs
 weight: 11
 url: /de/net/note-manipulation/create-documents-root-sub-pages/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Erstellen Sie Dokumente mit Stamm- und Unterseiten mit Aspose.Note
+
 ## Einführung
 
 Willkommen zu unserem Tutorial zum Erstellen von Dokumenten mit Stamm- und Unterseiten mit Aspose.Note für .NET! Aspose.Note ist eine leistungsstarke Bibliothek, die es Entwicklern ermöglicht, programmgesteuert mit Microsoft OneNote-Dateien zu arbeiten und so OneNote-Dokumente zu erstellen, zu bearbeiten und zu konvertieren.
@@ -130,3 +136,9 @@ A4: Aspose.Note konzentriert sich hauptsächlich auf die lokale Entwicklung, Sie
 ### F5: Ist technischer Support für Aspose.Note verfügbar?
 
 A5: Ja, Aspose bietet über sein Forum speziellen technischen Support, in dem Sie Fragen stellen und Hilfe erhalten können.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -3,10 +3,16 @@ title: Convertir des blocs-notes en image dans Aspose Note .NET
 linktitle: Convertir des blocs-notes en image dans Aspose Note .NET
 second_title: API Aspose.Note .NET
 description: Découvrez comment convertir des blocs-notes OneNote en images à l’aide d’Aspose.Note pour .NET. Suivez ce guide étape par étape pour une intégration transparente.
-type: docs
 weight: 11
 url: /fr/net/notebook-operations/convert-to-image/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Convertir des blocs-notes en image dans Aspose Note .NET
+
 ## Introduction
 
 Dans ce didacticiel, nous explorerons comment convertir des blocs-notes en images à l'aide d'Aspose.Note pour .NET. Aspose.Note est une API puissante qui permet aux développeurs de travailler avec des fichiers Microsoft OneNote par programme, permettant ainsi un large éventail de fonctionnalités. La conversion de blocs-notes en images peut être particulièrement utile pour diverses applications, telles que la génération d'aperçus, le partage de contenu ou l'intégration avec d'autres systèmes nécessitant des formats d'image.
@@ -81,3 +87,9 @@ A3 : Oui, vous pouvez télécharger une version d'essai gratuite à partir de[
 ### Q5 : Puis-je utiliser Aspose.Note pour .NET dans des projets commerciaux ?
 
  A5 : Oui, vous pouvez acheter une licence auprès de[ici](https://purchase.aspose.com/buy) pour utiliser Aspose.Note pour .NET dans des projets commerciaux.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

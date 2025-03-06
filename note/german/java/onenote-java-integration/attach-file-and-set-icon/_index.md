@@ -3,10 +3,16 @@ title: Datei anhängen und Symbol in OneNote mit Java festlegen
 linktitle: Datei anhängen und Symbol in OneNote mit Java festlegen
 second_title: Aspose.Note Java API
 description: Steigern Sie Ihren OneNote-Workflow! Erfahren Sie, wie Sie mit Aspose.Note Dateien anhängen und Symbole in Java programmgesteuert anpassen. Einfache Schritte und Code enthalten! #OneNote #Java #Aspose
-type: docs
 weight: 10
 url: /de/java/onenote-java-integration/attach-file-and-set-icon/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Datei anhängen und Symbol in OneNote mit Java festlegen
+
 ## Einführung
 
 OneNote ist ein beliebtes Tool zum Notieren und Organisieren von Informationen. Mithilfe von Aspose.Note für Java können Sie seine Funktionen erweitern, indem Sie Dateien programmgesteuert anhängen und Symbole festlegen, um die visuelle Darstellung Ihrer Notizen zu verbessern. In diesem Tutorial führen wir Sie Schritt für Schritt durch den Prozess.
@@ -149,3 +155,10 @@ A3: Auf jeden Fall können Sie benutzerdefinierte Symbole auswählen, um verschi
 ### F5: Gibt es eine Testversion für Aspose.Note für Java?
 
 A5: Ja, Sie können die Funktionalität von Aspose.Note für Java mit einer kostenlosen Testversion erkunden, die unter verfügbar ist[dieser Link](https://releases.aspose.com/).
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

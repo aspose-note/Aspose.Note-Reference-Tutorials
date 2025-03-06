@@ -3,10 +3,16 @@ title: Trích xuất tất cả văn bản trong OneNote - Aspose.Note
 linktitle: Trích xuất tất cả văn bản trong OneNote - Aspose.Note
 second_title: API Java Aspose.Note
 description: Tìm hiểu cách trích xuất văn bản từ OneNote bằng Aspose.Note for Java. Hướng dẫn toàn diện với hướng dẫn từng bước để trích xuất văn bản liền mạch.
-type: docs
 weight: 15
 url: /vi/java/onenote-text-manipulation/extract-all-text/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Trích xuất tất cả văn bản trong OneNote - Aspose.Note
+
 ## Giới thiệu
 Chào mừng bạn đến với hướng dẫn từng bước của chúng tôi về cách trích xuất tất cả văn bản trong OneNote bằng Aspose.Note for Java. Aspose.Note là một thư viện Java mạnh mẽ cho phép bạn làm việc liền mạch với các tệp Microsoft OneNote. Trong hướng dẫn này, chúng tôi sẽ tập trung vào việc trích xuất văn bản, cung cấp cho bạn hướng dẫn chi tiết về quy trình.
 ## Điều kiện tiên quyết
@@ -66,3 +72,9 @@ Trả lời: Aspose.Note for Java hỗ trợ Microsoft OneNote 2010 và các phi
 Trả lời: Aspose.Note for Java được thiết kế để xử lý các tệp OneNote lớn một cách hiệu quả nhưng các tệp cực lớn có thể ảnh hưởng đến hiệu suất.
 ### Câu hỏi: Tôi có thể tìm thêm hỗ trợ hoặc thảo luận cộng đồng ở đâu?
  Đáp: Hãy ghé thăm[Diễn đàn Aspose.Note](https://forum.aspose.com/c/note/28) để được hỗ trợ và thảo luận.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

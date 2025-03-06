@@ -3,10 +3,16 @@ title: Schreiben Sie ein passwortgeschütztes Dokument in OneNote – Aspose.Not
 linktitle: Schreiben Sie ein passwortgeschütztes Dokument in OneNote – Aspose.Note
 second_title: Aspose.Note Java API
 description: Schützen Sie Ihre sensiblen OneNote-Informationen! Erfahren Sie, wie Sie Passwörter für bestimmte Dokumente und Abschnitte festlegen – Schritt-für-Schritt-Anleitung und Code enthalten. #OneNote #Java #Aspose
-type: docs
 weight: 27
 url: /de/java/onenote-notebook-operations/write-password-protected-document/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Schreiben Sie ein passwortgeschütztes Dokument in OneNote – Aspose.Note
+
 ## Einführung
 
 In diesem Tutorial erfahren Sie, wie Sie mit Aspose.Note für Java passwortgeschützte Dokumente in OneNote erstellen. Diese Funktion gewährleistet die Sicherheit und Vertraulichkeit Ihrer vertraulichen Informationen in Ihren Notizbüchern. Wenn Sie diese Schritt-für-Schritt-Anleitung befolgen, können Sie ganz einfach einen Passwortschutz für Ihre Dokumente implementieren.
@@ -95,3 +101,9 @@ A: Ja, Sie können mithilfe der Aspose.Note-APIs unterschiedliche Passwörter f�
 ### F5: Gibt es eine Begrenzung hinsichtlich der Länge oder Komplexität von Passwörtern?
 
 A: Aspose.Note legt keine spezifischen Beschränkungen für die Länge oder Komplexität von Passwörtern fest, sodass Sie bei Bedarf starke und sichere Passwörter festlegen können.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

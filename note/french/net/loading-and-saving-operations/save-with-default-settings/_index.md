@@ -3,10 +3,16 @@ title: Enregistrer avec les paramètres par défaut dans Aspose.Note
 linktitle: Enregistrer avec les paramètres par défaut dans Aspose.Note
 second_title: API Aspose.Note .NET
 description: Découvrez comment enregistrer un document avec les paramètres par défaut dans Aspose.Note pour .NET grâce à un guide étape par étape.
-type: docs
 weight: 29
 url: /fr/net/loading-and-saving-operations/save-with-default-settings/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Enregistrer avec les paramètres par défaut dans Aspose.Note
+
 ## Introduction
 
 Dans le domaine du développement .NET, Aspose.Note se distingue comme un outil puissant pour travailler avec les fichiers Microsoft OneNote. Que vous gériez des applications de prise de notes, des cahiers numériques ou tout autre projet connexe, Aspose.Note fournit les fonctionnalités nécessaires pour rationaliser votre processus de développement. Dans ce didacticiel, nous approfondirons le processus d'enregistrement d'un document avec les paramètres par défaut à l'aide d'Aspose.Note pour .NET. Nous détaillerons chaque étape, garantissant clarté et compréhension pour les développeurs de tous niveaux.
@@ -86,3 +92,9 @@ A3 : Absolument ! Aspose.Note offre des fonctionnalités et des performances rob
 ### Q5 : Puis-je essayer Aspose.Note avant d’acheter ?
 
  A5 : Oui, vous pouvez télécharger un essai gratuit à partir du[site web](https://releases.aspose.com/) pour explorer les fonctionnalités d'Aspose.Note avant de faire un achat.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

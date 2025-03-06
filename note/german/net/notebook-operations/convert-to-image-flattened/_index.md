@@ -3,10 +3,16 @@ title: Konvertieren Sie Notizbücher in ein Bild (abgeflacht) in Aspose Note .NE
 linktitle: Konvertieren Sie Notizbücher in ein Bild (abgeflacht) in Aspose Note .NET
 second_title: Aspose.Note .NET-API
 description: Erfahren Sie, wie Sie OneNote-Notizbücher mit Aspose.Note für .NET in reduzierte Bilder konvertieren. Schritt-für-Schritt-Anleitung für eine nahtlose Integration.
-type: docs
 weight: 12
 url: /de/net/notebook-operations/convert-to-image-flattened/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Konvertieren Sie Notizbücher in ein Bild (abgeflacht) in Aspose Note .NET
+
 ## Einführung
 
 In diesem Tutorial erfahren Sie, wie Sie mit Aspose.Note für .NET Notizbücher in reduzierte Bilder konvertieren. Wir unterteilen den Prozess in einfache Schritte, damit Sie ihn verstehen und effektiv umsetzen können.
@@ -93,3 +99,9 @@ A1: Ja, Aspose.Note für .NET ist in der Lage, komplexe Notizbücher effizient z
 ### F5: Wo finde ich Dokumentation für Aspose.Note für .NET?
 
  A5: Sie finden die Dokumentation[Hier](https://reference.aspose.com/note/net/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -3,10 +3,16 @@ title: OneNote 統合のための Aspose.Note ライセンスをマスターす�
 linktitle: ライセンス
 second_title: Aspose.Note .NET API
 description: Aspose.Note ライセンスを .NET アプリケーションに適用してください。リソースの埋め込み、パス、FileStream、効率的な従量制ライセンスの使用に関するステップバイステップのガイドをご覧ください。
-type: docs
 weight: 20
 url: /ja/net/licensing/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# OneNote 統合のための Aspose.Note ライセンスをマスターする
+
 ## 導入
 
 あなたは、Aspose.Note の動的な領域を詳しく調べている .NET 開発者ですか?ライセンスの適用方法を理解することは、特に OneNote ファイルを操作する場合に非常に重要です。この広範なガイドでは、さまざまなライセンス チュートリアルを参照して、シームレスな統合プロセスを確保し、OneNote ファイルを簡単に操作できるようにします。
@@ -41,3 +47,9 @@ Aspose.Note for .NET を使用すると、従量制ライセンスを通じて�
 シームレスな統合のために、.NET アプリケーションで FileStream を使用して Aspose.Note ライセンスを適用する方法を学びます。
 ### [Aspose.Note による従量制ライセンス](./metered-licensing/)
 Aspose.Note for .NET を使用し、従量制ライセンスを通じてソフトウェア ライセンスを効率的に管理する方法を学びます。リソースの使用量を最適化し、コストを効果的に制御します。
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

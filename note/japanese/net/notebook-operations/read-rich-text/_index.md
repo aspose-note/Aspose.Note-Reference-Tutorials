@@ -3,10 +3,16 @@ title: Aspose Note .NET でリッチ テキストを読む
 linktitle: Aspose Note .NET でリッチ テキストを読む
 second_title: Aspose.Note .NET API
 description: Aspose.Note for .NET を使用してプログラムで OneNote ノートブックからリッチ テキストを読み取る方法を学びます。簡単に統合するには、ステップバイステップのチュートリアルに従ってください。
-type: docs
 weight: 23
 url: /ja/net/notebook-operations/read-rich-text/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Aspose Note .NET でリッチ テキストを読む
+
 ## 導入
 
 このチュートリアルでは、Aspose.Note for .NET を使用してリッチ テキストを読み取る方法を検討します。 Aspose.Note は、開発者が Microsoft OneNote ドキュメントをプログラムで操作できるようにする強力な API で、OneNote ファイルを作成、編集、操作するための幅広い機能を提供します。
@@ -97,3 +103,9 @@ A1: はい、Aspose.Note for .NET を使用すると、OneNote ファイルを�
 ### Q5: Aspose.Note for .NET の詳細なドキュメントはどこで見つけられますか?
 
  A5: Aspose.Note for .NET の包括的なドキュメントは、次の場所にあります。[参考ページ](https://reference.aspose.com/note/net/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

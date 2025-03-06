@@ -3,10 +3,16 @@ title: معالجة نص OneNote
 linktitle: معالجة نص OneNote
 second_title: Aspose.Note جافا API
 description: استكشف دروس Aspose.Note Java التعليمية حول معالجة النصوص في OneNote. اكتشف طرقًا فعالة لمهام مثل استخراج النص وتطبيق السمات وإنشاء القوائم والمزيد.
-type: docs
 weight: 34
 url: /ar/java/onenote-text-manipulation/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# معالجة نص OneNote
+
 
 ## مقدمة
 
@@ -56,3 +62,9 @@ url: /ar/java/onenote-text-manipulation/
 إطلاق العنان لإمكانات Aspose.Note لجافا! تعرف على كيفية تعيين لغة التدقيق للنص في OneNote بسلاسة من خلال دليلنا التفصيلي خطوة بخطوة.
 ### [تحديد عنوان الصفحة في نمط Microsoft OneNote - Aspose.Note](./setting-page-title-in-microsoft-onenote-style/)
 تعرف على كيفية تعيين عناوين الصفحات بأسلوب Microsoft OneNote باستخدام Aspose.Note لـ Java. ارفع مستوى مستندات Java الخاصة بك بتنسيق احترافي.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

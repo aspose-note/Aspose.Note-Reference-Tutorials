@@ -3,10 +3,16 @@ title: Truy xuất tài liệu từ OneNote Notebook trong Aspose Note .NET
 linktitle: Truy xuất tài liệu từ OneNote Notebook trong Aspose Note .NET
 second_title: Aspose.Note .NET API
 description: Tìm hiểu cách truy xuất tài liệu từ sổ ghi chép OneNote theo lập trình bằng Aspose.Note cho .NET, cho phép tích hợp và thao tác liền mạch.
-type: docs
 weight: 25
 url: /vi/net/notebook-operations/retrieve-documents-from-onenote-notebook/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Truy xuất tài liệu từ OneNote Notebook trong Aspose Note .NET
+
 ## Giới thiệu
 
 Trong lĩnh vực phát triển .NET, Aspose.Note nổi bật như một công cụ mạnh mẽ để quản lý và thao tác các tài liệu OneNote một cách dễ dàng. Cho dù bạn là nhà phát triển dày dạn kinh nghiệm hay mới bắt đầu bước chân vào thế giới lập trình .NET, việc nắm vững nghệ thuật truy xuất tài liệu từ sổ ghi chép OneNote bằng Aspose.Note là một kỹ năng có giá trị.
@@ -95,3 +101,9 @@ Câu trả lời 4: Có, Aspose cung cấp các tùy chọn cấp phép linh ho�
 ### Câu hỏi 5: Tôi có thể tìm sự hỗ trợ hoặc hỗ trợ bổ sung với Aspose.Note ở đâu?
 
  Câu trả lời 5: Nếu có bất kỳ thắc mắc hoặc hỗ trợ nào, bạn có thể truy cập diễn đàn Aspose.Note tại[Diễn đàn hỗ trợ](https://forum.aspose.com/c/note/28).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

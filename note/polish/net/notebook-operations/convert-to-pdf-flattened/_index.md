@@ -3,10 +3,16 @@ title: Konwertuj notesy do formatu PDF (spłaszczonego) w Aspose Note .NET
 linktitle: Konwertuj notesy do formatu PDF (spłaszczonego) w Aspose Note .NET
 second_title: Aspose.Note .NET API
 description: Dowiedz się, jak bez wysiłku konwertować notesy OneNote na spłaszczone pliki PDF za pomocą Aspose.Note dla .NET. Bezproblemowo przechowuj swoje treści.
-type: docs
 weight: 15
 url: /pl/net/notebook-operations/convert-to-pdf-flattened/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Konwertuj notesy do formatu PDF (spłaszczonego) w Aspose Note .NET
+
 ## Wstęp
 
 Czy chcesz przekonwertować swoje notesy OneNote na spłaszczone pliki PDF za pomocą Aspose Note .NET? Jesteś we właściwym miejscu! W tym samouczku omówimy ten proces krok po kroku.
@@ -91,3 +97,9 @@ A3: Absolutnie! Aspose.Note zapewnia szerokie możliwości dostosowywania podcza
 ### P5: Gdzie mogę uzyskać pomoc, jeśli napotkam jakiekolwiek problemy?
 
  Odpowiedź 5: Możesz szukać wsparcia w społeczności Aspose pod adresem[Fora Aspose.Note](https://forum.aspose.com/c/note/28).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

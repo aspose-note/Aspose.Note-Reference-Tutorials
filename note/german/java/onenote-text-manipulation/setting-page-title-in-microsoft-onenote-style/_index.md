@@ -3,10 +3,16 @@ title: Seitentitel im Microsoft OneNote-Stil festlegen – Aspose.Note
 linktitle: Seitentitel im Microsoft OneNote-Stil festlegen – Aspose.Note
 second_title: Aspose.Note Java API
 description: Erfahren Sie, wie Sie mit Aspose.Note für Java Seitentitel im Microsoft OneNote-Stil festlegen. Werten Sie Ihre Java-Dokumente mit professioneller Formatierung auf.
-type: docs
 weight: 23
 url: /de/java/onenote-text-manipulation/setting-page-title-in-microsoft-onenote-style/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Seitentitel im Microsoft OneNote-Stil festlegen – Aspose.Note
+
 ## Einführung
 In der dynamischen Welt der Java-Entwicklung ist die Erstellung optisch ansprechender und strukturierter Dokumente von entscheidender Bedeutung. Wenn Sie Ihre Java-Anwendungen mit Seitentiteln im Microsoft OneNote-Stil erweitern möchten, ist Aspose.Note für Java Ihre Lösung der Wahl. In diesem umfassenden Tutorial führen wir Sie durch den Prozess des Festlegens von Seitentiteln im OneNote-Stil mit Aspose.Note, um sicherzustellen, dass Ihre Dokumente mit einem professionellen Touch hervorstechen.
 ## Voraussetzungen
@@ -72,3 +78,9 @@ Aspose.Note ist so konzipiert, dass es nahtlos mit anderen Java-Bibliotheken zus
  Bitten Sie die Aspose.Note-Community um Hilfe unter[Aspose.Note-Forum](https://forum.aspose.com/c/note/28).
 ### Gibt es eine Testversion?
  Ja, Sie können die Funktionen von Aspose.Note mit einer kostenlosen Testversion von erkunden[Hier](https://releases.aspose.com/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

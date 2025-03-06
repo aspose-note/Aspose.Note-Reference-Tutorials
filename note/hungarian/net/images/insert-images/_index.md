@@ -3,10 +3,16 @@ title: Szúrjon be képeket az Aspose.Note dokumentumokba
 linktitle: Szúrjon be képeket az Aspose.Note dokumentumokba
 second_title: Aspose.Note .NET API
 description: Ismerje meg, hogyan lehet zökkenőmentesen beilleszteni képeket Aspose.Note dokumentumokba .NET használatával a továbbfejlesztett vizuális tartalom érdekében. Kövesse lépésenkénti útmutatónkat az egyszerű integráció érdekében.
-type: docs
 weight: 16
 url: /hu/net/images/insert-images/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Szúrjon be képeket az Aspose.Note dokumentumokba
+
 ## Bevezetés
 
 Ha képeket ad az Aspose.Note-dokumentumokhoz, az nagymértékben növelheti azok vizuális vonzerejét és hasznosságát. Akár jegyzeteket, prezentációkat vagy bármilyen más dokumentumot hoz létre, a képek integrálása kontextust és egyértelműséget biztosíthat a tartalomnak. Ebben az oktatóanyagban végigvezetjük a képek Aspose.Note dokumentumaiba .NET használatával történő beszúrásának folyamatán.
@@ -89,3 +95,9 @@ A4: Természetesen! Az Aspose.Note segítségével annyi képet szúrhat be, ame
 ### 5. kérdés: Van-e korlátozás a beilleszthető képek fájlméretére?
 
 5. válasz: Az Aspose.Note nem szab szigorú korlátozásokat a képfájlok méretére vonatkozóan, de a jobb teljesítmény érdekében javasolt a képek optimalizálása.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -3,10 +3,16 @@ title: Salva il taccuino per lo streaming in OneNote - Aspose.Note
 linktitle: Salva il taccuino per lo streaming in OneNote - Aspose.Note
 second_title: Aspose.Note API Java
 description: Scopri come salvare i taccuini nei flussi in OneNote utilizzando Aspose.Note per Java. Aumenta la produttività con una gestione efficiente dei notebook.
-type: docs
 weight: 26
 url: /it/java/onenote-notebook-operations/save-notebook-to-stream/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Salva il taccuino per lo streaming in OneNote - Aspose.Note
+
 ## introduzione
 
 In questo tutorial ti guideremo attraverso il processo di salvataggio di un notebook in un flusso in OneNote utilizzando Aspose.Note per Java. Seguendo questi passaggi sarai in grado di gestire in modo efficiente i tuoi notebook a livello di programmazione.
@@ -88,3 +94,9 @@ A3: Assolutamente! Aspose.Note per Java fornisce funzionalità di integrazione p
 ### Q5: È disponibile una versione di prova per Aspose.Note per Java?
 
  R5: Sì, puoi accedere alla versione di prova[Qui](https://releases.aspose.com/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

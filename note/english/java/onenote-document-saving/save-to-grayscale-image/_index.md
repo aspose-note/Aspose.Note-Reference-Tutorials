@@ -3,10 +3,16 @@ title: Save to Grayscale Image in OneNote - Aspose.Note
 linktitle: Save to Grayscale Image in OneNote - Aspose.Note
 second_title: Aspose.Note Java API
 description: Learn how to save a document as a grayscale image in OneNote using Aspose.Note for Java. Easily manipulate Microsoft OneNote documents programmatically.
-type: docs
 weight: 17
 url: /java/onenote-document-saving/save-to-grayscale-image/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Save to Grayscale Image in OneNote - Aspose.Note
+
 ## Introduction
 
 In this tutorial, we'll explore how to save a document as a grayscale image in OneNote using Aspose.Note for Java. Grayscale images are monochromatic images where the color information is represented only by shades of gray. Aspose.Note is a powerful Java API that allows manipulation of Microsoft OneNote documents programmatically.
@@ -83,3 +89,10 @@ A4: Absolutely! Aspose.Note provides a wide range of features for editing OneNot
 ### Q5: Where can I find support if I encounter issues?
 
 A5: You can find support on the Aspose.Note forum [here](https://forum.aspose.com/c/note/28).
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -3,10 +3,16 @@ title: Aspose Note .NET에 하위 노드 추가
 linktitle: Aspose Note .NET에 하위 노드 추가
 second_title: Aspose.Note .NET API
 description: 이 포괄적인 튜토리얼을 통해 Aspose Note .NET에 하위 노드를 손쉽게 추가하는 방법을 알아보세요. 지금 문서 처리 기술을 향상시켜 보세요.
-type: docs
 weight: 10
 url: /ko/net/notebook-operations/add-child-nodes/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Aspose Note .NET에 하위 노드 추가
+
 ## 소개
 
 이 튜토리얼에서는 Aspose Note .NET에서 하위 노드를 추가하는 방법을 알아봅니다. 하위 노드를 추가하는 것은 문서 작업 시 기본적인 작업이며 Aspose Note .NET은 이 작업을 수행하는 간단한 방법을 제공합니다.
@@ -89,3 +95,9 @@ notebook.Save(dataDir);
 ### Q5: .NET용 Aspose.Note에는 설명서가 포함되어 있나요?
 
  A5: 예, 자세한 문서를 찾을 수 있습니다.[여기](https://reference.aspose.com/note/net/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -3,10 +3,16 @@ title: Aspose Note .NET의 옵션을 사용하여 노트북을 PDF로 변환
 linktitle: Aspose Note .NET의 옵션을 사용하여 노트북을 PDF로 변환
 second_title: Aspose.Note .NET API
 description: 사용자 정의 가능한 옵션이 있는 .NET용 Aspose.Note 라이브러리를 사용하여 Microsoft OneNote 노트북을 PDF 형식으로 변환하는 방법을 알아보세요.
-type: docs
 weight: 16
 url: /ko/net/notebook-operations/convert-to-pdf-options/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Aspose Note .NET의 옵션을 사용하여 노트북을 PDF로 변환
+
 ## 소개
 
 이 튜토리얼에서는 Aspose.Note for .NET 라이브러리를 사용하여 노트북을 PDF 형식으로 변환하는 과정을 안내합니다. .NET용 Aspose.Note는 Microsoft OneNote 파일을 프로그래밍 방식으로 작업할 수 있는 강력한 기능 세트를 제공합니다.
@@ -102,3 +108,9 @@ A4: 예, 웹사이트에서 Aspose.Note for .NET 무료 평가판을 다운로�
 ### Q5: Aspose.Note for .NET에 대한 기술 지원은 어떻게 받을 수 있나요?
 
  A5: Aspose.Note for .NET에 대한 기술 지원은 다음 사이트를 방문하여 받을 수 있습니다.[Aspose.Note 포럼](https://forum.aspose.com/c/note/28) 또는 Aspose 지원팀에 직접 문의하세요.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

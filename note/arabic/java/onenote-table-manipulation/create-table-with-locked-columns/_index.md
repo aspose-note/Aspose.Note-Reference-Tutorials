@@ -3,10 +3,16 @@ title: إنشاء جدول بأعمدة مقفلة في OneNote - Aspose.Note
 linktitle: إنشاء جدول بأعمدة مقفلة في OneNote - Aspose.Note
 second_title: Aspose.Note جافا API
 description: عزز تجربة OneNote الخاصة بك مع Aspose.Note لـ Java. تعرف على كيفية إنشاء جداول ذات أعمدة مقفلة باستخدام دليل خطوة بخطوة. تحميل النسخة التجريبية المجانية من الآن!
-type: docs
 weight: 12
 url: /ar/java/onenote-table-manipulation/create-table-with-locked-columns/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# إنشاء جدول بأعمدة مقفلة في OneNote - Aspose.Note
+
 ## مقدمة
 يعد OneNote أداة قوية لتنظيم المعلومات، كما يعمل Aspose.Note for Java على تحسين قدراته من خلال توفير طريقة سلسة لإنشاء جداول ذات أعمدة مقفلة. في هذا البرنامج التعليمي، سنرشدك خلال عملية استخدام Aspose.Note لـ Java لإنشاء جدول بأعمدة مقفلة في OneNote.
 ## المتطلبات الأساسية
@@ -90,3 +96,9 @@ doc.save(dataDir);
  قم بزيارة[منتدى Aspose.Note](https://forum.aspose.com/c/note/28) للحصول على الدعم والمناقشات المجتمعية.
 ### كيف يمكنني الحصول على ترخيص مؤقت لـ Aspose.Note لـ Java؟
  يزور[هذا الرابط](https://purchase.aspose.com/temporary-license/) للحصول على ترخيص مؤقت لأغراض الاختبار.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

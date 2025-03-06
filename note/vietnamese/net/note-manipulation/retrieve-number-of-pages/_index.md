@@ -3,10 +3,16 @@ title: Truy xuất số trang trong tài liệu Aspose.Note
 linktitle: Truy xuất số trang trong tài liệu Aspose.Note
 second_title: Aspose.Note .NET API
 description: Tìm hiểu cách đếm số trang trong tài liệu Aspose.Note của bạn bằng C#. Hãy làm theo hướng dẫn từng bước của chúng tôi để tích hợp dễ dàng.
-type: docs
 weight: 12
 url: /vi/net/note-manipulation/retrieve-number-of-pages/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Truy xuất số trang trong tài liệu Aspose.Note
+
 ## Giới thiệu
 
 Aspose.Note for .NET là một thư viện mạnh mẽ cho phép các nhà phát triển làm việc với các tệp Microsoft OneNote theo chương trình. Cho dù bạn cần tạo, thao tác hay chuyển đổi tài liệu OneNote, Aspose.Note đều cung cấp chức năng toàn diện để hợp lý hóa các tác vụ của bạn. Trong hướng dẫn này, chúng ta sẽ đi sâu vào một trong những thao tác thiết yếu: truy xuất số trang trong tài liệu Aspose.Note bằng C#.
@@ -100,3 +106,9 @@ Câu trả lời 2: Hoàn toàn có thể, Aspose.Note hỗ trợ chuyển đổ
 ### Câu hỏi 5: Làm cách nào tôi có thể nhận được hỗ trợ kỹ thuật cho Aspose.Note?
 
  Câu trả lời 5: Bạn có thể tìm kiếm sự trợ giúp và tương tác với cộng đồng trên[Diễn đàn hỗ trợ Aspose.Note](https://forum.aspose.com/c/note/28).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

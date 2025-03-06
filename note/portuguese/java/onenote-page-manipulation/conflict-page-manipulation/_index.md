@@ -3,10 +3,16 @@ title: Manipulação de página de conflito no OneNote - Aspose.Note
 linktitle: Manipulação de página de conflito no OneNote - Aspose.Note
 second_title: API Java Aspose.Note
 description: Aprenda como gerenciar com eficiência páginas de conflito no OneNote usando Aspose.Note para Java. Resolva conflitos facilmente com orientação passo a passo.
-type: docs
 weight: 10
 url: /pt/java/onenote-page-manipulation/conflict-page-manipulation/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Manipulação de página de conflito no OneNote - Aspose.Note
+
 ## Introdução
 
 Os usuários do OneNote geralmente encontram conflitos quando vários usuários editam a mesma página simultaneamente. Resolver estes conflitos de forma eficiente é crucial para manter a integridade dos documentos. Aspose.Note for Java oferece ferramentas poderosas para gerenciar páginas de conflito perfeitamente. Neste tutorial, exploraremos como manipular páginas de conflito usando Aspose.Note para Java.
@@ -113,3 +119,9 @@ A4: Sim, Aspose.Note for Java oferece amplas opções de personalização, permi
 ### Q5: Existe um fórum da comunidade para usuários do Aspose.Note para Java?
 
  A5: Com certeza! Participe do nosso vibrante fórum comunitário em[Aspose.Note para suporte Java](https://forum.aspose.com/c/note/28)para se conectar com outros usuários e obter assistência especializada.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

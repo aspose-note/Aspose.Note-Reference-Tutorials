@@ -3,10 +3,16 @@ title: OneNote'ta Sayfa Düzeltmeleriyle Çalışma - Aspose.Note
 linktitle: OneNote'ta Sayfa Düzeltmeleriyle Çalışma - Aspose.Note
 second_title: Aspose.Note Java API'si
 description: Aspose.Note for Java'yı kullanarak OneNote belgelerindeki sayfa revizyonlarını nasıl yöneteceğinizi öğrenin. Etkili revizyon takibi ve işbirliği için adım adım kılavuz sağlar.
-type: docs
 weight: 21
 url: /tr/java/onenote-page-manipulation/working-with-page-revisions/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# OneNote'ta Sayfa Düzeltmeleriyle Çalışma - Aspose.Note
+
 ## giriiş
 
 OneNote, notları düzenlemek ve yönetmek için güçlü bir araçtır ancak bazen değişiklikleri izlemek ve etkili bir şekilde işbirliği yapmak için düzeltmeler üzerinde çalışmanız gerekir. Aspose.Note for Java ile OneNote belgelerindeki sayfa revizyonlarını programlı olarak kolayca yönetebilirsiniz. Bu eğitim size süreç boyunca adım adım rehberlik edecektir.
@@ -98,3 +104,9 @@ C: Evet, Aspose.Note for Java'yı kullanarak sayfa revizyonlarını gereksinimle
 ### S5: Aspose.Note for Java desteğini nereden alabilirim?
 
  C: Java için Aspose.Note desteğini şu adresten alabilirsiniz:[Aspose.Note forumu](https://forum.aspose.com/c/note/28).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

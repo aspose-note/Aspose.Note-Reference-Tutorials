@@ -3,10 +3,16 @@ title: Λήψη καταμέτρησης σελίδων στο OneNote - Aspose.
 linktitle: Λήψη καταμέτρησης σελίδων στο OneNote - Aspose.Note
 second_title: Aspose.Note Java API
 description: Μάθετε πώς μπορείτε να ανακτήσετε τον αριθμό σελίδων στα έγγραφα του OneNote χρησιμοποιώντας το Aspose.Note για Java. Αυτό το σεμινάριο βήμα προς βήμα σας καθοδηγεί στη διαδικασία χωρίς κόπο.
-type: docs
 weight: 13
 url: /el/java/onenote-page-manipulation/get-page-count/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Λήψη καταμέτρησης σελίδων στο OneNote - Aspose.Note
+
 ## Εισαγωγή
 
 Σε αυτό το σεμινάριο, θα διερευνήσουμε πώς να χρησιμοποιήσετε το Aspose.Note για Java για την αποτελεσματική ανάκτηση του αριθμού σελίδων σε ένα έγγραφο του OneNote. Το Aspose.Note είναι ένα ισχυρό API Java που επιτρέπει στους προγραμματιστές να εργάζονται με αρχεία του Microsoft OneNote μέσω προγραμματισμού, επιτρέποντας εργασίες όπως ο χειρισμός εγγράφων, η εξαγωγή και η μετατροπή.
@@ -86,3 +92,9 @@ A4: Ναι, μπορείτε να έχετε πρόσβαση στην τεκμ�
 ### Ε5: Υπάρχει διαθέσιμη δοκιμαστική έκδοση του Aspose.Note για Java για δοκιμαστικούς σκοπούς;
 
  A5: Ναι, μπορείτε να κάνετε λήψη μιας δωρεάν δοκιμαστικής έκδοσης από το[σελίδα εκδόσεων](https://releases.aspose.com/) για την αξιολόγηση των δυνατοτήτων του API.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -3,10 +3,16 @@ title: OneNote のスタイル
 linktitle: OneNote のスタイル
 second_title: Aspose.Note Java API
 description: Aspose.Note for Java を使用して OneNote のテキスト スタイルを変更する方法を学びましょう。ステップバイステップのチュートリアルで、フォントの色、サイズ、ハイライトの変更方法を学びましょう。
-type: docs
 weight: 31
 url: /ja/java/onenote-styles/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# OneNote のスタイル
+
 
 ## 導入
 
@@ -36,3 +42,9 @@ Aspose.Note for Java チュートリアルで提供される知識と専門知�
 Aspose.Note for Java を使用して OneNote のテキスト スタイルを変更する方法を学びます。フォントの色、サイズ、ハイライトを簡単に変更できます。
 ### [OneNote のデフォルトの段落スタイルを設定する - Aspose.Note](./set-default-paragraph-style/)
 Aspose.Note for Java を使用して OneNote で既定の段落スタイルを設定する方法を学習します。 Java アプリケーションで効率的なテキストの書式設定を行うには、ステップバイステップのガイドに従ってください。
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

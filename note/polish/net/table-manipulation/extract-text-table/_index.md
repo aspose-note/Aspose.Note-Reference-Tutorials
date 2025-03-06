@@ -3,10 +3,16 @@ title: Wyodrębnij tekst z tabel w Aspose.Note
 linktitle: Wyodrębnij tekst z tabel w Aspose.Note
 second_title: Aspose.Note .NET API
 description: Dowiedz się, jak wyodrębnić tekst z tabel w Aspose.Note przy użyciu języka C# z platformą .NET. Samouczek krok po kroku z fragmentami kodu i objaśnieniami.
-type: docs
 weight: 15
 url: /pl/net/table-manipulation/extract-text-table/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Wyodrębnij tekst z tabel w Aspose.Note
+
 ## Wstęp
 
 tym samouczku przyjrzymy się, jak wyodrębnić tekst z tabel w Aspose.Note przy użyciu języka C# z platformą .NET. Aspose.Note to potężny interfejs API, który umożliwia programistom programową pracę z plikami Microsoft OneNote, umożliwiając różne operacje, takie jak tworzenie, czytanie, manipulowanie i konwertowanie dokumentów OneNote.
@@ -99,3 +105,9 @@ O4: Tak, Aspose.Note jest dostępny dla wielu platform i języków programowania
 ### P5: Gdzie mogę znaleźć więcej zasobów i wsparcia dla Aspose.Note?
 
  Odpowiedź 5: Obszerną dokumentację, samouczki i fora pomocy można znaleźć na stronie[Forum Aspose.Note](https://forum.aspose.com/c/note/28), umożliwiając przeglądanie i rozwiązywanie wszelkich zapytań lub problemów napotkanych podczas programowania.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

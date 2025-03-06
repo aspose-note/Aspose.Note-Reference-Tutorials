@@ -3,10 +3,16 @@ title: Vytvořte dokument OneNote s názvem stránky - Java
 linktitle: Vytvořte dokument OneNote s názvem stránky - Java
 second_title: Aspose.Note Java API
 description: Naučte se vytvářet dokumenty OneNotu s názvy stránek v Javě pomocí Aspose.Note pro Javu. Obsáhlý tutoriál s příklady kódu.
-type: docs
 weight: 17
 url: /cs/java/onenote-document-loading/create-onenote-doc-page-title/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Vytvořte dokument OneNote s názvem stránky - Java
+
 ## Úvod
 
 V oblasti vývoje Java je správa a manipulace s dokumenty OneNote s Aspose.Note pro Java zjednodušená a efektivní. Toto výkonné rozhraní Java API poskytuje vývojářům nástroje potřebné k vytváření, úpravě a programovému zpracování souborů OneNote a nabízí bezproblémovou integraci do jejich aplikací. V tomto tutoriálu se ponoříme do procesu vytváření dokumentu OneNote se zadaným názvem stránky pomocí Aspose.Note pro Javu. Podle níže uvedeného podrobného průvodce mohou vývojáři snadno využít možnosti tohoto rozhraní API k vylepšení svých aplikací Java o robustní funkce správy dokumentů OneNote.
@@ -154,3 +160,9 @@ A4: Můžete navštívit[Aspose.Note fórum](https://forum.aspose.com/c/note/28)
 ### Q5: Mohu získat dočasnou licenci pro testovací účely?
 
 A5: Ano, můžete získat dočasnou licenci od Aspose pro účely testování a hodnocení.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

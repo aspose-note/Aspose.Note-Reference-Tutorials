@@ -3,10 +3,16 @@ title: Aspose.Note Java ile Lisanslama
 linktitle: Aspose.Note Java ile Lisanslama
 second_title: Aspose.Note Java API'si
 description: Aspose.Note ile Java'da OneNote için ölçülü lisansları yönetme sanatını keşfedin. Kullanımı etkili bir şekilde kontrol edin, kredileri izleyin ve maliyetleri optimize edin.
-type: docs
 weight: 24
 url: /tr/java/licensing-java/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Aspose.Note Java ile Lisanslama
+
 ## giriiş
 
 Aspose.Note for Java dünyasına bir yolculuğa çıkmaya hazır mısınız? Bu kapsamlı kılavuzda, Java'da OneNote için ölçülü lisansları yönetmenin inceliklerini ele alacağız. Aspose.Note ile lisanslama alanında gezinelim, gizemleri açığa çıkaralım ve onu etkili bir şekilde kullanmanız için sizi bilgiyle güçlendirelim.
@@ -40,3 +46,9 @@ Tebrikler! Artık Java'da Aspose.Note lisanslama konusunda uzmanlaşma yolculuğ
 ## Aspose.Note Java Eğitimleriyle Lisanslama
 ### [Java'da OneNote için Ölçülü Lisansı Yönetme](./manage-metered-license/)
 Aspose.Note kitaplığını kullanarak Java'da OneNote için ölçülü lisansları nasıl yöneteceğinizi öğrenin. Kullanımı kontrol edin, kredileri izleyin ve maliyetleri verimli bir şekilde optimize edin.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

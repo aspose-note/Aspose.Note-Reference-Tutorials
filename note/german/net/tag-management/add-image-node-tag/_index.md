@@ -3,10 +3,16 @@ title: Bildknoten mit Tag in Aspose.Note hinzufügen
 linktitle: Bildknoten mit Tag in Aspose.Note hinzufügen
 second_title: Aspose.Note .NET-API
 description: Erfahren Sie, wie Sie Ihre OneNote-Dokumente verbessern, indem Sie mit Aspose.Note für .NET Bilder mit benutzerdefinierten Tags hinzufügen.
-type: docs
 weight: 10
 url: /de/net/tag-management/add-image-node-tag/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Bildknoten mit Tag in Aspose.Note hinzufügen
+
 ## Einführung
 
 In diesem Tutorial erfahren Sie, wie Sie mithilfe von Aspose.Note für .NET einen Bildknoten mit einem Tag hinzufügen. Mit dieser Funktion können Sie Ihre OneNote-Dokumente verbessern, indem Sie Bilder mit benutzerdefinierten Tags hinzufügen.
@@ -110,3 +116,9 @@ A4: Aspose.Note unterstützt in erster Linie das Hinzufügen von Bildern aus lok
 ### F5: Gibt es Einschränkungen hinsichtlich der Größe oder des Formats der Bilder, die hinzugefügt werden können?
 
 A5: Aspose.Note unterstützt eine Vielzahl von Bildformaten und legt keine strengen Beschränkungen für die Bildgröße fest, sodass Sie vielfältige visuelle Elemente in Ihre Dokumente integrieren können.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

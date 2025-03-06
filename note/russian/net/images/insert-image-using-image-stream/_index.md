@@ -3,10 +3,16 @@ title: Вставка изображений с помощью потока из
 linktitle: Вставка изображений с помощью потока изображений в Aspose.Note
 second_title: Aspose.Note .NET API
 description: Узнайте, как легко вставлять изображения в документы Aspose.Note, используя потоки изображений в .NET. Улучшайте свои файлы Note с помощью визуальных эффектов без особых усилий.
-type: docs
 weight: 11
 url: /ru/net/images/insert-image-using-image-stream/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Вставка изображений с помощью потока изображений в Aspose.Note
+
 ## Введение
 
 В этом уроке мы рассмотрим, как вставлять изображения в документ Aspose.Note, используя потоки изображений в .NET. Aspose.Note — это мощный API, который позволяет разработчикам программно работать с файлами Microsoft OneNote. Следуя инструкциям, описанным в этом руководстве, вы узнаете, как легко интегрировать изображения в документы Note, повышая их визуальную привлекательность и общую функциональность.
@@ -120,3 +126,9 @@ A4: Aspose.Note for .NET совместим с несколькими верси
 ### Вопрос 5: Где я могу найти дополнительные ресурсы и поддержку Aspose.Note?
 
  О5: Вы можете найти подробную документацию, форумы и поддержку Aspose.Примечание на[Аспосе Форум](https://forum.aspose.com/c/note/28).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -3,10 +3,16 @@ title: .NET용 Aspose.Note를 사용하여 OneNote 통합 마스터하기
 linktitle: 노트 조작
 second_title: Aspose.Note .NET API
 description: OneNote 중심 튜토리얼을 통해 .NET용 Aspose.Note의 강력한 기능을 활용해 보세요. 충돌을 해결하고, 동적 문서를 만들고, 효율적인 페이지 조작을 살펴보세요.
-type: docs
 weight: 27
 url: /ko/net/note-manipulation/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# .NET용 Aspose.Note를 사용하여 OneNote 통합 마스터하기
+
 
 ## 소개
 
@@ -69,3 +75,9 @@ C#을 사용하여 Aspose.Note 문서의 페이지 수를 계산하는 방법을
 단계별 가이드를 통해 C# 프로그래밍 언어를 사용하여 Aspose.Note 문서에서 페이지의 배경색을 설정하는 방법을 알아보세요.
 ### [페이지 개정 작업 - Aspose.Note 팁](./working-with-page-revisions/)
 Aspose.Note를 사용하여 Microsoft OneNote 페이지 개정을 관리하는 방법을 알아보세요. .NET 애플리케이션의 원활한 통합 및 버전 제어를 위한 단계별 가이드입니다.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

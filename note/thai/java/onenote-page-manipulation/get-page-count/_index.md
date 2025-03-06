@@ -3,10 +3,16 @@ title: รับจำนวนหน้าใน OneNote - Aspose.Note
 linktitle: รับจำนวนหน้าใน OneNote - Aspose.Note
 second_title: Aspose.Note Java API
 description: เรียนรู้วิธีดึงข้อมูลจำนวนหน้าในเอกสาร OneNote โดยใช้ Aspose.Note for Java บทช่วยสอนแบบทีละขั้นตอนนี้จะแนะนำคุณตลอดกระบวนการอย่างง่ายดาย
-type: docs
 weight: 13
 url: /th/java/onenote-page-manipulation/get-page-count/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# รับจำนวนหน้าใน OneNote - Aspose.Note
+
 ## การแนะนำ
 
 ในบทช่วยสอนนี้ เราจะสำรวจวิธีใช้ Aspose.Note สำหรับ Java เพื่อดึงข้อมูลจำนวนหน้าในเอกสาร OneNote ได้อย่างมีประสิทธิภาพ Aspose.Note เป็น Java API อันทรงพลังที่ช่วยให้นักพัฒนาสามารถทำงานกับไฟล์ Microsoft OneNote โดยทางโปรแกรม ช่วยให้งานต่างๆ เช่น การจัดการเอกสาร การแตกไฟล์ และการแปลง
@@ -86,3 +92,9 @@ A4: ใช่ คุณสามารถเข้าถึงเอกสาร
 ### คำถามที่ 5: Aspose.Note สำหรับ Java เวอร์ชันทดลองใช้งานมีไว้เพื่อการทดสอบหรือไม่
 
  A5: ได้ คุณสามารถดาวน์โหลดเวอร์ชันทดลองใช้ฟรีได้จาก[หน้าเผยแพร่](https://releases.aspose.com/) เพื่อประเมินความสามารถของ API
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -3,10 +3,16 @@ title: حفظ للدفق في OneNote - Aspose.Note
 linktitle: حفظ للدفق في OneNote - Aspose.Note
 second_title: Aspose.Note جافا API
 description: تعرف على كيفية حفظ مستندات OneNote في دفق في Java باستخدام Aspose.Note. يمكنك دمج هذه الوظيفة بسهولة في تطبيقاتك.
-type: docs
 weight: 20
 url: /ar/java/onenote-document-saving/save-to-stream/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# حفظ للدفق في OneNote - Aspose.Note
+
 ## مقدمة
 
 في هذا البرنامج التعليمي، سنتعمق في استخدام Aspose.Note for Java، وهي مكتبة قوية للعمل مع مستندات Microsoft OneNote برمجيًا. على وجه التحديد، سنركز على عملية حفظ مستندات OneNote في التدفق. باتباع الخطوات الموضحة في هذا الدليل، ستتمكن من معالجة ملفات OneNote بكفاءة داخل تطبيقات Java.
@@ -95,3 +101,9 @@ System.out.println("Stream Size: " + stream.size() + " bytes");
 ### س5: هل يمكنني تجربة Aspose.Note لـ Java قبل الشراء؟
 
  ج5: نعم، يمكنك الحصول على نسخة تجريبية مجانية من Aspose.Note لـ Java من[موقع أسبوز](https://releases.aspose.com/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

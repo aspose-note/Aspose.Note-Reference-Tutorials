@@ -3,10 +3,16 @@ title: Dokumen yang Dilindungi Kata Sandi di Aspose.Note
 linktitle: Dokumen yang Dilindungi Kata Sandi di Aspose.Note
 second_title: Aspose.Catatan .NET API
 description: Pelajari cara menangani dokumen yang dilindungi kata sandi menggunakan Aspose.Note untuk .NET. Amankan informasi sensitif Anda dengan mudah.
-type: docs
 weight: 18
 url: /id/net/loading-and-saving-operations/password-protected-document/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Dokumen yang Dilindungi Kata Sandi di Aspose.Note
+
 ## Perkenalan
 
 Dalam tutorial ini, kita akan memandu proses penanganan dokumen yang dilindungi kata sandi menggunakan Aspose.Note untuk .NET. Perlindungan kata sandi menambah lapisan keamanan ekstra pada dokumen Anda, memastikan bahwa hanya pengguna yang berwenang yang dapat mengaksesnya.
@@ -82,3 +88,9 @@ A4: Meskipun mungkin ada beberapa batasan berdasarkan algoritma enkripsi yang di
 ### Q5: Dapatkah saya mengotomatiskan proses penanganan dokumen yang dilindungi kata sandi?
 
 A5: Ya, Anda dapat mengotomatiskan proses menggunakan skrip atau tugas terjadwal untuk menangani dokumen yang dilindungi kata sandi secara efisien.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

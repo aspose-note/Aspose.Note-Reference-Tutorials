@@ -3,10 +3,16 @@ title: Trích xuất thông tin trang bằng Aspose.Note cho .NET
 linktitle: Trích xuất thông tin trang bằng Aspose.Note cho .NET
 second_title: Aspose.Note .NET API
 description: Tìm hiểu cách trích xuất thông tin trang từ tệp Microsoft OneNote bằng Aspose.Note for .NET. Hướng dẫn toàn diện này sẽ hướng dẫn bạn từng bước thực hiện quy trình.
-type: docs
 weight: 13
 url: /vi/net/note-manipulation/extract-page-information/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Trích xuất thông tin trang bằng Aspose.Note cho .NET
+
 ## Giới thiệu
 
 Aspose.Note for .NET là một thư viện mạnh mẽ cho phép các nhà phát triển làm việc với các tệp Microsoft OneNote theo chương trình. Việc trích xuất thông tin trang từ các tệp này có thể rất quan trọng đối với nhiều ứng dụng khác nhau, từ phân tích dữ liệu đến quản lý tài liệu. Trong hướng dẫn này, chúng tôi sẽ hướng dẫn bạn từng bước trong quá trình trích xuất thông tin trang bằng cách sử dụng Aspose.Note for .NET.
@@ -103,3 +109,9 @@ Câu trả lời 4: Có, bạn có thể trích xuất, sửa đổi và thêm t
 ### Câu hỏi 5: Tôi có thể tìm thêm hỗ trợ và tài nguyên cho Aspose.Note dành cho .NET ở đâu?
 
  Câu trả lời 5: Bạn có thể truy cập diễn đàn Aspose.Note dành cho .NET[đây](https://forum.aspose.com/c/note/28) cho bất kỳ trợ giúp hoặc thắc mắc nào bạn có thể có.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

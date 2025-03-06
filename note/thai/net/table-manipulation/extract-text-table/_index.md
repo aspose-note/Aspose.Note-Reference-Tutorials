@@ -3,10 +3,16 @@ title: แยกข้อความจากตารางใน Aspose.Note
 linktitle: แยกข้อความจากตารางใน Aspose.Note
 second_title: Aspose.Note .NET API
 description: เรียนรู้วิธีแยกข้อความจากตารางใน Aspose.Note โดยใช้ C# กับเฟรมเวิร์ก .NET บทช่วยสอนทีละขั้นตอนพร้อมข้อมูลโค้ดและคำอธิบาย
-type: docs
 weight: 15
 url: /th/net/table-manipulation/extract-text-table/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# แยกข้อความจากตารางใน Aspose.Note
+
 ## การแนะนำ
 
 ในบทช่วยสอนนี้ เราจะสำรวจวิธีแยกข้อความจากตารางใน Aspose.Note โดยใช้ C# กับเฟรมเวิร์ก .NET Aspose.Note เป็น API อันทรงประสิทธิภาพที่ช่วยให้นักพัฒนาสามารถทำงานกับไฟล์ Microsoft OneNote โดยทางโปรแกรม ทำให้สามารถดำเนินการต่างๆ ได้ เช่น การสร้าง การอ่าน การจัดการ และการแปลงเอกสาร OneNote
@@ -99,3 +105,9 @@ A3: แน่นอน คุณสามารถจัดการข้อค
 ### คำถามที่ 5: ฉันจะหาแหล่งข้อมูลเพิ่มเติมและการสนับสนุนสำหรับ Aspose.Note ได้ที่ไหน
 
  A5: คุณสามารถค้นหาเอกสารประกอบ บทช่วยสอน และฟอรัมการสนับสนุนที่ครอบคลุมได้ที่[ฟอรั่ม Aspose.Note](https://forum.aspose.com/c/note/28)ช่วยให้คุณสามารถสำรวจและแก้ไขข้อสงสัยหรือปัญหาใดๆ ที่คุณพบในระหว่างการพัฒนา
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

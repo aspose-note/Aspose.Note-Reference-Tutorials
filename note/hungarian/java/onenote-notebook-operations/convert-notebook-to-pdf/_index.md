@@ -3,10 +3,16 @@ title: Jegyzetfüzet konvertálása PDF-be a OneNote-ban – Aspose.Note
 linktitle: Jegyzetfüzet konvertálása PDF-be a OneNote-ban – Aspose.Note
 second_title: Aspose.Note Java API
 description: Ismerje meg, hogyan konvertálhat OneNote-jegyzetfüzeteket PDF formátumba az Aspose.Note for Java segítségével. Kövesse ezt a lépésenkénti útmutatót a Java-alkalmazásokba való zökkenőmentes integráció érdekében.
-type: docs
 weight: 15
 url: /hu/java/onenote-notebook-operations/convert-notebook-to-pdf/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Jegyzetfüzet konvertálása PDF-be a OneNote-ban – Aspose.Note
+
 ## Bevezetés
 
 Ebben az oktatóanyagban végigvezetjük a notebook PDF formátumba konvertálásának folyamatát az Aspose.Note for Java segítségével. Az Aspose.Note egy hatékony könyvtár, amely lehetővé teszi a Microsoft OneNote-fájlok programozott kezelését, lehetővé téve olyan feladatok automatizálását, mint például a PDF-be átalakítás.
@@ -88,3 +94,9 @@ Ebben az oktatóanyagban megtanultuk, hogyan konvertálhat jegyzetfüzetet PDF-f
 ### 5. kérdés: Hol találok további segítséget és támogatást az Aspose.Note for Java-hoz?
 
  A5: Meglátogathatja a[Aspose.Note fórum](https://forum.aspose.com/c/note/28) segítségért a könyvtár használata során felmerülő kérdésekkel vagy problémákkal kapcsolatban.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

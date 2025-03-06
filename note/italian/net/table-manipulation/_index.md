@@ -3,10 +3,16 @@ title: Padroneggiare le tabelle con l'integrazione di OneNote
 linktitle: Manipolazione della tabella
 second_title: Aspose.Note API .NET
 description: Crea documenti visivamente accattivanti con Aspose.Note per .NET! Esplora i tutorial sulla manipolazione delle tabelle modifica gli stili, componi tabelle, estrai testo e altro ancora.
-type: docs
 weight: 29
 url: /it/net/table-manipulation/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Padroneggiare le tabelle con l'integrazione di OneNote
+
 
 ## introduzione
 
@@ -62,3 +68,9 @@ Scopri come estrarre testo dalle tabelle in Aspose.Note utilizzando C# con il fr
 Impara a inserire tabelle nei documenti Note con Aspose.Note per .NET. Organizza i dati in modo fluido per migliorarne la leggibilità e la presentazione.
 ### [Imposta il colore di sfondo della cella nelle tabelle Aspose.Note](./set-cell-background-color/)
 Scopri come impostare il colore di sfondo della cella nelle tabelle Aspose.Note utilizzando la guida passo passo. Migliora le immagini dei documenti senza sforzo.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

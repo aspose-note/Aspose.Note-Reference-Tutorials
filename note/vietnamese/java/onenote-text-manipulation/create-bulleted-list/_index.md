@@ -3,10 +3,16 @@ title: Tạo danh sách có dấu đầu dòng trong OneNote - Aspose.Note
 linktitle: Tạo danh sách có dấu đầu dòng trong OneNote - Aspose.Note
 second_title: API Java Aspose.Note
 description: Khám phá hướng dẫn từng bước về cách tạo danh sách dấu đầu dòng trong OneNote bằng Aspose.Note for Java. Nâng cao việc tạo tài liệu của bạn một cách dễ dàng.
-type: docs
 weight: 12
 url: /vi/java/onenote-text-manipulation/create-bulleted-list/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Tạo danh sách có dấu đầu dòng trong OneNote - Aspose.Note
+
 ## Giới thiệu
 Trong bối cảnh phát triển Java năng động, việc tạo ra các tài liệu hấp dẫn và có tổ chức là điều cần thiết. Aspose.Note for Java cung cấp một bộ công cụ mạnh mẽ để nâng cao quá trình tạo tài liệu của bạn. Hướng dẫn này sẽ hướng dẫn bạn quy trình tạo danh sách dấu đầu dòng trong OneNote bằng Aspose.Note cho Java. Hãy đi sâu vào chi tiết.
 ## Điều kiện tiên quyết
@@ -92,3 +98,9 @@ Tuyệt đối! Bạn có thể sửa đổi phông chữ, màu sắc và kích 
  Có, bạn có thể khám phá phiên bản dùng thử miễn phí[đây](https://releases.aspose.com/).
 ### Làm cách nào tôi có thể nhận được giấy phép tạm thời cho Aspose.Note cho Java?
  Nhận giấy phép tạm thời[đây](https://purchase.aspose.com/temporary-license/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -3,10 +3,16 @@ title: Прикрепить файл по пути в Aspose.Note
 linktitle: Прикрепить файл по пути в Aspose.Note
 second_title: Aspose.Note .NET API
 description: Узнайте, как программно прикреплять файлы к документам Microsoft OneNote с помощью Aspose.Note для .NET. Упростите процесс разработки с помощью этого подробного руководства.
-type: docs
 weight: 11
 url: /ru/net/attachments/attach-file-by-path/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Прикрепить файл по пути в Aspose.Note
+
 ## Введение
 
 Aspose.Note для .NET — это мощная библиотека, которая позволяет разработчикам программно работать с файлами Microsoft OneNote. Если вы хотите создавать, редактировать, конвертировать или манипулировать документами OneNote, Aspose.Note для .NET предоставляет комплексные функциональные возможности для оптимизации процесса разработки.
@@ -147,3 +153,9 @@ A1: Aspose.Note для .NET поддерживает различные верс
 ### Вопрос 5: Где я могу получить поддержку по Aspose.Note для .NET?
 
  О5: Вы можете обратиться за поддержкой на форумы сообщества Aspose.Note.[здесь](https://forum.aspose.com/c/note/28).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

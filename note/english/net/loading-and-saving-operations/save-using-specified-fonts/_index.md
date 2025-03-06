@@ -3,10 +3,16 @@ title: Save Using Specified Fonts in Aspose.Note
 linktitle: Save Using Specified Fonts in Aspose.Note
 second_title: Aspose.Note .NET API
 description: Learn how to save documents with specified fonts in Aspose.Note for .NET. Customize font settings easily for consistent document formatting.
-type: docs
 weight: 28
 url: /net/loading-and-saving-operations/save-using-specified-fonts/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Save Using Specified Fonts in Aspose.Note
+
 ## Introduction
 
 In this tutorial, we will learn how to save documents using specified fonts in Aspose.Note for .NET. We'll explore different methods to achieve this, step by step.
@@ -131,3 +137,10 @@ A4: Yes, Aspose.Note allows embedding fonts to ensure document portability and c
 ### Q5: Where can I get further assistance with Aspose.Note?
 
 A5: For further assistance or technical support, you can visit the [Aspose.Note forum](https://forum.aspose.com/c/note/28).
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

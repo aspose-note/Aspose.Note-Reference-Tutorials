@@ -3,10 +3,16 @@ title: Importación de PDF perfecta con integración de OneNote
 linktitle: Importar
 second_title: Aspose.Nota .NET API
 description: Importe documentos PDF a Aspose.Note .NET con una integración perfecta utilizando varias opciones de combinación. Aprenda con tutoriales paso a paso, incluida la integración de OneNote.
-type: docs
 weight: 24
 url: /es/net/import/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Importación de PDF perfecta con integración de OneNote
+
 
 ## Introducción
 
@@ -48,3 +54,9 @@ Recuerde, en el ámbito de Aspose.Note, sus documentos no son sólo archivos; so
 ## Importar tutoriales
 ### [Importar documentos PDF a Aspose.Note](./import-pdf-documents/)
 Aprenda a importar documentos PDF a Aspose.Note para .NET sin esfuerzo utilizando varias opciones de combinación para una integración perfecta.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

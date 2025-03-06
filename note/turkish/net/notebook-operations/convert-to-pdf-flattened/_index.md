@@ -3,10 +3,16 @@ title: Aspose Note .NET'te Defterleri PDF'ye (Düzleştirilmiş) Dönüştürme
 linktitle: Aspose Note .NET'te Defterleri PDF'ye (Düzleştirilmiş) Dönüştürme
 second_title: Aspose.Note .NET API'si
 description: Aspose.Note for .NET'i kullanarak OneNote not defterlerini zahmetsizce düzleştirilmiş PDF'lere nasıl dönüştüreceğinizi öğrenin. İçeriğinizi sorunsuz bir şekilde koruyun.
-type: docs
 weight: 15
 url: /tr/net/notebook-operations/convert-to-pdf-flattened/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Aspose Note .NET'te Defterleri PDF'ye (Düzleştirilmiş) Dönüştürme
+
 ## giriiş
 
 Aspose Note .NET'i kullanarak OneNote not defterlerinizi düzleştirilmiş PDF'lere dönüştürmek mi istiyorsunuz? Doğru yerdesiniz! Bu eğitimde süreci adım adım anlatacağız.
@@ -91,3 +97,9 @@ A3: Kesinlikle! Aspose.Note, dönüştürme işlemi sırasında kapsamlı özell
 ### S5: Herhangi bir sorunla karşılaşırsam nereden destek alabilirim?
 
  Cevap5: Aspose topluluğundan şu adresten destek alabilirsiniz:[Aspose.Note forumları](https://forum.aspose.com/c/note/28).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

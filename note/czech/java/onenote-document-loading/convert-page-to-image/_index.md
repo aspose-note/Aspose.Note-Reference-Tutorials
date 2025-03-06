@@ -3,10 +3,16 @@ title: Převeďte konkrétní stránku na obrázek ve OneNotu pomocí Javy
 linktitle: Převeďte konkrétní stránku na obrázek ve OneNotu pomocí Javy
 second_title: Aspose.Note Java API
 description: Přečtěte si, jak převést konkrétní stránku na obrázek ve OneNotu pomocí Java s Aspose.Note. Postupujte podle našeho podrobného průvodce pro bezproblémovou integraci.
-type: docs
 weight: 12
 url: /cs/java/onenote-document-loading/convert-page-to-image/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Převeďte konkrétní stránku na obrázek ve OneNotu pomocí Javy
+
 ## Úvod
 
 tomto tutoriálu vás provedeme procesem převodu konkrétní stránky na obrázek ve OneNotu pomocí Java s Aspose.Note. Podle těchto kroků budete moci bez problémů integrovat tuto funkci do svých aplikací Java.
@@ -101,3 +107,9 @@ Odpověď 4: Ano, Aspose.Note poskytuje knihovny pro různé programovací jazyk
 ### Q5: Kde najdu další podporu nebo pomoc?
 
  Odpověď 5: Další podporu nebo pomoc můžete získat na adrese[Aspose.Note fórum](https://forum.aspose.com/c/note/28) nebo nahlédněte do dostupné dokumentace[tady](https://reference.aspose.com/note/java/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

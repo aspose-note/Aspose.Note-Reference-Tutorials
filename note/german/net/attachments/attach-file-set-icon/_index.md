@@ -3,10 +3,16 @@ title: Datei anhängen und Symbol in Aspose.Note festlegen
 linktitle: Datei anhängen und Symbol in Aspose.Note festlegen
 second_title: Aspose.Note .NET-API
 description: Erfahren Sie, wie Sie in Aspose.Note für .NET Dateien anhängen und Symbole festlegen. Erweitern Sie Ihre .NET-Anwendungen mit dieser Schritt-für-Schritt-Anleitung.
-type: docs
 weight: 10
 url: /de/net/attachments/attach-file-set-icon/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Datei anhängen und Symbol in Aspose.Note festlegen
+
 ## Einführung
 
 Im Bereich der .NET-Entwicklung zeichnet sich Aspose.Note als leistungsstarkes Tool zur programmgesteuerten Bearbeitung von Microsoft OneNote-Dokumenten aus. Mithilfe seiner Funktionen können Entwickler verschiedene Aufgaben im Zusammenhang mit der Erstellung, Bearbeitung und Verwaltung von OneNote-Dateien in ihren Anwendungen automatisieren. Eine wesentliche Funktion ist die Möglichkeit, Dateien an Notizen anzuhängen und Symbole für diese Anhänge festzulegen. In diesem Tutorial befassen wir uns mit dem Prozess des Anhängens einer Datei und dem Festlegen eines Symbols mithilfe von Aspose.Note für .NET.
@@ -125,3 +131,9 @@ A4: Aspose.Note befasst sich hauptsächlich mit Dateien, die lokal gespeichert s
 ### F5: Gibt es eine Größenbeschränkung für Dateianhänge in Aspose.Note für .NET?
 
 A5: Aspose.Note legt keine spezifischen Größenbeschränkungen für Dateianhänge fest, es können jedoch praktische Einschränkungen aufgrund von Systemressourcen und Leistungsaspekten gelten.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

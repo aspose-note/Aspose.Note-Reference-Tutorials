@@ -3,10 +3,16 @@ title: OneNote でパスワードで保護されたドキュメントを作成�
 linktitle: OneNote でパスワードで保護されたドキュメントを作成する - Aspose.Note
 second_title: Aspose.Note Java API
 description: OneNote の機密情報を保護してください。特定のドキュメントとセクションにパスワードを設定する方法を学びましょう - ステップバイステップのガイドとコードが含まれています。 #OneNote #Java #Aspose
-type: docs
 weight: 27
 url: /ja/java/onenote-notebook-operations/write-password-protected-document/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# OneNote でパスワードで保護されたドキュメントを作成する - Aspose.Note
+
 ## 導入
 
 このチュートリアルでは、Aspose.Note for Java を使用して OneNote でパスワードで保護されたドキュメントを作成する方法を学習します。この機能により、ノートブック内の機密情報のセキュリティとプライバシーが確保されます。これらの段階的な手順に従うことで、ドキュメントのパスワード保護を簡単に実装できます。
@@ -95,3 +101,9 @@ A: はい、Aspose.Note API を使用して、ノートブック内の異なる�
 ### Q5: パスワードの長さや複雑さに制限はありますか?
 
 A: Aspose.Note では、パスワードの長さや複雑さに特定の制限を設けていないため、必要に応じて強力で安全なパスワードを設定できます。
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

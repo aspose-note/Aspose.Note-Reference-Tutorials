@@ -3,10 +3,16 @@ title: Adicionar nó de texto com tag no OneNote - Aspose.Note
 linktitle: Adicionar nó de texto com tag no OneNote - Aspose.Note
 second_title: API Java Aspose.Note
 description: Explore como adicionar nós de texto com tags no OneNote usando Aspose.Note para Java. Fácil, eficiente e amigável ao desenvolvedor. Baixe a biblioteca agora!
-type: docs
 weight: 13
 url: /pt/java/onenote-tag-operations/add-text-node-with-tag/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Adicionar nó de texto com tag no OneNote - Aspose.Note
+
 ## Introdução
 Neste tutorial, exploraremos como adicionar um nó de texto com uma tag no OneNote usando Aspose.Note para Java. Aspose.Note é uma biblioteca Java poderosa que permite aos desenvolvedores trabalhar com arquivos do Microsoft OneNote programaticamente. Adicionar nós de texto com tags é um requisito comum no processamento de documentos e o Aspose.Note simplifica essa tarefa.
 ## Pré-requisitos
@@ -121,3 +127,9 @@ R: Você pode buscar suporte na comunidade Aspose.Note[fórum](https://forum.asp
  R: Sim, você pode obter licenças temporárias[aqui](https://purchase.aspose.com/temporary-license/).
 ### P: Onde posso encontrar a documentação do Aspose.Note para Java?
  R: A documentação está disponível[aqui](https://reference.aspose.com/note/java/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

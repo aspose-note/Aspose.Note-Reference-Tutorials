@@ -3,10 +3,16 @@ title: Trích xuất nội dung trong Aspose.Note
 linktitle: Trích xuất nội dung trong Aspose.Note
 second_title: Aspose.Note .NET API
 description: Tìm hiểu cách trích xuất nội dung từ tài liệu Aspose.Note bằng Aspose.Note for .NET. Hướng dẫn toàn diện này sẽ hướng dẫn bạn từng bước thực hiện quy trình.
-type: docs
 weight: 15
 url: /vi/net/loading-and-saving-operations/extract-content/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Trích xuất nội dung trong Aspose.Note
+
 ## Giới thiệu
 
 Trong hướng dẫn này, chúng ta sẽ khám phá cách trích xuất nội dung từ tài liệu Aspose.Note bằng Aspose.Note cho .NET. Aspose.Note là một thư viện mạnh mẽ cho phép bạn làm việc với các tệp Microsoft OneNote theo chương trình. Chúng ta sẽ thực hiện quy trình này từng bước một, chia từng ví dụ thành nhiều bước để đảm bảo sự rõ ràng và dễ hiểu.
@@ -133,3 +139,9 @@ Câu trả lời 4: Có, Aspose.Note hỗ trợ chuyển đổi sang nhiều đ�
 ### Câu hỏi 5: Người dùng Aspose.Note có được hỗ trợ kỹ thuật không?
 
 Câu trả lời 5: Có, Aspose cung cấp hỗ trợ kỹ thuật chuyên dụng thông qua diễn đàn của họ để hỗ trợ người dùng về bất kỳ vấn đề hoặc thắc mắc nào.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

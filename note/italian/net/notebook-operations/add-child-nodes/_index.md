@@ -3,10 +3,16 @@ title: Aggiungi nodi figlio in Aspose Note .NET
 linktitle: Aggiungi nodi figlio in Aspose Note .NET
 second_title: Aspose.Note API .NET
 description: Scopri come aggiungere nodi figlio in Aspose Note .NET senza sforzo con questo tutorial completo. Potenzia subito le tue capacità di manipolazione dei documenti.
-type: docs
 weight: 10
 url: /it/net/notebook-operations/add-child-nodes/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Aggiungi nodi figlio in Aspose Note .NET
+
 ## introduzione
 
 In questo tutorial impareremo come aggiungere nodi figlio in Aspose Note .NET. L'aggiunta di nodi figlio è un'operazione fondamentale quando si lavora con i documenti e Aspose Note .NET fornisce un modo semplice per eseguire questa attività.
@@ -89,3 +95,9 @@ Congratulazioni! Hai imparato con successo come aggiungere nodi figlio in Aspose
 ### Q5: Aspose.Note per .NET viene fornito con la documentazione?
 
  R5: Sì, è possibile trovare documentazione dettagliata[Qui](https://reference.aspose.com/note/net/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

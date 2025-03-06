@@ -3,10 +3,16 @@ title: Open and Close Projects with Tags in Aspose.Note
 linktitle: Open and Close Projects with Tags in Aspose.Note
 second_title: Aspose.Note .NET API
 description: Learn how to manipulate Microsoft OneNote files programmatically using Aspose.Note for .NET. Open and close projects with tags efficiently.
-type: docs
 weight: 15
 url: /net/tag-management/open-close-projects-tags/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Open and Close Projects with Tags in Aspose.Note
+
 ## Introduction
 
 In this tutorial, we will learn how to use Aspose.Note for .NET to open and close projects with tags. Aspose.Note is a powerful API that allows developers to work with Microsoft OneNote files programmatically, enabling tasks such as manipulating text, images, and tags within the documents.
@@ -112,3 +118,10 @@ A4: You can find the documentation [here](https://reference.aspose.com/note/net/
 ### Q5: Where can I get support for Aspose.Note?
 
 A5: For support, you can visit the Aspose.Note [forum](https://forum.aspose.com/c/note/28).
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

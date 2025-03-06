@@ -3,10 +3,16 @@ title: Aspose Note .NET に子ノードを追加する
 linktitle: Aspose Note .NET に子ノードを追加する
 second_title: Aspose.Note .NET API
 description: この包括的なチュートリアルで、Aspose Note .NET に子ノードを簡単に追加する方法を学びましょう。今すぐ文書操作スキルを向上させましょう。
-type: docs
 weight: 10
 url: /ja/net/notebook-operations/add-child-nodes/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Aspose Note .NET に子ノードを追加する
+
 ## 導入
 
 このチュートリアルでは、Aspose Note .NET に子ノードを追加する方法を学習します。子ノードの追加はドキュメントを操作する際の基本的な操作であり、Aspose Note .NET はこのタスクを簡単に実行する方法を提供します。
@@ -89,3 +95,9 @@ notebook.Save(dataDir);
 ### Q5: Aspose.Note for .NET にはドキュメントが付属していますか?
 
  A5: はい、詳細なドキュメントを見つけることができます。[ここ](https://reference.aspose.com/note/net/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -3,10 +3,16 @@ title: إتقان طباعة OneNote باستخدام Aspose.Note لـ .NET
 linktitle: وثيقة الطباعة
 second_title: Aspose.Note .NET API
 description: اطبع مستندات OneNote باستخدام Aspose.Note لـ .NET. استكشف التكامل السلس مع تطبيقات .NET، وقم بتخصيص خيارات الطباعة، وأطلق العنان لقوة طباعة المستندات.
-type: docs
 weight: 28
 url: /ar/net/printing-document/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# إتقان طباعة OneNote باستخدام Aspose.Note لـ .NET
+
 ## مقدمة
 
 هل أنت مستعد للارتقاء بلعبة طباعة المستندات الخاصة بك باستخدام Aspose.Note لـ .NET؟ لا مزيد من البحث! في هذا الدليل التفصيلي، سنتعمق في برنامجين تعليميين أساسيين، مما يضمن أنه يمكنك طباعة مستندات OneNote بسهولة وتخصيص خيارات الطباعة للحصول على تجربة مخصصة.
@@ -49,3 +55,9 @@ url: /ar/net/printing-document/
 تعرف على كيفية طباعة مستندات OneNote باستخدام Aspose.Note لـ .NET. دليل خطوة بخطوة للتكامل السلس مع تطبيقات .NET الخاصة بك.
 ### [تخصيص الطباعة باستخدام خيارات الطباعة Aspose.Note](./customize-printing-options/)
 تعرف على كيفية تخصيص طباعة المستندات باستخدام Aspose.Note لـ .NET. ضبط الإعدادات للحصول على المطبوعات المثالية.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

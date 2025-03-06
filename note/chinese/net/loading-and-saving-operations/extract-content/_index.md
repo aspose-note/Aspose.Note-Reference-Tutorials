@@ -3,10 +3,16 @@ title: 在 Aspose.Note 中提取内容
 linktitle: 在 Aspose.Note 中提取内容
 second_title: Aspose.Note .NET API
 description: 了解如何使用 Aspose.Note for .NET 从 Aspose.Note 文档中提取内容。这个综合教程将逐步指导您完成整个过程。
-type: docs
 weight: 15
 url: /zh/net/loading-and-saving-operations/extract-content/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# 在 Aspose.Note 中提取内容
+
 ## 介绍
 
 在本教程中，我们将探索如何使用 Aspose.Note for .NET 从 Aspose.Note 文档中提取内容。 Aspose.Note 是一个功能强大的库，允许您以编程方式处理 Microsoft OneNote 文件。我们将逐步完成该过程，将每个示例分解为多个步骤，以确保清晰度和理解。
@@ -133,3 +139,9 @@ A4：是的，Aspose.Note 支持转换为各种格式，包括 PDF、HTML 和图
 ### Q5：Aspose.Note 用户可以获得技术支持吗？
 
 A5：是的，Aspose 通过其论坛提供专门的技术支持，以帮助用户解决任何问题或疑问。
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

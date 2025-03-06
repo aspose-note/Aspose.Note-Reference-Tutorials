@@ -3,10 +3,16 @@ title: Push aktuální verzi stránky ve OneNotu - Aspose.Note
 linktitle: Push aktuální verzi stránky ve OneNotu - Aspose.Note
 second_title: Aspose.Note Java API
 description: Udržujte obsah OneNotu aktuální! Naučte se aktualizovat historii stránek a spravovat verze, včetně podrobného průvodce a kódu. #OneNote #Java #Aspose
-type: docs
 weight: 18
 url: /cs/java/onenote-page-manipulation/push-current-page-version/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Push aktuální verzi stránky ve OneNotu - Aspose.Note
+
 ## Úvod
 
 V tomto tutoriálu prozkoumáme, jak využít Aspose.Note pro Javu k vložení aktuální verze stránky do OneNotu. Aspose.Note je výkonná Java knihovna, která umožňuje vývojářům pracovat s dokumenty Microsoft OneNote programově a umožňuje různé operace, jako je vytváření, manipulace a převod souborů OneNote.
@@ -90,3 +96,9 @@ Odpověď 4: Ano, Aspose.Note pro Java podporuje převod souborů OneNote do rů
 ### Q5: Kde mohu získat podporu pro Aspose.Note pro Java, pokud narazím na nějaké problémy?
 
  A5: Můžete navštívit[Aspose.Note fórum](https://forum.aspose.com/c/note/28) požádat o pomoc komunitu nebo přímo kontaktovat podporu Aspose.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

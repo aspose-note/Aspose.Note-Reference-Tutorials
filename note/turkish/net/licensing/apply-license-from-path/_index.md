@@ -3,10 +3,16 @@ title: Aspose.Note Lisansını Yoldan Uygula
 linktitle: Aspose.Note Lisansını Yoldan Uygula
 second_title: Aspose.Note .NET API'si
 description: Aspose.Note lisansını .NET uygulamalarında yoldan nasıl uygulayacağınızı öğrenin. Aspose.Note ile OneNote dosya manipülasyonunun tüm potansiyelini ortaya çıkarın.
-type: docs
 weight: 11
 url: /tr/net/licensing/apply-license-from-path/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Aspose.Note Lisansını Yoldan Uygula
+
 ## giriiş
 
 Aspose.Note lisansını .NET kullanarak yoldan uygulamaya yönelik kapsamlı eğitimimize hoş geldiniz! Aspose.Note, geliştiricilerin Microsoft OneNote dosyalarıyla programlı olarak çalışmasına olanak tanıyan, OneNote belgelerini oluşturmak, düzenlemek ve değiştirmek için çok çeşitli işlevlere olanak tanıyan güçlü bir API'dir. Bu eğitimde, Aspose.Note lisansını .NET uygulamalarınızda belirtilen yoldan uygulama sürecinde size yol göstereceğiz.
@@ -98,3 +104,9 @@ C4: Evet, Aspose, geliştiricilerin ürünlerini etkili bir şekilde kullanmalar
 ### S5: Satın almadan önce Aspose.Note'u deneyebilir miyim?
 
 Cevap5: Evet, özelliklerini ve yeteneklerini değerlendirmek için Aspose.Note'un ücretsiz deneme sürümünü web sitesinden indirebilirsiniz.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

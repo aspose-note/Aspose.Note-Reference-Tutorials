@@ -3,10 +3,16 @@ title: تحميل مستند OneNote - جافا
 linktitle: تحميل مستند OneNote - جافا
 second_title: Aspose.Note جافا API
 description: تعرف على كيفية استخدام Aspose.Note لـ Java لتحميل مستندات OneNote ومعالجتها بسهولة. برنامج تعليمي شامل لمطوري جافا.
-type: docs
 weight: 25
 url: /ar/java/onenote-document-loading/load-onenote-document/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# تحميل مستند OneNote - جافا
+
 ## مقدمة
 
 في هذا البرنامج التعليمي، سوف نتعمق في تعقيدات استخدام Aspose.Note for Java، وهي مكتبة قوية للعمل مع مستندات OneNote برمجيًا. يوفر Aspose.Note وظائف شاملة لمعالجة ملفات OneNote وإنشائها وتحويلها بسهولة. سواء كنت مطور Java متمرسًا أو مبتدئًا يتطلع إلى استكشاف إمكانيات معالجة مستندات OneNote، فسيرشدك هذا البرنامج التعليمي خلال الخطوات الأساسية للبدء.
@@ -82,3 +88,10 @@ System.out.println(oneFile.getFileFormat());
 ### س5: كيف يمكنني الحصول على ترخيص مؤقت لـ Aspose.Note لـ Java؟
 
  ج5: إذا كنت بحاجة إلى ترخيص مؤقت لأغراض التقييم أو الاختبار، فيمكنك طلب ترخيص من[هنا](https://purchase.aspose.com/temporary-license/).
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

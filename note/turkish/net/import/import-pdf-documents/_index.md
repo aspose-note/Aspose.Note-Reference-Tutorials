@@ -3,10 +3,16 @@ title: PDF Belgelerini Aspose.Note'a aktarın
 linktitle: PDF Belgelerini Aspose.Note'a aktarın
 second_title: Aspose.Note .NET API'si
 description: Sorunsuz entegrasyon için çeşitli birleştirme seçeneklerini kullanarak PDF belgelerini Aspose.Note for .NET'e zahmetsizce nasıl aktaracağınızı öğrenin.
-type: docs
 weight: 10
 url: /tr/net/import/import-pdf-documents/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# PDF Belgelerini Aspose.Note'a aktarın
+
 ## giriiş
 
 Günümüzde mevcut olan çok sayıda dijital içerik göz önüne alındığında, PDF belgelerini projelerinize sorunsuz bir şekilde entegre etmek çok önemlidir. Aspose.Note for .NET, PDF belgelerini verimli bir şekilde içe aktarmak için güçlü işlevler sağlar. Bu eğitimde, Aspose.Note for .NET'i kullanarak PDF belgelerinin adım adım nasıl içe aktarılacağını inceleyeceğiz.
@@ -151,3 +157,9 @@ Cevap4: Evet, Aspose.Note .NET Core ile uyumludur ve PDF içe aktarma işlevini 
 ### S5: Ek desteği veya kaynakları nerede bulabilirim?
 
  Cevap5: Ek destek, dokümantasyon veya topluluk yardımı için şu adresi ziyaret edin:[Aspose.Note forumu](https://forum.aspose.com/c/note/28).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

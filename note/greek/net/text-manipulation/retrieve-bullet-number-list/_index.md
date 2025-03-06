@@ -3,10 +3,16 @@ title: Ανάκτηση κουκκίδων ή λίστας αριθμών στο
 linktitle: Ανάκτηση κουκκίδων ή λίστας αριθμών στο κείμενο Aspose.Note
 second_title: Aspose.Note .NET API
 description: Ξεκλειδώστε τις δυνατότητες του Aspose.Note για .NET με τον αναλυτικό οδηγό μας για την ανάκτηση λιστών κουκκίδων ή αριθμών. Αναβαθμίστε τις δεξιότητες χειρισμού εγγράφων του OneNote!
-type: docs
 weight: 23
 url: /el/net/text-manipulation/retrieve-bullet-number-list/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Ανάκτηση κουκκίδων ή λίστας αριθμών στο κείμενο Aspose.Note
+
 ## Εισαγωγή
 Καλώς ήρθατε στον κόσμο του Aspose.Note για το .NET, μια ισχυρή και ευέλικτη βιβλιοθήκη που εξουσιοδοτεί τους προγραμματιστές να χειρίζονται τον χειρισμό εγγράφων του OneNote χωρίς κόπο. Σε αυτό το σεμινάριο, θα εμβαθύνουμε στη διαδικασία ανάκτησης λιστών κουκκίδων ή αριθμών χρησιμοποιώντας το Aspose.Note για .NET. Είτε είστε έμπειρος προγραμματιστής είτε λάτρης της κωδικοποίησης, αυτός ο οδηγός θα σας εξοπλίσει με τις γνώσεις για να περιηγηθείτε στις περιπλοκές της εργασίας με λίστες στο Aspose.Note.
 ## Προαπαιτούμενα
@@ -87,3 +93,9 @@ Console.WriteLine();
 Μπορείτε να εξερευνήσετε και να αναζητήσετε βοήθεια στο[Aspose.Note φόρουμ](https://forum.aspose.com/c/note/28) για τυχόν απορίες ή προβλήματα που μπορεί να αντιμετωπίσετε.
 ### Υπάρχει δωρεάν δοκιμαστική έκδοση του Aspose.Note για .NET;
  Ναι, μπορείτε να αποκτήσετε πρόσβαση στη δωρεάν δοκιμαστική έκδοση του Aspose.Note για .NET[εδώ](https://releases.aspose.com/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

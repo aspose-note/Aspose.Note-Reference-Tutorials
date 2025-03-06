@@ -3,10 +3,16 @@ title: Tải tài liệu OneNote vào Aspose.Note bằng PdfSaveOptions
 linktitle: Tải tài liệu OneNote vào Aspose.Note bằng PdfSaveOptions
 second_title: API Java Aspose.Note
 description: Tìm hiểu cách sử dụng Aspose.Note dành cho Java để tải tài liệu OneNote và chuyển đổi chúng sang định dạng PDF một cách dễ dàng. Đơn giản hóa tác vụ chuyển đổi tài liệu của bạn với Aspose.Note.
-type: docs
 weight: 23
 url: /vi/java/onenote-document-loading/load-pdf-save-options/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Tải tài liệu OneNote vào Aspose.Note bằng PdfSaveOptions
+
 ## Giới thiệu
 
 Chào mừng bạn đến với hướng dẫn toàn diện về cách sử dụng Aspose.Note cho Java! Trong hướng dẫn này, chúng ta sẽ khám phá cách sử dụng Aspose.Note để tải tài liệu OneNote và lưu chúng dưới dạng PDF bằng PdfSaveOptions. Aspose.Note là một thư viện Java mạnh mẽ cho phép các nhà phát triển làm việc liền mạch với các tệp Microsoft OneNote. Đến cuối hướng dẫn này, bạn sẽ hiểu rõ về cách tích hợp Aspose.Note vào các dự án Java của mình và thực hiện chuyển đổi tài liệu một cách dễ dàng.
@@ -83,3 +89,9 @@ Trả lời 3: Ngoài PDF, Aspose.Note còn hỗ trợ chuyển đổi sang nhi�
 ### Câu hỏi 5: Tôi có thể nhận trợ giúp hoặc hỗ trợ cho Aspose.Note ở đâu?
 
  Câu trả lời 5: Để được hỗ trợ hoặc có thắc mắc liên quan đến Aspose.Note, bạn có thể truy cập[diễn đàn hỗ trợ](https://forum.aspose.com/c/note/28).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

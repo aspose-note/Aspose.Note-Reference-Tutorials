@@ -3,10 +3,16 @@ title: Aspose.Note で画像に代替テキストを追加する
 linktitle: Aspose.Note で画像に代替テキストを追加する
 second_title: Aspose.Note .NET API
 description: Aspose.Note for .NET で画像に代替テキストを簡単に追加する方法を学びます。このステップバイステップのガイドを使用して、アクセシビリティを強化し、ユーザー エクスペリエンスを向上させます。
-type: docs
 weight: 14
 url: /ja/net/images/image-alternative-text/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Aspose.Note で画像に代替テキストを追加する
+
 ## 導入
 
 Aspose.Note for .NET の画像に代替テキストを追加すると、障害のあるユーザーのアクセシビリティが向上し、画像の理解が向上します。このチュートリアルでは、プロセスを段階的に説明します。
@@ -97,3 +103,9 @@ A3: Aspose.Note は他の .NET ライブラリとシームレスに統合し、�
 ### Q5: Aspose.Note に利用できる無料トライアルはありますか?
 
 A5: はい、次のサイトにアクセスして、Aspose.Note の無料トライアルを利用できます。[ここ](https://releases.aspose.com/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

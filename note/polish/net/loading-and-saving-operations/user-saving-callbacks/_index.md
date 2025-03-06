@@ -3,10 +3,16 @@ title: Wywołania zwrotne oszczędzające użytkownika w Aspose.Note
 linktitle: Wywołania zwrotne oszczędzające użytkownika w Aspose.Note
 second_title: Aspose.Note .NET API
 description: Dowiedz się, jak zaimplementować wywołania zwrotne oszczędzające użytkownika w Aspose.Note dla .NET, aby dostosować zapisywanie czcionek, CSS i obrazów.
-type: docs
 weight: 31
 url: /pl/net/loading-and-saving-operations/user-saving-callbacks/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Wywołania zwrotne oszczędzające użytkownika w Aspose.Note
+
 ## Wstęp
 
 tym samouczku omówimy, jak zaimplementować wywołania zwrotne oszczędzające użytkownika w Aspose.Note dla .NET. Te wywołania zwrotne pozwalają dostosować proces zapisywania, udostępniając zaczepy do interwencji na różnych etapach, takich jak zapisywanie czcionek, arkuszy stylów CSS i obrazów. Korzystając z tych wywołań zwrotnych, możesz dostosować sposób zapisywania do swoich konkretnych wymagań, zwiększając elastyczność i kontrolę nad wynikami.
@@ -118,3 +124,9 @@ O4: Chociaż te wywołania zwrotne zapewniają elastyczność, należy upewnić 
 ### P5: Czy mogę dynamicznie zmieniać sposób zapisywania w oparciu o dane wprowadzone przez użytkownika lub inne warunki?
 
 Odpowiedź 5: Tak, możesz włączyć logikę warunkową do metod wywołania zwrotnego, aby dynamicznie dostosowywać zachowanie zapisywania w oparciu o różne czynniki.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

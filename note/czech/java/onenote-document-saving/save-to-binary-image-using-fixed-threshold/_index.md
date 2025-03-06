@@ -3,10 +3,16 @@ title: Uložit do binárního obrázku pomocí pevného prahu ve OneNotu
 linktitle: Uložit do binárního obrázku pomocí pevného prahu ve OneNotu
 second_title: Aspose.Note Java API
 description: Pomocí Aspose.Note Java snadno ukládejte dokumenty Microsoft OneNote jako binární obrázky pomocí pevného prahu. Vylepšete své možnosti manipulace se soubory OneNotu.
-type: docs
 weight: 14
 url: /cs/java/onenote-document-saving/save-to-binary-image-using-fixed-threshold/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Uložit do binárního obrázku pomocí pevného prahu ve OneNotu
+
 ## Úvod
 
 Aspose.Note for Java je výkonné rozhraní API, které umožňuje vývojářům pracovat se soubory Microsoft OneNote programově. V tomto tutoriálu prozkoumáme, jak uložit dokument jako binární obraz pomocí pevného prahu. Chcete-li toho dosáhnout, postupujte podle níže uvedených kroků.
@@ -91,3 +97,9 @@ Odpověď 4: Ano, můžete dávkově zpracovat více dokumentů OneNotu iterací
 ### Q5: Je k dispozici technická podpora pro Aspose.Note pro Java?
 
  A5: Ano, technická podpora je k dispozici prostřednictvím[Aspose.Note fórum](https://forum.aspose.com/c/note/28), kde můžete klást otázky a hledat pomoc u odborníků.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

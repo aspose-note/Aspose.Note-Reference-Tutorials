@@ -3,10 +3,16 @@ title: Aspose.Note에서 이미지 스트림을 사용하여 이미지 삽입
 linktitle: Aspose.Note에서 이미지 스트림을 사용하여 이미지 삽입
 second_title: Aspose.Note .NET API
 description: .NET의 이미지 스트림을 사용하여 Aspose.Note 문서에 이미지를 원활하게 삽입하는 방법을 알아보세요. 손쉽게 시각적 요소로 노트 파일을 향상하세요.
-type: docs
 weight: 11
 url: /ko/net/images/insert-image-using-image-stream/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Aspose.Note에서 이미지 스트림을 사용하여 이미지 삽입
+
 ## 소개
 
 이 튜토리얼에서는 .NET의 이미지 스트림을 사용하여 Aspose.Note 문서에 이미지를 삽입하는 방법을 살펴보겠습니다. Aspose.Note는 개발자가 Microsoft OneNote 파일을 프로그래밍 방식으로 작업할 수 있는 강력한 API입니다. 이 가이드에 설명된 단계를 수행하면 이미지를 노트 문서에 원활하게 통합하여 시각적 매력과 전반적인 기능을 향상시키는 방법을 배우게 됩니다.
@@ -120,3 +126,9 @@ A4: Aspose.Note for .NET은 .NET 프레임워크의 여러 버전과 호환되�
 ### Q5: Aspose.Note에 대한 추가 리소스와 지원은 어디서 찾을 수 있나요?
 
  A5: Aspose에 대한 포괄적인 문서, 포럼 및 지원을 찾을 수 있습니다.[Aspose 포럼](https://forum.aspose.com/c/note/28).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -3,10 +3,16 @@ title: Làm chủ thao tác hình ảnh OneNote
 linktitle: Hình ảnh
 second_title: Aspose.Note .NET API
 description: Khám phá thế giới thao tác tài liệu OneNote với hướng dẫn Aspose.Note for .NET về xử lý hình ảnh liền mạch. Nâng cao nội dung hình ảnh của bạn một cách dễ dàng.
-type: docs
 weight: 23
 url: /vi/net/images/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Làm chủ thao tác hình ảnh OneNote
+
 ## Giới thiệu
 
 Bạn đã sẵn sàng nâng cao kỹ năng thao tác tài liệu OneNote của mình chưa? Đi sâu vào các hướng dẫn toàn diện của chúng tôi về Aspose.Note cho .NET, tập trung vào thế giới xử lý hình ảnh phức tạp. Từ việc chèn hình ảnh theo chương trình đến trích xuất thông tin hình ảnh có giá trị, chúng tôi đều hỗ trợ bạn.
@@ -48,3 +54,9 @@ Tìm hiểu cách thêm văn bản thay thế vào hình ảnh trong Aspose.Note
 Tìm hiểu cách chèn hình ảnh có siêu liên kết trong Aspose.Note cho .NET một cách dễ dàng. Tăng cường tính tương tác của tài liệu với hình ảnh có thể nhấp vào.
 ### [Chèn hình ảnh vào tài liệu Aspose.Note](./insert-images/)
 Tìm hiểu cách chèn hình ảnh liền mạch vào tài liệu Aspose.Note bằng .NET để có nội dung trực quan nâng cao. Hãy làm theo hướng dẫn từng bước của chúng tôi để tích hợp dễ dàng.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

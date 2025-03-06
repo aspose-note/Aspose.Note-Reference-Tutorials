@@ -3,10 +3,16 @@ title: Tulis Dokumen yang Dilindungi Kata Sandi di Aspose Note .NET
 linktitle: Tulis Dokumen yang Dilindungi Kata Sandi di Aspose Note .NET
 second_title: Aspose.Catatan .NET API
 description: Pelajari cara membuat dokumen yang dilindungi kata sandi di Aspose Note .NET untuk meningkatkan keamanan. Tutorial langkah demi langkah disertakan.
-type: docs
 weight: 26
 url: /id/net/notebook-operations/write-password-protected-documents/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Tulis Dokumen yang Dilindungi Kata Sandi di Aspose Note .NET
+
 ## Perkenalan
 
 Dalam tutorial ini, kita akan mempelajari proses pembuatan dokumen yang dilindungi kata sandi menggunakan Aspose.Note untuk .NET. Perlindungan kata sandi menambah lapisan keamanan ekstra pada dokumen Anda, memastikan bahwa hanya individu yang berwenang yang dapat mengakses kontennya. Kami akan memandu Anda melalui setiap langkah, mulai dari mengimpor namespace hingga menulis kode untuk perlindungan kata sandi.
@@ -90,3 +96,9 @@ A4: Ya, Aspose.Note untuk .NET menggunakan algoritma enkripsi yang kuat untuk me
 ### Q5: Apakah dukungan teknis tersedia untuk Aspose.Note untuk .NET?
 
  A5: Ya, dukungan teknis tersedia melalui[Aspose.Catatan forum](https://forum.aspose.com/c/note/28), di mana Anda dapat mencari bantuan dan bimbingan dari para ahli.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -3,10 +3,16 @@ title: Nhận thông tin định dạng tệp từ OneNote - Java
 linktitle: Nhận thông tin định dạng tệp từ OneNote - Java
 second_title: API Java Aspose.Note
 description: Tìm hiểu cách trích xuất chi tiết định dạng tệp từ tệp OneNote trong Java bằng Aspose.Note. Nâng cao ứng dụng Java của bạn bằng cách làm theo hướng dẫn toàn diện này.
-type: docs
 weight: 22
 url: /vi/java/onenote-document-loading/get-file-format-info/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Nhận thông tin định dạng tệp từ OneNote - Java
+
 ## Giới thiệu
 
 Trong hướng dẫn này, chúng ta sẽ khám phá cách truy xuất thông tin định dạng tệp từ tệp OneNote bằng Java với sự trợ giúp của Aspose.Note. Aspose.Note for Java là một API mạnh mẽ cho phép các nhà phát triển làm việc với các tệp Microsoft OneNote theo chương trình, cho phép thực hiện các tác vụ như đọc, viết và thao tác tài liệu OneNote một cách liền mạch.
@@ -80,3 +86,9 @@ Câu trả lời 3: Bạn có thể tìm thấy sự hỗ trợ và hỗ trợ d
 ### Câu hỏi 5: Làm cách nào tôi có thể mua giấy phép Aspose.Note cho Java?
 
  Câu trả lời 5: Bạn có thể mua giấy phép cho Aspose.Note dành cho Java từ[trang mua hàng](https://purchase.aspose.com/buy).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

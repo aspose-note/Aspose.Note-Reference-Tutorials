@@ -3,10 +3,16 @@ title: Chuyển đổi sổ ghi chép thành hình ảnh (làm phẳng) trong As
 linktitle: Chuyển đổi sổ ghi chép thành hình ảnh (làm phẳng) trong Aspose Note .NET
 second_title: Aspose.Note .NET API
 description: Tìm hiểu cách chuyển đổi sổ ghi chép OneNote thành hình ảnh phẳng bằng Aspose.Note for .NET. Hướng dẫn từng bước để tích hợp liền mạch.
-type: docs
 weight: 12
 url: /vi/net/notebook-operations/convert-to-image-flattened/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Chuyển đổi sổ ghi chép thành hình ảnh (làm phẳng) trong Aspose Note .NET
+
 ## Giới thiệu
 
 Trong hướng dẫn này, chúng ta sẽ tìm hiểu cách sử dụng Aspose.Note for .NET để chuyển đổi sổ ghi chép thành hình ảnh phẳng. Chúng tôi sẽ chia quy trình thành các bước đơn giản để giúp bạn hiểu và triển khai quy trình một cách hiệu quả.
@@ -93,3 +99,9 @@ Câu trả lời 1: Có, Aspose.Note for .NET có khả năng xử lý các sổ
 ### Câu hỏi 5: Tôi có thể tìm tài liệu về Aspose.Note cho .NET ở đâu?
 
  A5: Bạn có thể tìm tài liệu[đây](https://reference.aspose.com/note/net/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

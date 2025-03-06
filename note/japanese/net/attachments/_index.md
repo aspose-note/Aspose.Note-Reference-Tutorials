@@ -3,10 +3,16 @@ title: OneNote ドキュメントでのファイルの添付と取得
 linktitle: 添付ファイル
 second_title: Aspose.Note .NET API
 description: Aspose.Note で .NET アプリケーションを強化しましょう!開発を強化するために、ファイルの添付、アイコンの設定、添付ファイルの取得に関するチュートリアルを参照してください。
-type: docs
 weight: 21
 url: /ja/net/attachments/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# OneNote ドキュメントでのファイルの添付と取得
+
 ## 導入
 
 .NET アプリケーションを次のレベルに引き上げる準備はできていますか? Aspose.Note の世界に飛び込み、可能性の領域を解き放ちましょう。この包括的なチュートリアルのリストでは、ファイルの添付、アイコンの設定、添付ファイルのシームレスな取得に重点を置いて、主要な機能について説明します。
@@ -37,3 +43,9 @@ Aspose.Note for .NET でファイルを添付し、アイコンを設定する�
 Aspose.Note for .NET を使用してプログラムで Microsoft OneNote ドキュメントにファイルを添付する方法を学びます。この包括的なチュートリアルを使用して、開発プロセスを簡素化します。
 ### [Aspose.Note を使用して添付ファイルを取得する](./retrieve-attached-files/)
 Aspose.Note for .NET を使用して Microsoft OneNote ドキュメントから添付ファイルを取得する方法を学びます。手順に従って、ロード、ノードの取得、添付ファイルの反復処理を行います。
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

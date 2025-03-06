@@ -3,10 +3,16 @@ title: Use Splitting Algorithm Method in OneNote - Aspose.Note
 linktitle: Use Splitting Algorithm Method in OneNote - Aspose.Note
 second_title: Aspose.Note Java API
 description: Master OneNote doc splitting in Java with Aspose.Note! Choose algorithms, control page breaks & save as PDF easily. Code included! #OneNote #Java #Aspose
-type: docs
 weight: 26
 url: /java/onenote-document-saving/use-splitting-algorithm-method/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Use Splitting Algorithm Method in OneNote - Aspose.Note
+
 ## Introduction
 
 In this tutorial, we'll delve into using the Splitting Algorithm Method in Aspose.Note for Java. Aspose.Note is a powerful library that allows developers to work with Microsoft OneNote files programmatically. Utilizing the Splitting Algorithm can be particularly useful when you need to manipulate and export OneNote documents, especially when dealing with complex layouts or large files.
@@ -101,3 +107,10 @@ A4: Yes, you can avail of a [free trial](https://releases.aspose.com/) to explor
 ### Q5: How can I obtain a temporary license for Aspose.Note?
 
 A5: You can request a [temporary license](https://purchase.aspose.com/temporary-license/) to evaluate the product under a trial period.
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

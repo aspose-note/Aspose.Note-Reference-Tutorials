@@ -3,10 +3,16 @@ title: Simpan ke Gambar JPEG Menggunakan Format Simpan di OneNote
 linktitle: Simpan ke Gambar JPEG Menggunakan Format Simpan di OneNote
 second_title: Aspose.Catatan Java API
 description: Ubah dokumen OneNote menjadi gambar JPEG dengan mudah! Tutorial Java ini menunjukkan cara menggunakan Aspose.Note. Konversi & otomatisasi dengan contoh kode! #OneNote #Java #Aspose
-type: docs
 weight: 18
 url: /id/java/onenote-document-saving/save-to-jpeg-image-using-save-format/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Simpan ke Gambar JPEG Menggunakan Format Simpan di OneNote
+
 ## Perkenalan
 
 Dalam tutorial ini, kita akan mempelajari proses menyimpan dokumen ke format gambar JPEG menggunakan Aspose.Note untuk Java. Aspose.Note adalah Java API canggih yang memungkinkan pengembang bekerja dengan file Microsoft OneNote secara terprogram, memungkinkan berbagai operasi seperti konversi, manipulasi, dan ekstraksi konten.
@@ -78,3 +84,9 @@ A1: Ya, Aspose.Note dirancang untuk menangani file OneNote yang kompleks secara 
 ### Q5: Di mana saya dapat menemukan dokumentasi terperinci untuk Aspose.Note untuk Java?
 
 A5: Anda dapat menemukan dokumentasi terperinci untuk Aspose.Note untuk Java[Di Sini](https://reference.aspose.com/note/java/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

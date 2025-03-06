@@ -3,10 +3,16 @@ title: OneNote での競合ページ操作 - Aspose.Note
 linktitle: OneNote での競合ページ操作 - Aspose.Note
 second_title: Aspose.Note Java API
 description: Aspose.Note for Java を使用して OneNote の競合ページを効率的に管理する方法を学びます。ステップバイステップのガイダンスにより、競合をシームレスに解決します。
-type: docs
 weight: 10
 url: /ja/java/onenote-page-manipulation/conflict-page-manipulation/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# OneNote での競合ページ操作 - Aspose.Note
+
 ## 導入
 
 OneNote ユーザーは、複数のユーザーが同じページを同時に編集すると競合が発生することがよくあります。これらの競合を効率的に解決することは、文書の整合性を維持するために非常に重要です。 Aspose.Note for Java は、競合ページをシームレスに管理するための強力なツールを提供します。このチュートリアルでは、Aspose.Note for Java を使用して競合ページを操作する方法を説明します。
@@ -113,3 +119,9 @@ A4: はい、Aspose.Note for Java には広範なカスタマイズ オプショ
 ### Q5: Java ユーザー向けの Aspose.Note のコミュニティ フォーラムはありますか?
 
  A5：もちろんです！活発なコミュニティ フォーラムに参加してください。[Aspose.Note for Java サポート](https://forum.aspose.com/c/note/28)他のユーザーとつながり、専門家の支援を受けることができます。
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

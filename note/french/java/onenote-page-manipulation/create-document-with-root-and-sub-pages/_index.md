@@ -3,10 +3,16 @@ title: Créer un document avec des pages racine et des sous-pages dans OneNote
 linktitle: Créer un document avec des pages racine et des sous-pages dans OneNote
 second_title: API Java Aspose.Note
 description: Créez un document avec des pages racine et des sous-pages dans OneNote à l'aide d'Aspose.Note pour Java. Suivez le guide étape par étape pour organiser efficacement vos notes.
-type: docs
 weight: 11
 url: /fr/java/onenote-page-manipulation/create-document-with-root-and-sub-pages/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Créer un document avec des pages racine et des sous-pages dans OneNote
+
 ## Introduction
 
 Dans ce didacticiel, nous vous guiderons tout au long du processus de création d'un document avec des pages racine et des sous-pages dans OneNote à l'aide d'Aspose.Note pour Java. En suivant ces étapes, vous serez en mesure d'organiser efficacement vos documents OneNote avec une structure hiérarchique.
@@ -169,3 +175,9 @@ A4 : Oui, Aspose.Note pour Java prend en charge l'enregistrement de documents da
 ### Q5 : Existe-t-il une version d'essai disponible pour Aspose.Note pour Java ?
 
 A5 : Oui, vous pouvez télécharger une version d'essai gratuite d'Aspose.Note pour Java à partir du site Web.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -3,10 +3,16 @@ title: OneNote'ta Not Defteri Dosyasını Yükleme Seçenekleri ile Yükleme - A
 linktitle: OneNote'ta Not Defteri Dosyasını Yükleme Seçenekleri ile Yükleme - Aspose.Note
 second_title: Aspose.Note Java API'si
 description: OneNote dosyalarını programlı olarak değiştirmek için Aspose.Note for Java'yı nasıl kullanacağınızı öğrenin. Kapsamlı eğitimimize hemen başlayın.
-type: docs
 weight: 20
 url: /tr/java/onenote-notebook-operations/load-notebook-file-with-load-options/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# OneNote'ta Not Defteri Dosyasını Yükleme Seçenekleri ile Yükleme - Aspose.Note
+
 ## giriiş
 
 Aspose.Note for Java, geliştiricilerin Microsoft OneNote dosyalarıyla programlı olarak çalışmasını sağlayan güçlü bir kitaplıktır. OneNote belgeleri oluşturmak, değiştirmek veya dönüştürmek istiyorsanız Aspose.Note for Java, iş akışınızı kolaylaştırmak için gerekli araçları sağlar. Bu eğitimde Aspose.Note for Java'ya nasıl başlayacağınızı, önkoşulları, paketleri içe aktarmayı ve örnekleri takip edilmesi kolay adımlara ayırarak keşfedeceğiz.
@@ -94,3 +100,9 @@ Cevap1: Evet, Aspose.Note for Java, .one, .onetoc2 ve .onepkg formatları dahil 
 ### S5: Aspose.Note for Java'yı kullanmak için geçici bir lisansa ihtiyacım var mı?
 
  Cevap5: Ürünü değerlendiriyorsanız geçici bir lisans alabilirsiniz.[Burada](https://purchase.aspose.com/temporary-license/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

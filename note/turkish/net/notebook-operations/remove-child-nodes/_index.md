@@ -3,10 +3,16 @@ title: Aspose Note .NET'te Alt Düğümleri Kaldır
 linktitle: Aspose Note .NET'te Alt Düğümleri Kaldır
 second_title: Aspose.Note .NET API'si
 description: Aspose.Note for .NET'te alt düğümleri zahmetsizce nasıl kaldıracağınızı öğrenin. Bu adım adım kılavuzla OneNote dosya yönetiminizi basitleştirin.
-type: docs
 weight: 24
 url: /tr/net/notebook-operations/remove-child-nodes/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Aspose Note .NET'te Alt Düğümleri Kaldır
+
 ## giriiş
 
 Bu eğitimde, Aspose.Note for .NET'i kullanarak alt düğümleri etkili bir şekilde nasıl kaldıracağımızı keşfedeceğiz. Aspose.Note, geliştiricilerin Microsoft OneNote dosyalarıyla programlı olarak çalışmasına olanak tanıyan güçlü bir kitaplıktır. İster not defterlerini, bölümleri, ister tek tek sayfaları yönetiyor olun, Aspose.Note sezgisel API'si ile süreci basitleştirir. Burada özellikle alt düğümleri not defterinden kaldırmaya odaklanacağız.
@@ -92,3 +98,9 @@ Cevap4: Kesinlikle! Aspose.Note, OneNote dosyalarındaki sayfa içeriğini oluş
 ### S5: Aspose.Note için ek desteği nerede bulabilirim?
 
  A5: Daha fazla yardım veya sorularınız için şu adresi ziyaret edebilirsiniz:[Aspose.Note forumu](https://forum.aspose.com/c/note/28) uzmanların ve geliştirici arkadaşlarının yardıma hazır olduğu yer.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

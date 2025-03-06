@@ -3,10 +3,16 @@ title: 使用 OneNote 中的選項將筆記本轉換為 PDF - Aspose.Note
 linktitle: 使用 OneNote 中的選項將筆記本轉換為 PDF - Aspose.Note
 second_title: Aspose.Note Java API
 description: 輕鬆自訂 OneNote 筆記本並將其匯出為 PDF！ Aspose.Note for Java 處理繁重的工作。包括逐步指南！ #OneNote #Java #Aspose
-type: docs
 weight: 17
 url: /zh-hant/java/onenote-notebook-operations/convert-notebook-to-pdf-with-options/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# 使用 OneNote 中的選項將筆記本轉換為 PDF - Aspose.Note
+
 ## 介紹
 
 在本教程中，我們將深入研究如何使用 Aspose.Note for Java 將筆記本轉換為 PDF，並提供可自訂的選項。 Aspose.Note 是一個功能強大的 Java API，可讓開發人員以程式設計方式操作 Microsoft OneNote 文件。將筆記本轉換為 PDF 格式是各種應用程式中的常見要求，而使用 Aspose.Note，此任務變得簡化且有效率。
@@ -90,3 +96,9 @@ A2：Aspose.Note支援Microsoft OneNote 2010及更高版本。
 ### Q5：如何獲得 Aspose.Note 的支援？
 
  A5：如需任何技術協助或疑問，您可以造訪 Aspose.Note 支援論壇[這裡](https://forum.aspose.com/c/note/28).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -3,10 +3,16 @@ title: Konversikan Buku Catatan ke PDF yang Diratakan di OneNote - Aspose.Note
 linktitle: Konversikan Buku Catatan ke PDF yang Diratakan di OneNote - Aspose.Note
 second_title: Aspose.Catatan Java API
 description: Konversi buku catatan menjadi PDF rata dengan mudah menggunakan Aspose.Note untuk Java. Nikmati opsi integrasi dan penyesuaian yang lancar.
-type: docs
 weight: 16
 url: /id/java/onenote-notebook-operations/convert-notebook-to-flattened-pdf/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Konversikan Buku Catatan ke PDF yang Diratakan di OneNote - Aspose.Note
+
 ## Perkenalan
 
 Dalam tutorial ini, kita akan mempelajari cara mengonversi buku catatan ke format PDF yang diratakan menggunakan Aspose.Note untuk Java. Mengonversi buku catatan ke PDF adalah persyaratan umum untuk banyak aplikasi, dan Aspose.Note menyederhanakan proses ini dengan serangkaian fitur lengkap dan API yang mudah digunakan.
@@ -82,3 +88,9 @@ A3: Ya, Anda dapat mengonversi beberapa buku catatan ke PDF secara batch secara 
 ### Q5: Di mana saya dapat menemukan dukungan untuk Aspose.Note untuk Java?
 
  A5: Anda dapat menemukan dukungan dan bantuan untuk Aspose.Note untuk Java di[Aspose.Catatan forum](https://forum.aspose.com/c/note/28).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

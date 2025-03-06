@@ -3,10 +3,16 @@ title: 檢查 OneNote 文件是否已加密 - Java
 linktitle: 檢查 OneNote 文件是否已加密 - Java
 second_title: Aspose.Note Java API
 description: 了解如何使用 Aspose.Note 檢查 OneNote 文件是否在 Java 中加密。請按照我們的逐步指南進行高效率的文件處理。
-type: docs
 weight: 10
 url: /zh-hant/java/onenote-document-loading/check-document-encrypted/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# 檢查 OneNote 文件是否已加密 - Java
+
 ## 介紹
 
 在 Java 中處理 OneNote 文件時，請確保文件在處理之前未加密至關重要。加密文件可以增加額外的安全層，但如果處理不當，也會使處理步驟變得複雜。在本教學中，我們將引導您完成使用 Aspose.Note for Java 檢查 OneNote 文件是否已加密的過程。
@@ -116,3 +122,9 @@ A4：不，Aspose.Note 專為處理 OneNote 文件而設計。
 ### Q5：在哪裡可以找到更多關於 Aspose.Note for Java 的資源和支援？
 
  A5：您可以訪問[Aspose.Note 論壇](https://forum.aspose.com/c/note/28)以獲得社區支持和文件。
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

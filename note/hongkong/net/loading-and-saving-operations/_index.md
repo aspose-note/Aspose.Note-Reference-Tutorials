@@ -3,10 +3,16 @@ title: 使用 Aspose.Note for .NET 操作 OneNote 文檔
 linktitle: 載入和儲存操作
 second_title: Aspose.Note .NET API
 description: 釋放 Aspose.Note for .NET 的強大功能！深入研究我們的教學課程，了解如何輕鬆載入、儲存和操作 OneNote 文件的逐步指導。
-type: docs
 weight: 25
 url: /zh-hant/net/loading-and-saving-operations/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# 使用 Aspose.Note for .NET 操作 OneNote 文檔
+
 
 ## 介紹
 
@@ -80,3 +86,9 @@ url: /zh-hant/net/loading-and-saving-operations/
 了解如何在 Aspose.Note for .NET 中指定儲存選項以自訂 OneNote 文件的輸出格式和品質。
 ### [Aspose.Note 中的使用者儲存回呼](./user-saving-callbacks/)
 了解如何在 Aspose.Note for .NET 中實作使用者儲存回呼，以自訂儲存字體、CSS 和映像。
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

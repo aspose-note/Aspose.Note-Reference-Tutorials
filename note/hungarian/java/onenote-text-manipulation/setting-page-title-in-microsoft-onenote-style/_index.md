@@ -3,10 +3,16 @@ title: Oldalcím beállítása a Microsoft OneNote stílusban – Aspose.Note
 linktitle: Oldalcím beállítása a Microsoft OneNote stílusban – Aspose.Note
 second_title: Aspose.Note Java API
 description: Ismerje meg, hogyan állíthat be oldalcímeket Microsoft OneNote stílusban az Aspose.Note for Java segítségével. Emelje fel Java-dokumentumait professzionális formázással.
-type: docs
 weight: 23
 url: /hu/java/onenote-text-manipulation/setting-page-title-in-microsoft-onenote-style/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Oldalcím beállítása a Microsoft OneNote stílusban – Aspose.Note
+
 ## Bevezetés
 Java fejlesztés dinamikus világában a tetszetős és strukturált dokumentumok létrehozása kulcsfontosságú. Ha Microsoft OneNote-stílusú oldalcímekkel szeretné javítani Java-alkalmazásait, az Aspose.Note for Java a legjobb megoldás. Ebben az átfogó oktatóanyagban végigvezetjük az oldalcímek OneNote stílusban történő beállításának folyamatán az Aspose.Note segítségével, így biztosítva, hogy dokumentumai professzionálisan kiemelkedjenek.
 ## Előfeltételek
@@ -72,3 +78,9 @@ Az Aspose.Note úgy lett kialakítva, hogy zökkenőmentesen működjön együtt
  Kérjen segítséget az Aspose.Note közösségtől a címen[Aspose.Note fórum](https://forum.aspose.com/c/note/28).
 ### Létezik próbaverzió?
  Igen, felfedezheti az Aspose.Note képességeit egy ingyenes próbaverzióval[itt](https://releases.aspose.com/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

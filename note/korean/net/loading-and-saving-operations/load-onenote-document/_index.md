@@ -3,10 +3,16 @@ title: Aspose.Note에서 OneNote 문서 로드
 linktitle: Aspose.Note에서 OneNote 문서 로드
 second_title: Aspose.Note .NET API
 description: Aspose.Note를 사용하여 .NET에서 프로그래밍 방식으로 OneNote 문서를 로드, 암호화 및 해독하는 방법을 알아보세요.
-type: docs
 weight: 16
 url: /ko/net/loading-and-saving-operations/load-onenote-document/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Aspose.Note에서 OneNote 문서 로드
+
 ## 소개
 
 Aspose.Note for .NET은 개발자가 .NET 애플리케이션에서 Microsoft OneNote 파일을 프로그래밍 방식으로 작업할 수 있게 해주는 강력한 API입니다. OneNote 문서를 로드, 조작 또는 변환해야 하는 경우 Aspose.Note for .NET은 작업 흐름을 간소화하는 포괄적인 기능을 제공합니다.
@@ -174,3 +180,9 @@ A2: 예, 문서가 암호화되었는지 확인하고 .NET용 Aspose.Note를 사
 ### Q5: Aspose.Note for .NET의 임시 라이선스를 어떻게 얻을 수 있나요?
 
  A5: 임시 라이센스를 요청할 수 있습니다.[구매 페이지 제안](https://purchase.aspose.com/temporary-license/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

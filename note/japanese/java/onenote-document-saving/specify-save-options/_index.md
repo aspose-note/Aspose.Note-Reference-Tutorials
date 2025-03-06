@@ -3,10 +3,16 @@ title: OneNote で保存オプションを指定する - Aspose.Note
 linktitle: OneNote で保存オプションを指定する - Aspose.Note
 second_title: Aspose.Note Java API
 description: Aspose.Note for Java を使用して OneNote で保存オプションを指定する方法を学習します。ページのインデックス、カウント、圧縮設定を簡単にカスタマイズします。
-type: docs
 weight: 24
 url: /ja/java/onenote-document-saving/specify-save-options/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# OneNote で保存オプションを指定する - Aspose.Note
+
 ## 導入
 
 このチュートリアルでは、Aspose.Note for Java を使用して OneNote で保存オプションを指定する方法を学習します。 Aspose.Note は、開発者がプログラムで OneNote ドキュメントを作成、操作、変換できるようにする強力な Java ライブラリです。 Aspose.Note を使用すると、さまざまな保存オプションを簡単に制御して、要件に応じて出力をカスタマイズできます。
@@ -109,3 +115,9 @@ A4: はい、Aspose.Note は OneNote ドキュメントの暗号化と復号化�
 ### Q5: Aspose.Note は商用利用に適していますか?
 
 A5: はい、Aspose.Note はライセンスを購入することで商用目的で使用できます。
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

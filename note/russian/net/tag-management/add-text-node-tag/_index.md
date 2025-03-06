@@ -3,10 +3,16 @@ title: Добавьте текстовый узел с тегом в Aspose.Note
 linktitle: Добавьте текстовый узел с тегом в Aspose.Note
 second_title: Aspose.Note .NET API
 description: Узнайте, как добавлять текстовые узлы с тегами в документы OneNote с помощью Aspose.Note для .NET.
-type: docs
 weight: 12
 url: /ru/net/tag-management/add-text-node-tag/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Добавьте текстовый узел с тегом в Aspose.Note
+
 ## Введение
 
 Aspose.Note для .NET — это мощная библиотека, которая позволяет разработчикам создавать, манипулировать и конвертировать файлы Microsoft OneNote программным способом с использованием платформы .NET. В этом уроке мы рассмотрим, как добавить текстовый узел с тегом в документ OneNote с помощью Aspose.Note для .NET.
@@ -107,3 +113,9 @@ A3: Да, вы можете настроить цвета и стили тего
 ### Вопрос 5. Где я могу найти дополнительные ресурсы и поддержку Aspose.Note для .NET?
 
  A5: Вы можете изучить[Документация Aspose.Note для .NET](https://reference.aspose.com/note/net/)и обратиться за помощью к[Форум Aspose.Note](https://forum.aspose.com/c/note/28).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

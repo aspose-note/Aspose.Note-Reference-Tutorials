@@ -3,10 +3,16 @@ title: Add Hyperlinks in Aspose.Note Documents
 linktitle: Add Hyperlinks in Aspose.Note Documents
 second_title: Aspose.Note .NET API
 description: Learn how to add hyperlinks to Aspose.Note documents using Aspose.Note for .NET. Enhance document interactivity with this step-by-step tutorial.
-type: docs
 weight: 10
 url: /net/hyperlinks/add-hyperlinks/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Add Hyperlinks in Aspose.Note Documents
+
 ## Introduction
 
 In this tutorial, you will learn how to add hyperlinks to text within Aspose.Note documents using the .NET framework. Aspose.Note provides powerful features to manipulate OneNote documents programmatically. Adding hyperlinks can enhance the interactivity and usability of your documents, making them more engaging for users.
@@ -131,3 +137,10 @@ A4: Aspose.Note is designed to work with Microsoft OneNote 2010 and later versio
 ### Q5: Can I add hyperlinks programmatically using Aspose.Note APIs?
 
 A5: Yes, Aspose.Note provides APIs that allow you to add hyperlinks to text programmatically within your .NET applications.
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

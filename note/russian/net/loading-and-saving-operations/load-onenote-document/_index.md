@@ -3,10 +3,16 @@ title: Загрузите документ OneNote в Aspose.Note
 linktitle: Загрузите документ OneNote в Aspose.Note
 second_title: Aspose.Note .NET API
 description: Узнайте, как программно загружать, шифровать и расшифровывать документы OneNote в .NET с помощью Aspose.Note.
-type: docs
 weight: 16
 url: /ru/net/loading-and-saving-operations/load-onenote-document/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Загрузите документ OneNote в Aspose.Note
+
 ## Введение
 
 Aspose.Note для .NET — это мощный API, который позволяет разработчикам программно работать с файлами Microsoft OneNote в своих .NET-приложениях. Если вам нужно загружать, манипулировать или конвертировать документы OneNote, Aspose.Note для .NET предоставляет комплексные функциональные возможности для оптимизации вашего рабочего процесса.
@@ -174,3 +180,9 @@ A1: Aspose.Note для .NET поддерживает различные верс
 ### Вопрос 5: Как я могу получить временную лицензию на Aspose.Note для .NET?
 
  О5: Вы можете запросить временную лицензию у[Aspose страница покупки](https://purchase.aspose.com/temporary-license/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

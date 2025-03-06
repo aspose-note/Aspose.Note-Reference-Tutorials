@@ -3,10 +3,16 @@ title: Dołącz plik według ścieżki w programie OneNote za pomocą języka Ja
 linktitle: Dołącz plik według ścieżki w programie OneNote za pomocą języka Java
 second_title: Aspose.Note API Java
 description: Bezproblemowo dodawaj pliki do notatek OneNote! Dowiedz się, jak dołączać według ścieżki w Javie za pomocą Aspose.Note. Łatwy przewodnik i kod w zestawie! #OneNote #Java #Aspose
-type: docs
 weight: 11
 url: /pl/java/onenote-java-integration/attach-file-by-path/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Dołącz plik według ścieżki w programie OneNote za pomocą języka Java
+
 ## Wstęp
 
 OneNote to wszechstronne narzędzie do organizowania notatek i zarządzania nimi, a dzięki Aspose.Note dla Java możesz zwiększyć jego funkcjonalność, programowo dołączając pliki do notatek. W tym samouczku przeprowadzimy Cię przez proces dołączania pliku według jego ścieżki w programie OneNote przy użyciu języka Java.
@@ -148,3 +154,9 @@ O4: Tak, możesz dołączać pliki do określonych sekcji, odpowiednio organizuj
 ### P5: Czy istnieje ograniczenie rozmiaru pliku, który mogę załączyć?
 
 O5: Aspose.Note nie nakłada ścisłych ograniczeń na rozmiar pliku, ale bierze pod uwagę wpływ na wydajność w przypadku bardzo dużych plików.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

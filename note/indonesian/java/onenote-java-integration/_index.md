@@ -3,10 +3,16 @@ title: Integrasi Java OneNote
 linktitle: Integrasi Java OneNote
 second_title: Aspose.Catatan Java API
 description: Tingkatkan pengalaman OneNote Anda dengan Aspose.Note Java! Jelajahi tutorial tentang melampirkan file, mengatur ikon, dan mengambil lampiran secara terprogram menggunakan Java.
-type: docs
 weight: 20
 url: /id/java/onenote-java-integration/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Integrasi Java OneNote
+
 ## Perkenalan
 
 Selamat datang di panduan komprehensif kami tentang mengintegrasikan OneNote dengan Java menggunakan Aspose.Note. Baik Anda seorang pengembang berpengalaman atau baru memulai, tutorial ini akan memberdayakan Anda untuk memaksimalkan kemampuan OneNote Anda secara terprogram.
@@ -36,3 +42,9 @@ Pelajari cara melampirkan file dan mengatur ikon di OneNote menggunakan Java den
 Pelajari cara melampirkan file ke catatan OneNote Anda secara terprogram menggunakan Java dengan Aspose.Note.
 ### [Ambil Lampiran dari OneNote menggunakan Java](./retrieve-attachment/)
 Pelajari cara mengambil lampiran dari OneNote menggunakan Java dengan Aspose.Note, API canggih untuk manipulasi dokumen tanpa hambatan.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

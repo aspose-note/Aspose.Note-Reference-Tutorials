@@ -3,10 +3,16 @@ title: OneNote에 페이지 삽입 - Aspose.Note
 linktitle: OneNote에 페이지 삽입 - Aspose.Note
 second_title: Aspose.Note 자바 API
 description: Java용 Aspose.Note를 사용하여 프로그래밍 방식으로 OneNote 문서에 페이지를 삽입하는 방법을 알아보세요. 단계별 지침이 포함된 종합 튜토리얼입니다.
-type: docs
 weight: 16
 url: /ko/java/onenote-page-manipulation/insert-pages/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# OneNote에 페이지 삽입 - Aspose.Note
+
 ## 소개
 
 이 튜토리얼에서는 Aspose.Note for Java를 사용하여 OneNote 문서에 페이지를 삽입하는 방법을 알아봅니다.
@@ -132,3 +138,9 @@ A4: 예, Windows, Linux 및 macOS를 포함한 다양한 플랫폼에서 Java용
 ### 질문 5: OneNote에 삽입된 페이지의 모양을 사용자 지정할 수 있나요?
 
 A5: 물론입니다. Aspose.Note는 특정 요구 사항에 맞게 페이지 레이아웃, 스타일 및 콘텐츠를 사용자 정의할 수 있는 광범위한 옵션을 제공합니다.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

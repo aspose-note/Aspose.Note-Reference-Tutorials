@@ -3,10 +3,16 @@ title: Informatie over bestandsindelingen ophalen van OneNote - Java
 linktitle: Informatie over bestandsindelingen ophalen van OneNote - Java
 second_title: Aspose.Note Java-API
 description: Leer bestandsindelingsdetails uit OneNote-bestanden in Java extraheren met Aspose.Note. Verbeter uw Java-applicaties door deze uitgebreide tutorial te volgen.
-type: docs
 weight: 22
 url: /nl/java/onenote-document-loading/get-file-format-info/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Informatie over bestandsindelingen ophalen van OneNote - Java
+
 ## Invoering
 
 In deze zelfstudie onderzoeken we hoe u bestandsindelingsinformatie uit een OneNote-bestand kunt ophalen met behulp van Java met behulp van Aspose.Note. Aspose.Note voor Java is een krachtige API waarmee ontwikkelaars programmatisch met Microsoft OneNote-bestanden kunnen werken, waardoor taken zoals het naadloos lezen, schrijven en manipuleren van OneNote-documenten mogelijk worden.
@@ -80,3 +86,9 @@ A3: U kunt ondersteuning en assistentie voor Aspose.Note voor Java vinden op de[
 ### V5: Hoe kan ik een licentie kopen voor Aspose.Note voor Java?
 
  A5: U kunt een licentie voor Aspose.Note voor Java aanschaffen bij de[aankooppagina](https://purchase.aspose.com/buy).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

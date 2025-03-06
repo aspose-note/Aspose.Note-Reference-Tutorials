@@ -3,10 +3,16 @@ title: Simpan ke Gambar Biner Menggunakan Ambang Batas Tetap di OneNote
 linktitle: Simpan ke Gambar Biner Menggunakan Ambang Batas Tetap di OneNote
 second_title: Aspose.Catatan Java API
 description: Simpan dokumen Microsoft OneNote dengan mudah sebagai gambar biner menggunakan ambang batas tetap dengan Aspose.Note Java. Tingkatkan kemampuan manipulasi file OneNote Anda.
-type: docs
 weight: 14
 url: /id/java/onenote-document-saving/save-to-binary-image-using-fixed-threshold/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Simpan ke Gambar Biner Menggunakan Ambang Batas Tetap di OneNote
+
 ## Perkenalan
 
 Aspose.Note untuk Java adalah API canggih yang memungkinkan pengembang bekerja dengan file Microsoft OneNote secara terprogram. Dalam tutorial ini, kita akan mempelajari cara menyimpan dokumen sebagai gambar biner menggunakan ambang batas tetap. Ikuti langkah-langkah di bawah ini untuk mencapainya.
@@ -91,3 +97,9 @@ A4: Ya, Anda dapat memproses beberapa dokumen OneNote secara batch dengan melaku
 ### Q5: Apakah dukungan teknis tersedia untuk Aspose.Note untuk Java?
 
  A5: Ya, dukungan teknis tersedia melalui[Aspose.Catatan forum](https://forum.aspose.com/c/note/28), tempat Anda dapat mengajukan pertanyaan dan mencari bantuan dari para ahli.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

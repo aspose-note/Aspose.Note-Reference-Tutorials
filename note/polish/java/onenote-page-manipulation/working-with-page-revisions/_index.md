@@ -3,10 +3,16 @@ title: Praca z wersjami stron w programie OneNote — Aspose.Note
 linktitle: Praca z wersjami stron w programie OneNote — Aspose.Note
 second_title: Aspose.Note API Java
 description: Dowiedz się, jak zarządzać wersjami stron w dokumentach OneNote za pomocą Aspose.Note dla Java. Zawiera przewodnik krok po kroku dotyczący skutecznego śledzenia wersji i współpracy.
-type: docs
 weight: 21
 url: /pl/java/onenote-page-manipulation/working-with-page-revisions/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Praca z wersjami stron w programie OneNote — Aspose.Note
+
 ## Wstęp
 
 OneNote to potężne narzędzie do organizowania notatek i zarządzania nimi, ale czasami trzeba pracować z wersjami, aby śledzić zmiany i efektywnie współpracować. Dzięki Aspose.Note dla Java możesz łatwo programowo zarządzać wersjami stron w dokumentach OneNote. Ten samouczek przeprowadzi Cię przez proces krok po kroku.
@@ -98,3 +104,9 @@ O: Tak, możesz dostosować wersje strony zgodnie ze swoimi wymaganiami, używaj
 ### P5: Gdzie mogę uzyskać pomoc dotyczącą Aspose.Note dla Java?
 
  Odp.: Możesz uzyskać wsparcie dla Aspose.Note dla Java z[Forum Aspose.Note](https://forum.aspose.com/c/note/28).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

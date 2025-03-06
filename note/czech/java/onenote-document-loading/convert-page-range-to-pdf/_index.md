@@ -3,10 +3,16 @@ title: Převeďte konkrétní rozsah stránek na PDF ve OneNotu s Javou
 linktitle: Převeďte konkrétní rozsah stránek na PDF ve OneNotu s Javou
 second_title: Aspose.Note Java API
 description: Naučte se, jak plynule převádět konkrétní rozsahy stránek z OneNotu do PDF pomocí Aspose.Note pro Java. Zachovejte formátování a rozložení bez námahy.
-type: docs
 weight: 11
 url: /cs/java/onenote-document-loading/convert-page-range-to-pdf/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Převeďte konkrétní rozsah stránek na PDF ve OneNotu s Javou
+
 ## Úvod
 
 OneNote je výkonný nástroj pro organizaci poznámek, ale někdy může být nutné exportovat konkrétní rozsahy stránek do PDF pro účely sdílení nebo archivace. V tomto tutoriálu vás provedeme procesem převodu určitého rozsahu stránek do PDF pomocí Aspose.Note pro Java.
@@ -85,3 +91,9 @@ Odpověď 4: Ano, můžete upravit různé aspekty, jako je velikost stránky, o
 ### Q5: Podporuje Aspose.Note for Java dávkový převod více dokumentů OneNotu?
 
 Odpověď 5: Ano, můžete hromadně převést více dokumentů OneNotu do PDF tak, že projdete každý dokument a použijete proces převodu.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

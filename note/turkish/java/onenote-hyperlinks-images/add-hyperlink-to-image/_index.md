@@ -3,10 +3,16 @@ title: Java kullanarak OneNote'ta Resme Köprü Ekleme
 linktitle: Java kullanarak OneNote'ta Resme Köprü Ekleme
 second_title: Aspose.Note Java API'si
 description: OneNote belgelerini etkileşimli hale getirin! Aspose.Note ile Java'da görsellere nasıl köprü ekleyeceğinizi öğrenin. Kolay adımlar ve kod örnekleri dahil! #OneNote #Java #Aspose
-type: docs
 weight: 11
 url: /tr/java/onenote-hyperlinks-images/add-hyperlink-to-image/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Java kullanarak OneNote'ta Resme Köprü Ekleme
+
 ## giriiş
 
 Bu öğreticide, Java kullanarak OneNote'ta görüntülere nasıl köprü ekleneceğini inceleyeceğiz. Resimlere köprü oluşturmak, belgelerinizin etkileşimini ve kullanışlılığını büyük ölçüde artırabilir ve kullanıcıların ilgili içeriğe veya harici kaynaklara basit bir tıklamayla kolayca erişmesine olanak tanır.
@@ -97,3 +103,9 @@ Cevap4: Köprü uzunluğu konusunda belirli bir sınır olmasa da, daha iyi okun
 ### S5: Aspose.Note for Java, OneNote'un yanı sıra diğer belge formatlarını da destekliyor mu?
 
 Cevap5: Evet, Aspose.Note for Java; PDF, HTML ve resim formatları dahil olmak üzere çeşitli belge formatlarını destekler.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -3,10 +3,16 @@ title: Zbuduj dokument i wstaw obraz w Aspose.Note
 linktitle: Zbuduj dokument i wstaw obraz w Aspose.Note
 second_title: Aspose.Note .NET API
 description: Dowiedz się, jak programowo wstawiać obrazy do dokumentów OneNote przy użyciu Aspose.Note dla .NET. Proste kroki umożliwiające bezproblemową manipulację dokumentami.
-type: docs
 weight: 10
 url: /pl/net/images/build-doc-insert-image/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Zbuduj dokument i wstaw obraz w Aspose.Note
+
 ## Wstęp
 
 W tym samouczku zagłębimy się w świat manipulacji dokumentami za pomocą Aspose.Note dla .NET. Aspose.Note to potężny interfejs API, który umożliwia programistom programową pracę z plikami Microsoft OneNote, umożliwiając łatwe wykonywanie takich zadań, jak tworzenie, modyfikowanie i konwertowanie dokumentów. 
@@ -150,3 +156,9 @@ O4: Tak, Aspose.Note zapewnia kompleksowe opcje dostosowywania wyglądu obrazu, 
 ### P5: Gdzie mogę znaleźć dodatkowe zasoby i wsparcie dla Aspose.Note dla .NET?
 
  O5: Możesz zapoznać się z dokumentacją Aspose.Note[Tutaj](https://reference.aspose.com/note/net/) i poproś o pomoc na forum społeczności Aspose[Tutaj](https://forum.aspose.com/c/note/28).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

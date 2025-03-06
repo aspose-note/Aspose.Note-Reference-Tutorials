@@ -3,10 +3,16 @@ title: Paginarevisies ophalen in OneNote - Aspose.Note
 linktitle: Paginarevisies ophalen in OneNote - Aspose.Note
 second_title: Aspose.Note Java-API
 description: Leer hoe u paginarevisies in OneNote kunt ophalen met Aspose.Note voor Java. Volg onze stapsgewijze handleiding voor het efficiënt volgen van wijzigingen.
-type: docs
 weight: 14
 url: /nl/java/onenote-page-manipulation/get-page-revisions/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Paginarevisies ophalen in OneNote - Aspose.Note
+
 ## Invoering
 
 OneNote is een krachtig hulpmiddel voor het organiseren en beheren van uw notities, maar soms moet u de wijzigingen en herzieningen van uw pagina's bijhouden. Met Aspose.Note voor Java kunt u eenvoudig paginarevisies programmatisch ophalen. In deze zelfstudie begeleiden we u bij het proces voor het verkrijgen van paginarevisies in OneNote met behulp van Aspose.Note voor Java.
@@ -107,3 +113,9 @@ A3: Ja, u moet een licentie aanschaffen om Aspose.Note voor Java in commerciële
 ### V5: Is er een gratis proefversie beschikbaar voor Aspose.Note voor Java?
 
  A5: Ja, u kunt toegang krijgen tot een gratis proefversie van Aspose.Note voor Java via de[website](https://releases.aspose.com/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

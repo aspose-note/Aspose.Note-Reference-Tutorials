@@ -3,10 +3,16 @@ title: OneNote の固定しきい値を使用してバイナリ イメージに�
 linktitle: OneNote の固定しきい値を使用してバイナリ イメージに保存する
 second_title: Aspose.Note Java API
 description: Aspose.Note Java の固定しきい値を使用して、Microsoft OneNote ドキュメントをバイナリ イメージとして簡単に保存します。 OneNote のファイル操作機能を強化します。
-type: docs
 weight: 14
 url: /ja/java/onenote-document-saving/save-to-binary-image-using-fixed-threshold/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# OneNote の固定しきい値を使用してバイナリ イメージに保存する
+
 ## 導入
 
 Aspose.Note for Java は、開発者がプログラムで Microsoft OneNote ファイルを操作できるようにする強力な API です。このチュートリアルでは、固定しきい値を使用してドキュメントをバイナリ イメージとして保存する方法を検討します。これを実現するには、以下の手順に従ってください。
@@ -91,3 +97,9 @@ A4: はい、各ファイルを反復処理して必要な操作を適用する�
 ### Q5: Aspose.Note for Java のテクニカル サポートは利用できますか?
 
  A5: はい、テクニカル サポートは次のサイトから利用できます。[Aspose.Note フォーラム](https://forum.aspose.com/c/note/28)、ここで質問したり、専門家に支援を求めることができます。
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

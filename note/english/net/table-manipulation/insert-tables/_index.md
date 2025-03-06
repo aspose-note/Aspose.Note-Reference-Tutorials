@@ -3,10 +3,16 @@ title: Insert Tables into Aspose.Note Documents
 linktitle: Insert Tables into Aspose.Note Documents
 second_title: Aspose.Note .NET API
 description: Learn to insert tables into Note documents with Aspose.Note for .NET. Organize data seamlessly for improved readability and presentation.
-type: docs
 weight: 16
 url: /net/table-manipulation/insert-tables/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Insert Tables into Aspose.Note Documents
+
 ## Introduction
 
 In this tutorial, we'll explore how to utilize Aspose.Note for .NET to insert tables into Note documents. Tables are essential for organizing data in a structured format within documents, enhancing readability, and presenting information in a clear manner.
@@ -131,3 +137,10 @@ A4: Integration is straightforward; simply add the Aspose.Note DLL reference to 
 ### Q5: Does Aspose.Note offer support for different file formats?
 
 A5: Yes, Aspose.Note supports various file formats including OneNote (ONE), PDF, HTML, and image formats for exporting and importing documents.
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

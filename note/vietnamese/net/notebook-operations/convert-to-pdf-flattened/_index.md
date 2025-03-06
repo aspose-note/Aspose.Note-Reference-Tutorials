@@ -3,10 +3,16 @@ title: Chuyển đổi Notebook sang PDF (Flattened) trong Aspose Note .NET
 linktitle: Chuyển đổi Notebook sang PDF (Flattened) trong Aspose Note .NET
 second_title: Aspose.Note .NET API
 description: Tìm hiểu cách chuyển đổi sổ ghi chép OneNote thành tệp PDF được làm phẳng một cách dễ dàng bằng cách sử dụng Aspose.Note for .NET. Bảo quản nội dung của bạn một cách liền mạch.
-type: docs
 weight: 15
 url: /vi/net/notebook-operations/convert-to-pdf-flattened/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Chuyển đổi Notebook sang PDF (Flattened) trong Aspose Note .NET
+
 ## Giới thiệu
 
 Bạn đang muốn chuyển đổi sổ ghi chép OneNote của mình thành các tệp PDF được làm phẳng bằng Aspose Note .NET? Bạn đang ở đúng nơi! Trong hướng dẫn này, chúng ta sẽ thực hiện từng bước quy trình.
@@ -91,3 +97,9 @@ A3: Chắc chắn rồi! Aspose.Note cung cấp các tùy chọn mở rộng đ�
 ### Câu hỏi 5: Tôi có thể nhận hỗ trợ ở đâu nếu gặp bất kỳ vấn đề nào?
 
  Câu trả lời 5: Bạn có thể tìm kiếm sự hỗ trợ từ cộng đồng Aspose tại[Diễn đàn Aspose.Note](https://forum.aspose.com/c/note/28).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

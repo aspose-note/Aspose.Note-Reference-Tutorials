@@ -3,10 +3,16 @@ title: Konwertuj notatnik na format PDF za pomocą opcji w programie OneNote - A
 linktitle: Konwertuj notatnik na format PDF za pomocą opcji w programie OneNote - Aspose.Note
 second_title: Aspose.Note API Java
 description: łatwością dostosowuj i eksportuj notesy OneNote do formatu PDF! Aspose.Note dla Java obsługuje ciężkie podnoszenie. W zestawie instrukcja krok po kroku! #OneNote #Java #Aspose
-type: docs
 weight: 17
 url: /pl/java/onenote-notebook-operations/convert-notebook-to-pdf-with-options/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Konwertuj notatnik na format PDF za pomocą opcji w programie OneNote - Aspose.Note
+
 ## Wstęp
 
 W tym samouczku zagłębimy się w świat konwersji notatników do formatu PDF z konfigurowalnymi opcjami przy użyciu Aspose.Note dla Java. Aspose.Note to potężny interfejs API Java, który umożliwia programistom programowe manipulowanie dokumentami Microsoft OneNote. Konwersja notatników do formatu PDF jest powszechnym wymaganiem w różnych aplikacjach, a dzięki Aspose.Note zadanie to staje się usprawnione i wydajne.
@@ -90,3 +96,9 @@ O2: Aspose.Note obsługuje Microsoft OneNote 2010 i nowsze wersje.
 ### P5: Jak mogę uzyskać wsparcie dla Aspose.Note?
 
  O5: Aby uzyskać pomoc techniczną lub zadać pytania, możesz odwiedzić forum pomocy technicznej Aspose.Note[Tutaj](https://forum.aspose.com/c/note/28).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

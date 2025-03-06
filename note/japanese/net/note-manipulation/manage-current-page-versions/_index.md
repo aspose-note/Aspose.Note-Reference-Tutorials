@@ -3,10 +3,16 @@ title: Aspose.Note で現在のページのバージョンをプッシュおよ�
 linktitle: Aspose.Note で現在のページのバージョンをプッシュおよび管理する
 second_title: Aspose.Note .NET API
 description: Aspose.Note for .NET で現在のページのバージョンを簡単にプッシュして管理する方法を学びます。ドキュメントのバージョン管理とコラボレーションを改善します。
-type: docs
 weight: 17
 url: /ja/net/note-manipulation/manage-current-page-versions/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Aspose.Note で現在のページのバージョンをプッシュおよび管理する
+
 ## 導入
 
 ソフトウェア開発の世界では、正確性、トレーサビリティ、説明責任を確保するために、さまざまなバージョンのドキュメントを管理および維持することが重要です。 Aspose.Note for .NET は、このプロセスを促進する強力なツールを提供し、開発者が現在のページ バージョンをシームレスにプッシュおよび管理できるようにします。このチュートリアルでは、Aspose.Note for .NET を使用して現在のページのバージョンをプッシュおよび管理するために必要な手順を詳しく説明します。
@@ -90,3 +96,9 @@ A4: はい、Aspose.Note for .NET は、OneNote ドキュメントのセクシ�
 ### Q5: Aspose.Note for .NET を使用してページ バージョンをプッシュするプロセスを自動化できますか?
 
 A5：もちろんです！ Aspose.Note for .NET は堅牢な自動化機能を提供し、バージョン管理をアプリケーションにシームレスに統合できます。
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

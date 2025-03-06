@@ -3,10 +3,16 @@ title: Φόρτωση εγγράφων που προστατεύονται με 
 linktitle: Φόρτωση εγγράφων που προστατεύονται με κωδικό πρόσβασης στο OneNote - Aspose.Note
 second_title: Aspose.Note Java API
 description: Μάθετε πώς να φορτώνετε έγγραφα που προστατεύονται με κωδικό πρόσβασης στο OneNote χρησιμοποιώντας το Aspose.Note για Java. Ακολουθήστε τον βήμα προς βήμα οδηγό μας για απρόσκοπτη ενσωμάτωση.
-type: docs
 weight: 22
 url: /el/java/onenote-notebook-operations/load-password-protected-documents/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Φόρτωση εγγράφων που προστατεύονται με κωδικό πρόσβασης στο OneNote - Aspose.Note
+
 ## Εισαγωγή
 
 Σε αυτό το σεμινάριο, θα ακολουθήσουμε τη διαδικασία φόρτωσης εγγράφων που προστατεύονται με κωδικό πρόσβασης στο OneNote χρησιμοποιώντας το Aspose.Note για Java. Το Aspose.Note είναι μια ισχυρή βιβλιοθήκη Java που επιτρέπει στους προγραμματιστές να εργάζονται με αρχεία Microsoft OneNote μέσω προγραμματισμού, επιτρέποντας διάφορες λειτουργίες, όπως φόρτωση, επεξεργασία και αποθήκευση εγγράφων.
@@ -79,3 +85,9 @@ notebook.loadChildDocument(dataDir + "Locked Pass2.one", documentLoadOptions2);
 ### Ε5: Υπάρχει διαθέσιμη δοκιμαστική έκδοση για το Aspose.Note;
 
 Α: Ναι, μπορείτε να κάνετε λήψη μιας δωρεάν δοκιμαστικής έκδοσης του Aspose.Note από[εδώ](https://releases.aspose.com/) για να εξερευνήσετε τα χαρακτηριστικά του πριν κάνετε μια αγορά.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

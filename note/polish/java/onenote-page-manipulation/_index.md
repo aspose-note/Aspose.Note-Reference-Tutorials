@@ -3,10 +3,16 @@ title: Manipulacja stroną programu OneNote
 linktitle: Manipulacja stroną programu OneNote
 second_title: Aspose.Note API Java
 description: Zarządzaj stronami konfliktu, twórz zorganizowane dokumenty i śledź wersje w OneNote za pomocą Aspose.Note dla Java. Samouczki krok po kroku dotyczące wydajnego zarządzania dokumentami.
-type: docs
 weight: 29
 url: /pl/java/onenote-page-manipulation/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Manipulacja stroną programu OneNote
+
 
 ## Wstęp
 
@@ -74,3 +80,9 @@ Dowiedz się, jak przywrócić poprzednie wersje stron w programie OneNote przy 
 Dowiedz się, jak bez wysiłku ustawić kolor tła strony w OneNote, korzystając z Aspose.Note dla Java. Zwiększ atrakcyjność wizualną swoich dokumentów dzięki temu prostemu samouczkowi.
 ### [Praca z wersjami stron w programie OneNote — Aspose.Note](./working-with-page-revisions/)
 Dowiedz się, jak zarządzać wersjami stron w dokumentach OneNote za pomocą Aspose.Note dla Java. Ten samouczek zawiera przewodnik krok po kroku dotyczący skutecznego śledzenia wersji i współpracy.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

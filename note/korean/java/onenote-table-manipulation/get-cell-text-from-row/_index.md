@@ -3,10 +3,16 @@ title: OneNote의 테이블 행에서 셀 텍스트 가져오기 - Aspose.Note
 linktitle: OneNote의 테이블 행에서 셀 텍스트 가져오기 - Aspose.Note
 second_title: Aspose.Note 자바 API
 description: Aspose.Note를 사용하여 Java의 OneNote 테이블에서 텍스트 추출의 비밀을 풀어보세요. 문서 처리 기술을 향상하려면 단계별 가이드를 따르세요.
-type: docs
 weight: 15
 url: /ko/java/onenote-table-manipulation/get-cell-text-from-row/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# OneNote의 테이블 행에서 셀 텍스트 가져오기 - Aspose.Note
+
 ## 소개
 강력한 Aspose.Note 라이브러리를 사용하여 OneNote 테이블 행에서 텍스트를 추출하는 프로세스를 설명하면서 Java 개발 영역으로의 여정을 시작하세요. 이 단계별 가이드는 표 내의 텍스트를 효율적으로 탐색하고 조작하는 기술을 갖추게 해줍니다.
 ## 전제조건
@@ -73,3 +79,9 @@ for (Table table : nodes) {
  활기찬 Aspose.Note 커뮤니티에 참여하세요[포럼](https://forum.aspose.com/c/note/28) 토론과 지원을 위해.
 ### 테스트 목적으로 샘플 문서를 사용할 수 있습니까?
 샘플 문서와 코드 조각의 보고를 보려면 Aspose.Note 문서를 살펴보세요.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

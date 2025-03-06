@@ -3,10 +3,16 @@ title: OneNote'ta Belge Ziyaretçisini Java ile Kullanma
 linktitle: OneNote'ta Belge Ziyaretçisini Java ile Kullanma
 second_title: Aspose.Note Java API'si
 description: Aspose.Note ile Java kullanarak OneNote'ta Belge Ziyaretçisini nasıl kullanacağınızı öğrenin. OneNote belgelerinde sorunsuz bir şekilde geçiş yapın ve bunları değiştirin.
-type: docs
 weight: 10
 url: /tr/java/onenote-document-manipulation/using-document-visitor/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# OneNote'ta Belge Ziyaretçisini Java ile Kullanma
+
 ## giriiş
 
 Bu eğitimde, Aspose.Note ile Java kullanarak OneNote'ta Belge Ziyaretçisinin nasıl kullanılacağını keşfedeceğiz. Belge Ziyaretçisi, OneNote belgesinin öğeleri arasında geçiş yapılmasına ve bunlar üzerinde işlemler gerçekleştirilmesine olanak tanır. Süreç boyunca size adım adım rehberlik edeceğiz.
@@ -95,3 +101,9 @@ Cevap1: Evet, Aspose.Note .NET, C dahil olmak üzere çeşitli programlama dille
 ### S5: Aspose.Note için herhangi bir belge mevcut mu?
 
  A5: Evet, belgeleri bulabilirsiniz[Burada](https://reference.aspose.com/note/java/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

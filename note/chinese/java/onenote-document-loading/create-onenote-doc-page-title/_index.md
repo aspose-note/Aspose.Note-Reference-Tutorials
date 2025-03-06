@@ -3,10 +3,16 @@ title: 创建带有页面标题的 OneNote 文档 - Java
 linktitle: 创建带有页面标题的 OneNote 文档 - Java
 second_title: Aspose.Note Java API
 description: 了解如何使用 Aspose.Note for Java 在 Java 中创建带有页面标题的 OneNote 文档。带有代码示例的综合教程。
-type: docs
 weight: 17
 url: /zh/java/onenote-document-loading/create-onenote-doc-page-title/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# 创建带有页面标题的 OneNote 文档 - Java
+
 ## 介绍
 
 在 Java 开发领域，Aspose.Note for Java 使管理和操作 OneNote 文档变得简单而高效。这个强大的 Java API 为开发人员提供了以编程方式创建、修改和处理 OneNote 文件所需的工具，从而无缝集成到他们的应用程序中。在本教程中，我们将深入研究使用 Aspose.Note for Java 创建具有指定页面标题的 OneNote 文档的过程。通过遵循下面概述的分步指南，开发人员可以轻松利用此 API 的功能，通过强大的 OneNote 文档管理功能来增强其 Java 应用程序。
@@ -154,3 +160,9 @@ A4：您可以访问[Aspose.Note 论坛](https://forum.aspose.com/c/note/28)有�
 ### Q5：我可以获得临时许可证用于测试目的吗？
 
 A5：是的，您可以从 Aspose 获取临时许可证用于测试和评估目的。
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

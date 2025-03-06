@@ -3,10 +3,16 @@ title: Aspose.Note 테이블에서 셀 배경색 설정
 linktitle: Aspose.Note 테이블에서 셀 배경색 설정
 second_title: Aspose.Note .NET API
 description: 단계별 가이드를 사용하여 Aspose.Note 테이블에서 셀 배경색을 설정하는 방법을 알아보세요. 손쉽게 문서 시각적 효과를 향상하세요.
-type: docs
 weight: 17
 url: /ko/net/table-manipulation/set-cell-background-color/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Aspose.Note 테이블에서 셀 배경색 설정
+
 ## 소개
 
 이 튜토리얼에서는 .NET용 Aspose.Note를 사용하여 테이블 내에서 셀 배경색을 설정하는 방법을 살펴보겠습니다. 이 기능은 문서의 시각적 매력과 가독성을 크게 향상시킬 수 있습니다. 이를 달성하는 방법을 알아보려면 아래 단계를 따르세요.
@@ -122,3 +128,9 @@ A4: .NET용 Aspose.Note는 특히 OneNote 파일 형식을 대상으로 합니�
 ### Q5: .NET용 Aspose.Note에 대한 추가 리소스와 지원은 어디서 찾을 수 있나요?
 
  A5: 다음을 탐색할 수 있습니다.[Aspose.Note 문서](https://reference.aspose.com/note/net/) 자세한 API 참조 및 예시를 확인하세요. 또한 Aspose 커뮤니티에서 도움을 요청할 수 있습니다.[Aspose.Note 포럼](https://forum.aspose.com/c/note/28).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

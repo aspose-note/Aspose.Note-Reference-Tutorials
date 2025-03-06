@@ -3,10 +3,16 @@ title: Aspose Note .NET에서 노트북을 이미지(평면화)로 변환
 linktitle: Aspose Note .NET에서 노트북을 이미지(평면화)로 변환
 second_title: Aspose.Note .NET API
 description: .NET용 Aspose.Note를 사용하여 OneNote 노트북을 병합된 이미지로 변환하는 방법을 알아보세요. 원활한 통합을 위한 단계별 가이드입니다.
-type: docs
 weight: 12
 url: /ko/net/notebook-operations/convert-to-image-flattened/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Aspose Note .NET에서 노트북을 이미지(평면화)로 변환
+
 ## 소개
 
 이 튜토리얼에서는 .NET용 Aspose.Note를 사용하여 노트북을 평면화된 이미지로 변환하는 방법을 알아봅니다. 프로세스를 간단한 단계로 나누어 효과적으로 이해하고 구현하는 데 도움을 드리겠습니다.
@@ -93,3 +99,9 @@ A1: 예, .NET용 Aspose.Note는 복잡한 노트북을 효율적으로 처리할
 ### Q5: .NET용 Aspose.Note에 대한 설명서는 어디에서 찾을 수 있습니까?
 
  A5: 문서를 찾을 수 있습니다.[여기](https://reference.aspose.com/note/net/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

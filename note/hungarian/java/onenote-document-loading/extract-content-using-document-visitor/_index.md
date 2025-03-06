@@ -3,10 +3,16 @@ title: A OneNote-tartalom kibontása a Document Visitor segítségével – Java
 linktitle: A OneNote-tartalom kibontása a Document Visitor segítségével – Java
 second_title: Aspose.Note Java API
 description: Ismerje meg, hogyan bonthat ki tartalmat OneNote-dokumentumokból Java nyelven az Aspose.Note for Java segítségével. Lépésről lépésre bemutatott oktatóprogram kódpéldákkal.
-type: docs
 weight: 21
 url: /hu/java/onenote-document-loading/extract-content-using-document-visitor/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# A OneNote-tartalom kibontása a Document Visitor segítségével – Java
+
 ## Bevezetés
 
 Az Aspose.Note for Java hatékony szolgáltatásokat nyújt a OneNote-dokumentumok tartalmának kinyeréséhez. Ebben az oktatóanyagban végigvezetjük a tartalom OneNote-dokumentumból való kinyerésének folyamatán a Java Document Visitor segítségével.
@@ -147,3 +153,9 @@ Ebből az oktatóanyagból megtanulta, hogyan bonthat ki tartalmat egy OneNote-d
 ### 5. kérdés: Van-e korlátozás az Aspose.Note for Java használatával feldolgozható OneNote-dokumentum méretére?
 
 5. válasz: Az Aspose.Note for Java a különböző méretű OneNote-dokumentumok hatékony kezelésére készült, így még nagy dokumentumok esetén is optimális teljesítményt biztosít.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

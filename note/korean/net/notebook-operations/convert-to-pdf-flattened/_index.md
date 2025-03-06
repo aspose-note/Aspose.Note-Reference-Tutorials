@@ -3,10 +3,16 @@ title: Aspose Note .NET에서 노트북을 PDF(평면화)로 변환
 linktitle: Aspose Note .NET에서 노트북을 PDF(평면화)로 변환
 second_title: Aspose.Note .NET API
 description: .NET용 Aspose.Note를 사용하여 OneNote 노트북을 병합된 PDF로 쉽게 변환하는 방법을 알아보세요. 콘텐츠를 원활하게 보존하세요.
-type: docs
 weight: 15
 url: /ko/net/notebook-operations/convert-to-pdf-flattened/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Aspose Note .NET에서 노트북을 PDF(평면화)로 변환
+
 ## 소개
 
 Aspose Note .NET을 사용하여 OneNote 노트북을 평면화된 PDF로 변환하려고 하시나요? 당신은 바로 이곳에 있습니다! 이 튜토리얼에서는 프로세스를 단계별로 살펴보겠습니다.
@@ -91,3 +97,9 @@ A3: 물론이죠! Aspose.Note는 변환 프로세스 중 사용자 정의를 위
 ### Q5: 문제가 발생하면 어디서 지원을 받을 수 있나요?
 
  A5: Aspose 커뮤니티에서 지원을 요청할 수 있습니다.[Aspose.Note 포럼](https://forum.aspose.com/c/note/28).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

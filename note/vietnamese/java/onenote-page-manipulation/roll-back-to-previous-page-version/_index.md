@@ -3,10 +3,16 @@ title: Quay lại phiên bản trang trước trong OneNote - Aspose.Note
 linktitle: Quay lại phiên bản trang trước trong OneNote - Aspose.Note
 second_title: API Java Aspose.Note
 description: Tìm hiểu cách quay lại các phiên bản trang trước trong OneNote bằng Aspose.Note for Java. Hãy làm theo hướng dẫn từng bước này để quản lý tài liệu hiệu quả.
-type: docs
 weight: 19
 url: /vi/java/onenote-page-manipulation/roll-back-to-previous-page-version/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Quay lại phiên bản trang trước trong OneNote - Aspose.Note
+
 ## Giới thiệu
 
 Trong hướng dẫn này, chúng ta sẽ đi sâu vào việc sử dụng Aspose.Note dành cho Java để quay lại phiên bản trước của một trang trong OneNote. OneNote là một công cụ mạnh mẽ để ghi chú, cộng tác và tổ chức nhưng đôi khi vẫn xảy ra lỗi hoặc các thay đổi cần được hoàn nguyên. Aspose.Note cung cấp khả năng tích hợp liền mạch với Java, cung cấp cho các nhà phát triển khả năng quản lý tài liệu OneNote theo chương trình. Quay lại phiên bản trang trước là một tính năng quan trọng để duy trì độ chính xác và tính toàn vẹn trong tài liệu OneNote của bạn.
@@ -91,3 +97,9 @@ Trả lời: Hoàn toàn có thể, Aspose.Note cung cấp các khả năng mở
 ### Câu hỏi 5: Có diễn đàn cộng đồng hoặc hỗ trợ nào dành cho Aspose.Note không?
 
  Đ: Có, bạn có thể ghé thăm[Diễn đàn Aspose.Note](https://forum.aspose.com/c/note/28) để được hỗ trợ cộng đồng hoặc liên hệ với bộ phận hỗ trợ khách hàng của Aspose để được hỗ trợ.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

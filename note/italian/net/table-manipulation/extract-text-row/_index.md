@@ -3,10 +3,16 @@ title: Estrai testo dalle righe della tabella in Aspose.Note
 linktitle: Estrai testo dalle righe della tabella in Aspose.Note
 second_title: Aspose.Note API .NET
 description: Scopri come estrarre il testo dalle righe della tabella in Aspose.Note per .NET con questo tutorial completo.
-type: docs
 weight: 14
 url: /it/net/table-manipulation/extract-text-row/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Estrai testo dalle righe della tabella in Aspose.Note
+
 ## introduzione
 
 Nel campo dell'elaborazione dei documenti, Aspose.Note per .NET rappresenta una soluzione solida che consente agli sviluppatori di manipolare in modo efficiente i file OneNote a livello di codice. Tra le sue innumerevoli funzionalità, l'estrazione del testo dalle righe della tabella è un'attività comune incontrata dagli sviluppatori. Questo tutorial ti guiderà attraverso il processo di estrazione del testo dalle righe della tabella utilizzando Aspose.Note per .NET.
@@ -98,3 +104,9 @@ A2: Assolutamente, Aspose.Note per .NET fornisce ampie opzioni di formattazione 
 ### Q5: Posso provare Aspose.Note per .NET prima dell'acquisto?
 
  R5: Certamente, puoi usufruire di una prova gratuita da[pagina di rilascio](https://releases.aspose.com/) per esplorarne le caratteristiche e le potenzialità.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

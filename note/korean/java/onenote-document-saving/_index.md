@@ -3,10 +3,16 @@ title: OneNote 문서 저장
 linktitle: OneNote 문서 저장
 second_title: Aspose.Note 자바 API
 description: OneNote 문서 저장에 대한 Java 자습서용 Aspose.Note를 사용하여 시간을 절약하고 Java 애플리케이션을 간소화하세요. 효율적인 작업 흐름을 위한 단계별 통합을 알아보세요.
-type: docs
 weight: 27
 url: /ko/java/onenote-document-saving/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# OneNote 문서 저장
+
 ## 소개
 
 OneNote 문서를 정확하고 효율적으로 저장하는 복잡한 과정을 설명하는 Java용 Aspose.Note 튜토리얼의 세계에 오신 것을 환영합니다. 오늘날의 디지털 환경에서는 원활한 통합과 간소화된 워크플로가 가장 중요하며, 당사의 단계별 가이드는 Java 개발자가 문서 저장 기술을 마스터할 수 있도록 지원하기 위해 제작되었습니다. 숙련된 개발자이든 코딩 매니아이든 관계없이 당사의 튜토리얼에서는 다양한 형식으로 문서를 저장하는 것부터 최적의 결과를 위한 고급 알고리즘을 활용하는 것까지 다양한 주제를 다룹니다. 복잡한 프로세스를 단순화하여 문서 처리를 즐겁고 번거롭지 않은 경험으로 만드는 Java용 Aspose.Note의 영역에 빠져보세요. Java 애플리케이션 개발 영역을 발견하고 개선하는 여정을 시작해 보겠습니다.
@@ -96,3 +102,9 @@ Java용 Aspose.Note를 사용하여 OneNote에서 저장 옵션을 지정하는 
 Java에서 솔리드 개체 유지 알고리즘을 사용하여 PDF로 변환할 때 Aspose.Note 문서에서 솔리드 개체를 보존하는 방법을 알아보세요.
 ### [OneNote에서 분할 알고리즘 방법 사용 - Aspose.Note](./use-splitting-algorithm-method/)
 Java용 Aspose.Note를 사용하여 OneNote 문서를 효율적으로 분할하는 방법을 알아보세요.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

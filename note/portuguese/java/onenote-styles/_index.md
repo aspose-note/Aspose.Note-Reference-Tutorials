@@ -3,10 +3,16 @@ title: Estilos do OneNote
 linktitle: Estilos do OneNote
 second_title: API Java Aspose.Note
 description: Descubra a arte de modificar estilos de texto do OneNote usando Aspose.Note para Java. Aprenda a alterar a cor, o tamanho e o realce da fonte em nossos tutoriais passo a passo.
-type: docs
 weight: 31
 url: /pt/java/onenote-styles/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Estilos do OneNote
+
 
 ## Introdução
 
@@ -36,3 +42,9 @@ Mergulhe no mundo dos estilos do OneNote, munido do conhecimento e da experiênc
 Aprenda como alterar o estilo do texto no OneNote com Aspose.Note para Java. Modifique facilmente a cor, o tamanho e o realce da fonte.
 ### [Definir estilo de parágrafo padrão no OneNote - Aspose.Note](./set-default-paragraph-style/)
 Aprenda como definir estilos de parágrafo padrão no OneNote usando Aspose.Note para Java. Siga nosso guia passo a passo para formatação de texto eficiente em seus aplicativos Java.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

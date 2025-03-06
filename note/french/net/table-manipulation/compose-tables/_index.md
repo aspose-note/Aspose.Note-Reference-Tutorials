@@ -3,10 +3,16 @@ title: Composer des tableaux avec Aspose.Note
 linktitle: Composer des tableaux avec Aspose.Note
 second_title: API Aspose.Note .NET
 description: Apprenez à composer des tableaux structurés avec du contenu en texte enrichi à l'aide d'Aspose.Note pour .NET. Améliorez l’organisation et la lisibilité des documents sans effort.
-type: docs
 weight: 11
 url: /fr/net/table-manipulation/compose-tables/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Composer des tableaux avec Aspose.Note
+
 ## Introduction
 
 Les tableaux sont des éléments fondamentaux des documents, permettant une présentation structurée des informations. Aspose.Note pour .NET fournit des outils robustes pour composer des tableaux sans effort. Dans ce didacticiel, nous vous guiderons tout au long du processus de création de tableaux avec du contenu en texte enrichi à l'aide d'Aspose.Note.
@@ -170,3 +176,9 @@ A4 : Oui, vous pouvez remplir dynamiquement des tables en récupérant des donn
 ### Q5 : Le support technique est-il disponible pour les utilisateurs d'Aspose.Note ?
    
 A5 : Oui, Aspose fournit une assistance technique complète via ses forums et ses canaux d'assistance dédiés.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

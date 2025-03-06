@@ -3,10 +3,16 @@ title: 將 OneNote 文件轉換為 PDF - Java
 linktitle: 將 OneNote 文件轉換為 PDF - Java
 second_title: Aspose.Note Java API
 description: 了解如何使用 Aspose.Note for Java 將 OneNote 文件轉換為 PDF。透過本逐步指南增強您的文件處理能力。
-type: docs
 weight: 16
 url: /zh-hant/java/onenote-document-loading/convert-to-pdf/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# 將 OneNote 文件轉換為 PDF - Java
+
 ## 介紹
 
 在本教學中，我們將探討如何使用 Aspose.Note for Java 將 OneNote 文件轉換為 PDF。 Aspose.Note 是一個功能強大的 Java 函式庫，可無縫操作 OneNote 文件，提供各種功能來處理這些文件中的不同元素。一個常見的要求是將這些文件轉換為 PDF 格式，這可以透過 Aspose.Note 輕鬆實現。
@@ -105,3 +111,9 @@ A1：Aspose.Note支援各種版本的OneNote，確保與大多數OneNote文件�
 ### Q5: 我可以在購買前試用 Aspose.Note 嗎？
 
 A5：是的，您可以申請免費試用 Aspose.Note[這裡](https://releases.aspose.com/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -3,10 +3,16 @@ title: Dapatkan Jumlah Halaman di OneNote - Aspose.Note
 linktitle: Dapatkan Jumlah Halaman di OneNote - Aspose.Note
 second_title: Aspose.Catatan Java API
 description: Pelajari cara mengambil jumlah halaman dalam dokumen OneNote menggunakan Aspose.Note untuk Java. Tutorial langkah demi langkah ini memandu Anda melalui proses dengan mudah.
-type: docs
 weight: 13
 url: /id/java/onenote-page-manipulation/get-page-count/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Dapatkan Jumlah Halaman di OneNote - Aspose.Note
+
 ## Perkenalan
 
 Dalam tutorial ini, kita akan mempelajari cara menggunakan Aspose.Note untuk Java untuk mengambil jumlah halaman dalam dokumen OneNote secara efisien. Aspose.Note adalah Java API canggih yang memungkinkan pengembang bekerja dengan file Microsoft OneNote secara terprogram, memungkinkan tugas-tugas seperti manipulasi dokumen, ekstraksi, dan konversi.
@@ -86,3 +92,9 @@ A4: Ya, Anda dapat mengakses dokumentasi dan forum di[Asumsikan situs web](https
 ### Q5: Apakah versi uji coba Aspose.Note untuk Java tersedia untuk tujuan pengujian?
 
  A5: Ya, Anda dapat mengunduh versi uji coba gratis dari[halaman rilis](https://releases.aspose.com/) untuk mengevaluasi kemampuan API.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

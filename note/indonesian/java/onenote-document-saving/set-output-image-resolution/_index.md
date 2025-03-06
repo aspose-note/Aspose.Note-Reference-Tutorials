@@ -3,10 +3,16 @@ title: Atur Resolusi Gambar Output di OneNote - Aspose.Note
 linktitle: Atur Resolusi Gambar Output di OneNote - Aspose.Note
 second_title: Aspose.Catatan Java API
 description: Pelajari cara menyesuaikan resolusi gambar di dokumen OneNote menggunakan Aspose.Note untuk Java. Ikuti panduan langkah demi langkah kami untuk kemudahan penerapan
-type: docs
 weight: 23
 url: /id/java/onenote-document-saving/set-output-image-resolution/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Atur Resolusi Gambar Output di OneNote - Aspose.Note
+
 ## Perkenalan
 
 Apakah Anda ingin memanipulasi resolusi gambar dalam dokumen OneNote Anda menggunakan Java? Aspose.Note untuk Java menawarkan solusi tangguh untuk tugas-tugas tersebut. Dalam tutorial ini, kita akan memandu langkah-langkah untuk mengatur resolusi gambar keluaran menggunakan Aspose.Note.
@@ -88,3 +94,9 @@ A4: Ya, Aspose.Note menyediakan fitur lengkap untuk manipulasi gambar, termasuk 
 ### Q5: Di mana saya bisa mendapatkan dukungan untuk pertanyaan terkait Aspose.Note?
 
  A5: Anda dapat mencari bantuan dari forum komunitas Aspose.Note[Di Sini](https://forum.aspose.com/c/note/28).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -3,10 +3,16 @@ title: Uložit do obrázku TIFF pomocí možností uložení obrázku ve OneNotu
 linktitle: Uložit do obrázku TIFF pomocí možností uložení obrázku ve OneNotu
 second_title: Aspose.Note Java API
 description: Převeďte dokumenty OneNote na TIFF a ovládejte velikost a kvalitu souboru! Vyberte kompresi Jpeg, PackBits nebo Fax v Javě. Získejte příklady kódu a zjistěte, jak na to! #OneNote #Java #Aspose
-type: docs
 weight: 21
 url: /cs/java/onenote-document-saving/save-to-tiff-image-using-image-save-options/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Uložit do obrázku TIFF pomocí možností uložení obrázku ve OneNotu
+
 ## Úvod
 
 V tomto tutoriálu se naučíte, jak uložit dokument do obrazového formátu TIFF pomocí různých metod komprese v Aspose.Note pro Javu. Pokryjeme předpoklady, import balíčků a poskytneme podrobného průvodce pro každou metodu komprese.
@@ -121,3 +127,9 @@ A4: Ano, můžete upravit parametry, jako je kvalita, rozlišení a metoda kompr
 ### Q5: Nabízí Aspose.Note for Java technickou podporu?
 
 A5: Ano, Aspose poskytuje komplexní technickou podporu prostřednictvím fór a systémů založených na lístcích.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -3,10 +3,16 @@ title: Tạo sổ ghi chép trong Aspose Note .NET
 linktitle: Tạo sổ ghi chép trong Aspose Note .NET
 second_title: Aspose.Note .NET API
 description: Tìm hiểu cách tạo sổ ghi chép trong Aspose Note .NET một cách dễ dàng. Tăng cường quy trình xử lý tài liệu của bạn ngay bây giờ.
-type: docs
 weight: 17
 url: /vi/net/notebook-operations/create-notebooks/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Tạo sổ ghi chép trong Aspose Note .NET
+
 ## Giới thiệu
 
 Trong hướng dẫn này, chúng ta sẽ đi sâu vào sự phức tạp của việc tạo sổ ghi chép bằng Aspose.Note cho .NET. Aspose.Note là một thư viện mạnh mẽ cho phép các nhà phát triển thao tác với các tệp Microsoft OneNote theo chương trình, cung cấp nhiều chức năng để hợp lý hóa các tác vụ xử lý và quản lý tài liệu.
@@ -99,3 +105,10 @@ Câu trả lời 4: Có, bạn có thể lấy giấy phép tạm thời từ tr
  A5: Bạn có thể tham khảo tài liệu có sẵn tại:[Tài liệu](https://reference.aspose.com/note/net/).
 
 
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

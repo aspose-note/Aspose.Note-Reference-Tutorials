@@ -3,10 +3,16 @@ title: Menguasai Revisi Halaman di Dokumen OneNote
 linktitle: Menguasai Revisi Halaman di Dokumen OneNote
 second_title: Aspose.Catatan .NET API
 description: Pelajari cara mengelola revisi halaman Microsoft OneNote dengan Aspose.Note. Panduan langkah demi langkah untuk integrasi dan kontrol versi yang lancar di aplikasi .NET Anda.
-type: docs
 weight: 20
 url: /id/net/note-manipulation/working-with-page-revisions/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Menguasai Revisi Halaman di Dokumen OneNote
+
 ## Perkenalan
 
 Dalam bidang pengembangan .NET, Aspose.Note menonjol sebagai alat serbaguna untuk menangani file Microsoft OneNote secara efisien. Salah satu fitur Aspose.Note yang sangat berguna adalah kemampuannya untuk mengelola revisi halaman dengan lancar. Dalam tutorial ini, kita akan mempelajari seluk-beluk bekerja dengan revisi halaman menggunakan Aspose.Note untuk .NET.
@@ -112,3 +118,9 @@ A4: Aspose.Note dirancang untuk menangani revisi dalam jumlah besar secara efisi
 ### Q5: Bisakah saya mengotomatiskan proses pengelolaan revisi halaman menggunakan Aspose.Note?
 
 A5: Ya, Aspose.Note menawarkan API komprehensif yang memungkinkan pengembang mengotomatiskan tugas yang terkait dengan revisi halaman, menyederhanakan proses alur kerja.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

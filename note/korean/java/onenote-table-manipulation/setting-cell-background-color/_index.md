@@ -3,10 +3,16 @@ title: OneNote에서 셀 배경색 설정 - Aspose.Note
 linktitle: OneNote에서 셀 배경색 설정 - Aspose.Note
 second_title: Aspose.Note 자바 API
 description: Java용 Aspose.Note를 사용하여 OneNote 문서를 쉽게 변환하세요. 셀 배경색을 손쉽게 사용자 정의하세요. 지금 무료 평가판을 사용해 보세요!
-type: docs
 weight: 17
 url: /ko/java/onenote-table-manipulation/setting-cell-background-color/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# OneNote에서 셀 배경색 설정 - Aspose.Note
+
 ## 소개
 Java용 Aspose.Note를 사용하여 OneNote에서 셀 배경색을 설정하는 방법에 대한 튜토리얼에 오신 것을 환영합니다! 이 단계별 가이드에서는 OneNote 문서에서 셀 배경색을 쉽게 사용자 지정하는 과정을 안내합니다.
 ## 전제조건
@@ -66,3 +72,9 @@ cell11.setBackgroundColor(Color.BLACK);
  지원 포럼 방문[여기](https://forum.aspose.com/c/note/28) Aspose 커뮤니티로부터 도움을 받으려면
 ### Java용 Aspose.Note를 어디서 구입할 수 있나요?
  도서관을 구매하실 수 있습니다[여기](https://purchase.aspose.com/buy).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

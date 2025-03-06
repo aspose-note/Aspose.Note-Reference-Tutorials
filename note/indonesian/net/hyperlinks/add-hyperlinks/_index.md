@@ -3,10 +3,16 @@ title: Tambahkan Hyperlink di Dokumen Aspose.Note
 linktitle: Tambahkan Hyperlink di Dokumen Aspose.Note
 second_title: Aspose.Catatan .NET API
 description: Pelajari cara menambahkan hyperlink ke dokumen Aspose.Note menggunakan Aspose.Note untuk .NET. Tingkatkan interaktivitas dokumen dengan tutorial langkah demi langkah ini.
-type: docs
 weight: 10
 url: /id/net/hyperlinks/add-hyperlinks/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Tambahkan Hyperlink di Dokumen Aspose.Note
+
 ## Perkenalan
 
 Dalam tutorial ini, Anda akan mempelajari cara menambahkan hyperlink ke teks dalam dokumen Aspose.Note menggunakan kerangka .NET. Aspose.Note menyediakan fitur canggih untuk memanipulasi dokumen OneNote secara terprogram. Menambahkan hyperlink dapat meningkatkan interaktivitas dan kegunaan dokumen Anda, menjadikannya lebih menarik bagi pengguna.
@@ -131,3 +137,9 @@ A4: Aspose.Note dirancang untuk bekerja dengan Microsoft OneNote 2010 dan versi 
 ### Q5: Dapatkah saya menambahkan hyperlink secara terprogram menggunakan API Aspose.Note?
 
 A5: Ya, Aspose.Note menyediakan API yang memungkinkan Anda menambahkan hyperlink ke teks secara terprogram dalam aplikasi .NET Anda.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -3,10 +3,16 @@ title: طباعة المستندات باستخدام Aspose.Note لـ .NET
 linktitle: طباعة المستندات باستخدام Aspose.Note لـ .NET
 second_title: Aspose.Note .NET API
 description: تعرف على كيفية طباعة مستندات OneNote باستخدام Aspose.Note لـ .NET. دليل خطوة بخطوة للتكامل السلس مع تطبيقات .NET الخاصة بك.
-type: docs
 weight: 10
 url: /ar/net/printing-document/print-documents/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# طباعة المستندات باستخدام Aspose.Note لـ .NET
+
 ## مقدمة
 
 في مجال تطوير .NET، يعد Aspose.Note بمثابة أداة قوية لإدارة ملفات OneNote ومعالجتها. من بين وظائفه التي لا تعد ولا تحصى، إحدى الميزات المهمة هي القدرة على طباعة المستندات مباشرة من تطبيقات .NET الخاصة بك. سيرشدك هذا البرنامج التعليمي خلال عملية طباعة المستندات باستخدام Aspose.Note لـ .NET، مع توفير إرشادات خطوة بخطوة على طول الطريق.
@@ -88,3 +94,9 @@ A3: يمكّنك Aspose.Note من تحديد نطاقات الصفحات أو أ
 ### س5: هل يدعم Aspose.Note الطباعة إلى PDF أو تنسيقات الملفات الأخرى؟
 
 ج5: نعم، بالإضافة إلى الطباعة على الطابعات الفعلية، يسهل Aspose.Note الطباعة إلى تنسيقات ملفات متنوعة بما في ذلك تنسيقات PDF وXPS والصور.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

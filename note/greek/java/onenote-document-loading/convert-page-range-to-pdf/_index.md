@@ -3,10 +3,16 @@ title: Μετατρέψτε το συγκεκριμένο εύρος σελίδ�
 linktitle: Μετατρέψτε το συγκεκριμένο εύρος σελίδων σε PDF στο OneNote με Java
 second_title: Aspose.Note Java API
 description: Μάθετε πώς να μετατρέπετε συγκεκριμένες περιοχές σελίδων από OneNote σε PDF χωρίς προβλήματα με το Aspose.Note για Java. Διατηρήστε τη μορφοποίηση και τη διάταξη χωρίς κόπο.
-type: docs
 weight: 11
 url: /el/java/onenote-document-loading/convert-page-range-to-pdf/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Μετατρέψτε το συγκεκριμένο εύρος σελίδων σε PDF στο OneNote με Java
+
 ## Εισαγωγή
 
 Το OneNote είναι ένα ισχυρό εργαλείο για την οργάνωση σημειώσεων, αλλά μερικές φορές μπορεί να χρειαστεί να εξάγετε συγκεκριμένες περιοχές σελίδων σε PDF για σκοπούς κοινής χρήσης ή αρχειοθέτησης. Σε αυτό το σεμινάριο, θα σας καθοδηγήσουμε στη διαδικασία μετατροπής μιας συγκεκριμένης περιοχής σελίδων σε PDF χρησιμοποιώντας το Aspose.Note για Java.
@@ -85,3 +91,9 @@ A4: Ναι, μπορείτε να προσαρμόσετε διάφορες πτ
 ### Ε5: Το Aspose.Note για Java υποστηρίζει τη μαζική μετατροπή πολλών εγγράφων OneNote;
 
 A5: Ναι, μπορείτε να μετατρέψετε ομαδικά πολλά έγγραφα OneNote σε PDF κάνοντας κύκλο σε κάθε έγγραφο και εφαρμόζοντας τη διαδικασία μετατροπής.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

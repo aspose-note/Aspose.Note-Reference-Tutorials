@@ -3,10 +3,16 @@ title: Java를 사용하여 OneNote에서 경로별로 파일 첨부
 linktitle: Java를 사용하여 OneNote에서 경로별로 파일 첨부
 second_title: Aspose.Note 자바 API
 description: OneNote 노트에 파일을 원활하게 추가하세요! Aspose.Note를 사용하여 Java에서 경로로 연결하는 방법을 알아보세요. 쉬운 가이드와 코드가 포함되어 있습니다! #OneNote #Java #Aspose
-type: docs
 weight: 11
 url: /ko/java/onenote-java-integration/attach-file-by-path/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Java를 사용하여 OneNote에서 경로별로 파일 첨부
+
 ## 소개
 
 OneNote는 노트를 정리하고 관리하기 위한 다용도 도구이며, Aspose.Note for Java를 사용하면 프로그래밍 방식으로 노트에 파일을 첨부하여 기능을 향상시킬 수 있습니다. 이 자습서에서는 Java를 사용하여 OneNote에서 파일을 경로별로 첨부하는 과정을 안내합니다.
@@ -148,3 +154,9 @@ A4: 예, 개요 내에서 적절하게 구성하여 특정 섹션에 파일을 �
 ### Q5: 첨부할 수 있는 파일 크기에 제한이 있나요?
 
 A5: Aspose.Note는 파일 크기에 엄격한 제한을 두지 않지만 매우 큰 파일에 대한 성능 영향을 고려합니다.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

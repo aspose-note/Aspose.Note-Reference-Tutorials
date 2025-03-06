@@ -3,10 +3,16 @@ title: Aspose.Note Metninde Madde İşareti veya Numara Listesini Alma
 linktitle: Aspose.Note Metninde Madde İşareti veya Numara Listesini Alma
 second_title: Aspose.Note .NET API'si
 description: Madde işareti veya sayı listelerini almaya yönelik adım adım kılavuzumuzla Aspose.Note for .NET'in potansiyelini ortaya çıkarın. OneNote belge işleme becerilerinizi geliştirin!
-type: docs
 weight: 23
 url: /tr/net/text-manipulation/retrieve-bullet-number-list/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Aspose.Note Metninde Madde İşareti veya Numara Listesini Alma
+
 ## giriiş
 Geliştiricilerin OneNote belge manipülasyonunu zahmetsizce gerçekleştirmesine olanak tanıyan sağlam ve çok yönlü bir kitaplık olan Aspose.Note for .NET dünyasına hoş geldiniz. Bu eğitimde, Aspose.Note for .NET'i kullanarak madde işareti veya sayı listelerini alma sürecini derinlemesine inceleyeceğiz. İster deneyimli bir geliştirici olun ister kodlama meraklısı olun, bu kılavuz sizi Aspose.Note'ta listelerle çalışmanın inceliklerinde gezinmenizi sağlayacak bilgiyle donatacaktır.
 ## Önkoşullar
@@ -87,3 +93,9 @@ Evet, Aspose.Note çok çeşitli OneNote formatlarını destekleyerek en son sü
 Şurayı keşfedebilir ve yardım isteyebilirsiniz:[Aspose.Note forumu](https://forum.aspose.com/c/note/28) Karşılaşabileceğiniz her türlü soru veya sorun için.
 ### Aspose.Note for .NET'in ücretsiz deneme sürümü var mı?
  Evet, Aspose.Note for .NET'in ücretsiz deneme sürümüne erişebilirsiniz[Burada](https://releases.aspose.com/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

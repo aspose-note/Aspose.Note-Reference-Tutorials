@@ -3,10 +3,16 @@ title: Szerezzen be oldalváltozatokat a OneNote-ban – Aspose.Note
 linktitle: Szerezzen be oldalváltozatokat a OneNote-ban – Aspose.Note
 second_title: Aspose.Note Java API
 description: Ismerje meg, hogyan kérheti le az oldalváltozatokat a OneNote-ban az Aspose.Note for Java használatával. Kövesse lépésenkénti útmutatónkat a változások hatékony nyomon követéséhez.
-type: docs
 weight: 14
 url: /hu/java/onenote-page-manipulation/get-page-revisions/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Szerezzen be oldalváltozatokat a OneNote-ban – Aspose.Note
+
 ## Bevezetés
 
 A OneNote egy hatékony eszköz a jegyzetek rendszerezésére és kezelésére, de időnként nyomon kell követnie az oldalain végrehajtott változtatásokat és átdolgozásokat. Az Aspose.Note for Java segítségével könnyedén lekérheti az oldalváltozatokat programozottan. Ebben az oktatóanyagban végigvezetjük Önt a OneNote-ban az Aspose.Note for Java használatával oldalverziók beszerzésének folyamatán.
@@ -107,3 +113,9 @@ Ebben az oktatóanyagban megtanultuk, hogyan kérheti le az oldalváltozatokat a
 ### 5. kérdés: Elérhető az Aspose.Note for Java ingyenes próbaverziója?
 
  5. válasz: Igen, elérheti az Aspose.Note for Java ingyenes próbaverzióját a webhelyről[weboldal](https://releases.aspose.com/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

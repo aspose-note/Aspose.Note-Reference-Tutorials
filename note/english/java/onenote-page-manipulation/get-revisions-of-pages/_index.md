@@ -3,10 +3,16 @@ title: Get Revisions of Pages in OneNote - Aspose.Note
 linktitle: Get Revisions of Pages in OneNote - Aspose.Note
 second_title: Aspose.Note Java API
 description: Learn how to retrieve revisions of pages within OneNote documents using Aspose.Note Java. Integrate this into your Java apps for efficient document management.
-type: docs
 weight: 15
 url: /java/onenote-page-manipulation/get-revisions-of-pages/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Get Revisions of Pages in OneNote - Aspose.Note
+
 ## Introduction
 
 In this tutorial, we'll delve into the capabilities of Aspose.Note for Java, a powerful library that enables you to work with Microsoft OneNote files seamlessly in your Java applications. Specifically, we'll focus on how to retrieve revisions of pages within a OneNote document. By the end of this guide, you'll be equipped with the knowledge to efficiently extract page revisions, including details such as last modified time, creation time, title, level, and author.
@@ -109,3 +115,10 @@ A4: Yes, a valid license is required for commercial use of Aspose.Note for Java.
 ### Q5: Where can I seek assistance if I encounter issues or have questions about Aspose.Note for Java?
 
 A5: For support and assistance, you can visit the Aspose.Note forum [here](https://forum.aspose.com/c/note/28), where you can ask questions, share experiences, and interact with other users and experts.
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

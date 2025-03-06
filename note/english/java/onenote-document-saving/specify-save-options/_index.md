@@ -3,10 +3,16 @@ title: Specify Save Options in OneNote - Aspose.Note
 linktitle: Specify Save Options in OneNote - Aspose.Note
 second_title: Aspose.Note Java API
 description: Learn how to specify save options in OneNote using Aspose.Note for Java. Customize page index, count, and compression settings effortlessly.
-type: docs
 weight: 24
 url: /java/onenote-document-saving/specify-save-options/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Specify Save Options in OneNote - Aspose.Note
+
 ## Introduction
 
 In this tutorial, we will learn how to specify save options in OneNote using Aspose.Note for Java. Aspose.Note is a powerful Java library that allows developers to create, manipulate, and convert OneNote documents programmatically. With Aspose.Note, you can easily control various save options to customize the output according to your requirements.
@@ -109,3 +115,10 @@ A4: Yes, Aspose.Note provides APIs for encryption and decryption of OneNote docu
 ### Q5: Is Aspose.Note suitable for commercial use?
 
 A5: Yes, Aspose.Note can be used for commercial purposes by purchasing a license.
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

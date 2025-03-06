@@ -3,10 +3,16 @@ title: Ladda lösenordsskyddade dokument i OneNote - Aspose.Note
 linktitle: Ladda lösenordsskyddade dokument i OneNote - Aspose.Note
 second_title: Aspose.Note Java API
 description: Lär dig hur du laddar lösenordsskyddade dokument i OneNote med Aspose.Note för Java. Följ vår steg-för-steg-guide för sömlös integration.
-type: docs
 weight: 22
 url: /sv/java/onenote-notebook-operations/load-password-protected-documents/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Ladda lösenordsskyddade dokument i OneNote - Aspose.Note
+
 ## Introduktion
 
 I den här handledningen går vi igenom processen att ladda lösenordsskyddade dokument i OneNote med Aspose.Note för Java. Aspose.Note är ett kraftfullt Java-bibliotek som låter utvecklare arbeta med Microsoft OneNote-filer programmatiskt, vilket möjliggör olika operationer som att ladda, redigera och spara dokument.
@@ -79,3 +85,9 @@ S: Ja, Aspose.Note erbjuder stöd för att ladda och hantera lösenordsskyddade 
 ### F5: Finns det en testversion tillgänglig för Aspose.Note?
 
 S: Ja, du kan ladda ner en gratis testversion av Aspose.Note från[här](https://releases.aspose.com/) att utforska dess funktioner innan du gör ett köp.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

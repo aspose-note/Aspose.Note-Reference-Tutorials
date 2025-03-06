@@ -3,10 +3,16 @@ title: Hipervínculos e imágenes de OneNote
 linktitle: Hipervínculos e imágenes de OneNote
 second_title: Aspose.Nota Java API
 description: Mejore su experiencia OneNote con los tutoriales de Aspose.Note para Java. Aprenda a agregar hipervínculos, insertar imágenes y extraer información de imágenes sin problemas con el desarrollo de Java.
-type: docs
 weight: 22
 url: /es/java/onenote-hyperlinks-images/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Hipervínculos e imágenes de OneNote
+
 
 ## Introducción
 
@@ -48,3 +54,9 @@ Aprenda a extraer imágenes de documentos de OneNote usando Java con la bibliote
 Aprenda a extraer información de imágenes de documentos de OneNote usando Java con Aspose.Note. Pasos sencillos para desarrolladores.
 ### [Insertar una imagen en un documento de OneNote con Java](./insert-image/)
 Aprenda a insertar imágenes en documentos de OneNote usando Java con la biblioteca Aspose.Note para Java. Siga nuestra guía paso a paso para una integración perfecta.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

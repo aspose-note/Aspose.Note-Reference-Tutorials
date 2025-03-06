@@ -3,10 +3,16 @@ title: Opslaan in binaire afbeelding met vaste drempelwaarde in OneNote
 linktitle: Opslaan in binaire afbeelding met vaste drempelwaarde in OneNote
 second_title: Aspose.Note Java-API
 description: Sla Microsoft OneNote-documenten moeiteloos op als binaire afbeeldingen met behulp van een vaste drempelwaarde met Aspose.Note Java. Verbeter uw mogelijkheden voor bestandsmanipulatie in OneNote.
-type: docs
 weight: 14
 url: /nl/java/onenote-document-saving/save-to-binary-image-using-fixed-threshold/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Opslaan in binaire afbeelding met vaste drempelwaarde in OneNote
+
 ## Invoering
 
 Aspose.Note voor Java is een krachtige API waarmee ontwikkelaars programmatisch met Microsoft OneNote-bestanden kunnen werken. In deze zelfstudie onderzoeken we hoe u een document kunt opslaan als een binaire afbeelding met behulp van een vaste drempel. Volg de onderstaande stappen om dit te bereiken.
@@ -91,3 +97,9 @@ A4: Ja, u kunt meerdere OneNote-documenten in batch verwerken door elk bestand t
 ### V5: Is er technische ondersteuning beschikbaar voor Aspose.Note voor Java?
 
  A5: Ja, technische ondersteuning is beschikbaar via de[Aspose.Note-forum](https://forum.aspose.com/c/note/28), waar u vragen kunt stellen en hulp kunt inroepen van deskundigen.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -3,10 +3,16 @@ title: Převeďte Poznámkové bloky do PDF pomocí možností v Aspose Note .NE
 linktitle: Převeďte Poznámkové bloky do PDF pomocí možností v Aspose Note .NET
 second_title: Aspose.Note .NET API
 description: Přečtěte si, jak převést poznámkové bloky Microsoft OneNote do formátu PDF pomocí knihovny Aspose.Note for .NET s přizpůsobitelnými možnostmi.
-type: docs
 weight: 16
 url: /cs/net/notebook-operations/convert-to-pdf-options/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Převeďte Poznámkové bloky do PDF pomocí možností v Aspose Note .NET
+
 ## Úvod
 
 V tomto tutoriálu projdeme procesem převodu poznámkových bloků do formátu PDF pomocí knihovny Aspose.Note for .NET. Aspose.Note pro .NET poskytuje výkonnou sadu funkcí pro programovou práci se soubory Microsoft OneNote.
@@ -102,3 +108,9 @@ Odpověď 4: Ano, z webové stránky si můžete stáhnout bezplatnou zkušební
 ### Q5: Jak mohu získat technickou podporu pro Aspose.Note pro .NET?
 
  Odpověď 5: Technickou podporu pro Aspose.Note pro .NET získáte návštěvou webu[Aspose.Note fórum](https://forum.aspose.com/c/note/28) nebo kontaktujte přímo tým podpory Aspose.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

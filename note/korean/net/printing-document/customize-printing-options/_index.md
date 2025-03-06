@@ -3,10 +3,16 @@ title: Aspose.Note 인쇄 옵션으로 인쇄 사용자 정의
 linktitle: Aspose.Note 인쇄 옵션으로 인쇄 사용자 정의
 second_title: Aspose.Note .NET API
 description: .NET용 Aspose.Note를 사용하여 문서 인쇄를 사용자 정의하는 방법을 알아보세요. 최적의 인쇄를 위해 설정을 미세 조정합니다.
-type: docs
 weight: 11
 url: /ko/net/printing-document/customize-printing-options/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Aspose.Note 인쇄 옵션으로 인쇄 사용자 정의
+
 ## 소개
 
 .NET용 Aspose.Note로 문서를 인쇄하려면 인쇄 옵션을 사용하여 특정 요구 사항을 충족하도록 맞춤화할 수 있습니다. 이 튜토리얼에서는 Aspose.Note에서 제공하는 다양한 옵션을 사용하여 인쇄를 사용자 정의하는 방법을 살펴보겠습니다. 프린터 설정을 조정하거나, 해상도를 설정하거나, 페이지 분할 알고리즘을 정의해야 하는 경우 Aspose.Note는 원하는 인쇄 결과를 얻을 수 있는 유연성을 제공합니다.
@@ -95,3 +101,9 @@ A4: Aspose.Note는 .NET 프레임워크와 호환되는 다양한 프린터로 �
 ### Q5: Aspose.Note를 사용하여 인쇄 작업을 자동화할 수 있나요?
 
 A5: 예, Aspose.Note를 사용하면 개발자는 인쇄 옵션을 .NET 애플리케이션에 통합하여 인쇄 작업을 자동화할 수 있습니다.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

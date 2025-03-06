@@ -3,10 +3,16 @@ title: Java kullanarak OneNote'ta Dosya Ekle ve Simgeyi Ayarla
 linktitle: Java kullanarak OneNote'ta Dosya Ekle ve Simgeyi Ayarla
 second_title: Aspose.Note Java API'si
 description: OneNote iş akışınızı artırın! Aspose.Note ile Java'da programlı olarak nasıl dosya ekleyeceğinizi ve simgeleri nasıl özelleştireceğinizi öğrenin. Kolay adımlar ve kod dahil! #OneNote #Java #Aspose
-type: docs
 weight: 10
 url: /tr/java/onenote-java-integration/attach-file-and-set-icon/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Java kullanarak OneNote'ta Dosya Ekle ve Simgeyi Ayarla
+
 ## giriiş
 
 OneNote, not almak ve bilgileri düzenlemek için kullanılan popüler bir araçtır ve Aspose.Note for Java'nın yardımıyla, notlarınızın görsel temsilini iyileştirmek için programlı olarak dosya ekleyerek ve simgeleri ayarlayarak yeteneklerini geliştirebilirsiniz. Bu eğitimde size süreç boyunca adım adım rehberlik edeceğiz.
@@ -149,3 +155,10 @@ Cevap3: Kesinlikle, farklı türde ekleri temsil eden ve görsel organizasyonu g
 ### S5: Aspose.Note for Java'nın deneme sürümü mevcut mu?
 
 Cevap5: Evet, Aspose.Note for Java'nın işlevselliğini şu adresteki ücretsiz deneme sürümüyle keşfedebilirsiniz:[bu bağlantı](https://releases.aspose.com/).
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

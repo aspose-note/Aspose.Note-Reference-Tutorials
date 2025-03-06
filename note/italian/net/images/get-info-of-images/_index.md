@@ -3,10 +3,16 @@ title: Ottieni informazioni sulle immagini in Aspose.Note
 linktitle: Ottieni informazioni sulle immagini in Aspose.Note
 second_title: Aspose.Note API .NET
 description: Scopri come estrarre informazioni sull'immagine dai file Microsoft OneNote utilizzando Aspose.Note per .NET. Segui la nostra guida passo passo per uno sviluppo efficiente.
-type: docs
 weight: 13
 url: /it/net/images/get-info-of-images/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Ottieni informazioni sulle immagini in Aspose.Note
+
 ## introduzione
 
 Nel mondo dello sviluppo .NET, Aspose.Note fornisce un potente set di strumenti per lavorare con i file Microsoft OneNote. Un compito comune che gli sviluppatori devono spesso affrontare è l'estrazione di informazioni dalle immagini incorporate in queste note. Che si tratti di ottenere dimensioni, nomi di file o tempi di modifica, Aspose.Note semplifica questo processo.
@@ -98,3 +104,9 @@ A4: Sì, puoi accedere a una prova gratuita di Aspose.Note per esplorarne le fun
 ### Q5: Dove posso trovare ulteriore supporto o assistenza con Aspose.Note?
 
 R5: Per qualsiasi domanda o assistenza, è possibile visitare il forum Aspose.Note[Qui](https://forum.aspose.com/c/note/28).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

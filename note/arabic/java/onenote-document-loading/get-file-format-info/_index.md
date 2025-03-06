@@ -3,10 +3,16 @@ title: احصل على معلومات تنسيق الملف من OneNote - Java
 linktitle: احصل على معلومات تنسيق الملف من OneNote - Java
 second_title: Aspose.Note جافا API
 description: تعلم كيفية استخراج تفاصيل تنسيق الملف من ملفات OneNote في Java باستخدام Aspose.Note. قم بتحسين تطبيقات Java الخاصة بك باتباع هذا البرنامج التعليمي الشامل.
-type: docs
 weight: 22
 url: /ar/java/onenote-document-loading/get-file-format-info/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# احصل على معلومات تنسيق الملف من OneNote - Java
+
 ## مقدمة
 
 في هذا البرنامج التعليمي، سنستكشف كيفية استرداد معلومات تنسيق الملف من ملف OneNote باستخدام Java بمساعدة Aspose.Note. Aspose.Note for Java عبارة عن واجهة برمجة تطبيقات قوية تتيح للمطورين العمل مع ملفات Microsoft OneNote برمجيًا، مما يتيح مهام مثل القراءة والكتابة ومعالجة مستندات OneNote بسلاسة.
@@ -80,3 +86,9 @@ switch (document.getFileFormat()) {
 ### س5: كيف يمكنني شراء ترخيص Aspose.Note لـ Java؟
 
  ج5: يمكنك شراء ترخيص Aspose.Note لـ Java من[صفحة الشراء](https://purchase.aspose.com/buy).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

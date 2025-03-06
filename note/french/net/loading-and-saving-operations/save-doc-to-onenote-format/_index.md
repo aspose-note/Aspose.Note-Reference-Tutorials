@@ -3,10 +3,16 @@ title: Enregistrer le document au format OneNote dans Aspose.Note
 linktitle: Enregistrer le document au format OneNote dans Aspose.Note
 second_title: API Aspose.Note .NET
 description: Découvrez comment enregistrer des documents OneNote par programme dans .NET à l’aide d’Aspose.Note. Tutoriel étape par étape avec des exemples de code inclus.
-type: docs
 weight: 20
 url: /fr/net/loading-and-saving-operations/save-doc-to-onenote-format/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Enregistrer le document au format OneNote dans Aspose.Note
+
 ## Introduction
 
 Dans le domaine du développement .NET, Aspose.Note se distingue comme un outil puissant pour gérer et manipuler les documents OneNote par programme. Grâce à son API intuitive et à son ensemble complet de fonctionnalités, les développeurs peuvent gérer sans effort diverses tâches liées aux fichiers OneNote au sein de leurs applications. Ce didacticiel approfondira le processus d'enregistrement de documents au format OneNote à l'aide d'Aspose.Note pour .NET, en décomposant chaque étape pour garantir la clarté et la compréhension.
@@ -87,3 +93,9 @@ R : Absolument, Aspose.Note offre de nombreuses options pour personnaliser l'app
 ### Q5 : Existe-t-il un forum communautaire ou un canal d'assistance disponible pour les utilisateurs d'Aspose.Note ?
 
  R : Oui, Aspose propose un forum dédié aux utilisateurs d'Aspose.Note où ils peuvent demander de l'aide, partager des connaissances et interagir avec la communauté. Visiter le[Forum Aspose.Note](https://forum.aspose.com/c/note/28) pour le soutien.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

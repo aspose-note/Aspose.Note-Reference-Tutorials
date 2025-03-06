@@ -3,10 +3,16 @@ title: Csatoljon fájlt és állítsa be az ikont a OneNote-ban Java használat�
 linktitle: Csatoljon fájlt és állítsa be az ikont a OneNote-ban Java használatával
 second_title: Aspose.Note Java API
 description: Fokozza fel OneNote munkafolyamatát! Ismerje meg, hogyan csatolhat fájlokat, és hogyan szabhat személyre ikonokat programozottan Java nyelven az Aspose.Note segítségével. Könnyű lépéseket és kódot tartalmaz! #OneNote #Java #Aspose
-type: docs
 weight: 10
 url: /hu/java/onenote-java-integration/attach-file-and-set-icon/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Csatoljon fájlt és állítsa be az ikont a OneNote-ban Java használatával
+
 ## Bevezetés
 
 A OneNote egy népszerű eszköz a jegyzetek készítésére és az információk rendszerezésére, és az Aspose.Note for Java segítségével fájlok programozott csatolásával és ikonok beállításával bővítheti a képességeit a jegyzetek vizuális megjelenítésének javítása érdekében. Ebben az oktatóanyagban lépésről lépésre végigvezetjük a folyamaton.
@@ -149,3 +155,10 @@ Ebben az oktatóanyagban megtanultuk, hogyan lehet programozottan csatolni fájl
 ### 5. kérdés: Elérhető az Aspose.Note for Java próbaverziója?
 
 5. válasz: Igen, felfedezheti az Aspose.Note for Java funkcióit a következő címen elérhető ingyenes próbaverzióval.[ez a link](https://releases.aspose.com/).
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

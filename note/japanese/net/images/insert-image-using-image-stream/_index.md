@@ -3,10 +3,16 @@ title: Aspose.Note のイメージ ストリームを使用して画像を挿入
 linktitle: Aspose.Note のイメージ ストリームを使用して画像を挿入する
 second_title: Aspose.Note .NET API
 description: .NET のイメージ ストリームを使用して、Aspose.Note ドキュメントにイメージをシームレスに挿入する方法を学びます。 Note ファイルをビジュアルで簡単に強化できます。
-type: docs
 weight: 11
 url: /ja/net/images/insert-image-using-image-stream/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Aspose.Note のイメージ ストリームを使用して画像を挿入する
+
 ## 導入
 
 このチュートリアルでは、.NET の画像ストリームを使用して、Aspose.Note ドキュメントに画像を挿入する方法を説明します。 Aspose.Note は、開発者が Microsoft OneNote ファイルをプログラムで操作できるようにする強力な API です。このガイドで概説されている手順に従うことで、画像を Note ドキュメントにシームレスに統合し、見た目の魅力と全体的な機能を強化する方法を学びます。
@@ -120,3 +126,9 @@ A4: Aspose.Note for .NET は、.NET Framework の複数のバージョンと互�
 ### Q5: Aspose.Note の追加リソースとサポートはどこで入手できますか?
 
  A5: Aspose.Note の包括的なドキュメント、フォーラム、サポートは、[アスペス フォーラム](https://forum.aspose.com/c/note/28).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

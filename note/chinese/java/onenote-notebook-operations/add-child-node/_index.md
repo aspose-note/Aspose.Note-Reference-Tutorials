@@ -3,10 +3,16 @@ title: 在 OneNote 笔记本中添加子节点 - Aspose.Note
 linktitle: 在 OneNote 笔记本中添加子节点 - Aspose.Note
 second_title: Aspose.Note Java API
 description: 了解如何使用 Aspose.Note for Java 以编程方式将子节点添加到 OneNote 笔记本。毫不费力地改善你的笔记组织。
-type: docs
 weight: 11
 url: /zh/java/onenote-notebook-operations/add-child-node/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# 在 OneNote 笔记本中添加子节点 - Aspose.Note
+
 ## 介绍
 
 OneNote 是一个用于组织笔记和想法的强大工具。 Aspose.Note for Java 提供了以编程方式操作 OneNote 文件的便捷方法。在本教程中，我们将逐步介绍向 OneNote 笔记本添加子节点的过程。
@@ -89,3 +95,9 @@ A4：是的，您可以通过将库添加到依赖项中，轻松地将 Aspose.N
 ### 问题 5：是否有社区论坛可供我寻求使用 Aspose.Note for Java 的帮助和指导？
 
  A5: 是的，您可以访问[Aspose.Note 论坛](https://forum.aspose.com/c/note/28)提出问题、分享知识以及与其他用户和专家互动。
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

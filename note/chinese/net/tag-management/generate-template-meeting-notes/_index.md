@@ -3,10 +3,16 @@ title: 使用 Aspose.Note 生成会议记录模板
 linktitle: 使用 Aspose.Note 生成会议记录模板
 second_title: Aspose.Note .NET API
 description: 了解如何使用 Aspose.Note for .NET 生成结构化会议记录。本教程提供了带有代码示例的分步指南。
-type: docs
 weight: 13
 url: /zh/net/tag-management/generate-template-meeting-notes/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# 使用 Aspose.Note 生成会议记录模板
+
 ## 介绍
 
 在本教程中，我们将逐步介绍使用 Aspose.Note for .NET 生成会议记录模板的过程。该库提供了用于以编程方式创建、编辑和操作 OneNote 文档的强大工具。
@@ -126,3 +132,9 @@ A4：是的，Aspose.Note for .NET 支持多种文档格式，包括 OneNote (*.
 
  A5：是的，您可以从以下位置下载免费试用版：[这个链接](https://releases.aspose.com/).
    
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

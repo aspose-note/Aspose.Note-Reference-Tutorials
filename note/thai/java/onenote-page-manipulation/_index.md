@@ -3,10 +3,16 @@ title: การจัดการหน้า OneNote
 linktitle: การจัดการหน้า OneNote
 second_title: Aspose.Note Java API
 description: จัดการหน้าข้อขัดแย้ง สร้างเอกสารที่จัดระเบียบ และติดตามการแก้ไขใน OneNote โดยใช้ Aspose.Note สำหรับ Java บทช่วยสอนทีละขั้นตอนสำหรับการจัดการเอกสารอย่างมีประสิทธิภาพ
-type: docs
 weight: 29
 url: /th/java/onenote-page-manipulation/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# การจัดการหน้า OneNote
+
 
 ## การแนะนำ
 
@@ -74,3 +80,9 @@ url: /th/java/onenote-page-manipulation/
 เรียนรู้วิธีตั้งค่าสีพื้นหลังของหน้าใน OneNote ได้อย่างง่ายดายโดยใช้ Aspose.Note for Java เพิ่มความดึงดูดสายตาให้กับเอกสารของคุณด้วยบทช่วยสอนง่ายๆ นี้
 ### [การทำงานกับการแก้ไขหน้าใน OneNote - Aspose.Note](./working-with-page-revisions/)
 เรียนรู้วิธีจัดการการแก้ไขหน้าในเอกสาร OneNote โดยใช้ Aspose.Note for Java บทช่วยสอนนี้ให้คำแนะนำทีละขั้นตอนสำหรับการติดตามการแก้ไขและการทำงานร่วมกันอย่างมีประสิทธิภาพ
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

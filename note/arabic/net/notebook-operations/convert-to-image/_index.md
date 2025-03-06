@@ -3,10 +3,16 @@ title: تحويل دفاتر الملاحظات إلى صورة في Aspose Note
 linktitle: تحويل دفاتر الملاحظات إلى صورة في Aspose Note .NET
 second_title: Aspose.Note .NET API
 description: تعرف على كيفية تحويل دفاتر ملاحظات OneNote إلى صور باستخدام Aspose.Note لـ .NET. اتبع هذا الدليل خطوة بخطوة لتحقيق التكامل السلس.
-type: docs
 weight: 11
 url: /ar/net/notebook-operations/convert-to-image/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# تحويل دفاتر الملاحظات إلى صورة في Aspose Note .NET
+
 ## مقدمة
 
 في هذا البرنامج التعليمي، سنستكشف كيفية تحويل دفاتر الملاحظات إلى صور باستخدام Aspose.Note لـ .NET. Aspose.Note عبارة عن واجهة برمجة تطبيقات قوية تتيح للمطورين العمل مع ملفات Microsoft OneNote برمجيًا، مما يتيح مجموعة واسعة من الوظائف. يمكن أن يكون تحويل دفاتر الملاحظات إلى صور مفيدًا بشكل خاص للعديد من التطبيقات، مثل إنشاء المعاينات أو مشاركة المحتوى أو التكامل مع الأنظمة الأخرى التي تتطلب تنسيقات صور.
@@ -81,3 +87,9 @@ Console.WriteLine("\nNotebook document converted to image successfully.\nFile sa
 ### س5: هل يمكنني استخدام Aspose.Note لـ .NET في المشاريع التجارية؟
 
  ج5: نعم، يمكنك شراء ترخيص من[هنا](https://purchase.aspose.com/buy) لاستخدام Aspose.Note لـ .NET في المشاريع التجارية.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

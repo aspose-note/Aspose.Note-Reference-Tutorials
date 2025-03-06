@@ -3,10 +3,16 @@ title: 掌握 OneNote 文件中的頁面修訂
 linktitle: 掌握 OneNote 文件中的頁面修訂
 second_title: Aspose.Note .NET API
 description: 了解如何使用 Aspose.Note 管理 Microsoft OneNote 頁面修訂。 .NET 應用程式中無縫整合和版本控制的逐步指南。
-type: docs
 weight: 20
 url: /zh-hant/net/note-manipulation/working-with-page-revisions/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# 掌握 OneNote 文件中的頁面修訂
+
 ## 介紹
 
 在 .NET 開發領域，Aspose.Note 作為高效處理 Microsoft OneNote 檔案的多功能工具脫穎而出。 Aspose.Note 的一項特別有用的功能是它能夠無縫管理頁面修訂。在本教學中，我們將深入研究使用 Aspose.Note for .NET 處理頁面修訂的複雜度。
@@ -112,3 +118,9 @@ A4：Aspose.Note 旨在有效地處理大量修訂，但實際限制可能會根
 ### Q5：我可以使用 Aspose.Note 自動化管理頁面修訂的流程嗎？
 
 A5：是的，Aspose.Note 提供了全面的 API，讓開發人員可以自動執行與頁面修訂相關的任務，從而簡化工作流程。
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

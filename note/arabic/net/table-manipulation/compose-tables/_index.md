@@ -3,10 +3,16 @@ title: إنشاء الجداول باستخدام Aspose.Note
 linktitle: إنشاء الجداول باستخدام Aspose.Note
 second_title: Aspose.Note .NET API
 description: تعرف على كيفية إنشاء جداول منظمة بمحتوى نصي منسق باستخدام Aspose.Note لـ .NET. تعزيز تنظيم المستندات وسهولة قراءتها دون عناء.
-type: docs
 weight: 11
 url: /ar/net/table-manipulation/compose-tables/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# إنشاء الجداول باستخدام Aspose.Note
+
 ## مقدمة
 
 الجداول هي مكونات أساسية للوثائق، مما يتيح العرض المنظم للمعلومات. يوفر Aspose.Note for .NET أدوات قوية لإنشاء الجداول بسهولة. في هذا البرنامج التعليمي، سنرشدك خلال عملية إنشاء الجداول ذات المحتوى النصي المنسق باستخدام Aspose.Note.
@@ -170,3 +176,9 @@ Console.WriteLine("\nThe document is composed successfully.");
 ### س5: هل يتوفر الدعم الفني لمستخدمي Aspose.Note؟
    
 ج5: نعم، توفر Aspose دعمًا فنيًا شاملاً من خلال منتدياتها وقنوات الدعم المخصصة لها.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

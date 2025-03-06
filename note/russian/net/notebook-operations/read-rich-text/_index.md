@@ -3,10 +3,16 @@ title: Чтение форматированного текста в Aspose Note
 linktitle: Чтение форматированного текста в Aspose Note .NET
 second_title: Aspose.Note .NET API
 description: Узнайте, как программно читать форматированный текст из записных книжек OneNote с помощью Aspose.Note для .NET. Следуйте нашему пошаговому руководству для легкой интеграции.
-type: docs
 weight: 23
 url: /ru/net/notebook-operations/read-rich-text/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Чтение форматированного текста в Aspose Note .NET
+
 ## Введение
 
 В этом уроке мы рассмотрим, как читать форматированный текст с помощью Aspose.Note для .NET. Aspose.Note — это мощный API, который позволяет разработчикам программно работать с документами Microsoft OneNote, предлагая широкий спектр функций для создания, редактирования и управления файлами OneNote.
@@ -97,3 +103,9 @@ foreach (RichText richTextNode in allRichTextNodes)
 ### Вопрос 5: Где я могу найти подробную документацию по Aspose.Note для .NET?
 
  О5: Вы можете найти подробную документацию по Aspose.Note для .NET на сайте[справочная страница](https://reference.aspose.com/note/net/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

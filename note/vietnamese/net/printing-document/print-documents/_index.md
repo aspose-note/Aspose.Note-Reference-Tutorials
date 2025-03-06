@@ -3,10 +3,16 @@ title: In tài liệu bằng Aspose.Note cho .NET
 linktitle: In tài liệu bằng Aspose.Note cho .NET
 second_title: Aspose.Note .NET API
 description: Tìm hiểu cách in tài liệu OneNote bằng Aspose.Note cho .NET. Hướng dẫn từng bước để tích hợp liền mạch vào các ứng dụng .NET của bạn.
-type: docs
 weight: 10
 url: /vi/net/printing-document/print-documents/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# In tài liệu bằng Aspose.Note cho .NET
+
 ## Giới thiệu
 
 Trong lĩnh vực phát triển .NET, Aspose.Note đóng vai trò là một công cụ mạnh mẽ để quản lý và thao tác với các tệp OneNote. Trong vô số chức năng của nó, một tính năng quan trọng là khả năng in tài liệu trực tiếp từ các ứng dụng .NET của bạn. Hướng dẫn này sẽ hướng dẫn bạn trong quá trình in tài liệu bằng Aspose.Note dành cho .NET, đồng thời cung cấp hướng dẫn từng bước trong quá trình thực hiện.
@@ -88,3 +94,9 @@ Câu trả lời 4: Có, Aspose.Note cho phép bạn in tài liệu một cách 
 ### Câu hỏi 5: Aspose.Note có hỗ trợ in sang PDF hoặc các định dạng tệp khác không?
 
 Câu trả lời 5: Có, ngoài việc in bằng máy in vật lý, Aspose.Note còn tạo điều kiện in sang nhiều định dạng tệp khác nhau bao gồm định dạng PDF, XPS và hình ảnh.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

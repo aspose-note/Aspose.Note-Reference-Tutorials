@@ -3,10 +3,16 @@ title: Mastering Tables με ενσωμάτωση OneNote
 linktitle: Χειρισμός τραπεζιού
 second_title: Aspose.Note .NET API
 description: Δημιουργήστε οπτικά ελκυστικά έγγραφα με το Aspose.Note για .NET! Εξερευνήστε μαθήματα για τη χειραγώγηση πινάκων – αλλάξτε στυλ, συνθέστε πίνακες, εξάγετε κείμενο και πολλά άλλα.
-type: docs
 weight: 29
 url: /el/net/table-manipulation/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Mastering Tables με ενσωμάτωση OneNote
+
 
 ## Εισαγωγή
 
@@ -62,3 +68,9 @@ url: /el/net/table-manipulation/
 Μάθετε να εισάγετε πίνακες σε έγγραφα Σημείωσης με το Aspose.Note για .NET. Οργανώστε τα δεδομένα απρόσκοπτα για βελτιωμένη αναγνωσιμότητα και παρουσίαση.
 ### [Ορισμός χρώματος φόντου κελιού στους πίνακες Aspose.Note](./set-cell-background-color/)
 Μάθετε πώς να ορίζετε το χρώμα φόντου κελιού στους πίνακες Aspose.Note χρησιμοποιώντας τον οδηγό βήμα προς βήμα. Βελτιώστε τα γραφικά του εγγράφου χωρίς κόπο.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

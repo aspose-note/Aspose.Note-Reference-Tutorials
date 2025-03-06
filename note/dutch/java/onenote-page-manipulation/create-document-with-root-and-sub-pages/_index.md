@@ -3,10 +3,16 @@ title: Maak een document met hoofd- en subpagina's in OneNote
 linktitle: Maak een document met hoofd- en subpagina's in OneNote
 second_title: Aspose.Note Java-API
 description: Maak een document met hoofd- en subpagina's in OneNote met behulp van Aspose.Note voor Java. Volg de stapsgewijze handleiding om uw notities efficiënt te ordenen.
-type: docs
 weight: 11
 url: /nl/java/onenote-page-manipulation/create-document-with-root-and-sub-pages/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Maak een document met hoofd- en subpagina's in OneNote
+
 ## Invoering
 
 In deze zelfstudie begeleiden we u bij het maken van een document met hoofd- en subpagina's in OneNote met behulp van Aspose.Note voor Java. Door deze stappen te volgen, kunt u uw OneNote-documenten efficiënt ordenen met een hiërarchische structuur.
@@ -169,3 +175,9 @@ A4: Ja, Aspose.Note voor Java ondersteunt het opslaan van documenten in verschil
 ### V5: Is er een proefversie beschikbaar voor Aspose.Note voor Java?
 
 A5: Ja, u kunt een gratis proefversie van Aspose.Note voor Java downloaden van de website.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

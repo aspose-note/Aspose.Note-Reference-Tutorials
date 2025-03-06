@@ -3,10 +3,16 @@ title: OneNote'taki Sayfalar Hakkında Bilgi Alın - Aspose.Note
 linktitle: OneNote'taki Sayfalar Hakkında Bilgi Alın - Aspose.Note
 second_title: Aspose.Note Java API'si
 description: OneNote belgelerinizdeki sayfa sırlarını ortaya çıkarın! Aspose.Note ile revizyonları, oluşturma sürelerini ve daha fazlasını çıkarın. Adım adım kılavuz ve kod dahildir! #OneNote #Java #Aspose
-type: docs
 weight: 12
 url: /tr/java/onenote-page-manipulation/get-information-about-pages/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# OneNote'taki Sayfalar Hakkında Bilgi Alın - Aspose.Note
+
 ## giriiş
 
 Bu eğitimde, Aspose.Note for Java'yı kullanarak OneNote'taki sayfalar hakkında bilgi çıkarma sürecinde size rehberlik edeceğiz. Aspose.Note, Microsoft OneNote belgeleriyle programlı olarak çalışmanıza olanak tanıyan güçlü bir API'dir. Sayfa revizyonlarına, oluşturma zamanlarına, başlıklara veya yazarlara erişmeniz gerekiyorsa Aspose.Note, sezgisel arayüzüyle görevi basitleştirir.
@@ -90,3 +96,9 @@ Cevap4: Evet, Aspose, geliştiricilere Aspose.Note'u kullanırken karşılaştı
 ### S5: Aspose.Note for Java'nın deneme sürümü mevcut mu?
 
  Cevap5: Evet, Aspose.Note for Java'nın ücretsiz deneme sürümünü şuradan indirebilirsiniz:[Burada](https://releases.aspose.com/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

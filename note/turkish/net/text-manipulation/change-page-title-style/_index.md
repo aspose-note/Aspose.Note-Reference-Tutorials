@@ -3,10 +3,16 @@ title: Aspose.Note'ta Sayfa Başlığı Stilini Değiştirme
 linktitle: Aspose.Note'ta Sayfa Başlığı Stilini Değiştirme
 second_title: Aspose.Note .NET API'si
 description: .NET belgelerinizi Aspose.Note ile dönüştürün! Sayfa başlığı stillerini zahmetsizce değiştirmeyi öğrenin. Birkaç basit adımda estetiği yükseltin.
-type: docs
 weight: 13
 url: /tr/net/text-manipulation/change-page-title-style/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Aspose.Note'ta Sayfa Başlığı Stilini Değiştirme
+
 ## giriiş
 .NET belgelerinizin görsel çekiciliğini dinamik sayfa başlığı stiliyle yükseltmek mi istiyorsunuz? Aspose.Note for .NET, sayfa başlıklarınızın stilini zahmetsizce değiştirmenize olanak tanıyan kusursuz bir çözüm sunar. Bu eğitimde, belgelerinizin estetiğini herhangi bir sorun yaşamadan geliştirebilmenizi sağlamak için süreç boyunca size adım adım rehberlik edeceğiz.
 ## Önkoşullar
@@ -70,3 +76,9 @@ Tebrikler! Aspose.Note for .NET'te sayfa başlığı stillerini nasıl değişti
  Aspose.Note için lisans satın alabilirsiniz[Burada](https://purchase.aspose.com/buy).
 ### Test amacıyla geçici bir lisansa ihtiyacım var mı?
  Evet, Aspose.Note'u test ediyorsanız geçici bir lisans alabilirsiniz.[Burada](https://purchase.aspose.com/temporary-license/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

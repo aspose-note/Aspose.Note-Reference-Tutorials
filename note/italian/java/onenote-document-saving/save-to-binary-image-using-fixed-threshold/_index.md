@@ -3,10 +3,16 @@ title: Salva su immagine binaria utilizzando la soglia fissa in OneNote
 linktitle: Salva su immagine binaria utilizzando la soglia fissa in OneNote
 second_title: Aspose.Note API Java
 description: Salva facilmente i documenti Microsoft OneNote come immagini binarie utilizzando la soglia fissa con Aspose.Note Java. Migliora le tue capacità di manipolazione dei file OneNote.
-type: docs
 weight: 14
 url: /it/java/onenote-document-saving/save-to-binary-image-using-fixed-threshold/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Salva su immagine binaria utilizzando la soglia fissa in OneNote
+
 ## introduzione
 
 Aspose.Note per Java è una potente API che consente agli sviluppatori di lavorare con i file Microsoft OneNote a livello di codice. In questo tutorial esploreremo come salvare un documento come immagine binaria utilizzando una soglia fissa. Seguire i passaggi seguenti per raggiungere questo obiettivo.
@@ -91,3 +97,9 @@ R4: Sì, è possibile elaborare in batch più documenti OneNote eseguendo l'iter
 ### Q5: è disponibile il supporto tecnico per Aspose.Note per Java?
 
  R5: Sì, il supporto tecnico è disponibile tramite[Forum Aspose.Note](https://forum.aspose.com/c/note/28), dove puoi porre domande e chiedere assistenza agli esperti.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

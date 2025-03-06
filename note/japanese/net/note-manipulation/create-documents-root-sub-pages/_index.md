@@ -3,10 +3,16 @@ title: Aspose.Note を使用してルート ページとサブページを含む
 linktitle: Aspose.Note を使用してルート ページとサブページを含むドキュメントを作成する
 second_title: Aspose.Note .NET API
 description: Aspose.Note for .NET を使用して、階層構造を持つ動的な OneNote ドキュメントを作成する方法を学びます。
-type: docs
 weight: 11
 url: /ja/net/note-manipulation/create-documents-root-sub-pages/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Aspose.Note を使用してルート ページとサブページを含むドキュメントを作成する
+
 ## 導入
 
 Aspose.Note for .NET を使用してルート ページとサブページを含むドキュメントを作成するチュートリアルへようこそ。 Aspose.Note は、開発者が Microsoft OneNote ファイルをプログラムで操作できるようにする強力なライブラリで、OneNote ドキュメントの作成、操作、変換が可能です。
@@ -130,3 +136,9 @@ A4: Aspose.Note は主にオンプレミス開発に重点を置いています�
 ### Q5: Aspose.Note のテクニカル サポートは利用できますか?
 
 A5: はい、Aspose はフォーラムを通じて専用のテクニカル サポートを提供しており、質問したり支援を受けたりすることができます。
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

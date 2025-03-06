@@ -3,10 +3,16 @@ title: Operace s notebookem OneNote
 linktitle: Operace s notebookem OneNote
 second_title: Aspose.Note Java API
 description: Odemkněte plný potenciál Aspose.Note pro Javu pomocí našich výukových programů OneNote Notebook Operations. Poskytněte průvodce krok za krokem pro vylepšení vašich aplikací Java.
-type: docs
 weight: 28
 url: /cs/java/onenote-notebook-operations/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Operace s notebookem OneNote
+
 
 ## Úvod
 
@@ -66,3 +72,9 @@ Přečtěte si, jak načíst dokumenty z OneNote Notebook pomocí Aspose.Note pr
 Přečtěte si, jak uložit poznámkové bloky do streamů ve OneNotu pomocí Aspose.Note pro Java. Zvyšte produktivitu s efektivní správou notebooku.
 ### [Napište dokument chráněný heslem ve OneNotu – Aspose.Note](./write-password-protected-document/)
 Naučte se psát dokumenty chráněné heslem ve OneNotu pomocí Aspose.Note pro Java. Zajistěte bezpečnost pomocí snadno sledovatelných kroků.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

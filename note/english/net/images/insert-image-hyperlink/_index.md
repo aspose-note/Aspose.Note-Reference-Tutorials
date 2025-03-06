@@ -3,10 +3,16 @@ title: Insert Images with Hyperlinks in Aspose.Note
 linktitle: Insert Images with Hyperlinks in Aspose.Note
 second_title: Aspose.Note .NET API
 description: Learn how to insert images with hyperlinks in Aspose.Note for .NET effortlessly. Enhance document interactivity with clickable images.
-type: docs
 weight: 15
 url: /net/images/insert-image-hyperlink/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Insert Images with Hyperlinks in Aspose.Note
+
 ## Introduction
 
 Aspose.Note for .NET provides a powerful set of features for working with images, including the ability to insert images with hyperlinks. In this tutorial, we'll guide you through the process of inserting images with hyperlinks using Aspose.Note for .NET.
@@ -89,3 +95,10 @@ A4: Yes, you can download a free trial version of Aspose.Note for .NET from [her
 ### Q5: Where can I get support for Aspose.Note for .NET?
 
 A5: You can get support for Aspose.Note for .NET from the [Aspose.Note forums](https://forum.aspose.com/c/note/28), where you can ask questions, seek guidance, and interact with other users and experts.
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

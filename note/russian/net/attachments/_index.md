@@ -3,10 +3,16 @@ title: Вложения и извлечение файлов в документ
 linktitle: Вложения
 second_title: Aspose.Note .NET API
 description: Улучшите свои .NET-приложения с помощью Aspose.Note! Изучите руководства по прикреплению файлов, настройке значков и получению вложений для более эффективной разработки.
-type: docs
 weight: 21
 url: /ru/net/attachments/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Вложения и извлечение файлов в документах OneNote
+
 ## Введение
 
 Готовы ли вы вывести свои .NET-приложения на новый уровень? Погрузитесь в мир Aspose.Note и откройте царство возможностей. В этом подробном учебном пособии вы познакомитесь с основными функциями, уделив особое внимание прикреплению файлов, настройке значков и беспрепятственному получению прикрепленных файлов.
@@ -37,3 +43,9 @@ url: /ru/net/attachments/
 Узнайте, как программно прикреплять файлы к документам Microsoft OneNote с помощью Aspose.Note для .NET. Упростите процесс разработки с помощью этого подробного руководства.
 ### [Получить вложенные файлы с помощью Aspose.Note](./retrieve-attached-files/)
 Узнайте, как получить прикрепленные файлы из документов Microsoft OneNote с помощью Aspose.Note для .NET. Следуйте инструкциям по загрузке, получению узлов и перебору вложений.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

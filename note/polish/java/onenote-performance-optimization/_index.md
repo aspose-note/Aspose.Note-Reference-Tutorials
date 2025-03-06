@@ -3,10 +3,16 @@ title: Optymalizacja wydajności programu OneNote
 linktitle: Optymalizacja wydajności programu OneNote
 second_title: Aspose.Note API Java
 description: Zoptymalizuj wydajność eksportu OneNote za pomocą Aspose.Note Java. Dowiedz się, jak wydajnie konwertować dokumenty do różnych formatów, korzystając ze wskazówek krok po kroku zwiększających produktywność.
-type: docs
 weight: 26
 url: /pl/java/onenote-performance-optimization/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Optymalizacja wydajności programu OneNote
+
 
 ## Wstęp
 
@@ -34,3 +40,9 @@ Podsumowując, opanowanie sztuki optymalizacji wydajności eksportu OneNote za p
 Dowiedz się, jak zoptymalizować wydajność eksportu w programie OneNote przy użyciu języka Java z Aspose.Note. Efektywnie eksportuj dokumenty do różnych formatów dzięki szczegółowym wskazówkom.
 ### [Optymalizuj wydajność operacji eksportu w programie OneNote — Java](./optimize-performance-consequent-export/)
 Dowiedz się, jak zoptymalizować wydajność operacji eksportu w programie OneNote przy użyciu Aspose.Note dla języka Java. Przewodnik krok po kroku dotyczący skutecznej konwersji.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

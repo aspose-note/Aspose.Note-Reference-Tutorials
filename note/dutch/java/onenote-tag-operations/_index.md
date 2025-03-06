@@ -3,10 +3,16 @@ title: OneNote-tagbewerkingen
 linktitle: OneNote-tagbewerkingen
 second_title: Aspose.Note Java-API
 description: Ontdek de kracht van Aspose.Note voor Java. Verbeter uw OneNote-ervaring met stapsgewijze handleidingen over tagbewerkingen, het toevoegen van afbeeldingen, tabellen, tekstknooppunten en meer.
-type: docs
 weight: 33
 url: /nl/java/onenote-tag-operations/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# OneNote-tagbewerkingen
+
 ## Invoering
 
 Leer hoe u uw OneNote-ervaring kunt optimaliseren met Aspose.Note voor Java. Van het toevoegen van nieuwe afbeeldingsknooppunten tot dynamische tabelknooppunten: deze tutorialserie verbetert moeiteloos uw Java-programmeervaardigheden.
@@ -47,3 +53,9 @@ Ontdek hoe u tekstknooppunten met tags in OneNote kunt toevoegen met Aspose.Note
 Verbeter de samenwerking met Aspose.Note voor Java! Leer stap voor stap hoe u sjablonen voor dynamische vergadernotities kunt maken. Download de bibliotheek nu!
 ### [Knooppunttags ophalen in OneNote - Aspose.Note](./get-node-tags/)
 Ontdek de geheimen van OneNote met Aspose.Note voor Java. Met deze handleiding kunt u moeiteloos knooppunttags extraheren. Duik in de toekomst van documentmanipulatie!
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

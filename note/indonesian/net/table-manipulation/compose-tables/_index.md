@@ -3,10 +3,16 @@ title: Buat Tabel dengan Aspose.Note
 linktitle: Buat Tabel dengan Aspose.Note
 second_title: Aspose.Catatan .NET API
 description: Pelajari cara membuat tabel terstruktur dengan konten teks kaya menggunakan Aspose.Note untuk .NET. Tingkatkan pengorganisasian dan keterbacaan dokumen dengan mudah.
-type: docs
 weight: 11
 url: /id/net/table-manipulation/compose-tables/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Buat Tabel dengan Aspose.Note
+
 ## Perkenalan
 
 Tabel adalah komponen dasar dokumen, yang memungkinkan penyajian informasi terstruktur. Aspose.Note untuk .NET menyediakan alat canggih untuk menyusun tabel dengan mudah. Dalam tutorial ini, kami akan memandu Anda melalui proses pembuatan tabel dengan konten teks kaya menggunakan Aspose.Note.
@@ -170,3 +176,9 @@ A4: Ya, Anda dapat mengisi tabel secara dinamis dengan mengambil data dari datab
 ### Q5: Apakah dukungan teknis tersedia untuk pengguna Aspose.Note?
    
 A5: Ya, Aspose menyediakan dukungan teknis yang komprehensif melalui forum dan saluran dukungan khusus mereka.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

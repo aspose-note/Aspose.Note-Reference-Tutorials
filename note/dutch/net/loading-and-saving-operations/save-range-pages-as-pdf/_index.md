@@ -3,10 +3,16 @@ title: Bewaar paginabereik als PDF in Aspose.Note
 linktitle: Bewaar paginabereik als PDF in Aspose.Note
 second_title: Aspose.Note .NET API
 description: Leer hoe u een reeks pagina's uit OneNote-documenten opslaat als PDF-bestanden met Aspose.Note voor .NET. Inclusief stap-voor-stap handleiding.
-type: docs
 weight: 21
 url: /nl/net/loading-and-saving-operations/save-range-pages-as-pdf/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Bewaar paginabereik als PDF in Aspose.Note
+
 ## Invoering
 
 Op het gebied van .NET-ontwikkeling onderscheidt Aspose.Note zich als een veelzijdige tool voor het gemakkelijk en efficiënt verwerken van OneNote-documenten. Onder de overvloed aan functies is een van de meest gewilde functionaliteiten de mogelijkheid om een reeks pagina's op te slaan als PDF-bestand. Deze tutorial begeleidt u stap voor stap door het proces, zodat u deze mogelijkheid naadloos in uw projecten kunt integreren.
@@ -99,3 +105,9 @@ A4: Absoluut! Aspose.Note biedt uitgebreide opties voor het aanpassen van het ui
 ### V5: Waar kan ik aanvullende ondersteuning en bronnen vinden voor Aspose.Note?
 
  A5: Voor aanvullende ondersteuning, documentatie en interactie met de gemeenschap kunt u terecht op de[Aspose.Note-forum](https://forum.aspose.com/c/note/28).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

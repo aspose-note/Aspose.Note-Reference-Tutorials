@@ -3,10 +3,16 @@ title: Alkalmazza az Aspose.Note licencet a Path-ből
 linktitle: Alkalmazza az Aspose.Note licencet a Path-ből
 second_title: Aspose.Note .NET API
 description: Ismerje meg, hogyan alkalmazhat Aspose.Note licencet a .NET-alkalmazások elérési útjából. Használja ki a OneNote fájlkezelésében rejlő lehetőségeket az Aspose.Note segítségével.
-type: docs
 weight: 11
 url: /hu/net/licensing/apply-license-from-path/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Alkalmazza az Aspose.Note licencet a Path-ből
+
 ## Bevezetés
 
 Üdvözöljük átfogó oktatóanyagunkban az Aspose.Note licenc alkalmazásáról a .NET használatával! Az Aspose.Note egy hatékony API, amely lehetővé teszi a fejlesztők számára, hogy programozottan dolgozzanak a Microsoft OneNote fájlokkal, és számos funkciót tesznek lehetővé OneNote-dokumentumok létrehozásához, szerkesztéséhez és kezeléséhez. Ebben az oktatóanyagban végigvezetjük az Aspose.Note licenc alkalmazásának folyamatán a .NET-alkalmazások meghatározott útvonaláról.
@@ -98,3 +104,9 @@ license.SetLicense("Aspose.Note.lic");
 ### 5. kérdés: Kipróbálhatom az Aspose.Note-t a vásárlás előtt?
 
 5. válasz: Igen, letöltheti az Aspose.Note ingyenes próbaverzióját a webhelyükről, hogy értékelje szolgáltatásait és képességeit.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

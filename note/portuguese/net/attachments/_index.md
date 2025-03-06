@@ -3,10 +3,16 @@ title: Anexos de arquivos e recuperação em documentos do OneNote
 linktitle: Anexos
 second_title: API Aspose.Note .NET
 description: Aumente seus aplicativos .NET com Aspose.Note! Explore tutoriais sobre como anexar arquivos, definir ícones e recuperar anexos para aprimorar o desenvolvimento.
-type: docs
 weight: 21
 url: /pt/net/attachments/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Anexos de arquivos e recuperação em documentos do OneNote
+
 ## Introdução
 
 Você está pronto para levar seus aplicativos .NET para o próximo nível? Mergulhe no mundo do Aspose.Note e desbloqueie um mundo de possibilidades. Esta lista abrangente de tutoriais irá guiá-lo pelos principais recursos, concentrando-se em anexar arquivos, definir ícones e recuperar arquivos anexados sem problemas.
@@ -37,3 +43,9 @@ Aprenda como anexar arquivos e definir ícones no Aspose.Note for .NET. Aprimore
 Aprenda como anexar arquivos a documentos do Microsoft OneNote programaticamente usando Aspose.Note for .NET. Simplifique seu processo de desenvolvimento com este tutorial abrangente.
 ### [Recuperar arquivos anexados com Aspose.Note](./retrieve-attached-files/)
 Aprenda como recuperar arquivos anexados de documentos do Microsoft OneNote usando Aspose.Note for .NET. Siga as etapas para carregar, obter nós e iterar por meio de anexos.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -3,10 +3,16 @@ title: Converter bloco de notas em imagem no OneNote - Aspose.Note
 linktitle: Converter bloco de notas em imagem no OneNote - Aspose.Note
 second_title: API Java Aspose.Note
 description: Aprenda como converter cadernos em imagens no OneNote usando Aspose.Note para Java. Integre facilmente essa funcionalidade em seus aplicativos Java.
-type: docs
 weight: 12
 url: /pt/java/onenote-notebook-operations/convert-notebook-to-image/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Converter bloco de notas em imagem no OneNote - Aspose.Note
+
 ## Introdução
 
 Neste tutorial, exploraremos como converter um notebook em uma imagem no OneNote usando a biblioteca Aspose.Note para Java. A conversão de cadernos em imagens pode ser útil para diversos fins, como compartilhar notas, incorporá-las em documentos ou incorporá-las em apresentações.
@@ -94,3 +100,9 @@ A4: Sim, você pode converter em lote vários blocos de notas em imagens de form
 ### P5: Onde posso encontrar recursos adicionais e suporte para Aspose.Note?
 
  A5: Para obter mais documentação, exemplos e suporte da comunidade, visite o[Fórum Aspose.Note](https://forum.aspose.com/c/note/28) e explorar o[documentação](https://reference.aspose.com/note/java/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

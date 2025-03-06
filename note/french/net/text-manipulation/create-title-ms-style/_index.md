@@ -3,10 +3,16 @@ title: Créer un titre avec MS Style dans Aspose.Note
 linktitle: Créer un titre avec MS Style dans Aspose.Note
 second_title: API Aspose.Note .NET
 description: Découvrez comment créer des titres de style Microsoft dans Aspose.Note pour .NET. Améliorez la présentation de votre document avec ce didacticiel facile à suivre.
-type: docs
 weight: 15
 url: /fr/net/text-manipulation/create-title-ms-style/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Créer un titre avec MS Style dans Aspose.Note
+
 ## Introduction
 Cherchez-vous à améliorer votre processus de création de documents en ajoutant des titres de style Microsoft à l'aide d'Aspose.Note pour .NET ? Ce guide complet vous guidera à travers les étapes pour créer des titres avec le style MS sans effort. Aspose.Note pour .NET est un outil puissant qui permet aux développeurs de manipuler des documents OneNote par programme.
 ## Conditions préalables
@@ -80,3 +86,9 @@ Absolument, vous pouvez personnaliser davantage la page en ajoutant divers élé
 Utilisez les mécanismes de gestion des exceptions en C# pour détecter et gérer toutes les erreurs potentielles pouvant survenir lors du processus de création de document.
 ### Où puis-je trouver plus d’exemples et de documentation pour Aspose.Note pour .NET ?
  Se référer au[Aspose.Note pour la documentation .NET](https://reference.aspose.com/note/net/)pour des exemples détaillés et une documentation complète.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

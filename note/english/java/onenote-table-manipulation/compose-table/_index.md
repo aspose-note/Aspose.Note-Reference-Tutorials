@@ -3,10 +3,16 @@ title: Compose Table in OneNote - Aspose.Note
 linktitle: Compose Table in OneNote - Aspose.Note
 second_title: Aspose.Note Java API
 description: Learn how to compose tables in OneNote programmatically using Aspose.Note for Java. Step-by-step guide for efficient document creation.
-type: docs
 weight: 11
 url: /java/onenote-table-manipulation/compose-table/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Compose Table in OneNote - Aspose.Note
+
 ## Introduction
 In today's competitive business environment, effective communication and collaboration are key factors in achieving success. Aspose.Note for Java provides a powerful solution for creating and manipulating OneNote documents programmatically. In this tutorial, we will explore how to compose tables in OneNote using Aspose.Note for Java. Follow the step-by-step guide below to enhance your document creation process.
 ## Prerequisites
@@ -77,3 +83,10 @@ Yes, you can access the free trial [here](https://releases.aspose.com/).
 Visit the support forum [here](https://forum.aspose.com/c/note/28).
 ### Q: Can I obtain a temporary license?
 Yes, you can get a temporary license [here](https://purchase.aspose.com/temporary-license/).
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

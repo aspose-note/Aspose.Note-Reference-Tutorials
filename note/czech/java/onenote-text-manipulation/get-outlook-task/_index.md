@@ -3,10 +3,16 @@ title: Získejte Outlook úkol ve OneNotu - Aspose.Note
 linktitle: Získejte Outlook úkol ve OneNotu - Aspose.Note
 second_title: Aspose.Note Java API
 description: Prozkoumejte potenciál Aspose.Note pro Java při extrahování podrobností úloh aplikace Outlook z dokumentů OneNotu bez námahy. Zvyšte svůj vývoj v Javě pomocí této robustní knihovny.
-type: docs
 weight: 10
 url: /cs/java/onenote-text-manipulation/get-outlook-task/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Získejte Outlook úkol ve OneNotu - Aspose.Note
+
 ## Úvod
 Vítejte ve světě Aspose.Note for Java – výkonného nástroje, který umožňuje vývojářům Java hladce pracovat se soubory Microsoft OneNote. V tomto podrobném průvodci vás provedeme procesem extrahování informací o úkolu aplikace Outlook z dokumentu OneNote pomocí Aspose.Note for Java.
 ## Předpoklady
@@ -72,3 +78,9 @@ Odpověď: Ano, Aspose.Note for Java je kompatibilní s různými frameworky Jav
  A: Viz[Aspose.Poznámka pro dokumentaci Java](https://reference.aspose.com/note/java/) pro podrobné informace.
 ### Otázka: Jak získám dočasnou licenci pro Aspose.Note pro Java?
  A: Získejte dočasnou licenci[tady](https://purchase.aspose.com/temporary-license/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

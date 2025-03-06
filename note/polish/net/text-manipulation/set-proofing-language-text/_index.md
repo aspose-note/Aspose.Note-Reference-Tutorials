@@ -3,10 +3,16 @@ title: Ustaw język sprawdzania tekstu w Aspose.Note
 linktitle: Ustaw język sprawdzania tekstu w Aspose.Note
 second_title: Aspose.Note .NET API
 description: Odblokuj potężną manipulację tekstem za pomocą Aspose.Note dla .NET. Z łatwością ustaw język sprawdzający, korzystając ze wskazówek krok po kroku. Ulepsz swoje projekty .NET już teraz!
-type: docs
 weight: 25
 url: /pl/net/text-manipulation/set-proofing-language-text/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Ustaw język sprawdzania tekstu w Aspose.Note
+
 ## Wstęp
 Witamy w świecie Aspose.Note dla .NET! W tym obszernym przewodniku zbadamy fascynujący proces ustawiania języka sprawdzającego tekst za pomocą Aspose.Note. Niezależnie od tego, czy jesteś doświadczonym programistą, czy dopiero zaczynasz pracę z Aspose.Note, ten samouczek zapewni Ci szczegółowe informacje i instrukcje krok po kroku, które pozwolą Ci ulepszyć umiejętności manipulacji tekstem.
 ## Warunki wstępne
@@ -89,3 +95,9 @@ Absolutnie! Aspose.Note jest regularnie aktualizowany, aby zapewnić kompatybiln
  Z pewnością! Możesz uzyskać dostęp do bezpłatnej wersji próbnej Aspose.Note dla .NET[Tutaj](https://releases.aspose.com/).
 ### Masz problemy lub potrzebujesz pomocy?
  Odwiedzić[Forum wsparcia Aspose.Note](https://forum.aspose.com/c/note/28) aby nawiązać kontakt ze społecznością i uzyskać pomoc ekspertów.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

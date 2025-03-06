@@ -3,10 +3,16 @@ title: OneNote에서 출력 이미지 해상도 설정 - Aspose.Note
 linktitle: OneNote에서 출력 이미지 해상도 설정 - Aspose.Note
 second_title: Aspose.Note 자바 API
 description: Java용 Aspose.Note를 사용하여 OneNote 문서의 이미지 해상도를 조정하는 방법을 알아보세요. 쉬운 구현을 위해 단계별 가이드를 따르세요.
-type: docs
 weight: 23
 url: /ko/java/onenote-document-saving/set-output-image-resolution/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# OneNote에서 출력 이미지 해상도 설정 - Aspose.Note
+
 ## 소개
 
 Java를 사용하여 OneNote 문서 내의 이미지 해상도를 조작하려고 하시나요? Aspose.Note for Java는 이러한 작업을 위한 강력한 솔루션을 제공합니다. 이 튜토리얼에서는 Aspose.Note를 사용하여 출력 이미지 해상도를 설정하는 단계를 안내합니다.
@@ -88,3 +94,9 @@ A4: 예, Aspose.Note는 크기 조정, 자르기, 회전을 포함한 이미지 
 ### Q5: Aspose.Note 관련 쿼리에 대한 지원은 어디서 받을 수 있나요?
 
  A5: Aspose.Note 커뮤니티 포럼에서 도움을 요청할 수 있습니다.[여기](https://forum.aspose.com/c/note/28).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

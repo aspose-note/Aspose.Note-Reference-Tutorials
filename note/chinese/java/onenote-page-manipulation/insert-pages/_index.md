@@ -3,10 +3,16 @@ title: 在 OneNote 中插入页面 - Aspose.Note
 linktitle: 在 OneNote 中插入页面 - Aspose.Note
 second_title: Aspose.Note Java API
 description: 了解如何使用 Aspose.Note for Java 以编程方式将页面插入到 OneNote 文档中。带有分步说明的综合教程。
-type: docs
 weight: 16
 url: /zh/java/onenote-page-manipulation/insert-pages/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# 在 OneNote 中插入页面 - Aspose.Note
+
 ## 介绍
 
 在本教程中，我们将学习如何使用 Aspose.Note for Java 将页面插入 OneNote 文档中。
@@ -132,3 +138,9 @@ A4：是的，您可以在不同平台上使用 Aspose.Note for Java 开发应�
 ### Q5：我可以在 OneNote 中自定义插入页面的外观吗？
 
 A5：当然，Aspose.Note 提供了广泛的选项来自定义页面布局、样式和内容，以满足您的特定要求。
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

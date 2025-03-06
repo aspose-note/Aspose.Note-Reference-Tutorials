@@ -3,10 +3,16 @@ title: Adjon hozzá hiperhivatkozásokat az Aspose.Note dokumentumokhoz
 linktitle: Adjon hozzá hiperhivatkozásokat az Aspose.Note dokumentumokhoz
 second_title: Aspose.Note .NET API
 description: Ismerje meg, hogyan adhat hiperhivatkozásokat az Aspose.Note dokumentumokhoz az Aspose.Note for .NET használatával. Növelje a dokumentumok interaktivitását ezzel a lépésről lépésre mutató oktatóanyaggal.
-type: docs
 weight: 10
 url: /hu/net/hyperlinks/add-hyperlinks/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Adjon hozzá hiperhivatkozásokat az Aspose.Note dokumentumokhoz
+
 ## Bevezetés
 
 Ebből az oktatóanyagból megtudhatja, hogyan adhat hozzá hivatkozásokat az Aspose.Note dokumentumok szövegéhez a .NET keretrendszer használatával. Az Aspose.Note hatékony funkciókat kínál a OneNote-dokumentumok programozott kezeléséhez. A hiperhivatkozások hozzáadásával javíthatja a dokumentumok interaktivitását és használhatóságát, ezáltal vonzóbbá téve azokat a felhasználók számára.
@@ -131,3 +137,9 @@ Ebben az oktatóanyagban megtanulta, hogyan adhat hiperhivatkozásokat az Aspose
 ### 5. kérdés: Hozzáadhatok-e hiperhivatkozásokat programozottan az Aspose.Note API-k használatával?
 
 5. válasz: Igen, az Aspose.Note API-kat biztosít, amelyek lehetővé teszik, hogy a .NET-alkalmazásokon belül programozottan hiperhivatkozásokat adjon a szöveghez.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

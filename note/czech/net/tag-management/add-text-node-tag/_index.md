@@ -3,10 +3,16 @@ title: Přidejte textový uzel s tagem v Aspose.Note
 linktitle: Přidejte textový uzel s tagem v Aspose.Note
 second_title: Aspose.Note .NET API
 description: Naučte se přidávat textové uzly se značkami do dokumentů OneNotu pomocí Aspose.Note pro .NET.
-type: docs
 weight: 12
 url: /cs/net/tag-management/add-text-node-tag/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Přidejte textový uzel s tagem v Aspose.Note
+
 ## Úvod
 
 Aspose.Note for .NET je výkonná knihovna, která umožňuje vývojářům vytvářet, manipulovat a převádět soubory Microsoft OneNote programově pomocí rozhraní .NET. V tomto tutoriálu prozkoumáme, jak přidat textový uzel se značkou do dokumentu OneNote pomocí Aspose.Note pro .NET.
@@ -107,3 +113,9 @@ Odpověď 4: Ano, Aspose.Note pro .NET podporuje šifrování dokumentů, aby by
 ### Q5: Kde najdu další zdroje a podporu pro Aspose.Note pro .NET?
 
  A5: Můžete prozkoumat[Aspose.Note pro dokumentaci .NET](https://reference.aspose.com/note/net/) vyhledat pomoc u[Aspose.Note fórum](https://forum.aspose.com/c/note/28).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

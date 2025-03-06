@@ -3,10 +3,16 @@ title: Set Default Paragraph Style in Aspose.Note
 linktitle: Set Default Paragraph Style in Aspose.Note
 second_title: Aspose.Note .NET API
 description: Explore the power of Aspose.Note for .NET with our step-by-step guide on setting default paragraph styles. Elevate your document manipulation skills effortlessly.
-type: docs
 weight: 24
 url: /net/text-manipulation/set-default-paragraph-style/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Set Default Paragraph Style in Aspose.Note
+
 ## Introduction
 In the realm of .NET development, Aspose.Note stands out as a powerful tool for working with OneNote files. One of the essential features it offers is the ability to set default paragraph styles, providing developers with the flexibility to control the appearance of text in their documents. In this tutorial, we will delve into the process of setting default paragraph styles using Aspose.Note for .NET. Follow along as we break down each step to help you master this crucial aspect of document manipulation.
 ## Prerequisites
@@ -80,3 +86,10 @@ Yes, you can create multiple outlines or pages with distinct default paragraph s
 Yes, Aspose.Note is regularly updated to ensure compatibility with the latest .NET frameworks.
 ### Are temporary licenses available for Aspose.Note?
 Yes, you can obtain a temporary license for Aspose.Note from [here](https://purchase.aspose.com/temporary-license/).
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

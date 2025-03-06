@@ -3,10 +3,16 @@ title: Distinguer le type de nœud dans un document OneNote - Java
 linktitle: Distinguer le type de nœud dans un document OneNote - Java
 second_title: API Java Aspose.Note
 description: Découvrez comment distinguer les types de nœuds dans les documents OneNote à l'aide de Java avec Aspose.Note. Explorez le guide étape par étape et la FAQ pour une intégration transparente.
-type: docs
 weight: 20
 url: /fr/java/onenote-document-loading/distinguish-node-type/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Distinguer le type de nœud dans un document OneNote - Java
+
 ## Introduction
 
 Dans le domaine de la programmation Java, travailler avec des documents OneNote présente son propre ensemble de défis et de subtilités. Heureusement, Aspose.Note pour Java fournit une solution complète pour naviguer, manipuler et extraire les données de ces documents de manière transparente. Dans ce didacticiel, nous aborderons un aspect spécifique : distinguer les types de nœuds dans un document OneNote à l'aide de Java. À la fin de ce guide, vous aurez une solide compréhension de la façon d'identifier les différents types de nœuds et d'exploiter efficacement ces connaissances dans vos applications Java.
@@ -74,3 +80,10 @@ A3 : Absolument, Aspose.Note pour Java vous permet d'extraire facilement du text
 ### Q5 : Existe-t-il un essai gratuit disponible pour Aspose.Note pour Java ?
 
  A5 : Oui, vous pouvez explorer les fonctionnalités d'Aspose.Note pour Java avec un essai gratuit disponible sur[ce lien](https://releases.aspose.com/).
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

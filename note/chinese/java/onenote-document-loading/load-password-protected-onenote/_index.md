@@ -3,10 +3,16 @@ title: 加载受密码保护的 OneNote 文档 - Java
 linktitle: 加载受密码保护的 OneNote 文档 - Java
 second_title: Aspose.Note Java API
 description: 释放 Aspose.Note for Java 的潜力，轻松处理受密码保护的 OneNote 文档。使用 Aspose.Note 提升您的 Java 文档管理。
-type: docs
 weight: 27
 url: /zh/java/onenote-document-loading/load-password-protected-onenote/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# 加载受密码保护的 OneNote 文档 - Java
+
 ## 介绍
 
 在文档管理和操作领域，Aspose.Note for Java 成为一个强大的工具，通过强大的功能促进 OneNote 文档的无缝处理。在本教程中，我们将深入研究使用 Java 加载受密码保护的 OneNote 文档的过程，释放 Aspose.Note 轻松处理加密文件的潜力。
@@ -93,3 +99,9 @@ A4：是的，您可以在做出购买决定之前使用 Aspose.Note for Java �
 ### Q5：我可以将 Aspose.Note for Java 集成到桌面和 Web 应用程序中吗？
 
 A5：是的，Aspose.Note for Java 可以无缝集成到桌面和 Web 应用程序中，提供跨各种平台的灵活性和多功能性。
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

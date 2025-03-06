@@ -3,10 +3,16 @@ title: OneNote'ta Katı Nesneleri Tut Algoritmasını Kullanma - Aspose.Note
 linktitle: OneNote'ta Katı Nesneleri Tut Algoritmasını Kullanma - Aspose.Note
 second_title: Aspose.Note Java API'si
 description: Java'daki Katı Nesneleri Tut Algoritmasını kullanarak Aspose.Note belgelerinizdeki katı nesneleri PDF'ye dönüştürürken nasıl koruyacağınızı öğrenin.
-type: docs
 weight: 25
 url: /tr/java/onenote-document-saving/use-keep-solid-objects-algorithm/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# OneNote'ta Katı Nesneleri Tut Algoritmasını Kullanma - Aspose.Note
+
 ## giriiş
 
 Bu derste Aspose.Note for Java'da Katı Nesneleri Tut Algoritmasının nasıl kullanılacağını inceleyeceğiz. Bu algoritma, belgelerinizdeki katı nesneleri PDF formatına dönüştürürken bütünlüğünü korumak için çok değerlidir. Süreci adım adım inceleyerek her aşamada netlik ve anlayış sağlayacağız.
@@ -93,3 +99,10 @@ Bu eğitimde Aspose.Note for Java'da Katı Nesneleri Tut Algoritmasının nasıl
 ### S5: Lisansı nereden satın alabilirim?
 
  Cevap5: Aspose.Note for Java lisansını satın alabilirsiniz[Burada](https://purchase.aspose.com/buy).
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

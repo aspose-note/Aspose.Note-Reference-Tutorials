@@ -3,10 +3,16 @@ title: احفظ نطاق الصفحات بصيغة PDF في Aspose.Note
 linktitle: احفظ نطاق الصفحات بصيغة PDF في Aspose.Note
 second_title: Aspose.Note .NET API
 description: تعرف على كيفية حفظ مجموعة من الصفحات من مستندات OneNote كملفات PDF باستخدام Aspose.Note لـ .NET. وشملت البرنامج التعليمي خطوة بخطوة.
-type: docs
 weight: 21
 url: /ar/net/loading-and-saving-operations/save-range-pages-as-pdf/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# احفظ نطاق الصفحات بصيغة PDF في Aspose.Note
+
 ## مقدمة
 
 في مجال تطوير .NET، يبرز Aspose.Note كأداة متعددة الاستخدامات للتعامل مع مستندات OneNote بسهولة وكفاءة. من بين مجموعة كبيرة من الميزات، إحدى الوظائف الأكثر رواجًا هي القدرة على حفظ مجموعة من الصفحات كملف PDF. سيرشدك هذا البرنامج التعليمي خلال العملية خطوة بخطوة، مما يضمن أنه يمكنك دمج هذه الإمكانية بسلاسة في مشاريعك.
@@ -99,3 +105,9 @@ oneFile.Save(dataDir, opts);
 ### س5: أين يمكنني العثور على دعم وموارد إضافية لـ Aspose.Note؟
 
  ج5: للحصول على دعم إضافي وتوثيق وتفاعل مجتمعي، يمكنك زيارة[منتدى Aspose.Note](https://forum.aspose.com/c/note/28).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

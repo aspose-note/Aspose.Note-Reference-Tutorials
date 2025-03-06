@@ -3,10 +3,16 @@ title: Récupérer les fichiers joints avec Aspose.Note
 linktitle: Récupérer les fichiers joints avec Aspose.Note
 second_title: API Aspose.Note .NET
 description: Découvrez comment récupérer des fichiers joints à partir de documents Microsoft OneNote à l'aide d'Aspose.Note pour .NET. Suivez les étapes pour charger, obtenir des nœuds et parcourir les pièces jointes.
-type: docs
 weight: 12
 url: /fr/net/attachments/retrieve-attached-files/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Récupérer les fichiers joints avec Aspose.Note
+
 ## Introduction
 
 Dans ce didacticiel, nous allons explorer comment récupérer les fichiers joints d'un document à l'aide d'Aspose.Note pour .NET. Aspose.Note est une API puissante qui permet aux développeurs de travailler avec des fichiers Microsoft OneNote par programme. Nous décomposerons le processus en étapes simples pour le rendre facile à suivre.
@@ -90,3 +96,9 @@ A4 : Oui, vous pouvez bénéficier d'un essai gratuit d'Aspose.Note pour explore
 ### Q5 : Comment puis-je obtenir une licence temporaire pour Aspose.Note ?
 
 A5 : Vous pouvez demander une licence temporaire à Aspose pour évaluer toutes les capacités de l'API dans votre environnement de développement.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

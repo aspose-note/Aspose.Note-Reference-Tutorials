@@ -3,10 +3,16 @@ title: Manipulasi Teks di OneNote dengan Aspose.Note untuk .NET
 linktitle: Manipulasi Teks
 second_title: Aspose.Catatan .NET API
 description: Ubah dokumen OneNote Anda dengan Aspose.Note untuk .NET! Pelajari teknik manipulasi teks, mulai dari menerapkan poin dan penomoran hingga mengubah gaya.
-type: docs
 weight: 31
 url: /id/net/text-manipulation/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Manipulasi Teks di OneNote dengan Aspose.Note untuk .NET
+
 
 ## Perkenalan
 
@@ -110,3 +116,9 @@ Buka potensi Aspose.Note untuk .NET dengan panduan langkah demi langkah kami dal
 Jelajahi kekuatan Aspose.Note untuk .NET dengan panduan langkah demi langkah kami tentang pengaturan gaya paragraf default. Tingkatkan keterampilan manipulasi dokumen Anda dengan mudah.
 ### [Atur Bahasa Pemeriksaan untuk Teks di Aspose.Note](./set-proofing-language-text/)
 Buka kunci manipulasi teks yang canggih dengan Aspose.Note untuk .NET. Atur bahasa pemeriksaan dengan mudah dengan panduan langkah demi langkah. Tingkatkan proyek .NET Anda sekarang!
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

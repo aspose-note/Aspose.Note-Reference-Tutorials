@@ -3,10 +3,16 @@ title: Aspose.Note의 테이블 셀에서 텍스트 추출
 linktitle: Aspose.Note의 테이블 셀에서 텍스트 추출
 second_title: Aspose.Note .NET API
 description: .NET용 Aspose.Note의 표 셀에서 텍스트를 추출하는 방법을 알아보세요. 문서 처리 능력을 손쉽게 향상시켜 보세요.
-type: docs
 weight: 13
 url: /ko/net/table-manipulation/extract-text-cell/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Aspose.Note의 테이블 셀에서 텍스트 추출
+
 ## 소개
 
 이 튜토리얼에서는 .NET용 Aspose.Note를 사용하여 테이블 셀에서 텍스트를 추출하는 과정을 자세히 살펴보겠습니다. 표는 일반적으로 문서에서 정보를 구성하는 데 사용되며 특정 셀에서 텍스트를 추출할 수 있는 기능은 다양한 응용 프로그램에 매우 유용할 수 있습니다.
@@ -95,3 +101,9 @@ A4: 예, 요구 사항에 따라 추출 프로세스를 사용자 정의하여 �
 ### Q5: Aspose.Note는 개인용과 상업용 모두에 적합합니까?
 
 A5: 예, Aspose.Note는 개인 및 상업용 모두에 적합한 라이선스 옵션을 제공하여 유연성과 확장성을 제공합니다.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

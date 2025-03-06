@@ -3,10 +3,16 @@ title: Get Node Tags in OneNote - Aspose.Note
 linktitle: Get Node Tags in OneNote - Aspose.Note
 second_title: Aspose.Note Java API
 description: Uncover the secrets of OneNote with Aspose.Note for Java. This guide empowers you to extract node tags effortlessly. Dive into the future of document manipulation!
-type: docs
 weight: 15
 url: /java/onenote-tag-operations/get-node-tags/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Get Node Tags in OneNote - Aspose.Note
+
 ## Introduction
 Welcome to the realm of Aspose.Note for Java! If you're looking to dive deep into managing and extracting information from OneNote documents, you're in the right place. In this tutorial, we'll guide you through the process of getting node tags in OneNote using Aspose.Note for Java. By the end, you'll be equipped with the knowledge to harness the full potential of this powerful Java API.
 ## Prerequisites
@@ -81,3 +87,10 @@ Absolutely! You can access the free trial version [here](https://releases.aspose
 Explore the detailed documentation [here](https://reference.aspose.com/note/java/).
 ### How can I get support for any issues or queries?
 Head to the support forum [here](https://forum.aspose.com/c/note/28) for assistance from the Aspose community.
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -3,10 +3,16 @@ title: Aspose.Note Lisansını FileStream kullanarak uygulayın
 linktitle: Aspose.Note Lisansını FileStream kullanarak uygulayın
 second_title: Aspose.Note .NET API'si
 description: Kusursuz entegrasyon için .NET uygulamalarınızda FileStream'i kullanarak Aspose.Note lisansını nasıl uygulayacağınızı öğrenin.
-type: docs
 weight: 12
 url: /tr/net/licensing/apply-license-using-filestream/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Aspose.Note Lisansını FileStream kullanarak uygulayın
+
 ## giriiş
 
 Aspose.Note for .NET, geliştiricilerin Microsoft OneNote dosyalarıyla programlı olarak çalışmasına olanak tanıyan güçlü bir API'dir. OneNote belgelerini oluşturmanız, okumanız, değiştirmeniz veya dönüştürmeniz gerekiyorsa Aspose.Note for .NET, iş akışınızı kolaylaştıracak kapsamlı özellikler sunar. Bu eğitimde, FileStream kullanarak Aspose.Note lisansını nasıl uygulayacağınızı keşfederek uygulamanızın üretim kullanımı için uygun şekilde lisanslandığından emin olacağız.
@@ -85,3 +91,9 @@ Cevap4: Aspose.Note topluluğundan destek alabilirsiniz[forum](https://forum.asp
 ### S5: Geçici lisanslar sunuyor musunuz?
 
  Cevap5: Evet, geçici lisanslar mevcut[Burada](https://purchase.aspose.com/temporary-license/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

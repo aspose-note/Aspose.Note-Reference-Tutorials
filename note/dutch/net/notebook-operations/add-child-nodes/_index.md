@@ -3,10 +3,16 @@ title: Voeg onderliggende knooppunten toe in Aspose Note .NET
 linktitle: Voeg onderliggende knooppunten toe in Aspose Note .NET
 second_title: Aspose.Note .NET API
 description: Leer hoe u moeiteloos onderliggende knooppunten kunt toevoegen in Aspose Note .NET met deze uitgebreide tutorial. Verbeter nu uw vaardigheden op het gebied van documentmanipulatie.
-type: docs
 weight: 10
 url: /nl/net/notebook-operations/add-child-nodes/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Voeg onderliggende knooppunten toe in Aspose Note .NET
+
 ## Invoering
 
 In deze zelfstudie leren we hoe u onderliggende knooppunten kunt toevoegen in Aspose Note .NET. Het toevoegen van onderliggende knooppunten is een fundamentele handeling bij het werken met documenten, en Aspose Note .NET biedt een eenvoudige manier om deze taak te volbrengen.
@@ -89,3 +95,9 @@ Gefeliciteerd! U hebt met succes geleerd hoe u onderliggende knooppunten kunt to
 ### V5: Wordt bij Aspose.Note voor .NET documentatie meegeleverd?
 
  A5: Ja, u kunt gedetailleerde documentatie vinden[hier](https://reference.aspose.com/note/net/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

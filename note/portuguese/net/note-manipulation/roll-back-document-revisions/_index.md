@@ -3,10 +3,16 @@ title: Reverter revisões em documentos Aspose.Note
 linktitle: Reverter revisões em documentos Aspose.Note
 second_title: API Aspose.Note .NET
 description: Aprenda como gerenciar revisões de maneira eficaz em documentos Aspose.Note usando Aspose.Note for .NET. Siga um guia passo a passo para reverter as revisões sem problemas.
-type: docs
 weight: 18
 url: /pt/net/note-manipulation/roll-back-document-revisions/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Reverter revisões em documentos Aspose.Note
+
 ## Introdução
 
 No mundo do gerenciamento e edição de documentos, é crucial ter a capacidade de rastrear alterações e reverter para versões anteriores sem problemas. Aspose.Note for .NET fornece ferramentas poderosas para gerenciar revisões de forma eficaz, garantindo que você possa reverter as alterações sempre que necessário. Neste tutorial, nos aprofundaremos no processo de reversão de revisões em documentos Aspose.Note passo a passo.
@@ -99,3 +105,9 @@ R4: Sim, você pode integrar a funcionalidade de reversão em seus aplicativos e
 ### P5: O Aspose.Note fornece suporte se eu encontrar algum problema durante o processo de reversão?
 
  R5: Sim, o Aspose fornece suporte dedicado por meio de seus fóruns. Você pode visitar o[Fórum Aspose.Note](https://forum.aspose.com/c/note/28) para assistência.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

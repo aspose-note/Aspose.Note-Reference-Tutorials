@@ -3,10 +3,16 @@ title: Prozkoumejte revize stránek v dokumentech Aspose.Note
 linktitle: Prozkoumejte revize stránek v dokumentech Aspose.Note
 second_title: Aspose.Note .NET API
 description: Naučte se, jak prozkoumat revize stránek v dokumentech Aspose.Note pomocí .NET frameworku s podrobnými pokyny.
-type: docs
 weight: 14
 url: /cs/net/note-manipulation/page-revisions-exploration/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Prozkoumejte revize stránek v dokumentech Aspose.Note
+
 ## Úvod
 
 tomto tutoriálu se ponoříme do zkoumání revizí stránek v dokumentech Aspose.Note pomocí rozhraní .NET. Aspose.Note je výkonná knihovna, která umožňuje vývojářům pracovat se soubory Microsoft OneNote programově a nabízí různé funkce pro manipulaci a extrahování dat z těchto souborů.
@@ -88,3 +94,9 @@ A3: Ano, můžete si stáhnout bezplatnou zkušební verzi Aspose.Note pro .NET 
 ### Q5: Kde najdu podporu pro Aspose.Note pro .NET?
 
  A5: Podporu a zdroje najdete na[Aspose.Note fórum](https://forum.aspose.com/c/note/28).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

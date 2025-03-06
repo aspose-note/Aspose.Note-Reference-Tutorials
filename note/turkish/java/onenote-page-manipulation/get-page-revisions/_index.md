@@ -3,10 +3,16 @@ title: OneNote'ta Sayfa Revizyonlarını Alın - Aspose.Note
 linktitle: OneNote'ta Sayfa Revizyonlarını Alın - Aspose.Note
 second_title: Aspose.Note Java API'si
 description: Aspose.Note for Java'yı kullanarak OneNote'ta sayfa revizyonlarını nasıl alacağınızı öğrenin. Değişikliklerin verimli takibi için adım adım kılavuzumuzu izleyin.
-type: docs
 weight: 14
 url: /tr/java/onenote-page-manipulation/get-page-revisions/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# OneNote'ta Sayfa Revizyonlarını Alın - Aspose.Note
+
 ## giriiş
 
 OneNote, notlarınızı düzenlemek ve yönetmek için güçlü bir araçtır ancak bazen sayfalarınızda yapılan değişiklikleri ve düzeltmeleri izlemeniz gerekir. Aspose.Note for Java ile sayfa revizyonlarını programlı olarak kolayca alabilirsiniz. Bu eğitimde, Aspose.Note for Java'yı kullanarak OneNote'ta sayfa revizyonları alma sürecinde size rehberlik edeceğiz.
@@ -107,3 +113,9 @@ Cevap3: Evet, Aspose.Note for Java'yı ticari projelerde kullanmak için lisans 
 ### S5: Aspose.Note for Java'nın ücretsiz deneme sürümü mevcut mu?
 
  Cevap5: Evet, Aspose.Note for Java'nın ücretsiz deneme sürümüne şu adresten erişebilirsiniz:[İnternet sitesi](https://releases.aspose.com/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

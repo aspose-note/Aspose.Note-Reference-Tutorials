@@ -3,10 +3,16 @@ title: Anexar arquivo por caminho no OneNote com Java
 linktitle: Anexar arquivo por caminho no OneNote com Java
 second_title: API Java Aspose.Note
 description: Adicione arquivos às suas anotações do OneNote sem problemas! Aprenda como anexar por caminho em Java com Aspose.Note. Guia fácil e código incluído! #OneNote #Java #Aspose
-type: docs
 weight: 11
 url: /pt/java/onenote-java-integration/attach-file-by-path/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Anexar arquivo por caminho no OneNote com Java
+
 ## Introdução
 
 OneNote é uma ferramenta versátil para organizar e gerenciar notas e, com Aspose.Note para Java, você pode aprimorar sua funcionalidade anexando arquivos programaticamente às suas notas. Neste tutorial, orientaremos você no processo de anexar um arquivo por seu caminho no OneNote usando Java.
@@ -148,3 +154,9 @@ A4: Sim, você pode anexar arquivos a seções específicas organizando-os dentr
 ### P5: Existe um limite para o tamanho do arquivo que posso anexar?
 
 A5: Aspose.Note não impõe limites estritos ao tamanho do arquivo, mas considera as implicações de desempenho para arquivos muito grandes.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

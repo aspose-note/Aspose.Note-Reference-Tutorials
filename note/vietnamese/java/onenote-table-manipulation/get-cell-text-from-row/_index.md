@@ -3,10 +3,16 @@ title: Nhận văn bản ô từ hàng bảng trong OneNote - Aspose.Note
 linktitle: Nhận văn bản ô từ hàng bảng trong OneNote - Aspose.Note
 second_title: API Java Aspose.Note
 description: Khám phá bí mật trích xuất văn bản từ bảng OneNote trong Java bằng Aspose.Note. Hãy làm theo hướng dẫn từng bước của chúng tôi để nâng cao kỹ năng xử lý tài liệu của bạn.
-type: docs
 weight: 15
 url: /vi/java/onenote-table-manipulation/get-cell-text-from-row/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Nhận văn bản ô từ hàng bảng trong OneNote - Aspose.Note
+
 ## Giới thiệu
 Bắt tay vào cuộc hành trình vào lĩnh vực phát triển Java khi chúng tôi làm sáng tỏ quy trình trích xuất văn bản từ các hàng trong bảng OneNote bằng thư viện Aspose.Note mạnh mẽ. Hướng dẫn từng bước này sẽ trang bị cho bạn các kỹ năng để điều hướng và thao tác văn bản trong bảng một cách hiệu quả.
 ## Điều kiện tiên quyết
@@ -73,3 +79,9 @@ Tuyệt đối! Phiên bản dùng thử miễn phí đang chờ bạn[đây](ht
  Tham gia cộng đồng Aspose.Note sôi động tại[diễn đàn](https://forum.aspose.com/c/note/28) để thảo luận và hỗ trợ.
 ### Các tài liệu mẫu có sẵn cho mục đích thử nghiệm không?
 Đi sâu vào tài liệu Aspose.Note để biết kho tàng tài liệu mẫu và đoạn mã.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

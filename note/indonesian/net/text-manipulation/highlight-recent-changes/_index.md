@@ -3,10 +3,16 @@ title: Sorot Semua Perubahan Terbaru di Teks Aspose.Note
 linktitle: Sorot Semua Perubahan Terbaru di Teks Aspose.Note
 second_title: Aspose.Catatan .NET API
 description: Sempurnakan dokumen Note Anda dengan Aspose.Note untuk .NET! Pelajari cara menyorot perubahan terkini dalam teks dengan tutorial langkah demi langkah ini.
-type: docs
 weight: 19
 url: /id/net/text-manipulation/highlight-recent-changes/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Sorot Semua Perubahan Terbaru di Teks Aspose.Note
+
 ## Perkenalan
 Apakah Anda ingin menambahkan fitur dinamis dan menarik secara visual ke dokumen Note Anda menggunakan .NET? Aspose.Note untuk .NET adalah solusi ampuh yang memungkinkan Anda memanipulasi dan menyempurnakan file Note Anda dengan mulus. Dalam tutorial ini, kita akan mendalami satu aspek spesifik: menyorot semua perubahan terkini dalam teks Aspose.Note.
 ## Prasyarat
@@ -70,3 +76,9 @@ Anda dapat menggabungkan blok coba-tangkap untuk menangani pengecualian dan memb
 Sangat! Aspose.Note menyediakan berbagai fitur untuk pemformatan teks, termasuk gaya font, ukuran, dan banyak lagi.
 ### Bisakah saya mengintegrasikan solusi ini ke dalam aplikasi web?
 Ya, Anda dapat mengintegrasikan Aspose.Note untuk .NET ke dalam aplikasi web untuk meningkatkan kemampuan pemrosesan dokumen.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -3,10 +3,16 @@ title: Az oldalváltozatok kezelése a OneNote-ban – Aspose.Note
 linktitle: Az oldalváltozatok kezelése a OneNote-ban – Aspose.Note
 second_title: Aspose.Note Java API
 description: Ismerje meg, hogyan kezelheti az oldalváltozatokat a OneNote-dokumentumokban az Aspose.Note for Java használatával. Lépésről lépésre nyújt útmutatót a hatékony revíziókövetéshez és együttműködéshez.
-type: docs
 weight: 21
 url: /hu/java/onenote-page-manipulation/working-with-page-revisions/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Az oldalváltozatok kezelése a OneNote-ban – Aspose.Note
+
 ## Bevezetés
 
 A OneNote egy hatékony eszköz a jegyzetek rendszerezéséhez és kezeléséhez, de időnként a módosításokkal kell dolgoznia a változások nyomon követéséhez és a hatékony együttműködéshez. Az Aspose.Note for Java segítségével egyszerűen, programozottan kezelheti a OneNote-dokumentumok oldalváltozatait. Ez az oktatóanyag lépésről lépésre végigvezeti a folyamaton.
@@ -98,3 +104,9 @@ V: Igen, az Aspose.Note for Java segítségével testreszabhatja az oldalváltoz
 ### 5. kérdés: Hol kaphatok támogatást az Aspose.Note for Java számára?
 
  V: Az Aspose.Note for Java támogatást a következő webhelyen kaphatja meg[Aspose.Note fórum](https://forum.aspose.com/c/note/28).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

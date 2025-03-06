@@ -3,10 +3,16 @@ title: Επισύναψη αρχείου ανά διαδρομή στο OneNote 
 linktitle: Επισύναψη αρχείου ανά διαδρομή στο OneNote με Java
 second_title: Aspose.Note Java API
 description: Προσθέστε αρχεία στις σημειώσεις σας στο OneNote απρόσκοπτα! Μάθετε πώς να επισυνάπτετε κατά διαδρομή σε Java με το Aspose.Note. Εύκολος οδηγός & περιλαμβάνεται κωδικός! #OneNote #Java #Aspose
-type: docs
 weight: 11
 url: /el/java/onenote-java-integration/attach-file-by-path/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Επισύναψη αρχείου ανά διαδρομή στο OneNote με Java
+
 ## Εισαγωγή
 
 Το OneNote είναι ένα ευέλικτο εργαλείο για την οργάνωση και τη διαχείριση σημειώσεων και με το Aspose.Note για Java, μπορείτε να βελτιώσετε τη λειτουργικότητά του επισυνάπτοντας αρχεία στις σημειώσεις σας μέσω προγραμματισμού. Σε αυτό το σεμινάριο, θα σας καθοδηγήσουμε στη διαδικασία επισύναψης ενός αρχείου από τη διαδρομή του στο OneNote χρησιμοποιώντας Java.
@@ -148,3 +154,9 @@ A4: Ναι, μπορείτε να επισυνάψετε αρχεία σε συ�
 ### Ε5: Υπάρχει όριο στο μέγεθος του αρχείου που μπορώ να επισυνάψω;
 
 A5: Το Aspose.Note δεν επιβάλλει αυστηρούς περιορισμούς στο μέγεθος του αρχείου, αλλά λαμβάνει υπόψη τις επιπτώσεις απόδοσης για πολύ μεγάλα αρχεία.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

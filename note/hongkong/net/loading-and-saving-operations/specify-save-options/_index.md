@@ -3,10 +3,16 @@ title: 在 Aspose.Note 中指定儲存選項
 linktitle: 在 Aspose.Note 中指定儲存選項
 second_title: Aspose.Note .NET API
 description: 了解如何在 Aspose.Note for .NET 中指定儲存選項以自訂 OneNote 文件的輸出格式和品質。
-type: docs
 weight: 30
 url: /zh-hant/net/loading-and-saving-operations/specify-save-options/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# 在 Aspose.Note 中指定儲存選項
+
 ## 介紹
 
 在 .NET 開發領域，Aspose.Note 作為處理 OneNote 文件的強大工具脫穎而出。它提供了一套全面的功能來有效地操作和管理這些文件。使用 Aspose.Note 的一個重要方面是指定保存選項，它允許開發人員根據自己的要求自訂輸出格式和品質。
@@ -94,3 +100,9 @@ A4：Aspose.Note 旨在處理各種大小的 OneNote 文檔，從小筆記到大
 ### Q5：Aspose.Note 是否為遇到問題的開發人員提供支援和協助？
 
 A5：是的，開發者可以透過論壇或直接聯繫 Aspose 向 Aspose.Note 支援團隊尋求協助和協助，以便及時解決任何問題或疑問。
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

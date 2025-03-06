@@ -3,10 +3,16 @@ title: Aspose.Note untuk Tutorial Manajemen Tag .NET
 linktitle: Manajemen Tag
 second_title: Aspose.Catatan .NET API
 description: Master Aspose.Note dengan manajemen tag. Tambahkan gambar, tabel, node teks, dan buat catatan rapat. Ambil detail tag dan tingkatkan manipulasi dokumen.
-type: docs
 weight: 30
 url: /id/net/tag-management/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Aspose.Note untuk Tutorial Manajemen Tag .NET
+
 
 ## Perkenalan
 
@@ -49,3 +55,9 @@ Pelajari cara mengambil detail tag dari dokumen Aspose.Note menggunakan .NET. Ke
 Pelajari cara memanipulasi file Microsoft OneNote secara terprogram menggunakan Aspose.Note untuk .NET. Buka dan tutup proyek dengan tag secara efisien.
 ### [Pelaporan dengan Tag di Aspose.Note](./reporting-tags/)
 Pelajari cara menghasilkan laporan mendalam dari dokumen digital menggunakan Aspose.Note untuk .NET. Panduan langkah demi langkah disediakan.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

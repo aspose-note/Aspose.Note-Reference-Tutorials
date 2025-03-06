@@ -3,10 +3,16 @@ title: تعيين دقة صورة الإخراج في OneNote - Aspose.Note
 linktitle: تعيين دقة صورة الإخراج في OneNote - Aspose.Note
 second_title: Aspose.Note جافا API
 description: تعرف على كيفية ضبط دقة الصورة في مستندات OneNote باستخدام Aspose.Note لـ Java. اتبع دليلنا خطوة بخطوة لسهولة التنفيذ
-type: docs
 weight: 23
 url: /ar/java/onenote-document-saving/set-output-image-resolution/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# تعيين دقة صورة الإخراج في OneNote - Aspose.Note
+
 ## مقدمة
 
 هل تتطلع إلى معالجة دقة الصور داخل مستندات OneNote الخاصة بك باستخدام Java؟ يقدم Aspose.Note for Java حلاً قويًا لمثل هذه المهام. في هذا البرنامج التعليمي، سنتعرف على خطوات ضبط دقة الصورة الناتجة باستخدام Aspose.Note.
@@ -88,3 +94,9 @@ A3: Aspose.Note متوافق مع Java 1.6 أو الإصدارات الأحدث.
 ### س5: أين يمكنني الحصول على الدعم للاستعلامات المتعلقة بـ Aspose.Note؟
 
  ج5: يمكنك طلب المساعدة من منتدى مجتمع Aspose.Note[هنا](https://forum.aspose.com/c/note/28).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

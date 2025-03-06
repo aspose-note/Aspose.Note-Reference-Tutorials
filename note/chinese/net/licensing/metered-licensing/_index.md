@@ -3,10 +3,16 @@ title: 使用 Aspose.Note 进行计量许可
 linktitle: 使用 Aspose.Note 进行计量许可
 second_title: Aspose.Note .NET API
 description: 了解如何通过计量许可使用 Aspose.Note for .NET 高效管理软件许可证。优化资源利用，有效控制成本。
-type: docs
 weight: 13
 url: /zh/net/licensing/metered-licensing/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# 使用 Aspose.Note 进行计量许可
+
 ## 介绍
 
 在软件开发领域，有效管理许可证至关重要，尤其是在处理 Aspose.Note for .NET 等产品时。计量许可是一种为开发人员提供更大的灵活性和对其软件使用的控制的方法，使他们能够有效地监控和管理资源消耗。在本教程中，我们将深入研究 Aspose.Note for .NET 计量许可的复杂性，分解每个步骤以确保全面理解。
@@ -89,3 +95,9 @@ A4：计量许可可能有一定的限制，具体取决于软件供应商提供
 ### 问题 5：计量许可是否适合所有类型的软件应用程序？
 
 A5：虽然计量许可对许多软件应用程序来说都是有益的，但其适用性取决于使用模式和成本考虑等因素。
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -3,10 +3,16 @@ title: Προσθήκη ετικέτας στο OneNote - Aspose.Note
 linktitle: Προσθήκη ετικέτας στο OneNote - Aspose.Note
 second_title: Aspose.Note Java API
 description: Ανεβάστε το OneNote με το Aspose.Note για Java. Προσθέστε εύκολα ετικέτες χρησιμοποιώντας τον βήμα προς βήμα οδηγό μας. Βελτιώστε την οργάνωση και τη συνεργασία τώρα!
-type: docs
 weight: 12
 url: /el/java/onenote-tag-operations/add-tag/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Προσθήκη ετικέτας στο OneNote - Aspose.Note
+
 ## Εισαγωγή
 Θέλετε να βελτιώσετε την οργάνωση και τη συνεργασία των εγγράφων σας στο OneNote χρησιμοποιώντας Java; Το Aspose.Note για Java παρέχει μια ισχυρή λύση για την απρόσκοπτη προσθήκη ετικετών, διασφαλίζοντας ότι οι σημειώσεις σας δεν είναι μόνο ενημερωτικές αλλά και οπτικά ελκυστικές. Σε αυτό το σεμινάριο, θα σας καθοδηγήσουμε στη διαδικασία βήμα προς βήμα, ώστε να αξιοποιήσετε πλήρως τις δυνατότητες του Aspose.Note για Java.
 ## Προαπαιτούμενα
@@ -93,3 +99,9 @@ System.out.printf("File Saved: %s\n", dataDir + "AddTag_out.pdf");
  Για οποιαδήποτε απορία ή βοήθεια, επισκεφθείτε το[Aspose.Note φόρουμ](https://forum.aspose.com/c/note/28).
 ### 5. Υπάρχει δωρεάν δοκιμή διαθέσιμη;
  Ναι, μπορείτε να εξερευνήσετε μια δωρεάν δοκιμή[εδώ](https://releases.aspose.com/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

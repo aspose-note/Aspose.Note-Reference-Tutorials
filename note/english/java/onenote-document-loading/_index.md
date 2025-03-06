@@ -3,10 +3,16 @@ title: OneNote Document Loading
 linktitle: OneNote Document Loading
 second_title: Aspose.Note Java API
 description: Explore comprehensive tutorials on loading, converting, and creating OneNote documents with Aspose.Note for Java. Effortlessly enhance your document processing capabilities.
-type: docs
 weight: 25
 url: /java/onenote-document-loading/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# OneNote Document Loading
+
 
 ## Introduction
 
@@ -97,3 +103,9 @@ Learn how to use Aspose.Note for Java to load and manipulate OneNote documents e
 Learn how to load OneNote 2007 documents in Java using Aspose.Note for seamless integration.
 ### [Load Password-Protected OneNote Document - Java](./load-password-protected-onenote/)
 Learn how to load password-protected OneNote documents using Java with Aspose.Note for Java.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

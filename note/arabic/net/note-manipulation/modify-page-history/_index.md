@@ -3,10 +3,16 @@ title: تعديل سجل الصفحة في Aspose.Note
 linktitle: تعديل سجل الصفحة في Aspose.Note
 second_title: Aspose.Note .NET API
 description: تعرف على كيفية تعديل سجل الصفحة في Aspose.Note لـ .NET باستخدام هذا البرنامج التعليمي الشامل. تعزيز قدرات معالجة المستندات الخاصة بك دون عناء.
-type: docs
 weight: 15
 url: /ar/net/note-manipulation/modify-page-history/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# تعديل سجل الصفحة في Aspose.Note
+
 ## مقدمة
 
 في مجال معالجة المستندات، يظهر Aspose.Note for .NET كأداة قوية، تمكن المطورين من التعامل مع ملفات OneNote دون عناء. إحدى المهام الشائعة التي يواجهها مطورو البرامج هي تعديل سجل الصفحات داخل مستندات Aspose.Note. يوضح هذا البرنامج التعليمي العملية خطوة بخطوة، ويرشدك خلال مساحات الأسماء والمتطلبات الأساسية ومقتطفات التعليمات البرمجية الضرورية لتغيير سجل الصفحة بشكل فعال باستخدام Aspose.Note لـ .NET.
@@ -94,3 +100,10 @@ if (pageHistory.Count > 1)
 ### س5: هل يمكنني تجربة Aspose.Note لـ .NET قبل إجراء عملية الشراء؟
 
 ج5: بالتأكيد، يمكن للمطورين الاستفادة من الإصدار التجريبي المجاني من Aspose.Note لـ .NET لتقييم ميزاته ومدى ملاءمته لمشاريعهم.
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

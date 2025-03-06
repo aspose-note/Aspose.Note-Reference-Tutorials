@@ -3,10 +3,16 @@ title: Manipulasi Halaman OneNote
 linktitle: Manipulasi Halaman OneNote
 second_title: Aspose.Catatan Java API
 description: Kelola halaman konflik, buat dokumen terorganisir, dan lacak revisi di OneNote menggunakan Aspose.Note untuk Java. Tutorial langkah demi langkah untuk manajemen dokumen yang efisien.
-type: docs
 weight: 29
 url: /id/java/onenote-page-manipulation/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Manipulasi Halaman OneNote
+
 
 ## Perkenalan
 
@@ -74,3 +80,9 @@ Pelajari cara memutar kembali ke versi halaman sebelumnya di OneNote menggunakan
 Pelajari cara mengatur warna latar belakang halaman di OneNote dengan mudah menggunakan Aspose.Note untuk Java. Tingkatkan daya tarik visual dokumen Anda dengan tutorial sederhana ini.
 ### [Bekerja dengan Revisi Halaman di OneNote - Aspose.Note](./working-with-page-revisions/)
 Pelajari cara mengelola revisi halaman di dokumen OneNote menggunakan Aspose.Note untuk Java. Tutorial ini memberikan panduan langkah demi langkah untuk pelacakan revisi dan kolaborasi yang efektif.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

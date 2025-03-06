@@ -3,10 +3,16 @@ title: 修改 OneNote 中的页面历史记录 - Aspose.Note
 linktitle: 修改 OneNote 中的页面历史记录 - Aspose.Note
 second_title: Aspose.Note Java API
 description: 无缝删除、修改和添加页面历史记录条目！使用 Aspose.Note 掌握 OneNote 的分步指南和代码。 #OneNote #Java #Aspose
-type: docs
 weight: 17
 url: /zh/java/onenote-page-manipulation/modify-page-history/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# 修改 OneNote 中的页面历史记录 - Aspose.Note
+
 ## 介绍
 
 在本教程中，我们将深入研究如何使用 Aspose.Note for Java 修改 OneNote 文档中的页面历史记录。 Aspose.Note 是一个功能强大的 Java API，允许开发人员无缝地使用 OneNote 文件，从而以编程方式实现各种操作，例如创建、读取和修改这些文件。
@@ -108,3 +114,10 @@ A4：是的，Aspose.Note for Java 提供了 API 来有效地处理批量修改�
 ### 问题 5：是否有 Aspose.Note for Java 社区论坛可供我寻求帮助？
 
  A5: 是的，您可以访问[Aspose.Note 论坛](https://forum.aspose.com/c/note/28)与图书馆相关的任何帮助或疑问。
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

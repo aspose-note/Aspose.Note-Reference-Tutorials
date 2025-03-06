@@ -3,10 +3,16 @@ title: Chèn hình ảnh vào tài liệu OneNote bằng Java
 linktitle: Chèn hình ảnh vào tài liệu OneNote bằng Java
 second_title: API Java Aspose.Note
 description: Tìm hiểu cách chèn hình ảnh vào tài liệu OneNote bằng Java với thư viện Aspose.Note for Java. Hãy làm theo hướng dẫn từng bước của chúng tôi để tích hợp liền mạch.
-type: docs
 weight: 16
 url: /vi/java/onenote-hyperlinks-images/insert-image/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Chèn hình ảnh vào tài liệu OneNote bằng Java
+
 ## Giới thiệu
 
 Trong hướng dẫn này, chúng ta sẽ khám phá cách chèn hình ảnh vào tài liệu OneNote bằng Java với sự trợ giúp của Aspose.Note cho Java. Aspose.Note for Java là một thư viện mạnh mẽ cho phép các nhà phát triển làm việc với các tệp Microsoft OneNote theo chương trình, cho phép thực hiện nhiều thao tác khác nhau như tạo, đọc và thao tác với tài liệu OneNote.
@@ -120,3 +126,9 @@ Câu trả lời 4: Có, bạn có thể tải xuống phiên bản dùng thử 
 ### Câu hỏi 5: Làm cách nào tôi có thể nhận được hỗ trợ kỹ thuật cho Aspose.Note dành cho Java?
 
  Câu trả lời 5: Bạn có thể nhận hỗ trợ kỹ thuật cho Aspose.Note dành cho Java bằng cách truy cập[diễn đàn](https://forum.aspose.com/c/note/28) dành riêng cho các sản phẩm Aspose.Note.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

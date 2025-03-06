@@ -3,10 +3,16 @@ title: Microsoft OneNote Stilinde Sayfa Başlığını Ayarlama - Aspose.Note
 linktitle: Microsoft OneNote Stilinde Sayfa Başlığını Ayarlama - Aspose.Note
 second_title: Aspose.Note Java API'si
 description: Aspose.Note for Java'yı kullanarak Microsoft OneNote tarzında sayfa başlıklarını nasıl ayarlayacağınızı öğrenin. Java belgelerinizi profesyonel biçimlendirmeyle geliştirin.
-type: docs
 weight: 23
 url: /tr/java/onenote-text-manipulation/setting-page-title-in-microsoft-onenote-style/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Microsoft OneNote Stilinde Sayfa Başlığını Ayarlama - Aspose.Note
+
 ## giriiş
 Java geliştirmenin dinamik dünyasında görsel olarak çekici ve yapılandırılmış belgeler oluşturmak çok önemlidir. Java uygulamalarınızı Microsoft OneNote tarzı sayfa başlıklarıyla geliştirmek istiyorsanız Aspose.Note for Java, başvuracağınız çözümdür. Bu kapsamlı eğitimde, Aspose.Note'u kullanarak OneNote stilinde sayfa başlıklarını ayarlama sürecinde size yol göstereceğiz ve belgelerinizin profesyonel bir dokunuşla öne çıkmasını sağlayacağız.
 ## Önkoşullar
@@ -72,3 +78,9 @@ Aspose.Note, diğer Java kütüphaneleriyle sorunsuz çalışacak şekilde tasar
  Aspose.Note topluluğundan yardım isteyin:[Aspose.Note Forumu](https://forum.aspose.com/c/note/28).
 ### Deneme sürümü mevcut mu?
  Evet, Aspose.Note'un yeteneklerini ücretsiz deneme sürümüyle keşfedebilirsiniz.[Burada](https://releases.aspose.com/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

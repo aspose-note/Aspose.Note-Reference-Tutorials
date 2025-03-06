@@ -3,10 +3,16 @@ title: Преобразование блокнота в PDF с помощью п
 linktitle: Преобразование блокнота в PDF с помощью параметров в OneNote - Aspose.Note
 second_title: Aspose.Note Java API
 description: С легкостью настраивайте и экспортируйте записные книжки OneNote в PDF! Aspose.Note для Java берет на себя всю тяжелую работу. Пошаговое руководство включено! #OneNote #Java #Aspose
-type: docs
 weight: 17
 url: /ru/java/onenote-notebook-operations/convert-notebook-to-pdf-with-options/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Преобразование блокнота в PDF с помощью параметров в OneNote - Aspose.Note
+
 ## Введение
 
 В этом уроке мы углубимся в мир преобразования блокнотов в PDF с настраиваемыми параметрами с помощью Aspose.Note для Java. Aspose.Note — это мощный Java API, который позволяет разработчикам программно манипулировать документами Microsoft OneNote. Преобразование блокнотов в формат PDF является общим требованием в различных приложениях, а с помощью Aspose.Note эта задача становится упрощенной и эффективной.
@@ -90,3 +96,9 @@ A2: Aspose.Note поддерживает Microsoft OneNote 2010 и более п
 ### В5: Как я могу получить поддержку Aspose.Note?
 
  A5: Для получения любой технической помощи или вопросов вы можете посетить форум поддержки Aspose.Note.[здесь](https://forum.aspose.com/c/note/28).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

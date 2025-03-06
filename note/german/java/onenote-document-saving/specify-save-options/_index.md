@@ -3,10 +3,16 @@ title: Geben Sie Speicheroptionen in OneNote an – Aspose.Note
 linktitle: Geben Sie Speicheroptionen in OneNote an – Aspose.Note
 second_title: Aspose.Note Java API
 description: Erfahren Sie, wie Sie mit Aspose.Note für Java Speicheroptionen in OneNote festlegen. Passen Sie Seitenindex, Anzahl und Komprimierungseinstellungen mühelos an.
-type: docs
 weight: 24
 url: /de/java/onenote-document-saving/specify-save-options/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Geben Sie Speicheroptionen in OneNote an – Aspose.Note
+
 ## Einführung
 
 In diesem Tutorial erfahren Sie, wie Sie mit Aspose.Note für Java Speicheroptionen in OneNote festlegen. Aspose.Note ist eine leistungsstarke Java-Bibliothek, mit der Entwickler OneNote-Dokumente programmgesteuert erstellen, bearbeiten und konvertieren können. Mit Aspose.Note können Sie verschiedene Speicheroptionen einfach steuern, um die Ausgabe entsprechend Ihren Anforderungen anzupassen.
@@ -109,3 +115,9 @@ A4: Ja, Aspose.Note bietet APIs für die Ver- und Entschlüsselung von OneNote-D
 ### F5: Ist Aspose.Note für die kommerzielle Nutzung geeignet?
 
 A5: Ja, Aspose.Note kann durch den Erwerb einer Lizenz für kommerzielle Zwecke genutzt werden.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -3,10 +3,16 @@ title: Definir idioma de revisão de texto no OneNote - Aspose.Note
 linktitle: Definir idioma de revisão de texto no OneNote - Aspose.Note
 second_title: API Java Aspose.Note
 description: Desbloqueie o potencial do Aspose.Note para Java! Aprenda como definir perfeitamente o idioma de revisão de texto no OneNote com nosso guia passo a passo.
-type: docs
 weight: 22
 url: /pt/java/onenote-text-manipulation/set-proofing-language-for-text/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Definir idioma de revisão de texto no OneNote - Aspose.Note
+
 ## Introdução
 No mundo dinâmico do desenvolvimento de software, Aspose.Note for Java se destaca como uma ferramenta poderosa para gerenciar e manipular documentos do OneNote de forma programática. Se você deseja aprimorar seus aplicativos Java com a capacidade de definir uma linguagem de revisão de texto no OneNote, você veio ao lugar certo. Este tutorial irá guiá-lo através do processo passo a passo, garantindo que você compreenda cada conceito claramente.
 ## Pré-requisitos
@@ -67,3 +73,9 @@ R: Implemente mecanismos de tratamento de erros usando blocos try-catch para res
 R: Certamente! Certifique-se de ter a biblioteca Aspose.Note para Java configurada corretamente em seu projeto web.
 ### P: Onde posso encontrar exemplos e documentação adicionais para Aspose.Note for Java?
  R: Explore o[documentação](https://reference.aspose.com/note/java/) para recursos abrangentes.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

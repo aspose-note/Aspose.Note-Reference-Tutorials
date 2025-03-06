@@ -3,10 +3,16 @@ title: Ajouter un nœud de texte avec une balise dans OneNote - Aspose.Note
 linktitle: Ajouter un nœud de texte avec une balise dans OneNote - Aspose.Note
 second_title: API Java Aspose.Note
 description: Découvrez comment ajouter des nœuds de texte avec des balises dans OneNote à l'aide d'Aspose.Note pour Java. Facile, efficace et convivial pour les développeurs. Téléchargez la bibliothèque maintenant !
-type: docs
 weight: 13
 url: /fr/java/onenote-tag-operations/add-text-node-with-tag/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Ajouter un nœud de texte avec une balise dans OneNote - Aspose.Note
+
 ## Introduction
 Dans ce didacticiel, nous allons explorer comment ajouter un nœud de texte avec une balise dans OneNote à l'aide d'Aspose.Note pour Java. Aspose.Note est une puissante bibliothèque Java qui permet aux développeurs de travailler avec des fichiers Microsoft OneNote par programme. L'ajout de nœuds de texte avec des balises est une exigence courante dans le traitement des documents, et Aspose.Note simplifie cette tâche.
 ## Conditions préalables
@@ -121,3 +127,9 @@ R : Vous pouvez demander l'aide de la communauté Aspose.Note.[forum](https://f
  R : Oui, vous pouvez obtenir des licences temporaires[ici](https://purchase.aspose.com/temporary-license/).
 ### Q : Où puis-je trouver la documentation d'Aspose.Note pour Java ?
  R : La documentation est disponible[ici](https://reference.aspose.com/note/java/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

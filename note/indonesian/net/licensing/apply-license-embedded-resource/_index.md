@@ -3,10 +3,16 @@ title: Terapkan Lisensi Aspose.Note dari Sumber Daya Tersemat
 linktitle: Terapkan Lisensi Aspose.Note dari Sumber Daya Tersemat
 second_title: Aspose.Catatan .NET API
 description: Pelajari cara menerapkan lisensi Aspose.Note dari sumber daya yang tertanam di aplikasi .NET Anda. Ikuti panduan langkah demi langkah kami untuk integrasi yang lancar.
-type: docs
 weight: 10
 url: /id/net/licensing/apply-license-embedded-resource/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Terapkan Lisensi Aspose.Note dari Sumber Daya Tersemat
+
 ## Perkenalan
 
 Aspose.Note untuk .NET adalah API canggih yang memungkinkan pengembang bekerja dengan file Microsoft OneNote secara terprogram. Baik Anda ingin membuat, memodifikasi, atau mengonversi dokumen OneNote, Aspose.Note menyediakan serangkaian fitur lengkap untuk memenuhi kebutuhan Anda. Dalam tutorial ini, kami akan memandu proses penerapan lisensi Aspose.Note dari sumber daya yang tertanam di aplikasi .NET Anda.
@@ -86,3 +92,9 @@ A1: Tidak, Anda memerlukan lisensi yang valid untuk menggunakan Aspose.Note untu
 ### Q5: Di mana saya dapat membeli lisensi Aspose.Note?
 
  A5: Anda dapat membeli lisensi Aspose.Note[Di Sini](https://purchase.aspose.com/buy).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

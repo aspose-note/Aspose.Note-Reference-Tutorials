@@ -3,10 +3,16 @@ title: OneNote ドキュメントの操作
 linktitle: OneNote ドキュメントの操作
 second_title: Aspose.Note Java API
 description: Aspose.Note を使用して、Java で OneNote ドキュメントを作成、操作、自動化します。 Document Visitor、書式設定されたリッチ テキスト、およびリッチ テキストの作成に関するステップバイステップのチュートリアル。
-type: docs
 weight: 21
 url: /ja/java/onenote-document-manipulation/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# OneNote ドキュメントの操作
+
 
 ## 導入
 
@@ -29,3 +35,9 @@ Java と Aspose.Note を使用して、OneNote でドキュメント ビジタ�
 Aspose.Note for Java を使用して、Java でプログラム的に豊富な形式の OneNote ドキュメントを作成する方法を学びます。シームレスなドキュメントの自動化については、ステップバイステップのガイドに従ってください。
 ### [Java でシンプルなリッチ テキストを含む OneNote ドキュメントを作成する](./create-onenote-document-simple-rich-text/)
 Aspose.Note for Java を使用して、シンプルなリッチ テキストを含む OneNote ドキュメントを作成する方法を学びます。この機能を Java アプリケーションにシームレスに統合して、効率的なドキュメント管理を実現します。
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

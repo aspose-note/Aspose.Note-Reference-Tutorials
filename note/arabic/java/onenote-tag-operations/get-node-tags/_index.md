@@ -3,10 +3,16 @@ title: الحصول على علامات العقدة في OneNote - Aspose.Note
 linktitle: الحصول على علامات العقدة في OneNote - Aspose.Note
 second_title: Aspose.Note جافا API
 description: اكتشف أسرار OneNote باستخدام Aspose.Note لـ Java. يمكّنك هذا الدليل من استخراج علامات العقدة دون عناء. انغمس في مستقبل معالجة المستندات!
-type: docs
 weight: 15
 url: /ar/java/onenote-tag-operations/get-node-tags/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# الحصول على علامات العقدة في OneNote - Aspose.Note
+
 ## مقدمة
 مرحبًا بك في عالم Aspose.Note لـ Java! إذا كنت تتطلع إلى التعمق في إدارة المعلومات واستخراجها من مستندات OneNote، فأنت في المكان الصحيح. في هذا البرنامج التعليمي، سنرشدك خلال عملية الحصول على علامات العقد في OneNote باستخدام Aspose.Note لـ Java. وفي النهاية، ستكون مجهزًا بالمعرفة اللازمة لتسخير الإمكانات الكاملة لواجهة برمجة تطبيقات Java القوية هذه.
 ## المتطلبات الأساسية
@@ -81,3 +87,9 @@ for (ITag tag : richText.getTags()) {
  استكشاف الوثائق التفصيلية[هنا](https://reference.aspose.com/note/java/).
 ### كيف يمكنني الحصول على الدعم لأية مشاكل أو استفسارات؟
  توجه إلى منتدى الدعم[هنا](https://forum.aspose.com/c/note/28) للحصول على المساعدة من مجتمع Aspose.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -3,10 +3,16 @@ title: Εφαρμογή κουκκίδων σε κείμενο στο Aspose.Not
 linktitle: Εφαρμογή κουκκίδων σε κείμενο στο Aspose.Note
 second_title: Aspose.Note .NET API
 description: Μάθετε πώς να εφαρμόζετε κουκκίδες σε κείμενο στο Aspose.Note για .NET για να βελτιώσετε τα έγγραφά σας στο OneNote. Ακολουθήστε αυτόν τον οδηγό βήμα προς βήμα για αποτελεσματική μορφοποίηση.
-type: docs
 weight: 10
 url: /el/net/text-manipulation/apply-bullets-on-text/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Εφαρμογή κουκκίδων σε κείμενο στο Aspose.Note
+
 ## Εισαγωγή
 Καλώς ήρθατε σε αυτόν τον αναλυτικό οδηγό για την εφαρμογή κουκκίδων σε κείμενο χρησιμοποιώντας το Aspose.Note για .NET. Το Aspose.Note είναι μια ισχυρή βιβλιοθήκη που επιτρέπει στους προγραμματιστές να εργάζονται απρόσκοπτα με τα αρχεία Microsoft OneNote στις εφαρμογές τους .NET. Σε αυτό το σεμινάριο, θα σας καθοδηγήσουμε στη διαδικασία εφαρμογής κουκκίδων στο κείμενο, βελτιώνοντας την οπτική ελκυστικότητα των εγγράφων σας στο OneNote.
 ## Προαπαιτούμενα
@@ -86,3 +92,9 @@ Console.WriteLine("\nBullets applied successfully on a text.\nFile saved at " + 
  Ναι, μπορείτε να κάνετε λήψη μιας δωρεάν δοκιμής[εδώ](https://releases.aspose.com/).
 ### Πού μπορώ να βρω πρόσθετη υποστήριξη και πόρους;
  Μπορείτε να επισκεφτείτε το φόρουμ κοινότητας Aspose.Note[εδώ](https://forum.aspose.com/c/note/28) για υποστήριξη και συζητήσεις.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

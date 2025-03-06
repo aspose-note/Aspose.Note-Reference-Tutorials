@@ -3,10 +3,16 @@ title: Aspose.Note ドキュメントのページ数を取得する
 linktitle: Aspose.Note ドキュメントのページ数を取得する
 second_title: Aspose.Note .NET API
 description: C# を使用して Aspose.Note ドキュメントのページをカウントする方法を学びます。簡単に統合するには、ステップバイステップのガイドに従ってください。
-type: docs
 weight: 12
 url: /ja/net/note-manipulation/retrieve-number-of-pages/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Aspose.Note ドキュメントのページ数を取得する
+
 ## 導入
 
 Aspose.Note for .NET は、開発者が Microsoft OneNote ファイルをプログラムで操作できるようにする強力なライブラリです。 OneNote ドキュメントを作成、操作、変換する必要がある場合でも、Aspose.Note はタスクを合理化するための包括的な機能を提供します。このチュートリアルでは、重要な操作の 1 つである、C# を使用した Aspose.Note ドキュメントのページ数の取得について詳しく説明します。
@@ -100,3 +106,9 @@ A2: もちろん、Aspose.Note は PDF、HTML、画像などのさまざまな�
 ### Q5: Aspose.Note のテクニカル サポートを受けるにはどうすればよいですか?
 
  A5: 支援を求めたり、コミュニティに参加したりできます。[Aspose.Note サポート フォーラム](https://forum.aspose.com/c/note/28).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -3,10 +3,16 @@ title: Bifoga fil efter sökväg i Aspose.Note
 linktitle: Bifoga fil efter sökväg i Aspose.Note
 second_title: Aspose.Note .NET API
 description: Lär dig hur du bifogar filer till Microsoft OneNote-dokument programmatiskt med Aspose.Note för .NET. Förenkla din utvecklingsprocess med denna omfattande handledning.
-type: docs
 weight: 11
 url: /sv/net/attachments/attach-file-by-path/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Bifoga fil efter sökväg i Aspose.Note
+
 ## Introduktion
 
 Aspose.Note för .NET är ett kraftfullt bibliotek som gör det möjligt för utvecklare att arbeta med Microsoft OneNote-filer programmatiskt. Oavsett om du vill skapa, redigera, konvertera eller manipulera OneNote-dokument, erbjuder Aspose.Note för .NET omfattande funktionalitet för att effektivisera din utvecklingsprocess.
@@ -147,3 +153,9 @@ S3: Ja, du måste skaffa en licens för kommersiell användning av Aspose.Note f
 ### F5: Var kan jag söka support för Aspose.Note för .NET?
 
  S5: Du kan söka stöd från Aspose.Notes communityforum[här](https://forum.aspose.com/c/note/28).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

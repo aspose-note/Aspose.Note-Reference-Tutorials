@@ -3,10 +3,16 @@ title: Styly OneNotu
 linktitle: Styly OneNotu
 second_title: Aspose.Note Java API
 description: Objevte umění úpravy stylů textu OneNote pomocí Aspose.Note pro Java. Naučte se měnit barvu, velikost a zvýraznění písma v našich výukových programech krok za krokem.
-type: docs
 weight: 31
 url: /cs/java/onenote-styles/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Styly OneNotu
+
 
 ## Úvod
 
@@ -36,3 +42,9 @@ Ponořte se do světa stylů OneNote, vyzbrojeni znalostmi a odbornými znalostm
 Přečtěte si, jak změnit styl textu ve OneNotu pomocí Aspose.Note pro Javu. Bez námahy upravte barvu, velikost a zvýraznění písma.
 ### [Nastavit výchozí styl odstavce ve OneNotu – Aspose.Note](./set-default-paragraph-style/)
 Přečtěte si, jak nastavit výchozí styly odstavců ve OneNotu pomocí Aspose.Note pro Java. Postupujte podle našeho podrobného průvodce pro efektivní formátování textu ve vašich aplikacích Java.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

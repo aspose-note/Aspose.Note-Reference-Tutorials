@@ -3,10 +3,16 @@ title: Aspose.Note الترخيص مع جافا
 linktitle: Aspose.Note الترخيص مع جافا
 second_title: Aspose.Note جافا API
 description: اكتشف فن إدارة التراخيص المقيدة لـ OneNote في Java باستخدام Aspose.Note. التحكم في الاستخدام بشكل فعال ومراقبة الاعتمادات وتحسين التكاليف.
-type: docs
 weight: 24
 url: /ar/java/licensing-java/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Aspose.Note الترخيص مع جافا
+
 ## مقدمة
 
 هل أنت مستعد للشروع في رحلة إلى عالم Aspose.Note لـ Java؟ في هذا الدليل الشامل، سنتعمق في تعقيدات إدارة التراخيص المقيدة لـ OneNote في Java. دعنا نستكشف مشهد الترخيص باستخدام Aspose.Note، لنكشف الألغاز ونزودك بالمعرفة اللازمة لاستخدامها بفعالية.
@@ -40,3 +46,9 @@ url: /ar/java/licensing-java/
 ## Aspose.Note الترخيص مع دروس جافا
 ### [إدارة الترخيص المحدود لـ OneNote في Java](./manage-metered-license/)
 تعرف على كيفية إدارة التراخيص المقيدة لـ OneNote في Java باستخدام مكتبة Aspose.Note. التحكم في الاستخدام ومراقبة الاعتمادات وتحسين التكاليف بكفاءة.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -3,10 +3,16 @@ title: قم بتحميل مستند OneNote إلى Aspose.Note باستخدام 
 linktitle: قم بتحميل مستند OneNote إلى Aspose.Note باستخدام PdfSaveOptions
 second_title: Aspose.Note جافا API
 description: تعرف على كيفية استخدام Aspose.Note لـ Java لتحميل مستندات OneNote وتحويلها إلى تنسيق PDF دون عناء. قم بتبسيط مهام تحويل المستندات الخاصة بك باستخدام Aspose.Note.
-type: docs
 weight: 23
 url: /ar/java/onenote-document-loading/load-pdf-save-options/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# قم بتحميل مستند OneNote إلى Aspose.Note باستخدام PdfSaveOptions
+
 ## مقدمة
 
 مرحبًا بك في هذا الدليل الشامل حول استخدام Aspose.Note لـ Java! في هذا البرنامج التعليمي، سنستكشف كيفية استخدام Aspose.Note لتحميل مستندات OneNote وحفظها كملفات PDF باستخدام PdfSaveOptions. Aspose.Note هي مكتبة Java قوية تتيح للمطورين العمل مع ملفات Microsoft OneNote بسلاسة. بحلول نهاية هذا البرنامج التعليمي، سيكون لديك فهم واضح لكيفية دمج Aspose.Note في مشاريع Java الخاصة بك وإجراء تحويلات المستندات دون عناء.
@@ -83,3 +89,9 @@ oneFile.save(dataDir + "LoadDocIntoAsposeNoteUsingPdfsaveoptions_out.pdf", new P
 ### س5: أين يمكنني الحصول على المساعدة أو الدعم بخصوص Aspose.Note؟
 
  ج5: للحصول على أي مساعدة أو استفسارات تتعلق بـ Aspose.Note، يمكنك زيارة الموقع[منتدى الدعم](https://forum.aspose.com/c/note/28).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

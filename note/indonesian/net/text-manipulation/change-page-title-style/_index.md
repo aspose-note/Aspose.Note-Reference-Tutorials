@@ -3,10 +3,16 @@ title: Ubah Gaya Judul Halaman di Aspose.Note
 linktitle: Ubah Gaya Judul Halaman di Aspose.Note
 second_title: Aspose.Catatan .NET API
 description: Ubah dokumen .NET Anda dengan Aspose.Note! Pelajari cara mengubah gaya judul halaman dengan mudah. Tingkatkan estetika dalam beberapa langkah sederhana.
-type: docs
 weight: 13
 url: /id/net/text-manipulation/change-page-title-style/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Ubah Gaya Judul Halaman di Aspose.Note
+
 ## Perkenalan
 Apakah Anda ingin meningkatkan daya tarik visual dokumen .NET Anda dengan gaya judul halaman dinamis? Aspose.Note untuk .NET menawarkan solusi yang mulus, memungkinkan Anda dengan mudah mengubah gaya judul halaman Anda. Dalam tutorial ini, kami akan memandu Anda melalui prosesnya, langkah demi langkah, memastikan bahwa Anda dapat meningkatkan estetika dokumen Anda tanpa kesulitan.
 ## Prasyarat
@@ -70,3 +76,9 @@ Selamat! Anda telah berhasil mempelajari cara mengubah gaya judul halaman di Asp
  Anda dapat membeli lisensi untuk Aspose.Note[Di Sini](https://purchase.aspose.com/buy).
 ### Apakah saya memerlukan lisensi sementara untuk tujuan pengujian?
  Ya, jika Anda menguji Aspose.Note, Anda bisa mendapatkan lisensi sementara[Di Sini](https://purchase.aspose.com/temporary-license/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

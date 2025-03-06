@@ -1,12 +1,17 @@
 ---
 title: Komplexní návody a příklady Aspose.Note pro .NET
 linktitle: Aspose.Note pro .NET výukové programy
-type: docs
 weight: 10
 url: /cs/net/
 description: Master Aspose.Note pro .NET s komplexními návody! Ponořte se do příloh, hypertextových odkazů, obrázků a dalších. Vylepšete manipulaci s dokumenty OneNotu.
-is_root: true
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Komplexní návody a příklady Aspose.Note pro .NET
+
 ## Úvod
 
 Jste připraveni vylepšit svou hru na manipulaci s dokumenty OneNote? Aspose.Note for .NET otevírá dveře do světa možností a my jsme pro vás připravili komplexní návody a příklady. Vydejte se na cestu vylepšeného vývoje dokumentů, od složitosti licencování po pokročilou manipulaci s textem.
@@ -97,3 +102,9 @@ Vytvářejte vizuálně přitažlivé dokumenty s Aspose.Note pro .NET! Prozkoum
 Master Aspose.Note se správou značek. Přidejte obrázky, tabulky, textové uzly a generujte poznámky ze schůzek. Získejte podrobnosti o značkách a vylepšete manipulaci s dokumenty.
 ### [Manipulace s textem](./text-manipulation/)
 Transformujte své dokumenty OneNote pomocí Aspose.Note pro .NET! Naučte se techniky manipulace s textem, od použití odrážek a číslování až po změnu stylů.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

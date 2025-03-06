@@ -3,10 +3,16 @@ title: Aplicar licença Aspose.Note do recurso incorporado
 linktitle: Aplicar licença Aspose.Note do recurso incorporado
 second_title: API Aspose.Note .NET
 description: Aprenda como aplicar a licença Aspose.Note a partir de um recurso incorporado em seu aplicativo .NET. Siga nosso guia passo a passo para uma integração perfeita.
-type: docs
 weight: 10
 url: /pt/net/licensing/apply-license-embedded-resource/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Aplicar licença Aspose.Note do recurso incorporado
+
 ## Introdução
 
 Aspose.Note for .NET é uma API poderosa que permite aos desenvolvedores trabalhar com arquivos do Microsoft OneNote programaticamente. Esteja você procurando criar, modificar ou converter documentos do OneNote, o Aspose.Note oferece um conjunto abrangente de recursos para atender às suas necessidades. Neste tutorial, percorreremos o processo de aplicação de uma licença Aspose.Note a partir de um recurso incorporado em seu aplicativo .NET.
@@ -86,3 +92,9 @@ A1: Não, você precisa de uma licença válida para usar o Aspose.Note for .NET
 ### Q5: Onde posso comprar licenças Aspose.Note?
 
  A5: Você pode comprar licenças Aspose.Note[aqui](https://purchase.aspose.com/buy).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

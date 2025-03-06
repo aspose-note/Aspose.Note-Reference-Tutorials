@@ -3,10 +3,16 @@ title: Maak een tabel met vergrendelde kolommen in OneNote - Aspose.Note
 linktitle: Maak een tabel met vergrendelde kolommen in OneNote - Aspose.Note
 second_title: Aspose.Note Java-API
 description: Verbeter uw OneNote-ervaring met Aspose.Note voor Java. Leer hoe u tabellen met vergrendelde kolommen maakt met behulp van een stapsgewijze handleiding. Download nu uw gratis proefversie!
-type: docs
 weight: 12
 url: /nl/java/onenote-table-manipulation/create-table-with-locked-columns/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Maak een tabel met vergrendelde kolommen in OneNote - Aspose.Note
+
 ## Invoering
 OneNote is een krachtig hulpmiddel voor het organiseren van informatie, en Aspose.Note voor Java verbetert de mogelijkheden ervan door een naadloze manier te bieden om tabellen met vergrendelde kolommen te maken. In deze zelfstudie begeleiden we u bij het gebruik van Aspose.Note voor Java om een tabel met vergrendelde kolommen in OneNote te maken.
 ## Vereisten
@@ -90,3 +96,9 @@ Absoluut! Aspose.Note voor Java biedt uitgebreide opties voor het aanpassen van 
  Bezoek de[Aspose.Note-forum](https://forum.aspose.com/c/note/28) voor ondersteuning en gemeenschapsdiscussies.
 ### Hoe kan ik een tijdelijke licentie verkrijgen voor Aspose.Note voor Java?
  Bezoek[deze link](https://purchase.aspose.com/temporary-license/) om een tijdelijke licentie voor testdoeleinden te verkrijgen.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

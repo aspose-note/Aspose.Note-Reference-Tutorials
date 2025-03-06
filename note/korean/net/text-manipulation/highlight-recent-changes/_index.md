@@ -3,10 +3,16 @@ title: Aspose.Note 텍스트의 모든 최근 변경 사항을 강조 표시합�
 linktitle: Aspose.Note 텍스트의 모든 최근 변경 사항을 강조 표시합니다.
 second_title: Aspose.Note .NET API
 description: .NET용 Aspose.Note로 노트 문서를 강화하세요! 이 단계별 튜토리얼을 통해 텍스트의 최근 변경 사항을 강조하는 방법을 알아보세요.
-type: docs
 weight: 19
 url: /ko/net/text-manipulation/highlight-recent-changes/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Aspose.Note 텍스트의 모든 최근 변경 사항을 강조 표시합니다.
+
 ## 소개
 .NET을 사용하여 Note 문서에 동적이고 시각적으로 매력적인 기능을 추가하고 싶으십니까? Aspose.Note for .NET은 노트 파일을 원활하게 조작하고 향상시킬 수 있는 강력한 솔루션입니다. 이 튜토리얼에서는 Aspose.Note 텍스트의 모든 최근 변경 사항을 강조하는 특정 측면을 살펴보겠습니다.
 ## 전제조건
@@ -70,3 +76,9 @@ try-catch 블록을 통합하여 예외를 처리하고 원활한 사용자 환�
 전적으로! Aspose.Note는 글꼴 스타일, 크기 등을 포함하여 텍스트 서식을 위한 광범위한 기능을 제공합니다.
 ### 이 솔루션을 웹 애플리케이션에 통합할 수 있나요?
 예, Aspose.Note for .NET을 웹 애플리케이션에 통합하여 문서 처리 기능을 향상시킬 수 있습니다.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

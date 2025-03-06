@@ -3,10 +3,16 @@ title: Oldalak beszúrása a OneNote-ba – Aspose.Note
 linktitle: Oldalak beszúrása a OneNote-ba – Aspose.Note
 second_title: Aspose.Note Java API
 description: Ismerje meg, hogyan illeszthet be oldalakat a OneNote dokumentumokba programozottan az Aspose.Note for Java használatával. Átfogó oktatóanyag lépésről lépésre.
-type: docs
 weight: 16
 url: /hu/java/onenote-page-manipulation/insert-pages/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Oldalak beszúrása a OneNote-ba – Aspose.Note
+
 ## Bevezetés
 
 Ebből az oktatóanyagból megtanuljuk, hogyan lehet oldalakat beszúrni egy OneNote-dokumentumba az Aspose.Note for Java használatával.
@@ -132,3 +138,9 @@ Ebben az oktatóanyagban megtanultuk, hogyan lehet oldalakat beszúrni egy OneNo
 ### 5. kérdés: Testreszabhatom a beszúrt oldalak megjelenését a OneNote-ban?
 
 5. válasz: Természetesen az Aspose.Note kiterjedt lehetőségeket kínál az oldalelrendezések, stílusok és tartalom testreszabására, hogy megfeleljenek az Ön egyedi igényeinek.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

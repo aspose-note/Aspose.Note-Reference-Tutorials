@@ -3,10 +3,16 @@ title: Интеграция задач и Outlook
 linktitle: Интеграция задач и Outlook
 second_title: Aspose.Note Java API
 description: Раскройте потенциал Aspose.Note Java с помощью наших руководств по интеграции задач Outlook в OneNote. Совершенствуйте свои навыки обработки документов с помощью наших руководств.
-type: docs
 weight: 35
 url: /ru/java/task-and-outlook-integration/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Интеграция задач и Outlook
+
 
 ## Введение
 
@@ -38,3 +44,9 @@ Aspose.Note для Java — это не просто инструмент; эт�
 ## Учебные пособия по интеграции задач и Outlook
 ### [Получить задачу Outlook в OneNote — Aspose.Note](./get-outlook-task/)
 Исследуйте возможности Aspose.Note для Java, позволяющие легко извлекать задачи Outlook из OneNote. Следуйте нашему пошаговому руководству и расширьте свои возможности обработки документов.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

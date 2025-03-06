@@ -3,10 +3,16 @@ title: OneNote 문서의 표에서 행 텍스트 추출 - Aspose.Note
 linktitle: OneNote 문서의 표에서 행 텍스트 추출 - Aspose.Note
 second_title: Aspose.Note 자바 API
 description: Java용 Aspose.Note를 사용하여 OneNote 테이블에서 행 텍스트를 손쉽게 추출하는 방법을 알아보세요. 원활한 통합을 위한 단계별 가이드를 따르세요.
-type: docs
 weight: 13
 url: /ko/java/onenote-table-manipulation/extract-row-text-from-table/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# OneNote 문서의 표에서 행 텍스트 추출 - Aspose.Note
+
 ## 소개
 Java용 Aspose.Note를 사용하여 OneNote 문서의 테이블에서 행 텍스트를 추출하는 방법에 대한 포괄적인 튜토리얼에 오신 것을 환영합니다. Aspose.Note는 개발자가 Microsoft OneNote 파일을 원활하게 사용할 수 있게 해주는 강력한 Java 라이브러리입니다. 이 자습서에서는 프로세스를 단계별로 안내하여 OneNote 문서의 테이블에서 행 텍스트를 효율적으로 추출하는 방법을 보여줍니다.
 ## 전제조건
@@ -74,3 +80,9 @@ OneNote 문서의 각 테이블에 대해 이 단계를 반복하면 행 텍스�
  임시 라이센스를 받으십시오.[이 링크](https://purchase.aspose.com/temporary-license/).
 ### Aspose.Note for Java를 사용하기 위한 특정 시스템 요구 사항이 있나요?
 자세한 시스템 요구 사항은 설명서를 참조하세요.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

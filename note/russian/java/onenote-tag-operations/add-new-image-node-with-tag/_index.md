@@ -3,10 +3,16 @@ title: Добавить новый узел изображения с тегом
 linktitle: Добавить новый узел изображения с тегом в OneNote — Aspose.Note
 second_title: Aspose.Note Java API
 description: Узнайте, как добавить новый узел изображения с тегом в OneNote с помощью Aspose.Note для Java. Совершенствуйте свои навыки программирования на Java без особых усилий.
-type: docs
 weight: 10
 url: /ru/java/onenote-tag-operations/add-new-image-node-with-tag/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Добавить новый узел изображения с тегом в OneNote — Aspose.Note
+
 ## Введение
 В области программирования на Java Aspose.Note выделяется как мощный инструмент для простой обработки документов OneNote. Если вы хотите улучшить свои навыки и научиться добавлять новый узел изображения с тегом в OneNote с помощью Aspose.Note, вы попали по адресу. Это пошаговое руководство проведет вас через весь процесс, гарантируя, что вы полностью поймете каждую концепцию.
 ## Предварительные условия
@@ -96,3 +102,9 @@ doc.save(dataDir + "AddNewImageNodeWithTag_out.pdf", SaveFormat.Pdf);
  Посетите форум сообщества[здесь](https://forum.aspose.com/c/note/28) для поддержки.
 ### Нужна ли мне временная лицензия?
  При необходимости вы можете получить временную лицензию.[здесь](https://purchase.aspose.com/temporary-license/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

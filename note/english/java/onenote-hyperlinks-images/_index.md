@@ -3,10 +3,16 @@ title: OneNote Hyperlinks and Images
 linktitle: OneNote Hyperlinks and Images
 second_title: Aspose.Note Java API
 description: Enhance your OneNote experience with Aspose.Note for Java tutorials. Learn to add hyperlinks, insert images, and extract image info seamlessly with Java development.
-type: docs
 weight: 22
 url: /java/onenote-hyperlinks-images/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# OneNote Hyperlinks and Images
+
 
 ## Introduction
 
@@ -48,3 +54,9 @@ Learn how to extract images from OneNote documents using Java with Aspose.Note l
 Learn how to extract image info from OneNote documents using Java with Aspose.Note. Easy steps for developers.
 ### [Insert an Image in OneNote Document with Java](./insert-image/)
 Learn how to insert images into OneNote documents using Java with Aspose.Note for Java library. Follow our step-by-step guide for seamless integration.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

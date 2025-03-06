@@ -3,10 +3,16 @@ title: Sorszöveg kibontása a OneNote-dokumentum táblázatából – Aspose.No
 linktitle: Sorszöveg kibontása a OneNote-dokumentum táblázatából – Aspose.Note
 second_title: Aspose.Note Java API
 description: Az Aspose.Note for Java segítségével megtanulhatja, hogyan bontsa ki könnyedén sorszövegeket OneNote-táblázatokból. Kövesse lépésenkénti útmutatónkat a zökkenőmentes integráció érdekében.
-type: docs
 weight: 13
 url: /hu/java/onenote-table-manipulation/extract-row-text-from-table/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Sorszöveg kibontása a OneNote-dokumentum táblázatából – Aspose.Note
+
 ## Bevezetés
 Üdvözöljük ebben az átfogó oktatóanyagban, amely az Aspose.Note for Java segítségével sorszöveg kinyerésére szolgál a OneNote dokumentumok táblázataiból. Az Aspose.Note egy hatékony Java-könyvtár, amely lehetővé teszi a fejlesztők számára, hogy zökkenőmentesen dolgozzanak a Microsoft OneNote fájlokkal. Ebben az oktatóanyagban lépésről lépésre végigvezetjük a folyamaton, bemutatva, hogyan lehet hatékonyan kinyerni a sorok szövegét a OneNote-dokumentumok táblázataiból.
 ## Előfeltételek
@@ -74,3 +80,9 @@ Igen, felfedezheti az Aspose.Note ingyenes próbaverzióját a címen[ez a link]
  Szerezzen ideiglenes engedélyt innen[ez a link](https://purchase.aspose.com/temporary-license/).
 ### Vannak speciális rendszerkövetelmények az Aspose.Note for Java használatához?
 A részletes rendszerkövetelményeket a dokumentációban találja.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

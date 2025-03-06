@@ -3,10 +3,16 @@ title: Få information om sidor i OneNote - Aspose.Note
 linktitle: Få information om sidor i OneNote - Aspose.Note
 second_title: Aspose.Note Java API
 description: Upptäck sidhemligheter i dina OneNote-dokument! Extrahera revisioner, skapelsetider och mer med Aspose.Note. Steg-för-steg guide & kod ingår! #OneNote #Java #Aspose
-type: docs
 weight: 12
 url: /sv/java/onenote-page-manipulation/get-information-about-pages/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Få information om sidor i OneNote - Aspose.Note
+
 ## Introduktion
 
 den här handledningen kommer vi att guida dig genom processen att extrahera information om sidor i OneNote med Aspose.Note för Java. Aspose.Note är ett kraftfullt API som låter dig arbeta med Microsoft OneNote-dokument programmatiskt. Oavsett om du behöver komma åt sidrevisioner, skapelsetider, titlar eller författare, förenklar Aspose.Note uppgiften med sitt intuitiva gränssnitt.
@@ -90,3 +96,9 @@ S4: Ja, Aspose tillhandahåller dedikerad teknisk support för att hjälpa utvec
 ### F5: Finns det en testversion tillgänglig för Aspose.Note för Java?
 
  S5: Ja, du kan ladda ner en gratis testversion av Aspose.Note för Java från[här](https://releases.aspose.com/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

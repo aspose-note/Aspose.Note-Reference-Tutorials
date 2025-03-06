@@ -3,10 +3,16 @@ title: Tạo tài liệu OneNote với văn bản đa dạng thức đơn giản
 linktitle: Tạo tài liệu OneNote với văn bản đa dạng thức đơn giản trong Java
 second_title: API Java Aspose.Note
 description: Tìm hiểu cách tạo tài liệu OneNote có văn bản đa dạng thức bằng Aspose.Note Java. Tích hợp chức năng này vào ứng dụng Java của bạn để quản lý tài liệu hiệu quả.
-type: docs
 weight: 12
 url: /vi/java/onenote-document-manipulation/create-onenote-document-simple-rich-text/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Tạo tài liệu OneNote với văn bản đa dạng thức đơn giản trong Java
+
 ## Giới thiệu
 
 Trong thời đại kỹ thuật số ngày nay, nhu cầu quản lý và xử lý tài liệu một cách hiệu quả là điều tối quan trọng. Aspose.Note for Java nổi lên như một công cụ mạnh mẽ cho phép các nhà phát triển làm việc liền mạch với các tài liệu OneNote trong các ứng dụng Java. Hướng dẫn này nhằm mục đích cung cấp hướng dẫn toàn diện về cách tạo tài liệu OneNote với văn bản đa dạng thức đơn giản bằng Aspose.Note cho Java.
@@ -164,3 +170,9 @@ Câu trả lời 4: Có, Aspose.Note for Java có thể được tích hợp li�
 ### Câu hỏi 5: Aspose.Note for Java có cung cấp tài liệu và hỗ trợ toàn diện không?
 
  Câu trả lời 5: Hoàn toàn có thể, bạn có thể tìm thấy tài liệu chi tiết và hỗ trợ riêng cho Aspose.Note dành cho Java trên[diễn đàn hỗ trợ](https://forum.aspose.com/c/note/28).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

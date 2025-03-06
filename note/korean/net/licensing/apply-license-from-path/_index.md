@@ -3,10 +3,16 @@ title: 경로에서 Aspose.Note 라이센스 적용
 linktitle: 경로에서 Aspose.Note 라이센스 적용
 second_title: Aspose.Note .NET API
 description: .NET 애플리케이션의 경로에서 Aspose.Note 라이선스를 적용하는 방법을 알아보세요. Aspose.Note를 사용하여 OneNote 파일 조작의 잠재력을 최대한 활용하세요.
-type: docs
 weight: 11
 url: /ko/net/licensing/apply-license-from-path/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# 경로에서 Aspose.Note 라이센스 적용
+
 ## 소개
 
 .NET을 사용하여 경로에서 Aspose.Note 라이센스를 적용하는 방법에 대한 포괄적인 튜토리얼에 오신 것을 환영합니다! Aspose.Note는 개발자가 Microsoft OneNote 파일을 프로그래밍 방식으로 작업하여 OneNote 문서를 생성, 편집 및 조작하기 위한 광범위한 기능을 사용할 수 있도록 하는 강력한 API입니다. 이 튜토리얼에서는 .NET 애플리케이션의 지정된 경로에서 Aspose.Note 라이선스를 적용하는 과정을 안내합니다.
@@ -98,3 +104,9 @@ A4: 예, Aspose는 개발자가 제품을 효과적으로 사용할 수 있도�
 ### Q5: 구매하기 전에 Aspose.Note를 사용해 볼 수 있나요?
 
 A5: 예, 해당 웹 사이트에서 Aspose.Note의 무료 평가판을 다운로드하여 기능을 평가할 수 있습니다.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

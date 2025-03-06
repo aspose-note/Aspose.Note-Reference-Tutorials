@@ -3,10 +3,16 @@ title: 在 OneNote 中使用指定字体子系统保存
 linktitle: 在 OneNote 中使用指定字体子系统保存
 second_title: Aspose.Note Java API
 description: 了解如何通过 Aspose.Note 在 Java 中使用指定字体子系统保存 OneNote 文档。轻松确保跨平台的字体表示一致。
-type: docs
 weight: 22
 url: /zh/java/onenote-document-saving/save-using-specified-fonts-subsystem/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# 在 OneNote 中使用指定字体子系统保存
+
 ## 介绍
 
 Aspose.Note for Java 提供了处理 OneNote 文档的强大功能。处理此类文档时的一项常见要求是确保正确维护字体，尤其是当文档要导出或保存为不同格式（如 PDF）时。本教程将指导您完成保存 OneNote 文档的过程，同时指定字体子系统，确保在不同平台上一致且准确地表示文本。
@@ -152,3 +158,9 @@ A4：是的，您可以使用 Aspose.Note for Java 自定义字体属性，例�
 ### Q5：Aspose.Note for Java 有试用版吗？
 
 A5：是的，您可以从网站上获得 Aspose.Note for Java 的免费试用版。
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

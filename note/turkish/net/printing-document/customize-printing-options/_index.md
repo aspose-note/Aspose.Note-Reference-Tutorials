@@ -3,10 +3,16 @@ title: Aspose.Note Yazdırma Seçenekleri ile Yazdırmayı Özelleştirin
 linktitle: Aspose.Note Yazdırma Seçenekleri ile Yazdırmayı Özelleştirin
 second_title: Aspose.Note .NET API'si
 description: Aspose.Note for .NET ile belge yazdırmayı nasıl özelleştireceğinizi öğrenin. Optimum çıktılar için ayarlara ince ayar yapın.
-type: docs
 weight: 11
 url: /tr/net/printing-document/customize-printing-options/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Aspose.Note Yazdırma Seçenekleri ile Yazdırmayı Özelleştirin
+
 ## giriiş
 
 Aspose.Note for .NET ile belgelerin yazdırılması, yazdırma seçenekleri kullanılarak özel gereksinimleri karşılayacak şekilde uyarlanabilir. Bu eğitimde Aspose.Note tarafından sağlanan çeşitli seçenekleri kullanarak yazdırmayı nasıl özelleştirebileceğimizi keşfedeceğiz. Yazıcı ayarlarını değiştirmeniz, çözünürlükleri ayarlamanız veya sayfa bölme algoritmaları tanımlamanız gerektiğinde Aspose.Note, istediğiniz yazdırma sonuçlarına ulaşmanız için esneklik sunar.
@@ -95,3 +101,9 @@ Cevap4: Aspose.Note, .NET çerçevesiyle uyumlu çok çeşitli yazıcılara yazd
 ### S5: Aspose.Note'u kullanarak yazdırma görevlerini otomatikleştirebilir miyim?
 
 Cevap5: Evet, Aspose.Note, geliştiricilerin yazdırma seçeneklerini .NET uygulamalarına entegre ederek yazdırma görevlerini otomatikleştirmelerine olanak tanır.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

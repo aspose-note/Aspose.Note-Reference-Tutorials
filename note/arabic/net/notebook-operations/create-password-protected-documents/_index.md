@@ -3,10 +3,16 @@ title: قم بإنشاء مستندات محمية بكلمة مرور في Aspo
 linktitle: قم بإنشاء مستندات محمية بكلمة مرور في Aspose Note .NET
 second_title: Aspose.Note .NET API
 description: تعرف على كيفية إنشاء مستندات محمية بكلمة مرور في Aspose Note لـ .NET لتحسين أمان المستندات. اتبع برنامجنا التعليمي خطوة بخطوة لسهولة التنفيذ.
-type: docs
 weight: 18
 url: /ar/net/notebook-operations/create-password-protected-documents/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# قم بإنشاء مستندات محمية بكلمة مرور في Aspose Note .NET
+
 ## مقدمة
 
 في هذا البرنامج التعليمي، سنتعمق في عملية إنشاء مستندات محمية بكلمة مرور باستخدام Aspose.Note لـ .NET. يعد أمان المستندات أمرًا بالغ الأهمية، خاصة عند التعامل مع المعلومات الحساسة. باستخدام Aspose.Note، يمكنك تشفير مستنداتك لحمايتها من الوصول غير المصرح به. سنرشدك خلال الخطوات اللازمة لتنفيذ هذا الإجراء الأمني بفعالية.
@@ -76,3 +82,9 @@ A3: يسمح Aspose.Note for .NET بتعيين كلمة مرور واحدة لل
 ### س5: هل يمكنني دمج إنشاء مستند محمي بكلمة مرور في تطبيق .NET الخاص بي بسهولة؟
 
 ج5: بالتأكيد! يوفر Aspose.Note for .NET واجهة برمجة تطبيقات بسيطة وبديهية، مما يتيح التكامل السلس لإنشاء المستندات المحمية بكلمة مرور في تطبيقات .NET الخاصة بك.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

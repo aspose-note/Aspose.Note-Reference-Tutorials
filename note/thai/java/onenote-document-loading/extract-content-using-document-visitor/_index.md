@@ -3,10 +3,16 @@ title: แยกเนื้อหา OneNote โดยใช้ Document Visito
 linktitle: แยกเนื้อหา OneNote โดยใช้ Document Visitor - Java
 second_title: Aspose.Note Java API
 description: เรียนรู้วิธีแยกเนื้อหาจากเอกสาร OneNote ใน Java โดยใช้ Aspose.Note สำหรับ Java บทช่วยสอนทีละขั้นตอนพร้อมตัวอย่างโค้ดที่ให้ไว้
-type: docs
 weight: 21
 url: /th/java/onenote-document-loading/extract-content-using-document-visitor/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# แยกเนื้อหา OneNote โดยใช้ Document Visitor - Java
+
 ## การแนะนำ
 
 Aspose.Note สำหรับ Java มีคุณสมบัติที่มีประสิทธิภาพสำหรับการแยกเนื้อหาจากเอกสาร OneNote ในบทช่วยสอนนี้ เราจะแนะนำคุณตลอดกระบวนการแยกเนื้อหาออกจากเอกสาร OneNote โดยใช้ Document Visitor ใน Java
@@ -147,3 +153,9 @@ public static void main(String[] args) throws IOException {
 ### คำถามที่ 5: มีการจำกัดขนาดของเอกสาร OneNote ที่สามารถประมวลผลโดยใช้ Aspose.Note for Java ได้หรือไม่
 
 A5: Aspose.Note สำหรับ Java ได้รับการออกแบบมาเพื่อจัดการเอกสาร OneNote ในขนาดต่างๆ ได้อย่างมีประสิทธิภาพ ทำให้มั่นใจได้ถึงประสิทธิภาพสูงสุดแม้กับเอกสารขนาดใหญ่
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

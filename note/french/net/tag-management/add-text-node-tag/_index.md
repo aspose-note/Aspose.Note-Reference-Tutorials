@@ -3,10 +3,16 @@ title: Ajouter un nœud de texte avec une balise dans Aspose.Note
 linktitle: Ajouter un nœud de texte avec une balise dans Aspose.Note
 second_title: API Aspose.Note .NET
 description: Découvrez comment ajouter des nœuds de texte avec des balises aux documents OneNote à l'aide d'Aspose.Note pour .NET.
-type: docs
 weight: 12
 url: /fr/net/tag-management/add-text-node-tag/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Ajouter un nœud de texte avec une balise dans Aspose.Note
+
 ## Introduction
 
 Aspose.Note pour .NET est une bibliothèque puissante qui permet aux développeurs de créer, manipuler et convertir des fichiers Microsoft OneNote par programme à l'aide du framework .NET. Dans ce didacticiel, nous allons explorer comment ajouter un nœud de texte avec une balise à un document OneNote à l'aide d'Aspose.Note pour .NET.
@@ -107,3 +113,9 @@ A4 : Oui, Aspose.Note pour .NET prend en charge le cryptage des documents pour g
 ### Q5 : Où puis-je trouver plus de ressources et d’assistance pour Aspose.Note pour .NET ?
 
  A5 : Vous pouvez explorer le[Aspose.Note pour la documentation .NET](https://reference.aspose.com/note/net/)et solliciter l'aide du[Forum Aspose.Note](https://forum.aspose.com/c/note/28).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -3,10 +3,16 @@ title: احفظ في الصورة الثنائية في Aspose.Note
 linktitle: احفظ في الصورة الثنائية في Aspose.Note
 second_title: Aspose.Note .NET API
 description: تعرف على كيفية تحويل المستندات إلى صور ثنائية باستخدام Aspose.Note لـ .NET. اتبع دليلنا خطوة بخطوة للتكامل السلس.
-type: docs
 weight: 22
 url: /ar/net/loading-and-saving-operations/save-to-binary-image/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# احفظ في الصورة الثنائية في Aspose.Note
+
 ## مقدمة
 
 في هذا البرنامج التعليمي، سوف نستكشف كيفية حفظ مستند في صورة ثنائية باستخدام Aspose.Note لـ .NET. تتضمن هذه العملية تحويل مستند إلى صورة بالأبيض والأسود ذات حد ثابت، وهو ما يمكن أن يكون مفيدًا لمختلف التطبيقات.
@@ -97,3 +103,9 @@ oneFile.Save(outputFilePath, saveOptions);
 ### س5: أين يمكنني العثور على المزيد من الموارد والدعم لـ Aspose.Note؟
 
  ج5: يمكنك استكشاف[Aspose.Note الوثائق](https://reference.aspose.com/note/net/)وطلب المساعدة من[منتدى Aspose.Note](https://forum.aspose.com/c/note/28) لأية استفسارات أو مشاكل.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

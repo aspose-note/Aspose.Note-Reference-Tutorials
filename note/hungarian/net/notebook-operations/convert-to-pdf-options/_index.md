@@ -3,10 +3,16 @@ title: Jegyzetfüzetek konvertálása PDF formátumba az Aspose Note .NET beáll
 linktitle: Jegyzetfüzetek konvertálása PDF formátumba az Aspose Note .NET beállításaival
 second_title: Aspose.Note .NET API
 description: Ismerje meg, hogyan konvertálhat Microsoft OneNote jegyzetfüzeteket PDF formátumba az Aspose.Note for .NET könyvtár segítségével testreszabható beállításokkal.
-type: docs
 weight: 16
 url: /hu/net/notebook-operations/convert-to-pdf-options/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Jegyzetfüzetek konvertálása PDF formátumba az Aspose Note .NET beállításaival
+
 ## Bevezetés
 
 Ebben az oktatóanyagban végigvezetjük a notebookok PDF formátumba konvertálásának folyamatát az Aspose.Note for .NET könyvtár használatával. Az Aspose.Note for .NET hatékony szolgáltatáskészletet kínál a Microsoft OneNote-fájlok programozott kezeléséhez.
@@ -102,3 +108,9 @@ Ebben az oktatóanyagban megtanultuk, hogyan konvertálhat OneNote-jegyzetfüzet
 ### 5. kérdés: Hogyan kaphatok műszaki támogatást az Aspose.Note for .NET-hez?
 
  5. válasz: Technikai támogatást kaphat az Aspose.Note for .NET-hez, ha felkeresi a[Aspose.Note fórum](https://forum.aspose.com/c/note/28) vagy lépjen kapcsolatba közvetlenül az Aspose ügyfélszolgálati csapatával.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

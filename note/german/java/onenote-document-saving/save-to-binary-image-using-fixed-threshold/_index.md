@@ -3,10 +3,16 @@ title: Speichern als Binärbild mit festem Schwellenwert in OneNote
 linktitle: Speichern als Binärbild mit festem Schwellenwert in OneNote
 second_title: Aspose.Note Java API
 description: Speichern Sie Microsoft OneNote-Dokumente mühelos als Binärbilder mit einem festen Schwellenwert mit Aspose.Note Java. Erweitern Sie Ihre OneNote-Dateibearbeitungsmöglichkeiten.
-type: docs
 weight: 14
 url: /de/java/onenote-document-saving/save-to-binary-image-using-fixed-threshold/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Speichern als Binärbild mit festem Schwellenwert in OneNote
+
 ## Einführung
 
 Aspose.Note für Java ist eine leistungsstarke API, die es Entwicklern ermöglicht, programmgesteuert mit Microsoft OneNote-Dateien zu arbeiten. In diesem Tutorial erfahren Sie, wie Sie ein Dokument mithilfe eines festen Schwellenwerts als Binärbild speichern. Befolgen Sie die folgenden Schritte, um dies zu erreichen.
@@ -91,3 +97,9 @@ A4: Ja, Sie können mehrere OneNote-Dokumente stapelweise verarbeiten, indem Sie
 ### F5: Ist technischer Support für Aspose.Note für Java verfügbar?
 
  A5: Ja, technischer Support ist über verfügbar[Aspose.Note-Forum](https://forum.aspose.com/c/note/28), wo Sie Fragen stellen und Hilfe von Experten erhalten können.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -3,10 +3,16 @@ title: कार्य और आउटलुक एकीकरण
 linktitle: कार्य और आउटलुक एकीकरण
 second_title: Aspose.नोट जावा एपीआई
 description: OneNote में Outlook कार्यों को एकीकृत करने पर हमारे ट्यूटोरियल के साथ Aspose.Note Java की क्षमता को अनलॉक करें। हमारे ट्यूटोरियल के साथ अपने दस्तावेज़ प्रसंस्करण कौशल को उन्नत करें।
-type: docs
 weight: 35
 url: /hi/java/task-and-outlook-integration/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# कार्य और आउटलुक एकीकरण
+
 
 ## परिचय
 
@@ -38,3 +44,9 @@ url: /hi/java/task-and-outlook-integration/
 ## कार्य और आउटलुक एकीकरण ट्यूटोरियल
 ### [OneNote में आउटलुक कार्य प्राप्त करें - Aspose.Note](./get-outlook-task/)
 OneNote से Outlook कार्यों को सहजता से निकालने में Java के लिए Aspose.Note की शक्ति का अन्वेषण करें। हमारे चरण-दर-चरण मार्गदर्शिका का पालन करें और अपनी दस्तावेज़ प्रसंस्करण क्षमताओं को बढ़ाएं।
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -3,10 +3,16 @@ title: Получить вложение из OneNote с помощью Java
 linktitle: Получить вложение из OneNote с помощью Java
 second_title: Aspose.Note Java API
 description: Легко извлекайте вложения из документов OneNote на Java! Aspose.Note поддерживает все форматы и пакетную обработку. Простые шаги и код включены! #OneNote #Java #Aspose
-type: docs
 weight: 12
 url: /ru/java/onenote-java-integration/retrieve-attachment/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Получить вложение из OneNote с помощью Java
+
 ## Введение
 
 В современную цифровую эпоху эффективная обработка документов различных форматов является важнейшим аспектом разработки программного обеспечения. Aspose.Note для Java — это мощный API, который позволяет разработчикам беспрепятственно работать с файлами Microsoft OneNote с помощью приложений Java. Если вам нужно получить вложения, манипулировать страницами или извлечь текст, Aspose.Note для Java предоставляет комплексные функциональные возможности для оптимизации вашего рабочего процесса.
@@ -112,3 +118,9 @@ for (AttachedFile a : attachments) {
 ### В5: Предоставляет ли Aspose.Note for Java поддержку и помощь в случае возникновения технических проблем или запросов?
 
 О: Да, разработчики могут получить доступ к комплексной поддержке на форуме Aspose.Note по адресу[https://forum.aspose.com/c/note/28](https://forum.aspose.com/c/note/28) для любой технической помощи или запросов.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -3,10 +3,16 @@ title: Aspose.Note を使用して添付ファイルを取得する
 linktitle: Aspose.Note を使用して添付ファイルを取得する
 second_title: Aspose.Note .NET API
 description: Aspose.Note for .NET を使用して Microsoft OneNote ドキュメントから添付ファイルを取得する方法を学びます。手順に従って、ロード、ノードの取得、添付ファイルの反復処理を行います。
-type: docs
 weight: 12
 url: /ja/net/attachments/retrieve-attached-files/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Aspose.Note を使用して添付ファイルを取得する
+
 ## 導入
 
 このチュートリアルでは、Aspose.Note for .NET を使用してドキュメントから添付ファイルを取得する方法を検討します。 Aspose.Note は、開発者が Microsoft OneNote ファイルをプログラムで操作できるようにする強力な API です。理解しやすいように、プロセスを簡単なステップに分けて説明します。
@@ -90,3 +96,9 @@ A4: はい、購入を決定する前に、Aspose.Note の無料トライアル�
 ### Q5: Aspose.Note の一時ライセンスを取得するにはどうすればよいですか?
 
 A5: Aspose に一時ライセンスをリクエストして、開発環境で API の全機能を評価できます。
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

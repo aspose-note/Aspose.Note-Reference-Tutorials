@@ -3,10 +3,16 @@ title: ลบโหนดลูกในสมุดบันทึก OneNote -
 linktitle: ลบโหนดลูกในสมุดบันทึก OneNote - Aspose.Note
 second_title: Aspose.Note Java API
 description: เรียนรู้วิธีลบโหนดลูกออกจากสมุดบันทึก OneNote โดยใช้ Aspose.Note สำหรับ Java ปฏิบัติตามคำแนะนำทีละขั้นตอนของเราเพื่อการจัดการเอกสารที่ราบรื่น
-type: docs
 weight: 24
 url: /th/java/onenote-notebook-operations/remove-child-node/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# ลบโหนดลูกในสมุดบันทึก OneNote - Aspose.Note
+
 ## การแนะนำ
 
 ในบทช่วยสอนนี้ เราจะเจาะลึกกระบวนการลบโหนดลูกใน OneNote Notebook โดยใช้ Aspose.Note สำหรับ Java Aspose.Note เป็น API อันทรงประสิทธิภาพที่ช่วยให้นักพัฒนาสามารถทำงานกับไฟล์ Microsoft OneNote โดยทางโปรแกรม ทำให้สามารถดำเนินการต่างๆ ได้ เช่น การสร้าง การจัดการ และการแปลงเอกสาร OneNote
@@ -92,3 +98,9 @@ notebook.save(dataDir);
 ### คำถามที่ 5: ฉันจะหาเอกสารโดยละเอียดสำหรับ Aspose.Note สำหรับ Java ได้ที่ไหน
 
  A5: คุณสามารถเข้าถึงเอกสารประกอบฉบับสมบูรณ์สำหรับ Aspose.Note สำหรับ Java[ที่นี่](https://reference.aspose.com/note/java/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

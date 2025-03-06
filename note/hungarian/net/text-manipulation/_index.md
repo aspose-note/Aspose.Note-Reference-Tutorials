@@ -3,10 +3,16 @@ title: Szövegmanipuláció a OneNote-ban az Aspose.Note segítségével .NET-he
 linktitle: Szövegmanipuláció
 second_title: Aspose.Note .NET API
 description: Alakítsa át OneNote-dokumentumait az Aspose.Note for .NET segítségével! Tanuljon meg szövegmanipulációs technikákat, a felsorolásjelek alkalmazásától és a számozástól a stílusok megváltoztatásáig.
-type: docs
 weight: 31
 url: /hu/net/text-manipulation/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Szövegmanipuláció a OneNote-ban az Aspose.Note segítségével .NET-hez
+
 
 ## Bevezetés
 
@@ -110,3 +116,9 @@ Kiaknázza az Aspose.Note for .NET-ben rejlő lehetőségeket a felsorolás- vag
 Fedezze fel az Aspose.Note for .NET erejét az alapértelmezett bekezdésstílusok beállításáról szóló, lépésenkénti útmutatónkkal. Növelje dokumentumkezelési készségeit könnyedén.
 ### [Állítsa be a szövegellenőrzési nyelvet az Aspose.Note-ban](./set-proofing-language-text/)
 Oldja fel a hatékony szövegmanipulációt az Aspose.Note for .NET segítségével. A lektorálási nyelvet könnyedén állítsa be lépésről lépésre. Fokozza .NET projektjeit most!
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

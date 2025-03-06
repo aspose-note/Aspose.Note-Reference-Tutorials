@@ -3,10 +3,16 @@ title: Opslaan naar TIFF-afbeelding met behulp van de opties voor het opslaan va
 linktitle: Opslaan naar TIFF-afbeelding met behulp van de opties voor het opslaan van afbeeldingen in OneNote
 second_title: Aspose.Note Java-API
 description: Converteer OneNote-documenten naar TIFF en beheer de bestandsgrootte en -kwaliteit! Kies Jpeg-, PackBits- of Fax-compressie in Java. Ontvang codevoorbeelden en leer hoe! #OneNote #Java #Aspose
-type: docs
 weight: 21
 url: /nl/java/onenote-document-saving/save-to-tiff-image-using-image-save-options/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Opslaan naar TIFF-afbeelding met behulp van de opties voor het opslaan van afbeeldingen in OneNote
+
 ## Invoering
 
 In deze zelfstudie leert u hoe u een document opslaat in een TIFF-afbeeldingsindeling met behulp van verschillende compressiemethoden in Aspose.Note voor Java. We behandelen de vereisten, het importeren van pakketten en bieden een stapsgewijze handleiding voor elke compressiemethode.
@@ -121,3 +127,9 @@ A4: Ja, u kunt parameters zoals kwaliteit, resolutie en compressiemethode aanpas
 ### V5: Biedt Aspose.Note voor Java technische ondersteuning?
 
 A5: Ja, Aspose biedt uitgebreide technische ondersteuning via forums en op tickets gebaseerde systemen.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

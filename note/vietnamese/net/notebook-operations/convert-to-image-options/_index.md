@@ -3,10 +3,16 @@ title: Chuyển đổi sổ ghi chép thành hình ảnh với các tùy chọn 
 linktitle: Chuyển đổi sổ ghi chép thành hình ảnh với các tùy chọn trong Aspose Note .NET
 second_title: Aspose.Note .NET API
 description: Tìm hiểu cách chuyển đổi sổ ghi chép thành hình ảnh với các tùy chọn có thể tùy chỉnh bằng Aspose.Note for .NET.
-type: docs
 weight: 13
 url: /vi/net/notebook-operations/convert-to-image-options/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Chuyển đổi sổ ghi chép thành hình ảnh với các tùy chọn trong Aspose Note .NET
+
 ## Giới thiệu
 
 Trong hướng dẫn này, chúng ta sẽ đi sâu vào việc chuyển đổi sổ ghi chép thành hình ảnh với nhiều tùy chọn khác nhau bằng thư viện Aspose.Note cho .NET. Aspose.Note là một API .NET mạnh mẽ cho phép các nhà phát triển làm việc với các tệp Microsoft OneNote theo chương trình. Bằng cách làm theo các bước được nêu trong hướng dẫn này, bạn sẽ học cách dễ dàng chuyển đổi sổ ghi chép thành hình ảnh trong khi tùy chỉnh đầu ra theo yêu cầu của mình.
@@ -95,3 +101,9 @@ Câu trả lời 4: Có, Aspose.Note for .NET cung cấp nhiều tùy chọn kh�
 ### Câu hỏi 5: Aspose.Note for .NET có hỗ trợ các định dạng hình ảnh khác ngoài PNG không?
 
 Câu trả lời 5: Có, Aspose.Note for .NET hỗ trợ một số định dạng hình ảnh, bao gồm JPEG, BMP, GIF và TIFF.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

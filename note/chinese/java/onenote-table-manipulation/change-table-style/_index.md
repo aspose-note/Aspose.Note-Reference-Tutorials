@@ -3,10 +3,16 @@ title: 更改 OneNote 中的表格样式 - Aspose.Note
 linktitle: 更改 OneNote 中的表格样式 - Aspose.Note
 second_title: Aspose.Note Java API
 description: 使用 Aspose.Note for Java 轻松增强您的 OneNote 表格。按照我们的分步指南更改表格样式。立即下载库！
-type: docs
 weight: 10
 url: /zh/java/onenote-table-manipulation/change-table-style/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# 更改 OneNote 中的表格样式 - Aspose.Note
+
 ## 介绍
 Aspose.Note for Java 是一个功能强大的库，允许开发人员轻松操作 OneNote 文件。在本教程中，我们将重点介绍如何使用 Aspose.Note for Java 更改 OneNote 文档中的表格样式。按照分步指南增强桌子的视觉吸引力。
 ## 先决条件
@@ -88,3 +94,9 @@ Aspose.Note for Java 简化了操作 OneNote 文件的过程。通过利用该�
 加入[Aspose.Note 论坛](https://forum.aspose.com/c/note/28)向社区寻求帮助。
 ### 如何购买 Aspose.Note for Java？
 您可以购买图书馆[这里](https://purchase.aspose.com/buy).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

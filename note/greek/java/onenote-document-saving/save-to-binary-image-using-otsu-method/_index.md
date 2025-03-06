@@ -3,10 +3,16 @@ title: Αποθήκευση σε δυαδική εικόνα χρησιμοπο�
 linktitle: Αποθήκευση σε δυαδική εικόνα χρησιμοποιώντας τη μέθοδο Otsu στο OneNote
 second_title: Aspose.Note Java API
 description: Μάθετε να αποθηκεύετε τα έγγραφα του OneNote ως δυαδικές εικόνες χρησιμοποιώντας τη μέθοδο Otsu με το Aspose.Note για Java. Αυξήστε τις δυνατότητες της εφαρμογής Java με το Aspose.Note.
-type: docs
 weight: 15
 url: /el/java/onenote-document-saving/save-to-binary-image-using-otsu-method/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Αποθήκευση σε δυαδική εικόνα χρησιμοποιώντας τη μέθοδο Otsu στο OneNote
+
 ## Εισαγωγή
 
 Σε αυτό το σεμινάριο, θα μάθουμε πώς να αποθηκεύουμε ένα έγγραφο ως δυαδική εικόνα χρησιμοποιώντας τη μέθοδο Otsu στο Aspose.Note για Java. Το Aspose.Note είναι ένα ισχυρό API που επιτρέπει στους προγραμματιστές Java να εργάζονται με αρχεία Microsoft OneNote μέσω προγραμματισμού. Η αποθήκευση εγγράφων ως δυαδικών εικόνων μπορεί να είναι χρήσιμη για διάφορες εφαρμογές, όπως επεξεργασία εικόνας, OCR (οπτική αναγνώριση χαρακτήρων) και άλλα.
@@ -82,3 +88,9 @@ A4: Ενώ το Aspose.Note ασχολείται κυρίως με τον χει
 ### Ε5: Πού μπορώ να λάβω υποστήριξη εάν αντιμετωπίσω προβλήματα κατά τη χρήση του Aspose.Note για Java;
 
 A5: Μπορείτε να επισκεφτείτε το φόρουμ Aspose.Note ή να επικοινωνήσετε με την ομάδα υποστήριξής τους για βοήθεια σχετικά με τυχόν τεχνικά ζητήματα ή απορίες.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

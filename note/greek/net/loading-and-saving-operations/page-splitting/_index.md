@@ -3,10 +3,16 @@ title: Διαχωρισμός σελίδας στο Aspose.Σημείωση
 linktitle: Διαχωρισμός σελίδας στο Aspose.Σημείωση
 second_title: Aspose.Note .NET API
 description: Μάθετε πώς να χωρίζετε αποτελεσματικά τις σελίδες στο Aspose.Note για .NET χρησιμοποιώντας διαφορετικούς αλγόριθμους. Διασφαλίστε την τακτοποιημένη οργάνωση των εγγράφων του OneNote σε μορφή PDF.
-type: docs
 weight: 17
 url: /el/net/loading-and-saving-operations/page-splitting/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Διαχωρισμός σελίδας στο Aspose.Σημείωση
+
 ## Εισαγωγή
 
 Σε αυτό το σεμινάριο, θα εξερευνήσουμε πώς να χωρίσετε τις σελίδες αποτελεσματικά χρησιμοποιώντας το Aspose.Note για .NET. Ο διαχωρισμός σελίδων είναι μια κρίσιμη λειτουργία, ειδικά όταν αντιμετωπίζετε μεγάλες σελίδες του OneNote που πρέπει να μετατραπούν σε μορφή PDF. Το Aspose.Note προσφέρει διάφορους αλγόριθμους για τον έλεγχο της λογικής διαχωρισμού, διασφαλίζοντας ότι τα PDF που προκύπτουν είναι καλά οργανωμένα και αναγνώσιμα.
@@ -87,3 +93,9 @@ A4: Το Aspose.Note στοχεύει κυρίως το πλαίσιο .NET, α�
 ### Ε5: Πού μπορώ να λάβω βοήθεια εάν αντιμετωπίσω προβλήματα;
 
  A5: Μπορείτε να ζητήσετε βοήθεια από το φόρουμ κοινότητας Aspose.Note[εδώ](https://forum.aspose.com/c/note/28).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

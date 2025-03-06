@@ -3,10 +3,16 @@ title: Sử dụng Trình truy cập tài liệu trong OneNote bằng Java
 linktitle: Sử dụng Trình truy cập tài liệu trong OneNote bằng Java
 second_title: API Java Aspose.Note
 description: Tìm hiểu cách sử dụng Trình truy cập tài liệu trong OneNote bằng Java với Aspose.Note. Duyệt và thao tác các tài liệu OneNote một cách liền mạch.
-type: docs
 weight: 10
 url: /vi/java/onenote-document-manipulation/using-document-visitor/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Sử dụng Trình truy cập tài liệu trong OneNote bằng Java
+
 ## Giới thiệu
 
 Trong hướng dẫn này, chúng ta sẽ khám phá cách sử dụng Trình truy cập tài liệu trong OneNote bằng Java với Aspose.Note. Document Visitor cho phép duyệt qua các thành phần của tài liệu OneNote và thực hiện các thao tác trên chúng. Chúng tôi sẽ hướng dẫn bạn từng bước thực hiện quy trình.
@@ -95,3 +101,9 @@ Trả lời 1: Có, Aspose.Note hỗ trợ nhiều ngôn ngữ lập trình khá
 ### Câu hỏi 5: Có tài liệu nào dành cho Aspose.Note không?
 
  A5: Có, bạn có thể tìm thấy tài liệu[đây](https://reference.aspose.com/note/java/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

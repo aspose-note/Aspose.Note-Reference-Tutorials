@@ -3,10 +3,16 @@ title: استرجاع المراجعات في مستندات Aspose.Note
 linktitle: استرجاع المراجعات في مستندات Aspose.Note
 second_title: Aspose.Note .NET API
 description: تعرف على كيفية إدارة المراجعات بشكل فعال في مستندات Aspose.Note باستخدام Aspose.Note لـ .NET. اتبع دليلًا خطوة بخطوة لاسترجاع المراجعات بسلاسة.
-type: docs
 weight: 18
 url: /ar/net/note-manipulation/roll-back-document-revisions/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# استرجاع المراجعات في مستندات Aspose.Note
+
 ## مقدمة
 
 في عالم إدارة المستندات وتحريرها، من الضروري أن تكون لديك القدرة على تتبع التغييرات والعودة إلى الإصدارات السابقة بسلاسة. يوفر Aspose.Note for .NET أدوات قوية لإدارة المراجعات بشكل فعال، مما يضمن إمكانية التراجع عن التغييرات عند الضرورة. في هذا البرنامج التعليمي، سنتعمق في عملية التراجع عن المراجعات في مستندات Aspose.Note خطوة بخطوة.
@@ -99,3 +105,9 @@ A1: نعم، يمكنك تكرار الصفحات الموجودة في المس
 ### س5: هل يوفر Aspose.Note الدعم إذا واجهت أية مشكلات أثناء عملية العودة إلى الحالة السابقة؟
 
  ج5: نعم، توفر Aspose دعمًا مخصصًا من خلال منتدياتها. يمكنك زيارة[منتدى Aspose.Note](https://forum.aspose.com/c/note/28) للمساعدة.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -3,10 +3,16 @@ title: Cree un documento de OneNote con texto enriquecido simple en Java
 linktitle: Cree un documento de OneNote con texto enriquecido simple en Java
 second_title: Aspose.Nota Java API
 description: Aprenda a crear documentos de OneNote con texto enriquecido utilizando Aspose.Note Java. Integre esta funcionalidad en sus aplicaciones Java para una gestión de documentos eficiente.
-type: docs
 weight: 12
 url: /es/java/onenote-document-manipulation/create-onenote-document-simple-rich-text/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Cree un documento de OneNote con texto enriquecido simple en Java
+
 ## Introducción
 
 En la era digital actual, la necesidad de gestionar y manipular documentos de manera eficiente es primordial. Aspose.Note para Java surge como una poderosa herramienta que permite a los desarrolladores trabajar sin problemas con documentos de OneNote dentro de aplicaciones Java. Este tutorial tiene como objetivo proporcionar una guía completa sobre la creación de documentos de OneNote con texto enriquecido simple utilizando Aspose.Note para Java.
@@ -164,3 +170,9 @@ R4: Sí, Aspose.Note para Java se puede integrar perfectamente con otras bibliot
 ### P5: ¿Aspose.Note para Java proporciona documentación y soporte completos?
 
  R5: Por supuesto, puede encontrar documentación detallada y soporte dedicado para Aspose.Note para Java en el[Foro de soporte](https://forum.aspose.com/c/note/28).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

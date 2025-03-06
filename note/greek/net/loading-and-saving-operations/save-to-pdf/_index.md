@@ -3,10 +3,16 @@ title: Αποθήκευση σε PDF στο Aspose.Note
 linktitle: Αποθήκευση σε PDF στο Aspose.Note
 second_title: Aspose.Note .NET API
 description: Μάθετε πώς να αποθηκεύετε έγγραφα του Microsoft OneNote σε μορφή PDF χρησιμοποιώντας το Aspose.Note για .NET. Βήμα προς βήμα μάθημα με παραδείγματα κώδικα για διατάξεις σελίδων Letter και A4.
-type: docs
 weight: 26
 url: /el/net/loading-and-saving-operations/save-to-pdf/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Αποθήκευση σε PDF στο Aspose.Note
+
 ## Εισαγωγή
 
 Σε αυτό το σεμινάριο, θα εξερευνήσουμε τον τρόπο αποθήκευσης εγγράφων σε μορφή PDF χρησιμοποιώντας το Aspose.Note για .NET. Το Aspose.Note είναι μια ισχυρή βιβλιοθήκη που επιτρέπει στους προγραμματιστές να εργάζονται με αρχεία Microsoft OneNote μέσω προγραμματισμού. Θα καλύψουμε τις προϋποθέσεις, θα εισαγάγουμε χώρους ονομάτων και θα παρέχουμε οδηγούς βήμα προς βήμα για την αποθήκευση εγγράφων σε PDF σε διάφορες διατάξεις σελίδων.
@@ -110,3 +116,9 @@ A1: Ναι, το Aspose.Note υποστηρίζει διάφορες δυνατ�
 ### Ε5: Χρειάζεστε περαιτέρω βοήθεια;
 
  A5: Μη διστάσετε να κάνετε οποιεσδήποτε ερωτήσεις ή να αναζητήσετε υποστήριξη στο φόρουμ Aspose.Note[εδώ](https://forum.aspose.com/c/note/28).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

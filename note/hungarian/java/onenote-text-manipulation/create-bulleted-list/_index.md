@@ -3,10 +3,16 @@ title: Felsorolásos lista létrehozása a OneNote-ban – Aspose.Note
 linktitle: Felsorolásos lista létrehozása a OneNote-ban – Aspose.Note
 second_title: Aspose.Note Java API
 description: Tekintse meg a felsorolásjeles listák OneNote programban az Aspose.Note for Java használatával történő létrehozásáról szóló, lépésről lépésre szóló útmutatót. Emelje fel a dokumentumkészítést könnyedén.
-type: docs
 weight: 12
 url: /hu/java/onenote-text-manipulation/create-bulleted-list/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Felsorolásos lista létrehozása a OneNote-ban – Aspose.Note
+
 ## Bevezetés
 A Java fejlesztés dinamikus környezetében elengedhetetlen a vonzó és rendezett dokumentumok létrehozása. Az Aspose.Note for Java hatékony eszközkészletet biztosít a dokumentumkészítési folyamat javításához. Ez az oktatóanyag végigvezeti a felsorolásjeles listák létrehozásának folyamatán a OneNote-ban az Aspose.Note for Java használatával. Merüljünk el a részletekben.
 ## Előfeltételek
@@ -92,3 +98,9 @@ Teljesen! A felsorolásjeles listaelemek betűtípusát, színét és méretét 
  Igen, felfedezheti az ingyenes próbaverziót[itt](https://releases.aspose.com/).
 ### Hogyan szerezhetek ideiglenes licencet az Aspose.Note for Java számára?
  Szerezzen ideiglenes engedélyt[itt](https://purchase.aspose.com/temporary-license/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -3,10 +3,16 @@ title: Appliquer des puces sur le texte dans Aspose.Note
 linktitle: Appliquer des puces sur le texte dans Aspose.Note
 second_title: API Aspose.Note .NET
 description: Découvrez comment appliquer des puces sur du texte dans Aspose.Note pour .NET pour améliorer vos documents OneNote. Suivez ce guide étape par étape pour un formatage efficace.
-type: docs
 weight: 10
 url: /fr/net/text-manipulation/apply-bullets-on-text/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Appliquer des puces sur le texte dans Aspose.Note
+
 ## Introduction
 Bienvenue dans ce guide étape par étape sur l'application de puces au texte à l'aide d'Aspose.Note pour .NET. Aspose.Note est une bibliothèque puissante qui permet aux développeurs de travailler de manière transparente avec les fichiers Microsoft OneNote dans leurs applications .NET. Dans ce didacticiel, nous vous guiderons tout au long du processus d'application de puces au texte, améliorant ainsi l'attrait visuel de vos documents OneNote.
 ## Conditions préalables
@@ -86,3 +92,9 @@ Aspose.Note prend en charge différentes versions de Microsoft OneNote, garantis
  Oui, vous pouvez télécharger un essai gratuit[ici](https://releases.aspose.com/).
 ### Où puis-je trouver une assistance et des ressources supplémentaires ?
  Vous pouvez visiter le forum de la communauté Aspose.Note[ici](https://forum.aspose.com/c/note/28) pour du soutien et des discussions.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

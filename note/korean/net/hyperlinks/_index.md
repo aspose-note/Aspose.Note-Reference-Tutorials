@@ -3,10 +3,16 @@ title: .NET 하이퍼링크 및 OneNote 통합을 위한 Aspose.Note
 linktitle: 하이퍼링크
 second_title: Aspose.Note .NET API
 description: Aspose.Note 문서에서 상호작용성을 높이는 방법을 알아보세요! .NET용 Aspose.Note로 하이퍼링크를 추가하여 문서 참여를 향상시키는 방법에 대한 튜토리얼을 찾아보세요.
-type: docs
 weight: 22
 url: /ko/net/hyperlinks/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# .NET 하이퍼링크 및 OneNote 통합을 위한 Aspose.Note
+
 ## 소개
 
 .NET용 Aspose.Note 영역에서 문서에 하이퍼링크를 추가하는 기능은 획기적인 변화입니다. 단계별 튜토리얼을 따라 문서의 상호작용성과 참여도를 높이세요.
@@ -45,3 +51,9 @@ url: /ko/net/hyperlinks/
 ## 하이퍼링크 튜토리얼
 ### [Aspose.Note 문서에 하이퍼링크 추가](./add-hyperlinks/)
 .NET용 Aspose.Note를 사용하여 Aspose.Note 문서에 하이퍼링크를 추가하는 방법을 알아보세요. 이 단계별 튜토리얼을 통해 문서 상호작용성을 강화하세요.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

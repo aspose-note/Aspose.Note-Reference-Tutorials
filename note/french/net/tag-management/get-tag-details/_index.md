@@ -3,10 +3,16 @@ title: Obtenir les détails des balises dans les documents Aspose.Note
 linktitle: Obtenir les détails des balises dans les documents Aspose.Note
 second_title: API Aspose.Note .NET
 description: Découvrez comment récupérer les détails des balises à partir de documents Aspose.Note à l’aide de .NET. Gérez efficacement les tâches avec les API Aspose.Note.
-type: docs
 weight: 14
 url: /fr/net/tag-management/get-tag-details/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Obtenir les détails des balises dans les documents Aspose.Note
+
 ## Introduction
 
 Dans ce didacticiel, nous verrons comment récupérer les détails des balises à partir de documents Aspose.Note à l'aide de .NET. Les balises sont essentielles pour annoter des documents, gérer les tâches et organiser efficacement les informations. Aspose.Note pour .NET fournit des fonctionnalités robustes pour travailler avec les balises sans effort.
@@ -103,3 +109,9 @@ A4 : Oui, Aspose.Note propose des options de personnalisation étendues pour les
 ### Q5 : Où puis-je trouver plus de ressources et d'assistance pour Aspose.Note ?
 
 A5 : Vous pouvez visiter le forum Aspose.Note ou vous référer à la documentation pour obtenir des conseils et une assistance complets.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

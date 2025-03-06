@@ -3,10 +3,16 @@ title: Annuler les révisions dans les documents Aspose.Note
 linktitle: Annuler les révisions dans les documents Aspose.Note
 second_title: API Aspose.Note .NET
 description: Découvrez comment gérer efficacement les révisions dans les documents Aspose.Note à l'aide d'Aspose.Note pour .NET. Suivez un guide étape par étape pour annuler les révisions en toute transparence.
-type: docs
 weight: 18
 url: /fr/net/note-manipulation/roll-back-document-revisions/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Annuler les révisions dans les documents Aspose.Note
+
 ## Introduction
 
 Dans le monde de la gestion et de l'édition de documents, il est crucial de pouvoir suivre les modifications et revenir facilement aux versions précédentes. Aspose.Note pour .NET fournit des outils puissants pour gérer efficacement les révisions, garantissant que vous pouvez annuler les modifications chaque fois que nécessaire. Dans ce didacticiel, nous aborderons étape par étape le processus d'annulation des révisions dans les documents Aspose.Note.
@@ -99,3 +105,9 @@ A4 : Oui, vous pouvez intégrer la fonctionnalité de restauration dans vos appl
 ### Q5 : Aspose.Note fournit-il une assistance si je rencontre des problèmes pendant le processus de restauration ?
 
  A5 : Oui, Aspose fournit une assistance dédiée via ses forums. Vous pouvez visiter le[Forum Aspose.Note](https://forum.aspose.com/c/note/28) à l'aide.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

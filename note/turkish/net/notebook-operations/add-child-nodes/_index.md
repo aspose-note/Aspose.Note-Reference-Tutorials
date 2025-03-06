@@ -3,10 +3,16 @@ title: Aspose Note .NET'e Alt Düğümler Ekleme
 linktitle: Aspose Note .NET'e Alt Düğümler Ekleme
 second_title: Aspose.Note .NET API'si
 description: Bu kapsamlı eğitimle Aspose Note .NET'e alt düğümleri zahmetsizce nasıl ekleyeceğinizi öğrenin. Belge işleme becerilerinizi şimdi geliştirin.
-type: docs
 weight: 10
 url: /tr/net/notebook-operations/add-child-nodes/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Aspose Note .NET'e Alt Düğümler Ekleme
+
 ## giriiş
 
 Bu eğitimde Aspose Note .NET'te alt düğümlerin nasıl ekleneceğini öğreneceğiz. Belgelerle çalışırken alt düğümlerin eklenmesi temel bir işlemdir ve Aspose Note .NET bu görevi gerçekleştirmenin basit bir yolunu sunar.
@@ -89,3 +95,9 @@ Tebrikler! Aspose Note .NET'te alt düğümlerin nasıl ekleneceğini başarıyl
 ### S5: Aspose.Note for .NET belgelerle birlikte geliyor mu?
 
  A5: Evet, ayrıntılı belgeleri bulabilirsiniz[Burada](https://reference.aspose.com/note/net/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

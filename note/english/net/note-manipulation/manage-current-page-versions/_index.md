@@ -3,10 +3,16 @@ title: Push and Manage Current Page Versions in Aspose.Note
 linktitle: Push and Manage Current Page Versions in Aspose.Note
 second_title: Aspose.Note .NET API
 description: Learn how to push and manage current page versions in Aspose.Note for .NET effortlessly. Improve document version control and collaboration.
-type: docs
 weight: 17
 url: /net/note-manipulation/manage-current-page-versions/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Push and Manage Current Page Versions in Aspose.Note
+
 ## Introduction
 
 In the world of software development, managing and maintaining different versions of documents is crucial for ensuring accuracy, traceability, and accountability. Aspose.Note for .NET provides powerful tools to facilitate this process, allowing developers to push and manage current page versions seamlessly. In this tutorial, we'll delve into the steps required to push and manage current page versions using Aspose.Note for .NET.
@@ -90,3 +96,10 @@ A4: Yes, Aspose.Note for .NET provides comprehensive APIs for managing sections,
 ### Q5: Can I automate the process of pushing page versions using Aspose.Note for .NET?
 
 A5: Absolutely! Aspose.Note for .NET offers robust automation capabilities, allowing you to integrate version control seamlessly into your applications.
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

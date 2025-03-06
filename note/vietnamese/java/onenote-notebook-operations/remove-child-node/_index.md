@@ -3,10 +3,16 @@ title: Xóa nút con trong sổ tay OneNote - Aspose.Note
 linktitle: Xóa nút con trong sổ tay OneNote - Aspose.Note
 second_title: API Java Aspose.Note
 description: Tìm hiểu cách xóa nút con khỏi Sổ tay OneNote bằng Aspose.Note for Java. Thực hiện theo hướng dẫn từng bước của chúng tôi để thao tác tài liệu liền mạch.
-type: docs
 weight: 24
 url: /vi/java/onenote-notebook-operations/remove-child-node/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Xóa nút con trong sổ tay OneNote - Aspose.Note
+
 ## Giới thiệu
 
 Trong hướng dẫn này, chúng ta sẽ đi sâu vào quy trình xóa nút con trong Sổ ghi chép OneNote bằng Aspose.Note cho Java. Aspose.Note là một API mạnh mẽ cho phép các nhà phát triển làm việc với các tệp Microsoft OneNote theo chương trình, cho phép thực hiện nhiều hoạt động khác nhau như tạo, thao tác và chuyển đổi tài liệu OneNote.
@@ -92,3 +98,9 @@ Câu trả lời 2: Có, bạn có thể tìm thấy sự hỗ trợ và tương
 ### Câu hỏi 5: Tôi có thể tìm tài liệu chi tiết về Aspose.Note cho Java ở đâu?
 
  Câu trả lời 5: Bạn có thể truy cập tài liệu đầy đủ về Aspose.Note for Java[đây](https://reference.aspose.com/note/java/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

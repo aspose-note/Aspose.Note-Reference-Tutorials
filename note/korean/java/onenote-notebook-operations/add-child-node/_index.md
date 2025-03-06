@@ -3,10 +3,16 @@ title: OneNote 노트북에 하위 노드 추가 - Aspose.Note
 linktitle: OneNote 노트북에 하위 노드 추가 - Aspose.Note
 second_title: Aspose.Note 자바 API
 description: Java용 Aspose.Note를 사용하여 OneNote 노트북에 프로그래밍 방식으로 하위 노드를 추가하는 방법을 알아보세요. 노트 구성을 손쉽게 개선하세요.
-type: docs
 weight: 11
 url: /ko/java/onenote-notebook-operations/add-child-node/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# OneNote 노트북에 하위 노드 추가 - Aspose.Note
+
 ## 소개
 
 OneNote는 메모와 아이디어를 정리하는 강력한 도구입니다. Aspose.Note for Java는 OneNote 파일을 프로그래밍 방식으로 조작하는 편리한 방법을 제공합니다. 이 자습서에서는 OneNote 노트북에 하위 노드를 추가하는 과정을 단계별로 안내합니다.
@@ -89,3 +95,9 @@ A4: 예, 종속성에 라이브러리를 추가하면 Java용 Aspose.Note를 Jav
 ### Q5: Aspose.Note for Java 사용에 대한 도움과 지침을 구할 수 있는 커뮤니티 포럼이 있습니까?
 
  A5: 네, 방문하실 수 있습니다.[Aspose.Note 포럼](https://forum.aspose.com/c/note/28) 질문하고, 지식을 공유하고, 다른 사용자 및 전문가와 상호 작용합니다.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

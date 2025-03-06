@@ -3,10 +3,16 @@ title: Convertir des blocs-notes en image (aplatie) dans Aspose Note .NET
 linktitle: Convertir des blocs-notes en image (aplatie) dans Aspose Note .NET
 second_title: API Aspose.Note .NET
 description: Découvrez comment convertir des blocs-notes OneNote en images aplaties à l'aide d'Aspose.Note pour .NET. Guide étape par étape pour une intégration transparente.
-type: docs
 weight: 12
 url: /fr/net/notebook-operations/convert-to-image-flattened/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Convertir des blocs-notes en image (aplatie) dans Aspose Note .NET
+
 ## Introduction
 
 Dans ce didacticiel, nous allons apprendre à utiliser Aspose.Note pour .NET pour convertir des blocs-notes en images aplaties. Nous décomposerons le processus en étapes simples pour vous aider à le comprendre et à le mettre en œuvre efficacement.
@@ -93,3 +99,9 @@ A1 : Oui, Aspose.Note pour .NET est capable de gérer efficacement des blocs-not
 ### Q5 : Où puis-je trouver la documentation pour Aspose.Note pour .NET ?
 
  A5 : Vous pouvez trouver la documentation[ici](https://reference.aspose.com/note/net/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

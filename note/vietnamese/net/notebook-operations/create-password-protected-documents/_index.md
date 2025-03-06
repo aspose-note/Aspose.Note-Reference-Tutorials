@@ -3,10 +3,16 @@ title: Tạo tài liệu được bảo vệ bằng mật khẩu trong Aspose No
 linktitle: Tạo tài liệu được bảo vệ bằng mật khẩu trong Aspose Note .NET
 second_title: Aspose.Note .NET API
 description: Tìm hiểu cách tạo tài liệu được bảo vệ bằng mật khẩu trong Aspose Note cho .NET để tăng cường bảo mật tài liệu. Hãy làm theo hướng dẫn từng bước của chúng tôi để dễ dàng thực hiện.
-type: docs
 weight: 18
 url: /vi/net/notebook-operations/create-password-protected-documents/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Tạo tài liệu được bảo vệ bằng mật khẩu trong Aspose Note .NET
+
 ## Giới thiệu
 
 Trong hướng dẫn này, chúng ta sẽ đi sâu vào quy trình tạo tài liệu được bảo vệ bằng mật khẩu bằng Aspose.Note cho .NET. Bảo mật tài liệu là điều tối quan trọng, đặc biệt là khi xử lý thông tin nhạy cảm. Với Aspose.Note, bạn có thể mã hóa tài liệu của mình để bảo vệ chúng khỏi bị truy cập trái phép. Chúng tôi sẽ hướng dẫn bạn các bước cần thiết để triển khai biện pháp bảo mật này một cách hiệu quả.
@@ -76,3 +82,9 @@ Câu trả lời 4: Có, Aspose.Note for .NET hỗ trợ các thuật toán mã 
 ### Câu hỏi 5: Tôi có thể dễ dàng tích hợp tính năng tạo tài liệu được bảo vệ bằng mật khẩu vào ứng dụng .NET của mình không?
 
 A5: Chắc chắn rồi! Aspose.Note for .NET cung cấp API đơn giản và trực quan, cho phép tích hợp liền mạch việc tạo tài liệu được bảo vệ bằng mật khẩu vào các ứng dụng .NET của bạn.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

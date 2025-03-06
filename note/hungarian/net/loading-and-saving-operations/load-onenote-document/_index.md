@@ -3,10 +3,16 @@ title: Töltse be a OneNote-dokumentumot az Aspose.Note-ba
 linktitle: Töltse be a OneNote-dokumentumot az Aspose.Note-ba
 second_title: Aspose.Note .NET API
 description: Ismerje meg, hogyan tölthet be, titkosíthat és dekódolhat programozottan OneNote-dokumentumokat .NET-ben az Aspose.Note segítségével.
-type: docs
 weight: 16
 url: /hu/net/loading-and-saving-operations/load-onenote-document/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Töltse be a OneNote-dokumentumot az Aspose.Note-ba
+
 ## Bevezetés
 
 Az Aspose.Note for .NET egy hatékony API, amely lehetővé teszi a fejlesztők számára, hogy programozottan dolgozzanak Microsoft OneNote fájlokkal .NET-alkalmazásaikban. Akár OneNote-dokumentumokat kell betölteni, kezelni vagy konvertálni, az Aspose.Note for .NET átfogó funkcionalitást biztosít a munkafolyamat egyszerűsítéséhez.
@@ -174,3 +180,9 @@ Ebben az oktatóanyagban megvizsgáltuk, hogyan tölthet be OneNote-dokumentumok
 ### 5. kérdés: Hogyan szerezhetek ideiglenes licencet az Aspose.Note for .NET számára?
 
  V5: Ideiglenes licencet kérhet a[Aspose vásárlási oldal](https://purchase.aspose.com/temporary-license/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -3,10 +3,16 @@ title: Uložit pomocí zadaného podsystému písem ve OneNotu
 linktitle: Uložit pomocí zadaného podsystému písem ve OneNotu
 second_title: Aspose.Note Java API
 description: Naučte se ukládat dokumenty OneNotu pomocí specifikovaného subsystému písem v Javě pomocí Aspose.Note. Zajistěte bez námahy konzistentní reprezentaci písem napříč platformami.
-type: docs
 weight: 22
 url: /cs/java/onenote-document-saving/save-using-specified-fonts-subsystem/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Uložit pomocí zadaného podsystému písem ve OneNotu
+
 ## Úvod
 
 Aspose.Note for Java poskytuje robustní možnosti pro práci s dokumenty OneNotu. Jedním společným požadavkem při práci s takovými dokumenty je zajištění správné údržby písem, zejména pokud má být dokument exportován nebo uložen v různých formátech, jako je PDF. Tento výukový program vás provede procesem ukládání dokumentů OneNotu při specifikaci podsystému písem, což zajistí konzistentní a přesnou reprezentaci textu na různých platformách.
@@ -152,3 +158,9 @@ Odpověď 4: Ano, pomocí Aspose.Note pro Java můžete upravit vlastnosti písm
 ### Q5: Je k dispozici zkušební verze pro Aspose.Note pro Java?
 
 A5: Ano, můžete získat bezplatnou zkušební verzi Aspose.Note pro Java z webu.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

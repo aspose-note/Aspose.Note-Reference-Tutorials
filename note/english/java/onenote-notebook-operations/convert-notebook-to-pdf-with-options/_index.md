@@ -3,10 +3,16 @@ title: Convert Notebook to PDF with Options in OneNote - Aspose.Note
 linktitle: Convert Notebook to PDF with Options in OneNote - Aspose.Note
 second_title: Aspose.Note Java API
 description: Customize & export OneNote notebooks to PDF with ease! Aspose.Note for Java handles the heavy lifting. Step-by-step guide included! #OneNote #Java #Aspose
-type: docs
 weight: 17
 url: /java/onenote-notebook-operations/convert-notebook-to-pdf-with-options/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Convert Notebook to PDF with Options in OneNote - Aspose.Note
+
 ## Introduction
 
 In this tutorial, we'll delve into the world of converting notebooks to PDF with customizable options using Aspose.Note for Java. Aspose.Note is a powerful Java API that allows developers to manipulate Microsoft OneNote documents programmatically. Converting notebooks to PDF format is a common requirement in various applications, and with Aspose.Note, this task becomes streamlined and efficient.
@@ -90,3 +96,10 @@ A4: You can find comprehensive documentation for Aspose.Note [here](https://refe
 ### Q5: How can I get support for Aspose.Note?
 
 A5: For any technical assistance or queries, you can visit the Aspose.Note support forum [here](https://forum.aspose.com/c/note/28).
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

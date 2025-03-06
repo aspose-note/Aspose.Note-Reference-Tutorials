@@ -3,10 +3,16 @@ title: Adjon hozzá alternatív szöveget az Aspose.Note képeihez
 linktitle: Adjon hozzá alternatív szöveget az Aspose.Note képeihez
 second_title: Aspose.Note .NET API
 description: Tanulja meg, hogyan adhat egyszerűen alternatív szöveget a képekhez az Aspose.Note for .NET alkalmazásban. Ezzel a lépésenkénti útmutatóval javíthatja a hozzáférhetőséget és javíthatja a felhasználói élményt.
-type: docs
 weight: 14
 url: /hu/net/images/image-alternative-text/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Adjon hozzá alternatív szöveget az Aspose.Note képeihez
+
 ## Bevezetés
 
 Alternatív szöveg hozzáadása a képekhez az Aspose.Note for .NET-ben javíthatja a fogyatékkal élő felhasználók hozzáférhetőségét és a képek jobb megértését. Ebben az oktatóanyagban lépésről lépésre végigvezetjük a folyamaton.
@@ -97,3 +103,9 @@ Alternatív szöveg hozzáadása a képekhez kulcsfontosságú a hozzáférhető
 ### 5. kérdés: Elérhető az Aspose.Note ingyenes próbaverziója?
 
 5. válasz: Igen, igénybe veheti az Aspose.Note ingyenes próbaverzióját, ha felkeresi[itt](https://releases.aspose.com/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

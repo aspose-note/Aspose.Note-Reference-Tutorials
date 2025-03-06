@@ -3,10 +3,16 @@ title: Aspose.Note ドキュメントのページ リビジョンを調べる
 linktitle: Aspose.Note ドキュメントのページ リビジョンを調べる
 second_title: Aspose.Note .NET API
 description: .NET Framework を使用して Aspose.Note ドキュメントのページ リビジョンを調査する方法を、ステップバイステップのガイダンスとともに学びます。
-type: docs
 weight: 14
 url: /ja/net/note-manipulation/page-revisions-exploration/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Aspose.Note ドキュメントのページ リビジョンを調べる
+
 ## 導入
 
 このチュートリアルでは、.NET Framework を使用した Aspose.Note ドキュメントのページ リビジョンの探索について詳しく説明します。 Aspose.Note は、開発者が Microsoft OneNote ファイルをプログラムで操作できるようにする強力なライブラリであり、これらのファイルからデータを操作および抽出するためのさまざまな機能を提供します。
@@ -88,3 +94,9 @@ A3: はい、Aspose.Note for .NET の無料トライアル版を次のサイト�
 ### Q5: Aspose.Note for .NET のサポートはどこで見つけられますか?
 
  A5: サポートとリソースは次のサイトで見つけることができます。[Aspose.Note フォーラム](https://forum.aspose.com/c/note/28).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

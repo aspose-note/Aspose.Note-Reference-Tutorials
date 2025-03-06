@@ -3,10 +3,16 @@ title: Thêm siêu liên kết vào hình ảnh trong OneNote bằng Java
 linktitle: Thêm siêu liên kết vào hình ảnh trong OneNote bằng Java
 second_title: API Java Aspose.Note
 description: Làm cho tài liệu OneNote mang tính tương tác! Tìm hiểu cách thêm siêu liên kết vào hình ảnh trong Java bằng Aspose.Note. Bao gồm các bước dễ dàng và ví dụ về mã! #OneNote #Java #Aspose
-type: docs
 weight: 11
 url: /vi/java/onenote-hyperlinks-images/add-hyperlink-to-image/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Thêm siêu liên kết vào hình ảnh trong OneNote bằng Java
+
 ## Giới thiệu
 
 Trong hướng dẫn này, chúng ta sẽ khám phá cách thêm siêu liên kết vào hình ảnh trong OneNote bằng Java. Hình ảnh siêu liên kết có thể nâng cao đáng kể tính tương tác và tính hữu ích của tài liệu của bạn, cho phép người dùng dễ dàng truy cập nội dung liên quan hoặc tài nguyên bên ngoài chỉ bằng một cú nhấp chuột đơn giản.
@@ -97,3 +103,9 @@ Câu trả lời 4: Mặc dù không có giới hạn cụ thể về độ dài
 ### Câu hỏi 5: Aspose.Note for Java có hỗ trợ các định dạng tài liệu khác ngoài OneNote không?
 
 Câu trả lời 5: Có, Aspose.Note for Java hỗ trợ nhiều định dạng tài liệu khác nhau, bao gồm các định dạng PDF, HTML và hình ảnh.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

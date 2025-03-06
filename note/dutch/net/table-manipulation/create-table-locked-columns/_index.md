@@ -3,10 +3,16 @@ title: Maak een tabel met vergrendelde kolommen met Aspose.Note
 linktitle: Maak een tabel met vergrendelde kolommen met Aspose.Note
 second_title: Aspose.Note .NET API
 description: Leer hoe u tabellen met vergrendelde kolommen maakt met Aspose.Note voor .NET. Stapsgewijze handleiding voor efficiënte documentverwerkingstaken.
-type: docs
 weight: 12
 url: /nl/net/table-manipulation/create-table-locked-columns/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Maak een tabel met vergrendelde kolommen met Aspose.Note
+
 ## Invoering
 
 Het maken van tabellen met vergrendelde kolommen is een veel voorkomende vereiste in documentverwerkingstoepassingen. Aspose.Note voor .NET biedt krachtige tools om deze taak efficiënt uit te voeren. In deze zelfstudie begeleiden we u stap voor stap bij het maken van een tabel met vergrendelde kolommen met behulp van Aspose.Note voor .NET.
@@ -147,3 +153,9 @@ A4: Ja, u kunt toegang krijgen tot technische ondersteuning via de[Aspose.Note-f
 ### V5: Kan ik Aspose.Note voor .NET uitproberen voordat ik een aankoop doe?
 
  A5: Ja, u kunt een gratis proefversie van Aspose.Note voor .NET downloaden van[hier](https://releases.aspose.com/) om de functies en compatibiliteit ervan met uw vereisten te evalueren.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

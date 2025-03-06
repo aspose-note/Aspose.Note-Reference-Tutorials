@@ -3,10 +3,16 @@ title: Aspose.Note'ta Metin Yazım Denetleme Dilini Ayarlama
 linktitle: Aspose.Note'ta Metin Yazım Denetleme Dilini Ayarlama
 second_title: Aspose.Note .NET API'si
 description: Aspose.Note for .NET ile güçlü metin manipülasyonunun kilidini açın. Adım adım rehberlikle yazım denetleme dilini zahmetsizce ayarlayın. .NET projelerinizi şimdi geliştirin!
-type: docs
 weight: 25
 url: /tr/net/text-manipulation/set-proofing-language-text/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Aspose.Note'ta Metin Yazım Denetleme Dilini Ayarlama
+
 ## giriiş
 .NET için Aspose.Note dünyasına hoş geldiniz! Bu kapsamlı kılavuzda Aspose.Note'u kullanarak metin için yazım denetleme dilini ayarlamanın büyüleyici sürecini keşfedeceğiz. İster deneyimli bir geliştirici olun ister Aspose.Note'a yeni başlıyor olun, bu eğitim size metin işleme becerilerinizi geliştirmek için ayrıntılı bilgiler ve adım adım talimatlar sağlayacaktır.
 ## Önkoşullar
@@ -89,3 +95,9 @@ Kesinlikle! Aspose.Note, en yeni .NET çerçeveleriyle uyumluluğu sağlamak iç
  Kesinlikle! Aspose.Note for .NET'in ücretsiz deneme sürümüne erişebilirsiniz[Burada](https://releases.aspose.com/).
 ### Sorunlarla mı karşılaşıyorsunuz veya yardıma mı ihtiyacınız var?
  Ziyaret edin[Aspose.Note destek forumu](https://forum.aspose.com/c/note/28) toplulukla bağlantı kurmak ve uzman yardımı almak için.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

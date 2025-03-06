@@ -3,10 +3,16 @@ title: تحويل دفتر الملاحظات إلى صورة مسطحة في On
 linktitle: تحويل دفتر الملاحظات إلى صورة مسطحة في OneNote - Aspose.Note
 second_title: Aspose.Note جافا API
 description: تعرف على كيفية تحويل دفتر ملاحظات إلى صورة مسطحة في OneNote باستخدام Aspose.Note لـ Java. الحفاظ على جميع العناصر في ملف صورة واحد دون عناء.
-type: docs
 weight: 13
 url: /ar/java/onenote-notebook-operations/convert-notebook-to-flattened-image/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# تحويل دفتر الملاحظات إلى صورة مسطحة في OneNote - Aspose.Note
+
 ## مقدمة
 
 في هذا البرنامج التعليمي، سنرشدك خلال عملية تحويل دفتر ملاحظات إلى صورة مسطحة في OneNote باستخدام Aspose.Note لـ Java. يتيح لك ذلك حفظ دفتر الملاحظات الخاص بك كملف صورة، مما يضمن الحفاظ على جميع العناصر بتنسيق صورة واحدة.
@@ -108,3 +114,9 @@ notebook.save(dataDir + "ExportImageasFlattenedNotebook_out.png", saveOptions);
 ### س5: أين يمكنني العثور على دعم لـ Aspose.Note لـ Java؟
 
  ج5: يمكنك العثور على الدعم والموارد في منتدى Aspose.Note[هنا](https://forum.aspose.com/c/note/28).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

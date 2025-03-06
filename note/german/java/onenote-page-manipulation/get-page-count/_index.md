@@ -3,10 +3,16 @@ title: Seitenzahl in OneNote abrufen – Aspose.Note
 linktitle: Seitenzahl in OneNote abrufen – Aspose.Note
 second_title: Aspose.Note Java API
 description: Erfahren Sie, wie Sie mit Aspose.Note für Java die Seitenzahl in OneNote-Dokumenten abrufen. Dieses Schritt-für-Schritt-Tutorial führt Sie mühelos durch den Prozess.
-type: docs
 weight: 13
 url: /de/java/onenote-page-manipulation/get-page-count/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Seitenzahl in OneNote abrufen – Aspose.Note
+
 ## Einführung
 
 In diesem Tutorial erfahren Sie, wie Sie Aspose.Note für Java verwenden, um die Seitenzahl in einem OneNote-Dokument effizient abzurufen. Aspose.Note ist eine leistungsstarke Java-API, die es Entwicklern ermöglicht, programmgesteuert mit Microsoft OneNote-Dateien zu arbeiten und Aufgaben wie Dokumentbearbeitung, -extraktion und -konvertierung zu ermöglichen.
@@ -86,3 +92,9 @@ A4: Ja, Sie können auf die Dokumentation und die Foren zugreifen[Aspose-Website
 ### F5: Gibt es eine Testversion von Aspose.Note für Java zu Testzwecken?
 
  A5: Ja, Sie können eine kostenlose Testversion herunterladen[Veröffentlichungsseite](https://releases.aspose.com/) um die Fähigkeiten der API zu bewerten.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

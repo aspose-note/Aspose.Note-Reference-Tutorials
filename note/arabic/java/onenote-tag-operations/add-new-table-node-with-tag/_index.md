@@ -3,10 +3,16 @@ title: إضافة عقدة جدول جديدة مع علامة في OneNote - As
 linktitle: إضافة عقدة جدول جديدة مع علامة في OneNote - Aspose.Note
 second_title: Aspose.Note جافا API
 description: تعرف على كيفية إضافة عقد الجدول الديناميكي مع العلامات في OneNote باستخدام Aspose.Note لـ Java. قم بتحسين تنظيم المستندات الخاصة بك دون عناء.
-type: docs
 weight: 11
 url: /ar/java/onenote-tag-operations/add-new-table-node-with-tag/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# إضافة عقدة جدول جديدة مع علامة في OneNote - Aspose.Note
+
 ## مقدمة
 هل تتطلع إلى تحسين مستندات OneNote الخاصة بك عن طريق إضافة عقدة جدول جديدة بعلامة؟ مع Aspose.Note لـ Java، تصبح هذه المهمة واضحة، مما يسمح لك بإنشاء محتوى ديناميكي ومنظم. في هذا الدليل خطوة بخطوة، سنرشدك خلال عملية إضافة عقدة جدول جديدة بعلامة في OneNote باستخدام Aspose.Note لـ Java.
 ## المتطلبات الأساسية
@@ -98,3 +104,9 @@ doc.save(dataDir + "AddNewTableNodeWithTag_out.pdf", SaveFormat.Pdf);
  قم بزيارة[Aspose.Note وثائق جافا](https://reference.aspose.com/note/java/) للحصول على أمثلة ووثائق شاملة.
 ### كيف يمكنني الحصول على الدعم لـ Aspose.Note لـ Java؟
  قم بزيارة[منتدى Aspose.Note](https://forum.aspose.com/c/note/28) لدعم المجتمع أو[شراء خطة الدعم](https://purchase.aspose.com/buy) للمساعدة المخصصة.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -3,10 +3,16 @@ title: Teruggaan naar de vorige paginaversie in OneNote - Aspose.Note
 linktitle: Teruggaan naar de vorige paginaversie in OneNote - Aspose.Note
 second_title: Aspose.Note Java-API
 description: Leer hoe u teruggaat naar vorige paginaversies in OneNote met behulp van Aspose.Note voor Java. Volg deze stapsgewijze handleiding voor efficiënt documentbeheer.
-type: docs
 weight: 19
 url: /nl/java/onenote-page-manipulation/roll-back-to-previous-page-version/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Teruggaan naar de vorige paginaversie in OneNote - Aspose.Note
+
 ## Invoering
 
 In deze zelfstudie gaan we dieper in op het gebruik van Aspose.Note voor Java om terug te gaan naar een eerdere versie van een pagina in OneNote. OneNote is een krachtig hulpmiddel voor het maken van aantekeningen, samenwerking en organisatie, maar af en toe gebeuren er fouten of moeten wijzigingen worden teruggedraaid. Aspose.Note biedt naadloze integratie met Java, waardoor ontwikkelaars de mogelijkheid hebben om OneNote-documenten programmatisch te beheren. Teruggaan naar een vorige paginaversie is een cruciale functie voor het behouden van de nauwkeurigheid en integriteit van uw OneNote-documenten.
@@ -91,3 +97,9 @@ A: Absoluut, Aspose.Note biedt uitgebreide mogelijkheden voor het programmatisch
 ### V5: Is er een communityforum of ondersteuning beschikbaar voor Aspose.Note?
 
  A: Ja, u kunt de[Aspose.Note-forum](https://forum.aspose.com/c/note/28) voor gemeenschapsondersteuning of neem contact op met de klantenondersteuning van Aspose voor hulp.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

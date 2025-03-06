@@ -3,10 +3,16 @@ title: Java에서 OneNote의 정액 라이선스 관리
 linktitle: Java에서 OneNote의 정액 라이선스 관리
 second_title: Aspose.Note 자바 API
 description: Aspose.Note 라이브러리를 사용하여 Java에서 OneNote의 계량 라이선스를 관리하는 방법을 알아보세요. 사용량을 제어하고, 크레딧을 모니터링하고, 비용을 효율적으로 최적화하세요.
-type: docs
 weight: 10
 url: /ko/java/licensing-java/manage-metered-license/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Java에서 OneNote의 정액 라이선스 관리
+
 ## 소개
 
 이 튜토리얼에서는 Java용 Aspose.Note를 사용하여 OneNote의 계량 라이선스를 관리하는 방법을 알아봅니다. 측정된 라이선스를 사용하면 크레딧을 기준으로 사용량을 모니터링하고 제어할 수 있어 유연하고 비용 효율적인 솔루션을 제공할 수 있습니다.
@@ -85,3 +91,9 @@ A3: 예, 계량형 라이선스는 여러 애플리케이션에서 사용할 수
 ### Q5: Java용 Aspose.Note에 대한 지원은 어디서 받을 수 있나요?
 
  A5: Aspose 커뮤니티 포럼에서 지원을 받을 수 있습니다.[여기](https://forum.aspose.com/c/note/28).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

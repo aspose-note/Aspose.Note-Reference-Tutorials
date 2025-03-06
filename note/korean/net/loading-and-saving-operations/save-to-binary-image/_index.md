@@ -3,10 +3,16 @@ title: Aspose.Note에서 바이너리 이미지로 저장
 linktitle: Aspose.Note에서 바이너리 이미지로 저장
 second_title: Aspose.Note .NET API
 description: .NET용 Aspose.Note를 사용하여 문서를 바이너리 이미지로 변환하는 방법을 알아보세요. 원활한 통합을 위한 단계별 가이드를 따르세요.
-type: docs
 weight: 22
 url: /ko/net/loading-and-saving-operations/save-to-binary-image/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Aspose.Note에서 바이너리 이미지로 저장
+
 ## 소개
 
 이 튜토리얼에서는 .NET용 Aspose.Note를 사용하여 문서를 바이너리 이미지로 저장하는 방법을 살펴보겠습니다. 이 프로세스에는 문서를 고정된 임계값을 사용하여 흑백 이미지로 변환하는 작업이 포함되며, 이는 다양한 응용 프로그램에 유용할 수 있습니다.
@@ -97,3 +103,9 @@ A4: 예, 여러 문서를 반복하여 유사한 코드를 사용하여 이진 �
 ### Q5: Aspose.Note에 대한 추가 리소스와 지원은 어디서 찾을 수 있나요?
 
  A5: 다음을 탐색할 수 있습니다.[Aspose.Note 문서](https://reference.aspose.com/note/net/)그리고 해당 기관의 도움을 구하세요.[Aspose.Note 포럼](https://forum.aspose.com/c/note/28) 문의 사항이나 문제가 있으면.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

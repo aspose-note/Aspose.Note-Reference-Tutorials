@@ -3,10 +3,16 @@ title: Állítsa be az oldalak háttérszínét az Aspose.Note-ban
 linktitle: Állítsa be az oldalak háttérszínét az Aspose.Note-ban
 second_title: Aspose.Note .NET API
 description: Ismerje meg, hogyan állíthatja be az oldalak háttérszínét az Aspose.Note dokumentumokban C# programozási nyelv használatával, lépésről lépésre.
-type: docs
 weight: 19
 url: /hu/net/note-manipulation/set-page-background-color/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Állítsa be az oldalak háttérszínét az Aspose.Note-ban
+
 ## Bevezetés
 
 Az Aspose.Note for .NET lehetővé teszi a fejlesztők számára, hogy programozottan kezeljék a OneNote-dokumentumokat. Az egyik gyakori feladat az oldalak háttérszínének beállítása ezeken a dokumentumokon belül. Ebben az oktatóanyagban lépésről lépésre végigvezetjük a folyamaton.
@@ -97,3 +103,9 @@ Az alábbi lépések követésével egyszerűen beállíthatja a OneNote-dokumen
 ### 5. kérdés: Hol találhatok további támogatást, vagy hol tehetek fel kérdéseket az Aspose.Note-tal kapcsolatban?
 
  A5: Meglátogathatja a[Aspose.Note fórum](https://forum.aspose.com/c/note/28) támogatásért és más felhasználókkal való kapcsolattartásért.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

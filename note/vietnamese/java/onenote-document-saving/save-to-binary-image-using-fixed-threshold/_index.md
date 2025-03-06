@@ -3,10 +3,16 @@ title: Lưu vào hình ảnh nhị phân bằng ngưỡng cố định trong One
 linktitle: Lưu vào hình ảnh nhị phân bằng ngưỡng cố định trong OneNote
 second_title: API Java Aspose.Note
 description: Dễ dàng lưu tài liệu Microsoft OneNote dưới dạng hình ảnh nhị phân bằng cách sử dụng ngưỡng cố định với Aspose.Note Java. Nâng cao khả năng thao tác tệp OneNote của bạn.
-type: docs
 weight: 14
 url: /vi/java/onenote-document-saving/save-to-binary-image-using-fixed-threshold/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Lưu vào hình ảnh nhị phân bằng ngưỡng cố định trong OneNote
+
 ## Giới thiệu
 
 Aspose.Note for Java là một API mạnh mẽ cho phép các nhà phát triển làm việc với các tệp Microsoft OneNote theo chương trình. Trong hướng dẫn này, chúng ta sẽ khám phá cách lưu tài liệu dưới dạng ảnh nhị phân bằng một ngưỡng cố định. Thực hiện theo các bước dưới đây để đạt được điều này.
@@ -91,3 +97,9 @@ A4: Có, bạn có thể xử lý hàng loạt nhiều tài liệu OneNote bằn
 ### Câu hỏi 5: Aspose.Note for Java có hỗ trợ kỹ thuật không?
 
  Câu trả lời 5: Có, hỗ trợ kỹ thuật được cung cấp thông qua[Diễn đàn Aspose.Note](https://forum.aspose.com/c/note/28), nơi bạn có thể đặt câu hỏi và tìm kiếm sự trợ giúp từ các chuyên gia.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

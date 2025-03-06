@@ -3,10 +3,16 @@ title: Převeďte Poznámkový blok do PDF pomocí možností ve OneNotu – Asp
 linktitle: Převeďte Poznámkový blok do PDF pomocí možností ve OneNotu – Aspose.Note
 second_title: Aspose.Note Java API
 description: Snadno si přizpůsobte a exportujte poznámkové bloky OneNote do PDF! Aspose.Note for Java zvládá těžké zvedání. Včetně průvodce krok za krokem! #OneNote #Java #Aspose
-type: docs
 weight: 17
 url: /cs/java/onenote-notebook-operations/convert-notebook-to-pdf-with-options/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Převeďte Poznámkový blok do PDF pomocí možností ve OneNotu – Aspose.Note
+
 ## Úvod
 
 V tomto tutoriálu se ponoříme do světa převodu poznámkových bloků do PDF s přizpůsobitelnými možnostmi pomocí Aspose.Note pro Java. Aspose.Note je výkonné Java API, které umožňuje vývojářům manipulovat s dokumenty Microsoft OneNote programově. Převod poznámkových bloků do formátu PDF je běžným požadavkem v různých aplikacích as Aspose.Note se tento úkol stává jednodušším a efektivním.
@@ -90,3 +96,9 @@ Odpověď 2: Aspose.Note podporuje Microsoft OneNote 2010 a novější verze.
 ### Q5: Jak mohu získat podporu pro Aspose.Note?
 
  A5: Pro jakoukoli technickou pomoc nebo dotazy můžete navštívit fórum podpory Aspose.Note[tady](https://forum.aspose.com/c/note/28).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

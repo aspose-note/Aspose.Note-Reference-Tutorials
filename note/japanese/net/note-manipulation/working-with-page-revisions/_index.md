@@ -3,10 +3,16 @@ title: OneNote ドキュメントのページ改訂をマスターする
 linktitle: OneNote ドキュメントのページ改訂をマスターする
 second_title: Aspose.Note .NET API
 description: Aspose.Note を使用して Microsoft OneNote ページのリビジョンを管理する方法を学びます。 .NET アプリケーションでのシームレスな統合とバージョン管理のためのステップバイステップのガイド。
-type: docs
 weight: 20
 url: /ja/net/note-manipulation/working-with-page-revisions/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# OneNote ドキュメントのページ改訂をマスターする
+
 ## 導入
 
 .NET 開発の分野では、Aspose.Note は Microsoft OneNote ファイルを効率的に処理するための多用途ツールとして際立っています。 Aspose.Note の特に便利な機能の 1 つは、ページ リビジョンをシームレスに管理できることです。このチュートリアルでは、Aspose.Note for .NET を使用したページ リビジョンの複雑な作業について詳しく説明します。
@@ -112,3 +118,9 @@ A4: Aspose.Note は、多数のリビジョンを効率的に処理できるよ�
 ### Q5: Aspose.Note を使用してページ リビジョンを管理するプロセスを自動化できますか?
 
 A5: はい、Aspose.Note は、開発者がページ リビジョンに関連するタスクを自動化し、ワークフロー プロセスを合理化できるようにする包括的な API を提供します。
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

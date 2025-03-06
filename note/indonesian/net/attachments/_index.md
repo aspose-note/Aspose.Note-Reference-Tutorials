@@ -3,10 +3,16 @@ title: Lampiran File dan Pengambilan di dokumen OneNote
 linktitle: Lampiran
 second_title: Aspose.Catatan .NET API
 description: Tingkatkan aplikasi .NET Anda dengan Aspose.Note! Jelajahi tutorial tentang melampirkan file, mengatur ikon, dan mengambil lampiran untuk pengembangan yang lebih baik.
-type: docs
 weight: 21
 url: /id/net/attachments/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Lampiran File dan Pengambilan di dokumen OneNote
+
 ## Perkenalan
 
 Apakah Anda siap membawa aplikasi .NET Anda ke level selanjutnya? Selami dunia Aspose.Note dan buka berbagai kemungkinan. Daftar tutorial komprehensif ini akan memandu Anda melalui fitur-fitur utama, dengan fokus pada melampirkan file, mengatur ikon, dan mengambil file terlampir dengan lancar.
@@ -37,3 +43,9 @@ Pelajari cara melampirkan file dan mengatur ikon di Aspose.Note untuk .NET. Ting
 Pelajari cara melampirkan file ke dokumen Microsoft OneNote secara terprogram menggunakan Aspose.Note untuk .NET. Sederhanakan proses pengembangan Anda dengan tutorial komprehensif ini.
 ### [Ambil File Terlampir dengan Aspose.Note](./retrieve-attached-files/)
 Pelajari cara mengambil file lampiran dari dokumen Microsoft OneNote menggunakan Aspose.Note untuk .NET. Ikuti langkah-langkah untuk memuat, mendapatkan node, dan melakukan iterasi melalui lampiran.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

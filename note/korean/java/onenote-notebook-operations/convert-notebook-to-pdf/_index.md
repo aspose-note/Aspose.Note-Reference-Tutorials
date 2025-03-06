@@ -3,10 +3,16 @@ title: OneNote에서 노트북을 PDF로 변환 - Aspose.Note
 linktitle: OneNote에서 노트북을 PDF로 변환 - Aspose.Note
 second_title: Aspose.Note 자바 API
 description: Aspose.Note for Java를 사용하여 OneNote 노트북을 PDF 형식으로 변환하는 방법을 알아보세요. Java 애플리케이션에 원활하게 통합하려면 이 단계별 가이드를 따르세요.
-type: docs
 weight: 15
 url: /ko/java/onenote-notebook-operations/convert-notebook-to-pdf/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# OneNote에서 노트북을 PDF로 변환 - Aspose.Note
+
 ## 소개
 
 이 튜토리얼에서는 Aspose.Note for Java를 사용하여 노트북을 PDF 형식으로 변환하는 과정을 안내합니다. Aspose.Note는 Microsoft OneNote 파일을 프로그래밍 방식으로 작업하여 PDF로 변환과 같은 작업을 자동화할 수 있는 강력한 라이브러리입니다.
@@ -88,3 +94,9 @@ A4: 예, Aspose 웹사이트에서 무료 평가판을 다운로드하여 구매
 ### Q5: Aspose.Note for Java에 대한 추가 도움말과 지원은 어디서 찾을 수 있나요?
 
  A5: 다음을 방문할 수 있습니다.[Aspose.Note 포럼](https://forum.aspose.com/c/note/28) 도서관 이용 중 발생하는 질문이나 문제에 대한 도움을 받으십시오.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

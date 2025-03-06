@@ -3,10 +3,16 @@ title: OneSaveOptions を使用してドキュメントを OneNote に保存す�
 linktitle: OneSaveOptions を使用してドキュメントを OneNote に保存する - Aspose.Note
 second_title: Aspose.Note Java API
 description: Aspose.Note for Java の OneSaveOptions を使用してドキュメントを OneNote 形式で保存する方法を学習します。この包括的なチュートリアルでワークフローを強化します。
-type: docs
 weight: 11
 url: /ja/java/onenote-document-saving/save-document-to-onenote-format-using-onesaveoptions/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# OneSaveOptions を使用してドキュメントを OneNote に保存する - Aspose.Note
+
 ## 導入
 
 このチュートリアルでは、Aspose.Note for Java の OneSaveOptions を使用してドキュメントを OneNote 形式で保存するプロセスを詳しく説明します。 Aspose.Note は、プログラムによる OneNote ドキュメントの操作と管理を容易にする強力な Java API です。このステップバイステップ ガイドに従うことで、OneNote 形式との互換性を確保しながらドキュメントを効率的に保存する方法を学びます。
@@ -74,3 +80,9 @@ A4: もちろん、Aspose.Note for Java はエンタープライズ レベルの
 ### Q5: Aspose.Note for Java のサポートや追加リソースはどこで見つけられますか?
 
  A5: Aspose.Note for Java の包括的なドキュメント、チュートリアル、フォーラムは、次の場所にあります。[Aspose ウェブサイト](https://forum.aspose.com/c/note/28).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

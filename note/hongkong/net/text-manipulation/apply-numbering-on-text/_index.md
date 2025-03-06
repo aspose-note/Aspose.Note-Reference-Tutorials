@@ -3,10 +3,16 @@ title: 在 Aspose.Note 中對文字套用編號
 linktitle: 在 Aspose.Note 中對文字套用編號
 second_title: Aspose.Note .NET API
 description: 透過這個綜合教程，了解如何在 Aspose.Note for .NET 中套用文字編號。輕鬆增強文件格式。
-type: docs
 weight: 12
 url: /zh-hant/net/text-manipulation/apply-numbering-on-text/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# 在 Aspose.Note 中對文字套用編號
+
 ## 介紹
 Aspose.Note for .NET 為 C# 應用程式中的文件操作提供了強大的工具。在本教程中，我們將探索使用 Aspose.Note 在文字上套用編號的過程。請按照這些逐步說明輕鬆增強文件格式。
 ## 先決條件
@@ -81,3 +87,9 @@ Aspose.Note 提供了廣泛的格式選項，包括字體樣式、顏色等。
 當然！您可以探索免費試用[這裡](https://releases.aspose.com/).
 ### 5. 我可以在哪裡獲得Aspose.Note的支援？
 如需任何協助或疑問，請訪問[Aspose.Note 論壇](https://forum.aspose.com/c/note/28).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

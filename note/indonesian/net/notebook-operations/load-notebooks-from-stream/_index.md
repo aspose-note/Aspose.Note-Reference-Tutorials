@@ -3,10 +3,16 @@ title: Muat Notebook dari Stream di Aspose Note .NET
 linktitle: Muat Notebook dari Stream di Aspose Note .NET
 second_title: Aspose.Catatan .NET API
 description: Pelajari cara memuat buku catatan dari aliran di Aspose.Note untuk .NET. Ikuti panduan langkah demi langkah ini untuk integrasi yang lancar ke dalam aplikasi .NET Anda.
-type: docs
 weight: 19
 url: /id/net/notebook-operations/load-notebooks-from-stream/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Muat Notebook dari Stream di Aspose Note .NET
+
 ## Perkenalan
 
 Dalam tutorial ini, kita akan mempelajari cara memuat buku catatan dari aliran menggunakan Aspose.Note untuk .NET. Aspose.Note adalah perpustakaan canggih yang memungkinkan pengembang bekerja dengan file Microsoft OneNote secara terprogram. Memuat buku catatan dari aliran adalah tugas umum ketika menangani operasi input/output file dalam aplikasi .NET.
@@ -92,3 +98,9 @@ A1: Ya, Aspose.Note untuk .NET mendukung berbagai versi file OneNote, termasuk .
 ### Q5: Apakah ada pilihan untuk lisensi sementara?
 
  A5: Ya, Anda bisa mendapatkan lisensi sementara dari[Di Sini](https://purchase.aspose.com/temporary-license/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

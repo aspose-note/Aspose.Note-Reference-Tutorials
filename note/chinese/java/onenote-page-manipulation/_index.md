@@ -3,10 +3,16 @@ title: OneNote 页面操作
 linktitle: OneNote 页面操作
 second_title: Aspose.Note Java API
 description: 使用 Aspose.Note for Java 在 OneNote 中管理冲突页面、创建有组织的文档并跟踪修订。高效文档管理的分步教程。
-type: docs
 weight: 29
 url: /zh/java/onenote-page-manipulation/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# OneNote 页面操作
+
 
 ## 介绍
 
@@ -74,3 +80,9 @@ url: /zh/java/onenote-page-manipulation/
 了解如何使用 Aspose.Note for Java 在 OneNote 中轻松设置页面背景颜色。通过这个简单的教程增强文档的视觉吸引力。
 ### [在 OneNote 中处理页面修订 - Aspose.Note](./working-with-page-revisions/)
 了解如何使用 Aspose.Note for Java 管理 OneNote 文档中的页面修订。本教程提供了有效的修订跟踪和协作的分步指南。
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

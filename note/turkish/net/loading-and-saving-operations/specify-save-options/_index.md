@@ -3,10 +3,16 @@ title: Aspose.Note'ta Kaydetme Seçeneklerini Belirleyin
 linktitle: Aspose.Note'ta Kaydetme Seçeneklerini Belirleyin
 second_title: Aspose.Note .NET API'si
 description: OneNote belgelerinin çıktı formatını ve kalitesini özelleştirmek için Aspose.Note for .NET'te kaydetme seçeneklerini nasıl belirleyeceğinizi öğrenin.
-type: docs
 weight: 30
 url: /tr/net/loading-and-saving-operations/specify-save-options/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Aspose.Note'ta Kaydetme Seçeneklerini Belirleyin
+
 ## giriiş
 
 .NET geliştirme alanında Aspose.Note, OneNote belgeleriyle çalışmak için güçlü bir araç olarak öne çıkıyor. Bu dosyaları verimli bir şekilde işlemek ve yönetmek için kapsamlı bir dizi özellik sunar. Aspose.Note ile çalışmanın en önemli yönlerinden biri, geliştiricilerin çıktı formatını ve kalitesini kendi gereksinimlerine göre özelleştirmelerine olanak tanıyan kaydetme seçeneklerini belirlemektir.
@@ -94,3 +100,9 @@ Cevap4: Aspose.Note, dosya boyutunda önemli sınırlamalar getirmeden, küçük
 ### S5: Aspose.Note, sorunlarla karşılaşan geliştiricilere destek ve yardım sunuyor mu?
 
 C5: Evet, geliştiriciler, herhangi bir sorunun veya sorgunun zamanında çözülmesi için forum aracılığıyla veya doğrudan Aspose ile iletişime geçerek Aspose.Note destek ekibinden yardım ve yardım isteyebilirler.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

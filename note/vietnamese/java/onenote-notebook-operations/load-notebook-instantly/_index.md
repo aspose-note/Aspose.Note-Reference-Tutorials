@@ -3,10 +3,16 @@ title: Tải sổ ghi chép ngay lập tức trong OneNote - Aspose.Note
 linktitle: Tải sổ ghi chép ngay lập tức trong OneNote - Aspose.Note
 second_title: API Java Aspose.Note
 description: Tìm hiểu cách tải ngay sổ ghi chép OneNote trong Java bằng Aspose.Note for Java. Cải thiện năng suất của bạn với việc xử lý máy tính xách tay hiệu quả.
-type: docs
 weight: 21
 url: /vi/java/onenote-notebook-operations/load-notebook-instantly/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Tải sổ ghi chép ngay lập tức trong OneNote - Aspose.Note
+
 ## Giới thiệu
 
 Trong hướng dẫn này, chúng tôi sẽ hướng dẫn bạn quy trình tải sổ ghi chép ngay lập tức trong OneNote bằng Aspose.Note cho Java. Aspose.Note là một API Java mạnh mẽ cho phép các nhà phát triển làm việc với các tệp Microsoft OneNote theo chương trình.
@@ -87,3 +93,9 @@ Câu trả lời 2: Aspose.Note for Java hỗ trợ nhiều phiên bản khác n
 ### Câu hỏi 5: Làm cách nào tôi có thể nhận được giấy phép tạm thời cho Aspose.Note cho Java?
 
  Câu trả lời 5: Bạn có thể yêu cầu giấy phép tạm thời từ[trang giấy phép tạm thời](https://purchase.aspose.com/temporary-license/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

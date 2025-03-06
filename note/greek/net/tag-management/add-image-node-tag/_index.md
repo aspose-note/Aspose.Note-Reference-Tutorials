@@ -3,10 +3,16 @@ title: Προσθήκη κόμβου εικόνας με ετικέτα στο A
 linktitle: Προσθήκη κόμβου εικόνας με ετικέτα στο Aspose.Note
 second_title: Aspose.Note .NET API
 description: Μάθετε πώς να βελτιώσετε τα έγγραφά σας στο OneNote προσθέτοντας εικόνες με προσαρμοσμένες ετικέτες χρησιμοποιώντας το Aspose.Note για .NET.
-type: docs
 weight: 10
 url: /el/net/tag-management/add-image-node-tag/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Προσθήκη κόμβου εικόνας με ετικέτα στο Aspose.Note
+
 ## Εισαγωγή
 
 Σε αυτό το σεμινάριο, θα διερευνήσουμε πώς να προσθέσετε έναν κόμβο εικόνας με μια ετικέτα χρησιμοποιώντας το Aspose.Note για .NET. Αυτή η δυνατότητα σάς επιτρέπει να βελτιώσετε τα έγγραφά σας στο OneNote προσθέτοντας εικόνες με προσαρμοσμένες ετικέτες.
@@ -110,3 +116,9 @@ A4: Το Aspose.Note υποστηρίζει κυρίως την προσθήκη
 ### Ε5: Υπάρχουν περιορισμοί στο μέγεθος ή τη μορφή των εικόνων που μπορούν να προστεθούν;
 
 A5: Το Aspose.Note υποστηρίζει ένα ευρύ φάσμα μορφών εικόνας και δεν επιβάλλει αυστηρούς περιορισμούς στο μέγεθος της εικόνας, επιτρέποντάς σας να ενσωματώνετε διάφορα οπτικά στοιχεία στα έγγραφά σας.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -3,10 +3,16 @@ title: Aspose.Note에서 TIFF 이미지로 저장
 linktitle: Aspose.Note에서 TIFF 이미지로 저장
 second_title: Aspose.Note .NET API
 description: .NET용 Aspose.Note를 사용하여 다양한 압축 방법을 사용하여 OneNote 문서를 TIFF 이미지로 저장하는 방법을 알아보세요.
-type: docs
 weight: 27
 url: /ko/net/loading-and-saving-operations/save-to-tiff-image/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Aspose.Note에서 TIFF 이미지로 저장
+
 ## 소개
 
 이 튜토리얼에서는 .NET용 Aspose.Note를 사용하여 문서를 TIFF 형식의 이미지로 저장하는 방법을 살펴보겠습니다. Aspose.Note는 개발자가 Microsoft OneNote 파일을 프로그래밍 방식으로 작업할 수 있는 강력한 API입니다. OneNote 문서를 TIFF 이미지로 저장하면 보관, 공유, 인쇄 등 다양한 응용 프로그램에 유용할 수 있습니다.
@@ -131,3 +137,9 @@ A4: 예, Aspose.Note API를 사용한 일괄 처리를 사용하여 변환 프�
 ### Q5: Aspose.Note에 사용할 수 있는 평가판이 있습니까?
 
 A5: 예, Aspose.Note의 무료 평가판을 받을 수 있습니다.[여기](https://releases.aspose.com/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

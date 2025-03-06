@@ -3,10 +3,16 @@ title: Καθορίστε τις επιλογές αποθήκευσης στο 
 linktitle: Καθορίστε τις επιλογές αποθήκευσης στο OneNote - Aspose.Note
 second_title: Aspose.Note Java API
 description: Μάθετε πώς να ορίζετε επιλογές αποθήκευσης στο OneNote χρησιμοποιώντας το Aspose.Note για Java. Προσαρμόστε τις ρυθμίσεις ευρετηρίου, καταμέτρησης και συμπίεσης σελίδων χωρίς κόπο.
-type: docs
 weight: 24
 url: /el/java/onenote-document-saving/specify-save-options/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Καθορίστε τις επιλογές αποθήκευσης στο OneNote - Aspose.Note
+
 ## Εισαγωγή
 
 Σε αυτό το σεμινάριο, θα μάθουμε πώς να ορίζουμε επιλογές αποθήκευσης στο OneNote χρησιμοποιώντας το Aspose.Note για Java. Το Aspose.Note είναι μια ισχυρή βιβλιοθήκη Java που επιτρέπει στους προγραμματιστές να δημιουργούν, να χειρίζονται και να μετατρέπουν έγγραφα OneNote μέσω προγραμματισμού. Με το Aspose.Note, μπορείτε εύκολα να ελέγξετε διάφορες επιλογές αποθήκευσης για να προσαρμόσετε την έξοδο σύμφωνα με τις απαιτήσεις σας.
@@ -109,3 +115,9 @@ A4: Ναι, το Aspose.Note παρέχει API για κρυπτογράφησ�
 ### Ε5: Είναι το Aspose.Note κατάλληλο για εμπορική χρήση;
 
 A5: Ναι, το Aspose.Note μπορεί να χρησιμοποιηθεί για εμπορικούς σκοπούς με την αγορά άδειας χρήσης.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

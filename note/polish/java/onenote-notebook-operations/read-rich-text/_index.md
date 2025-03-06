@@ -3,10 +3,16 @@ title: Czytaj tekst sformatowany z notesu programu OneNote — Aspose.Note
 linktitle: Czytaj tekst sformatowany z notesu programu OneNote — Aspose.Note
 second_title: Aspose.Note API Java
 description: Dowiedz się, jak czytać tekst sformatowany z notatników OneNote przy użyciu Aspose.Note dla Java. Ulepsz swoje aplikacje Java dzięki płynnej integracji z programem OneNote.
-type: docs
 weight: 23
 url: /pl/java/onenote-notebook-operations/read-rich-text/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Czytaj tekst sformatowany z notesu programu OneNote — Aspose.Note
+
 ## Wstęp
 
 W tym samouczku omówimy, jak używać Aspose.Note dla Java do czytania tekstu sformatowanego z notatnika OneNote. Aspose.Note to potężny interfejs API Java, który umożliwia programistom płynną pracę z plikami Microsoft OneNote. Wykonując czynności opisane poniżej, będziesz mógł bez wysiłku wyodrębnić dane w formacie RTF, co umożliwi Ci łatwe manipulowanie i analizowanie zawartości OneNote.
@@ -91,3 +97,9 @@ O2: Aspose.Note dla Java obsługuje różne wersje Microsoft OneNote, zapewniaj�
 ### P5: Gdzie mogę znaleźć wsparcie dla Aspose.Note dla Java?
 
  Odpowiedź 5: Możesz znaleźć wsparcie i pomoc na stronie[Forum Aspose.Note](https://forum.aspose.com/c/note/28).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

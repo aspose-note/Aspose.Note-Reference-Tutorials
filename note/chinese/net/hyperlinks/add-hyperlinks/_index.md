@@ -3,10 +3,16 @@ title: 在 Aspose.Note 文档中添加超链接
 linktitle: 在 Aspose.Note 文档中添加超链接
 second_title: Aspose.Note .NET API
 description: 了解如何使用 Aspose.Note for .NET 添加超链接到 Aspose.Note 文档。通过此分步教程增强文档交互性。
-type: docs
 weight: 10
 url: /zh/net/hyperlinks/add-hyperlinks/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# 在 Aspose.Note 文档中添加超链接
+
 ## 介绍
 
 在本教程中，您将学习如何使用 .NET 框架向 Aspose.Note 文档中的文本添加超链接。 Aspose.Note 提供了强大的功能来以编程方式操作 OneNote 文档。添加超链接可以增强文档的交互性和可用性，使它们对用户更具吸引力。
@@ -131,3 +137,9 @@ A4：Aspose.Note 旨在与 Microsoft OneNote 2010 及更高版本配合使用。
 ### Q5：我可以使用 Aspose.Note API 以编程方式添加超链接吗？
 
 A5：是的，Aspose.Note 提供的 API 允许您在 .NET 应用程序中以编程方式添加文本超链接。
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

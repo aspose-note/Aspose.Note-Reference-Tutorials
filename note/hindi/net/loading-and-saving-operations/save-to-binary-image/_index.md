@@ -3,10 +3,16 @@ title: Aspose.Note में बाइनरी इमेज में सेव
 linktitle: Aspose.Note में बाइनरी इमेज में सेव करें
 second_title: Aspose.Note .NET API
 description: .NET के लिए Aspose.Note का उपयोग करके दस्तावेज़ों को बाइनरी छवियों में परिवर्तित करना सीखें। निर्बाध एकीकरण के लिए हमारी चरण-दर-चरण मार्गदर्शिका का पालन करें।
-type: docs
 weight: 22
 url: /hi/net/loading-and-saving-operations/save-to-binary-image/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Aspose.Note में बाइनरी इमेज में सेव करें
+
 ## परिचय
 
 इस ट्यूटोरियल में, हम यह पता लगाएंगे कि .NET के लिए Aspose.Note का उपयोग करके किसी दस्तावेज़ को बाइनरी छवि में कैसे सहेजा जाए। इस प्रक्रिया में एक दस्तावेज़ को एक निश्चित सीमा के साथ एक काले और सफेद छवि में परिवर्तित करना शामिल है, जो विभिन्न अनुप्रयोगों के लिए उपयोगी हो सकता है।
@@ -97,3 +103,9 @@ A4: हां, आप कई दस्तावेज़ों को लूप 
 ### Q5: Aspose.Note के लिए मुझे अधिक संसाधन और समर्थन कहां मिल सकता है?
 
  A5: आप इसका पता लगा सकते हैं[Aspose.नोट दस्तावेज़ीकरण](https://reference.aspose.com/note/net/)और से सहायता मांगें[Aspose.नोट फोरम](https://forum.aspose.com/c/note/28) किसी भी प्रश्न या समस्या के लिए.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

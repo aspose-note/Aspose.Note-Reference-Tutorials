@@ -3,10 +3,16 @@ title: استكشف مراجعات الصفحة في مستندات Aspose.Note
 linktitle: استكشف مراجعات الصفحة في مستندات Aspose.Note
 second_title: Aspose.Note .NET API
 description: تعرف على كيفية استكشاف مراجعات الصفحات في مستندات Aspose.Note باستخدام .NET Framework مع إرشادات خطوة بخطوة.
-type: docs
 weight: 14
 url: /ar/net/note-manipulation/page-revisions-exploration/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# استكشف مراجعات الصفحة في مستندات Aspose.Note
+
 ## مقدمة
 
 في هذا البرنامج التعليمي، سوف نتعمق في استكشاف مراجعات الصفحات في مستندات Aspose.Note باستخدام إطار عمل .NET. Aspose.Note هي مكتبة قوية تمكن المطورين من العمل مع ملفات Microsoft OneNote برمجياً، وتقدم ميزات متنوعة لمعالجة البيانات واستخراجها من هذه الملفات.
@@ -88,3 +94,9 @@ foreach (Page pageRevision in document.GetPageHistory(firstPage))
 ### س5: أين يمكنني العثور على دعم لـ Aspose.Note لـ .NET؟
 
  ج5: يمكنك العثور على الدعم والموارد على[منتدى Aspose.Note](https://forum.aspose.com/c/note/28).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -3,10 +3,16 @@ title: Nastavte výstupní rozlišení obrazu ve OneNotu - Aspose.Note
 linktitle: Nastavte výstupní rozlišení obrazu ve OneNotu - Aspose.Note
 second_title: Aspose.Note Java API
 description: Přečtěte si, jak upravit rozlišení obrázků v dokumentech OneNotu pomocí Aspose.Note pro Java. Pro snadnou implementaci postupujte podle našeho podrobného průvodce
-type: docs
 weight: 23
 url: /cs/java/onenote-document-saving/set-output-image-resolution/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Nastavte výstupní rozlišení obrazu ve OneNotu - Aspose.Note
+
 ## Úvod
 
 Chcete manipulovat s rozlišením obrázků v dokumentech OneNotu pomocí Javy? Aspose.Note for Java nabízí robustní řešení pro takové úkoly. V tomto tutoriálu si projdeme kroky k nastavení výstupního rozlišení obrazu pomocí Aspose.Note.
@@ -88,3 +94,9 @@ Odpověď 4: Ano, Aspose.Note poskytuje komplexní funkce pro manipulaci s obrá
 ### Q5: Kde mohu získat podporu pro dotazy související s Aspose.Note?
 
  A5: Můžete požádat o pomoc z fóra komunity Aspose.Note[tady](https://forum.aspose.com/c/note/28).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

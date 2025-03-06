@@ -3,10 +3,16 @@ title: Laad met een wachtwoord beveiligde documenten in Aspose Note .NET
 linktitle: Laad met een wachtwoord beveiligde documenten in Aspose Note .NET
 second_title: Aspose.Note .NET API
 description: Leer hoe u met een wachtwoord beveiligde documenten veilig kunt laden in Aspose Note .NET met behulp van eenvoudige stappen. Garandeer de vertrouwelijkheid van gegevens met encryptie.
-type: docs
 weight: 22
 url: /nl/net/notebook-operations/load-password-protected-documents/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Laad met een wachtwoord beveiligde documenten in Aspose Note .NET
+
 ## Invoering
 
 Aspose.Note voor .NET is een krachtige API waarmee ontwikkelaars programmatisch met Microsoft OneNote-bestanden kunnen werken. In deze zelfstudie leren we hoe u met een wachtwoord beveiligde documenten kunt laden met Aspose.Note voor .NET.
@@ -77,3 +83,9 @@ A4: Ja, u kunt verschillende wachtwoorden instellen voor verschillende onderligg
 ### V5: Is er een proefversie beschikbaar voor Aspose.Note voor .NET?
 
  A5: Ja, u kunt toegang krijgen tot een gratis proefversie van Aspose.Note voor .NET vanaf[hier](https://releases.aspose.com/), zodat u de functies ervan kunt verkennen voordat u een aankoop doet.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -3,10 +3,16 @@ title: Aspose.Note ile Ölçülü Lisanslama
 linktitle: Aspose.Note ile Ölçülü Lisanslama
 second_title: Aspose.Note .NET API'si
 description: Aspose.Note for .NET ile yazılım lisanslarını ölçülü lisanslama yoluyla verimli bir şekilde nasıl yöneteceğinizi öğrenin. Kaynak kullanımını optimize edin ve maliyetleri etkili bir şekilde kontrol edin.
-type: docs
 weight: 13
 url: /tr/net/licensing/metered-licensing/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Aspose.Note ile Ölçülü Lisanslama
+
 ## giriiş
 
 Yazılım geliştirme alanında, özellikle Aspose.Note for .NET gibi ürünlerle çalışırken lisansları verimli bir şekilde yönetmek çok önemlidir. Ölçülü lisanslama, geliştiricilere yazılım kullanımları üzerinde daha fazla esneklik ve kontrol sağlayan, kaynak tüketimini etkili bir şekilde izlemelerine ve yönetmelerine olanak tanıyan bir yöntemdir. Bu eğitimde, Aspose.Note for .NET ile ölçülü lisanslamanın inceliklerini derinlemesine inceleyeceğiz ve kapsamlı bir anlayış sağlamak için her adımı parçalara ayıracağız.
@@ -89,3 +95,9 @@ Y4: Ölçülü lisanslamanın, yazılım satıcısı tarafından sağlanan belir
 ### S5: Ölçülü lisanslama her tür yazılım uygulaması için uygun mudur?
 
 C5: Ölçülü lisanslama birçok yazılım uygulaması için faydalı olsa da, uygunluğu kullanım kalıpları ve maliyet hususları gibi faktörlere bağlıdır.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

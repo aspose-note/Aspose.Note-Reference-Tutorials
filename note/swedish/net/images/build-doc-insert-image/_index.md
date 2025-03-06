@@ -3,10 +3,16 @@ title: Bygg dokument och infoga bild i Aspose.Note
 linktitle: Bygg dokument och infoga bild i Aspose.Note
 second_title: Aspose.Note .NET API
 description: Lär dig hur du infogar bilder i OneNote-dokument programmatiskt med Aspose.Note för .NET. Enkla steg för sömlös dokumenthantering.
-type: docs
 weight: 10
 url: /sv/net/images/build-doc-insert-image/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Bygg dokument och infoga bild i Aspose.Note
+
 ## Introduktion
 
 I den här handledningen kommer vi att fördjupa oss i världen av dokumentmanipulation med Aspose.Note för .NET. Aspose.Note är ett kraftfullt API som låter utvecklare arbeta med Microsoft OneNote-filer programmatiskt, vilket möjliggör uppgifter som att skapa, ändra och konvertera dokument med lätthet. 
@@ -150,3 +156,9 @@ S4: Ja, Aspose.Note tillhandahåller omfattande alternativ för att anpassa bild
 ### F5: Var kan jag hitta ytterligare resurser och support för Aspose.Note för .NET?
 
  S5: Du kan utforska Aspose.Note-dokumentationen[här](https://reference.aspose.com/note/net/) och sök hjälp från Aspose community-forum[här](https://forum.aspose.com/c/note/28).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -3,10 +3,16 @@ title: Seamless PDF Import with OneNote Integration
 linktitle: Import
 second_title: Aspose.Note .NET API
 description: Import PDF documents into Aspose.Note .NET with seamless integration using various merge options. Learn with step-by-step tutorials, including OneNote integration.
-type: docs
 weight: 24
 url: /net/import/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Seamless PDF Import with OneNote Integration
+
 
 ## Introduction
 
@@ -48,3 +54,9 @@ Remember, in the realm of Aspose.Note, your documents are not just files; they a
 ## Import Tutorials
 ### [Import PDF Documents into Aspose.Note](./import-pdf-documents/)
 Learn how to import PDF documents into Aspose.Note for .NET effortlessly using various merge options for seamless integration.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

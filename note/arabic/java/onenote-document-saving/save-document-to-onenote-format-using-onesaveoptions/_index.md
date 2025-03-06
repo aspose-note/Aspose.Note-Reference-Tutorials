@@ -3,10 +3,16 @@ title: احفظ المستند في OneNote باستخدام OneSaveOptions - As
 linktitle: احفظ المستند في OneNote باستخدام OneSaveOptions - Aspose.Note
 second_title: Aspose.Note جافا API
 description: تعرف على كيفية حفظ المستندات بتنسيق OneNote باستخدام OneSaveOptions في Aspose.Note لـ Java. عزز سير عملك من خلال هذا البرنامج التعليمي الشامل.
-type: docs
 weight: 11
 url: /ar/java/onenote-document-saving/save-document-to-onenote-format-using-onesaveoptions/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# احفظ المستند في OneNote باستخدام OneSaveOptions - Aspose.Note
+
 ## مقدمة
 
 في هذا البرنامج التعليمي، سوف نتعمق في عملية حفظ المستندات بتنسيق OneNote باستخدام OneSaveOptions في Aspose.Note لـ Java. Aspose.Note عبارة عن واجهة برمجة تطبيقات Java قوية تسهل معالجة مستندات OneNote وإدارتها برمجيًا. باتباع هذا الدليل التفصيلي، ستتعلم كيفية حفظ المستندات بكفاءة، مع ضمان التوافق مع تنسيق OneNote.
@@ -74,3 +80,9 @@ document.save(dataDir + "SaveDocToOneNoteFormatUsingOnesaveoptions_out.one", new
 ### س5: أين يمكنني العثور على الدعم أو الموارد الإضافية لـ Aspose.Note لـ Java؟
 
  ج5: يمكنك العثور على الوثائق الشاملة والبرامج التعليمية والمنتديات الخاصة بـ Aspose.Note لـ Java على الموقع[موقع أسبوز](https://forum.aspose.com/c/note/28).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

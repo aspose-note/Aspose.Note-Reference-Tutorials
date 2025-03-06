@@ -3,10 +3,16 @@ title: كتابة مستند محمي بكلمة مرور في OneNote - Aspose.
 linktitle: كتابة مستند محمي بكلمة مرور في OneNote - Aspose.Note
 second_title: Aspose.Note جافا API
 description: حماية معلومات OneNote الحساسة الخاصة بك! تعرف على كيفية تعيين كلمات المرور لمستندات وأقسام محددة - تم تضمين دليل خطوة بخطوة والتعليمات البرمجية. #OneNote #Java #Aspose
-type: docs
 weight: 27
 url: /ar/java/onenote-notebook-operations/write-password-protected-document/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# كتابة مستند محمي بكلمة مرور في OneNote - Aspose.Note
+
 ## مقدمة
 
 ستتعلم في هذا البرنامج التعليمي كيفية إنشاء مستندات محمية بكلمة مرور في OneNote باستخدام Aspose.Note لـ Java. تضمن هذه الإمكانية أمان وخصوصية معلوماتك الحساسة داخل دفاتر ملاحظاتك. باتباع هذه التعليمات خطوة بخطوة، يمكنك بسهولة تنفيذ حماية كلمة المرور لمستنداتك.
@@ -95,3 +101,9 @@ childDocument2.save(dataDir + "Locked Pass2.one", documentSaveOptions2);
 ### س5: هل هناك أي حد لطول أو تعقيد كلمات المرور؟
 
 ج: لا يفرض Aspose.Note حدودًا محددة على طول كلمة المرور أو تعقيدها، مما يسمح لك بتعيين كلمات مرور قوية وآمنة حسب الحاجة.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

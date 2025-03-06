@@ -3,10 +3,16 @@ title: 在 Aspose Note .NET 中即时加载笔记本
 linktitle: 在 Aspose Note .NET 中即时加载笔记本
 second_title: Aspose.Note .NET API
 description: 了解如何在 Aspose.Note for .NET 中即时加载笔记本，以提高文档处理效率和生产力。
-type: docs
 weight: 21
 url: /zh/net/notebook-operations/load-notebooks-instantly/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# 在 Aspose Note .NET 中即时加载笔记本
+
 ## 介绍
 
 在本教程中，我们将探讨如何在 Aspose.Note for .NET 中立即加载笔记本。立即加载笔记本可以有效地操作和处理笔记本文档。
@@ -84,3 +90,9 @@ A1：是的，Aspose.Note for .NET 与多个版本的 .NET Framework 兼容，�
 ### Q5：在哪里可以购买 Aspose.Note for .NET 的完整许可证？
 
  A5：您可以从以下位置购买 Aspose.Note for .NET 的完整许可证：[这里](https://purchase.aspose.com/buy).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

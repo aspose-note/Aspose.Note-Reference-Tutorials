@@ -3,10 +3,16 @@ title: Viết tài liệu được bảo vệ bằng mật khẩu trong OneNote 
 linktitle: Viết tài liệu được bảo vệ bằng mật khẩu trong OneNote - Aspose.Note
 second_title: API Java Aspose.Note
 description: Bảo vệ thông tin OneNote nhạy cảm của bạn! Tìm hiểu cách đặt mật khẩu cho các tài liệu và phần cụ thể - bao gồm hướng dẫn và mã từng bước. #OneNote #Java #Aspose
-type: docs
 weight: 27
 url: /vi/java/onenote-notebook-operations/write-password-protected-document/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Viết tài liệu được bảo vệ bằng mật khẩu trong OneNote - Aspose.Note
+
 ## Giới thiệu
 
 Trong hướng dẫn này, bạn sẽ tìm hiểu cách tạo tài liệu được bảo vệ bằng mật khẩu trong OneNote bằng Aspose.Note cho Java. Khả năng này đảm bảo tính bảo mật và quyền riêng tư của thông tin nhạy cảm trong sổ ghi chép của bạn. Bằng cách làm theo các hướng dẫn từng bước này, bạn có thể dễ dàng triển khai bảo vệ bằng mật khẩu cho tài liệu của mình.
@@ -95,3 +101,9 @@ Trả lời: Có, bạn có thể đặt các mật khẩu khác nhau cho các p
 ### Câu hỏi 5: Có giới hạn nào về độ dài hoặc độ phức tạp của mật khẩu không?
 
 Trả lời: Aspose.Note không áp đặt các giới hạn cụ thể về độ dài hoặc độ phức tạp của mật khẩu, cho phép bạn đặt mật khẩu mạnh và an toàn khi cần.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

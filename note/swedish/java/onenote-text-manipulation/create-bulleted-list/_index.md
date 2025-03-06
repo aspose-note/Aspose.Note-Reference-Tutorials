@@ -3,10 +3,16 @@ title: Skapa punktlista i OneNote - Aspose.Note
 linktitle: Skapa punktlista i OneNote - Aspose.Note
 second_title: Aspose.Note Java API
 description: Utforska steg-för-steg-guiden för att skapa punktlistor i OneNote med Aspose.Note för Java. Lyft ditt dokumentskapande med lätthet.
-type: docs
 weight: 12
 url: /sv/java/onenote-text-manipulation/create-bulleted-list/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Skapa punktlista i OneNote - Aspose.Note
+
 ## Introduktion
 I det dynamiska landskapet för Java-utveckling är det viktigt att skapa engagerande och organiserade dokument. Aspose.Note för Java tillhandahåller en kraftfull verktygsuppsättning för att förbättra din process för att skapa dokument. Den här handledningen guidar dig genom processen att skapa punktlistor i OneNote med Aspose.Note för Java. Låt oss dyka in i detaljerna.
 ## Förutsättningar
@@ -92,3 +98,9 @@ Absolut! Du kan ändra teckensnitt, färg och storlek på punktlistelementen enl
  Ja, du kan utforska en gratis testversion[här](https://releases.aspose.com/).
 ### Hur kan jag få en tillfällig licens för Aspose.Note för Java?
  Skaffa en tillfällig licens[här](https://purchase.aspose.com/temporary-license/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

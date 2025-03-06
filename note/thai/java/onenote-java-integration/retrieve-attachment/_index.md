@@ -3,10 +3,16 @@ title: ดึงเอกสารแนบจาก OneNote โดยใช้ 
 linktitle: ดึงเอกสารแนบจาก OneNote โดยใช้ Java
 second_title: Aspose.Note Java API
 description: แยกไฟล์แนบจากเอกสาร OneNote ใน Java ได้อย่างง่ายดาย! Aspose.Note จัดการทุกรูปแบบและการประมวลผลเป็นชุด รวมขั้นตอนและโค้ดง่ายๆ! #OneNote #Java #Aspose
-type: docs
 weight: 12
 url: /th/java/onenote-java-integration/retrieve-attachment/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# ดึงเอกสารแนบจาก OneNote โดยใช้ Java
+
 ## การแนะนำ
 
 ในยุคดิจิทัลปัจจุบัน การจัดการรูปแบบเอกสารต่างๆ อย่างมีประสิทธิภาพถือเป็นส่วนสำคัญของการพัฒนาซอฟต์แวร์ Aspose.Note สำหรับ Java เป็น API อันทรงพลังที่ช่วยให้นักพัฒนาสามารถทำงานกับไฟล์ Microsoft OneNote ได้อย่างราบรื่นโดยใช้แอปพลิเคชัน Java ไม่ว่าคุณจะต้องดึงเอกสารแนบ จัดการหน้า หรือแยกข้อความ Aspose.Note สำหรับ Java ก็มีฟังก์ชันการทำงานที่ครอบคลุมเพื่อปรับปรุงเวิร์กโฟลว์ของคุณ
@@ -112,3 +118,9 @@ for (AttachedFile a : attachments) {
 ### คำถามที่ 5: Aspose.Note สำหรับ Java ให้การสนับสนุนและความช่วยเหลือในกรณีที่เกิดปัญหาทางเทคนิคหรือสอบถามข้อมูลหรือไม่
 
 ตอบ: ได้ นักพัฒนาสามารถเข้าถึงการสนับสนุนที่ครอบคลุมผ่านฟอรัม Aspose.Note ได้ที่[https://forum.aspose.com/c/note/28](https://forum.aspose.com/c/note/28) สำหรับความช่วยเหลือทางเทคนิคหรือสอบถามข้อมูล
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

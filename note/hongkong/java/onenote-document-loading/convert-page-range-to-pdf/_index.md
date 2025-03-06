@@ -3,10 +3,16 @@ title: 使用 Java 在 OneNote 中將特定頁面範圍轉換為 PDF
 linktitle: 使用 Java 在 OneNote 中將特定頁面範圍轉換為 PDF
 second_title: Aspose.Note Java API
 description: 了解如何使用 Aspose.Note for Java 將特定頁面範圍從 OneNote 無縫轉換為 PDF。輕鬆保留格式和佈局。
-type: docs
 weight: 11
 url: /zh-hant/java/onenote-document-loading/convert-page-range-to-pdf/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# 使用 Java 在 OneNote 中將特定頁面範圍轉換為 PDF
+
 ## 介紹
 
 OneNote 是用於組織筆記的強大工具，但有時您可能需要將特定頁面範圍匯出為 PDF 以便共用或存檔。在本教學中，我們將引導您完成使用 Aspose.Note for Java 將特定頁面範圍轉換為 PDF 的過程。
@@ -85,3 +91,9 @@ A4：是的，您可以使用 Aspose.Note 的 PDF 儲存選項自訂各個方面
 ### Q5：Aspose.Note for Java支援多個OneNote文件的批次轉換嗎？
 
 A5：是的，您可以透過循環遍歷每個文件並套用轉換過程來將多個 OneNote 文件批次轉換為 PDF。
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

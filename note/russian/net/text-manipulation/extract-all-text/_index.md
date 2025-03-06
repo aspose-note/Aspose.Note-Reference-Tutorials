@@ -3,10 +3,16 @@ title: Руководство по извлечению текста для OneN
 linktitle: Извлечь весь текст из Aspose.Note
 second_title: Aspose.Note .NET API
 description: Легко извлекайте текст из документов Aspose.Note в .NET с помощью Aspose.Note для .NET. Следуйте нашему пошаговому руководству для бесшовной интеграции.
-type: docs
 weight: 16
 url: /ru/net/text-manipulation/extract-all-text/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Руководство по извлечению текста для OneNote с использованием Aspose.Note
+
 ## Введение
 Вы хотите легко извлекать текст из документов Aspose.Note в приложениях .NET? Aspose.Note для .NET предоставляет надежное решение для легкого извлечения текста из файлов Aspose.Note, обеспечивая плавную интеграцию в ваши проекты. В этом уроке мы шаг за шагом рассмотрим этот процесс, что позволит вам использовать возможности Aspose.Note для эффективного извлечения текста.
 ## Предварительные условия
@@ -55,3 +61,9 @@ Console.WriteLine(text);
 О: Нет, Aspose.Note for .NET может без ограничений обрабатывать документы разных размеров.
 ### Вопрос: Есть ли какие-либо соображения по поводу производительности при извлечении текста из больших документов?
 О: Aspose.Note для .NET оптимизирован по производительности, обеспечивая эффективное извлечение текста даже из больших документов.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

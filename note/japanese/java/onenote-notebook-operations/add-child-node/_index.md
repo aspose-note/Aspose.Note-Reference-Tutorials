@@ -3,10 +3,16 @@ title: OneNote ノートブックに子ノードを追加する - Aspose.Note
 linktitle: OneNote ノートブックに子ノードを追加する - Aspose.Note
 second_title: Aspose.Note Java API
 description: Aspose.Note for Java を使用して、プログラムで子ノードを OneNote ノートブックに追加する方法を学習します。メモの整理を簡単に改善します。
-type: docs
 weight: 11
 url: /ja/java/onenote-notebook-operations/add-child-node/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# OneNote ノートブックに子ノードを追加する - Aspose.Note
+
 ## 導入
 
 OneNote は、メモやアイデアを整理するための強力なツールです。 Aspose.Note for Java は、OneNote ファイルをプログラムで操作する便利な方法を提供します。このチュートリアルでは、OneNote ノートブックに子ノードを追加するプロセスをステップごとに説明します。
@@ -89,3 +95,9 @@ A4: はい、ライブラリを依存関係に追加することで、Aspose.Not
 ### Q5: Aspose.Note for Java の使用に関するヘルプやガイダンスを求めることができるコミュニティ フォーラムはありますか?
 
  A5: はい、ご覧いただけます。[Aspose.Note フォーラム](https://forum.aspose.com/c/note/28)質問したり、知識を共有したり、他のユーザーや専門家と交流したりするため。
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

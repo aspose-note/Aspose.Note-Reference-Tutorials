@@ -3,10 +3,16 @@ title: 從路徑套用 Aspose.Note 許可證
 linktitle: 從路徑套用 Aspose.Note 許可證
 second_title: Aspose.Note .NET API
 description: 了解如何從 .NET 應用程式中的路徑套用 Aspose.Note 授權。使用 Aspose.Note 釋放 OneNote 檔案操作的全部潛力。
-type: docs
 weight: 11
 url: /zh-hant/net/licensing/apply-license-from-path/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# 從路徑套用 Aspose.Note 許可證
+
 ## 介紹
 
 歡迎來到我們關於使用 .NET 從路徑應用 Aspose.Note 授權的綜合教學！ Aspose.Note 是一個功能強大的 API，允許開發人員以程式設計方式使用 Microsoft OneNote 文件，從而實現建立、編輯和操作 OneNote 文件的廣泛功能。在本教學中，我們將引導您完成從 .NET 應用程式中的指定路徑套用 Aspose.Note 授權的過程。
@@ -98,3 +104,9 @@ A4：是的，Aspose 提供全面的文件、論壇和支援來幫助開發人�
 ### Q5: 我可以在購買前試用 Aspose.Note 嗎？
 
 A5：是的，您可以從他們的網站下載 Aspose.Note 的免費試用版來評估其功能和功能。
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

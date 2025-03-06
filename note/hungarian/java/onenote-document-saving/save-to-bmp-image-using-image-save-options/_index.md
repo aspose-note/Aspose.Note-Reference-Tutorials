@@ -3,10 +3,16 @@ title: Mentés BMP-képbe a OneNote képmentési beállításaival
 linktitle: Mentés BMP-képbe a OneNote képmentési beállításaival
 second_title: Aspose.Note Java API
 description: Ismerje meg, hogyan mentheti a OneNote-dokumentumokat BMP-képekké programozottan az Aspose.Note for Java használatával. Útmutató lépésről lépésre kódpéldákkal.
-type: docs
 weight: 16
 url: /hu/java/onenote-document-saving/save-to-bmp-image-using-image-save-options/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Mentés BMP-képbe a OneNote képmentési beállításaival
+
 ## Bevezetés
 
 Az Aspose.Note for Java egy hatékony könyvtár, amely lehetővé teszi a Java fejlesztők számára, hogy programozottan dolgozzanak Microsoft OneNote fájlokkal. Az Aspose.Note for Java segítségével zökkenőmentesen hozhat létre, kezelhet és konvertálhat OneNote dokumentumokat. Ebben az oktatóanyagban megvizsgáljuk, hogyan lehet OneNote-dokumentumot BMP-képként menteni az Aspose.Note for Java képmentési beállításaival.
@@ -79,3 +85,9 @@ Ebben az oktatóanyagban megtanultuk, hogyan lehet OneNote-dokumentumot BMP-kép
 ### 5. kérdés: Az Aspose.Note for Java technikai támogatást nyújt?
 
  5. válasz: Igen, az Aspose technikai támogatást nyújt termékeihez. Meglátogathatja a[Aspose.Note fórum](https://forum.aspose.com/c/note/28) segítségért.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

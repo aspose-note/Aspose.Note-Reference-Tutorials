@@ -3,10 +3,16 @@ title: OneNote Belgesini Aspose.Note'a Yükleme
 linktitle: OneNote Belgesini Aspose.Note'a Yükleme
 second_title: Aspose.Note .NET API'si
 description: Aspose.Note'u kullanarak OneNote belgelerini programlı olarak .NET'te nasıl yükleyeceğinizi, şifreleyeceğinizi ve şifresini çözeceğinizi öğrenin.
-type: docs
 weight: 16
 url: /tr/net/loading-and-saving-operations/load-onenote-document/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# OneNote Belgesini Aspose.Note'a Yükleme
+
 ## giriiş
 
 Aspose.Note for .NET, geliştiricilerin .NET uygulamalarında Microsoft OneNote dosyalarıyla programlı olarak çalışmasına olanak tanıyan güçlü bir API'dir. OneNote belgelerini yüklemeniz, değiştirmeniz veya dönüştürmeniz gerekiyorsa Aspose.Note for .NET, iş akışınızı kolaylaştırmak için kapsamlı işlevsellik sağlar.
@@ -174,3 +180,9 @@ C2: Evet, Aspose.Note for .NET'i kullanarak bir belgenin şifrelenip şifrelenme
 ### S5: Aspose.Note for .NET için nasıl geçici lisans alabilirim?
 
  Cevap5: Geçici lisans talebinde bulunabilirsiniz.[Satın alma sayfasını atayın](https://purchase.aspose.com/temporary-license/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

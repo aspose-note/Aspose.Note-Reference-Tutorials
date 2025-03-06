@@ -3,10 +3,16 @@ title: Λειτουργίες Notebook OneNote
 linktitle: Λειτουργίες Notebook OneNote
 second_title: Aspose.Note Java API
 description: Ξεκλειδώστε το πλήρες δυναμικό του Aspose.Note για Java με τα Εκπαιδευτικά Λειτουργία Notebook του OneNote. Παρέχετε έναν οδηγό βήμα προς βήμα για τη βελτίωση των εφαρμογών Java σας.
-type: docs
 weight: 28
 url: /el/java/onenote-notebook-operations/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Λειτουργίες Notebook OneNote
+
 
 ## Εισαγωγή
 
@@ -66,3 +72,9 @@ url: /el/java/onenote-notebook-operations/
 Μάθετε πώς να αποθηκεύετε σημειωματάρια σε ροές στο OneNote χρησιμοποιώντας το Aspose.Note για Java. Αυξήστε την παραγωγικότητα με αποτελεσματική διαχείριση φορητών υπολογιστών.
 ### [Γράψτε ένα έγγραφο που προστατεύεται με κωδικό πρόσβασης στο OneNote - Aspose.Note](./write-password-protected-document/)
 Μάθετε πώς να γράφετε έγγραφα που προστατεύονται με κωδικό πρόσβασης στο OneNote χρησιμοποιώντας το Aspose.Note για Java. Εξασφαλίστε ασφάλεια με απλά βήματα.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

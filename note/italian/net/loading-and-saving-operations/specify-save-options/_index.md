@@ -3,10 +3,16 @@ title: Specificare le opzioni di salvataggio in Aspose.Note
 linktitle: Specificare le opzioni di salvataggio in Aspose.Note
 second_title: Aspose.Note API .NET
 description: Scopri come specificare le opzioni di salvataggio in Aspose.Note per .NET per personalizzare il formato di output e la qualità dei documenti OneNote.
-type: docs
 weight: 30
 url: /it/net/loading-and-saving-operations/specify-save-options/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Specificare le opzioni di salvataggio in Aspose.Note
+
 ## introduzione
 
 Nel regno dello sviluppo .NET, Aspose.Note si distingue come un potente strumento per lavorare con i documenti OneNote. Offre un set completo di funzionalità per manipolare e gestire questi file in modo efficiente. Un aspetto cruciale del lavoro con Aspose.Note è specificare le opzioni di salvataggio, che consentono agli sviluppatori di personalizzare il formato e la qualità dell'output in base alle proprie esigenze.
@@ -94,3 +100,9 @@ A4: Aspose.Note è progettato per gestire documenti OneNote di varie dimensioni,
 ### Q5: Aspose.Note offre supporto e assistenza per gli sviluppatori che riscontrano problemi?
 
 R5: Sì, gli sviluppatori possono chiedere aiuto e assistenza al team di supporto Aspose.Note attraverso il forum o contattando direttamente Aspose per la risoluzione tempestiva di eventuali problemi o domande.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

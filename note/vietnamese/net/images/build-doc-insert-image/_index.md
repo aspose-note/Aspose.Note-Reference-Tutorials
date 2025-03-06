@@ -3,10 +3,16 @@ title: Xây dựng tài liệu và chèn hình ảnh trong Aspose.Note
 linktitle: Xây dựng tài liệu và chèn hình ảnh trong Aspose.Note
 second_title: Aspose.Note .NET API
 description: Tìm hiểu cách chèn hình ảnh vào tài liệu OneNote theo chương trình bằng Aspose.Note for .NET. Các bước dễ dàng để thao tác tài liệu liền mạch.
-type: docs
 weight: 10
 url: /vi/net/images/build-doc-insert-image/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Xây dựng tài liệu và chèn hình ảnh trong Aspose.Note
+
 ## Giới thiệu
 
 Trong hướng dẫn này, chúng ta sẽ đi sâu vào thế giới thao tác tài liệu bằng Aspose.Note cho .NET. Aspose.Note là một API mạnh mẽ cho phép các nhà phát triển làm việc với các tệp Microsoft OneNote theo chương trình, cho phép thực hiện các tác vụ như tạo, sửa đổi và chuyển đổi tài liệu một cách dễ dàng. 
@@ -150,3 +156,9 @@ Câu trả lời 4: Có, Aspose.Note cung cấp các tùy chọn toàn diện đ
 ### Câu hỏi 5: Tôi có thể tìm thêm tài nguyên và hỗ trợ cho Aspose.Note cho .NET ở đâu?
 
  Câu trả lời 5: Bạn có thể khám phá tài liệu Aspose.Note[đây](https://reference.aspose.com/note/net/) và tìm kiếm sự trợ giúp từ diễn đàn cộng đồng Aspose[đây](https://forum.aspose.com/c/note/28).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

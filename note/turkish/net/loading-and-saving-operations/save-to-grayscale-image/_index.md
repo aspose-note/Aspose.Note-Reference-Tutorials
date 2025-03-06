@@ -3,10 +3,16 @@ title: Aspose.Note'ta Gri Tonlamalı Görüntüye Kaydetme
 linktitle: Aspose.Note'ta Gri Tonlamalı Görüntüye Kaydetme
 second_title: Aspose.Note .NET API'si
 description: Aspose.Note for .NET'i kullanarak OneNote belgelerini gri tonlamalı görüntüler olarak nasıl kaydedeceğinizi öğrenin. Verimli belge işleme için bu kapsamlı eğitimi izleyin.
-type: docs
 weight: 24
 url: /tr/net/loading-and-saving-operations/save-to-grayscale-image/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Aspose.Note'ta Gri Tonlamalı Görüntüye Kaydetme
+
 ## giriiş
 
 Bu eğitimde, bir belgeyi gri tonlamalı görüntü olarak kaydetmek için Aspose.Note for .NET'in nasıl kullanılacağını keşfedeceğiz. Aspose.Note, geliştiricilerin Microsoft OneNote dosyalarıyla programlı olarak çalışmasına olanak tanıyan ve çok çeşitli işlevler sağlayan güçlü bir kitaplıktır.
@@ -85,3 +91,9 @@ Cevap4: Evet, Aspose.Note'u web sitelerindeki ücretsiz deneme sürümü aracıl
 ### S5: Aspose.Note için nasıl geçici lisans alabilirim?
 
 Cevap5: Sağlanan bağlantıyı ziyaret ederek ve talimatları izleyerek Aspose.Note için geçici bir lisans alabilirsiniz.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

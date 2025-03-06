@@ -3,10 +3,16 @@ title: 在 Aspose.Note 中创建富文本文档
 linktitle: 在 Aspose.Note 中创建富文本文档
 second_title: Aspose.Note .NET API
 description: 了解如何使用 Aspose.Note for .NET 以编程方式创建富文本文档。带有代码示例的分步指南。
-type: docs
 weight: 12
 url: /zh/net/loading-and-saving-operations/create-doc-with-rich-text/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# 在 Aspose.Note 中创建富文本文档
+
 ## 介绍
 
 在 .NET 开发领域，Aspose.Note 作为以编程方式处理 Microsoft OneNote 文件的强大工具而脱颖而出。无论您的目标是自动化文档创建还是操作现有笔记，Aspose.Note 都为开发人员提供了一套全面的功能。这些功能包括生成带有各种格式选项的富文本文档的能力。在本教程中，我们将使用 Aspose.Note for .NET 逐步深入研究创建此类文档的过程。
@@ -170,3 +176,9 @@ A4：Aspose.Note 主要专注于本地文档处理，但提供可与云服务集
 ### Q5：在哪里可以找到更多 Aspose.Note 资源和支持？
 
  A5：您可以探索[Aspose.Note 论坛](https://forum.aspose.com/c/note/28)以获得社区支持和访问文档[网站](https://reference.aspose.com/note/net/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

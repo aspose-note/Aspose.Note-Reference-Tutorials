@@ -3,10 +3,16 @@ title: 在 Aspose.Note 中的文字上套用項目符號
 linktitle: 在 Aspose.Note 中的文字上套用項目符號
 second_title: Aspose.Note .NET API
 description: 了解如何在 Aspose.Note for .NET 中的文字上套用項目符號以增強您的 OneNote 文件。請按照此逐步指南進行有效的格式化。
-type: docs
 weight: 10
 url: /zh-hant/net/text-manipulation/apply-bullets-on-text/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# 在 Aspose.Note 中的文字上套用項目符號
+
 ## 介紹
 歡迎閱讀本逐步指南，以了解如何使用 Aspose.Note for .NET 將項目符號應用於文字。 Aspose.Note 是一個功能強大的程式庫，可讓開發人員在其 .NET 應用程式中無縫使用 Microsoft OneNote 檔案。在本教程中，我們將引導您完成將項目符號應用於文字的過程，從而增強 OneNote 文件的視覺吸引力。
 ## 先決條件
@@ -86,3 +92,9 @@ Aspose.Note支援各種版本的Microsoft OneNote，確保與舊版和新版本�
 是的，您可以下載免費試用版[這裡](https://releases.aspose.com/).
 ### 我可以在哪裡找到額外的支援和資源？
 您可以造訪 Aspose.Note 社群論壇[這裡](https://forum.aspose.com/c/note/28)以尋求支持和討論。
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

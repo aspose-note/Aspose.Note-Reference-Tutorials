@@ -3,10 +3,16 @@ title: 在 Aspose Note .NET 中編寫受密碼保護的文檔
 linktitle: 在 Aspose Note .NET 中編寫受密碼保護的文檔
 second_title: Aspose.Note .NET API
 description: 了解如何在 Aspose Note .NET 中建立受密碼保護的文件以增強安全性。包括逐步教程。
-type: docs
 weight: 26
 url: /zh-hant/net/notebook-operations/write-password-protected-documents/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# 在 Aspose Note .NET 中編寫受密碼保護的文檔
+
 ## 介紹
 
 在本教程中，我們將深入研究使用 Aspose.Note for .NET 建立受密碼保護的文件的過程。密碼保護為您的文件增加了額外的安全層，確保只有授權人員才能存取其內容。我們將指導您從匯入命名空間到編寫密碼保護程式碼的每個步驟。
@@ -90,3 +96,9 @@ A4：是的，Aspose.Note for .NET 使用強大的加密演算法來保護文件
 ### Q5：Aspose.Note for .NET 是否提供技術支援？
 
  A5：是的，可以透過以下方式獲得技術支援：[Aspose.Note 論壇](https://forum.aspose.com/c/note/28)，您可以在這裡尋求專家的幫助和指導。
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

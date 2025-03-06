@@ -3,10 +3,16 @@ title: แปลงเพจเฉพาะเป็นรูปภาพใน 
 linktitle: แปลงเพจเฉพาะเป็นรูปภาพใน OneNote โดยใช้ Java
 second_title: Aspose.Note Java API
 description: เรียนรู้วิธีแปลงเพจเฉพาะเป็นรูปภาพใน OneNote โดยใช้ Java กับ Aspose.Note ปฏิบัติตามคำแนะนำทีละขั้นตอนของเราเพื่อการบูรณาการที่ราบรื่น
-type: docs
 weight: 12
 url: /th/java/onenote-document-loading/convert-page-to-image/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# แปลงเพจเฉพาะเป็นรูปภาพใน OneNote โดยใช้ Java
+
 ## การแนะนำ
 
 ในบทช่วยสอนนี้ เราจะแนะนำคุณตลอดกระบวนการแปลงเพจเฉพาะเป็นรูปภาพใน OneNote โดยใช้ Java กับ Aspose.Note เมื่อทำตามขั้นตอนเหล่านี้ คุณจะสามารถรวมฟังก์ชันการทำงานนี้เข้ากับแอปพลิเคชัน Java ของคุณได้อย่างราบรื่น
@@ -101,3 +107,9 @@ A4: ใช่ Aspose.Note มีไลบรารีสำหรับภาษ
 ### คำถามที่ 5: ฉันจะรับการสนับสนุนหรือความช่วยเหลือเพิ่มเติมได้จากที่ไหน
 
  A5: สำหรับการสนับสนุนหรือความช่วยเหลือเพิ่มเติม คุณสามารถไปที่[ฟอรั่ม Aspose.Note](https://forum.aspose.com/c/note/28) หรือดูเอกสารที่มีอยู่[ที่นี่](https://reference.aspose.com/note/java/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -3,10 +3,16 @@ title: أضف عقدة نصية مع علامة في Aspose.Note
 linktitle: أضف عقدة نصية مع علامة في Aspose.Note
 second_title: Aspose.Note .NET API
 description: تعرف على كيفية إضافة العقد النصية ذات العلامات إلى مستندات OneNote باستخدام Aspose.Note لـ .NET.
-type: docs
 weight: 12
 url: /ar/net/tag-management/add-text-node-tag/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# أضف عقدة نصية مع علامة في Aspose.Note
+
 ## مقدمة
 
 تعد Aspose.Note for .NET مكتبة قوية تمكن المطورين من إنشاء ملفات Microsoft OneNote ومعالجتها وتحويلها برمجيًا باستخدام إطار عمل .NET. في هذا البرنامج التعليمي، سوف نستكشف كيفية إضافة عقدة نصية بعلامة إلى مستند OneNote باستخدام Aspose.Note لـ .NET.
@@ -107,3 +113,9 @@ A1: نعم، يمكنك إضافة عقد نصية متعددة بعلامات �
 ### س5: أين يمكنني العثور على المزيد من الموارد والدعم لـ Aspose.Note لـ .NET؟
 
  ج5: يمكنك استكشاف[Aspose.Note لوثائق .NET](https://reference.aspose.com/note/net/)وطلب المساعدة من[منتدى Aspose.Note](https://forum.aspose.com/c/note/28).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

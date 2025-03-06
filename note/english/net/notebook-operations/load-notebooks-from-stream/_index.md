@@ -3,10 +3,16 @@ title: Load Notebooks from Stream in Aspose Note .NET
 linktitle: Load Notebooks from Stream in Aspose Note .NET
 second_title: Aspose.Note .NET API
 description: Learn how to load notebooks from a stream in Aspose.Note for .NET. Follow this step-by-step guide for seamless integration into your .NET applications.
-type: docs
 weight: 19
 url: /net/notebook-operations/load-notebooks-from-stream/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Load Notebooks from Stream in Aspose Note .NET
+
 ## Introduction
 
 In this tutorial, we will explore how to load notebooks from a stream using Aspose.Note for .NET. Aspose.Note is a powerful library that enables developers to work with Microsoft OneNote files programmatically. Loading notebooks from a stream is a common task when dealing with file input/output operations in .NET applications.
@@ -92,3 +98,10 @@ A4: You can seek support from the Aspose community [forum](https://forum.aspose.
 ### Q5: Is there an option for temporary licensing?
 
 A5: Yes, you can obtain a temporary license from [here](https://purchase.aspose.com/temporary-license/).
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

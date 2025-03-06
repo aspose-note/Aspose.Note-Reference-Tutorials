@@ -3,10 +3,16 @@ title: 使用 Java 创建带有格式化富文本的 OneNote 文档
 linktitle: 使用 Java 创建带有格式化富文本的 OneNote 文档
 second_title: Aspose.Note Java API
 description: 了解如何使用 Aspose.Note for Java 以编程方式在 Java 中创建格式丰富的 OneNote 文档。请遵循我们的无缝文档自动化分步指南。
-type: docs
 weight: 11
 url: /zh/java/onenote-document-manipulation/create-onenote-document-formatted-rich-text/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# 使用 Java 创建带有格式化富文本的 OneNote 文档
+
 ## 介绍
 
 对于希望在 Java 应用程序中自动执行文档生成任务的开发人员来说，以编程方式创建格式丰富的 OneNote 文档可能是一个强大的工具。 Aspose.Note for Java 提供了一套全面的特性和功能来无缝地实现这一点。在本教程中，我们将指导您完成使用 Aspose.Note for Java 创建具有格式化富文本的 OneNote 文档的过程。
@@ -142,3 +148,10 @@ A4：是的，您需要获得许可证才能在商业项目中使用Aspose.Note 
 ### Q5：Aspose.Note for Java 是否支持除 OneNote 之外的其他文档格式？
 
 A5：是的，Aspose.Note for Java 支持多种文档格式，包括 PDF、HTML 和图像格式。
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

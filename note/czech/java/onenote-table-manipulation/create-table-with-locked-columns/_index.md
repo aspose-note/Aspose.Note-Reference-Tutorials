@@ -3,10 +3,16 @@ title: Vytvořit tabulku s uzamčenými sloupci ve OneNotu – Aspose.Note
 linktitle: Vytvořit tabulku s uzamčenými sloupci ve OneNotu – Aspose.Note
 second_title: Aspose.Note Java API
 description: Vylepšete své prostředí OneNote pomocí Aspose.Note pro Java. Naučte se vytvářet tabulky se zamčenými sloupci pomocí podrobného průvodce. Stáhněte si bezplatnou zkušební verzi nyní!
-type: docs
 weight: 12
 url: /cs/java/onenote-table-manipulation/create-table-with-locked-columns/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Vytvořit tabulku s uzamčenými sloupci ve OneNotu – Aspose.Note
+
 ## Úvod
 OneNote je výkonný nástroj pro organizaci informací a Aspose.Note pro Java vylepšuje jeho možnosti tím, že poskytuje bezproblémový způsob vytváření tabulek se zamčenými sloupci. V tomto tutoriálu vás provedeme procesem použití Aspose.Note pro Java k vytvoření tabulky se zamčenými sloupci ve OneNotu.
 ## Předpoklady
@@ -90,3 +96,9 @@ Absolutně! Aspose.Note for Java poskytuje rozsáhlé možnosti přizpůsobení 
  Navštivte[Aspose.Note fórum](https://forum.aspose.com/c/note/28) za podporu a komunitní diskuse.
 ### Jak mohu získat dočasnou licenci pro Aspose.Note pro Java?
  Návštěva[tento odkaz](https://purchase.aspose.com/temporary-license/) získat dočasnou licenci pro testovací účely.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

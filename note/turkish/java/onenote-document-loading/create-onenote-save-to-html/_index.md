@@ -4,10 +4,16 @@ linktitle: OneNote Belgesi Oluşturma ve HTML'ye Kaydetme - Java
 second_title: Aspose.Note Java API'si
 description: Aspose.Note for Java'yı kullanarak OneNote belgeleri oluşturmayı ve HTML olarak kaydetmeyi öğrenin. Programlı OneNote dosya işleme için Java uygulamalarına entegre edin.
 
-type: docs
 weight: 18
 url: /tr/java/onenote-document-loading/create-onenote-save-to-html/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# OneNote Belgesi Oluşturma ve HTML'ye Kaydetme - Java
+
 ## giriiş
 
 Aspose.Note for Java, geliştiricilerin Microsoft OneNote dosyalarıyla programlı olarak çalışmasına olanak tanıyan güçlü bir kitaplıktır. Bu eğitimde, Aspose.Note for Java'yı kullanarak bir OneNote belgesinin nasıl oluşturulacağını ve HTML formatında nasıl kaydedileceğini inceleyeceğiz.
@@ -136,3 +142,9 @@ C3: Evet, ücretsiz deneme sürümünü şuradan indirebilirsiniz:[Burada](https
 ### S5: Aspose.Note for Java lisansını nasıl satın alabilirim?
 
  Cevap5: Lisansı şuradan satın alabilirsiniz:[Web sitesi](https://purchase.aspose.com/buy).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

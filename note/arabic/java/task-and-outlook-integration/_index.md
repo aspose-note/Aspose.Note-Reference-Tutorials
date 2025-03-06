@@ -3,10 +3,16 @@ title: تكامل المهام والتوقعات
 linktitle: تكامل المهام والتوقعات
 second_title: Aspose.Note جافا API
 description: أطلق العنان لإمكانات Aspose.Note Java من خلال برامجنا التعليمية حول دمج مهام Outlook في OneNote. ارفع مهاراتك في معالجة المستندات من خلال برامجنا التعليمية.
-type: docs
 weight: 35
 url: /ar/java/task-and-outlook-integration/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# تكامل المهام والتوقعات
+
 
 ## مقدمة
 
@@ -38,3 +44,9 @@ Aspose.Note for Java ليس مجرد أداة؛ إنه يغير قواعد ال�
 ## دروس تكامل المهام والتوقعات
 ### [احصل على مهمة Outlook في OneNote - Aspose.Note](./get-outlook-task/)
 اكتشف قوة Aspose.Note لـ Java في استخراج مهام Outlook من OneNote دون عناء. اتبع دليلنا خطوة بخطوة وقم بتحسين قدرات معالجة المستندات لديك.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

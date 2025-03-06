@@ -3,10 +3,16 @@ title: 使用 Aspose.Note 创建具有锁定列的表
 linktitle: 使用 Aspose.Note 创建具有锁定列的表
 second_title: Aspose.Note .NET API
 description: 了解如何使用 Aspose.Note for .NET 创建具有锁定列的表。高效文档处理任务的分步指南。
-type: docs
 weight: 12
 url: /zh/net/table-manipulation/create-table-locked-columns/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# 使用 Aspose.Note 创建具有锁定列的表
+
 ## 介绍
 
 创建具有锁定列的表是文档处理应用程序中的常见要求。 Aspose.Note for .NET 提供了强大的工具来有效地完成此任务。在本教程中，我们将指导您使用 Aspose.Note for .NET 逐步完成创建具有锁定列的表的过程。
@@ -147,3 +153,9 @@ A4：是的，您可以通过以下方式获得技术支持：[Aspose.Note 论�
 ### Q5：我可以在购买前试用 Aspose.Note for .NET 吗？
 
  A5：是的，您可以从以下位置下载 Aspose.Note for .NET 的免费试用版：[这里](https://releases.aspose.com/)评估其功能以及与您的要求的兼容性。
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

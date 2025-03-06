@@ -3,10 +3,16 @@ title: Konvertieren Sie ein Notizbuch in ein abgeflachtes Bild in OneNote – As
 linktitle: Konvertieren Sie ein Notizbuch in ein abgeflachtes Bild in OneNote – Aspose.Note
 second_title: Aspose.Note Java API
 description: Erfahren Sie, wie Sie mit Aspose.Note für Java ein Notizbuch in OneNote in ein reduziertes Bild konvertieren. Bewahren Sie alle Elemente mühelos in einer einzigen Bilddatei auf.
-type: docs
 weight: 13
 url: /de/java/onenote-notebook-operations/convert-notebook-to-flattened-image/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Konvertieren Sie ein Notizbuch in ein abgeflachtes Bild in OneNote – Aspose.Note
+
 ## Einführung
 
 In diesem Tutorial führen wir Sie durch den Prozess der Konvertierung eines Notizbuchs in ein reduziertes Bild in OneNote mit Aspose.Note für Java. Dadurch können Sie Ihr Notizbuch als Bilddatei speichern und so sicherstellen, dass alle Elemente in einem einzigen Bildformat erhalten bleiben.
@@ -108,3 +114,9 @@ A3: Ja, Aspose.Note bietet umfangreiche Optionen zum Anpassen des Ausgabebilds, 
 ### F5: Wo finde ich Unterstützung für Aspose.Note für Java?
 
  A5: Unterstützung und Ressourcen finden Sie im Aspose.Note-Forum[Hier](https://forum.aspose.com/c/note/28).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

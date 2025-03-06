@@ -3,10 +3,16 @@ title: Siêu liên kết và hình ảnh OneNote
 linktitle: Siêu liên kết và hình ảnh OneNote
 second_title: API Java Aspose.Note
 description: Nâng cao trải nghiệm OneNote của bạn với hướng dẫn Aspose.Note for Java. Tìm hiểu cách thêm siêu liên kết, chèn hình ảnh và trích xuất thông tin hình ảnh một cách liền mạch với quá trình phát triển Java.
-type: docs
 weight: 22
 url: /vi/java/onenote-hyperlinks-images/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Siêu liên kết và hình ảnh OneNote
+
 
 ## Giới thiệu
 
@@ -48,3 +54,9 @@ Tìm hiểu cách trích xuất hình ảnh từ tài liệu OneNote bằng Java
 Tìm hiểu cách trích xuất thông tin hình ảnh từ tài liệu OneNote bằng Java với Aspose.Note. Các bước dễ dàng dành cho nhà phát triển.
 ### [Chèn hình ảnh vào tài liệu OneNote bằng Java](./insert-image/)
 Tìm hiểu cách chèn hình ảnh vào tài liệu OneNote bằng Java với thư viện Aspose.Note for Java. Hãy làm theo hướng dẫn từng bước của chúng tôi để tích hợp liền mạch.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

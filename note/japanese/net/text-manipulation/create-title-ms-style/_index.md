@@ -3,10 +3,16 @@ title: Aspose.Note で MS スタイルのタイトルを作成する
 linktitle: Aspose.Note で MS スタイルのタイトルを作成する
 second_title: Aspose.Note .NET API
 description: Aspose.Note for .NET で Microsoft スタイルのタイトルを作成する方法を学びます。このわかりやすいチュートリアルでドキュメントのプレゼンテーションを向上させましょう。
-type: docs
 weight: 15
 url: /ja/net/text-manipulation/create-title-ms-style/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Aspose.Note で MS スタイルのタイトルを作成する
+
 ## 導入
 Aspose.Note for .NET を使用して Microsoft スタイルのタイトルを追加して、ドキュメント作成プロセスを強化したいと考えていますか?この包括的なガイドでは、MS スタイルのタイトルを簡単に作成する手順を説明します。 Aspose.Note for .NET は、開発者が OneNote ドキュメントをプログラムで操作できるようにする強力なツールです。
 ## 前提条件
@@ -80,3 +86,9 @@ Aspose.Note for .NET のおかげで、Microsoft スタイルのタイトルを�
 C# の例外処理メカニズムを利用して、ドキュメント作成プロセス中に発生する可能性のある潜在的なエラーを捕捉して処理します。
 ### Aspose.Note for .NET のその他の例やドキュメントはどこで見つけられますか?
 を参照してください。[Aspose.Note for .NET ドキュメント](https://reference.aspose.com/note/net/)詳細な例と包括的なドキュメントについては、こちらをご覧ください。
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

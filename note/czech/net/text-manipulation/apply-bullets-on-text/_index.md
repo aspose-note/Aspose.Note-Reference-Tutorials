@@ -3,10 +3,16 @@ title: Použít odrážky na text v Aspose.Note
 linktitle: Použít odrážky na text v Aspose.Note
 second_title: Aspose.Note .NET API
 description: Naučte se používat odrážky na text v Aspose.Note pro .NET, abyste vylepšili své dokumenty OneNotu. Pro efektivní formátování postupujte podle tohoto podrobného průvodce.
-type: docs
 weight: 10
 url: /cs/net/text-manipulation/apply-bullets-on-text/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Použít odrážky na text v Aspose.Note
+
 ## Úvod
 Vítejte v tomto podrobném návodu k použití odrážek na text pomocí Aspose.Note pro .NET. Aspose.Note je výkonná knihovna, která umožňuje vývojářům bezproblémově pracovat se soubory Microsoft OneNote v jejich aplikacích .NET. V tomto kurzu vás provedeme procesem použití odrážek na text, čímž zvýšíme vizuální přitažlivost vašich dokumentů OneNotu.
 ## Předpoklady
@@ -86,3 +92,9 @@ Aspose.Note podporuje různé verze Microsoft OneNote a zajišťuje kompatibilit
  Ano, můžete si stáhnout bezplatnou zkušební verzi[tady](https://releases.aspose.com/).
 ### Kde najdu další podporu a zdroje?
  Můžete navštívit fórum komunity Aspose.Note[tady](https://forum.aspose.com/c/note/28) za podporu a diskuze.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -3,10 +3,16 @@ title: Đặt màu nền ô trong OneNote - Aspose.Note
 linktitle: Đặt màu nền ô trong OneNote - Aspose.Note
 second_title: API Java Aspose.Note
 description: Chuyển đổi tài liệu OneNote một cách dễ dàng bằng Aspose.Note for Java. Dễ dàng tùy chỉnh màu nền của ô. Hãy thử dùng thử miễn phí ngay bây giờ!
-type: docs
 weight: 17
 url: /vi/java/onenote-table-manipulation/setting-cell-background-color/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Đặt màu nền ô trong OneNote - Aspose.Note
+
 ## Giới thiệu
 Chào mừng bạn đến với hướng dẫn của chúng tôi về cách đặt màu nền ô trong OneNote bằng Aspose.Note cho Java! Trong hướng dẫn từng bước này, chúng tôi sẽ hướng dẫn bạn quy trình tùy chỉnh màu nền ô trong tài liệu OneNote của bạn một cách dễ dàng.
 ## Điều kiện tiên quyết
@@ -66,3 +72,9 @@ Có, bạn có thể lặp qua các hàng và ô trong bảng để áp dụng m
  Truy cập diễn đàn hỗ trợ[đây](https://forum.aspose.com/c/note/28) để nhận được sự hỗ trợ từ cộng đồng Aspose.
 ### Tôi có thể mua Aspose.Note cho Java ở đâu?
  Bạn có thể mua thư viện[đây](https://purchase.aspose.com/buy).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

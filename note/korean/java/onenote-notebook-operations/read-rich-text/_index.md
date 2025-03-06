@@ -3,10 +3,16 @@ title: OneNote 노트북에서 서식 있는 텍스트 읽기 - Aspose.Note
 linktitle: OneNote 노트북에서 서식 있는 텍스트 읽기 - Aspose.Note
 second_title: Aspose.Note 자바 API
 description: Aspose.Note for Java를 사용하여 OneNote 노트북에서 서식 있는 텍스트를 읽는 방법을 알아보세요. 원활한 OneNote 통합으로 Java 애플리케이션을 향상하세요.
-type: docs
 weight: 23
 url: /ko/java/onenote-notebook-operations/read-rich-text/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# OneNote 노트북에서 서식 있는 텍스트 읽기 - Aspose.Note
+
 ## 소개
 
 이 튜토리얼에서는 Java용 Aspose.Note를 활용하여 OneNote 노트북에서 서식 있는 텍스트를 읽는 방법을 살펴보겠습니다. Aspose.Note는 개발자가 Microsoft OneNote 파일을 원활하게 사용할 수 있게 해주는 강력한 Java API입니다. 아래에 설명된 단계를 따르면 서식 있는 텍스트 데이터를 손쉽게 추출하여 OneNote 콘텐츠를 쉽게 조작하고 분석할 수 있습니다.
@@ -91,3 +97,9 @@ A2: Aspose.Note for Java는 다양한 버전의 Microsoft OneNote를 지원하�
 ### Q5: Java용 Aspose.Note에 대한 지원은 어디서 찾을 수 있나요?
 
  답변 5: 다음 웹사이트에서 지원과 도움을 받으실 수 있습니다.[Aspose.Note 포럼](https://forum.aspose.com/c/note/28).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

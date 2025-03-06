@@ -3,10 +3,16 @@ title: Opérations du bloc-notes OneNote
 linktitle: Opérations du bloc-notes OneNote
 second_title: API Java Aspose.Note
 description: Libérez tout le potentiel d’Aspose.Note pour Java avec nos didacticiels sur les opérations du bloc-notes OneNote. Fournissez un guide étape par étape pour améliorer vos applications Java.
-type: docs
 weight: 28
 url: /fr/java/onenote-notebook-operations/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Opérations du bloc-notes OneNote
+
 
 ## Introduction
 
@@ -66,3 +72,9 @@ Découvrez comment récupérer des documents à partir de OneNote Notebook à l�
 Découvrez comment enregistrer des blocs-notes dans des flux dans OneNote à l'aide d'Aspose.Note pour Java. Augmentez la productivité grâce à une gestion efficace des ordinateurs portables.
 ### [Écrire un document protégé par mot de passe dans OneNote - Aspose.Note](./write-password-protected-document/)
 Découvrez comment rédiger des documents protégés par mot de passe dans OneNote à l'aide d'Aspose.Note pour Java. Assurez la sécurité avec des étapes faciles à suivre.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

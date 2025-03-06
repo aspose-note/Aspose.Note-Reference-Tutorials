@@ -3,10 +3,16 @@ title: OneNote의 스트림에 저장 - Aspose.Note
 linktitle: OneNote의 스트림에 저장 - Aspose.Note
 second_title: Aspose.Note 자바 API
 description: Aspose.Note를 사용하여 OneNote 문서를 Java 스트림에 저장하는 방법을 알아보세요. 이 기능을 귀하의 애플리케이션에 손쉽게 통합하세요.
-type: docs
 weight: 20
 url: /ko/java/onenote-document-saving/save-to-stream/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# OneNote의 스트림에 저장 - Aspose.Note
+
 ## 소개
 
 이 튜토리얼에서는 Microsoft OneNote 문서를 프로그래밍 방식으로 작업하기 위한 강력한 라이브러리인 Aspose.Note for Java를 사용하는 방법을 살펴보겠습니다. 특히 OneNote 문서를 스트림에 저장하는 프로세스에 중점을 둘 것입니다. 이 가이드에 설명된 단계를 따르면 Java 응용 프로그램 내에서 OneNote 파일을 효율적으로 조작할 수 있습니다.
@@ -95,3 +101,9 @@ A4: Java용 Aspose.Note에 대한 문서, 포럼 및 지원은 다음에서 찾�
 ### Q5: 구매하기 전에 Java용 Aspose.Note를 사용해 볼 수 있나요?
 
  A5: 예, 다음 사이트에서 Aspose.Note for Java 무료 평가판을 얻을 수 있습니다.[Aspose 웹사이트](https://releases.aspose.com/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

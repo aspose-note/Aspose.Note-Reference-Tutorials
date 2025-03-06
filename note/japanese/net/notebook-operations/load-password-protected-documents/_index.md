@@ -3,10 +3,16 @@ title: パスワードで保護されたドキュメントを Aspose Note .NET �
 linktitle: パスワードで保護されたドキュメントを Aspose Note .NET にロードする
 second_title: Aspose.Note .NET API
 description: 簡単な手順を使用して、パスワードで保護されたドキュメントを Aspose Note .NET に安全にロードする方法を学びます。暗号化によりデータの機密性を確保します。
-type: docs
 weight: 22
 url: /ja/net/notebook-operations/load-password-protected-documents/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# パスワードで保護されたドキュメントを Aspose Note .NET にロードする
+
 ## 導入
 
 Aspose.Note for .NET は、開発者が Microsoft OneNote ファイルをプログラムで操作できるようにする強力な API です。このチュートリアルでは、Aspose.Note for .NET を使用してパスワードで保護されたドキュメントを読み込む方法を学習します。
@@ -77,3 +83,9 @@ A4: はい。Aspose.Note for .NET を使用すると、ノートブック内の�
 ### Q5: Aspose.Note for .NET の試用版はありますか?
 
  A5: はい。Aspose.Note for .NET の無料試用版には、以下からアクセスできます。[ここ](https://releases.aspose.com/)を使用すると、購入する前にその機能を調べることができます。
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

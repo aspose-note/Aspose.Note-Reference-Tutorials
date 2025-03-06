@@ -3,10 +3,16 @@ title: Crear lista numerada en OneNote - Aspose.Note
 linktitle: Crear lista numerada en OneNote - Aspose.Note
 second_title: Aspose.Nota Java API
 description: Aprenda cómo crear fácilmente una lista numerada en OneNote con Aspose.Note para Java. ¡Descarga una prueba gratuita y sumérgete en el mundo del desarrollo Java!
-type: docs
 weight: 14
 url: /es/java/onenote-text-manipulation/create-numbered-list/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Crear lista numerada en OneNote - Aspose.Note
+
 ## Introducción
 Aspose.Note para Java permite a los desarrolladores de Java trabajar sin problemas con archivos de Microsoft OneNote. En este tutorial, lo guiaremos a través del proceso de elaboración de una lista numerada en OneNote con la poderosa biblioteca Aspose.Note para Java.
 ## Requisitos previos
@@ -91,3 +97,9 @@ R: ¡Absolutamente! Puede personalizar el formato de numeración utilizando la c
  R: Consulte el[documentación](https://reference.aspose.com/note/java/) para obtener información completa.
 ### P: ¿Cómo compro una licencia de Aspose.Note para Java?
  R: Puedes comprar una licencia[aquí](https://purchase.aspose.com/buy).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

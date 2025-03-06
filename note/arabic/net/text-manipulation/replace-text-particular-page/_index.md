@@ -3,10 +3,16 @@ title: استبدال النص في صفحة معينة في Aspose.Note
 linktitle: استبدال النص في صفحة معينة في Aspose.Note
 second_title: Aspose.Note .NET API
 description: تعرف على كيفية استبدال النص في صفحة معينة في Aspose.Note باستخدام .NET. اتبع دليلنا خطوة بخطوة لمعالجة النص بكفاءة.
-type: docs
 weight: 22
 url: /ar/net/text-manipulation/replace-text-particular-page/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# استبدال النص في صفحة معينة في Aspose.Note
+
 ## مقدمة
 في عالم تطوير .NET، يبرز Aspose.Note كأداة قوية لمعالجة ملفات Microsoft OneNote برمجيًا. إحدى المهام الشائعة التي يواجهها مطورو البرامج غالبًا هي استبدال النص في صفحة معينة داخل مستند Aspose.Note. في هذا الدليل التفصيلي، سنستكشف كيفية تحقيق ذلك باستخدام Aspose.Note لـ .NET.
 ## المتطلبات الأساسية
@@ -82,3 +88,9 @@ Console.WriteLine("\nText replaced successfully on a particular page.\nFile save
 يمكنك تنفيذ معالجة الأخطاء باستخدام كتل محاولة الالتقاط لإدارة الاستثناءات التي قد تحدث أثناء العملية.
 ### س: هل يوجد منتدى مجتمعي لدعم Aspose.Note؟
  نعم، يمكنك طلب المساعدة ومشاركة تجاربك على[منتدى Aspose.Note](https://forum.aspose.com/c/note/28).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

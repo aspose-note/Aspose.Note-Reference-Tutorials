@@ -3,10 +3,16 @@ title: Joindre un fichier par chemin dans Aspose.Note
 linktitle: Joindre un fichier par chemin dans Aspose.Note
 second_title: API Aspose.Note .NET
 description: Découvrez comment joindre des fichiers à des documents Microsoft OneNote par programmation à l'aide d'Aspose.Note pour .NET. Simplifiez votre processus de développement avec ce didacticiel complet.
-type: docs
 weight: 11
 url: /fr/net/attachments/attach-file-by-path/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Joindre un fichier par chemin dans Aspose.Note
+
 ## Introduction
 
 Aspose.Note pour .NET est une bibliothèque puissante qui permet aux développeurs de travailler avec des fichiers Microsoft OneNote par programme. Que vous souhaitiez créer, modifier, convertir ou manipuler des documents OneNote, Aspose.Note pour .NET fournit des fonctionnalités complètes pour rationaliser votre processus de développement.
@@ -147,3 +153,9 @@ A3 : Oui, vous devez acquérir une licence pour une utilisation commerciale d'As
 ### Q5 : Où puis-je demander de l'aide pour Aspose.Note pour .NET ?
 
  A5 : Vous pouvez demander de l'aide sur les forums de la communauté Aspose.Note[ici](https://forum.aspose.com/c/note/28).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

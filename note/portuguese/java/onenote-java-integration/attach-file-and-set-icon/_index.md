@@ -3,10 +3,16 @@ title: Anexar arquivo e definir ícone no OneNote usando Java
 linktitle: Anexar arquivo e definir ícone no OneNote usando Java
 second_title: API Java Aspose.Note
 description: Aumente o seu fluxo de trabalho do OneNote! Aprenda como anexar arquivos e personalizar ícones programaticamente em Java com Aspose.Note. Etapas fáceis e código incluído! #OneNote #Java #Aspose
-type: docs
 weight: 10
 url: /pt/java/onenote-java-integration/attach-file-and-set-icon/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Anexar arquivo e definir ícone no OneNote usando Java
+
 ## Introdução
 
 OneNote é uma ferramenta popular para fazer anotações e organizar informações e, com a ajuda do Aspose.Note para Java, você pode aprimorar seus recursos anexando arquivos programaticamente e definindo ícones para melhorar a representação visual de suas anotações. Neste tutorial, guiaremos você pelo processo passo a passo.
@@ -149,3 +155,10 @@ A3: Com certeza, você pode escolher ícones personalizados para representar dif
 ### Q5: Existe uma versão de teste disponível para Aspose.Note para Java?
 
 A5: Sim, você pode explorar a funcionalidade do Aspose.Note for Java com uma avaliação gratuita disponível em[esse link](https://releases.aspose.com/).
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

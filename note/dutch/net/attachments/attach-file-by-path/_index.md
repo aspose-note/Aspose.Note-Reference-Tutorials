@@ -3,10 +3,16 @@ title: Bestand per pad bijvoegen in Aspose.Note
 linktitle: Bestand per pad bijvoegen in Aspose.Note
 second_title: Aspose.Note .NET API
 description: Leer hoe u programmatisch bestanden aan Microsoft OneNote-documenten kunt toevoegen met Aspose.Note voor .NET. Vereenvoudig uw ontwikkelingsproces met deze uitgebreide tutorial.
-type: docs
 weight: 11
 url: /nl/net/attachments/attach-file-by-path/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Bestand per pad bijvoegen in Aspose.Note
+
 ## Invoering
 
 Aspose.Note voor .NET is een krachtige bibliotheek waarmee ontwikkelaars programmatisch met Microsoft OneNote-bestanden kunnen werken. Of u nu OneNote-documenten wilt maken, bewerken, converteren of manipuleren, Aspose.Note voor .NET biedt uitgebreide functionaliteit om uw ontwikkelingsproces te stroomlijnen.
@@ -147,3 +153,9 @@ A3: Ja, u heeft een licentie nodig voor commercieel gebruik van Aspose.Note voor
 ### V5: Waar kan ik ondersteuning zoeken voor Aspose.Note voor .NET?
 
  A5: U kunt ondersteuning zoeken op de Aspose.Note-communityforums[hier](https://forum.aspose.com/c/note/28).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

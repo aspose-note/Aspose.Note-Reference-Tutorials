@@ -3,10 +3,16 @@ title: Définir le style de paragraphe par défaut dans OneNote - Aspose.Note
 linktitle: Définir le style de paragraphe par défaut dans OneNote - Aspose.Note
 second_title: API Java Aspose.Note
 description: Découvrez comment définir des styles de paragraphe par défaut dans OneNote à l’aide d’Aspose.Note pour Java. Suivez notre guide étape par étape pour un formatage de texte efficace dans vos applications Java.
-type: docs
 weight: 11
 url: /fr/java/onenote-styles/set-default-paragraph-style/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Définir le style de paragraphe par défaut dans OneNote - Aspose.Note
+
 ## Introduction
 
 Aspose.Note pour Java offre de puissantes fonctionnalités pour manipuler le formatage du texte, notamment la définition de styles de paragraphe par défaut. Ce didacticiel vous guidera tout au long du processus de définition des styles de paragraphe par défaut dans OneNote à l'aide d'Aspose.Note.
@@ -127,3 +133,9 @@ A4 : Oui, vous pouvez facilement intégrer Aspose.Note dans vos projets Java en 
 ### Q5 : Existe-t-il une version d’essai disponible pour Aspose.Note ?
 
  A5 : Oui, vous pouvez accéder à un essai gratuit d'Aspose.Note depuis le[site web](https://releases.aspose.com/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

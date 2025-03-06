@@ -3,10 +3,16 @@ title: Εξαγωγή κειμένου γραμμής από τον πίνακα
 linktitle: Εξαγωγή κειμένου γραμμής από τον πίνακα στο έγγραφο OneNote - Aspose.Note
 second_title: Aspose.Note Java API
 description: Μάθετε να εξάγετε κείμενο σειρών από πίνακες OneNote χωρίς κόπο με το Aspose.Note για Java. Ακολουθήστε τον βήμα προς βήμα οδηγό μας για απρόσκοπτη ενσωμάτωση.
-type: docs
 weight: 13
 url: /el/java/onenote-table-manipulation/extract-row-text-from-table/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Εξαγωγή κειμένου γραμμής από τον πίνακα στο έγγραφο OneNote - Aspose.Note
+
 ## Εισαγωγή
 Καλώς ήρθατε σε αυτό το περιεκτικό σεμινάριο για την εξαγωγή κειμένου σειρών από πίνακες σε έγγραφα του OneNote χρησιμοποιώντας το Aspose.Note για Java. Το Aspose.Note είναι μια ισχυρή βιβλιοθήκη Java που επιτρέπει στους προγραμματιστές να εργάζονται απρόσκοπτα με αρχεία Microsoft OneNote. Σε αυτό το σεμινάριο, θα σας καθοδηγήσουμε στη διαδικασία βήμα προς βήμα, δείχνοντας πώς να εξάγετε αποτελεσματικά κείμενο σειρών από πίνακες στα έγγραφά σας στο OneNote.
 ## Προαπαιτούμενα
@@ -74,3 +80,9 @@ for (Table table : nodes) {
  Πάρτε μια προσωρινή άδεια από[αυτός ο σύνδεσμος](https://purchase.aspose.com/temporary-license/).
 ### Υπάρχουν συγκεκριμένες απαιτήσεις συστήματος για τη χρήση του Aspose.Note για Java;
 Ανατρέξτε στην τεκμηρίωση για λεπτομερείς απαιτήσεις συστήματος.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

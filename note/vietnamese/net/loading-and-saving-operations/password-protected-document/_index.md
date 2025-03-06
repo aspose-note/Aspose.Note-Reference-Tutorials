@@ -3,10 +3,16 @@ title: Tài liệu được bảo vệ bằng mật khẩu trong Aspose.Note
 linktitle: Tài liệu được bảo vệ bằng mật khẩu trong Aspose.Note
 second_title: Aspose.Note .NET API
 description: Tìm hiểu cách xử lý các tài liệu được bảo vệ bằng mật khẩu bằng Aspose.Note for .NET. Bảo mật thông tin nhạy cảm của bạn một cách dễ dàng.
-type: docs
 weight: 18
 url: /vi/net/loading-and-saving-operations/password-protected-document/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Tài liệu được bảo vệ bằng mật khẩu trong Aspose.Note
+
 ## Giới thiệu
 
 Trong hướng dẫn này, chúng ta sẽ tìm hiểu quy trình xử lý các tài liệu được bảo vệ bằng mật khẩu bằng Aspose.Note cho .NET. Bảo vệ bằng mật khẩu bổ sung thêm một lớp bảo mật cho tài liệu của bạn, đảm bảo rằng chỉ những người dùng được ủy quyền mới có thể truy cập chúng.
@@ -82,3 +88,9 @@ Câu trả lời 3: Có, Aspose.Note for .NET cung cấp chức năng loại b�
 ### Câu hỏi 5: Tôi có thể tự động hóa quy trình xử lý tài liệu được bảo vệ bằng mật khẩu không?
 
 Câu trả lời 5: Có, bạn có thể tự động hóa quy trình bằng cách sử dụng tập lệnh hoặc tác vụ đã lên lịch để xử lý tài liệu được bảo vệ bằng mật khẩu một cách hiệu quả.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

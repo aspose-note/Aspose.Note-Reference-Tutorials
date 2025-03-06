@@ -3,10 +3,16 @@ title: Создать блокнот в OneNote — Aspose.Note
 linktitle: Создать блокнот в OneNote — Aspose.Note
 second_title: Aspose.Note Java API
 description: Узнайте, как создавать записные книжки в OneNote программным способом с помощью Aspose.Note для Java. Оптимизируйте свой рабочий процесс с помощью этого пошагового руководства.
-type: docs
 weight: 18
 url: /ru/java/onenote-notebook-operations/create-notebook/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Создать блокнот в OneNote — Aspose.Note
+
 ## Введение
 
 В этом уроке мы углубимся в мир создания записных книжек в OneNote с использованием Aspose.Note для Java. Aspose.Note — это мощная библиотека Java, которая позволяет разработчикам программно работать с файлами Microsoft OneNote. Независимо от того, являетесь ли вы опытным разработчиком или только начинаете, это пошаговое руководство проведет вас через процесс создания блокнотов без особых усилий.
@@ -86,3 +92,9 @@ notebook.save(dataDir + "CreatandSaveANotebook.onetoc2");
 ### Вопрос 5: Где я могу получить поддержку Aspose.Note для Java?
 
  A5: Для получения помощи или вопросов относительно Aspose.Note для Java вы можете посетить[Форум Aspose.Note](https://forum.aspose.com/c/note/28) взаимодействовать с сообществом и получать экспертные рекомендации.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

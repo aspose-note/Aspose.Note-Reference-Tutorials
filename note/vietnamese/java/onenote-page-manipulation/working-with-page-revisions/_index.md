@@ -3,10 +3,16 @@ title: Làm việc với các bản sửa đổi trang trong OneNote - Aspose.No
 linktitle: Làm việc với các bản sửa đổi trang trong OneNote - Aspose.Note
 second_title: API Java Aspose.Note
 description: Tìm hiểu cách quản lý các bản sửa đổi trang trong tài liệu OneNote bằng Aspose.Note for Java. Cung cấp hướng dẫn từng bước để theo dõi và cộng tác sửa đổi hiệu quả.
-type: docs
 weight: 21
 url: /vi/java/onenote-page-manipulation/working-with-page-revisions/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Làm việc với các bản sửa đổi trang trong OneNote - Aspose.Note
+
 ## Giới thiệu
 
 OneNote là một công cụ mạnh mẽ để sắp xếp và quản lý ghi chú nhưng đôi khi bạn cần làm việc với các bản sửa đổi để theo dõi các thay đổi và cộng tác hiệu quả. Với Aspose.Note for Java, bạn có thể dễ dàng quản lý các bản sửa đổi trang trong tài liệu OneNote theo chương trình. Hướng dẫn này sẽ hướng dẫn bạn từng bước thực hiện quy trình.
@@ -98,3 +104,9 @@ Trả lời: Có, bạn có thể tùy chỉnh các bản sửa đổi trang the
 ### Câu hỏi 5: Tôi có thể nhận hỗ trợ cho Aspose.Note cho Java ở đâu?
 
  Trả lời: Bạn có thể nhận hỗ trợ cho Aspose.Note dành cho Java từ[Diễn đàn Aspose.Note](https://forum.aspose.com/c/note/28).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

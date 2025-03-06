@@ -3,10 +3,16 @@ title: Aspose.Note에 하이퍼링크가 포함된 이미지 삽입
 linktitle: Aspose.Note에 하이퍼링크가 포함된 이미지 삽입
 second_title: Aspose.Note .NET API
 description: .NET용 Aspose.Note에서 하이퍼링크가 포함된 이미지를 손쉽게 삽입하는 방법을 알아보세요. 클릭 가능한 이미지로 문서 상호작용을 강화합니다.
-type: docs
 weight: 15
 url: /ko/net/images/insert-image-hyperlink/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Aspose.Note에 하이퍼링크가 포함된 이미지 삽입
+
 ## 소개
 
 .NET용 Aspose.Note는 하이퍼링크와 함께 이미지를 삽입하는 기능을 포함하여 이미지 작업을 위한 강력한 기능 세트를 제공합니다. 이 튜토리얼에서는 Aspose.Note for .NET을 사용하여 하이퍼링크가 포함된 이미지를 삽입하는 과정을 안내합니다.
@@ -89,3 +95,9 @@ A3: 예, .NET용 Aspose.Note를 사용하여 색상, 밑줄, 호버 효과 등 �
 ### Q5: .NET용 Aspose.Note에 대한 지원은 어디서 받을 수 있나요?
 
  A5: .NET용 Aspose.Note에 대한 지원은 다음에서 받을 수 있습니다.[Aspose.Note 포럼](https://forum.aspose.com/c/note/28)에서 질문하고, 지침을 구하고, 다른 사용자 및 전문가와 상호 작용할 수 있습니다.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

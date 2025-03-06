@@ -3,10 +3,16 @@ title: 删除 Aspose Note .NET 中的子节点
 linktitle: 删除 Aspose Note .NET 中的子节点
 second_title: Aspose.Note .NET API
 description: 了解如何轻松删除 Aspose.Note for .NET 中的子节点。通过此分步指南简化 OneNote 文件管理。
-type: docs
 weight: 24
 url: /zh/net/notebook-operations/remove-child-nodes/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# 删除 Aspose Note .NET 中的子节点
+
 ## 介绍
 
 在本教程中，我们将探索如何使用 Aspose.Note for .NET 高效删除子节点。 Aspose.Note 是一个功能强大的库，允许开发人员以编程方式处理 Microsoft OneNote 文件。无论您是管理笔记本、分区还是单个页面，Aspose.Note 都可以通过其直观的 API 简化流程。在这里，我们将特别关注从笔记本中删除子节点。
@@ -92,3 +98,9 @@ A4：当然！ Aspose.Note 提供了用于在 OneNote 文件中创建、读取�
 ### Q5：在哪里可以找到对 Aspose.Note 的额外支持？
 
  A5：如需进一步帮助或查询，您可以访问[Aspose.Note 论坛](https://forum.aspose.com/c/note/28)专家和其他开发人员可以提供帮助。
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

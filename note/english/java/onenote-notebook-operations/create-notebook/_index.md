@@ -3,10 +3,16 @@ title: Create Notebook in OneNote - Aspose.Note
 linktitle: Create Notebook in OneNote - Aspose.Note
 second_title: Aspose.Note Java API
 description: Learn how to create notebooks in OneNote programmatically using Aspose.Note for Java. Streamline your workflow with this step-by-step guide.
-type: docs
 weight: 18
 url: /java/onenote-notebook-operations/create-notebook/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Create Notebook in OneNote - Aspose.Note
+
 ## Introduction
 
 In this tutorial, we'll delve into the world of creating notebooks in OneNote using Aspose.Note for Java. Aspose.Note is a powerful Java library that allows developers to work with Microsoft OneNote files programmatically. Whether you're a seasoned developer or just starting out, this step-by-step guide will walk you through the process of creating notebooks effortlessly.
@@ -86,3 +92,10 @@ A4: Yes, you can access a free trial of Aspose.Note for Java from the [releases 
 ### Q5: Where can I get support for Aspose.Note for Java?
 
 A5: For any assistance or queries regarding Aspose.Note for Java, you can visit the [Aspose.Note forum](https://forum.aspose.com/c/note/28) to interact with the community and get expert guidance.
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

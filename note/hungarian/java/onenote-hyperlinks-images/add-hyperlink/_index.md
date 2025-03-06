@@ -3,10 +3,16 @@ title: Hiperhivatkozás hozzáadása a OneNote-hoz Java segítségével
 linktitle: Hiperhivatkozás hozzáadása a OneNote-hoz Java segítségével
 second_title: Aspose.Note Java API
 description: Ismerje meg, hogyan adhat hozzá hivatkozásokat a OneNote-hoz Java használatával az Aspose.Note könyvtárral. Növelje jegyzeteit interaktív hivatkozásokkal könnyedén.
-type: docs
 weight: 10
 url: /hu/java/onenote-hyperlinks-images/add-hyperlink/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Hiperhivatkozás hozzáadása a OneNote-hoz Java segítségével
+
 ## Bevezetés
 
 Hiperhivatkozások hozzáadása a OneNote-dokumentumokhoz Java használatával nagyban növelheti a jegyzetek interaktivitását és hasznosságát. Ebben az oktatóanyagban lépésről lépésre végigvezetjük a folyamaton az Aspose.Note for Java könyvtár használatával. Merüljünk el!
@@ -136,3 +142,9 @@ A2: Abszolút! Az Aspose.Note for Java segítségével tetszőleges számú hipe
 ### 5. kérdés: Hol találok további segítséget és forrásokat az Aspose.Note használatához?
 
  5. válasz: A webhelyen kiterjedt dokumentációt, oktatóanyagokat és közösségi támogatást találhat[Aspose.Note fórum](https://forum.aspose.com/c/note/28).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

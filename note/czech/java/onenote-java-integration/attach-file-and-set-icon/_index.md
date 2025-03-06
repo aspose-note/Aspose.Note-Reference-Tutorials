@@ -3,10 +3,16 @@ title: Připojte soubor a nastavte ikonu ve OneNotu pomocí Java
 linktitle: Připojte soubor a nastavte ikonu ve OneNotu pomocí Java
 second_title: Aspose.Note Java API
 description: Vylepšete svůj pracovní postup ve OneNotu! Naučte se připojovat soubory a přizpůsobovat ikony programově v Javě pomocí Aspose.Note. Jednoduché kroky a kód v ceně! #OneNote #Java #Aspose
-type: docs
 weight: 10
 url: /cs/java/onenote-java-integration/attach-file-and-set-icon/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Připojte soubor a nastavte ikonu ve OneNotu pomocí Java
+
 ## Úvod
 
 OneNote je oblíbený nástroj pro psaní poznámek a organizování informací as pomocí Aspose.Note for Java můžete vylepšit jeho možnosti programovým připojováním souborů a nastavením ikon pro zlepšení vizuální reprezentace vašich poznámek. V tomto tutoriálu vás provedeme procesem krok za krokem.
@@ -149,3 +155,10 @@ Odpověď 3: Rozhodně si můžete vybrat vlastní ikony, které budou reprezent
 ### Q5: Je k dispozici zkušební verze pro Aspose.Note pro Java?
 
 A5: Ano, můžete prozkoumat funkčnost Aspose.Note pro Java s bezplatnou zkušební verzí dostupnou na[tento odkaz](https://releases.aspose.com/).
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

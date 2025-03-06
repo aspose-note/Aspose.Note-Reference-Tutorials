@@ -3,10 +3,16 @@ title: Crear tabla con columnas bloqueadas en OneNote - Aspose.Note
 linktitle: Crear tabla con columnas bloqueadas en OneNote - Aspose.Note
 second_title: Aspose.Nota Java API
 description: Mejore su experiencia OneNote con Aspose.Note para Java. Aprenda a crear tablas con columnas bloqueadas usando una guía paso a paso. ¡Descarga tu prueba gratuita ahora!
-type: docs
 weight: 12
 url: /es/java/onenote-table-manipulation/create-table-with-locked-columns/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Crear tabla con columnas bloqueadas en OneNote - Aspose.Note
+
 ## Introducción
 OneNote es una poderosa herramienta para organizar información y Aspose.Note para Java mejora sus capacidades al proporcionar una forma sencilla de crear tablas con columnas bloqueadas. En este tutorial, lo guiaremos a través del proceso de uso de Aspose.Note para Java para crear una tabla con columnas bloqueadas en OneNote.
 ## Requisitos previos
@@ -90,3 +96,9 @@ Sí, Aspose.Note para Java es compatible con Java 6 y versiones posteriores.
  Visita el[Foro Aspose.Note](https://forum.aspose.com/c/note/28) para apoyo y debates comunitarios.
 ### ¿Cómo puedo obtener una licencia temporal de Aspose.Note para Java?
  Visita[este enlace](https://purchase.aspose.com/temporary-license/) obtener una licencia temporal para fines de prueba.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

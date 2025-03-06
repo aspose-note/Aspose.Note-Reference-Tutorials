@@ -3,10 +3,16 @@ title: Tabellen beheersen met OneNote-integratie
 linktitle: Tabelmanipulatie
 second_title: Aspose.Note .NET API
 description: Creëer visueel aantrekkelijke documenten met Aspose.Note voor .NET! Ontdek tutorials over tabelmanipulatie verander stijlen, stel tabellen samen, extraheer tekst en meer.
-type: docs
 weight: 29
 url: /nl/net/table-manipulation/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Tabellen beheersen met OneNote-integratie
+
 
 ## Invoering
 
@@ -62,3 +68,9 @@ Leer hoe u tekst uit tabellen kunt extraheren in Aspose.Note met behulp van C# m
 Leer tabellen invoegen in Note-documenten met Aspose.Note voor .NET. Organiseer gegevens naadloos voor verbeterde leesbaarheid en presentatie.
 ### [Stel de celachtergrondkleur in Aspose.Note-tabellen in](./set-cell-background-color/)
 Leer hoe u de achtergrondkleur van cellen in Aspose.Note-tabellen instelt met behulp van de stapsgewijze handleiding. Verbeter documentvisuals moeiteloos.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

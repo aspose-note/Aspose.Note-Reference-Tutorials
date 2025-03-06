@@ -3,10 +3,16 @@ title: Vytvořte dokument s formátovaným textem v Aspose.Note
 linktitle: Vytvořte dokument s formátovaným textem v Aspose.Note
 second_title: Aspose.Note .NET API
 description: Naučte se, jak programově vytvářet dokumenty RTF pomocí Aspose.Note pro .NET. Podrobný průvodce s příklady kódu.
-type: docs
 weight: 12
 url: /cs/net/loading-and-saving-operations/create-doc-with-rich-text/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Vytvořte dokument s formátovaným textem v Aspose.Note
+
 ## Úvod
 
 V oblasti vývoje .NET vyniká Aspose.Note jako výkonný nástroj pro programovou manipulaci se soubory Microsoft OneNote. Ať už se zaměřujete na automatizaci vytváření dokumentů nebo manipulaci se stávajícími poznámkami, Aspose.Note vybaví vývojáře komplexní sadou funkcí. Mezi tyto funkce patří schopnost generovat dokumenty ve formátu RTF s různými možnostmi formátování. V tomto tutoriálu se ponoříme do procesu vytváření takových dokumentů krok za krokem pomocí Aspose.Note pro .NET.
@@ -170,3 +176,9 @@ A4: Aspose.Note se primárně zaměřuje na místní zpracování dokumentů, al
 ### Q5: Kde najdu další zdroje a podporu pro Aspose.Note?
 
  A5: Můžete prozkoumat[Aspose.Note fórum](https://forum.aspose.com/c/note/28) za podporu komunity a přístup k dokumentaci na webu[webová stránka](https://reference.aspose.com/note/net/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

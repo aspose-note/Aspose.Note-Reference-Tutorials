@@ -3,10 +3,16 @@ title: OneNote에서 로캘 작업 - Aspose.Note
 linktitle: OneNote에서 로캘 작업 - Aspose.Note
 second_title: Aspose.Note 자바 API
 description: Aspose.Note의 강력한 기능을 OneNote 로케일과 함께 활용하세요! 다양한 언어 및 지역에 맞는 보고서를 추출, 조작 및 생성합니다. #OneNote #Java #Aspose
-type: docs
 weight: 10
 url: /ko/java/onenote-notebook-operations/working-with-locales/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# OneNote에서 로캘 작업 - Aspose.Note
+
 ## 소개
 
 Java 개발 영역에서 Aspose.Note는 OneNote 파일 작업을 위한 강력한 도구로 돋보입니다. 정보 추출, 콘텐츠 조작, 보고서 생성 등 무엇을 목표로 하든 Aspose.Note는 작업 흐름을 간소화하는 광범위한 기능 세트를 제공합니다. 이 자습서에서는 Java용 Aspose.Note를 사용하여 OneNote에서 로캘 작업을 하는 특정 측면을 자세히 살펴보겠습니다.
@@ -99,3 +105,9 @@ A3: Aspose.Note는 주로 OneNote 파일용으로 설계되었지만 다양한 �
 ### Q5: 구매하기 전에 Aspose.Note를 사용해 볼 수 있나요?
 
 A5: 물론 웹사이트에서 제공되는 무료 평가판을 이용하여 Aspose.Note의 기능을 탐색할 수 있습니다.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -3,10 +3,16 @@ title: Ενοποίηση εργασιών και Outlook
 linktitle: Ενοποίηση εργασιών και Outlook
 second_title: Aspose.Note Java API
 description: Ξεκλειδώστε τις δυνατότητες του Aspose.Note Java με τα σεμινάρια μας σχετικά με την ενσωμάτωση εργασιών του Outlook στο OneNote. Αναβαθμίστε τις δεξιότητές σας στην επεξεργασία εγγράφων με τα σεμινάρια μας.
-type: docs
 weight: 35
 url: /el/java/task-and-outlook-integration/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Ενοποίηση εργασιών και Outlook
+
 
 ## Εισαγωγή
 
@@ -38,3 +44,9 @@ url: /el/java/task-and-outlook-integration/
 ## Οδηγίες ενοποίησης εργασιών και Outlook
 ### [Λάβετε το Outlook Task στο OneNote - Aspose.Note](./get-outlook-task/)
 Εξερευνήστε τη δύναμη του Aspose.Note για Java στην εξαγωγή εργασιών του Outlook από το OneNote χωρίς κόπο. Ακολουθήστε τον βήμα προς βήμα οδηγό μας και βελτιώστε τις δυνατότητες επεξεργασίας εγγράφων σας.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

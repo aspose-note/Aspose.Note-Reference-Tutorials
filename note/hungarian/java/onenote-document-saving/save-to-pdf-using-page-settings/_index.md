@@ -3,10 +3,16 @@ title: Mentés PDF-be a OneNote oldalbeállításaival – Aspose.Note
 linktitle: Mentés PDF-be a OneNote oldalbeállításaival – Aspose.Note
 second_title: Aspose.Note Java API
 description: Ismerje meg, hogyan mentheti a OneNote-dokumentumokat PDF-formátumba Java nyelven az Aspose.Note könyvtár használatával. Lépésről lépésre útmutató kódpéldákkal a különböző oldalbeállításokhoz.
-type: docs
 weight: 19
 url: /hu/java/onenote-document-saving/save-to-pdf-using-page-settings/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Mentés PDF-be a OneNote oldalbeállításaival – Aspose.Note
+
 ## Bevezetés
 
 Ebből az oktatóanyagból megtudhatja, hogyan mentheti a OneNote-dokumentumokat PDF formátumba különböző oldalbeállítások használatával az Aspose.Note for Java segítségével. Két módszert ismertetünk: a Letter oldalbeállításokkal történő mentést és az A4-es oldalbeállításokkal történő mentést magasságkorlátozás nélkül.
@@ -112,3 +118,9 @@ Ebben az oktatóanyagban megvizsgáltuk, hogyan mentheti a OneNote-dokumentumoka
 ### 5. kérdés: Elérhető-e próbaverzió tesztelési célokra?
 
 5. válasz: Igen, letöltheti az Aspose.Note for Java ingyenes próbaverzióját a webhelyről.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

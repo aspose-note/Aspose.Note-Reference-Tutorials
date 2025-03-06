@@ -3,10 +3,16 @@ title: OneNote'ta Kaydetme Seçeneklerini Belirleme - Aspose.Note
 linktitle: OneNote'ta Kaydetme Seçeneklerini Belirleme - Aspose.Note
 second_title: Aspose.Note Java API'si
 description: Aspose.Note for Java'yı kullanarak OneNote'ta kaydetme seçeneklerini nasıl belirleyeceğinizi öğrenin. Sayfa dizini, sayım ve sıkıştırma ayarlarını zahmetsizce özelleştirin.
-type: docs
 weight: 24
 url: /tr/java/onenote-document-saving/specify-save-options/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# OneNote'ta Kaydetme Seçeneklerini Belirleme - Aspose.Note
+
 ## giriiş
 
 Bu eğitimde Aspose.Note for Java'yı kullanarak OneNote'ta kaydetme seçeneklerini nasıl belirleyeceğimizi öğreneceğiz. Aspose.Note, geliştiricilerin OneNote belgelerini programlı olarak oluşturmasına, değiştirmesine ve dönüştürmesine olanak tanıyan güçlü bir Java kitaplığıdır. Aspose.Note ile çıktıyı ihtiyaçlarınıza göre özelleştirmek için çeşitli kaydetme seçeneklerini kolayca kontrol edebilirsiniz.
@@ -109,3 +115,9 @@ Cevap4: Evet, Aspose.Note, OneNote belgelerinin şifrelenmesi ve şifresinin ç�
 ### S5: Aspose.Note ticari kullanıma uygun mudur?
 
 Cevap5: Evet, Aspose.Note lisans satın alınarak ticari amaçlarla kullanılabilir.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

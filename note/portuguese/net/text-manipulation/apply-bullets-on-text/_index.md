@@ -3,10 +3,16 @@ title: Aplicar marcadores no texto em Aspose.Note
 linktitle: Aplicar marcadores no texto em Aspose.Note
 second_title: API Aspose.Note .NET
 description: Aprenda como aplicar marcadores no texto no Aspose.Note for .NET para aprimorar seus documentos do OneNote. Siga este guia passo a passo para uma formatação eficaz.
-type: docs
 weight: 10
 url: /pt/net/text-manipulation/apply-bullets-on-text/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Aplicar marcadores no texto em Aspose.Note
+
 ## Introdução
 Bem-vindo a este guia passo a passo sobre como aplicar marcadores ao texto usando Aspose.Note for .NET. Aspose.Note é uma biblioteca poderosa que permite aos desenvolvedores trabalhar perfeitamente com arquivos do Microsoft OneNote em seus aplicativos .NET. Neste tutorial, orientaremos você no processo de aplicação de marcadores ao texto, aprimorando o apelo visual de seus documentos do OneNote.
 ## Pré-requisitos
@@ -86,3 +92,9 @@ Aspose.Note oferece suporte a várias versões do Microsoft OneNote, garantindo 
  Sim, você pode baixar uma versão de teste gratuita[aqui](https://releases.aspose.com/).
 ### Onde posso encontrar suporte e recursos adicionais?
  Você pode visitar o fórum da comunidade Aspose.Note[aqui](https://forum.aspose.com/c/note/28) para apoio e discussões.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

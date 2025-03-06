@@ -3,10 +3,16 @@ title: OneNote에서 노트북을 평면 이미지로 변환 - Aspose.Note
 linktitle: OneNote에서 노트북을 평면 이미지로 변환 - Aspose.Note
 second_title: Aspose.Note 자바 API
 description: Java용 Aspose.Note를 사용하여 OneNote에서 노트북을 평면화된 이미지로 변환하는 방법을 알아보세요. 단일 이미지 파일의 모든 요소를 손쉽게 보존하세요.
-type: docs
 weight: 13
 url: /ko/java/onenote-notebook-operations/convert-notebook-to-flattened-image/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# OneNote에서 노트북을 평면 이미지로 변환 - Aspose.Note
+
 ## 소개
 
 이 튜토리얼에서는 Aspose.Note for Java를 사용하여 OneNote에서 노트북을 평면화된 이미지로 변환하는 과정을 안내합니다. 이를 통해 노트북을 이미지 파일로 저장할 수 있어 모든 요소가 단일 이미지 형식으로 보존됩니다.
@@ -108,3 +114,9 @@ A3: 예, Aspose.Note는 페이지 크기, 방향 및 품질 설정을 포함하�
 ### Q5: Java용 Aspose.Note에 대한 지원은 어디서 찾을 수 있나요?
 
  A5: Aspose.Note 포럼에서 지원과 리소스를 찾을 수 있습니다.[여기](https://forum.aspose.com/c/note/28).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

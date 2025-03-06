@@ -3,10 +3,16 @@ title: Truy xuất tệp đính kèm từ OneNote bằng Java
 linktitle: Truy xuất tệp đính kèm từ OneNote bằng Java
 second_title: API Java Aspose.Note
 description: Dễ dàng trích xuất tệp đính kèm từ tài liệu OneNote trong Java! Aspose.Note xử lý tất cả các định dạng và xử lý hàng loạt. Các bước dễ dàng và bao gồm mã! #OneNote #Java #Aspose
-type: docs
 weight: 12
 url: /vi/java/onenote-java-integration/retrieve-attachment/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Truy xuất tệp đính kèm từ OneNote bằng Java
+
 ## Giới thiệu
 
 Trong kỷ nguyên kỹ thuật số ngày nay, việc xử lý các định dạng tài liệu khác nhau một cách hiệu quả là một khía cạnh quan trọng của việc phát triển phần mềm. Aspose.Note for Java là một API mạnh mẽ cho phép các nhà phát triển làm việc liền mạch với các tệp Microsoft OneNote bằng ứng dụng Java. Cho dù bạn cần truy xuất tệp đính kèm, thao tác trang hay trích xuất văn bản, Aspose.Note for Java đều cung cấp các chức năng toàn diện để hợp lý hóa quy trình làm việc của bạn.
@@ -112,3 +118,9 @@ Trả lời: Có, các nhà phát triển có thể linh hoạt chỉ định v�
 ### Câu hỏi 5: Aspose.Note for Java có cung cấp hỗ trợ và trợ giúp trong trường hợp có vấn đề hoặc thắc mắc về kỹ thuật không?
 
 Trả lời: Có, các nhà phát triển có thể truy cập hỗ trợ toàn diện thông qua diễn đàn Aspose.Note tại[https://forum.aspose.com/c/note/28](https://forum.aspose.com/c/note/28) cho bất kỳ hỗ trợ kỹ thuật hoặc yêu cầu.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

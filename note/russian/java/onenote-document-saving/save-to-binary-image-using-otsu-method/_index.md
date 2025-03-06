@@ -3,10 +3,16 @@ title: Сохранение в двоичном изображении с исп
 linktitle: Сохранение в двоичном изображении с использованием метода Оцу в OneNote
 second_title: Aspose.Note Java API
 description: Научитесь сохранять документы OneNote в виде двоичных изображений, используя метод Otsu с Aspose.Note для Java. Расширьте возможности вашего Java-приложения с помощью Aspose.Note.
-type: docs
 weight: 15
 url: /ru/java/onenote-document-saving/save-to-binary-image-using-otsu-method/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Сохранение в двоичном изображении с использованием метода Оцу в OneNote
+
 ## Введение
 
 В этом уроке мы узнаем, как сохранить документ в виде двоичного изображения, используя метод Otsu в Aspose.Note для Java. Aspose.Note — это мощный API, который позволяет разработчикам Java программно работать с файлами Microsoft OneNote. Сохранение документов в виде двоичных изображений может быть полезно для различных приложений, таких как обработка изображений, OCR (оптическое распознавание символов) и т. д.
@@ -82,3 +88,9 @@ A4: Хотя Aspose.Note в основном занимается манипул
 ### В5: Где я могу получить поддержку, если у меня возникнут проблемы при использовании Aspose.Note для Java?
 
 О5: Вы можете посетить форум Aspose.Note или связаться с их службой поддержки для получения помощи по любым техническим вопросам или вопросам.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

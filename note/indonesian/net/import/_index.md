@@ -3,10 +3,16 @@ title: Impor PDF yang Mulus dengan Integrasi OneNote
 linktitle: Impor
 second_title: Aspose.Catatan .NET API
 description: Impor dokumen PDF ke Aspose.Note .NET dengan integrasi tanpa batas menggunakan berbagai opsi penggabungan. Belajar dengan tutorial langkah demi langkah, termasuk integrasi OneNote.
-type: docs
 weight: 24
 url: /id/net/import/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Impor PDF yang Mulus dengan Integrasi OneNote
+
 
 ## Perkenalan
 
@@ -48,3 +54,9 @@ Ingat, di ranah Aspose.Note, dokumen Anda bukan sekadar file; itu adalah narasi 
 ## Impor Tutorial
 ### [Impor Dokumen PDF ke Aspose.Note](./import-pdf-documents/)
 Pelajari cara mengimpor dokumen PDF ke Aspose.Note untuk .NET dengan mudah menggunakan berbagai opsi penggabungan untuk integrasi yang lancar.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

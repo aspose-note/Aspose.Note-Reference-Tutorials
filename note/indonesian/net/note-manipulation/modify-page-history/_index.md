@@ -3,10 +3,16 @@ title: Ubah Riwayat Halaman di Aspose.Note
 linktitle: Ubah Riwayat Halaman di Aspose.Note
 second_title: Aspose.Catatan .NET API
 description: Pelajari cara mengubah riwayat halaman di Aspose.Note untuk .NET menggunakan tutorial komprehensif ini. Tingkatkan kemampuan pemrosesan dokumen Anda dengan mudah.
-type: docs
 weight: 15
 url: /id/net/note-manipulation/modify-page-history/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Ubah Riwayat Halaman di Aspose.Note
+
 ## Perkenalan
 
 Di bidang pemrosesan dokumen, Aspose.Note untuk .NET muncul sebagai alat yang tangguh, memberdayakan pengembang untuk memanipulasi file OneNote dengan mudah. Salah satu tugas umum yang dihadapi pengembang adalah mengubah riwayat halaman dalam dokumen Aspose.Note. Tutorial ini menjelaskan proses langkah demi langkah, memandu Anda melalui namespace, prasyarat, dan cuplikan kode yang diperlukan untuk mengubah riwayat halaman secara efektif menggunakan Aspose.Note untuk .NET.
@@ -94,3 +100,10 @@ A4: Ya, pengembang dapat mencari bantuan dan panduan dari forum dukungan Aspose 
 ### Q5: Bisakah saya mencoba Aspose.Note untuk .NET sebelum melakukan pembelian?
 
 A5: Tentu saja, pengembang dapat memanfaatkan versi uji coba gratis Aspose.Note untuk .NET untuk mengevaluasi fitur dan kesesuaiannya dengan proyek mereka.
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

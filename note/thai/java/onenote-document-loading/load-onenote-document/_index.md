@@ -3,10 +3,16 @@ title: โหลดเอกสาร OneNote - Java
 linktitle: โหลดเอกสาร OneNote - Java
 second_title: Aspose.Note Java API
 description: เรียนรู้วิธีใช้ Aspose.Note สำหรับ Java เพื่อโหลดและจัดการเอกสาร OneNote ได้อย่างง่ายดาย บทช่วยสอนที่ครอบคลุมสำหรับนักพัฒนา Java
-type: docs
 weight: 25
 url: /th/java/onenote-document-loading/load-onenote-document/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# โหลดเอกสาร OneNote - Java
+
 ## การแนะนำ
 
 ในบทช่วยสอนนี้ เราจะเจาะลึกความซับซ้อนของการใช้ Aspose.Note สำหรับ Java ซึ่งเป็นไลบรารีที่มีประสิทธิภาพสำหรับการทำงานกับเอกสาร OneNote โดยทางโปรแกรม Aspose.Note มีฟังก์ชันที่ครอบคลุมเพื่อจัดการ สร้าง และแปลงไฟล์ OneNote ได้อย่างง่ายดาย ไม่ว่าคุณจะเป็นนักพัฒนา Java ที่มีประสบการณ์หรือเป็นผู้เริ่มต้นที่ต้องการสำรวจความสามารถของการประมวลผลเอกสาร OneNote บทช่วยสอนนี้จะแนะนำคุณตลอดขั้นตอนสำคัญในการเริ่มต้น
@@ -82,3 +88,10 @@ A2: Aspose.Note สำหรับ Java รองรับเอกสาร One
 ### คำถามที่ 5: ฉันจะขอรับใบอนุญาตชั่วคราวสำหรับ Aspose.Note สำหรับ Java ได้อย่างไร
 
  A5: หากคุณต้องการใบอนุญาตชั่วคราวเพื่อวัตถุประสงค์ในการประเมินหรือทดสอบ คุณสามารถขอใบอนุญาตได้จาก[ที่นี่](https://purchase.aspose.com/temporary-license/).
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

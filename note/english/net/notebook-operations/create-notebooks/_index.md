@@ -3,10 +3,16 @@ title: Create Notebooks in Aspose Note .NET
 linktitle: Create Notebooks in Aspose Note .NET
 second_title: Aspose.Note .NET API
 description: Learn how to create notebooks in Aspose Note .NET effortlessly. Boost your document processing workflows now.
-type: docs
 weight: 17
 url: /net/notebook-operations/create-notebooks/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Create Notebooks in Aspose Note .NET
+
 ## Introduction
 
 In this tutorial, we will delve into the intricacies of creating notebooks using Aspose.Note for .NET. Aspose.Note is a powerful library that allows developers to manipulate Microsoft OneNote files programmatically, offering a wide range of functionalities to streamline document management and processing tasks.
@@ -100,3 +106,10 @@ A5: You can refer to the documentation available at: [Documentation](https://ref
 
 
 
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

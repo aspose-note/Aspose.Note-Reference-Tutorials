@@ -3,10 +3,16 @@ title: 在 Aspose.Note 中附加文件並設定圖標
 linktitle: 在 Aspose.Note 中附加文件並設定圖標
 second_title: Aspose.Note .NET API
 description: 了解如何在 Aspose.Note for .NET 中附加文件和設定圖示。透過此逐步教程增強您的 .NET 應用程式。
-type: docs
 weight: 10
 url: /zh-hant/net/attachments/attach-file-set-icon/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# 在 Aspose.Note 中附加文件並設定圖標
+
 ## 介紹
 
 在 .NET 開發領域，Aspose.Note 作為以程式設計方式操作 Microsoft OneNote 文件的強大工具而脫穎而出。利用其功能，開發人員可以自動執行與在應用程式中建立、編輯和管理 OneNote 檔案相關的各種任務。一項基本功能是將文件附加到筆記並為這些附件設定圖示的能力。在本教學中，我們將深入研究使用 Aspose.Note for .NET 附加檔案和設定圖示的過程。
@@ -125,3 +131,9 @@ A4：Aspose.Note 主要處理本機儲存或透過串流存取的檔案。但是
 ### Q5：Aspose.Note for .NET 中的檔案附件有大小限制嗎？
 
 A5：Aspose.Note 並沒有對檔案附件施加具體的大小限制，但根據系統資源和效能考慮，可能會存在實際限制。
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

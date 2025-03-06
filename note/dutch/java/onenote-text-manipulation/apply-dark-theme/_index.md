@@ -3,10 +3,16 @@ title: Pas een donker thema toe op tekst in OneNote - Aspose.Note
 linktitle: Pas een donker thema toe op tekst in OneNote - Aspose.Note
 second_title: Aspose.Note Java-API
 description: Ontdek de eenvoudige stappen om een donker thema toe te passen op uw OneNote-tekst met Aspose.Note voor Java. Verbeter moeiteloos uw digitale documentatie-ervaring.
-type: docs
 weight: 11
 url: /nl/java/onenote-text-manipulation/apply-dark-theme/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Pas een donker thema toe op tekst in OneNote - Aspose.Note
+
 ## Invoering
 In het voortdurend evoluerende landschap van digitale documentatie kan de esthetiek van uw aantekeningen een aanzienlijke invloed hebben op de leesbaarheid en gebruikerservaring. Een opvallend aspect is de implementatie van een donker thema, dat een visueel aantrekkelijke en comfortabele omgeving biedt. In deze zelfstudie begeleiden we u bij het toepassen van een donker thema op tekst in OneNote met behulp van Aspose.Note voor Java.
 ## Vereisten
@@ -62,3 +68,9 @@ Ja, Aspose.Note voor Java ondersteunt verschillende documentformaten, waaronder 
  Ja, u heeft toegang tot de gratis proefversie[hier](https://releases.aspose.com/).
 ### Hoe kan ik ondersteuning krijgen voor Aspose.Note voor Java?
  Bezoek de[Aspose.Note-forum](https://forum.aspose.com/c/note/28) voor gemeenschapsondersteuning of ontdek premium ondersteuningsopties[hier](https://purchase.aspose.com/temporary-license/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -3,10 +3,16 @@ title: Dokumentum létrehozása és kép beszúrása a OneNote-ba Java használa
 linktitle: Dokumentum létrehozása és kép beszúrása a OneNote-ba Java használatával
 second_title: Aspose.Note Java API
 description: Ismerje meg, hogyan hozhat létre OneNote-dokumentumokat és szúrhat be képeket az Aspose.Note for Java használatával. Lépésről lépésre bemutató útmutató a zökkenőmentes integrációhoz.
-type: docs
 weight: 12
 url: /hu/java/onenote-hyperlinks-images/build-doc-insert-image/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Dokumentum létrehozása és kép beszúrása a OneNote-ba Java használatával
+
 ## Bevezetés
 
 Ebben az oktatóanyagban megvizsgáljuk, hogyan használható az Aspose.Note for Java OneNote-dokumentumok létrehozásához és képek beillesztéséhez. Az Aspose.Note egy hatékony Java API, amely lehetővé teszi a fejlesztők számára, hogy programozottan dolgozzanak Microsoft OneNote fájlokkal. Az egyes lépéseket részletesen lebontjuk, hogy végigvezetjük a folyamaton.
@@ -119,3 +125,10 @@ Gratulálunk! Sikeresen megtanulta, hogyan hozhat létre OneNote-dokumentumokat,
 ### 5. kérdés: Kaphatok ideiglenes licencet az Aspose.Note for Java számára?
 
  V5: Igen, kérhet ideiglenes engedélyt[itt](https://purchase.aspose.com/temporary-license/).
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

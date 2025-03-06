@@ -3,10 +3,16 @@ title: مستند محمي بكلمة مرور في Aspose.Note
 linktitle: مستند محمي بكلمة مرور في Aspose.Note
 second_title: Aspose.Note .NET API
 description: تعرف على كيفية التعامل مع المستندات المحمية بكلمة مرور باستخدام Aspose.Note لـ .NET. قم بتأمين معلوماتك الحساسة بكل سهولة.
-type: docs
 weight: 18
 url: /ar/net/loading-and-saving-operations/password-protected-document/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# مستند محمي بكلمة مرور في Aspose.Note
+
 ## مقدمة
 
 في هذا البرنامج التعليمي، سنتعرف على عملية التعامل مع المستندات المحمية بكلمة مرور باستخدام Aspose.Note لـ .NET. تضيف الحماية بكلمة المرور طبقة إضافية من الأمان إلى مستنداتك، مما يضمن أن المستخدمين المصرح لهم فقط هم من يمكنهم الوصول إليها.
@@ -82,3 +88,9 @@ A1: نعم، يمكنك تحديد كلمات مرور مختلفة لمستند
 ### س5: هل يمكنني أتمتة عملية التعامل مع المستندات المحمية بكلمة مرور؟
 
 ج5: نعم، يمكنك أتمتة العملية باستخدام البرامج النصية أو المهام المجدولة للتعامل مع المستندات المحمية بكلمة مرور بكفاءة.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

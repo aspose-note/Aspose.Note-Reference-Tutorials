@@ -3,10 +3,16 @@ title: Ορισμός γλώσσας διόρθωσης για κείμενο σ
 linktitle: Ορισμός γλώσσας διόρθωσης για κείμενο στο OneNote - Aspose.Note
 second_title: Aspose.Note Java API
 description: Ξεκλειδώστε τις δυνατότητες του Aspose.Note για Java! Μάθετε πώς να ρυθμίζετε απρόσκοπτα τη γλώσσα διόρθωσης κειμένου στο OneNote με τον αναλυτικό οδηγό μας.
-type: docs
 weight: 22
 url: /el/java/onenote-text-manipulation/set-proofing-language-for-text/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Ορισμός γλώσσας διόρθωσης για κείμενο στο OneNote - Aspose.Note
+
 ## Εισαγωγή
 Στον δυναμικό κόσμο της ανάπτυξης λογισμικού, το Aspose.Note για Java ξεχωρίζει ως ένα ισχυρό εργαλείο για τη διαχείριση και τον χειρισμό εγγράφων OneNote μέσω προγραμματισμού. Αν θέλετε να βελτιώσετε τις εφαρμογές σας Java με τη δυνατότητα να ορίσετε γλώσσα διόρθωσης για κείμενο στο OneNote, έχετε έρθει στο σωστό μέρος. Αυτό το σεμινάριο θα σας καθοδηγήσει στη διαδικασία βήμα προς βήμα, διασφαλίζοντας ότι κατανοείτε με σαφήνεια κάθε έννοια.
 ## Προαπαιτούμενα
@@ -67,3 +73,9 @@ document.save(Paths.get(dataDir, "SetProofingLanguageForText.one").toString());
 Α: Σίγουρα! Βεβαιωθείτε ότι έχετε διαμορφώσει σωστά τη βιβλιοθήκη Aspose.Note for Java στο έργο web σας.
 ### Ε: Πού μπορώ να βρω πρόσθετα παραδείγματα και τεκμηρίωση για το Aspose.Note για Java;
  Α: Εξερευνήστε το[τεκμηρίωση](https://reference.aspose.com/note/java/) για ολοκληρωμένους πόρους.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

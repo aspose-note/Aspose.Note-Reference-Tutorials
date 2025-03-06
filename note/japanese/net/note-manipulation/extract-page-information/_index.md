@@ -3,10 +3,16 @@ title: Aspose.Note for .NET を使用してページ情報を抽出する
 linktitle: Aspose.Note for .NET を使用してページ情報を抽出する
 second_title: Aspose.Note .NET API
 description: Aspose.Note for .NET を使用して Microsoft OneNote ファイルからページ情報を抽出する方法を学習します。この包括的なチュートリアルでは、プロセスをステップごとに説明します。
-type: docs
 weight: 13
 url: /ja/net/note-manipulation/extract-page-information/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Aspose.Note for .NET を使用してページ情報を抽出する
+
 ## 導入
 
 Aspose.Note for .NET は、開発者が Microsoft OneNote ファイルをプログラムで操作できるようにする強力なライブラリです。これらのファイルからページ情報を抽出することは、データ分析からドキュメント管理まで、さまざまなアプリケーションにとって重要です。このチュートリアルでは、Aspose.Note for .NET を使用してページ情報を抽出するプロセスを段階的に説明します。
@@ -103,3 +109,9 @@ A4: はい、Aspose.Note for .NET を使用して添付ファイルを抽出、�
 ### Q5: Aspose.Note for .NET のサポートとリソースはどこで入手できますか?
 
  A5: Aspose.Note for .NET フォーラムにアクセスしてください。[ここ](https://forum.aspose.com/c/note/28)サポートやご質問がございましたら。
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

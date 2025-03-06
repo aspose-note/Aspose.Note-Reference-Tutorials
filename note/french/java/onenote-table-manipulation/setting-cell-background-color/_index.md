@@ -3,10 +3,16 @@ title: Définition de la couleur d'arrière-plan des cellules dans OneNote - Asp
 linktitle: Définition de la couleur d'arrière-plan des cellules dans OneNote - Aspose.Note
 second_title: API Java Aspose.Note
 description: Transformez facilement des documents OneNote à l'aide d'Aspose.Note pour Java. Personnalisez sans effort les couleurs d’arrière-plan des cellules. Essayez l'essai gratuit maintenant !
-type: docs
 weight: 17
 url: /fr/java/onenote-table-manipulation/setting-cell-background-color/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Définition de la couleur d'arrière-plan des cellules dans OneNote - Aspose.Note
+
 ## Introduction
 Bienvenue dans notre didacticiel sur la définition de la couleur d'arrière-plan des cellules dans OneNote à l'aide d'Aspose.Note pour Java ! Dans ce guide étape par étape, nous vous guiderons tout au long du processus de personnalisation sans effort des couleurs d’arrière-plan des cellules de vos documents OneNote.
 ## Conditions préalables
@@ -66,3 +72,9 @@ Oui, vous pouvez parcourir les lignes et les cellules de votre tableau pour appl
  Visitez le forum d'assistance[ici](https://forum.aspose.com/c/note/28) pour obtenir de l'aide de la communauté Aspose.
 ### Où puis-je acheter Aspose.Note pour Java ?
  Vous pouvez acheter la bibliothèque[ici](https://purchase.aspose.com/buy).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

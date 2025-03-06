@@ -3,10 +3,16 @@ title: Добавьте гиперссылки в документы Aspose.Note
 linktitle: Добавьте гиперссылки в документы Aspose.Note
 second_title: Aspose.Note .NET API
 description: Узнайте, как добавлять гиперссылки в документы Aspose.Note с помощью Aspose.Note для .NET. Повысьте интерактивность документа с помощью этого пошагового руководства.
-type: docs
 weight: 10
 url: /ru/net/hyperlinks/add-hyperlinks/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Добавьте гиперссылки в документы Aspose.Note
+
 ## Введение
 
 В этом руководстве вы узнаете, как добавлять гиперссылки к тексту в документах Aspose.Note с использованием платформы .NET. Aspose.Note предоставляет мощные функции для программного управления документами OneNote. Добавление гиперссылок может повысить интерактивность и удобство использования ваших документов, делая их более привлекательными для пользователей.
@@ -131,3 +137,9 @@ A4: Aspose.Note предназначен для работы с Microsoft OneNot
 ### Вопрос 5. Могу ли я добавлять гиперссылки программным способом с помощью API Aspose.Note?
 
 О5: Да, Aspose.Note предоставляет API, которые позволяют вам программно добавлять гиперссылки в текст в ваших .NET-приложениях.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

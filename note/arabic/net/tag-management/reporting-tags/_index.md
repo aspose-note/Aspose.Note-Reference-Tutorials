@@ -3,10 +3,16 @@ title: إعداد التقارير باستخدام العلامات في Aspose
 linktitle: إعداد التقارير باستخدام العلامات في Aspose.Note
 second_title: Aspose.Note .NET API
 description: تعرف على كيفية إنشاء تقارير مفيدة من المستندات الرقمية باستخدام Aspose.Note لـ .NET. دليل خطوة بخطوة المقدمة.
-type: docs
 weight: 16
 url: /ar/net/tag-management/reporting-tags/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# إعداد التقارير باستخدام العلامات في Aspose.Note
+
 ## مقدمة
 
 في مجال معالجة المستندات وإدارتها، يبرز Aspose.Note for .NET كأداة قوية للتعامل مع الملاحظات والشروح والعلامات داخل المستندات الرقمية. تلعب العلامات دورًا أساسيًا في تنظيم المعلومات وتصنيفها وتصفيتها داخل المستندات، مما يتيح استرجاعها وتحليلها بكفاءة. يتعمق هذا البرنامج التعليمي في تعقيدات إعداد التقارير باستخدام العلامات في Aspose.Note، ويقدم إرشادات خطوة بخطوة حول إنشاء التقارير بناءً على معايير مختلفة.
@@ -133,3 +139,9 @@ public static void GenerateReport_ItemsRelatedToSpecifiedProject()
 ## س5: هل يمكنني تخصيص معايير إعداد التقارير في Aspose.Note لـ .NET؟
 
 ج5: نعم، يمكنك تخصيص معايير إعداد التقارير وفقًا لمتطلباتك المحددة باستخدام واجهات برمجة التطبيقات والأمثلة المتوفرة.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -3,10 +3,16 @@ title: Jegyzetfüzet konvertálása képpé a OneNote-ban – Aspose.Note
 linktitle: Jegyzetfüzet konvertálása képpé a OneNote-ban – Aspose.Note
 second_title: Aspose.Note Java API
 description: Ismerje meg, hogyan konvertálhat jegyzetfüzeteket képekké a OneNote alkalmazásban az Aspose.Note for Java segítségével. Könnyen integrálhatja ezt a funkciót Java-alkalmazásaiba.
-type: docs
 weight: 12
 url: /hu/java/onenote-notebook-operations/convert-notebook-to-image/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Jegyzetfüzet konvertálása képpé a OneNote-ban – Aspose.Note
+
 ## Bevezetés
 
 Ebben az oktatóanyagban megvizsgáljuk, hogyan alakíthat át jegyzetfüzetet képpé a OneNote-ban az Aspose.Note for Java könyvtár használatával. A jegyzetfüzetek képekké alakítása különféle célokra hasznos lehet, például jegyzetek megosztásához, dokumentumokba ágyazásához vagy prezentációkba való beépítéséhez.
@@ -94,3 +100,9 @@ A3: Abszolút. Az Aspose.Note széles körű lehetőségeket kínál a kimeneti 
 ### 5. kérdés: Hol találok további forrásokat és támogatást az Aspose.Note számára?
 
  5. válasz: További dokumentációért, példákért és közösségi támogatásért keresse fel a[Aspose.Note fórum](https://forum.aspose.com/c/note/28) és fedezze fel a[dokumentáció](https://reference.aspose.com/note/java/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

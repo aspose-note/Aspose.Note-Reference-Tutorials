@@ -3,10 +3,16 @@ title: أضف عقدة الجدول مع العلامة في Aspose.Note
 linktitle: أضف عقدة الجدول مع العلامة في Aspose.Note
 second_title: Aspose.Note .NET API
 description: تعرف على كيفية إضافة الجداول ذات العلامات في Aspose.Note لـ .NET. تعزيز مهارات التعامل مع المستندات الخاصة بك برمجيا.
-type: docs
 weight: 11
 url: /ar/net/tag-management/add-table-node-tag/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# أضف عقدة الجدول مع العلامة في Aspose.Note
+
 ## مقدمة
 
 في هذا البرنامج التعليمي، سنرشدك خلال عملية إضافة عقدة جدول بعلامة باستخدام Aspose.Note لـ .NET. اتبع الخطوات أدناه لتحقيق ذلك.
@@ -137,3 +143,9 @@ A1: يدعم Aspose.Note for .NET إصدارات .NET Framework 2.0 والإصد
 ### س5: هل يتوفر الدعم الفني لمستخدمي Aspose.Note؟
 
  ج5: نعم، يتم توفير الدعم الفني عبر منتديات Aspose[هنا](https://forum.aspose.com/c/note/28)حيث يمكنك طلب المساعدة من الخبراء.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

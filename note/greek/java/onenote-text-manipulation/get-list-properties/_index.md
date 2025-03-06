@@ -3,10 +3,16 @@ title: Λάβετε ιδιότητες λίστας στο OneNote - Aspose.Note
 linktitle: Λάβετε ιδιότητες λίστας στο OneNote - Aspose.Note
 second_title: Aspose.Note Java API
 description: Εξερευνήστε το Aspose.Note για Java και ανακτήστε αβίαστα ιδιότητες λίστας στα έγγραφα του OneNote. Βελτιώστε την επεξεργασία των εγγράφων σας με αυτήν την ισχυρή βιβλιοθήκη Java.
-type: docs
 weight: 19
 url: /el/java/onenote-text-manipulation/get-list-properties/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Λάβετε ιδιότητες λίστας στο OneNote - Aspose.Note
+
 ## Εισαγωγή
 Καλώς ήρθατε σε αυτό το ολοκληρωμένο σεμινάριο σχετικά με τη μόχλευση του Aspose.Note για Java για την ανάκτηση και ανάλυση ιδιοτήτων λίστας σε έγγραφα του OneNote. Είτε είστε έμπειρος προγραμματιστής είτε μόλις ξεκινάτε με το Aspose.Note, αυτός ο οδηγός θα σας καθοδηγήσει στη διαδικασία, αναλύοντας κάθε βήμα για να εξασφαλίσετε μια σαφή κατανόηση.
 ## Προαπαιτούμενα
@@ -95,3 +101,9 @@ System.out.println("Is italic: " + list.isItalic());
  Ναι, μπορείτε να αποκτήσετε προσωρινή άδεια[εδώ](https://purchase.aspose.com/temporary-license/) για δοκιμαστικούς σκοπούς.
 ### Τι γίνεται αν θέλω να αγοράσω το Aspose.Note για Java;
  Μπορείτε να αγοράσετε το προϊόν[εδώ](https://purchase.aspose.com/buy)για να ξεκλειδώσετε πλήρως τις δυνατότητές του για τα έργα σας.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

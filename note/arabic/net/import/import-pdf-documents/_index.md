@@ -3,10 +3,16 @@ title: استيراد مستندات PDF إلى Aspose.Note
 linktitle: استيراد مستندات PDF إلى Aspose.Note
 second_title: Aspose.Note .NET API
 description: تعرف على كيفية استيراد مستندات PDF إلى Aspose.Note لـ .NET دون عناء باستخدام خيارات الدمج المتنوعة لتحقيق التكامل السلس.
-type: docs
 weight: 10
 url: /ar/net/import/import-pdf-documents/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# استيراد مستندات PDF إلى Aspose.Note
+
 ## مقدمة
 
 مع الكم الهائل من المحتوى الرقمي المتاح اليوم، يعد دمج مستندات PDF في مشاريعك بسلاسة أمرًا بالغ الأهمية. يوفر Aspose.Note for .NET وظائف قوية لاستيراد مستندات PDF بكفاءة. في هذا البرنامج التعليمي، سنستكشف كيفية استيراد مستندات PDF خطوة بخطوة باستخدام Aspose.Note لـ .NET.
@@ -151,3 +157,9 @@ public static void ImportSetOfFiles_CustomMerge()
 ### س5: أين يمكنني العثور على دعم أو موارد إضافية؟
 
  ج5: للحصول على دعم إضافي أو وثائق أو مساعدة مجتمعية، قم بزيارة[منتدى Aspose.Note](https://forum.aspose.com/c/note/28).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

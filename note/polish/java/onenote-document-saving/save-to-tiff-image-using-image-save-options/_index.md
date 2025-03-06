@@ -3,10 +3,16 @@ title: Zapisz w obrazie TIFF przy użyciu opcji zapisywania obrazu w programie O
 linktitle: Zapisz w obrazie TIFF przy użyciu opcji zapisywania obrazu w programie OneNote
 second_title: Aspose.Note API Java
 description: Konwertuj dokumenty OneNote do formatu TIFF i kontroluj rozmiar i jakość plików! Wybierz kompresję Jpeg, PackBits lub Fax w Javie. Pobierz przykłady kodu i dowiedz się, jak to zrobić! #OneNote #Java #Aspose
-type: docs
 weight: 21
 url: /pl/java/onenote-document-saving/save-to-tiff-image-using-image-save-options/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Zapisz w obrazie TIFF przy użyciu opcji zapisywania obrazu w programie OneNote
+
 ## Wstęp
 
 W tym samouczku dowiesz się, jak zapisać dokument w formacie obrazu TIFF przy użyciu różnych metod kompresji w Aspose.Note dla Java. Omówimy wymagania wstępne, importowanie pakietów i zapewnimy przewodnik krok po kroku dla każdej metody kompresji.
@@ -121,3 +127,9 @@ O4: Tak, możesz dostosować parametry, takie jak jakość, rozdzielczość i me
 ### P5: Czy Aspose.Note dla Java oferuje wsparcie techniczne?
 
 Odpowiedź 5: Tak, Aspose zapewnia kompleksowe wsparcie techniczne za pośrednictwem forów i systemów opartych na biletach.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

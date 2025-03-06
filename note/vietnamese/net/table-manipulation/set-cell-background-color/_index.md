@@ -3,10 +3,16 @@ title: Đặt màu nền ô trong bảng Aspose.Note
 linktitle: Đặt màu nền ô trong bảng Aspose.Note
 second_title: Aspose.Note .NET API
 description: Tìm hiểu cách đặt màu nền ô trong bảng Aspose.Note bằng hướng dẫn từng bước. Nâng cao hình ảnh tài liệu một cách dễ dàng.
-type: docs
 weight: 17
 url: /vi/net/table-manipulation/set-cell-background-color/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Đặt màu nền ô trong bảng Aspose.Note
+
 ## Giới thiệu
 
 Trong hướng dẫn này, chúng ta sẽ tìm hiểu cách đặt màu nền ô trong bảng bằng Aspose.Note cho .NET. Tính năng này có thể nâng cao đáng kể sự hấp dẫn trực quan và khả năng đọc tài liệu của bạn. Hãy làm theo các bước dưới đây để tìm hiểu cách đạt được điều này.
@@ -122,3 +128,9 @@ Câu trả lời 4: Aspose.Note dành cho .NET nhắm mục tiêu cụ thể đ�
 ### Câu hỏi 5: Tôi có thể tìm thêm tài nguyên và hỗ trợ cho Aspose.Note cho .NET ở đâu?
 
  A5: Bạn có thể khám phá[Tài liệu Aspose.Note](https://reference.aspose.com/note/net/) để biết các ví dụ và tài liệu tham khảo API chi tiết. Ngoài ra, bạn có thể tìm kiếm sự trợ giúp từ cộng đồng Aspose trên[Diễn đàn Aspose.Note](https://forum.aspose.com/c/note/28).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -3,10 +3,16 @@ title: Voeg een afbeeldingsknooppunt met tag toe in Aspose.Note
 linktitle: Voeg een afbeeldingsknooppunt met tag toe in Aspose.Note
 second_title: Aspose.Note .NET API
 description: Leer hoe u uw OneNote-documenten kunt verbeteren door afbeeldingen met aangepaste tags toe te voegen met Aspose.Note voor .NET.
-type: docs
 weight: 10
 url: /nl/net/tag-management/add-image-node-tag/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Voeg een afbeeldingsknooppunt met tag toe in Aspose.Note
+
 ## Invoering
 
 In deze zelfstudie onderzoeken we hoe u een afbeeldingsknooppunt met een tag kunt toevoegen met behulp van Aspose.Note voor .NET. Met deze functie kunt u uw OneNote-documenten verbeteren door afbeeldingen met aangepaste tags toe te voegen.
@@ -110,3 +116,9 @@ A4: Aspose.Note ondersteunt voornamelijk het toevoegen van afbeeldingen uit loka
 ### Vraag 5: Zijn er beperkingen op de grootte of het formaat van afbeeldingen die kunnen worden toegevoegd?
 
 A5: Aspose.Note ondersteunt een breed scala aan afbeeldingsformaten en legt geen strikte beperkingen op aan de afbeeldingsgrootte, waardoor u diverse beelden in uw documenten kunt opnemen.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

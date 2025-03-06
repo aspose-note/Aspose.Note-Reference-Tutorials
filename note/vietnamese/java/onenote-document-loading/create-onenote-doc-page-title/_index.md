@@ -3,10 +3,16 @@ title: Tạo tài liệu OneNote với tiêu đề trang - Java
 linktitle: Tạo tài liệu OneNote với tiêu đề trang - Java
 second_title: API Java Aspose.Note
 description: Tìm hiểu cách tạo tài liệu OneNote với tiêu đề trang trong Java bằng Aspose.Note for Java. Hướng dẫn toàn diện với các ví dụ về mã.
-type: docs
 weight: 17
 url: /vi/java/onenote-document-loading/create-onenote-doc-page-title/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Tạo tài liệu OneNote với tiêu đề trang - Java
+
 ## Giới thiệu
 
 Trong lĩnh vực phát triển Java, việc quản lý và thao tác các tài liệu OneNote trở nên đơn giản và hiệu quả với Aspose.Note for Java. API Java mạnh mẽ này cung cấp cho các nhà phát triển những công cụ cần thiết để tạo, sửa đổi và xử lý các tệp OneNote theo chương trình, mang đến sự tích hợp liền mạch vào ứng dụng của họ. Trong hướng dẫn này, chúng ta sẽ đi sâu vào quy trình tạo tài liệu OneNote với tiêu đề trang được chỉ định bằng Aspose.Note cho Java. Bằng cách làm theo hướng dẫn từng bước được nêu bên dưới, các nhà phát triển có thể dễ dàng khai thác các khả năng của API này để nâng cao ứng dụng Java của họ bằng các chức năng quản lý tài liệu OneNote mạnh mẽ.
@@ -154,3 +160,9 @@ A4: Bạn có thể ghé thăm[Diễn đàn Aspose.Note](https://forum.aspose.co
 ### Câu hỏi 5: Tôi có thể xin giấy phép tạm thời cho mục đích thử nghiệm không?
 
 Câu trả lời 5: Có, bạn có thể lấy giấy phép tạm thời từ Aspose cho mục đích thử nghiệm và đánh giá.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

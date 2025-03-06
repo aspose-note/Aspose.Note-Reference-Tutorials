@@ -3,10 +3,16 @@ title: Κατάργηση Child Node στο Notebook OneNote - Aspose.Note
 linktitle: Κατάργηση Child Node στο Notebook OneNote - Aspose.Note
 second_title: Aspose.Note Java API
 description: Μάθετε πώς μπορείτε να αφαιρέσετε έναν θυγατρικό κόμβο από ένα Σημειωματάριο OneNote χρησιμοποιώντας το Aspose.Note για Java. Ακολουθήστε τον οδηγό βήμα προς βήμα για απρόσκοπτη επεξεργασία εγγράφων.
-type: docs
 weight: 24
 url: /el/java/onenote-notebook-operations/remove-child-node/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Κατάργηση Child Node στο Notebook OneNote - Aspose.Note
+
 ## Εισαγωγή
 
 Σε αυτό το σεμινάριο, θα εμβαθύνουμε στη διαδικασία κατάργησης ενός θυγατρικού κόμβου σε ένα Σημειωματάριο OneNote χρησιμοποιώντας το Aspose.Note για Java. Το Aspose.Note είναι ένα ισχυρό API που επιτρέπει στους προγραμματιστές να εργάζονται με αρχεία του Microsoft OneNote μέσω προγραμματισμού, επιτρέποντας διάφορες λειτουργίες όπως η δημιουργία, ο χειρισμός και η μετατροπή εγγράφων OneNote.
@@ -92,3 +98,9 @@ A2: Ναι, μπορείτε να βρείτε υποστήριξη και να 
 ### Ε5: Πού μπορώ να βρω λεπτομερή τεκμηρίωση για το Aspose.Note για Java;
 
  A5: Μπορείτε να αποκτήσετε πρόσβαση στην πλήρη τεκμηρίωση για το Aspose.Note για Java[εδώ](https://reference.aspose.com/note/java/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

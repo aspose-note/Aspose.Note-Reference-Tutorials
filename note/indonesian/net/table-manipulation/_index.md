@@ -3,10 +3,16 @@ title: Menguasai Tabel dengan Integrasi OneNote
 linktitle: Manipulasi Tabel
 second_title: Aspose.Catatan .NET API
 description: Buat dokumen yang menarik secara visual dengan Aspose.Note untuk .NET! Jelajahi tutorial tentang manipulasi tabel – mengubah gaya, membuat tabel, mengekstrak teks, dan banyak lagi.
-type: docs
 weight: 29
 url: /id/net/table-manipulation/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Menguasai Tabel dengan Integrasi OneNote
+
 
 ## Perkenalan
 
@@ -62,3 +68,9 @@ Pelajari cara mengekstrak teks dari tabel di Aspose.Note menggunakan C# dengan k
 Pelajari cara menyisipkan tabel ke dalam dokumen Note dengan Aspose.Note untuk .NET. Atur data dengan lancar untuk meningkatkan keterbacaan dan presentasi.
 ### [Atur Warna Latar Belakang Sel di Tabel Aspose.Note](./set-cell-background-color/)
 Pelajari cara mengatur warna latar belakang sel di tabel Aspose.Note menggunakan panduan langkah demi langkah. Sempurnakan visual dokumen dengan mudah.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

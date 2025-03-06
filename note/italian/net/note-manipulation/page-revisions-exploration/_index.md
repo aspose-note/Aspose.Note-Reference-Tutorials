@@ -3,10 +3,16 @@ title: Esplora le revisioni delle pagine nei documenti Aspose.Note
 linktitle: Esplora le revisioni delle pagine nei documenti Aspose.Note
 second_title: Aspose.Note API .NET
 description: Scopri come esplorare le revisioni delle pagine nei documenti Aspose.Note utilizzando .NET Framework con una guida passo passo.
-type: docs
 weight: 14
 url: /it/net/note-manipulation/page-revisions-exploration/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Esplora le revisioni delle pagine nei documenti Aspose.Note
+
 ## introduzione
 
 In questo tutorial, approfondiremo l'esplorazione delle revisioni delle pagine nei documenti Aspose.Note utilizzando il framework .NET. Aspose.Note è una potente libreria che consente agli sviluppatori di lavorare con i file Microsoft OneNote a livello di codice, offrendo varie funzionalità per manipolare ed estrarre dati da questi file.
@@ -88,3 +94,9 @@ A3: Sì, puoi scaricare una versione di prova gratuita di Aspose.Note per .NET d
 ### Q5: Dove posso trovare supporto per Aspose.Note per .NET?
 
  R5: Puoi trovare supporto e risorse su[Forum Aspose.Note](https://forum.aspose.com/c/note/28).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

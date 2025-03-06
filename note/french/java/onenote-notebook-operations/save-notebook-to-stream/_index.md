@@ -3,10 +3,16 @@ title: Enregistrer le bloc-notes pour diffuser dans OneNote - Aspose.Note
 linktitle: Enregistrer le bloc-notes pour diffuser dans OneNote - Aspose.Note
 second_title: API Java Aspose.Note
 description: Découvrez comment enregistrer des blocs-notes dans des flux dans OneNote à l'aide d'Aspose.Note pour Java. Augmentez la productivité grâce à une gestion efficace des ordinateurs portables.
-type: docs
 weight: 26
 url: /fr/java/onenote-notebook-operations/save-notebook-to-stream/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Enregistrer le bloc-notes pour diffuser dans OneNote - Aspose.Note
+
 ## Introduction
 
 Dans ce didacticiel, nous vous guiderons tout au long du processus d'enregistrement d'un bloc-notes dans un flux dans OneNote à l'aide d'Aspose.Note pour Java. En suivant ces étapes, vous serez en mesure de gérer efficacement vos blocs-notes par programmation.
@@ -88,3 +94,9 @@ A3 : Absolument ! Aspose.Note pour Java offre des capacités d'intégration tran
 ### Q5 : Existe-t-il une version d'essai disponible pour Aspose.Note pour Java ?
 
  A5 : Oui, vous pouvez accéder à la version d'essai[ici](https://releases.aspose.com/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

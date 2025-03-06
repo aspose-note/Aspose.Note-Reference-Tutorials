@@ -3,10 +3,16 @@ title: Ändern Sie den Seitenverlauf in OneNote – Aspose.Note
 linktitle: Ändern Sie den Seitenverlauf in OneNote – Aspose.Note
 second_title: Aspose.Note Java API
 description: Löschen, ändern und fügen Sie Seitenverlaufseinträge nahtlos hinzu! Schritt-für-Schritt-Anleitung und Code zum Beherrschen von OneNote mit Aspose.Note. #OneNote #Java #Aspose
-type: docs
 weight: 17
 url: /de/java/onenote-page-manipulation/modify-page-history/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Ändern Sie den Seitenverlauf in OneNote – Aspose.Note
+
 ## Einführung
 
 In diesem Tutorial befassen wir uns intensiv mit der Verwendung von Aspose.Note für Java zum Ändern des Seitenverlaufs in OneNote-Dokumenten. Aspose.Note ist eine leistungsstarke Java-API, die es Entwicklern ermöglicht, nahtlos mit OneNote-Dateien zu arbeiten und verschiedene Vorgänge wie das programmgesteuerte Erstellen, Lesen und Ändern dieser Dateien zu ermöglichen.
@@ -108,3 +114,10 @@ A4: Ja, Aspose.Note für Java bietet APIs, um Massenänderungen effizient durchz
 ### F5: Gibt es ein Community-Forum für Aspose.Note für Java, in dem ich um Hilfe bitten kann?
 
  A5: Ja, Sie können die besuchen[Aspose.Note-Forum](https://forum.aspose.com/c/note/28) für jegliche Unterstützung oder Fragen im Zusammenhang mit der Bibliothek.
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

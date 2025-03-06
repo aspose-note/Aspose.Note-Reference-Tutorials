@@ -3,10 +3,16 @@ title: Buat Tabel dengan Kolom Terkunci di OneNote - Aspose.Note
 linktitle: Buat Tabel dengan Kolom Terkunci di OneNote - Aspose.Note
 second_title: Aspose.Catatan Java API
 description: Tingkatkan pengalaman OneNote Anda dengan Aspose.Note untuk Java. Pelajari cara membuat tabel dengan kolom terkunci menggunakan panduan langkah demi langkah. Unduh uji coba gratis Anda sekarang!
-type: docs
 weight: 12
 url: /id/java/onenote-table-manipulation/create-table-with-locked-columns/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Buat Tabel dengan Kolom Terkunci di OneNote - Aspose.Note
+
 ## Perkenalan
 OneNote adalah alat canggih untuk mengatur informasi, dan Aspose.Note untuk Java meningkatkan kemampuannya dengan menyediakan cara yang lancar untuk membuat tabel dengan kolom terkunci. Dalam tutorial ini, kami akan memandu Anda melalui proses penggunaan Aspose.Note untuk Java untuk membuat tabel dengan kolom terkunci di OneNote.
 ## Prasyarat
@@ -90,3 +96,9 @@ Sangat! Aspose.Note untuk Java menyediakan opsi ekstensif untuk menyesuaikan tab
  Mengunjungi[Aspose.Catatan forum](https://forum.aspose.com/c/note/28) untuk dukungan dan diskusi komunitas.
 ### Bagaimana cara mendapatkan lisensi sementara untuk Aspose.Note untuk Java?
  Mengunjungi[Link ini](https://purchase.aspose.com/temporary-license/) untuk mendapatkan izin sementara untuk tujuan pengujian.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -3,10 +3,16 @@ title: การดำเนินงานสมุดบันทึก OneNot
 linktitle: การดำเนินงานสมุดบันทึก OneNote
 second_title: Aspose.Note Java API
 description: ปลดล็อกศักยภาพทั้งหมดของ Aspose.Note สำหรับ Java ด้วยบทช่วยสอนการใช้งาน OneNote Notebook ของเรา ให้คำแนะนำทีละขั้นตอนสำหรับการปรับปรุงแอป Java ของคุณ
-type: docs
 weight: 28
 url: /th/java/onenote-notebook-operations/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# การดำเนินงานสมุดบันทึก OneNote
+
 
 ## การแนะนำ
 
@@ -66,3 +72,9 @@ url: /th/java/onenote-notebook-operations/
 เรียนรู้วิธีบันทึกสมุดบันทึกไปยังสตรีมใน OneNote โดยใช้ Aspose.Note สำหรับ Java เพิ่มประสิทธิภาพการทำงานด้วยการจัดการโน้ตบุ๊กที่มีประสิทธิภาพ
 ### [เขียนเอกสารที่ป้องกันด้วยรหัสผ่านใน OneNote - Aspose.Note](./write-password-protected-document/)
 เรียนรู้วิธีเขียนเอกสารที่ป้องกันด้วยรหัสผ่านใน OneNote โดยใช้ Aspose.Note สำหรับ Java มั่นใจในความปลอดภัยด้วยขั้นตอนที่ปฏิบัติตามง่าย
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -3,10 +3,16 @@ title: OneNote 列印文檔
 linktitle: OneNote 列印文檔
 second_title: Aspose.Note Java API
 description: 使用 Aspose.Note for Java 在 OneNote 中輕鬆列印文件。這些教程提供了無縫文件列印的逐步指導和程式碼範例。
-type: docs
 weight: 30
 url: /zh-hant/java/onenote-printing-documents/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# OneNote 列印文檔
+
 
 ## 介紹
 
@@ -38,3 +44,9 @@ url: /zh-hant/java/onenote-printing-documents/
 ## OneNote 列印文件教學
 ### [在 OneNote 中列印文件 - Aspose.Note](./print-documents/)
 了解如何使用 Aspose.Note for Java 在 OneNote 中列印文件。包含程式碼範例和可自訂選項的逐步指南。
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

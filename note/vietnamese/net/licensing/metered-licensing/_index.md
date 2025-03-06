@@ -3,10 +3,16 @@ title: Cấp phép đo lường với Aspose.Note
 linktitle: Cấp phép đo lường với Aspose.Note
 second_title: Aspose.Note .NET API
 description: Tìm hiểu cách quản lý hiệu quả giấy phép phần mềm với Aspose.Note cho .NET thông qua cấp phép theo đồng hồ đo. Tối ưu hóa việc sử dụng tài nguyên và kiểm soát chi phí một cách hiệu quả.
-type: docs
 weight: 13
 url: /vi/net/licensing/metered-licensing/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Cấp phép đo lường với Aspose.Note
+
 ## Giới thiệu
 
 Trong lĩnh vực phát triển phần mềm, việc quản lý giấy phép một cách hiệu quả là rất quan trọng, đặc biệt là khi xử lý các sản phẩm như Aspose.Note dành cho .NET. Cấp phép theo đồng hồ đo là một phương pháp cung cấp cho các nhà phát triển sự linh hoạt và khả năng kiểm soát cao hơn đối với việc sử dụng phần mềm của họ, cho phép họ giám sát và quản lý mức tiêu thụ tài nguyên một cách hiệu quả. Trong hướng dẫn này, chúng ta sẽ đi sâu vào những điểm phức tạp của việc cấp phép theo đồng hồ đo với Aspose.Note cho .NET, chia nhỏ từng bước để đảm bảo sự hiểu biết toàn diện.
@@ -89,3 +95,9 @@ Câu trả lời 4: Việc cấp phép theo lưu lượng sử dụng có thể 
 ### Câu hỏi 5: Cấp phép theo đồng hồ đo có phù hợp với tất cả các loại ứng dụng phần mềm không?
 
 Câu trả lời 5: Mặc dù việc cấp phép theo đồng hồ đo có thể mang lại lợi ích cho nhiều ứng dụng phần mềm nhưng tính phù hợp của nó phụ thuộc vào các yếu tố như cách sử dụng và cân nhắc về chi phí.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

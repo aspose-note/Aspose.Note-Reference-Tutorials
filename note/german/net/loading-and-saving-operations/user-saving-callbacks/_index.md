@@ -3,10 +3,16 @@ title: Benutzersparende Rückrufe in Aspose.Note
 linktitle: Benutzersparende Rückrufe in Aspose.Note
 second_title: Aspose.Note .NET-API
 description: Erfahren Sie, wie Sie benutzerspeichernde Rückrufe in Aspose.Note für .NET implementieren, um das Speichern von Schriftarten, CSS und Bildern anzupassen.
-type: docs
 weight: 31
 url: /de/net/loading-and-saving-operations/user-saving-callbacks/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Benutzersparende Rückrufe in Aspose.Note
+
 ## Einführung
 
 In diesem Tutorial erfahren Sie, wie Sie benutzersparende Rückrufe in Aspose.Note für .NET implementieren. Mit diesen Rückrufen können Sie den Speichervorgang anpassen, indem Sie Hooks bereitstellen, mit denen Sie in verschiedenen Phasen eingreifen können, z. B. beim Speichern von Schriftarten, CSS-Stylesheets und Bildern. Mithilfe dieser Rückrufe können Sie das Speicherverhalten an Ihre spezifischen Anforderungen anpassen und so die Flexibilität und Kontrolle über die Ausgabe erhöhen.
@@ -118,3 +124,9 @@ A4: Obwohl diese Rückrufe Flexibilität bieten, stellen Sie sicher, dass sie ef
 ### F5: Kann ich das Speicherverhalten basierend auf Benutzereingaben oder anderen Bedingungen dynamisch ändern?
 
 A5: Ja, Sie können bedingte Logik in die Rückrufmethoden integrieren, um das Speicherverhalten basierend auf verschiedenen Faktoren dynamisch anzupassen.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

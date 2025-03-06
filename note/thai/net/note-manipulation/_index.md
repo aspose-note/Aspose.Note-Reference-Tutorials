@@ -3,10 +3,16 @@ title: การเรียนรู้การรวม OneNote กับ Asp
 linktitle: หมายเหตุ การจัดการ
 second_title: Aspose.Note .NET API
 description: ปลดล็อกพลังของ Aspose.Note สำหรับ .NET ด้วยบทช่วยสอนที่เน้น OneNote ของเรา แก้ไขข้อขัดแย้ง สร้างเอกสารแบบไดนามิก และสำรวจการจัดการหน้าอย่างมีประสิทธิภาพ
-type: docs
 weight: 27
 url: /th/net/note-manipulation/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# การเรียนรู้การรวม OneNote กับ Aspose.Note สำหรับ .NET
+
 
 ## การแนะนำ
 
@@ -69,3 +75,9 @@ url: /th/net/note-manipulation/
 เรียนรู้วิธีตั้งค่าสีพื้นหลังของหน้าในเอกสาร Aspose.Note โดยใช้ภาษาการเขียนโปรแกรม C# พร้อมคำแนะนำทีละขั้นตอน
 ### [การทำงานกับการแก้ไขหน้า - เคล็ดลับ Aspose.Note](./working-with-page-revisions/)
 เรียนรู้การจัดการการแก้ไขหน้า Microsoft OneNote ด้วย Aspose.Note คำแนะนำทีละขั้นตอนสำหรับการผสานรวมและการควบคุมเวอร์ชันในแอปพลิเคชัน .NET ของคุณอย่างราบรื่น
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

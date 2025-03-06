@@ -3,10 +3,16 @@ title: Aspose.Note a .NET címkekezelési oktatóanyagokhoz
 linktitle: Címkekezelés
 second_title: Aspose.Note .NET API
 description: Master Aspose.Note címkekezeléssel. Adjon hozzá képeket, táblázatokat, szöveges csomópontokat, és készítsen értekezlet-jegyzeteket. Lekérheti a címke részleteit, és javíthatja a dokumentumkezelést.
-type: docs
 weight: 30
 url: /hu/net/tag-management/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Aspose.Note a .NET címkekezelési oktatóanyagokhoz
+
 
 ## Bevezetés
 
@@ -49,3 +55,9 @@ Ismerje meg, hogyan kérheti le a címke részleteit az Aspose.Note dokumentumok
 Ismerje meg, hogyan kezelheti programozottan a Microsoft OneNote fájlokat az Aspose.Note for .NET használatával. Hatékonyan nyithat meg és zárhat be projekteket címkékkel.
 ### [Jelentéskészítés címkékkel az Aspose.Note-ban](./reporting-tags/)
 Tanulja meg, hogyan készíthet éleslátó jelentéseket digitális dokumentumokból az Aspose.Note for .NET segítségével. Lépésről lépésre bemutatott útmutató.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

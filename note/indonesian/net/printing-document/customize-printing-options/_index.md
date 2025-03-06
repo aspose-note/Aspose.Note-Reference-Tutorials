@@ -3,10 +3,16 @@ title: Sesuaikan Pencetakan dengan Aspose.Note Opsi Cetak
 linktitle: Sesuaikan Pencetakan dengan Aspose.Note Opsi Cetak
 second_title: Aspose.Catatan .NET API
 description: Pelajari cara menyesuaikan pencetakan dokumen dengan Aspose.Note untuk .NET. Sempurnakan pengaturan untuk hasil cetakan optimal.
-type: docs
 weight: 11
 url: /id/net/printing-document/customize-printing-options/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Sesuaikan Pencetakan dengan Aspose.Note Opsi Cetak
+
 ## Perkenalan
 
 Mencetak dokumen dengan Aspose.Note untuk .NET dapat disesuaikan untuk memenuhi kebutuhan spesifik menggunakan opsi cetak. Dalam tutorial ini, kita akan mempelajari cara menyesuaikan pencetakan menggunakan berbagai opsi yang disediakan oleh Aspose.Note. Baik Anda perlu menyesuaikan pengaturan printer, mengatur resolusi, atau menentukan algoritma pemisahan halaman, Aspose.Note menawarkan fleksibilitas untuk mencapai hasil pencetakan yang diinginkan.
@@ -95,3 +101,9 @@ A4: Aspose.Note mendukung pencetakan ke berbagai printer yang kompatibel dengan 
 ### Q5: Bisakah saya mengotomatiskan tugas pencetakan menggunakan Aspose.Note?
 
 A5: Ya, Aspose.Note memungkinkan pengembang untuk mengotomatiskan tugas pencetakan dengan mengintegrasikan opsi pencetakan ke dalam aplikasi .NET mereka.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

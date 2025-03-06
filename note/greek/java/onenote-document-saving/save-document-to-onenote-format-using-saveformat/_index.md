@@ -3,10 +3,16 @@ title: Αποθήκευση εγγράφου στο OneNote χρησιμοποι
 linktitle: Αποθήκευση εγγράφου στο OneNote χρησιμοποιώντας SaveFormat - Aspose.Note
 second_title: Aspose.Note Java API
 description: Μάθετε πώς να αποθηκεύετε έγγραφα σε μορφή OneNote χρησιμοποιώντας το Aspose.Note για Java. Ακολουθήστε αυτό το βήμα προς βήμα σεμινάριο για απρόσκοπτη ενσωμάτωση στις εφαρμογές σας Java.
-type: docs
 weight: 12
 url: /el/java/onenote-document-saving/save-document-to-onenote-format-using-saveformat/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Αποθήκευση εγγράφου στο OneNote χρησιμοποιώντας SaveFormat - Aspose.Note
+
 ## Εισαγωγή
 
 Το Aspose.Note για Java είναι μια ισχυρή βιβλιοθήκη που επιτρέπει στους προγραμματιστές να εργάζονται με αρχεία Microsoft OneNote μέσω προγραμματισμού. Η αποθήκευση ενός εγγράφου σε μορφή OneNote χρησιμοποιώντας το SaveFormat είναι μια απλή διαδικασία. Σε αυτό το σεμινάριο, θα ακολουθήσουμε τα βήματα που απαιτούνται για την ολοκλήρωση αυτής της εργασίας.
@@ -78,3 +84,9 @@ A1: Το Aspose.Note για Java υποστηρίζει διάφορες εκδ�
 ### Ε5: Υπάρχει διαθέσιμη προσωρινή επιλογή άδειας χρήσης για το Aspose.Note για Java;
 
  A5: Ναι, μπορείτε να αποκτήσετε μια προσωρινή άδεια χρήσης για το Aspose.Note για Java από[εδώ](https://purchase.aspose.com/temporary-license/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

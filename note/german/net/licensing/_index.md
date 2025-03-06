@@ -3,10 +3,16 @@ title: Beherrschen der Aspose.Note-Lizenzierung für die OneNote-Integration
 linktitle: Lizenzierung
 second_title: Aspose.Note .NET-API
 description: Wenden Sie Aspose.Note-Lizenzen in Ihren .NET-Anwendungen an! Entdecken Sie Schritt-für-Schritt-Anleitungen zum Einbetten von Ressourcen, zur Verwendung von Pfaden, FileStream und zur effizienten, dosierten Lizenzierung.
-type: docs
 weight: 20
 url: /de/net/licensing/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Beherrschen der Aspose.Note-Lizenzierung für die OneNote-Integration
+
 ## Einführung
 
 Sind Sie ein .NET-Entwickler, der sich mit dem dynamischen Bereich von Aspose.Note beschäftigt? Das Verständnis der Anwendung von Lizenzen ist von entscheidender Bedeutung, insbesondere bei der Arbeit mit OneNote-Dateien. In diesem ausführlichen Leitfaden navigieren wir durch verschiedene Lizenzierungs-Tutorials, um einen nahtlosen Integrationsprozess sicherzustellen und Ihnen die mühelose Bearbeitung von OneNote-Dateien zu ermöglichen.
@@ -41,3 +47,9 @@ Erfahren Sie, wie Sie die Aspose.Note-Lizenz aus dem Pfad in .NET-Anwendungen an
 Erfahren Sie, wie Sie eine Aspose.Note-Lizenz mithilfe von FileStream in Ihren .NET-Anwendungen für eine nahtlose Integration anwenden.
 ### [Gemessene Lizenzierung mit Aspose.Note](./metered-licensing/)
 Erfahren Sie, wie Sie Softwarelizenzen mit Aspose.Note für .NET durch getaktete Lizenzierung effizient verwalten. Optimieren Sie den Ressourcenverbrauch und kontrollieren Sie die Kosten effektiv.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

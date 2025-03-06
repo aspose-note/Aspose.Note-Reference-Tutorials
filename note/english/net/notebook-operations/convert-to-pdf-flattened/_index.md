@@ -3,10 +3,16 @@ title: Convert Notebooks to PDF (Flattened) in Aspose Note .NET
 linktitle: Convert Notebooks to PDF (Flattened) in Aspose Note .NET
 second_title: Aspose.Note .NET API
 description: Learn how to convert OneNote notebooks to flattened PDFs effortlessly using Aspose.Note for .NET. Preserve your content seamlessly.
-type: docs
 weight: 15
 url: /net/notebook-operations/convert-to-pdf-flattened/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Convert Notebooks to PDF (Flattened) in Aspose Note .NET
+
 ## Introduction
 
 Are you looking to convert your OneNote notebooks into flattened PDFs using Aspose Note .NET? You're in the right place! In this tutorial, we'll walk through the process step by step.
@@ -91,3 +97,10 @@ A4: Yes, you can get a free trial of Aspose.Note from [here](https://releases.as
 ### Q5: Where can I get support if I encounter any issues?
 
 A5: You can seek support from the Aspose community at [Aspose.Note forums](https://forum.aspose.com/c/note/28).
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

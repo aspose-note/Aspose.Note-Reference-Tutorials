@@ -3,10 +3,16 @@ title: Especificar opciones de guardar en OneNote - Aspose.Note
 linktitle: Especificar opciones de guardar en OneNote - Aspose.Note
 second_title: Aspose.Nota Java API
 description: Aprenda a especificar opciones de guardado en OneNote usando Aspose.Note para Java. Personalice las configuraciones de índice, recuento y compresión de páginas sin esfuerzo.
-type: docs
 weight: 24
 url: /es/java/onenote-document-saving/specify-save-options/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Especificar opciones de guardar en OneNote - Aspose.Note
+
 ## Introducción
 
 En este tutorial, aprenderemos cómo especificar opciones de guardado en OneNote usando Aspose.Note para Java. Aspose.Note es una potente biblioteca Java que permite a los desarrolladores crear, manipular y convertir documentos OneNote mediante programación. Con Aspose.Note, puede controlar fácilmente varias opciones de guardado para personalizar la salida según sus requisitos.
@@ -109,3 +115,9 @@ R4: Sí, Aspose.Note proporciona API para cifrar y descifrar documentos de OneNo
 ### P5: ¿Aspose.Note es adecuado para uso comercial?
 
 R5: Sí, Aspose.Note se puede utilizar con fines comerciales comprando una licencia.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -3,10 +3,16 @@ title: 使用 Java 在 OneNote 中向圖像添加替代文本
 linktitle: 使用 Java 在 OneNote 中向圖像添加替代文本
 second_title: Aspose.Note Java API
 description: 了解如何使用 Java 和 Aspose.Note 將替代文字新增至 OneNote 文件中的圖像，從而增強可訪問性和包容性。
-type: docs
 weight: 10
 url: /zh-hant/java/onenote-image-alternative-text/add-alternative-text-to-image/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# 使用 Java 在 OneNote 中向圖像添加替代文本
+
 ## 介紹
 
 在本教程中，我們將深入研究有關利用 Aspose.Note for Java 為 OneNote 文件中的圖像添加替代文字的綜合指南。替代文字用作圖像的文字描述，有助於無法直接查看圖像的個人（例如使用螢幕閱讀器的人）的存取和理解。透過學習本教學課程，您將了解如何使用 Java 程式語言將替代文字無縫整合到 OneNote 文件中。
@@ -131,3 +137,9 @@ A4：是的，Aspose.Note 可用於多種程式語言，包括 .NET、C++和Pyth
 ### Q5：Aspose.Note 有試用版嗎？
 
  A5：是的，您可以使用 Aspose.Note 的免費試用版[這裡](https://releases.aspose.com/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

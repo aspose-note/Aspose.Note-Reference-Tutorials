@@ -3,10 +3,16 @@ title: Λάβετε ετικέτες κόμβων στο OneNote - Aspose.Note
 linktitle: Λάβετε ετικέτες κόμβων στο OneNote - Aspose.Note
 second_title: Aspose.Note Java API
 description: Ανακαλύψτε τα μυστικά του OneNote με το Aspose.Note για Java. Αυτός ο οδηγός σάς δίνει τη δυνατότητα να εξαγάγετε ετικέτες κόμβων χωρίς κόπο. Βουτήξτε στο μέλλον της χειραγώγησης εγγράφων!
-type: docs
 weight: 15
 url: /el/java/onenote-tag-operations/get-node-tags/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Λάβετε ετικέτες κόμβων στο OneNote - Aspose.Note
+
 ## Εισαγωγή
 Καλώς ήρθατε στη σφαίρα του Aspose.Note για την Java! Αν θέλετε να βουτήξετε βαθιά στη διαχείριση και την εξαγωγή πληροφοριών από έγγραφα του OneNote, βρίσκεστε στο σωστό μέρος. Σε αυτό το σεμινάριο, θα σας καθοδηγήσουμε στη διαδικασία λήψης ετικετών κόμβων στο OneNote χρησιμοποιώντας το Aspose.Note για Java. Στο τέλος, θα είστε εξοπλισμένοι με τη γνώση για να αξιοποιήσετε πλήρως τις δυνατότητες αυτού του ισχυρού Java API.
 ## Προαπαιτούμενα
@@ -81,3 +87,9 @@ for (ITag tag : richText.getTags()) {
  Εξερευνήστε τη λεπτομερή τεκμηρίωση[εδώ](https://reference.aspose.com/note/java/).
 ### Πώς μπορώ να λάβω υποστήριξη για τυχόν ζητήματα ή απορίες;
  Κατευθυνθείτε στο φόρουμ υποστήριξης[εδώ](https://forum.aspose.com/c/note/28) για βοήθεια από την κοινότητα Aspose.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

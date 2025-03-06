@@ -3,10 +3,16 @@ title: Dominar la impresión de OneNote con Aspose.Note para .NET
 linktitle: Imprimir documento
 second_title: Aspose.Nota .NET API
 description: Imprima documentos de OneNote con Aspose.Note para .NET. Explore la perfecta integración con aplicaciones .NET, personalice las opciones de impresión y libere el poder de la impresión de documentos.
-type: docs
 weight: 28
 url: /es/net/printing-document/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Dominar la impresión de OneNote con Aspose.Note para .NET
+
 ## Introducción
 
 ¿Estás listo para mejorar tu juego de impresión de documentos usando Aspose.Note para .NET? ¡No busque más! En esta guía detallada, profundizaremos en dos tutoriales esenciales, asegurándonos de que pueda imprimir documentos de OneNote con facilidad y personalizar las opciones de impresión para una experiencia personalizada.
@@ -49,3 +55,9 @@ En conclusión, dominar la impresión y personalización de documentos con Aspos
 Aprenda a imprimir documentos de OneNote usando Aspose.Note para .NET. Guía paso a paso para una integración perfecta en sus aplicaciones .NET.
 ### [Personalice la impresión con las opciones de impresión de Aspose.Note](./customize-printing-options/)
 Aprenda a personalizar la impresión de documentos con Aspose.Note para .NET. Ajuste la configuración para obtener impresiones óptimas.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

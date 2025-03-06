@@ -3,10 +3,16 @@ title: OneNote でノートブックをフラット化されたイメージに�
 linktitle: OneNote でノートブックをフラット化されたイメージに変換する - Aspose.Note
 second_title: Aspose.Note Java API
 description: Aspose.Note for Java を使用して、OneNote でノートブックをフラット化された画像に変換する方法を学習します。すべての要素を 1 つの画像ファイルに簡単に保存できます。
-type: docs
 weight: 13
 url: /ja/java/onenote-notebook-operations/convert-notebook-to-flattened-image/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# OneNote でノートブックをフラット化されたイメージに変換する - Aspose.Note
+
 ## 導入
 
 このチュートリアルでは、Aspose.Note for Java を使用して、OneNote でノートブックをフラット化されたイメージに変換するプロセスを説明します。これにより、ノートブックを画像ファイルとして保存でき、すべての要素が単一の画像形式で保存されるようになります。
@@ -108,3 +114,9 @@ A3: はい、Aspose.Note には、ページ サイズ、向き、品質設定な
 ### Q5: Aspose.Note for Java のサポートはどこで見つけられますか?
 
  A5: Aspose.Note フォーラムでサポートとリソースを見つけることができます。[ここ](https://forum.aspose.com/c/note/28).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

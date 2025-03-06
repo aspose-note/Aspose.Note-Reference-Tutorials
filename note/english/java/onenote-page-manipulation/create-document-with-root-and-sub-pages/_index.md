@@ -3,10 +3,16 @@ title: Create Document with Root and Sub Pages in OneNote
 linktitle: Create Document with Root and Sub Pages in OneNote
 second_title: Aspose.Note Java API
 description: Create a document with root and sub pages in OneNote using Aspose.Note for Java. Follow the step-by-step guide to efficiently organize your notes.
-type: docs
 weight: 11
 url: /java/onenote-page-manipulation/create-document-with-root-and-sub-pages/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Create Document with Root and Sub Pages in OneNote
+
 ## Introduction
 
 In this tutorial, we'll guide you through the process of creating a document with root and sub pages in OneNote using Aspose.Note for Java. By following these steps, you'll be able to efficiently organize your OneNote documents with hierarchical structure.
@@ -169,3 +175,10 @@ A4: Yes, Aspose.Note for Java supports saving documents in various formats inclu
 ### Q5: Is there a trial version available for Aspose.Note for Java?
 
 A5: Yes, you can download a free trial version of Aspose.Note for Java from the website.
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -3,10 +3,16 @@ title: Tạo Notebook trong OneNote - Aspose.Note
 linktitle: Tạo Notebook trong OneNote - Aspose.Note
 second_title: API Java Aspose.Note
 description: Tìm hiểu cách tạo sổ ghi chép trong OneNote theo lập trình bằng Aspose.Note for Java. Hợp lý hóa quy trình làm việc của bạn với hướng dẫn từng bước này.
-type: docs
 weight: 18
 url: /vi/java/onenote-notebook-operations/create-notebook/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Tạo Notebook trong OneNote - Aspose.Note
+
 ## Giới thiệu
 
 Trong hướng dẫn này, chúng ta sẽ đi sâu vào thế giới tạo sổ ghi chép trong OneNote bằng Aspose.Note cho Java. Aspose.Note là một thư viện Java mạnh mẽ cho phép các nhà phát triển làm việc với các tệp Microsoft OneNote theo chương trình. Cho dù bạn là nhà phát triển dày dạn kinh nghiệm hay mới bắt đầu, hướng dẫn từng bước này sẽ hướng dẫn bạn qua quá trình tạo sổ ghi chép một cách dễ dàng.
@@ -86,3 +92,9 @@ A3: Chắc chắn rồi! Aspose.Note for Java được thiết kế để tích 
 ### Câu hỏi 5: Tôi có thể nhận hỗ trợ cho Aspose.Note cho Java ở đâu?
 
  Câu trả lời 5: Để nhận được bất kỳ trợ giúp hoặc thắc mắc nào liên quan đến Aspose.Note dành cho Java, bạn có thể truy cập[Diễn đàn Aspose.Note](https://forum.aspose.com/c/note/28) để tương tác với cộng đồng và nhận được hướng dẫn của chuyên gia.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

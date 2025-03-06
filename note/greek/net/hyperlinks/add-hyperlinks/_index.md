@@ -3,10 +3,16 @@ title: Προσθήκη υπερσυνδέσμων στα έγγραφα Aspose.
 linktitle: Προσθήκη υπερσυνδέσμων στα έγγραφα Aspose.Note
 second_title: Aspose.Note .NET API
 description: Μάθετε πώς να προσθέτετε υπερσυνδέσμους στα έγγραφα Aspose.Note χρησιμοποιώντας το Aspose.Note για .NET. Βελτιώστε τη διαδραστικότητα του εγγράφου με αυτό το βήμα προς βήμα σεμινάριο.
-type: docs
 weight: 10
 url: /el/net/hyperlinks/add-hyperlinks/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Προσθήκη υπερσυνδέσμων στα έγγραφα Aspose.Note
+
 ## Εισαγωγή
 
 Σε αυτό το σεμινάριο, θα μάθετε πώς να προσθέτετε υπερσυνδέσμους σε κείμενο μέσα στα έγγραφα Aspose.Note χρησιμοποιώντας το πλαίσιο .NET. Το Aspose.Note παρέχει ισχυρές δυνατότητες για χειρισμό εγγράφων OneNote μέσω προγραμματισμού. Η προσθήκη υπερσυνδέσμων μπορεί να βελτιώσει τη διαδραστικότητα και τη χρηστικότητα των εγγράφων σας, καθιστώντας τα πιο ελκυστικά για τους χρήστες.
@@ -131,3 +137,9 @@ A4: Το Aspose.Note έχει σχεδιαστεί για να λειτουργ�
 ### Ε5: Μπορώ να προσθέσω υπερσυνδέσμους μέσω προγραμματισμού χρησιμοποιώντας τα API Aspose.Note;
 
 A5: Ναι, το Aspose.Note παρέχει API που σας επιτρέπουν να προσθέτετε υπερσυνδέσμους σε κείμενο μέσω προγραμματισμού στις εφαρμογές σας .NET.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

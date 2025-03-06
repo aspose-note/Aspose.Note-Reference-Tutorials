@@ -3,10 +3,16 @@ title: Thêm siêu liên kết trong OneNote bằng Java
 linktitle: Thêm siêu liên kết trong OneNote bằng Java
 second_title: API Java Aspose.Note
 description: Tìm hiểu cách thêm siêu liên kết trong OneNote bằng Java với thư viện Aspose.Note. Dễ dàng nâng cao ghi chú của bạn bằng các liên kết tương tác.
-type: docs
 weight: 10
 url: /vi/java/onenote-hyperlinks-images/add-hyperlink/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Thêm siêu liên kết trong OneNote bằng Java
+
 ## Giới thiệu
 
 Việc thêm siêu liên kết vào tài liệu OneNote bằng Java có thể nâng cao đáng kể tính tương tác và tính hữu ích của ghi chú của bạn. Trong hướng dẫn này, chúng tôi sẽ hướng dẫn bạn từng bước thực hiện quy trình bằng cách sử dụng thư viện Aspose.Note cho Java. Hãy đi sâu vào!
@@ -136,3 +142,9 @@ Câu trả lời 4: Có, việc tích hợp Aspose.Note vào các dự án Java 
 ### Câu hỏi 5: Tôi có thể tìm thêm trợ giúp và tài nguyên để sử dụng Aspose.Note ở đâu?
 
  Câu trả lời 5: Bạn có thể tìm thấy tài liệu, hướng dẫn và hỗ trợ cộng đồng rộng rãi trên[Diễn đàn Aspose.Note](https://forum.aspose.com/c/note/28).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -3,10 +3,16 @@ title: OneNote 文字操作
 linktitle: OneNote 文字操作
 second_title: Aspose.Note Java API
 description: 探索 OneNote 文字操作的 Aspose.Note Java 教學。探索執行提取文字、應用主題、建立清單等任務的有效方法。
-type: docs
 weight: 34
 url: /zh-hant/java/onenote-text-manipulation/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# OneNote 文字操作
+
 
 ## 介紹
 
@@ -56,3 +62,9 @@ Aspose.Note for Java 簡化了 OneNote 文字操作中的複雜任務，使其�
 釋放 Aspose.Note for Java 的潛力！透過我們的逐步指南，了解如何在 OneNote 中無縫設定文字校對語言。
 ### [以 Microsoft OneNote 樣式設定頁面標題 - Aspose.Note](./setting-page-title-in-microsoft-onenote-style/)
 了解如何使用 Aspose.Note for Java 以 Microsoft OneNote 樣式設定頁面標題。透過專業的格式來提升您的 Java 文件。
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

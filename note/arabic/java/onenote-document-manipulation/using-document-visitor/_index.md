@@ -3,10 +3,16 @@ title: استخدام زائر المستند في OneNote مع Java
 linktitle: استخدام زائر المستند في OneNote مع Java
 second_title: Aspose.Note جافا API
 description: تعرف على كيفية استخدام زائر المستند في OneNote باستخدام Java مع Aspose.Note. اجتياز مستندات OneNote ومعالجتها بسلاسة.
-type: docs
 weight: 10
 url: /ar/java/onenote-document-manipulation/using-document-visitor/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# استخدام زائر المستند في OneNote مع Java
+
 ## مقدمة
 
 في هذا البرنامج التعليمي، سوف نستكشف كيفية استخدام زائر المستند في OneNote باستخدام Java مع Aspose.Note. يتيح Document Visitor التنقل عبر عناصر مستند OneNote وتنفيذ العمليات عليها. سنرشدك خلال العملية خطوة بخطوة.
@@ -95,3 +101,9 @@ System.out.println(myConverter.getText());
 ### س5: هل هناك أي وثائق متاحة لـ Aspose.Note؟
 
  ج5: نعم، يمكنك العثور على الوثائق[هنا](https://reference.aspose.com/note/java/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

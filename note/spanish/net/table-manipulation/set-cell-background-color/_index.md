@@ -3,10 +3,16 @@ title: Establecer el color de fondo de la celda en las tablas Aspose.Note
 linktitle: Establecer el color de fondo de la celda en las tablas Aspose.Note
 second_title: Aspose.Nota .NET API
 description: Aprenda cómo configurar el color de fondo de la celda en las tablas de Aspose.Note usando la guía paso a paso. Mejore las imágenes de los documentos sin esfuerzo.
-type: docs
 weight: 17
 url: /es/net/table-manipulation/set-cell-background-color/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Establecer el color de fondo de la celda en las tablas Aspose.Note
+
 ## Introducción
 
 En este tutorial, profundizaremos en cómo configurar el color de fondo de las celdas dentro de las tablas usando Aspose.Note para .NET. Esta característica puede mejorar significativamente el atractivo visual y la legibilidad de sus documentos. Siga los pasos a continuación para aprender cómo lograrlo.
@@ -122,3 +128,9 @@ R4: Aspose.Note para .NET se dirige específicamente a los formatos de archivo O
 ### P5: ¿Dónde puedo encontrar más recursos y soporte para Aspose.Note para .NET?
 
  A5: Puedes explorar el[Documentación de Aspose.Note](https://reference.aspose.com/note/net/) para referencias detalladas de API y ejemplos. Además, puede buscar ayuda de la comunidad de Aspose en el[Foro Aspose.Note](https://forum.aspose.com/c/note/28).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

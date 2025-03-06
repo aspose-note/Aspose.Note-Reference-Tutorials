@@ -3,10 +3,16 @@ title: OneNote Java 統合
 linktitle: OneNote Java 統合
 second_title: Aspose.Note Java API
 description: Aspose.Note Java を使用して OneNote エクスペリエンスを強化しましょう。 Java を使用したプログラムによるファイルの添付、アイコンの設定、添付ファイルの取得に関するチュートリアルをご覧ください。
-type: docs
 weight: 20
 url: /ja/java/onenote-java-integration/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# OneNote Java 統合
+
 ## 導入
 
 Aspose.Note を使用して OneNote を Java に統合するための包括的なガイドへようこそ。経験豊富な開発者でも、初心者でも、これらのチュートリアルを使用すると、OneNote の機能をプログラムで最大限に活用できるようになります。
@@ -36,3 +42,9 @@ Aspose.Note for Java を使用して Java を使用して OneNote にファイ�
 Java と Aspose.Note を使用して、プログラムで OneNote ノートにファイルを添付する方法を学びます。
 ### [Java を使用して OneNote から添付ファイルを取得する](./retrieve-attachment/)
 Java と Aspose.Note (シームレスなドキュメント操作のための強力な API) を使用して、OneNote から添付ファイルを取得する方法を学びます。
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -3,10 +3,16 @@ title: Đặt màu nền của trang trong Aspose.Note
 linktitle: Đặt màu nền của trang trong Aspose.Note
 second_title: Aspose.Note .NET API
 description: Tìm hiểu cách đặt màu nền của trang trong tài liệu Aspose.Note bằng ngôn ngữ lập trình C# với hướng dẫn từng bước.
-type: docs
 weight: 19
 url: /vi/net/note-manipulation/set-page-background-color/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Đặt màu nền của trang trong Aspose.Note
+
 ## Giới thiệu
 
 Aspose.Note for .NET cho phép các nhà phát triển thao tác với tài liệu OneNote theo chương trình. Một nhiệm vụ phổ biến là đặt màu nền của các trang trong các tài liệu này. Trong hướng dẫn này, chúng tôi sẽ hướng dẫn bạn từng bước thực hiện quy trình.
@@ -97,3 +103,9 @@ Câu trả lời 2: Aspose.Note chủ yếu tập trung vào làm việc với c
 ### Câu hỏi 5: Tôi có thể tìm thêm hỗ trợ hoặc đặt câu hỏi về Aspose.Note ở đâu?
 
  A5: Bạn có thể ghé thăm[Diễn đàn Aspose.Note](https://forum.aspose.com/c/note/28) để được hỗ trợ và kết nối với những người dùng khác.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

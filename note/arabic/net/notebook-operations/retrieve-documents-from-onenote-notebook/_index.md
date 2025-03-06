@@ -3,10 +3,16 @@ title: استرداد المستندات من OneNote Notebook في Aspose Note 
 linktitle: استرداد المستندات من OneNote Notebook في Aspose Note .NET
 second_title: Aspose.Note .NET API
 description: تعرف على كيفية استرداد المستندات من دفاتر ملاحظات OneNote برمجياً باستخدام Aspose.Note لـ .NET، مما يتيح التكامل والمعالجة السلسين.
-type: docs
 weight: 25
 url: /ar/net/notebook-operations/retrieve-documents-from-onenote-notebook/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# استرداد المستندات من OneNote Notebook في Aspose Note .NET
+
 ## مقدمة
 
 في مجال تطوير .NET، يبرز Aspose.Note كأداة قوية لإدارة مستندات OneNote ومعالجتها بسهولة. سواء كنت مطورًا متمرسًا أو مجرد غمس أصابع قدميك في عالم برمجة .NET، فإن إتقان فن استرداد المستندات من دفاتر ملاحظات OneNote باستخدام Aspose.Note يعد مهارة قيمة.
@@ -95,3 +101,9 @@ foreach (Document document in allDocuments)
 ### س5: أين يمكنني العثور على دعم أو مساعدة إضافية فيما يتعلق بـ Aspose.Note؟
 
  ج5: لأية استفسارات أو مساعدة، يمكنك زيارة منتدى Aspose.Note على[منتدى الدعم](https://forum.aspose.com/c/note/28).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

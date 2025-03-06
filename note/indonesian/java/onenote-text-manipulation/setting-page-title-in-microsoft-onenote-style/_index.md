@@ -3,10 +3,16 @@ title: Mengatur Judul Halaman dalam Gaya Microsoft OneNote - Aspose.Note
 linktitle: Mengatur Judul Halaman dalam Gaya Microsoft OneNote - Aspose.Note
 second_title: Aspose.Catatan Java API
 description: Pelajari cara mengatur judul halaman dalam gaya Microsoft OneNote menggunakan Aspose.Note untuk Java. Tingkatkan dokumen Java Anda dengan format profesional.
-type: docs
 weight: 23
 url: /id/java/onenote-text-manipulation/setting-page-title-in-microsoft-onenote-style/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Mengatur Judul Halaman dalam Gaya Microsoft OneNote - Aspose.Note
+
 ## Perkenalan
 Dalam dunia perkembangan Java yang dinamis, membuat dokumen yang menarik secara visual dan terstruktur sangatlah penting. Jika Anda ingin menyempurnakan aplikasi Java Anda dengan judul halaman bergaya Microsoft OneNote, Aspose.Note untuk Java adalah solusi tepat Anda. Dalam tutorial komprehensif ini, kami akan memandu Anda melalui proses pengaturan judul halaman dalam gaya OneNote menggunakan Aspose.Note, memastikan dokumen Anda menonjol dengan sentuhan profesional.
 ## Prasyarat
@@ -72,3 +78,9 @@ Aspose.Note dirancang untuk bekerja secara lancar dengan pustaka Java lainnya, m
  Carilah bantuan dari komunitas Aspose.Note di[Aspose.Catatan Forum](https://forum.aspose.com/c/note/28).
 ### Apakah ada versi uji coba yang tersedia?
  Ya, Anda dapat menjelajahi kemampuan Aspose.Note dengan uji coba gratis dari[Di Sini](https://releases.aspose.com/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

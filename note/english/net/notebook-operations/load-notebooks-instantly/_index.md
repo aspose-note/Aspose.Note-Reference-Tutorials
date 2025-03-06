@@ -3,10 +3,16 @@ title: Load Notebooks Instantly in Aspose Note .NET
 linktitle: Load Notebooks Instantly in Aspose Note .NET
 second_title: Aspose.Note .NET API
 description: Learn how to instantly load notebooks in Aspose.Note for .NET to enhance document processing efficiency and productivity.
-type: docs
 weight: 21
 url: /net/notebook-operations/load-notebooks-instantly/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Load Notebooks Instantly in Aspose Note .NET
+
 ## Introduction
 
 In this tutorial, we will explore how to load notebooks instantly in Aspose.Note for .NET. Loading notebooks instantly allows for efficient manipulation and processing of notebook documents.
@@ -84,3 +90,10 @@ A4: Yes, you can obtain temporary licenses for testing and evaluation purposes f
 ### Q5: Where can I purchase a full license for Aspose.Note for .NET?
 
 A5: You can purchase a full license for Aspose.Note for .NET from [here](https://purchase.aspose.com/buy).
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

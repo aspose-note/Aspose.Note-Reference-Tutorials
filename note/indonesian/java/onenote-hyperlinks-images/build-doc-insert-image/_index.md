@@ -3,10 +3,16 @@ title: Buat Dokumen dan Sisipkan Gambar di OneNote menggunakan Java
 linktitle: Buat Dokumen dan Sisipkan Gambar di OneNote menggunakan Java
 second_title: Aspose.Catatan Java API
 description: Pelajari cara membuat dokumen OneNote dan menyisipkan gambar menggunakan Aspose.Note untuk Java. Tutorial langkah demi langkah untuk integrasi yang lancar.
-type: docs
 weight: 12
 url: /id/java/onenote-hyperlinks-images/build-doc-insert-image/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Buat Dokumen dan Sisipkan Gambar di OneNote menggunakan Java
+
 ## Perkenalan
 
 Dalam tutorial ini, kita akan mempelajari cara menggunakan Aspose.Note untuk Java untuk membuat dokumen OneNote dan menyisipkan gambar ke dalamnya. Aspose.Note adalah Java API canggih yang memungkinkan pengembang bekerja dengan file Microsoft OneNote secara terprogram. Kami akan menguraikan setiap langkah secara mendetail untuk memandu Anda melalui prosesnya.
@@ -119,3 +125,10 @@ Selamat! Anda telah berhasil mempelajari cara membuat dokumen OneNote dan menyis
 ### Q5: Bisakah saya mendapatkan lisensi sementara untuk Aspose.Note untuk Java?
 
  A5: Ya, Anda dapat meminta izin sementara[Di Sini](https://purchase.aspose.com/temporary-license/).
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

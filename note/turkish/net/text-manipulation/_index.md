@@ -3,10 +3,16 @@ title: Aspose.Note for .NET ile OneNote'ta Metin Düzenleme
 linktitle: Metin İşleme
 second_title: Aspose.Note .NET API'si
 description: OneNote belgelerinizi Aspose.Note for .NET ile dönüştürün! Madde işaretleri ve numaralandırma uygulamaktan stilleri değiştirmeye kadar metin işleme tekniklerini öğrenin.
-type: docs
 weight: 31
 url: /tr/net/text-manipulation/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Aspose.Note for .NET ile OneNote'ta Metin Düzenleme
+
 
 ## giriiş
 
@@ -110,3 +116,9 @@ Madde işareti veya sayı listelerini almaya yönelik adım adım kılavuzumuzla
 Varsayılan paragraf stillerini ayarlamaya ilişkin adım adım kılavuzumuzla Aspose.Note for .NET'in gücünü keşfedin. Belge işleme becerilerinizi zahmetsizce geliştirin.
 ### [Aspose.Note'ta Metin Yazım Denetleme Dilini Ayarlama](./set-proofing-language-text/)
 Aspose.Note for .NET ile güçlü metin manipülasyonunun kilidini açın. Adım adım rehberlikle yazım denetleme dilini zahmetsizce ayarlayın. .NET projelerinizi şimdi geliştirin!
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

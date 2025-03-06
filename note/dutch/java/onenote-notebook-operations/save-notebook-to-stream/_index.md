@@ -3,10 +3,16 @@ title: Bewaar Notebook om te streamen in OneNote - Aspose.Note
 linktitle: Bewaar Notebook om te streamen in OneNote - Aspose.Note
 second_title: Aspose.Note Java-API
 description: Leer hoe u notitieboekjes kunt opslaan in streams in OneNote met behulp van Aspose.Note voor Java. Verhoog de productiviteit met efficiënt notebookbeheer.
-type: docs
 weight: 26
 url: /nl/java/onenote-notebook-operations/save-notebook-to-stream/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Bewaar Notebook om te streamen in OneNote - Aspose.Note
+
 ## Invoering
 
 In deze zelfstudie begeleiden we u bij het proces van het opslaan van een notitieblok in een stream in OneNote met behulp van Aspose.Note voor Java. Door deze stappen te volgen, kunt u uw notebooks efficiënt programmatisch beheren.
@@ -88,3 +94,9 @@ A3: Absoluut! Aspose.Note voor Java biedt naadloze integratiemogelijkheden, waar
 ### V5: Is er een proefversie beschikbaar voor Aspose.Note voor Java?
 
  A5: Ja, u heeft toegang tot de proefversie[hier](https://releases.aspose.com/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -3,10 +3,16 @@ title: OneNote에서 충돌 페이지 조작 - Aspose.Note
 linktitle: OneNote에서 충돌 페이지 조작 - Aspose.Note
 second_title: Aspose.Note 자바 API
 description: Java용 Aspose.Note를 사용하여 OneNote에서 충돌 페이지를 효율적으로 관리하는 방법을 알아보세요. 단계별 지침을 통해 갈등을 원활하게 해결하세요.
-type: docs
 weight: 10
 url: /ko/java/onenote-page-manipulation/conflict-page-manipulation/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# OneNote에서 충돌 페이지 조작 - Aspose.Note
+
 ## 소개
 
 OneNote 사용자는 여러 사용자가 동일한 페이지를 동시에 편집할 때 종종 충돌이 발생합니다. 문서 무결성을 유지하려면 이러한 충돌을 효율적으로 해결하는 것이 중요합니다. Aspose.Note for Java는 충돌 페이지를 원활하게 관리할 수 있는 강력한 도구를 제공합니다. 이 튜토리얼에서는 Java용 Aspose.Note를 사용하여 충돌 페이지를 조작하는 방법을 살펴보겠습니다.
@@ -113,3 +119,9 @@ A4: 예, Aspose.Note for Java는 광범위한 사용자 정의 옵션을 제공�
 ### Q5: Java 사용자를 위한 Aspose.Note 커뮤니티 포럼이 있나요?
 
  A5: 물론이죠! 활발한 커뮤니티 포럼에 참여하세요.[Java 지원을 위한 Aspose.Note](https://forum.aspose.com/c/note/28)동료 사용자와 연결하고 전문가의 도움을 받으십시오.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

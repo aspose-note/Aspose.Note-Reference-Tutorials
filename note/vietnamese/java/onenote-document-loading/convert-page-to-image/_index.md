@@ -3,10 +3,16 @@ title: Chuyển đổi trang cụ thể thành hình ảnh trong OneNote bằng 
 linktitle: Chuyển đổi trang cụ thể thành hình ảnh trong OneNote bằng Java
 second_title: API Java Aspose.Note
 description: Tìm hiểu cách chuyển đổi một trang cụ thể thành hình ảnh trong OneNote bằng Java với Aspose.Note. Hãy làm theo hướng dẫn từng bước của chúng tôi để tích hợp liền mạch.
-type: docs
 weight: 12
 url: /vi/java/onenote-document-loading/convert-page-to-image/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Chuyển đổi trang cụ thể thành hình ảnh trong OneNote bằng Java
+
 ## Giới thiệu
 
 Trong hướng dẫn này, chúng tôi sẽ hướng dẫn bạn quy trình chuyển đổi một trang cụ thể thành hình ảnh trong OneNote bằng Java với Aspose.Note. Bằng cách làm theo các bước này, bạn sẽ có thể tích hợp liền mạch chức năng này vào các ứng dụng Java của mình.
@@ -101,3 +107,9 @@ Câu trả lời 4: Có, Aspose.Note cung cấp thư viện cho nhiều ngôn ng
 ### Câu hỏi 5: Tôi có thể tìm thêm hỗ trợ hoặc hỗ trợ ở đâu?
 
  Câu trả lời 5: Để được hỗ trợ hoặc trợ giúp thêm, bạn có thể truy cập[Diễn đàn Aspose.Note](https://forum.aspose.com/c/note/28) hoặc tham khảo tài liệu có sẵn[đây](https://reference.aspose.com/note/java/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

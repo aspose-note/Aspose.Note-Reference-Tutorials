@@ -3,10 +3,16 @@ title: 將 OneNote 文件轉換為映像 - Java
 linktitle: 將 OneNote 文件轉換為映像 - Java
 second_title: Aspose.Note Java API
 description: 學習使用 Aspose.Note for Java 將 OneNote 轉換為映像。按照簡單的步驟，載入文檔，初始化選項，然後另存為 PNG。
-type: docs
 weight: 14
 url: /zh-hant/java/onenote-document-loading/convert-to-image/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# 將 OneNote 文件轉換為映像 - Java
+
 ## 介紹
 
 在本教學中，我們將引導您完成使用 Aspose.Note for Java 將 OneNote 文件轉換為映像的過程。我們將把每個步驟分解為易於遵循的說明。
@@ -106,3 +112,9 @@ A4：是的，您可以使用Aspose.Note中的選項來調整解析度和其他�
 ### Q5：Aspose.Note 需要網路連線才能進行文件轉換嗎？
 
 A5：不需要，Aspose.Note 在本地運行，無需網路連線。
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

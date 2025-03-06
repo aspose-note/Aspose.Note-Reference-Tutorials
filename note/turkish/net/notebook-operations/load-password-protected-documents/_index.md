@@ -3,10 +3,16 @@ title: Parola Korumalı Belgeleri Aspose Note .NET'e Yükleme
 linktitle: Parola Korumalı Belgeleri Aspose Note .NET'e Yükleme
 second_title: Aspose.Note .NET API'si
 description: Basit adımları kullanarak şifre korumalı belgeleri Aspose Note .NET'e güvenli bir şekilde nasıl yükleyeceğinizi öğrenin. Şifrelemeyle veri gizliliğini sağlayın.
-type: docs
 weight: 22
 url: /tr/net/notebook-operations/load-password-protected-documents/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Parola Korumalı Belgeleri Aspose Note .NET'e Yükleme
+
 ## giriiş
 
 Aspose.Note for .NET, geliştiricilerin Microsoft OneNote dosyalarıyla programlı olarak çalışmasını sağlayan güçlü bir API'dir. Bu eğitimde Aspose.Note for .NET kullanarak şifre korumalı belgelerin nasıl yükleneceğini öğreneceğiz.
@@ -77,3 +83,9 @@ Cevap4: Evet, Aspose.Note for .NET'i kullanarak bir dizüstü bilgisayardaki far
 ### S5: Aspose.Note for .NET'in deneme sürümü mevcut mu?
 
  Cevap5: Evet, Aspose.Note for .NET'in ücretsiz deneme sürümüne şu adresten erişebilirsiniz:[Burada](https://releases.aspose.com/)Bir satın alma işlemi yapmadan önce özelliklerini keşfetmenize olanak tanır.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

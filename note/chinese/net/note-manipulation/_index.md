@@ -3,10 +3,16 @@ title: 掌握 OneNote 与 Aspose.Note for .NET 的集成
 linktitle: 音符处理
 second_title: Aspose.Note .NET API
 description: 通过我们以 OneNote 为中心的教程来释放 Aspose.Note for .NET 的强大功能。解决冲突、创建动态文档并探索高效的页面操作。
-type: docs
 weight: 27
 url: /zh/net/note-manipulation/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# 掌握 OneNote 与 Aspose.Note for .NET 的集成
+
 
 ## 介绍
 
@@ -69,3 +75,9 @@ OneNote 中的效率与文档克隆的结合！掌握使用 Aspose.Note for .NET
 通过分步指南了解如何使用 C# 编程语言在 Aspose.Note 文档中设置页面背景颜色。
 ### [使用页面修订 - Aspose.Note 提示](./working-with-page-revisions/)
 了解如何使用 Aspose.Note 管理 Microsoft OneNote 页面修订。 .NET 应用程序中无缝集成和版本控制的分步指南。
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

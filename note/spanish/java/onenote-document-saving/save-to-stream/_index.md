@@ -3,10 +3,16 @@ title: Guardar en secuencia en OneNote - Aspose.Note
 linktitle: Guardar en secuencia en OneNote - Aspose.Note
 second_title: Aspose.Nota Java API
 description: Aprenda cómo guardar documentos de OneNote en una secuencia en Java usando Aspose.Note. Integre sin esfuerzo esta funcionalidad en sus aplicaciones.
-type: docs
 weight: 20
 url: /es/java/onenote-document-saving/save-to-stream/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Guardar en secuencia en OneNote - Aspose.Note
+
 ## Introducción
 
 En este tutorial, profundizaremos en el uso de Aspose.Note para Java, una potente biblioteca para trabajar con documentos de Microsoft OneNote mediante programación. Específicamente, nos centraremos en el proceso de guardar documentos de OneNote en una secuencia. Si sigue los pasos descritos en esta guía, podrá manipular de manera eficiente archivos OneNote dentro de sus aplicaciones Java.
@@ -95,3 +101,9 @@ R4: Puede encontrar documentación, foros y soporte para Aspose.Note para Java e
 ### P5: ¿Puedo probar Aspose.Note para Java antes de comprarlo?
 
  R5: Sí, puede obtener una prueba gratuita de Aspose.Note para Java desde el[Aspose sitio web](https://releases.aspose.com/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

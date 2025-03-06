@@ -3,10 +3,16 @@ title: OneNote Java-integratie
 linktitle: OneNote Java-integratie
 second_title: Aspose.Note Java-API
 description: Verbeter uw OneNote-ervaring met Aspose.Note Java! Ontdek tutorials over het bijvoegen van bestanden, het instellen van pictogrammen en het programmatisch ophalen van bijlagen met Java.
-type: docs
 weight: 20
 url: /nl/java/onenote-java-integration/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# OneNote Java-integratie
+
 ## Invoering
 
 Welkom bij onze uitgebreide handleiding over het integreren van OneNote met Java met behulp van Aspose.Note. Of u nu een doorgewinterde ontwikkelaar bent of net begint, met deze zelfstudies kunt u uw OneNote-mogelijkheden programmatisch maximaliseren.
@@ -36,3 +42,9 @@ Leer hoe u bestanden bijvoegt en pictogrammen in OneNote instelt met behulp van 
 Leer hoe u programmatisch bestanden aan uw OneNote-notities kunt toevoegen met behulp van Java met Aspose.Note.
 ### [Bijlage ophalen uit OneNote met Java](./retrieve-attachment/)
 Leer hoe u bijlagen uit OneNote kunt ophalen met Java met Aspose.Note, een krachtige API voor naadloze documentmanipulatie.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -3,10 +3,16 @@ title: Générer un modèle pour les notes de réunion dans OneNote - Aspose.Not
 linktitle: Générer un modèle pour les notes de réunion dans OneNote - Aspose.Note
 second_title: API Java Aspose.Note
 description: Améliorez la collaboration avec Aspose.Note pour Java ! Découvrez comment créer des modèles de notes de réunion dynamiques, étape par étape. Téléchargez la bibliothèque maintenant !
-type: docs
 weight: 14
 url: /fr/java/onenote-tag-operations/generate-template-for-meeting-notes/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Générer un modèle pour les notes de réunion dans OneNote - Aspose.Note
+
 ## Introduction
 Dans le monde en évolution rapide d'aujourd'hui, une organisation et une documentation efficaces des réunions sont essentielles à une collaboration réussie. Aspose.Note pour Java fournit une solution puissante pour générer des modèles de notes de réunion dans OneNote. Dans ce guide étape par étape, nous explorerons comment utiliser Aspose.Note pour créer un modèle qui capture l'essence de vos réunions, facilitant ainsi la prise de notes.
 ## Conditions préalables
@@ -105,3 +111,9 @@ Vous pouvez facilement étendre la structure du plan en suivant le même modèle
  Se référer au[Documentation Aspose.Note](https://reference.aspose.com/note/java/) pour les détails de la licence.
 ### Existe-t-il une version d’essai disponible pour Aspose.Note ?
  Oui, vous pouvez accéder au[essai gratuit ici](https://releases.aspose.com/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

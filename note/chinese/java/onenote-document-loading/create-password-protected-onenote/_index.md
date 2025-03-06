@@ -3,10 +3,16 @@ title: 创建受密码保护的 OneNote 文档 - Java
 linktitle: 创建受密码保护的 OneNote 文档 - Java
 second_title: Aspose.Note Java API
 description: 学习使用 Aspose.Note 在 Java 中创建受密码保护的 OneNote 文档。按照分步教程增强安全性。
-type: docs
 weight: 19
 url: /zh/java/onenote-document-loading/create-password-protected-onenote/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# 创建受密码保护的 OneNote 文档 - Java
+
 ## 介绍
 
 在本教程中，我们将在 Aspose.Note 的帮助下深入研究使用 Java 创建受密码保护的 OneNote 文档的过程。处理敏感信息时，安全性至关重要，密码保护提供了有效的防御层，防止未经授权的访问。我们将指导您完成每个步骤，确保您可以将这一重要的安全功能无缝地实现到您的 Java 应用程序中。
@@ -80,3 +86,9 @@ A4：是的，Aspose.Note 提供对各种加密算法的支持，以满足您的
 ### Q5：Aspose.Note适合企业级应用吗？
 
 A5：当然，Aspose.Note 旨在满足企业级应用程序的需求，提供强大的安全功能和可靠的性能。
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

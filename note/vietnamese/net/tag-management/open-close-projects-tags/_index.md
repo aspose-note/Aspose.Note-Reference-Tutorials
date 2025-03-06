@@ -3,10 +3,16 @@ title: Mở và đóng dự án bằng thẻ trong Aspose.Note
 linktitle: Mở và đóng dự án bằng thẻ trong Aspose.Note
 second_title: Aspose.Note .NET API
 description: Tìm hiểu cách thao tác với các tệp Microsoft OneNote theo chương trình bằng Aspose.Note for .NET. Mở và đóng dự án bằng thẻ một cách hiệu quả.
-type: docs
 weight: 15
 url: /vi/net/tag-management/open-close-projects-tags/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Mở và đóng dự án bằng thẻ trong Aspose.Note
+
 ## Giới thiệu
 
 Trong hướng dẫn này, chúng ta sẽ tìm hiểu cách sử dụng Aspose.Note cho .NET để mở và đóng các dự án bằng thẻ. Aspose.Note là một API mạnh mẽ cho phép các nhà phát triển làm việc với các tệp Microsoft OneNote theo chương trình, cho phép thực hiện các tác vụ như thao tác văn bản, hình ảnh và thẻ trong tài liệu.
@@ -112,3 +118,9 @@ Trả lời 1: Aspose.Note hỗ trợ Microsoft OneNote 2010 và các phiên b�
 ### Câu hỏi 5: Tôi có thể nhận hỗ trợ cho Aspose.Note ở đâu?
 
  Câu trả lời 5: Để được hỗ trợ, bạn có thể truy cập Aspose.Note[diễn đàn](https://forum.aspose.com/c/note/28).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

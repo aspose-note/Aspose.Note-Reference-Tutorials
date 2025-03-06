@@ -3,10 +3,16 @@ title: Java を使用して OneNote ドキュメントから画像を抽出す�
 linktitle: Java を使用して OneNote ドキュメントから画像を抽出する
 second_title: Aspose.Note Java API
 description: Java と Aspose.Note ライブラリを使用して OneNote ドキュメントから画像を抽出する方法を学びます。シームレスな画像抽出については、ステップバイステップのガイドに従ってください。
-type: docs
 weight: 14
 url: /ja/java/onenote-hyperlinks-images/extract-images/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Java を使用して OneNote ドキュメントから画像を抽出する
+
 ## 導入
 
 このチュートリアルでは、Aspose.Note ライブラリを利用して Java を使用して OneNote ドキュメントから画像を抽出するプロセスを説明します。
@@ -89,3 +95,9 @@ A4: Aspose.Note はさまざまなサイズのドキュメントを効率的に�
 ### Q5: Aspose.Note は、画像以外の他の種類のコンテンツの抽出をサポートしていますか?
 
 A5: はい。Aspose.Note では、画像のほかに、OneNote ドキュメントからテキスト、添付ファイル、その他のコンテンツ タイプを抽出できます。
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

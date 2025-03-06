@@ -3,10 +3,16 @@ title: Save to Binary Image Using Fixed Threshold in OneNote
 linktitle: Save to Binary Image Using Fixed Threshold in OneNote
 second_title: Aspose.Note Java API
 description: Effortlessly save Microsoft OneNote documents as binary images using fixed threshold with Aspose.Note Java. Elevate your OneNote file manipulation capabilities.
-type: docs
 weight: 14
 url: /java/onenote-document-saving/save-to-binary-image-using-fixed-threshold/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Save to Binary Image Using Fixed Threshold in OneNote
+
 ## Introduction
 
 Aspose.Note for Java is a powerful API that allows developers to work with Microsoft OneNote files programmatically. In this tutorial, we will explore how to save a document as a binary image using a fixed threshold. Follow the steps below to achieve this.
@@ -91,3 +97,10 @@ A4: Yes, you can batch process multiple OneNote documents by iterating over each
 ### Q5: Is technical support available for Aspose.Note for Java?
 
 A5: Yes, technical support is available through the [Aspose.Note forum](https://forum.aspose.com/c/note/28), where you can ask questions and seek assistance from experts.
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

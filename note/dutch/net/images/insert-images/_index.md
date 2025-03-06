@@ -3,10 +3,16 @@ title: Afbeeldingen invoegen in Aspose.Note-documenten
 linktitle: Afbeeldingen invoegen in Aspose.Note-documenten
 second_title: Aspose.Note .NET API
 description: Leer hoe u naadloos afbeeldingen in Aspose.Note-documenten kunt invoegen met behulp van .NET voor verbeterde visuele inhoud. Volg onze stapsgewijze handleiding voor eenvoudige integratie.
-type: docs
 weight: 16
 url: /nl/net/images/insert-images/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Afbeeldingen invoegen in Aspose.Note-documenten
+
 ## Invoering
 
 Het toevoegen van afbeeldingen aan uw Aspose.Note-documenten kan hun visuele aantrekkingskracht en bruikbaarheid aanzienlijk vergroten. Of u nu notities, presentaties of een ander document maakt, het integreren van afbeeldingen kan uw inhoud context en duidelijkheid geven. In deze zelfstudie begeleiden we u bij het proces van het invoegen van afbeeldingen in uw Aspose.Note-documenten met behulp van .NET.
@@ -89,3 +95,9 @@ A4: Zeker! Met Aspose.Note kunt u zoveel afbeeldingen op één pagina invoegen a
 ### Vraag 5: Is er een limiet aan de bestandsgrootte van afbeeldingen die kunnen worden ingevoegd?
 
 A5: Aspose.Note legt geen strikte beperkingen op aan de bestandsgrootte van afbeeldingen, maar het wordt aanbevolen om afbeeldingen te optimaliseren voor betere prestaties.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -3,10 +3,16 @@ title: Aspose.Note में टैग के साथ प्रोजेक्
 linktitle: Aspose.Note में टैग के साथ प्रोजेक्ट खोलें और बंद करें
 second_title: Aspose.Note .NET API
 description: .NET के लिए Aspose.Note का उपयोग करके प्रोग्रामेटिक रूप से Microsoft OneNote फ़ाइलों में हेरफेर करना सीखें। टैग के साथ कुशलतापूर्वक प्रोजेक्ट खोलें और बंद करें।
-type: docs
 weight: 15
 url: /hi/net/tag-management/open-close-projects-tags/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Aspose.Note में टैग के साथ प्रोजेक्ट खोलें और बंद करें
+
 ## परिचय
 
 इस ट्यूटोरियल में, हम सीखेंगे कि टैग के साथ प्रोजेक्ट खोलने और बंद करने के लिए .NET के लिए Aspose.Note का उपयोग कैसे करें। Aspose.Note एक शक्तिशाली एपीआई है जो डेवलपर्स को Microsoft OneNote फ़ाइलों के साथ प्रोग्रामेटिक रूप से काम करने की अनुमति देता है, जिससे दस्तावेज़ों के भीतर टेक्स्ट, छवियों और टैग में हेरफेर करने जैसे कार्यों को सक्षम किया जा सकता है।
@@ -112,3 +118,9 @@ A1: Aspose.Note Microsoft OneNote 2010 और नए संस्करणों
 ### Q5: मुझे Aspose.Note के लिए समर्थन कहाँ से मिल सकता है?
 
  A5: समर्थन के लिए, आप Aspose.Note पर जा सकते हैं[मंच](https://forum.aspose.com/c/note/28).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -3,10 +3,16 @@ title: Guardar en imagen binaria en Aspose.Note
 linktitle: Guardar en imagen binaria en Aspose.Note
 second_title: Aspose.Nota .NET API
 description: Aprenda cómo convertir documentos a imágenes binarias usando Aspose.Note para .NET. Siga nuestra guía paso a paso para una integración perfecta.
-type: docs
 weight: 22
 url: /es/net/loading-and-saving-operations/save-to-binary-image/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Guardar en imagen binaria en Aspose.Note
+
 ## Introducción
 
 En este tutorial, exploraremos cómo guardar un documento en una imagen binaria usando Aspose.Note para .NET. Este proceso implica convertir un documento en una imagen en blanco y negro con un umbral fijo, lo que puede resultar útil para diversas aplicaciones.
@@ -97,3 +103,9 @@ R4: Sí, puede recorrer varios documentos y guardarlos como imágenes binarias u
 ### P5: ¿Dónde puedo encontrar más recursos y soporte para Aspose.Note?
 
  A5: Puedes explorar el[Documentación de Aspose.Note](https://reference.aspose.com/note/net/) buscar ayuda del[Foro Aspose.Note](https://forum.aspose.com/c/note/28) para cualquier consulta o problema.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

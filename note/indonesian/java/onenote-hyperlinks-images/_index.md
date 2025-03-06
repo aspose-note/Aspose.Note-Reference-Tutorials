@@ -3,10 +3,16 @@ title: Hyperlink dan Gambar OneNote
 linktitle: Hyperlink dan Gambar OneNote
 second_title: Aspose.Catatan Java API
 description: Tingkatkan pengalaman OneNote Anda dengan tutorial Aspose.Note untuk Java. Pelajari cara menambahkan hyperlink, menyisipkan gambar, dan mengekstrak informasi gambar secara lancar dengan pengembangan Java.
-type: docs
 weight: 22
 url: /id/java/onenote-hyperlinks-images/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Hyperlink dan Gambar OneNote
+
 
 ## Perkenalan
 
@@ -48,3 +54,9 @@ Pelajari cara mengekstrak gambar dari dokumen OneNote menggunakan Java dengan pu
 Pelajari cara mengekstrak info gambar dari dokumen OneNote menggunakan Java dengan Aspose.Note. Langkah mudah bagi pengembang.
 ### [Sisipkan Gambar di Dokumen OneNote dengan Java](./insert-image/)
 Pelajari cara menyisipkan gambar ke dalam dokumen OneNote menggunakan Java dengan pustaka Aspose.Note untuk Java. Ikuti panduan langkah demi langkah kami untuk integrasi yang lancar.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

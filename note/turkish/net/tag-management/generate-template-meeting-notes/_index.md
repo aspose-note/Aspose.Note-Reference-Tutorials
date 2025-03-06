@@ -3,10 +3,16 @@ title: Aspose.Note ile Toplantı Notları için Şablon Oluşturun
 linktitle: Aspose.Note ile Toplantı Notları için Şablon Oluşturun
 second_title: Aspose.Note .NET API'si
 description: Aspose.Note for .NET kullanarak yapılandırılmış toplantı notlarının nasıl oluşturulacağını öğrenin. Bu eğitimde kod örnekleri içeren adım adım bir kılavuz sağlanmaktadır.
-type: docs
 weight: 13
 url: /tr/net/tag-management/generate-template-meeting-notes/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Aspose.Note ile Toplantı Notları için Şablon Oluşturun
+
 ## giriiş
 
 Bu eğitimde Aspose.Note for .NET'i kullanarak toplantı notları için şablon oluşturma sürecini anlatacağız. Bu kitaplık, OneNote belgelerini program aracılığıyla oluşturmak, düzenlemek ve değiştirmek için güçlü araçlar sağlar.
@@ -126,3 +132,9 @@ Cevap4: Evet, Aspose.Note for .NET, OneNote (*.one) ve PDF.
 
  C5: Evet, ücretsiz deneme sürümünü şuradan indirebilirsiniz:[bu bağlantı](https://releases.aspose.com/).
    
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

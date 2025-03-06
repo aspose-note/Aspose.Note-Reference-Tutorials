@@ -3,10 +3,16 @@ title: Dapatkan Info Gambar dari OneNote menggunakan Java
 linktitle: Dapatkan Info Gambar dari OneNote menggunakan Java
 second_title: Aspose.Catatan Java API
 description: Ekstrak info gambar dari dokumen OneNote di Java! Dapatkan dimensi gambar, nama file, & lainnya. Langkah mudah & contoh kode disertakan. #OneNote #Java #Aspose
-type: docs
 weight: 15
 url: /id/java/onenote-hyperlinks-images/get-image-info/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Dapatkan Info Gambar dari OneNote menggunakan Java
+
 ## Perkenalan
 
 Dalam bidang pengembangan Java, mengekstraksi informasi dari berbagai format dokumen adalah tugas yang umum. OneNote, platform populer untuk membuat catatan, sering kali berisi gambar di samping teks. Mengambil informasi gambar secara terprogram dari file OneNote menggunakan Java dapat menyederhanakan alur kerja pemrosesan dokumen. Dalam tutorial ini, kita akan mempelajari cara mengekstrak detail gambar dari dokumen OneNote menggunakan Aspose.Note untuk Java.
@@ -113,3 +119,9 @@ A2: Ya, Anda dapat menggunakan Aspose.Note untuk Java untuk tujuan pribadi dan k
 ### Q5: Bagaimana cara mendapatkan lisensi sementara Aspose.Note untuk Java?
  
  A5: Anda dapat memperoleh lisensi sementara dari[Izin sementara/](https://purchase.aspose.com/temporary-license/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

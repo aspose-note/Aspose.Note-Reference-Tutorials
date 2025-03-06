@@ -3,10 +3,16 @@ title: Obtenha propriedades de lista no OneNote - Aspose.Note
 linktitle: Obtenha propriedades de lista no OneNote - Aspose.Note
 second_title: API Java Aspose.Note
 description: Explore o Aspose.Note para Java e recupere facilmente propriedades de lista em documentos do OneNote. Aprimore o processamento de documentos com esta poderosa biblioteca Java.
-type: docs
 weight: 19
 url: /pt/java/onenote-text-manipulation/get-list-properties/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Obtenha propriedades de lista no OneNote - Aspose.Note
+
 ## Introdução
 Bem-vindo a este tutorial abrangente sobre como aproveitar o Aspose.Note para Java para recuperar e analisar propriedades de lista em documentos do OneNote. Quer você seja um desenvolvedor experiente ou esteja apenas começando com o Aspose.Note, este guia irá orientá-lo durante o processo, detalhando cada etapa para garantir um entendimento claro.
 ## Pré-requisitos
@@ -95,3 +101,9 @@ Sim, você pode modificar o código para atender às suas necessidades e recuper
  Sim, você pode obter uma licença temporária[aqui](https://purchase.aspose.com/temporary-license/) para fins de teste.
 ### E se eu quiser comprar o Aspose.Note para Java?
  Você pode adquirir o produto[aqui](https://purchase.aspose.com/buy)para desbloquear todo o seu potencial para seus projetos.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

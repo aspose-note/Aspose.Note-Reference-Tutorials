@@ -3,10 +3,16 @@ title: الحفظ باستخدام الخطوط المحددة في Aspose.Note
 linktitle: الحفظ باستخدام الخطوط المحددة في Aspose.Note
 second_title: Aspose.Note .NET API
 description: تعرف على كيفية حفظ المستندات بخطوط محددة في Aspose.Note لـ .NET. قم بتخصيص إعدادات الخط بسهولة للحصول على تنسيق ثابت للمستندات.
-type: docs
 weight: 28
 url: /ar/net/loading-and-saving-operations/save-using-specified-fonts/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# الحفظ باستخدام الخطوط المحددة في Aspose.Note
+
 ## مقدمة
 
 في هذا البرنامج التعليمي، سوف نتعلم كيفية حفظ المستندات باستخدام خطوط محددة في Aspose.Note لـ .NET. سنستكشف طرقًا مختلفة لتحقيق ذلك، خطوة بخطوة.
@@ -131,3 +137,9 @@ A1: نعم، يمكنك تحديد أي خط لحفظ المستندات. فقط
 ### س5: أين يمكنني الحصول على المزيد من المساعدة فيما يتعلق بـ Aspose.Note؟
 
  ج5: لمزيد من المساعدة أو الدعم الفني، يمكنك زيارة[منتدى Aspose.Note](https://forum.aspose.com/c/note/28).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -3,10 +3,16 @@ title: Insérer des images dans des documents Aspose.Note
 linktitle: Insérer des images dans des documents Aspose.Note
 second_title: API Aspose.Note .NET
 description: Découvrez comment insérer de manière transparente des images dans des documents Aspose.Note à l'aide de .NET pour un contenu visuel amélioré. Suivez notre guide étape par étape pour une intégration facile.
-type: docs
 weight: 16
 url: /fr/net/images/insert-images/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Insérer des images dans des documents Aspose.Note
+
 ## Introduction
 
 L'ajout d'images à vos documents Aspose.Note peut grandement améliorer leur attrait visuel et leur utilité. Que vous créiez des notes, des présentations ou tout autre document, l'intégration d'images peut fournir du contexte et de la clarté à votre contenu. Dans ce didacticiel, nous vous guiderons tout au long du processus d'insertion d'images dans vos documents Aspose.Note à l'aide de .NET.
@@ -89,3 +95,9 @@ A4 : Certainement ! Vous pouvez insérer autant d'images que nécessaire sur une
 ### Q5 : Y a-t-il une limite à la taille du fichier des images pouvant être insérées ?
 
 A5 : Aspose.Note n'impose pas de limitations strictes sur la taille des fichiers image, mais il est recommandé d'optimiser les images pour de meilleures performances.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

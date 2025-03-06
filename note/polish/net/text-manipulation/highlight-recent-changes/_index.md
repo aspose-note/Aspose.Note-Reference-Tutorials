@@ -3,10 +3,16 @@ title: Podświetl wszystkie ostatnie zmiany w tekście Aspose.Note
 linktitle: Podświetl wszystkie ostatnie zmiany w tekście Aspose.Note
 second_title: Aspose.Note .NET API
 description: Ulepsz swoje dokumenty Note dzięki Aspose.Note dla .NET! Z tego samouczka krok po kroku dowiesz się, jak wyróżnić ostatnie zmiany w tekście.
-type: docs
 weight: 19
 url: /pl/net/text-manipulation/highlight-recent-changes/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Podświetl wszystkie ostatnie zmiany w tekście Aspose.Note
+
 ## Wstęp
 Czy chcesz dodać dynamiczne i atrakcyjne wizualnie funkcje do swoich dokumentów Note przy użyciu platformy .NET? Aspose.Note dla .NET to potężne rozwiązanie, które pozwala na płynne manipulowanie i ulepszanie plików Note. W tym samouczku zajmiemy się jednym konkretnym aspektem: podświetlaniem wszystkich ostatnich zmian w tekście Aspose.Note.
 ## Warunki wstępne
@@ -70,3 +76,9 @@ Możesz włączyć bloki try-catch, aby obsługiwać wyjątki i zapewnić płynn
 Absolutnie! Aspose.Note zapewnia szeroką gamę funkcji formatowania tekstu, w tym style czcionek, rozmiary i inne.
 ### Czy mogę zintegrować to rozwiązanie z aplikacją webową?
 Tak, możesz zintegrować Aspose.Note dla .NET z aplikacjami internetowymi, aby zwiększyć możliwości przetwarzania dokumentów.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

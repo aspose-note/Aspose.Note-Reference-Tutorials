@@ -3,10 +3,16 @@ title: Anexar arquivo e definir ícone em Aspose.Note
 linktitle: Anexar arquivo e definir ícone em Aspose.Note
 second_title: API Aspose.Note .NET
 description: Aprenda como anexar arquivos e definir ícones no Aspose.Note for .NET. Aprimore seus aplicativos .NET com este tutorial passo a passo.
-type: docs
 weight: 10
 url: /pt/net/attachments/attach-file-set-icon/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Anexar arquivo e definir ícone em Aspose.Note
+
 ## Introdução
 
 No domínio do desenvolvimento .NET, Aspose.Note se destaca como uma ferramenta poderosa para manipular documentos do Microsoft OneNote de forma programática. Aproveitando seus recursos, os desenvolvedores podem automatizar diversas tarefas relacionadas à criação, edição e gerenciamento de arquivos do OneNote em seus aplicativos. Um recurso essencial é a capacidade de anexar arquivos a notas e definir ícones para esses anexos. Neste tutorial, nos aprofundaremos no processo de anexar um arquivo e definir um ícone usando Aspose.Note for .NET.
@@ -125,3 +131,9 @@ A4: Aspose.Note lida principalmente com arquivos armazenados localmente ou acess
 ### Q5: Existe um limite de tamanho para anexos de arquivo no Aspose.Note for .NET?
 
 R5: Aspose.Note não impõe limites de tamanho específicos para anexos de arquivos, mas limitações práticas podem ser aplicadas com base nos recursos do sistema e em considerações de desempenho.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

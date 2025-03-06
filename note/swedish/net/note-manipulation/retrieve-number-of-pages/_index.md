@@ -3,10 +3,16 @@ title: Hämta antal sidor i Aspose.Note-dokument
 linktitle: Hämta antal sidor i Aspose.Note-dokument
 second_title: Aspose.Note .NET API
 description: Lär dig hur du räknar sidorna i ditt Aspose.Note-dokument med C#. Följ vår steg-för-steg-guide för enkel integration.
-type: docs
 weight: 12
 url: /sv/net/note-manipulation/retrieve-number-of-pages/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Hämta antal sidor i Aspose.Note-dokument
+
 ## Introduktion
 
 Aspose.Note för .NET är ett kraftfullt bibliotek som låter utvecklare arbeta med Microsoft OneNote-filer programmatiskt. Oavsett om du behöver skapa, manipulera eller konvertera OneNote-dokument, erbjuder Aspose.Note omfattande funktionalitet för att effektivisera dina uppgifter. I den här handledningen kommer vi att fördjupa oss i en av de väsentliga operationerna: att hämta antalet sidor i ett Aspose.Note-dokument med C#.
@@ -100,3 +106,9 @@ S2: Absolut, Aspose.Note stöder konvertering till olika format inklusive PDF, H
 ### F5: Hur kan jag få teknisk support för Aspose.Note?
 
  S5: Du kan söka hjälp och engagera dig i samhället[Aspose.Note supportforum](https://forum.aspose.com/c/note/28).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

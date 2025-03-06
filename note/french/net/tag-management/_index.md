@@ -3,10 +3,16 @@ title: Aspose.Note pour les didacticiels de gestion des balises .NET
 linktitle: Gestion des balises
 second_title: API Aspose.Note .NET
 description: Maîtrisez Aspose.Note avec gestion des balises. Ajoutez des images, des tableaux, des nœuds de texte et générez des notes de réunion. Récupérez les détails des balises et améliorez la manipulation des documents.
-type: docs
 weight: 30
 url: /fr/net/tag-management/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Aspose.Note pour les didacticiels de gestion des balises .NET
+
 
 ## Introduction
 
@@ -49,3 +55,9 @@ Découvrez comment récupérer les détails des balises à partir de documents A
 Découvrez comment manipuler les fichiers Microsoft OneNote par programme à l'aide d'Aspose.Note pour .NET. Ouvrez et fermez efficacement des projets avec des balises.
 ### [Création de rapports avec des balises dans Aspose.Note](./reporting-tags/)
 Découvrez comment générer des rapports perspicaces à partir de documents numériques à l'aide d'Aspose.Note pour .NET. Guide étape par étape fourni.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

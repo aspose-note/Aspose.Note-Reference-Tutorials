@@ -3,10 +3,16 @@ title: Aspose.Note'ta Kullanıcıyı Kaydeden Geri Aramalar
 linktitle: Aspose.Note'ta Kullanıcıyı Kaydeden Geri Aramalar
 second_title: Aspose.Note .NET API'si
 description: Yazı tiplerini, CSS'leri ve görüntüleri kaydetmeyi özelleştirmek için Aspose.Note for .NET'te kullanıcı tasarrufu sağlayan geri aramaları nasıl uygulayacağınızı öğrenin.
-type: docs
 weight: 31
 url: /tr/net/loading-and-saving-operations/user-saving-callbacks/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Aspose.Note'ta Kullanıcıyı Kaydeden Geri Aramalar
+
 ## giriiş
 
 Bu eğitimde, Aspose.Note for .NET'te kullanıcı tasarrufu sağlayan geri aramaların nasıl uygulanacağını inceleyeceğiz. Bu geri aramalar, yazı tiplerini, CSS stil sayfalarını ve görüntüleri kaydetme gibi farklı aşamalarda müdahale edecek kancalar sağlayarak kaydetme sürecini özelleştirmenize olanak tanır. Bu geri aramaları kullanarak, kaydetme davranışını özel gereksinimlerinize uyacak şekilde uyarlayabilir, çıktı üzerindeki esnekliği ve kontrolü artırabilirsiniz.
@@ -118,3 +124,9 @@ Cevap4: Bu geri aramalar esneklik sunarken, özellikle büyük belgeler veya kay
 ### S5: Kullanıcı girişine veya diğer koşullara göre kaydetme davranışını dinamik olarak değiştirebilir miyim?
 
 C5: Evet, kaydetme davranışını çeşitli faktörlere göre dinamik olarak ayarlamak için geri çağırma yöntemlerine koşullu mantığı dahil edebilirsiniz.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -3,10 +3,16 @@ title: OneNote でドキュメントを作成し、ストリームを使用し�
 linktitle: OneNote でドキュメントを作成し、ストリームを使用して画像を挿入する - Java
 second_title: Aspose.Note Java API
 description: Aspose.Note for Java を使用して画像を OneNote ドキュメントに簡単に統合する方法を学びます。 Java 開発者向けのステップバイステップのチュートリアル。
-type: docs
 weight: 13
 url: /ja/java/onenote-hyperlinks-images/build-doc-insert-image-stream/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# OneNote でドキュメントを作成し、ストリームを使用して画像を挿入する - Java
+
 ## 導入
 
 Aspose.Note for Java を使用してドキュメントを作成し、OneNote の画像ストリームを使用して画像を挿入するための包括的なチュートリアルへようこそ。このチュートリアルでは、プロセスを段階的に説明し、各段階を明確に理解できるようにします。最終的には、Java を使用して画像を OneNote ドキュメントに簡単に統合できるようになります。
@@ -180,3 +186,10 @@ A4: 提供されているリンクから、Aspose.Note for Java のドキュメ�
 ### Q5: Aspose.Note for Java の試用版はありますか?
 
 A5: はい、購入を決定する前に、Aspose.Note for Java の無料トライアル版を入手して、その機能を調べることができます。
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

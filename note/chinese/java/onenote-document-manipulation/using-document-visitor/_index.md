@@ -3,10 +3,16 @@ title: 通过 Java 在 OneNote 中使用文档访问器
 linktitle: 通过 Java 在 OneNote 中使用文档访问器
 second_title: Aspose.Note Java API
 description: 了解如何使用 Java 和 Aspose.Note 在 OneNote 中使用文档访问器。无缝遍历和操作 OneNote 文档。
-type: docs
 weight: 10
 url: /zh/java/onenote-document-manipulation/using-document-visitor/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# 通过 Java 在 OneNote 中使用文档访问器
+
 ## 介绍
 
 在本教程中，我们将探讨如何使用 Java 和 Aspose.Note 在 OneNote 中使用文档访问器。文档访问者允许遍历 OneNote 文档的元素并对它们执行操作。我们将逐步指导您完成整个过程。
@@ -95,3 +101,9 @@ A1：是的，Aspose.Note支持各种编程语言，包括.NET、C++、Python等
 ### Q5：Aspose.Note 有可用的文档吗？
 
  A5：是的，您可以找到文档[这里](https://reference.aspose.com/note/java/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

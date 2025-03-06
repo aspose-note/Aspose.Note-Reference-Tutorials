@@ -3,10 +3,16 @@ title: Aspose.Note를 사용한 종량제 라이선스
 linktitle: Aspose.Note를 사용한 종량제 라이선스
 second_title: Aspose.Note .NET API
 description: 측정된 라이선스를 통해 .NET용 Aspose.Note로 소프트웨어 라이선스를 효율적으로 관리하는 방법을 알아보세요. 리소스 사용을 최적화하고 비용을 효과적으로 제어합니다.
-type: docs
 weight: 13
 url: /ko/net/licensing/metered-licensing/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Aspose.Note를 사용한 종량제 라이선스
+
 ## 소개
 
 소프트웨어 개발 영역에서는 특히 Aspose.Note for .NET과 같은 제품을 다룰 때 라이선스를 효율적으로 관리하는 것이 중요합니다. 계량형 라이선스는 개발자에게 소프트웨어 사용에 대한 더 큰 유연성과 제어권을 제공하여 리소스 소비를 효과적으로 모니터링하고 관리할 수 있는 방법입니다. 이 튜토리얼에서는 .NET용 Aspose.Note를 사용하여 계량 라이선스의 복잡성을 조사하고 포괄적인 이해를 보장하기 위해 각 단계를 세분화합니다.
@@ -89,3 +95,9 @@ A4: 계량형 라이선스에는 소프트웨어 공급업체가 제공하는 �
 ### Q5: 계량형 라이선스가 모든 유형의 소프트웨어 애플리케이션에 적합합니까?
 
 A5: 계량형 라이선스는 많은 소프트웨어 응용 프로그램에 유용할 수 있지만 적합성은 사용 패턴 및 비용 고려 사항과 같은 요소에 따라 달라집니다.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

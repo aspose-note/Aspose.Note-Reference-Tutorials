@@ -3,10 +3,16 @@ title: Sao chép trang hiệu quả với Aspose.Note
 linktitle: Sao chép trang hiệu quả với Aspose.Note
 second_title: Aspose.Note .NET API
 description: Tìm hiểu cách sao chép các trang trong tài liệu OneNote một cách hiệu quả bằng Aspose.Note for .NET. Hãy làm theo hướng dẫn từng bước của chúng tôi để dễ dàng thực hiện.
-type: docs
 weight: 16
 url: /vi/net/note-manipulation/efficient-page-cloning/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Sao chép trang hiệu quả với Aspose.Note
+
 ## Giới thiệu
 
 Trong hướng dẫn này, chúng ta sẽ khám phá cách sao chép các trang một cách hiệu quả bằng Aspose.Note cho .NET. Aspose.Note là một API .NET mạnh mẽ cho phép các nhà phát triển làm việc với các tệp Microsoft OneNote theo chương trình. Sao chép trang là một nhiệm vụ phổ biến trong thao tác tài liệu và với Aspose.Note, quá trình này trở nên đơn giản và hiệu quả.
@@ -90,3 +96,9 @@ Câu trả lời 3: Có, Aspose.Note for .NET tương thích với cả .NET Fra
 ### Câu hỏi 5: Tôi có thể nhận hỗ trợ ở đâu nếu gặp bất kỳ sự cố nào khi sử dụng Aspose.Note?
 
  Câu trả lời 5: Bạn có thể nhận hỗ trợ từ diễn đàn Aspose.Note[đây](https://forum.aspose.com/c/note/28).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

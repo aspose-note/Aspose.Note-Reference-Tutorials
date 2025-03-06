@@ -3,10 +3,16 @@ title: Přidejte uzel obrázku s tagem v Aspose.Note
 linktitle: Přidejte uzel obrázku s tagem v Aspose.Note
 second_title: Aspose.Note .NET API
 description: Naučte se, jak vylepšit dokumenty OneNote přidáním obrázků s vlastními značkami pomocí Aspose.Note pro .NET.
-type: docs
 weight: 10
 url: /cs/net/tag-management/add-image-node-tag/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Přidejte uzel obrázku s tagem v Aspose.Note
+
 ## Úvod
 
 V tomto tutoriálu prozkoumáme, jak přidat obrazový uzel se značkou pomocí Aspose.Note pro .NET. Tato funkce vám umožňuje vylepšit vaše dokumenty OneNotu přidáním obrázků s vlastními značkami.
@@ -110,3 +116,9 @@ A4: Aspose.Note primárně podporuje přidávání obrázků z místních adres�
 ### Otázka 5: Existují nějaká omezení velikosti nebo formátu obrázků, které lze přidat?
 
 A5: Aspose.Note podporuje širokou škálu obrazových formátů a neklade žádná přísná omezení na velikost obrazu, což vám umožňuje začlenit do vašich dokumentů různé vizuální prvky.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

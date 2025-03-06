@@ -3,10 +3,16 @@ title: Aspose.Note में PDF में सहेजें
 linktitle: Aspose.Note में PDF में सहेजें
 second_title: Aspose.Note .NET API
 description: .NET के लिए Aspose.Note का उपयोग करके Microsoft OneNote दस्तावेज़ों को PDF प्रारूप में सहेजना सीखें। लेटर और ए4 पेज लेआउट के लिए कोड उदाहरणों के साथ चरण-दर-चरण ट्यूटोरियल।
-type: docs
 weight: 26
 url: /hi/net/loading-and-saving-operations/save-to-pdf/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Aspose.Note में PDF में सहेजें
+
 ## परिचय
 
 इस ट्यूटोरियल में, हम जानेंगे कि .NET के लिए Aspose.Note का उपयोग करके दस्तावेज़ों को पीडीएफ प्रारूप में कैसे सहेजा जाए। Aspose.Note एक शक्तिशाली लाइब्रेरी है जो डेवलपर्स को Microsoft OneNote फ़ाइलों के साथ प्रोग्रामेटिक रूप से काम करने में सक्षम बनाती है। हम आवश्यक शर्तें कवर करेंगे, नेमस्पेस आयात करेंगे, और विभिन्न पेज लेआउट में दस्तावेज़ों को पीडीएफ में सहेजने के लिए चरण-दर-चरण मार्गदर्शिकाएँ प्रदान करेंगे।
@@ -110,3 +116,9 @@ A1: हाँ, Aspose.Note जटिल OneNote फ़ाइलों को प
 ### Q5: अतिरिक्त सहायता की आवश्यकता है?
 
  A5: बेझिझक कोई भी प्रश्न पूछें या Aspose.Note फोरम पर समर्थन मांगें[यहाँ](https://forum.aspose.com/c/note/28).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

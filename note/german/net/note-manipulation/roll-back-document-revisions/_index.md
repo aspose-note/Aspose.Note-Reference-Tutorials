@@ -3,10 +3,16 @@ title: Rollback von Revisionen in Aspose.Note-Dokumenten
 linktitle: Rollback von Revisionen in Aspose.Note-Dokumenten
 second_title: Aspose.Note .NET-API
 description: Erfahren Sie, wie Sie Revisionen in Aspose.Note-Dokumenten mit Aspose.Note für .NET effektiv verwalten. Befolgen Sie eine Schritt-für-Schritt-Anleitung, um Revisionen nahtlos rückgängig zu machen.
-type: docs
 weight: 18
 url: /de/net/note-manipulation/roll-back-document-revisions/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Rollback von Revisionen in Aspose.Note-Dokumenten
+
 ## Einführung
 
 In der Welt der Dokumentenverwaltung und -bearbeitung ist es von entscheidender Bedeutung, Änderungen nachverfolgen und nahtlos zu früheren Versionen zurückkehren zu können. Aspose.Note für .NET bietet leistungsstarke Tools zur effektiven Verwaltung von Revisionen und stellt sicher, dass Sie Änderungen bei Bedarf rückgängig machen können. In diesem Tutorial befassen wir uns Schritt für Schritt mit dem Prozess des Rollbacks von Revisionen in Aspose.Note-Dokumenten.
@@ -99,3 +105,9 @@ A4: Ja, Sie können die Rollback-Funktionalität in Ihre Anwendungen integrieren
 ### F5: Bietet Aspose.Note Unterstützung, wenn während des Rollback-Vorgangs Probleme auftreten?
 
  A5: Ja, Aspose bietet über seine Foren engagierten Support. Sie können die besuchen[Aspose.Note-Forum](https://forum.aspose.com/c/note/28) zur Hilfe.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

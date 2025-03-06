@@ -3,10 +3,16 @@ title: Fügen Sie Bilder mit Hyperlinks in Aspose.Note ein
 linktitle: Fügen Sie Bilder mit Hyperlinks in Aspose.Note ein
 second_title: Aspose.Note .NET-API
 description: Erfahren Sie, wie Sie mühelos Bilder mit Hyperlinks in Aspose.Note für .NET einfügen. Verbessern Sie die Interaktivität von Dokumenten mit anklickbaren Bildern.
-type: docs
 weight: 15
 url: /de/net/images/insert-image-hyperlink/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Fügen Sie Bilder mit Hyperlinks in Aspose.Note ein
+
 ## Einführung
 
 Aspose.Note für .NET bietet leistungsstarke Funktionen für die Arbeit mit Bildern, einschließlich der Möglichkeit, Bilder mit Hyperlinks einzufügen. In diesem Tutorial führen wir Sie durch den Prozess des Einfügens von Bildern mit Hyperlinks mithilfe von Aspose.Note für .NET.
@@ -89,3 +95,9 @@ A3: Ja, Sie können das Erscheinungsbild von Hyperlinks, einschließlich Farbe, 
 ### F5: Wo erhalte ich Unterstützung für Aspose.Note für .NET?
 
  A5: Sie können Unterstützung für Aspose.Note für .NET von erhalten[Aspose.Note-Foren](https://forum.aspose.com/c/note/28)Hier können Sie Fragen stellen, Rat einholen und mit anderen Benutzern und Experten interagieren.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

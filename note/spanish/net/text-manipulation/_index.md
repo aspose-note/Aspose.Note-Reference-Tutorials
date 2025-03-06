@@ -3,10 +3,16 @@ title: Manipulación de texto en OneNote con Aspose.Note para .NET
 linktitle: Manipulación de texto
 second_title: Aspose.Nota .NET API
 description: ¡Transforme sus documentos OneNote con Aspose.Note para .NET! Aprenda técnicas de manipulación de texto, desde aplicar viñetas y numeración hasta cambiar estilos.
-type: docs
 weight: 31
 url: /es/net/text-manipulation/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Manipulación de texto en OneNote con Aspose.Note para .NET
+
 
 ## Introducción
 
@@ -110,3 +116,9 @@ Libere el potencial de Aspose.Note para .NET con nuestra guía paso a paso sobre
 Explore el poder de Aspose.Note para .NET con nuestra guía paso a paso sobre cómo configurar estilos de párrafo predeterminados. Mejore sus habilidades de manipulación de documentos sin esfuerzo.
 ### [Establecer idioma de revisión para texto en Aspose.Note](./set-proofing-language-text/)
 Desbloquee una poderosa manipulación de texto con Aspose.Note para .NET. Configure el idioma de revisión sin esfuerzo con una guía paso a paso. ¡Mejore sus proyectos .NET ahora!
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

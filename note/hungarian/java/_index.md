@@ -1,12 +1,17 @@
 ---
 title: Átfogó oktatóanyagok és példák az Aspose.Note for Java-ra
 linktitle: Aspose.Note a Java oktatóanyagokhoz
-type: docs
 weight: 10
 url: /hu/java/
 description: Fedezze fel az Aspose.Note for Java átfogó oktatóanyagait és példáit. Növelje OneNote-élményét a Java integrációról szóló, lépésről lépésre szóló útmutatókkal.
-is_root: true
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Átfogó oktatóanyagok és példák az Aspose.Note for Java-ra
+
 
 ## Bevezetés
 
@@ -91,3 +96,9 @@ Fedezze fel az Aspose.Note for Java erejét. Növelje OneNote-élményét a cím
 Fedezze fel az Aspose.Note Java oktatóanyagokat a OneNote szövegkezeléséről. Fedezze fel az olyan feladatok hatékony módszereit, mint a szöveg kibontása, a témák alkalmazása, a listák létrehozása és egyebek. 
 ### [Task és Outlook integráció](./task-and-outlook-integration/)
 Használja ki az Aspose.Note Java-ban rejlő lehetőségeket az Outlook-feladatok OneNote-ba integrálásáról szóló oktatóanyagainkkal. Növelje dokumentumfeldolgozási készségeit oktatóanyagainkkal.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

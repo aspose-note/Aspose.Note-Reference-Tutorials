@@ -3,10 +3,16 @@ title: 替换 OneNote 中所有页面上的文本 - Aspose.Note
 linktitle: 替换 OneNote 中所有页面上的文本 - Aspose.Note
 second_title: Aspose.Note Java API
 description: 探索 Aspose.Note for Java 的强大功能！了解如何轻松替换 OneNote 中所有页面上的文本。请按照我们的分步指南进行无缝文档操作。
-type: docs
 weight: 20
 url: /zh/java/onenote-text-manipulation/replace-text-on-all-pages/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# 替换 OneNote 中所有页面上的文本 - Aspose.Note
+
 ## 介绍
 欢迎来到这个关于使用 Aspose.Note for Java 替换 OneNote 中所有页面上的文本的综合教程。如果您希望高效地更新和组织 OneNote 文档，那么您来对地方了。在本分步指南中，我们将引导您完成整个过程，确保您了解整个过程中的每一步。
 ## 先决条件
@@ -80,3 +86,9 @@ Aspose.Note 主要支持 Microsoft OneNote 文件，但 Aspose 提供了各种�
 文档可用[这里](https://reference.aspose.com/note/java/).
 ### 问：我可以购买 Aspose.Note for Java 吗？ 
 是的，您可以购买 Aspose.Note for Java[这里](https://purchase.aspose.com/buy).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

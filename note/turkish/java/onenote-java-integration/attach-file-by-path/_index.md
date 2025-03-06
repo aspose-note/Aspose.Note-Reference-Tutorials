@@ -3,10 +3,16 @@ title: Java ile OneNote'ta Dosyayı Yola Göre Ekleme
 linktitle: Java ile OneNote'ta Dosyayı Yola Göre Ekleme
 second_title: Aspose.Note Java API'si
 description: OneNote notlarınıza sorunsuz bir şekilde dosya ekleyin! Aspose.Note ile Java'da yola göre eklemeyi öğrenin. Kolay kılavuz ve kod dahildir! #OneNote #Java #Aspose
-type: docs
 weight: 11
 url: /tr/java/onenote-java-integration/attach-file-by-path/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Java ile OneNote'ta Dosyayı Yola Göre Ekleme
+
 ## giriiş
 
 OneNote, notları düzenlemek ve yönetmek için çok yönlü bir araçtır ve Aspose.Note for Java ile notlarınıza programlı olarak dosya ekleyerek işlevselliğini artırabilirsiniz. Bu öğreticide, Java kullanarak OneNote'ta bir dosyayı yoluna göre ekleme sürecinde size yol göstereceğiz.
@@ -148,3 +154,9 @@ Cevap4: Evet, dosyaları anahat içerisinde uygun şekilde düzenleyerek belirli
 ### S5: Ekleyebileceğim dosya boyutunun bir sınırı var mı?
 
 Cevap5: Aspose.Note, dosya boyutuna katı sınırlamalar getirmez ancak çok büyük dosyalar için performans etkilerini dikkate alır.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -3,10 +3,16 @@ title: Guardar en imagen binaria usando un umbral fijo en OneNote
 linktitle: Guardar en imagen binaria usando un umbral fijo en OneNote
 second_title: Aspose.Nota Java API
 description: Guarde sin esfuerzo documentos de Microsoft OneNote como imágenes binarias utilizando un umbral fijo con Aspose.Note Java. Mejore sus capacidades de manipulación de archivos de OneNote.
-type: docs
 weight: 14
 url: /es/java/onenote-document-saving/save-to-binary-image-using-fixed-threshold/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Guardar en imagen binaria usando un umbral fijo en OneNote
+
 ## Introducción
 
 Aspose.Note para Java es una potente API que permite a los desarrolladores trabajar con archivos de Microsoft OneNote mediante programación. En este tutorial, exploraremos cómo guardar un documento como una imagen binaria usando un umbral fijo. Siga los pasos a continuación para lograrlo.
@@ -91,3 +97,9 @@ R4: Sí, puede procesar por lotes varios documentos de OneNote iterando sobre ca
 ### P5: ¿Hay soporte técnico disponible para Aspose.Note para Java?
 
  R5: Sí, el soporte técnico está disponible a través del[Foro Aspose.Note](https://forum.aspose.com/c/note/28), donde puede hacer preguntas y buscar ayuda de expertos.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -3,10 +3,16 @@ title: Joindre un fichier par chemin dans OneNote avec Java
 linktitle: Joindre un fichier par chemin dans OneNote avec Java
 second_title: API Java Aspose.Note
 description: Ajoutez des fichiers à vos notes OneNote en toute transparence ! Découvrez comment attacher par chemin en Java avec Aspose.Note. Guide facile et code inclus ! #OneNote #Java #Aspose
-type: docs
 weight: 11
 url: /fr/java/onenote-java-integration/attach-file-by-path/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Joindre un fichier par chemin dans OneNote avec Java
+
 ## Introduction
 
 OneNote est un outil polyvalent pour organiser et gérer des notes, et avec Aspose.Note pour Java, vous pouvez améliorer ses fonctionnalités en joignant par programme des fichiers à vos notes. Dans ce didacticiel, nous vous guiderons tout au long du processus de pièce jointe d'un fichier par son chemin dans OneNote à l'aide de Java.
@@ -148,3 +154,9 @@ A4 : Oui, vous pouvez joindre des fichiers à des sections spécifiques en les o
 ### Q5 : Y a-t-il une limite à la taille du fichier que je peux joindre ?
 
 A5 : Aspose.Note n'impose pas de limites strictes sur la taille des fichiers, mais prend en compte les implications en termes de performances pour les fichiers très volumineux.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

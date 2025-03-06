@@ -3,10 +3,16 @@ title: Thêm siêu liên kết trong tài liệu Aspose.Note
 linktitle: Thêm siêu liên kết trong tài liệu Aspose.Note
 second_title: Aspose.Note .NET API
 description: Tìm hiểu cách thêm siêu liên kết vào tài liệu Aspose.Note bằng Aspose.Note for .NET. Nâng cao tính tương tác của tài liệu với hướng dẫn từng bước này.
-type: docs
 weight: 10
 url: /vi/net/hyperlinks/add-hyperlinks/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Thêm siêu liên kết trong tài liệu Aspose.Note
+
 ## Giới thiệu
 
 Trong hướng dẫn này, bạn sẽ tìm hiểu cách thêm siêu liên kết vào văn bản trong tài liệu Aspose.Note bằng .NET framework. Aspose.Note cung cấp các tính năng mạnh mẽ để thao tác với tài liệu OneNote theo chương trình. Việc thêm siêu liên kết có thể nâng cao tính tương tác và khả năng sử dụng tài liệu của bạn, khiến chúng trở nên hấp dẫn hơn đối với người dùng.
@@ -131,3 +137,9 @@ A4: Aspose.Note được thiết kế để hoạt động với Microsoft OneNo
 ### Câu hỏi 5: Tôi có thể thêm siêu liên kết theo chương trình bằng API Aspose.Note không?
 
 Câu trả lời 5: Có, Aspose.Note cung cấp các API cho phép bạn thêm siêu liên kết vào văn bản theo chương trình trong các ứng dụng .NET của mình.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

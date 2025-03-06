@@ -3,10 +3,16 @@ title: Szúrjon be képeket hiperhivatkozásokkal az Aspose.Note-ba
 linktitle: Szúrjon be képeket hiperhivatkozásokkal az Aspose.Note-ba
 second_title: Aspose.Note .NET API
 description: Ismerje meg, hogyan illeszthet be könnyedén képeket hiperhivatkozásokkal az Aspose.Note for .NET-be. Fokozza a dokumentumok interaktivitását kattintható képekkel.
-type: docs
 weight: 15
 url: /hu/net/images/insert-image-hyperlink/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Szúrjon be képeket hiperhivatkozásokkal az Aspose.Note-ba
+
 ## Bevezetés
 
 Az Aspose.Note for .NET hatékony funkciókat kínál a képekkel való munkavégzéshez, beleértve a hiperhivatkozásokkal ellátott képek beszúrásának lehetőségét. Ebben az oktatóanyagban végigvezetjük a hiperhivatkozásokat tartalmazó képek beszúrásának folyamatán az Aspose.Note for .NET használatával.
@@ -89,3 +95,9 @@ Ebben az oktatóanyagban megtanultuk, hogyan lehet képeket beszúrni hiperhivat
 ### 5. kérdés: Hol kaphatok támogatást az Aspose.Note for .NET-hez?
 
  5. válasz: Az Aspose.Note for .NET-hez támogatást a következő webhelyen kaphat[Aspose.Note fórumok](https://forum.aspose.com/c/note/28), ahol kérdéseket tehet fel, útmutatást kérhet, és kapcsolatba léphet más felhasználókkal és szakértőkkel.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

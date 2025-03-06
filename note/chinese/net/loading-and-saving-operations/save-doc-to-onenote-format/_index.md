@@ -3,10 +3,16 @@ title: 在 Aspose.Note 中将文档保存为 OneNote 格式
 linktitle: 在 Aspose.Note 中将文档保存为 OneNote 格式
 second_title: Aspose.Note .NET API
 description: 了解如何使用 Aspose.Note 以编程方式在 .NET 中保存 OneNote 文档。包含代码示例的分步教程。
-type: docs
 weight: 20
 url: /zh/net/loading-and-saving-operations/save-doc-to-onenote-format/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# 在 Aspose.Note 中将文档保存为 OneNote 格式
+
 ## 介绍
 
 在 .NET 开发领域，Aspose.Note 作为以编程方式管理和操作 OneNote 文档的强大工具而脱颖而出。凭借其直观的 API 和全面的功能集，开发人员可以轻松处理与应用程序中的 OneNote 文件相关的各种任务。本教程将深入研究使用 Aspose.Note for .NET 将文档保存为 OneNote 格式的过程，分解每个步骤以确保清晰度和理解。
@@ -87,3 +93,9 @@ doc.Save(dataDir + outputFile);
 ### Q5：Aspose.Note 用户有可用的社区论坛或支持渠道吗？
 
 答：是的，Aspose 为 Aspose.Note 用户提供了一个专门的论坛，他们可以在其中寻求帮助、分享知识并与社区互动。参观[Aspose.Note 论坛](https://forum.aspose.com/c/note/28)为了支持。
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

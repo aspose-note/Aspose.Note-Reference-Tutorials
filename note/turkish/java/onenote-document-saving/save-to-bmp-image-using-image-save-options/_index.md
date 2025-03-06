@@ -3,10 +3,16 @@ title: OneNote'ta Görüntü Kaydetme Seçeneklerini Kullanarak BMP Görüntüs�
 linktitle: OneNote'ta Görüntü Kaydetme Seçeneklerini Kullanarak BMP Görüntüsüne Kaydetme
 second_title: Aspose.Note Java API'si
 description: Aspose.Note for Java'yı kullanarak OneNote belgelerini programlı olarak BMP görüntülerine nasıl kaydedeceğinizi öğrenin. Kod örnekleri içeren adım adım kılavuz.
-type: docs
 weight: 16
 url: /tr/java/onenote-document-saving/save-to-bmp-image-using-image-save-options/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# OneNote'ta Görüntü Kaydetme Seçeneklerini Kullanarak BMP Görüntüsüne Kaydetme
+
 ## giriiş
 
 Aspose.Note for Java, Java geliştiricilerinin Microsoft OneNote dosyalarıyla programlı olarak çalışmasını sağlayan güçlü bir kütüphanedir. Aspose.Note for Java ile OneNote belgelerini sorunsuz bir şekilde oluşturabilir, işleyebilir ve dönüştürebilirsiniz. Bu eğitimde, Aspose.Note for Java tarafından sağlanan Görüntü Kaydetme Seçeneklerini kullanarak bir OneNote belgesinin bir BMP görüntüsüne nasıl kaydedileceğini inceleyeceğiz.
@@ -79,3 +85,9 @@ Cevap4: Evet, Aspose.Note for Java'yı kullanarak OneNote belgelerinin içeriği
 ### S5: Aspose.Note for Java teknik destek sağlıyor mu?
 
  C5: Evet, Aspose ürünleri için teknik destek sağlıyor. Ziyaret edebilirsiniz[Aspose.Note forumu](https://forum.aspose.com/c/note/28) yardım için.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

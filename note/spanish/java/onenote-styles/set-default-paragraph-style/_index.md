@@ -3,10 +3,16 @@ title: Establecer estilo de párrafo predeterminado en OneNote - Aspose.Note
 linktitle: Establecer estilo de párrafo predeterminado en OneNote - Aspose.Note
 second_title: Aspose.Nota Java API
 description: Aprenda a configurar estilos de párrafo predeterminados en OneNote usando Aspose.Note para Java. Siga nuestra guía paso a paso para formatear texto eficientemente en sus aplicaciones Java.
-type: docs
 weight: 11
 url: /es/java/onenote-styles/set-default-paragraph-style/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Establecer estilo de párrafo predeterminado en OneNote - Aspose.Note
+
 ## Introducción
 
 Aspose.Note para Java ofrece poderosas capacidades para manipular el formato de texto, incluida la configuración de estilos de párrafo predeterminados. Este tutorial lo guiará a través del proceso de configuración de estilos de párrafo predeterminados en OneNote usando Aspose.Note.
@@ -127,3 +133,9 @@ R4: Sí, puedes integrar fácilmente Aspose.Note en tus proyectos Java agregando
 ### P5: ¿Existe una versión de prueba disponible para Aspose.Note?
 
  R5: Sí, puede acceder a una prueba gratuita de Aspose. Nota del[sitio web](https://releases.aspose.com/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

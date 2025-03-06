@@ -3,10 +3,16 @@ title: Aspose.Note Belgelerine Köprüler Ekleme
 linktitle: Aspose.Note Belgelerine Köprüler Ekleme
 second_title: Aspose.Note .NET API'si
 description: Aspose.Note for .NET kullanarak Aspose.Note belgelerine nasıl köprü ekleyeceğinizi öğrenin. Bu adım adım eğitimle belge etkileşimini geliştirin.
-type: docs
 weight: 10
 url: /tr/net/hyperlinks/add-hyperlinks/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Aspose.Note Belgelerine Köprüler Ekleme
+
 ## giriiş
 
 Bu eğitimde, .NET çerçevesini kullanarak Aspose.Note belgeleri içindeki metne nasıl köprü ekleyeceğinizi öğreneceksiniz. Aspose.Note, OneNote belgelerini programlı olarak yönetmek için güçlü özellikler sağlar. Köprü eklemek, belgelerinizin etkileşimini ve kullanılabilirliğini geliştirebilir ve belgelerinizi kullanıcılar için daha ilgi çekici hale getirebilir.
@@ -131,3 +137,9 @@ Cevap4: Aspose.Note, Microsoft OneNote 2010 ve sonraki sürümleriyle çalışac
 ### S5: Aspose.Note API'lerini kullanarak programlı olarak köprüler ekleyebilir miyim?
 
 C5: Evet, Aspose.Note, .NET uygulamalarınızdaki metne programlı olarak köprüler eklemenizi sağlayan API'ler sağlar.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

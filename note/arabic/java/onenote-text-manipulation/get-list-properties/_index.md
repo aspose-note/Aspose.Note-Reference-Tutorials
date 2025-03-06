@@ -3,10 +3,16 @@ title: الحصول على خصائص القائمة في OneNote - Aspose.Note
 linktitle: الحصول على خصائص القائمة في OneNote - Aspose.Note
 second_title: Aspose.Note جافا API
 description: استكشف Aspose.Note لـ Java واحصل على خصائص القائمة بسهولة في مستندات OneNote. قم بتحسين معالجة مستنداتك باستخدام مكتبة Java القوية هذه.
-type: docs
 weight: 19
 url: /ar/java/onenote-text-manipulation/get-list-properties/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# الحصول على خصائص القائمة في OneNote - Aspose.Note
+
 ## مقدمة
 مرحبًا بك في هذا البرنامج التعليمي الشامل حول الاستفادة من Aspose.Note لـ Java لاسترداد خصائص القائمة وتحليلها في مستندات OneNote. سواء كنت مطورًا متمرسًا أو بدأت للتو في Aspose.Note، سيرشدك هذا الدليل خلال العملية، مع تفصيل كل خطوة لضمان فهم واضح.
 ## المتطلبات الأساسية
@@ -95,3 +101,9 @@ System.out.println("Is italic: " + list.isItalic());
  نعم يمكنك الحصول على ترخيص مؤقت[هنا](https://purchase.aspose.com/temporary-license/) لأغراض تجريبية.
 ### ماذا لو كنت أرغب في شراء Aspose.Note لـ Java؟
  يمكنك شراء المنتج[هنا](https://purchase.aspose.com/buy)لإطلاق العنان لإمكاناته الكاملة لمشاريعك.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -3,10 +3,16 @@ title: Δημιουργία εγγράφου με ρίζες και δευτερ
 linktitle: Δημιουργία εγγράφου με ρίζες και δευτερεύουσες σελίδες στο OneNote
 second_title: Aspose.Note Java API
 description: Δημιουργήστε ένα έγγραφο με ρίζες και δευτερεύουσες σελίδες στο OneNote χρησιμοποιώντας το Aspose.Note για Java. Ακολουθήστε τον οδηγό βήμα προς βήμα για να οργανώσετε αποτελεσματικά τις σημειώσεις σας.
-type: docs
 weight: 11
 url: /el/java/onenote-page-manipulation/create-document-with-root-and-sub-pages/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Δημιουργία εγγράφου με ρίζες και δευτερεύουσες σελίδες στο OneNote
+
 ## Εισαγωγή
 
 Σε αυτό το σεμινάριο, θα σας καθοδηγήσουμε στη διαδικασία δημιουργίας ενός εγγράφου με ρίζα και δευτερεύουσες σελίδες στο OneNote χρησιμοποιώντας το Aspose.Note για Java. Ακολουθώντας αυτά τα βήματα, θα μπορείτε να οργανώνετε αποτελεσματικά τα έγγραφά σας στο OneNote με ιεραρχική δομή.
@@ -169,3 +175,9 @@ A4: Ναι, το Aspose.Note για Java υποστηρίζει την αποθ�
 ### Ε5: Υπάρχει διαθέσιμη δοκιμαστική έκδοση για το Aspose.Note για Java;
 
 A5: Ναι, μπορείτε να κάνετε λήψη μιας δωρεάν δοκιμαστικής έκδοσης του Aspose.Note για Java από τον ιστότοπο.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -3,10 +3,16 @@ title: Operaciones del cuaderno OneNote
 linktitle: Operaciones del cuaderno OneNote
 second_title: Aspose.Nota Java API
 description: Libere todo el potencial de Aspose.Note para Java con nuestros tutoriales de operaciones de OneNote Notebook. Proporcione una guía paso a paso para mejorar sus aplicaciones Java.
-type: docs
 weight: 28
 url: /es/java/onenote-notebook-operations/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Operaciones del cuaderno OneNote
+
 
 ## Introducción
 
@@ -66,3 +72,9 @@ Aprenda cómo recuperar documentos de OneNote Notebook usando Aspose.Note para J
 Aprenda a guardar cuadernos en secuencias en OneNote usando Aspose.Note para Java. Aumente la productividad con una gestión eficiente de portátiles.
 ### [Escribir un documento protegido con contraseña en OneNote - Aspose.Note](./write-password-protected-document/)
 Aprenda a escribir documentos protegidos con contraseña en OneNote usando Aspose.Note para Java. Garantice la seguridad con pasos fáciles de seguir.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

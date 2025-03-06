@@ -3,10 +3,16 @@ title: Masterización de tablas con integración de OneNote
 linktitle: Manipulación de tablas
 second_title: Aspose.Nota .NET API
 description: ¡Cree documentos visualmente atractivos con Aspose.Note para .NET! Explore tutoriales sobre manipulación de tablas cambie estilos, componga tablas, extraiga texto y más.
-type: docs
 weight: 29
 url: /es/net/table-manipulation/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Masterización de tablas con integración de OneNote
+
 
 ## Introducción
 
@@ -62,3 +68,9 @@ Aprenda a extraer texto de tablas en Aspose.Note usando C# con .NET framework. T
 Aprenda a insertar tablas en documentos de Note con Aspose.Note para .NET. Organice los datos sin problemas para mejorar la legibilidad y la presentación.
 ### [Establecer el color de fondo de la celda en las tablas Aspose.Note](./set-cell-background-color/)
 Aprenda cómo configurar el color de fondo de la celda en las tablas de Aspose.Note usando la guía paso a paso. Mejore las imágenes de los documentos sin esfuerzo.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

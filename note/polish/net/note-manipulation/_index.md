@@ -3,10 +3,16 @@ title: Opanowanie integracji OneNote z Aspose.Note dla .NET
 linktitle: Uwaga Manipulacja
 second_title: Aspose.Note .NET API
 description: Odblokuj moc Aspose.Note dla .NET dzięki naszym samouczkom poświęconym OneNote. Rozwiązuj konflikty, twórz dynamiczne dokumenty i odkrywaj efektywną manipulację stronami.
-type: docs
 weight: 27
 url: /pl/net/note-manipulation/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Opanowanie integracji OneNote z Aspose.Note dla .NET
+
 
 ## Wstęp
 
@@ -69,3 +75,9 @@ Dowiedz się, jak skutecznie zarządzać wersjami w dokumentach Aspose.Note przy
 Dowiedz się, jak ustawić kolor tła stron w dokumentach Aspose.Note przy użyciu języka programowania C#, korzystając z przewodnika krok po kroku.
 ### [Praca z wersjami stron — wskazówki Aspose.Note](./working-with-page-revisions/)
 Dowiedz się, jak zarządzać wersjami stron programu Microsoft OneNote za pomocą Aspose.Note. Przewodnik krok po kroku dotyczący bezproblemowej integracji i kontroli wersji w aplikacjach .NET.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

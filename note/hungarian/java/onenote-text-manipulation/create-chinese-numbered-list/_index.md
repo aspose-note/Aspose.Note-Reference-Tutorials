@@ -3,10 +3,16 @@ title: Kínai számozott lista létrehozása a OneNote-ban – Aspose.Note
 linktitle: Kínai számozott lista létrehozása a OneNote-ban – Aspose.Note
 second_title: Aspose.Note Java API
 description: Javítsa a dokumentumok létrehozását Java nyelven az Aspose.Note segítségével. Ismerje meg lépésről lépésre kínai számozott lista létrehozását a OneNote-ban. Fedezze fel az Aspose.Note hatékony funkcióit.
-type: docs
 weight: 13
 url: /hu/java/onenote-text-manipulation/create-chinese-numbered-list/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Kínai számozott lista létrehozása a OneNote-ban – Aspose.Note
+
 ## Bevezetés
 Ha javítani kívánja dokumentumkészítési képességeit Java nyelven, az Aspose.Note a legjobb megoldás. Ebben az oktatóanyagban végigvezetjük a kínai számozott lista létrehozásának folyamatán a OneNote-ban az Aspose.Note for Java használatával. Ez a hatékony könyvtár lehetővé teszi a OneNote-dokumentumok programozott kezelését, teljes ellenőrzést biztosítva azok szerkezete és tartalma felett.
 ## Előfeltételek
@@ -109,3 +115,9 @@ Teljesen. Ahogy az oktatóanyagban is látható, beállíthatja a betűtípust, 
  Lásd a dokumentációt[itt](https://reference.aspose.com/note/java/).
 ### Hogyan kaphatok támogatást az Aspose.Note-hoz?
  Látogassa meg a támogatási fórumot[itt](https://forum.aspose.com/c/note/28) bármilyen segítségért vagy kérdésért.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

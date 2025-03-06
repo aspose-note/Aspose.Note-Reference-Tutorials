@@ -3,10 +3,16 @@ title: Create Table with Locked Columns using Aspose.Note
 linktitle: Create Table with Locked Columns using Aspose.Note
 second_title: Aspose.Note .NET API
 description: Learn how to create tables with locked columns using Aspose.Note for .NET. Step-by-step guide for efficient document processing tasks.
-type: docs
 weight: 12
 url: /net/table-manipulation/create-table-locked-columns/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Create Table with Locked Columns using Aspose.Note
+
 ## Introduction
 
 Creating tables with locked columns is a common requirement in document processing applications. Aspose.Note for .NET provides powerful tools to accomplish this task efficiently. In this tutorial, we'll guide you through the process of creating a table with locked columns step by step using Aspose.Note for .NET.
@@ -147,3 +153,10 @@ A4: Yes, you can access technical support through the [Aspose.Note forum](https:
 ### Q5: Can I try Aspose.Note for .NET before purchasing?
 
 A5: Yes, you can download a free trial version of Aspose.Note for .NET from [here](https://releases.aspose.com/) to evaluate its features and compatibility with your requirements.
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

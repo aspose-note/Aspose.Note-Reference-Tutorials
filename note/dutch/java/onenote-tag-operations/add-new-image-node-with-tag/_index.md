@@ -3,10 +3,16 @@ title: Nieuw afbeeldingsknooppunt met tag toevoegen in OneNote - Aspose.Note
 linktitle: Nieuw afbeeldingsknooppunt met tag toevoegen in OneNote - Aspose.Note
 second_title: Aspose.Note Java-API
 description: Leer hoe u een nieuw afbeeldingsknooppunt met een tag toevoegt in OneNote met behulp van Aspose.Note voor Java. Verbeter moeiteloos uw Java-programmeervaardigheden.
-type: docs
 weight: 10
 url: /nl/java/onenote-tag-operations/add-new-image-node-with-tag/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Nieuw afbeeldingsknooppunt met tag toevoegen in OneNote - Aspose.Note
+
 ## Invoering
 Op het gebied van Java-programmeren onderscheidt Aspose.Note zich als een krachtig hulpmiddel voor het gemakkelijk verwerken van OneNote-documenten. Als u uw vaardigheden wilt verbeteren en wilt leren hoe u een nieuw afbeeldingsknooppunt met een tag in OneNote kunt toevoegen met behulp van Aspose.Note, dan bent u hier aan het juiste adres. Deze stapsgewijze handleiding begeleidt u door het proces, zodat u elk concept grondig begrijpt.
 ## Vereisten
@@ -96,3 +102,9 @@ Gefeliciteerd! U hebt met succes een nieuw afbeeldingsknooppunt met een tag toeg
  Bezoek het communityforum[hier](https://forum.aspose.com/c/note/28) Voor ondersteuning.
 ### Heb ik een tijdelijke licentie nodig?
  Indien nodig kunt u een tijdelijke licentie verkrijgen[hier](https://purchase.aspose.com/temporary-license/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

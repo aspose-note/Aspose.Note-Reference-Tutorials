@@ -3,10 +3,16 @@ title: Unterscheiden Sie den Knotentyp im OneNote-Dokument – Java
 linktitle: Unterscheiden Sie den Knotentyp im OneNote-Dokument – Java
 second_title: Aspose.Note Java API
 description: Erfahren Sie, wie Sie Knotentypen in OneNote-Dokumenten mithilfe von Java mit Aspose.Note unterscheiden. Entdecken Sie die Schritt-für-Schritt-Anleitung und FAQs für eine nahtlose Integration.
-type: docs
 weight: 20
 url: /de/java/onenote-document-loading/distinguish-node-type/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Unterscheiden Sie den Knotentyp im OneNote-Dokument – Java
+
 ## Einführung
 
 Im Bereich der Java-Programmierung stellt die Arbeit mit OneNote-Dokumenten ihre eigenen Herausforderungen und Feinheiten dar. Glücklicherweise bietet Aspose.Note für Java eine umfassende Lösung zum nahtlosen Navigieren, Bearbeiten und Extrahieren von Daten aus diesen Dokumenten. In diesem Tutorial werden wir uns mit einem bestimmten Aspekt befassen: der Unterscheidung von Knotentypen innerhalb eines OneNote-Dokuments mithilfe von Java. Am Ende dieses Leitfadens verfügen Sie über ein solides Verständnis dafür, wie Sie verschiedene Knotentypen identifizieren und dieses Wissen effektiv in Ihren Java-Anwendungen nutzen können.
@@ -74,3 +80,10 @@ A3: Absolut, mit Aspose.Note für Java können Sie ganz einfach Text, Bilder und
 ### F5: Gibt es eine kostenlose Testversion für Aspose.Note für Java?
 
  A5: Ja, Sie können die Funktionen von Aspose.Note für Java mit einer kostenlosen Testversion erkunden, die unter verfügbar ist[dieser Link](https://releases.aspose.com/).
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -3,10 +3,16 @@ title: Remplacer le texte sur une page particulière dans OneNote - Aspose.Note
 linktitle: Remplacer le texte sur une page particulière dans OneNote - Aspose.Note
 second_title: API Java Aspose.Note
 description: Découvrez comment remplacer du texte sur une page OneNote spécifique à l’aide d’Aspose.Note pour Java. Tutoriel facile à suivre pour un développement Java efficace.
-type: docs
 weight: 21
 url: /fr/java/onenote-text-manipulation/replace-text-on-particular-page/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Remplacer le texte sur une page particulière dans OneNote - Aspose.Note
+
 ## Introduction
 Dans le domaine de la programmation Java, Aspose.Note se distingue comme une bibliothèque robuste et efficace pour gérer les fichiers OneNote. Si vous souhaitez manipuler du texte sur une page spécifique de votre document OneNote, Aspose.Note fournit une solution transparente. Dans ce guide étape par étape, nous explorerons comment remplacer du texte sur une page particulière à l'aide d'Aspose.Note pour Java. Suivez-nous pour libérer le potentiel de cette puissante bibliothèque Java.
 ## Conditions préalables
@@ -72,3 +78,9 @@ Toutes nos félicitations! Vous avez appris avec succès comment remplacer du te
  Obtenir un permis temporaire[ici](https://purchase.aspose.com/temporary-license/).
 ### Où puis-je télécharger Aspose.Note pour Java ?
  Téléchargez la bibliothèque[ici](https://releases.aspose.com/note/java/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -3,10 +3,16 @@ title: 使用 Aspose.Note 创建带有根页面和子页面的文档
 linktitle: 使用 Aspose.Note 创建带有根页面和子页面的文档
 second_title: Aspose.Note .NET API
 description: 了解如何使用 Aspose.Note for .NET 创建具有分层结构的动态 OneNote 文档。
-type: docs
 weight: 11
 url: /zh/net/note-manipulation/create-documents-root-sub-pages/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# 使用 Aspose.Note 创建带有根页面和子页面的文档
+
 ## 介绍
 
 欢迎来到我们关于使用 Aspose.Note for .NET 创建带有根页面和子页面的文档的教程！ Aspose.Note 是一个功能强大的库，使开发人员能够以编程方式使用 Microsoft OneNote 文件，从而创建、操作和转换 OneNote 文档。
@@ -130,3 +136,9 @@ A4：Aspose.Note 主要专注于本地开发，但您可以通过正确的设置
 ### Q5：Aspose.Note 提供技术支持吗？
 
 A5：是的，Aspose 通过他们的论坛提供专门的技术支持，您可以在其中提出问题并获得帮助。
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

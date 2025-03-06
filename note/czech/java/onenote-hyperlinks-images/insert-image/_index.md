@@ -3,10 +3,16 @@ title: Vložte obrázek do dokumentu OneNotu s Java
 linktitle: Vložte obrázek do dokumentu OneNotu s Java
 second_title: Aspose.Note Java API
 description: Naučte se vkládat obrázky do dokumentů OneNotu pomocí Java s knihovnou Aspose.Note for Java. Postupujte podle našeho podrobného průvodce pro bezproblémovou integraci.
-type: docs
 weight: 16
 url: /cs/java/onenote-hyperlinks-images/insert-image/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Vložte obrázek do dokumentu OneNotu s Java
+
 ## Úvod
 
 V tomto tutoriálu prozkoumáme, jak vložit obrázek do dokumentu OneNote pomocí Javy s pomocí Aspose.Note pro Javu. Aspose.Note for Java je výkonná knihovna, která umožňuje vývojářům pracovat se soubory Microsoft OneNote programově a umožňuje různé operace, jako je vytváření, čtení a manipulace s dokumenty OneNotu.
@@ -120,3 +126,9 @@ Odpověď 4: Ano, z webové stránky si můžete stáhnout bezplatnou zkušební
 ### Q5: Jak mohu získat technickou podporu pro Aspose.Note pro Java?
 
  Odpověď 5: Technickou podporu pro Aspose.Note pro Java můžete získat na adrese[Fórum](https://forum.aspose.com/c/note/28) věnované produktům Aspose.Note.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -3,10 +3,16 @@ title: Terapkan Poin pada Teks di Aspose.Note
 linktitle: Terapkan Poin pada Teks di Aspose.Note
 second_title: Aspose.Catatan .NET API
 description: Pelajari cara menerapkan poin pada teks di Aspose.Note untuk .NET untuk menyempurnakan dokumen OneNote Anda. Ikuti panduan langkah demi langkah ini untuk pemformatan yang efektif.
-type: docs
 weight: 10
 url: /id/net/text-manipulation/apply-bullets-on-text/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Terapkan Poin pada Teks di Aspose.Note
+
 ## Perkenalan
 Selamat datang di panduan langkah demi langkah dalam menerapkan poin ke teks menggunakan Aspose.Note untuk .NET. Aspose.Note adalah perpustakaan canggih yang memungkinkan pengembang bekerja secara lancar dengan file Microsoft OneNote di aplikasi .NET mereka. Dalam tutorial ini, kami akan memandu Anda melalui proses penerapan poin pada teks, meningkatkan daya tarik visual dokumen OneNote Anda.
 ## Prasyarat
@@ -86,3 +92,9 @@ Aspose.Note mendukung berbagai versi Microsoft OneNote, memastikan kompatibilita
  Ya, Anda dapat mengunduh uji coba gratis[Di Sini](https://releases.aspose.com/).
 ### Di mana saya dapat menemukan dukungan dan sumber daya tambahan?
  Anda dapat mengunjungi forum komunitas Aspose.Note[Di Sini](https://forum.aspose.com/c/note/28) untuk dukungan dan diskusi.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

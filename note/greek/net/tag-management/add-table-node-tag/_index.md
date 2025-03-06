@@ -3,10 +3,16 @@ title: Προσθήκη κόμβου πίνακα με ετικέτα στο Asp
 linktitle: Προσθήκη κόμβου πίνακα με ετικέτα στο Aspose.Note
 second_title: Aspose.Note .NET API
 description: Μάθετε πώς να προσθέτετε πίνακες με ετικέτες στο Aspose.Note για .NET. Βελτιώστε τις δεξιότητες χειρισμού εγγράφων σας μέσω προγραμματισμού.
-type: docs
 weight: 11
 url: /el/net/tag-management/add-table-node-tag/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Προσθήκη κόμβου πίνακα με ετικέτα στο Aspose.Note
+
 ## Εισαγωγή
 
 Σε αυτό το σεμινάριο, θα σας καθοδηγήσουμε στη διαδικασία προσθήκης ενός κόμβου πίνακα με μια ετικέτα χρησιμοποιώντας το Aspose.Note για .NET. Ακολουθήστε τα παρακάτω βήματα για να το πετύχετε.
@@ -137,3 +143,9 @@ A4: Ναι, το Aspose.Note παρέχει υποστήριξη για την �
 ### Ε5: Είναι διαθέσιμη τεχνική υποστήριξη για τους χρήστες του Aspose.Note;
 
  A5: Ναι, παρέχεται τεχνική υποστήριξη μέσω των φόρουμ Aspose[εδώ](https://forum.aspose.com/c/note/28), όπου μπορείτε να ζητήσετε βοήθεια από ειδικούς.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

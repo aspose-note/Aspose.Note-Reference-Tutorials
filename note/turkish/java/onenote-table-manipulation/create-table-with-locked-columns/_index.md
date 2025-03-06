@@ -3,10 +3,16 @@ title: OneNote'ta Kilitli Sütunlu Tablo Oluşturma - Aspose.Note
 linktitle: OneNote'ta Kilitli Sütunlu Tablo Oluşturma - Aspose.Note
 second_title: Aspose.Note Java API'si
 description: Aspose.Note for Java ile OneNote deneyiminizi geliştirin. Adım adım kılavuzu kullanarak kilitli sütunlara sahip tablolar oluşturmayı öğrenin. Şimdi ücretsiz deneme sürümünü indirin!
-type: docs
 weight: 12
 url: /tr/java/onenote-table-manipulation/create-table-with-locked-columns/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# OneNote'ta Kilitli Sütunlu Tablo Oluşturma - Aspose.Note
+
 ## giriiş
 OneNote, bilgileri düzenlemek için güçlü bir araçtır ve Aspose.Note for Java, kilitli sütunlara sahip tablolar oluşturmanın kusursuz bir yolunu sağlayarak yeteneklerini geliştirir. Bu eğitimde, OneNote'ta kilitli sütunlara sahip bir tablo oluşturmak için Aspose.Note for Java'yı kullanma sürecinde size rehberlik edeceğiz.
 ## Önkoşullar
@@ -90,3 +96,9 @@ Kesinlikle! Aspose.Note for Java, tabloları özelleştirmek için kenarlıklar�
  Ziyaret edin[Aspose.Note forumu](https://forum.aspose.com/c/note/28) destek ve topluluk tartışmaları için.
 ### Aspose.Note for Java için nasıl geçici lisans edinebilirim?
  Ziyaret etmek[bu bağlantı](https://purchase.aspose.com/temporary-license/) Test amacıyla geçici bir lisans almak için.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -3,10 +3,16 @@ title: Интеграция OneNote с Java
 linktitle: Интеграция OneNote с Java
 second_title: Aspose.Note Java API
 description: Расширьте возможности OneNote с помощью Aspose.Note Java! Изучите руководства по прикреплению файлов, настройке значков и программному получению вложений с помощью Java.
-type: docs
 weight: 20
 url: /ru/java/onenote-java-integration/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Интеграция OneNote с Java
+
 ## Введение
 
 Добро пожаловать в наше подробное руководство по интеграции OneNote с Java с помощью Aspose.Note. Независимо от того, являетесь ли вы опытным разработчиком или только начинаете, эти руководства помогут вам максимально расширить свои возможности OneNote программным путем.
@@ -36,3 +42,9 @@ url: /ru/java/onenote-java-integration/
 Узнайте, как программно прикреплять файлы к заметкам OneNote с помощью Java с помощью Aspose.Note.
 ### [Получить вложение из OneNote с помощью Java](./retrieve-attachment/)
 Узнайте, как получать вложения из OneNote с помощью Java с помощью Aspose.Note, мощного API для беспрепятственного манипулирования документами.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

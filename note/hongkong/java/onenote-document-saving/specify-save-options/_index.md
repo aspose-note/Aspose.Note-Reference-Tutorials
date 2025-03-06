@@ -3,10 +3,16 @@ title: 在 OneNote 中指定儲存選項 - Aspose.Note
 linktitle: 在 OneNote 中指定儲存選項 - Aspose.Note
 second_title: Aspose.Note Java API
 description: 了解如何使用 Aspose.Note for Java 在 OneNote 中指定儲存選項。輕鬆自訂頁面索引、計數和壓縮設定。
-type: docs
 weight: 24
 url: /zh-hant/java/onenote-document-saving/specify-save-options/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# 在 OneNote 中指定儲存選項 - Aspose.Note
+
 ## 介紹
 
 在本教學中，我們將學習如何使用 Aspose.Note for Java 在 OneNote 中指定儲存選項。 Aspose.Note 是一個功能強大的 Java 程式庫，可讓開發人員以程式設計方式建立、操作和轉換 OneNote 文件。使用Aspose.Note，您可以輕鬆控制各種保存選項，以根據您的要求自訂輸出。
@@ -109,3 +115,9 @@ A4：是的，Aspose.Note 提供了 OneNote 文件加密和解密的 API。
 ### Q5：Aspose.Note適合商業用途嗎？
 
 A5：是的，Aspose.Note可以透過購買許可證用於商業目的。
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

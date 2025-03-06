@@ -3,10 +3,16 @@ title: Salva su immagine in Aspose.Note
 linktitle: Salva su immagine in Aspose.Note
 second_title: Aspose.Note API .NET
 description: Converti senza sforzo i documenti Microsoft OneNote in formato immagine in BMP con Aspose.Note per .NET. Integrazione perfetta, passaggi semplici e funzionalità robuste.
-type: docs
 weight: 23
 url: /it/net/loading-and-saving-operations/save-to-image/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Salva su immagine in Aspose.Note
+
 ## introduzione
 
 In questo tutorial, approfondiremo il processo di salvataggio di un documento in un formato immagine utilizzando Aspose.Note per .NET. Aspose.Note è una potente API che consente agli sviluppatori di lavorare con i file Microsoft OneNote a livello di codice, offrendo varie funzionalità per manipolare e convertire documenti.
@@ -88,3 +94,9 @@ A4: Assolutamente, Aspose.Note offre ampie opzioni per personalizzare il formato
 ### Q5: Aspose.Note fornisce supporto tecnico agli sviluppatori?
 
 A5: Sì, Aspose.Note offre supporto tecnico completo tramite forum e documentazione, garantendo un'esperienza di sviluppo fluida.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

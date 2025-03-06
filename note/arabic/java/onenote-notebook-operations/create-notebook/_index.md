@@ -3,10 +3,16 @@ title: إنشاء دفتر ملاحظات في OneNote - Aspose.Note
 linktitle: إنشاء دفتر ملاحظات في OneNote - Aspose.Note
 second_title: Aspose.Note جافا API
 description: تعرف على كيفية إنشاء دفاتر الملاحظات في OneNote برمجياً باستخدام Aspose.Note لـ Java. قم بتبسيط سير عملك باستخدام هذا الدليل المفصّل خطوة بخطوة.
-type: docs
 weight: 18
 url: /ar/java/onenote-notebook-operations/create-notebook/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# إنشاء دفتر ملاحظات في OneNote - Aspose.Note
+
 ## مقدمة
 
 في هذا البرنامج التعليمي، سنتعمق في عالم إنشاء دفاتر الملاحظات في OneNote باستخدام Aspose.Note لـ Java. Aspose.Note هي مكتبة Java قوية تتيح للمطورين العمل مع ملفات Microsoft OneNote برمجياً. سواء كنت مطورًا متمرسًا أو بدأت للتو، سيرشدك هذا الدليل المفصّل خطوة بخطوة خلال عملية إنشاء دفاتر الملاحظات دون عناء.
@@ -86,3 +92,9 @@ notebook.save(dataDir + "CreatandSaveANotebook.onetoc2");
 ### س5: أين يمكنني الحصول على الدعم لـ Aspose.Note لـ Java؟
 
  ج5: للحصول على أي مساعدة أو استفسارات بخصوص Aspose.Note for Java، يمكنك زيارة[منتدى Aspose.Note](https://forum.aspose.com/c/note/28) للتفاعل مع المجتمع والحصول على إرشادات الخبراء.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -3,10 +3,16 @@ title: استرداد المرفقات من OneNote باستخدام Java
 linktitle: استرداد المرفقات من OneNote باستخدام Java
 second_title: Aspose.Note جافا API
 description: قم باستخراج المرفقات بسهولة من مستندات OneNote في Java! يتعامل Aspose.Note مع جميع التنسيقات ومعالجة الدُفعات. خطوات سهلة ورمز متضمن! #OneNote #Java #Aspose
-type: docs
 weight: 12
 url: /ar/java/onenote-java-integration/retrieve-attachment/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# استرداد المرفقات من OneNote باستخدام Java
+
 ## مقدمة
 
 في العصر الرقمي الحالي، يعد التعامل مع تنسيقات المستندات المختلفة بكفاءة جانبًا حاسمًا في تطوير البرمجيات. Aspose.Note for Java عبارة عن واجهة برمجة تطبيقات قوية تمكن المطورين من العمل بسلاسة مع ملفات Microsoft OneNote باستخدام تطبيقات Java. سواء كنت بحاجة إلى استرداد المرفقات أو التعامل مع الصفحات أو استخراج النص، فإن Aspose.Note for Java يوفر وظائف شاملة لتبسيط سير عملك.
@@ -112,3 +118,9 @@ for (AttachedFile a : attachments) {
 ### س5: هل يوفر Aspose.Note for Java الدعم والمساعدة في حالة وجود مشكلات فنية أو استفسارات؟
 
 ج: نعم، يمكن للمطورين الوصول إلى الدعم الشامل من خلال منتدى Aspose.Note على[https://forum.aspose.com/c/note/28](https://forum.aspose.com/c/note/28) لأية مساعدة فنية أو استفسارات.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

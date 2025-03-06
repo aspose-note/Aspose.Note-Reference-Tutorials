@@ -3,10 +3,16 @@ title: OneNote에서 노트북을 이미지로 변환 - Aspose.Note
 linktitle: OneNote에서 노트북을 이미지로 변환 - Aspose.Note
 second_title: Aspose.Note 자바 API
 description: Java용 Aspose.Note를 사용하여 OneNote에서 노트북을 이미지로 변환하는 방법을 알아보세요. 이 기능을 Java 애플리케이션에 쉽게 통합할 수 있습니다.
-type: docs
 weight: 12
 url: /ko/java/onenote-notebook-operations/convert-notebook-to-image/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# OneNote에서 노트북을 이미지로 변환 - Aspose.Note
+
 ## 소개
 
 이 튜토리얼에서는 Aspose.Note for Java 라이브러리를 사용하여 OneNote에서 노트북을 이미지로 변환하는 방법을 살펴보겠습니다. 노트북을 이미지로 변환하면 노트 공유, 문서에 삽입, 프레젠테이션에 통합 등 다양한 목적에 유용할 수 있습니다.
@@ -94,3 +100,9 @@ A4: 예, Aspose.Note를 사용하면 여러 노트북을 이미지로 효율적�
 ### Q5: Aspose.Note에 대한 추가 리소스와 지원은 어디서 찾을 수 있나요?
 
  A5: 추가 문서, 예제 및 커뮤니티 지원을 보려면 다음을 방문하세요.[Aspose.Note 포럼](https://forum.aspose.com/c/note/28) 그리고 탐험해 보세요[선적 서류 비치](https://reference.aspose.com/note/java/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

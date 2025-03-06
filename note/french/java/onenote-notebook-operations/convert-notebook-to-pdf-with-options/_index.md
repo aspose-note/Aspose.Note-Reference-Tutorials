@@ -3,10 +3,16 @@ title: Convertir un bloc-notes en PDF avec les options de OneNote - Aspose.Note
 linktitle: Convertir un bloc-notes en PDF avec les options de OneNote - Aspose.Note
 second_title: API Java Aspose.Note
 description: Personnalisez et exportez facilement des blocs-notes OneNote au format PDF ! Aspose.Note pour Java gère le gros du travail. Guide étape par étape inclus ! #OneNote #Java #Aspose
-type: docs
 weight: 17
 url: /fr/java/onenote-notebook-operations/convert-notebook-to-pdf-with-options/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Convertir un bloc-notes en PDF avec les options de OneNote - Aspose.Note
+
 ## Introduction
 
 Dans ce didacticiel, nous plongerons dans le monde de la conversion de blocs-notes en PDF avec des options personnalisables à l'aide d'Aspose.Note pour Java. Aspose.Note est une puissante API Java qui permet aux développeurs de manipuler les documents Microsoft OneNote par programme. La conversion de blocs-notes au format PDF est une exigence courante dans diverses applications, et avec Aspose.Note, cette tâche devient rationalisée et efficace.
@@ -90,3 +96,9 @@ A2 : Aspose.Note prend en charge Microsoft OneNote 2010 et les versions ultérie
 ### Q5 : Comment puis-je obtenir de l'aide pour Aspose.Note ?
 
  A5 : Pour toute assistance technique ou questions, vous pouvez visiter le forum d'assistance Aspose.Note[ici](https://forum.aspose.com/c/note/28).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

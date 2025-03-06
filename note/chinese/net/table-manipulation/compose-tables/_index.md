@@ -3,10 +3,16 @@ title: 使用 Aspose.Note 撰写表格
 linktitle: 使用 Aspose.Note 撰写表格
 second_title: Aspose.Note .NET API
 description: 了解如何使用 Aspose.Note for .NET 编写包含富文本内容的结构化表格。轻松增强文档的组织性和可读性。
-type: docs
 weight: 11
 url: /zh/net/table-manipulation/compose-tables/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# 使用 Aspose.Note 撰写表格
+
 ## 介绍
 
 表格是文档的基本组成部分，可实现信息的结构化呈现。 Aspose.Note for .NET 提供了强大的工具来轻松地编写表格。在本教程中，我们将指导您完成使用 Aspose.Note 创建具有富文本内容的表格的过程。
@@ -170,3 +176,9 @@ A4：是的，您可以通过从数据库、API 或用户输入获取数据来�
 ### Q5：Aspose.Note 用户可以获得技术支持吗？
    
 A5：是的，Aspose 通过其论坛和专用支持渠道提供全面的技术支持。
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

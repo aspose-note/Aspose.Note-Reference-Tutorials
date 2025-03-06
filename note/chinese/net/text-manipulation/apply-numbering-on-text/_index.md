@@ -3,10 +3,16 @@ title: 在 Aspose.Note 中对文本应用编号
 linktitle: 在 Aspose.Note 中对文本应用编号
 second_title: Aspose.Note .NET API
 description: 通过这个综合教程，了解如何在 Aspose.Note for .NET 中应用文本编号。轻松增强文档格式。
-type: docs
 weight: 12
 url: /zh/net/text-manipulation/apply-numbering-on-text/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# 在 Aspose.Note 中对文本应用编号
+
 ## 介绍
 Aspose.Note for .NET 为 C# 应用程序中的文档操作提供了强大的工具。在本教程中，我们将探索使用 Aspose.Note 在文本上应用编号的过程。按照这些分步说明轻松增强文档格式。
 ## 先决条件
@@ -81,3 +87,9 @@ Aspose.Note 提供了广泛的格式选项，包括字体样式、颜色等。
 当然！您可以探索免费试用[这里](https://releases.aspose.com/).
 ### 5. 我在哪里可以获得Aspose.Note的支持？
 如需任何帮助或疑问，请访问[Aspose.Note 论坛](https://forum.aspose.com/c/note/28).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

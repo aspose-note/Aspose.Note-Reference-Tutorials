@@ -3,10 +3,16 @@ title: 替換 OneNote 中特定頁面上的文字 - Aspose.Note
 linktitle: 替換 OneNote 中特定頁面上的文字 - Aspose.Note
 second_title: Aspose.Note Java API
 description: 了解如何使用 Aspose.Note for Java 取代特定 OneNote 頁面上的文字。簡單易懂的高效 Java 開發教學。
-type: docs
 weight: 21
 url: /zh-hant/java/onenote-text-manipulation/replace-text-on-particular-page/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# 替換 OneNote 中特定頁面上的文字 - Aspose.Note
+
 ## 介紹
 在 Java 程式設計領域，Aspose.Note 作為處理 OneNote 檔案的強大且高效的程式庫而脫穎而出。如果您想要操作 OneNote 文件中特定頁面上的文本，Aspose.Note 提供了一個無縫的解決方案。在本逐步指南中，我們將探索如何使用 Aspose.Note for Java 取代特定頁面上的文字。請繼續了解這個強大的 Java 函式庫的潛力。
 ## 先決條件
@@ -72,3 +78,9 @@ oneFile.save(dataDir + "ReplaceTextonParticularPage_out.pdf", SaveFormat.Pdf);
 獲得臨時許可證[這裡](https://purchase.aspose.com/temporary-license/).
 ### 在哪裡可以下載 Aspose.Note for Java？
 下載庫[這裡](https://releases.aspose.com/note/java/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -3,10 +3,16 @@ title: إزالة العقدة التابعة في OneNote Notebook - Aspose.Not
 linktitle: إزالة العقدة التابعة في OneNote Notebook - Aspose.Note
 second_title: Aspose.Note جافا API
 description: تعرف على كيفية إزالة عقدة فرعية من OneNote Notebook باستخدام Aspose.Note لـ Java. اتبع دليلنا خطوة بخطوة للتعامل السلس مع المستندات.
-type: docs
 weight: 24
 url: /ar/java/onenote-notebook-operations/remove-child-node/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# إزالة العقدة التابعة في OneNote Notebook - Aspose.Note
+
 ## مقدمة
 
 في هذا البرنامج التعليمي، سوف نتعمق في عملية إزالة العقدة الفرعية في OneNote Notebook باستخدام Aspose.Note لـ Java. Aspose.Note عبارة عن واجهة برمجة تطبيقات قوية تتيح للمطورين العمل مع ملفات Microsoft OneNote برمجيًا، مما يتيح عمليات متنوعة مثل إنشاء مستندات OneNote ومعالجتها وتحويلها.
@@ -92,3 +98,9 @@ notebook.save(dataDir);
 ### س5: أين يمكنني العثور على الوثائق التفصيلية الخاصة بـ Aspose.Note لـ Java؟
 
  ج5: يمكنك الوصول إلى الوثائق الكاملة لـ Aspose.Note لـ Java[هنا](https://reference.aspose.com/note/java/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

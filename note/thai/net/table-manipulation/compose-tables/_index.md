@@ -3,10 +3,16 @@ title: เขียนตารางด้วย Aspose.Note
 linktitle: เขียนตารางด้วย Aspose.Note
 second_title: Aspose.Note .NET API
 description: เรียนรู้วิธีการเขียนตารางที่มีโครงสร้างด้วยเนื้อหา Rich Text โดยใช้ Aspose.Note สำหรับ .NET ปรับปรุงการจัดระเบียบเอกสารและความสามารถในการอ่านได้อย่างง่ายดาย
-type: docs
 weight: 11
 url: /th/net/table-manipulation/compose-tables/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# เขียนตารางด้วย Aspose.Note
+
 ## การแนะนำ
 
 ตารางเป็นองค์ประกอบพื้นฐานของเอกสาร ช่วยให้สามารถนำเสนอข้อมูลอย่างมีโครงสร้างได้ Aspose.Note สำหรับ .NET มีเครื่องมือที่มีประสิทธิภาพในการเขียนตารางได้อย่างง่ายดาย ในบทช่วยสอนนี้ เราจะแนะนำคุณตลอดกระบวนการสร้างตารางที่มีเนื้อหา Rich Text โดยใช้ Aspose.Note
@@ -170,3 +176,9 @@ A4: ได้ คุณสามารถเติมข้อมูลตาร
 ### คำถามที่ 5: มีการสนับสนุนทางเทคนิคสำหรับผู้ใช้ Aspose.Note หรือไม่
    
 A5: ใช่ Aspose ให้การสนับสนุนด้านเทคนิคอย่างครอบคลุมผ่านฟอรัมและช่องทางการสนับสนุนเฉพาะ
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

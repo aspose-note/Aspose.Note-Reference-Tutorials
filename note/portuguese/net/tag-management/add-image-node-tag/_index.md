@@ -3,10 +3,16 @@ title: Adicionar nó de imagem com tag em Aspose.Note
 linktitle: Adicionar nó de imagem com tag em Aspose.Note
 second_title: API Aspose.Note .NET
 description: Aprenda como aprimorar seus documentos do OneNote adicionando imagens com tags personalizadas usando Aspose.Note for .NET.
-type: docs
 weight: 10
 url: /pt/net/tag-management/add-image-node-tag/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Adicionar nó de imagem com tag em Aspose.Note
+
 ## Introdução
 
 Neste tutorial, exploraremos como adicionar um nó de imagem com uma tag usando Aspose.Note for .NET. Este recurso permite aprimorar seus documentos do OneNote adicionando imagens com tags personalizadas.
@@ -110,3 +116,9 @@ A4: Aspose.Note suporta principalmente a adição de imagens de diretórios loca
 ### P5: Há alguma limitação quanto ao tamanho ou formato das imagens que podem ser adicionadas?
 
 R5: Aspose.Note oferece suporte a uma ampla variedade de formatos de imagem e não impõe limitações estritas ao tamanho da imagem, permitindo incorporar diversos recursos visuais em seus documentos.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

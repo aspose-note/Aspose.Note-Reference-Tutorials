@@ -3,10 +3,16 @@ title: Táblázatstílus módosítása a OneNote-ban – Aspose.Note
 linktitle: Táblázatstílus módosítása a OneNote-ban – Aspose.Note
 second_title: Aspose.Note Java API
 description: Az Aspose.Note for Java segítségével könnyedén javíthatja OneNote-táblázatait. Kövesse lépésenkénti útmutatónkat a táblázatstílusok megváltoztatásához. Töltse le a könyvtárat most!
-type: docs
 weight: 10
 url: /hu/java/onenote-table-manipulation/change-table-style/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Táblázatstílus módosítása a OneNote-ban – Aspose.Note
+
 ## Bevezetés
 Az Aspose.Note for Java egy hatékony könyvtár, amely lehetővé teszi a fejlesztők számára, hogy könnyedén kezeljék a OneNote fájlokat. Ebben az oktatóanyagban a táblázatstílus megváltoztatására összpontosítunk egy OneNote-dokumentumban az Aspose.Note for Java használatával. Kövesse a lépésről lépésre szóló útmutatót, hogy javítsa asztalai megjelenését.
 ## Előfeltételek
@@ -88,3 +94,9 @@ Az Aspose.Note for Java leegyszerűsíti a OneNote-fájlok kezelésének folyama
  Csatlakozz a[Aspose.Note fórum](https://forum.aspose.com/c/note/28) segítséget kérni a közösségtől.
 ### Hogyan vásárolhatom meg az Aspose.Note for Java-t?
  Megvásárolhatja a könyvtárat[itt](https://purchase.aspose.com/buy).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

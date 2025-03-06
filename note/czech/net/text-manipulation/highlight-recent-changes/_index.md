@@ -3,10 +3,16 @@ title: Zvýrazněte všechny poslední změny v textu Aspose.Note
 linktitle: Zvýrazněte všechny poslední změny v textu Aspose.Note
 second_title: Aspose.Note .NET API
 description: Vylepšete své dokumenty Note s Aspose.Note pro .NET! Naučte se, jak zvýraznit poslední změny v textu, pomocí tohoto podrobného kurzu.
-type: docs
 weight: 19
 url: /cs/net/text-manipulation/highlight-recent-changes/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Zvýrazněte všechny poslední změny v textu Aspose.Note
+
 ## Úvod
 Chcete přidat dynamické a vizuálně přitažlivé funkce do dokumentů Note pomocí .NET? Aspose.Note for .NET je výkonné řešení, které vám umožní bezproblémově manipulovat a vylepšovat soubory Note. V tomto tutoriálu se ponoříme do jednoho konkrétního aspektu: zvýraznění všech posledních změn v textu Aspose.Note.
 ## Předpoklady
@@ -70,3 +76,9 @@ Můžete začlenit bloky try-catch pro zpracování výjimek a zajištění hlad
 Absolutně! Aspose.Note poskytuje širokou škálu funkcí pro formátování textu, včetně stylů písem, velikostí a dalších.
 ### Mohu toto řešení integrovat do webové aplikace?
 Ano, Aspose.Note for .NET můžete integrovat do webových aplikací a zlepšit tak možnosti zpracování dokumentů.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

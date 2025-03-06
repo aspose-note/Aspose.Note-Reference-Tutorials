@@ -3,10 +3,16 @@ title: 提取 OneNote 中的所有文字 - Aspose.Note
 linktitle: 提取 OneNote 中的所有文字 - Aspose.Note
 second_title: Aspose.Note Java API
 description: 了解如何使用 Aspose.Note for Java 從 OneNote 中提取文字。包含無縫文字擷取逐步說明的綜合指南。
-type: docs
 weight: 15
 url: /zh-hant/java/onenote-text-manipulation/extract-all-text/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# 提取 OneNote 中的所有文字 - Aspose.Note
+
 ## 介紹
 歡迎閱讀我們有關使用 Aspose.Note for Java 提取 OneNote 中所有文字的逐步指南。 Aspose.Note 是一個功能強大的 Java 程式庫，可讓您無縫處理 Microsoft OneNote 檔案。在本教程中，我們將重點放在文字擷取，為您提供該過程的詳細演練。
 ## 先決條件
@@ -66,3 +72,9 @@ System.out.println(text)
 答：Aspose.Note for Java 旨在高效處理大型 OneNote 文件，但過大的文件可能會影響效能。
 ### Q：我可以在哪裡找到其他支持或社區討論？
 答：訪問[Aspose.Note 論壇](https://forum.aspose.com/c/note/28)以尋求支持和討論。
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

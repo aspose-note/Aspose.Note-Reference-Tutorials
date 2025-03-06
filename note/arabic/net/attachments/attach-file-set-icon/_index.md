@@ -3,10 +3,16 @@ title: إرفاق ملف وتعيين أيقونة في Aspose.Note
 linktitle: إرفاق ملف وتعيين أيقونة في Aspose.Note
 second_title: Aspose.Note .NET API
 description: تعرف على كيفية إرفاق الملفات وتعيين الرموز في Aspose.Note لـ .NET. قم بتحسين تطبيقات .NET الخاصة بك من خلال هذا البرنامج التعليمي خطوة بخطوة.
-type: docs
 weight: 10
 url: /ar/net/attachments/attach-file-set-icon/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# إرفاق ملف وتعيين أيقونة في Aspose.Note
+
 ## مقدمة
 
 في مجال تطوير .NET، يبرز Aspose.Note كأداة قوية لمعالجة مستندات Microsoft OneNote برمجيًا. من خلال الاستفادة من إمكاناته، يمكن للمطورين أتمتة المهام المختلفة المتعلقة بإنشاء ملفات OneNote وتحريرها وإدارتها داخل تطبيقاتهم. إحدى الميزات الأساسية هي القدرة على إرفاق الملفات بالملاحظات وتعيين أيقونات لتلك المرفقات. في هذا البرنامج التعليمي، سنتعمق في عملية إرفاق ملف وتعيين رمز باستخدام Aspose.Note لـ .NET.
@@ -125,3 +131,9 @@ doc.Save(dataDir);
 ### س5: هل يوجد حد لحجم مرفقات الملفات في Aspose.Note لـ .NET؟
 
 ج5: لا يفرض Aspose.Note حدودًا محددة لحجم مرفقات الملفات، ولكن قد يتم تطبيق قيود عملية استنادًا إلى موارد النظام واعتبارات الأداء.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

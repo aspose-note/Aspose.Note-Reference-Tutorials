@@ -3,10 +3,16 @@ title: Tambahkan Node Anak di Aspose Note .NET
 linktitle: Tambahkan Node Anak di Aspose Note .NET
 second_title: Aspose.Catatan .NET API
 description: Pelajari cara menambahkan node anak di Aspose Note .NET dengan mudah dengan tutorial komprehensif ini. Tingkatkan keterampilan manipulasi dokumen Anda sekarang.
-type: docs
 weight: 10
 url: /id/net/notebook-operations/add-child-nodes/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Tambahkan Node Anak di Aspose Note .NET
+
 ## Perkenalan
 
 Dalam tutorial ini, kita akan mempelajari cara menambahkan node anak di Aspose Note .NET. Menambahkan node anak adalah operasi mendasar saat bekerja dengan dokumen, dan Aspose Note .NET menyediakan cara mudah untuk menyelesaikan tugas ini.
@@ -89,3 +95,9 @@ Selamat! Anda telah berhasil mempelajari cara menambahkan node anak di Aspose No
 ### Q5: Apakah Aspose.Note untuk .NET dilengkapi dengan dokumentasi?
 
  A5: Ya, Anda dapat menemukan dokumentasi detailnya[Di Sini](https://reference.aspose.com/note/net/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

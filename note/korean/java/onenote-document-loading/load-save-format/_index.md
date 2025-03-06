@@ -3,10 +3,16 @@ title: SaveFormat을 사용하여 OneNote 문서를 Aspose.Note에 로드 - Java
 linktitle: SaveFormat을 사용하여 OneNote 문서를 Aspose.Note에 로드 - Java
 second_title: Aspose.Note 자바 API
 description: SaveFormat을 사용하여 Java용 Aspose.Note로 OneNote 문서를 쉽게 관리하세요. Aspose.Note를 사용하여 Java 문서 처리 기능을 원활하게 향상하세요.
-type: docs
 weight: 24
 url: /ko/java/onenote-document-loading/load-save-format/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# SaveFormat을 사용하여 OneNote 문서를 Aspose.Note에 로드 - Java
+
 ## 소개
 
 Java 개발 영역에서는 문서를 효율적으로 처리하는 것이 중요합니다. Aspose.Note for Java는 OneNote 문서를 원활하게 작업할 수 있는 강력한 솔루션을 제공하는 편리한 도구로 제공됩니다. 이 튜토리얼에서는 Java에서 SaveFormat을 사용하여 OneNote 문서를 Aspose.Note로 로드하는 과정을 자세히 살펴보겠습니다. 이 단계별 가이드를 따르면 Aspose.Note의 강력한 기능을 활용하여 문서를 쉽게 관리할 수 있습니다.
@@ -81,3 +87,9 @@ A4: 물론 Aspose.Note를 사용하면 OneNote 문서에서 텍스트 콘텐츠�
 ### Q5: Aspose.Note 사용자를 위한 커뮤니티 포럼이 있나요?
 
  A5: 예, 다음에서 지원을 찾고 다른 Aspose.Note 사용자와 교류할 수 있습니다.[법정](https://forum.aspose.com/c/note/28).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

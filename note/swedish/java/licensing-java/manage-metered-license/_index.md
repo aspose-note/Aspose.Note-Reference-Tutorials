@@ -3,10 +3,16 @@ title: Hantera Metered License för OneNote i Java
 linktitle: Hantera Metered License för OneNote i Java
 second_title: Aspose.Note Java API
 description: Lär dig hur du hanterar mätlicenser för OneNote i Java med Aspose.Note-biblioteket. Kontrollera användningen, övervaka krediter och optimera kostnaderna effektivt.
-type: docs
 weight: 10
 url: /sv/java/licensing-java/manage-metered-license/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Hantera Metered License för OneNote i Java
+
 ## Introduktion
 
 I den här handledningen kommer vi att lära oss hur man hanterar en uppmätt licens för OneNote med Aspose.Note för Java. Licensiering med mätning låter dig övervaka och kontrollera din användning baserat på krediter, vilket ger en flexibel och kostnadseffektiv lösning.
@@ -85,3 +91,9 @@ S3: Ja, en mätlicens kan användas över flera applikationer, men förbrukninge
 ### F5: Var kan jag få support för Aspose.Note för Java?
 
  S5: Du kan få stöd från Asposes communityforum[här](https://forum.aspose.com/c/note/28).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

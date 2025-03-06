@@ -3,10 +3,16 @@ title: Lưu vào hình ảnh nhị phân trong Aspose.Note
 linktitle: Lưu vào hình ảnh nhị phân trong Aspose.Note
 second_title: Aspose.Note .NET API
 description: Tìm hiểu cách chuyển đổi tài liệu thành hình ảnh nhị phân bằng Aspose.Note for .NET. Hãy làm theo hướng dẫn từng bước của chúng tôi để tích hợp liền mạch.
-type: docs
 weight: 22
 url: /vi/net/loading-and-saving-operations/save-to-binary-image/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Lưu vào hình ảnh nhị phân trong Aspose.Note
+
 ## Giới thiệu
 
 Trong hướng dẫn này, chúng ta sẽ khám phá cách lưu tài liệu vào ảnh nhị phân bằng Aspose.Note cho .NET. Quá trình này bao gồm việc chuyển đổi tài liệu thành hình ảnh đen trắng với ngưỡng cố định, có thể hữu ích cho nhiều ứng dụng khác nhau.
@@ -97,3 +103,9 @@ Câu trả lời 3: Có, Aspose.Note tương thích với .NET Core, cho phép b
 ### Câu hỏi 5: Tôi có thể tìm thêm tài nguyên và hỗ trợ cho Aspose.Note ở đâu?
 
  A5: Bạn có thể khám phá[Tài liệu Aspose.Note](https://reference.aspose.com/note/net/)và tìm kiếm sự giúp đỡ từ[Diễn đàn Aspose.Note](https://forum.aspose.com/c/note/28) cho bất kỳ truy vấn hoặc vấn đề.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

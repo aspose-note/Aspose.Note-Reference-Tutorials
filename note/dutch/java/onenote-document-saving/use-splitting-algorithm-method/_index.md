@@ -3,10 +3,16 @@ title: Gebruik de splitsalgoritmemethode in OneNote - Aspose.Note
 linktitle: Gebruik de splitsalgoritmemethode in OneNote - Aspose.Note
 second_title: Aspose.Note Java-API
 description: Beheers het splitsen van OneNote-documenten in Java met Aspose.Note! Kies algoritmen, beheer pagina-einden en sla eenvoudig op als PDF. Inclusief code! #OneNote #Java #Aspose
-type: docs
 weight: 26
 url: /nl/java/onenote-document-saving/use-splitting-algorithm-method/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Gebruik de splitsalgoritmemethode in OneNote - Aspose.Note
+
 ## Invoering
 
 In deze zelfstudie gaan we dieper in op het gebruik van de Splitting Algorithm-methode in Aspose.Note voor Java. Aspose.Note is een krachtige bibliotheek waarmee ontwikkelaars programmatisch met Microsoft OneNote-bestanden kunnen werken. Het gebruik van het splitsalgoritme kan met name handig zijn wanneer u OneNote-documenten moet manipuleren en exporteren, vooral als u te maken heeft met complexe lay-outs of grote bestanden.
@@ -101,3 +107,9 @@ A2: Absoluut! Aspose.Note biedt robuuste functies voor het efficiënt verwerken 
 ### V5: Hoe kan ik een tijdelijke licentie voor Aspose.Note verkrijgen?
 
  A5: U kunt een aanvraag indienen voor een[tijdelijke licentie](https://purchase.aspose.com/temporary-license/) om het product tijdens een proefperiode te evalueren.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

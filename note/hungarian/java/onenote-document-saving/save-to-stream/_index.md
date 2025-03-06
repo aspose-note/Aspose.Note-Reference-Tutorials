@@ -3,10 +3,16 @@ title: Mentés adatfolyamba a OneNote-ban – Aspose.Note
 linktitle: Mentés adatfolyamba a OneNote-ban – Aspose.Note
 second_title: Aspose.Note Java API
 description: Ismerje meg, hogyan mentheti a OneNote-dokumentumokat adatfolyamba Java nyelven az Aspose.Note segítségével. Könnyedén integrálhatja ezt a funkciót alkalmazásaiba.
-type: docs
 weight: 20
 url: /hu/java/onenote-document-saving/save-to-stream/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Mentés adatfolyamba a OneNote-ban – Aspose.Note
+
 ## Bevezetés
 
 Ebben az oktatóanyagban bemutatjuk az Aspose.Note for Java használatát, amely egy hatékony könyvtár a Microsoft OneNote dokumentumok programozott használatához. Konkrétan a OneNote-dokumentumok adatfolyamba mentésének folyamatára fogunk összpontosítani. Az ebben az útmutatóban ismertetett lépések követésével hatékonyan kezelheti a OneNote-fájlokat a Java-alkalmazásokon belül.
@@ -95,3 +101,9 @@ Ebben az oktatóanyagban megtanultuk, hogyan lehet OneNote-dokumentumot adatfoly
 ### 5. kérdés: Kipróbálhatom az Aspose.Note for Java programot vásárlás előtt?
 
  5. válasz: Igen, beszerezheti az Aspose.Note for Java ingyenes próbaverzióját a[Aspose honlapja](https://releases.aspose.com/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

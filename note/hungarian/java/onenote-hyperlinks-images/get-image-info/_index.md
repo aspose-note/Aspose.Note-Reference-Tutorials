@@ -3,10 +3,16 @@ title: Képadatok beszerzése a OneNote-ból Java használatával
 linktitle: Képadatok beszerzése a OneNote-ból Java használatával
 second_title: Aspose.Note Java API
 description: Képadatok kibontása a OneNote-dokumentumokból Java nyelven! Képméretek, fájlnevek stb. Könnyű lépéseket és kódpéldákat tartalmaz. #OneNote #Java #Aspose
-type: docs
 weight: 15
 url: /hu/java/onenote-hyperlinks-images/get-image-info/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Képadatok beszerzése a OneNote-ból Java használatával
+
 ## Bevezetés
 
 A Java fejlesztés területén gyakori feladat az információk kinyerése a különböző dokumentumformátumokból. A OneNote, a jegyzetkészítés népszerű platformja, gyakran tartalmaz képeket a szöveg mellett. A képadatok programozott lekérése a OneNote-fájlokból Java használatával leegyszerűsítheti a dokumentumfeldolgozási munkafolyamatokat. Ebben az oktatóanyagban megvizsgáljuk, hogyan lehet képrészleteket kinyerni a OneNote-dokumentumokból az Aspose.Note for Java használatával.
@@ -113,3 +119,9 @@ Az oktatóanyagban ismertetett lépések követésével hatékonyan lekérheti a
 ### 5. kérdés: Hogyan szerezhetek ideiglenes licencet az Aspose.Note for Java számára?
  
  V5: Ideiglenes licencet szerezhet be[Ideiglenes jogosítvány/](https://purchase.aspose.com/temporary-license/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

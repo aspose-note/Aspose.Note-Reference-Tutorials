@@ -3,10 +3,16 @@ title: 在 OneNote 中获取节点标签 - Aspose.Note
 linktitle: 在 OneNote 中获取节点标签 - Aspose.Note
 second_title: Aspose.Note Java API
 description: 使用 Aspose.Note for Java 揭开 OneNote 的秘密。本指南使您能够轻松提取节点标签。深入了解文档操作的未来！
-type: docs
 weight: 15
 url: /zh/java/onenote-tag-operations/get-node-tags/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# 在 OneNote 中获取节点标签 - Aspose.Note
+
 ## 介绍
 欢迎来到 Aspose.Note for Java 的领域！如果您希望深入了解 OneNote 文档的管理和提取信息，那么您来对地方了。在本教程中，我们将指导您完成使用 Aspose.Note for Java 在 OneNote 中获取节点标签的过程。最后，您将掌握充分利用这个强大的 Java API 潜力的知识。
 ## 先决条件
@@ -81,3 +87,9 @@ Aspose.Note支持各种OneNote文件格式，确保不同版本之间的兼容�
 探索详细文档[这里](https://reference.aspose.com/note/java/).
 ### 对于任何问题或疑问，如何获得支持？
 前往支持论坛[这里](https://forum.aspose.com/c/note/28)寻求 Aspose 社区的帮助。
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -3,10 +3,16 @@ title: استنساخ الصفحات بكفاءة مع Aspose.Note
 linktitle: استنساخ الصفحات بكفاءة مع Aspose.Note
 second_title: Aspose.Note .NET API
 description: تعرف على كيفية استنساخ الصفحات بكفاءة في مستندات OneNote باستخدام Aspose.Note لـ .NET. اتبع برنامجنا التعليمي خطوة بخطوة لسهولة التنفيذ.
-type: docs
 weight: 16
 url: /ar/net/note-manipulation/efficient-page-cloning/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# استنساخ الصفحات بكفاءة مع Aspose.Note
+
 ## مقدمة
 
 في هذا البرنامج التعليمي، سنستكشف كيفية استنساخ الصفحات بكفاءة باستخدام Aspose.Note لـ .NET. Aspose.Note عبارة عن واجهة برمجة تطبيقات .NET قوية تتيح للمطورين العمل مع ملفات Microsoft OneNote برمجيًا. يعد استنساخ الصفحات مهمة شائعة في معالجة المستندات، ومع Aspose.Note، تصبح هذه العملية واضحة وفعالة.
@@ -90,3 +96,9 @@ cloned.AppendChildLast(document.FirstChild.Clone(true));
 ### س5: أين يمكنني الحصول على الدعم إذا واجهت أية مشكلات أثناء استخدام Aspose.Note؟
 
  ج5: يمكنك الحصول على الدعم من منتدى Aspose.Note[هنا](https://forum.aspose.com/c/note/28).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

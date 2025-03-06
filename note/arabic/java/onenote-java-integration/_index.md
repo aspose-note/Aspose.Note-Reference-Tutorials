@@ -3,10 +3,16 @@ title: تكامل OneNote مع جافا
 linktitle: تكامل OneNote مع جافا
 second_title: Aspose.Note جافا API
 description: عزز تجربة OneNote الخاصة بك مع Aspose.Note Java! استكشف البرامج التعليمية حول إرفاق الملفات وتعيين الرموز واسترداد المرفقات برمجيًا باستخدام Java.
-type: docs
 weight: 20
 url: /ar/java/onenote-java-integration/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# تكامل OneNote مع جافا
+
 ## مقدمة
 
 مرحبًا بك في دليلنا الشامل حول دمج OneNote مع Java باستخدام Aspose.Note. سواء كنت مطورًا متمرسًا أو بدأت للتو، ستمكنك هذه البرامج التعليمية من زيادة قدرات OneNote برمجيًا إلى الحد الأقصى.
@@ -36,3 +42,9 @@ url: /ar/java/onenote-java-integration/
 تعرف على كيفية إرفاق الملفات بملاحظات OneNote برمجياً باستخدام Java مع Aspose.Note.
 ### [استرداد المرفقات من OneNote باستخدام Java](./retrieve-attachment/)
 تعرف على كيفية استرداد المرفقات من OneNote باستخدام Java مع Aspose.Note، وهي واجهة برمجة تطبيقات قوية لمعالجة المستندات بسلاسة.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -3,10 +3,16 @@ title: Gerenciar licença limitada para OneNote em Java
 linktitle: Gerenciar licença limitada para OneNote em Java
 second_title: API Java Aspose.Note
 description: Aprenda como gerenciar licenças limitadas para OneNote em Java usando a biblioteca Aspose.Note. Controle o uso, monitore créditos e otimize custos com eficiência.
-type: docs
 weight: 10
 url: /pt/java/licensing-java/manage-metered-license/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Gerenciar licença limitada para OneNote em Java
+
 ## Introdução
 
 Neste tutorial, aprenderemos como gerenciar uma licença limitada para OneNote usando Aspose.Note for Java. O licenciamento medido permite monitorar e controlar seu uso com base em créditos, fornecendo uma solução flexível e econômica.
@@ -85,3 +91,9 @@ R3: Sim, uma licença limitada pode ser usada em vários aplicativos, mas o cons
 ### Q5: Onde posso obter suporte para Aspose.Note para Java?
 
  A5: Você pode obter suporte nos fóruns da comunidade Aspose[aqui](https://forum.aspose.com/c/note/28).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -3,10 +3,16 @@ title: .NET용 Aspose.Note를 사용한 OneNote 문서 조작
 linktitle: 로드 및 저장 작업
 second_title: Aspose.Note .NET API
 description: .NET용 Aspose.Note의 강력한 기능을 활용해 보세요! OneNote 문서를 손쉽게 로드, 저장 및 조작하는 방법에 대한 단계별 지침을 보려면 자습서를 살펴보세요.
-type: docs
 weight: 25
 url: /ko/net/loading-and-saving-operations/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# .NET용 Aspose.Note를 사용한 OneNote 문서 조작
+
 
 ## 소개
 
@@ -80,3 +86,9 @@ Aspose.Note를 사용하여 .NET에서 프로그래밍 방식으로 OneNote 문�
 OneNote 문서의 출력 형식 및 품질을 사용자 지정하기 위해 .NET용 Aspose.Note에서 저장 옵션을 지정하는 방법을 알아보세요.
 ### [Aspose.Note의 사용자 저장 콜백](./user-saving-callbacks/)
 .NET용 Aspose.Note에서 사용자 저장 콜백을 구현하여 글꼴, CSS 및 이미지 저장을 사용자 지정하는 방법을 알아보세요.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

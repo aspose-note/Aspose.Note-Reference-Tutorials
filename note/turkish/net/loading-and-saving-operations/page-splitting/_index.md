@@ -3,10 +3,16 @@ title: Aspose.Note'ta Sayfa Bölme
 linktitle: Aspose.Note'ta Sayfa Bölme
 second_title: Aspose.Note .NET API'si
 description: Farklı algoritmalar kullanarak Aspose.Note for .NET'te sayfaları etkili bir şekilde nasıl böleceğinizi öğrenin. OneNote belgelerinin PDF biçiminde düzgün bir şekilde organize edilmesini sağlayın.
-type: docs
 weight: 17
 url: /tr/net/loading-and-saving-operations/page-splitting/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Aspose.Note'ta Sayfa Bölme
+
 ## giriiş
 
 Bu eğitimde Aspose.Note for .NET kullanarak sayfaları etkili bir şekilde nasıl bölebileceğimizi inceleyeceğiz. Sayfa bölme, özellikle PDF formatına dönüştürülmesi gereken uzun OneNote sayfalarıyla uğraşırken çok önemli bir işlevselliktir. Aspose.Note, bölme mantığını kontrol etmek için çeşitli algoritmalar sunarak elde edilen PDF'lerin iyi organize edilmiş ve okunabilir olmasını sağlar.
@@ -87,3 +93,9 @@ Cevap4: Aspose.Note öncelikli olarak .NET çerçevesini hedefler ancak .NET Cor
 ### S5: Herhangi bir sorunla karşılaşırsam nereden yardım alabilirim?
 
  Cevap5: Aspose.Note topluluk forumundan yardım isteyebilirsiniz[Burada](https://forum.aspose.com/c/note/28).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

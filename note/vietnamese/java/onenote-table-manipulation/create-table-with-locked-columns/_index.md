@@ -3,10 +3,16 @@ title: Tạo bảng có cột bị khóa trong OneNote - Aspose.Note
 linktitle: Tạo bảng có cột bị khóa trong OneNote - Aspose.Note
 second_title: API Java Aspose.Note
 description: Nâng cao trải nghiệm OneNote của bạn với Aspose.Note for Java. Tìm hiểu cách tạo bảng có cột bị khóa bằng hướng dẫn từng bước. Tải về dùng thử ngay!
-type: docs
 weight: 12
 url: /vi/java/onenote-table-manipulation/create-table-with-locked-columns/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Tạo bảng có cột bị khóa trong OneNote - Aspose.Note
+
 ## Giới thiệu
 OneNote là một công cụ mạnh mẽ để sắp xếp thông tin và Aspose.Note dành cho Java nâng cao khả năng của nó bằng cách cung cấp một cách liền mạch để tạo các bảng có các cột bị khóa. Trong hướng dẫn này, chúng tôi sẽ hướng dẫn bạn quy trình sử dụng Aspose.Note cho Java để tạo bảng có các cột bị khóa trong OneNote.
 ## Điều kiện tiên quyết
@@ -90,3 +96,9 @@ Tuyệt đối! Aspose.Note for Java cung cấp các tùy chọn mở rộng đ�
  Tham quan[Diễn đàn Aspose.Note](https://forum.aspose.com/c/note/28) để được hỗ trợ và thảo luận cộng đồng.
 ### Làm cách nào tôi có thể nhận được giấy phép tạm thời cho Aspose.Note cho Java?
  Thăm nom[liên kết này](https://purchase.aspose.com/temporary-license/) để có được giấy phép tạm thời cho mục đích thử nghiệm.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

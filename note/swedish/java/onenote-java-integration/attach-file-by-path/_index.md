@@ -3,10 +3,16 @@ title: Bifoga fil efter sökväg i OneNote med Java
 linktitle: Bifoga fil efter sökväg i OneNote med Java
 second_title: Aspose.Note Java API
 description: Lägg till filer till dina OneNote-anteckningar sömlöst! Lär dig hur du bifogar via sökväg i Java med Aspose.Note. Enkel guide och kod ingår! #OneNote #Java #Aspose
-type: docs
 weight: 11
 url: /sv/java/onenote-java-integration/attach-file-by-path/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Bifoga fil efter sökväg i OneNote med Java
+
 ## Introduktion
 
 OneNote är ett mångsidigt verktyg för att organisera och hantera anteckningar, och med Aspose.Note för Java kan du förbättra dess funktionalitet genom att programmatiskt bifoga filer till dina anteckningar. I den här handledningen guidar vi dig genom processen att bifoga en fil efter dess sökväg i OneNote med Java.
@@ -148,3 +154,9 @@ S4: Ja, du kan bifoga filer till specifika sektioner genom att organisera dem i 
 ### F5: Finns det en gräns för filstorleken jag kan bifoga?
 
 S5: Aspose.Note sätter inga strikta begränsningar för filstorlek, men överväger prestandakonsekvenser för mycket stora filer.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -3,10 +3,16 @@ title: Add Child Node in OneNote Notebook - Aspose.Note
 linktitle: Add Child Node in OneNote Notebook - Aspose.Note
 second_title: Aspose.Note Java API
 description: Learn how to programmatically add child nodes to OneNote notebooks using Aspose.Note for Java. Improve your note organization effortlessly.
-type: docs
 weight: 11
 url: /java/onenote-notebook-operations/add-child-node/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Add Child Node in OneNote Notebook - Aspose.Note
+
 ## Introduction
 
 OneNote is a powerful tool for organizing your notes and ideas. Aspose.Note for Java provides convenient ways to manipulate OneNote files programmatically. In this tutorial, we'll walk through the process of adding a child node to a OneNote notebook step by step.
@@ -89,3 +95,10 @@ A4: Yes, you can easily integrate Aspose.Note for Java into your Java projects b
 ### Q5: Is there a community forum where I can seek help and guidance for using Aspose.Note for Java?
 
 A5: Yes, you can visit the [Aspose.Note forum](https://forum.aspose.com/c/note/28) to ask questions, share knowledge, and interact with other users and experts.
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -3,10 +3,16 @@ title: العمل مع مراجعات الصفحة في OneNote - Aspose.Note
 linktitle: العمل مع مراجعات الصفحة في OneNote - Aspose.Note
 second_title: Aspose.Note جافا API
 description: تعرف على كيفية إدارة مراجعات الصفحات في مستندات OneNote باستخدام Aspose.Note لـ Java. يوفر دليلاً خطوة بخطوة لتتبع المراجعة والتعاون بشكل فعال.
-type: docs
 weight: 21
 url: /ar/java/onenote-page-manipulation/working-with-page-revisions/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# العمل مع مراجعات الصفحة في OneNote - Aspose.Note
+
 ## مقدمة
 
 يعد OneNote أداة قوية لتنظيم الملاحظات وإدارتها، ولكن في بعض الأحيان تحتاج إلى العمل مع المراجعات لتتبع التغييرات والتعاون بشكل فعال. باستخدام Aspose.Note for Java، يمكنك بسهولة إدارة مراجعات الصفحة في مستندات OneNote برمجيًا. سيرشدك هذا البرنامج التعليمي خلال العملية خطوة بخطوة.
@@ -98,3 +104,9 @@ document.save(dataDir + "WorkingWithPageRevisions_out.one");
 ### س5: أين يمكنني الحصول على الدعم لـ Aspose.Note لـ Java؟
 
  ج: يمكنك الحصول على دعم Aspose.Note لـ Java من[منتدى Aspose.Note](https://forum.aspose.com/c/note/28).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

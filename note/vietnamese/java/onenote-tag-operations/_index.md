@@ -3,10 +3,16 @@ title: Hoạt động thẻ OneNote
 linktitle: Hoạt động thẻ OneNote
 second_title: API Java Aspose.Note
 description: Khám phá sức mạnh của Aspose.Note dành cho Java. Nâng cao trải nghiệm OneNote của bạn với hướng dẫn từng bước về thao tác gắn thẻ, thêm hình ảnh, bảng, nút văn bản, v.v.
-type: docs
 weight: 33
 url: /vi/java/onenote-tag-operations/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Hoạt động thẻ OneNote
+
 ## Giới thiệu
 
 Tìm hiểu cách tối ưu hóa trải nghiệm OneNote của bạn với Aspose.Note for Java. Từ việc thêm các nút hình ảnh mới vào các nút bảng động, loạt bài hướng dẫn này sẽ nâng cao kỹ năng lập trình Java của bạn một cách dễ dàng.
@@ -47,3 +53,9 @@ Khám phá cách thêm nút văn bản có thẻ trong OneNote bằng Aspose.Not
 Tăng cường cộng tác với Aspose.Note dành cho Java! Tìm hiểu cách tạo mẫu ghi chú cuộc họp động theo từng bước. Tải thư viện ngay bây giờ!
 ### [Nhận thẻ nút trong OneNote - Aspose.Note](./get-node-tags/)
 Khám phá bí mật của OneNote với Aspose.Note for Java. Hướng dẫn này cho phép bạn trích xuất thẻ nút một cách dễ dàng. Đi sâu vào tương lai của thao tác tài liệu!
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

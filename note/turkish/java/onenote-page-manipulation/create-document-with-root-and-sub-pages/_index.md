@@ -3,10 +3,16 @@ title: OneNote'ta Kök ve Alt Sayfalarla Belge Oluşturma
 linktitle: OneNote'ta Kök ve Alt Sayfalarla Belge Oluşturma
 second_title: Aspose.Note Java API'si
 description: Aspose.Note for Java'yı kullanarak OneNote'ta kök ve alt sayfaları olan bir belge oluşturun. Notlarınızı verimli bir şekilde düzenlemek için adım adım kılavuzu izleyin.
-type: docs
 weight: 11
 url: /tr/java/onenote-page-manipulation/create-document-with-root-and-sub-pages/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# OneNote'ta Kök ve Alt Sayfalarla Belge Oluşturma
+
 ## giriiş
 
 Bu eğitimde, Aspose.Note for Java'yı kullanarak OneNote'ta kök ve alt sayfalardan oluşan bir belge oluşturma sürecinde size rehberlik edeceğiz. Bu adımları izleyerek OneNote belgelerinizi hiyerarşik yapıyla verimli bir şekilde düzenleyebileceksiniz.
@@ -169,3 +175,9 @@ Cevap4: Evet, Aspose.Note for Java, belgelerin BMP, PDF, PNG ve daha fazlası da
 ### S5: Aspose.Note for Java'nın deneme sürümü mevcut mu?
 
 Cevap5: Evet, Aspose.Note for Java'nın ücretsiz deneme sürümünü web sitesinden indirebilirsiniz.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

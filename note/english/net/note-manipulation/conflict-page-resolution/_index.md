@@ -3,10 +3,16 @@ title: Resolve Conflicts in Aspose.Note Documents
 linktitle: Resolve Conflicts in Aspose.Note Documents
 second_title: Aspose.Note .NET API
 description: Learn how to resolve conflicts in Aspose.Note documents using .NET. Step-by-step guide for efficient conflict resolution.
-type: docs
 weight: 10
 url: /net/note-manipulation/conflict-page-resolution/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Resolve Conflicts in Aspose.Note Documents
+
 ## Introduction
 
 Resolving conflicts in Aspose.Note documents is a crucial task, especially when dealing with collaborative projects or multiple contributors. These conflicts may arise due to simultaneous edits, differing versions, or other discrepancies within the document. In this tutorial, we'll delve into the process of identifying and resolving conflicts within Aspose.Note documents using .NET. By following these steps, you'll be equipped to efficiently manage conflicts and ensure document integrity.
@@ -100,3 +106,10 @@ A4: Yes, you can automate conflict resolution by implementing custom logic withi
 ### Q5: Does Aspose.Note support real-time collaboration features?
 
 A5: Aspose.Note primarily focuses on document manipulation and does not offer real-time collaboration features out of the box.
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

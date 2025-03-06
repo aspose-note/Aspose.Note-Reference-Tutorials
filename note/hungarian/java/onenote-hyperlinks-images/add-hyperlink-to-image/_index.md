@@ -3,10 +3,16 @@ title: Hiperhivatkozás hozzáadása a képhez a OneNote-ban Java használatáva
 linktitle: Hiperhivatkozás hozzáadása a képhez a OneNote-ban Java használatával
 second_title: Aspose.Note Java API
 description: Tegye interaktívvá a OneNote-dokumentumokat! Ismerje meg, hogyan adhat hozzá hivatkozásokat a képekhez Java nyelven az Aspose.Note segítségével. Könnyű lépések és kódpéldák mellékelve! #OneNote #Java #Aspose
-type: docs
 weight: 11
 url: /hu/java/onenote-hyperlinks-images/add-hyperlink-to-image/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Hiperhivatkozás hozzáadása a képhez a OneNote-ban Java használatával
+
 ## Bevezetés
 
 Ebben az oktatóanyagban megvizsgáljuk, hogyan adhatunk hiperhivatkozásokat a képekhez a OneNote-ban Java használatával. A képek hiperhivatkozása nagymértékben fokozhatja a dokumentumok interaktivitását és hasznosságát, lehetővé téve a felhasználók számára, hogy egy kattintással könnyen hozzáférjenek a kapcsolódó tartalmakhoz vagy külső forrásokhoz.
@@ -97,3 +103,9 @@ Hiperhivatkozások hozzáadása a OneNote-dokumentumok képeihez Java használat
 ### 5. kérdés: Az Aspose.Note for Java támogatja a OneNote-on kívül más dokumentumformátumokat is?
 
 5. válasz: Igen, az Aspose.Note for Java különféle dokumentumformátumokat támogat, beleértve a PDF-, HTML- és képformátumokat.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -3,10 +3,16 @@ title: Document opslaan in OneNote met SaveFormat - Aspose.Note
 linktitle: Document opslaan in OneNote met SaveFormat - Aspose.Note
 second_title: Aspose.Note Java-API
 description: Leer hoe u documenten in OneNote-indeling kunt opslaan met Aspose.Note voor Java. Volg deze stapsgewijze tutorial voor een naadloze integratie in uw Java-applicaties.
-type: docs
 weight: 12
 url: /nl/java/onenote-document-saving/save-document-to-onenote-format-using-saveformat/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Document opslaan in OneNote met SaveFormat - Aspose.Note
+
 ## Invoering
 
 Aspose.Note voor Java is een krachtige bibliotheek waarmee ontwikkelaars programmatisch met Microsoft OneNote-bestanden kunnen werken. Het opslaan van een document in OneNote-indeling met SaveFormat is een eenvoudig proces. In deze zelfstudie doorlopen we de stappen die nodig zijn om deze taak te volbrengen.
@@ -78,3 +84,9 @@ A1: Aspose.Note voor Java ondersteunt verschillende versies van Microsoft OneNot
 ### V5: Is er een tijdelijke licentieoptie beschikbaar voor Aspose.Note voor Java?
 
  A5: Ja, u kunt een tijdelijke licentie voor Aspose.Note voor Java verkrijgen via[hier](https://purchase.aspose.com/temporary-license/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

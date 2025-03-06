@@ -3,10 +3,16 @@ title: إرفاق الملف حسب المسار في Aspose.Note
 linktitle: إرفاق الملف حسب المسار في Aspose.Note
 second_title: Aspose.Note .NET API
 description: تعرف على كيفية إرفاق الملفات بمستندات Microsoft OneNote برمجياً باستخدام Aspose.Note لـ .NET. قم بتبسيط عملية التطوير الخاصة بك مع هذا البرنامج التعليمي الشامل.
-type: docs
 weight: 11
 url: /ar/net/attachments/attach-file-by-path/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# إرفاق الملف حسب المسار في Aspose.Note
+
 ## مقدمة
 
 Aspose.Note for .NET هي مكتبة قوية تمكن المطورين من العمل مع ملفات Microsoft OneNote برمجياً. سواء كنت تريد إنشاء مستندات OneNote أو تحريرها أو تحويلها أو معالجتها، فإن Aspose.Note for .NET يوفر وظائف شاملة لتبسيط عملية التطوير الخاصة بك.
@@ -147,3 +153,9 @@ doc.Save(dataDir);
 ### س5: أين يمكنني طلب الدعم لـ Aspose.Note لـ .NET؟
 
  ج5: يمكنك طلب الدعم من منتديات مجتمع Aspose.Note[هنا](https://forum.aspose.com/c/note/28).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

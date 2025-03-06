@@ -3,10 +3,16 @@ title: Guardar en imagen en escala de grises en OneNote - Aspose.Note
 linktitle: Guardar en imagen en escala de grises en OneNote - Aspose.Note
 second_title: Aspose.Nota Java API
 description: Aprenda cómo guardar un documento como una imagen en escala de grises en OneNote usando Aspose.Note para Java. Manipule fácilmente documentos de Microsoft OneNote mediante programación.
-type: docs
 weight: 17
 url: /es/java/onenote-document-saving/save-to-grayscale-image/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Guardar en imagen en escala de grises en OneNote - Aspose.Note
+
 ## Introducción
 
 En este tutorial, exploraremos cómo guardar un documento como una imagen en escala de grises en OneNote usando Aspose.Note para Java. Las imágenes en escala de grises son imágenes monocromáticas donde la información del color está representada únicamente por tonos de gris. Aspose.Note es una potente API de Java que permite la manipulación de documentos de Microsoft OneNote mediante programación.
@@ -83,3 +89,9 @@ R4: ¡Absolutamente! Aspose.Note proporciona una amplia gama de funciones para e
 ### P5: ¿Dónde puedo encontrar soporte si tengo problemas?
 
 R5: Puede encontrar soporte en el foro Aspose.Note[aquí](https://forum.aspose.com/c/note/28).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -3,10 +3,16 @@ title: Prześlij bieżącą wersję strony w programie OneNote — Aspose.Note
 linktitle: Prześlij bieżącą wersję strony w programie OneNote — Aspose.Note
 second_title: Aspose.Note API Java
 description: Zachowaj świeżość zawartości programu OneNote! Dowiedz się, jak aktualizować historię strony i zarządzać wersjami. Zawiera przewodnik krok po kroku i kod. #OneNote #Java #Aspose
-type: docs
 weight: 18
 url: /pl/java/onenote-page-manipulation/push-current-page-version/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Prześlij bieżącą wersję strony w programie OneNote — Aspose.Note
+
 ## Wstęp
 
 W tym samouczku omówimy, jak wykorzystać Aspose.Note dla języka Java do przesyłania bieżącej wersji strony do programu OneNote. Aspose.Note to potężna biblioteka Java, która umożliwia programistom programową pracę z dokumentami Microsoft OneNote, umożliwiając różne operacje, takie jak tworzenie, manipulowanie i konwertowanie plików OneNote.
@@ -90,3 +96,9 @@ O4: Tak, Aspose.Note dla Java obsługuje konwersję plików OneNote do różnych
 ### P5: Gdzie mogę uzyskać pomoc dotyczącą Aspose.Note dla Java, jeśli napotkam jakiekolwiek problemy?
 
  A5: Możesz odwiedzić[Forum Aspose.Note](https://forum.aspose.com/c/note/28) aby zwrócić się o pomoc do społeczności lub skontaktować się bezpośrednio z pomocą techniczną Aspose.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

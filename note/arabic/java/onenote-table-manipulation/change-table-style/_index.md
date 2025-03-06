@@ -3,10 +3,16 @@ title: تغيير نمط الجدول في OneNote - Aspose.Note
 linktitle: تغيير نمط الجدول في OneNote - Aspose.Note
 second_title: Aspose.Note جافا API
 description: قم بتحسين جداول OneNote الخاصة بك بسهولة باستخدام Aspose.Note لـ Java. اتبع دليلنا خطوة بخطوة لتغيير أنماط الجدول. قم بتنزيل المكتبة الآن!
-type: docs
 weight: 10
 url: /ar/java/onenote-table-manipulation/change-table-style/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# تغيير نمط الجدول في OneNote - Aspose.Note
+
 ## مقدمة
 Aspose.Note for Java هي مكتبة قوية تسمح للمطورين بمعالجة ملفات OneNote دون عناء. في هذا البرنامج التعليمي، سنركز على تغيير نمط الجدول في مستند OneNote باستخدام Aspose.Note لـ Java. اتبع الدليل الموضح خطوة بخطوة لتحسين المظهر المرئي لجداولك.
 ## المتطلبات الأساسية
@@ -88,3 +94,9 @@ document.save(Paths.get(dataDir, "ChangeTableStyleOut.one").toString());
  انضم الي[منتدى Aspose.Note](https://forum.aspose.com/c/note/28) لطلب المساعدة من المجتمع.
 ### كيف يمكنني شراء Aspose.Note لـ Java؟
  يمكنك شراء المكتبة[هنا](https://purchase.aspose.com/buy).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

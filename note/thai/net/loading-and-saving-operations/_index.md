@@ -3,10 +3,16 @@ title: การจัดการเอกสาร OneNote ด้วย Aspose
 linktitle: กำลังโหลดและบันทึกการดำเนินการ
 second_title: Aspose.Note .NET API
 description: ปลดล็อกพลังของ Aspose.Note สำหรับ .NET! เจาะลึกบทช่วยสอนของเราเพื่อรับคำแนะนำทีละขั้นตอนเกี่ยวกับการโหลด บันทึก และการจัดการเอกสาร OneNote ได้อย่างง่ายดาย
-type: docs
 weight: 25
 url: /th/net/loading-and-saving-operations/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# การจัดการเอกสาร OneNote ด้วย Aspose.Note สำหรับ .NET
+
 
 ## การแนะนำ
 
@@ -80,3 +86,9 @@ url: /th/net/loading-and-saving-operations/
 เรียนรู้วิธีระบุตัวเลือกการบันทึกใน Aspose.Note สำหรับ .NET เพื่อกำหนดรูปแบบเอาต์พุตและคุณภาพของเอกสาร OneNote เอง
 ### [การโทรกลับแบบประหยัดผู้ใช้ใน Aspose.Note](./user-saving-callbacks/)
 เรียนรู้วิธีใช้การโทรกลับแบบประหยัดผู้ใช้ใน Aspose.Note สำหรับ .NET เพื่อปรับแต่งแบบอักษรสำหรับการบันทึก, CSS และรูปภาพ
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

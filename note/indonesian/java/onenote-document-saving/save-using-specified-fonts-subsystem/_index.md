@@ -3,10 +3,16 @@ title: Simpan Menggunakan Subsistem Font Tertentu di OneNote
 linktitle: Simpan Menggunakan Subsistem Font Tertentu di OneNote
 second_title: Aspose.Catatan Java API
 description: Pelajari cara menyimpan dokumen OneNote menggunakan subsistem font tertentu di Java dengan Aspose.Note. Pastikan representasi font yang konsisten di seluruh platform dengan mudah.
-type: docs
 weight: 22
 url: /id/java/onenote-document-saving/save-using-specified-fonts-subsystem/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Simpan Menggunakan Subsistem Font Tertentu di OneNote
+
 ## Perkenalan
 
 Aspose.Note untuk Java memberikan kemampuan yang kuat untuk bekerja dengan dokumen OneNote. Salah satu persyaratan umum saat bekerja dengan dokumen tersebut adalah memastikan bahwa font dipelihara dengan baik, terutama jika dokumen tersebut akan diekspor atau disimpan dalam format berbeda seperti PDF. Tutorial ini akan memandu Anda melalui proses menyimpan dokumen OneNote sambil menentukan subsistem font, memastikan representasi teks yang konsisten dan akurat di berbagai platform.
@@ -152,3 +158,9 @@ A4: Ya, Anda dapat menyesuaikan properti font seperti ukuran, gaya, dan warna me
 ### Q5: Apakah ada versi uji coba yang tersedia untuk Aspose.Note untuk Java?
 
 A5: Ya, Anda bisa mendapatkan uji coba gratis Aspose.Note untuk Java dari situs web.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

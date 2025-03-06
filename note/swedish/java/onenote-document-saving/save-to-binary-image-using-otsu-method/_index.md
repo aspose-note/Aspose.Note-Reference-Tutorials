@@ -3,10 +3,16 @@ title: Spara till binär bild med Otsu-metoden i OneNote
 linktitle: Spara till binär bild med Otsu-metoden i OneNote
 second_title: Aspose.Note Java API
 description: Lär dig att spara OneNote-dokument som binära bilder med Otsu-metoden med Aspose.Note för Java. Öka din Java-apps kapacitet med Aspose.Note.
-type: docs
 weight: 15
 url: /sv/java/onenote-document-saving/save-to-binary-image-using-otsu-method/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Spara till binär bild med Otsu-metoden i OneNote
+
 ## Introduktion
 
 I den här handledningen kommer vi att lära oss hur man sparar ett dokument som en binär bild med Otsu-metoden i Aspose.Note för Java. Aspose.Note är ett kraftfullt API som gör det möjligt för Java-utvecklare att arbeta med Microsoft OneNote-filer programmatiskt. Att spara dokument som binära bilder kan vara användbart för olika applikationer som bildbehandling, OCR (Optical Character Recognition) och mer.
@@ -82,3 +88,9 @@ S4: Medan Aspose.Note främst handlar om att manipulera OneNote-dokument, kan du
 ### F5: Var kan jag få support om jag stöter på problem när jag använder Aspose.Note för Java?
 
 S5: Du kan besöka Aspose.Note-forumet eller kontakta deras supportteam för hjälp med tekniska problem eller förfrågningar.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

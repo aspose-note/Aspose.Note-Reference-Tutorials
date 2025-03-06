@@ -3,10 +3,16 @@ title: 使用 SaveFormat 将 OneNote 文档加载到 Aspose.Note - Java
 linktitle: 使用 SaveFormat 将 OneNote 文档加载到 Aspose.Note - Java
 second_title: Aspose.Note Java API
 description: 使用 SaveFormat 通过 Aspose.Note for Java 轻松管理 OneNote 文档。使用 Aspose.Note 无缝增强您的 Java 文档处理能力。
-type: docs
 weight: 24
 url: /zh/java/onenote-document-loading/load-save-format/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# 使用 SaveFormat 将 OneNote 文档加载到 Aspose.Note - Java
+
 ## 介绍
 
 在 Java 开发领域，有效地处理文档至关重要。 Aspose.Note for Java 是一款方便的工具，为无缝处理 OneNote 文档提供了强大的解决方案。在本教程中，我们将深入研究使用 Java 中的 SaveFormat 将 OneNote 文档加载到 Aspose.Note 的过程。通过遵循此分步指南，您将利用 Aspose.Note 的强大功能轻松管理您的文档。
@@ -81,3 +87,9 @@ A4：当然，Aspose.Note 可以让您轻松地从 OneNote 文档中提取文本
 ### Q5：有 Aspose.Note 用户的社区论坛吗？
 
  A5：是的，您可以在以下位置找到支持并与其他 Aspose.Note 用户互动[论坛](https://forum.aspose.com/c/note/28).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

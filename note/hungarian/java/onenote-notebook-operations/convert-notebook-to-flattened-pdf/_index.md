@@ -3,10 +3,16 @@ title: Jegyzetfüzet konvertálása lapos PDF-formátumba a OneNote-ban – Aspo
 linktitle: Jegyzetfüzet konvertálása lapos PDF-formátumba a OneNote-ban – Aspose.Note
 second_title: Aspose.Note Java API
 description: Az Aspose.Note for Java segítségével könnyedén konvertálja a jegyzetfüzeteket lapos PDF-fájlokká. Élvezze a zökkenőmentes integrációt és testreszabási lehetőségeket.
-type: docs
 weight: 16
 url: /hu/java/onenote-notebook-operations/convert-notebook-to-flattened-pdf/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Jegyzetfüzet konvertálása lapos PDF-formátumba a OneNote-ban – Aspose.Note
+
 ## Bevezetés
 
 Ebben az oktatóanyagban megvizsgáljuk, hogyan alakíthat át egy notebookot laposított PDF formátumba az Aspose.Note for Java segítségével. A jegyzetfüzetek PDF formátumba konvertálása számos alkalmazásnál gyakori követelmény, és az Aspose.Note leegyszerűsíti ezt a folyamatot átfogó szolgáltatáskészletével és könnyen használható API-jával.
@@ -82,3 +88,9 @@ Ebben az oktatóanyagban megtanultuk, hogyan lehet egy notebookot laposított PD
 ### 5. kérdés: Hol találok támogatást az Aspose.Note for Java számára?
 
  5. válasz: Az Aspose.Note for Java-hoz támogatást és segítséget találhat a webhelyen[Aspose.Note fórum](https://forum.aspose.com/c/note/28).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -3,10 +3,16 @@ title: .NET용 Aspose.Note를 사용하여 OneNote 인쇄 마스터하기
 linktitle: 문서 인쇄
 second_title: Aspose.Note .NET API
 description: .NET용 Aspose.Note를 사용하여 OneNote 문서를 인쇄하세요. .NET 앱과의 원활한 통합을 살펴보고, 인쇄 옵션을 사용자 정의하고, 문서 인쇄의 강력한 기능을 활용해 보세요.
-type: docs
 weight: 28
 url: /ko/net/printing-document/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# .NET용 Aspose.Note를 사용하여 OneNote 인쇄 마스터하기
+
 ## 소개
 
 .NET용 Aspose.Note를 사용하여 문서 인쇄 게임을 향상시킬 준비가 되셨습니까? 더 이상 보지 마세요! 이 세부 가이드에서는 OneNote 문서를 쉽게 인쇄하고 맞춤형 경험을 위해 인쇄 옵션을 사용자 지정할 수 있도록 보장하는 두 가지 필수 자습서를 자세히 살펴보겠습니다.
@@ -49,3 +55,9 @@ OneNote 문서에 맞게 조정된 인쇄 옵션에 액세스하고 탐색하는
 .NET용 Aspose.Note를 사용하여 OneNote 문서를 인쇄하는 방법을 알아보세요. .NET 애플리케이션에 원활하게 통합하기 위한 단계별 가이드입니다.
 ### [Aspose.Note 인쇄 옵션으로 인쇄 사용자 정의](./customize-printing-options/)
 .NET용 Aspose.Note를 사용하여 문서 인쇄를 사용자 정의하는 방법을 알아보세요. 최적의 인쇄를 위해 설정을 미세 조정합니다.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

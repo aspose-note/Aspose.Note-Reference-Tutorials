@@ -3,10 +3,16 @@ title: Áp dụng đánh số trên văn bản trong Aspose.Note
 linktitle: Áp dụng đánh số trên văn bản trong Aspose.Note
 second_title: Aspose.Note .NET API
 description: Tìm hiểu cách áp dụng đánh số văn bản trong Aspose.Note cho .NET với hướng dẫn toàn diện này. Nâng cao định dạng tài liệu của bạn một cách dễ dàng.
-type: docs
 weight: 12
 url: /vi/net/text-manipulation/apply-numbering-on-text/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Áp dụng đánh số trên văn bản trong Aspose.Note
+
 ## Giới thiệu
 Aspose.Note for .NET cung cấp các công cụ mạnh mẽ để thao tác tài liệu trong các ứng dụng C#. Trong hướng dẫn này, chúng ta sẽ khám phá quy trình áp dụng đánh số trên văn bản bằng Aspose.Note. Hãy làm theo các hướng dẫn từng bước này để cải thiện định dạng tài liệu của bạn một cách dễ dàng.
 ## Điều kiện tiên quyết
@@ -81,3 +87,9 @@ Tuyệt đối! Aspose.Note tích hợp liền mạch với Visual Studio để 
  Chắc chắn! Bạn có thể khám phá bản dùng thử miễn phí[đây](https://releases.aspose.com/).
 ### 5. Tôi có thể nhận hỗ trợ cho Aspose.Note ở đâu?
  Đối với bất kỳ sự trợ giúp hoặc thắc mắc nào, hãy truy cập[Diễn đàn Aspose.Note](https://forum.aspose.com/c/note/28).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

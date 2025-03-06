@@ -3,10 +3,16 @@ title: Szöveg cseréje adott oldalon a OneNote-ban – Aspose.Note
 linktitle: Szöveg cseréje adott oldalon a OneNote-ban – Aspose.Note
 second_title: Aspose.Note Java API
 description: Ismerje meg, hogyan cserélhet szöveget egy adott OneNote-oldalon az Aspose.Note for Java használatával. Könnyen követhető oktatóanyag a hatékony Java fejlesztéshez.
-type: docs
 weight: 21
 url: /hu/java/onenote-text-manipulation/replace-text-on-particular-page/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Szöveg cseréje adott oldalon a OneNote-ban – Aspose.Note
+
 ## Bevezetés
 Java programozás területén az Aspose.Note egy robusztus és hatékony könyvtár a OneNote-fájlok kezelésére. Ha szöveget szeretne manipulálni a OneNote-dokumentum egy adott oldalán, az Aspose.Note zökkenőmentes megoldást kínál. Ebben a lépésenkénti útmutatóban megvizsgáljuk, hogyan lehet szöveget cserélni egy adott oldalon az Aspose.Note for Java segítségével. Kövesse a lépést, hogy felszabadítsa a nagy teljesítményű Java-könyvtárban rejlő lehetőségeket.
 ## Előfeltételek
@@ -72,3 +78,9 @@ Gratulálunk! Sikeresen megtanulta, hogyan cserélhet le szöveget egy adott old
  Szerezzen ideiglenes engedélyt[itt](https://purchase.aspose.com/temporary-license/).
 ### Honnan tölthetem le az Aspose.Note for Java-t?
  Töltse le a könyvtárat[itt](https://releases.aspose.com/note/java/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

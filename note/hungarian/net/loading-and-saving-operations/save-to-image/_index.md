@@ -3,10 +3,16 @@ title: Mentés képbe az Aspose.Note-ban
 linktitle: Mentés képbe az Aspose.Note-ban
 second_title: Aspose.Note .NET API
 description: Könnyedén konvertálja a Microsoft OneNote dokumentumokat képformátumba BMP-ben az Aspose.Note for .NET segítségével. Zökkenőmentes integráció, egyszerű lépések és robusztus funkcionalitás.
-type: docs
 weight: 23
 url: /hu/net/loading-and-saving-operations/save-to-image/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Mentés képbe az Aspose.Note-ban
+
 ## Bevezetés
 
 Ebben az oktatóanyagban a dokumentum képformátumba mentésének folyamatát mutatjuk be az Aspose.Note for .NET használatával. Az Aspose.Note egy hatékony API, amely lehetővé teszi a fejlesztők számára, hogy programozottan dolgozzanak Microsoft OneNote fájlokkal, és különféle funkciókat kínálnak a dokumentumok kezeléséhez és konvertálásához.
@@ -88,3 +94,9 @@ A4: Természetesen az Aspose.Note széles körű lehetőségeket kínál a kimen
 ### 5. kérdés: Az Aspose.Note nyújt technikai támogatást a fejlesztőknek?
 
 5. válasz: Igen, az Aspose.Note átfogó technikai támogatást kínál fórumokon és dokumentáción keresztül, biztosítva a zökkenőmentes fejlesztési élményt.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -3,10 +3,16 @@ title: Générer un modèle pour les notes de réunion avec Aspose.Note
 linktitle: Générer un modèle pour les notes de réunion avec Aspose.Note
 second_title: API Aspose.Note .NET
 description: Découvrez comment générer des notes de réunion structurées à l'aide d'Aspose.Note pour .NET. Ce didacticiel fournit un guide étape par étape avec des exemples de code.
-type: docs
 weight: 13
 url: /fr/net/tag-management/generate-template-meeting-notes/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Générer un modèle pour les notes de réunion avec Aspose.Note
+
 ## Introduction
 
 Dans ce didacticiel, nous allons parcourir le processus de génération d'un modèle de notes de réunion à l'aide d'Aspose.Note pour .NET. Cette bibliothèque fournit des outils puissants pour créer, modifier et manipuler des documents OneNote par programmation.
@@ -126,3 +132,9 @@ A4 : Oui, Aspose.Note pour .NET prend en charge une variété de formats de do
 
  A5 : Oui, vous pouvez télécharger un essai gratuit à partir de[ce lien](https://releases.aspose.com/).
    
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

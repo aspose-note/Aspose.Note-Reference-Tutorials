@@ -3,10 +3,16 @@ title: Dodaj węzeł obrazu ze znacznikiem w Aspose.Note
 linktitle: Dodaj węzeł obrazu ze znacznikiem w Aspose.Note
 second_title: Aspose.Note .NET API
 description: Dowiedz się, jak ulepszyć dokumenty OneNote, dodając obrazy z niestandardowymi znacznikami za pomocą Aspose.Note dla .NET.
-type: docs
 weight: 10
 url: /pl/net/tag-management/add-image-node-tag/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Dodaj węzeł obrazu ze znacznikiem w Aspose.Note
+
 ## Wstęp
 
 W tym samouczku omówimy, jak dodać węzeł obrazu ze znacznikiem za pomocą Aspose.Note dla .NET. Ta funkcja umożliwia ulepszanie dokumentów OneNote poprzez dodawanie obrazów z niestandardowymi tagami.
@@ -110,3 +116,9 @@ O4: Aspose.Note obsługuje przede wszystkim dodawanie obrazów z katalogów loka
 ### P5: Czy istnieją jakieś ograniczenia dotyczące rozmiaru lub formatu obrazów, które można dodać?
 
 Odpowiedź 5: Aspose.Note obsługuje szeroką gamę formatów obrazów i nie nakłada żadnych ścisłych ograniczeń na rozmiar obrazu, co pozwala na włączenie różnorodnych elementów wizualnych do dokumentów.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -3,10 +3,16 @@ title: Uložit do PDF pomocí nastavení stránky ve OneNotu – Aspose.Note
 linktitle: Uložit do PDF pomocí nastavení stránky ve OneNotu – Aspose.Note
 second_title: Aspose.Note Java API
 description: Naučte se ukládat dokumenty OneNotu do PDF v Javě pomocí knihovny Aspose.Note. Podrobný průvodce s příklady kódu pro různá nastavení stránky.
-type: docs
 weight: 19
 url: /cs/java/onenote-document-saving/save-to-pdf-using-page-settings/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Uložit do PDF pomocí nastavení stránky ve OneNotu – Aspose.Note
+
 ## Úvod
 
 V tomto tutoriálu se naučíme, jak uložit dokumenty OneNote do formátu PDF pomocí různých nastavení stránky pomocí Aspose.Note pro Java. Probereme dva způsoby: uložení s nastavením stránky Letter a uložení s nastavením stránky A4 bez omezení výšky.
@@ -112,3 +118,9 @@ A4: Ano, můžete dávkově zpracovat více souborů OneNote pomocí Aspose.Note
 ### Q5: Je k dispozici nějaká zkušební verze pro testovací účely?
 
 A5: Ano, můžete získat bezplatnou zkušební verzi Aspose.Note pro Java z webu.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

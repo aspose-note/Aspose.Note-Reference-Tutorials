@@ -3,10 +3,16 @@ title: Convertir cuaderno en imagen en OneNote - Aspose.Note
 linktitle: Convertir cuaderno en imagen en OneNote - Aspose.Note
 second_title: Aspose.Nota Java API
 description: Aprenda a convertir cuadernos en imágenes en OneNote usando Aspose.Note para Java. Integre fácilmente esta funcionalidad en sus aplicaciones Java.
-type: docs
 weight: 12
 url: /es/java/onenote-notebook-operations/convert-notebook-to-image/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Convertir cuaderno en imagen en OneNote - Aspose.Note
+
 ## Introducción
 
 En este tutorial, exploraremos cómo convertir un cuaderno en una imagen en OneNote usando la biblioteca Aspose.Note para Java. Convertir cuadernos en imágenes puede resultar útil para diversos fines, como compartir notas, incrustarlas en documentos o incorporarlas a presentaciones.
@@ -94,3 +100,9 @@ R4: Sí, puedes convertir por lotes varios cuadernos en imágenes de manera efic
 ### P5: ¿Dónde puedo encontrar recursos adicionales y soporte para Aspose.Note?
 
  R5: Para obtener más documentación, ejemplos y soporte de la comunidad, visite el[Foro Aspose.Note](https://forum.aspose.com/c/note/28) y explorar el[documentación](https://reference.aspose.com/note/java/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

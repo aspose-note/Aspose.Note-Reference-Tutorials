@@ -3,10 +3,16 @@ title: إنشاء قالب لملاحظات الاجتماع في OneNote - Aspo
 linktitle: إنشاء قالب لملاحظات الاجتماع في OneNote - Aspose.Note
 second_title: Aspose.Note جافا API
 description: تعزيز التعاون مع Aspose.Note لـ Java! تعرف على كيفية إنشاء قوالب ملاحظات الاجتماع الديناميكية خطوة بخطوة. قم بتنزيل المكتبة الآن!
-type: docs
 weight: 14
 url: /ar/java/onenote-tag-operations/generate-template-for-meeting-notes/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# إنشاء قالب لملاحظات الاجتماع في OneNote - Aspose.Note
+
 ## مقدمة
 في عالم اليوم سريع الخطى، يعد التنظيم الفعال للاجتماعات وتوثيقها أمرًا ضروريًا لنجاح التعاون. يوفر Aspose.Note for Java حلاً قويًا لإنشاء قوالب لملاحظات الاجتماع في OneNote. في هذا الدليل التفصيلي، سنستكشف كيفية استخدام Aspose.Note لإنشاء قالب يجسد جوهر اجتماعاتك، مما يجعل تدوين الملاحظات أمرًا سهلاً.
 ## المتطلبات الأساسية
@@ -105,3 +111,9 @@ d.save(Paths.get(dataDir, "meetingNotes.one").toString());
  الرجوع إلى[Aspose.Note الوثائق](https://reference.aspose.com/note/java/) للحصول على تفاصيل الترخيص.
 ### هل هناك نسخة تجريبية متاحة لـ Aspose.Note؟
  نعم يمكنك الوصول إلى[تجربة مجانية هنا](https://releases.aspose.com/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

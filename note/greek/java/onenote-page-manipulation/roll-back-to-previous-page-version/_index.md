@@ -3,10 +3,16 @@ title: Επιστροφή στην προηγούμενη έκδοση της σ
 linktitle: Επιστροφή στην προηγούμενη έκδοση της σελίδας στο OneNote - Aspose.Note
 second_title: Aspose.Note Java API
 description: Μάθετε πώς να επαναφέρετε τις προηγούμενες εκδόσεις σελίδων στο OneNote χρησιμοποιώντας το Aspose.Note για Java. Ακολουθήστε αυτόν τον οδηγό βήμα προς βήμα για αποτελεσματική διαχείριση εγγράφων.
-type: docs
 weight: 19
 url: /el/java/onenote-page-manipulation/roll-back-to-previous-page-version/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Επιστροφή στην προηγούμενη έκδοση της σελίδας στο OneNote - Aspose.Note
+
 ## Εισαγωγή
 
 Σε αυτό το σεμινάριο, θα εμβαθύνουμε στη χρήση του Aspose.Note για Java για επαναφορά σε μια προηγούμενη έκδοση μιας σελίδας στο OneNote. Το OneNote είναι ένα ισχυρό εργαλείο για τη λήψη σημειώσεων, τη συνεργασία και την οργάνωση, αλλά περιστασιακά, συμβαίνουν λάθη ή πρέπει να επανέλθουν οι αλλαγές. Το Aspose.Note προσφέρει απρόσκοπτη ενοποίηση με Java, παρέχοντας στους προγραμματιστές τη δυνατότητα να διαχειρίζονται έγγραφα του OneNote μέσω προγραμματισμού. Η επαναφορά σε μια προηγούμενη έκδοση σελίδας είναι μια κρίσιμη δυνατότητα για τη διατήρηση της ακρίβειας και της ακεραιότητας στα έγγραφα του OneNote.
@@ -91,3 +97,9 @@ document.save(dataDir + "RollBackToPreviousPageVersion_out.one");
 ### Ε5: Υπάρχει διαθέσιμο φόρουμ κοινότητας ή υποστήριξη για το Aspose.Note;
 
  Α: Ναι, μπορείτε να επισκεφθείτε το[Aspose.Note φόρουμ](https://forum.aspose.com/c/note/28) για υποστήριξη της κοινότητας ή επικοινωνήστε με την υποστήριξη πελατών της Aspose για βοήθεια.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

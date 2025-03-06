@@ -3,10 +3,16 @@ title: Chuyển đổi tài liệu OneNote thành hình ảnh bằng tùy chọn
 linktitle: Chuyển đổi tài liệu OneNote thành hình ảnh bằng tùy chọn mặc định - Java
 second_title: API Java Aspose.Note
 description: Dễ dàng chuyển đổi tài liệu OneNote thành hình ảnh bằng Aspose.Note for Java. Hãy làm theo hướng dẫn từng bước này để tích hợp liền mạch.
-type: docs
 weight: 15
 url: /vi/java/onenote-document-loading/convert-to-image-default-options/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Chuyển đổi tài liệu OneNote thành hình ảnh bằng tùy chọn mặc định - Java
+
 ## Giới thiệu
 
 Trong thời đại kỹ thuật số ngày nay, nơi thông tin dồi dào và giao tiếp là điều tối quan trọng, nhu cầu về các công cụ quản lý tài liệu hiệu quả chưa bao giờ quan trọng hơn thế. Aspose.Note for Java nổi bật như một giải pháp mạnh mẽ để xử lý các tài liệu OneNote theo chương trình. Cho dù bạn là nhà phát triển dày dạn kinh nghiệm hay người mới bước vào thế giới mã hóa, hướng dẫn toàn diện này sẽ hướng dẫn bạn quy trình tận dụng Aspose.Note cho Java để chuyển đổi tài liệu OneNote thành hình ảnh một cách liền mạch.
@@ -84,3 +90,9 @@ Câu trả lời 1: Có, Aspose.Note for Java có thể xử lý hiệu quả c�
 ### Câu hỏi 5: Có diễn đàn cộng đồng nào để tôi có thể tìm kiếm sự hỗ trợ cho Aspose.Note dành cho Java không?
 
  A5: Có, bạn có thể tham gia diễn đàn cộng đồng tại[Aspose.Note để hỗ trợ Java](https://forum.aspose.com/c/note/28) để tìm kiếm sự trợ giúp và tương tác với những người dùng khác.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

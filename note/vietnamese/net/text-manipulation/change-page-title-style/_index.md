@@ -3,10 +3,16 @@ title: Thay đổi kiểu tiêu đề trang trong Aspose.Note
 linktitle: Thay đổi kiểu tiêu đề trang trong Aspose.Note
 second_title: Aspose.Note .NET API
 description: Chuyển đổi tài liệu .NET của bạn với Aspose.Note! Tìm hiểu cách thay đổi kiểu tiêu đề trang một cách dễ dàng. Nâng cao tính thẩm mỹ chỉ trong vài bước đơn giản.
-type: docs
 weight: 13
 url: /vi/net/text-manipulation/change-page-title-style/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Thay đổi kiểu tiêu đề trang trong Aspose.Note
+
 ## Giới thiệu
 Bạn đang tìm cách nâng cao sự hấp dẫn trực quan của tài liệu .NET của mình bằng kiểu tiêu đề trang động? Aspose.Note for .NET cung cấp một giải pháp liền mạch, cho phép bạn dễ dàng thay đổi kiểu tiêu đề trang của mình. Trong hướng dẫn này, chúng tôi sẽ hướng dẫn bạn thực hiện quy trình, từng bước một, đảm bảo rằng bạn có thể nâng cao tính thẩm mỹ cho tài liệu của mình mà không gặp bất kỳ rắc rối nào.
 ## Điều kiện tiên quyết
@@ -70,3 +76,9 @@ Chúc mừng! Bạn đã học thành công cách thay đổi kiểu tiêu đề
  Bạn có thể mua giấy phép cho Aspose.Note[đây](https://purchase.aspose.com/buy).
 ### Tôi có cần giấy phép tạm thời cho mục đích thử nghiệm không?
  Có, nếu bạn đang thử nghiệm Aspose.Note, bạn có thể nhận được giấy phép tạm thời[đây](https://purchase.aspose.com/temporary-license/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

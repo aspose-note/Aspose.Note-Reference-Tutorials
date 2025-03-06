@@ -3,10 +3,16 @@ title: Добавьте дочерние узлы в Aspose Note .NET
 linktitle: Добавьте дочерние узлы в Aspose Note .NET
 second_title: Aspose.Note .NET API
 description: Узнайте, как легко добавлять дочерние узлы в Aspose Note .NET, с помощью этого подробного руководства. Повысьте свои навыки работы с документами прямо сейчас.
-type: docs
 weight: 10
 url: /ru/net/notebook-operations/add-child-nodes/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Добавьте дочерние узлы в Aspose Note .NET
+
 ## Введение
 
 В этом уроке мы узнаем, как добавлять дочерние узлы в Aspose Note .NET. Добавление дочерних узлов — фундаментальная операция при работе с документами, и Aspose Note .NET предоставляет простой способ выполнения этой задачи.
@@ -89,3 +95,9 @@ notebook.Save(dataDir);
 ### Вопрос 5: Поставляется ли Aspose.Note для .NET с документацией?
 
  A5: Да, вы можете найти подробную документацию.[здесь](https://reference.aspose.com/note/net/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

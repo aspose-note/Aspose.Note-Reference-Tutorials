@@ -3,10 +3,16 @@ title: Χρησιμοποιήστε τη μέθοδο Splitting Algorithm Method
 linktitle: Χρησιμοποιήστε τη μέθοδο Splitting Algorithm Method στο OneNote - Aspose.Note
 second_title: Aspose.Note Java API
 description: Κύριος διαχωρισμός εγγράφων OneNote σε Java με το Aspose.Note! Επιλέξτε αλγόριθμους, ελέγξτε τις αλλαγές σελίδας και αποθηκεύστε εύκολα ως PDF. Περιλαμβάνεται κωδικός! #OneNote #Java #Aspose
-type: docs
 weight: 26
 url: /el/java/onenote-document-saving/use-splitting-algorithm-method/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Χρησιμοποιήστε τη μέθοδο Splitting Algorithm Method στο OneNote - Aspose.Note
+
 ## Εισαγωγή
 
 Σε αυτό το σεμινάριο, θα εμβαθύνουμε στη χρήση της μεθόδου αλγορίθμου διαχωρισμού στο Aspose.Note για Java. Το Aspose.Note είναι μια ισχυρή βιβλιοθήκη που επιτρέπει στους προγραμματιστές να εργάζονται με αρχεία Microsoft OneNote μέσω προγραμματισμού. Η χρήση του αλγόριθμου διαχωρισμού μπορεί να είναι ιδιαίτερα χρήσιμη όταν χρειάζεται να χειριστείτε και να εξάγετε έγγραφα του OneNote, ειδικά όταν έχετε να κάνετε με πολύπλοκες διατάξεις ή μεγάλα αρχεία.
@@ -101,3 +107,9 @@ A1: Ναι, το Aspose.Note είναι διαθέσιμο για πολλές �
 ### Ε5: Πώς μπορώ να αποκτήσω μια προσωρινή άδεια για το Aspose.Note;
 
  A5: Μπορείτε να ζητήσετε α[προσωρινή άδεια](https://purchase.aspose.com/temporary-license/) για την αξιολόγηση του προϊόντος σε δοκιμαστική περίοδο.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

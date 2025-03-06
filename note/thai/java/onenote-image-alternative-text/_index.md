@@ -3,10 +3,16 @@ title: ข้อความแสดงแทนรูปภาพ OneNote
 linktitle: ข้อความแสดงแทนรูปภาพ OneNote
 second_title: Aspose.Note Java API
 description: เรียนรู้การปรับปรุงการเข้าถึงในภาพ OneNote โดยใช้ Java กับ Aspose.Note เพิ่มข้อความแสดงแทนได้อย่างง่ายดายเพื่อเพิ่มความครอบคลุมและปรับปรุงประสบการณ์ผู้ใช้
-type: docs
 weight: 23
 url: /th/java/onenote-image-alternative-text/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# ข้อความแสดงแทนรูปภาพ OneNote
+
 ## การแนะนำ
 
 การนำทางในภูมิทัศน์ดิจิทัลจำเป็นต้องมีข้อผูกมัดในการเข้าถึง และผู้ใช้ OneNote ก็ไม่มีข้อยกเว้น ในชุดบทช่วยสอนนี้ เราจะเจาะลึกโลกของข้อความแสดงแทนรูปภาพ OneNote ซึ่งแสดงให้เห็นถึงพลังของ Java และ Aspose.Note เพื่อยกระดับการเข้าถึงเอกสารของคุณ
@@ -32,3 +38,9 @@ url: /th/java/onenote-image-alternative-text/
 ## บทช่วยสอนข้อความแสดงแทนรูปภาพ OneNote
 ### [เพิ่มข้อความแสดงแทนลงในรูปภาพใน OneNote โดยใช้ Java](./add-alternative-text-to-image/)
 เรียนรู้วิธีเพิ่มข้อความแสดงแทนลงในรูปภาพในเอกสาร OneNote โดยใช้ Java กับ Aspose.Note ซึ่งช่วยเพิ่มความสามารถในการเข้าถึงและการรวมกลุ่ม
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

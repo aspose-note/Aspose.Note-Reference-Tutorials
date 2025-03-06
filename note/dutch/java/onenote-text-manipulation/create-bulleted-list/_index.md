@@ -3,10 +3,16 @@ title: Maak een lijst met opsommingstekens in OneNote - Aspose.Note
 linktitle: Maak een lijst met opsommingstekens in OneNote - Aspose.Note
 second_title: Aspose.Note Java-API
 description: Verken de stapsgewijze handleiding voor het maken van lijsten met opsommingstekens in OneNote met behulp van Aspose.Note voor Java. Verbeter uw documentcreatie met gemak.
-type: docs
 weight: 12
 url: /nl/java/onenote-text-manipulation/create-bulleted-list/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Maak een lijst met opsommingstekens in OneNote - Aspose.Note
+
 ## Invoering
 In het dynamische landschap van Java-ontwikkeling is het creëren van boeiende en georganiseerde documenten essentieel. Aspose.Note voor Java biedt een krachtige toolset om uw proces voor het maken van documenten te verbeteren. Deze zelfstudie begeleidt u bij het maken van lijsten met opsommingstekens in OneNote met behulp van Aspose.Note voor Java. Laten we in de details duiken.
 ## Vereisten
@@ -92,3 +98,9 @@ Absoluut! U kunt het lettertype, de kleur en de grootte van de lijstelementen me
  Ja, u kunt een gratis proefversie verkennen[hier](https://releases.aspose.com/).
 ### Hoe kan ik een tijdelijke licentie verkrijgen voor Aspose.Note voor Java?
  Vraag een tijdelijke licentie aan[hier](https://purchase.aspose.com/temporary-license/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -3,10 +3,16 @@ title: Đính kèm tệp và đặt biểu tượng trong Aspose.Note
 linktitle: Đính kèm tệp và đặt biểu tượng trong Aspose.Note
 second_title: Aspose.Note .NET API
 description: Tìm hiểu cách đính kèm tệp và đặt biểu tượng trong Aspose.Note cho .NET. Nâng cao ứng dụng .NET của bạn với hướng dẫn từng bước này.
-type: docs
 weight: 10
 url: /vi/net/attachments/attach-file-set-icon/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Đính kèm tệp và đặt biểu tượng trong Aspose.Note
+
 ## Giới thiệu
 
 Trong lĩnh vực phát triển .NET, Aspose.Note nổi bật như một công cụ mạnh mẽ để thao tác các tài liệu Microsoft OneNote theo chương trình. Tận dụng khả năng của nó, các nhà phát triển có thể tự động hóa nhiều tác vụ khác nhau liên quan đến việc tạo, chỉnh sửa và quản lý tệp OneNote trong ứng dụng của họ. Một tính năng cần thiết là khả năng đính kèm tệp vào ghi chú và đặt biểu tượng cho các tệp đính kèm đó. Trong hướng dẫn này, chúng ta sẽ đi sâu vào quy trình đính kèm tệp và đặt biểu tượng bằng Aspose.Note cho .NET.
@@ -125,3 +131,9 @@ Câu trả lời 4: Aspose.Note chủ yếu xử lý các tệp được lưu tr
 ### Câu hỏi 5: Có giới hạn kích thước cho tệp đính kèm trong Aspose.Note cho .NET không?
 
 Câu trả lời 5: Aspose.Note không áp đặt giới hạn kích thước cụ thể cho tệp đính kèm nhưng có thể áp dụng các giới hạn thực tế dựa trên các cân nhắc về hiệu suất và tài nguyên hệ thống.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

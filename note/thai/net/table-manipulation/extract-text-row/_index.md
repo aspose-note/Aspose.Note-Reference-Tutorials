@@ -3,10 +3,16 @@ title: แยกข้อความจากแถวตารางใน Asp
 linktitle: แยกข้อความจากแถวตารางใน Aspose.Note
 second_title: Aspose.Note .NET API
 description: เรียนรู้วิธีแยกข้อความจากแถวของตารางใน Aspose.Note สำหรับ .NET ด้วยบทช่วยสอนที่ครอบคลุมนี้
-type: docs
 weight: 14
 url: /th/net/table-manipulation/extract-text-row/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# แยกข้อความจากแถวตารางใน Aspose.Note
+
 ## การแนะนำ
 
 ในขอบเขตของการประมวลผลเอกสาร Aspose.Note สำหรับ .NET ถือเป็นโซลูชันที่มีประสิทธิภาพซึ่งช่วยให้นักพัฒนาสามารถจัดการไฟล์ OneNote โดยทางโปรแกรมได้อย่างมีประสิทธิภาพ ท่ามกลางความสามารถอันมากมาย การแยกข้อความออกจากแถวในตารางถือเป็นงานทั่วไปที่นักพัฒนาต้องเผชิญ บทช่วยสอนนี้จะแนะนำคุณตลอดกระบวนการแยกข้อความจากแถวตารางโดยใช้ Aspose.Note สำหรับ .NET
@@ -98,3 +104,9 @@ foreach (Table table in nodes)
 ### คำถามที่ 5: ฉันสามารถลองใช้ Aspose.Note สำหรับ .NET ก่อนซื้อได้หรือไม่
 
  A5: แน่นอน คุณสามารถทดลองใช้ฟรีได้จาก[หน้าปล่อย](https://releases.aspose.com/) เพื่อสำรวจคุณสมบัติและความสามารถของมัน
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

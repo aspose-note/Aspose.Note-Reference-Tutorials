@@ -3,10 +3,16 @@ title: تعيين نمط الفقرة الافتراضي في OneNote - Aspose.N
 linktitle: تعيين نمط الفقرة الافتراضي في OneNote - Aspose.Note
 second_title: Aspose.Note جافا API
 description: تعرف على كيفية تعيين أنماط الفقرة الافتراضية في OneNote باستخدام Aspose.Note لـ Java. اتبع دليلنا خطوة بخطوة لتنسيق النص بكفاءة في تطبيقات Java الخاصة بك.
-type: docs
 weight: 11
 url: /ar/java/onenote-styles/set-default-paragraph-style/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# تعيين نمط الفقرة الافتراضي في OneNote - Aspose.Note
+
 ## مقدمة
 
 يوفر Aspose.Note for Java إمكانات قوية لمعالجة تنسيق النص، بما في ذلك تعيين أنماط الفقرة الافتراضية. سيرشدك هذا البرنامج التعليمي خلال عملية تعيين أنماط الفقرة الافتراضية في OneNote باستخدام Aspose.Note.
@@ -127,3 +133,9 @@ A1: نعم، يمكنك ضبط معلمات مختلفة مثل اسم الخط 
 ### س5: هل هناك نسخة تجريبية متاحة لـ Aspose.Note؟
 
  ج5: نعم، يمكنك الوصول إلى النسخة التجريبية المجانية من Aspose.Note من[موقع إلكتروني](https://releases.aspose.com/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

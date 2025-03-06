@@ -3,10 +3,16 @@ title: Convierta Notebook a PDF aplanado en OneNote - Aspose.Note
 linktitle: Convierta Notebook a PDF aplanado en OneNote - Aspose.Note
 second_title: Aspose.Nota Java API
 description: Convierta cuadernos a archivos PDF aplanados sin esfuerzo con Aspose.Note para Java. Disfrute de opciones perfectas de integración y personalización.
-type: docs
 weight: 16
 url: /es/java/onenote-notebook-operations/convert-notebook-to-flattened-pdf/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Convierta Notebook a PDF aplanado en OneNote - Aspose.Note
+
 ## Introducción
 
 En este tutorial, exploraremos cómo convertir un cuaderno a un formato PDF aplanado usando Aspose.Note para Java. La conversión de cuadernos a PDF es un requisito común para muchas aplicaciones y Aspose.Note simplifica este proceso con su conjunto completo de funciones y su API fácil de usar.
@@ -82,3 +88,9 @@ R3: Sí, puede convertir por lotes varios cuadernos a PDF de manera eficiente ut
 ### P5: ¿Dónde puedo encontrar soporte para Aspose.Note para Java?
 
  R5: Puede encontrar soporte y asistencia para Aspose.Note para Java en el[Foro Aspose.Note](https://forum.aspose.com/c/note/28).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

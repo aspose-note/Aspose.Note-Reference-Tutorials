@@ -3,10 +3,16 @@ title: Применение маркеров к тексту в Aspose.Note
 linktitle: Применение маркеров к тексту в Aspose.Note
 second_title: Aspose.Note .NET API
 description: Узнайте, как применять маркеры к тексту в Aspose.Note для .NET, чтобы улучшить ваши документы OneNote. Следуйте этому пошаговому руководству для эффективного форматирования.
-type: docs
 weight: 10
 url: /ru/net/text-manipulation/apply-bullets-on-text/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Применение маркеров к тексту в Aspose.Note
+
 ## Введение
 Добро пожаловать в это пошаговое руководство по нанесению маркеров на текст с помощью Aspose.Note для .NET. Aspose.Note — это мощная библиотека, которая позволяет разработчикам беспрепятственно работать с файлами Microsoft OneNote в своих .NET-приложениях. В этом уроке мы покажем вам процесс применения маркеров к тексту, улучшая визуальную привлекательность ваших документов OneNote.
 ## Предварительные условия
@@ -86,3 +92,9 @@ Aspose.Note поддерживает различные версии Microsoft O
  Да, вы можете скачать бесплатную пробную версию[здесь](https://releases.aspose.com/).
 ### Где я могу найти дополнительную поддержку и ресурсы?
  Вы можете посетить форум сообщества Aspose.Note.[здесь](https://forum.aspose.com/c/note/28) за поддержку и обсуждения.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

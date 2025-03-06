@@ -3,10 +3,16 @@ title: Aspose Note .NET でノートブックを PDF (フラット化) に変換
 linktitle: Aspose Note .NET でノートブックを PDF (フラット化) に変換する
 second_title: Aspose.Note .NET API
 description: Aspose.Note for .NET を使用して、OneNote ノートブックをフラット化された PDF に簡単に変換する方法を学びます。コンテンツをシームレスに保存します。
-type: docs
 weight: 15
 url: /ja/net/notebook-operations/convert-to-pdf-flattened/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Aspose Note .NET でノートブックを PDF (フラット化) に変換する
+
 ## 導入
 
 Aspose Note .NET を使用して、OneNote ノートブックをフラット化された PDF に変換したいと考えていますか?あなたは正しい場所にいます！このチュートリアルでは、プロセスを段階的に説明します。
@@ -91,3 +97,9 @@ A3：もちろんです！ Aspose.Note には、変換プロセス中にカス�
 ### Q5: 問題が発生した場合はどこでサポートを受けられますか?
 
  A5: Aspose コミュニティからのサポートを求めることができます。[Aspose.Note フォーラム](https://forum.aspose.com/c/note/28).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

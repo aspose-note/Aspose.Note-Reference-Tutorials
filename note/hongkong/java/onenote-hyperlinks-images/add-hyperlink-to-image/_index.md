@@ -3,10 +3,16 @@ title: 使用 Java 在 OneNote 中新增超連結到圖像
 linktitle: 使用 Java 在 OneNote 中新增超連結到圖像
 second_title: Aspose.Note Java API
 description: 使 OneNote 文件具有互動性！了解如何使用 Aspose.Note 在 Java 中新增圖像超連結。包括簡單的步驟和程式碼範例！ #OneNote #Java #Aspose
-type: docs
 weight: 11
 url: /zh-hant/java/onenote-hyperlinks-images/add-hyperlink-to-image/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# 使用 Java 在 OneNote 中新增超連結到圖像
+
 ## 介紹
 
 在本教程中，我們將探討如何使用 Java 在 OneNote 中新增圖像超連結。超連結圖像可以大大增強文件的互動性和實用性，使用戶只需單擊即可輕鬆存取相關內容或外部資源。
@@ -97,3 +103,9 @@ A4：雖然對超連結的長度沒有具體限制，但建議保持簡潔以提
 ### Q5：Aspose.Note for Java 是否支援 OneNote 以外的其他文件格式？
 
 A5：是的，Aspose.Note for Java 支援各種文件格式，包括 PDF、HTML 和影像格式。
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

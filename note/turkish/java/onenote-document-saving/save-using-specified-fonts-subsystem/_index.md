@@ -3,10 +3,16 @@ title: OneNote'ta Belirtilen Yazı Tipleri Alt Sistemini Kullanarak Kaydetme
 linktitle: OneNote'ta Belirtilen Yazı Tipleri Alt Sistemini Kullanarak Kaydetme
 second_title: Aspose.Note Java API'si
 description: Aspose.Note ile Java'da belirtilen yazı tipi alt sistemini kullanarak OneNote belgelerini nasıl kaydedeceğinizi öğrenin. Platformlar arasında tutarlı yazı tipi gösterimini zahmetsizce sağlayın.
-type: docs
 weight: 22
 url: /tr/java/onenote-document-saving/save-using-specified-fonts-subsystem/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# OneNote'ta Belirtilen Yazı Tipleri Alt Sistemini Kullanarak Kaydetme
+
 ## giriiş
 
 Aspose.Note for Java, OneNote belgeleriyle çalışmak için güçlü yetenekler sağlar. Bu tür belgelerle çalışırken ortak gereksinimlerden biri, özellikle belge PDF gibi farklı formatlarda dışa aktarılacak veya kaydedilecekse, yazı tiplerinin düzgün şekilde korunmasını sağlamaktır. Bu eğitim, yazı tipi alt sistemini belirlerken OneNote belgelerini kaydetme sürecinde size rehberlik edecek ve metnin çeşitli platformlarda tutarlı ve doğru şekilde temsil edilmesini sağlayacaktır.
@@ -152,3 +158,9 @@ Cevap4: Evet, Aspose.Note for Java'yı kullanarak boyut, stil ve renk gibi yazı
 ### S5: Aspose.Note for Java'nın deneme sürümü mevcut mu?
 
 Cevap5: Evet, web sitesinden Aspose.Note for Java'nın ücretsiz deneme sürümünü edinebilirsiniz.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

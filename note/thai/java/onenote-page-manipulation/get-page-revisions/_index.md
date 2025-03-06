@@ -3,10 +3,16 @@ title: รับการแก้ไขหน้าใน OneNote - Aspose.Note
 linktitle: รับการแก้ไขหน้าใน OneNote - Aspose.Note
 second_title: Aspose.Note Java API
 description: เรียนรู้วิธีดึงข้อมูลการแก้ไขหน้าใน OneNote โดยใช้ Aspose.Note สำหรับ Java ปฏิบัติตามคำแนะนำทีละขั้นตอนของเราเพื่อการติดตามการเปลี่ยนแปลงอย่างมีประสิทธิภาพ
-type: docs
 weight: 14
 url: /th/java/onenote-page-manipulation/get-page-revisions/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# รับการแก้ไขหน้าใน OneNote - Aspose.Note
+
 ## การแนะนำ
 
 OneNote เป็นเครื่องมือที่ทรงพลังสำหรับการจัดระเบียบและจัดการบันทึกย่อของคุณ แต่บางครั้งคุณจำเป็นต้องติดตามการเปลี่ยนแปลงและการแก้ไขที่ทำกับเพจของคุณ ด้วย Aspose.Note สำหรับ Java คุณสามารถดึงข้อมูลการแก้ไขหน้าโดยทางโปรแกรมได้อย่างง่ายดาย ในบทช่วยสอนนี้ เราจะแนะนำคุณตลอดกระบวนการรับการแก้ไขหน้าใน OneNote โดยใช้ Aspose.Note for Java
@@ -107,3 +113,9 @@ for (Page pageRevision : document.getPageHistory(firstPage)) {
 ### คำถามที่ 5: Aspose.Note สำหรับ Java มีรุ่นทดลองใช้ฟรีหรือไม่
 
  A5: ได้ คุณสามารถเข้าถึง Aspose.Note สำหรับ Java รุ่นทดลองใช้ฟรีได้จาก[เว็บไซต์](https://releases.aspose.com/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

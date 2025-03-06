@@ -3,10 +3,16 @@ title: Pemisahan Halaman di Aspose.Note
 linktitle: Pemisahan Halaman di Aspose.Note
 second_title: Aspose.Catatan .NET API
 description: Pelajari cara membagi halaman secara efektif di Aspose.Note untuk .NET menggunakan algoritma yang berbeda. Pastikan pengaturan dokumen OneNote dalam format PDF rapi.
-type: docs
 weight: 17
 url: /id/net/loading-and-saving-operations/page-splitting/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Pemisahan Halaman di Aspose.Note
+
 ## Perkenalan
 
 Dalam tutorial ini, kita akan mempelajari cara membagi halaman secara efektif menggunakan Aspose.Note untuk .NET. Pemisahan halaman adalah fungsi penting, terutama ketika berhadapan dengan halaman OneNote panjang yang perlu dikonversi ke format PDF. Aspose.Note menawarkan berbagai algoritma untuk mengontrol logika pemisahan, memastikan PDF yang dihasilkan terorganisir dengan baik dan dapat dibaca.
@@ -87,3 +93,9 @@ A4: Aspose.Note terutama menargetkan kerangka .NET, namun dapat digunakan dalam 
 ### Q5: Dimana saya bisa mendapatkan bantuan jika saya menemui masalah?
 
  A5: Anda dapat mencari bantuan dari forum komunitas Aspose.Note[Di Sini](https://forum.aspose.com/c/note/28).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

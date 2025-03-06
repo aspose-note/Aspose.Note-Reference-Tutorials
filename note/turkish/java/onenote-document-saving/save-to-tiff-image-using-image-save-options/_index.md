@@ -3,10 +3,16 @@ title: OneNote'ta Görüntü Kaydetme Seçeneklerini Kullanarak TIFF Görüntüs
 linktitle: OneNote'ta Görüntü Kaydetme Seçeneklerini Kullanarak TIFF Görüntüsüne Kaydetme
 second_title: Aspose.Note Java API'si
 description: OneNote belgelerini TIFF'e dönüştürün ve dosya boyutunu ve kalitesini kontrol edin! Java'da Jpeg, PackBits veya Faks sıkıştırmasını seçin. Kod örneklerini alın ve nasıl yapılacağını öğrenin! #OneNote #Java #Aspose
-type: docs
 weight: 21
 url: /tr/java/onenote-document-saving/save-to-tiff-image-using-image-save-options/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# OneNote'ta Görüntü Kaydetme Seçeneklerini Kullanarak TIFF Görüntüsüne Kaydetme
+
 ## giriiş
 
 Bu eğitimde, Aspose.Note for Java'da farklı sıkıştırma yöntemleri kullanarak bir belgeyi TIFF görüntü formatında nasıl kaydedeceğinizi öğreneceksiniz. Önkoşulları, içe aktarma paketlerini ele alacağız ve her sıkıştırma yöntemi için adım adım kılavuz sunacağız.
@@ -121,3 +127,9 @@ Cevap4: Evet, çıktıyı ihtiyaçlarınıza göre uyarlamak için kalite, çöz
 ### S5: Aspose.Note for Java teknik destek sunuyor mu?
 
 C5: Evet, Aspose forumlar ve destek talebine dayalı sistemler aracılığıyla kapsamlı teknik destek sağlıyor.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

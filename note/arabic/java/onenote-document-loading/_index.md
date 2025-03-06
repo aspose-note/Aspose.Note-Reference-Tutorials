@@ -3,10 +3,16 @@ title: تحميل مستند OneNote
 linktitle: تحميل مستند OneNote
 second_title: Aspose.Note جافا API
 description: استكشف البرامج التعليمية الشاملة حول تحميل مستندات OneNote وتحويلها وإنشائها باستخدام Aspose.Note لـ Java. قم بتعزيز قدرات معالجة المستندات الخاصة بك دون عناء.
-type: docs
 weight: 25
 url: /ar/java/onenote-document-loading/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# تحميل مستند OneNote
+
 
 ## مقدمة
 
@@ -97,3 +103,9 @@ url: /ar/java/onenote-document-loading/
 تعرف على كيفية تحميل مستندات OneNote 2007 في Java باستخدام Aspose.Note للتكامل السلس.
 ### [قم بتحميل مستند OneNote المحمي بكلمة مرور - Java](./load-password-protected-onenote/)
 تعرف على كيفية تحميل مستندات OneNote المحمية بكلمة مرور باستخدام Java مع Aspose.Note لـ Java.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

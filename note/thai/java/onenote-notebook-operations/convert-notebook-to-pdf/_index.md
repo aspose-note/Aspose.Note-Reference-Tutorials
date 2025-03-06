@@ -3,10 +3,16 @@ title: แปลงสมุดบันทึกเป็น PDF ใน OneNote
 linktitle: แปลงสมุดบันทึกเป็น PDF ใน OneNote - Aspose.Note
 second_title: Aspose.Note Java API
 description: เรียนรู้วิธีแปลงสมุดบันทึก OneNote เป็นรูปแบบ PDF โดยใช้ Aspose.Note สำหรับ Java ปฏิบัติตามคำแนะนำทีละขั้นตอนนี้เพื่อการผสานรวมเข้ากับแอปพลิเคชัน Java ของคุณได้อย่างราบรื่น
-type: docs
 weight: 15
 url: /th/java/onenote-notebook-operations/convert-notebook-to-pdf/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# แปลงสมุดบันทึกเป็น PDF ใน OneNote - Aspose.Note
+
 ## การแนะนำ
 
 ในบทช่วยสอนนี้ เราจะอธิบายขั้นตอนการแปลงสมุดบันทึกเป็นรูปแบบ PDF โดยใช้ Aspose.Note สำหรับ Java Aspose.Note เป็นไลบรารีอันทรงพลังที่ช่วยให้คุณสามารถทำงานกับไฟล์ Microsoft OneNote โดยทางโปรแกรม ซึ่งช่วยให้คุณสามารถทำงานต่างๆ เช่น การแปลงเป็น PDF ได้โดยอัตโนมัติ
@@ -88,3 +94,9 @@ A4: ได้ คุณสามารถดาวน์โหลดเวอร
 ### คำถามที่ 5: ฉันจะรับความช่วยเหลือและการสนับสนุนเพิ่มเติมสำหรับ Aspose.Note สำหรับ Java ได้ที่ไหน
 
  A5: คุณสามารถเยี่ยมชม[ฟอรั่ม Aspose.Note](https://forum.aspose.com/c/note/28) เพื่อขอความช่วยเหลือเกี่ยวกับคำถามหรือปัญหาที่คุณพบขณะใช้ห้องสมุด
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

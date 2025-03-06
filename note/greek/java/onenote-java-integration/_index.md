@@ -3,10 +3,16 @@ title: Ενσωμάτωση Java OneNote
 linktitle: Ενσωμάτωση Java OneNote
 second_title: Aspose.Note Java API
 description: Βελτιώστε την εμπειρία σας στο OneNote με το Aspose.Note Java! Εξερευνήστε μαθήματα για την επισύναψη αρχείων, τη ρύθμιση εικονιδίων και την ανάκτηση συνημμένων μέσω προγραμματισμού χρησιμοποιώντας Java.
-type: docs
 weight: 20
 url: /el/java/onenote-java-integration/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Ενσωμάτωση Java OneNote
+
 ## Εισαγωγή
 
 Καλώς ήρθατε στον περιεκτικό μας οδηγό για την ενσωμάτωση του OneNote με Java χρησιμοποιώντας το Aspose.Note. Είτε είστε έμπειρος προγραμματιστής είτε μόλις ξεκινάτε, αυτά τα σεμινάρια θα σας δώσουν τη δυνατότητα να μεγιστοποιήσετε τις δυνατότητές σας στο OneNote μέσω προγραμματισμού.
@@ -36,3 +42,9 @@ url: /el/java/onenote-java-integration/
 Μάθετε πώς να επισυνάπτετε αρχεία στις σημειώσεις σας στο OneNote μέσω προγραμματισμού χρησιμοποιώντας Java με το Aspose.Note.
 ### [Ανακτήστε το συνημμένο από το OneNote χρησιμοποιώντας Java](./retrieve-attachment/)
 Μάθετε πώς να ανακτάτε συνημμένα από το OneNote χρησιμοποιώντας Java με το Aspose.Note, ένα ισχυρό API για απρόσκοπτη διαχείριση εγγράφων.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

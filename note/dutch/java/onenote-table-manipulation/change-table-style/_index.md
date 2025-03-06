@@ -3,10 +3,16 @@ title: Tabelstijl wijzigen in OneNote - Aspose.Note
 linktitle: Tabelstijl wijzigen in OneNote - Aspose.Note
 second_title: Aspose.Note Java-API
 description: Verbeter uw OneNote-tabellen moeiteloos met Aspose.Note voor Java. Volg onze stapsgewijze handleiding om tafelstijlen te wijzigen. Download de bibliotheek nu!
-type: docs
 weight: 10
 url: /nl/java/onenote-table-manipulation/change-table-style/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Tabelstijl wijzigen in OneNote - Aspose.Note
+
 ## Invoering
 Aspose.Note voor Java is een krachtige bibliotheek waarmee ontwikkelaars OneNote-bestanden moeiteloos kunnen manipuleren. In deze zelfstudie concentreren we ons op het wijzigen van de tabelstijl in een OneNote-document met Aspose.Note voor Java. Volg de stapsgewijze handleiding om de visuele aantrekkingskracht van uw tafels te verbeteren.
 ## Vereisten
@@ -88,3 +94,9 @@ Aspose.Note voor Java vereenvoudigt het proces van het manipuleren van OneNote-b
  Sluit je aan bij de[Aspose.Note-forum](https://forum.aspose.com/c/note/28) om hulp te zoeken bij de gemeenschap.
 ### Hoe koop ik Aspose.Note voor Java?
  Je kunt de bibliotheek kopen[hier](https://purchase.aspose.com/buy).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

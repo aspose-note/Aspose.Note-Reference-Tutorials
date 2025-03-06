@@ -3,10 +3,16 @@ title: قم بتحميل ملفات دفتر الملاحظات باستخدام
 linktitle: قم بتحميل ملفات دفتر الملاحظات باستخدام خيارات التحميل في Aspose Note .NET
 second_title: Aspose.Note .NET API
 description: تعرف على كيفية تحميل ملفات دفتر الملاحظات مع خيارات التحميل باستخدام Aspose.Note لـ .NET. قم بدمج هذه الوظيفة بسلاسة في تطبيقات .NET الخاصة بك للتعامل بكفاءة مع بيانات الكمبيوتر المحمول.
-type: docs
 weight: 20
 url: /ar/net/notebook-operations/load-notebook-files-with-load-options/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# قم بتحميل ملفات دفتر الملاحظات باستخدام خيارات التحميل في Aspose Note .NET
+
 ## مقدمة
 
 في هذا البرنامج التعليمي، سوف نتعمق في تعقيدات تحميل ملفات دفتر الملاحظات مع خيارات التحميل باستخدام Aspose.Note for .NET. Aspose.Note عبارة عن واجهة برمجة تطبيقات قوية تمكن المطورين من العمل مع ملفات Microsoft OneNote برمجيًا، مما يوفر تكاملًا سلسًا ومعالجة فعالة لبيانات دفتر الملاحظات.
@@ -94,3 +100,9 @@ foreach (var notebookChildNode in notebook.OfType<Document>())
 ### س5: أين يمكنني طلب المساعدة إذا واجهت أية مشكلات أو كانت لدي استفسارات تتعلق بـ Aspose.Note for .NET؟
 
  ج5: يمكنك زيارة منتدى Aspose.Note[هنا](https://forum.aspose.com/c/note/28) لطلب الدعم وطرح الأسئلة والتفاعل مع زملائك المطورين والخبراء.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

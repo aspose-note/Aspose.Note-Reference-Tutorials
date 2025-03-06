@@ -3,10 +3,16 @@ title: Aspose.Note でテキストの校正言語を設定する
 linktitle: Aspose.Note でテキストの校正言語を設定する
 second_title: Aspose.Note .NET API
 description: Aspose.Note for .NET で強力なテキスト操作を実現します。ステップバイステップのガイダンスに従って、校正言語を簡単に設定できます。今すぐ .NET プロジェクトを強化してください。
-type: docs
 weight: 25
 url: /ja/net/text-manipulation/set-proofing-language-text/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Aspose.Note でテキストの校正言語を設定する
+
 ## 導入
 Aspose.Note for .NET の世界へようこそ!この包括的なガイドでは、Aspose.Note を使用してテキストの校正言語を設定する興味深いプロセスについて説明します。あなたが経験豊富な開発者であっても、Aspose.Note を使い始めたばかりであっても、このチュートリアルでは、テキスト操作スキルを向上させるための詳細な洞察と段階的な手順を提供します。
 ## 前提条件
@@ -89,3 +95,9 @@ document.Save(Path.Combine("Your Document Directory", "SetProofingLanguageForTex
 確かに！ Aspose.Note for .NET の無料トライアルにアクセスできます。[ここ](https://releases.aspose.com/).
 ### 問題に直面していますか?サポートが必要ですか?
 訪問[Aspose.Note サポート フォーラム](https://forum.aspose.com/c/note/28)コミュニティとつながり、専門家の助けを得ることができます。
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

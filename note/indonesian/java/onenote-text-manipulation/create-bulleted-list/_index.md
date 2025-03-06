@@ -3,10 +3,16 @@ title: Buat Daftar Berpoin di OneNote - Aspose.Note
 linktitle: Buat Daftar Berpoin di OneNote - Aspose.Note
 second_title: Aspose.Catatan Java API
 description: Jelajahi panduan langkah demi langkah dalam membuat daftar berpoin di OneNote menggunakan Aspose.Note untuk Java. Tingkatkan pembuatan dokumen Anda dengan mudah.
-type: docs
 weight: 12
 url: /id/java/onenote-text-manipulation/create-bulleted-list/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Buat Daftar Berpoin di OneNote - Aspose.Note
+
 ## Perkenalan
 Dalam lanskap pembangunan Jawa yang dinamis, membuat dokumen yang menarik dan terorganisir sangatlah penting. Aspose.Note untuk Java menyediakan perangkat canggih untuk menyempurnakan proses pembuatan dokumen Anda. Tutorial ini akan memandu Anda melalui proses pembuatan daftar berpoin di OneNote menggunakan Aspose.Note untuk Java. Mari selami detailnya.
 ## Prasyarat
@@ -92,3 +98,9 @@ Sangat! Anda dapat mengubah font, warna, dan ukuran elemen daftar berpoin sesuai
  Ya, Anda dapat menjelajahi versi uji coba gratis[Di Sini](https://releases.aspose.com/).
 ### Bagaimana cara mendapatkan lisensi sementara untuk Aspose.Note untuk Java?
  Dapatkan lisensi sementara[Di Sini](https://purchase.aspose.com/temporary-license/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

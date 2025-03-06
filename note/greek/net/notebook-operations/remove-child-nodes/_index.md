@@ -3,10 +3,16 @@ title: Κατάργηση θυγατρικών κόμβων στο Aspose Note .
 linktitle: Κατάργηση θυγατρικών κόμβων στο Aspose Note .NET
 second_title: Aspose.Note .NET API
 description: Μάθετε πώς να αφαιρείτε τους θυγατρικούς κόμβους στο Aspose.Note για .NET χωρίς κόπο. Απλοποιήστε τη διαχείριση αρχείων του OneNote με αυτόν τον οδηγό βήμα προς βήμα.
-type: docs
 weight: 24
 url: /el/net/notebook-operations/remove-child-nodes/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Κατάργηση θυγατρικών κόμβων στο Aspose Note .NET
+
 ## Εισαγωγή
 
 Σε αυτό το σεμινάριο, θα διερευνήσουμε πώς να αφαιρέσετε αποτελεσματικά τους θυγατρικούς κόμβους χρησιμοποιώντας το Aspose.Note για .NET. Το Aspose.Note είναι μια ισχυρή βιβλιοθήκη που επιτρέπει στους προγραμματιστές να εργάζονται με αρχεία Microsoft OneNote μέσω προγραμματισμού. Είτε διαχειρίζεστε σημειωματάρια, ενότητες ή μεμονωμένες σελίδες, το Aspose.Note απλοποιεί τη διαδικασία με το διαισθητικό API του. Εδώ, θα εστιάσουμε συγκεκριμένα στην αφαίρεση θυγατρικών κόμβων από ένα σημειωματάριο.
@@ -92,3 +98,9 @@ A3: Ναι, το Aspose.Note είναι συμβατό με .NET Core, επιτ�
 ### Ε5: Πού μπορώ να βρω πρόσθετη υποστήριξη για το Aspose.Note;
 
  A5: Για οποιαδήποτε περαιτέρω βοήθεια ή απορίες, μπορείτε να επισκεφτείτε το[Aspose.Note φόρουμ](https://forum.aspose.com/c/note/28) όπου ειδικοί και συνάδελφοι προγραμματιστές είναι διαθέσιμοι να βοηθήσουν.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

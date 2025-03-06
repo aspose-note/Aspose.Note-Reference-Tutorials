@@ -3,10 +3,16 @@ title: Distinguir el tipo de nodo en un documento de OneNote - Java
 linktitle: Distinguir el tipo de nodo en un documento de OneNote - Java
 second_title: Aspose.Nota Java API
 description: Aprenda a distinguir tipos de nodos dentro de documentos de OneNote usando Java con Aspose.Note. Explore la guía paso a paso y las preguntas frecuentes para una integración perfecta.
-type: docs
 weight: 20
 url: /es/java/onenote-document-loading/distinguish-node-type/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Distinguir el tipo de nodo en un documento de OneNote - Java
+
 ## Introducción
 
 En el ámbito de la programación Java, trabajar con documentos de OneNote presenta su propio conjunto de desafíos y complejidades. Afortunadamente, Aspose.Note para Java proporciona una solución integral para navegar, manipular y extraer datos de estos documentos sin problemas. En este tutorial profundizaremos en un aspecto específico: distinguir tipos de nodos dentro de un documento de OneNote usando Java. Al final de esta guía, tendrá un conocimiento sólido de cómo identificar diferentes tipos de nodos y aprovechar este conocimiento de manera efectiva en sus aplicaciones Java.
@@ -74,3 +80,10 @@ R3: Por supuesto, Aspose.Note para Java le permite extraer texto, imágenes y ot
 ### P5: ¿Hay una prueba gratuita disponible para Aspose.Note para Java?
 
  R5: Sí, puede explorar las funciones de Aspose.Note para Java con una prueba gratuita disponible en[este enlace](https://releases.aspose.com/).
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

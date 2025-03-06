@@ -3,10 +3,16 @@ title: OneNote 텍스트 조작
 linktitle: OneNote 텍스트 조작
 second_title: Aspose.Note 자바 API
 description: OneNote 텍스트 조작에 대한 Aspose.Note Java 튜토리얼을 살펴보세요. 텍스트 추출, 테마 적용, 목록 생성 등과 같은 작업을 위한 효율적인 방법을 살펴보세요.
-type: docs
 weight: 34
 url: /ko/java/onenote-text-manipulation/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# OneNote 텍스트 조작
+
 
 ## 소개
 
@@ -56,3 +62,9 @@ Java용 Aspose.Note를 사용하여 특정 OneNote 페이지의 텍스트를 바
 Java용 Aspose.Note의 잠재력을 활용해 보세요! 단계별 가이드를 통해 OneNote에서 텍스트 교정 언어를 원활하게 설정하는 방법을 알아보세요.
 ### [Microsoft OneNote 스타일에서 페이지 제목 설정 - Aspose.Note](./setting-page-title-in-microsoft-onenote-style/)
 Java용 Aspose.Note를 사용하여 Microsoft OneNote 스타일로 페이지 제목을 설정하는 방법을 알아보세요. 전문적인 형식으로 Java 문서를 향상시키세요.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

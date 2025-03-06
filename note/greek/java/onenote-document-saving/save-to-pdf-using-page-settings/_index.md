@@ -3,10 +3,16 @@ title: Αποθήκευση σε PDF χρησιμοποιώντας τις Ρυ�
 linktitle: Αποθήκευση σε PDF χρησιμοποιώντας τις Ρυθμίσεις σελίδας στο OneNote - Aspose.Note
 second_title: Aspose.Note Java API
 description: Μάθετε πώς να αποθηκεύετε έγγραφα OneNote σε PDF σε Java χρησιμοποιώντας τη βιβλιοθήκη Aspose.Note. Οδηγός βήμα προς βήμα με παραδείγματα κώδικα για διαφορετικές ρυθμίσεις σελίδας.
-type: docs
 weight: 19
 url: /el/java/onenote-document-saving/save-to-pdf-using-page-settings/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Αποθήκευση σε PDF χρησιμοποιώντας τις Ρυθμίσεις σελίδας στο OneNote - Aspose.Note
+
 ## Εισαγωγή
 
 Σε αυτό το σεμινάριο, θα μάθουμε πώς να αποθηκεύουμε έγγραφα του OneNote σε μορφή PDF χρησιμοποιώντας διαφορετικές ρυθμίσεις σελίδας με το Aspose.Note για Java. Θα καλύψουμε δύο μεθόδους: αποθήκευση με ρυθμίσεις σελίδας Letter και αποθήκευση με ρυθμίσεις σελίδας A4 χωρίς όριο ύψους.
@@ -112,3 +118,9 @@ A4: Ναι, μπορείτε να επεξεργαστείτε ομαδικά π
 ### Ε5: Υπάρχει κάποια δοκιμαστική έκδοση διαθέσιμη για δοκιμαστικούς σκοπούς;
 
 A5: Ναι, μπορείτε να λάβετε μια δωρεάν δοκιμή του Aspose.Note για Java από τον ιστότοπο.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

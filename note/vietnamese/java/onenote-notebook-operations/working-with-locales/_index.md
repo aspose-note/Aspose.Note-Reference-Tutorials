@@ -3,10 +3,16 @@ title: Làm việc với các ngôn ngữ trong OneNote - Aspose.Note
 linktitle: Làm việc với các ngôn ngữ trong OneNote - Aspose.Note
 second_title: API Java Aspose.Note
 description: Khai thác sức mạnh của Aspose.Note để hoạt động với các ngôn ngữ OneNote! Trích xuất, thao tác và tạo báo cáo phù hợp với các ngôn ngữ và khu vực khác nhau. #OneNote #Java #Aspose
-type: docs
 weight: 10
 url: /vi/java/onenote-notebook-operations/working-with-locales/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Làm việc với các ngôn ngữ trong OneNote - Aspose.Note
+
 ## Giới thiệu
 
 Trong lĩnh vực phát triển Java, Aspose.Note nổi bật như một công cụ mạnh mẽ để làm việc với các tệp OneNote. Cho dù bạn đang muốn trích xuất thông tin, thao tác nội dung hay tạo báo cáo, Aspose.Note đều cung cấp một bộ tính năng mở rộng để hợp lý hóa quy trình làm việc của bạn. Trong hướng dẫn này, chúng ta sẽ đi sâu vào một khía cạnh cụ thể: làm việc với các ngôn ngữ trong OneNote bằng Aspose.Note for Java.
@@ -99,3 +105,9 @@ Câu trả lời 3: Mặc dù được thiết kế chủ yếu cho các tệp O
 ### Câu hỏi 5: Tôi có thể dùng thử Aspose.Note trước khi mua không?
 
 Câu trả lời 5: Chắc chắn, bạn có thể khám phá các khả năng của Aspose.Note bằng cách sử dụng bản dùng thử miễn phí được cung cấp trên trang web.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -3,10 +3,16 @@ title: Crear documento e insertar imagen en Aspose.Note
 linktitle: Crear documento e insertar imagen en Aspose.Note
 second_title: Aspose.Nota .NET API
 description: Aprenda a insertar imágenes en documentos de OneNote mediante programación usando Aspose.Note para .NET. Pasos sencillos para una manipulación de documentos perfecta.
-type: docs
 weight: 10
 url: /es/net/images/build-doc-insert-image/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Crear documento e insertar imagen en Aspose.Note
+
 ## Introducción
 
 En este tutorial, profundizaremos en el mundo de la manipulación de documentos usando Aspose.Note para .NET. Aspose.Note es una potente API que permite a los desarrolladores trabajar con archivos de Microsoft OneNote mediante programación, lo que permite tareas como crear, modificar y convertir documentos con facilidad. 
@@ -150,3 +156,9 @@ R4: Sí, Aspose.Note ofrece opciones integrales para personalizar la apariencia 
 ### P5: ¿Dónde puedo encontrar recursos adicionales y soporte para Aspose.Note para .NET?
 
  R5: Puede explorar la documentación de Aspose.Note[aquí](https://reference.aspose.com/note/net/) y busque ayuda en el foro de la comunidad Aspose[aquí](https://forum.aspose.com/c/note/28).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -3,10 +3,16 @@ title: Leer texto enriquecido desde OneNote Notebook - Aspose.Note
 linktitle: Leer texto enriquecido desde OneNote Notebook - Aspose.Note
 second_title: Aspose.Nota Java API
 description: Aprenda a leer texto enriquecido de cuadernos de OneNote utilizando Aspose.Note para Java. Mejore sus aplicaciones Java con una perfecta integración de OneNote.
-type: docs
 weight: 23
 url: /es/java/onenote-notebook-operations/read-rich-text/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Leer texto enriquecido desde OneNote Notebook - Aspose.Note
+
 ## Introducción
 
 En este tutorial, profundizaremos en cómo utilizar Aspose.Note para Java para leer texto enriquecido desde un cuaderno de OneNote. Aspose.Note es una potente API de Java que permite a los desarrolladores trabajar con archivos de Microsoft OneNote sin problemas. Si sigue los pasos que se describen a continuación, podrá extraer datos de texto enriquecido sin esfuerzo, lo que le permitirá manipular y analizar el contenido de OneNote con facilidad.
@@ -91,3 +97,9 @@ R2: Aspose.Note para Java admite varias versiones de Microsoft OneNote, lo que g
 ### P5: ¿Dónde puedo encontrar soporte para Aspose.Note para Java?
 
  R5: Puede encontrar soporte y asistencia en el[Foro Aspose.Note](https://forum.aspose.com/c/note/28).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -3,10 +3,16 @@ title: 從 Aspose.Note 中的表行中提取文本
 linktitle: 從 Aspose.Note 中的表行中提取文本
 second_title: Aspose.Note .NET API
 description: 透過這個綜合教程，了解如何從 Aspose.Note for .NET 中的表格行中提取文字。
-type: docs
 weight: 14
 url: /zh-hant/net/table-manipulation/extract-text-row/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# 從 Aspose.Note 中的表行中提取文本
+
 ## 介紹
 
 在文件處理領域，Aspose.Note for .NET 是一個強大的解決方案，使開發人員能夠以程式設計方式有效率地操作 OneNote 檔案。在其眾多功能中，從表格行中提取文字是開發人員遇到的常見任務。本教學將引導您完成使用 Aspose.Note for .NET 從表格行中擷取文字的過程。
@@ -98,3 +104,9 @@ A4：是的，技術支援透過[Aspose.Note 論壇](https://forum.aspose.com/c/
 ### Q5：我可以在購買前試用 Aspose.Note for .NET 嗎？
 
  A5：當然，您可以從[發布頁面](https://releases.aspose.com/)探索其特性和功能。
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

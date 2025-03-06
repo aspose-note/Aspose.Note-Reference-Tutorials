@@ -3,10 +3,16 @@ title: Recuperar lista de marcadores ou números no texto Aspose.Note
 linktitle: Recuperar lista de marcadores ou números no texto Aspose.Note
 second_title: API Aspose.Note .NET
 description: Desbloqueie o potencial do Aspose.Note para .NET com nosso guia passo a passo sobre como recuperar listas de marcadores ou números. Eleve suas habilidades de manipulação de documentos do OneNote!
-type: docs
 weight: 23
 url: /pt/net/text-manipulation/retrieve-bullet-number-list/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Recuperar lista de marcadores ou números no texto Aspose.Note
+
 ## Introdução
 Bem-vindo ao mundo do Aspose.Note for .NET, uma biblioteca robusta e versátil que permite aos desenvolvedores lidar com a manipulação de documentos do OneNote sem esforço. Neste tutorial, nos aprofundaremos no processo de recuperação de listas de marcadores ou números usando Aspose.Note para .NET. Quer você seja um desenvolvedor experiente ou um entusiasta de codificação, este guia irá equipá-lo com o conhecimento para navegar pelas complexidades de trabalhar com listas no Aspose.Note.
 ## Pré-requisitos
@@ -87,3 +93,9 @@ Sim, o Aspose.Note oferece suporte a uma ampla variedade de formatos do OneNote,
 Você pode explorar e procurar ajuda no[Fórum Aspose.Note](https://forum.aspose.com/c/note/28) para quaisquer dúvidas ou problemas que você possa encontrar.
 ### Existe uma versão de teste gratuita do Aspose.Note para .NET?
  Sim, você pode acessar a versão de avaliação gratuita do Aspose.Note for .NET[aqui](https://releases.aspose.com/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

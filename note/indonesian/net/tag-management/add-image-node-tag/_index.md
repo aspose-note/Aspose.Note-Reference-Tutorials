@@ -3,10 +3,16 @@ title: Tambahkan Node Gambar dengan Tag di Aspose.Note
 linktitle: Tambahkan Node Gambar dengan Tag di Aspose.Note
 second_title: Aspose.Catatan .NET API
 description: Pelajari cara menyempurnakan dokumen OneNote Anda dengan menambahkan gambar dengan tag kustom menggunakan Aspose.Note untuk .NET.
-type: docs
 weight: 10
 url: /id/net/tag-management/add-image-node-tag/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Tambahkan Node Gambar dengan Tag di Aspose.Note
+
 ## Perkenalan
 
 Dalam tutorial ini, kita akan mempelajari cara menambahkan node gambar dengan tag menggunakan Aspose.Note untuk .NET. Fitur ini memungkinkan Anda menyempurnakan dokumen OneNote Anda dengan menambahkan gambar dengan tag khusus.
@@ -110,3 +116,9 @@ A4: Aspose.Note terutama mendukung penambahan gambar dari direktori lokal, tetap
 ### Q5: Apakah ada batasan ukuran atau format gambar yang dapat ditambahkan?
 
 A5: Aspose.Note mendukung berbagai format gambar dan tidak menerapkan batasan ketat pada ukuran gambar, memungkinkan Anda menggabungkan beragam visual ke dalam dokumen Anda.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

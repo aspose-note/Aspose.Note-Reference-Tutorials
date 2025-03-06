@@ -3,10 +3,16 @@ title: Ρύθμιση χρώματος φόντου κελιού στο OneNote 
 linktitle: Ρύθμιση χρώματος φόντου κελιού στο OneNote - Aspose.Note
 second_title: Aspose.Note Java API
 description: Μεταμορφώστε έγγραφα OneNote με ευκολία χρησιμοποιώντας το Aspose.Note για Java. Προσαρμόστε χωρίς κόπο τα χρώματα φόντου κελιών. Δοκιμάστε τη δωρεάν δοκιμή τώρα!
-type: docs
 weight: 17
 url: /el/java/onenote-table-manipulation/setting-cell-background-color/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Ρύθμιση χρώματος φόντου κελιού στο OneNote - Aspose.Note
+
 ## Εισαγωγή
 Καλώς ήρθατε στο σεμινάριο μας σχετικά με τη ρύθμιση του χρώματος φόντου κελιών στο OneNote χρησιμοποιώντας το Aspose.Note για Java! Σε αυτόν τον οδηγό βήμα προς βήμα, θα σας καθοδηγήσουμε στη διαδικασία προσαρμογής των χρωμάτων φόντου κελιών στα έγγραφά σας OneNote χωρίς κόπο.
 ## Προαπαιτούμενα
@@ -66,3 +72,9 @@ cell11.setBackgroundColor(Color.BLACK);
  Επισκεφτείτε το φόρουμ υποστήριξης[εδώ](https://forum.aspose.com/c/note/28) για να λάβετε βοήθεια από την κοινότητα Aspose.
 ### Πού μπορώ να αγοράσω το Aspose.Note για Java;
  Μπορείτε να αγοράσετε τη βιβλιοθήκη[εδώ](https://purchase.aspose.com/buy).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

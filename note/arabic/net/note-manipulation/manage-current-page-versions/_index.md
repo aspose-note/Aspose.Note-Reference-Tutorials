@@ -3,10 +3,16 @@ title: دفع وإدارة إصدارات الصفحة الحالية في Aspos
 linktitle: دفع وإدارة إصدارات الصفحة الحالية في Aspose.Note
 second_title: Aspose.Note .NET API
 description: تعرف على كيفية دفع إصدارات الصفحة الحالية وإدارتها في Aspose.Note لـ .NET دون عناء. تحسين التحكم في إصدار المستند والتعاون.
-type: docs
 weight: 17
 url: /ar/net/note-manipulation/manage-current-page-versions/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# دفع وإدارة إصدارات الصفحة الحالية في Aspose.Note
+
 ## مقدمة
 
 في عالم تطوير البرمجيات، تعد إدارة وصيانة الإصدارات المختلفة من المستندات أمرًا بالغ الأهمية لضمان الدقة وإمكانية التتبع والمساءلة. يوفر Aspose.Note for .NET أدوات قوية لتسهيل هذه العملية، مما يسمح للمطورين بدفع إصدارات الصفحة الحالية وإدارتها بسلاسة. في هذا البرنامج التعليمي، سوف نتعمق في الخطوات المطلوبة لدفع إصدارات الصفحة الحالية وإدارتها باستخدام Aspose.Note لـ .NET.
@@ -90,3 +96,9 @@ document.Save(dataDir + "PushCurrentPageVersion_out.one");
 ### س5: هل يمكنني أتمتة عملية دفع إصدارات الصفحة باستخدام Aspose.Note لـ .NET؟
 
 ج5: بالتأكيد! يوفر Aspose.Note for .NET إمكانات أتمتة قوية، مما يسمح لك بدمج التحكم في الإصدار بسلاسة في تطبيقاتك.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -3,10 +3,16 @@ title: 在 OneNote 中使用加载选项加载笔记本文件 - Aspose.Note
 linktitle: 在 OneNote 中使用加载选项加载笔记本文件 - Aspose.Note
 second_title: Aspose.Note Java API
 description: 了解如何使用 Aspose.Note for Java 以编程方式操作 OneNote 文件。立即开始学习我们的综合教程。
-type: docs
 weight: 20
 url: /zh/java/onenote-notebook-operations/load-notebook-file-with-load-options/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# 在 OneNote 中使用加载选项加载笔记本文件 - Aspose.Note
+
 ## 介绍
 
 Aspose.Note for Java 是一个功能强大的库，使开发人员能够以编程方式使用 Microsoft OneNote 文件。无论您想要创建、操作还是转换 OneNote 文档，Aspose.Note for Java 都提供了必要的工具来简化您的工作流程。在本教程中，我们将探索如何开始使用 Aspose.Note for Java，涵盖先决条件、导入包以及将示例分解为易于遵循的步骤。
@@ -94,3 +100,9 @@ A4：如有任何疑问或问题，您可以访问支持论坛[这里](https://f
 ### Q5：我需要临时许可证才能使用 Aspose.Note for Java 吗？
 
  A5：如果您正在评估该产品，您可以获得临时许可证[这里](https://purchase.aspose.com/temporary-license/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

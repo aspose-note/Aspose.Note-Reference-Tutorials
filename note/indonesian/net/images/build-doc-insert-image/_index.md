@@ -3,10 +3,16 @@ title: Buat Dokumen dan Sisipkan Gambar di Aspose.Note
 linktitle: Buat Dokumen dan Sisipkan Gambar di Aspose.Note
 second_title: Aspose.Catatan .NET API
 description: Pelajari cara menyisipkan gambar ke dalam dokumen OneNote secara terprogram menggunakan Aspose.Note untuk .NET. Langkah mudah untuk manipulasi dokumen tanpa hambatan.
-type: docs
 weight: 10
 url: /id/net/images/build-doc-insert-image/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Buat Dokumen dan Sisipkan Gambar di Aspose.Note
+
 ## Perkenalan
 
 Dalam tutorial ini, kita akan mempelajari dunia manipulasi dokumen menggunakan Aspose.Note untuk .NET. Aspose.Note adalah API canggih yang memungkinkan pengembang bekerja dengan file Microsoft OneNote secara terprogram, memungkinkan tugas seperti membuat, memodifikasi, dan mengonversi dokumen dengan mudah. 
@@ -150,3 +156,9 @@ A4: Ya, Aspose.Note menyediakan opsi komprehensif untuk menyesuaikan tampilan ga
 ### Q5: Di mana saya dapat menemukan sumber daya tambahan dan dukungan untuk Aspose.Note untuk .NET?
 
  A5: Anda dapat menjelajahi dokumentasi Aspose.Note[Di Sini](https://reference.aspose.com/note/net/) dan mencari bantuan dari forum komunitas Aspose[Di Sini](https://forum.aspose.com/c/note/28).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

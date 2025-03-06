@@ -3,10 +3,16 @@ title: Připojit soubor podle cesty ve OneNotu s Javou
 linktitle: Připojit soubor podle cesty ve OneNotu s Javou
 second_title: Aspose.Note Java API
 description: Bezproblémově přidávejte soubory do poznámek OneNotu! Naučte se, jak připojit pomocí cesty v Javě pomocí Aspose.Note. Včetně jednoduchého průvodce a kódu! #OneNote #Java #Aspose
-type: docs
 weight: 11
 url: /cs/java/onenote-java-integration/attach-file-by-path/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Připojit soubor podle cesty ve OneNotu s Javou
+
 ## Úvod
 
 OneNote je všestranný nástroj pro organizaci a správu poznámek a s Aspose.Note pro Java můžete vylepšit jeho funkčnost programovým připojováním souborů k poznámkám. V tomto kurzu vás provedeme procesem připojení souboru podle jeho cesty ve OneNotu pomocí Javy.
@@ -148,3 +154,9 @@ A4: Ano, můžete připojit soubory ke konkrétním oddílům jejich uspořádá
 ### Q5: Existuje omezení velikosti souboru, který mohu připojit?
 
 Odpověď 5: Aspose.Note nestanoví přísná omezení velikosti souboru, ale zvažte dopady na výkon u velmi velkých souborů.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

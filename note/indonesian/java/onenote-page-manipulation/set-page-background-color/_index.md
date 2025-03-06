@@ -3,10 +3,16 @@ title: Mengatur Warna Latar Belakang Halaman di OneNote - Aspose.Note
 linktitle: Mengatur Warna Latar Belakang Halaman di OneNote - Aspose.Note
 second_title: Aspose.Catatan Java API
 description: Pelajari cara mengatur warna latar belakang halaman di OneNote dengan mudah menggunakan Aspose.Note untuk Java. Tingkatkan daya tarik visual dokumen Anda dengan tutorial sederhana ini.
-type: docs
 weight: 20
 url: /id/java/onenote-page-manipulation/set-page-background-color/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Mengatur Warna Latar Belakang Halaman di OneNote - Aspose.Note
+
 ## Perkenalan
 
 Dalam tutorial ini, kita akan mempelajari proses pengaturan warna latar belakang halaman di OneNote menggunakan Aspose.Note untuk Java. Aspose.Note adalah pustaka Java canggih yang memungkinkan pengembang memanipulasi dokumen OneNote secara terprogram. Mengubah warna latar belakang halaman dapat meningkatkan daya tarik visual dokumen OneNote Anda, menjadikannya lebih menarik dan terorganisir.
@@ -100,3 +106,9 @@ A4: Tentu saja! Anda dapat memanfaatkan uji coba gratis Aspose.Note untuk menjel
 ### Q5: Di mana saya dapat menemukan dukungan atau bantuan tambahan dengan Aspose.Note?
 
 A5: Untuk pertanyaan atau bantuan apa pun, Anda dapat mengunjungi forum Aspose.Note atau menghubungi tim dukungan mereka untuk mendapatkan bantuan segera.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

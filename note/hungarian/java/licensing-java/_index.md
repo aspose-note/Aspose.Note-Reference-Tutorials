@@ -3,10 +3,16 @@ title: Aspose.Note licencelés Java-val
 linktitle: Aspose.Note licencelés Java-val
 second_title: Aspose.Note Java API
 description: Fedezze fel a fizetős OneNote-licencek kezelésének művészetét Java nyelven az Aspose.Note segítségével. Hatékonyan ellenőrizheti a felhasználást, figyelheti a krediteket és optimalizálhatja a költségeket.
-type: docs
 weight: 24
 url: /hu/java/licensing-java/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Aspose.Note licencelés Java-val
+
 ## Bevezetés
 
 Készen állsz egy utazásra az Aspose.Note for Java világába? Ebben az átfogó útmutatóban elmélyülünk a OneNote java mérőszámos licenceinek kezelésének bonyolultságában. Az Aspose.Note segítségével navigáljunk a licencelés területén, megfejtve a titkokat, és felhatalmazza Önt a tudás hatékony használatára.
@@ -40,3 +46,9 @@ Gratulálunk! Most elindult az Aspose.Note licencelés Java nyelven való elsaj�
 ## Aspose.Note licencelés Java oktatóanyagokkal
 ### [A OneNote mérőszámos licencének kezelése Java-ban](./manage-metered-license/)
 Ismerje meg, hogyan kezelheti a OneNote fizetős licenceit Java-ban az Aspose.Note könyvtár használatával. Irányítsd a felhasználást, figyeld a krediteket, és hatékonyan optimalizáld a költségeket.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

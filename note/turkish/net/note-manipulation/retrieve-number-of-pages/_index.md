@@ -3,10 +3,16 @@ title: Aspose.Note Belgesindeki Sayfa Sayısını Alma
 linktitle: Aspose.Note Belgesindeki Sayfa Sayısını Alma
 second_title: Aspose.Note .NET API'si
 description: Aspose.Note belgenizdeki sayfaları C# kullanarak nasıl sayacağınızı öğrenin. Kolay entegrasyon için adım adım kılavuzumuzu izleyin.
-type: docs
 weight: 12
 url: /tr/net/note-manipulation/retrieve-number-of-pages/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Aspose.Note Belgesindeki Sayfa Sayısını Alma
+
 ## giriiş
 
 Aspose.Note for .NET, geliştiricilerin Microsoft OneNote dosyalarıyla programlı olarak çalışmasına olanak tanıyan güçlü bir kitaplıktır. OneNote belgelerini oluşturmanız, değiştirmeniz veya dönüştürmeniz gerekiyorsa Aspose.Note, görevlerinizi kolaylaştırmak için kapsamlı işlevsellik sağlar. Bu derste, temel işlemlerden birini ele alacağız: C# kullanarak bir Aspose.Note belgesindeki sayfa sayısını almak.
@@ -100,3 +106,9 @@ Cevap2: Aspose.Note kesinlikle PDF, HTML ve görseller dahil olmak üzere çeşi
 ### S5: Aspose.Note için nasıl teknik destek alabilirim?
 
  C5: Yardım isteyebilir ve toplulukla etkileşime geçebilirsiniz.[Aspose.Note destek forumu](https://forum.aspose.com/c/note/28).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

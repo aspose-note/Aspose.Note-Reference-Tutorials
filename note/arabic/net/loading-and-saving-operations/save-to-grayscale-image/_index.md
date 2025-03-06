@@ -3,10 +3,16 @@ title: احفظ إلى الصورة ذات التدرج الرمادي في Aspo
 linktitle: احفظ إلى الصورة ذات التدرج الرمادي في Aspose.Note
 second_title: Aspose.Note .NET API
 description: تعرف على كيفية حفظ مستندات OneNote كصور ذات تدرج رمادي باستخدام Aspose.Note لـ .NET. اتبع هذا البرنامج التعليمي الشامل لمعالجة المستندات بكفاءة.
-type: docs
 weight: 24
 url: /ar/net/loading-and-saving-operations/save-to-grayscale-image/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# احفظ إلى الصورة ذات التدرج الرمادي في Aspose.Note
+
 ## مقدمة
 
 في هذا البرنامج التعليمي، سوف نستكشف كيفية استخدام Aspose.Note لـ .NET لحفظ مستند كصورة ذات تدرج رمادي. Aspose.Note هي مكتبة قوية تتيح للمطورين العمل مع ملفات Microsoft OneNote برمجيًا، مما يوفر نطاقًا واسعًا من الوظائف.
@@ -85,3 +91,9 @@ Console.WriteLine("\nOneNote document converted successfully to grayscale image.
 ### س5: كيف يمكنني الحصول على ترخيص مؤقت لـ Aspose.Note؟
 
 ج5: يمكنك الحصول على ترخيص مؤقت لـ Aspose.Note من خلال زيارة الرابط المقدم واتباع التعليمات.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

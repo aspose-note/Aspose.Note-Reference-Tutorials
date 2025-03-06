@@ -3,10 +3,16 @@ title: Manipulace s tabulkou OneNotu
 linktitle: Manipulace s tabulkou OneNotu
 second_title: Aspose.Note Java API
 description: Vylepšete své tabulky OneNotu pomocí Aspose.Note pro Java. Měňte styly, sestavujte tabulky, extrahujte text bez problémů. Stáhněte si knihovnu pro plynulé vytváření dokumentů.
-type: docs
 weight: 32
 url: /cs/java/onenote-table-manipulation/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Manipulace s tabulkou OneNotu
+
 
 
 ## Úvod
@@ -55,3 +61,9 @@ Odhalte tajemství extrakce textu z tabulek OneNotu v Javě pomocí Aspose.Note.
 Naučte se vkládat tabulky do OneNotu pomocí Aspose.Note pro Java. Podrobný průvodce pro vytváření dynamického obsahu. Vylepšete své dokumenty bez námahy.
 ### [Nastavení barvy pozadí buňky ve OneNotu - Aspose.Note](./setting-cell-background-color/)
 Transformujte dokumenty OneNotu snadno pomocí Aspose.Note pro Java. Bez námahy přizpůsobte barvy pozadí buněk. Vyzkoušejte bezplatnou zkušební verzi nyní!
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

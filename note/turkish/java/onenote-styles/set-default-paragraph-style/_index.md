@@ -3,10 +3,16 @@ title: OneNote'ta Varsayılan Paragraf Stilini Ayarlama - Aspose.Note
 linktitle: OneNote'ta Varsayılan Paragraf Stilini Ayarlama - Aspose.Note
 second_title: Aspose.Note Java API'si
 description: Aspose.Note for Java'yı kullanarak OneNote'ta varsayılan paragraf stillerini nasıl ayarlayacağınızı öğrenin. Java uygulamalarınızda etkili metin biçimlendirmesi için adım adım kılavuzumuzu izleyin.
-type: docs
 weight: 11
 url: /tr/java/onenote-styles/set-default-paragraph-style/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# OneNote'ta Varsayılan Paragraf Stilini Ayarlama - Aspose.Note
+
 ## giriiş
 
 Aspose.Note for Java, varsayılan paragraf stillerini ayarlamak da dahil olmak üzere, metin formatını değiştirmek için güçlü yetenekler sunar. Bu eğitim, Aspose.Note'u kullanarak OneNote'ta varsayılan paragraf stillerini ayarlama sürecinde size rehberlik edecektir.
@@ -127,3 +133,9 @@ Cevap4: Evet, gerekli bağımlılıkları ekleyerek ve gerekli paketleri içe ak
 ### S5: Aspose.Note'un deneme sürümü mevcut mu?
 
  Cevap5: Evet, Aspose.Note'un ücretsiz deneme sürümüne şu adresten erişebilirsiniz:[İnternet sitesi](https://releases.aspose.com/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

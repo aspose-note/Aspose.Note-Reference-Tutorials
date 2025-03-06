@@ -3,10 +3,16 @@ title: Använd Aspose.Note-licens från Path
 linktitle: Använd Aspose.Note-licens från Path
 second_title: Aspose.Note .NET API
 description: Lär dig hur du ansöker Aspose.Note-licens från sökväg i .NET-applikationer. Lås upp den fulla potentialen av OneNote-filmanipulation med Aspose.Note.
-type: docs
 weight: 11
 url: /sv/net/licensing/apply-license-from-path/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Använd Aspose.Note-licens från Path
+
 ## Introduktion
 
 Välkommen till vår omfattande handledning om att tillämpa Aspose.Note-licens från sökväg med .NET! Aspose.Note är ett kraftfullt API som tillåter utvecklare att arbeta med Microsoft OneNote-filer programmatiskt, vilket möjliggör ett brett utbud av funktioner för att skapa, redigera och manipulera OneNote-dokument. I den här handledningen kommer vi att leda dig genom processen att tillämpa Aspose.Note-licensen från en angiven sökväg i dina .NET-applikationer.
@@ -98,3 +104,9 @@ S4: Ja, Aspose tillhandahåller omfattande dokumentation, forum och support för
 ### F5: Kan jag prova Aspose.Note innan jag köper?
 
 S5: Ja, du kan ladda ner en gratis testversion av Aspose.Note från deras webbplats för att utvärdera dess funktioner och möjligheter.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

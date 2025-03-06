@@ -3,10 +3,16 @@ title: Dapatkan Revisi Halaman di OneNote - Aspose.Note
 linktitle: Dapatkan Revisi Halaman di OneNote - Aspose.Note
 second_title: Aspose.Catatan Java API
 description: Pelajari cara mengambil revisi halaman di OneNote menggunakan Aspose.Note untuk Java. Ikuti panduan langkah demi langkah kami untuk pelacakan perubahan yang efisien.
-type: docs
 weight: 14
 url: /id/java/onenote-page-manipulation/get-page-revisions/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Dapatkan Revisi Halaman di OneNote - Aspose.Note
+
 ## Perkenalan
 
 OneNote adalah alat canggih untuk mengatur dan mengelola catatan Anda, namun terkadang Anda perlu melacak perubahan dan revisi yang dilakukan pada halaman Anda. Dengan Aspose.Note untuk Java, Anda dapat dengan mudah mengambil revisi halaman secara terprogram. Dalam tutorial ini, kami akan memandu Anda melalui proses mendapatkan revisi halaman di OneNote menggunakan Aspose.Note untuk Java.
@@ -107,3 +113,9 @@ A3: Ya, Anda perlu membeli lisensi untuk menggunakan Aspose.Note untuk Java dala
 ### Q5: Apakah tersedia uji coba gratis untuk Aspose.Note untuk Java?
 
  A5: Ya, Anda dapat mengakses uji coba gratis Aspose.Note untuk Java dari[situs web](https://releases.aspose.com/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

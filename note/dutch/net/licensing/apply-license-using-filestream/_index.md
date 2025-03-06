@@ -3,10 +3,16 @@ title: Pas de Aspose.Note-licentie toe met FileStream
 linktitle: Pas de Aspose.Note-licentie toe met FileStream
 second_title: Aspose.Note .NET API
 description: Leer hoe u een Aspose.Note-licentie kunt toepassen met behulp van FileStream in uw .NET-applicaties voor naadloze integratie.
-type: docs
 weight: 12
 url: /nl/net/licensing/apply-license-using-filestream/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Pas de Aspose.Note-licentie toe met FileStream
+
 ## Invoering
 
 Aspose.Note voor .NET is een krachtige API waarmee ontwikkelaars programmatisch met Microsoft OneNote-bestanden kunnen werken. Of u nu OneNote-documenten moet maken, lezen, wijzigen of converteren, Aspose.Note voor .NET biedt uitgebreide functies om uw workflow te stroomlijnen. In deze zelfstudie onderzoeken we hoe u een Aspose.Note-licentie kunt toepassen met FileStream, zodat u zeker weet dat uw toepassing over de juiste licentie beschikt voor productiegebruik.
@@ -85,3 +91,9 @@ A4: U kunt ondersteuning krijgen van de Aspose.Note-gemeenschap[forum](https://f
 ### Vraag 5: Bieden jullie tijdelijke licenties aan?
 
  A5: Ja, er zijn tijdelijke licenties beschikbaar[hier](https://purchase.aspose.com/temporary-license/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

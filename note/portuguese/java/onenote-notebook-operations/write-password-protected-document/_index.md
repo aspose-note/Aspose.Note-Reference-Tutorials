@@ -3,10 +3,16 @@ title: Escreva um documento protegido por senha no OneNote - Aspose.Note
 linktitle: Escreva um documento protegido por senha no OneNote - Aspose.Note
 second_title: API Java Aspose.Note
 description: Proteja suas informações confidenciais do OneNote! Aprenda a definir senhas para documentos e seções específicas - guia passo a passo e código incluído. #OneNote #Java #Aspose
-type: docs
 weight: 27
 url: /pt/java/onenote-notebook-operations/write-password-protected-document/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Escreva um documento protegido por senha no OneNote - Aspose.Note
+
 ## Introdução
 
 Neste tutorial, você aprenderá como criar documentos protegidos por senha no OneNote usando Aspose.Note para Java. Esse recurso garante a segurança e a privacidade de suas informações confidenciais em seus notebooks. Seguindo estas instruções passo a passo, você pode implementar facilmente a proteção por senha para seus documentos.
@@ -95,3 +101,9 @@ R: Sim, você pode definir senhas diferentes para diferentes seções de um note
 ### P5: Existe algum limite no comprimento ou complexidade das senhas?
 
 R: Aspose.Note não impõe limites específicos ao comprimento ou complexidade da senha, permitindo que você defina senhas fortes e seguras conforme necessário.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

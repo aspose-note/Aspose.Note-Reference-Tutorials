@@ -3,10 +3,16 @@ title: Impressão de documentos do OneNote
 linktitle: Impressão de documentos do OneNote
 second_title: API Java Aspose.Note
 description: Imprima documentos sem esforço no OneNote com Aspose.Note para Java. Esses tutoriais oferecem orientação passo a passo e exemplos de código para impressão perfeita de documentos.
-type: docs
 weight: 30
 url: /pt/java/onenote-printing-documents/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Impressão de documentos do OneNote
+
 
 ## Introdução
 
@@ -38,3 +44,9 @@ Concluindo, dominar a arte de imprimir documentos no OneNote usando Aspose.Note 
 ## Tutoriais de impressão de documentos do OneNote
 ### [Imprimir documentos no OneNote - Aspose.Note](./print-documents/)
 Aprenda como imprimir documentos no OneNote usando Aspose.Note para Java. Guia passo a passo com exemplos de código e opções personalizáveis.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

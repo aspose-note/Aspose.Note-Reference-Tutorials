@@ -3,10 +3,16 @@ title: Converti taccuino in immagine in OneNote - Aspose.Note
 linktitle: Converti taccuino in immagine in OneNote - Aspose.Note
 second_title: Aspose.Note API Java
 description: Scopri come convertire i taccuini in immagini in OneNote utilizzando Aspose.Note per Java. Integra facilmente questa funzionalità nelle tue applicazioni Java.
-type: docs
 weight: 12
 url: /it/java/onenote-notebook-operations/convert-notebook-to-image/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Converti taccuino in immagine in OneNote - Aspose.Note
+
 ## introduzione
 
 In questo tutorial esploreremo come convertire un notebook in un'immagine in OneNote utilizzando la libreria Aspose.Note per Java. La conversione dei taccuini in immagini può essere utile per vari scopi come condividere note, incorporarle nei documenti o incorporarle nelle presentazioni.
@@ -94,3 +100,9 @@ A4: Sì, puoi convertire in batch più notebook in immagini in modo efficiente u
 ### Q5: Dove posso trovare risorse aggiuntive e supporto per Aspose.Note?
 
  R5: Per ulteriore documentazione, esempi e supporto della comunità, visitare il sito[Forum Aspose.Note](https://forum.aspose.com/c/note/28) ed esplorare il[documentazione](https://reference.aspose.com/note/java/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

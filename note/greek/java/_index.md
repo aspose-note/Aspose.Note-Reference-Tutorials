@@ -1,12 +1,17 @@
 ---
 title: Πλήρη σεμινάρια & παραδείγματα Aspose.Note για Java
 linktitle: Aspose.Note for Java Tutorials
-type: docs
 weight: 10
 url: /el/java/
 description: Ανακαλύψτε ολοκληρωμένα σεμινάρια και παραδείγματα για το Aspose.Note για Java. Αναβαθμίστε την εμπειρία σας στο OneNote με οδηγούς βήμα προς βήμα για την ενσωμάτωση Java.
-is_root: true
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Πλήρη σεμινάρια & παραδείγματα Aspose.Note για Java
+
 
 ## Εισαγωγή
 
@@ -91,3 +96,9 @@ is_root: true
 Εξερευνήστε τα μαθήματα Java του Aspose.Note σχετικά με τη χειραγώγηση κειμένου του OneNote. Εξερευνήστε αποτελεσματικές μεθόδους για εργασίες όπως εξαγωγή κειμένου, εφαρμογή θεμάτων, δημιουργία λιστών και άλλα. 
 ### [Ενοποίηση εργασιών και Outlook](./task-and-outlook-integration/)
 Ξεκλειδώστε τις δυνατότητες του Aspose.Note Java με τα σεμινάρια μας σχετικά με την ενσωμάτωση εργασιών του Outlook στο OneNote. Αναβαθμίστε τις δεξιότητές σας στην επεξεργασία εγγράφων με τα σεμινάρια μας.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

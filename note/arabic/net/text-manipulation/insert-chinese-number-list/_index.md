@@ -3,10 +3,16 @@ title: أدخل قائمة الأرقام الصينية في نص Aspose.Note
 linktitle: أدخل قائمة الأرقام الصينية في نص Aspose.Note
 second_title: Aspose.Note .NET API
 description: تعرف على كيفية إدراج قوائم الأرقام الصينية في Aspose.Note لمستندات .NET دون عناء. ارفع مهاراتك في تنسيق المستندات باستخدام هذا الدليل المفصّل خطوة بخطوة.
-type: docs
 weight: 20
 url: /ar/net/text-manipulation/insert-chinese-number-list/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# أدخل قائمة الأرقام الصينية في نص Aspose.Note
+
 ## مقدمة
 هل تتطلع إلى تحسين مهاراتك في Aspose.Note لـ .NET من خلال دمج قوائم الأرقام الصينية في مستنداتك؟ إذا كان الأمر كذلك، فأنت في المكان الصحيح! في هذا البرنامج التعليمي، سنرشدك خلال عملية إدراج قوائم الأرقام الصينية باستخدام Aspose.Note لـ .NET. تتيح لك هذه المكتبة القوية التعامل مع مستندات OneNote بسلاسة.
 ## المتطلبات الأساسية
@@ -91,3 +97,9 @@ Console.WriteLine("\nChinese number list inserted successfully.\nFile saved at "
  ج: الحصول على ترخيص مؤقت[هنا](https://purchase.aspose.com/temporary-license/).
 ### س: أين يمكنني طلب المساعدة أو مناقشة الاستفسارات المتعلقة بـ Aspose.Note؟
  ج: قم بزيارة[منتدى الدعم Aspose.Note](https://forum.aspose.com/c/note/28) لدعم المجتمع.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

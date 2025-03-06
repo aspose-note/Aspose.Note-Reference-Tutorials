@@ -3,10 +3,16 @@ title: OneNote 문서를 이미지로 변환 - Java
 linktitle: OneNote 문서를 이미지로 변환 - Java
 second_title: Aspose.Note 자바 API
 description: Java용 Aspose.Note를 사용하여 OneNote를 이미지로 변환하는 방법을 알아보세요. 간단한 단계를 따르고, 문서를 로드하고, 옵션을 초기화하고, PNG로 저장하세요.
-type: docs
 weight: 14
 url: /ko/java/onenote-document-loading/convert-to-image/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# OneNote 문서를 이미지로 변환 - Java
+
 ## 소개
 
 이 튜토리얼에서는 Aspose.Note for Java를 사용하여 OneNote 문서를 이미지로 변환하는 과정을 안내합니다. 각 단계를 따라하기 쉬운 지침으로 나누어 보겠습니다.
@@ -106,3 +112,9 @@ A4: 예, Aspose.Note에서 사용 가능한 옵션을 사용하여 해상도 및
 ### Q5: Aspose.Note는 문서 변환을 위해 인터넷 연결이 필요합니까?
 
 A5: 아니요, Aspose.Note는 인터넷 연결 없이 로컬로 작동합니다.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

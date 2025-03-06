@@ -3,10 +3,16 @@ title: Markeer alle recente wijzigingen in Aspose.Note-tekst
 linktitle: Markeer alle recente wijzigingen in Aspose.Note-tekst
 second_title: Aspose.Note .NET API
 description: Verbeter uw Note-documenten met Aspose.Note voor .NET! Leer hoe u recente wijzigingen in tekst kunt markeren met deze stapsgewijze zelfstudie.
-type: docs
 weight: 19
 url: /nl/net/text-manipulation/highlight-recent-changes/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Markeer alle recente wijzigingen in Aspose.Note-tekst
+
 ## Invoering
 Wilt u dynamische en visueel aantrekkelijke functies toevoegen aan uw Note-documenten met behulp van .NET? Aspose.Note voor .NET is een krachtige oplossing waarmee u uw Note-bestanden naadloos kunt manipuleren en verbeteren. In deze tutorial gaan we in op één specifiek aspect: het markeren van alle recente wijzigingen in Aspose.Note-tekst.
 ## Vereisten
@@ -70,3 +76,9 @@ U kunt try-catch-blokken opnemen om uitzonderingen af te handelen en een soepele
 Absoluut! Aspose.Note biedt een breed scala aan functies voor tekstopmaak, inclusief lettertypestijlen, -groottes en meer.
 ### Kan ik deze oplossing integreren in een webapplicatie?
 Ja, u kunt Aspose.Note voor .NET integreren in webapplicaties om de documentverwerkingsmogelijkheden te verbeteren.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

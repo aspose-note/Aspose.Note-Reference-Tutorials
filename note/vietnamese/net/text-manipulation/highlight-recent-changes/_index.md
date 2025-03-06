@@ -3,10 +3,16 @@ title: Đánh dấu tất cả các thay đổi gần đây trong văn bản Asp
 linktitle: Đánh dấu tất cả các thay đổi gần đây trong văn bản Aspose.Note
 second_title: Aspose.Note .NET API
 description: Nâng cao tài liệu Ghi chú của bạn với Aspose.Note for .NET! Tìm hiểu cách làm nổi bật những thay đổi gần đây trong văn bản bằng hướng dẫn từng bước này.
-type: docs
 weight: 19
 url: /vi/net/text-manipulation/highlight-recent-changes/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Đánh dấu tất cả các thay đổi gần đây trong văn bản Aspose.Note
+
 ## Giới thiệu
 Bạn đang muốn thêm các tính năng động và hấp dẫn trực quan vào tài liệu Note của mình bằng .NET? Aspose.Note for .NET là một giải pháp mạnh mẽ cho phép bạn thao tác và nâng cao các tệp Ghi chú của mình một cách liền mạch. Trong hướng dẫn này, chúng ta sẽ đi sâu vào một khía cạnh cụ thể: làm nổi bật tất cả những thay đổi gần đây trong văn bản Aspose.Note.
 ## Điều kiện tiên quyết
@@ -70,3 +76,9 @@ Bạn có thể kết hợp các khối try-catch để xử lý các trường 
 Tuyệt đối! Aspose.Note cung cấp nhiều tính năng để định dạng văn bản, bao gồm kiểu phông chữ, kích thước, v.v.
 ### Tôi có thể tích hợp giải pháp này vào ứng dụng web không?
 Có, bạn có thể tích hợp Aspose.Note for .NET vào các ứng dụng web để nâng cao khả năng xử lý tài liệu.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

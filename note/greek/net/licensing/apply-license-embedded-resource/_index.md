@@ -3,10 +3,16 @@ title: Εφαρμόστε την άδεια χρήσης Aspose.Note από το
 linktitle: Εφαρμόστε την άδεια χρήσης Aspose.Note από τον ενσωματωμένο πόρο
 second_title: Aspose.Note .NET API
 description: Μάθετε πώς να εφαρμόζετε την άδεια χρήσης Aspose.Note από έναν ενσωματωμένο πόρο στην εφαρμογή σας .NET. Ακολουθήστε τον βήμα προς βήμα οδηγό μας για απρόσκοπτη ενσωμάτωση.
-type: docs
 weight: 10
 url: /el/net/licensing/apply-license-embedded-resource/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Εφαρμόστε την άδεια χρήσης Aspose.Note από τον ενσωματωμένο πόρο
+
 ## Εισαγωγή
 
 Το Aspose.Note για .NET είναι ένα ισχυρό API που επιτρέπει στους προγραμματιστές να εργάζονται με αρχεία Microsoft OneNote μέσω προγραμματισμού. Είτε θέλετε να δημιουργήσετε, να τροποποιήσετε ή να μετατρέψετε έγγραφα OneNote, το Aspose.Note παρέχει ένα ολοκληρωμένο σύνολο λειτουργιών για να καλύψει τις ανάγκες σας. Σε αυτό το σεμινάριο, θα ακολουθήσουμε τη διαδικασία εφαρμογής μιας άδειας χρήσης Aspose.Note από έναν ενσωματωμένο πόρο στην εφαρμογή σας .NET.
@@ -86,3 +92,9 @@ A1: Όχι, χρειάζεστε έγκυρη άδεια χρήσης για ν�
 ### Ε5: Πού μπορώ να αγοράσω άδειες χρήσης Aspose.Note;
 
  A5: Μπορείτε να αγοράσετε άδειες χρήσης Aspose.Note[εδώ](https://purchase.aspose.com/buy).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

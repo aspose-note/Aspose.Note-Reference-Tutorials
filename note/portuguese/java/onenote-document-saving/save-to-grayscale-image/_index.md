@@ -3,10 +3,16 @@ title: Salvar em imagem em escala de cinza no OneNote - Aspose.Note
 linktitle: Salvar em imagem em escala de cinza no OneNote - Aspose.Note
 second_title: API Java Aspose.Note
 description: Aprenda como salvar um documento como uma imagem em tons de cinza no OneNote usando Aspose.Note para Java. Manipule facilmente documentos do Microsoft OneNote de forma programática.
-type: docs
 weight: 17
 url: /pt/java/onenote-document-saving/save-to-grayscale-image/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Salvar em imagem em escala de cinza no OneNote - Aspose.Note
+
 ## Introdução
 
 Neste tutorial, exploraremos como salvar um documento como uma imagem em escala de cinza no OneNote usando Aspose.Note para Java. Imagens em tons de cinza são imagens monocromáticas onde as informações de cores são representadas apenas por tons de cinza. Aspose.Note é uma API Java poderosa que permite a manipulação de documentos do Microsoft OneNote de forma programática.
@@ -83,3 +89,9 @@ A4: Com certeza! Aspose.Note oferece uma ampla gama de recursos para edição pr
 ### P5: Onde posso encontrar suporte se encontrar problemas?
 
 A5: Você pode encontrar suporte no fórum Aspose.Note[aqui](https://forum.aspose.com/c/note/28).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

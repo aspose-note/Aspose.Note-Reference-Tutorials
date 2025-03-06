@@ -3,10 +3,16 @@ title: Thao tác trang OneNote
 linktitle: Thao tác trang OneNote
 second_title: API Java Aspose.Note
 description: Quản lý các trang xung đột, tạo tài liệu có tổ chức và theo dõi các bản sửa đổi trong OneNote bằng Aspose.Note for Java. Hướng dẫn từng bước để quản lý tài liệu hiệu quả.
-type: docs
 weight: 29
 url: /vi/java/onenote-page-manipulation/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Thao tác trang OneNote
+
 
 ## Giới thiệu
 
@@ -74,3 +80,9 @@ Tìm hiểu cách quay lại các phiên bản trang trước trong OneNote bằ
 Tìm hiểu cách đặt màu nền trang trong OneNote một cách dễ dàng bằng Aspose.Note for Java. Nâng cao sự hấp dẫn trực quan của tài liệu của bạn với hướng dẫn đơn giản này.
 ### [Làm việc với các bản sửa đổi trang trong OneNote - Aspose.Note](./working-with-page-revisions/)
 Tìm hiểu cách quản lý các bản sửa đổi trang trong tài liệu OneNote bằng Aspose.Note for Java. Hướng dẫn này cung cấp hướng dẫn từng bước để theo dõi và cộng tác sửa đổi hiệu quả.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

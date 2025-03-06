@@ -3,10 +3,16 @@ title: Převést konkrétní stránku na obrázek v Aspose.Note
 linktitle: Převést konkrétní stránku na obrázek v Aspose.Note
 second_title: Aspose.Note .NET API
 description: Naučte se, jak převést konkrétní stránky dokumentů Microsoft OneNote na obrázky programově pomocí Aspose.Note pro .NET.
-type: docs
 weight: 11
 url: /cs/net/loading-and-saving-operations/convert-specific-page-to-image/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Převést konkrétní stránku na obrázek v Aspose.Note
+
 ## Úvod
 
 Aspose.Note for .NET je výkonné rozhraní API, které umožňuje vývojářům pracovat s dokumenty Microsoft OneNote programově. Ať už potřebujete extrahovat obsah, převádět dokumenty do jiných formátů nebo manipulovat s prvky v rámci souboru OneNote, Aspose.Note pro .NET poskytuje komplexní funkce pro zefektivnění vašich úkolů. V tomto kurzu prozkoumáme, jak využít Aspose.Note pro .NET k převodu konkrétních stránek dokumentu OneNotu na obrázky. Pokryjeme předpoklady, importujeme jmenné prostory a poskytneme podrobné pokyny k implementaci procesu převodu.
@@ -100,3 +106,9 @@ A4: Ano, kvalitu obrazu můžete nastavit podle svých požadavků.
 ### Q5: Kde mohu získat podporu pro Aspose.Note pro .NET?
 
  Odpověď 5: Můžete získat podporu od komunity Aspose.Note pro .NET[Fórum](https://forum.aspose.com/c/note/28).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -3,10 +3,16 @@ title: OneNote Notebook-bewerkingen
 linktitle: OneNote Notebook-bewerkingen
 second_title: Aspose.Note Java-API
 description: Ontgrendel het volledige potentieel van Aspose.Note voor Java met onze OneNote Notebook Operations Tutorials. Geef een stapsgewijze handleiding voor het verbeteren van uw Java-apps.
-type: docs
 weight: 28
 url: /nl/java/onenote-notebook-operations/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# OneNote Notebook-bewerkingen
+
 
 ## Invoering
 
@@ -66,3 +72,9 @@ Leer hoe u documenten uit OneNote Notebook kunt ophalen met Aspose.Note voor Jav
 Leer hoe u notitieboekjes kunt opslaan in streams in OneNote met behulp van Aspose.Note voor Java. Verhoog de productiviteit met efficiënt notebookbeheer.
 ### [Schrijf een met een wachtwoord beveiligd document in OneNote - Aspose.Note](./write-password-protected-document/)
 Leer hoe u met een wachtwoord beveiligde documenten schrijft in OneNote met Aspose.Note voor Java. Zorg voor veiligheid met eenvoudig te volgen stappen.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

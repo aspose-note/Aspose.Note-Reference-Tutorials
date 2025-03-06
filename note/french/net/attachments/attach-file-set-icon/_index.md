@@ -3,10 +3,16 @@ title: Joindre un fichier et définir l'icône dans Aspose.Note
 linktitle: Joindre un fichier et définir l'icône dans Aspose.Note
 second_title: API Aspose.Note .NET
 description: Découvrez comment joindre des fichiers et définir des icônes dans Aspose.Note pour .NET. Améliorez vos applications .NET avec ce didacticiel étape par étape.
-type: docs
 weight: 10
 url: /fr/net/attachments/attach-file-set-icon/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Joindre un fichier et définir l'icône dans Aspose.Note
+
 ## Introduction
 
 Dans le domaine du développement .NET, Aspose.Note se distingue comme un outil puissant pour manipuler les documents Microsoft OneNote par programme. En tirant parti de ses capacités, les développeurs peuvent automatiser diverses tâches liées à la création, à la modification et à la gestion de fichiers OneNote au sein de leurs applications. Une fonctionnalité essentielle est la possibilité de joindre des fichiers à des notes et de définir des icônes pour ces pièces jointes. Dans ce didacticiel, nous aborderons le processus de pièce jointe d'un fichier et de définition d'une icône à l'aide d'Aspose.Note pour .NET.
@@ -125,3 +131,9 @@ A4 : Aspose.Note traite principalement des fichiers stockés localement ou acce
 ### Q5 : Existe-t-il une limite de taille pour les pièces jointes dans Aspose.Note pour .NET ?
 
 R5 : Aspose.Note n'impose pas de limites de taille spécifiques pour les pièces jointes, mais des limitations pratiques peuvent s'appliquer en fonction des ressources système et des considérations de performances.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

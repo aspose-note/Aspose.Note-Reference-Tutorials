@@ -3,10 +3,16 @@ title: OneNote'ta Önceki Sayfa Sürümüne Geri Dönme - Aspose.Note
 linktitle: OneNote'ta Önceki Sayfa Sürümüne Geri Dönme - Aspose.Note
 second_title: Aspose.Note Java API'si
 description: Aspose.Note for Java'yı kullanarak OneNote'ta önceki sayfa sürümlerine nasıl geri döneceğinizi öğrenin. Etkin belge yönetimi için bu adım adım kılavuzu izleyin.
-type: docs
 weight: 19
 url: /tr/java/onenote-page-manipulation/roll-back-to-previous-page-version/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# OneNote'ta Önceki Sayfa Sürümüne Geri Dönme - Aspose.Note
+
 ## giriiş
 
 Bu eğitimde, OneNote'ta bir sayfanın önceki sürümüne geri dönmek için Aspose.Note for Java'yı kullanmayı ayrıntılı olarak ele alacağız. OneNote not alma, işbirliği ve organizasyon için güçlü bir araçtır ancak bazen hatalar meydana gelebilir veya değişikliklerin geri alınması gerekebilir. Aspose.Note, Java ile kusursuz entegrasyon sunarak geliştiricilere OneNote belgelerini programlı olarak yönetme olanağı sağlar. Önceki sayfa sürümüne geri dönmek, OneNote belgelerinizde doğruluğu ve bütünlüğü korumak için çok önemli bir özelliktir.
@@ -91,3 +97,9 @@ C: Kesinlikle Aspose.Note, OneNote belgelerini programlı olarak değiştirmek i
 ### S5: Aspose.Note için bir topluluk forumu veya desteği mevcut mu?
 
  C: Evet, ziyaret edebilirsiniz[Aspose.Note forumu](https://forum.aspose.com/c/note/28) topluluk desteği için veya yardım için Aspose'un müşteri desteğiyle iletişime geçin.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

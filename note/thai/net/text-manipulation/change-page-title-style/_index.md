@@ -3,10 +3,16 @@ title: เปลี่ยนสไตล์ชื่อหน้าใน Aspose
 linktitle: เปลี่ยนสไตล์ชื่อหน้าใน Aspose.Note
 second_title: Aspose.Note .NET API
 description: แปลงเอกสาร .NET ของคุณด้วย Aspose.Note! เรียนรู้การเปลี่ยนรูปแบบชื่อหน้าได้อย่างง่ายดาย ยกระดับความสวยงามด้วยขั้นตอนง่ายๆ ไม่กี่ขั้นตอน
-type: docs
 weight: 13
 url: /th/net/text-manipulation/change-page-title-style/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# เปลี่ยนสไตล์ชื่อหน้าใน Aspose.Note
+
 ## การแนะนำ
 คุณกำลังมองหาที่จะยกระดับความดึงดูดสายตาให้กับเอกสาร .NET ของคุณด้วยการกำหนดสไตล์ชื่อหน้าแบบไดนามิกหรือไม่? Aspose.Note สำหรับ .NET นำเสนอโซลูชันที่ราบรื่น ช่วยให้คุณเปลี่ยนสไตล์ของชื่อเพจของคุณได้อย่างง่ายดาย ในบทช่วยสอนนี้ เราจะแนะนำคุณตลอดกระบวนการทีละขั้นตอน เพื่อให้มั่นใจว่าคุณสามารถเพิ่มความสวยงามให้กับเอกสารของคุณได้โดยไม่ต้องยุ่งยากใดๆ
 ## ข้อกำหนดเบื้องต้น
@@ -70,3 +76,9 @@ Console.WriteLine("\nTitle's styles are changed successfully.");
  คุณสามารถซื้อใบอนุญาตสำหรับ Aspose.Note[ที่นี่](https://purchase.aspose.com/buy).
 ### ฉันจำเป็นต้องมีใบอนุญาตชั่วคราวเพื่อการทดสอบหรือไม่?
  ได้ หากคุณกำลังทดสอบ Aspose.Note คุณสามารถขอรับใบอนุญาตชั่วคราวได้[ที่นี่](https://purchase.aspose.com/temporary-license/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

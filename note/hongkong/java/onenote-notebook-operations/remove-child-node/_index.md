@@ -3,10 +3,16 @@ title: 刪除 OneNote 筆記本中的子節點 - Aspose.Note
 linktitle: 刪除 OneNote 筆記本中的子節點 - Aspose.Note
 second_title: Aspose.Note Java API
 description: 了解如何使用 Aspose.Note for Java 從 OneNote 筆記本中刪除子節點。請按照我們的逐步指南進行無縫文件操作。
-type: docs
 weight: 24
 url: /zh-hant/java/onenote-notebook-operations/remove-child-node/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# 刪除 OneNote 筆記本中的子節點 - Aspose.Note
+
 ## 介紹
 
 在本教學中，我們將深入研究使用 Aspose.Note for Java 刪除 OneNote 筆記本中的子節點的過程。 Aspose.Note 是一個功能強大的 API，允許開發人員以程式設計方式處理 Microsoft OneNote 文件，從而實現 OneNote 文件的建立、操作和轉換等各種操作。
@@ -92,3 +98,9 @@ A2：是的，您可以在 Aspose.Note 論壇上找到支援並與其他使用�
 ### Q5：哪裡可以找到 Aspose.Note for Java 的詳細文件？
 
  A5：您可以存取 Aspose.Note for Java 的完整文檔[這裡](https://reference.aspose.com/note/java/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -3,10 +3,16 @@ title: Χειρισμός πίνακα OneNote
 linktitle: Χειρισμός πίνακα OneNote
 second_title: Aspose.Note Java API
 description: Βελτιώστε τους πίνακες OneNote με το Aspose.Note για Java. Αλλάξτε στυλ, συνθέστε πίνακες, εξάγετε κείμενο απρόσκοπτα. Κατεβάστε τη βιβλιοθήκη για ομαλή δημιουργία εγγράφων.
-type: docs
 weight: 32
 url: /el/java/onenote-table-manipulation/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Χειρισμός πίνακα OneNote
+
 
 
 ## Εισαγωγή
@@ -55,3 +61,9 @@ url: /el/java/onenote-table-manipulation/
 Μάθετε να εισάγετε πίνακες στο OneNote χρησιμοποιώντας το Aspose.Note για Java. Οδηγός βήμα προς βήμα για δυναμική δημιουργία περιεχομένου. Βελτιώστε τα έγγραφά σας χωρίς κόπο.
 ### [Ρύθμιση χρώματος φόντου κελιού στο OneNote - Aspose.Note](./setting-cell-background-color/)
 Μεταμορφώστε έγγραφα OneNote με ευκολία χρησιμοποιώντας το Aspose.Note για Java. Προσαρμόστε χωρίς κόπο τα χρώματα φόντου κελιών. Δοκιμάστε τη δωρεάν δοκιμή τώρα!
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

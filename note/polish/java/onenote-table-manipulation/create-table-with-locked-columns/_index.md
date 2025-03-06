@@ -3,10 +3,16 @@ title: Utwórz tabelę z zablokowanymi kolumnami w programie OneNote — Aspose.
 linktitle: Utwórz tabelę z zablokowanymi kolumnami w programie OneNote — Aspose.Note
 second_title: Aspose.Note API Java
 description: Wzbogać swoje doświadczenie OneNote dzięki Aspose.Note dla Java. Dowiedz się, jak tworzyć tabele z zablokowanymi kolumnami, korzystając z przewodnika krok po kroku. Pobierz teraz bezpłatną wersję próbną!
-type: docs
 weight: 12
 url: /pl/java/onenote-table-manipulation/create-table-with-locked-columns/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Utwórz tabelę z zablokowanymi kolumnami w programie OneNote — Aspose.Note
+
 ## Wstęp
 OneNote to potężne narzędzie do organizowania informacji, a Aspose.Note dla Java zwiększa jego możliwości, zapewniając płynny sposób tworzenia tabel z zablokowanymi kolumnami. W tym samouczku przeprowadzimy Cię przez proces używania Aspose.Note dla Java do tworzenia tabeli z zablokowanymi kolumnami w OneNote.
 ## Warunki wstępne
@@ -90,3 +96,9 @@ Absolutnie! Aspose.Note dla Java zapewnia rozbudowane opcje dostosowywania tabel
  Odwiedzić[Forum Aspose.Note](https://forum.aspose.com/c/note/28) za wsparcie i dyskusje społeczne.
 ### Jak mogę uzyskać tymczasową licencję na Aspose.Note dla Java?
  Odwiedzać[ten link](https://purchase.aspose.com/temporary-license/) w celu uzyskania tymczasowej licencji do celów testowych.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

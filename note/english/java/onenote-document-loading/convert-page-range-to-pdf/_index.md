@@ -3,10 +3,16 @@ title: Convert Specific Page Range to PDF in OneNote with Java
 linktitle: Convert Specific Page Range to PDF in OneNote with Java
 second_title: Aspose.Note Java API
 description: Learn how to convert specific page ranges from OneNote to PDF seamlessly with Aspose.Note for Java. Preserve formatting and layout effortlessly.
-type: docs
 weight: 11
 url: /java/onenote-document-loading/convert-page-range-to-pdf/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Convert Specific Page Range to PDF in OneNote with Java
+
 ## Introduction
 
 OneNote is a powerful tool for organizing notes, but sometimes you may need to export specific page ranges to PDF for sharing or archiving purposes. In this tutorial, we'll guide you through the process of converting a specific page range to PDF using Aspose.Note for Java.
@@ -85,3 +91,10 @@ A4: Yes, you can customize various aspects such as page size, orientation, and h
 ### Q5: Does Aspose.Note for Java support batch conversion of multiple OneNote documents?
 
 A5: Yes, you can batch convert multiple OneNote documents to PDF by looping through each document and applying the conversion process.
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

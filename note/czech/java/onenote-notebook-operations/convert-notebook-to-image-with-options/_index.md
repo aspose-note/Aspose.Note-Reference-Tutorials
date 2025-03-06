@@ -3,10 +3,16 @@ title: Převést Poznámkový blok na obrázek s možnostmi ve OneNotu – Aspos
 linktitle: Převést Poznámkový blok na obrázek s možnostmi ve OneNotu – Aspose.Note
 second_title: Aspose.Note Java API
 description: Naučte se, jak převést notebook na obrázek s možnostmi pomocí Aspose.Note for Java. Postupujte podle našeho podrobného návodu pro bezproblémovou integraci do vašich aplikací Java.
-type: docs
 weight: 14
 url: /cs/java/onenote-notebook-operations/convert-notebook-to-image-with-options/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Převést Poznámkový blok na obrázek s možnostmi ve OneNotu – Aspose.Note
+
 ## Úvod
 
 V tomto tutoriálu se ponoříme do procesu převodu Notebooku na obrázek s různými možnostmi pomocí Aspose.Note pro Javu. Aspose.Note je výkonné Java API, které umožňuje vývojářům pracovat se soubory Microsoft OneNote programově, což umožňuje bezproblémovou integraci do jejich aplikací Java.
@@ -89,3 +95,9 @@ Odpověď 4: Ano, Aspose poskytuje vynikající podporu vývojářům prostředn
 ### Q5: Je k dispozici bezplatná zkušební verze pro Aspose.Note pro Java?
 
  A5: Ano, můžete využít bezplatnou zkušební verzi Aspose.Note pro Java od[tady](https://releases.aspose.com/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

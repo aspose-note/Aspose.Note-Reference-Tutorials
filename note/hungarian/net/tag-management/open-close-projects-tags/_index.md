@@ -3,10 +3,16 @@ title: Projektek megnyitása és bezárása címkékkel az Aspose.Note-ban
 linktitle: Projektek megnyitása és bezárása címkékkel az Aspose.Note-ban
 second_title: Aspose.Note .NET API
 description: Ismerje meg, hogyan kezelheti programozottan a Microsoft OneNote fájlokat az Aspose.Note for .NET használatával. Hatékonyan nyithat meg és zárhat be projekteket címkékkel.
-type: docs
 weight: 15
 url: /hu/net/tag-management/open-close-projects-tags/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Projektek megnyitása és bezárása címkékkel az Aspose.Note-ban
+
 ## Bevezetés
 
 Ebben az oktatóanyagban megtudjuk, hogyan használhatja az Aspose.Note for .NET-et projektek címkékkel való megnyitásához és bezárásához. Az Aspose.Note egy hatékony API, amely lehetővé teszi a fejlesztők számára, hogy programozottan dolgozzanak Microsoft OneNote fájlokkal, lehetővé téve olyan feladatok elvégzését, mint például a szövegek, képek és címkék manipulálása a dokumentumokon belül.
@@ -112,3 +118,9 @@ Az Aspose.Note for .NET kényelmes módot kínál a OneNote-dokumentumok program
 ### 5. kérdés: Hol kaphatok támogatást az Aspose.Note-hoz?
 
  5. válasz: Támogatásért keresse fel az Aspose.Note oldalt[fórum](https://forum.aspose.com/c/note/28).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

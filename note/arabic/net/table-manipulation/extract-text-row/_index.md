@@ -3,10 +3,16 @@ title: استخراج النص من صفوف الجدول في Aspose.Note
 linktitle: استخراج النص من صفوف الجدول في Aspose.Note
 second_title: Aspose.Note .NET API
 description: تعرف على كيفية استخراج النص من صفوف الجدول في Aspose.Note لـ .NET باستخدام هذا البرنامج التعليمي الشامل.
-type: docs
 weight: 14
 url: /ar/net/table-manipulation/extract-text-row/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# استخراج النص من صفوف الجدول في Aspose.Note
+
 ## مقدمة
 
 في مجال معالجة المستندات، يمثل Aspose.Note for .NET حلاً قويًا يمكّن المطورين من معالجة ملفات OneNote بكفاءة برمجيًا. من بين إمكانياته التي لا تعد ولا تحصى، يعد استخراج النص من صفوف الجدول مهمة شائعة يواجهها المطورون. سيرشدك هذا البرنامج التعليمي خلال عملية استخراج النص من صفوف الجدول باستخدام Aspose.Note لـ .NET.
@@ -98,3 +104,9 @@ foreach (Table table in nodes)
 ### س5: هل يمكنني تجربة Aspose.Note لـ .NET قبل الشراء؟
 
  ج5: بالتأكيد، يمكنك الاستفادة من النسخة التجريبية المجانية من[صفحة الإصدار](https://releases.aspose.com/) للتعرف على مميزاته وإمكانياته.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

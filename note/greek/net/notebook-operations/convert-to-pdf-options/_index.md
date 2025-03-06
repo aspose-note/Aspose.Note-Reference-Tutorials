@@ -3,10 +3,16 @@ title: Μετατρέψτε σημειωματάρια σε PDF με Επιλο�
 linktitle: Μετατρέψτε σημειωματάρια σε PDF με Επιλογές στο Aspose Note .NET
 second_title: Aspose.Note .NET API
 description: Μάθετε πώς να μετατρέπετε σημειωματάρια Microsoft OneNote σε μορφή PDF χρησιμοποιώντας το Aspose.Note για βιβλιοθήκη .NET με προσαρμόσιμες επιλογές.
-type: docs
 weight: 16
 url: /el/net/notebook-operations/convert-to-pdf-options/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Μετατρέψτε σημειωματάρια σε PDF με Επιλογές στο Aspose Note .NET
+
 ## Εισαγωγή
 
 Σε αυτό το σεμινάριο, θα ακολουθήσουμε τη διαδικασία μετατροπής φορητών υπολογιστών σε μορφή PDF χρησιμοποιώντας το Aspose.Note για τη βιβλιοθήκη .NET. Το Aspose.Note για .NET παρέχει ένα ισχυρό σύνολο δυνατοτήτων για εργασία με αρχεία Microsoft OneNote μέσω προγραμματισμού.
@@ -102,3 +108,9 @@ A4: Ναι, μπορείτε να κάνετε λήψη μιας δωρεάν δ
 ### Ε5: Πώς μπορώ να λάβω τεχνική υποστήριξη για το Aspose.Note για .NET;
 
  A5: Μπορείτε να λάβετε τεχνική υποστήριξη για το Aspose.Note για .NET μεταβαίνοντας στο[Aspose.Note φόρουμ](https://forum.aspose.com/c/note/28) ή επικοινωνήστε απευθείας με την ομάδα υποστήριξης της Aspose.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

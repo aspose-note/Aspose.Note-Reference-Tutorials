@@ -3,10 +3,16 @@ title: Tabel invoegen in OneNote - Aspose.Note
 linktitle: Tabel invoegen in OneNote - Aspose.Note
 second_title: Aspose.Note Java-API
 description: Leer hoe u tabellen invoegt in OneNote met Aspose.Note voor Java. Stapsgewijze handleiding voor dynamische contentcreatie. Verbeter uw documenten moeiteloos.
-type: docs
 weight: 16
 url: /nl/java/onenote-table-manipulation/insert-table/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Tabel invoegen in OneNote - Aspose.Note
+
 ## Invoering
 Als u uw OneNote-documenten wilt verbeteren door tabellen programmatisch in te voegen, is Aspose.Note voor Java uw beste oplossing. In deze stapsgewijze handleiding leiden we u door het proces van het invoegen van een tabel in een OneNote-document met behulp van de krachtige Java-bibliotheek van Aspose.Note.
 ## Vereisten
@@ -101,3 +107,9 @@ A: Ja, Aspose.Note voor Java kan zowel in persoonlijke als commerciële projecte
  A: Ja, je kunt de bibliotheek verkennen met een[gratis proefperiode](https://releases.aspose.com/).
 ### Vraag: Hoe verkrijg ik een tijdelijke licentie voor Aspose.Note voor Java?
  A: Vraag een tijdelijke licentie aan[hier](https://purchase.aspose.com/temporary-license/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

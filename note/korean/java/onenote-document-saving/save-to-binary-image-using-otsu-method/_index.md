@@ -3,10 +3,16 @@ title: OneNote에서 Otsu 방법을 사용하여 이진 이미지에 저장
 linktitle: OneNote에서 Otsu 방법을 사용하여 이진 이미지에 저장
 second_title: Aspose.Note 자바 API
 description: Java용 Aspose.Note와 함께 Otsu 메서드를 사용하여 OneNote 문서를 바이너리 이미지로 저장하는 방법을 알아보세요. Aspose.Note로 Java 앱의 기능을 향상하세요.
-type: docs
 weight: 15
 url: /ko/java/onenote-document-saving/save-to-binary-image-using-otsu-method/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# OneNote에서 Otsu 방법을 사용하여 이진 이미지에 저장
+
 ## 소개
 
 이 튜토리얼에서는 Aspose.Note for Java의 Otsu 메소드를 사용하여 문서를 바이너리 이미지로 저장하는 방법을 알아봅니다. Aspose.Note는 Java 개발자가 Microsoft OneNote 파일을 프로그래밍 방식으로 작업할 수 있도록 하는 강력한 API입니다. 문서를 바이너리 이미지로 저장하면 이미지 처리, OCR(광학 문자 인식) 등과 같은 다양한 애플리케이션에 유용할 수 있습니다.
@@ -82,3 +88,9 @@ A4: Aspose.Note는 주로 OneNote 문서 조작을 다루지만 OCR(광학 문�
 ### Q5: Aspose.Note for Java를 사용하는 동안 문제가 발생하면 어디서 지원을 받을 수 있나요?
 
 A5: Aspose.Note 포럼을 방문하거나 지원팀에 문의하여 기술적 문제나 문의 사항에 대한 도움을 받을 수 있습니다.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

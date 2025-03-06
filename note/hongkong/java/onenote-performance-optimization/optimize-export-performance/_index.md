@@ -3,10 +3,16 @@ title: 使用 Java 最佳化 OneNote 中的匯出效能
 linktitle: 使用 Java 最佳化 OneNote 中的匯出效能
 second_title: Aspose.Note Java API
 description: 了解如何使用 Java 和 Aspose.Note 最佳化 OneNote 中的匯出效能。透過逐步指導，有效率地將文件匯出為各種格式。
-type: docs
 weight: 10
 url: /zh-hant/java/onenote-performance-optimization/optimize-export-performance/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# 使用 Java 最佳化 OneNote 中的匯出效能
+
 ## 介紹
 
 在本教學中，您將學習如何使用 Java 和 Aspose.Note 來最佳化 OneNote 文件的匯出效能。我們將逐步引導您完成整個過程，確保您可以有效地將 OneNote 文件匯出為各種格式，同時保持效能。
@@ -169,3 +175,9 @@ A4：是的，Aspose.Note 提供了廣泛的自訂選項，可讓使用者根據
 ### Q5：Aspose.Note 使用者可以獲得技術支援嗎？
 
 A5：是的，Aspose 提供專門的技術支持，幫助用戶解決在使用 Aspose.Note 時可能遇到的任何疑問或問題。
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

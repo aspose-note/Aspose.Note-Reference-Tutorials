@@ -3,10 +3,16 @@ title: Tích hợp Java OneNote
 linktitle: Tích hợp Java OneNote
 second_title: API Java Aspose.Note
 description: Nâng cao trải nghiệm OneNote của bạn với Aspose.Note Java! Khám phá các hướng dẫn về cách đính kèm tệp, đặt biểu tượng và truy xuất tệp đính kèm theo chương trình bằng Java.
-type: docs
 weight: 20
 url: /vi/java/onenote-java-integration/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Tích hợp Java OneNote
+
 ## Giới thiệu
 
 Chào mừng bạn đến với hướng dẫn toàn diện của chúng tôi về cách tích hợp OneNote với Java bằng Aspose.Note. Cho dù bạn là nhà phát triển dày dạn kinh nghiệm hay mới bắt đầu, những hướng dẫn này sẽ giúp bạn tối đa hóa khả năng OneNote của mình theo chương trình.
@@ -36,3 +42,9 @@ Tìm hiểu cách đính kèm tệp và đặt biểu tượng trong OneNote b�
 Tìm hiểu cách đính kèm tệp vào ghi chú OneNote của bạn theo chương trình bằng cách sử dụng Java với Aspose.Note.
 ### [Truy xuất tệp đính kèm từ OneNote bằng Java](./retrieve-attachment/)
 Tìm hiểu cách truy xuất tệp đính kèm từ OneNote bằng Java với Aspose.Note, một API mạnh mẽ để thao tác tài liệu liền mạch.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

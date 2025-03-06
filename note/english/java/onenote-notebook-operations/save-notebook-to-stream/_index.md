@@ -3,10 +3,16 @@ title: Save Notebook to Stream in OneNote - Aspose.Note
 linktitle: Save Notebook to Stream in OneNote - Aspose.Note
 second_title: Aspose.Note Java API
 description: Learn how to save notebooks to streams in OneNote using Aspose.Note for Java. Boost productivity with efficient notebook management.
-type: docs
 weight: 26
 url: /java/onenote-notebook-operations/save-notebook-to-stream/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Save Notebook to Stream in OneNote - Aspose.Note
+
 ## Introduction
 
 In this tutorial, we will guide you through the process of saving a notebook to a stream in OneNote using Aspose.Note for Java. By following these steps, you'll be able to efficiently manage your notebooks programmatically.
@@ -88,3 +94,10 @@ A4: Yes, Aspose offers dedicated support through its forum. You can find assista
 ### Q5: Is there a trial version available for Aspose.Note for Java?
 
 A5: Yes, you can access the trial version [here](https://releases.aspose.com/).
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

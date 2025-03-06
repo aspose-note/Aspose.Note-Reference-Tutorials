@@ -3,10 +3,16 @@ title: 在 Aspose Note .NET 中读取富文本
 linktitle: 在 Aspose Note .NET 中读取富文本
 second_title: Aspose.Note .NET API
 description: 了解如何使用 Aspose.Note for .NET 以编程方式从 OneNote 笔记本中读取富文本。请按照我们的分步教程轻松集成。
-type: docs
 weight: 23
 url: /zh/net/notebook-operations/read-rich-text/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# 在 Aspose Note .NET 中读取富文本
+
 ## 介绍
 
 在本教程中，我们将探索如何使用 Aspose.Note for .NET 读取富文本。 Aspose.Note 是一个功能强大的 API，使开发人员能够以编程方式使用 Microsoft OneNote 文档，提供用于创建、编辑和操作 OneNote 文件的广泛功能。
@@ -97,3 +103,9 @@ A1：是的，Aspose.Note for .NET 允许您以编程方式创建、编辑和操
 ### Q5：在哪里可以找到 Aspose.Note for .NET 的详细文档？
 
  A5：您可以在以下位置找到 Aspose.Note for .NET 的综合文档：[参考页](https://reference.aspose.com/note/net/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -3,10 +3,16 @@ title: Szúrjon be képeket az Image Stream segítségével az Aspose.Note-ba
 linktitle: Szúrjon be képeket az Image Stream segítségével az Aspose.Note-ba
 second_title: Aspose.Note .NET API
 description: Ismerje meg, hogyan lehet zökkenőmentesen beilleszteni képeket az Aspose.Note dokumentumokba a .NET képfolyamaival. Növelje Note-fájljait látványelemekkel könnyedén.
-type: docs
 weight: 11
 url: /hu/net/images/insert-image-using-image-stream/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Szúrjon be képeket az Image Stream segítségével az Aspose.Note-ba
+
 ## Bevezetés
 
 Ebben az oktatóanyagban megvizsgáljuk, hogyan lehet képeket beszúrni egy Aspose.Note dokumentumba a .NET képfolyamaival. Az Aspose.Note egy hatékony API, amely lehetővé teszi a fejlesztők számára, hogy programozottan dolgozzanak Microsoft OneNote fájlokkal. Az ebben az útmutatóban vázolt lépések követésével megtanulhatja, hogyan integrálhatja zökkenőmentesen a képeket a Note-dokumentumaiba, javítva azok vizuális vonzerejét és általános funkcionalitását.
@@ -120,3 +126,9 @@ Az oktatóanyag követésével megtanulta, hogyan lehet képeket beszúrni az As
 ### 5. kérdés: Hol találok további forrásokat és támogatást az Aspose.Note számára?
 
  5. válasz: Az Aspose.Note átfogó dokumentációját, fórumait és támogatását megtalálja a[Aspose fórum](https://forum.aspose.com/c/note/28).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

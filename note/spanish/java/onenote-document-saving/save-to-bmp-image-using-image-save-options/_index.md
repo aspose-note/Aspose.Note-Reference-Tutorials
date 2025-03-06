@@ -3,10 +3,16 @@ title: Guardar en imagen BMP usando las opciones de guardar imagen en OneNote
 linktitle: Guardar en imagen BMP usando las opciones de guardar imagen en OneNote
 second_title: Aspose.Nota Java API
 description: Aprenda a guardar documentos de OneNote en imágenes BMP mediante programación utilizando Aspose.Note para Java. Guía paso a paso con ejemplos de código.
-type: docs
 weight: 16
 url: /es/java/onenote-document-saving/save-to-bmp-image-using-image-save-options/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Guardar en imagen BMP usando las opciones de guardar imagen en OneNote
+
 ## Introducción
 
 Aspose.Note para Java es una potente biblioteca que permite a los desarrolladores de Java trabajar con archivos de Microsoft OneNote mediante programación. Con Aspose.Note para Java, puede crear, manipular y convertir documentos de OneNote sin problemas. En este tutorial, profundizaremos en cómo guardar un documento de OneNote en una imagen BMP utilizando las opciones para guardar imágenes proporcionadas por Aspose.Note para Java.
@@ -79,3 +85,9 @@ R4: Sí, puede manipular el contenido, la estructura y el formato de los documen
 ### P5: ¿Aspose.Note para Java proporciona soporte técnico?
 
  R5: Sí, Aspose brinda soporte técnico para sus productos. Puedes visitar el[Foro Aspose.Note](https://forum.aspose.com/c/note/28) para asistencia.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

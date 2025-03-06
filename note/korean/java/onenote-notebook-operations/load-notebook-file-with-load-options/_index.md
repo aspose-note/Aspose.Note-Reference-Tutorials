@@ -3,10 +3,16 @@ title: OneNote의 로드 옵션을 사용하여 노트북 파일 로드 - Aspose
 linktitle: OneNote의 로드 옵션을 사용하여 노트북 파일 로드 - Aspose.Note
 second_title: Aspose.Note 자바 API
 description: Java용 Aspose.Note를 사용하여 OneNote 파일을 프로그래밍 방식으로 조작하는 방법을 알아보세요. 지금 포괄적인 튜토리얼을 시작해 보세요.
-type: docs
 weight: 20
 url: /ko/java/onenote-notebook-operations/load-notebook-file-with-load-options/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# OneNote의 로드 옵션을 사용하여 노트북 파일 로드 - Aspose.Note
+
 ## 소개
 
 Aspose.Note for Java는 개발자가 Microsoft OneNote 파일을 프로그래밍 방식으로 작업할 수 있게 해주는 강력한 라이브러리입니다. OneNote 문서를 생성, 조작 또는 변환하려는 경우 Aspose.Note for Java는 작업 흐름을 간소화하는 데 필요한 도구를 제공합니다. 이 튜토리얼에서는 전제 조건을 다루고, 패키지를 가져오고, 예제를 따라하기 쉬운 단계로 분류하여 Java용 Aspose.Note를 시작하는 방법을 살펴보겠습니다.
@@ -94,3 +100,9 @@ A1: 예, Java용 Aspose.Note는 .one, .onetoc2 및 .onepkg 형식을 포함하�
 ### Q5: Aspose.Note for Java를 사용하려면 임시 라이선스가 필요합니까?
 
  A5: 제품을 평가하는 경우 임시 라이선스를 얻을 수 있습니다.[여기](https://purchase.aspose.com/temporary-license/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

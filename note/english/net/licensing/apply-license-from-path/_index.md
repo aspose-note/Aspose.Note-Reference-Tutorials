@@ -3,10 +3,16 @@ title: Apply Aspose.Note License from Path
 linktitle: Apply Aspose.Note License from Path
 second_title: Aspose.Note .NET API
 description: Learn how to apply Aspose.Note license from path in .NET applications. Unlock the full potential of OneNote file manipulation with Aspose.Note.
-type: docs
 weight: 11
 url: /net/licensing/apply-license-from-path/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Apply Aspose.Note License from Path
+
 ## Introduction
 
 Welcome to our comprehensive tutorial on applying Aspose.Note license from path using .NET! Aspose.Note is a powerful API that allows developers to work with Microsoft OneNote files programmatically, enabling a wide range of functionalities for creating, editing, and manipulating OneNote documents. In this tutorial, we will walk you through the process of applying the Aspose.Note license from a specified path in your .NET applications.
@@ -98,3 +104,10 @@ A4: Yes, Aspose provides comprehensive documentation, forums, and support to ass
 ### Q5: Can I try Aspose.Note before purchasing?
 
 A5: Yes, you can download a free trial version of Aspose.Note from their website to evaluate its features and capabilities.
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

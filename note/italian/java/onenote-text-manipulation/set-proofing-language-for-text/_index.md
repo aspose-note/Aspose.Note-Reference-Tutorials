@@ -3,10 +3,16 @@ title: Imposta la lingua di correzione per il testo in OneNote - Aspose.Note
 linktitle: Imposta la lingua di correzione per il testo in OneNote - Aspose.Note
 second_title: Aspose.Note API Java
 description: Sblocca il potenziale di Aspose.Note per Java! Scopri come impostare facilmente la lingua di correzione per il testo in OneNote con la nostra guida passo passo.
-type: docs
 weight: 22
 url: /it/java/onenote-text-manipulation/set-proofing-language-for-text/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Imposta la lingua di correzione per il testo in OneNote - Aspose.Note
+
 ## introduzione
 Nel dinamico mondo dello sviluppo software, Aspose.Note per Java si distingue come un potente strumento per la gestione e la manipolazione dei documenti OneNote a livello di codice. Se stai cercando di migliorare le tue applicazioni Java con la possibilità di impostare un linguaggio di correzione per il testo in OneNote, sei nel posto giusto. Questo tutorial ti guiderà attraverso il processo passo dopo passo, assicurandoti di comprendere chiaramente ogni concetto.
 ## Prerequisiti
@@ -67,3 +73,9 @@ R: Implementa meccanismi di gestione degli errori utilizzando blocchi try-catch 
 R: Certamente! Assicurati di avere la libreria Aspose.Note per Java configurata correttamente nel tuo progetto web.
 ### D: Dove posso trovare ulteriori esempi e documentazione per Aspose.Note per Java?
  R: Esplora il[documentazione](https://reference.aspose.com/note/java/) per risorse complete.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

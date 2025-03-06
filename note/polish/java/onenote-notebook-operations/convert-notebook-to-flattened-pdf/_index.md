@@ -3,10 +3,16 @@ title: Konwertuj notatnik na spłaszczony plik PDF w programie OneNote — Aspos
 linktitle: Konwertuj notatnik na spłaszczony plik PDF w programie OneNote — Aspose.Note
 second_title: Aspose.Note API Java
 description: Konwertuj notatniki na spłaszczone pliki PDF bez wysiłku dzięki Aspose.Note dla Java. Ciesz się bezproblemową integracją i możliwościami dostosowywania.
-type: docs
 weight: 16
 url: /pl/java/onenote-notebook-operations/convert-notebook-to-flattened-pdf/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Konwertuj notatnik na spłaszczony plik PDF w programie OneNote — Aspose.Note
+
 ## Wstęp
 
 W tym samouczku przyjrzymy się, jak przekonwertować notatnik na spłaszczony format PDF za pomocą Aspose.Note dla Java. Konwersja notatników do plików PDF jest powszechnym wymaganiem w wielu aplikacjach, a Aspose.Note upraszcza ten proces dzięki wszechstronnemu zestawowi funkcji i łatwemu w użyciu interfejsowi API.
@@ -82,3 +88,9 @@ O3: Tak, możesz efektywnie konwertować wiele notatników do plików PDF za pom
 ### P5: Gdzie mogę znaleźć wsparcie dla Aspose.Note dla Java?
 
  O5: Możesz znaleźć wsparcie i pomoc dla Aspose.Note dla Java na[Forum Aspose.Note](https://forum.aspose.com/c/note/28).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

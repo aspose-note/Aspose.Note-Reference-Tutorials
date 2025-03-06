@@ -3,10 +3,16 @@ title: Voeg een tabelknooppunt met tag toe in Aspose.Note
 linktitle: Voeg een tabelknooppunt met tag toe in Aspose.Note
 second_title: Aspose.Note .NET API
 description: Leer hoe u tabellen met tags toevoegt in Aspose.Note voor .NET. Verbeter uw vaardigheden op het gebied van documentmanipulatie programmatisch.
-type: docs
 weight: 11
 url: /nl/net/tag-management/add-table-node-tag/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Voeg een tabelknooppunt met tag toe in Aspose.Note
+
 ## Invoering
 
 In deze zelfstudie begeleiden we u bij het toevoegen van een tabelknooppunt met een tag met behulp van Aspose.Note voor .NET. Volg de onderstaande stappen om dit te bereiken.
@@ -137,3 +143,9 @@ A4: Ja, Aspose.Note biedt ondersteuning voor het coderen van OneNote-documenten 
 ### V5: Is er technische ondersteuning beschikbaar voor Aspose.Note-gebruikers?
 
  A5: Ja, technische ondersteuning wordt geboden via de Aspose-forums[hier](https://forum.aspose.com/c/note/28), waar u hulp kunt inroepen van deskundigen.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

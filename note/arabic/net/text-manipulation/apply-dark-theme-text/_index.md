@@ -3,10 +3,16 @@ title: تحويل المظهر الداكن باستخدام Aspose.Note لـ .N
 linktitle: قم بتطبيق المظهر الداكن على النص في Aspose.Note
 second_title: Aspose.Note .NET API
 description: قم بتحويل مستندات OneNote الخاصة بك باستخدام Aspose.Note لـ .NET! قم بتطبيق سمة داكنة أنيقة دون عناء. قم بالتنزيل الآن وعزز تجربة تدوين الملاحظات الخاصة بك.
-type: docs
 weight: 11
 url: /ar/net/text-manipulation/apply-dark-theme-text/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# تحويل المظهر الداكن باستخدام Aspose.Note لـ .NET
+
 ## مقدمة
 مرحبًا بك في دليلنا خطوة بخطوة حول تطبيق سمة داكنة على النص في Aspose.Note لـ .NET. Aspose.Note عبارة عن واجهة برمجة تطبيقات .NET قوية تتيح للمطورين العمل مع ملفات Microsoft OneNote برمجيًا. في هذا البرنامج التعليمي، سنستكشف كيفية منح مستندات OneNote الخاصة بك مظهرًا أنيقًا وعصريًا من خلال تطبيق سمة داكنة على النص.
 ## المتطلبات الأساسية
@@ -67,3 +73,9 @@ doc.Save(Path.Combine(dataDir, "AsposeDarkTheme.pdf"));
 نعم، يمكنك تعديل الكود للتبديل بين السمات بناءً على تفضيلاتك.
 ### أين يمكنني الحصول على الدعم للاستفسارات المتعلقة بـ Aspose.Note؟
  للحصول على أي مساعدة، قم بزيارة[منتدى Aspose.Note](https://forum.aspose.com/c/note/28) أو استكشاف[توثيق](https://reference.aspose.com/note/net/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

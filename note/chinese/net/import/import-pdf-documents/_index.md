@@ -3,10 +3,16 @@ title: 将 PDF 文档导入 Aspose.Note
 linktitle: 将 PDF 文档导入 Aspose.Note
 second_title: Aspose.Note .NET API
 description: 了解如何使用各种合并选项轻松将 PDF 文档导入 Aspose.Note for .NET 中以实现无缝集成。
-type: docs
 weight: 10
 url: /zh/net/import/import-pdf-documents/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# 将 PDF 文档导入 Aspose.Note
+
 ## 介绍
 
 如今，可用的数字内容数量巨大，将 PDF 文档无缝集成到您的项目中至关重要。 Aspose.Note for .NET 提供了强大的功能来高效导入 PDF 文档。在本教程中，我们将探索如何使用 Aspose.Note for .NET 逐步导入 PDF 文档。
@@ -151,3 +157,9 @@ A4：是的，Aspose.Note 与 .NET Core 兼容，允许您将 PDF 导入功能�
 ### Q5：我在哪里可以找到额外的支持或资源？
 
  A5：如需更多支持、文档或社区帮助，请访问[Aspose.Note 论坛](https://forum.aspose.com/c/note/28).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

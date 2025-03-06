@@ -3,10 +3,16 @@ title: Выделите все недавние изменения в текст
 linktitle: Выделите все недавние изменения в тексте Aspose.Note
 second_title: Aspose.Note .NET API
 description: Улучшите свои документы Note с помощью Aspose.Note для .NET! Узнайте, как выделить недавние изменения в тексте, с помощью этого пошагового руководства.
-type: docs
 weight: 19
 url: /ru/net/text-manipulation/highlight-recent-changes/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Выделите все недавние изменения в тексте Aspose.Note
+
 ## Введение
 Вы хотите добавить динамичные и визуально привлекательные функции в свои документы Note с помощью .NET? Aspose.Note для .NET — это мощное решение, которое позволяет вам легко манипулировать и улучшать ваши файлы Note. В этом уроке мы углубимся в один конкретный аспект: выделение всех последних изменений в тексте Aspose.Note.
 ## Предварительные условия
@@ -70,3 +76,9 @@ Aspose.Note регулярно обновляет свои библиотеки,
 Абсолютно! Aspose.Note предоставляет широкий спектр функций для форматирования текста, включая стили шрифтов, размеры и многое другое.
 ### Могу ли я интегрировать это решение в веб-приложение?
 Да, вы можете интегрировать Aspose.Note for .NET в веб-приложения, чтобы расширить возможности обработки документов.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

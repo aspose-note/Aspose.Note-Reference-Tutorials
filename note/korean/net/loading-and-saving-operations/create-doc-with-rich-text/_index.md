@@ -3,10 +3,16 @@ title: Aspose.Note에서 서식 있는 텍스트가 포함된 문서 만들기
 linktitle: Aspose.Note에서 서식 있는 텍스트가 포함된 문서 만들기
 second_title: Aspose.Note .NET API
 description: .NET용 Aspose.Note를 사용하여 프로그래밍 방식으로 서식 있는 텍스트 문서를 만드는 방법을 알아보세요. 코드 예제가 포함된 단계별 가이드입니다.
-type: docs
 weight: 12
 url: /ko/net/loading-and-saving-operations/create-doc-with-rich-text/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Aspose.Note에서 서식 있는 텍스트가 포함된 문서 만들기
+
 ## 소개
 
 .NET 개발 영역에서 Aspose.Note는 Microsoft OneNote 파일을 프로그래밍 방식으로 처리하기 위한 강력한 도구로 돋보입니다. 문서 생성 자동화를 목표로 하거나 기존 노트를 조작하려는 경우 Aspose.Note는 개발자에게 포괄적인 기능 세트를 제공합니다. 이러한 기능 중에는 다양한 서식 옵션을 갖춘 서식 있는 텍스트 문서를 생성하는 기능이 있습니다. 이 튜토리얼에서는 .NET용 Aspose.Note를 사용하여 이러한 문서를 만드는 과정을 단계별로 살펴보겠습니다.
@@ -170,3 +176,9 @@ A4: Aspose.Note는 주로 로컬 문서 처리에 중점을 두지만 특정 작
 ### Q5: Aspose.Note에 대한 추가 리소스와 지원은 어디서 찾을 수 있나요?
 
  A5: 다음을 탐색할 수 있습니다.[Aspose.Note 포럼](https://forum.aspose.com/c/note/28) 커뮤니티 지원 및 액세스 문서에 대한 정보는[웹사이트](https://reference.aspose.com/note/net/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

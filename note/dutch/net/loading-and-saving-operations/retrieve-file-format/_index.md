@@ -3,10 +3,16 @@ title: Bestandsindeling ophalen in Aspose.Note
 linktitle: Bestandsindeling ophalen in Aspose.Note
 second_title: Aspose.Note .NET API
 description: Ontdek Aspose.Note voor .NET, een krachtige API om programmatisch met Microsoft OneNote-documenten te werken.
-type: docs
 weight: 19
 url: /nl/net/loading-and-saving-operations/retrieve-file-format/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Bestandsindeling ophalen in Aspose.Note
+
 ## Invoering
 
 Aspose.Note voor .NET is een krachtige API waarmee ontwikkelaars programmatisch met Microsoft OneNote-documenten kunnen werken. Of u nu OneNote-bestanden moet maken, manipuleren of converteren, Aspose.Note vereenvoudigt het proces met zijn intuïtieve en uitgebreide reeks functies.
@@ -83,3 +89,9 @@ A3: Ja, u kunt de mogelijkheden van Aspose.Note verkennen met een gratis proefve
 ### Vraag 5: Heb ik een tijdelijke licentie nodig voor evaluatiedoeleinden?
 
  A5: Hoewel u met de gratis proefperiode Aspose.Note kunt testen, kunt u ook kiezen voor een tijdelijke licentie voor uitgebreide evaluatie. Bezoek[hier](https://purchase.aspose.com/temporary-license/) voor meer details.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

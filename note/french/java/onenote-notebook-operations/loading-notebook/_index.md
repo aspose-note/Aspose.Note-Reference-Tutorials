@@ -3,10 +3,16 @@ title: Chargement du bloc-notes dans OneNote - Aspose.Note
 linktitle: Chargement du bloc-notes dans OneNote - Aspose.Note
 second_title: API Java Aspose.Note
 description: Maîtrisez les blocs-notes OneNote en Java ! Apprenez à charger, explorer et traiter du contenu, des documents aux sous-blocs-notes. Étapes faciles et code inclus ! #OneNote #Java #Aspose
-type: docs
 weight: 19
 url: /fr/java/onenote-notebook-operations/loading-notebook/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Chargement du bloc-notes dans OneNote - Aspose.Note
+
 ## Introduction
 
 Bienvenue dans notre didacticiel sur l'utilisation d'Aspose.Note pour Java pour utiliser les blocs-notes OneNote. Aspose.Note est une puissante bibliothèque Java qui permet aux développeurs de créer, manipuler et convertir des documents OneNote par programme. Dans ce didacticiel, nous vous guiderons tout au long du processus de chargement d'un bloc-notes dans OneNote à l'aide d'Aspose.Note pour Java.
@@ -98,3 +104,9 @@ A3 : Oui, vous devez acheter une licence pour un usage commercial. Cependant, vo
 ### Q5 : Puis-je obtenir une licence temporaire à des fins de test ?
 
  A5 : Oui, vous pouvez demander une licence temporaire[ici](https://purchase.aspose.com/temporary-license/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

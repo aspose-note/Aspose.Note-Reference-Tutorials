@@ -3,10 +3,16 @@ title: Aspose.Note のページ履歴を変更する
 linktitle: Aspose.Note のページ履歴を変更する
 second_title: Aspose.Note .NET API
 description: この包括的なチュートリアルを使用して、Aspose.Note for .NET でページ履歴を変更する方法を学びます。ドキュメント処理能力を簡単に強化します。
-type: docs
 weight: 15
 url: /ja/net/note-manipulation/modify-page-history/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Aspose.Note のページ履歴を変更する
+
 ## 導入
 
 ドキュメント処理の分野では、Aspose.Note for .NET が強力なツールとして登場し、開発者が OneNote ファイルを簡単に操作できるようになります。開発者が遭遇する一般的なタスクの 1 つは、Aspose.Note ドキュメント内のページ履歴を変更することです。このチュートリアルでは、プロセスを段階的に説明し、Aspose.Note for .NET を使用してページ履歴を効果的に変更するために必要な名前空間、前提条件、コード スニペットを説明します。
@@ -94,3 +100,10 @@ A4: はい、開発者は、Aspose.Note for .NET 専用の Aspose サポート �
 ### Q5: 購入する前に Aspose.Note for .NET を試してみることはできますか?
 
 A5: もちろん、開発者は Aspose.Note for .NET の無料試用版を利用して、その機能とプロジェクトへの適合性を評価できます。
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -3,10 +3,16 @@ title: Csatoljon fájlt és állítsa be az ikont az Aspose.Note-ban
 linktitle: Csatoljon fájlt és állítsa be az ikont az Aspose.Note-ban
 second_title: Aspose.Note .NET API
 description: Ismerje meg, hogyan csatolhat fájlokat és állíthat be ikonokat az Aspose.Note for .NET webhelyen. Bővítse .NET-alkalmazásait ezzel a lépésenkénti oktatóanyaggal.
-type: docs
 weight: 10
 url: /hu/net/attachments/attach-file-set-icon/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Csatoljon fájlt és állítsa be az ikont az Aspose.Note-ban
+
 ## Bevezetés
 
 .NET fejlesztés területén az Aspose.Note a Microsoft OneNote dokumentumok programozott kezelésének hatékony eszközeként tűnik ki. Lehetőségeit kihasználva a fejlesztők automatizálhatják a OneNote-fájlok létrehozásával, szerkesztésével és kezelésével kapcsolatos különféle feladatokat alkalmazásaikban. Az egyik alapvető funkció a fájlok csatolása a jegyzetekhez és ikonok beállítása ezekhez a mellékletekhez. Ebben az oktatóanyagban a fájl csatolásának és az Aspose.Note for .NET-hez való ikon beállításának folyamatába fogunk bele.
@@ -125,3 +131,9 @@ Ebben az oktatóanyagban megvizsgáltuk, hogyan csatolhatunk fájlokat és áll�
 ### 5. kérdés: Van-e méretkorlát az Aspose.Note for .NET fájlmellékleteire?
 
 5. válasz: Az Aspose.Note nem ír elő konkrét méretkorlátozást a fájlmellékletekre, de gyakorlati korlátozások vonatkozhatnak a rendszererőforrások és a teljesítmény megfontolások alapján.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -3,10 +3,16 @@ title: Tạo tài liệu với trang gốc và trang phụ trong OneNote
 linktitle: Tạo tài liệu với trang gốc và trang phụ trong OneNote
 second_title: API Java Aspose.Note
 description: Tạo tài liệu có trang gốc và trang phụ trong OneNote bằng Aspose.Note for Java. Hãy làm theo hướng dẫn từng bước để sắp xếp các ghi chú của bạn một cách hiệu quả.
-type: docs
 weight: 11
 url: /vi/java/onenote-page-manipulation/create-document-with-root-and-sub-pages/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Tạo tài liệu với trang gốc và trang phụ trong OneNote
+
 ## Giới thiệu
 
 Trong hướng dẫn này, chúng tôi sẽ hướng dẫn bạn quy trình tạo tài liệu với các trang gốc và trang phụ trong OneNote bằng Aspose.Note for Java. Bằng cách làm theo các bước này, bạn sẽ có thể sắp xếp hiệu quả các tài liệu OneNote của mình theo cấu trúc phân cấp.
@@ -169,3 +175,9 @@ Câu trả lời 4: Có, Aspose.Note for Java hỗ trợ lưu tài liệu ở nh
 ### Câu hỏi 5: Có phiên bản dùng thử cho Aspose.Note cho Java không?
 
 Câu trả lời 5: Có, bạn có thể tải xuống phiên bản dùng thử miễn phí của Aspose.Note dành cho Java từ trang web.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

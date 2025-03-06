@@ -1,12 +1,17 @@
 ---
 title: บทช่วยสอนที่ครอบคลุมและตัวอย่างของ Aspose.Note สำหรับ Java
 linktitle: Aspose.Note สำหรับการสอน Java
-type: docs
 weight: 10
 url: /th/java/
 description: ค้นพบบทช่วยสอนและตัวอย่างที่ครอบคลุมสำหรับ Aspose.Note สำหรับ Java ยกระดับประสบการณ์ OneNote ของคุณด้วยคำแนะนำทีละขั้นตอนเกี่ยวกับการรวม Java
-is_root: true
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# บทช่วยสอนที่ครอบคลุมและตัวอย่างของ Aspose.Note สำหรับ Java
+
 
 ## การแนะนำ
 
@@ -91,3 +96,9 @@ is_root: true
 สำรวจบทช่วยสอน Java ของ Aspose.Note เกี่ยวกับการจัดการข้อความ OneNote สำรวจวิธีการที่มีประสิทธิภาพสำหรับงานต่างๆ เช่น การแยกข้อความ การใช้ธีม การสร้างรายการ และอื่นๆ 
 ### [การรวมงานและ Outlook](./task-and-outlook-integration/)
 ปลดล็อกศักยภาพของ Aspose.Note Java ด้วยบทช่วยสอนของเราเกี่ยวกับการรวมงาน Outlook เข้ากับ OneNote ยกระดับทักษะการประมวลผลเอกสารของคุณด้วยบทช่วยสอนของเรา
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -3,10 +3,16 @@ title: Insérer des images à l'aide d'Image Stream dans Aspose.Note
 linktitle: Insérer des images à l'aide d'Image Stream dans Aspose.Note
 second_title: API Aspose.Note .NET
 description: Découvrez comment insérer de manière transparente des images dans des documents Aspose.Note à l'aide de flux d'images dans .NET. Améliorez vos fichiers Note avec des visuels sans effort.
-type: docs
 weight: 11
 url: /fr/net/images/insert-image-using-image-stream/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Insérer des images à l'aide d'Image Stream dans Aspose.Note
+
 ## Introduction
 
 Dans ce didacticiel, nous allons explorer comment insérer des images dans un document Aspose.Note à l'aide de flux d'images dans .NET. Aspose.Note est une API puissante qui permet aux développeurs de travailler avec des fichiers Microsoft OneNote par programme. En suivant les étapes décrites dans ce guide, vous apprendrez à intégrer de manière transparente des images dans vos documents Note, améliorant ainsi leur attrait visuel et leurs fonctionnalités globales.
@@ -120,3 +126,9 @@ A4 : Aspose.Note pour .NET est compatible avec plusieurs versions du framework 
 ### Q5 : Où puis-je trouver des ressources supplémentaires et une assistance pour Aspose.Note ?
 
  A5 : Vous pouvez trouver une documentation complète, des forums et une assistance pour Aspose.Note sur le[Forum Aspose](https://forum.aspose.com/c/note/28).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

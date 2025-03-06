@@ -3,10 +3,16 @@ title: Atur Warna Latar Belakang Halaman di Aspose.Note
 linktitle: Atur Warna Latar Belakang Halaman di Aspose.Note
 second_title: Aspose.Catatan .NET API
 description: Pelajari cara mengatur warna latar belakang halaman di dokumen Aspose.Note menggunakan bahasa pemrograman C# dengan panduan langkah demi langkah.
-type: docs
 weight: 19
 url: /id/net/note-manipulation/set-page-background-color/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Atur Warna Latar Belakang Halaman di Aspose.Note
+
 ## Perkenalan
 
 Aspose.Note untuk .NET memungkinkan pengembang memanipulasi dokumen OneNote secara terprogram. Salah satu tugas umum adalah mengatur warna latar belakang halaman dalam dokumen-dokumen ini. Dalam tutorial ini, kami akan memandu Anda melalui proses langkah demi langkah.
@@ -97,3 +103,9 @@ A3: Ya, Anda dapat mengunduh versi uji coba gratis dari[Di Sini](https://release
 ### Q5: Di mana saya dapat menemukan dukungan tambahan atau mengajukan pertanyaan tentang Aspose.Note?
 
  A5: Anda dapat mengunjungi[Aspose.Catatan forum](https://forum.aspose.com/c/note/28) untuk dukungan dan untuk terhubung dengan pengguna lain.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

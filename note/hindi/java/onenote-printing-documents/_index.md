@@ -3,10 +3,16 @@ title: OneNote मुद्रण दस्तावेज़
 linktitle: OneNote मुद्रण दस्तावेज़
 second_title: Aspose.नोट जावा एपीआई
 description: Java के लिए Aspose.Note के साथ OneNote में दस्तावेज़ों को सहजता से प्रिंट करें। ये ट्यूटोरियल निर्बाध दस्तावेज़ मुद्रण के लिए चरण-दर-चरण मार्गदर्शन और कोड उदाहरण प्रदान करते हैं।
-type: docs
 weight: 30
 url: /hi/java/onenote-printing-documents/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# OneNote मुद्रण दस्तावेज़
+
 
 ## परिचय
 
@@ -38,3 +44,9 @@ url: /hi/java/onenote-printing-documents/
 ## OneNote मुद्रण दस्तावेज़ ट्यूटोरियल
 ### [OneNote में दस्तावेज़ प्रिंट करें - Aspose.Note](./print-documents/)
 जानें कि Java के लिए Aspose.Note का उपयोग करके OneNote में दस्तावेज़ कैसे प्रिंट करें। कोड उदाहरणों और अनुकूलन योग्य विकल्पों के साथ चरण-दर-चरण मार्गदर्शिका।
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

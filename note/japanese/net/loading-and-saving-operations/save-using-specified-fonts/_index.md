@@ -3,10 +3,16 @@ title: Aspose.Note で指定したフォントを使用して保存する
 linktitle: Aspose.Note で指定したフォントを使用して保存する
 second_title: Aspose.Note .NET API
 description: Aspose.Note for .NET で指定したフォントを使用してドキュメントを保存する方法を学びます。フォント設定を簡単にカスタマイズして、一貫したドキュメントの書式設定を実現します。
-type: docs
 weight: 28
 url: /ja/net/loading-and-saving-operations/save-using-specified-fonts/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Aspose.Note で指定したフォントを使用して保存する
+
 ## 導入
 
 このチュートリアルでは、Aspose.Note for .NET で指定したフォントを使用してドキュメントを保存する方法を学習します。これを達成するためのさまざまな方法を段階的に検討していきます。
@@ -131,3 +137,9 @@ A4: はい、Aspose.Note ではフォントを埋め込むことができ、ド�
 ### Q5: Aspose.Note に関するさらなるサポートはどこで受けられますか?
 
  A5: さらに支援や技術サポートが必要な場合は、次のサイトにアクセスしてください。[Aspose.Note フォーラム](https://forum.aspose.com/c/note/28).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

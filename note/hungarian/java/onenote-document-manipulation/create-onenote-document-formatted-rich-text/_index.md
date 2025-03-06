@@ -3,10 +3,16 @@ title: Hozzon létre OneNote-dokumentumot formázott formázott szöveggel Java 
 linktitle: Hozzon létre OneNote-dokumentumot formázott formázott szöveggel Java nyelven
 second_title: Aspose.Note Java API
 description: Ismerje meg, hogyan hozhat létre gazdagon formázott OneNote-dokumentumokat programozottan Java nyelven az Aspose.Note for Java használatával. Kövesse lépésről lépésre útmutatónkat a zökkenőmentes dokumentumautomatizáláshoz.
-type: docs
 weight: 11
 url: /hu/java/onenote-document-manipulation/create-onenote-document-formatted-rich-text/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Hozzon létre OneNote-dokumentumot formázott formázott szöveggel Java nyelven
+
 ## Bevezetés
 
 gazdagon formázott OneNote-dokumentumok programozott létrehozása hatékony eszköz lehet azoknak a fejlesztőknek, akik a Java-alkalmazások dokumentumgenerálási feladatait szeretnék automatizálni. Az Aspose.Note for Java funkciók és funkciók átfogó készletét kínálja ennek zökkenőmentes megvalósításához. Ebben az oktatóanyagban végigvezetjük egy formázott formázott szöveget tartalmazó OneNote-dokumentum létrehozásának folyamatán az Aspose.Note for Java használatával.
@@ -142,3 +148,10 @@ V1: Igen, az igényeinek megfelelően beállíthat különféle tulajdonságokat
 ### 5. kérdés: Az Aspose.Note for Java támogatja a OneNote-on kívül más dokumentumformátumokat is?
 
 5. válasz: Igen, az Aspose.Note for Java számos dokumentumformátumot támogat, beleértve a PDF-, HTML- és képformátumokat.
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

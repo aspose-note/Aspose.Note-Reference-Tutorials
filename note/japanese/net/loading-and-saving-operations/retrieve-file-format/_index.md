@@ -3,10 +3,16 @@ title: Aspose.Note でファイル形式を取得する
 linktitle: Aspose.Note でファイル形式を取得する
 second_title: Aspose.Note .NET API
 description: Microsoft OneNote ドキュメントをプログラムで操作するための強力な API である Aspose.Note for .NET を探索してください。
-type: docs
 weight: 19
 url: /ja/net/loading-and-saving-operations/retrieve-file-format/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Aspose.Note でファイル形式を取得する
+
 ## 導入
 
 Aspose.Note for .NET は、開発者が Microsoft OneNote ドキュメントをプログラムで操作できるようにする強力な API です。 OneNote ファイルを作成、操作、変換する必要がある場合でも、Aspose.Note の直感的で包括的な機能セットによりプロセスが簡素化されます。
@@ -83,3 +89,9 @@ A4: 技術的なサポートや質問がある場合は、次のサイトにア�
 ### Q5: 評価目的には一時ライセンスが必要ですか?
 
  A5: 無料トライアルでは Aspose.Note をテストできますが、拡張評価用に一時ライセンスを選択することもできます。訪問[ここ](https://purchase.aspose.com/temporary-license/)詳細については。
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

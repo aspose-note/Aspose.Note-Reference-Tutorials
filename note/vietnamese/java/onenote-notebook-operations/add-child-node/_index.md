@@ -3,10 +3,16 @@ title: Thêm nút con vào sổ ghi chép OneNote - Aspose.Note
 linktitle: Thêm nút con vào sổ ghi chép OneNote - Aspose.Note
 second_title: API Java Aspose.Note
 description: Tìm hiểu cách thêm các nút con vào sổ ghi chép OneNote theo chương trình bằng cách sử dụng Aspose.Note for Java. Cải thiện tổ chức ghi chú của bạn một cách dễ dàng.
-type: docs
 weight: 11
 url: /vi/java/onenote-notebook-operations/add-child-node/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Thêm nút con vào sổ ghi chép OneNote - Aspose.Note
+
 ## Giới thiệu
 
 OneNote là một công cụ mạnh mẽ để sắp xếp các ghi chú và ý tưởng của bạn. Aspose.Note for Java cung cấp những cách thuận tiện để thao tác với tệp OneNote theo chương trình. Trong hướng dẫn này, chúng ta sẽ hướng dẫn từng bước quy trình thêm nút con vào sổ ghi chép OneNote.
@@ -89,3 +95,9 @@ Câu trả lời 4: Có, bạn có thể dễ dàng tích hợp Aspose.Note for 
 ### Câu hỏi 5: Có diễn đàn cộng đồng nào để tôi có thể tìm kiếm trợ giúp và hướng dẫn sử dụng Aspose.Note cho Java không?
 
  A5: Có, bạn có thể truy cập[Diễn đàn Aspose.Note](https://forum.aspose.com/c/note/28) để đặt câu hỏi, chia sẻ kiến thức và tương tác với những người dùng và chuyên gia khác.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

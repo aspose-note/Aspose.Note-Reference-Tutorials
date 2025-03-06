@@ -3,10 +3,16 @@ title: Tạo mẫu cho ghi chú cuộc họp trong OneNote - Aspose.Note
 linktitle: Tạo mẫu cho ghi chú cuộc họp trong OneNote - Aspose.Note
 second_title: API Java Aspose.Note
 description: Tăng cường cộng tác với Aspose.Note dành cho Java! Tìm hiểu cách tạo mẫu ghi chú cuộc họp động theo từng bước. Tải thư viện ngay bây giờ!
-type: docs
 weight: 14
 url: /vi/java/onenote-tag-operations/generate-template-for-meeting-notes/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Tạo mẫu cho ghi chú cuộc họp trong OneNote - Aspose.Note
+
 ## Giới thiệu
 Trong thế giới có nhịp độ nhanh ngày nay, việc tổ chức và ghi chép các cuộc họp hiệu quả là rất quan trọng để cộng tác thành công. Aspose.Note for Java cung cấp một giải pháp mạnh mẽ để tạo mẫu cho ghi chú cuộc họp trong OneNote. Trong hướng dẫn từng bước này, chúng ta sẽ khám phá cách sử dụng Aspose.Note để tạo một mẫu nắm bắt được bản chất cuộc họp của bạn, giúp việc ghi chú trở nên dễ dàng.
 ## Điều kiện tiên quyết
@@ -105,3 +111,9 @@ Bạn có thể dễ dàng mở rộng cấu trúc phác thảo bằng cách là
  Tham khảo đến[Tài liệu Aspose.Note](https://reference.aspose.com/note/java/) để biết chi tiết cấp phép.
 ### Có phiên bản dùng thử cho Aspose.Note không?
  Có, bạn có thể truy cập[dùng thử miễn phí tại đây](https://releases.aspose.com/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

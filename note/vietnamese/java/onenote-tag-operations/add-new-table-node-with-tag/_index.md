@@ -3,10 +3,16 @@ title: Thêm nút bảng mới có thẻ trong OneNote - Aspose.Note
 linktitle: Thêm nút bảng mới có thẻ trong OneNote - Aspose.Note
 second_title: API Java Aspose.Note
 description: Tìm hiểu cách thêm nút bảng động có thẻ trong OneNote bằng Aspose.Note for Java. Tăng cường tổ chức tài liệu của bạn một cách dễ dàng.
-type: docs
 weight: 11
 url: /vi/java/onenote-tag-operations/add-new-table-node-with-tag/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Thêm nút bảng mới có thẻ trong OneNote - Aspose.Note
+
 ## Giới thiệu
 Bạn đang tìm cách cải thiện tài liệu OneNote của mình bằng cách thêm nút bảng mới bằng thẻ? Với Aspose.Note for Java, tác vụ này trở nên đơn giản, cho phép bạn tạo nội dung động và có tổ chức. Trong hướng dẫn từng bước này, chúng tôi sẽ hướng dẫn bạn quy trình thêm nút bảng mới có thẻ trong OneNote bằng Aspose.Note for Java.
 ## Điều kiện tiên quyết
@@ -98,3 +104,9 @@ Tuyệt đối! Aspose.Note cung cấp nhiều tùy chọn khác nhau để tùy
  Tham quan[Aspose.Note Tài liệu Java](https://reference.aspose.com/note/java/) để có ví dụ và tài liệu đầy đủ.
 ### Làm cách nào tôi có thể nhận được hỗ trợ cho Aspose.Note cho Java?
  Tham quan[Diễn đàn Aspose.Note](https://forum.aspose.com/c/note/28) để được hỗ trợ cộng đồng hoặc[mua gói hỗ trợ](https://purchase.aspose.com/buy) để được hỗ trợ tận tình.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

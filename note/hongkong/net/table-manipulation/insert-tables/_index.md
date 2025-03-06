@@ -3,10 +3,16 @@ title: 將表格插入 Aspose.Note 文件
 linktitle: 將表格插入 Aspose.Note 文件
 second_title: Aspose.Note .NET API
 description: 了解使用 Aspose.Note for .NET 將表格插入 Note 文件中。無縫組織資料以提高可讀性和演示效果。
-type: docs
 weight: 16
 url: /zh-hant/net/table-manipulation/insert-tables/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# 將表格插入 Aspose.Note 文件
+
 ## 介紹
 
 在本教學中，我們將探討如何利用 Aspose.Note for .NET 將表格插入 Note 文件中。表格對於在文件中以結構化格式組織資料、增強可讀性以及以清晰的方式呈現資訊至關重要。
@@ -131,3 +137,9 @@ A4：整合很簡單；只需將 Aspose.Note DLL 引用添加到您的專案中�
 ### Q5：Aspose.Note 是否支援不同的文件格式？
 
 A5：是的，Aspose.Note 支援各種檔案格式，包括 OneNote (ONE)、PDF、HTML 和映像格式，用於匯出和匯入文件。
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

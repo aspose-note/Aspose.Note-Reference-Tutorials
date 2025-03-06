@@ -3,10 +3,16 @@ title: Képcsomópont hozzáadása címkével az Aspose.Note-ban
 linktitle: Képcsomópont hozzáadása címkével az Aspose.Note-ban
 second_title: Aspose.Note .NET API
 description: Ismerje meg, hogyan javíthatja OneNote-dokumentumait egyéni címkékkel ellátott képek hozzáadásával az Aspose.Note for .NET segítségével.
-type: docs
 weight: 10
 url: /hu/net/tag-management/add-image-node-tag/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Képcsomópont hozzáadása címkével az Aspose.Note-ban
+
 ## Bevezetés
 
 Ebben az oktatóanyagban megvizsgáljuk, hogyan adhat hozzá képcsomópontot címkével az Aspose.Note for .NET segítségével. Ez a funkció lehetővé teszi a OneNote-dokumentumok fejlesztését egyéni címkékkel ellátott képek hozzáadásával.
@@ -110,3 +116,9 @@ Az alábbi lépések követésével zökkenőmentesen hozzáadhat egy képcsomó
 ### 5. kérdés: Vannak-e korlátozások a hozzáadható képek méretére vagy formátumára vonatkozóan?
 
 5. válasz: Az Aspose.Note a képformátumok széles skáláját támogatja, és nem szab szigorú korlátozásokat a képméretre vonatkozóan, lehetővé téve, hogy változatos látványelemeket építsen be dokumentumaiba.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -3,10 +3,16 @@ title: Aspose.Note의 비밀번호로 보호된 문서
 linktitle: Aspose.Note의 비밀번호로 보호된 문서
 second_title: Aspose.Note .NET API
 description: .NET용 Aspose.Note를 사용하여 비밀번호로 보호된 문서를 처리하는 방법을 알아보세요. 민감한 정보를 쉽게 보호하세요.
-type: docs
 weight: 18
 url: /ko/net/loading-and-saving-operations/password-protected-document/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Aspose.Note의 비밀번호로 보호된 문서
+
 ## 소개
 
 이 튜토리얼에서는 .NET용 Aspose.Note를 사용하여 비밀번호로 보호된 문서를 처리하는 과정을 안내합니다. 비밀번호 보호는 문서에 추가 보안 계층을 추가하여 승인된 사용자만 문서에 액세스할 수 있도록 보장합니다.
@@ -82,3 +88,9 @@ A3: 예, .NET용 Aspose.Note는 프로그래밍 방식으로 문서에서 비밀
 ### Q5: 비밀번호로 보호된 문서 처리 프로세스를 자동화할 수 있습니까?
 
 A5: 예, 스크립트나 예약된 작업을 사용하여 프로세스를 자동화하여 암호로 보호된 문서를 효율적으로 처리할 수 있습니다.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

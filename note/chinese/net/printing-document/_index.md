@@ -3,10 +3,16 @@ title: 使用 Aspose.Note for .NET 掌握 OneNote 打印
 linktitle: 打印文件
 second_title: Aspose.Note .NET API
 description: 使用 Aspose.Note for .NET 打印 OneNote 文档。探索与 .NET 应用程序的无缝集成、自定义打印选项并释放文档打印的力量。
-type: docs
 weight: 28
 url: /zh/net/printing-document/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# 使用 Aspose.Note for .NET 掌握 OneNote 打印
+
 ## 介绍
 
 您准备好使用 Aspose.Note for .NET 提升您的文档打印能力了吗？别再犹豫了！在本详细指南中，我们将深入研究两个基本教程，确保您可以轻松打印 OneNote 文档并自定义打印选项以获得量身定制的体验。
@@ -49,3 +55,9 @@ url: /zh/net/printing-document/
 了解如何使用 Aspose.Note for .NET 打印 OneNote 文档。无缝集成到 .NET 应用程序中的分步指南。
 ### [使用 Aspose.Note 打印选项自定义打印](./customize-printing-options/)
 了解如何使用 Aspose.Note for .NET 自定义文档打印。微调设置以获得最佳打印输出。
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

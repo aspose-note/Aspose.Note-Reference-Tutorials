@@ -3,10 +3,16 @@ title: ضبط لون خلفية الخلية في OneNote - Aspose.Note
 linktitle: ضبط لون خلفية الخلية في OneNote - Aspose.Note
 second_title: Aspose.Note جافا API
 description: قم بتحويل مستندات OneNote بسهولة باستخدام Aspose.Note لـ Java. قم بتخصيص ألوان خلفية الخلية بسهولة. جرب النسخة التجريبية المجانية الآن!
-type: docs
 weight: 17
 url: /ar/java/onenote-table-manipulation/setting-cell-background-color/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# ضبط لون خلفية الخلية في OneNote - Aspose.Note
+
 ## مقدمة
 مرحبًا بك في برنامجنا التعليمي حول تعيين لون خلفية الخلية في OneNote باستخدام Aspose.Note لـ Java! في هذا الدليل خطوة بخطوة، سنرشدك خلال عملية تخصيص ألوان خلفية الخلية في مستندات OneNote الخاصة بك دون عناء.
 ## المتطلبات الأساسية
@@ -66,3 +72,9 @@ cell11.setBackgroundColor(Color.BLACK);
  قم بزيارة منتدى الدعم[هنا](https://forum.aspose.com/c/note/28) للحصول على المساعدة من مجتمع Aspose.
 ### أين يمكنني شراء Aspose.Note لـ Java؟
  يمكنك شراء المكتبة[هنا](https://purchase.aspose.com/buy).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

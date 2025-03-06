@@ -3,10 +3,16 @@ title: Optimiser les performances des opérations d'exportation dans OneNote - J
 linktitle: Optimiser les performances des opérations d'exportation dans OneNote - Java
 second_title: API Java Aspose.Note
 description: Découvrez comment optimiser les performances des opérations d’exportation dans OneNote à l’aide d’Aspose.Note pour Java. Guide étape par étape pour une conversion efficace.
-type: docs
 weight: 11
 url: /fr/java/onenote-performance-optimization/optimize-performance-consequent-export/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Optimiser les performances des opérations d'exportation dans OneNote - Java
+
 ## Introduction
 
 OneNote est un outil puissant pour organiser et gérer vos notes, mais parfois, exporter efficacement vos notes peut être un défi. Dans ce didacticiel, nous verrons comment optimiser les performances des opérations d'exportation dans OneNote à l'aide de Java à l'aide d'Aspose.Note.
@@ -136,3 +142,9 @@ A4 : Oui, Aspose.Note pour Java prend en charge l'exportation de documents OneN
 ### Q5 : Où puis-je trouver de l'assistance pour Aspose.Note pour Java ?
 
  A5 : Vous pouvez trouver une assistance pour Aspose.Note pour Java sur le[forum](https://forum.aspose.com/c/note/28), où vous pouvez poser des questions, partager des idées et interagir avec la communauté et l'équipe d'assistance.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

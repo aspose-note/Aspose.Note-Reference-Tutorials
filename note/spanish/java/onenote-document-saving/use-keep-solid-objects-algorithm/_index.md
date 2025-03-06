@@ -3,10 +3,16 @@ title: Utilice el algoritmo Mantener objetos sólidos en OneNote - Aspose.Note
 linktitle: Utilice el algoritmo Mantener objetos sólidos en OneNote - Aspose.Note
 second_title: Aspose.Nota Java API
 description: Aprenda cómo conservar objetos sólidos en sus documentos Aspose.Note al convertirlos a PDF utilizando el algoritmo Mantener objetos sólidos en Java.
-type: docs
 weight: 25
 url: /es/java/onenote-document-saving/use-keep-solid-objects-algorithm/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Utilice el algoritmo Mantener objetos sólidos en OneNote - Aspose.Note
+
 ## Introducción
 
 En este tutorial, exploraremos cómo utilizar el algoritmo Mantener objetos sólidos en Aspose.Note para Java. Este algoritmo es invaluable para mantener la integridad de los objetos sólidos dentro de sus documentos al convertirlos al formato PDF. Desglosaremos el proceso paso a paso, garantizando claridad y comprensión en cada etapa.
@@ -93,3 +99,10 @@ En este tutorial, aprendimos cómo utilizar el algoritmo Mantener objetos sólid
 ### P5: ¿Dónde puedo comprar una licencia?
 
  R5: Puede adquirir una licencia de Aspose.Note para Java[aquí](https://purchase.aspose.com/buy).
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

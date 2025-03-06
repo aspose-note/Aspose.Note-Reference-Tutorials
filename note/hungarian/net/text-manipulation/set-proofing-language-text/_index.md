@@ -3,10 +3,16 @@ title: Állítsa be a szövegellenőrzési nyelvet az Aspose.Note-ban
 linktitle: Állítsa be a szövegellenőrzési nyelvet az Aspose.Note-ban
 second_title: Aspose.Note .NET API
 description: Oldja fel a hatékony szövegmanipulációt az Aspose.Note for .NET segítségével. A lektorálási nyelvet könnyedén állítsa be lépésről lépésre. Fokozza .NET projektjeit most!
-type: docs
 weight: 25
 url: /hu/net/text-manipulation/set-proofing-language-text/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Állítsa be a szövegellenőrzési nyelvet az Aspose.Note-ban
+
 ## Bevezetés
 Üdvözöljük az Aspose.Note for .NET világában! Ebben az átfogó útmutatóban az Aspose.Note segítségével a szövegkorrekciós nyelv beállításának lenyűgöző folyamatát vizsgáljuk meg. Akár tapasztalt fejlesztő, akár csak most kezdi az Aspose.Note-ot, ez az oktatóanyag részletes betekintést és lépésről lépésre szóló utasításokat nyújt Önnek szövegmanipulációs készségeinek fejlesztéséhez.
 ## Előfeltételek
@@ -89,3 +95,9 @@ Teljesen! Az Aspose.Note-ot rendszeresen frissítik, hogy biztosítsák a kompat
  Biztosan! Hozzáférhet az Aspose.Note .NET-hez ingyenes próbaverziójához[itt](https://releases.aspose.com/).
 ### Problémákkal küzd, vagy segítségre van szüksége?
  Meglátogatni a[Aspose.Note támogatási fórum](https://forum.aspose.com/c/note/28) kapcsolatba lépni a közösséggel, és szakértői segítséget kérni.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

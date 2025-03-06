@@ -3,10 +3,16 @@ title: Aspose.Note Belgelerindeki Sayfa Revizyonlarını Keşfedin
 linktitle: Aspose.Note Belgelerindeki Sayfa Revizyonlarını Keşfedin
 second_title: Aspose.Note .NET API'si
 description: Adım adım rehberlikle .NET çerçevesini kullanarak Aspose.Note belgelerindeki sayfa revizyonlarını nasıl keşfedeceğinizi öğrenin.
-type: docs
 weight: 14
 url: /tr/net/note-manipulation/page-revisions-exploration/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Aspose.Note Belgelerindeki Sayfa Revizyonlarını Keşfedin
+
 ## giriiş
 
 Bu eğitimde, .NET çerçevesini kullanarak Aspose.Note belgelerindeki sayfa revizyonlarını incelemeye devam edeceğiz. Aspose.Note, geliştiricilerin Microsoft OneNote dosyalarıyla programlı olarak çalışmasına olanak tanıyan, bu dosyalardan veri işlemek ve çıkarmak için çeşitli özellikler sunan güçlü bir kitaplıktır.
@@ -88,3 +94,9 @@ Cevap3: Evet, Aspose.Note for .NET'in ücretsiz deneme sürümünü şu adresten
 ### S5: Aspose.Note for .NET desteğini nerede bulabilirim?
 
  Cevap5: Destek ve kaynakları şurada bulabilirsiniz:[Aspose.Note forumu](https://forum.aspose.com/c/note/28).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

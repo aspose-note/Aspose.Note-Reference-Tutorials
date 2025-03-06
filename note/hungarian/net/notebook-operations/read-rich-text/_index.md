@@ -3,10 +3,16 @@ title: Olvasson gazdag szöveget az Aspose Note .NET-ben
 linktitle: Olvasson gazdag szöveget az Aspose Note .NET-ben
 second_title: Aspose.Note .NET API
 description: Ismerje meg, hogyan olvashat formázott szöveget OneNote-jegyzetfüzetekből programozottan az Aspose.Note for .NET használatával. Kövesse lépésről lépésre bemutató oktatóanyagunkat az egyszerű integráció érdekében.
-type: docs
 weight: 23
 url: /hu/net/notebook-operations/read-rich-text/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Olvasson gazdag szöveget az Aspose Note .NET-ben
+
 ## Bevezetés
 
 Ebben az oktatóanyagban megvizsgáljuk, hogyan olvashatunk formázott szöveget az Aspose.Note for .NET használatával. Az Aspose.Note egy hatékony API, amely lehetővé teszi a fejlesztők számára, hogy programozottan dolgozzanak a Microsoft OneNote-dokumentumokkal, és a OneNote-fájlok létrehozásához, szerkesztéséhez és kezeléséhez a funkciók széles skáláját kínálja.
@@ -97,3 +103,9 @@ Ebben az oktatóanyagban megtanultuk, hogyan lehet formás szöveget olvasni One
 ### 5. kérdés: Hol találom az Aspose.Note for .NET részletes dokumentációját?
 
  5. válasz: Az Aspose.Note for .NET átfogó dokumentációja a következő helyen található:[hivatkozási oldal](https://reference.aspose.com/note/net/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

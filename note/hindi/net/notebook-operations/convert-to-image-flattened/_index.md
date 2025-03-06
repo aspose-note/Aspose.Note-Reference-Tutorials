@@ -3,10 +3,16 @@ title: Aspose Note .NET में नोटबुक को छवि (चपट
 linktitle: Aspose Note .NET में नोटबुक को छवि (चपटा) में बदलें
 second_title: Aspose.Note .NET API
 description: .NET के लिए Aspose.Note का उपयोग करके OneNote नोटबुक को चपटी छवियों में परिवर्तित करने का तरीका जानें। निर्बाध एकीकरण के लिए चरण-दर-चरण मार्गदर्शिका।
-type: docs
 weight: 12
 url: /hi/net/notebook-operations/convert-to-image-flattened/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Aspose Note .NET में नोटबुक को छवि (चपटा) में बदलें
+
 ## परिचय
 
 इस ट्यूटोरियल में, हम सीखेंगे कि नोटबुक को चपटी छवियों में बदलने के लिए .NET के लिए Aspose.Note का उपयोग कैसे करें। इसे समझने और इसे प्रभावी ढंग से लागू करने में आपकी सहायता के लिए हम इस प्रक्रिया को सरल चरणों में विभाजित करेंगे।
@@ -93,3 +99,9 @@ A1: हाँ, .NET के लिए Aspose.Note जटिल नोटबुक
 ### Q5: मुझे .NET के लिए Aspose.Note के लिए दस्तावेज़ कहां मिल सकते हैं?
 
  A5: आप दस्तावेज़ पा सकते हैं[यहाँ](https://reference.aspose.com/note/net/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

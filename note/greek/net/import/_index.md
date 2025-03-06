@@ -3,10 +3,16 @@ title: Απρόσκοπτη εισαγωγή PDF με ενσωμάτωση OneNo
 linktitle: Εισαγωγή
 second_title: Aspose.Note .NET API
 description: Εισαγάγετε έγγραφα PDF στο Aspose.Note .NET με απρόσκοπτη ενσωμάτωση χρησιμοποιώντας διάφορες επιλογές συγχώνευσης. Μάθετε με οδηγούς βήμα προς βήμα, συμπεριλαμβανομένης της ενσωμάτωσης του OneNote.
-type: docs
 weight: 24
 url: /el/net/import/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Απρόσκοπτη εισαγωγή PDF με ενσωμάτωση OneNote
+
 
 ## Εισαγωγή
 
@@ -48,3 +54,9 @@ url: /el/net/import/
 ## Εισαγωγή σεμιναρίων
 ### [Εισαγωγή εγγράφων PDF στο Aspose.Note](./import-pdf-documents/)
 Μάθετε πώς να εισάγετε έγγραφα PDF στο Aspose.Note για .NET χωρίς κόπο χρησιμοποιώντας διάφορες επιλογές συγχώνευσης για απρόσκοπτη ενσωμάτωση.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

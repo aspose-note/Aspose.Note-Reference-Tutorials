@@ -3,10 +3,16 @@ title: Guardar usando fuentes especificadas en Aspose.Note
 linktitle: Guardar usando fuentes especificadas en Aspose.Note
 second_title: Aspose.Nota .NET API
 description: Aprenda cómo guardar documentos con fuentes específicas en Aspose.Note para .NET. Personalice la configuración de fuente fácilmente para lograr un formato de documento consistente.
-type: docs
 weight: 28
 url: /es/net/loading-and-saving-operations/save-using-specified-fonts/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Guardar usando fuentes especificadas en Aspose.Note
+
 ## Introducción
 
 En este tutorial, aprenderemos cómo guardar documentos usando fuentes específicas en Aspose.Note para .NET. Exploraremos diferentes métodos para lograrlo, paso a paso.
@@ -131,3 +137,9 @@ R4: Sí, Aspose.Note permite incrustar fuentes para garantizar la portabilidad d
 ### P5: ¿Dónde puedo obtener más ayuda con Aspose.Note?
 
  R5: Para obtener más ayuda o soporte técnico, puede visitar el[Foro Aspose.Note](https://forum.aspose.com/c/note/28).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

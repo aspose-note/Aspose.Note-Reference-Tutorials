@@ -3,10 +3,16 @@ title: Aspose.Note의 사용자 저장 콜백
 linktitle: Aspose.Note의 사용자 저장 콜백
 second_title: Aspose.Note .NET API
 description: .NET용 Aspose.Note에서 사용자 저장 콜백을 구현하여 글꼴, CSS 및 이미지 저장을 사용자 지정하는 방법을 알아보세요.
-type: docs
 weight: 31
 url: /ko/net/loading-and-saving-operations/user-saving-callbacks/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Aspose.Note의 사용자 저장 콜백
+
 ## 소개
 
 이 튜토리얼에서는 .NET용 Aspose.Note에서 사용자 저장 콜백을 구현하는 방법을 살펴보겠습니다. 이러한 콜백을 사용하면 글꼴, CSS 스타일시트 및 이미지 저장과 같은 다양한 단계에 개입할 후크를 제공하여 저장 프로세스를 사용자 정의할 수 있습니다. 이러한 콜백을 활용하면 특정 요구 사항에 맞게 저장 동작을 맞춤화하여 출력에 대한 유연성과 제어력을 향상시킬 수 있습니다.
@@ -118,3 +124,9 @@ A4: 이러한 콜백은 유연성을 제공하지만, 특히 대규모 문서나
 ### Q5: 사용자 입력이나 기타 조건에 따라 저장 동작을 동적으로 변경할 수 있습니까?
 
 A5: 예, 콜백 메서드 내에 조건부 논리를 통합하여 다양한 요인에 따라 저장 동작을 동적으로 조정할 수 있습니다.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

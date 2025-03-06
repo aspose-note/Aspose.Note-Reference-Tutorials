@@ -3,10 +3,16 @@ title: Spara med angivna teckensnitt i Aspose.Note
 linktitle: Spara med angivna teckensnitt i Aspose.Note
 second_title: Aspose.Note .NET API
 description: Lär dig hur du sparar dokument med specificerade typsnitt i Aspose.Note för .NET. Anpassa teckensnittsinställningar enkelt för konsekvent dokumentformatering.
-type: docs
 weight: 28
 url: /sv/net/loading-and-saving-operations/save-using-specified-fonts/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Spara med angivna teckensnitt i Aspose.Note
+
 ## Introduktion
 
 I den här handledningen kommer vi att lära oss hur du sparar dokument med angivna typsnitt i Aspose.Note för .NET. Vi kommer att utforska olika metoder för att uppnå detta, steg för steg.
@@ -131,3 +137,9 @@ S4: Ja, Aspose.Note tillåter inbäddning av typsnitt för att säkerställa dok
 ### F5: Var kan jag få ytterligare hjälp med Aspose.Note?
 
  S5: För ytterligare hjälp eller teknisk support kan du besöka[Aspose.Note forum](https://forum.aspose.com/c/note/28).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

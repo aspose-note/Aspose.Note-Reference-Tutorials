@@ -3,10 +3,16 @@ title: 与 OneNote 集成无缝 PDF 导入
 linktitle: 进口
 second_title: Aspose.Note .NET API
 description: 将 PDF 文档导入 Aspose.Note .NET，并使用各种合并选项进行无缝集成。通过分步教程进行学习，包括 OneNote 集成。
-type: docs
 weight: 24
 url: /zh/net/import/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# 与 OneNote 集成无缝 PDF 导入
+
 
 ## 介绍
 
@@ -48,3 +54,9 @@ url: /zh/net/import/
 ## 导入教程
 ### [将 PDF 文档导入 Aspose.Note](./import-pdf-documents/)
 了解如何使用各种合并选项轻松将 PDF 文档导入 Aspose.Note for .NET 中以实现无缝集成。
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

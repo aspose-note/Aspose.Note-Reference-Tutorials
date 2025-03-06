@@ -3,10 +3,16 @@ title: Φόρτωση εγγράφων που προστατεύονται με 
 linktitle: Φόρτωση εγγράφων που προστατεύονται με κωδικό πρόσβασης στο Aspose Note .NET
 second_title: Aspose.Note .NET API
 description: Μάθετε πώς να φορτώνετε με ασφάλεια έγγραφα που προστατεύονται με κωδικό πρόσβασης στο Aspose Note .NET χρησιμοποιώντας απλά βήματα. Εξασφαλίστε το απόρρητο των δεδομένων με κρυπτογράφηση.
-type: docs
 weight: 22
 url: /el/net/notebook-operations/load-password-protected-documents/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Φόρτωση εγγράφων που προστατεύονται με κωδικό πρόσβασης στο Aspose Note .NET
+
 ## Εισαγωγή
 
 Το Aspose.Note για .NET είναι ένα ισχυρό API που επιτρέπει στους προγραμματιστές να εργάζονται με αρχεία Microsoft OneNote μέσω προγραμματισμού. Σε αυτό το σεμινάριο, θα μάθουμε πώς να φορτώνουμε έγγραφα που προστατεύονται με κωδικό πρόσβασης χρησιμοποιώντας το Aspose.Note για .NET.
@@ -77,3 +83,9 @@ A4: Ναι, μπορείτε να ορίσετε διαφορετικούς κω
 ### Ε5: Υπάρχει διαθέσιμη δοκιμαστική έκδοση για το Aspose.Note για .NET;
 
  A5: Ναι, μπορείτε να αποκτήσετε πρόσβαση σε μια δωρεάν δοκιμαστική έκδοση του Aspose.Note για .NET από[εδώ](https://releases.aspose.com/), επιτρέποντάς σας να εξερευνήσετε τις δυνατότητές του πριν κάνετε μια αγορά.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

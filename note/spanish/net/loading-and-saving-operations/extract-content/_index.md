@@ -3,10 +3,16 @@ title: Extraer contenido en Aspose.Note
 linktitle: Extraer contenido en Aspose.Note
 second_title: Aspose.Nota .NET API
 description: Aprenda cómo extraer contenido de documentos Aspose.Note usando Aspose.Note para .NET. Este completo tutorial le guiará a través del proceso paso a paso.
-type: docs
 weight: 15
 url: /es/net/loading-and-saving-operations/extract-content/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Extraer contenido en Aspose.Note
+
 ## Introducción
 
 En este tutorial, exploraremos cómo extraer contenido de documentos Aspose.Note usando Aspose.Note para .NET. Aspose.Note es una poderosa biblioteca que le permite trabajar con archivos de Microsoft OneNote mediante programación. Recorreremos el proceso paso a paso, dividiendo cada ejemplo en varios pasos para garantizar la claridad y la comprensión.
@@ -133,3 +139,9 @@ R4: Sí, Aspose.Note admite la conversión a varios formatos, incluidos PDF, HTM
 ### P5: ¿Hay soporte técnico disponible para los usuarios de Aspose.Note?
 
 R5: Sí, Aspose brinda soporte técnico dedicado a través de su foro para ayudar a los usuarios con cualquier problema o consulta.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

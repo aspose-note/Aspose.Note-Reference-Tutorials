@@ -3,10 +3,16 @@ title: Obtenha a contagem de páginas no OneNote - Aspose.Note
 linktitle: Obtenha a contagem de páginas no OneNote - Aspose.Note
 second_title: API Java Aspose.Note
 description: Aprenda como recuperar a contagem de páginas em documentos do OneNote usando Aspose.Note para Java. Este tutorial passo a passo orienta você durante o processo sem esforço.
-type: docs
 weight: 13
 url: /pt/java/onenote-page-manipulation/get-page-count/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Obtenha a contagem de páginas no OneNote - Aspose.Note
+
 ## Introdução
 
 Neste tutorial, exploraremos como usar Aspose.Note for Java para recuperar com eficiência a contagem de páginas em um documento do OneNote. Aspose.Note é uma API Java poderosa que permite aos desenvolvedores trabalhar com arquivos do Microsoft OneNote de forma programática, permitindo tarefas como manipulação, extração e conversão de documentos.
@@ -86,3 +92,9 @@ A4: Sim, você pode acessar a documentação e os fóruns no[Aspor site](https:/
 ### Q5: Existe uma versão de teste do Aspose.Note para Java disponível para fins de teste?
 
  A5: Sim, você pode baixar uma versão de teste gratuita no site[página de lançamentos](https://releases.aspose.com/) para avaliar os recursos da API.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

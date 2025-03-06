@@ -3,10 +3,16 @@ title: Definir idioma de revisão para texto em Aspose.Note
 linktitle: Definir idioma de revisão para texto em Aspose.Note
 second_title: API Aspose.Note .NET
 description: Desbloqueie a poderosa manipulação de texto com Aspose.Note para .NET. Defina o idioma de revisão sem esforço com orientação passo a passo. Aprimore seus projetos .NET agora!
-type: docs
 weight: 25
 url: /pt/net/text-manipulation/set-proofing-language-text/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Definir idioma de revisão para texto em Aspose.Note
+
 ## Introdução
 Bem-vindo ao mundo do Aspose.Note para .NET! Neste guia completo, exploraremos o fascinante processo de configuração do idioma de revisão de texto usando Aspose.Note. Quer você seja um desenvolvedor experiente ou esteja apenas começando com Aspose.Note, este tutorial fornecerá insights detalhados e instruções passo a passo para aprimorar suas habilidades de manipulação de texto.
 ## Pré-requisitos
@@ -89,3 +95,9 @@ Absolutamente! Aspose.Note é atualizado regularmente para garantir compatibilid
  Certamente! Você pode acessar uma avaliação gratuita do Aspose.Note for .NET[aqui](https://releases.aspose.com/).
 ### Enfrentando problemas ou precisa de ajuda?
  Visite a[Fórum de suporte Aspose.Note](https://forum.aspose.com/c/note/28) para se conectar com a comunidade e obter ajuda especializada.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

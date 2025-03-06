@@ -3,10 +3,16 @@ title: Získat vlastnosti seznamu ve OneNotu – Aspose.Note
 linktitle: Získat vlastnosti seznamu ve OneNotu – Aspose.Note
 second_title: Aspose.Note Java API
 description: Prozkoumejte Aspose.Note for Java a snadno načtěte vlastnosti seznamu v dokumentech OneNotu. Vylepšete své zpracování dokumentů pomocí této výkonné knihovny Java.
-type: docs
 weight: 19
 url: /cs/java/onenote-text-manipulation/get-list-properties/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Získat vlastnosti seznamu ve OneNotu – Aspose.Note
+
 ## Úvod
 Vítejte v tomto komplexním kurzu o využití Aspose.Note pro Java k načítání a analýze vlastností seznamu v dokumentech OneNotu. Ať už jste zkušený vývojář nebo s Aspose.Note teprve začínáte, tento průvodce vás provede celým procesem a rozepíše jednotlivé kroky, abyste zajistili jasné porozumění.
 ## Předpoklady
@@ -95,3 +101,9 @@ Ano, kód můžete upravit tak, aby vyhovoval vašim potřebám, a selektivně n
  Ano, můžete získat dočasnou licenci[tady](https://purchase.aspose.com/temporary-license/) pro testovací účely.
 ### Co když si chci koupit Aspose.Note pro Javu?
  Produkt si můžete zakoupit[tady](https://purchase.aspose.com/buy)odemknout jeho plný potenciál pro vaše projekty.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

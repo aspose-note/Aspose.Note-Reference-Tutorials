@@ -3,10 +3,16 @@ title: Converti taccuini in immagini (appiattiti) in Aspose Note .NET
 linktitle: Converti taccuini in immagini (appiattiti) in Aspose Note .NET
 second_title: Aspose.Note API .NET
 description: Scopri come convertire i taccuini OneNote in immagini appiattite utilizzando Aspose.Note per .NET. Guida passo passo per un'integrazione perfetta.
-type: docs
 weight: 12
 url: /it/net/notebook-operations/convert-to-image-flattened/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Converti taccuini in immagini (appiattiti) in Aspose Note .NET
+
 ## introduzione
 
 In questo tutorial impareremo come utilizzare Aspose.Note per .NET per convertire i notebook in immagini appiattite. Suddivideremo il processo in semplici passaggi per aiutarti a comprenderlo e implementarlo in modo efficace.
@@ -93,3 +99,9 @@ A1: Sì, Aspose.Note per .NET è in grado di gestire notebook complessi in modo 
 ### Q5: Dove posso trovare la documentazione per Aspose.Note per .NET?
 
  A5: È possibile trovare la documentazione[Qui](https://reference.aspose.com/note/net/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

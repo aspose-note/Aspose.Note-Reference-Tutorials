@@ -3,10 +3,16 @@ title: Nhận thông tin về hình ảnh trong Aspose.Note
 linktitle: Nhận thông tin về hình ảnh trong Aspose.Note
 second_title: Aspose.Note .NET API
 description: Tìm hiểu cách trích xuất thông tin hình ảnh từ tệp Microsoft OneNote bằng Aspose.Note for .NET. Hãy làm theo hướng dẫn từng bước của chúng tôi để phát triển hiệu quả.
-type: docs
 weight: 13
 url: /vi/net/images/get-info-of-images/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Nhận thông tin về hình ảnh trong Aspose.Note
+
 ## Giới thiệu
 
 Trong thế giới phát triển .NET, Aspose.Note cung cấp một bộ công cụ mạnh mẽ để làm việc với các tệp Microsoft OneNote. Một nhiệm vụ phổ biến mà các nhà phát triển thường gặp phải là trích xuất thông tin từ các hình ảnh được nhúng trong các ghi chú này. Cho dù đó là lấy kích thước, tên tệp hay thời gian sửa đổi, Aspose.Note đều đơn giản hóa quy trình này.
@@ -98,3 +104,9 @@ Câu trả lời 4: Có, bạn có thể truy cập bản dùng thử miễn ph�
 ### Câu hỏi 5: Tôi có thể tìm sự hỗ trợ hoặc hỗ trợ bổ sung với Aspose.Note ở đâu?
 
 Câu trả lời 5: Nếu có bất kỳ thắc mắc hoặc hỗ trợ nào, bạn có thể truy cập diễn đàn Aspose.Note[đây](https://forum.aspose.com/c/note/28).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

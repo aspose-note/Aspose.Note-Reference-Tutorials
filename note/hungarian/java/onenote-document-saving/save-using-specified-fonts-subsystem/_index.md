@@ -3,10 +3,16 @@ title: Mentés megadott betűtípus-alrendszer használatával a OneNote-ban
 linktitle: Mentés megadott betűtípus-alrendszer használatával a OneNote-ban
 second_title: Aspose.Note Java API
 description: Ismerje meg, hogyan menthet OneNote-dokumentumokat adott betűtípus-alrendszer használatával Java nyelven az Aspose.Note segítségével. Gondoskodjon a konzisztens betűtípus-megjelenítésről minden platformon, erőfeszítés nélkül.
-type: docs
 weight: 22
 url: /hu/java/onenote-document-saving/save-using-specified-fonts-subsystem/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Mentés megadott betűtípus-alrendszer használatával a OneNote-ban
+
 ## Bevezetés
 
 Az Aspose.Note for Java robusztus képességeket biztosít a OneNote-dokumentumokkal való munkavégzéshez. Az ilyen dokumentumokkal való munka során az egyik általános követelmény a betűtípusok megfelelő karbantartása, különösen akkor, ha a dokumentumot különböző formátumokban, például PDF-ben kell exportálni vagy menteni. Ez az oktatóanyag végigvezeti a OneNote-dokumentumok mentésének folyamatán, miközben megadja a betűtípus-alrendszert, biztosítva a szöveg egységes és pontos megjelenítését a különböző platformokon.
@@ -152,3 +158,9 @@ Ebben az oktatóanyagban megtanultuk, hogyan lehet OneNote-dokumentumokat menten
 ### 5. kérdés: Elérhető az Aspose.Note for Java próbaverziója?
 
 5. válasz: Igen, letöltheti az Aspose.Note for Java ingyenes próbaverzióját a webhelyről.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

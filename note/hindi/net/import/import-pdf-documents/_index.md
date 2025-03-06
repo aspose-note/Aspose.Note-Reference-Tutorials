@@ -3,10 +3,16 @@ title: Aspose.Note में PDF दस्तावेज़ आयात कर
 linktitle: Aspose.Note में PDF दस्तावेज़ आयात करें
 second_title: Aspose.Note .NET API
 description: सहज एकीकरण के लिए विभिन्न मर्ज विकल्पों का उपयोग करके आसानी से .NET के लिए Aspose.Note में PDF दस्तावेज़ आयात करना सीखें।
-type: docs
 weight: 10
 url: /hi/net/import/import-pdf-documents/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Aspose.Note में PDF दस्तावेज़ आयात करें
+
 ## परिचय
 
 आज बड़ी मात्रा में उपलब्ध डिजिटल सामग्री के साथ, पीडीएफ दस्तावेज़ों को अपनी परियोजनाओं में सहजता से एकीकृत करना महत्वपूर्ण है। .NET के लिए Aspose.Note पीडीएफ दस्तावेजों को कुशलतापूर्वक आयात करने के लिए शक्तिशाली कार्यक्षमता प्रदान करता है। इस ट्यूटोरियल में, हम जानेंगे कि .NET के लिए Aspose.Note का उपयोग करके चरण दर चरण पीडीएफ दस्तावेज़ कैसे आयात करें।
@@ -151,3 +157,9 @@ A4: हाँ, Aspose.Note .NET कोर के साथ संगत है, 
 ### Q5: मुझे अतिरिक्त सहायता या संसाधन कहां मिल सकते हैं?
 
  A5: अतिरिक्त सहायता, दस्तावेज़ीकरण, या सामुदायिक सहायता के लिए, पर जाएँ[Aspose.नोट फोरम](https://forum.aspose.com/c/note/28).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

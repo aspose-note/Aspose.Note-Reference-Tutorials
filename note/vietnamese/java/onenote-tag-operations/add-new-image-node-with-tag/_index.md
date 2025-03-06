@@ -3,10 +3,16 @@ title: Thêm nút hình ảnh mới có thẻ trong OneNote - Aspose.Note
 linktitle: Thêm nút hình ảnh mới có thẻ trong OneNote - Aspose.Note
 second_title: API Java Aspose.Note
 description: Tìm hiểu cách thêm nút hình ảnh mới bằng thẻ trong OneNote bằng Aspose.Note for Java. Nâng cao kỹ năng lập trình Java của bạn một cách dễ dàng.
-type: docs
 weight: 10
 url: /vi/java/onenote-tag-operations/add-new-image-node-with-tag/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Thêm nút hình ảnh mới có thẻ trong OneNote - Aspose.Note
+
 ## Giới thiệu
 Trong lĩnh vực lập trình Java, Aspose.Note nổi bật như một công cụ mạnh mẽ để xử lý các tài liệu OneNote một cách dễ dàng. Nếu bạn đang tìm cách nâng cao kỹ năng của mình và tìm hiểu cách thêm nút hình ảnh mới bằng thẻ trong OneNote bằng Aspose.Note, thì bạn đã đến đúng nơi. Hướng dẫn từng bước này sẽ hướng dẫn bạn thực hiện quy trình, đảm bảo bạn nắm bắt kỹ lưỡng từng khái niệm.
 ## Điều kiện tiên quyết
@@ -96,3 +102,9 @@ Chúc mừng! Bạn đã thêm thành công nút hình ảnh mới có thẻ tro
  Truy cập diễn đàn cộng đồng[đây](https://forum.aspose.com/c/note/28) để hỗ trợ.
 ### Tôi có cần giấy phép tạm thời không?
  Nếu được yêu cầu, bạn có thể xin giấy phép tạm thời[đây](https://purchase.aspose.com/temporary-license/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

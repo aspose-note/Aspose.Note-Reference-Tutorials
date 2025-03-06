@@ -3,10 +3,16 @@ title: Converti taccuino in PDF in OneNote - Aspose.Note
 linktitle: Converti taccuino in PDF in OneNote - Aspose.Note
 second_title: Aspose.Note API Java
 description: Scopri come convertire i taccuini OneNote in formato PDF utilizzando Aspose.Note per Java. Segui questa guida passo passo per un'integrazione perfetta nelle tue applicazioni Java.
-type: docs
 weight: 15
 url: /it/java/onenote-notebook-operations/convert-notebook-to-pdf/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Converti taccuino in PDF in OneNote - Aspose.Note
+
 ## introduzione
 
 In questo tutorial, esamineremo il processo di conversione di un notebook in formato PDF utilizzando Aspose.Note per Java. Aspose.Note è una potente libreria che ti consente di lavorare con i file Microsoft OneNote a livello di codice, consentendoti di automatizzare attività come la conversione in PDF.
@@ -88,3 +94,9 @@ R4: Sì, puoi scaricare una versione di prova gratuita dal sito Web Aspose per v
 ### Q5: Dove posso trovare ulteriore aiuto e supporto per Aspose.Note per Java?
 
  A5: Puoi visitare il[Forum Aspose.Note](https://forum.aspose.com/c/note/28) per assistenza su eventuali domande o problemi riscontrati durante l'utilizzo della libreria.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

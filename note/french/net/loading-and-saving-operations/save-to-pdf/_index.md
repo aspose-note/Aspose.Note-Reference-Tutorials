@@ -3,10 +3,16 @@ title: Enregistrer au format PDF dans Aspose.Note
 linktitle: Enregistrer au format PDF dans Aspose.Note
 second_title: API Aspose.Note .NET
 description: Découvrez comment enregistrer des documents Microsoft OneNote au format PDF à l'aide d'Aspose.Note pour .NET. Tutoriel étape par étape avec des exemples de code pour les mises en page Lettre et A4.
-type: docs
 weight: 26
 url: /fr/net/loading-and-saving-operations/save-to-pdf/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Enregistrer au format PDF dans Aspose.Note
+
 ## Introduction
 
 Dans ce didacticiel, nous verrons comment enregistrer des documents au format PDF à l'aide d'Aspose.Note pour .NET. Aspose.Note est une bibliothèque puissante qui permet aux développeurs de travailler avec des fichiers Microsoft OneNote par programme. Nous couvrirons les conditions préalables, importerons des espaces de noms et fournirons des guides étape par étape pour enregistrer des documents au format PDF dans différentes mises en page.
@@ -110,3 +116,9 @@ A1 : Oui, Aspose.Note prend en charge diverses fonctionnalités pour gérer effi
 ### Q5 : Besoin d’une aide supplémentaire ?
 
  A5 : N'hésitez pas à poser des questions ou à demander de l'aide sur le forum Aspose.Note[ici](https://forum.aspose.com/c/note/28).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

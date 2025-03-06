@@ -3,10 +3,16 @@ title: OneNote の読み込みオプションを使用してノートブック �
 linktitle: OneNote の読み込みオプションを使用してノートブック ファイルを読み込む - Aspose.Note
 second_title: Aspose.Note Java API
 description: Aspose.Note for Java を使用して、OneNote ファイルをプログラムで操作する方法を学習します。今すぐ包括的なチュートリアルを始めてください。
-type: docs
 weight: 20
 url: /ja/java/onenote-notebook-operations/load-notebook-file-with-load-options/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# OneNote の読み込みオプションを使用してノートブック ファイルを読み込む - Aspose.Note
+
 ## 導入
 
 Aspose.Note for Java は、開発者がプログラムで Microsoft OneNote ファイルを操作できるようにする強力なライブラリです。 OneNote ドキュメントを作成、操作、変換する場合でも、Aspose.Note for Java はワークフローを効率化するために必要なツールを提供します。このチュートリアルでは、Aspose.Note for Java の使用を開始する方法を説明し、前提条件について説明し、パッケージをインポートし、例をわかりやすい手順に分けて説明します。
@@ -94,3 +100,9 @@ A1: はい、Aspose.Note for Java は、.one、.onetoc2、.onepkg 形式など�
 ### Q5: Aspose.Note for Java を使用するには一時ライセンスが必要ですか?
 
  A5: 製品を評価している場合は、一時ライセンスを取得できます。[ここ](https://purchase.aspose.com/temporary-license/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

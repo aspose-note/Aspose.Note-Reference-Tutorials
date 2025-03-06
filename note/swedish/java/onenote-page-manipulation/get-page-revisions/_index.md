@@ -3,10 +3,16 @@ title: Skaffa sidrevisioner i OneNote - Aspose.Note
 linktitle: Skaffa sidrevisioner i OneNote - Aspose.Note
 second_title: Aspose.Note Java API
 description: Lär dig hur du hämtar sidversioner i OneNote med Aspose.Note för Java. Följ vår steg-för-steg-guide för effektiv spårning av ändringar.
-type: docs
 weight: 14
 url: /sv/java/onenote-page-manipulation/get-page-revisions/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Skaffa sidrevisioner i OneNote - Aspose.Note
+
 ## Introduktion
 
 OneNote är ett kraftfullt verktyg för att organisera och hantera dina anteckningar, men ibland behöver du spåra ändringar och revideringar som görs på dina sidor. Med Aspose.Note för Java kan du enkelt hämta sidrevisioner programmatiskt. I den här handledningen guidar vi dig genom processen för att få sidrevisioner i OneNote med Aspose.Note för Java.
@@ -107,3 +113,9 @@ S3: Ja, du måste köpa en licens för att använda Aspose.Note för Java i komm
 ### F5: Finns det en gratis testversion tillgänglig för Aspose.Note för Java?
 
  S5: Ja, du kan få tillgång till en gratis testversion av Aspose.Note för Java från[hemsida](https://releases.aspose.com/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

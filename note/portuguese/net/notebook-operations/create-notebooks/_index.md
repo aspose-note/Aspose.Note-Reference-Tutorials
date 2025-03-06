@@ -3,10 +3,16 @@ title: Crie cadernos no Aspose Note .NET
 linktitle: Crie cadernos no Aspose Note .NET
 second_title: API Aspose.Note .NET
 description: Aprenda como criar cadernos no Aspose Note .NET sem esforço. Aumente seus fluxos de trabalho de processamento de documentos agora.
-type: docs
 weight: 17
 url: /pt/net/notebook-operations/create-notebooks/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Crie cadernos no Aspose Note .NET
+
 ## Introdução
 
 Neste tutorial, nos aprofundaremos nos meandros da criação de notebooks usando Aspose.Note for .NET. Aspose.Note é uma biblioteca poderosa que permite aos desenvolvedores manipular arquivos do Microsoft OneNote programaticamente, oferecendo uma ampla gama de funcionalidades para agilizar o gerenciamento de documentos e tarefas de processamento.
@@ -99,3 +105,10 @@ A4: Sim, você pode adquirir uma licença temporária no site Aspose:[Licença T
  A5: Você pode consultar a documentação disponível em:[Documentação](https://reference.aspose.com/note/net/).
 
 
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

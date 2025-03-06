@@ -3,10 +3,16 @@ title: Aspose.Note로 첨부 파일 검색
 linktitle: Aspose.Note로 첨부 파일 검색
 second_title: Aspose.Note .NET API
 description: .NET용 Aspose.Note를 사용하여 Microsoft OneNote 문서에서 첨부 파일을 검색하는 방법을 알아보세요. 노드를 로드하고, 가져오고, 첨부 파일을 반복하는 단계를 따르세요.
-type: docs
 weight: 12
 url: /ko/net/attachments/retrieve-attached-files/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Aspose.Note로 첨부 파일 검색
+
 ## 소개
 
 이 튜토리얼에서는 .NET용 Aspose.Note를 사용하여 문서에서 첨부 파일을 검색하는 방법을 살펴보겠습니다. Aspose.Note는 개발자가 Microsoft OneNote 파일을 프로그래밍 방식으로 작업할 수 있는 강력한 API입니다. 쉽게 따라할 수 있도록 프로세스를 간단한 단계로 나누어 보겠습니다.
@@ -90,3 +96,9 @@ A4: 예, Aspose.Note의 무료 평가판을 사용하여 구매 결정을 내리
 ### Q5: Aspose.Note의 임시 라이선스는 어떻게 얻을 수 있나요?
 
 A5: Aspose에 임시 라이선스를 요청하여 개발 환경에서 API의 전체 기능을 평가할 수 있습니다.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

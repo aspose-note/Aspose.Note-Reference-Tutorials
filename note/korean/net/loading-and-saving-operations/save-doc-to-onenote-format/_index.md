@@ -3,10 +3,16 @@ title: Aspose.Note에서 OneNote 형식으로 문서 저장
 linktitle: Aspose.Note에서 OneNote 형식으로 문서 저장
 second_title: Aspose.Note .NET API
 description: Aspose.Note를 사용하여 .NET에서 프로그래밍 방식으로 OneNote 문서를 저장하는 방법을 알아보세요. 코드 예제가 포함된 단계별 튜토리얼입니다.
-type: docs
 weight: 20
 url: /ko/net/loading-and-saving-operations/save-doc-to-onenote-format/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Aspose.Note에서 OneNote 형식으로 문서 저장
+
 ## 소개
 
 .NET 개발 영역에서 Aspose.Note는 OneNote 문서를 프로그래밍 방식으로 관리하고 조작하기 위한 강력한 도구로 돋보입니다. 직관적인 API와 포괄적인 기능 세트를 통해 개발자는 응용 프로그램 내에서 OneNote 파일과 관련된 다양한 작업을 쉽게 처리할 수 있습니다. 이 튜토리얼에서는 .NET용 Aspose.Note를 사용하여 문서를 OneNote 형식으로 저장하는 과정을 자세히 살펴보고 명확성과 이해를 보장하기 위해 각 단계를 세분화합니다.
@@ -87,3 +93,9 @@ A: 물론 Aspose.Note는 스타일 지정, 서식 지정, 레이아웃 조정을
 ### Q5: Aspose.Note 사용자를 위한 커뮤니티 포럼이나 지원 채널이 있나요?
 
  A: 예, Aspose는 Aspose.Note 사용자를 위한 전용 포럼을 제공하여 도움을 구하고, 지식을 공유하고, 커뮤니티에 참여할 수 있습니다. 방문하다[Aspose.Note 포럼](https://forum.aspose.com/c/note/28) 지원을 위해.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

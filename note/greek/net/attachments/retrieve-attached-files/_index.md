@@ -3,10 +3,16 @@ title: Ανακτήστε τα συνημμένα αρχεία με το Aspose.
 linktitle: Ανακτήστε τα συνημμένα αρχεία με το Aspose.Note
 second_title: Aspose.Note .NET API
 description: Μάθετε πώς να ανακτάτε συνημμένα αρχεία από έγγραφα του Microsoft OneNote χρησιμοποιώντας το Aspose.Note για .NET. Ακολουθήστε τα βήματα για φόρτωση, λήψη κόμβων και επανάληψη μέσω συνημμένων.
-type: docs
 weight: 12
 url: /el/net/attachments/retrieve-attached-files/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Ανακτήστε τα συνημμένα αρχεία με το Aspose.Note
+
 ## Εισαγωγή
 
 Σε αυτό το σεμινάριο, θα διερευνήσουμε πώς να ανακτήσετε συνημμένα αρχεία από ένα έγγραφο χρησιμοποιώντας το Aspose.Note για .NET. Το Aspose.Note είναι ένα ισχυρό API που επιτρέπει στους προγραμματιστές να εργάζονται με αρχεία Microsoft OneNote μέσω προγραμματισμού. Θα αναλύσουμε τη διαδικασία σε απλά βήματα για να είναι εύκολη η παρακολούθηση.
@@ -90,3 +96,9 @@ A4: Ναι, μπορείτε να επωφεληθείτε από μια δωρ�
 ### Ε5: Πώς μπορώ να αποκτήσω μια προσωρινή άδεια για το Aspose.Note;
 
 A5: Μπορείτε να ζητήσετε μια προσωρινή άδεια από την Aspose για να αξιολογήσετε τις πλήρεις δυνατότητες του API στο περιβάλλον ανάπτυξής σας.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

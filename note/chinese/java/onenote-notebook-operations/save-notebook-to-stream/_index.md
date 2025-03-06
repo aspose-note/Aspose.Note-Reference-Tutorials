@@ -3,10 +3,16 @@ title: 将笔记本保存到 OneNote 中的流 - Aspose.Note
 linktitle: 将笔记本保存到 OneNote 中的流 - Aspose.Note
 second_title: Aspose.Note Java API
 description: 了解如何使用 Aspose.Note for Java 将笔记本保存到 OneNote 中的流。通过高效的笔记本管理提高工作效率。
-type: docs
 weight: 26
 url: /zh/java/onenote-notebook-operations/save-notebook-to-stream/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# 将笔记本保存到 OneNote 中的流 - Aspose.Note
+
 ## 介绍
 
 在本教程中，我们将指导您完成使用 Aspose.Note for Java 将笔记本保存到 OneNote 中的流的过程。通过执行这些步骤，您将能够以编程方式有效地管理您的笔记本。
@@ -88,3 +94,9 @@ A3：当然！ Aspose.Note for Java 提供无缝集成功能，允许您通过�
 ### Q5：Aspose.Note for Java 有试用版吗？
 
 A5：是的，您可以访问试用版[这里](https://releases.aspose.com/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -3,10 +3,16 @@ title: استبدال النص في صفحة معينة في OneNote - Aspose.No
 linktitle: استبدال النص في صفحة معينة في OneNote - Aspose.Note
 second_title: Aspose.Note جافا API
 description: تعرف على كيفية استبدال النص في صفحة OneNote معينة باستخدام Aspose.Note لـ Java. برنامج تعليمي سهل المتابعة لتطوير Java بكفاءة.
-type: docs
 weight: 21
 url: /ar/java/onenote-text-manipulation/replace-text-on-particular-page/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# استبدال النص في صفحة معينة في OneNote - Aspose.Note
+
 ## مقدمة
 في عالم برمجة Java، تبرز Aspose.Note كمكتبة قوية وفعالة للتعامل مع ملفات OneNote. إذا كنت تتطلع إلى معالجة النص في صفحة معينة داخل مستند OneNote الخاص بك، فإن Aspose.Note يوفر حلاً سلسًا. في هذا الدليل التفصيلي، سنستكشف كيفية استبدال النص في صفحة معينة باستخدام Aspose.Note لـ Java. تابع معنا لفتح إمكانات مكتبة Java القوية هذه.
 ## المتطلبات الأساسية
@@ -72,3 +78,9 @@ oneFile.save(dataDir + "ReplaceTextonParticularPage_out.pdf", SaveFormat.Pdf);
  الحصول على ترخيص مؤقت[هنا](https://purchase.aspose.com/temporary-license/).
 ### أين يمكنني تنزيل Aspose.Note لـ Java؟
  تحميل المكتبة[هنا](https://releases.aspose.com/note/java/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

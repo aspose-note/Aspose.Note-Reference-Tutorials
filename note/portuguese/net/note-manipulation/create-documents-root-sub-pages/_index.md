@@ -3,10 +3,16 @@ title: Crie documentos com raiz e subpáginas usando Aspose.Note
 linktitle: Crie documentos com raiz e subpáginas usando Aspose.Note
 second_title: API Aspose.Note .NET
 description: Aprenda como usar Aspose.Note for .NET para criar documentos dinâmicos do OneNote com estruturas hierárquicas.
-type: docs
 weight: 11
 url: /pt/net/note-manipulation/create-documents-root-sub-pages/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Crie documentos com raiz e subpáginas usando Aspose.Note
+
 ## Introdução
 
 Bem-vindo ao nosso tutorial sobre como criar documentos com raiz e subpáginas usando Aspose.Note for .NET! Aspose.Note é uma biblioteca poderosa que permite aos desenvolvedores trabalhar com arquivos do Microsoft OneNote de forma programática, permitindo a criação, manipulação e conversão de documentos do OneNote.
@@ -130,3 +136,9 @@ A4: Aspose.Note concentra-se principalmente no desenvolvimento local, mas você 
 ### Q5: O suporte técnico está disponível para Aspose.Note?
 
 R5: Sim, o Aspose fornece suporte técnico dedicado por meio de seu fórum, onde você pode fazer perguntas e obter assistência.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

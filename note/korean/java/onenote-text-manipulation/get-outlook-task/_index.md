@@ -3,10 +3,16 @@ title: OneNote에서 Outlook 작업 가져오기 - Aspose.Note
 linktitle: OneNote에서 Outlook 작업 가져오기 - Aspose.Note
 second_title: Aspose.Note 자바 API
 description: OneNote 문서에서 Outlook 작업 세부 정보를 쉽게 추출할 수 있는 Aspose.Note for Java의 잠재력을 살펴보세요. 이 강력한 라이브러리를 사용하여 Java 개발 수준을 높이십시오.
-type: docs
 weight: 10
 url: /ko/java/onenote-text-manipulation/get-outlook-task/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# OneNote에서 Outlook 작업 가져오기 - Aspose.Note
+
 ## 소개
 Java 개발자가 Microsoft OneNote 파일을 원활하게 사용할 수 있도록 지원하는 강력한 도구인 Aspose.Note for Java의 세계에 오신 것을 환영합니다. 이 단계별 가이드에서는 Aspose.Note for Java를 사용하여 OneNote 문서에서 Outlook 작업 정보를 추출하는 과정을 안내합니다.
 ## 전제조건
@@ -72,3 +78,9 @@ A: 예, Aspose.Note for Java는 다양한 Java 프레임워크와 호환되어 �
  답: 다음을 참조하세요.[Aspose.Note for Java 문서](https://reference.aspose.com/note/java/) 자세한 정보를 확인하세요.
 ### Q: Aspose.Note for Java의 임시 라이선스는 어떻게 얻나요?
  A: 임시 면허증을 받으세요[여기](https://purchase.aspose.com/temporary-license/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

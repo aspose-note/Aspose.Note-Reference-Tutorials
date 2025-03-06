@@ -3,10 +3,16 @@ title: قم بتحميل مستند OneNote في Aspose.Note
 linktitle: قم بتحميل مستند OneNote في Aspose.Note
 second_title: Aspose.Note .NET API
 description: تعرف على كيفية تحميل مستندات OneNote وتشفيرها وفك تشفيرها برمجيًا في .NET باستخدام Aspose.Note.
-type: docs
 weight: 16
 url: /ar/net/loading-and-saving-operations/load-onenote-document/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# قم بتحميل مستند OneNote في Aspose.Note
+
 ## مقدمة
 
 Aspose.Note for .NET عبارة عن واجهة برمجة تطبيقات قوية تتيح للمطورين العمل مع ملفات Microsoft OneNote برمجيًا في تطبيقات .NET الخاصة بهم. سواء كنت بحاجة إلى تحميل مستندات OneNote أو معالجتها أو تحويلها، فإن Aspose.Note for .NET يوفر وظائف شاملة لتبسيط سير عملك.
@@ -174,3 +180,9 @@ A1: يدعم Aspose.Note for .NET إصدارات مختلفة من OneNote. وم
 ### س5: كيف يمكنني الحصول على ترخيص مؤقت لـ Aspose.Note لـ .NET؟
 
  ج5: يمكنك طلب ترخيص مؤقت من[Aspose صفحة الشراء](https://purchase.aspose.com/temporary-license/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

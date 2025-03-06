@@ -3,10 +3,16 @@ title: Dokumen Pencetakan OneNote
 linktitle: Dokumen Pencetakan OneNote
 second_title: Aspose.Catatan Java API
 description: Cetak dokumen dengan mudah di OneNote dengan Aspose.Note untuk Java. Tutorial ini menawarkan panduan langkah demi langkah dan contoh kode untuk pencetakan dokumen yang lancar.
-type: docs
 weight: 30
 url: /id/java/onenote-printing-documents/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Dokumen Pencetakan OneNote
+
 
 ## Perkenalan
 
@@ -38,3 +44,9 @@ Kesimpulannya, menguasai seni mencetak dokumen di OneNote menggunakan Aspose.Not
 ## Tutorial Pencetakan Dokumen OneNote
 ### [Cetak Dokumen di OneNote - Aspose.Note](./print-documents/)
 Pelajari cara mencetak dokumen di OneNote menggunakan Aspose.Note untuk Java. Panduan langkah demi langkah dengan contoh kode dan opsi yang dapat disesuaikan.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

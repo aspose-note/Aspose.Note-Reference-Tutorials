@@ -3,10 +3,16 @@ title: Lưu vào hình ảnh trong Aspose.Note
 linktitle: Lưu vào hình ảnh trong Aspose.Note
 second_title: Aspose.Note .NET API
 description: Dễ dàng chuyển đổi tài liệu Microsoft OneNote sang định dạng hình ảnh trong BMP với Aspose.Note for .NET. Tích hợp liền mạch, các bước dễ dàng và chức năng mạnh mẽ.
-type: docs
 weight: 23
 url: /vi/net/loading-and-saving-operations/save-to-image/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Lưu vào hình ảnh trong Aspose.Note
+
 ## Giới thiệu
 
 Trong hướng dẫn này, chúng ta sẽ đi sâu vào quy trình lưu tài liệu sang định dạng hình ảnh bằng Aspose.Note cho .NET. Aspose.Note là một API mạnh mẽ cho phép các nhà phát triển làm việc với các tệp Microsoft OneNote theo chương trình, cung cấp nhiều chức năng khác nhau để thao tác và chuyển đổi tài liệu.
@@ -88,3 +94,9 @@ Câu trả lời 4: Hoàn toàn có thể, Aspose.Note cung cấp các tùy ch�
 ### Câu hỏi 5: Aspose.Note có cung cấp hỗ trợ kỹ thuật cho nhà phát triển không?
 
 Câu trả lời 5: Có, Aspose.Note cung cấp hỗ trợ kỹ thuật toàn diện thông qua các diễn đàn và tài liệu, đảm bảo trải nghiệm phát triển suôn sẻ.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -3,10 +3,16 @@ title: Načtěte dokumenty chráněné heslem v Aspose Note .NET
 linktitle: Načtěte dokumenty chráněné heslem v Aspose Note .NET
 second_title: Aspose.Note .NET API
 description: Naučte se, jak bezpečně načítat dokumenty chráněné heslem v Aspose Note .NET pomocí jednoduchých kroků. Zajistěte důvěrnost dat pomocí šifrování.
-type: docs
 weight: 22
 url: /cs/net/notebook-operations/load-password-protected-documents/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Načtěte dokumenty chráněné heslem v Aspose Note .NET
+
 ## Úvod
 
 Aspose.Note for .NET je výkonné rozhraní API, které umožňuje vývojářům pracovat se soubory Microsoft OneNote programově. V tomto tutoriálu se naučíme, jak načíst dokumenty chráněné heslem pomocí Aspose.Note pro .NET.
@@ -77,3 +83,9 @@ Odpověď 4: Ano, můžete nastavit různá hesla pro různé podřízené dokum
 ### Q5: Je k dispozici zkušební verze pro Aspose.Note pro .NET?
 
  A5: Ano, máte přístup k bezplatné zkušební verzi Aspose.Note pro .NET z[tady](https://releases.aspose.com/), což vám umožní prozkoumat jeho funkce před nákupem.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

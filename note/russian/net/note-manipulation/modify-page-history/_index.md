@@ -3,10 +3,16 @@ title: Изменить историю страниц в Aspose.Note
 linktitle: Изменить историю страниц в Aspose.Note
 second_title: Aspose.Note .NET API
 description: Узнайте, как изменить историю страниц в Aspose.Note для .NET, используя это подробное руководство. Расширьте свои возможности обработки документов без особых усилий.
-type: docs
 weight: 15
 url: /ru/net/note-manipulation/modify-page-history/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Изменить историю страниц в Aspose.Note
+
 ## Введение
 
 В области обработки документов Aspose.Note для .NET представляет собой надежный инструмент, позволяющий разработчикам легко манипулировать файлами OneNote. Одной из распространенных задач, с которыми сталкиваются разработчики, является изменение истории страниц в документах Aspose.Note. В этом руководстве шаг за шагом описывается процесс, который проведет вас через необходимые пространства имен, предварительные условия и фрагменты кода для эффективного изменения истории страниц с помощью Aspose.Note для .NET.
@@ -94,3 +100,10 @@ A2: Aspose.Note для .NET предоставляет функции возвр
 ### Вопрос 5: Могу ли я попробовать Aspose.Note для .NET перед покупкой?
 
 О5: Разумеется, разработчики могут воспользоваться бесплатной пробной версией Aspose.Note для .NET, чтобы оценить ее возможности и пригодность для своих проектов.
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -3,10 +3,16 @@ title: Információk a OneNote oldalairól – Aspose.Note
 linktitle: Információk a OneNote oldalairól – Aspose.Note
 second_title: Aspose.Note Java API
 description: Fedezze fel az oldaltitkokat a OneNote-dokumentumokban! Az Aspose.Note segítségével kivonhatja a revíziókat, a létrehozási időket és egyebeket. Lépésről lépésre útmutató és kód mellékelve! #OneNote #Java #Aspose
-type: docs
 weight: 12
 url: /hu/java/onenote-page-manipulation/get-information-about-pages/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Információk a OneNote oldalairól – Aspose.Note
+
 ## Bevezetés
 
 Ebben az oktatóanyagban végigvezetjük a OneNote-ban lévő oldalak információinak Aspose.Note for Java segítségével történő kinyerésének folyamatán. Az Aspose.Note egy hatékony API, amely lehetővé teszi a Microsoft OneNote dokumentumok programozott kezelését. Akár oldalváltozatokhoz, létrehozási időpontokhoz, címekhez vagy szerzőkhöz kell hozzáférnie, az Aspose.Note intuitív kezelőfelületével leegyszerűsíti a feladatot.
@@ -90,3 +96,9 @@ Ebben az oktatóanyagban megtanulta, hogyan kérhet le információkat a OneNote
 ### 5. kérdés: Elérhető az Aspose.Note for Java próbaverziója?
 
  5. válasz: Igen, letöltheti az Aspose.Note for Java ingyenes próbaverzióját a webhelyről[itt](https://releases.aspose.com/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

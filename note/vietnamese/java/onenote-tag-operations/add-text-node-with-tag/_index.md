@@ -3,10 +3,16 @@ title: Thêm nút văn bản có thẻ trong OneNote - Aspose.Note
 linktitle: Thêm nút văn bản có thẻ trong OneNote - Aspose.Note
 second_title: API Java Aspose.Note
 description: Khám phá cách thêm nút văn bản có thẻ trong OneNote bằng Aspose.Note for Java. Dễ dàng, hiệu quả và thân thiện với nhà phát triển. Tải thư viện ngay bây giờ!
-type: docs
 weight: 13
 url: /vi/java/onenote-tag-operations/add-text-node-with-tag/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Thêm nút văn bản có thẻ trong OneNote - Aspose.Note
+
 ## Giới thiệu
 Trong hướng dẫn này, chúng ta sẽ khám phá cách thêm nút văn bản có thẻ trong OneNote bằng Aspose.Note cho Java. Aspose.Note là một thư viện Java mạnh mẽ cho phép các nhà phát triển làm việc với các tệp Microsoft OneNote theo chương trình. Thêm các nút văn bản bằng thẻ là một yêu cầu phổ biến trong xử lý tài liệu và Aspose.Note đơn giản hóa tác vụ này.
 ## Điều kiện tiên quyết
@@ -121,3 +127,9 @@ Trả lời: Bạn có thể tìm kiếm sự hỗ trợ từ cộng đồng Asp
  Đáp: Có, bạn có thể xin giấy phép tạm thời[đây](https://purchase.aspose.com/temporary-license/).
 ### Câu hỏi: Tôi có thể tìm tài liệu về Aspose.Note cho Java ở đâu?
  A: Tài liệu có sẵn[đây](https://reference.aspose.com/note/java/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

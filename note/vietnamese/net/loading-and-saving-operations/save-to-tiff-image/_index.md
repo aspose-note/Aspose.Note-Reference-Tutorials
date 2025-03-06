@@ -3,10 +3,16 @@ title: Lưu vào hình ảnh TIFF trong Aspose.Note
 linktitle: Lưu vào hình ảnh TIFF trong Aspose.Note
 second_title: Aspose.Note .NET API
 description: Tìm hiểu cách lưu tài liệu OneNote dưới dạng hình ảnh TIFF bằng nhiều phương pháp nén khác nhau bằng Aspose.Note cho .NET.
-type: docs
 weight: 27
 url: /vi/net/loading-and-saving-operations/save-to-tiff-image/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Lưu vào hình ảnh TIFF trong Aspose.Note
+
 ## Giới thiệu
 
 Trong hướng dẫn này, chúng ta sẽ khám phá cách lưu tài liệu dưới dạng hình ảnh ở định dạng TIFF bằng Aspose.Note cho .NET. Aspose.Note là một API mạnh mẽ cho phép các nhà phát triển làm việc với các tệp Microsoft OneNote theo chương trình. Việc lưu tài liệu OneNote dưới dạng hình ảnh TIFF có thể hữu ích cho nhiều ứng dụng khác nhau như lưu trữ, chia sẻ hoặc in ấn.
@@ -131,3 +137,9 @@ Câu trả lời 4: Có, bạn có thể tự động hóa quy trình chuyển �
 ### Câu hỏi 5: Có phiên bản dùng thử cho Aspose.Note không?
 
 Câu trả lời 5: Có, bạn có thể dùng thử miễn phí Aspose.Note từ[đây](https://releases.aspose.com/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

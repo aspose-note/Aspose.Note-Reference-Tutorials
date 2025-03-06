@@ -3,10 +3,16 @@ title: Maak een OneNote-document en sla het op in HTML in Aspose.Note
 linktitle: Maak een OneNote-document en sla het op in HTML in Aspose.Note
 second_title: Aspose.Note .NET API
 description: Leer hoe u Microsoft OneNote-documenten kunt maken en opslaan in HTML-indeling in .NET-toepassingen met behulp van de Aspose.Note API. Volg onze uitgebreide tutorial met stapsgewijze voorbeelden.
-type: docs
 weight: 14
 url: /nl/net/loading-and-saving-operations/create-onenote-doc-save-to-html/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Maak een OneNote-document en sla het op in HTML in Aspose.Note
+
 ## Invoering
 
 Aspose.Note voor .NET is een krachtige API waarmee ontwikkelaars programmatisch met Microsoft OneNote-documenten kunnen werken in hun .NET-toepassingen. Met Aspose.Note kunt u moeiteloos OneNote-bestanden maken, manipuleren en converteren. In deze zelfstudie onderzoeken we hoe u een OneNote-document kunt maken en dit in HTML-indeling kunt opslaan met behulp van verschillende opties van de Aspose.Note voor .NET API.
@@ -218,3 +224,9 @@ A4: Ja, u kunt tekst en afbeeldingen extraheren en diverse andere manipulaties u
 ### V5: Is er een proefversie beschikbaar voor het testen van Aspose.Note-functies?
 
  A5: Ja, u kunt een gratis proefversie downloaden van[hier](https://releases.aspose.com/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

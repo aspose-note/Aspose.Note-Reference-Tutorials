@@ -3,10 +3,16 @@ title: حفظ إلى صورة TIFF باستخدام خيارات حفظ الصو
 linktitle: حفظ إلى صورة TIFF باستخدام خيارات حفظ الصورة في OneNote
 second_title: Aspose.Note جافا API
 description: تحويل مستندات OneNote إلى TIFF والتحكم في حجم الملف وجودته! اختر ضغط Jpeg أو PackBits أو Fax في Java. احصل على أمثلة التعليمات البرمجية وتعلم كيف! #OneNote #Java #Aspose
-type: docs
 weight: 21
 url: /ar/java/onenote-document-saving/save-to-tiff-image-using-image-save-options/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# حفظ إلى صورة TIFF باستخدام خيارات حفظ الصورة في OneNote
+
 ## مقدمة
 
 ستتعلم في هذا البرنامج التعليمي كيفية حفظ مستند بتنسيق صورة TIFF باستخدام طرق ضغط مختلفة في Aspose.Note لـ Java. سنقوم بتغطية المتطلبات الأساسية واستيراد الحزم وتوفير دليل خطوة بخطوة لكل طريقة ضغط.
@@ -121,3 +127,9 @@ public static void SaveToTiffUsingCcitt3Compression() throws IOException {
 ### س5: هل يقدم Aspose.Note for Java الدعم الفني؟
 
 ج5: نعم، توفر Aspose دعمًا فنيًا شاملاً من خلال المنتديات والأنظمة القائمة على التذاكر.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -3,10 +3,16 @@ title: Wyodrębnij tekst z wierszy tabeli w Aspose.Note
 linktitle: Wyodrębnij tekst z wierszy tabeli w Aspose.Note
 second_title: Aspose.Note .NET API
 description: Dowiedz się, jak wyodrębnić tekst z wierszy tabeli w Aspose.Note dla .NET, korzystając z tego wszechstronnego samouczka.
-type: docs
 weight: 14
 url: /pl/net/table-manipulation/extract-text-row/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Wyodrębnij tekst z wierszy tabeli w Aspose.Note
+
 ## Wstęp
 
 W dziedzinie przetwarzania dokumentów Aspose.Note dla .NET jest solidnym rozwiązaniem, które umożliwia programistom efektywne programowe manipulowanie plikami OneNote. Wśród niezliczonych możliwości tego narzędzia, częstym zadaniem, z jakim spotykają się programiści, jest wyodrębnianie tekstu z wierszy tabeli. Ten samouczek poprowadzi Cię przez proces wyodrębniania tekstu z wierszy tabeli przy użyciu Aspose.Note dla .NET.
@@ -98,3 +104,9 @@ A2: Oczywiście, Aspose.Note dla .NET zapewnia szerokie opcje formatowania, aby 
 ### P5: Czy przed zakupem mogę wypróbować Aspose.Note dla .NET?
 
  Odpowiedź 5: Oczywiście możesz skorzystać z bezpłatnego okresu próbnego w witrynie[strona wydania](https://releases.aspose.com/) aby poznać jego funkcje i możliwości.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

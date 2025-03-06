@@ -3,10 +3,16 @@ title: Fájlformátumadatok beszerzése a OneNote-ból – Java
 linktitle: Fájlformátumadatok beszerzése a OneNote-ból – Java
 second_title: Aspose.Note Java API
 description: Ismerje meg, hogyan bonthatja ki a fájlformátum részleteit a OneNote-fájlokból Java nyelven az Aspose.Note segítségével. Bővítse Java-alkalmazásait ennek az átfogó oktatóanyagnak a követésével.
-type: docs
 weight: 22
 url: /hu/java/onenote-document-loading/get-file-format-info/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Fájlformátumadatok beszerzése a OneNote-ból – Java
+
 ## Bevezetés
 
 Ebben az oktatóanyagban megvizsgáljuk, hogyan lehet lekérni a fájlformátum-információkat egy OneNote-fájlból Java használatával az Aspose.Note segítségével. Az Aspose.Note for Java egy hatékony API, amely lehetővé teszi a fejlesztők számára, hogy programozottan dolgozzanak a Microsoft OneNote fájlokkal, és zökkenőmentesen végezzenek olyan feladatokat, mint például a OneNote dokumentumok olvasása, írása és kezelése.
@@ -80,3 +86,9 @@ Ebben az oktatóanyagban megtanultuk, hogyan lehet fájlformátum-információka
 ### 5. kérdés: Hogyan vásárolhatok licencet az Aspose.Note for Java számára?
 
  5. válasz: Az Aspose.Note for Java-hoz licencet vásárolhat a webhelyen[vásárlási oldal](https://purchase.aspose.com/buy).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

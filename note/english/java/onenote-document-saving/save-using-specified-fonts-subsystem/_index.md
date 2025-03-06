@@ -3,10 +3,16 @@ title: Save Using Specified Fonts Subsystem in OneNote
 linktitle: Save Using Specified Fonts Subsystem in OneNote
 second_title: Aspose.Note Java API
 description: Learn how to save OneNote documents using specified fonts subsystem in Java with Aspose.Note. Ensure consistent font representation across platforms effortlessly.
-type: docs
 weight: 22
 url: /java/onenote-document-saving/save-using-specified-fonts-subsystem/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Save Using Specified Fonts Subsystem in OneNote
+
 ## Introduction
 
 Aspose.Note for Java provides robust capabilities for working with OneNote documents. One common requirement when working with such documents is ensuring that the fonts are maintained properly, especially if the document is to be exported or saved in different formats like PDF. This tutorial will guide you through the process of saving OneNote documents while specifying the fonts subsystem, ensuring consistent and accurate representation of text across various platforms.
@@ -152,3 +158,10 @@ A4: Yes, you can customize font properties such as size, style, and color using 
 ### Q5: Is there a trial version available for Aspose.Note for Java?
 
 A5: Yes, you can get a free trial of Aspose.Note for Java from the website.
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

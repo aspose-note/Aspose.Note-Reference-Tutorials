@@ -3,10 +3,16 @@ title: Használja a Szilárd objektumok megtartása algoritmust a OneNote-ban �
 linktitle: Használja a Szilárd objektumok megtartása algoritmust a OneNote-ban – Aspose.Note
 second_title: Aspose.Note Java API
 description: Ismerje meg, hogyan őrizheti meg a szilárd objektumokat az Aspose.Note dokumentumokban, amikor a Java szilárd objektumok megtartása algoritmusával PDF-formátumba konvertál.
-type: docs
 weight: 25
 url: /hu/java/onenote-document-saving/use-keep-solid-objects-algorithm/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Használja a Szilárd objektumok megtartása algoritmust a OneNote-ban – Aspose.Note
+
 ## Bevezetés
 
 Ebben az oktatóanyagban megvizsgáljuk, hogyan használhatjuk a Szilárd objektumok megtartása algoritmust az Aspose.Note for Java programban. Ez az algoritmus felbecsülhetetlen értékű a dokumentumokban lévő szilárd objektumok integritásának megőrzésében, amikor PDF formátumba konvertálja azokat. Lépésről lépésre lebontjuk a folyamatot, biztosítva az egyértelműséget és a megértést minden szakaszban.
@@ -93,3 +99,10 @@ Ebben az oktatóanyagban megtanultuk, hogyan kell használni a szilárd objektum
 ### 5. kérdés: Hol vásárolhatok licencet?
 
  5. válasz: Vásárolhat licencet az Aspose.Note for Java számára[itt](https://purchase.aspose.com/buy).
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

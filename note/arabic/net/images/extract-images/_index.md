@@ -3,10 +3,16 @@ title: استخراج الصور من مستندات Aspose.Note
 linktitle: استخراج الصور من مستندات Aspose.Note
 second_title: Aspose.Note .NET API
 description: تعرف على كيفية استخراج الصور من مستندات Aspose.Note بسهولة باستخدام Aspose.Note لـ .NET. عزز قدرات معالجة المستندات لديك من خلال هذا البرنامج التعليمي الشامل.
-type: docs
 weight: 12
 url: /ar/net/images/extract-images/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# استخراج الصور من مستندات Aspose.Note
+
 ## مقدمة
 
 هل تتطلع إلى استخراج الصور من مستندات Aspose.Note الخاصة بك بكفاءة؟ يوفر Aspose.Note for .NET حلاً قويًا لإنجاز هذه المهمة بسلاسة. في هذا البرنامج التعليمي، سنتعرف على العملية خطوة بخطوة للتأكد من أنه يمكنك استرداد الصور من مستنداتك دون عناء.
@@ -91,3 +97,9 @@ foreach (Aspose.Note.Image image in nodes)
 ### س5: أين يمكنني طلب المساعدة أو الدعم بخصوص Aspose.Note لـ .NET؟
 
  ج5: لأية استفسارات أو مساعدة بخصوص Aspose.Note for .NET، يمكنك زيارة الموقع[منتدى Aspose.Note](https://forum.aspose.com/c/note/28) للتفاعل مع الخبراء وزملائهم المطورين.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -3,10 +3,16 @@ title: OneNote でノートブックをフラット化 PDF に変換する - Asp
 linktitle: OneNote でノートブックをフラット化 PDF に変換する - Aspose.Note
 second_title: Aspose.Note Java API
 description: Aspose.Note for Java を使用すると、ノートブックをフラット化された PDF に簡単に変換できます。シームレスな統合とカスタマイズのオプションをお楽しみください。
-type: docs
 weight: 16
 url: /ja/java/onenote-notebook-operations/convert-notebook-to-flattened-pdf/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# OneNote でノートブックをフラット化 PDF に変換する - Aspose.Note
+
 ## 導入
 
 このチュートリアルでは、Aspose.Note for Java を使用してノートブックをフラット化された PDF 形式に変換する方法を説明します。ノートブックを PDF に変換することは、多くのアプリケーションにとって共通の要件であり、Aspose.Note の包括的な機能セットと使いやすい API により、このプロセスが簡素化されます。
@@ -82,3 +88,9 @@ A3: はい、Aspose.Note for Java を使用して、複数のノートブック�
 ### Q5: Aspose.Note for Java のサポートはどこで見つけられますか?
 
  A5: Aspose.Note for Java のサポートと支援については、[Aspose.Note フォーラム](https://forum.aspose.com/c/note/28).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

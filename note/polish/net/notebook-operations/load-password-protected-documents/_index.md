@@ -3,10 +3,16 @@ title: Załaduj dokumenty chronione hasłem do Aspose Note .NET
 linktitle: Załaduj dokumenty chronione hasłem do Aspose Note .NET
 second_title: Aspose.Note .NET API
 description: Dowiedz się, jak bezpiecznie ładować dokumenty chronione hasłem w Aspose Note .NET, wykonując proste kroki. Zapewnij poufność danych dzięki szyfrowaniu.
-type: docs
 weight: 22
 url: /pl/net/notebook-operations/load-password-protected-documents/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Załaduj dokumenty chronione hasłem do Aspose Note .NET
+
 ## Wstęp
 
 Aspose.Note dla .NET to potężny interfejs API, który umożliwia programistom programową pracę z plikami Microsoft OneNote. W tym samouczku nauczymy się ładować dokumenty chronione hasłem za pomocą Aspose.Note dla .NET.
@@ -77,3 +83,9 @@ O4: Tak, możesz ustawić różne hasła dla różnych dokumentów podrzędnych 
 ### P5: Czy dostępna jest wersja próbna Aspose.Note dla .NET?
 
  O5: Tak, możesz uzyskać dostęp do bezpłatnej wersji próbnej Aspose.Note dla .NET z[Tutaj](https://releases.aspose.com/), dzięki czemu możesz zapoznać się z jego funkcjami przed dokonaniem zakupu.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

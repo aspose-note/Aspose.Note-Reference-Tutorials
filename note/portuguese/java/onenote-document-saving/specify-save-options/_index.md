@@ -3,10 +3,16 @@ title: Especifique as opções de salvamento no OneNote - Aspose.Note
 linktitle: Especifique as opções de salvamento no OneNote - Aspose.Note
 second_title: API Java Aspose.Note
 description: Aprenda como especificar opções de salvamento no OneNote usando Aspose.Note para Java. Personalize as configurações de índice, contagem e compactação de páginas sem esforço.
-type: docs
 weight: 24
 url: /pt/java/onenote-document-saving/specify-save-options/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Especifique as opções de salvamento no OneNote - Aspose.Note
+
 ## Introdução
 
 Neste tutorial, aprenderemos como especificar opções de salvamento no OneNote usando Aspose.Note para Java. Aspose.Note é uma poderosa biblioteca Java que permite aos desenvolvedores criar, manipular e converter documentos do OneNote programaticamente. Com Aspose.Note, você pode controlar facilmente várias opções de salvamento para personalizar a saída de acordo com suas necessidades.
@@ -109,3 +115,9 @@ A4: Sim, Aspose.Note fornece APIs para criptografia e descriptografia de documen
 ### Q5: O Aspose.Note é adequado para uso comercial?
 
 A5: Sim, o Aspose.Note pode ser usado para fins comerciais através da compra de uma licença.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

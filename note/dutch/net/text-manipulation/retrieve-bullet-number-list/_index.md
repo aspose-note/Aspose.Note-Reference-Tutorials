@@ -3,10 +3,16 @@ title: Haal de lijst met opsommingstekens of cijfers op in Aspose.Note-tekst
 linktitle: Haal de lijst met opsommingstekens of cijfers op in Aspose.Note-tekst
 second_title: Aspose.Note .NET API
 description: Ontgrendel het potentieel van Aspose.Note voor .NET met onze stapsgewijze handleiding voor het ophalen van lijsten met opsommingstekens of getallen. Verbeter uw vaardigheden voor het manipuleren van OneNote-documenten!
-type: docs
 weight: 23
 url: /nl/net/text-manipulation/retrieve-bullet-number-list/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Haal de lijst met opsommingstekens of cijfers op in Aspose.Note-tekst
+
 ## Invoering
 Welkom in de wereld van Aspose.Note voor .NET, een robuuste en veelzijdige bibliotheek waarmee ontwikkelaars moeiteloos OneNote-documentmanipulatie kunnen verwerken. In deze zelfstudie gaan we dieper in op het proces van het ophalen van lijsten met opsommingstekens of getallen met behulp van Aspose.Note voor .NET. Of u nu een doorgewinterde ontwikkelaar of een codeerliefhebber bent, deze gids zal u voorzien van de kennis om door de fijne kneepjes van het werken met lijsten in Aspose.Note te navigeren.
 ## Vereisten
@@ -87,3 +93,9 @@ Ja, Aspose.Note ondersteunt een breed scala aan OneNote-indelingen, waardoor com
  kunt de omgeving verkennen en hulp zoeken[Aspose.Note-forum](https://forum.aspose.com/c/note/28) voor eventuele vragen of problemen die u tegenkomt.
 ### Bestaat er een gratis proefversie van Aspose.Note voor .NET?
  Ja, u heeft toegang tot de gratis proefversie van Aspose.Note voor .NET[hier](https://releases.aspose.com/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -3,10 +3,16 @@ title: Visszatérés az előző oldalverzióhoz a OneNote-ban – Aspose.Note
 linktitle: Visszatérés az előző oldalverzióhoz a OneNote-ban – Aspose.Note
 second_title: Aspose.Note Java API
 description: Ismerje meg, hogyan térhet vissza a korábbi oldalverziókra a OneNote-ban az Aspose.Note for Java használatával. Kövesse ezt a lépésről lépésre szóló útmutatót a hatékony dokumentumkezelés érdekében.
-type: docs
 weight: 19
 url: /hu/java/onenote-page-manipulation/roll-back-to-previous-page-version/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Visszatérés az előző oldalverzióhoz a OneNote-ban – Aspose.Note
+
 ## Bevezetés
 
 Ebben az oktatóanyagban az Aspose.Note for Java használatával foglalkozunk, amellyel a OneNote-ban egy oldal korábbi verziójára léphet vissza. A OneNote hatékony eszköz a jegyzetkészítéshez, az együttműködéshez és a rendszerezéshez, de időnként hibák történnek, vagy a változtatásokat vissza kell állítani. Az Aspose.Note zökkenőmentes integrációt kínál a Java-val, lehetővé téve a fejlesztők számára a OneNote-dokumentumok programozott kezelését. Az előző oldalverzióra való visszaállítás kulcsfontosságú funkció a OneNote-dokumentumok pontosságának és integritásának megőrzéséhez.
@@ -91,3 +97,9 @@ V: Természetesen az Aspose.Note kiterjedt lehetőségeket kínál a OneNote-dok
 ### 5. kérdés: Elérhető közösségi fórum vagy támogatás az Aspose.Note számára?
 
  V: Igen, meglátogathatja a[Aspose.Note fórum](https://forum.aspose.com/c/note/28) közösségi támogatásért, vagy segítségért forduljon az Aspose ügyfélszolgálatához.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

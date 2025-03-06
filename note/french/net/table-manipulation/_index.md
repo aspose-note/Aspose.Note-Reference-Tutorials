@@ -3,10 +3,16 @@ title: Maîtriser les tableaux avec l'intégration OneNote
 linktitle: Manipulation des tableaux
 second_title: API Aspose.Note .NET
 description: Créez des documents visuellement attrayants avec Aspose.Note pour .NET ! Explorez des didacticiels sur la manipulation de tableaux  modifiez les styles, composez des tableaux, extrayez du texte, etc.
-type: docs
 weight: 29
 url: /fr/net/table-manipulation/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Maîtriser les tableaux avec l'intégration OneNote
+
 
 ## Introduction
 
@@ -62,3 +68,9 @@ Découvrez comment extraire du texte de tableaux dans Aspose.Note en utilisant C
 Apprenez à insérer des tableaux dans des documents Note avec Aspose.Note pour .NET. Organisez les données de manière transparente pour une lisibilité et une présentation améliorées.
 ### [Définir la couleur d’arrière-plan des cellules dans les tableaux Aspose.Note](./set-cell-background-color/)
 Découvrez comment définir la couleur d'arrière-plan des cellules dans les tableaux Aspose.Note à l'aide d'un guide étape par étape. Améliorez les visuels des documents sans effort.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

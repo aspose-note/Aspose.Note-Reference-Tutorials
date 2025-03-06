@@ -3,10 +3,16 @@ title: OneNote 통합으로 원활한 PDF 가져오기
 linktitle: 수입
 second_title: Aspose.Note .NET API
 description: 다양한 병합 옵션을 사용하여 완벽한 통합을 통해 PDF 문서를 Aspose.Note .NET으로 가져옵니다. OneNote 통합을 포함한 단계별 튜토리얼을 통해 알아보세요.
-type: docs
 weight: 24
 url: /ko/net/import/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# OneNote 통합으로 원활한 PDF 가져오기
+
 
 ## 소개
 
@@ -48,3 +54,9 @@ Aspose.Note 영역에서는 문서가 단순한 파일이 아니라는 점을 �
 ## 튜토리얼 가져오기
 ### [PDF 문서를 Aspose.Note로 가져오기](./import-pdf-documents/)
 원활한 통합을 위해 다양한 병합 옵션을 사용하여 PDF 문서를 .NET용 Aspose.Note로 쉽게 가져오는 방법을 알아보세요.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

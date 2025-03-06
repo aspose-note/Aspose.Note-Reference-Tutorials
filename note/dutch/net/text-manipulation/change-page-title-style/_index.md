@@ -3,10 +3,16 @@ title: Wijzig de stijl van de paginatitel in Aspose.Note
 linktitle: Wijzig de stijl van de paginatitel in Aspose.Note
 second_title: Aspose.Note .NET API
 description: Transformeer uw .NET-documenten met Aspose.Note! Leer hoe u moeiteloos paginatitelstijlen kunt wijzigen. Verbeter de esthetiek in een paar eenvoudige stappen.
-type: docs
 weight: 13
 url: /nl/net/text-manipulation/change-page-title-style/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Wijzig de stijl van de paginatitel in Aspose.Note
+
 ## Invoering
 Wilt u de visuele aantrekkingskracht van uw .NET-documenten verbeteren met een dynamische paginatitelstijl? Aspose.Note voor .NET biedt een naadloze oplossing, waarmee u moeiteloos de stijl van uw paginatitels kunt wijzigen. In deze zelfstudie begeleiden we u stap voor stap door het proces, zodat u de esthetiek van uw documenten probleemloos kunt verbeteren.
 ## Vereisten
@@ -70,3 +76,9 @@ Gefeliciteerd! U hebt met succes geleerd hoe u paginatitelstijlen kunt wijzigen 
  U kunt een licentie kopen voor Aspose.Note[hier](https://purchase.aspose.com/buy).
 ### Heb ik een tijdelijke licentie nodig voor testdoeleinden?
  Ja, als u Aspose.Note test, kunt u een tijdelijke licentie verkrijgen[hier](https://purchase.aspose.com/temporary-license/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

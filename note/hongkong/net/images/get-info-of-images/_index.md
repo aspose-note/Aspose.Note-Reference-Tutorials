@@ -3,10 +3,16 @@ title: 在Aspose.Note中獲取圖像信息
 linktitle: 在Aspose.Note中獲取圖像信息
 second_title: Aspose.Note .NET API
 description: 了解如何使用 Aspose.Note for .NET 從 Microsoft OneNote 檔案中提取映像資訊。遵循我們的逐步指南以實現高效開發。
-type: docs
 weight: 13
 url: /zh-hant/net/images/get-info-of-images/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# 在Aspose.Note中獲取圖像信息
+
 ## 介紹
 
 在 .NET 開發領域，Aspose.Note 提供了一組強大的工具來處理 Microsoft OneNote 檔案。開發人員經常面臨的一項常見任務是從這些筆記中嵌入的圖像中提取資訊。無論是取得尺寸、檔案名稱或修改時間，Aspose.Note 都簡化了這個過程。
@@ -98,3 +104,9 @@ A4：是的，您可以在購買之前免費試用 Aspose.Note 以探索其功�
 ### 問題 5：我可以在哪裡找到有關 Aspose.Note 的其他支援或協助？
 
 A5：如有任何疑問或協助，您可以造訪 Aspose.Note 論壇[這裡](https://forum.aspose.com/c/note/28).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

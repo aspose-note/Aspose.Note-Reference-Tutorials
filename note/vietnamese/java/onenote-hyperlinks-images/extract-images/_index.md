@@ -3,10 +3,16 @@ title: Trích xuất hình ảnh từ tài liệu OneNote bằng Java
 linktitle: Trích xuất hình ảnh từ tài liệu OneNote bằng Java
 second_title: API Java Aspose.Note
 description: Tìm hiểu cách trích xuất hình ảnh từ tài liệu OneNote bằng Java với thư viện Aspose.Note. Hãy làm theo hướng dẫn từng bước của chúng tôi để trích xuất hình ảnh liền mạch.
-type: docs
 weight: 14
 url: /vi/java/onenote-hyperlinks-images/extract-images/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Trích xuất hình ảnh từ tài liệu OneNote bằng Java
+
 ## Giới thiệu
 
 Trong hướng dẫn này, chúng tôi sẽ hướng dẫn bạn quy trình trích xuất hình ảnh từ tài liệu OneNote bằng Java với sự trợ giúp của thư viện Aspose.Note.
@@ -89,3 +95,9 @@ Câu trả lời 4: Aspose.Note xử lý các tài liệu có kích thước kh�
 ### Câu hỏi 5: Aspose.Note có hỗ trợ trích xuất các loại nội dung khác ngoài hình ảnh không?
 
 Câu trả lời 5: Có, ngoài hình ảnh, Aspose.Note còn cho phép trích xuất văn bản, tệp đính kèm và các loại nội dung khác từ tài liệu OneNote.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

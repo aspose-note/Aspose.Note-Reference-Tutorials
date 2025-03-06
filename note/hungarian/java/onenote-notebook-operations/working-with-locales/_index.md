@@ -3,10 +3,16 @@ title: A területi beállítások használata a OneNote-ban – Aspose.Note
 linktitle: A területi beállítások használata a OneNote-ban – Aspose.Note
 second_title: Aspose.Note Java API
 description: Használja ki az Aspose.Note képességeit a OneNote területi beállításaival való együttműködéshez! Különböző nyelvekre és régiókra szabott jelentések kinyerése, manipulálása és létrehozása. #OneNote #Java #Aspose
-type: docs
 weight: 10
 url: /hu/java/onenote-notebook-operations/working-with-locales/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# A területi beállítások használata a OneNote-ban – Aspose.Note
+
 ## Bevezetés
 
 Java fejlesztés területén az Aspose.Note kiemelkedik a OneNote-fájlokkal való munkavégzés hatékony eszközeként. Akár információk kinyerésére, akár tartalom manipulálására, akár jelentéskészítésre törekszik, az Aspose.Note szolgáltatások széles skáláját kínálja a munkafolyamat egyszerűsítésére. Ebben az oktatóanyagban egy konkrét szempontot mutatunk be: a területi beállításokkal való munkavégzést a OneNote-ban az Aspose.Note for Java használatával.
@@ -99,3 +105,9 @@ Ebben az oktatóanyagban megvizsgáltuk, hogyan dolgozhatunk a területi beáll�
 ### 5. kérdés: Kipróbálhatom az Aspose.Note-t a vásárlás előtt?
 
 5. válasz: Természetesen felfedezheti az Aspose.Note képességeit, ha igénybe veszi a webhelyen kínált ingyenes próbaverziót.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -3,10 +3,16 @@ title: OneNote で番号付きリストを作成する - Aspose.Note
 linktitle: OneNote で番号付きリストを作成する - Aspose.Note
 second_title: Aspose.Note Java API
 description: Aspose.Note for Java を使用して、OneNote で番号付きリストを簡単に作成する方法を学びます。無料トライアルをダウンロードして、Java 開発の世界に飛び込んでください。
-type: docs
 weight: 14
 url: /ja/java/onenote-text-manipulation/create-numbered-list/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# OneNote で番号付きリストを作成する - Aspose.Note
+
 ## 導入
 Aspose.Note for Java を使用すると、Java 開発者は Microsoft OneNote ファイルをシームレスに操作できるようになります。このチュートリアルでは、強力な Aspose.Note for Java ライブラリを使用して、OneNote で番号付きリストを作成するプロセスを説明します。
 ## 前提条件
@@ -91,3 +97,9 @@ A: もちろんです！ Aspose.Note for Java が提供する NumberList クラ�
  A: を参照してください。[ドキュメンテーション](https://reference.aspose.com/note/java/)包括的な情報については。
 ### Q: Aspose.Note for Java のライセンスはどのように購入すればよいですか?
  A: ライセンスを購入できます[ここ](https://purchase.aspose.com/buy).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

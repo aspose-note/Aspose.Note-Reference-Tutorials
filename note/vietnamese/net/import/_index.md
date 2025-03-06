@@ -3,10 +3,16 @@ title: Nhập PDF liền mạch với tích hợp OneNote
 linktitle: Nhập khẩu
 second_title: Aspose.Note .NET API
 description: Nhập tài liệu PDF vào Aspose.Note .NET với khả năng tích hợp liền mạch bằng nhiều tùy chọn hợp nhất khác nhau. Tìm hiểu với hướng dẫn từng bước, bao gồm tích hợp OneNote.
-type: docs
 weight: 24
 url: /vi/net/import/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Nhập PDF liền mạch với tích hợp OneNote
+
 
 ## Giới thiệu
 
@@ -48,3 +54,9 @@ Hãy nhớ rằng, trong lĩnh vực Aspose.Note, tài liệu của bạn không
 ## Nhập hướng dẫn
 ### [Nhập tài liệu PDF vào Aspose.Note](./import-pdf-documents/)
 Tìm hiểu cách nhập tài liệu PDF vào Aspose.Note cho .NET một cách dễ dàng bằng cách sử dụng nhiều tùy chọn hợp nhất khác nhau để tích hợp liền mạch.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

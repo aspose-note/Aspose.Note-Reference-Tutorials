@@ -3,10 +3,16 @@ title: Java を使用して OneNote から添付ファイルを取得する
 linktitle: Java を使用して OneNote から添付ファイルを取得する
 second_title: Aspose.Note Java API
 description: Java で OneNote ドキュメントから添付ファイルを簡単に抽出します。 Aspose.Note はすべてのフォーマットとバッチ処理を処理します。簡単な手順とコードが含まれています! #OneNote #Java #Aspose
-type: docs
 weight: 12
 url: /ja/java/onenote-java-integration/retrieve-attachment/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Java を使用して OneNote から添付ファイルを取得する
+
 ## 導入
 
 今日のデジタル時代では、さまざまなドキュメント形式を効率的に処理することがソフトウェア開発の重要な側面です。 Aspose.Note for Java は、開発者が Java アプリケーションを使用して Microsoft OneNote ファイルをシームレスに操作できるようにする強力な API です。添付ファイルの取得、ページの操作、テキストの抽出が必要な場合でも、Aspose.Note for Java はワークフローを合理化するための包括的な機能を提供します。
@@ -112,3 +118,9 @@ A: はい、開発者は要件に応じてカスタムの出力場所とファ�
 ### Q5: Aspose.Note for Java は、技術的な問題や問い合わせがあった場合にサポートや支援を提供しますか?
 
 A: はい、開発者は次の Aspose.Note フォーラムを通じて包括的なサポートにアクセスできます。[https://forum.aspose.com/c/note/28](https://forum.aspose.com/c/note/28)技術的なサポートや問い合わせについては。
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

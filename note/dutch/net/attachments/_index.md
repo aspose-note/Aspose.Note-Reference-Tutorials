@@ -3,10 +3,16 @@ title: Bestandsbijlagen en ophalen in OneNote-documenten
 linktitle: Bijlagen
 second_title: Aspose.Note .NET API
 description: Geef uw .NET-applicaties een boost met Aspose.Note! Ontdek tutorials over het bijvoegen van bestanden, het instellen van pictogrammen en het ophalen van bijlagen voor verbeterde ontwikkeling.
-type: docs
 weight: 21
 url: /nl/net/attachments/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Bestandsbijlagen en ophalen in OneNote-documenten
+
 ## Invoering
 
 Bent u klaar om uw .NET-applicaties naar een hoger niveau te tillen? Duik in de wereld van Aspose.Note en ontgrendel een rijk aan mogelijkheden. Deze uitgebreide tutoriallijst leidt u door de belangrijkste functies, waarbij de nadruk ligt op het bijvoegen van bestanden, het instellen van pictogrammen en het naadloos ophalen van bijgevoegde bestanden.
@@ -37,3 +43,9 @@ Leer hoe u bestanden bijvoegt en pictogrammen in Aspose.Note voor .NET instelt. 
 Leer hoe u programmatisch bestanden aan Microsoft OneNote-documenten kunt toevoegen met Aspose.Note voor .NET. Vereenvoudig uw ontwikkelingsproces met deze uitgebreide tutorial.
 ### [Haal bijgevoegde bestanden op met Aspose.Note](./retrieve-attached-files/)
 Leer hoe u bijgevoegde bestanden uit Microsoft OneNote-documenten kunt ophalen met Aspose.Note voor .NET. Volg de stappen om te laden, knooppunten op te halen en bijlagen te doorlopen.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -3,10 +3,16 @@ title: Opslaan naar PDF met behulp van pagina-instellingen in OneNote - Aspose.N
 linktitle: Opslaan naar PDF met behulp van pagina-instellingen in OneNote - Aspose.Note
 second_title: Aspose.Note Java-API
 description: Leer hoe u OneNote-documenten opslaat in PDF in Java met behulp van de Aspose.Note-bibliotheek. Stapsgewijze handleiding met codevoorbeelden voor verschillende pagina-instellingen.
-type: docs
 weight: 19
 url: /nl/java/onenote-document-saving/save-to-pdf-using-page-settings/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Opslaan naar PDF met behulp van pagina-instellingen in OneNote - Aspose.Note
+
 ## Invoering
 
 In deze zelfstudie leren we hoe u OneNote-documenten in PDF-indeling kunt opslaan met behulp van verschillende pagina-instellingen met Aspose.Note voor Java. We behandelen twee methoden: opslaan met Letter-pagina-instellingen en opslaan met A4-pagina-instellingen zonder hoogtelimiet.
@@ -112,3 +118,9 @@ A4: Ja, u kunt meerdere OneNote-bestanden batchgewijs verwerken met Aspose.Note 
 ### Vraag 5: Is er een proefversie beschikbaar voor testdoeleinden?
 
 A5: Ja, u kunt een gratis proefversie van Aspose.Note voor Java krijgen via de website.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

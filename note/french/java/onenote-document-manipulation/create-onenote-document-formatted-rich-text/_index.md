@@ -3,10 +3,16 @@ title: Créer un document OneNote avec du texte enrichi formaté en Java
 linktitle: Créer un document OneNote avec du texte enrichi formaté en Java
 second_title: API Java Aspose.Note
 description: Découvrez comment créer des documents OneNote richement formatés par programmation en Java à l'aide d'Aspose.Note pour Java. Suivez notre guide étape par étape pour une automatisation transparente des documents.
-type: docs
 weight: 11
 url: /fr/java/onenote-document-manipulation/create-onenote-document-formatted-rich-text/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Créer un document OneNote avec du texte enrichi formaté en Java
+
 ## Introduction
 
 La création par programme de documents OneNote richement formatés peut être un outil puissant pour les développeurs cherchant à automatiser les tâches de génération de documents dans les applications Java. Aspose.Note pour Java fournit un ensemble complet de fonctionnalités pour y parvenir de manière transparente. Dans ce didacticiel, nous vous guiderons tout au long du processus de création d'un document OneNote avec du texte riche formaté à l'aide d'Aspose.Note pour Java.
@@ -142,3 +148,10 @@ A4 : Oui, vous devez acquérir une licence pour utiliser Aspose.Note pour Java d
 ### Q5 : Aspose.Note pour Java prend-il en charge d'autres formats de document que OneNote ?
 
 A5 : Oui, Aspose.Note pour Java prend en charge une variété de formats de documents, notamment les formats PDF, HTML et image.
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

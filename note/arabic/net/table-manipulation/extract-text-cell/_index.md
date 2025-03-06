@@ -3,10 +3,16 @@ title: استخراج النص من خلايا الجدول في Aspose.Note
 linktitle: استخراج النص من خلايا الجدول في Aspose.Note
 second_title: Aspose.Note .NET API
 description: تعرف على كيفية استخراج النص من خلايا الجدول في Aspose.Note لـ .NET. تعزيز قدرات معالجة المستندات الخاصة بك دون عناء.
-type: docs
 weight: 13
 url: /ar/net/table-manipulation/extract-text-cell/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# استخراج النص من خلايا الجدول في Aspose.Note
+
 ## مقدمة
 
 في هذا البرنامج التعليمي، سوف نتعمق في عملية استخراج النص من خلايا الجدول باستخدام Aspose.Note لـ .NET. تُستخدم الجداول بشكل شائع في المستندات لتنظيم المعلومات، وقد تكون القدرة على استخراج النص من خلايا معينة مفيدة بشكل لا يصدق لمختلف التطبيقات.
@@ -95,3 +101,9 @@ foreach (Table table in nodes)
 ### س5: هل Aspose.Note مناسب للاستخدام الشخصي والتجاري؟
 
 ج5: نعم، يوفر Aspose.Note خيارات ترخيص مناسبة للاستخدام الشخصي والتجاري، مما يوفر المرونة وقابلية التوسع.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

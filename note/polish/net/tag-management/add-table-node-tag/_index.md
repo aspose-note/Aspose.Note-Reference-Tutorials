@@ -3,10 +3,16 @@ title: Dodaj węzeł tabeli ze znacznikiem w Aspose.Note
 linktitle: Dodaj węzeł tabeli ze znacznikiem w Aspose.Note
 second_title: Aspose.Note .NET API
 description: Dowiedz się, jak dodawać tabele ze znacznikami w Aspose.Note dla .NET. Popraw swoje umiejętności programowego manipulowania dokumentami.
-type: docs
 weight: 11
 url: /pl/net/tag-management/add-table-node-tag/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Dodaj węzeł tabeli ze znacznikiem w Aspose.Note
+
 ## Wstęp
 
 W tym samouczku przeprowadzimy Cię przez proces dodawania węzła tabeli ze znacznikiem za pomocą Aspose.Note dla .NET. Aby to osiągnąć, wykonaj poniższe czynności.
@@ -137,3 +143,9 @@ O4: Tak, Aspose.Note zapewnia obsługę szyfrowania dokumentów OneNote w celu z
 ### P5: Czy dostępna jest pomoc techniczna dla użytkowników Aspose.Note?
 
  Odpowiedź 5: Tak, wsparcie techniczne jest zapewniane za pośrednictwem forów Aspose[Tutaj](https://forum.aspose.com/c/note/28), gdzie możesz zwrócić się o pomoc do ekspertów.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

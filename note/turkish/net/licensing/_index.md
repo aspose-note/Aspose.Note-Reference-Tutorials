@@ -3,10 +3,16 @@ title: OneNote Entegrasyonu için Aspose.Note Lisanslamada Uzmanlaşma
 linktitle: Lisanslama
 second_title: Aspose.Note .NET API'si
 description: Aspose.Note lisanslarını .NET uygulamalarınıza uygulayın! Kaynakları yerleştirme, yolları kullanma, FileStream ve verimli ölçülü lisanslamayla ilgili adım adım kılavuzları keşfedin.
-type: docs
 weight: 20
 url: /tr/net/licensing/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# OneNote Entegrasyonu için Aspose.Note Lisanslamada Uzmanlaşma
+
 ## giriiş
 
 Aspose.Note'un dinamik alanına giren bir .NET geliştiricisi misiniz? Lisansların nasıl uygulanacağını anlamak, özellikle OneNote dosyalarıyla çalışırken çok önemlidir. Bu kapsamlı kılavuzda, çeşitli lisanslama eğitimlerinde gezinerek kusursuz bir entegrasyon süreci sağlayacağız ve OneNote dosyalarını zahmetsizce değiştirmenize olanak sağlayacağız.
@@ -41,3 +47,9 @@ Aspose.Note lisansını .NET uygulamalarında yoldan nasıl uygulayacağınızı
 Kusursuz entegrasyon için .NET uygulamalarınızda FileStream'i kullanarak Aspose.Note lisansını nasıl uygulayacağınızı öğrenin.
 ### [Aspose.Note ile Ölçülü Lisanslama](./metered-licensing/)
 Aspose.Note for .NET ile yazılım lisanslarını ölçülü lisanslama yoluyla verimli bir şekilde nasıl yöneteceğinizi öğrenin. Kaynak kullanımını optimize edin ve maliyetleri etkili bir şekilde kontrol edin.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

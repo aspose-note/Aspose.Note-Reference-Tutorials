@@ -3,10 +3,16 @@ title: Załaduj dokumenty chronione hasłem do programu OneNote — Aspose.Note
 linktitle: Załaduj dokumenty chronione hasłem do programu OneNote — Aspose.Note
 second_title: Aspose.Note API Java
 description: Dowiedz się, jak ładować dokumenty chronione hasłem do programu OneNote przy użyciu programu Aspose.Note dla języka Java. Postępuj zgodnie z naszym przewodnikiem krok po kroku, aby zapewnić bezproblemową integrację.
-type: docs
 weight: 22
 url: /pl/java/onenote-notebook-operations/load-password-protected-documents/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Załaduj dokumenty chronione hasłem do programu OneNote — Aspose.Note
+
 ## Wstęp
 
 W tym samouczku omówimy proces ładowania dokumentów chronionych hasłem do OneNote przy użyciu Aspose.Note dla Java. Aspose.Note to potężna biblioteka Java, która umożliwia programistom programową pracę z plikami Microsoft OneNote, umożliwiając różne operacje, takie jak ładowanie, edytowanie i zapisywanie dokumentów.
@@ -79,3 +85,9 @@ O: Tak, Aspose.Note oferuje obsługę ładowania i obsługi dokumentów chronion
 ### P5: Czy dostępna jest wersja próbna Aspose.Note?
 
 Odp.: Tak, możesz pobrać bezpłatną wersję próbną Aspose.Note ze strony[Tutaj](https://releases.aspose.com/) aby zapoznać się z jego funkcjami przed dokonaniem zakupu.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

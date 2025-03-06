@@ -3,10 +3,16 @@ title: Aspose Note .NET でパスワードで保護されたドキュメント�
 linktitle: Aspose Note .NET でパスワードで保護されたドキュメントを作成する
 second_title: Aspose.Note .NET API
 description: Aspose Note for .NET でパスワードで保護されたドキュメントを作成し、ドキュメントのセキュリティを強化する方法を学びます。簡単に実装するには、ステップバイステップのチュートリアルに従ってください。
-type: docs
 weight: 18
 url: /ja/net/notebook-operations/create-password-protected-documents/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Aspose Note .NET でパスワードで保護されたドキュメントを作成する
+
 ## 導入
 
 このチュートリアルでは、Aspose.Note for .NET を使用してパスワードで保護されたドキュメントを作成するプロセスを詳しく説明します。文書のセキュリティは、特に機密情報を扱う場合には最も重要です。 Aspose.Note を使用すると、ドキュメントを暗号化して不正アクセスから保護できます。このセキュリティ対策を効果的に実装するために必要な手順を説明します。
@@ -76,3 +82,9 @@ A4: はい、Aspose.Note for .NET は強力な暗号化アルゴリズムをサ�
 ### Q5: パスワードで保護されたドキュメントの作成を .NET アプリケーションに簡単に統合できますか?
 
 A5：もちろんです！ Aspose.Note for .NET はシンプルで直感的な API を提供し、パスワードで保護されたドキュメント作成を .NET アプリケーションにシームレスに統合できます。
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -3,10 +3,16 @@ title: 在 OneNote 中將筆記本轉換為扁平 PDF - Aspose.Note
 linktitle: 在 OneNote 中將筆記本轉換為扁平 PDF - Aspose.Note
 second_title: Aspose.Note Java API
 description: 使用 Aspose.Note for Java 輕鬆將筆記本轉換為扁平 PDF。享受無縫集成和定制選項。
-type: docs
 weight: 16
 url: /zh-hant/java/onenote-notebook-operations/convert-notebook-to-flattened-pdf/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# 在 OneNote 中將筆記本轉換為扁平 PDF - Aspose.Note
+
 ## 介紹
 
 在本教程中，我們將探索如何使用 Aspose.Note for Java 將筆記本轉換為扁平 PDF 格式。將筆記本轉換為 PDF 是許多應用程式的常見要求，Aspose.Note 以其全面的功能集和易於使用的 API 簡化了此過程。
@@ -82,3 +88,9 @@ A4：是的，您可以存取 Aspose.Note for Java 的免費試用版：[這裡]
 ### Q5：哪裡可以找到 Aspose.Note for Java 的支援？
 
  A5：您可以在 Aspose.Note for Java 上找到支援和協助[Aspose.Note 論壇](https://forum.aspose.com/c/note/28).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

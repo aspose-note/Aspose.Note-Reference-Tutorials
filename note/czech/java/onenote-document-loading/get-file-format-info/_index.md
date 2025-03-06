@@ -3,10 +3,16 @@ title: Získejte informace o formátu souboru z OneNote - Java
 linktitle: Získejte informace o formátu souboru z OneNote - Java
 second_title: Aspose.Note Java API
 description: Naučte se extrahovat podrobnosti o formátu souboru ze souborů OneNote v Javě pomocí Aspose.Note. Vylepšete své Java aplikace podle tohoto komplexního kurzu.
-type: docs
 weight: 22
 url: /cs/java/onenote-document-loading/get-file-format-info/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Získejte informace o formátu souboru z OneNote - Java
+
 ## Úvod
 
 tomto tutoriálu prozkoumáme, jak načíst informace o formátu souboru ze souboru OneNote pomocí Javy s pomocí Aspose.Note. Aspose.Note for Java je výkonné rozhraní API, které umožňuje vývojářům pracovat se soubory Microsoft OneNote programově a umožňuje bezproblémové úkoly, jako je čtení, psaní a manipulace s dokumenty OneNotu.
@@ -80,3 +86,9 @@ Odpověď 3: Podporu a pomoc pro Aspose.Note pro Java najdete na[Aspose.Note fó
 ### Q5: Jak mohu zakoupit licenci pro Aspose.Note pro Java?
 
  A5: Můžete si zakoupit licenci pro Aspose.Note pro Java z[nákupní stránku](https://purchase.aspose.com/buy).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

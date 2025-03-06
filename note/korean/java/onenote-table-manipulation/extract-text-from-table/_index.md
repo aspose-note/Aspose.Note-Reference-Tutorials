@@ -3,10 +3,16 @@ title: OneNote의 테이블에서 텍스트 추출 - Aspose.Note
 linktitle: OneNote의 테이블에서 텍스트 추출 - Aspose.Note
 second_title: Aspose.Note 자바 API
 description: Java용 Aspose.Note를 사용하여 OneNote의 테이블에서 텍스트를 손쉽게 추출하는 방법을 알아보세요. 원활한 통합을 위한 단계별 가이드를 따르세요.
-type: docs
 weight: 14
 url: /ko/java/onenote-table-manipulation/extract-text-from-table/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# OneNote의 테이블에서 텍스트 추출 - Aspose.Note
+
 ## 소개
 Java 개발 영역에서 Aspose.Note는 OneNote 문서를 처리하는 강력한 도구로 돋보입니다. 주목할만한 기능 중 하나는 테이블에서 텍스트를 손쉽게 추출하는 기능입니다. 이 튜토리얼에서는 원활한 경험을 보장하기 위해 각 단계를 세분화하여 프로세스를 안내합니다.
 ## 전제조건
@@ -73,3 +79,9 @@ Java용 Aspose.Note를 개발 도구 키트에 통합하면 OneNote 문서의 �
  다음에서 커뮤니티 지원을 찾을 수 있습니다.[Aspose.Note 포럼](https://forum.aspose.com/c/note/28).
 ### Aspose.Note 라이브러리는 어떻게 구매하나요?
  도서관을 구매하실 수 있습니다[여기](https://purchase.aspose.com/buy).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

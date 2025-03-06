@@ -3,10 +3,16 @@ title: Skapa tabell med låsta kolumner med Aspose.Note
 linktitle: Skapa tabell med låsta kolumner med Aspose.Note
 second_title: Aspose.Note .NET API
 description: Lär dig hur du skapar tabeller med låsta kolumner med Aspose.Note för .NET. Steg-för-steg-guide för effektiva dokumenthanteringsuppgifter.
-type: docs
 weight: 12
 url: /sv/net/table-manipulation/create-table-locked-columns/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Skapa tabell med låsta kolumner med Aspose.Note
+
 ## Introduktion
 
 Att skapa tabeller med låsta kolumner är ett vanligt krav i dokumentbehandlingsapplikationer. Aspose.Note för .NET tillhandahåller kraftfulla verktyg för att utföra denna uppgift effektivt. I den här handledningen guidar vi dig genom processen att skapa en tabell med låsta kolumner steg för steg med Aspose.Note för .NET.
@@ -147,3 +153,9 @@ S4: Ja, du kan få tillgång till teknisk support via[Aspose.Note forum](https:/
 ### F5: Kan jag prova Aspose.Note för .NET innan jag köper?
 
  S5: Ja, du kan ladda ner en gratis testversion av Aspose.Note för .NET från[här](https://releases.aspose.com/) för att utvärdera dess funktioner och kompatibilitet med dina krav.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

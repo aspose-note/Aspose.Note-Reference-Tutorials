@@ -3,10 +3,16 @@ title: Outlook-Aufgabe in OneNote abrufen – Aspose.Note
 linktitle: Outlook-Aufgabe in OneNote abrufen – Aspose.Note
 second_title: Aspose.Note Java API
 description: Entdecken Sie das Potenzial von Aspose.Note für Java beim mühelosen Extrahieren von Outlook-Aufgabendetails aus OneNote-Dokumenten. Verbessern Sie Ihre Java-Entwicklung mit dieser robusten Bibliothek.
-type: docs
 weight: 10
 url: /de/java/onenote-text-manipulation/get-outlook-task/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Outlook-Aufgabe in OneNote abrufen – Aspose.Note
+
 ## Einführung
 Willkommen in der Welt von Aspose.Note für Java – einem leistungsstarken Tool, das Java-Entwicklern die nahtlose Arbeit mit Microsoft OneNote-Dateien ermöglicht. In dieser Schritt-für-Schritt-Anleitung führen wir Sie durch den Prozess des Extrahierens von Outlook-Aufgabeninformationen aus einem OneNote-Dokument mit Aspose.Note für Java.
 ## Voraussetzungen
@@ -72,3 +78,9 @@ A: Ja, Aspose.Note für Java ist mit verschiedenen Java-Frameworks kompatibel un
  A: Siehe[Aspose.Note für Java-Dokumentation](https://reference.aspose.com/note/java/) für ausführliche Informationen.
 ### F: Wie erhalte ich eine temporäre Lizenz für Aspose.Note für Java?
  A: Holen Sie sich Ihre temporäre Lizenz[Hier](https://purchase.aspose.com/temporary-license/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -3,10 +3,16 @@ title: Načíst formát souboru v Aspose.Note
 linktitle: Načíst formát souboru v Aspose.Note
 second_title: Aspose.Note .NET API
 description: Prozkoumejte Aspose.Note for .NET, výkonné rozhraní API pro programovou práci s dokumenty Microsoft OneNote.
-type: docs
 weight: 19
 url: /cs/net/loading-and-saving-operations/retrieve-file-format/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Načíst formát souboru v Aspose.Note
+
 ## Úvod
 
 Aspose.Note for .NET je výkonné rozhraní API, které umožňuje vývojářům pracovat s dokumenty Microsoft OneNote programově. Ať už potřebujete vytvářet, manipulovat nebo převádět soubory OneNote, Aspose.Note zjednodušuje proces pomocí intuitivní a komplexní sady funkcí.
@@ -83,3 +89,9 @@ A3: Ano, můžete prozkoumat možnosti Aspose.Note pomocí bezplatné zkušební
 ### Q5: Potřebuji dočasnou licenci pro účely hodnocení?
 
  A5: I když vám bezplatná zkušební verze umožňuje testovat Aspose.Note, můžete se rozhodnout pro dočasnou licenci pro rozšířené hodnocení. Návštěva[tady](https://purchase.aspose.com/temporary-license/) Více podrobností.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

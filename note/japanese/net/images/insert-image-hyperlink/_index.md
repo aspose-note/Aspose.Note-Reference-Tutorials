@@ -3,10 +3,16 @@ title: Aspose.Note にハイパーリンク付きの画像を挿入する
 linktitle: Aspose.Note にハイパーリンク付きの画像を挿入する
 second_title: Aspose.Note .NET API
 description: Aspose.Note for .NET でハイパーリンク付きの画像を簡単に挿入する方法を学びます。クリック可能な画像を使用してドキュメントの対話性を強化します。
-type: docs
 weight: 15
 url: /ja/net/images/insert-image-hyperlink/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Aspose.Note にハイパーリンク付きの画像を挿入する
+
 ## 導入
 
 Aspose.Note for .NET は、ハイパーリンク付きの画像を挿入する機能など、画像を操作するための強力な機能セットを提供します。このチュートリアルでは、Aspose.Note for .NET を使用してハイパーリンク付きの画像を挿入するプロセスを説明します。
@@ -89,3 +95,9 @@ A3: はい、Aspose.Note for .NET を使用して、色、下線、ホバー効�
 ### Q5: Aspose.Note for .NET のサポートはどこで受けられますか?
 
  A5: Aspose.Note for .NET のサポートは、[Aspose.Note フォーラム](https://forum.aspose.com/c/note/28)、質問したり、ガイダンスを求めたり、他のユーザーや専門家と交流したりできます。
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

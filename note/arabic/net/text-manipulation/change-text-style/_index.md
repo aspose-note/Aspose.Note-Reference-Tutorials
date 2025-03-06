@@ -3,10 +3,16 @@ title: تغيير نمط النص في Aspose.Note
 linktitle: تغيير نمط النص في Aspose.Note
 second_title: Aspose.Note .NET API
 description: ارفع مستوى تصميم المستند الخاص بك باستخدام Aspose.Note لـ .NET. تعرف على كيفية تغيير أنماط النص بسهولة في هذا الدليل المفصّل خطوة بخطوة. قم بتجربته مجانا!
-type: docs
 weight: 14
 url: /ar/net/text-manipulation/change-text-style/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# تغيير نمط النص في Aspose.Note
+
 ## مقدمة
 هل أنت مستعد للارتقاء بلعبة تصميم المستندات الخاصة بك باستخدام Aspose.Note لـ .NET؟ في هذا الدليل الشامل، سنرشدك خلال عملية تغيير أنماط النص دون عناء. Aspose.Note هي مكتبة قوية تمكنك من التعامل مع ملفات Microsoft OneNote برمجياً. إذا كنت حريصًا على تحسين المظهر المرئي لملاحظاتك أو مستنداتك، فتابع القراءة لاكتشاف كيفية تغيير أنماط النص بسلاسة.
 ## المتطلبات الأساسية
@@ -63,3 +69,9 @@ Console.WriteLine("\nStyle changed successfully.");
  احصل على ترخيصك المؤقت[هنا](https://purchase.aspose.com/temporary-license/).
 ### أين يمكنني شراء Aspose.Note لـ .NET؟
  يمكنك شراء Aspose.Note لـ .NET[هنا](https://purchase.aspose.com/buy).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

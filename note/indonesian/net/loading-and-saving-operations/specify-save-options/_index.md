@@ -3,10 +3,16 @@ title: Tentukan Opsi Simpan di Aspose.Note
 linktitle: Tentukan Opsi Simpan di Aspose.Note
 second_title: Aspose.Catatan .NET API
 description: Pelajari cara menentukan opsi penyimpanan di Aspose.Note untuk .NET untuk menyesuaikan format output & kualitas dokumen OneNote.
-type: docs
 weight: 30
 url: /id/net/loading-and-saving-operations/specify-save-options/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Tentukan Opsi Simpan di Aspose.Note
+
 ## Perkenalan
 
 Di bidang pengembangan .NET, Aspose.Note menonjol sebagai alat yang ampuh untuk bekerja dengan dokumen OneNote. Ia menawarkan serangkaian fitur komprehensif untuk memanipulasi dan mengelola file-file ini secara efisien. Salah satu aspek penting dalam bekerja dengan Aspose.Note adalah menentukan opsi penyimpanan, yang memungkinkan pengembang menyesuaikan format dan kualitas keluaran sesuai dengan kebutuhan mereka.
@@ -94,3 +100,9 @@ A4: Aspose.Note dirancang untuk menangani dokumen OneNote dengan berbagai ukuran
 ### Q5: Apakah Aspose.Note menawarkan dukungan dan bantuan untuk pengembang yang menghadapi masalah?
 
 A5: Ya, pengembang dapat mencari bantuan dan bantuan dari tim dukungan Aspose.Note melalui forum atau dengan menghubungi Aspose secara langsung untuk penyelesaian masalah atau pertanyaan apa pun secara tepat waktu.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

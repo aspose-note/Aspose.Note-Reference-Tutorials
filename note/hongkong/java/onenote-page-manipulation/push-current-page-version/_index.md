@@ -3,10 +3,16 @@ title: 在 OneNote 中推送目前頁面版本 - Aspose.Note
 linktitle: 在 OneNote 中推送目前頁面版本 - Aspose.Note
 second_title: Aspose.Note Java API
 description: 保持 OneNote 內容新鮮！了解更新頁面歷史記錄和管理版本，包括逐步指南和程式碼。 #OneNote #Java #Aspose
-type: docs
 weight: 18
 url: /zh-hant/java/onenote-page-manipulation/push-current-page-version/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# 在 OneNote 中推送目前頁面版本 - Aspose.Note
+
 ## 介紹
 
 在本教學中，我們將探討如何利用 Aspose.Note for Java 在 OneNote 中推送目前頁面版本。 Aspose.Note 是一個功能強大的 Java 程式庫，可讓開發人員以程式設計方式處理 Microsoft OneNote 文檔，從而實現創建、操作和轉換 OneNote 文件等各種操作。
@@ -90,3 +96,9 @@ A4：是的，Aspose.Note for Java 支援將 OneNote 檔案轉換為各種格式
 ### Q5：如果遇到任何問題，我可以在哪裡獲得 Aspose.Note for Java 的支援？
 
  A5：您可以訪問[Aspose.Note 論壇](https://forum.aspose.com/c/note/28)向社區尋求協助或直接聯繫 Aspose 支援。
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

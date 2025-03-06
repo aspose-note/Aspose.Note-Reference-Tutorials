@@ -3,10 +3,16 @@ title: Convertir un bloc-notes en PDF aplati dans OneNote - Aspose.Note
 linktitle: Convertir un bloc-notes en PDF aplati dans OneNote - Aspose.Note
 second_title: API Java Aspose.Note
 description: Convertissez facilement des blocs-notes en PDF aplatis avec Aspose.Note pour Java. Profitez d’options d’intégration et de personnalisation transparentes.
-type: docs
 weight: 16
 url: /fr/java/onenote-notebook-operations/convert-notebook-to-flattened-pdf/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Convertir un bloc-notes en PDF aplati dans OneNote - Aspose.Note
+
 ## Introduction
 
 Dans ce didacticiel, nous allons explorer comment convertir un bloc-notes au format PDF aplati à l'aide d'Aspose.Note pour Java. La conversion de blocs-notes en PDF est une exigence courante pour de nombreuses applications, et Aspose.Note simplifie ce processus grâce à son ensemble complet de fonctionnalités et à son API facile à utiliser.
@@ -82,3 +88,9 @@ A3 : Oui, vous pouvez convertir par lots plusieurs blocs-notes en PDF de mani�
 ### Q5 : Où puis-je trouver de l'assistance pour Aspose.Note pour Java ?
 
  A5 : Vous pouvez trouver du support et de l'assistance pour Aspose.Note pour Java sur le[Forum Aspose.Note](https://forum.aspose.com/c/note/28).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

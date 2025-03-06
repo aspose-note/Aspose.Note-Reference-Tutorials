@@ -3,10 +3,16 @@ title: قراءة النص المنسق من OneNote Notebook - Aspose.Note
 linktitle: قراءة النص المنسق من OneNote Notebook - Aspose.Note
 second_title: Aspose.Note جافا API
 description: تعرف على كيفية قراءة النص المنسق من دفاتر ملاحظات OneNote باستخدام Aspose.Note لـ Java. قم بتحسين تطبيقات Java الخاصة بك من خلال تكامل OneNote السلس.
-type: docs
 weight: 23
 url: /ar/java/onenote-notebook-operations/read-rich-text/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# قراءة النص المنسق من OneNote Notebook - Aspose.Note
+
 ## مقدمة
 
 في هذا البرنامج التعليمي، سوف نتعمق في كيفية استخدام Aspose.Note لـ Java لقراءة النص المنسق من دفتر ملاحظات OneNote. Aspose.Note عبارة عن واجهة برمجة تطبيقات Java قوية تتيح للمطورين العمل مع ملفات Microsoft OneNote بسلاسة. باتباع الخطوات الموضحة أدناه، ستتمكن من استخراج بيانات النص المنسق دون عناء، مما يتيح لك معالجة محتوى OneNote وتحليله بسهولة.
@@ -91,3 +97,9 @@ for (RichText richTextNode : allRichTextNodes) {
 ### س5: أين يمكنني العثور على دعم لـ Aspose.Note لـ Java؟
 
  ج5: يمكنك العثور على الدعم والمساعدة على[منتدى Aspose.Note](https://forum.aspose.com/c/note/28).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -3,10 +3,16 @@ title: OneNote'ta Çakışma Sayfası Düzenleme - Aspose.Note
 linktitle: OneNote'ta Çakışma Sayfası Düzenleme - Aspose.Note
 second_title: Aspose.Note Java API'si
 description: Aspose.Note for Java'yı kullanarak OneNote'ta çakışan sayfaları nasıl verimli bir şekilde yöneteceğinizi öğrenin. Adım adım rehberlikle çatışmaları sorunsuz bir şekilde çözün.
-type: docs
 weight: 10
 url: /tr/java/onenote-page-manipulation/conflict-page-manipulation/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# OneNote'ta Çakışma Sayfası Düzenleme - Aspose.Note
+
 ## giriiş
 
 OneNote kullanıcıları, birden fazla kullanıcı aynı sayfayı aynı anda düzenlediğinde sıklıkla çakışmalarla karşılaşır. Bu çatışmaları verimli bir şekilde çözmek, belge bütünlüğünü korumak açısından çok önemlidir. Aspose.Note for Java, çakışan sayfaların sorunsuz bir şekilde yönetilmesi için güçlü araçlar sunar. Bu eğitimde Aspose.Note for Java'yı kullanarak çakışan sayfaların nasıl değiştirileceğini inceleyeceğiz.
@@ -113,3 +119,9 @@ C4: Evet, Aspose.Note for Java, kapsamlı özelleştirme seçenekleri sunarak ç
 ### S5: Java kullanıcıları için Aspose.Note'a yönelik bir topluluk forumu var mı?
 
  A5: Kesinlikle! adresindeki canlı topluluk forumumuza katılın.[Java Desteği için Aspose.Note](https://forum.aspose.com/c/note/28)diğer kullanıcılarla bağlantı kurmak ve uzman yardımı almak için.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

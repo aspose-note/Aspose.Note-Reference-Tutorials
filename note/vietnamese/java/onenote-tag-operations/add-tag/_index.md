@@ -3,10 +3,16 @@ title: Thêm thẻ trong OneNote - Aspose.Note
 linktitle: Thêm thẻ trong OneNote - Aspose.Note
 second_title: API Java Aspose.Note
 description: Nâng cao OneNote bằng Aspose.Note cho Java. Dễ dàng thêm thẻ bằng hướng dẫn từng bước của chúng tôi. Tăng cường tổ chức và hợp tác ngay bây giờ!
-type: docs
 weight: 12
 url: /vi/java/onenote-tag-operations/add-tag/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Thêm thẻ trong OneNote - Aspose.Note
+
 ## Giới thiệu
 Bạn đang tìm cách nâng cao khả năng tổ chức và cộng tác tài liệu của mình trong OneNote bằng cách sử dụng Java? Aspose.Note for Java cung cấp một giải pháp mạnh mẽ để thêm thẻ một cách liền mạch, đảm bảo ghi chú của bạn không chỉ mang tính thông tin mà còn hấp dẫn về mặt hình ảnh. Trong hướng dẫn này, chúng tôi sẽ hướng dẫn bạn từng bước thực hiện quy trình để bạn có thể tận dụng toàn bộ tiềm năng của Aspose.Note dành cho Java.
 ## Điều kiện tiên quyết
@@ -93,3 +99,9 @@ Có, Aspose.Note for Java cung cấp tài liệu và hỗ trợ toàn diện, gi
  Nếu có bất kỳ thắc mắc hoặc trợ giúp nào, hãy truy cập[Diễn đàn Aspose.Note](https://forum.aspose.com/c/note/28).
 ### 5. Có bản dùng thử miễn phí không?
  Có, bạn có thể khám phá bản dùng thử miễn phí[đây](https://releases.aspose.com/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -3,10 +3,16 @@ title: แปลงเพจเฉพาะเป็นรูปภาพใน 
 linktitle: แปลงเพจเฉพาะเป็นรูปภาพใน Aspose.Note
 second_title: Aspose.Note .NET API
 description: เรียนรู้วิธีแปลงหน้าเฉพาะของเอกสาร Microsoft OneNote เป็นรูปภาพโดยทางโปรแกรมโดยใช้ Aspose.Note สำหรับ .NET
-type: docs
 weight: 11
 url: /th/net/loading-and-saving-operations/convert-specific-page-to-image/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# แปลงเพจเฉพาะเป็นรูปภาพใน Aspose.Note
+
 ## การแนะนำ
 
 Aspose.Note สำหรับ .NET เป็น API อันทรงพลังที่ช่วยให้นักพัฒนาสามารถทำงานกับเอกสาร Microsoft OneNote โดยทางโปรแกรม ไม่ว่าคุณจะต้องแยกเนื้อหา แปลงเอกสารเป็นรูปแบบอื่น หรือจัดการองค์ประกอบภายในไฟล์ OneNote Aspose.Note สำหรับ .NET ก็มีฟังก์ชันการทำงานที่ครอบคลุมเพื่อปรับปรุงงานของคุณ ในบทช่วยสอนนี้ เราจะสำรวจวิธีใช้ Aspose.Note สำหรับ .NET เพื่อแปลงหน้าเฉพาะของเอกสาร OneNote ให้เป็นรูปภาพ เราจะครอบคลุมข้อกำหนดเบื้องต้น นำเข้าเนมสเปซ และให้คำแนะนำทีละขั้นตอนเกี่ยวกับการนำกระบวนการแปลงไปใช้
@@ -100,3 +106,9 @@ A4: ได้ คุณสามารถตั้งค่าคุณภาพ
 ### คำถามที่ 5: ฉันจะรับการสนับสนุนสำหรับ Aspose.Note สำหรับ .NET ได้ที่ไหน
 
  A5: คุณสามารถรับการสนับสนุนจากชุมชน Aspose.Note สำหรับ .NET[ฟอรั่ม](https://forum.aspose.com/c/note/28).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -3,10 +3,16 @@ title: Spara till PDF i Aspose.Note
 linktitle: Spara till PDF i Aspose.Note
 second_title: Aspose.Note .NET API
 description: Lär dig hur du sparar Microsoft OneNote-dokument i PDF-format med Aspose.Note för .NET. Steg-för-steg handledning med kodexempel för sidlayouter i Letter och A4.
-type: docs
 weight: 26
 url: /sv/net/loading-and-saving-operations/save-to-pdf/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Spara till PDF i Aspose.Note
+
 ## Introduktion
 
 den här handledningen kommer vi att utforska hur man sparar dokument i PDF-format med Aspose.Note för .NET. Aspose.Note är ett kraftfullt bibliotek som gör det möjligt för utvecklare att arbeta med Microsoft OneNote-filer programmatiskt. Vi kommer att täcka förutsättningarna, importera namnutrymmen och tillhandahålla steg-för-steg-guider för att spara dokument till PDF i olika sidlayouter.
@@ -110,3 +116,9 @@ S1: Ja, Aspose.Note stöder olika funktioner och funktioner för att effektivt h
 ### F5: Behöver du ytterligare hjälp?
 
  S5: Ställ gärna några frågor eller sök support på Aspose.Note-forumet[här](https://forum.aspose.com/c/note/28).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

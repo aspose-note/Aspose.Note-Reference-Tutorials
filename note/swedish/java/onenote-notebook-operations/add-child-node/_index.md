@@ -3,10 +3,16 @@ title: Lägg till barnnod i OneNote Notebook - Aspose.Note
 linktitle: Lägg till barnnod i OneNote Notebook - Aspose.Note
 second_title: Aspose.Note Java API
 description: Lär dig hur du programmässigt lägger till underordnade noder till OneNote-anteckningsböcker med Aspose.Note för Java. Förbättra din anteckningsorganisation utan ansträngning.
-type: docs
 weight: 11
 url: /sv/java/onenote-notebook-operations/add-child-node/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Lägg till barnnod i OneNote Notebook - Aspose.Note
+
 ## Introduktion
 
 OneNote är ett kraftfullt verktyg för att organisera dina anteckningar och idéer. Aspose.Note för Java tillhandahåller bekväma sätt att manipulera OneNote-filer programmatiskt. I den här handledningen går vi igenom processen att lägga till en underordnad nod till en OneNote-anteckningsbok steg för steg.
@@ -89,3 +95,9 @@ S4: Ja, du kan enkelt integrera Aspose.Note för Java i dina Java-projekt genom 
 ### F5: Finns det ett gemenskapsforum där jag kan söka hjälp och vägledning för att använda Aspose.Note för Java?
 
  A5: Ja, du kan besöka[Aspose.Note forum](https://forum.aspose.com/c/note/28) att ställa frågor, dela kunskap och interagera med andra användare och experter.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

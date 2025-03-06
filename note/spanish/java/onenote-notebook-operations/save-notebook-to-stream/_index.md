@@ -3,10 +3,16 @@ title: Guardar Notebook para transmitir en OneNote - Aspose.Note
 linktitle: Guardar Notebook para transmitir en OneNote - Aspose.Note
 second_title: Aspose.Nota Java API
 description: Aprenda a guardar cuadernos en secuencias en OneNote usando Aspose.Note para Java. Aumente la productividad con una gestión eficiente de portátiles.
-type: docs
 weight: 26
 url: /es/java/onenote-notebook-operations/save-notebook-to-stream/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Guardar Notebook para transmitir en OneNote - Aspose.Note
+
 ## Introducción
 
 En este tutorial, lo guiaremos a través del proceso de guardar un cuaderno en una secuencia en OneNote usando Aspose.Note para Java. Si sigue estos pasos, podrá administrar eficientemente sus cuadernos mediante programación.
@@ -88,3 +94,9 @@ R3: ¡Absolutamente! Aspose.Note para Java proporciona capacidades de integraci�
 ### P5: ¿Existe una versión de prueba disponible de Aspose.Note para Java?
 
  R5: Sí, puedes acceder a la versión de prueba.[aquí](https://releases.aspose.com/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

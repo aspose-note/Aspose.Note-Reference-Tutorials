@@ -3,10 +3,16 @@ title: OneNote Stilleri
 linktitle: OneNote Stilleri
 second_title: Aspose.Note Java API'si
 description: Aspose.Note for Java'yı kullanarak OneNote metin stillerini değiştirme sanatını keşfedin. Adım adım eğitimlerimizde yazı tipi rengini, boyutunu ve vurgulamayı değiştirmeyi öğrenin.
-type: docs
 weight: 31
 url: /tr/java/onenote-styles/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# OneNote Stilleri
+
 
 ## giriiş
 
@@ -36,3 +42,9 @@ Aspose.Note for Java eğitimlerinin sağladığı bilgi ve uzmanlıkla donanmı�
 Aspose.Note for Java ile OneNote'ta metin stilini nasıl değiştireceğinizi öğrenin. Yazı tipi rengini, boyutunu ve vurgulamayı zahmetsizce değiştirin.
 ### [OneNote'ta Varsayılan Paragraf Stilini Ayarlama - Aspose.Note](./set-default-paragraph-style/)
 Aspose.Note for Java'yı kullanarak OneNote'ta varsayılan paragraf stillerini nasıl ayarlayacağınızı öğrenin. Java uygulamalarınızda etkili metin biçimlendirmesi için adım adım kılavuzumuzu izleyin.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

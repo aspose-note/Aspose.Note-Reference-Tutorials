@@ -3,10 +3,16 @@ title: OneNote 테이블 조작
 linktitle: OneNote 테이블 조작
 second_title: Aspose.Note 자바 API
 description: Java용 Aspose.Note로 OneNote 테이블을 향상하세요. 스타일을 변경하고, 표를 작성하고, 텍스트를 원활하게 추출하세요. 원활한 문서 작성을 위해 라이브러리를 다운로드 받으세요.
-type: docs
 weight: 32
 url: /ko/java/onenote-table-manipulation/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# OneNote 테이블 조작
+
 
 
 ## 소개
@@ -55,3 +61,9 @@ Aspose.Note를 사용하여 Java의 OneNote 테이블에서 텍스트 추출의 
 Java용 Aspose.Note를 사용하여 OneNote에 테이블을 삽입하는 방법을 알아보세요. 동적 콘텐츠 생성을 위한 단계별 가이드입니다. 손쉽게 문서를 개선하세요.
 ### [OneNote에서 셀 배경색 설정 - Aspose.Note](./setting-cell-background-color/)
 Java용 Aspose.Note를 사용하여 OneNote 문서를 쉽게 변환하세요. 셀 배경색을 손쉽게 사용자 정의하세요. 지금 무료 평가판을 사용해 보세요!
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -3,10 +3,16 @@ title: OneNote'ta Madde İşaretli Liste Oluşturma - Aspose.Note
 linktitle: OneNote'ta Madde İşaretli Liste Oluşturma - Aspose.Note
 second_title: Aspose.Note Java API'si
 description: Aspose.Note for Java'yı kullanarak OneNote'ta madde işaretli listeler oluşturmaya ilişkin adım adım kılavuzu keşfedin. Belge oluşturma sürecinizi kolaylıkla geliştirin.
-type: docs
 weight: 12
 url: /tr/java/onenote-text-manipulation/create-bulleted-list/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# OneNote'ta Madde İşaretli Liste Oluşturma - Aspose.Note
+
 ## giriiş
 Java geliştirmenin dinamik ortamında ilgi çekici ve düzenli belgeler oluşturmak çok önemlidir. Aspose.Note for Java, belge oluşturma sürecinizi geliştirmek için güçlü bir araç seti sağlar. Bu eğitim, Aspose.Note for Java'yı kullanarak OneNote'ta madde işaretli listeler oluşturma sürecinde size rehberlik edecektir. Ayrıntılara dalalım.
 ## Önkoşullar
@@ -92,3 +98,9 @@ Kesinlikle! Madde işaretli liste öğelerinin yazı tipini, rengini ve boyutunu
  Evet, ücretsiz deneme sürümünü keşfedebilirsiniz[Burada](https://releases.aspose.com/).
 ### Aspose.Note for Java için nasıl geçici lisans edinebilirim?
  Geçici lisans alın[Burada](https://purchase.aspose.com/temporary-license/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

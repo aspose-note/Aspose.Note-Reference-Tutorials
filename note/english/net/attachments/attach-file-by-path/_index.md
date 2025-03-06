@@ -3,10 +3,16 @@ title: Attach File by Path in Aspose.Note
 linktitle: Attach File by Path in Aspose.Note
 second_title: Aspose.Note .NET API
 description: Learn how to attach files to Microsoft OneNote documents programmatically using Aspose.Note for .NET. Simplify your development process with this comprehensive tutorial.
-type: docs
 weight: 11
 url: /net/attachments/attach-file-by-path/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Attach File by Path in Aspose.Note
+
 ## Introduction
 
 Aspose.Note for .NET is a powerful library that enables developers to work with Microsoft OneNote files programmatically. Whether you want to create, edit, convert, or manipulate OneNote documents, Aspose.Note for .NET provides comprehensive functionality to streamline your development process.
@@ -147,3 +153,10 @@ A4: Yes, you can avail of a free trial of Aspose.Note for .NET from the [trial p
 ### Q5: Where can I seek support for Aspose.Note for .NET?
 
 A5: You can seek support from the Aspose.Note community forums [here](https://forum.aspose.com/c/note/28).
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

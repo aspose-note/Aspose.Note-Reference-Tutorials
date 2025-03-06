@@ -3,10 +3,16 @@ title: 掌握 OneNote 整合的 Aspose.Note 許可
 linktitle: 授權
 second_title: Aspose.Note .NET API
 description: 在您的 .NET 應用程式中應用 Aspose.Note 許可證！探索嵌入資源、使用路徑、FileStream 和高效計量許可的逐步指南。
-type: docs
 weight: 20
 url: /zh-hant/net/licensing/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# 掌握 OneNote 整合的 Aspose.Note 許可
+
 ## 介紹
 
 您是正在深入研究 Aspose.Note 動態領域的 .NET 開發人員嗎？了解如何應用許可證至關重要，尤其是在使用 OneNote 檔案時。在這份內容廣泛的指南中，我們將瀏覽各種授權教程，確保無縫整合流程並使您能夠輕鬆操作 OneNote 檔案。
@@ -41,3 +47,9 @@ url: /zh-hant/net/licensing/
 了解如何在 .NET 應用程式中使用 FileStream 應用 Aspose.Note 授權以實現無縫整合。
 ### [使用 Aspose.Note 進行計量許可](./metered-licensing/)
 了解如何透過計量許可使用 Aspose.Note for .NET 高效管理軟體許可證。優化資源利用，有效控製成本。
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

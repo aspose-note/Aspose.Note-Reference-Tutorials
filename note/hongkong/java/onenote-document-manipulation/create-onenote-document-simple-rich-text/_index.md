@@ -3,10 +3,16 @@ title: 使用 Java 建立具有簡單富文本的 OneNote 文檔
 linktitle: 使用 Java 建立具有簡單富文本的 OneNote 文檔
 second_title: Aspose.Note Java API
 description: 了解如何使用 Aspose.Note Java 建立具有富文本的 OneNote 文件。將此功能整合到您的 Java 應用程式中以實現高效的文件管理。
-type: docs
 weight: 12
 url: /zh-hant/java/onenote-document-manipulation/create-onenote-document-simple-rich-text/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# 使用 Java 建立具有簡單富文本的 OneNote 文檔
+
 ## 介紹
 
 在當今的數位時代，有效管理和操作文件的需求至關重要。 Aspose.Note for Java 成為一個強大的工具，可讓開發人員在 Java 應用程式中無縫地使用 OneNote 文件。本教學課程旨在提供使用 Aspose.Note for Java 建立具有簡單富文本的 OneNote 文件的全面指南。
@@ -164,3 +170,9 @@ A4：是的，Aspose.Note for Java 可以與其他 Java 程式庫或框架無縫
 ### Q5：Aspose.Note for Java 是否提供全面的文件和支援？
 
  A5：當然，您可以在 Aspose.Note for Java 上找到詳細的文件和專門的支持[支援論壇](https://forum.aspose.com/c/note/28).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

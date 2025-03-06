@@ -3,10 +3,16 @@ title: Aspose.Note でリッチ テキストを含むドキュメントを作成
 linktitle: Aspose.Note でリッチ テキストを含むドキュメントを作成する
 second_title: Aspose.Note .NET API
 description: Aspose.Note for .NET を使用してプログラムでリッチ テキスト ドキュメントを作成する方法を学びます。コード例を含むステップバイステップのガイド。
-type: docs
 weight: 12
 url: /ja/net/loading-and-saving-operations/create-doc-with-rich-text/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Aspose.Note でリッチ テキストを含むドキュメントを作成する
+
 ## 導入
 
 .NET 開発の分野では、Aspose.Note は Microsoft OneNote ファイルをプログラムで処理するための強力なツールとして際立っています。ドキュメントの作成を自動化することを目的とする場合でも、既存のメモを操作することを目的とする場合でも、Aspose.Note は開発者に包括的な機能セットを提供します。これらの機能の中には、さまざまな書式設定オプションを備えたリッチ テキスト ドキュメントを生成する機能があります。このチュートリアルでは、Aspose.Note for .NET を使用してこのようなドキュメントを作成するプロセスを段階的に詳しく説明します。
@@ -170,3 +176,9 @@ A4: Aspose.Note は主にローカル ドキュメント処理に重点を置い
 ### Q5: Aspose.Note のその他のリソースとサポートはどこで入手できますか?
 
  A5: を探索できます。[Aspose.Note フォーラム](https://forum.aspose.com/c/note/28)コミュニティのサポートとドキュメントへのアクセスについては、[Webサイト](https://reference.aspose.com/note/net/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -3,10 +3,16 @@ title: 從 OneNote 中的表格中提取文字 - Aspose.Note
 linktitle: 從 OneNote 中的表格中提取文字 - Aspose.Note
 second_title: Aspose.Note Java API
 description: 了解如何使用 Aspose.Note for Java 輕鬆從 OneNote 中的表格中提取文字。請按照我們的逐步指南進行無縫整合。
-type: docs
 weight: 14
 url: /zh-hant/java/onenote-table-manipulation/extract-text-from-table/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# 從 OneNote 中的表格中提取文字 - Aspose.Note
+
 ## 介紹
 在 Java 開發領域，Aspose.Note 作為處理 OneNote 文件的強大工具脫穎而出。其值得注意的功能之一是能夠輕鬆地從表格中提取文字。本教程將引導您完成整個過程，分解每個步驟以確保無縫體驗。
 ## 先決條件
@@ -73,3 +79,9 @@ System.out.println(text);
 您可以在以下位置找到社區支持[Aspose.Note 論壇](https://forum.aspose.com/c/note/28).
 ### 如何購買 Aspose.Note 庫？
 您可以購買圖書館[這裡](https://purchase.aspose.com/buy).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

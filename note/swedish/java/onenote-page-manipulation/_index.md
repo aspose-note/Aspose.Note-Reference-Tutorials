@@ -3,10 +3,16 @@ title: OneNote-sidmanipulation
 linktitle: OneNote-sidmanipulation
 second_title: Aspose.Note Java API
 description: Hantera konfliktsidor, skapa organiserade dokument och spåra revisioner i OneNote med Aspose.Note för Java. Steg-för-steg handledning för effektiv dokumenthantering.
-type: docs
 weight: 29
 url: /sv/java/onenote-page-manipulation/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# OneNote-sidmanipulation
+
 
 ## Introduktion
 
@@ -74,3 +80,9 @@ Lär dig hur du går tillbaka till tidigare sidversioner i OneNote med Aspose.No
 Lär dig hur du ställer in sidans bakgrundsfärg i OneNote utan ansträngning med Aspose.Note för Java. Förbättra det visuella tilltalande av dina dokument med denna enkla handledning.
 ### [Arbeta med sidrevisioner i OneNote - Aspose.Note](./working-with-page-revisions/)
 Lär dig hur du hanterar sidrevisioner i OneNote-dokument med Aspose.Note för Java. Denna handledning ger en steg-för-steg-guide för effektiv revisionsspårning och samarbete.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

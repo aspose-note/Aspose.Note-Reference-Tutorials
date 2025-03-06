@@ -3,10 +3,16 @@ title: Thêm các nút con trong Aspose Note .NET
 linktitle: Thêm các nút con trong Aspose Note .NET
 second_title: Aspose.Note .NET API
 description: Tìm hiểu cách thêm các nút con trong Aspose Note .NET một cách dễ dàng với hướng dẫn toàn diện này. Hãy nâng cao kỹ năng thao tác tài liệu của bạn ngay bây giờ.
-type: docs
 weight: 10
 url: /vi/net/notebook-operations/add-child-nodes/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Thêm các nút con trong Aspose Note .NET
+
 ## Giới thiệu
 
 Trong hướng dẫn này, chúng ta sẽ tìm hiểu cách thêm các nút con trong Aspose Note .NET. Thêm các nút con là một thao tác cơ bản khi làm việc với các tài liệu và Aspose Note .NET cung cấp một cách đơn giản để hoàn thành nhiệm vụ này.
@@ -89,3 +95,9 @@ Chúc mừng! Bạn đã học thành công cách thêm các nút con trong Aspo
 ### Câu hỏi 5: Aspose.Note dành cho .NET có đi kèm tài liệu không?
 
  A5: Có, bạn có thể tìm thấy tài liệu chi tiết[đây](https://reference.aspose.com/note/net/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

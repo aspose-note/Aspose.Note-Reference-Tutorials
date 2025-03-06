@@ -3,10 +3,16 @@ title: Nhập tài liệu PDF vào Aspose.Note
 linktitle: Nhập tài liệu PDF vào Aspose.Note
 second_title: Aspose.Note .NET API
 description: Tìm hiểu cách nhập tài liệu PDF vào Aspose.Note cho .NET một cách dễ dàng bằng cách sử dụng nhiều tùy chọn hợp nhất khác nhau để tích hợp liền mạch.
-type: docs
 weight: 10
 url: /vi/net/import/import-pdf-documents/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Nhập tài liệu PDF vào Aspose.Note
+
 ## Giới thiệu
 
 Với số lượng lớn nội dung kỹ thuật số hiện có, việc tích hợp các tài liệu PDF vào dự án của bạn một cách liền mạch là rất quan trọng. Aspose.Note for .NET cung cấp các chức năng mạnh mẽ để nhập tài liệu PDF một cách hiệu quả. Trong hướng dẫn này, chúng ta sẽ khám phá cách nhập tài liệu PDF từng bước bằng cách sử dụng Aspose.Note cho .NET.
@@ -151,3 +157,9 @@ Câu trả lời 4: Có, Aspose.Note tương thích với .NET Core, cho phép b
 ### Câu hỏi 5: Tôi có thể tìm thêm hỗ trợ hoặc nguồn lực ở đâu?
 
  Câu trả lời 5: Để được hỗ trợ thêm, tài liệu hoặc trợ giúp cộng đồng, hãy truy cập[Diễn đàn Aspose.Note](https://forum.aspose.com/c/note/28).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

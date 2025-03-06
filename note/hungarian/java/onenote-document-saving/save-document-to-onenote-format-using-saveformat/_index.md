@@ -3,10 +3,16 @@ title: Dokumentum mentése a OneNote-ba a SaveFormat segítségével – Aspose.
 linktitle: Dokumentum mentése a OneNote-ba a SaveFormat segítségével – Aspose.Note
 second_title: Aspose.Note Java API
 description: Ismerje meg, hogyan menthet dokumentumokat OneNote formátumba az Aspose.Note for Java használatával. Kövesse ezt a lépésről lépésre bemutató oktatóanyagot a Java-alkalmazásokba való zökkenőmentes integráció érdekében.
-type: docs
 weight: 12
 url: /hu/java/onenote-document-saving/save-document-to-onenote-format-using-saveformat/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Dokumentum mentése a OneNote-ba a SaveFormat segítségével – Aspose.Note
+
 ## Bevezetés
 
 Az Aspose.Note for Java egy hatékony könyvtár, amely lehetővé teszi a fejlesztők számára, hogy programozottan dolgozzanak Microsoft OneNote fájlokkal. A dokumentum OneNote formátumba mentése a SaveFormat használatával egyszerű folyamat. Ebben az oktatóanyagban végigvezetjük a feladat végrehajtásához szükséges lépéseket.
@@ -78,3 +84,9 @@ Ebben az oktatóanyagban megtanultuk, hogyan menthet dokumentumot OneNote formá
 ### 5. kérdés: Rendelkezésre áll ideiglenes licenc lehetőség az Aspose.Note for Java számára?
 
  5. válasz: Igen, beszerezhet egy ideiglenes licencet az Aspose.Note for Java számára a következőtől:[itt](https://purchase.aspose.com/temporary-license/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

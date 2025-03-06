@@ -3,10 +3,16 @@ title: Aspose.Note 텍스트에서 글머리 기호 또는 번호 목록 검색
 linktitle: Aspose.Note 텍스트에서 글머리 기호 또는 번호 목록 검색
 second_title: Aspose.Note .NET API
 description: 글머리 기호 또는 번호 목록 검색에 대한 단계별 가이드를 통해 .NET용 Aspose.Note의 잠재력을 활용해 보세요. OneNote 문서 조작 기술을 향상해보세요!
-type: docs
 weight: 23
 url: /ko/net/text-manipulation/retrieve-bullet-number-list/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Aspose.Note 텍스트에서 글머리 기호 또는 번호 목록 검색
+
 ## 소개
 개발자가 OneNote 문서 조작을 쉽게 처리할 수 있도록 지원하는 강력하고 다재다능한 라이브러리인 .NET용 Aspose.Note의 세계에 오신 것을 환영합니다. 이 튜토리얼에서는 .NET용 Aspose.Note를 사용하여 글머리 기호 또는 번호 목록을 검색하는 프로세스를 자세히 살펴보겠습니다. 당신이 노련한 개발자이든 코딩 매니아이든 관계없이 이 가이드는 Aspose.Note에서 목록 작업의 복잡성을 탐색할 수 있는 지식을 제공합니다.
 ## 전제조건
@@ -87,3 +93,9 @@ Aspose.Note는 주로 .NET을 지원하지만 다양한 플랫폼과 언어에 �
 다음에서 탐색하고 도움을 구할 수 있습니다.[Aspose.Note 포럼](https://forum.aspose.com/c/note/28) 귀하가 직면할 수 있는 모든 질문이나 문제에 대해.
 ### .NET용 Aspose.Note의 무료 평가판이 있습니까?
  예, .NET용 Aspose.Note의 무료 평가판 버전에 액세스할 수 있습니다.[여기](https://releases.aspose.com/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

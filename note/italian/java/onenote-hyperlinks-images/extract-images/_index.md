@@ -3,10 +3,16 @@ title: Estrai immagini da un documento OneNote utilizzando Java
 linktitle: Estrai immagini da un documento OneNote utilizzando Java
 second_title: Aspose.Note API Java
 description: Scopri come estrarre immagini da documenti OneNote utilizzando Java con la libreria Aspose.Note. Segui la nostra guida passo passo per un'estrazione delle immagini senza interruzioni.
-type: docs
 weight: 14
 url: /it/java/onenote-hyperlinks-images/extract-images/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Estrai immagini da un documento OneNote utilizzando Java
+
 ## introduzione
 
 In questo tutorial ti guideremo attraverso il processo di estrazione delle immagini da un documento OneNote utilizzando Java con l'aiuto della libreria Aspose.Note.
@@ -89,3 +95,9 @@ A4: Aspose.Note gestisce documenti di varie dimensioni in modo efficiente, garan
 ### Q5: Aspose.Note supporta l'estrazione di altri tipi di contenuto oltre alle immagini?
 
 A5: Sì, oltre alle immagini, Aspose.Note consente l'estrazione di testo, allegati e altri tipi di contenuto dai documenti OneNote.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

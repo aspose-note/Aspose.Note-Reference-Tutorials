@@ -3,10 +3,16 @@ title: Získejte informace o stránkách ve OneNotu – Aspose.Note
 linktitle: Získejte informace o stránkách ve OneNotu – Aspose.Note
 second_title: Aspose.Note Java API
 description: Odhalte tajemství stránky ve svých dokumentech OneNotu! Extrahujte revize, časy vytvoření a další pomocí Aspose.Note. Včetně průvodce a kódu krok za krokem! #OneNote #Java #Aspose
-type: docs
 weight: 12
 url: /cs/java/onenote-page-manipulation/get-information-about-pages/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Získejte informace o stránkách ve OneNotu – Aspose.Note
+
 ## Úvod
 
 tomto kurzu vás provedeme procesem extrahování informací o stránkách ve OneNotu pomocí Aspose.Note pro Java. Aspose.Note je výkonné API, které vám umožňuje pracovat s dokumenty Microsoft OneNote programově. Ať už potřebujete přístup k revizím stránek, časům vytvoření, názvům nebo autorům, Aspose.Note zjednodušuje úkol svým intuitivním rozhraním.
@@ -90,3 +96,9 @@ Odpověď 4: Ano, Aspose poskytuje vyhrazenou technickou podporu, která pomáh�
 ### Q5: Je k dispozici zkušební verze pro Aspose.Note pro Java?
 
  A5: Ano, můžete si stáhnout bezplatnou zkušební verzi Aspose.Note pro Java z[tady](https://releases.aspose.com/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

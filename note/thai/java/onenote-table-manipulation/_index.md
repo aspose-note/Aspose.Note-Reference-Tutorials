@@ -3,10 +3,16 @@ title: การจัดการตาราง OneNote
 linktitle: การจัดการตาราง OneNote
 second_title: Aspose.Note Java API
 description: ปรับปรุงตาราง OneNote ของคุณด้วย Aspose.Note สำหรับ Java เปลี่ยนสไตล์ เขียนตาราง แยกข้อความได้อย่างลงตัว ดาวน์โหลดไลบรารีเพื่อการสร้างเอกสารที่ราบรื่น
-type: docs
 weight: 32
 url: /th/java/onenote-table-manipulation/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# การจัดการตาราง OneNote
+
 
 
 ## การแนะนำ
@@ -55,3 +61,9 @@ url: /th/java/onenote-table-manipulation/
 เรียนรู้วิธีแทรกตารางใน OneNote โดยใช้ Aspose.Note สำหรับ Java คำแนะนำทีละขั้นตอนสำหรับการสร้างเนื้อหาแบบไดนามิก ปรับปรุงเอกสารของคุณได้อย่างง่ายดาย
 ### [การตั้งค่าสีพื้นหลังของเซลล์ใน OneNote - Aspose.Note](./setting-cell-background-color/)
 แปลงเอกสาร OneNote ได้อย่างง่ายดายโดยใช้ Aspose.Note สำหรับ Java ปรับแต่งสีพื้นหลังของเซลล์ได้อย่างง่ายดาย ลองทดลองใช้ฟรีทันที!
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

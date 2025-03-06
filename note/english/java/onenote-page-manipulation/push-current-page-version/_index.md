@@ -3,10 +3,16 @@ title: Push Current Page Version in OneNote - Aspose.Note
 linktitle: Push Current Page Version in OneNote - Aspose.Note
 second_title: Aspose.Note Java API
 description: Keep OneNote content fresh! Learn to update page history & manage versions, step-by-step guide & code included. #OneNote #Java #Aspose
-type: docs
 weight: 18
 url: /java/onenote-page-manipulation/push-current-page-version/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Push Current Page Version in OneNote - Aspose.Note
+
 ## Introduction
 
 In this tutorial, we'll explore how to utilize Aspose.Note for Java to push the current page version in OneNote. Aspose.Note is a powerful Java library that allows developers to work with Microsoft OneNote documents programmatically, enabling various operations such as creating, manipulating, and converting OneNote files.
@@ -90,3 +96,10 @@ A4: Yes, Aspose.Note for Java supports converting OneNote files to various forma
 ### Q5: Where can I get support for Aspose.Note for Java if I encounter any issues?
 
 A5: You can visit the [Aspose.Note forum](https://forum.aspose.com/c/note/28) to seek assistance from the community or contact Aspose support directly.
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

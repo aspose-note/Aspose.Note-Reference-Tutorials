@@ -3,10 +3,16 @@ title: Převést notebooky na obrázek (zploštěný) v Aspose Note .NET
 linktitle: Převést notebooky na obrázek (zploštěný) v Aspose Note .NET
 second_title: Aspose.Note .NET API
 description: Přečtěte si, jak převést poznámkové bloky OneNote na sloučené obrázky pomocí Aspose.Note pro .NET. Podrobný průvodce pro bezproblémovou integraci.
-type: docs
 weight: 12
 url: /cs/net/notebook-operations/convert-to-image-flattened/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Převést notebooky na obrázek (zploštěný) v Aspose Note .NET
+
 ## Úvod
 
 V tomto tutoriálu se naučíme, jak používat Aspose.Note pro .NET k převodu poznámkových bloků na sloučené obrázky. Tento proces rozdělíme do jednoduchých kroků, které vám pomohou jej pochopit a efektivně implementovat.
@@ -93,3 +99,9 @@ Odpověď 1: Ano, Aspose.Note pro .NET je schopen efektivně zpracovávat složi
 ### Q5: Kde najdu dokumentaci k Aspose.Note pro .NET?
 
  A5: Můžete najít dokumentaci[tady](https://reference.aspose.com/note/net/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

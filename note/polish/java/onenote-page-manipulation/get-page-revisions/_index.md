@@ -3,10 +3,16 @@ title: Pobierz wersje strony w programie OneNote — Aspose.Note
 linktitle: Pobierz wersje strony w programie OneNote — Aspose.Note
 second_title: Aspose.Note API Java
 description: Dowiedz się, jak pobrać wersje stron w programie OneNote przy użyciu programu Aspose.Note dla języka Java. Postępuj zgodnie z naszym przewodnikiem krok po kroku, aby skutecznie śledzić zmiany.
-type: docs
 weight: 14
 url: /pl/java/onenote-page-manipulation/get-page-revisions/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Pobierz wersje strony w programie OneNote — Aspose.Note
+
 ## Wstęp
 
 OneNote to potężne narzędzie do porządkowania notatek i zarządzania nimi, ale czasami trzeba śledzić zmiany i poprawki wprowadzone na stronach. Dzięki Aspose.Note dla Java możesz łatwo programowo pobierać wersje stron. W tym samouczku przeprowadzimy Cię przez proces uzyskiwania wersji stron w programie OneNote przy użyciu programu Aspose.Note dla języka Java.
@@ -107,3 +113,9 @@ O3: Tak, musisz kupić licencję, aby używać Aspose.Note dla Java w projektach
 ### P5: Czy dostępna jest bezpłatna wersja próbna Aspose.Note dla Java?
 
  O5: Tak, możesz uzyskać dostęp do bezpłatnej wersji próbnej Aspose.Note dla Java z poziomu[strona internetowa](https://releases.aspose.com/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

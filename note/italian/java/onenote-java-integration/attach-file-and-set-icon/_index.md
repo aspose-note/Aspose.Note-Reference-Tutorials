@@ -3,10 +3,16 @@ title: Allega file e imposta icona in OneNote utilizzando Java
 linktitle: Allega file e imposta icona in OneNote utilizzando Java
 second_title: Aspose.Note API Java
 description: Potenzia il tuo flusso di lavoro OneNote! Scopri come allegare file e personalizzare le icone a livello di codice in Java con Aspose.Note. Semplici passaggi e codice inclusi! #OneNote #Java #Aspose
-type: docs
 weight: 10
 url: /it/java/onenote-java-integration/attach-file-and-set-icon/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Allega file e imposta icona in OneNote utilizzando Java
+
 ## introduzione
 
 OneNote è uno strumento popolare per prendere appunti e organizzare informazioni e, con l'aiuto di Aspose.Note per Java, puoi migliorare le sue capacità allegando file a livello di codice e impostando icone per migliorare la rappresentazione visiva delle tue note. In questo tutorial ti guideremo attraverso il processo passo dopo passo.
@@ -149,3 +155,10 @@ R3: Assolutamente sì, puoi scegliere icone personalizzate per rappresentare div
 ### Q5: È disponibile una versione di prova per Aspose.Note per Java?
 
 A5: Sì, puoi esplorare la funzionalità di Aspose.Note per Java con una prova gratuita disponibile su[questo link](https://releases.aspose.com/).
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

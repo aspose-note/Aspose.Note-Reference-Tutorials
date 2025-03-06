@@ -3,10 +3,16 @@ title: Aspose.Note を使用して会議メモのテンプレートを生成す�
 linktitle: Aspose.Note を使用して会議メモのテンプレートを生成する
 second_title: Aspose.Note .NET API
 description: Aspose.Note for .NET を使用して構造化された会議メモを生成する方法を学びます。このチュートリアルでは、コード例を含むステップバイステップのガイドを提供します。
-type: docs
 weight: 13
 url: /ja/net/tag-management/generate-template-meeting-notes/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Aspose.Note を使用して会議メモのテンプレートを生成する
+
 ## 導入
 
 このチュートリアルでは、Aspose.Note for .NET を使用して会議メモのテンプレートを生成するプロセスを説明します。このライブラリは、OneNote ドキュメントをプログラムで作成、編集、操作するための強力なツールを提供します。
@@ -126,3 +132,9 @@ A4: はい、Aspose.Note for .NET は、OneNote (*.one）とPDF。
 
  A5: はい、以下から無料トライアルをダウンロードできます。[このリンク](https://releases.aspose.com/).
    
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

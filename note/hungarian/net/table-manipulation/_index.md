@@ -3,10 +3,16 @@ title: Táblázatok elsajátítása a OneNote integrációval
 linktitle: Táblázat manipuláció
 second_title: Aspose.Note .NET API
 description: Hozzon létre tetszetős dokumentumokat az Aspose.Note for .NET segítségével! Fedezze fel a táblázatkezeléssel kapcsolatos oktatóanyagokat – stílusok módosítása, táblázatok összeállítása, szöveg kibontása stb.
-type: docs
 weight: 29
 url: /hu/net/table-manipulation/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Táblázatok elsajátítása a OneNote integrációval
+
 
 ## Bevezetés
 
@@ -62,3 +68,9 @@ Ismerje meg, hogyan bonthat ki szöveget az Aspose.Note táblázataiból a C# ha
 Tanuljon meg táblázatokat beszúrni a Note dokumentumokba az Aspose.Note for .NET segítségével. Az adatok zökkenőmentes rendszerezése a jobb olvashatóság és megjelenítés érdekében.
 ### [Állítsa be a cella háttérszínét az Aspose.Note táblázatokban](./set-cell-background-color/)
 Ismerje meg, hogyan állíthatja be a cella háttérszínét az Aspose.Note táblázatokban a lépésenkénti útmutató segítségével. Javítsa a dokumentumok látványvilágát könnyedén.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

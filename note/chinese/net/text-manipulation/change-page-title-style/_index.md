@@ -3,10 +3,16 @@ title: 在 Aspose.Note 中更改页面标题样式
 linktitle: 在 Aspose.Note 中更改页面标题样式
 second_title: Aspose.Note .NET API
 description: 使用 Aspose.Note 转换您的 .NET 文档！学习轻松更改页面标题样式。只需几个简单的步骤即可提升美观度。
-type: docs
 weight: 13
 url: /zh/net/text-manipulation/change-page-title-style/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# 在 Aspose.Note 中更改页面标题样式
+
 ## 介绍
 您是否希望通过动态页面标题样式来提升 .NET 文档的视觉吸引力？ Aspose.Note for .NET 提供了一个无缝的解决方案，使您可以轻松更改页面标题的样式。在本教程中，我们将逐步指导您完成整个过程，确保您可以轻松地增强文档的美观性。
 ## 先决条件
@@ -70,3 +76,9 @@ Console.WriteLine("\nTitle's styles are changed successfully.");
 您可以购买 Aspose.Note 的许可证[这里](https://purchase.aspose.com/buy).
 ### 我需要临时许可证才能进行测试吗？
 是的，如果您正在测试 Aspose.Note，您可以获得临时许可证[这里](https://purchase.aspose.com/temporary-license/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

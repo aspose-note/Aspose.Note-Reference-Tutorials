@@ -3,10 +3,16 @@ title: Aspose.Note per collegamento ipertestuale .NET e integrazione OneNote
 linktitle: Collegamenti ipertestuali
 second_title: Aspose.Note API .NET
 description: Impara a potenziare l'interattività nei documenti Aspose.Note! Scopri tutorial sull'aggiunta di collegamenti ipertestuali con Aspose.Note per .NET, migliorando il coinvolgimento del tuo documento.
-type: docs
 weight: 22
 url: /it/net/hyperlinks/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Aspose.Note per collegamento ipertestuale .NET e integrazione OneNote
+
 ## introduzione
 
 Nel regno di Aspose.Note per .NET, la possibilità di aggiungere collegamenti ipertestuali ai tuoi documenti è un punto di svolta. Aumenta l'interattività e il coinvolgimento del tuo documento seguendo i nostri tutorial passo passo.
@@ -45,3 +51,9 @@ In conclusione, Aspose.Note per .NET apre un mondo di possibilità per l'interat
 ## Tutorial sui collegamenti ipertestuali
 ### [Aggiungi collegamenti ipertestuali nei documenti Aspose.Note](./add-hyperlinks/)
 Scopri come aggiungere collegamenti ipertestuali ai documenti Aspose.Note utilizzando Aspose.Note per .NET. Migliora l'interattività dei documenti con questo tutorial passo passo.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

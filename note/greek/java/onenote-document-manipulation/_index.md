@@ -3,10 +3,16 @@ title: Χειρισμός εγγράφων OneNote
 linktitle: Χειρισμός εγγράφων OneNote
 second_title: Aspose.Note Java API
 description: Δημιουργήστε, χειριστείτε και αυτοματοποιήστε έγγραφα OneNote σε Java με το Aspose.Note. Βήμα-βήμα εκμάθηση για το Document Visitor, μορφοποιημένο εμπλουτισμένο κείμενο και δημιουργία εμπλουτισμένου κειμένου.
-type: docs
 weight: 21
 url: /el/java/onenote-document-manipulation/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Χειρισμός εγγράφων OneNote
+
 
 ## Εισαγωγή
 
@@ -29,3 +35,9 @@ url: /el/java/onenote-document-manipulation/
 Μάθετε πώς να δημιουργείτε έγγραφα OneNote με πλούσια μορφοποίηση μέσω προγραμματισμού σε Java χρησιμοποιώντας το Aspose.Note για Java. Ακολουθήστε τον βήμα προς βήμα οδηγό μας για απρόσκοπτη αυτοματοποίηση εγγράφων.
 ### [Δημιουργήστε ένα έγγραφο OneNote με απλό εμπλουτισμένο κείμενο σε Java](./create-onenote-document-simple-rich-text/)
 Μάθετε πώς να δημιουργείτε έγγραφα OneNote με απλό εμπλουτισμένο κείμενο χρησιμοποιώντας το Aspose.Note για Java. Ενσωματώστε απρόσκοπτα αυτή τη λειτουργία στις εφαρμογές σας Java για αποτελεσματική διαχείριση εγγράφων.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

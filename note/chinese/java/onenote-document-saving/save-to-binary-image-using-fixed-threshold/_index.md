@@ -3,10 +3,16 @@ title: 在 OneNote 中使用固定阈值保存到二进制图像
 linktitle: 在 OneNote 中使用固定阈值保存到二进制图像
 second_title: Aspose.Note Java API
 description: 使用 Aspose.Note Java 的固定阈值轻松将 Microsoft OneNote 文档保存为二进制图像。提升您的 OneNote 文件操作能力。
-type: docs
 weight: 14
 url: /zh/java/onenote-document-saving/save-to-binary-image-using-fixed-threshold/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# 在 OneNote 中使用固定阈值保存到二进制图像
+
 ## 介绍
 
 Aspose.Note for Java 是一个功能强大的 API，允许开发人员以编程方式使用 Microsoft OneNote 文件。在本教程中，我们将探讨如何使用固定阈值将文档保存为二进制图像。请按照以下步骤来实现此目的。
@@ -91,3 +97,9 @@ A4：是的，您可以通过迭代每个文件并应用必要的操作来批量
 ### Q5：Aspose.Note for Java 是否提供技术支持？
 
  A5：是的，可以通过以下方式获得技术支持：[Aspose.Note 论坛](https://forum.aspose.com/c/note/28)，您可以在这里提出问题并寻求专家的帮助。
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

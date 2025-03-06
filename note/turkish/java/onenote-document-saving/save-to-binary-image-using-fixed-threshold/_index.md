@@ -3,10 +3,16 @@ title: OneNote'ta Sabit Eşiği Kullanarak İkili Görüntüye Kaydetme
 linktitle: OneNote'ta Sabit Eşiği Kullanarak İkili Görüntüye Kaydetme
 second_title: Aspose.Note Java API'si
 description: Aspose.Note Java ile sabit eşiği kullanarak Microsoft OneNote belgelerini ikili görüntüler olarak zahmetsizce kaydedin. OneNote dosya işleme yeteneklerinizi yükseltin.
-type: docs
 weight: 14
 url: /tr/java/onenote-document-saving/save-to-binary-image-using-fixed-threshold/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# OneNote'ta Sabit Eşiği Kullanarak İkili Görüntüye Kaydetme
+
 ## giriiş
 
 Aspose.Note for Java, geliştiricilerin Microsoft OneNote dosyalarıyla programlı olarak çalışmasına olanak tanıyan güçlü bir API'dir. Bu eğitimde, bir belgenin sabit bir eşik kullanarak ikili görüntü olarak nasıl kaydedileceğini inceleyeceğiz. Bunu başarmak için aşağıdaki adımları izleyin.
@@ -91,3 +97,9 @@ C4: Evet, her dosya üzerinde yineleyerek ve gerekli işlemleri uygulayarak bird
 ### S5: Aspose.Note for Java için teknik destek mevcut mu?
 
  A5: Evet, teknik destek şu adresten mevcuttur:[Aspose.Note forumu](https://forum.aspose.com/c/note/28)Soru sorabileceğiniz ve uzmanlardan yardım alabileceğiniz yer.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

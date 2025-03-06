@@ -3,10 +3,16 @@ title: Ambil File Terlampir dengan Aspose.Note
 linktitle: Ambil File Terlampir dengan Aspose.Note
 second_title: Aspose.Catatan .NET API
 description: Pelajari cara mengambil file lampiran dari dokumen Microsoft OneNote menggunakan Aspose.Note untuk .NET. Ikuti langkah-langkah untuk memuat, mendapatkan node, dan melakukan iterasi melalui lampiran.
-type: docs
 weight: 12
 url: /id/net/attachments/retrieve-attached-files/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Ambil File Terlampir dengan Aspose.Note
+
 ## Perkenalan
 
 Dalam tutorial ini, kita akan mempelajari cara mengambil file lampiran dari dokumen menggunakan Aspose.Note untuk .NET. Aspose.Note adalah API canggih yang memungkinkan pengembang bekerja dengan file Microsoft OneNote secara terprogram. Kami akan membagi prosesnya menjadi beberapa langkah sederhana agar mudah diikuti.
@@ -90,3 +96,9 @@ A4: Ya, Anda dapat memanfaatkan uji coba gratis Aspose.Note untuk menjelajahi fi
 ### Q5: Bagaimana cara mendapatkan lisensi sementara untuk Aspose.Note?
 
 A5: Anda dapat meminta lisensi sementara dari Aspose untuk mengevaluasi kemampuan penuh API di lingkungan pengembangan Anda.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

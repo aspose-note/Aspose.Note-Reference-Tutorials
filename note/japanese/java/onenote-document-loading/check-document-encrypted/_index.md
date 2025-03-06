@@ -3,10 +3,16 @@ title: OneNote ドキュメントが暗号化されているかどうかを確�
 linktitle: OneNote ドキュメントが暗号化されているかどうかを確認する - Java
 second_title: Aspose.Note Java API
 description: Aspose.Note を使用して Java で OneNote ドキュメントが暗号化されているかどうかを確認する方法を学習します。効率的に文書を処理するには、ステップバイステップのガイドに従ってください。
-type: docs
 weight: 10
 url: /ja/java/onenote-document-loading/check-document-encrypted/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# OneNote ドキュメントが暗号化されているかどうかを確認する - Java
+
 ## 導入
 
 Java で OneNote ドキュメントを操作する場合、処理前にドキュメントが暗号化されていないことを確認することが重要です。ドキュメントを暗号化すると、セキュリティ層がさらに強化されますが、正しく処理されないと処理手順が複雑になる可能性もあります。このチュートリアルでは、Aspose.Note for Java を使用して OneNote ドキュメントが暗号化されているかどうかを確認するプロセスを説明します。
@@ -116,3 +122,9 @@ A4: いいえ、Aspose.Note は OneNote ドキュメントのみを操作する�
 ### Q5: Aspose.Note for Java のその他のリソースとサポートはどこで入手できますか?
 
  A5: をご覧いただけます。[Aspose.Note フォーラム](https://forum.aspose.com/c/note/28)コミュニティのサポートとドキュメントのために。
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

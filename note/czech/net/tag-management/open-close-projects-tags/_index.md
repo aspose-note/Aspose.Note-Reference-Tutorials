@@ -3,10 +3,16 @@ title: Otevřít a zavřít projekty pomocí značek v Aspose.Note
 linktitle: Otevřít a zavřít projekty pomocí značek v Aspose.Note
 second_title: Aspose.Note .NET API
 description: Naučte se, jak programově manipulovat se soubory Microsoft OneNote pomocí Aspose.Note pro .NET. Efektivně otevírejte a zavírejte projekty pomocí značek.
-type: docs
 weight: 15
 url: /cs/net/tag-management/open-close-projects-tags/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Otevřít a zavřít projekty pomocí značek v Aspose.Note
+
 ## Úvod
 
 tomto tutoriálu se naučíme, jak používat Aspose.Note pro .NET k otevírání a zavírání projektů pomocí značek. Aspose.Note je výkonné rozhraní API, které umožňuje vývojářům pracovat se soubory Microsoft OneNote programově, což umožňuje úkoly, jako je manipulace s textem, obrázky a tagy v dokumentech.
@@ -112,3 +118,9 @@ Odpověď 1: Aspose.Note podporuje Microsoft OneNote 2010 a novější verze.
 ### Q5: Kde mohu získat podporu pro Aspose.Note?
 
  A5: Pro podporu můžete navštívit Aspose.Note[Fórum](https://forum.aspose.com/c/note/28).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

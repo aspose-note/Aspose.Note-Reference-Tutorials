@@ -3,10 +3,16 @@ title: Recupera l'elenco puntato o numerico nel testo Aspose.Note
 linktitle: Recupera l'elenco puntato o numerico nel testo Aspose.Note
 second_title: Aspose.Note API .NET
 description: Sblocca il potenziale di Aspose.Note per .NET con la nostra guida passo passo sul recupero di elenchi puntati o numerici. Migliora le tue capacità di manipolazione dei documenti OneNote!
-type: docs
 weight: 23
 url: /it/net/text-manipulation/retrieve-bullet-number-list/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Recupera l'elenco puntato o numerico nel testo Aspose.Note
+
 ## introduzione
 Benvenuti nel mondo di Aspose.Note per .NET, una libreria robusta e versatile che consente agli sviluppatori di gestire la manipolazione dei documenti OneNote senza sforzo. In questo tutorial, approfondiremo il processo di recupero di elenchi puntati o numerici utilizzando Aspose.Note per .NET. Che tu sia uno sviluppatore esperto o un appassionato di codifica, questa guida ti fornirà le conoscenze per navigare attraverso le complessità del lavoro con gli elenchi in Aspose.Note.
 ## Prerequisiti
@@ -87,3 +93,9 @@ Sì, Aspose.Note supporta un'ampia gamma di formati OneNote, garantendo la compa
 Puoi esplorare e chiedere assistenza in[Forum Aspose.Note](https://forum.aspose.com/c/note/28) per qualsiasi domanda o problema che potresti incontrare.
 ### Esiste una versione di prova gratuita di Aspose.Note per .NET?
  Sì, puoi accedere alla versione di prova gratuita di Aspose.Note per .NET[Qui](https://releases.aspose.com/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

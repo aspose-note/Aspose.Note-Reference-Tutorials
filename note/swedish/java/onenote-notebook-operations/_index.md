@@ -3,10 +3,16 @@ title: OneNote Notebook Operations
 linktitle: OneNote Notebook Operations
 second_title: Aspose.Note Java API
 description: Lås upp den fulla potentialen hos Aspose.Note för Java med våra OneNote Notebook Operations Tutorials. Ge en steg-för-steg-guide för att förbättra dina Java-appar.
-type: docs
 weight: 28
 url: /sv/java/onenote-notebook-operations/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# OneNote Notebook Operations
+
 
 ## Introduktion
 
@@ -66,3 +72,9 @@ Lär dig hur du hämtar dokument från OneNote Notebook med Aspose.Note för Jav
 Lär dig hur du sparar anteckningsböcker till strömmar i OneNote med Aspose.Note för Java. Öka produktiviteten med effektiv hantering av bärbara datorer.
 ### [Skriv lösenordsskyddat dokument i OneNote - Aspose.Note](./write-password-protected-document/)
 Lär dig hur du skriver lösenordsskyddade dokument i OneNote med Aspose.Note för Java. Säkerställ säkerhet med lätta att följa steg.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

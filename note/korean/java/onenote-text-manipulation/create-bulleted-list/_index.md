@@ -3,10 +3,16 @@ title: OneNote에서 글머리 기호 목록 만들기 - Aspose.Note
 linktitle: OneNote에서 글머리 기호 목록 만들기 - Aspose.Note
 second_title: Aspose.Note 자바 API
 description: Java용 Aspose.Note를 사용하여 OneNote에서 글머리 기호 목록을 만드는 방법에 대한 단계별 가이드를 살펴보세요. 쉽게 문서 작성 수준을 높이세요.
-type: docs
 weight: 12
 url: /ko/java/onenote-text-manipulation/create-bulleted-list/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# OneNote에서 글머리 기호 목록 만들기 - Aspose.Note
+
 ## 소개
 Java 개발의 역동적인 환경에서는 매력적이고 체계적인 문서를 만드는 것이 필수적입니다. Aspose.Note for Java는 문서 생성 프로세스를 향상시키는 강력한 도구 세트를 제공합니다. 이 튜토리얼은 Java용 Aspose.Note를 사용하여 OneNote에서 글머리 기호 목록을 만드는 과정을 안내합니다. 자세한 내용을 살펴보겠습니다.
 ## 전제조건
@@ -92,3 +98,9 @@ Aspose.Note for Java는 올바른 형식의 문서를 만드는 과정을 단순
  예, 무료 평가판을 사용해 볼 수 있습니다[여기](https://releases.aspose.com/).
 ### Aspose.Note for Java의 임시 라이선스를 어떻게 얻을 수 있나요?
  임시 라이센스 받기[여기](https://purchase.aspose.com/temporary-license/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

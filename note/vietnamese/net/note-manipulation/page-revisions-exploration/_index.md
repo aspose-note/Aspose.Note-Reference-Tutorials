@@ -3,10 +3,16 @@ title: Khám phá các bản sửa đổi trang trong tài liệu Aspose.Note
 linktitle: Khám phá các bản sửa đổi trang trong tài liệu Aspose.Note
 second_title: Aspose.Note .NET API
 description: Tìm hiểu cách khám phá các bản sửa đổi trang trong tài liệu Aspose.Note bằng .NET framework với hướng dẫn từng bước.
-type: docs
 weight: 14
 url: /vi/net/note-manipulation/page-revisions-exploration/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Khám phá các bản sửa đổi trang trong tài liệu Aspose.Note
+
 ## Giới thiệu
 
 Trong hướng dẫn này, chúng ta sẽ đi sâu vào khám phá các bản sửa đổi trang trong tài liệu Aspose.Note bằng cách sử dụng .NET framework. Aspose.Note là một thư viện mạnh mẽ cho phép các nhà phát triển làm việc với các tệp Microsoft OneNote theo chương trình, cung cấp nhiều tính năng khác nhau để thao tác và trích xuất dữ liệu từ các tệp này.
@@ -88,3 +94,9 @@ Câu trả lời 3: Có, bạn có thể tải xuống bản dùng thử miễn 
 ### Câu hỏi 5: Tôi có thể tìm hỗ trợ cho Aspose.Note cho .NET ở đâu?
 
  Câu trả lời 5: Bạn có thể tìm thấy sự hỗ trợ và tài nguyên trên[Diễn đàn Aspose.Note](https://forum.aspose.com/c/note/28).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -3,10 +3,16 @@ title: Получить текст ячейки из строки таблицы
 linktitle: Получить текст ячейки из строки таблицы в OneNote — Aspose.Note
 second_title: Aspose.Note Java API
 description: Раскройте секреты извлечения текста из таблиц OneNote на Java с помощью Aspose.Note. Следуйте нашему пошаговому руководству, чтобы улучшить свои навыки обработки документов.
-type: docs
 weight: 15
 url: /ru/java/onenote-table-manipulation/get-cell-text-from-row/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Получить текст ячейки из строки таблицы в OneNote — Aspose.Note
+
 ## Введение
 Отправьтесь в путешествие в область разработки Java, разгадав процесс извлечения текста из строк таблицы OneNote с помощью мощной библиотеки Aspose.Note. Это пошаговое руководство даст вам навыки эффективной навигации и манипулирования текстом в таблицах.
 ## Предварительные условия
@@ -73,3 +79,9 @@ for (Table table : nodes) {
  Присоединяйтесь к активному сообществу Aspose.Note по адресу[форум](https://forum.aspose.com/c/note/28) за обсуждения и помощь.
 ### Доступны ли образцы документов для целей тестирования?
 Погрузитесь в документацию Aspose.Note и найдите сокровищницу примеров документов и фрагментов кода.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

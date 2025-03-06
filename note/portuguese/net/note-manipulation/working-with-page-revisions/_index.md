@@ -3,10 +3,16 @@ title: Dominando as revisões de páginas em documentos do OneNote
 linktitle: Dominando as revisões de páginas em documentos do OneNote
 second_title: API Aspose.Note .NET
 description: Aprenda a gerenciar revisões de páginas do Microsoft OneNote com Aspose.Note. Guia passo a passo para integração perfeita e controle de versão em seus aplicativos .NET.
-type: docs
 weight: 20
 url: /pt/net/note-manipulation/working-with-page-revisions/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Dominando as revisões de páginas em documentos do OneNote
+
 ## Introdução
 
 No domínio do desenvolvimento .NET, Aspose.Note se destaca como uma ferramenta versátil para lidar com arquivos do Microsoft OneNote com eficiência. Um recurso particularmente útil do Aspose.Note é sua capacidade de gerenciar revisões de páginas perfeitamente. Neste tutorial, nos aprofundaremos nas complexidades de trabalhar com revisões de páginas usando Aspose.Note for .NET.
@@ -112,3 +118,9 @@ R4: O Aspose.Note foi projetado para lidar com um número significativo de revis
 ### Q5: Posso automatizar o processo de gerenciamento de revisões de páginas usando Aspose.Note?
 
 R5: Sim, Aspose.Note oferece APIs abrangentes que permitem aos desenvolvedores automatizar tarefas relacionadas a revisões de páginas, agilizando os processos de fluxo de trabalho.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

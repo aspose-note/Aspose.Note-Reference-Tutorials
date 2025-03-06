@@ -3,10 +3,16 @@ title: Добавить текстовый узел с тегом в OneNote —
 linktitle: Добавить текстовый узел с тегом в OneNote — Aspose.Note
 second_title: Aspose.Note Java API
 description: Узнайте, как добавлять текстовые узлы с тегами в OneNote с помощью Aspose.Note для Java. Простой, эффективный и удобный для разработчиков. Загрузите библиотеку прямо сейчас!
-type: docs
 weight: 13
 url: /ru/java/onenote-tag-operations/add-text-node-with-tag/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Добавить текстовый узел с тегом в OneNote — Aspose.Note
+
 ## Введение
 В этом уроке мы рассмотрим, как добавить текстовый узел с тегом в OneNote с помощью Aspose.Note для Java. Aspose.Note — это мощная библиотека Java, которая позволяет разработчикам программно работать с файлами Microsoft OneNote. Добавление текстовых узлов с тегами является обычным требованием при обработке документов, и Aspose.Note упрощает эту задачу.
 ## Предварительные условия
@@ -121,3 +127,9 @@ doc.save(dataDir + "AddTextNodeWithTag_out.one");
  О: Да, вы можете получить временные лицензии.[здесь](https://purchase.aspose.com/temporary-license/).
 ### Вопрос: Где я могу найти документацию по Aspose.Note для Java?
  О: Документация доступна.[здесь](https://reference.aspose.com/note/java/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

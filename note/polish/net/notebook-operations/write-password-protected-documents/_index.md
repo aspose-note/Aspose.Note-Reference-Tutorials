@@ -3,10 +3,16 @@ title: Zapisuj dokumenty chronione hasłem w Aspose Note .NET
 linktitle: Zapisuj dokumenty chronione hasłem w Aspose Note .NET
 second_title: Aspose.Note .NET API
 description: Dowiedz się, jak tworzyć dokumenty chronione hasłem w Aspose Note .NET w celu zwiększenia bezpieczeństwa. W zestawie tutorial krok po kroku.
-type: docs
 weight: 26
 url: /pl/net/notebook-operations/write-password-protected-documents/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Zapisuj dokumenty chronione hasłem w Aspose Note .NET
+
 ## Wstęp
 
 W tym samouczku zagłębimy się w proces tworzenia dokumentów chronionych hasłem przy użyciu Aspose.Note dla .NET. Ochrona hasłem dodaje dodatkową warstwę bezpieczeństwa do Twoich dokumentów, zapewniając, że tylko upoważnione osoby będą miały dostęp do ich zawartości. Przeprowadzimy Cię przez każdy krok, od importowania przestrzeni nazw po napisanie kodu zabezpieczającego hasłem.
@@ -90,3 +96,9 @@ O4: Tak, Aspose.Note dla .NET używa silnych algorytmów szyfrowania w celu zabe
 ### P5: Czy dostępna jest pomoc techniczna dla Aspose.Note dla .NET?
 
  Odpowiedź 5: Tak, pomoc techniczna jest dostępna za pośrednictwem[Forum Aspose.Note](https://forum.aspose.com/c/note/28), gdzie możesz uzyskać pomoc i wskazówki od ekspertów.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

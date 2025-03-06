@@ -3,10 +3,16 @@ title: Εισαγάγετε μια εικόνα στο έγγραφο του One
 linktitle: Εισαγάγετε μια εικόνα στο έγγραφο του OneNote με Java
 second_title: Aspose.Note Java API
 description: Μάθετε πώς να εισάγετε εικόνες σε έγγραφα του OneNote χρησιμοποιώντας Java με τη βιβλιοθήκη Aspose.Note για Java. Ακολουθήστε τον βήμα προς βήμα οδηγό μας για απρόσκοπτη ενσωμάτωση.
-type: docs
 weight: 16
 url: /el/java/onenote-hyperlinks-images/insert-image/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Εισαγάγετε μια εικόνα στο έγγραφο του OneNote με Java
+
 ## Εισαγωγή
 
 Σε αυτό το σεμινάριο, θα διερευνήσουμε πώς να εισαγάγετε μια εικόνα σε ένα έγγραφο του OneNote χρησιμοποιώντας Java με τη βοήθεια του Aspose.Note για Java. Το Aspose.Note για Java είναι μια ισχυρή βιβλιοθήκη που επιτρέπει στους προγραμματιστές να εργάζονται με αρχεία Microsoft OneNote μέσω προγραμματισμού, επιτρέποντας διάφορες λειτουργίες όπως η δημιουργία, η ανάγνωση και ο χειρισμός εγγράφων OneNote.
@@ -120,3 +126,9 @@ A4: Ναι, μπορείτε να κάνετε λήψη μιας δωρεάν δ
 ### Ε5: Πώς μπορώ να λάβω τεχνική υποστήριξη για το Aspose.Note για Java;
 
  A5: Μπορείτε να λάβετε τεχνική υποστήριξη για το Aspose.Note για Java μεταβαίνοντας στο[δικαστήριο](https://forum.aspose.com/c/note/28) αφιερωμένο στα προϊόντα Aspose.Note.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -3,10 +3,16 @@ title: Манипуляции с таблицами OneNote
 linktitle: Манипуляции с таблицами OneNote
 second_title: Aspose.Note Java API
 description: Улучшите свои таблицы OneNote с помощью Aspose.Note для Java. Меняйте стили, составляйте таблицы, легко извлекайте текст. Загрузите библиотеку для удобного создания документов.
-type: docs
 weight: 32
 url: /ru/java/onenote-table-manipulation/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Манипуляции с таблицами OneNote
+
 
 
 ## Введение
@@ -55,3 +61,9 @@ url: /ru/java/onenote-table-manipulation/
 Научитесь вставлять таблицы в OneNote с помощью Aspose.Note для Java. Пошаговое руководство по созданию динамического контента. Улучшайте свои документы без особых усилий.
 ### [Настройка цвета фона ячейки в OneNote — Aspose.Note](./setting-cell-background-color/)
 С легкостью преобразуйте документы OneNote с помощью Aspose.Note для Java. Легко настраивайте цвета фона ячеек. Попробуйте бесплатную пробную версию прямо сейчас!
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

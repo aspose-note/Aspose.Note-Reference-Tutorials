@@ -3,10 +3,16 @@ title: Làm chủ các bản sửa đổi trang trong tài liệu OneNote
 linktitle: Làm chủ các bản sửa đổi trang trong tài liệu OneNote
 second_title: Aspose.Note .NET API
 description: Tìm hiểu cách quản lý các bản sửa đổi trang Microsoft OneNote bằng Aspose.Note. Hướng dẫn từng bước để tích hợp liền mạch và kiểm soát phiên bản trong các ứng dụng .NET của bạn.
-type: docs
 weight: 20
 url: /vi/net/note-manipulation/working-with-page-revisions/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Làm chủ các bản sửa đổi trang trong tài liệu OneNote
+
 ## Giới thiệu
 
 Trong lĩnh vực phát triển .NET, Aspose.Note nổi bật như một công cụ linh hoạt để xử lý các tệp Microsoft OneNote một cách hiệu quả. Một tính năng đặc biệt hữu ích của Aspose.Note là khả năng quản lý các bản sửa đổi trang một cách liền mạch. Trong hướng dẫn này, chúng ta sẽ đi sâu vào những điểm phức tạp khi làm việc với các bản sửa đổi trang bằng Aspose.Note cho .NET.
@@ -112,3 +118,9 @@ Câu trả lời 4: Aspose.Note được thiết kế để xử lý một số 
 ### Câu hỏi 5: Tôi có thể tự động hóa quy trình quản lý các bản sửa đổi trang bằng Aspose.Note không?
 
 Câu trả lời 5: Có, Aspose.Note cung cấp các API toàn diện cho phép nhà phát triển tự động hóa các tác vụ liên quan đến sửa đổi trang, hợp lý hóa quy trình công việc.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

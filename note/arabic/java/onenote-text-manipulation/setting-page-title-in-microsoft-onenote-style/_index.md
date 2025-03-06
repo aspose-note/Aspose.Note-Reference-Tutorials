@@ -3,10 +3,16 @@ title: تحديد عنوان الصفحة في نمط Microsoft OneNote - Aspose
 linktitle: تحديد عنوان الصفحة في نمط Microsoft OneNote - Aspose.Note
 second_title: Aspose.Note جافا API
 description: تعرف على كيفية تعيين عناوين الصفحات بأسلوب Microsoft OneNote باستخدام Aspose.Note لـ Java. ارفع مستوى مستندات Java الخاصة بك بتنسيق احترافي.
-type: docs
 weight: 23
 url: /ar/java/onenote-text-manipulation/setting-page-title-in-microsoft-onenote-style/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# تحديد عنوان الصفحة في نمط Microsoft OneNote - Aspose.Note
+
 ## مقدمة
 في عالم تطوير Java الديناميكي، يعد إنشاء مستندات منظمة وجذابة بصريًا أمرًا بالغ الأهمية. إذا كنت تتطلع إلى تحسين تطبيقات Java الخاصة بك باستخدام عناوين الصفحات بنمط Microsoft OneNote، فإن Aspose.Note for Java هو الحل الأمثل لك. في هذا البرنامج التعليمي الشامل، سنرشدك خلال عملية إعداد عناوين الصفحات بأسلوب OneNote باستخدام Aspose.Note، مما يضمن تميز مستنداتك بلمسة احترافية.
 ## المتطلبات الأساسية
@@ -72,3 +78,9 @@ doc.appendChildLast(page);
  اطلب المساعدة من مجتمع Aspose.Note على[منتدى Aspose.Note](https://forum.aspose.com/c/note/28).
 ### هل هناك نسخة تجريبية متاحة؟
  نعم، يمكنك استكشاف إمكانيات Aspose.Note من خلال النسخة التجريبية المجانية من[هنا](https://releases.aspose.com/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

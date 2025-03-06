@@ -3,10 +3,16 @@ title: احفظ باستخدام الإعدادات الافتراضية في As
 linktitle: احفظ باستخدام الإعدادات الافتراضية في Aspose.Note
 second_title: Aspose.Note .NET API
 description: تعرف على كيفية حفظ مستند بالإعدادات الافتراضية في Aspose.Note لـ .NET من خلال دليل خطوة بخطوة.
-type: docs
 weight: 29
 url: /ar/net/loading-and-saving-operations/save-with-default-settings/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# احفظ باستخدام الإعدادات الافتراضية في Aspose.Note
+
 ## مقدمة
 
 في مجال تطوير .NET، يبرز Aspose.Note كأداة قوية للعمل مع ملفات Microsoft OneNote. سواء كنت تتعامل مع تطبيقات تدوين الملاحظات، أو دفاتر الملاحظات الرقمية، أو أي مشروع آخر ذي صلة، فإن Aspose.Note يوفر الوظائف اللازمة لتبسيط عملية التطوير الخاصة بك. في هذا البرنامج التعليمي، سوف نتعمق في عملية حفظ مستند بالإعدادات الافتراضية باستخدام Aspose.Note لـ .NET. سنقوم بتفصيل كل خطوة، مما يضمن الوضوح والفهم للمطورين على جميع المستويات.
@@ -86,3 +92,9 @@ Console.WriteLine("\nOneNote document saved successfully with default settings.\
 ### س5: هل يمكنني تجربة Aspose.Note قبل الشراء؟
 
  ج5: نعم، يمكنك تنزيل نسخة تجريبية مجانية من[موقع إلكتروني](https://releases.aspose.com/) لاستكشاف ميزات Aspose.Note قبل إجراء عملية الشراء.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

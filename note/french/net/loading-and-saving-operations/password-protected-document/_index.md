@@ -3,10 +3,16 @@ title: Document protégé par mot de passe dans Aspose.Note
 linktitle: Document protégé par mot de passe dans Aspose.Note
 second_title: API Aspose.Note .NET
 description: Découvrez comment gérer les documents protégés par mot de passe à l'aide d'Aspose.Note pour .NET. Sécurisez facilement vos informations sensibles.
-type: docs
 weight: 18
 url: /fr/net/loading-and-saving-operations/password-protected-document/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Document protégé par mot de passe dans Aspose.Note
+
 ## Introduction
 
 Dans ce didacticiel, nous passerons en revue le processus de gestion des documents protégés par mot de passe à l'aide d'Aspose.Note pour .NET. La protection par mot de passe ajoute une couche de sécurité supplémentaire à vos documents, garantissant que seuls les utilisateurs autorisés peuvent y accéder.
@@ -82,3 +88,9 @@ R4 : Bien qu'il puisse y avoir certaines limitations basées sur les algorithme
 ### Q5 : Puis-je automatiser le processus de traitement des documents protégés par mot de passe ?
 
 A5 : Oui, vous pouvez automatiser le processus à l'aide de scripts ou de tâches planifiées pour gérer efficacement les documents protégés par mot de passe.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

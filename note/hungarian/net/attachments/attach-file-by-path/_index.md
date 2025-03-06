@@ -3,10 +3,16 @@ title: Fájl csatolása elérési út szerint az Aspose.Note-ban
 linktitle: Fájl csatolása elérési út szerint az Aspose.Note-ban
 second_title: Aspose.Note .NET API
 description: Ismerje meg, hogyan csatolhat fájlokat a Microsoft OneNote dokumentumokhoz programozottan az Aspose.Note for .NET használatával. Egyszerűsítse le fejlesztési folyamatát ezzel az átfogó oktatóanyaggal.
-type: docs
 weight: 11
 url: /hu/net/attachments/attach-file-by-path/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Fájl csatolása elérési út szerint az Aspose.Note-ban
+
 ## Bevezetés
 
 Az Aspose.Note for .NET egy hatékony könyvtár, amely lehetővé teszi a fejlesztők számára, hogy programozottan dolgozzanak Microsoft OneNote fájlokkal. Akár OneNote-dokumentumokat szeretne létrehozni, szerkeszteni, konvertálni vagy manipulálni, az Aspose.Note for .NET átfogó funkciókat kínál a fejlesztési folyamatok egyszerűsítésére.
@@ -147,3 +153,9 @@ Az Aspose.Note for .NET leegyszerűsíti a OneNote-dokumentumok programozott kez
 ### 5. kérdés: Hol kérhetek támogatást az Aspose.Note for .NET-hez?
 
  5. válasz: Kérhet támogatást az Aspose.Note közösségi fórumokon[itt](https://forum.aspose.com/c/note/28).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

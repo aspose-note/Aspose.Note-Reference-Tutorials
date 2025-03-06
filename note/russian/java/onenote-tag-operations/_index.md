@@ -3,10 +3,16 @@ title: Операции с тегами OneNote
 linktitle: Операции с тегами OneNote
 second_title: Aspose.Note Java API
 description: Откройте для себя возможности Aspose.Note для Java. Повысьте качество работы с OneNote с помощью пошаговых руководств по операциям с тегами, добавлению изображений, таблиц, текстовых узлов и многого другого.
-type: docs
 weight: 33
 url: /ru/java/onenote-tag-operations/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Операции с тегами OneNote
+
 ## Введение
 
 Узнайте, как оптимизировать работу с OneNote с помощью Aspose.Note для Java. Эта серия руководств позволяет легко улучшить ваши навыки программирования на Java: от добавления новых узлов изображений до узлов динамических таблиц.
@@ -47,3 +53,9 @@ url: /ru/java/onenote-tag-operations/
 Расширьте возможности совместной работы с помощью Aspose.Note для Java! Узнайте, как шаг за шагом создавать динамические шаблоны заметок о собраниях. Загрузите библиотеку прямо сейчас!
 ### [Получить теги узлов в OneNote — Aspose.Note](./get-node-tags/)
 Раскройте секреты OneNote с помощью Aspose.Note для Java. Это руководство поможет вам легко извлекать теги узлов. Погрузитесь в будущее манипуляций с документами!
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

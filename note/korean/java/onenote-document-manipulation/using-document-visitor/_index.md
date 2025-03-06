@@ -3,10 +3,16 @@ title: Java로 OneNote에서 문서 방문자 사용
 linktitle: Java로 OneNote에서 문서 방문자 사용
 second_title: Aspose.Note 자바 API
 description: Aspose.Note와 함께 Java를 사용하여 OneNote에서 문서 방문자를 활용하는 방법을 알아보세요. OneNote 문서를 원활하게 탐색하고 조작할 수 있습니다.
-type: docs
 weight: 10
 url: /ko/java/onenote-document-manipulation/using-document-visitor/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Java로 OneNote에서 문서 방문자 사용
+
 ## 소개
 
 이 튜토리얼에서는 Aspose.Note와 함께 Java를 사용하여 OneNote에서 문서 방문자를 활용하는 방법을 살펴보겠습니다. 문서 방문자를 사용하면 OneNote 문서의 요소를 탐색하고 해당 요소에 대한 작업을 수행할 수 있습니다. 프로세스를 단계별로 안내해 드리겠습니다.
@@ -95,3 +101,9 @@ A1: 예, Aspose.Note는 .NET, C를 포함한 다양한 프로그래밍 언어를
 ### Q5: Aspose.Note에 사용할 수 있는 문서가 있나요?
 
  A5: 예, 문서를 찾을 수 있습니다.[여기](https://reference.aspose.com/note/java/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

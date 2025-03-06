@@ -3,10 +3,16 @@ title: Enregistrer à l'aide du sous-système de polices spécifié dans OneNote
 linktitle: Enregistrer à l'aide du sous-système de polices spécifié dans OneNote
 second_title: API Java Aspose.Note
 description: Découvrez comment enregistrer des documents OneNote à l'aide du sous-système de polices spécifié en Java avec Aspose.Note. Garantissez sans effort une représentation cohérente des polices sur toutes les plateformes.
-type: docs
 weight: 22
 url: /fr/java/onenote-document-saving/save-using-specified-fonts-subsystem/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Enregistrer à l'aide du sous-système de polices spécifié dans OneNote
+
 ## Introduction
 
 Aspose.Note pour Java offre des fonctionnalités robustes pour travailler avec des documents OneNote. Une exigence courante lorsque l'on travaille avec de tels documents est de s'assurer que les polices sont correctement conservées, en particulier si le document doit être exporté ou enregistré dans différents formats comme PDF. Ce didacticiel vous guidera tout au long du processus d'enregistrement des documents OneNote tout en spécifiant le sous-système de polices, garantissant ainsi une représentation cohérente et précise du texte sur différentes plates-formes.
@@ -152,3 +158,9 @@ A4 : Oui, vous pouvez personnaliser les propriétés de police telles que la tai
 ### Q5 : Existe-t-il une version d'essai disponible pour Aspose.Note pour Java ?
 
 A5 : Oui, vous pouvez obtenir un essai gratuit d'Aspose.Note pour Java sur le site Web.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

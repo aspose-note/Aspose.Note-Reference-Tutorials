@@ -3,10 +3,16 @@ title: Dateianhänge und Abrufen in OneNote-Dokumenten
 linktitle: Anhänge
 second_title: Aspose.Note .NET-API
 description: Steigern Sie Ihre .NET-Anwendungen mit Aspose.Note! Entdecken Sie Tutorials zum Anhängen von Dateien, zum Festlegen von Symbolen und zum Abrufen von Anhängen für eine verbesserte Entwicklung.
-type: docs
 weight: 21
 url: /de/net/attachments/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Dateianhänge und Abrufen in OneNote-Dokumenten
+
 ## Einführung
 
 Sind Sie bereit, Ihre .NET-Anwendungen auf die nächste Stufe zu heben? Tauchen Sie ein in die Welt von Aspose.Note und erschließen Sie eine Fülle von Möglichkeiten. Diese umfassende Anleitungsliste führt Sie durch die wichtigsten Funktionen und konzentriert sich auf das Anhängen von Dateien, das Festlegen von Symbolen und das nahtlose Abrufen angehängter Dateien.
@@ -37,3 +43,9 @@ Erfahren Sie, wie Sie in Aspose.Note für .NET Dateien anhängen und Symbole fes
 Erfahren Sie, wie Sie mithilfe von Aspose.Note für .NET Dateien programmgesteuert an Microsoft OneNote-Dokumente anhängen. Vereinfachen Sie Ihren Entwicklungsprozess mit diesem umfassenden Tutorial.
 ### [Angehängte Dateien mit Aspose.Note abrufen](./retrieve-attached-files/)
 Erfahren Sie, wie Sie mit Aspose.Note für .NET angehängte Dateien aus Microsoft OneNote-Dokumenten abrufen. Befolgen Sie die Schritte zum Laden, Abrufen von Knoten und Durchlaufen von Anhängen.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -3,10 +3,16 @@ title: Εισαγάγετε τη λίστα κινεζικών αριθμών σ
 linktitle: Εισαγάγετε τη λίστα κινεζικών αριθμών στο κείμενο Aspose.Note
 second_title: Aspose.Note .NET API
 description: Μάθετε πώς να εισάγετε λίστες κινεζικών αριθμών στο Aspose.Note για έγγραφα .NET χωρίς κόπο. Αναβαθμίστε τις δεξιότητές σας στη μορφοποίηση εγγράφων με αυτόν τον οδηγό βήμα προς βήμα.
-type: docs
 weight: 20
 url: /el/net/text-manipulation/insert-chinese-number-list/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Εισαγάγετε τη λίστα κινεζικών αριθμών στο κείμενο Aspose.Note
+
 ## Εισαγωγή
 Θέλετε να βελτιώσετε τις δεξιότητές σας στο Aspose.Note για .NET ενσωματώνοντας λίστες κινεζικών αριθμών στα έγγραφά σας; Αν ναι, είστε στο σωστό μέρος! Σε αυτό το σεμινάριο, θα σας καθοδηγήσουμε στη διαδικασία εισαγωγής λιστών κινεζικών αριθμών χρησιμοποιώντας το Aspose.Note για .NET. Αυτή η ισχυρή βιβλιοθήκη σάς επιτρέπει να χειρίζεστε τα έγγραφα του OneNote απρόσκοπτα.
 ## Προαπαιτούμενα
@@ -91,3 +97,9 @@ Console.WriteLine("\nChinese number list inserted successfully.\nFile saved at "
  Α: Λάβετε μια προσωρινή άδεια[εδώ](https://purchase.aspose.com/temporary-license/).
 ### Ε: Πού μπορώ να αναζητήσω βοήθεια ή να συζητήσω ερωτήματα σχετικά με το Aspose.Note;
  Α: Επισκεφθείτε το[Φόρουμ υποστήριξης Aspose.Note](https://forum.aspose.com/c/note/28) για κοινοτική υποστήριξη.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

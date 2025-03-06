@@ -3,10 +3,16 @@ title: Composer un tableau dans OneNote - Aspose.Note
 linktitle: Composer un tableau dans OneNote - Aspose.Note
 second_title: API Java Aspose.Note
 description: Découvrez comment composer des tableaux dans OneNote par programmation à l’aide d’Aspose.Note pour Java. Guide étape par étape pour une création efficace de documents.
-type: docs
 weight: 11
 url: /fr/java/onenote-table-manipulation/compose-table/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Composer un tableau dans OneNote - Aspose.Note
+
 ## Introduction
 Dans l’environnement commercial concurrentiel d’aujourd’hui, une communication et une collaboration efficaces sont des facteurs clés du succès. Aspose.Note pour Java fournit une solution puissante pour créer et manipuler des documents OneNote par programme. Dans ce didacticiel, nous explorerons comment composer des tableaux dans OneNote à l'aide d'Aspose.Note pour Java. Suivez le guide étape par étape ci-dessous pour améliorer votre processus de création de documents.
 ## Conditions préalables
@@ -77,3 +83,9 @@ Toutes nos félicitations! Vous avez réussi à composer un tableau dans OneNote
  Visitez le forum d'assistance[ici](https://forum.aspose.com/c/note/28).
 ### Q : Puis-je obtenir une licence temporaire ?
  Oui, vous pouvez obtenir une licence temporaire[ici](https://purchase.aspose.com/temporary-license/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

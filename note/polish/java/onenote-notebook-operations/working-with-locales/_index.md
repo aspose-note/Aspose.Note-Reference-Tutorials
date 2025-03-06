@@ -3,10 +3,16 @@ title: Praca z ustawieniami regionalnymi w programie OneNote — Aspose.Note
 linktitle: Praca z ustawieniami regionalnymi w programie OneNote — Aspose.Note
 second_title: Aspose.Note API Java
 description: Wykorzystaj moc Aspose.Note do pracy z lokalizacjami OneNote! Wyodrębniaj, manipuluj i generuj raporty dostosowane do różnych języków i regionów. #OneNote #Java #Aspose
-type: docs
 weight: 10
 url: /pl/java/onenote-notebook-operations/working-with-locales/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Praca z ustawieniami regionalnymi w programie OneNote — Aspose.Note
+
 ## Wstęp
 
 dziedzinie programowania w języku Java Aspose.Note wyróżnia się jako potężne narzędzie do pracy z plikami OneNote. Niezależnie od tego, czy chcesz wyodrębnić informacje, manipulować treścią, czy generować raporty, Aspose.Note zapewnia obszerny zestaw funkcji usprawniających przepływ pracy. W tym samouczku zajmiemy się jednym konkretnym aspektem: pracą z ustawieniami regionalnymi w OneNote przy użyciu Aspose.Note dla Java.
@@ -99,3 +105,9 @@ O3: Chociaż Aspose.Note jest przeznaczony głównie dla plików OneNote, zapewn
 ### P5: Czy mogę wypróbować Aspose.Note przed zakupem?
 
 Odpowiedź 5: Oczywiście, możesz poznać możliwości Aspose.Note, korzystając z bezpłatnej wersji próbnej oferowanej na stronie internetowej.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

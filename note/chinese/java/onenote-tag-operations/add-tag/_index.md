@@ -3,10 +3,16 @@ title: 在 OneNote 中添加标签 - Aspose.Note
 linktitle: 在 OneNote 中添加标签 - Aspose.Note
 second_title: Aspose.Note Java API
 description: 使用 Aspose.Note for Java 提升 OneNote。使用我们的分步指南轻松添加标签。现在就加强组织和协作！
-type: docs
 weight: 12
 url: /zh/java/onenote-tag-operations/add-tag/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# 在 OneNote 中添加标签 - Aspose.Note
+
 ## 介绍
 您是否希望使用 Java 增强 OneNote 中的文档组织和协作？ Aspose.Note for Java 提供了一个强大的解决方案来无缝添加标签，确保您的笔记不仅内容丰富，而且具有视觉吸引力。在本教程中，我们将逐步引导您完成该过程，以便您可以充分利用 Aspose.Note for Java 的全部潜力。
 ## 先决条件
@@ -93,3 +99,9 @@ Aspose.Note 主要支持 Java，但也有适用于 .NET 的版本。
 如有任何疑问或帮助，请访问[Aspose.Note 论坛](https://forum.aspose.com/c/note/28).
 ### 5. 有免费试用吗？
 是的，您可以探索免费试用[这里](https://releases.aspose.com/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

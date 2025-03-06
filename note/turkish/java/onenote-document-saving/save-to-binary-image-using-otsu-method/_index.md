@@ -3,10 +3,16 @@ title: OneNote'ta Otsu Yöntemini Kullanarak İkili Görüntüye Kaydetme
 linktitle: OneNote'ta Otsu Yöntemini Kullanarak İkili Görüntüye Kaydetme
 second_title: Aspose.Note Java API'si
 description: Aspose.Note for Java ile Otsu yöntemini kullanarak OneNote belgelerini ikili görüntüler olarak kaydetmeyi öğrenin. Aspose.Note ile Java uygulamanızın yeteneklerini yükseltin.
-type: docs
 weight: 15
 url: /tr/java/onenote-document-saving/save-to-binary-image-using-otsu-method/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# OneNote'ta Otsu Yöntemini Kullanarak İkili Görüntüye Kaydetme
+
 ## giriiş
 
 Bu eğitimde Aspose.Note for Java'da Otsu yöntemini kullanarak bir belgeyi ikili görüntü olarak nasıl kaydedeceğimizi öğreneceğiz. Aspose.Note, Java geliştiricilerinin Microsoft OneNote dosyalarıyla programlı olarak çalışmasını sağlayan güçlü bir API'dir. Belgeleri ikili görüntüler olarak kaydetmek, görüntü işleme, OCR (Optik Karakter Tanıma) ve daha fazlası gibi çeşitli uygulamalar için yararlı olabilir.
@@ -82,3 +88,9 @@ Cevap4: Aspose.Note öncelikle OneNote belgelerinin işlenmesiyle ilgilense de, 
 ### S5: Aspose.Note for Java'yı kullanırken sorunlarla karşılaşırsam nereden destek alabilirim?
 
 Cevap5: Aspose.Note forumunu ziyaret edebilir veya teknik sorunlar veya sorularınız için destek ekibiyle iletişime geçebilirsiniz.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

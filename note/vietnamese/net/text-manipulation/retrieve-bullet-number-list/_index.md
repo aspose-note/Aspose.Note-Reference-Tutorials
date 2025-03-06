@@ -3,10 +3,16 @@ title: Truy xuất danh sách dấu đầu dòng hoặc số trong văn bản As
 linktitle: Truy xuất danh sách dấu đầu dòng hoặc số trong văn bản Aspose.Note
 second_title: Aspose.Note .NET API
 description: Khai phá tiềm năng của Aspose.Note dành cho .NET với hướng dẫn từng bước của chúng tôi về cách truy xuất danh sách dấu đầu dòng hoặc số. Nâng cao kỹ năng thao tác tài liệu OneNote của bạn!
-type: docs
 weight: 23
 url: /vi/net/text-manipulation/retrieve-bullet-number-list/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Truy xuất danh sách dấu đầu dòng hoặc số trong văn bản Aspose.Note
+
 ## Giới thiệu
 Chào mừng bạn đến với thế giới của Aspose.Note for .NET, một thư viện mạnh mẽ và linh hoạt giúp các nhà phát triển có thể xử lý thao tác tài liệu OneNote một cách dễ dàng. Trong hướng dẫn này, chúng ta sẽ đi sâu vào quá trình truy xuất danh sách dấu đầu dòng hoặc số bằng Aspose.Note cho .NET. Cho dù bạn là nhà phát triển dày dạn kinh nghiệm hay người đam mê mã hóa, hướng dẫn này sẽ trang bị cho bạn kiến thức để điều hướng qua những điểm phức tạp khi làm việc với danh sách trong Aspose.Note.
 ## Điều kiện tiên quyết
@@ -87,3 +93,9 @@ Có, Aspose.Note hỗ trợ nhiều định dạng OneNote, đảm bảo khả n
 Bạn có thể tìm hiểu và tìm kiếm sự trợ giúp trong[Diễn đàn Aspose.Note](https://forum.aspose.com/c/note/28) cho bất kỳ truy vấn hoặc vấn đề nào bạn có thể gặp phải.
 ### Có phiên bản dùng thử miễn phí của Aspose.Note cho .NET không?
  Có, bạn có thể truy cập phiên bản dùng thử miễn phí của Aspose.Note cho .NET[đây](https://releases.aspose.com/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -3,10 +3,16 @@ title: Użyj algorytmu zachowywania obiektów stałych w programie OneNote - Asp
 linktitle: Użyj algorytmu zachowywania obiektów stałych w programie OneNote - Aspose.Note
 second_title: Aspose.Note API Java
 description: Dowiedz się, jak zachować obiekty bryłowe w dokumentach Aspose.Note podczas konwersji do formatu PDF za pomocą algorytmu Zachowaj obiekty bryłowe w Javie.
-type: docs
 weight: 25
 url: /pl/java/onenote-document-saving/use-keep-solid-objects-algorithm/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Użyj algorytmu zachowywania obiektów stałych w programie OneNote - Aspose.Note
+
 ## Wstęp
 
 tym samouczku omówimy, jak wykorzystać algorytm Keep Solid Objects w Aspose.Note dla Java. Algorytm ten jest nieoceniony w utrzymaniu integralności obiektów stałych w dokumentach podczas ich konwersji do formatu PDF. Rozłożymy proces krok po kroku, zapewniając przejrzystość i zrozumienie na każdym etapie.
@@ -93,3 +99,10 @@ W tym samouczku nauczyliśmy się, jak korzystać z algorytmu Keep Solid Objects
 ### P5: Gdzie mogę kupić licencję?
 
  O5: Możesz kupić licencję na Aspose.Note dla Java[Tutaj](https://purchase.aspose.com/buy).
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

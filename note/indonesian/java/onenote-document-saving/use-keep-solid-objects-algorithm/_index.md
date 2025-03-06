@@ -3,10 +3,16 @@ title: Gunakan Algoritma Pertahankan Objek Padat di OneNote - Aspose.Note
 linktitle: Gunakan Algoritma Pertahankan Objek Padat di OneNote - Aspose.Note
 second_title: Aspose.Catatan Java API
 description: Pelajari cara menyimpan benda padat di dokumen Aspose.Note Anda saat mengonversi ke PDF menggunakan Algoritma Pertahankan Benda Padat di Java.
-type: docs
 weight: 25
 url: /id/java/onenote-document-saving/use-keep-solid-objects-algorithm/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Gunakan Algoritma Pertahankan Objek Padat di OneNote - Aspose.Note
+
 ## Perkenalan
 
 Dalam tutorial ini, kita akan mempelajari cara memanfaatkan Algoritma Keep Solid Objects di Aspose.Note untuk Java. Algoritme ini sangat berharga untuk menjaga integritas objek padat dalam dokumen Anda saat mengonversinya ke format PDF. Kami akan menguraikan prosesnya langkah demi langkah, memastikan kejelasan dan pemahaman di setiap tahap.
@@ -93,3 +99,10 @@ Dalam tutorial ini, kita telah mempelajari cara memanfaatkan Algoritma Keep Soli
 ### Q5: Di mana saya bisa membeli lisensi?
 
  A5: Anda dapat membeli lisensi Aspose.Note untuk Java[Di Sini](https://purchase.aspose.com/buy).
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

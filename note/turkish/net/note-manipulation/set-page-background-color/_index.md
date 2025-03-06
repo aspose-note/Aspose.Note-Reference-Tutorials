@@ -3,10 +3,16 @@ title: Aspose.Note'ta Sayfaların Arka Plan Rengini Ayarlama
 linktitle: Aspose.Note'ta Sayfaların Arka Plan Rengini Ayarlama
 second_title: Aspose.Note .NET API'si
 description: Adım adım kılavuzla Aspose.Note belgelerinde C# programlama dilini kullanarak sayfaların arka plan rengini nasıl ayarlayacağınızı öğrenin.
-type: docs
 weight: 19
 url: /tr/net/note-manipulation/set-page-background-color/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Aspose.Note'ta Sayfaların Arka Plan Rengini Ayarlama
+
 ## giriiş
 
 Aspose.Note for .NET, geliştiricilerin OneNote belgelerini program aracılığıyla değiştirmesine olanak tanır. Yaygın görevlerden biri, bu belgelerdeki sayfaların arka plan rengini ayarlamaktır. Bu eğitimde size süreç boyunca adım adım rehberlik edeceğiz.
@@ -97,3 +103,9 @@ C3: Evet, ücretsiz deneme sürümünü şuradan indirebilirsiniz:[Burada](https
 ### S5: Aspose.Note hakkında nereden ek destek bulabilirim veya soru sorabilirim?
 
  A5: ziyaret edebilirsiniz[Aspose.Note forumu](https://forum.aspose.com/c/note/28) Destek için ve diğer kullanıcılarla bağlantı kurmak için.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

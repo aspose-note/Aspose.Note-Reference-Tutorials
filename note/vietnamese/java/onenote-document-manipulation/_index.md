@@ -3,10 +3,16 @@ title: Thao tác tài liệu OneNote
 linktitle: Thao tác tài liệu OneNote
 second_title: API Java Aspose.Note
 description: Tạo, thao tác và tự động hóa các tài liệu OneNote trong Java bằng Aspose.Note. Hướng dẫn từng bước về Trình truy cập tài liệu, văn bản có định dạng và tạo văn bản có định dạng.
-type: docs
 weight: 21
 url: /vi/java/onenote-document-manipulation/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Thao tác tài liệu OneNote
+
 
 ## Giới thiệu
 
@@ -29,3 +35,9 @@ Tìm hiểu cách sử dụng Trình truy cập tài liệu trong OneNote bằng
 Tìm hiểu cách tạo tài liệu OneNote có định dạng phong phú theo chương trình trong Java bằng cách sử dụng Aspose.Note for Java. Hãy làm theo hướng dẫn từng bước của chúng tôi để tự động hóa tài liệu một cách liền mạch.
 ### [Tạo tài liệu OneNote với văn bản đa dạng thức đơn giản trong Java](./create-onenote-document-simple-rich-text/)
 Tìm hiểu cách tạo tài liệu OneNote bằng văn bản đa dạng thức đơn giản bằng Aspose.Note cho Java. Tích hợp liền mạch chức năng này vào các ứng dụng Java của bạn để quản lý tài liệu hiệu quả.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

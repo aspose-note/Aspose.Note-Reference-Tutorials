@@ -3,10 +3,16 @@ title: Add Table Node with Tag in Aspose.Note
 linktitle: Add Table Node with Tag in Aspose.Note
 second_title: Aspose.Note .NET API
 description: Learn how to add tables with tags in Aspose.Note for .NET. Enhance your document manipulation skills programmatically.
-type: docs
 weight: 11
 url: /net/tag-management/add-table-node-tag/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Add Table Node with Tag in Aspose.Note
+
 ## Introduction
 
 In this tutorial, we'll guide you through the process of adding a table node with a tag using Aspose.Note for .NET. Follow the steps below to achieve this.
@@ -137,3 +143,10 @@ A4: Yes, Aspose.Note provides support for encrypting OneNote documents to ensure
 ### Q5: Is technical support available for Aspose.Note users?
 
 A5: Yes, technical support is provided via the Aspose forums [here](https://forum.aspose.com/c/note/28), where you can seek assistance from experts.
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

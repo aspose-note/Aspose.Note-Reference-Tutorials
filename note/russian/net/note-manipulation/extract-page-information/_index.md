@@ -3,10 +3,16 @@ title: Извлеките информацию о странице с помощ
 linktitle: Извлеките информацию о странице с помощью Aspose.Note для .NET
 second_title: Aspose.Note .NET API
 description: Узнайте, как извлечь информацию о странице из файлов Microsoft OneNote с помощью Aspose.Note для .NET. Это подробное руководство шаг за шагом проведет вас через весь процесс.
-type: docs
 weight: 13
 url: /ru/net/note-manipulation/extract-page-information/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Извлеките информацию о странице с помощью Aspose.Note для .NET
+
 ## Введение
 
 Aspose.Note для .NET — это мощная библиотека, которая позволяет разработчикам программно работать с файлами Microsoft OneNote. Извлечение информации о странице из этих файлов может иметь решающее значение для различных приложений, от анализа данных до управления документами. В этом руководстве мы шаг за шагом проведем вас через процесс извлечения информации о странице с помощью Aspose.Note для .NET.
@@ -103,3 +109,9 @@ foreach (Page page in oneFile)
 ### Вопрос 5. Где я могу найти дополнительную поддержку и ресурсы для Aspose.Note для .NET?
 
  A5: Вы можете посетить форум Aspose.Note для .NET.[здесь](https://forum.aspose.com/c/note/28) для любой помощи или вопросов, которые могут у вас возникнуть.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -3,10 +3,16 @@ title: Bifoga fil och ange ikon i Aspose.Note
 linktitle: Bifoga fil och ange ikon i Aspose.Note
 second_title: Aspose.Note .NET API
 description: Lär dig hur du bifogar filer och ställer in ikoner i Aspose.Note för .NET. Förbättra dina .NET-applikationer med denna steg-för-steg handledning.
-type: docs
 weight: 10
 url: /sv/net/attachments/attach-file-set-icon/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Bifoga fil och ange ikon i Aspose.Note
+
 ## Introduktion
 
 Inom .NET-utvecklingen framstår Aspose.Note som ett kraftfullt verktyg för att manipulera Microsoft OneNote-dokument programmatiskt. Utvecklare kan med hjälp av dess kapacitet automatisera olika uppgifter relaterade till att skapa, redigera och hantera OneNote-filer i sina applikationer. En viktig funktion är möjligheten att bifoga filer till anteckningar och ställa in ikoner för dessa bilagor. I den här handledningen kommer vi att fördjupa oss i processen att bifoga en fil och ställa in en ikon med Aspose.Note för .NET.
@@ -125,3 +131,9 @@ S4: Aspose.Note handlar i första hand om filer som lagras lokalt eller nås via
 ### F5: Finns det en storleksgräns för filbilagor i Aspose.Note för .NET?
 
 S5: Aspose.Note inför inga specifika storleksbegränsningar för filbilagor, men praktiska begränsningar kan gälla baserat på systemresurser och prestandaöverväganden.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

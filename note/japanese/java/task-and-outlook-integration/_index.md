@@ -3,10 +3,16 @@ title: タスクと Outlook の統合
 linktitle: タスクと Outlook の統合
 second_title: Aspose.Note Java API
 description: Outlook タスクを OneNote に統合するチュートリアルで、Aspose.Note Java の可能性を解き放ちます。チュートリアルを利用して文書処理スキルを向上させましょう。
-type: docs
 weight: 35
 url: /ja/java/task-and-outlook-integration/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# タスクと Outlook の統合
+
 
 ## 導入
 
@@ -38,3 +44,9 @@ Aspose.Note for Java を使用してこの旅に乗り出すときは、効率�
 ## タスクと Outlook の統合チュートリアル
 ### [OneNote で Outlook タスクを取得する - Aspose.Note](./get-outlook-task/)
 OneNote から Outlook タスクを簡単に抽出できる Aspose.Note for Java の機能を試してください。ステップバイステップのガイドに従って、ドキュメント処理能力を強化してください。
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

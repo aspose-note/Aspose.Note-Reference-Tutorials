@@ -3,10 +3,16 @@ title: Φορτώστε το έγγραφο OneNote στο Aspose.Note χρησ�
 linktitle: Φορτώστε το έγγραφο OneNote στο Aspose.Note χρησιμοποιώντας το PdfSaveOptions
 second_title: Aspose.Note Java API
 description: Μάθετε πώς να χρησιμοποιείτε το Aspose.Note για Java για να φορτώνετε έγγραφα OneNote και να τα μετατρέπετε σε μορφή PDF χωρίς κόπο. Απλοποιήστε τις εργασίες μετατροπής εγγράφων με το Aspose.Note.
-type: docs
 weight: 23
 url: /el/java/onenote-document-loading/load-pdf-save-options/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Φορτώστε το έγγραφο OneNote στο Aspose.Note χρησιμοποιώντας το PdfSaveOptions
+
 ## Εισαγωγή
 
 Καλώς ήρθατε σε αυτόν τον περιεκτικό οδηγό για τη χρήση του Aspose.Note για Java! Σε αυτό το σεμινάριο, θα εξερευνήσουμε πώς να χρησιμοποιήσετε το Aspose.Note για να φορτώσετε έγγραφα του OneNote και να τα αποθηκεύσετε ως PDF χρησιμοποιώντας το PdfSaveOptions. Το Aspose.Note είναι μια ισχυρή βιβλιοθήκη Java που επιτρέπει στους προγραμματιστές να εργάζονται με αρχεία Microsoft OneNote απρόσκοπτα. Μέχρι το τέλος αυτού του σεμιναρίου, θα έχετε ξεκάθαρη κατανόηση του τρόπου ενσωμάτωσης του Aspose.Note στα έργα σας Java και της εκτέλεσης μετατροπών εγγράφων χωρίς κόπο.
@@ -83,3 +89,9 @@ A3: Εκτός από το PDF, το Aspose.Note υποστηρίζει μετα
 ### Ε5: Πού μπορώ να λάβω βοήθεια ή υποστήριξη για το Aspose.Note;
 
  A5: Για οποιαδήποτε βοήθεια ή απορία σχετικά με το Aspose.Note, μπορείτε να επισκεφτείτε το[φόρουμ υποστήριξης](https://forum.aspose.com/c/note/28).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

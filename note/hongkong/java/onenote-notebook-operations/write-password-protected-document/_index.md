@@ -3,10 +3,16 @@ title: 在 OneNote 中寫入受密碼保護的文件 - Aspose.Note
 linktitle: 在 OneNote 中寫入受密碼保護的文件 - Aspose.Note
 second_title: Aspose.Note Java API
 description: 保護您敏感的 OneNote 資訊！了解如何為特定文件和部分設定密碼 - 包含逐步指南和程式碼。 #OneNote #Java #Aspose
-type: docs
 weight: 27
 url: /zh-hant/java/onenote-notebook-operations/write-password-protected-document/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# 在 OneNote 中寫入受密碼保護的文件 - Aspose.Note
+
 ## 介紹
 
 在本教學中，您將學習如何使用 Aspose.Note for Java 在 OneNote 中建立受密碼保護的文件。此功能可確保筆記型電腦中敏感資訊的安全性和隱私性。透過遵循這些逐步說明，您可以輕鬆地為您的文件實施密碼保護。
@@ -95,3 +101,9 @@ childDocument2.save(dataDir + "Locked Pass2.one", documentSaveOptions2);
 ### Q5：密碼的長度或複雜度有限制嗎？
 
 答：Aspose.Note 不對密碼長度或複雜度施加具體限制，允許您根據需要設定強而安全的密碼。
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

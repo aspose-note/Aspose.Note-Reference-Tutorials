@@ -3,10 +3,16 @@ title: Create Chinese Numbered List in OneNote - Aspose.Note
 linktitle: Create Chinese Numbered List in OneNote - Aspose.Note
 second_title: Aspose.Note Java API
 description: Enhance document creation in Java with Aspose.Note. Learn to create a Chinese numbered list in OneNote step by step. Explore Aspose.Note's powerful features.
-type: docs
 weight: 13
 url: /java/onenote-text-manipulation/create-chinese-numbered-list/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Create Chinese Numbered List in OneNote - Aspose.Note
+
 ## Introduction
 If you're looking to enhance your document creation capabilities in Java, Aspose.Note is your go-to solution. In this tutorial, we'll guide you through the process of creating a Chinese numbered list in OneNote using Aspose.Note for Java. This powerful library allows you to manipulate OneNote documents programmatically, giving you full control over their structure and content.
 ## Prerequisites
@@ -109,3 +115,10 @@ Yes, you can explore the trial version [here](https://releases.aspose.com/).
 Refer to the documentation [here](https://reference.aspose.com/note/java/).
 ### How can I get support for Aspose.Note?
 Visit the support forum [here](https://forum.aspose.com/c/note/28) for any assistance or queries.
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

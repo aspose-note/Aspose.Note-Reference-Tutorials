@@ -3,10 +3,16 @@ title: Zastosuj punktory na tekście w Aspose.Note
 linktitle: Zastosuj punktory na tekście w Aspose.Note
 second_title: Aspose.Note .NET API
 description: Dowiedz się, jak stosować punktory w tekście w Aspose.Note dla .NET, aby ulepszyć dokumenty OneNote. Postępuj zgodnie z tym przewodnikiem krok po kroku, aby uzyskać skuteczne formatowanie.
-type: docs
 weight: 10
 url: /pl/net/text-manipulation/apply-bullets-on-text/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Zastosuj punktory na tekście w Aspose.Note
+
 ## Wstęp
 Witamy w tym przewodniku krok po kroku dotyczącym stosowania punktorów w tekście za pomocą Aspose.Note dla .NET. Aspose.Note to potężna biblioteka, która umożliwia programistom bezproblemową pracę z plikami Microsoft OneNote w aplikacjach .NET. W tym samouczku przeprowadzimy Cię przez proces stosowania punktorów w tekście, poprawiając atrakcyjność wizualną dokumentów programu OneNote.
 ## Warunki wstępne
@@ -86,3 +92,9 @@ Aspose.Note obsługuje różne wersje Microsoft OneNote, zapewniając kompatybil
  Tak, możesz pobrać bezpłatną wersję próbną[Tutaj](https://releases.aspose.com/).
 ### Gdzie mogę znaleźć dodatkowe wsparcie i zasoby?
  Możesz odwiedzić forum społeczności Aspose.Note[Tutaj](https://forum.aspose.com/c/note/28) za wsparcie i dyskusje.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

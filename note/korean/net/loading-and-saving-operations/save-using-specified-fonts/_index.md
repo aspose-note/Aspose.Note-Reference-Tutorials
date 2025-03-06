@@ -3,10 +3,16 @@ title: Aspose.Note에서 지정된 글꼴을 사용하여 저장
 linktitle: Aspose.Note에서 지정된 글꼴을 사용하여 저장
 second_title: Aspose.Note .NET API
 description: .NET용 Aspose.Note에서 지정된 글꼴로 문서를 저장하는 방법을 알아보세요. 일관된 문서 형식을 위해 글꼴 설정을 쉽게 사용자 정의하세요.
-type: docs
 weight: 28
 url: /ko/net/loading-and-saving-operations/save-using-specified-fonts/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Aspose.Note에서 지정된 글꼴을 사용하여 저장
+
 ## 소개
 
 이 튜토리얼에서는 Aspose.Note for .NET에서 지정된 글꼴을 사용하여 문서를 저장하는 방법을 알아봅니다. 이를 달성하기 위한 다양한 방법을 단계별로 살펴보겠습니다.
@@ -131,3 +137,9 @@ A4: 예, Aspose.Note에서는 문서 이식성과 다양한 플랫폼 간의 일
 ### Q5: Aspose.Note에 대한 추가 지원은 어디서 받을 수 있나요?
 
  A5: 추가 지원이나 기술 지원을 받으려면[Aspose.Note 포럼](https://forum.aspose.com/c/note/28).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

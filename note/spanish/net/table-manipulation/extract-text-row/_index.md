@@ -3,10 +3,16 @@ title: Extraiga texto de filas de tabla en Aspose.Note
 linktitle: Extraiga texto de filas de tabla en Aspose.Note
 second_title: Aspose.Nota .NET API
 description: Aprenda a extraer texto de las filas de una tabla en Aspose.Note para .NET con este completo tutorial.
-type: docs
 weight: 14
 url: /es/net/table-manipulation/extract-text-row/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Extraiga texto de filas de tabla en Aspose.Note
+
 ## Introducción
 
 En el ámbito del procesamiento de documentos, Aspose.Note para .NET se presenta como una solución sólida que permite a los desarrolladores manipular eficientemente archivos OneNote mediante programación. Entre sus innumerables capacidades, extraer texto de las filas de la tabla es una tarea común que encuentran los desarrolladores. Este tutorial lo guiará a través del proceso de extracción de texto de las filas de una tabla usando Aspose.Note para .NET.
@@ -98,3 +104,9 @@ R2: Por supuesto, Aspose.Note para .NET proporciona amplias opciones de formato 
 ### P5: ¿Puedo probar Aspose.Note para .NET antes de comprarlo?
 
  R5: Ciertamente, puede aprovechar una prueba gratuita desde el[página de lanzamiento](https://releases.aspose.com/) para explorar sus características y capacidades.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -3,10 +3,16 @@ title: OneNote Java 集成
 linktitle: OneNote Java 集成
 second_title: Aspose.Note Java API
 description: 使用 Aspose.Note Java 增強您的 OneNote 體驗！探索使用 Java 以程式設計方式附加文件、設定圖示和檢索附件的教學課程。
-type: docs
 weight: 20
 url: /zh-hant/java/onenote-java-integration/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# OneNote Java 集成
+
 ## 介紹
 
 歡迎閱讀我們有關使用 Aspose.Note 將 OneNote 與 Java 整合的綜合指南。無論您是經驗豐富的開發人員還是新手，這些教學都將使您能夠以程式設計方式最大限度地發揮 OneNote 功能。
@@ -36,3 +42,9 @@ url: /zh-hant/java/onenote-java-integration/
 了解如何使用 Java 和 Aspose.Note 以程式設計方式將檔案附加到 OneNote 筆記。
 ### [使用 Java 從 OneNote 檢索附件](./retrieve-attachment/)
 了解如何使用 Java 和 Aspose.Note（用於無縫文件操作的強大 API）從 OneNote 檢索附件。
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

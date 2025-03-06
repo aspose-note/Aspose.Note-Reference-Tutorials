@@ -3,10 +3,16 @@ title: استخراج النص من الجدول في OneNote - Aspose.Note
 linktitle: استخراج النص من الجدول في OneNote - Aspose.Note
 second_title: Aspose.Note جافا API
 description: تعرف على كيفية استخراج النص من الجداول في OneNote بسهولة باستخدام Aspose.Note لـ Java. اتبع دليلنا خطوة بخطوة للتكامل السلس.
-type: docs
 weight: 14
 url: /ar/java/onenote-table-manipulation/extract-text-from-table/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# استخراج النص من الجدول في OneNote - Aspose.Note
+
 ## مقدمة
 في مجال تطوير Java، يبرز Aspose.Note كأداة قوية للتعامل مع مستندات OneNote. إحدى ميزاته الجديرة بالملاحظة هي القدرة على استخراج النص من الجداول دون عناء. سيرشدك هذا البرنامج التعليمي خلال العملية، مع تفصيل كل خطوة لضمان تجربة سلسة.
 ## المتطلبات الأساسية
@@ -73,3 +79,9 @@ System.out.println(text);
  يمكنك العثور على دعم المجتمع في[منتديات Aspose.Note](https://forum.aspose.com/c/note/28).
 ### كيف يمكنني شراء مكتبة Aspose.Note؟
  يمكنك شراء المكتبة[هنا](https://purchase.aspose.com/buy).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

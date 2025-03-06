@@ -3,10 +3,16 @@ title: Convertir un bloc-notes en image aplatie dans OneNote - Aspose.Note
 linktitle: Convertir un bloc-notes en image aplatie dans OneNote - Aspose.Note
 second_title: API Java Aspose.Note
 description: Découvrez comment convertir un bloc-notes en image aplatie dans OneNote à l’aide d’Aspose.Note pour Java. Conservez sans effort tous les éléments dans un seul fichier image.
-type: docs
 weight: 13
 url: /fr/java/onenote-notebook-operations/convert-notebook-to-flattened-image/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Convertir un bloc-notes en image aplatie dans OneNote - Aspose.Note
+
 ## Introduction
 
 Dans ce didacticiel, nous vous guiderons tout au long du processus de conversion d'un bloc-notes en image aplatie dans OneNote à l'aide d'Aspose.Note pour Java. Cela vous permet d'enregistrer votre bloc-notes sous forme de fichier image, garantissant ainsi que tous les éléments sont conservés dans un seul format d'image.
@@ -108,3 +114,9 @@ A3 : Oui, Aspose.Note propose des options étendues pour personnaliser l'image
 ### Q5 : Où puis-je trouver de l'assistance pour Aspose.Note pour Java ?
 
  A5 : Vous pouvez trouver de l'aide et des ressources sur le forum Aspose.Note[ici](https://forum.aspose.com/c/note/28).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -3,10 +3,16 @@ title: Καθορίστε τις επιλογές αποθήκευσης στο 
 linktitle: Καθορίστε τις επιλογές αποθήκευσης στο Aspose.Note
 second_title: Aspose.Note .NET API
 description: Μάθετε πώς να ορίζετε επιλογές αποθήκευσης στο Aspose.Note για .NET για να προσαρμόσετε τη μορφή εξόδου και την ποιότητα των εγγράφων του OneNote.
-type: docs
 weight: 30
 url: /el/net/loading-and-saving-operations/specify-save-options/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Καθορίστε τις επιλογές αποθήκευσης στο Aspose.Note
+
 ## Εισαγωγή
 
 Στον τομέα της ανάπτυξης .NET, το Aspose.Note ξεχωρίζει ως ένα ισχυρό εργαλείο για την εργασία με έγγραφα του OneNote. Προσφέρει ένα ολοκληρωμένο σύνολο λειτουργιών για τον αποτελεσματικό χειρισμό και διαχείριση αυτών των αρχείων. Μια κρίσιμη πτυχή της εργασίας με το Aspose.Note είναι ο καθορισμός επιλογών αποθήκευσης, που επιτρέπει στους προγραμματιστές να προσαρμόσουν τη μορφή και την ποιότητα εξόδου σύμφωνα με τις απαιτήσεις τους.
@@ -94,3 +100,9 @@ A4: Το Aspose.Note έχει σχεδιαστεί για να χειρίζετ�
 ### Ε5: Το Aspose.Note προσφέρει υποστήριξη και βοήθεια για προγραμματιστές που αντιμετωπίζουν προβλήματα;
 
 A5: Ναι, οι προγραμματιστές μπορούν να ζητήσουν βοήθεια και βοήθεια από την ομάδα υποστήριξης του Aspose.Note μέσω του φόρουμ ή επικοινωνώντας απευθείας με την Aspose για έγκαιρη επίλυση τυχόν ζητημάτων ή ερωτημάτων.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

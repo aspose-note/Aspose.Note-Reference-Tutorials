@@ -3,10 +3,16 @@ title: Отчетность с помощью тегов в Aspose.Note
 linktitle: Отчетность с помощью тегов в Aspose.Note
 second_title: Aspose.Note .NET API
 description: Узнайте, как создавать подробные отчеты из цифровых документов с помощью Aspose.Note для .NET. Предоставлено пошаговое руководство.
-type: docs
 weight: 16
 url: /ru/net/tag-management/reporting-tags/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Отчетность с помощью тегов в Aspose.Note
+
 ## Введение
 
 В области обработки документов и управления ими Aspose.Note для .NET выделяется как мощный инструмент для работы с примечаниями, аннотациями и тегами в цифровых документах. Теги играют важную роль в организации, категоризации и фильтрации информации в документах, обеспечивая эффективный поиск и анализ. В этом руководстве рассматриваются тонкости создания отчетов с помощью тегов в Aspose.Note, предлагая пошаговые инструкции по созданию отчетов на основе различных критериев.
@@ -133,3 +139,9 @@ public static void GenerateReport_ItemsRelatedToSpecifiedProject()
 ## Вопрос 5: Могу ли я настроить критерии отчетности в Aspose.Note для .NET?
 
 О5: Да, вы можете адаптировать критерии отчетности в соответствии с вашими конкретными требованиями, используя предоставленные API и примеры.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

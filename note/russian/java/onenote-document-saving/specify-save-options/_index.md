@@ -3,10 +3,16 @@ title: Укажите параметры сохранения в OneNote — Asp
 linktitle: Укажите параметры сохранения в OneNote — Aspose.Note
 second_title: Aspose.Note Java API
 description: Узнайте, как указать параметры сохранения в OneNote с помощью Aspose.Note для Java. Легко настройте параметры индекса, количества и сжатия страниц.
-type: docs
 weight: 24
 url: /ru/java/onenote-document-saving/specify-save-options/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Укажите параметры сохранения в OneNote — Aspose.Note
+
 ## Введение
 
 В этом уроке мы узнаем, как указать параметры сохранения в OneNote с помощью Aspose.Note для Java. Aspose.Note — это мощная библиотека Java, которая позволяет разработчикам программно создавать, манипулировать и конвертировать документы OneNote. С помощью Aspose.Note вы можете легко управлять различными параметрами сохранения, чтобы настроить вывод в соответствии с вашими требованиями.
@@ -109,3 +115,9 @@ doc.save(dataDir, opts);
 ### В5: Подходит ли Aspose.Note для коммерческого использования?
 
 О5: Да, Aspose.Note можно использовать в коммерческих целях, купив лицензию.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

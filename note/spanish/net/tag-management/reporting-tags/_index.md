@@ -3,10 +3,16 @@ title: Informes con etiquetas en Aspose.Note
 linktitle: Informes con etiquetas en Aspose.Note
 second_title: Aspose.Nota .NET API
 description: Aprenda a generar informes detallados a partir de documentos digitales utilizando Aspose.Note para .NET. Se proporciona una guía paso a paso.
-type: docs
 weight: 16
 url: /es/net/tag-management/reporting-tags/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Informes con etiquetas en Aspose.Note
+
 ## Introducción
 
 En el ámbito del procesamiento y gestión de documentos, Aspose.Note para .NET se destaca como una poderosa herramienta para manejar notas, anotaciones y etiquetas dentro de documentos digitales. Las etiquetas son fundamentales para organizar, categorizar y filtrar información dentro de los documentos, lo que permite una recuperación y un análisis eficientes. Este tutorial profundiza en las complejidades de los informes con etiquetas en Aspose.Note y ofrece orientación paso a paso sobre cómo generar informes basados en varios criterios.
@@ -133,3 +139,9 @@ R2: Sí, puede acceder a una prueba gratuita de Aspose.Note para .NET desde[siti
 ## P5: ¿Puedo personalizar los criterios de generación de informes en Aspose.Note para .NET?
 
 R5: Sí, puede adaptar los criterios de generación de informes según sus requisitos específicos utilizando las API y los ejemplos proporcionados.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

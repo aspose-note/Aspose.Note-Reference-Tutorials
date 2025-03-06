@@ -3,10 +3,16 @@ title: Skapa dokument med rot- och undersidor i OneNote
 linktitle: Skapa dokument med rot- och undersidor i OneNote
 second_title: Aspose.Note Java API
 description: Skapa ett dokument med rot- och undersidor i OneNote med Aspose.Note för Java. Följ steg-för-steg-guiden för att effektivt organisera dina anteckningar.
-type: docs
 weight: 11
 url: /sv/java/onenote-page-manipulation/create-document-with-root-and-sub-pages/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Skapa dokument med rot- och undersidor i OneNote
+
 ## Introduktion
 
 I den här handledningen guidar vi dig genom processen att skapa ett dokument med rot- och undersidor i OneNote med Aspose.Note för Java. Genom att följa dessa steg kan du effektivt organisera dina OneNote-dokument med hierarkisk struktur.
@@ -169,3 +175,9 @@ S4: Ja, Aspose.Note för Java stöder att spara dokument i olika format inklusiv
 ### F5: Finns det en testversion tillgänglig för Aspose.Note för Java?
 
 S5: Ja, du kan ladda ner en gratis testversion av Aspose.Note för Java från webbplatsen.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -3,10 +3,16 @@ title: User-Saving Callbacks in Aspose.Note
 linktitle: User-Saving Callbacks in Aspose.Note
 second_title: Aspose.Note .NET API
 description: Learn how to implement user-saving callbacks in Aspose.Note for .NET to customize saving fonts, CSS, and images.
-type: docs
 weight: 31
 url: /net/loading-and-saving-operations/user-saving-callbacks/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# User-Saving Callbacks in Aspose.Note
+
 ## Introduction
 
 In this tutorial, we'll explore how to implement user-saving callbacks in Aspose.Note for .NET. These callbacks allow you to customize the saving process by providing hooks to intervene at different stages, such as saving fonts, CSS stylesheets, and images. By utilizing these callbacks, you can tailor the saving behavior to suit your specific requirements, enhancing the flexibility and control over the output.
@@ -118,3 +124,10 @@ A4: While these callbacks offer flexibility, ensure they are implemented efficie
 ### Q5: Can I dynamically change the saving behavior based on user input or other conditions?
 
 A5: Yes, you can incorporate conditional logic within the callback methods to adjust the saving behavior dynamically based on various factors.
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -3,10 +3,16 @@ title: Chuyển đổi Notebook sang PDF phẳng trong OneNote - Aspose.Note
 linktitle: Chuyển đổi Notebook sang PDF phẳng trong OneNote - Aspose.Note
 second_title: API Java Aspose.Note
 description: Chuyển đổi sổ ghi chép thành tệp PDF được làm phẳng một cách dễ dàng với Aspose.Note cho Java. Tận hưởng các tùy chọn tích hợp và tùy chỉnh liền mạch.
-type: docs
 weight: 16
 url: /vi/java/onenote-notebook-operations/convert-notebook-to-flattened-pdf/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Chuyển đổi Notebook sang PDF phẳng trong OneNote - Aspose.Note
+
 ## Giới thiệu
 
 Trong hướng dẫn này, chúng ta sẽ khám phá cách chuyển đổi sổ ghi chép sang định dạng PDF phẳng bằng Aspose.Note cho Java. Chuyển đổi sổ ghi chép sang PDF là yêu cầu chung đối với nhiều ứng dụng và Aspose.Note đơn giản hóa quy trình này bằng bộ tính năng toàn diện và API dễ sử dụng.
@@ -82,3 +88,9 @@ Câu trả lời 3: Có, bạn có thể chuyển đổi hàng loạt nhiều s�
 ### Câu hỏi 5: Tôi có thể tìm hỗ trợ cho Aspose.Note dành cho Java ở đâu?
 
  Câu trả lời 5: Bạn có thể tìm thấy sự hỗ trợ và hỗ trợ dành cho Aspose.Note dành cho Java trên[Diễn đàn Aspose.Note](https://forum.aspose.com/c/note/28).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

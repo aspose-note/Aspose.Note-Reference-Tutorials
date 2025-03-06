@@ -3,10 +3,16 @@ title: Nhận thẻ nút trong OneNote - Aspose.Note
 linktitle: Nhận thẻ nút trong OneNote - Aspose.Note
 second_title: API Java Aspose.Note
 description: Khám phá bí mật của OneNote với Aspose.Note for Java. Hướng dẫn này cho phép bạn trích xuất thẻ nút một cách dễ dàng. Đi sâu vào tương lai của thao tác tài liệu!
-type: docs
 weight: 15
 url: /vi/java/onenote-tag-operations/get-node-tags/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Nhận thẻ nút trong OneNote - Aspose.Note
+
 ## Giới thiệu
 Chào mừng bạn đến với thế giới của Aspose.Note dành cho Java! Nếu bạn đang muốn tìm hiểu sâu hơn về quản lý và trích xuất thông tin từ tài liệu OneNote thì bạn đã đến đúng nơi. Trong hướng dẫn này, chúng tôi sẽ hướng dẫn bạn quy trình nhận thẻ nút trong OneNote bằng Aspose.Note cho Java. Cuối cùng, bạn sẽ được trang bị kiến thức để khai thác toàn bộ tiềm năng của API Java mạnh mẽ này.
 ## Điều kiện tiên quyết
@@ -81,3 +87,9 @@ Có, Aspose.Note cho phép bạn sửa đổi và cập nhật các thuộc tín
  Khám phá tài liệu chi tiết[đây](https://reference.aspose.com/note/java/).
 ### Làm cách nào tôi có thể nhận được hỗ trợ cho bất kỳ vấn đề hoặc thắc mắc nào?
  Đi tới diễn đàn hỗ trợ[đây](https://forum.aspose.com/c/note/28) để được hỗ trợ từ cộng đồng Aspose.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

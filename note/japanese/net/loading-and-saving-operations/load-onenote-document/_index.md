@@ -3,10 +3,16 @@ title: OneNote ドキュメントを Aspose.Note にロードする
 linktitle: OneNote ドキュメントを Aspose.Note にロードする
 second_title: Aspose.Note .NET API
 description: Aspose.Note を使用して、.NET でプログラム的に OneNote ドキュメントを読み込み、暗号化、復号化する方法を学びます。
-type: docs
 weight: 16
 url: /ja/net/loading-and-saving-operations/load-onenote-document/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# OneNote ドキュメントを Aspose.Note にロードする
+
 ## 導入
 
 Aspose.Note for .NET は、開発者が .NET アプリケーションで Microsoft OneNote ファイルをプログラム的に操作できるようにする強力な API です。 OneNote ドキュメントの読み込み、操作、変換が必要な場合でも、Aspose.Note for .NET はワークフローを合理化するための包括的な機能を提供します。
@@ -174,3 +180,9 @@ A4: はい、次のサイトから無料トライアルをダウンロードで�
 ### Q5: Aspose.Note for .NET の一時ライセンスを取得するにはどうすればよいですか?
 
  A5: 一時ライセンスは、[Aspose購入ページ](https://purchase.aspose.com/temporary-license/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

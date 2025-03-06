@@ -3,10 +3,16 @@ title: Twórz dokumenty z katalogiem głównym i podstronami za pomocą Aspose.N
 linktitle: Twórz dokumenty z katalogiem głównym i podstronami za pomocą Aspose.Note
 second_title: Aspose.Note .NET API
 description: Dowiedz się, jak używać Aspose.Note dla .NET do tworzenia dynamicznych dokumentów OneNote o strukturach hierarchicznych.
-type: docs
 weight: 11
 url: /pl/net/note-manipulation/create-documents-root-sub-pages/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Twórz dokumenty z katalogiem głównym i podstronami za pomocą Aspose.Note
+
 ## Wstęp
 
 Witamy w naszym samouczku na temat tworzenia dokumentów z katalogiem głównym i podstronami przy użyciu Aspose.Note dla .NET! Aspose.Note to potężna biblioteka, która umożliwia programistom programową pracę z plikami Microsoft OneNote, umożliwiając tworzenie, manipulowanie i konwersję dokumentów OneNote.
@@ -130,3 +136,9 @@ Odpowiedź 4: Aspose.Note koncentruje się głównie na programowaniu lokalnym, 
 ### P5: Czy dostępna jest pomoc techniczna dla Aspose.Note?
 
 Odpowiedź 5: Tak, Aspose zapewnia dedykowane wsparcie techniczne za pośrednictwem swojego forum, na którym możesz zadawać pytania i uzyskać pomoc.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

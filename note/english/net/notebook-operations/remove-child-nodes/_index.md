@@ -3,10 +3,16 @@ title: Remove Child Nodes in Aspose Note .NET
 linktitle: Remove Child Nodes in Aspose Note .NET
 second_title: Aspose.Note .NET API
 description: Learn how to remove child nodes in Aspose.Note for .NET effortlessly. Simplify your OneNote file management with this step-by-step guide.
-type: docs
 weight: 24
 url: /net/notebook-operations/remove-child-nodes/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Remove Child Nodes in Aspose Note .NET
+
 ## Introduction
 
 In this tutorial, we'll explore how to efficiently remove child nodes using Aspose.Note for .NET. Aspose.Note is a powerful library that allows developers to work with Microsoft OneNote files programmatically. Whether you're managing notebooks, sections, or individual pages, Aspose.Note simplifies the process with its intuitive API. Here, we'll focus specifically on removing child nodes from a notebook.
@@ -92,3 +98,10 @@ A4: Absolutely! Aspose.Note offers robust features for creating, reading, and mo
 ### Q5: Where can I find additional support for Aspose.Note?
 
 A5: For any further assistance or inquiries, you can visit the [Aspose.Note forum](https://forum.aspose.com/c/note/28) where experts and fellow developers are available to help.
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

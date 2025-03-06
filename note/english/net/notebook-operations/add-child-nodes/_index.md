@@ -3,10 +3,16 @@ title: Add Child Nodes in Aspose Note .NET
 linktitle: Add Child Nodes in Aspose Note .NET
 second_title: Aspose.Note .NET API
 description: Learn how to add child nodes in Aspose Note .NET effortlessly with this comprehensive tutorial. Boost your document manipulation skills now.
-type: docs
 weight: 10
 url: /net/notebook-operations/add-child-nodes/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Add Child Nodes in Aspose Note .NET
+
 ## Introduction
 
 In this tutorial, we'll learn how to add child nodes in Aspose Note .NET. Adding child nodes is a fundamental operation when working with documents, and Aspose Note .NET provides a straightforward way to accomplish this task.
@@ -89,3 +95,10 @@ A4: You can purchase Aspose.Note for .NET from the website [here](https://purcha
 ### Q5: Does Aspose.Note for .NET come with documentation?
 
 A5: Yes, you can find detailed documentation [here](https://reference.aspose.com/note/net/).
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

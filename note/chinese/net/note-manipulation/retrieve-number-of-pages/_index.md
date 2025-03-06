@@ -3,10 +3,16 @@ title: 检索 Aspose.Note 文档中的页数
 linktitle: 检索 Aspose.Note 文档中的页数
 second_title: Aspose.Note .NET API
 description: 了解如何使用 C# 计算 Aspose.Note 文档中的页数。请遵循我们的分步指南以轻松集成。
-type: docs
 weight: 12
 url: /zh/net/note-manipulation/retrieve-number-of-pages/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# 检索 Aspose.Note 文档中的页数
+
 ## 介绍
 
 Aspose.Note for .NET 是一个功能强大的库，允许开发人员以编程方式使用 Microsoft OneNote 文件。无论您需要创建、操作还是转换 OneNote 文档，Aspose.Note 都提供了全面的功能来简化您的任务。在本教程中，我们将深入研究基本操作之一：使用 C# 检索 Aspose.Note 文档中的页数。
@@ -100,3 +106,9 @@ A2：当然，Aspose.Note 支持转换为各种格式，包括 PDF、HTML 和图
 ### Q5：如何获得Aspose.Note的技术支持？
 
  A5：您可以寻求帮助并与社区互动[Aspose.Note 支持论坛](https://forum.aspose.com/c/note/28).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

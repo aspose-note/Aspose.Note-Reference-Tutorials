@@ -3,10 +3,16 @@ title: Μετατροπή σημειωματάριων σε PDF (Flattened) στ
 linktitle: Μετατροπή σημειωματάριων σε PDF (Flattened) στο Aspose Note .NET
 second_title: Aspose.Note .NET API
 description: Μάθετε πώς να μετατρέπετε σημειωματάρια OneNote σε ισοπεδωμένα PDF χωρίς κόπο χρησιμοποιώντας το Aspose.Note για .NET. Διατηρήστε το περιεχόμενό σας απρόσκοπτα.
-type: docs
 weight: 15
 url: /el/net/notebook-operations/convert-to-pdf-flattened/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Μετατροπή σημειωματάριων σε PDF (Flattened) στο Aspose Note .NET
+
 ## Εισαγωγή
 
 Θέλετε να μετατρέψετε τα σημειωματάρια του OneNote σε ισοπεδωμένα PDF χρησιμοποιώντας το Aspose Note .NET; Είστε στο σωστό μέρος! Σε αυτό το σεμινάριο, θα δούμε τη διαδικασία βήμα προς βήμα.
@@ -91,3 +97,9 @@ A2: Ναι, το Aspose.Note υποστηρίζει τη μετατροπή φο
 ### Ε5: Πού μπορώ να λάβω υποστήριξη εάν αντιμετωπίσω προβλήματα;
 
  A5: Μπορείτε να αναζητήσετε υποστήριξη από την κοινότητα Aspose στο[Φόρουμ Aspose.Note](https://forum.aspose.com/c/note/28).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

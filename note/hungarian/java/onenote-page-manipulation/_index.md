@@ -3,10 +3,16 @@ title: OneNote oldalkezelés
 linktitle: OneNote oldalkezelés
 second_title: Aspose.Note Java API
 description: Kezelje az ütköző oldalakat, hozzon létre rendezett dokumentumokat, és kövesse nyomon a változatokat a OneNote-ban az Aspose.Note for Java segítségével. Lépésről lépésre oktatóanyagok a hatékony dokumentumkezeléshez.
-type: docs
 weight: 29
 url: /hu/java/onenote-page-manipulation/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# OneNote oldalkezelés
+
 
 ## Bevezetés
 
@@ -74,3 +80,9 @@ Ismerje meg, hogyan térhet vissza a korábbi oldalverziókra a OneNote-ban az A
 Ismerje meg, hogyan állíthatja be könnyedén az oldal háttérszínét a OneNote-ban az Aspose.Note for Java segítségével. Növelje dokumentumai vizuális vonzerejét ezzel az egyszerű oktatóanyaggal.
 ### [Az oldalváltozatok kezelése a OneNote-ban – Aspose.Note](./working-with-page-revisions/)
 Ismerje meg, hogyan kezelheti az oldalváltozatokat a OneNote-dokumentumokban az Aspose.Note for Java használatával. Ez az oktatóanyag lépésről lépésre nyújt útmutatót a hatékony revíziókövetéshez és együttműködéshez.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -3,10 +3,16 @@ title: Modifica la cronologia delle pagine in Aspose.Note
 linktitle: Modifica la cronologia delle pagine in Aspose.Note
 second_title: Aspose.Note API .NET
 description: Scopri come modificare la cronologia delle pagine in Aspose.Note per .NET utilizzando questo tutorial completo. Migliora le tue capacità di elaborazione dei documenti senza sforzo.
-type: docs
 weight: 15
 url: /it/net/note-manipulation/modify-page-history/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Modifica la cronologia delle pagine in Aspose.Note
+
 ## introduzione
 
 Nel campo dell'elaborazione dei documenti, Aspose.Note per .NET emerge come uno strumento robusto, consentendo agli sviluppatori di manipolare i file OneNote senza sforzo. Un'attività comune incontrata dagli sviluppatori è la modifica della cronologia delle pagine all'interno dei documenti Aspose.Note. Questo tutorial illustra il processo passo dopo passo, guidandoti attraverso gli spazi dei nomi, i prerequisiti e gli snippet di codice necessari per modificare in modo efficace la cronologia delle pagine utilizzando Aspose.Note per .NET.
@@ -94,3 +100,10 @@ R4: Sì, gli sviluppatori possono chiedere assistenza e guida al forum di suppor
 ### Q5: Posso provare Aspose.Note per .NET prima di effettuare un acquisto?
 
 A5: Assolutamente, gli sviluppatori possono avvalersi di una versione di prova gratuita di Aspose.Note per .NET per valutarne le funzionalità e l'idoneità per i loro progetti.
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

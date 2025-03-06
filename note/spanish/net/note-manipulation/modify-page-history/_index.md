@@ -3,10 +3,16 @@ title: Modificar el historial de páginas en Aspose.Note
 linktitle: Modificar el historial de páginas en Aspose.Note
 second_title: Aspose.Nota .NET API
 description: Aprenda cómo modificar el historial de la página en Aspose.Note para .NET usando este tutorial completo. Mejore sus capacidades de procesamiento de documentos sin esfuerzo.
-type: docs
 weight: 15
 url: /es/net/note-manipulation/modify-page-history/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Modificar el historial de páginas en Aspose.Note
+
 ## Introducción
 
 En el ámbito del procesamiento de documentos, Aspose.Note para .NET surge como una herramienta sólida que permite a los desarrolladores manipular archivos de OneNote sin esfuerzo. Una tarea común que encuentran los desarrolladores es modificar el historial de páginas dentro de los documentos Aspose.Note. Este tutorial explica el proceso paso a paso y lo guía a través de los espacios de nombres, los requisitos previos y los fragmentos de código necesarios para modificar de manera efectiva el historial de la página usando Aspose.Note para .NET.
@@ -94,3 +100,10 @@ R4: Sí, los desarrolladores pueden buscar ayuda y orientación en el foro de so
 ### P5: ¿Puedo probar Aspose.Note para .NET antes de realizar una compra?
 
 R5: Por supuesto, los desarrolladores pueden aprovechar una versión de prueba gratuita de Aspose.Note para .NET para evaluar sus características y su idoneidad para sus proyectos.
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

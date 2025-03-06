@@ -3,10 +3,16 @@ title: 在 OneNote 中撰寫表格 - Aspose.Note
 linktitle: 在 OneNote 中撰寫表格 - Aspose.Note
 second_title: Aspose.Note Java API
 description: 了解如何使用 Aspose.Note for Java 以程式設計方式在 OneNote 中撰寫表格。高效率文件建立的逐步指南。
-type: docs
 weight: 11
 url: /zh-hant/java/onenote-table-manipulation/compose-table/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# 在 OneNote 中撰寫表格 - Aspose.Note
+
 ## 介紹
 在當今競爭激烈的商業環境中，有效的溝通和協作是成功的關鍵因素。 Aspose.Note for Java 提供了一個強大的解決方案，用於以程式設計方式建立和操作 OneNote 文件。在本教學中，我們將探討如何使用 Aspose.Note for Java 在 OneNote 中撰寫表格。請按照下面的逐步指南來增強您的文件建立過程。
 ## 先決條件
@@ -77,3 +83,9 @@ d.save(Paths.get(dataDir, "ComposeTable_out.one").toString());
 造訪支援論壇[這裡](https://forum.aspose.com/c/note/28).
 ### Q：我可以獲得臨時許可證嗎？
 是的，您可以獲得臨時許可證[這裡](https://purchase.aspose.com/temporary-license/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

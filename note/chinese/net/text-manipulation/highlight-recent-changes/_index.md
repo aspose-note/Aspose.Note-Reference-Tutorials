@@ -3,10 +3,16 @@ title: 突出显示 Aspose.Note 文本中的所有最新更改
 linktitle: 突出显示 Aspose.Note 文本中的所有最新更改
 second_title: Aspose.Note .NET API
 description: 使用 Aspose.Note for .NET 增强您的 Note 文档！通过此分步教程，了解如何突出显示文本中最近的更改。
-type: docs
 weight: 19
 url: /zh/net/text-manipulation/highlight-recent-changes/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# 突出显示 Aspose.Note 文本中的所有最新更改
+
 ## 介绍
 您是否希望使用 .NET 向您的 Note 文档添加动态且具有视觉吸引力的功能？ Aspose.Note for .NET 是一个功能强大的解决方案，可让您无缝地操作和增强您的 Note 文件。在本教程中，我们将深入研究一个特定方面：突出显示 Aspose.Note 文本中的所有最新更改。
 ## 先决条件
@@ -70,3 +76,9 @@ Aspose.Note 定期更新其库，以确保与最新的 .NET 框架兼容。
 绝对地！ Aspose.Note 提供了广泛的文本格式化功能，包括字体样式、大小等。
 ### 我可以将此解决方案集成到 Web 应用程序中吗？
 是的，您可以将 Aspose.Note for .NET 集成到 Web 应用程序中以增强文档处理能力。
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

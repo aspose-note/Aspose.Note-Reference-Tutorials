@@ -3,10 +3,16 @@ title: Infoga bilder med hyperlänkar i Aspose.Note
 linktitle: Infoga bilder med hyperlänkar i Aspose.Note
 second_title: Aspose.Note .NET API
 description: Lär dig hur du infogar bilder med hyperlänkar i Aspose.Note för .NET utan ansträngning. Förbättra dokumentinteraktiviteten med klickbara bilder.
-type: docs
 weight: 15
 url: /sv/net/images/insert-image-hyperlink/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Infoga bilder med hyperlänkar i Aspose.Note
+
 ## Introduktion
 
 Aspose.Note för .NET tillhandahåller en kraftfull uppsättning funktioner för att arbeta med bilder, inklusive möjligheten att infoga bilder med hyperlänkar. I den här handledningen guidar vi dig genom processen att infoga bilder med hyperlänkar med Aspose.Note för .NET.
@@ -89,3 +95,9 @@ S3: Ja, du kan anpassa utseendet på hyperlänkar, inklusive färg, understrykni
 ### F5: Var kan jag få support för Aspose.Note för .NET?
 
  S5: Du kan få support för Aspose.Note för .NET från[Aspose.Note-forum](https://forum.aspose.com/c/note/28), där du kan ställa frågor, söka vägledning och interagera med andra användare och experter.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

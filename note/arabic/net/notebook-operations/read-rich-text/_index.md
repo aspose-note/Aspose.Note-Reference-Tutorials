@@ -3,10 +3,16 @@ title: قراءة النص المنسق في Aspose Note .NET
 linktitle: قراءة النص المنسق في Aspose Note .NET
 second_title: Aspose.Note .NET API
 description: تعرف على كيفية قراءة النص المنسق من دفاتر ملاحظات OneNote برمجياً باستخدام Aspose.Note لـ .NET. اتبع برنامجنا التعليمي خطوة بخطوة لسهولة التكامل.
-type: docs
 weight: 23
 url: /ar/net/notebook-operations/read-rich-text/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# قراءة النص المنسق في Aspose Note .NET
+
 ## مقدمة
 
 في هذا البرنامج التعليمي، سنستكشف كيفية قراءة النص المنسق باستخدام Aspose.Note لـ .NET. Aspose.Note عبارة عن واجهة برمجة تطبيقات قوية تمكن المطورين من العمل مع مستندات Microsoft OneNote برمجيًا، وتقدم مجموعة واسعة من الوظائف لإنشاء ملفات OneNote وتحريرها ومعالجتها.
@@ -97,3 +103,9 @@ foreach (RichText richTextNode in allRichTextNodes)
 ### س5: أين يمكنني العثور على الوثائق التفصيلية لـ Aspose.Note لـ .NET؟
 
  ج5: يمكنك العثور على وثائق شاملة لـ Aspose.Note لـ .NET على الموقع[الصفحه المرجعيه](https://reference.aspose.com/note/net/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

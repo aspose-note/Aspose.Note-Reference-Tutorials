@@ -3,10 +3,16 @@ title: Установить стиль абзаца по умолчанию в O
 linktitle: Установить стиль абзаца по умолчанию в OneNote — Aspose.Note
 second_title: Aspose.Note Java API
 description: Узнайте, как установить стили абзацев по умолчанию в OneNote с помощью Aspose.Note для Java. Следуйте нашему пошаговому руководству для эффективного форматирования текста в ваших Java-приложениях.
-type: docs
 weight: 11
 url: /ru/java/onenote-styles/set-default-paragraph-style/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Установить стиль абзаца по умолчанию в OneNote — Aspose.Note
+
 ## Введение
 
 Aspose.Note для Java предлагает мощные возможности для управления форматированием текста, включая установку стилей абзацев по умолчанию. Это руководство проведет вас через процесс установки стилей абзацев по умолчанию в OneNote с помощью Aspose.Note.
@@ -127,3 +133,9 @@ A3: Aspose.Note предназначен для работы с файлами M
 ### Вопрос 5: Доступна ли пробная версия для Aspose.Note?
 
  О5: Да, вы можете получить доступ к бесплатной пробной версии Aspose.Note из[Веб-сайт](https://releases.aspose.com/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

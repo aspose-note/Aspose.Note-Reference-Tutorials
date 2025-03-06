@@ -3,10 +3,16 @@ title: Especificar opciones de guardar en Aspose.Note
 linktitle: Especificar opciones de guardar en Aspose.Note
 second_title: Aspose.Nota .NET API
 description: Aprenda a especificar opciones de guardado en Aspose.Note para .NET para personalizar el formato de salida y la calidad de los documentos de OneNote.
-type: docs
 weight: 30
 url: /es/net/loading-and-saving-operations/specify-save-options/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Especificar opciones de guardar en Aspose.Note
+
 ## Introducción
 
 En el ámbito del desarrollo .NET, Aspose.Note se destaca como una poderosa herramienta para trabajar con documentos de OneNote. Ofrece un conjunto completo de funciones para manipular y administrar estos archivos de manera eficiente. Un aspecto crucial de trabajar con Aspose.Note es especificar opciones de guardado, lo que permite a los desarrolladores personalizar el formato de salida y la calidad según sus requisitos.
@@ -94,3 +100,9 @@ R4: Aspose.Note está diseñado para manejar documentos OneNote de varios tamañ
 ### P5: ¿Aspose.Note ofrece soporte y asistencia a los desarrolladores que tienen problemas?
 
 R5: Sí, los desarrolladores pueden buscar ayuda y asistencia del equipo de soporte de Aspose.Note a través del foro o comunicándose directamente con Aspose para resolver oportunamente cualquier problema o consulta.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

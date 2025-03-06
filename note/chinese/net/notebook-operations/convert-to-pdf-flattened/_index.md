@@ -3,10 +3,16 @@ title: 在 Aspose Note .NET 中将笔记本转换为 PDF（扁平化）
 linktitle: 在 Aspose Note .NET 中将笔记本转换为 PDF（扁平化）
 second_title: Aspose.Note .NET API
 description: 了解如何使用 Aspose.Note for .NET 轻松将 OneNote 笔记本转换为扁平 PDF。无缝保存您的内容。
-type: docs
 weight: 15
 url: /zh/net/notebook-operations/convert-to-pdf-flattened/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# 在 Aspose Note .NET 中将笔记本转换为 PDF（扁平化）
+
 ## 介绍
 
 您是否希望使用 Aspose Note .NET 将 OneNote 笔记本转换为扁平 PDF？您来对地方了！在本教程中，我们将逐步演示该过程。
@@ -91,3 +97,9 @@ A3：当然！ Aspose.Note 在转换过程中提供了广泛的自定义选项�
 ### Q5：如果遇到任何问题，我可以在哪里获得支持？
 
  A5：您可以通过以下地址寻求 Aspose 社区的支持：[Aspose.Note 论坛](https://forum.aspose.com/c/note/28).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

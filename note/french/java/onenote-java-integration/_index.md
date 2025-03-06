@@ -3,10 +3,16 @@ title: Intégration Java OneNote
 linktitle: Intégration Java OneNote
 second_title: API Java Aspose.Note
 description: Améliorez votre expérience OneNote avec Aspose.Note Java ! Explorez des didacticiels sur la manière de joindre des fichiers, de définir des icônes et de récupérer des pièces jointes par programmation à l'aide de Java.
-type: docs
 weight: 20
 url: /fr/java/onenote-java-integration/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Intégration Java OneNote
+
 ## Introduction
 
 Bienvenue dans notre guide complet sur l'intégration de OneNote à Java à l'aide d'Aspose.Note. Que vous soyez un développeur chevronné ou débutant, ces didacticiels vous permettront d'optimiser vos capacités OneNote par programmation.
@@ -36,3 +42,9 @@ Découvrez comment joindre des fichiers et définir des icônes dans OneNote à 
 Découvrez comment joindre des fichiers à vos notes OneNote par programmation à l'aide de Java avec Aspose.Note.
 ### [Récupérer une pièce jointe de OneNote à l'aide de Java](./retrieve-attachment/)
 Découvrez comment récupérer des pièces jointes depuis OneNote à l'aide de Java avec Aspose.Note, une API puissante pour une manipulation transparente des documents.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

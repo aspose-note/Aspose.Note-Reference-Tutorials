@@ -3,10 +3,16 @@ title: Intégration des tâches et d'Outlook
 linktitle: Intégration des tâches et d'Outlook
 second_title: API Java Aspose.Note
 description: Libérez le potentiel d'Aspose.Note Java avec nos didacticiels sur l'intégration des tâches Outlook dans OneNote. Élevez vos compétences en traitement de documents avec nos tutoriels.
-type: docs
 weight: 35
 url: /fr/java/task-and-outlook-integration/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Intégration des tâches et d'Outlook
+
 
 ## Introduction
 
@@ -38,3 +44,9 @@ Alors que vous vous lancez dans ce voyage avec Aspose.Note pour Java, n'oubliez 
 ## Tutoriels d'intégration de tâches et d'Outlook
 ### [Obtenir la tâche Outlook dans OneNote - Aspose.Note](./get-outlook-task/)
 Découvrez la puissance d'Aspose.Note pour Java pour extraire sans effort les tâches Outlook de OneNote. Suivez notre guide étape par étape et améliorez vos capacités de traitement de documents.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

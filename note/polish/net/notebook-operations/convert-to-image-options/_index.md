@@ -3,10 +3,16 @@ title: Konwertuj notesy na obraz za pomocą opcji w Aspose Note .NET
 linktitle: Konwertuj notesy na obraz za pomocą opcji w Aspose Note .NET
 second_title: Aspose.Note .NET API
 description: Dowiedz się, jak konwertować notesy na obrazy z dostosowywalnymi opcjami za pomocą Aspose.Note dla .NET.
-type: docs
 weight: 13
 url: /pl/net/notebook-operations/convert-to-image-options/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Konwertuj notesy na obraz za pomocą opcji w Aspose Note .NET
+
 ## Wstęp
 
 tym samouczku zajmiemy się konwersją notatników na obrazy za pomocą różnych opcji przy użyciu biblioteki Aspose.Note dla .NET. Aspose.Note to potężny interfejs API .NET, który umożliwia programistom programową pracę z plikami Microsoft OneNote. Wykonując kroki opisane w tym przewodniku, dowiesz się, jak bez wysiłku konwertować notatki na obrazy, dostosowując wydruk do swoich wymagań.
@@ -95,3 +101,9 @@ O4: Tak, Aspose.Note dla .NET zapewnia różne opcje dostosowywania wyjściowego
 ### P5: Czy Aspose.Note dla .NET obsługuje inne formaty obrazów oprócz PNG?
 
 O5: Tak, Aspose.Note dla .NET obsługuje kilka formatów obrazów, w tym JPEG, BMP, GIF i TIFF.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

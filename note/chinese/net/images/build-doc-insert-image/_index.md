@@ -3,10 +3,16 @@ title: 在 Aspose.Note 中构建文档并插入图像
 linktitle: 在 Aspose.Note 中构建文档并插入图像
 second_title: Aspose.Note .NET API
 description: 了解如何使用 Aspose.Note for .NET 以编程方式将图像插入 OneNote 文档中。无缝文档操作的简单步骤。
-type: docs
 weight: 10
 url: /zh/net/images/build-doc-insert-image/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# 在 Aspose.Note 中构建文档并插入图像
+
 ## 介绍
 
 在本教程中，我们将深入研究使用 Aspose.Note for .NET 进行文档操作的世界。 Aspose.Note 是一个功能强大的 API，允许开发人员以编程方式处理 Microsoft OneNote 文件，从而轻松执行创建、修改和转换文档等任务。 
@@ -150,3 +156,9 @@ A4：是的，Aspose.Note 提供了用于自定义图像外观的全面选项，
 ### 问题 5：在哪里可以找到 Aspose.Note for .NET 的其他资源和支持？
 
  A5：您可以探索Aspose.Note文档[这里](https://reference.aspose.com/note/net/)并从 Aspose 社区论坛寻求帮助[这里](https://forum.aspose.com/c/note/28).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

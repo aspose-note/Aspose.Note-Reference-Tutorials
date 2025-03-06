@@ -3,10 +3,16 @@ title: Définir la couleur d'arrière-plan de la page dans OneNote - Aspose.Note
 linktitle: Définir la couleur d'arrière-plan de la page dans OneNote - Aspose.Note
 second_title: API Java Aspose.Note
 description: Découvrez comment définir facilement la couleur d’arrière-plan de la page dans OneNote à l’aide d’Aspose.Note pour Java. Améliorez l'attrait visuel de vos documents avec ce didacticiel simple.
-type: docs
 weight: 20
 url: /fr/java/onenote-page-manipulation/set-page-background-color/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Définir la couleur d'arrière-plan de la page dans OneNote - Aspose.Note
+
 ## Introduction
 
 Dans ce didacticiel, nous approfondirons le processus de définition de la couleur d'arrière-plan de la page dans OneNote à l'aide d'Aspose.Note pour Java. Aspose.Note est une puissante bibliothèque Java qui permet aux développeurs de manipuler des documents OneNote par programme. Changer la couleur d’arrière-plan de la page peut améliorer l’attrait visuel de vos documents OneNote, les rendant plus attrayants et organisés.
@@ -100,3 +106,9 @@ A4 : Certainement ! Vous pouvez bénéficier d’un essai gratuit d’Aspose.Not
 ### Q5 : Où puis-je trouver une assistance ou une assistance supplémentaire avec Aspose.Note ?
 
 A5 : Pour toute question ou assistance, vous pouvez visiter le forum Aspose.Note ou contacter leur équipe d'assistance pour une aide rapide.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

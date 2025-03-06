@@ -3,10 +3,16 @@ title: Vytvořte dokument s kořenovými a podřízenými stránkami ve OneNotu
 linktitle: Vytvořte dokument s kořenovými a podřízenými stránkami ve OneNotu
 second_title: Aspose.Note Java API
 description: Vytvořte dokument s kořenovými a podřízenými stránkami ve OneNotu pomocí Aspose.Note for Java. Postupujte podle podrobného průvodce pro efektivní uspořádání poznámek.
-type: docs
 weight: 11
 url: /cs/java/onenote-page-manipulation/create-document-with-root-and-sub-pages/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Vytvořte dokument s kořenovými a podřízenými stránkami ve OneNotu
+
 ## Úvod
 
 V tomto kurzu vás provedeme procesem vytváření dokumentu s kořenovými a podřízenými stránkami ve OneNotu pomocí Aspose.Note for Java. Podle těchto kroků budete moci efektivně organizovat své dokumenty OneNotu pomocí hierarchické struktury.
@@ -169,3 +175,9 @@ Odpověď 4: Ano, Aspose.Note pro Java podporuje ukládání dokumentů v různ�
 ### Q5: Je k dispozici zkušební verze pro Aspose.Note pro Java?
 
 Odpověď 5: Ano, z webu si můžete stáhnout bezplatnou zkušební verzi Aspose.Note pro Javu.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

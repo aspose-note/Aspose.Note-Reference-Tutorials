@@ -3,10 +3,16 @@ title: Mentés szürkeárnyalatos képbe a OneNote-ban – Aspose.Note
 linktitle: Mentés szürkeárnyalatos képbe a OneNote-ban – Aspose.Note
 second_title: Aspose.Note Java API
 description: Ismerje meg, hogyan menthet el egy dokumentumot szürkeárnyalatos képként a OneNote-ban az Aspose.Note for Java használatával. A Microsoft OneNote dokumentumokat egyszerűen, programozottan kezelheti.
-type: docs
 weight: 17
 url: /hu/java/onenote-document-saving/save-to-grayscale-image/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Mentés szürkeárnyalatos képbe a OneNote-ban – Aspose.Note
+
 ## Bevezetés
 
 Ebben az oktatóanyagban megvizsgáljuk, hogyan lehet egy dokumentumot szürkeárnyalatos képként menteni a OneNote-ban az Aspose.Note for Java használatával. A szürkeárnyalatos képek monokromatikus képek, ahol a színinformációkat csak a szürke árnyalatai képviselik. Az Aspose.Note egy hatékony Java API, amely lehetővé teszi a Microsoft OneNote dokumentumok programozott kezelését.
@@ -83,3 +89,9 @@ A4: Abszolút! Az Aspose.Note szolgáltatások széles skáláját kínálja a O
 ### 5. kérdés: Hol találok támogatást, ha problémákba ütközöm?
 
 5. válasz: Támogatást találhat az Aspose.Note fórumon[itt](https://forum.aspose.com/c/note/28).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

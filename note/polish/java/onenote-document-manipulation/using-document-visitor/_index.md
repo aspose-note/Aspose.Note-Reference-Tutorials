@@ -3,10 +3,16 @@ title: Korzystanie z Odwiedzającego dokumenty w programie OneNote z językiem J
 linktitle: Korzystanie z Odwiedzającego dokumenty w programie OneNote z językiem Java
 second_title: Aspose.Note API Java
 description: Dowiedz się, jak korzystać z Odwiedzającego dokumenty w programie OneNote przy użyciu języka Java z Aspose.Note. Płynnie przeglądaj i manipuluj dokumentami programu OneNote.
-type: docs
 weight: 10
 url: /pl/java/onenote-document-manipulation/using-document-visitor/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Korzystanie z Odwiedzającego dokumenty w programie OneNote z językiem Java
+
 ## Wstęp
 
 tym samouczku omówimy, jak korzystać z funkcji odwiedzającego dokumenty w programie OneNote przy użyciu języka Java z Aspose.Note. Odwiedzający dokument umożliwia poruszanie się po elementach dokumentu OneNote i wykonywanie na nich operacji. Krok po kroku przeprowadzimy Cię przez proces.
@@ -95,3 +101,9 @@ O1: Tak, Aspose.Note obsługuje różne języki programowania, w tym .NET, C++, 
 ### P5: Czy dostępna jest dokumentacja dla Aspose.Note?
 
  Odpowiedź 5: Tak, możesz znaleźć dokumentację[Tutaj](https://reference.aspose.com/note/java/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

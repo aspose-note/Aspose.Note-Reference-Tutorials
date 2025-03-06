@@ -3,10 +3,16 @@ title: Estrai il testo della riga dalla tabella nel documento OneNote - Aspose.N
 linktitle: Estrai il testo della riga dalla tabella nel documento OneNote - Aspose.Note
 second_title: Aspose.Note API Java
 description: Impara a estrarre il testo delle righe dalle tabelle OneNote senza sforzo con Aspose.Note per Java. Segui la nostra guida passo passo per un'integrazione perfetta.
-type: docs
 weight: 13
 url: /it/java/onenote-table-manipulation/extract-row-text-from-table/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Estrai il testo della riga dalla tabella nel documento OneNote - Aspose.Note
+
 ## introduzione
 Benvenuti in questo tutorial completo sull'estrazione del testo delle righe dalle tabelle nei documenti OneNote utilizzando Aspose.Note per Java. Aspose.Note è una potente libreria Java che consente agli sviluppatori di lavorare senza problemi con i file Microsoft OneNote. In questo tutorial ti guideremo attraverso il processo passo dopo passo, dimostrando come estrarre in modo efficiente il testo delle righe dalle tabelle nei tuoi documenti OneNote.
 ## Prerequisiti
@@ -74,3 +80,9 @@ Sì, puoi esplorare una prova gratuita di Aspose.Note su[questo link](https://re
  Ottieni una licenza temporanea da[questo link](https://purchase.aspose.com/temporary-license/).
 ### Esistono requisiti di sistema specifici per l'utilizzo di Aspose.Note per Java?
 Fare riferimento alla documentazione per i requisiti di sistema dettagliati.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

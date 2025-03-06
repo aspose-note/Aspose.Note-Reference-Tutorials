@@ -3,10 +3,16 @@ title: Χειρισμός κειμένου OneNote
 linktitle: Χειρισμός κειμένου OneNote
 second_title: Aspose.Note Java API
 description: Εξερευνήστε τα μαθήματα Java του Aspose.Note σχετικά με τη χειραγώγηση κειμένου του OneNote. Εξερευνήστε αποτελεσματικές μεθόδους για εργασίες όπως εξαγωγή κειμένου, εφαρμογή θεμάτων, δημιουργία λιστών και άλλα.
-type: docs
 weight: 34
 url: /el/java/onenote-text-manipulation/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Χειρισμός κειμένου OneNote
+
 
 ## Εισαγωγή
 
@@ -56,3 +62,9 @@ url: /el/java/onenote-text-manipulation/
 Ξεκλειδώστε τις δυνατότητες του Aspose.Note για Java! Μάθετε πώς να ρυθμίζετε απρόσκοπτα τη γλώσσα διόρθωσης κειμένου στο OneNote με τον αναλυτικό οδηγό μας.
 ### [Ρύθμιση τίτλου σελίδας στο στυλ Microsoft OneNote - Aspose.Note](./setting-page-title-in-microsoft-onenote-style/)
 Μάθετε πώς να ορίζετε τίτλους σελίδων σε στυλ Microsoft OneNote χρησιμοποιώντας το Aspose.Note για Java. Αναβαθμίστε τα έγγραφα Java σας με επαγγελματική μορφοποίηση.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

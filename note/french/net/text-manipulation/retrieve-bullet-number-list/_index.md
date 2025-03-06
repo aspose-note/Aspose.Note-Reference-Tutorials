@@ -3,10 +3,16 @@ title: Récupérer une liste de puces ou de numéros dans Aspose.Note Text
 linktitle: Récupérer une liste de puces ou de numéros dans Aspose.Note Text
 second_title: API Aspose.Note .NET
 description: Libérez le potentiel d'Aspose.Note pour .NET avec notre guide étape par étape sur la récupération de listes à puces ou de numéros. Élevez vos compétences en manipulation de documents OneNote !
-type: docs
 weight: 23
 url: /fr/net/text-manipulation/retrieve-bullet-number-list/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Récupérer une liste de puces ou de numéros dans Aspose.Note Text
+
 ## Introduction
 Bienvenue dans le monde d'Aspose.Note pour .NET, une bibliothèque robuste et polyvalente qui permet aux développeurs de gérer sans effort la manipulation de documents OneNote. Dans ce didacticiel, nous approfondirons le processus de récupération de listes à puces ou de numéros à l'aide d'Aspose.Note pour .NET. Que vous soyez un développeur chevronné ou un passionné de codage, ce guide vous fournira les connaissances nécessaires pour naviguer dans les subtilités de l'utilisation des listes dans Aspose.Note.
 ## Conditions préalables
@@ -87,3 +93,9 @@ Oui, Aspose.Note prend en charge une large gamme de formats OneNote, garantissan
 Vous pouvez explorer et demander de l'aide dans le[Forum Aspose.Note](https://forum.aspose.com/c/note/28) pour toute question ou problème que vous pourriez rencontrer.
 ### Existe-t-il une version d’essai gratuite d’Aspose.Note pour .NET ?
  Oui, vous pouvez accéder à la version d'essai gratuite d'Aspose.Note pour .NET[ici](https://releases.aspose.com/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

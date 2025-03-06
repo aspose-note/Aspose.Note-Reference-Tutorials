@@ -3,10 +3,16 @@ title: Επισυνάψτε το εικονίδιο αρχείου και ορι
 linktitle: Επισυνάψτε το εικονίδιο αρχείου και ορισμού στο OneNote χρησιμοποιώντας Java
 second_title: Aspose.Note Java API
 description: Ενισχύστε τη ροή εργασίας σας στο OneNote! Μάθετε πώς να επισυνάπτετε αρχεία και να προσαρμόζετε εικονίδια μέσω προγραμματισμού σε Java με το Aspose.Note. Εύκολα βήματα και κωδικός συμπεριλαμβάνεται! #OneNote #Java #Aspose
-type: docs
 weight: 10
 url: /el/java/onenote-java-integration/attach-file-and-set-icon/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Επισυνάψτε το εικονίδιο αρχείου και ορισμού στο OneNote χρησιμοποιώντας Java
+
 ## Εισαγωγή
 
 Το OneNote είναι ένα δημοφιλές εργαλείο για τη λήψη σημειώσεων και την οργάνωση πληροφοριών και με τη βοήθεια του Aspose.Note για Java, μπορείτε να βελτιώσετε τις δυνατότητές του επισυνάπτοντας αρχεία μέσω προγραμματισμού και ορίζοντας εικονίδια για να βελτιώσετε την οπτική αναπαράσταση των σημειώσεων σας. Σε αυτό το σεμινάριο, θα σας καθοδηγήσουμε στη διαδικασία βήμα προς βήμα.
@@ -149,3 +155,10 @@ A3: Αναμφίβολα, μπορείτε να επιλέξετε προσαρ�
 ### Ε5: Υπάρχει διαθέσιμη δοκιμαστική έκδοση για το Aspose.Note για Java;
 
 A5: Ναι, μπορείτε να εξερευνήσετε τη λειτουργικότητα του Aspose.Note για Java με μια δωρεάν δοκιμή διαθέσιμη στη διεύθυνση[αυτός ο σύνδεσμος](https://releases.aspose.com/).
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -3,10 +3,16 @@ title: Dodaj hiperłącze do obrazu w programie OneNote przy użyciu języka Jav
 linktitle: Dodaj hiperłącze do obrazu w programie OneNote przy użyciu języka Java
 second_title: Aspose.Note API Java
 description: Spraw, aby dokumenty programu OneNote były interaktywne! Dowiedz się, jak dodawać hiperłącza do obrazów w Javie za pomocą Aspose.Note. W zestawie proste kroki i przykłady kodu! #OneNote #Java #Aspose
-type: docs
 weight: 11
 url: /pl/java/onenote-hyperlinks-images/add-hyperlink-to-image/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Dodaj hiperłącze do obrazu w programie OneNote przy użyciu języka Java
+
 ## Wstęp
 
 tym samouczku omówimy, jak dodawać hiperłącza do obrazów w programie OneNote przy użyciu języka Java. Hiperłącza do obrazów mogą znacznie zwiększyć interaktywność i użyteczność dokumentów, umożliwiając użytkownikom łatwy dostęp do powiązanych treści lub zasobów zewnętrznych za pomocą jednego kliknięcia.
@@ -97,3 +103,9 @@ Odpowiedź 4: Chociaż nie ma określonego limitu długości hiperłączy, zalec
 ### P5: Czy Aspose.Note dla Java obsługuje inne formaty dokumentów oprócz OneNote?
 
 O5: Tak, Aspose.Note dla Java obsługuje różne formaty dokumentów, w tym PDF, HTML i formaty obrazów.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

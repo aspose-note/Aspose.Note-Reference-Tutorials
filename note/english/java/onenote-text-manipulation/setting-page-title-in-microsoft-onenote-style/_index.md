@@ -3,10 +3,16 @@ title: Setting Page Title in Microsoft OneNote Style - Aspose.Note
 linktitle: Setting Page Title in Microsoft OneNote Style - Aspose.Note
 second_title: Aspose.Note Java API
 description: Learn how to set page titles in Microsoft OneNote style using Aspose.Note for Java. Elevate your Java documents with professional formatting.
-type: docs
 weight: 23
 url: /java/onenote-text-manipulation/setting-page-title-in-microsoft-onenote-style/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Setting Page Title in Microsoft OneNote Style - Aspose.Note
+
 ## Introduction
 In the dynamic world of Java development, creating visually appealing and structured documents is crucial. If you're looking to enhance your Java applications with Microsoft OneNote-style page titles, Aspose.Note for Java is your go-to solution. In this comprehensive tutorial, we'll walk you through the process of setting page titles in the OneNote style using Aspose.Note, ensuring your documents stand out with a professional touch.
 ## Prerequisites
@@ -72,3 +78,10 @@ Visit the [Aspose.Note documentation](https://reference.aspose.com/note/java/) f
 Seek assistance from the Aspose.Note community at [Aspose.Note Forum](https://forum.aspose.com/c/note/28).
 ### Is there a trial version available?
 Yes, you can explore the capabilities of Aspose.Note with a free trial from [here](https://releases.aspose.com/).
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

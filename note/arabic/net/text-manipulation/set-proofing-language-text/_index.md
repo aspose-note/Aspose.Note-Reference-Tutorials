@@ -3,10 +3,16 @@ title: قم بتعيين لغة التدقيق للنص في Aspose.Note
 linktitle: قم بتعيين لغة التدقيق للنص في Aspose.Note
 second_title: Aspose.Note .NET API
 description: أطلق العنان للمعالجة القوية للنص باستخدام Aspose.Note لـ .NET. قم بتعيين لغة التدقيق بسهولة من خلال إرشادات خطوة بخطوة. قم بتحسين مشاريع .NET الخاصة بك الآن!
-type: docs
 weight: 25
 url: /ar/net/text-manipulation/set-proofing-language-text/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# قم بتعيين لغة التدقيق للنص في Aspose.Note
+
 ## مقدمة
 مرحبًا بك في عالم Aspose.Note لـ .NET! في هذا الدليل الشامل، سنستكشف العملية الرائعة لإعداد لغة التدقيق للنص باستخدام Aspose.Note. سواء كنت مطورًا متمرسًا أو بدأت للتو في استخدام Aspose.Note، سيزودك هذا البرنامج التعليمي برؤى تفصيلية وتعليمات خطوة بخطوة لتعزيز مهاراتك في معالجة النص.
 ## المتطلبات الأساسية
@@ -89,3 +95,9 @@ document.Save(Path.Combine("Your Document Directory", "SetProofingLanguageForTex
  بالتأكيد! يمكنك الوصول إلى النسخة التجريبية المجانية من Aspose.Note لـ .NET[هنا](https://releases.aspose.com/).
 ### هل تواجه مشاكل أو تحتاج إلى المساعدة؟
  قم بزيارة[منتدى الدعم Aspose.Note](https://forum.aspose.com/c/note/28) للتواصل مع المجتمع والحصول على مساعدة الخبراء.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

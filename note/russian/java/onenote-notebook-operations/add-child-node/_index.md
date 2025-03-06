@@ -3,10 +3,16 @@ title: Добавить дочерний узел в записную книжк
 linktitle: Добавить дочерний узел в записную книжку OneNote — Aspose.Note
 second_title: Aspose.Note Java API
 description: Узнайте, как программно добавлять дочерние узлы в записные книжки OneNote с помощью Aspose.Note для Java. Улучшите организацию заметок без особых усилий.
-type: docs
 weight: 11
 url: /ru/java/onenote-notebook-operations/add-child-node/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Добавить дочерний узел в записную книжку OneNote — Aspose.Note
+
 ## Введение
 
 OneNote — мощный инструмент для организации ваших заметок и идей. Aspose.Note для Java предоставляет удобные способы программного управления файлами OneNote. В этом руководстве мы шаг за шагом рассмотрим процесс добавления дочернего узла в записную книжку OneNote.
@@ -89,3 +95,9 @@ A2: Aspose.Note для Java поддерживает различные верс
 ### Вопрос 5: Существует ли форум сообщества, на котором я могу обратиться за помощью и рекомендациями по использованию Aspose.Note для Java?
 
  A5: Да, вы можете посетить[Форум Aspose.Note](https://forum.aspose.com/c/note/28) задавать вопросы, делиться знаниями и взаимодействовать с другими пользователями и экспертами.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

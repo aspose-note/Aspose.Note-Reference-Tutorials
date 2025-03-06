@@ -3,10 +3,16 @@ title: Buat Daftar Bernomor di OneNote - Aspose.Note
 linktitle: Buat Daftar Bernomor di OneNote - Aspose.Note
 second_title: Aspose.Catatan Java API
 description: Pelajari cara membuat daftar bernomor dengan mudah di OneNote dengan Aspose.Note untuk Java. Unduh uji coba gratis dan selami dunia pengembangan Java!
-type: docs
 weight: 14
 url: /id/java/onenote-text-manipulation/create-numbered-list/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Buat Daftar Bernomor di OneNote - Aspose.Note
+
 ## Perkenalan
 Aspose.Note untuk Java memberdayakan pengembang Java untuk bekerja dengan lancar dengan file Microsoft OneNote. Dalam tutorial ini, kami akan memandu Anda melalui proses membuat daftar bernomor di OneNote dengan pustaka Aspose.Note untuk Java yang canggih.
 ## Prasyarat
@@ -91,3 +97,9 @@ J: Tentu saja! Anda dapat menyesuaikan format penomoran menggunakan kelas Number
  J: Lihat[dokumentasi](https://reference.aspose.com/note/java/) untuk informasi yang komprehensif.
 ### T: Bagaimana cara membeli lisensi Aspose.Note untuk Java?
  A: Anda dapat membeli lisensi[Di Sini](https://purchase.aspose.com/buy).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

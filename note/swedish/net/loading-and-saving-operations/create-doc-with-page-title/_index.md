@@ -3,10 +3,16 @@ title: Skapa dokument med sidrubrik i Aspose.Note
 linktitle: Skapa dokument med sidrubrik i Aspose.Note
 second_title: Aspose.Note .NET API
 description: Lär dig hur du skapar dokument med titelsidor med Aspose.Note för .NET. Följ vår steg-för-steg-guide för sömlös integration.
-type: docs
 weight: 13
 url: /sv/net/loading-and-saving-operations/create-doc-with-page-title/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Skapa dokument med sidrubrik i Aspose.Note
+
 ## Introduktion
 
 I den här handledningen guidar vi dig genom processen att skapa ett dokument med en titelsida med Aspose.Note för .NET. Aspose.Note är ett kraftfullt API som låter utvecklare arbeta med Microsoft OneNote-filer programmatiskt.
@@ -118,3 +124,9 @@ S4: Ja, du kan använda Aspose.Note för att enkelt läsa, ändra och manipulera
 ### F5: Var kan jag hitta support om jag stöter på några problem?
 
  S5: Du kan hitta stöd och hjälp på[Aspose.Note forum](https://forum.aspose.com/c/note/28), där experter och communitymedlemmar kan hjälpa dig med dina frågor.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

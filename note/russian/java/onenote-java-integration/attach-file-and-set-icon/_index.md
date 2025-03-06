@@ -3,10 +3,16 @@ title: Прикрепите файл и установите значок в One
 linktitle: Прикрепите файл и установите значок в OneNote с помощью Java
 second_title: Aspose.Note Java API
 description: Ускорьте свой рабочий процесс OneNote! Узнайте, как прикреплять файлы и программно настраивать значки на Java с помощью Aspose.Note. Простые шаги и код включены! #OneNote #Java #Aspose
-type: docs
 weight: 10
 url: /ru/java/onenote-java-integration/attach-file-and-set-icon/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Прикрепите файл и установите значок в OneNote с помощью Java
+
 ## Введение
 
 OneNote — популярный инструмент для создания заметок и организации информации, и с помощью Aspose.Note для Java вы можете расширить его возможности, программно прикрепляя файлы и устанавливая значки для улучшения визуального представления ваших заметок. В этом уроке мы шаг за шагом проведем вас через этот процесс.
@@ -149,3 +155,10 @@ A2: Aspose.Note для Java поддерживает совместимость 
 ### Вопрос 5: Доступна ли пробная версия Aspose.Note для Java?
 
 О5: Да, вы можете изучить функциональность Aspose.Note для Java с помощью бесплатной пробной версии, доступной по адресу[эта ссылка](https://releases.aspose.com/).
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

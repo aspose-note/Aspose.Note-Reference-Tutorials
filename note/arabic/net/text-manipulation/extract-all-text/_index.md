@@ -3,10 +3,16 @@ title: دليل استخراج النص لبرنامج OneNote باستخدام 
 linktitle: استخراج كل النص من Aspose.Note
 second_title: Aspose.Note .NET API
 description: قم باستخراج النص بسهولة من مستندات Aspose.Note في .NET باستخدام Aspose.Note لـ .NET. اتبع دليلنا خطوة بخطوة للتكامل السلس.
-type: docs
 weight: 16
 url: /ar/net/text-manipulation/extract-all-text/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# دليل استخراج النص لبرنامج OneNote باستخدام Aspose.Note
+
 ## مقدمة
 هل تتطلع إلى استخراج النص بسلاسة من مستندات Aspose.Note الخاصة بك في تطبيقات .NET؟ يوفر Aspose.Note for .NET حلاً قويًا لاسترداد النص من ملفات Aspose.Note بسهولة، مما يضمن التكامل السلس في مشاريعك. في هذا البرنامج التعليمي، سنتعرف على العملية خطوة بخطوة، مما يسمح لك بتسخير قوة Aspose.Note لاستخراج النص بكفاءة.
 ## المتطلبات الأساسية
@@ -55,3 +61,9 @@ Console.WriteLine(text);
 ج: لا، يمكن لـ Aspose.Note for .NET التعامل مع المستندات ذات الأحجام المختلفة دون قيود.
 ### س: هل هناك أي اعتبارات تتعلق بالأداء عند استخراج النص من المستندات الكبيرة؟
 ج: تم تحسين Aspose.Note for .NET من أجل الأداء، مما يضمن استخراج النص بكفاءة حتى من المستندات الكبيرة.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -3,10 +3,16 @@ title: Créer des documents OneNote protégés par mot de passe - Java
 linktitle: Créer des documents OneNote protégés par mot de passe - Java
 second_title: API Java Aspose.Note
 description: Apprenez à créer un document OneNote protégé par mot de passe en Java avec Aspose.Note. Améliorez la sécurité en suivant le didacticiel étape par étape.
-type: docs
 weight: 19
 url: /fr/java/onenote-document-loading/create-password-protected-onenote/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Créer des documents OneNote protégés par mot de passe - Java
+
 ## Introduction
 
 Dans ce didacticiel, nous aborderons le processus de création de documents OneNote protégés par mot de passe à l'aide de Java à l'aide d'Aspose.Note. La sécurité est primordiale lorsqu'il s'agit d'informations sensibles, et la protection par mot de passe offre une couche de défense efficace contre les accès non autorisés. Nous vous guiderons à chaque étape, garantissant que vous pouvez implémenter de manière transparente cette fonctionnalité de sécurité cruciale dans vos applications Java.
@@ -80,3 +86,9 @@ A4 : Oui, Aspose.Note prend en charge divers algorithmes de cryptage pour répon
 ### Q5 : Aspose.Note est-il adapté aux applications de niveau entreprise ?
 
 A5 : Absolument, Aspose.Note est conçu pour répondre aux exigences des applications d'entreprise, offrant des fonctionnalités de sécurité robustes et des performances fiables.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

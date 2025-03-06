@@ -3,10 +3,16 @@ title: Chèn hình ảnh vào tài liệu Aspose.Note
 linktitle: Chèn hình ảnh vào tài liệu Aspose.Note
 second_title: Aspose.Note .NET API
 description: Tìm hiểu cách chèn hình ảnh liền mạch vào tài liệu Aspose.Note bằng .NET để có nội dung trực quan nâng cao. Hãy làm theo hướng dẫn từng bước của chúng tôi để tích hợp dễ dàng.
-type: docs
 weight: 16
 url: /vi/net/images/insert-images/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Chèn hình ảnh vào tài liệu Aspose.Note
+
 ## Giới thiệu
 
 Việc thêm hình ảnh vào tài liệu Aspose.Note của bạn có thể nâng cao đáng kể sự hấp dẫn và tiện ích trực quan của chúng. Cho dù bạn đang tạo ghi chú, bản trình bày hay bất kỳ tài liệu nào khác, việc tích hợp hình ảnh có thể cung cấp ngữ cảnh và sự rõ ràng cho nội dung của bạn. Trong hướng dẫn này, chúng tôi sẽ hướng dẫn bạn quy trình chèn hình ảnh vào tài liệu Aspose.Note bằng .NET.
@@ -89,3 +95,9 @@ A4: Chắc chắn rồi! Bạn có thể chèn bao nhiêu hình ảnh tùy thíc
 ### Câu hỏi 5: Có giới hạn về kích thước tệp hình ảnh có thể chèn vào không?
 
 Câu trả lời 5: Aspose.Note không áp đặt các giới hạn nghiêm ngặt về kích thước tệp hình ảnh nhưng bạn nên tối ưu hóa hình ảnh để có hiệu suất tốt hơn.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

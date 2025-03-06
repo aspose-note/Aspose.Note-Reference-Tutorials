@@ -3,10 +3,16 @@ title: استخراج النص من الجداول في Aspose.Note
 linktitle: استخراج النص من الجداول في Aspose.Note
 second_title: Aspose.Note .NET API
 description: تعرف على كيفية استخراج النص من الجداول في Aspose.Note باستخدام لغة C# مع إطار عمل .NET. برنامج تعليمي خطوة بخطوة مع مقتطفات التعليمات البرمجية والشروحات.
-type: docs
 weight: 15
 url: /ar/net/table-manipulation/extract-text-table/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# استخراج النص من الجداول في Aspose.Note
+
 ## مقدمة
 
 في هذا البرنامج التعليمي، سنستكشف كيفية استخراج النص من الجداول في Aspose.Note باستخدام لغة C# مع إطار عمل .NET. Aspose.Note عبارة عن واجهة برمجة تطبيقات قوية تتيح للمطورين العمل مع ملفات Microsoft OneNote برمجيًا، مما يتيح عمليات متنوعة مثل إنشاء مستندات OneNote وقراءتها ومعالجتها وتحويلها.
@@ -99,3 +105,9 @@ foreach (Table table in nodes)
 ### س5: أين يمكنني العثور على المزيد من الموارد والدعم لـ Aspose.Note؟
 
  ج5: يمكنك العثور على وثائق شاملة وبرامج تعليمية ومنتديات دعم على موقع[منتدى Aspose.Note](https://forum.aspose.com/c/note/28)مما يتيح لك استكشاف وحل أي استفسارات أو مشكلات تواجهها أثناء التطوير.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

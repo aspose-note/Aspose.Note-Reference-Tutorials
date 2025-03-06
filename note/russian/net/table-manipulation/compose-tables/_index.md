@@ -3,10 +3,16 @@ title: Составляйте таблицы с помощью Aspose.Note
 linktitle: Составляйте таблицы с помощью Aspose.Note
 second_title: Aspose.Note .NET API
 description: Узнайте, как составлять структурированные таблицы с форматированным текстовым содержимым с помощью Aspose.Note для .NET. Улучшите организацию документов и удобочитаемость без особых усилий.
-type: docs
 weight: 11
 url: /ru/net/table-manipulation/compose-tables/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Составляйте таблицы с помощью Aspose.Note
+
 ## Введение
 
 Таблицы являются основными компонентами документов, обеспечивающими структурированное представление информации. Aspose.Note для .NET предоставляет надежные инструменты для легкого составления таблиц. В этом уроке мы покажем вам процесс создания таблиц с форматированным текстовым содержимым с помощью Aspose.Note.
@@ -170,3 +176,9 @@ Console.WriteLine("\nThe document is composed successfully.");
 ### В5: Доступна ли техническая поддержка для пользователей Aspose.Note?
    
 О5: Да, Aspose предоставляет комплексную техническую поддержку через свои форумы и специальные каналы поддержки.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

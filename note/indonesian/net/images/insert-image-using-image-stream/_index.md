@@ -3,10 +3,16 @@ title: Sisipkan Gambar menggunakan Image Stream di Aspose.Note
 linktitle: Sisipkan Gambar menggunakan Image Stream di Aspose.Note
 second_title: Aspose.Catatan .NET API
 description: Pelajari cara menyisipkan gambar dengan lancar ke dalam dokumen Aspose.Note menggunakan aliran gambar di .NET. Sempurnakan file Note Anda dengan visual dengan mudah.
-type: docs
 weight: 11
 url: /id/net/images/insert-image-using-image-stream/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Sisipkan Gambar menggunakan Image Stream di Aspose.Note
+
 ## Perkenalan
 
 Dalam tutorial ini, kita akan mempelajari cara menyisipkan gambar ke dalam dokumen Aspose.Note menggunakan aliran gambar di .NET. Aspose.Note adalah API canggih yang memungkinkan pengembang bekerja dengan file Microsoft OneNote secara terprogram. Dengan mengikuti langkah-langkah yang diuraikan dalam panduan ini, Anda akan mempelajari cara mengintegrasikan gambar ke dalam dokumen Note Anda dengan lancar, sehingga meningkatkan daya tarik visual dan fungsionalitasnya secara keseluruhan.
@@ -120,3 +126,9 @@ A4: Aspose.Note untuk .NET kompatibel dengan beberapa versi kerangka .NET, memas
 ### Q5: Di mana saya dapat menemukan sumber daya tambahan dan dukungan untuk Aspose.Note?
 
  A5: Anda dapat menemukan dokumentasi komprehensif, forum, dan dukungan untuk Aspose.Note di[Asumsikan Forum](https://forum.aspose.com/c/note/28).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

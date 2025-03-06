@@ -3,10 +3,16 @@ title: Menguasai Lisensi Aspose.Note untuk Integrasi OneNote
 linktitle: Perizinan
 second_title: Aspose.Catatan .NET API
 description: Terapkan lisensi Aspose.Note di aplikasi .NET Anda! Jelajahi panduan langkah demi langkah untuk menyematkan sumber daya, menggunakan jalur, FileStream, dan lisensi terukur yang efisien.
-type: docs
 weight: 20
 url: /id/net/licensing/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Menguasai Lisensi Aspose.Note untuk Integrasi OneNote
+
 ## Perkenalan
 
 Apakah Anda seorang pengembang .NET yang mempelajari dunia dinamis Aspose.Note? Memahami cara menerapkan lisensi sangatlah penting, terutama saat bekerja dengan file OneNote. Dalam panduan ekstensif ini, kami akan menelusuri berbagai tutorial pelisensian, memastikan proses integrasi yang lancar dan memberdayakan Anda untuk memanipulasi file OneNote dengan mudah.
@@ -41,3 +47,9 @@ Pelajari cara menerapkan lisensi Aspose.Note dari jalur di aplikasi .NET. Buka p
 Pelajari cara menerapkan lisensi Aspose.Note menggunakan FileStream di aplikasi .NET Anda untuk integrasi yang lancar.
 ### [Lisensi Terukur dengan Aspose.Note](./metered-licensing/)
 Pelajari cara mengelola lisensi perangkat lunak secara efisien dengan Aspose.Note untuk .NET melalui lisensi terukur. Mengoptimalkan penggunaan sumber daya dan mengendalikan biaya secara efektif.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

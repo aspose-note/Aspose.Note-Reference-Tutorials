@@ -3,10 +3,16 @@ title: เปลี่ยนสไตล์ตารางใน Aspose.Note
 linktitle: เปลี่ยนสไตล์ตารางใน Aspose.Note
 second_title: Aspose.Note .NET API
 description: เรียนรู้วิธีปรับแต่งสไตล์ตารางใน Aspose.Note โดยใช้ C# ปรับเปลี่ยนสี แบบอักษร และอื่นๆ เพื่อการนำเสนอเอกสารที่ดียิ่งขึ้น
-type: docs
 weight: 10
 url: /th/net/table-manipulation/change-table-style/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# เปลี่ยนสไตล์ตารางใน Aspose.Note
+
 ## การแนะนำ
 
 ในบทช่วยสอนนี้ เราจะสำรวจวิธีเปลี่ยนสไตล์ตารางใน Aspose.Note โดยใช้เฟรมเวิร์ก .NET Aspose.Note เป็น API อันทรงพลังที่ช่วยให้นักพัฒนาสามารถทำงานกับไฟล์ Microsoft OneNote โดยทางโปรแกรม ด้วยการปรับแต่งสไตล์ของตารางภายในเอกสาร OneNote คุณสามารถปรับปรุงรูปลักษณ์ที่น่าดึงดูดและความสามารถในการอ่านได้ เราจะอธิบายกระบวนการปรับเปลี่ยนสไตล์ตารางทีละขั้นตอน เพื่อให้มั่นใจถึงความชัดเจนและประสิทธิผล
@@ -95,3 +101,9 @@ A4: แน่นอน คุณสามารถสร้างตาราง
 ### คำถามที่ 5: ฉันจะหาแหล่งข้อมูลเพิ่มเติมและการสนับสนุนสำหรับ Aspose.Note ได้ที่ไหน
 
  A5: คุณสามารถสำรวจเอกสารประกอบของ Aspose.Note ได้[ที่นี่](https://reference.aspose.com/note/net/) และขอความช่วยเหลือจากฟอรั่มชุมชน Aspose.Note[ที่นี่](https://forum.aspose.com/c/note/28).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

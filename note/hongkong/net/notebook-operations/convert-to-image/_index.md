@@ -3,10 +3,16 @@ title: 在 Aspose Note .NET 中將筆記本轉換為圖像
 linktitle: 在 Aspose Note .NET 中將筆記本轉換為圖像
 second_title: Aspose.Note .NET API
 description: 了解如何使用 Aspose.Note for .NET 將 OneNote 筆記本轉換為圖片。請遵循此逐步指南以實現無縫整合。
-type: docs
 weight: 11
 url: /zh-hant/net/notebook-operations/convert-to-image/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# 在 Aspose Note .NET 中將筆記本轉換為圖像
+
 ## 介紹
 
 在本教程中，我們將探索如何使用 Aspose.Note for .NET 將筆記本轉換為圖像。 Aspose.Note 是一個功能強大的 API，允許開發人員以程式設計方式處理 Microsoft OneNote 文件，從而實現廣泛的功能。將筆記本轉換為圖像對於各種應用程式特別有用，例如生成預覽、共享內容或與需要圖像格式的其他系統整合。
@@ -81,3 +87,9 @@ A3：是的，您可以從以下位置下載免費試用版：[這裡](https://r
 ### Q5：我可以在商業專案中使用Aspose.Note for .NET嗎？
 
  A5：是的，您可以從以下位置購買許可證[這裡](https://purchase.aspose.com/buy)在商業項目中使用 Aspose.Note for .NET。
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

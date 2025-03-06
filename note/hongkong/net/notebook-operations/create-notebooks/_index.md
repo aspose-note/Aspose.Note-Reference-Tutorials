@@ -3,10 +3,16 @@ title: 在 Aspose Note .NET 中建立筆記本
 linktitle: 在 Aspose Note .NET 中建立筆記本
 second_title: Aspose.Note .NET API
 description: 了解如何在 Aspose Note .NET 中輕鬆建立筆記本。立即提升您的文件處理工作流程。
-type: docs
 weight: 17
 url: /zh-hant/net/notebook-operations/create-notebooks/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# 在 Aspose Note .NET 中建立筆記本
+
 ## 介紹
 
 在本教程中，我們將深入研究使用 Aspose.Note for .NET 建立筆記本的複雜性。 Aspose.Note 是一個功能強大的函式庫，可讓開發人員以程式設計方式操作 Microsoft OneNote 文件，提供廣泛的功能來簡化文件管理和處理任務。
@@ -99,3 +105,10 @@ A4：是的，您可以從 Aspose 網站取得臨時許可證：[臨時執照](h
  A5：您可以參考以下位置的文件：[文件](https://reference.aspose.com/note/net/).
 
 
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

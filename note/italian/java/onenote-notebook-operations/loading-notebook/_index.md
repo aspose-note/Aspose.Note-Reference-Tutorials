@@ -3,10 +3,16 @@ title: Caricamento del taccuino in OneNote - Aspose.Note
 linktitle: Caricamento del taccuino in OneNote - Aspose.Note
 second_title: Aspose.Note API Java
 description: Padroneggia i taccuini OneNote in Java! Impara a caricare, esplorare ed elaborare i contenuti, dai documenti ai sub-notebook. Semplici passaggi e codice inclusi! #OneNote #Java #Aspose
-type: docs
 weight: 19
 url: /it/java/onenote-notebook-operations/loading-notebook/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Caricamento del taccuino in OneNote - Aspose.Note
+
 ## introduzione
 
 Benvenuti nel nostro tutorial sull'utilizzo di Aspose.Note per Java per lavorare con i blocchi appunti di OneNote. Aspose.Note è una potente libreria Java che consente agli sviluppatori di creare, manipolare e convertire documenti OneNote a livello di codice. In questo tutorial ti guideremo attraverso il processo di caricamento di un blocco appunti in OneNote utilizzando Aspose.Note per Java.
@@ -98,3 +104,9 @@ R3: Sì, è necessario acquistare una licenza per uso commerciale. Tuttavia, puo
 ### Q5: Posso ottenere una licenza temporanea a scopo di test?
 
  R5: Sì, puoi richiedere una licenza temporanea[Qui](https://purchase.aspose.com/temporary-license/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

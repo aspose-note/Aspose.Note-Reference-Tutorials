@@ -3,10 +3,16 @@ title: Extract Text from a Page in OneNote - Aspose.Note
 linktitle: Extract Text from a Page in OneNote - Aspose.Note
 second_title: Aspose.Note Java API
 description: Discover how to effortlessly extract text from OneNote pages using Aspose.Note for Java. Streamline your processes with this comprehensive step-by-step guide.
-type: docs
 weight: 16
 url: /java/onenote-text-manipulation/extract-text-from-a-page/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Extract Text from a Page in OneNote - Aspose.Note
+
 ## Introduction
 If you're looking to unlock the potential of extracting text from OneNote pages efficiently using Java, you're in the right place. This step-by-step guide will walk you through the process using Aspose.Note for Java. Aspose.Note is a powerful API that simplifies working with OneNote documents, allowing you to seamlessly extract text from pages with ease.
 ## Prerequisites
@@ -75,3 +81,10 @@ Visit the Aspose.Note [forum](https://forum.aspose.com/c/note/28) for community 
 You can buy the product [here](https://purchase.aspose.com/buy).
 ### Do I need a temporary license for Aspose.Note for Java?
 If you require a temporary license, you can obtain one [here](https://purchase.aspose.com/temporary-license/).
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

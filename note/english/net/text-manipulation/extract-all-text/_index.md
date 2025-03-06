@@ -3,10 +3,16 @@ title: Text Extraction Guide for OneNote using Aspose.Note
 linktitle: Extract All Text from Aspose.Note
 second_title: Aspose.Note .NET API
 description: Effortlessly extract text from Aspose.Note documents in .NET with Aspose.Note for .NET. Follow our step-by-step guide for seamless integration. 
-type: docs
 weight: 16
 url: /net/text-manipulation/extract-all-text/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Text Extraction Guide for OneNote using Aspose.Note
+
 ## Introduction
 Are you looking to seamlessly extract text from your Aspose.Note documents in .NET applications? Aspose.Note for .NET provides a robust solution to effortlessly retrieve text from Aspose.Note files, ensuring smooth integration into your projects. In this tutorial, we'll walk through the process step by step, allowing you to harness the power of Aspose.Note for efficient text extraction.
 ## Prerequisites
@@ -55,3 +61,10 @@ A: Absolutely, you have full control over the formatting of the extracted text i
 A: No, Aspose.Note for .NET can handle documents of varying sizes without limitations.
 ### Q: Are there any performance considerations when extracting text from large documents?
 A: Aspose.Note for .NET is optimized for performance, ensuring efficient text extraction even from large documents.
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

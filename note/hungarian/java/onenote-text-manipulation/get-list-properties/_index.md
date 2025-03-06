@@ -3,10 +3,16 @@ title: Listatulajdonságok lekérése a OneNote-ban – Aspose.Note
 linktitle: Listatulajdonságok lekérése a OneNote-ban – Aspose.Note
 second_title: Aspose.Note Java API
 description: Fedezze fel az Aspose.Note for Java alkalmazást, és könnyedén lekérheti a listatulajdonságokat a OneNote dokumentumokban. Fokozza dokumentumfeldolgozását ezzel a hatékony Java-könyvtárral.
-type: docs
 weight: 19
 url: /hu/java/onenote-text-manipulation/get-list-properties/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Listatulajdonságok lekérése a OneNote-ban – Aspose.Note
+
 ## Bevezetés
 Üdvözöljük ebben az átfogó oktatóanyagban az Aspose.Note for Java kihasználásáról a listatulajdonságok lekéréséhez és elemzéséhez a OneNote dokumentumokban. Akár tapasztalt fejlesztő, akár csak most kezdi az Aspose-t.Megjegyzés, ez az útmutató végigvezeti Önt a folyamaton, lebontva az egyes lépéseket a világos megértés érdekében.
 ## Előfeltételek
@@ -95,3 +101,9 @@ Igen, módosíthatja a kódot az igényeinek megfelelően, és szelektíven lek�
  Igen, kaphat ideiglenes engedélyt[itt](https://purchase.aspose.com/temporary-license/) tesztelési célokra.
 ### Mi a teendő, ha meg akarom vásárolni az Aspose.Note for Java-t?
  Megvásárolhatja a terméket[itt](https://purchase.aspose.com/buy)hogy teljes potenciálját kiaknázza projektjei számára.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

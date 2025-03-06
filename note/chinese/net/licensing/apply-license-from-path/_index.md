@@ -3,10 +3,16 @@ title: 从路径应用 Aspose.Note 许可证
 linktitle: 从路径应用 Aspose.Note 许可证
 second_title: Aspose.Note .NET API
 description: 了解如何从 .NET 应用程序中的路径应用 Aspose.Note 许可证。使用 Aspose.Note 释放 OneNote 文件操作的全部潜力。
-type: docs
 weight: 11
 url: /zh/net/licensing/apply-license-from-path/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# 从路径应用 Aspose.Note 许可证
+
 ## 介绍
 
 欢迎来到我们关于使用 .NET 从路径应用 Aspose.Note 许可证的综合教程！ Aspose.Note 是一个功能强大的 API，允许开发人员以编程方式使用 Microsoft OneNote 文件，从而实现创建、编辑和操作 OneNote 文档的广泛功能。在本教程中，我们将引导您完成从 .NET 应用程序中的指定路径应用 Aspose.Note 许可证的过程。
@@ -98,3 +104,9 @@ A4：是的，Aspose 提供全面的文档、论坛和支持来帮助开发人�
 ### Q5: 我可以在购买前试用 Aspose.Note 吗？
 
 A5：是的，您可以从他们的网站下载 Aspose.Note 的免费试用版来评估其特性和功能。
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

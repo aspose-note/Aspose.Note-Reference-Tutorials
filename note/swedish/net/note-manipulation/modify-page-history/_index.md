@@ -3,10 +3,16 @@ title: Ändra sidhistorik i Aspose.Note
 linktitle: Ändra sidhistorik i Aspose.Note
 second_title: Aspose.Note .NET API
 description: Lär dig hur du ändrar sidhistorik i Aspose.Note för .NET med den här omfattande självstudien. Förbättra dina dokumentbehandlingsmöjligheter utan ansträngning.
-type: docs
 weight: 15
 url: /sv/net/note-manipulation/modify-page-history/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Ändra sidhistorik i Aspose.Note
+
 ## Introduktion
 
 När det gäller dokumentbehandling framstår Aspose.Note för .NET som ett robust verktyg som ger utvecklare möjlighet att manipulera OneNote-filer utan ansträngning. En vanlig uppgift som utvecklare stöter på är att ändra sidhistorik i Aspose.Note-dokument. Denna handledning förklarar processen steg för steg och guidar dig genom de nödvändiga namnrymden, förutsättningarna och kodavsnitten för att effektivt ändra sidhistoriken med Aspose.Note för .NET.
@@ -94,3 +100,10 @@ S4: Ja, utvecklare kan söka hjälp och vägledning från Asposes supportforum f
 ### F5: Kan jag prova Aspose.Note för .NET innan jag köper?
 
 S5: Absolut, utvecklare kan använda sig av en gratis testversion av Aspose.Note för .NET för att utvärdera dess funktioner och lämplighet för sina projekt.
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

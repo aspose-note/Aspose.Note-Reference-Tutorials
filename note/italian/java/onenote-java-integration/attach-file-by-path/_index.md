@@ -3,10 +3,16 @@ title: Allega file per percorso in OneNote con Java
 linktitle: Allega file per percorso in OneNote con Java
 second_title: Aspose.Note API Java
 description: Aggiungi file alle tue note OneNote senza problemi! Scopri come allegare tramite percorso in Java con Aspose.Note. Guida semplice e codice inclusi! #OneNote #Java #Aspose
-type: docs
 weight: 11
 url: /it/java/onenote-java-integration/attach-file-by-path/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Allega file per percorso in OneNote con Java
+
 ## introduzione
 
 OneNote è uno strumento versatile per organizzare e gestire le note e con Aspose.Note per Java puoi migliorare le sue funzionalità allegando file alle tue note a livello di codice. In questo tutorial ti guideremo attraverso il processo di allegare un file tramite il suo percorso in OneNote utilizzando Java.
@@ -148,3 +154,9 @@ R4: Sì, puoi allegare file a sezioni specifiche organizzandoli di conseguenza a
 ### Q5: Esiste un limite alla dimensione del file che posso allegare?
 
 A5: Aspose.Note non impone limiti rigidi alla dimensione del file, ma considera le implicazioni sulle prestazioni per file molto grandi.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

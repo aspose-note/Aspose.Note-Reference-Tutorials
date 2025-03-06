@@ -3,10 +3,16 @@ title: Bestand bijvoegen en pictogram instellen in Aspose.Note
 linktitle: Bestand bijvoegen en pictogram instellen in Aspose.Note
 second_title: Aspose.Note .NET API
 description: Leer hoe u bestanden bijvoegt en pictogrammen in Aspose.Note voor .NET instelt. Verbeter uw .NET-applicaties met deze stapsgewijze zelfstudie.
-type: docs
 weight: 10
 url: /nl/net/attachments/attach-file-set-icon/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Bestand bijvoegen en pictogram instellen in Aspose.Note
+
 ## Invoering
 
 Op het gebied van .NET-ontwikkeling onderscheidt Aspose.Note zich als een krachtig hulpmiddel voor het programmatisch manipuleren van Microsoft OneNote-documenten. Door gebruik te maken van de mogelijkheden kunnen ontwikkelaars verschillende taken automatiseren die verband houden met het maken, bewerken en beheren van OneNote-bestanden binnen hun applicaties. Een essentieel kenmerk is de mogelijkheid om bestanden aan notities toe te voegen en pictogrammen voor die bijlagen in te stellen. In deze zelfstudie gaan we dieper in op het proces van het bijvoegen van een bestand en het instellen van een pictogram met Aspose.Note voor .NET.
@@ -125,3 +131,9 @@ A4: Aspose.Note houdt zich voornamelijk bezig met bestanden die lokaal zijn opge
 ### V5: Is er een maximale grootte voor bestandsbijlagen in Aspose.Note voor .NET?
 
 A5: Aspose.Note legt geen specifieke groottelimieten op voor bestandsbijlagen, maar er kunnen praktische beperkingen van toepassing zijn op basis van systeembronnen en prestatieoverwegingen.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

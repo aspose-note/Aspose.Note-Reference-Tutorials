@@ -3,10 +3,16 @@ title: Az oldalak átdolgozása a OneNote-ban – Aspose.Note
 linktitle: Az oldalak átdolgozása a OneNote-ban – Aspose.Note
 second_title: Aspose.Note Java API
 description: Ismerje meg, hogyan kérheti le a OneNote-dokumentumok oldalainak változatait az Aspose.Note Java használatával. Integrálja ezt Java-alkalmazásaiba a hatékony dokumentumkezelés érdekében.
-type: docs
 weight: 15
 url: /hu/java/onenote-page-manipulation/get-revisions-of-pages/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Az oldalak átdolgozása a OneNote-ban – Aspose.Note
+
 ## Bevezetés
 
 Ebben az oktatóanyagban az Aspose.Note for Java képességeit mutatjuk be. Ez egy olyan hatékony könyvtár, amely lehetővé teszi, hogy zökkenőmentesen dolgozzon a Microsoft OneNote fájlokkal Java-alkalmazásaiban. Pontosabban arra fogunk összpontosítani, hogyan lehet lekérni az oldalak változatait egy OneNote-dokumentumban. Ennek az útmutatónak a végére birtokában lesz az oldalváltozatok hatékony kinyeréséhez szükséges ismereteknek, beleértve az olyan részleteket, mint az utolsó módosítás ideje, a létrehozási idő, a cím, a szint és a szerző.
@@ -109,3 +115,9 @@ Ebben az oktatóanyagban megvizsgáltuk, hogyan lehet lekérni egy OneNote-dokum
 ### 5. kérdés: Hol kérhetek segítséget, ha problémákat tapasztalok vagy kérdéseim vannak az Aspose.Note for Java-val kapcsolatban?
 
  5. válasz: Támogatásért és segítségért keresse fel az Aspose.Note fórumot[itt](https://forum.aspose.com/c/note/28)ahol kérdéseket tehet fel, megoszthatja tapasztalatait, és kapcsolatba léphet más felhasználókkal és szakértőkkel.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

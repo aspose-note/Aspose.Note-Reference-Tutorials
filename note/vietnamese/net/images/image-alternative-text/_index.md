@@ -3,10 +3,16 @@ title: Thêm văn bản thay thế vào hình ảnh trong Aspose.Note
 linktitle: Thêm văn bản thay thế vào hình ảnh trong Aspose.Note
 second_title: Aspose.Note .NET API
 description: Tìm hiểu cách thêm văn bản thay thế vào hình ảnh trong Aspose.Note cho .NET một cách dễ dàng. Nâng cao khả năng truy cập và cải thiện trải nghiệm người dùng với hướng dẫn từng bước này.
-type: docs
 weight: 14
 url: /vi/net/images/image-alternative-text/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Thêm văn bản thay thế vào hình ảnh trong Aspose.Note
+
 ## Giới thiệu
 
 Việc thêm văn bản thay thế vào hình ảnh trong Aspose.Note for .NET có thể nâng cao khả năng truy cập và cải thiện khả năng hiểu hình ảnh cho người dùng khuyết tật. Trong hướng dẫn này, chúng tôi sẽ hướng dẫn bạn từng bước thực hiện quy trình.
@@ -97,3 +103,9 @@ Câu trả lời 3: Aspose.Note tích hợp liền mạch với các thư viện
 ### Câu hỏi 5: Aspose.Note có bản dùng thử miễn phí không?
 
 Câu trả lời 5: Có, bạn có thể tận dụng bản dùng thử miễn phí của Aspose.Note bằng cách truy cập[đây](https://releases.aspose.com/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

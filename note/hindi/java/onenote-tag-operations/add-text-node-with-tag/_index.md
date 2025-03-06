@@ -3,10 +3,16 @@ title: OneNote में टैग के साथ टेक्स्ट नो
 linktitle: OneNote में टैग के साथ टेक्स्ट नोड जोड़ें - Aspose.Note
 second_title: Aspose.नोट जावा एपीआई
 description: जावा के लिए Aspose.Note का उपयोग करके OneNote में टैग के साथ टेक्स्ट नोड्स जोड़ने का तरीका जानें। आसान, कुशल और डेवलपर-अनुकूल। अभी लाइब्रेरी डाउनलोड करें!
-type: docs
 weight: 13
 url: /hi/java/onenote-tag-operations/add-text-node-with-tag/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# OneNote में टैग के साथ टेक्स्ट नोड जोड़ें - Aspose.Note
+
 ## परिचय
 इस ट्यूटोरियल में, हम देखेंगे कि Java के लिए Aspose.Note का उपयोग करके OneNote में एक टैग के साथ टेक्स्ट नोड कैसे जोड़ा जाए। Aspose.Note एक शक्तिशाली जावा लाइब्रेरी है जो डेवलपर्स को Microsoft OneNote फ़ाइलों के साथ प्रोग्रामेटिक रूप से काम करने की अनुमति देती है। दस्तावेज़ प्रसंस्करण में टैग के साथ टेक्स्ट नोड्स जोड़ना एक सामान्य आवश्यकता है, और Aspose.Note इस कार्य को सरल बनाता है।
 ## आवश्यक शर्तें
@@ -121,3 +127,9 @@ doc.save(dataDir + "AddTextNodeWithTag_out.one");
  उत्तर: हाँ, आप अस्थायी लाइसेंस प्राप्त कर सकते हैं[यहाँ](https://purchase.aspose.com/temporary-license/).
 ### प्रश्न: मैं जावा के लिए Aspose.Note के लिए दस्तावेज़ कहां पा सकता हूं?
  उत्तर: दस्तावेज़ उपलब्ध है[यहाँ](https://reference.aspose.com/note/java/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

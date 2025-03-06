@@ -3,10 +3,16 @@ title: تعيين لون خلفية الصفحات في Aspose.Note
 linktitle: تعيين لون خلفية الصفحات في Aspose.Note
 second_title: Aspose.Note .NET API
 description: تعرف على كيفية تعيين لون خلفية الصفحات في Aspose.Note المستندات باستخدام لغة البرمجة C# مع دليل خطوة بخطوة.
-type: docs
 weight: 19
 url: /ar/net/note-manipulation/set-page-background-color/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# تعيين لون خلفية الصفحات في Aspose.Note
+
 ## مقدمة
 
 يسمح Aspose.Note for .NET للمطورين بمعالجة مستندات OneNote برمجياً. إحدى المهام الشائعة هي تعيين لون خلفية الصفحات داخل هذه المستندات. في هذا البرنامج التعليمي، سنرشدك خلال العملية خطوة بخطوة.
@@ -97,3 +103,9 @@ A1: نعم، يمكنك تكرار الصفحات بشكل فردي وتعيين
 ### س5: أين يمكنني العثور على دعم إضافي أو طرح أسئلة حول Aspose.Note؟
 
  ج5: يمكنك زيارة[منتدى Aspose.Note](https://forum.aspose.com/c/note/28) للحصول على الدعم والتواصل مع المستخدمين الآخرين.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -3,10 +3,16 @@ title: OneNote에서 저장 옵션 지정 - Aspose.Note
 linktitle: OneNote에서 저장 옵션 지정 - Aspose.Note
 second_title: Aspose.Note 자바 API
 description: Java용 Aspose.Note를 사용하여 OneNote에서 저장 옵션을 지정하는 방법을 알아보세요. 페이지 색인, 개수, 압축 설정을 손쉽게 사용자 정의하세요.
-type: docs
 weight: 24
 url: /ko/java/onenote-document-saving/specify-save-options/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# OneNote에서 저장 옵션 지정 - Aspose.Note
+
 ## 소개
 
 이 튜토리얼에서는 Java용 Aspose.Note를 사용하여 OneNote에서 저장 옵션을 지정하는 방법을 알아봅니다. Aspose.Note는 개발자가 OneNote 문서를 프로그래밍 방식으로 생성, 조작 및 변환할 수 있는 강력한 Java 라이브러리입니다. Aspose.Note를 사용하면 다양한 저장 옵션을 쉽게 제어하여 요구 사항에 따라 출력을 사용자 지정할 수 있습니다.
@@ -109,3 +115,9 @@ A4: 예, Aspose.Note는 OneNote 문서의 암호화 및 암호 해독을 위한 
 ### Q5: Aspose.Note는 상업용으로 적합한가요?
 
 A5: 네, Aspose.Note는 라이선스를 구매하여 상업적 목적으로 사용할 수 있습니다.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -3,10 +3,16 @@ title: Laad notitieboekjes uit Stream in Aspose Note .NET
 linktitle: Laad notitieboekjes uit Stream in Aspose Note .NET
 second_title: Aspose.Note .NET API
 description: Leer hoe u notitieboekjes laadt vanuit een stream in Aspose.Note voor .NET. Volg deze stapsgewijze handleiding voor een naadloze integratie in uw .NET-applicaties.
-type: docs
 weight: 19
 url: /nl/net/notebook-operations/load-notebooks-from-stream/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Laad notitieboekjes uit Stream in Aspose Note .NET
+
 ## Invoering
 
 In deze zelfstudie onderzoeken we hoe u notebooks uit een stream kunt laden met Aspose.Note voor .NET. Aspose.Note is een krachtige bibliotheek waarmee ontwikkelaars programmatisch met Microsoft OneNote-bestanden kunnen werken. Het laden van notebooks uit een stream is een veel voorkomende taak bij het omgaan met bestandsinvoer/uitvoerbewerkingen in .NET-toepassingen.
@@ -92,3 +98,9 @@ A1: Ja, Aspose.Note voor .NET ondersteunt verschillende versies van OneNote-best
 ### Vraag 5: Is er een optie voor tijdelijke licenties?
 
  A5: Ja, u kunt een tijdelijke licentie verkrijgen bij[hier](https://purchase.aspose.com/temporary-license/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -3,10 +3,16 @@ title: Recupera il numero di pagine nel documento Aspose.Note
 linktitle: Recupera il numero di pagine nel documento Aspose.Note
 second_title: Aspose.Note API .NET
 description: Scopri come contare le pagine nel tuo documento Aspose.Note utilizzando C#. Segui la nostra guida passo passo per una facile integrazione.
-type: docs
 weight: 12
 url: /it/net/note-manipulation/retrieve-number-of-pages/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Recupera il numero di pagine nel documento Aspose.Note
+
 ## introduzione
 
 Aspose.Note per .NET è una potente libreria che consente agli sviluppatori di lavorare con i file Microsoft OneNote a livello di codice. Che tu abbia bisogno di creare, manipolare o convertire documenti OneNote, Aspose.Note fornisce funzionalità complete per semplificare le tue attività. In questo tutorial approfondiremo una delle operazioni essenziali: recuperare il numero di pagine in un documento Aspose.Note utilizzando C#.
@@ -100,3 +106,9 @@ A2: Assolutamente, Aspose.Note supporta la conversione in vari formati tra cui P
 ### Q5: Come posso ottenere supporto tecnico per Aspose.Note?
 
  R5: Puoi cercare assistenza e interagire con la comunità sul[Forum di supporto Aspose.Note](https://forum.aspose.com/c/note/28).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

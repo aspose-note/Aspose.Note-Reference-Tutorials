@@ -3,10 +3,16 @@ title: Állítsa be az alapértelmezett bekezdésstílust a OneNote-ban – Aspo
 linktitle: Állítsa be az alapértelmezett bekezdésstílust a OneNote-ban – Aspose.Note
 second_title: Aspose.Note Java API
 description: Ismerje meg, hogyan állíthat be alapértelmezett bekezdésstílusokat a OneNote-ban az Aspose.Note for Java használatával. Kövesse lépésenkénti útmutatónkat a Java-alkalmazások hatékony szövegformázásához.
-type: docs
 weight: 11
 url: /hu/java/onenote-styles/set-default-paragraph-style/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Állítsa be az alapértelmezett bekezdésstílust a OneNote-ban – Aspose.Note
+
 ## Bevezetés
 
 Az Aspose.Note for Java hatékony lehetőségeket kínál a szövegformázás manipulálására, beleértve az alapértelmezett bekezdésstílusok beállítását. Ez az oktatóanyag végigvezeti az alapértelmezett bekezdésstílusok beállításának folyamatán a OneNote-ban az Aspose.Note használatával.
@@ -127,3 +133,9 @@ V1: Igen, beállíthat különféle paramétereket, például a betűtípus nev�
 ### 5. kérdés: Elérhető az Aspose.Note próbaverziója?
 
  5. válasz: Igen, hozzáférhet az Aspose.Note ingyenes próbaverziójához a[weboldal](https://releases.aspose.com/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

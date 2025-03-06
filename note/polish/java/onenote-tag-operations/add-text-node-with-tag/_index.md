@@ -3,10 +3,16 @@ title: Dodaj węzeł tekstowy ze znacznikiem w programie OneNote — Aspose.Note
 linktitle: Dodaj węzeł tekstowy ze znacznikiem w programie OneNote — Aspose.Note
 second_title: Aspose.Note API Java
 description: Dowiedz się, jak dodawać węzły tekstowe ze znacznikami w programie OneNote przy użyciu Aspose.Note dla języka Java. Łatwe, wydajne i przyjazne dla programistów. Pobierz bibliotekę teraz!
-type: docs
 weight: 13
 url: /pl/java/onenote-tag-operations/add-text-node-with-tag/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Dodaj węzeł tekstowy ze znacznikiem w programie OneNote — Aspose.Note
+
 ## Wstęp
 W tym samouczku omówimy, jak dodać węzeł tekstowy ze znacznikiem w programie OneNote przy użyciu programu Aspose.Note dla języka Java. Aspose.Note to potężna biblioteka Java, która umożliwia programistom programową pracę z plikami Microsoft OneNote. Dodawanie węzłów tekstowych ze znacznikami jest częstym wymogiem w przetwarzaniu dokumentów, a Aspose.Note upraszcza to zadanie.
 ## Warunki wstępne
@@ -121,3 +127,9 @@ Odp.: Możesz zwrócić się o wsparcie do społeczności Aspose.Note[forum](htt
  Odpowiedź: Tak, możesz uzyskać licencje tymczasowe[Tutaj](https://purchase.aspose.com/temporary-license/).
 ### P: Gdzie mogę znaleźć dokumentację Aspose.Note dla Java?
  Odp.: Dokumentacja jest dostępna[Tutaj](https://reference.aspose.com/note/java/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -3,10 +3,16 @@ title: Εργασία με αναθεωρήσεις σελίδων στο OneNot
 linktitle: Εργασία με αναθεωρήσεις σελίδων στο OneNote - Aspose.Note
 second_title: Aspose.Note Java API
 description: Μάθετε πώς να διαχειρίζεστε τις αναθεωρήσεις σελίδων σε έγγραφα του OneNote χρησιμοποιώντας το Aspose.Note για Java. Παρέχει οδηγό βήμα προς βήμα για αποτελεσματική παρακολούθηση αναθεωρήσεων και συνεργασία.
-type: docs
 weight: 21
 url: /el/java/onenote-page-manipulation/working-with-page-revisions/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Εργασία με αναθεωρήσεις σελίδων στο OneNote - Aspose.Note
+
 ## Εισαγωγή
 
 Το OneNote είναι ένα ισχυρό εργαλείο για την οργάνωση και τη διαχείριση σημειώσεων, αλλά μερικές φορές χρειάζεται να εργαστείτε με αναθεωρήσεις για να παρακολουθείτε τις αλλαγές και να συνεργάζεστε αποτελεσματικά. Με το Aspose.Note για Java, μπορείτε να διαχειριστείτε εύκολα τις αναθεωρήσεις σελίδων στα έγγραφα του OneNote μέσω προγραμματισμού. Αυτό το σεμινάριο θα σας καθοδηγήσει στη διαδικασία βήμα προς βήμα.
@@ -98,3 +104,9 @@ document.save(dataDir + "WorkingWithPageRevisions_out.one");
 ### Ε5: Πού μπορώ να λάβω υποστήριξη για το Aspose.Note για Java;
 
  Α: Μπορείτε να λάβετε υποστήριξη για το Aspose.Note για Java από το[Aspose.Note φόρουμ](https://forum.aspose.com/c/note/28).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

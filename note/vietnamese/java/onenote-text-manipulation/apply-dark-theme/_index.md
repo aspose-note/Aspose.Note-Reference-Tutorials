@@ -3,10 +3,16 @@ title: Áp dụng chủ đề tối cho văn bản trong OneNote - Aspose.Note
 linktitle: Áp dụng chủ đề tối cho văn bản trong OneNote - Aspose.Note
 second_title: API Java Aspose.Note
 description: Khám phá các bước đơn giản để áp dụng chủ đề tối cho văn bản OneNote của bạn bằng Aspose.Note for Java. Nâng cao trải nghiệm tài liệu kỹ thuật số của bạn một cách dễ dàng.
-type: docs
 weight: 11
 url: /vi/java/onenote-text-manipulation/apply-dark-theme/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Áp dụng chủ đề tối cho văn bản trong OneNote - Aspose.Note
+
 ## Giới thiệu
 Trong bối cảnh tài liệu kỹ thuật số ngày càng phát triển, tính thẩm mỹ của ghi chú của bạn có thể tác động đáng kể đến khả năng đọc và trải nghiệm người dùng. Một khía cạnh đáng chú ý là việc triển khai chủ đề tối, mang lại một môi trường thoải mái và hấp dẫn về mặt hình ảnh. Trong hướng dẫn này, chúng tôi sẽ hướng dẫn bạn quy trình áp dụng chủ đề tối cho văn bản trong OneNote bằng Aspose.Note cho Java.
 ## Điều kiện tiên quyết
@@ -62,3 +68,9 @@ Có, Aspose.Note for Java hỗ trợ nhiều định dạng tài liệu khác nh
  Có, bạn có thể truy cập phiên bản dùng thử miễn phí[đây](https://releases.aspose.com/).
 ### Làm cách nào tôi có thể nhận được hỗ trợ cho Aspose.Note cho Java?
  Tham quan[Diễn đàn Aspose.Note](https://forum.aspose.com/c/note/28) để được hỗ trợ cộng đồng hoặc khám phá các tùy chọn hỗ trợ cao cấp[đây](https://purchase.aspose.com/temporary-license/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

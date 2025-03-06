@@ -3,10 +3,16 @@ title: Password Protected Document in Aspose.Note
 linktitle: Password Protected Document in Aspose.Note
 second_title: Aspose.Note .NET API
 description: Learn how to handle password protected documents using Aspose.Note for .NET. Secure your sensitive information with ease.
-type: docs
 weight: 18
 url: /net/loading-and-saving-operations/password-protected-document/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Password Protected Document in Aspose.Note
+
 ## Introduction
 
 In this tutorial, we'll walk through the process of handling password-protected documents using Aspose.Note for .NET. Password protection adds an extra layer of security to your documents, ensuring that only authorized users can access them.
@@ -82,3 +88,10 @@ A4: While there might be some limitations based on the encryption algorithms use
 ### Q5: Can I automate the process of handling password-protected documents?
 
 A5: Yes, you can automate the process using scripts or scheduled tasks to handle password-protected documents efficiently.
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

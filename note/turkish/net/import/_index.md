@@ -3,10 +3,16 @@ title: OneNote Entegrasyonu ile Sorunsuz PDF İçe Aktarma
 linktitle: İçe aktarmak
 second_title: Aspose.Note .NET API'si
 description: Çeşitli birleştirme seçeneklerini kullanarak kusursuz entegrasyonla PDF belgelerini Aspose.Note .NET'e aktarın. OneNote entegrasyonu da dahil olmak üzere adım adım eğitimlerle öğrenin.
-type: docs
 weight: 24
 url: /tr/net/import/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# OneNote Entegrasyonu ile Sorunsuz PDF İçe Aktarma
+
 
 ## giriiş
 
@@ -48,3 +54,9 @@ Aspose.Note alanında belgelerinizin yalnızca dosyalardan ibaret olmadığını
 ## İçe Aktarma Eğiticileri
 ### [PDF Belgelerini Aspose.Note'a aktarın](./import-pdf-documents/)
 Sorunsuz entegrasyon için çeşitli birleştirme seçeneklerini kullanarak PDF belgelerini Aspose.Note for .NET'e zahmetsizce nasıl aktaracağınızı öğrenin.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

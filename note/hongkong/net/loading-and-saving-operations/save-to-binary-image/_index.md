@@ -3,10 +3,16 @@ title: 在 Aspose.Note 中儲存到二進位影像
 linktitle: 在 Aspose.Note 中儲存到二進位影像
 second_title: Aspose.Note .NET API
 description: 了解如何使用 Aspose.Note for .NET 將文件轉換為二進位映像。請按照我們的逐步指南進行無縫整合。
-type: docs
 weight: 22
 url: /zh-hant/net/loading-and-saving-operations/save-to-binary-image/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# 在 Aspose.Note 中儲存到二進位影像
+
 ## 介紹
 
 在本教學中，我們將探討如何使用 Aspose.Note for .NET 將文件儲存為二進位影像。此過程涉及將文件轉換為具有固定閾值的黑白影像，這對於各種應用程式都很有用。
@@ -97,3 +103,9 @@ A4：是的，您可以使用類似的程式碼循環遍歷多個文件並將它
 ### Q5：在哪裡可以找到更多 Aspose.Note 資源和支援？
 
  A5：您可以探索[Aspose.Note 文檔](https://reference.aspose.com/note/net/)並向有關部門尋求協助[Aspose.Note 論壇](https://forum.aspose.com/c/note/28)如有任何疑問或問題。
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -3,10 +3,16 @@ title: Spara till PDF med sidinställningar i OneNote - Aspose.Note
 linktitle: Spara till PDF med sidinställningar i OneNote - Aspose.Note
 second_title: Aspose.Note Java API
 description: Lär dig hur du sparar OneNote-dokument till PDF i Java med Aspose.Note-biblioteket. Steg-för-steg guide med kodexempel för olika sidinställningar.
-type: docs
 weight: 19
 url: /sv/java/onenote-document-saving/save-to-pdf-using-page-settings/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Spara till PDF med sidinställningar i OneNote - Aspose.Note
+
 ## Introduktion
 
 I den här handledningen kommer vi att lära oss hur du sparar OneNote-dokument i PDF-format med hjälp av olika sidinställningar med Aspose.Note för Java. Vi kommer att täcka två metoder: spara med Letter-sidinställningar och spara med A4-sidinställningar utan höjdbegränsning.
@@ -112,3 +118,9 @@ S4: Ja, du kan batchbearbeta flera OneNote-filer med Aspose.Note för Java.
 ### F5: Finns det någon testversion tillgänglig för teständamål?
 
 S5: Ja, du kan få en gratis provversion av Aspose.Note för Java från webbplatsen.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

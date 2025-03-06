@@ -3,10 +3,16 @@ title: Konvertieren Sie ein Notizbuch in ein Bild in OneNote – Aspose.Note
 linktitle: Konvertieren Sie ein Notizbuch in ein Bild in OneNote – Aspose.Note
 second_title: Aspose.Note Java API
 description: Erfahren Sie, wie Sie Notizbücher in OneNote mit Aspose.Note für Java in Bilder konvertieren. Integrieren Sie diese Funktionalität ganz einfach in Ihre Java-Anwendungen.
-type: docs
 weight: 12
 url: /de/java/onenote-notebook-operations/convert-notebook-to-image/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Konvertieren Sie ein Notizbuch in ein Bild in OneNote – Aspose.Note
+
 ## Einführung
 
 In diesem Tutorial erfahren Sie, wie Sie mithilfe der Aspose.Note für Java-Bibliothek ein Notizbuch in OneNote in ein Bild konvertieren. Das Konvertieren von Notizbüchern in Bilder kann für verschiedene Zwecke nützlich sein, z. B. zum Teilen von Notizen, zum Einbetten in Dokumente oder zum Einbinden in Präsentationen.
@@ -94,3 +100,9 @@ A4: Ja, Sie können mit Aspose.Note mehrere Notizbücher effizient stapelweise i
 ### F5: Wo finde ich zusätzliche Ressourcen und Support für Aspose.Note?
 
  A5: Weitere Dokumentation, Beispiele und Community-Unterstützung finden Sie unter[Aspose.Note-Forum](https://forum.aspose.com/c/note/28) und erkunden Sie die[Dokumentation](https://reference.aspose.com/note/java/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

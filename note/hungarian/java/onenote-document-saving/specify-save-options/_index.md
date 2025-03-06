@@ -3,10 +3,16 @@ title: Adja meg a mentési beállításokat a OneNote-ban – Aspose.Note
 linktitle: Adja meg a mentési beállításokat a OneNote-ban – Aspose.Note
 second_title: Aspose.Note Java API
 description: Ismerje meg, hogyan adhat meg mentési beállításokat a OneNote-ban az Aspose.Note for Java használatával. Könnyedén testreszabhatja az oldalindex, a számlálás és a tömörítés beállításait.
-type: docs
 weight: 24
 url: /hu/java/onenote-document-saving/specify-save-options/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Adja meg a mentési beállításokat a OneNote-ban – Aspose.Note
+
 ## Bevezetés
 
 Ebből az oktatóanyagból megtudhatja, hogyan adhat meg mentési beállításokat a OneNote-ban az Aspose.Note for Java használatával. Az Aspose.Note egy hatékony Java-könyvtár, amely lehetővé teszi a fejlesztők számára a OneNote-dokumentumok programozott létrehozását, kezelését és konvertálását. Az Aspose.Note segítségével könnyedén vezérelheti a különféle mentési beállításokat, hogy igényei szerint testreszabhassa a kimenetet.
@@ -109,3 +115,9 @@ Ebben az oktatóanyagban megtanultuk, hogyan adhat meg mentési beállításokat
 ### 5. kérdés: Az Aspose.Note alkalmas kereskedelmi használatra?
 
 V5: Igen, az Aspose.Note licenc megvásárlásával kereskedelmi célokra használható.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

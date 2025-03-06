@@ -3,10 +3,16 @@ title: Ajouter une balise dans OneNote - Aspose.Note
 linktitle: Ajouter une balise dans OneNote - Aspose.Note
 second_title: API Java Aspose.Note
 description: Élevez OneNote avec Aspose.Note pour Java. Ajoutez sans effort des balises à l’aide de notre guide étape par étape. Améliorez l’organisation et la collaboration dès maintenant !
-type: docs
 weight: 12
 url: /fr/java/onenote-tag-operations/add-tag/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Ajouter une balise dans OneNote - Aspose.Note
+
 ## Introduction
 Cherchez-vous à améliorer l’organisation de vos documents et votre collaboration dans OneNote à l’aide de Java ? Aspose.Note pour Java fournit une solution puissante pour ajouter des balises de manière transparente, garantissant que vos notes sont non seulement informatives mais également visuellement attrayantes. Dans ce didacticiel, nous vous guiderons pas à pas tout au long du processus, afin que vous puissiez exploiter tout le potentiel d'Aspose.Note pour Java.
 ## Conditions préalables
@@ -93,3 +99,9 @@ Oui, Aspose.Note pour Java fournit une documentation et une assistance complète
  Pour toute question ou assistance, visitez le[Forum Aspose.Note](https://forum.aspose.com/c/note/28).
 ### 5. Existe-t-il un essai gratuit disponible ?
  Oui, vous pouvez explorer un essai gratuit[ici](https://releases.aspose.com/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

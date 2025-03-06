@@ -3,10 +3,16 @@ title: Aspose.Note'taki Görsellerin Bilgisini Alın
 linktitle: Aspose.Note'taki Görsellerin Bilgisini Alın
 second_title: Aspose.Note .NET API'si
 description: Aspose.Note for .NET'i kullanarak Microsoft OneNote dosyalarından görüntü bilgilerini nasıl çıkaracağınızı öğrenin. Verimli geliştirme için adım adım kılavuzumuzu izleyin.
-type: docs
 weight: 13
 url: /tr/net/images/get-info-of-images/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Aspose.Note'taki Görsellerin Bilgisini Alın
+
 ## giriiş
 
 .NET geliştirme dünyasında Aspose.Note, Microsoft OneNote dosyalarıyla çalışmak için güçlü bir araç seti sağlar. Geliştiricilerin sıklıkla karşılaştığı ortak görevlerden biri, bu notların içine yerleştirilmiş görsellerden bilgi çıkarmaktır. Aspose.Note, boyutların, dosya adlarının veya değişiklik zamanlarının elde edilmesi bu süreci basitleştirir.
@@ -98,3 +104,9 @@ Cevap4: Evet, satın alma işlemi yapmadan önce özelliklerini keşfetmek için
 ### S5: Aspose.Note ile ilgili ek desteği veya yardımı nerede bulabilirim?
 
 Cevap5: Sorularınız veya yardımlarınız için Aspose.Note forumunu ziyaret edebilirsiniz.[Burada](https://forum.aspose.com/c/note/28).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -1,12 +1,17 @@
 ---
 title: Aspose.Note for .NET 的综合教程和示例
 linktitle: Aspose.Note for .NET 教程
-type: docs
 weight: 10
 url: /zh/net/
 description: 通过全面的教程掌握 Aspose.Note for .NET！深入研究附件、超链接、图像等。提升您的 OneNote 文档操作能力。
-is_root: true
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Aspose.Note for .NET 的综合教程和示例
+
 ## 介绍
 
 您准备好提升您的 OneNote 文档操作能力了吗？ Aspose.Note for .NET 打开了通往充满可能性的世界的大门，我们为您提供了全面的教程和示例。从错综复杂的许可到高级文本操作，踏上增强文档开发之旅。
@@ -97,3 +102,9 @@ is_root: true
 通过标签管理掌握 Aspose.Note。添加图像、表格、文本节点并生成会议记录。检索标签详细信息并增强文档操作。
 ### [文本处理](./text-manipulation/)
 使用 Aspose.Note for .NET 转换您的 OneNote 文档！学习文本操作技术，从应用项目符号和编号到改变样式。
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

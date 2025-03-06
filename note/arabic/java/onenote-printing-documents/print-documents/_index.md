@@ -3,10 +3,16 @@ title: طباعة المستندات في OneNote - Aspose.Note
 linktitle: طباعة المستندات في OneNote - Aspose.Note
 second_title: Aspose.Note جافا API
 description: تعرف على كيفية طباعة المستندات في OneNote باستخدام Aspose.Note لـ Java. دليل خطوة بخطوة مع أمثلة التعليمات البرمجية والخيارات القابلة للتخصيص.
-type: docs
 weight: 10
 url: /ar/java/onenote-printing-documents/print-documents/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# طباعة المستندات في OneNote - Aspose.Note
+
 ## مقدمة
 
 تعد طباعة المستندات متطلبًا شائعًا للعديد من التطبيقات، بما في ذلك OneNote. يوفر Aspose.Note for Java إمكانات قوية لطباعة المستندات بسهولة داخل تطبيقات Java الخاصة بك. في هذا البرنامج التعليمي، سنتعرف على عملية طباعة المستندات في OneNote باستخدام Aspose.Note لـ Java.
@@ -118,3 +124,9 @@ A1: نعم، يمكنك تحديد نطاق الطباعة لطباعة صفحا
 ### س5: أين يمكنني العثور على مزيد من الدعم والموارد لـ Aspose.Note لـ Java؟
 
  ج5: يمكنك العثور على الوثائق والمنتديات والموارد الإضافية على الموقع[Aspose.Note لصفحة دعم Java](https://forum.aspose.com/c/note/28).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

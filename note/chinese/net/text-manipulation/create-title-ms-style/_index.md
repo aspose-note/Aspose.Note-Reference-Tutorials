@@ -3,10 +3,16 @@ title: 在 Aspose.Note 中使用 MS 样式创建标题
 linktitle: 在 Aspose.Note 中使用 MS 样式创建标题
 second_title: Aspose.Note .NET API
 description: 了解如何在 Aspose.Note for .NET 中创建 Microsoft 风格的标题。通过这个易于理解的教程提升您的文档演示。
-type: docs
 weight: 15
 url: /zh/net/text-manipulation/create-title-ms-style/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# 在 Aspose.Note 中使用 MS 样式创建标题
+
 ## 介绍
 您是否希望使用 Aspose.Note for .NET 添加 Microsoft 风格的标题来增强文档创建过程？这份综合指南将引导您轻松完成创建 MS 风格游戏的步骤。 Aspose.Note for .NET 是一个功能强大的工具，使开发人员能够以编程方式操作 OneNote 文档。
 ## 先决条件
@@ -80,3 +86,9 @@ Console.WriteLine("\nPage title set up successfully in Microsoft OneNote style.\
 利用 C# 中的异常处理机制来捕获和处理文档创建过程中可能发生的任何潜在错误。
 ### 在哪里可以找到 Aspose.Note for .NET 的更多示例和文档？
 请参阅[.NET 文档的 Aspose.Note](https://reference.aspose.com/note/net/)获取详细的示例和全面的文档。
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

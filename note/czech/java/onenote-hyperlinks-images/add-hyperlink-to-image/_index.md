@@ -3,10 +3,16 @@ title: Přidejte hypertextový odkaz na obrázek ve OneNotu pomocí Java
 linktitle: Přidejte hypertextový odkaz na obrázek ve OneNotu pomocí Java
 second_title: Aspose.Note Java API
 description: Udělejte z dokumentů OneNotu interaktivní! Naučte se přidávat hypertextové odkazy na obrázky v Javě pomocí Aspose.Note. Včetně jednoduchých kroků a příkladů kódu! #OneNote #Java #Aspose
-type: docs
 weight: 11
 url: /cs/java/onenote-hyperlinks-images/add-hyperlink-to-image/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Přidejte hypertextový odkaz na obrázek ve OneNotu pomocí Java
+
 ## Úvod
 
 tomto kurzu prozkoumáme, jak přidat hypertextové odkazy na obrázky ve OneNotu pomocí Javy. Hypertextové odkazy na obrázky mohou výrazně zlepšit interaktivitu a užitečnost vašich dokumentů a umožnit uživatelům snadný přístup k souvisejícímu obsahu nebo externím zdrojům pouhým kliknutím.
@@ -97,3 +103,9 @@ A4: I když neexistuje žádné konkrétní omezení délky hypertextového odka
 ### Q5: Podporuje Aspose.Note pro Java jiné formáty dokumentů kromě OneNotu?
 
 Odpověď 5: Ano, Aspose.Note for Java podporuje různé formáty dokumentů, včetně PDF, HTML a obrazových formátů.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

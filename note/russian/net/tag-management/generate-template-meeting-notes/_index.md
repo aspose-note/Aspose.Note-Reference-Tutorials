@@ -3,10 +3,16 @@ title: Создайте шаблон для заметок о встрече с 
 linktitle: Создайте шаблон для заметок о встрече с помощью Aspose.Note
 second_title: Aspose.Note .NET API
 description: Узнайте, как создавать структурированные заметки о встречах с помощью Aspose.Note для .NET. В этом руководстве представлено пошаговое руководство с примерами кода.
-type: docs
 weight: 13
 url: /ru/net/tag-management/generate-template-meeting-notes/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Создайте шаблон для заметок о встрече с помощью Aspose.Note
+
 ## Введение
 
 В этом уроке мы рассмотрим процесс создания шаблона заметок о встрече с помощью Aspose.Note для .NET. Эта библиотека предоставляет мощные инструменты для программного создания, редактирования и управления документами OneNote.
@@ -126,3 +132,9 @@ d.Save(Path.Combine(dataDir, "meetingNotes.one"));
 
  О5: Да, вы можете загрузить бесплатную пробную версию с сайта[эта ссылка](https://releases.aspose.com/).
    
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -3,10 +3,16 @@ title: Lưu tài liệu vào định dạng OneNote trong Aspose.Note
 linktitle: Lưu tài liệu vào định dạng OneNote trong Aspose.Note
 second_title: Aspose.Note .NET API
 description: Tìm hiểu cách lưu tài liệu OneNote theo chương trình trong .NET bằng Aspose.Note. Hướng dẫn từng bước kèm theo các ví dụ về mã.
-type: docs
 weight: 20
 url: /vi/net/loading-and-saving-operations/save-doc-to-onenote-format/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Lưu tài liệu vào định dạng OneNote trong Aspose.Note
+
 ## Giới thiệu
 
 Trong lĩnh vực phát triển .NET, Aspose.Note nổi bật như một công cụ mạnh mẽ để quản lý và thao tác các tài liệu OneNote theo chương trình. Với API trực quan và bộ tính năng toàn diện, nhà phát triển có thể dễ dàng xử lý nhiều tác vụ khác nhau liên quan đến tệp OneNote trong ứng dụng của họ. Hướng dẫn này sẽ đi sâu vào quy trình lưu tài liệu sang định dạng OneNote bằng Aspose.Note for .NET, chia nhỏ từng bước để đảm bảo sự rõ ràng và dễ hiểu.
@@ -87,3 +93,9 @@ Trả lời: Hoàn toàn có thể, Aspose.Note cung cấp các tùy chọn mở
 ### Câu hỏi 5: Có diễn đàn cộng đồng hoặc kênh hỗ trợ nào dành cho người dùng Aspose.Note không?
 
  Trả lời: Có, Aspose cung cấp một diễn đàn dành riêng cho người dùng Aspose.Note nơi họ có thể tìm kiếm sự trợ giúp, chia sẻ kiến thức và tương tác với cộng đồng. Tham quan[Diễn đàn Aspose.Note](https://forum.aspose.com/c/note/28) để hỗ trợ.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

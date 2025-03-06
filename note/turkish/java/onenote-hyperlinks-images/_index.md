@@ -3,10 +3,16 @@ title: OneNote Köprüleri ve Görselleri
 linktitle: OneNote Köprüleri ve Görselleri
 second_title: Aspose.Note Java API'si
 description: Aspose.Note for Java eğitimleriyle OneNote deneyiminizi geliştirin. Java geliştirmeyle sorunsuz bir şekilde köprü eklemeyi, resim eklemeyi ve resim bilgilerini çıkarmayı öğrenin.
-type: docs
 weight: 22
 url: /tr/java/onenote-hyperlinks-images/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# OneNote Köprüleri ve Görselleri
+
 
 ## giriiş
 
@@ -48,3 +54,9 @@ Aspose.Note kitaplığıyla Java kullanarak OneNote belgelerinden görüntüleri
 Aspose.Note ile Java kullanarak OneNote belgelerinden görüntü bilgilerini nasıl çıkaracağınızı öğrenin. Geliştiriciler için kolay adımlar.
 ### [OneNote Belgesine Java ile Resim Ekleme](./insert-image/)
 Aspose.Note for Java kitaplığıyla Java kullanarak OneNote belgelerine nasıl resim ekleyeceğinizi öğrenin. Sorunsuz entegrasyon için adım adım kılavuzumuzu izleyin.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -3,10 +3,16 @@ title: Eliminar el nodo secundario en OneNote Notebook - Aspose.Note
 linktitle: Eliminar el nodo secundario en OneNote Notebook - Aspose.Note
 second_title: Aspose.Nota Java API
 description: Aprenda cómo eliminar un nodo secundario de OneNote Notebook usando Aspose.Note para Java. Siga nuestra guía paso a paso para una manipulación de documentos perfecta.
-type: docs
 weight: 24
 url: /es/java/onenote-notebook-operations/remove-child-node/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Eliminar el nodo secundario en OneNote Notebook - Aspose.Note
+
 ## Introducción
 
 En este tutorial, profundizaremos en el proceso de eliminación de un nodo secundario en OneNote Notebook usando Aspose.Note para Java. Aspose.Note es una potente API que permite a los desarrolladores trabajar con archivos de Microsoft OneNote mediante programación, lo que permite diversas operaciones como la creación, manipulación y conversión de documentos de OneNote.
@@ -92,3 +98,9 @@ R2: Sí, puedes encontrar soporte e interactuar con otros usuarios en el foro As
 ### P5: ¿Dónde puedo encontrar documentación detallada de Aspose.Note para Java?
 
  R5: Puede acceder a la documentación completa de Aspose.Note para Java[aquí](https://reference.aspose.com/note/java/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

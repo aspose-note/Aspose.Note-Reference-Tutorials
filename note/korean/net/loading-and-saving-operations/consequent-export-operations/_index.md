@@ -3,10 +3,16 @@ title: Aspose.Note의 후속 내보내기 작업
 linktitle: Aspose.Note의 후속 내보내기 작업
 second_title: Aspose.Note .NET API
 description: OneNote 문서를 다양한 형식으로 효율적으로 저장하기 위해 .NET용 Aspose.Note에서 후속 내보내기 작업을 수행하는 방법을 알아보세요.
-type: docs
 weight: 10
 url: /ko/net/loading-and-saving-operations/consequent-export-operations/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Aspose.Note의 후속 내보내기 작업
+
 ## 소개
 
 이 튜토리얼에서는 .NET용 Aspose.Note를 사용하여 후속 내보내기 작업을 수행하는 방법을 살펴보겠습니다. Aspose.Note는 개발자가 Microsoft OneNote 파일을 프로그래밍 방식으로 작업할 수 있게 해주는 강력한 라이브러리입니다. 문서를 다른 형식으로 내보내는 것은 일반적인 요구 사항이며 Aspose.Note는 이 작업을 효율적으로 단순화합니다. 다양한 형식으로 문서를 저장하는 방법을 단계별로 살펴보겠습니다.
@@ -108,3 +114,9 @@ A4: 예, Aspose.Note는 .NET Framework 및 .NET Core 환경 모두와 호환됩�
 ### Q5: Aspose.Note에 대한 추가 리소스와 지원은 어디서 찾을 수 있나요?
 
 A5: 포괄적인 가이드, 튜토리얼 및 커뮤니티 지원을 보려면 Aspose.Note 설명서와 포럼을 방문하세요.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

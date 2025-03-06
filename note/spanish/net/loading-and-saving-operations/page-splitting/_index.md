@@ -3,10 +3,16 @@ title: División de páginas en Aspose.Note
 linktitle: División de páginas en Aspose.Note
 second_title: Aspose.Nota .NET API
 description: Aprenda cómo dividir páginas de manera efectiva en Aspose.Note para .NET usando diferentes algoritmos. Garantice una organización ordenada de los documentos de OneNote en formato PDF.
-type: docs
 weight: 17
 url: /es/net/loading-and-saving-operations/page-splitting/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# División de páginas en Aspose.Note
+
 ## Introducción
 
 En este tutorial, exploraremos cómo dividir páginas de manera efectiva usando Aspose.Note para .NET. La división de páginas es una funcionalidad crucial, especialmente cuando se trata de páginas largas de OneNote que deben convertirse a formato PDF. Aspose.Note ofrece varios algoritmos para controlar la lógica de división, asegurando que los archivos PDF resultantes estén bien organizados y sean legibles.
@@ -87,3 +93,9 @@ R4: Aspose.Note se dirige principalmente al marco .NET, pero se puede utilizar e
 ### P5: ¿Dónde puedo obtener ayuda si tengo algún problema?
 
  R5: Puede buscar ayuda en el foro de la comunidad Aspose.Note[aquí](https://forum.aspose.com/c/note/28).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

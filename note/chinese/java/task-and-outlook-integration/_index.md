@@ -3,10 +3,16 @@ title: 任务和 Outlook 集成
 linktitle: 任务和 Outlook 集成
 second_title: Aspose.Note Java API
 description: 通过我们关于将 Outlook 任务集成到 OneNote 的教程来释放 Aspose.Note Java 的潜力。通过我们的教程提高您的文档处理技能。
-type: docs
 weight: 35
 url: /zh/java/task-and-outlook-integration/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# 任务和 Outlook 集成
+
 
 ## 介绍
 
@@ -38,3 +44,9 @@ Aspose.Note for Java 不仅仅是一个工具；它也是一个工具。它是�
 ## 任务和 Outlook 集成教程
 ### [在 OneNote 中获取 Outlook 任务 - Aspose.Note](./get-outlook-task/)
 探索 Aspose.Note for Java 轻松从 OneNote 中提取 Outlook 任务的强大功能。遵循我们的分步指南并增强您的文档处理能力。
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

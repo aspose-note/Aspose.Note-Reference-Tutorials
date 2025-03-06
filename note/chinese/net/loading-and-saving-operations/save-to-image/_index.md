@@ -3,10 +3,16 @@ title: 在 Aspose.Note 中保存到图像
 linktitle: 在 Aspose.Note 中保存到图像
 second_title: Aspose.Note .NET API
 description: 使用 Aspose.Note for .NET 轻松将 Microsoft OneNote 文档转换为 BMP 图像格式。无缝集成、简单的步骤和强大的功能。
-type: docs
 weight: 23
 url: /zh/net/loading-and-saving-operations/save-to-image/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# 在 Aspose.Note 中保存到图像
+
 ## 介绍
 
 在本教程中，我们将深入研究使用 Aspose.Note for .NET 将文档保存为图像格式的过程。 Aspose.Note 是一个功能强大的 API，使开发人员能够以编程方式处理 Microsoft OneNote 文件，提供各种操作和转换文档的功能。
@@ -88,3 +94,9 @@ A4：当然，Aspose.Note 提供了广泛的选项，可以根据您的要求自
 ### Q5：Aspose.Note是否为开发者提供技术支持？
 
 A5：是的，Aspose.Note 通过论坛和文档提供全面的技术支持，确保流畅的开发体验。
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

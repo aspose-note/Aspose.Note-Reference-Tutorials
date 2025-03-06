@@ -3,10 +3,16 @@ title: Dokumentum létrehozása és kép beszúrása a Stream segítségével a 
 linktitle: Dokumentum létrehozása és kép beszúrása a Stream segítségével a OneNote-ban – Java
 second_title: Aspose.Note Java API
 description: Ismerje meg, hogyan integrálhat könnyedén képeket OneNote-dokumentumokba az Aspose.Note for Java segítségével. Lépésről lépésre bemutató útmutató Java fejlesztőknek.
-type: docs
 weight: 13
 url: /hu/java/onenote-hyperlinks-images/build-doc-insert-image-stream/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Dokumentum létrehozása és kép beszúrása a Stream segítségével a OneNote-ban – Java
+
 ## Bevezetés
 
 Üdvözöljük átfogó oktatóanyagunkban az Aspose.Note for Java használatáról dokumentumok létrehozásához és képek beszúrásához képfolyamok segítségével a OneNote-ban! Ebben az oktatóanyagban lépésről lépésre végigvezetjük a folyamaton, biztosítva, hogy világosan megértse az egyes szakaszokat. A végére könnyedén integrálhat képeket OneNote-dokumentumaiba Java használatával.
@@ -180,3 +186,10 @@ Az alábbi lépések követésével könnyedén készíthet dokumentumokat és s
 ### 5. kérdés: Elérhető az Aspose.Note for Java próbaverziója?
 
 5. válasz: Igen, beszerezheti az Aspose.Note for Java ingyenes próbaverzióját, hogy a vásárlási döntés meghozatala előtt felfedezze annak funkcióit és képességeit.
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

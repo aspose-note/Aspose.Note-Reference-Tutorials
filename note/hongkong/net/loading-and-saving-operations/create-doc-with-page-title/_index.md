@@ -3,10 +3,16 @@ title: 在 Aspose.Note 中建立帶有頁面標題的文檔
 linktitle: 在 Aspose.Note 中建立帶有頁面標題的文檔
 second_title: Aspose.Note .NET API
 description: 了解如何使用 Aspose.Note for .NET 建立具有標題頁面的文件。請按照我們的逐步指南進行無縫整合。
-type: docs
 weight: 13
 url: /zh-hant/net/loading-and-saving-operations/create-doc-with-page-title/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# 在 Aspose.Note 中建立帶有頁面標題的文檔
+
 ## 介紹
 
 在本教學中，我們將引導您完成使用 Aspose.Note for .NET 建立具有標題頁面的文件的過程。 Aspose.Note 是一個功能強大的 API，可讓開發人員以程式設計方式處理 Microsoft OneNote 檔案。
@@ -118,3 +124,9 @@ A4：是的，您可以使用Aspose.Note輕鬆讀取、修改和操作現有的O
 ### Q5：如果遇到任何問題，我可以在哪裡尋求支援？
 
 A5：您可以在以下位置找到支援和協助：[Aspose.Note 論壇](https://forum.aspose.com/c/note/28)，專家和社群成員可以幫助您解答疑問。
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

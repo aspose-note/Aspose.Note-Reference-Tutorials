@@ -3,10 +3,16 @@ title: Wstaw obrazy do dokumentów Aspose.Note
 linktitle: Wstaw obrazy do dokumentów Aspose.Note
 second_title: Aspose.Note .NET API
 description: Dowiedz się, jak bezproblemowo wstawiać obrazy do dokumentów Aspose.Note przy użyciu platformy .NET w celu uzyskania ulepszonej zawartości wizualnej. Postępuj zgodnie z naszym przewodnikiem krok po kroku, aby ułatwić integrację.
-type: docs
 weight: 16
 url: /pl/net/images/insert-images/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Wstaw obrazy do dokumentów Aspose.Note
+
 ## Wstęp
 
 Dodawanie obrazów do dokumentów Aspose.Note może znacznie poprawić ich atrakcyjność wizualną i użyteczność. Niezależnie od tego, czy tworzysz notatki, prezentacje czy inny dokument, integracja obrazów może zapewnić kontekst i przejrzystość treści. W tym samouczku przeprowadzimy Cię przez proces wstawiania obrazów do dokumentów Aspose.Note przy użyciu platformy .NET.
@@ -89,3 +95,9 @@ A4: Oczywiście! Za pomocą Aspose.Note możesz wstawić dowolną liczbę obraz�
 ### P5: Czy istnieje ograniczenie rozmiaru pliku obrazów, które można wstawić?
 
 O5: Aspose.Note nie nakłada ścisłych ograniczeń na rozmiary plików obrazów, ale zaleca się optymalizację obrazów w celu uzyskania lepszej wydajności.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

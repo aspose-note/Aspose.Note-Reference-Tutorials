@@ -3,10 +3,16 @@ title: Προσθήκη υπερ-σύνδεσης στην εικόνα στο O
 linktitle: Προσθήκη υπερ-σύνδεσης στην εικόνα στο OneNote χρησιμοποιώντας Java
 second_title: Aspose.Note Java API
 description: Κάντε τα έγγραφα του OneNote διαδραστικά! Μάθετε πώς να προσθέτετε υπερσυνδέσμους σε εικόνες σε Java με το Aspose.Note. Συμπεριλαμβάνονται εύκολα βήματα και παραδείγματα κώδικα! #OneNote #Java #Aspose
-type: docs
 weight: 11
 url: /el/java/onenote-hyperlinks-images/add-hyperlink-to-image/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Προσθήκη υπερ-σύνδεσης στην εικόνα στο OneNote χρησιμοποιώντας Java
+
 ## Εισαγωγή
 
 Σε αυτό το σεμινάριο, θα εξερευνήσουμε πώς να προσθέτουμε υπερσυνδέσμους σε εικόνες στο OneNote χρησιμοποιώντας Java. Οι εικόνες υπερσύνδεσης μπορούν να βελτιώσουν σημαντικά τη διαδραστικότητα και τη χρησιμότητα των εγγράφων σας, επιτρέποντας στους χρήστες να έχουν εύκολη πρόσβαση σε σχετικό περιεχόμενο ή εξωτερικούς πόρους με ένα απλό κλικ.
@@ -97,3 +103,9 @@ A4: Αν και δεν υπάρχει συγκεκριμένο όριο στο �
 ### Ε5: Το Aspose.Note για Java υποστηρίζει άλλες μορφές εγγράφων εκτός από το OneNote;
 
 A5: Ναι, το Aspose.Note για Java υποστηρίζει διάφορες μορφές εγγράφων, συμπεριλαμβανομένων μορφών PDF, HTML και εικόνας.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -3,10 +3,16 @@ title: 在 Aspose.Note 中保存到二进制图像
 linktitle: 在 Aspose.Note 中保存到二进制图像
 second_title: Aspose.Note .NET API
 description: 了解如何使用 Aspose.Note for .NET 将文档转换为二进制图像。请按照我们的分步指南进行无缝集成。
-type: docs
 weight: 22
 url: /zh/net/loading-and-saving-operations/save-to-binary-image/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# 在 Aspose.Note 中保存到二进制图像
+
 ## 介绍
 
 在本教程中，我们将探讨如何使用 Aspose.Note for .NET 将文档保存为二进制图像。此过程涉及将文档转换为具有固定阈值的黑白图像，这对于各种应用程序都很有用。
@@ -97,3 +103,9 @@ A4：是的，您可以使用类似的代码循环遍历多个文档并将它们
 ### Q5：在哪里可以找到更多 Aspose.Note 资源和支持？
 
  A5：您可以探索[Aspose.Note 文档](https://reference.aspose.com/note/net/)并向有关部门寻求帮助[Aspose.Note 论坛](https://forum.aspose.com/c/note/28)如有任何疑问或问题。
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

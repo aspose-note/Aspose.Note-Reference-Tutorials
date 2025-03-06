@@ -3,10 +3,16 @@ title: OneNote'ta Etiketli Yeni Görüntü Düğümü Ekleme - Aspose.Note
 linktitle: OneNote'ta Etiketli Yeni Görüntü Düğümü Ekleme - Aspose.Note
 second_title: Aspose.Note Java API'si
 description: Aspose.Note for Java'yı kullanarak OneNote'ta etiketli yeni bir görüntü düğümünün nasıl ekleneceğini öğrenin. Java programlama becerilerinizi zahmetsizce geliştirin.
-type: docs
 weight: 10
 url: /tr/java/onenote-tag-operations/add-new-image-node-with-tag/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# OneNote'ta Etiketli Yeni Görüntü Düğümü Ekleme - Aspose.Note
+
 ## giriiş
 Java programlama alanında Aspose.Note, OneNote belgelerini kolaylıkla yönetmeye yönelik güçlü bir araç olarak öne çıkıyor. Becerilerinizi geliştirmek ve Aspose.Note'u kullanarak OneNote'ta etiketli yeni bir görüntü düğümünü nasıl ekleyeceğinizi öğrenmek istiyorsanız, doğru yere geldiniz. Bu adım adım kılavuz, süreç boyunca size yol gösterecek ve her konsepti iyice kavramanızı sağlayacaktır.
 ## Önkoşullar
@@ -96,3 +102,9 @@ Tebrikler! Aspose.Note for Java'yı kullanarak OneNote'ta etiketli yeni bir gör
  Topluluk forumunu ziyaret edin[Burada](https://forum.aspose.com/c/note/28) destek için.
 ### Geçici lisansa ihtiyacım var mı?
  Gerekirse geçici lisans alabilirsiniz.[Burada](https://purchase.aspose.com/temporary-license/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

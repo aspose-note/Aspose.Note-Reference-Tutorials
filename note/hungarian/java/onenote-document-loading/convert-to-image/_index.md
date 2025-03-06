@@ -3,10 +3,16 @@ title: A OneNote-dokumentum konvertálása képpé - Java
 linktitle: A OneNote-dokumentum konvertálása képpé - Java
 second_title: Aspose.Note Java API
 description: Ismerje meg a OneNote képpé konvertálását az Aspose.Note for Java segítségével. Kövesse az egyszerű lépéseket, töltse be a dokumentumot, inicializálja a beállításokat, és mentse PNG-ként.
-type: docs
 weight: 14
 url: /hu/java/onenote-document-loading/convert-to-image/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# A OneNote-dokumentum konvertálása képpé - Java
+
 ## Bevezetés
 
 Ebben az oktatóanyagban végigvezetjük az Aspose.Note for Java használatával a OneNote-dokumentumok képpé konvertálásához. Az egyes lépéseket könnyen követhető utasításokra bontjuk.
@@ -106,3 +112,9 @@ A fent vázolt lépések követésével könnyedén konvertálhat egy OneNote-do
 ### 5. kérdés: Az Aspose.Note-nak szüksége van internetkapcsolatra a dokumentumok konvertálásához?
 
 5. válasz: Nem, az Aspose.Note helyileg működik, internetkapcsolat nélkül.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

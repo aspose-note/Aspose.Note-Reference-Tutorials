@@ -3,10 +3,16 @@ title: Odebrat podřízené uzly v Aspose Note .NET
 linktitle: Odebrat podřízené uzly v Aspose Note .NET
 second_title: Aspose.Note .NET API
 description: Naučte se, jak snadno odstranit podřízené uzly v Aspose.Note pro .NET. Zjednodušte si správu souborů OneNote pomocí tohoto podrobného průvodce.
-type: docs
 weight: 24
 url: /cs/net/notebook-operations/remove-child-nodes/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Odebrat podřízené uzly v Aspose Note .NET
+
 ## Úvod
 
 tomto tutoriálu prozkoumáme, jak efektivně odstranit podřízené uzly pomocí Aspose.Note pro .NET. Aspose.Note je výkonná knihovna, která umožňuje vývojářům pracovat se soubory Microsoft OneNote programově. Ať už spravujete poznámkové bloky, oddíly nebo jednotlivé stránky, Aspose.Note zjednodušuje proces pomocí intuitivního rozhraní API. Zde se zaměříme konkrétně na odstranění podřízených uzlů z poznámkového bloku.
@@ -92,3 +98,9 @@ A4: Rozhodně! Aspose.Note nabízí robustní funkce pro vytváření, čtení a
 ### Q5: Kde najdu další podporu pro Aspose.Note?
 
  A5: Pro další pomoc nebo dotazy můžete navštívit[Aspose.Note fórum](https://forum.aspose.com/c/note/28) kde jsou k dispozici odborníci a kolegové vývojáři, kteří vám pomohou.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -3,10 +3,16 @@ title: Aspose.Note テキストの箇条書きまたは番号リストを取得�
 linktitle: Aspose.Note テキストの箇条書きまたは番号リストを取得する
 second_title: Aspose.Note .NET API
 description: 箇条書きまたは番号リストの取得に関するステップバイステップのガイドを使用して、Aspose.Note for .NET の可能性を解き放ちます。 OneNote ドキュメントの操作スキルを向上させましょう。
-type: docs
 weight: 23
 url: /ja/net/text-manipulation/retrieve-bullet-number-list/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Aspose.Note テキストの箇条書きまたは番号リストを取得する
+
 ## 導入
 Aspose.Note for .NET の世界へようこそ。これは、開発者が OneNote ドキュメントの操作を簡単に処理できるようにする、堅牢で多用途のライブラリです。このチュートリアルでは、Aspose.Note for .NET を使用して箇条書きまたは番号リストを取得するプロセスを詳しく説明します。経験豊富な開発者であっても、コーディング愛好家であっても、このガイドは、Aspose.Note でのリストの操作の複雑さをナビゲートするための知識を提供します。
 ## 前提条件
@@ -87,3 +93,9 @@ Aspose.Note は主に .NET をサポートしていますが、さまざまな�
 を探索して支援を求めることができます。[Aspose.Note フォーラム](https://forum.aspose.com/c/note/28)発生する可能性のある質問や問題については、
 ### Aspose.Note for .NET の無料試用版はありますか?
 はい、Aspose.Note for .NET の無料試用版にアクセスできます。[ここ](https://releases.aspose.com/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

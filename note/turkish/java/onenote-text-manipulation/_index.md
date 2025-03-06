@@ -3,10 +3,16 @@ title: OneNote Metin İşleme
 linktitle: OneNote Metin İşleme
 second_title: Aspose.Note Java API'si
 description: OneNote metin işlemeyle ilgili Aspose.Note Java eğitimlerini keşfedin. Metin çıkarma, tema uygulama, liste oluşturma ve daha fazlası gibi görevler için etkili yöntemleri keşfedin.
-type: docs
 weight: 34
 url: /tr/java/onenote-text-manipulation/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# OneNote Metin İşleme
+
 
 ## giriiş
 
@@ -56,3 +62,9 @@ Aspose.Note for Java'yı kullanarak belirli bir OneNote sayfasındaki metni nas�
 Aspose.Note for Java'nın potansiyelini ortaya çıkarın! Adım adım kılavuzumuzla OneNote'ta metin için yazım denetleme dilini nasıl sorunsuz bir şekilde ayarlayacağınızı öğrenin.
 ### [Microsoft OneNote Stilinde Sayfa Başlığını Ayarlama - Aspose.Note](./setting-page-title-in-microsoft-onenote-style/)
 Aspose.Note for Java'yı kullanarak Microsoft OneNote tarzında sayfa başlıklarını nasıl ayarlayacağınızı öğrenin. Java belgelerinizi profesyonel biçimlendirmeyle geliştirin.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

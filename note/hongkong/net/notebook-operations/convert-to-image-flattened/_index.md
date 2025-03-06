@@ -3,10 +3,16 @@ title: 在 Aspose Note .NET 中將筆記本轉換為映像（扁平化）
 linktitle: 在 Aspose Note .NET 中將筆記本轉換為映像（扁平化）
 second_title: Aspose.Note .NET API
 description: 了解如何使用 Aspose.Note for .NET 將 OneNote 筆記本轉換為拼合圖片。無縫整合的逐步指南。
-type: docs
 weight: 12
 url: /zh-hant/net/notebook-operations/convert-to-image-flattened/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# 在 Aspose Note .NET 中將筆記本轉換為映像（扁平化）
+
 ## 介紹
 
 在本教程中，我們將學習如何使用 Aspose.Note for .NET 將筆記本轉換為平面圖像。我們將把這個過程分解為簡單的步驟，以幫助您理解並有效地實施它。
@@ -93,3 +99,9 @@ A1：是的，Aspose.Note for .NET 能夠有效地處理複雜的筆記本。
 ### Q5：在哪裡可以找到 Aspose.Note for .NET 的文件？
 
  A5：你可以找到文檔[這裡](https://reference.aspose.com/note/net/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

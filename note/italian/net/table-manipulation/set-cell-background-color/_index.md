@@ -3,10 +3,16 @@ title: Imposta il colore di sfondo della cella nelle tabelle Aspose.Note
 linktitle: Imposta il colore di sfondo della cella nelle tabelle Aspose.Note
 second_title: Aspose.Note API .NET
 description: Scopri come impostare il colore di sfondo della cella nelle tabelle Aspose.Note utilizzando la guida passo passo. Migliora le immagini dei documenti senza sforzo.
-type: docs
 weight: 17
 url: /it/net/table-manipulation/set-cell-background-color/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Imposta il colore di sfondo della cella nelle tabelle Aspose.Note
+
 ## introduzione
 
 In questo tutorial, approfondiremo come impostare il colore di sfondo delle celle all'interno delle tabelle utilizzando Aspose.Note per .NET. Questa funzionalità può migliorare in modo significativo l'attrattiva visiva e la leggibilità dei tuoi documenti. Segui i passaggi seguenti per sapere come raggiungere questo obiettivo.
@@ -122,3 +128,9 @@ A4: Aspose.Note per .NET si rivolge specificamente ai formati di file OneNote. P
 ### Q5: Dove posso trovare ulteriori risorse e supporto per Aspose.Note per .NET?
 
  A5: Puoi esplorare il[Documentazione Aspose.Note](https://reference.aspose.com/note/net/) per riferimenti ed esempi API dettagliati. Inoltre, puoi chiedere assistenza alla comunità Aspose su[Forum Aspose.Note](https://forum.aspose.com/c/note/28).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

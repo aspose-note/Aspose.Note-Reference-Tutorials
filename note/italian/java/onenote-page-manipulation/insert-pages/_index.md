@@ -3,10 +3,16 @@ title: Inserisci pagine in OneNote - Aspose.Note
 linktitle: Inserisci pagine in OneNote - Aspose.Note
 second_title: Aspose.Note API Java
 description: Scopri come inserire pagine nei documenti OneNote a livello di codice utilizzando Aspose.Note per Java. Tutorial completo con istruzioni passo passo.
-type: docs
 weight: 16
 url: /it/java/onenote-page-manipulation/insert-pages/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Inserisci pagine in OneNote - Aspose.Note
+
 ## introduzione
 
 In questo tutorial impareremo come inserire pagine in un documento OneNote utilizzando Aspose.Note per Java.
@@ -132,3 +138,9 @@ A4: Sì, puoi sviluppare applicazioni utilizzando Aspose.Note per Java su piatta
 ### Q5: posso personalizzare l'aspetto delle pagine inserite in OneNote?
 
 A5: Assolutamente, Aspose.Note offre ampie opzioni per personalizzare layout, stili e contenuti di pagina per soddisfare le vostre esigenze specifiche.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -3,10 +3,16 @@ title: Aspose.Note 中的用户保存回调
 linktitle: Aspose.Note 中的用户保存回调
 second_title: Aspose.Note .NET API
 description: 了解如何在 Aspose.Note for .NET 中实现用户保存回调，以自定义保存字体、CSS 和图像。
-type: docs
 weight: 31
 url: /zh/net/loading-and-saving-operations/user-saving-callbacks/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Aspose.Note 中的用户保存回调
+
 ## 介绍
 
 在本教程中，我们将探讨如何在 Aspose.Note for .NET 中实现用户保存回调。这些回调允许您通过提供在不同阶段进行干预的挂钩来自定义保存过程，例如保存字体、CSS 样式表和图像。通过利用这些回调，您可以定制保存行为以满足您的特定要求，从而增强灵活性和对输出的控制。
@@ -118,3 +124,9 @@ A4：虽然这些回调提供了灵活性，但请确保有效实施以避免任
 ### Q5：我可以根据用户输入或其他条件动态更改保存行为吗？
 
 A5：是的，您可以在回调方法中合并条件逻辑，以根据各种因素动态调整保存行为。
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

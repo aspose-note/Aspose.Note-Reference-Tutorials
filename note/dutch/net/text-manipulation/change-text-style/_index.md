@@ -3,10 +3,16 @@ title: Wijzig de tekststijl in Aspose.Note
 linktitle: Wijzig de tekststijl in Aspose.Note
 second_title: Aspose.Note .NET API
 description: Verbeter uw documentstijl met Aspose.Note voor .NET. Leer hoe u moeiteloos tekststijlen kunt wijzigen in deze stapsgewijze handleiding. Probeer het gratis!
-type: docs
 weight: 14
 url: /nl/net/text-manipulation/change-text-style/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Wijzig de tekststijl in Aspose.Note
+
 ## Invoering
 Ben je klaar om je documentstijlspel naar een hoger niveau te tillen met Aspose.Note voor .NET? In deze uitgebreide handleiding begeleiden we u moeiteloos door het proces van het wijzigen van tekststijlen. Aspose.Note is een krachtige bibliotheek waarmee u Microsoft OneNote-bestanden programmatisch kunt manipuleren. Als u de visuele aantrekkingskracht van uw notities of documenten wilt verbeteren, lees dan verder en ontdek hoe u tekststijlen naadloos kunt wijzigen.
 ## Vereisten
@@ -63,3 +69,9 @@ Absoluut! Aspose.Note voor .NET biedt een gebruiksvriendelijke interface, waardo
  Haal uw tijdelijke licentie[hier](https://purchase.aspose.com/temporary-license/).
 ### Waar kan ik Aspose.Note voor .NET kopen?
  U kunt Aspose.Note voor .NET kopen[hier](https://purchase.aspose.com/buy).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

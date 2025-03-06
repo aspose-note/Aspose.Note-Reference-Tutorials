@@ -3,10 +3,16 @@ title: Padroneggiare l'integrazione di OneNote con Aspose.Note per .NET
 linktitle: Manipolazione delle note
 second_title: Aspose.Note API .NET
 description: Sblocca la potenza di Aspose.Note per .NET con i nostri tutorial incentrati su OneNote. Risolvi i conflitti, crea documenti dinamici ed esplora una manipolazione efficiente delle pagine.
-type: docs
 weight: 27
 url: /it/net/note-manipulation/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Padroneggiare l'integrazione di OneNote con Aspose.Note per .NET
+
 
 ## introduzione
 
@@ -69,3 +75,9 @@ Scopri come gestire in modo efficace le revisioni nei documenti Aspose.Note util
 Scopri come impostare il colore di sfondo delle pagine nei documenti Aspose.Note utilizzando il linguaggio di programmazione C# con una guida passo passo.
 ### [Lavorare con le revisioni delle pagine - Suggerimenti Aspose.Note](./working-with-page-revisions/)
 Impara a gestire le revisioni delle pagine di Microsoft OneNote con Aspose.Note. Guida passo passo per un'integrazione perfetta e il controllo della versione nelle tue applicazioni .NET.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

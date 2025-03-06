@@ -3,10 +3,16 @@ title: 在 Aspose.Note 中的文本上应用项目符号
 linktitle: 在 Aspose.Note 中的文本上应用项目符号
 second_title: Aspose.Note .NET API
 description: 了解如何在 Aspose.Note for .NET 中的文本上应用项目符号以增强您的 OneNote 文档。请按照此分步指南进行有效的格式化。
-type: docs
 weight: 10
 url: /zh/net/text-manipulation/apply-bullets-on-text/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# 在 Aspose.Note 中的文本上应用项目符号
+
 ## 介绍
 欢迎阅读本分步指南，了解如何使用 Aspose.Note for .NET 将项目符号应用于文本。 Aspose.Note 是一个功能强大的库，允许开发人员在其 .NET 应用程序中无缝使用 Microsoft OneNote 文件。在本教程中，我们将引导您完成将项目符号应用于文本的过程，从而增强 OneNote 文档的视觉吸引力。
 ## 先决条件
@@ -86,3 +92,9 @@ Aspose.Note支持各种版本的Microsoft OneNote，确保与旧版本和新版�
 是的，您可以下载免费试用版[这里](https://releases.aspose.com/).
 ### 我在哪里可以找到额外的支持和资源？
 您可以访问 Aspose.Note 社区论坛[这里](https://forum.aspose.com/c/note/28)以寻求支持和讨论。
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

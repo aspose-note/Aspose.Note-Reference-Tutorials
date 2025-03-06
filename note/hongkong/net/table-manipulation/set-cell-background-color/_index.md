@@ -3,10 +3,16 @@ title: 在 Aspose.Note 表格中設定儲存格背景顏色
 linktitle: 在 Aspose.Note 表格中設定儲存格背景顏色
 second_title: Aspose.Note .NET API
 description: 了解如何使用逐步指南在 Aspose.Note 表格中設定儲存格背景顏色。輕鬆增強文件視覺效果。
-type: docs
 weight: 17
 url: /zh-hant/net/table-manipulation/set-cell-background-color/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# 在 Aspose.Note 表格中設定儲存格背景顏色
+
 ## 介紹
 
 在本教程中，我們將深入研究如何使用 Aspose.Note for .NET 在表格中設定儲存格背景顏色。此功能可顯著增強文件的視覺吸引力和可讀性。請按照以下步驟了解如何實現這一目標。
@@ -122,3 +128,9 @@ A4：Aspose.Note for .NET 專門針對 OneNote 檔案格式。若要處理 Word 
 ### Q5：在哪裡可以找到更多關於 Aspose.Note for .NET 的資源和支援？
 
  A5：您可以探索[Aspose.Note 文檔](https://reference.aspose.com/note/net/)取得詳細的 API 參考和範例。此外，您可以在 Aspose 社區尋求協助[Aspose.Note 論壇](https://forum.aspose.com/c/note/28).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

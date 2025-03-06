@@ -3,10 +3,16 @@ title: 使用 Aspose.Note 打印选项自定义打印
 linktitle: 使用 Aspose.Note 打印选项自定义打印
 second_title: Aspose.Note .NET API
 description: 了解如何使用 Aspose.Note for .NET 自定义文档打印。微调设置以获得最佳打印输出。
-type: docs
 weight: 11
 url: /zh/net/printing-document/customize-printing-options/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# 使用 Aspose.Note 打印选项自定义打印
+
 ## 介绍
 
 使用 Aspose.Note for .NET 打印文档可以使用打印选项进行定制以满足特定要求。在本教程中，我们将探索如何使用 Aspose.Note 提供的各种选项自定义打印。无论您需要调整打印机设置、设置分辨率还是定义页面分割算法，Aspose.Note 都可以灵活地实现所需的打印结果。
@@ -95,3 +101,9 @@ A4：Aspose.Note 支持打印到多种与.NET 框架兼容的打印机。
 ### Q5：我可以使用 Aspose.Note 自动执行打印任务吗？
 
 A5：是的，Aspose.Note 允许开发人员通过将打印选项集成到他们的 .NET 应用程序中来自动化打印任务。
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

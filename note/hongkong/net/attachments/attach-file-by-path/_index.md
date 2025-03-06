@@ -3,10 +3,16 @@ title: 在 Aspose.Note 中按路徑附加文件
 linktitle: 在 Aspose.Note 中按路徑附加文件
 second_title: Aspose.Note .NET API
 description: 了解如何使用 Aspose.Note for .NET 以程式設計方式將文件附加到 Microsoft OneNote 文件。透過這個綜合教程簡化您的開發流程。
-type: docs
 weight: 11
 url: /zh-hant/net/attachments/attach-file-by-path/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# 在 Aspose.Note 中按路徑附加文件
+
 ## 介紹
 
 Aspose.Note for .NET 是一個功能強大的程式庫，使開發人員能夠以程式設計方式使用 Microsoft OneNote 檔案。無論您想要建立、編輯、轉換或操作 OneNote 文檔，Aspose.Note for .NET 都提供了全面的功能來簡化您的開發過程。
@@ -147,3 +153,9 @@ A3：是的，您需要取得 Aspose.Note for .NET 的商業使用授權。您�
 ### Q5：我可以在哪裡尋求 Aspose.Note for .NET 的支援？
 
  A5：您可以向Aspose.Note社群論壇尋求支持[這裡](https://forum.aspose.com/c/note/28).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

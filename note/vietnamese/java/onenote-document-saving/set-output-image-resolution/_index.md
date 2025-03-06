@@ -3,10 +3,16 @@ title: Đặt độ phân giải hình ảnh đầu ra trong OneNote - Aspose.No
 linktitle: Đặt độ phân giải hình ảnh đầu ra trong OneNote - Aspose.Note
 second_title: API Java Aspose.Note
 description: Tìm hiểu cách điều chỉnh độ phân giải hình ảnh trong tài liệu OneNote bằng Aspose.Note for Java. Hãy làm theo hướng dẫn từng bước của chúng tôi để dễ dàng thực hiện
-type: docs
 weight: 23
 url: /vi/java/onenote-document-saving/set-output-image-resolution/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Đặt độ phân giải hình ảnh đầu ra trong OneNote - Aspose.Note
+
 ## Giới thiệu
 
 Bạn đang muốn điều khiển độ phân giải của hình ảnh trong tài liệu OneNote của mình bằng Java? Aspose.Note for Java cung cấp một giải pháp mạnh mẽ cho những tác vụ như vậy. Trong hướng dẫn này, chúng ta sẽ thực hiện các bước để đặt độ phân giải hình ảnh đầu ra bằng Aspose.Note.
@@ -88,3 +94,9 @@ Câu trả lời 4: Có, Aspose.Note cung cấp các tính năng toàn diện đ
 ### Câu hỏi 5: Tôi có thể nhận hỗ trợ cho các truy vấn liên quan đến Aspose.Note ở đâu?
 
  Câu trả lời 5: Bạn có thể tìm kiếm sự trợ giúp từ diễn đàn cộng đồng Aspose.Note[đây](https://forum.aspose.com/c/note/28).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -3,10 +3,16 @@ title: Aspose.Note में पृष्ठ शीर्षक शैली ब
 linktitle: Aspose.Note में पृष्ठ शीर्षक शैली बदलें
 second_title: Aspose.Note .NET API
 description: Aspose.Note के साथ अपने .NET दस्तावेज़ों को रूपांतरित करें! पृष्ठ शीर्षक शैलियों को सहजता से बदलना सीखें। कुछ सरल चरणों में सौंदर्यशास्त्र को उन्नत करें।
-type: docs
 weight: 13
 url: /hi/net/text-manipulation/change-page-title-style/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Aspose.Note में पृष्ठ शीर्षक शैली बदलें
+
 ## परिचय
 क्या आप गतिशील पेज शीर्षक स्टाइल के साथ अपने .NET दस्तावेज़ों की दृश्य अपील को बढ़ाना चाहते हैं? .NET के लिए Aspose.Note एक सहज समाधान प्रदान करता है, जिससे आप आसानी से अपने पृष्ठ शीर्षकों की शैली बदल सकते हैं। इस ट्यूटोरियल में, हम आपको चरण-दर-चरण प्रक्रिया के माध्यम से मार्गदर्शन करेंगे, यह सुनिश्चित करते हुए कि आप बिना किसी परेशानी के अपने दस्तावेज़ों के सौंदर्यशास्त्र को बढ़ा सकते हैं।
 ## आवश्यक शर्तें
@@ -70,3 +76,9 @@ Console.WriteLine("\nTitle's styles are changed successfully.");
  आप Aspose.Note के लिए लाइसेंस खरीद सकते हैं[यहाँ](https://purchase.aspose.com/buy).
 ### क्या मुझे परीक्षण उद्देश्यों के लिए अस्थायी लाइसेंस की आवश्यकता है?
  हाँ, यदि आप Aspose.Note का परीक्षण कर रहे हैं, तो आप एक अस्थायी लाइसेंस प्राप्त कर सकते हैं[यहाँ](https://purchase.aspose.com/temporary-license/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

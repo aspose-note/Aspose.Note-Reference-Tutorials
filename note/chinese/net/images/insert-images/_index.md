@@ -3,10 +3,16 @@ title: 在 Aspose.Note 文档中插入图像
 linktitle: 在 Aspose.Note 文档中插入图像
 second_title: Aspose.Note .NET API
 description: 了解如何使用 .NET 将图像无缝插入到 Aspose.Note 文档中以增强视觉内容。请遵循我们的分步指南以轻松集成。
-type: docs
 weight: 16
 url: /zh/net/images/insert-images/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# 在 Aspose.Note 文档中插入图像
+
 ## 介绍
 
 将图像添加到 Aspose.Note 文档中可以极大地增强其视觉吸引力和实用性。无论您是在创建笔记、演示文稿还是任何其他文档，集成图像都可以为您的内容提供上下文和清晰度。在本教程中，我们将指导您完成使用 .NET 将图像插入 Aspose.Note 文档的过程。
@@ -89,3 +95,9 @@ A4：当然！您可以使用 Aspose.Note 在单个页面上插入任意数量�
 ### Q5：插入图片的文件大小有限制吗？
 
 A5：Aspose.Note 对图像文件大小没有严格限制，但建议优化图像以获得更好的性能。
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

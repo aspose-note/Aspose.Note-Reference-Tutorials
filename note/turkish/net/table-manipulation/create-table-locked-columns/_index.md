@@ -3,10 +3,16 @@ title: Aspose.Note'u kullanarak Kilitli Sütunlu Tablo Oluşturma
 linktitle: Aspose.Note'u kullanarak Kilitli Sütunlu Tablo Oluşturma
 second_title: Aspose.Note .NET API'si
 description: Aspose.Note for .NET'i kullanarak kilitli sütunlara sahip tablolar oluşturmayı öğrenin. Verimli belge işleme görevleri için adım adım kılavuz.
-type: docs
 weight: 12
 url: /tr/net/table-manipulation/create-table-locked-columns/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Aspose.Note'u kullanarak Kilitli Sütunlu Tablo Oluşturma
+
 ## giriiş
 
 Kilitli sütunlara sahip tablolar oluşturmak, belge işleme uygulamalarında yaygın bir gereksinimdir. Aspose.Note for .NET, bu görevi verimli bir şekilde gerçekleştirmek için güçlü araçlar sağlar. Bu eğitimde, Aspose.Note for .NET'i kullanarak kilitli sütunlara sahip bir tablo oluşturma sürecinde size adım adım rehberlik edeceğiz.
@@ -147,3 +153,9 @@ C4: Evet, teknik desteğe şu adresten erişebilirsiniz:[Aspose.Note forumu](htt
 ### S5: Satın almadan önce Aspose.Note for .NET'i deneyebilir miyim?
 
  Cevap5: Evet, Aspose.Note for .NET'in ücretsiz deneme sürümünü şu adresten indirebilirsiniz:[Burada](https://releases.aspose.com/) özelliklerini ve gereksinimlerinize uygunluğunu değerlendirmek.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

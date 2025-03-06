@@ -3,10 +3,16 @@ title: Εισαγωγή σελίδων στο OneNote - Aspose.Note
 linktitle: Εισαγωγή σελίδων στο OneNote - Aspose.Note
 second_title: Aspose.Note Java API
 description: Μάθετε πώς να εισάγετε σελίδες σε έγγραφα του OneNote μέσω προγραμματισμού χρησιμοποιώντας το Aspose.Note για Java. Ολοκληρωμένο σεμινάριο με οδηγίες βήμα προς βήμα.
-type: docs
 weight: 16
 url: /el/java/onenote-page-manipulation/insert-pages/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Εισαγωγή σελίδων στο OneNote - Aspose.Note
+
 ## Εισαγωγή
 
 Σε αυτό το σεμινάριο, θα μάθουμε πώς να εισάγετε σελίδες σε ένα έγγραφο του OneNote χρησιμοποιώντας το Aspose.Note για Java.
@@ -132,3 +138,9 @@ A4: Ναι, μπορείτε να αναπτύξετε εφαρμογές χρη
 ### Ε5: Μπορώ να προσαρμόσω την εμφάνιση των σελίδων που έχουν εισαχθεί στο OneNote;
 
 A5: Οπωσδήποτε, το Aspose.Note παρέχει εκτενείς επιλογές για την προσαρμογή των διατάξεων, των στυλ και του περιεχομένου σελίδων ώστε να ανταποκρίνονται στις συγκεκριμένες απαιτήσεις σας.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

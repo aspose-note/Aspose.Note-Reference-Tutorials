@@ -3,10 +3,16 @@ title: Aspose Note .NET에서 서식 있는 텍스트 읽기
 linktitle: Aspose Note .NET에서 서식 있는 텍스트 읽기
 second_title: Aspose.Note .NET API
 description: .NET용 Aspose.Note를 사용하여 프로그래밍 방식으로 OneNote 노트북의 서식 있는 텍스트를 읽는 방법을 알아보세요. 간편한 통합을 위해 단계별 튜토리얼을 따르세요.
-type: docs
 weight: 23
 url: /ko/net/notebook-operations/read-rich-text/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Aspose Note .NET에서 서식 있는 텍스트 읽기
+
 ## 소개
 
 이 튜토리얼에서는 .NET용 Aspose.Note를 사용하여 서식 있는 텍스트를 읽는 방법을 살펴보겠습니다. Aspose.Note는 개발자가 Microsoft OneNote 문서를 프로그래밍 방식으로 작업할 수 있도록 하는 강력한 API로, OneNote 파일 생성, 편집 및 조작을 위한 광범위한 기능을 제공합니다.
@@ -97,3 +103,9 @@ A1: 예, .NET용 Aspose.Note를 사용하면 OneNote 파일을 프로그래밍 �
 ### Q5: .NET용 Aspose.Note에 대한 자세한 문서는 어디서 찾을 수 있나요?
 
  A5: .NET용 Aspose.Note에 대한 포괄적인 문서는 다음에서 찾을 수 있습니다.[참조 페이지](https://reference.aspose.com/note/net/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

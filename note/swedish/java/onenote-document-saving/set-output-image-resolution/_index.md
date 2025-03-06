@@ -3,10 +3,16 @@ title: Ställ in bildupplösning i OneNote - Aspose.Note
 linktitle: Ställ in bildupplösning i OneNote - Aspose.Note
 second_title: Aspose.Note Java API
 description: Lär dig hur du justerar bildupplösningen i OneNote-dokument med Aspose.Note för Java. Följ vår steg-för-steg-guide för enkel implementering
-type: docs
 weight: 23
 url: /sv/java/onenote-document-saving/set-output-image-resolution/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Ställ in bildupplösning i OneNote - Aspose.Note
+
 ## Introduktion
 
 Vill du manipulera upplösningen av bilder i dina OneNote-dokument med Java? Aspose.Note för Java erbjuder en robust lösning för sådana uppgifter. I den här handledningen går vi igenom stegen för att ställa in bildupplösningen med Aspose.Note.
@@ -88,3 +94,9 @@ S4: Ja, Aspose.Note tillhandahåller omfattande funktioner för bildmanipulering
 ### F5: Var kan jag få support för Aspose.Note-relaterade frågor?
 
  S5: Du kan söka hjälp från Aspose.Notes communityforum[här](https://forum.aspose.com/c/note/28).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -3,10 +3,16 @@ title: Számozott lista létrehozása a OneNote-ban – Aspose.Note
 linktitle: Számozott lista létrehozása a OneNote-ban – Aspose.Note
 second_title: Aspose.Note Java API
 description: Ismerje meg, hogyan hozhat létre könnyedén számozott listát a OneNote-ban az Aspose.Note for Java segítségével. Tölts le egy ingyenes próbaverziót, és merülj el a Java fejlesztés világában!
-type: docs
 weight: 14
 url: /hu/java/onenote-text-manipulation/create-numbered-list/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Számozott lista létrehozása a OneNote-ban – Aspose.Note
+
 ## Bevezetés
 Az Aspose.Note for Java lehetővé teszi a Java fejlesztők számára, hogy zökkenőmentesen dolgozzanak a Microsoft OneNote fájlokkal. Ebben az oktatóanyagban végigvezetjük a számozott lista létrehozásának folyamatán a OneNote-ban a hatékony Aspose.Note for Java könyvtárral.
 ## Előfeltételek
@@ -91,3 +97,9 @@ V: Abszolút! A számozási formátum testreszabható az Aspose.Note for Java á
  V: Lásd a[dokumentáció](https://reference.aspose.com/note/java/) átfogó tájékoztatásért.
 ### K: Hogyan vásárolhatok licencet az Aspose.Note for Java számára?
  V: Vásárolhat licencet[itt](https://purchase.aspose.com/buy).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

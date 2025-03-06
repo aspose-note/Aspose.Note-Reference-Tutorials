@@ -3,10 +3,16 @@ title: Сохранение в двоичном изображении с исп
 linktitle: Сохранение в двоичном изображении с использованием фиксированного порога в OneNote
 second_title: Aspose.Note Java API
 description: С легкостью сохраняйте документы Microsoft OneNote в виде двоичных изображений, используя фиксированный порог с помощью Aspose.Note Java. Расширьте возможности манипулирования файлами OneNote.
-type: docs
 weight: 14
 url: /ru/java/onenote-document-saving/save-to-binary-image-using-fixed-threshold/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Сохранение в двоичном изображении с использованием фиксированного порога в OneNote
+
 ## Введение
 
 Aspose.Note для Java — это мощный API, который позволяет разработчикам программно работать с файлами Microsoft OneNote. В этом уроке мы рассмотрим, как сохранить документ в виде двоичного изображения, используя фиксированный порог. Чтобы добиться этого, выполните следующие действия.
@@ -91,3 +97,9 @@ A4: Да, вы можете обрабатывать несколько доку
 ### Вопрос 5: Доступна ли техническая поддержка для Aspose.Note для Java?
 
  A5: Да, техническая поддержка доступна через[Форум Aspose.Note](https://forum.aspose.com/c/note/28), где можно задать вопросы и обратиться за помощью к экспертам.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

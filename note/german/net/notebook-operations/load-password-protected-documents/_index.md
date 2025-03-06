@@ -3,10 +3,16 @@ title: Laden Sie passwortgeschützte Dokumente in Aspose Note .NET
 linktitle: Laden Sie passwortgeschützte Dokumente in Aspose Note .NET
 second_title: Aspose.Note .NET-API
 description: Erfahren Sie, wie Sie mit einfachen Schritten passwortgeschützte Dokumente sicher in Aspose Note .NET laden. Stellen Sie die Vertraulichkeit der Daten durch Verschlüsselung sicher.
-type: docs
 weight: 22
 url: /de/net/notebook-operations/load-password-protected-documents/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Laden Sie passwortgeschützte Dokumente in Aspose Note .NET
+
 ## Einführung
 
 Aspose.Note für .NET ist eine leistungsstarke API, die es Entwicklern ermöglicht, programmgesteuert mit Microsoft OneNote-Dateien zu arbeiten. In diesem Tutorial erfahren Sie, wie Sie passwortgeschützte Dokumente mit Aspose.Note für .NET laden.
@@ -77,3 +83,9 @@ A4: Ja, Sie können mit Aspose.Note für .NET unterschiedliche Kennwörter für 
 ### F5: Gibt es eine Testversion für Aspose.Note für .NET?
 
  A5: Ja, Sie können unter auf eine kostenlose Testversion von Aspose.Note für .NET zugreifen[Hier](https://releases.aspose.com/), sodass Sie die Funktionen vor dem Kauf erkunden können.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

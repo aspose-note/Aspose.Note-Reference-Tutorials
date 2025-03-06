@@ -3,10 +3,16 @@ title: Δημιουργήστε ένα έγγραφο OneNote και αποθη�
 linktitle: Δημιουργήστε ένα έγγραφο OneNote και αποθηκεύστε το σε HTML στο Aspose.Note
 second_title: Aspose.Note .NET API
 description: Μάθετε πώς να δημιουργείτε και να αποθηκεύετε έγγραφα Microsoft OneNote σε μορφή HTML σε εφαρμογές .NET χρησιμοποιώντας το Aspose.Note API. Ακολουθήστε το περιεκτικό μας σεμινάριο με παραδείγματα βήμα προς βήμα.
-type: docs
 weight: 14
 url: /el/net/loading-and-saving-operations/create-onenote-doc-save-to-html/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Δημιουργήστε ένα έγγραφο OneNote και αποθηκεύστε το σε HTML στο Aspose.Note
+
 ## Εισαγωγή
 
 Το Aspose.Note για .NET είναι ένα ισχυρό API που επιτρέπει στους προγραμματιστές να εργάζονται με έγγραφα του Microsoft OneNote μέσω προγραμματισμού στις εφαρμογές τους .NET. Με το Aspose.Note, μπορείτε να δημιουργείτε, να χειρίζεστε και να μετατρέπετε αρχεία OneNote χωρίς κόπο. Σε αυτό το σεμινάριο, θα διερευνήσουμε πώς να δημιουργήσετε ένα έγγραφο OneNote και να το αποθηκεύσετε σε μορφή HTML χρησιμοποιώντας διάφορες επιλογές που παρέχονται από το Aspose.Note για .NET API.
@@ -218,3 +224,9 @@ A4: Ναι, μπορείτε να εξαγάγετε κείμενο και ει�
 ### Ε5: Υπάρχει διαθέσιμη δοκιμαστική έκδοση για δοκιμή των χαρακτηριστικών Aspose.Note;
 
  A5: Ναι, μπορείτε να κάνετε λήψη μιας δωρεάν δοκιμαστικής έκδοσης από[εδώ](https://releases.aspose.com/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

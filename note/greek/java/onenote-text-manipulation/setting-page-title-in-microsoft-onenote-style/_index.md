@@ -3,10 +3,16 @@ title: Ρύθμιση τίτλου σελίδας στο στυλ Microsoft OneN
 linktitle: Ρύθμιση τίτλου σελίδας στο στυλ Microsoft OneNote - Aspose.Note
 second_title: Aspose.Note Java API
 description: Μάθετε πώς να ορίζετε τίτλους σελίδων σε στυλ Microsoft OneNote χρησιμοποιώντας το Aspose.Note για Java. Αναβαθμίστε τα έγγραφα Java σας με επαγγελματική μορφοποίηση.
-type: docs
 weight: 23
 url: /el/java/onenote-text-manipulation/setting-page-title-in-microsoft-onenote-style/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Ρύθμιση τίτλου σελίδας στο στυλ Microsoft OneNote - Aspose.Note
+
 ## Εισαγωγή
 Στον δυναμικό κόσμο της ανάπτυξης Java, η δημιουργία οπτικά ελκυστικών και δομημένων εγγράφων είναι ζωτικής σημασίας. Αν θέλετε να βελτιώσετε τις εφαρμογές σας Java με τίτλους σελίδων τύπου Microsoft OneNote, το Aspose.Note για Java είναι η ιδανική λύση. Σε αυτό το περιεκτικό σεμινάριο, θα σας καθοδηγήσουμε στη διαδικασία ρύθμισης τίτλων σελίδων στο στυλ OneNote χρησιμοποιώντας το Aspose.Note, διασφαλίζοντας ότι τα έγγραφά σας ξεχωρίζουν με επαγγελματική πινελιά.
 ## Προαπαιτούμενα
@@ -72,3 +78,9 @@ doc.appendChildLast(page);
  Ζητήστε βοήθεια από την κοινότητα Aspose.Note στο[Aspose.Note Forum](https://forum.aspose.com/c/note/28).
 ### Υπάρχει διαθέσιμη δοκιμαστική έκδοση;
  Ναι, μπορείτε να εξερευνήσετε τις δυνατότητες του Aspose.Note με μια δωρεάν δοκιμή από[εδώ](https://releases.aspose.com/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

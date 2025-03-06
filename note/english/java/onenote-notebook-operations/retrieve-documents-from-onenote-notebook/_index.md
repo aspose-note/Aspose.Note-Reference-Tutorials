@@ -3,10 +3,16 @@ title: Retrieve Documents from OneNote Notebook - Aspose.Note
 linktitle: Retrieve Documents from OneNote Notebook - Aspose.Note
 second_title: Aspose.Note Java API
 description: Learn how to retrieve documents from OneNote Notebook using Aspose.Note for Java. Follow our step-by-step guide for seamless integration.
-type: docs
 weight: 25
 url: /java/onenote-notebook-operations/retrieve-documents-from-onenote-notebook/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Retrieve Documents from OneNote Notebook - Aspose.Note
+
 ## Introduction
 
 Welcome to the comprehensive guide on utilizing Aspose.Note for Java to retrieve documents from OneNote Notebook! Aspose.Note is a powerful Java API that allows developers to manipulate OneNote files with ease. In this tutorial, we will walk through the process step by step, breaking down each example into multiple steps to ensure clear understanding.
@@ -92,3 +98,10 @@ A4: For additional support and assistance, you can visit the [Aspose.Note forum]
 ### Q5: Does Aspose.Note for Java offer a free trial?
 
 A5: Yes, you can avail of a free trial of Aspose.Note for Java by visiting the [free trial page](https://releases.aspose.com/).
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

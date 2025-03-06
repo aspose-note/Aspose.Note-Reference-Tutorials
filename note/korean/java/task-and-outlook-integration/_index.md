@@ -3,10 +3,16 @@ title: 작업 및 Outlook 통합
 linktitle: 작업 및 Outlook 통합
 second_title: Aspose.Note 자바 API
 description: Outlook 작업을 OneNote에 통합하는 방법에 대한 자습서를 통해 Aspose.Note Java의 잠재력을 활용해 보세요. 튜토리얼을 통해 문서 처리 기술을 향상하세요.
-type: docs
 weight: 35
 url: /ko/java/task-and-outlook-integration/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# 작업 및 Outlook 통합
+
 
 ## 소개
 
@@ -38,3 +44,9 @@ Aspose.Note for Java로 이 여정을 시작하면서 효율성과 생산성은 
 ## 작업 및 Outlook 통합 자습서
 ### [OneNote에서 Outlook 작업 가져오기 - Aspose.Note](./get-outlook-task/)
 OneNote에서 Outlook 작업을 쉽게 추출할 수 있는 Aspose.Note for Java의 강력한 기능을 살펴보세요. 단계별 가이드를 따라 문서 처리 기능을 강화하세요.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

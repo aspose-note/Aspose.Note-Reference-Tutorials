@@ -3,10 +3,16 @@ title: Convertir une page spécifique en image dans Aspose.Note
 linktitle: Convertir une page spécifique en image dans Aspose.Note
 second_title: API Aspose.Note .NET
 description: Découvrez comment convertir des pages spécifiques de documents Microsoft OneNote en images par programmation à l'aide d'Aspose.Note pour .NET.
-type: docs
 weight: 11
 url: /fr/net/loading-and-saving-operations/convert-specific-page-to-image/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Convertir une page spécifique en image dans Aspose.Note
+
 ## Introduction
 
 Aspose.Note pour .NET est une API puissante qui permet aux développeurs de travailler avec des documents Microsoft OneNote par programme. Que vous ayez besoin d'extraire du contenu, de convertir des documents vers d'autres formats ou de manipuler des éléments dans un fichier OneNote, Aspose.Note pour .NET fournit des fonctionnalités complètes pour rationaliser vos tâches. Dans ce didacticiel, nous verrons comment utiliser Aspose.Note pour .NET pour convertir des pages spécifiques d'un document OneNote en images. Nous couvrirons les conditions préalables, importerons les espaces de noms et fournirons des conseils étape par étape sur la mise en œuvre du processus de conversion.
@@ -100,3 +106,9 @@ A4 : Oui, vous pouvez définir la qualité de l'image en fonction de vos besoins
 ### Q5 : Où puis-je obtenir de l'assistance pour Aspose.Note pour .NET ?
 
  A5 : Vous pouvez obtenir de l'aide de la communauté Aspose.Note pour .NET[forum](https://forum.aspose.com/c/note/28).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

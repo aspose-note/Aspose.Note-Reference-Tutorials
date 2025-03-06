@@ -3,10 +3,16 @@ title: Использование алгоритма сохранения тве
 linktitle: Использование алгоритма сохранения твердых объектов в OneNote — Aspose.Note
 second_title: Aspose.Note Java API
 description: Узнайте, как сохранить твердые объекты в документах Aspose.Note при преобразовании в PDF с помощью алгоритма сохранения твердых объектов в Java.
-type: docs
 weight: 25
 url: /ru/java/onenote-document-saving/use-keep-solid-objects-algorithm/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Использование алгоритма сохранения твердых объектов в OneNote — Aspose.Note
+
 ## Введение
 
 В этом уроке мы рассмотрим, как использовать алгоритм Keep Solid Objects в Aspose.Note для Java. Этот алгоритм имеет неоценимое значение для сохранения целостности твердых объектов в ваших документах при их преобразовании в формат PDF. Мы разберем процесс шаг за шагом, обеспечивая ясность и понимание на каждом этапе.
@@ -93,3 +99,10 @@ doc.save(outputFile);
 ### В5: Где я могу приобрести лицензию?
 
  A5: Вы можете приобрести лицензию на Aspose.Note для Java.[здесь](https://purchase.aspose.com/buy).
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -3,10 +3,16 @@ title: Configurando a cor de fundo da célula no OneNote - Aspose.Note
 linktitle: Configurando a cor de fundo da célula no OneNote - Aspose.Note
 second_title: API Java Aspose.Note
 description: Transforme documentos do OneNote com facilidade usando Aspose.Note para Java. Personalize facilmente as cores de fundo das células. Experimente o teste gratuito agora!
-type: docs
 weight: 17
 url: /pt/java/onenote-table-manipulation/setting-cell-background-color/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Configurando a cor de fundo da célula no OneNote - Aspose.Note
+
 ## Introdução
 Bem-vindo ao nosso tutorial sobre como definir a cor de fundo da célula no OneNote usando Aspose.Note para Java! Neste guia passo a passo, orientaremos você no processo de personalização fácil das cores de fundo das células em seus documentos do OneNote.
 ## Pré-requisitos
@@ -66,3 +72,9 @@ Sim, você pode percorrer as linhas e células da tabela para aplicar a cor de f
  Visite o fórum de suporte[aqui](https://forum.aspose.com/c/note/28) para obter assistência da comunidade Aspose.
 ### Onde posso comprar o Aspose.Note para Java?
  Você pode comprar a biblioteca[aqui](https://purchase.aspose.com/buy).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

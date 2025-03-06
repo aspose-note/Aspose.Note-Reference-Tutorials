@@ -3,10 +3,16 @@ title: قم بإنشاء قالب لملاحظات الاجتماع باستخد
 linktitle: قم بإنشاء قالب لملاحظات الاجتماع باستخدام Aspose.Note
 second_title: Aspose.Note .NET API
 description: تعرف على كيفية إنشاء ملاحظات اجتماع منظمة باستخدام Aspose.Note لـ .NET. يوفر هذا البرنامج التعليمي دليلاً خطوة بخطوة مع أمثلة التعليمات البرمجية.
-type: docs
 weight: 13
 url: /ar/net/tag-management/generate-template-meeting-notes/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# قم بإنشاء قالب لملاحظات الاجتماع باستخدام Aspose.Note
+
 ## مقدمة
 
 في هذا البرنامج التعليمي، سنتعرف على عملية إنشاء قالب لملاحظات الاجتماع باستخدام Aspose.Note لـ .NET. توفر هذه المكتبة أدوات قوية لإنشاء مستندات OneNote وتحريرها ومعالجتها برمجياً.
@@ -126,3 +132,9 @@ d.Save(Path.Combine(dataDir, "meetingNotes.one"));
 
  ج5: نعم، يمكنك تنزيل نسخة تجريبية مجانية من[هذا الرابط](https://releases.aspose.com/).
    
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

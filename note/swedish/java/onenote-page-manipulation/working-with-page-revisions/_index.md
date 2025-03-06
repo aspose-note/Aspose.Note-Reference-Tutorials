@@ -3,10 +3,16 @@ title: Arbeta med sidrevisioner i OneNote - Aspose.Note
 linktitle: Arbeta med sidrevisioner i OneNote - Aspose.Note
 second_title: Aspose.Note Java API
 description: Lär dig hur du hanterar sidrevisioner i OneNote-dokument med Aspose.Note för Java. Ger en steg-för-steg-guide för effektiv revisionsspårning och samarbete.
-type: docs
 weight: 21
 url: /sv/java/onenote-page-manipulation/working-with-page-revisions/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Arbeta med sidrevisioner i OneNote - Aspose.Note
+
 ## Introduktion
 
 OneNote är ett kraftfullt verktyg för att organisera och hantera anteckningar, men ibland måste du arbeta med revisioner för att spåra ändringar och samarbeta effektivt. Med Aspose.Note för Java kan du enkelt hantera sidrevisioner i OneNote-dokument programmatiskt. Denna handledning guidar dig genom processen steg för steg.
@@ -98,3 +104,9 @@ S: Ja, du kan anpassa sidversioner enligt dina krav med Aspose.Note för Java.
 ### F5: Var kan jag få support för Aspose.Note för Java?
 
  S: Du kan få support för Aspose.Note för Java från[Aspose.Note forum](https://forum.aspose.com/c/note/28).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

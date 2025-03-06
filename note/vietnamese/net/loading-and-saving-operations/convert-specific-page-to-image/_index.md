@@ -3,10 +3,16 @@ title: Chuyển đổi trang cụ thể thành hình ảnh trong Aspose.Note
 linktitle: Chuyển đổi trang cụ thể thành hình ảnh trong Aspose.Note
 second_title: Aspose.Note .NET API
 description: Tìm hiểu cách chuyển đổi các trang cụ thể của tài liệu Microsoft OneNote thành hình ảnh theo chương trình bằng cách sử dụng Aspose.Note for .NET.
-type: docs
 weight: 11
 url: /vi/net/loading-and-saving-operations/convert-specific-page-to-image/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Chuyển đổi trang cụ thể thành hình ảnh trong Aspose.Note
+
 ## Giới thiệu
 
 Aspose.Note for .NET là một API mạnh mẽ cho phép các nhà phát triển làm việc với các tài liệu Microsoft OneNote theo chương trình. Cho dù bạn cần trích xuất nội dung, chuyển đổi tài liệu sang các định dạng khác hay thao tác các thành phần trong tệp OneNote, Aspose.Note for .NET đều cung cấp chức năng toàn diện để hợp lý hóa các tác vụ của bạn. Trong hướng dẫn này, chúng ta sẽ khám phá cách sử dụng Aspose.Note for .NET để chuyển đổi các trang cụ thể của tài liệu OneNote thành hình ảnh. Chúng tôi sẽ đề cập đến các điều kiện tiên quyết, nhập vùng tên và cung cấp hướng dẫn từng bước về cách triển khai quy trình chuyển đổi.
@@ -100,3 +106,9 @@ A4: Có, bạn có thể đặt chất lượng hình ảnh theo yêu cầu củ
 ### Câu hỏi 5: Tôi có thể nhận hỗ trợ cho Aspose.Note cho .NET ở đâu?
 
  Câu trả lời 5: Bạn có thể nhận hỗ trợ từ cộng đồng Aspose.Note dành cho .NET[diễn đàn](https://forum.aspose.com/c/note/28).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

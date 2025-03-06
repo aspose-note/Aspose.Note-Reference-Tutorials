@@ -3,10 +3,16 @@ title: OneNote에서 페이지 수 가져오기 - Aspose.Note
 linktitle: OneNote에서 페이지 수 가져오기 - Aspose.Note
 second_title: Aspose.Note 자바 API
 description: Java용 Aspose.Note를 사용하여 OneNote 문서의 페이지 수를 검색하는 방법을 알아보세요. 이 단계별 튜토리얼은 프로세스를 쉽게 안내합니다.
-type: docs
 weight: 13
 url: /ko/java/onenote-page-manipulation/get-page-count/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# OneNote에서 페이지 수 가져오기 - Aspose.Note
+
 ## 소개
 
 이 튜토리얼에서는 Aspose.Note for Java를 사용하여 OneNote 문서의 페이지 수를 효율적으로 검색하는 방법을 살펴보겠습니다. Aspose.Note는 개발자가 프로그래밍 방식으로 Microsoft OneNote 파일을 사용하여 문서 조작, 추출 및 변환과 같은 작업을 수행할 수 있도록 하는 강력한 Java API입니다.
@@ -86,3 +92,9 @@ A4: 예, 다음 웹사이트에서 문서와 포럼에 액세스할 수 있습�
 ### Q5: 테스트 목적으로 사용할 수 있는 Java용 Aspose.Note 평가판이 있습니까?
 
  A5: 예, 다음 사이트에서 무료 평가판을 다운로드할 수 있습니다.[릴리스 페이지](https://releases.aspose.com/) API의 기능을 평가합니다.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

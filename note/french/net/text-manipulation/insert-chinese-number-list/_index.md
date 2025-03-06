@@ -3,10 +3,16 @@ title: Insérer une liste de numéros chinois dans le texte Aspose.Note
 linktitle: Insérer une liste de numéros chinois dans le texte Aspose.Note
 second_title: API Aspose.Note .NET
 description: Découvrez comment insérer sans effort des listes de numéros chinois dans Aspose.Note pour les documents .NET. Améliorez vos compétences en matière de formatage de documents avec ce guide étape par étape.
-type: docs
 weight: 20
 url: /fr/net/text-manipulation/insert-chinese-number-list/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Insérer une liste de numéros chinois dans le texte Aspose.Note
+
 ## Introduction
 Cherchez-vous à améliorer vos compétences Aspose.Note pour .NET en incorporant des listes de chiffres chinois dans vos documents ? Si c'est le cas, vous êtes au bon endroit ! Dans ce didacticiel, nous vous guiderons tout au long du processus d'insertion de listes de numéros chinois à l'aide d'Aspose.Note pour .NET. Cette puissante bibliothèque vous permet de manipuler les documents OneNote de manière transparente.
 ## Conditions préalables
@@ -91,3 +97,9 @@ R : Explorez l'ensemble[Documentation Aspose.Note](https://reference.aspose.co
  R : Obtenez une licence temporaire[ici](https://purchase.aspose.com/temporary-license/).
 ### Q : Où puis-je demander de l'aide ou discuter des requêtes liées à Aspose.Note ?
  R : Visitez le[Forum d'assistance Aspose.Note](https://forum.aspose.com/c/note/28) pour le soutien de la communauté.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

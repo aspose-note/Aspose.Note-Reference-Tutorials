@@ -3,10 +3,16 @@ title: Aspose.Note에 태그가 포함된 이미지 노드 추가
 linktitle: Aspose.Note에 태그가 포함된 이미지 노드 추가
 second_title: Aspose.Note .NET API
 description: .NET용 Aspose.Note를 사용하여 사용자 정의 태그가 있는 이미지를 추가하여 OneNote 문서를 향상시키는 방법을 알아보세요.
-type: docs
 weight: 10
 url: /ko/net/tag-management/add-image-node-tag/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Aspose.Note에 태그가 포함된 이미지 노드 추가
+
 ## 소개
 
 이 튜토리얼에서는 .NET용 Aspose.Note를 사용하여 태그가 있는 이미지 노드를 추가하는 방법을 살펴보겠습니다. 이 기능을 사용하면 사용자 지정 태그가 포함된 이미지를 추가하여 OneNote 문서를 향상할 수 있습니다.
@@ -110,3 +116,9 @@ A4: Aspose.Note는 주로 로컬 디렉터리의 이미지 추가를 지원하�
 ### Q5: 추가할 수 있는 이미지의 크기나 형식에 제한이 있나요?
 
 A5: Aspose.Note는 광범위한 이미지 형식을 지원하고 이미지 크기에 엄격한 제한을 두지 않으므로 다양한 시각적 요소를 문서에 통합할 수 있습니다.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -3,10 +3,16 @@ title: Thêm nút văn bản có thẻ trong Aspose.Note
 linktitle: Thêm nút văn bản có thẻ trong Aspose.Note
 second_title: Aspose.Note .NET API
 description: Tìm hiểu cách thêm nút văn bản có thẻ vào tài liệu OneNote bằng Aspose.Note for .NET.
-type: docs
 weight: 12
 url: /vi/net/tag-management/add-text-node-tag/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Thêm nút văn bản có thẻ trong Aspose.Note
+
 ## Giới thiệu
 
 Aspose.Note for .NET là một thư viện mạnh mẽ cho phép các nhà phát triển tạo, thao tác và chuyển đổi các tệp Microsoft OneNote theo chương trình bằng cách sử dụng .NET framework. Trong hướng dẫn này, chúng ta sẽ khám phá cách thêm nút văn bản có thẻ vào tài liệu OneNote bằng Aspose.Note cho .NET.
@@ -107,3 +113,9 @@ Câu trả lời 4: Có, Aspose.Note for .NET hỗ trợ mã hóa tài liệu đ
 ### Câu hỏi 5: Tôi có thể tìm thêm tài nguyên và hỗ trợ cho Aspose.Note cho .NET ở đâu?
 
  A5: Bạn có thể khám phá[Aspose.Note dành cho tài liệu .NET](https://reference.aspose.com/note/net/)và tìm kiếm sự giúp đỡ từ[Diễn đàn Aspose.Note](https://forum.aspose.com/c/note/28).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

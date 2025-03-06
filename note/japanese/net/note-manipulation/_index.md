@@ -3,10 +3,16 @@ title: OneNote と Aspose.Note for .NET の統合をマスターする
 linktitle: ノートの操作
 second_title: Aspose.Note .NET API
 description: OneNote に焦点を当てたチュートリアルで、Aspose.Note for .NET の機能を最大限に活用してください。競合を解決し、動的なドキュメントを作成し、効率的なページ操作を検討します。
-type: docs
 weight: 27
 url: /ja/net/note-manipulation/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# OneNote と Aspose.Note for .NET の統合をマスターする
+
 
 ## 導入
 
@@ -69,3 +75,9 @@ Aspose.Note for .NET を使用して、Aspose.Note ドキュメントのリビ�
 C# プログラミング言語を使用して Aspose.Note ドキュメントのページの背景色を設定する方法をステップバイステップのガイドで学びます。
 ### [ページ リビジョンの操作 - Aspose.Note のヒント](./working-with-page-revisions/)
 Aspose.Note を使用して Microsoft OneNote ページのリビジョンを管理する方法を学びます。 .NET アプリケーションでのシームレスな統合とバージョン管理のためのステップバイステップのガイド。
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

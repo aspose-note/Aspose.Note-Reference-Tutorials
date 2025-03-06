@@ -3,10 +3,16 @@ title: Utwórz listę punktowaną w programie OneNote — Aspose.Note
 linktitle: Utwórz listę punktowaną w programie OneNote — Aspose.Note
 second_title: Aspose.Note API Java
 description: Zapoznaj się z przewodnikiem krok po kroku dotyczącym tworzenia list punktowanych w programie OneNote przy użyciu programu Aspose.Note dla języka Java. Z łatwością udoskonal swoje tworzenie dokumentów.
-type: docs
 weight: 12
 url: /pl/java/onenote-text-manipulation/create-bulleted-list/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Utwórz listę punktowaną w programie OneNote — Aspose.Note
+
 ## Wstęp
 W dynamicznym środowisku rozwoju języka Java tworzenie angażujących i zorganizowanych dokumentów jest niezbędne. Aspose.Note dla Java zapewnia potężny zestaw narzędzi usprawniających proces tworzenia dokumentów. Ten samouczek poprowadzi Cię przez proces tworzenia list punktowanych w OneNote przy użyciu Aspose.Note dla Java. Zagłębmy się w szczegóły.
 ## Warunki wstępne
@@ -92,3 +98,9 @@ Absolutnie! Możesz modyfikować czcionkę, kolor i rozmiar elementów listy pun
  Tak, możesz skorzystać z bezpłatnej wersji próbnej[Tutaj](https://releases.aspose.com/).
 ### Jak mogę uzyskać tymczasową licencję na Aspose.Note dla Java?
  Zdobądź licencję tymczasową[Tutaj](https://purchase.aspose.com/temporary-license/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -3,10 +3,16 @@ title: Maak documenten met hoofd- en subpagina's met Aspose.Note
 linktitle: Maak documenten met hoofd- en subpagina's met Aspose.Note
 second_title: Aspose.Note .NET API
 description: Leer hoe u Aspose.Note voor .NET gebruikt om dynamische OneNote-documenten met hiërarchische structuren te maken.
-type: docs
 weight: 11
 url: /nl/net/note-manipulation/create-documents-root-sub-pages/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Maak documenten met hoofd- en subpagina's met Aspose.Note
+
 ## Invoering
 
 Welkom bij onze tutorial over het maken van documenten met hoofd- en subpagina's met Aspose.Note voor .NET! Aspose.Note is een krachtige bibliotheek waarmee ontwikkelaars programmatisch met Microsoft OneNote-bestanden kunnen werken, waardoor OneNote-documenten kunnen worden gemaakt, gemanipuleerd en geconverteerd.
@@ -130,3 +136,9 @@ A4: Aspose.Note richt zich primair op ontwikkeling op locatie, maar u kunt het o
 ### V5: Is er technische ondersteuning beschikbaar voor Aspose.Note?
 
 A5: Ja, Aspose biedt speciale technische ondersteuning via hun forum waar u vragen kunt stellen en hulp kunt krijgen.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

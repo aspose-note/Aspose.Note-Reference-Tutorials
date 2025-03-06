@@ -3,10 +3,16 @@ title: Lisensi Terukur dengan Aspose.Note
 linktitle: Lisensi Terukur dengan Aspose.Note
 second_title: Aspose.Catatan .NET API
 description: Pelajari cara mengelola lisensi perangkat lunak secara efisien dengan Aspose.Note untuk .NET melalui lisensi terukur. Mengoptimalkan penggunaan sumber daya dan mengendalikan biaya secara efektif.
-type: docs
 weight: 13
 url: /id/net/licensing/metered-licensing/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Lisensi Terukur dengan Aspose.Note
+
 ## Perkenalan
 
 Dalam bidang pengembangan perangkat lunak, mengelola lisensi secara efisien sangatlah penting, terutama ketika berhadapan dengan produk seperti Aspose.Note untuk .NET. Lisensi terukur adalah metode yang memberikan fleksibilitas dan kontrol lebih besar kepada pengembang atas penggunaan perangkat lunak mereka, sehingga memungkinkan mereka memantau dan mengelola konsumsi sumber daya secara efektif. Dalam tutorial ini, kita akan mempelajari seluk-beluk lisensi terukur dengan Aspose.Note untuk .NET, menguraikan setiap langkah untuk memastikan pemahaman yang komprehensif.
@@ -89,3 +95,9 @@ A4: Lisensi terukur mungkin memiliki batasan tertentu tergantung pada syarat dan
 ### Q5: Apakah lisensi terukur cocok untuk semua jenis aplikasi perangkat lunak?
 
 A5: Meskipun lisensi terukur dapat bermanfaat bagi banyak aplikasi perangkat lunak, kesesuaiannya bergantung pada faktor-faktor seperti pola penggunaan dan pertimbangan biaya.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

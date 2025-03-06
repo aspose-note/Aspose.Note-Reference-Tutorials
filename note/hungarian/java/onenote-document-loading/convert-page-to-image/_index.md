@@ -3,10 +3,16 @@ title: Konkrét oldal konvertálása képpé a OneNote-ban Java használatával
 linktitle: Konkrét oldal konvertálása képpé a OneNote-ban Java használatával
 second_title: Aspose.Note Java API
 description: Ismerje meg, hogyan alakíthat át egy adott oldalt képpé a OneNote-ban Java használatával az Aspose.Note segítségével. Kövesse lépésenkénti útmutatónkat a zökkenőmentes integráció érdekében.
-type: docs
 weight: 12
 url: /hu/java/onenote-document-loading/convert-page-to-image/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Konkrét oldal konvertálása képpé a OneNote-ban Java használatával
+
 ## Bevezetés
 
 Ebben az oktatóanyagban végigvezetjük egy adott oldal képpé konvertálásának folyamatán a OneNote-ban Java és Aspose.Note használatával. Ha követi ezeket a lépéseket, zökkenőmentesen integrálhatja ezt a funkciót Java-alkalmazásaiba.
@@ -101,3 +107,9 @@ A3: Természetesen az Aspose.Note lehetőséget biztosít a képformátum testre
 ### 5. kérdés: Hol találhatok további támogatást vagy segítséget?
 
  5. válasz: További támogatásért vagy segítségért keresse fel a[Aspose.Note fórum](https://forum.aspose.com/c/note/28) vagy tekintse meg a rendelkezésre álló dokumentációt[itt](https://reference.aspose.com/note/java/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

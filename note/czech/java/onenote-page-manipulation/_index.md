@@ -3,10 +3,16 @@ title: Manipulace se stránkou OneNotu
 linktitle: Manipulace se stránkou OneNotu
 second_title: Aspose.Note Java API
 description: Spravujte konfliktní stránky, vytvářejte organizované dokumenty a sledujte revize ve OneNotu pomocí Aspose.Note pro Java. Výukové programy krok za krokem pro efektivní správu dokumentů.
-type: docs
 weight: 29
 url: /cs/java/onenote-page-manipulation/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Manipulace se stránkou OneNotu
+
 
 ## Úvod
 
@@ -74,3 +80,9 @@ Přečtěte si, jak se vrátit k předchozím verzím stránek ve OneNotu pomoc�
 Naučte se, jak snadno nastavit barvu pozadí stránky ve OneNotu pomocí Aspose.Note pro Java. Vylepšete vizuální přitažlivost svých dokumentů pomocí tohoto jednoduchého kurzu.
 ### [Práce s revizemi stránky ve OneNotu – Aspose.Note](./working-with-page-revisions/)
 Přečtěte si, jak spravovat revize stránek v dokumentech OneNotu pomocí Aspose.Note pro Java. Tento výukový program poskytuje podrobného průvodce pro efektivní sledování revizí a spolupráci.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

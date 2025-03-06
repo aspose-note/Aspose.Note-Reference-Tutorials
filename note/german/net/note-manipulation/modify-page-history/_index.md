@@ -3,10 +3,16 @@ title: Ändern Sie den Seitenverlauf in Aspose.Note
 linktitle: Ändern Sie den Seitenverlauf in Aspose.Note
 second_title: Aspose.Note .NET-API
 description: Erfahren Sie in diesem umfassenden Tutorial, wie Sie den Seitenverlauf in Aspose.Note für .NET ändern. Erweitern Sie mühelos Ihre Möglichkeiten zur Dokumentenverarbeitung.
-type: docs
 weight: 15
 url: /de/net/note-manipulation/modify-page-history/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Ändern Sie den Seitenverlauf in Aspose.Note
+
 ## Einführung
 
 Im Bereich der Dokumentenverarbeitung erweist sich Aspose.Note für .NET als robustes Tool, das Entwicklern die mühelose Bearbeitung von OneNote-Dateien ermöglicht. Eine häufige Aufgabe für Entwickler ist das Ändern des Seitenverlaufs in Aspose.Note-Dokumenten. Dieses Tutorial erläutert den Prozess Schritt für Schritt und führt Sie durch die erforderlichen Namespaces, Voraussetzungen und Codeausschnitte, um den Seitenverlauf mit Aspose.Note für .NET effektiv zu ändern.
@@ -94,3 +100,10 @@ A4: Ja, Entwickler können Hilfe und Anleitung im Aspose-Supportforum für Aspos
 ### F5: Kann ich Aspose.Note für .NET testen, bevor ich einen Kauf tätige?
 
 A5: Auf jeden Fall können Entwickler eine kostenlose Testversion von Aspose.Note für .NET nutzen, um deren Funktionen und Eignung für ihre Projekte zu testen.
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

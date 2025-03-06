@@ -3,10 +3,16 @@ title: Mentés szürkeárnyalatos képbe az Aspose.Note-ban
 linktitle: Mentés szürkeárnyalatos képbe az Aspose.Note-ban
 second_title: Aspose.Note .NET API
 description: Ismerje meg, hogyan mentheti a OneNote-dokumentumokat szürkeárnyalatos képként az Aspose.Note for .NET segítségével. Kövesse ezt az átfogó oktatóanyagot a hatékony dokumentumfeldolgozás érdekében.
-type: docs
 weight: 24
 url: /hu/net/loading-and-saving-operations/save-to-grayscale-image/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Mentés szürkeárnyalatos képbe az Aspose.Note-ban
+
 ## Bevezetés
 
 Ebben az oktatóanyagban megvizsgáljuk, hogyan használható az Aspose.Note for .NET egy dokumentum szürkeárnyalatos képként történő mentésére. Az Aspose.Note egy hatékony könyvtár, amely lehetővé teszi a fejlesztők számára, hogy programozottan dolgozzanak Microsoft OneNote fájlokkal, és számos funkciót biztosítanak.
@@ -85,3 +91,9 @@ Ebben az oktatóanyagban megtanultuk, hogyan kell használni az Aspose.Note for 
 ### 5. kérdés: Hogyan szerezhetek ideiglenes licencet az Aspose.Note számára?
 
 5. válasz: Az Aspose.Note ideiglenes licencét a mellékelt hivatkozás meglátogatásával és az utasítások követésével szerezheti be.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -3,10 +3,16 @@ title: Obtenir des balises de nœud dans OneNote - Aspose.Note
 linktitle: Obtenir des balises de nœud dans OneNote - Aspose.Note
 second_title: API Java Aspose.Note
 description: Découvrez les secrets de OneNote avec Aspose.Note pour Java. Ce guide vous permet d'extraire les balises de nœud sans effort. Plongez dans le futur de la manipulation de documents !
-type: docs
 weight: 15
 url: /fr/java/onenote-tag-operations/get-node-tags/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Obtenir des balises de nœud dans OneNote - Aspose.Note
+
 ## Introduction
 Bienvenue dans le royaume d'Aspose.Note pour Java ! Si vous souhaitez approfondir la gestion et l'extraction d'informations à partir de documents OneNote, vous êtes au bon endroit. Dans ce didacticiel, nous vous guiderons tout au long du processus d'obtention des balises de nœud dans OneNote à l'aide d'Aspose.Note pour Java. À la fin, vous disposerez des connaissances nécessaires pour exploiter tout le potentiel de cette puissante API Java.
 ## Conditions préalables
@@ -81,3 +87,9 @@ Oui, Aspose.Note vous permet de modifier et de mettre à jour les propriétés N
  Explorez la documentation détaillée[ici](https://reference.aspose.com/note/java/).
 ### Comment puis-je obtenir de l'aide pour tout problème ou question ?
  Rendez-vous sur le forum d'assistance[ici](https://forum.aspose.com/c/note/28) pour obtenir l'aide de la communauté Aspose.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

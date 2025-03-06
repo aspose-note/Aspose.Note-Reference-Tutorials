@@ -3,10 +3,16 @@ title: Load Notebook Files with Load Options in Aspose Note .NET
 linktitle: Load Notebook Files with Load Options in Aspose Note .NET
 second_title: Aspose.Note .NET API
 description: Learn how to load notebook files with load options using Aspose.Note for .NET. Seamlessly integrate this functionality into your .NET applications for efficient handling of notebook data.
-type: docs
 weight: 20
 url: /net/notebook-operations/load-notebook-files-with-load-options/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Load Notebook Files with Load Options in Aspose Note .NET
+
 ## Introduction
 
 In this tutorial, we will delve into the intricacies of loading notebook files with load options using Aspose.Note for .NET. Aspose.Note is a powerful API that enables developers to work with Microsoft OneNote files programmatically, offering seamless integration and efficient handling of notebook data.
@@ -94,3 +100,10 @@ A4: You can obtain a temporary license from [here](https://purchase.aspose.com/t
 ### Q5: Where can I seek assistance if I encounter any issues or have queries related to Aspose.Note for .NET?
 
 A5: You can visit the Aspose.Note forum [here](https://forum.aspose.com/c/note/28) to seek support, ask questions, and engage with fellow developers and experts.
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

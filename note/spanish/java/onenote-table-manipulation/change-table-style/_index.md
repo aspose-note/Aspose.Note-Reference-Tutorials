@@ -3,10 +3,16 @@ title: Cambiar estilo de tabla en OneNote - Aspose.Note
 linktitle: Cambiar estilo de tabla en OneNote - Aspose.Note
 second_title: Aspose.Nota Java API
 description: Mejore sus tablas de OneNote sin esfuerzo con Aspose.Note para Java. Siga nuestra guía paso a paso para cambiar los estilos de mesa. ¡Descarga la biblioteca ahora!
-type: docs
 weight: 10
 url: /es/java/onenote-table-manipulation/change-table-style/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Cambiar estilo de tabla en OneNote - Aspose.Note
+
 ## Introducción
 Aspose.Note para Java es una poderosa biblioteca que permite a los desarrolladores manipular archivos OneNote sin esfuerzo. En este tutorial, nos centraremos en cambiar el estilo de la tabla en un documento de OneNote usando Aspose.Note para Java. Siga la guía paso a paso para mejorar el atractivo visual de sus mesas.
 ## Requisitos previos
@@ -88,3 +94,9 @@ Aspose.Note para Java simplifica el proceso de manipulación de archivos OneNote
  Disfruta el[Foro Aspose.Note](https://forum.aspose.com/c/note/28) para buscar ayuda de la comunidad.
 ### ¿Cómo compro Aspose.Note para Java?
  Puedes comprar la biblioteca.[aquí](https://purchase.aspose.com/buy).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

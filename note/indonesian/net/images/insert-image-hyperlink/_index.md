@@ -3,10 +3,16 @@ title: Sisipkan Gambar dengan Hyperlink di Aspose.Note
 linktitle: Sisipkan Gambar dengan Hyperlink di Aspose.Note
 second_title: Aspose.Catatan .NET API
 description: Pelajari cara menyisipkan gambar dengan hyperlink di Aspose.Note untuk .NET dengan mudah. Tingkatkan interaktivitas dokumen dengan gambar yang dapat diklik.
-type: docs
 weight: 15
 url: /id/net/images/insert-image-hyperlink/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Sisipkan Gambar dengan Hyperlink di Aspose.Note
+
 ## Perkenalan
 
 Aspose.Note untuk .NET menyediakan serangkaian fitur canggih untuk bekerja dengan gambar, termasuk kemampuan untuk menyisipkan gambar dengan hyperlink. Dalam tutorial ini, kami akan memandu Anda melalui proses menyisipkan gambar dengan hyperlink menggunakan Aspose.Note untuk .NET.
@@ -89,3 +95,9 @@ A3: Ya, Anda dapat menyesuaikan tampilan hyperlink, termasuk warna, garis bawah,
 ### Q5: Di mana saya bisa mendapatkan dukungan untuk Aspose.Note untuk .NET?
 
  A5: Anda bisa mendapatkan dukungan untuk Aspose.Note untuk .NET dari[Forum Aspose.Note](https://forum.aspose.com/c/note/28), tempat Anda dapat mengajukan pertanyaan, mencari panduan, dan berinteraksi dengan pengguna dan pakar lain.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

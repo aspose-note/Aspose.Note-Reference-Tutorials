@@ -3,10 +3,16 @@ title: Compor tabelas com Aspose.Note
 linktitle: Compor tabelas com Aspose.Note
 second_title: API Aspose.Note .NET
 description: Aprenda como compor tabelas estruturadas com conteúdo rich text usando Aspose.Note for .NET. Melhore a organização e a legibilidade dos documentos sem esforço.
-type: docs
 weight: 11
 url: /pt/net/table-manipulation/compose-tables/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Compor tabelas com Aspose.Note
+
 ## Introdução
 
 As tabelas são componentes fundamentais dos documentos, permitindo a apresentação estruturada das informações. Aspose.Note for .NET fornece ferramentas robustas para compor tabelas sem esforço. Neste tutorial, orientaremos você no processo de criação de tabelas com conteúdo rich text usando Aspose.Note.
@@ -170,3 +176,9 @@ A4: Sim, você pode preencher tabelas dinamicamente buscando dados de bancos de 
 ### Q5: O suporte técnico está disponível para usuários do Aspose.Note?
    
 R5: Sim, a Aspose fornece suporte técnico abrangente por meio de seus fóruns e canais de suporte dedicados.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

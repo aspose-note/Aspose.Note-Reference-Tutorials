@@ -3,10 +3,16 @@ title: Tạo tài liệu OneNote được bảo vệ bằng mật khẩu - Java
 linktitle: Tạo tài liệu OneNote được bảo vệ bằng mật khẩu - Java
 second_title: API Java Aspose.Note
 description: Tìm hiểu cách tạo tài liệu OneNote được bảo vệ bằng mật khẩu trong Java bằng Aspose.Note. Tăng cường bảo mật bằng cách làm theo hướng dẫn từng bước.
-type: docs
 weight: 19
 url: /vi/java/onenote-document-loading/create-password-protected-onenote/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Tạo tài liệu OneNote được bảo vệ bằng mật khẩu - Java
+
 ## Giới thiệu
 
 Trong hướng dẫn này, chúng ta sẽ đi sâu vào quy trình tạo tài liệu OneNote được bảo vệ bằng mật khẩu bằng Java với sự trợ giúp của Aspose.Note. Bảo mật là điều tối quan trọng khi xử lý thông tin nhạy cảm và bảo vệ bằng mật khẩu cung cấp một lớp bảo vệ hiệu quả chống lại truy cập trái phép. Chúng tôi sẽ hướng dẫn bạn từng bước, đảm bảo rằng bạn có thể triển khai liền mạch tính năng bảo mật quan trọng này vào các ứng dụng Java của mình.
@@ -80,3 +86,9 @@ Câu trả lời 4: Có, Aspose.Note cung cấp hỗ trợ cho nhiều thuật t
 ### Câu hỏi 5: Aspose.Note có phù hợp với các ứng dụng cấp doanh nghiệp không?
 
 Câu trả lời 5: Hoàn toàn có thể, Aspose.Note được thiết kế để đáp ứng nhu cầu của các ứng dụng cấp doanh nghiệp, cung cấp các tính năng bảo mật mạnh mẽ và hiệu suất đáng tin cậy.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

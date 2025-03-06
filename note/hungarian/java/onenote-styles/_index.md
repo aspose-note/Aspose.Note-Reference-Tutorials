@@ -3,10 +3,16 @@ title: OneNote stílusok
 linktitle: OneNote stílusok
 second_title: Aspose.Note Java API
 description: Fedezze fel a OneNote szövegstílusok módosításának művészetét az Aspose.Note for Java használatával. Ismerje meg, hogyan módosíthatja a betűtípus színét, méretét és kiemelését lépésenkénti oktatóanyagainkban.
-type: docs
 weight: 31
 url: /hu/java/onenote-styles/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# OneNote stílusok
+
 
 ## Bevezetés
 
@@ -36,3 +42,9 @@ Merüljön el a OneNote-stílusok világában az Aspose.Note for Java oktatóany
 Ismerje meg, hogyan módosíthatja a szövegstílust a OneNote-ban az Aspose.Note for Java segítségével. Könnyedén módosíthatja a betűszínt, -méretet és a kiemelést.
 ### [Állítsa be az alapértelmezett bekezdésstílust a OneNote-ban – Aspose.Note](./set-default-paragraph-style/)
 Ismerje meg, hogyan állíthat be alapértelmezett bekezdésstílusokat a OneNote-ban az Aspose.Note for Java használatával. Kövesse lépésenkénti útmutatónkat a Java-alkalmazások hatékony szövegformázásához.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

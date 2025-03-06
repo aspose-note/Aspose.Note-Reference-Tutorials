@@ -3,10 +3,16 @@ title: 在 Aspose Note .NET 中创建受密码保护的文档
 linktitle: 在 Aspose Note .NET 中创建受密码保护的文档
 second_title: Aspose.Note .NET API
 description: 了解如何在 Aspose Note for .NET 中创建受密码保护的文档以增强文档安全性。请按照我们的分步教程轻松实施。
-type: docs
 weight: 18
 url: /zh/net/notebook-operations/create-password-protected-documents/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# 在 Aspose Note .NET 中创建受密码保护的文档
+
 ## 介绍
 
 在本教程中，我们将深入研究使用 Aspose.Note for .NET 创建受密码保护的文档的过程。文档安全至关重要，尤其是在处理敏感信息时。使用 Aspose.Note，您可以加密文档以防止未经授权的访问。我们将指导您完成有效实施此安全措施所需的步骤。
@@ -76,3 +82,9 @@ A4：是的，Aspose.Note for .NET 支持强大的加密算法，以确保强大
 ### 问题 5：我可以轻松地将受密码保护的文档创建集成到我的 .NET 应用程序中吗？
 
 A5：当然！ Aspose.Note for .NET 提供了一个简单直观的 API，可以将受密码保护的文档创建无缝集成到您的 .NET 应用程序中。
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

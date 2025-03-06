@@ -3,10 +3,16 @@ title: 使用文档访问器提取 OneNote 内容 - Java
 linktitle: 使用文档访问器提取 OneNote 内容 - Java
 second_title: Aspose.Note Java API
 description: 了解如何使用 Aspose.Note for Java 从 Java 中的 OneNote 文档中提取内容。提供了带有代码示例的分步教程。
-type: docs
 weight: 21
 url: /zh/java/onenote-document-loading/extract-content-using-document-visitor/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# 使用文档访问器提取 OneNote 内容 - Java
+
 ## 介绍
 
 Aspose.Note for Java 提供了从 OneNote 文档中提取内容的强大功能。在本教程中，我们将指导您完成使用 Java 中的文档访问器从 OneNote 文档中提取内容的过程。
@@ -147,3 +153,9 @@ A4：是的，Aspose.Note for Java 为处理 OneNote 文档中的复杂结构和
 ### Q5：使用 Aspose.Note for Java 处理的 OneNote 文档的大小有限制吗？
 
 A5：Aspose.Note for Java 旨在高效处理各种大小的 OneNote 文档，即使处理大型文档也能确保最佳性能。
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -3,10 +3,16 @@ title: Agregar nodos secundarios en Aspose Note .NET
 linktitle: Agregar nodos secundarios en Aspose Note .NET
 second_title: Aspose.Nota .NET API
 description: Aprenda cómo agregar nodos secundarios en Aspose Note .NET sin esfuerzo con este completo tutorial. Mejore sus habilidades de manipulación de documentos ahora.
-type: docs
 weight: 10
 url: /es/net/notebook-operations/add-child-nodes/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Agregar nodos secundarios en Aspose Note .NET
+
 ## Introducción
 
 En este tutorial, aprenderemos cómo agregar nodos secundarios en Aspose Note .NET. Agregar nodos secundarios es una operación fundamental cuando se trabaja con documentos y Aspose Note .NET proporciona una forma sencilla de realizar esta tarea.
@@ -89,3 +95,9 @@ notebook.Save(dataDir);
 ### P5: ¿Aspose.Note para .NET viene con documentación?
 
  A5: Sí, puede encontrar documentación detallada[aquí](https://reference.aspose.com/note/net/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

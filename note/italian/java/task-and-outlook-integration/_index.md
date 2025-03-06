@@ -3,10 +3,16 @@ title: Integrazione di attività e Outlook
 linktitle: Integrazione di attività e Outlook
 second_title: Aspose.Note API Java
 description: Sblocca il potenziale di Aspose.Note Java con i nostri tutorial sull'integrazione delle attività di Outlook in OneNote. Migliora le tue capacità di elaborazione dei documenti con i nostri tutorial.
-type: docs
 weight: 35
 url: /it/java/task-and-outlook-integration/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Integrazione di attività e Outlook
+
 
 ## introduzione
 
@@ -38,3 +44,9 @@ Mentre intraprendi questo viaggio con Aspose.Note per Java, ricorda che l'effici
 ## Esercitazioni sull'integrazione di attività e Outlook
 ### [Ottieni attività di Outlook in OneNote - Aspose.Note](./get-outlook-task/)
 Esplora la potenza di Aspose.Note per Java nell'estrazione delle attività di Outlook da OneNote senza sforzo. Segui la nostra guida passo passo e migliora le tue capacità di elaborazione dei documenti.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

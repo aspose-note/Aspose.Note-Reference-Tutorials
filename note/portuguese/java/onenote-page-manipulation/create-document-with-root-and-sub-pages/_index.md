@@ -3,10 +3,16 @@ title: Criar documento com raiz e subpáginas no OneNote
 linktitle: Criar documento com raiz e subpáginas no OneNote
 second_title: API Java Aspose.Note
 description: Crie um documento com raiz e subpáginas no OneNote usando Aspose.Note para Java. Siga o guia passo a passo para organizar suas anotações com eficiência.
-type: docs
 weight: 11
 url: /pt/java/onenote-page-manipulation/create-document-with-root-and-sub-pages/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Criar documento com raiz e subpáginas no OneNote
+
 ## Introdução
 
 Neste tutorial, orientaremos você no processo de criação de um documento com raiz e subpáginas no OneNote usando Aspose.Note para Java. Seguindo essas etapas, você poderá organizar com eficiência seus documentos do OneNote com estrutura hierárquica.
@@ -169,3 +175,9 @@ A4: Sim, Aspose.Note for Java suporta salvar documentos em vários formatos, inc
 ### Q5: Existe uma versão de teste disponível para Aspose.Note para Java?
 
 A5: Sim, você pode baixar uma versão de teste gratuita do Aspose.Note para Java no site.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

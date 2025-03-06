@@ -3,10 +3,16 @@ title: Đính kèm tệp theo đường dẫn trong OneNote bằng Java
 linktitle: Đính kèm tệp theo đường dẫn trong OneNote bằng Java
 second_title: API Java Aspose.Note
 description: Thêm tệp vào ghi chú OneNote của bạn một cách liền mạch! Tìm hiểu cách đính kèm theo đường dẫn trong Java bằng Aspose.Note. Bao gồm hướng dẫn và mã dễ dàng! #OneNote #Java #Aspose
-type: docs
 weight: 11
 url: /vi/java/onenote-java-integration/attach-file-by-path/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Đính kèm tệp theo đường dẫn trong OneNote bằng Java
+
 ## Giới thiệu
 
 OneNote là một công cụ linh hoạt để sắp xếp và quản lý ghi chú và với Aspose.Note dành cho Java, bạn có thể nâng cao chức năng của nó bằng cách đính kèm các tệp vào ghi chú của mình theo chương trình. Trong hướng dẫn này, chúng tôi sẽ hướng dẫn bạn quy trình đính kèm tệp theo đường dẫn của nó trong OneNote bằng Java.
@@ -148,3 +154,9 @@ Câu trả lời 4: Có, bạn có thể đính kèm tệp vào các phần cụ
 ### Câu hỏi 5: Có giới hạn về kích thước tệp tôi có thể đính kèm không?
 
 Câu trả lời 5: Aspose.Note không áp đặt các giới hạn nghiêm ngặt về kích thước tệp nhưng hãy xem xét các tác động về hiệu suất đối với các tệp rất lớn.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

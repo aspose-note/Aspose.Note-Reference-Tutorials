@@ -3,10 +3,16 @@ title: Soạn bảng với Aspose.Note
 linktitle: Soạn bảng với Aspose.Note
 second_title: Aspose.Note .NET API
 description: Tìm hiểu cách soạn các bảng có cấu trúc với nội dung văn bản đa dạng thức bằng Aspose.Note for .NET. Tăng cường tổ chức tài liệu và khả năng đọc dễ dàng.
-type: docs
 weight: 11
 url: /vi/net/table-manipulation/compose-tables/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Soạn bảng với Aspose.Note
+
 ## Giới thiệu
 
 Bảng là thành phần cơ bản của tài liệu, cho phép trình bày thông tin có cấu trúc. Aspose.Note for .NET cung cấp các công cụ mạnh mẽ để soạn bảng một cách dễ dàng. Trong hướng dẫn này, chúng tôi sẽ hướng dẫn bạn quy trình tạo bảng có nội dung văn bản đa dạng thức bằng Aspose.Note.
@@ -170,3 +176,9 @@ Câu trả lời 4: Có, bạn có thể tự động điền bảng bằng các
 ### Câu hỏi 5: Người dùng Aspose.Note có được hỗ trợ kỹ thuật không?
    
 Câu trả lời 5: Có, Aspose cung cấp hỗ trợ kỹ thuật toàn diện thông qua các diễn đàn và các kênh hỗ trợ riêng của họ.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

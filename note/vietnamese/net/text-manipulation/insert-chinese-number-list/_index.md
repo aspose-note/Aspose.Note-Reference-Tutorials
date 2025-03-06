@@ -3,10 +3,16 @@ title: Chèn danh sách số tiếng Trung vào văn bản Aspose.Note
 linktitle: Chèn danh sách số tiếng Trung vào văn bản Aspose.Note
 second_title: Aspose.Note .NET API
 description: Tìm hiểu cách chèn danh sách số tiếng Trung vào Aspose.Note cho tài liệu .NET một cách dễ dàng. Nâng cao kỹ năng định dạng tài liệu của bạn với hướng dẫn từng bước này.
-type: docs
 weight: 20
 url: /vi/net/text-manipulation/insert-chinese-number-list/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Chèn danh sách số tiếng Trung vào văn bản Aspose.Note
+
 ## Giới thiệu
 Bạn đang muốn nâng cao kỹ năng Aspose.Note cho .NET bằng cách kết hợp danh sách số tiếng Trung vào tài liệu của mình? Nếu vậy, bạn đang ở đúng nơi! Trong hướng dẫn này, chúng tôi sẽ hướng dẫn bạn quy trình chèn danh sách số tiếng Trung bằng Aspose.Note cho .NET. Thư viện mạnh mẽ này cho phép bạn thao tác các tài liệu OneNote một cách liền mạch.
 ## Điều kiện tiên quyết
@@ -91,3 +97,9 @@ A: Khám phá toàn diện[Tài liệu Aspose.Note](https://reference.aspose.com
  A: Xin giấy phép tạm thời[đây](https://purchase.aspose.com/temporary-license/).
 ### Câu hỏi: Tôi có thể tìm kiếm trợ giúp hoặc thảo luận các truy vấn liên quan đến Aspose.Note ở đâu?
  Đáp: Hãy ghé thăm[Diễn đàn hỗ trợ Aspose.Note](https://forum.aspose.com/c/note/28) để hỗ trợ cộng đồng.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

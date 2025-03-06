@@ -3,10 +3,16 @@ title: Simpan Dokumen OneNote ke Streaming - Aspose.Note
 linktitle: Simpan Dokumen OneNote ke Streaming - Aspose.Note
 second_title: Aspose.Catatan Java API
 description: Pelajari cara menyimpan dokumen OneNote ke aliran menggunakan Aspose.Note untuk Java. Ikuti tutorial langkah demi langkah kami untuk integrasi yang efisien ke dalam aplikasi Java Anda.
-type: docs
 weight: 13
 url: /id/java/onenote-document-saving/save-onenote-document-to-stream/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Simpan Dokumen OneNote ke Streaming - Aspose.Note
+
 ## Perkenalan
 
 Selamat datang di tutorial kami tentang penggunaan Aspose.Note untuk Java untuk menyimpan dokumen OneNote ke aliran. Aspose.Note adalah pustaka Java canggih yang memungkinkan pengembang bekerja dengan file Microsoft OneNote secara terprogram. Dalam tutorial ini, kami akan memandu Anda melalui proses menyimpan dokumen OneNote ke aliran menggunakan Aspose.Note.
@@ -73,3 +79,9 @@ A1: Ya, Aspose.Note mendukung penyimpanan dokumen dalam berbagai format seperti 
 ### Q5: Apakah saya memerlukan lisensi sementara untuk tujuan evaluasi?
 
  A5: Ya, Anda bisa mendapatkan lisensi sementara dari[Di Sini](https://purchase.aspose.com/temporary-license/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

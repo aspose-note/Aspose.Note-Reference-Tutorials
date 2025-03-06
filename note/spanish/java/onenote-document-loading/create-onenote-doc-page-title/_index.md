@@ -3,10 +3,16 @@ title: Crear documento de OneNote con título de página - Java
 linktitle: Crear documento de OneNote con título de página - Java
 second_title: Aspose.Nota Java API
 description: Aprenda a crear documentos de OneNote con títulos de página en Java usando Aspose.Note para Java. Tutorial completo con ejemplos de código.
-type: docs
 weight: 17
 url: /es/java/onenote-document-loading/create-onenote-doc-page-title/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Crear documento de OneNote con título de página - Java
+
 ## Introducción
 
 En el ámbito del desarrollo de Java, administrar y manipular documentos de OneNote se vuelve simple y eficiente con Aspose.Note para Java. Esta potente API de Java proporciona a los desarrolladores las herramientas necesarias para crear, modificar y procesar archivos de OneNote mediante programación, ofreciendo una integración perfecta en sus aplicaciones. En este tutorial, profundizaremos en el proceso de creación de un documento de OneNote con un título de página específico usando Aspose.Note para Java. Siguiendo la guía paso a paso que se describe a continuación, los desarrolladores pueden aprovechar fácilmente las capacidades de esta API para mejorar sus aplicaciones Java con sólidas funcionalidades de administración de documentos de OneNote.
@@ -154,3 +160,9 @@ A4: Puedes visitar el[Foro Aspose.Note](https://forum.aspose.com/c/note/28) para
 ### P5: ¿Puedo obtener una licencia temporal para realizar pruebas?
 
 R5: Sí, puede adquirir una licencia temporal de Aspose con fines de prueba y evaluación.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

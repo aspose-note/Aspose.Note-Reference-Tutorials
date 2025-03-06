@@ -1,12 +1,17 @@
 ---
 title: Kompleksowe samouczki i przykłady Aspose.Note dla Java
 linktitle: Aspose.Note dla samouczków Java
-type: docs
 weight: 10
 url: /pl/java/
 description: Odkryj kompleksowe samouczki i przykłady Aspose.Note dla Java. Zwiększ komfort korzystania z programu OneNote dzięki przewodnikom krok po kroku dotyczącym integracji z językiem Java.
-is_root: true
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Kompleksowe samouczki i przykłady Aspose.Note dla Java
+
 
 ## Wstęp
 
@@ -91,3 +96,9 @@ Odkryj moc Aspose.Note dla Java. Zwiększ komfort korzystania z programu OneNote
 Zapoznaj się z samouczkami Aspose.Note Java dotyczącymi manipulacji tekstem w programie OneNote. Poznaj wydajne metody wykonywania zadań takich jak wyodrębnianie tekstu, stosowanie motywów, tworzenie list i nie tylko. 
 ### [Integracja zadań i Outlooka](./task-and-outlook-integration/)
 Odblokuj potencjał Aspose.Note Java dzięki naszym tutorialom na temat integracji zadań Outlooka z OneNote. Podnieś swoje umiejętności przetwarzania dokumentów dzięki naszym samouczkom.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

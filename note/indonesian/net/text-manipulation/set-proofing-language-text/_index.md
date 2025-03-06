@@ -3,10 +3,16 @@ title: Atur Bahasa Pemeriksaan untuk Teks di Aspose.Note
 linktitle: Atur Bahasa Pemeriksaan untuk Teks di Aspose.Note
 second_title: Aspose.Catatan .NET API
 description: Buka kunci manipulasi teks yang canggih dengan Aspose.Note untuk .NET. Atur bahasa pemeriksaan dengan mudah dengan panduan langkah demi langkah. Tingkatkan proyek .NET Anda sekarang!
-type: docs
 weight: 25
 url: /id/net/text-manipulation/set-proofing-language-text/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Atur Bahasa Pemeriksaan untuk Teks di Aspose.Note
+
 ## Perkenalan
 Selamat datang di dunia Aspose.Note untuk .NET! Dalam panduan komprehensif ini, kita akan menjelajahi proses menarik dalam mengatur bahasa pemeriksaan untuk teks menggunakan Aspose.Note. Baik Anda seorang pengembang berpengalaman atau baru memulai Aspose.Note, tutorial ini akan memberi Anda wawasan mendetail dan petunjuk langkah demi langkah untuk meningkatkan keterampilan manipulasi teks Anda.
 ## Prasyarat
@@ -89,3 +95,9 @@ Sangat! Aspose.Note diperbarui secara berkala untuk memastikan kompatibilitas de
  Tentu! Anda dapat mengakses uji coba gratis Aspose.Note untuk .NET[Di Sini](https://releases.aspose.com/).
 ### Menghadapi masalah atau butuh bantuan?
  Mengunjungi[Forum dukungan Aspose.Note](https://forum.aspose.com/c/note/28) untuk terhubung dengan komunitas dan mendapatkan bantuan ahli.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

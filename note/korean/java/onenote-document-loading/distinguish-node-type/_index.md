@@ -3,10 +3,16 @@ title: OneNote 문서에서 노드 유형 구별 - Java
 linktitle: OneNote 문서에서 노드 유형 구별 - Java
 second_title: Aspose.Note 자바 API
 description: Aspose.Note와 함께 Java를 사용하여 OneNote 문서 내에서 노드 유형을 구별하는 방법을 알아보세요. 원활한 통합을 위한 단계별 가이드 및 FAQ를 살펴보세요.
-type: docs
 weight: 20
 url: /ko/java/onenote-document-loading/distinguish-node-type/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# OneNote 문서에서 노드 유형 구별 - Java
+
 ## 소개
 
 Java 프로그래밍 영역에서 OneNote 문서 작업은 그 자체로 어려움과 복잡성을 안겨줍니다. 다행스럽게도 Aspose.Note for Java는 이러한 문서에서 데이터를 원활하게 탐색, 조작 및 추출할 수 있는 포괄적인 솔루션을 제공합니다. 이 자습서에서는 Java를 사용하여 OneNote 문서 내에서 노드 유형을 구별하는 특정 측면을 살펴보겠습니다. 이 가이드를 마치면 다양한 노드 유형을 식별하고 Java 애플리케이션에서 이 지식을 효과적으로 활용하는 방법을 확실하게 이해하게 될 것입니다.
@@ -74,3 +80,10 @@ A3: 물론입니다. Aspose.Note for Java를 사용하면 OneNote 문서에서 �
 ### Q5: Aspose.Note for Java에 대한 무료 평가판이 있습니까?
 
  A5: 예, 다음에서 제공되는 무료 평가판을 통해 Java용 Aspose.Note의 기능을 탐색할 수 있습니다.[이 링크](https://releases.aspose.com/).
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

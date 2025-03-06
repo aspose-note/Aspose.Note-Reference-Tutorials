@@ -3,10 +3,16 @@ title: 在 OneNote 中使用載入選項載入筆記本檔案 - Aspose.Note
 linktitle: 在 OneNote 中使用載入選項載入筆記本檔案 - Aspose.Note
 second_title: Aspose.Note Java API
 description: 了解如何使用 Aspose.Note for Java 以程式設計方式操作 OneNote 檔案。立即開始學習我們的綜合教程。
-type: docs
 weight: 20
 url: /zh-hant/java/onenote-notebook-operations/load-notebook-file-with-load-options/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# 在 OneNote 中使用載入選項載入筆記本檔案 - Aspose.Note
+
 ## 介紹
 
 Aspose.Note for Java 是一個功能強大的函式庫，使開發人員能夠以程式設計方式使用 Microsoft OneNote 檔案。無論您想要建立、操作還是轉換 OneNote 文檔，Aspose.Note for Java 都提供了必要的工具來簡化您的工作流程。在本教程中，我們將探索如何開始使用 Aspose.Note for Java，涵蓋先決條件、匯入套件以及將範例分解為易於遵循的步驟。
@@ -94,3 +100,9 @@ A4：如有任何疑問或問題，您可以造訪支援論壇[這裡](https://f
 ### Q5：我需要臨時授權才能使用 Aspose.Note for Java 嗎？
 
  A5：如果您正在評估該產品，您可以獲得臨時許可證[這裡](https://purchase.aspose.com/temporary-license/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -3,10 +3,16 @@ title: Lưu tài liệu OneNote
 linktitle: Lưu tài liệu OneNote
 second_title: API Java Aspose.Note
 description: Tiết kiệm thời gian và hợp lý hóa các ứng dụng Java của bạn với hướng dẫn Aspose.Note for Java về cách lưu tài liệu OneNote. Tìm hiểu tích hợp từng bước để có quy trình làm việc hiệu quả.
-type: docs
 weight: 27
 url: /vi/java/onenote-document-saving/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Lưu tài liệu OneNote
+
 ## Giới thiệu
 
 Chào mừng bạn đến với thế giới của Aspose.Note dành cho hướng dẫn Java, nơi chúng tôi làm sáng tỏ những vấn đề phức tạp trong việc lưu tài liệu OneNote một cách chính xác và hiệu quả. Trong bối cảnh kỹ thuật số ngày nay, việc tích hợp liền mạch và quy trình làm việc hợp lý là điều tối quan trọng và các hướng dẫn từng bước của chúng tôi được tạo ra để hỗ trợ các nhà phát triển Java nắm vững các kỹ thuật lưu tài liệu. Cho dù bạn là nhà phát triển dày dạn kinh nghiệm hay người đam mê mã hóa, hướng dẫn của chúng tôi bao gồm nhiều chủ đề, từ lưu tài liệu ở các định dạng khác nhau đến sử dụng thuật toán nâng cao để có kết quả tối ưu. Đi sâu vào lĩnh vực Aspose.Note dành cho Java, nơi chúng tôi đơn giản hóa các quy trình phức tạp, giúp việc xử lý tài liệu trở thành một trải nghiệm thú vị và không rắc rối. Hãy bắt tay vào hành trình khám phá và nâng cao lĩnh vực phát triển ứng dụng Java.
@@ -96,3 +102,9 @@ Tìm hiểu cách chỉ định các tùy chọn lưu trong OneNote bằng Aspos
 Tìm hiểu cách bảo toàn các đối tượng rắn trong tài liệu Aspose.Note của bạn khi chuyển đổi sang PDF bằng Thuật toán Keep Solid Objects trong Java.
 ### [Sử dụng Phương pháp thuật toán phân tách trong OneNote - Aspose.Note](./use-splitting-algorithm-method/)
 Tìm hiểu cách phân chia tài liệu OneNote một cách hiệu quả bằng Aspose.Note for Java.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -3,10 +3,16 @@ title: Carregar arquivos de notebook com opções de carregamento no Aspose Note
 linktitle: Carregar arquivos de notebook com opções de carregamento no Aspose Note .NET
 second_title: API Aspose.Note .NET
 description: Aprenda como carregar arquivos de notebook com opções de carregamento usando Aspose.Note for .NET. Integre perfeitamente essa funcionalidade aos seus aplicativos .NET para uma manipulação eficiente dos dados do notebook.
-type: docs
 weight: 20
 url: /pt/net/notebook-operations/load-notebook-files-with-load-options/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Carregar arquivos de notebook com opções de carregamento no Aspose Note .NET
+
 ## Introdução
 
 Neste tutorial, nos aprofundaremos nos meandros do carregamento de arquivos de notebook com opções de carregamento usando Aspose.Note for .NET. Aspose.Note é uma API poderosa que permite aos desenvolvedores trabalhar com arquivos do Microsoft OneNote de forma programática, oferecendo integração perfeita e manuseio eficiente de dados do notebook.
@@ -94,3 +100,9 @@ A2: Sim, você pode aproveitar uma avaliação gratuita do Aspose.Note for .NET 
 ### P5: Onde posso procurar assistência se encontrar algum problema ou tiver dúvidas relacionadas ao Aspose.Note for .NET?
 
  A5: Você pode visitar o fórum Aspose.Note[aqui](https://forum.aspose.com/c/note/28) para buscar suporte, fazer perguntas e interagir com outros desenvolvedores e especialistas.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -3,10 +3,16 @@ title: การพิมพ์เอกสาร OneNote
 linktitle: การพิมพ์เอกสาร OneNote
 second_title: Aspose.Note Java API
 description: พิมพ์เอกสารได้อย่างง่ายดายใน OneNote ด้วย Aspose.Note สำหรับ Java บทช่วยสอนเหล่านี้ให้คำแนะนำทีละขั้นตอนและตัวอย่างโค้ดสำหรับการพิมพ์เอกสารที่ราบรื่น
-type: docs
 weight: 30
 url: /th/java/onenote-printing-documents/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# การพิมพ์เอกสาร OneNote
+
 
 ## การแนะนำ
 
@@ -38,3 +44,9 @@ url: /th/java/onenote-printing-documents/
 ## บทช่วยสอนการพิมพ์เอกสาร OneNote
 ### [พิมพ์เอกสารใน OneNote - Aspose.Note](./print-documents/)
 เรียนรู้วิธีพิมพ์เอกสารใน OneNote โดยใช้ Aspose.Note สำหรับ Java คำแนะนำทีละขั้นตอนพร้อมตัวอย่างโค้ดและตัวเลือกที่ปรับแต่งได้
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

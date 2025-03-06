@@ -3,10 +3,16 @@ title: Vytvořte dokument a vložte obrázek do Aspose.Note
 linktitle: Vytvořte dokument a vložte obrázek do Aspose.Note
 second_title: Aspose.Note .NET API
 description: Naučte se, jak vkládat obrázky do dokumentů OneNotu programově pomocí Aspose.Note pro .NET. Snadné kroky pro bezproblémovou manipulaci s dokumenty.
-type: docs
 weight: 10
 url: /cs/net/images/build-doc-insert-image/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Vytvořte dokument a vložte obrázek do Aspose.Note
+
 ## Úvod
 
 V tomto tutoriálu se ponoříme do světa manipulace s dokumenty pomocí Aspose.Note pro .NET. Aspose.Note je výkonné rozhraní API, které umožňuje vývojářům pracovat se soubory Microsoft OneNote programově, což umožňuje snadné vytváření, úpravy a převod dokumentů. 
@@ -150,3 +156,9 @@ Odpověď 4: Ano, Aspose.Note poskytuje komplexní možnosti pro přizpůsobení
 ### Q5: Kde najdu další zdroje a podporu pro Aspose.Note pro .NET?
 
  A5: Můžete prozkoumat dokumentaci Aspose.Note[tady](https://reference.aspose.com/note/net/) a vyhledejte pomoc na fóru komunity Aspose[tady](https://forum.aspose.com/c/note/28).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

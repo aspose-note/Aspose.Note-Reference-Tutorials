@@ -3,10 +3,16 @@ title: OneNote에서 회의 메모용 템플릿 생성 - Aspose.Note
 linktitle: OneNote에서 회의 메모용 템플릿 생성 - Aspose.Note
 second_title: Aspose.Note 자바 API
 description: Java용 Aspose.Note로 협업을 강화하세요! 동적 회의록 템플릿을 만드는 방법을 단계별로 알아보세요. 지금 라이브러리를 다운로드하세요!
-type: docs
 weight: 14
 url: /ko/java/onenote-tag-operations/generate-template-for-meeting-notes/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# OneNote에서 회의 메모용 템플릿 생성 - Aspose.Note
+
 ## 소개
 오늘날 빠르게 변화하는 세계에서 성공적인 협업을 위해서는 회의를 효율적으로 구성하고 문서화하는 것이 중요합니다. Aspose.Note for Java는 OneNote에서 회의록용 템플릿을 생성하기 위한 강력한 솔루션을 제공합니다. 이 단계별 가이드에서는 Aspose.Note를 사용하여 회의의 본질을 포착하는 템플릿을 만들고 쉽게 메모를 작성하는 방법을 살펴보겠습니다.
 ## 전제조건
@@ -105,3 +111,9 @@ Aspose.Note는 확장된 기능을 위해 다른 Java 라이브러리와 원활�
  다음을 참조하세요.[Aspose.Note 문서](https://reference.aspose.com/note/java/) 라이선스 세부정보를 확인하세요.
 ### Aspose.Note에 사용할 수 있는 평가판이 있나요?
  예, 액세스할 수 있습니다.[여기에서 무료 평가판](https://releases.aspose.com/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

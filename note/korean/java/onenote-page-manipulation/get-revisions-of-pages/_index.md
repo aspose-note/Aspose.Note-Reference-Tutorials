@@ -3,10 +3,16 @@ title: OneNote에서 페이지 개정판 가져오기 - Aspose.Note
 linktitle: OneNote에서 페이지 개정판 가져오기 - Aspose.Note
 second_title: Aspose.Note 자바 API
 description: Aspose.Note Java를 사용하여 OneNote 문서 내의 페이지 개정판을 검색하는 방법을 알아보세요. 효율적인 문서 관리를 위해 이를 Java 앱에 통합하세요.
-type: docs
 weight: 15
 url: /ko/java/onenote-page-manipulation/get-revisions-of-pages/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# OneNote에서 페이지 개정판 가져오기 - Aspose.Note
+
 ## 소개
 
 이 튜토리얼에서는 Java 애플리케이션에서 Microsoft OneNote 파일을 원활하게 사용할 수 있게 해주는 강력한 라이브러리인 Aspose.Note for Java의 기능을 자세히 살펴보겠습니다. 특히 OneNote 문서 내에서 페이지 수정본을 검색하는 방법에 중점을 둘 것입니다. 이 가이드를 마치면 마지막 수정 시간, 생성 시간, 제목, 수준, 작성자 등의 세부 정보를 포함하여 페이지 개정판을 효율적으로 추출하는 지식을 갖추게 됩니다.
@@ -109,3 +115,9 @@ A4: 네, Aspose.Note for Java를 상업적으로 사용하려면 유효한 라�
 ### Q5: Aspose.Note for Java에 대해 문제가 발생하거나 질문이 있는 경우 어디서 도움을 받을 수 있나요?
 
  A5: 지원 및 지원을 받으려면 Aspose.Note 포럼을 방문하세요.[여기](https://forum.aspose.com/c/note/28)에서 질문하고, 경험을 공유하고, 다른 사용자 및 전문가와 상호 작용할 수 있습니다.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

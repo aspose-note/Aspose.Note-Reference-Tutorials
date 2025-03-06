@@ -3,10 +3,16 @@ title: تحويل دفاتر الملاحظات إلى PDF (مسطحة) في Asp
 linktitle: تحويل دفاتر الملاحظات إلى PDF (مسطحة) في Aspose Note .NET
 second_title: Aspose.Note .NET API
 description: تعرف على كيفية تحويل دفاتر ملاحظات OneNote إلى ملفات PDF مسطحة بسهولة باستخدام Aspose.Note لـ .NET. الحفاظ على المحتوى الخاص بك بسلاسة.
-type: docs
 weight: 15
 url: /ar/net/notebook-operations/convert-to-pdf-flattened/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# تحويل دفاتر الملاحظات إلى PDF (مسطحة) في Aspose Note .NET
+
 ## مقدمة
 
 هل تتطلع إلى تحويل دفاتر ملاحظات OneNote الخاصة بك إلى ملفات PDF مسطحة باستخدام Aspose Note .NET؟ أنت في المكان الصحيح! في هذا البرنامج التعليمي، سنتعرف على العملية خطوة بخطوة.
@@ -91,3 +97,9 @@ A1: يقوم Aspose.Note بتسوية المحتوى، بما في ذلك الع
 ### س5: أين يمكنني الحصول على الدعم إذا واجهت أية مشكلات؟
 
  ج5: يمكنك طلب الدعم من مجتمع Aspose على[منتديات Aspose.Note](https://forum.aspose.com/c/note/28).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

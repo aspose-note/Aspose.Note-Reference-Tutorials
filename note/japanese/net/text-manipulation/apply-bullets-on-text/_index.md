@@ -3,10 +3,16 @@ title: Aspose.Note のテキストに箇条書きを適用する
 linktitle: Aspose.Note のテキストに箇条書きを適用する
 second_title: Aspose.Note .NET API
 description: Aspose.Note for .NET のテキストに箇条書きを適用して、OneNote ドキュメントを強化する方法を学びます。効果的なフォーマットを行うには、このステップバイステップのガイドに従ってください。
-type: docs
 weight: 10
 url: /ja/net/text-manipulation/apply-bullets-on-text/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Aspose.Note のテキストに箇条書きを適用する
+
 ## 導入
 Aspose.Note for .NET を使用してテキストに箇条書きを適用するためのこのステップバイステップ ガイドへようこそ。 Aspose.Note は、開発者が .NET アプリケーションで Microsoft OneNote ファイルをシームレスに操作できるようにする強力なライブラリです。このチュートリアルでは、テキストに箇条書きを適用して、OneNote ドキュメントの視覚的な魅力を高めるプロセスを説明します。
 ## 前提条件
@@ -86,3 +92,9 @@ Aspose.Note は Microsoft OneNote のさまざまなバージョンをサポー�
 はい、無料トライアルをダウンロードできます[ここ](https://releases.aspose.com/).
 ### 追加のサポートやリソースはどこで入手できますか?
  Aspose.Note コミュニティ フォーラムにアクセスしてください。[ここ](https://forum.aspose.com/c/note/28)サポートとディスカッションのため。
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

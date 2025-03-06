@@ -3,10 +3,16 @@ title: जावा के साथ Aspose.Note लाइसेंसिंग
 linktitle: जावा के साथ Aspose.Note लाइसेंसिंग
 second_title: Aspose.नोट जावा एपीआई
 description: Aspose.Note के साथ जावा में OneNote के लिए मीटर्ड लाइसेंस प्रबंधित करने की कला की खोज करें। उपयोग को प्रभावी ढंग से नियंत्रित करें, क्रेडिट की निगरानी करें और लागतों का अनुकूलन करें।
-type: docs
 weight: 24
 url: /hi/java/licensing-java/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# जावा के साथ Aspose.Note लाइसेंसिंग
+
 ## परिचय
 
 क्या आप जावा के लिए Aspose.Note की दुनिया में यात्रा शुरू करने के लिए तैयार हैं? इस व्यापक गाइड में, हम जावा में OneNote के लिए मीटर्ड लाइसेंस के प्रबंधन की जटिलताओं के बारे में विस्तार से जानेंगे। आइए Aspose.Note के साथ लाइसेंसिंग के परिदृश्य को जानें, रहस्यों को उजागर करें और इसे प्रभावी ढंग से उपयोग करने के लिए ज्ञान के साथ आपको सशक्त बनाएं।
@@ -40,3 +46,9 @@ url: /hi/java/licensing-java/
 ## जावा ट्यूटोरियल के साथ Aspose.Note लाइसेंसिंग
 ### [जावा में OneNote के लिए मीटर्ड लाइसेंस प्रबंधित करें](./manage-metered-license/)
 Aspose.Note लाइब्रेरी का उपयोग करके जावा में OneNote के लिए मीटर्ड लाइसेंस प्रबंधित करना सीखें। उपयोग को नियंत्रित करें, क्रेडिट की निगरानी करें और लागत को कुशलतापूर्वक अनुकूलित करें।
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

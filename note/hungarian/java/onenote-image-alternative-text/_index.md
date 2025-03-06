@@ -3,10 +3,16 @@ title: OneNote kép alternatív szöveg
 linktitle: OneNote kép alternatív szöveg
 second_title: Aspose.Note Java API
 description: Ismerje meg, hogyan javíthatja a OneNote-képek hozzáférhetőségét Java használatával az Aspose.Note segítségével. Könnyedén adjon hozzá alternatív szöveget az inkluzivitás fokozása és a felhasználói élmény javítása érdekében.
-type: docs
 weight: 23
 url: /hu/java/onenote-image-alternative-text/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# OneNote kép alternatív szöveg
+
 ## Bevezetés
 
 A digitális környezetben való eligazodás megköveteli az akadálymentesítés iránti elkötelezettséget, és ez alól a OneNote-felhasználók sem kivételek. Ebben az oktatóanyag-sorozatban a OneNote képalternatív szövegeinek világába ásunk bele, bemutatva a Java és az Aspose.Note erejét, amellyel javíthatja a dokumentumok hozzáférhetőségét.
@@ -32,3 +38,9 @@ A OneNote képalternatív szövegének birodalmában a Java és az Aspose.Note h
 ## OneNote kép alternatív szöveges oktatóanyagok
 ### [Alternatív szöveg hozzáadása a OneNote képhez Java használatával](./add-alternative-text-to-image/)
 Ismerje meg, hogyan adhat alternatív szöveget a OneNote-dokumentumok képeihez Java használatával az Aspose.Note segítségével, ami javítja a kisegítő lehetőségeket és az inkluzivitást.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

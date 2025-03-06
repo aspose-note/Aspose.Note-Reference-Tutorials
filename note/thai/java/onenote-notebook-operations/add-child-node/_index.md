@@ -3,10 +3,16 @@ title: เพิ่มโหนดลูกในสมุดบันทึก 
 linktitle: เพิ่มโหนดลูกในสมุดบันทึก OneNote - Aspose.Note
 second_title: Aspose.Note Java API
 description: เรียนรู้วิธีเพิ่มโหนดลูกลงในสมุดบันทึก OneNote โดยใช้โปรแกรม Aspose.Note for Java ปรับปรุงการจัดระเบียบบันทึกย่อของคุณได้อย่างง่ายดาย
-type: docs
 weight: 11
 url: /th/java/onenote-notebook-operations/add-child-node/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# เพิ่มโหนดลูกในสมุดบันทึก OneNote - Aspose.Note
+
 ## การแนะนำ
 
 OneNote เป็นเครื่องมือที่มีประสิทธิภาพในการจัดระเบียบบันทึกย่อและแนวคิดของคุณ Aspose.Note สำหรับ Java มอบวิธีที่สะดวกในการจัดการไฟล์ OneNote โดยทางโปรแกรม ในบทช่วยสอนนี้ เราจะอธิบายขั้นตอนการเพิ่มโหนดย่อยลงในสมุดบันทึก OneNote ทีละขั้นตอน
@@ -89,3 +95,9 @@ A1: ใช่ Aspose.Note สำหรับ Java ช่วยให้คุณ
 ### คำถามที่ 5: มีฟอรัมชุมชนที่ฉันสามารถขอความช่วยเหลือและคำแนะนำในการใช้ Aspose.Note สำหรับ Java ได้หรือไม่
 
  A5: ใช่ คุณสามารถเยี่ยมชมได้[ฟอรั่ม Aspose.Note](https://forum.aspose.com/c/note/28) เพื่อถามคำถาม แบ่งปันความรู้ และโต้ตอบกับผู้ใช้และผู้เชี่ยวชาญคนอื่นๆ
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

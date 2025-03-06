@@ -3,10 +3,16 @@ title: Adicionar nós filhos no Aspose Note .NET
 linktitle: Adicionar nós filhos no Aspose Note .NET
 second_title: API Aspose.Note .NET
 description: Aprenda como adicionar nós filhos no Aspose Note .NET sem esforço com este tutorial abrangente. Aumente suas habilidades de manipulação de documentos agora.
-type: docs
 weight: 10
 url: /pt/net/notebook-operations/add-child-nodes/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Adicionar nós filhos no Aspose Note .NET
+
 ## Introdução
 
 Neste tutorial, aprenderemos como adicionar nós filhos no Aspose Note .NET. Adicionar nós filhos é uma operação fundamental ao trabalhar com documentos, e o Aspose Note .NET fornece uma maneira direta de realizar essa tarefa.
@@ -89,3 +95,9 @@ Parabéns! Você aprendeu com sucesso como adicionar nós filhos no Aspose Note 
 ### Q5: O Aspose.Note for .NET vem com documentação?
 
  A5: Sim, você pode encontrar documentação detalhada[aqui](https://reference.aspose.com/note/net/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

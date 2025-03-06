@@ -3,10 +3,16 @@ title: Fájlmellékletek és visszakeresés a OneNote-dokumentumokban
 linktitle: Mellékletek
 second_title: Aspose.Note .NET API
 description: Növelje .NET alkalmazásait az Aspose.Note segítségével! Fedezze fel az oktatóanyagokat a fájlok csatolásáról, az ikonok beállításáról és a mellékletek letöltéséről a továbbfejlesztett fejlesztés érdekében.
-type: docs
 weight: 21
 url: /hu/net/attachments/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Fájlmellékletek és visszakeresés a OneNote-dokumentumokban
+
 ## Bevezetés
 
 Készen áll arra, hogy .NET alkalmazásait a következő szintre emelje? Merüljön el az Aspose.Note világában, és tárja fel a lehetőségek tárházát. Ez az átfogó oktatólista végigvezeti Önt a legfontosabb funkciókon, összpontosítva a fájlok csatolására, az ikonok beállítására és a csatolt fájlok zökkenőmentes visszakeresésére.
@@ -37,3 +43,9 @@ Ismerje meg, hogyan csatolhat fájlokat és állíthat be ikonokat az Aspose.Not
 Ismerje meg, hogyan csatolhat fájlokat a Microsoft OneNote dokumentumokhoz programozottan az Aspose.Note for .NET használatával. Egyszerűsítse le fejlesztési folyamatát ezzel az átfogó oktatóanyaggal.
 ### [A csatolt fájlok letöltése az Aspose.Note segítségével](./retrieve-attached-files/)
 Ismerje meg, hogyan kérhet le csatolt fájlokat a Microsoft OneNote dokumentumokból az Aspose.Note for .NET használatával. Kövesse a lépéseket a betöltéshez, a csomópontok lekéréséhez és a mellékleteken keresztüli iterációhoz.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

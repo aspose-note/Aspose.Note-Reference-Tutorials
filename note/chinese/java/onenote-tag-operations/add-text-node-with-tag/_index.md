@@ -3,10 +3,16 @@ title: 在 OneNote 中添加带有标签的文本节点 - Aspose.Note
 linktitle: 在 OneNote 中添加带有标签的文本节点 - Aspose.Note
 second_title: Aspose.Note Java API
 description: 探索如何使用 Aspose.Note for Java 在 OneNote 中添加带有标签的文本节点。简单、高效且对开发人员友好。立即下载库！
-type: docs
 weight: 13
 url: /zh/java/onenote-tag-operations/add-text-node-with-tag/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# 在 OneNote 中添加带有标签的文本节点 - Aspose.Note
+
 ## 介绍
 在本教程中，我们将探索如何使用 Aspose.Note for Java 在 OneNote 中添加带有标签的文本节点。 Aspose.Note 是一个功能强大的 Java 库，允许开发人员以编程方式处理 Microsoft OneNote 文件。添加带有标签的文本节点是文档处理中的常见要求，Aspose.Note 简化了此任务。
 ## 先决条件
@@ -121,3 +127,9 @@ doc.save(dataDir + "AddTextNodeWithTag_out.one");
 答：是的，您可以获得临时许可证[这里](https://purchase.aspose.com/temporary-license/).
 ### 问：在哪里可以找到 Aspose.Note for Java 的文档？
 答：文档已提供[这里](https://reference.aspose.com/note/java/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

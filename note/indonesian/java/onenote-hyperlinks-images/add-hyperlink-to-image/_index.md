@@ -3,10 +3,16 @@ title: Tambahkan Hyperlink ke Gambar di OneNote menggunakan Java
 linktitle: Tambahkan Hyperlink ke Gambar di OneNote menggunakan Java
 second_title: Aspose.Catatan Java API
 description: Jadikan dokumen OneNote interaktif! Pelajari cara menambahkan hyperlink ke gambar di Java dengan Aspose.Note. Langkah mudah & contoh kode disertakan! #OneNote #Java #Aspose
-type: docs
 weight: 11
 url: /id/java/onenote-hyperlinks-images/add-hyperlink-to-image/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Tambahkan Hyperlink ke Gambar di OneNote menggunakan Java
+
 ## Perkenalan
 
 Dalam tutorial ini, kita akan mempelajari cara menambahkan hyperlink ke gambar di OneNote menggunakan Java. Gambar hyperlink dapat meningkatkan interaktivitas dan kegunaan dokumen Anda secara signifikan, memungkinkan pengguna mengakses konten terkait atau sumber daya eksternal dengan mudah hanya dengan satu klik.
@@ -97,3 +103,9 @@ A4: Meskipun tidak ada batasan khusus mengenai panjang hyperlink, disarankan aga
 ### Q5: Apakah Aspose.Note untuk Java mendukung format dokumen lain selain OneNote?
 
 A5: Ya, Aspose.Note untuk Java mendukung berbagai format dokumen, termasuk PDF, HTML, dan format gambar.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

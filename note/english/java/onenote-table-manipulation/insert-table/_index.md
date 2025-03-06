@@ -3,10 +3,16 @@ title: Insert Table in OneNote - Aspose.Note
 linktitle: Insert Table in OneNote - Aspose.Note
 second_title: Aspose.Note Java API
 description: Learn to insert tables in OneNote using Aspose.Note for Java. Step-by-step guide for dynamic content creation. Enhance your documents effortlessly.
-type: docs
 weight: 16
 url: /java/onenote-table-manipulation/insert-table/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Insert Table in OneNote - Aspose.Note
+
 ## Introduction
 If you're looking to enhance your OneNote documents by inserting tables programmatically, Aspose.Note for Java is your go-to solution. In this step-by-step guide, we will walk you through the process of inserting a table into a OneNote document using Aspose.Note's powerful Java library.
 ## Prerequisites
@@ -101,3 +107,10 @@ A: Visit the [Aspose.Note forum](https://forum.aspose.com/c/note/28) for communi
 A: Yes, you can explore the library with a [free trial](https://releases.aspose.com/).
 ### Q: How do I obtain a temporary license for Aspose.Note for Java?
 A: Get a temporary license [here](https://purchase.aspose.com/temporary-license/).
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

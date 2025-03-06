@@ -3,10 +3,16 @@ title: Buat Dokumen dan Sisipkan Gambar dengan Stream di OneNote - Java
 linktitle: Buat Dokumen dan Sisipkan Gambar dengan Stream di OneNote - Java
 second_title: Aspose.Catatan Java API
 description: Pelajari cara mengintegrasikan gambar dengan mudah ke dalam dokumen OneNote menggunakan Aspose.Note untuk Java. Tutorial langkah demi langkah untuk pengembang Java.
-type: docs
 weight: 13
 url: /id/java/onenote-hyperlinks-images/build-doc-insert-image-stream/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Buat Dokumen dan Sisipkan Gambar dengan Stream di OneNote - Java
+
 ## Perkenalan
 
 Selamat datang di tutorial komprehensif kami tentang penggunaan Aspose.Note untuk Java untuk membuat dokumen dan menyisipkan gambar menggunakan aliran gambar di OneNote! Dalam tutorial ini, kami akan memandu Anda melalui proses langkah demi langkah, memastikan Anda memiliki pemahaman yang jelas tentang setiap tahap. Pada akhirnya, Anda akan dapat dengan mudah mengintegrasikan gambar ke dalam dokumen OneNote Anda menggunakan Java.
@@ -180,3 +186,10 @@ A4: Anda dapat mengakses dokumentasi, tautan unduhan, forum dukungan, dan lisens
 ### Q5: Apakah ada versi uji coba yang tersedia untuk Aspose.Note untuk Java?
 
 A5: Ya, Anda bisa mendapatkan uji coba gratis Aspose.Note untuk Java guna menjelajahi fitur dan kemampuannya sebelum membuat keputusan pembelian.
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

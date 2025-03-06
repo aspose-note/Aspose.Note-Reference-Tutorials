@@ -3,10 +3,16 @@ title: Добавить тег в OneNote — Aspose.Note
 linktitle: Добавить тег в OneNote — Aspose.Note
 second_title: Aspose.Note Java API
 description: Повысьте уровень OneNote с помощью Aspose.Note для Java. Легко добавляйте теги, используя наше пошаговое руководство. Улучшите организацию и сотрудничество прямо сейчас!
-type: docs
 weight: 12
 url: /ru/java/onenote-tag-operations/add-tag/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Добавить тег в OneNote — Aspose.Note
+
 ## Введение
 Вы хотите улучшить организацию документов и совместную работу в OneNote с помощью Java? Aspose.Note для Java предоставляет мощное решение для легкого добавления тегов, гарантируя, что ваши заметки будут не только информативными, но и визуально привлекательными. В этом руководстве мы шаг за шагом проведем вас через весь процесс, чтобы вы могли использовать весь потенциал Aspose.Note для Java.
 ## Предварительные условия
@@ -93,3 +99,9 @@ Aspose.Note в основном поддерживает Java, но сущест
  По любым вопросам или помощи посетите[Форум Aspose.Note](https://forum.aspose.com/c/note/28).
 ### 5. Доступна ли бесплатная пробная версия?
  Да, вы можете изучить бесплатную пробную версию[здесь](https://releases.aspose.com/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

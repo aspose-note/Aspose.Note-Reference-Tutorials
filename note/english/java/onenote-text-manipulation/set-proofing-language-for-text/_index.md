@@ -3,10 +3,16 @@ title: Set Proofing Language for Text in OneNote - Aspose.Note
 linktitle: Set Proofing Language for Text in OneNote - Aspose.Note
 second_title: Aspose.Note Java API
 description: Unlock the potential of Aspose.Note for Java! Learn how to set proofing language for text in OneNote seamlessly with our step-by-step guide.
-type: docs
 weight: 22
 url: /java/onenote-text-manipulation/set-proofing-language-for-text/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Set Proofing Language for Text in OneNote - Aspose.Note
+
 ## Introduction
 In the dynamic world of software development, Aspose.Note for Java stands out as a powerful tool for managing and manipulating OneNote documents programmatically. If you're looking to enhance your Java applications with the ability to set proofing language for text in OneNote, you've come to the right place. This tutorial will guide you through the process step by step, ensuring you grasp each concept clearly.
 ## Prerequisites
@@ -67,3 +73,10 @@ A: Implement error handling mechanisms using try-catch blocks to address any pot
 A: Certainly! Ensure you have the Aspose.Note for Java library properly configured in your web project.
 ### Q: Where can I find additional examples and documentation for Aspose.Note for Java?
 A: Explore the [documentation](https://reference.aspose.com/note/java/) for comprehensive resources.
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -3,10 +3,16 @@ title: Crear cuaderno en OneNote - Aspose.Note
 linktitle: Crear cuaderno en OneNote - Aspose.Note
 second_title: Aspose.Nota Java API
 description: Aprenda a crear cuadernos en OneNote mediante programación utilizando Aspose.Note para Java. Optimice su flujo de trabajo con esta guía paso a paso.
-type: docs
 weight: 18
 url: /es/java/onenote-notebook-operations/create-notebook/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Crear cuaderno en OneNote - Aspose.Note
+
 ## Introducción
 
 En este tutorial, profundizaremos en el mundo de la creación de cuadernos en OneNote usando Aspose.Note para Java. Aspose.Note es una poderosa biblioteca de Java que permite a los desarrolladores trabajar con archivos de Microsoft OneNote mediante programación. Ya sea que sea un desarrollador experimentado o esté comenzando, esta guía paso a paso lo guiará a través del proceso de creación de cuadernos sin esfuerzo.
@@ -86,3 +92,9 @@ R3: ¡Absolutamente! Aspose.Note para Java está diseñado para integrarse perfe
 ### P5: ¿Dónde puedo obtener soporte para Aspose.Note para Java?
 
  R5: Para cualquier ayuda o consulta sobre Aspose.Note para Java, puede visitar el[Foro Aspose.Note](https://forum.aspose.com/c/note/28) para interactuar con la comunidad y obtener orientación experta.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

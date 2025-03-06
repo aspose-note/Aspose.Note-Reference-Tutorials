@@ -3,10 +3,16 @@ title: Převést Poznámkový blok na obrázek ve OneNotu – Aspose.Note
 linktitle: Převést Poznámkový blok na obrázek ve OneNotu – Aspose.Note
 second_title: Aspose.Note Java API
 description: Přečtěte si, jak převést poznámkové bloky na obrázky ve OneNotu pomocí Aspose.Note for Java. Tuto funkci snadno integrujte do svých aplikací Java.
-type: docs
 weight: 12
 url: /cs/java/onenote-notebook-operations/convert-notebook-to-image/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Převést Poznámkový blok na obrázek ve OneNotu – Aspose.Note
+
 ## Úvod
 
 V tomto tutoriálu prozkoumáme, jak převést poznámkový blok na obrázek ve OneNotu pomocí knihovny Aspose.Note for Java. Převod poznámkových bloků na obrázky může být užitečný pro různé účely, jako je sdílení poznámek, jejich vkládání do dokumentů nebo jejich začlenění do prezentací.
@@ -94,3 +100,9 @@ A4: Ano, můžete dávkově převést více poznámkových bloků na obrázky ef
 ### Q5: Kde najdu další zdroje a podporu pro Aspose.Note?
 
  A5: Další dokumentaci, příklady a podporu komunity naleznete na adrese[Aspose.Note fórum](https://forum.aspose.com/c/note/28) a prozkoumat[dokumentace](https://reference.aspose.com/note/java/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

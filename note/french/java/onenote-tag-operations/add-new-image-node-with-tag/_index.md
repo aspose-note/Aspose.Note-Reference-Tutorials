@@ -3,10 +3,16 @@ title: Ajouter un nouveau nœud d'image avec une balise dans OneNote - Aspose.No
 linktitle: Ajouter un nouveau nœud d'image avec une balise dans OneNote - Aspose.Note
 second_title: API Java Aspose.Note
 description: Découvrez comment ajouter un nouveau nœud d'image avec une balise dans OneNote à l'aide d'Aspose.Note pour Java. Élevez vos compétences en programmation Java sans effort.
-type: docs
 weight: 10
 url: /fr/java/onenote-tag-operations/add-new-image-node-with-tag/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Ajouter un nouveau nœud d'image avec une balise dans OneNote - Aspose.Note
+
 ## Introduction
 Dans le domaine de la programmation Java, Aspose.Note se distingue comme un outil puissant pour gérer facilement les documents OneNote. Si vous souhaitez améliorer vos compétences et apprendre à ajouter un nouveau nœud d'image avec une balise dans OneNote à l'aide d'Aspose.Note, vous êtes au bon endroit. Ce guide étape par étape vous guidera tout au long du processus, en vous assurant de bien comprendre chaque concept.
 ## Conditions préalables
@@ -96,3 +102,9 @@ Toutes nos félicitations! Vous avez ajouté avec succès un nouveau nœud d'ima
  Visitez le forum communautaire[ici](https://forum.aspose.com/c/note/28) pour le soutien.
 ### Ai-je besoin d’un permis temporaire ?
  Si nécessaire, vous pouvez obtenir une licence temporaire[ici](https://purchase.aspose.com/temporary-license/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

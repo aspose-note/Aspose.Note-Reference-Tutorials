@@ -3,10 +3,16 @@ title: Konwertuj określony zakres stron na plik PDF w programie OneNote za pomo
 linktitle: Konwertuj określony zakres stron na plik PDF w programie OneNote za pomocą języka Java
 second_title: Aspose.Note API Java
 description: Dowiedz się, jak bezproblemowo konwertować określone zakresy stron z OneNote do formatu PDF za pomocą Aspose.Note dla Java. Bez problemu zachowaj formatowanie i układ.
-type: docs
 weight: 11
 url: /pl/java/onenote-document-loading/convert-page-range-to-pdf/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Konwertuj określony zakres stron na plik PDF w programie OneNote za pomocą języka Java
+
 ## Wstęp
 
 OneNote to potężne narzędzie do porządkowania notatek, ale czasami może być konieczne wyeksportowanie określonych zakresów stron do pliku PDF w celu udostępnienia lub archiwizacji. W tym samouczku przeprowadzimy Cię przez proces konwersji określonego zakresu stron do formatu PDF za pomocą Aspose.Note dla Java.
@@ -85,3 +91,9 @@ O4: Tak, możesz dostosować różne aspekty, takie jak rozmiar strony, orientac
 ### P5: Czy Aspose.Note dla Java obsługuje wsadową konwersję wielu dokumentów OneNote?
 
 O5: Tak, możesz zbiorczo konwertować wiele dokumentów OneNote do formatu PDF, przeglądając każdy dokument w pętli i stosując proces konwersji.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

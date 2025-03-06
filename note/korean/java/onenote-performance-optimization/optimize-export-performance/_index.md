@@ -3,10 +3,16 @@ title: Java를 사용하여 OneNote에서 내보내기 성능 최적화
 linktitle: Java를 사용하여 OneNote에서 내보내기 성능 최적화
 second_title: Aspose.Note 자바 API
 description: Aspose.Note와 함께 Java를 사용하여 OneNote에서 내보내기 성능을 최적화하는 방법을 알아보세요. 단계별 지침을 통해 문서를 다양한 형식으로 효율적으로 내보낼 수 있습니다.
-type: docs
 weight: 10
 url: /ko/java/onenote-performance-optimization/optimize-export-performance/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Java를 사용하여 OneNote에서 내보내기 성능 최적화
+
 ## 소개
 
 이 자습서에서는 Aspose.Note와 함께 Java를 사용하여 OneNote 문서 내보내기 성능을 최적화하는 방법을 알아봅니다. 성능을 유지하면서 OneNote 문서를 다양한 형식으로 효율적으로 내보낼 수 있도록 프로세스를 단계별로 안내해 드립니다.
@@ -169,3 +175,9 @@ A4: 예, Aspose.Note는 광범위한 사용자 정의 옵션을 제공하므로 
 ### Q5: Aspose.Note 사용자에게 기술 지원이 제공됩니까?
 
 A5: 예, Aspose는 Aspose.Note를 사용하는 동안 발생할 수 있는 문의나 문제에 대해 사용자를 지원하기 위해 전담 기술 지원을 제공합니다.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

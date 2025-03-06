@@ -3,10 +3,16 @@ title: Wyodrębnij zawartość w Aspose.Note
 linktitle: Wyodrębnij zawartość w Aspose.Note
 second_title: Aspose.Note .NET API
 description: Dowiedz się, jak wyodrębnić zawartość z dokumentów Aspose.Note przy użyciu Aspose.Note dla .NET. Ten kompleksowy samouczek przeprowadzi Cię przez proces krok po kroku.
-type: docs
 weight: 15
 url: /pl/net/loading-and-saving-operations/extract-content/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Wyodrębnij zawartość w Aspose.Note
+
 ## Wstęp
 
 W tym samouczku przyjrzymy się, jak wyodrębnić zawartość z dokumentów Aspose.Note przy użyciu Aspose.Note dla .NET. Aspose.Note to potężna biblioteka, która umożliwia programową pracę z plikami Microsoft OneNote. Przeanalizujemy ten proces krok po kroku, dzieląc każdy przykład na wiele kroków, aby zapewnić przejrzystość i zrozumienie.
@@ -133,3 +139,9 @@ O4: Tak, Aspose.Note obsługuje konwersję do różnych formatów, w tym PDF, HT
 ### P5: Czy dostępna jest pomoc techniczna dla użytkowników Aspose.Note?
 
 Odpowiedź 5: Tak, Aspose zapewnia dedykowane wsparcie techniczne za pośrednictwem swojego forum, aby pomóc użytkownikom w przypadku jakichkolwiek problemów lub zapytań.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

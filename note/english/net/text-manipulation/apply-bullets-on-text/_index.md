@@ -3,10 +3,16 @@ title: Apply Bullets on Text in Aspose.Note
 linktitle: Apply Bullets on Text in Aspose.Note
 second_title: Aspose.Note .NET API
 description: Learn how to apply bullets on text in Aspose.Note for .NET to enhance your OneNote documents. Follow this step-by-step guide for effective formatting.
-type: docs
 weight: 10
 url: /net/text-manipulation/apply-bullets-on-text/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Apply Bullets on Text in Aspose.Note
+
 ## Introduction
 Welcome to this step-by-step guide on applying bullets to text using Aspose.Note for .NET. Aspose.Note is a powerful library that allows developers to work seamlessly with Microsoft OneNote files in their .NET applications. In this tutorial, we will walk you through the process of applying bullets to text, enhancing the visual appeal of your OneNote documents.
 ## Prerequisites
@@ -86,3 +92,10 @@ Yes, you can use Aspose.Note for .NET in commercial projects. To get a license, 
 Yes, you can download a free trial [here](https://releases.aspose.com/).
 ### Where can I find additional support and resources?
 You can visit the Aspose.Note community forum [here](https://forum.aspose.com/c/note/28) for support and discussions.
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

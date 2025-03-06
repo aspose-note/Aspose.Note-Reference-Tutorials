@@ -3,10 +3,16 @@ title: Aspose.Note pro výukové programy správy značek .NET
 linktitle: Správa značek
 second_title: Aspose.Note .NET API
 description: Master Aspose.Note se správou značek. Přidejte obrázky, tabulky, textové uzly a generujte poznámky ze schůzek. Získejte podrobnosti o značkách a vylepšete manipulaci s dokumenty.
-type: docs
 weight: 30
 url: /cs/net/tag-management/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Aspose.Note pro výukové programy správy značek .NET
+
 
 ## Úvod
 
@@ -49,3 +55,9 @@ Naučte se, jak získat podrobnosti o značkách z dokumentů Aspose.Note pomoc�
 Naučte se, jak programově manipulovat se soubory Microsoft OneNote pomocí Aspose.Note pro .NET. Efektivně otevírejte a zavírejte projekty pomocí značek.
 ### [Hlášení pomocí značek v Aspose.Note](./reporting-tags/)
 Naučte se generovat přehledné zprávy z digitálních dokumentů pomocí Aspose.Note pro .NET. Poskytován průvodce krok za krokem.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -3,10 +3,16 @@ title: Δημιουργία πίνακα με κλειδωμένες στήλε�
 linktitle: Δημιουργία πίνακα με κλειδωμένες στήλες στο OneNote - Aspose.Note
 second_title: Aspose.Note Java API
 description: Βελτιώστε την εμπειρία σας στο OneNote με το Aspose.Note για Java. Μάθετε πώς να δημιουργείτε πίνακες με κλειδωμένες στήλες χρησιμοποιώντας έναν οδηγό βήμα προς βήμα. Κατεβάστε τη δωρεάν δοκιμή σας τώρα!
-type: docs
 weight: 12
 url: /el/java/onenote-table-manipulation/create-table-with-locked-columns/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Δημιουργία πίνακα με κλειδωμένες στήλες στο OneNote - Aspose.Note
+
 ## Εισαγωγή
 Το OneNote είναι ένα ισχυρό εργαλείο για την οργάνωση πληροφοριών και το Aspose.Note για Java ενισχύει τις δυνατότητές του παρέχοντας έναν απρόσκοπτο τρόπο δημιουργίας πινάκων με κλειδωμένες στήλες. Σε αυτό το σεμινάριο, θα σας καθοδηγήσουμε στη διαδικασία χρήσης του Aspose.Note για Java για τη δημιουργία ενός πίνακα με κλειδωμένες στήλες στο OneNote.
 ## Προαπαιτούμενα
@@ -90,3 +96,9 @@ doc.save(dataDir);
  Επισκέψου το[Aspose.Note φόρουμ](https://forum.aspose.com/c/note/28) για υποστήριξη και κοινοτικές συζητήσεις.
 ### Πώς μπορώ να αποκτήσω μια προσωρινή άδεια χρήσης για το Aspose.Note για Java;
  Επίσκεψη[αυτός ο σύνδεσμος](https://purchase.aspose.com/temporary-license/) για την απόκτηση προσωρινής άδειας για σκοπούς δοκιμών.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

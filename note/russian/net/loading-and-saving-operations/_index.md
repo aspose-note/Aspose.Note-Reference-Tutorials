@@ -3,10 +3,16 @@ title: Манипулирование документами OneNote с помо
 linktitle: Операции загрузки и сохранения
 second_title: Aspose.Note .NET API
 description: Раскройте возможности Aspose.Note для .NET! Изучите наши руководства, чтобы получить пошаговые инструкции по легкой загрузке, сохранению и управлению документами OneNote.
-type: docs
 weight: 25
 url: /ru/net/loading-and-saving-operations/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Манипулирование документами OneNote с помощью Aspose.Note для .NET
+
 
 ## Введение
 
@@ -80,3 +86,9 @@ url: /ru/net/loading-and-saving-operations/
 Узнайте, как указать параметры сохранения в Aspose.Note для .NET, чтобы настроить выходной формат и качество документов OneNote.
 ### [Обратные вызовы, сохраняющие пользователя в Aspose.Note](./user-saving-callbacks/)
 Узнайте, как реализовать обратные вызовы с сохранением пользователей в Aspose.Note для .NET, чтобы настроить сохранение шрифтов, CSS и изображений.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

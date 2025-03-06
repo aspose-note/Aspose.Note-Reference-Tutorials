@@ -3,10 +3,16 @@ title: Crear lista con viñetas en OneNote - Aspose.Note
 linktitle: Crear lista con viñetas en OneNote - Aspose.Note
 second_title: Aspose.Nota Java API
 description: Explore la guía paso a paso sobre cómo crear listas con viñetas en OneNote usando Aspose.Note para Java. Mejore la creación de sus documentos con facilidad.
-type: docs
 weight: 12
 url: /es/java/onenote-text-manipulation/create-bulleted-list/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Crear lista con viñetas en OneNote - Aspose.Note
+
 ## Introducción
 En el panorama dinámico del desarrollo de Java, la creación de documentos atractivos y organizados es esencial. Aspose.Note para Java proporciona un potente conjunto de herramientas para mejorar el proceso de creación de documentos. Este tutorial lo guiará a través del proceso de creación de listas con viñetas en OneNote usando Aspose.Note para Java. Profundicemos en los detalles.
 ## Requisitos previos
@@ -92,3 +98,9 @@ Sí, Aspose.Note para Java es compatible con entornos de desarrollo integrados d
  Sí, puedes explorar una versión de prueba gratuita.[aquí](https://releases.aspose.com/).
 ### ¿Cómo puedo obtener una licencia temporal de Aspose.Note para Java?
  Obtener una licencia temporal[aquí](https://purchase.aspose.com/temporary-license/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

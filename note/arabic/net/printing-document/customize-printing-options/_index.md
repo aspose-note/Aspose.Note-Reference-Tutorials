@@ -3,10 +3,16 @@ title: تخصيص الطباعة باستخدام خيارات الطباعة As
 linktitle: تخصيص الطباعة باستخدام خيارات الطباعة Aspose.Note
 second_title: Aspose.Note .NET API
 description: تعرف على كيفية تخصيص طباعة المستندات باستخدام Aspose.Note لـ .NET. ضبط الإعدادات للحصول على المطبوعات المثالية.
-type: docs
 weight: 11
 url: /ar/net/printing-document/customize-printing-options/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# تخصيص الطباعة باستخدام خيارات الطباعة Aspose.Note
+
 ## مقدمة
 
 يمكن تخصيص طباعة المستندات باستخدام Aspose.Note لـ .NET لتلبية متطلبات محددة باستخدام خيارات الطباعة. في هذا البرنامج التعليمي، سنستكشف كيفية تخصيص الطباعة باستخدام الخيارات المتنوعة التي يوفرها Aspose.Note. سواء كنت بحاجة إلى ضبط إعدادات الطابعة، أو ضبط الدقة، أو تحديد خوارزميات تقسيم الصفحة، فإن Aspose.Note يوفر المرونة لتحقيق نتائج الطباعة المطلوبة.
@@ -95,3 +101,9 @@ document.Print(new PrintOptions()
 ### س5: هل يمكنني أتمتة مهام الطباعة باستخدام Aspose.Note؟
 
 ج5: نعم، يسمح Aspose.Note للمطورين بأتمتة مهام الطباعة من خلال دمج خيارات الطباعة في تطبيقات .NET الخاصة بهم.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -3,10 +3,16 @@ title: Chuyển đổi chủ đề tối với Aspose.Note cho .NET
 linktitle: Áp dụng chủ đề tối cho văn bản trong Aspose.Note
 second_title: Aspose.Note .NET API
 description: Chuyển đổi tài liệu OneNote của bạn bằng Aspose.Note for .NET! Áp dụng chủ đề tối kiểu dáng đẹp một cách dễ dàng. Tải xuống ngay bây giờ và nâng cao trải nghiệm ghi chú của bạn.
-type: docs
 weight: 11
 url: /vi/net/text-manipulation/apply-dark-theme-text/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Chuyển đổi chủ đề tối với Aspose.Note cho .NET
+
 ## Giới thiệu
 Chào mừng bạn đến với hướng dẫn từng bước của chúng tôi về cách áp dụng chủ đề tối cho văn bản trong Aspose.Note for .NET. Aspose.Note là một API .NET mạnh mẽ cho phép các nhà phát triển làm việc với các tệp Microsoft OneNote theo chương trình. Trong hướng dẫn này, chúng ta sẽ khám phá cách mang đến cho tài liệu OneNote của bạn một giao diện đẹp mắt và hiện đại bằng cách áp dụng chủ đề tối cho văn bản.
 ## Điều kiện tiên quyết
@@ -67,3 +73,9 @@ Aspose.Note có thể xử lý các tài liệu có kích thước khác nhau v�
 Có, bạn có thể sửa đổi mã để chuyển giữa các chủ đề dựa trên sở thích của mình.
 ### Tôi có thể nhận hỗ trợ cho các truy vấn liên quan đến Aspose.Note ở đâu?
  Để được trợ giúp, hãy truy cập[Diễn đàn Aspose.Note](https://forum.aspose.com/c/note/28) hoặc khám phá[tài liệu](https://reference.aspose.com/note/net/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

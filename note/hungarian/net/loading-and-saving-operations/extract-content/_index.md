@@ -3,10 +3,16 @@ title: Kivonat tartalma az Aspose.Note
 linktitle: Kivonat tartalma az Aspose.Note
 second_title: Aspose.Note .NET API
 description: Ismerje meg, hogyan nyerhet ki tartalmat az Aspose.Note dokumentumokból az Aspose.Note for .NET segítségével. Ez az átfogó oktatóanyag lépésről lépésre végigvezeti a folyamaton.
-type: docs
 weight: 15
 url: /hu/net/loading-and-saving-operations/extract-content/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Kivonat tartalma az Aspose.Note
+
 ## Bevezetés
 
 Ebben az oktatóanyagban megvizsgáljuk, hogyan lehet tartalmat kivonni az Aspose.Note dokumentumokból az Aspose.Note for .NET segítségével. Az Aspose.Note egy hatékony könyvtár, amely lehetővé teszi a Microsoft OneNote-fájlok programozott kezelését. Lépésről lépésre végigjárjuk a folyamatot, minden egyes példát több lépésre bontva az egyértelműség és érthetőség érdekében.
@@ -133,3 +139,9 @@ Console.WriteLine(myConverter.GetText());
 ### 5. kérdés: Rendelkezésre áll műszaki támogatás az Aspose.Note felhasználói számára?
 
 5. válasz: Igen, az Aspose speciális technikai támogatást nyújt a fórumon keresztül, hogy segítse a felhasználókat bármilyen kérdésben vagy kérdésben.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

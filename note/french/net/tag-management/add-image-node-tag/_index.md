@@ -3,10 +3,16 @@ title: Ajouter un nœud d'image avec une balise dans Aspose.Note
 linktitle: Ajouter un nœud d'image avec une balise dans Aspose.Note
 second_title: API Aspose.Note .NET
 description: Découvrez comment améliorer vos documents OneNote en ajoutant des images avec des balises personnalisées à l'aide d'Aspose.Note pour .NET.
-type: docs
 weight: 10
 url: /fr/net/tag-management/add-image-node-tag/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Ajouter un nœud d'image avec une balise dans Aspose.Note
+
 ## Introduction
 
 Dans ce didacticiel, nous allons explorer comment ajouter un nœud d'image avec une balise à l'aide d'Aspose.Note pour .NET. Cette fonctionnalité vous permet d'améliorer vos documents OneNote en ajoutant des images avec des balises personnalisées.
@@ -110,3 +116,9 @@ A4 : Aspose.Note prend principalement en charge l'ajout d'images à partir de r�
 ### Q5 : Existe-t-il des limites quant à la taille ou au format des images pouvant être ajoutées ?
 
 A5 : Aspose.Note prend en charge un large éventail de formats d'image et n'impose aucune limitation stricte sur la taille de l'image, vous permettant d'incorporer divers visuels dans vos documents.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

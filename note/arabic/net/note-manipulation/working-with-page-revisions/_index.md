@@ -3,10 +3,16 @@ title: إتقان مراجعات الصفحة في مستندات OneNote
 linktitle: إتقان مراجعات الصفحة في مستندات OneNote
 second_title: Aspose.Note .NET API
 description: تعلم كيفية إدارة مراجعات صفحة Microsoft OneNote باستخدام Aspose.Note. دليل خطوة بخطوة للتكامل السلس والتحكم في الإصدار في تطبيقات .NET الخاصة بك.
-type: docs
 weight: 20
 url: /ar/net/note-manipulation/working-with-page-revisions/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# إتقان مراجعات الصفحة في مستندات OneNote
+
 ## مقدمة
 
 في مجال تطوير .NET، يبرز Aspose.Note كأداة متعددة الاستخدامات للتعامل مع ملفات Microsoft OneNote بكفاءة. إحدى الميزات المفيدة بشكل خاص في Aspose.Note هي قدرته على إدارة مراجعات الصفحة بسلاسة. في هذا البرنامج التعليمي، سنتعمق في تعقيدات العمل مع مراجعات الصفحات باستخدام Aspose.Note لـ .NET.
@@ -112,3 +118,9 @@ document.Save(dataDir + "WorkingWithPageRevisions_out.one");
 ### س5: هل يمكنني أتمتة عملية إدارة مراجعات الصفحة باستخدام Aspose.Note؟
 
 ج5: نعم، يقدم Aspose.Note واجهات برمجة التطبيقات الشاملة التي تسمح للمطورين بأتمتة المهام المتعلقة بمراجعات الصفحات، وتبسيط عمليات سير العمل.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

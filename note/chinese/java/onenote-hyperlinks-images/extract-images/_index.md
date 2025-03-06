@@ -3,10 +3,16 @@ title: 使用 Java 从 OneNote 文档中提取图像
 linktitle: 使用 Java 从 OneNote 文档中提取图像
 second_title: Aspose.Note Java API
 description: 了解如何使用 Java 和 Aspose.Note 库从 OneNote 文档中提取图像。请按照我们的分步指南进行无缝图像提取。
-type: docs
 weight: 14
 url: /zh/java/onenote-hyperlinks-images/extract-images/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# 使用 Java 从 OneNote 文档中提取图像
+
 ## 介绍
 
 在本教程中，我们将指导您在 Aspose.Note 库的帮助下完成使用 Java 从 OneNote 文档中提取图像的过程。
@@ -89,3 +95,9 @@ A4：Aspose.Note可以高效处理各种尺寸的文档，确保图像提取时�
 ### Q5：Aspose.Note 是否支持提取除图像之外的其他类型的内容？
 
 A5：是的，除了图像之外，Aspose.Note 还允许从 OneNote 文档中提取文本、附件和其他内容类型。
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -3,10 +3,16 @@ title: Zapisz, używając określonych czcionek w Aspose.Note
 linktitle: Zapisz, używając określonych czcionek w Aspose.Note
 second_title: Aspose.Note .NET API
 description: Dowiedz się, jak zapisywać dokumenty z określonymi czcionkami w Aspose.Note dla .NET. Z łatwością dostosowuj ustawienia czcionek, aby uzyskać spójne formatowanie dokumentu.
-type: docs
 weight: 28
 url: /pl/net/loading-and-saving-operations/save-using-specified-fonts/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Zapisz, używając określonych czcionek w Aspose.Note
+
 ## Wstęp
 
 W tym samouczku nauczymy się, jak zapisywać dokumenty przy użyciu określonych czcionek w Aspose.Note dla .NET. Krok po kroku przeanalizujemy różne metody osiągnięcia tego celu.
@@ -131,3 +137,9 @@ O4: Tak, Aspose.Note umożliwia osadzanie czcionek, aby zapewnić przenośność
 ### P5: Gdzie mogę uzyskać dalszą pomoc dotyczącą Aspose.Note?
 
  O5: Aby uzyskać dalszą pomoc lub wsparcie techniczne, odwiedź stronę[Forum Aspose.Note](https://forum.aspose.com/c/note/28).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

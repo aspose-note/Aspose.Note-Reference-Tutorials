@@ -3,10 +3,16 @@ title: Aspose.Note voor zelfstudies over .NET-tagbeheer
 linktitle: Tagbeheer
 second_title: Aspose.Note .NET API
 description: Beheers Aspose.Note met tagbeheer. Voeg afbeeldingen, tabellen en tekstknooppunten toe en genereer vergadernotities. Haal tagdetails op en verbeter documentmanipulatie.
-type: docs
 weight: 30
 url: /nl/net/tag-management/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Aspose.Note voor zelfstudies over .NET-tagbeheer
+
 
 ## Invoering
 
@@ -49,3 +55,9 @@ Leer hoe u tagdetails uit Aspose.Note-documenten kunt ophalen met behulp van .NE
 Leer hoe u Microsoft OneNote-bestanden programmatisch kunt manipuleren met Aspose.Note voor .NET. Open en sluit projecten efficiënt met tags.
 ### [Rapporteren met tags in Aspose.Note](./reporting-tags/)
 Leer hoe u inzichtelijke rapporten kunt genereren op basis van digitale documenten met Aspose.Note voor .NET. Stap-voor-stap handleiding meegeleverd.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

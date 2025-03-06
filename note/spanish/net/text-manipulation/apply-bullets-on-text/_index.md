@@ -3,10 +3,16 @@ title: Aplicar viñetas en texto en Aspose.Note
 linktitle: Aplicar viñetas en texto en Aspose.Note
 second_title: Aspose.Nota .NET API
 description: Aprenda a aplicar viñetas en el texto en Aspose.Note para .NET para mejorar sus documentos de OneNote. Siga esta guía paso a paso para un formateo eficaz.
-type: docs
 weight: 10
 url: /es/net/text-manipulation/apply-bullets-on-text/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Aplicar viñetas en texto en Aspose.Note
+
 ## Introducción
 Bienvenido a esta guía paso a paso sobre cómo aplicar viñetas a texto usando Aspose.Note para .NET. Aspose.Note es una potente biblioteca que permite a los desarrolladores trabajar sin problemas con archivos de Microsoft OneNote en sus aplicaciones .NET. En este tutorial, lo guiaremos a través del proceso de aplicar viñetas al texto, mejorando el atractivo visual de sus documentos de OneNote.
 ## Requisitos previos
@@ -86,3 +92,9 @@ Aspose.Note admite varias versiones de Microsoft OneNote, lo que garantiza la co
  Sí, puedes descargar una prueba gratuita.[aquí](https://releases.aspose.com/).
 ### ¿Dónde puedo encontrar apoyo y recursos adicionales?
  Puedes visitar el foro de la comunidad Aspose.Note[aquí](https://forum.aspose.com/c/note/28) para apoyo y discusiones.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

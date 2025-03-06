@@ -3,10 +3,16 @@ title: تعيين لغة التدقيق للنص في OneNote - Aspose.Note
 linktitle: تعيين لغة التدقيق للنص في OneNote - Aspose.Note
 second_title: Aspose.Note جافا API
 description: إطلاق العنان لإمكانات Aspose.Note لجافا! تعرف على كيفية تعيين لغة التدقيق للنص في OneNote بسلاسة من خلال دليلنا التفصيلي خطوة بخطوة.
-type: docs
 weight: 22
 url: /ar/java/onenote-text-manipulation/set-proofing-language-for-text/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# تعيين لغة التدقيق للنص في OneNote - Aspose.Note
+
 ## مقدمة
 في العالم الديناميكي لتطوير البرمجيات، يبرز Aspose.Note for Java كأداة قوية لإدارة مستندات OneNote ومعالجتها برمجيًا. إذا كنت تتطلع إلى تحسين تطبيقات Java الخاصة بك من خلال القدرة على تعيين لغة التدقيق للنص في OneNote، فقد وصلت إلى المكان الصحيح. سيرشدك هذا البرنامج التعليمي خلال العملية خطوة بخطوة، مما يضمن أنك تفهم كل مفهوم بوضوح.
 ## المتطلبات الأساسية
@@ -67,3 +73,9 @@ document.save(Paths.get(dataDir, "SetProofingLanguageForText.one").toString());
 ج: بالتأكيد! تأكد من تكوين مكتبة Aspose.Note for Java بشكل صحيح في مشروع الويب الخاص بك.
 ### س: أين يمكنني العثور على أمثلة ووثائق إضافية لـ Aspose.Note لـ Java؟
  ج: اكتشف[توثيق](https://reference.aspose.com/note/java/) للموارد الشاملة.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

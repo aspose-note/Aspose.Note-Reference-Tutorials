@@ -3,10 +3,16 @@ title: OneNote में मीटिंग नोट्स के लिए ट
 linktitle: OneNote में मीटिंग नोट्स के लिए टेम्पलेट जनरेट करें - Aspose.Note
 second_title: Aspose.नोट जावा एपीआई
 description: जावा के लिए Aspose.Note के साथ सहयोग बढ़ाएँ! चरण-दर-चरण डायनामिक मीटिंग नोट्स टेम्पलेट बनाना सीखें। अभी लाइब्रेरी डाउनलोड करें!
-type: docs
 weight: 14
 url: /hi/java/onenote-tag-operations/generate-template-for-meeting-notes/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# OneNote में मीटिंग नोट्स के लिए टेम्पलेट जनरेट करें - Aspose.Note
+
 ## परिचय
 आज की तेज़-तर्रार दुनिया में, सफल सहयोग के लिए कुशल संगठन और बैठकों का दस्तावेज़ीकरण महत्वपूर्ण है। जावा के लिए Aspose.Note OneNote में मीटिंग नोट्स के लिए टेम्पलेट तैयार करने के लिए एक शक्तिशाली समाधान प्रदान करता है। इस चरण-दर-चरण मार्गदर्शिका में, हम यह पता लगाएंगे कि एक टेम्पलेट बनाने के लिए Aspose.Note का उपयोग कैसे करें जो आपकी बैठकों के सार को कैप्चर करता है, जिससे नोट लेना आसान हो जाता है।
 ## आवश्यक शर्तें
@@ -105,3 +111,9 @@ d.save(Paths.get(dataDir, "meetingNotes.one").toString());
  को देखें[Aspose.नोट दस्तावेज़ीकरण](https://reference.aspose.com/note/java/) लाइसेंसिंग विवरण के लिए.
 ### क्या Aspose.Note के लिए कोई परीक्षण संस्करण उपलब्ध है?
  हां, आप पहुंच सकते हैं[यहां नि:शुल्क परीक्षण](https://releases.aspose.com/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

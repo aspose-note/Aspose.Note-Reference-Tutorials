@@ -3,10 +3,16 @@ title: Memuat Buku Catatan di OneNote - Aspose.Note
 linktitle: Memuat Buku Catatan di OneNote - Aspose.Note
 second_title: Aspose.Catatan Java API
 description: Kuasai buku catatan OneNote di Java! Pelajari cara memuat, menjelajahi & memproses konten - dari dokumen hingga sub-buku catatan. Langkah & kode mudah disertakan! #OneNote #Java #Aspose
-type: docs
 weight: 19
 url: /id/java/onenote-notebook-operations/loading-notebook/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Memuat Buku Catatan di OneNote - Aspose.Note
+
 ## Perkenalan
 
 Selamat datang di tutorial kami tentang penggunaan Aspose.Note untuk Java agar dapat bekerja dengan buku catatan OneNote. Aspose.Note adalah pustaka Java canggih yang memungkinkan pengembang membuat, memanipulasi, dan mengonversi dokumen OneNote secara terprogram. Dalam tutorial ini, kami akan memandu Anda melalui proses memuat buku catatan di OneNote menggunakan Aspose.Note untuk Java.
@@ -98,3 +104,9 @@ A3: Ya, Anda perlu membeli lisensi untuk penggunaan komersial. Namun, Anda juga 
 ### Q5: Bisakah saya mendapatkan lisensi sementara untuk tujuan pengujian?
 
  A5: Ya, Anda dapat meminta izin sementara[Di Sini](https://purchase.aspose.com/temporary-license/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

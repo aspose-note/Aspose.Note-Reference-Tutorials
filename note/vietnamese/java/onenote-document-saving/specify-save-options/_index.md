@@ -3,10 +3,16 @@ title: Chỉ định tùy chọn lưu trong OneNote - Aspose.Note
 linktitle: Chỉ định tùy chọn lưu trong OneNote - Aspose.Note
 second_title: API Java Aspose.Note
 description: Tìm hiểu cách chỉ định các tùy chọn lưu trong OneNote bằng Aspose.Note for Java. Tùy chỉnh cài đặt chỉ mục, số lượng và nén trang một cách dễ dàng.
-type: docs
 weight: 24
 url: /vi/java/onenote-document-saving/specify-save-options/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Chỉ định tùy chọn lưu trong OneNote - Aspose.Note
+
 ## Giới thiệu
 
 Trong hướng dẫn này, chúng ta sẽ tìm hiểu cách chỉ định các tùy chọn lưu trong OneNote bằng Aspose.Note cho Java. Aspose.Note là một thư viện Java mạnh mẽ cho phép các nhà phát triển tạo, thao tác và chuyển đổi tài liệu OneNote theo chương trình. Với Aspose.Note, bạn có thể dễ dàng kiểm soát các tùy chọn lưu khác nhau để tùy chỉnh đầu ra theo yêu cầu của mình.
@@ -109,3 +115,9 @@ A4: Có, Aspose.Note cung cấp API để mã hóa và giải mã tài liệu On
 ### Câu 5: Aspose.Note có phù hợp cho mục đích sử dụng thương mại không?
 
 Câu trả lời 5: Có, Aspose.Note có thể được sử dụng cho mục đích thương mại bằng cách mua giấy phép.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

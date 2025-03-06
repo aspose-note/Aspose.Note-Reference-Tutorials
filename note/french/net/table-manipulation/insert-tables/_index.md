@@ -3,10 +3,16 @@ title: Insérer des tableaux dans des documents Aspose.Note
 linktitle: Insérer des tableaux dans des documents Aspose.Note
 second_title: API Aspose.Note .NET
 description: Apprenez à insérer des tableaux dans des documents Note avec Aspose.Note pour .NET. Organisez les données de manière transparente pour une lisibilité et une présentation améliorées.
-type: docs
 weight: 16
 url: /fr/net/table-manipulation/insert-tables/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Insérer des tableaux dans des documents Aspose.Note
+
 ## Introduction
 
 Dans ce didacticiel, nous verrons comment utiliser Aspose.Note pour .NET pour insérer des tableaux dans des documents Note. Les tableaux sont essentiels pour organiser les données dans un format structuré au sein des documents, améliorer la lisibilité et présenter les informations de manière claire.
@@ -131,3 +137,9 @@ A4 : L’intégration est simple ; ajoutez simplement la référence DLL Aspos
 ### Q5 : Aspose.Note offre-t-il la prise en charge de différents formats de fichiers ?
 
 A5 : Oui, Aspose.Note prend en charge divers formats de fichiers, notamment OneNote (ONE), PDF, HTML et les formats d'image pour l'exportation et l'importation de documents.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -3,10 +3,16 @@ title: Notizbuch in OneNote laden – Aspose.Note
 linktitle: Notizbuch in OneNote laden – Aspose.Note
 second_title: Aspose.Note Java API
 description: Meistern Sie OneNote-Notizbücher in Java! Lernen Sie, Inhalte zu laden, zu erkunden und zu verarbeiten – von Dokumenten bis hin zu Sub-Notebooks. Einfache Schritte und Code enthalten! #OneNote #Java #Aspose
-type: docs
 weight: 19
 url: /de/java/onenote-notebook-operations/loading-notebook/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Notizbuch in OneNote laden – Aspose.Note
+
 ## Einführung
 
 Willkommen zu unserem Tutorial zur Verwendung von Aspose.Note für Java für die Arbeit mit OneNote-Notizbüchern. Aspose.Note ist eine leistungsstarke Java-Bibliothek, mit der Entwickler OneNote-Dokumente programmgesteuert erstellen, bearbeiten und konvertieren können. In diesem Tutorial führen wir Sie durch den Prozess des Ladens eines Notizbuchs in OneNote mit Aspose.Note für Java.
@@ -98,3 +104,9 @@ A3: Ja, Sie müssen eine Lizenz für die kommerzielle Nutzung erwerben. Sie kön
 ### F5: Kann ich zu Testzwecken eine temporäre Lizenz erhalten?
 
  A5: Ja, Sie können eine temporäre Lizenz beantragen[Hier](https://purchase.aspose.com/temporary-license/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

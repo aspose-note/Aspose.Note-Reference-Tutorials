@@ -3,10 +3,16 @@ title: Vytvořit číslovaný seznam ve OneNotu - Aspose.Note
 linktitle: Vytvořit číslovaný seznam ve OneNotu - Aspose.Note
 second_title: Aspose.Note Java API
 description: Naučte se, jak snadno vytvořit číslovaný seznam ve OneNotu pomocí Aspose.Note pro Java. Stáhněte si bezplatnou zkušební verzi a ponořte se do světa vývoje Java!
-type: docs
 weight: 14
 url: /cs/java/onenote-text-manipulation/create-numbered-list/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Vytvořit číslovaný seznam ve OneNotu - Aspose.Note
+
 ## Úvod
 Aspose.Note for Java umožňuje vývojářům Java hladce pracovat se soubory Microsoft OneNote. V tomto tutoriálu vás provedeme procesem vytváření číslovaného seznamu ve OneNotu pomocí výkonné knihovny Aspose.Note pro Java.
 ## Předpoklady
@@ -91,3 +97,9 @@ A: Rozhodně! Formát číslování můžete přizpůsobit pomocí třídy Numbe
  A: Viz[dokumentace](https://reference.aspose.com/note/java/) pro komplexní informace.
 ### Otázka: Jak si koupím licenci pro Aspose.Note pro Java?
  A: Můžete si koupit licenci[tady](https://purchase.aspose.com/buy).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -3,10 +3,16 @@ title: Tạo tài liệu từ mẫu trong Aspose.Note
 linktitle: Tạo tài liệu từ mẫu trong Aspose.Note
 second_title: Aspose.Note .NET API
 description: Tạo tài liệu động dễ dàng với Aspose.Note cho .NET. Hãy làm theo hướng dẫn từng bước của chúng tôi để tạo tài liệu được cá nhân hóa và dựa trên dữ liệu.
-type: docs
 weight: 18
 url: /vi/net/text-manipulation/generate-document-from-template/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Tạo tài liệu từ mẫu trong Aspose.Note
+
 ## Giới thiệu
 Trong bối cảnh tạo tài liệu ngày càng phát triển, Aspose.Note for .NET nổi bật như một công cụ mạnh mẽ để tạo tài liệu động một cách dễ dàng. Cho dù bạn đang xử lý báo cáo, hóa đơn hay tài liệu được cá nhân hóa, hướng dẫn này sẽ hướng dẫn bạn quy trình tạo tài liệu từ mẫu bằng Aspose.Note for .NET.
 ## Điều kiện tiên quyết
@@ -80,3 +86,9 @@ Có, bạn có thể khám phá các khả năng của Aspose.Note dành cho .NE
  Có, bạn có thể có được giấy phép tạm thời[đây](https://purchase.aspose.com/temporary-license/) nhằm mục đích kiểm tra và đánh giá.
 ### Tôi có thể tìm tài liệu toàn diện về Aspose.Note cho .NET ở đâu?
  Tham khảo đến[tài liệu](https://reference.aspose.com/note/net/) để biết thông tin chuyên sâu về cách sử dụng Aspose.Note cho .NET.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

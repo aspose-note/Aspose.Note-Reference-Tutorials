@@ -3,10 +3,16 @@ title: Tối ưu hóa hiệu suất cho hoạt động xuất trong OneNote - Ja
 linktitle: Tối ưu hóa hiệu suất cho hoạt động xuất trong OneNote - Java
 second_title: API Java Aspose.Note
 description: Tìm hiểu cách tối ưu hóa hiệu suất cho các hoạt động xuất trong OneNote bằng Aspose.Note for Java. Hướng dẫn từng bước để chuyển đổi hiệu quả.
-type: docs
 weight: 11
 url: /vi/java/onenote-performance-optimization/optimize-performance-consequent-export/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Tối ưu hóa hiệu suất cho hoạt động xuất trong OneNote - Java
+
 ## Giới thiệu
 
 OneNote là một công cụ mạnh mẽ để sắp xếp và quản lý ghi chú của bạn, nhưng đôi khi, việc xuất ghi chú của bạn một cách hiệu quả có thể là một thách thức. Trong hướng dẫn này, chúng ta sẽ khám phá cách tối ưu hóa hiệu suất cho các hoạt động xuất trong OneNote bằng Java với sự trợ giúp của Aspose.Note.
@@ -136,3 +142,9 @@ Câu trả lời 4: Có, Aspose.Note for Java hỗ trợ xuất tài liệu OneN
 ### Câu hỏi 5: Tôi có thể tìm hỗ trợ cho Aspose.Note dành cho Java ở đâu?
 
  Câu trả lời 5: Bạn có thể tìm thấy hỗ trợ cho Aspose.Note dành cho Java trên[diễn đàn](https://forum.aspose.com/c/note/28), nơi bạn có thể đặt câu hỏi, chia sẻ ý tưởng và tương tác với cộng đồng và nhóm hỗ trợ.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

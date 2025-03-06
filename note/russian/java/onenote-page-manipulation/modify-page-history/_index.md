@@ -3,10 +3,16 @@ title: Изменить историю страниц в OneNote — Aspose.Note
 linktitle: Изменить историю страниц в OneNote — Aspose.Note
 second_title: Aspose.Note Java API
 description: Легко удаляйте, изменяйте и добавляйте записи истории страниц! Пошаговое руководство и код для освоения OneNote с помощью Aspose.Note. #OneNote #Java #Aspose
-type: docs
 weight: 17
 url: /ru/java/onenote-page-manipulation/modify-page-history/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Изменить историю страниц в OneNote — Aspose.Note
+
 ## Введение
 
 В этом руководстве мы углубимся в использование Aspose.Note для Java для изменения истории страниц в документах OneNote. Aspose.Note — это мощный Java API, который позволяет разработчикам беспрепятственно работать с файлами OneNote, выполняя различные операции, такие как создание, чтение и изменение этих файлов программным способом.
@@ -108,3 +114,10 @@ A2: Aspose.Note для Java поддерживает работу как со с
 ### Вопрос 5: Существует ли форум сообщества Aspose.Note для Java, где я могу обратиться за помощью?
 
  A5: Да, вы можете посетить[Форум Aspose.Note](https://forum.aspose.com/c/note/28) для любой помощи или вопросов, связанных с библиотекой.
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

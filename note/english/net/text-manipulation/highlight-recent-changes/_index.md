@@ -3,10 +3,16 @@ title: Highlight All Recent Changes in Aspose.Note Text
 linktitle: Highlight All Recent Changes in Aspose.Note Text
 second_title: Aspose.Note .NET API
 description: Enhance your Note documents with Aspose.Note for .NET! Learn how to highlight recent changes in text with this step-by-step tutorial. 
-type: docs
 weight: 19
 url: /net/text-manipulation/highlight-recent-changes/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Highlight All Recent Changes in Aspose.Note Text
+
 ## Introduction
 Are you looking to add dynamic and visually appealing features to your Note documents using .NET? Aspose.Note for .NET is a powerful solution that allows you to manipulate and enhance your Note files seamlessly. In this tutorial, we'll dive into one specific aspect: highlighting all recent changes in Aspose.Note text.
 ## Prerequisites
@@ -70,3 +76,10 @@ You can incorporate try-catch blocks to handle exceptions and provide a smooth u
 Absolutely! Aspose.Note provides a wide range of features for text formatting, including font styles, sizes, and more.
 ### Can I integrate this solution into a web application?
 Yes, you can integrate Aspose.Note for .NET into web applications to enhance document processing capabilities.
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -3,10 +3,16 @@ title: Aspose.Note에서 텍스트에 번호 매기기 적용
 linktitle: Aspose.Note에서 텍스트에 번호 매기기 적용
 second_title: Aspose.Note .NET API
 description: 이 포괄적인 튜토리얼을 통해 .NET용 Aspose.Note에서 텍스트 번호 매기기를 적용하는 방법을 알아보세요. 손쉽게 문서 형식을 향상하세요.
-type: docs
 weight: 12
 url: /ko/net/text-manipulation/apply-numbering-on-text/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Aspose.Note에서 텍스트에 번호 매기기 적용
+
 ## 소개
 Aspose.Note for .NET은 C# 애플리케이션의 문서 조작을 위한 강력한 도구를 제공합니다. 이 튜토리얼에서는 Aspose.Note를 사용하여 텍스트에 번호 매기기를 적용하는 과정을 살펴보겠습니다. 문서 형식을 손쉽게 향상하려면 다음 단계별 지침을 따르세요.
 ## 전제조건
@@ -81,3 +87,9 @@ Aspose.Note는 글꼴 스타일, 색상 등을 포함한 광범위한 서식 옵
  틀림없이! 무료 평가판을 탐색할 수 있습니다.[여기](https://releases.aspose.com/).
 ### 5. Aspose.Note에 대한 지원은 어디서 받을 수 있나요?
  도움이나 문의사항이 있으면 다음을 방문하세요.[Aspose.Note 포럼](https://forum.aspose.com/c/note/28).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

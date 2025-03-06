@@ -3,10 +3,16 @@ title: Converti notebook in immagine appiattita in OneNote - Aspose.Note
 linktitle: Converti notebook in immagine appiattita in OneNote - Aspose.Note
 second_title: Aspose.Note API Java
 description: Scopri come convertire un taccuino in un'immagine appiattita in OneNote utilizzando Aspose.Note per Java. Conserva tutti gli elementi in un singolo file immagine senza sforzo.
-type: docs
 weight: 13
 url: /it/java/onenote-notebook-operations/convert-notebook-to-flattened-image/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Converti notebook in immagine appiattita in OneNote - Aspose.Note
+
 ## introduzione
 
 In questo tutorial ti guideremo attraverso il processo di conversione di un notebook in un'immagine appiattita in OneNote utilizzando Aspose.Note per Java. Ciò ti consente di salvare il tuo taccuino come file immagine, assicurando che tutti gli elementi siano conservati in un unico formato immagine.
@@ -108,3 +114,9 @@ A3: Sì, Aspose.Note fornisce ampie opzioni per personalizzare l'immagine di out
 ### Q5: Dove posso trovare supporto per Aspose.Note per Java?
 
  A5: È possibile trovare supporto e risorse sul forum Aspose.Note[Qui](https://forum.aspose.com/c/note/28).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

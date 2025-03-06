@@ -3,10 +3,16 @@ title: Uložit do obrázku ve stupních šedi ve OneNotu – Aspose.Note
 linktitle: Uložit do obrázku ve stupních šedi ve OneNotu – Aspose.Note
 second_title: Aspose.Note Java API
 description: Přečtěte si, jak uložit dokument jako obrázek ve stupních šedi ve OneNotu pomocí Aspose.Note pro Java. Programově snadno manipulujte s dokumenty Microsoft OneNote.
-type: docs
 weight: 17
 url: /cs/java/onenote-document-saving/save-to-grayscale-image/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Uložit do obrázku ve stupních šedi ve OneNotu – Aspose.Note
+
 ## Úvod
 
 V tomto kurzu prozkoumáme, jak uložit dokument jako obrázek ve stupních šedi ve OneNotu pomocí Aspose.Note pro Java. Obrázky ve stupních šedi jsou monochromatické obrázky, kde jsou barevné informace reprezentovány pouze odstíny šedé. Aspose.Note je výkonné Java API, které umožňuje manipulaci s dokumenty Microsoft OneNote programově.
@@ -83,3 +89,9 @@ A4: Rozhodně! Aspose.Note poskytuje širokou škálu funkcí pro programovou ú
 ### Q5: Kde najdu podporu, pokud narazím na problémy?
 
 A5: Podporu najdete na fóru Aspose.Note[tady](https://forum.aspose.com/c/note/28).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

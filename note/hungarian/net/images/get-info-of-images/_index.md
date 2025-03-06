@@ -3,10 +3,16 @@ title: Szerezzen információkat az Aspose.Note képeiről
 linktitle: Szerezzen információkat az Aspose.Note képeiről
 second_title: Aspose.Note .NET API
 description: Ismerje meg, hogyan nyerhet ki képadatokat Microsoft OneNote-fájlokból az Aspose.Note for .NET segítségével. Kövesse lépésről lépésre útmutatónkat a hatékony fejlesztés érdekében.
-type: docs
 weight: 13
 url: /hu/net/images/get-info-of-images/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Szerezzen információkat az Aspose.Note képeiről
+
 ## Bevezetés
 
 A .NET fejlesztés világában az Aspose.Note hatékony eszközkészletet biztosít a Microsoft OneNote fájlokkal való munkavégzéshez. Az egyik gyakori feladat, amellyel a fejlesztők gyakran szembesülnek, hogy információkat nyerjenek ki a jegyzetekbe ágyazott képekből. Legyen szó méretekről, fájlnevekről vagy módosítási időkről, az Aspose.Note leegyszerűsíti ezt a folyamatot.
@@ -98,3 +104,9 @@ Az Aspose.Note for .NET segítségével a képadatok kinyerése a OneNote-dokume
 ### 5. kérdés: Hol találhatok további támogatást vagy segítséget az Aspose.Note-hoz?
 
 5. válasz: Ha kérdése van, vagy segítségre van szüksége, keresse fel az Aspose.Note fórumot[itt](https://forum.aspose.com/c/note/28).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -3,10 +3,16 @@ title: Controletaal voor tekst instellen in OneNote - Aspose.Note
 linktitle: Controletaal voor tekst instellen in OneNote - Aspose.Note
 second_title: Aspose.Note Java-API
 description: Ontgrendel het potentieel van Aspose.Note voor Java! Leer hoe u de taal voor tekstcontrole in OneNote naadloos kunt instellen met onze stapsgewijze handleiding.
-type: docs
 weight: 22
 url: /nl/java/onenote-text-manipulation/set-proofing-language-for-text/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Controletaal voor tekst instellen in OneNote - Aspose.Note
+
 ## Invoering
 In de dynamische wereld van softwareontwikkeling onderscheidt Aspose.Note voor Java zich als een krachtig hulpmiddel voor het programmatisch beheren en manipuleren van OneNote-documenten. Als u uw Java-toepassingen wilt uitbreiden met de mogelijkheid om de proeftaal voor tekst in OneNote in te stellen, bent u hier aan het juiste adres. Deze tutorial begeleidt u stap voor stap door het proces, zodat u elk concept duidelijk begrijpt.
 ## Vereisten
@@ -67,3 +73,9 @@ A: Implementeer mechanismen voor foutafhandeling met behulp van try-catch-blokke
 EEN: Zeker! Zorg ervoor dat de Aspose.Note voor Java-bibliotheek correct is geconfigureerd in uw webproject.
 ### Vraag: Waar kan ik aanvullende voorbeelden en documentatie vinden voor Aspose.Note voor Java?
  A: Ontdek de[documentatie](https://reference.aspose.com/note/java/) voor uitgebreide bronnen.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

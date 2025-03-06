@@ -3,10 +3,16 @@ title: Đang tải Notebook trong OneNote - Aspose.Note
 linktitle: Đang tải Notebook trong OneNote - Aspose.Note
 second_title: API Java Aspose.Note
 description: Làm chủ sổ ghi chép OneNote bằng Java! Tìm hiểu cách tải, khám phá và xử lý nội dung - từ tài liệu đến sổ ghi chép phụ. Các bước dễ dàng và bao gồm mã! #OneNote #Java #Aspose
-type: docs
 weight: 19
 url: /vi/java/onenote-notebook-operations/loading-notebook/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Đang tải Notebook trong OneNote - Aspose.Note
+
 ## Giới thiệu
 
 Chào mừng bạn đến với hướng dẫn của chúng tôi về cách sử dụng Aspose.Note dành cho Java để làm việc với sổ ghi chép OneNote. Aspose.Note là một thư viện Java mạnh mẽ cho phép các nhà phát triển tạo, thao tác và chuyển đổi tài liệu OneNote theo chương trình. Trong hướng dẫn này, chúng tôi sẽ hướng dẫn bạn quy trình tải sổ ghi chép trong OneNote bằng Aspose.Note cho Java.
@@ -98,3 +104,9 @@ Trả lời 3: Có, bạn cần mua giấy phép để sử dụng cho mục đ�
 ### Câu hỏi 5: Tôi có thể xin giấy phép tạm thời cho mục đích thử nghiệm không?
 
  A5: Có, bạn có thể yêu cầu giấy phép tạm thời[đây](https://purchase.aspose.com/temporary-license/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

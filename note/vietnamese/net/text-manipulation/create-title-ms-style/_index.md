@@ -3,10 +3,16 @@ title: Tạo tiêu đề với MS Style trong Aspose.Note
 linktitle: Tạo tiêu đề với MS Style trong Aspose.Note
 second_title: Aspose.Note .NET API
 description: Tìm hiểu cách tạo tiêu đề kiểu Microsoft trong Aspose.Note cho .NET. Nâng cao trình bày tài liệu của bạn với hướng dẫn dễ làm theo này.
-type: docs
 weight: 15
 url: /vi/net/text-manipulation/create-title-ms-style/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Tạo tiêu đề với MS Style trong Aspose.Note
+
 ## Giới thiệu
 Bạn đang tìm cách nâng cao quá trình tạo tài liệu của mình bằng cách thêm tiêu đề kiểu Microsoft bằng Aspose.Note cho .NET? Hướng dẫn toàn diện này sẽ hướng dẫn bạn các bước để tạo tiêu đề theo phong cách MS một cách dễ dàng. Aspose.Note for .NET là một công cụ mạnh mẽ cho phép các nhà phát triển thao tác với tài liệu OneNote theo chương trình.
 ## Điều kiện tiên quyết
@@ -80,3 +86,9 @@ Hoàn toàn có thể, bạn có thể tùy chỉnh trang hơn nữa bằng các
 Sử dụng các cơ chế xử lý ngoại lệ trong C# để nắm bắt và xử lý mọi lỗi tiềm ẩn có thể xảy ra trong quá trình tạo tài liệu.
 ### Tôi có thể tìm thêm ví dụ và tài liệu về Aspose.Note cho .NET ở đâu?
  Tham khảo đến[Aspose.Note dành cho tài liệu .NET](https://reference.aspose.com/note/net/)để biết ví dụ chi tiết và tài liệu toàn diện.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

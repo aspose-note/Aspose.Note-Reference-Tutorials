@@ -3,10 +3,16 @@ title: Extrahera sidinformation med Aspose.Note för .NET
 linktitle: Extrahera sidinformation med Aspose.Note för .NET
 second_title: Aspose.Note .NET API
 description: Lär dig hur du extraherar sidinformation från Microsoft OneNote-filer med Aspose.Note för .NET. Denna omfattande handledning guidar dig genom processen steg för steg.
-type: docs
 weight: 13
 url: /sv/net/note-manipulation/extract-page-information/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Extrahera sidinformation med Aspose.Note för .NET
+
 ## Introduktion
 
 Aspose.Note för .NET är ett kraftfullt bibliotek som låter utvecklare arbeta med Microsoft OneNote-filer programmatiskt. Att extrahera sidinformation från dessa filer kan vara avgörande för olika applikationer, från dataanalys till dokumenthantering. I den här handledningen guidar vi dig genom processen att extrahera sidinformation steg för steg med Aspose.Note för .NET.
@@ -103,3 +109,9 @@ S4: Ja, du kan extrahera, ändra och lägga till bilagor med Aspose.Note för .N
 ### F5: Var kan jag hitta mer support och resurser för Aspose.Note för .NET?
 
  S5: Du kan besöka Aspose.Note for .NET-forumet[här](https://forum.aspose.com/c/note/28) för all hjälp eller frågor du kan ha.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

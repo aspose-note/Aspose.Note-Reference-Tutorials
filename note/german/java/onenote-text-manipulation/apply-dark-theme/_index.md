@@ -3,10 +3,16 @@ title: Wenden Sie in OneNote ein dunkles Design auf Text an – Aspose.Note
 linktitle: Wenden Sie in OneNote ein dunkles Design auf Text an – Aspose.Note
 second_title: Aspose.Note Java API
 description: Entdecken Sie die einfachen Schritte, um mit Aspose.Note für Java ein dunkles Design auf Ihren OneNote-Text anzuwenden. Verbessern Sie mühelos Ihr digitales Dokumentationserlebnis.
-type: docs
 weight: 11
 url: /de/java/onenote-text-manipulation/apply-dark-theme/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Wenden Sie in OneNote ein dunkles Design auf Text an – Aspose.Note
+
 ## Einführung
 In der sich ständig weiterentwickelnden Landschaft der digitalen Dokumentation kann die Ästhetik Ihrer Notizen die Lesbarkeit und das Benutzererlebnis erheblich beeinflussen. Ein bemerkenswerter Aspekt ist die Implementierung eines dunklen Themas, das für eine optisch ansprechende und komfortable Umgebung sorgt. In diesem Tutorial führen wir Sie durch den Prozess der Anwendung eines dunklen Themas auf Text in OneNote mit Aspose.Note für Java.
 ## Voraussetzungen
@@ -62,3 +68,9 @@ Ja, Aspose.Note für Java unterstützt verschiedene Dokumentformate, darunter PD
  Ja, Sie können auf die kostenlose Testversion zugreifen[Hier](https://releases.aspose.com/).
 ### Wie erhalte ich Unterstützung für Aspose.Note für Java?
  Besuche den[Aspose.Note-Forum](https://forum.aspose.com/c/note/28) für Community-Support oder erkunden Sie Premium-Supportoptionen[Hier](https://purchase.aspose.com/temporary-license/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

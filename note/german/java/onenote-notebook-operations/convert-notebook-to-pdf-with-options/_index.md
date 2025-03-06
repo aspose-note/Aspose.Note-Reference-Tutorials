@@ -3,10 +3,16 @@ title: Konvertieren Sie ein Notizbuch in PDF mit den Optionen in OneNote – Asp
 linktitle: Konvertieren Sie ein Notizbuch in PDF mit den Optionen in OneNote – Aspose.Note
 second_title: Aspose.Note Java API
 description: Passen Sie OneNote-Notizbücher ganz einfach an und exportieren Sie sie in PDF! Aspose.Note für Java übernimmt die schwere Arbeit. Schritt-für-Schritt-Anleitung inklusive! #OneNote #Java #Aspose
-type: docs
 weight: 17
 url: /de/java/onenote-notebook-operations/convert-notebook-to-pdf-with-options/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Konvertieren Sie ein Notizbuch in PDF mit den Optionen in OneNote – Aspose.Note
+
 ## Einführung
 
 In diesem Tutorial tauchen wir in die Welt der Konvertierung von Notizbüchern in PDF mit anpassbaren Optionen mithilfe von Aspose.Note für Java ein. Aspose.Note ist eine leistungsstarke Java-API, die es Entwicklern ermöglicht, Microsoft OneNote-Dokumente programmgesteuert zu bearbeiten. Das Konvertieren von Notizbüchern in das PDF-Format ist eine häufige Anforderung in verschiedenen Anwendungen, und mit Aspose.Note wird diese Aufgabe rationalisiert und effizient.
@@ -90,3 +96,9 @@ A2: Aspose.Note unterstützt Microsoft OneNote 2010 und spätere Versionen.
 ### F5: Wie kann ich Unterstützung für Aspose.Note erhalten?
 
  A5: Für technische Unterstützung oder Fragen können Sie das Aspose.Note-Supportforum besuchen[Hier](https://forum.aspose.com/c/note/28).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -3,10 +3,16 @@ title: Számozás alkalmazása a szövegen az Aspose.Note-ban
 linktitle: Számozás alkalmazása a szövegen az Aspose.Note-ban
 second_title: Aspose.Note .NET API
 description: Ezzel az átfogó oktatóanyaggal megtudhatja, hogyan alkalmazhat szövegszámozást az Aspose.Note for .NET-ben. Fokozza a dokumentum formázását erőfeszítés nélkül.
-type: docs
 weight: 12
 url: /hu/net/text-manipulation/apply-numbering-on-text/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Számozás alkalmazása a szövegen az Aspose.Note-ban
+
 ## Bevezetés
 Az Aspose.Note for .NET hatékony eszközöket biztosít a C# alkalmazások dokumentumkezeléséhez. Ebben az oktatóanyagban az Aspose.Note segítségével a számozás alkalmazásának folyamatát vizsgáljuk meg. Kövesse ezeket a lépésenkénti utasításokat, hogy könnyedén javítsa dokumentumformázását.
 ## Előfeltételek
@@ -81,3 +87,9 @@ Teljesen! Az Aspose.Note zökkenőmentesen integrálható a Visual Studióval a 
  Biztosan! Megtekintheti az ingyenes próbaverziót[itt](https://releases.aspose.com/).
 ### 5. Hol kaphatok támogatást az Aspose.Note-hoz?
  Bármilyen segítségre vagy kérdésre keresse fel a[Aspose.Note fórum](https://forum.aspose.com/c/note/28).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

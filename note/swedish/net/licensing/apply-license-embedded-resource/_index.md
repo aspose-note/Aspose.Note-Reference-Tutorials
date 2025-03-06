@@ -3,10 +3,16 @@ title: Använd Aspose.Note-licens från Embedded Resource
 linktitle: Använd Aspose.Note-licens från Embedded Resource
 second_title: Aspose.Note .NET API
 description: Lär dig hur du ansöker Aspose.Note-licens från en inbäddad resurs i din .NET-applikation. Följ vår steg-för-steg-guide för sömlös integration.
-type: docs
 weight: 10
 url: /sv/net/licensing/apply-license-embedded-resource/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Använd Aspose.Note-licens från Embedded Resource
+
 ## Introduktion
 
 Aspose.Note för .NET är ett kraftfullt API som låter utvecklare arbeta med Microsoft OneNote-filer programmatiskt. Oavsett om du vill skapa, modifiera eller konvertera OneNote-dokument, erbjuder Aspose.Note en omfattande uppsättning funktioner för att möta dina behov. I den här handledningen går vi igenom processen för att tillämpa en Aspose.Note-licens från en inbäddad resurs i din .NET-applikation.
@@ -86,3 +92,9 @@ S1: Nej, du behöver en giltig licens för att använda Aspose.Note för .NET. D
 ### F5: Var kan jag köpa Aspose.Note-licenser?
 
  S5: Du kan köpa Aspose.Note-licenser[här](https://purchase.aspose.com/buy).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

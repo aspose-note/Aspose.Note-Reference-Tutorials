@@ -3,10 +3,16 @@ title: Thay đổi kiểu văn bản trong OneNote - Aspose.Note
 linktitle: Thay đổi kiểu văn bản trong OneNote - Aspose.Note
 second_title: API Java Aspose.Note
 description: In đậm, đánh dấu và thay đổi kích thước! Tìm hiểu cách định dạng văn bản trong tài liệu OneNote bằng Aspose.Note. Bao gồm hướng dẫn từng bước và mã! #OneNote #Java #Aspose
-type: docs
 weight: 10
 url: /vi/java/onenote-styles/change-text-style/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Thay đổi kiểu văn bản trong OneNote - Aspose.Note
+
 ## Giới thiệu
 
 Chào mừng bạn đến với hướng dẫn của chúng tôi về cách thay đổi kiểu văn bản trong OneNote bằng Aspose.Note for Java! Trong hướng dẫn này, chúng tôi sẽ hướng dẫn bạn từng bước thực hiện quy trình, cho phép bạn dễ dàng thao tác các kiểu văn bản trong tài liệu OneNote của mình. Cho dù bạn đang muốn thay đổi màu phông chữ, đánh dấu văn bản hay điều chỉnh kích thước phông chữ, Aspose.Note đều cung cấp giải pháp toàn diện để đáp ứng nhu cầu của bạn.
@@ -104,3 +110,9 @@ Câu trả lời 4: Có, Aspose.Note có thể được sử dụng cho cả m�
 ### Câu hỏi 5: Tôi có thể tìm thêm tài nguyên và hỗ trợ cho Aspose.Note ở đâu?
 
 Câu trả lời 5: Bạn có thể khám phá tài liệu Aspose.Note, tải xuống thư viện, truy cập các bản dùng thử miễn phí và tìm kiếm sự hỗ trợ trên diễn đàn Aspose.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

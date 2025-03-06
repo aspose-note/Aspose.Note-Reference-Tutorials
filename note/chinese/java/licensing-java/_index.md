@@ -3,10 +3,16 @@ title: Aspose.Note Java 许可
 linktitle: Aspose.Note Java 许可
 second_title: Aspose.Note Java API
 description: 探索使用 Aspose.Note 在 Java 中管理 OneNote 计量许可证的艺术。有效控制使用量、监控信用并优化成本。
-type: docs
 weight: 24
 url: /zh/java/licensing-java/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Aspose.Note Java 许可
+
 ## 介绍
 
 您准备好踏上 Aspose.Note for Java 世界之旅了吗？在本综合指南中，我们将深入研究管理 Java 中 OneNote 计量许可证的复杂性。让我们使用 Aspose.Note 探索许可领域，揭开谜团并为您提供有效运用它的知识。
@@ -40,3 +46,9 @@ url: /zh/java/licensing-java/
 ## Aspose.Note Java 许可教程
 ### [管理 Java 中 OneNote 的计量许可证](./manage-metered-license/)
 了解如何使用 Aspose.Note 库管理 Java 中 OneNote 的计量许可证。有效控制使用情况、监控信用并优化成本。
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

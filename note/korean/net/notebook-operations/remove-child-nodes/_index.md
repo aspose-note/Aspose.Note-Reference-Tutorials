@@ -3,10 +3,16 @@ title: Aspose Note .NET에서 하위 노드 제거
 linktitle: Aspose Note .NET에서 하위 노드 제거
 second_title: Aspose.Note .NET API
 description: .NET용 Aspose.Note에서 하위 노드를 손쉽게 제거하는 방법을 알아보세요. 이 단계별 가이드를 통해 OneNote 파일 관리를 단순화하세요.
-type: docs
 weight: 24
 url: /ko/net/notebook-operations/remove-child-nodes/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Aspose Note .NET에서 하위 노드 제거
+
 ## 소개
 
 이 튜토리얼에서는 .NET용 Aspose.Note를 사용하여 하위 노드를 효율적으로 제거하는 방법을 살펴보겠습니다. Aspose.Note는 개발자가 Microsoft OneNote 파일을 프로그래밍 방식으로 작업할 수 있는 강력한 라이브러리입니다. 노트북, 섹션 또는 개별 페이지를 관리하든 Aspose.Note는 직관적인 API를 통해 프로세스를 단순화합니다. 여기서는 특히 노트북에서 하위 노드를 제거하는 방법에 중점을 둘 것입니다.
@@ -92,3 +98,9 @@ A4: 물론이죠! Aspose.Note는 OneNote 파일 내에서 페이지 콘텐츠를
 ### Q5: Aspose.Note에 대한 추가 지원은 어디서 찾을 수 있나요?
 
  A5: 추가 지원이나 문의 사항이 있는 경우[Aspose.Note 포럼](https://forum.aspose.com/c/note/28) 전문가와 동료 개발자가 도움을 드릴 수 있는 곳입니다.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

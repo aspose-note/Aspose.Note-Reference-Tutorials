@@ -3,10 +3,16 @@ title: Aspose.Note を使用してロックされた列を含むテーブルを�
 linktitle: Aspose.Note を使用してロックされた列を含むテーブルを作成する
 second_title: Aspose.Note .NET API
 description: Aspose.Note for .NET を使用して、ロックされた列を含むテーブルを作成する方法を学びます。効率的な文書処理タスクのためのステップバイステップのガイド。
-type: docs
 weight: 12
 url: /ja/net/table-manipulation/create-table-locked-columns/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Aspose.Note を使用してロックされた列を含むテーブルを作成する
+
 ## 導入
 
 ロックされた列を含むテーブルを作成することは、ドキュメント処理アプリケーションでは一般的な要件です。 Aspose.Note for .NET は、このタスクを効率的に実行するための強力なツールを提供します。このチュートリアルでは、Aspose.Note for .NET を使用して、ロックされた列を含むテーブルを作成するプロセスを段階的に説明します。
@@ -147,3 +153,9 @@ A4: はい、テクニカル サポートにアクセスできます。[Aspose.N
 ### Q5: 購入する前に Aspose.Note for .NET を試すことはできますか?
 
  A5: はい、Aspose.Note for .NET の無料試用版を次のサイトからダウンロードできます。[ここ](https://releases.aspose.com/)その機能と要件との互換性を評価します。
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

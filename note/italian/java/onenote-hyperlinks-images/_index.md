@@ -3,10 +3,16 @@ title: Collegamenti ipertestuali e immagini di OneNote
 linktitle: Collegamenti ipertestuali e immagini di OneNote
 second_title: Aspose.Note API Java
 description: Migliora la tua esperienza con OneNote con i tutorial Aspose.Note per Java. Impara ad aggiungere collegamenti ipertestuali, inserire immagini ed estrarre informazioni sulle immagini senza problemi con lo sviluppo Java.
-type: docs
 weight: 22
 url: /it/java/onenote-hyperlinks-images/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Collegamenti ipertestuali e immagini di OneNote
+
 
 ## introduzione
 
@@ -48,3 +54,9 @@ Scopri come estrarre immagini da documenti OneNote utilizzando Java con la libre
 Scopri come estrarre informazioni sull'immagine dai documenti OneNote utilizzando Java con Aspose.Note. Semplici passaggi per gli sviluppatori.
 ### [Inserisci un'immagine nel documento OneNote con Java](./insert-image/)
 Scopri come inserire immagini nei documenti OneNote utilizzando Java con la libreria Aspose.Note per Java. Segui la nostra guida passo passo per un'integrazione perfetta.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -3,10 +3,16 @@ title: Χειρισμός κειμένου στο OneNote με Aspose.Note γι�
 linktitle: Χειρισμός κειμένου
 second_title: Aspose.Note .NET API
 description: Μεταμορφώστε τα έγγραφά σας στο OneNote με το Aspose.Note για .NET! Μάθετε τεχνικές χειρισμού κειμένου, από την εφαρμογή κουκκίδων και την αρίθμηση έως την αλλαγή στυλ.
-type: docs
 weight: 31
 url: /el/net/text-manipulation/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Χειρισμός κειμένου στο OneNote με Aspose.Note για .NET
+
 
 ## Εισαγωγή
 
@@ -110,3 +116,9 @@ url: /el/net/text-manipulation/
 Εξερευνήστε τη δύναμη του Aspose.Note για .NET με τον αναλυτικό οδηγό μας για τον ορισμό προεπιλεγμένων στυλ παραγράφων. Αναβαθμίστε τις δεξιότητες χειρισμού εγγράφων σας χωρίς κόπο.
 ### [Ορίστε τη γλώσσα διόρθωσης για κείμενο στο Aspose.Note](./set-proofing-language-text/)
 Ξεκλειδώστε τον ισχυρό χειρισμό κειμένου με το Aspose.Note για .NET. Ρυθμίστε τη γλώσσα διόρθωσης χωρίς κόπο με καθοδήγηση βήμα προς βήμα. Βελτιώστε τα έργα σας .NET τώρα!
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

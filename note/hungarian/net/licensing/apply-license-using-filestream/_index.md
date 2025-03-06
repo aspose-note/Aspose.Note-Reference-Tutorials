@@ -3,10 +3,16 @@ title: Alkalmazza az Aspose.Note licencet a FileStream segítségével
 linktitle: Alkalmazza az Aspose.Note licencet a FileStream segítségével
 second_title: Aspose.Note .NET API
 description: Ismerje meg, hogyan alkalmazhat Aspose.Note licencet a FileStream használatával a .NET-alkalmazásaiban a zökkenőmentes integráció érdekében.
-type: docs
 weight: 12
 url: /hu/net/licensing/apply-license-using-filestream/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Alkalmazza az Aspose.Note licencet a FileStream segítségével
+
 ## Bevezetés
 
 Az Aspose.Note for .NET egy hatékony API, amely lehetővé teszi a fejlesztők számára, hogy programozottan dolgozzanak Microsoft OneNote fájlokkal. Akár OneNote-dokumentumokat kell létrehoznia, olvasnia, módosítania vagy konvertálnia, az Aspose.Note for .NET átfogó szolgáltatásokat nyújt a munkafolyamat egyszerűsítéséhez. Ebben az oktatóanyagban megvizsgáljuk, hogyan lehet Aspose.Note licencet alkalmazni a FileStream használatával, biztosítva, hogy az alkalmazás megfelelő licenccel rendelkezzen éles használatra.
@@ -85,3 +91,9 @@ Ebben az oktatóanyagban megtanultuk, hogyan kell Aspose.Note licencet alkalmazn
 ### 5. kérdés: Kínál ideiglenes licenceket?
 
  5. válasz: Igen, rendelkezésre állnak ideiglenes licencek[itt](https://purchase.aspose.com/temporary-license/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

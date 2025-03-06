@@ -3,10 +3,16 @@ title: 從 Aspose Note .NET 中的串流載入筆記本
 linktitle: 從 Aspose Note .NET 中的串流載入筆記本
 second_title: Aspose.Note .NET API
 description: 了解如何從 Aspose.Note for .NET 中的串流載入筆記本。請按照此逐步指南無縫整合到您的 .NET 應用程式中。
-type: docs
 weight: 19
 url: /zh-hant/net/notebook-operations/load-notebooks-from-stream/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# 從 Aspose Note .NET 中的串流載入筆記本
+
 ## 介紹
 
 在本教學中，我們將探討如何使用 Aspose.Note for .NET 從串流中載入筆記本。 Aspose.Note 是一個功能強大的函式庫，使開發人員能夠以程式設計方式處理 Microsoft OneNote 檔案。在 .NET 應用程式中處理文件輸入/輸出操作時，從流載入筆記本是一項常見任務。
@@ -92,3 +98,9 @@ A1：是的，Aspose.Note for .NET 支援各種版本的 OneNote 文件，包括
 ### Q5：是否可以選擇臨時許可？
 
  A5：是的，您可以從以下機構獲得臨時許可證：[這裡](https://purchase.aspose.com/temporary-license/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

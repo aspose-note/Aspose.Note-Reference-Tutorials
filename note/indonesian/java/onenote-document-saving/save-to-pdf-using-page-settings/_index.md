@@ -3,10 +3,16 @@ title: Simpan ke PDF Menggunakan Pengaturan Halaman di OneNote - Aspose.Note
 linktitle: Simpan ke PDF Menggunakan Pengaturan Halaman di OneNote - Aspose.Note
 second_title: Aspose.Catatan Java API
 description: Pelajari cara menyimpan dokumen OneNote ke PDF di Java menggunakan perpustakaan Aspose.Note. Panduan langkah demi langkah dengan contoh kode untuk berbagai pengaturan halaman.
-type: docs
 weight: 19
 url: /id/java/onenote-document-saving/save-to-pdf-using-page-settings/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Simpan ke PDF Menggunakan Pengaturan Halaman di OneNote - Aspose.Note
+
 ## Perkenalan
 
 Dalam tutorial ini, kita akan mempelajari cara menyimpan dokumen OneNote ke format PDF menggunakan pengaturan halaman berbeda dengan Aspose.Note untuk Java. Kami akan membahas dua metode: menyimpan dengan pengaturan halaman Letter dan menyimpan dengan pengaturan halaman A4 tanpa batas ketinggian.
@@ -112,3 +118,9 @@ A4: Ya, Anda dapat memproses beberapa file OneNote secara batch menggunakan Aspo
 ### Q5: Apakah ada versi uji coba yang tersedia untuk tujuan pengujian?
 
 A5: Ya, Anda bisa mendapatkan uji coba gratis Aspose.Note untuk Java dari situs web.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

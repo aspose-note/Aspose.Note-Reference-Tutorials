@@ -3,10 +3,16 @@ title: Aspose.Note でドキュメントを OneNote 形式で保存する
 linktitle: Aspose.Note でドキュメントを OneNote 形式で保存する
 second_title: Aspose.Note .NET API
 description: Aspose.Note を使用して、OneNote ドキュメントをプログラムで .NET に保存する方法を学習します。コード例を含むステップバイステップのチュートリアル。
-type: docs
 weight: 20
 url: /ja/net/loading-and-saving-operations/save-doc-to-onenote-format/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Aspose.Note でドキュメントを OneNote 形式で保存する
+
 ## 導入
 
 .NET 開発の分野では、Aspose.Note は、OneNote ドキュメントをプログラムで管理および操作するための強力なツールとして際立っています。直感的な API と包括的な機能セットにより、開発者はアプリケーション内で OneNote ファイルに関連するさまざまなタスクを簡単に処理できます。このチュートリアルでは、Aspose.Note for .NET を使用してドキュメントを OneNote 形式で保存するプロセスを詳しく説明し、明確さと理解を確実にするために各ステップに分けて説明します。
@@ -87,3 +93,9 @@ A: もちろん、Aspose.Note には、スタイル、書式設定、レイア�
 ### Q5: Aspose.Note ユーザーが利用できるコミュニティ フォーラムやサポート チャネルはありますか?
 
  A: はい。Aspose は、Aspose.Note ユーザーが支援を求めたり、知識を共有したり、コミュニティに参加したりできる専用のフォーラムを提供しています。訪問[Aspose.Note フォーラム](https://forum.aspose.com/c/note/28)サポートのための。
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

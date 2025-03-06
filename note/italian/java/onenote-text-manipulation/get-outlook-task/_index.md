@@ -3,10 +3,16 @@ title: Ottieni attività di Outlook in OneNote - Aspose.Note
 linktitle: Ottieni attività di Outlook in OneNote - Aspose.Note
 second_title: Aspose.Note API Java
 description: Esplora il potenziale di Aspose.Note per Java nell'estrazione dei dettagli delle attività di Outlook dai documenti OneNote senza sforzo. Migliora il tuo sviluppo Java con questa solida libreria.
-type: docs
 weight: 10
 url: /it/java/onenote-text-manipulation/get-outlook-task/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Ottieni attività di Outlook in OneNote - Aspose.Note
+
 ## introduzione
 Benvenuti nel mondo di Aspose.Note per Java, un potente strumento che consente agli sviluppatori Java di lavorare senza problemi con i file Microsoft OneNote. In questa guida passo passo ti guideremo attraverso il processo di estrazione delle informazioni sulle attività di Outlook da un documento OneNote utilizzando Aspose.Note per Java.
 ## Prerequisiti
@@ -72,3 +78,9 @@ R: Sì, Aspose.Note per Java è compatibile con vari framework Java, fornendo fl
  R: Fare riferimento a[Aspose.Note per la documentazione Java](https://reference.aspose.com/note/java/) per informazioni approfondite.
 ### D: Come posso ottenere una licenza temporanea per Aspose.Note per Java?
  R: Ottieni la tua licenza temporanea[Qui](https://purchase.aspose.com/temporary-license/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

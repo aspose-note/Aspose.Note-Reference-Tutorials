@@ -3,10 +3,16 @@ title: Đặt tiêu đề trang theo kiểu Microsoft OneNote - Aspose.Note
 linktitle: Đặt tiêu đề trang theo kiểu Microsoft OneNote - Aspose.Note
 second_title: API Java Aspose.Note
 description: Tìm hiểu cách đặt tiêu đề trang theo kiểu Microsoft OneNote bằng Aspose.Note for Java. Nâng cao tài liệu Java của bạn bằng định dạng chuyên nghiệp.
-type: docs
 weight: 23
 url: /vi/java/onenote-text-manipulation/setting-page-title-in-microsoft-onenote-style/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Đặt tiêu đề trang theo kiểu Microsoft OneNote - Aspose.Note
+
 ## Giới thiệu
 Trong thế giới năng động của phát triển Java, việc tạo ra các tài liệu có cấu trúc và hấp dẫn trực quan là rất quan trọng. Nếu bạn đang tìm cách nâng cao ứng dụng Java của mình bằng tiêu đề trang kiểu Microsoft OneNote thì Aspose.Note for Java là giải pháp phù hợp cho bạn. Trong hướng dẫn toàn diện này, chúng tôi sẽ hướng dẫn bạn quy trình đặt tiêu đề trang theo kiểu OneNote bằng Aspose.Note, đảm bảo tài liệu của bạn nổi bật với nét chuyên nghiệp.
 ## Điều kiện tiên quyết
@@ -72,3 +78,9 @@ Aspose.Note được thiết kế để hoạt động liền mạch với các 
  Tìm kiếm sự trợ giúp từ cộng đồng Aspose.Note tại[Diễn đàn Aspose.Note](https://forum.aspose.com/c/note/28).
 ### Có sẵn phiên bản dùng thử không?
  Có, bạn có thể khám phá các khả năng của Aspose.Note với bản dùng thử miễn phí từ[đây](https://releases.aspose.com/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

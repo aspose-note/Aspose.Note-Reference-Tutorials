@@ -3,10 +3,16 @@ title: Hozzon létre dokumentumot gyökér- és aloldalakkal a OneNote-ban
 linktitle: Hozzon létre dokumentumot gyökér- és aloldalakkal a OneNote-ban
 second_title: Aspose.Note Java API
 description: Hozzon létre gyökér- és aloldalakat tartalmazó dokumentumot a OneNote-ban az Aspose.Note for Java segítségével. Kövesse a lépésenkénti útmutatót a jegyzetek hatékony rendszerezéséhez.
-type: docs
 weight: 11
 url: /hu/java/onenote-page-manipulation/create-document-with-root-and-sub-pages/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Hozzon létre dokumentumot gyökér- és aloldalakkal a OneNote-ban
+
 ## Bevezetés
 
 Ebben az oktatóanyagban végigvezetjük a gyökér- és aloldalakat tartalmazó dokumentum létrehozásának folyamatán a OneNote-ban az Aspose.Note for Java használatával. Ha követi ezeket a lépéseket, hatékonyan szervezheti a OneNote-dokumentumokat hierarchikus szerkezettel.
@@ -169,3 +175,9 @@ A OneNote-dokumentumok hierarchikus felépítésű rendszerezése elengedhetetle
 ### 5. kérdés: Elérhető az Aspose.Note for Java próbaverziója?
 
 5. válasz: Igen, letöltheti az Aspose.Note for Java ingyenes próbaverzióját a webhelyről.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

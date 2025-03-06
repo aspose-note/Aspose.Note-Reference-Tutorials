@@ -3,10 +3,16 @@ title: Opslaan als PDF in Aspose.Note
 linktitle: Opslaan als PDF in Aspose.Note
 second_title: Aspose.Note .NET API
 description: Leer hoe u Microsoft OneNote-documenten in PDF-indeling kunt opslaan met Aspose.Note voor .NET. Stapsgewijze zelfstudie met codevoorbeelden voor Letter- en A4-paginalay-outs.
-type: docs
 weight: 26
 url: /nl/net/loading-and-saving-operations/save-to-pdf/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Opslaan als PDF in Aspose.Note
+
 ## Invoering
 
 In deze zelfstudie onderzoeken we hoe u documenten in PDF-indeling kunt opslaan met Aspose.Note voor .NET. Aspose.Note is een krachtige bibliotheek waarmee ontwikkelaars programmatisch met Microsoft OneNote-bestanden kunnen werken. We bespreken de vereisten, importeren naamruimten en bieden stapsgewijze handleidingen voor het opslaan van documenten in PDF in verschillende paginalay-outs.
@@ -110,3 +116,9 @@ A1: Ja, Aspose.Note ondersteunt verschillende functies en functionaliteiten om c
 ### Vraag 5: Heeft u verdere hulp nodig?
 
  A5: Stel gerust vragen of zoek ondersteuning op het Aspose.Note-forum[hier](https://forum.aspose.com/c/note/28).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

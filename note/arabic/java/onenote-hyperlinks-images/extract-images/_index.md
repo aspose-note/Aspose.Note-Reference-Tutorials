@@ -3,10 +3,16 @@ title: استخراج الصور من مستند OneNote باستخدام Java
 linktitle: استخراج الصور من مستند OneNote باستخدام Java
 second_title: Aspose.Note جافا API
 description: تعرف على كيفية استخراج الصور من مستندات OneNote باستخدام Java مع مكتبة Aspose.Note. اتبع دليلنا خطوة بخطوة لاستخراج الصور بسلاسة.
-type: docs
 weight: 14
 url: /ar/java/onenote-hyperlinks-images/extract-images/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# استخراج الصور من مستند OneNote باستخدام Java
+
 ## مقدمة
 
 في هذا البرنامج التعليمي، سنرشدك خلال عملية استخراج الصور من مستند OneNote باستخدام Java بمساعدة مكتبة Aspose.Note.
@@ -89,3 +95,9 @@ for (int i = 0; i < list.size(); i++) {
 ### س5: هل يدعم Aspose.Note استخراج أنواع أخرى من المحتوى بخلاف الصور؟
 
 ج5: نعم، إلى جانب الصور، يسمح Aspose.Note باستخراج النص والمرفقات وأنواع المحتوى الأخرى من مستندات OneNote.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

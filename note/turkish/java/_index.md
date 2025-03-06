@@ -1,12 +1,17 @@
 ---
 title: Kapsamlı Eğitimler ve Java için Aspose.Note Örnekleri
 linktitle: Java Eğitimleri için Aspose.Note
-type: docs
 weight: 10
 url: /tr/java/
 description: Aspose.Note for Java'ya yönelik kapsamlı eğitimleri ve örnekleri keşfedin. Java entegrasyonuyla ilgili adım adım kılavuzlarla OneNote deneyiminizi geliştirin.
-is_root: true
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Kapsamlı Eğitimler ve Java için Aspose.Note Örnekleri
+
 
 ## giriiş
 
@@ -91,3 +96,9 @@ Aspose.Note for Java'nın gücünü keşfedin. Etiket işlemleri, resimler, tabl
 OneNote metin işlemeyle ilgili Aspose.Note Java eğitimlerini keşfedin. Metin çıkarma, tema uygulama, liste oluşturma ve daha fazlası gibi görevler için etkili yöntemleri keşfedin. 
 ### [Görev ve Outlook Entegrasyonu](./task-and-outlook-integration/)
 Outlook görevlerini OneNote'a entegre etmeye yönelik eğitimlerimizle Aspose.Note Java'nın potansiyelini ortaya çıkarın. Eğiticilerimizle belge işleme becerilerinizi geliştirin.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

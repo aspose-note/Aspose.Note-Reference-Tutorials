@@ -3,10 +3,16 @@ title: กำลังโหลดสมุดบันทึกใน OneNote -
 linktitle: กำลังโหลดสมุดบันทึกใน OneNote - Aspose.Note
 second_title: Aspose.Note Java API
 description: เชี่ยวชาญสมุดบันทึก OneNote ใน Java! เรียนรู้การโหลด สำรวจ และประมวลผลเนื้อหา ตั้งแต่เอกสารไปจนถึงสมุดบันทึกย่อย รวมขั้นตอนและโค้ดง่ายๆ! #OneNote #Java #Aspose
-type: docs
 weight: 19
 url: /th/java/onenote-notebook-operations/loading-notebook/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# กำลังโหลดสมุดบันทึกใน OneNote - Aspose.Note
+
 ## การแนะนำ
 
 ยินดีต้อนรับสู่บทช่วยสอนของเราเกี่ยวกับการใช้ Aspose.Note สำหรับ Java เพื่อทำงานกับสมุดบันทึก OneNote Aspose.Note เป็นไลบรารี Java ที่ทรงพลังซึ่งช่วยให้นักพัฒนาสามารถสร้าง จัดการ และแปลงเอกสาร OneNote โดยทางโปรแกรม ในบทช่วยสอนนี้ เราจะแนะนำคุณตลอดกระบวนการโหลดสมุดบันทึกใน OneNote โดยใช้ Aspose.Note for Java
@@ -98,3 +104,9 @@ A3: ใช่ คุณต้องซื้อใบอนุญาตเพื
 ### คำถามที่ 5: ฉันสามารถขอรับใบอนุญาตชั่วคราวเพื่อการทดสอบได้หรือไม่
 
  A5: ได้ คุณสามารถขอใบอนุญาตชั่วคราวได้[ที่นี่](https://purchase.aspose.com/temporary-license/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

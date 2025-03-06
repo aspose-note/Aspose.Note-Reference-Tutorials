@@ -3,10 +3,16 @@ title: โหลดโน้ตบุ๊กจากสตรีมใน Aspose
 linktitle: โหลดโน้ตบุ๊กจากสตรีมใน Aspose Note .NET
 second_title: Aspose.Note .NET API
 description: เรียนรู้วิธีโหลดสมุดบันทึกจากสตรีมใน Aspose.Note สำหรับ .NET ปฏิบัติตามคำแนะนำทีละขั้นตอนนี้เพื่อการผสานรวมเข้ากับแอปพลิเคชัน .NET ของคุณได้อย่างราบรื่น
-type: docs
 weight: 19
 url: /th/net/notebook-operations/load-notebooks-from-stream/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# โหลดโน้ตบุ๊กจากสตรีมใน Aspose Note .NET
+
 ## การแนะนำ
 
 ในบทช่วยสอนนี้ เราจะสำรวจวิธีการโหลดสมุดบันทึกจากสตรีมโดยใช้ Aspose.Note สำหรับ .NET Aspose.Note เป็นไลบรารีอันทรงพลังที่ช่วยให้นักพัฒนาสามารถทำงานกับไฟล์ Microsoft OneNote โดยทางโปรแกรม การโหลดโน้ตบุ๊กจากสตรีมเป็นงานทั่วไปเมื่อต้องจัดการกับการดำเนินการอินพุต/เอาต์พุตไฟล์ในแอปพลิเคชัน .NET
@@ -92,3 +98,9 @@ notebook.LoadChildDocument(dataDir + "Sample1.one");
 ### คำถามที่ 5: มีตัวเลือกสำหรับการอนุญาตให้ใช้สิทธิ์ชั่วคราวหรือไม่
 
  A5: ได้ คุณสามารถขอรับใบอนุญาตชั่วคราวได้จาก[ที่นี่](https://purchase.aspose.com/temporary-license/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

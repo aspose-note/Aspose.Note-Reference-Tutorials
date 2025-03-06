@@ -3,10 +3,16 @@ title: Buat Daftar Bernomor Bahasa Mandarin di OneNote - Aspose.Note
 linktitle: Buat Daftar Bernomor Bahasa Mandarin di OneNote - Aspose.Note
 second_title: Aspose.Catatan Java API
 description: Tingkatkan pembuatan dokumen di Java dengan Aspose.Note. Pelajari cara membuat daftar bernomor berbahasa Mandarin di OneNote langkah demi langkah. Jelajahi fitur-fitur canggih Aspose.Note.
-type: docs
 weight: 13
 url: /id/java/onenote-text-manipulation/create-chinese-numbered-list/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Buat Daftar Bernomor Bahasa Mandarin di OneNote - Aspose.Note
+
 ## Perkenalan
 Jika Anda ingin meningkatkan kemampuan pembuatan dokumen di Java, Aspose.Note adalah solusi tepat Anda. Dalam tutorial ini, kami akan memandu Anda melalui proses pembuatan daftar bernomor berbahasa Mandarin di OneNote menggunakan Aspose.Note untuk Java. Pustaka canggih ini memungkinkan Anda memanipulasi dokumen OneNote secara terprogram, memberi Anda kendali penuh atas struktur dan kontennya.
 ## Prasyarat
@@ -109,3 +115,9 @@ Sangat. Seperti yang ditunjukkan dalam tutorial, Anda dapat menyesuaikan font, w
  Lihat dokumentasi[Di Sini](https://reference.aspose.com/note/java/).
 ### Bagaimana saya bisa mendapatkan dukungan untuk Aspose.Note?
  Kunjungi forum dukungan[Di Sini](https://forum.aspose.com/c/note/28) untuk bantuan atau pertanyaan apa pun.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

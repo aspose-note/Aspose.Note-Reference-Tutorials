@@ -3,10 +3,16 @@ title: Προσθήκη νέου κόμβου εικόνας με ετικέτα
 linktitle: Προσθήκη νέου κόμβου εικόνας με ετικέτα στο OneNote - Aspose.Note
 second_title: Aspose.Note Java API
 description: Μάθετε πώς μπορείτε να προσθέσετε έναν νέο κόμβο εικόνας με μια ετικέτα στο OneNote χρησιμοποιώντας το Aspose.Note για Java. Αναβαθμίστε τις δεξιότητές σας στον προγραμματισμό Java χωρίς κόπο.
-type: docs
 weight: 10
 url: /el/java/onenote-tag-operations/add-new-image-node-with-tag/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Προσθήκη νέου κόμβου εικόνας με ετικέτα στο OneNote - Aspose.Note
+
 ## Εισαγωγή
 Στον τομέα του προγραμματισμού Java, το Aspose.Note ξεχωρίζει ως ένα ισχυρό εργαλείο για τον εύκολο χειρισμό εγγράφων του OneNote. Αν θέλετε να βελτιώσετε τις δεξιότητές σας και να μάθετε πώς να προσθέτετε έναν νέο κόμβο εικόνας με μια ετικέτα στο OneNote χρησιμοποιώντας το Aspose.Note, έχετε έρθει στο σωστό μέρος. Αυτός ο οδηγός βήμα προς βήμα θα σας καθοδηγήσει στη διαδικασία, διασφαλίζοντας ότι κατανοείτε κάθε έννοια πλήρως.
 ## Προαπαιτούμενα
@@ -96,3 +102,9 @@ doc.save(dataDir + "AddNewImageNodeWithTag_out.pdf", SaveFormat.Pdf);
  Επισκεφθείτε το φόρουμ της κοινότητας[εδώ](https://forum.aspose.com/c/note/28) για υποστήριξη.
 ### Χρειάζομαι προσωρινή άδεια;
  Εάν απαιτείται, μπορείτε να αποκτήσετε προσωρινή άδεια[εδώ](https://purchase.aspose.com/temporary-license/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

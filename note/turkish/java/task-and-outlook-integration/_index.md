@@ -3,10 +3,16 @@ title: Görev ve Outlook Entegrasyonu
 linktitle: Görev ve Outlook Entegrasyonu
 second_title: Aspose.Note Java API'si
 description: Outlook görevlerini OneNote'a entegre etmeye yönelik eğitimlerimizle Aspose.Note Java'nın potansiyelini ortaya çıkarın. Eğiticilerimizle belge işleme becerilerinizi geliştirin.
-type: docs
 weight: 35
 url: /tr/java/task-and-outlook-integration/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Görev ve Outlook Entegrasyonu
+
 
 ## giriiş
 
@@ -38,3 +44,9 @@ Aspose.Note for Java ile bu yolculuğa çıktığınızda, verimlilik ve üretke
 ## Görev ve Outlook Entegrasyon Eğitimleri
 ### [OneNote'ta Outlook Görevini Alma - Aspose.Note](./get-outlook-task/)
 Outlook görevlerini OneNote'tan zahmetsizce çıkarma konusunda Aspose.Note for Java'nın gücünü keşfedin. Adım adım kılavuzumuzu takip edin ve belge işleme yeteneklerinizi geliştirin.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

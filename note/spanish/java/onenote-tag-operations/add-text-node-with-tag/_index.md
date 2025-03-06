@@ -3,10 +3,16 @@ title: Agregar nodo de texto con etiqueta en OneNote - Aspose.Note
 linktitle: Agregar nodo de texto con etiqueta en OneNote - Aspose.Note
 second_title: Aspose.Nota Java API
 description: Explore cómo agregar nodos de texto con etiquetas en OneNote usando Aspose.Note para Java. Fácil, eficiente y amigable para los desarrolladores. ¡Descarga la biblioteca ahora!
-type: docs
 weight: 13
 url: /es/java/onenote-tag-operations/add-text-node-with-tag/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Agregar nodo de texto con etiqueta en OneNote - Aspose.Note
+
 ## Introducción
 En este tutorial, exploraremos cómo agregar un nodo de texto con una etiqueta en OneNote usando Aspose.Note para Java. Aspose.Note es una poderosa biblioteca de Java que permite a los desarrolladores trabajar con archivos de Microsoft OneNote mediante programación. Agregar nodos de texto con etiquetas es un requisito común en el procesamiento de documentos y Aspose.Note simplifica esta tarea.
 ## Requisitos previos
@@ -121,3 +127,9 @@ R: Puede buscar ayuda en la comunidad Aspose.Note[foro](https://forum.aspose.com
  R: Sí, puedes obtener licencias temporales.[aquí](https://purchase.aspose.com/temporary-license/).
 ### P: ¿Dónde puedo encontrar la documentación de Aspose.Note para Java?
  R: La documentación está disponible.[aquí](https://reference.aspose.com/note/java/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

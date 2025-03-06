@@ -3,10 +3,16 @@ title: 與 OneNote 整合無縫 PDF 導入
 linktitle: 進口
 second_title: Aspose.Note .NET API
 description: 將 PDF 文件匯入 Aspose.Note .NET，並使用各種合併選項進行無縫整合。透過逐步教程進行學習，包括 OneNote 整合。
-type: docs
 weight: 24
 url: /zh-hant/net/import/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# 與 OneNote 整合無縫 PDF 導入
+
 
 ## 介紹
 
@@ -48,3 +54,9 @@ url: /zh-hant/net/import/
 ## 導入教學課程
 ### [將 PDF 文件匯入 Aspose.Note](./import-pdf-documents/)
 了解如何使用各種合併選項輕鬆將 PDF 文件匯入 Aspose.Note for .NET 中以實現無縫整合。
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

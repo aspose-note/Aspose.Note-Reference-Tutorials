@@ -3,10 +3,16 @@ title: Vytvořte seznam s odrážkami ve OneNotu – Aspose.Note
 linktitle: Vytvořte seznam s odrážkami ve OneNotu – Aspose.Note
 second_title: Aspose.Note Java API
 description: Prozkoumejte podrobného průvodce vytvářením seznamů s odrážkami ve OneNotu pomocí Aspose.Note pro Java. Zvyšte svou tvorbu dokumentů s lehkostí.
-type: docs
 weight: 12
 url: /cs/java/onenote-text-manipulation/create-bulleted-list/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Vytvořte seznam s odrážkami ve OneNotu – Aspose.Note
+
 ## Úvod
 V dynamickém prostředí vývoje Java je vytváření poutavých a organizovaných dokumentů zásadní. Aspose.Note for Java poskytuje výkonnou sadu nástrojů pro vylepšení procesu tvorby dokumentů. Tento výukový program vás provede procesem vytváření seznamů s odrážkami ve OneNotu pomocí Aspose.Note pro Java. Pojďme se ponořit do detailů.
 ## Předpoklady
@@ -92,3 +98,9 @@ Absolutně! Písmo, barvu a velikost prvků seznamu s odrážkami můžete uprav
  Ano, můžete prozkoumat bezplatnou zkušební verzi[tady](https://releases.aspose.com/).
 ### Jak mohu získat dočasnou licenci pro Aspose.Note pro Java?
  Získejte dočasnou licenci[tady](https://purchase.aspose.com/temporary-license/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

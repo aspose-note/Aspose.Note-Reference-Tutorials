@@ -3,10 +3,16 @@ title: Aspose.Note'ta Sayfa Aralığını PDF olarak Kaydet
 linktitle: Aspose.Note'ta Sayfa Aralığını PDF olarak Kaydet
 second_title: Aspose.Note .NET API'si
 description: Aspose.Note for .NET'i kullanarak OneNote belgelerinden çeşitli sayfaları PDF dosyaları olarak nasıl kaydedeceğinizi öğrenin. Adım adım eğitim dahildir.
-type: docs
 weight: 21
 url: /tr/net/loading-and-saving-operations/save-range-pages-as-pdf/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Aspose.Note'ta Sayfa Aralığını PDF olarak Kaydet
+
 ## giriiş
 
 .NET geliştirme alanında Aspose.Note, OneNote belgelerini kolaylıkla ve verimli bir şekilde yönetmeye yönelik çok yönlü bir araç olarak öne çıkıyor. Çok sayıda özelliği arasında en çok aranan işlevlerden biri, çeşitli sayfaları PDF dosyası olarak kaydetme yeteneğidir. Bu eğitim, süreç boyunca size adım adım rehberlik edecek ve bu özelliği projelerinize sorunsuz bir şekilde entegre edebilmenizi sağlayacaktır.
@@ -99,3 +105,9 @@ Cevap4: Kesinlikle! Aspose.Note, PDF dosyalarının görünümünü özelleştir
 ### S5: Aspose.Note için ek destek ve kaynakları nerede bulabilirim?
 
  Cevap5: Ek destek, dokümantasyon ve topluluk etkileşimi için şu adresi ziyaret edebilirsiniz:[Aspose.Note Forumu](https://forum.aspose.com/c/note/28).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

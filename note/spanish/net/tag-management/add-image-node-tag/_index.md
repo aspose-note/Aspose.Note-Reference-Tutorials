@@ -3,10 +3,16 @@ title: Agregar nodo de imagen con etiqueta en Aspose.Note
 linktitle: Agregar nodo de imagen con etiqueta en Aspose.Note
 second_title: Aspose.Nota .NET API
 description: Aprenda cómo mejorar sus documentos de OneNote agregando imágenes con etiquetas personalizadas usando Aspose.Note para .NET.
-type: docs
 weight: 10
 url: /es/net/tag-management/add-image-node-tag/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Agregar nodo de imagen con etiqueta en Aspose.Note
+
 ## Introducción
 
 En este tutorial, exploraremos cómo agregar un nodo de imagen con una etiqueta usando Aspose.Note para .NET. Esta característica le permite mejorar sus documentos de OneNote agregando imágenes con etiquetas personalizadas.
@@ -110,3 +116,9 @@ R4: Aspose.Note admite principalmente la adición de imágenes de directorios lo
 ### P5: ¿Existe alguna limitación en el tamaño o formato de las imágenes que se pueden agregar?
 
 R5: Aspose.Note admite una amplia gama de formatos de imagen y no impone limitaciones estrictas en el tamaño de la imagen, lo que le permite incorporar diversos elementos visuales en sus documentos.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

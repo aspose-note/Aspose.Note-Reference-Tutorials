@@ -3,10 +3,16 @@ title: Aspose.Note'ta İkili Görüntüye Kaydetme
 linktitle: Aspose.Note'ta İkili Görüntüye Kaydetme
 second_title: Aspose.Note .NET API'si
 description: Aspose.Note for .NET'i kullanarak belgeleri ikili görüntülere nasıl dönüştüreceğinizi öğrenin. Sorunsuz entegrasyon için adım adım kılavuzumuzu izleyin.
-type: docs
 weight: 22
 url: /tr/net/loading-and-saving-operations/save-to-binary-image/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Aspose.Note'ta İkili Görüntüye Kaydetme
+
 ## giriiş
 
 Bu eğitimde Aspose.Note for .NET kullanarak bir belgenin ikili görüntüye nasıl kaydedileceğini inceleyeceğiz. Bu işlem, bir belgenin çeşitli uygulamalar için faydalı olabilecek sabit eşikli siyah beyaz bir görüntüye dönüştürülmesini içerir.
@@ -97,3 +103,9 @@ Cevap4: Evet, birden çok belge arasında geçiş yapabilir ve bunları benzer k
 ### S5: Aspose.Note için daha fazla kaynağı ve desteği nerede bulabilirim?
 
  A5: keşfedebilirsiniz[Aspose.Note belgeleri](https://reference.aspose.com/note/net/)ve yardım isteyin[Aspose.Note forumu](https://forum.aspose.com/c/note/28) Herhangi bir sorunuz veya sorununuz için.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

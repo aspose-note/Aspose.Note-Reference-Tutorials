@@ -3,10 +3,16 @@ title: Uživatelská zpětná volání v Aspose.Note
 linktitle: Uživatelská zpětná volání v Aspose.Note
 second_title: Aspose.Note .NET API
 description: Zjistěte, jak implementovat zpětná volání šetřící uživatele v Aspose.Note pro .NET, abyste přizpůsobili ukládání písem, CSS a obrázků.
-type: docs
 weight: 31
 url: /cs/net/loading-and-saving-operations/user-saving-callbacks/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Uživatelská zpětná volání v Aspose.Note
+
 ## Úvod
 
 tomto tutoriálu prozkoumáme, jak implementovat zpětná volání šetřící uživatele v Aspose.Note pro .NET. Tato zpětná volání vám umožňují přizpůsobit proces ukládání poskytnutím háčků pro zásah v různých fázích, jako je ukládání písem, šablon stylů CSS a obrázků. Využitím těchto zpětných volání můžete přizpůsobit chování při ukládání tak, aby vyhovovalo vašim konkrétním požadavkům, a zvýšit tak flexibilitu a kontrolu nad výstupem.
@@ -118,3 +124,9 @@ A4: I když tato zpětná volání nabízejí flexibilitu, zajistěte jejich efe
 ### Q5: Mohu dynamicky změnit chování při ukládání na základě vstupu uživatele nebo jiných podmínek?
 
 Odpověď 5: Ano, do metod zpětného volání můžete začlenit podmíněnou logiku a dynamicky upravit chování při ukládání na základě různých faktorů.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

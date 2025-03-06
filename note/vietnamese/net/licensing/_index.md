@@ -3,10 +3,16 @@ title: Nắm vững cấp phép Aspose.Note để tích hợp OneNote
 linktitle: Cấp phép
 second_title: Aspose.Note .NET API
 description: Áp dụng giấy phép Aspose.Note trong các ứng dụng .NET của bạn! Khám phá hướng dẫn từng bước để nhúng tài nguyên, sử dụng đường dẫn, FileStream và cấp phép đo lường hiệu quả.
-type: docs
 weight: 20
 url: /vi/net/licensing/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Nắm vững cấp phép Aspose.Note để tích hợp OneNote
+
 ## Giới thiệu
 
 Bạn có phải là nhà phát triển .NET đang nghiên cứu lĩnh vực năng động của Aspose.Note không? Hiểu cách áp dụng giấy phép là điều then chốt, đặc biệt khi làm việc với các tệp OneNote. Trong hướng dẫn mở rộng này, chúng tôi sẽ điều hướng qua các hướng dẫn cấp phép khác nhau, đảm bảo quy trình tích hợp liền mạch và cho phép bạn thao tác các tệp OneNote một cách dễ dàng.
@@ -41,3 +47,9 @@ Tìm hiểu cách áp dụng giấy phép Aspose.Note từ đường dẫn trong
 Tìm hiểu cách áp dụng giấy phép Aspose.Note bằng FileStream trong các ứng dụng .NET của bạn để tích hợp liền mạch.
 ### [Cấp phép đo lường với Aspose.Note](./metered-licensing/)
 Tìm hiểu cách quản lý hiệu quả giấy phép phần mềm với Aspose.Note cho .NET thông qua cấp phép theo đồng hồ đo. Tối ưu hóa việc sử dụng tài nguyên và kiểm soát chi phí một cách hiệu quả.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

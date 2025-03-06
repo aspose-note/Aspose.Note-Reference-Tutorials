@@ -4,10 +4,16 @@ linktitle: Erstellen Sie ein OneNote-Dokument und speichern Sie es in HTML – J
 second_title: Aspose.Note Java API
 description: Erfahren Sie, wie Sie mit Aspose.Note für Java OneNote-Dokumente als HTML erstellen und speichern. Integrieren Sie in Java-Anwendungen für die programmatische OneNote-Dateiverarbeitung.
 
-type: docs
 weight: 18
 url: /de/java/onenote-document-loading/create-onenote-save-to-html/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Erstellen Sie ein OneNote-Dokument und speichern Sie es in HTML – Java
+
 ## Einführung
 
 Aspose.Note für Java ist eine leistungsstarke Bibliothek, die es Entwicklern ermöglicht, programmgesteuert mit Microsoft OneNote-Dateien zu arbeiten. In diesem Tutorial erfahren Sie, wie Sie mit Aspose.Note für Java ein OneNote-Dokument erstellen und es im HTML-Format speichern.
@@ -136,3 +142,9 @@ A3: Ja, Sie können eine kostenlose Testversion herunterladen von[Hier](https://
 ### F5: Wie kann ich eine Lizenz für Aspose.Note für Java erwerben?
 
  A5: Sie können eine Lizenz bei erwerben[Aspose-Website](https://purchase.aspose.com/buy).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

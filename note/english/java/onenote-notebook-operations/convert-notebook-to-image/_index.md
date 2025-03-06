@@ -3,10 +3,16 @@ title: Convert Notebook to Image in OneNote - Aspose.Note
 linktitle: Convert Notebook to Image in OneNote - Aspose.Note
 second_title: Aspose.Note Java API
 description: Learn how to convert notebooks to images in OneNote using Aspose.Note for Java. Easily integrate this functionality into your Java applications.
-type: docs
 weight: 12
 url: /java/onenote-notebook-operations/convert-notebook-to-image/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Convert Notebook to Image in OneNote - Aspose.Note
+
 ## Introduction
 
 In this tutorial, we will explore how to convert a notebook to an image in OneNote using the Aspose.Note for Java library. Converting notebooks to images can be useful for various purposes such as sharing notes, embedding them in documents, or incorporating them into presentations.
@@ -94,3 +100,10 @@ A4: Yes, you can batch convert multiple notebooks to images efficiently using As
 ### Q5: Where can I find additional resources and support for Aspose.Note?
 
 A5: For further documentation, examples, and community support, visit the [Aspose.Note forum](https://forum.aspose.com/c/note/28) and explore the [documentation](https://reference.aspose.com/note/java/).
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

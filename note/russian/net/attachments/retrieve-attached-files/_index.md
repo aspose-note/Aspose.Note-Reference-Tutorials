@@ -3,10 +3,16 @@ title: Получить вложенные файлы с помощью Aspose.N
 linktitle: Получить вложенные файлы с помощью Aspose.Note
 second_title: Aspose.Note .NET API
 description: Узнайте, как получить прикрепленные файлы из документов Microsoft OneNote с помощью Aspose.Note для .NET. Следуйте инструкциям по загрузке, получению узлов и перебору вложений.
-type: docs
 weight: 12
 url: /ru/net/attachments/retrieve-attached-files/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Получить вложенные файлы с помощью Aspose.Note
+
 ## Введение
 
 В этом уроке мы рассмотрим, как получить прикрепленные файлы из документа с помощью Aspose.Note для .NET. Aspose.Note — это мощный API, который позволяет разработчикам программно работать с файлами Microsoft OneNote. Мы разобьем этот процесс на простые шаги, чтобы вам было легче следовать им.
@@ -90,3 +96,9 @@ foreach (AttachedFile file in nodes)
 ### Вопрос 5: Как я могу получить временную лицензию для Aspose.Note?
 
 О5: Вы можете запросить временную лицензию у Aspose, чтобы оценить все возможности API в вашей среде разработки.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

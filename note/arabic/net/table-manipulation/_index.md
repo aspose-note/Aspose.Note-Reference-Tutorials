@@ -3,10 +3,16 @@ title: إتقان الجداول مع تكامل OneNote
 linktitle: التلاعب بالجدول
 second_title: Aspose.Note .NET API
 description: قم بإنشاء مستندات جذابة بصريًا باستخدام Aspose.Note لـ .NET! استكشف البرامج التعليمية حول التعامل مع الجداول - تغيير الأنماط، وإنشاء الجداول، واستخراج النص، والمزيد.
-type: docs
 weight: 29
 url: /ar/net/table-manipulation/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# إتقان الجداول مع تكامل OneNote
+
 
 ## مقدمة
 
@@ -62,3 +68,9 @@ url: /ar/net/table-manipulation/
 تعلم كيفية إدراج الجداول في مستندات Note باستخدام Aspose.Note لـ .NET. قم بتنظيم البيانات بسلاسة لتحسين إمكانية القراءة والعرض.
 ### [تعيين لون خلفية الخلية في جداول Aspose.Note](./set-cell-background-color/)
 تعرف على كيفية تعيين لون خلفية الخلية في جداول Aspose.Note باستخدام دليل خطوة بخطوة. قم بتحسين صور المستندات دون عناء.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

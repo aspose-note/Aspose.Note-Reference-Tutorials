@@ -3,10 +3,16 @@ title: إدراج الصور في مستندات Aspose.Note
 linktitle: إدراج الصور في مستندات Aspose.Note
 second_title: Aspose.Note .NET API
 description: تعرف على كيفية إدراج الصور بسلاسة في مستندات Aspose.Note باستخدام .NET للمحتوى المرئي المحسن. اتبع دليلنا خطوة بخطوة لسهولة التكامل.
-type: docs
 weight: 16
 url: /ar/net/images/insert-images/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# إدراج الصور في مستندات Aspose.Note
+
 ## مقدمة
 
 يمكن أن تؤدي إضافة الصور إلى مستندات Aspose.Note الخاصة بك إلى تحسين جاذبيتها وفائدتها البصرية بشكل كبير. سواء كنت تقوم بإنشاء ملاحظات أو عروض تقديمية أو أي مستند آخر، فإن دمج الصور يمكن أن يوفر السياق والوضوح للمحتوى الخاص بك. في هذا البرنامج التعليمي، سنرشدك خلال عملية إدراج الصور في مستندات Aspose.Note الخاصة بك باستخدام .NET.
@@ -89,3 +95,9 @@ page.AppendChildLast(image);
 ### س5: هل هناك حد لحجم ملف الصور الذي يمكن إدراجه؟
 
 ج5: لا يفرض Aspose.Note قيودًا صارمة على أحجام ملفات الصور، ولكن يوصى بتحسين الصور للحصول على أداء أفضل.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

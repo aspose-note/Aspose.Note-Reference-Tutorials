@@ -3,10 +3,16 @@ title: Гиперссылки и изображения OneNote
 linktitle: Гиперссылки и изображения OneNote
 second_title: Aspose.Note Java API
 description: Расширьте возможности OneNote с помощью руководств по Aspose.Note для Java. Научитесь добавлять гиперссылки, вставлять изображения и легко извлекать информацию об изображениях с помощью разработки на Java.
-type: docs
 weight: 22
 url: /ru/java/onenote-hyperlinks-images/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Гиперссылки и изображения OneNote
+
 
 ## Введение
 
@@ -48,3 +54,9 @@ url: /ru/java/onenote-hyperlinks-images/
 Узнайте, как извлечь информацию об изображении из документов OneNote с помощью Java с помощью Aspose.Note. Простые шаги для разработчиков.
 ### [Вставка изображения в документ OneNote с помощью Java](./insert-image/)
 Узнайте, как вставлять изображения в документы OneNote с помощью Java с помощью библиотеки Aspose.Note для Java. Следуйте нашему пошаговому руководству для бесшовной интеграции.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

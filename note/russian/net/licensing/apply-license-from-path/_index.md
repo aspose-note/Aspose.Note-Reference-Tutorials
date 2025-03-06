@@ -3,10 +3,16 @@ title: Применить лицензию Aspose.Note из пути
 linktitle: Применить лицензию Aspose.Note из пути
 second_title: Aspose.Note .NET API
 description: Узнайте, как применить лицензию Aspose.Note по пути в приложениях .NET. Раскройте весь потенциал манипулирования файлами OneNote с помощью Aspose.Note.
-type: docs
 weight: 11
 url: /ru/net/licensing/apply-license-from-path/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Применить лицензию Aspose.Note из пути
+
 ## Введение
 
 Добро пожаловать в наше подробное руководство по применению лицензии Aspose.Note с использованием .NET! Aspose.Note — это мощный API, который позволяет разработчикам программно работать с файлами Microsoft OneNote, предоставляя широкий спектр функций для создания, редактирования и управления документами OneNote. В этом руководстве мы покажем вам процесс применения лицензии Aspose.Note по указанному пути в ваших .NET-приложениях.
@@ -98,3 +104,9 @@ A1: Aspose.Note поддерживает форматы Microsoft OneNote 2010, 
 ### В5: Могу ли я попробовать Aspose.Note перед покупкой?
 
 О5: Да, вы можете загрузить бесплатную пробную версию Aspose.Note с их веб-сайта, чтобы оценить ее функции и возможности.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

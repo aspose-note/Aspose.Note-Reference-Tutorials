@@ -3,10 +3,16 @@ title: Ladda OneNote-dokument i Aspose.Note
 linktitle: Ladda OneNote-dokument i Aspose.Note
 second_title: Aspose.Note .NET API
 description: Lär dig hur du laddar, krypterar och dekrypterar OneNote-dokument programmatiskt i .NET med Aspose.Note.
-type: docs
 weight: 16
 url: /sv/net/loading-and-saving-operations/load-onenote-document/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Ladda OneNote-dokument i Aspose.Note
+
 ## Introduktion
 
 Aspose.Note för .NET är ett kraftfullt API som gör att utvecklare kan arbeta med Microsoft OneNote-filer programmatiskt i sina .NET-applikationer. Oavsett om du behöver ladda, manipulera eller konvertera OneNote-dokument, erbjuder Aspose.Note för .NET omfattande funktionalitet för att effektivisera ditt arbetsflöde.
@@ -174,3 +180,9 @@ S2: Ja, du kan kontrollera om ett dokument är krypterat och dekryptera det med 
 ### F5: Hur kan jag få en tillfällig licens för Aspose.Note för .NET?
 
  S5: Du kan begära en tillfällig licens från[Aspose köpsida](https://purchase.aspose.com/temporary-license/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -3,10 +3,16 @@ title: Phân biệt loại nút trong tài liệu OneNote - Java
 linktitle: Phân biệt loại nút trong tài liệu OneNote - Java
 second_title: API Java Aspose.Note
 description: Tìm hiểu cách phân biệt các loại nút trong tài liệu OneNote bằng Java với Aspose.Note. Khám phá hướng dẫn từng bước và câu hỏi thường gặp để tích hợp liền mạch.
-type: docs
 weight: 20
 url: /vi/java/onenote-document-loading/distinguish-node-type/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Phân biệt loại nút trong tài liệu OneNote - Java
+
 ## Giới thiệu
 
 Trong lĩnh vực lập trình Java, việc làm việc với các tài liệu OneNote có những thách thức và sự phức tạp riêng. May mắn thay, Aspose.Note for Java cung cấp một giải pháp toàn diện để điều hướng, thao tác và trích xuất dữ liệu từ các tài liệu này một cách liền mạch. Trong hướng dẫn này, chúng ta sẽ đi sâu vào một khía cạnh cụ thể: phân biệt các loại nút trong tài liệu OneNote bằng Java. Đến cuối hướng dẫn này, bạn sẽ hiểu vững chắc về cách xác định các loại nút khác nhau và tận dụng kiến thức này một cách hiệu quả trong các ứng dụng Java của mình.
@@ -74,3 +80,10 @@ Câu trả lời 3: Hoàn toàn có thể, Aspose.Note for Java cho phép bạn 
 ### Câu hỏi 5: Có bản dùng thử miễn phí cho Aspose.Note cho Java không?
 
  Câu trả lời 5: Có, bạn có thể khám phá các tính năng của Aspose.Note dành cho Java với bản dùng thử miễn phí có sẵn tại[liên kết này](https://releases.aspose.com/).
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -3,10 +3,16 @@ title: Opslaan met behulp van het opgegeven lettertypesubsysteem in OneNote
 linktitle: Opslaan met behulp van het opgegeven lettertypesubsysteem in OneNote
 second_title: Aspose.Note Java-API
 description: Leer hoe u OneNote-documenten kunt opslaan met behulp van het opgegeven lettertypesubsysteem in Java met Aspose.Note. Zorg moeiteloos voor een consistente weergave van lettertypen op verschillende platforms.
-type: docs
 weight: 22
 url: /nl/java/onenote-document-saving/save-using-specified-fonts-subsystem/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Opslaan met behulp van het opgegeven lettertypesubsysteem in OneNote
+
 ## Invoering
 
 Aspose.Note voor Java biedt robuuste mogelijkheden voor het werken met OneNote-documenten. Een veel voorkomende vereiste bij het werken met dergelijke documenten is ervoor zorgen dat de lettertypen goed worden onderhouden, vooral als het document moet worden geëxporteerd of opgeslagen in verschillende formaten zoals PDF. Deze zelfstudie leidt u door het proces van het opslaan van OneNote-documenten terwijl u het lettertypesubsysteem specificeert, waardoor een consistente en nauwkeurige weergave van tekst op verschillende platforms wordt gegarandeerd.
@@ -152,3 +158,9 @@ A4: Ja, u kunt lettertype-eigenschappen zoals grootte, stijl en kleur aanpassen 
 ### V5: Is er een proefversie beschikbaar voor Aspose.Note voor Java?
 
 A5: Ja, u kunt een gratis proefversie van Aspose.Note voor Java krijgen via de website.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -3,10 +3,16 @@ title: Lijsteigenschappen ophalen in OneNote - Aspose.Note
 linktitle: Lijsteigenschappen ophalen in OneNote - Aspose.Note
 second_title: Aspose.Note Java-API
 description: Verken Aspose.Note voor Java en haal moeiteloos lijsteigenschappen op in OneNote-documenten. Verbeter uw documentverwerking met deze krachtige Java-bibliotheek.
-type: docs
 weight: 19
 url: /nl/java/onenote-text-manipulation/get-list-properties/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Lijsteigenschappen ophalen in OneNote - Aspose.Note
+
 ## Invoering
 Welkom bij deze uitgebreide zelfstudie over het gebruik van Aspose.Note voor Java om lijsteigenschappen in OneNote-documenten op te halen en te analyseren. Of u nu een doorgewinterde ontwikkelaar bent of net begint met Aspose.Note, deze gids begeleidt u door het proces, waarbij elke stap wordt opgesplitst om een duidelijk begrip te garanderen.
 ## Vereisten
@@ -95,3 +101,9 @@ Ja, u kunt de code aanpassen aan uw behoeften en selectief specifieke lettertype
  Ja, u kunt een tijdelijke licentie verkrijgen[hier](https://purchase.aspose.com/temporary-license/) voor testdoeleinden.
 ### Wat moet ik doen als ik Aspose.Note voor Java wil kopen?
  U kunt het product kopen[hier](https://purchase.aspose.com/buy)om het volledige potentieel voor uw projecten te ontsluiten.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

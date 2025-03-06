@@ -3,10 +3,16 @@ title: 从 Aspose.Note 文档中提取图像
 linktitle: 从 Aspose.Note 文档中提取图像
 second_title: Aspose.Note .NET API
 description: 了解如何使用 Aspose.Note for .NET 轻松从 Aspose.Note 文档中提取图像。通过这个综合教程增强您的文档操作能力。
-type: docs
 weight: 12
 url: /zh/net/images/extract-images/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# 从 Aspose.Note 文档中提取图像
+
 ## 介绍
 
 您是否希望有效地从 Aspose.Note 文档中提取图像？ Aspose.Note for .NET 提供了一个强大的解决方案来无缝地完成此任务。在本教程中，我们将逐步完成该过程，以确保您可以轻松地从文档中检索图像。
@@ -91,3 +97,9 @@ A3：是的，Aspose.Note for .NET 支持各种文档格式，为文档操作提
 ### 问题 5：我可以在哪里寻求 Aspose.Note for .NET 的帮助或支持？
 
  A5：有关 Aspose.Note for .NET 的任何疑问或帮助，您可以访问[Aspose.Note 论坛](https://forum.aspose.com/c/note/28)与专家和其他开发人员互动。
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

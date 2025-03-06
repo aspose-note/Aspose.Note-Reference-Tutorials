@@ -3,10 +3,16 @@ title: Infoga bilder i Aspose.Note-dokument
 linktitle: Infoga bilder i Aspose.Note-dokument
 second_title: Aspose.Note .NET API
 description: Lär dig hur du sömlöst infogar bilder i Aspose.Note-dokument med hjälp av .NET för förbättrat visuellt innehåll. Följ vår steg-för-steg-guide för enkel integration.
-type: docs
 weight: 16
 url: /sv/net/images/insert-images/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Infoga bilder i Aspose.Note-dokument
+
 ## Introduktion
 
 Att lägga till bilder i dina Aspose.Note-dokument kan avsevärt förbättra deras visuella tilltalande och användbarhet. Oavsett om du skapar anteckningar, presentationer eller något annat dokument, kan integrerade bilder ge ditt innehåll sammanhang och klarhet. I den här självstudien guidar vi dig genom processen att infoga bilder i dina Aspose.Note-dokument med .NET.
@@ -89,3 +95,9 @@ A4: Visst! Du kan infoga så många bilder du behöver på en enda sida med Aspo
 ### F5: Finns det en gräns för filstorleken på bilder som kan infogas?
 
 S5: Aspose.Note sätter inga strikta begränsningar på bildfilstorlekar, men det rekommenderas att optimera bilder för bättre prestanda.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

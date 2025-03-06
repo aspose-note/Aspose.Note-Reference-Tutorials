@@ -3,10 +3,16 @@ title: Crie uma lista com marcadores no OneNote - Aspose.Note
 linktitle: Crie uma lista com marcadores no OneNote - Aspose.Note
 second_title: API Java Aspose.Note
 description: Explore o guia passo a passo sobre como criar listas com marcadores no OneNote usando Aspose.Note para Java. Eleve a criação de seus documentos com facilidade.
-type: docs
 weight: 12
 url: /pt/java/onenote-text-manipulation/create-bulleted-list/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Crie uma lista com marcadores no OneNote - Aspose.Note
+
 ## Introdução
 No cenário dinâmico do desenvolvimento Java, a criação de documentos envolventes e organizados é essencial. Aspose.Note for Java fornece um conjunto de ferramentas poderoso para aprimorar seu processo de criação de documentos. Este tutorial irá guiá-lo através do processo de criação de listas com marcadores no OneNote usando Aspose.Note para Java. Vamos mergulhar nos detalhes.
 ## Pré-requisitos
@@ -92,3 +98,9 @@ Absolutamente! Você pode modificar a fonte, a cor e o tamanho dos elementos da 
  Sim, você pode explorar uma versão de avaliação gratuita[aqui](https://releases.aspose.com/).
 ### Como posso obter uma licença temporária do Aspose.Note for Java?
  Obtenha uma licença temporária[aqui](https://purchase.aspose.com/temporary-license/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

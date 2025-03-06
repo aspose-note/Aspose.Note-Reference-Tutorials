@@ -3,10 +3,16 @@ title: Anexar arquivo por caminho em Aspose.Note
 linktitle: Anexar arquivo por caminho em Aspose.Note
 second_title: API Aspose.Note .NET
 description: Aprenda como anexar arquivos a documentos do Microsoft OneNote programaticamente usando Aspose.Note for .NET. Simplifique seu processo de desenvolvimento com este tutorial abrangente.
-type: docs
 weight: 11
 url: /pt/net/attachments/attach-file-by-path/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Anexar arquivo por caminho em Aspose.Note
+
 ## Introdução
 
 Aspose.Note for .NET é uma biblioteca poderosa que permite aos desenvolvedores trabalhar com arquivos do Microsoft OneNote programaticamente. Se você deseja criar, editar, converter ou manipular documentos do OneNote, o Aspose.Note for .NET fornece funcionalidade abrangente para agilizar seu processo de desenvolvimento.
@@ -147,3 +153,9 @@ A3: Sim, você precisa adquirir uma licença para uso comercial do Aspose.Note f
 ### Q5: Onde posso procurar suporte para Aspose.Note for .NET?
 
  A5: Você pode buscar suporte nos fóruns da comunidade Aspose.Note[aqui](https://forum.aspose.com/c/note/28).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

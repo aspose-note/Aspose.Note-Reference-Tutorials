@@ -3,10 +3,16 @@ title: OneNote でノートブックをストリームに保存する - Aspose.N
 linktitle: OneNote でノートブックをストリームに保存する - Aspose.Note
 second_title: Aspose.Note Java API
 description: Aspose.Note for Java を使用して OneNote のストリームにノートブックを保存する方法を学習します。効率的なノートブック管理で生産性を向上させます。
-type: docs
 weight: 26
 url: /ja/java/onenote-notebook-operations/save-notebook-to-stream/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# OneNote でノートブックをストリームに保存する - Aspose.Note
+
 ## 導入
 
 このチュートリアルでは、Aspose.Note for Java を使用して OneNote のストリームにノートブックを保存するプロセスを説明します。これらの手順に従うことで、ノートブックをプログラムで効率的に管理できるようになります。
@@ -88,3 +94,9 @@ A3：もちろんです！ Aspose.Note for Java はシームレスな統合機�
 ### Q5: Aspose.Note for Java の試用版はありますか?
 
 A5: はい、試用版にアクセスできます。[ここ](https://releases.aspose.com/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -3,10 +3,16 @@ title: Adjunte archivo y establezca icono en Aspose.Note
 linktitle: Adjunte archivo y establezca icono en Aspose.Note
 second_title: Aspose.Nota .NET API
 description: Aprenda cómo adjuntar archivos y configurar íconos en Aspose.Note para .NET. Mejore sus aplicaciones .NET con este tutorial paso a paso.
-type: docs
 weight: 10
 url: /es/net/attachments/attach-file-set-icon/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Adjunte archivo y establezca icono en Aspose.Note
+
 ## Introducción
 
 En el ámbito del desarrollo .NET, Aspose.Note se destaca como una poderosa herramienta para manipular documentos de Microsoft OneNote mediante programación. Aprovechando sus capacidades, los desarrolladores pueden automatizar diversas tareas relacionadas con la creación, edición y administración de archivos OneNote dentro de sus aplicaciones. Una característica esencial es la capacidad de adjuntar archivos a notas y configurar íconos para esos archivos adjuntos. En este tutorial, profundizaremos en el proceso de adjuntar un archivo y configurar un ícono usando Aspose.Note para .NET.
@@ -125,3 +131,9 @@ R4: Aspose.Note se ocupa principalmente de archivos almacenados localmente o a l
 ### P5: ¿Existe un límite de tamaño para los archivos adjuntos en Aspose.Note para .NET?
 
 R5: Aspose.Note no impone límites de tamaño específicos para los archivos adjuntos, pero pueden aplicarse limitaciones prácticas según los recursos del sistema y las consideraciones de rendimiento.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

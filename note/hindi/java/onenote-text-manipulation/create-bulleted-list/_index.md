@@ -3,10 +3,16 @@ title: OneNote में बुलेटेड सूची बनाएं - As
 linktitle: OneNote में बुलेटेड सूची बनाएं - Aspose.Note
 second_title: Aspose.नोट जावा एपीआई
 description: जावा के लिए Aspose.Note का उपयोग करके OneNote में बुलेटेड सूचियाँ बनाने पर चरण-दर-चरण मार्गदर्शिका देखें। अपने दस्तावेज़ निर्माण को आसानी से उन्नत करें।
-type: docs
 weight: 12
 url: /hi/java/onenote-text-manipulation/create-bulleted-list/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# OneNote में बुलेटेड सूची बनाएं - Aspose.Note
+
 ## परिचय
 जावा विकास के गतिशील परिदृश्य में, आकर्षक और व्यवस्थित दस्तावेज़ बनाना आवश्यक है। जावा के लिए Aspose.Note आपके दस्तावेज़ निर्माण प्रक्रिया को बढ़ाने के लिए एक शक्तिशाली टूलसेट प्रदान करता है। यह ट्यूटोरियल जावा के लिए Aspose.Note का उपयोग करके OneNote में बुलेटेड सूचियाँ बनाने की प्रक्रिया में आपका मार्गदर्शन करेगा। आइए विवरण में उतरें।
 ## आवश्यक शर्तें
@@ -92,3 +98,9 @@ doc.save(dataDir + "CreateBulletedList_out.pdf");
  हां, आप नि:शुल्क परीक्षण संस्करण तलाश सकते हैं[यहाँ](https://releases.aspose.com/).
 ### मैं जावा के लिए Aspose.Note के लिए अस्थायी लाइसेंस कैसे प्राप्त कर सकता हूं?
  एक अस्थायी लाइसेंस प्राप्त करें[यहाँ](https://purchase.aspose.com/temporary-license/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

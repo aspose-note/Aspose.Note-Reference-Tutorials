@@ -3,10 +3,16 @@ title: OneNote 통합을 위한 Aspose.Note 라이선스 마스터하기
 linktitle: 라이선스
 second_title: Aspose.Note .NET API
 description: .NET 애플리케이션에 Aspose.Note 라이선스를 적용하세요! 리소스 삽입, 경로 사용, FileStream 및 효율적인 계량 라이선스에 대한 단계별 가이드를 살펴보세요.
-type: docs
 weight: 20
 url: /ko/net/licensing/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# OneNote 통합을 위한 Aspose.Note 라이선스 마스터하기
+
 ## 소개
 
 Aspose.Note의 동적 영역을 탐구하는 .NET 개발자이신가요? 라이선스 적용 방법을 이해하는 것은 특히 OneNote 파일로 작업할 때 매우 중요합니다. 이 광범위한 가이드에서는 다양한 라이선스 튜토리얼을 탐색하여 원활한 통합 프로세스를 보장하고 OneNote 파일을 쉽게 조작할 수 있도록 지원합니다.
@@ -41,3 +47,9 @@ Aspose.Note의 동적 영역을 탐구하는 .NET 개발자이신가요? 라이�
 원활한 통합을 위해 .NET 애플리케이션에서 FileStream을 사용하여 Aspose.Note 라이선스를 적용하는 방법을 알아보세요.
 ### [Aspose.Note를 사용한 종량제 라이선스](./metered-licensing/)
 측정된 라이선스를 통해 .NET용 Aspose.Note로 소프트웨어 라이선스를 효율적으로 관리하는 방법을 알아보세요. 리소스 사용을 최적화하고 비용을 효과적으로 제어합니다.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

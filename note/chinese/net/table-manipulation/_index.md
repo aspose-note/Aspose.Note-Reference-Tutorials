@@ -3,10 +3,16 @@ title: 通过 OneNote 集成掌握表格
 linktitle: 表操作
 second_title: Aspose.Note .NET API
 description: 使用 Aspose.Note for .NET 创建具有视觉吸引力的文档！探索有关表格操作的教程 - 更改样式、撰写表格、提取文本等。
-type: docs
 weight: 29
 url: /zh/net/table-manipulation/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# 通过 OneNote 集成掌握表格
+
 
 ## 介绍
 
@@ -62,3 +68,9 @@ Aspose.Note for .NET 使您能够在文档处理任务中无缝地运用表格�
 了解使用 Aspose.Note for .NET 将表格插入到 Note 文档中。无缝组织数据以提高可读性和演示效果。
 ### [在 Aspose.Note 表格中设置单元格背景颜色](./set-cell-background-color/)
 了解如何使用分步指南在 Aspose.Note 表格中设置单元格背景颜色。轻松增强文档视觉效果。
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

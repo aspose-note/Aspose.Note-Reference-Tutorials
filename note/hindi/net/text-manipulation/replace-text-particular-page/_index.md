@@ -3,10 +3,16 @@ title: Aspose.Note में किसी विशेष पृष्ठ पर
 linktitle: Aspose.Note में किसी विशेष पृष्ठ पर टेक्स्ट बदलें
 second_title: Aspose.Note .NET API
 description: .NET का उपयोग करके Aspose.Note में किसी विशिष्ट पृष्ठ पर टेक्स्ट को बदलने का तरीका जानें। कुशल पाठ हेरफेर के लिए हमारी चरण-दर-चरण मार्गदर्शिका का पालन करें।
-type: docs
 weight: 22
 url: /hi/net/text-manipulation/replace-text-particular-page/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Aspose.Note में किसी विशेष पृष्ठ पर टेक्स्ट बदलें
+
 ## परिचय
 .NET विकास की दुनिया में, Aspose.Note Microsoft OneNote फ़ाइलों को प्रोग्रामेटिक रूप से हेरफेर करने के लिए एक शक्तिशाली उपकरण के रूप में सामने आता है। डेवलपर्स द्वारा अक्सर सामना किया जाने वाला एक सामान्य कार्य Aspose.Note दस्तावेज़ के भीतर किसी विशेष पृष्ठ पर टेक्स्ट को बदलना है। इस चरण-दर-चरण मार्गदर्शिका में, हम यह पता लगाएंगे कि .NET के लिए Aspose.Note का उपयोग करके इसे कैसे प्राप्त किया जाए।
 ## आवश्यक शर्तें
@@ -82,3 +88,9 @@ Console.WriteLine("\nText replaced successfully on a particular page.\nFile save
 आप प्रक्रिया के दौरान होने वाले अपवादों को प्रबंधित करने के लिए ट्राई-कैच ब्लॉक का उपयोग करके त्रुटि प्रबंधन लागू कर सकते हैं।
 ### प्रश्न: क्या Aspose.Note समर्थन के लिए कोई सामुदायिक मंच है?
  हां, आप मदद मांग सकते हैं और अपने अनुभव साझा कर सकते हैं[Aspose.नोट फोरम](https://forum.aspose.com/c/note/28).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

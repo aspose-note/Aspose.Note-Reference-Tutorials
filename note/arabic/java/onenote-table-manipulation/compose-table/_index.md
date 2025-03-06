@@ -3,10 +3,16 @@ title: إنشاء جدول في OneNote - Aspose.Note
 linktitle: إنشاء جدول في OneNote - Aspose.Note
 second_title: Aspose.Note جافا API
 description: تعرف على كيفية إنشاء الجداول في OneNote برمجياً باستخدام Aspose.Note لـ Java. دليل خطوة بخطوة لإنشاء المستندات بكفاءة.
-type: docs
 weight: 11
 url: /ar/java/onenote-table-manipulation/compose-table/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# إنشاء جدول في OneNote - Aspose.Note
+
 ## مقدمة
 في بيئة الأعمال التنافسية اليوم، يعد التواصل والتعاون الفعالان من العوامل الرئيسية لتحقيق النجاح. يوفر Aspose.Note for Java حلاً قويًا لإنشاء مستندات OneNote ومعالجتها برمجيًا. في هذا البرنامج التعليمي، سوف نستكشف كيفية إنشاء الجداول في OneNote باستخدام Aspose.Note لـ Java. اتبع الدليل الموضح أدناه خطوة بخطوة لتحسين عملية إنشاء المستند.
 ## المتطلبات الأساسية
@@ -77,3 +83,9 @@ d.save(Paths.get(dataDir, "ComposeTable_out.one").toString());
  قم بزيارة منتدى الدعم[هنا](https://forum.aspose.com/c/note/28).
 ### س: هل يمكنني الحصول على ترخيص مؤقت؟
  نعم، يمكنك الحصول على ترخيص مؤقت[هنا](https://purchase.aspose.com/temporary-license/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

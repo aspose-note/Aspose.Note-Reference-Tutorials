@@ -3,10 +3,16 @@ title: Odzyskaj załączone pliki za pomocą Aspose.Note
 linktitle: Odzyskaj załączone pliki za pomocą Aspose.Note
 second_title: Aspose.Note .NET API
 description: Dowiedz się, jak odzyskać załączone pliki z dokumentów Microsoft OneNote przy użyciu Aspose.Note dla .NET. Postępuj zgodnie z instrukcjami, aby załadować, pobrać węzły i przeglądać załączniki.
-type: docs
 weight: 12
 url: /pl/net/attachments/retrieve-attached-files/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Odzyskaj załączone pliki za pomocą Aspose.Note
+
 ## Wstęp
 
 tym samouczku omówimy, jak odzyskać załączone pliki z dokumentu za pomocą Aspose.Note dla .NET. Aspose.Note to potężny interfejs API, który umożliwia programistom programową pracę z plikami Microsoft OneNote. Podzielimy ten proces na proste kroki, aby ułatwić jego wykonanie.
@@ -90,3 +96,9 @@ Odpowiedź 4: Tak, możesz skorzystać z bezpłatnej wersji próbnej Aspose.Note
 ### P5: Jak mogę uzyskać tymczasową licencję na Aspose.Note?
 
 Odpowiedź 5: Możesz poprosić o tymczasową licencję od Aspose, aby ocenić pełne możliwości API w swoim środowisku programistycznym.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -3,10 +3,16 @@ title: Konvertera OneNote-dokument till bild - Java
 linktitle: Konvertera OneNote-dokument till bild - Java
 second_title: Aspose.Note Java API
 description: Lär dig att konvertera OneNote till bild med Aspose.Note för Java. Följ enkla steg, ladda dokument, initiera alternativ och spara som PNG.
-type: docs
 weight: 14
 url: /sv/java/onenote-document-loading/convert-to-image/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Konvertera OneNote-dokument till bild - Java
+
 ## Introduktion
 
 I den här handledningen guidar vi dig genom processen att använda Aspose.Note för Java för att konvertera ett OneNote-dokument till en bild. Vi delar upp varje steg i instruktioner som är lätta att följa.
@@ -106,3 +112,9 @@ S4: Ja, du kan justera upplösningen och andra parametrar med hjälp av alternat
 ### F5: Kräver Aspose.Note internetanslutning för dokumentkonvertering?
 
 S5: Nej, Aspose.Note fungerar lokalt utan behov av en internetanslutning.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

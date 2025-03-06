@@ -3,10 +3,16 @@ title: Adicionar nó de texto com tag em Aspose.Note
 linktitle: Adicionar nó de texto com tag em Aspose.Note
 second_title: API Aspose.Note .NET
 description: Aprenda como adicionar nós de texto com tags a documentos do OneNote usando Aspose.Note for .NET.
-type: docs
 weight: 12
 url: /pt/net/tag-management/add-text-node-tag/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Adicionar nó de texto com tag em Aspose.Note
+
 ## Introdução
 
 Aspose.Note for .NET é uma biblioteca poderosa que permite aos desenvolvedores criar, manipular e converter arquivos do Microsoft OneNote programaticamente usando o .NET framework. Neste tutorial, exploraremos como adicionar um nó de texto com uma tag a um documento OneNote usando Aspose.Note for .NET.
@@ -107,3 +113,9 @@ A4: Sim, Aspose.Note for .NET oferece suporte à criptografia de documentos para
 ### P5: Onde posso encontrar mais recursos e suporte para Aspose.Note for .NET?
 
  A5: Você pode explorar o[Documentação do Aspose.Note para .NET](https://reference.aspose.com/note/net/) procure ajuda do[Fórum Aspose.Note](https://forum.aspose.com/c/note/28).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

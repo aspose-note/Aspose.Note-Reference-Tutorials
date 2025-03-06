@@ -3,10 +3,16 @@ title: OneNote 文档操作
 linktitle: OneNote 文档操作
 second_title: Aspose.Note Java API
 description: 使用 Aspose.Note 在 Java 中创建、操作和自动化 OneNote 文档。有关文档访问者、格式化富文本和富文本创建的分步教程。
-type: docs
 weight: 21
 url: /zh/java/onenote-document-manipulation/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# OneNote 文档操作
+
 
 ## 介绍
 
@@ -29,3 +35,9 @@ Aspose.Note for Java 提供了一个强大的解决方案来轻松操作 OneNote
 了解如何使用 Aspose.Note for Java 以编程方式在 Java 中创建格式丰富的 OneNote 文档。请遵循我们的无缝文档自动化分步指南。
 ### [使用 Java 创建带有简单富文本的 OneNote 文档](./create-onenote-document-simple-rich-text/)
 了解如何使用 Aspose.Note for Java 创建具有简单富文本的 OneNote 文档。将此功能无缝集成到您的 Java 应用程序中，以实现高效的文档管理。
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

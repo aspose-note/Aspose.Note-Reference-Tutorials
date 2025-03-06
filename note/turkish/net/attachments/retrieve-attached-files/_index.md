@@ -3,10 +3,16 @@ title: Aspose.Note ile Ekli Dosyaları Alın
 linktitle: Aspose.Note ile Ekli Dosyaları Alın
 second_title: Aspose.Note .NET API'si
 description: Aspose.Note for .NET'i kullanarak Microsoft OneNote belgelerinden ekli dosyaları nasıl alacağınızı öğrenin. Yükleme, düğüm alma ve ekleri yineleme adımlarını izleyin.
-type: docs
 weight: 12
 url: /tr/net/attachments/retrieve-attached-files/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Aspose.Note ile Ekli Dosyaları Alın
+
 ## giriiş
 
 Bu eğitimde Aspose.Note for .NET kullanarak bir belgeden ekli dosyaların nasıl alınacağını inceleyeceğiz. Aspose.Note, geliştiricilerin Microsoft OneNote dosyalarıyla programlı olarak çalışmasına olanak tanıyan güçlü bir API'dir. Takip etmeyi kolaylaştırmak için süreci basit adımlara ayıracağız.
@@ -90,3 +96,9 @@ Cevap4: Evet, satın alma kararını vermeden önce Aspose.Note'un özelliklerin
 ### S5: Aspose.Note için nasıl geçici lisans alabilirim?
 
 Cevap5: API'nin geliştirme ortamınızdaki tüm özelliklerini değerlendirmek için Aspose'tan geçici bir lisans talep edebilirsiniz.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

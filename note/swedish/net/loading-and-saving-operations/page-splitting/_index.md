@@ -3,10 +3,16 @@ title: Siddelning i Aspose.Note
 linktitle: Siddelning i Aspose.Note
 second_title: Aspose.Note .NET API
 description: Lär dig hur du effektivt delar upp sidor i Aspose.Note för .NET med hjälp av olika algoritmer. Säkerställ snygg organisation av OneNote-dokument i PDF-format.
-type: docs
 weight: 17
 url: /sv/net/loading-and-saving-operations/page-splitting/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Siddelning i Aspose.Note
+
 ## Introduktion
 
 I den här handledningen kommer vi att undersöka hur du kan dela sidor effektivt med Aspose.Note för .NET. Siddelning är en avgörande funktion, särskilt när man hanterar långa OneNote-sidor som måste konverteras till PDF-format. Aspose.Note erbjuder olika algoritmer för att styra uppdelningslogiken, vilket säkerställer att de resulterande PDF-filerna är välorganiserade och läsbara.
@@ -87,3 +93,9 @@ S4: Aspose.Note riktar sig främst till .NET-ramverket, men det kan användas i 
 ### F5: Var kan jag få hjälp om jag stöter på några problem?
 
  S5: Du kan söka hjälp från Aspose.Notes communityforum[här](https://forum.aspose.com/c/note/28).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

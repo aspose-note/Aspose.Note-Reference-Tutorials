@@ -3,10 +3,16 @@ title: Olvasson gazdag szöveget a OneNote Jegyzetfüzetből – Aspose.Note
 linktitle: Olvasson gazdag szöveget a OneNote Jegyzetfüzetből – Aspose.Note
 second_title: Aspose.Note Java API
 description: Ismerje meg, hogyan olvashat formázott szöveget OneNote-jegyzetfüzetekből az Aspose.Note for Java segítségével. Bővítse Java-alkalmazásait a zökkenőmentes OneNote-integrációval.
-type: docs
 weight: 23
 url: /hu/java/onenote-notebook-operations/read-rich-text/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Olvasson gazdag szöveget a OneNote Jegyzetfüzetből – Aspose.Note
+
 ## Bevezetés
 
 Ebben az oktatóanyagban megvizsgáljuk, hogyan használható az Aspose.Note for Java formázott szöveg olvasásához OneNote-jegyzetfüzetből. Az Aspose.Note egy hatékony Java API, amely lehetővé teszi a fejlesztők számára, hogy zökkenőmentesen dolgozzanak a Microsoft OneNote fájlokkal. Az alábbiakban ismertetett lépések követésével könnyedén kinyerheti a formázott szöveges adatokat, így könnyedén kezelheti és elemezheti a OneNote-tartalmakat.
@@ -91,3 +97,9 @@ Ebben az oktatóanyagban bemutattuk, hogyan olvashat formázott szöveget OneNot
 ### 5. kérdés: Hol találok támogatást az Aspose.Note for Java számára?
 
  V5: Támogatást és segítséget találhat a következő oldalon[Aspose.Note fórum](https://forum.aspose.com/c/note/28).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

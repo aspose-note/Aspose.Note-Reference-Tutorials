@@ -3,10 +3,16 @@ title: 使用 Java 在 OneNote 中附加檔案並設定圖標
 linktitle: 使用 Java 在 OneNote 中附加檔案並設定圖標
 second_title: Aspose.Note Java API
 description: 提升您的 OneNote 工作流程！了解如何使用 Aspose.Note 在 Java 中以程式設計方式附加文件和自訂圖示。包含簡單的步驟和程式碼！ #OneNote #Java #Aspose
-type: docs
 weight: 10
 url: /zh-hant/java/onenote-java-integration/attach-file-and-set-icon/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# 使用 Java 在 OneNote 中附加檔案並設定圖標
+
 ## 介紹
 
 OneNote 是一種流行的筆記和組織資訊工具，在 Aspose.Note for Java 的幫助下，您可以透過以程式設計方式附加檔案和設定圖示來增強其功能，從而改善筆記的視覺表示。在本教程中，我們將逐步指導您完成流程。
@@ -149,3 +155,10 @@ A3：當然，您可以選擇自訂圖示來代表不同類型的附件，增強
 ### Q5：Aspose.Note for Java 有試用版嗎？
 
 A5：是的，您可以透過以下網址免費試用來探索 Aspose.Note for Java 的功能：[這個連結](https://releases.aspose.com/).
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

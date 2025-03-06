@@ -3,10 +3,16 @@ title: Aspose.Note für .NET-Tag-Management-Tutorials
 linktitle: Tag-Management
 second_title: Aspose.Note .NET-API
 description: Meistern Sie Aspose.Note mit Tag-Management. Fügen Sie Bilder, Tabellen und Textknoten hinzu und erstellen Sie Besprechungsnotizen. Rufen Sie Tag-Details ab und verbessern Sie die Dokumentbearbeitung.
-type: docs
 weight: 30
 url: /de/net/tag-management/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Aspose.Note für .NET-Tag-Management-Tutorials
+
 
 ## Einführung
 
@@ -49,3 +55,9 @@ Erfahren Sie, wie Sie Tag-Details aus Aspose.Note-Dokumenten mithilfe von .NET a
 Erfahren Sie, wie Sie Microsoft OneNote-Dateien programmgesteuert mit Aspose.Note für .NET bearbeiten. Projekte mit Tags effizient öffnen und schließen.
 ### [Berichterstellung mit Tags in Aspose.Note](./reporting-tags/)
 Erfahren Sie, wie Sie mit Aspose.Note für .NET aufschlussreiche Berichte aus digitalen Dokumenten erstellen. Schritt-für-Schritt-Anleitung bereitgestellt.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

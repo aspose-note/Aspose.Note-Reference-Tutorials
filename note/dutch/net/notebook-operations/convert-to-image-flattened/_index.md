@@ -3,10 +3,16 @@ title: Converteer notitieboekjes naar afbeelding (afgevlakt) in Aspose Note .NET
 linktitle: Converteer notitieboekjes naar afbeelding (afgevlakt) in Aspose Note .NET
 second_title: Aspose.Note .NET API
 description: Leer hoe u OneNote-notitieboekjes kunt converteren naar afgeplatte afbeeldingen met Aspose.Note voor .NET. Stapsgewijze handleiding voor naadloze integratie.
-type: docs
 weight: 12
 url: /nl/net/notebook-operations/convert-to-image-flattened/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Converteer notitieboekjes naar afbeelding (afgevlakt) in Aspose Note .NET
+
 ## Invoering
 
 In deze zelfstudie leren we hoe u Aspose.Note voor .NET kunt gebruiken om notebooks naar afgevlakte afbeeldingen te converteren. We zullen het proces opsplitsen in eenvoudige stappen, zodat u het kunt begrijpen en effectief kunt implementeren.
@@ -93,3 +99,9 @@ A1: Ja, Aspose.Note voor .NET kan complexe notebooks efficiënt verwerken.
 ### V5: Waar kan ik documentatie vinden voor Aspose.Note voor .NET?
 
  A5: U kunt de documentatie vinden[hier](https://reference.aspose.com/note/net/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -3,10 +3,16 @@ title: Converter cadernos em PDF (achatado) no Aspose Note .NET
 linktitle: Converter cadernos em PDF (achatado) no Aspose Note .NET
 second_title: API Aspose.Note .NET
 description: Aprenda como converter blocos de anotações do OneNote em PDFs nivelados sem esforço usando Aspose.Note para .NET. Preserve seu conteúdo perfeitamente.
-type: docs
 weight: 15
 url: /pt/net/notebook-operations/convert-to-pdf-flattened/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Converter cadernos em PDF (achatado) no Aspose Note .NET
+
 ## Introdução
 
 Você deseja converter seus blocos de anotações do OneNote em PDFs nivelados usando o Aspose Note .NET? Você está no lugar certo! Neste tutorial, percorreremos o processo passo a passo.
@@ -91,3 +97,9 @@ A3: Com certeza! Aspose.Note oferece amplas opções de personalização durante
 ### P5: Onde posso obter suporte se encontrar algum problema?
 
  A5: Você pode buscar suporte na comunidade Aspose em[Fóruns Aspose.Note](https://forum.aspose.com/c/note/28).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

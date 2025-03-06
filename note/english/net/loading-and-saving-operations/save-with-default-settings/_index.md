@@ -3,10 +3,16 @@ title: Save with Default Settings in Aspose.Note
 linktitle: Save with Default Settings in Aspose.Note
 second_title: Aspose.Note .NET API
 description: Learn how to save a document with default settings in Aspose.Note for .NET through a step-by-step guide.
-type: docs
 weight: 29
 url: /net/loading-and-saving-operations/save-with-default-settings/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Save with Default Settings in Aspose.Note
+
 ## Introduction
 
 In the realm of .NET development, Aspose.Note stands out as a powerful tool for working with Microsoft OneNote files. Whether you're handling note-taking applications, digital notebooks, or any other related project, Aspose.Note provides the necessary functionality to streamline your development process. In this tutorial, we will delve into the process of saving a document with default settings using Aspose.Note for .NET. We'll break down each step, ensuring clarity and understanding for developers of all levels.
@@ -86,3 +92,10 @@ A4: You can get support by visiting the [Aspose.Note forum](https://forum.aspose
 ### Q5: Can I try Aspose.Note before purchasing?
 
 A5: Yes, you can download a free trial from the [website](https://releases.aspose.com/) to explore Aspose.Note's features before making a purchase.
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -3,10 +3,16 @@ title: 在 OneNote 中將筆記本轉換為平面圖像 - Aspose.Note
 linktitle: 在 OneNote 中將筆記本轉換為平面圖像 - Aspose.Note
 second_title: Aspose.Note Java API
 description: 了解如何使用 Aspose.Note for Java 將筆記本轉換為 OneNote 中的拼合圖。輕鬆地將所有元素保留在單一影像檔案中。
-type: docs
 weight: 13
 url: /zh-hant/java/onenote-notebook-operations/convert-notebook-to-flattened-image/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# 在 OneNote 中將筆記本轉換為平面圖像 - Aspose.Note
+
 ## 介紹
 
 在本教程中，我們將引導您完成使用 Aspose.Note for Java 在 OneNote 中將筆記本轉換為平面圖像的過程。這允許您將筆記本另存為圖像文件，確保所有元素都以單一圖像格式保留。
@@ -108,3 +114,9 @@ A3：是的，Aspose.Note 提供了豐富的選項用於自訂輸出影像，包
 ### Q5：哪裡可以找到 Aspose.Note for Java 的支援？
 
  A5：您可以在 Aspose.Note 論壇上找到支援和資源[這裡](https://forum.aspose.com/c/note/28).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

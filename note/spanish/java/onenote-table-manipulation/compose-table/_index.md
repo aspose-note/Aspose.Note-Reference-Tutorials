@@ -3,10 +3,16 @@ title: Redactar tabla en OneNote - Aspose.Note
 linktitle: Redactar tabla en OneNote - Aspose.Note
 second_title: Aspose.Nota Java API
 description: Aprenda a componer tablas en OneNote mediante programación usando Aspose.Note para Java. Guía paso a paso para la creación eficiente de documentos.
-type: docs
 weight: 11
 url: /es/java/onenote-table-manipulation/compose-table/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Redactar tabla en OneNote - Aspose.Note
+
 ## Introducción
 En el competitivo entorno empresarial actual, la comunicación y la colaboración efectivas son factores clave para lograr el éxito. Aspose.Note para Java proporciona una poderosa solución para crear y manipular documentos OneNote mediante programación. En este tutorial, exploraremos cómo redactar tablas en OneNote usando Aspose.Note para Java. Siga la guía paso a paso a continuación para mejorar el proceso de creación de documentos.
 ## Requisitos previos
@@ -77,3 +83,9 @@ Guarde su documento compuesto con un nombre de archivo y una ruta de directorio 
  Visita el foro de soporte[aquí](https://forum.aspose.com/c/note/28).
 ### P: ¿Puedo obtener una licencia temporal?
  Sí, puedes obtener una licencia temporal.[aquí](https://purchase.aspose.com/temporary-license/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -3,10 +3,16 @@ title: Converti taccuini in PDF (appiattito) in Aspose Note .NET
 linktitle: Converti taccuini in PDF (appiattito) in Aspose Note .NET
 second_title: Aspose.Note API .NET
 description: Scopri come convertire i taccuini OneNote in PDF appiattiti senza sforzo utilizzando Aspose.Note per .NET. Conserva i tuoi contenuti senza problemi.
-type: docs
 weight: 15
 url: /it/net/notebook-operations/convert-to-pdf-flattened/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Converti taccuini in PDF (appiattito) in Aspose Note .NET
+
 ## introduzione
 
 Stai cercando di convertire i tuoi taccuini OneNote in PDF appiattiti utilizzando Aspose Note .NET? Sei nel posto giusto! In questo tutorial, seguiremo il processo passo dopo passo.
@@ -91,3 +97,9 @@ A3: Assolutamente! Aspose.Note fornisce ampie opzioni per la personalizzazione d
 ### Q5: Dove posso ottenere supporto se riscontro problemi?
 
  R5: Puoi chiedere supporto alla comunità Aspose all'indirizzo[Aspose.Note forum](https://forum.aspose.com/c/note/28).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

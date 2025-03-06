@@ -3,10 +3,16 @@ title: 在Aspose.Note中添加带标签的表节点
 linktitle: 在Aspose.Note中添加带标签的表节点
 second_title: Aspose.Note .NET API
 description: 了解如何在 Aspose.Note for .NET 中添加带有标签的表格。以编程方式增强您的文档操作技能。
-type: docs
 weight: 11
 url: /zh/net/tag-management/add-table-node-tag/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# 在Aspose.Note中添加带标签的表节点
+
 ## 介绍
 
 在本教程中，我们将指导您完成使用 Aspose.Note for .NET 添加带有标签的表节点的过程。请按照以下步骤来实现此目的。
@@ -137,3 +143,9 @@ A4：是的，Aspose.Note提供了对OneNote文档加密的支持，以确保数
 ### Q5：Aspose.Note 用户可以获得技术支持吗？
 
  A5：是的，通过 Aspose 论坛提供技术支持[这里](https://forum.aspose.com/c/note/28)，您可以在这里寻求专家的帮助。
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

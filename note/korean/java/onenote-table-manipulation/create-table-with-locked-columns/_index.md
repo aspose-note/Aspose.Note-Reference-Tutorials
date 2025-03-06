@@ -3,10 +3,16 @@ title: OneNote에서 잠긴 열이 있는 테이블 만들기 - Aspose.Note
 linktitle: OneNote에서 잠긴 열이 있는 테이블 만들기 - Aspose.Note
 second_title: Aspose.Note 자바 API
 description: Java용 Aspose.Note로 OneNote 경험을 향상하세요. 단계별 가이드를 사용하여 잠긴 열이 있는 테이블을 만드는 방법을 알아보세요. 지금 무료 평가판을 다운로드하세요!
-type: docs
 weight: 12
 url: /ko/java/onenote-table-manipulation/create-table-with-locked-columns/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# OneNote에서 잠긴 열이 있는 테이블 만들기 - Aspose.Note
+
 ## 소개
 OneNote는 정보를 정리하는 강력한 도구이며, Aspose.Note for Java는 잠긴 열이 있는 테이블을 생성하는 원활한 방법을 제공하여 기능을 향상시킵니다. 이 튜토리얼에서는 Java용 Aspose.Note를 사용하여 OneNote에서 잠긴 열이 있는 테이블을 만드는 과정을 안내합니다.
 ## 전제조건
@@ -90,3 +96,9 @@ doc.save(dataDir);
  방문하다[Aspose.Note 포럼](https://forum.aspose.com/c/note/28) 지원 및 커뮤니티 토론을 위해.
 ### Aspose.Note for Java의 임시 라이선스를 어떻게 얻을 수 있나요?
  방문하다[이 링크](https://purchase.aspose.com/temporary-license/) 테스트 목적으로 임시 라이센스를 취득합니다.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

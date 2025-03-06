@@ -3,10 +3,16 @@ title: 在 OneNote 中立即載入筆記本 - Aspose.Note
 linktitle: 在 OneNote 中立即載入筆記本 - Aspose.Note
 second_title: Aspose.Note Java API
 description: 了解如何使用 Aspose.Note for Java 在 Java 中即時載入 OneNote 筆記本。透過高效率的筆記本處理提高您的工作效率。
-type: docs
 weight: 21
 url: /zh-hant/java/onenote-notebook-operations/load-notebook-instantly/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# 在 OneNote 中立即載入筆記本 - Aspose.Note
+
 ## 介紹
 
 在本教程中，我們將引導您完成使用 Aspose.Note for Java 在 OneNote 中立即載入筆記本的過程。 Aspose.Note 是一個功能強大的 Java API，允許開發人員以程式設計方式使用 Microsoft OneNote 檔案。
@@ -87,3 +93,9 @@ A2：Aspose.Note for Java 支援各種版本的 OneNote 文件，包括 .one、.
 ### Q5：如何取得 Aspose.Note for Java 的臨時授權？
 
  A5：您可以向以下機構申請臨時許可證：[臨時許可證頁面](https://purchase.aspose.com/temporary-license/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

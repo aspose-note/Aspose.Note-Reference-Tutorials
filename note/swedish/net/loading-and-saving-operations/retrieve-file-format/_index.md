@@ -3,10 +3,16 @@ title: Hämta filformat i Aspose.Note
 linktitle: Hämta filformat i Aspose.Note
 second_title: Aspose.Note .NET API
 description: Utforska Aspose.Note för .NET, ett kraftfullt API för att arbeta med Microsoft OneNote-dokument programmatiskt.
-type: docs
 weight: 19
 url: /sv/net/loading-and-saving-operations/retrieve-file-format/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Hämta filformat i Aspose.Note
+
 ## Introduktion
 
 Aspose.Note för .NET är ett kraftfullt API som låter utvecklare arbeta med Microsoft OneNote-dokument programmatiskt. Oavsett om du behöver skapa, manipulera eller konvertera OneNote-filer, förenklar Aspose.Note processen med sin intuitiva och omfattande uppsättning funktioner.
@@ -83,3 +89,9 @@ S3: Ja, du kan utforska Aspose.Notes möjligheter med en gratis testversion till
 ### F5: Behöver jag en tillfällig licens för utvärderingssyften?
 
  S5: Medan den kostnadsfria testperioden låter dig testa Aspose.Note, kan du välja en tillfällig licens för utökad utvärdering. Besök[här](https://purchase.aspose.com/temporary-license/) för mer detaljer.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -3,10 +3,16 @@ title: 透過 Java 在 OneNote 中使用文件存取器
 linktitle: 透過 Java 在 OneNote 中使用文件存取器
 second_title: Aspose.Note Java API
 description: 了解如何使用 Java 和 Aspose.Note 在 OneNote 中使用文件存取器。無縫遍歷和操作 OneNote 文件。
-type: docs
 weight: 10
 url: /zh-hant/java/onenote-document-manipulation/using-document-visitor/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# 透過 Java 在 OneNote 中使用文件存取器
+
 ## 介紹
 
 在本教學中，我們將探討如何使用 Java 和 Aspose.Note 在 OneNote 中使用文件存取器。文件訪客允許遍歷 OneNote 文件的元素並對它們執行操作。我們將逐步指導您完成整個過程。
@@ -95,3 +101,9 @@ A1：是的，Aspose.Note支援各種程式語言，包括.NET、C++、Python等
 ### Q5：Aspose.Note 有可用的文件嗎？
 
  A5：是的，您可以找到文檔[這裡](https://reference.aspose.com/note/java/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

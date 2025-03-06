@@ -3,10 +3,16 @@ title: Aspose.Note 中受密碼保護的文檔
 linktitle: Aspose.Note 中受密碼保護的文檔
 second_title: Aspose.Note .NET API
 description: 了解如何使用 Aspose.Note for .NET 處理受密碼保護的文件。輕鬆保護您的敏感資訊。
-type: docs
 weight: 18
 url: /zh-hant/net/loading-and-saving-operations/password-protected-document/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Aspose.Note 中受密碼保護的文檔
+
 ## 介紹
 
 在本教學中，我們將逐步介紹使用 Aspose.Note for .NET 處理受密碼保護的文件的過程。密碼保護為您的文件增加了額外的安全層，確保只有授權使用者才能存取它們。
@@ -82,3 +88,9 @@ A4：雖然根據所使用的加密演算法可能會有一些限制，但一般
 ### 問題 5：我可以自動化處理受密碼保護的文件的過程嗎？
 
 A5：是的，您可以使用腳本或排程任務自動化流程，以有效處理受密碼保護的文件。
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

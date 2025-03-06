@@ -3,10 +3,16 @@ title: Hypertextové odkazy a obrázky OneNotu
 linktitle: Hypertextové odkazy a obrázky OneNotu
 second_title: Aspose.Note Java API
 description: Vylepšete své prostředí OneNote pomocí výukových programů Aspose.Note for Java. Naučte se přidávat hypertextové odkazy, vkládat obrázky a extrahovat informace o obrázcích bez problémů s vývojem v Javě.
-type: docs
 weight: 22
 url: /cs/java/onenote-hyperlinks-images/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Hypertextové odkazy a obrázky OneNotu
+
 
 ## Úvod
 
@@ -48,3 +54,9 @@ Naučte se, jak extrahovat obrázky z dokumentů OneNotu pomocí Java s knihovno
 Naučte se extrahovat informace o obrázcích z dokumentů OneNotu pomocí Javy s Aspose.Note. Snadné kroky pro vývojáře.
 ### [Vložte obrázek do dokumentu OneNotu s Java](./insert-image/)
 Naučte se vkládat obrázky do dokumentů OneNotu pomocí Java s knihovnou Aspose.Note for Java. Postupujte podle našeho podrobného průvodce pro bezproblémovou integraci.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

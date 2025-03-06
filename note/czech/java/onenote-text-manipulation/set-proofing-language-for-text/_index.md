@@ -3,10 +3,16 @@ title: Nastavit jazyk kontroly pravopisu pro text ve OneNotu – Aspose.Note
 linktitle: Nastavit jazyk kontroly pravopisu pro text ve OneNotu – Aspose.Note
 second_title: Aspose.Note Java API
 description: Odemkněte potenciál Aspose.Note pro Javu! Naučte se, jak plynule nastavit jazyk kontroly pravopisu pro text ve OneNotu, pomocí našeho podrobného průvodce.
-type: docs
 weight: 22
 url: /cs/java/onenote-text-manipulation/set-proofing-language-for-text/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Nastavit jazyk kontroly pravopisu pro text ve OneNotu – Aspose.Note
+
 ## Úvod
 V dynamickém světě vývoje softwaru vyniká Aspose.Note for Java jako výkonný nástroj pro správu a manipulaci s dokumenty OneNote programově. Pokud chcete vylepšit své Java aplikace o možnost nastavit jazyk kontroly pravopisu pro text ve OneNotu, jste na správném místě. Tento tutoriál vás provede procesem krok za krokem a zajistí, že každý koncept jasně pochopíte.
 ## Předpoklady
@@ -67,3 +73,9 @@ Odpověď: Implementujte mechanismy zpracování chyb pomocí bloků try-catch k
 A: Určitě! Ujistěte se, že máte ve svém webovém projektu správně nakonfigurovanou knihovnu Aspose.Note for Java.
 ### Otázka: Kde najdu další příklady a dokumentaci k Aspose.Note pro Javu?
  A: Prozkoumejte[dokumentace](https://reference.aspose.com/note/java/) pro komplexní zdroje.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

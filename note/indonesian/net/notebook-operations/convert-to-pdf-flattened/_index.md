@@ -3,10 +3,16 @@ title: Konversi Buku Catatan ke PDF (Diratakan) di Aspose Note .NET
 linktitle: Konversi Buku Catatan ke PDF (Diratakan) di Aspose Note .NET
 second_title: Aspose.Catatan .NET API
 description: Pelajari cara mengonversi buku catatan OneNote menjadi PDF yang diratakan dengan mudah menggunakan Aspose.Note untuk .NET. Pertahankan konten Anda dengan lancar.
-type: docs
 weight: 15
 url: /id/net/notebook-operations/convert-to-pdf-flattened/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Konversi Buku Catatan ke PDF (Diratakan) di Aspose Note .NET
+
 ## Perkenalan
 
 Apakah Anda ingin mengonversi buku catatan OneNote Anda menjadi PDF rata menggunakan Aspose Note .NET? Anda berada di tempat yang tepat! Dalam tutorial ini, kita akan menjalani prosesnya langkah demi langkah.
@@ -91,3 +97,9 @@ A3: Tentu saja! Aspose.Note memberikan opsi penyesuaian yang luas selama proses 
 ### Q5: Di mana saya bisa mendapatkan dukungan jika saya mengalami masalah?
 
  A5: Anda dapat mencari dukungan dari komunitas Aspose di[Forum Aspose.Note](https://forum.aspose.com/c/note/28).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

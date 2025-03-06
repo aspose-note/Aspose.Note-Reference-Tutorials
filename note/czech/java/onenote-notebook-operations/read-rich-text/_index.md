@@ -3,10 +3,16 @@ title: Číst formátovaný text z OneNote Notebook – Aspose.Note
 linktitle: Číst formátovaný text z OneNote Notebook – Aspose.Note
 second_title: Aspose.Note Java API
 description: Naučte se číst formátovaný text z poznámkových bloků OneNote pomocí Aspose.Note pro Java. Vylepšete své Java aplikace pomocí bezproblémové integrace OneNotu.
-type: docs
 weight: 23
 url: /cs/java/onenote-notebook-operations/read-rich-text/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Číst formátovaný text z OneNote Notebook – Aspose.Note
+
 ## Úvod
 
 V tomto kurzu se ponoříme do toho, jak používat Aspose.Note pro Java ke čtení formátovaného textu z poznámkového bloku OneNote. Aspose.Note je výkonné Java API, které umožňuje vývojářům bezproblémově pracovat se soubory Microsoft OneNote. Podle níže uvedených kroků budete moci bez námahy extrahovat data formátovaného textu, což vám umožní snadno manipulovat a analyzovat obsah OneNotu.
@@ -91,3 +97,9 @@ Odpověď 2: Aspose.Note for Java podporuje různé verze Microsoft OneNote a za
 ### Q5: Kde najdu podporu pro Aspose.Note pro Java?
 
  A5: Podporu a pomoc najdete na[Aspose.Note fórum](https://forum.aspose.com/c/note/28).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -3,10 +3,16 @@ title: OneNote'ta Outlook Görevini Alma - Aspose.Note
 linktitle: OneNote'ta Outlook Görevini Alma - Aspose.Note
 second_title: Aspose.Note Java API'si
 description: OneNote belgelerinden Outlook Görevi ayrıntılarını zahmetsizce çıkarma konusunda Aspose.Note for Java'nın potansiyelini keşfedin. Bu sağlam kitaplıkla Java gelişiminizi geliştirin.
-type: docs
 weight: 10
 url: /tr/java/onenote-text-manipulation/get-outlook-task/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# OneNote'ta Outlook Görevini Alma - Aspose.Note
+
 ## giriiş
 Java geliştiricilerinin Microsoft OneNote dosyalarıyla sorunsuz bir şekilde çalışmasını sağlayan güçlü bir araç olan Aspose.Note for Java dünyasına hoş geldiniz. Bu adım adım kılavuzda, Aspose.Note for Java'yı kullanarak Outlook Görev bilgilerini OneNote belgesinden çıkarma sürecinde size yol göstereceğiz.
 ## Önkoşullar
@@ -72,3 +78,9 @@ C: Evet, Aspose.Note for Java çeşitli Java çerçeveleriyle uyumludur ve enteg
  C: Bkz.[Java belgeleri için Aspose.Note](https://reference.aspose.com/note/java/) derinlemesine bilgi için.
 ### S: Aspose.Note for Java için nasıl geçici lisans edinebilirim?
  C: Geçici lisansınızı alın[Burada](https://purchase.aspose.com/temporary-license/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -3,10 +3,16 @@ title: OneNote 笔记本操作
 linktitle: OneNote 笔记本操作
 second_title: Aspose.Note Java API
 description: 通过我们的 OneNote 笔记本操作教程释放 Aspose.Note for Java 的全部潜力。提供增强 Java 应用程序的分步指南。
-type: docs
 weight: 28
 url: /zh/java/onenote-notebook-operations/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# OneNote 笔记本操作
+
 
 ## 介绍
 
@@ -66,3 +72,9 @@ url: /zh/java/onenote-notebook-operations/
 了解如何使用 Aspose.Note for Java 将笔记本保存到 OneNote 中的流。通过高效的笔记本管理提高工作效率。
 ### [在 OneNote 中写入受密码保护的文档 - Aspose.Note](./write-password-protected-document/)
 了解如何使用 Aspose.Note for Java 在 OneNote 中编写受密码保护的文档。通过易于遵循的步骤确保安全。
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

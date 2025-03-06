@@ -3,10 +3,16 @@ title: Získejte revize stránky ve OneNotu – Aspose.Note
 linktitle: Získejte revize stránky ve OneNotu – Aspose.Note
 second_title: Aspose.Note Java API
 description: Přečtěte si, jak načíst revize stránek ve OneNotu pomocí Aspose.Note pro Java. Postupujte podle našeho podrobného průvodce pro efektivní sledování změn.
-type: docs
 weight: 14
 url: /cs/java/onenote-page-manipulation/get-page-revisions/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Získejte revize stránky ve OneNotu – Aspose.Note
+
 ## Úvod
 
 OneNote je výkonný nástroj pro organizování a správu poznámek, ale někdy potřebujete sledovat změny a revize provedené na vašich stránkách. S Aspose.Note pro Java můžete snadno programově načíst revize stránek. V tomto kurzu vás provedeme procesem získávání revizí stránek ve OneNotu pomocí Aspose.Note pro Java.
@@ -107,3 +113,9 @@ Odpověď 3: Ano, k použití Aspose.Note pro Java v komerčních projektech si 
 ### Q5: Je k dispozici bezplatná zkušební verze pro Aspose.Note pro Java?
 
  A5: Ano, máte přístup k bezplatné zkušební verzi Aspose.Note pro Java z[webová stránka](https://releases.aspose.com/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

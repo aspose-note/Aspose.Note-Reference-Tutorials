@@ -3,10 +3,16 @@ title: 在Aspose.Note中修改页面历史记录
 linktitle: 在Aspose.Note中修改页面历史记录
 second_title: Aspose.Note .NET API
 description: 使用此综合教程了解如何在 Aspose.Note for .NET 中修改页面历史记录。轻松增强您的文档处理能力。
-type: docs
 weight: 15
 url: /zh/net/note-manipulation/modify-page-history/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# 在Aspose.Note中修改页面历史记录
+
 ## 介绍
 
 在文档处理领域，Aspose.Note for .NET 成为一款强大的工具，使开发人员能够轻松操作 OneNote 文件。开发人员遇到的一项常见任务是修改 Aspose.Note 文档中的页面历史记录。本教程逐步阐明该过程，指导您完成必要的命名空间、先决条件和代码片段，以使用 Aspose.Note for .NET 有效地更改页面历史记录。
@@ -94,3 +100,10 @@ A4：是的，开发人员可以从专门针对 Aspose.Note for .NET 的 Aspose 
 ### Q5：我可以在购买前试用 Aspose.Note for .NET 吗？
 
 A5：当然，开发人员可以利用 Aspose.Note for .NET 的免费试用版来评估其功能和对其项目的适用性。
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

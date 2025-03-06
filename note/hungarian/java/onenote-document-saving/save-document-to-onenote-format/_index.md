@@ -3,10 +3,16 @@ title: Dokumentum mentése OneNote formátumba – Aspose.Note
 linktitle: Dokumentum mentése OneNote formátumba – Aspose.Note
 second_title: Aspose.Note Java API
 description: Ismerje meg, hogyan menthet dokumentumokat OneNote formátumba az Aspose.Note for Java használatával. Kövesse lépésenkénti útmutatónkat a zökkenőmentes integráció érdekében.
-type: docs
 weight: 10
 url: /hu/java/onenote-document-saving/save-document-to-onenote-format/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Dokumentum mentése OneNote formátumba – Aspose.Note
+
 ## Bevezetés
 
 Üdvözöljük a dokumentumok OneNote formátumba történő mentéséről szóló oktatóanyagban az Aspose.Note for Java használatával. Az Aspose.Note egy hatékony Java-könyvtár, amely lehetővé teszi a Microsoft OneNote-fájlok programozott kezelését, így könnyedén hozhat létre, kezelhet és konvertálhat OneNote-dokumentumokat.
@@ -90,3 +96,9 @@ Végül ez a kód elmenti a betöltött OneNote-dokumentumot a megadott kimeneti
 ### 5. kérdés: Hol találom az Aspose.Note for Java részletes dokumentációját?
 
  5. válasz: Hozzáférhet a részletes dokumentációhoz[itt](https://reference.aspose.com/note/java/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -3,10 +3,16 @@ title: Als Graustufenbild in OneNote speichern – Aspose.Note
 linktitle: Als Graustufenbild in OneNote speichern – Aspose.Note
 second_title: Aspose.Note Java API
 description: Erfahren Sie, wie Sie mit Aspose.Note für Java ein Dokument als Graustufenbild in OneNote speichern. Bearbeiten Sie Microsoft OneNote-Dokumente ganz einfach programmgesteuert.
-type: docs
 weight: 17
 url: /de/java/onenote-document-saving/save-to-grayscale-image/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Als Graustufenbild in OneNote speichern – Aspose.Note
+
 ## Einführung
 
 In diesem Tutorial erfahren Sie, wie Sie mit Aspose.Note für Java ein Dokument als Graustufenbild in OneNote speichern. Graustufenbilder sind monochromatische Bilder, bei denen die Farbinformationen nur durch Graustufen dargestellt werden. Aspose.Note ist eine leistungsstarke Java-API, die die programmgesteuerte Bearbeitung von Microsoft OneNote-Dokumenten ermöglicht.
@@ -83,3 +89,9 @@ A4: Auf jeden Fall! Aspose.Note bietet zahlreiche Funktionen zum programmgesteue
 ### F5: Wo finde ich Unterstützung, wenn ich auf Probleme stoße?
 
 A5: Unterstützung finden Sie im Aspose.Note-Forum[Hier](https://forum.aspose.com/c/note/28).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

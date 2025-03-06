@@ -3,10 +3,16 @@ title: Revisies terugdraaien in Aspose.Note-documenten
 linktitle: Revisies terugdraaien in Aspose.Note-documenten
 second_title: Aspose.Note .NET API
 description: Leer hoe u revisies in Aspose.Note-documenten effectief kunt beheren met Aspose.Note voor .NET. Volg een stapsgewijze handleiding om revisies naadloos terug te draaien.
-type: docs
 weight: 18
 url: /nl/net/note-manipulation/roll-back-document-revisions/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Revisies terugdraaien in Aspose.Note-documenten
+
 ## Invoering
 
 In de wereld van documentbeheer en -bewerking is het van cruciaal belang om de mogelijkheid te hebben om wijzigingen bij te houden en naadloos terug te keren naar eerdere versies. Aspose.Note voor .NET biedt krachtige tools om revisies effectief te beheren, zodat u wijzigingen ongedaan kunt maken wanneer dat nodig is. In deze zelfstudie gaan we stap voor stap in op het proces van het terugdraaien van revisies in Aspose.Note-documenten.
@@ -99,3 +105,9 @@ A4: Ja, u kunt de rollback-functionaliteit in uw applicaties integreren en het p
 ### V5: Biedt Aspose.Note ondersteuning als ik problemen ondervind tijdens het terugdraaiproces?
 
  A5: Ja, Aspose biedt speciale ondersteuning via hun forums. U kunt een bezoek brengen aan de[Aspose.Note-forum](https://forum.aspose.com/c/note/28) Voor assistentie.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

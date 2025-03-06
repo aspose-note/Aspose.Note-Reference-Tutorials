@@ -3,10 +3,16 @@ title: Extract Text from Table Rows in Aspose.Note
 linktitle: Extract Text from Table Rows in Aspose.Note
 second_title: Aspose.Note .NET API
 description: Learn how to extract text from table rows in Aspose.Note for .NET with this comprehensive tutorial.
-type: docs
 weight: 14
 url: /net/table-manipulation/extract-text-row/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Extract Text from Table Rows in Aspose.Note
+
 ## Introduction
 
 In the realm of document processing, Aspose.Note for .NET stands as a robust solution that empowers developers to efficiently manipulate OneNote files programmatically. Among its myriad capabilities, extracting text from table rows is a common task developers encounter. This tutorial will guide you through the process of extracting text from table rows using Aspose.Note for .NET.
@@ -98,3 +104,10 @@ A4: Yes, technical support is provided via the [Aspose.Note forum](https://forum
 ### Q5: Can I try Aspose.Note for .NET before purchasing?
 
 A5: Certainly, you can avail of a free trial from the [release page](https://releases.aspose.com/) to explore its features and capabilities.
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

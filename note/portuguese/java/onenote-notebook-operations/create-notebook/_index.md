@@ -3,10 +3,16 @@ title: Crie um bloco de anotações no OneNote - Aspose.Note
 linktitle: Crie um bloco de anotações no OneNote - Aspose.Note
 second_title: API Java Aspose.Note
 description: Aprenda como criar blocos de anotações no OneNote programaticamente usando Aspose.Note para Java. Simplifique seu fluxo de trabalho com este guia passo a passo.
-type: docs
 weight: 18
 url: /pt/java/onenote-notebook-operations/create-notebook/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Crie um bloco de anotações no OneNote - Aspose.Note
+
 ## Introdução
 
 Neste tutorial, mergulharemos no mundo da criação de cadernos no OneNote usando Aspose.Note para Java. Aspose.Note é uma biblioteca Java poderosa que permite aos desenvolvedores trabalhar com arquivos do Microsoft OneNote programaticamente. Quer você seja um desenvolvedor experiente ou esteja apenas começando, este guia passo a passo irá orientá-lo no processo de criação de notebooks sem esforço.
@@ -86,3 +92,9 @@ A3: Com certeza! Aspose.Note for Java foi projetado para se integrar perfeitamen
 ### Q5: Onde posso obter suporte para Aspose.Note para Java?
 
  A5: Para qualquer assistência ou dúvida sobre Aspose.Note for Java, você pode visitar o[Fórum Aspose.Note](https://forum.aspose.com/c/note/28) para interagir com a comunidade e obter orientação especializada.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

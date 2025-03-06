@@ -3,10 +3,16 @@ title: Pobierz tekst komórkowy z wiersza tabeli w programie OneNote — Aspose.
 linktitle: Pobierz tekst komórkowy z wiersza tabeli w programie OneNote — Aspose.Note
 second_title: Aspose.Note API Java
 description: Odblokuj sekrety ekstrakcji tekstu z tabel OneNote w Javie za pomocą Aspose.Note. Postępuj zgodnie z naszym przewodnikiem krok po kroku, aby udoskonalić swoje umiejętności przetwarzania dokumentów.
-type: docs
 weight: 15
 url: /pl/java/onenote-table-manipulation/get-cell-text-from-row/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Pobierz tekst komórkowy z wiersza tabeli w programie OneNote — Aspose.Note
+
 ## Wstęp
 Wyrusz w podróż do świata programowania w języku Java, odkrywając proces wyodrębniania tekstu z wierszy tabeli OneNote przy użyciu potężnej biblioteki Aspose.Note. Ten przewodnik krok po kroku wyposaży Cię w umiejętności skutecznego poruszania się po tekście i manipulowania nim w tabelach.
 ## Warunki wstępne
@@ -73,3 +79,9 @@ Absolutnie! Czeka na Ciebie bezpłatna wersja próbna[Tutaj](https://releases.as
  Dołącz do tętniącej życiem społeczności Aspose.Note pod adresem[forum](https://forum.aspose.com/c/note/28) za dyskusję i pomoc.
 ### Czy dostępne są przykładowe dokumenty do celów testowych?
 Zagłęb się w dokumentację Aspose.Note, gdzie znajdziesz skarbnicę przykładowych dokumentów i fragmentów kodu.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

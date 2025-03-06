@@ -3,10 +3,16 @@ title: عمليات دفتر ملاحظات OneNote
 linktitle: عمليات دفتر ملاحظات OneNote
 second_title: Aspose.Note جافا API
 description: أطلق العنان للإمكانات الكاملة لـ Aspose.Note لـ Java من خلال البرامج التعليمية لعمليات OneNote Notebook. قم بتوفير دليل خطوة بخطوة لتحسين تطبيقات Java الخاصة بك.
-type: docs
 weight: 28
 url: /ar/java/onenote-notebook-operations/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# عمليات دفتر ملاحظات OneNote
+
 
 ## مقدمة
 
@@ -66,3 +72,9 @@ url: /ar/java/onenote-notebook-operations/
 تعرف على كيفية حفظ دفاتر الملاحظات في التدفقات في OneNote باستخدام Aspose.Note لـ Java. عزز الإنتاجية من خلال إدارة أجهزة الكمبيوتر المحمولة بكفاءة.
 ### [كتابة مستند محمي بكلمة مرور في OneNote - Aspose.Note](./write-password-protected-document/)
 تعرف على كيفية كتابة مستندات محمية بكلمة مرور في OneNote باستخدام Aspose.Note لـ Java. ضمان الأمان من خلال خطوات سهلة المتابعة.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

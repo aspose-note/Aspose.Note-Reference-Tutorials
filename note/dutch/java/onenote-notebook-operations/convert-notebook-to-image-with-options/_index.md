@@ -3,10 +3,16 @@ title: Converteer notitieboekje naar afbeelding met opties in OneNote - Aspose.N
 linktitle: Converteer notitieboekje naar afbeelding met opties in OneNote - Aspose.Note
 second_title: Aspose.Note Java-API
 description: Leer hoe u een notitieblok naar een afbeelding met opties converteert met behulp van Aspose.Note voor Java. Volg onze stap-voor-stap handleiding voor een naadloze integratie in uw Java-applicaties.
-type: docs
 weight: 14
 url: /nl/java/onenote-notebook-operations/convert-notebook-to-image-with-options/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Converteer notitieboekje naar afbeelding met opties in OneNote - Aspose.Note
+
 ## Invoering
 
 In deze tutorial gaan we dieper in op het proces van het converteren van een Notebook naar een afbeelding met verschillende opties met behulp van Aspose.Note voor Java. Aspose.Note is een krachtige Java API waarmee ontwikkelaars programmatisch met Microsoft OneNote-bestanden kunnen werken, waardoor een naadloze integratie in hun Java-applicaties mogelijk is.
@@ -89,3 +95,9 @@ A4: Ja, Aspose biedt uitstekende ondersteuning voor ontwikkelaars via hun forums
 ### V5: Is er een gratis proefversie beschikbaar voor Aspose.Note voor Java?
 
  A5: Ja, u kunt profiteren van een gratis proefversie van Aspose.Note voor Java vanaf[hier](https://releases.aspose.com/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -3,10 +3,16 @@ title: Přidejte podřízené uzly v Aspose Note .NET
 linktitle: Přidejte podřízené uzly v Aspose Note .NET
 second_title: Aspose.Note .NET API
 description: Naučte se, jak snadno přidat podřízené uzly do Aspose Note .NET pomocí tohoto komplexního kurzu. Zlepšete své dovednosti v manipulaci s dokumenty.
-type: docs
 weight: 10
 url: /cs/net/notebook-operations/add-child-nodes/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Přidejte podřízené uzly v Aspose Note .NET
+
 ## Úvod
 
 tomto tutoriálu se naučíme, jak přidat podřízené uzly v Aspose Note .NET. Přidání podřízených uzlů je základní operací při práci s dokumenty a Aspose Note .NET poskytuje přímý způsob, jak tento úkol splnit.
@@ -89,3 +95,9 @@ Gratulujeme! Úspěšně jste se naučili, jak přidat podřízené uzly v Aspos
 ### Q5: Obsahuje Aspose.Note pro .NET dokumentaci?
 
  A5: Ano, můžete najít podrobnou dokumentaci[tady](https://reference.aspose.com/note/net/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

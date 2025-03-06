@@ -3,10 +3,16 @@ title: Đọc văn bản có định dạng từ sổ tay OneNote - Aspose.Note
 linktitle: Đọc văn bản có định dạng từ sổ tay OneNote - Aspose.Note
 second_title: API Java Aspose.Note
 description: Tìm hiểu cách đọc văn bản đa dạng thức từ sổ ghi chép OneNote bằng Aspose.Note for Java. Nâng cao các ứng dụng Java của bạn bằng cách tích hợp OneNote liền mạch.
-type: docs
 weight: 23
 url: /vi/java/onenote-notebook-operations/read-rich-text/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Đọc văn bản có định dạng từ sổ tay OneNote - Aspose.Note
+
 ## Giới thiệu
 
 Trong hướng dẫn này, chúng ta sẽ đi sâu vào cách sử dụng Aspose.Note cho Java để đọc văn bản có định dạng từ sổ ghi chép OneNote. Aspose.Note là một API Java mạnh mẽ cho phép các nhà phát triển làm việc liền mạch với các tệp Microsoft OneNote. Bằng cách làm theo các bước được nêu bên dưới, bạn sẽ có thể trích xuất dữ liệu văn bản đa dạng thức một cách dễ dàng, cho phép bạn thao tác và phân tích nội dung OneNote một cách dễ dàng.
@@ -91,3 +97,9 @@ Câu trả lời 2: Aspose.Note for Java hỗ trợ nhiều phiên bản khác n
 ### Câu hỏi 5: Tôi có thể tìm hỗ trợ cho Aspose.Note dành cho Java ở đâu?
 
  Câu trả lời 5: Bạn có thể tìm thấy sự hỗ trợ và trợ giúp trên[Diễn đàn Aspose.Note](https://forum.aspose.com/c/note/28).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

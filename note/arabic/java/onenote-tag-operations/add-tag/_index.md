@@ -3,10 +3,16 @@ title: إضافة علامة في OneNote - Aspose.Note
 linktitle: إضافة علامة في OneNote - Aspose.Note
 second_title: Aspose.Note جافا API
 description: قم بترقية OneNote باستخدام Aspose.Note لـ Java. يمكنك إضافة العلامات بسهولة باستخدام دليلنا المفصّل خطوة بخطوة. تعزيز التنظيم والتعاون الآن!
-type: docs
 weight: 12
 url: /ar/java/onenote-tag-operations/add-tag/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# إضافة علامة في OneNote - Aspose.Note
+
 ## مقدمة
 هل تتطلع إلى تحسين تنظيم المستندات والتعاون في OneNote باستخدام Java؟ يوفر Aspose.Note for Java حلاً قويًا لإضافة العلامات بسلاسة، مما يضمن أن ملاحظاتك ليست مفيدة فقط ولكنها أيضًا جذابة بصريًا. في هذا البرنامج التعليمي، سنرشدك خلال العملية خطوة بخطوة، حتى تتمكن من الاستفادة من الإمكانات الكاملة لـ Aspose.Note لـ Java.
 ## المتطلبات الأساسية
@@ -93,3 +99,9 @@ System.out.printf("File Saved: %s\n", dataDir + "AddTag_out.pdf");
  لأية استفسارات أو مساعدة، قم بزيارة[منتدى Aspose.Note](https://forum.aspose.com/c/note/28).
 ### 5. هل هناك نسخة تجريبية مجانية متاحة؟
  نعم، يمكنك استكشاف النسخة التجريبية المجانية[هنا](https://releases.aspose.com/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -3,10 +3,16 @@ title: Zapisz w obrazie w skali szarości w Aspose.Note
 linktitle: Zapisz w obrazie w skali szarości w Aspose.Note
 second_title: Aspose.Note .NET API
 description: Dowiedz się, jak zapisywać dokumenty OneNote jako obrazy w skali szarości przy użyciu Aspose.Note dla .NET. Skorzystaj z tego obszernego samouczka, aby efektywnie przetwarzać dokumenty.
-type: docs
 weight: 24
 url: /pl/net/loading-and-saving-operations/save-to-grayscale-image/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Zapisz w obrazie w skali szarości w Aspose.Note
+
 ## Wstęp
 
 W tym samouczku odkryjemy, jak wykorzystać Aspose.Note dla .NET do zapisania dokumentu jako obrazu w skali szarości. Aspose.Note to potężna biblioteka, która umożliwia programistom programową pracę z plikami Microsoft OneNote, zapewniając szeroki zakres funkcjonalności.
@@ -85,3 +91,9 @@ A4: Tak, możesz eksplorować Aspose.Note w ramach bezpłatnej wersji próbnej d
 ### P5: Jak mogę uzyskać tymczasową licencję na Aspose.Note?
 
 A5: Możesz uzyskać tymczasową licencję na Aspose.Note, odwiedzając podany link i postępując zgodnie z instrukcjami.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -1,12 +1,17 @@
 ---
 title: Aspose.Note for Java 综合教程和示例
 linktitle: Java 教程的 Aspose.Note
-type: docs
 weight: 10
 url: /zh/java/
 description: 发现 Aspose.Note for Java 的综合教程和示例。通过有关 Java 集成的分步指南提升您的 OneNote 体验。
-is_root: true
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Aspose.Note for Java 综合教程和示例
+
 
 ## 介绍
 
@@ -91,3 +96,9 @@ is_root: true
 探索有关 OneNote 文本操作的 Aspose.Note Java 教程。探索执行提取文本、应用主题、创建列表等任务的有效方法。 
 ### [任务和 Outlook 集成](./task-and-outlook-integration/)
 通过我们关于将 Outlook 任务集成到 OneNote 的教程来释放 Aspose.Note Java 的潜力。通过我们的教程提高您的文档处理技能。
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

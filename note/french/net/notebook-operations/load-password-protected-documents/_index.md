@@ -3,10 +3,16 @@ title: Charger des documents protégés par mot de passe dans Aspose Note .NET
 linktitle: Charger des documents protégés par mot de passe dans Aspose Note .NET
 second_title: API Aspose.Note .NET
 description: Découvrez comment charger en toute sécurité des documents protégés par mot de passe dans Aspose Note .NET en suivant des étapes simples. Garantissez la confidentialité des données grâce au cryptage.
-type: docs
 weight: 22
 url: /fr/net/notebook-operations/load-password-protected-documents/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Charger des documents protégés par mot de passe dans Aspose Note .NET
+
 ## Introduction
 
 Aspose.Note pour .NET est une API puissante qui permet aux développeurs de travailler avec des fichiers Microsoft OneNote par programme. Dans ce didacticiel, nous apprendrons comment charger des documents protégés par mot de passe à l'aide d'Aspose.Note pour .NET.
@@ -77,3 +83,9 @@ A4 : Oui, vous pouvez définir différents mots de passe pour différents docume
 ### Q5 : Existe-t-il une version d’essai disponible pour Aspose.Note pour .NET ?
 
  A5 : Oui, vous pouvez accéder à une version d'essai gratuite d'Aspose.Note pour .NET à partir de[ici](https://releases.aspose.com/), vous permettant d'explorer ses fonctionnalités avant de faire un achat.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

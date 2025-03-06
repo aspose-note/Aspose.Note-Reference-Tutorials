@@ -3,10 +3,16 @@ title: Печать документов OneNote
 linktitle: Печать документов OneNote
 second_title: Aspose.Note Java API
 description: Легко печатайте документы в OneNote с помощью Aspose.Note для Java. Эти учебные пособия содержат пошаговые инструкции и примеры кода для бесперебойной печати документов.
-type: docs
 weight: 30
 url: /ru/java/onenote-printing-documents/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Печать документов OneNote
+
 
 ## Введение
 
@@ -38,3 +44,9 @@ url: /ru/java/onenote-printing-documents/
 ## Учебные пособия по печати документов OneNote
 ### [Печать документов в OneNote — Aspose.Note](./print-documents/)
 Узнайте, как печатать документы в OneNote с помощью Aspose.Note для Java. Пошаговое руководство с примерами кода и настраиваемыми параметрами.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

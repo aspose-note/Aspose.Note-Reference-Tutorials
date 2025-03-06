@@ -3,10 +3,16 @@ title: Zarządzaj licencją taryfową dla programu OneNote w języku Java
 linktitle: Zarządzaj licencją taryfową dla programu OneNote w języku Java
 second_title: Aspose.Note API Java
 description: Dowiedz się, jak zarządzać licencjami taryfowymi dla programu OneNote w języku Java przy użyciu biblioteki Aspose.Note. Kontroluj wykorzystanie, monitoruj środki i wydajnie optymalizuj koszty.
-type: docs
 weight: 10
 url: /pl/java/licensing-java/manage-metered-license/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Zarządzaj licencją taryfową dla programu OneNote w języku Java
+
 ## Wstęp
 
 W tym samouczku dowiemy się, jak zarządzać licencją taryfową dla OneNote za pomocą Aspose.Note dla Java. Licencjonowanie licznikowe pozwala monitorować i kontrolować wykorzystanie w oparciu o punkty, zapewniając elastyczne i opłacalne rozwiązanie.
@@ -85,3 +91,9 @@ Odpowiedź 3: Tak, licencja licznikowa może być używana w wielu aplikacjach, 
 ### P5: Gdzie mogę uzyskać pomoc dotyczącą Aspose.Note dla Java?
 
  Odpowiedź 5: Możesz uzyskać wsparcie na forach społeczności Aspose[Tutaj](https://forum.aspose.com/c/note/28).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

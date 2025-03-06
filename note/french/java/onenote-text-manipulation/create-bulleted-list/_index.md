@@ -3,10 +3,16 @@ title: Créer une liste à puces dans OneNote - Aspose.Note
 linktitle: Créer une liste à puces dans OneNote - Aspose.Note
 second_title: API Java Aspose.Note
 description: Explorez le guide étape par étape sur la création de listes à puces dans OneNote à l'aide d'Aspose.Note pour Java. Améliorez facilement la création de vos documents.
-type: docs
 weight: 12
 url: /fr/java/onenote-text-manipulation/create-bulleted-list/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Créer une liste à puces dans OneNote - Aspose.Note
+
 ## Introduction
 Dans le paysage dynamique du développement Java, la création de documents attrayants et organisés est essentielle. Aspose.Note pour Java fournit un ensemble d'outils puissants pour améliorer votre processus de création de documents. Ce didacticiel vous guidera tout au long du processus de création de listes à puces dans OneNote à l'aide d'Aspose.Note pour Java. Entrons dans les détails.
 ## Conditions préalables
@@ -92,3 +98,9 @@ Absolument! Vous pouvez modifier la police, la couleur et la taille des élémen
  Oui, vous pouvez explorer une version d'essai gratuite[ici](https://releases.aspose.com/).
 ### Comment puis-je obtenir une licence temporaire pour Aspose.Note pour Java ?
  Obtenez une licence temporaire[ici](https://purchase.aspose.com/temporary-license/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

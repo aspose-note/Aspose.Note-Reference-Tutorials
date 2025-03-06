@@ -3,10 +3,16 @@ title: Supprimer les nœuds enfants dans Aspose Note .NET
 linktitle: Supprimer les nœuds enfants dans Aspose Note .NET
 second_title: API Aspose.Note .NET
 description: Découvrez comment supprimer sans effort les nœuds enfants dans Aspose.Note pour .NET. Simplifiez la gestion de vos fichiers OneNote avec ce guide étape par étape.
-type: docs
 weight: 24
 url: /fr/net/notebook-operations/remove-child-nodes/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Supprimer les nœuds enfants dans Aspose Note .NET
+
 ## Introduction
 
 Dans ce didacticiel, nous verrons comment supprimer efficacement des nœuds enfants à l'aide d'Aspose.Note pour .NET. Aspose.Note est une bibliothèque puissante qui permet aux développeurs de travailler avec des fichiers Microsoft OneNote par programme. Que vous gériez des blocs-notes, des sections ou des pages individuelles, Aspose.Note simplifie le processus grâce à son API intuitive. Ici, nous nous concentrerons spécifiquement sur la suppression des nœuds enfants d'un bloc-notes.
@@ -92,3 +98,9 @@ A4 : Absolument ! Aspose.Note offre des fonctionnalités robustes pour créer, l
 ### Q5 : Où puis-je trouver une assistance supplémentaire pour Aspose.Note ?
 
  A5 : Pour toute assistance ou demande de renseignements supplémentaire, vous pouvez visiter le[Forum Aspose.Note](https://forum.aspose.com/c/note/28) où des experts et des collègues développeurs sont disponibles pour vous aider.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -3,10 +3,16 @@ title: إتقان ترخيص Aspose.Note لتكامل OneNote
 linktitle: الترخيص
 second_title: Aspose.Note .NET API
 description: قم بتطبيق تراخيص Aspose.Note في تطبيقات .NET الخاصة بك! استكشف الإرشادات خطوة بخطوة لتضمين الموارد، باستخدام المسارات، وFileStream، والترخيص المقنن الفعال.
-type: docs
 weight: 20
 url: /ar/net/licensing/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# إتقان ترخيص Aspose.Note لتكامل OneNote
+
 ## مقدمة
 
 هل أنت مطور .NET تتعمق في المجال الديناميكي لـ Aspose.Note؟ يعد فهم كيفية تطبيق التراخيص أمرًا محوريًا، خاصة عند العمل مع ملفات OneNote. في هذا الدليل الشامل، سوف نتنقل عبر العديد من البرامج التعليمية للترخيص، مما يضمن عملية تكامل سلسة ويمكّنك من التعامل مع ملفات OneNote دون عناء.
@@ -41,3 +47,9 @@ url: /ar/net/licensing/
 تعرف على كيفية تطبيق ترخيص Aspose.Note باستخدام FileStream في تطبيقات .NET الخاصة بك لتحقيق التكامل السلس.
 ### [الترخيص المقنن مع Aspose.Note](./metered-licensing/)
 تعرف على كيفية إدارة تراخيص البرامج بكفاءة باستخدام Aspose.Note لـ .NET من خلال الترخيص المحدود. تحسين استخدام الموارد والتحكم في التكاليف بشكل فعال.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

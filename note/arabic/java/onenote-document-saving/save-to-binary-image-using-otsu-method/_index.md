@@ -3,10 +3,16 @@ title: الحفظ في الصورة الثنائية باستخدام طريقة
 linktitle: الحفظ في الصورة الثنائية باستخدام طريقة Otsu في OneNote
 second_title: Aspose.Note جافا API
 description: تعرف على كيفية حفظ مستندات OneNote كصور ثنائية باستخدام طريقة Otsu مع Aspose.Note لـ Java. ارفع قدرات تطبيق Java الخاص بك باستخدام Aspose.Note.
-type: docs
 weight: 15
 url: /ar/java/onenote-document-saving/save-to-binary-image-using-otsu-method/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# الحفظ في الصورة الثنائية باستخدام طريقة Otsu في OneNote
+
 ## مقدمة
 
 في هذا البرنامج التعليمي، سوف نتعلم كيفية حفظ مستند كصورة ثنائية باستخدام طريقة Otsu في Aspose.Note لـ Java. Aspose.Note عبارة عن واجهة برمجة تطبيقات قوية تمكن مطوري Java من العمل مع ملفات Microsoft OneNote برمجيًا. يمكن أن يكون حفظ المستندات كصور ثنائية مفيدًا لتطبيقات مختلفة مثل معالجة الصور والتعرف الضوئي على الحروف (OCR) والمزيد.
@@ -82,3 +88,9 @@ oneFile.save(dataDir, options);
 ### س5: أين يمكنني الحصول على الدعم إذا واجهت مشكلات أثناء استخدام Aspose.Note لـ Java؟
 
 ج5: يمكنك زيارة منتدى Aspose.Note أو الاتصال بفريق الدعم الخاص بهم للحصول على المساعدة في أي مشكلات أو استفسارات فنية.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

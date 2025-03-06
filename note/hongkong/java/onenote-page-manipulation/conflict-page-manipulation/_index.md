@@ -3,10 +3,16 @@ title: OneNote 中的衝突頁面處理 - Aspose.Note
 linktitle: OneNote 中的衝突頁面處理 - Aspose.Note
 second_title: Aspose.Note Java API
 description: 了解如何使用 Aspose.Note for Java 有效管理 OneNote 中的衝突頁面。透過逐步指導無縫解決衝突。
-type: docs
 weight: 10
 url: /zh-hant/java/onenote-page-manipulation/conflict-page-manipulation/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# OneNote 中的衝突頁面處理 - Aspose.Note
+
 ## 介紹
 
 當多個使用者同時編輯同一頁時，OneNote 使用者經常會遇到衝突。有效解決這些衝突對於維護文件完整性至關重要。 Aspose.Note for Java 提供了強大的工具來無縫管理衝突頁面。在本教學中，我們將探討如何使用 Aspose.Note for Java 處理衝突頁面。
@@ -113,3 +119,9 @@ A4：是的，Aspose.Note for Java 提供了廣泛的自訂選項，可讓您根
 ### Q5：是否有 Java 使用者的 Aspose.Note 社群論壇？
 
  A5：當然！加入我們充滿活力的社群論壇：[Aspose.Note Java 支持](https://forum.aspose.com/c/note/28)與其他用戶聯繫並獲得專家協助。
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

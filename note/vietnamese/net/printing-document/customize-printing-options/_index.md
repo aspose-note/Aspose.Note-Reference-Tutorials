@@ -3,10 +3,16 @@ title: Tùy chỉnh in bằng Aspose.Note Tùy chọn in
 linktitle: Tùy chỉnh in bằng Aspose.Note Tùy chọn in
 second_title: Aspose.Note .NET API
 description: Tìm hiểu cách tùy chỉnh việc in tài liệu bằng Aspose.Note for .NET. Tinh chỉnh cài đặt để có bản in tối ưu.
-type: docs
 weight: 11
 url: /vi/net/printing-document/customize-printing-options/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Tùy chỉnh in bằng Aspose.Note Tùy chọn in
+
 ## Giới thiệu
 
 Việc in tài liệu bằng Aspose.Note for .NET có thể được điều chỉnh để đáp ứng các yêu cầu cụ thể bằng cách sử dụng các tùy chọn in. Trong hướng dẫn này, chúng ta sẽ khám phá cách tùy chỉnh việc in bằng các tùy chọn khác nhau do Aspose.Note cung cấp. Cho dù bạn cần điều chỉnh cài đặt máy in, đặt độ phân giải hay xác định thuật toán chia trang, Aspose.Note đều mang đến sự linh hoạt để đạt được kết quả in mong muốn.
@@ -95,3 +101,9 @@ Câu trả lời 4: Aspose.Note hỗ trợ in bằng nhiều loại máy in tư�
 ### Câu hỏi 5: Tôi có thể tự động hóa các tác vụ in bằng Aspose.Note không?
 
 Câu trả lời 5: Có, Aspose.Note cho phép các nhà phát triển tự động hóa tác vụ in bằng cách tích hợp các tùy chọn in vào ứng dụng .NET của họ.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -3,10 +3,16 @@ title: Aspose.Note でページ タイトルを含むドキュメントを作成
 linktitle: Aspose.Note でページ タイトルを含むドキュメントを作成する
 second_title: Aspose.Note .NET API
 description: Aspose.Note for .NET を使用して、タイトル付きのページを持つドキュメントを作成する方法を学びます。シームレスな統合については、ステップバイステップのガイドに従ってください。
-type: docs
 weight: 13
 url: /ja/net/loading-and-saving-operations/create-doc-with-page-title/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Aspose.Note でページ タイトルを含むドキュメントを作成する
+
 ## 導入
 
 このチュートリアルでは、Aspose.Note for .NET を使用してタイトル付きページを含むドキュメントを作成するプロセスを説明します。 Aspose.Note は、開発者が Microsoft OneNote ファイルをプログラムで操作できるようにする強力な API です。
@@ -118,3 +124,9 @@ A4: はい、Aspose.Note を使用すると、既存の OneNote ファイルを�
 ### Q5: 問題が発生した場合、どこでサポートを受けられますか?
 
  A5: サポートと支援は次のサイトで見つけることができます。[Aspose.Note フォーラム](https://forum.aspose.com/c/note/28)では、専門家やコミュニティのメンバーが質問に答えてくれます。
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

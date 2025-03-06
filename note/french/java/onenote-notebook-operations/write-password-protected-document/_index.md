@@ -3,10 +3,16 @@ title: Écrire un document protégé par mot de passe dans OneNote - Aspose.Note
 linktitle: Écrire un document protégé par mot de passe dans OneNote - Aspose.Note
 second_title: API Java Aspose.Note
 description: Protégez vos informations sensibles OneNote ! Apprenez à définir des mots de passe pour des documents et des sections spécifiques - guide étape par étape et code inclus. #OneNote #Java #Aspose
-type: docs
 weight: 27
 url: /fr/java/onenote-notebook-operations/write-password-protected-document/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Écrire un document protégé par mot de passe dans OneNote - Aspose.Note
+
 ## Introduction
 
 Dans ce didacticiel, vous apprendrez à créer des documents protégés par mot de passe dans OneNote à l'aide d'Aspose.Note pour Java. Cette fonctionnalité garantit la sécurité et la confidentialité de vos informations sensibles dans vos ordinateurs portables. En suivant ces instructions étape par étape, vous pouvez facilement mettre en œuvre une protection par mot de passe pour vos documents.
@@ -95,3 +101,9 @@ R : Oui, vous pouvez définir différents mots de passe pour différentes secti
 ### Q5 : Existe-t-il une limite quant à la longueur ou à la complexité des mots de passe ?
 
 R : Aspose.Note n'impose pas de limites spécifiques sur la longueur ou la complexité des mots de passe, vous permettant de définir des mots de passe forts et sécurisés selon vos besoins.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

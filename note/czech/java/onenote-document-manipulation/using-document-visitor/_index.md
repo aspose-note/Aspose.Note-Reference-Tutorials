@@ -3,10 +3,16 @@ title: Použití Document Visitor ve OneNotu s Javou
 linktitle: Použití Document Visitor ve OneNotu s Javou
 second_title: Aspose.Note Java API
 description: Naučte se používat návštěvníka dokumentu ve OneNotu pomocí Javy s Aspose.Note. Bezproblémově procházejte dokumenty OneNotu a manipulujte s nimi.
-type: docs
 weight: 10
 url: /cs/java/onenote-document-manipulation/using-document-visitor/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Použití Document Visitor ve OneNotu s Javou
+
 ## Úvod
 
 tomto tutoriálu prozkoumáme, jak využít návštěvníka dokumentu ve OneNotu pomocí Java s Aspose.Note. Document Visitor umožňuje procházet prvky dokumentu OneNotu a provádět s nimi operace. Provedeme vás procesem krok za krokem.
@@ -95,3 +101,9 @@ A1: Ano, Aspose.Note podporuje různé programovací jazyky včetně .NET, C++, 
 ### Q5: Je k dispozici nějaká dokumentace pro Aspose.Note?
 
  A5: Ano, můžete najít dokumentaci[tady](https://reference.aspose.com/note/java/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

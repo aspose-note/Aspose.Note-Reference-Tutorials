@@ -3,10 +3,16 @@ title: Manipolazione dei documenti OneNote
 linktitle: Manipolazione dei documenti OneNote
 second_title: Aspose.Note API Java
 description: Crea, manipola e automatizza i documenti OneNote in Java con Aspose.Note. Tutorial passo passo su Document Visitor, testo RTF formattato e creazione di testo RTF.
-type: docs
 weight: 21
 url: /it/java/onenote-document-manipulation/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Manipolazione dei documenti OneNote
+
 
 ## introduzione
 
@@ -29,3 +35,9 @@ Scopri come utilizzare Document Visitor in OneNote utilizzando Java con Aspose.N
 Scopri come creare documenti OneNote con formattazione ricca a livello di codice in Java utilizzando Aspose.Note per Java. Segui la nostra guida passo passo per automatizzare i documenti senza problemi.
 ### [Crea un documento OneNote con testo RTF semplice in Java](./create-onenote-document-simple-rich-text/)
 Scopri come creare documenti OneNote con testo RTF semplice utilizzando Aspose.Note per Java. Integra perfettamente questa funzionalità nelle tue applicazioni Java per una gestione efficiente dei documenti.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

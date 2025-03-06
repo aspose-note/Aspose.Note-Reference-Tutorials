@@ -3,10 +3,16 @@ title: Stampa di documenti OneNote
 linktitle: Stampa di documenti OneNote
 second_title: Aspose.Note API Java
 description: Stampa documenti senza sforzo in OneNote con Aspose.Note per Java. Questi tutorial offrono indicazioni dettagliate ed esempi di codice per la stampa di documenti senza problemi.
-type: docs
 weight: 30
 url: /it/java/onenote-printing-documents/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Stampa di documenti OneNote
+
 
 ## introduzione
 
@@ -38,3 +44,9 @@ In conclusione, padroneggiare l'arte di stampare documenti in OneNote utilizzand
 ## Esercitazioni sulla stampa di documenti OneNote
 ### [Stampa documenti in OneNote - Aspose.Note](./print-documents/)
 Scopri come stampare documenti in OneNote utilizzando Aspose.Note per Java. Guida passo passo con esempi di codice e opzioni personalizzabili.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

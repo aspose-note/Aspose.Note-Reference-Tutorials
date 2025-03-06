@@ -3,10 +3,16 @@ title: Salva utilizzando i caratteri specificati in Aspose.Note
 linktitle: Salva utilizzando i caratteri specificati in Aspose.Note
 second_title: Aspose.Note API .NET
 description: Scopri come salvare documenti con i caratteri specificati in Aspose.Note per .NET. Personalizza facilmente le impostazioni dei caratteri per una formattazione coerente dei documenti.
-type: docs
 weight: 28
 url: /it/net/loading-and-saving-operations/save-using-specified-fonts/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Salva utilizzando i caratteri specificati in Aspose.Note
+
 ## introduzione
 
 In questo tutorial impareremo come salvare i documenti utilizzando i caratteri specificati in Aspose.Note per .NET. Esploreremo diversi metodi per raggiungere questo obiettivo, passo dopo passo.
@@ -131,3 +137,9 @@ A4: Sì, Aspose.Note consente di incorporare caratteri per garantire la portabil
 ### Q5: Dove posso ottenere ulteriore assistenza con Aspose.Note?
 
  R5: Per ulteriore assistenza o supporto tecnico, è possibile visitare il[Forum Aspose.Note](https://forum.aspose.com/c/note/28).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

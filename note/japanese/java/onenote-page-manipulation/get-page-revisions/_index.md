@@ -3,10 +3,16 @@ title: OneNote でページ リビジョンを取得する - Aspose.Note
 linktitle: OneNote でページ リビジョンを取得する - Aspose.Note
 second_title: Aspose.Note Java API
 description: Aspose.Note for Java を使用して OneNote でページ リビジョンを取得する方法を学習します。変更を効率的に追跡するには、ステップバイステップのガイドに従ってください。
-type: docs
 weight: 14
 url: /ja/java/onenote-page-manipulation/get-page-revisions/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# OneNote でページ リビジョンを取得する - Aspose.Note
+
 ## 導入
 
 OneNote はメモを整理および管理するための強力なツールですが、ページに加えられた変更や改訂を追跡する必要がある場合があります。 Aspose.Note for Java を使用すると、ページ リビジョンをプログラムで簡単に取得できます。このチュートリアルでは、Aspose.Note for Java を使用して OneNote でページ リビジョンを取得するプロセスを説明します。
@@ -107,3 +113,9 @@ A3: はい、商用プロジェクトで Aspose.Note for Java を使用するに
 ### Q5: Aspose.Note for Java の無料トライアルはありますか?
 
  A5: はい、Aspose.Note for Java の無料トライアルにアクセスできます。[Webサイト](https://releases.aspose.com/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

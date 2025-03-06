@@ -3,10 +3,16 @@ title: Αποθήκευση σε Grayscale Image στο Aspose.Note
 linktitle: Αποθήκευση σε Grayscale Image στο Aspose.Note
 second_title: Aspose.Note .NET API
 description: Μάθετε πώς να αποθηκεύετε έγγραφα OneNote ως εικόνες σε κλίμακα του γκρι χρησιμοποιώντας το Aspose.Note για .NET. Ακολουθήστε αυτό το περιεκτικό σεμινάριο για αποτελεσματική επεξεργασία εγγράφων.
-type: docs
 weight: 24
 url: /el/net/loading-and-saving-operations/save-to-grayscale-image/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Αποθήκευση σε Grayscale Image στο Aspose.Note
+
 ## Εισαγωγή
 
 Σε αυτό το σεμινάριο, θα διερευνήσουμε πώς να χρησιμοποιήσετε το Aspose.Note για .NET για να αποθηκεύσετε ένα έγγραφο ως εικόνα σε κλίμακα του γκρι. Το Aspose.Note είναι μια ισχυρή βιβλιοθήκη που επιτρέπει στους προγραμματιστές να εργάζονται με αρχεία Microsoft OneNote μέσω προγραμματισμού, παρέχοντας ένα ευρύ φάσμα λειτουργιών.
@@ -85,3 +91,9 @@ A4: Ναι, μπορείτε να εξερευνήσετε το Aspose.Note μέ
 ### Ε5: Πώς μπορώ να αποκτήσω μια προσωρινή άδεια για το Aspose.Note;
 
 A5: Μπορείτε να αποκτήσετε μια προσωρινή άδεια για το Aspose.Note επισκεπτόμενοι τον παρεχόμενο σύνδεσμο και ακολουθώντας τις οδηγίες.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

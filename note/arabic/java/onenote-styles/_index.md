@@ -3,10 +3,16 @@ title: أنماط ون نوت
 linktitle: أنماط ون نوت
 second_title: Aspose.Note جافا API
 description: اكتشف فن تعديل أنماط نص OneNote باستخدام Aspose.Note لـ Java. تعلم كيفية تغيير لون الخط وحجمه وإبرازه في برامجنا التعليمية خطوة بخطوة.
-type: docs
 weight: 31
 url: /ar/java/onenote-styles/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# أنماط ون نوت
+
 
 ## مقدمة
 
@@ -36,3 +42,9 @@ url: /ar/java/onenote-styles/
 تعرف على كيفية تغيير نمط النص في OneNote باستخدام Aspose.Note لـ Java. قم بتعديل لون الخط وحجمه وإبرازه بسهولة.
 ### [تعيين نمط الفقرة الافتراضي في OneNote - Aspose.Note](./set-default-paragraph-style/)
 تعرف على كيفية تعيين أنماط الفقرة الافتراضية في OneNote باستخدام Aspose.Note لـ Java. اتبع دليلنا خطوة بخطوة لتنسيق النص بكفاءة في تطبيقات Java الخاصة بك.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

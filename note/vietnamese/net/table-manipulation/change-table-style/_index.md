@@ -3,10 +3,16 @@ title: Thay đổi kiểu bảng trong Aspose.Note
 linktitle: Thay đổi kiểu bảng trong Aspose.Note
 second_title: Aspose.Note .NET API
 description: Tìm hiểu cách tùy chỉnh kiểu bảng trong Aspose.Note bằng C#. Sửa đổi màu sắc, phông chữ và nhiều thứ khác để nâng cao trình bày tài liệu.
-type: docs
 weight: 10
 url: /vi/net/table-manipulation/change-table-style/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Thay đổi kiểu bảng trong Aspose.Note
+
 ## Giới thiệu
 
 Trong hướng dẫn này, chúng ta sẽ khám phá cách thay đổi kiểu bảng trong Aspose.Note bằng .NET framework. Aspose.Note là một API mạnh mẽ cho phép các nhà phát triển làm việc với các tệp Microsoft OneNote theo chương trình. Bằng cách tùy chỉnh kiểu bảng trong tài liệu OneNote, bạn có thể nâng cao tính hấp dẫn trực quan và khả năng đọc của chúng. Chúng ta sẽ hướng dẫn từng bước quá trình sửa đổi kiểu bảng, đảm bảo sự rõ ràng và hiệu quả.
@@ -95,3 +101,9 @@ Câu trả lời 4: Chắc chắn, bạn có thể tự động tạo các bản
 ### Câu hỏi 5: Tôi có thể tìm thêm tài nguyên và hỗ trợ cho Aspose.Note ở đâu?
 
  Câu trả lời 5: Bạn có thể khám phá tài liệu Aspose.Note[đây](https://reference.aspose.com/note/net/) và tìm kiếm sự trợ giúp từ diễn đàn cộng đồng Aspose.Note[đây](https://forum.aspose.com/c/note/28).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

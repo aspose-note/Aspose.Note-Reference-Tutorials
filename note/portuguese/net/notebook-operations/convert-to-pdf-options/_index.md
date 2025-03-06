@@ -3,10 +3,16 @@ title: Converta cadernos em PDF com opções no Aspose Note .NET
 linktitle: Converta cadernos em PDF com opções no Aspose Note .NET
 second_title: API Aspose.Note .NET
 description: Aprenda como converter blocos de anotações do Microsoft OneNote para o formato PDF usando a biblioteca Aspose.Note for .NET com opções personalizáveis.
-type: docs
 weight: 16
 url: /pt/net/notebook-operations/convert-to-pdf-options/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Converta cadernos em PDF com opções no Aspose Note .NET
+
 ## Introdução
 
 Neste tutorial, percorreremos o processo de conversão de notebooks para o formato PDF usando a biblioteca Aspose.Note for .NET. Aspose.Note for .NET fornece um poderoso conjunto de recursos para trabalhar com arquivos do Microsoft OneNote programaticamente.
@@ -102,3 +108,9 @@ A4: Sim, você pode baixar uma avaliação gratuita do Aspose.Note for .NET do s
 ### Q5: Como posso obter suporte técnico para Aspose.Note for .NET?
 
  A5: Você pode obter suporte técnico para Aspose.Note for .NET visitando o[Fórum Aspose.Note](https://forum.aspose.com/c/note/28) ou entrando em contato diretamente com a equipe de suporte do Aspose.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

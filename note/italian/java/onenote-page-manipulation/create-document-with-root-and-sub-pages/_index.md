@@ -3,10 +3,16 @@ title: Crea un documento con pagine radice e secondarie in OneNote
 linktitle: Crea un documento con pagine radice e secondarie in OneNote
 second_title: Aspose.Note API Java
 description: Crea un documento con pagine radice e secondarie in OneNote utilizzando Aspose.Note per Java. Segui la guida passo passo per organizzare in modo efficiente le tue note.
-type: docs
 weight: 11
 url: /it/java/onenote-page-manipulation/create-document-with-root-and-sub-pages/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Crea un documento con pagine radice e secondarie in OneNote
+
 ## introduzione
 
 In questo tutorial ti guideremo attraverso il processo di creazione di un documento con pagine radice e sottopagine in OneNote utilizzando Aspose.Note per Java. Seguendo questi passaggi, sarai in grado di organizzare in modo efficiente i tuoi documenti OneNote con una struttura gerarchica.
@@ -169,3 +175,9 @@ A4: Sì, Aspose.Note per Java supporta il salvataggio di documenti in vari forma
 ### Q5: È disponibile una versione di prova per Aspose.Note per Java?
 
 A5: Sì, puoi scaricare una versione di prova gratuita di Aspose.Note per Java dal sito web.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

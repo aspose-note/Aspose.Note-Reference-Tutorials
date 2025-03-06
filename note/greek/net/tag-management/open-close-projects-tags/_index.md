@@ -3,10 +3,16 @@ title: Άνοιγμα και κλείσιμο έργων με ετικέτες �
 linktitle: Άνοιγμα και κλείσιμο έργων με ετικέτες στο Aspose.Note
 second_title: Aspose.Note .NET API
 description: Μάθετε πώς να χειρίζεστε αρχεία Microsoft OneNote μέσω προγραμματισμού χρησιμοποιώντας το Aspose.Note για .NET. Ανοίξτε και κλείστε έργα με ετικέτες αποτελεσματικά.
-type: docs
 weight: 15
 url: /el/net/tag-management/open-close-projects-tags/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Άνοιγμα και κλείσιμο έργων με ετικέτες στο Aspose.Note
+
 ## Εισαγωγή
 
 Σε αυτό το σεμινάριο, θα μάθουμε πώς να χρησιμοποιούμε το Aspose.Note για .NET για να ανοίγουμε και να κλείνουμε έργα με ετικέτες. Το Aspose.Note είναι ένα ισχυρό API που επιτρέπει στους προγραμματιστές να εργάζονται με αρχεία Microsoft OneNote μέσω προγραμματισμού, επιτρέποντας εργασίες όπως ο χειρισμός κειμένου, εικόνων και ετικετών μέσα στα έγγραφα.
@@ -112,3 +118,9 @@ A1: Το Aspose.Note υποστηρίζει το Microsoft OneNote 2010 και �
 ### Ε5: Πού μπορώ να λάβω υποστήριξη για το Aspose.Note;
 
  A5: Για υποστήριξη, μπορείτε να επισκεφτείτε το Aspose.Note[δικαστήριο](https://forum.aspose.com/c/note/28).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

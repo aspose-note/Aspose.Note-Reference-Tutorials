@@ -3,10 +3,16 @@ title: การรายงานด้วยแท็กใน Aspose.Note
 linktitle: การรายงานด้วยแท็กใน Aspose.Note
 second_title: Aspose.Note .NET API
 description: เรียนรู้วิธีสร้างรายงานเชิงลึกจากเอกสารดิจิทัลโดยใช้ Aspose.Note สำหรับ .NET มีคำแนะนำทีละขั้นตอน
-type: docs
 weight: 16
 url: /th/net/tag-management/reporting-tags/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# การรายงานด้วยแท็กใน Aspose.Note
+
 ## การแนะนำ
 
 ในขอบเขตของการประมวลผลและการจัดการเอกสาร Aspose.Note สำหรับ .NET มีความโดดเด่นในฐานะเครื่องมืออันทรงพลังสำหรับการจัดการบันทึก คำอธิบายประกอบ และแท็กภายในเอกสารดิจิทัล แท็กเป็นเครื่องมือในการจัดระเบียบ จัดหมวดหมู่ และกรองข้อมูลภายในเอกสาร ช่วยให้สามารถดึงข้อมูลและวิเคราะห์ได้อย่างมีประสิทธิภาพ บทช่วยสอนนี้จะเจาะลึกความซับซ้อนของการรายงานด้วยแท็กใน Aspose.Note ซึ่งให้คำแนะนำทีละขั้นตอนในการสร้างรายงานตามเกณฑ์ต่างๆ
@@ -133,3 +139,9 @@ public static void GenerateReport_ItemsRelatedToSpecifiedProject()
 ## คำถามที่ 5: ฉันสามารถปรับแต่งเกณฑ์การรายงานใน Aspose.Note สำหรับ .NET ได้หรือไม่
 
 A5: ได้ คุณสามารถปรับแต่งเกณฑ์การรายงานตามความต้องการเฉพาะของคุณได้โดยใช้ API และตัวอย่างที่ให้ไว้
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -3,10 +3,16 @@ title: Cargar documento de OneNote - Java
 linktitle: Cargar documento de OneNote - Java
 second_title: Aspose.Nota Java API
 description: Aprenda a utilizar Aspose.Note para Java para cargar y manipular documentos de OneNote sin esfuerzo. Tutorial completo para desarrolladores de Java.
-type: docs
 weight: 25
 url: /es/java/onenote-document-loading/load-onenote-document/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Cargar documento de OneNote - Java
+
 ## Introducción
 
 En este tutorial, profundizaremos en las complejidades del uso de Aspose.Note para Java, una poderosa biblioteca para trabajar con documentos de OneNote mediante programación. Aspose.Note proporciona funcionalidades integrales para manipular, crear y convertir archivos OneNote con facilidad. Si es un desarrollador Java experimentado o un principiante que busca explorar las capacidades del procesamiento de documentos de OneNote, este tutorial lo guiará a través de los pasos esenciales para comenzar.
@@ -82,3 +88,10 @@ R2: Aspose.Note para Java admite varias versiones de documentos OneNote, incluid
 ### P5: ¿Cómo puedo obtener una licencia temporal de Aspose.Note para Java?
 
  R5: Si necesita una licencia temporal para fines de evaluación o prueba, puede solicitar una a[aquí](https://purchase.aspose.com/temporary-license/).
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

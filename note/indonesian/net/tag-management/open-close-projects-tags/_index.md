@@ -3,10 +3,16 @@ title: Buka dan Tutup Proyek dengan Tag di Aspose.Note
 linktitle: Buka dan Tutup Proyek dengan Tag di Aspose.Note
 second_title: Aspose.Catatan .NET API
 description: Pelajari cara memanipulasi file Microsoft OneNote secara terprogram menggunakan Aspose.Note untuk .NET. Buka dan tutup proyek dengan tag secara efisien.
-type: docs
 weight: 15
 url: /id/net/tag-management/open-close-projects-tags/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Buka dan Tutup Proyek dengan Tag di Aspose.Note
+
 ## Perkenalan
 
 Dalam tutorial ini, kita akan mempelajari cara menggunakan Aspose.Note untuk .NET untuk membuka dan menutup proyek dengan tag. Aspose.Note adalah API canggih yang memungkinkan pengembang bekerja dengan file Microsoft OneNote secara terprogram, memungkinkan tugas seperti memanipulasi teks, gambar, dan tag dalam dokumen.
@@ -112,3 +118,9 @@ A1: Aspose.Note mendukung Microsoft OneNote 2010 dan versi yang lebih baru.
 ### Q5: Di mana saya bisa mendapatkan dukungan untuk Aspose.Note?
 
  A5: Untuk dukungan, Anda dapat mengunjungi Aspose.Note[forum](https://forum.aspose.com/c/note/28).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -3,10 +3,16 @@ title: قم بتحميل المستندات المحمية بكلمة مرور �
 linktitle: قم بتحميل المستندات المحمية بكلمة مرور في Aspose Note .NET
 second_title: Aspose.Note .NET API
 description: تعرف على كيفية تحميل المستندات المحمية بكلمة مرور بشكل آمن في Aspose Note .NET باستخدام خطوات بسيطة. ضمان سرية البيانات مع التشفير.
-type: docs
 weight: 22
 url: /ar/net/notebook-operations/load-password-protected-documents/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# قم بتحميل المستندات المحمية بكلمة مرور في Aspose Note .NET
+
 ## مقدمة
 
 Aspose.Note for .NET عبارة عن واجهة برمجة تطبيقات قوية تمكن المطورين من العمل مع ملفات Microsoft OneNote برمجيًا. في هذا البرنامج التعليمي، سوف نتعلم كيفية تحميل المستندات المحمية بكلمة مرور باستخدام Aspose.Note لـ .NET.
@@ -77,3 +83,9 @@ notebook.LoadChildDocument(dataDir + "Locked Pass2.one", new LoadOptions() { Doc
 ### س5: هل هناك إصدار تجريبي متاح لـ Aspose.Note لـ .NET؟
 
  ج5: نعم، يمكنك الوصول إلى الإصدار التجريبي المجاني من Aspose.Note لـ .NET من[هنا](https://releases.aspose.com/)مما يسمح لك باستكشاف ميزاته قبل إجراء عملية الشراء.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

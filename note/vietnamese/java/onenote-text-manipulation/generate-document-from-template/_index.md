@@ -3,10 +3,16 @@ title: Tạo tài liệu từ mẫu trong OneNote - Aspose.Note
 linktitle: Tạo tài liệu từ mẫu trong OneNote - Aspose.Note
 second_title: API Java Aspose.Note
 description: Tạo tài liệu động dễ dàng bằng Aspose.Note cho Java. Hãy làm theo hướng dẫn từng bước của chúng tôi để tạo tài liệu hiệu quả từ các mẫu.
-type: docs
 weight: 18
 url: /vi/java/onenote-text-manipulation/generate-document-from-template/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Tạo tài liệu từ mẫu trong OneNote - Aspose.Note
+
 ## Giới thiệu
 Bạn đang tìm cách hợp lý hóa việc tạo tài liệu trong ứng dụng Java của mình? Aspose.Note for Java cung cấp một giải pháp mạnh mẽ. Trong hướng dẫn này, chúng tôi sẽ hướng dẫn bạn cách tạo tài liệu từ các mẫu bằng Aspose.Note cho Java, giúp toàn bộ quá trình trở nên dễ dàng và hiệu quả.
 ## Điều kiện tiên quyết
@@ -84,3 +90,9 @@ Có, Aspose.Note hỗ trợ nhiều định dạng khác nhau, bao gồm OneNote
  Tham quan[Diễn đàn Aspose.Note](https://forum.aspose.com/c/note/28)để tìm kiếm sự hỗ trợ từ cộng đồng và hỗ trợ Aspose.
 ### Có bản dùng thử miễn phí không?
  Có, bạn có thể truy cập một[dùng thử miễn phí](https://releases.aspose.com/) để khám phá các tính năng trước khi mua hàng.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

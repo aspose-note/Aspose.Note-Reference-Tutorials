@@ -3,10 +3,16 @@ title: Преобразование блокнотов в изображение
 linktitle: Преобразование блокнотов в изображение (сведенное) в Aspose Note .NET
 second_title: Aspose.Note .NET API
 description: Узнайте, как преобразовать записные книжки OneNote в сведенные изображения с помощью Aspose.Note для .NET. Пошаговое руководство по плавной интеграции.
-type: docs
 weight: 12
 url: /ru/net/notebook-operations/convert-to-image-flattened/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Преобразование блокнотов в изображение (сведенное) в Aspose Note .NET
+
 ## Введение
 
 В этом уроке мы узнаем, как использовать Aspose.Note для .NET для преобразования блокнотов в сведенные изображения. Мы разобьем этот процесс на простые шаги, которые помогут вам понять и эффективно его реализовать.
@@ -93,3 +99,9 @@ notebook.Save(dataDir, notebookSaveOptions);
 ### Вопрос 5: Где я могу найти документацию по Aspose.Note для .NET?
 
  A5: Вы можете найти документацию[здесь](https://reference.aspose.com/note/net/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

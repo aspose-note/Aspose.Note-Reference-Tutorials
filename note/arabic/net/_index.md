@@ -1,12 +1,17 @@
 ---
 title: برامج تعليمية شاملة وأمثلة على Aspose.Note لـ .NET
 linktitle: Aspose.Note لبرامج .NET التعليمية
-type: docs
 weight: 10
 url: /ar/net/
 description: أتقن Aspose.Note لـ .NET مع دروس تعليمية شاملة! انغمس في المرفقات والارتباطات التشعبية والصور والمزيد. ارفع مستوى معالجة مستندات OneNote لديك.
-is_root: true
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# برامج تعليمية شاملة وأمثلة على Aspose.Note لـ .NET
+
 ## مقدمة
 
 هل أنت مستعد للارتقاء بلعبة معالجة المستندات في OneNote؟ يفتح Aspose.Note for .NET الأبواب أمام عالم من الاحتمالات، وقد وفرنا لك دروسًا وأمثلة شاملة. بدءًا من تعقيدات الترخيص وحتى المعالجة المتقدمة للنصوص، انطلق في رحلة لتطوير المستندات المحسنة.
@@ -97,3 +102,9 @@ is_root: true
 Master Aspose.Note مع إدارة العلامات. أضف الصور والجداول والعقد النصية وقم بإنشاء ملاحظات الاجتماع. استرداد تفاصيل العلامة وتحسين معالجة المستندات.
 ### [التلاعب بالنص](./text-manipulation/)
 قم بتحويل مستندات OneNote الخاصة بك باستخدام Aspose.Note لـ .NET! تعلم تقنيات معالجة النص، بدءًا من تطبيق التعداد النقطي والترقيم وحتى تغيير الأنماط.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

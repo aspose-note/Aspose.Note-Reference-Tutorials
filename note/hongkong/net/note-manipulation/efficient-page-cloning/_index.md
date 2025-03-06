@@ -3,10 +3,16 @@ title: 使用 Aspose.Note 高效能克隆頁面
 linktitle: 使用 Aspose.Note 高效能克隆頁面
 second_title: Aspose.Note .NET API
 description: 了解如何使用 Aspose.Note for .NET 高效複製 OneNote 文件中的頁面。請按照我們的逐步教學輕鬆實施。
-type: docs
 weight: 16
 url: /zh-hant/net/note-manipulation/efficient-page-cloning/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# 使用 Aspose.Note 高效能克隆頁面
+
 ## 介紹
 
 在本教程中，我們將探索如何使用 Aspose.Note for .NET 有效地複製頁面。 Aspose.Note 是一個功能強大的 .NET API，允許開發人員以程式設計方式使用 Microsoft OneNote 檔案。複製頁面是文件操作中的常見任務，而使用 Aspose.Note，這個過程變得簡單且有效率。
@@ -90,3 +96,9 @@ A4：是的，您可以在將複製頁面儲存到新文件之前根據需要對
 ### Q5：如果在使用 Aspose.Note 時遇到任何問題，我可以在哪裡獲得支援？
 
  A5：您可以從Aspose.Note論壇獲得支持[這裡](https://forum.aspose.com/c/note/28).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

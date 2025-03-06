@@ -3,10 +3,16 @@ title: แทรกรูปภาพโดยใช้ Image Stream ใน Aspo
 linktitle: แทรกรูปภาพโดยใช้ Image Stream ใน Aspose.Note
 second_title: Aspose.Note .NET API
 description: เรียนรู้วิธีแทรกรูปภาพลงในเอกสาร Aspose.Note ได้อย่างราบรื่นโดยใช้สตรีมรูปภาพใน .NET ปรับปรุงไฟล์ Note ของคุณด้วยภาพได้อย่างง่ายดาย
-type: docs
 weight: 11
 url: /th/net/images/insert-image-using-image-stream/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# แทรกรูปภาพโดยใช้ Image Stream ใน Aspose.Note
+
 ## การแนะนำ
 
 ในบทช่วยสอนนี้ เราจะสำรวจวิธีการแทรกรูปภาพลงในเอกสาร Aspose.Note โดยใช้สตรีมรูปภาพใน .NET Aspose.Note เป็น API อันทรงพลังที่ช่วยให้นักพัฒนาสามารถทำงานกับไฟล์ Microsoft OneNote โดยทางโปรแกรม ด้วยการทำตามขั้นตอนที่ระบุไว้ในคู่มือนี้ คุณจะได้เรียนรู้วิธีรวมรูปภาพเข้ากับเอกสาร Note ของคุณได้อย่างราบรื่น เพิ่มความดึงดูดสายตาและฟังก์ชันการทำงานโดยรวม
@@ -120,3 +126,9 @@ A3: แน่นอนว่า Aspose.Note มีตัวเลือกมา
 ### คำถามที่ 5: ฉันจะค้นหาแหล่งข้อมูลเพิ่มเติมและการสนับสนุนสำหรับ Aspose.Note ได้ที่ไหน
 
  A5: คุณสามารถค้นหาเอกสาร ฟอรั่ม และการสนับสนุนที่ครอบคลุมสำหรับ Aspose.Note ได้ที่[ตั้งฟอรั่ม](https://forum.aspose.com/c/note/28).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

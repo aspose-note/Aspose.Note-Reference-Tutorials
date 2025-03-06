@@ -3,10 +3,16 @@ title: Felsorolás vagy számlista lekérése Aspose.Note szövegben
 linktitle: Felsorolás vagy számlista lekérése Aspose.Note szövegben
 second_title: Aspose.Note .NET API
 description: Kiaknázza az Aspose.Note for .NET-ben rejlő lehetőségeket a felsorolás- vagy számlisták lekéréséhez szükséges lépésről lépésre szóló útmutatónkkal. Növelje OneNote dokumentumkezelési készségeit!
-type: docs
 weight: 23
 url: /hu/net/text-manipulation/retrieve-bullet-number-list/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Felsorolás vagy számlista lekérése Aspose.Note szövegben
+
 ## Bevezetés
 Üdvözöljük az Aspose.Note for .NET világában, egy robusztus és sokoldalú könyvtár, amely lehetővé teszi a fejlesztők számára, hogy könnyedén kezeljék a OneNote dokumentumkezelést. Ebben az oktatóanyagban a felsorolásjel- vagy számlisták lekérésének folyamatát mutatjuk be az Aspose.Note for .NET használatával. Akár tapasztalt fejlesztő, akár kódolás-rajongó, ez az útmutató felvértezi azokat a tudást, amelyek segítségével eligazodhat az Aspose.Note listákkal való munka során.
 ## Előfeltételek
@@ -87,3 +93,9 @@ Igen, az Aspose.Note a OneNote formátumok széles skáláját támogatja, így 
 Feltérképezheti és segítséget kérhet a[Aspose.Note fórum](https://forum.aspose.com/c/note/28) az esetlegesen felmerülő kérdésekre vagy problémákra.
 ### Létezik az Aspose.Note ingyenes próbaverziója .NET-hez?
  Igen, elérheti az Aspose.Note .NET ingyenes próbaverzióját[itt](https://releases.aspose.com/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

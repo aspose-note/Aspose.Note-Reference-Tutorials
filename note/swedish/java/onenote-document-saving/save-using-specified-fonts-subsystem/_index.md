@@ -3,10 +3,16 @@ title: Spara med angivna teckensnittsundersystem i OneNote
 linktitle: Spara med angivna teckensnittsundersystem i OneNote
 second_title: Aspose.Note Java API
 description: Lär dig hur du sparar OneNote-dokument med hjälp av specificerade teckensnittsundersystem i Java med Aspose.Note. Säkerställ konsekvent teckensnittsrepresentation över plattformar utan ansträngning.
-type: docs
 weight: 22
 url: /sv/java/onenote-document-saving/save-using-specified-fonts-subsystem/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Spara med angivna teckensnittsundersystem i OneNote
+
 ## Introduktion
 
 Aspose.Note för Java ger robusta funktioner för att arbeta med OneNote-dokument. Ett vanligt krav när man arbetar med sådana dokument är att se till att typsnitten underhålls ordentligt, speciellt om dokumentet ska exporteras eller sparas i olika format som PDF. Den här handledningen guidar dig genom processen att spara OneNote-dokument samtidigt som du specificerar teckensnittsundersystemet, vilket säkerställer konsekvent och korrekt representation av text på olika plattformar.
@@ -152,3 +158,9 @@ S4: Ja, du kan anpassa teckensnittsegenskaper som storlek, stil och färg med As
 ### F5: Finns det en testversion tillgänglig för Aspose.Note för Java?
 
 S5: Ja, du kan få en gratis provversion av Aspose.Note för Java från webbplatsen.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

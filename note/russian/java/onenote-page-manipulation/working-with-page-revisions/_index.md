@@ -3,10 +3,16 @@ title: Работа с редакциями страниц в OneNote — Aspose
 linktitle: Работа с редакциями страниц в OneNote — Aspose.Note
 second_title: Aspose.Note Java API
 description: Узнайте, как управлять версиями страниц в документах OneNote с помощью Aspose.Note для Java. Содержит пошаговое руководство для эффективного отслеживания изменений и совместной работы.
-type: docs
 weight: 21
 url: /ru/java/onenote-page-manipulation/working-with-page-revisions/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Работа с редакциями страниц в OneNote — Aspose.Note
+
 ## Введение
 
 OneNote — мощный инструмент для организации заметок и управления ими, но иногда вам необходимо работать с изменениями, чтобы отслеживать изменения и эффективно сотрудничать. С помощью Aspose.Note для Java вы можете легко программно управлять версиями страниц в документах OneNote. Это руководство шаг за шагом проведет вас через этот процесс.
@@ -98,3 +104,9 @@ document.save(dataDir + "WorkingWithPageRevisions_out.one");
 ### Вопрос 5: Где я могу получить поддержку Aspose.Note для Java?
 
  О: Вы можете получить поддержку Aspose.Note для Java на сайте[Форум Aspose.Note](https://forum.aspose.com/c/note/28).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

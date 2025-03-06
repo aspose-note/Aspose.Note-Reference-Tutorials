@@ -3,10 +3,16 @@ title: Λάβετε πληροφορίες σχετικά με τις Σελίδ
 linktitle: Λάβετε πληροφορίες σχετικά με τις Σελίδες στο OneNote - Aspose.Note
 second_title: Aspose.Note Java API
 description: Ανακαλύψτε τα μυστικά της σελίδας στα έγγραφά σας στο OneNote! Εξαγάγετε αναθεωρήσεις, χρόνους δημιουργίας και άλλα με το Aspose.Note. Βήμα-βήμα οδηγός & κωδικός περιλαμβάνονται! #OneNote #Java #Aspose
-type: docs
 weight: 12
 url: /el/java/onenote-page-manipulation/get-information-about-pages/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Λάβετε πληροφορίες σχετικά με τις Σελίδες στο OneNote - Aspose.Note
+
 ## Εισαγωγή
 
 Σε αυτό το σεμινάριο, θα σας καθοδηγήσουμε στη διαδικασία εξαγωγής πληροφοριών σχετικά με σελίδες στο OneNote χρησιμοποιώντας το Aspose.Note για Java. Το Aspose.Note είναι ένα ισχυρό API που σας επιτρέπει να εργάζεστε με έγγραφα του Microsoft OneNote μέσω προγραμματισμού. Είτε θέλετε να αποκτήσετε πρόσβαση σε αναθεωρήσεις σελίδων, χρόνους δημιουργίας, τίτλους ή συγγραφείς, το Aspose.Note απλοποιεί την εργασία με τη διαισθητική διεπαφή του.
@@ -90,3 +96,9 @@ A4: Ναι, το Aspose παρέχει αποκλειστική τεχνική �
 ### Ε5: Υπάρχει διαθέσιμη δοκιμαστική έκδοση για το Aspose.Note για Java;
 
  A5: Ναι, μπορείτε να κάνετε λήψη μιας δωρεάν δοκιμαστικής έκδοσης του Aspose.Note για Java από[εδώ](https://releases.aspose.com/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

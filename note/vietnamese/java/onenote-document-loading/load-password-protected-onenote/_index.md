@@ -3,10 +3,16 @@ title: Tải tài liệu OneNote được bảo vệ bằng mật khẩu - Java
 linktitle: Tải tài liệu OneNote được bảo vệ bằng mật khẩu - Java
 second_title: API Java Aspose.Note
 description: Mở khóa tiềm năng của Aspose.Note cho Java trong việc xử lý các tài liệu OneNote được bảo vệ bằng mật khẩu một cách dễ dàng. Nâng cao khả năng quản lý tài liệu Java của bạn với Aspose.Note.
-type: docs
 weight: 27
 url: /vi/java/onenote-document-loading/load-password-protected-onenote/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Tải tài liệu OneNote được bảo vệ bằng mật khẩu - Java
+
 ## Giới thiệu
 
 Trong lĩnh vực quản lý và thao tác tài liệu, Aspose.Note for Java nổi lên như một công cụ mạnh mẽ, hỗ trợ xử lý liền mạch các tài liệu OneNote với các chức năng mạnh mẽ. Trong hướng dẫn này, chúng ta sẽ đi sâu vào quy trình tải tài liệu OneNote được bảo vệ bằng mật khẩu bằng Java, mở khóa tiềm năng của Aspose.Note để xử lý các tệp được mã hóa một cách dễ dàng.
@@ -93,3 +99,9 @@ Câu trả lời 4: Có, bạn có thể sử dụng phiên bản dùng thử mi
 ### Câu hỏi 5: Tôi có thể tích hợp Aspose.Note cho Java vào cả ứng dụng web và máy tính để bàn không?
 
 Câu trả lời 5: Có, Aspose.Note for Java có thể được tích hợp liền mạch vào cả ứng dụng web và máy tính để bàn, mang lại sự linh hoạt và linh hoạt trên nhiều nền tảng khác nhau.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

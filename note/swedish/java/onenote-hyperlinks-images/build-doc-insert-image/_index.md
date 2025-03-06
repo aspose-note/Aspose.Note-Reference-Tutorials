@@ -3,10 +3,16 @@ title: Bygg dokument och infoga bild i OneNote med Java
 linktitle: Bygg dokument och infoga bild i OneNote med Java
 second_title: Aspose.Note Java API
 description: Lär dig hur du bygger OneNote-dokument och infogar bilder med Aspose.Note för Java. Steg-för-steg handledning för sömlös integration.
-type: docs
 weight: 12
 url: /sv/java/onenote-hyperlinks-images/build-doc-insert-image/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Bygg dokument och infoga bild i OneNote med Java
+
 ## Introduktion
 
 I den här handledningen kommer vi att utforska hur du använder Aspose.Note för Java för att bygga OneNote-dokument och infoga bilder i dem. Aspose.Note är ett kraftfullt Java API som gör det möjligt för utvecklare att arbeta med Microsoft OneNote-filer programmatiskt. Vi kommer att dela upp varje steg i detalj för att guida dig genom processen.
@@ -119,3 +125,10 @@ Grattis! Du har framgångsrikt lärt dig hur du bygger OneNote-dokument och info
 ### F5: Kan jag få en tillfällig licens för Aspose.Note för Java?
 
  A5: Ja, du kan begära en tillfällig licens[här](https://purchase.aspose.com/temporary-license/).
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

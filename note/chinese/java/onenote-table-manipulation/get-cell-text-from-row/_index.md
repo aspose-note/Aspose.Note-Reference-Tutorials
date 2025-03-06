@@ -3,10 +3,16 @@ title: 从 OneNote 中的表格行获取单元格文本 - Aspose.Note
 linktitle: 从 OneNote 中的表格行获取单元格文本 - Aspose.Note
 second_title: Aspose.Note Java API
 description: 使用 Aspose.Note 解开 Java 中 OneNote 表中文本提取的秘密。按照我们的分步指南来增强您的文档处理技能。
-type: docs
 weight: 15
 url: /zh/java/onenote-table-manipulation/get-cell-text-from-row/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# 从 OneNote 中的表格行获取单元格文本 - Aspose.Note
+
 ## 介绍
 踏上 Java 开发领域的旅程，我们将揭开使用强大的 Aspose.Note 库从 OneNote 表行中提取文本的过程。本分步指南将为您提供有效导航和操作表格中文本的技能。
 ## 先决条件
@@ -73,3 +79,9 @@ for (Table table : nodes) {
 加入充满活力的 Aspose.Note 社区：[论坛](https://forum.aspose.com/c/note/28)进行讨论和寻求帮助。
 ### 是否有样本文档可用于测试目的？
 深入研究 Aspose.Note 文档，获取示例文档和代码片段的宝库。
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

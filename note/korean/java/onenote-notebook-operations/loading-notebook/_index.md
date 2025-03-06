@@ -3,10 +3,16 @@ title: OneNote에서 노트북 로드 - Aspose.Note
 linktitle: OneNote에서 노트북 로드 - Aspose.Note
 second_title: Aspose.Note 자바 API
 description: Java로 OneNote 노트북을 마스터하세요! 문서부터 하위 노트북까지 콘텐츠를 로드, 탐색 및 처리하는 방법을 알아보세요. 쉬운 단계 및 코드가 포함되어 있습니다! #OneNote #Java #Aspose
-type: docs
 weight: 19
 url: /ko/java/onenote-notebook-operations/loading-notebook/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# OneNote에서 노트북 로드 - Aspose.Note
+
 ## 소개
 
 OneNote 노트북 작업을 위해 Java용 Aspose.Note를 사용하는 방법에 대한 튜토리얼에 오신 것을 환영합니다. Aspose.Note는 개발자가 OneNote 문서를 프로그래밍 방식으로 생성, 조작 및 변환할 수 있는 강력한 Java 라이브러리입니다. 이 튜토리얼에서는 Aspose.Note for Java를 사용하여 OneNote에서 노트북을 로드하는 과정을 안내합니다.
@@ -98,3 +104,9 @@ A3: 예, 상업적 용도로 사용하려면 라이센스를 구입해야 합니
 ### Q5: 테스트 목적으로 임시 라이선스를 얻을 수 있나요?
 
  A5: 네, 임시 라이센스를 요청할 수 있습니다.[여기](https://purchase.aspose.com/temporary-license/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

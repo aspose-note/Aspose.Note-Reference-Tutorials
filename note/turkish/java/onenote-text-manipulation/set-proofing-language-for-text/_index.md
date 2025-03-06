@@ -3,10 +3,16 @@ title: OneNote'ta Metin Yazım Denetleme Dilini Ayarlama - Aspose.Note
 linktitle: OneNote'ta Metin Yazım Denetleme Dilini Ayarlama - Aspose.Note
 second_title: Aspose.Note Java API'si
 description: Aspose.Note for Java'nın potansiyelini ortaya çıkarın! Adım adım kılavuzumuzla OneNote'ta metin için yazım denetleme dilini nasıl sorunsuz bir şekilde ayarlayacağınızı öğrenin.
-type: docs
 weight: 22
 url: /tr/java/onenote-text-manipulation/set-proofing-language-for-text/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# OneNote'ta Metin Yazım Denetleme Dilini Ayarlama - Aspose.Note
+
 ## giriiş
 Yazılım geliştirmenin dinamik dünyasında Aspose.Note for Java, OneNote belgelerini programlı olarak yönetmek ve değiştirmek için güçlü bir araç olarak öne çıkıyor. OneNote'ta metin için yazım denetleme dilini ayarlama özelliğiyle Java uygulamalarınızı geliştirmek istiyorsanız doğru yere geldiniz. Bu eğitim, süreç boyunca size adım adım rehberlik edecek ve her kavramı net bir şekilde kavramanızı sağlayacaktır.
 ## Önkoşullar
@@ -67,3 +73,9 @@ C: Olası sorunları çözmek için try-catch bloklarını kullanarak hata işle
 C: Kesinlikle! Aspose.Note for Java kütüphanesinin web projenizde doğru şekilde yapılandırıldığından emin olun.
 ### S: Aspose.Note for Java için ek örnekleri ve belgeleri nerede bulabilirim?
  C: Keşfedin[dokümantasyon](https://reference.aspose.com/note/java/) kapsamlı kaynaklar için.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

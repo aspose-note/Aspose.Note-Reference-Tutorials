@@ -3,10 +3,16 @@ title: Készítsen dokumentumot és szúrjon be képet az Aspose.Note-ba
 linktitle: Készítsen dokumentumot és szúrjon be képet az Aspose.Note-ba
 second_title: Aspose.Note .NET API
 description: Ismerje meg, hogyan illeszthet be képeket a OneNote dokumentumokba programozottan az Aspose.Note for .NET használatával. Egyszerű lépések a zökkenőmentes dokumentumkezeléshez.
-type: docs
 weight: 10
 url: /hu/net/images/build-doc-insert-image/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Készítsen dokumentumot és szúrjon be képet az Aspose.Note-ba
+
 ## Bevezetés
 
 Ebben az oktatóanyagban az Aspose.Note for .NET használatával történő dokumentummanipuláció világába fogunk beleásni. Az Aspose.Note egy hatékony API, amely lehetővé teszi a fejlesztők számára, hogy programozottan dolgozzanak a Microsoft OneNote fájlokkal, lehetővé téve olyan feladatok elvégzését, mint például a dokumentumok létrehozása, módosítása és konvertálása. 
@@ -150,3 +156,9 @@ A3: Természetesen! Az Aspose.Note robusztus szolgáltatásokat és kiváló tel
 ### 5. kérdés: Hol találok további forrásokat és támogatást az Aspose.Note for .NET-hez?
 
  5. válasz: Megtekintheti az Aspose.Note dokumentációját[itt](https://reference.aspose.com/note/net/) és kérjen segítséget az Aspose közösségi fórumtól[itt](https://forum.aspose.com/c/note/28).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

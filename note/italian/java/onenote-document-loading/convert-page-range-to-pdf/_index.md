@@ -3,10 +3,16 @@ title: Converti un intervallo di pagine specifico in PDF in OneNote con Java
 linktitle: Converti un intervallo di pagine specifico in PDF in OneNote con Java
 second_title: Aspose.Note API Java
 description: Scopri come convertire intervalli di pagine specifici da OneNote a PDF senza problemi con Aspose.Note per Java. Conserva la formattazione e il layout senza sforzo.
-type: docs
 weight: 11
 url: /it/java/onenote-document-loading/convert-page-range-to-pdf/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Converti un intervallo di pagine specifico in PDF in OneNote con Java
+
 ## introduzione
 
 OneNote è un potente strumento per organizzare le note, ma a volte potrebbe essere necessario esportare intervalli di pagine specifici in PDF per scopi di condivisione o archiviazione. In questo tutorial, ti guideremo attraverso il processo di conversione di un intervallo di pagine specifico in PDF utilizzando Aspose.Note per Java.
@@ -85,3 +91,9 @@ A4: Sì, puoi personalizzare vari aspetti come le dimensioni della pagina, l'ori
 ### Q5: Aspose.Note per Java supporta la conversione batch di più documenti OneNote?
 
 R5: Sì, puoi convertire in batch più documenti OneNote in PDF scorrendo ciascun documento e applicando il processo di conversione.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -3,10 +3,16 @@ title: Aspose.Note를 사용하여 효율적으로 페이지 복제
 linktitle: Aspose.Note를 사용하여 효율적으로 페이지 복제
 second_title: Aspose.Note .NET API
 description: .NET용 Aspose.Note를 사용하여 OneNote 문서의 페이지를 효율적으로 복제하는 방법을 알아보세요. 쉬운 구현을 위해 단계별 튜토리얼을 따르십시오.
-type: docs
 weight: 16
 url: /ko/net/note-manipulation/efficient-page-cloning/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Aspose.Note를 사용하여 효율적으로 페이지 복제
+
 ## 소개
 
 이 튜토리얼에서는 .NET용 Aspose.Note를 사용하여 페이지를 효율적으로 복제하는 방법을 살펴보겠습니다. Aspose.Note는 개발자가 Microsoft OneNote 파일을 프로그래밍 방식으로 작업할 수 있게 해주는 강력한 .NET API입니다. 페이지 복제는 문서 조작에서 일반적인 작업이며 Aspose.Note를 사용하면 이 프로세스가 간단하고 효율적이 됩니다.
@@ -90,3 +96,9 @@ A3: 예, .NET용 Aspose.Note는 .NET Framework 및 .NET Core 모두와 호환됩
 ### Q5: Aspose.Note를 사용하는 동안 문제가 발생하면 어디서 지원을 받을 수 있나요?
 
  A5: Aspose.Note 포럼에서 지원을 받을 수 있습니다.[여기](https://forum.aspose.com/c/note/28).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

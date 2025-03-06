@@ -3,10 +3,16 @@ title: 在 OneNote 中使用區域設定 - Aspose.Note
 linktitle: 在 OneNote 中使用區域設定 - Aspose.Note
 second_title: Aspose.Note Java API
 description: 利用 Aspose.Note 的強大功能來處理 OneNote 語言環境！提取、操作和產生適合不同語言和地區的報告。 #OneNote #Java #Aspose
-type: docs
 weight: 10
 url: /zh-hant/java/onenote-notebook-operations/working-with-locales/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# 在 OneNote 中使用區域設定 - Aspose.Note
+
 ## 介紹
 
 在 Java 開發領域，Aspose.Note 作為處理 OneNote 檔案的強大工具脫穎而出。無論您的目標是提取資訊、操作內容或產生報告，Aspose.Note 都提供了一組廣泛的功能來簡化您的工作流程。在本教程中，我們將深入研究一個特定方面：使用 Aspose.Note for Java 在 OneNote 中處理區域設定。
@@ -99,3 +105,9 @@ A3：雖然Aspose.Note主要是為OneNote文件設計的，但它提供了對各
 ### Q5: 我可以在購買前試用 Aspose.Note 嗎？
 
 A5：當然，您可以透過網站上提供的免費試用來探索 Aspose.Note 的功能。
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

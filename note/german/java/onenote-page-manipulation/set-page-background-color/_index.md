@@ -3,10 +3,16 @@ title: Legen Sie die Hintergrundfarbe der Seite in OneNote fest – Aspose.Note
 linktitle: Legen Sie die Hintergrundfarbe der Seite in OneNote fest – Aspose.Note
 second_title: Aspose.Note Java API
 description: Erfahren Sie, wie Sie mit Aspose.Note für Java mühelos die Hintergrundfarbe der Seite in OneNote festlegen. Verbessern Sie die visuelle Attraktivität Ihrer Dokumente mit diesem einfachen Tutorial.
-type: docs
 weight: 20
 url: /de/java/onenote-page-manipulation/set-page-background-color/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Legen Sie die Hintergrundfarbe der Seite in OneNote fest – Aspose.Note
+
 ## Einführung
 
 In diesem Tutorial befassen wir uns mit dem Prozess des Festlegens der Seitenhintergrundfarbe in OneNote mithilfe von Aspose.Note für Java. Aspose.Note ist eine leistungsstarke Java-Bibliothek, die es Entwicklern ermöglicht, OneNote-Dokumente programmgesteuert zu bearbeiten. Das Ändern der Hintergrundfarbe der Seite kann die visuelle Attraktivität Ihrer OneNote-Dokumente verbessern und sie ansprechender und übersichtlicher machen.
@@ -100,3 +106,9 @@ A4: Auf jeden Fall! Sie können eine kostenlose Testversion von Aspose.Note nutz
 ### F5: Wo finde ich zusätzliche Unterstützung oder Hilfe zu Aspose.Note?
 
 A5: Bei Fragen oder Hilfe können Sie das Aspose.Note-Forum besuchen oder sich an das Support-Team wenden, um umgehend Hilfe zu erhalten.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

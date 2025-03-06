@@ -3,10 +3,16 @@ title: Bygg dokument och infoga bild med Stream i OneNote - Java
 linktitle: Bygg dokument och infoga bild med Stream i OneNote - Java
 second_title: Aspose.Note Java API
 description: Lär dig hur du enkelt integrerar bilder i OneNote-dokument med Aspose.Note för Java. Steg-för-steg handledning för Java-utvecklare.
-type: docs
 weight: 13
 url: /sv/java/onenote-hyperlinks-images/build-doc-insert-image-stream/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Bygg dokument och infoga bild med Stream i OneNote - Java
+
 ## Introduktion
 
 Välkommen till vår omfattande handledning om hur du använder Aspose.Note för Java för att bygga dokument och infoga bilder med bildströmmar i OneNote! I den här handledningen guidar vi dig genom processen steg för steg, så att du har en tydlig förståelse för varje steg. I slutet kommer du att enkelt kunna integrera bilder i dina OneNote-dokument med hjälp av Java.
@@ -180,3 +186,10 @@ S4: Du kan komma åt dokumentation, nedladdningslänkar, supportforum och tillf�
 ### F5: Finns det en testversion tillgänglig för Aspose.Note för Java?
 
 S5: Ja, du kan få en gratis testversion av Aspose.Note för Java för att utforska dess funktioner och möjligheter innan du fattar ett köpbeslut.
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

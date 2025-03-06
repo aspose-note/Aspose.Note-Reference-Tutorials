@@ -3,10 +3,16 @@ title: OneNote Java Entegrasyonu
 linktitle: OneNote Java Entegrasyonu
 second_title: Aspose.Note Java API'si
 description: Aspose.Note Java ile OneNote deneyiminizi geliştirin! Java kullanarak programlı olarak dosya ekleme, simge ayarlama ve ekleri alma konusundaki eğitimleri keşfedin.
-type: docs
 weight: 20
 url: /tr/java/onenote-java-integration/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# OneNote Java Entegrasyonu
+
 ## giriiş
 
 Aspose.Note'u kullanarak OneNote'u Java ile entegre etmeye ilişkin kapsamlı kılavuzumuza hoş geldiniz. İster deneyimli bir geliştirici olun ister yeni başlıyor olun, bu eğitimler OneNote yeteneklerinizi programlı olarak en üst düzeye çıkarmanıza yardımcı olacaktır.
@@ -36,3 +42,9 @@ Aspose.Note for Java ile Java kullanarak OneNote'ta nasıl dosya ekleyeceğinizi
 Aspose.Note ile Java kullanarak OneNote notlarınıza programlı olarak nasıl dosya ekleyeceğinizi öğrenin.
 ### [Java kullanarak OneNote'tan Eki Alma](./retrieve-attachment/)
 Sorunsuz belge işleme için güçlü bir API olan Aspose.Note ile Java kullanarak OneNote'tan ekleri nasıl alacağınızı öğrenin.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

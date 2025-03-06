@@ -3,10 +3,16 @@ title: Wenden Sie Aufzählungszeichen auf Text in Aspose.Note an
 linktitle: Wenden Sie Aufzählungszeichen auf Text in Aspose.Note an
 second_title: Aspose.Note .NET-API
 description: Erfahren Sie, wie Sie in Aspose.Note für .NET Aufzählungszeichen auf Text anwenden, um Ihre OneNote-Dokumente zu verbessern. Befolgen Sie diese Schritt-für-Schritt-Anleitung für eine effektive Formatierung.
-type: docs
 weight: 10
 url: /de/net/text-manipulation/apply-bullets-on-text/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Wenden Sie Aufzählungszeichen auf Text in Aspose.Note an
+
 ## Einführung
 Willkommen bei dieser Schritt-für-Schritt-Anleitung zum Anwenden von Aufzählungszeichen auf Text mit Aspose.Note für .NET. Aspose.Note ist eine leistungsstarke Bibliothek, die es Entwicklern ermöglicht, nahtlos mit Microsoft OneNote-Dateien in ihren .NET-Anwendungen zu arbeiten. In diesem Tutorial führen wir Sie durch den Prozess des Anwendens von Aufzählungszeichen auf Text, um die visuelle Attraktivität Ihrer OneNote-Dokumente zu verbessern.
 ## Voraussetzungen
@@ -86,3 +92,9 @@ Aspose.Note unterstützt verschiedene Versionen von Microsoft OneNote und gewäh
  Ja, Sie können eine kostenlose Testversion herunterladen[Hier](https://releases.aspose.com/).
 ### Wo finde ich zusätzliche Unterstützung und Ressourcen?
  Sie können das Aspose.Note-Community-Forum besuchen[Hier](https://forum.aspose.com/c/note/28) für Unterstützung und Diskussionen.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

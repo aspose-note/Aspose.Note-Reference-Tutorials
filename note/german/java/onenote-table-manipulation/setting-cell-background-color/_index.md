@@ -3,10 +3,16 @@ title: Festlegen der Hintergrundfarbe von Zellen in OneNote – Aspose.Note
 linktitle: Festlegen der Hintergrundfarbe von Zellen in OneNote – Aspose.Note
 second_title: Aspose.Note Java API
 description: Transformieren Sie OneNote-Dokumente ganz einfach mit Aspose.Note für Java. Passen Sie mühelos die Hintergrundfarben der Zellen an. Probieren Sie jetzt die kostenlose Testversion aus!
-type: docs
 weight: 17
 url: /de/java/onenote-table-manipulation/setting-cell-background-color/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Festlegen der Hintergrundfarbe von Zellen in OneNote – Aspose.Note
+
 ## Einführung
 Willkommen zu unserem Tutorial zum Festlegen der Hintergrundfarbe von Zellen in OneNote mit Aspose.Note für Java! In dieser Schritt-für-Schritt-Anleitung führen wir Sie durch den Prozess der mühelosen Anpassung der Zellenhintergrundfarben in Ihren OneNote-Dokumenten.
 ## Voraussetzungen
@@ -66,3 +72,9 @@ Ja, Sie können die Zeilen und Zellen Ihrer Tabelle durchlaufen, um die Hintergr
  Besuchen Sie das Support-Forum[Hier](https://forum.aspose.com/c/note/28) um Unterstützung von der Aspose-Community zu erhalten.
 ### Wo kann ich Aspose.Note für Java kaufen?
  Sie können die Bibliothek erwerben[Hier](https://purchase.aspose.com/buy).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

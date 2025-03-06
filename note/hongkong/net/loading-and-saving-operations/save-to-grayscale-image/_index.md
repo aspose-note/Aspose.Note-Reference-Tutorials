@@ -3,10 +3,16 @@ title: 在 Aspose.Note 中儲存為灰階影像
 linktitle: 在 Aspose.Note 中儲存為灰階影像
 second_title: Aspose.Note .NET API
 description: 了解如何使用 Aspose.Note for .NET 將 OneNote 文件儲存為灰階影像。按照這個全面的教程進行高效的文檔處理。
-type: docs
 weight: 24
 url: /zh-hant/net/loading-and-saving-operations/save-to-grayscale-image/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# 在 Aspose.Note 中儲存為灰階影像
+
 ## 介紹
 
 在本教學中，我們將探索如何利用 Aspose.Note for .NET 將文件儲存為灰階影像。 Aspose.Note 是一個功能強大的函式庫，可讓開發人員以程式設計方式處理 Microsoft OneNote 文件，提供廣泛的功能。
@@ -85,3 +91,9 @@ A4：是的，您可以透過其網站上提供的免費試用版來探索 Aspos
 ### Q5：如何取得Aspose.Note的臨時授權？
 
 A5：您可以透過造訪提供的連結並按照說明操作來取得 Aspose.Note 的臨時許可證。
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -3,10 +3,16 @@ title: Tạo danh sách đánh số trong OneNote - Aspose.Note
 linktitle: Tạo danh sách đánh số trong OneNote - Aspose.Note
 second_title: API Java Aspose.Note
 description: Tìm hiểu cách dễ dàng tạo danh sách đánh số trong OneNote bằng Aspose.Note for Java. Tải xuống bản dùng thử miễn phí và đi sâu vào thế giới phát triển Java!
-type: docs
 weight: 14
 url: /vi/java/onenote-text-manipulation/create-numbered-list/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Tạo danh sách đánh số trong OneNote - Aspose.Note
+
 ## Giới thiệu
 Aspose.Note for Java trao quyền cho các nhà phát triển Java làm việc liền mạch với các tệp Microsoft OneNote. Trong hướng dẫn này, chúng tôi sẽ hướng dẫn bạn quy trình tạo danh sách đánh số trong OneNote bằng thư viện Aspose.Note for Java mạnh mẽ.
 ## Điều kiện tiên quyết
@@ -91,3 +97,9 @@ Trong hướng dẫn này, chúng ta đã khám phá quy trình liền mạch đ
  Đáp: Hãy tham khảo[tài liệu](https://reference.aspose.com/note/java/) để biết thông tin toàn diện.
 ### Câu hỏi: Làm cách nào để mua giấy phép Aspose.Note cho Java?
  A: Bạn có thể mua giấy phép[đây](https://purchase.aspose.com/buy).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

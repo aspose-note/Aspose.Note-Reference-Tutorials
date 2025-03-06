@@ -3,10 +3,16 @@ title: OneNote-stijlen
 linktitle: OneNote-stijlen
 second_title: Aspose.Note Java-API
 description: Ontdek de kunst van het wijzigen van OneNote-tekststijlen met Aspose.Note voor Java. Leer hoe u de kleur, grootte en markering van het lettertype kunt wijzigen in onze stapsgewijze zelfstudies.
-type: docs
 weight: 31
 url: /nl/java/onenote-styles/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# OneNote-stijlen
+
 
 ## Invoering
 
@@ -36,3 +42,9 @@ Duik in de wereld van OneNote-stijlen, gewapend met de kennis en expertise van A
 Leer hoe u de tekststijl in OneNote kunt wijzigen met Aspose.Note voor Java. Wijzig moeiteloos de kleur, grootte en markering van het lettertype.
 ### [Stel de standaard alineastijl in OneNote in - Aspose.Note](./set-default-paragraph-style/)
 Leer hoe u standaard alineastijlen in OneNote instelt met Aspose.Note voor Java. Volg onze stapsgewijze handleiding voor efficiënte tekstopmaak in uw Java-applicaties.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -3,10 +3,16 @@ title: Aspose.Note를 사용하여 회의 메모용 템플릿 생성
 linktitle: Aspose.Note를 사용하여 회의 메모용 템플릿 생성
 second_title: Aspose.Note .NET API
 description: .NET용 Aspose.Note를 사용하여 구조화된 회의 메모를 생성하는 방법을 알아보세요. 이 튜토리얼에서는 코드 예제가 포함된 단계별 가이드를 제공합니다.
-type: docs
 weight: 13
 url: /ko/net/tag-management/generate-template-meeting-notes/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Aspose.Note를 사용하여 회의 메모용 템플릿 생성
+
 ## 소개
 
 이 튜토리얼에서는 Aspose.Note for .NET을 사용하여 회의록용 템플릿을 생성하는 과정을 안내합니다. 이 라이브러리는 OneNote 문서를 프로그래밍 방식으로 생성, 편집 및 조작하기 위한 강력한 도구를 제공합니다.
@@ -126,3 +132,9 @@ A4: 예, .NET용 Aspose.Note는 OneNote(*.one) 및 PDF.
 
  A5: 예, 다음에서 무료 평가판을 다운로드할 수 있습니다.[이 링크](https://releases.aspose.com/).
    
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

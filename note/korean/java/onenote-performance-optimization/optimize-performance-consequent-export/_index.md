@@ -3,10 +3,16 @@ title: OneNote에서 내보내기 작업 성능 최적화 - Java
 linktitle: OneNote에서 내보내기 작업 성능 최적화 - Java
 second_title: Aspose.Note 자바 API
 description: Java용 Aspose.Note를 사용하여 OneNote에서 내보내기 작업의 성능을 최적화하는 방법을 알아보세요. 효율적인 변환을 위한 단계별 가이드.
-type: docs
 weight: 11
 url: /ko/java/onenote-performance-optimization/optimize-performance-consequent-export/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# OneNote에서 내보내기 작업 성능 최적화 - Java
+
 ## 소개
 
 OneNote는 노트를 정리하고 관리하는 강력한 도구이지만 때로는 노트를 효율적으로 내보내는 것이 어려울 수 있습니다. 이 자습서에서는 Aspose.Note의 도움으로 Java를 사용하여 OneNote에서 내보내기 작업의 성능을 최적화하는 방법을 살펴보겠습니다.
@@ -136,3 +142,9 @@ A4: 예, Java용 Aspose.Note는 OneNote 문서를 JPG, BMP, PNG를 포함한 다
 ### Q5: Java용 Aspose.Note에 대한 지원은 어디서 찾을 수 있나요?
 
  A5: Java용 Aspose.Note에 대한 지원은 다음에서 찾을 수 있습니다.[법정](https://forum.aspose.com/c/note/28)에서 질문하고, 아이디어를 공유하고, 커뮤니티 및 지원팀과 상호 작용할 수 있습니다.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

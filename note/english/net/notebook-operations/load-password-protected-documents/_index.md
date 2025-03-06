@@ -3,10 +3,16 @@ title: Load Password-Protected Documents in Aspose Note .NET
 linktitle: Load Password-Protected Documents in Aspose Note .NET
 second_title: Aspose.Note .NET API
 description: Learn how to securely load password-protected documents in Aspose Note .NET using simple steps. Ensure data confidentiality with encryption.
-type: docs
 weight: 22
 url: /net/notebook-operations/load-password-protected-documents/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Load Password-Protected Documents in Aspose Note .NET
+
 ## Introduction
 
 Aspose.Note for .NET is a powerful API that enables developers to work with Microsoft OneNote files programmatically. In this tutorial, we will learn how to load password-protected documents using Aspose.Note for .NET.
@@ -77,3 +83,10 @@ A4: Yes, you can set different passwords for different child documents within a 
 ### Q5: Is there a trial version available for Aspose.Note for .NET?
 
 A5: Yes, you can access a free trial version of Aspose.Note for .NET from [here](https://releases.aspose.com/), allowing you to explore its features before making a purchase.
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

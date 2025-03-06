@@ -3,10 +3,16 @@ title: Guardar documento en OneNote usando OneSaveOptions - Aspose.Note
 linktitle: Guardar documento en OneNote usando OneSaveOptions - Aspose.Note
 second_title: Aspose.Nota Java API
 description: Aprenda a guardar documentos en formato OneNote usando OneSaveOptions en Aspose.Note para Java. Mejore su flujo de trabajo con este completo tutorial.
-type: docs
 weight: 11
 url: /es/java/onenote-document-saving/save-document-to-onenote-format-using-onesaveoptions/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Guardar documento en OneNote usando OneSaveOptions - Aspose.Note
+
 ## Introducción
 
 En este tutorial, profundizaremos en el proceso de guardar documentos en formato OneNote usando OneSaveOptions en Aspose.Note para Java. Aspose.Note es una potente API de Java que facilita la manipulación y gestión de documentos de OneNote mediante programación. Siguiendo esta guía paso a paso, aprenderá cómo guardar documentos de manera eficiente, garantizando la compatibilidad con el formato OneNote.
@@ -74,3 +80,9 @@ R4: Por supuesto, Aspose.Note para Java está diseñado para satisfacer las nece
 ### P5: ¿Dónde puedo encontrar soporte o recursos adicionales para Aspose.Note para Java?
 
  R5: Puede encontrar documentación completa, tutoriales y foros para Aspose.Note para Java en el[Aspose sitio web](https://forum.aspose.com/c/note/28).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

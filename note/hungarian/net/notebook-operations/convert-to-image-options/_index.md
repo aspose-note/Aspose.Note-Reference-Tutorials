@@ -3,10 +3,16 @@ title: Konvertálja a notebookokat képpé az Aspose Note .NET beállításaival
 linktitle: Konvertálja a notebookokat képpé az Aspose Note .NET beállításaival
 second_title: Aspose.Note .NET API
 description: Ismerje meg, hogyan konvertálhat notebookokat testreszabható beállításokkal rendelkező képekké az Aspose.Note for .NET segítségével.
-type: docs
 weight: 13
 url: /hu/net/notebook-operations/convert-to-image-options/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Konvertálja a notebookokat képpé az Aspose Note .NET beállításaival
+
 ## Bevezetés
 
 Ebben az oktatóanyagban a jegyzetfüzetek képpé konvertálásával foglalkozunk különféle opciókkal az Aspose.Note for .NET könyvtár használatával. Az Aspose.Note egy hatékony .NET API, amely lehetővé teszi a fejlesztők számára, hogy programozottan dolgozzanak Microsoft OneNote fájlokkal. Az ebben az útmutatóban felvázolt lépések követésével megtanulhatja, hogyan alakíthatja át könnyedén a notebookokat képekké, miközben a kimenetet az igényeinek megfelelően testreszabhatja.
@@ -95,3 +101,9 @@ Végezetül megvizsgáltuk, hogyan konvertálhatunk notebookokat képekké kül�
 ### 5. kérdés: Az Aspose.Note for .NET támogatja a PNG-n kívül más képformátumokat is?
 
 5. válasz: Igen, az Aspose.Note for .NET számos képformátumot támogat, beleértve a JPEG-et, BMP-t, GIF-et és TIFF-et.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

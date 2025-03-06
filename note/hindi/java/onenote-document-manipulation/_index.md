@@ -3,10 +3,16 @@ title: OneNote दस्तावेज़ हेरफेर
 linktitle: OneNote दस्तावेज़ हेरफेर
 second_title: Aspose.नोट जावा एपीआई
 description: Aspose.Note के साथ जावा में OneNote दस्तावेज़ बनाएं, हेरफेर करें और स्वचालित करें। दस्तावेज़ विज़िटर, स्वरूपित समृद्ध पाठ और समृद्ध पाठ निर्माण पर चरण-दर-चरण ट्यूटोरियल।
-type: docs
 weight: 21
 url: /hi/java/onenote-document-manipulation/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# OneNote दस्तावेज़ हेरफेर
+
 
 ## परिचय
 
@@ -29,3 +35,9 @@ Aspose.Note के साथ जावा का उपयोग करके On
 जानें कि जावा के लिए Aspose.Note का उपयोग करके जावा में प्रोग्रामेटिक रूप से बड़े पैमाने पर स्वरूपित OneNote दस्तावेज़ कैसे बनाएं। निर्बाध दस्तावेज़ स्वचालन के लिए हमारी चरण-दर-चरण मार्गदर्शिका का पालन करें।
 ### [जावा में सरल रिच टेक्स्ट के साथ OneNote दस्तावेज़ बनाएं](./create-onenote-document-simple-rich-text/)
 जावा के लिए Aspose.Note का उपयोग करके सरल रिच टेक्स्ट के साथ OneNote दस्तावेज़ बनाने का तरीका जानें। कुशल दस्तावेज़ प्रबंधन के लिए इस कार्यक्षमता को अपने जावा अनुप्रयोगों में निर्बाध रूप से एकीकृत करें।
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

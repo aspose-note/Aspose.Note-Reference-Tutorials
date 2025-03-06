@@ -3,10 +3,16 @@ title: 將深色主題套用至 OneNote 中的文字 - Aspose.Note
 linktitle: 將深色主題套用至 OneNote 中的文字 - Aspose.Note
 second_title: Aspose.Note Java API
 description: 探索使用 Aspose.Note for Java 將深色主題套用到 OneNote 文字的簡單步驟。輕鬆提升您的數位文件體驗。
-type: docs
 weight: 11
 url: /zh-hant/java/onenote-text-manipulation/apply-dark-theme/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# 將深色主題套用至 OneNote 中的文字 - Aspose.Note
+
 ## 介紹
 在不斷發展的數位文件領域，筆記的美觀程度會顯著影響可讀性和使用者體驗。一個值得注意的方面是深色主題的實施，提供了視覺上吸引人且舒適的環境。在本教學中，我們將引導您完成使用 Aspose.Note for Java 將深色主題套用到 OneNote 中的文字的過程。
 ## 先決條件
@@ -62,3 +68,9 @@ doc.save(Paths.get(dataDir, "AsposeDarkTheme.pdf").toString());
 是的，您可以存取免費試用版[這裡](https://releases.aspose.com/).
 ### 如何獲得 Aspose.Note for Java 的支援？
 參觀[Aspose.Note 論壇](https://forum.aspose.com/c/note/28)尋求社區支持或探索高級支援選項[這裡](https://purchase.aspose.com/temporary-license/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

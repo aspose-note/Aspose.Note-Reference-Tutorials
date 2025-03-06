@@ -3,10 +3,16 @@ title: Vložte seznam čínských čísel do textu Aspose.Note
 linktitle: Vložte seznam čínských čísel do textu Aspose.Note
 second_title: Aspose.Note .NET API
 description: Naučte se, jak snadno vložit čínské číselné seznamy do dokumentů Aspose.Note pro .NET. Zvyšte své dovednosti v oblasti formátování dokumentů pomocí tohoto podrobného průvodce.
-type: docs
 weight: 20
 url: /cs/net/text-manipulation/insert-chinese-number-list/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Vložte seznam čínských čísel do textu Aspose.Note
+
 ## Úvod
 Chcete zlepšit své dovednosti Aspose.Note for .NET začleněním čínských číselných seznamů do vašich dokumentů? Pokud ano, jste na správném místě! V tomto tutoriálu vás provedeme procesem vkládání čínských číselných seznamů pomocí Aspose.Note pro .NET. Tato výkonná knihovna umožňuje bezproblémovou manipulaci s dokumenty OneNotu.
 ## Předpoklady
@@ -91,3 +97,9 @@ Odpověď: Prozkoumejte komplexní[Aspose.Note dokumentaci](https://reference.as
  A: Získejte dočasnou licenci[tady](https://purchase.aspose.com/temporary-license/).
 ### Otázka: Kde mohu vyhledat pomoc nebo prodiskutovat dotazy týkající se Aspose.Note?
  A: Navštivte[Fórum podpory Aspose.Note](https://forum.aspose.com/c/note/28) za podporu komunity.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

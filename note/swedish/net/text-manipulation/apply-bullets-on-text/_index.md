@@ -3,10 +3,16 @@ title: Använd punkter på text i Aspose.Note
 linktitle: Använd punkter på text i Aspose.Note
 second_title: Aspose.Note .NET API
 description: Lär dig hur du använder punkter på text i Aspose.Note för .NET för att förbättra dina OneNote-dokument. Följ denna steg-för-steg-guide för effektiv formatering.
-type: docs
 weight: 10
 url: /sv/net/text-manipulation/apply-bullets-on-text/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Använd punkter på text i Aspose.Note
+
 ## Introduktion
 Välkommen till den här steg-för-steg-guiden för att applicera punkter på text med Aspose.Note för .NET. Aspose.Note är ett kraftfullt bibliotek som låter utvecklare arbeta sömlöst med Microsoft OneNote-filer i sina .NET-applikationer. I den här handledningen kommer vi att leda dig genom processen att applicera punktpunkter på text, vilket förbättrar det visuella tilltalande av dina OneNote-dokument.
 ## Förutsättningar
@@ -86,3 +92,9 @@ Aspose.Note stöder olika versioner av Microsoft OneNote, vilket säkerställer 
  Ja, du kan ladda ner en gratis testversion[här](https://releases.aspose.com/).
 ### Var kan jag hitta ytterligare support och resurser?
  Du kan besöka Aspose.Note-gemenskapsforumet[här](https://forum.aspose.com/c/note/28) för stöd och diskussioner.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

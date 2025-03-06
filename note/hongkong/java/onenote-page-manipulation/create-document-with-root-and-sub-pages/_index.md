@@ -3,10 +3,16 @@ title: 在 OneNote 中建立包含根頁面和子頁面的文檔
 linktitle: 在 OneNote 中建立包含根頁面和子頁面的文檔
 second_title: Aspose.Note Java API
 description: 使用 Aspose.Note for Java 在 OneNote 中建立包含根頁面和子頁面的文件。按照逐步指南有效地組織您的筆記。
-type: docs
 weight: 11
 url: /zh-hant/java/onenote-page-manipulation/create-document-with-root-and-sub-pages/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# 在 OneNote 中建立包含根頁面和子頁面的文檔
+
 ## 介紹
 
 在本教學中，我們將引導您完成使用 Aspose.Note for Java 在 OneNote 中建立包含根頁面和子頁面的文件的過程。透過執行這些步驟，您將能夠以層次結構有效地組織 OneNote 文件。
@@ -169,3 +175,9 @@ A4：是的，Aspose.Note for Java 支援以各種格式儲存文檔，包括 BM
 ### Q5：Aspose.Note for Java 有試用版嗎？
 
 A5：是的，您可以從網站下載 Aspose.Note for Java 的免費試用版。
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

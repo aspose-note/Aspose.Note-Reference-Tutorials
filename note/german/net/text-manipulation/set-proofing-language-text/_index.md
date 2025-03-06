@@ -3,10 +3,16 @@ title: Legen Sie die Korrektursprache für Text in Aspose.Note fest
 linktitle: Legen Sie die Korrektursprache für Text in Aspose.Note fest
 second_title: Aspose.Note .NET-API
 description: Nutzen Sie leistungsstarke Textbearbeitung mit Aspose.Note für .NET. Legen Sie mithilfe der Schritt-für-Schritt-Anleitung mühelos die Korrektursprache fest. Verbessern Sie jetzt Ihre .NET-Projekte!
-type: docs
 weight: 25
 url: /de/net/text-manipulation/set-proofing-language-text/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Legen Sie die Korrektursprache für Text in Aspose.Note fest
+
 ## Einführung
 Willkommen in der Welt von Aspose.Note für .NET! In diesem umfassenden Leitfaden erkunden wir den faszinierenden Prozess der Festlegung der Korrektursprache für Text mithilfe von Aspose.Note. Egal, ob Sie ein erfahrener Entwickler sind oder gerade erst mit Aspose.Note beginnen, dieses Tutorial bietet Ihnen detaillierte Einblicke und Schritt-für-Schritt-Anleitungen, um Ihre Fähigkeiten zur Textbearbeitung zu verbessern.
 ## Voraussetzungen
@@ -89,3 +95,9 @@ Absolut! Aspose.Note wird regelmäßig aktualisiert, um die Kompatibilität mit 
  Sicherlich! Sie können auf eine kostenlose Testversion von Aspose.Note für .NET zugreifen[Hier](https://releases.aspose.com/).
 ### Haben Sie Probleme oder benötigen Sie Hilfe?
  Besuche den[Aspose.Note-Supportforum](https://forum.aspose.com/c/note/28) um mit der Community in Kontakt zu treten und Expertenhilfe zu erhalten.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

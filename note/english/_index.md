@@ -3,11 +3,16 @@ title: Mastering OneNote File Manipulation with Aspose.Note
 linktitle: Aspose.Note Tutorials
 additionalTitle: Aspose API References
 description: Master Aspose.Note with step-by-step tutorials! Learn to manipulate OneNote files programmatically for efficient document processing.
-type: docs
 weight: 11
 url: /
-is_root: true
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Mastering OneNote File Manipulation with Aspose.Note
+
 
 Embark on a transformative journey with Aspose.Note tutorials, tailored for both .NET and Java platforms, to redefine your approach to OneNote document manipulation. Our comprehensive guides empower your applications with step-by-step insights, covering a spectrum of topics from licensing intricacies to image handling brilliance. Elevate your skills in attachments, hyperlinks, and text manipulation, unlocking the full potential of Aspose.Note for seamless document development. Dive into precise table crafting, efficient PDF imports, and masterful tag management. Print your OneNote creations with customization options, and effortlessly explore loading, saving, and notebook operations. Revolutionize your document manipulation experience, one tutorial at a time, as you explore these valuable resources for both .NET and Java.
 
@@ -55,3 +60,10 @@ These are links to some useful resources:
 - [OneNote Text Manipulation](./java/onenote-text-manipulation/)
 - [Task and Outlook Integration](./java/task-and-outlook-integration/)
 
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

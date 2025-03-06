@@ -3,10 +3,16 @@ title: สร้างสมุดบันทึกใน Aspose Note .NET
 linktitle: สร้างสมุดบันทึกใน Aspose Note .NET
 second_title: Aspose.Note .NET API
 description: เรียนรู้วิธีสร้างสมุดบันทึกใน Aspose Note .NET ได้อย่างง่ายดาย เพิ่มประสิทธิภาพเวิร์กโฟลว์การประมวลผลเอกสารของคุณทันที
-type: docs
 weight: 17
 url: /th/net/notebook-operations/create-notebooks/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# สร้างสมุดบันทึกใน Aspose Note .NET
+
 ## การแนะนำ
 
 ในบทช่วยสอนนี้ เราจะเจาะลึกความซับซ้อนของการสร้างสมุดบันทึกโดยใช้ Aspose.Note สำหรับ .NET Aspose.Note เป็นไลบรารีอันทรงพลังที่ช่วยให้นักพัฒนาจัดการไฟล์ Microsoft OneNote โดยทางโปรแกรม โดยมีฟังก์ชันการทำงานที่หลากหลายเพื่อปรับปรุงการจัดการเอกสารและงานการประมวลผล
@@ -99,3 +105,10 @@ A4: ได้ คุณสามารถรับใบอนุญาตชั
  A5: คุณสามารถดูเอกสารประกอบได้ที่:[เอกสารประกอบ](https://reference.aspose.com/note/net/).
 
 
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

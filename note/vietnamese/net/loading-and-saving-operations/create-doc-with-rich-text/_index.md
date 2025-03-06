@@ -3,10 +3,16 @@ title: Tạo tài liệu có văn bản đa dạng thức trong Aspose.Note
 linktitle: Tạo tài liệu có văn bản đa dạng thức trong Aspose.Note
 second_title: Aspose.Note .NET API
 description: Tìm hiểu cách tạo tài liệu văn bản đa dạng thức theo chương trình bằng Aspose.Note for .NET. Hướng dẫn từng bước với các ví dụ về mã.
-type: docs
 weight: 12
 url: /vi/net/loading-and-saving-operations/create-doc-with-rich-text/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Tạo tài liệu có văn bản đa dạng thức trong Aspose.Note
+
 ## Giới thiệu
 
 Trong lĩnh vực phát triển .NET, Aspose.Note nổi bật như một công cụ mạnh mẽ để xử lý các tệp Microsoft OneNote theo chương trình. Cho dù bạn đang hướng tới việc tự động hóa việc tạo tài liệu hay thao tác các ghi chú hiện có, Aspose.Note đều trang bị cho các nhà phát triển một bộ tính năng toàn diện. Trong số những khả năng này là khả năng tạo tài liệu văn bản đa dạng thức, hoàn chỉnh với nhiều tùy chọn định dạng khác nhau. Trong hướng dẫn này, chúng ta sẽ đi sâu vào từng bước quá trình tạo các tài liệu như vậy bằng cách sử dụng Aspose.Note cho .NET.
@@ -170,3 +176,9 @@ Câu trả lời 4: Aspose.Note chủ yếu tập trung vào xử lý tài liệ
 ### Câu hỏi 5: Tôi có thể tìm thêm tài nguyên và hỗ trợ cho Aspose.Note ở đâu?
 
  A5: Bạn có thể khám phá[Diễn đàn Aspose.Note](https://forum.aspose.com/c/note/28) để được cộng đồng hỗ trợ và truy cập tài liệu về[trang mạng](https://reference.aspose.com/note/net/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

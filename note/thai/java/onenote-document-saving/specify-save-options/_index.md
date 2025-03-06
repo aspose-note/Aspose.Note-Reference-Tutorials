@@ -3,10 +3,16 @@ title: ระบุตัวเลือกการบันทึกใน One
 linktitle: ระบุตัวเลือกการบันทึกใน OneNote - Aspose.Note
 second_title: Aspose.Note Java API
 description: เรียนรู้วิธีระบุตัวเลือกการบันทึกใน OneNote โดยใช้ Aspose.Note for Java ปรับแต่งการตั้งค่าดัชนีหน้า จำนวน และการบีบอัดได้อย่างง่ายดาย
-type: docs
 weight: 24
 url: /th/java/onenote-document-saving/specify-save-options/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# ระบุตัวเลือกการบันทึกใน OneNote - Aspose.Note
+
 ## การแนะนำ
 
 ในบทช่วยสอนนี้ เราจะเรียนรู้วิธีระบุตัวเลือกการบันทึกใน OneNote โดยใช้ Aspose.Note for Java Aspose.Note เป็นไลบรารี Java ที่ทรงพลังซึ่งช่วยให้นักพัฒนาสามารถสร้าง จัดการ และแปลงเอกสาร OneNote โดยทางโปรแกรม ด้วย Aspose.Note คุณสามารถควบคุมตัวเลือกการบันทึกต่างๆ ได้อย่างง่ายดายเพื่อปรับแต่งเอาต์พุตตามความต้องการของคุณ
@@ -109,3 +115,9 @@ A3: ใช่ Aspose.Note รองรับการแปลงเอกสา
 ### คำถามที่ 5: Aspose.Note เหมาะสำหรับการใช้งานเชิงพาณิชย์หรือไม่
 
 A5: ได้ Aspose.Note สามารถใช้เพื่อวัตถุประสงค์ทางการค้าได้โดยการซื้อใบอนุญาต
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

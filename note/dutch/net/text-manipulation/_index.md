@@ -3,10 +3,16 @@ title: Tekstmanipulatie in OneNote met Aspose.Note voor .NET
 linktitle: Tekstmanipulatie
 second_title: Aspose.Note .NET API
 description: Transformeer uw OneNote-documenten met Aspose.Note voor .NET! Leer technieken voor tekstmanipulatie, van het toepassen van opsommingstekens en nummering tot het wijzigen van stijlen.
-type: docs
 weight: 31
 url: /nl/net/text-manipulation/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Tekstmanipulatie in OneNote met Aspose.Note voor .NET
+
 
 ## Invoering
 
@@ -110,3 +116,9 @@ Ontgrendel het potentieel van Aspose.Note voor .NET met onze stapsgewijze handle
 Ontdek de kracht van Aspose.Note voor .NET met onze stapsgewijze handleiding voor het instellen van standaard alineastijlen. Verbeter moeiteloos uw vaardigheden op het gebied van documentmanipulatie.
 ### [Stel de controletaal voor tekst in Aspose.Note in](./set-proofing-language-text/)
 Ontgrendel krachtige tekstmanipulatie met Aspose.Note voor .NET. Stel moeiteloos de proeftaal in met stapsgewijze begeleiding. Verbeter nu uw .NET-projecten!
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

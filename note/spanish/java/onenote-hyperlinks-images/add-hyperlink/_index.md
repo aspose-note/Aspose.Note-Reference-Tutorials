@@ -3,10 +3,16 @@ title: Agregar hipervínculo en OneNote con Java
 linktitle: Agregar hipervínculo en OneNote con Java
 second_title: Aspose.Nota Java API
 description: Aprenda a agregar hipervínculos en OneNote usando Java con la biblioteca Aspose.Note. Mejore sus notas con enlaces interactivos sin esfuerzo.
-type: docs
 weight: 10
 url: /es/java/onenote-hyperlinks-images/add-hyperlink/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Agregar hipervínculo en OneNote con Java
+
 ## Introducción
 
 Agregar hipervínculos a sus documentos de OneNote usando Java puede mejorar en gran medida la interactividad y utilidad de sus notas. En este tutorial, lo guiaremos a través del proceso paso a paso, utilizando la biblioteca Aspose.Note para Java. ¡Vamos a sumergirnos!
@@ -136,3 +142,9 @@ R4: Sí, integrar Aspose.Note en sus proyectos Java es sencillo y está bien doc
 ### P5: ¿Dónde puedo encontrar más ayuda y recursos para usar Aspose.Note?
 
  R5: Puede encontrar documentación extensa, tutoriales y soporte comunitario en[Foro Aspose.Note](https://forum.aspose.com/c/note/28).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -3,10 +3,16 @@ title: Extrahujte text z tabulek v Aspose.Note
 linktitle: Extrahujte text z tabulek v Aspose.Note
 second_title: Aspose.Note .NET API
 description: Naučte se extrahovat text z tabulek v Aspose.Note pomocí C# s rozhraním .NET. Výukový program krok za krokem s úryvky kódu a vysvětleními.
-type: docs
 weight: 15
 url: /cs/net/table-manipulation/extract-text-table/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Extrahujte text z tabulek v Aspose.Note
+
 ## Úvod
 
 tomto tutoriálu prozkoumáme, jak extrahovat text z tabulek v Aspose.Note pomocí C# s rozhraním .NET. Aspose.Note je výkonné rozhraní API, které umožňuje vývojářům pracovat se soubory Microsoft OneNote programově a umožňuje různé operace, jako je vytváření, čtení, manipulace a převod dokumentů OneNotu.
@@ -99,3 +105,9 @@ Odpověď 4: Ano, Aspose.Note je k dispozici pro více platforem a programovací
 ### Q5: Kde najdu další zdroje a podporu pro Aspose.Note?
 
  A5: Na webu můžete najít rozsáhlou dokumentaci, výukové programy a fóra podpory[Aspose.Note fórum](https://forum.aspose.com/c/note/28), což vám umožní prozkoumat a vyřešit jakékoli dotazy nebo problémy, se kterými se během vývoje setkáte.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

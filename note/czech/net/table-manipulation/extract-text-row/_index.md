@@ -3,10 +3,16 @@ title: Extrahujte text z řádků tabulky v Aspose.Note
 linktitle: Extrahujte text z řádků tabulky v Aspose.Note
 second_title: Aspose.Note .NET API
 description: Naučte se extrahovat text z řádků tabulky v Aspose.Note pro .NET pomocí tohoto komplexního kurzu.
-type: docs
 weight: 14
 url: /cs/net/table-manipulation/extract-text-row/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Extrahujte text z řádků tabulky v Aspose.Note
+
 ## Úvod
 
 V oblasti zpracování dokumentů představuje Aspose.Note for .NET robustní řešení, které umožňuje vývojářům efektivně programově manipulovat se soubory OneNote. Mezi jeho nesčetnými možnostmi je extrahování textu z řádků tabulky běžným úkolem, se kterým se vývojáři setkávají. Tento tutoriál vás provede procesem extrahování textu z řádků tabulky pomocí Aspose.Note pro .NET.
@@ -98,3 +104,9 @@ A2: Absolutně, Aspose.Note pro .NET poskytuje rozsáhlé možnosti formátován
 ### Q5: Mohu vyzkoušet Aspose.Note pro .NET před nákupem?
 
  A5: Jistě, můžete využít bezplatnou zkušební verzi z[stránka vydání](https://releases.aspose.com/) prozkoumat jeho vlastnosti a možnosti.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

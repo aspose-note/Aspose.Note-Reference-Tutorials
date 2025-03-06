@@ -3,10 +3,16 @@ title: 在 Aspose Note .NET 中添加子节点
 linktitle: 在 Aspose Note .NET 中添加子节点
 second_title: Aspose.Note .NET API
 description: 通过这个综合教程，了解如何轻松地在 Aspose Note .NET 中添加子节点。立即提高您的文档操作技能。
-type: docs
 weight: 10
 url: /zh/net/notebook-operations/add-child-nodes/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# 在 Aspose Note .NET 中添加子节点
+
 ## 介绍
 
 在本教程中，我们将学习如何在 Aspose Note .NET 中添加子节点。添加子节点是处理文档时的基本操作，Aspose Note .NET 提供了完成此任务的简单方法。
@@ -89,3 +95,9 @@ notebook.Save(dataDir);
 ### Q5：Aspose.Note for .NET 附带文档吗？
 
  A5：是的，您可以找到详细的文档[这里](https://reference.aspose.com/note/net/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

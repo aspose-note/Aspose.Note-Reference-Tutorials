@@ -3,10 +3,16 @@ title: Создать документ с корневыми и подстран
 linktitle: Создать документ с корневыми и подстраницами в OneNote
 second_title: Aspose.Note Java API
 description: Создайте документ с корневыми и подстраницами в OneNote, используя Aspose.Note для Java. Следуйте пошаговому руководству, чтобы эффективно организовать свои заметки.
-type: docs
 weight: 11
 url: /ru/java/onenote-page-manipulation/create-document-with-root-and-sub-pages/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Создать документ с корневыми и подстраницами в OneNote
+
 ## Введение
 
 В этом руководстве мы покажем вам процесс создания документа с корневыми и подстраницами в OneNote с использованием Aspose.Note для Java. Выполнив эти шаги, вы сможете эффективно организовать свои документы OneNote с помощью иерархической структуры.
@@ -169,3 +175,9 @@ try {
 ### Вопрос 5: Доступна ли пробная версия Aspose.Note для Java?
 
 О5: Да, вы можете загрузить бесплатную пробную версию Aspose.Note для Java с веб-сайта.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

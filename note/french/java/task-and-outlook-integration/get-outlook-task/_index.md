@@ -3,10 +3,16 @@ title: Obtenir la tâche Outlook dans OneNote - Aspose.Note
 linktitle: Obtenir la tâche Outlook dans OneNote - Aspose.Note
 second_title: API Java Aspose.Note
 description: Découvrez la puissance d'Aspose.Note pour Java pour extraire sans effort les tâches Outlook de OneNote. Suivez notre guide étape par étape et améliorez vos capacités de traitement de documents.
-type: docs
 weight: 10
 url: /fr/java/task-and-outlook-integration/get-outlook-task/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Obtenir la tâche Outlook dans OneNote - Aspose.Note
+
 ## Introduction
 Bienvenue dans notre guide complet sur l'utilisation d'Aspose.Note pour Java pour récupérer de manière transparente les tâches Outlook dans OneNote. Aspose.Note est une puissante API Java qui permet aux développeurs de travailler sans effort avec les fichiers Microsoft OneNote. Dans ce didacticiel, nous vous guiderons étape par étape tout au long du processus d'extraction des tâches Outlook d'un document OneNote.
 ## Conditions préalables
@@ -71,3 +77,9 @@ Aspose.Note prend en charge Microsoft OneNote 2010 et les versions ultérieures.
  Visiter le[Forum Aspose.Note](https://forum.aspose.com/c/note/28) pour le soutien de la communauté. Pour une assistance supplémentaire, envisagez d'acheter un[permis temporaire](https://purchase.aspose.com/temporary-license/).
 ### Existe-t-il des exemples de documents OneNote disponibles pour les tests ?
  Vous pouvez trouver des exemples de documents dans la documentation Aspose.Note[ici](https://reference.aspose.com/note/java/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

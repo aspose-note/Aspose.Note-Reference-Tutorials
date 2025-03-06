@@ -3,10 +3,16 @@ title: Ange Spara alternativ i Aspose.Note
 linktitle: Ange Spara alternativ i Aspose.Note
 second_title: Aspose.Note .NET API
 description: Lär dig hur du anger sparalternativ i Aspose.Note för .NET för att anpassa utdataformat och kvalitet på OneNote-dokument.
-type: docs
 weight: 30
 url: /sv/net/loading-and-saving-operations/specify-save-options/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Ange Spara alternativ i Aspose.Note
+
 ## Introduktion
 
 Inom .NET-utvecklingens område framstår Aspose.Note som ett kraftfullt verktyg för att arbeta med OneNote-dokument. Den erbjuder en omfattande uppsättning funktioner för att manipulera och hantera dessa filer effektivt. En avgörande aspekt av att arbeta med Aspose.Note är att specificera sparalternativ, vilket gör att utvecklare kan anpassa utdataformatet och kvaliteten enligt deras krav.
@@ -94,3 +100,9 @@ S4: Aspose.Note är utformad för att hantera OneNote-dokument av olika storleka
 ### F5: Erbjuder Aspose.Note stöd och hjälp för utvecklare som stöter på problem?
 
 S5: Ja, utvecklare kan söka hjälp och hjälp från Aspose.Notes supportteam via forumet eller genom att kontakta Aspose direkt för snabb lösning av eventuella problem eller frågor.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -3,10 +3,16 @@ title: إتقان معالجة الصور في برنامج OneNote
 linktitle: الصور
 second_title: Aspose.Note .NET API
 description: استكشف عالم معالجة مستندات OneNote باستخدام البرامج التعليمية لـ Aspose.Note for .NET حول التعامل السلس مع الصور. ارفع المحتوى المرئي الخاص بك دون عناء.
-type: docs
 weight: 23
 url: /ar/net/images/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# إتقان معالجة الصور في برنامج OneNote
+
 ## مقدمة
 
 هل أنت مستعد لتحسين مهاراتك في التعامل مع مستندات OneNote؟ انغمس في برامجنا التعليمية الشاملة على Aspose.Note لـ .NET، مع التركيز على العالم المعقد لمعالجة الصور. بدءًا من إدراج الصور برمجيًا وحتى استخراج المعلومات المرئية القيمة، فإننا نوفر لك كل ما تحتاجه.
@@ -48,3 +54,9 @@ url: /ar/net/images/
 تعرف على كيفية إدراج الصور باستخدام الارتباطات التشعبية في Aspose.Note لـ .NET دون عناء. تعزيز تفاعل المستند مع الصور القابلة للنقر.
 ### [إدراج الصور في مستندات Aspose.Note](./insert-images/)
 تعرف على كيفية إدراج الصور بسلاسة في مستندات Aspose.Note باستخدام .NET للمحتوى المرئي المحسن. اتبع دليلنا خطوة بخطوة لسهولة التكامل.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

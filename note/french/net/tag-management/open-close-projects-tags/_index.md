@@ -3,10 +3,16 @@ title: Ouvrir et fermer des projets avec des balises dans Aspose.Note
 linktitle: Ouvrir et fermer des projets avec des balises dans Aspose.Note
 second_title: API Aspose.Note .NET
 description: Découvrez comment manipuler les fichiers Microsoft OneNote par programme à l'aide d'Aspose.Note pour .NET. Ouvrez et fermez efficacement des projets avec des balises.
-type: docs
 weight: 15
 url: /fr/net/tag-management/open-close-projects-tags/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Ouvrir et fermer des projets avec des balises dans Aspose.Note
+
 ## Introduction
 
 Dans ce didacticiel, nous apprendrons comment utiliser Aspose.Note pour .NET pour ouvrir et fermer des projets avec des balises. Aspose.Note est une API puissante qui permet aux développeurs de travailler avec des fichiers Microsoft OneNote par programme, permettant des tâches telles que la manipulation de texte, d'images et de balises dans les documents.
@@ -112,3 +118,9 @@ A1 : Aspose.Note prend en charge Microsoft OneNote 2010 et les versions plus ré
 ### Q5 : Où puis-je obtenir de l'aide pour Aspose.Note ?
 
  A5 : Pour obtenir de l'aide, vous pouvez visiter Aspose.Note[forum](https://forum.aspose.com/c/note/28).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

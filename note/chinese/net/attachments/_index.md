@@ -3,10 +3,16 @@ title: OneNote 文档中的文件附件和检索
 linktitle: 附件
 second_title: Aspose.Note .NET API
 description: 使用 Aspose.Note 增强您的 .NET 应用程序！探索有关附加文件、设置图标和检索附件以增强开发的教程。
-type: docs
 weight: 21
 url: /zh/net/attachments/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# OneNote 文档中的文件附件和检索
+
 ## 介绍
 
 您准备好将您的 .NET 应用程序提升到一个新的水平吗？潜入 Aspose.Note 的世界并解锁无限可能。这个全面的教程列表将指导您完成关键功能，重点是附加文件、设置图标和无缝检索附加文件。
@@ -37,3 +43,9 @@ url: /zh/net/attachments/
 了解如何使用 Aspose.Note for .NET 以编程方式将文件附加到 Microsoft OneNote 文档。通过这个综合教程简化您的开发过程。
 ### [使用 Aspose.Note 检索附加文件](./retrieve-attached-files/)
 了解如何使用 Aspose.Note for .NET 从 Microsoft OneNote 文档中检索附加文件。按照步骤加载、获取节点并迭代附件。
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

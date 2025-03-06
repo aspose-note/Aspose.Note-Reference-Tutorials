@@ -3,10 +3,16 @@ title: Получить свойства списка в OneNote — Aspose.Note
 linktitle: Получить свойства списка в OneNote — Aspose.Note
 second_title: Aspose.Note Java API
 description: Изучите Aspose.Note для Java и легко извлекайте свойства списков в документах OneNote. Улучшите обработку документов с помощью этой мощной библиотеки Java.
-type: docs
 weight: 19
 url: /ru/java/onenote-text-manipulation/get-list-properties/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Получить свойства списка в OneNote — Aspose.Note
+
 ## Введение
 Добро пожаловать в это подробное руководство по использованию Aspose.Note для Java для получения и анализа свойств списка в документах OneNote. Независимо от того, являетесь ли вы опытным разработчиком или только начинаете работать с Aspose.Note, это руководство проведет вас через весь процесс, разбив каждый шаг, чтобы обеспечить четкое понимание.
 ## Предварительные условия
@@ -95,3 +101,9 @@ Aspose.Note поддерживает различные версии OneNote, о
  Да, вы можете получить временную лицензию[здесь](https://purchase.aspose.com/temporary-license/) в целях тестирования.
 ### Что делать, если я хочу приобрести Aspose.Note для Java?
  Вы можете приобрести товар[здесь](https://purchase.aspose.com/buy)чтобы раскрыть весь его потенциал для ваших проектов.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

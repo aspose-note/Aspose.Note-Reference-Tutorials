@@ -3,10 +3,16 @@ title: Převést Poznámkový blok na sloučený obrázek ve OneNotu – Aspose.
 linktitle: Převést Poznámkový blok na sloučený obrázek ve OneNotu – Aspose.Note
 second_title: Aspose.Note Java API
 description: Přečtěte si, jak převést poznámkový blok na sloučený obrázek ve OneNotu pomocí Aspose.Note pro Java. Zachovejte všechny prvky v jediném souboru obrázku bez námahy.
-type: docs
 weight: 13
 url: /cs/java/onenote-notebook-operations/convert-notebook-to-flattened-image/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Převést Poznámkový blok na sloučený obrázek ve OneNotu – Aspose.Note
+
 ## Úvod
 
 tomto kurzu vás provedeme procesem převodu poznámkového bloku na sloučený obrázek ve OneNotu pomocí Aspose.Note for Java. To vám umožní uložit poznámkový blok jako obrázkový soubor a zajistit, že všechny prvky budou zachovány v jediném formátu obrázku.
@@ -108,3 +114,9 @@ Odpověď 3: Ano, Aspose.Note poskytuje rozsáhlé možnosti přizpůsobení vý
 ### Q5: Kde najdu podporu pro Aspose.Note pro Java?
 
  A5: Podporu a zdroje najdete na fóru Aspose.Note[tady](https://forum.aspose.com/c/note/28).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

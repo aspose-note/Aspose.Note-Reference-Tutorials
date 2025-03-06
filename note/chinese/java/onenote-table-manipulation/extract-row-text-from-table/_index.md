@@ -3,10 +3,16 @@ title: 从 OneNote 文档中的表格中提取行文本 - Aspose.Note
 linktitle: 从 OneNote 文档中的表格中提取行文本 - Aspose.Note
 second_title: Aspose.Note Java API
 description: 学习使用 Aspose.Note for Java 轻松从 OneNote 表格中提取行文本。请按照我们的分步指南进行无缝集成。
-type: docs
 weight: 13
 url: /zh/java/onenote-table-manipulation/extract-row-text-from-table/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# 从 OneNote 文档中的表格中提取行文本 - Aspose.Note
+
 ## 介绍
 欢迎来到这个关于使用 Aspose.Note for Java 从 OneNote 文档中的表格中提取行文本的综合教程。 Aspose.Note 是一个功能强大的 Java 库，使开发人员能够无缝地使用 Microsoft OneNote 文件。在本教程中，我们将逐步指导您完成该过程，演示如何有效地从 OneNote 文档的表格中提取行文本。
 ## 先决条件
@@ -74,3 +80,9 @@ for (Table table : nodes) {
 获得临时许可证[这个链接](https://purchase.aspose.com/temporary-license/).
 ### 使用 Aspose.Note for Java 有任何特定的系统要求吗？
 有关详细的系统要求，请参阅文档。
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

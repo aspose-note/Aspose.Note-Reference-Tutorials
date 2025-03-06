@@ -3,10 +3,16 @@ title: 在 Aspose Note .NET 中从 OneNote 笔记本检索文档
 linktitle: 在 Aspose Note .NET 中从 OneNote 笔记本检索文档
 second_title: Aspose.Note .NET API
 description: 了解如何使用 Aspose.Note for .NET 以编程方式从 OneNote 笔记本中检索文档，从而实现无缝集成和操作。
-type: docs
 weight: 25
 url: /zh/net/notebook-operations/retrieve-documents-from-onenote-notebook/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# 在 Aspose Note .NET 中从 OneNote 笔记本检索文档
+
 ## 介绍
 
 在 .NET 开发领域，Aspose.Note 作为一款强大的工具脱颖而出，可以轻松管理和操作 OneNote 文档。无论您是经验丰富的开发人员还是刚刚涉足 .NET 编程世界，掌握使用 Aspose.Note 从 OneNote 笔记本检索文档的艺术都是一项宝贵的技能。
@@ -95,3 +101,9 @@ A4：是的，Aspose 提供灵活的许可选项，包括免费试用、临时�
 ### 问题 5：我在哪里可以找到有关 Aspose.Note 的其他支持或帮助？
 
  A5：如有任何疑问或帮助，您可以访问 Aspose.Note 论坛：[支持论坛](https://forum.aspose.com/c/note/28).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

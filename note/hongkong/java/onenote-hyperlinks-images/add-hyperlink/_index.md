@@ -3,10 +3,16 @@ title: 使用 Java 在 OneNote 中新增超鏈接
 linktitle: 使用 Java 在 OneNote 中新增超鏈接
 second_title: Aspose.Note Java API
 description: 了解如何使用 Java 和 Aspose.Note 函式庫在 OneNote 中新增超連結。透過互動式連結輕鬆增強您的筆記。
-type: docs
 weight: 10
 url: /zh-hant/java/onenote-hyperlinks-images/add-hyperlink/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# 使用 Java 在 OneNote 中新增超鏈接
+
 ## 介紹
 
 使用 Java 將超連結新增至 OneNote 文件可以大幅增強筆記的互動性和實用性。在本教學中，我們將使用 Aspose.Note for Java 函式庫逐步引導您完成此過程。讓我們深入了解吧！
@@ -136,3 +142,9 @@ A4：是的，將 Aspose.Note 整合到您的 Java 專案中非常簡單且文�
 ### Q5：在哪裡可以找到更多使用 Aspose.Note 的協助和資源？
 
  A5：您可以在[Aspose.Note 論壇](https://forum.aspose.com/c/note/28).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

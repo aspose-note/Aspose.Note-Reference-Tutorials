@@ -3,10 +3,16 @@ title: 取得 OneNote 中頁面的修訂 - Aspose.Note
 linktitle: 取得 OneNote 中頁面的修訂 - Aspose.Note
 second_title: Aspose.Note Java API
 description: 了解如何使用 Aspose.Note Java 擷取 OneNote 文件中頁面的修訂版本。將其整合到您的 Java 應用程式中以實現高效的文件管理。
-type: docs
 weight: 15
 url: /zh-hant/java/onenote-page-manipulation/get-revisions-of-pages/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# 取得 OneNote 中頁面的修訂 - Aspose.Note
+
 ## 介紹
 
 在本教程中，我們將深入研究 Aspose.Note for Java 的功能，這是一個功能強大的程式庫，可讓您在 Java 應用程式中無縫地使用 Microsoft OneNote 檔案。具體來說，我們將重點放在如何檢索 OneNote 文件中頁面的修訂。在本指南結束時，您將具備有效提取頁面修訂的知識，包括上次修改時間、建立時間、標題、等級和作者等詳細資訊。
@@ -109,3 +115,9 @@ A4：是的，Aspose.Note for Java 的商業用途需要有效的授權。您可
 ### Q5：如果我遇到問題或對 Aspose.Note for Java 有疑問，可以在哪裡尋求協助？
 
  A5： 如需支援和協助，您可以造訪 Aspose.Note 論壇[這裡](https://forum.aspose.com/c/note/28)，您可以在其中提出問題、分享經驗以及與其他使用者和專家互動。
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

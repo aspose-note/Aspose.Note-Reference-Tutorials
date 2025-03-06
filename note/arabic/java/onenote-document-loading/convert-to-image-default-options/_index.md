@@ -3,10 +3,16 @@ title: تحويل مستند OneNote إلى صورة باستخدام الخيا
 linktitle: تحويل مستند OneNote إلى صورة باستخدام الخيارات الافتراضية - Java
 second_title: Aspose.Note جافا API
 description: قم بتحويل مستندات OneNote إلى صور بسهولة باستخدام Aspose.Note لـ Java. اتبع هذا البرنامج التعليمي خطوة بخطوة لتحقيق التكامل السلس.
-type: docs
 weight: 15
 url: /ar/java/onenote-document-loading/convert-to-image-default-options/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# تحويل مستند OneNote إلى صورة باستخدام الخيارات الافتراضية - Java
+
 ## مقدمة
 
 في العصر الرقمي الحالي، حيث المعلومات وفيرة والتواصل أمر بالغ الأهمية، أصبحت الحاجة إلى أدوات فعالة لإدارة المستندات أكثر أهمية من أي وقت مضى. يبرز Aspose.Note for Java كحل قوي للتعامل مع مستندات OneNote برمجيًا. سواء كنت مطورًا متمرسًا أو وافدًا جديدًا إلى عالم البرمجة، سيرشدك هذا البرنامج التعليمي الشامل خلال عملية الاستفادة من Aspose.Note for Java لتحويل مستندات OneNote إلى صور بسلاسة.
@@ -84,3 +90,9 @@ oneFile.save(dataDir + "ConvertToImageUsingDefaultOptions_out.gif", SaveFormat.G
 ### س5: هل يوجد منتدى مجتمعي حيث يمكنني طلب الدعم لـ Aspose.Note لـ Java؟
 
  ج5: نعم، يمكنك الانضمام إلى منتدى المجتمع على[Aspose.Note لدعم جافا](https://forum.aspose.com/c/note/28) لطلب المساعدة والتفاعل مع المستخدمين الآخرين.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

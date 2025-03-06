@@ -3,10 +3,16 @@ title: Cambiar estilo de texto en Aspose.Note
 linktitle: Cambiar estilo de texto en Aspose.Note
 second_title: Aspose.Nota .NET API
 description: Mejore el estilo de sus documentos con Aspose.Note para .NET. Aprenda cómo cambiar estilos de texto sin esfuerzo en esta guía paso a paso. ¡Pruébalo gratis!
-type: docs
 weight: 14
 url: /es/net/text-manipulation/change-text-style/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Cambiar estilo de texto en Aspose.Note
+
 ## Introducción
 ¿Estás listo para mejorar tu juego de diseño de documentos con Aspose.Note para .NET? En esta guía completa, lo guiaremos a través del proceso de cambiar estilos de texto sin esfuerzo. Aspose.Note es una poderosa biblioteca que le permite manipular archivos de Microsoft OneNote mediante programación. Si desea mejorar el atractivo visual de sus notas o documentos, siga leyendo para descubrir cómo cambiar los estilos de texto sin problemas.
 ## Requisitos previos
@@ -63,3 +69,9 @@ Console.WriteLine("\nStyle changed successfully.");
  Obtenga su licencia temporal[aquí](https://purchase.aspose.com/temporary-license/).
 ### ¿Dónde puedo comprar Aspose.Note para .NET?
  Puedes comprar Aspose.Note para .NET[aquí](https://purchase.aspose.com/buy).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -3,10 +3,16 @@ title: Ορίστε το χρώμα φόντου των σελίδων στο As
 linktitle: Ορίστε το χρώμα φόντου των σελίδων στο Aspose.Note
 second_title: Aspose.Note .NET API
 description: Μάθετε πώς να ορίζετε το χρώμα φόντου των σελίδων στα έγγραφα Aspose.Note χρησιμοποιώντας τη γλώσσα προγραμματισμού C# με οδηγό βήμα προς βήμα.
-type: docs
 weight: 19
 url: /el/net/note-manipulation/set-page-background-color/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Ορίστε το χρώμα φόντου των σελίδων στο Aspose.Note
+
 ## Εισαγωγή
 
 Το Aspose.Note για .NET επιτρέπει στους προγραμματιστές να χειρίζονται έγγραφα του OneNote μέσω προγραμματισμού. Μια κοινή εργασία είναι να ορίσετε το χρώμα φόντου των σελίδων σε αυτά τα έγγραφα. Σε αυτό το σεμινάριο, θα σας καθοδηγήσουμε στη διαδικασία βήμα προς βήμα.
@@ -97,3 +103,9 @@ A3: Ναι, μπορείτε να κάνετε λήψη μιας δωρεάν δ
 ### Ε5: Πού μπορώ να βρω πρόσθετη υποστήριξη ή να κάνω ερωτήσεις σχετικά με το Aspose.Note;
 
  A5: Μπορείτε να επισκεφθείτε το[Aspose.Note φόρουμ](https://forum.aspose.com/c/note/28) για υποστήριξη και σύνδεση με άλλους χρήστες.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

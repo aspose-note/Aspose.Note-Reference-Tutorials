@@ -3,10 +3,16 @@ title: Convert Notebook to Flattened Image in OneNote - Aspose.Note
 linktitle: Convert Notebook to Flattened Image in OneNote - Aspose.Note
 second_title: Aspose.Note Java API
 description: Learn how to convert a notebook to a flattened image in OneNote using Aspose.Note for Java. Preserve all elements in a single image file effortlessly.
-type: docs
 weight: 13
 url: /java/onenote-notebook-operations/convert-notebook-to-flattened-image/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Convert Notebook to Flattened Image in OneNote - Aspose.Note
+
 ## Introduction
 
 In this tutorial, we will guide you through the process of converting a notebook to a flattened image in OneNote using Aspose.Note for Java. This allows you to save your notebook as an image file, ensuring that all elements are preserved in a single image format.
@@ -108,3 +114,10 @@ A4: Yes, you can obtain a free trial version from [here](https://releases.aspose
 ### Q5: Where can I find support for Aspose.Note for Java?
 
 A5: You can find support and resources on the Aspose.Note forum [here](https://forum.aspose.com/c/note/28).
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

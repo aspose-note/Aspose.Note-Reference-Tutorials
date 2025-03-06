@@ -3,10 +3,16 @@ title: Đặt màu nền trang trong OneNote - Aspose.Note
 linktitle: Đặt màu nền trang trong OneNote - Aspose.Note
 second_title: API Java Aspose.Note
 description: Tìm hiểu cách đặt màu nền trang trong OneNote một cách dễ dàng bằng Aspose.Note for Java. Nâng cao sự hấp dẫn trực quan của tài liệu của bạn với hướng dẫn đơn giản này.
-type: docs
 weight: 20
 url: /vi/java/onenote-page-manipulation/set-page-background-color/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Đặt màu nền trang trong OneNote - Aspose.Note
+
 ## Giới thiệu
 
 Trong hướng dẫn này, chúng ta sẽ đi sâu vào quy trình thiết lập màu nền trang trong OneNote bằng Aspose.Note cho Java. Aspose.Note là một thư viện Java mạnh mẽ cho phép các nhà phát triển thao tác với các tài liệu OneNote theo chương trình. Việc thay đổi màu nền của trang có thể nâng cao sức hấp dẫn trực quan của tài liệu OneNote của bạn, khiến chúng hấp dẫn và có tổ chức hơn.
@@ -100,3 +106,9 @@ A4: Chắc chắn rồi! Bạn có thể tận dụng bản dùng thử miễn p
 ### Câu hỏi 5: Tôi có thể tìm sự hỗ trợ hoặc hỗ trợ bổ sung với Aspose.Note ở đâu?
 
 Câu trả lời 5: Nếu có bất kỳ thắc mắc hoặc hỗ trợ nào, bạn có thể truy cập diễn đàn Aspose.Note hoặc liên hệ với nhóm hỗ trợ của họ để được trợ giúp nhanh chóng.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

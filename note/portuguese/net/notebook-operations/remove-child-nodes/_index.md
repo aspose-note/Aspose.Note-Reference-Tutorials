@@ -3,10 +3,16 @@ title: Remover nós filhos no Aspose Note .NET
 linktitle: Remover nós filhos no Aspose Note .NET
 second_title: API Aspose.Note .NET
 description: Aprenda como remover nós filhos no Aspose.Note for .NET sem esforço. Simplifique o gerenciamento de arquivos do OneNote com este guia passo a passo.
-type: docs
 weight: 24
 url: /pt/net/notebook-operations/remove-child-nodes/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Remover nós filhos no Aspose Note .NET
+
 ## Introdução
 
 Neste tutorial, exploraremos como remover nós filhos com eficiência usando Aspose.Note for .NET. Aspose.Note é uma biblioteca poderosa que permite aos desenvolvedores trabalhar com arquivos do Microsoft OneNote programaticamente. Esteja você gerenciando cadernos, seções ou páginas individuais, Aspose.Note simplifica o processo com sua API intuitiva. Aqui, focaremos especificamente na remoção de nós filhos de um notebook.
@@ -92,3 +98,9 @@ A4: Com certeza! Aspose.Note oferece recursos robustos para criar, ler e modific
 ### Q5: Onde posso encontrar suporte adicional para Aspose.Note?
 
  A5: Para qualquer assistência ou dúvidas adicionais, você pode visitar o[Fórum Aspose.Note](https://forum.aspose.com/c/note/28) onde especialistas e colegas desenvolvedores estão disponíveis para ajudar.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

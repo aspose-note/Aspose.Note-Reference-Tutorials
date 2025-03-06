@@ -3,10 +3,16 @@ title: Simpan ke Gambar TIFF di Aspose.Note
 linktitle: Simpan ke Gambar TIFF di Aspose.Note
 second_title: Aspose.Catatan .NET API
 description: Pelajari cara menyimpan dokumen OneNote sebagai gambar TIFF dengan berbagai metode kompresi menggunakan Aspose.Note untuk .NET.
-type: docs
 weight: 27
 url: /id/net/loading-and-saving-operations/save-to-tiff-image/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Simpan ke Gambar TIFF di Aspose.Note
+
 ## Perkenalan
 
 Dalam tutorial ini, kita akan mempelajari cara menyimpan dokumen sebagai gambar dalam format TIFF menggunakan Aspose.Note untuk .NET. Aspose.Note adalah API canggih yang memungkinkan pengembang bekerja dengan file Microsoft OneNote secara terprogram. Menyimpan dokumen OneNote sebagai gambar TIFF dapat berguna untuk berbagai aplikasi seperti pengarsipan, berbagi, atau pencetakan.
@@ -131,3 +137,9 @@ A4: Ya, Anda dapat mengotomatiskan proses konversi menggunakan pemrosesan batch 
 ### Q5: Apakah ada versi uji coba yang tersedia untuk Aspose.Note?
 
 A5: Ya, Anda bisa mendapatkan uji coba gratis Aspose.Note dari[Di Sini](https://releases.aspose.com/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

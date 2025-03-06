@@ -3,10 +3,16 @@ title: Tambahkan Teks Alternatif ke Gambar di Aspose.Note
 linktitle: Tambahkan Teks Alternatif ke Gambar di Aspose.Note
 second_title: Aspose.Catatan .NET API
 description: Pelajari cara menambahkan teks alternatif ke gambar di Aspose.Note untuk .NET dengan mudah. Tingkatkan aksesibilitas dan tingkatkan pengalaman pengguna dengan panduan langkah demi langkah ini.
-type: docs
 weight: 14
 url: /id/net/images/image-alternative-text/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Tambahkan Teks Alternatif ke Gambar di Aspose.Note
+
 ## Perkenalan
 
 Menambahkan teks alternatif ke gambar di Aspose.Note untuk .NET dapat meningkatkan aksesibilitas dan meningkatkan pemahaman tentang gambar bagi pengguna penyandang disabilitas. Dalam tutorial ini, kami akan memandu Anda melalui proses langkah demi langkah.
@@ -97,3 +103,9 @@ A3: Aspose.Note terintegrasi secara mulus dengan perpustakaan .NET lainnya, meny
 ### Q5: Apakah ada uji coba gratis yang tersedia untuk Aspose.Note?
 
 A5: Ya, Anda dapat memanfaatkan uji coba gratis Aspose.Note dengan mengunjungi[Di Sini](https://releases.aspose.com/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

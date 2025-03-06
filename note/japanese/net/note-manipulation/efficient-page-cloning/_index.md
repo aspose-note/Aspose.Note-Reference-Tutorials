@@ -3,10 +3,16 @@ title: Aspose.Note を使用してページを効率的にクローン作成す�
 linktitle: Aspose.Note を使用してページを効率的にクローン作成する
 second_title: Aspose.Note .NET API
 description: Aspose.Note for .NET を使用して OneNote ドキュメント内のページを効率的に複製する方法を学びます。簡単に実装するには、ステップバイステップのチュートリアルに従ってください。
-type: docs
 weight: 16
 url: /ja/net/note-manipulation/efficient-page-cloning/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Aspose.Note を使用してページを効率的にクローン作成する
+
 ## 導入
 
 このチュートリアルでは、Aspose.Note for .NET を使用してページを効率的に複製する方法を検討します。 Aspose.Note は、開発者がプログラムで Microsoft OneNote ファイルを操作できるようにする強力な .NET API です。ページのクローン作成はドキュメント操作の一般的なタスクですが、Aspose.Note を使用すると、このプロセスが簡単かつ効率的になります。
@@ -90,3 +96,9 @@ A4: はい、クローンされたページを新しいドキュメントに保�
 ### Q5: Aspose.Note の使用中に問題が発生した場合、どこでサポートを受けられますか?
 
  A5: Aspose.Note フォーラムからサポートを受けることができます。[ここ](https://forum.aspose.com/c/note/28).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

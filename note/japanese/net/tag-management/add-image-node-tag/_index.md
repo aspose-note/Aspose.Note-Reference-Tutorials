@@ -3,10 +3,16 @@ title: Aspose.Note にタグ付きの画像ノードを追加
 linktitle: Aspose.Note にタグ付きの画像ノードを追加
 second_title: Aspose.Note .NET API
 description: Aspose.Note for .NET を使用してカスタム タグを持つ画像を追加して、OneNote ドキュメントを強化する方法を学びます。
-type: docs
 weight: 10
 url: /ja/net/tag-management/add-image-node-tag/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Aspose.Note にタグ付きの画像ノードを追加
+
 ## 導入
 
 このチュートリアルでは、Aspose.Note for .NET を使用してタグ付きのイメージ ノードを追加する方法を検討します。この機能を使用すると、カスタム タグを含む画像を追加して OneNote ドキュメントを強化できます。
@@ -110,3 +116,9 @@ A4: Aspose.Note は主にローカル ディレクトリからのイメージの
 ### Q5: 追加できる画像のサイズや形式に制限はありますか?
 
 A5: Aspose.Note は幅広い画像形式をサポートしており、画像サイズに厳密な制限がないため、ドキュメントに多様なビジュアルを組み込むことができます。
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -3,10 +3,16 @@ title: OneNote で前のページのバージョンにロールバックする -
 linktitle: OneNote で前のページのバージョンにロールバックする - Aspose.Note
 second_title: Aspose.Note Java API
 description: Aspose.Note for Java を使用して OneNote の前のページ バージョンにロールバックする方法を学習します。文書を効率的に管理するには、このステップバイステップのガイドに従ってください。
-type: docs
 weight: 19
 url: /ja/java/onenote-page-manipulation/roll-back-to-previous-page-version/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# OneNote で前のページのバージョンにロールバックする - Aspose.Note
+
 ## 導入
 
 このチュートリアルでは、Aspose.Note for Java を利用して OneNote のページの前のバージョンにロールバックする方法について詳しく説明します。 OneNote はメモ取り、コラボレーション、整理のための強力なツールですが、場合によっては間違いが発生したり、変更を元に戻さなければならない場合があります。 Aspose.Note は Java とのシームレスな統合を提供し、開発者に OneNote ドキュメントをプログラムで管理する機能を提供します。以前のページのバージョンにロールバックすることは、OneNote ドキュメント内の正確さと整合性を維持するために重要な機能です。
@@ -91,3 +97,9 @@ A: もちろん、Aspose.Note は、コンテンツの追加、削除、変更�
 ### Q5: Aspose.Note で利用できるコミュニティ フォーラムやサポートはありますか?
 
  A: はい、次のサイトにアクセスできます。[Aspose.Note フォーラム](https://forum.aspose.com/c/note/28)コミュニティ サポートが必要な場合は、Aspose のカスタマー サポートにお問い合わせください。
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

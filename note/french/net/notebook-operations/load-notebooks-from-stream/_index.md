@@ -3,10 +3,16 @@ title: Charger des blocs-notes à partir de Stream dans Aspose Note .NET
 linktitle: Charger des blocs-notes à partir de Stream dans Aspose Note .NET
 second_title: API Aspose.Note .NET
 description: Découvrez comment charger des blocs-notes à partir d’un flux dans Aspose.Note pour .NET. Suivez ce guide étape par étape pour une intégration transparente dans vos applications .NET.
-type: docs
 weight: 19
 url: /fr/net/notebook-operations/load-notebooks-from-stream/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Charger des blocs-notes à partir de Stream dans Aspose Note .NET
+
 ## Introduction
 
 Dans ce didacticiel, nous explorerons comment charger des blocs-notes à partir d'un flux à l'aide d'Aspose.Note pour .NET. Aspose.Note est une bibliothèque puissante qui permet aux développeurs de travailler avec des fichiers Microsoft OneNote par programme. Le chargement de blocs-notes à partir d'un flux est une tâche courante lorsqu'il s'agit d'opérations d'entrée/sortie de fichiers dans des applications .NET.
@@ -92,3 +98,9 @@ A1 : Oui, Aspose.Note pour .NET prend en charge différentes versions de fichier
 ### Q5 : Existe-t-il une option pour une licence temporaire ?
 
  A5 : Oui, vous pouvez obtenir une licence temporaire auprès de[ici](https://purchase.aspose.com/temporary-license/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

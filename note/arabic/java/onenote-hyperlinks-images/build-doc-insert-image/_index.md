@@ -3,10 +3,16 @@ title: إنشاء مستند وإدراج صورة في OneNote باستخدام
 linktitle: إنشاء مستند وإدراج صورة في OneNote باستخدام Java
 second_title: Aspose.Note جافا API
 description: تعرف على كيفية إنشاء مستندات OneNote وإدراج الصور باستخدام Aspose.Note لـ Java. البرنامج التعليمي خطوة بخطوة للتكامل السلس.
-type: docs
 weight: 12
 url: /ar/java/onenote-hyperlinks-images/build-doc-insert-image/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# إنشاء مستند وإدراج صورة في OneNote باستخدام Java
+
 ## مقدمة
 
 في هذا البرنامج التعليمي، سنستكشف كيفية استخدام Aspose.Note لـ Java لإنشاء مستندات OneNote وإدراج الصور فيها. Aspose.Note عبارة عن واجهة برمجة تطبيقات Java قوية تمكن المطورين من العمل مع ملفات Microsoft OneNote برمجيًا. سنقوم بتفصيل كل خطوة بالتفصيل لإرشادك خلال العملية.
@@ -119,3 +125,10 @@ try {
 ### س5: هل يمكنني الحصول على ترخيص مؤقت لـ Aspose.Note لـ Java؟
 
  ج5: نعم، يمكنك طلب ترخيص مؤقت[هنا](https://purchase.aspose.com/temporary-license/).
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

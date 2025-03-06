@@ -3,10 +3,16 @@ title: OneNote'ta Yayına Kaydet - Aspose.Note
 linktitle: OneNote'ta Yayına Kaydet - Aspose.Note
 second_title: Aspose.Note Java API'si
 description: Aspose.Note'u kullanarak OneNote belgelerini Java'daki bir akışa nasıl kaydedeceğinizi öğrenin. Bu işlevselliği uygulamalarınıza zahmetsizce entegre edin.
-type: docs
 weight: 20
 url: /tr/java/onenote-document-saving/save-to-stream/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# OneNote'ta Yayına Kaydet - Aspose.Note
+
 ## giriiş
 
 Bu eğitimde, Microsoft OneNote belgeleriyle programlı olarak çalışmak için güçlü bir kütüphane olan Aspose.Note for Java'nın kullanımını inceleyeceğiz. Özellikle OneNote belgelerini bir akışa kaydetme sürecine odaklanacağız. Bu kılavuzda özetlenen adımları izleyerek, OneNote dosyalarını Java uygulamalarınızda verimli bir şekilde yönetebileceksiniz.
@@ -95,3 +101,9 @@ Cevap4: Aspose.Note for Java belgelerini, forumlarını ve desteğini şu adrest
 ### S5: Satın almadan önce Aspose.Note for Java'yı deneyebilir miyim?
 
  Cevap5: Evet, Aspose.Note for Java'nın ücretsiz deneme sürümünü şu adresten edinebilirsiniz:[Web sitesi](https://releases.aspose.com/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

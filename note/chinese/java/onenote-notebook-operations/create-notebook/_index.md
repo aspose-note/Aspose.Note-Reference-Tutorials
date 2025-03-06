@@ -3,10 +3,16 @@ title: 在 OneNote 中创建笔记本 - Aspose.Note
 linktitle: 在 OneNote 中创建笔记本 - Aspose.Note
 second_title: Aspose.Note Java API
 description: 了解如何使用 Aspose.Note for Java 以编程方式在 OneNote 中创建笔记本。通过此分步指南简化您的工作流程。
-type: docs
 weight: 18
 url: /zh/java/onenote-notebook-operations/create-notebook/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# 在 OneNote 中创建笔记本 - Aspose.Note
+
 ## 介绍
 
 在本教程中，我们将深入研究使用 Aspose.Note for Java 在 OneNote 中创建笔记本的世界。 Aspose.Note 是一个功能强大的 Java 库，允许开发人员以编程方式处理 Microsoft OneNote 文件。无论您是经验丰富的开发人员还是刚刚起步，本分步指南都将引导您轻松完成创建笔记本的过程。
@@ -86,3 +92,9 @@ A3：当然！ Aspose.Note for Java 旨在无缝集成到 Java 应用程序中�
 ### Q5：哪里可以获得 Aspose.Note for Java 的支持？
 
  A5：有关 Aspose.Note for Java 的任何帮助或疑问，您可以访问[Aspose.Note 论坛](https://forum.aspose.com/c/note/28)与社区互动并获得专家指导。
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

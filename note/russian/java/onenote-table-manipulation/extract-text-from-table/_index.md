@@ -3,10 +3,16 @@ title: Извлечение текста из таблицы в OneNote — Aspo
 linktitle: Извлечение текста из таблицы в OneNote — Aspose.Note
 second_title: Aspose.Note Java API
 description: Узнайте, как легко извлекать текст из таблиц в OneNote с помощью Aspose.Note для Java. Следуйте нашему пошаговому руководству для бесшовной интеграции.
-type: docs
 weight: 14
 url: /ru/java/onenote-table-manipulation/extract-text-from-table/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Извлечение текста из таблицы в OneNote — Aspose.Note
+
 ## Введение
 В сфере разработки Java Aspose.Note выделяется как мощный инструмент для работы с документами OneNote. Одной из его примечательных особенностей является возможность легко извлекать текст из таблиц. Это руководство проведет вас через весь процесс, разбив каждый шаг, чтобы обеспечить бесперебойную работу.
 ## Предварительные условия
@@ -73,3 +79,9 @@ System.out.println(text);
  Вы можете найти поддержку сообщества в[Форумы Aspose.Note](https://forum.aspose.com/c/note/28).
 ### Как приобрести библиотеку Aspose.Note?
  Вы можете приобрести библиотеку[здесь](https://purchase.aspose.com/buy).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

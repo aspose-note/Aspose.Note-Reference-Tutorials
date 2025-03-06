@@ -3,10 +3,16 @@ title: حفظ دفتر الملاحظات للدفق في OneNote - Aspose.Note
 linktitle: حفظ دفتر الملاحظات للدفق في OneNote - Aspose.Note
 second_title: Aspose.Note جافا API
 description: تعرف على كيفية حفظ دفاتر الملاحظات في التدفقات في OneNote باستخدام Aspose.Note لـ Java. عزز الإنتاجية من خلال إدارة أجهزة الكمبيوتر المحمولة بكفاءة.
-type: docs
 weight: 26
 url: /ar/java/onenote-notebook-operations/save-notebook-to-stream/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# حفظ دفتر الملاحظات للدفق في OneNote - Aspose.Note
+
 ## مقدمة
 
 في هذا البرنامج التعليمي، سنرشدك خلال عملية حفظ دفتر ملاحظات في دفق في OneNote باستخدام Aspose.Note لـ Java. باتباع هذه الخطوات، ستتمكن من إدارة دفاتر الملاحظات الخاصة بك بكفاءة برمجياً.
@@ -88,3 +94,9 @@ A1: نعم، يمكنك حفظ دفاتر ملاحظات متعددة عن طر�
 ### س5: هل هناك إصدار تجريبي متاح لـ Aspose.Note لـ Java؟
 
  ج5: نعم، يمكنك الوصول إلى النسخة التجريبية[هنا](https://releases.aspose.com/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

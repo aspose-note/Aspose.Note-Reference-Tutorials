@@ -3,10 +3,16 @@ title: Aspose.Note में टेक्स्ट के लिए प्रू
 linktitle: Aspose.Note में टेक्स्ट के लिए प्रूफ़िंग भाषा सेट करें
 second_title: Aspose.Note .NET API
 description: .NET के लिए Aspose.Note के साथ शक्तिशाली टेक्स्ट हेरफेर को अनलॉक करें। चरण-दर-चरण मार्गदर्शन के साथ सहजता से प्रूफ़िंग भाषा सेट करें। अभी अपने .NET प्रोजेक्ट्स को बेहतर बनाएं!
-type: docs
 weight: 25
 url: /hi/net/text-manipulation/set-proofing-language-text/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Aspose.Note में टेक्स्ट के लिए प्रूफ़िंग भाषा सेट करें
+
 ## परिचय
 .NET के लिए Aspose.Note की दुनिया में आपका स्वागत है! इस व्यापक गाइड में, हम Aspose.Note का उपयोग करके टेक्स्ट के लिए प्रूफ़िंग भाषा सेट करने की आकर्षक प्रक्रिया का पता लगाएंगे। चाहे आप एक अनुभवी डेवलपर हों या बस Aspose.Note से शुरुआत कर रहे हों, यह ट्यूटोरियल आपको अपने टेक्स्ट हेरफेर कौशल को बढ़ाने के लिए विस्तृत जानकारी और चरण-दर-चरण निर्देश प्रदान करेगा।
 ## आवश्यक शर्तें
@@ -89,3 +95,9 @@ document.Save(Path.Combine("Your Document Directory", "SetProofingLanguageForTex
  निश्चित रूप से! आप .NET के लिए Aspose.Note का निःशुल्क परीक्षण प्राप्त कर सकते हैं[यहाँ](https://releases.aspose.com/).
 ### समस्याओं का सामना करना पड़ रहा है या सहायता की आवश्यकता है?
  दौरा करना[Aspose.नोट समर्थन मंच](https://forum.aspose.com/c/note/28) समुदाय से जुड़ने और विशेषज्ञ सहायता प्राप्त करने के लिए।
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

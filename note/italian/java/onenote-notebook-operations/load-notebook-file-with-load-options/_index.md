@@ -3,10 +3,16 @@ title: Carica il file del notebook con le opzioni di caricamento in OneNote - As
 linktitle: Carica il file del notebook con le opzioni di caricamento in OneNote - Aspose.Note
 second_title: Aspose.Note API Java
 description: Scopri come utilizzare Aspose.Note per Java per manipolare a livello di codice i file OneNote. Inizia subito con il nostro tutorial completo.
-type: docs
 weight: 20
 url: /it/java/onenote-notebook-operations/load-notebook-file-with-load-options/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Carica il file del notebook con le opzioni di caricamento in OneNote - Aspose.Note
+
 ## introduzione
 
 Aspose.Note per Java è una potente libreria che consente agli sviluppatori di lavorare con i file Microsoft OneNote a livello di codice. Sia che tu voglia creare, manipolare o convertire documenti OneNote, Aspose.Note per Java fornisce gli strumenti necessari per semplificare il tuo flusso di lavoro. In questo tutorial, esploreremo come iniziare con Aspose.Note per Java, coprendo i prerequisiti, importando pacchetti e suddividendo gli esempi in passaggi facili da seguire.
@@ -94,3 +100,9 @@ A1: Sì, Aspose.Note per Java supporta varie versioni di file OneNote, inclusi i
 ### Q5: ho bisogno di una licenza temporanea per utilizzare Aspose.Note per Java?
 
  R5: Se stai valutando il prodotto, puoi ottenere una licenza temporanea[Qui](https://purchase.aspose.com/temporary-license/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

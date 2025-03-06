@@ -3,10 +3,16 @@ title: OneNote で指定したフォント サブシステムを使用して保�
 linktitle: OneNote で指定したフォント サブシステムを使用して保存する
 second_title: Aspose.Note Java API
 description: Aspose.Note を使用して Java の指定されたフォント サブシステムを使用して OneNote ドキュメントを保存する方法を学習します。プラットフォーム間で一貫したフォント表現を簡単に確保できます。
-type: docs
 weight: 22
 url: /ja/java/onenote-document-saving/save-using-specified-fonts-subsystem/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# OneNote で指定したフォント サブシステムを使用して保存する
+
 ## 導入
 
 Aspose.Note for Java は、OneNote ドキュメントを操作するための堅牢な機能を提供します。このようなドキュメントを扱うときの一般的な要件の 1 つは、特にドキュメントを PDF などのさまざまな形式でエクスポートまたは保存する場合、フォントが適切に維持されていることを確認することです。このチュートリアルでは、フォント サブシステムを指定しながら OneNote ドキュメントを保存するプロセスを説明し、さまざまなプラットフォーム間で一貫した正確なテキスト表現を保証します。
@@ -152,3 +158,9 @@ A4: はい、Aspose.Note for Java を使用して、サイズ、スタイル、�
 ### Q5: Aspose.Note for Java の試用版はありますか?
 
 A5: はい、Web サイトから Aspose.Note for Java の無料トライアルを入手できます。
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -3,10 +3,16 @@ title: Integration med uppgift och Outlook
 linktitle: Integration med uppgift och Outlook
 second_title: Aspose.Note Java API
 description: Lås upp potentialen hos Aspose.Note Java med våra handledningar om att integrera Outlook-uppgifter i OneNote. Öka dina färdigheter i dokumentbehandling med våra handledningar.
-type: docs
 weight: 35
 url: /sv/java/task-and-outlook-integration/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Integration med uppgift och Outlook
+
 
 ## Introduktion
 
@@ -38,3 +44,9 @@ När du ger dig ut på den här resan med Aspose.Note för Java, kom ihåg att e
 ## Handledningar för integration av uppgifter och Outlook
 ### [Skaffa Outlook Task i OneNote - Aspose.Note](./get-outlook-task/)
 Utforska kraften i Aspose.Note för Java för att extrahera Outlook-uppgifter från OneNote utan ansträngning. Följ vår steg-för-steg-guide och förbättra dina dokumentbehandlingsmöjligheter.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

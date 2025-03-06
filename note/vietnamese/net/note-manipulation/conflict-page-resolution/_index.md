@@ -3,10 +3,16 @@ title: Giải quyết xung đột trong tài liệu Aspose.Note
 linktitle: Giải quyết xung đột trong tài liệu Aspose.Note
 second_title: Aspose.Note .NET API
 description: Tìm hiểu cách giải quyết xung đột trong tài liệu Aspose.Note bằng .NET. Hướng dẫn từng bước để giải quyết xung đột hiệu quả.
-type: docs
 weight: 10
 url: /vi/net/note-manipulation/conflict-page-resolution/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Giải quyết xung đột trong tài liệu Aspose.Note
+
 ## Giới thiệu
 
 Giải quyết xung đột trong tài liệu Aspose.Note là một nhiệm vụ quan trọng, đặc biệt là khi xử lý các dự án hợp tác hoặc có nhiều người đóng góp. Những xung đột này có thể phát sinh do các chỉnh sửa đồng thời, các phiên bản khác nhau hoặc những khác biệt khác trong tài liệu. Trong hướng dẫn này, chúng ta sẽ đi sâu vào quy trình xác định và giải quyết xung đột trong tài liệu Aspose.Note bằng .NET. Bằng cách làm theo các bước này, bạn sẽ được trang bị để quản lý xung đột một cách hiệu quả và đảm bảo tính toàn vẹn của tài liệu.
@@ -100,3 +106,9 @@ Câu trả lời 4: Có, bạn có thể tự động giải quyết xung đột
 ### Câu hỏi 5: Aspose.Note có hỗ trợ các tính năng cộng tác theo thời gian thực không?
 
 Câu trả lời 5: Aspose.Note chủ yếu tập trung vào thao tác tài liệu và không cung cấp các tính năng cộng tác theo thời gian thực ngay lập tức.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -3,10 +3,16 @@ title: 在 OneNote 中创建中文编号列表 - Aspose.Note
 linktitle: 在 OneNote 中创建中文编号列表 - Aspose.Note
 second_title: Aspose.Note Java API
 description: 使用 Aspose.Note 增强 Java 中的文档创建。逐步学习在 OneNote 中创建中文编号列表。探索 Aspose.Note 的强大功能。
-type: docs
 weight: 13
 url: /zh/java/onenote-text-manipulation/create-chinese-numbered-list/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# 在 OneNote 中创建中文编号列表 - Aspose.Note
+
 ## 介绍
 如果您希望增强 Java 文档创建功能，Aspose.Note 是您的首选解决方案。在本教程中，我们将指导您完成使用 Aspose.Note for Java 在 OneNote 中创建中文编号列表的过程。这个功能强大的库允许您以编程方式操作 OneNote 文档，从而完全控制其结构和内容。
 ## 先决条件
@@ -109,3 +115,9 @@ System.out.printf("File saved: %s\n", dataDir + "CreateChineseNumberedList_out.p
 参考文档[这里](https://reference.aspose.com/note/java/).
 ### 我如何获得 Aspose.Note 支持？
 访问支持论坛[这里](https://forum.aspose.com/c/note/28)如有任何帮助或疑问。
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

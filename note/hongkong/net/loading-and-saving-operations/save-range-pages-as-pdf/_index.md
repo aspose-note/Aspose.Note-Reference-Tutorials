@@ -3,10 +3,16 @@ title: 在 Aspose.Note 中將頁面範圍儲存為 PDF
 linktitle: 在 Aspose.Note 中將頁面範圍儲存為 PDF
 second_title: Aspose.Note .NET API
 description: 了解如何使用 Aspose.Note for .NET 將 OneNote 文件中的一系列頁面儲存為 PDF 文件。包括逐步教程。
-type: docs
 weight: 21
 url: /zh-hant/net/loading-and-saving-operations/save-range-pages-as-pdf/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# 在 Aspose.Note 中將頁面範圍儲存為 PDF
+
 ## 介紹
 
 在 .NET 開發領域，Aspose.Note 作為一款輕鬆高效處理 OneNote 文件的多功能工具脫穎而出。在其眾多功能中，最受歡迎的功能之一是將一系列頁面儲存為 PDF 檔案的功能。本教學將逐步引導您完成整個過程，確保您可以將此功能無縫整合到您的專案中。
@@ -99,3 +105,9 @@ A4：當然！ Aspose.Note 提供了廣泛的選項來自訂 PDF 檔案的外觀
 ### Q5：在哪裡可以找到 Aspose.Note 的其他支援和資源？
 
  A5：如需更多支援、文件和社群互動，您可以訪問[Aspose.Note 論壇](https://forum.aspose.com/c/note/28).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

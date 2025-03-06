@@ -3,10 +3,16 @@ title: Speichern Sie das Subsystem „Spezifizierte Schriftarten“ in OneNote
 linktitle: Speichern Sie das Subsystem „Spezifizierte Schriftarten“ in OneNote
 second_title: Aspose.Note Java API
 description: Erfahren Sie, wie Sie OneNote-Dokumente mithilfe des angegebenen Schriftarten-Subsystems in Java mit Aspose.Note speichern. Sorgen Sie mühelos für eine konsistente Schriftdarstellung auf allen Plattformen.
-type: docs
 weight: 22
 url: /de/java/onenote-document-saving/save-using-specified-fonts-subsystem/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Speichern Sie das Subsystem „Spezifizierte Schriftarten“ in OneNote
+
 ## Einführung
 
 Aspose.Note für Java bietet robuste Funktionen für die Arbeit mit OneNote-Dokumenten. Eine häufige Anforderung bei der Arbeit mit solchen Dokumenten besteht darin, sicherzustellen, dass die Schriftarten ordnungsgemäß beibehalten werden, insbesondere wenn das Dokument exportiert oder in anderen Formaten wie PDF gespeichert werden soll. Dieses Tutorial führt Sie durch den Prozess des Speicherns von OneNote-Dokumenten und gibt dabei das Schriftarten-Subsystem an, um eine konsistente und genaue Darstellung von Text auf verschiedenen Plattformen sicherzustellen.
@@ -152,3 +158,9 @@ A4: Ja, Sie können Schrifteigenschaften wie Größe, Stil und Farbe mit Aspose.
 ### F5: Gibt es eine Testversion für Aspose.Note für Java?
 
 A5: Ja, Sie können auf der Website eine kostenlose Testversion von Aspose.Note für Java herunterladen.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

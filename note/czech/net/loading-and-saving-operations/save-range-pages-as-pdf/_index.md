@@ -3,10 +3,16 @@ title: Uložit rozsah stránek jako PDF v Aspose.Note
 linktitle: Uložit rozsah stránek jako PDF v Aspose.Note
 second_title: Aspose.Note .NET API
 description: Naučte se, jak uložit řadu stránek z dokumentů OneNotu jako soubory PDF pomocí Aspose.Note pro .NET. Včetně návodu krok za krokem.
-type: docs
 weight: 21
 url: /cs/net/loading-and-saving-operations/save-range-pages-as-pdf/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Uložit rozsah stránek jako PDF v Aspose.Note
+
 ## Úvod
 
 V oblasti vývoje .NET vyniká Aspose.Note jako všestranný nástroj pro snadnou a efektivní manipulaci s dokumenty OneNote. Mezi jeho nepřeberné množství funkcí je jednou z nejvyhledávanějších funkcí možnost uložit řadu stránek jako soubor PDF. Tento výukový program vás provede procesem krok za krokem a zajistí, že tuto schopnost můžete bez problémů integrovat do svých projektů.
@@ -99,3 +105,9 @@ A4: Rozhodně! Aspose.Note nabízí rozsáhlé možnosti přizpůsobení vzhledu
 ### Q5: Kde najdu další podporu a zdroje pro Aspose.Note?
 
  Odpověď 5: Další podporu, dokumentaci a interakci s komunitou získáte na adrese[Fórum Aspose.Note](https://forum.aspose.com/c/note/28).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

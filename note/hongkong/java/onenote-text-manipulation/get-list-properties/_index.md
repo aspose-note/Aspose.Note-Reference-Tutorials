@@ -3,10 +3,16 @@ title: 在 OneNote 中取得清單屬性 - Aspose.Note
 linktitle: 在 OneNote 中取得清單屬性 - Aspose.Note
 second_title: Aspose.Note Java API
 description: 探索 Aspose.Note for Java 並輕鬆檢索 OneNote 文件中的清單屬性。使用這個強大的 Java 庫增強您的文件處理能力。
-type: docs
 weight: 19
 url: /zh-hant/java/onenote-text-manipulation/get-list-properties/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# 在 OneNote 中取得清單屬性 - Aspose.Note
+
 ## 介紹
 歡迎來到這個關於利用 Aspose.Note for Java 檢索和分析 OneNote 文件中的清單屬性的綜合教學。無論您是經驗豐富的開發人員還是剛開始使用 Aspose.Note，本指南都將引導您完成整個過程，分解每個步驟以確保清晰的理解。
 ## 先決條件
@@ -95,3 +101,9 @@ Aspose.Note支援各種OneNote版本，確保不同文件格式的相容性。
 是的，您可以獲得臨時許可證[這裡](https://purchase.aspose.com/temporary-license/)用於測試目的。
 ### 如果我想購買 Aspose.Note for Java 怎麼辦？
 您可以購買該產品[這裡](https://purchase.aspose.com/buy)為您的專案釋放其全部潛力。
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

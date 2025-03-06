@@ -3,10 +3,16 @@ title: Legen Sie die Hintergrundfarbe der Zellen in Aspose.Note-Tabellen fest
 linktitle: Legen Sie die Hintergrundfarbe der Zellen in Aspose.Note-Tabellen fest
 second_title: Aspose.Note .NET-API
 description: Erfahren Sie anhand der Schritt-für-Schritt-Anleitung, wie Sie die Hintergrundfarbe von Zellen in Aspose.Note-Tabellen festlegen. Verbessern Sie mühelos die visuelle Darstellung von Dokumenten.
-type: docs
 weight: 17
 url: /de/net/table-manipulation/set-cell-background-color/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Legen Sie die Hintergrundfarbe der Zellen in Aspose.Note-Tabellen fest
+
 ## Einführung
 
 In diesem Tutorial erfahren Sie, wie Sie mit Aspose.Note für .NET die Hintergrundfarbe von Zellen in Tabellen festlegen. Diese Funktion kann die optische Attraktivität und Lesbarkeit Ihrer Dokumente erheblich verbessern. Befolgen Sie die nachstehenden Schritte, um zu erfahren, wie Sie dies erreichen.
@@ -122,3 +128,9 @@ A4: Aspose.Note für .NET zielt speziell auf OneNote-Dateiformate ab. Für die A
 ### F5: Wo finde ich weitere Ressourcen und Unterstützung für Aspose.Note für .NET?
 
  A5: Sie können das erkunden[Aspose.Note-Dokumentation](https://reference.aspose.com/note/net/) Ausführliche API-Referenzen und Beispiele finden Sie hier. Darüber hinaus können Sie die Aspose-Community um Hilfe bitten[Aspose.Note-Forum](https://forum.aspose.com/c/note/28).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

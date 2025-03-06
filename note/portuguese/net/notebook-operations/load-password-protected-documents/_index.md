@@ -3,10 +3,16 @@ title: Carregar documentos protegidos por senha no Aspose Note .NET
 linktitle: Carregar documentos protegidos por senha no Aspose Note .NET
 second_title: API Aspose.Note .NET
 description: Aprenda como carregar documentos protegidos por senha com segurança no Aspose Note .NET usando etapas simples. Garanta a confidencialidade dos dados com criptografia.
-type: docs
 weight: 22
 url: /pt/net/notebook-operations/load-password-protected-documents/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Carregar documentos protegidos por senha no Aspose Note .NET
+
 ## Introdução
 
 Aspose.Note for .NET é uma API poderosa que permite aos desenvolvedores trabalhar com arquivos do Microsoft OneNote programaticamente. Neste tutorial, aprenderemos como carregar documentos protegidos por senha usando Aspose.Note for .NET.
@@ -77,3 +83,9 @@ A4: Sim, você pode definir senhas diferentes para diferentes documentos filhos 
 ### Q5: Existe uma versão de teste disponível para Aspose.Note for .NET?
 
  A5: Sim, você pode acessar uma versão de avaliação gratuita do Aspose.Note for .NET em[aqui](https://releases.aspose.com/), permitindo que você explore seus recursos antes de fazer uma compra.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

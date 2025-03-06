@@ -3,10 +3,16 @@ title: Vérifiez si le document OneNote est crypté - Java
 linktitle: Vérifiez si le document OneNote est crypté - Java
 second_title: API Java Aspose.Note
 description: Découvrez comment vérifier si un document OneNote est chiffré en Java à l'aide d'Aspose.Note. Suivez notre guide étape par étape pour un traitement efficace des documents.
-type: docs
 weight: 10
 url: /fr/java/onenote-document-loading/check-document-encrypted/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Vérifiez si le document OneNote est crypté - Java
+
 ## Introduction
 
 Lorsque vous travaillez avec des documents OneNote en Java, il est essentiel de s'assurer que le document n'est pas chiffré avant de le traiter. Le cryptage des documents peut ajouter une couche de sécurité supplémentaire, mais il peut également compliquer les étapes de traitement s'il n'est pas géré correctement. Dans ce didacticiel, nous vous guiderons tout au long du processus de vérification si un document OneNote est chiffré à l'aide d'Aspose.Note pour Java.
@@ -116,3 +122,9 @@ A4 : Non, Aspose.Note est spécialement conçu pour travailler uniquement avec 
 ### Q5 : Où puis-je trouver plus de ressources et d'assistance pour Aspose.Note pour Java ?
 
  A5 : Vous pouvez visiter le[Forum Aspose.Note](https://forum.aspose.com/c/note/28) pour le soutien et la documentation de la communauté.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

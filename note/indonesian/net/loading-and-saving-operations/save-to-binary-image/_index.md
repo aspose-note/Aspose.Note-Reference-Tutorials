@@ -3,10 +3,16 @@ title: Simpan ke Gambar Biner di Aspose.Note
 linktitle: Simpan ke Gambar Biner di Aspose.Note
 second_title: Aspose.Catatan .NET API
 description: Pelajari cara mengonversi dokumen menjadi gambar biner menggunakan Aspose.Note untuk .NET. Ikuti panduan langkah demi langkah kami untuk integrasi yang lancar.
-type: docs
 weight: 22
 url: /id/net/loading-and-saving-operations/save-to-binary-image/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Simpan ke Gambar Biner di Aspose.Note
+
 ## Perkenalan
 
 Dalam tutorial ini, kita akan mempelajari cara menyimpan dokumen ke gambar biner menggunakan Aspose.Note untuk .NET. Proses ini melibatkan konversi dokumen menjadi gambar hitam-putih dengan ambang batas tetap, yang dapat berguna untuk berbagai aplikasi.
@@ -97,3 +103,9 @@ A4: Ya, Anda dapat mengulang beberapa dokumen dan menyimpannya sebagai gambar bi
 ### Q5: Di mana saya dapat menemukan lebih banyak sumber daya dan dukungan untuk Aspose.Note?
 
  A5: Anda dapat menjelajahi[Dokumentasi Aspose.Note](https://reference.aspose.com/note/net/)dan mencari bantuan dari[Aspose.Catatan forum](https://forum.aspose.com/c/note/28) untuk pertanyaan atau masalah apa pun.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -3,10 +3,16 @@ title: 从 Aspose Note .NET 中的流加载笔记本
 linktitle: 从 Aspose Note .NET 中的流加载笔记本
 second_title: Aspose.Note .NET API
 description: 了解如何从 Aspose.Note for .NET 中的流加载笔记本。按照此分步指南无缝集成到您的 .NET 应用程序中。
-type: docs
 weight: 19
 url: /zh/net/notebook-operations/load-notebooks-from-stream/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# 从 Aspose Note .NET 中的流加载笔记本
+
 ## 介绍
 
 在本教程中，我们将探讨如何使用 Aspose.Note for .NET 从流中加载笔记本。 Aspose.Note 是一个功能强大的库，使开发人员能够以编程方式处理 Microsoft OneNote 文件。在 .NET 应用程序中处理文件输入/输出操作时，从流加载笔记本是一项常见任务。
@@ -92,3 +98,9 @@ A1：是的，Aspose.Note for .NET 支持各种版本的 OneNote 文件，包括
 ### Q5：是否可以选择临时许可？
 
  A5：是的，您可以从以下机构获得临时许可证：[这里](https://purchase.aspose.com/temporary-license/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

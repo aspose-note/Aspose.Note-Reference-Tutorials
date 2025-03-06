@@ -3,10 +3,16 @@ title: Установите язык проверки текста в Aspose.Not
 linktitle: Установите язык проверки текста в Aspose.Note
 second_title: Aspose.Note .NET API
 description: Откройте для себя мощные возможности управления текстом с помощью Aspose.Note для .NET. Легко настройте язык проверки с помощью пошаговых инструкций. Улучшите свои .NET-проекты прямо сейчас!
-type: docs
 weight: 25
 url: /ru/net/text-manipulation/set-proofing-language-text/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Установите язык проверки текста в Aspose.Note
+
 ## Введение
 Добро пожаловать в мир Aspose.Note для .NET! В этом подробном руководстве мы рассмотрим увлекательный процесс настройки языка проверки текста с помощью Aspose.Note. Независимо от того, являетесь ли вы опытным разработчиком или только начинаете работать с Aspose.Note, это руководство предоставит вам подробную информацию и пошаговые инструкции, которые помогут улучшить ваши навыки манипулирования текстом.
 ## Предварительные условия
@@ -89,3 +95,9 @@ document.Save(Path.Combine("Your Document Directory", "SetProofingLanguageForTex
  Конечно! Вы можете получить доступ к бесплатной пробной версии Aspose.Note для .NET.[здесь](https://releases.aspose.com/).
 ### Сталкиваетесь с проблемами или нуждаетесь в помощи?
  Посетить[Форум поддержки Aspose.Note](https://forum.aspose.com/c/note/28) чтобы связаться с сообществом и получить экспертную помощь.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

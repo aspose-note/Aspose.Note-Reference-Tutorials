@@ -3,10 +3,16 @@ title: Relatórios com tags em Aspose.Note
 linktitle: Relatórios com tags em Aspose.Note
 second_title: API Aspose.Note .NET
 description: Aprenda como gerar relatórios criteriosos a partir de documentos digitais usando Aspose.Note for .NET. Guia passo a passo fornecido.
-type: docs
 weight: 16
 url: /pt/net/tag-management/reporting-tags/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Relatórios com tags em Aspose.Note
+
 ## Introdução
 
 No domínio do processamento e gerenciamento de documentos, Aspose.Note for .NET se destaca como uma ferramenta poderosa para lidar com notas, anotações e tags em documentos digitais. As tags são fundamentais para organizar, categorizar e filtrar informações em documentos, permitindo recuperação e análise eficientes. Este tutorial investiga as complexidades dos relatórios com tags no Aspose.Note, oferecendo orientação passo a passo sobre como gerar relatórios com base em vários critérios.
@@ -133,3 +139,9 @@ A2: Sim, você pode acessar uma avaliação gratuita do Aspose.Note for .NET no[
 ## Q5: Posso personalizar os critérios de relatório no Aspose.Note for .NET?
 
 R5: Sim, você pode personalizar os critérios de relatório de acordo com seus requisitos específicos usando as APIs e exemplos fornecidos.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

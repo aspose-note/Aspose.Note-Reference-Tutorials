@@ -3,10 +3,16 @@ title: Aspose.Note에서 파일 형식 검색
 linktitle: Aspose.Note에서 파일 형식 검색
 second_title: Aspose.Note .NET API
 description: Microsoft OneNote 문서를 프로그래밍 방식으로 작업하기 위한 강력한 API인 .NET용 Aspose.Note를 살펴보세요.
-type: docs
 weight: 19
 url: /ko/net/loading-and-saving-operations/retrieve-file-format/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Aspose.Note에서 파일 형식 검색
+
 ## 소개
 
 Aspose.Note for .NET은 개발자가 Microsoft OneNote 문서를 프로그래밍 방식으로 작업할 수 있게 해주는 강력한 API입니다. OneNote 파일을 생성, 조작 또는 변환해야 하는 경우 Aspose.Note는 직관적이고 포괄적인 기능 세트를 통해 프로세스를 단순화합니다.
@@ -83,3 +89,9 @@ A3: 예, 다음에서 제공되는 무료 평가판을 통해 Aspose.Note의 기
 ### Q5: 평가 목적으로 임시 라이센스가 필요합니까?
 
  A5: 무료 평가판을 통해 Aspose.Note를 테스트할 수 있지만 확장 평가를 위해 임시 라이선스를 선택할 수도 있습니다. 방문하다[여기](https://purchase.aspose.com/temporary-license/) 상세 사항은.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

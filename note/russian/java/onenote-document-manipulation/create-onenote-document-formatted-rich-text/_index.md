@@ -3,10 +3,16 @@ title: Создание документа OneNote с форматированн
 linktitle: Создание документа OneNote с форматированным форматированным текстом на Java
 second_title: Aspose.Note Java API
 description: Узнайте, как программно создавать форматированные документы OneNote на Java с помощью Aspose.Note для Java. Следуйте нашему пошаговому руководству для бесперебойной автоматизации документооборота.
-type: docs
 weight: 11
 url: /ru/java/onenote-document-manipulation/create-onenote-document-formatted-rich-text/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Создание документа OneNote с форматированным форматированным текстом на Java
+
 ## Введение
 
 Программное создание широкоформатных документов OneNote может стать мощным инструментом для разработчиков, желающих автоматизировать задачи создания документов в приложениях Java. Aspose.Note для Java предоставляет полный набор функций и возможностей для беспрепятственного достижения этой цели. В этом уроке мы проведем вас через процесс создания документа OneNote с форматированным текстом с помощью Aspose.Note для Java.
@@ -142,3 +148,10 @@ doc.save(dataDir + "CreateOneNoteDocument_out.pdf", SaveFormat.Pdf);
 ### Вопрос 5. Поддерживает ли Aspose.Note для Java другие форматы документов, кроме OneNote?
 
 О5: Да, Aspose.Note для Java поддерживает различные форматы документов, включая PDF, HTML и форматы изображений.
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

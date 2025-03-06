@@ -3,10 +3,16 @@ title: Μετατροπή σημειωματάριου σε επίπεδη ει�
 linktitle: Μετατροπή σημειωματάριου σε επίπεδη εικόνα στο OneNote - Aspose.Note
 second_title: Aspose.Note Java API
 description: Μάθετε πώς να μετατρέπετε ένα σημειωματάριο σε μια επίπεδη εικόνα στο OneNote χρησιμοποιώντας το Aspose.Note για Java. Διατηρήστε όλα τα στοιχεία σε ένα μόνο αρχείο εικόνας χωρίς κόπο.
-type: docs
 weight: 13
 url: /el/java/onenote-notebook-operations/convert-notebook-to-flattened-image/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Μετατροπή σημειωματάριου σε επίπεδη εικόνα στο OneNote - Aspose.Note
+
 ## Εισαγωγή
 
 Σε αυτό το σεμινάριο, θα σας καθοδηγήσουμε στη διαδικασία μετατροπής ενός σημειωματάριου σε μια επίπεδη εικόνα στο OneNote χρησιμοποιώντας το Aspose.Note για Java. Αυτό σας επιτρέπει να αποθηκεύσετε το σημειωματάριό σας ως αρχείο εικόνας, διασφαλίζοντας ότι όλα τα στοιχεία διατηρούνται σε μια ενιαία μορφή εικόνας.
@@ -108,3 +114,9 @@ A3: Ναι, το Aspose.Note παρέχει εκτενείς επιλογές γ
 ### Ε5: Πού μπορώ να βρω υποστήριξη για το Aspose.Note για Java;
 
  A5: Μπορείτε να βρείτε υποστήριξη και πόρους στο φόρουμ Aspose.Note[εδώ](https://forum.aspose.com/c/note/28).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

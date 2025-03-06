@@ -3,10 +3,16 @@ title: A OneNote integráció elsajátítása az Aspose.Note for .NET segítség
 linktitle: Megjegyzés Manipuláció
 second_title: Aspose.Note .NET API
 description: Fedezze fel az Aspose.Note for .NET erejét a OneNote-ra összpontosító oktatóanyagainkkal. Oldja fel az ütközéseket, hozzon létre dinamikus dokumentumokat, és fedezze fel a hatékony oldalkezelést.
-type: docs
 weight: 27
 url: /hu/net/note-manipulation/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# A OneNote integráció elsajátítása az Aspose.Note for .NET segítségével
+
 
 ## Bevezetés
 
@@ -69,3 +75,9 @@ Ismerje meg, hogyan kezelheti hatékonyan a revíziókat az Aspose.Note dokument
 Ismerje meg, hogyan állíthatja be az oldalak háttérszínét az Aspose.Note dokumentumokban C# programozási nyelv használatával, lépésről lépésre.
 ### [Munka az oldalváltozatokkal – Aspose.Note tippek](./working-with-page-revisions/)
 Ismerje meg a Microsoft OneNote oldalverziók kezelését az Aspose.Note segítségével. Lépésről lépésre útmutató a .NET-alkalmazások zökkenőmentes integrációjához és verziókezeléséhez.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

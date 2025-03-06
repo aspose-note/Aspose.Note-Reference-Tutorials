@@ -3,10 +3,16 @@ title: Jegyzetfüzet konvertálása lapított képpé a OneNote-ban – Aspose.N
 linktitle: Jegyzetfüzet konvertálása lapított képpé a OneNote-ban – Aspose.Note
 second_title: Aspose.Note Java API
 description: Ismerje meg, hogyan alakíthat át egy jegyzetfüzetet lapos képpé a OneNote-ban az Aspose.Note for Java használatával. Könnyedén megőrizheti az összes elemet egyetlen képfájlban.
-type: docs
 weight: 13
 url: /hu/java/onenote-notebook-operations/convert-notebook-to-flattened-image/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Jegyzetfüzet konvertálása lapított képpé a OneNote-ban – Aspose.Note
+
 ## Bevezetés
 
 Ebben az oktatóanyagban végigvezetjük a jegyzetfüzet egy lapított képpé alakításán a OneNote alkalmazásban az Aspose.Note for Java használatával. Ez lehetővé teszi a jegyzetfüzet képfájlként történő mentését, biztosítva, hogy minden elem egyetlen képformátumban maradjon meg.
@@ -108,3 +114,9 @@ notebook.save(dataDir + "ExportImageasFlattenedNotebook_out.png", saveOptions);
 ### 5. kérdés: Hol találok támogatást az Aspose.Note for Java számára?
 
  5. válasz: Támogatást és forrásokat találhat az Aspose.Note fórumon[itt](https://forum.aspose.com/c/note/28).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

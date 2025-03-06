@@ -3,10 +3,16 @@ title: 在 OneNote 中使用流构建文档并插入图像 - Java
 linktitle: 在 OneNote 中使用流构建文档并插入图像 - Java
 second_title: Aspose.Note Java API
 description: 了解如何使用 Aspose.Note for Java 轻松将图像集成到 OneNote 文档中。面向 Java 开发人员的分步教程。
-type: docs
 weight: 13
 url: /zh/java/onenote-hyperlinks-images/build-doc-insert-image-stream/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# 在 OneNote 中使用流构建文档并插入图像 - Java
+
 ## 介绍
 
 欢迎来到我们关于使用 Aspose.Note for Java 在 OneNote 中使用图像流构建文档和插入图像的综合教程！在本教程中，我们将逐步指导您完成整个过程，确保您清楚地了解每个阶段。最后，您将能够使用 Java 轻松地将图像集成到 OneNote 文档中。
@@ -180,3 +186,10 @@ A4：您可以通过提供的链接访问 Aspose.Note for Java 的文档、下�
 ### Q5：Aspose.Note for Java 有试用版吗？
 
 A5：是的，您可以在做出购买决定之前获得 Aspose.Note for Java 的免费试用版，以探索其特性和功能。
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

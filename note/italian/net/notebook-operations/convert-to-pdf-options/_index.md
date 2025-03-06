@@ -3,10 +3,16 @@ title: Converti taccuini in PDF con le opzioni in Aspose Note .NET
 linktitle: Converti taccuini in PDF con le opzioni in Aspose Note .NET
 second_title: Aspose.Note API .NET
 description: Scopri come convertire i taccuini Microsoft OneNote in formato PDF utilizzando la libreria Aspose.Note per .NET con opzioni personalizzabili.
-type: docs
 weight: 16
 url: /it/net/notebook-operations/convert-to-pdf-options/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Converti taccuini in PDF con le opzioni in Aspose Note .NET
+
 ## introduzione
 
 In questo tutorial, esamineremo il processo di conversione dei notebook in formato PDF utilizzando la libreria Aspose.Note per .NET. Aspose.Note per .NET fornisce un potente set di funzionalità per lavorare con i file Microsoft OneNote a livello di codice.
@@ -102,3 +108,9 @@ R4: Sì, è possibile scaricare una prova gratuita di Aspose.Note per .NET dal s
 ### Q5: Come posso ottenere supporto tecnico per Aspose.Note per .NET?
 
  A5: È possibile ottenere supporto tecnico per Aspose.Note per .NET visitando il sito[Forum Aspose.Note](https://forum.aspose.com/c/note/28) o contattando direttamente il team di supporto Aspose.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

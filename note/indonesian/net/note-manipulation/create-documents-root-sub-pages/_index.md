@@ -3,10 +3,16 @@ title: Buat Dokumen dengan Root dan Sub-Halaman menggunakan Aspose.Note
 linktitle: Buat Dokumen dengan Root dan Sub-Halaman menggunakan Aspose.Note
 second_title: Aspose.Catatan .NET API
 description: Pelajari cara menggunakan Aspose.Note untuk .NET untuk membuat dokumen OneNote dinamis dengan struktur hierarki.
-type: docs
 weight: 11
 url: /id/net/note-manipulation/create-documents-root-sub-pages/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Buat Dokumen dengan Root dan Sub-Halaman menggunakan Aspose.Note
+
 ## Perkenalan
 
 Selamat datang di tutorial kami tentang membuat dokumen dengan root dan subhalaman menggunakan Aspose.Note untuk .NET! Aspose.Note adalah perpustakaan canggih yang memungkinkan pengembang bekerja dengan file Microsoft OneNote secara terprogram, memungkinkan pembuatan, manipulasi, dan konversi dokumen OneNote.
@@ -130,3 +136,9 @@ A4: Aspose.Note terutama berfokus pada pengembangan lokal, namun Anda dapat meng
 ### Q5: Apakah dukungan teknis tersedia untuk Aspose.Note?
 
 A5: Ya, Aspose menyediakan dukungan teknis khusus melalui forum mereka di mana Anda dapat mengajukan pertanyaan dan mendapatkan bantuan.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

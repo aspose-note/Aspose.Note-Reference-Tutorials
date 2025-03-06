@@ -3,10 +3,16 @@ title: Java'da OneNote için Ölçülü Lisansı Yönetme
 linktitle: Java'da OneNote için Ölçülü Lisansı Yönetme
 second_title: Aspose.Note Java API'si
 description: Aspose.Note kitaplığını kullanarak Java'da OneNote için ölçülü lisansları nasıl yöneteceğinizi öğrenin. Kullanımı kontrol edin, kredileri izleyin ve maliyetleri verimli bir şekilde optimize edin.
-type: docs
 weight: 10
 url: /tr/java/licensing-java/manage-metered-license/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Java'da OneNote için Ölçülü Lisansı Yönetme
+
 ## giriiş
 
 Bu eğitimde, Aspose.Note for Java'yı kullanarak OneNote için ölçülü bir lisansın nasıl yönetileceğini öğreneceğiz. Ölçülü lisanslama, kullanımınızı kredilere göre izlemenize ve kontrol etmenize olanak tanıyarak esnek ve uygun maliyetli bir çözüm sunar.
@@ -85,3 +91,9 @@ C3: Evet, ölçülü lisans birden fazla uygulamada kullanılabilir ancak tüket
 ### S5: Aspose.Note for Java desteğini nereden alabilirim?
 
  Cevap5: Aspose topluluk forumlarından destek alabilirsiniz[Burada](https://forum.aspose.com/c/note/28).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

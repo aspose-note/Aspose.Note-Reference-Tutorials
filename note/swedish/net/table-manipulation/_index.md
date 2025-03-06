@@ -3,10 +3,16 @@ title: Bemästra tabeller med OneNote-integration
 linktitle: Tabell manipulation
 second_title: Aspose.Note .NET API
 description: Skapa visuellt tilltalande dokument med Aspose.Note för .NET! Utforska självstudier om tabellmanipulering – ändra stilar, komponera tabeller, extrahera text och mer.
-type: docs
 weight: 29
 url: /sv/net/table-manipulation/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Bemästra tabeller med OneNote-integration
+
 
 ## Introduktion
 
@@ -62,3 +68,9 @@ Lär dig hur du extraherar text från tabeller i Aspose.Note med C# med .NET-ram
 Lär dig att infoga tabeller i Note-dokument med Aspose.Note för .NET. Organisera data sömlöst för förbättrad läsbarhet och presentation.
 ### [Ställ in cellbakgrundsfärg i Aspose.Note-tabeller](./set-cell-background-color/)
 Lär dig hur du ställer in cellbakgrundsfärg i Aspose.Note-tabeller med hjälp av en steg-för-steg-guide. Förbättra dokumentbilder utan ansträngning.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

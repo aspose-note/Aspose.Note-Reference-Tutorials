@@ -3,10 +3,16 @@ title: Εξαγωγή κειμένου από τον πίνακα στο OneNote
 linktitle: Εξαγωγή κειμένου από τον πίνακα στο OneNote - Aspose.Note
 second_title: Aspose.Note Java API
 description: Μάθετε πώς να εξάγετε εύκολα κείμενο από πίνακες στο OneNote χρησιμοποιώντας το Aspose.Note για Java. Ακολουθήστε τον βήμα προς βήμα οδηγό μας για απρόσκοπτη ενσωμάτωση.
-type: docs
 weight: 14
 url: /el/java/onenote-table-manipulation/extract-text-from-table/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Εξαγωγή κειμένου από τον πίνακα στο OneNote - Aspose.Note
+
 ## Εισαγωγή
 Στον τομέα της ανάπτυξης Java, το Aspose.Note ξεχωρίζει ως ένα ισχυρό εργαλείο για το χειρισμό εγγράφων του OneNote. Ένα από τα αξιοσημείωτα χαρακτηριστικά του είναι η δυνατότητα εξαγωγής κειμένου από πίνακες χωρίς κόπο. Αυτό το σεμινάριο θα σας καθοδηγήσει στη διαδικασία, αναλύοντας κάθε βήμα για να εξασφαλίσετε μια απρόσκοπτη εμπειρία.
 ## Προαπαιτούμενα
@@ -73,3 +79,9 @@ System.out.println(text);
  Μπορείτε να βρείτε υποστήριξη της κοινότητας στο[Φόρουμ Aspose.Note](https://forum.aspose.com/c/note/28).
 ### Πώς μπορώ να αγοράσω τη βιβλιοθήκη Aspose.Note;
  Μπορείτε να αγοράσετε τη βιβλιοθήκη[εδώ](https://purchase.aspose.com/buy).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

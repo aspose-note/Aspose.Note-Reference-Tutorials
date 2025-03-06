@@ -3,10 +3,16 @@ title: Save to PDF Using Page Settings in OneNote - Aspose.Note
 linktitle: Save to PDF Using Page Settings in OneNote - Aspose.Note
 second_title: Aspose.Note Java API
 description: Learn how to save OneNote documents to PDF in Java using Aspose.Note library. Step-by-step guide with code examples for different page settings.
-type: docs
 weight: 19
 url: /java/onenote-document-saving/save-to-pdf-using-page-settings/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Save to PDF Using Page Settings in OneNote - Aspose.Note
+
 ## Introduction
 
 In this tutorial, we will learn how to save OneNote documents to PDF format using different page settings with Aspose.Note for Java. We'll cover two methods: saving with Letter page settings and saving with A4 page settings without height limit.
@@ -112,3 +118,10 @@ A4: Yes, you can batch process multiple OneNote files using Aspose.Note for Java
 ### Q5: Is there any trial version available for testing purposes?
 
 A5: Yes, you can get a free trial of Aspose.Note for Java from the website.
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

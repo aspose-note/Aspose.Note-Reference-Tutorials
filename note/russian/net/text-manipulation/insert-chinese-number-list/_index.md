@@ -3,10 +3,16 @@ title: Вставить список китайских номеров в тек
 linktitle: Вставить список китайских номеров в текст Aspose.Note
 second_title: Aspose.Note .NET API
 description: Узнайте, как легко вставлять списки номеров на китайском языке в документы Aspose.Note для .NET. Совершенствуйте свои навыки форматирования документов с помощью этого пошагового руководства.
-type: docs
 weight: 20
 url: /ru/net/text-manipulation/insert-chinese-number-list/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Вставить список китайских номеров в текст Aspose.Note
+
 ## Введение
 Вы хотите улучшить свои навыки работы с Aspose.Note для .NET, включив в свои документы списки номеров на китайском языке? Если да, то вы находитесь в правильном месте! В этом уроке мы покажем вам процесс вставки списков номеров на китайском языке с помощью Aspose.Note для .NET. Эта мощная библиотека позволяет вам легко манипулировать документами OneNote.
 ## Предварительные условия
@@ -91,3 +97,9 @@ A: Изучите всестороннее[Документация Aspose.Note]
  О: Получите временную лицензию[здесь](https://purchase.aspose.com/temporary-license/).
 ### Вопрос: Где я могу обратиться за помощью или обсудить вопросы, связанные с Aspose.Note?
  А: Посетите[Форум поддержки Aspose.Note](https://forum.aspose.com/c/note/28) для поддержки сообщества.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

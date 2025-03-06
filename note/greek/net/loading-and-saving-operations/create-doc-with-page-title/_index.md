@@ -3,10 +3,16 @@ title: Δημιουργία εγγράφου με τίτλο σελίδας στ
 linktitle: Δημιουργία εγγράφου με τίτλο σελίδας στο Aspose.Note
 second_title: Aspose.Note .NET API
 description: Μάθετε πώς να δημιουργείτε έγγραφα με σελίδες με τίτλο χρησιμοποιώντας το Aspose.Note για .NET. Ακολουθήστε τον βήμα προς βήμα οδηγό μας για απρόσκοπτη ενσωμάτωση.
-type: docs
 weight: 13
 url: /el/net/loading-and-saving-operations/create-doc-with-page-title/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Δημιουργία εγγράφου με τίτλο σελίδας στο Aspose.Note
+
 ## Εισαγωγή
 
 Σε αυτό το σεμινάριο, θα σας καθοδηγήσουμε στη διαδικασία δημιουργίας ενός εγγράφου με σελίδα τίτλου χρησιμοποιώντας το Aspose.Note για .NET. Το Aspose.Note είναι ένα ισχυρό API που επιτρέπει στους προγραμματιστές να εργάζονται με αρχεία Microsoft OneNote μέσω προγραμματισμού.
@@ -118,3 +124,9 @@ A4: Ναι, μπορείτε να χρησιμοποιήσετε το Aspose.Not
 ### Ε5: Πού μπορώ να βρω υποστήριξη εάν αντιμετωπίσω προβλήματα;
 
  A5: Μπορείτε να βρείτε υποστήριξη και βοήθεια στο[Aspose.Note φόρουμ](https://forum.aspose.com/c/note/28), όπου ειδικοί και μέλη της κοινότητας μπορούν να σας βοηθήσουν με τα ερωτήματά σας.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

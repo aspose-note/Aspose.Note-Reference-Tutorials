@@ -3,10 +3,16 @@ title: Konvertera specifikt sidintervall till PDF i OneNote med Java
 linktitle: Konvertera specifikt sidintervall till PDF i OneNote med Java
 second_title: Aspose.Note Java API
 description: Lär dig hur du konverterar specifika sidintervall från OneNote till PDF sömlöst med Aspose.Note för Java. Bevara formatering och layout utan ansträngning.
-type: docs
 weight: 11
 url: /sv/java/onenote-document-loading/convert-page-range-to-pdf/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Konvertera specifikt sidintervall till PDF i OneNote med Java
+
 ## Introduktion
 
 OneNote är ett kraftfullt verktyg för att organisera anteckningar, men ibland kan du behöva exportera specifika sidintervall till PDF för delning eller arkivering. I den här handledningen guidar vi dig genom processen att konvertera ett specifikt sidintervall till PDF med Aspose.Note för Java.
@@ -85,3 +91,9 @@ S4: Ja, du kan anpassa olika aspekter som sidstorlek, orientering och sidhuvud/s
 ### F5: Stöder Aspose.Note for Java batchkonvertering av flera OneNote-dokument?
 
 S5: Ja, du kan batchkonvertera flera OneNote-dokument till PDF genom att gå igenom varje dokument och tillämpa konverteringsprocessen.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

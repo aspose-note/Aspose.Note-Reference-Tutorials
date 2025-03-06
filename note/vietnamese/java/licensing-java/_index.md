@@ -3,10 +3,16 @@ title: Cấp phép Aspose.Note với Java
 linktitle: Cấp phép Aspose.Note với Java
 second_title: API Java Aspose.Note
 description: Khám phá nghệ thuật quản lý giấy phép có đồng hồ đo cho OneNote trong Java với Aspose.Note. Kiểm soát hiệu quả việc sử dụng, giám sát tín dụng và tối ưu hóa chi phí.
-type: docs
 weight: 24
 url: /vi/java/licensing-java/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Cấp phép Aspose.Note với Java
+
 ## Giới thiệu
 
 Bạn đã sẵn sàng bắt đầu cuộc hành trình vào thế giới Aspose.Note cho Java chưa? Trong hướng dẫn toàn diện này, chúng tôi sẽ đi sâu vào những vấn đề phức tạp trong việc quản lý giấy phép được đo lường cho OneNote trong Java. Hãy cùng khám phá bối cảnh cấp phép với Aspose.Note, làm sáng tỏ những bí ẩn và trang bị cho bạn kiến thức để sử dụng nó một cách hiệu quả.
@@ -40,3 +46,9 @@ Chúc mừng! Bây giờ bạn đã bắt đầu hành trình làm chủ việc 
 ## Cấp phép Aspose.Note với Hướng dẫn Java
 ### [Quản lý giấy phép Metered cho OneNote trong Java](./manage-metered-license/)
 Tìm hiểu cách quản lý giấy phép có đồng hồ đo cho OneNote trong Java bằng thư viện Aspose.Note. Kiểm soát việc sử dụng, giám sát tín dụng và tối ưu hóa chi phí một cách hiệu quả.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

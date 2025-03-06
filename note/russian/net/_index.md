@@ -1,12 +1,17 @@
 ---
 title: Комплексные руководства и примеры Aspose.Note для .NET
 linktitle: Учебные пособия по Aspose.Note для .NET
-type: docs
 weight: 10
 url: /ru/net/
 description: Освойте Aspose.Note для .NET с помощью подробных руководств! Погрузитесь в вложения, гиперссылки, изображения и многое другое. Улучшите возможности манипулирования документами OneNote.
-is_root: true
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Комплексные руководства и примеры Aspose.Note для .NET
+
 ## Введение
 
 Готовы ли вы улучшить свою игру по манипулированию документами OneNote? Aspose.Note для .NET открывает двери в мир возможностей, и мы предоставим вам подробные руководства и примеры. От сложностей лицензирования до сложных манипуляций с текстом — отправляйтесь на путь усовершенствованной разработки документов.
@@ -97,3 +102,9 @@ is_root: true
 Мастер Aspose.Note с управлением тегами. Добавляйте изображения, таблицы, текстовые узлы и создавайте заметки о встречах. Получите подробную информацию о тегах и улучшите манипулирование документами.
 ### [Текстовые манипуляции](./text-manipulation/)
 Преобразуйте свои документы OneNote с помощью Aspose.Note для .NET! Изучите методы манипулирования текстом: от применения маркеров и нумерации до изменения стилей.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

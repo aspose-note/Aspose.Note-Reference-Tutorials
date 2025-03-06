@@ -3,10 +3,16 @@ title: Verwenden von Document Visitor in OneNote mit Java
 linktitle: Verwenden von Document Visitor in OneNote mit Java
 second_title: Aspose.Note Java API
 description: Erfahren Sie, wie Sie den Document Visitor in OneNote mithilfe von Java mit Aspose.Note verwenden. Durchsuchen und bearbeiten Sie OneNote-Dokumente nahtlos.
-type: docs
 weight: 10
 url: /de/java/onenote-document-manipulation/using-document-visitor/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Verwenden von Document Visitor in OneNote mit Java
+
 ## Einführung
 
 In diesem Tutorial erfahren Sie, wie Sie den Document Visitor in OneNote mithilfe von Java mit Aspose.Note verwenden. Document Visitor ermöglicht das Durchlaufen der Elemente eines OneNote-Dokuments und das Durchführen von Vorgängen an ihnen. Wir führen Sie Schritt für Schritt durch den Prozess.
@@ -95,3 +101,9 @@ A1: Ja, Aspose.Note unterstützt verschiedene Programmiersprachen, darunter .NET
 ### F5: Gibt es Dokumentation für Aspose.Note?
 
  A5: Ja, Sie können die Dokumentation finden[Hier](https://reference.aspose.com/note/java/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

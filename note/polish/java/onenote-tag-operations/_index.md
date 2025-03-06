@@ -3,10 +3,16 @@ title: Operacje na tagach programu OneNote
 linktitle: Operacje na tagach programu OneNote
 second_title: Aspose.Note API Java
 description: Odkryj moc Aspose.Note dla Java. Zwiększ komfort korzystania z programu OneNote dzięki przewodnikom krok po kroku dotyczącym operacji na tagach, dodawania obrazów, tabel, węzłów tekstowych i nie tylko.
-type: docs
 weight: 33
 url: /pl/java/onenote-tag-operations/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Operacje na tagach programu OneNote
+
 ## Wstęp
 
 Dowiedz się, jak zoptymalizować działanie OneNote za pomocą Aspose.Note dla Java. Od dodawania nowych węzłów obrazu po dynamiczne węzły tabeli — ta seria samouczków bez wysiłku poprawi Twoje umiejętności programowania w języku Java.
@@ -47,3 +53,9 @@ Dowiedz się, jak dodawać węzły tekstowe ze znacznikami w programie OneNote p
 Usprawnij współpracę z Aspose.Note dla Java! Dowiedz się, jak krok po kroku tworzyć szablony dynamicznych notatek ze spotkań. Pobierz bibliotekę teraz!
 ### [Uzyskaj znaczniki węzłów w programie OneNote — Aspose.Note](./get-node-tags/)
 Odkryj sekrety OneNote z Aspose.Note dla Java. Ten przewodnik umożliwia łatwe wyodrębnianie tagów węzłów. Zanurz się w przyszłość manipulacji dokumentami!
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

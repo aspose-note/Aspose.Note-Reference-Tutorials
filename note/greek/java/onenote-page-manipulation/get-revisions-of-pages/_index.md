@@ -3,10 +3,16 @@ title: Λάβετε αναθεωρήσεις σελίδων στο OneNote - Asp
 linktitle: Λάβετε αναθεωρήσεις σελίδων στο OneNote - Aspose.Note
 second_title: Aspose.Note Java API
 description: Μάθετε πώς να ανακτάτε αναθεωρήσεις σελίδων στα έγγραφα του OneNote χρησιμοποιώντας το Aspose.Note Java. Ενσωματώστε το στις εφαρμογές σας Java για αποτελεσματική διαχείριση εγγράφων.
-type: docs
 weight: 15
 url: /el/java/onenote-page-manipulation/get-revisions-of-pages/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Λάβετε αναθεωρήσεις σελίδων στο OneNote - Aspose.Note
+
 ## Εισαγωγή
 
 Σε αυτό το σεμινάριο, θα εμβαθύνουμε στις δυνατότητες του Aspose.Note για Java, μιας ισχυρής βιβλιοθήκης που σας δίνει τη δυνατότητα να εργάζεστε με αρχεία Microsoft OneNote απρόσκοπτα στις εφαρμογές σας Java. Συγκεκριμένα, θα εστιάσουμε στον τρόπο ανάκτησης αναθεωρήσεων σελίδων σε ένα έγγραφο του OneNote. Μέχρι το τέλος αυτού του οδηγού, θα έχετε τη γνώση για την αποτελεσματική εξαγωγή αναθεωρήσεων σελίδων, συμπεριλαμβανομένων λεπτομερειών όπως ο χρόνος τελευταίας τροποποίησης, ο χρόνος δημιουργίας, ο τίτλος, το επίπεδο και ο συγγραφέας.
@@ -109,3 +115,9 @@ A4: Ναι, απαιτείται έγκυρη άδεια χρήσης για ε�
 ### Ε5: Πού μπορώ να αναζητήσω βοήθεια εάν αντιμετωπίζω προβλήματα ή έχω ερωτήσεις σχετικά με το Aspose.Note για Java;
 
  A5: Για υποστήριξη και βοήθεια, μπορείτε να επισκεφτείτε το φόρουμ Aspose.Note[εδώ](https://forum.aspose.com/c/note/28)όπου μπορείτε να κάνετε ερωτήσεις, να μοιραστείτε εμπειρίες και να αλληλεπιδράσετε με άλλους χρήστες και ειδικούς.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

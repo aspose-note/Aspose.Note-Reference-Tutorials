@@ -3,10 +3,16 @@ title: Wstaw obrazy za pomocą strumienia obrazu w Aspose.Note
 linktitle: Wstaw obrazy za pomocą strumienia obrazu w Aspose.Note
 second_title: Aspose.Note .NET API
 description: Dowiedz się, jak bezproblemowo wstawiać obrazy do dokumentów Aspose.Note przy użyciu strumieni obrazów w .NET. Bez wysiłku ulepszaj swoje pliki Note za pomocą efektów wizualnych.
-type: docs
 weight: 11
 url: /pl/net/images/insert-image-using-image-stream/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Wstaw obrazy za pomocą strumienia obrazu w Aspose.Note
+
 ## Wstęp
 
 tym samouczku omówimy, jak wstawiać obrazy do dokumentu Aspose.Note przy użyciu strumieni obrazów w platformie .NET. Aspose.Note to potężny interfejs API, który umożliwia programistom programową pracę z plikami Microsoft OneNote. Wykonując kroki opisane w tym przewodniku, dowiesz się, jak bezproblemowo zintegrować obrazy z dokumentami Note, poprawiając ich atrakcyjność wizualną i ogólną funkcjonalność.
@@ -120,3 +126,9 @@ O4: Aspose.Note dla .NET jest kompatybilny z wieloma wersjami platformy .NET, za
 ### P5: Gdzie mogę znaleźć dodatkowe zasoby i wsparcie dla Aspose.Note?
 
  O5: Obszerną dokumentację, fora i wsparcie dla Aspose.Note można znaleźć na stronie[Forum Aspose](https://forum.aspose.com/c/note/28).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

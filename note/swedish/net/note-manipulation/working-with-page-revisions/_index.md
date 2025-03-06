@@ -3,10 +3,16 @@ title: Bemästra sidrevisioner i OneNote-dokument
 linktitle: Bemästra sidrevisioner i OneNote-dokument
 second_title: Aspose.Note .NET API
 description: Lär dig hantera Microsoft OneNote-sidrevisioner med Aspose.Note. Steg-för-steg-guide för sömlös integration och versionskontroll i dina .NET-applikationer.
-type: docs
 weight: 20
 url: /sv/net/note-manipulation/working-with-page-revisions/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Bemästra sidrevisioner i OneNote-dokument
+
 ## Introduktion
 
 När det gäller .NET-utveckling framstår Aspose.Note som ett mångsidigt verktyg för att effektivt hantera Microsoft OneNote-filer. En särskilt användbar funktion i Aspose.Note är dess förmåga att hantera sidrevisioner sömlöst. I den här handledningen kommer vi att fördjupa oss i krångligheterna med att arbeta med sidrevisioner med Aspose.Note för .NET.
@@ -112,3 +118,9 @@ S4: Aspose.Note är utformad för att hantera ett betydande antal revisioner eff
 ### F5: Kan jag automatisera processen för att hantera sidrevisioner med Aspose.Note?
 
 S5: Ja, Aspose.Note erbjuder omfattande API:er som gör det möjligt för utvecklare att automatisera uppgifter relaterade till sidrevisioner, vilket effektiviserar arbetsflödesprocesser.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

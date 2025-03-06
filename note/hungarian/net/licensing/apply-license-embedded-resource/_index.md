@@ -3,10 +3,16 @@ title: Alkalmazza az Aspose.Note licencet a beágyazott erőforrásból
 linktitle: Alkalmazza az Aspose.Note licencet a beágyazott erőforrásból
 second_title: Aspose.Note .NET API
 description: Ismerje meg, hogyan alkalmazhat Aspose.Note licencet a .NET-alkalmazás beágyazott erőforrásaiból. Kövesse lépésenkénti útmutatónkat a zökkenőmentes integráció érdekében.
-type: docs
 weight: 10
 url: /hu/net/licensing/apply-license-embedded-resource/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Alkalmazza az Aspose.Note licencet a beágyazott erőforrásból
+
 ## Bevezetés
 
 Az Aspose.Note for .NET egy hatékony API, amely lehetővé teszi a fejlesztők számára, hogy programozottan dolgozzanak Microsoft OneNote fájlokkal. Akár OneNote-dokumentumokat szeretne létrehozni, módosítani vagy konvertálni, az Aspose.Note átfogó szolgáltatáskészletet kínál az Ön igényeinek kielégítésére. Ebben az oktatóanyagban végigvezetjük az Aspose.Note licenc alkalmazásának folyamatát egy beágyazott erőforrásból a .NET-alkalmazásban.
@@ -86,3 +92,9 @@ Ebben az oktatóanyagban bemutattuk az Aspose.Note licenc alkalmazásának folya
 ### 5. kérdés: Hol vásárolhatok Aspose.Note licenceket?
 
  5. válasz: Vásárolhat Aspose.Note licenceket[itt](https://purchase.aspose.com/buy).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

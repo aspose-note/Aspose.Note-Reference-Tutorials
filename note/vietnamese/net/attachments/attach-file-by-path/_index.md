@@ -3,10 +3,16 @@ title: Đính kèm tệp theo đường dẫn trong Aspose.Note
 linktitle: Đính kèm tệp theo đường dẫn trong Aspose.Note
 second_title: Aspose.Note .NET API
 description: Tìm hiểu cách đính kèm tệp vào tài liệu Microsoft OneNote theo chương trình bằng Aspose.Note for .NET. Đơn giản hóa quá trình phát triển của bạn với hướng dẫn toàn diện này.
-type: docs
 weight: 11
 url: /vi/net/attachments/attach-file-by-path/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Đính kèm tệp theo đường dẫn trong Aspose.Note
+
 ## Giới thiệu
 
 Aspose.Note for .NET là một thư viện mạnh mẽ cho phép các nhà phát triển làm việc với các tệp Microsoft OneNote theo chương trình. Cho dù bạn muốn tạo, chỉnh sửa, chuyển đổi hay thao tác với tài liệu OneNote, Aspose.Note for .NET đều cung cấp chức năng toàn diện để hợp lý hóa quy trình phát triển của bạn.
@@ -147,3 +153,9 @@ Câu trả lời 3: Có, bạn cần có giấy phép sử dụng thương mại
 ### Câu hỏi 5: Tôi có thể tìm kiếm sự hỗ trợ cho Aspose.Note dành cho .NET ở đâu?
 
  Câu trả lời 5: Bạn có thể tìm kiếm sự hỗ trợ từ diễn đàn cộng đồng Aspose.Note[đây](https://forum.aspose.com/c/note/28).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -3,10 +3,16 @@ title: Opslaan in TIFF-afbeelding in Aspose.Note
 linktitle: Opslaan in TIFF-afbeelding in Aspose.Note
 second_title: Aspose.Note .NET API
 description: Leer hoe u OneNote-documenten opslaat als TIFF-afbeeldingen met verschillende compressiemethoden met behulp van Aspose.Note voor .NET.
-type: docs
 weight: 27
 url: /nl/net/loading-and-saving-operations/save-to-tiff-image/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Opslaan in TIFF-afbeelding in Aspose.Note
+
 ## Invoering
 
 In deze zelfstudie onderzoeken we hoe u documenten als afbeeldingen in TIFF-indeling kunt opslaan met Aspose.Note voor .NET. Aspose.Note is een krachtige API waarmee ontwikkelaars programmatisch met Microsoft OneNote-bestanden kunnen werken. Het opslaan van OneNote-documenten als TIFF-afbeeldingen kan handig zijn voor verschillende toepassingen, zoals archiveren, delen of afdrukken.
@@ -131,3 +137,9 @@ A4: Ja, u kunt het conversieproces automatiseren met behulp van batchverwerking 
 ### V5: Is er een proefversie beschikbaar voor Aspose.Note?
 
 A5: Ja, u kunt een gratis proefversie van Aspose.Note krijgen[hier](https://releases.aspose.com/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -3,10 +3,16 @@ title: Đẩy phiên bản trang hiện tại vào OneNote - Aspose.Note
 linktitle: Đẩy phiên bản trang hiện tại vào OneNote - Aspose.Note
 second_title: API Java Aspose.Note
 description: Giữ nội dung OneNote luôn mới mẻ! Tìm hiểu cách cập nhật lịch sử trang và quản lý phiên bản, kèm theo hướng dẫn từng bước và mã. #OneNote #Java #Aspose
-type: docs
 weight: 18
 url: /vi/java/onenote-page-manipulation/push-current-page-version/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Đẩy phiên bản trang hiện tại vào OneNote - Aspose.Note
+
 ## Giới thiệu
 
 Trong hướng dẫn này, chúng ta sẽ khám phá cách sử dụng Aspose.Note cho Java để đẩy phiên bản trang hiện tại trong OneNote. Aspose.Note là một thư viện Java mạnh mẽ cho phép các nhà phát triển làm việc với các tài liệu Microsoft OneNote theo chương trình, cho phép thực hiện nhiều thao tác khác nhau như tạo, thao tác và chuyển đổi các tệp OneNote.
@@ -90,3 +96,9 @@ Câu trả lời 4: Có, Aspose.Note for Java hỗ trợ chuyển đổi tệp O
 ### Câu hỏi 5: Tôi có thể nhận hỗ trợ cho Aspose.Note cho Java ở đâu nếu tôi gặp bất kỳ sự cố nào?
 
  A5: Bạn có thể ghé thăm[Diễn đàn Aspose.Note](https://forum.aspose.com/c/note/28) để tìm kiếm sự trợ giúp từ cộng đồng hoặc liên hệ trực tiếp với bộ phận hỗ trợ của Aspose.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

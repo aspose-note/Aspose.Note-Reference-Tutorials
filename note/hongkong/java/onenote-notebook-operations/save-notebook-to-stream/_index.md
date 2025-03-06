@@ -3,10 +3,16 @@ title: 將筆記本儲存到 OneNote 中的串流 - Aspose.Note
 linktitle: 將筆記本儲存到 OneNote 中的串流 - Aspose.Note
 second_title: Aspose.Note Java API
 description: 了解如何使用 Aspose.Note for Java 將筆記本儲存到 OneNote 中的串流。透過高效率的筆記本管理提高工作效率。
-type: docs
 weight: 26
 url: /zh-hant/java/onenote-notebook-operations/save-notebook-to-stream/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# 將筆記本儲存到 OneNote 中的串流 - Aspose.Note
+
 ## 介紹
 
 在本教學中，我們將引導您完成使用 Aspose.Note for Java 將筆記本儲存到 OneNote 中的流的過程。透過執行這些步驟，您將能夠以程式設計方式有效地管理您的筆記本。
@@ -88,3 +94,9 @@ A3：當然！ Aspose.Note for Java 提供無縫整合功能，讓您透過筆�
 ### Q5：Aspose.Note for Java 有試用版嗎？
 
 A5：是的，您可以存取試用版[這裡](https://releases.aspose.com/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

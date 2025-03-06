@@ -3,10 +3,16 @@ title: 在 OneNote 中生成会议笔记模板 - Aspose.Note
 linktitle: 在 OneNote 中生成会议笔记模板 - Aspose.Note
 second_title: Aspose.Note Java API
 description: 与 Aspose.Note for Java 增强协作！了解如何逐步创建动态会议记录模板。立即下载库！
-type: docs
 weight: 14
 url: /zh/java/onenote-tag-operations/generate-template-for-meeting-notes/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# 在 OneNote 中生成会议笔记模板 - Aspose.Note
+
 ## 介绍
 在当今快节奏的世界中，高效的会议组织和记录对于成功协作至关重要。 Aspose.Note for Java 提供了一个强大的解决方案，用于在 OneNote 中生成会议记录模板。在本分步指南中，我们将探索如何使用 Aspose.Note 创建一个模板来捕捉会议的精髓，使记笔记变得轻而易举。
 ## 先决条件
@@ -105,3 +111,9 @@ Aspose.Note 可以与其他 Java 库无缝集成以扩展功能。
 请参阅[Aspose.Note 文档](https://reference.aspose.com/note/java/)了解许可详细信息。
 ### Aspose.Note 有试用版吗？
 是的，您可以访问[在这里免费试用](https://releases.aspose.com/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

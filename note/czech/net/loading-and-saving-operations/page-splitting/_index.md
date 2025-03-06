@@ -3,10 +3,16 @@ title: Rozdělení stránky v Aspose.Note
 linktitle: Rozdělení stránky v Aspose.Note
 second_title: Aspose.Note .NET API
 description: Naučte se, jak efektivně rozdělit stránky v Aspose.Note pro .NET pomocí různých algoritmů. Zajistěte úhlednou organizaci dokumentů OneNotu ve formátu PDF.
-type: docs
 weight: 17
 url: /cs/net/loading-and-saving-operations/page-splitting/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Rozdělení stránky v Aspose.Note
+
 ## Úvod
 
 V tomto tutoriálu prozkoumáme, jak efektivně rozdělit stránky pomocí Aspose.Note pro .NET. Rozdělení stránek je klíčovou funkcí, zejména při práci s dlouhými stránkami OneNotu, které je třeba převést do formátu PDF. Aspose.Note nabízí různé algoritmy pro řízení logiky rozdělení, což zajišťuje, že výsledné soubory PDF jsou dobře organizované a čitelné.
@@ -87,3 +93,9 @@ Odpověď 4: Aspose.Note se primárně zaměřuje na .NET framework, ale lze jej
 ### Q5: Kde mohu získat pomoc, pokud narazím na nějaké problémy?
 
  A5: Můžete požádat o pomoc z fóra komunity Aspose.Note[tady](https://forum.aspose.com/c/note/28).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -3,10 +3,16 @@ title: Aspose.Note で JPEG 画像に保存
 linktitle: Aspose.Note で JPEG 画像に保存
 second_title: Aspose.Note .NET API
 description: Aspose.Note for .NET を使用して、OneNote ドキュメントを JPEG 画像に簡単に保存する方法を学びます。ステップバイステップのガイドが含まれています。
-type: docs
 weight: 25
 url: /ja/net/loading-and-saving-operations/save-to-jpeg-image/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Aspose.Note で JPEG 画像に保存
+
 ## 導入
 
 このチュートリアルでは、Aspose.Note for .NET を利用してドキュメントを JPEG 形式で保存する方法について詳しく説明します。 Aspose.Note は、開発者が Microsoft OneNote ファイルをプログラムで操作できるようにする堅牢なライブラリです。プロセスを段階的にガイドし、各側面を完全に理解できるようにします。
@@ -83,3 +89,9 @@ A3: はい、Aspose.Note は、JPEG、PNG、TIFF などのさまざまな画像�
 ### Q5: 問題が発生した場合、どうすればサポートを受けられますか?
 
  A5: Aspose コミュニティ フォーラムに助けを求めることができます。[ここ](https://forum.aspose.com/c/note/28)、または個別のサポートについてはサポート チームにお問い合わせください。
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

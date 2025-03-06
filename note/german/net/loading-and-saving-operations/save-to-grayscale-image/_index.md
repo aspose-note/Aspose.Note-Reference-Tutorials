@@ -3,10 +3,16 @@ title: In Aspose.Note als Graustufenbild speichern
 linktitle: In Aspose.Note als Graustufenbild speichern
 second_title: Aspose.Note .NET-API
 description: Erfahren Sie, wie Sie OneNote-Dokumente mit Aspose.Note für .NET als Graustufenbilder speichern. Befolgen Sie dieses umfassende Tutorial für eine effiziente Dokumentenverarbeitung.
-type: docs
 weight: 24
 url: /de/net/loading-and-saving-operations/save-to-grayscale-image/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# In Aspose.Note als Graustufenbild speichern
+
 ## Einführung
 
 In diesem Tutorial erfahren Sie, wie Sie Aspose.Note für .NET verwenden, um ein Dokument als Graustufenbild zu speichern. Aspose.Note ist eine leistungsstarke Bibliothek, die es Entwicklern ermöglicht, programmgesteuert mit Microsoft OneNote-Dateien zu arbeiten und eine breite Palette an Funktionalitäten bietet.
@@ -85,3 +91,9 @@ A4: Ja, Sie können Aspose.Note über die kostenlose Testversion auf der Website
 ### F5: Wie kann ich eine temporäre Lizenz für Aspose.Note erhalten?
 
 A5: Sie können eine temporäre Lizenz für Aspose.Note erhalten, indem Sie den bereitgestellten Link besuchen und den Anweisungen folgen.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

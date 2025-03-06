@@ -3,10 +3,16 @@ title: Откат изменений в документах Aspose.Note
 linktitle: Откат изменений в документах Aspose.Note
 second_title: Aspose.Note .NET API
 description: Узнайте, как эффективно управлять изменениями в документах Aspose.Note с помощью Aspose.Note для .NET. Следуйте пошаговому руководству, чтобы легко откатить версии.
-type: docs
 weight: 18
 url: /ru/net/note-manipulation/roll-back-document-revisions/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Откат изменений в документах Aspose.Note
+
 ## Введение
 
 В мире управления и редактирования документов крайне важно иметь возможность отслеживать изменения и беспрепятственно возвращаться к предыдущим версиям. Aspose.Note для .NET предоставляет мощные инструменты для эффективного управления версиями, гарантируя возможность отката изменений при необходимости. В этом уроке мы шаг за шагом углубимся в процесс отката изменений в документах Aspose.Note.
@@ -99,3 +105,9 @@ document.Save(dataDir + "RollBackRevisions_out.one");
 ### Вопрос 5: Предоставляет ли Aspose.Note поддержку, если у меня возникнут какие-либо проблемы в процессе отката?
 
  О5: Да, Aspose предоставляет специальную поддержку на своих форумах. Вы можете посетить[Форум Aspose.Note](https://forum.aspose.com/c/note/28) для оказания помощи.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

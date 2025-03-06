@@ -3,10 +3,16 @@ title: Markera alla senaste ändringar i Aspose.Note-text
 linktitle: Markera alla senaste ändringar i Aspose.Note-text
 second_title: Aspose.Note .NET API
 description: Förbättra dina anteckningsdokument med Aspose.Note för .NET! Lär dig hur du markerar de senaste ändringarna i text med denna steg-för-steg-handledning.
-type: docs
 weight: 19
 url: /sv/net/text-manipulation/highlight-recent-changes/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Markera alla senaste ändringar i Aspose.Note-text
+
 ## Introduktion
 Vill du lägga till dynamiska och visuellt tilltalande funktioner till dina Note-dokument med hjälp av .NET? Aspose.Note för .NET är en kraftfull lösning som låter dig manipulera och förbättra dina Note-filer sömlöst. I den här handledningen kommer vi att dyka in i en specifik aspekt: att markera alla senaste ändringar i Aspose.Note-text.
 ## Förutsättningar
@@ -70,3 +76,9 @@ Du kan införliva försöksfångstblock för att hantera undantag och ge en smid
 Absolut! Aspose.Note tillhandahåller ett brett utbud av funktioner för textformatering, inklusive teckensnitt, storlekar och mer.
 ### Kan jag integrera denna lösning i en webbapplikation?
 Ja, du kan integrera Aspose.Note för .NET i webbapplikationer för att förbättra dokumentbehandlingskapaciteten.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

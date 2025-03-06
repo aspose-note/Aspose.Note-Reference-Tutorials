@@ -3,10 +3,16 @@ title: Aspose Note .NET에서 노트북 만들기
 linktitle: Aspose Note .NET에서 노트북 만들기
 second_title: Aspose.Note .NET API
 description: Aspose Note .NET에서 손쉽게 노트북을 만드는 방법을 알아보세요. 지금 문서 처리 워크플로를 강화하세요.
-type: docs
 weight: 17
 url: /ko/net/notebook-operations/create-notebooks/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Aspose Note .NET에서 노트북 만들기
+
 ## 소개
 
 이 튜토리얼에서는 Aspose.Note for .NET을 사용하여 노트북을 만드는 복잡한 과정을 살펴보겠습니다. Aspose.Note는 개발자가 Microsoft OneNote 파일을 프로그래밍 방식으로 조작할 수 있도록 하는 강력한 라이브러리로, 문서 관리 및 처리 작업을 간소화하는 다양한 기능을 제공합니다.
@@ -99,3 +105,10 @@ A4: 예, Aspose 웹사이트에서 임시 라이선스를 얻을 수 있습니�
  A5: 다음 위치에서 제공되는 설명서를 참조할 수 있습니다.[선적 서류 비치](https://reference.aspose.com/note/net/).
 
 
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -3,10 +3,16 @@ title: Извлечь весь текст в OneNote — Aspose.Note
 linktitle: Извлечь весь текст в OneNote — Aspose.Note
 second_title: Aspose.Note Java API
 description: Узнайте, как извлечь текст из OneNote с помощью Aspose.Note для Java. Подробное руководство с пошаговыми инструкциями по бесшовному извлечению текста.
-type: docs
 weight: 15
 url: /ru/java/onenote-text-manipulation/extract-all-text/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Извлечь весь текст в OneNote — Aspose.Note
+
 ## Введение
 Добро пожаловать в наше пошаговое руководство по извлечению всего текста в OneNote с помощью Aspose.Note для Java. Aspose.Note — это мощная библиотека Java, которая позволяет беспрепятственно работать с файлами Microsoft OneNote. В этом уроке мы сосредоточимся на извлечении текста, предоставив вам подробное описание этого процесса.
 ## Предварительные условия
@@ -66,3 +72,9 @@ System.out.println(text)
 О: Aspose.Note for Java предназначен для эффективной обработки больших файлов OneNote, но слишком большие файлы могут влиять на производительность.
 ### Вопрос: Где я могу найти дополнительную поддержку или обсуждения в сообществе?
  А: Посетите[Форум Aspose.Note](https://forum.aspose.com/c/note/28) за поддержку и обсуждения.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

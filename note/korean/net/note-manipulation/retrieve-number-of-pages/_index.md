@@ -3,10 +3,16 @@ title: Aspose.Note 문서의 페이지 수 검색
 linktitle: Aspose.Note 문서의 페이지 수 검색
 second_title: Aspose.Note .NET API
 description: C#을 사용하여 Aspose.Note 문서의 페이지 수를 계산하는 방법을 알아보세요. 간편한 통합을 위해 단계별 가이드를 따르세요.
-type: docs
 weight: 12
 url: /ko/net/note-manipulation/retrieve-number-of-pages/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Aspose.Note 문서의 페이지 수 검색
+
 ## 소개
 
 Aspose.Note for .NET은 개발자가 Microsoft OneNote 파일을 프로그래밍 방식으로 작업할 수 있는 강력한 라이브러리입니다. OneNote 문서를 생성, 조작 또는 변환해야 하는 경우 Aspose.Note는 작업을 간소화하는 포괄적인 기능을 제공합니다. 이 튜토리얼에서는 필수 작업 중 하나인 C#을 사용하여 Aspose.Note 문서의 페이지 수를 검색하는 방법을 살펴보겠습니다.
@@ -100,3 +106,9 @@ A2: 물론 Aspose.Note는 PDF, HTML, 이미지를 포함한 다양한 형식으�
 ### Q5: Aspose.Note에 대한 기술 지원은 어떻게 받을 수 있나요?
 
  답변 5: 도움을 구하고 커뮤니티에 참여할 수 있습니다.[Aspose.Note 지원 포럼](https://forum.aspose.com/c/note/28).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

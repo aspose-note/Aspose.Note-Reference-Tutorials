@@ -3,10 +3,16 @@ title: Fractionnement de page dans Aspose.Note
 linktitle: Fractionnement de page dans Aspose.Note
 second_title: API Aspose.Note .NET
 description: Découvrez comment diviser efficacement des pages dans Aspose.Note pour .NET à l'aide de différents algorithmes. Assurez une organisation soignée des documents OneNote au format PDF.
-type: docs
 weight: 17
 url: /fr/net/loading-and-saving-operations/page-splitting/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Fractionnement de page dans Aspose.Note
+
 ## Introduction
 
 Dans ce didacticiel, nous explorerons comment diviser efficacement des pages à l'aide d'Aspose.Note pour .NET. Le fractionnement de pages est une fonctionnalité cruciale, en particulier lorsqu'il s'agit de longues pages OneNote qui doivent être converties au format PDF. Aspose.Note propose divers algorithmes pour contrôler la logique de fractionnement, garantissant ainsi que les PDF résultants sont bien organisés et lisibles.
@@ -87,3 +93,9 @@ A4 : Aspose.Note cible principalement le framework .NET, mais il peut être uti
 ### Q5 : Où puis-je obtenir de l'aide si je rencontre des problèmes ?
 
  A5 : Vous pouvez demander de l'aide au forum communautaire Aspose.Note.[ici](https://forum.aspose.com/c/note/28).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

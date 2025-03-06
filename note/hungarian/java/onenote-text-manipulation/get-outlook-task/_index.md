@@ -3,10 +3,16 @@ title: Töltse le az Outlook feladatot a OneNote-ban – Aspose.Note
 linktitle: Töltse le az Outlook feladatot a OneNote-ban – Aspose.Note
 second_title: Aspose.Note Java API
 description: Fedezze fel az Aspose.Note for Java-ban rejlő lehetőségeket az Outlook-feladat részleteinek a OneNote-dokumentumokból történő erőfeszítés nélküli kinyerésében. Emelje fel Java fejlesztését ezzel a robusztus könyvtárral.
-type: docs
 weight: 10
 url: /hu/java/onenote-text-manipulation/get-outlook-task/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Töltse le az Outlook feladatot a OneNote-ban – Aspose.Note
+
 ## Bevezetés
 Üdvözöljük az Aspose.Note for Java világában – egy hatékony eszköz, amellyel a Java fejlesztők zökkenőmentesen dolgozhatnak a Microsoft OneNote fájlokkal. Ebben a lépésenkénti útmutatóban végigvezetjük az Outlook Task információinak a OneNote-dokumentumból való kinyerésének folyamatán az Aspose.Note for Java segítségével.
 ## Előfeltételek
@@ -72,3 +78,9 @@ V: Igen, az Aspose.Note for Java kompatibilis a különböző Java-keretrendszer
  V: Lásd a[Aspose.Note a Java dokumentációhoz](https://reference.aspose.com/note/java/) mélyreható tájékoztatásért.
 ### K: Hogyan szerezhetek ideiglenes licencet az Aspose.Note for Java számára?
  V: Szerezze meg ideiglenes engedélyét[itt](https://purchase.aspose.com/temporary-license/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

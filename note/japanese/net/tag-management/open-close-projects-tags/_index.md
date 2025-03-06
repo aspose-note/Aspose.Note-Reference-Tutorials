@@ -3,10 +3,16 @@ title: Aspose.Note でタグ付きプロジェクトを開いたり閉じたり�
 linktitle: Aspose.Note でタグ付きプロジェクトを開いたり閉じたりする
 second_title: Aspose.Note .NET API
 description: Aspose.Note for .NET を使用して Microsoft OneNote ファイルをプログラムで操作する方法を学びます。タグを使用してプロジェクトを開いたり閉じたりするのを効率的に行います。
-type: docs
 weight: 15
 url: /ja/net/tag-management/open-close-projects-tags/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Aspose.Note でタグ付きプロジェクトを開いたり閉じたりする
+
 ## 導入
 
 このチュートリアルでは、Aspose.Note for .NET を使用して、タグを含むプロジェクトを開いたり閉じたりする方法を学びます。 Aspose.Note は、開発者がプログラムで Microsoft OneNote ファイルを操作できるようにする強力な API で、ドキュメント内のテキスト、画像、タグの操作などのタスクを可能にします。
@@ -112,3 +118,9 @@ A1: Aspose.Note は Microsoft OneNote 2010 以降のバージョンをサポー�
 ### Q5: Aspose.Note のサポートはどこで受けられますか?
 
  A5: サポートが必要な場合は、Aspose.Note にアクセスしてください。[フォーラム](https://forum.aspose.com/c/note/28).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

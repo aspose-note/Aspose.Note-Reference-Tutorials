@@ -3,10 +3,16 @@ title: Thao tác văn bản OneNote
 linktitle: Thao tác văn bản OneNote
 second_title: API Java Aspose.Note
 description: Khám phá các hướng dẫn Java của Aspose.Note về thao tác văn bản OneNote. Khám phá các phương pháp hiệu quả cho các tác vụ như trích xuất văn bản, áp dụng chủ đề, tạo danh sách, v.v.
-type: docs
 weight: 34
 url: /vi/java/onenote-text-manipulation/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Thao tác văn bản OneNote
+
 
 ## Giới thiệu
 
@@ -56,3 +62,9 @@ Tìm hiểu cách thay thế văn bản trên một trang OneNote cụ thể b�
 Khai phá tiềm năng của Aspose.Note dành cho Java! Tìm hiểu cách đặt ngôn ngữ soát lỗi cho văn bản trong OneNote một cách liền mạch với hướng dẫn từng bước của chúng tôi.
 ### [Đặt tiêu đề trang theo kiểu Microsoft OneNote - Aspose.Note](./setting-page-title-in-microsoft-onenote-style/)
 Tìm hiểu cách đặt tiêu đề trang theo kiểu Microsoft OneNote bằng Aspose.Note for Java. Nâng cao tài liệu Java của bạn bằng định dạng chuyên nghiệp.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

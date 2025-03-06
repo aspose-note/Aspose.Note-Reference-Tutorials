@@ -3,10 +3,16 @@ title: أضف عقدة صورة مع علامة في Aspose.Note
 linktitle: أضف عقدة صورة مع علامة في Aspose.Note
 second_title: Aspose.Note .NET API
 description: تعرف على كيفية تحسين مستندات OneNote الخاصة بك عن طريق إضافة صور ذات علامات مخصصة باستخدام Aspose.Note لـ .NET.
-type: docs
 weight: 10
 url: /ar/net/tag-management/add-image-node-tag/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# أضف عقدة صورة مع علامة في Aspose.Note
+
 ## مقدمة
 
 في هذا البرنامج التعليمي، سنستكشف كيفية إضافة عقدة صورة بعلامة باستخدام Aspose.Note لـ .NET. تتيح لك هذه الميزة تحسين مستندات OneNote الخاصة بك عن طريق إضافة صور ذات علامات مخصصة.
@@ -110,3 +116,9 @@ doc.Save(outputFilePath);
 ### س5: هل هناك أي قيود على حجم أو تنسيق الصور التي يمكن إضافتها؟
 
 ج5: يدعم Aspose.Note نطاقًا واسعًا من تنسيقات الصور ولا يفرض أي قيود صارمة على حجم الصورة، مما يسمح لك بدمج عناصر مرئية متنوعة في مستنداتك.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

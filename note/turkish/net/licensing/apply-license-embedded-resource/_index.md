@@ -3,10 +3,16 @@ title: Aspose.Note Lisansını Gömülü Kaynaktan Uygula
 linktitle: Aspose.Note Lisansını Gömülü Kaynaktan Uygula
 second_title: Aspose.Note .NET API'si
 description: Aspose.Note lisansını .NET uygulamanızdaki yerleşik bir kaynaktan nasıl uygulayacağınızı öğrenin. Sorunsuz entegrasyon için adım adım kılavuzumuzu izleyin.
-type: docs
 weight: 10
 url: /tr/net/licensing/apply-license-embedded-resource/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Aspose.Note Lisansını Gömülü Kaynaktan Uygula
+
 ## giriiş
 
 Aspose.Note for .NET, geliştiricilerin Microsoft OneNote dosyalarıyla programlı olarak çalışmasına olanak tanıyan güçlü bir API'dir. OneNote belgeleri oluşturmak, değiştirmek veya dönüştürmek istiyorsanız Aspose.Note ihtiyaçlarınızı karşılayacak kapsamlı özellikler sunar. Bu eğitimde, .NET uygulamanızdaki yerleşik bir kaynaktan Aspose.Note lisansını uygulama sürecini anlatacağız.
@@ -86,3 +92,9 @@ Cevap1: Hayır, Aspose.Note for .NET'i kullanmak için geçerli bir lisansa ihti
 ### S5: Aspose.Note lisanslarını nereden satın alabilirim?
 
  Cevap5: Aspose.Note lisanslarını satın alabilirsiniz[Burada](https://purchase.aspose.com/buy).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

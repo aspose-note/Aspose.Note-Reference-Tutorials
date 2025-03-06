@@ -3,10 +3,16 @@ title: Tải sổ ghi chép từ luồng trong Aspose Note .NET
 linktitle: Tải sổ ghi chép từ luồng trong Aspose Note .NET
 second_title: Aspose.Note .NET API
 description: Tìm hiểu cách tải sổ ghi chép từ một luồng trong Aspose.Note dành cho .NET. Hãy làm theo hướng dẫn từng bước này để tích hợp liền mạch vào các ứng dụng .NET của bạn.
-type: docs
 weight: 19
 url: /vi/net/notebook-operations/load-notebooks-from-stream/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Tải sổ ghi chép từ luồng trong Aspose Note .NET
+
 ## Giới thiệu
 
 Trong hướng dẫn này, chúng ta sẽ khám phá cách tải sổ ghi chép từ luồng bằng Aspose.Note cho .NET. Aspose.Note là một thư viện mạnh mẽ cho phép các nhà phát triển làm việc với các tệp Microsoft OneNote theo chương trình. Tải sổ ghi chép từ một luồng là một tác vụ phổ biến khi xử lý các thao tác nhập/xuất tệp trong ứng dụng .NET.
@@ -92,3 +98,9 @@ Câu trả lời 1: Có, Aspose.Note for .NET hỗ trợ nhiều phiên bản kh
 ### Câu hỏi 5: Có lựa chọn cấp phép tạm thời không?
 
  Câu trả lời 5: Có, bạn có thể xin giấy phép tạm thời từ[đây](https://purchase.aspose.com/temporary-license/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

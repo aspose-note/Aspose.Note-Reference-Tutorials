@@ -3,10 +3,16 @@ title: Convert Notebook to Flattened PDF in OneNote - Aspose.Note
 linktitle: Convert Notebook to Flattened PDF in OneNote - Aspose.Note
 second_title: Aspose.Note Java API
 description: Convert notebooks to flattened PDFs effortlessly with Aspose.Note for Java. Enjoy seamless integration and customization options.
-type: docs
 weight: 16
 url: /java/onenote-notebook-operations/convert-notebook-to-flattened-pdf/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Convert Notebook to Flattened PDF in OneNote - Aspose.Note
+
 ## Introduction
 
 In this tutorial, we'll explore how to convert a notebook to a flattened PDF format using Aspose.Note for Java. Converting notebooks to PDFs is a common requirement for many applications, and Aspose.Note simplifies this process with its comprehensive set of features and easy-to-use API.
@@ -82,3 +88,10 @@ A4: Yes, you can access a free trial of Aspose.Note for Java from [here](https:/
 ### Q5: Where can I find support for Aspose.Note for Java?
 
 A5: You can find support and assistance for Aspose.Note for Java on the [Aspose.Note forum](https://forum.aspose.com/c/note/28).
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

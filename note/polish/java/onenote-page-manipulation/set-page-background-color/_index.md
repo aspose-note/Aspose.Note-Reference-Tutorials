@@ -3,10 +3,16 @@ title: Ustaw kolor tła strony w programie OneNote — Aspose.Note
 linktitle: Ustaw kolor tła strony w programie OneNote — Aspose.Note
 second_title: Aspose.Note API Java
 description: Dowiedz się, jak bez wysiłku ustawić kolor tła strony w OneNote, korzystając z Aspose.Note dla Java. Zwiększ atrakcyjność wizualną swoich dokumentów dzięki temu prostemu samouczkowi.
-type: docs
 weight: 20
 url: /pl/java/onenote-page-manipulation/set-page-background-color/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Ustaw kolor tła strony w programie OneNote — Aspose.Note
+
 ## Wstęp
 
 W tym samouczku zagłębimy się w proces ustawiania koloru tła strony w OneNote przy użyciu Aspose.Note dla Java. Aspose.Note to potężna biblioteka Java, która umożliwia programistom programowe manipulowanie dokumentami OneNote. Zmiana koloru tła strony może poprawić atrakcyjność wizualną dokumentów programu OneNote, czyniąc je bardziej atrakcyjnymi i zorganizowanymi.
@@ -100,3 +106,9 @@ A4: Oczywiście! Możesz skorzystać z bezpłatnej wersji próbnej Aspose.Note, 
 ### P5: Gdzie mogę znaleźć dodatkowe wsparcie lub pomoc dotyczącą Aspose.Note?
 
 O5: W przypadku jakichkolwiek pytań lub pomocy możesz odwiedzić forum Aspose.Note lub skontaktować się z ich zespołem pomocy technicznej w celu uzyskania szybkiej pomocy.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

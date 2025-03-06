@@ -3,10 +3,16 @@ title: Módosítsa az oldalcímstílust az Aspose.Note-ban
 linktitle: Módosítsa az oldalcímstílust az Aspose.Note-ban
 second_title: Aspose.Note .NET API
 description: Alakítsa át .NET-dokumentumait az Aspose.Note segítségével! Tanulja meg könnyedén változtatni az oldalcímstílusokat. Növelje az esztétikát néhány egyszerű lépésben.
-type: docs
 weight: 13
 url: /hu/net/text-manipulation/change-page-title-style/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Módosítsa az oldalcímstílust az Aspose.Note-ban
+
 ## Bevezetés
 Dinamikus oldalcímstílussal szeretné emelni .NET-dokumentumai vizuális vonzerejét? Az Aspose.Note for .NET zökkenőmentes megoldást kínál, amely lehetővé teszi az oldalcímek stílusának könnyed megváltoztatását. Ebben az oktatóanyagban lépésről lépésre végigvezetjük a folyamaton, így biztosítva, hogy gond nélkül javíthassa dokumentumai esztétikáját.
 ## Előfeltételek
@@ -70,3 +76,9 @@ Gratulálunk! Sikeresen megtanulta, hogyan módosíthatja az oldalcímstílusoka
  Vásárolhat licencet az Aspose.Note számára[itt](https://purchase.aspose.com/buy).
 ### Szükségem van ideiglenes licencre tesztelés céljából?
  Igen, ha teszteli az Aspose.Note-ot, szerezhet ideiglenes licencet[itt](https://purchase.aspose.com/temporary-license/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

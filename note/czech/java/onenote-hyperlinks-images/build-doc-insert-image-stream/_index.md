@@ -3,10 +3,16 @@ title: Sestavte dokument a vložte obrázek pomocí streamu ve OneNotu - Java
 linktitle: Sestavte dokument a vložte obrázek pomocí streamu ve OneNotu - Java
 second_title: Aspose.Note Java API
 description: Naučte se, jak bez námahy integrovat obrázky do dokumentů OneNotu pomocí Aspose.Note pro Java. Výukový program krok za krokem pro vývojáře v jazyce Java.
-type: docs
 weight: 13
 url: /cs/java/onenote-hyperlinks-images/build-doc-insert-image-stream/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Sestavte dokument a vložte obrázek pomocí streamu ve OneNotu - Java
+
 ## Úvod
 
 Vítejte v našem komplexním kurzu o používání Aspose.Note pro Java k vytváření dokumentů a vkládání obrázků pomocí proudů obrázků ve OneNotu! V tomto tutoriálu vás provedeme procesem krok za krokem a zajistíme, že budete jasně rozumět každé fázi. Na konci budete moci bez námahy integrovat obrázky do dokumentů OneNotu pomocí Javy.
@@ -180,3 +186,10 @@ Odpověď 4: Prostřednictvím uvedených odkazů můžete přistupovat k dokume
 ### Q5: Je k dispozici zkušební verze pro Aspose.Note pro Java?
 
 Odpověď 5: Ano, můžete získat bezplatnou zkušební verzi Aspose.Note pro Java, abyste prozkoumali její funkce a možnosti před rozhodnutím o nákupu.
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

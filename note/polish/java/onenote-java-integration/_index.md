@@ -3,10 +3,16 @@ title: Integracja z Javą OneNote
 linktitle: Integracja z Javą OneNote
 second_title: Aspose.Note API Java
 description: Wzbogać swoje doświadczenie OneNote dzięki Aspose.Note Java! Zapoznaj się z samouczkami dotyczącymi dołączania plików, ustawiania ikon i programowego pobierania załączników przy użyciu języka Java.
-type: docs
 weight: 20
 url: /pl/java/onenote-java-integration/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Integracja z Javą OneNote
+
 ## Wstęp
 
 Witamy w naszym obszernym przewodniku na temat integracji programu OneNote z Javą przy użyciu Aspose.Note. Niezależnie od tego, czy jesteś doświadczonym programistą, czy dopiero zaczynasz, te samouczki pozwolą Ci zmaksymalizować programowo możliwości programu OneNote.
@@ -36,3 +42,9 @@ Dowiedz się, jak dołączać pliki i ustawiać ikony w programie OneNote przy u
 Dowiedz się, jak programowo dołączać pliki do notatek programu OneNote przy użyciu języka Java z Aspose.Note.
 ### [Pobierz załącznik z programu OneNote przy użyciu języka Java](./retrieve-attachment/)
 Dowiedz się, jak pobierać załączniki z programu OneNote przy użyciu języka Java z Aspose.Note, potężnym interfejsem API umożliwiającym bezproblemową manipulację dokumentami.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

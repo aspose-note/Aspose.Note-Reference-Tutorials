@@ -3,10 +3,16 @@ title: Applica la numerazione al testo in Aspose.Note
 linktitle: Applica la numerazione al testo in Aspose.Note
 second_title: Aspose.Note API .NET
 description: Scopri come applicare la numerazione del testo in Aspose.Note per .NET con questo tutorial completo. Migliora la formattazione dei tuoi documenti senza sforzo.
-type: docs
 weight: 12
 url: /it/net/text-manipulation/apply-numbering-on-text/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Applica la numerazione al testo in Aspose.Note
+
 ## introduzione
 Aspose.Note per .NET fornisce potenti strumenti per la manipolazione dei documenti nelle applicazioni C#. In questo tutorial esploreremo il processo di applicazione della numerazione sul testo utilizzando Aspose.Note. Segui queste istruzioni passo passo per migliorare la formattazione del tuo documento senza sforzo.
 ## Prerequisiti
@@ -81,3 +87,9 @@ Assolutamente! Aspose.Note si integra perfettamente con Visual Studio per un'esp
  Certamente! Puoi esplorare una prova gratuita[Qui](https://releases.aspose.com/).
 ### 5. Dove posso ottenere supporto per Aspose.Note?
  Per qualsiasi assistenza o domanda, visitare il[Forum Aspose.Note](https://forum.aspose.com/c/note/28).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

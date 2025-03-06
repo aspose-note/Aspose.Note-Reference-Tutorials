@@ -3,10 +3,16 @@ title: Отправить текущую версию страницы в OneNot
 linktitle: Отправить текущую версию страницы в OneNote — Aspose.Note
 second_title: Aspose.Note Java API
 description: Поддерживайте актуальность содержимого OneNote! Узнайте, как обновлять историю страниц и управлять версиями, включая пошаговое руководство и код. #OneNote #Java #Aspose
-type: docs
 weight: 18
 url: /ru/java/onenote-page-manipulation/push-current-page-version/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Отправить текущую версию страницы в OneNote — Aspose.Note
+
 ## Введение
 
 В этом руководстве мы рассмотрим, как использовать Aspose.Note для Java для отправки текущей версии страницы в OneNote. Aspose.Note — это мощная библиотека Java, которая позволяет разработчикам программно работать с документами Microsoft OneNote, выполняя различные операции, такие как создание, управление и преобразование файлов OneNote.
@@ -90,3 +96,9 @@ document.save(dataDir + "PushCurrentPageVersion_out.one");
 ### Вопрос 5. Где я могу получить поддержку Aspose.Note для Java, если у меня возникнут какие-либо проблемы?
 
  A5: Вы можете посетить[Форум Aspose.Note](https://forum.aspose.com/c/note/28) обратиться за помощью к сообществу или напрямую обратиться в службу поддержки Aspose.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

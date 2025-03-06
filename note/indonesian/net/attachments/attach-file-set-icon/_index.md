@@ -3,10 +3,16 @@ title: Lampirkan File dan Atur Ikon di Aspose.Note
 linktitle: Lampirkan File dan Atur Ikon di Aspose.Note
 second_title: Aspose.Catatan .NET API
 description: Pelajari cara melampirkan file dan mengatur ikon di Aspose.Note untuk .NET. Tingkatkan aplikasi .NET Anda dengan tutorial langkah demi langkah ini.
-type: docs
 weight: 10
 url: /id/net/attachments/attach-file-set-icon/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Lampirkan File dan Atur Ikon di Aspose.Note
+
 ## Perkenalan
 
 Dalam bidang pengembangan .NET, Aspose.Note menonjol sebagai alat yang ampuh untuk memanipulasi dokumen Microsoft OneNote secara terprogram. Dengan memanfaatkan kemampuannya, pengembang dapat mengotomatiskan berbagai tugas terkait pembuatan, pengeditan, dan pengelolaan file OneNote dalam aplikasi mereka. Salah satu fitur penting adalah kemampuan untuk melampirkan file ke catatan dan mengatur ikon untuk lampiran tersebut. Dalam tutorial ini, kita akan mempelajari proses melampirkan file dan mengatur ikon menggunakan Aspose.Note untuk .NET.
@@ -125,3 +131,9 @@ A4: Aspose.Note terutama berkaitan dengan file yang disimpan secara lokal atau d
 ### Q5: Apakah ada batasan ukuran lampiran file di Aspose.Note untuk .NET?
 
 A5: Aspose.Note tidak menerapkan batasan ukuran spesifik untuk lampiran file, namun batasan praktis mungkin berlaku berdasarkan sumber daya sistem dan pertimbangan kinerja.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -3,10 +3,16 @@ title: Outlook-taak ophalen in OneNote - Aspose.Note
 linktitle: Outlook-taak ophalen in OneNote - Aspose.Note
 second_title: Aspose.Note Java-API
 description: Ontdek het potentieel van Aspose.Note voor Java bij het moeiteloos extraheren van Outlook-taakdetails uit OneNote-documenten. Verbeter uw Java-ontwikkeling met deze robuuste bibliotheek.
-type: docs
 weight: 10
 url: /nl/java/onenote-text-manipulation/get-outlook-task/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Outlook-taak ophalen in OneNote - Aspose.Note
+
 ## Invoering
 Welkom in de wereld van Aspose.Note voor Java – een krachtige tool waarmee Java-ontwikkelaars naadloos kunnen werken met Microsoft OneNote-bestanden. In deze stapsgewijze handleiding leiden we u door het proces van het extraheren van Outlook-taakgegevens uit een OneNote-document met behulp van Aspose.Note voor Java.
 ## Vereisten
@@ -72,3 +78,9 @@ A: Ja, Aspose.Note voor Java is compatibel met verschillende Java-frameworks en 
  A: Raadpleeg de[Aspose.Note voor Java-documentatie](https://reference.aspose.com/note/java/) voor diepgaande informatie.
 ### Vraag: Hoe verkrijg ik een tijdelijke licentie voor Aspose.Note voor Java?
  A: Haal uw tijdelijke licentie op[hier](https://purchase.aspose.com/temporary-license/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

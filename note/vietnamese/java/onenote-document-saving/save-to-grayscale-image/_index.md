@@ -3,10 +3,16 @@ title: Lưu vào hình ảnh thang độ xám trong OneNote - Aspose.Note
 linktitle: Lưu vào hình ảnh thang độ xám trong OneNote - Aspose.Note
 second_title: API Java Aspose.Note
 description: Tìm hiểu cách lưu tài liệu dưới dạng hình ảnh thang độ xám trong OneNote bằng Aspose.Note for Java. Dễ dàng thao tác với tài liệu Microsoft OneNote theo chương trình.
-type: docs
 weight: 17
 url: /vi/java/onenote-document-saving/save-to-grayscale-image/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Lưu vào hình ảnh thang độ xám trong OneNote - Aspose.Note
+
 ## Giới thiệu
 
 Trong hướng dẫn này, chúng ta sẽ khám phá cách lưu tài liệu dưới dạng hình ảnh thang độ xám trong OneNote bằng Aspose.Note cho Java. Hình ảnh thang độ xám là hình ảnh đơn sắc trong đó thông tin màu sắc chỉ được thể hiện bằng các sắc thái của màu xám. Aspose.Note là một API Java mạnh mẽ cho phép thao tác các tài liệu Microsoft OneNote theo chương trình.
@@ -83,3 +89,9 @@ A4: Chắc chắn rồi! Aspose.Note cung cấp nhiều tính năng để chỉn
 ### Câu hỏi 5: Tôi có thể tìm hỗ trợ ở đâu nếu gặp sự cố?
 
 Câu trả lời 5: Bạn có thể tìm thấy sự hỗ trợ trên diễn đàn Aspose.Note[đây](https://forum.aspose.com/c/note/28).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

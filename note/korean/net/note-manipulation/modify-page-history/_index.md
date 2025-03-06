@@ -3,10 +3,16 @@ title: Aspose.Note에서 페이지 기록 수정
 linktitle: Aspose.Note에서 페이지 기록 수정
 second_title: Aspose.Note .NET API
 description: 이 포괄적인 튜토리얼을 사용하여 .NET용 Aspose.Note에서 페이지 기록을 수정하는 방법을 알아보세요. 문서 처리 능력을 손쉽게 향상시켜 보세요.
-type: docs
 weight: 15
 url: /ko/net/note-manipulation/modify-page-history/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Aspose.Note에서 페이지 기록 수정
+
 ## 소개
 
 문서 처리 영역에서 .NET용 Aspose.Note는 개발자가 OneNote 파일을 쉽게 조작할 수 있는 강력한 도구로 등장합니다. 개발자가 직면하는 일반적인 작업 중 하나는 Aspose.Note 문서 내에서 페이지 기록을 수정하는 것입니다. 이 튜토리얼에서는 .NET용 Aspose.Note를 사용하여 페이지 기록을 효과적으로 변경하는 데 필요한 네임스페이스, 전제 조건 및 코드 조각을 안내하면서 프로세스를 단계별로 설명합니다.
@@ -94,3 +100,10 @@ A4: 예, 개발자는 .NET용 Aspose.Note 전용 Aspose 지원 포럼에서 지�
 ### Q5: 구매하기 전에 .NET용 Aspose.Note를 사용해 볼 수 있나요?
 
 A5: 물론 개발자는 .NET용 Aspose.Note의 무료 평가판을 사용하여 프로젝트에 대한 기능과 적합성을 평가할 수 있습니다.
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

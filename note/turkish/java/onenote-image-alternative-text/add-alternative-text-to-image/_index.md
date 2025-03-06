@@ -3,10 +3,16 @@ title: Java kullanarak OneNote'ta Resme Alternatif Metin Ekleme
 linktitle: Java kullanarak OneNote'ta Resme Alternatif Metin Ekleme
 second_title: Aspose.Note Java API'si
 description: Aspose.Note ile Java kullanarak, erişilebilirliği ve kapsayıcılığı geliştirerek OneNote belgelerindeki görsellere nasıl alternatif metin ekleyeceğinizi öğrenin.
-type: docs
 weight: 10
 url: /tr/java/onenote-image-alternative-text/add-alternative-text-to-image/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Java kullanarak OneNote'ta Resme Alternatif Metin Ekleme
+
 ## giriiş
 
 Bu eğitimde, OneNote belgelerindeki görsellere alternatif metin eklemek için Aspose.Note for Java'nın kullanımına ilişkin kapsamlı bir kılavuzu inceleyeceğiz. Alternatif metin, görüntülerin metinsel bir açıklaması olarak hizmet eder ve ekran okuyucu kullananlar gibi görüntüleri doğrudan göremeyen kişiler için erişilebilirliğe ve anlamaya yardımcı olur. Bu öğreticiyi izleyerek, Java programlama dilini kullanarak alternatif metni OneNote belgelerinize nasıl sorunsuz bir şekilde entegre edeceğinizi öğreneceksiniz.
@@ -131,3 +137,9 @@ Cevap4: Evet, Aspose.Note .NET, C dahil birden fazla programlama dili için mevc
 ### S5: Aspose.Note'un deneme sürümü mevcut mu?
 
  Cevap5: Evet, Aspose.Note'un ücretsiz deneme sürümünden yararlanabilirsiniz.[Burada](https://releases.aspose.com/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

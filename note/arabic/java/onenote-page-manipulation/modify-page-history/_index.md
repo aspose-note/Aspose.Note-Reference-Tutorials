@@ -3,10 +3,16 @@ title: تعديل محفوظات الصفحة في OneNote - Aspose.Note
 linktitle: تعديل محفوظات الصفحة في OneNote - Aspose.Note
 second_title: Aspose.Note جافا API
 description: حذف وتعديل وإضافة إدخالات سجل الصفحة بسلاسة! دليل خطوة بخطوة والتعليمات البرمجية لإتقان OneNote باستخدام Aspose.Note. #OneNote #Java #Aspose
-type: docs
 weight: 17
 url: /ar/java/onenote-page-manipulation/modify-page-history/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# تعديل محفوظات الصفحة في OneNote - Aspose.Note
+
 ## مقدمة
 
 في هذا البرنامج التعليمي، سوف نتعمق في استخدام Aspose.Note لـ Java لتعديل سجل الصفحات في مستندات OneNote. Aspose.Note عبارة عن واجهة برمجة تطبيقات Java قوية تتيح للمطورين العمل بسلاسة مع ملفات OneNote، مما يتيح عمليات متنوعة مثل إنشاء هذه الملفات وقراءتها وتعديلها برمجيًا.
@@ -108,3 +114,10 @@ document.save(dataDir + "ModifyPageHistory_out.one");
 ### س5: هل يوجد منتدى مجتمعي لـ Aspose.Note لـ Java حيث يمكنني طلب المساعدة؟
 
  ج5: نعم، يمكنك زيارة[منتدى Aspose.Note](https://forum.aspose.com/c/note/28) لأية مساعدة أو استفسارات تتعلق بالمكتبة.
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

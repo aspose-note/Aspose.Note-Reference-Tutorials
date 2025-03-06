@@ -3,10 +3,16 @@ title: ใช้สิทธิ์การใช้งาน Aspose.Note จา
 linktitle: ใช้สิทธิ์การใช้งาน Aspose.Note จากทรัพยากรที่ฝังตัว
 second_title: Aspose.Note .NET API
 description: เรียนรู้วิธีใช้ใบอนุญาต Aspose.Note จากทรัพยากรที่ฝังอยู่ในแอปพลิเคชัน .NET ของคุณ ปฏิบัติตามคำแนะนำทีละขั้นตอนของเราเพื่อการบูรณาการที่ราบรื่น
-type: docs
 weight: 10
 url: /th/net/licensing/apply-license-embedded-resource/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# ใช้สิทธิ์การใช้งาน Aspose.Note จากทรัพยากรที่ฝังตัว
+
 ## การแนะนำ
 
 Aspose.Note สำหรับ .NET เป็น API ที่ทรงพลังที่ช่วยให้นักพัฒนาสามารถทำงานกับไฟล์ Microsoft OneNote โดยทางโปรแกรม ไม่ว่าคุณกำลังมองหาการสร้าง แก้ไข หรือแปลงเอกสาร OneNote Aspose.Note มีชุดคุณลักษณะที่ครอบคลุมเพื่อตอบสนองความต้องการของคุณ ในบทช่วยสอนนี้ เราจะอธิบายขั้นตอนการปรับใช้ใบอนุญาต Aspose.Note จากทรัพยากรที่ฝังอยู่ในแอปพลิเคชัน .NET ของคุณ
@@ -86,3 +92,9 @@ A1: ไม่ คุณต้องมีใบอนุญาตที่ถู
 ### คำถามที่ 5: ฉันจะซื้อสิทธิ์การใช้งาน Aspose.Note ได้ที่ไหน
 
  A5: คุณสามารถซื้อใบอนุญาต Aspose.Note ได้[ที่นี่](https://purchase.aspose.com/buy).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

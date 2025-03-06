@@ -3,10 +3,16 @@ title: Uložit do obrázku ve stupních šedi v Aspose.Note
 linktitle: Uložit do obrázku ve stupních šedi v Aspose.Note
 second_title: Aspose.Note .NET API
 description: Přečtěte si, jak uložit dokumenty OneNotu jako obrázky ve stupních šedi pomocí Aspose.Note pro .NET. Postupujte podle tohoto komplexního návodu pro efektivní zpracování dokumentů.
-type: docs
 weight: 24
 url: /cs/net/loading-and-saving-operations/save-to-grayscale-image/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Uložit do obrázku ve stupních šedi v Aspose.Note
+
 ## Úvod
 
 V tomto tutoriálu prozkoumáme, jak využít Aspose.Note pro .NET k uložení dokumentu jako obrázku ve stupních šedi. Aspose.Note je výkonná knihovna, která umožňuje vývojářům pracovat se soubory Microsoft OneNote programově a poskytuje širokou škálu funkcí.
@@ -85,3 +91,9 @@ A4: Ano, můžete prozkoumat Aspose.Note prostřednictvím bezplatné zkušební
 ### Q5: Jak mohu získat dočasnou licenci pro Aspose.Note?
 
 Odpověď 5: Dočasnou licenci pro Aspose.Note můžete získat tak, že navštívíte poskytnutý odkaz a budete postupovat podle pokynů.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -3,10 +3,16 @@ title: Opslaan in binaire afbeelding in Aspose.Note
 linktitle: Opslaan in binaire afbeelding in Aspose.Note
 second_title: Aspose.Note .NET API
 description: Leer hoe u documenten naar binaire afbeeldingen converteert met Aspose.Note voor .NET. Volg onze stapsgewijze handleiding voor een naadloze integratie.
-type: docs
 weight: 22
 url: /nl/net/loading-and-saving-operations/save-to-binary-image/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Opslaan in binaire afbeelding in Aspose.Note
+
 ## Invoering
 
 In deze zelfstudie onderzoeken we hoe u een document kunt opslaan in een binaire afbeelding met Aspose.Note voor .NET. Bij dit proces wordt een document omgezet in een zwart-witafbeelding met een vaste drempel, wat handig kan zijn voor verschillende toepassingen.
@@ -97,3 +103,9 @@ A4: Ja, u kunt meerdere documenten doorlopen en deze opslaan als binaire afbeeld
 ### V5: Waar kan ik meer bronnen en ondersteuning voor Aspose.Note vinden?
 
  A5: U kunt de verkennen[Aspose.Note-documentatie](https://reference.aspose.com/note/net/)en hulp zoeken bij de[Aspose.Note-forum](https://forum.aspose.com/c/note/28) voor eventuele vragen of problemen.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

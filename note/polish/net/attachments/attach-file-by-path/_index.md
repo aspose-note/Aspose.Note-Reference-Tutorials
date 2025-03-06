@@ -3,10 +3,16 @@ title: Dołącz plik według ścieżki w Aspose.Note
 linktitle: Dołącz plik według ścieżki w Aspose.Note
 second_title: Aspose.Note .NET API
 description: Dowiedz się, jak programowo dołączać pliki do dokumentów Microsoft OneNote przy użyciu Aspose.Note dla .NET. Uprość proces programowania dzięki temu wszechstronnemu samouczkowi.
-type: docs
 weight: 11
 url: /pl/net/attachments/attach-file-by-path/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Dołącz plik według ścieżki w Aspose.Note
+
 ## Wstęp
 
 Aspose.Note dla .NET to potężna biblioteka, która umożliwia programistom programową pracę z plikami Microsoft OneNote. Niezależnie od tego, czy chcesz tworzyć, edytować, konwertować czy manipulować dokumentami OneNote, Aspose.Note dla .NET zapewnia wszechstronną funkcjonalność usprawniającą proces programowania.
@@ -147,3 +153,9 @@ Odpowiedź 3: Tak, musisz nabyć licencję na komercyjne wykorzystanie Aspose.No
 ### P5: Gdzie mogę szukać wsparcia dla Aspose.Note dla .NET?
 
  Odpowiedź 5: Możesz szukać pomocy na forach społeczności Aspose.Note[Tutaj](https://forum.aspose.com/c/note/28).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

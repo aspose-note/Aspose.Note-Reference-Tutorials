@@ -3,10 +3,16 @@ title: File Attachments and Retrieval in OneNote documents
 linktitle: Attachments
 second_title: Aspose.Note .NET API
 description: Boost your .NET applications with Aspose.Note! Explore tutorials on attaching files, setting icons, and retrieving attachments for enhanced development.
-type: docs
 weight: 21
 url: /net/attachments/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# File Attachments and Retrieval in OneNote documents
+
 ## Introduction
 
 Are you ready to take your .NET applications to the next level? Dive into the world of Aspose.Note and unlock a realm of possibilities. This comprehensive tutorial listing will guide you through key features, focusing on attaching files, setting icons, and retrieving attached files seamlessly.
@@ -37,3 +43,9 @@ Learn how to attach files and set icons in Aspose.Note for .NET. Enhance your .N
 Learn how to attach files to Microsoft OneNote documents programmatically using Aspose.Note for .NET. Simplify your development process with this comprehensive tutorial.
 ### [Retrieve Attached Files with Aspose.Note](./retrieve-attached-files/)
 Learn how to retrieve attached files from Microsoft OneNote documents using Aspose.Note for .NET. Follow steps to load, get nodes, and iterate through attachments.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

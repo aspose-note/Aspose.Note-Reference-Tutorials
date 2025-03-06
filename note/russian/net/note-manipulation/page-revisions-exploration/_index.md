@@ -3,10 +3,16 @@ title: Изучите версии страниц в документах Aspose
 linktitle: Изучите версии страниц в документах Aspose.Note
 second_title: Aspose.Note .NET API
 description: Узнайте, как исследовать версии страниц в документах Aspose.Note с помощью .NET Framework, с пошаговыми инструкциями.
-type: docs
 weight: 14
 url: /ru/net/note-manipulation/page-revisions-exploration/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Изучите версии страниц в документах Aspose.Note
+
 ## Введение
 
 В этом руководстве мы углубимся в изучение редакций страниц в документах Aspose.Note с использованием платформы .NET. Aspose.Note — это мощная библиотека, которая позволяет разработчикам программно работать с файлами Microsoft OneNote, предлагая различные функции для управления и извлечения данных из этих файлов.
@@ -88,3 +94,9 @@ A2: Aspose.Note поддерживает историю загрузки для 
 ### Вопрос 5: Где я могу найти поддержку Aspose.Note для .NET?
 
  О5: Вы можете найти поддержку и ресурсы на[Форум Aspose.Note](https://forum.aspose.com/c/note/28).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

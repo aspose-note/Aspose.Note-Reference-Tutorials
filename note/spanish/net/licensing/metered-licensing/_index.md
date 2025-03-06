@@ -3,10 +3,16 @@ title: Licencias medidas con Aspose.Note
 linktitle: Licencias medidas con Aspose.Note
 second_title: Aspose.Nota .NET API
 description: Aprenda a administrar de manera eficiente las licencias de software con Aspose.Note para .NET mediante licencias medidas. Optimice el uso de recursos y controle los costos de manera efectiva.
-type: docs
 weight: 13
 url: /es/net/licensing/metered-licensing/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Licencias medidas con Aspose.Note
+
 ## Introducción
 
 En el ámbito del desarrollo de software, administrar licencias de manera eficiente es crucial, especialmente cuando se trata de productos como Aspose.Note para .NET. Las licencias medidas son un método que proporciona a los desarrolladores mayor flexibilidad y control sobre el uso de su software, permitiéndoles monitorear y administrar el consumo de recursos de manera efectiva. En este tutorial, profundizaremos en las complejidades de las licencias medidas con Aspose.Note para .NET, desglosando cada paso para garantizar una comprensión integral.
@@ -89,3 +95,9 @@ R4: Las licencias medidas pueden tener ciertas limitaciones según los términos
 ### P5: ¿Las licencias medidas son adecuadas para todo tipo de aplicaciones de software?
 
 R5: Si bien las licencias medidas pueden ser beneficiosas para muchas aplicaciones de software, su idoneidad depende de factores como los patrones de uso y las consideraciones de costos.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -3,10 +3,16 @@ title: Geef opslagopties op in Aspose.Note
 linktitle: Geef opslagopties op in Aspose.Note
 second_title: Aspose.Note .NET API
 description: Leer hoe u opslagopties kunt opgeven in Aspose.Note voor .NET om het uitvoerformaat en de kwaliteit van OneNote-documenten aan te passen.
-type: docs
 weight: 30
 url: /nl/net/loading-and-saving-operations/specify-save-options/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Geef opslagopties op in Aspose.Note
+
 ## Invoering
 
 Op het gebied van .NET-ontwikkeling onderscheidt Aspose.Note zich als een krachtig hulpmiddel voor het werken met OneNote-documenten. Het biedt een uitgebreide reeks functies om deze bestanden efficiënt te manipuleren en beheren. Een cruciaal aspect van het werken met Aspose.Note is het specificeren van opslagopties, waarmee ontwikkelaars het uitvoerformaat en de kwaliteit kunnen aanpassen aan hun vereisten.
@@ -94,3 +100,9 @@ A4: Aspose.Note is ontworpen voor het verwerken van OneNote-documenten van versc
 ### V5: Biedt Aspose.Note ondersteuning en assistentie voor ontwikkelaars die problemen ondervinden?
 
 A5: Ja, ontwikkelaars kunnen hulp en assistentie zoeken bij het Aspose.Note-ondersteuningsteam via het forum of door rechtstreeks contact op te nemen met Aspose voor een tijdige oplossing van eventuele problemen of vragen.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

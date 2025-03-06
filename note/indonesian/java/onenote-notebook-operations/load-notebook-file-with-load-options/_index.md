@@ -3,10 +3,16 @@ title: Muat File Notebook dengan Opsi Muat di OneNote - Aspose.Note
 linktitle: Muat File Notebook dengan Opsi Muat di OneNote - Aspose.Note
 second_title: Aspose.Catatan Java API
 description: Pelajari cara menggunakan Aspose.Note untuk Java untuk memanipulasi file OneNote secara terprogram. Mulailah dengan tutorial komprehensif kami sekarang.
-type: docs
 weight: 20
 url: /id/java/onenote-notebook-operations/load-notebook-file-with-load-options/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Muat File Notebook dengan Opsi Muat di OneNote - Aspose.Note
+
 ## Perkenalan
 
 Aspose.Note untuk Java adalah perpustakaan canggih yang memungkinkan pengembang bekerja dengan file Microsoft OneNote secara terprogram. Baik Anda ingin membuat, memanipulasi, atau mengonversi dokumen OneNote, Aspose.Note untuk Java menyediakan alat yang diperlukan untuk menyederhanakan alur kerja Anda. Dalam tutorial ini, kita akan mempelajari cara memulai Aspose.Note untuk Java, mencakup prasyarat, mengimpor paket, dan memecah contoh menjadi langkah-langkah yang mudah diikuti.
@@ -94,3 +100,9 @@ A1: Ya, Aspose.Note untuk Java mendukung berbagai versi file OneNote, termasuk f
 ### Q5: Apakah saya memerlukan lisensi sementara untuk menggunakan Aspose.Note untuk Java?
 
  A5: Jika Anda mengevaluasi produk, Anda bisa mendapatkan lisensi sementara[Di Sini](https://purchase.aspose.com/temporary-license/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -3,10 +3,16 @@ title: Ładowanie notatnika w programie OneNote — Aspose.Note
 linktitle: Ładowanie notatnika w programie OneNote — Aspose.Note
 second_title: Aspose.Note API Java
 description: Opanuj notatniki OneNote w Javie! Naucz się ładować, eksplorować i przetwarzać zawartość — od dokumentów po podnotatniki. Łatwe kroki i kod w zestawie! #OneNote #Java #Aspose
-type: docs
 weight: 19
 url: /pl/java/onenote-notebook-operations/loading-notebook/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Ładowanie notatnika w programie OneNote — Aspose.Note
+
 ## Wstęp
 
 Witamy w naszym samouczku dotyczącym używania Aspose.Note dla Java do pracy z notatnikami OneNote. Aspose.Note to potężna biblioteka Java, która umożliwia programistom programowe tworzenie, manipulowanie i konwertowanie dokumentów OneNote. W tym samouczku przeprowadzimy Cię przez proces ładowania notatnika do programu OneNote przy użyciu programu Aspose.Note dla języka Java.
@@ -98,3 +104,9 @@ Odpowiedź 3: Tak, musisz kupić licencję do użytku komercyjnego. Możesz jedn
 ### P5: Czy mogę uzyskać tymczasową licencję do celów testowych?
 
  Odpowiedź 5: Tak, możesz poprosić o licencję tymczasową[Tutaj](https://purchase.aspose.com/temporary-license/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -3,10 +3,16 @@ title: Java를 사용하여 OneNote의 이미지에 하이퍼링크 추가
 linktitle: Java를 사용하여 OneNote의 이미지에 하이퍼링크 추가
 second_title: Aspose.Note 자바 API
 description: OneNote 문서를 대화형으로 만드세요! Aspose.Note를 사용하여 Java의 이미지에 하이퍼링크를 추가하는 방법을 알아보세요. 쉬운 단계 및 코드 예제가 포함되어 있습니다! #OneNote #Java #Aspose
-type: docs
 weight: 11
 url: /ko/java/onenote-hyperlinks-images/add-hyperlink-to-image/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Java를 사용하여 OneNote의 이미지에 하이퍼링크 추가
+
 ## 소개
 
 이 자습서에서는 Java를 사용하여 OneNote의 이미지에 하이퍼링크를 추가하는 방법을 살펴보겠습니다. 하이퍼링크 이미지는 문서의 상호 작용성과 유용성을 크게 향상시켜 사용자가 간단한 클릭만으로 관련 콘텐츠나 외부 리소스에 쉽게 액세스할 수 있도록 해줍니다.
@@ -97,3 +103,9 @@ A3: 예, Java의 스타일 옵션에 Aspose.Note를 사용하여 하이퍼링크
 ### Q5: Java용 Aspose.Note는 OneNote 외에 다른 문서 형식을 지원합니까?
 
 A5: 예, Aspose.Note for Java는 PDF, HTML 및 이미지 형식을 포함한 다양한 문서 형식을 지원합니다.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

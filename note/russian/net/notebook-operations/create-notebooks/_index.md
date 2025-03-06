@@ -3,10 +3,16 @@ title: Создание блокнотов в Aspose Note .NET
 linktitle: Создание блокнотов в Aspose Note .NET
 second_title: Aspose.Note .NET API
 description: Узнайте, как легко создавать блокноты в Aspose Note .NET. Ускорьте рабочие процессы обработки документов прямо сейчас.
-type: docs
 weight: 17
 url: /ru/net/notebook-operations/create-notebooks/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Создание блокнотов в Aspose Note .NET
+
 ## Введение
 
 В этом уроке мы углубимся в тонкости создания блокнотов с помощью Aspose.Note для .NET. Aspose.Note — это мощная библиотека, которая позволяет разработчикам программно манипулировать файлами Microsoft OneNote, предлагая широкий спектр функций для оптимизации управления документами и задач обработки.
@@ -99,3 +105,10 @@ Console.WriteLine("\nNotebook created successfully.\nFile saved at " + dataDir);
  A5: Вы можете обратиться к документации, доступной по адресу:[Документация](https://reference.aspose.com/note/net/).
 
 
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

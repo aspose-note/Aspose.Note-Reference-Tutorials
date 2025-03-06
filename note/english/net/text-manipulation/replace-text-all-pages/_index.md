@@ -3,10 +3,16 @@ title: Replace Text on All Pages in Aspose.Note
 linktitle: Replace Text on All Pages in Aspose.Note
 second_title: Aspose.Note .NET API
 description: Unlock the potential of Aspose.Note for .NET with our step-by-step guide on replacing text across all pages. Streamline document processing effortlessly.
-type: docs
 weight: 21
 url: /net/text-manipulation/replace-text-all-pages/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Replace Text on All Pages in Aspose.Note
+
 In the dynamic landscape of .NET development, Aspose.Note stands out as a powerful tool for manipulating and managing documents effortlessly. In this comprehensive guide, we'll explore the intricacies of replacing text on all pages using Aspose.Note for .NET. Whether you are a seasoned developer or just starting your journey, follow along as we break down each step to harness the full potential of this versatile library.
 ## Introduction: Embracing the Aspose.Note Advantage
 Aspose.Note for .NET empowers developers to handle OneNote files with ease. The ability to replace text on all pages opens up a myriad of possibilities for enhancing and customizing documents. In this tutorial, we will delve into the process of replacing text efficiently, enabling you to streamline your document processing workflow.
@@ -80,3 +86,9 @@ A: Join the Aspose.Note community [forum](https://forum.aspose.com/c/note/28) fo
 A: Visit the [documentation](https://reference.aspose.com/note/net/) for in-depth resources and tutorials.
 ### Q: Can I use Aspose.Note for commercial projects?
 A: Yes, explore licensing options and make purchases [here](https://purchase.aspose.com/buy).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

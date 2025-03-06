@@ -3,10 +3,16 @@ title: Thay thế văn bản trên tất cả các trang trong OneNote - Aspose.
 linktitle: Thay thế văn bản trên tất cả các trang trong OneNote - Aspose.Note
 second_title: API Java Aspose.Note
 description: Khám phá sức mạnh của Aspose.Note dành cho Java! Tìm hiểu cách thay thế văn bản trên tất cả các trang trong OneNote một cách dễ dàng. Thực hiện theo hướng dẫn từng bước của chúng tôi để thao tác tài liệu liền mạch.
-type: docs
 weight: 20
 url: /vi/java/onenote-text-manipulation/replace-text-on-all-pages/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Thay thế văn bản trên tất cả các trang trong OneNote - Aspose.Note
+
 ## Giới thiệu
 Chào mừng bạn đến với hướng dẫn toàn diện này về cách sử dụng Aspose.Note for Java để thay thế văn bản trên tất cả các trang trong OneNote. Nếu bạn đang tìm cách cập nhật và sắp xếp các tài liệu OneNote của mình một cách hiệu quả thì bạn đã đến đúng nơi. Trong hướng dẫn từng bước này, chúng tôi sẽ hướng dẫn bạn thực hiện quy trình, đảm bảo bạn hiểu rõ từng bước trong suốt quá trình.
 ## Điều kiện tiên quyết
@@ -80,3 +86,9 @@ Aspose.Note chủ yếu hỗ trợ các tệp Microsoft OneNote, nhưng Aspose c
  Tài liệu có sẵn[đây](https://reference.aspose.com/note/java/).
 ### Câu hỏi: Tôi có thể mua Aspose.Note cho Java không? 
  Có, bạn có thể mua Aspose.Note cho Java[đây](https://purchase.aspose.com/buy).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

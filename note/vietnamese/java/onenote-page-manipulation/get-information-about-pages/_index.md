@@ -3,10 +3,16 @@ title: Nhận thông tin về các trang trong OneNote - Aspose.Note
 linktitle: Nhận thông tin về các trang trong OneNote - Aspose.Note
 second_title: API Java Aspose.Note
 description: Khám phá bí mật trang trong tài liệu OneNote của bạn! Trích xuất các bản sửa đổi, thời gian tạo và hơn thế nữa với Aspose.Note. Bao gồm hướng dẫn từng bước và mã! #OneNote #Java #Aspose
-type: docs
 weight: 12
 url: /vi/java/onenote-page-manipulation/get-information-about-pages/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Nhận thông tin về các trang trong OneNote - Aspose.Note
+
 ## Giới thiệu
 
 Trong hướng dẫn này, chúng tôi sẽ hướng dẫn bạn quy trình trích xuất thông tin về các trang trong OneNote bằng Aspose.Note for Java. Aspose.Note là một API mạnh mẽ cho phép bạn làm việc với các tài liệu Microsoft OneNote theo chương trình. Cho dù bạn cần truy cập các bản sửa đổi trang, thời gian tạo, tiêu đề hoặc tác giả, Aspose.Note sẽ đơn giản hóa tác vụ bằng giao diện trực quan của nó.
@@ -90,3 +96,9 @@ Câu trả lời 4: Có, Aspose cung cấp hỗ trợ kỹ thuật chuyên dụn
 ### Câu hỏi 5: Có phiên bản dùng thử cho Aspose.Note cho Java không?
 
  Câu trả lời 5: Có, bạn có thể tải xuống phiên bản dùng thử miễn phí của Aspose.Note dành cho Java từ[đây](https://releases.aspose.com/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -3,10 +3,16 @@ title: العمل مع اللغات المحلية في OneNote - Aspose.Note
 linktitle: العمل مع اللغات المحلية في OneNote - Aspose.Note
 second_title: Aspose.Note جافا API
 description: الاستفادة من قوة Aspose.Note للعمل مع لغات OneNote المحلية! استخراج التقارير ومعالجتها وإنشاءها خصيصًا للغات والمناطق المختلفة. #OneNote #Java #Aspose
-type: docs
 weight: 10
 url: /ar/java/onenote-notebook-operations/working-with-locales/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# العمل مع اللغات المحلية في OneNote - Aspose.Note
+
 ## مقدمة
 
 في مجال تطوير Java، يبرز Aspose.Note كأداة قوية للعمل مع ملفات OneNote. سواء كنت تهدف إلى استخراج المعلومات، أو معالجة المحتوى، أو إنشاء التقارير، فإن Aspose.Note يوفر مجموعة واسعة من الميزات لتبسيط سير عملك. في هذا البرنامج التعليمي، سوف نتعمق في جانب واحد محدد: العمل مع اللغات المحلية في OneNote باستخدام Aspose.Note لـ Java.
@@ -99,3 +105,9 @@ oneFile.save("sample.png");
 ### س5: هل يمكنني تجربة Aspose.Note قبل الشراء؟
 
 ج5: بالتأكيد، يمكنك استكشاف إمكانيات Aspose.Note من خلال الاستفادة من النسخة التجريبية المجانية المقدمة على الموقع الإلكتروني.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

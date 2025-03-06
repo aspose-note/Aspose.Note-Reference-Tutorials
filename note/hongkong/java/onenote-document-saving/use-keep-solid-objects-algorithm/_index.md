@@ -3,10 +3,16 @@ title: 在 OneNote 中使用保留實體物件演算法 - Aspose.Note
 linktitle: 在 OneNote 中使用保留實體物件演算法 - Aspose.Note
 second_title: Aspose.Note Java API
 description: 了解如何在使用 Java 中的保留實體物件演算法轉換為 PDF 時保留 Aspose.Note 文件中的實體物件。
-type: docs
 weight: 25
 url: /zh-hant/java/onenote-document-saving/use-keep-solid-objects-algorithm/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# 在 OneNote 中使用保留實體物件演算法 - Aspose.Note
+
 ## 介紹
 
 在本教學中，我們將探討如何在 Aspose.Note for Java 中使用保留實體物件演算法。此演算法對於在將文件轉換為 PDF 格式時保持文件中實體物件的完整性非常重要。我們將逐步分解該過程，確保每個階段的清晰度和理解性。
@@ -93,3 +99,10 @@ doc.save(outputFile);
 ### Q5：哪裡可以購買許可證？
 
  A5：您可以購買 Aspose.Note for Java 的許可證[這裡](https://purchase.aspose.com/buy).
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

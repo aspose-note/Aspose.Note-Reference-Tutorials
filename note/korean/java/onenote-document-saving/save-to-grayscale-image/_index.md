@@ -3,10 +3,16 @@ title: OneNote에서 회색조 이미지로 저장 - Aspose.Note
 linktitle: OneNote에서 회색조 이미지로 저장 - Aspose.Note
 second_title: Aspose.Note 자바 API
 description: Java용 Aspose.Note를 사용하여 OneNote에서 문서를 회색조 이미지로 저장하는 방법을 알아보세요. 프로그래밍 방식으로 Microsoft OneNote 문서를 쉽게 조작할 수 있습니다.
-type: docs
 weight: 17
 url: /ko/java/onenote-document-saving/save-to-grayscale-image/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# OneNote에서 회색조 이미지로 저장 - Aspose.Note
+
 ## 소개
 
 이 튜토리얼에서는 Java용 Aspose.Note를 사용하여 OneNote에서 문서를 회색조 이미지로 저장하는 방법을 살펴보겠습니다. 회색조 이미지는 색상 정보가 회색 음영으로만 표현되는 단색 이미지입니다. Aspose.Note는 Microsoft OneNote 문서를 프로그래밍 방식으로 조작할 수 있는 강력한 Java API입니다.
@@ -83,3 +89,9 @@ A4: 물론이죠! Aspose.Note는 OneNote 문서를 프로그래밍 방식으로 
 ### Q5: 문제가 발생하면 어디서 지원을 받을 수 있나요?
 
 A5: Aspose.Note 포럼에서 지원을 찾을 수 있습니다.[여기](https://forum.aspose.com/c/note/28).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

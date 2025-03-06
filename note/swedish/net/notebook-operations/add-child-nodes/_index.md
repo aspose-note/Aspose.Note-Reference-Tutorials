@@ -3,10 +3,16 @@ title: Lägg till underordnade noder i Aspose Note .NET
 linktitle: Lägg till underordnade noder i Aspose Note .NET
 second_title: Aspose.Note .NET API
 description: Lär dig hur du lägger till underordnade noder i Aspose Note .NET utan ansträngning med denna omfattande handledning. Öka dina färdigheter i dokumenthantering nu.
-type: docs
 weight: 10
 url: /sv/net/notebook-operations/add-child-nodes/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Lägg till underordnade noder i Aspose Note .NET
+
 ## Introduktion
 
 den här handledningen kommer vi att lära oss hur du lägger till underordnade noder i Aspose Note .NET. Att lägga till underordnade noder är en grundläggande operation när man arbetar med dokument, och Aspose Note .NET ger ett enkelt sätt att utföra denna uppgift.
@@ -89,3 +95,9 @@ Grattis! Du har framgångsrikt lärt dig hur du lägger till underordnade noder 
 ### F5: Kommer Aspose.Note för .NET med dokumentation?
 
  A5: Ja, du kan hitta detaljerad dokumentation[här](https://reference.aspose.com/note/net/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

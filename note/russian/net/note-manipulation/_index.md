@@ -3,10 +3,16 @@ title: Освоение интеграции OneNote с Aspose.Note для .NET
 linktitle: Манипуляции с нотами
 second_title: Aspose.Note .NET API
 description: Раскройте возможности Aspose.Note для .NET с помощью наших руководств, ориентированных на OneNote. Разрешайте конфликты, создавайте динамические документы и изучайте эффективные манипуляции со страницами.
-type: docs
 weight: 27
 url: /ru/net/note-manipulation/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Освоение интеграции OneNote с Aspose.Note для .NET
+
 
 ## Введение
 
@@ -69,3 +75,9 @@ url: /ru/net/note-manipulation/
 Узнайте, как установить цвет фона страниц в документах Aspose.Note с помощью языка программирования C#, с пошаговым руководством.
 ### [Работа с редакциями страниц — советы Aspose.Note](./working-with-page-revisions/)
 Научитесь управлять версиями страниц Microsoft OneNote с помощью Aspose.Note. Пошаговое руководство по плавной интеграции и контролю версий в ваших приложениях .NET.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

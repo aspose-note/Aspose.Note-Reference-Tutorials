@@ -3,10 +3,16 @@ title: Java를 사용하여 OneNote에서 특정 페이지 범위를 PDF로 변�
 linktitle: Java를 사용하여 OneNote에서 특정 페이지 범위를 PDF로 변환
 second_title: Aspose.Note 자바 API
 description: Java용 Aspose.Note를 사용하여 OneNote의 특정 페이지 범위를 PDF로 원활하게 변환하는 방법을 알아보세요. 서식과 레이아웃을 손쉽게 유지하세요.
-type: docs
 weight: 11
 url: /ko/java/onenote-document-loading/convert-page-range-to-pdf/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Java를 사용하여 OneNote에서 특정 페이지 범위를 PDF로 변환
+
 ## 소개
 
 OneNote는 노트를 정리하는 강력한 도구이지만 때로는 공유 또는 보관 목적으로 특정 페이지 범위를 PDF로 내보내야 할 수도 있습니다. 이 튜토리얼에서는 Aspose.Note for Java를 사용하여 특정 페이지 범위를 PDF로 변환하는 과정을 안내합니다.
@@ -85,3 +91,9 @@ A4: 예, Aspose.Note의 PDF 저장 옵션을 사용하여 페이지 크기, 방�
 ### Q5: Java용 Aspose.Note는 여러 OneNote 문서의 일괄 변환을 지원합니까?
 
 A5: 예, 각 문서를 반복하고 변환 프로세스를 적용하여 여러 OneNote 문서를 PDF로 일괄 변환할 수 있습니다.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

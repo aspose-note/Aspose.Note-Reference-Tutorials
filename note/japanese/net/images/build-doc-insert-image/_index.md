@@ -3,10 +3,16 @@ title: ドキュメントを構築し、Aspose.Note に画像を挿入する
 linktitle: ドキュメントを構築し、Aspose.Note に画像を挿入する
 second_title: Aspose.Note .NET API
 description: Aspose.Note for .NET を使用してプログラムで OneNote ドキュメントに画像を挿入する方法を学びます。シームレスなドキュメント操作のための簡単な手順。
-type: docs
 weight: 10
 url: /ja/net/images/build-doc-insert-image/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# ドキュメントを構築し、Aspose.Note に画像を挿入する
+
 ## 導入
 
 このチュートリアルでは、Aspose.Note for .NET を使用したドキュメント操作の世界を詳しく説明します。 Aspose.Note は、開発者が Microsoft OneNote ファイルをプログラムで操作できるようにする強力な API で、ドキュメントの作成、変更、変換などのタスクを簡単に実行できるようにします。 
@@ -150,3 +156,9 @@ A4: はい。Aspose.Note には、配置、サイズ、回転など、画像の�
 ### Q5: Aspose.Note for .NET の追加リソースとサポートはどこで入手できますか?
 
  A5: Aspose.Note のドキュメントを参照してください。[ここ](https://reference.aspose.com/note/net/) Aspose コミュニティ フォーラムに支援を求めてください[ここ](https://forum.aspose.com/c/note/28).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

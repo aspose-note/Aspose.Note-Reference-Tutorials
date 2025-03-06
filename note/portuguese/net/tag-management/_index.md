@@ -3,10 +3,16 @@ title: Tutoriais de gerenciamento de tags Aspose.Note para .NET
 linktitle: Gerenciamento de tags
 second_title: API Aspose.Note .NET
 description: Domine Aspose.Note com gerenciamento de tags. Adicione imagens, tabelas, nós de texto e gere notas de reuniões. Recupere detalhes de tags e aprimore a manipulação de documentos.
-type: docs
 weight: 30
 url: /pt/net/tag-management/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Tutoriais de gerenciamento de tags Aspose.Note para .NET
+
 
 ## Introdução
 
@@ -49,3 +55,9 @@ Aprenda como recuperar detalhes de tags de documentos Aspose.Note usando .NET. G
 Aprenda como manipular arquivos do Microsoft OneNote programaticamente usando Aspose.Note for .NET. Abra e feche projetos com tags de forma eficiente.
 ### [Relatórios com tags em Aspose.Note](./reporting-tags/)
 Aprenda como gerar relatórios criteriosos a partir de documentos digitais usando Aspose.Note for .NET. Guia passo a passo fornecido.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

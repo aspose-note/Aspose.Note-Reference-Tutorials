@@ -3,10 +3,16 @@ title: Manipulace s dokumenty OneNote pomocí Aspose.Note pro .NET
 linktitle: Operace načítání a ukládání
 second_title: Aspose.Note .NET API
 description: Odemkněte sílu Aspose.Note pro .NET! Ponořte se do našich výukových programů, kde najdete podrobné pokyny k snadnému načítání, ukládání a manipulaci s dokumenty OneNotu.
-type: docs
 weight: 25
 url: /cs/net/loading-and-saving-operations/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Manipulace s dokumenty OneNote pomocí Aspose.Note pro .NET
+
 
 ## Úvod
 
@@ -80,3 +86,9 @@ Naučte se, jak uložit dokument s výchozím nastavením v Aspose.Note pro .NET
 Zjistěte, jak určit možnosti uložení v Aspose.Note pro .NET a přizpůsobit výstupní formát a kvalitu dokumentů OneNotu.
 ### [Uživatelská zpětná volání v Aspose.Note](./user-saving-callbacks/)
 Zjistěte, jak implementovat zpětná volání šetřící uživatele v Aspose.Note pro .NET, abyste přizpůsobili ukládání písem, CSS a obrázků.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

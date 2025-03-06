@@ -3,10 +3,16 @@ title: Új képcsomópont hozzáadása címkével a OneNote-ban – Aspose.Note
 linktitle: Új képcsomópont hozzáadása címkével a OneNote-ban – Aspose.Note
 second_title: Aspose.Note Java API
 description: Ismerje meg, hogyan adhat hozzá új képcsomópontot címkével a OneNote-ban az Aspose.Note for Java használatával. Fejlessze Java programozási készségeit könnyedén.
-type: docs
 weight: 10
 url: /hu/java/onenote-tag-operations/add-new-image-node-with-tag/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Új képcsomópont hozzáadása címkével a OneNote-ban – Aspose.Note
+
 ## Bevezetés
 Java programozás területén az Aspose.Note hatékony eszköz a OneNote dokumentumok egyszerű kezeléséhez. Ha fejleszteni szeretné készségeit, és megtanulja, hogyan adhat hozzá új képcsomópontot címkével a OneNote-ban az Aspose.Note segítségével, akkor jó helyen jár. Ez a lépésenkénti útmutató végigvezeti Önt a folyamaton, biztosítva, hogy minden koncepciót alaposan megértsen.
 ## Előfeltételek
@@ -96,3 +102,9 @@ Gratulálunk! Sikeresen hozzáadott egy új képcsomópontot címkével a OneNot
  Látogassa meg a közösségi fórumot[itt](https://forum.aspose.com/c/note/28) támogatásért.
 ### Szükségem van ideiglenes engedélyre?
  Igény esetén ideiglenes engedélyt kaphat[itt](https://purchase.aspose.com/temporary-license/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

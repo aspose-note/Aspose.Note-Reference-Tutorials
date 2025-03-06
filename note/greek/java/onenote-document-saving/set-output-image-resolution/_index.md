@@ -3,10 +3,16 @@ title: Ορισμός ανάλυσης εικόνας εξόδου στο OneNot
 linktitle: Ορισμός ανάλυσης εικόνας εξόδου στο OneNote - Aspose.Note
 second_title: Aspose.Note Java API
 description: Μάθετε πώς να προσαρμόζετε την ανάλυση εικόνας σε έγγραφα OneNote χρησιμοποιώντας το Aspose.Note για Java. Ακολουθήστε τον βήμα προς βήμα οδηγό μας για εύκολη εφαρμογή
-type: docs
 weight: 23
 url: /el/java/onenote-document-saving/set-output-image-resolution/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Ορισμός ανάλυσης εικόνας εξόδου στο OneNote - Aspose.Note
+
 ## Εισαγωγή
 
 Θέλετε να χειριστείτε την ανάλυση των εικόνων στα έγγραφά σας OneNote χρησιμοποιώντας Java; Το Aspose.Note για Java προσφέρει μια ισχυρή λύση για τέτοιες εργασίες. Σε αυτό το σεμινάριο, θα ακολουθήσουμε τα βήματα για να ορίσετε την ανάλυση εικόνας εξόδου χρησιμοποιώντας το Aspose.Note.
@@ -88,3 +94,9 @@ A4: Ναι, το Aspose.Note παρέχει ολοκληρωμένες δυνα�
 ### Ε5: Πού μπορώ να λάβω υποστήριξη για ερωτήματα που σχετίζονται με το Aspose.Note;
 
  A5: Μπορείτε να ζητήσετε βοήθεια από το φόρουμ κοινότητας Aspose.Note[εδώ](https://forum.aspose.com/c/note/28).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

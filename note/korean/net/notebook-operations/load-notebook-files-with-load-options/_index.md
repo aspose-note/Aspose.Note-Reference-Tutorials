@@ -3,10 +3,16 @@ title: Aspose Note .NET의 로드 옵션을 사용하여 노트북 파일 로드
 linktitle: Aspose Note .NET의 로드 옵션을 사용하여 노트북 파일 로드
 second_title: Aspose.Note .NET API
 description: .NET용 Aspose.Note를 사용하여 로드 옵션으로 노트북 파일을 로드하는 방법을 알아보세요. 노트북 데이터를 효율적으로 처리하기 위해 이 기능을 .NET 애플리케이션에 원활하게 통합합니다.
-type: docs
 weight: 20
 url: /ko/net/notebook-operations/load-notebook-files-with-load-options/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Aspose Note .NET의 로드 옵션을 사용하여 노트북 파일 로드
+
 ## 소개
 
 이 튜토리얼에서는 Aspose.Note for .NET을 사용하여 로드 옵션이 있는 노트북 파일을 로드하는 복잡한 과정을 살펴보겠습니다. Aspose.Note는 개발자가 프로그래밍 방식으로 Microsoft OneNote 파일을 사용하여 노트북 데이터를 원활하게 통합하고 효율적으로 처리할 수 있도록 하는 강력한 API입니다.
@@ -94,3 +100,9 @@ A2: 예, 다음에서 .NET용 Aspose.Note 무료 평가판을 이용할 수 있�
 ### Q5: Aspose.Note for .NET과 관련된 문제가 발생하거나 문의사항이 있는 경우 어디서 도움을 받을 수 있나요?
 
  A5: Aspose.Note 포럼을 방문할 수 있습니다.[여기](https://forum.aspose.com/c/note/28) 지원을 구하고, 질문하고, 동료 개발자 및 전문가와 소통할 수 있습니다.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -3,10 +3,16 @@ title: Chuyển đổi phạm vi trang cụ thể sang PDF trong OneNote bằng 
 linktitle: Chuyển đổi phạm vi trang cụ thể sang PDF trong OneNote bằng Java
 second_title: API Java Aspose.Note
 description: Tìm hiểu cách chuyển đổi liền mạch các phạm vi trang cụ thể từ OneNote sang PDF bằng Aspose.Note for Java. Giữ nguyên định dạng và bố cục một cách dễ dàng.
-type: docs
 weight: 11
 url: /vi/java/onenote-document-loading/convert-page-range-to-pdf/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Chuyển đổi phạm vi trang cụ thể sang PDF trong OneNote bằng Java
+
 ## Giới thiệu
 
 OneNote là một công cụ mạnh mẽ để sắp xếp ghi chú nhưng đôi khi bạn có thể cần xuất các phạm vi trang cụ thể sang PDF cho mục đích chia sẻ hoặc lưu trữ. Trong hướng dẫn này, chúng tôi sẽ hướng dẫn bạn quy trình chuyển đổi một phạm vi trang cụ thể sang PDF bằng Aspose.Note for Java.
@@ -85,3 +91,9 @@ Câu trả lời 4: Có, bạn có thể tùy chỉnh các khía cạnh khác nh
 ### Câu hỏi 5: Aspose.Note for Java có hỗ trợ chuyển đổi hàng loạt nhiều tài liệu OneNote không?
 
 A5: Có, bạn có thể chuyển đổi hàng loạt nhiều tài liệu OneNote sang PDF bằng cách lặp qua từng tài liệu và áp dụng quy trình chuyển đổi.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

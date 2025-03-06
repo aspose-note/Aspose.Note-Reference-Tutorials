@@ -3,10 +3,16 @@ title: Utwórz dokument ze sformatowanym tekstem w Aspose.Note
 linktitle: Utwórz dokument ze sformatowanym tekstem w Aspose.Note
 second_title: Aspose.Note .NET API
 description: Dowiedz się, jak programowo tworzyć dokumenty tekstowe przy użyciu Aspose.Note dla .NET. Przewodnik krok po kroku z przykładami kodu.
-type: docs
 weight: 12
 url: /pl/net/loading-and-saving-operations/create-doc-with-rich-text/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Utwórz dokument ze sformatowanym tekstem w Aspose.Note
+
 ## Wstęp
 
 W dziedzinie programowania .NET Aspose.Note wyróżnia się jako potężne narzędzie do programowej obsługi plików Microsoft OneNote. Niezależnie od tego, czy chcesz zautomatyzować tworzenie dokumentów, czy manipulować istniejącymi notatkami, Aspose.Note zapewnia programistom kompleksowy zestaw funkcji. Wśród tych możliwości znajduje się możliwość generowania dokumentów tekstowych z różnymi opcjami formatowania. W tym samouczku zagłębimy się w proces tworzenia takich dokumentów krok po kroku za pomocą Aspose.Note dla .NET.
@@ -170,3 +176,9 @@ Odpowiedź 4: Aspose.Note koncentruje się głównie na lokalnym przetwarzaniu d
 ### P5: Gdzie mogę znaleźć więcej zasobów i wsparcia dla Aspose.Note?
 
  Odpowiedź 5: Możesz eksplorować[Forum Aspose.Note](https://forum.aspose.com/c/note/28) w celu uzyskania wsparcia społeczności i uzyskania dostępu do dokumentacji na stronie[strona internetowa](https://reference.aspose.com/note/net/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -3,10 +3,16 @@ title: OneNote'taki Seçeneklerle Not Defterini PDF'ye Dönüştürme - Aspose.N
 linktitle: OneNote'taki Seçeneklerle Not Defterini PDF'ye Dönüştürme - Aspose.Note
 second_title: Aspose.Note Java API'si
 description: OneNote not defterlerini kolaylıkla özelleştirin ve PDF'ye aktarın! Aspose.Note for Java ağır yükün üstesinden gelir. Adım adım kılavuz dahil! #OneNote #Java #Aspose
-type: docs
 weight: 17
 url: /tr/java/onenote-notebook-operations/convert-notebook-to-pdf-with-options/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# OneNote'taki Seçeneklerle Not Defterini PDF'ye Dönüştürme - Aspose.Note
+
 ## giriiş
 
 Bu eğitimde Aspose.Note for Java'yı kullanarak not defterlerini kişiselleştirilebilir seçeneklerle PDF'ye dönüştürme dünyasını derinlemesine inceleyeceğiz. Aspose.Note, geliştiricilerin Microsoft OneNote belgelerini programlı olarak değiştirmelerine olanak tanıyan güçlü bir Java API'sidir. Defterleri PDF formatına dönüştürmek çeşitli uygulamalarda yaygın bir gereksinimdir ve Aspose.Note ile bu görev kolaylaştırılmış ve verimli hale gelir.
@@ -90,3 +96,9 @@ Cevap2: Aspose.Note, Microsoft OneNote 2010 ve sonraki sürümlerini destekler.
 ### S5: Aspose.Note için nasıl destek alabilirim?
 
  Cevap5: Her türlü teknik yardım veya sorunuz için Aspose.Note destek forumunu ziyaret edebilirsiniz.[Burada](https://forum.aspose.com/c/note/28).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

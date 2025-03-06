@@ -3,10 +3,16 @@ title: Définir la couleur d’arrière-plan des cellules dans les tableaux Aspo
 linktitle: Définir la couleur d’arrière-plan des cellules dans les tableaux Aspose.Note
 second_title: API Aspose.Note .NET
 description: Découvrez comment définir la couleur d'arrière-plan des cellules dans les tableaux Aspose.Note à l'aide d'un guide étape par étape. Améliorez les visuels des documents sans effort.
-type: docs
 weight: 17
 url: /fr/net/table-manipulation/set-cell-background-color/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Définir la couleur d’arrière-plan des cellules dans les tableaux Aspose.Note
+
 ## Introduction
 
 Dans ce didacticiel, nous verrons comment définir la couleur d'arrière-plan des cellules dans les tableaux à l'aide d'Aspose.Note pour .NET. Cette fonctionnalité peut améliorer considérablement l’attrait visuel et la lisibilité de vos documents. Suivez les étapes ci-dessous pour savoir comment y parvenir.
@@ -122,3 +128,9 @@ A4 : Aspose.Note pour .NET cible spécifiquement les formats de fichiers OneNot
 ### Q5 : Où puis-je trouver plus de ressources et d’assistance pour Aspose.Note pour .NET ?
 
  A5 : Vous pouvez explorer le[Documentation Aspose.Note](https://reference.aspose.com/note/net/) pour des références API détaillées et des exemples. De plus, vous pouvez demander de l'aide à la communauté Aspose sur le[Forum Aspose.Note](https://forum.aspose.com/c/note/28).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

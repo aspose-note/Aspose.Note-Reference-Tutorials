@@ -3,10 +3,16 @@ title: 在 OneNote 中保存到流 - Aspose.Note
 linktitle: 在 OneNote 中保存到流 - Aspose.Note
 second_title: Aspose.Note Java API
 description: 了解如何使用 Aspose.Note 将 OneNote 文档保存到 Java 中的流。轻松将此功能集成到您的应用程序中。
-type: docs
 weight: 20
 url: /zh/java/onenote-document-saving/save-to-stream/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# 在 OneNote 中保存到流 - Aspose.Note
+
 ## 介绍
 
 在本教程中，我们将深入研究 Aspose.Note for Java 的使用，这是一个功能强大的库，用于以编程方式处理 Microsoft OneNote 文档。具体来说，我们将重点关注将 OneNote 文档保存到流的过程。通过遵循本指南中概述的步骤，您将能够在 Java 应用程序中高效地操作 OneNote 文件。
@@ -95,3 +101,9 @@ A4：您可以在以下位置找到 Aspose.Note for Java 的文档、论坛和�
 ### Q5: 我可以在购买前试用 Aspose.Note for Java 吗？
 
  A5：是的，您可以从 Aspose.Note for Java 获取免费试用版[阿斯普斯网站](https://releases.aspose.com/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -3,10 +3,16 @@ title: Création de rapports avec des balises dans Aspose.Note
 linktitle: Création de rapports avec des balises dans Aspose.Note
 second_title: API Aspose.Note .NET
 description: Découvrez comment générer des rapports perspicaces à partir de documents numériques à l'aide d'Aspose.Note pour .NET. Guide étape par étape fourni.
-type: docs
 weight: 16
 url: /fr/net/tag-management/reporting-tags/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Création de rapports avec des balises dans Aspose.Note
+
 ## Introduction
 
 Dans le domaine du traitement et de la gestion de documents, Aspose.Note pour .NET se distingue comme un outil puissant pour gérer les notes, les annotations et les balises dans les documents numériques. Les balises jouent un rôle déterminant dans l’organisation, la catégorisation et le filtrage des informations dans les documents, permettant une récupération et une analyse efficaces. Ce didacticiel explore les subtilités de la création de rapports avec des balises dans Aspose.Note, offrant des conseils étape par étape sur la génération de rapports basés sur divers critères.
@@ -133,3 +139,9 @@ A2 : Oui, vous pouvez accéder à un essai gratuit d'Aspose.Note pour .NET à pa
 ## Q5 : Puis-je personnaliser les critères de reporting dans Aspose.Note pour .NET ?
 
 A5 : Oui, vous pouvez adapter les critères de reporting en fonction de vos besoins spécifiques à l'aide des API et des exemples fournis.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

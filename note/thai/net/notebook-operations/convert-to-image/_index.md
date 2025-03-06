@@ -3,10 +3,16 @@ title: แปลงโน้ตบุ๊กเป็นรูปภาพใน 
 linktitle: แปลงโน้ตบุ๊กเป็นรูปภาพใน Aspose Note .NET
 second_title: Aspose.Note .NET API
 description: เรียนรู้วิธีแปลงสมุดบันทึก OneNote เป็นรูปภาพโดยใช้ Aspose.Note สำหรับ .NET ปฏิบัติตามคำแนะนำทีละขั้นตอนนี้เพื่อการผสานรวมที่ราบรื่น
-type: docs
 weight: 11
 url: /th/net/notebook-operations/convert-to-image/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# แปลงโน้ตบุ๊กเป็นรูปภาพใน Aspose Note .NET
+
 ## การแนะนำ
 
 ในบทช่วยสอนนี้ เราจะสำรวจวิธีแปลงสมุดบันทึกเป็นรูปภาพโดยใช้ Aspose.Note สำหรับ .NET Aspose.Note เป็น API อันทรงประสิทธิภาพที่ช่วยให้นักพัฒนาสามารถทำงานกับไฟล์ Microsoft OneNote โดยทางโปรแกรม ทำให้เกิดฟังก์ชันการทำงานที่หลากหลาย การแปลงโน้ตบุ๊กเป็นรูปภาพจะมีประโยชน์อย่างยิ่งสำหรับแอปพลิเคชันต่างๆ เช่น การสร้างตัวอย่าง การแชร์เนื้อหา หรือการทำงานร่วมกับระบบอื่นๆ ที่ต้องใช้รูปแบบรูปภาพ
@@ -81,3 +87,9 @@ A3: ได้ คุณสามารถดาวน์โหลดเวอร
 ### คำถามที่ 5: ฉันสามารถใช้ Aspose.Note สำหรับ .NET ในโครงการเชิงพาณิชย์ได้หรือไม่
 
  A5: ได้ คุณสามารถซื้อใบอนุญาตได้จาก[ที่นี่](https://purchase.aspose.com/buy) เพื่อใช้ Aspose.Note สำหรับ .NET ในโครงการเชิงพาณิชย์
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

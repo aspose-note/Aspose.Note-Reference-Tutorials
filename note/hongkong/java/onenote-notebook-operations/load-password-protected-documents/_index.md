@@ -3,10 +3,16 @@ title: 在 OneNote 中載入受密碼保護的文件 - Aspose.Note
 linktitle: 在 OneNote 中載入受密碼保護的文件 - Aspose.Note
 second_title: Aspose.Note Java API
 description: 了解如何使用 Aspose.Note for Java 在 OneNote 中載入受密碼保護的文件。請按照我們的逐步指南進行無縫整合。
-type: docs
 weight: 22
 url: /zh-hant/java/onenote-notebook-operations/load-password-protected-documents/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# 在 OneNote 中載入受密碼保護的文件 - Aspose.Note
+
 ## 介紹
 
 在本教學中，我們將逐步介紹使用 Aspose.Note for Java 在 OneNote 中載入受密碼保護的文件的過程。 Aspose.Note 是一個功能強大的 Java 程式庫，可讓開發人員以程式設計方式處理 Microsoft OneNote 文件，從而實現載入、編輯和保存文件等各種操作。
@@ -79,3 +85,9 @@ notebook.loadChildDocument(dataDir + "Locked Pass2.one", documentLoadOptions2);
 ### Q5：Aspose.Note 有試用版嗎？
 
 答：是的，您可以從以下位置下載 Aspose.Note 的免費試用版：[這裡](https://releases.aspose.com/)在購買之前探索其功能。
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

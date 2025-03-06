@@ -3,10 +3,16 @@ title: Java を使用して OneNote にファイルを添付し、アイコン�
 linktitle: Java を使用して OneNote にファイルを添付し、アイコンを設定する
 second_title: Aspose.Note Java API
 description: OneNote ワークフローを強化します。 Aspose.Note を使用して Java でプログラム的にファイルを添付し、アイコンをカスタマイズする方法を学びます。簡単な手順とコードが含まれています! #OneNote #Java #Aspose
-type: docs
 weight: 10
 url: /ja/java/onenote-java-integration/attach-file-and-set-icon/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Java を使用して OneNote にファイルを添付し、アイコンを設定する
+
 ## 導入
 
 OneNote は、メモを取ったり、情報を整理したりするための一般的なツールです。Aspose.Note for Java を利用すると、プログラムでファイルを添付したりアイコンを設定したりしてメモの視覚的表現を改善することで、その機能を強化できます。このチュートリアルでは、プロセスを段階的に説明します。
@@ -149,3 +155,10 @@ A3: もちろん、さまざまな種類の添付ファイルを表すカスタ�
 ### Q5: Aspose.Note for Java の試用版はありますか?
 
 A5: はい、次の場所で利用できる無料トライアルを使用して、Aspose.Note for Java の機能を試すことができます。[このリンク](https://releases.aspose.com/).
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

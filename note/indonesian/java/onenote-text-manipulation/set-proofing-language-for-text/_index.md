@@ -3,10 +3,16 @@ title: Mengatur Bahasa Pemeriksaan untuk Teks di OneNote - Aspose.Note
 linktitle: Mengatur Bahasa Pemeriksaan untuk Teks di OneNote - Aspose.Note
 second_title: Aspose.Catatan Java API
 description: Buka potensi Aspose.Note untuk Java! Pelajari cara mengatur bahasa pemeriksaan untuk teks di OneNote secara lancar dengan panduan langkah demi langkah kami.
-type: docs
 weight: 22
 url: /id/java/onenote-text-manipulation/set-proofing-language-for-text/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Mengatur Bahasa Pemeriksaan untuk Teks di OneNote - Aspose.Note
+
 ## Perkenalan
 Dalam dunia pengembangan perangkat lunak yang dinamis, Aspose.Note untuk Java menonjol sebagai alat yang ampuh untuk mengelola dan memanipulasi dokumen OneNote secara terprogram. Jika Anda ingin menyempurnakan aplikasi Java Anda dengan kemampuan mengatur bahasa pemeriksa teks di OneNote, Anda datang ke tempat yang tepat. Tutorial ini akan memandu Anda melalui proses langkah demi langkah, memastikan Anda memahami setiap konsep dengan jelas.
 ## Prasyarat
@@ -67,3 +73,9 @@ J: Menerapkan mekanisme penanganan kesalahan menggunakan blok coba-tangkap untuk
 J: Tentu saja! Pastikan Anda memiliki perpustakaan Aspose.Note untuk Java yang dikonfigurasi dengan benar di proyek web Anda.
 ### T: Di mana saya dapat menemukan contoh dan dokumentasi tambahan untuk Aspose.Note untuk Java?
  J: Jelajahi[dokumentasi](https://reference.aspose.com/note/java/) untuk sumber daya yang komprehensif.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -3,10 +3,16 @@ title: Oldalszám beszerzése a OneNote-ban – Aspose.Note
 linktitle: Oldalszám beszerzése a OneNote-ban – Aspose.Note
 second_title: Aspose.Note Java API
 description: Ismerje meg, hogyan kérheti le az oldalszámot a OneNote-dokumentumokban az Aspose.Note for Java használatával. Ez a lépésről lépésre haladó útmutató könnyedén végigvezeti a folyamaton.
-type: docs
 weight: 13
 url: /hu/java/onenote-page-manipulation/get-page-count/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Oldalszám beszerzése a OneNote-ban – Aspose.Note
+
 ## Bevezetés
 
 Ebben az oktatóanyagban megvizsgáljuk, hogyan használható az Aspose.Note for Java a OneNote-dokumentum oldalszámának hatékony lekéréséhez. Az Aspose.Note egy hatékony Java API, amely lehetővé teszi a fejlesztők számára, hogy programozottan dolgozzanak a Microsoft OneNote fájlokkal, lehetővé téve például a dokumentumok kezelését, kibontását és konvertálását.
@@ -86,3 +92,9 @@ Végül nyomtassa ki a teljes oldalszámot a konzolra.
 ### 5. kérdés: Elérhető az Aspose.Note for Java próbaverziója tesztelési célokra?
 
  5. válasz: Igen, letölthet egy ingyenes próbaverziót a webhelyről[kiadások oldala](https://releases.aspose.com/) hogy értékelje az API képességeit.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

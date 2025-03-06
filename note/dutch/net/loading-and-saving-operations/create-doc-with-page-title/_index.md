@@ -3,10 +3,16 @@ title: Maak een document met paginatitel in Aspose.Note
 linktitle: Maak een document met paginatitel in Aspose.Note
 second_title: Aspose.Note .NET API
 description: Leer hoe u documenten met titelpagina's maakt met Aspose.Note voor .NET. Volg onze stapsgewijze handleiding voor een naadloze integratie.
-type: docs
 weight: 13
 url: /nl/net/loading-and-saving-operations/create-doc-with-page-title/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Maak een document met paginatitel in Aspose.Note
+
 ## Invoering
 
 In deze zelfstudie begeleiden we u bij het maken van een document met een titelpagina met behulp van Aspose.Note voor .NET. Aspose.Note is een krachtige API waarmee ontwikkelaars programmatisch met Microsoft OneNote-bestanden kunnen werken.
@@ -118,3 +124,9 @@ A4: Ja, u kunt Aspose.Note gebruiken om bestaande OneNote-bestanden eenvoudig te
 ### Vraag 5: Waar kan ik ondersteuning vinden als ik problemen tegenkom?
 
  A5: U kunt ondersteuning en hulp vinden op de[Aspose.Note-forum](https://forum.aspose.com/c/note/28), waar experts en communityleden u kunnen helpen met uw vragen.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

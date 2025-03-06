@@ -3,10 +3,16 @@ title: Anhängen von Dateien nach Pfad in OneNote mit Java
 linktitle: Anhängen von Dateien nach Pfad in OneNote mit Java
 second_title: Aspose.Note Java API
 description: Fügen Sie Dateien nahtlos zu Ihren OneNote-Notizen hinzu! Erfahren Sie, wie Sie mit Aspose.Note in Java eine Anhänge nach Pfad erstellen. Einfache Anleitung und Code enthalten! #OneNote #Java #Aspose
-type: docs
 weight: 11
 url: /de/java/onenote-java-integration/attach-file-by-path/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Anhängen von Dateien nach Pfad in OneNote mit Java
+
 ## Einführung
 
 OneNote ist ein vielseitiges Tool zum Organisieren und Verwalten von Notizen. Mit Aspose.Note für Java können Sie seine Funktionalität erweitern, indem Sie Dateien programmgesteuert an Ihre Notizen anhängen. In diesem Tutorial führen wir Sie durch den Prozess des Anhängens einer Datei anhand ihres Pfads in OneNote mithilfe von Java.
@@ -148,3 +154,9 @@ A4: Ja, Sie können Dateien an bestimmte Abschnitte anhängen, indem Sie sie inn
 ### F5: Gibt es eine Begrenzung für die Dateigröße, die ich anhängen kann?
 
 A5: Aspose.Note legt keine strengen Beschränkungen für die Dateigröße fest, berücksichtigt jedoch Auswirkungen auf die Leistung bei sehr großen Dateien.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

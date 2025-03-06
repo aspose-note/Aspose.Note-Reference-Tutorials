@@ -3,10 +3,16 @@ title: Přidejte uzel tabulky s tagem v Aspose.Note
 linktitle: Přidejte uzel tabulky s tagem v Aspose.Note
 second_title: Aspose.Note .NET API
 description: Naučte se přidávat tabulky se značkami v Aspose.Note pro .NET. Vylepšete své dovednosti v manipulaci s dokumenty programově.
-type: docs
 weight: 11
 url: /cs/net/tag-management/add-table-node-tag/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Přidejte uzel tabulky s tagem v Aspose.Note
+
 ## Úvod
 
 V tomto tutoriálu vás provedeme procesem přidání uzlu tabulky se značkou pomocí Aspose.Note pro .NET. Chcete-li toho dosáhnout, postupujte podle níže uvedených kroků.
@@ -137,3 +143,9 @@ Odpověď 4: Ano, Aspose.Note poskytuje podporu pro šifrování dokumentů OneN
 ### Q5: Je pro uživatele Aspose.Note k dispozici technická podpora?
 
  Odpověď 5: Ano, technická podpora je poskytována prostřednictvím fór Aspose[tady](https://forum.aspose.com/c/note/28), kde můžete vyhledat pomoc od odborníků.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -3,10 +3,16 @@ title: Print Documents in OneNote - Aspose.Note
 linktitle: Print Documents in OneNote - Aspose.Note
 second_title: Aspose.Note Java API
 description: Learn how to print documents in OneNote using Aspose.Note for Java. Step-by-step guide with code examples and customizable options.
-type: docs
 weight: 10
 url: /java/onenote-printing-documents/print-documents/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Print Documents in OneNote - Aspose.Note
+
 ## Introduction
 
 Printing documents is a common requirement for various applications, including OneNote. Aspose.Note for Java provides powerful capabilities to easily print documents within your Java applications. In this tutorial, we'll walk through the process of printing documents in OneNote using Aspose.Note for Java.
@@ -118,3 +124,10 @@ A4: Yes, you need a valid license to use Aspose.Note for Java in a production en
 ### Q5: Where can I find more support and resources for Aspose.Note for Java?
 
 A5: You can find documentation, forums, and additional resources on the [Aspose.Note for Java support page](https://forum.aspose.com/c/note/28).
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

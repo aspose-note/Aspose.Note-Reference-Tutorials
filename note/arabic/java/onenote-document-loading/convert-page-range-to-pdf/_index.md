@@ -3,10 +3,16 @@ title: تحويل نطاق صفحات محدد إلى PDF في OneNote باست�
 linktitle: تحويل نطاق صفحات محدد إلى PDF في OneNote باستخدام Java
 second_title: Aspose.Note جافا API
 description: تعرف على كيفية تحويل نطاقات صفحات معينة من OneNote إلى PDF بسلاسة باستخدام Aspose.Note لـ Java. الحفاظ على التنسيق والتخطيط دون عناء.
-type: docs
 weight: 11
 url: /ar/java/onenote-document-loading/convert-page-range-to-pdf/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# تحويل نطاق صفحات محدد إلى PDF في OneNote باستخدام Java
+
 ## مقدمة
 
 يعد OneNote أداة قوية لتنظيم الملاحظات، ولكن في بعض الأحيان قد تحتاج إلى تصدير نطاقات صفحات معينة إلى PDF لأغراض المشاركة أو الأرشفة. في هذا البرنامج التعليمي، سنرشدك خلال عملية تحويل نطاق صفحات معين إلى PDF باستخدام Aspose.Note لـ Java.
@@ -85,3 +91,9 @@ System.out.println("File saved: " + dataDir + "ConvertSpecificPageRangeToPdf_out
 ### س5: هل يدعم Aspose.Note for Java التحويل المجمع لمستندات OneNote المتعددة؟
 
 ج5: نعم، يمكنك تحويل عدة مستندات OneNote إلى PDF دفعة واحدة عن طريق التكرار خلال كل مستند وتطبيق عملية التحويل.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

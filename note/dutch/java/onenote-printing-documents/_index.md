@@ -3,10 +3,16 @@ title: OneNote-documenten afdrukken
 linktitle: OneNote-documenten afdrukken
 second_title: Aspose.Note Java-API
 description: Print moeiteloos documenten in OneNote met Aspose.Note voor Java. Deze tutorials bieden stapsgewijze begeleiding en codevoorbeelden voor naadloos afdrukken van documenten.
-type: docs
 weight: 30
 url: /nl/java/onenote-printing-documents/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# OneNote-documenten afdrukken
+
 
 ## Invoering
 
@@ -38,3 +44,9 @@ Kortom, het beheersen van de kunst van het afdrukken van documenten in OneNote m
 ## Handleidingen voor het afdrukken van documenten in OneNote
 ### [Documenten afdrukken in OneNote - Aspose.Note](./print-documents/)
 Leer hoe u documenten in OneNote kunt afdrukken met Aspose.Note voor Java. Stapsgewijze handleiding met codevoorbeelden en aanpasbare opties.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

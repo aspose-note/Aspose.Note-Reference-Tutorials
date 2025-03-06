@@ -3,10 +3,16 @@ title: OneNote でリスト プロパティを取得する - Aspose.Note
 linktitle: OneNote でリスト プロパティを取得する - Aspose.Note
 second_title: Aspose.Note Java API
 description: Aspose.Note for Java を探索して、OneNote ドキュメントのリスト プロパティを簡単に取得します。この強力な Java ライブラリを使用してドキュメント処理を強化します。
-type: docs
 weight: 19
 url: /ja/java/onenote-text-manipulation/get-list-properties/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# OneNote でリスト プロパティを取得する - Aspose.Note
+
 ## 導入
 Aspose.Note for Java を活用して OneNote ドキュメントのリスト プロパティを取得および分析するためのこの包括的なチュートリアルへようこそ。経験豊富な開発者であっても、Aspose.Note を使い始めたばかりであっても、このガイドではプロセスを順を追って説明し、明確に理解できるように各ステップに分けて説明します。
 ## 前提条件
@@ -95,3 +101,9 @@ Aspose.Note はさまざまな OneNote バージョンをサポートし、さ�
 はい、一時ライセンスを取得できます[ここ](https://purchase.aspose.com/temporary-license/)テスト目的のため。
 ### Aspose.Note for Java を購入したい場合はどうすればよいですか?
 製品を購入できます[ここ](https://purchase.aspose.com/buy)プロジェクトの可能性を最大限に引き出します。
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

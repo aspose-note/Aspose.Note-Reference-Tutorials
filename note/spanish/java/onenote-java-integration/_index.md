@@ -3,10 +3,16 @@ title: Integración de OneNote Java
 linktitle: Integración de OneNote Java
 second_title: Aspose.Nota Java API
 description: ¡Mejore su experiencia OneNote con Aspose.Note Java! Explore tutoriales sobre cómo adjuntar archivos, configurar íconos y recuperar archivos adjuntos mediante programación usando Java.
-type: docs
 weight: 20
 url: /es/java/onenote-java-integration/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Integración de OneNote Java
+
 ## Introducción
 
 Bienvenido a nuestra guía completa sobre la integración de OneNote con Java usando Aspose.Note. Ya sea que sea un desarrollador experimentado o recién esté comenzando, estos tutoriales le permitirán maximizar sus capacidades de OneNote mediante programación.
@@ -36,3 +42,9 @@ Aprenda a adjuntar archivos y configurar íconos en OneNote usando Java con Aspo
 Aprenda cómo adjuntar archivos a sus notas de OneNote mediante programación usando Java con Aspose.Note.
 ### [Recuperar archivos adjuntos de OneNote usando Java](./retrieve-attachment/)
 Aprenda a recuperar archivos adjuntos de OneNote usando Java con Aspose.Note, una potente API para una manipulación de documentos perfecta.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

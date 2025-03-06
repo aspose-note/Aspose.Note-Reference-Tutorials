@@ -3,10 +3,16 @@ title: Truy xuất tài liệu từ OneNote Notebook - Aspose.Note
 linktitle: Truy xuất tài liệu từ OneNote Notebook - Aspose.Note
 second_title: API Java Aspose.Note
 description: Tìm hiểu cách truy xuất tài liệu từ OneNote Notebook bằng Aspose.Note for Java. Hãy làm theo hướng dẫn từng bước của chúng tôi để tích hợp liền mạch.
-type: docs
 weight: 25
 url: /vi/java/onenote-notebook-operations/retrieve-documents-from-onenote-notebook/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Truy xuất tài liệu từ OneNote Notebook - Aspose.Note
+
 ## Giới thiệu
 
 Chào mừng bạn đến với hướng dẫn toàn diện về cách sử dụng Aspose.Note for Java để truy xuất tài liệu từ OneNote Notebook! Aspose.Note là một API Java mạnh mẽ cho phép các nhà phát triển thao tác với các tệp OneNote một cách dễ dàng. Trong hướng dẫn này, chúng tôi sẽ hướng dẫn từng bước quy trình, chia nhỏ từng ví dụ thành nhiều bước để đảm bảo bạn hiểu rõ ràng.
@@ -92,3 +98,9 @@ Câu trả lời 3: Có, Aspose.Note dành cho Java cho phép tự động hóa 
 ### Câu hỏi 5: Aspose.Note dành cho Java có cung cấp bản dùng thử miễn phí không?
 
  Câu trả lời 5: Có, bạn có thể tận dụng bản dùng thử miễn phí Aspose.Note dành cho Java bằng cách truy cập[trang dùng thử miễn phí](https://releases.aspose.com/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

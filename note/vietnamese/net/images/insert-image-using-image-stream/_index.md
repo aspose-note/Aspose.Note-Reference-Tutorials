@@ -3,10 +3,16 @@ title: Chèn hình ảnh bằng Luồng hình ảnh trong Aspose.Note
 linktitle: Chèn hình ảnh bằng Luồng hình ảnh trong Aspose.Note
 second_title: Aspose.Note .NET API
 description: Tìm hiểu cách chèn hình ảnh liền mạch vào tài liệu Aspose.Note bằng cách sử dụng luồng hình ảnh trong .NET. Dễ dàng nâng cao tệp Ghi chú của bạn bằng hình ảnh.
-type: docs
 weight: 11
 url: /vi/net/images/insert-image-using-image-stream/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Chèn hình ảnh bằng Luồng hình ảnh trong Aspose.Note
+
 ## Giới thiệu
 
 Trong hướng dẫn này, chúng ta sẽ khám phá cách chèn hình ảnh vào tài liệu Aspose.Note bằng cách sử dụng luồng hình ảnh trong .NET. Aspose.Note là một API mạnh mẽ cho phép các nhà phát triển làm việc với các tệp Microsoft OneNote theo chương trình. Bằng cách làm theo các bước được nêu trong hướng dẫn này, bạn sẽ tìm hiểu cách tích hợp liền mạch hình ảnh vào tài liệu Ghi chú của mình, nâng cao sức hấp dẫn trực quan và chức năng tổng thể của chúng.
@@ -120,3 +126,9 @@ Câu trả lời 4: Aspose.Note for .NET tương thích với nhiều phiên b�
 ### Câu hỏi 5: Tôi có thể tìm thêm tài nguyên và hỗ trợ cho Aspose.Note ở đâu?
 
  Câu trả lời 5: Bạn có thể tìm thấy tài liệu, diễn đàn và hỗ trợ toàn diện cho Aspose.Note trên[Diễn đàn Aspose](https://forum.aspose.com/c/note/28).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -3,10 +3,16 @@ title: Soạn bảng trong OneNote - Aspose.Note
 linktitle: Soạn bảng trong OneNote - Aspose.Note
 second_title: API Java Aspose.Note
 description: Tìm hiểu cách soạn bảng trong OneNote theo chương trình bằng Aspose.Note for Java. Hướng dẫn từng bước để tạo tài liệu hiệu quả.
-type: docs
 weight: 11
 url: /vi/java/onenote-table-manipulation/compose-table/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Soạn bảng trong OneNote - Aspose.Note
+
 ## Giới thiệu
 Trong môi trường kinh doanh cạnh tranh ngày nay, giao tiếp và hợp tác hiệu quả là những yếu tố then chốt để đạt được thành công. Aspose.Note for Java cung cấp một giải pháp mạnh mẽ để tạo và thao tác các tài liệu OneNote theo chương trình. Trong hướng dẫn này, chúng ta sẽ khám phá cách soạn bảng trong OneNote bằng Aspose.Note cho Java. Hãy làm theo hướng dẫn từng bước bên dưới để nâng cao quá trình tạo tài liệu của bạn.
 ## Điều kiện tiên quyết
@@ -77,3 +83,9 @@ Chúc mừng! Bạn đã soạn thành công một bảng trong OneNote bằng A
  Truy cập diễn đàn hỗ trợ[đây](https://forum.aspose.com/c/note/28).
 ### Hỏi: Tôi có thể xin giấy phép tạm thời không?
  Có, bạn có thể nhận được giấy phép tạm thời[đây](https://purchase.aspose.com/temporary-license/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

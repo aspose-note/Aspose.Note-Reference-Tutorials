@@ -3,10 +3,16 @@ title: OneNote에서 기본 단락 스타일 설정 - Aspose.Note
 linktitle: OneNote에서 기본 단락 스타일 설정 - Aspose.Note
 second_title: Aspose.Note 자바 API
 description: Java용 Aspose.Note를 사용하여 OneNote에서 기본 단락 스타일을 설정하는 방법을 알아보세요. Java 애플리케이션에서 효율적인 텍스트 형식 지정을 위한 단계별 가이드를 따르세요.
-type: docs
 weight: 11
 url: /ko/java/onenote-styles/set-default-paragraph-style/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# OneNote에서 기본 단락 스타일 설정 - Aspose.Note
+
 ## 소개
 
 Aspose.Note for Java는 기본 단락 스타일 설정을 포함하여 텍스트 서식을 조작하는 강력한 기능을 제공합니다. 이 튜토리얼은 Aspose.Note를 사용하여 OneNote에서 기본 단락 스타일을 설정하는 과정을 안내합니다.
@@ -127,3 +133,9 @@ A4: 예, 필요한 종속성을 추가하고 필요한 패키지를 가져와서
 ### Q5: Aspose.Note에 사용할 수 있는 평가판이 있습니까?
 
  A5: 예, Aspose의 무료 평가판에 액세스할 수 있습니다.[웹사이트](https://releases.aspose.com/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

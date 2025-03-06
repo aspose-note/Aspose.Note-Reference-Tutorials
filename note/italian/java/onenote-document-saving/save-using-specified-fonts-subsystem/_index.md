@@ -3,10 +3,16 @@ title: Salva utilizzando il sottosistema di caratteri specificato in OneNote
 linktitle: Salva utilizzando il sottosistema di caratteri specificato in OneNote
 second_title: Aspose.Note API Java
 description: Scopri come salvare i documenti OneNote utilizzando il sottosistema di caratteri specificato in Java con Aspose.Note. Garantisci una rappresentazione coerente dei caratteri su tutte le piattaforme senza sforzo.
-type: docs
 weight: 22
 url: /it/java/onenote-document-saving/save-using-specified-fonts-subsystem/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Salva utilizzando il sottosistema di caratteri specificato in OneNote
+
 ## introduzione
 
 Aspose.Note per Java fornisce solide funzionalità per lavorare con documenti OneNote. Un requisito comune quando si lavora con tali documenti è garantire che i caratteri siano mantenuti correttamente, soprattutto se il documento deve essere esportato o salvato in formati diversi come PDF. Questo tutorial ti guiderà attraverso il processo di salvataggio dei documenti OneNote specificando il sottosistema dei caratteri, garantendo una rappresentazione coerente e accurata del testo su varie piattaforme.
@@ -152,3 +158,9 @@ A4: Sì, puoi personalizzare le proprietà del carattere come dimensione, stile 
 ### Q5: È disponibile una versione di prova per Aspose.Note per Java?
 
 A5: Sì, puoi ottenere una prova gratuita di Aspose.Note per Java dal sito web.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

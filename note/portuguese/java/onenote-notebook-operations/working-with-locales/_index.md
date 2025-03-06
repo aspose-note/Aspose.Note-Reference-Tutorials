@@ -3,10 +3,16 @@ title: Trabalhando com localidades no OneNote - Aspose.Note
 linktitle: Trabalhando com localidades no OneNote - Aspose.Note
 second_title: API Java Aspose.Note
 description: Aproveite o poder do Aspose.Note para trabalhar com localidades do OneNote! Extraia, manipule e gere relatórios personalizados para diferentes idiomas e regiões. #OneNote #Java #Aspose
-type: docs
 weight: 10
 url: /pt/java/onenote-notebook-operations/working-with-locales/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Trabalhando com localidades no OneNote - Aspose.Note
+
 ## Introdução
 
 No domínio do desenvolvimento Java, Aspose.Note se destaca como uma ferramenta poderosa para trabalhar com arquivos do OneNote. Esteja você com o objetivo de extrair informações, manipular conteúdo ou gerar relatórios, o Aspose.Note oferece um amplo conjunto de recursos para agilizar seu fluxo de trabalho. Neste tutorial, nos aprofundaremos em um aspecto específico: trabalhar com localidades no OneNote usando Aspose.Note para Java.
@@ -99,3 +105,9 @@ A3: Embora projetado principalmente para arquivos do OneNote, o Aspose.Note ofer
 ### Q5: Posso experimentar o Aspose.Note antes de comprar?
 
 A5: Certamente, você pode explorar os recursos do Aspose.Note aproveitando a avaliação gratuita oferecida no site.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

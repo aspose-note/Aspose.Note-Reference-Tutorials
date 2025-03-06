@@ -3,10 +3,16 @@ title: 以 Microsoft OneNote 样式设置页面标题 - Aspose.Note
 linktitle: 以 Microsoft OneNote 样式设置页面标题 - Aspose.Note
 second_title: Aspose.Note Java API
 description: 了解如何使用 Aspose.Note for Java 以 Microsoft OneNote 样式设置页面标题。通过专业的格式来提升您的 Java 文档。
-type: docs
 weight: 23
 url: /zh/java/onenote-text-manipulation/setting-page-title-in-microsoft-onenote-style/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# 以 Microsoft OneNote 样式设置页面标题 - Aspose.Note
+
 ## 介绍
 在 Java 开发的动态世界中，创建具有视觉吸引力和结构化的文档至关重要。如果您希望使用 Microsoft OneNote 样式的页面标题增强您的 Java 应用程序，Aspose.Note for Java 是您的首选解决方案。在这个综合教程中，我们将引导您完成使用 Aspose.Note 以 OneNote 样式设置页面标题的过程，确保您的文档以专业的风格脱颖而出。
 ## 先决条件
@@ -72,3 +78,9 @@ Aspose.Note 旨在与其他 Java 库无缝协作，为您的开发项目提供�
 从 Aspose.Note 社区寻求帮助：[Aspose.Note 论坛](https://forum.aspose.com/c/note/28).
 ### 有试用版吗？
 是的，您可以通过免费试用来探索 Aspose.Note 的功能[这里](https://releases.aspose.com/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

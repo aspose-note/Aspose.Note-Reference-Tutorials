@@ -3,10 +3,16 @@ title: Operasi Buku Catatan OneNote
 linktitle: Operasi Buku Catatan OneNote
 second_title: Aspose.Catatan Java API
 description: Buka potensi penuh Aspose.Note untuk Java dengan Tutorial Pengoperasian Buku Catatan OneNote kami. Berikan panduan langkah demi langkah untuk menyempurnakan aplikasi Java Anda.
-type: docs
 weight: 28
 url: /id/java/onenote-notebook-operations/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Operasi Buku Catatan OneNote
+
 
 ## Perkenalan
 
@@ -66,3 +72,9 @@ Pelajari cara mengambil dokumen dari Buku Catatan OneNote menggunakan Aspose.Not
 Pelajari cara menyimpan buku catatan ke aliran di OneNote menggunakan Aspose.Note untuk Java. Tingkatkan produktivitas dengan manajemen notebook yang efisien.
 ### [Tulis Dokumen yang Dilindungi Kata Sandi di OneNote - Aspose.Note](./write-password-protected-document/)
 Pelajari cara menulis dokumen yang dilindungi kata sandi di OneNote menggunakan Aspose.Note untuk Java. Pastikan keamanan dengan langkah-langkah yang mudah diikuti.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -3,10 +3,16 @@ title: Adicionar nó filho no bloco de notas do OneNote - Aspose.Note
 linktitle: Adicionar nó filho no bloco de notas do OneNote - Aspose.Note
 second_title: API Java Aspose.Note
 description: Aprenda como adicionar nós filhos programaticamente aos blocos de anotações do OneNote usando Aspose.Note para Java. Melhore a organização de suas notas sem esforço.
-type: docs
 weight: 11
 url: /pt/java/onenote-notebook-operations/add-child-node/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Adicionar nó filho no bloco de notas do OneNote - Aspose.Note
+
 ## Introdução
 
 OneNote é uma ferramenta poderosa para organizar suas anotações e ideias. Aspose.Note for Java fornece maneiras convenientes de manipular arquivos do OneNote programaticamente. Neste tutorial, percorreremos passo a passo o processo de adição de um nó filho a um bloco de anotações do OneNote.
@@ -89,3 +95,9 @@ A4: Sim, você pode integrar facilmente Aspose.Note for Java em seus projetos Ja
 ### P5: Existe um fórum da comunidade onde posso buscar ajuda e orientação para usar o Aspose.Note for Java?
 
  A5: Sim, você pode visitar o[Fórum Aspose.Note](https://forum.aspose.com/c/note/28) para fazer perguntas, compartilhar conhecimento e interagir com outros usuários e especialistas.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

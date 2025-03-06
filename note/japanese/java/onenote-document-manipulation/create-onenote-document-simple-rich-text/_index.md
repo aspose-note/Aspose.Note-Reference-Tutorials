@@ -3,10 +3,16 @@ title: Java でシンプルなリッチ テキストを含む OneNote ドキュ�
 linktitle: Java でシンプルなリッチ テキストを含む OneNote ドキュメントを作成する
 second_title: Aspose.Note Java API
 description: Aspose.Note Java を使用してリッチ テキストを含む OneNote ドキュメントを作成する方法を学びます。この機能を Java アプリに統合して、効率的なドキュメント管理を実現します。
-type: docs
 weight: 12
 url: /ja/java/onenote-document-manipulation/create-onenote-document-simple-rich-text/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Java でシンプルなリッチ テキストを含む OneNote ドキュメントを作成する
+
 ## 導入
 
 今日のデジタル時代では、ドキュメントを効率的に管理および操作する必要性が最も重要です。 Aspose.Note for Java は、開発者が Java アプリケーション内で OneNote ドキュメントをシームレスに操作できるようにする強力なツールとして登場しました。このチュートリアルは、Aspose.Note for Java を使用して、シンプルなリッチ テキストを含む OneNote ドキュメントを作成するための包括的なガイドを提供することを目的としています。
@@ -164,3 +170,9 @@ A4: はい、Aspose.Note for Java は、他の Java ライブラリまたはフ�
 ### Q5: Aspose.Note for Java は包括的なドキュメントとサポートを提供しますか?
 
  A5: もちろん、Aspose.Note for Java の詳細なドキュメントと専用サポートは、次の URL で見つけることができます。[サポートフォーラム](https://forum.aspose.com/c/note/28).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

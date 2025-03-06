@@ -3,10 +3,16 @@ title: Загрузка документа OneNote
 linktitle: Загрузка документа OneNote
 second_title: Aspose.Note Java API
 description: Изучите подробные руководства по загрузке, преобразованию и созданию документов OneNote с помощью Aspose.Note для Java. Легко расширьте свои возможности обработки документов.
-type: docs
 weight: 25
 url: /ru/java/onenote-document-loading/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Загрузка документа OneNote
+
 
 ## Введение
 
@@ -97,3 +103,9 @@ url: /ru/java/onenote-document-loading/
 Узнайте, как загружать документы OneNote 2007 на языке Java с помощью Aspose.Note для обеспечения плавной интеграции.
 ### [Загрузка документа OneNote, защищенного паролем — Java](./load-password-protected-onenote/)
 Узнайте, как загружать защищенные паролем документы OneNote с помощью Java с помощью Aspose.Note для Java.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -3,10 +3,16 @@ title: Utforska sidrevisioner i Aspose.Note-dokument
 linktitle: Utforska sidrevisioner i Aspose.Note-dokument
 second_title: Aspose.Note .NET API
 description: Lär dig hur du utforskar sidrevideringar i Aspose.Note-dokument med hjälp av .NET-ramverket med steg-för-steg-vägledning.
-type: docs
 weight: 14
 url: /sv/net/note-manipulation/page-revisions-exploration/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Utforska sidrevisioner i Aspose.Note-dokument
+
 ## Introduktion
 
 den här handledningen kommer vi att fördjupa oss i att utforska sidversioner i Aspose.Note-dokument med hjälp av .NET-ramverket. Aspose.Note är ett kraftfullt bibliotek som gör det möjligt för utvecklare att arbeta med Microsoft OneNote-filer programmatiskt, och erbjuder olika funktioner för att manipulera och extrahera data från dessa filer.
@@ -88,3 +94,9 @@ S3: Ja, du kan ladda ner en gratis testversion av Aspose.Note för .NET från[h�
 ### F5: Var kan jag hitta support för Aspose.Note för .NET?
 
  S5: Du kan hitta support och resurser på[Aspose.Note forum](https://forum.aspose.com/c/note/28).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

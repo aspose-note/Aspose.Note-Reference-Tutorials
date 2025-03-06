@@ -3,10 +3,16 @@ title: OneNote에서 중국어 번호 매기기 목록 만들기 - Aspose.Note
 linktitle: OneNote에서 중국어 번호 매기기 목록 만들기 - Aspose.Note
 second_title: Aspose.Note 자바 API
 description: Aspose.Note를 사용하여 Java에서 문서 생성을 향상하세요. OneNote에서 중국어 번호 목록을 만드는 방법을 단계별로 알아보세요. Aspose.Note의 강력한 기능을 살펴보세요.
-type: docs
 weight: 13
 url: /ko/java/onenote-text-manipulation/create-chinese-numbered-list/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# OneNote에서 중국어 번호 매기기 목록 만들기 - Aspose.Note
+
 ## 소개
 Java로 문서 작성 기능을 향상시키고 싶다면 Aspose.Note가 최고의 솔루션입니다. 이 자습서에서는 Java용 Aspose.Note를 사용하여 OneNote에서 중국어 번호 목록을 만드는 과정을 안내합니다. 이 강력한 라이브러리를 사용하면 OneNote 문서를 프로그래밍 방식으로 조작하여 해당 문서의 구조와 내용을 완벽하게 제어할 수 있습니다.
 ## 전제조건
@@ -109,3 +115,9 @@ System.out.printf("File saved: %s\n", dataDir + "CreateChineseNumberedList_out.p
  문서를 참조하세요[여기](https://reference.aspose.com/note/java/).
 ### Aspose.Note에 대한 지원은 어떻게 받을 수 있나요?
  지원 포럼 방문[여기](https://forum.aspose.com/c/note/28) 도움이나 문의사항이 있으면
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

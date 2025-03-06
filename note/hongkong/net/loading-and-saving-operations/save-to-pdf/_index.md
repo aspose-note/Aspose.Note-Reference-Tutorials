@@ -3,10 +3,16 @@ title: 在 Aspose.Note 中儲存為 PDF
 linktitle: 在 Aspose.Note 中儲存為 PDF
 second_title: Aspose.Note .NET API
 description: 了解如何使用 Aspose.Note for .NET 將 Microsoft OneNote 文件儲存為 PDF 格式。包含 Letter 和 A4 頁面佈局程式碼範例的逐步教學。
-type: docs
 weight: 26
 url: /zh-hant/net/loading-and-saving-operations/save-to-pdf/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# 在 Aspose.Note 中儲存為 PDF
+
 ## 介紹
 
 在本教學中，我們將探討如何使用 Aspose.Note for .NET 將文件儲存為 PDF 格式。 Aspose.Note 是一個功能強大的函式庫，使開發人員能夠以程式設計方式處理 Microsoft OneNote 檔案。我們將介紹先決條件、匯入命名空間，並提供將文件儲存為各種頁面佈局的 PDF 的逐步指南。
@@ -110,3 +116,9 @@ A3：是的，您可以透過免費試用版探索 Aspose.Note[這裡](https://r
 ### Q5: 需要進一步幫忙嗎？
 
  A5：請隨時在 Aspose.Note 論壇上提出任何問題或尋求支持[這裡](https://forum.aspose.com/c/note/28).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

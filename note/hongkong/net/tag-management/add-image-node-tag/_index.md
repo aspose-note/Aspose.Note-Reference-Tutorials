@@ -3,10 +3,16 @@ title: 在Aspose.Note中新增帶有標籤的圖片節點
 linktitle: 在Aspose.Note中新增帶有標籤的圖片節點
 second_title: Aspose.Note .NET API
 description: 了解如何使用 Aspose.Note for .NET 新增帶有自訂標籤的映像來增強 OneNote 文件。
-type: docs
 weight: 10
 url: /zh-hant/net/tag-management/add-image-node-tag/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# 在Aspose.Note中新增帶有標籤的圖片節點
+
 ## 介紹
 
 在本教學中，我們將探索如何使用 Aspose.Note for .NET 新增帶有標籤的圖片節點。此功能可讓您透過新增帶有自訂標籤的影像來增強 OneNote 文件。
@@ -110,3 +116,9 @@ A4：Aspose.Note 主要支援從本機目錄新增影像，但您可以先將外
 ### Q5：新增的圖片大小或格式有限制嗎？
 
 A5：Aspose.Note支援多種影像格式，並且對影像大小沒有嚴格限制，允許您將不同的視覺效果合併到文件中。
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

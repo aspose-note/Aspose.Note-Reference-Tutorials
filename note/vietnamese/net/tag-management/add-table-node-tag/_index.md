@@ -3,10 +3,16 @@ title: Thêm nút bảng có thẻ trong Aspose.Note
 linktitle: Thêm nút bảng có thẻ trong Aspose.Note
 second_title: Aspose.Note .NET API
 description: Tìm hiểu cách thêm bảng có thẻ trong Aspose.Note cho .NET. Nâng cao kỹ năng thao tác tài liệu của bạn theo chương trình.
-type: docs
 weight: 11
 url: /vi/net/tag-management/add-table-node-tag/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Thêm nút bảng có thẻ trong Aspose.Note
+
 ## Giới thiệu
 
 Trong hướng dẫn này, chúng tôi sẽ hướng dẫn bạn quy trình thêm nút bảng bằng thẻ bằng Aspose.Note cho .NET. Thực hiện theo các bước dưới đây để đạt được điều này.
@@ -137,3 +143,9 @@ Trả lời4: Có, Aspose.Note cung cấp hỗ trợ mã hóa tài liệu OneNot
 ### Câu hỏi 5: Người dùng Aspose.Note có được hỗ trợ kỹ thuật không?
 
  Câu trả lời 5: Có, hỗ trợ kỹ thuật được cung cấp qua diễn đàn Aspose[đây](https://forum.aspose.com/c/note/28), nơi bạn có thể tìm kiếm sự trợ giúp từ các chuyên gia.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

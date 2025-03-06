@@ -3,10 +3,16 @@ title: استرداد تنسيق الملف في Aspose.Note
 linktitle: استرداد تنسيق الملف في Aspose.Note
 second_title: Aspose.Note .NET API
 description: استكشف Aspose.Note for .NET، وهي واجهة برمجة تطبيقات قوية للعمل مع مستندات Microsoft OneNote برمجيًا.
-type: docs
 weight: 19
 url: /ar/net/loading-and-saving-operations/retrieve-file-format/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# استرداد تنسيق الملف في Aspose.Note
+
 ## مقدمة
 
 Aspose.Note for .NET عبارة عن واجهة برمجة تطبيقات قوية تتيح للمطورين العمل مع مستندات Microsoft OneNote برمجيًا. سواء كنت بحاجة إلى إنشاء ملفات OneNote أو معالجتها أو تحويلها، فإن Aspose.Note يبسط العملية من خلال مجموعة الميزات البديهية والشاملة.
@@ -83,3 +89,9 @@ switch (document.FileFormat)
 ### س5: هل أحتاج إلى ترخيص مؤقت لأغراض التقييم؟
 
  ج5: بينما تسمح لك النسخة التجريبية المجانية باختبار Aspose.Note، يمكنك اختيار ترخيص مؤقت للتقييم الموسع. يزور[هنا](https://purchase.aspose.com/temporary-license/) لمزيد من التفاصيل.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

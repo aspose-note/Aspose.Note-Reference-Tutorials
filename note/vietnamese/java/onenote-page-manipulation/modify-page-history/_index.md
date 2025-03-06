@@ -3,10 +3,16 @@ title: Sửa đổi lịch sử trang trong OneNote - Aspose.Note
 linktitle: Sửa đổi lịch sử trang trong OneNote - Aspose.Note
 second_title: API Java Aspose.Note
 description: Xóa, sửa đổi và thêm các mục lịch sử trang một cách liền mạch! Hướng dẫn từng bước và mã để thành thạo OneNote với Aspose.Note. #OneNote #Java #Aspose
-type: docs
 weight: 17
 url: /vi/java/onenote-page-manipulation/modify-page-history/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Sửa đổi lịch sử trang trong OneNote - Aspose.Note
+
 ## Giới thiệu
 
 Trong hướng dẫn này, chúng ta sẽ đi sâu vào việc sử dụng Aspose.Note for Java để sửa đổi lịch sử trang trong tài liệu OneNote. Aspose.Note là một API Java mạnh mẽ cho phép các nhà phát triển làm việc liền mạch với các tệp OneNote, cho phép thực hiện nhiều thao tác khác nhau như tạo, đọc và sửa đổi các tệp này theo chương trình.
@@ -108,3 +114,10 @@ Câu trả lời 4: Có, Aspose.Note for Java cung cấp các API để xử lý
 ### Câu hỏi 5: Có diễn đàn cộng đồng nào dành cho Aspose.Note dành cho Java để tôi có thể yêu cầu trợ giúp không?
 
  A5: Có, bạn có thể truy cập[Diễn đàn Aspose.Note](https://forum.aspose.com/c/note/28) nếu có bất kỳ sự trợ giúp hoặc thắc mắc nào liên quan đến thư viện.
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

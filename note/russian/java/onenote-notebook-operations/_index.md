@@ -3,10 +3,16 @@ title: Операции с записной книжкой OneNote
 linktitle: Операции с записной книжкой OneNote
 second_title: Aspose.Note Java API
 description: Раскройте весь потенциал Aspose.Note для Java с помощью наших руководств по работе с записными книжками OneNote. Предоставьте пошаговое руководство по улучшению ваших Java-приложений.
-type: docs
 weight: 28
 url: /ru/java/onenote-notebook-operations/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Операции с записной книжкой OneNote
+
 
 ## Введение
 
@@ -66,3 +72,9 @@ url: /ru/java/onenote-notebook-operations/
 Узнайте, как сохранять записные книжки в потоки OneNote с помощью Aspose.Note для Java. Повысьте производительность благодаря эффективному управлению ноутбуком.
 ### [Напишите документ, защищенный паролем, в OneNote — Aspose.Note](./write-password-protected-document/)
 Узнайте, как создавать документы, защищенные паролем, в OneNote с помощью Aspose.Note для Java. Обеспечьте безопасность с помощью простых шагов.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

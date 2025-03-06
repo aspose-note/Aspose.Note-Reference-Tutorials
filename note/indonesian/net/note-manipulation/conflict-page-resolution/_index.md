@@ -3,10 +3,16 @@ title: Selesaikan Konflik di Dokumen Aspose.Note
 linktitle: Selesaikan Konflik di Dokumen Aspose.Note
 second_title: Aspose.Catatan .NET API
 description: Pelajari cara mengatasi konflik dalam dokumen Aspose.Note menggunakan .NET. Panduan langkah demi langkah untuk penyelesaian konflik yang efisien.
-type: docs
 weight: 10
 url: /id/net/note-manipulation/conflict-page-resolution/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Selesaikan Konflik di Dokumen Aspose.Note
+
 ## Perkenalan
 
 Menyelesaikan konflik dalam dokumen Aspose.Note adalah tugas penting, terutama ketika berhadapan dengan proyek kolaboratif atau banyak kontributor. Konflik ini mungkin timbul karena pengeditan yang dilakukan secara bersamaan, perbedaan versi, atau perbedaan lain dalam dokumen. Dalam tutorial ini, kita akan mempelajari proses mengidentifikasi dan menyelesaikan konflik dalam dokumen Aspose.Note menggunakan .NET. Dengan mengikuti langkah-langkah ini, Anda akan diperlengkapi untuk mengelola konflik secara efisien dan memastikan integritas dokumen.
@@ -100,3 +106,9 @@ A4: Ya, Anda dapat mengotomatiskan penyelesaian konflik dengan menerapkan logika
 ### Q5: Apakah Aspose.Note mendukung fitur kolaborasi waktu nyata?
 
 A5: Aspose.Note terutama berfokus pada manipulasi dokumen dan tidak menawarkan fitur kolaborasi waktu nyata.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

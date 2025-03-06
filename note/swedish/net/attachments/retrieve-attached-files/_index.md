@@ -3,10 +3,16 @@ title: Hämta bifogade filer med Aspose.Note
 linktitle: Hämta bifogade filer med Aspose.Note
 second_title: Aspose.Note .NET API
 description: Lär dig hur du hämtar bifogade filer från Microsoft OneNote-dokument med Aspose.Note för .NET. Följ stegen för att ladda, hämta noder och iterera igenom bilagor.
-type: docs
 weight: 12
 url: /sv/net/attachments/retrieve-attached-files/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Hämta bifogade filer med Aspose.Note
+
 ## Introduktion
 
 den här handledningen kommer vi att utforska hur man hämtar bifogade filer från ett dokument med Aspose.Note för .NET. Aspose.Note är ett kraftfullt API som låter utvecklare arbeta med Microsoft OneNote-filer programmatiskt. Vi delar upp processen i enkla steg för att göra det enkelt att följa med.
@@ -90,3 +96,9 @@ S4: Ja, du kan använda en gratis testversion av Aspose.Note för att utforska d
 ### F5: Hur kan jag få en tillfällig licens för Aspose.Note?
 
 S5: Du kan begära en tillfällig licens från Aspose för att utvärdera API:ns fulla kapacitet i din utvecklingsmiljö.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

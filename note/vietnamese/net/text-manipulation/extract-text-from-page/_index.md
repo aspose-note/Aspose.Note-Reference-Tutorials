@@ -3,10 +3,16 @@ title: Trích xuất văn bản từ một trang trong Aspose.Note
 linktitle: Trích xuất văn bản từ một trang trong Aspose.Note
 second_title: Aspose.Note .NET API
 description: Khai phá sức mạnh của Aspose.Note trong .NET! Tìm hiểu cách trích xuất văn bản từ các trang OneNote theo từng bước. Hãy nâng cao kỹ năng xử lý tài liệu của bạn ngay hôm nay.
-type: docs
 weight: 17
 url: /vi/net/text-manipulation/extract-text-from-page/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Trích xuất văn bản từ một trang trong Aspose.Note
+
 ## Giới thiệu
 Chào mừng bạn đến với hướng dẫn toàn diện này về cách trích xuất văn bản từ một trang trong Aspose.Note bằng .NET. Aspose.Note là thư viện thao tác tài liệu mạnh mẽ cho phép bạn làm việc liền mạch với các tệp Microsoft OneNote. Trong hướng dẫn này, chúng tôi sẽ tập trung vào quy trình từng bước trích xuất văn bản từ một trang, cung cấp cho bạn kiến thức cần thiết để nâng cao khả năng xử lý tài liệu của bạn.
 ## Điều kiện tiên quyết
@@ -61,3 +67,9 @@ Trả lời: Triển khai cơ chế xử lý lỗi bằng cách sử dụng các
 Trả lời: Có, Aspose.Note cung cấp khả năng chỉnh sửa toàn diện, cho phép bạn sửa đổi và lưu tài liệu sau khi trích xuất văn bản.
 ### Hỏi: Tôi có thể tìm kiếm sự hỗ trợ hoặc trợ giúp bổ sung ở đâu?
  Đáp: Hãy ghé thăm[Diễn đàn Aspose.Note](https://forum.aspose.com/c/note/28) để hỗ trợ và thảo luận dựa vào cộng đồng.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

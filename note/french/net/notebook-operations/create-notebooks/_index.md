@@ -3,10 +3,16 @@ title: Créer des blocs-notes dans Aspose Note .NET
 linktitle: Créer des blocs-notes dans Aspose Note .NET
 second_title: API Aspose.Note .NET
 description: Apprenez à créer des blocs-notes dans Aspose Note .NET sans effort. Boostez dès maintenant vos flux de traitement de documents.
-type: docs
 weight: 17
 url: /fr/net/notebook-operations/create-notebooks/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Créer des blocs-notes dans Aspose Note .NET
+
 ## Introduction
 
 Dans ce didacticiel, nous aborderons les subtilités de la création de blocs-notes à l'aide d'Aspose.Note pour .NET. Aspose.Note est une bibliothèque puissante qui permet aux développeurs de manipuler les fichiers Microsoft OneNote par programme, offrant un large éventail de fonctionnalités pour rationaliser les tâches de gestion et de traitement des documents.
@@ -99,3 +105,10 @@ A4 : Oui, vous pouvez acquérir une licence temporaire sur le site Aspose :[Perm
  R5 : Vous pouvez vous référer à la documentation disponible à :[Documentation](https://reference.aspose.com/note/net/).
 
 
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

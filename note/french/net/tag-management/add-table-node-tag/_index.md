@@ -3,10 +3,16 @@ title: Ajouter un nœud de table avec une balise dans Aspose.Note
 linktitle: Ajouter un nœud de table avec une balise dans Aspose.Note
 second_title: API Aspose.Note .NET
 description: Découvrez comment ajouter des tables avec des balises dans Aspose.Note pour .NET. Améliorez vos compétences en manipulation de documents par programmation.
-type: docs
 weight: 11
 url: /fr/net/tag-management/add-table-node-tag/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Ajouter un nœud de table avec une balise dans Aspose.Note
+
 ## Introduction
 
 Dans ce didacticiel, nous vous guiderons tout au long du processus d'ajout d'un nœud de table avec une balise à l'aide d'Aspose.Note pour .NET. Suivez les étapes ci-dessous pour y parvenir.
@@ -137,3 +143,9 @@ A4 : Oui, Aspose.Note prend en charge le cryptage des documents OneNote pour gar
 ### Q5 : Le support technique est-il disponible pour les utilisateurs d'Aspose.Note ?
 
  A5 : Oui, le support technique est fourni via les forums Aspose[ici](https://forum.aspose.com/c/note/28), où vous pouvez demander l’aide d’experts.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

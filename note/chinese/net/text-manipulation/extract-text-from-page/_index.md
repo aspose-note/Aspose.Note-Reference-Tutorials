@@ -3,10 +3,16 @@ title: 在 Aspose.Note 中从页面中提取文本
 linktitle: 在 Aspose.Note 中从页面中提取文本
 second_title: Aspose.Note .NET API
 description: 释放 .NET 中 Aspose.Note 的强大功能！逐步学习从 OneNote 页面中提取文本。立即提高您的文档处理技能。
-type: docs
 weight: 17
 url: /zh/net/text-manipulation/extract-text-from-page/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# 在 Aspose.Note 中从页面中提取文本
+
 ## 介绍
 欢迎来到这个关于使用 .NET 从 Aspose.Note 页面中提取文本的综合教程。 Aspose.Note 是一个功能强大的文档操作库，可让您无缝地处理 Microsoft OneNote 文件。在本指南中，我们将重点介绍从页面中提取文本的分步过程，为您提供增强文档处理能力所需的知识。
 ## 先决条件
@@ -61,3 +67,9 @@ if (page != null)
 答：是的，Aspose.Note 提供了全面的编辑功能，允许您在文本提取后修改并保存文档。
 ### 问：我可以在哪里寻求额外的支持或帮助？
 答：访问[Aspose.Note 论坛](https://forum.aspose.com/c/note/28)以获得社区驱动的支持和讨论。
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -3,10 +3,16 @@ title: Truy xuất các tệp đính kèm bằng Aspose.Note
 linktitle: Truy xuất các tệp đính kèm bằng Aspose.Note
 second_title: Aspose.Note .NET API
 description: Tìm hiểu cách truy xuất tệp đính kèm từ tài liệu Microsoft OneNote bằng Aspose.Note for .NET. Làm theo các bước để tải, nhận nút và lặp lại thông qua các tệp đính kèm.
-type: docs
 weight: 12
 url: /vi/net/attachments/retrieve-attached-files/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Truy xuất các tệp đính kèm bằng Aspose.Note
+
 ## Giới thiệu
 
 Trong hướng dẫn này, chúng ta sẽ khám phá cách truy xuất các tệp đính kèm từ tài liệu bằng Aspose.Note cho .NET. Aspose.Note là một API mạnh mẽ cho phép các nhà phát triển làm việc với các tệp Microsoft OneNote theo chương trình. Chúng tôi sẽ chia quy trình thành các bước đơn giản để bạn dễ dàng thực hiện.
@@ -90,3 +96,9 @@ Câu trả lời 4: Có, bạn có thể sử dụng bản dùng thử miễn ph
 ### Câu hỏi 5: Làm cách nào tôi có thể nhận được giấy phép tạm thời cho Aspose.Note?
 
 Câu trả lời 5: Bạn có thể yêu cầu giấy phép tạm thời từ Aspose để đánh giá toàn bộ khả năng của API trong môi trường phát triển của bạn.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

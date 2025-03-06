@@ -3,10 +3,16 @@ title: Extrahujte informace o stránce pomocí Aspose.Note pro .NET
 linktitle: Extrahujte informace o stránce pomocí Aspose.Note pro .NET
 second_title: Aspose.Note .NET API
 description: Přečtěte si, jak extrahovat informace o stránce ze souborů Microsoft OneNote pomocí Aspose.Note pro .NET. Tento komplexní návod vás provede procesem krok za krokem.
-type: docs
 weight: 13
 url: /cs/net/note-manipulation/extract-page-information/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Extrahujte informace o stránce pomocí Aspose.Note pro .NET
+
 ## Úvod
 
 Aspose.Note for .NET je výkonná knihovna, která umožňuje vývojářům pracovat se soubory Microsoft OneNote programově. Extrahování informací o stránce z těchto souborů může být klíčové pro různé aplikace, od analýzy dat po správu dokumentů. V tomto tutoriálu vás provedeme procesem extrahování informací o stránce krok za krokem pomocí Aspose.Note pro .NET.
@@ -103,3 +109,9 @@ A4: Ano, můžete extrahovat, upravovat a přidávat přílohy pomocí Aspose.No
 ### Q5: Kde najdu další podporu a zdroje pro Aspose.Note pro .NET?
 
  Odpověď 5: Můžete navštívit fórum Aspose.Note for .NET[tady](https://forum.aspose.com/c/note/28) pro případnou pomoc nebo dotazy.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

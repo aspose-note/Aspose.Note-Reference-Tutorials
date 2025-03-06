@@ -3,10 +3,16 @@ title: Aspose.Note for .NET 标签管理教程
 linktitle: 标签管理
 second_title: Aspose.Note .NET API
 description: 通过标签管理掌握 Aspose.Note。添加图像、表格、文本节点并生成会议记录。检索标签详细信息并增强文档操作。
-type: docs
 weight: 30
 url: /zh/net/tag-management/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Aspose.Note for .NET 标签管理教程
+
 
 ## 介绍
 
@@ -49,3 +55,9 @@ url: /zh/net/tag-management/
 了解如何使用 Aspose.Note for .NET 以编程方式操作 Microsoft OneNote 文件。有效地打开和关闭带有标签的项目。
 ### [在 Aspose.Note 中使用标签进行报告](./reporting-tags/)
 了解如何使用 Aspose.Note for .NET 从数字文档生成富有洞察力的报告。提供分步指南。
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -3,10 +3,16 @@ title: Enregistrer une plage de pages au format PDF dans Aspose.Note
 linktitle: Enregistrer une plage de pages au format PDF dans Aspose.Note
 second_title: API Aspose.Note .NET
 description: Découvrez comment enregistrer une série de pages de documents OneNote sous forme de fichiers PDF à l'aide d'Aspose.Note pour .NET. Tutoriel étape par étape inclus.
-type: docs
 weight: 21
 url: /fr/net/loading-and-saving-operations/save-range-pages-as-pdf/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Enregistrer une plage de pages au format PDF dans Aspose.Note
+
 ## Introduction
 
 Dans le domaine du développement .NET, Aspose.Note se distingue comme un outil polyvalent permettant de gérer les documents OneNote avec facilité et efficacité. Parmi sa pléthore de fonctionnalités, l’une des fonctionnalités les plus recherchées est la possibilité d’enregistrer une série de pages sous forme de fichier PDF. Ce didacticiel vous guidera étape par étape tout au long du processus, garantissant que vous pouvez intégrer de manière transparente cette fonctionnalité dans vos projets.
@@ -99,3 +105,9 @@ A4 : Absolument ! Aspose.Note offre de nombreuses options pour personnaliser l'a
 ### Q5 : Où puis-je trouver une assistance et des ressources supplémentaires pour Aspose.Note ?
 
  A5 : Pour obtenir une assistance supplémentaire, de la documentation et une interaction avec la communauté, vous pouvez visiter le[Forum Aspose.Note](https://forum.aspose.com/c/note/28).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

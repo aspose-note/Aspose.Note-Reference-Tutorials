@@ -3,10 +3,16 @@ title: Aspose Note .NET のストリームからノートブックをロード�
 linktitle: Aspose Note .NET のストリームからノートブックをロードする
 second_title: Aspose.Note .NET API
 description: Aspose.Note for .NET のストリームからノートブックをロードする方法を学びます。 .NET アプリケーションにシームレスに統合するには、このステップバイステップ ガイドに従ってください。
-type: docs
 weight: 19
 url: /ja/net/notebook-operations/load-notebooks-from-stream/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Aspose Note .NET のストリームからノートブックをロードする
+
 ## 導入
 
 このチュートリアルでは、Aspose.Note for .NET を使用してストリームからノートブックを読み込む方法を検討します。 Aspose.Note は、開発者が Microsoft OneNote ファイルをプログラムで操作できるようにする強力なライブラリです。ストリームからノートブックをロードすることは、.NET アプリケーションでファイルの入出力操作を処理する場合の一般的なタスクです。
@@ -92,3 +98,9 @@ A1: はい、Aspose.Note for .NET は、.one、.onetoc2 などを含む、さま
 ### Q5: 一時ライセンスのオプションはありますか?
 
  A5: はい、次のサイトから一時ライセンスを取得できます。[ここ](https://purchase.aspose.com/temporary-license/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

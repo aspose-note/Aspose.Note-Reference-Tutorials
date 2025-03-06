@@ -3,10 +3,16 @@ title: Przywróć poprzednią wersję strony w programie OneNote — Aspose.Note
 linktitle: Przywróć poprzednią wersję strony w programie OneNote — Aspose.Note
 second_title: Aspose.Note API Java
 description: Dowiedz się, jak przywrócić poprzednie wersje stron w programie OneNote przy użyciu programu Aspose.Note dla języka Java. Postępuj zgodnie z tym przewodnikiem krok po kroku, aby efektywnie zarządzać dokumentami.
-type: docs
 weight: 19
 url: /pl/java/onenote-page-manipulation/roll-back-to-previous-page-version/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Przywróć poprzednią wersję strony w programie OneNote — Aspose.Note
+
 ## Wstęp
 
 W tym samouczku omówimy wykorzystanie Aspose.Note w Javie do przywrócenia poprzedniej wersji strony w OneNote. OneNote to potężne narzędzie do robienia notatek, współpracy i organizacji, ale czasami zdarzają się błędy lub konieczne jest cofnięcie zmian. Aspose.Note oferuje bezproblemową integrację z Javą, zapewniając programistom możliwość programowego zarządzania dokumentami OneNote. Przywracanie poprzedniej wersji strony jest kluczową funkcją pozwalającą zachować dokładność i integralność dokumentów programu OneNote.
@@ -91,3 +97,9 @@ O: Oczywiście, Aspose.Note oferuje szerokie możliwości programowego manipulow
 ### P5: Czy dostępne jest forum społeczności lub wsparcie dla Aspose.Note?
 
  Odpowiedź: Tak, możesz odwiedzić[Forum Aspose.Note](https://forum.aspose.com/c/note/28) aby uzyskać wsparcie społeczności lub skontaktuj się z obsługą klienta Aspose w celu uzyskania pomocy.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

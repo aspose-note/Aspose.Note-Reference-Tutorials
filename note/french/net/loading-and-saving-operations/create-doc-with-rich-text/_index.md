@@ -3,10 +3,16 @@ title: Créer un document avec du texte enrichi dans Aspose.Note
 linktitle: Créer un document avec du texte enrichi dans Aspose.Note
 second_title: API Aspose.Note .NET
 description: Découvrez comment créer des documents en texte enrichi par programmation à l'aide d'Aspose.Note pour .NET. Guide étape par étape avec des exemples de code.
-type: docs
 weight: 12
 url: /fr/net/loading-and-saving-operations/create-doc-with-rich-text/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Créer un document avec du texte enrichi dans Aspose.Note
+
 ## Introduction
 
 Dans le domaine du développement .NET, Aspose.Note se distingue comme un outil puissant pour gérer les fichiers Microsoft OneNote par programme. Que vous souhaitiez automatiser la création de documents ou manipuler des notes existantes, Aspose.Note offre aux développeurs un ensemble complet de fonctionnalités. Parmi ces fonctionnalités figure la possibilité de générer des documents en texte enrichi, dotés de diverses options de formatage. Dans ce didacticiel, nous aborderons étape par étape le processus de création de tels documents à l'aide d'Aspose.Note pour .NET.
@@ -170,3 +176,9 @@ A4 : Aspose.Note se concentre principalement sur le traitement local des documen
 ### Q5 : Où puis-je trouver plus de ressources et d'assistance pour Aspose.Note ?
 
  A5 : Vous pouvez explorer le[Forum Aspose.Note](https://forum.aspose.com/c/note/28) pour obtenir le soutien de la communauté et accéder à la documentation sur le[site web](https://reference.aspose.com/note/net/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

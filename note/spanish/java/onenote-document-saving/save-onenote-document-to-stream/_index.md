@@ -3,10 +3,16 @@ title: Guarde el documento de OneNote en la transmisión - Aspose.Note
 linktitle: Guarde el documento de OneNote en la transmisión - Aspose.Note
 second_title: Aspose.Nota Java API
 description: Aprenda cómo guardar documentos de OneNote en una secuencia usando Aspose.Note para Java. Siga nuestro tutorial paso a paso para una integración eficiente en sus aplicaciones Java.
-type: docs
 weight: 13
 url: /es/java/onenote-document-saving/save-onenote-document-to-stream/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Guarde el documento de OneNote en la transmisión - Aspose.Note
+
 ## Introducción
 
 Bienvenido a nuestro tutorial sobre el uso de Aspose.Note para Java para guardar documentos de OneNote en una secuencia. Aspose.Note es una poderosa biblioteca de Java que permite a los desarrolladores trabajar con archivos de Microsoft OneNote mediante programación. En este tutorial, lo guiaremos a través del proceso de guardar un documento de OneNote en una secuencia usando Aspose.Note.
@@ -73,3 +79,9 @@ R1: Sí, Aspose.Note admite guardar documentos en varios formatos como DOCX, HTM
 ### P5: ¿Necesito una licencia temporal para fines de evaluación?
 
  R5: Sí, puede obtener una licencia temporal de[aquí](https://purchase.aspose.com/temporary-license/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

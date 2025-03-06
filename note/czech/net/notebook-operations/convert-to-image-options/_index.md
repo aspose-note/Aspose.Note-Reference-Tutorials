@@ -3,10 +3,16 @@ title: Převeďte notebooky na obrázek s možnostmi v Aspose Note .NET
 linktitle: Převeďte notebooky na obrázek s možnostmi v Aspose Note .NET
 second_title: Aspose.Note .NET API
 description: Naučte se, jak převést poznámkové bloky na obrázky s přizpůsobitelnými možnostmi pomocí Aspose.Note pro .NET.
-type: docs
 weight: 13
 url: /cs/net/notebook-operations/convert-to-image-options/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Převeďte notebooky na obrázek s možnostmi v Aspose Note .NET
+
 ## Úvod
 
 tomto tutoriálu se ponoříme do převodu poznámkových bloků na obrázky s různými možnostmi pomocí knihovny Aspose.Note for .NET. Aspose.Note je výkonné rozhraní .NET API, které umožňuje vývojářům pracovat se soubory Microsoft OneNote programově. Podle kroků uvedených v této příručce se naučíte, jak bez námahy převést notebooky na obrázky a zároveň upravit výstup podle vašich požadavků.
@@ -95,3 +101,9 @@ Odpověď 4: Ano, Aspose.Note pro .NET poskytuje různé možnosti přizpůsoben
 ### Q5: Podporuje Aspose.Note pro .NET jiné formáty obrázků kromě PNG?
 
 Odpověď 5: Ano, Aspose.Note for .NET podporuje několik formátů obrázků, včetně JPEG, BMP, GIF a TIFF.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

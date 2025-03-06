@@ -3,10 +3,16 @@ title: Aspose.Note にタグ付きのテキスト ノードを追加する
 linktitle: Aspose.Note にタグ付きのテキスト ノードを追加する
 second_title: Aspose.Note .NET API
 description: Aspose.Note for .NET を使用して、タグ付きのテキスト ノードを OneNote ドキュメントに追加する方法を学習します。
-type: docs
 weight: 12
 url: /ja/net/tag-management/add-text-node-tag/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Aspose.Note にタグ付きのテキスト ノードを追加する
+
 ## 導入
 
 Aspose.Note for .NET は、開発者が .NET Framework を使用してプログラムで Microsoft OneNote ファイルを作成、操作、変換できるようにする強力なライブラリです。このチュートリアルでは、Aspose.Note for .NET を使用して、タグ付きのテキスト ノードを OneNote ドキュメントに追加する方法を説明します。
@@ -107,3 +113,9 @@ A4: はい。Aspose.Note for .NET は、データのセキュリティを確保�
 ### Q5: Aspose.Note for .NET のその他のリソースとサポートはどこで入手できますか?
 
  A5: を探索できます。[Aspose.Note for .NET ドキュメント](https://reference.aspose.com/note/net/)そして彼らに援助を求めてください[Aspose.Note フォーラム](https://forum.aspose.com/c/note/28).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

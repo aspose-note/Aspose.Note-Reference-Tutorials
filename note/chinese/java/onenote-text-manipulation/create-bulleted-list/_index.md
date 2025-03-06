@@ -3,10 +3,16 @@ title: 在 OneNote 中创建项目符号列表 - Aspose.Note
 linktitle: 在 OneNote 中创建项目符号列表 - Aspose.Note
 second_title: Aspose.Note Java API
 description: 探索有关使用 Aspose.Note for Java 在 OneNote 中创建项目符号列表的分步指南。轻松提升您的文档创建水平。
-type: docs
 weight: 12
 url: /zh/java/onenote-text-manipulation/create-bulleted-list/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# 在 OneNote 中创建项目符号列表 - Aspose.Note
+
 ## 介绍
 在 Java 开发的动态环境中，创建引人入胜且有组织的文档至关重要。 Aspose.Note for Java 提供了强大的工具集来增强您的文档创建过程。本教程将指导您完成使用 Aspose.Note for Java 在 OneNote 中创建项目符号列表的过程。让我们深入了解细节。
 ## 先决条件
@@ -92,3 +98,9 @@ Aspose.Note for Java 简化了创建格式良好的文档的过程。本教程�
 是的，您可以探索免费试用版[这里](https://releases.aspose.com/).
 ### 如何获得 Aspose.Note for Java 的临时许可证？
 获得临时许可证[这里](https://purchase.aspose.com/temporary-license/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

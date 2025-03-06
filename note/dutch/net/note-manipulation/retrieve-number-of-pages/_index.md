@@ -3,10 +3,16 @@ title: Haal het aantal pagina's op in het Aspose.Note-document
 linktitle: Haal het aantal pagina's op in het Aspose.Note-document
 second_title: Aspose.Note .NET API
 description: Leer hoe u de pagina's in uw Aspose.Note-document kunt tellen met C#. Volg onze stapsgewijze handleiding voor eenvoudige integratie.
-type: docs
 weight: 12
 url: /nl/net/note-manipulation/retrieve-number-of-pages/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Haal het aantal pagina's op in het Aspose.Note-document
+
 ## Invoering
 
 Aspose.Note voor .NET is een krachtige bibliotheek waarmee ontwikkelaars programmatisch met Microsoft OneNote-bestanden kunnen werken. Of u nu OneNote-documenten moet maken, manipuleren of converteren, Aspose.Note biedt uitgebreide functionaliteit om uw taken te stroomlijnen. In deze tutorial gaan we dieper in op een van de essentiële bewerkingen: het ophalen van het aantal pagina's in een Aspose.Note-document met behulp van C#.
@@ -100,3 +106,9 @@ A2: Absoluut, Aspose.Note ondersteunt conversie naar verschillende formaten, waa
 ### V5: Hoe kan ik technische ondersteuning krijgen voor Aspose.Note?
 
  A5: U kunt hulp zoeken en in contact komen met de gemeenschap op het internet[Aspose.Note-ondersteuningsforum](https://forum.aspose.com/c/note/28).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

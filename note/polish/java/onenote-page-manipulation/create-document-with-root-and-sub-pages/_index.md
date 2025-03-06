@@ -3,10 +3,16 @@ title: Utwórz dokument ze stronami głównymi i podrzędnymi w programie OneNot
 linktitle: Utwórz dokument ze stronami głównymi i podrzędnymi w programie OneNote
 second_title: Aspose.Note API Java
 description: Utwórz dokument ze stronami głównymi i podrzędnymi w OneNote, używając Aspose.Note dla Java. Postępuj zgodnie z przewodnikiem krok po kroku, aby sprawnie organizować notatki.
-type: docs
 weight: 11
 url: /pl/java/onenote-page-manipulation/create-document-with-root-and-sub-pages/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Utwórz dokument ze stronami głównymi i podrzędnymi w programie OneNote
+
 ## Wstęp
 
 W tym samouczku przeprowadzimy Cię przez proces tworzenia dokumentu ze stronami głównymi i podstronami w OneNote przy użyciu Aspose.Note dla Java. Wykonując poniższe kroki, będziesz w stanie efektywnie organizować dokumenty programu OneNote w oparciu o strukturę hierarchiczną.
@@ -169,3 +175,9 @@ O4: Tak, Aspose.Note dla Java obsługuje zapisywanie dokumentów w różnych for
 ### P5: Czy dostępna jest wersja próbna Aspose.Note dla Java?
 
 O5: Tak, możesz pobrać bezpłatną wersję próbną Aspose.Note dla Java ze strony internetowej.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

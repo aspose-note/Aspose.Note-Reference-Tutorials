@@ -3,10 +3,16 @@ title: Insertar imágenes con hipervínculos en Aspose.Note
 linktitle: Insertar imágenes con hipervínculos en Aspose.Note
 second_title: Aspose.Nota .NET API
 description: Aprenda a insertar imágenes con hipervínculos en Aspose.Note para .NET sin esfuerzo. Mejore la interactividad de los documentos con imágenes en las que se puede hacer clic.
-type: docs
 weight: 15
 url: /es/net/images/insert-image-hyperlink/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Insertar imágenes con hipervínculos en Aspose.Note
+
 ## Introducción
 
 Aspose.Note para .NET proporciona un potente conjunto de funciones para trabajar con imágenes, incluida la capacidad de insertar imágenes con hipervínculos. En este tutorial, lo guiaremos a través del proceso de insertar imágenes con hipervínculos usando Aspose.Note para .NET.
@@ -89,3 +95,9 @@ R3: Sí, puede personalizar la apariencia de los hipervínculos, incluidos los e
 ### P5: ¿Dónde puedo obtener soporte para Aspose.Note para .NET?
 
  R5: Puede obtener soporte para Aspose.Note para .NET desde el[Foros de Aspose.Note](https://forum.aspose.com/c/note/28), donde podrás hacer preguntas, buscar orientación e interactuar con otros usuarios y expertos.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

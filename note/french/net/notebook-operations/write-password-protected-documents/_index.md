@@ -3,10 +3,16 @@ title: Écrivez des documents protégés par mot de passe dans Aspose Note .NET
 linktitle: Écrivez des documents protégés par mot de passe dans Aspose Note .NET
 second_title: API Aspose.Note .NET
 description: Découvrez comment créer des documents protégés par mot de passe dans Aspose Note .NET pour une sécurité renforcée. Tutoriel étape par étape inclus.
-type: docs
 weight: 26
 url: /fr/net/notebook-operations/write-password-protected-documents/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Écrivez des documents protégés par mot de passe dans Aspose Note .NET
+
 ## Introduction
 
 Dans ce didacticiel, nous approfondirons le processus de création de documents protégés par mot de passe à l'aide d'Aspose.Note pour .NET. La protection par mot de passe ajoute une couche de sécurité supplémentaire à vos documents, garantissant que seules les personnes autorisées peuvent accéder à leur contenu. Nous vous guiderons à travers chaque étape, de l'importation des espaces de noms à l'écriture du code de protection par mot de passe.
@@ -90,3 +96,9 @@ A4 : Oui, Aspose.Note pour .NET utilise des algorithmes de cryptage puissants po
 ### Q5 : un support technique est-il disponible pour Aspose.Note pour .NET ?
 
  A5 : Oui, le support technique est disponible via le[Forum Aspose.Note](https://forum.aspose.com/c/note/28), où vous pouvez demander l’aide et les conseils d’experts.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

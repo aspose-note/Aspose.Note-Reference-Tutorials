@@ -3,10 +3,16 @@ title: Aspose.Note टेक्स्ट में चीनी नंबर स
 linktitle: Aspose.Note टेक्स्ट में चीनी नंबर सूची डालें
 second_title: Aspose.Note .NET API
 description: जानें कि .NET दस्तावेज़ों के लिए Aspose.Note में आसानी से चीनी नंबर सूचियाँ कैसे सम्मिलित करें। इस चरण-दर-चरण मार्गदर्शिका के साथ अपने दस्तावेज़ स्वरूपण कौशल को उन्नत करें।
-type: docs
 weight: 20
 url: /hi/net/text-manipulation/insert-chinese-number-list/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Aspose.Note टेक्स्ट में चीनी नंबर सूची डालें
+
 ## परिचय
 क्या आप अपने दस्तावेज़ों में चीनी नंबर सूचियों को शामिल करके .NET कौशल के लिए अपने Aspose.Note को बढ़ाना चाह रहे हैं? यदि हां, तो आप सही जगह पर हैं! इस ट्यूटोरियल में, हम आपको .NET के लिए Aspose.Note का उपयोग करके चीनी नंबर सूचियाँ सम्मिलित करने की प्रक्रिया के बारे में बताएंगे। यह शक्तिशाली लाइब्रेरी आपको OneNote दस्तावेज़ों में निर्बाध रूप से हेरफेर करने की अनुमति देती है।
 ## आवश्यक शर्तें
@@ -91,3 +97,9 @@ Console.WriteLine("\nChinese number list inserted successfully.\nFile saved at "
  उत्तर: एक अस्थायी लाइसेंस प्राप्त करें[यहाँ](https://purchase.aspose.com/temporary-license/).
 ### प्रश्न: मैं कहां सहायता मांग सकता हूं या Aspose.Note से संबंधित प्रश्नों पर चर्चा कर सकता हूं?
  ए: पर जाएँ[Aspose.नोट समर्थन मंच](https://forum.aspose.com/c/note/28) सामुदायिक समर्थन के लिए.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

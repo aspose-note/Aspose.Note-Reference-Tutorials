@@ -3,10 +3,16 @@ title: OneNote'ta Çıktı Görüntüsü Çözünürlüğünü Ayarlama - Aspose
 linktitle: OneNote'ta Çıktı Görüntüsü Çözünürlüğünü Ayarlama - Aspose.Note
 second_title: Aspose.Note Java API'si
 description: Aspose.Note for Java'yı kullanarak OneNote belgelerinde görüntü çözünürlüğünü nasıl ayarlayacağınızı öğrenin. Kolay uygulama için adım adım kılavuzumuzu izleyin
-type: docs
 weight: 23
 url: /tr/java/onenote-document-saving/set-output-image-resolution/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# OneNote'ta Çıktı Görüntüsü Çözünürlüğünü Ayarlama - Aspose.Note
+
 ## giriiş
 
 OneNote belgelerinizdeki görsellerin çözünürlüğünü Java kullanarak değiştirmek mi istiyorsunuz? Aspose.Note for Java bu tür görevler için güçlü bir çözüm sunar. Bu eğitimde Aspose.Note'u kullanarak çıktı görüntü çözünürlüğünü ayarlama adımlarını inceleyeceğiz.
@@ -88,3 +94,9 @@ Cevap4: Evet, Aspose.Note yeniden boyutlandırma, kırpma ve döndürme dahil ol
 ### S5: Aspose.Note ile ilgili sorgular için nereden destek alabilirim?
 
  Cevap5: Aspose.Note topluluk forumundan yardım isteyebilirsiniz[Burada](https://forum.aspose.com/c/note/28).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

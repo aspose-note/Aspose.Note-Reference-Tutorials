@@ -3,10 +3,16 @@ title: Nhận tác vụ Outlook trong OneNote - Aspose.Note
 linktitle: Nhận tác vụ Outlook trong OneNote - Aspose.Note
 second_title: API Java Aspose.Note
 description: Khám phá sức mạnh của Aspose.Note dành cho Java trong việc trích xuất các tác vụ Outlook từ OneNote một cách dễ dàng. Hãy làm theo hướng dẫn từng bước của chúng tôi và nâng cao khả năng xử lý tài liệu của bạn.
-type: docs
 weight: 10
 url: /vi/java/task-and-outlook-integration/get-outlook-task/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Nhận tác vụ Outlook trong OneNote - Aspose.Note
+
 ## Giới thiệu
 Chào mừng bạn đến với hướng dẫn toàn diện của chúng tôi về cách sử dụng Aspose.Note for Java để truy xuất các tác vụ Outlook trong OneNote một cách liền mạch. Aspose.Note là một API Java mạnh mẽ cho phép các nhà phát triển làm việc với các tệp Microsoft OneNote một cách dễ dàng. Trong hướng dẫn này, chúng tôi sẽ hướng dẫn bạn từng bước quy trình trích xuất các tác vụ Outlook từ tài liệu OneNote.
 ## Điều kiện tiên quyết
@@ -71,3 +77,9 @@ Aspose.Note hỗ trợ Microsoft OneNote 2010 và các phiên bản mới hơn.
  Tham quan[Diễn đàn Aspose.Note](https://forum.aspose.com/c/note/28) để hỗ trợ cộng đồng. Để được hỗ trợ thêm, hãy cân nhắc việc mua một[giấy phép tạm thời](https://purchase.aspose.com/temporary-license/).
 ### Có tài liệu OneNote mẫu nào có sẵn để thử nghiệm không?
  Bạn có thể tìm thấy tài liệu mẫu trong tài liệu Aspose.Note[đây](https://reference.aspose.com/note/java/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

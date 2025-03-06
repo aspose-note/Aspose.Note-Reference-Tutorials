@@ -3,10 +3,16 @@ title: Extraer texto de una tabla en OneNote - Aspose.Note
 linktitle: Extraer texto de una tabla en OneNote - Aspose.Note
 second_title: Aspose.Nota Java API
 description: Aprenda cómo extraer texto de tablas en OneNote sin esfuerzo usando Aspose.Note para Java. Siga nuestra guía paso a paso para una integración perfecta.
-type: docs
 weight: 14
 url: /es/java/onenote-table-manipulation/extract-text-from-table/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Extraer texto de una tabla en OneNote - Aspose.Note
+
 ## Introducción
 En el ámbito del desarrollo de Java, Aspose.Note se destaca como una poderosa herramienta para manejar documentos de OneNote. Una de sus características destacables es la capacidad de extraer texto de tablas sin esfuerzo. Este tutorial lo guiará a través del proceso, desglosando cada paso para garantizar una experiencia perfecta.
 ## Requisitos previos
@@ -73,3 +79,9 @@ Sí, Aspose.Note está diseñado para ser compatible con las últimas versiones 
  Puede encontrar apoyo comunitario en el[Foros de Aspose.Note](https://forum.aspose.com/c/note/28).
 ### ¿Cómo compro la biblioteca Aspose.Note?
  Puedes comprar la biblioteca.[aquí](https://purchase.aspose.com/buy).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

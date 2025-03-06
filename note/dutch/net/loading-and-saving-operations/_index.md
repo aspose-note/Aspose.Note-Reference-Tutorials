@@ -3,10 +3,16 @@ title: OneNote-documentmanipulatie met Aspose.Note voor .NET
 linktitle: Laad- en opslagbewerkingen
 second_title: Aspose.Note .NET API
 description: Ontgrendel de kracht van Aspose.Note voor .NET! Duik in onze tutorials voor stapsgewijze begeleiding bij het moeiteloos laden, opslaan en manipuleren van OneNote-documenten.
-type: docs
 weight: 25
 url: /nl/net/loading-and-saving-operations/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# OneNote-documentmanipulatie met Aspose.Note voor .NET
+
 
 ## Invoering
 
@@ -80,3 +86,9 @@ Leer hoe u een document met standaardinstellingen opslaat in Aspose.Note voor .N
 Leer hoe u opslagopties kunt opgeven in Aspose.Note voor .NET om het uitvoerformaat en de kwaliteit van OneNote-documenten aan te passen.
 ### [Gebruikersbesparende terugbelverzoeken in Aspose.Note](./user-saving-callbacks/)
 Leer hoe u gebruikersbesparende callbacks kunt implementeren in Aspose.Note voor .NET om het opslaan van lettertypen, CSS en afbeeldingen aan te passen.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

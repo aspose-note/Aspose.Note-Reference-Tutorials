@@ -3,10 +3,16 @@ title: Bekerja dengan Revisi Halaman di OneNote - Aspose.Note
 linktitle: Bekerja dengan Revisi Halaman di OneNote - Aspose.Note
 second_title: Aspose.Catatan Java API
 description: Pelajari cara mengelola revisi halaman di dokumen OneNote menggunakan Aspose.Note untuk Java. Memberikan panduan langkah demi langkah untuk pelacakan revisi dan kolaborasi yang efektif.
-type: docs
 weight: 21
 url: /id/java/onenote-page-manipulation/working-with-page-revisions/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Bekerja dengan Revisi Halaman di OneNote - Aspose.Note
+
 ## Perkenalan
 
 OneNote adalah alat canggih untuk menata dan mengelola catatan, namun terkadang Anda perlu bekerja dengan revisi untuk melacak perubahan dan berkolaborasi secara efektif. Dengan Aspose.Note untuk Java, Anda dapat dengan mudah mengelola revisi halaman di dokumen OneNote secara terprogram. Tutorial ini akan memandu Anda melalui proses langkah demi langkah.
@@ -98,3 +104,9 @@ A: Ya, Anda dapat menyesuaikan revisi halaman sesuai kebutuhan Anda menggunakan 
 ### Q5: Di mana saya bisa mendapatkan dukungan untuk Aspose.Note untuk Java?
 
  J: Anda bisa mendapatkan dukungan untuk Aspose.Note untuk Java dari[Aspose.Catatan forum](https://forum.aspose.com/c/note/28).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

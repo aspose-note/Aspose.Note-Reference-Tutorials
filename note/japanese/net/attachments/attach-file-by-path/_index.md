@@ -3,10 +3,16 @@ title: Aspose.Note のパスでファイルを添付
 linktitle: Aspose.Note のパスでファイルを添付
 second_title: Aspose.Note .NET API
 description: Aspose.Note for .NET を使用してプログラムで Microsoft OneNote ドキュメントにファイルを添付する方法を学びます。この包括的なチュートリアルを使用して、開発プロセスを簡素化します。
-type: docs
 weight: 11
 url: /ja/net/attachments/attach-file-by-path/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Aspose.Note のパスでファイルを添付
+
 ## 導入
 
 Aspose.Note for .NET は、開発者が Microsoft OneNote ファイルをプログラムで操作できるようにする強力なライブラリです。 OneNote ドキュメントを作成、編集、変換、操作する場合でも、Aspose.Note for .NET は開発プロセスを合理化するための包括的な機能を提供します。
@@ -147,3 +153,9 @@ A3: はい、Aspose.Note for .NET の商用利用にはライセンスを取得�
 ### Q5: Aspose.Note for .NET のサポートはどこに問い合わせればよいですか?
 
  A5: Aspose.Note コミュニティ フォーラムからサポートを求めることができます。[ここ](https://forum.aspose.com/c/note/28).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

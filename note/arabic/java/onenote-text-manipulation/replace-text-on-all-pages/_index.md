@@ -3,10 +3,16 @@ title: استبدال النص في كافة الصفحات في OneNote - Aspos
 linktitle: استبدال النص في كافة الصفحات في OneNote - Aspose.Note
 second_title: Aspose.Note جافا API
 description: اكتشف قوة Aspose.Note لـ Java! تعلم كيفية استبدال النص بسهولة في جميع الصفحات في OneNote. اتبع دليلنا خطوة بخطوة للتعامل السلس مع المستندات.
-type: docs
 weight: 20
 url: /ar/java/onenote-text-manipulation/replace-text-on-all-pages/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# استبدال النص في كافة الصفحات في OneNote - Aspose.Note
+
 ## مقدمة
 مرحبًا بك في هذا البرنامج التعليمي الشامل حول استخدام Aspose.Note لـ Java لاستبدال النص في جميع الصفحات في OneNote. إذا كنت تتطلع إلى تحديث مستندات OneNote وتنظيمها بكفاءة، فقد وصلت إلى المكان الصحيح. في هذا الدليل التفصيلي خطوة بخطوة، سنرشدك خلال العملية، مما يضمن أنك تفهم كل خطوة على طول الطريق.
 ## المتطلبات الأساسية
@@ -80,3 +86,9 @@ oneFile.save(dataDir + "ReplaceTextonAllPages_out.pdf", SaveFormat.Pdf);
  الوثائق متاحة[هنا](https://reference.aspose.com/note/java/).
 ### س: هل يمكنني شراء Aspose.Note لـ Java؟ 
  نعم، يمكنك شراء Aspose.Note لجافا[هنا](https://purchase.aspose.com/buy).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

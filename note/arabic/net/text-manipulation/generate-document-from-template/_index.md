@@ -3,10 +3,16 @@ title: قم بإنشاء مستند من القالب في Aspose.Note
 linktitle: قم بإنشاء مستند من القالب في Aspose.Note
 second_title: Aspose.Note .NET API
 description: أنشئ مستندات ديناميكية بسهولة باستخدام Aspose.Note لـ .NET. اتبع دليلنا خطوة بخطوة لإنشاء مستندات مخصصة ومعتمدة على البيانات.
-type: docs
 weight: 18
 url: /ar/net/text-manipulation/generate-document-from-template/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# قم بإنشاء مستند من القالب في Aspose.Note
+
 ## مقدمة
 في عالم إنشاء المستندات دائم التطور، يبرز Aspose.Note for .NET كأداة قوية لإنشاء مستندات ديناميكية دون عناء. سواء كنت تتعامل مع التقارير أو الفواتير أو المستندات المخصصة، سيرشدك هذا البرنامج التعليمي خلال عملية إنشاء مستند من قالب باستخدام Aspose.Note for .NET.
 ## المتطلبات الأساسية
@@ -80,3 +86,9 @@ templateDocument.Save(Path.Combine(dataDir, "JobOffer_out.one"));
  نعم يمكنك الحصول على ترخيص مؤقت[هنا](https://purchase.aspose.com/temporary-license/) لأغراض الاختبار والتقييم.
 ### أين يمكنني العثور على وثائق شاملة لـ Aspose.Note لـ .NET؟
  الرجوع إلى[توثيق](https://reference.aspose.com/note/net/) للحصول على معلومات تفصيلية حول استخدام Aspose.Note لـ .NET.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

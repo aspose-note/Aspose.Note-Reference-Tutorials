@@ -3,10 +3,16 @@ title: Ändra sidhistorik i OneNote - Aspose.Note
 linktitle: Ändra sidhistorik i OneNote - Aspose.Note
 second_title: Aspose.Note Java API
 description: Ta bort, ändra och lägg till sidhistorikposter sömlöst! Steg-för-steg guide & kod för att bemästra OneNote med Aspose.Note. #OneNote #Java #Aspose
-type: docs
 weight: 17
 url: /sv/java/onenote-page-manipulation/modify-page-history/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Ändra sidhistorik i OneNote - Aspose.Note
+
 ## Introduktion
 
 I den här handledningen kommer vi att fördjupa oss i att använda Aspose.Note för Java för att ändra sidhistorik i OneNote-dokument. Aspose.Note är ett kraftfullt Java API som tillåter utvecklare att arbeta sömlöst med OneNote-filer, vilket möjliggör olika operationer som att skapa, läsa och ändra dessa filer programmatiskt.
@@ -108,3 +114,10 @@ S4: Ja, Aspose.Note för Java tillhandahåller API:er för att hantera massändr
 ### F5: Finns det ett communityforum för Aspose.Note för Java där jag kan be om hjälp?
 
  A5: Ja, du kan besöka[Aspose.Note forum](https://forum.aspose.com/c/note/28) för all hjälp eller frågor relaterade till biblioteket.
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

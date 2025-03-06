@@ -3,10 +3,16 @@ title: Ορίστε το προεπιλεγμένο στυλ παραγράφο�
 linktitle: Ορίστε το προεπιλεγμένο στυλ παραγράφου στο OneNote - Aspose.Note
 second_title: Aspose.Note Java API
 description: Μάθετε πώς να ορίζετε προεπιλεγμένα στυλ παραγράφου στο OneNote χρησιμοποιώντας το Aspose.Note για Java. Ακολουθήστε τον βήμα προς βήμα οδηγό μας για αποτελεσματική μορφοποίηση κειμένου στις εφαρμογές σας Java.
-type: docs
 weight: 11
 url: /el/java/onenote-styles/set-default-paragraph-style/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Ορίστε το προεπιλεγμένο στυλ παραγράφου στο OneNote - Aspose.Note
+
 ## Εισαγωγή
 
 Το Aspose.Note για Java προσφέρει ισχυρές δυνατότητες χειρισμού μορφοποίησης κειμένου, συμπεριλαμβανομένης της ρύθμισης προεπιλεγμένων στυλ παραγράφων. Αυτό το σεμινάριο θα σας καθοδηγήσει στη διαδικασία ορισμού προεπιλεγμένων στυλ παραγράφων στο OneNote χρησιμοποιώντας το Aspose.Note.
@@ -127,3 +133,9 @@ A4: Ναι, μπορείτε εύκολα να ενσωματώσετε το Asp
 ### Ε5: Υπάρχει διαθέσιμη δοκιμαστική έκδοση για το Aspose.Note;
 
  A5: Ναι, μπορείτε να αποκτήσετε πρόσβαση σε μια δωρεάν δοκιμή του Aspose.Σημείωση από το[δικτυακός τόπος](https://releases.aspose.com/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

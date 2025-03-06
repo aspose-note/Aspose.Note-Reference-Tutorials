@@ -3,10 +3,16 @@ title: Définir la langue de vérification linguistique pour le texte dans Aspos
 linktitle: Définir la langue de vérification linguistique pour le texte dans Aspose.Note
 second_title: API Aspose.Note .NET
 description: Débloquez une manipulation de texte puissante avec Aspose.Note pour .NET. Définissez facilement la langue de vérification linguistique grâce à des conseils étape par étape. Améliorez vos projets .NET maintenant !
-type: docs
 weight: 25
 url: /fr/net/text-manipulation/set-proofing-language-text/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Définir la langue de vérification linguistique pour le texte dans Aspose.Note
+
 ## Introduction
 Bienvenue dans le monde d'Aspose.Note pour .NET ! Dans ce guide complet, nous explorerons le processus fascinant de définition du langage de vérification linguistique pour le texte à l'aide d'Aspose.Note. Que vous soyez un développeur chevronné ou que vous débutiez tout juste avec Aspose.Note, ce didacticiel vous fournira des informations détaillées et des instructions étape par étape pour améliorer vos compétences en manipulation de texte.
 ## Conditions préalables
@@ -89,3 +95,9 @@ Absolument! Aspose.Note est régulièrement mis à jour pour garantir la compati
  Certainement! Vous pouvez accéder à un essai gratuit d'Aspose.Note pour .NET[ici](https://releases.aspose.com/).
 ### Vous rencontrez des problèmes ou avez besoin d'aide ?
  Visiter le[Forum d'assistance Aspose.Note](https://forum.aspose.com/c/note/28) pour se connecter avec la communauté et obtenir l’aide d’experts.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -3,10 +3,16 @@ title: Προσθήκη εναλλακτικού κειμένου σε εικό�
 linktitle: Προσθήκη εναλλακτικού κειμένου σε εικόνες στο Aspose.Note
 second_title: Aspose.Note .NET API
 description: Μάθετε πώς να προσθέτετε εύκολα εναλλακτικό κείμενο σε εικόνες στο Aspose.Note για .NET. Βελτιώστε την προσβασιμότητα και βελτιώστε την εμπειρία χρήστη με αυτόν τον οδηγό βήμα προς βήμα.
-type: docs
 weight: 14
 url: /el/net/images/image-alternative-text/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Προσθήκη εναλλακτικού κειμένου σε εικόνες στο Aspose.Note
+
 ## Εισαγωγή
 
 Η προσθήκη εναλλακτικού κειμένου σε εικόνες στο Aspose.Note για .NET μπορεί να βελτιώσει την προσβασιμότητα και να βελτιώσει την κατανόηση των εικόνων για χρήστες με ειδικές ανάγκες. Σε αυτό το σεμινάριο, θα σας καθοδηγήσουμε στη διαδικασία βήμα προς βήμα.
@@ -97,3 +103,9 @@ A3: Το Aspose.Note ενσωματώνεται απρόσκοπτα με άλλ
 ### Ε5: Υπάρχει διαθέσιμη δωρεάν δοκιμή για το Aspose.Note;
 
 A5: Ναι, μπορείτε να επωφεληθείτε από μια δωρεάν δοκιμή του Aspose.Σημείωση επισκεπτόμενοι[εδώ](https://releases.aspose.com/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -3,10 +3,16 @@ title: Geben Sie die Speicheroptionen in Aspose.Note an
 linktitle: Geben Sie die Speicheroptionen in Aspose.Note an
 second_title: Aspose.Note .NET-API
 description: Erfahren Sie, wie Sie Speicheroptionen in Aspose.Note für .NET festlegen, um das Ausgabeformat und die Qualität von OneNote-Dokumenten anzupassen.
-type: docs
 weight: 30
 url: /de/net/loading-and-saving-operations/specify-save-options/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Geben Sie die Speicheroptionen in Aspose.Note an
+
 ## Einführung
 
 Im Bereich der .NET-Entwicklung sticht Aspose.Note als leistungsstarkes Tool für die Arbeit mit OneNote-Dokumenten hervor. Es bietet umfassende Funktionen zur effizienten Bearbeitung und Verwaltung dieser Dateien. Ein entscheidender Aspekt bei der Arbeit mit Aspose.Note ist die Angabe von Speicheroptionen, die es Entwicklern ermöglichen, das Ausgabeformat und die Qualität entsprechend ihren Anforderungen anzupassen.
@@ -94,3 +100,9 @@ A4: Aspose.Note ist für die Verarbeitung von OneNote-Dokumenten unterschiedlich
 ### F5: Bietet Aspose.Note Support und Hilfe für Entwickler, die auf Probleme stoßen?
 
 A5: Ja, Entwickler können das Aspose.Note-Supportteam über das Forum um Hilfe und Unterstützung bitten oder sich direkt an Aspose wenden, um etwaige Probleme oder Fragen zeitnah zu lösen.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

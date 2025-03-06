@@ -3,10 +3,16 @@ title: Hlášení pomocí značek v Aspose.Note
 linktitle: Hlášení pomocí značek v Aspose.Note
 second_title: Aspose.Note .NET API
 description: Naučte se generovat přehledné zprávy z digitálních dokumentů pomocí Aspose.Note pro .NET. Poskytován průvodce krok za krokem.
-type: docs
 weight: 16
 url: /cs/net/tag-management/reporting-tags/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Hlášení pomocí značek v Aspose.Note
+
 ## Úvod
 
 oblasti zpracování a správy dokumentů vyniká Aspose.Note for .NET jako výkonný nástroj pro práci s poznámkami, anotacemi a štítky v digitálních dokumentech. Tagy slouží k organizování, kategorizaci a filtrování informací v dokumentech, což umožňuje efektivní vyhledávání a analýzu. Tento tutoriál se ponoří do složitosti vytváření sestav pomocí značek v Aspose.Note a nabízí podrobné pokyny pro generování sestav na základě různých kritérií.
@@ -133,3 +139,9 @@ A2: Ano, máte přístup k bezplatné zkušební verzi Aspose.Note pro .NET z[we
 ## Otázka 5: Mohu přizpůsobit kritéria vykazování v Aspose.Note pro .NET?
 
 Odpověď 5: Ano, pomocí poskytnutých rozhraní API a příkladů můžete přizpůsobit kritéria vykazování podle svých konkrétních požadavků.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

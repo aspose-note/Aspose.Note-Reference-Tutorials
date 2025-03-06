@@ -3,10 +3,16 @@ title: 在 Aspose.Note 中使用指定字體儲存
 linktitle: 在 Aspose.Note 中使用指定字體儲存
 second_title: Aspose.Note .NET API
 description: 了解如何在 Aspose.Note for .NET 中儲存具有指定字型的文件。輕鬆自訂字體設置，以實現一致的文件格式。
-type: docs
 weight: 28
 url: /zh-hant/net/loading-and-saving-operations/save-using-specified-fonts/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# 在 Aspose.Note 中使用指定字體儲存
+
 ## 介紹
 
 在本教程中，我們將學習如何在 Aspose.Note for .NET 中使用指定字體儲存文件。我們將逐步探索實現這一目標的不同方法。
@@ -131,3 +137,9 @@ A4：是的，Aspose.Note 允許嵌入字體，以確保文件的可移植性和
 ### Q5：我可以在哪裡獲得有關 Aspose.Note 的進一步協助？
 
  A5： 如需進一步協助或技術支持，您可以訪問[Aspose.Note 論壇](https://forum.aspose.com/c/note/28).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

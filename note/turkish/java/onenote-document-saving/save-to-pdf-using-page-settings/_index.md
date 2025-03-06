@@ -3,10 +3,16 @@ title: OneNote'ta Sayfa Ayarlarını Kullanarak PDF'ye Kaydetme - Aspose.Note
 linktitle: OneNote'ta Sayfa Ayarlarını Kullanarak PDF'ye Kaydetme - Aspose.Note
 second_title: Aspose.Note Java API'si
 description: Aspose.Note kitaplığını kullanarak OneNote belgelerini Java'da PDF'ye nasıl kaydedeceğinizi öğrenin. Farklı sayfa ayarlarına yönelik kod örnekleri içeren adım adım kılavuz.
-type: docs
 weight: 19
 url: /tr/java/onenote-document-saving/save-to-pdf-using-page-settings/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# OneNote'ta Sayfa Ayarlarını Kullanarak PDF'ye Kaydetme - Aspose.Note
+
 ## giriiş
 
 Bu eğitimde, Aspose.Note for Java ile farklı sayfa ayarlarını kullanarak OneNote belgelerini PDF formatında nasıl kaydedeceğimizi öğreneceğiz. İki yöntemi ele alacağız: Letter sayfa ayarlarıyla kaydetme ve yükseklik sınırı olmadan A4 sayfa ayarlarıyla kaydetme.
@@ -112,3 +118,9 @@ Cevap4: Evet, Aspose.Note for Java'yı kullanarak birden fazla OneNote dosyasın
 ### S5: Test amaçlı herhangi bir deneme sürümü mevcut mu?
 
 Cevap5: Evet, web sitesinden Aspose.Note for Java'nın ücretsiz deneme sürümünü edinebilirsiniz.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

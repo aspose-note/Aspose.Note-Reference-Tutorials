@@ -3,10 +3,16 @@ title: Impostazione del colore di sfondo della cella in OneNote - Aspose.Note
 linktitle: Impostazione del colore di sfondo della cella in OneNote - Aspose.Note
 second_title: Aspose.Note API Java
 description: Trasforma facilmente i documenti OneNote utilizzando Aspose.Note per Java. Personalizza facilmente i colori di sfondo delle celle. Prova subito la prova gratuita!
-type: docs
 weight: 17
 url: /it/java/onenote-table-manipulation/setting-cell-background-color/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Impostazione del colore di sfondo della cella in OneNote - Aspose.Note
+
 ## introduzione
 Benvenuto nel nostro tutorial sull'impostazione del colore di sfondo della cella in OneNote utilizzando Aspose.Note per Java! In questa guida passo passo ti guideremo attraverso il processo di personalizzazione dei colori di sfondo delle celle nei tuoi documenti OneNote senza sforzo.
 ## Prerequisiti
@@ -66,3 +72,9 @@ Sì, puoi scorrere le righe e le celle della tabella per applicare il colore di 
  Visita il forum di supporto[Qui](https://forum.aspose.com/c/note/28) per ottenere assistenza dalla comunità Aspose.
 ### Dove posso acquistare Aspose.Note per Java?
  È possibile acquistare la libreria[Qui](https://purchase.aspose.com/buy).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

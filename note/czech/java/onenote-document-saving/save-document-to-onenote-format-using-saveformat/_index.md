@@ -3,10 +3,16 @@ title: Uložit dokument do OneNotu pomocí SaveFormat - Aspose.Note
 linktitle: Uložit dokument do OneNotu pomocí SaveFormat - Aspose.Note
 second_title: Aspose.Note Java API
 description: Naučte se ukládat dokumenty do formátu OneNote pomocí Aspose.Note pro Java. Postupujte podle tohoto podrobného návodu pro bezproblémovou integraci do vašich aplikací Java.
-type: docs
 weight: 12
 url: /cs/java/onenote-document-saving/save-document-to-onenote-format-using-saveformat/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Uložit dokument do OneNotu pomocí SaveFormat - Aspose.Note
+
 ## Úvod
 
 Aspose.Note for Java je výkonná knihovna, která umožňuje vývojářům pracovat se soubory Microsoft OneNote programově. Uložení dokumentu do formátu OneNote pomocí SaveFormat je jednoduchý proces. V tomto tutoriálu si projdeme kroky potřebné k provedení tohoto úkolu.
@@ -78,3 +84,9 @@ Odpověď 1: Aspose.Note for Java podporuje různé verze Microsoft OneNote a za
 ### Q5: Je k dispozici možnost dočasné licence pro Aspose.Note pro Java?
 
  A5: Ano, můžete získat dočasnou licenci pro Aspose.Note pro Java od[tady](https://purchase.aspose.com/temporary-license/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -3,10 +3,16 @@ title: Aspose.Note에서 페이지 범위를 PDF로 저장
 linktitle: Aspose.Note에서 페이지 범위를 PDF로 저장
 second_title: Aspose.Note .NET API
 description: .NET용 Aspose.Note를 사용하여 OneNote 문서의 다양한 페이지를 PDF 파일로 저장하는 방법을 알아보세요. 단계별 튜토리얼이 포함되어 있습니다.
-type: docs
 weight: 21
 url: /ko/net/loading-and-saving-operations/save-range-pages-as-pdf/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Aspose.Note에서 페이지 범위를 PDF로 저장
+
 ## 소개
 
 .NET 개발 영역에서 Aspose.Note는 OneNote 문서를 쉽고 효율적으로 처리하기 위한 다목적 도구로 돋보입니다. 수많은 기능 중에서 가장 많이 찾는 기능 중 하나는 다양한 페이지를 PDF 파일로 저장하는 기능입니다. 이 튜토리얼에서는 이 기능을 프로젝트에 원활하게 통합할 수 있도록 프로세스를 단계별로 안내합니다.
@@ -99,3 +105,9 @@ A4: 물론이죠! Aspose.Note는 페이지 크기, 방향, 여백 등을 포함�
 ### Q5: Aspose.Note에 대한 추가 지원과 리소스는 어디서 찾을 수 있나요?
 
  A5: 추가 지원, 문서 및 커뮤니티 상호 작용을 보려면 다음을 방문하세요.[Aspose.Note 포럼](https://forum.aspose.com/c/note/28).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

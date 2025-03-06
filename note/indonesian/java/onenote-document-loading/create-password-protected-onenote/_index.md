@@ -3,10 +3,16 @@ title: Buat Dokumen OneNote yang Dilindungi Kata Sandi - Java
 linktitle: Buat Dokumen OneNote yang Dilindungi Kata Sandi - Java
 second_title: Aspose.Catatan Java API
 description: Pelajari cara membuat dokumen OneNote yang dilindungi kata sandi di Java dengan Aspose.Note. Tingkatkan keamanan dengan mengikuti tutorial langkah demi langkah.
-type: docs
 weight: 19
 url: /id/java/onenote-document-loading/create-password-protected-onenote/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Buat Dokumen OneNote yang Dilindungi Kata Sandi - Java
+
 ## Perkenalan
 
 Dalam tutorial ini, kita akan mempelajari proses pembuatan dokumen OneNote yang dilindungi kata sandi menggunakan Java dengan bantuan Aspose.Note. Keamanan sangat penting ketika menangani informasi sensitif, dan perlindungan kata sandi menawarkan lapisan pertahanan yang efektif terhadap akses yang tidak sah. Kami akan memandu Anda melalui setiap langkah, memastikan bahwa Anda dapat menerapkan fitur keamanan penting ini dengan lancar ke dalam aplikasi Java Anda.
@@ -80,3 +86,9 @@ A4: Ya, Aspose.Note menyediakan dukungan untuk berbagai algoritma enkripsi untuk
 ### Q5: Apakah Aspose.Note cocok untuk aplikasi tingkat perusahaan?
 
 A5: Tentu saja, Aspose.Note dirancang untuk memenuhi tuntutan aplikasi tingkat perusahaan, menawarkan fitur keamanan yang kuat dan kinerja yang andal.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -3,10 +3,16 @@ title: Alternatív szöveg hozzáadása a OneNote képhez Java használatával
 linktitle: Alternatív szöveg hozzáadása a OneNote képhez Java használatával
 second_title: Aspose.Note Java API
 description: Ismerje meg, hogyan adhat alternatív szöveget a OneNote-dokumentumok képeihez Java használatával az Aspose.Note segítségével, ami javítja a kisegítő lehetőségeket és az inkluzivitást.
-type: docs
 weight: 10
 url: /hu/java/onenote-image-alternative-text/add-alternative-text-to-image/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Alternatív szöveg hozzáadása a OneNote képhez Java használatával
+
 ## Bevezetés
 
 Ebben az oktatóanyagban egy átfogó útmutatót mutatunk be az Aspose.Note for Java használatáról, amellyel alternatív szöveget adhat hozzá a OneNote-dokumentumok képeihez. Az alternatív szöveg a képek szöveges leírásaként szolgál, elősegítve a hozzáférést és a megértést azoknak az egyéneknek, akik esetleg nem tudják közvetlenül megtekinteni a képeket, például képernyőolvasót használók. Az oktatóanyagot követve megtanulhatja, hogyan integrálhat zökkenőmentesen alternatív szöveget OneNote-dokumentumaiba Java programozási nyelv használatával.
@@ -131,3 +137,9 @@ Ebben az oktatóanyagban megvizsgáltuk, hogyan javíthatjuk a OneNote-dokumentu
 ### 5. kérdés: Elérhető az Aspose.Note próbaverziója?
 
  5. válasz: Igen, igénybe veheti az Aspose.Note ingyenes próbaverzióját[itt](https://releases.aspose.com/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

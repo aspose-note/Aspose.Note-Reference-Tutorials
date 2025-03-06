@@ -3,10 +3,16 @@ title: สร้างชื่อเรื่องด้วย MS Style ใน
 linktitle: สร้างชื่อเรื่องด้วย MS Style ใน Aspose.Note
 second_title: Aspose.Note .NET API
 description: เรียนรู้วิธีสร้างชื่อเรื่องสไตล์ Microsoft ใน Aspose.Note สำหรับ .NET ยกระดับการนำเสนอเอกสารของคุณด้วยบทช่วยสอนที่ปฏิบัติตามได้ง่ายนี้
-type: docs
 weight: 15
 url: /th/net/text-manipulation/create-title-ms-style/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# สร้างชื่อเรื่องด้วย MS Style ใน Aspose.Note
+
 ## การแนะนำ
 คุณต้องการปรับปรุงกระบวนการสร้างเอกสารของคุณด้วยการเพิ่มชื่อสไตล์ Microsoft โดยใช้ Aspose.Note สำหรับ .NET หรือไม่? คู่มือที่ครอบคลุมนี้จะแนะนำคุณตลอดขั้นตอนในการสร้างชื่อเรื่องที่มีสไตล์ MS ได้อย่างง่ายดาย Aspose.Note for .NET เป็นเครื่องมืออันทรงพลังที่ช่วยให้นักพัฒนาสามารถจัดการเอกสาร OneNote โดยทางโปรแกรม
 ## ข้อกำหนดเบื้องต้น
@@ -80,3 +86,9 @@ Console.WriteLine("\nPage title set up successfully in Microsoft OneNote style.\
 ใช้กลไกการจัดการข้อยกเว้นใน C# เพื่อตรวจจับและจัดการกับข้อผิดพลาดที่อาจเกิดขึ้นระหว่างกระบวนการสร้างเอกสาร
 ### ฉันจะหาตัวอย่างและเอกสารประกอบเพิ่มเติมสำหรับ Aspose.Note สำหรับ .NET ได้ที่ไหน
  อ้างถึง[Aspose.Note สำหรับเอกสาร .NET](https://reference.aspose.com/note/net/)สำหรับตัวอย่างโดยละเอียดและเอกสารประกอบที่ครอบคลุม
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

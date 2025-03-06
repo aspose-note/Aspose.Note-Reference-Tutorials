@@ -3,10 +3,16 @@ title: Convertir des blocs-notes en PDF avec les options d'Aspose Note .NET
 linktitle: Convertir des blocs-notes en PDF avec les options d'Aspose Note .NET
 second_title: API Aspose.Note .NET
 description: Découvrez comment convertir des blocs-notes Microsoft OneNote au format PDF à l'aide de la bibliothèque Aspose.Note pour .NET avec des options personnalisables.
-type: docs
 weight: 16
 url: /fr/net/notebook-operations/convert-to-pdf-options/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Convertir des blocs-notes en PDF avec les options d'Aspose Note .NET
+
 ## Introduction
 
 Dans ce didacticiel, nous allons parcourir le processus de conversion des blocs-notes au format PDF à l'aide de la bibliothèque Aspose.Note pour .NET. Aspose.Note pour .NET fournit un ensemble puissant de fonctionnalités pour travailler avec les fichiers Microsoft OneNote par programme.
@@ -102,3 +108,9 @@ A4 : Oui, vous pouvez télécharger un essai gratuit d'Aspose.Note pour .NET à 
 ### Q5 : Comment puis-je obtenir une assistance technique pour Aspose.Note pour .NET ?
 
  A5 : Vous pouvez obtenir une assistance technique pour Aspose.Note pour .NET en visitant le[Forum Aspose.Note](https://forum.aspose.com/c/note/28) ou en contactant directement l'équipe d'assistance Aspose.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

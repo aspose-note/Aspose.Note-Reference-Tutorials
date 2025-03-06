@@ -3,10 +3,16 @@ title: Aspose.Note テキストの最近の変更をすべて強調表示する
 linktitle: Aspose.Note テキストの最近の変更をすべて強調表示する
 second_title: Aspose.Note .NET API
 description: Aspose.Note for .NET を使用して Note ドキュメントを強化します。このステップバイステップのチュートリアルで、テキスト内の最近の変更を強調表示する方法を学びましょう。
-type: docs
 weight: 19
 url: /ja/net/text-manipulation/highlight-recent-changes/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Aspose.Note テキストの最近の変更をすべて強調表示する
+
 ## 導入
 .NET を使用して、動的で視覚的に魅力的な機能を Note ドキュメントに追加したいと考えていますか? Aspose.Note for .NET は、Note ファイルをシームレスに操作および拡張できる強力なソリューションです。このチュートリアルでは、Aspose.Note テキストの最近の変更をすべて強調表示するという 1 つの特定の側面について詳しく説明します。
 ## 前提条件
@@ -70,3 +76,9 @@ try-catch ブロックを組み込んで例外を処理し、スムーズなユ�
 絶対に！ Aspose.Note は、フォント スタイル、サイズなどを含む、テキストの書式設定のための幅広い機能を提供します。
 ### このソリューションを Web アプリケーションに統合できますか?
 はい、Aspose.Note for .NET を Web アプリケーションに統合して、ドキュメント処理機能を強化できます。
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

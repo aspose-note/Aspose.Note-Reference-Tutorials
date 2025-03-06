@@ -3,10 +3,16 @@ title: Přidejte hypertextový odkaz do OneNotu s Javou
 linktitle: Přidejte hypertextový odkaz do OneNotu s Javou
 second_title: Aspose.Note Java API
 description: Naučte se přidávat hypertextové odkazy ve OneNotu pomocí Java s knihovnou Aspose.Note. Vylepšete své poznámky pomocí interaktivních odkazů bez námahy.
-type: docs
 weight: 10
 url: /cs/java/onenote-hyperlinks-images/add-hyperlink/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Přidejte hypertextový odkaz do OneNotu s Javou
+
 ## Úvod
 
 Přidání hypertextových odkazů do dokumentů OneNotu pomocí Java může výrazně zlepšit interaktivitu a užitečnost vašich poznámek. V tomto tutoriálu vás provedeme procesem krok za krokem pomocí knihovny Aspose.Note pro Java. Pojďme se ponořit!
@@ -136,3 +142,9 @@ Odpověď 4: Ano, integrace Aspose.Note do vašich projektů Java je přímočar
 ### Q5: Kde najdu další nápovědu a zdroje pro používání Aspose.Note?
 
  A5: Na webu najdete rozsáhlou dokumentaci, návody a podporu komunity[Aspose.Note fórum](https://forum.aspose.com/c/note/28).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

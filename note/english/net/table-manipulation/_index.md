@@ -3,10 +3,16 @@ title: Mastering Tables with OneNote Integration
 linktitle: Table Manipulation
 second_title: Aspose.Note .NET API
 description: Create visually appealing documents with Aspose.Note for .NET! Explore tutorials on table manipulation – change styles, compose tables, extract text, and more.
-type: docs
 weight: 29
 url: /net/table-manipulation/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Mastering Tables with OneNote Integration
+
 
 ## Introduction
 
@@ -62,3 +68,9 @@ Learn how to extract text from tables in Aspose.Note using C# with the .NET fram
 Learn to insert tables into Note documents with Aspose.Note for .NET. Organize data seamlessly for improved readability and presentation.
 ### [Set Cell Background Color in Aspose.Note Tables](./set-cell-background-color/)
 Learn how to set cell background color in Aspose.Note tables using step-by-step guide. Enhance document visuals effortlessly.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -3,10 +3,16 @@ title: إضافة عقدة صورة جديدة مع علامة في OneNote - As
 linktitle: إضافة عقدة صورة جديدة مع علامة في OneNote - Aspose.Note
 second_title: Aspose.Note جافا API
 description: تعرف على كيفية إضافة عقدة صورة جديدة بعلامة في OneNote باستخدام Aspose.Note لـ Java. ارفع مهاراتك في برمجة Java دون عناء.
-type: docs
 weight: 10
 url: /ar/java/onenote-tag-operations/add-new-image-node-with-tag/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# إضافة عقدة صورة جديدة مع علامة في OneNote - Aspose.Note
+
 ## مقدمة
 في عالم برمجة Java، يبرز Aspose.Note كأداة قوية للتعامل مع مستندات OneNote بسهولة. إذا كنت تتطلع إلى تحسين مهاراتك ومعرفة كيفية إضافة عقدة صورة جديدة بعلامة في OneNote باستخدام Aspose.Note، فقد وصلت إلى المكان الصحيح. سيرشدك هذا الدليل خطوة بخطوة خلال العملية، مما يضمن أنك تفهم كل مفهوم بدقة.
 ## المتطلبات الأساسية
@@ -96,3 +102,9 @@ doc.save(dataDir + "AddNewImageNodeWithTag_out.pdf", SaveFormat.Pdf);
  قم بزيارة منتدى المجتمع[هنا](https://forum.aspose.com/c/note/28) للدعم.
 ### هل أحتاج إلى ترخيص مؤقت؟
  إذا لزم الأمر، يمكنك الحصول على ترخيص مؤقت[هنا](https://purchase.aspose.com/temporary-license/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -3,10 +3,16 @@ title: Lưu vào hình ảnh nhị phân bằng phương pháp Otsu trong OneNot
 linktitle: Lưu vào hình ảnh nhị phân bằng phương pháp Otsu trong OneNote
 second_title: API Java Aspose.Note
 description: Tìm hiểu cách lưu tài liệu OneNote dưới dạng hình ảnh nhị phân bằng phương pháp Otsu với Aspose.Note for Java. Nâng cao khả năng của ứng dụng Java của bạn với Aspose.Note.
-type: docs
 weight: 15
 url: /vi/java/onenote-document-saving/save-to-binary-image-using-otsu-method/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Lưu vào hình ảnh nhị phân bằng phương pháp Otsu trong OneNote
+
 ## Giới thiệu
 
 Trong hướng dẫn này, chúng ta sẽ tìm hiểu cách lưu tài liệu dưới dạng ảnh nhị phân bằng phương pháp Otsu trong Aspose.Note cho Java. Aspose.Note là một API mạnh mẽ cho phép các nhà phát triển Java làm việc với các tệp Microsoft OneNote theo chương trình. Việc lưu tài liệu dưới dạng hình ảnh nhị phân có thể hữu ích cho nhiều ứng dụng khác nhau như xử lý hình ảnh, OCR (Nhận dạng ký tự quang học), v.v.
@@ -82,3 +88,9 @@ Câu trả lời 4: Mặc dù Aspose.Note chủ yếu xử lý việc thao tác 
 ### Câu hỏi 5: Tôi có thể nhận hỗ trợ ở đâu nếu gặp sự cố khi sử dụng Aspose.Note cho Java?
 
 Câu trả lời 5: Bạn có thể truy cập diễn đàn Aspose.Note hoặc liên hệ với nhóm hỗ trợ của họ để được hỗ trợ về bất kỳ vấn đề hoặc thắc mắc kỹ thuật nào.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

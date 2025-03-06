@@ -3,10 +3,16 @@ title: Mentés bináris képbe az Otsu-módszerrel a OneNote-ban
 linktitle: Mentés bináris képbe az Otsu-módszerrel a OneNote-ban
 second_title: Aspose.Note Java API
 description: Ismerje meg, hogyan mentheti a OneNote-dokumentumokat bináris képként az Otsu-módszerrel az Aspose.Note for Java segítségével. Növelje Java-alkalmazása képességeit az Aspose.Note segítségével.
-type: docs
 weight: 15
 url: /hu/java/onenote-document-saving/save-to-binary-image-using-otsu-method/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Mentés bináris képbe az Otsu-módszerrel a OneNote-ban
+
 ## Bevezetés
 
 Ebben az oktatóanyagban megtudjuk, hogyan lehet dokumentumot bináris képként menteni az Aspose.Note for Java Otsu metódusával. Az Aspose.Note egy hatékony API, amely lehetővé teszi a Java fejlesztők számára, hogy programozottan dolgozzanak Microsoft OneNote fájlokkal. A dokumentumok bináris képként történő mentése hasznos lehet különféle alkalmazásokhoz, például képfeldolgozáshoz, OCR-hez (optikai karakterfelismeréshez) és egyebekhez.
@@ -82,3 +88,9 @@ A3: Természetesen beállíthatja a binarizálási módszert és más lehetősé
 ### 5. kérdés: Hol kaphatok támogatást, ha problémákat tapasztalok az Aspose.Note for Java használata során?
 
 5. válasz: Felkeresheti az Aspose.Note fórumot, vagy felveheti a kapcsolatot a támogatási csapatával, ha segítségre van szüksége bármilyen technikai problémával vagy kérdéssel kapcsolatban.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

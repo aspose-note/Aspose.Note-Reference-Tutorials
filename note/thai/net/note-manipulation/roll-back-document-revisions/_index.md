@@ -3,10 +3,16 @@ title: ย้อนกลับการแก้ไขในเอกสาร 
 linktitle: ย้อนกลับการแก้ไขในเอกสาร Aspose.Note
 second_title: Aspose.Note .NET API
 description: เรียนรู้วิธีจัดการการแก้ไขอย่างมีประสิทธิภาพในเอกสาร Aspose.Note โดยใช้ Aspose.Note สำหรับ .NET ปฏิบัติตามคำแนะนำทีละขั้นตอนเพื่อย้อนกลับการแก้ไขได้อย่างราบรื่น
-type: docs
 weight: 18
 url: /th/net/note-manipulation/roll-back-document-revisions/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# ย้อนกลับการแก้ไขในเอกสาร Aspose.Note
+
 ## การแนะนำ
 
 ในโลกของการจัดการและการแก้ไขเอกสาร ความสามารถในการติดตามการเปลี่ยนแปลงและเปลี่ยนกลับเป็นเวอร์ชันก่อนหน้าได้อย่างราบรื่นถือเป็นสิ่งสำคัญ Aspose.Note สำหรับ .NET มีเครื่องมือที่มีประสิทธิภาพในการจัดการการแก้ไขอย่างมีประสิทธิภาพ เพื่อให้มั่นใจว่าคุณสามารถย้อนกลับการเปลี่ยนแปลงได้ทุกเมื่อที่จำเป็น ในบทช่วยสอนนี้ เราจะเจาะลึกกระบวนการย้อนกลับการแก้ไขในเอกสาร Aspose.Note ทีละขั้นตอน
@@ -99,3 +105,9 @@ A4: ได้ คุณสามารถรวมฟังก์ชันกา
 ### คำถามที่ 5: Aspose.Note ให้การสนับสนุนหรือไม่หากฉันพบปัญหาใดๆ ในระหว่างกระบวนการย้อนกลับ
 
  A5: ใช่ Aspose ให้การสนับสนุนโดยเฉพาะผ่านฟอรัมของพวกเขา ท่านสามารถเยี่ยมชมได้ที่[ฟอรั่ม Aspose.Note](https://forum.aspose.com/c/note/28) สำหรับความช่วยเหลือ.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

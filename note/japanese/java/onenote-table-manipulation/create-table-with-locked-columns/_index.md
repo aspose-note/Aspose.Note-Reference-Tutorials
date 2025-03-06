@@ -3,10 +3,16 @@ title: OneNote でロックされた列を含むテーブルを作成する - As
 linktitle: OneNote でロックされた列を含むテーブルを作成する - Aspose.Note
 second_title: Aspose.Note Java API
 description: Aspose.Note for Java を使用して OneNote エクスペリエンスを強化します。ステップバイステップのガイドを使用して、ロックされた列を含むテーブルを作成する方法を学びます。今すぐ無料トライアルをダウンロードしてください!
-type: docs
 weight: 12
 url: /ja/java/onenote-table-manipulation/create-table-with-locked-columns/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# OneNote でロックされた列を含むテーブルを作成する - Aspose.Note
+
 ## 導入
 OneNote は情報を整理するための強力なツールであり、Aspose.Note for Java はロックされた列を含むテーブルをシームレスに作成する方法を提供することでその機能を強化しています。このチュートリアルでは、Aspose.Note for Java を使用して、ロックされた列を含むテーブルを OneNote に作成するプロセスを説明します。
 ## 前提条件
@@ -90,3 +96,9 @@ doc.save(dataDir);
 訪問[Aspose.Note フォーラム](https://forum.aspose.com/c/note/28)サポートとコミュニティのディスカッションのために。
 ### Aspose.Note for Java の一時ライセンスを取得するにはどうすればよいですか?
 訪問[このリンク](https://purchase.aspose.com/temporary-license/)テスト目的で一時ライセンスを取得します。
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

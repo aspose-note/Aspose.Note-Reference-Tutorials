@@ -3,10 +3,16 @@ title: Load Notebook Instantly in OneNote - Aspose.Note
 linktitle: Load Notebook Instantly in OneNote - Aspose.Note
 second_title: Aspose.Note Java API
 description: Learn how to instantly load OneNote notebooks in Java using Aspose.Note for Java. Improve your productivity with efficient notebook handling.
-type: docs
 weight: 21
 url: /java/onenote-notebook-operations/load-notebook-instantly/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Load Notebook Instantly in OneNote - Aspose.Note
+
 ## Introduction
 
 In this tutorial, we'll guide you through the process of loading a notebook instantly in OneNote using Aspose.Note for Java. Aspose.Note is a powerful Java API that allows developers to work with Microsoft OneNote files programmatically.
@@ -87,3 +93,10 @@ A4: Yes, you can download a free trial version from [here](https://releases.aspo
 ### Q5: How can I obtain a temporary license for Aspose.Note for Java?
 
 A5: You can request a temporary license from the [temporary license page](https://purchase.aspose.com/temporary-license/).
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

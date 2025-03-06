@@ -3,10 +3,16 @@ title: Lägg till bildnod med tagg i Aspose.Note
 linktitle: Lägg till bildnod med tagg i Aspose.Note
 second_title: Aspose.Note .NET API
 description: Lär dig hur du förbättrar dina OneNote-dokument genom att lägga till bilder med anpassade taggar med Aspose.Note för .NET.
-type: docs
 weight: 10
 url: /sv/net/tag-management/add-image-node-tag/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Lägg till bildnod med tagg i Aspose.Note
+
 ## Introduktion
 
 I den här handledningen kommer vi att utforska hur man lägger till en bildnod med en tagg med Aspose.Note för .NET. Den här funktionen låter dig förbättra dina OneNote-dokument genom att lägga till bilder med anpassade taggar.
@@ -110,3 +116,9 @@ S4: Aspose.Note stöder i första hand att lägga till bilder från lokala katal
 ### F5: Finns det några begränsningar för storleken eller formatet på bilder som kan läggas till?
 
 S5: Aspose.Note stöder ett brett utbud av bildformat och ställer inga strikta begränsningar på bildstorleken, vilket gör att du kan införliva olika bilder i dina dokument.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

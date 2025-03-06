@@ -3,10 +3,16 @@ title: OneNote에서 텍스트 교정 언어 설정 - Aspose.Note
 linktitle: OneNote에서 텍스트 교정 언어 설정 - Aspose.Note
 second_title: Aspose.Note 자바 API
 description: Java용 Aspose.Note의 잠재력을 활용해 보세요! 단계별 가이드를 통해 OneNote에서 텍스트 교정 언어를 원활하게 설정하는 방법을 알아보세요.
-type: docs
 weight: 22
 url: /ko/java/onenote-text-manipulation/set-proofing-language-for-text/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# OneNote에서 텍스트 교정 언어 설정 - Aspose.Note
+
 ## 소개
 역동적인 소프트웨어 개발 세계에서 Aspose.Note for Java는 OneNote 문서를 프로그래밍 방식으로 관리하고 조작하기 위한 강력한 도구로 돋보입니다. OneNote에서 텍스트 교정 언어를 설정하는 기능으로 Java 응용 프로그램을 향상시키려는 경우 제대로 찾아오셨습니다. 이 튜토리얼에서는 각 개념을 명확하게 이해할 수 있도록 프로세스를 단계별로 안내합니다.
 ## 전제조건
@@ -67,3 +73,9 @@ A: 잠재적인 문제를 해결하려면 try-catch 블록을 사용하여 오�
 답: 물론이죠! 웹 프로젝트에 Java용 Aspose.Note 라이브러리가 올바르게 구성되어 있는지 확인하세요.
 ### Q: Aspose.Note for Java에 대한 추가 예제와 문서는 어디서 찾을 수 있나요?
  A: 탐색해 보세요.[선적 서류 비치](https://reference.aspose.com/note/java/) 포괄적인 자원을 위해.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

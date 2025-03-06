@@ -3,10 +3,16 @@ title: 從 OneNote 中的表格行取得儲存格文字 - Aspose.Note
 linktitle: 從 OneNote 中的表格行取得儲存格文字 - Aspose.Note
 second_title: Aspose.Note Java API
 description: 使用 Aspose.Note 解開 Java 中 OneNote 表中文字擷取的秘密。請按照我們的逐步指南來增強您的文件處理技能。
-type: docs
 weight: 15
 url: /zh-hant/java/onenote-table-manipulation/get-cell-text-from-row/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# 從 OneNote 中的表格行取得儲存格文字 - Aspose.Note
+
 ## 介紹
 踏上 Java 開發領域的旅程，我們將揭開使用強大的 Aspose.Note 函式庫從 OneNote 表格行中擷取文字的過程。本逐步指南將為您提供有效導覽和操作表格中文字的技能。
 ## 先決條件
@@ -73,3 +79,9 @@ for (Table table : nodes) {
 加入充滿活力的 Aspose.Note 社群：[論壇](https://forum.aspose.com/c/note/28)進行討論和尋求幫助。
 ### 是否有樣本文檔可用於測試目的？
 深入研究 Aspose.Note 文檔，以取得範例文檔和程式碼片段的寶庫。
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

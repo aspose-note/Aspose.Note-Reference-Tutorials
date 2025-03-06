@@ -3,10 +3,16 @@ title: Use o método de algoritmo de divisão no OneNote - Aspose.Note
 linktitle: Use o método de algoritmo de divisão no OneNote - Aspose.Note
 second_title: API Java Aspose.Note
 description: Domine a divisão de documentos do OneNote em Java com Aspose.Note! Escolha algoritmos, controle quebras de página e salve como PDF facilmente. Código incluído! #OneNote #Java #Aspose
-type: docs
 weight: 26
 url: /pt/java/onenote-document-saving/use-splitting-algorithm-method/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Use o método de algoritmo de divisão no OneNote - Aspose.Note
+
 ## Introdução
 
 Neste tutorial, nos aprofundaremos no uso do método de algoritmo de divisão em Aspose.Note para Java. Aspose.Note é uma biblioteca poderosa que permite aos desenvolvedores trabalhar com arquivos do Microsoft OneNote programaticamente. Utilizar o algoritmo de divisão pode ser particularmente útil quando você precisa manipular e exportar documentos do OneNote, especialmente ao lidar com layouts complexos ou arquivos grandes.
@@ -101,3 +107,9 @@ A2: Com certeza! Aspose.Note fornece recursos robustos para lidar com arquivos g
 ### Q5: Como posso obter uma licença temporária para Aspose.Note?
 
  A5: Você pode solicitar um[licença temporária](https://purchase.aspose.com/temporary-license/) para avaliar o produto em um período experimental.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -3,10 +3,16 @@ title: OneNote'ta Not Defterini Akışa Kaydetme - Aspose.Note
 linktitle: OneNote'ta Not Defterini Akışa Kaydetme - Aspose.Note
 second_title: Aspose.Note Java API'si
 description: Aspose.Note for Java'yı kullanarak not defterlerini OneNote'taki akışlara nasıl kaydedeceğinizi öğrenin. Etkin dizüstü bilgisayar yönetimiyle üretkenliği artırın.
-type: docs
 weight: 26
 url: /tr/java/onenote-notebook-operations/save-notebook-to-stream/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# OneNote'ta Not Defterini Akışa Kaydetme - Aspose.Note
+
 ## giriiş
 
 Bu eğitimde, Aspose.Note for Java kullanarak bir not defterini OneNote'taki bir akışa kaydetme sürecinde size rehberlik edeceğiz. Bu adımları izleyerek not defterlerinizi programlı bir şekilde verimli bir şekilde yönetebileceksiniz.
@@ -88,3 +94,9 @@ A3: Kesinlikle! Aspose.Note for Java, kusursuz entegrasyon yetenekleri sağlayar
 ### S5: Aspose.Note for Java'nın deneme sürümü mevcut mu?
 
  Cevap5: Evet, deneme sürümüne erişebilirsiniz[Burada](https://releases.aspose.com/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

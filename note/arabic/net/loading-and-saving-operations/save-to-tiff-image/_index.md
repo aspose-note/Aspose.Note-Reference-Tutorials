@@ -3,10 +3,16 @@ title: احفظ في صورة TIFF في Aspose.Note
 linktitle: احفظ في صورة TIFF في Aspose.Note
 second_title: Aspose.Note .NET API
 description: تعرف على كيفية حفظ مستندات OneNote كصور TIFF باستخدام طرق ضغط متنوعة باستخدام Aspose.Note لـ .NET.
-type: docs
 weight: 27
 url: /ar/net/loading-and-saving-operations/save-to-tiff-image/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# احفظ في صورة TIFF في Aspose.Note
+
 ## مقدمة
 
 في هذا البرنامج التعليمي، سنستكشف كيفية حفظ المستندات كصور بتنسيق TIFF باستخدام Aspose.Note لـ .NET. Aspose.Note عبارة عن واجهة برمجة تطبيقات قوية تتيح للمطورين العمل مع ملفات Microsoft OneNote برمجيًا. يمكن أن يكون حفظ مستندات OneNote كصور TIFF مفيدًا للعديد من التطبيقات مثل الأرشفة أو المشاركة أو الطباعة.
@@ -131,3 +137,9 @@ A1: نعم، يمكنك ضبط معلمة الجودة عند الحفظ باس�
 ### س5: هل هناك نسخة تجريبية متاحة لـ Aspose.Note؟
 
 ج5: نعم، يمكنك الحصول على نسخة تجريبية مجانية من Aspose.Note من[هنا](https://releases.aspose.com/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

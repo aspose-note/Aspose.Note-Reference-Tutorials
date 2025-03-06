@@ -3,10 +3,16 @@ title: Áp dụng Giấy phép Aspose.Note bằng FileStream
 linktitle: Áp dụng Giấy phép Aspose.Note bằng FileStream
 second_title: Aspose.Note .NET API
 description: Tìm hiểu cách áp dụng giấy phép Aspose.Note bằng FileStream trong các ứng dụng .NET của bạn để tích hợp liền mạch.
-type: docs
 weight: 12
 url: /vi/net/licensing/apply-license-using-filestream/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Áp dụng Giấy phép Aspose.Note bằng FileStream
+
 ## Giới thiệu
 
 Aspose.Note for .NET là một API mạnh mẽ cho phép các nhà phát triển làm việc với các tệp Microsoft OneNote theo chương trình. Cho dù bạn cần tạo, đọc, sửa đổi hay chuyển đổi tài liệu OneNote, Aspose.Note for .NET đều cung cấp các tính năng toàn diện để hợp lý hóa quy trình làm việc của bạn. Trong hướng dẫn này, chúng ta sẽ khám phá cách áp dụng giấy phép Aspose.Note bằng FileStream, đảm bảo ứng dụng của bạn được cấp phép hợp lệ để sử dụng trong sản xuất.
@@ -85,3 +91,9 @@ Câu trả lời 4: Bạn có thể nhận hỗ trợ từ cộng đồng Aspose
 ### Câu 5: Bạn có cung cấp giấy phép tạm thời không?
 
  Câu trả lời 5: Có, giấy phép tạm thời có sẵn[đây](https://purchase.aspose.com/temporary-license/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

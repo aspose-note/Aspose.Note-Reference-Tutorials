@@ -3,10 +3,16 @@ title: 在 OneNote 中立即加载笔记本 - Aspose.Note
 linktitle: 在 OneNote 中立即加载笔记本 - Aspose.Note
 second_title: Aspose.Note Java API
 description: 了解如何使用 Aspose.Note for Java 在 Java 中即时加载 OneNote 笔记本。通过高效的笔记本处理提高您的工作效率。
-type: docs
 weight: 21
 url: /zh/java/onenote-notebook-operations/load-notebook-instantly/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# 在 OneNote 中立即加载笔记本 - Aspose.Note
+
 ## 介绍
 
 在本教程中，我们将指导您完成使用 Aspose.Note for Java 在 OneNote 中立即加载笔记本的过程。 Aspose.Note 是一个功能强大的 Java API，允许开发人员以编程方式使用 Microsoft OneNote 文件。
@@ -87,3 +93,9 @@ A2：Aspose.Note for Java 支持各种版本的 OneNote 文件，包括 .one、.
 ### Q5：如何获得 Aspose.Note for Java 的临时许可证？
 
  A5：您可以向以下机构申请临时许可证：[临时许可证页面](https://purchase.aspose.com/temporary-license/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

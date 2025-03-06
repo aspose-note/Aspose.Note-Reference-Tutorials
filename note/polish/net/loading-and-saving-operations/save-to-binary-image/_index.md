@@ -3,10 +3,16 @@ title: Zapisz w obrazie binarnym w Aspose.Note
 linktitle: Zapisz w obrazie binarnym w Aspose.Note
 second_title: Aspose.Note .NET API
 description: Dowiedz się, jak konwertować dokumenty na obrazy binarne za pomocą Aspose.Note dla .NET. Postępuj zgodnie z naszym przewodnikiem krok po kroku, aby zapewnić bezproblemową integrację.
-type: docs
 weight: 22
 url: /pl/net/loading-and-saving-operations/save-to-binary-image/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Zapisz w obrazie binarnym w Aspose.Note
+
 ## Wstęp
 
 W tym samouczku omówimy, jak zapisać dokument w obrazie binarnym za pomocą Aspose.Note dla .NET. Proces ten polega na konwersji dokumentu na obraz czarno-biały o ustalonym progu, co może być przydatne w różnych zastosowaniach.
@@ -97,3 +103,9 @@ O4: Tak, możesz przeglądać wiele dokumentów i zapisywać je jako obrazy bina
 ### P5: Gdzie mogę znaleźć więcej zasobów i wsparcia dla Aspose.Note?
 
  Odpowiedź 5: Możesz eksplorować[Dokumentacja Aspose.Note](https://reference.aspose.com/note/net/) zwrócić się o pomoc do[Forum Aspose.Note](https://forum.aspose.com/c/note/28) w przypadku jakichkolwiek pytań lub problemów.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

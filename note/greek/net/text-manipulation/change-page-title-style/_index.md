@@ -3,10 +3,16 @@ title: Αλλαγή στυλ τίτλου σελίδας στο Aspose.Note
 linktitle: Αλλαγή στυλ τίτλου σελίδας στο Aspose.Note
 second_title: Aspose.Note .NET API
 description: Μεταμορφώστε τα έγγραφά σας .NET με το Aspose.Note! Μάθετε να αλλάζετε στυλ τίτλου σελίδας χωρίς κόπο. Αναβαθμίστε την αισθητική με μερικά απλά βήματα.
-type: docs
 weight: 13
 url: /el/net/text-manipulation/change-page-title-style/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Αλλαγή στυλ τίτλου σελίδας στο Aspose.Note
+
 ## Εισαγωγή
 Θέλετε να αναβαθμίσετε την οπτική ελκυστικότητα των εγγράφων σας .NET με δυναμικό στυλ τίτλου σελίδας; Το Aspose.Note για .NET προσφέρει μια απρόσκοπτη λύση, επιτρέποντάς σας να αλλάξετε εύκολα το στυλ των τίτλων της σελίδας σας. Σε αυτό το σεμινάριο, θα σας καθοδηγήσουμε στη διαδικασία, βήμα προς βήμα, διασφαλίζοντας ότι μπορείτε να βελτιώσετε την αισθητική των εγγράφων σας χωρίς καμία ταλαιπωρία.
 ## Προαπαιτούμενα
@@ -70,3 +76,9 @@ Console.WriteLine("\nTitle's styles are changed successfully.");
  Μπορείτε να αγοράσετε μια άδεια για το Aspose.Note[εδώ](https://purchase.aspose.com/buy).
 ### Χρειάζομαι μια προσωρινή άδεια για σκοπούς δοκιμής;
  Ναι, εάν δοκιμάζετε το Aspose.Note, μπορείτε να αποκτήσετε μια προσωρινή άδεια[εδώ](https://purchase.aspose.com/temporary-license/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

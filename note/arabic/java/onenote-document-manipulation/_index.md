@@ -3,10 +3,16 @@ title: معالجة مستند OneNote
 linktitle: معالجة مستند OneNote
 second_title: Aspose.Note جافا API
 description: قم بإنشاء مستندات OneNote ومعالجتها وأتمتتها في Java باستخدام Aspose.Note. برامج تعليمية خطوة بخطوة حول Document Visitor والنص المنسق وإنشاء النص المنسق.
-type: docs
 weight: 21
 url: /ar/java/onenote-document-manipulation/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# معالجة مستند OneNote
+
 
 ## مقدمة
 
@@ -29,3 +35,9 @@ url: /ar/java/onenote-document-manipulation/
 تعرف على كيفية إنشاء مستندات OneNote منسقة بشكل غني برمجياً في Java باستخدام Aspose.Note لـ Java. اتبع دليلنا خطوة بخطوة لأتمتة المستندات بسلاسة.
 ### [إنشاء مستند OneNote بنص منسق بسيط في Java](./create-onenote-document-simple-rich-text/)
 تعرف على كيفية إنشاء مستندات OneNote بنص منسق بسيط باستخدام Aspose.Note لـ Java. قم بدمج هذه الوظيفة بسلاسة في تطبيقات Java الخاصة بك لإدارة المستندات بكفاءة.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

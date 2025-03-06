@@ -3,10 +3,16 @@ title: OneNote 문서가 암호화되어 있는지 확인 - Java
 linktitle: OneNote 문서가 암호화되어 있는지 확인 - Java
 second_title: Aspose.Note 자바 API
 description: Aspose.Note를 사용하여 OneNote 문서가 Java로 암호화되었는지 확인하는 방법을 알아보세요. 효율적인 문서 처리를 위한 단계별 가이드를 따르세요.
-type: docs
 weight: 10
 url: /ko/java/onenote-document-loading/check-document-encrypted/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# OneNote 문서가 암호화되어 있는지 확인 - Java
+
 ## 소개
 
 Java로 OneNote 문서를 작업할 때 문서를 처리하기 전에 문서가 암호화되지 않았는지 확인하는 것이 중요합니다. 문서를 암호화하면 보안 계층이 추가될 수 있지만 올바르게 처리되지 않으면 처리 단계가 복잡해질 수도 있습니다. 이 튜토리얼에서는 OneNote 문서가 Java용 Aspose.Note를 사용하여 암호화되었는지 확인하는 과정을 안내합니다.
@@ -116,3 +122,9 @@ A4: 아니요, Aspose.Note는 OneNote 문서 작업용으로만 특별히 설계
 ### Q5: Java용 Aspose.Note에 대한 추가 리소스와 지원은 어디서 찾을 수 있나요?
 
  A5: 다음을 방문할 수 있습니다.[Aspose.Note 포럼](https://forum.aspose.com/c/note/28) 커뮤니티 지원 및 문서화를 위해.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

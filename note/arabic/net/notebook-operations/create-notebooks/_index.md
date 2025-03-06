@@ -3,10 +3,16 @@ title: إنشاء دفاتر الملاحظات في Aspose Note .NET
 linktitle: إنشاء دفاتر الملاحظات في Aspose Note .NET
 second_title: Aspose.Note .NET API
 description: تعرف على كيفية إنشاء دفاتر ملاحظات في Aspose Note .NET دون عناء. عزز سير عمل معالجة المستندات لديك الآن.
-type: docs
 weight: 17
 url: /ar/net/notebook-operations/create-notebooks/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# إنشاء دفاتر الملاحظات في Aspose Note .NET
+
 ## مقدمة
 
 في هذا البرنامج التعليمي، سوف نتعمق في تعقيدات إنشاء دفاتر الملاحظات باستخدام Aspose.Note لـ .NET. Aspose.Note هي مكتبة قوية تسمح للمطورين بمعالجة ملفات Microsoft OneNote برمجياً، وتقدم مجموعة واسعة من الوظائف لتبسيط إدارة المستندات ومهام المعالجة.
@@ -99,3 +105,10 @@ Console.WriteLine("\nNotebook created successfully.\nFile saved at " + dataDir);
  ج5: يمكنك الرجوع إلى الوثائق المتوفرة على:[توثيق](https://reference.aspose.com/note/net/).
 
 
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -3,10 +3,16 @@ title: Clone Pages Efficiently with Aspose.Note
 linktitle: Clone Pages Efficiently with Aspose.Note
 second_title: Aspose.Note .NET API
 description: Learn how to efficiently clone pages in OneNote documents using Aspose.Note for .NET. Follow our step-by-step tutorial for easy implementation.
-type: docs
 weight: 16
 url: /net/note-manipulation/efficient-page-cloning/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Clone Pages Efficiently with Aspose.Note
+
 ## Introduction
 
 In this tutorial, we will explore how to efficiently clone pages using Aspose.Note for .NET. Aspose.Note is a powerful .NET API that allows developers to work with Microsoft OneNote files programmatically. Cloning pages is a common task in document manipulation, and with Aspose.Note, this process becomes straightforward and efficient.
@@ -90,3 +96,10 @@ A4: Yes, you can manipulate the cloned pages as needed before saving them to a n
 ### Q5: Where can I get support if I encounter any issues while using Aspose.Note?
 
 A5: You can get support from the Aspose.Note forum [here](https://forum.aspose.com/c/note/28).
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

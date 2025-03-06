@@ -3,10 +3,16 @@ title: 取得 OneNote 中的頁數 - Aspose.Note
 linktitle: 取得 OneNote 中的頁數 - Aspose.Note
 second_title: Aspose.Note Java API
 description: 了解如何使用 Aspose.Note for Java 檢索 OneNote 文件中的頁數。本逐步教學將引導您輕鬆完成整個過程。
-type: docs
 weight: 13
 url: /zh-hant/java/onenote-page-manipulation/get-page-count/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# 取得 OneNote 中的頁數 - Aspose.Note
+
 ## 介紹
 
 在本教學中，我們將探討如何使用 Aspose.Note for Java 高效率地擷取 OneNote 文件中的頁數。 Aspose.Note 是一個功能強大的 Java API，可讓開發人員以程式設計方式處理 Microsoft OneNote 文件，從而實現文件操作、提取和轉換等任務。
@@ -86,3 +92,9 @@ A4：是的，您可以造訪以下網站上的文件和論壇：[阿斯普斯�
 ### Q5：Aspose.Note for Java 是否有試用版可供測試？
 
  A5：是的，您可以從以下網站下載免費試用版：[發布頁面](https://releases.aspose.com/)評估 API 的功能。
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -3,10 +3,16 @@ title: 从 OneNote 中的模板生成文档 - Aspose.Note
 linktitle: 从 OneNote 中的模板生成文档 - Aspose.Note
 second_title: Aspose.Note Java API
 description: 使用 Aspose.Note for Java 轻松生成动态文档。请按照我们的分步指南从模板高效生成文档。
-type: docs
 weight: 18
 url: /zh/java/onenote-text-manipulation/generate-document-from-template/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# 从 OneNote 中的模板生成文档 - Aspose.Note
+
 ## 介绍
 您是否希望简化 Java 应用程序中的文档生成？ Aspose.Note for Java 提供了一个强大的解决方案。在本教程中，我们将指导您使用 Aspose.Note for Java 从模板生成文档，使整个过程变得简单高效。
 ## 先决条件
@@ -84,3 +90,9 @@ Aspose.Note 主要支持 Java，但也有适用于其他语言（例如 .NET）�
 参观[Aspose.Note 论坛](https://forum.aspose.com/c/note/28)寻求社区的帮助和 Aspose 支持。
 ### 有免费试用吗？
 是的，您可以访问[免费试用](https://releases.aspose.com/)在购买前探索功能。
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

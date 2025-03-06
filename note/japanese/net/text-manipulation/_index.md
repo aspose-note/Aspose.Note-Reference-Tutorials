@@ -3,10 +3,16 @@ title: Aspose.Note for .NET を使用した OneNote でのテキスト操作
 linktitle: テキストの操作
 second_title: Aspose.Note .NET API
 description: Aspose.Note for .NET を使用して OneNote ドキュメントを変換します。箇条書きや番号付けの適用からスタイルの変更まで、テキスト操作テクニックを学びます。
-type: docs
 weight: 31
 url: /ja/net/text-manipulation/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Aspose.Note for .NET を使用した OneNote でのテキスト操作
+
 
 ## 導入
 
@@ -110,3 +116,9 @@ Aspose.Note for .NET ドキュメントに中国語の数字リストを簡単�
 デフォルトの段落スタイルの設定に関するステップバイステップのガイドを使用して、Aspose.Note for .NET の機能を探索してください。文書操作スキルを簡単に向上させます。
 ### [Aspose.Note でテキストの校正言語を設定する](./set-proofing-language-text/)
 Aspose.Note for .NET で強力なテキスト操作を実現します。ステップバイステップのガイダンスに従って、校正言語を簡単に設定できます。今すぐ .NET プロジェクトを強化してください。
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

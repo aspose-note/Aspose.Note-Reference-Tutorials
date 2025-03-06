@@ -3,10 +3,16 @@ title: Utwórz notatnik w OneNote - Aspose.Note
 linktitle: Utwórz notatnik w OneNote - Aspose.Note
 second_title: Aspose.Note API Java
 description: Dowiedz się, jak programowo tworzyć notesy w OneNote przy użyciu Aspose.Note dla Java. Usprawnij swój przepływ pracy dzięki temu przewodnikowi krok po kroku.
-type: docs
 weight: 18
 url: /pl/java/onenote-notebook-operations/create-notebook/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Utwórz notatnik w OneNote - Aspose.Note
+
 ## Wstęp
 
 W tym samouczku zagłębimy się w świat tworzenia notatników w OneNote przy użyciu Aspose.Note dla Java. Aspose.Note to potężna biblioteka Java, która umożliwia programistom programową pracę z plikami Microsoft OneNote. Niezależnie od tego, czy jesteś doświadczonym programistą, czy dopiero zaczynasz, ten przewodnik krok po kroku przeprowadzi Cię bez wysiłku przez proces tworzenia notatników.
@@ -86,3 +92,9 @@ A3: Absolutnie! Aspose.Note dla Java został zaprojektowany tak, aby bezproblemo
 ### P5: Gdzie mogę uzyskać pomoc dotyczącą Aspose.Note dla Java?
 
  O5: Aby uzyskać pomoc lub zadać pytania dotyczące Aspose.Note for Java, możesz odwiedzić stronę[Forum Aspose.Note](https://forum.aspose.com/c/note/28) nawiązać kontakt ze społecznością i uzyskać porady ekspertów.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

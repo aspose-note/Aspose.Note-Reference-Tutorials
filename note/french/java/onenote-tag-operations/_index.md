@@ -3,10 +3,16 @@ title: Opérations sur les balises OneNote
 linktitle: Opérations sur les balises OneNote
 second_title: API Java Aspose.Note
 description: Découvrez la puissance d'Aspose.Note pour Java. Améliorez votre expérience OneNote avec des guides étape par étape sur les opérations de balises, l'ajout d'images, de tableaux, de nœuds de texte, etc.
-type: docs
 weight: 33
 url: /fr/java/onenote-tag-operations/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Opérations sur les balises OneNote
+
 ## Introduction
 
 Découvrez comment optimiser votre expérience OneNote avec Aspose.Note pour Java. De l'ajout de nouveaux nœuds d'image aux nœuds de table dynamiques, cette série de didacticiels améliore sans effort vos compétences en programmation Java.
@@ -47,3 +53,9 @@ Découvrez comment ajouter des nœuds de texte avec des balises dans OneNote à 
 Améliorez la collaboration avec Aspose.Note pour Java ! Découvrez comment créer des modèles de notes de réunion dynamiques, étape par étape. Téléchargez la bibliothèque maintenant !
 ### [Obtenir des balises de nœud dans OneNote - Aspose.Note](./get-node-tags/)
 Découvrez les secrets de OneNote avec Aspose.Note pour Java. Ce guide vous permet d'extraire les balises de nœud sans effort. Plongez dans le futur de la manipulation de documents !
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

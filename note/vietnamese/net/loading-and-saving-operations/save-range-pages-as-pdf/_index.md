@@ -3,10 +3,16 @@ title: Lưu phạm vi trang dưới dạng PDF trong Aspose.Note
 linktitle: Lưu phạm vi trang dưới dạng PDF trong Aspose.Note
 second_title: Aspose.Note .NET API
 description: Tìm hiểu cách lưu nhiều trang từ tài liệu OneNote dưới dạng tệp PDF bằng Aspose.Note for .NET. Hướng dẫn từng bước bao gồm.
-type: docs
 weight: 21
 url: /vi/net/loading-and-saving-operations/save-range-pages-as-pdf/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Lưu phạm vi trang dưới dạng PDF trong Aspose.Note
+
 ## Giới thiệu
 
 Trong lĩnh vực phát triển .NET, Aspose.Note nổi bật như một công cụ linh hoạt để xử lý các tài liệu OneNote một cách dễ dàng và hiệu quả. Trong số rất nhiều tính năng của nó, một trong những chức năng được tìm kiếm nhiều nhất là khả năng lưu nhiều loại trang dưới dạng tệp PDF. Hướng dẫn này sẽ hướng dẫn bạn từng bước thực hiện quy trình, đảm bảo rằng bạn có thể tích hợp liền mạch khả năng này vào các dự án của mình.
@@ -99,3 +105,9 @@ A4: Chắc chắn rồi! Aspose.Note cung cấp các tùy chọn mở rộng đ�
 ### Câu hỏi 5: Tôi có thể tìm nguồn hỗ trợ và tài nguyên bổ sung cho Aspose.Note ở đâu?
 
  Câu trả lời 5: Để được hỗ trợ thêm, tài liệu và tương tác với cộng đồng, bạn có thể truy cập[Diễn đàn Aspose.Note](https://forum.aspose.com/c/note/28).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

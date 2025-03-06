@@ -3,10 +3,16 @@ title: Aspose.Note .NET-hiperhivatkozáshoz és OneNote-integrációhoz
 linktitle: Hiperhivatkozások
 second_title: Aspose.Note .NET API
 description: Tanulja meg az interaktivitás fokozását az Aspose.Note dokumentumokban! Fedezze fel az oktatóanyagokat a hiperhivatkozások hozzáadásával kapcsolatban az Aspose.Note for .NET segítségével, amely fokozza a dokumentum elköteleződését.
-type: docs
 weight: 22
 url: /hu/net/hyperlinks/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Aspose.Note .NET-hiperhivatkozáshoz és OneNote-integrációhoz
+
 ## Bevezetés
 
 Az Aspose.Note for .NET területén a hiperhivatkozások dokumentumaihoz való hozzáadásának képessége megváltoztatja a helyzetet. Növelje dokumentuma interaktivitását és elkötelezettségét lépésről lépésre bemutatott oktatóanyagaink követésével.
@@ -45,3 +51,9 @@ Készen áll a hiperhivatkozási utazásra? Fedezze fel speciális oktatóanyaga
 ## Hiperhivatkozások oktatóanyagok
 ### [Adjon hozzá hiperhivatkozásokat az Aspose.Note dokumentumokhoz](./add-hyperlinks/)
 Ismerje meg, hogyan adhat hiperhivatkozásokat az Aspose.Note dokumentumokhoz az Aspose.Note for .NET használatával. Növelje a dokumentumok interaktivitását ezzel a lépésről lépésre mutató oktatóanyaggal.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

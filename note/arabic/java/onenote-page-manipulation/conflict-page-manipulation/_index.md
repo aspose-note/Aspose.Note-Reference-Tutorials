@@ -3,10 +3,16 @@ title: معالجة صفحة الصراع في OneNote - Aspose.Note
 linktitle: معالجة صفحة الصراع في OneNote - Aspose.Note
 second_title: Aspose.Note جافا API
 description: تعرف على كيفية إدارة الصفحات المتعارضة بكفاءة في OneNote باستخدام Aspose.Note لـ Java. قم بحل النزاعات بسلاسة من خلال التوجيه خطوة بخطوة.
-type: docs
 weight: 10
 url: /ar/java/onenote-page-manipulation/conflict-page-manipulation/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# معالجة صفحة الصراع في OneNote - Aspose.Note
+
 ## مقدمة
 
 غالبًا ما يواجه مستخدمو OneNote تعارضات عندما يقوم عدة مستخدمين بتحرير نفس الصفحة في وقت واحد. يعد حل هذه التعارضات بكفاءة أمرًا ضروريًا للحفاظ على سلامة المستندات. يوفر Aspose.Note for Java أدوات قوية لإدارة الصفحات المتعارضة بسلاسة. في هذا البرنامج التعليمي، سوف نستكشف كيفية التعامل مع الصفحات المتعارضة باستخدام Aspose.Note لـ Java.
@@ -113,3 +119,9 @@ doc.save(dataDir + "ConflictPageManipulation_out.one", SaveFormat.One);
 ### س5: هل يوجد منتدى مجتمعي لـ Aspose.Note لمستخدمي Java؟
 
  ج5: بالتأكيد! انضم إلى منتدى مجتمعنا النابض بالحياة على[Aspose.Note لدعم جافا](https://forum.aspose.com/c/note/28)للتواصل مع المستخدمين الآخرين والحصول على مساعدة الخبراء.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

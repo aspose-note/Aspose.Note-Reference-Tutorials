@@ -3,10 +3,16 @@ title: Sử dụng Phương pháp thuật toán phân tách trong OneNote - Aspo
 linktitle: Sử dụng Phương pháp thuật toán phân tách trong OneNote - Aspose.Note
 second_title: API Java Aspose.Note
 description: Làm chủ việc chia tách tài liệu OneNote trong Java bằng Aspose.Note! Chọn thuật toán, kiểm soát ngắt trang và lưu dưới dạng PDF dễ dàng. Đã bao gồm mã! #OneNote #Java #Aspose
-type: docs
 weight: 26
 url: /vi/java/onenote-document-saving/use-splitting-algorithm-method/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Sử dụng Phương pháp thuật toán phân tách trong OneNote - Aspose.Note
+
 ## Giới thiệu
 
 Trong hướng dẫn này, chúng ta sẽ đi sâu vào cách sử dụng Phương thức thuật toán phân tách trong Aspose.Note cho Java. Aspose.Note là một thư viện mạnh mẽ cho phép các nhà phát triển làm việc với các tệp Microsoft OneNote theo chương trình. Việc sử dụng Thuật toán phân tách có thể đặc biệt hữu ích khi bạn cần thao tác và xuất tài liệu OneNote, đặc biệt là khi xử lý các bố cục phức tạp hoặc tệp lớn.
@@ -101,3 +107,9 @@ A2: Chắc chắn rồi! Aspose.Note cung cấp các tính năng mạnh mẽ đ�
 ### Câu hỏi 5: Làm cách nào tôi có thể nhận được giấy phép tạm thời cho Aspose.Note?
 
  Câu trả lời 5: Bạn có thể yêu cầu[giấy phép tạm thời](https://purchase.aspose.com/temporary-license/) để đánh giá sản phẩm trong thời gian dùng thử.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

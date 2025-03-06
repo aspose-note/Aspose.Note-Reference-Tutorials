@@ -3,10 +3,16 @@ title: Uložit do obrázku JPEG pomocí Uložit formát ve OneNotu
 linktitle: Uložit do obrázku JPEG pomocí Uložit formát ve OneNotu
 second_title: Aspose.Note Java API
 description: Převeďte dokument OneNote snadno na obrázek JPEG! Tento tutoriál Java ukazuje, jak používat Aspose.Note. Převádějte a automatizujte pomocí příkladů kódu! #OneNote #Java #Aspose
-type: docs
 weight: 18
 url: /cs/java/onenote-document-saving/save-to-jpeg-image-using-save-format/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Uložit do obrázku JPEG pomocí Uložit formát ve OneNotu
+
 ## Úvod
 
 V tomto tutoriálu se ponoříme do procesu ukládání dokumentu do obrazového formátu JPEG pomocí Aspose.Note pro Java. Aspose.Note je výkonné Java API, které umožňuje vývojářům pracovat se soubory Microsoft OneNote programově a umožňuje různé operace, jako je konverze, manipulace a extrakce obsahu.
@@ -78,3 +84,9 @@ Odpověď 1: Ano, Aspose.Note je navržen tak, aby efektivně zpracovával slož
 ### Q5: Kde najdu podrobnou dokumentaci k Aspose.Note pro Java?
 
 A5: Můžete najít podrobnou dokumentaci pro Aspose.Note pro Java[tady](https://reference.aspose.com/note/java/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

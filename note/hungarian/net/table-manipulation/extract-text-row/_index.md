@@ -3,10 +3,16 @@ title: Szöveg kibontása a táblázat soraiból az Aspose.Note-ban
 linktitle: Szöveg kibontása a táblázat soraiból az Aspose.Note-ban
 second_title: Aspose.Note .NET API
 description: Ezzel az átfogó oktatóanyaggal megtudhatja, hogyan vonhat ki szöveget a táblázat soraiból az Aspose.Note for .NET programban.
-type: docs
 weight: 14
 url: /hu/net/table-manipulation/extract-text-row/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Szöveg kibontása a táblázat soraiból az Aspose.Note-ban
+
 ## Bevezetés
 
 A dokumentumfeldolgozás területén az Aspose.Note for .NET robusztus megoldás, amely lehetővé teszi a fejlesztők számára a OneNote-fájlok hatékony, programozott kezelését. Számtalan képessége közül a fejlesztők gyakori feladatai közé tartozik a szövegek kinyerése a táblázat soraiból. Ez az oktatóanyag végigvezeti Önt a táblázat soraiból a szöveg Aspose.Note for .NET segítségével történő kinyerésének folyamatán.
@@ -98,3 +104,9 @@ Ebben az oktatóanyagban megvizsgáltuk, hogyan lehet szöveget kivonni a tábl�
 ### 5. kérdés: Kipróbálhatom az Aspose.Note-ot .NET-hez a vásárlás előtt?
 
  5. válasz: Természetesen igénybe veheti az ingyenes próbaverziót a[kiadási oldal](https://releases.aspose.com/) jellemzőinek és képességeinek feltárására.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

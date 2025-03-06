@@ -3,10 +3,16 @@ title: Načíst dokumenty chráněné heslem ve OneNotu – Aspose.Note
 linktitle: Načíst dokumenty chráněné heslem ve OneNotu – Aspose.Note
 second_title: Aspose.Note Java API
 description: Přečtěte si, jak načíst dokumenty chráněné heslem ve OneNotu pomocí Aspose.Note pro Java. Postupujte podle našeho podrobného průvodce pro bezproblémovou integraci.
-type: docs
 weight: 22
 url: /cs/java/onenote-notebook-operations/load-password-protected-documents/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Načíst dokumenty chráněné heslem ve OneNotu – Aspose.Note
+
 ## Úvod
 
 V tomto tutoriálu si projdeme proces načítání heslem chráněných dokumentů ve OneNotu pomocí Aspose.Note pro Java. Aspose.Note je výkonná Java knihovna, která umožňuje vývojářům pracovat se soubory Microsoft OneNote programově a umožňuje různé operace, jako je načítání, úpravy a ukládání dokumentů.
@@ -79,3 +85,9 @@ Odpověď: Ano, Aspose.Note nabízí podporu pro načítání a manipulaci s hes
 ### Q5: Je k dispozici zkušební verze pro Aspose.Note?
 
 Odpověď: Ano, můžete si stáhnout bezplatnou zkušební verzi Aspose.Note z[tady](https://releases.aspose.com/) k prozkoumání jeho funkcí před nákupem.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

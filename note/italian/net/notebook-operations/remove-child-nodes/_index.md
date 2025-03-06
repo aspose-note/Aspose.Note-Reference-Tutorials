@@ -3,10 +3,16 @@ title: Rimuovere i nodi figlio in Aspose Note .NET
 linktitle: Rimuovere i nodi figlio in Aspose Note .NET
 second_title: Aspose.Note API .NET
 description: Scopri come rimuovere i nodi figlio in Aspose.Note per .NET senza sforzo. Semplifica la gestione dei file OneNote con questa guida passo passo.
-type: docs
 weight: 24
 url: /it/net/notebook-operations/remove-child-nodes/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Rimuovere i nodi figlio in Aspose Note .NET
+
 ## introduzione
 
 In questo tutorial esploreremo come rimuovere in modo efficiente i nodi figlio utilizzando Aspose.Note per .NET. Aspose.Note è una potente libreria che consente agli sviluppatori di lavorare con i file Microsoft OneNote a livello di codice. Che tu stia gestendo taccuini, sezioni o singole pagine, Aspose.Note semplifica il processo con la sua API intuitiva. Qui ci concentreremo specificamente sulla rimozione dei nodi figlio da un notebook.
@@ -92,3 +98,9 @@ A4: Assolutamente! Aspose.Note offre robuste funzionalità per creare, leggere e
 ### Q5: Dove posso trovare ulteriore supporto per Aspose.Note?
 
  R5: Per qualsiasi ulteriore assistenza o richiesta, è possibile visitare il[Forum Aspose.Note](https://forum.aspose.com/c/note/28) dove esperti e colleghi sviluppatori sono disponibili per aiutare.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

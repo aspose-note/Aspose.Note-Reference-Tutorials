@@ -3,10 +3,16 @@ title: Aspose Note .NET의 옵션을 사용하여 노트북을 이미지로 변�
 linktitle: Aspose Note .NET의 옵션을 사용하여 노트북을 이미지로 변환
 second_title: Aspose.Note .NET API
 description: .NET용 Aspose.Note를 사용하여 사용자 정의 가능한 옵션을 사용하여 노트북을 이미지로 변환하는 방법을 알아보세요.
-type: docs
 weight: 13
 url: /ko/net/notebook-operations/convert-to-image-options/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Aspose Note .NET의 옵션을 사용하여 노트북을 이미지로 변환
+
 ## 소개
 
 이 튜토리얼에서는 Aspose.Note for .NET 라이브러리를 사용하여 다양한 옵션을 사용하여 노트북을 이미지로 변환하는 방법을 살펴보겠습니다. Aspose.Note는 개발자가 Microsoft OneNote 파일을 프로그래밍 방식으로 작업할 수 있게 해주는 강력한 .NET API입니다. 이 가이드에 설명된 단계를 수행하면 요구 사항에 따라 출력을 사용자 지정하면서 노트북을 이미지로 쉽게 변환하는 방법을 배울 수 있습니다.
@@ -95,3 +101,9 @@ A4: 예, .NET용 Aspose.Note는 여백, 색상 및 압축 수준 조정과 같�
 ### Q5: .NET용 Aspose.Note는 PNG 외에 다른 이미지 형식을 지원합니까?
 
 A5: 예, .NET용 Aspose.Note는 JPEG, BMP, GIF 및 TIFF를 포함한 여러 이미지 형식을 지원합니다.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

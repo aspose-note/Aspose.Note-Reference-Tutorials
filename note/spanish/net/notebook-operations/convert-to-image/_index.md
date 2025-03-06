@@ -3,10 +3,16 @@ title: Convierta cuadernos en imágenes en Aspose Note .NET
 linktitle: Convierta cuadernos en imágenes en Aspose Note .NET
 second_title: Aspose.Nota .NET API
 description: Aprenda cómo convertir cuadernos de OneNote en imágenes usando Aspose.Note para .NET. Siga esta guía paso a paso para una integración perfecta.
-type: docs
 weight: 11
 url: /es/net/notebook-operations/convert-to-image/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Convierta cuadernos en imágenes en Aspose Note .NET
+
 ## Introducción
 
 En este tutorial, exploraremos cómo convertir cuadernos en imágenes usando Aspose.Note para .NET. Aspose.Note es una potente API que permite a los desarrolladores trabajar con archivos de Microsoft OneNote mediante programación, lo que permite una amplia gama de funcionalidades. La conversión de cuadernos a imágenes puede resultar particularmente útil para diversas aplicaciones, como generar vistas previas, compartir contenido o integrarse con otros sistemas que requieren formatos de imagen.
@@ -81,3 +87,9 @@ R3: Sí, puedes descargar una versión de prueba gratuita desde[aquí](https://r
 ### P5: ¿Puedo utilizar Aspose.Note para .NET en proyectos comerciales?
 
  R5: Sí, puede comprar una licencia en[aquí](https://purchase.aspose.com/buy) utilizar Aspose.Note para .NET en proyectos comerciales.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

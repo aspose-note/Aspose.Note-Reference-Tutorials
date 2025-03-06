@@ -3,10 +3,16 @@ title: OneNote 문서 조작
 linktitle: OneNote 문서 조작
 second_title: Aspose.Note 자바 API
 description: Aspose.Note를 사용하여 Java에서 OneNote 문서를 생성, 조작 및 자동화하세요. 문서 방문자, 서식 있는 서식 있는 텍스트 및 서식 있는 텍스트 생성에 대한 단계별 자습서입니다.
-type: docs
 weight: 21
 url: /ko/java/onenote-document-manipulation/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# OneNote 문서 조작
+
 
 ## 소개
 
@@ -29,3 +35,9 @@ Aspose.Note와 함께 Java를 사용하여 OneNote에서 문서 방문자를 활
 Java용 Aspose.Note를 사용하여 Java에서 프로그래밍 방식으로 다양한 형식의 OneNote 문서를 만드는 방법을 알아보세요. 원활한 문서 자동화를 위한 단계별 가이드를 따르세요.
 ### [Java에서 간단한 서식 있는 텍스트를 사용하여 OneNote 문서 만들기](./create-onenote-document-simple-rich-text/)
 Aspose.Note for Java를 사용하여 간단한 서식 있는 텍스트로 OneNote 문서를 만드는 방법을 알아보세요. 효율적인 문서 관리를 위해 이 기능을 Java 애플리케이션에 원활하게 통합하세요.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

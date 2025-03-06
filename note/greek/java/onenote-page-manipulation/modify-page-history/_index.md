@@ -3,10 +3,16 @@ title: Τροποποίηση ιστορικού σελίδας στο OneNote -
 linktitle: Τροποποίηση ιστορικού σελίδας στο OneNote - Aspose.Note
 second_title: Aspose.Note Java API
 description: Διαγράψτε, τροποποιήστε και προσθέστε καταχωρήσεις ιστορικού σελίδας απρόσκοπτα! Βήμα-βήμα οδηγός και κώδικας για το mastering OneNote με το Aspose.Note. #OneNote #Java #Aspose
-type: docs
 weight: 17
 url: /el/java/onenote-page-manipulation/modify-page-history/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Τροποποίηση ιστορικού σελίδας στο OneNote - Aspose.Note
+
 ## Εισαγωγή
 
 Σε αυτό το σεμινάριο, θα εμβαθύνουμε στη χρήση του Aspose.Note για Java για την τροποποίηση του ιστορικού σελίδων στα έγγραφα του OneNote. Το Aspose.Note είναι ένα ισχυρό API Java που επιτρέπει στους προγραμματιστές να εργάζονται απρόσκοπτα με αρχεία OneNote, επιτρέποντας διάφορες λειτουργίες όπως η δημιουργία, η ανάγνωση και η τροποποίηση αυτών των αρχείων μέσω προγραμματισμού.
@@ -108,3 +114,10 @@ A4: Ναι, το Aspose.Note για Java παρέχει API για τον απο
 ### Ε5: Υπάρχει κάποιο φόρουμ κοινότητας για το Aspose.Note για Java όπου μπορώ να ζητήσω βοήθεια;
 
  A5: Ναι, μπορείτε να επισκεφθείτε το[Aspose.Note φόρουμ](https://forum.aspose.com/c/note/28) για οποιαδήποτε βοήθεια ή απορία σχετικά με τη βιβλιοθήκη.
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

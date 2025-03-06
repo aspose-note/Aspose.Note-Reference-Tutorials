@@ -3,10 +3,16 @@ title: Wyodrębnij informacje o stronie za pomocą Aspose.Note dla .NET
 linktitle: Wyodrębnij informacje o stronie za pomocą Aspose.Note dla .NET
 second_title: Aspose.Note .NET API
 description: Dowiedz się, jak wyodrębnić informacje o stronie z plików Microsoft OneNote za pomocą Aspose.Note dla .NET. Ten kompleksowy samouczek przeprowadzi Cię przez proces krok po kroku.
-type: docs
 weight: 13
 url: /pl/net/note-manipulation/extract-page-information/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Wyodrębnij informacje o stronie za pomocą Aspose.Note dla .NET
+
 ## Wstęp
 
 Aspose.Note dla .NET to potężna biblioteka, która umożliwia programistom programową pracę z plikami Microsoft OneNote. Wyodrębnianie informacji o stronach z tych plików może mieć kluczowe znaczenie dla różnych zastosowań, od analizy danych po zarządzanie dokumentami. W tym samouczku przeprowadzimy Cię krok po kroku przez proces wyodrębniania informacji o stronie przy użyciu Aspose.Note dla .NET.
@@ -103,3 +109,9 @@ O4: Tak, możesz wyodrębniać, modyfikować i dodawać załączniki za pomocą 
 ### P5: Gdzie mogę znaleźć więcej wsparcia i zasobów dla Aspose.Note dla .NET?
 
  O5: Możesz odwiedzić forum Aspose.Note dla .NET[Tutaj](https://forum.aspose.com/c/note/28) za wszelką pomoc lub pytania, jakie możesz mieć.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

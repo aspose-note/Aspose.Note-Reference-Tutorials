@@ -3,10 +3,16 @@ title: 管理 Java 中 OneNote 的計量許可證
 linktitle: 管理 Java 中 OneNote 的計量許可證
 second_title: Aspose.Note Java API
 description: 了解如何使用 Aspose.Note 函式庫管理 Java 中 OneNote 的計量授權。有效控制使用情況、監控信用並優化成本。
-type: docs
 weight: 10
 url: /zh-hant/java/licensing-java/manage-metered-license/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# 管理 Java 中 OneNote 的計量許可證
+
 ## 介紹
 
 在本教程中，我們將學習如何使用 Aspose.Note for Java 管理 OneNote 的計量授權。計量許可可讓您根據積分監控和控制您的使用情況，從而提供靈活且經濟高效的解決方案。
@@ -85,3 +91,9 @@ A3：是的，計量許可證可以在多個應用程式中使用，但消耗量
 ### Q5：哪裡可以獲得 Aspose.Note for Java 的支援？
 
  A5：您可以從 Aspose 社群論壇獲得支持[這裡](https://forum.aspose.com/c/note/28).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

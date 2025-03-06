@@ -3,10 +3,16 @@ title: Convierta cuadernos a PDF (aplanados) en Aspose Note .NET
 linktitle: Convierta cuadernos a PDF (aplanados) en Aspose Note .NET
 second_title: Aspose.Nota .NET API
 description: Aprenda a convertir cuadernos de OneNote en archivos PDF acoplados sin esfuerzo utilizando Aspose.Note para .NET. Conserve su contenido sin problemas.
-type: docs
 weight: 15
 url: /es/net/notebook-operations/convert-to-pdf-flattened/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Convierta cuadernos a PDF (aplanados) en Aspose Note .NET
+
 ## Introducción
 
 ¿Está buscando convertir sus cuadernos OneNote en archivos PDF acoplados usando Aspose Note .NET? ¡Estás en el lugar correcto! En este tutorial, recorreremos el proceso paso a paso.
@@ -91,3 +97,9 @@ R3: ¡Absolutamente! Aspose.Note ofrece amplias opciones de personalización dur
 ### P5: ¿Dónde puedo obtener asistencia si tengo algún problema?
 
  R5: Puede buscar apoyo de la comunidad Aspose en[Foros de Aspose.Note](https://forum.aspose.com/c/note/28).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

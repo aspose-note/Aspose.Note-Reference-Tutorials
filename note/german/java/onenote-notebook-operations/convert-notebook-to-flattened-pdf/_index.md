@@ -3,10 +3,16 @@ title: Konvertieren Sie ein Notizbuch in ein abgeflachtes PDF in OneNote – Asp
 linktitle: Konvertieren Sie ein Notizbuch in ein abgeflachtes PDF in OneNote – Aspose.Note
 second_title: Aspose.Note Java API
 description: Konvertieren Sie Notizbücher mühelos in reduzierte PDFs mit Aspose.Note für Java. Genießen Sie nahtlose Integrations- und Anpassungsoptionen.
-type: docs
 weight: 16
 url: /de/java/onenote-notebook-operations/convert-notebook-to-flattened-pdf/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Konvertieren Sie ein Notizbuch in ein abgeflachtes PDF in OneNote – Aspose.Note
+
 ## Einführung
 
 In diesem Tutorial erfahren Sie, wie Sie mit Aspose.Note für Java ein Notizbuch in ein vereinfachtes PDF-Format konvertieren. Das Konvertieren von Notizbüchern in PDFs ist für viele Anwendungen eine häufige Anforderung, und Aspose.Note vereinfacht diesen Prozess mit seinem umfassenden Funktionsumfang und der benutzerfreundlichen API.
@@ -82,3 +88,9 @@ A3: Ja, Sie können mit Aspose.Note für Java mehrere Notizbücher effizient sta
 ### F5: Wo finde ich Unterstützung für Aspose.Note für Java?
 
  A5: Unterstützung und Unterstützung für Aspose.Note für Java finden Sie auf der[Aspose.Note-Forum](https://forum.aspose.com/c/note/28).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

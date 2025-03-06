@@ -3,10 +3,16 @@ title: OneNote-Notizbuchvorgänge
 linktitle: OneNote-Notizbuchvorgänge
 second_title: Aspose.Note Java API
 description: Nutzen Sie das volle Potenzial von Aspose.Note für Java mit unseren OneNote Notebook Operations-Tutorials. Stellen Sie eine Schritt-für-Schritt-Anleitung zur Verbesserung Ihrer Java-Apps bereit.
-type: docs
 weight: 28
 url: /de/java/onenote-notebook-operations/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# OneNote-Notizbuchvorgänge
+
 
 ## Einführung
 
@@ -66,3 +72,9 @@ Erfahren Sie, wie Sie mit Aspose.Note für Java Dokumente aus OneNote Notebook a
 Erfahren Sie, wie Sie Notizbücher mit Aspose.Note für Java in Streams in OneNote speichern. Steigern Sie die Produktivität durch effizientes Notebook-Management.
 ### [Schreiben Sie ein passwortgeschütztes Dokument in OneNote – Aspose.Note](./write-password-protected-document/)
 Erfahren Sie, wie Sie mit Aspose.Note für Java passwortgeschützte Dokumente in OneNote schreiben. Sorgen Sie mit einfach zu befolgenden Schritten für Sicherheit.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

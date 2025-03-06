@@ -3,10 +3,16 @@ title: Change Text Style in Aspose.Note
 linktitle: Change Text Style in Aspose.Note
 second_title: Aspose.Note .NET API
 description: Elevate your document styling with Aspose.Note for .NET. Learn how to change text styles effortlessly in this step-by-step guide. Try it for free!
-type: docs
 weight: 14
 url: /net/text-manipulation/change-text-style/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Change Text Style in Aspose.Note
+
 ## Introduction
 Are you ready to elevate your document styling game with Aspose.Note for .NET? In this comprehensive guide, we'll walk you through the process of changing text styles effortlessly. Aspose.Note is a powerful library that enables you to manipulate Microsoft OneNote files programmatically. If you're keen on enhancing the visual appeal of your notes or documents, read on to discover how to change text styles seamlessly.
 ## Prerequisites
@@ -63,3 +69,10 @@ Visit the Aspose.Note for .NET forum [here](https://forum.aspose.com/c/note/28) 
 Get your temporary license [here](https://purchase.aspose.com/temporary-license/).
 ### Where can I purchase Aspose.Note for .NET?
 You can buy Aspose.Note for .NET [here](https://purchase.aspose.com/buy).
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

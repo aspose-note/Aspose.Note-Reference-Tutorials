@@ -3,10 +3,16 @@ title: Zökkenőmentes PDF-importálás a OneNote-integrációval
 linktitle: Importálás
 second_title: Aspose.Note .NET API
 description: Importáljon PDF-dokumentumokat az Aspose.Note .NET-be zökkenőmentes integrációval, különféle egyesítési lehetőségek használatával. Tanuljon lépésenkénti oktatóanyagokkal, beleértve a OneNote-integrációt.
-type: docs
 weight: 24
 url: /hu/net/import/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Zökkenőmentes PDF-importálás a OneNote-integrációval
+
 
 ## Bevezetés
 
@@ -48,3 +54,9 @@ Ne feledje, az Aspose.Note területén a dokumentumok nem csak fájlok; feltár�
 ## Oktatóanyagok importálása
 ### [Importáljon PDF-dokumentumokat az Aspose.Note-ba](./import-pdf-documents/)
 Tanulja meg, hogyan importálhat könnyedén PDF-dokumentumokat az Aspose.Note for .NET-be a zökkenőmentes integráció érdekében különféle egyesítési lehetőségek használatával.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

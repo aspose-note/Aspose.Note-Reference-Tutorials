@@ -3,10 +3,16 @@ title: รับข้อมูลเกี่ยวกับหน้าใน 
 linktitle: รับข้อมูลเกี่ยวกับหน้าใน OneNote - Aspose.Note
 second_title: Aspose.Note Java API
 description: เปิดเผยความลับของหน้าในเอกสาร OneNote ของคุณ! แยกการแก้ไข เวลาในการสร้าง และอื่นๆ ด้วย Aspose.Note รวมคำแนะนำและรหัสทีละขั้นตอน! #OneNote #Java #Aspose
-type: docs
 weight: 12
 url: /th/java/onenote-page-manipulation/get-information-about-pages/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# รับข้อมูลเกี่ยวกับหน้าใน OneNote - Aspose.Note
+
 ## การแนะนำ
 
 ในบทช่วยสอนนี้ เราจะแนะนำคุณตลอดกระบวนการแยกข้อมูลเกี่ยวกับหน้าใน OneNote โดยใช้ Aspose.Note for Java Aspose.Note เป็น API ที่ทรงพลังที่ช่วยให้คุณทำงานกับเอกสาร Microsoft OneNote โดยทางโปรแกรม ไม่ว่าคุณจะต้องการเข้าถึงการแก้ไขหน้า เวลาในการสร้าง ชื่อเรื่อง หรือผู้เขียน Aspose.Note จะทำให้งานง่ายขึ้นด้วยอินเทอร์เฟซที่ใช้งานง่าย
@@ -90,3 +96,9 @@ A3: แน่นอนว่า Aspose.Note ช่วยให้คุณสา
 ### คำถามที่ 5: Aspose.Note สำหรับ Java มีเวอร์ชันทดลองใช้งานหรือไม่
 
  A5: ได้ คุณสามารถดาวน์โหลด Aspose.Note สำหรับ Java เวอร์ชันทดลองใช้ฟรีได้จาก[ที่นี่](https://releases.aspose.com/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

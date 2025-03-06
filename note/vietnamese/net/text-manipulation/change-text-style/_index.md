@@ -3,10 +3,16 @@ title: Thay đổi kiểu văn bản trong Aspose.Note
 linktitle: Thay đổi kiểu văn bản trong Aspose.Note
 second_title: Aspose.Note .NET API
 description: Nâng cao kiểu dáng tài liệu của bạn với Aspose.Note for .NET. Tìm hiểu cách thay đổi kiểu văn bản một cách dễ dàng trong hướng dẫn từng bước này. Hãy thử nó miễn phí!
-type: docs
 weight: 14
 url: /vi/net/text-manipulation/change-text-style/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Thay đổi kiểu văn bản trong Aspose.Note
+
 ## Giới thiệu
 Bạn đã sẵn sàng nâng tầm trò chơi tạo kiểu tài liệu của mình với Aspose.Note cho .NET chưa? Trong hướng dẫn toàn diện này, chúng tôi sẽ hướng dẫn bạn quy trình thay đổi kiểu văn bản một cách dễ dàng. Aspose.Note là một thư viện mạnh mẽ cho phép bạn thao tác với các tệp Microsoft OneNote theo chương trình. Nếu bạn muốn nâng cao sức hấp dẫn trực quan của ghi chú hoặc tài liệu của mình, hãy đọc tiếp để khám phá cách thay đổi kiểu văn bản một cách liền mạch.
 ## Điều kiện tiên quyết
@@ -63,3 +69,9 @@ Tuyệt đối! Aspose.Note for .NET cung cấp giao diện thân thiện với 
  Nhận giấy phép tạm thời của bạn[đây](https://purchase.aspose.com/temporary-license/).
 ### Tôi có thể mua Aspose.Note cho .NET ở đâu?
  Bạn có thể mua Aspose.Note cho .NET[đây](https://purchase.aspose.com/buy).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

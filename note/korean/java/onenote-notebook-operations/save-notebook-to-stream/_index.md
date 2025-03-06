@@ -3,10 +3,16 @@ title: OneNote에서 스트리밍하기 위해 노트북 저장 - Aspose.Note
 linktitle: OneNote에서 스트리밍하기 위해 노트북 저장 - Aspose.Note
 second_title: Aspose.Note 자바 API
 description: Java용 Aspose.Note를 사용하여 OneNote의 스트림에 노트북을 저장하는 방법을 알아보세요. 효율적인 노트북 관리로 생산성을 높이세요.
-type: docs
 weight: 26
 url: /ko/java/onenote-notebook-operations/save-notebook-to-stream/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# OneNote에서 스트리밍하기 위해 노트북 저장 - Aspose.Note
+
 ## 소개
 
 이 튜토리얼에서는 Aspose.Note for Java를 사용하여 OneNote에서 노트북을 스트림에 저장하는 과정을 안내합니다. 다음 단계를 따르면 노트북을 프로그래밍 방식으로 효율적으로 관리할 수 있습니다.
@@ -88,3 +94,9 @@ A3: 물론이죠! Aspose.Note for Java는 원활한 통합 기능을 제공하�
 ### Q5: Aspose.Note for Java에 사용할 수 있는 평가판이 있나요?
 
  A5: 예, 평가판 버전에 액세스할 수 있습니다.[여기](https://releases.aspose.com/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

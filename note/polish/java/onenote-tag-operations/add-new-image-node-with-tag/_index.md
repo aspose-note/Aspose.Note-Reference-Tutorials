@@ -3,10 +3,16 @@ title: Dodaj nowy węzeł obrazu ze znacznikiem w programie OneNote — Aspose.N
 linktitle: Dodaj nowy węzeł obrazu ze znacznikiem w programie OneNote — Aspose.Note
 second_title: Aspose.Note API Java
 description: Dowiedz się, jak dodać nowy węzeł obrazu ze znacznikiem w programie OneNote przy użyciu Aspose.Note dla języka Java. Podnieś swoje umiejętności programowania w języku Java bez wysiłku.
-type: docs
 weight: 10
 url: /pl/java/onenote-tag-operations/add-new-image-node-with-tag/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Dodaj nowy węzeł obrazu ze znacznikiem w programie OneNote — Aspose.Note
+
 ## Wstęp
 dziedzinie programowania w języku Java Aspose.Note wyróżnia się jako potężne narzędzie do łatwej obsługi dokumentów OneNote. Jeśli chcesz udoskonalić swoje umiejętności i dowiedzieć się, jak dodać nowy węzeł obrazu ze znacznikiem w programie OneNote przy użyciu Aspose.Note, trafiłeś we właściwe miejsce. Ten przewodnik krok po kroku przeprowadzi Cię przez proces, zapewniając dokładne zrozumienie każdej koncepcji.
 ## Warunki wstępne
@@ -96,3 +102,9 @@ Gratulacje! Pomyślnie dodałeś nowy węzeł obrazu ze znacznikiem w OneNote pr
  Odwiedź forum społeczności[Tutaj](https://forum.aspose.com/c/note/28) dla wsparcia.
 ### Czy potrzebuję tymczasowej licencji?
  W razie potrzeby możesz uzyskać licencję tymczasową[Tutaj](https://purchase.aspose.com/temporary-license/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

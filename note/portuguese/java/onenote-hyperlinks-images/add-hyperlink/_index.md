@@ -3,10 +3,16 @@ title: Adicionar hiperlink no OneNote com Java
 linktitle: Adicionar hiperlink no OneNote com Java
 second_title: API Java Aspose.Note
 description: Aprenda como adicionar hiperlinks no OneNote usando Java com a biblioteca Aspose.Note. Aprimore suas anotações com links interativos sem esforço.
-type: docs
 weight: 10
 url: /pt/java/onenote-hyperlinks-images/add-hyperlink/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Adicionar hiperlink no OneNote com Java
+
 ## Introdução
 
 Adicionar hiperlinks aos documentos do OneNote usando Java pode melhorar muito a interatividade e a utilidade de suas anotações. Neste tutorial, iremos guiá-lo através do processo passo a passo, usando a biblioteca Aspose.Note para Java. Vamos mergulhar!
@@ -136,3 +142,9 @@ A4: Sim, a integração do Aspose.Note em seus projetos Java é simples e bem do
 ### Q5: Onde posso encontrar mais ajuda e recursos para usar o Aspose.Note?
 
  R5: Você pode encontrar extensa documentação, tutoriais e suporte da comunidade no site.[Fórum Aspose.Note](https://forum.aspose.com/c/note/28).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

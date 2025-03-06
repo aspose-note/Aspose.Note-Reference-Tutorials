@@ -3,10 +3,16 @@ title: 在 Aspose.Note 中加载 OneNote 文档
 linktitle: 在 Aspose.Note 中加载 OneNote 文档
 second_title: Aspose.Note .NET API
 description: 了解如何使用 Aspose.Note 在 .NET 中以编程方式加载、加密和解密 OneNote 文档。
-type: docs
 weight: 16
 url: /zh/net/loading-and-saving-operations/load-onenote-document/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# 在 Aspose.Note 中加载 OneNote 文档
+
 ## 介绍
 
 Aspose.Note for .NET 是一个功能强大的 API，允许开发人员在其 .NET 应用程序中以编程方式使用 Microsoft OneNote 文件。无论您需要加载、操作还是转换 OneNote 文档，Aspose.Note for .NET 都提供全面的功能来简化您的工作流程。
@@ -174,3 +180,9 @@ A4：是的，您可以从[阿斯普斯网站](https://releases.aspose.com/).
 ### Q5：如何获得 Aspose.Note for .NET 的临时许可证？
 
  A5：您可以向以下机构申请临时许可证：[Aspose购买页面](https://purchase.aspose.com/temporary-license/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

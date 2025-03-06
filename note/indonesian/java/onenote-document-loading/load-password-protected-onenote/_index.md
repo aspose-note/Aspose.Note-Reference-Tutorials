@@ -3,10 +3,16 @@ title: Muat Dokumen OneNote yang Dilindungi Kata Sandi - Java
 linktitle: Muat Dokumen OneNote yang Dilindungi Kata Sandi - Java
 second_title: Aspose.Catatan Java API
 description: Buka potensi Aspose.Note untuk Java dalam menangani dokumen OneNote yang dilindungi kata sandi dengan mudah. Tingkatkan manajemen dokumen Java Anda dengan Aspose.Note.
-type: docs
 weight: 27
 url: /id/java/onenote-document-loading/load-password-protected-onenote/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Muat Dokumen OneNote yang Dilindungi Kata Sandi - Java
+
 ## Perkenalan
 
 Dalam bidang manajemen dan manipulasi dokumen, Aspose.Note untuk Java muncul sebagai alat yang ampuh, memfasilitasi penanganan dokumen OneNote secara lancar dengan fungsionalitas yang kuat. Dalam tutorial ini, kita akan mempelajari proses memuat dokumen OneNote yang dilindungi kata sandi menggunakan Java, membuka potensi Aspose.Note untuk menangani file terenkripsi dengan mudah.
@@ -93,3 +99,9 @@ A4: Ya, Anda dapat memanfaatkan versi uji coba gratis Aspose.Note untuk Java unt
 ### Q5: Dapatkah saya mengintegrasikan Aspose.Note untuk Java ke dalam aplikasi desktop dan web?
 
 A5: Ya, Aspose.Note untuk Java dapat diintegrasikan dengan mulus ke dalam aplikasi desktop dan web, menawarkan fleksibilitas dan keserbagunaan di berbagai platform.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

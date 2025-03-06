@@ -3,10 +3,16 @@ title: طباعة مستندات OneNote
 linktitle: طباعة مستندات OneNote
 second_title: Aspose.Note جافا API
 description: اطبع المستندات بسهولة في OneNote باستخدام Aspose.Note لـ Java. توفر هذه البرامج التعليمية إرشادات خطوة بخطوة وأمثلة على التعليمات البرمجية لطباعة المستندات بسلاسة.
-type: docs
 weight: 30
 url: /ar/java/onenote-printing-documents/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# طباعة مستندات OneNote
+
 
 ## مقدمة
 
@@ -38,3 +44,9 @@ url: /ar/java/onenote-printing-documents/
 ## دروس طباعة مستندات OneNote
 ### [طباعة المستندات في OneNote - Aspose.Note](./print-documents/)
 تعرف على كيفية طباعة المستندات في OneNote باستخدام Aspose.Note لـ Java. دليل خطوة بخطوة مع أمثلة التعليمات البرمجية والخيارات القابلة للتخصيص.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

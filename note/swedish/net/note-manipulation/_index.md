@@ -3,10 +3,16 @@ title: Bemästra OneNote-integration med Aspose.Note för .NET
 linktitle: Notera manipulation
 second_title: Aspose.Note .NET API
 description: Lås upp kraften i Aspose.Note för .NET med våra OneNote-fokuserade handledningar. Lös konflikter, skapa dynamiska dokument och utforska effektiv sidmanipulation.
-type: docs
 weight: 27
 url: /sv/net/note-manipulation/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Bemästra OneNote-integration med Aspose.Note för .NET
+
 
 ## Introduktion
 
@@ -69,3 +75,9 @@ Lär dig hur du effektivt hanterar revisioner i Aspose.Note-dokument med Aspose.
 Lär dig hur du ställer in bakgrundsfärg på sidor i Aspose.Note-dokument med programmeringsspråket C# med steg-för-steg-guide.
 ### [Arbeta med sidrevisioner - Aspose.Note Tips](./working-with-page-revisions/)
 Lär dig hantera Microsoft OneNote-sidrevisioner med Aspose.Note. Steg-för-steg-guide för sömlös integration och versionskontroll i dina .NET-applikationer.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

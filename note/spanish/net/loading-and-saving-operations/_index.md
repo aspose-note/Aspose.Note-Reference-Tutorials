@@ -3,10 +3,16 @@ title: Manipulación de documentos de OneNote con Aspose.Note para .NET
 linktitle: Operaciones de carga y guardado
 second_title: Aspose.Nota .NET API
 description: ¡Desbloquee el poder de Aspose.Note para .NET! Sumérgete en nuestros tutoriales para obtener orientación paso a paso sobre cómo cargar, guardar y manipular documentos de OneNote sin esfuerzo.
-type: docs
 weight: 25
 url: /es/net/loading-and-saving-operations/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Manipulación de documentos de OneNote con Aspose.Note para .NET
+
 
 ## Introducción
 
@@ -80,3 +86,9 @@ Aprenda cómo guardar un documento con la configuración predeterminada en Aspos
 Aprenda a especificar opciones de guardado en Aspose.Note para .NET para personalizar el formato de salida y la calidad de los documentos de OneNote.
 ### [Devoluciones de llamada para guardar al usuario en Aspose.Note](./user-saving-callbacks/)
 Aprenda a implementar devoluciones de llamadas para guardar usuarios en Aspose.Note para .NET para personalizar el almacenamiento de fuentes, CSS e imágenes.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

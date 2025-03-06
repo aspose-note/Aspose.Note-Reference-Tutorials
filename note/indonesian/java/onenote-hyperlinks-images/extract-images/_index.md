@@ -3,10 +3,16 @@ title: Ekstrak Gambar dari Dokumen OneNote menggunakan Java
 linktitle: Ekstrak Gambar dari Dokumen OneNote menggunakan Java
 second_title: Aspose.Catatan Java API
 description: Pelajari cara mengekstrak gambar dari dokumen OneNote menggunakan Java dengan pustaka Aspose.Note. Ikuti panduan langkah demi langkah kami untuk ekstraksi gambar yang lancar.
-type: docs
 weight: 14
 url: /id/java/onenote-hyperlinks-images/extract-images/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Ekstrak Gambar dari Dokumen OneNote menggunakan Java
+
 ## Perkenalan
 
 Dalam tutorial ini, kami akan memandu Anda melalui proses mengekstraksi gambar dari dokumen OneNote menggunakan Java dengan bantuan pustaka Aspose.Note.
@@ -89,3 +95,9 @@ A4: Aspose.Note menangani dokumen dengan berbagai ukuran secara efisien, memasti
 ### Q5: Apakah Aspose.Note mendukung ekstraksi jenis konten lain selain gambar?
 
 A5: Ya, selain gambar, Aspose.Note memungkinkan ekstraksi teks, lampiran, dan tipe konten lainnya dari dokumen OneNote.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

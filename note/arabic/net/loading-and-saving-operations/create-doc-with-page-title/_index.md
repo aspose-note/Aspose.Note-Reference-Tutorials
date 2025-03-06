@@ -3,10 +3,16 @@ title: قم بإنشاء مستند بعنوان الصفحة في Aspose.Note
 linktitle: قم بإنشاء مستند بعنوان الصفحة في Aspose.Note
 second_title: Aspose.Note .NET API
 description: تعرف على كيفية إنشاء مستندات تحتوي على صفحات معنونة باستخدام Aspose.Note لـ .NET. اتبع دليلنا خطوة بخطوة للتكامل السلس.
-type: docs
 weight: 13
 url: /ar/net/loading-and-saving-operations/create-doc-with-page-title/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# قم بإنشاء مستند بعنوان الصفحة في Aspose.Note
+
 ## مقدمة
 
 في هذا البرنامج التعليمي، سنرشدك خلال عملية إنشاء مستند بصفحة عنوان باستخدام Aspose.Note لـ .NET. Aspose.Note عبارة عن واجهة برمجة تطبيقات قوية تتيح للمطورين العمل مع ملفات Microsoft OneNote برمجيًا.
@@ -118,3 +124,9 @@ A1: نعم، يمكنك تخصيص لون الخط واسم الخط وحجم ا
 ### س5: أين يمكنني العثور على الدعم إذا واجهت أية مشكلات؟
 
  ج5: يمكنك العثور على الدعم والمساعدة على[منتدى Aspose.Note](https://forum.aspose.com/c/note/28)، حيث يمكن للخبراء وأعضاء المجتمع مساعدتك في الرد على استفساراتك.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

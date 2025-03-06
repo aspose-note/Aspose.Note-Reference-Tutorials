@@ -3,10 +3,16 @@ title: قم بتطبيق ترخيص Aspose.Note من المسار
 linktitle: قم بتطبيق ترخيص Aspose.Note من المسار
 second_title: Aspose.Note .NET API
 description: تعرف على كيفية تطبيق ترخيص Aspose.Note من المسار في تطبيقات .NET. أطلق العنان للإمكانات الكاملة لمعالجة ملفات OneNote باستخدام Aspose.Note.
-type: docs
 weight: 11
 url: /ar/net/licensing/apply-license-from-path/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# قم بتطبيق ترخيص Aspose.Note من المسار
+
 ## مقدمة
 
 مرحبًا بك في برنامجنا التعليمي الشامل حول تطبيق ترخيص Aspose.Note من المسار باستخدام .NET! Aspose.Note عبارة عن واجهة برمجة تطبيقات قوية تتيح للمطورين العمل مع ملفات Microsoft OneNote برمجيًا، مما يتيح مجموعة واسعة من الوظائف لإنشاء مستندات OneNote وتحريرها ومعالجتها. في هذا البرنامج التعليمي، سنرشدك خلال عملية تطبيق ترخيص Aspose.Note من مسار محدد في تطبيقات .NET الخاصة بك.
@@ -98,3 +104,9 @@ A1: يدعم Aspose.Note تنسيقات Microsoft OneNote 2010 و2013 و2016 و2
 ### س5: هل يمكنني تجربة Aspose.Note قبل الشراء؟
 
 ج5: نعم، يمكنك تنزيل نسخة تجريبية مجانية من Aspose.Note من موقعهم الإلكتروني لتقييم ميزاته وإمكانياته.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

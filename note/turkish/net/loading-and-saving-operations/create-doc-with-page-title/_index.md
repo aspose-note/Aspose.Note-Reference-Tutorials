@@ -3,10 +3,16 @@ title: Aspose.Note'ta Sayfa Başlığıyla Belge Oluşturma
 linktitle: Aspose.Note'ta Sayfa Başlığıyla Belge Oluşturma
 second_title: Aspose.Note .NET API'si
 description: Aspose.Note for .NET'i kullanarak başlıklı sayfalara sahip belgeler oluşturmayı öğrenin. Sorunsuz entegrasyon için adım adım kılavuzumuzu izleyin.
-type: docs
 weight: 13
 url: /tr/net/loading-and-saving-operations/create-doc-with-page-title/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Aspose.Note'ta Sayfa Başlığıyla Belge Oluşturma
+
 ## giriiş
 
 Bu eğitimde, Aspose.Note for .NET'i kullanarak başlıklı sayfaya sahip bir belge oluşturma sürecinde size rehberlik edeceğiz. Aspose.Note, geliştiricilerin Microsoft OneNote dosyalarıyla programlı olarak çalışmasına olanak tanıyan güçlü bir API'dir.
@@ -118,3 +124,9 @@ Cevap4: Evet, mevcut OneNote dosyalarını kolaylıkla okumak, değiştirmek ve 
 ### S5: Herhangi bir sorunla karşılaşırsam nereden destek bulabilirim?
 
  Cevap5: Destek ve yardımı şu adreste bulabilirsiniz:[Aspose.Note forumu](https://forum.aspose.com/c/note/28)Uzmanların ve topluluk üyelerinin sorularınız konusunda size yardımcı olabileceği yer.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

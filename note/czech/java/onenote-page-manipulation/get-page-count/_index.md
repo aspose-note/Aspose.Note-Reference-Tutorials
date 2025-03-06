@@ -3,10 +3,16 @@ title: Získejte počet stránek ve OneNotu – Aspose.Note
 linktitle: Získejte počet stránek ve OneNotu – Aspose.Note
 second_title: Aspose.Note Java API
 description: Přečtěte si, jak načíst počet stránek v dokumentech OneNotu pomocí Aspose.Note pro Java. Tento návod krok za krokem vás bez námahy provede celým procesem.
-type: docs
 weight: 13
 url: /cs/java/onenote-page-manipulation/get-page-count/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Získejte počet stránek ve OneNotu – Aspose.Note
+
 ## Úvod
 
 V tomto kurzu prozkoumáme, jak používat Aspose.Note pro Java k efektivnímu načítání počtu stránek v dokumentu OneNotu. Aspose.Note je výkonné Java API, které umožňuje vývojářům pracovat se soubory Microsoft OneNote programově, což umožňuje úkoly, jako je manipulace s dokumenty, extrakce a konverze.
@@ -86,3 +92,9 @@ A4: Ano, máte přístup k dokumentaci a fórům na[Aspose webové stránky](htt
 ### Q5: Je k dispozici zkušební verze Aspose.Note pro Java pro účely testování?
 
  A5: Ano, můžete si stáhnout bezplatnou zkušební verzi z[stránka vydání](https://releases.aspose.com/) vyhodnotit schopnosti API.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

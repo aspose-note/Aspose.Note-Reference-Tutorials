@@ -3,10 +3,16 @@ title: Aspose.Note에서 테이블 스타일 변경
 linktitle: Aspose.Note에서 테이블 스타일 변경
 second_title: Aspose.Note .NET API
 description: C#을 사용하여 Aspose.Note에서 테이블 스타일을 사용자 지정하는 방법을 알아보세요. 향상된 문서 프레젠테이션을 위해 색상, 글꼴 등을 수정합니다.
-type: docs
 weight: 10
 url: /ko/net/table-manipulation/change-table-style/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Aspose.Note에서 테이블 스타일 변경
+
 ## 소개
 
 이 튜토리얼에서는 .NET 프레임워크를 사용하여 Aspose.Note에서 테이블 스타일을 변경하는 방법을 살펴보겠습니다. Aspose.Note는 개발자가 Microsoft OneNote 파일을 프로그래밍 방식으로 작업할 수 있게 해주는 강력한 API입니다. OneNote 문서 내의 표 스타일을 사용자 지정하면 시각적 매력과 가독성을 향상시킬 수 있습니다. 명확성과 효율성을 보장하기 위해 테이블 스타일을 수정하는 과정을 단계별로 살펴보겠습니다.
@@ -95,3 +101,9 @@ A4: 물론 Aspose.Note의 API를 사용하여 OneNote 문서 내에서 새 테�
 ### Q5: Aspose.Note에 대한 추가 리소스와 지원은 어디서 찾을 수 있나요?
 
  A5: Aspose.Note 문서를 탐색할 수 있습니다.[여기](https://reference.aspose.com/note/net/) Aspose.Note 커뮤니티 포럼에서 도움을 구하세요.[여기](https://forum.aspose.com/c/note/28).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

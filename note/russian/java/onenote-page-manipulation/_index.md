@@ -3,10 +3,16 @@ title: Управление страницами OneNote
 linktitle: Управление страницами OneNote
 second_title: Aspose.Note Java API
 description: Управляйте страницами конфликтов, создавайте организованные документы и отслеживайте изменения в OneNote с помощью Aspose.Note для Java. Пошаговые руководства для эффективного управления документами.
-type: docs
 weight: 29
 url: /ru/java/onenote-page-manipulation/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Управление страницами OneNote
+
 
 ## Введение
 
@@ -74,3 +80,9 @@ url: /ru/java/onenote-page-manipulation/
 Узнайте, как легко установить цвет фона страницы в OneNote с помощью Aspose.Note для Java. Повысьте визуальную привлекательность ваших документов с помощью этого простого руководства.
 ### [Работа с редакциями страниц в OneNote — Aspose.Note](./working-with-page-revisions/)
 Узнайте, как управлять версиями страниц в документах OneNote с помощью Aspose.Note для Java. В этом руководстве представлено пошаговое руководство по эффективному отслеживанию изменений и совместной работе.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

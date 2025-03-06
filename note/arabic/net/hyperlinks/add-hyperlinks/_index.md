@@ -3,10 +3,16 @@ title: أضف الارتباطات التشعبية في مستندات Aspose.N
 linktitle: أضف الارتباطات التشعبية في مستندات Aspose.Note
 second_title: Aspose.Note .NET API
 description: تعرف على كيفية إضافة ارتباطات تشعبية إلى مستندات Aspose.Note باستخدام Aspose.Note لـ .NET. قم بتحسين تفاعل المستند من خلال هذا البرنامج التعليمي خطوة بخطوة.
-type: docs
 weight: 10
 url: /ar/net/hyperlinks/add-hyperlinks/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# أضف الارتباطات التشعبية في مستندات Aspose.Note
+
 ## مقدمة
 
 ستتعلم في هذا البرنامج التعليمي كيفية إضافة ارتباطات تشعبية إلى النص داخل مستندات Aspose.Note باستخدام إطار عمل .NET. يوفر Aspose.Note ميزات قوية لمعالجة مستندات OneNote برمجيًا. يمكن أن تؤدي إضافة الارتباطات التشعبية إلى تحسين التفاعل وسهولة استخدام مستنداتك، مما يجعلها أكثر جاذبية للمستخدمين.
@@ -131,3 +137,9 @@ doc.Save(outputFilePath);
 ### س5: هل يمكنني إضافة ارتباطات تشعبية برمجيًا باستخدام Aspose.Note APIs؟
 
 ج5: نعم، يوفر Aspose.Note واجهات برمجة التطبيقات التي تسمح لك بإضافة ارتباطات تشعبية إلى النص برمجيًا داخل تطبيقات .NET الخاصة بك.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

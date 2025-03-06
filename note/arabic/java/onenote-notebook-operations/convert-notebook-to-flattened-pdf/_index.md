@@ -3,10 +3,16 @@ title: تحويل دفتر الملاحظات إلى PDF مسطح في OneNote -
 linktitle: تحويل دفتر الملاحظات إلى PDF مسطح في OneNote - Aspose.Note
 second_title: Aspose.Note جافا API
 description: قم بتحويل دفاتر الملاحظات إلى ملفات PDF مسطحة بسهولة باستخدام Aspose.Note لـ Java. استمتع بخيارات التكامل والتخصيص السلسة.
-type: docs
 weight: 16
 url: /ar/java/onenote-notebook-operations/convert-notebook-to-flattened-pdf/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# تحويل دفتر الملاحظات إلى PDF مسطح في OneNote - Aspose.Note
+
 ## مقدمة
 
 في هذا البرنامج التعليمي، سنستكشف كيفية تحويل دفتر ملاحظات إلى تنسيق PDF مسطح باستخدام Aspose.Note لـ Java. يعد تحويل دفاتر الملاحظات إلى ملفات PDF مطلبًا شائعًا للعديد من التطبيقات، ويعمل Aspose.Note على تبسيط هذه العملية من خلال مجموعة الميزات الشاملة وواجهة برمجة التطبيقات (API) سهلة الاستخدام.
@@ -82,3 +88,9 @@ notebook.save(dataDir, notebookSaveOptions);
 ### س5: أين يمكنني العثور على دعم لـ Aspose.Note لـ Java؟
 
  ج5: يمكنك العثور على الدعم والمساعدة لـ Aspose.Note لـ Java على[منتدى Aspose.Note](https://forum.aspose.com/c/note/28).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

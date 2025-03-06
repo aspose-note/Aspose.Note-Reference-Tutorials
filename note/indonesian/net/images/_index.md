@@ -3,10 +3,16 @@ title: Menguasai Manipulasi Gambar OneNote
 linktitle: Gambar-gambar
 second_title: Aspose.Catatan .NET API
 description: Jelajahi dunia manipulasi dokumen OneNote dengan tutorial Aspose.Note untuk .NET tentang penanganan gambar yang lancar. Tingkatkan konten visual Anda dengan mudah.
-type: docs
 weight: 23
 url: /id/net/images/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Menguasai Manipulasi Gambar OneNote
+
 ## Perkenalan
 
 Apakah Anda siap untuk meningkatkan keterampilan manipulasi dokumen OneNote Anda? Selami tutorial komprehensif kami di Aspose.Note untuk .NET, dengan fokus pada dunia penanganan gambar yang rumit. Dari menyisipkan gambar secara terprogram hingga mengekstrak informasi visual yang berharga, kami siap membantu Anda.
@@ -48,3 +54,9 @@ Pelajari cara menambahkan teks alternatif ke gambar di Aspose.Note untuk .NET de
 Pelajari cara menyisipkan gambar dengan hyperlink di Aspose.Note untuk .NET dengan mudah. Tingkatkan interaktivitas dokumen dengan gambar yang dapat diklik.
 ### [Sisipkan Gambar di Dokumen Aspose.Note](./insert-images/)
 Pelajari cara menyisipkan gambar dengan lancar ke dalam dokumen Aspose.Note menggunakan .NET untuk konten visual yang ditingkatkan. Ikuti panduan langkah demi langkah kami untuk integrasi yang mudah.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

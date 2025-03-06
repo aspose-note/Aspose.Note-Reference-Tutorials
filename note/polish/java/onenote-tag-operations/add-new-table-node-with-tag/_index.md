@@ -3,10 +3,16 @@ title: Dodaj nowy węzeł tabeli ze znacznikiem w programie OneNote — Aspose.N
 linktitle: Dodaj nowy węzeł tabeli ze znacznikiem w programie OneNote — Aspose.Note
 second_title: Aspose.Note API Java
 description: Dowiedz się, jak dodawać dynamiczne węzły tabeli ze znacznikami w programie OneNote przy użyciu Aspose.Note dla języka Java. Bez wysiłku usprawnij organizację swoich dokumentów.
-type: docs
 weight: 11
 url: /pl/java/onenote-tag-operations/add-new-table-node-with-tag/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Dodaj nowy węzeł tabeli ze znacznikiem w programie OneNote — Aspose.Note
+
 ## Wstęp
 Czy chcesz ulepszyć swoje dokumenty OneNote, dodając nowy węzeł tabeli ze znacznikiem? Dzięki Aspose.Note dla Java zadanie to staje się proste, umożliwiając tworzenie dynamicznej i zorganizowanej treści. W tym przewodniku krok po kroku przeprowadzimy Cię przez proces dodawania nowego węzła tabeli ze znacznikiem w programie OneNote przy użyciu programu Aspose.Note dla języka Java.
 ## Warunki wstępne
@@ -98,3 +104,9 @@ Absolutnie! Aspose.Note zapewnia różne opcje dostosowywania wyglądu tabeli, w
  Odwiedzić[Aspose.Note Dokumentacja Java](https://reference.aspose.com/note/java/) w celu uzyskania wyczerpujących przykładów i dokumentacji.
 ### Jak mogę uzyskać wsparcie dla Aspose.Note dla Java?
  Odwiedzić[Forum Aspose.Note](https://forum.aspose.com/c/note/28) o wsparcie społeczności lub[zakup planu wsparcia](https://purchase.aspose.com/buy) za dedykowaną pomoc.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

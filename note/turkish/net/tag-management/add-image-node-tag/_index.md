@@ -3,10 +3,16 @@ title: Aspose.Note'ta Etiketli Görüntü Düğümü Ekleme
 linktitle: Aspose.Note'ta Etiketli Görüntü Düğümü Ekleme
 second_title: Aspose.Note .NET API'si
 description: Aspose.Note for .NET'i kullanarak özel etiketlere sahip görüntüler ekleyerek OneNote belgelerinizi nasıl geliştireceğinizi öğrenin.
-type: docs
 weight: 10
 url: /tr/net/tag-management/add-image-node-tag/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Aspose.Note'ta Etiketli Görüntü Düğümü Ekleme
+
 ## giriiş
 
 Bu eğitimde Aspose.Note for .NET kullanarak etiketli bir görüntü düğümünün nasıl ekleneceğini inceleyeceğiz. Bu özellik, özel etiketlere sahip resimler ekleyerek OneNote belgelerinizi geliştirmenize olanak tanır.
@@ -110,3 +116,9 @@ Cevap4: Aspose.Note öncelikle yerel dizinlerden görsel eklemeyi destekler, anc
 ### S5: Eklenebilecek görsellerin boyutu veya formatıyla ilgili herhangi bir sınırlama var mı?
 
 Cevap5: Aspose.Note çok çeşitli görüntü formatlarını destekler ve görüntü boyutuna katı sınırlamalar getirmez; bu da belgelerinize çeşitli görseller eklemenize olanak tanır.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

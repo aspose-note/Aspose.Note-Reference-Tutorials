@@ -3,10 +3,16 @@ title: OneNote Belgesinin Şifreli olup olmadığını kontrol etme - Java
 linktitle: OneNote Belgesinin Şifreli olup olmadığını kontrol etme - Java
 second_title: Aspose.Note Java API'si
 description: Aspose.Note kullanarak bir OneNote belgesinin Java'da şifrelenip şifrelenmediğini nasıl kontrol edeceğinizi öğrenin. Verimli belge işleme için adım adım kılavuzumuzu izleyin.
-type: docs
 weight: 10
 url: /tr/java/onenote-document-loading/check-document-encrypted/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# OneNote Belgesinin Şifreli olup olmadığını kontrol etme - Java
+
 ## giriiş
 
 Java'da OneNote belgeleriyle çalışırken belgenin işlenmeden önce şifrelenmediğinden emin olmak çok önemlidir. Belgelerin şifrelenmesi ekstra bir güvenlik katmanı ekleyebilir ancak doğru şekilde işlenmezse işlem adımlarını da karmaşık hale getirebilir. Bu eğitimde, bir OneNote belgesinin Aspose.Note for Java kullanılarak şifrelenip şifrelenmediğini kontrol etme sürecinde size rehberlik edeceğiz.
@@ -116,3 +122,9 @@ Cevap4: Hayır, Aspose.Note yalnızca OneNote belgeleriyle çalışmak üzere ö
 ### S5: Aspose.Note for Java için daha fazla kaynağı ve desteği nerede bulabilirim?
 
  A5: ziyaret edebilirsiniz[Aspose.Note forumu](https://forum.aspose.com/c/note/28) topluluk desteği ve dokümantasyon için.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

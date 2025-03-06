@@ -3,10 +3,16 @@ title: Ανάκτηση αριθμού σελίδων στο έγγραφο Aspo
 linktitle: Ανάκτηση αριθμού σελίδων στο έγγραφο Aspose.Note
 second_title: Aspose.Note .NET API
 description: Μάθετε πώς να μετράτε τις σελίδες στο έγγραφο Aspose.Note χρησιμοποιώντας C#. Ακολουθήστε τον βήμα προς βήμα οδηγό μας για εύκολη ενσωμάτωση.
-type: docs
 weight: 12
 url: /el/net/note-manipulation/retrieve-number-of-pages/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Ανάκτηση αριθμού σελίδων στο έγγραφο Aspose.Note
+
 ## Εισαγωγή
 
 Το Aspose.Note για .NET είναι μια ισχυρή βιβλιοθήκη που επιτρέπει στους προγραμματιστές να εργάζονται με αρχεία Microsoft OneNote μέσω προγραμματισμού. Είτε θέλετε να δημιουργήσετε, να χειριστείτε ή να μετατρέψετε έγγραφα του OneNote, το Aspose.Note παρέχει ολοκληρωμένη λειτουργικότητα για τον εξορθολογισμό των εργασιών σας. Σε αυτό το σεμινάριο, θα εμβαθύνουμε σε μία από τις βασικές λειτουργίες: την ανάκτηση του αριθμού των σελίδων σε ένα έγγραφο Aspose.Note χρησιμοποιώντας C#.
@@ -100,3 +106,9 @@ A2: Απολύτως, το Aspose.Note υποστηρίζει τη μετατρ�
 ### Ε5: Πώς μπορώ να λάβω τεχνική υποστήριξη για το Aspose.Note;
 
  A5: Μπορείτε να αναζητήσετε βοήθεια και να συνεργαστείτε με την κοινότητα στο[Φόρουμ υποστήριξης Aspose.Note](https://forum.aspose.com/c/note/28).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

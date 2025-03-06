@@ -3,10 +3,16 @@ title: Μετατροπή σημειωματάριων σε εικόνα (επί
 linktitle: Μετατροπή σημειωματάριων σε εικόνα (επίπεδη) στο Aspose Note .NET
 second_title: Aspose.Note .NET API
 description: Μάθετε πώς να μετατρέπετε σημειωματάρια OneNote σε ισοπεδωμένες εικόνες χρησιμοποιώντας το Aspose.Note για .NET. Οδηγός βήμα προς βήμα για απρόσκοπτη ενσωμάτωση.
-type: docs
 weight: 12
 url: /el/net/notebook-operations/convert-to-image-flattened/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Μετατροπή σημειωματάριων σε εικόνα (επίπεδη) στο Aspose Note .NET
+
 ## Εισαγωγή
 
 Σε αυτό το σεμινάριο, θα μάθουμε πώς να χρησιμοποιούμε το Aspose.Note για .NET για να μετατρέπουμε σημειωματάρια σε ισοπεδωμένες εικόνες. Θα αναλύσουμε τη διαδικασία σε απλά βήματα για να σας βοηθήσουμε να την κατανοήσετε και να την εφαρμόσετε αποτελεσματικά.
@@ -93,3 +99,9 @@ A1: Ναι, το Aspose.Note για .NET είναι ικανό να χειρίζ
 ### Ε5: Πού μπορώ να βρω τεκμηρίωση για το Aspose.Note για .NET;
 
  A5: Μπορείτε να βρείτε την τεκμηρίωση[εδώ](https://reference.aspose.com/note/net/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

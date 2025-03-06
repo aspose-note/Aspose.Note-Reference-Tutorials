@@ -3,10 +3,16 @@ title: Charger des fichiers de bloc-notes avec les options de chargement dans As
 linktitle: Charger des fichiers de bloc-notes avec les options de chargement dans Aspose Note .NET
 second_title: API Aspose.Note .NET
 description: Découvrez comment charger des fichiers de bloc-notes avec des options de chargement à l'aide d'Aspose.Note pour .NET. Intégrez de manière transparente cette fonctionnalité dans vos applications .NET pour une gestion efficace des données de notebook.
-type: docs
 weight: 20
 url: /fr/net/notebook-operations/load-notebook-files-with-load-options/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Charger des fichiers de bloc-notes avec les options de chargement dans Aspose Note .NET
+
 ## Introduction
 
 Dans ce didacticiel, nous aborderons les subtilités du chargement de fichiers de bloc-notes avec des options de chargement à l'aide d'Aspose.Note pour .NET. Aspose.Note est une API puissante qui permet aux développeurs de travailler avec des fichiers Microsoft OneNote par programme, offrant une intégration transparente et une gestion efficace des données des blocs-notes.
@@ -94,3 +100,9 @@ A2 : Oui, vous pouvez bénéficier d'un essai gratuit d'Aspose.Note pour .NET à
 ### Q5 : Où puis-je demander de l'aide si je rencontre des problèmes ou si j'ai des questions liées à Aspose.Note pour .NET ?
 
  A5 : Vous pouvez visiter le forum Aspose.Note[ici](https://forum.aspose.com/c/note/28) pour demander de l'aide, poser des questions et dialoguer avec d'autres développeurs et experts.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -1,12 +1,17 @@
 ---
 title: Комплексные руководства и примеры Aspose.Note для Java
 linktitle: Учебные пособия по Aspose.Note для Java
-type: docs
 weight: 10
 url: /ru/java/
 description: Откройте для себя подробные руководства и примеры для Aspose.Note для Java. Повысьте качество работы с OneNote с помощью пошаговых руководств по интеграции Java.
-is_root: true
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Комплексные руководства и примеры Aspose.Note для Java
+
 
 ## Введение
 
@@ -91,3 +96,9 @@ is_root: true
 Изучите руководства Aspose.Note Java по манипулированию текстом в OneNote. Изучите эффективные методы решения таких задач, как извлечение текста, применение тем, создание списков и многое другое. 
 ### [Интеграция задач и Outlook](./task-and-outlook-integration/)
 Раскройте потенциал Aspose.Note Java с помощью наших руководств по интеграции задач Outlook в OneNote. Совершенствуйте свои навыки обработки документов с помощью наших руководств.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

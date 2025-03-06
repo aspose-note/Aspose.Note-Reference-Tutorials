@@ -3,10 +3,16 @@ title: Λειτουργίες ετικέτας OneNote
 linktitle: Λειτουργίες ετικέτας OneNote
 second_title: Aspose.Note Java API
 description: Ανακαλύψτε τη δύναμη του Aspose.Note για Java. Βελτιώστε την εμπειρία σας στο OneNote με οδηγούς βήμα προς βήμα για τις λειτουργίες ετικετών, την προσθήκη εικόνων, πινάκων, κόμβων κειμένου και άλλα.
-type: docs
 weight: 33
 url: /el/java/onenote-tag-operations/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Λειτουργίες ετικέτας OneNote
+
 ## Εισαγωγή
 
 Μάθετε πώς να βελτιστοποιήσετε την εμπειρία σας στο OneNote με το Aspose.Note για Java. Από την προσθήκη νέων κόμβων εικόνας σε δυναμικούς κόμβους πίνακα, αυτή η σειρά εκμάθησης βελτιώνει τις δεξιότητές σας στον προγραμματισμό Java χωρίς κόπο.
@@ -47,3 +53,9 @@ url: /el/java/onenote-tag-operations/
 Βελτιώστε τη συνεργασία με το Aspose.Note για Java! Μάθετε πώς να δημιουργείτε δυναμικά πρότυπα σημειώσεων συσκέψεων βήμα προς βήμα. Κατεβάστε τη βιβλιοθήκη τώρα!
 ### [Λάβετε ετικέτες κόμβων στο OneNote - Aspose.Note](./get-node-tags/)
 Ανακαλύψτε τα μυστικά του OneNote με το Aspose.Note για Java. Αυτός ο οδηγός σάς δίνει τη δυνατότητα να εξαγάγετε ετικέτες κόμβων χωρίς κόπο. Βουτήξτε στο μέλλον της χειραγώγησης εγγράφων!
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

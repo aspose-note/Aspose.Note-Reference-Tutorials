@@ -3,10 +3,16 @@ title: Сохранить в потоковом режиме в OneNote — Aspo
 linktitle: Сохранить в потоковом режиме в OneNote — Aspose.Note
 second_title: Aspose.Note Java API
 description: Узнайте, как сохранять документы OneNote в поток на Java с помощью Aspose.Note. Легко интегрируйте эту функциональность в свои приложения.
-type: docs
 weight: 20
 url: /ru/java/onenote-document-saving/save-to-stream/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Сохранить в потоковом режиме в OneNote — Aspose.Note
+
 ## Введение
 
 В этом уроке мы углубимся в использование Aspose.Note для Java, мощной библиотеки для программной работы с документами Microsoft OneNote. В частности, мы сосредоточимся на процессе сохранения документов OneNote в поток. Выполнив действия, описанные в этом руководстве, вы сможете эффективно манипулировать файлами OneNote в своих приложениях Java.
@@ -95,3 +101,9 @@ System.out.println("Stream Size: " + stream.size() + " bytes");
 ### Вопрос 5: Могу ли я попробовать Aspose.Note для Java перед покупкой?
 
  О5: Да, вы можете получить бесплатную пробную версию Aspose.Note для Java на сайте[Веб-сайт Aspose](https://releases.aspose.com/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -3,10 +3,16 @@ title: تحويل دفاتر الملاحظات إلى PDF في Aspose Note .NET
 linktitle: تحويل دفاتر الملاحظات إلى PDF في Aspose Note .NET
 second_title: Aspose.Note .NET API
 description: تعرف على كيفية تحويل دفاتر الملاحظات إلى تنسيق PDF بسهولة باستخدام Aspose.Note لـ .NET. الحفاظ على المحتوى والتنسيق بسلاسة.
-type: docs
 weight: 14
 url: /ar/net/notebook-operations/convert-to-pdf/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# تحويل دفاتر الملاحظات إلى PDF في Aspose Note .NET
+
 ## مقدمة
 
 مرحبًا بك في برنامجنا التعليمي حول تحويل دفاتر الملاحظات إلى PDF باستخدام Aspose.Note لـ .NET! في هذا الدليل، سنرشدك خلال العملية خطوة بخطوة، مما يسمح لك بتحويل دفاتر ملاحظاتك بسهولة إلى تنسيق PDF. يوفر Aspose.Note for .NET وظائف قوية للعمل مع مستندات Microsoft OneNote، مما يتيح لك إجراء عمليات متنوعة بما في ذلك التحويل إلى PDF.
@@ -86,3 +92,9 @@ notebook.Save(dataDir);
 ### س5: هل يمكنني تجربة Aspose.Note لـ .NET قبل الشراء؟
 
 ج5: نعم، يمكنك استكشاف إمكانيات Aspose.Note لـ .NET عن طريق تنزيل نسخة تجريبية مجانية من موقع الويب.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -3,10 +3,16 @@ title: Angehängte Dateien mit Aspose.Note abrufen
 linktitle: Angehängte Dateien mit Aspose.Note abrufen
 second_title: Aspose.Note .NET-API
 description: Erfahren Sie, wie Sie mit Aspose.Note für .NET angehängte Dateien aus Microsoft OneNote-Dokumenten abrufen. Befolgen Sie die Schritte zum Laden, Abrufen von Knoten und Durchlaufen von Anhängen.
-type: docs
 weight: 12
 url: /de/net/attachments/retrieve-attached-files/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Angehängte Dateien mit Aspose.Note abrufen
+
 ## Einführung
 
 In diesem Tutorial erfahren Sie, wie Sie mit Aspose.Note für .NET angehängte Dateien aus einem Dokument abrufen. Aspose.Note ist eine leistungsstarke API, die es Entwicklern ermöglicht, programmgesteuert mit Microsoft OneNote-Dateien zu arbeiten. Wir unterteilen den Prozess in einfache Schritte, damit er leicht nachvollziehbar ist.
@@ -90,3 +96,9 @@ A4: Ja, Sie können eine kostenlose Testversion von Aspose.Note nutzen, um die F
 ### F5: Wie kann ich eine temporäre Lizenz für Aspose.Note erhalten?
 
 A5: Sie können bei Aspose eine temporäre Lizenz anfordern, um die vollen Funktionen der API in Ihrer Entwicklungsumgebung zu testen.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

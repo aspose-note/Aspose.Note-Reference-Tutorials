@@ -3,10 +3,16 @@ title: Add Tag in OneNote - Aspose.Note
 linktitle: Add Tag in OneNote - Aspose.Note
 second_title: Aspose.Note Java API
 description: Elevate OneNote with Aspose.Note for Java. Effortlessly add tags using our step-by-step guide. Enhance organization and collaboration now!
-type: docs
 weight: 12
 url: /java/onenote-tag-operations/add-tag/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Add Tag in OneNote - Aspose.Note
+
 ## Introduction
 Are you looking to enhance your document organization and collaboration in OneNote using Java? Aspose.Note for Java provides a powerful solution to add tags seamlessly, ensuring your notes are not just informative but also visually appealing. In this tutorial, we'll walk you through the process step by step, so you can leverage the full potential of Aspose.Note for Java.
 ## Prerequisites
@@ -93,3 +99,10 @@ You can get a temporary license [here](https://purchase.aspose.com/temporary-lic
 For any queries or assistance, visit the [Aspose.Note forum](https://forum.aspose.com/c/note/28).
 ### 5. Is there a free trial available?
 Yes, you can explore a free trial [here](https://releases.aspose.com/).
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -3,10 +3,16 @@ title: Retrieve Documents from OneNote Notebook in Aspose Note .NET
 linktitle: Retrieve Documents from OneNote Notebook in Aspose Note .NET
 second_title: Aspose.Note .NET API
 description: Learn how to retrieve documents from OneNote notebooks programmatically using Aspose.Note for .NET, empowering seamless integration and manipulation.
-type: docs
 weight: 25
 url: /net/notebook-operations/retrieve-documents-from-onenote-notebook/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Retrieve Documents from OneNote Notebook in Aspose Note .NET
+
 ## Introduction
 
 In the realm of .NET development, Aspose.Note stands out as a robust tool for managing and manipulating OneNote documents effortlessly. Whether you're a seasoned developer or just dipping your toes into the world of .NET programming, mastering the art of retrieving documents from OneNote notebooks using Aspose.Note is a valuable skill.
@@ -95,3 +101,10 @@ A4: Yes, Aspose offers flexible licensing options, including free trials, tempor
 ### Q5: Where can I find additional support or assistance with Aspose.Note?
 
 A5: For any queries or assistance, you can visit the Aspose.Note forum at [Support Forum](https://forum.aspose.com/c/note/28).
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

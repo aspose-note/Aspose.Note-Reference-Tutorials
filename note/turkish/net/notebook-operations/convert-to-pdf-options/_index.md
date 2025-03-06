@@ -3,10 +3,16 @@ title: Aspose Note .NET'teki Seçeneklerle Not Defterlerini PDF'ye Dönüştür�
 linktitle: Aspose Note .NET'teki Seçeneklerle Not Defterlerini PDF'ye Dönüştürün
 second_title: Aspose.Note .NET API'si
 description: Özelleştirilebilir seçeneklerle Aspose.Note for .NET kitaplığını kullanarak Microsoft OneNote not defterlerini PDF formatına nasıl dönüştüreceğinizi öğrenin.
-type: docs
 weight: 16
 url: /tr/net/notebook-operations/convert-to-pdf-options/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Aspose Note .NET'teki Seçeneklerle Not Defterlerini PDF'ye Dönüştürün
+
 ## giriiş
 
 Bu eğitimde, Aspose.Note for .NET kütüphanesini kullanarak not defterlerini PDF formatına dönüştürme sürecini anlatacağız. Aspose.Note for .NET, Microsoft OneNote dosyalarıyla programlı olarak çalışmak için güçlü bir dizi özellik sağlar.
@@ -102,3 +108,9 @@ Cevap4: Evet, satın almadan önce özelliklerini değerlendirmek için Aspose.N
 ### S5: Aspose.Note for .NET için nasıl teknik destek alabilirim?
 
  Cevap5: Aspose.Note for .NET için teknik destek almak için şu adresi ziyaret edebilirsiniz:[Aspose.Note forumu](https://forum.aspose.com/c/note/28) veya doğrudan Aspose destek ekibiyle iletişime geçin.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

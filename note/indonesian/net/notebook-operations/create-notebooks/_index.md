@@ -3,10 +3,16 @@ title: Buat Notebook di Aspose Note .NET
 linktitle: Buat Notebook di Aspose Note .NET
 second_title: Aspose.Catatan .NET API
 description: Pelajari cara membuat buku catatan di Aspose Note .NET dengan mudah. Tingkatkan alur kerja pemrosesan dokumen Anda sekarang.
-type: docs
 weight: 17
 url: /id/net/notebook-operations/create-notebooks/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Buat Notebook di Aspose Note .NET
+
 ## Perkenalan
 
 Dalam tutorial ini, kita akan mempelajari seluk-beluk membuat buku catatan menggunakan Aspose.Note untuk .NET. Aspose.Note adalah perpustakaan canggih yang memungkinkan pengembang memanipulasi file Microsoft OneNote secara terprogram, menawarkan berbagai fungsi untuk menyederhanakan tugas pengelolaan dan pemrosesan dokumen.
@@ -99,3 +105,10 @@ A4: Ya, Anda dapat memperoleh lisensi sementara dari situs web Aspose:[Lisensi S
  A5: Anda dapat merujuk ke dokumentasi yang tersedia di:[Dokumentasi](https://reference.aspose.com/note/net/).
 
 
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

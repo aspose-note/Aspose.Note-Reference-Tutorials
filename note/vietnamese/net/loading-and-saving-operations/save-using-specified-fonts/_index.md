@@ -3,10 +3,16 @@ title: Lưu bằng cách sử dụng phông chữ được chỉ định trong A
 linktitle: Lưu bằng cách sử dụng phông chữ được chỉ định trong Aspose.Note
 second_title: Aspose.Note .NET API
 description: Tìm hiểu cách lưu tài liệu với phông chữ được chỉ định trong Aspose.Note dành cho .NET. Dễ dàng tùy chỉnh cài đặt phông chữ để định dạng tài liệu nhất quán.
-type: docs
 weight: 28
 url: /vi/net/loading-and-saving-operations/save-using-specified-fonts/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Lưu bằng cách sử dụng phông chữ được chỉ định trong Aspose.Note
+
 ## Giới thiệu
 
 Trong hướng dẫn này, chúng ta sẽ tìm hiểu cách lưu tài liệu bằng các phông chữ được chỉ định trong Aspose.Note cho .NET. Chúng ta sẽ khám phá các phương pháp khác nhau để đạt được điều này, từng bước một.
@@ -131,3 +137,9 @@ Câu trả lời 4: Có, Aspose.Note cho phép nhúng phông chữ để đảm 
 ### Câu hỏi 5: Tôi có thể nhận thêm hỗ trợ với Aspose.Note ở đâu?
 
  Câu trả lời 5: Để được hỗ trợ thêm hoặc hỗ trợ kỹ thuật, bạn có thể truy cập[Diễn đàn Aspose.Note](https://forum.aspose.com/c/note/28).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

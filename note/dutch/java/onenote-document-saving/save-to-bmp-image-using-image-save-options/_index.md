@@ -3,10 +3,16 @@ title: Opslaan naar BMP-afbeelding met behulp van de opties voor het opslaan van
 linktitle: Opslaan naar BMP-afbeelding met behulp van de opties voor het opslaan van afbeeldingen in OneNote
 second_title: Aspose.Note Java-API
 description: Leer hoe u OneNote-documenten programmatisch kunt opslaan in BMP-afbeeldingen met Aspose.Note voor Java. Stapsgewijze handleiding met codevoorbeelden.
-type: docs
 weight: 16
 url: /nl/java/onenote-document-saving/save-to-bmp-image-using-image-save-options/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Opslaan naar BMP-afbeelding met behulp van de opties voor het opslaan van afbeeldingen in OneNote
+
 ## Invoering
 
 Aspose.Note voor Java is een krachtige bibliotheek waarmee Java-ontwikkelaars programmatisch met Microsoft OneNote-bestanden kunnen werken. Met Aspose.Note voor Java kunt u naadloos OneNote-documenten maken, manipuleren en converteren. In deze zelfstudie gaan we dieper in op hoe u een OneNote-document op een BMP-afbeelding kunt opslaan met behulp van de opties voor het opslaan van afbeeldingen van Aspose.Note voor Java.
@@ -79,3 +85,9 @@ A4: Ja, u kunt de inhoud, structuur en opmaak van OneNote-documenten programmati
 ### V5: Biedt Aspose.Note voor Java technische ondersteuning?
 
  A5: Ja, Aspose biedt technische ondersteuning voor zijn producten. U kunt een bezoek brengen aan de[Aspose.Note-forum](https://forum.aspose.com/c/note/28) Voor assistentie.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

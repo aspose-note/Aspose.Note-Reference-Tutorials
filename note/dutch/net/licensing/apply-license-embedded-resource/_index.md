@@ -3,10 +3,16 @@ title: Pas de Aspose.Note-licentie toe vanuit de Embedded Resource
 linktitle: Pas de Aspose.Note-licentie toe vanuit de Embedded Resource
 second_title: Aspose.Note .NET API
 description: Leer hoe u de Aspose.Note-licentie toepast vanuit een ingebedde bron in uw .NET-toepassing. Volg onze stapsgewijze handleiding voor een naadloze integratie.
-type: docs
 weight: 10
 url: /nl/net/licensing/apply-license-embedded-resource/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Pas de Aspose.Note-licentie toe vanuit de Embedded Resource
+
 ## Invoering
 
 Aspose.Note voor .NET is een krachtige API waarmee ontwikkelaars programmatisch met Microsoft OneNote-bestanden kunnen werken. Of u nu OneNote-documenten wilt maken, wijzigen of converteren, Aspose.Note biedt een uitgebreide reeks functies om aan uw behoeften te voldoen. In deze zelfstudie doorlopen we het proces van het toepassen van een Aspose.Note-licentie vanuit een ingebedde bron in uw .NET-toepassing.
@@ -86,3 +92,9 @@ A1: Nee, u heeft een geldige licentie nodig om Aspose.Note voor .NET te gebruike
 ### V5: Waar kan ik Aspose.Note-licenties kopen?
 
  A5: U kunt Aspose.Note-licenties kopen[hier](https://purchase.aspose.com/buy).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

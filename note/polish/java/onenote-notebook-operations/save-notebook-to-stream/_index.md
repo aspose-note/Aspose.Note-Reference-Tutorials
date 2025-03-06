@@ -3,10 +3,16 @@ title: Zapisz notatnik w strumieniu w programie OneNote — Aspose.Note
 linktitle: Zapisz notatnik w strumieniu w programie OneNote — Aspose.Note
 second_title: Aspose.Note API Java
 description: Dowiedz się, jak zapisywać notesy w strumieniach w programie OneNote przy użyciu programu Aspose.Note dla języka Java. Zwiększ produktywność dzięki wydajnemu zarządzaniu notebookami.
-type: docs
 weight: 26
 url: /pl/java/onenote-notebook-operations/save-notebook-to-stream/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Zapisz notatnik w strumieniu w programie OneNote — Aspose.Note
+
 ## Wstęp
 
 W tym samouczku przeprowadzimy Cię przez proces zapisywania notatnika w strumieniu w programie OneNote przy użyciu programu Aspose.Note dla języka Java. Wykonując poniższe kroki, będziesz mógł efektywnie programowo zarządzać swoimi notatnikami.
@@ -88,3 +94,9 @@ A3: Absolutnie! Aspose.Note for Java zapewnia płynną integrację, pozwalając 
 ### P5: Czy dostępna jest wersja próbna Aspose.Note dla Java?
 
  Odpowiedź 5: Tak, możesz uzyskać dostęp do wersji próbnej[Tutaj](https://releases.aspose.com/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

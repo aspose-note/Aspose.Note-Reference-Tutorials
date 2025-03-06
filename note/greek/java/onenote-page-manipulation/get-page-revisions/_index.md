@@ -3,10 +3,16 @@ title: Λάβετε αναθεωρήσεις σελίδας στο OneNote - Asp
 linktitle: Λάβετε αναθεωρήσεις σελίδας στο OneNote - Aspose.Note
 second_title: Aspose.Note Java API
 description: Μάθετε πώς να ανακτάτε τις αναθεωρήσεις σελίδων στο OneNote χρησιμοποιώντας το Aspose.Note για Java. Ακολουθήστε τον βήμα προς βήμα οδηγό μας για αποτελεσματική παρακολούθηση των αλλαγών.
-type: docs
 weight: 14
 url: /el/java/onenote-page-manipulation/get-page-revisions/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Λάβετε αναθεωρήσεις σελίδας στο OneNote - Aspose.Note
+
 ## Εισαγωγή
 
 Το OneNote είναι ένα ισχυρό εργαλείο για την οργάνωση και τη διαχείριση των σημειώσεων σας, αλλά μερικές φορές χρειάζεται να παρακολουθείτε τις αλλαγές και τις αναθεωρήσεις που γίνονται στις σελίδες σας. Με το Aspose.Note για Java, μπορείτε εύκολα να ανακτήσετε τις αναθεωρήσεις σελίδων μέσω προγραμματισμού. Σε αυτό το σεμινάριο, θα σας καθοδηγήσουμε στη διαδικασία λήψης αναθεωρήσεων σελίδων στο OneNote χρησιμοποιώντας το Aspose.Note για Java.
@@ -107,3 +113,9 @@ A3: Ναι, πρέπει να αγοράσετε άδεια χρήσης για 
 ### Ε5: Υπάρχει διαθέσιμη δωρεάν δοκιμή για το Aspose.Note για Java;
 
  A5: Ναι, μπορείτε να έχετε πρόσβαση σε μια δωρεάν δοκιμή του Aspose.Note για Java από το[δικτυακός τόπος](https://releases.aspose.com/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

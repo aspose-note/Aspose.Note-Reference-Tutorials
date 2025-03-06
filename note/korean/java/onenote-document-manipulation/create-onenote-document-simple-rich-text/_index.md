@@ -3,10 +3,16 @@ title: Java에서 간단한 서식 있는 텍스트를 사용하여 OneNote 문�
 linktitle: Java에서 간단한 서식 있는 텍스트를 사용하여 OneNote 문서 만들기
 second_title: Aspose.Note 자바 API
 description: Aspose.Note Java를 사용하여 서식 있는 텍스트가 포함된 OneNote 문서를 만드는 방법을 알아보세요. 효율적인 문서 관리를 위해 이 기능을 Java 앱에 통합하세요.
-type: docs
 weight: 12
 url: /ko/java/onenote-document-manipulation/create-onenote-document-simple-rich-text/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Java에서 간단한 서식 있는 텍스트를 사용하여 OneNote 문서 만들기
+
 ## 소개
 
 오늘날 디지털 시대에는 문서를 효율적으로 관리하고 조작하는 것이 무엇보다 중요합니다. Aspose.Note for Java는 개발자가 Java 애플리케이션 내에서 OneNote 문서를 원활하게 작업할 수 있게 해주는 강력한 도구로 등장합니다. 이 튜토리얼은 Aspose.Note for Java를 사용하여 간단한 서식 있는 텍스트로 OneNote 문서를 만드는 방법에 대한 포괄적인 가이드를 제공하는 것을 목표로 합니다.
@@ -164,3 +170,9 @@ A4: 예, Aspose.Note for Java는 다른 Java 라이브러리 또는 프레임워
 ### Q5: Aspose.Note for Java는 포괄적인 문서와 지원을 제공합니까?
 
  A5: 물론입니다. Java용 Aspose.Note에 대한 자세한 문서와 전용 지원은 다음 페이지에서 찾을 수 있습니다.[지원 포럼](https://forum.aspose.com/c/note/28).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

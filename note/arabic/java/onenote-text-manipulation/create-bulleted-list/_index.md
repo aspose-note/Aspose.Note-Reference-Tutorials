@@ -3,10 +3,16 @@ title: إنشاء قائمة ذات تعداد نقطي في OneNote - Aspose.No
 linktitle: إنشاء قائمة ذات تعداد نقطي في OneNote - Aspose.Note
 second_title: Aspose.Note جافا API
 description: استكشف الدليل التفصيلي خطوة بخطوة حول إنشاء قوائم ذات تعداد نقطي في OneNote باستخدام Aspose.Note لـ Java. ارفع مستوى إنشاء المستندات الخاصة بك بسهولة.
-type: docs
 weight: 12
 url: /ar/java/onenote-text-manipulation/create-bulleted-list/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# إنشاء قائمة ذات تعداد نقطي في OneNote - Aspose.Note
+
 ## مقدمة
 في المشهد الديناميكي لتطوير Java، يعد إنشاء مستندات جذابة ومنظمة أمرًا ضروريًا. يوفر Aspose.Note for Java مجموعة أدوات قوية لتحسين عملية إنشاء المستندات الخاصة بك. سيرشدك هذا البرنامج التعليمي خلال عملية إنشاء قوائم ذات تعداد نقطي في OneNote باستخدام Aspose.Note لـ Java. دعونا نتعمق في التفاصيل.
 ## المتطلبات الأساسية
@@ -92,3 +98,9 @@ doc.save(dataDir + "CreateBulletedList_out.pdf");
  نعم، يمكنك استكشاف نسخة تجريبية مجانية[هنا](https://releases.aspose.com/).
 ### كيف يمكنني الحصول على ترخيص مؤقت لـ Aspose.Note لـ Java؟
  الحصول على ترخيص مؤقت[هنا](https://purchase.aspose.com/temporary-license/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

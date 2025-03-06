@@ -3,10 +3,16 @@ title: Generate Template for Meeting Notes in OneNote - Aspose.Note
 linktitle: Generate Template for Meeting Notes in OneNote - Aspose.Note
 second_title: Aspose.Note Java API
 description: Enhance collaboration with Aspose.Note for Java! Learn how to create dynamic meeting notes templates step-by-step. Download the library now!
-type: docs
 weight: 14
 url: /java/onenote-tag-operations/generate-template-for-meeting-notes/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Generate Template for Meeting Notes in OneNote - Aspose.Note
+
 ## Introduction
 In today's fast-paced world, efficient organization and documentation of meetings are crucial for successful collaboration. Aspose.Note for Java provides a powerful solution for generating templates for meeting notes in OneNote. In this step-by-step guide, we will explore how to use Aspose.Note to create a template that captures the essence of your meetings, making note-taking a breeze.
 ## Prerequisites
@@ -105,3 +111,10 @@ You can easily extend the outline structure by following the same pattern demons
 Refer to the [Aspose.Note documentation](https://reference.aspose.com/note/java/) for licensing details.
 ### Is there a trial version available for Aspose.Note?
 Yes, you can access the [free trial here](https://releases.aspose.com/).
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

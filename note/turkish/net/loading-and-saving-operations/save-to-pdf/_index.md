@@ -3,10 +3,16 @@ title: Aspose.Note'ta PDF'ye kaydet
 linktitle: Aspose.Note'ta PDF'ye kaydet
 second_title: Aspose.Note .NET API'si
 description: Aspose.Note for .NET'i kullanarak Microsoft OneNote belgelerini PDF formatında nasıl kaydedeceğinizi öğrenin. Letter ve A4 sayfa düzenleri için kod örnekleri içeren adım adım eğitim.
-type: docs
 weight: 26
 url: /tr/net/loading-and-saving-operations/save-to-pdf/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Aspose.Note'ta PDF'ye kaydet
+
 ## giriiş
 
 Bu eğitimde, Aspose.Note for .NET'i kullanarak belgeleri PDF formatında nasıl kaydedeceğimizi inceleyeceğiz. Aspose.Note, geliştiricilerin Microsoft OneNote dosyalarıyla programlı olarak çalışmasını sağlayan güçlü bir kitaplıktır. Önkoşulları ele alacağız, ad alanlarını içe aktaracağız ve belgeleri çeşitli sayfa düzenlerinde PDF'ye kaydetmek için adım adım kılavuzlar sunacağız.
@@ -110,3 +116,9 @@ Cevap1: Evet, Aspose.Note, karmaşık OneNote dosyalarını etkili bir şekilde 
 ### S5: Daha fazla yardıma mı ihtiyacınız var?
 
  Cevap5: Aspose.Note forumunda soru sormaktan veya destek almaktan çekinmeyin[Burada](https://forum.aspose.com/c/note/28).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -3,10 +3,16 @@ title: OneNote'a Sayfa Ekle - Aspose.Note
 linktitle: OneNote'a Sayfa Ekle - Aspose.Note
 second_title: Aspose.Note Java API'si
 description: Aspose.Note for Java'yı kullanarak OneNote belgelerine programlı olarak nasıl sayfa ekleyeceğinizi öğrenin. Adım adım talimatlarla kapsamlı eğitim.
-type: docs
 weight: 16
 url: /tr/java/onenote-page-manipulation/insert-pages/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# OneNote'a Sayfa Ekle - Aspose.Note
+
 ## giriiş
 
 Bu eğitimde Aspose.Note for Java'yı kullanarak OneNote belgesine nasıl sayfa ekleneceğini öğreneceğiz.
@@ -132,3 +138,9 @@ Cevap4: Evet, Aspose.Note for Java'yı kullanarak Windows, Linux ve macOS gibi f
 ### S5: OneNote'ta eklenen sayfaların görünümünü özelleştirebilir miyim?
 
 Cevap5: Kesinlikle Aspose.Note, sayfa düzenlerini, stillerini ve içeriğini özel gereksinimlerinizi karşılayacak şekilde özelleştirmek için kapsamlı seçenekler sunar.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

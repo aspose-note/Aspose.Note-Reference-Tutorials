@@ -3,10 +3,16 @@ title: Insira uma imagem em um documento do OneNote com Java
 linktitle: Insira uma imagem em um documento do OneNote com Java
 second_title: API Java Aspose.Note
 description: Aprenda como inserir imagens em documentos do OneNote usando Java com a biblioteca Aspose.Note para Java. Siga nosso guia passo a passo para uma integração perfeita.
-type: docs
 weight: 16
 url: /pt/java/onenote-hyperlinks-images/insert-image/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Insira uma imagem em um documento do OneNote com Java
+
 ## Introdução
 
 Neste tutorial, exploraremos como inserir uma imagem em um documento OneNote usando Java com a ajuda de Aspose.Note for Java. Aspose.Note for Java é uma biblioteca poderosa que permite aos desenvolvedores trabalhar com arquivos do Microsoft OneNote de forma programática, permitindo várias operações, como criação, leitura e manipulação de documentos do OneNote.
@@ -120,3 +126,9 @@ A4: Sim, você pode baixar uma versão de avaliação gratuita do Aspose.Note fo
 ### Q5: Como posso obter suporte técnico para Aspose.Note para Java?
 
  A5: Você pode obter suporte técnico para Aspose.Note for Java visitando o[fórum](https://forum.aspose.com/c/note/28) dedicado aos produtos Aspose.Note.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

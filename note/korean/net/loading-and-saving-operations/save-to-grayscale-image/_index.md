@@ -3,10 +3,16 @@ title: Aspose.Note에서 그레이스케일 이미지로 저장
 linktitle: Aspose.Note에서 그레이스케일 이미지로 저장
 second_title: Aspose.Note .NET API
 description: .NET용 Aspose.Note를 사용하여 OneNote 문서를 회색조 이미지로 저장하는 방법을 알아보세요. 효율적인 문서 처리를 위해 이 포괄적인 튜토리얼을 따르십시오.
-type: docs
 weight: 24
 url: /ko/net/loading-and-saving-operations/save-to-grayscale-image/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Aspose.Note에서 그레이스케일 이미지로 저장
+
 ## 소개
 
 이 튜토리얼에서는 .NET용 Aspose.Note를 활용하여 문서를 회색조 이미지로 저장하는 방법을 살펴보겠습니다. Aspose.Note는 개발자가 Microsoft OneNote 파일을 프로그래밍 방식으로 작업하여 광범위한 기능을 제공할 수 있는 강력한 라이브러리입니다.
@@ -85,3 +91,9 @@ A4: 예, Aspose.Note 웹사이트에서 제공되는 무료 평가판을 통해 
 ### Q5: Aspose.Note의 임시 라이선스는 어떻게 얻을 수 있나요?
 
 A5: 제공된 링크를 방문하고 지침에 따라 Aspose.Note에 대한 임시 라이선스를 얻을 수 있습니다.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

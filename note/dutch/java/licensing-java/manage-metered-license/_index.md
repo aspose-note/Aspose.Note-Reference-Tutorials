@@ -3,10 +3,16 @@ title: Beheer de gemeten licentie voor OneNote in Java
 linktitle: Beheer de gemeten licentie voor OneNote in Java
 second_title: Aspose.Note Java-API
 description: Leer hoe u gemeten licenties voor OneNote in Java beheert met behulp van de Aspose.Note-bibliotheek. Beheer het gebruik, bewaak kredieten en optimaliseer de kosten efficiënt.
-type: docs
 weight: 10
 url: /nl/java/licensing-java/manage-metered-license/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Beheer de gemeten licentie voor OneNote in Java
+
 ## Invoering
 
 In deze zelfstudie leren we hoe u een gemeten licentie voor OneNote kunt beheren met Aspose.Note voor Java. Met gemeten licenties kunt u uw gebruik monitoren en controleren op basis van credits, wat een flexibele en kosteneffectieve oplossing oplevert.
@@ -85,3 +91,9 @@ A3: Ja, een gemeten licentie kan voor meerdere applicaties worden gebruikt, maar
 ### V5: Waar kan ik ondersteuning krijgen voor Aspose.Note voor Java?
 
  A5: U kunt ondersteuning krijgen van de Aspose-communityforums[hier](https://forum.aspose.com/c/note/28).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

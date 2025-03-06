@@ -3,10 +3,16 @@ title: حفظ باستخدام النظام الفرعي للخطوط المحد
 linktitle: حفظ باستخدام النظام الفرعي للخطوط المحددة في OneNote
 second_title: Aspose.Note جافا API
 description: تعرف على كيفية حفظ مستندات OneNote باستخدام النظام الفرعي للخطوط المحددة في Java باستخدام Aspose.Note. ضمان تمثيل الخطوط المتسق عبر الأنظمة الأساسية دون عناء.
-type: docs
 weight: 22
 url: /ar/java/onenote-document-saving/save-using-specified-fonts-subsystem/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# حفظ باستخدام النظام الفرعي للخطوط المحددة في OneNote
+
 ## مقدمة
 
 يوفر Aspose.Note for Java إمكانات قوية للعمل مع مستندات OneNote. أحد المتطلبات الشائعة عند العمل مع مثل هذه المستندات هو التأكد من الحفاظ على الخطوط بشكل صحيح، خاصة إذا كان المستند سيتم تصديره أو حفظه بتنسيقات مختلفة مثل PDF. سيرشدك هذا البرنامج التعليمي خلال عملية حفظ مستندات OneNote مع تحديد النظام الفرعي للخطوط، مما يضمن تمثيلًا متسقًا ودقيقًا للنص عبر الأنظمة الأساسية المختلفة.
@@ -152,3 +158,9 @@ A3: يوفر Aspose.Note خيارات لتحديد الخطوط الافتراض
 ### س5: هل هناك إصدار تجريبي متاح لـ Aspose.Note لـ Java؟
 
 ج5: نعم، يمكنك الحصول على نسخة تجريبية مجانية من Aspose.Note لـ Java من موقع الويب.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

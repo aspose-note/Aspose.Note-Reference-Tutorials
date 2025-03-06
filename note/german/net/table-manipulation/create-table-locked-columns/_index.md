@@ -3,10 +3,16 @@ title: Erstellen Sie mit Aspose.Note eine Tabelle mit gesperrten Spalten
 linktitle: Erstellen Sie mit Aspose.Note eine Tabelle mit gesperrten Spalten
 second_title: Aspose.Note .NET-API
 description: Erfahren Sie, wie Sie mit Aspose.Note für .NET Tabellen mit gesperrten Spalten erstellen. Schritt-für-Schritt-Anleitung für effiziente Dokumentenverarbeitungsaufgaben.
-type: docs
 weight: 12
 url: /de/net/table-manipulation/create-table-locked-columns/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Erstellen Sie mit Aspose.Note eine Tabelle mit gesperrten Spalten
+
 ## Einführung
 
 Das Erstellen von Tabellen mit gesperrten Spalten ist eine häufige Anforderung in Dokumentenverarbeitungsanwendungen. Aspose.Note für .NET bietet leistungsstarke Tools, um diese Aufgabe effizient zu erledigen. In diesem Tutorial führen wir Sie Schritt für Schritt durch den Prozess der Erstellung einer Tabelle mit gesperrten Spalten mit Aspose.Note für .NET.
@@ -147,3 +153,9 @@ A4: Ja, Sie können über das auf technischen Support zugreifen[Aspose.Note-Foru
 ### F5: Kann ich Aspose.Note für .NET vor dem Kauf testen?
 
  A5: Ja, Sie können eine kostenlose Testversion von Aspose.Note für .NET herunterladen unter[Hier](https://releases.aspose.com/) um seine Funktionen und Kompatibilität mit Ihren Anforderungen zu bewerten.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

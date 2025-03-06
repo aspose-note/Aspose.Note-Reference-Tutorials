@@ -3,10 +3,16 @@ title: 使用 Aspose Note .NET 中的选项将笔记本转换为图像
 linktitle: 使用 Aspose Note .NET 中的选项将笔记本转换为图像
 second_title: Aspose.Note .NET API
 description: 了解如何使用 Aspose.Note for .NET 将笔记本转换为具有可自定义选项的图像。
-type: docs
 weight: 13
 url: /zh/net/notebook-operations/convert-to-image-options/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# 使用 Aspose Note .NET 中的选项将笔记本转换为图像
+
 ## 介绍
 
 在本教程中，我们将深入研究使用 Aspose.Note for .NET 库将笔记本转换为具有各种选项的图像。 Aspose.Note 是一个功能强大的 .NET API，允许开发人员以编程方式使用 Microsoft OneNote 文件。通过遵循本指南中概述的步骤，您将了解如何轻松地将笔记本转换为图像，同时根据您的要求自定义输出。
@@ -95,3 +101,9 @@ A4：是的，Aspose.Note for .NET 提供了各种自定义图像输出的选项
 ### Q5：Aspose.Note for .NET 是否支持除 PNG 之外的其他图像格式？
 
 A5：是的，Aspose.Note for .NET 支持多种图像格式，包括 JPEG、BMP、GIF 和 TIFF。
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -3,10 +3,16 @@ title: Setting Cell Background Color in OneNote - Aspose.Note
 linktitle: Setting Cell Background Color in OneNote - Aspose.Note
 second_title: Aspose.Note Java API
 description: Transform OneNote documents with ease using Aspose.Note for Java. Effortlessly customize cell background colors. Try the free trial now!
-type: docs
 weight: 17
 url: /java/onenote-table-manipulation/setting-cell-background-color/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Setting Cell Background Color in OneNote - Aspose.Note
+
 ## Introduction
 Welcome to our tutorial on setting cell background color in OneNote using Aspose.Note for Java! In this step-by-step guide, we'll walk you through the process of customizing cell background colors in your OneNote documents effortlessly.
 ## Prerequisites
@@ -66,3 +72,9 @@ Yes, you can get a free trial version [here](https://releases.aspose.com/).
 Visit the support forum [here](https://forum.aspose.com/c/note/28) to get assistance from the Aspose community.
 ### Where can I purchase Aspose.Note for Java?
 You can purchase the library [here](https://purchase.aspose.com/buy).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

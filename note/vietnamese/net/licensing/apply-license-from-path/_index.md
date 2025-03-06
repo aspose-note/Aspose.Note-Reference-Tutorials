@@ -3,10 +3,16 @@ title: Áp dụng Giấy phép Aspose.Note từ Đường dẫn
 linktitle: Áp dụng Giấy phép Aspose.Note từ Đường dẫn
 second_title: Aspose.Note .NET API
 description: Tìm hiểu cách áp dụng giấy phép Aspose.Note từ đường dẫn trong ứng dụng .NET. Mở khóa toàn bộ tiềm năng thao tác tệp OneNote với Aspose.Note.
-type: docs
 weight: 11
 url: /vi/net/licensing/apply-license-from-path/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Áp dụng Giấy phép Aspose.Note từ Đường dẫn
+
 ## Giới thiệu
 
 Chào mừng bạn đến với hướng dẫn toàn diện của chúng tôi về cách áp dụng giấy phép Aspose.Note từ đường dẫn sử dụng .NET! Aspose.Note là một API mạnh mẽ cho phép các nhà phát triển làm việc với các tệp Microsoft OneNote theo chương trình, hỗ trợ nhiều chức năng để tạo, chỉnh sửa và thao tác các tài liệu OneNote. Trong hướng dẫn này, chúng tôi sẽ hướng dẫn bạn quy trình áp dụng giấy phép Aspose.Note từ một đường dẫn được chỉ định trong các ứng dụng .NET của bạn.
@@ -98,3 +104,9 @@ Câu trả lời 4: Có, Aspose cung cấp tài liệu, diễn đàn và hỗ tr
 ### Câu hỏi 5: Tôi có thể dùng thử Aspose.Note trước khi mua không?
 
 Câu trả lời 5: Có, bạn có thể tải xuống phiên bản dùng thử miễn phí của Aspose.Note từ trang web của họ để đánh giá các tính năng và khả năng của nó.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

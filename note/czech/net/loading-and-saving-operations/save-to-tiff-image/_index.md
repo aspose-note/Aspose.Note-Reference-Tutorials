@@ -3,10 +3,16 @@ title: Uložit do obrázku TIFF v Aspose.Note
 linktitle: Uložit do obrázku TIFF v Aspose.Note
 second_title: Aspose.Note .NET API
 description: Naučte se ukládat dokumenty OneNotu jako obrázky TIFF s různými metodami komprese pomocí Aspose.Note pro .NET.
-type: docs
 weight: 27
 url: /cs/net/loading-and-saving-operations/save-to-tiff-image/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Uložit do obrázku TIFF v Aspose.Note
+
 ## Úvod
 
 V tomto tutoriálu prozkoumáme, jak ukládat dokumenty jako obrázky ve formátu TIFF pomocí Aspose.Note pro .NET. Aspose.Note je výkonné API, které umožňuje vývojářům pracovat se soubory Microsoft OneNote programově. Ukládání dokumentů OneNotu jako obrázků TIFF může být užitečné pro různé aplikace, jako je archivace, sdílení nebo tisk.
@@ -131,3 +137,9 @@ A4: Ano, můžete automatizovat proces převodu pomocí dávkového zpracování
 ### Q5: Je k dispozici zkušební verze pro Aspose.Note?
 
 A5: Ano, můžete získat bezplatnou zkušební verzi Aspose.Note od[tady](https://releases.aspose.com/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

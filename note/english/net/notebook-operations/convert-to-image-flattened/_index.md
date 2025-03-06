@@ -3,10 +3,16 @@ title: Convert Notebooks to Image (Flattened) in Aspose Note .NET
 linktitle: Convert Notebooks to Image (Flattened) in Aspose Note .NET
 second_title: Aspose.Note .NET API
 description: Learn how to convert OneNote notebooks to flattened images using Aspose.Note for .NET. Step-by-step guide for seamless integration.
-type: docs
 weight: 12
 url: /net/notebook-operations/convert-to-image-flattened/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Convert Notebooks to Image (Flattened) in Aspose Note .NET
+
 ## Introduction
 
 In this tutorial, we'll learn how to use Aspose.Note for .NET to convert notebooks to flattened images. We'll break down the process into simple steps to help you understand and implement it effectively.
@@ -93,3 +99,10 @@ A4: Yes, you can purchase a temporary license [here](https://purchase.aspose.com
 ### Q5: Where can I find documentation for Aspose.Note for .NET?
 
 A5: You can find the documentation [here](https://reference.aspose.com/note/net/).
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

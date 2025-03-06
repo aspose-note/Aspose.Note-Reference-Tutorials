@@ -1,12 +1,17 @@
 ---
 title: برامج تعليمية شاملة وأمثلة على Aspose.Note لـ Java
 linktitle: Aspose.Note لبرامج جافا التعليمية
-type: docs
 weight: 10
 url: /ar/java/
 description: اكتشف البرامج التعليمية والأمثلة الشاملة لـ Aspose.Note لـ Java. ارفع مستوى تجربتك في OneNote من خلال إرشادات خطوة بخطوة حول تكامل Java.
-is_root: true
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# برامج تعليمية شاملة وأمثلة على Aspose.Note لـ Java
+
 
 ## مقدمة
 
@@ -91,3 +96,9 @@ is_root: true
 استكشف دروس Aspose.Note Java التعليمية حول معالجة النصوص في OneNote. اكتشف طرقًا فعالة لمهام مثل استخراج النص وتطبيق السمات وإنشاء القوائم والمزيد. 
 ### [تكامل المهام والتوقعات](./task-and-outlook-integration/)
 أطلق العنان لإمكانات Aspose.Note Java من خلال برامجنا التعليمية حول دمج مهام Outlook في OneNote. ارفع مهاراتك في معالجة المستندات من خلال برامجنا التعليمية.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

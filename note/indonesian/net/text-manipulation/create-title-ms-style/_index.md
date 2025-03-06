@@ -3,10 +3,16 @@ title: Buat Judul dengan MS Style di Aspose.Note
 linktitle: Buat Judul dengan MS Style di Aspose.Note
 second_title: Aspose.Catatan .NET API
 description: Pelajari cara membuat judul bergaya Microsoft di Aspose.Note untuk .NET. Tingkatkan presentasi dokumen Anda dengan tutorial yang mudah diikuti ini.
-type: docs
 weight: 15
 url: /id/net/text-manipulation/create-title-ms-style/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Buat Judul dengan MS Style di Aspose.Note
+
 ## Perkenalan
 Apakah Anda ingin menyempurnakan proses pembuatan dokumen dengan menambahkan judul bergaya Microsoft menggunakan Aspose.Note untuk .NET? Panduan komprehensif ini akan memandu Anda melalui langkah-langkah membuat judul dengan gaya MS dengan mudah. Aspose.Note untuk .NET adalah alat canggih yang memungkinkan pengembang memanipulasi dokumen OneNote secara terprogram.
 ## Prasyarat
@@ -80,3 +86,9 @@ Tentu saja, Anda dapat menyesuaikan halaman lebih lanjut dengan menambahkan berb
 Memanfaatkan mekanisme penanganan pengecualian di C# untuk menangkap dan menangani potensi kesalahan yang mungkin terjadi selama proses pembuatan dokumen.
 ### Di mana saya dapat menemukan lebih banyak contoh dan dokumentasi untuk Aspose.Note untuk .NET?
  Mengacu kepada[Aspose.Note untuk dokumentasi .NET](https://reference.aspose.com/note/net/)untuk contoh rinci dan dokumentasi komprehensif.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

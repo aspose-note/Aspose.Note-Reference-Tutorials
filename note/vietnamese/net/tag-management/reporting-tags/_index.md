@@ -3,10 +3,16 @@ title: Báo cáo bằng thẻ trong Aspose.Note
 linktitle: Báo cáo bằng thẻ trong Aspose.Note
 second_title: Aspose.Note .NET API
 description: Tìm hiểu cách tạo báo cáo chuyên sâu từ tài liệu kỹ thuật số bằng Aspose.Note for .NET. Hướng dẫn từng bước được cung cấp.
-type: docs
 weight: 16
 url: /vi/net/tag-management/reporting-tags/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Báo cáo bằng thẻ trong Aspose.Note
+
 ## Giới thiệu
 
 Trong lĩnh vực xử lý và quản lý tài liệu, Aspose.Note for .NET nổi bật như một công cụ mạnh mẽ để xử lý ghi chú, chú thích và thẻ trong tài liệu kỹ thuật số. Thẻ là công cụ tổ chức, phân loại và lọc thông tin trong tài liệu, cho phép truy xuất và phân tích hiệu quả. Hướng dẫn này đi sâu vào sự phức tạp của việc báo cáo bằng thẻ trong Aspose.Note, cung cấp hướng dẫn từng bước về cách tạo báo cáo dựa trên các tiêu chí khác nhau.
@@ -133,3 +139,9 @@ Câu trả lời 2: Có, bạn có thể truy cập bản dùng thử miễn ph�
 ## Câu hỏi 5: Tôi có thể tùy chỉnh tiêu chí báo cáo trong Aspose.Note cho .NET không?
 
 Câu trả lời 5: Có, bạn có thể điều chỉnh tiêu chí báo cáo theo yêu cầu cụ thể của mình bằng cách sử dụng các API và ví dụ được cung cấp.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

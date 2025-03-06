@@ -3,10 +3,16 @@ title: OneNote에서 스트림을 사용하여 문서 작성 및 이미지 삽�
 linktitle: OneNote에서 스트림을 사용하여 문서 작성 및 이미지 삽입 - Java
 second_title: Aspose.Note 자바 API
 description: Java용 Aspose.Note를 사용하여 이미지를 OneNote 문서에 손쉽게 통합하는 방법을 알아보세요. Java 개발자를 위한 단계별 튜토리얼입니다.
-type: docs
 weight: 13
 url: /ko/java/onenote-hyperlinks-images/build-doc-insert-image-stream/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# OneNote에서 스트림을 사용하여 문서 작성 및 이미지 삽입 - Java
+
 ## 소개
 
 Java용 Aspose.Note를 사용하여 OneNote에서 이미지 스트림을 사용하여 문서를 작성하고 이미지를 삽입하는 방법에 대한 포괄적인 튜토리얼에 오신 것을 환영합니다! 이 튜토리얼에서는 각 단계를 명확하게 이해할 수 있도록 프로세스를 단계별로 안내합니다. 결국에는 Java를 사용하여 이미지를 OneNote 문서에 쉽게 통합할 수 있게 됩니다.
@@ -180,3 +186,10 @@ A4: 제공된 링크를 통해 Java용 Aspose.Note에 대한 설명서, 다운�
 ### Q5: Aspose.Note for Java에 사용할 수 있는 평가판이 있나요?
 
 A5: 예, 구매 결정을 내리기 전에 Java용 Aspose.Note의 무료 평가판을 다운로드하여 해당 기능을 살펴볼 수 있습니다.
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

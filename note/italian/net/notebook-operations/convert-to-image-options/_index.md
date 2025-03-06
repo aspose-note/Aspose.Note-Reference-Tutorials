@@ -3,10 +3,16 @@ title: Converti taccuini in immagini con le opzioni in Aspose Note .NET
 linktitle: Converti taccuini in immagini con le opzioni in Aspose Note .NET
 second_title: Aspose.Note API .NET
 description: Scopri come convertire i taccuini in immagini con opzioni personalizzabili utilizzando Aspose.Note per .NET.
-type: docs
 weight: 13
 url: /it/net/notebook-operations/convert-to-image-options/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Converti taccuini in immagini con le opzioni in Aspose Note .NET
+
 ## introduzione
 
 In questo tutorial, approfondiremo la conversione dei notebook in immagini con varie opzioni utilizzando la libreria Aspose.Note per .NET. Aspose.Note è una potente API .NET che consente agli sviluppatori di lavorare con i file Microsoft OneNote a livello di codice. Seguendo i passaggi descritti in questa guida, imparerai come convertire facilmente i taccuini in immagini personalizzando l'output in base alle tue esigenze.
@@ -95,3 +101,9 @@ A4: Sì, Aspose.Note per .NET fornisce varie opzioni per personalizzare l'output
 ### Q5: Aspose.Note per .NET supporta altri formati di immagine oltre a PNG?
 
 A5: Sì, Aspose.Note per .NET supporta diversi formati di immagine, inclusi JPEG, BMP, GIF e TIFF.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

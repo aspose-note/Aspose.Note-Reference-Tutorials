@@ -3,10 +3,16 @@ title: Upravit historii stránek ve OneNotu – Aspose.Note
 linktitle: Upravit historii stránek ve OneNotu – Aspose.Note
 second_title: Aspose.Note Java API
 description: Bezproblémově odstraňte, upravte a přidejte položky historie stránek! Podrobný průvodce a kód pro zvládnutí OneNotu pomocí Aspose.Note. #OneNote #Java #Aspose
-type: docs
 weight: 17
 url: /cs/java/onenote-page-manipulation/modify-page-history/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Upravit historii stránek ve OneNotu – Aspose.Note
+
 ## Úvod
 
 V tomto kurzu se ponoříme do používání Aspose.Note pro Java k úpravě historie stránek v dokumentech OneNotu. Aspose.Note je výkonné Java API, které umožňuje vývojářům bezproblémově pracovat se soubory OneNote a umožňuje různé operace, jako je vytváření, čtení a programové úpravy těchto souborů.
@@ -108,3 +114,10 @@ Odpověď 4: Ano, Aspose.Note pro Java poskytuje rozhraní API pro efektivní zp
 ### Q5: Existuje komunitní fórum pro Aspose.Note pro Java, kde mohu požádat o pomoc?
 
  A5: Ano, můžete navštívit[Aspose.Note fórum](https://forum.aspose.com/c/note/28) pro jakoukoli pomoc nebo dotazy týkající se knihovny.
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

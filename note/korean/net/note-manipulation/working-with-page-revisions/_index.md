@@ -3,10 +3,16 @@ title: OneNote 문서의 페이지 개정 마스터링
 linktitle: OneNote 문서의 페이지 개정 마스터링
 second_title: Aspose.Note .NET API
 description: Aspose.Note를 사용하여 Microsoft OneNote 페이지 개정을 관리하는 방법을 알아보세요. .NET 애플리케이션의 원활한 통합 및 버전 제어를 위한 단계별 가이드입니다.
-type: docs
 weight: 20
 url: /ko/net/note-manipulation/working-with-page-revisions/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# OneNote 문서의 페이지 개정 마스터링
+
 ## 소개
 
 .NET 개발 영역에서 Aspose.Note는 Microsoft OneNote 파일을 효율적으로 처리하기 위한 다목적 도구로 돋보입니다. Aspose.Note의 특히 유용한 기능 중 하나는 페이지 개정판을 원활하게 관리하는 기능입니다. 이 튜토리얼에서는 .NET용 Aspose.Note를 사용하여 페이지 개정 작업의 복잡성을 자세히 살펴보겠습니다.
@@ -112,3 +118,9 @@ A4: Aspose.Note는 수많은 수정 사항을 효율적으로 처리하도록 �
 ### Q5: Aspose.Note를 사용하여 페이지 개정 관리 프로세스를 자동화할 수 있나요?
 
 A5: 예, Aspose.Note는 개발자가 페이지 수정과 관련된 작업을 자동화하여 워크플로 프로세스를 간소화할 수 있는 포괄적인 API를 제공합니다.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -3,10 +3,16 @@ title: Generate Template for Meeting Notes with Aspose.Note
 linktitle: Generate Template for Meeting Notes with Aspose.Note
 second_title: Aspose.Note .NET API
 description: Learn how to generate structured meeting notes using Aspose.Note for .NET. This tutorial provides a step-by-step guide with code examples.
-type: docs
 weight: 13
 url: /net/tag-management/generate-template-meeting-notes/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Generate Template for Meeting Notes with Aspose.Note
+
 ## Introduction
 
 In this tutorial, we'll walk through the process of generating a template for meeting notes using Aspose.Note for .NET. This library provides powerful tools for creating, editing, and manipulating OneNote documents programmatically.
@@ -126,3 +132,9 @@ A4: Yes, Aspose.Note for .NET supports a variety of document formats, including 
 
 A5: Yes, you can download a free trial from [this link](https://releases.aspose.com/).
    
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

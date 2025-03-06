@@ -3,10 +3,16 @@ title: OneNote-dokumentummanipuláció az Aspose.Note segítségével .NET-hez
 linktitle: Betöltési és mentési műveletek
 second_title: Aspose.Note .NET API
 description: Fedezze fel az Aspose.Note erejét .NET-hez! Merüljön el oktatóanyagainkban, ahol lépésről lépésre kaphat útmutatást a OneNote-dokumentumok könnyű betöltéséhez, mentéséhez és kezeléséhez.
-type: docs
 weight: 25
 url: /hu/net/loading-and-saving-operations/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# OneNote-dokumentummanipuláció az Aspose.Note segítségével .NET-hez
+
 
 ## Bevezetés
 
@@ -80,3 +86,9 @@ A lépésenkénti útmutatóból megtudhatja, hogyan menthet el egy dokumentumot
 Ismerje meg, hogyan adhat meg mentési beállításokat az Aspose.Note for .NET-ben a OneNote-dokumentumok kimeneti formátumának és minőségének testreszabásához.
 ### [Felhasználói visszahívások mentése az Aspose.Note-ban](./user-saving-callbacks/)
 Ismerje meg, hogyan valósíthat meg felhasználókímélő visszahívásokat az Aspose.Note for .NET-ben a mentési betűtípusok, CSS és képek testreszabásához.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

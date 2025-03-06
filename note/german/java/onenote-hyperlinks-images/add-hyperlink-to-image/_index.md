@@ -3,10 +3,16 @@ title: Fügen Sie mithilfe von Java einen Hyperlink zu einem Bild in OneNote hin
 linktitle: Fügen Sie mithilfe von Java einen Hyperlink zu einem Bild in OneNote hinzu
 second_title: Aspose.Note Java API
 description: Machen Sie OneNote-Dokumente interaktiv! Erfahren Sie, wie Sie mit Aspose.Note Hyperlinks zu Bildern in Java hinzufügen. Einfache Schritte und Codebeispiele enthalten! #OneNote #Java #Aspose
-type: docs
 weight: 11
 url: /de/java/onenote-hyperlinks-images/add-hyperlink-to-image/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Fügen Sie mithilfe von Java einen Hyperlink zu einem Bild in OneNote hinzu
+
 ## Einführung
 
 In diesem Tutorial erfahren Sie, wie Sie mithilfe von Java Hyperlinks zu Bildern in OneNote hinzufügen. Durch das Verknüpfen von Bildern mit Hyperlinks können Sie die Interaktivität und den Nutzen Ihrer Dokumente erheblich verbessern, sodass Benutzer mit einem einfachen Klick problemlos auf verwandte Inhalte oder externe Ressourcen zugreifen können.
@@ -97,3 +103,9 @@ A4: Es gibt zwar keine bestimmte Begrenzung der Hyperlinklänge, es wird jedoch 
 ### F5: Unterstützt Aspose.Note für Java neben OneNote auch andere Dokumentformate?
 
 A5: Ja, Aspose.Note für Java unterstützt verschiedene Dokumentformate, darunter PDF-, HTML- und Bildformate.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

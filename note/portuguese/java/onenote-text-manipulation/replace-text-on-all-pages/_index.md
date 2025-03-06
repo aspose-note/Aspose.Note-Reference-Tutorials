@@ -3,10 +3,16 @@ title: Substitua o texto em todas as páginas do OneNote - Aspose.Note
 linktitle: Substitua o texto em todas as páginas do OneNote - Aspose.Note
 second_title: API Java Aspose.Note
 description: Explore o poder do Aspose.Note para Java! Aprenda a substituir texto sem esforço em todas as páginas do OneNote. Siga nosso guia passo a passo para uma manipulação perfeita de documentos.
-type: docs
 weight: 20
 url: /pt/java/onenote-text-manipulation/replace-text-on-all-pages/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Substitua o texto em todas as páginas do OneNote - Aspose.Note
+
 ## Introdução
 Bem-vindo a este tutorial abrangente sobre como usar Aspose.Note para Java para substituir texto em todas as páginas do OneNote. Se você deseja atualizar e organizar seus documentos do OneNote com eficiência, você veio ao lugar certo. Neste guia passo a passo, orientaremos você durante o processo, garantindo que você entenda cada etapa do caminho.
 ## Pré-requisitos
@@ -80,3 +86,9 @@ Aspose.Note oferece suporte principalmente a arquivos do Microsoft OneNote, mas 
  A documentação está disponível[aqui](https://reference.aspose.com/note/java/).
 ### P: Posso comprar o Aspose.Note para Java? 
  Sim, você pode comprar Aspose.Note para Java[aqui](https://purchase.aspose.com/buy).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

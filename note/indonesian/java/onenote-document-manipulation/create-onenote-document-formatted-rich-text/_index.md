@@ -3,10 +3,16 @@ title: Buat Dokumen OneNote dengan Teks Kaya Terformat di Java
 linktitle: Buat Dokumen OneNote dengan Teks Kaya Terformat di Java
 second_title: Aspose.Catatan Java API
 description: Pelajari cara membuat dokumen OneNote berformat kaya secara terprogram di Java menggunakan Aspose.Note untuk Java. Ikuti panduan langkah demi langkah kami untuk otomatisasi dokumen yang lancar.
-type: docs
 weight: 11
 url: /id/java/onenote-document-manipulation/create-onenote-document-formatted-rich-text/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Buat Dokumen OneNote dengan Teks Kaya Terformat di Java
+
 ## Perkenalan
 
 Membuat dokumen OneNote yang kaya format secara terprogram dapat menjadi alat yang ampuh bagi pengembang yang ingin mengotomatiskan tugas pembuatan dokumen dalam aplikasi Java. Aspose.Note untuk Java menyediakan serangkaian fitur dan fungsi komprehensif untuk mencapai hal ini dengan lancar. Dalam tutorial ini, kami akan memandu Anda melalui proses pembuatan dokumen OneNote dengan teks kaya berformat menggunakan Aspose.Note untuk Java.
@@ -142,3 +148,10 @@ A4: Ya, Anda perlu memperoleh lisensi untuk menggunakan Aspose.Note untuk Java d
 ### Q5: Apakah Aspose.Note untuk Java mendukung format dokumen lain selain OneNote?
 
 A5: Ya, Aspose.Note untuk Java mendukung berbagai format dokumen, termasuk PDF, HTML, dan format gambar.
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

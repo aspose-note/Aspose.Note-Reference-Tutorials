@@ -3,10 +3,16 @@ title: Obtenir les révisions des pages dans OneNote - Aspose.Note
 linktitle: Obtenir les révisions des pages dans OneNote - Aspose.Note
 second_title: API Java Aspose.Note
 description: Découvrez comment récupérer les révisions de pages dans des documents OneNote à l'aide d'Aspose.Note Java. Intégrez-le dans vos applications Java pour une gestion efficace des documents.
-type: docs
 weight: 15
 url: /fr/java/onenote-page-manipulation/get-revisions-of-pages/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Obtenir les révisions des pages dans OneNote - Aspose.Note
+
 ## Introduction
 
 Dans ce didacticiel, nous examinerons les capacités d'Aspose.Note pour Java, une bibliothèque puissante qui vous permet de travailler de manière transparente avec les fichiers Microsoft OneNote dans vos applications Java. Plus précisément, nous nous concentrerons sur la façon de récupérer les révisions de pages dans un document OneNote. À la fin de ce guide, vous disposerez des connaissances nécessaires pour extraire efficacement les révisions de pages, y compris des détails tels que l'heure de la dernière modification, l'heure de création, le titre, le niveau et l'auteur.
@@ -109,3 +115,9 @@ A4 : Oui, une licence valide est requise pour une utilisation commerciale d'As
 ### Q5 : Où puis-je demander de l'aide si je rencontre des problèmes ou si j'ai des questions sur Aspose.Note pour Java ?
 
  A5 : Pour obtenir de l'aide et de l'assistance, vous pouvez visiter le forum Aspose.Note[ici](https://forum.aspose.com/c/note/28)où vous pouvez poser des questions, partager des expériences et interagir avec d'autres utilisateurs et experts.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

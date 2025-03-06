@@ -3,10 +3,16 @@ title: Crie tabela com colunas bloqueadas usando Aspose.Note
 linktitle: Crie tabela com colunas bloqueadas usando Aspose.Note
 second_title: API Aspose.Note .NET
 description: Aprenda como criar tabelas com colunas bloqueadas usando Aspose.Note for .NET. Guia passo a passo para tarefas eficientes de processamento de documentos.
-type: docs
 weight: 12
 url: /pt/net/table-manipulation/create-table-locked-columns/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Crie tabela com colunas bloqueadas usando Aspose.Note
+
 ## Introdução
 
 A criação de tabelas com colunas bloqueadas é um requisito comum em aplicativos de processamento de documentos. Aspose.Note for .NET fornece ferramentas poderosas para realizar essa tarefa com eficiência. Neste tutorial, orientaremos você no processo de criação de uma tabela com colunas bloqueadas passo a passo usando Aspose.Note for .NET.
@@ -147,3 +153,9 @@ A4: Sim, você pode acessar o suporte técnico através do[Fórum Aspose.Note](h
 ### Q5: Posso experimentar o Aspose.Note para .NET antes de comprar?
 
  A5: Sim, você pode baixar uma versão de avaliação gratuita do Aspose.Note for .NET em[aqui](https://releases.aspose.com/) para avaliar suas características e compatibilidade com suas necessidades.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

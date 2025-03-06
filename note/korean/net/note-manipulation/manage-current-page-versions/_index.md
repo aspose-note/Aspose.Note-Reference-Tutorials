@@ -3,10 +3,16 @@ title: Aspose.Note에서 현재 페이지 버전 푸시 및 관리
 linktitle: Aspose.Note에서 현재 페이지 버전 푸시 및 관리
 second_title: Aspose.Note .NET API
 description: .NET용 Aspose.Note에서 현재 페이지 버전을 손쉽게 푸시하고 관리하는 방법을 알아보세요. 문서 버전 제어 및 공동 작업을 개선합니다.
-type: docs
 weight: 17
 url: /ko/net/note-manipulation/manage-current-page-versions/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Aspose.Note에서 현재 페이지 버전 푸시 및 관리
+
 ## 소개
 
 소프트웨어 개발 세계에서 다양한 버전의 문서를 관리하고 유지하는 것은 정확성, 추적성 및 책임성을 보장하는 데 중요합니다. .NET용 Aspose.Note는 이 프로세스를 용이하게 하는 강력한 도구를 제공하여 개발자가 현재 페이지 버전을 원활하게 푸시하고 관리할 수 있도록 합니다. 이 튜토리얼에서는 .NET용 Aspose.Note를 사용하여 현재 페이지 버전을 푸시하고 관리하는 데 필요한 단계를 자세히 살펴보겠습니다.
@@ -90,3 +96,9 @@ A4: 예, .NET용 Aspose.Note는 OneNote 문서의 섹션, 노트북, 페이지 �
 ### Q5: .NET용 Aspose.Note를 사용하여 페이지 버전 푸시 프로세스를 자동화할 수 있습니까?
 
 A5: 물론이죠! Aspose.Note for .NET은 강력한 자동화 기능을 제공하므로 버전 제어를 애플리케이션에 원활하게 통합할 수 있습니다.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

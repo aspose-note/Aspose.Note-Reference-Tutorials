@@ -3,10 +3,16 @@ title: Aplicar tema oscuro al texto en OneNote - Aspose.Note
 linktitle: Aplicar tema oscuro al texto en OneNote - Aspose.Note
 second_title: Aspose.Nota Java API
 description: Explore los sencillos pasos para aplicar un tema oscuro a su texto de OneNote usando Aspose.Note para Java. Mejore su experiencia de documentación digital sin esfuerzo.
-type: docs
 weight: 11
 url: /es/java/onenote-text-manipulation/apply-dark-theme/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Aplicar tema oscuro al texto en OneNote - Aspose.Note
+
 ## Introducción
 En el panorama en constante evolución de la documentación digital, la estética de sus notas puede afectar significativamente la legibilidad y la experiencia del usuario. Un aspecto notable es la implementación de un tema oscuro, que proporciona un ambiente cómodo y visualmente atractivo. En este tutorial, lo guiaremos a través del proceso de aplicar un tema oscuro al texto en OneNote usando Aspose.Note para Java.
 ## Requisitos previos
@@ -62,3 +68,9 @@ Sí, Aspose.Note para Java admite varios formatos de documentos, incluidos PDF, 
  Sí, puedes acceder a la versión de prueba gratuita.[aquí](https://releases.aspose.com/).
 ### ¿Cómo puedo obtener soporte para Aspose.Note para Java?
  Visita el[Foro Aspose.Note](https://forum.aspose.com/c/note/28) para obtener soporte comunitario o explorar opciones de soporte premium[aquí](https://purchase.aspose.com/temporary-license/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

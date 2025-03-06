@@ -3,10 +3,16 @@ title: 回滚 Aspose.Note 文档中的修订
 linktitle: 回滚 Aspose.Note 文档中的修订
 second_title: Aspose.Note .NET API
 description: 了解如何使用 Aspose.Note for .NET 有效管理 Aspose.Note 文档中的修订。按照分步指南无缝回滚修订。
-type: docs
 weight: 18
 url: /zh/net/note-manipulation/roll-back-document-revisions/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# 回滚 Aspose.Note 文档中的修订
+
 ## 介绍
 
 在文档管理和编辑领域，能够跟踪更改并无缝恢复到以前的版本至关重要。 Aspose.Note for .NET 提供了强大的工具来有效管理修订，确保您可以在必要时回滚更改。在本教程中，我们将逐步深入研究在 Aspose.Note 文档中回滚修订的过程。
@@ -99,3 +105,9 @@ A4：是的，您可以将回滚功能集成到您的应用程序中，并根据
 ### Q5：如果我在回滚过程中遇到任何问题，Aspose.Note 是否提供支持？
 
  A5：是的，Aspose 通过其论坛提供专门支持。您可以访问[Aspose.Note 论坛](https://forum.aspose.com/c/note/28)寻求帮助。
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

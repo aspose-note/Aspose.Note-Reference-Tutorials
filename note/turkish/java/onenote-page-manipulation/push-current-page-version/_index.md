@@ -3,10 +3,16 @@ title: OneNote'ta Geçerli Sayfa Sürümünü Aktarın - Aspose.Note
 linktitle: OneNote'ta Geçerli Sayfa Sürümünü Aktarın - Aspose.Note
 second_title: Aspose.Note Java API'si
 description: OneNote içeriğini güncel tutun! Sayfa geçmişini güncellemeyi ve sürümleri yönetmeyi öğrenin; adım adım kılavuz ve kod dahildir. #OneNote #Java #Aspose
-type: docs
 weight: 18
 url: /tr/java/onenote-page-manipulation/push-current-page-version/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# OneNote'ta Geçerli Sayfa Sürümünü Aktarın - Aspose.Note
+
 ## giriiş
 
 Bu eğitimde, geçerli sayfa sürümünü OneNote'a aktarmak için Aspose.Note for Java'yı nasıl kullanabileceğimizi keşfedeceğiz. Aspose.Note, geliştiricilerin Microsoft OneNote belgeleriyle programlı olarak çalışmasına olanak tanıyan, OneNote dosyalarını oluşturma, değiştirme ve dönüştürme gibi çeşitli işlemleri mümkün kılan güçlü bir Java kitaplığıdır.
@@ -90,3 +96,9 @@ Cevap4: Evet, Aspose.Note for Java, OneNote dosyalarının PDF, HTML ve görünt
 ### S5: Herhangi bir sorunla karşılaşırsam Aspose.Note for Java desteğini nereden alabilirim?
 
  A5: ziyaret edebilirsiniz[Aspose.Note forumu](https://forum.aspose.com/c/note/28) topluluktan yardım istemek veya doğrudan Aspose desteğiyle iletişime geçmek için.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

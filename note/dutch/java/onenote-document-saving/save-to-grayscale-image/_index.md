@@ -3,10 +3,16 @@ title: Opslaan in grijswaardenafbeelding in OneNote - Aspose.Note
 linktitle: Opslaan in grijswaardenafbeelding in OneNote - Aspose.Note
 second_title: Aspose.Note Java-API
 description: Leer hoe u een document opslaat als grijswaardenafbeelding in OneNote met behulp van Aspose.Note voor Java. Bewerk eenvoudig Microsoft OneNote-documenten programmatisch.
-type: docs
 weight: 17
 url: /nl/java/onenote-document-saving/save-to-grayscale-image/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Opslaan in grijswaardenafbeelding in OneNote - Aspose.Note
+
 ## Invoering
 
 In deze zelfstudie onderzoeken we hoe u een document als grijswaardenafbeelding in OneNote kunt opslaan met Aspose.Note voor Java. Grijswaardenafbeeldingen zijn monochrome afbeeldingen waarbij de kleurinformatie alleen door grijstinten wordt weergegeven. Aspose.Note is een krachtige Java API die programmatische manipulatie van Microsoft OneNote-documenten mogelijk maakt.
@@ -83,3 +89,9 @@ A4: Absoluut! Aspose.Note biedt een breed scala aan functies voor het programmat
 ### Vraag 5: Waar kan ik ondersteuning vinden als ik problemen tegenkom?
 
 A5: U kunt ondersteuning vinden op het Aspose.Note-forum[hier](https://forum.aspose.com/c/note/28).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

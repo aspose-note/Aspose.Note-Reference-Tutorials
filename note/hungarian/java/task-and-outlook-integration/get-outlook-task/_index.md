@@ -3,10 +3,16 @@ title: Töltse le az Outlook feladatot a OneNote-ban – Aspose.Note
 linktitle: Töltse le az Outlook feladatot a OneNote-ban – Aspose.Note
 second_title: Aspose.Note Java API
 description: Fedezze fel az Aspose.Note for Java erejét, amellyel az Outlook-feladatokat könnyedén kivonhatja a OneNote-ból. Kövesse lépésenkénti útmutatónkat, és javítsa dokumentumfeldolgozási képességeit.
-type: docs
 weight: 10
 url: /hu/java/task-and-outlook-integration/get-outlook-task/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Töltse le az Outlook feladatot a OneNote-ban – Aspose.Note
+
 ## Bevezetés
 Üdvözöljük átfogó útmutatónkban az Aspose.Note for Java használatáról az Outlook-feladatok zökkenőmentes lekéréséhez a OneNote-ban. Az Aspose.Note egy hatékony Java API, amely lehetővé teszi a fejlesztők számára, hogy könnyedén dolgozzanak Microsoft OneNote fájlokkal. Ebben az oktatóanyagban lépésről lépésre végigvezetjük az Outlook-feladatok OneNote-dokumentumból történő kibontásának folyamatán.
 ## Előfeltételek
@@ -71,3 +77,9 @@ Az Aspose.Note támogatja a Microsoft OneNote 2010 és újabb verzióit.
  Meglátogatni a[Aspose.Note fórum](https://forum.aspose.com/c/note/28) közösségi támogatásért. További segítségért fontolja meg a vásárlást a[ideiglenes engedély](https://purchase.aspose.com/temporary-license/).
 ### Rendelkezésre állnak-e tesztelésre minta OneNote-dokumentumok?
  A mintadokumentumokat az Aspose.Note dokumentációjában találja[itt](https://reference.aspose.com/note/java/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

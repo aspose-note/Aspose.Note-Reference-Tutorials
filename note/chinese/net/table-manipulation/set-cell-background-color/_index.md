@@ -3,10 +3,16 @@ title: 在 Aspose.Note 表格中设置单元格背景颜色
 linktitle: 在 Aspose.Note 表格中设置单元格背景颜色
 second_title: Aspose.Note .NET API
 description: 了解如何使用分步指南在 Aspose.Note 表格中设置单元格背景颜色。轻松增强文档视觉效果。
-type: docs
 weight: 17
 url: /zh/net/table-manipulation/set-cell-background-color/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# 在 Aspose.Note 表格中设置单元格背景颜色
+
 ## 介绍
 
 在本教程中，我们将深入研究如何使用 Aspose.Note for .NET 在表格中设置单元格背景颜色。此功能可以显着增强文档的视觉吸引力和可读性。请按照以下步骤了解如何实现这一目标。
@@ -122,3 +128,9 @@ A4：Aspose.Note for .NET 专门针对 OneNote 文件格式。要处理 Word 或
 ### Q5：在哪里可以找到更多关于 Aspose.Note for .NET 的资源和支持？
 
  A5：您可以探索[Aspose.Note 文档](https://reference.aspose.com/note/net/)获取详细的 API 参考和示例。此外，您可以在 Aspose 社区寻求帮助[Aspose.Note 论坛](https://forum.aspose.com/c/note/28).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

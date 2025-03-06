@@ -3,10 +3,16 @@ title: Set Proofing Language for Text in Aspose.Note
 linktitle: Set Proofing Language for Text in Aspose.Note
 second_title: Aspose.Note .NET API
 description: Unlock powerful text manipulation with Aspose.Note for .NET. Set proofing language effortlessly with step-by-step guidance. Enhance your .NET projects now!
-type: docs
 weight: 25
 url: /net/text-manipulation/set-proofing-language-text/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Set Proofing Language for Text in Aspose.Note
+
 ## Introduction
 Welcome to the world of Aspose.Note for .NET! In this comprehensive guide, we will explore the fascinating process of setting proofing language for text using Aspose.Note. Whether you're a seasoned developer or just starting with Aspose.Note, this tutorial will provide you with detailed insights and step-by-step instructions to enhance your text manipulation skills.
 ## Prerequisites
@@ -89,3 +95,10 @@ Explore the [Aspose.Note documentation](https://reference.aspose.com/note/net/) 
 Certainly! You can access a free trial of Aspose.Note for .NET [here](https://releases.aspose.com/).
 ### Facing issues or need assistance?
 Visit the [Aspose.Note support forum](https://forum.aspose.com/c/note/28) to connect with the community and get expert help.
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

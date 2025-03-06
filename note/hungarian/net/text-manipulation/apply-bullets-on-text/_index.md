@@ -3,10 +3,16 @@ title: Alkalmazzon felsorolásjeleket a szövegre az Aspose.Note-ban
 linktitle: Alkalmazzon felsorolásjeleket a szövegre az Aspose.Note-ban
 second_title: Aspose.Note .NET API
 description: Ismerje meg, hogyan alkalmazhat felsorolásjeleket a szövegre az Aspose.Note for .NET-ben a OneNote-dokumentumok javítása érdekében. Kövesse ezt a lépésről lépésre szóló útmutatót a hatékony formázáshoz.
-type: docs
 weight: 10
 url: /hu/net/text-manipulation/apply-bullets-on-text/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Alkalmazzon felsorolásjeleket a szövegre az Aspose.Note-ban
+
 ## Bevezetés
 Üdvözöljük ebben a lépésenkénti útmutatóban a felsorolásjelek szövegre történő alkalmazásáról az Aspose.Note for .NET használatával. Az Aspose.Note egy hatékony könyvtár, amely lehetővé teszi a fejlesztők számára, hogy zökkenőmentesen dolgozzanak a Microsoft OneNote fájlokkal .NET-alkalmazásaikban. Ebben az oktatóanyagban végigvezetjük a felsorolásjelek szövegre történő alkalmazásának folyamatán, ezzel javítva a OneNote-dokumentumok vizuális vonzerejét.
 ## Előfeltételek
@@ -86,3 +92,9 @@ Az Aspose.Note támogatja a Microsoft OneNote különféle verzióit, így bizto
  Igen, letölthet egy ingyenes próbaverziót[itt](https://releases.aspose.com/).
 ### Hol találhatok további támogatást és forrásokat?
  Látogassa meg az Aspose.Note közösségi fórumot[itt](https://forum.aspose.com/c/note/28) támogatásért és megbeszélésekért.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

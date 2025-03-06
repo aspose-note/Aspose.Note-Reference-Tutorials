@@ -3,10 +3,16 @@ title: Tích hợp nhiệm vụ và Outlook
 linktitle: Tích hợp nhiệm vụ và Outlook
 second_title: API Java Aspose.Note
 description: Khai phá tiềm năng của Aspose.Note Java bằng hướng dẫn của chúng tôi về cách tích hợp các tác vụ Outlook vào OneNote. Nâng cao kỹ năng xử lý tài liệu của bạn với các hướng dẫn của chúng tôi.
-type: docs
 weight: 35
 url: /vi/java/task-and-outlook-integration/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Tích hợp nhiệm vụ và Outlook
+
 
 ## Giới thiệu
 
@@ -38,3 +44,9 @@ Khi bạn bắt đầu cuộc hành trình này với Aspose.Note dành cho Java
 ## Hướng dẫn tích hợp tác vụ và Outlook
 ### [Nhận tác vụ Outlook trong OneNote - Aspose.Note](./get-outlook-task/)
 Khám phá sức mạnh của Aspose.Note dành cho Java trong việc trích xuất các tác vụ Outlook từ OneNote một cách dễ dàng. Hãy làm theo hướng dẫn từng bước của chúng tôi và nâng cao khả năng xử lý tài liệu của bạn.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

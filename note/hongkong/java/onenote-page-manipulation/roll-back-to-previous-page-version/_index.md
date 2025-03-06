@@ -3,10 +3,16 @@ title: 在 OneNote 中回滾到上一頁版本 - Aspose.Note
 linktitle: 在 OneNote 中回滾到上一頁版本 - Aspose.Note
 second_title: Aspose.Note Java API
 description: 了解如何使用 Aspose.Note for Java 在 OneNote 中回滾到先前的頁面版本。請按照此逐步指南進行高效率的文件管理。
-type: docs
 weight: 19
 url: /zh-hant/java/onenote-page-manipulation/roll-back-to-previous-page-version/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# 在 OneNote 中回滾到上一頁版本 - Aspose.Note
+
 ## 介紹
 
 在本教學中，我們將深入研究如何利用 Aspose.Note for Java 回溯到 OneNote 中頁面的先前版本。 OneNote 是用於記筆記、協作和組織的強大工具，但偶爾會發生錯誤或需要恢復變更。 Aspose.Note 提供與 Java 的無縫集成，使開發人員能夠以程式設計方式管理 OneNote 文件。回滾到上一個頁面版本是保持 OneNote 文件準確性和完整性的關鍵功能。
@@ -91,3 +97,9 @@ document.save(dataDir + "RollBackToPreviousPageVersion_out.one");
 ### Q5：Aspose.Note 有社群論壇或支援嗎？
 
 答： 是的，您可以訪問[Aspose.Note 論壇](https://forum.aspose.com/c/note/28)尋求社區支持或聯繫 Aspose 的客戶支援尋求協助。
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -3,10 +3,16 @@ title: Gyermekcsomópont hozzáadása a OneNote-jegyzetfüzethez – Aspose.Note
 linktitle: Gyermekcsomópont hozzáadása a OneNote-jegyzetfüzethez – Aspose.Note
 second_title: Aspose.Note Java API
 description: Ismerje meg, hogyan adhat programozottan gyermekcsomópontokat OneNote-jegyzetfüzetekhez az Aspose.Note for Java használatával. Javítsa a jegyzetek rendszerezését könnyedén.
-type: docs
 weight: 11
 url: /hu/java/onenote-notebook-operations/add-child-node/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Gyermekcsomópont hozzáadása a OneNote-jegyzetfüzethez – Aspose.Note
+
 ## Bevezetés
 
 A OneNote egy hatékony eszköz a jegyzetek és ötletek rendszerezésére. Az Aspose.Note for Java kényelmes módokat kínál a OneNote-fájlok programozott kezeléséhez. Ebben az oktatóanyagban lépésről lépésre végigvezetjük a gyermekcsomópont OneNote-jegyzetfüzethez való hozzáadásának folyamatán.
@@ -89,3 +95,9 @@ Ebben az oktatóanyagban megtanultuk, hogyan használhatja az Aspose.Note for Ja
 ### 5. kérdés: Van olyan közösségi fórum, ahol segítséget és útmutatást kérhetek az Aspose.Note for Java használatához?
 
  A5: Igen, meglátogathatja a[Aspose.Note fórum](https://forum.aspose.com/c/note/28) kérdéseket feltenni, tudást megosztani, és kapcsolatba lépni más felhasználókkal és szakértőkkel.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

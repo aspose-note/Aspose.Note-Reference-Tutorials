@@ -3,10 +3,16 @@ title: Освоение работы с изображениями в OneNote
 linktitle: Изображений
 second_title: Aspose.Note .NET API
 description: Исследуйте мир манипулирования документами OneNote с помощью руководств Aspose.Note for .NET по плавной обработке изображений. Улучшите свой визуальный контент без особых усилий.
-type: docs
 weight: 23
 url: /ru/net/images/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Освоение работы с изображениями в OneNote
+
 ## Введение
 
 Готовы ли вы улучшить свои навыки работы с документами OneNote? Погрузитесь в наши подробные руководства по Aspose.Note для .NET, посвященные сложному миру обработки изображений. Мы предоставим вам всю необходимую информацию — от программной вставки изображений до извлечения ценной визуальной информации.
@@ -48,3 +54,9 @@ url: /ru/net/images/
 Узнайте, как легко вставлять изображения с гиперссылками в Aspose.Note для .NET. Повысьте интерактивность документа с помощью кликабельных изображений.
 ### [Вставка изображений в документы Aspose.Note](./insert-images/)
 Узнайте, как легко вставлять изображения в документы Aspose.Note с помощью .NET для улучшения визуального контента. Следуйте нашему пошаговому руководству для легкой интеграции.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

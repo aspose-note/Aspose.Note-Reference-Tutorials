@@ -3,10 +3,16 @@ title: Преобразование блокнота в плоский PDF в On
 linktitle: Преобразование блокнота в плоский PDF в OneNote — Aspose.Note
 second_title: Aspose.Note Java API
 description: Преобразуйте блокноты в плоские PDF-файлы без особых усилий с помощью Aspose.Note для Java. Наслаждайтесь бесшовной интеграцией и возможностями настройки.
-type: docs
 weight: 16
 url: /ru/java/onenote-notebook-operations/convert-notebook-to-flattened-pdf/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Преобразование блокнота в плоский PDF в OneNote — Aspose.Note
+
 ## Введение
 
 В этом уроке мы рассмотрим, как преобразовать блокнот в плоский формат PDF с помощью Aspose.Note для Java. Преобразование блокнотов в PDF-файлы является общим требованием для многих приложений, и Aspose.Note упрощает этот процесс благодаря обширному набору функций и простому в использовании API.
@@ -82,3 +88,9 @@ notebook.save(dataDir, notebookSaveOptions);
 ### Вопрос 5: Где я могу найти поддержку Aspose.Note для Java?
 
  О5: Вы можете найти поддержку и помощь по Aspose.Note для Java на сайте[Форум Aspose.Note](https://forum.aspose.com/c/note/28).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

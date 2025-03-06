@@ -3,10 +3,16 @@ title: Operacje w notesie programu OneNote
 linktitle: Operacje w notesie programu OneNote
 second_title: Aspose.Note API Java
 description: Odblokuj pełny potencjał Aspose.Note dla Java dzięki naszym samouczkom obsługi notesu OneNote. Podaj przewodnik krok po kroku dotyczący ulepszania aplikacji Java.
-type: docs
 weight: 28
 url: /pl/java/onenote-notebook-operations/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Operacje w notesie programu OneNote
+
 
 ## Wstęp
 
@@ -66,3 +72,9 @@ Dowiedz się, jak odzyskać dokumenty z notesu OneNote przy użyciu Aspose.Note 
 Dowiedz się, jak zapisywać notesy w strumieniach w programie OneNote przy użyciu programu Aspose.Note dla języka Java. Zwiększ produktywność dzięki wydajnemu zarządzaniu notebookami.
 ### [Napisz dokument chroniony hasłem w OneNote - Aspose.Note](./write-password-protected-document/)
 Dowiedz się, jak pisać dokumenty chronione hasłem w OneNote przy użyciu Aspose.Note dla Java. Zapewnij bezpieczeństwo dzięki łatwym do wykonania krokom.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

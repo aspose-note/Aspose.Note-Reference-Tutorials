@@ -3,10 +3,16 @@ title: Kiểu OneNote
 linktitle: Kiểu OneNote
 second_title: API Java Aspose.Note
 description: Khám phá nghệ thuật sửa đổi kiểu văn bản OneNote bằng Aspose.Note for Java. Tìm hiểu cách thay đổi màu phông chữ, kích thước và đánh dấu trong hướng dẫn từng bước của chúng tôi.
-type: docs
 weight: 31
 url: /vi/java/onenote-styles/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Kiểu OneNote
+
 
 ## Giới thiệu
 
@@ -36,3 +42,9 @@ Aspose.Note for Java nổi bật là giải pháp phù hợp cho các nhà phát
 Tìm hiểu cách thay đổi kiểu văn bản trong OneNote bằng Aspose.Note for Java. Dễ dàng sửa đổi màu sắc, kích thước và đánh dấu phông chữ.
 ### [Đặt kiểu đoạn văn mặc định trong OneNote - Aspose.Note](./set-default-paragraph-style/)
 Tìm hiểu cách đặt kiểu đoạn văn mặc định trong OneNote bằng Aspose.Note for Java. Hãy làm theo hướng dẫn từng bước của chúng tôi để định dạng văn bản hiệu quả trong các ứng dụng Java của bạn.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

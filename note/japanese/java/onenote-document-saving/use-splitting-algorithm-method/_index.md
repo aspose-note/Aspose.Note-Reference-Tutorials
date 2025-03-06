@@ -3,10 +3,16 @@ title: OneNote で分割アルゴリズム メソッドを使用する - Aspose.
 linktitle: OneNote で分割アルゴリズム メソッドを使用する - Aspose.Note
 second_title: Aspose.Note Java API
 description: Aspose.Note を使用して Java で OneNote ドキュメントの分割をマスターしましょう!アルゴリズムを選択し、改ページを制御し、PDF として簡単に保存します。コードも付属！ #OneNote #Java #Aspose
-type: docs
 weight: 26
 url: /ja/java/onenote-document-saving/use-splitting-algorithm-method/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# OneNote で分割アルゴリズム メソッドを使用する - Aspose.Note
+
 ## 導入
 
 このチュートリアルでは、Aspose.Note for Java の分割アルゴリズム メソッドの使用について詳しく説明します。 Aspose.Note は、開発者が Microsoft OneNote ファイルをプログラムで操作できるようにする強力なライブラリです。分割アルゴリズムの利用は、OneNote ドキュメントを操作してエクスポートする必要がある場合、特に複雑なレイアウトや大きなファイルを扱う場合に特に役立ちます。
@@ -101,3 +107,9 @@ A2: もちろんです！ Aspose.Note は、大きなファイルを効率的に
 ### Q5: Aspose.Note の一時ライセンスを取得するにはどうすればよいですか?
 
  A5: リクエストすることができます。[仮免許](https://purchase.aspose.com/temporary-license/)試用期間中に製品を評価します。
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

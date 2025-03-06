@@ -3,10 +3,16 @@ title: OneNote의 옵션을 사용하여 노트북을 이미지로 변환 - Aspo
 linktitle: OneNote의 옵션을 사용하여 노트북을 이미지로 변환 - Aspose.Note
 second_title: Aspose.Note 자바 API
 description: Aspose.Note for Java를 사용하여 옵션을 사용하여 노트북을 이미지로 변환하는 방법을 알아보세요. Java 애플리케이션에 원활하게 통합하려면 단계별 튜토리얼을 따르십시오.
-type: docs
 weight: 14
 url: /ko/java/onenote-notebook-operations/convert-notebook-to-image-with-options/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# OneNote의 옵션을 사용하여 노트북을 이미지로 변환 - Aspose.Note
+
 ## 소개
 
 이번 튜토리얼에서는 Aspose.Note for Java를 사용하여 노트북을 다양한 옵션으로 이미지로 변환하는 과정을 살펴보겠습니다. Aspose.Note는 개발자가 Microsoft OneNote 파일을 프로그래밍 방식으로 작업하여 Java 애플리케이션에 원활하게 통합할 수 있도록 하는 강력한 Java API입니다.
@@ -89,3 +95,9 @@ A4: 예, Aspose는 포럼과 문서를 통해 개발자에게 탁월한 지원�
 ### Q5: Aspose.Note for Java에 대한 무료 평가판이 있습니까?
 
  A5: 예, 다음에서 Aspose.Note for Java 무료 평가판을 이용할 수 있습니다.[여기](https://releases.aspose.com/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

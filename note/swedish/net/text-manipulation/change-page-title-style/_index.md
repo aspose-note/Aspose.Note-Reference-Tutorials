@@ -3,10 +3,16 @@ title: Ändra sidrubrikstil i Aspose.Note
 linktitle: Ändra sidrubrikstil i Aspose.Note
 second_title: Aspose.Note .NET API
 description: Förvandla dina .NET-dokument med Aspose.Note! Lär dig att ändra sidrubrikstilar utan ansträngning. Lyft estetiken med några enkla steg.
-type: docs
 weight: 13
 url: /sv/net/text-manipulation/change-page-title-style/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Ändra sidrubrikstil i Aspose.Note
+
 ## Introduktion
 Vill du höja det visuella tilltalandet av dina .NET-dokument med dynamisk sidtitelstil? Aspose.Note för .NET erbjuder en sömlös lösning som gör att du enkelt kan ändra stilen på dina sidtitlar. I den här handledningen guidar vi dig genom processen, steg för steg, för att säkerställa att du kan förbättra estetiken i dina dokument utan krångel.
 ## Förutsättningar
@@ -70,3 +76,9 @@ Grattis! Du har framgångsrikt lärt dig hur du ändrar sidrubrikstilar i Aspose
  Du kan köpa en licens för Aspose.Note[här](https://purchase.aspose.com/buy).
 ### Behöver jag en tillfällig licens för teständamål?
  Ja, om du testar Aspose.Note kan du få en tillfällig licens[här](https://purchase.aspose.com/temporary-license/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

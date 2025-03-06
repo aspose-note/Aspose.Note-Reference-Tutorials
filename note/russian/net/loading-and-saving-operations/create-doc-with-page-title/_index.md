@@ -3,10 +3,16 @@ title: Создать документ с заголовком страницы 
 linktitle: Создать документ с заголовком страницы в Aspose.Note
 second_title: Aspose.Note .NET API
 description: Узнайте, как создавать документы с озаглавленными страницами с помощью Aspose.Note для .NET. Следуйте нашему пошаговому руководству для бесшовной интеграции.
-type: docs
 weight: 13
 url: /ru/net/loading-and-saving-operations/create-doc-with-page-title/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Создать документ с заголовком страницы в Aspose.Note
+
 ## Введение
 
 В этом уроке мы проведем вас через процесс создания документа с титульной страницей с помощью Aspose.Note для .NET. Aspose.Note — это мощный API, который позволяет разработчикам программно работать с файлами Microsoft OneNote.
@@ -118,3 +124,9 @@ A4: Да, вы можете использовать Aspose.Note для легк
 ### В5: Где я могу найти поддержку, если у меня возникнут какие-либо проблемы?
 
  A5: Вы можете найти поддержку и помощь на[Форум Aspose.Note](https://forum.aspose.com/c/note/28), где эксперты и члены сообщества могут помочь вам с вашими вопросами.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

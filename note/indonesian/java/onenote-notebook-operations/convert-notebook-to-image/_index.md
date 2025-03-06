@@ -3,10 +3,16 @@ title: Konversi Buku Catatan menjadi Gambar di OneNote - Aspose.Note
 linktitle: Konversi Buku Catatan menjadi Gambar di OneNote - Aspose.Note
 second_title: Aspose.Catatan Java API
 description: Pelajari cara mengonversi buku catatan menjadi gambar di OneNote menggunakan Aspose.Note untuk Java. Integrasikan fungsi ini dengan mudah ke dalam aplikasi Java Anda.
-type: docs
 weight: 12
 url: /id/java/onenote-notebook-operations/convert-notebook-to-image/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Konversi Buku Catatan menjadi Gambar di OneNote - Aspose.Note
+
 ## Perkenalan
 
 Dalam tutorial ini, kita akan mempelajari cara mengonversi buku catatan menjadi gambar di OneNote menggunakan pustaka Aspose.Note untuk Java. Mengonversi buku catatan menjadi gambar dapat berguna untuk berbagai tujuan seperti berbagi catatan, menyematkannya ke dalam dokumen, atau menggabungkannya ke dalam presentasi.
@@ -94,3 +100,9 @@ A4: Ya, Anda dapat mengonversi beberapa buku catatan menjadi gambar secara batch
 ### Q5: Di mana saya dapat menemukan sumber daya tambahan dan dukungan untuk Aspose.Note?
 
  A5: Untuk dokumentasi lebih lanjut, contoh, dan dukungan komunitas, kunjungi[Aspose.Catatan forum](https://forum.aspose.com/c/note/28) dan jelajahi[dokumentasi](https://reference.aspose.com/note/java/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

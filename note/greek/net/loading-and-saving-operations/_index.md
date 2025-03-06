@@ -3,10 +3,16 @@ title: Χειρισμός εγγράφων OneNote με Aspose.Note για .NET
 linktitle: Λειτουργίες φόρτωσης και αποθήκευσης
 second_title: Aspose.Note .NET API
 description: Ξεκλειδώστε τη δύναμη του Aspose.Note για .NET! Ανατρέξτε στα σεμινάρια μας για καθοδήγηση βήμα προς βήμα σχετικά με τη φόρτωση, την αποθήκευση και τον χειρισμό εγγράφων OneNote χωρίς κόπο.
-type: docs
 weight: 25
 url: /el/net/loading-and-saving-operations/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Χειρισμός εγγράφων OneNote με Aspose.Note για .NET
+
 
 ## Εισαγωγή
 
@@ -80,3 +86,9 @@ url: /el/net/loading-and-saving-operations/
 Μάθετε πώς να ορίζετε επιλογές αποθήκευσης στο Aspose.Note για .NET για να προσαρμόσετε τη μορφή εξόδου και την ποιότητα των εγγράφων του OneNote.
 ### [Επανακλήσεις εξοικονόμησης χρήστη στο Aspose.Note](./user-saving-callbacks/)
 Μάθετε πώς να εφαρμόζετε επιστροφές κλήσης εξοικονόμησης χρηστών στο Aspose.Note για .NET για να προσαρμόσετε την αποθήκευση γραμματοσειρών, CSS και εικόνων.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

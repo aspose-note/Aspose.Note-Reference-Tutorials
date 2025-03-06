@@ -3,10 +3,16 @@ title: OneNote 表格操作
 linktitle: OneNote 表格操作
 second_title: Aspose.Note Java API
 description: 使用 Aspose.Note for Java 增強您的 OneNote 表格。無縫更改樣式、撰寫表格、擷取文字。下載該庫以順利建立文件。
-type: docs
 weight: 32
 url: /zh-hant/java/onenote-table-manipulation/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# OneNote 表格操作
+
 
 
 ## 介紹
@@ -55,3 +61,9 @@ url: /zh-hant/java/onenote-table-manipulation/
 了解使用 Aspose.Note for Java 在 OneNote 中插入表格。動態內容創建的逐步指南。輕鬆增強您的文件。
 ### [在 OneNote 中設定儲存格背景顏色 - Aspose.Note](./setting-cell-background-color/)
 使用 Aspose.Note for Java 輕鬆轉換 OneNote 文件。輕鬆自訂儲存格背景顏色。立即免費試用！
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -3,10 +3,16 @@ title: 在Aspose.Note文本中插入中文数字列表
 linktitle: 在Aspose.Note文本中插入中文数字列表
 second_title: Aspose.Note .NET API
 description: 了解如何在 Aspose.Note for .NET 文档中轻松插入中文数字列表。通过此分步指南提高您的文档格式化技能。
-type: docs
 weight: 20
 url: /zh/net/text-manipulation/insert-chinese-number-list/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# 在Aspose.Note文本中插入中文数字列表
+
 ## 介绍
 您是否希望通过将中文数字列表合并到文档中来增强您的 Aspose.Note for .NET 技能？如果是这样，那么您来对地方了！在本教程中，我们将引导您完成使用 Aspose.Note for .NET 插入中文数字列表的过程。这个强大的库允许您无缝地操作 OneNote 文档。
 ## 先决条件
@@ -91,3 +97,9 @@ Console.WriteLine("\nChinese number list inserted successfully.\nFile saved at "
 答：获得临时许可证[这里](https://purchase.aspose.com/temporary-license/).
 ### 问：我可以在哪里寻求帮助或讨论与 Aspose.Note 相关的问题？
 答：访问[Aspose.Note 支持论坛](https://forum.aspose.com/c/note/28)以获得社区支持。
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

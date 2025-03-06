@@ -3,10 +3,16 @@ title: Zkontrolujte, zda je dokument OneNotu zašifrovaný - Java
 linktitle: Zkontrolujte, zda je dokument OneNotu zašifrovaný - Java
 second_title: Aspose.Note Java API
 description: Přečtěte si, jak zkontrolovat, zda je dokument OneNotu zašifrován v Javě pomocí Aspose.Note. Postupujte podle našeho podrobného průvodce pro efektivní zpracování dokumentů.
-type: docs
 weight: 10
 url: /cs/java/onenote-document-loading/check-document-encrypted/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Zkontrolujte, zda je dokument OneNotu zašifrovaný - Java
+
 ## Úvod
 
 Při práci s dokumenty OneNotu v Javě je důležité zajistit, aby dokument nebyl před zpracováním zašifrován. Šifrování dokumentů může přidat další vrstvu zabezpečení, ale může také zkomplikovat kroky zpracování, pokud není správně zpracováno. V tomto tutoriálu vás provedeme procesem kontroly, zda je dokument OneNote zašifrován pomocí Aspose.Note for Java.
@@ -116,3 +122,9 @@ Odpověď 4: Ne, Aspose.Note je speciálně navržen pro práci pouze s dokument
 ### Q5: Kde najdu další zdroje a podporu pro Aspose.Note pro Java?
 
  A5: Můžete navštívit[Aspose.Note fórum](https://forum.aspose.com/c/note/28) za podporu komunity a dokumentaci.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

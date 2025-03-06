@@ -3,10 +3,16 @@ title: الترخيص المقنن مع Aspose.Note
 linktitle: الترخيص المقنن مع Aspose.Note
 second_title: Aspose.Note .NET API
 description: تعرف على كيفية إدارة تراخيص البرامج بكفاءة باستخدام Aspose.Note لـ .NET من خلال الترخيص المحدود. تحسين استخدام الموارد والتحكم في التكاليف بشكل فعال.
-type: docs
 weight: 13
 url: /ar/net/licensing/metered-licensing/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# الترخيص المقنن مع Aspose.Note
+
 ## مقدمة
 
 في مجال تطوير البرمجيات، تعد إدارة التراخيص بكفاءة أمرًا بالغ الأهمية، خاصة عند التعامل مع منتجات مثل Aspose.Note for .NET. الترخيص المقنن هو أسلوب يوفر للمطورين قدرًا أكبر من المرونة والتحكم في استخدام برامجهم، مما يسمح لهم بمراقبة استهلاك الموارد وإدارته بشكل فعال. في هذا البرنامج التعليمي، سوف نتعمق في تعقيدات الترخيص المقنن باستخدام Aspose.Note لـ .NET، مع تفصيل كل خطوة لضمان الفهم الشامل.
@@ -89,3 +95,9 @@ Console.WriteLine($"Consumption quantity before operation: {Metered.GetConsumpti
 ### س5: هل الترخيص المقنن مناسب لجميع أنواع التطبيقات البرمجية؟
 
 ج5: على الرغم من أن الترخيص المقنن يمكن أن يكون مفيدًا للعديد من تطبيقات البرامج، إلا أن ملاءمته تعتمد على عوامل مثل أنماط الاستخدام واعتبارات التكلفة.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

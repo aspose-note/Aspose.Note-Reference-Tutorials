@@ -3,10 +3,16 @@ title: OneNote ドキュメントをストリームに保存 - Aspose.Note
 linktitle: OneNote ドキュメントをストリームに保存 - Aspose.Note
 second_title: Aspose.Note Java API
 description: Aspose.Note for Java を使用して OneNote ドキュメントをストリームに保存する方法を学習します。 Java アプリケーションに効率的に統合するには、段階的なチュートリアルに従ってください。
-type: docs
 weight: 13
 url: /ja/java/onenote-document-saving/save-onenote-document-to-stream/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# OneNote ドキュメントをストリームに保存 - Aspose.Note
+
 ## 導入
 
 Aspose.Note for Java を使用して OneNote ドキュメントをストリームに保存するチュートリアルへようこそ。 Aspose.Note は、開発者が Microsoft OneNote ファイルをプログラムで操作できるようにする強力な Java ライブラリです。このチュートリアルでは、Aspose.Note を使用して OneNote ドキュメントをストリームに保存するプロセスを説明します。
@@ -73,3 +79,9 @@ A1: はい、Aspose.Note は、DOCX、HTML、JPEG、PNG などのさまざまな
 ### Q5: 評価目的には一時ライセンスが必要ですか?
 
  A5: はい、次のサイトから一時ライセンスを取得できます。[ここ](https://purchase.aspose.com/temporary-license/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

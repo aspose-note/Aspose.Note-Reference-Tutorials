@@ -3,10 +3,16 @@ title: Chỉ định tùy chọn lưu trong Aspose.Note
 linktitle: Chỉ định tùy chọn lưu trong Aspose.Note
 second_title: Aspose.Note .NET API
 description: Tìm hiểu cách chỉ định các tùy chọn lưu trong Aspose.Note cho .NET để tùy chỉnh định dạng và chất lượng đầu ra của tài liệu OneNote.
-type: docs
 weight: 30
 url: /vi/net/loading-and-saving-operations/specify-save-options/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Chỉ định tùy chọn lưu trong Aspose.Note
+
 ## Giới thiệu
 
 Trong lĩnh vực phát triển .NET, Aspose.Note nổi bật như một công cụ mạnh mẽ để làm việc với các tài liệu OneNote. Nó cung cấp một bộ tính năng toàn diện để thao tác và quản lý các tệp này một cách hiệu quả. Một khía cạnh quan trọng khi làm việc với Aspose.Note là chỉ định các tùy chọn lưu, cho phép các nhà phát triển tùy chỉnh định dạng và chất lượng đầu ra theo yêu cầu của họ.
@@ -94,3 +100,9 @@ Câu trả lời 4: Aspose.Note được thiết kế để xử lý các tài l
 ### Câu hỏi 5: Aspose.Note có cung cấp hỗ trợ và trợ giúp cho các nhà phát triển gặp phải sự cố không?
 
 Câu trả lời 5: Có, nhà phát triển có thể tìm kiếm trợ giúp và hỗ trợ từ nhóm hỗ trợ Aspose.Note thông qua diễn đàn hoặc bằng cách liên hệ trực tiếp với Aspose để giải quyết kịp thời mọi vấn đề hoặc thắc mắc.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -3,10 +3,16 @@ title: OneNote 超連結與圖片
 linktitle: OneNote 超連結與圖片
 second_title: Aspose.Note Java API
 description: 使用 Aspose.Note for Java 教學增強您的 OneNote 體驗。學習使用 Java 開發無縫添加超連結、插入圖像和提取圖像資訊。
-type: docs
 weight: 22
 url: /zh-hant/java/onenote-hyperlinks-images/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# OneNote 超連結與圖片
+
 
 ## 介紹
 
@@ -48,3 +54,9 @@ url: /zh-hant/java/onenote-hyperlinks-images/
 了解如何使用 Java 和 Aspose.Note 從 OneNote 文件中提取圖像資訊。開發人員只需簡單的步驟。
 ### [使用 Java 在 OneNote 文件中插入圖像](./insert-image/)
 了解如何使用 Java 和 Aspose.Note for Java 程式庫將映像插入 OneNote 文件中。請按照我們的逐步指南進行無縫整合。
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

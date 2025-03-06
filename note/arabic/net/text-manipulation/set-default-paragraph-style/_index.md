@@ -3,10 +3,16 @@ title: قم بتعيين نمط الفقرة الافتراضي في Aspose.Note
 linktitle: قم بتعيين نمط الفقرة الافتراضي في Aspose.Note
 second_title: Aspose.Note .NET API
 description: اكتشف قوة Aspose.Note لـ .NET من خلال دليلنا خطوة بخطوة حول تعيين أنماط الفقرة الافتراضية. ارفع مهاراتك في التعامل مع المستندات دون عناء.
-type: docs
 weight: 24
 url: /ar/net/text-manipulation/set-default-paragraph-style/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# قم بتعيين نمط الفقرة الافتراضي في Aspose.Note
+
 ## مقدمة
 في مجال تطوير .NET، يبرز Aspose.Note كأداة قوية للعمل مع ملفات OneNote. إحدى الميزات الأساسية التي تقدمها هي القدرة على تعيين أنماط الفقرة الافتراضية، مما يوفر للمطورين المرونة للتحكم في مظهر النص في مستنداتهم. في هذا البرنامج التعليمي، سوف نتعمق في عملية تعيين أنماط الفقرة الافتراضية باستخدام Aspose.Note لـ .NET. تابع معنا بينما نقوم بتفصيل كل خطوة لمساعدتك على إتقان هذا الجانب الحاسم من معالجة المستندات.
 ## المتطلبات الأساسية
@@ -80,3 +86,9 @@ document.Save(Path.Combine("Your Document Directory", "SetDefaultParagraphStyle.
 نعم، يتم تحديث Aspose.Note بانتظام لضمان التوافق مع أحدث أطر عمل .NET.
 ### هل التراخيص المؤقتة متاحة لـ Aspose.Note؟
  نعم، يمكنك الحصول على ترخيص مؤقت لـ Aspose.Note من[هنا](https://purchase.aspose.com/temporary-license/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

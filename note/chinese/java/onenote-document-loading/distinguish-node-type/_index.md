@@ -3,10 +3,16 @@ title: 区分 OneNote 文档中的节点类型 - Java
 linktitle: 区分 OneNote 文档中的节点类型 - Java
 second_title: Aspose.Note Java API
 description: 了解如何使用 Java 和 Aspose.Note 来区分 OneNote 文档中的节点类型。探索无缝集成的分步指南和常见问题解答。
-type: docs
 weight: 20
 url: /zh/java/onenote-document-loading/distinguish-node-type/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# 区分 OneNote 文档中的节点类型 - Java
+
 ## 介绍
 
 在 Java 编程领域，使用 OneNote 文档会带来一系列挑战和复杂性。幸运的是，Aspose.Note for Java 提供了一个全面的解决方案来无缝地导航、操作和提取这些文档中的数据。在本教程中，我们将深入研究一个特定方面：使用 Java 区分 OneNote 文档中的节点类型。读完本指南后，您将深入了解如何识别不同的节点类型并在 Java 应用程序中有效地利用这些知识。
@@ -74,3 +80,10 @@ A3：当然，Aspose.Note for Java 允许您轻松地从 OneNote 文档中提取
 ### Q5：Aspose.Note for Java 有免费试用版吗？
 
  A5：是的，您可以通过以下网址免费试用来探索 Aspose.Note for Java 的功能：[这个链接](https://releases.aspose.com/).
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

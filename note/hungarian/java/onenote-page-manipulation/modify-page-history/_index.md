@@ -3,10 +3,16 @@ title: Oldalelőzmények módosítása a OneNote-ban – Aspose.Note
 linktitle: Oldalelőzmények módosítása a OneNote-ban – Aspose.Note
 second_title: Aspose.Note Java API
 description: Törölje, módosítsa és adja hozzá az oldalelőzmények bejegyzéseit zökkenőmentesen! Útmutató és kód lépésről lépésre a OneNote elsajátításához az Aspose.Note segítségével. #OneNote #Java #Aspose
-type: docs
 weight: 17
 url: /hu/java/onenote-page-manipulation/modify-page-history/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Oldalelőzmények módosítása a OneNote-ban – Aspose.Note
+
 ## Bevezetés
 
 Ebben az oktatóanyagban az Aspose.Note for Java használatával foglalkozunk a OneNote-dokumentumok oldaltörténetének módosítására. Az Aspose.Note egy hatékony Java API, amely lehetővé teszi a fejlesztők számára, hogy zökkenőmentesen dolgozzanak a OneNote fájlokkal, lehetővé téve különféle műveleteket, például e fájlok programozott létrehozását, olvasását és módosítását.
@@ -108,3 +114,10 @@ document.save(dataDir + "ModifyPageHistory_out.one");
 ### 5. kérdés: Létezik olyan közösségi fórum az Aspose.Note for Java számára, ahol segítséget kérhetek?
 
  A5: Igen, meglátogathatja a[Aspose.Note fórum](https://forum.aspose.com/c/note/28) a könyvtárral kapcsolatos segítségért vagy kérdésért.
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -3,10 +3,16 @@ title: Remover nó filho no bloco de notas do OneNote - Aspose.Note
 linktitle: Remover nó filho no bloco de notas do OneNote - Aspose.Note
 second_title: API Java Aspose.Note
 description: Aprenda como remover um nó filho de um bloco de anotações do OneNote usando Aspose.Note para Java. Siga nosso guia passo a passo para uma manipulação perfeita de documentos.
-type: docs
 weight: 24
 url: /pt/java/onenote-notebook-operations/remove-child-node/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Remover nó filho no bloco de notas do OneNote - Aspose.Note
+
 ## Introdução
 
 Neste tutorial, nos aprofundaremos no processo de remoção de um nó filho em um OneNote Notebook usando Aspose.Note para Java. Aspose.Note é uma API poderosa que permite aos desenvolvedores trabalhar com arquivos do Microsoft OneNote de forma programática, permitindo várias operações, como criação, manipulação e conversão de documentos do OneNote.
@@ -92,3 +98,9 @@ A2: Sim, você pode encontrar suporte e interagir com outros usuários no fórum
 ### Q5: Onde posso encontrar documentação detalhada para Aspose.Note for Java?
 
  A5: Você pode acessar a documentação completa do Aspose.Note for Java[aqui](https://reference.aspose.com/note/java/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

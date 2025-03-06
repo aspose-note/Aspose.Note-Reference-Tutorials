@@ -3,10 +3,16 @@ title: Načíst seznam odrážek nebo čísel v textu Aspose.Note
 linktitle: Načíst seznam odrážek nebo čísel v textu Aspose.Note
 second_title: Aspose.Note .NET API
 description: Odemkněte potenciál Aspose.Note pro .NET pomocí našeho podrobného průvodce pro získávání seznamů odrážek nebo čísel. Zvyšte své dovednosti v manipulaci s dokumenty ve OneNotu!
-type: docs
 weight: 23
 url: /cs/net/text-manipulation/retrieve-bullet-number-list/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Načíst seznam odrážek nebo čísel v textu Aspose.Note
+
 ## Úvod
 Vítejte ve světě Aspose.Note for .NET, robustní a všestranné knihovny, která umožňuje vývojářům zvládnout manipulaci s dokumenty OneNote bez námahy. V tomto tutoriálu se ponoříme do procesu získávání seznamů odrážek nebo čísel pomocí Aspose.Note pro .NET. Ať už jste zkušený vývojář nebo nadšenec do kódování, tato příručka vás vybaví znalostmi, které vám umožní procházet složitostmi práce se seznamy v Aspose.Note.
 ## Předpoklady
@@ -87,3 +93,9 @@ Ano, Aspose.Note podporuje širokou škálu formátů OneNote, což zajišťuje 
 Můžete prozkoumat a vyhledat pomoc v[Aspose.Note fórum](https://forum.aspose.com/c/note/28) pro jakékoli dotazy nebo problémy, se kterými se můžete setkat.
 ### Existuje bezplatná zkušební verze Aspose.Note pro .NET?
  Ano, máte přístup k bezplatné zkušební verzi Aspose.Note pro .NET[tady](https://releases.aspose.com/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

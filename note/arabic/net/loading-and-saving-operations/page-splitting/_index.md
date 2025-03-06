@@ -3,10 +3,16 @@ title: تقسيم الصفحة في Aspose.Note
 linktitle: تقسيم الصفحة في Aspose.Note
 second_title: Aspose.Note .NET API
 description: تعرف على كيفية تقسيم الصفحات بشكل فعال في Aspose.Note لـ .NET باستخدام خوارزميات مختلفة. تأكد من التنظيم الدقيق لمستندات OneNote بتنسيق PDF.
-type: docs
 weight: 17
 url: /ar/net/loading-and-saving-operations/page-splitting/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# تقسيم الصفحة في Aspose.Note
+
 ## مقدمة
 
 في هذا البرنامج التعليمي، سوف نستكشف كيفية تقسيم الصفحات بشكل فعال باستخدام Aspose.Note لـ .NET. يعد تقسيم الصفحة وظيفة بالغة الأهمية، خاصة عند التعامل مع صفحات OneNote الطويلة التي تحتاج إلى تحويلها إلى تنسيق PDF. يقدم Aspose.Note خوارزميات متنوعة للتحكم في منطق التقسيم، مما يضمن أن تكون ملفات PDF الناتجة منظمة بشكل جيد وقابلة للقراءة.
@@ -87,3 +93,9 @@ doc.Save(outputFilePath, pdfSaveOptions);
 ### س5: أين يمكنني الحصول على المساعدة إذا واجهت أية مشكلات؟
 
  ج5: يمكنك طلب المساعدة من منتدى مجتمع Aspose.Note[هنا](https://forum.aspose.com/c/note/28).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

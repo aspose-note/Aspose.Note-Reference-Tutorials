@@ -3,10 +3,16 @@ title: Lưu với cài đặt mặc định trong Aspose.Note
 linktitle: Lưu với cài đặt mặc định trong Aspose.Note
 second_title: Aspose.Note .NET API
 description: Tìm hiểu cách lưu tài liệu với cài đặt mặc định trong Aspose.Note dành cho .NET thông qua hướng dẫn từng bước.
-type: docs
 weight: 29
 url: /vi/net/loading-and-saving-operations/save-with-default-settings/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Lưu với cài đặt mặc định trong Aspose.Note
+
 ## Giới thiệu
 
 Trong lĩnh vực phát triển .NET, Aspose.Note nổi bật như một công cụ mạnh mẽ để làm việc với các tệp Microsoft OneNote. Cho dù bạn đang xử lý các ứng dụng ghi chú, sổ ghi chép kỹ thuật số hay bất kỳ dự án liên quan nào khác, Aspose.Note đều cung cấp chức năng cần thiết để hợp lý hóa quy trình phát triển của bạn. Trong hướng dẫn này, chúng ta sẽ đi sâu vào quy trình lưu tài liệu với cài đặt mặc định bằng Aspose.Note cho .NET. Chúng tôi sẽ chia nhỏ từng bước để đảm bảo sự rõ ràng và dễ hiểu cho các nhà phát triển ở mọi cấp độ.
@@ -86,3 +92,9 @@ A3: Chắc chắn rồi! Aspose.Note cung cấp các tính năng và hiệu su�
 ### Câu hỏi 5: Tôi có thể dùng thử Aspose.Note trước khi mua không?
 
  Câu trả lời 5: Có, bạn có thể tải xuống bản dùng thử miễn phí từ[trang mạng](https://releases.aspose.com/) để khám phá các tính năng của Aspose.Note trước khi mua hàng.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

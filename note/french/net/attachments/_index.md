@@ -3,10 +3,16 @@ title: Pièces jointes et récupération dans les documents OneNote
 linktitle: Pièces jointes
 second_title: API Aspose.Note .NET
 description: Boostez vos applications .NET avec Aspose.Note ! Explorez des didacticiels sur la manière de joindre des fichiers, de définir des icônes et de récupérer des pièces jointes pour un développement amélioré.
-type: docs
 weight: 21
 url: /fr/net/attachments/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Pièces jointes et récupération dans les documents OneNote
+
 ## Introduction
 
 Êtes-vous prêt à faire passer vos applications .NET au niveau supérieur ? Plongez dans le monde d’Aspose.Note et débloquez un royaume de possibilités. Cette liste complète de didacticiels vous guidera à travers les fonctionnalités clés, en se concentrant sur la pièce jointe de fichiers, la définition d'icônes et la récupération transparente des fichiers joints.
@@ -37,3 +43,9 @@ Découvrez comment joindre des fichiers et définir des icônes dans Aspose.Note
 Découvrez comment joindre des fichiers à des documents Microsoft OneNote par programmation à l'aide d'Aspose.Note pour .NET. Simplifiez votre processus de développement avec ce didacticiel complet.
 ### [Récupérer les fichiers joints avec Aspose.Note](./retrieve-attached-files/)
 Découvrez comment récupérer des fichiers joints à partir de documents Microsoft OneNote à l'aide d'Aspose.Note pour .NET. Suivez les étapes pour charger, obtenir des nœuds et parcourir les pièces jointes.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

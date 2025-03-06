@@ -3,10 +3,16 @@ title: Guardar en imagen binaria usando el método Otsu en OneNote
 linktitle: Guardar en imagen binaria usando el método Otsu en OneNote
 second_title: Aspose.Nota Java API
 description: Aprenda a guardar documentos de OneNote como imágenes binarias utilizando el método Otsu con Aspose.Note para Java. Eleve las capacidades de su aplicación Java con Aspose.Note.
-type: docs
 weight: 15
 url: /es/java/onenote-document-saving/save-to-binary-image-using-otsu-method/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Guardar en imagen binaria usando el método Otsu en OneNote
+
 ## Introducción
 
 En este tutorial, aprenderemos cómo guardar un documento como una imagen binaria usando el método Otsu en Aspose.Note para Java. Aspose.Note es una potente API que permite a los desarrolladores de Java trabajar con archivos de Microsoft OneNote mediante programación. Guardar documentos como imágenes binarias puede resultar útil para diversas aplicaciones, como procesamiento de imágenes, OCR (reconocimiento óptico de caracteres) y más.
@@ -82,3 +88,9 @@ R4: Si bien Aspose.Note se ocupa principalmente de la manipulación de documento
 ### P5: ¿Dónde puedo obtener asistencia si tengo problemas al utilizar Aspose.Note para Java?
 
 R5: Puede visitar el foro Aspose.Note o comunicarse con su equipo de soporte para obtener ayuda con cualquier problema técnico o consulta.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -3,10 +3,16 @@ title: Stel de resolutie van de uitvoerafbeelding in OneNote in - Aspose.Note
 linktitle: Stel de resolutie van de uitvoerafbeelding in OneNote in - Aspose.Note
 second_title: Aspose.Note Java-API
 description: Leer hoe u de afbeeldingsresolutie in OneNote-documenten kunt aanpassen met Aspose.Note voor Java. Volg onze stapsgewijze handleiding voor een eenvoudige implementatie
-type: docs
 weight: 23
 url: /nl/java/onenote-document-saving/set-output-image-resolution/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Stel de resolutie van de uitvoerafbeelding in OneNote in - Aspose.Note
+
 ## Invoering
 
 Wilt u de resolutie van afbeeldingen in uw OneNote-documenten manipuleren met Java? Aspose.Note voor Java biedt een robuuste oplossing voor dergelijke taken. In deze zelfstudie doorlopen we de stappen om de resolutie van de uitvoerafbeelding in te stellen met Aspose.Note.
@@ -88,3 +94,9 @@ A4: Ja, Aspose.Note biedt uitgebreide functies voor beeldmanipulatie, inclusief 
 ### V5: Waar kan ik ondersteuning krijgen voor Aspose.Note-gerelateerde vragen?
 
  A5: U kunt hulp zoeken op het Aspose.Note-communityforum[hier](https://forum.aspose.com/c/note/28).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

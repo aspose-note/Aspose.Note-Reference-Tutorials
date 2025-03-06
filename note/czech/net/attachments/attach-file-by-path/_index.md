@@ -3,10 +3,16 @@ title: Připojit soubor podle cesty v Aspose.Note
 linktitle: Připojit soubor podle cesty v Aspose.Note
 second_title: Aspose.Note .NET API
 description: Naučte se připojovat soubory k dokumentům Microsoft OneNote programově pomocí Aspose.Note pro .NET. Zjednodušte si proces vývoje pomocí tohoto komplexního návodu.
-type: docs
 weight: 11
 url: /cs/net/attachments/attach-file-by-path/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Připojit soubor podle cesty v Aspose.Note
+
 ## Úvod
 
 Aspose.Note for .NET je výkonná knihovna, která umožňuje vývojářům pracovat se soubory Microsoft OneNote programově. Ať už chcete vytvářet, upravovat, převádět nebo manipulovat s dokumenty OneNote, Aspose.Note pro .NET poskytuje komplexní funkce pro zefektivnění vašeho vývojového procesu.
@@ -147,3 +153,9 @@ A3: Ano, musíte získat licenci pro komerční použití Aspose.Note pro .NET. 
 ### Q5: Kde mohu hledat podporu pro Aspose.Note pro .NET?
 
  Odpověď 5: Podporu můžete vyhledat na fórech komunity Aspose.Note[tady](https://forum.aspose.com/c/note/28).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

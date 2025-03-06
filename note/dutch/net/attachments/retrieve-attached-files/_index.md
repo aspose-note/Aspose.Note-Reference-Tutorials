@@ -3,10 +3,16 @@ title: Haal bijgevoegde bestanden op met Aspose.Note
 linktitle: Haal bijgevoegde bestanden op met Aspose.Note
 second_title: Aspose.Note .NET API
 description: Leer hoe u bijgevoegde bestanden uit Microsoft OneNote-documenten kunt ophalen met Aspose.Note voor .NET. Volg de stappen om te laden, knooppunten op te halen en bijlagen te doorlopen.
-type: docs
 weight: 12
 url: /nl/net/attachments/retrieve-attached-files/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Haal bijgevoegde bestanden op met Aspose.Note
+
 ## Invoering
 
 In deze zelfstudie onderzoeken we hoe u bijgevoegde bestanden uit een document kunt ophalen met Aspose.Note voor .NET. Aspose.Note is een krachtige API waarmee ontwikkelaars programmatisch met Microsoft OneNote-bestanden kunnen werken. We zullen het proces opsplitsen in eenvoudige stappen, zodat het gemakkelijk te volgen is.
@@ -90,3 +96,9 @@ A4: Ja, u kunt gebruikmaken van een gratis proefperiode van Aspose.Note om de ke
 ### V5: Hoe kan ik een tijdelijke licentie voor Aspose.Note verkrijgen?
 
 A5: U kunt een tijdelijke licentie aanvragen bij Aspose om de volledige mogelijkheden van de API in uw ontwikkelomgeving te evalueren.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

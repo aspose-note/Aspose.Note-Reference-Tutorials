@@ -3,10 +3,16 @@ title: Uložit do PDF v Aspose.Note
 linktitle: Uložit do PDF v Aspose.Note
 second_title: Aspose.Note .NET API
 description: Naučte se ukládat dokumenty Microsoft OneNote do formátu PDF pomocí Aspose.Note pro .NET. Výukový program krok za krokem s příklady kódu pro rozvržení stránky Letter a A4.
-type: docs
 weight: 26
 url: /cs/net/loading-and-saving-operations/save-to-pdf/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Uložit do PDF v Aspose.Note
+
 ## Úvod
 
 tomto tutoriálu prozkoumáme, jak ukládat dokumenty do formátu PDF pomocí Aspose.Note pro .NET. Aspose.Note je výkonná knihovna, která umožňuje vývojářům pracovat se soubory Microsoft OneNote programově. Pokryjeme předpoklady, importujeme jmenné prostory a poskytneme podrobné průvodce ukládáním dokumentů do PDF v různých rozvrženích stránek.
@@ -110,3 +116,9 @@ Odpověď 1: Ano, Aspose.Note podporuje různé funkce a funkce pro efektivní z
 ### Q5: Potřebujete další pomoc?
 
  A5: Neváhejte se zeptat na jakékoli otázky nebo vyhledat podporu na fóru Aspose.Note[tady](https://forum.aspose.com/c/note/28).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

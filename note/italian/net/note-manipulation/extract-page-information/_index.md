@@ -3,10 +3,16 @@ title: Estrai le informazioni sulla pagina con Aspose.Note per .NET
 linktitle: Estrai le informazioni sulla pagina con Aspose.Note per .NET
 second_title: Aspose.Note API .NET
 description: Scopri come estrarre le informazioni sulla pagina dai file Microsoft OneNote utilizzando Aspose.Note per .NET. Questo tutorial completo ti guida attraverso il processo passo dopo passo.
-type: docs
 weight: 13
 url: /it/net/note-manipulation/extract-page-information/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Estrai le informazioni sulla pagina con Aspose.Note per .NET
+
 ## introduzione
 
 Aspose.Note per .NET è una potente libreria che consente agli sviluppatori di lavorare con i file Microsoft OneNote a livello di codice. L'estrazione delle informazioni sulla pagina da questi file può essere fondamentale per varie applicazioni, dall'analisi dei dati alla gestione dei documenti. In questo tutorial, ti guideremo attraverso il processo di estrazione delle informazioni sulla pagina passo dopo passo utilizzando Aspose.Note per .NET.
@@ -103,3 +109,9 @@ A4: Sì, puoi estrarre, modificare e aggiungere allegati utilizzando Aspose.Note
 ### Q5: Dove posso trovare ulteriore supporto e risorse per Aspose.Note per .NET?
 
  R5: È possibile visitare il forum Aspose.Note per .NET[Qui](https://forum.aspose.com/c/note/28) per qualsiasi assistenza o domanda tu possa avere.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -3,10 +3,16 @@ title: تطبيق التعداد النقطي على النص في Aspose.Note
 linktitle: تطبيق التعداد النقطي على النص في Aspose.Note
 second_title: Aspose.Note .NET API
 description: تعرف على كيفية تطبيق التعداد النقطي على النص في Aspose.Note لـ .NET لتحسين مستندات OneNote الخاصة بك. اتبع هذا الدليل خطوة بخطوة للتنسيق الفعال.
-type: docs
 weight: 10
 url: /ar/net/text-manipulation/apply-bullets-on-text/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# تطبيق التعداد النقطي على النص في Aspose.Note
+
 ## مقدمة
 مرحبًا بك في هذا الدليل المفصّل خطوة بخطوة حول تطبيق التعداد النقطي على النص باستخدام Aspose.Note لـ .NET. Aspose.Note هي مكتبة قوية تتيح للمطورين العمل بسلاسة مع ملفات Microsoft OneNote في تطبيقات .NET الخاصة بهم. في هذا البرنامج التعليمي، سنرشدك خلال عملية تطبيق التعداد النقطي على النص، مما يعزز المظهر المرئي لمستندات OneNote الخاصة بك.
 ## المتطلبات الأساسية
@@ -86,3 +92,9 @@ Console.WriteLine("\nBullets applied successfully on a text.\nFile saved at " + 
  نعم، يمكنك تنزيل نسخة تجريبية مجانية[هنا](https://releases.aspose.com/).
 ### أين يمكنني العثور على دعم وموارد إضافية؟
  يمكنك زيارة منتدى مجتمع Aspose.Note[هنا](https://forum.aspose.com/c/note/28) للدعم والمناقشات.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

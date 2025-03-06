@@ -3,10 +3,16 @@ title: استرداد المستندات من OneNote Notebook - Aspose.Note
 linktitle: استرداد المستندات من OneNote Notebook - Aspose.Note
 second_title: Aspose.Note جافا API
 description: تعرف على كيفية استرداد المستندات من OneNote Notebook باستخدام Aspose.Note لـ Java. اتبع دليلنا خطوة بخطوة للتكامل السلس.
-type: docs
 weight: 25
 url: /ar/java/onenote-notebook-operations/retrieve-documents-from-onenote-notebook/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# استرداد المستندات من OneNote Notebook - Aspose.Note
+
 ## مقدمة
 
 مرحبًا بك في الدليل الشامل حول استخدام Aspose.Note لـ Java لاسترداد المستندات من OneNote Notebook! Aspose.Note عبارة عن واجهة برمجة تطبيقات Java قوية تسمح للمطورين بمعالجة ملفات OneNote بسهولة. في هذا البرنامج التعليمي، سنتعرف على العملية خطوة بخطوة، مع تقسيم كل مثال إلى خطوات متعددة لضمان الفهم الواضح.
@@ -92,3 +98,9 @@ for (Document document : allDocuments) {
 ### س5: هل يقدم Aspose.Note for Java نسخة تجريبية مجانية؟
 
  ج5: نعم، يمكنك الاستفادة من النسخة التجريبية المجانية من Aspose.Note لـ Java من خلال زيارة الموقع[صفحة تجريبية مجانية](https://releases.aspose.com/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -3,10 +3,16 @@ title: 在 Aspose Note .NET 中載入受密碼保護的文檔
 linktitle: 在 Aspose Note .NET 中載入受密碼保護的文檔
 second_title: Aspose.Note .NET API
 description: 了解如何使用簡單的步驟在 Aspose Note .NET 中安全地載入受密碼保護的文件。透過加密確保資料機密性。
-type: docs
 weight: 22
 url: /zh-hant/net/notebook-operations/load-password-protected-documents/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# 在 Aspose Note .NET 中載入受密碼保護的文檔
+
 ## 介紹
 
 Aspose.Note for .NET 是一個功能強大的 API，使開發人員能夠以程式設計方式使用 Microsoft OneNote 檔案。在本教學中，我們將學習如何使用 Aspose.Note for .NET 載入受密碼保護的文件。
@@ -77,3 +83,9 @@ A4：是的，您可以使用 Aspose.Note for .NET 為筆記本中的不同子�
 ### Q5：Aspose.Note for .NET 有試用版嗎？
 
  A5：是的，您可以存取 Aspose.Note for .NET 的免費試用版：[這裡](https://releases.aspose.com/)，讓您可以在購買前探索其功能。
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

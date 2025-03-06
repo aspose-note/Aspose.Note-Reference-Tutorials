@@ -3,10 +3,16 @@ title: Lampirkan File dan Atur Ikon di OneNote menggunakan Java
 linktitle: Lampirkan File dan Atur Ikon di OneNote menggunakan Java
 second_title: Aspose.Catatan Java API
 description: Tingkatkan alur kerja OneNote Anda! Pelajari cara melampirkan file & menyesuaikan ikon secara terprogram di Java dengan Aspose.Note. Langkah & kode mudah disertakan! #OneNote #Java #Aspose
-type: docs
 weight: 10
 url: /id/java/onenote-java-integration/attach-file-and-set-icon/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Lampirkan File dan Atur Ikon di OneNote menggunakan Java
+
 ## Perkenalan
 
 OneNote adalah alat populer untuk membuat catatan dan mengatur informasi, dan dengan bantuan Aspose.Note untuk Java, Anda dapat meningkatkan kemampuannya dengan melampirkan file secara terprogram dan mengatur ikon untuk meningkatkan representasi visual catatan Anda. Dalam tutorial ini, kami akan memandu Anda melalui proses langkah demi langkah.
@@ -149,3 +155,10 @@ A3: Tentu saja, Anda dapat memilih ikon khusus untuk mewakili berbagai jenis lam
 ### Q5: Apakah ada versi uji coba yang tersedia untuk Aspose.Note untuk Java?
 
 A5: Ya, Anda dapat menjelajahi fungsionalitas Aspose.Note untuk Java dengan uji coba gratis yang tersedia di[Link ini](https://releases.aspose.com/).
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

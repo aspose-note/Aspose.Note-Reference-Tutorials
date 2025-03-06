@@ -3,10 +3,16 @@ title: Δημιουργήστε ένα έγγραφο OneNote με μορφοπ�
 linktitle: Δημιουργήστε ένα έγγραφο OneNote με μορφοποιημένο εμπλουτισμένο κείμενο σε Java
 second_title: Aspose.Note Java API
 description: Μάθετε πώς να δημιουργείτε έγγραφα OneNote με πλούσια μορφοποίηση μέσω προγραμματισμού σε Java χρησιμοποιώντας το Aspose.Note για Java. Ακολουθήστε τον βήμα προς βήμα οδηγό μας για απρόσκοπτη αυτοματοποίηση εγγράφων.
-type: docs
 weight: 11
 url: /el/java/onenote-document-manipulation/create-onenote-document-formatted-rich-text/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Δημιουργήστε ένα έγγραφο OneNote με μορφοποιημένο εμπλουτισμένο κείμενο σε Java
+
 ## Εισαγωγή
 
 Η δημιουργία πλούσιας μορφοποίησης εγγράφων OneNote μέσω προγραμματισμού μπορεί να είναι ένα ισχυρό εργαλείο για προγραμματιστές που θέλουν να αυτοματοποιήσουν εργασίες δημιουργίας εγγράφων σε εφαρμογές Java. Το Aspose.Note για Java παρέχει ένα ολοκληρωμένο σύνολο χαρακτηριστικών και λειτουργιών για την απρόσκοπτη επίτευξη αυτού του στόχου. Σε αυτό το σεμινάριο, θα σας καθοδηγήσουμε στη διαδικασία δημιουργίας ενός εγγράφου OneNote με μορφοποιημένο εμπλουτισμένο κείμενο χρησιμοποιώντας το Aspose.Note για Java.
@@ -142,3 +148,10 @@ A4: Ναι, πρέπει να αποκτήσετε άδεια χρήσης γι�
 ### Ε5: Το Aspose.Note για Java υποστηρίζει άλλες μορφές εγγράφων εκτός από το OneNote;
 
 A5: Ναι, το Aspose.Note για Java υποστηρίζει μια ποικιλία μορφών εγγράφων, συμπεριλαμβανομένων των μορφών PDF, HTML και εικόνας.
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

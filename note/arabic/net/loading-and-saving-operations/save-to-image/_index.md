@@ -3,10 +3,16 @@ title: حفظ إلى الصورة في Aspose.Note
 linktitle: حفظ إلى الصورة في Aspose.Note
 second_title: Aspose.Note .NET API
 description: قم بتحويل مستندات Microsoft OneNote بسهولة إلى تنسيق صورة بتنسيق BMP باستخدام Aspose.Note لـ .NET. تكامل سلس وخطوات سهلة ووظائف قوية.
-type: docs
 weight: 23
 url: /ar/net/loading-and-saving-operations/save-to-image/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# حفظ إلى الصورة في Aspose.Note
+
 ## مقدمة
 
 في هذا البرنامج التعليمي، سنتعمق في عملية حفظ مستند بتنسيق صورة باستخدام Aspose.Note لـ .NET. Aspose.Note عبارة عن واجهة برمجة تطبيقات قوية تمكن المطورين من العمل مع ملفات Microsoft OneNote برمجيًا، وتوفر وظائف متنوعة لمعالجة المستندات وتحويلها.
@@ -88,3 +94,9 @@ Console.WriteLine("\nOneNote document converted successfully to image in BMP for
 ### س5: هل يوفر Aspose.Note الدعم الفني للمطورين؟
 
 ج5: نعم، يقدم Aspose.Note دعمًا فنيًا شاملاً من خلال المنتديات والوثائق، مما يضمن تجربة تطوير سلسة.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -3,10 +3,16 @@ title: OneNote 문서 로드
 linktitle: OneNote 문서 로드
 second_title: Aspose.Note 자바 API
 description: Java용 Aspose.Note를 사용하여 OneNote 문서 로드, 변환 및 생성에 대한 포괄적인 자습서를 살펴보세요. 문서 처리 능력을 손쉽게 향상시키세요.
-type: docs
 weight: 25
 url: /ko/java/onenote-document-loading/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# OneNote 문서 로드
+
 
 ## 소개
 
@@ -97,3 +103,9 @@ Java용 Aspose.Note를 사용하여 OneNote 문서를 쉽게 로드하고 조작
 원활한 통합을 위해 Aspose.Note를 사용하여 Java에서 OneNote 2007 문서를 로드하는 방법을 알아보세요.
 ### [암호로 보호된 OneNote 문서 로드 - Java](./load-password-protected-onenote/)
 Java용 Aspose.Note와 함께 Java를 사용하여 암호로 보호된 OneNote 문서를 로드하는 방법을 알아보세요.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

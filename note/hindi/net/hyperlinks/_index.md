@@ -3,10 +3,16 @@ title: .NET हाइपरलिंक और OneNote एकीकरण के
 linktitle: हाइपरलिंक
 second_title: Aspose.Note .NET API
 description: Aspose.Note दस्तावेज़ों में अन्तरक्रियाशीलता को बढ़ावा देना सीखें! .NET के लिए Aspose.Note के साथ हाइपरलिंक जोड़ने पर ट्यूटोरियल खोजें, जो आपके दस्तावेज़ की सहभागिता को बढ़ाता है।
-type: docs
 weight: 22
 url: /hi/net/hyperlinks/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# .NET हाइपरलिंक और OneNote एकीकरण के लिए Aspose.Note
+
 ## परिचय
 
 .NET के लिए Aspose.Note के दायरे में, आपके दस्तावेज़ों में हाइपरलिंक जोड़ने की क्षमता गेम-चेंजर है। हमारे चरण-दर-चरण ट्यूटोरियल का पालन करके अपने दस्तावेज़ की अन्तरक्रियाशीलता और सहभागिता को बढ़ाएँ।
@@ -45,3 +51,9 @@ url: /hi/net/hyperlinks/
 ## हाइपरलिंक ट्यूटोरियल
 ### [Aspose.Note दस्तावेज़ों में हाइपरलिंक जोड़ें](./add-hyperlinks/)
 .NET के लिए Aspose.Note का उपयोग करके Aspose.Note दस्तावेज़ों में हाइपरलिंक जोड़ने का तरीका जानें। इस चरण-दर-चरण ट्यूटोरियल के साथ दस्तावेज़ अन्तरक्रियाशीलता बढ़ाएँ।
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

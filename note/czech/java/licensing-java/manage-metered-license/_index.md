@@ -3,10 +3,16 @@ title: Správa měřené licence pro OneNote v Javě
 linktitle: Správa měřené licence pro OneNote v Javě
 second_title: Aspose.Note Java API
 description: Přečtěte si, jak spravovat měřené licence pro OneNote v Javě pomocí knihovny Aspose.Note. Kontrolujte využití, sledujte kredity a efektivně optimalizujte náklady.
-type: docs
 weight: 10
 url: /cs/java/licensing-java/manage-metered-license/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Správa měřené licence pro OneNote v Javě
+
 ## Úvod
 
 V tomto tutoriálu se naučíme, jak spravovat měřenou licenci pro OneNote pomocí Aspose.Note pro Java. Měřené licencování vám umožňuje sledovat a řídit vaše využití na základě kreditů a poskytuje flexibilní a nákladově efektivní řešení.
@@ -85,3 +91,9 @@ Odpověď 3: Ano, měřenou licenci lze použít ve více aplikacích, ale spot�
 ### Q5: Kde mohu získat podporu pro Aspose.Note pro Java?
 
  Odpověď 5: Podporu můžete získat na fórech komunity Aspose[tady](https://forum.aspose.com/c/note/28).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

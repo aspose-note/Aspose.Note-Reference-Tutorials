@@ -3,10 +3,16 @@ title: Mentse az oldaltartományokat PDF formátumban az Aspose.Note-ba
 linktitle: Mentse az oldaltartományokat PDF formátumban az Aspose.Note-ba
 second_title: Aspose.Note .NET API
 description: Ismerje meg, hogyan menthet számos oldalt a OneNote-dokumentumokból PDF-fájlként az Aspose.Note for .NET segítségével. Lépésről lépésre bemutató oktatóanyag.
-type: docs
 weight: 21
 url: /hu/net/loading-and-saving-operations/save-range-pages-as-pdf/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Mentse az oldaltartományokat PDF formátumban az Aspose.Note-ba
+
 ## Bevezetés
 
 A .NET fejlesztés területén az Aspose.Note sokoldalú eszközként tűnik ki a OneNote dokumentumok egyszerű és hatékony kezeléséhez. Rengeteg funkciója közül az egyik legkeresettebb funkció az, hogy számos oldalt PDF-fájlként menthet. Ez az oktatóanyag lépésről lépésre végigvezeti a folyamaton, biztosítva, hogy ezt a képességet zökkenőmentesen integrálhassa projektjeibe.
@@ -99,3 +105,9 @@ A4: Abszolút! Az Aspose.Note széles körű lehetőségeket kínál a PDF-fájl
 ### 5. kérdés: Hol találok további támogatást és forrásokat az Aspose.Note számára?
 
  5. válasz: További támogatásért, dokumentációért és közösségi interakcióért keresse fel a[Aspose.Note fórum](https://forum.aspose.com/c/note/28).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

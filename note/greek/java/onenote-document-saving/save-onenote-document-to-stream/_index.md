@@ -3,10 +3,16 @@ title: Αποθήκευση εγγράφου OneNote στη ροή - Aspose.Note
 linktitle: Αποθήκευση εγγράφου OneNote στη ροή - Aspose.Note
 second_title: Aspose.Note Java API
 description: Μάθετε πώς να αποθηκεύετε έγγραφα του OneNote σε μια ροή χρησιμοποιώντας το Aspose.Note για Java. Ακολουθήστε το βήμα προς βήμα σεμινάριο για αποτελεσματική ενσωμάτωση στις εφαρμογές σας Java.
-type: docs
 weight: 13
 url: /el/java/onenote-document-saving/save-onenote-document-to-stream/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Αποθήκευση εγγράφου OneNote στη ροή - Aspose.Note
+
 ## Εισαγωγή
 
 Καλώς ήρθατε στο σεμινάριο μας σχετικά με τη χρήση του Aspose.Note για Java για την αποθήκευση εγγράφων του OneNote σε μια ροή. Το Aspose.Note είναι μια ισχυρή βιβλιοθήκη Java που επιτρέπει στους προγραμματιστές να εργάζονται με αρχεία Microsoft OneNote μέσω προγραμματισμού. Σε αυτό το σεμινάριο, θα σας καθοδηγήσουμε στη διαδικασία αποθήκευσης ενός εγγράφου OneNote σε μια ροή χρησιμοποιώντας το Aspose.Note.
@@ -73,3 +79,9 @@ A1: Ναι, το Aspose.Note υποστηρίζει την αποθήκευση 
 ### Ε5: Χρειάζομαι μια προσωρινή άδεια για λόγους αξιολόγησης;
 
  A5: Ναι, μπορείτε να αποκτήσετε προσωρινή άδεια από[εδώ](https://purchase.aspose.com/temporary-license/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

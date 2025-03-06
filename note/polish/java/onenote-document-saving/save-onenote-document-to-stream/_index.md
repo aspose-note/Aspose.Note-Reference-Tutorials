@@ -3,10 +3,16 @@ title: Zapisz dokument programu OneNote w strumieniu — Aspose.Note
 linktitle: Zapisz dokument programu OneNote w strumieniu — Aspose.Note
 second_title: Aspose.Note API Java
 description: Dowiedz się, jak zapisywać dokumenty OneNote w strumieniu przy użyciu Aspose.Note dla Java. Postępuj zgodnie z naszym samouczkiem krok po kroku, aby uzyskać efektywną integrację z aplikacjami Java.
-type: docs
 weight: 13
 url: /pl/java/onenote-document-saving/save-onenote-document-to-stream/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Zapisz dokument programu OneNote w strumieniu — Aspose.Note
+
 ## Wstęp
 
 Witamy w naszym samouczku dotyczącym używania Aspose.Note dla języka Java do zapisywania dokumentów OneNote w strumieniu. Aspose.Note to potężna biblioteka Java, która umożliwia programistom programową pracę z plikami Microsoft OneNote. W tym samouczku przeprowadzimy Cię przez proces zapisywania dokumentu OneNote w strumieniu przy użyciu Aspose.Note.
@@ -73,3 +79,9 @@ O1: Tak, Aspose.Note obsługuje zapisywanie dokumentów w różnych formatach, t
 ### P5: Czy potrzebuję tymczasowej licencji do celów oceny?
 
  Odpowiedź 5: Tak, możesz uzyskać licencję tymczasową od[Tutaj](https://purchase.aspose.com/temporary-license/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -3,10 +3,16 @@ title: Képek kibontása a OneNote-dokumentumból Java segítségével
 linktitle: Képek kibontása a OneNote-dokumentumból Java segítségével
 second_title: Aspose.Note Java API
 description: Ismerje meg, hogyan bonthat ki képeket OneNote-dokumentumokból Java használatával az Aspose.Note könyvtárral. Kövesse lépésről lépésre útmutatónkat a zökkenőmentes képkivonáshoz.
-type: docs
 weight: 14
 url: /hu/java/onenote-hyperlinks-images/extract-images/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Képek kibontása a OneNote-dokumentumból Java segítségével
+
 ## Bevezetés
 
 Ebben az oktatóanyagban végigvezetjük a OneNote-dokumentumból a képek Java használatával az Aspose.Note könyvtár segítségével történő kinyerésének folyamatán.
@@ -89,3 +95,9 @@ A4: Az Aspose.Note hatékonyan kezeli a különböző méretű dokumentumokat, �
 ### 5. kérdés: Az Aspose.Note támogatja a képeken kívül más típusú tartalom kinyerését?
 
 5. válasz: Igen, a képek mellett az Aspose.Note lehetővé teszi a szövegek, mellékletek és egyéb tartalomtípusok kinyerését a OneNote-dokumentumokból.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

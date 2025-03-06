@@ -3,10 +3,16 @@ title: Jegyzetfüzetek konvertálása képpé az Aspose Note .NET-ben
 linktitle: Jegyzetfüzetek konvertálása képpé az Aspose Note .NET-ben
 second_title: Aspose.Note .NET API
 description: Ismerje meg, hogyan konvertálhat OneNote-jegyzetfüzeteket képekké az Aspose.Note for .NET segítségével. Kövesse ezt a lépésről lépésre szóló útmutatót a zökkenőmentes integráció érdekében.
-type: docs
 weight: 11
 url: /hu/net/notebook-operations/convert-to-image/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Jegyzetfüzetek konvertálása képpé az Aspose Note .NET-ben
+
 ## Bevezetés
 
 Ebben az oktatóanyagban megvizsgáljuk, hogyan konvertálhat notebookokat képekké az Aspose.Note for .NET segítségével. Az Aspose.Note egy hatékony API, amely lehetővé teszi a fejlesztők számára, hogy programozottan dolgozzanak Microsoft OneNote fájlokkal, és számos funkciót tesznek lehetővé. A jegyzetfüzetek képekké alakítása különösen hasznos lehet különféle alkalmazásokhoz, például előnézetek generálásához, tartalom megosztásához vagy más, képformátumot igénylő rendszerekkel való integrációhoz.
@@ -81,3 +87,9 @@ Ebben az oktatóanyagban megtanultuk, hogyan konvertálhat OneNote-jegyzetfüzet
 ### 5. kérdés: Használhatom az Aspose.Note-ot .NET-hez kereskedelmi projektekben?
 
  V5: Igen, vásárolhat licencet a következőtől[itt](https://purchase.aspose.com/buy) az Aspose.Note for .NET használatához kereskedelmi projektekben.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

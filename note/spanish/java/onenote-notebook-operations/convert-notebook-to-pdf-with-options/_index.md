@@ -3,10 +3,16 @@ title: Convierta Notebook a PDF con opciones en OneNote - Aspose.Note
 linktitle: Convierta Notebook a PDF con opciones en OneNote - Aspose.Note
 second_title: Aspose.Nota Java API
 description: ¡Personalice y exporte cuadernos de OneNote a PDF con facilidad! Aspose.Note para Java se encarga del trabajo pesado. ¡Guía paso a paso incluida! #OneNote #Java #Aspose
-type: docs
 weight: 17
 url: /es/java/onenote-notebook-operations/convert-notebook-to-pdf-with-options/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Convierta Notebook a PDF con opciones en OneNote - Aspose.Note
+
 ## Introducción
 
 En este tutorial, profundizaremos en el mundo de la conversión de cuadernos a PDF con opciones personalizables utilizando Aspose.Note para Java. Aspose.Note es una potente API de Java que permite a los desarrolladores manipular documentos de Microsoft OneNote mediante programación. La conversión de cuadernos a formato PDF es un requisito común en varias aplicaciones y con Aspose.Note, esta tarea se simplifica y es eficiente.
@@ -90,3 +96,9 @@ R2: Aspose.Note es compatible con Microsoft OneNote 2010 y versiones posteriores
 ### P5: ¿Cómo puedo obtener soporte para Aspose.Note?
 
  R5: Para cualquier asistencia técnica o consulta, puede visitar el foro de soporte de Aspose.Note[aquí](https://forum.aspose.com/c/note/28).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

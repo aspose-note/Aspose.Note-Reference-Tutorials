@@ -3,10 +3,16 @@ title: Aspose.Note で保存オプションを指定する
 linktitle: Aspose.Note で保存オプションを指定する
 second_title: Aspose.Note .NET API
 description: Aspose.Note for .NET で保存オプションを指定して、OneNote ドキュメントの出力形式と品質をカスタマイズする方法を学びます。
-type: docs
 weight: 30
 url: /ja/net/loading-and-saving-operations/specify-save-options/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Aspose.Note で保存オプションを指定する
+
 ## 導入
 
 .NET 開発の分野では、Aspose.Note は OneNote ドキュメントを操作するための強力なツールとして際立っています。これらのファイルを効率的に操作および管理するための包括的な機能セットを提供します。 Aspose.Note を使用する際の重要な側面の 1 つは、開発者が要件に応じて出力形式と品質をカスタマイズできる保存オプションを指定することです。
@@ -94,3 +100,9 @@ A4: Aspose.Note は、ファイル サイズに大きな制限を設けること
 ### Q5: Aspose.Note は、問題が発生した開発者にサポートと支援を提供しますか?
 
 A5: はい、開発者は、問題や質問をタイムリーに解決するために、フォーラムを通じて、または Aspose に直接連絡することで、Aspose.Note サポート チームに支援を求めることができます。
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -3,10 +3,16 @@ title: Applica punti elenco sul testo in Aspose.Note
 linktitle: Applica punti elenco sul testo in Aspose.Note
 second_title: Aspose.Note API .NET
 description: Scopri come applicare punti elenco sul testo in Aspose.Note per .NET per migliorare i tuoi documenti OneNote. Segui questa guida passo passo per una formattazione efficace.
-type: docs
 weight: 10
 url: /it/net/text-manipulation/apply-bullets-on-text/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Applica punti elenco sul testo in Aspose.Note
+
 ## introduzione
 Benvenuti in questa guida passo passo sull'applicazione di punti elenco al testo utilizzando Aspose.Note per .NET. Aspose.Note è una potente libreria che consente agli sviluppatori di lavorare senza problemi con i file Microsoft OneNote nelle loro applicazioni .NET. In questo tutorial ti guideremo attraverso il processo di applicazione dei punti elenco al testo, migliorando l'impatto visivo dei tuoi documenti OneNote.
 ## Prerequisiti
@@ -86,3 +92,9 @@ Aspose.Note supporta varie versioni di Microsoft OneNote, garantendo la compatib
  Sì, puoi scaricare una versione di prova gratuita[Qui](https://releases.aspose.com/).
 ### Dove posso trovare ulteriore supporto e risorse?
  È possibile visitare il forum della comunità Aspose.Note[Qui](https://forum.aspose.com/c/note/28) per supporto e discussioni.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -3,10 +3,16 @@ title: 使用 Aspose.Note 的 OneNote 文本提取指南
 linktitle: 从 Aspose.Note 中提取所有文本
 second_title: Aspose.Note .NET API
 description: 使用 Aspose.Note for .NET 轻松从 .NET 中的 Aspose.Note 文档中提取文本。请按照我们的分步指南进行无缝集成。
-type: docs
 weight: 16
 url: /zh/net/text-manipulation/extract-all-text/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# 使用 Aspose.Note 的 OneNote 文本提取指南
+
 ## 介绍
 您是否希望在 .NET 应用程序中从 Aspose.Note 文档中无缝提取文本？ Aspose.Note for .NET 提供了一个强大的解决方案，可以轻松地从 Aspose.Note 文件中检索文本，确保顺利集成到您的项目中。在本教程中，我们将逐步完成该过程，让您能够利用 Aspose.Note 的强大功能来进行高效的文本提取。
 ## 先决条件
@@ -55,3 +61,9 @@ Console.WriteLine(text);
 答：不需要，Aspose.Note for .NET 可以无限制地处理不同大小的文档。
 ### 问：从大型文档中提取文本时是否有任何性能考虑因素？
 答：Aspose.Note for .NET 针对性能进行了优化，即使从大型文档中也能确保高效的文本提取。
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

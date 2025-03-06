@@ -3,10 +3,16 @@ title: Konwertuj notesy na obraz (spłaszczony) w programie Aspose Note .NET
 linktitle: Konwertuj notesy na obraz (spłaszczony) w programie Aspose Note .NET
 second_title: Aspose.Note .NET API
 description: Dowiedz się, jak konwertować notesy OneNote na spłaszczone obrazy za pomocą Aspose.Note dla .NET. Przewodnik krok po kroku dotyczący bezproblemowej integracji.
-type: docs
 weight: 12
 url: /pl/net/notebook-operations/convert-to-image-flattened/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Konwertuj notesy na obraz (spłaszczony) w programie Aspose Note .NET
+
 ## Wstęp
 
 W tym samouczku dowiemy się, jak używać Aspose.Note dla .NET do konwertowania notatników na spłaszczone obrazy. Podzielimy proces na proste kroki, które pomogą Ci zrozumieć i skutecznie go wdrożyć.
@@ -93,3 +99,9 @@ Odpowiedź 1: Tak, Aspose.Note dla .NET jest w stanie efektywnie obsługiwać z�
 ### P5: Gdzie mogę znaleźć dokumentację Aspose.Note dla .NET?
 
  Odpowiedź 5: Możesz znaleźć dokumentację[Tutaj](https://reference.aspose.com/note/net/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

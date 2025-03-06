@@ -3,10 +3,16 @@ title: 在 OneNote 中插入表格 - Aspose.Note
 linktitle: 在 OneNote 中插入表格 - Aspose.Note
 second_title: Aspose.Note Java API
 description: 了解使用 Aspose.Note for Java 在 OneNote 中插入表格。动态内容创建的分步指南。轻松增强您的文档。
-type: docs
 weight: 16
 url: /zh/java/onenote-table-manipulation/insert-table/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# 在 OneNote 中插入表格 - Aspose.Note
+
 ## 介绍
 如果您希望通过以编程方式插入表格来增强 OneNote 文档，Aspose.Note for Java 是您的首选解决方案。在本分步指南中，我们将引导您完成使用 Aspose.Note 强大的 Java 库将表格插入 OneNote 文档的过程。
 ## 先决条件
@@ -101,3 +107,9 @@ public static OutlineElement GetOutlineElementWithText(String text)
 答：是的，您可以通过[免费试用](https://releases.aspose.com/).
 ### 问：如何获得 Aspose.Note for Java 的临时许可证？
 答：获得临时许可证[这里](https://purchase.aspose.com/temporary-license/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

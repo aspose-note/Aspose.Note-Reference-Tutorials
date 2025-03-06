@@ -3,10 +3,16 @@ title: Aspose.Note에서 페이지 제목이 포함된 문서 만들기
 linktitle: Aspose.Note에서 페이지 제목이 포함된 문서 만들기
 second_title: Aspose.Note .NET API
 description: .NET용 Aspose.Note를 사용하여 제목이 있는 페이지가 있는 문서를 만드는 방법을 알아보세요. 원활한 통합을 위한 단계별 가이드를 따르세요.
-type: docs
 weight: 13
 url: /ko/net/loading-and-saving-operations/create-doc-with-page-title/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Aspose.Note에서 페이지 제목이 포함된 문서 만들기
+
 ## 소개
 
 이 튜토리얼에서는 .NET용 Aspose.Note를 사용하여 제목이 있는 페이지가 있는 문서를 만드는 과정을 안내합니다. Aspose.Note는 개발자가 Microsoft OneNote 파일을 프로그래밍 방식으로 작업할 수 있는 강력한 API입니다.
@@ -118,3 +124,9 @@ A4: 예, Aspose.Note를 사용하여 기존 OneNote 파일을 쉽게 읽고, 수
 ### Q5: 문제가 발생하면 어디서 지원을 받을 수 있나요?
 
  답변 5: 다음 웹사이트에서 지원과 도움을 받으실 수 있습니다.[Aspose.Note 포럼](https://forum.aspose.com/c/note/28)에서 전문가와 커뮤니티 회원이 귀하의 질문에 도움을 줄 수 있습니다.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -3,10 +3,16 @@ title: Voeg hyperlinks toe in Aspose.Note-documenten
 linktitle: Voeg hyperlinks toe in Aspose.Note-documenten
 second_title: Aspose.Note .NET API
 description: Leer hoe u hyperlinks toevoegt aan Aspose.Note-documenten met Aspose.Note voor .NET. Verbeter de documentinteractiviteit met deze stapsgewijze zelfstudie.
-type: docs
 weight: 10
 url: /nl/net/hyperlinks/add-hyperlinks/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Voeg hyperlinks toe in Aspose.Note-documenten
+
 ## Invoering
 
 In deze zelfstudie leert u hoe u hyperlinks kunt toevoegen aan tekst in Aspose.Note-documenten met behulp van het .NET-framework. Aspose.Note biedt krachtige functies om OneNote-documenten programmatisch te manipuleren. Het toevoegen van hyperlinks kan de interactiviteit en bruikbaarheid van uw documenten verbeteren, waardoor ze aantrekkelijker worden voor gebruikers.
@@ -131,3 +137,9 @@ A4: Aspose.Note is ontworpen om te werken met Microsoft OneNote 2010 en latere v
 ### V5: Kan ik programmatisch hyperlinks toevoegen met Aspose.Note API's?
 
 A5: Ja, Aspose.Note biedt API's waarmee u binnen uw .NET-applicaties programmatisch hyperlinks aan tekst kunt toevoegen.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

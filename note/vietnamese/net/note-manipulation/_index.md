@@ -3,10 +3,16 @@ title: Làm chủ việc tích hợp OneNote với Aspose.Note cho .NET
 linktitle: Thao tác ghi chú
 second_title: Aspose.Note .NET API
 description: Khai phá sức mạnh của Aspose.Note dành cho .NET bằng các hướng dẫn tập trung vào OneNote của chúng tôi. Giải quyết xung đột, tạo tài liệu động và khám phá thao tác trang hiệu quả.
-type: docs
 weight: 27
 url: /vi/net/note-manipulation/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Làm chủ việc tích hợp OneNote với Aspose.Note cho .NET
+
 
 ## Giới thiệu
 
@@ -69,3 +75,9 @@ Tìm hiểu cách quản lý hiệu quả các bản sửa đổi trong tài li�
 Tìm hiểu cách đặt màu nền của trang trong tài liệu Aspose.Note bằng ngôn ngữ lập trình C# với hướng dẫn từng bước.
 ### [Làm việc với các bản sửa đổi trang - Mẹo Aspose.Note](./working-with-page-revisions/)
 Tìm hiểu cách quản lý các bản sửa đổi trang Microsoft OneNote bằng Aspose.Note. Hướng dẫn từng bước để tích hợp liền mạch và kiểm soát phiên bản trong các ứng dụng .NET của bạn.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

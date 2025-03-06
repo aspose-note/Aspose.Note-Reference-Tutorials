@@ -3,10 +3,16 @@ title: Извлечение текста из строк таблицы в Aspos
 linktitle: Извлечение текста из строк таблицы в Aspose.Note
 second_title: Aspose.Note .NET API
 description: Узнайте, как извлечь текст из строк таблицы в Aspose.Note для .NET, с помощью этого подробного руководства.
-type: docs
 weight: 14
 url: /ru/net/table-manipulation/extract-text-row/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Извлечение текста из строк таблицы в Aspose.Note
+
 ## Введение
 
 В области обработки документов Aspose.Note для .NET представляет собой надежное решение, которое позволяет разработчикам эффективно манипулировать файлами OneNote программным способом. Среди множества его возможностей извлечение текста из строк таблицы является распространенной задачей, с которой сталкиваются разработчики. Это руководство проведет вас через процесс извлечения текста из строк таблицы с помощью Aspose.Note для .NET.
@@ -98,3 +104,9 @@ foreach (Table table in nodes)
 ### Вопрос 5: Могу ли я попробовать Aspose.Note для .NET перед покупкой?
 
  О5: Конечно, вы можете воспользоваться бесплатной пробной версией на сайте[страница выпуска](https://releases.aspose.com/) изучить его особенности и возможности.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

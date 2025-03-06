@@ -3,10 +3,16 @@ title: Trích xuất văn bản trong OneNote - Aspose.Note
 linktitle: Trích xuất văn bản trong OneNote - Aspose.Note
 second_title: API Java Aspose.Note
 description: Khám phá khả năng trích xuất văn bản liền mạch từ OneNote trong Java với Aspose.Note. Tích hợp, thao tác và nâng cao ứng dụng của bạn một cách dễ dàng.
-type: docs
 weight: 17
 url: /vi/java/onenote-text-manipulation/extract-text/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Trích xuất văn bản trong OneNote - Aspose.Note
+
 ## Giới thiệu
 Trong bối cảnh lập trình Java ngày càng phát triển, việc trích xuất văn bản từ tài liệu OneNote đã trở thành một yêu cầu quan trọng đối với các nhà phát triển. Aspose.Note for Java nổi lên như một công cụ mạnh mẽ để đạt được điều này một cách liền mạch. Bài viết này sẽ hướng dẫn bạn quy trình trích xuất văn bản từ OneNote bằng Aspose.Note cho Java, cung cấp hướng dẫn từng bước và thông tin chi tiết có giá trị.
 ## Điều kiện tiên quyết
@@ -68,3 +74,9 @@ Có, bạn có thể khám phá các tính năng của Aspose.Note dành cho Jav
  Tham quan[Diễn đàn Aspose.Note](https://forum.aspose.com/c/note/28) để được hỗ trợ cộng đồng hoặc khám phá các tùy chọn hỗ trợ cao cấp.
 ### Giấy phép tạm thời có sẵn cho Aspose.Note cho Java không?
  Có, bạn có thể lấy giấy phép tạm thời cho mục đích thử nghiệm[đây](https://purchase.aspose.com/temporary-license/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

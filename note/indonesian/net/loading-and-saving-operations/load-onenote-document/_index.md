@@ -3,10 +3,16 @@ title: Muat Dokumen OneNote di Aspose.Note
 linktitle: Muat Dokumen OneNote di Aspose.Note
 second_title: Aspose.Catatan .NET API
 description: Pelajari cara memuat, mengenkripsi, dan mendekripsi dokumen OneNote secara terprogram di .NET menggunakan Aspose.Note.
-type: docs
 weight: 16
 url: /id/net/loading-and-saving-operations/load-onenote-document/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Muat Dokumen OneNote di Aspose.Note
+
 ## Perkenalan
 
 Aspose.Note untuk .NET adalah API canggih yang memungkinkan pengembang bekerja dengan file Microsoft OneNote secara terprogram dalam aplikasi .NET mereka. Baik Anda perlu memuat, memanipulasi, atau mengonversi dokumen OneNote, Aspose.Note untuk .NET menyediakan fungsionalitas komprehensif untuk menyederhanakan alur kerja Anda.
@@ -174,3 +180,9 @@ A2: Ya, Anda dapat memeriksa apakah suatu dokumen dienkripsi dan mendekripsinya 
 ### Q5: Bagaimana cara mendapatkan lisensi sementara Aspose.Note untuk .NET?
 
  A5: Anda dapat meminta lisensi sementara dari[Asumsikan halaman pembelian](https://purchase.aspose.com/temporary-license/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

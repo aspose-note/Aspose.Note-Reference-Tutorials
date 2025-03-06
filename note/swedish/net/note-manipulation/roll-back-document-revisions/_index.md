@@ -3,10 +3,16 @@ title: Återställ ändringar i Aspose.Note-dokument
 linktitle: Återställ ändringar i Aspose.Note-dokument
 second_title: Aspose.Note .NET API
 description: Lär dig hur du effektivt hanterar revisioner i Aspose.Note-dokument med Aspose.Note för .NET. Följ en steg-för-steg-guide för att återställa revisioner sömlöst.
-type: docs
 weight: 18
 url: /sv/net/note-manipulation/roll-back-document-revisions/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Återställ ändringar i Aspose.Note-dokument
+
 ## Introduktion
 
 I en värld av dokumenthantering och redigering är det avgörande att ha förmågan att spåra ändringar och sömlöst återgå till tidigare versioner. Aspose.Note för .NET tillhandahåller kraftfulla verktyg för att hantera revisioner effektivt, vilket säkerställer att du kan återställa ändringar närhelst det behövs. I den här handledningen kommer vi att fördjupa oss i processen att återställa revisioner i Aspose.Note-dokument steg för steg.
@@ -99,3 +105,9 @@ S4: Ja, du kan integrera återställningsfunktionen i dina applikationer och aut
 ### F5: Ger Aspose.Note support om jag stöter på några problem under återställningsprocessen?
 
  S5: Ja, Aspose ger dedikerad support genom sina forum. Du kan besöka[Aspose.Note forum](https://forum.aspose.com/c/note/28) för assistens.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

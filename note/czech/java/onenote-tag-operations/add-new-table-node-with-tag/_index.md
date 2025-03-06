@@ -3,10 +3,16 @@ title: Přidat nový uzel tabulky se značkou ve OneNotu – Aspose.Note
 linktitle: Přidat nový uzel tabulky se značkou ve OneNotu – Aspose.Note
 second_title: Aspose.Note Java API
 description: Naučte se přidávat dynamické uzly tabulky se značkami ve OneNotu pomocí Aspose.Note pro Java. Vylepšete svou organizaci dokumentů bez námahy.
-type: docs
 weight: 11
 url: /cs/java/onenote-tag-operations/add-new-table-node-with-tag/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Přidat nový uzel tabulky se značkou ve OneNotu – Aspose.Note
+
 ## Úvod
 Chcete vylepšit své dokumenty OneNotu přidáním nového uzlu tabulky se značkou? S Aspose.Note pro Java se tento úkol stává přímočarým a umožňuje vám vytvářet dynamický a organizovaný obsah. V tomto podrobném průvodci vás provedeme procesem přidání nového uzlu tabulky se značkou ve OneNotu pomocí Aspose.Note for Java.
 ## Předpoklady
@@ -98,3 +104,9 @@ Absolutně! Aspose.Note poskytuje různé možnosti pro přizpůsobení vzhledu 
  Navštivte[Aspose.Note Java dokumentace](https://reference.aspose.com/note/java/) pro komplexní příklady a dokumentaci.
 ### Jak mohu získat podporu pro Aspose.Note pro Java?
  Navštivte[Fórum Aspose.Note](https://forum.aspose.com/c/note/28) za podporu komunity popř[zakoupit plán podpory](https://purchase.aspose.com/buy) za specializovanou pomoc.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

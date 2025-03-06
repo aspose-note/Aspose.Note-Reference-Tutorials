@@ -3,10 +3,16 @@ title: Hozzon létre OneNote-dokumentumot, és mentse HTML-be az Aspose.Note-ban
 linktitle: Hozzon létre OneNote-dokumentumot, és mentse HTML-be az Aspose.Note-ban
 second_title: Aspose.Note .NET API
 description: Ismerje meg, hogyan hozhat létre és menthet Microsoft OneNote dokumentumokat HTML formátumba .NET-alkalmazásokban az Aspose.Note API használatával. Kövesse átfogó oktatóanyagunkat lépésről lépésre példákkal.
-type: docs
 weight: 14
 url: /hu/net/loading-and-saving-operations/create-onenote-doc-save-to-html/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Hozzon létre OneNote-dokumentumot, és mentse HTML-be az Aspose.Note-ban
+
 ## Bevezetés
 
 Az Aspose.Note for .NET egy hatékony API, amely lehetővé teszi a fejlesztők számára, hogy programozottan dolgozzanak Microsoft OneNote dokumentumokkal .NET-alkalmazásaikban. Az Aspose.Note segítségével könnyedén hozhat létre, kezelhet és konvertálhat OneNote-fájlokat. Ebben az oktatóanyagban megvizsgáljuk, hogyan hozhat létre OneNote-dokumentumot, és hogyan mentheti el HTML formátumba az Aspose.Note for .NET API által biztosított különféle lehetőségek segítségével.
@@ -218,3 +224,9 @@ Ebben a cikkben megvizsgáltuk, hogyan dolgozhat a OneNote-dokumentumokkal, és 
 ### 5. kérdés: Elérhető-e próbaverzió az Aspose.Note funkcióinak teszteléséhez?
 
  5. válasz: Igen, letölthet egy ingyenes próbaverziót a webhelyről[itt](https://releases.aspose.com/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

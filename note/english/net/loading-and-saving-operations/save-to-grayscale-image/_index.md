@@ -3,10 +3,16 @@ title: Save to Grayscale Image in Aspose.Note
 linktitle: Save to Grayscale Image in Aspose.Note
 second_title: Aspose.Note .NET API
 description: Learn how to save OneNote documents as grayscale images using Aspose.Note for .NET. Follow this comprehensive tutorial for efficient document processing.
-type: docs
 weight: 24
 url: /net/loading-and-saving-operations/save-to-grayscale-image/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Save to Grayscale Image in Aspose.Note
+
 ## Introduction
 
 In this tutorial, we'll explore how to utilize Aspose.Note for .NET to save a document as a grayscale image. Aspose.Note is a powerful library that allows developers to work with Microsoft OneNote files programmatically, providing a wide range of functionalities.
@@ -85,3 +91,10 @@ A4: Yes, you can explore Aspose.Note through the free trial available on their w
 ### Q5: How can I obtain a temporary license for Aspose.Note?
 
 A5: You can obtain a temporary license for Aspose.Note by visiting the provided link and following the instructions.
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

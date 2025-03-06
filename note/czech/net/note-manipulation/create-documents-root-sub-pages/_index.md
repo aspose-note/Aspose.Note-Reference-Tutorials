@@ -3,10 +3,16 @@ title: Vytvářejte dokumenty s kořenovými a podřízenými stránkami pomocí
 linktitle: Vytvářejte dokumenty s kořenovými a podřízenými stránkami pomocí Aspose.Note
 second_title: Aspose.Note .NET API
 description: Naučte se používat Aspose.Note pro .NET k vytváření dynamických dokumentů OneNotu s hierarchickou strukturou.
-type: docs
 weight: 11
 url: /cs/net/note-manipulation/create-documents-root-sub-pages/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Vytvářejte dokumenty s kořenovými a podřízenými stránkami pomocí Aspose.Note
+
 ## Úvod
 
 Vítejte v našem tutoriálu o vytváření dokumentů s kořenovými a podstránkami pomocí Aspose.Note pro .NET! Aspose.Note je výkonná knihovna, která umožňuje vývojářům pracovat se soubory Microsoft OneNote programově, což umožňuje vytváření, manipulaci a převod dokumentů OneNotu.
@@ -130,3 +136,9 @@ A4: Aspose.Note se primárně zaměřuje na místní vývoj, ale můžete jej po
 ### Q5: Je k dispozici technická podpora pro Aspose.Note?
 
 A5: Ano, Aspose poskytuje vyhrazenou technickou podporu prostřednictvím svého fóra, kde můžete klást otázky a získat pomoc.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

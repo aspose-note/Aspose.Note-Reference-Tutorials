@@ -3,10 +3,16 @@ title: OneNote में विरोध पृष्ठ हेरफेर - As
 linktitle: OneNote में विरोध पृष्ठ हेरफेर - Aspose.Note
 second_title: Aspose.नोट जावा एपीआई
 description: जावा के लिए Aspose.Note का उपयोग करके OneNote में विरोध पृष्ठों को कुशलतापूर्वक प्रबंधित करना सीखें। चरण-दर-चरण मार्गदर्शन के साथ विवादों को सहजता से हल करें।
-type: docs
 weight: 10
 url: /hi/java/onenote-page-manipulation/conflict-page-manipulation/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# OneNote में विरोध पृष्ठ हेरफेर - Aspose.Note
+
 ## परिचय
 
 जब कई उपयोगकर्ता एक ही पृष्ठ को एक साथ संपादित करते हैं तो OneNote उपयोगकर्ताओं को अक्सर विरोध का सामना करना पड़ता है। दस्तावेज़ की अखंडता बनाए रखने के लिए इन संघर्षों को कुशलतापूर्वक हल करना महत्वपूर्ण है। Java के लिए Aspose.Note विरोध पृष्ठों को निर्बाध रूप से प्रबंधित करने के लिए शक्तिशाली उपकरण प्रदान करता है। इस ट्यूटोरियल में, हम यह पता लगाएंगे कि जावा के लिए Aspose.Note का उपयोग करके विरोध पृष्ठों में हेरफेर कैसे किया जाए।
@@ -113,3 +119,9 @@ A4: हाँ, Java के लिए Aspose.Note व्यापक अनुक
 ### Q5: क्या जावा उपयोगकर्ताओं के लिए Aspose.Note के लिए कोई सामुदायिक मंच है?
 
  ए5: बिल्कुल! हमारे जीवंत सामुदायिक मंच से जुड़ें[जावा समर्थन के लिए Aspose.Note](https://forum.aspose.com/c/note/28)साथी उपयोगकर्ताओं से जुड़ने और विशेषज्ञ सहायता प्राप्त करने के लिए।
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

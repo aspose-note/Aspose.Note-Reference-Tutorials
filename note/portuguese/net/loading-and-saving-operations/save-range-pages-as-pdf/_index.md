@@ -3,10 +3,16 @@ title: Salvar intervalo de páginas como PDF no Aspose.Note
 linktitle: Salvar intervalo de páginas como PDF no Aspose.Note
 second_title: API Aspose.Note .NET
 description: Aprenda como salvar uma série de páginas de documentos do OneNote como arquivos PDF usando Aspose.Note for .NET. Tutorial passo a passo incluído.
-type: docs
 weight: 21
 url: /pt/net/loading-and-saving-operations/save-range-pages-as-pdf/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Salvar intervalo de páginas como PDF no Aspose.Note
+
 ## Introdução
 
 No domínio do desenvolvimento .NET, Aspose.Note se destaca como uma ferramenta versátil para lidar com documentos do OneNote com facilidade e eficiência. Entre sua infinidade de recursos, uma das funcionalidades mais procuradas é a capacidade de salvar uma série de páginas como um arquivo PDF. Este tutorial irá guiá-lo passo a passo pelo processo, garantindo que você possa integrar perfeitamente esse recurso em seus projetos.
@@ -99,3 +105,9 @@ A4: Com certeza! Aspose.Note oferece amplas opções para personalizar a aparên
 ### P5: Onde posso encontrar suporte e recursos adicionais para Aspose.Note?
 
  R5: Para suporte adicional, documentação e interação com a comunidade, você pode visitar o[Fórum Aspose.Note](https://forum.aspose.com/c/note/28).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

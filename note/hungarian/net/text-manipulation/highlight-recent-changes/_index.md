@@ -3,10 +3,16 @@ title: Jelölje ki az összes legutóbbi változást az Aspose.Note szövegben
 linktitle: Jelölje ki az összes legutóbbi változást az Aspose.Note szövegben
 second_title: Aspose.Note .NET API
 description: Javítsa Note dokumentumait az Aspose.Note for .NET segítségével! Ebből a lépésről lépésre mutató oktatóanyagból megtudhatja, hogyan emelheti ki a legutóbbi módosításokat a szövegben.
-type: docs
 weight: 19
 url: /hu/net/text-manipulation/highlight-recent-changes/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Jelölje ki az összes legutóbbi változást az Aspose.Note szövegben
+
 ## Bevezetés
 Dinamikus és tetszetős funkciókat szeretne hozzáadni Note dokumentumaihoz .NET használatával? Az Aspose.Note for .NET egy hatékony megoldás, amely lehetővé teszi a Note-fájlok zökkenőmentes kezelését és javítását. Ebben az oktatóanyagban egy konkrét szempontot fejtünk ki: kiemeljük az Aspose.Note szövegben legutóbbi módosításokat.
 ## Előfeltételek
@@ -70,3 +76,9 @@ Beépíthet try-catch blokkokat a kivételek kezelésére és a zökkenőmentes 
 Teljesen! Az Aspose.Note szolgáltatások széles skáláját kínálja a szöveg formázásához, beleértve a betűstílusokat, -méreteket és egyebeket.
 ### Integrálhatom ezt a megoldást egy webalkalmazásba?
 Igen, az Aspose.Note for .NET webalkalmazásokba integrálható a dokumentumfeldolgozási képességek javítása érdekében.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

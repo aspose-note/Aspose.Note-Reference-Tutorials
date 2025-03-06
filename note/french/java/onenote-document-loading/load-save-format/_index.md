@@ -3,10 +3,16 @@ title: Charger un document OneNote dans Aspose.Note à l'aide de SaveFormat - Ja
 linktitle: Charger un document OneNote dans Aspose.Note à l'aide de SaveFormat - Java
 second_title: API Java Aspose.Note
 description: Gérez sans effort les documents OneNote avec Aspose.Note pour Java à l'aide de SaveFormat. Améliorez vos capacités de gestion de documents Java de manière transparente avec Aspose.Note.
-type: docs
 weight: 24
 url: /fr/java/onenote-document-loading/load-save-format/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Charger un document OneNote dans Aspose.Note à l'aide de SaveFormat - Java
+
 ## Introduction
 
 Dans le domaine du développement Java, la gestion efficace des documents est cruciale. Aspose.Note pour Java est un outil pratique, offrant une solution robuste pour travailler de manière transparente avec les documents OneNote. Dans ce didacticiel, nous aborderons le processus de chargement d'un document OneNote dans Aspose.Note à l'aide de SaveFormat en Java. En suivant ce guide étape par étape, vous exploiterez la puissance d'Aspose.Note pour gérer vos documents sans effort.
@@ -81,3 +87,9 @@ A4 : Certes, Aspose.Note vous permet d'extraire sans effort le contenu textuel d
 ### Q5 : Existe-t-il un forum communautaire pour les utilisateurs d'Aspose.Note ?
 
  A5 : Oui, vous pouvez trouver de l'aide et interagir avec d'autres utilisateurs d'Aspose.Note sur le site[forum](https://forum.aspose.com/c/note/28).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

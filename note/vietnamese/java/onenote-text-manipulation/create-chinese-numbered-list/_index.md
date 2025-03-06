@@ -3,10 +3,16 @@ title: Tạo danh sách đánh số tiếng Trung trong OneNote - Aspose.Note
 linktitle: Tạo danh sách đánh số tiếng Trung trong OneNote - Aspose.Note
 second_title: API Java Aspose.Note
 description: Tăng cường việc tạo tài liệu trong Java với Aspose.Note. Tìm hiểu cách tạo danh sách đánh số tiếng Trung trong OneNote từng bước. Khám phá các tính năng mạnh mẽ của Aspose.Note.
-type: docs
 weight: 13
 url: /vi/java/onenote-text-manipulation/create-chinese-numbered-list/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Tạo danh sách đánh số tiếng Trung trong OneNote - Aspose.Note
+
 ## Giới thiệu
 Nếu bạn đang tìm cách nâng cao khả năng tạo tài liệu của mình trong Java, Aspose.Note là giải pháp phù hợp cho bạn. Trong hướng dẫn này, chúng tôi sẽ hướng dẫn bạn quy trình tạo danh sách đánh số tiếng Trung trong OneNote bằng Aspose.Note cho Java. Thư viện mạnh mẽ này cho phép bạn thao tác các tài liệu OneNote theo chương trình, mang lại cho bạn toàn quyền kiểm soát cấu trúc và nội dung của chúng.
 ## Điều kiện tiên quyết
@@ -109,3 +115,9 @@ Tuyệt đối. Như được hiển thị trong hướng dẫn, bạn có thể
  Tham khảo tài liệu[đây](https://reference.aspose.com/note/java/).
 ### Làm cách nào tôi có thể nhận được hỗ trợ cho Aspose.Note?
  Truy cập diễn đàn hỗ trợ[đây](https://forum.aspose.com/c/note/28) cho bất kỳ sự trợ giúp hoặc thắc mắc.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

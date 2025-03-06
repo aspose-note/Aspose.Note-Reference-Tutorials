@@ -3,10 +3,16 @@ title: 使用 Java 在 OneNote 文档中插入图像
 linktitle: 使用 Java 在 OneNote 文档中插入图像
 second_title: Aspose.Note Java API
 description: 了解如何使用 Java 和 Aspose.Note for Java 库将图像插入 OneNote 文档中。请按照我们的分步指南进行无缝集成。
-type: docs
 weight: 16
 url: /zh/java/onenote-hyperlinks-images/insert-image/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# 使用 Java 在 OneNote 文档中插入图像
+
 ## 介绍
 
 在本教程中，我们将探索如何在 Aspose.Note for Java 的帮助下使用 Java 将图像插入 OneNote 文档中。 Aspose.Note for Java 是一个功能强大的库，允许开发人员以编程方式处理 Microsoft OneNote 文件，从而实现创建、读取和操作 OneNote 文档等各种操作。
@@ -120,3 +126,9 @@ A4：是的，您可以从网站下载 Aspose.Note for Java 的免费试用版�
 ### Q5：如何获得 Aspose.Note for Java 的技术支持？
 
  A5：您可以通过访问 Aspose.Note for Java 获得技术支持[论坛](https://forum.aspose.com/c/note/28)专用于 Aspose.Note 产品。
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

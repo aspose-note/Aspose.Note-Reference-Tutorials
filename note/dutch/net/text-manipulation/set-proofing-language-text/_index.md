@@ -3,10 +3,16 @@ title: Stel de controletaal voor tekst in Aspose.Note in
 linktitle: Stel de controletaal voor tekst in Aspose.Note in
 second_title: Aspose.Note .NET API
 description: Ontgrendel krachtige tekstmanipulatie met Aspose.Note voor .NET. Stel moeiteloos de proeftaal in met stapsgewijze begeleiding. Verbeter nu uw .NET-projecten!
-type: docs
 weight: 25
 url: /nl/net/text-manipulation/set-proofing-language-text/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Stel de controletaal voor tekst in Aspose.Note in
+
 ## Invoering
 Welkom in de wereld van Aspose.Note voor .NET! In deze uitgebreide handleiding verkennen we het fascinerende proces van het instellen van de proeftaal voor tekst met behulp van Aspose.Note. Of u nu een doorgewinterde ontwikkelaar bent of net begint met Aspose.Note, deze tutorial biedt u gedetailleerde inzichten en stapsgewijze instructies om uw vaardigheden op het gebied van tekstmanipulatie te verbeteren.
 ## Vereisten
@@ -89,3 +95,9 @@ Absoluut! Aspose.Note wordt regelmatig bijgewerkt om compatibiliteit met de nieu
  Zeker! U krijgt toegang tot een gratis proefversie van Aspose.Note voor .NET[hier](https://releases.aspose.com/).
 ### Heeft u problemen of heeft u hulp nodig?
  Bezoek de[Aspose.Note-ondersteuningsforum](https://forum.aspose.com/c/note/28) om verbinding te maken met de gemeenschap en deskundige hulp te krijgen.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

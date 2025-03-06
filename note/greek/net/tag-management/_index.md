@@ -3,10 +3,16 @@ title: Aspose.Note για .NET Tutorials διαχείρισης ετικετών
 linktitle: Διαχείριση ετικετών
 second_title: Aspose.Note .NET API
 description: Master Aspose.Note με διαχείριση ετικετών. Προσθέστε εικόνες, πίνακες, κόμβους κειμένου και δημιουργήστε σημειώσεις συσκέψεων. Ανακτήστε λεπτομέρειες ετικέτας και βελτιώστε τη διαχείριση εγγράφων.
-type: docs
 weight: 30
 url: /el/net/tag-management/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Aspose.Note για .NET Tutorials διαχείρισης ετικετών
+
 
 ## Εισαγωγή
 
@@ -49,3 +55,9 @@ url: /el/net/tag-management/
 Μάθετε πώς να χειρίζεστε αρχεία Microsoft OneNote μέσω προγραμματισμού χρησιμοποιώντας το Aspose.Note για .NET. Ανοίξτε και κλείστε έργα με ετικέτες αποτελεσματικά.
 ### [Αναφορά με ετικέτες στο Aspose.Σημείωση](./reporting-tags/)
 Μάθετε πώς να δημιουργείτε διορατικές αναφορές από ψηφιακά έγγραφα χρησιμοποιώντας το Aspose.Note για .NET. Παρέχεται οδηγός βήμα προς βήμα.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

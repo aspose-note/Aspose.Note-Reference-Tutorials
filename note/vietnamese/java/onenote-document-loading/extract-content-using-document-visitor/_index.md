@@ -3,10 +3,16 @@ title: Trích xuất nội dung OneNote bằng cách sử dụng Document Visito
 linktitle: Trích xuất nội dung OneNote bằng cách sử dụng Document Visitor - Java
 second_title: API Java Aspose.Note
 description: Tìm hiểu cách trích xuất nội dung từ tài liệu OneNote trong Java bằng Aspose.Note for Java. Hướng dẫn từng bước với các ví dụ về mã được cung cấp.
-type: docs
 weight: 21
 url: /vi/java/onenote-document-loading/extract-content-using-document-visitor/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Trích xuất nội dung OneNote bằng cách sử dụng Document Visitor - Java
+
 ## Giới thiệu
 
 Aspose.Note for Java cung cấp các tính năng mạnh mẽ để trích xuất nội dung từ tài liệu OneNote. Trong hướng dẫn này, chúng tôi sẽ hướng dẫn bạn quy trình trích xuất nội dung từ tài liệu OneNote bằng cách sử dụng Document Visitor trong Java.
@@ -147,3 +153,9 @@ Câu trả lời 4: Có, Aspose.Note for Java cung cấp hỗ trợ toàn diện
 ### Câu hỏi 5: Có giới hạn nào về kích thước của tài liệu OneNote có thể được xử lý bằng Aspose.Note for Java không?
 
 Câu trả lời 5: Aspose.Note for Java được thiết kế để xử lý các tài liệu OneNote có nhiều kích cỡ khác nhau một cách hiệu quả, đảm bảo hiệu suất tối ưu ngay cả với các tài liệu lớn.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

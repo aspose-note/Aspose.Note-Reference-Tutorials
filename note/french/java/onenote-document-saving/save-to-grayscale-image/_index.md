@@ -3,10 +3,16 @@ title: Enregistrer dans une image en niveaux de gris dans OneNote - Aspose.Note
 linktitle: Enregistrer dans une image en niveaux de gris dans OneNote - Aspose.Note
 second_title: API Java Aspose.Note
 description: Découvrez comment enregistrer un document en tant qu'image en niveaux de gris dans OneNote à l'aide d'Aspose.Note pour Java. Manipulez facilement les documents Microsoft OneNote par programmation.
-type: docs
 weight: 17
 url: /fr/java/onenote-document-saving/save-to-grayscale-image/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Enregistrer dans une image en niveaux de gris dans OneNote - Aspose.Note
+
 ## Introduction
 
 Dans ce didacticiel, nous verrons comment enregistrer un document en tant qu'image en niveaux de gris dans OneNote à l'aide d'Aspose.Note pour Java. Les images en niveaux de gris sont des images monochromatiques dans lesquelles les informations de couleur sont représentées uniquement par des nuances de gris. Aspose.Note est une puissante API Java qui permet la manipulation des documents Microsoft OneNote par programme.
@@ -83,3 +89,9 @@ A4 : Absolument ! Aspose.Note fournit un large éventail de fonctionnalités pou
 ### Q5 : Où puis-je trouver de l'aide si je rencontre des problèmes ?
 
 A5 : Vous pouvez trouver de l'aide sur le forum Aspose.Note[ici](https://forum.aspose.com/c/note/28).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

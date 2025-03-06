@@ -3,10 +3,16 @@ title: تعيين لون خلفية الخلية في جداول Aspose.Note
 linktitle: تعيين لون خلفية الخلية في جداول Aspose.Note
 second_title: Aspose.Note .NET API
 description: تعرف على كيفية تعيين لون خلفية الخلية في جداول Aspose.Note باستخدام دليل خطوة بخطوة. قم بتحسين صور المستندات دون عناء.
-type: docs
 weight: 17
 url: /ar/net/table-manipulation/set-cell-background-color/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# تعيين لون خلفية الخلية في جداول Aspose.Note
+
 ## مقدمة
 
 في هذا البرنامج التعليمي، سوف نتعمق في كيفية تعيين لون خلفية الخلية داخل الجداول باستخدام Aspose.Note لـ .NET. يمكن لهذه الميزة أن تعزز بشكل كبير المظهر المرئي وسهولة قراءة مستنداتك. اتبع الخطوات أدناه لمعرفة كيفية تحقيق ذلك.
@@ -122,3 +128,9 @@ A4: يستهدف Aspose.Note for .NET تنسيقات ملفات OneNote بشكل
 ### س5: أين يمكنني العثور على المزيد من الموارد والدعم لـ Aspose.Note لـ .NET؟
 
  ج5: يمكنك استكشاف[Aspose.Note الوثائق](https://reference.aspose.com/note/net/) للحصول على مراجع وأمثلة تفصيلية لواجهة برمجة التطبيقات. بالإضافة إلى ذلك، يمكنك طلب المساعدة من مجتمع Aspose على[منتدى Aspose.Note](https://forum.aspose.com/c/note/28).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

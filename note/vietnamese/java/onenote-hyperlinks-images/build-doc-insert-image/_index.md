@@ -3,10 +3,16 @@ title: Xây dựng tài liệu và chèn hình ảnh trong OneNote bằng Java
 linktitle: Xây dựng tài liệu và chèn hình ảnh trong OneNote bằng Java
 second_title: API Java Aspose.Note
 description: Tìm hiểu cách xây dựng tài liệu OneNote và chèn hình ảnh bằng Aspose.Note cho Java. Hướng dẫn từng bước để tích hợp liền mạch.
-type: docs
 weight: 12
 url: /vi/java/onenote-hyperlinks-images/build-doc-insert-image/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Xây dựng tài liệu và chèn hình ảnh trong OneNote bằng Java
+
 ## Giới thiệu
 
 Trong hướng dẫn này, chúng ta sẽ khám phá cách sử dụng Aspose.Note cho Java để xây dựng tài liệu OneNote và chèn hình ảnh vào chúng. Aspose.Note là một API Java mạnh mẽ cho phép các nhà phát triển làm việc với các tệp Microsoft OneNote theo chương trình. Chúng tôi sẽ chia nhỏ từng bước một cách chi tiết để hướng dẫn bạn thực hiện quy trình.
@@ -119,3 +125,10 @@ Chúc mừng! Bạn đã học thành công cách xây dựng tài liệu OneNot
 ### Câu hỏi 5: Tôi có thể xin giấy phép tạm thời cho Aspose.Note cho Java không?
 
  A5: Có, bạn có thể yêu cầu giấy phép tạm thời[đây](https://purchase.aspose.com/temporary-license/).
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

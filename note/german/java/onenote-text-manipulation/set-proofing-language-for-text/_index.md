@@ -3,10 +3,16 @@ title: Korrektursprache für Text in OneNote festlegen – Aspose.Note
 linktitle: Korrektursprache für Text in OneNote festlegen – Aspose.Note
 second_title: Aspose.Note Java API
 description: Nutzen Sie das Potenzial von Aspose.Note für Java! Erfahren Sie mit unserer Schritt-für-Schritt-Anleitung, wie Sie die Korrektursprache für Text in OneNote nahtlos festlegen.
-type: docs
 weight: 22
 url: /de/java/onenote-text-manipulation/set-proofing-language-for-text/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Korrektursprache für Text in OneNote festlegen – Aspose.Note
+
 ## Einführung
 In der dynamischen Welt der Softwareentwicklung sticht Aspose.Note für Java als leistungsstarkes Tool zum programmgesteuerten Verwalten und Bearbeiten von OneNote-Dokumenten hervor. Wenn Sie Ihre Java-Anwendungen um die Möglichkeit erweitern möchten, die Korrektursprache für Text in OneNote festzulegen, sind Sie hier genau richtig. Dieses Tutorial führt Sie Schritt für Schritt durch den Prozess und stellt sicher, dass Sie jedes Konzept klar verstehen.
 ## Voraussetzungen
@@ -67,3 +73,9 @@ A: Implementieren Sie Fehlerbehandlungsmechanismen mithilfe von Try-Catch-Blöck
 A: Auf jeden Fall! Stellen Sie sicher, dass die Aspose.Note für Java-Bibliothek in Ihrem Webprojekt ordnungsgemäß konfiguriert ist.
 ### F: Wo finde ich zusätzliche Beispiele und Dokumentation für Aspose.Note für Java?
  A: Entdecken Sie die[Dokumentation](https://reference.aspose.com/note/java/) für umfassende Ressourcen.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

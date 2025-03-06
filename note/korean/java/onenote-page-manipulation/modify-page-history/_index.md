@@ -3,10 +3,16 @@ title: OneNote에서 페이지 기록 수정 - Aspose.Note
 linktitle: OneNote에서 페이지 기록 수정 - Aspose.Note
 second_title: Aspose.Note 자바 API
 description: 페이지 기록 항목을 원활하게 삭제, 수정 및 추가하세요! Aspose.Note로 OneNote를 마스터하기 위한 단계별 가이드 및 코드입니다. #OneNote #Java #Aspose
-type: docs
 weight: 17
 url: /ko/java/onenote-page-manipulation/modify-page-history/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# OneNote에서 페이지 기록 수정 - Aspose.Note
+
 ## 소개
 
 이 튜토리얼에서는 OneNote 문서의 페이지 기록을 수정하기 위해 Java용 Aspose.Note를 사용하는 방법을 살펴보겠습니다. Aspose.Note는 개발자가 OneNote 파일을 원활하게 사용하여 프로그래밍 방식으로 이러한 파일을 생성, 읽기 및 수정하는 등의 다양한 작업을 수행할 수 있도록 하는 강력한 Java API입니다.
@@ -108,3 +114,10 @@ A4: 예, Aspose.Note for Java는 대량 수정을 효율적으로 처리할 수 
 ### Q5: 도움을 요청할 수 있는 Java용 Aspose.Note 커뮤니티 포럼이 있나요?
 
  A5: 네, 방문하실 수 있습니다.[Aspose.Note 포럼](https://forum.aspose.com/c/note/28) 도서관과 관련된 도움이나 문의 사항이 있는 경우.
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

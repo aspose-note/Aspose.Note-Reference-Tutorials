@@ -3,10 +3,16 @@ title: Raportowanie za pomocą tagów w Aspose.Note
 linktitle: Raportowanie za pomocą tagów w Aspose.Note
 second_title: Aspose.Note .NET API
 description: Dowiedz się, jak generować wnikliwe raporty z dokumentów cyfrowych za pomocą Aspose.Note dla .NET. Dostarczono przewodnik krok po kroku.
-type: docs
 weight: 16
 url: /pl/net/tag-management/reporting-tags/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Raportowanie za pomocą tagów w Aspose.Note
+
 ## Wstęp
 
 dziedzinie przetwarzania i zarządzania dokumentami Aspose.Note dla .NET wyróżnia się jako potężne narzędzie do obsługi notatek, adnotacji i znaczników w dokumentach cyfrowych. Tagi odgrywają zasadniczą rolę w organizowaniu, kategoryzowaniu i filtrowaniu informacji w dokumentach, umożliwiając efektywne wyszukiwanie i analizę. Ten samouczek zagłębia się w zawiłości raportowania za pomocą tagów w Aspose.Note, oferując wskazówki krok po kroku dotyczące generowania raportów w oparciu o różne kryteria.
@@ -133,3 +139,9 @@ A2: Tak, możesz uzyskać dostęp do bezpłatnej wersji próbnej Aspose.Note dla
 ## P5: Czy mogę dostosować kryteria raportowania w Aspose.Note dla .NET?
 
 Odpowiedź 5: Tak, możesz dostosować kryteria raportowania do swoich konkretnych wymagań, korzystając z dostarczonych interfejsów API i przykładów.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

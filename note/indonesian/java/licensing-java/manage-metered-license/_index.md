@@ -3,10 +3,16 @@ title: Kelola Lisensi Terukur untuk OneNote di Java
 linktitle: Kelola Lisensi Terukur untuk OneNote di Java
 second_title: Aspose.Catatan Java API
 description: Pelajari cara mengelola lisensi terukur untuk OneNote di Java menggunakan pustaka Aspose.Note. Kontrol penggunaan, pantau kredit, dan optimalkan biaya secara efisien.
-type: docs
 weight: 10
 url: /id/java/licensing-java/manage-metered-license/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Kelola Lisensi Terukur untuk OneNote di Java
+
 ## Perkenalan
 
 Dalam tutorial ini, kita akan mempelajari cara mengelola lisensi terukur untuk OneNote menggunakan Aspose.Note untuk Java. Lisensi terukur memungkinkan Anda memantau dan mengontrol penggunaan berdasarkan kredit, memberikan solusi yang fleksibel dan hemat biaya.
@@ -85,3 +91,9 @@ A3: Ya, lisensi terukur dapat digunakan di beberapa aplikasi, namun konsumsinya 
 ### Q5: Di mana saya bisa mendapatkan dukungan untuk Aspose.Note untuk Java?
 
  A5: Anda bisa mendapatkan dukungan dari forum komunitas Aspose[Di Sini](https://forum.aspose.com/c/note/28).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

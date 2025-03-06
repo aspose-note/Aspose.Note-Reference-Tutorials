@@ -3,10 +3,16 @@ title: รับงาน Outlook ใน OneNote - Aspose.Note
 linktitle: รับงาน Outlook ใน OneNote - Aspose.Note
 second_title: Aspose.Note Java API
 description: สำรวจศักยภาพของ Aspose.Note สำหรับ Java ในการดึงรายละเอียดงาน Outlook ออกจากเอกสาร OneNote ได้อย่างง่ายดาย ยกระดับการพัฒนา Java ของคุณด้วยไลบรารีที่แข็งแกร่งนี้
-type: docs
 weight: 10
 url: /th/java/onenote-text-manipulation/get-outlook-task/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# รับงาน Outlook ใน OneNote - Aspose.Note
+
 ## การแนะนำ
 ยินดีต้อนรับสู่โลกของ Aspose.Note สำหรับ Java – เครื่องมืออันทรงพลังที่ช่วยให้นักพัฒนา Java สามารถทำงานกับไฟล์ Microsoft OneNote ได้อย่างราบรื่น ในคำแนะนำทีละขั้นตอนนี้ เราจะแนะนำคุณตลอดกระบวนการแยกข้อมูลงาน Outlook จากเอกสาร OneNote โดยใช้ Aspose.Note for Java
 ## ข้อกำหนดเบื้องต้น
@@ -72,3 +78,9 @@ System.out.println("Icon: " + noteTask.getIcon());
  ตอบ: โปรดดูที่[Aspose.Note สำหรับเอกสารประกอบ Java](https://reference.aspose.com/note/java/) เพื่อข้อมูลเชิงลึก
 ### ถาม: ฉันจะขอรับใบอนุญาตชั่วคราวสำหรับ Aspose.Note สำหรับ Java ได้อย่างไร
  ตอบ: รับใบอนุญาตชั่วคราวของคุณ[ที่นี่](https://purchase.aspose.com/temporary-license/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -3,10 +3,16 @@ title: Mastering Page Revisions in OneNote Documents
 linktitle: Mastering Page Revisions in OneNote Documents
 second_title: Aspose.Note .NET API
 description: Learn to manage Microsoft OneNote page revisions with Aspose.Note. Step-by-step guide for seamless integration and version control in your .NET applications.
-type: docs
 weight: 20
 url: /net/note-manipulation/working-with-page-revisions/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Mastering Page Revisions in OneNote Documents
+
 ## Introduction
 
 In the realm of .NET development, Aspose.Note stands out as a versatile tool for handling Microsoft OneNote files efficiently. One particularly useful feature of Aspose.Note is its capability to manage page revisions seamlessly. In this tutorial, we'll delve into the intricacies of working with page revisions using Aspose.Note for .NET.
@@ -112,3 +118,10 @@ A4: Aspose.Note is designed to handle a significant number of revisions efficien
 ### Q5: Can I automate the process of managing page revisions using Aspose.Note?
 
 A5: Yes, Aspose.Note offers comprehensive APIs that allow developers to automate tasks related to page revisions, streamlining workflow processes.
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -3,10 +3,16 @@ title: Applicare la licenza Aspose.Note utilizzando FileStream
 linktitle: Applicare la licenza Aspose.Note utilizzando FileStream
 second_title: Aspose.Note API .NET
 description: Scopri come applicare una licenza Aspose.Note utilizzando FileStream nelle tue applicazioni .NET per un'integrazione perfetta.
-type: docs
 weight: 12
 url: /it/net/licensing/apply-license-using-filestream/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Applicare la licenza Aspose.Note utilizzando FileStream
+
 ## introduzione
 
 Aspose.Note per .NET è una potente API che consente agli sviluppatori di lavorare con i file Microsoft OneNote a livello di codice. Se hai bisogno di creare, leggere, modificare o convertire documenti OneNote, Aspose.Note per .NET offre funzionalità complete per semplificare il tuo flusso di lavoro. In questo tutorial, esploreremo come applicare una licenza Aspose.Note utilizzando FileStream, assicurandoci che la tua applicazione sia adeguatamente concessa in licenza per l'uso in produzione.
@@ -85,3 +91,9 @@ A4: puoi ottenere supporto dalla community Aspose.Note[Forum](https://forum.aspo
 ### Q5: Offrite licenze temporanee?
 
  R5: Sì, sono disponibili licenze temporanee[Qui](https://purchase.aspose.com/temporary-license/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

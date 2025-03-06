@@ -3,10 +3,16 @@ title: Spara till binär bild i Aspose.Note
 linktitle: Spara till binär bild i Aspose.Note
 second_title: Aspose.Note .NET API
 description: Lär dig hur du konverterar dokument till binära bilder med Aspose.Note för .NET. Följ vår steg-för-steg-guide för sömlös integration.
-type: docs
 weight: 22
 url: /sv/net/loading-and-saving-operations/save-to-binary-image/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Spara till binär bild i Aspose.Note
+
 ## Introduktion
 
 I den här handledningen kommer vi att utforska hur man sparar ett dokument till en binär bild med Aspose.Note för .NET. Denna process innebär att ett dokument konverteras till en svartvit bild med en fast tröskel, vilket kan vara användbart för olika applikationer.
@@ -97,3 +103,9 @@ S4: Ja, du kan gå igenom flera dokument och spara dem som binära bilder med li
 ### F5: Var kan jag hitta fler resurser och support för Aspose.Note?
 
  A5: Du kan utforska[Aspose.Note dokumentation](https://reference.aspose.com/note/net/)och söka hjälp från[Aspose.Note forum](https://forum.aspose.com/c/note/28) för eventuella frågor eller problem.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

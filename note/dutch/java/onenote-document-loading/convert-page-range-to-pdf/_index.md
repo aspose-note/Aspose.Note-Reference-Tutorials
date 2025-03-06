@@ -3,10 +3,16 @@ title: Converteer een specifiek paginabereik naar PDF in OneNote met Java
 linktitle: Converteer een specifiek paginabereik naar PDF in OneNote met Java
 second_title: Aspose.Note Java-API
 description: Leer hoe u specifieke paginabereiken naadloos van OneNote naar PDF kunt converteren met Aspose.Note voor Java. Behoud moeiteloos de opmaak en lay-out.
-type: docs
 weight: 11
 url: /nl/java/onenote-document-loading/convert-page-range-to-pdf/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Converteer een specifiek paginabereik naar PDF in OneNote met Java
+
 ## Invoering
 
 OneNote is een krachtig hulpmiddel voor het ordenen van notities, maar soms moet u mogelijk specifieke paginabereiken naar PDF exporteren om deze te delen of te archiveren. In deze zelfstudie begeleiden we u bij het proces van het converteren van een specifiek paginabereik naar PDF met Aspose.Note voor Java.
@@ -85,3 +91,9 @@ A4: Ja, u kunt verschillende aspecten aanpassen, zoals het paginaformaat, de ric
 ### V5: Ondersteunt Aspose.Note voor Java batchconversie van meerdere OneNote-documenten?
 
 A5: Ja, u kunt meerdere OneNote-documenten batchgewijs naar PDF converteren door elk document te doorlopen en het conversieproces toe te passen.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

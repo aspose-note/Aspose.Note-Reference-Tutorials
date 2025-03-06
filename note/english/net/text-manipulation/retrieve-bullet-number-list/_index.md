@@ -3,10 +3,16 @@ title: Retrieve Bullet or Number List in Aspose.Note Text
 linktitle: Retrieve Bullet or Number List in Aspose.Note Text
 second_title: Aspose.Note .NET API
 description: Unlock the potential of Aspose.Note for .NET with our step-by-step guide on retrieving bullet or number lists. Elevate your OneNote document manipulation skills!
-type: docs
 weight: 23
 url: /net/text-manipulation/retrieve-bullet-number-list/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Retrieve Bullet or Number List in Aspose.Note Text
+
 ## Introduction
 Welcome to the world of Aspose.Note for .NET, a robust and versatile library that empowers developers to handle OneNote document manipulation effortlessly. In this tutorial, we will delve into the process of retrieving bullet or number lists using Aspose.Note for .NET. Whether you're a seasoned developer or a coding enthusiast, this guide will equip you with the knowledge to navigate through the intricacies of working with lists in Aspose.Note.
 ## Prerequisites
@@ -87,3 +93,10 @@ Visit [this link](https://purchase.aspose.com/temporary-license/) to obtain a te
 You can explore and seek assistance in the [Aspose.Note forum](https://forum.aspose.com/c/note/28) for any queries or issues you may encounter.
 ### Is there a free trial version of Aspose.Note for .NET?
 Yes, you can access the free trial version of Aspose.Note for .NET [here](https://releases.aspose.com/).
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

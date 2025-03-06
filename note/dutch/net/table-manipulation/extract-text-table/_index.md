@@ -3,10 +3,16 @@ title: Extraheer tekst uit tabellen in Aspose.Note
 linktitle: Extraheer tekst uit tabellen in Aspose.Note
 second_title: Aspose.Note .NET API
 description: Leer hoe u tekst uit tabellen kunt extraheren in Aspose.Note met behulp van C# met het .NET-framework. Stapsgewijze zelfstudie met codefragmenten en uitleg.
-type: docs
 weight: 15
 url: /nl/net/table-manipulation/extract-text-table/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Extraheer tekst uit tabellen in Aspose.Note
+
 ## Invoering
 
 In deze zelfstudie onderzoeken we hoe u tekst uit tabellen in Aspose.Note kunt extraheren met behulp van C# met het .NET-framework. Aspose.Note is een krachtige API waarmee ontwikkelaars programmatisch met Microsoft OneNote-bestanden kunnen werken, waardoor verschillende bewerkingen mogelijk zijn, zoals het maken, lezen, manipuleren en converteren van OneNote-documenten.
@@ -99,3 +105,9 @@ A4: Ja, Aspose.Note is beschikbaar voor meerdere platforms en programmeertalen, 
 ### V5: Waar kan ik meer bronnen en ondersteuning voor Aspose.Note vinden?
 
  A5: U kunt uitgebreide documentatie, tutorials en ondersteuningsforums vinden op de[Aspose.Note-forum](https://forum.aspose.com/c/note/28), zodat u eventuele vragen of problemen die u tijdens de ontwikkeling tegenkomt, kunt onderzoeken en oplossen.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

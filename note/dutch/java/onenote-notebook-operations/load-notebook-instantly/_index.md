@@ -3,10 +3,16 @@ title: Notebook direct laden in OneNote - Aspose.Note
 linktitle: Notebook direct laden in OneNote - Aspose.Note
 second_title: Aspose.Note Java-API
 description: Leer hoe u OneNote-notitieblokken direct in Java kunt laden met Aspose.Note voor Java. Verbeter uw productiviteit met efficiënt gebruik van notebooks.
-type: docs
 weight: 21
 url: /nl/java/onenote-notebook-operations/load-notebook-instantly/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Notebook direct laden in OneNote - Aspose.Note
+
 ## Invoering
 
 In deze zelfstudie begeleiden we u bij het proces van het direct laden van een notitieblok in OneNote met behulp van Aspose.Note voor Java. Aspose.Note is een krachtige Java API waarmee ontwikkelaars programmatisch met Microsoft OneNote-bestanden kunnen werken.
@@ -87,3 +93,9 @@ A2: Aspose.Note voor Java ondersteunt verschillende versies van OneNote-bestande
 ### V5: Hoe kan ik een tijdelijke licentie verkrijgen voor Aspose.Note voor Java?
 
  A5: U kunt een tijdelijke licentie aanvragen bij de[tijdelijke licentiepagina](https://purchase.aspose.com/temporary-license/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

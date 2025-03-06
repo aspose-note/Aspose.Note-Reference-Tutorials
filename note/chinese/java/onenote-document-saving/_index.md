@@ -3,10 +3,16 @@ title: OneNote 文档保存
 linktitle: OneNote 文档保存
 second_title: Aspose.Note Java API
 description: 使用有关 OneNote 文档保存的 Aspose.Note for Java 教程节省时间并简化 Java 应用程序。了解逐步集成以实现高效的工作流程。
-type: docs
 weight: 27
 url: /zh/java/onenote-document-saving/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# OneNote 文档保存
+
 ## 介绍
 
 欢迎来到 Aspose.Note for Java 教程的世界，在这里我们将揭示精确高效地保存 OneNote 文档的复杂性。在当今的数字环境中，无缝集成和简化的工作流程至关重要，我们的分步指南旨在帮助 Java 开发人员掌握文档保存技术。无论您是经验丰富的开发人员还是编码爱好者，我们的教程涵盖了一系列主题，从以不同格式保存文档到利用高级算法获得最佳结果。深入了解 Aspose.Note for Java 领域，我们简化了复杂的流程，使文档处理成为一种愉快且无忧的体验。让我们踏上 Java 应用程序开发领域的发现和增强之旅。
@@ -96,3 +102,9 @@ url: /zh/java/onenote-document-saving/
 了解如何在使用 Java 中的保留实体对象算法转换为 PDF 时保留 Aspose.Note 文档中的实体对象。
 ### [在 OneNote 中使用拆分算法方法 - Aspose.Note](./use-splitting-algorithm-method/)
 了解如何使用 Aspose.Note for Java 有效地拆分 OneNote 文档。
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

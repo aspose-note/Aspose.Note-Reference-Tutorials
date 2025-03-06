@@ -3,10 +3,16 @@ title: 在 Aspose.Note 中按路径附加文件
 linktitle: 在 Aspose.Note 中按路径附加文件
 second_title: Aspose.Note .NET API
 description: 了解如何使用 Aspose.Note for .NET 以编程方式将文件附加到 Microsoft OneNote 文档。通过这个综合教程简化您的开发过程。
-type: docs
 weight: 11
 url: /zh/net/attachments/attach-file-by-path/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# 在 Aspose.Note 中按路径附加文件
+
 ## 介绍
 
 Aspose.Note for .NET 是一个功能强大的库，使开发人员能够以编程方式使用 Microsoft OneNote 文件。无论您想要创建、编辑、转换还是操作 OneNote 文档，Aspose.Note for .NET 都提供了全面的功能来简化您的开发过程。
@@ -147,3 +153,9 @@ A3：是的，您需要获得 Aspose.Note for .NET 的商业使用许可证。�
 ### Q5：我在哪里可以寻求 Aspose.Note for .NET 的支持？
 
  A5：您可以从Aspose.Note社区论坛寻求支持[这里](https://forum.aspose.com/c/note/28).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

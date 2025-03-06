@@ -3,10 +3,16 @@ title: 在Aspose.Note中推送和管理當前頁面版本
 linktitle: 在Aspose.Note中推送和管理當前頁面版本
 second_title: Aspose.Note .NET API
 description: 了解如何輕鬆推播和管理 Aspose.Note for .NET 中的目前頁面版本。改進文件版本控制和協作。
-type: docs
 weight: 17
 url: /zh-hant/net/note-manipulation/manage-current-page-versions/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# 在Aspose.Note中推送和管理當前頁面版本
+
 ## 介紹
 
 在軟體開發領域，管理和維護不同版本的文件對於確保準確性、可追溯性和問責性至關重要。 Aspose.Note for .NET 提供了強大的工具來促進這一過程，讓開發人員可以無縫地推送和管理當前頁面版本。在本教程中，我們將深入研究使用 Aspose.Note for .NET 推送和管理目前頁面版本所需的步驟。
@@ -90,3 +96,9 @@ A4：是的，Aspose.Note for .NET 提供了全面的 API，用於管理 OneNote
 ### Q5：我可以使用 Aspose.Note for .NET 自動化推播頁面版本的流程嗎？
 
 A5：當然！ Aspose.Note for .NET 提供強大的自動化功能，可讓您將版本控制無縫整合到您的應用程式中。
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

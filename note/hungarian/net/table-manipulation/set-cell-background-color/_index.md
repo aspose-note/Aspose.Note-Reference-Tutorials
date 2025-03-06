@@ -3,10 +3,16 @@ title: Állítsa be a cella háttérszínét az Aspose.Note táblázatokban
 linktitle: Állítsa be a cella háttérszínét az Aspose.Note táblázatokban
 second_title: Aspose.Note .NET API
 description: Ismerje meg, hogyan állíthatja be a cella háttérszínét az Aspose.Note táblázatokban a lépésenkénti útmutató segítségével. Javítsa a dokumentumok látványvilágát könnyedén.
-type: docs
 weight: 17
 url: /hu/net/table-manipulation/set-cell-background-color/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Állítsa be a cella háttérszínét az Aspose.Note táblázatokban
+
 ## Bevezetés
 
 Ebben az oktatóanyagban megvizsgáljuk, hogyan lehet beállítani a cellák háttérszínét a táblázatokban az Aspose.Note for .NET segítségével. Ez a funkció jelentősen javíthatja a dokumentumok vizuális vonzerejét és olvashatóságát. Kövesse az alábbi lépéseket, hogy megtudja, hogyan érheti el ezt.
@@ -122,3 +128,9 @@ Az alábbi lépések végrehajtásával sikeresen beállította a cellák hátt�
 ### 5. kérdés: Hol találok további forrásokat és támogatást az Aspose.Note for .NET-hez?
 
  A5: Felfedezheti a[Aspose.Note dokumentáció](https://reference.aspose.com/note/net/) részletes API-referenciákért és példákért. Ezenkívül segítséget kérhet az Aspose közösségtől a webhelyen[Aspose.Note fórum](https://forum.aspose.com/c/note/28).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

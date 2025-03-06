@@ -3,10 +3,16 @@ title: OneNote'ta Numaralı Liste Oluşturma - Aspose.Note
 linktitle: OneNote'ta Numaralı Liste Oluşturma - Aspose.Note
 second_title: Aspose.Note Java API'si
 description: Aspose.Note for Java ile OneNote'ta zahmetsizce numaralandırılmış bir liste oluşturmayı öğrenin. Ücretsiz deneme sürümünü indirin ve Java geliştirme dünyasına dalın!
-type: docs
 weight: 14
 url: /tr/java/onenote-text-manipulation/create-numbered-list/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# OneNote'ta Numaralı Liste Oluşturma - Aspose.Note
+
 ## giriiş
 Aspose.Note for Java, Java geliştiricilerinin Microsoft OneNote dosyalarıyla sorunsuz bir şekilde çalışmasını sağlar. Bu eğitimde, güçlü Aspose.Note for Java kütüphanesini kullanarak OneNote'ta numaralandırılmış bir liste oluşturma sürecinde size yol göstereceğiz.
 ## Önkoşullar
@@ -91,3 +97,9 @@ C: Kesinlikle! Aspose.Note for Java tarafından sağlanan NumberList sınıfın�
  C: Bkz.[dokümantasyon](https://reference.aspose.com/note/java/) kapsamlı bilgi için.
 ### S: Aspose.Note for Java lisansını nasıl satın alabilirim?
  C: Lisans satın alabilirsiniz[Burada](https://purchase.aspose.com/buy).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

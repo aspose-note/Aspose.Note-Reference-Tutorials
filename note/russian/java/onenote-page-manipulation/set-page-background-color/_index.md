@@ -3,10 +3,16 @@ title: Установить цвет фона страницы в OneNote — As
 linktitle: Установить цвет фона страницы в OneNote — Aspose.Note
 second_title: Aspose.Note Java API
 description: Узнайте, как легко установить цвет фона страницы в OneNote с помощью Aspose.Note для Java. Повысьте визуальную привлекательность ваших документов с помощью этого простого руководства.
-type: docs
 weight: 20
 url: /ru/java/onenote-page-manipulation/set-page-background-color/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Установить цвет фона страницы в OneNote — Aspose.Note
+
 ## Введение
 
 В этом уроке мы углубимся в процесс установки цвета фона страницы в OneNote с помощью Aspose.Note для Java. Aspose.Note — это мощная библиотека Java, которая позволяет разработчикам программно манипулировать документами OneNote. Изменение цвета фона страницы может повысить визуальную привлекательность ваших документов OneNote, сделав их более привлекательными и организованными.
@@ -100,3 +106,9 @@ document.save(dataDir.resolve("SetPageBackgroundColor.one").toString());
 ### Вопрос 5: Где я могу найти дополнительную поддержку или помощь по Aspose.Note?
 
 A5: По любым вопросам или помощи вы можете посетить форум Aspose.Note или обратиться в их службу поддержки для получения оперативной помощи.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

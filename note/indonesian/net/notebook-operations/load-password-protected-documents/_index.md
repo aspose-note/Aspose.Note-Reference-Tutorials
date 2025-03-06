@@ -3,10 +3,16 @@ title: Muat Dokumen yang Dilindungi Kata Sandi di Aspose Note .NET
 linktitle: Muat Dokumen yang Dilindungi Kata Sandi di Aspose Note .NET
 second_title: Aspose.Catatan .NET API
 description: Pelajari cara memuat dokumen yang dilindungi kata sandi dengan aman di Aspose Note .NET menggunakan langkah-langkah sederhana. Pastikan kerahasiaan data dengan enkripsi.
-type: docs
 weight: 22
 url: /id/net/notebook-operations/load-password-protected-documents/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Muat Dokumen yang Dilindungi Kata Sandi di Aspose Note .NET
+
 ## Perkenalan
 
 Aspose.Note untuk .NET adalah API canggih yang memungkinkan pengembang bekerja dengan file Microsoft OneNote secara terprogram. Dalam tutorial ini, kita akan mempelajari cara memuat dokumen yang dilindungi kata sandi menggunakan Aspose.Note untuk .NET.
@@ -77,3 +83,9 @@ A4: Ya, Anda dapat mengatur kata sandi berbeda untuk dokumen anak berbeda dalam 
 ### Q5: Apakah ada versi uji coba yang tersedia untuk Aspose.Note untuk .NET?
 
  A5: Ya, Anda dapat mengakses Aspose.Note versi uji coba gratis untuk .NET dari[Di Sini](https://releases.aspose.com/), memungkinkan Anda menjelajahi fitur-fiturnya sebelum melakukan pembelian.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

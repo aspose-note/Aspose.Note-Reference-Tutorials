@@ -3,10 +3,16 @@ title: PdfSaveOptions'ı kullanarak OneNote Belgesini Aspose.Note'a yükleyin
 linktitle: PdfSaveOptions'ı kullanarak OneNote Belgesini Aspose.Note'a yükleyin
 second_title: Aspose.Note Java API'si
 description: OneNote belgelerini yüklemek ve zahmetsizce PDF formatına dönüştürmek için Aspose.Note for Java'yı nasıl kullanacağınızı öğrenin. Aspose.Note ile belge dönüştürme görevlerinizi basitleştirin.
-type: docs
 weight: 23
 url: /tr/java/onenote-document-loading/load-pdf-save-options/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# PdfSaveOptions'ı kullanarak OneNote Belgesini Aspose.Note'a yükleyin
+
 ## giriiş
 
 Aspose.Note'un Java kullanımına ilişkin bu kapsamlı kılavuza hoş geldiniz! Bu eğitimde, OneNote belgelerini yüklemek ve bunları PdfSaveOptions kullanarak PDF olarak kaydetmek için Aspose.Note'u nasıl kullanabileceğimizi keşfedeceğiz. Aspose.Note, geliştiricilerin Microsoft OneNote dosyalarıyla sorunsuz bir şekilde çalışmasına olanak tanıyan güçlü bir Java kitaplığıdır. Bu eğitimin sonunda Aspose.Note'u Java projelerinize nasıl entegre edebileceğinizi ve belge dönüşümlerini zahmetsizce nasıl gerçekleştirebileceğinizi net bir şekilde anlayacaksınız.
@@ -83,3 +89,9 @@ Cevap3: Aspose.Note, PDF'nin yanı sıra DOCX, HTML gibi çeşitli formatlara ve
 ### S5: Aspose.Note için nereden yardım veya destek alabilirim?
 
  Cevap5: Aspose.Note ile ilgili herhangi bir yardım veya sorularınız için şu adresi ziyaret edebilirsiniz:[destek Forumu](https://forum.aspose.com/c/note/28).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

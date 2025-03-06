@@ -3,10 +3,16 @@ title: 解决 Aspose.Note 文档中的冲突
 linktitle: 解决 Aspose.Note 文档中的冲突
 second_title: Aspose.Note .NET API
 description: 了解如何使用 .NET 解决 Aspose.Note 文档中的冲突。有效解决冲突的分步指南。
-type: docs
 weight: 10
 url: /zh/net/note-manipulation/conflict-page-resolution/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# 解决 Aspose.Note 文档中的冲突
+
 ## 介绍
 
 解决 Aspose.Note 文档中的冲突是一项至关重要的任务，尤其是在处理协作项目或多个贡献者时。这些冲突可能是由于文档中的同时编辑、不同版本或其他差异而引起的。在本教程中，我们将深入研究使用 .NET 识别和解决 Aspose.Note 文档中的冲突的过程。通过执行这些步骤，您将能够有效管理冲突并确保文档完整性。
@@ -100,3 +106,9 @@ A4：是的，您可以通过使用 Aspose.Note API 在 .NET 应用程序中实�
 ### Q5：Aspose.Note 支持实时协作功能吗？
 
 A5：Aspose.Note 主要关注文档操作，不提供开箱即用的实时协作功能。
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

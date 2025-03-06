@@ -3,10 +3,16 @@ title: OneNote でのページ リビジョンの操作 - Aspose.Note
 linktitle: OneNote でのページ リビジョンの操作 - Aspose.Note
 second_title: Aspose.Note Java API
 description: Aspose.Note for Java を使用して OneNote ドキュメントのページ リビジョンを管理する方法を学習します。効果的なリビジョン追跡とコラボレーションのためのステップバイステップのガイドを提供します。
-type: docs
 weight: 21
 url: /ja/java/onenote-page-manipulation/working-with-page-revisions/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# OneNote でのページ リビジョンの操作 - Aspose.Note
+
 ## 導入
 
 OneNote はメモを整理および管理するための強力なツールですが、場合によっては変更を追跡し、効率的に共同作業するためにリビジョンを操作する必要があります。 Aspose.Note for Java を使用すると、OneNote ドキュメントのページ リビジョンをプログラムで簡単に管理できます。このチュートリアルでは、プロセスを段階的に説明します。
@@ -98,3 +104,9 @@ A: はい、Aspose.Note for Java を使用して、要件に応じてページ �
 ### Q5: Aspose.Note for Java のサポートはどこで入手できますか?
 
  A: Aspose.Note for Java のサポートは、[Aspose.Note フォーラム](https://forum.aspose.com/c/note/28).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

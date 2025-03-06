@@ -3,10 +3,16 @@ title: Recuperar arquivos anexados com Aspose.Note
 linktitle: Recuperar arquivos anexados com Aspose.Note
 second_title: API Aspose.Note .NET
 description: Aprenda como recuperar arquivos anexados de documentos do Microsoft OneNote usando Aspose.Note for .NET. Siga as etapas para carregar, obter nós e iterar por meio de anexos.
-type: docs
 weight: 12
 url: /pt/net/attachments/retrieve-attached-files/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Recuperar arquivos anexados com Aspose.Note
+
 ## Introdução
 
 Neste tutorial, exploraremos como recuperar arquivos anexados de um documento usando Aspose.Note for .NET. Aspose.Note é uma API poderosa que permite aos desenvolvedores trabalhar com arquivos do Microsoft OneNote programaticamente. Dividiremos o processo em etapas simples para facilitar o acompanhamento.
@@ -90,3 +96,9 @@ A4: Sim, você pode aproveitar uma avaliação gratuita do Aspose.Note para expl
 ### Q5: Como posso obter uma licença temporária para Aspose.Note?
 
 A5: Você pode solicitar uma licença temporária do Aspose para avaliar todos os recursos da API em seu ambiente de desenvolvimento.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

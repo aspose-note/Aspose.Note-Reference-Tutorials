@@ -3,10 +3,16 @@ title: Convertir un cuaderno en una imagen aplanada en OneNote - Aspose.Note
 linktitle: Convertir un cuaderno en una imagen aplanada en OneNote - Aspose.Note
 second_title: Aspose.Nota Java API
 description: Aprenda cómo convertir un cuaderno en una imagen aplanada en OneNote usando Aspose.Note para Java. Conserve todos los elementos en un único archivo de imagen sin esfuerzo.
-type: docs
 weight: 13
 url: /es/java/onenote-notebook-operations/convert-notebook-to-flattened-image/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Convertir un cuaderno en una imagen aplanada en OneNote - Aspose.Note
+
 ## Introducción
 
 En este tutorial, lo guiaremos a través del proceso de convertir un cuaderno en una imagen aplanada en OneNote usando Aspose.Note para Java. Esto le permite guardar su cuaderno como un archivo de imagen, asegurando que todos los elementos se conserven en un único formato de imagen.
@@ -108,3 +114,9 @@ R3: Sí, Aspose.Note proporciona amplias opciones para personalizar la imagen de
 ### P5: ¿Dónde puedo encontrar soporte para Aspose.Note para Java?
 
  R5: Puede encontrar soporte y recursos en el foro Aspose.Note[aquí](https://forum.aspose.com/c/note/28).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

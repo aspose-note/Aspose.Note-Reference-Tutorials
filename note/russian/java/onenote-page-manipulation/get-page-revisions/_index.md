@@ -3,10 +3,16 @@ title: Получить версии страницы в OneNote — Aspose.Note
 linktitle: Получить версии страницы в OneNote — Aspose.Note
 second_title: Aspose.Note Java API
 description: Узнайте, как получить версии страницы в OneNote с помощью Aspose.Note для Java. Следуйте нашему пошаговому руководству для эффективного отслеживания изменений.
-type: docs
 weight: 14
 url: /ru/java/onenote-page-manipulation/get-page-revisions/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Получить версии страницы в OneNote — Aspose.Note
+
 ## Введение
 
 OneNote — мощный инструмент для организации заметок и управления ими, но иногда вам необходимо отслеживать изменения и исправления, внесенные на ваши страницы. С помощью Aspose.Note для Java вы можете легко получать версии страниц программным способом. В этом руководстве мы покажем вам процесс получения редакций страниц в OneNote с помощью Aspose.Note для Java.
@@ -107,3 +113,9 @@ for (Page pageRevision : document.getPageHistory(firstPage)) {
 ### Вопрос 5: Существует ли бесплатная пробная версия Aspose.Note для Java?
 
  О5: Да, вы можете получить доступ к бесплатной пробной версии Aspose.Note для Java на сайте[Веб-сайт](https://releases.aspose.com/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

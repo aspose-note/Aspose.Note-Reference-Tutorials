@@ -3,10 +3,16 @@ title: OneNote'ta Sayfa Arka Plan Rengini Ayarlama - Aspose.Note
 linktitle: OneNote'ta Sayfa Arka Plan Rengini Ayarlama - Aspose.Note
 second_title: Aspose.Note Java API'si
 description: Aspose.Note for Java'yı kullanarak OneNote'ta sayfa arka plan rengini zahmetsizce nasıl ayarlayacağınızı öğrenin. Bu basit eğitimle belgelerinizin görsel çekiciliğini artırın.
-type: docs
 weight: 20
 url: /tr/java/onenote-page-manipulation/set-page-background-color/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# OneNote'ta Sayfa Arka Plan Rengini Ayarlama - Aspose.Note
+
 ## giriiş
 
 Bu eğitimde, Aspose.Note for Java'yı kullanarak OneNote'ta sayfa arka plan rengini ayarlama sürecini ayrıntılı olarak ele alacağız. Aspose.Note, geliştiricilerin OneNote belgelerini programlı olarak yönetmelerine olanak tanıyan güçlü bir Java kitaplığıdır. Sayfa arka plan rengini değiştirmek, OneNote belgelerinizin görsel çekiciliğini artırarak onları daha ilgi çekici ve düzenli hale getirebilir.
@@ -100,3 +106,9 @@ A4: Kesinlikle! Karar vermeden önce Aspose.Note'un özelliklerini ve yetenekler
 ### S5: Aspose.Note ile ilgili ek desteği veya yardımı nerede bulabilirim?
 
 Cevap5: Herhangi bir sorunuz veya yardımınız için Aspose.Note forumunu ziyaret edebilir veya hızlı yardım için destek ekibine ulaşabilirsiniz.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

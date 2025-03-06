@@ -3,10 +3,16 @@ title: Odebrat podřízený uzel v poznámkovém bloku OneNotu – Aspose.Note
 linktitle: Odebrat podřízený uzel v poznámkovém bloku OneNotu – Aspose.Note
 second_title: Aspose.Note Java API
 description: Přečtěte si, jak odebrat podřízený uzel z poznámkového bloku OneNotu pomocí Aspose.Note pro Java. Postupujte podle našeho podrobného průvodce pro bezproblémovou manipulaci s dokumenty.
-type: docs
 weight: 24
 url: /cs/java/onenote-notebook-operations/remove-child-node/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Odebrat podřízený uzel v poznámkovém bloku OneNotu – Aspose.Note
+
 ## Úvod
 
 tomto tutoriálu se ponoříme do procesu odebrání podřízeného uzlu v poznámkovém bloku OneNote pomocí Aspose.Note for Java. Aspose.Note je výkonné rozhraní API, které umožňuje vývojářům pracovat se soubory Microsoft OneNote programově a umožňuje různé operace, jako je vytváření, manipulace a převod dokumentů OneNotu.
@@ -92,3 +98,9 @@ A2: Ano, můžete najít podporu a komunikovat s ostatními uživateli na fóru 
 ### Q5: Kde najdu podrobnou dokumentaci k Aspose.Note pro Java?
 
  A5: Máte přístup k úplné dokumentaci Aspose.Note pro Java[tady](https://reference.aspose.com/note/java/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

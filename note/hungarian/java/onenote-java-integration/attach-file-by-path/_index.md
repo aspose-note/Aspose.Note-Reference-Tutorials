@@ -3,10 +3,16 @@ title: Fájl csatolása elérési út szerint a OneNote-ban Java segítségével
 linktitle: Fájl csatolása elérési út szerint a OneNote-ban Java segítségével
 second_title: Aspose.Note Java API
 description: Zökkenőmentesen adhat hozzá fájlokat OneNote-jegyzeteihez! Ismerje meg, hogyan csatolhat útvonal szerint Java nyelven az Aspose.Note segítségével. Könnyű útmutató és kód mellékelve! #OneNote #Java #Aspose
-type: docs
 weight: 11
 url: /hu/java/onenote-java-integration/attach-file-by-path/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Fájl csatolása elérési út szerint a OneNote-ban Java segítségével
+
 ## Bevezetés
 
 A OneNote egy sokoldalú eszköz a jegyzetek rendszerezéséhez és kezeléséhez, és az Aspose.Note for Java segítségével a fájlok programozottan csatolásával javíthatja a funkcionalitást. Ebben az oktatóanyagban végigvezetjük a fájl csatolásának folyamatán, annak elérési útja alapján a OneNote-ban Java használatával.
@@ -148,3 +154,9 @@ Ebben az oktatóanyagban megtanultuk, hogyan javíthatja OneNote-jegyzeteit fáj
 ### 5. kérdés: Van-e korlátozás a csatolható fájl méretére?
 
 5. válasz: Az Aspose.Note nem szab szigorú korlátozásokat a fájlméretre vonatkozóan, de vegye figyelembe a teljesítményre gyakorolt hatásokat a nagyon nagy fájlok esetében.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

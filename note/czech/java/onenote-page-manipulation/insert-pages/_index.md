@@ -3,10 +3,16 @@ title: Vložit stránky do OneNotu – Aspose.Note
 linktitle: Vložit stránky do OneNotu – Aspose.Note
 second_title: Aspose.Note Java API
 description: Naučte se vkládat stránky do dokumentů OneNotu programově pomocí Aspose.Note pro Java. Komplexní tutoriál s pokyny krok za krokem.
-type: docs
 weight: 16
 url: /cs/java/onenote-page-manipulation/insert-pages/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Vložit stránky do OneNotu – Aspose.Note
+
 ## Úvod
 
 V tomto tutoriálu se naučíme, jak vložit stránky do dokumentu OneNote pomocí Aspose.Note pro Javu.
@@ -132,3 +138,9 @@ Odpověď 4: Ano, můžete vyvíjet aplikace pomocí Aspose.Note pro Java na rů
 ### Otázka 5: Mohu přizpůsobit vzhled vložených stránek ve OneNotu?
 
 A5: Absolutně, Aspose.Note poskytuje rozsáhlé možnosti pro přizpůsobení rozvržení stránky, stylů a obsahu tak, aby vyhovoval vašim specifickým požadavkům.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

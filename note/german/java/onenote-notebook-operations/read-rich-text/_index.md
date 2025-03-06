@@ -3,10 +3,16 @@ title: Lesen Sie Rich Text aus dem OneNote-Notizbuch – Aspose.Note
 linktitle: Lesen Sie Rich Text aus dem OneNote-Notizbuch – Aspose.Note
 second_title: Aspose.Note Java API
 description: Erfahren Sie, wie Sie mit Aspose.Note für Java Rich Text aus OneNote-Notizbüchern lesen. Erweitern Sie Ihre Java-Anwendungen durch die nahtlose OneNote-Integration.
-type: docs
 weight: 23
 url: /de/java/onenote-notebook-operations/read-rich-text/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Lesen Sie Rich Text aus dem OneNote-Notizbuch – Aspose.Note
+
 ## Einführung
 
 In diesem Tutorial befassen wir uns mit der Verwendung von Aspose.Note für Java zum Lesen von Rich Text aus einem OneNote-Notizbuch. Aspose.Note ist eine leistungsstarke Java-API, die Entwicklern die nahtlose Arbeit mit Microsoft OneNote-Dateien ermöglicht. Wenn Sie die unten beschriebenen Schritte befolgen, können Sie Rich-Text-Daten mühelos extrahieren und so OneNote-Inhalte problemlos bearbeiten und analysieren.
@@ -91,3 +97,9 @@ A2: Aspose.Note für Java unterstützt verschiedene Versionen von Microsoft OneN
 ### F5: Wo finde ich Unterstützung für Aspose.Note für Java?
 
  A5: Unterstützung und Hilfe finden Sie auf der[Aspose.Note-Forum](https://forum.aspose.com/c/note/28).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

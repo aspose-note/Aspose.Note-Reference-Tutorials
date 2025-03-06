@@ -3,10 +3,16 @@ title: Aspose.Note에서 텍스트 교정 언어 설정
 linktitle: Aspose.Note에서 텍스트 교정 언어 설정
 second_title: Aspose.Note .NET API
 description: .NET용 Aspose.Note를 사용하여 강력한 텍스트 조작을 잠금해제하세요. 단계별 지침을 통해 교정 언어를 손쉽게 설정하세요. 지금 .NET 프로젝트를 강화하세요!
-type: docs
 weight: 25
 url: /ko/net/text-manipulation/set-proofing-language-text/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Aspose.Note에서 텍스트 교정 언어 설정
+
 ## 소개
 .NET용 Aspose.Note의 세계에 오신 것을 환영합니다! 이 종합 가이드에서는 Aspose.Note를 사용하여 텍스트 교정 언어를 설정하는 흥미로운 과정을 살펴보겠습니다. 숙련된 개발자이든 Aspose.Note를 처음 시작하든 이 튜토리얼은 텍스트 조작 기술을 향상시키기 위한 자세한 통찰력과 단계별 지침을 제공합니다.
 ## 전제조건
@@ -89,3 +95,9 @@ document.Save(Path.Combine("Your Document Directory", "SetProofingLanguageForTex
  틀림없이! .NET용 Aspose.Note 무료 평가판에 액세스할 수 있습니다.[여기](https://releases.aspose.com/).
 ### 문제가 있거나 도움이 필요하신가요?
  방문하다[Aspose.Note 지원 포럼](https://forum.aspose.com/c/note/28) 커뮤니티와 연결하고 전문가의 도움을 받으세요.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

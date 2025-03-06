@@ -3,10 +3,16 @@ title: Bemästra Aspose.Note-licensiering för OneNote-integration
 linktitle: Licensiering
 second_title: Aspose.Note .NET API
 description: Använd Aspose.Note-licenser i dina .NET-applikationer! Utforska steg-för-steg-guider för att bädda in resurser med hjälp av sökvägar, FileStream och effektiv mätlicens.
-type: docs
 weight: 20
 url: /sv/net/licensing/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Bemästra Aspose.Note-licensiering för OneNote-integration
+
 ## Introduktion
 
 Är du en .NET-utvecklare som fördjupar dig i den dynamiska sfären av Aspose.Note? Att förstå hur man tillämpar licenser är avgörande, särskilt när man arbetar med OneNote-filer. I den här omfattande guiden navigerar vi genom olika licensieringshandledningar, vilket säkerställer en sömlös integrationsprocess och ger dig möjlighet att manipulera OneNote-filer utan ansträngning.
@@ -41,3 +47,9 @@ Lär dig hur du ansöker Aspose.Note-licens från sökväg i .NET-applikationer.
 Lär dig hur du tillämpar en Aspose.Note-licens med FileStream i dina .NET-applikationer för sömlös integration.
 ### [Uppmätt licens med Aspose.Note](./metered-licensing/)
 Lär dig hur du effektivt hanterar programvarulicenser med Aspose.Note för .NET genom mätlicenser. Optimera resursanvändningen och kontrollera kostnaderna effektivt.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

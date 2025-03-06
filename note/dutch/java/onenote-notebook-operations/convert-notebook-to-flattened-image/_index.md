@@ -3,10 +3,16 @@ title: Converteer Notebook naar afgeplatte afbeelding in OneNote - Aspose.Note
 linktitle: Converteer Notebook naar afgeplatte afbeelding in OneNote - Aspose.Note
 second_title: Aspose.Note Java-API
 description: Leer hoe u een notitieblok converteert naar een afgeplatte afbeelding in OneNote met behulp van Aspose.Note voor Java. Bewaar moeiteloos alle elementen in één afbeeldingsbestand.
-type: docs
 weight: 13
 url: /nl/java/onenote-notebook-operations/convert-notebook-to-flattened-image/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Converteer Notebook naar afgeplatte afbeelding in OneNote - Aspose.Note
+
 ## Invoering
 
 In deze zelfstudie begeleiden we u bij het converteren van een notitieblok naar een afgeplatte afbeelding in OneNote met behulp van Aspose.Note voor Java. Hierdoor kunt u uw notebook als afbeeldingsbestand opslaan, zodat alle elementen in één afbeeldingsformaat behouden blijven.
@@ -108,3 +114,9 @@ A3: Ja, Aspose.Note biedt uitgebreide opties voor het aanpassen van de uitvoeraf
 ### V5: Waar kan ik ondersteuning vinden voor Aspose.Note voor Java?
 
  A5: U kunt ondersteuning en bronnen vinden op het Aspose.Note-forum[hier](https://forum.aspose.com/c/note/28).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

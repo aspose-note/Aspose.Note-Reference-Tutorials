@@ -3,10 +3,16 @@ title: Bestand per pad bijvoegen in OneNote met Java
 linktitle: Bestand per pad bijvoegen in OneNote met Java
 second_title: Aspose.Note Java-API
 description: Voeg naadloos bestanden toe aan uw OneNote-notities! Leer hoe u in Java via Aspose.Note een koppeling kunt maken via een pad. Eenvoudige handleiding en code inbegrepen! #OneNote #Java #Aspose
-type: docs
 weight: 11
 url: /nl/java/onenote-java-integration/attach-file-by-path/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Bestand per pad bijvoegen in OneNote met Java
+
 ## Invoering
 
 OneNote is een veelzijdige tool voor het organiseren en beheren van notities, en met Aspose.Note voor Java kunt u de functionaliteit ervan verbeteren door programmatisch bestanden aan uw notities toe te voegen. In deze zelfstudie begeleiden we u bij het bijvoegen van een bestand via het pad in OneNote met behulp van Java.
@@ -148,3 +154,9 @@ A4: Ja, u kunt bestanden aan specifieke secties toevoegen door ze dienovereenkom
 ### Vraag 5: Is er een limiet aan de bestandsgrootte die ik kan bijvoegen?
 
 A5: Aspose.Note legt geen strikte beperkingen op aan de bestandsgrootte, maar houdt rekening met de prestatie-implicaties voor zeer grote bestanden.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

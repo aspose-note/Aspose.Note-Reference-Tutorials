@@ -3,10 +3,16 @@ title: OneNote'ta Kaydetme Formatını Kullanarak JPEG Görüntüsüne Kaydetme
 linktitle: OneNote'ta Kaydetme Formatını Kullanarak JPEG Görüntüsüne Kaydetme
 second_title: Aspose.Note Java API'si
 description: OneNote belgesini kolayca JPEG görüntüsüne dönüştürün! Bu Java eğitimi Aspose.Note'un nasıl kullanıldığını gösterir. Kod örnekleriyle dönüştürün ve otomatikleştirin! #OneNote #Java #Aspose
-type: docs
 weight: 18
 url: /tr/java/onenote-document-saving/save-to-jpeg-image-using-save-format/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# OneNote'ta Kaydetme Formatını Kullanarak JPEG Görüntüsüne Kaydetme
+
 ## giriiş
 
 Bu eğitimde, Aspose.Note for Java'yı kullanarak bir belgeyi JPEG görüntü formatında kaydetme sürecini ayrıntılı olarak ele alacağız. Aspose.Note, geliştiricilerin Microsoft OneNote dosyalarıyla programlı olarak çalışmasına olanak tanıyan, dönüştürme, düzenleme ve içerik çıkarma gibi çeşitli işlemleri mümkün kılan güçlü bir Java API'sidir.
@@ -78,3 +84,9 @@ Cevap1: Evet, Aspose.Note, karmaşık OneNote dosyalarını verimli bir şekilde
 ### S5: Aspose.Note for Java'nın ayrıntılı belgelerini nerede bulabilirim?
 
 Cevap5: Aspose.Note for Java'nın ayrıntılı belgelerini burada bulabilirsiniz[Burada](https://reference.aspose.com/note/java/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

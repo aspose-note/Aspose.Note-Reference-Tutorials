@@ -3,10 +3,16 @@ title: Ställa in sidtitel i Microsoft OneNote Style - Aspose.Note
 linktitle: Ställa in sidtitel i Microsoft OneNote Style - Aspose.Note
 second_title: Aspose.Note Java API
 description: Lär dig hur du ställer in sidtitlar i Microsoft OneNote-stil med Aspose.Note för Java. Förhöj dina Java-dokument med professionell formatering.
-type: docs
 weight: 23
 url: /sv/java/onenote-text-manipulation/setting-page-title-in-microsoft-onenote-style/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Ställa in sidtitel i Microsoft OneNote Style - Aspose.Note
+
 ## Introduktion
 Java-utvecklingens dynamiska värld är det avgörande att skapa visuellt tilltalande och strukturerade dokument. Om du vill förbättra dina Java-applikationer med Microsoft OneNote-liknande sidtitlar, är Aspose.Note för Java din bästa lösning. I den här omfattande handledningen går vi igenom processen att ställa in sidrubriker i OneNote-stil med Aspose.Note, vilket säkerställer att dina dokument sticker ut med en professionell touch.
 ## Förutsättningar
@@ -72,3 +78,9 @@ Aspose.Note är designad för att fungera sömlöst med andra Java-bibliotek, vi
  Sök hjälp från Aspose.Note-gemenskapen på[Aspose.Note Forum](https://forum.aspose.com/c/note/28).
 ### Finns det en testversion tillgänglig?
  Ja, du kan utforska funktionerna i Aspose.Note med en gratis provperiod från[här](https://releases.aspose.com/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

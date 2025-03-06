@@ -3,10 +3,16 @@ title: Lägg till ny bildnod med tagg i OneNote - Aspose.Note
 linktitle: Lägg till ny bildnod med tagg i OneNote - Aspose.Note
 second_title: Aspose.Note Java API
 description: Lär dig hur du lägger till en ny bildnod med en tagg i OneNote med Aspose.Note för Java. Lyft dina Java-programmeringskunskaper utan ansträngning.
-type: docs
 weight: 10
 url: /sv/java/onenote-tag-operations/add-new-image-node-with-tag/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Lägg till ny bildnod med tagg i OneNote - Aspose.Note
+
 ## Introduktion
 Inom Java-programmering framstår Aspose.Note som ett kraftfullt verktyg för att enkelt hantera OneNote-dokument. Om du vill förbättra dina färdigheter och lära dig hur du lägger till en ny bildnod med en tagg i OneNote med Aspose.Note, har du kommit till rätt ställe. Den här steg-för-steg-guiden leder dig genom processen och säkerställer att du förstår varje koncept grundligt.
 ## Förutsättningar
@@ -96,3 +102,9 @@ Grattis! Du har framgångsrikt lagt till en ny bildnod med en tagg i OneNote med
  Besök gemenskapsforumet[här](https://forum.aspose.com/c/note/28) för support.
 ### Behöver jag en tillfällig licens?
  Vid behov kan du få en tillfällig licens[här](https://purchase.aspose.com/temporary-license/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

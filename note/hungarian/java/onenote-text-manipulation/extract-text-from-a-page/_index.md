@@ -3,10 +3,16 @@ title: Szöveg kibontása egy oldalról a OneNote-ban – Aspose.Note
 linktitle: Szöveg kibontása egy oldalról a OneNote-ban – Aspose.Note
 second_title: Aspose.Note Java API
 description: Fedezze fel, hogyan nyerhet ki könnyedén szöveget a OneNote-oldalakról az Aspose.Note for Java segítségével. Egyszerűsítse folyamatait ezzel az átfogó, lépésenkénti útmutatóval.
-type: docs
 weight: 16
 url: /hu/java/onenote-text-manipulation/extract-text-from-a-page/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Szöveg kibontása egy oldalról a OneNote-ban – Aspose.Note
+
 ## Bevezetés
 Ha szeretné kiaknázni a OneNote-oldalak szövegének hatékony kivonatát a Java használatával, akkor jó helyen jár. Ez a lépésenkénti útmutató végigvezeti a folyamaton az Aspose.Note for Java használatával. Az Aspose.Note egy hatékony API, amely leegyszerűsíti a OneNote-dokumentumokkal való munkát, lehetővé téve, hogy zökkenőmentesen, könnyedén kinyerhessen szöveget az oldalakról.
 ## Előfeltételek
@@ -75,3 +81,9 @@ Az Aspose.Note elsősorban a Java-t támogatja, de más nyelvekhez, például a 
  Megvásárolhatja a terméket[itt](https://purchase.aspose.com/buy).
 ### Szükségem van ideiglenes licencre az Aspose.Note for Java számára?
  Ha ideiglenes engedélyre van szüksége, beszerezhet egyet[itt](https://purchase.aspose.com/temporary-license/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

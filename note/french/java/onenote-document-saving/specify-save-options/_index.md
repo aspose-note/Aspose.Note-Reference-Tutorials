@@ -3,10 +3,16 @@ title: Spécifier les options d'enregistrement dans OneNote - Aspose.Note
 linktitle: Spécifier les options d'enregistrement dans OneNote - Aspose.Note
 second_title: API Java Aspose.Note
 description: Découvrez comment spécifier les options d'enregistrement dans OneNote à l'aide d'Aspose.Note pour Java. Personnalisez facilement les paramètres d'indexation, de nombre et de compression des pages.
-type: docs
 weight: 24
 url: /fr/java/onenote-document-saving/specify-save-options/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Spécifier les options d'enregistrement dans OneNote - Aspose.Note
+
 ## Introduction
 
 Dans ce didacticiel, nous apprendrons comment spécifier les options d'enregistrement dans OneNote à l'aide d'Aspose.Note pour Java. Aspose.Note est une puissante bibliothèque Java qui permet aux développeurs de créer, manipuler et convertir des documents OneNote par programme. Avec Aspose.Note, vous pouvez facilement contrôler diverses options de sauvegarde pour personnaliser la sortie en fonction de vos besoins.
@@ -109,3 +115,9 @@ A4 : Oui, Aspose.Note fournit des API pour le cryptage et le déchiffrement des 
 ### Q5 : Aspose.Note est-il adapté à un usage commercial ?
 
 A5 : Oui, Aspose.Note peut être utilisé à des fins commerciales en achetant une licence.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

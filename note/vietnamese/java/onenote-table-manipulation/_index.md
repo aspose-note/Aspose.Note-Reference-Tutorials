@@ -3,10 +3,16 @@ title: Thao tác với bảng OneNote
 linktitle: Thao tác với bảng OneNote
 second_title: API Java Aspose.Note
 description: Cải thiện các bảng OneNote của bạn bằng Aspose.Note for Java. Thay đổi kiểu, soạn bảng, trích xuất văn bản một cách liền mạch. Tải xuống thư viện để tạo tài liệu suôn sẻ.
-type: docs
 weight: 32
 url: /vi/java/onenote-table-manipulation/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Thao tác với bảng OneNote
+
 
 
 ## Giới thiệu
@@ -55,3 +61,9 @@ Khám phá bí mật trích xuất văn bản từ bảng OneNote trong Java b�
 Tìm hiểu cách chèn bảng trong OneNote bằng Aspose.Note for Java. Hướng dẫn từng bước để tạo nội dung động. Nâng cao tài liệu của bạn một cách dễ dàng.
 ### [Đặt màu nền ô trong OneNote - Aspose.Note](./setting-cell-background-color/)
 Chuyển đổi tài liệu OneNote một cách dễ dàng bằng Aspose.Note for Java. Dễ dàng tùy chỉnh màu nền của ô. Hãy thử dùng thử miễn phí ngay bây giờ!
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

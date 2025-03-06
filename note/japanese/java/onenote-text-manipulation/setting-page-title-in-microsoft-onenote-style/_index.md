@@ -3,10 +3,16 @@ title: Microsoft OneNote スタイルでページ タイトルを設定する - 
 linktitle: Microsoft OneNote スタイルでページ タイトルを設定する - Aspose.Note
 second_title: Aspose.Note Java API
 description: Aspose.Note for Java を使用して Microsoft OneNote スタイルでページ タイトルを設定する方法を学びます。 Java ドキュメントをプロフェッショナルな書式設定で強化します。
-type: docs
 weight: 23
 url: /ja/java/onenote-text-manipulation/setting-page-title-in-microsoft-onenote-style/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Microsoft OneNote スタイルでページ タイトルを設定する - Aspose.Note
+
 ## 導入
 Java 開発の動的な世界では、視覚的に魅力的で構造化されたドキュメントを作成することが重要です。 Microsoft OneNote スタイルのページ タイトルを使用して Java アプリケーションを強化したい場合は、Aspose.Note for Java が最適なソリューションです。この包括的なチュートリアルでは、Aspose.Note を使用して OneNote スタイルでページ タイトルを設定し、ドキュメントをプロフェッショナルなタッチで目立たせるプロセスを説明します。
 ## 前提条件
@@ -72,3 +78,9 @@ Aspose.Note は、他の Java ライブラリとシームレスに連携する�
  Aspose.Note コミュニティに支援を求めてください。[Aspose.Note フォーラム](https://forum.aspose.com/c/note/28).
 ### 試用版はありますか?
 はい、次の無料トライアルで Aspose.Note の機能を試すことができます。[ここ](https://releases.aspose.com/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -3,10 +3,16 @@ title: Lưu vào hình ảnh JPEG trong Aspose.Note
 linktitle: Lưu vào hình ảnh JPEG trong Aspose.Note
 second_title: Aspose.Note .NET API
 description: Tìm hiểu cách lưu tài liệu OneNote thành hình ảnh JPEG một cách dễ dàng bằng cách sử dụng Aspose.Note for .NET. Hướng dẫn từng bước bao gồm.
-type: docs
 weight: 25
 url: /vi/net/loading-and-saving-operations/save-to-jpeg-image/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Lưu vào hình ảnh JPEG trong Aspose.Note
+
 ## Giới thiệu
 
 Trong hướng dẫn này, chúng ta sẽ đi sâu vào việc sử dụng Aspose.Note for .NET để lưu tài liệu sang định dạng JPEG. Aspose.Note là một thư viện mạnh mẽ cho phép các nhà phát triển làm việc với các tệp Microsoft OneNote theo chương trình. Chúng tôi sẽ hướng dẫn bạn từng bước thực hiện quy trình, đảm bảo bạn hiểu rõ từng khía cạnh.
@@ -83,3 +89,9 @@ Câu trả lời 3: Có, Aspose.Note hỗ trợ lưu tài liệu sang nhiều đ
 ### Câu hỏi 5: Làm cách nào tôi có thể nhận được hỗ trợ nếu gặp bất kỳ vấn đề nào?
 
  Câu trả lời 5: Bạn có thể tìm kiếm trợ giúp từ diễn đàn cộng đồng Aspose[đây](https://forum.aspose.com/c/note/28)hoặc liên hệ với nhóm hỗ trợ của họ để được hỗ trợ cá nhân.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

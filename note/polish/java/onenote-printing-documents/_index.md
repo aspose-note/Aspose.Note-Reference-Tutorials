@@ -3,10 +3,16 @@ title: Drukowanie dokumentów w programie OneNote
 linktitle: Drukowanie dokumentów w programie OneNote
 second_title: Aspose.Note API Java
 description: Bezproblemowo drukuj dokumenty w OneNote za pomocą Aspose.Note dla Java. Te samouczki zawierają wskazówki krok po kroku i przykłady kodu umożliwiające bezproblemowe drukowanie dokumentów.
-type: docs
 weight: 30
 url: /pl/java/onenote-printing-documents/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Drukowanie dokumentów w programie OneNote
+
 
 ## Wstęp
 
@@ -38,3 +44,9 @@ Podsumowując, opanowanie sztuki drukowania dokumentów w OneNote przy użyciu A
 ## Samouczki dotyczące drukowania dokumentów programu OneNote
 ### [Drukuj dokumenty w OneNote - Aspose.Note](./print-documents/)
 Dowiedz się, jak drukować dokumenty w OneNote przy użyciu Aspose.Note dla Java. Przewodnik krok po kroku z przykładami kodu i konfigurowalnymi opcjami.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

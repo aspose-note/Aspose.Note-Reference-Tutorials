@@ -3,10 +3,16 @@ title: قم بإنشاء عنوان باستخدام MS Style في Aspose.Note
 linktitle: قم بإنشاء عنوان باستخدام MS Style في Aspose.Note
 second_title: Aspose.Note .NET API
 description: تعرف على كيفية إنشاء عناوين بنمط Microsoft في Aspose.Note لـ .NET. ارفع مستوى عرض المستند الخاص بك باستخدام هذا البرنامج التعليمي سهل المتابعة.
-type: docs
 weight: 15
 url: /ar/net/text-manipulation/create-title-ms-style/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# قم بإنشاء عنوان باستخدام MS Style في Aspose.Note
+
 ## مقدمة
 هل تتطلع إلى تحسين عملية إنشاء المستندات الخاصة بك عن طريق إضافة عناوين بنمط Microsoft باستخدام Aspose.Note لـ .NET؟ سيرشدك هذا الدليل الشامل خلال الخطوات اللازمة لإنشاء عناوين بأسلوب MS دون عناء. يعد Aspose.Note for .NET أداة قوية تمكن المطورين من معالجة مستندات OneNote برمجيًا.
 ## المتطلبات الأساسية
@@ -80,3 +86,9 @@ Console.WriteLine("\nPage title set up successfully in Microsoft OneNote style.\
 استخدم آليات معالجة الاستثناءات في C# لاكتشاف ومعالجة أي أخطاء محتملة قد تحدث أثناء عملية إنشاء المستند.
 ### أين يمكنني العثور على المزيد من الأمثلة والوثائق الخاصة بـ Aspose.Note لـ .NET؟
  الرجوع إلى[Aspose.Note لوثائق .NET](https://reference.aspose.com/note/net/)للحصول على أمثلة مفصلة ووثائق شاملة.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

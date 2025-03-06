@@ -3,10 +3,16 @@ title: Aspose.Note 문서에서 페이지 개정 탐색
 linktitle: Aspose.Note 문서에서 페이지 개정 탐색
 second_title: Aspose.Note .NET API
 description: 단계별 지침과 함께 .NET 프레임워크를 사용하여 Aspose.Note 문서의 페이지 개정판을 탐색하는 방법을 알아보세요.
-type: docs
 weight: 14
 url: /ko/net/note-manipulation/page-revisions-exploration/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Aspose.Note 문서에서 페이지 개정 탐색
+
 ## 소개
 
 이 튜토리얼에서는 .NET 프레임워크를 사용하여 Aspose.Note 문서의 페이지 개정을 탐색하는 방법을 살펴보겠습니다. Aspose.Note는 개발자가 Microsoft OneNote 파일을 프로그래밍 방식으로 작업할 수 있도록 지원하고 이러한 파일에서 데이터를 조작하고 추출할 수 있는 다양한 기능을 제공하는 강력한 라이브러리입니다.
@@ -88,3 +94,9 @@ A3: 예, 다음에서 .NET용 Aspose.Note 무료 평가판을 다운로드할 �
 ### Q5: .NET용 Aspose.Note에 대한 지원은 어디서 찾을 수 있나요?
 
  A5: 다음에서 지원과 리소스를 찾을 수 있습니다.[Aspose.Note 포럼](https://forum.aspose.com/c/note/28).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

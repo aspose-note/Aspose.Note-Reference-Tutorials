@@ -3,10 +3,16 @@ title: OneNote 文件加載
 linktitle: OneNote 文件加載
 second_title: Aspose.Note Java API
 description: 探索使用 Aspose.Note for Java 載入、轉換和建立 OneNote 文件的綜合教學。輕鬆增強您的文件處理能力。
-type: docs
 weight: 25
 url: /zh-hant/java/onenote-document-loading/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# OneNote 文件加載
+
 
 ## 介紹
 
@@ -97,3 +103,9 @@ url: /zh-hant/java/onenote-document-loading/
 了解如何使用 Aspose.Note 在 Java 中載入 OneNote 2007 文件以實現無縫整合。
 ### [載入受密碼保護的 OneNote 文件 - Java](./load-password-protected-onenote/)
 了解如何使用 Java 和 Aspose.Note for Java 載入受密碼保護的 OneNote 文件。
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

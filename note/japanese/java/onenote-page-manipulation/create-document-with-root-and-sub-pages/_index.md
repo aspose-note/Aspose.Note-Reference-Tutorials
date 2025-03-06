@@ -3,10 +3,16 @@ title: OneNote でルート ページとサブ ページを含むドキュメン
 linktitle: OneNote でルート ページとサブ ページを含むドキュメントを作成する
 second_title: Aspose.Note Java API
 description: Aspose.Note for Java を使用して、OneNote でルート ページとサブ ページを含むドキュメントを作成します。ステップバイステップのガイドに従って、メモを効率的に整理してください。
-type: docs
 weight: 11
 url: /ja/java/onenote-page-manipulation/create-document-with-root-and-sub-pages/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# OneNote でルート ページとサブ ページを含むドキュメントを作成する
+
 ## 導入
 
 このチュートリアルでは、Aspose.Note for Java を使用して OneNote でルート ページとサブ ページを含むドキュメントを作成するプロセスを説明します。これらの手順に従うことで、OneNote ドキュメントを階層構造で効率的に整理できるようになります。
@@ -169,3 +175,9 @@ A4: はい、Aspose.Note for Java は、BMP、PDF、PNG などのさまざまな
 ### Q5: Aspose.Note for Java の試用版はありますか?
 
 A5: はい、Aspose.Note for Java の無料試用版を Web サイトからダウンロードできます。
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -3,10 +3,16 @@ title: Microsoft OneNote 스타일에서 페이지 제목 설정 - Aspose.Note
 linktitle: Microsoft OneNote 스타일에서 페이지 제목 설정 - Aspose.Note
 second_title: Aspose.Note 자바 API
 description: Java용 Aspose.Note를 사용하여 Microsoft OneNote 스타일로 페이지 제목을 설정하는 방법을 알아보세요. 전문적인 형식으로 Java 문서를 향상시키세요.
-type: docs
 weight: 23
 url: /ko/java/onenote-text-manipulation/setting-page-title-in-microsoft-onenote-style/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Microsoft OneNote 스타일에서 페이지 제목 설정 - Aspose.Note
+
 ## 소개
 Java 개발의 역동적인 세계에서는 시각적으로 매력적이고 구조화된 문서를 만드는 것이 중요합니다. Microsoft OneNote 스타일의 페이지 제목으로 Java 애플리케이션을 향상시키려는 경우 Aspose.Note for Java가 적합한 솔루션입니다. 이 포괄적인 튜토리얼에서는 Aspose.Note를 사용하여 OneNote 스타일로 페이지 제목을 설정하는 과정을 안내하여 전문적인 손길로 문서를 돋보이게 합니다.
 ## 전제조건
@@ -72,3 +78,9 @@ Aspose.Note는 다른 Java 라이브러리와 원활하게 작동하도록 설�
  Aspose.Note 커뮤니티에서 도움을 구하세요.[Aspose.Note 포럼](https://forum.aspose.com/c/note/28).
 ### 평가판을 사용할 수 있나요?
  예, 무료 평가판을 통해 Aspose.Note의 기능을 탐색할 수 있습니다.[여기](https://releases.aspose.com/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

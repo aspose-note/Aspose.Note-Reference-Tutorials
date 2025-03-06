@@ -3,10 +3,16 @@ title: SaveFormat'ı Kullanarak Belgeyi OneNote'a Kaydetme - Aspose.Note
 linktitle: SaveFormat'ı Kullanarak Belgeyi OneNote'a Kaydetme - Aspose.Note
 second_title: Aspose.Note Java API'si
 description: Aspose.Note for Java'yı kullanarak belgeleri OneNote formatında nasıl kaydedeceğinizi öğrenin. Java uygulamalarınızla sorunsuz entegrasyon için bu adım adım öğreticiyi izleyin.
-type: docs
 weight: 12
 url: /tr/java/onenote-document-saving/save-document-to-onenote-format-using-saveformat/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# SaveFormat'ı Kullanarak Belgeyi OneNote'a Kaydetme - Aspose.Note
+
 ## giriiş
 
 Aspose.Note for Java, geliştiricilerin Microsoft OneNote dosyalarıyla programlı olarak çalışmasını sağlayan güçlü bir kitaplıktır. SaveFormat'ı kullanarak bir belgeyi OneNote biçimine kaydetmek basit bir işlemdir. Bu eğitimde, bu görevi gerçekleştirmek için gereken adımları inceleyeceğiz.
@@ -78,3 +84,9 @@ Cevap1: Aspose.Note for Java, Microsoft OneNote'un çeşitli sürümlerini deste
 ### S5: Aspose.Note for Java için geçici bir lisans seçeneği mevcut mu?
 
  Cevap5: Evet, Aspose.Note for Java için geçici bir lisansı şu adresten edinebilirsiniz:[Burada](https://purchase.aspose.com/temporary-license/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

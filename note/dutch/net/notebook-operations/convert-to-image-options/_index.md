@@ -3,10 +3,16 @@ title: Converteer notitieboekjes naar afbeeldingen met opties in Aspose Note .NE
 linktitle: Converteer notitieboekjes naar afbeeldingen met opties in Aspose Note .NET
 second_title: Aspose.Note .NET API
 description: Leer hoe u notitieboekjes kunt converteren naar afbeeldingen met aanpasbare opties met behulp van Aspose.Note voor .NET.
-type: docs
 weight: 13
 url: /nl/net/notebook-operations/convert-to-image-options/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Converteer notitieboekjes naar afbeeldingen met opties in Aspose Note .NET
+
 ## Invoering
 
 In deze zelfstudie gaan we dieper in op het converteren van notitieboekjes naar afbeeldingen met verschillende opties met behulp van de Aspose.Note voor .NET-bibliotheek. Aspose.Note is een krachtige .NET API waarmee ontwikkelaars programmatisch met Microsoft OneNote-bestanden kunnen werken. Door de stappen in deze handleiding te volgen, leert u hoe u notitieboekjes moeiteloos naar afbeeldingen kunt converteren en de uitvoer kunt aanpassen aan uw vereisten.
@@ -95,3 +101,9 @@ A4: Ja, Aspose.Note voor .NET biedt verschillende opties voor het aanpassen van 
 ### V5: Ondersteunt Aspose.Note voor .NET andere afbeeldingsformaten dan PNG?
 
 A5: Ja, Aspose.Note voor .NET ondersteunt verschillende afbeeldingsformaten, waaronder JPEG, BMP, GIF en TIFF.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

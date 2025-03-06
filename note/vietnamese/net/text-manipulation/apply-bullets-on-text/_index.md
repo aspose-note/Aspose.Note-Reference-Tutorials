@@ -3,10 +3,16 @@ title: Áp dụng dấu đầu dòng trên văn bản trong Aspose.Note
 linktitle: Áp dụng dấu đầu dòng trên văn bản trong Aspose.Note
 second_title: Aspose.Note .NET API
 description: Tìm hiểu cách áp dụng dấu đầu dòng trên văn bản trong Aspose.Note for .NET để cải thiện tài liệu OneNote của bạn. Hãy làm theo hướng dẫn từng bước này để định dạng hiệu quả.
-type: docs
 weight: 10
 url: /vi/net/text-manipulation/apply-bullets-on-text/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Áp dụng dấu đầu dòng trên văn bản trong Aspose.Note
+
 ## Giới thiệu
 Chào mừng bạn đến với hướng dẫn từng bước này về cách áp dụng dấu đầu dòng vào văn bản bằng Aspose.Note for .NET. Aspose.Note là một thư viện mạnh mẽ cho phép các nhà phát triển làm việc liền mạch với các tệp Microsoft OneNote trong ứng dụng .NET của họ. Trong hướng dẫn này, chúng tôi sẽ hướng dẫn bạn quy trình áp dụng dấu đầu dòng vào văn bản, nâng cao sức hấp dẫn trực quan cho tài liệu OneNote của bạn.
 ## Điều kiện tiên quyết
@@ -86,3 +92,9 @@ Aspose.Note hỗ trợ nhiều phiên bản khác nhau của Microsoft OneNote, 
  Có, bạn có thể tải xuống bản dùng thử miễn phí[đây](https://releases.aspose.com/).
 ### Tôi có thể tìm thêm sự hỗ trợ và nguồn lực ở đâu?
  Bạn có thể truy cập diễn đàn cộng đồng Aspose.Note[đây](https://forum.aspose.com/c/note/28) để được hỗ trợ và thảo luận.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

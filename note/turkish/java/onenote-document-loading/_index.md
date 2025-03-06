@@ -3,10 +3,16 @@ title: OneNote Belgesi Yükleniyor
 linktitle: OneNote Belgesi Yükleniyor
 second_title: Aspose.Note Java API'si
 description: Aspose.Note for Java ile OneNote belgelerini yükleme, dönüştürme ve oluşturmaya ilişkin kapsamlı eğitimleri keşfedin. Belge işleme yeteneklerinizi zahmetsizce geliştirin.
-type: docs
 weight: 25
 url: /tr/java/onenote-document-loading/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# OneNote Belgesi Yükleniyor
+
 
 ## giriiş
 
@@ -97,3 +103,9 @@ OneNote belgelerini zahmetsizce yüklemek ve değiştirmek için Aspose.Note for
 Kusursuz entegrasyon için Aspose.Note'u kullanarak OneNote 2007 belgelerini Java'ya nasıl yükleyeceğinizi öğrenin.
 ### [Parola Korumalı OneNote Belgesini Yükleme - Java](./load-password-protected-onenote/)
 Aspose.Note for Java ile Java kullanarak parola korumalı OneNote belgelerini nasıl yükleyeceğinizi öğrenin.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

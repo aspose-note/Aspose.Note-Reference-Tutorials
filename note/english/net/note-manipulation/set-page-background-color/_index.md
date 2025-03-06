@@ -3,10 +3,16 @@ title: Set Background Color of Pages in Aspose.Note
 linktitle: Set Background Color of Pages in Aspose.Note
 second_title: Aspose.Note .NET API
 description: Learn how to set background color of pages in Aspose.Note documents using C# programming language with step-by-step guide.
-type: docs
 weight: 19
 url: /net/note-manipulation/set-page-background-color/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Set Background Color of Pages in Aspose.Note
+
 ## Introduction
 
 Aspose.Note for .NET allows developers to manipulate OneNote documents programmatically. One common task is setting the background color of pages within these documents. In this tutorial, we'll guide you through the process step by step.
@@ -97,3 +103,10 @@ A4: Yes, temporary licenses are available for testing and evaluation. You can ob
 ### Q5: Where can I find additional support or ask questions about Aspose.Note?
 
 A5: You can visit the [Aspose.Note forum](https://forum.aspose.com/c/note/28) for support and to connect with other users.
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

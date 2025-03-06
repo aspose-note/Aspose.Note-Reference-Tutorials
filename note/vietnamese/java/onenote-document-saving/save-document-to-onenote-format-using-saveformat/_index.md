@@ -3,10 +3,16 @@ title: Lưu tài liệu vào OneNote bằng SaveFormat - Aspose.Note
 linktitle: Lưu tài liệu vào OneNote bằng SaveFormat - Aspose.Note
 second_title: API Java Aspose.Note
 description: Tìm hiểu cách lưu tài liệu sang định dạng OneNote bằng Aspose.Note cho Java. Hãy làm theo hướng dẫn từng bước này để tích hợp liền mạch vào các ứng dụng Java của bạn.
-type: docs
 weight: 12
 url: /vi/java/onenote-document-saving/save-document-to-onenote-format-using-saveformat/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Lưu tài liệu vào OneNote bằng SaveFormat - Aspose.Note
+
 ## Giới thiệu
 
 Aspose.Note for Java là một thư viện mạnh mẽ cho phép các nhà phát triển làm việc với các tệp Microsoft OneNote theo chương trình. Lưu tài liệu sang định dạng OneNote bằng SaveFormat là một quá trình đơn giản. Trong hướng dẫn này, chúng ta sẽ thực hiện các bước cần thiết để hoàn thành nhiệm vụ này.
@@ -78,3 +84,9 @@ Trả lời 1: Aspose.Note for Java hỗ trợ nhiều phiên bản khác nhau c
 ### Câu hỏi 5: Có tùy chọn cấp phép tạm thời nào cho Aspose.Note dành cho Java không?
 
  Câu trả lời 5: Có, bạn có thể lấy giấy phép tạm thời cho Aspose.Note for Java từ[đây](https://purchase.aspose.com/temporary-license/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

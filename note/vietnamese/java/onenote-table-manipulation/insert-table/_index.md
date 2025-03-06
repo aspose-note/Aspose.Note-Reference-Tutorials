@@ -3,10 +3,16 @@ title: Chèn bảng trong OneNote - Aspose.Note
 linktitle: Chèn bảng trong OneNote - Aspose.Note
 second_title: API Java Aspose.Note
 description: Tìm hiểu cách chèn bảng trong OneNote bằng Aspose.Note for Java. Hướng dẫn từng bước để tạo nội dung động. Nâng cao tài liệu của bạn một cách dễ dàng.
-type: docs
 weight: 16
 url: /vi/java/onenote-table-manipulation/insert-table/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Chèn bảng trong OneNote - Aspose.Note
+
 ## Giới thiệu
 Nếu bạn đang tìm cách nâng cao tài liệu OneNote của mình bằng cách chèn bảng theo chương trình, Aspose.Note for Java là giải pháp phù hợp cho bạn. Trong hướng dẫn từng bước này, chúng tôi sẽ hướng dẫn bạn quy trình chèn bảng vào tài liệu OneNote bằng thư viện Java mạnh mẽ của Aspose.Note.
 ## Điều kiện tiên quyết
@@ -101,3 +107,9 @@ Trả lời: Có, Aspose.Note for Java có thể được sử dụng trong cả
  Đ: Có, bạn có thể khám phá thư viện bằng một[dùng thử miễn phí](https://releases.aspose.com/).
 ### Câu hỏi: Làm cách nào để có được giấy phép tạm thời cho Aspose.Note cho Java?
  A: Nhận giấy phép tạm thời[đây](https://purchase.aspose.com/temporary-license/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

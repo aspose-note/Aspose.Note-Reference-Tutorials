@@ -3,10 +3,16 @@ title: Simpan Menggunakan Font Tertentu di Aspose.Note
 linktitle: Simpan Menggunakan Font Tertentu di Aspose.Note
 second_title: Aspose.Catatan .NET API
 description: Pelajari cara menyimpan dokumen dengan font tertentu di Aspose.Note untuk .NET. Sesuaikan pengaturan font dengan mudah untuk format dokumen yang konsisten.
-type: docs
 weight: 28
 url: /id/net/loading-and-saving-operations/save-using-specified-fonts/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Simpan Menggunakan Font Tertentu di Aspose.Note
+
 ## Perkenalan
 
 Dalam tutorial ini, kita akan mempelajari cara menyimpan dokumen menggunakan font tertentu di Aspose.Note untuk .NET. Kami akan mengeksplorasi berbagai metode untuk mencapai hal ini, langkah demi langkah.
@@ -131,3 +137,9 @@ A4: Ya, Aspose.Note memungkinkan penyematan font untuk memastikan portabilitas d
 ### Q5: Di mana saya bisa mendapatkan bantuan lebih lanjut dengan Aspose.Note?
 
  A5: Untuk bantuan atau dukungan teknis lebih lanjut, Anda dapat mengunjungi[Aspose.Catatan forum](https://forum.aspose.com/c/note/28).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

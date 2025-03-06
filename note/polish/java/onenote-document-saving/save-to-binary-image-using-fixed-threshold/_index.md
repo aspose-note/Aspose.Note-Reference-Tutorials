@@ -3,10 +3,16 @@ title: Zapisz w obrazie binarnym przy użyciu stałego progu w programie OneNote
 linktitle: Zapisz w obrazie binarnym przy użyciu stałego progu w programie OneNote
 second_title: Aspose.Note API Java
 description: Bez wysiłku zapisuj dokumenty Microsoft OneNote jako obrazy binarne, korzystając ze stałego progu w Aspose.Note Java. Zwiększ swoje możliwości manipulowania plikami OneNote.
-type: docs
 weight: 14
 url: /pl/java/onenote-document-saving/save-to-binary-image-using-fixed-threshold/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Zapisz w obrazie binarnym przy użyciu stałego progu w programie OneNote
+
 ## Wstęp
 
 Aspose.Note dla Java to potężny interfejs API, który umożliwia programistom programową pracę z plikami Microsoft OneNote. W tym samouczku omówimy, jak zapisać dokument jako obraz binarny przy użyciu stałego progu. Aby to osiągnąć, wykonaj poniższe czynności.
@@ -91,3 +97,9 @@ O4: Tak, możesz przetwarzać wsadowo wiele dokumentów OneNote, iterując po ka
 ### P5: Czy dostępna jest pomoc techniczna dla Aspose.Note dla Java?
 
  Odpowiedź 5: Tak, pomoc techniczna jest dostępna za pośrednictwem[Forum Aspose.Note](https://forum.aspose.com/c/note/28), gdzie możesz zadawać pytania i szukać pomocy ekspertów.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

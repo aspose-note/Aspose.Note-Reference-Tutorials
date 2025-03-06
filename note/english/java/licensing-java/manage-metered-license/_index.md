@@ -3,10 +3,16 @@ title: Manage Metered License for OneNote in Java
 linktitle: Manage Metered License for OneNote in Java
 second_title: Aspose.Note Java API
 description: Learn how to manage metered licenses for OneNote in Java using Aspose.Note library. Control usage, monitor credits, and optimize costs efficiently.
-type: docs
 weight: 10
 url: /java/licensing-java/manage-metered-license/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Manage Metered License for OneNote in Java
+
 ## Introduction
 
 In this tutorial, we'll learn how to manage a metered license for OneNote using Aspose.Note for Java. Metered licensing allows you to monitor and control your usage based on credits, providing a flexible and cost-effective solution.
@@ -85,3 +91,10 @@ A4: Yes, you can download a free trial from [here](https://releases.aspose.com/)
 ### Q5: Where can I get support for Aspose.Note for Java?
 
 A5: You can get support from the Aspose community forums [here](https://forum.aspose.com/c/note/28).
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

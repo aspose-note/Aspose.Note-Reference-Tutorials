@@ -3,10 +3,16 @@ title: Trích xuất hình ảnh từ tài liệu Aspose.Note
 linktitle: Trích xuất hình ảnh từ tài liệu Aspose.Note
 second_title: Aspose.Note .NET API
 description: Tìm hiểu cách dễ dàng trích xuất hình ảnh từ tài liệu Aspose.Note bằng Aspose.Note for .NET. Nâng cao khả năng thao tác tài liệu của bạn với hướng dẫn toàn diện này.
-type: docs
 weight: 12
 url: /vi/net/images/extract-images/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Trích xuất hình ảnh từ tài liệu Aspose.Note
+
 ## Giới thiệu
 
 Bạn đang muốn trích xuất hình ảnh từ tài liệu Aspose.Note của mình một cách hiệu quả? Aspose.Note for .NET cung cấp một giải pháp mạnh mẽ để hoàn thành nhiệm vụ này một cách liền mạch. Trong hướng dẫn này, chúng tôi sẽ hướng dẫn từng bước quy trình để đảm bảo bạn có thể dễ dàng truy xuất hình ảnh từ tài liệu của mình.
@@ -91,3 +97,9 @@ Câu trả lời 3: Có, Aspose.Note for .NET hỗ trợ nhiều định dạng 
 ### Câu hỏi 5: Tôi có thể tìm kiếm sự trợ giúp hoặc hỗ trợ cho Aspose.Note dành cho .NET ở đâu?
 
  Câu trả lời 5: Đối với bất kỳ truy vấn hoặc hỗ trợ nào liên quan đến Aspose.Note dành cho .NET, bạn có thể truy cập[Diễn đàn Aspose.Note](https://forum.aspose.com/c/note/28) để tương tác với các chuyên gia và các nhà phát triển đồng nghiệp.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

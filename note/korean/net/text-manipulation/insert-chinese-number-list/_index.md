@@ -3,10 +3,16 @@ title: Aspose.Note 텍스트에 중국어 숫자 목록 삽입
 linktitle: Aspose.Note 텍스트에 중국어 숫자 목록 삽입
 second_title: Aspose.Note .NET API
 description: .NET 문서용 Aspose.Note에 중국어 숫자 목록을 쉽게 삽입하는 방법을 알아보세요. 이 단계별 가이드를 통해 문서 서식 지정 기술을 향상하세요.
-type: docs
 weight: 20
 url: /ko/net/text-manipulation/insert-chinese-number-list/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Aspose.Note 텍스트에 중국어 숫자 목록 삽입
+
 ## 소개
 중국어 번호 목록을 문서에 통합하여 .NET용 Aspose.Note 기술을 향상시키고 싶으십니까? 그렇다면, 당신은 바로 이곳에 있습니다! 이 튜토리얼에서는 .NET용 Aspose.Note를 사용하여 중국어 숫자 목록을 삽입하는 과정을 안내합니다. 이 강력한 라이브러리를 사용하면 OneNote 문서를 원활하게 조작할 수 있습니다.
 ## 전제조건
@@ -91,3 +97,9 @@ A: 포괄적인 탐색[Aspose.Note 문서](https://reference.aspose.com/note/net
  A: 임시 면허를 취득하세요[여기](https://purchase.aspose.com/temporary-license/).
 ### Q: Aspose.Note 관련 질문에 대해 도움을 구하거나 논의할 수 있는 곳은 어디입니까?
  답: 다음을 방문하세요.[Aspose.Note 지원 포럼](https://forum.aspose.com/c/note/28) 지역 사회 지원을 위해.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -3,10 +3,16 @@ title: Pagina-achtergrondkleur instellen in OneNote - Aspose.Note
 linktitle: Pagina-achtergrondkleur instellen in OneNote - Aspose.Note
 second_title: Aspose.Note Java-API
 description: Leer hoe u moeiteloos de pagina-achtergrondkleur in OneNote kunt instellen met Aspose.Note voor Java. Verbeter de visuele aantrekkingskracht van uw documenten met deze eenvoudige tutorial.
-type: docs
 weight: 20
 url: /nl/java/onenote-page-manipulation/set-page-background-color/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Pagina-achtergrondkleur instellen in OneNote - Aspose.Note
+
 ## Invoering
 
 In deze zelfstudie gaan we dieper in op het proces van het instellen van de pagina-achtergrondkleur in OneNote met behulp van Aspose.Note voor Java. Aspose.Note is een krachtige Java-bibliotheek waarmee ontwikkelaars OneNote-documenten programmatisch kunnen manipuleren. Het wijzigen van de achtergrondkleur van de pagina kan de visuele aantrekkingskracht van uw OneNote-documenten vergroten, waardoor ze aantrekkelijker en overzichtelijker worden.
@@ -100,3 +106,9 @@ A4: Zeker! U kunt gebruikmaken van een gratis proefperiode van Aspose.Note om de
 ### V5: Waar kan ik aanvullende ondersteuning of assistentie vinden met Aspose.Note?
 
 A5: Voor vragen of hulp kunt u het Aspose.Note-forum bezoeken of contact opnemen met hun ondersteuningsteam voor snelle hulp.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

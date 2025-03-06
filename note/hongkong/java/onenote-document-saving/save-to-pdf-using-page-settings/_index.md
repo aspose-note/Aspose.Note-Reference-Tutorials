@@ -3,10 +3,16 @@ title: 使用 OneNote 中的頁面設定儲存為 PDF - Aspose.Note
 linktitle: 使用 OneNote 中的頁面設定儲存為 PDF - Aspose.Note
 second_title: Aspose.Note Java API
 description: 了解如何使用 Aspose.Note 函式庫將 OneNote 文件儲存為 Java 中的 PDF。包含不同頁面設定的程式碼範例的逐步指南。
-type: docs
 weight: 19
 url: /zh-hant/java/onenote-document-saving/save-to-pdf-using-page-settings/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# 使用 OneNote 中的頁面設定儲存為 PDF - Aspose.Note
+
 ## 介紹
 
 在本教學中，我們將學習如何使用 Aspose.Note for Java 使用不同的頁面設定將 OneNote 文件儲存為 PDF 格式。我們將介紹兩種方法：使用 Letter 頁面設定儲存和使用無高度限制的 A4 頁面設定儲存。
@@ -112,3 +118,9 @@ A4：是的，您可以使用 Aspose.Note for Java 批次處理多個 OneNote �
 ### Q5：有沒有可供測試的試用版？
 
 A5：是的，您可以從網站上獲得 Aspose.Note for Java 的免費試用版。
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

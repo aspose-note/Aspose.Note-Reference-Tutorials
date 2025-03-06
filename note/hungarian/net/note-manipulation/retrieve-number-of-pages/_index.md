@@ -3,10 +3,16 @@ title: Az Aspose.Note dokumentum oldalainak számának lekérése
 linktitle: Az Aspose.Note dokumentum oldalainak számának lekérése
 second_title: Aspose.Note .NET API
 description: Ismerje meg, hogyan számolhatja meg az Aspose.Note dokumentum oldalait a C# használatával. Kövesse lépésenkénti útmutatónkat az egyszerű integráció érdekében.
-type: docs
 weight: 12
 url: /hu/net/note-manipulation/retrieve-number-of-pages/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Az Aspose.Note dokumentum oldalainak számának lekérése
+
 ## Bevezetés
 
 Az Aspose.Note for .NET egy hatékony könyvtár, amely lehetővé teszi a fejlesztők számára, hogy programozottan dolgozzanak Microsoft OneNote fájlokkal. Akár OneNote-dokumentumokat kell létrehoznia, kezelnie vagy konvertálnia, az Aspose.Note átfogó funkcionalitást biztosít a feladatok egyszerűsítéséhez. Ebben az oktatóanyagban az egyik alapvető műveletben fogunk elmélyülni: egy Aspose.Note dokumentum oldalszámának lekérésére C# használatával.
@@ -100,3 +106,9 @@ Az Aspose.Note dokumentumban lévő oldalak számának lekérése egyszerű foly
 ### 5. kérdés: Hogyan kaphatok műszaki támogatást az Aspose.Note-hoz?
 
  5. válasz: Kérhet segítséget, és kapcsolatba léphet a közösséggel a webhelyen[Aspose.Note támogatási fórum](https://forum.aspose.com/c/note/28).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

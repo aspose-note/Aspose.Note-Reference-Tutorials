@@ -3,10 +3,16 @@ title: Aspose Note .NET में पासवर्ड-संरक्षित
 linktitle: Aspose Note .NET में पासवर्ड-संरक्षित दस्तावेज़ लिखें
 second_title: Aspose.Note .NET API
 description: उन्नत सुरक्षा के लिए Aspose Note .NET में पासवर्ड-सुरक्षित दस्तावेज़ बनाने का तरीका जानें। चरण-दर-चरण ट्यूटोरियल शामिल है।
-type: docs
 weight: 26
 url: /hi/net/notebook-operations/write-password-protected-documents/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Aspose Note .NET में पासवर्ड-संरक्षित दस्तावेज़ लिखें
+
 ## परिचय
 
 इस ट्यूटोरियल में, हम .NET के लिए Aspose.Note का उपयोग करके पासवर्ड-सुरक्षित दस्तावेज़ बनाने की प्रक्रिया के बारे में विस्तार से जानेंगे। पासवर्ड सुरक्षा आपके दस्तावेज़ों में सुरक्षा की एक अतिरिक्त परत जोड़ती है, यह सुनिश्चित करती है कि केवल अधिकृत व्यक्ति ही उनकी सामग्री तक पहुँच सकते हैं। हम नामस्थान आयात करने से लेकर पासवर्ड सुरक्षा के लिए कोड लिखने तक, प्रत्येक चरण में आपका मार्गदर्शन करेंगे।
@@ -90,3 +96,9 @@ A4: हाँ, .NET के लिए Aspose.Note आपके दस्ताव
 ### Q5: क्या .NET के लिए Aspose.Note के लिए तकनीकी सहायता उपलब्ध है?
 
  A5: हाँ, तकनीकी सहायता उपलब्ध है[Aspose.नोट फोरम](https://forum.aspose.com/c/note/28), जहां आप विशेषज्ञों से सहायता और मार्गदर्शन प्राप्त कर सकते हैं।
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

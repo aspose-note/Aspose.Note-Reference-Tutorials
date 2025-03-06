@@ -3,10 +3,16 @@ title: Вставить таблицу в OneNote — Aspose.Note
 linktitle: Вставить таблицу в OneNote — Aspose.Note
 second_title: Aspose.Note Java API
 description: Научитесь вставлять таблицы в OneNote с помощью Aspose.Note для Java. Пошаговое руководство по созданию динамического контента. Улучшайте свои документы без особых усилий.
-type: docs
 weight: 16
 url: /ru/java/onenote-table-manipulation/insert-table/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Вставить таблицу в OneNote — Aspose.Note
+
 ## Введение
 Если вы хотите улучшить свои документы OneNote путем программной вставки таблиц, Aspose.Note для Java — ваше подходящее решение. В этом пошаговом руководстве мы покажем вам процесс вставки таблицы в документ OneNote с помощью мощной Java-библиотеки Aspose.Note.
 ## Предварительные условия
@@ -101,3 +107,9 @@ public static OutlineElement GetOutlineElementWithText(String text)
  О: Да, вы можете исследовать библиотеку с помощью[бесплатная пробная версия](https://releases.aspose.com/).
 ### Вопрос: Как получить временную лицензию на Aspose.Note для Java?
  О: Получите временную лицензию[здесь](https://purchase.aspose.com/temporary-license/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

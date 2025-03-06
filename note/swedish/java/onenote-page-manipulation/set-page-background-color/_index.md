@@ -3,10 +3,16 @@ title: Ställ in sidbakgrundsfärg i OneNote - Aspose.Note
 linktitle: Ställ in sidbakgrundsfärg i OneNote - Aspose.Note
 second_title: Aspose.Note Java API
 description: Lär dig hur du ställer in sidans bakgrundsfärg i OneNote utan ansträngning med Aspose.Note för Java. Förbättra det visuella tilltalande av dina dokument med denna enkla handledning.
-type: docs
 weight: 20
 url: /sv/java/onenote-page-manipulation/set-page-background-color/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Ställ in sidbakgrundsfärg i OneNote - Aspose.Note
+
 ## Introduktion
 
 I den här handledningen kommer vi att fördjupa oss i processen att ställa in sidans bakgrundsfärg i OneNote med Aspose.Note för Java. Aspose.Note är ett kraftfullt Java-bibliotek som gör det möjligt för utvecklare att manipulera OneNote-dokument programmatiskt. Att ändra sidans bakgrundsfärg kan förbättra det visuella tilltalande av dina OneNote-dokument, vilket gör dem mer engagerande och organiserade.
@@ -100,3 +106,9 @@ A4: Visst! Du kan använda en gratis testversion av Aspose.Note för att utforsk
 ### F5: Var kan jag hitta ytterligare support eller hjälp med Aspose.Note?
 
 S5: För eventuella frågor eller hjälp kan du besöka Aspose.Note-forumet eller kontakta deras supportteam för snabb hjälp.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

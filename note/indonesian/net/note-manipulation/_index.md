@@ -3,10 +3,16 @@ title: Menguasai Integrasi OneNote dengan Aspose.Note untuk .NET
 linktitle: Manipulasi Catatan
 second_title: Aspose.Catatan .NET API
 description: Buka kekuatan Aspose.Note untuk .NET dengan tutorial kami yang berfokus pada OneNote. Selesaikan konflik, buat dokumen dinamis, dan jelajahi manipulasi halaman yang efisien.
-type: docs
 weight: 27
 url: /id/net/note-manipulation/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Menguasai Integrasi OneNote dengan Aspose.Note untuk .NET
+
 
 ## Perkenalan
 
@@ -69,3 +75,9 @@ Pelajari cara mengelola revisi dokumen Aspose.Note secara efektif menggunakan As
 Pelajari cara mengatur warna latar belakang halaman di dokumen Aspose.Note menggunakan bahasa pemrograman C# dengan panduan langkah demi langkah.
 ### [Bekerja dengan Revisi Halaman - Tips Aspose.Note](./working-with-page-revisions/)
 Pelajari cara mengelola revisi halaman Microsoft OneNote dengan Aspose.Note. Panduan langkah demi langkah untuk integrasi dan kontrol versi yang lancar di aplikasi .NET Anda.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

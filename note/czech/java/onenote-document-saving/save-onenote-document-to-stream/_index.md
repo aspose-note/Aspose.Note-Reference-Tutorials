@@ -3,10 +3,16 @@ title: Uložit dokument OneNotu do streamu – Aspose.Note
 linktitle: Uložit dokument OneNotu do streamu – Aspose.Note
 second_title: Aspose.Note Java API
 description: Přečtěte si, jak uložit dokumenty OneNotu do streamu pomocí Aspose.Note pro Java. Postupujte podle našeho podrobného návodu pro efektivní integraci do vašich aplikací Java.
-type: docs
 weight: 13
 url: /cs/java/onenote-document-saving/save-onenote-document-to-stream/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Uložit dokument OneNotu do streamu – Aspose.Note
+
 ## Úvod
 
 Vítejte v našem kurzu o používání Aspose.Note pro Java k ukládání dokumentů OneNotu do streamu. Aspose.Note je výkonná knihovna Java, která umožňuje vývojářům pracovat se soubory Microsoft OneNote programově. V tomto tutoriálu vás provedeme procesem uložení dokumentu OneNotu do streamu pomocí Aspose.Note.
@@ -73,3 +79,9 @@ Odpověď 1: Ano, Aspose.Note podporuje ukládání dokumentů v různých form�
 ### Q5: Potřebuji dočasnou licenci pro účely hodnocení?
 
  A5: Ano, můžete získat dočasnou licenci od[tady](https://purchase.aspose.com/temporary-license/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

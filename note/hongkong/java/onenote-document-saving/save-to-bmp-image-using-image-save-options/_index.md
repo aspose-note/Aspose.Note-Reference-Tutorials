@@ -3,10 +3,16 @@ title: 使用 OneNote 中的影像儲存選項儲存為 BMP 影像
 linktitle: 使用 OneNote 中的影像儲存選項儲存為 BMP 影像
 second_title: Aspose.Note Java API
 description: 了解如何使用 Aspose.Note for Java 以程式設計方式將 OneNote 文件儲存到 BMP 映像。帶有程式碼範例的分步指南。
-type: docs
 weight: 16
 url: /zh-hant/java/onenote-document-saving/save-to-bmp-image-using-image-save-options/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# 使用 OneNote 中的影像儲存選項儲存為 BMP 影像
+
 ## 介紹
 
 Aspose.Note for Java 是一個功能強大的函式庫，使 Java 開發人員能夠以程式設計方式使用 Microsoft OneNote 檔案。使用 Aspose.Note for Java，您可以無縫地建立、操作和轉換 OneNote 文件。在本教程中，我們將深入研究如何使用 Aspose.Note for Java 提供的圖像保存選項將 OneNote 文件儲存為 BMP 圖像。
@@ -79,3 +85,9 @@ A4：是的，您可以使用 Aspose.Note for Java 以程式方式操作 OneNote
 ### Q5：Aspose.Note for Java 提供技術支援嗎？
 
  A5：是的，Aspose 為其產品提供技術支援。您可以訪問[Aspose.Note 論壇](https://forum.aspose.com/c/note/28)尋求幫助。
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

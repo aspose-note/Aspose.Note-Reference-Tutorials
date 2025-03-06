@@ -3,10 +3,16 @@ title: Buat Tabel dengan Kolom Terkunci menggunakan Aspose.Note
 linktitle: Buat Tabel dengan Kolom Terkunci menggunakan Aspose.Note
 second_title: Aspose.Catatan .NET API
 description: Pelajari cara membuat tabel dengan kolom terkunci menggunakan Aspose.Note untuk .NET. Panduan langkah demi langkah untuk tugas pemrosesan dokumen yang efisien.
-type: docs
 weight: 12
 url: /id/net/table-manipulation/create-table-locked-columns/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Buat Tabel dengan Kolom Terkunci menggunakan Aspose.Note
+
 ## Perkenalan
 
 Membuat tabel dengan kolom terkunci merupakan persyaratan umum dalam aplikasi pemrosesan dokumen. Aspose.Note untuk .NET menyediakan alat canggih untuk menyelesaikan tugas ini secara efisien. Dalam tutorial ini, kami akan memandu Anda melalui proses pembuatan tabel dengan kolom terkunci langkah demi langkah menggunakan Aspose.Note untuk .NET.
@@ -147,3 +153,9 @@ A4: Ya, Anda dapat mengakses dukungan teknis melalui[Aspose.Catatan forum](https
 ### Q5: Dapatkah saya mencoba Aspose.Note untuk .NET sebelum membeli?
 
  A5: Ya, Anda dapat mengunduh Aspose.Note versi uji coba gratis untuk .NET dari[Di Sini](https://releases.aspose.com/) untuk mengevaluasi fitur dan kompatibilitasnya dengan kebutuhan Anda.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

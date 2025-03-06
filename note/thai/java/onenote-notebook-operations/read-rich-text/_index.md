@@ -3,10 +3,16 @@ title: อ่าน Rich Text จาก OneNote Notebook - Aspose.Note
 linktitle: อ่าน Rich Text จาก OneNote Notebook - Aspose.Note
 second_title: Aspose.Note Java API
 description: เรียนรู้วิธีอ่าน Rich Text จากสมุดบันทึก OneNote โดยใช้ Aspose.Note สำหรับ Java ปรับปรุงแอปพลิเคชัน Java ของคุณด้วยการผสานรวม OneNote ได้อย่างราบรื่น
-type: docs
 weight: 23
 url: /th/java/onenote-notebook-operations/read-rich-text/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# อ่าน Rich Text จาก OneNote Notebook - Aspose.Note
+
 ## การแนะนำ
 
 ในบทช่วยสอนนี้ เราจะเจาะลึกวิธีการใช้ Aspose.Note สำหรับ Java เพื่ออ่าน Rich Text จากสมุดบันทึก OneNote Aspose.Note เป็น Java API อันทรงพลังที่ช่วยให้นักพัฒนาทำงานกับไฟล์ Microsoft OneNote ได้อย่างราบรื่น เมื่อทำตามขั้นตอนที่อธิบายไว้ด้านล่าง คุณจะสามารถดึงข้อมูล Rich Text ได้อย่างง่ายดาย ทำให้คุณสามารถจัดการและวิเคราะห์เนื้อหา OneNote ได้อย่างง่ายดาย
@@ -91,3 +97,9 @@ for (RichText richTextNode : allRichTextNodes) {
 ### คำถามที่ 5: ฉันจะรับการสนับสนุนสำหรับ Aspose.Note สำหรับ Java ได้ที่ไหน
 
  A5: คุณสามารถค้นหาการสนับสนุนและความช่วยเหลือได้ที่[ฟอรั่ม Aspose.Note](https://forum.aspose.com/c/note/28).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

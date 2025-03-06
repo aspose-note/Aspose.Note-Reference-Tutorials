@@ -3,10 +3,16 @@ title: Nastavení názvu stránky ve stylu Microsoft OneNote – Aspose.Note
 linktitle: Nastavení názvu stránky ve stylu Microsoft OneNote – Aspose.Note
 second_title: Aspose.Note Java API
 description: Přečtěte si, jak nastavit názvy stránek ve stylu Microsoft OneNote pomocí Aspose.Note pro Java. Vylepšete své dokumenty Java pomocí profesionálního formátování.
-type: docs
 weight: 23
 url: /cs/java/onenote-text-manipulation/setting-page-title-in-microsoft-onenote-style/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Nastavení názvu stránky ve stylu Microsoft OneNote – Aspose.Note
+
 ## Úvod
 dynamickém světě vývoje v Javě je vytváření vizuálně přitažlivých a strukturovaných dokumentů zásadní. Pokud chcete vylepšit své aplikace Java pomocí názvů stránek ve stylu Microsoft OneNote, Aspose.Note for Java je vaším řešením. V tomto komplexním tutoriálu vás provedeme procesem nastavení názvů stránek ve stylu OneNote pomocí Aspose.Note, čímž zajistíme, že vaše dokumenty vyniknou s profesionálním nádechem.
 ## Předpoklady
@@ -72,3 +78,9 @@ Aspose.Note je navržen tak, aby bezproblémově spolupracoval s dalšími kniho
  Požádejte o pomoc komunitu Aspose.Note na adrese[Fórum Aspose.Note](https://forum.aspose.com/c/note/28).
 ### Je k dispozici zkušební verze?
  Ano, můžete prozkoumat možnosti Aspose.Note pomocí bezplatné zkušební verze od[tady](https://releases.aspose.com/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -3,10 +3,16 @@ title: Thao tác văn bản trong OneNote với Aspose.Note cho .NET
 linktitle: Thao tác văn bản
 second_title: Aspose.Note .NET API
 description: Chuyển đổi tài liệu OneNote của bạn bằng Aspose.Note for .NET! Tìm hiểu các kỹ thuật thao tác văn bản, từ áp dụng dấu đầu dòng và đánh số đến thay đổi kiểu.
-type: docs
 weight: 31
 url: /vi/net/text-manipulation/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Thao tác văn bản trong OneNote với Aspose.Note cho .NET
+
 
 ## Giới thiệu
 
@@ -110,3 +116,9 @@ Khai phá tiềm năng của Aspose.Note dành cho .NET với hướng dẫn t�
 Khám phá sức mạnh của Aspose.Note dành cho .NET với hướng dẫn từng bước của chúng tôi về cách đặt kiểu đoạn văn mặc định. Nâng cao kỹ năng thao tác tài liệu của bạn một cách dễ dàng.
 ### [Đặt ngôn ngữ soát lỗi cho văn bản trong Aspose.Note](./set-proofing-language-text/)
 Mở khóa thao tác văn bản mạnh mẽ với Aspose.Note for .NET. Thiết lập ngôn ngữ soát lỗi dễ dàng với hướng dẫn từng bước. Hãy nâng cao các dự án .NET của bạn ngay bây giờ!
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

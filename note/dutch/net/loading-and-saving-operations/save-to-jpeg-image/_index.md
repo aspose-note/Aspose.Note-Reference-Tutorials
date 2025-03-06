@@ -3,10 +3,16 @@ title: Opslaan als JPEG-afbeelding in Aspose.Note
 linktitle: Opslaan als JPEG-afbeelding in Aspose.Note
 second_title: Aspose.Note .NET API
 description: Leer hoe u OneNote-documenten moeiteloos kunt opslaan in JPEG-afbeeldingen met Aspose.Note voor .NET. Stap-voor-stap handleiding inbegrepen.
-type: docs
 weight: 25
 url: /nl/net/loading-and-saving-operations/save-to-jpeg-image/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Opslaan als JPEG-afbeelding in Aspose.Note
+
 ## Invoering
 
 In deze zelfstudie gaan we dieper in op het gebruik van Aspose.Note voor .NET om een document in JPEG-indeling op te slaan. Aspose.Note is een robuuste bibliotheek waarmee ontwikkelaars programmatisch met Microsoft OneNote-bestanden kunnen werken. We begeleiden u stap voor stap door het proces, zodat u elk aspect grondig begrijpt.
@@ -83,3 +89,9 @@ A3: Ja, Aspose.Note ondersteunt het opslaan van documenten in verschillende afbe
 ### Vraag 5: Hoe kan ik hulp krijgen als ik problemen tegenkom?
 
  A5: U kunt hulp zoeken op het Aspose-communityforum[hier](https://forum.aspose.com/c/note/28)of neem contact op met hun ondersteuningsteam voor persoonlijke hulp.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

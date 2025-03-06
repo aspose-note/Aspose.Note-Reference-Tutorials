@@ -3,10 +3,16 @@ title: OneNote ノートブックの操作
 linktitle: OneNote ノートブックの操作
 second_title: Aspose.Note Java API
 description: OneNote ノートブック操作チュートリアルで、Aspose.Note for Java の可能性を最大限に引き出します。 Java アプリを強化するためのステップバイステップのガイドを提供します。
-type: docs
 weight: 28
 url: /ja/java/onenote-notebook-operations/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# OneNote ノートブックの操作
+
 
 ## 導入
 
@@ -66,3 +72,9 @@ Aspose.Note for Java を使用して OneNote Notebook からドキュメント�
 Aspose.Note for Java を使用して OneNote のストリームにノートブックを保存する方法を学習します。効率的なノートブック管理で生産性を向上させます。
 ### [OneNote でパスワードで保護されたドキュメントを作成する - Aspose.Note](./write-password-protected-document/)
 Aspose.Note for Java を使用して OneNote でパスワードで保護されたドキュメントを作成する方法を学びます。わかりやすい手順でセキュリティを確保します。
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

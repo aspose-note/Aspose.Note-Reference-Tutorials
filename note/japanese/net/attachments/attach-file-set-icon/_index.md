@@ -3,10 +3,16 @@ title: Aspose.Note にファイルを添付してアイコンを設定する
 linktitle: Aspose.Note にファイルを添付してアイコンを設定する
 second_title: Aspose.Note .NET API
 description: Aspose.Note for .NET でファイルを添付し、アイコンを設定する方法を学びます。このステップバイステップのチュートリアルで .NET アプリケーションを強化します。
-type: docs
 weight: 10
 url: /ja/net/attachments/attach-file-set-icon/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Aspose.Note にファイルを添付してアイコンを設定する
+
 ## 導入
 
 .NET 開発の分野では、Aspose.Note は Microsoft OneNote ドキュメントをプログラムで操作するための強力なツールとして際立っています。開発者は、その機能を活用して、アプリケーション内での OneNote ファイルの作成、編集、管理に関連するさまざまなタスクを自動化できます。重要な機能の 1 つは、メモにファイルを添付し、それらの添付ファイルにアイコンを設定する機能です。このチュートリアルでは、Aspose.Note for .NET を使用してファイルを添付し、アイコンを設定するプロセスを詳しく説明します。
@@ -125,3 +131,9 @@ A4: Aspose.Note は主に、ローカルに保存されているファイル、�
 ### Q5: Aspose.Note for .NET の添付ファイルのサイズ制限はありますか?
 
 A5: Aspose.Note は添付ファイルに特定のサイズ制限を課しませんが、システム リソースとパフォーマンスの考慮事項に基づいて実際的な制限が適用される場合があります。
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

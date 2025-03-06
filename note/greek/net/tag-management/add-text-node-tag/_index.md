@@ -3,10 +3,16 @@ title: Προσθήκη κόμβου κειμένου με ετικέτα στο
 linktitle: Προσθήκη κόμβου κειμένου με ετικέτα στο Aspose.Note
 second_title: Aspose.Note .NET API
 description: Μάθετε πώς να προσθέτετε κόμβους κειμένου με ετικέτες σε έγγραφα OneNote χρησιμοποιώντας το Aspose.Note για .NET.
-type: docs
 weight: 12
 url: /el/net/tag-management/add-text-node-tag/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Προσθήκη κόμβου κειμένου με ετικέτα στο Aspose.Note
+
 ## Εισαγωγή
 
 Το Aspose.Note για .NET είναι μια ισχυρή βιβλιοθήκη που επιτρέπει στους προγραμματιστές να δημιουργούν, να χειρίζονται και να μετατρέπουν αρχεία Microsoft OneNote μέσω προγραμματισμού χρησιμοποιώντας το πλαίσιο .NET. Σε αυτό το σεμινάριο, θα διερευνήσουμε πώς να προσθέσετε έναν κόμβο κειμένου με μια ετικέτα σε ένα έγγραφο του OneNote χρησιμοποιώντας το Aspose.Note για .NET.
@@ -107,3 +113,9 @@ A4: Ναι, το Aspose.Note για .NET υποστηρίζει κρυπτογρ
 ### Ε5: Πού μπορώ να βρω περισσότερους πόρους και υποστήριξη για το Aspose.Note για .NET;
 
  A5: Μπορείτε να εξερευνήσετε το[Aspose.Note για τεκμηρίωση .NET](https://reference.aspose.com/note/net/)και ζητήστε βοήθεια από το[Aspose.Note φόρουμ](https://forum.aspose.com/c/note/28).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

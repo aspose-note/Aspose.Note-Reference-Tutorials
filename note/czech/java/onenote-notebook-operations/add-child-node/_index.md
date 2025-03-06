@@ -3,10 +3,16 @@ title: Přidat podřízený uzel v poznámkovém bloku OneNotu – Aspose.Note
 linktitle: Přidat podřízený uzel v poznámkovém bloku OneNotu – Aspose.Note
 second_title: Aspose.Note Java API
 description: Naučte se, jak programově přidávat podřízené uzly do poznámkových bloků OneNotu pomocí Aspose.Note pro Java. Zlepšete svou organizaci poznámek bez námahy.
-type: docs
 weight: 11
 url: /cs/java/onenote-notebook-operations/add-child-node/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Přidat podřízený uzel v poznámkovém bloku OneNotu – Aspose.Note
+
 ## Úvod
 
 OneNote je výkonný nástroj pro organizaci vašich poznámek a nápadů. Aspose.Note pro Java poskytuje pohodlné způsoby, jak programově manipulovat se soubory OneNotu. V tomto kurzu si krok za krokem projdeme proces přidávání podřízeného uzlu do poznámkového bloku OneNotu.
@@ -89,3 +95,9 @@ Odpověď 4: Ano, Aspose.Note for Java můžete snadno integrovat do svých proj
 ### Otázka 5: Existuje komunitní fórum, kde mohu vyhledat pomoc a pokyny pro používání Aspose.Note pro Java?
 
  A5: Ano, můžete navštívit[Aspose.Note fórum](https://forum.aspose.com/c/note/28) klást otázky, sdílet znalosti a komunikovat s ostatními uživateli a odborníky.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

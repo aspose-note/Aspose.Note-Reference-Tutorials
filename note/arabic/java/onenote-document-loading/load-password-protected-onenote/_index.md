@@ -3,10 +3,16 @@ title: قم بتحميل مستند OneNote المحمي بكلمة مرور - J
 linktitle: قم بتحميل مستند OneNote المحمي بكلمة مرور - Java
 second_title: Aspose.Note جافا API
 description: أطلق العنان لإمكانات Aspose.Note لـ Java في التعامل مع مستندات OneNote المحمية بكلمة مرور دون عناء. ارفع مستوى إدارة مستندات Java لديك باستخدام Aspose.Note.
-type: docs
 weight: 27
 url: /ar/java/onenote-document-loading/load-password-protected-onenote/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# قم بتحميل مستند OneNote المحمي بكلمة مرور - Java
+
 ## مقدمة
 
 في مجال إدارة المستندات ومعالجتها، يظهر Aspose.Note for Java كأداة قوية تسهل التعامل السلس مع مستندات OneNote بوظائف قوية. في هذا البرنامج التعليمي، سوف نتعمق في عملية تحميل مستندات OneNote المحمية بكلمة مرور باستخدام Java، مما يفتح إمكانات Aspose.Note للتعامل مع الملفات المشفرة دون عناء.
@@ -93,3 +99,9 @@ System.out.println(doc.getFileFormat());
 ### س5: هل يمكنني دمج Aspose.Note for Java في كل من تطبيقات سطح المكتب والويب؟
 
 ج5: نعم، يمكن دمج Aspose.Note for Java بسلاسة في كل من تطبيقات سطح المكتب والويب، مما يوفر المرونة والتنوع عبر الأنظمة الأساسية المختلفة.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

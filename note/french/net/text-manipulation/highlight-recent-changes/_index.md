@@ -3,10 +3,16 @@ title: Mettre en surbrillance toutes les modifications récentes dans le texte A
 linktitle: Mettre en surbrillance toutes les modifications récentes dans le texte Aspose.Note
 second_title: API Aspose.Note .NET
 description: Améliorez vos documents Note avec Aspose.Note pour .NET ! Apprenez à mettre en évidence les modifications récentes du texte avec ce didacticiel étape par étape.
-type: docs
 weight: 19
 url: /fr/net/text-manipulation/highlight-recent-changes/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Mettre en surbrillance toutes les modifications récentes dans le texte Aspose.Note
+
 ## Introduction
 Cherchez-vous à ajouter des fonctionnalités dynamiques et visuellement attrayantes à vos documents Note à l’aide de .NET ? Aspose.Note pour .NET est une solution puissante qui vous permet de manipuler et d'améliorer vos fichiers Note de manière transparente. Dans ce didacticiel, nous aborderons un aspect spécifique : la mise en évidence de toutes les modifications récentes dans le texte Aspose.Note.
 ## Conditions préalables
@@ -70,3 +76,9 @@ Vous pouvez incorporer des blocs try-catch pour gérer les exceptions et offrir 
 Absolument! Aspose.Note offre une large gamme de fonctionnalités pour le formatage du texte, notamment les styles de police, les tailles, etc.
 ### Puis-je intégrer cette solution dans une application web ?
 Oui, vous pouvez intégrer Aspose.Note pour .NET dans des applications Web pour améliorer les capacités de traitement de documents.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

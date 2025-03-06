@@ -3,10 +3,16 @@ title: Integrasi Tugas dan Outlook
 linktitle: Integrasi Tugas dan Outlook
 second_title: Aspose.Catatan Java API
 description: Buka potensi Aspose.Note Java dengan tutorial kami tentang mengintegrasikan tugas Outlook ke OneNote. Tingkatkan keterampilan pemrosesan dokumen Anda dengan tutorial kami.
-type: docs
 weight: 35
 url: /id/java/task-and-outlook-integration/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Integrasi Tugas dan Outlook
+
 
 ## Perkenalan
 
@@ -38,3 +44,9 @@ Saat Anda memulai perjalanan ini dengan Aspose.Note untuk Java, ingatlah bahwa e
 ## Tutorial Integrasi Tugas dan Outlook
 ### [Dapatkan Tugas Outlook di OneNote - Aspose.Note](./get-outlook-task/)
 Jelajahi kekuatan Aspose.Note untuk Java dalam mengekstraksi tugas Outlook dari OneNote dengan mudah. Ikuti panduan langkah demi langkah kami dan tingkatkan kemampuan pemrosesan dokumen Anda.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

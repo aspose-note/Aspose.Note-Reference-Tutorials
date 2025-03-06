@@ -3,10 +3,16 @@ title: Read Rich Text in Aspose Note .NET
 linktitle: Read Rich Text in Aspose Note .NET
 second_title: Aspose.Note .NET API
 description: Learn how to read rich text from OneNote notebooks programmatically using Aspose.Note for .NET. Follow our step-by-step tutorial for easy integration.
-type: docs
 weight: 23
 url: /net/notebook-operations/read-rich-text/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Read Rich Text in Aspose Note .NET
+
 ## Introduction
 
 In this tutorial, we will explore how to read rich text using Aspose.Note for .NET. Aspose.Note is a powerful API that enables developers to work with Microsoft OneNote documents programmatically, offering a wide range of functionalities for creating, editing, and manipulating OneNote files.
@@ -97,3 +103,10 @@ A4: Yes, you can purchase a temporary license for Aspose.Note for .NET from the 
 ### Q5: Where can I find detailed documentation for Aspose.Note for .NET?
 
 A5: You can find comprehensive documentation for Aspose.Note for .NET on the [reference page](https://reference.aspose.com/note/net/).
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

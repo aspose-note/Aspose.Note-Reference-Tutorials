@@ -3,10 +3,16 @@ title: Neuen Bildknoten mit Tag in OneNote hinzufügen – Aspose.Note
 linktitle: Neuen Bildknoten mit Tag in OneNote hinzufügen – Aspose.Note
 second_title: Aspose.Note Java API
 description: Erfahren Sie, wie Sie mit Aspose.Note für Java einen neuen Bildknoten mit einem Tag in OneNote hinzufügen. Verbessern Sie mühelos Ihre Java-Programmierkenntnisse.
-type: docs
 weight: 10
 url: /de/java/onenote-tag-operations/add-new-image-node-with-tag/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Neuen Bildknoten mit Tag in OneNote hinzufügen – Aspose.Note
+
 ## Einführung
 Im Bereich der Java-Programmierung sticht Aspose.Note als leistungsstarkes Tool für die einfache Handhabung von OneNote-Dokumenten hervor. Wenn Sie Ihre Fähigkeiten verbessern und lernen möchten, wie Sie mit Aspose.Note einen neuen Bildknoten mit einem Tag in OneNote hinzufügen, sind Sie hier genau richtig. Diese Schritt-für-Schritt-Anleitung führt Sie durch den Prozess und stellt sicher, dass Sie jedes Konzept gründlich verstehen.
 ## Voraussetzungen
@@ -96,3 +102,9 @@ Glückwunsch! Sie haben mit Aspose.Note für Java erfolgreich einen neuen Bildkn
  Besuchen Sie das Community-Forum[Hier](https://forum.aspose.com/c/note/28) zur Unterstützung.
 ### Benötige ich eine temporäre Lizenz?
  Bei Bedarf können Sie eine temporäre Lizenz erwerben[Hier](https://purchase.aspose.com/temporary-license/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

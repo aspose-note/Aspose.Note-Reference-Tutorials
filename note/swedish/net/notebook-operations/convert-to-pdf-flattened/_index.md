@@ -3,10 +3,16 @@ title: Konvertera anteckningsböcker till PDF (tillplattade) i Aspose Note .NET
 linktitle: Konvertera anteckningsböcker till PDF (tillplattade) i Aspose Note .NET
 second_title: Aspose.Note .NET API
 description: Lär dig hur du enkelt konverterar OneNote-anteckningsböcker till tillplattade PDF-filer med Aspose.Note för .NET. Bevara ditt innehåll sömlöst.
-type: docs
 weight: 15
 url: /sv/net/notebook-operations/convert-to-pdf-flattened/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Konvertera anteckningsböcker till PDF (tillplattade) i Aspose Note .NET
+
 ## Introduktion
 
 Vill du konvertera dina OneNote-anteckningsböcker till tillplattade PDF-filer med Aspose Note .NET? Du är på rätt plats! I den här handledningen går vi igenom processen steg för steg.
@@ -91,3 +97,9 @@ A3: Absolut! Aspose.Note tillhandahåller omfattande alternativ för anpassning 
 ### F5: Var kan jag få support om jag stöter på några problem?
 
  S5: Du kan söka stöd från Aspose-gemenskapen på[Aspose.Note-forum](https://forum.aspose.com/c/note/28).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

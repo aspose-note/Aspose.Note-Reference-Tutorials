@@ -3,10 +3,16 @@ title: Extraia texto das linhas da tabela em Aspose.Note
 linktitle: Extraia texto das linhas da tabela em Aspose.Note
 second_title: API Aspose.Note .NET
 description: Aprenda como extrair texto de linhas de tabela no Aspose.Note for .NET com este tutorial abrangente.
-type: docs
 weight: 14
 url: /pt/net/table-manipulation/extract-text-row/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Extraia texto das linhas da tabela em Aspose.Note
+
 ## Introdução
 
 No domínio do processamento de documentos, Aspose.Note for .NET se destaca como uma solução robusta que capacita os desenvolvedores a manipular com eficiência os arquivos do OneNote de forma programática. Entre seus inúmeros recursos, extrair texto das linhas da tabela é uma tarefa comum que os desenvolvedores encontram. Este tutorial irá guiá-lo através do processo de extração de texto de linhas da tabela usando Aspose.Note for .NET.
@@ -98,3 +104,9 @@ A2: Com certeza, Aspose.Note for .NET oferece amplas opções de formatação pa
 ### Q5: Posso experimentar o Aspose.Note para .NET antes de comprar?
 
  A5: Certamente, você pode aproveitar uma avaliação gratuita do[página de lançamento](https://releases.aspose.com/) para explorar seus recursos e capacidades.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -3,10 +3,16 @@ title: Eliminar nodos secundarios en Aspose Note .NET
 linktitle: Eliminar nodos secundarios en Aspose Note .NET
 second_title: Aspose.Nota .NET API
 description: Aprenda cómo eliminar nodos secundarios en Aspose.Note para .NET sin esfuerzo. Simplifique la administración de archivos de OneNote con esta guía paso a paso.
-type: docs
 weight: 24
 url: /es/net/notebook-operations/remove-child-nodes/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Eliminar nodos secundarios en Aspose Note .NET
+
 ## Introducción
 
 En este tutorial, exploraremos cómo eliminar de manera eficiente nodos secundarios usando Aspose.Note para .NET. Aspose.Note es una poderosa biblioteca que permite a los desarrolladores trabajar con archivos de Microsoft OneNote mediante programación. Ya sea que esté administrando cuadernos, secciones o páginas individuales, Aspose.Note simplifica el proceso con su API intuitiva. Aquí, nos centraremos específicamente en eliminar nodos secundarios de un cuaderno.
@@ -92,3 +98,9 @@ R4: ¡Absolutamente! Aspose.Note ofrece funciones sólidas para crear, leer y mo
 ### P5: ¿Dónde puedo encontrar soporte adicional para Aspose.Note?
 
  R5: Para cualquier ayuda o consulta adicional, puede visitar el[Foro Aspose.Note](https://forum.aspose.com/c/note/28) donde expertos y compañeros desarrolladores están disponibles para ayudar.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

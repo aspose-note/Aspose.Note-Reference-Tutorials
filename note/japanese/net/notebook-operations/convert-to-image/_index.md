@@ -3,10 +3,16 @@ title: Aspose Note .NET でノートブックをイメージに変換する
 linktitle: Aspose Note .NET でノートブックをイメージに変換する
 second_title: Aspose.Note .NET API
 description: Aspose.Note for .NET を使用して OneNote ノートブックを画像に変換する方法を学習します。シームレスな統合については、このステップバイステップ ガイドに従ってください。
-type: docs
 weight: 11
 url: /ja/net/notebook-operations/convert-to-image/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Aspose Note .NET でノートブックをイメージに変換する
+
 ## 導入
 
 このチュートリアルでは、Aspose.Note for .NET を使用してノートブックを画像に変換する方法を検討します。 Aspose.Note は、開発者がプログラムで Microsoft OneNote ファイルを操作できるようにする強力な API であり、幅広い機能を有効にします。ノートブックの画像への変換は、プレビューの生成、コンテンツの共有、画像形式を必要とする他のシステムとの統合など、さまざまなアプリケーションに特に役立ちます。
@@ -81,3 +87,9 @@ A3: はい、以下から無料試用版をダウンロードできます。[こ
 ### Q5: Aspose.Note for .NET を商用プロジェクトで使用できますか?
 
  A5: はい、次からライセンスを購入できます。[ここ](https://purchase.aspose.com/buy)商用プロジェクトで Aspose.Note for .NET を使用するため。
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

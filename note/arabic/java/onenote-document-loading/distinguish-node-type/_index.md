@@ -3,10 +3,16 @@ title: تمييز نوع العقدة في مستند OneNote - Java
 linktitle: تمييز نوع العقدة في مستند OneNote - Java
 second_title: Aspose.Note جافا API
 description: تعرف على كيفية التمييز بين أنواع العقد داخل مستندات OneNote باستخدام Java مع Aspose.Note. استكشف الدليل التفصيلي والأسئلة الشائعة لتحقيق التكامل السلس.
-type: docs
 weight: 20
 url: /ar/java/onenote-document-loading/distinguish-node-type/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# تمييز نوع العقدة في مستند OneNote - Java
+
 ## مقدمة
 
 في عالم برمجة Java، يمثل العمل مع مستندات OneNote مجموعة خاصة به من التحديات والتعقيدات. ولحسن الحظ، يوفر Aspose.Note for Java حلاً شاملاً للتنقل في هذه المستندات ومعالجتها واستخراج البيانات منها بسلاسة. في هذا البرنامج التعليمي، سوف نتعمق في جانب واحد محدد: التمييز بين أنواع العقد داخل مستند OneNote باستخدام Java. بحلول نهاية هذا الدليل، سيكون لديك فهم قوي لكيفية تحديد أنواع العقد المختلفة والاستفادة من هذه المعرفة بشكل فعال في تطبيقات Java الخاصة بك.
@@ -74,3 +80,10 @@ System.out.println(doc.getNodeType());
 ### س5: هل تتوفر نسخة تجريبية مجانية من Aspose.Note لـ Java؟
 
  ج5: نعم، يمكنك استكشاف ميزات Aspose.Note لـ Java من خلال الإصدار التجريبي المجاني المتاح على[هذا الرابط](https://releases.aspose.com/).
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

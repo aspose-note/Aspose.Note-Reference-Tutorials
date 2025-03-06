@@ -3,10 +3,16 @@ title: Redactar tablas con Aspose.Note
 linktitle: Redactar tablas con Aspose.Note
 second_title: Aspose.Nota .NET API
 description: Aprenda a componer tablas estructuradas con contenido de texto enriquecido utilizando Aspose.Note para .NET. Mejore la organización y legibilidad de los documentos sin esfuerzo.
-type: docs
 weight: 11
 url: /es/net/table-manipulation/compose-tables/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Redactar tablas con Aspose.Note
+
 ## Introducción
 
 Las tablas son componentes fundamentales de los documentos, ya que permiten una presentación estructurada de la información. Aspose.Note para .NET proporciona herramientas sólidas para componer tablas sin esfuerzo. En este tutorial, lo guiaremos a través del proceso de creación de tablas con contenido de texto enriquecido usando Aspose.Note.
@@ -170,3 +176,9 @@ R4: Sí, puede completar tablas dinámicamente obteniendo datos de bases de dato
 ### P5: ¿Hay soporte técnico disponible para los usuarios de Aspose.Note?
    
 R5: Sí, Aspose brinda soporte técnico integral a través de sus foros y canales de soporte dedicados.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

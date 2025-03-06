@@ -3,10 +3,16 @@ title: Lưu bằng hệ thống con phông chữ được chỉ định trong On
 linktitle: Lưu bằng hệ thống con phông chữ được chỉ định trong OneNote
 second_title: API Java Aspose.Note
 description: Tìm hiểu cách lưu tài liệu OneNote bằng hệ thống con phông chữ được chỉ định trong Java với Aspose.Note. Đảm bảo thể hiện phông chữ nhất quán trên các nền tảng một cách dễ dàng.
-type: docs
 weight: 22
 url: /vi/java/onenote-document-saving/save-using-specified-fonts-subsystem/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Lưu bằng hệ thống con phông chữ được chỉ định trong OneNote
+
 ## Giới thiệu
 
 Aspose.Note for Java cung cấp các khả năng mạnh mẽ để làm việc với tài liệu OneNote. Một yêu cầu chung khi làm việc với những tài liệu như vậy là đảm bảo rằng phông chữ được duy trì đúng cách, đặc biệt nếu tài liệu được xuất hoặc lưu ở các định dạng khác nhau như PDF. Hướng dẫn này sẽ hướng dẫn bạn quy trình lưu tài liệu OneNote trong khi chỉ định hệ thống con phông chữ, đảm bảo thể hiện văn bản nhất quán và chính xác trên nhiều nền tảng khác nhau.
@@ -152,3 +158,9 @@ Câu trả lời 4: Có, bạn có thể tùy chỉnh các thuộc tính phông 
 ### Câu hỏi 5: Có phiên bản dùng thử cho Aspose.Note cho Java không?
 
 Câu trả lời 5: Có, bạn có thể dùng thử miễn phí Aspose.Note dành cho Java từ trang web.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

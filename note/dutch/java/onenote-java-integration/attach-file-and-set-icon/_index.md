@@ -3,10 +3,16 @@ title: Bestand bijvoegen en pictogram instellen in OneNote met behulp van Java
 linktitle: Bestand bijvoegen en pictogram instellen in OneNote met behulp van Java
 second_title: Aspose.Note Java-API
 description: Geef uw OneNote-workflow een boost! Leer hoe u bestanden bijvoegt en pictogrammen programmatisch aanpast in Java met Aspose.Note. Eenvoudige stappen en code inbegrepen! #OneNote #Java #Aspose
-type: docs
 weight: 10
 url: /nl/java/onenote-java-integration/attach-file-and-set-icon/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Bestand bijvoegen en pictogram instellen in OneNote met behulp van Java
+
 ## Invoering
 
 OneNote is een populair hulpmiddel voor het maken van aantekeningen en het ordenen van informatie, en met behulp van Aspose.Note voor Java kunt u de mogelijkheden ervan uitbreiden door programmatisch bestanden bij te voegen en pictogrammen in te stellen om de visuele weergave van uw notities te verbeteren. In deze tutorial begeleiden we u stap voor stap door het proces.
@@ -149,3 +155,10 @@ A3: Absoluut, u kunt aangepaste pictogrammen kiezen om verschillende soorten bij
 ### V5: Is er een proefversie beschikbaar voor Aspose.Note voor Java?
 
 A5: Ja, u kunt de functionaliteit van Aspose.Note voor Java verkennen met een gratis proefversie die beschikbaar is op[deze link](https://releases.aspose.com/).
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

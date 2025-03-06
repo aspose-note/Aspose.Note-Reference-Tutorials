@@ -3,10 +3,16 @@ title: OneNote 문서를 생성하고 Aspose.Note에서 HTML로 저장
 linktitle: OneNote 문서를 생성하고 Aspose.Note에서 HTML로 저장
 second_title: Aspose.Note .NET API
 description: Aspose.Note API를 사용하여 .NET 애플리케이션에서 Microsoft OneNote 문서를 HTML 형식으로 만들고 저장하는 방법을 알아보세요. 단계별 예제가 포함된 포괄적인 튜토리얼을 따라해보세요.
-type: docs
 weight: 14
 url: /ko/net/loading-and-saving-operations/create-onenote-doc-save-to-html/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# OneNote 문서를 생성하고 Aspose.Note에서 HTML로 저장
+
 ## 소개
 
 Aspose.Note for .NET은 개발자가 .NET 애플리케이션에서 Microsoft OneNote 문서를 프로그래밍 방식으로 작업할 수 있게 해주는 강력한 API입니다. Aspose.Note를 사용하면 OneNote 파일을 손쉽게 생성, 조작 및 변환할 수 있습니다. 이 튜토리얼에서는 Aspose.Note for .NET API에서 제공하는 다양한 옵션을 사용하여 OneNote 문서를 생성하고 HTML 형식으로 저장하는 방법을 살펴보겠습니다.
@@ -218,3 +224,9 @@ A4: 예, Aspose.Note API를 사용하면 텍스트와 이미지를 추출할 수
 ### Q5: Aspose.Note 기능을 테스트하는 데 사용할 수 있는 평가판이 있습니까?
 
  A5: 예, 다음에서 무료 평가판을 다운로드할 수 있습니다.[여기](https://releases.aspose.com/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

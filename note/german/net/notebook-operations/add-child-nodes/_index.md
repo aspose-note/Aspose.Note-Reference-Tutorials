@@ -3,10 +3,16 @@ title: Fügen Sie untergeordnete Knoten in Aspose Note .NET hinzu
 linktitle: Fügen Sie untergeordnete Knoten in Aspose Note .NET hinzu
 second_title: Aspose.Note .NET-API
 description: Erfahren Sie in diesem umfassenden Tutorial, wie Sie mühelos untergeordnete Knoten in Aspose Note .NET hinzufügen. Steigern Sie jetzt Ihre Fähigkeiten im Umgang mit Dokumenten.
-type: docs
 weight: 10
 url: /de/net/notebook-operations/add-child-nodes/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Fügen Sie untergeordnete Knoten in Aspose Note .NET hinzu
+
 ## Einführung
 
 In diesem Tutorial erfahren Sie, wie Sie untergeordnete Knoten in Aspose Note .NET hinzufügen. Das Hinzufügen untergeordneter Knoten ist ein grundlegender Vorgang bei der Arbeit mit Dokumenten, und Aspose Note .NET bietet eine unkomplizierte Möglichkeit, diese Aufgabe auszuführen.
@@ -89,3 +95,9 @@ Glückwunsch! Sie haben erfolgreich gelernt, wie Sie untergeordnete Knoten in As
 ### F5: Wird Aspose.Note für .NET mit Dokumentation geliefert?
 
  A5: Ja, Sie können eine ausführliche Dokumentation finden[Hier](https://reference.aspose.com/note/net/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

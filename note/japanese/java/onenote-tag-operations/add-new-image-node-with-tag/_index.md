@@ -3,10 +3,16 @@ title: OneNote にタグ付きの新しい画像ノードを追加する - Aspos
 linktitle: OneNote にタグ付きの新しい画像ノードを追加する - Aspose.Note
 second_title: Aspose.Note Java API
 description: Aspose.Note for Java を使用して、OneNote にタグ付きの新しい画像ノードを追加する方法を学習します。 Java プログラミング スキルを簡単に向上させます。
-type: docs
 weight: 10
 url: /ja/java/onenote-tag-operations/add-new-image-node-with-tag/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# OneNote にタグ付きの新しい画像ノードを追加する - Aspose.Note
+
 ## 導入
 Java プログラミングの分野では、Aspose.Note は OneNote ドキュメントを簡単に処理するための強力なツールとして際立っています。スキルを向上させ、Aspose.Note を使用して OneNote にタグ付きの新しい画像ノードを追加する方法を学びたい場合は、ここが正しい場所です。このステップバイステップのガイドではプロセスを順を追って説明し、各概念を完全に理解できるようにします。
 ## 前提条件
@@ -96,3 +102,9 @@ doc.save(dataDir + "AddNewImageNodeWithTag_out.pdf", SaveFormat.Pdf);
 コミュニティフォーラムにアクセスしてください[ここ](https://forum.aspose.com/c/note/28)サポートのための。
 ### 仮免許は必要ですか?
 必要に応じて、一時ライセンスを取得できます[ここ](https://purchase.aspose.com/temporary-license/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

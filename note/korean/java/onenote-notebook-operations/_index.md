@@ -3,10 +3,16 @@ title: OneNote 노트북 작업
 linktitle: OneNote 노트북 작업
 second_title: Aspose.Note 자바 API
 description: OneNote 노트북 작업 튜토리얼을 통해 Java용 Aspose.Note의 잠재력을 최대한 활용하세요. Java 앱 향상을 위한 단계별 가이드를 제공합니다.
-type: docs
 weight: 28
 url: /ko/java/onenote-notebook-operations/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# OneNote 노트북 작업
+
 
 ## 소개
 
@@ -66,3 +72,9 @@ Java용 Aspose.Note를 사용하여 OneNote Notebook에서 문서를 검색하�
 Java용 Aspose.Note를 사용하여 OneNote의 스트림에 노트북을 저장하는 방법을 알아보세요. 효율적인 노트북 관리로 생산성을 높이세요.
 ### [OneNote에서 비밀번호로 보호된 문서 작성 - Aspose.Note](./write-password-protected-document/)
 Java용 Aspose.Note를 사용하여 OneNote에서 암호로 보호된 문서를 작성하는 방법을 알아보세요. 따라하기 쉬운 단계를 통해 보안을 보장하세요.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

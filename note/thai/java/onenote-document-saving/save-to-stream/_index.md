@@ -3,10 +3,16 @@ title: บันทึกไปยังสตรีมใน OneNote - Aspose.N
 linktitle: บันทึกไปยังสตรีมใน OneNote - Aspose.Note
 second_title: Aspose.Note Java API
 description: เรียนรู้วิธีบันทึกเอกสาร OneNote ลงในสตรีมใน Java โดยใช้ Aspose.Note รวมฟังก์ชันนี้เข้ากับแอปพลิเคชันของคุณได้อย่างง่ายดาย
-type: docs
 weight: 20
 url: /th/java/onenote-document-saving/save-to-stream/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# บันทึกไปยังสตรีมใน OneNote - Aspose.Note
+
 ## การแนะนำ
 
 ในบทช่วยสอนนี้ เราจะเจาะลึกเกี่ยวกับการใช้ Aspose.Note สำหรับ Java ซึ่งเป็นไลบรารีที่มีประสิทธิภาพสำหรับการทำงานกับเอกสาร Microsoft OneNote โดยทางโปรแกรม โดยเฉพาะ เราจะมุ่งเน้นไปที่กระบวนการบันทึกเอกสาร OneNote ลงในสตรีม เมื่อทำตามขั้นตอนที่ระบุไว้ในคู่มือนี้ คุณจะสามารถจัดการไฟล์ OneNote ภายในแอปพลิเคชัน Java ของคุณได้อย่างมีประสิทธิภาพ
@@ -95,3 +101,9 @@ A4: คุณสามารถค้นหาเอกสาร ฟอรั่
 ### คำถามที่ 5: ฉันสามารถลองใช้ Aspose.Note สำหรับ Java ก่อนซื้อได้หรือไม่
 
  A5: ได้ คุณสามารถขอรับ Aspose.Note สำหรับ Java รุ่นทดลองใช้ฟรีได้จาก[เว็บไซต์กำหนด](https://releases.aspose.com/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

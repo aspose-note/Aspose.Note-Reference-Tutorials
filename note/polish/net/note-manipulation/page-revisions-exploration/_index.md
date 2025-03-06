@@ -3,10 +3,16 @@ title: Przeglądaj wersje stron w dokumentach Aspose.Note
 linktitle: Przeglądaj wersje stron w dokumentach Aspose.Note
 second_title: Aspose.Note .NET API
 description: Dowiedz się, jak przeglądać wersje stron w dokumentach Aspose.Note przy użyciu platformy .NET ze wskazówkami krok po kroku.
-type: docs
 weight: 14
 url: /pl/net/note-manipulation/page-revisions-exploration/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Przeglądaj wersje stron w dokumentach Aspose.Note
+
 ## Wstęp
 
 tym samouczku zagłębimy się w odkrywanie wersji stron w dokumentach Aspose.Note przy użyciu platformy .NET. Aspose.Note to potężna biblioteka, która umożliwia programistom programową pracę z plikami Microsoft OneNote, oferując różne funkcje manipulowania i wyodrębniania danych z tych plików.
@@ -88,3 +94,9 @@ A3: Tak, możesz pobrać bezpłatną wersję próbną Aspose.Note dla .NET ze st
 ### P5: Gdzie mogę znaleźć wsparcie dla Aspose.Note dla .NET?
 
  Odpowiedź 5: Wsparcie i zasoby można znaleźć na stronie[Forum Aspose.Note](https://forum.aspose.com/c/note/28).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

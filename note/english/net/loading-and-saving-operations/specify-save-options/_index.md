@@ -3,10 +3,16 @@ title: Specify Save Options in Aspose.Note
 linktitle: Specify Save Options in Aspose.Note
 second_title: Aspose.Note .NET API
 description: Learn how to specify save options in Aspose.Note for .NET to customize output format & quality of OneNote documents.
-type: docs
 weight: 30
 url: /net/loading-and-saving-operations/specify-save-options/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Specify Save Options in Aspose.Note
+
 ## Introduction
 
 In the realm of .NET development, Aspose.Note stands out as a powerful tool for working with OneNote documents. It offers a comprehensive set of features to manipulate and manage these files efficiently. One crucial aspect of working with Aspose.Note is specifying save options, which allows developers to customize the output format and quality according to their requirements.
@@ -94,3 +100,10 @@ A4: Aspose.Note is designed to handle OneNote documents of various sizes, from s
 ### Q5: Does Aspose.Note offer support and assistance for developers encountering issues?
 
 A5: Yes, developers can seek help and assistance from the Aspose.Note support team through the forum or by contacting Aspose directly for timely resolution of any issues or queries.
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

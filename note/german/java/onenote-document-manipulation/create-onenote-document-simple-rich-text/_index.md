@@ -3,10 +3,16 @@ title: Erstellen Sie ein OneNote-Dokument mit einfachem Rich Text in Java
 linktitle: Erstellen Sie ein OneNote-Dokument mit einfachem Rich Text in Java
 second_title: Aspose.Note Java API
 description: Erfahren Sie, wie Sie mit Aspose.Note Java OneNote-Dokumente mit Rich Text erstellen. Integrieren Sie diese Funktionalität in Ihre Java-Apps für eine effiziente Dokumentenverwaltung.
-type: docs
 weight: 12
 url: /de/java/onenote-document-manipulation/create-onenote-document-simple-rich-text/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Erstellen Sie ein OneNote-Dokument mit einfachem Rich Text in Java
+
 ## Einführung
 
 Im heutigen digitalen Zeitalter ist die Notwendigkeit einer effizienten Verwaltung und Bearbeitung von Dokumenten von größter Bedeutung. Aspose.Note für Java erweist sich als leistungsstarkes Tool, das Entwicklern die nahtlose Arbeit mit OneNote-Dokumenten in Java-Anwendungen ermöglicht. Ziel dieses Tutorials ist es, eine umfassende Anleitung zum Erstellen von OneNote-Dokumenten mit einfachem Rich-Text mithilfe von Aspose.Note für Java bereitzustellen.
@@ -164,3 +170,9 @@ A4: Ja, Aspose.Note für Java kann nahtlos in andere Java-Bibliotheken oder Fram
 ### F5: Bietet Aspose.Note für Java umfassende Dokumentation und Support?
 
  A5: Auf jeden Fall, Sie finden detaillierte Dokumentation und dedizierten Support für Aspose.Note für Java auf der[Hilfeforum](https://forum.aspose.com/c/note/28).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -3,10 +3,16 @@ title: 在 Aspose.Note 中更改表格样式
 linktitle: 在 Aspose.Note 中更改表格样式
 second_title: Aspose.Note .NET API
 description: 了解如何使用 C# 在 Aspose.Note 中自定义表格样式。修改颜色、字体等以增强文档演示。
-type: docs
 weight: 10
 url: /zh/net/table-manipulation/change-table-style/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# 在 Aspose.Note 中更改表格样式
+
 ## 介绍
 
 在本教程中，我们将探索如何使用.NET框架更改Aspose.Note中的表格样式。 Aspose.Note 是一个功能强大的 API，使开发人员能够以编程方式使用 Microsoft OneNote 文件。通过自定义 OneNote 文档中的表格样式，您可以增强其视觉吸引力和可读性。我们将逐步完成修改表格样式的过程，确保清晰度和有效性。
@@ -95,3 +101,9 @@ A4：当然，您可以使用 Aspose.Note 的 API 在 OneNote 文档中动态生
 ### Q5：在哪里可以找到更多 Aspose.Note 资源和支持？
 
  A5：您可以探索Aspose.Note文档[这里](https://reference.aspose.com/note/net/)并从 Aspose.Note 社区论坛寻求帮助[这里](https://forum.aspose.com/c/note/28).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

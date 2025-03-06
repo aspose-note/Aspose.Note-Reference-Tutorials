@@ -3,10 +3,16 @@ title: تحويل دفتر الملاحظات إلى صورة في OneNote - Asp
 linktitle: تحويل دفتر الملاحظات إلى صورة في OneNote - Aspose.Note
 second_title: Aspose.Note جافا API
 description: تعرف على كيفية تحويل دفاتر الملاحظات إلى صور في OneNote باستخدام Aspose.Note لـ Java. قم بدمج هذه الوظيفة بسهولة في تطبيقات Java الخاصة بك.
-type: docs
 weight: 12
 url: /ar/java/onenote-notebook-operations/convert-notebook-to-image/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# تحويل دفتر الملاحظات إلى صورة في OneNote - Aspose.Note
+
 ## مقدمة
 
 في هذا البرنامج التعليمي، سوف نستكشف كيفية تحويل دفتر ملاحظات إلى صورة في OneNote باستخدام مكتبة Aspose.Note for Java. يمكن أن يكون تحويل دفاتر الملاحظات إلى صور مفيدًا لأغراض متعددة مثل مشاركة الملاحظات أو تضمينها في المستندات أو دمجها في العروض التقديمية.
@@ -94,3 +100,9 @@ System.out.println("File saved: " + dataDir + "ConvertToImage_out.png");
 ### س5: أين يمكنني العثور على موارد إضافية ودعم لـ Aspose.Note؟
 
  ج5: لمزيد من الوثائق والأمثلة ودعم المجتمع، قم بزيارة[منتدى Aspose.Note](https://forum.aspose.com/c/note/28) واستكشاف[توثيق](https://reference.aspose.com/note/java/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

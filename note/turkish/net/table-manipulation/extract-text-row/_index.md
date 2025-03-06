@@ -3,10 +3,16 @@ title: Aspose.Note'ta Tablo Satırlarından Metin Çıkarma
 linktitle: Aspose.Note'ta Tablo Satırlarından Metin Çıkarma
 second_title: Aspose.Note .NET API'si
 description: Bu kapsamlı eğitimle Aspose.Note for .NET'te tablo satırlarından metni nasıl çıkaracağınızı öğrenin.
-type: docs
 weight: 14
 url: /tr/net/table-manipulation/extract-text-row/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Aspose.Note'ta Tablo Satırlarından Metin Çıkarma
+
 ## giriiş
 
 Belge işleme alanında Aspose.Note for .NET, geliştiricilerin OneNote dosyalarını programlı olarak verimli bir şekilde işlemesine olanak tanıyan güçlü bir çözüm olarak duruyor. Sayısız yetenekleri arasında, tablo satırlarından metin çıkarmak, geliştiricilerin karşılaştığı yaygın bir görevdir. Bu eğitim, Aspose.Note for .NET'i kullanarak tablo satırlarından metin çıkarma sürecinde size rehberlik edecektir.
@@ -98,3 +104,9 @@ Cevap2: Kesinlikle, Aspose.Note for .NET, çıkarılan metni gereksinimlerinize 
 ### S5: Satın almadan önce Aspose.Note for .NET'i deneyebilir miyim?
 
  C5: Elbette, ücretsiz deneme sürümünden yararlanabilirsiniz.[yayın sayfası](https://releases.aspose.com/) özelliklerini ve yeteneklerini keşfetmek için.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

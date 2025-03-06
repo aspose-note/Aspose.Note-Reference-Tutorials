@@ -3,10 +3,16 @@ title: เพิ่มโหนดลูกใน Aspose Note .NET
 linktitle: เพิ่มโหนดลูกใน Aspose Note .NET
 second_title: Aspose.Note .NET API
 description: เรียนรู้วิธีเพิ่มโหนดลูกใน Aspose Note .NET ได้อย่างง่ายดายด้วยบทช่วยสอนที่ครอบคลุมนี้ เพิ่มทักษะการจัดการเอกสารของคุณทันที
-type: docs
 weight: 10
 url: /th/net/notebook-operations/add-child-nodes/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# เพิ่มโหนดลูกใน Aspose Note .NET
+
 ## การแนะนำ
 
 ในบทช่วยสอนนี้ เราจะเรียนรู้วิธีเพิ่มโหนดลูกใน Aspose Note .NET การเพิ่มโหนดลูกเป็นการดำเนินการพื้นฐานเมื่อทำงานกับเอกสาร และ Aspose Note .NET มอบวิธีที่ตรงไปตรงมาในการทำงานนี้ให้สำเร็จ
@@ -89,3 +95,9 @@ notebook.Save(dataDir);
 ### คำถามที่ 5: Aspose.Note สำหรับ .NET มาพร้อมกับเอกสารประกอบหรือไม่
 
  A5: ใช่ คุณสามารถค้นหาเอกสารโดยละเอียดได้[ที่นี่](https://reference.aspose.com/note/net/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

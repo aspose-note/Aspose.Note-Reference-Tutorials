@@ -3,10 +3,16 @@ title: Hiperłącza i obrazy programu OneNote
 linktitle: Hiperłącza i obrazy programu OneNote
 second_title: Aspose.Note API Java
 description: Wzbogać swoje doświadczenie OneNote dzięki samouczkom Aspose.Note for Java. Naucz się płynnie dodawać hiperłącza, wstawiać obrazy i wyodrębniać informacje o obrazach dzięki programowaniu w języku Java.
-type: docs
 weight: 22
 url: /pl/java/onenote-hyperlinks-images/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Hiperłącza i obrazy programu OneNote
+
 
 ## Wstęp
 
@@ -48,3 +54,9 @@ Dowiedz się, jak wyodrębniać obrazy z dokumentów programu OneNote przy użyc
 Dowiedz się, jak wyodrębnić informacje o obrazie z dokumentów OneNote przy użyciu Java z Aspose.Note. Łatwe kroki dla programistów.
 ### [Wstaw obraz do dokumentu programu OneNote za pomocą języka Java](./insert-image/)
 Dowiedz się, jak wstawiać obrazy do dokumentów OneNote przy użyciu języka Java z biblioteką Aspose.Note for Java. Postępuj zgodnie z naszym przewodnikiem krok po kroku, aby zapewnić bezproblemową integrację.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

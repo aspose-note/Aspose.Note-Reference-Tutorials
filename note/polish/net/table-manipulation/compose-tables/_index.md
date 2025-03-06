@@ -3,10 +3,16 @@ title: Twórz tabele za pomocą Aspose.Note
 linktitle: Twórz tabele za pomocą Aspose.Note
 second_title: Aspose.Note .NET API
 description: Dowiedz się, jak tworzyć tabele strukturalne z zawartością tekstu sformatowanego przy użyciu Aspose.Note dla .NET. Bez wysiłku popraw organizację i czytelność dokumentów.
-type: docs
 weight: 11
 url: /pl/net/table-manipulation/compose-tables/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Twórz tabele za pomocą Aspose.Note
+
 ## Wstęp
 
 Tabele są podstawowymi elementami dokumentów, umożliwiającymi uporządkowaną prezentację informacji. Aspose.Note dla .NET zapewnia niezawodne narzędzia do łatwego tworzenia tabel. W tym samouczku przeprowadzimy Cię przez proces tworzenia tabel z bogatą zawartością tekstową przy użyciu Aspose.Note.
@@ -170,3 +176,9 @@ O4: Tak, możesz dynamicznie wypełniać tabele, pobierając dane z baz danych, 
 ### P5: Czy dostępna jest pomoc techniczna dla użytkowników Aspose.Note?
    
 Odpowiedź 5: Tak, Aspose zapewnia kompleksowe wsparcie techniczne za pośrednictwem swoich forów i dedykowanych kanałów wsparcia.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

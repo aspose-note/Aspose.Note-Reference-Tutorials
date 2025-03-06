@@ -3,10 +3,16 @@ title: Vytvořte dokument OneNote a uložte jej do HTML v Aspose.Note
 linktitle: Vytvořte dokument OneNote a uložte jej do HTML v Aspose.Note
 second_title: Aspose.Note .NET API
 description: Naučte se vytvářet a ukládat dokumenty Microsoft OneNote do formátu HTML v aplikacích .NET pomocí Aspose.Note API. Postupujte podle našeho komplexního tutoriálu s příklady krok za krokem.
-type: docs
 weight: 14
 url: /cs/net/loading-and-saving-operations/create-onenote-doc-save-to-html/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Vytvořte dokument OneNote a uložte jej do HTML v Aspose.Note
+
 ## Úvod
 
 Aspose.Note for .NET je výkonné rozhraní API, které umožňuje vývojářům pracovat s dokumenty Microsoft OneNote programově v jejich aplikacích .NET. S Aspose.Note můžete snadno vytvářet, manipulovat a převádět soubory OneNotu. V tomto tutoriálu prozkoumáme, jak vytvořit dokument OneNote a uložit jej do formátu HTML pomocí různých možností, které poskytuje Aspose.Note for .NET API.
@@ -218,3 +224,9 @@ A4: Ano, můžete extrahovat text a obrázky, stejně jako provádět různé da
 ### Q5: Je k dispozici zkušební verze pro testování funkcí Aspose.Note?
 
  A5: Ano, můžete si stáhnout bezplatnou zkušební verzi z[tady](https://releases.aspose.com/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

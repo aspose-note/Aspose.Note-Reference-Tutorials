@@ -3,10 +3,16 @@ title: Konwertuj określoną stronę na obraz w Aspose.Note
 linktitle: Konwertuj określoną stronę na obraz w Aspose.Note
 second_title: Aspose.Note .NET API
 description: Dowiedz się, jak programowo konwertować określone strony dokumentów Microsoft OneNote na obrazy za pomocą Aspose.Note dla .NET.
-type: docs
 weight: 11
 url: /pl/net/loading-and-saving-operations/convert-specific-page-to-image/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Konwertuj określoną stronę na obraz w Aspose.Note
+
 ## Wstęp
 
 Aspose.Note dla .NET to potężny interfejs API, który umożliwia programistom programową pracę z dokumentami Microsoft OneNote. Niezależnie od tego, czy chcesz wyodrębnić zawartość, przekonwertować dokumenty do innych formatów, czy manipulować elementami w pliku OneNote, Aspose.Note dla .NET zapewnia wszechstronną funkcjonalność usprawniającą Twoje zadania. W tym samouczku omówimy, jak wykorzystać Aspose.Note dla .NET do konwersji określonych stron dokumentu OneNote na obrazy. Omówimy wymagania wstępne, zaimportujemy przestrzenie nazw i zapewnimy wskazówki krok po kroku dotyczące wdrażania procesu konwersji.
@@ -100,3 +106,9 @@ A4: Tak, możesz ustawić jakość obrazu zgodnie ze swoimi wymaganiami.
 ### P5: Gdzie mogę uzyskać wsparcie dla Aspose.Note dla .NET?
 
  O5: Możesz uzyskać wsparcie od społeczności Aspose.Note dla .NET[forum](https://forum.aspose.com/c/note/28).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

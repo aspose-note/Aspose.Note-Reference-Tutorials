@@ -3,10 +3,16 @@ title: Đính kèm tệp và đặt biểu tượng trong OneNote bằng Java
 linktitle: Đính kèm tệp và đặt biểu tượng trong OneNote bằng Java
 second_title: API Java Aspose.Note
 description: Tăng cường quy trình làm việc OneNote của bạn! Tìm hiểu cách đính kèm tệp và tùy chỉnh các biểu tượng theo chương trình trong Java với Aspose.Note. Các bước dễ dàng và bao gồm mã! #OneNote #Java #Aspose
-type: docs
 weight: 10
 url: /vi/java/onenote-java-integration/attach-file-and-set-icon/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Đính kèm tệp và đặt biểu tượng trong OneNote bằng Java
+
 ## Giới thiệu
 
 OneNote là một công cụ phổ biến để ghi chú và sắp xếp thông tin. Với sự trợ giúp của Aspose.Note dành cho Java, bạn có thể nâng cao khả năng của nó bằng cách đính kèm tệp theo chương trình và đặt biểu tượng để cải thiện cách trình bày trực quan cho ghi chú của bạn. Trong hướng dẫn này, chúng tôi sẽ hướng dẫn bạn từng bước thực hiện quy trình.
@@ -149,3 +155,10 @@ Câu trả lời 3: Hoàn toàn có thể, bạn có thể chọn các biểu t�
 ### Câu hỏi 5: Có phiên bản dùng thử cho Aspose.Note cho Java không?
 
 Câu trả lời 5: Có, bạn có thể khám phá chức năng của Aspose.Note dành cho Java với bản dùng thử miễn phí có sẵn tại[liên kết này](https://releases.aspose.com/).
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

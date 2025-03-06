@@ -3,10 +3,16 @@ title: Сохранить диапазон страниц в формате PDF 
 linktitle: Сохранить диапазон страниц в формате PDF в Aspose.Note
 second_title: Aspose.Note .NET API
 description: Узнайте, как сохранить ряд страниц из документов OneNote в виде файлов PDF с помощью Aspose.Note для .NET. Пошаговое руководство включено.
-type: docs
 weight: 21
 url: /ru/net/loading-and-saving-operations/save-range-pages-as-pdf/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Сохранить диапазон страниц в формате PDF в Aspose.Note
+
 ## Введение
 
 В сфере разработки .NET Aspose.Note выделяется как универсальный инструмент для простой и эффективной обработки документов OneNote. Среди множества функций одной из наиболее востребованных функций является возможность сохранять ряд страниц в виде файла PDF. Это руководство шаг за шагом проведет вас через весь процесс, гарантируя, что вы сможете легко интегрировать эту возможность в свои проекты.
@@ -99,3 +105,9 @@ oneFile.Save(dataDir, opts);
 ### Вопрос 5: Где я могу найти дополнительную поддержку и ресурсы для Aspose.Note?
 
  О5: Для получения дополнительной поддержки, документации и взаимодействия с сообществом вы можете посетить[Форум Aspose.Note](https://forum.aspose.com/c/note/28).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

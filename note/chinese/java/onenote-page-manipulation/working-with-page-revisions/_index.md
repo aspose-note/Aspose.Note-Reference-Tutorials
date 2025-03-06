@@ -3,10 +3,16 @@ title: 在 OneNote 中处理页面修订 - Aspose.Note
 linktitle: 在 OneNote 中处理页面修订 - Aspose.Note
 second_title: Aspose.Note Java API
 description: 了解如何使用 Aspose.Note for Java 管理 OneNote 文档中的页面修订。提供有效修订跟踪和协作的分步指南。
-type: docs
 weight: 21
 url: /zh/java/onenote-page-manipulation/working-with-page-revisions/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# 在 OneNote 中处理页面修订 - Aspose.Note
+
 ## 介绍
 
 OneNote 是用于组织和管理笔记的强大工具，但有时您需要使用修订来跟踪更改并有效协作。使用 Aspose.Note for Java，您可以以编程方式轻松管理 OneNote 文档中的页面修订。本教程将逐步指导您完成该过程。
@@ -98,3 +104,9 @@ document.save(dataDir + "WorkingWithPageRevisions_out.one");
 ### Q5：哪里可以获得 Aspose.Note for Java 的支持？
 
 答：您可以从 Aspose.Note for Java 获得支持[Aspose.Note 论坛](https://forum.aspose.com/c/note/28).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

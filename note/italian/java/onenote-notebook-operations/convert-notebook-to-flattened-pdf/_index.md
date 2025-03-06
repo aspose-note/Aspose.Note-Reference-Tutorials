@@ -3,10 +3,16 @@ title: Converti taccuino in PDF appiattito in OneNote - Aspose.Note
 linktitle: Converti taccuino in PDF appiattito in OneNote - Aspose.Note
 second_title: Aspose.Note API Java
 description: Converti taccuini in PDF appiattiti senza sforzo con Aspose.Note per Java. Goditi le opzioni di integrazione e personalizzazione senza soluzione di continuità.
-type: docs
 weight: 16
 url: /it/java/onenote-notebook-operations/convert-notebook-to-flattened-pdf/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Converti taccuino in PDF appiattito in OneNote - Aspose.Note
+
 ## introduzione
 
 In questo tutorial esploreremo come convertire un notebook in un formato PDF appiattito utilizzando Aspose.Note per Java. La conversione di notebook in PDF è un requisito comune per molte applicazioni e Aspose.Note semplifica questo processo con il suo set completo di funzionalità e API facili da usare.
@@ -82,3 +88,9 @@ A3: Sì, puoi convertire in batch più notebook in PDF in modo efficiente utiliz
 ### Q5: Dove posso trovare supporto per Aspose.Note per Java?
 
  A5: È possibile trovare supporto e assistenza per Aspose.Note per Java su[Forum Aspose.Note](https://forum.aspose.com/c/note/28).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

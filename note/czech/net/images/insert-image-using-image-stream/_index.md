@@ -3,10 +3,16 @@ title: Vložit obrázky pomocí Image Stream v Aspose.Note
 linktitle: Vložit obrázky pomocí Image Stream v Aspose.Note
 second_title: Aspose.Note .NET API
 description: Naučte se, jak bezproblémově vkládat obrázky do dokumentů Aspose.Note pomocí proudů obrázků v .NET. Vylepšete své soubory Note bez námahy pomocí vizuálů.
-type: docs
 weight: 11
 url: /cs/net/images/insert-image-using-image-stream/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Vložit obrázky pomocí Image Stream v Aspose.Note
+
 ## Úvod
 
 tomto tutoriálu prozkoumáme, jak vložit obrázky do dokumentu Aspose.Note pomocí proudů obrázků v .NET. Aspose.Note je výkonné API, které umožňuje vývojářům pracovat se soubory Microsoft OneNote programově. Podle kroků uvedených v této příručce se naučíte, jak bezproblémově integrovat obrázky do dokumentů Note, zvýšit jejich vizuální přitažlivost a celkovou funkčnost.
@@ -120,3 +126,9 @@ A4: Aspose.Note for .NET je kompatibilní s více verzemi rozhraní .NET Framewo
 ### Q5: Kde najdu další zdroje a podporu pro Aspose.Note?
 
  A5: Můžete najít komplexní dokumentaci, fóra a podporu pro Aspose.Note na[Fórum Aspose](https://forum.aspose.com/c/note/28).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

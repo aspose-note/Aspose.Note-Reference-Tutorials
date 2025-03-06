@@ -3,10 +3,16 @@ title: 使用 Aspose Note .NET 中的選項將筆記本轉換為 PDF
 linktitle: 使用 Aspose Note .NET 中的選項將筆記本轉換為 PDF
 second_title: Aspose.Note .NET API
 description: 了解如何使用具有可自訂選項的 Aspose.Note for .NET 程式庫將 Microsoft OneNote 筆記本轉換為 PDF 格式。
-type: docs
 weight: 16
 url: /zh-hant/net/notebook-operations/convert-to-pdf-options/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# 使用 Aspose Note .NET 中的選項將筆記本轉換為 PDF
+
 ## 介紹
 
 在本教學中，我們將逐步介紹使用 Aspose.Note for .NET 函式庫將筆記本轉換為 PDF 格式的過程。 Aspose.Note for .NET 提供了一組強大的功能來以程式設計方式處理 Microsoft OneNote 檔案。
@@ -102,3 +108,9 @@ A4：是的，您可以從網站下載 Aspose.Note for .NET 的免費試用版�
 ### Q5：如何獲得 Aspose.Note for .NET 的技術支援？
 
  A5：您可以透過造訪 Aspose.Note for .NET 獲得技術支持[Aspose.Note 論壇](https://forum.aspose.com/c/note/28)或直接聯絡 Aspose 支援團隊。
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

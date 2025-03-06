@@ -3,10 +3,16 @@ title: Filbilagor och hämtning i OneNote-dokument
 linktitle: Bilagor
 second_title: Aspose.Note .NET API
 description: Förbättra dina .NET-applikationer med Aspose.Note! Utforska självstudier om att bifoga filer, ställa in ikoner och hämta bilagor för förbättrad utveckling.
-type: docs
 weight: 21
 url: /sv/net/attachments/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Filbilagor och hämtning i OneNote-dokument
+
 ## Introduktion
 
 Är du redo att ta dina .NET-applikationer till nästa nivå? Dyk in i Asposes värld. Notera och lås upp ett rike av möjligheter. Denna omfattande självstudielista guidar dig genom nyckelfunktioner, med fokus på att bifoga filer, ställa in ikoner och sömlöst hämta bifogade filer.
@@ -37,3 +43,9 @@ Lär dig hur du bifogar filer och ställer in ikoner i Aspose.Note för .NET. F�
 Lär dig hur du bifogar filer till Microsoft OneNote-dokument programmatiskt med Aspose.Note för .NET. Förenkla din utvecklingsprocess med denna omfattande handledning.
 ### [Hämta bifogade filer med Aspose.Note](./retrieve-attached-files/)
 Lär dig hur du hämtar bifogade filer från Microsoft OneNote-dokument med Aspose.Note för .NET. Följ stegen för att ladda, hämta noder och iterera igenom bilagor.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

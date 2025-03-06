@@ -3,10 +3,16 @@ title: 使用 Aspose Note .NET 中的加载选项加载笔记本文件
 linktitle: 使用 Aspose Note .NET 中的加载选项加载笔记本文件
 second_title: Aspose.Note .NET API
 description: 了解如何使用 Aspose.Note for .NET 通过加载选项加载笔记本文件。将此功能无缝集成到您的 .NET 应用程序中，以高效处理笔记本数据。
-type: docs
 weight: 20
 url: /zh/net/notebook-operations/load-notebook-files-with-load-options/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# 使用 Aspose Note .NET 中的加载选项加载笔记本文件
+
 ## 介绍
 
 在本教程中，我们将深入研究使用 Aspose.Note for .NET 通过加载选项加载笔记本文件的复杂性。 Aspose.Note 是一个功能强大的 API，使开发人员能够以编程方式处理 Microsoft OneNote 文件，从而提供笔记本数据的无缝集成和高效处理。
@@ -94,3 +100,9 @@ A2：是的，您可以从以下位置免费试用 Aspose.Note for .NET：[这�
 ### Q5：如果我遇到任何问题或有与 Aspose.Note for .NET 相关的疑问，我可以在哪里寻求帮助？
 
  A5：您可以访问Aspose.Note论坛[这里](https://forum.aspose.com/c/note/28)寻求支持、提出问题并与其他开发人员和专家交流。
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -1,12 +1,17 @@
 ---
 title: Tutorial Komprehensif dan Contoh Aspose.Note untuk .NET
 linktitle: Aspose.Note untuk Tutorial .NET
-type: docs
 weight: 10
 url: /id/net/
 description: Kuasai Aspose.Note untuk .NET dengan tutorial komprehensif! Selami lampiran, hyperlink, gambar, dan banyak lagi. Tingkatkan manipulasi dokumen OneNote Anda.
-is_root: true
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Tutorial Komprehensif dan Contoh Aspose.Note untuk .NET
+
 ## Perkenalan
 
 Apakah Anda siap untuk meningkatkan permainan manipulasi dokumen OneNote Anda? Aspose.Note untuk .NET membuka pintu ke banyak kemungkinan, dan kami menyediakan tutorial dan contoh yang komprehensif untuk Anda. Dari kerumitan perizinan hingga manipulasi teks tingkat lanjut, mulailah perjalanan pengembangan dokumen yang ditingkatkan.
@@ -97,3 +102,9 @@ Buat dokumen yang menarik secara visual dengan Aspose.Note untuk .NET! Jelajahi 
 Master Aspose.Note dengan manajemen tag. Tambahkan gambar, tabel, node teks, dan buat catatan rapat. Ambil detail tag dan tingkatkan manipulasi dokumen.
 ### [Manipulasi Teks](./text-manipulation/)
 Ubah dokumen OneNote Anda dengan Aspose.Note untuk .NET! Pelajari teknik manipulasi teks, mulai dari menerapkan poin dan penomoran hingga mengubah gaya.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

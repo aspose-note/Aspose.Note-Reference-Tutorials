@@ -3,10 +3,16 @@ title: Skapa tabell med låsta kolumner i OneNote - Aspose.Note
 linktitle: Skapa tabell med låsta kolumner i OneNote - Aspose.Note
 second_title: Aspose.Note Java API
 description: Förbättra din OneNote-upplevelse med Aspose.Note för Java. Lär dig hur du skapar tabeller med låsta kolumner med hjälp av en steg-för-steg-guide. Ladda ner din kostnadsfria testversion nu!
-type: docs
 weight: 12
 url: /sv/java/onenote-table-manipulation/create-table-with-locked-columns/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Skapa tabell med låsta kolumner i OneNote - Aspose.Note
+
 ## Introduktion
 OneNote är ett kraftfullt verktyg för att organisera information, och Aspose.Note för Java förbättrar dess kapacitet genom att tillhandahålla ett sömlöst sätt att skapa tabeller med låsta kolumner. I den här handledningen kommer vi att guida dig genom processen att använda Aspose.Note för Java för att skapa en tabell med låsta kolumner i OneNote.
 ## Förutsättningar
@@ -90,3 +96,9 @@ Absolut! Aspose.Note för Java tillhandahåller omfattande alternativ för att a
  Besök[Aspose.Note forum](https://forum.aspose.com/c/note/28) för stöd och samhällsdiskussioner.
 ### Hur kan jag få en tillfällig licens för Aspose.Note för Java?
  Besök[den här länken](https://purchase.aspose.com/temporary-license/) för att få en tillfällig licens för teständamål.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

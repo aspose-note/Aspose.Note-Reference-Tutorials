@@ -1,12 +1,17 @@
 ---
 title: Aspose.Note for Java の包括的なチュートリアルと例
 linktitle: Aspose.Note for Java チュートリアル
-type: docs
 weight: 10
 url: /ja/java/
 description: Aspose.Note for Java の包括的なチュートリアルと例をご覧ください。 Java 統合に関するステップバイステップのガイドを使用して、OneNote エクスペリエンスを向上させます。
-is_root: true
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Aspose.Note for Java の包括的なチュートリアルと例
+
 
 ## 導入
 
@@ -91,3 +96,9 @@ Aspose.Note for Java の威力を実感してください。タグ操作、画�
 OneNote のテキスト操作に関する Aspose.Note Java チュートリアルをご覧ください。テキストの抽出、テーマの適用、リストの作成などのタスクの効率的な方法を検討します。 
 ### [タスクと Outlook の統合](./task-and-outlook-integration/)
 Outlook タスクを OneNote に統合するチュートリアルで、Aspose.Note Java の可能性を解き放ちます。チュートリアルを利用して文書処理スキルを向上させましょう。
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

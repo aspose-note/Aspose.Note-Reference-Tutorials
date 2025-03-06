@@ -3,10 +3,16 @@ title: 在 OneNote 中添加带有标签的新表节点 - Aspose.Note
 linktitle: 在 OneNote 中添加带有标签的新表节点 - Aspose.Note
 second_title: Aspose.Note Java API
 description: 了解如何使用 Aspose.Note for Java 在 OneNote 中添加带有标签的动态表节点。轻松增强您的文档组织。
-type: docs
 weight: 11
 url: /zh/java/onenote-tag-operations/add-new-table-node-with-tag/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# 在 OneNote 中添加带有标签的新表节点 - Aspose.Note
+
 ## 介绍
 您是否希望通过添加带有标签的新表节点来增强您的 OneNote 文档？借助 Aspose.Note for Java，此任务变得简单明了，允许您创建动态且有组织的内容。在本分步指南中，我们将引导您完成使用 Aspose.Note for Java 在 OneNote 中添加带有标签的新表节点的过程。
 ## 先决条件
@@ -98,3 +104,9 @@ Aspose.Note 主要是为 Java 设计的，但类似的库也可用于其他语�
 参观[Aspose.Note Java 文档](https://reference.aspose.com/note/java/)获取全面的示例和文档。
 ### 如何获得 Aspose.Note for Java 的支持？
 参观[Aspose.Note 论坛](https://forum.aspose.com/c/note/28)寻求社区支持或[购买支持计划](https://purchase.aspose.com/buy)寻求专门帮助。
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

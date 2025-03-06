@@ -3,10 +3,16 @@ title: 在 Aspose Note .NET 中将笔记本转换为 PDF
 linktitle: 在 Aspose Note .NET 中将笔记本转换为 PDF
 second_title: Aspose.Note .NET API
 description: 了解如何使用 Aspose.Note for .NET 轻松将笔记本转换为 PDF 格式。无缝保留内容和格式。
-type: docs
 weight: 14
 url: /zh/net/notebook-operations/convert-to-pdf/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# 在 Aspose Note .NET 中将笔记本转换为 PDF
+
 ## 介绍
 
 欢迎来到我们关于使用 Aspose.Note for .NET 将笔记本转换为 PDF 的教程！在本指南中，我们将逐步引导您完成整个过程，让您轻松地将笔记本无缝转换为 PDF 格式。 Aspose.Note for .NET 提供了强大的功能来处理 Microsoft OneNote 文档，使您能够执行各种操作，包括转换为 PDF。
@@ -86,3 +92,9 @@ A4：是的，Aspose 提供专门的技术支持来帮助用户解决他们可�
 ### Q5：我可以在购买前试用 Aspose.Note for .NET 吗？
 
 A5：是的，您可以通过从网站下载免费试用版来探索 Aspose.Note for .NET 的功能。
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

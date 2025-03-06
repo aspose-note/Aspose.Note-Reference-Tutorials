@@ -3,10 +3,16 @@ title: Chuyển đổi Notebook sang PDF bằng các tùy chọn trong Aspose No
 linktitle: Chuyển đổi Notebook sang PDF bằng các tùy chọn trong Aspose Note .NET
 second_title: Aspose.Note .NET API
 description: Tìm hiểu cách chuyển đổi sổ ghi chép Microsoft OneNote sang định dạng PDF bằng thư viện Aspose.Note for .NET với các tùy chọn có thể tùy chỉnh.
-type: docs
 weight: 16
 url: /vi/net/notebook-operations/convert-to-pdf-options/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Chuyển đổi Notebook sang PDF bằng các tùy chọn trong Aspose Note .NET
+
 ## Giới thiệu
 
 Trong hướng dẫn này, chúng ta sẽ tìm hiểu quy trình chuyển đổi sổ ghi chép sang định dạng PDF bằng thư viện Aspose.Note cho .NET. Aspose.Note for .NET cung cấp một bộ tính năng mạnh mẽ để hoạt động với các tệp Microsoft OneNote theo chương trình.
@@ -102,3 +108,9 @@ Câu trả lời 4: Có, bạn có thể tải xuống bản dùng thử miễn 
 ### Câu hỏi 5: Làm cách nào tôi có thể nhận được hỗ trợ kỹ thuật cho Aspose.Note dành cho .NET?
 
  Câu trả lời 5: Bạn có thể nhận hỗ trợ kỹ thuật cho Aspose.Note dành cho .NET bằng cách truy cập[Diễn đàn Aspose.Note](https://forum.aspose.com/c/note/28) hoặc liên hệ trực tiếp với nhóm hỗ trợ Aspose.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

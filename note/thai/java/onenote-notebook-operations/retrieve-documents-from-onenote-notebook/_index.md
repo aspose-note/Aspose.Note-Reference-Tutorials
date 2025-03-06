@@ -3,10 +3,16 @@ title: ดึงเอกสารจากสมุดบันทึก OneNot
 linktitle: ดึงเอกสารจากสมุดบันทึก OneNote - Aspose.Note
 second_title: Aspose.Note Java API
 description: เรียนรู้วิธีดึงเอกสารจาก OneNote Notebook โดยใช้ Aspose.Note สำหรับ Java ปฏิบัติตามคำแนะนำทีละขั้นตอนของเราเพื่อการบูรณาการที่ราบรื่น
-type: docs
 weight: 25
 url: /th/java/onenote-notebook-operations/retrieve-documents-from-onenote-notebook/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# ดึงเอกสารจากสมุดบันทึก OneNote - Aspose.Note
+
 ## การแนะนำ
 
 ยินดีต้อนรับสู่คำแนะนำที่ครอบคลุมเกี่ยวกับการใช้ Aspose.Note สำหรับ Java เพื่อดึงเอกสารจาก OneNote Notebook! Aspose.Note เป็น Java API อันทรงพลังที่ช่วยให้นักพัฒนาจัดการไฟล์ OneNote ได้อย่างง่ายดาย ในบทช่วยสอนนี้ เราจะอธิบายกระบวนการทีละขั้นตอน โดยแบ่งแต่ละตัวอย่างออกเป็นหลายขั้นตอนเพื่อให้แน่ใจว่ามีความเข้าใจที่ชัดเจน
@@ -92,3 +98,9 @@ for (Document document : allDocuments) {
 ### คำถามที่ 5: Aspose.Note สำหรับ Java ให้ทดลองใช้ฟรีหรือไม่
 
  A5: ได้ คุณสามารถทดลองใช้ Aspose.Note สำหรับ Java ได้ฟรีโดยไปที่[หน้าทดลองใช้ฟรี](https://releases.aspose.com/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

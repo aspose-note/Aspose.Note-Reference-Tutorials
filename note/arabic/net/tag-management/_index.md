@@ -3,10 +3,16 @@ title: Aspose.Note للبرامج التعليمية لإدارة علامات .
 linktitle: إدارة العلامات
 second_title: Aspose.Note .NET API
 description: Master Aspose.Note مع إدارة العلامات. أضف الصور والجداول والعقد النصية وقم بإنشاء ملاحظات الاجتماع. استرداد تفاصيل العلامة وتحسين معالجة المستندات.
-type: docs
 weight: 30
 url: /ar/net/tag-management/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Aspose.Note للبرامج التعليمية لإدارة علامات .NET
+
 
 ## مقدمة
 
@@ -49,3 +55,9 @@ url: /ar/net/tag-management/
 تعرف على كيفية التعامل مع ملفات Microsoft OneNote برمجياً باستخدام Aspose.Note لـ .NET. فتح وإغلاق المشاريع باستخدام العلامات بكفاءة.
 ### [إعداد التقارير باستخدام العلامات في Aspose.Note](./reporting-tags/)
 تعرف على كيفية إنشاء تقارير مفيدة من المستندات الرقمية باستخدام Aspose.Note لـ .NET. دليل خطوة بخطوة المقدمة.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

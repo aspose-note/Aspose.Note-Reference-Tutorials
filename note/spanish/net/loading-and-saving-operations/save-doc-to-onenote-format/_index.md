@@ -3,10 +3,16 @@ title: Guardar documento en formato OneNote en Aspose.Note
 linktitle: Guardar documento en formato OneNote en Aspose.Note
 second_title: Aspose.Nota .NET API
 description: Aprenda a guardar documentos de OneNote mediante programación en .NET usando Aspose.Note. Tutorial paso a paso con ejemplos de código incluidos.
-type: docs
 weight: 20
 url: /es/net/loading-and-saving-operations/save-doc-to-onenote-format/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Guardar documento en formato OneNote en Aspose.Note
+
 ## Introducción
 
 En el ámbito del desarrollo .NET, Aspose.Note se destaca como una poderosa herramienta para administrar y manipular documentos OneNote mediante programación. Con su API intuitiva y su completo conjunto de funciones, los desarrolladores pueden manejar sin esfuerzo diversas tareas relacionadas con los archivos de OneNote dentro de sus aplicaciones. Este tutorial profundizará en el proceso de guardar documentos en formato OneNote usando Aspose.Note para .NET, desglosando cada paso para garantizar claridad y comprensión.
@@ -87,3 +93,9 @@ R: Por supuesto, Aspose.Note ofrece amplias opciones para personalizar la aparie
 ### P5: ¿Existe un foro comunitario o un canal de soporte disponible para los usuarios de Aspose.Note?
 
  R: Sí, Aspose proporciona un foro exclusivo para los usuarios de Aspose.Note donde pueden buscar ayuda, compartir conocimientos e interactuar con la comunidad. Visita el[Foro Aspose.Note](https://forum.aspose.com/c/note/28) para soporte.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

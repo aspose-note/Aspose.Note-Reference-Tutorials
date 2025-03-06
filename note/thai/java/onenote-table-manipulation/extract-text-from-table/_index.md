@@ -3,10 +3,16 @@ title: แยกข้อความจากตารางใน OneNote - As
 linktitle: แยกข้อความจากตารางใน OneNote - Aspose.Note
 second_title: Aspose.Note Java API
 description: เรียนรู้วิธีแยกข้อความจากตารางใน OneNote ได้อย่างง่ายดายโดยใช้ Aspose.Note for Java ปฏิบัติตามคำแนะนำทีละขั้นตอนของเราเพื่อการบูรณาการที่ราบรื่น
-type: docs
 weight: 14
 url: /th/java/onenote-table-manipulation/extract-text-from-table/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# แยกข้อความจากตารางใน OneNote - Aspose.Note
+
 ## การแนะนำ
 ในขอบเขตของการพัฒนา Java นั้น Aspose.Note มีความโดดเด่นในฐานะเครื่องมืออันทรงพลังสำหรับการจัดการเอกสาร OneNote หนึ่งในคุณสมบัติเด่นคือความสามารถในการแยกข้อความจากตารางได้อย่างง่ายดาย บทช่วยสอนนี้จะแนะนำคุณตลอดกระบวนการ โดยแจกแจงแต่ละขั้นตอนเพื่อให้แน่ใจว่าได้รับประสบการณ์ที่ราบรื่น
 ## ข้อกำหนดเบื้องต้น
@@ -73,3 +79,9 @@ System.out.println(text);
  คุณสามารถค้นหาการสนับสนุนจากชุมชนได้ใน[ฟอรั่ม Aspose.Note](https://forum.aspose.com/c/note/28).
 ### ฉันจะซื้อไลบรารี Aspose.Note ได้อย่างไร
  คุณสามารถซื้อห้องสมุดได้[ที่นี่](https://purchase.aspose.com/buy).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

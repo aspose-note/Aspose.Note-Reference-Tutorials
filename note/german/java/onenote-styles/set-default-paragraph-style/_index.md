@@ -3,10 +3,16 @@ title: Legen Sie den Standard-Absatzstil in OneNote fest – Aspose.Note
 linktitle: Legen Sie den Standard-Absatzstil in OneNote fest – Aspose.Note
 second_title: Aspose.Note Java API
 description: Erfahren Sie, wie Sie mit Aspose.Note für Java Standardabsatzstile in OneNote festlegen. Befolgen Sie unsere Schritt-für-Schritt-Anleitung für eine effiziente Textformatierung in Ihren Java-Anwendungen.
-type: docs
 weight: 11
 url: /de/java/onenote-styles/set-default-paragraph-style/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Legen Sie den Standard-Absatzstil in OneNote fest – Aspose.Note
+
 ## Einführung
 
 Aspose.Note für Java bietet leistungsstarke Funktionen zum Bearbeiten der Textformatierung, einschließlich der Festlegung von Standardabsatzstilen. Dieses Tutorial führt Sie durch den Prozess zum Festlegen von Standardabsatzstilen in OneNote mithilfe von Aspose.Note.
@@ -127,3 +133,9 @@ A4: Ja, Sie können Aspose.Note problemlos in Ihre Java-Projekte integrieren, in
 ### F5: Gibt es eine Testversion für Aspose.Note?
 
  A5: Ja, Sie können über die auf eine kostenlose Testversion von Aspose.Note zugreifen[Webseite](https://releases.aspose.com/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

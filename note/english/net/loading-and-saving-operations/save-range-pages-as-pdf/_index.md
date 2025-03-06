@@ -3,10 +3,16 @@ title: Save Range of Pages as PDF in Aspose.Note
 linktitle: Save Range of Pages as PDF in Aspose.Note
 second_title: Aspose.Note .NET API
 description: Learn how to save a range of pages from OneNote documents as PDF files using Aspose.Note for .NET. Step-by-step tutorial included.
-type: docs
 weight: 21
 url: /net/loading-and-saving-operations/save-range-pages-as-pdf/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Save Range of Pages as PDF in Aspose.Note
+
 ## Introduction
 
 In the realm of .NET development, Aspose.Note stands out as a versatile tool for handling OneNote documents with ease and efficiency. Among its plethora of features, one of the most sought-after functionalities is the ability to save a range of pages as a PDF file. This tutorial will guide you through the process step by step, ensuring that you can seamlessly integrate this capability into your projects.
@@ -99,3 +105,10 @@ A4: Absolutely! Aspose.Note offers extensive options for customizing the appeara
 ### Q5: Where can I find additional support and resources for Aspose.Note?
 
 A5: For additional support, documentation, and community interaction, you can visit the [Aspose.Note Forum](https://forum.aspose.com/c/note/28).
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

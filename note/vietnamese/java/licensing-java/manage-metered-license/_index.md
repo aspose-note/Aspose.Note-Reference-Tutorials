@@ -3,10 +3,16 @@ title: Quản lý giấy phép Metered cho OneNote trong Java
 linktitle: Quản lý giấy phép Metered cho OneNote trong Java
 second_title: API Java Aspose.Note
 description: Tìm hiểu cách quản lý giấy phép có đồng hồ đo cho OneNote trong Java bằng thư viện Aspose.Note. Kiểm soát việc sử dụng, giám sát tín dụng và tối ưu hóa chi phí một cách hiệu quả.
-type: docs
 weight: 10
 url: /vi/java/licensing-java/manage-metered-license/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Quản lý giấy phép Metered cho OneNote trong Java
+
 ## Giới thiệu
 
 Trong hướng dẫn này, chúng ta sẽ tìm hiểu cách quản lý giấy phép đo lường cho OneNote bằng Aspose.Note cho Java. Cấp phép theo đồng hồ đo cho phép bạn giám sát và kiểm soát việc sử dụng của mình dựa trên tín dụng, cung cấp giải pháp linh hoạt và tiết kiệm chi phí.
@@ -85,3 +91,9 @@ Câu trả lời 3: Có, giấy phép có đồng hồ đo có thể được s�
 ### Câu hỏi 5: Tôi có thể nhận hỗ trợ cho Aspose.Note cho Java ở đâu?
 
  Câu trả lời 5: Bạn có thể nhận hỗ trợ từ diễn đàn cộng đồng Aspose[đây](https://forum.aspose.com/c/note/28).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

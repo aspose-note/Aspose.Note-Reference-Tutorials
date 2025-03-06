@@ -3,10 +3,16 @@ title: Crear documento con páginas raíz y secundarias en OneNote
 linktitle: Crear documento con páginas raíz y secundarias en OneNote
 second_title: Aspose.Nota Java API
 description: Cree un documento con páginas raíz y secundarias en OneNote usando Aspose.Note para Java. Siga la guía paso a paso para organizar sus notas de manera eficiente.
-type: docs
 weight: 11
 url: /es/java/onenote-page-manipulation/create-document-with-root-and-sub-pages/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Crear documento con páginas raíz y secundarias en OneNote
+
 ## Introducción
 
 En este tutorial, lo guiaremos a través del proceso de creación de un documento con páginas raíz y secundarias en OneNote usando Aspose.Note para Java. Si sigue estos pasos, podrá organizar eficientemente sus documentos de OneNote con una estructura jerárquica.
@@ -169,3 +175,9 @@ R4: Sí, Aspose.Note para Java admite guardar documentos en varios formatos, inc
 ### P5: ¿Existe una versión de prueba disponible de Aspose.Note para Java?
 
 R5: Sí, puede descargar una versión de prueba gratuita de Aspose.Note para Java desde el sitio web.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

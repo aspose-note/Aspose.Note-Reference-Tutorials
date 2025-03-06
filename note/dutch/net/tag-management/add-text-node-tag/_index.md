@@ -3,10 +3,16 @@ title: Voeg een tekstknooppunt met tag toe in Aspose.Note
 linktitle: Voeg een tekstknooppunt met tag toe in Aspose.Note
 second_title: Aspose.Note .NET API
 description: Leer hoe u tekstknooppunten met tags aan OneNote-documenten kunt toevoegen met Aspose.Note voor .NET.
-type: docs
 weight: 12
 url: /nl/net/tag-management/add-text-node-tag/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Voeg een tekstknooppunt met tag toe in Aspose.Note
+
 ## Invoering
 
 Aspose.Note voor .NET is een krachtige bibliotheek waarmee ontwikkelaars Microsoft OneNote-bestanden programmatisch kunnen maken, manipuleren en converteren met behulp van het .NET-framework. In deze zelfstudie onderzoeken we hoe u een tekstknooppunt met een tag aan een OneNote-document kunt toevoegen met Aspose.Note voor .NET.
@@ -107,3 +113,9 @@ A4: Ja, Aspose.Note voor .NET ondersteunt documentversleuteling om gegevensbevei
 ### V5: Waar kan ik meer bronnen en ondersteuning vinden voor Aspose.Note voor .NET?
 
  A5: U kunt de verkennen[Aspose.Note voor .NET-documentatie](https://reference.aspose.com/note/net/)en hulp zoeken bij de[Aspose.Note-forum](https://forum.aspose.com/c/note/28).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

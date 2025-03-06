@@ -3,10 +3,16 @@ title: Java を使用して OneNote にパスでファイルを添付する
 linktitle: Java を使用して OneNote にパスでファイルを添付する
 second_title: Aspose.Note Java API
 description: ファイルを OneNote ノートにシームレスに追加します。 Aspose.Note を使用して Java でパスによってアタッチする方法を学びます。簡単なガイドとコードが付属しています! #OneNote #Java #Aspose
-type: docs
 weight: 11
 url: /ja/java/onenote-java-integration/attach-file-by-path/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Java を使用して OneNote にパスでファイルを添付する
+
 ## 導入
 
 OneNote はノートを整理および管理するための多用途ツールであり、Aspose.Note for Java を使用すると、プログラムでファイルをノートに添付することで機能を強化できます。このチュートリアルでは、Java を使用して OneNote のパスに基づいてファイルを添付するプロセスを説明します。
@@ -148,3 +154,9 @@ A4: はい、アウトライン内でファイルを整理することで、特�
 ### Q5: 添付できるファイルサイズに制限はありますか?
 
 A5: Aspose.Note はファイル サイズに厳密な制限を課しませんが、非常に大きなファイルのパフォーマンスへの影響を考慮します。
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

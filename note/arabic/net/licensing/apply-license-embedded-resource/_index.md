@@ -3,10 +3,16 @@ title: تطبيق ترخيص Aspose.Note من الموارد المضمنة
 linktitle: تطبيق ترخيص Aspose.Note من الموارد المضمنة
 second_title: Aspose.Note .NET API
 description: تعرف على كيفية تطبيق ترخيص Aspose.Note من أحد الموارد المضمنة في تطبيق .NET الخاص بك. اتبع دليلنا خطوة بخطوة للتكامل السلس.
-type: docs
 weight: 10
 url: /ar/net/licensing/apply-license-embedded-resource/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# تطبيق ترخيص Aspose.Note من الموارد المضمنة
+
 ## مقدمة
 
 Aspose.Note for .NET عبارة عن واجهة برمجة تطبيقات قوية تتيح للمطورين العمل مع ملفات Microsoft OneNote برمجيًا. سواء كنت تتطلع إلى إنشاء مستندات OneNote أو تعديلها أو تحويلها، فإن Aspose.Note يوفر مجموعة شاملة من الميزات لتلبية احتياجاتك. في هذا البرنامج التعليمي، سنتعرف على عملية تطبيق ترخيص Aspose.Note من أحد الموارد المضمنة في تطبيق .NET الخاص بك.
@@ -86,3 +92,9 @@ license.SetLicense("Aspose.Note.lic");
 ### س5: أين يمكنني شراء تراخيص Aspose.Note؟
 
  ج5: يمكنك شراء تراخيص Aspose.Note[هنا](https://purchase.aspose.com/buy).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

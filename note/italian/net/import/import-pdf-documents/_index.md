@@ -3,10 +3,16 @@ title: Importa documenti PDF in Aspose.Note
 linktitle: Importa documenti PDF in Aspose.Note
 second_title: Aspose.Note API .NET
 description: Scopri come importare documenti PDF in Aspose.Note per .NET senza sforzo utilizzando varie opzioni di unione per un'integrazione perfetta.
-type: docs
 weight: 10
 url: /it/net/import/import-pdf-documents/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Importa documenti PDF in Aspose.Note
+
 ## introduzione
 
 Con la grande quantità di contenuti digitali oggi disponibili, l'integrazione perfetta dei documenti PDF nei tuoi progetti è fondamentale. Aspose.Note per .NET fornisce potenti funzionalità per importare documenti PDF in modo efficiente. In questo tutorial, esploreremo come importare documenti PDF passo dopo passo utilizzando Aspose.Note per .NET.
@@ -151,3 +157,9 @@ A4: Sì, Aspose.Note è compatibile con .NET Core, consentendo di integrare la f
 ### Q5: Dove posso trovare ulteriore supporto o risorse?
 
  R5: Per ulteriore supporto, documentazione o assistenza della comunità, visitare il sito[Forum Aspose.Note](https://forum.aspose.com/c/note/28).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

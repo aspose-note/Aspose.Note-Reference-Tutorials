@@ -3,10 +3,16 @@ title: Agregar nuevo nodo de tabla con etiqueta en OneNote - Aspose.Note
 linktitle: Agregar nuevo nodo de tabla con etiqueta en OneNote - Aspose.Note
 second_title: Aspose.Nota Java API
 description: Aprenda a agregar nodos de tabla dinámica con etiquetas en OneNote usando Aspose.Note para Java. Mejore la organización de sus documentos sin esfuerzo.
-type: docs
 weight: 11
 url: /es/java/onenote-tag-operations/add-new-table-node-with-tag/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Agregar nuevo nodo de tabla con etiqueta en OneNote - Aspose.Note
+
 ## Introducción
 ¿Está buscando mejorar sus documentos de OneNote agregando un nuevo nodo de tabla con una etiqueta? Con Aspose.Note para Java, esta tarea se vuelve sencilla y le permite crear contenido dinámico y organizado. En esta guía paso a paso, lo guiaremos a través del proceso de agregar un nuevo nodo de tabla con una etiqueta en OneNote usando Aspose.Note para Java.
 ## Requisitos previos
@@ -98,3 +104,9 @@ Sí, Aspose.Note para Java se actualiza periódicamente para garantizar la compa
  Visita el[Aspose.Note Documentación de Java](https://reference.aspose.com/note/java/) para obtener ejemplos y documentación completos.
 ### ¿Cómo puedo obtener soporte para Aspose.Note para Java?
  Visita el[Foro Aspose.Note](https://forum.aspose.com/c/note/28) para apoyo comunitario o[comprar un plan de soporte](https://purchase.aspose.com/buy) para asistencia dedicada.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

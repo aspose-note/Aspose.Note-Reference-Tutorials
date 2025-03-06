@@ -3,10 +3,16 @@ title: Bouw een document en voeg een afbeelding in Aspose.Note in
 linktitle: Bouw een document en voeg een afbeelding in Aspose.Note in
 second_title: Aspose.Note .NET API
 description: Leer hoe u afbeeldingen programmatisch in OneNote-documenten kunt invoegen met Aspose.Note voor .NET. Eenvoudige stappen voor naadloze documentmanipulatie.
-type: docs
 weight: 10
 url: /nl/net/images/build-doc-insert-image/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Bouw een document en voeg een afbeelding in Aspose.Note in
+
 ## Invoering
 
 In deze tutorial duiken we in de wereld van documentmanipulatie met Aspose.Note voor .NET. Aspose.Note is een krachtige API waarmee ontwikkelaars programmatisch met Microsoft OneNote-bestanden kunnen werken, waardoor taken zoals het maken, wijzigen en converteren van documenten eenvoudig mogelijk worden gemaakt. 
@@ -150,3 +156,9 @@ A4: Ja, Aspose.Note biedt uitgebreide opties voor het aanpassen van het uiterlij
 ### V5: Waar kan ik aanvullende bronnen en ondersteuning vinden voor Aspose.Note voor .NET?
 
  A5: U kunt de Aspose.Note-documentatie verkennen[hier](https://reference.aspose.com/note/net/) en zoek hulp op het Aspose-communityforum[hier](https://forum.aspose.com/c/note/28).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

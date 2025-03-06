@@ -3,10 +3,16 @@ title: Lưu vào hình ảnh thang độ xám trong Aspose.Note
 linktitle: Lưu vào hình ảnh thang độ xám trong Aspose.Note
 second_title: Aspose.Note .NET API
 description: Tìm hiểu cách lưu tài liệu OneNote dưới dạng hình ảnh thang độ xám bằng Aspose.Note for .NET. Hãy làm theo hướng dẫn toàn diện này để xử lý tài liệu hiệu quả.
-type: docs
 weight: 24
 url: /vi/net/loading-and-saving-operations/save-to-grayscale-image/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Lưu vào hình ảnh thang độ xám trong Aspose.Note
+
 ## Giới thiệu
 
 Trong hướng dẫn này, chúng ta sẽ khám phá cách sử dụng Aspose.Note cho .NET để lưu tài liệu dưới dạng hình ảnh thang độ xám. Aspose.Note là một thư viện mạnh mẽ cho phép các nhà phát triển làm việc với các tệp Microsoft OneNote theo chương trình, cung cấp nhiều chức năng.
@@ -85,3 +91,9 @@ Câu trả lời 4: Có, bạn có thể khám phá Aspose.Note thông qua bản
 ### Câu hỏi 5: Làm cách nào tôi có thể nhận được giấy phép tạm thời cho Aspose.Note?
 
 Câu trả lời 5: Bạn có thể lấy giấy phép tạm thời cho Aspose.Note bằng cách truy cập liên kết được cung cấp và làm theo hướng dẫn.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

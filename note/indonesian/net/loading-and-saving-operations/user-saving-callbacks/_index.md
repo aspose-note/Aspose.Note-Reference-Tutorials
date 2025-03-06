@@ -3,10 +3,16 @@ title: Callback Penghematan Pengguna di Aspose.Note
 linktitle: Callback Penghematan Pengguna di Aspose.Note
 second_title: Aspose.Catatan .NET API
 description: Pelajari cara menerapkan callback penyimpanan pengguna di Aspose.Note untuk .NET guna menyesuaikan penyimpanan font, CSS, dan gambar.
-type: docs
 weight: 31
 url: /id/net/loading-and-saving-operations/user-saving-callbacks/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Callback Penghematan Pengguna di Aspose.Note
+
 ## Perkenalan
 
 Dalam tutorial ini, kita akan mempelajari cara mengimplementasikan callback yang menyimpan pengguna di Aspose.Note untuk .NET. Callback ini memungkinkan Anda menyesuaikan proses penyimpanan dengan menyediakan kait untuk melakukan intervensi di berbagai tahapan, seperti menyimpan font, lembar gaya CSS, dan gambar. Dengan memanfaatkan callback ini, Anda dapat menyesuaikan perilaku penyimpanan agar sesuai dengan kebutuhan spesifik Anda, sehingga meningkatkan fleksibilitas dan kontrol atas output.
@@ -118,3 +124,9 @@ A4: Meskipun callback ini menawarkan fleksibilitas, pastikan callback ini ditera
 ### Q5: Bisakah saya mengubah perilaku penyimpanan secara dinamis berdasarkan masukan pengguna atau kondisi lainnya?
 
 A5: Ya, Anda dapat memasukkan logika kondisional dalam metode panggilan balik untuk menyesuaikan perilaku penyimpanan secara dinamis berdasarkan berbagai faktor.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

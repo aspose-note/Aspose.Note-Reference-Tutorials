@@ -3,10 +3,16 @@ title: Speichern Sie den Seitenbereich als PDF in Aspose.Note
 linktitle: Speichern Sie den Seitenbereich als PDF in Aspose.Note
 second_title: Aspose.Note .NET-API
 description: Erfahren Sie, wie Sie mit Aspose.Note für .NET eine Reihe von Seiten aus OneNote-Dokumenten als PDF-Dateien speichern. Schritt-für-Schritt-Anleitung enthalten.
-type: docs
 weight: 21
 url: /de/net/loading-and-saving-operations/save-range-pages-as-pdf/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Speichern Sie den Seitenbereich als PDF in Aspose.Note
+
 ## Einführung
 
 Im Bereich der .NET-Entwicklung zeichnet sich Aspose.Note als vielseitiges Tool für die einfache und effiziente Handhabung von OneNote-Dokumenten aus. Eine der gefragtesten Funktionen unter der Fülle an Funktionen ist die Möglichkeit, eine Reihe von Seiten als PDF-Datei zu speichern. Dieses Tutorial führt Sie Schritt für Schritt durch den Prozess und stellt sicher, dass Sie diese Funktion nahtlos in Ihre Projekte integrieren können.
@@ -99,3 +105,9 @@ A4: Auf jeden Fall! Aspose.Note bietet umfangreiche Optionen zum Anpassen des Er
 ### F5: Wo finde ich zusätzlichen Support und Ressourcen für Aspose.Note?
 
  A5: Für zusätzliche Unterstützung, Dokumentation und Community-Interaktion können Sie die besuchen[Aspose.Note-Forum](https://forum.aspose.com/c/note/28).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

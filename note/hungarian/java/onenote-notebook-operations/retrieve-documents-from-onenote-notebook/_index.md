@@ -3,10 +3,16 @@ title: Dokumentumok lekérése a OneNote-jegyzetfüzetből – Aspose.Note
 linktitle: Dokumentumok lekérése a OneNote-jegyzetfüzetből – Aspose.Note
 second_title: Aspose.Note Java API
 description: Ismerje meg, hogyan kérhet le dokumentumokat a OneNote Jegyzetfüzetből az Aspose.Note for Java használatával. Kövesse lépésenkénti útmutatónkat a zökkenőmentes integráció érdekében.
-type: docs
 weight: 25
 url: /hu/java/onenote-notebook-operations/retrieve-documents-from-onenote-notebook/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Dokumentumok lekérése a OneNote-jegyzetfüzetből – Aspose.Note
+
 ## Bevezetés
 
 Üdvözöljük az Aspose.Note for Java használatáról szóló átfogó útmutatóban a dokumentumok OneNote Jegyzetfüzetből való lekéréséhez! Az Aspose.Note egy hatékony Java API, amely lehetővé teszi a fejlesztők számára a OneNote-fájlok egyszerű kezelését. Ebben az oktatóanyagban lépésről lépésre végigjárjuk a folyamatot, az egyes példákat több lépésre bontva a világos megértés érdekében.
@@ -92,3 +98,9 @@ for (Document document : allDocuments) {
 ### 5. kérdés: Az Aspose.Note for Java ingyenes próbaverziót kínál?
 
  5. válasz: Igen, igénybe veheti az Aspose.Note for Java ingyenes próbaverzióját, ha ellátogat a[ingyenes próbaoldal](https://releases.aspose.com/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

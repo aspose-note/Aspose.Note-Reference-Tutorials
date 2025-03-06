@@ -3,10 +3,16 @@ title: Adja meg a mentési beállításokat az Aspose.Note-ban
 linktitle: Adja meg a mentési beállításokat az Aspose.Note-ban
 second_title: Aspose.Note .NET API
 description: Ismerje meg, hogyan adhat meg mentési beállításokat az Aspose.Note for .NET-ben a OneNote-dokumentumok kimeneti formátumának és minőségének testreszabásához.
-type: docs
 weight: 30
 url: /hu/net/loading-and-saving-operations/specify-save-options/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Adja meg a mentési beállításokat az Aspose.Note-ban
+
 ## Bevezetés
 
 .NET-fejlesztés területén az Aspose.Note a OneNote-dokumentumok kezelésének hatékony eszköze. A fájlok hatékony kezeléséhez és kezeléséhez funkciók átfogó készletét kínálja. Az Aspose.Note-tel való munkavégzés egyik kulcsfontosságú szempontja a mentési beállítások megadása, amelyek lehetővé teszik a fejlesztők számára, hogy igényeiknek megfelelően testreszabják a kimeneti formátumot és a minőséget.
@@ -94,3 +100,9 @@ Ebben az oktatóanyagban megvizsgáltuk, hogyan adhatunk meg mentési beállít�
 ### 5. kérdés: Az Aspose.Note kínál-e támogatást és segítséget a problémákkal küzdő fejlesztőknek?
 
 5. válasz: Igen, a fejlesztők kérhetnek segítséget és segítséget az Aspose.Note támogatási csapatától a fórumon keresztül, vagy közvetlenül az Aspose-hoz fordulva bármilyen probléma vagy kérdés időben történő megoldása érdekében.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

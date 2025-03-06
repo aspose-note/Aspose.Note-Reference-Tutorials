@@ -3,10 +3,16 @@ title: Ανακτήστε τη μορφή αρχείου στο Aspose.Note
 linktitle: Ανακτήστε τη μορφή αρχείου στο Aspose.Note
 second_title: Aspose.Note .NET API
 description: Εξερευνήστε το Aspose.Note για .NET, ένα ισχυρό API για εργασία με έγγραφα του Microsoft OneNote μέσω προγραμματισμού.
-type: docs
 weight: 19
 url: /el/net/loading-and-saving-operations/retrieve-file-format/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Ανακτήστε τη μορφή αρχείου στο Aspose.Note
+
 ## Εισαγωγή
 
 Το Aspose.Note για .NET είναι ένα ισχυρό API που επιτρέπει στους προγραμματιστές να εργάζονται με έγγραφα του Microsoft OneNote μέσω προγραμματισμού. Είτε θέλετε να δημιουργήσετε, να χειριστείτε ή να μετατρέψετε αρχεία OneNote, το Aspose.Note απλοποιεί τη διαδικασία με το διαισθητικό και ολοκληρωμένο σύνολο δυνατοτήτων του.
@@ -83,3 +89,9 @@ A3: Ναι, μπορείτε να εξερευνήσετε τις δυνατότ
 ### Ε5: Χρειάζομαι μια προσωρινή άδεια για λόγους αξιολόγησης;
 
  A5: Ενώ η δωρεάν δοκιμή σάς επιτρέπει να δοκιμάσετε το Aspose.Note, μπορείτε να επιλέξετε μια προσωρινή άδεια για εκτεταμένη αξιολόγηση. Επίσκεψη[εδώ](https://purchase.aspose.com/temporary-license/) Για περισσότερες πληροφορίες.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

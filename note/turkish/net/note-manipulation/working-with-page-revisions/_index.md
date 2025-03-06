@@ -3,10 +3,16 @@ title: OneNote Belgelerinde Ana Sayfa Düzeltmeleri Yapma
 linktitle: OneNote Belgelerinde Ana Sayfa Düzeltmeleri Yapma
 second_title: Aspose.Note .NET API'si
 description: Aspose.Note ile Microsoft OneNote sayfa revizyonlarını yönetmeyi öğrenin. .NET uygulamalarınızda kusursuz entegrasyon ve sürüm kontrolü için adım adım kılavuz.
-type: docs
 weight: 20
 url: /tr/net/note-manipulation/working-with-page-revisions/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# OneNote Belgelerinde Ana Sayfa Düzeltmeleri Yapma
+
 ## giriiş
 
 .NET geliştirme alanında Aspose.Note, Microsoft OneNote dosyalarını verimli bir şekilde yönetmek için çok yönlü bir araç olarak öne çıkıyor. Aspose.Note'un özellikle yararlı özelliklerinden biri, sayfa revizyonlarını sorunsuz bir şekilde yönetme yeteneğidir. Bu eğitimde Aspose.Note for .NET'i kullanarak sayfa revizyonlarıyla çalışmanın inceliklerini inceleyeceğiz.
@@ -112,3 +118,9 @@ Cevap4: Aspose.Note, önemli sayıda revizyonu verimli bir şekilde yönetecek �
 ### S5: Aspose.Note'u kullanarak sayfa revizyonlarını yönetme sürecini otomatikleştirebilir miyim?
 
 Cevap5: Evet, Aspose.Note, geliştiricilerin sayfa revizyonlarıyla ilgili görevleri otomatikleştirmesine ve iş akışı süreçlerini kolaylaştırmasına olanak tanıyan kapsamlı API'ler sunar.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -3,10 +3,16 @@ title: 在 Aspose Note .NET 中即時載入筆記本
 linktitle: 在 Aspose Note .NET 中即時載入筆記本
 second_title: Aspose.Note .NET API
 description: 了解如何在 Aspose.Note for .NET 中即時載入筆記本，以提高文件處理效率和生產力。
-type: docs
 weight: 21
 url: /zh-hant/net/notebook-operations/load-notebooks-instantly/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# 在 Aspose Note .NET 中即時載入筆記本
+
 ## 介紹
 
 在本教學中，我們將探討如何在 Aspose.Note for .NET 中立即載入筆記本。立即載入筆記本可以有效地操作和處理筆記本文檔。
@@ -84,3 +90,9 @@ A1：是的，Aspose.Note for .NET 與多個版本的 .NET Framework 相容，�
 ### Q5：在哪裡可以購買 Aspose.Note for .NET 的完整授權？
 
  A5：您可以從以下位置購買 Aspose.Note for .NET 的完整授權：[這裡](https://purchase.aspose.com/buy).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

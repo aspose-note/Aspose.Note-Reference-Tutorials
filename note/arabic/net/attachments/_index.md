@@ -3,10 +3,16 @@ title: مرفقات الملفات واسترجاعها في مستندات OneN
 linktitle: المرفقات
 second_title: Aspose.Note .NET API
 description: عزز تطبيقات .NET الخاصة بك باستخدام Aspose.Note! استكشف البرامج التعليمية حول إرفاق الملفات وإعداد الرموز واسترداد المرفقات لتحسين التطوير.
-type: docs
 weight: 21
 url: /ar/net/attachments/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# مرفقات الملفات واسترجاعها في مستندات OneNote
+
 ## مقدمة
 
 هل أنت مستعد للارتقاء بتطبيقات .NET الخاصة بك إلى المستوى التالي؟ انغمس في عالم Aspose.Note وافتح عالمًا من الاحتمالات. سترشدك هذه القائمة التعليمية الشاملة عبر الميزات الرئيسية، مع التركيز على إرفاق الملفات، وتعيين الرموز، واسترداد الملفات المرفقة بسلاسة.
@@ -37,3 +43,9 @@ url: /ar/net/attachments/
 تعرف على كيفية إرفاق الملفات بمستندات Microsoft OneNote برمجياً باستخدام Aspose.Note لـ .NET. قم بتبسيط عملية التطوير الخاصة بك مع هذا البرنامج التعليمي الشامل.
 ### [استرداد الملفات المرفقة مع Aspose.Note](./retrieve-attached-files/)
 تعرف على كيفية استرداد الملفات المرفقة من مستندات Microsoft OneNote باستخدام Aspose.Note لـ .NET. اتبع خطوات التحميل والحصول على العقد والتكرار عبر المرفقات.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

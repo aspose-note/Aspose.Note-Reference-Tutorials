@@ -3,10 +3,16 @@ title: Erstellen Sie eine Tabelle mit gesperrten Spalten in OneNote – Aspose.N
 linktitle: Erstellen Sie eine Tabelle mit gesperrten Spalten in OneNote – Aspose.Note
 second_title: Aspose.Note Java API
 description: Verbessern Sie Ihr OneNote-Erlebnis mit Aspose.Note für Java. Erfahren Sie anhand einer Schritt-für-Schritt-Anleitung, wie Sie Tabellen mit gesperrten Spalten erstellen. Laden Sie jetzt Ihre kostenlose Testversion herunter!
-type: docs
 weight: 12
 url: /de/java/onenote-table-manipulation/create-table-with-locked-columns/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Erstellen Sie eine Tabelle mit gesperrten Spalten in OneNote – Aspose.Note
+
 ## Einführung
 OneNote ist ein leistungsstarkes Tool zum Organisieren von Informationen, und Aspose.Note für Java erweitert seine Funktionen, indem es eine nahtlose Möglichkeit zum Erstellen von Tabellen mit gesperrten Spalten bietet. In diesem Tutorial führen wir Sie durch den Prozess der Verwendung von Aspose.Note für Java zum Erstellen einer Tabelle mit gesperrten Spalten in OneNote.
 ## Voraussetzungen
@@ -90,3 +96,9 @@ Absolut! Aspose.Note für Java bietet umfangreiche Optionen zum Anpassen von Tab
  Besuche den[Aspose.Note-Forum](https://forum.aspose.com/c/note/28) für Unterstützung und Community-Diskussionen.
 ### Wie kann ich eine temporäre Lizenz für Aspose.Note für Java erhalten?
  Besuchen[dieser Link](https://purchase.aspose.com/temporary-license/) um eine temporäre Lizenz zu Testzwecken zu erhalten.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

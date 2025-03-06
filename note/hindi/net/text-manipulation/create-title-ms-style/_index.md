@@ -3,10 +3,16 @@ title: Aspose.Note में MS स्टाइल के साथ शीर्
 linktitle: Aspose.Note में MS स्टाइल के साथ शीर्षक बनाएं
 second_title: Aspose.Note .NET API
 description: जानें कि .NET के लिए Aspose.Note में Microsoft-शैली शीर्षक कैसे बनाएं। इस आसान-से ट्यूटोरियल के साथ अपने दस्तावेज़ प्रस्तुति को बेहतर बनाएं।
-type: docs
 weight: 15
 url: /hi/net/text-manipulation/create-title-ms-style/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Aspose.Note में MS स्टाइल के साथ शीर्षक बनाएं
+
 ## परिचय
 क्या आप .NET के लिए Aspose.Note का उपयोग करके Microsoft-शैली शीर्षक जोड़कर अपनी दस्तावेज़ निर्माण प्रक्रिया को बढ़ाना चाह रहे हैं? यह व्यापक मार्गदर्शिका आपको आसानी से एमएस शैली के साथ शीर्षक बनाने के चरणों के बारे में बताएगी। .NET के लिए Aspose.Note एक शक्तिशाली उपकरण है जो डेवलपर्स को OneNote दस्तावेज़ों को प्रोग्रामेटिक रूप से हेरफेर करने में सक्षम बनाता है।
 ## आवश्यक शर्तें
@@ -80,3 +86,9 @@ Console.WriteLine("\nPage title set up successfully in Microsoft OneNote style.\
 दस्तावेज़ निर्माण प्रक्रिया के दौरान होने वाली किसी भी संभावित त्रुटि को पकड़ने और संभालने के लिए C# में अपवाद हैंडलिंग तंत्र का उपयोग करें।
 ### मुझे .NET के लिए Aspose.Note के लिए और अधिक उदाहरण और दस्तावेज़ कहां मिल सकते हैं?
  को देखें[.NET दस्तावेज़ीकरण के लिए Aspose.Note](https://reference.aspose.com/note/net/)विस्तृत उदाहरणों और व्यापक दस्तावेज़ीकरण के लिए।
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

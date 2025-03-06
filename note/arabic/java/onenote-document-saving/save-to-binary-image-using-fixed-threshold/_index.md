@@ -3,10 +3,16 @@ title: الحفظ في الصورة الثنائية باستخدام العتب
 linktitle: الحفظ في الصورة الثنائية باستخدام العتبة الثابتة في OneNote
 second_title: Aspose.Note جافا API
 description: احفظ مستندات Microsoft OneNote بسهولة كصور ثنائية باستخدام حد ثابت مع Aspose.Note Java. ارفع قدرات معالجة ملف OneNote لديك.
-type: docs
 weight: 14
 url: /ar/java/onenote-document-saving/save-to-binary-image-using-fixed-threshold/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# الحفظ في الصورة الثنائية باستخدام العتبة الثابتة في OneNote
+
 ## مقدمة
 
 Aspose.Note for Java عبارة عن واجهة برمجة تطبيقات قوية تتيح للمطورين العمل مع ملفات Microsoft OneNote برمجيًا. في هذا البرنامج التعليمي، سوف نستكشف كيفية حفظ مستند كصورة ثنائية باستخدام حد ثابت. اتبع الخطوات أدناه لتحقيق ذلك.
@@ -91,3 +97,9 @@ oneFile.save(dataDir, options);
 ### س5: هل يتوفر الدعم الفني لـ Aspose.Note لـ Java؟
 
  ج5: نعم، الدعم الفني متوفر من خلال[منتدى Aspose.Note](https://forum.aspose.com/c/note/28)حيث يمكنك طرح الأسئلة وطلب المساعدة من الخبراء.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

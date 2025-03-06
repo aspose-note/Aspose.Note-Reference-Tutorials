@@ -3,10 +3,16 @@ title: Adicionar novo nó de tabela com tag no OneNote - Aspose.Note
 linktitle: Adicionar novo nó de tabela com tag no OneNote - Aspose.Note
 second_title: API Java Aspose.Note
 description: Aprenda como adicionar nós de tabela dinâmica com tags no OneNote usando Aspose.Note para Java. Melhore a organização de seus documentos sem esforço.
-type: docs
 weight: 11
 url: /pt/java/onenote-tag-operations/add-new-table-node-with-tag/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Adicionar novo nó de tabela com tag no OneNote - Aspose.Note
+
 ## Introdução
 Você deseja aprimorar seus documentos do OneNote adicionando um novo nó de tabela com uma tag? Com Aspose.Note for Java, essa tarefa se torna simples, permitindo criar conteúdo dinâmico e organizado. Neste guia passo a passo, orientaremos você no processo de adição de um novo nó de tabela com uma tag no OneNote usando Aspose.Note para Java.
 ## Pré-requisitos
@@ -98,3 +104,9 @@ Absolutamente! Aspose.Note oferece várias opções para personalizar a aparênc
  Visite a[Documentação Java Aspose.Note](https://reference.aspose.com/note/java/) para obter exemplos e documentação abrangentes.
 ### Como posso obter suporte para Aspose.Note para Java?
  Visite a[Fórum Aspose.Note](https://forum.aspose.com/c/note/28) para apoio comunitário ou[adquirir um plano de suporte](https://purchase.aspose.com/buy) para assistência dedicada.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

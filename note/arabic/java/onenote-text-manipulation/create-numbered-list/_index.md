@@ -3,10 +3,16 @@ title: إنشاء قائمة مرقمة في OneNote - Aspose.Note
 linktitle: إنشاء قائمة مرقمة في OneNote - Aspose.Note
 second_title: Aspose.Note جافا API
 description: تعرف على كيفية إنشاء قائمة مرقمة بسهولة في OneNote باستخدام Aspose.Note لـ Java. قم بتنزيل نسخة تجريبية مجانية وانغمس في عالم تطوير Java!
-type: docs
 weight: 14
 url: /ar/java/onenote-text-manipulation/create-numbered-list/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# إنشاء قائمة مرقمة في OneNote - Aspose.Note
+
 ## مقدمة
 يعمل Aspose.Note for Java على تمكين مطوري Java من العمل بسلاسة مع ملفات Microsoft OneNote. في هذا البرنامج التعليمي، سنرشدك خلال عملية إنشاء قائمة مرقمة في OneNote باستخدام مكتبة Aspose.Note القوية لـ Java.
 ## المتطلبات الأساسية
@@ -91,3 +97,9 @@ System.out.printf("File saved: %s\n", dataDir + "CreateNumberedList_out.pdf");
  ج: راجع[توثيق](https://reference.aspose.com/note/java/) للحصول على معلومات شاملة.
 ### س: كيف يمكنني شراء ترخيص Aspose.Note لـ Java؟
  ج: يمكنك شراء ترخيص[هنا](https://purchase.aspose.com/buy).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

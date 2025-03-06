@@ -3,10 +3,16 @@ title: Làm chủ bảng bằng tích hợp OneNote
 linktitle: Thao tác trên bảng
 second_title: Aspose.Note .NET API
 description: Tạo tài liệu hấp dẫn trực quan với Aspose.Note cho .NET! Khám phá các hướng dẫn về thao tác với bảng – thay đổi kiểu, soạn bảng, trích xuất văn bản, v.v.
-type: docs
 weight: 29
 url: /vi/net/table-manipulation/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Làm chủ bảng bằng tích hợp OneNote
+
 
 ## Giới thiệu
 
@@ -62,3 +68,9 @@ Tìm hiểu cách trích xuất văn bản từ các bảng trong Aspose.Note b�
 Tìm hiểu cách chèn bảng vào tài liệu Note bằng Aspose.Note for .NET. Sắp xếp dữ liệu liền mạch để cải thiện khả năng đọc và trình bày.
 ### [Đặt màu nền ô trong bảng Aspose.Note](./set-cell-background-color/)
 Tìm hiểu cách đặt màu nền ô trong bảng Aspose.Note bằng hướng dẫn từng bước. Nâng cao hình ảnh tài liệu một cách dễ dàng.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

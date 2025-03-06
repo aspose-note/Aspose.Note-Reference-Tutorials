@@ -3,10 +3,16 @@ title: Az oldal háttérszínének beállítása a OneNote-ban – Aspose.Note
 linktitle: Az oldal háttérszínének beállítása a OneNote-ban – Aspose.Note
 second_title: Aspose.Note Java API
 description: Ismerje meg, hogyan állíthatja be könnyedén az oldal háttérszínét a OneNote-ban az Aspose.Note for Java segítségével. Növelje dokumentumai vizuális vonzerejét ezzel az egyszerű oktatóanyaggal.
-type: docs
 weight: 20
 url: /hu/java/onenote-page-manipulation/set-page-background-color/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Az oldal háttérszínének beállítása a OneNote-ban – Aspose.Note
+
 ## Bevezetés
 
 Ebben az oktatóanyagban az oldal háttérszínének OneNote-ban az Aspose.Note for Java segítségével történő beállításának folyamatát mutatjuk be. Az Aspose.Note egy hatékony Java-könyvtár, amely lehetővé teszi a fejlesztők számára a OneNote-dokumentumok programozott kezelését. Az oldal háttérszínének megváltoztatása fokozhatja a OneNote-dokumentumok vizuális vonzerejét, ezáltal vonzóbbá és szervezettebbé teheti őket.
@@ -100,3 +106,9 @@ A4: Természetesen! Használhatja az Aspose.Note ingyenes próbaverzióját, hog
 ### 5. kérdés: Hol találhatok további támogatást vagy segítséget az Aspose.Note-hoz?
 
 5. válasz: Ha kérdése van, vagy segítségre van szüksége, keresse fel az Aspose.Note fórumot, vagy azonnali segítségért forduljon a támogatási csapatához.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

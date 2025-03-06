@@ -3,10 +3,16 @@ title: Konkrét oldal konvertálása PNG-képpé a OneNote-ban – Java
 linktitle: Konkrét oldal konvertálása PNG-képpé a OneNote-ban – Java
 second_title: Aspose.Note Java API
 description: Tanulja meg az Aspose.Note for Java használatát, amely egy OneNote-oldalt PNG formátumba konvertál. Kövesse az egyszerű lépéseket, töltse be a dokumentumot, és állítsa be a beállításokat. Bővítse a Java-alkalmazásokat ezzel a funkcióval.
-type: docs
 weight: 13
 url: /hu/java/onenote-document-loading/convert-page-to-png-image/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Konkrét oldal konvertálása PNG-képpé a OneNote-ban – Java
+
 ## Bevezetés
 
 Ebből az oktatóanyagból megtudhatja, hogyan használhatja az Aspose.Note for Java alkalmazást egy adott oldal OneNote-dokumentumból PNG-képpé konvertálására. A folyamatot könnyen követhető lépésekre bontjuk, hogy segítsünk zökkenőmentesen integrálni ezt a funkciót Java-alkalmazásába.
@@ -93,3 +99,9 @@ Gratulálunk! Sikeresen megtanulta, hogyan alakíthat át egy adott oldalt OneNo
 ### 5. kérdés: Hol vásárolhatok licencet az Aspose.Note for Java számára?
 
  V5: Licenc vásárolható a[vásárlási oldal](https://purchase.aspose.com/buy).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

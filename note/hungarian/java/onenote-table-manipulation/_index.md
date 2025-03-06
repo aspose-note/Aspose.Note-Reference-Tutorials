@@ -3,10 +3,16 @@ title: OneNote táblázatkezelés
 linktitle: OneNote táblázatkezelés
 second_title: Aspose.Note Java API
 description: Javítsa OneNote-táblázatait az Aspose.Note for Java segítségével. Stílusok módosítása, táblázatok összeállítása, szöveg zökkenőmentes kibontása. Töltse le a könyvtárat a zökkenőmentes dokumentumkészítés érdekében.
-type: docs
 weight: 32
 url: /hu/java/onenote-table-manipulation/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# OneNote táblázatkezelés
+
 
 
 ## Bevezetés
@@ -55,3 +61,9 @@ Az Aspose.Note segítségével feltárhatja a Java OneNote-táblázataiból tör
 Ismerje meg, hogyan szúrhat be táblázatokat a OneNote-ba az Aspose.Note for Java használatával. Lépésről lépésre szóló útmutató a dinamikus tartalomkészítéshez. Bővítse dokumentumait könnyedén.
 ### [Cellák háttérszínének beállítása a OneNote-ban – Aspose.Note](./setting-cell-background-color/)
 Az Aspose.Note for Java segítségével könnyedén átalakíthatja a OneNote-dokumentumokat. Könnyedén testreszabhatja a cella háttérszíneit. Próbálja ki most az ingyenes próbaverziót!
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

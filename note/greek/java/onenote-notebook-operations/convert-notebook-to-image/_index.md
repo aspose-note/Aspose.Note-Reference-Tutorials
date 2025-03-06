@@ -3,10 +3,16 @@ title: Μετατροπή σημειωματάριου σε εικόνα στο 
 linktitle: Μετατροπή σημειωματάριου σε εικόνα στο OneNote - Aspose.Note
 second_title: Aspose.Note Java API
 description: Μάθετε πώς να μετατρέπετε σημειωματάρια σε εικόνες στο OneNote χρησιμοποιώντας το Aspose.Note για Java. Ενσωματώστε εύκολα αυτή τη λειτουργικότητα στις εφαρμογές σας Java.
-type: docs
 weight: 12
 url: /el/java/onenote-notebook-operations/convert-notebook-to-image/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Μετατροπή σημειωματάριου σε εικόνα στο OneNote - Aspose.Note
+
 ## Εισαγωγή
 
 Σε αυτό το σεμινάριο, θα διερευνήσουμε πώς να μετατρέψετε ένα σημειωματάριο σε εικόνα στο OneNote χρησιμοποιώντας τη βιβλιοθήκη Aspose.Note για Java. Η μετατροπή σημειωματάριων σε εικόνες μπορεί να είναι χρήσιμη για διάφορους σκοπούς, όπως η κοινή χρήση σημειώσεων, η ενσωμάτωσή τους σε έγγραφα ή η ενσωμάτωσή τους σε παρουσιάσεις.
@@ -94,3 +100,9 @@ A4: Ναι, μπορείτε να μετατρέψετε ομαδικά πολλ
 ### Ε5: Πού μπορώ να βρω πρόσθετους πόρους και υποστήριξη για το Aspose.Note;
 
  A5: Για περαιτέρω τεκμηρίωση, παραδείγματα και υποστήριξη της κοινότητας, επισκεφθείτε το[Aspose.Note φόρουμ](https://forum.aspose.com/c/note/28) και εξερευνήστε το[τεκμηρίωση](https://reference.aspose.com/note/java/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

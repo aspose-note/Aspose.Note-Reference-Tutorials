@@ -3,10 +3,16 @@ title: Konversi Rentang Halaman Tertentu ke PDF di OneNote dengan Java
 linktitle: Konversi Rentang Halaman Tertentu ke PDF di OneNote dengan Java
 second_title: Aspose.Catatan Java API
 description: Pelajari cara mengonversi rentang halaman tertentu dari OneNote ke PDF secara lancar dengan Aspose.Note untuk Java. Pertahankan pemformatan dan tata letak dengan mudah.
-type: docs
 weight: 11
 url: /id/java/onenote-document-loading/convert-page-range-to-pdf/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Konversi Rentang Halaman Tertentu ke PDF di OneNote dengan Java
+
 ## Perkenalan
 
 OneNote adalah alat canggih untuk mengatur catatan, namun terkadang Anda mungkin perlu mengekspor rentang halaman tertentu ke PDF untuk tujuan berbagi atau pengarsipan. Dalam tutorial ini, kami akan memandu Anda melalui proses mengonversi rentang halaman tertentu ke PDF menggunakan Aspose.Note untuk Java.
@@ -85,3 +91,9 @@ A4: Ya, Anda dapat menyesuaikan berbagai aspek seperti ukuran halaman, orientasi
 ### Q5: Apakah Aspose.Note untuk Java mendukung konversi batch beberapa dokumen OneNote?
 
 A5: Ya, Anda dapat mengonversi beberapa dokumen OneNote ke PDF secara batch dengan mengulang setiap dokumen dan menerapkan proses konversi.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

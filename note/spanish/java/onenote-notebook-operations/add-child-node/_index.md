@@ -3,10 +3,16 @@ title: Agregar un nodo secundario en OneNote Notebook - Aspose.Note
 linktitle: Agregar un nodo secundario en OneNote Notebook - Aspose.Note
 second_title: Aspose.Nota Java API
 description: Aprenda a agregar nodos secundarios mediante programación a los cuadernos de OneNote utilizando Aspose.Note para Java. Mejore la organización de sus notas sin esfuerzo.
-type: docs
 weight: 11
 url: /es/java/onenote-notebook-operations/add-child-node/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Agregar un nodo secundario en OneNote Notebook - Aspose.Note
+
 ## Introducción
 
 OneNote es una poderosa herramienta para organizar sus notas e ideas. Aspose.Note para Java proporciona formas convenientes de manipular archivos OneNote mediante programación. En este tutorial, recorreremos paso a paso el proceso de agregar un nodo secundario a un cuaderno de OneNote.
@@ -89,3 +95,9 @@ R4: Sí, puedes integrar fácilmente Aspose.Note para Java en tus proyectos Java
 ### P5: ¿Existe un foro comunitario donde pueda buscar ayuda y orientación para utilizar Aspose.Note para Java?
 
  R5: Sí, puedes visitar el[Foro Aspose.Note](https://forum.aspose.com/c/note/28) para hacer preguntas, compartir conocimientos e interactuar con otros usuarios y expertos.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

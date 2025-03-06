@@ -3,10 +3,16 @@ title: Manipulasi Dokumen OneNote dengan Aspose.Note untuk .NET
 linktitle: Memuat dan Menyimpan Operasi
 second_title: Aspose.Catatan .NET API
 description: Buka kekuatan Aspose.Note untuk .NET! Selami tutorial kami untuk panduan langkah demi langkah dalam memuat, menyimpan, dan memanipulasi dokumen OneNote dengan mudah.
-type: docs
 weight: 25
 url: /id/net/loading-and-saving-operations/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Manipulasi Dokumen OneNote dengan Aspose.Note untuk .NET
+
 
 ## Perkenalan
 
@@ -80,3 +86,9 @@ Pelajari cara menyimpan dokumen dengan pengaturan default di Aspose.Note untuk .
 Pelajari cara menentukan opsi penyimpanan di Aspose.Note untuk .NET untuk menyesuaikan format output & kualitas dokumen OneNote.
 ### [Callback Penghematan Pengguna di Aspose.Note](./user-saving-callbacks/)
 Pelajari cara menerapkan callback penyimpanan pengguna di Aspose.Note untuk .NET guna menyesuaikan penyimpanan font, CSS, dan gambar.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

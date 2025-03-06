@@ -3,10 +3,16 @@ title: Pobierz listę punktorów lub numerów w tekście Aspose.Note
 linktitle: Pobierz listę punktorów lub numerów w tekście Aspose.Note
 second_title: Aspose.Note .NET API
 description: Odblokuj potencjał Aspose.Note dla .NET dzięki naszemu przewodnikowi krok po kroku na temat odzyskiwania list punktowanych lub numerowanych. Podnieś swoje umiejętności manipulowania dokumentami OneNote!
-type: docs
 weight: 23
 url: /pl/net/text-manipulation/retrieve-bullet-number-list/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Pobierz listę punktorów lub numerów w tekście Aspose.Note
+
 ## Wstęp
 Witamy w świecie Aspose.Note dla .NET, solidnej i wszechstronnej biblioteki, która umożliwia programistom bezproblemową obsługę dokumentów OneNote. W tym samouczku zagłębimy się w proces pobierania list punktowanych lub numerowanych za pomocą Aspose.Note dla .NET. Niezależnie od tego, czy jesteś doświadczonym programistą, czy entuzjastą kodowania, ten przewodnik wyposaży Cię w wiedzę niezbędną do poruszania się po zawiłościach pracy z listami w Aspose.Note.
 ## Warunki wstępne
@@ -87,3 +93,9 @@ Tak, Aspose.Note obsługuje szeroką gamę formatów OneNote, zapewniając kompa
 Możesz przeglądać i szukać pomocy w[Forum Aspose.Note](https://forum.aspose.com/c/note/28) w przypadku jakichkolwiek pytań lub problemów, które możesz napotkać.
 ### Czy istnieje bezpłatna wersja próbna Aspose.Note dla .NET?
  Tak, możesz uzyskać dostęp do bezpłatnej wersji próbnej Aspose.Note dla .NET[Tutaj](https://releases.aspose.com/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

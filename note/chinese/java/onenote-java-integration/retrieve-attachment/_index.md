@@ -3,10 +3,16 @@ title: 使用 Java 从 OneNote 检索附件
 linktitle: 使用 Java 从 OneNote 检索附件
 second_title: Aspose.Note Java API
 description: 使用 Java 轻松从 OneNote 文档中提取附件！ Aspose.Note 处理所有格式和批处理。包含简单的步骤和代码！ #OneNote #Java #Aspose
-type: docs
 weight: 12
 url: /zh/java/onenote-java-integration/retrieve-attachment/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# 使用 Java 从 OneNote 检索附件
+
 ## 介绍
 
 在当今的数字时代，有效处理各种文档格式是软件开发的一个重要方面。 Aspose.Note for Java 是一个功能强大的 API，使开发人员能够使用 Java 应用程序无缝处理 Microsoft OneNote 文件。无论您需要检索附件、操作页面还是提取文本，Aspose.Note for Java 都提供了全面的功能来简化您的工作流程。
@@ -112,3 +118,9 @@ for (AttachedFile a : attachments) {
 ### Q5：Aspose.Note for Java 是否在出现技术问题或询问时提供支持和帮助？
 
 答：是的，开发人员可以通过 Aspose.Note 论坛获得全面的支持：[https://forum.aspose.com/c/note/28](https://forum.aspose.com/c/note/28)寻求任何技术援助或询问。
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

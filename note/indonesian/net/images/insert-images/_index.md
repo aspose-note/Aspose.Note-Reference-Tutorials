@@ -3,10 +3,16 @@ title: Sisipkan Gambar di Dokumen Aspose.Note
 linktitle: Sisipkan Gambar di Dokumen Aspose.Note
 second_title: Aspose.Catatan .NET API
 description: Pelajari cara menyisipkan gambar dengan lancar ke dalam dokumen Aspose.Note menggunakan .NET untuk konten visual yang ditingkatkan. Ikuti panduan langkah demi langkah kami untuk integrasi yang mudah.
-type: docs
 weight: 16
 url: /id/net/images/insert-images/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Sisipkan Gambar di Dokumen Aspose.Note
+
 ## Perkenalan
 
 Menambahkan gambar ke dokumen Aspose.Note Anda dapat meningkatkan daya tarik visual dan kegunaannya secara signifikan. Baik Anda membuat catatan, presentasi, atau dokumen lainnya, mengintegrasikan gambar dapat memberikan konteks dan kejelasan pada konten Anda. Dalam tutorial ini, kami akan memandu Anda melalui proses memasukkan gambar ke dalam dokumen Aspose.Note Anda menggunakan .NET.
@@ -89,3 +95,9 @@ A4: Tentu saja! Anda dapat menyisipkan gambar sebanyak yang Anda perlukan dalam 
 ### Q5: Apakah ada batasan ukuran file gambar yang dapat disisipkan?
 
 A5: Aspose.Note tidak menerapkan batasan ketat pada ukuran file gambar, namun disarankan untuk mengoptimalkan gambar untuk kinerja yang lebih baik.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

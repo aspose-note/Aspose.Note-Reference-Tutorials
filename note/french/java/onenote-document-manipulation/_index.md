@@ -3,10 +3,16 @@ title: Manipulation de documents OneNote
 linktitle: Manipulation de documents OneNote
 second_title: API Java Aspose.Note
 description: Créez, manipulez et automatisez des documents OneNote en Java avec Aspose.Note. Tutoriels étape par étape sur Document Visitor, texte riche formaté et création de texte enrichi.
-type: docs
 weight: 21
 url: /fr/java/onenote-document-manipulation/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Manipulation de documents OneNote
+
 
 ## Introduction
 
@@ -29,3 +35,9 @@ Découvrez comment utiliser Document Visitor dans OneNote à l'aide de Java avec
 Découvrez comment créer des documents OneNote richement formatés par programmation en Java à l'aide d'Aspose.Note pour Java. Suivez notre guide étape par étape pour une automatisation transparente des documents.
 ### [Créer un document OneNote avec du texte enrichi simple en Java](./create-onenote-document-simple-rich-text/)
 Découvrez comment créer des documents OneNote avec du texte enrichi simple à l'aide d'Aspose.Note pour Java. Intégrez en toute transparence cette fonctionnalité dans vos applications Java pour une gestion efficace des documents.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

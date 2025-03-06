@@ -3,10 +3,16 @@ title: Mentés megadott betűtípusokkal az Aspose.Note-ban
 linktitle: Mentés megadott betűtípusokkal az Aspose.Note-ban
 second_title: Aspose.Note .NET API
 description: Ismerje meg, hogyan menthet dokumentumokat meghatározott betűtípusokkal az Aspose.Note for .NET webhelyen. Egyszerűen testreszabhatja a betűtípus-beállításokat a konzisztens dokumentumformázás érdekében.
-type: docs
 weight: 28
 url: /hu/net/loading-and-saving-operations/save-using-specified-fonts/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Mentés megadott betűtípusokkal az Aspose.Note-ban
+
 ## Bevezetés
 
 Ebből az oktatóanyagból megtudjuk, hogyan mentheti el a dokumentumokat meghatározott betűtípusok használatával az Aspose.Note for .NET-ben. Különféle módszereket fogunk megvizsgálni ennek eléréséhez, lépésről lépésre.
@@ -131,3 +137,9 @@ V1: Igen, bármilyen betűtípust megadhat a dokumentumok mentéséhez. Csak gy�
 ### 5. kérdés: Hol kaphatok további segítséget az Aspose.Note-tal kapcsolatban?
 
  5. válasz: További segítségért vagy technikai támogatásért keresse fel a[Aspose.Note fórum](https://forum.aspose.com/c/note/28).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

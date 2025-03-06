@@ -3,10 +3,16 @@ title: Fügen Sie einen Textknoten mit Tag in Aspose.Note hinzu
 linktitle: Fügen Sie einen Textknoten mit Tag in Aspose.Note hinzu
 second_title: Aspose.Note .NET-API
 description: Erfahren Sie, wie Sie mit Aspose.Note für .NET Textknoten mit Tags zu OneNote-Dokumenten hinzufügen.
-type: docs
 weight: 12
 url: /de/net/tag-management/add-text-node-tag/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Fügen Sie einen Textknoten mit Tag in Aspose.Note hinzu
+
 ## Einführung
 
 Aspose.Note für .NET ist eine leistungsstarke Bibliothek, die es Entwicklern ermöglicht, Microsoft OneNote-Dateien mithilfe des .NET-Frameworks programmgesteuert zu erstellen, zu bearbeiten und zu konvertieren. In diesem Tutorial erfahren Sie, wie Sie mithilfe von Aspose.Note für .NET einen Textknoten mit einem Tag zu einem OneNote-Dokument hinzufügen.
@@ -107,3 +113,9 @@ A4: Ja, Aspose.Note für .NET unterstützt die Dokumentenverschlüsselung, um di
 ### F5: Wo finde ich weitere Ressourcen und Unterstützung für Aspose.Note für .NET?
 
  A5: Sie können das erkunden[Aspose.Note für .NET-Dokumentation](https://reference.aspose.com/note/net/)und suchen Sie Hilfe bei der[Aspose.Note-Forum](https://forum.aspose.com/c/note/28).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

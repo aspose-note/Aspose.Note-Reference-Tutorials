@@ -3,10 +3,16 @@ title: Aggiungi collegamento ipertestuale all'immagine in OneNote utilizzando Ja
 linktitle: Aggiungi collegamento ipertestuale all'immagine in OneNote utilizzando Java
 second_title: Aspose.Note API Java
 description: Rendi interattivi i documenti OneNote! Scopri come aggiungere collegamenti ipertestuali alle immagini in Java con Aspose.Note. Semplici passaggi ed esempi di codice inclusi! #OneNote #Java #Aspose
-type: docs
 weight: 11
 url: /it/java/onenote-hyperlinks-images/add-hyperlink-to-image/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Aggiungi collegamento ipertestuale all'immagine in OneNote utilizzando Java
+
 ## introduzione
 
 In questo tutorial esploreremo come aggiungere collegamenti ipertestuali alle immagini in OneNote utilizzando Java. I collegamenti ipertestuali alle immagini possono migliorare notevolmente l'interattività e l'utilità dei tuoi documenti, consentendo agli utenti di accedere facilmente ai contenuti correlati o alle risorse esterne con un semplice clic.
@@ -97,3 +103,9 @@ R4: Anche se non esiste un limite specifico alla lunghezza dei collegamenti iper
 ### Q5: Aspose.Note per Java supporta altri formati di documenti oltre a OneNote?
 
 A5: Sì, Aspose.Note per Java supporta vari formati di documenti, inclusi PDF, HTML e formati di immagine.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

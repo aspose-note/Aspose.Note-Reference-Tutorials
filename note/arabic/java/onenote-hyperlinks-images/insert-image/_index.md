@@ -3,10 +3,16 @@ title: إدراج صورة في مستند OneNote باستخدام Java
 linktitle: إدراج صورة في مستند OneNote باستخدام Java
 second_title: Aspose.Note جافا API
 description: تعرف على كيفية إدراج الصور في مستندات OneNote باستخدام Java مع Aspose.Note لمكتبة Java. اتبع دليلنا خطوة بخطوة للتكامل السلس.
-type: docs
 weight: 16
 url: /ar/java/onenote-hyperlinks-images/insert-image/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# إدراج صورة في مستند OneNote باستخدام Java
+
 ## مقدمة
 
 في هذا البرنامج التعليمي، سوف نستكشف كيفية إدراج صورة في مستند OneNote باستخدام Java بمساعدة Aspose.Note for Java. Aspose.Note for Java هي مكتبة قوية تتيح للمطورين العمل مع ملفات Microsoft OneNote برمجياً، مما يتيح عمليات متنوعة مثل إنشاء مستندات OneNote وقراءتها ومعالجتها.
@@ -120,3 +126,9 @@ try {
 ### س5: كيف يمكنني الحصول على الدعم الفني لـ Aspose.Note لـ Java؟
 
  ج5: يمكنك الحصول على الدعم الفني لـ Aspose.Note لـ Java من خلال زيارة[المنتدى](https://forum.aspose.com/c/note/28) مخصص لمنتجات Aspose.Note.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

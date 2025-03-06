@@ -3,10 +3,16 @@ title: Créer un tableau avec des colonnes verrouillées dans OneNote - Aspose.N
 linktitle: Créer un tableau avec des colonnes verrouillées dans OneNote - Aspose.Note
 second_title: API Java Aspose.Note
 description: Améliorez votre expérience OneNote avec Aspose.Note pour Java. Apprenez à créer des tableaux avec des colonnes verrouillées à l'aide d'un guide étape par étape. Téléchargez votre essai gratuit maintenant !
-type: docs
 weight: 12
 url: /fr/java/onenote-table-manipulation/create-table-with-locked-columns/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Créer un tableau avec des colonnes verrouillées dans OneNote - Aspose.Note
+
 ## Introduction
 OneNote est un outil puissant pour organiser les informations, et Aspose.Note pour Java améliore ses capacités en fournissant un moyen transparent de créer des tableaux avec des colonnes verrouillées. Dans ce didacticiel, nous vous guiderons tout au long du processus d'utilisation d'Aspose.Note pour Java pour créer un tableau avec des colonnes verrouillées dans OneNote.
 ## Conditions préalables
@@ -90,3 +96,9 @@ Absolument! Aspose.Note pour Java fournit de nombreuses options pour personnalis
  Visiter le[Forum Aspose.Note](https://forum.aspose.com/c/note/28) pour du soutien et des discussions communautaires.
 ### Comment puis-je obtenir une licence temporaire pour Aspose.Note pour Java ?
  Visite[ce lien](https://purchase.aspose.com/temporary-license/) pour obtenir une licence temporaire à des fins de tests.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

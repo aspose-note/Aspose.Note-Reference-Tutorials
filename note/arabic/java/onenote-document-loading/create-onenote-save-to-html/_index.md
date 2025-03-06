@@ -4,10 +4,16 @@ linktitle: إنشاء مستند OneNote وحفظه في HTML - Java
 second_title: Aspose.Note جافا API
 description: تعرّف على كيفية إنشاء مستندات OneNote وحفظها بتنسيق HTML باستخدام Aspose.Note لـ Java. التكامل مع تطبيقات Java للتعامل البرمجي مع ملفات OneNote.
 
-type: docs
 weight: 18
 url: /ar/java/onenote-document-loading/create-onenote-save-to-html/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# إنشاء مستند OneNote وحفظه في HTML - Java
+
 ## مقدمة
 
 Aspose.Note for Java هي مكتبة قوية تتيح للمطورين العمل مع ملفات Microsoft OneNote برمجياً. في هذا البرنامج التعليمي، سنستكشف كيفية إنشاء مستند OneNote وحفظه بتنسيق HTML باستخدام Aspose.Note لـ Java.
@@ -136,3 +142,9 @@ A1: نعم، يمكنك تنفيذ حلقات عبر مستندات متعددة
 ### س5: كيف يمكنني شراء ترخيص Aspose.Note لـ Java؟
 
  ج5: يمكنك شراء ترخيص من[موقع أسبوز](https://purchase.aspose.com/buy).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

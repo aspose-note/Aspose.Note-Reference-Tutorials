@@ -3,10 +3,16 @@ title: Aspose.Note 문서에서 이미지 추출
 linktitle: Aspose.Note 문서에서 이미지 추출
 second_title: Aspose.Note .NET API
 description: .NET용 Aspose.Note를 사용하여 Aspose.Note 문서에서 이미지를 손쉽게 추출하는 방법을 알아보세요. 이 포괄적인 튜토리얼을 통해 문서 조작 능력을 향상시키세요.
-type: docs
 weight: 12
 url: /ko/net/images/extract-images/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Aspose.Note 문서에서 이미지 추출
+
 ## 소개
 
 Aspose.Note 문서에서 이미지를 효율적으로 추출하고 싶으십니까? .NET용 Aspose.Note는 이 작업을 원활하게 수행할 수 있는 강력한 솔루션을 제공합니다. 이 튜토리얼에서는 문서에서 이미지를 쉽게 검색할 수 있도록 프로세스를 단계별로 안내합니다.
@@ -91,3 +97,9 @@ A3: 예, .NET용 Aspose.Note는 다양한 문서 형식을 지원하여 문서 �
 ### Q5: Aspose.Note for .NET에 대한 도움은 어디서 구할 수 있나요?
 
  A5: Aspose.Note for .NET에 관한 질문이나 도움이 필요하면 다음을 방문하세요.[Aspose.Note 포럼](https://forum.aspose.com/c/note/28) 전문가 및 동료 개발자와 상호 작용합니다.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

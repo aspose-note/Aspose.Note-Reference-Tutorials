@@ -3,10 +3,16 @@ title: Ustaw rozdzielczość obrazu wyjściowego w programie OneNote - Aspose.No
 linktitle: Ustaw rozdzielczość obrazu wyjściowego w programie OneNote - Aspose.Note
 second_title: Aspose.Note API Java
 description: Dowiedz się, jak dostosować rozdzielczość obrazu w dokumentach OneNote przy użyciu Aspose.Note dla Java. Postępuj zgodnie z naszym przewodnikiem krok po kroku, aby ułatwić wdrożenie
-type: docs
 weight: 23
 url: /pl/java/onenote-document-saving/set-output-image-resolution/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Ustaw rozdzielczość obrazu wyjściowego w programie OneNote - Aspose.Note
+
 ## Wstęp
 
 Czy chcesz manipulować rozdzielczością obrazów w dokumentach programu OneNote przy użyciu języka Java? Aspose.Note dla Java oferuje solidne rozwiązanie do takich zadań. W tym samouczku omówimy kroki ustawiania rozdzielczości obrazu wyjściowego za pomocą Aspose.Note.
@@ -88,3 +94,9 @@ O4: Tak, Aspose.Note zapewnia kompleksowe funkcje do manipulacji obrazami, w tym
 ### P5: Gdzie mogę uzyskać pomoc dotyczącą zapytań związanych z Aspose.Note?
 
  O5: Możesz zwrócić się o pomoc na forum społeczności Aspose.Note[Tutaj](https://forum.aspose.com/c/note/28).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

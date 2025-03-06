@@ -3,10 +3,16 @@ title: قم بإنشاء مستند بنص منسق في Aspose.Note
 linktitle: قم بإنشاء مستند بنص منسق في Aspose.Note
 second_title: Aspose.Note .NET API
 description: تعرف على كيفية إنشاء مستندات نصية منسقة برمجيًا باستخدام Aspose.Note لـ .NET. دليل خطوة بخطوة مع أمثلة التعليمات البرمجية.
-type: docs
 weight: 12
 url: /ar/net/loading-and-saving-operations/create-doc-with-rich-text/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# قم بإنشاء مستند بنص منسق في Aspose.Note
+
 ## مقدمة
 
 في مجال تطوير .NET، يبرز Aspose.Note كأداة قوية للتعامل مع ملفات Microsoft OneNote برمجيًا. سواء كنت تهدف إلى أتمتة إنشاء المستندات أو التعامل مع الملاحظات الموجودة، فإن Aspose.Note يزود المطورين بمجموعة شاملة من الميزات. ومن بين هذه الإمكانات القدرة على إنشاء مستندات نصية غنية، كاملة مع خيارات التنسيق المتنوعة. في هذا البرنامج التعليمي، سوف نتعمق في عملية إنشاء مثل هذه المستندات خطوة بخطوة باستخدام Aspose.Note لـ .NET.
@@ -170,3 +176,9 @@ doc.Save(dataDir);
 ### س5: أين يمكنني العثور على المزيد من الموارد والدعم لـ Aspose.Note؟
 
  ج5: يمكنك استكشاف[منتدى Aspose.Note](https://forum.aspose.com/c/note/28) لدعم المجتمع والوصول إلى الوثائق على[موقع إلكتروني](https://reference.aspose.com/note/net/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

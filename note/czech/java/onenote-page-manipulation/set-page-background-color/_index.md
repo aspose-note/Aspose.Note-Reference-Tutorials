@@ -3,10 +3,16 @@ title: Nastavit barvu pozadí stránky ve OneNotu – Aspose.Note
 linktitle: Nastavit barvu pozadí stránky ve OneNotu – Aspose.Note
 second_title: Aspose.Note Java API
 description: Naučte se, jak snadno nastavit barvu pozadí stránky ve OneNotu pomocí Aspose.Note pro Java. Vylepšete vizuální přitažlivost svých dokumentů pomocí tohoto jednoduchého kurzu.
-type: docs
 weight: 20
 url: /cs/java/onenote-page-manipulation/set-page-background-color/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Nastavit barvu pozadí stránky ve OneNotu – Aspose.Note
+
 ## Úvod
 
 V tomto tutoriálu se ponoříme do procesu nastavení barvy pozadí stránky ve OneNotu pomocí Aspose.Note pro Java. Aspose.Note je výkonná knihovna Java, která umožňuje vývojářům manipulovat s dokumenty OneNote programově. Změna barvy pozadí stránky může zlepšit vizuální přitažlivost vašich dokumentů OneNotu, díky čemuž budou poutavější a organizovanější.
@@ -100,3 +106,9 @@ A4: Určitě! Než se rozhodnete, můžete využít bezplatnou zkušební verzi 
 ### Q5: Kde najdu další podporu nebo pomoc s Aspose.Note?
 
 Odpověď 5: V případě jakýchkoli dotazů nebo pomoci můžete navštívit fórum Aspose.Note nebo se obrátit na jejich tým podpory a požádat o rychlou pomoc.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

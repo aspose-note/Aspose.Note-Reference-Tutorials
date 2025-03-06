@@ -3,10 +3,16 @@ title: Adicionar novo nó de imagem com tag no OneNote - Aspose.Note
 linktitle: Adicionar novo nó de imagem com tag no OneNote - Aspose.Note
 second_title: API Java Aspose.Note
 description: Aprenda como adicionar um novo nó de imagem com uma tag no OneNote usando Aspose.Note para Java. Eleve suas habilidades de programação Java sem esforço.
-type: docs
 weight: 10
 url: /pt/java/onenote-tag-operations/add-new-image-node-with-tag/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Adicionar novo nó de imagem com tag no OneNote - Aspose.Note
+
 ## Introdução
 No domínio da programação Java, Aspose.Note se destaca como uma ferramenta poderosa para lidar com documentos do OneNote com facilidade. Se você deseja aprimorar suas habilidades e aprender como adicionar um novo nó de imagem com uma tag no OneNote usando Aspose.Note, você veio ao lugar certo. Este guia passo a passo orientará você durante o processo, garantindo que você compreenda cada conceito completamente.
 ## Pré-requisitos
@@ -96,3 +102,9 @@ Parabéns! Você adicionou com êxito um novo nó de imagem com uma tag no OneNo
  Visite o fórum da comunidade[aqui](https://forum.aspose.com/c/note/28) para suporte.
 ### Preciso de uma licença temporária?
  Se necessário, você pode obter uma licença temporária[aqui](https://purchase.aspose.com/temporary-license/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

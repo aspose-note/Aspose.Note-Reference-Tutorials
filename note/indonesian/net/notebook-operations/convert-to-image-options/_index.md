@@ -3,10 +3,16 @@ title: Konversi Buku Catatan menjadi Gambar dengan Opsi di Aspose Note .NET
 linktitle: Konversi Buku Catatan menjadi Gambar dengan Opsi di Aspose Note .NET
 second_title: Aspose.Catatan .NET API
 description: Pelajari cara mengonversi buku catatan menjadi gambar dengan opsi yang dapat disesuaikan menggunakan Aspose.Note untuk .NET.
-type: docs
 weight: 13
 url: /id/net/notebook-operations/convert-to-image-options/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Konversi Buku Catatan menjadi Gambar dengan Opsi di Aspose Note .NET
+
 ## Perkenalan
 
 Dalam tutorial ini, kita akan mempelajari cara mengonversi buku catatan menjadi gambar dengan berbagai opsi menggunakan pustaka Aspose.Note untuk .NET. Aspose.Note adalah .NET API canggih yang memungkinkan pengembang bekerja dengan file Microsoft OneNote secara terprogram. Dengan mengikuti langkah-langkah yang diuraikan dalam panduan ini, Anda akan mempelajari cara mengonversi buku catatan menjadi gambar dengan mudah sambil menyesuaikan keluarannya sesuai kebutuhan Anda.
@@ -95,3 +101,9 @@ A4: Ya, Aspose.Note untuk .NET menyediakan berbagai opsi untuk menyesuaikan kelu
 ### Q5: Apakah Aspose.Note untuk .NET mendukung format gambar lain selain PNG?
 
 A5: Ya, Aspose.Note untuk .NET mendukung beberapa format gambar, termasuk JPEG, BMP, GIF, dan TIFF.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

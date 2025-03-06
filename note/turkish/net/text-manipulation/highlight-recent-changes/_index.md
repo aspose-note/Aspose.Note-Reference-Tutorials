@@ -3,10 +3,16 @@ title: Aspose.Note Metnindeki Tüm Son Değişiklikleri Vurgula
 linktitle: Aspose.Note Metnindeki Tüm Son Değişiklikleri Vurgula
 second_title: Aspose.Note .NET API'si
 description: Note belgelerinizi Aspose.Note for .NET ile geliştirin! Bu adım adım eğitimle metindeki son değişiklikleri nasıl vurgulayacağınızı öğrenin.
-type: docs
 weight: 19
 url: /tr/net/text-manipulation/highlight-recent-changes/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Aspose.Note Metnindeki Tüm Son Değişiklikleri Vurgula
+
 ## giriiş
 .NET'i kullanarak Note belgelerinize dinamik ve görsel olarak çekici özellikler mi eklemek istiyorsunuz? Aspose.Note for .NET, Note dosyalarınızı sorunsuz bir şekilde değiştirmenize ve geliştirmenize olanak tanıyan güçlü bir çözümdür. Bu eğitimde belirli bir hususu ele alacağız: Aspose.Note metnindeki tüm son değişiklikleri vurgulamak.
 ## Önkoşullar
@@ -70,3 +76,9 @@ Aspose.Note, en yeni .NET çerçeveleriyle uyumluluğu sağlamak için kitaplık
 Kesinlikle! Aspose.Note, yazı tipi stilleri, boyutları ve daha fazlası dahil olmak üzere metin formatlama için çok çeşitli özellikler sunar.
 ### Bu çözümü bir web uygulamasına entegre edebilir miyim?
 Evet, belge işleme yeteneklerini geliştirmek için Aspose.Note for .NET'i web uygulamalarına entegre edebilirsiniz.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

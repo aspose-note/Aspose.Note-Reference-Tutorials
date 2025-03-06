@@ -3,10 +3,16 @@ title: Napisz dokument chroniony hasłem w OneNote - Aspose.Note
 linktitle: Napisz dokument chroniony hasłem w OneNote - Aspose.Note
 second_title: Aspose.Note API Java
 description: Chroń swoje poufne informacje w programie OneNote! Dowiedz się, jak ustawić hasła do określonych dokumentów i sekcji — zawiera przewodnik krok po kroku i kod. #OneNote #Java #Aspose
-type: docs
 weight: 27
 url: /pl/java/onenote-notebook-operations/write-password-protected-document/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Napisz dokument chroniony hasłem w OneNote - Aspose.Note
+
 ## Wstęp
 
 tym samouczku dowiesz się, jak tworzyć dokumenty chronione hasłem w OneNote przy użyciu Aspose.Note dla Java. Ta funkcja zapewnia bezpieczeństwo i prywatność poufnych informacji znajdujących się w notebookach. Postępując zgodnie z tymi szczegółowymi instrukcjami, możesz łatwo wdrożyć ochronę hasłem dla swoich dokumentów.
@@ -95,3 +101,9 @@ O: Tak, możesz ustawić różne hasła dla różnych sekcji notatnika, korzysta
 ### P5: Czy istnieją jakieś ograniczenia dotyczące długości lub złożoności haseł?
 
 Odp.: Aspose.Note nie nakłada konkretnych ograniczeń na długość ani złożoność hasła, umożliwiając w razie potrzeby ustawienie silnych i bezpiecznych haseł.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -3,10 +3,16 @@ title: Truy xuất định dạng tệp trong Aspose.Note
 linktitle: Truy xuất định dạng tệp trong Aspose.Note
 second_title: Aspose.Note .NET API
 description: Khám phá Aspose.Note for .NET, một API mạnh mẽ để làm việc với các tài liệu Microsoft OneNote theo chương trình.
-type: docs
 weight: 19
 url: /vi/net/loading-and-saving-operations/retrieve-file-format/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Truy xuất định dạng tệp trong Aspose.Note
+
 ## Giới thiệu
 
 Aspose.Note for .NET là một API mạnh mẽ cho phép các nhà phát triển làm việc với các tài liệu Microsoft OneNote theo chương trình. Cho dù bạn cần tạo, thao tác hay chuyển đổi tệp OneNote, Aspose.Note sẽ đơn giản hóa quy trình bằng bộ tính năng trực quan và toàn diện.
@@ -83,3 +89,9 @@ Câu trả lời 3: Có, bạn có thể khám phá các khả năng của Aspos
 ### Câu hỏi 5: Tôi có cần giấy phép tạm thời cho mục đích đánh giá không?
 
  Câu trả lời 5: Mặc dù bản dùng thử miễn phí cho phép bạn kiểm tra Aspose.Note, nhưng bạn có thể chọn giấy phép tạm thời để đánh giá mở rộng. Thăm nom[đây](https://purchase.aspose.com/temporary-license/) để biết thêm chi tiết.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -3,10 +3,16 @@ title: OneNote 統合によるシームレスな PDF インポート
 linktitle: 輸入
 second_title: Aspose.Note .NET API
 description: さまざまなマージ オプションを使用したシームレスな統合により、PDF ドキュメントを Aspose.Note .NET にインポートします。 OneNote の統合など、段階的なチュートリアルで学習します。
-type: docs
 weight: 24
 url: /ja/net/import/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# OneNote 統合によるシームレスな PDF インポート
+
 
 ## 導入
 
@@ -48,3 +54,9 @@ Aspose.Note の領域では、ドキュメントは単なるファイルでは�
 ## チュートリアルのインポート
 ### [PDF ドキュメントを Aspose.Note にインポートする](./import-pdf-documents/)
 シームレスな統合のためのさまざまなマージ オプションを使用して、PDF ドキュメントを Aspose.Note for .NET に簡単にインポートする方法を学びます。
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -3,10 +3,16 @@ title: Convert Notebooks to PDF with Options in Aspose Note .NET
 linktitle: Convert Notebooks to PDF with Options in Aspose Note .NET
 second_title: Aspose.Note .NET API
 description: Learn how to convert Microsoft OneNote notebooks to PDF format using Aspose.Note for .NET library with customizable options.
-type: docs
 weight: 16
 url: /net/notebook-operations/convert-to-pdf-options/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Convert Notebooks to PDF with Options in Aspose Note .NET
+
 ## Introduction
 
 In this tutorial, we will walk through the process of converting notebooks to PDF format using Aspose.Note for .NET library. Aspose.Note for .NET provides a powerful set of features to work with Microsoft OneNote files programmatically.
@@ -102,3 +108,10 @@ A4: Yes, you can download a free trial of Aspose.Note for .NET from the website 
 ### Q5: How can I get technical support for Aspose.Note for .NET?
 
 A5: You can get technical support for Aspose.Note for .NET by visiting the [Aspose.Note forum](https://forum.aspose.com/c/note/28) or contacting the Aspose support team directly.
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

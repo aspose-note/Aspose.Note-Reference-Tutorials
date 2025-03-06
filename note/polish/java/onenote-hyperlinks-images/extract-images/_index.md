@@ -3,10 +3,16 @@ title: Wyodrębnij obrazy z dokumentu OneNote przy użyciu języka Java
 linktitle: Wyodrębnij obrazy z dokumentu OneNote przy użyciu języka Java
 second_title: Aspose.Note API Java
 description: Dowiedz się, jak wyodrębniać obrazy z dokumentów programu OneNote przy użyciu języka Java z biblioteką Aspose.Note. Postępuj zgodnie z naszym przewodnikiem krok po kroku, aby uzyskać płynną ekstrakcję obrazu.
-type: docs
 weight: 14
 url: /pl/java/onenote-hyperlinks-images/extract-images/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Wyodrębnij obrazy z dokumentu OneNote przy użyciu języka Java
+
 ## Wstęp
 
 W tym samouczku przeprowadzimy Cię przez proces wyodrębniania obrazów z dokumentu OneNote przy użyciu języka Java i biblioteki Aspose.Note.
@@ -89,3 +95,9 @@ A4: Aspose.Note skutecznie obsługuje dokumenty o różnych rozmiarach, nie zape
 ### P5: Czy Aspose.Note obsługuje wyodrębnianie innych typów treści poza obrazami?
 
 O5: Tak, oprócz obrazów, Aspose.Note umożliwia wyodrębnianie tekstu, załączników i innych typów treści z dokumentów OneNote.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

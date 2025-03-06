@@ -3,10 +3,16 @@ title: Aspose.Note のバイナリ イメージに保存
 linktitle: Aspose.Note のバイナリ イメージに保存
 second_title: Aspose.Note .NET API
 description: Aspose.Note for .NET を使用してドキュメントをバイナリ イメージに変換する方法を学びます。シームレスな統合については、ステップバイステップのガイドに従ってください。
-type: docs
 weight: 22
 url: /ja/net/loading-and-saving-operations/save-to-binary-image/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Aspose.Note のバイナリ イメージに保存
+
 ## 導入
 
 このチュートリアルでは、Aspose.Note for .NET を使用してドキュメントをバイナリ イメージに保存する方法を説明します。このプロセスには、固定しきい値を使用してドキュメントを白黒画像に変換することが含まれます。これはさまざまなアプリケーションに役立ちます。
@@ -97,3 +103,9 @@ A4: はい、同様のコードを使用して、複数のドキュメントを�
 ### Q5: Aspose.Note のその他のリソースとサポートはどこで入手できますか?
 
  A5: を探索できます。[Aspose.Note ドキュメント](https://reference.aspose.com/note/net/)そして彼らに援助を求めてください[Aspose.Note フォーラム](https://forum.aspose.com/c/note/28)ご質問や問題がございましたら。
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

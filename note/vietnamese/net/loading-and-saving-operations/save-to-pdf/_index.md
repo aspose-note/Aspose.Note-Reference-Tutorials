@@ -3,10 +3,16 @@ title: Lưu vào PDF trong Aspose.Note
 linktitle: Lưu vào PDF trong Aspose.Note
 second_title: Aspose.Note .NET API
 description: Tìm hiểu cách lưu tài liệu Microsoft OneNote sang định dạng PDF bằng Aspose.Note for .NET. Hướng dẫn từng bước với các ví dụ về mã cho bố cục trang Letter và A4.
-type: docs
 weight: 26
 url: /vi/net/loading-and-saving-operations/save-to-pdf/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Lưu vào PDF trong Aspose.Note
+
 ## Giới thiệu
 
 Trong hướng dẫn này, chúng ta sẽ khám phá cách lưu tài liệu sang định dạng PDF bằng Aspose.Note cho .NET. Aspose.Note là một thư viện mạnh mẽ cho phép các nhà phát triển làm việc với các tệp Microsoft OneNote theo chương trình. Chúng tôi sẽ đề cập đến các điều kiện tiên quyết, nhập vùng tên và cung cấp hướng dẫn từng bước để lưu tài liệu sang PDF ở nhiều bố cục trang khác nhau.
@@ -110,3 +116,9 @@ Trả lời 1: Có, Aspose.Note hỗ trợ nhiều tính năng và chức năng 
 ### Câu 5: Cần hỗ trợ thêm?
 
  Câu trả lời 5: Vui lòng đặt bất kỳ câu hỏi nào hoặc tìm kiếm sự hỗ trợ trên diễn đàn Aspose.Note[đây](https://forum.aspose.com/c/note/28).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

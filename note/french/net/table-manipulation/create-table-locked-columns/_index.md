@@ -3,10 +3,16 @@ title: Créer une table avec des colonnes verrouillées à l'aide d'Aspose.Note
 linktitle: Créer une table avec des colonnes verrouillées à l'aide d'Aspose.Note
 second_title: API Aspose.Note .NET
 description: Découvrez comment créer des tables avec des colonnes verrouillées à l'aide d'Aspose.Note pour .NET. Guide étape par étape pour des tâches de traitement de documents efficaces.
-type: docs
 weight: 12
 url: /fr/net/table-manipulation/create-table-locked-columns/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Créer une table avec des colonnes verrouillées à l'aide d'Aspose.Note
+
 ## Introduction
 
 La création de tableaux avec des colonnes verrouillées est une exigence courante dans les applications de traitement de documents. Aspose.Note pour .NET fournit des outils puissants pour accomplir cette tâche efficacement. Dans ce didacticiel, nous vous guiderons étape par étape tout au long du processus de création d'une table avec des colonnes verrouillées à l'aide d'Aspose.Note pour .NET.
@@ -147,3 +153,9 @@ A4 : Oui, vous pouvez accéder au support technique via le[Forum Aspose.Note](
 ### Q5 : Puis-je essayer Aspose.Note pour .NET avant d’acheter ?
 
  A5 : Oui, vous pouvez télécharger une version d'essai gratuite d'Aspose.Note pour .NET à partir de[ici](https://releases.aspose.com/) pour évaluer ses fonctionnalités et sa compatibilité avec vos besoins.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

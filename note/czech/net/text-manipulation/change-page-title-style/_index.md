@@ -3,10 +3,16 @@ title: Změňte styl nadpisu stránky v Aspose.Note
 linktitle: Změňte styl nadpisu stránky v Aspose.Note
 second_title: Aspose.Note .NET API
 description: Transformujte své .NET dokumenty pomocí Aspose.Note! Naučte se snadno měnit styly nadpisů stránek. Zvyšte estetiku v několika jednoduchých krocích.
-type: docs
 weight: 13
 url: /cs/net/text-manipulation/change-page-title-style/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Změňte styl nadpisu stránky v Aspose.Note
+
 ## Úvod
 Chcete zvýšit vizuální přitažlivost svých dokumentů .NET pomocí dynamického stylu nadpisu stránky? Aspose.Note for .NET nabízí bezproblémové řešení, které vám umožní bez námahy změnit styl názvů stránek. V tomto tutoriálu vás krok za krokem provedeme tímto procesem a zajistíme, že můžete bez problémů vylepšit estetiku svých dokumentů.
 ## Předpoklady
@@ -70,3 +76,9 @@ Gratulujeme! Úspěšně jste se naučili, jak změnit styly nadpisů stránek v
  Můžete si zakoupit licenci pro Aspose.Note[tady](https://purchase.aspose.com/buy).
 ### Potřebuji dočasnou licenci pro testovací účely?
  Ano, pokud testujete Aspose.Note, můžete získat dočasnou licenci[tady](https://purchase.aspose.com/temporary-license/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

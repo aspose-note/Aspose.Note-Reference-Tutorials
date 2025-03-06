@@ -3,10 +3,16 @@ title: Tạo tài liệu với trang gốc và trang phụ bằng Aspose.Note
 linktitle: Tạo tài liệu với trang gốc và trang phụ bằng Aspose.Note
 second_title: Aspose.Note .NET API
 description: Tìm hiểu cách sử dụng Aspose.Note cho .NET để tạo tài liệu OneNote động với cấu trúc phân cấp.
-type: docs
 weight: 11
 url: /vi/net/note-manipulation/create-documents-root-sub-pages/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Tạo tài liệu với trang gốc và trang phụ bằng Aspose.Note
+
 ## Giới thiệu
 
 Chào mừng bạn đến với hướng dẫn của chúng tôi về cách tạo tài liệu với trang gốc và trang phụ bằng Aspose.Note cho .NET! Aspose.Note là một thư viện mạnh mẽ cho phép các nhà phát triển làm việc với các tệp Microsoft OneNote theo chương trình, cho phép tạo, thao tác và chuyển đổi tài liệu OneNote.
@@ -130,3 +136,9 @@ Câu trả lời 4: Aspose.Note chủ yếu tập trung vào phát triển tại
 ### Câu hỏi 5: Aspose.Note có hỗ trợ kỹ thuật không?
 
 Câu trả lời 5: Có, Aspose cung cấp hỗ trợ kỹ thuật chuyên dụng thông qua diễn đàn của họ, nơi bạn có thể đặt câu hỏi và nhận trợ giúp.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

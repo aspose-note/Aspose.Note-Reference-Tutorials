@@ -3,10 +3,16 @@ title: Διαχείριση μετρημένης άδειας χρήσης γι�
 linktitle: Διαχείριση μετρημένης άδειας χρήσης για το OneNote σε Java
 second_title: Aspose.Note Java API
 description: Μάθετε πώς να διαχειρίζεστε τις μετρημένες άδειες χρήσης για το OneNote σε Java χρησιμοποιώντας τη βιβλιοθήκη Aspose.Note. Ελέγξτε τη χρήση, παρακολουθήστε τις πιστώσεις και βελτιστοποιήστε το κόστος αποτελεσματικά.
-type: docs
 weight: 10
 url: /el/java/licensing-java/manage-metered-license/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Διαχείριση μετρημένης άδειας χρήσης για το OneNote σε Java
+
 ## Εισαγωγή
 
 Σε αυτό το σεμινάριο, θα μάθουμε πώς να διαχειριζόμαστε μια μετρημένη άδεια χρήσης για το OneNote χρησιμοποιώντας το Aspose.Note για Java. Η μετρημένη άδεια σάς επιτρέπει να παρακολουθείτε και να ελέγχετε τη χρήση σας βάσει πιστώσεων, παρέχοντας μια ευέλικτη και οικονομικά αποδοτική λύση.
@@ -85,3 +91,9 @@ A3: Ναι, μια μετρημένη άδεια μπορεί να χρησιμ�
 ### Ε5: Πού μπορώ να λάβω υποστήριξη για το Aspose.Note για Java;
 
  A5: Μπορείτε να λάβετε υποστήριξη από τα φόρουμ της κοινότητας Aspose[εδώ](https://forum.aspose.com/c/note/28).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

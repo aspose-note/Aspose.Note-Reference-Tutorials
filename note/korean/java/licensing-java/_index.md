@@ -3,10 +3,16 @@ title: Aspose.Note Java 라이선스
 linktitle: Aspose.Note Java 라이선스
 second_title: Aspose.Note 자바 API
 description: Aspose.Note를 사용하여 Java에서 OneNote의 계량 라이선스를 관리하는 기술을 알아보세요. 효과적으로 사용량을 제어하고, 크레딧을 모니터링하고, 비용을 최적화하세요.
-type: docs
 weight: 24
 url: /ko/java/licensing-java/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Aspose.Note Java 라이선스
+
 ## 소개
 
 Aspose.Note for Java의 세계로 여행을 떠날 준비가 되셨나요? 이 포괄적인 가이드에서는 Java에서 OneNote의 계량 라이선스 관리의 복잡성을 자세히 살펴보겠습니다. Aspose.Note를 사용하여 라이선스 환경을 탐색하여 미스터리를 풀고 이를 효과적으로 사용할 수 있는 지식을 제공합니다.
@@ -40,3 +46,9 @@ Aspose.Note for Java의 세계로 여행을 떠날 준비가 되셨나요? 이 �
 ## Aspose.Note Java 튜토리얼을 통한 라이센스
 ### [Java에서 OneNote의 정액 라이선스 관리](./manage-metered-license/)
 Aspose.Note 라이브러리를 사용하여 Java에서 OneNote의 계량 라이선스를 관리하는 방법을 알아보세요. 사용량을 제어하고, 크레딧을 모니터링하고, 비용을 효율적으로 최적화하세요.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

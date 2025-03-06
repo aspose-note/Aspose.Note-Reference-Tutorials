@@ -3,10 +3,16 @@ title: Lampirkan File demi Jalur di Aspose.Note
 linktitle: Lampirkan File demi Jalur di Aspose.Note
 second_title: Aspose.Catatan .NET API
 description: Pelajari cara melampirkan file ke dokumen Microsoft OneNote secara terprogram menggunakan Aspose.Note untuk .NET. Sederhanakan proses pengembangan Anda dengan tutorial komprehensif ini.
-type: docs
 weight: 11
 url: /id/net/attachments/attach-file-by-path/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Lampirkan File demi Jalur di Aspose.Note
+
 ## Perkenalan
 
 Aspose.Note untuk .NET adalah perpustakaan canggih yang memungkinkan pengembang bekerja dengan file Microsoft OneNote secara terprogram. Baik Anda ingin membuat, mengedit, mengonversi, atau memanipulasi dokumen OneNote, Aspose.Note untuk .NET menyediakan fungsionalitas komprehensif untuk menyederhanakan proses pengembangan Anda.
@@ -147,3 +153,9 @@ A3: Ya, Anda perlu memperoleh lisensi untuk penggunaan komersial Aspose.Note unt
 ### Q5: Di mana saya dapat mencari dukungan untuk Aspose.Note untuk .NET?
 
  A5: Anda dapat mencari dukungan dari forum komunitas Aspose.Note[Di Sini](https://forum.aspose.com/c/note/28).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

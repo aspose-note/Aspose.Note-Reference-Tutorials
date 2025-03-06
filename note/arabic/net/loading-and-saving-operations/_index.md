@@ -3,10 +3,16 @@ title: معالجة مستندات OneNote باستخدام Aspose.Note لـ .NE
 linktitle: عمليات التحميل والحفظ
 second_title: Aspose.Note .NET API
 description: أطلق العنان لقوة Aspose.Note لـ .NET! تعمق في برامجنا التعليمية للحصول على إرشادات خطوة بخطوة حول تحميل مستندات OneNote وحفظها ومعالجتها بسهولة.
-type: docs
 weight: 25
 url: /ar/net/loading-and-saving-operations/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# معالجة مستندات OneNote باستخدام Aspose.Note لـ .NET
+
 
 ## مقدمة
 
@@ -80,3 +86,9 @@ url: /ar/net/loading-and-saving-operations/
 تعرف على كيفية تحديد خيارات الحفظ في Aspose.Note لـ .NET لتخصيص تنسيق الإخراج وجودة مستندات OneNote.
 ### [عمليات الاسترجاعات لحفظ المستخدم في Aspose.Note](./user-saving-callbacks/)
 تعرف على كيفية تنفيذ عمليات رد الاتصال لحفظ المستخدم في Aspose.Note لـ .NET لتخصيص حفظ الخطوط وCSS والصور.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

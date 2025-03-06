@@ -3,10 +3,16 @@ title: Wstawianie stron w programie OneNote — Aspose.Note
 linktitle: Wstawianie stron w programie OneNote — Aspose.Note
 second_title: Aspose.Note API Java
 description: Dowiedz się, jak programowo wstawiać strony do dokumentów OneNote przy użyciu Aspose.Note dla Java. Obszerny samouczek z instrukcjami krok po kroku.
-type: docs
 weight: 16
 url: /pl/java/onenote-page-manipulation/insert-pages/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Wstawianie stron w programie OneNote — Aspose.Note
+
 ## Wstęp
 
 W tym samouczku dowiemy się, jak wstawiać strony do dokumentu OneNote za pomocą Aspose.Note dla Java.
@@ -132,3 +138,9 @@ O4: Tak, możesz tworzyć aplikacje przy użyciu Aspose.Note dla Java na różny
 ### P5: Czy mogę dostosować wygląd wstawianych stron w programie OneNote?
 
 Odpowiedź 5: Oczywiście, Aspose.Note zapewnia szerokie możliwości dostosowywania układów, stylów i treści stron, aby spełnić Twoje specyficzne wymagania.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

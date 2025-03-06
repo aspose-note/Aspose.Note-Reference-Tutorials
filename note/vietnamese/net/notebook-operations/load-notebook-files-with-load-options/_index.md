@@ -3,10 +3,16 @@ title: Tải tệp Notebook với Tùy chọn tải trong Aspose Note .NET
 linktitle: Tải tệp Notebook với Tùy chọn tải trong Aspose Note .NET
 second_title: Aspose.Note .NET API
 description: Tìm hiểu cách tải tệp sổ ghi chép với các tùy chọn tải bằng Aspose.Note for .NET. Tích hợp liền mạch chức năng này vào các ứng dụng .NET của bạn để xử lý hiệu quả dữ liệu sổ ghi chép.
-type: docs
 weight: 20
 url: /vi/net/notebook-operations/load-notebook-files-with-load-options/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Tải tệp Notebook với Tùy chọn tải trong Aspose Note .NET
+
 ## Giới thiệu
 
 Trong hướng dẫn này, chúng ta sẽ đi sâu vào sự phức tạp của việc tải tệp sổ ghi chép với các tùy chọn tải bằng Aspose.Note cho .NET. Aspose.Note là một API mạnh mẽ cho phép các nhà phát triển làm việc với các tệp Microsoft OneNote theo chương trình, cung cấp khả năng tích hợp liền mạch và xử lý dữ liệu sổ ghi chép hiệu quả.
@@ -94,3 +100,9 @@ Câu trả lời 2: Có, bạn có thể tận dụng bản dùng thử miễn p
 ### Câu hỏi 5: Tôi có thể tìm kiếm trợ giúp ở đâu nếu gặp bất kỳ vấn đề nào hoặc có thắc mắc liên quan đến Aspose.Note dành cho .NET?
 
  Câu trả lời 5: Bạn có thể truy cập diễn đàn Aspose.Note[đây](https://forum.aspose.com/c/note/28) để tìm kiếm sự hỗ trợ, đặt câu hỏi và tương tác với các nhà phát triển và chuyên gia đồng nghiệp.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

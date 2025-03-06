@@ -3,10 +3,16 @@ title: แทรกหน้าใน OneNote - Aspose.Note
 linktitle: แทรกหน้าใน OneNote - Aspose.Note
 second_title: Aspose.Note Java API
 description: เรียนรู้วิธีแทรกหน้าลงในเอกสาร OneNote โดยทางโปรแกรมโดยใช้ Aspose.Note สำหรับ Java บทช่วยสอนที่ครอบคลุมพร้อมคำแนะนำทีละขั้นตอน
-type: docs
 weight: 16
 url: /th/java/onenote-page-manipulation/insert-pages/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# แทรกหน้าใน OneNote - Aspose.Note
+
 ## การแนะนำ
 
 ในบทช่วยสอนนี้ เราจะเรียนรู้วิธีแทรกหน้าลงในเอกสาร OneNote โดยใช้ Aspose.Note สำหรับ Java
@@ -132,3 +138,9 @@ A1: ได้ คุณสามารถแทรกรูปภาพได้
 ### คำถามที่ 5: ฉันสามารถปรับแต่งลักษณะที่ปรากฏของหน้าที่แทรกใน OneNote ได้หรือไม่
 
 A5: แน่นอนว่า Aspose.Note มีตัวเลือกมากมายสำหรับการปรับแต่งเค้าโครงหน้า สไตล์ และเนื้อหาให้ตรงตามความต้องการเฉพาะของคุณ
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -3,10 +3,16 @@ title: Lavorare con le impostazioni locali in OneNote - Aspose.Note
 linktitle: Lavorare con le impostazioni locali in OneNote - Aspose.Note
 second_title: Aspose.Note API Java
 description: Sfrutta la potenza di Aspose.Note per lavorare con le versioni locali di OneNote! Estrai, manipola e genera report personalizzati per lingue e regioni diverse. #OneNote #Java #Aspose
-type: docs
 weight: 10
 url: /it/java/onenote-notebook-operations/working-with-locales/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Lavorare con le impostazioni locali in OneNote - Aspose.Note
+
 ## introduzione
 
 Nel regno dello sviluppo Java, Aspose.Note si distingue come un potente strumento per lavorare con i file OneNote. Sia che tu stia mirando a estrarre informazioni, manipolare contenuti o generare report, Aspose.Note fornisce una vasta gamma di funzionalità per semplificare il tuo flusso di lavoro. In questo tutorial, approfondiremo un aspetto specifico: lavorare con le impostazioni locali in OneNote utilizzando Aspose.Note per Java.
@@ -99,3 +105,9 @@ A3: Sebbene progettato principalmente per i file OneNote, Aspose.Note fornisce s
 ### Q5: Posso provare Aspose.Note prima dell'acquisto?
 
 A5: Certamente, puoi esplorare le funzionalità di Aspose.Note avvalendoti della prova gratuita offerta sul sito web.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -1,12 +1,17 @@
 ---
 title: Átfogó oktatóanyagok és példák az Aspose.Note-ra .NET-hez
 linktitle: Aspose.Note .NET oktatóanyagokhoz
-type: docs
 weight: 10
 url: /hu/net/
 description: Mester Aspose.Note for .NET átfogó oktatóanyaggal! Merüljön el a mellékletekben, hiperhivatkozásokban, képekben és egyebekben. Növelje a OneNote-dokumentumkezelést.
-is_root: true
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Átfogó oktatóanyagok és példák az Aspose.Note-ra .NET-hez
+
 ## Bevezetés
 
 Készen áll a OneNote dokumentummanipulációs játék fejlesztésére? Az Aspose.Note for .NET a lehetőségek világa előtt nyitja meg az ajtót, és átfogó oktatóanyagokat és példákat kínálunk Önnek. Az engedélyezési bonyodalmaktól a fejlett szövegmanipulációig induljon el a továbbfejlesztett dokumentumfejlesztés útjára.
@@ -97,3 +102,9 @@ Hozzon létre tetszetős dokumentumokat az Aspose.Note for .NET segítségével!
 Master Aspose.Note címkekezeléssel. Adjon hozzá képeket, táblázatokat, szöveges csomópontokat, és készítsen értekezlet-jegyzeteket. Lekérheti a címke részleteit, és javíthatja a dokumentumkezelést.
 ### [Szövegmanipuláció](./text-manipulation/)
 Alakítsa át OneNote-dokumentumait az Aspose.Note for .NET segítségével! Tanuljon meg szövegmanipulációs technikákat, a felsorolásjelek alkalmazásától és a számozástól a stílusok megváltoztatásáig.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

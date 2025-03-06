@@ -3,10 +3,16 @@ title: Zvládnutí licencování Aspose.Note pro integraci OneNote
 linktitle: Licencování
 second_title: Aspose.Note .NET API
 description: Použijte licence Aspose.Note ve svých aplikacích .NET! Prozkoumejte podrobné průvodce pro vkládání zdrojů, používání cest, FileStream a efektivní měřené licencování.
-type: docs
 weight: 20
 url: /cs/net/licensing/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Zvládnutí licencování Aspose.Note pro integraci OneNote
+
 ## Úvod
 
 Jste vývojář .NET, který se ponoří do dynamické oblasti Aspose.Note? Pochopení způsobu použití licencí je klíčové, zejména při práci se soubory OneNotu. V tomto rozsáhlém průvodci projdeme různými licenčními kurzy, zajistíme bezproblémový proces integrace a umožníme vám snadno manipulovat se soubory OneNotu.
@@ -41,3 +47,9 @@ Naučte se, jak použít licenci Aspose.Note z cesty v aplikacích .NET. Odemkn�
 Naučte se, jak použít licenci Aspose.Note pomocí FileStream ve vašich aplikacích .NET pro bezproblémovou integraci.
 ### [Měřená licence s Aspose.Poznámka](./metered-licensing/)
 Naučte se, jak efektivně spravovat softwarové licence s Aspose.Note pro .NET prostřednictvím měřeného licencování. Optimalizujte využití zdrojů a efektivně kontrolujte náklady.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

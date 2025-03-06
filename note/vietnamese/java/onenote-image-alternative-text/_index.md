@@ -3,10 +3,16 @@ title: Văn bản thay thế hình ảnh OneNote
 linktitle: Văn bản thay thế hình ảnh OneNote
 second_title: API Java Aspose.Note
 description: Tìm hiểu cách nâng cao khả năng truy cập trong hình ảnh OneNote bằng Java với Aspose.Note. Dễ dàng thêm văn bản thay thế để tăng tính toàn diện và cải thiện trải nghiệm người dùng.
-type: docs
 weight: 23
 url: /vi/java/onenote-image-alternative-text/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Văn bản thay thế hình ảnh OneNote
+
 ## Giới thiệu
 
 Việc điều hướng trong bối cảnh kỹ thuật số đòi hỏi phải có cam kết về khả năng truy cập và người dùng OneNote cũng không ngoại lệ. Trong loạt bài hướng dẫn này, chúng ta đi sâu vào thế giới văn bản thay thế hình ảnh OneNote, thể hiện sức mạnh của Java và Aspose.Note trong việc nâng cao khả năng truy cập tài liệu của bạn.
@@ -32,3 +38,9 @@ Trong lĩnh vực văn bản thay thế hình ảnh OneNote, Java và Aspose.Not
 ## Hướng dẫn văn bản thay thế hình ảnh OneNote
 ### [Thêm văn bản thay thế vào hình ảnh trong OneNote bằng Java](./add-alternative-text-to-image/)
 Tìm hiểu cách thêm văn bản thay thế vào hình ảnh trong tài liệu OneNote bằng Java với Aspose.Note, nâng cao khả năng truy cập và tính toàn diện.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

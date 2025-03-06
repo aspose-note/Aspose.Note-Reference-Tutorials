@@ -3,10 +3,16 @@ title: Convertir des blocs-notes en PDF (aplati) dans Aspose Note .NET
 linktitle: Convertir des blocs-notes en PDF (aplati) dans Aspose Note .NET
 second_title: API Aspose.Note .NET
 description: Découvrez comment convertir facilement des blocs-notes OneNote en PDF aplatis à l’aide d’Aspose.Note pour .NET. Préservez votre contenu en toute transparence.
-type: docs
 weight: 15
 url: /fr/net/notebook-operations/convert-to-pdf-flattened/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Convertir des blocs-notes en PDF (aplati) dans Aspose Note .NET
+
 ## Introduction
 
 Cherchez-vous à convertir vos blocs-notes OneNote en PDF aplatis à l’aide d’Aspose Note .NET ? Vous êtes au bon endroit ! Dans ce didacticiel, nous suivrons le processus étape par étape.
@@ -91,3 +97,9 @@ A3 : Absolument ! Aspose.Note fournit de nombreuses options de personnalisation 
 ### Q5 : Où puis-je obtenir de l'aide si je rencontre des problèmes ?
 
  A5 : Vous pouvez demander l’aide de la communauté Aspose à[Forums Aspose.Note](https://forum.aspose.com/c/note/28).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -3,10 +3,16 @@ title: Převést dokument OneNotu na obrázek – Java
 linktitle: Převést dokument OneNotu na obrázek – Java
 second_title: Aspose.Note Java API
 description: Naučte se převádět OneNote na obrázek pomocí Aspose.Note pro Java. Postupujte podle jednoduchých kroků, načtěte dokument, inicializujte možnosti a uložte jako PNG.
-type: docs
 weight: 14
 url: /cs/java/onenote-document-loading/convert-to-image/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Převést dokument OneNotu na obrázek – Java
+
 ## Úvod
 
 V tomto tutoriálu vás provedeme procesem použití Aspose.Note pro Java k převodu dokumentu OneNotu na obrázek. Každý krok rozdělíme do snadno pochopitelných pokynů.
@@ -106,3 +112,9 @@ A4: Ano, můžete upravit rozlišení a další parametry pomocí možností dos
 ### Q5: Vyžaduje Aspose.Note připojení k internetu pro převod dokumentů?
 
 A5: Ne, Aspose.Note funguje místně bez nutnosti připojení k internetu.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

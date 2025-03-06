@@ -3,10 +3,16 @@ title: Aspose.Note 中的使用者儲存回呼
 linktitle: Aspose.Note 中的使用者儲存回呼
 second_title: Aspose.Note .NET API
 description: 了解如何在 Aspose.Note for .NET 中實作使用者儲存回呼，以自訂儲存字體、CSS 和映像。
-type: docs
 weight: 31
 url: /zh-hant/net/loading-and-saving-operations/user-saving-callbacks/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Aspose.Note 中的使用者儲存回呼
+
 ## 介紹
 
 在本教學中，我們將探討如何在 Aspose.Note for .NET 中實作使用者儲存回呼。這些回調可讓您透過提供在不同階段進行幹預的掛鉤來自訂保存過程，例如儲存字體、CSS 樣式表和圖像。透過利用這些回調，您可以自訂保存行為以滿足您的特定要求，從而增強靈活性和對輸出的控制。
@@ -118,3 +124,9 @@ A4：雖然這些回調提供了靈活性，但請確保有效實施以避免任
 ### Q5：我可以根據使用者輸入或其他條件動態更改儲存行為嗎？
 
 A5：是的，您可以在回呼方法中合併條件邏輯，以根據各種因素動態調整儲存行為。
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

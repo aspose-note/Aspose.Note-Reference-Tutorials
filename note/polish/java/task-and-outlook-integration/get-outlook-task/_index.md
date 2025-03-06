@@ -3,10 +3,16 @@ title: Pobierz zadanie programu Outlook w programie OneNote — Aspose.Note
 linktitle: Pobierz zadanie programu Outlook w programie OneNote — Aspose.Note
 second_title: Aspose.Note API Java
 description: Odkryj moc Aspose.Note dla Java w łatwym wyodrębnianiu zadań programu Outlook z OneNote. Postępuj zgodnie z naszym przewodnikiem krok po kroku i zwiększ swoje możliwości przetwarzania dokumentów.
-type: docs
 weight: 10
 url: /pl/java/task-and-outlook-integration/get-outlook-task/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Pobierz zadanie programu Outlook w programie OneNote — Aspose.Note
+
 ## Wstęp
 Witamy w naszym obszernym przewodniku na temat korzystania z Aspose.Note dla języka Java w celu płynnego pobierania zadań programu Outlook w programie OneNote. Aspose.Note to potężny interfejs API Java, który umożliwia programistom bezproblemową pracę z plikami Microsoft OneNote. W tym samouczku przeprowadzimy Cię krok po kroku przez proces wyodrębniania zadań programu Outlook z dokumentu programu OneNote.
 ## Warunki wstępne
@@ -71,3 +77,9 @@ Aspose.Note obsługuje Microsoft OneNote 2010 i nowsze wersje.
  Odwiedzić[Forum Aspose.Note](https://forum.aspose.com/c/note/28) za wsparcie społeczne. Aby uzyskać dodatkową pomoc, rozważ zakup:[licencja tymczasowa](https://purchase.aspose.com/temporary-license/).
 ### Czy są dostępne do testowania przykładowe dokumenty programu OneNote?
  Przykładowe dokumenty można znaleźć w dokumentacji Aspose.Note[Tutaj](https://reference.aspose.com/note/java/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

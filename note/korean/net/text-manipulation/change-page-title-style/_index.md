@@ -3,10 +3,16 @@ title: Aspose.Note에서 페이지 제목 스타일 변경
 linktitle: Aspose.Note에서 페이지 제목 스타일 변경
 second_title: Aspose.Note .NET API
 description: Aspose.Note로 .NET 문서를 변환하세요! 페이지 제목 스타일을 쉽게 변경하는 방법을 알아보세요. 몇 가지 간단한 단계로 미학을 향상시키세요.
-type: docs
 weight: 13
 url: /ko/net/text-manipulation/change-page-title-style/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Aspose.Note에서 페이지 제목 스타일 변경
+
 ## 소개
 동적 페이지 제목 스타일을 사용하여 .NET 문서의 시각적 매력을 높이고 싶으십니까? .NET용 Aspose.Note는 페이지 제목의 스타일을 쉽게 변경할 수 있는 완벽한 솔루션을 제공합니다. 이 튜토리얼에서는 번거로움 없이 문서의 미적 아름다움을 향상시킬 수 있도록 프로세스를 단계별로 안내해 드립니다.
 ## 전제조건
@@ -70,3 +76,9 @@ Console.WriteLine("\nTitle's styles are changed successfully.");
  Aspose 라이선스를 구매하실 수 있습니다.Note[여기](https://purchase.aspose.com/buy).
 ### 테스트 목적으로 임시 라이센스가 필요합니까?
  예, Aspose.Note를 테스트하는 경우 임시 라이선스를 얻을 수 있습니다.[여기](https://purchase.aspose.com/temporary-license/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

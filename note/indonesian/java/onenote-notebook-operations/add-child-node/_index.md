@@ -3,10 +3,16 @@ title: Tambahkan Node Anak di Buku Catatan OneNote - Aspose.Note
 linktitle: Tambahkan Node Anak di Buku Catatan OneNote - Aspose.Note
 second_title: Aspose.Catatan Java API
 description: Pelajari cara menambahkan simpul anak secara terprogram ke buku catatan OneNote menggunakan Aspose.Note untuk Java. Tingkatkan organisasi catatan Anda dengan mudah.
-type: docs
 weight: 11
 url: /id/java/onenote-notebook-operations/add-child-node/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Tambahkan Node Anak di Buku Catatan OneNote - Aspose.Note
+
 ## Perkenalan
 
 OneNote adalah alat canggih untuk mengatur catatan dan ide Anda. Aspose.Note untuk Java menyediakan cara mudah untuk memanipulasi file OneNote secara terprogram. Dalam tutorial ini, kita akan memandu proses menambahkan simpul anak ke buku catatan OneNote langkah demi langkah.
@@ -89,3 +95,9 @@ A4: Ya, Anda dapat dengan mudah mengintegrasikan Aspose.Note untuk Java ke dalam
 ### Q5: Apakah ada forum komunitas tempat saya dapat mencari bantuan dan panduan untuk menggunakan Aspose.Note untuk Java?
 
  A5: Ya, Anda dapat mengunjungi[Aspose.Catatan forum](https://forum.aspose.com/c/note/28) untuk mengajukan pertanyaan, berbagi pengetahuan, dan berinteraksi dengan pengguna dan pakar lain.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

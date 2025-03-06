@@ -3,10 +3,16 @@ title: Agregar nodo de tabla con etiqueta en Aspose.Note
 linktitle: Agregar nodo de tabla con etiqueta en Aspose.Note
 second_title: Aspose.Nota .NET API
 description: Aprenda a agregar tablas con etiquetas en Aspose.Note para .NET. Mejore sus habilidades de manipulación de documentos mediante programación.
-type: docs
 weight: 11
 url: /es/net/tag-management/add-table-node-tag/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Agregar nodo de tabla con etiqueta en Aspose.Note
+
 ## Introducción
 
 En este tutorial, lo guiaremos a través del proceso de agregar un nodo de tabla con una etiqueta usando Aspose.Note para .NET. Siga los pasos a continuación para lograrlo.
@@ -137,3 +143,9 @@ R4: Sí, Aspose.Note brinda soporte para cifrar documentos de OneNote para garan
 ### P5: ¿Hay soporte técnico disponible para los usuarios de Aspose.Note?
 
  R5: Sí, el soporte técnico se proporciona a través de los foros de Aspose[aquí](https://forum.aspose.com/c/note/28), donde podrá buscar ayuda de expertos.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -3,10 +3,16 @@ title: Chèn hình ảnh có siêu liên kết trong Aspose.Note
 linktitle: Chèn hình ảnh có siêu liên kết trong Aspose.Note
 second_title: Aspose.Note .NET API
 description: Tìm hiểu cách chèn hình ảnh có siêu liên kết trong Aspose.Note cho .NET một cách dễ dàng. Tăng cường tính tương tác của tài liệu với hình ảnh có thể nhấp vào.
-type: docs
 weight: 15
 url: /vi/net/images/insert-image-hyperlink/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Chèn hình ảnh có siêu liên kết trong Aspose.Note
+
 ## Giới thiệu
 
 Aspose.Note for .NET cung cấp một bộ tính năng mạnh mẽ để làm việc với hình ảnh, bao gồm khả năng chèn hình ảnh bằng siêu liên kết. Trong hướng dẫn này, chúng tôi sẽ hướng dẫn bạn quy trình chèn hình ảnh có siêu liên kết bằng Aspose.Note cho .NET.
@@ -89,3 +95,9 @@ Câu trả lời 3: Có, bạn có thể tùy chỉnh hình thức của siêu k
 ### Câu hỏi 5: Tôi có thể nhận hỗ trợ cho Aspose.Note cho .NET ở đâu?
 
  Câu trả lời 5: Bạn có thể nhận hỗ trợ cho Aspose.Note dành cho .NET từ[Diễn đàn Aspose.Note](https://forum.aspose.com/c/note/28), nơi bạn có thể đặt câu hỏi, tìm kiếm hướng dẫn và tương tác với những người dùng và chuyên gia khác.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

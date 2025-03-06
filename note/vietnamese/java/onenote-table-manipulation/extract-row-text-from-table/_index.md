@@ -3,10 +3,16 @@ title: Trích xuất văn bản hàng từ bảng trong tài liệu OneNote - As
 linktitle: Trích xuất văn bản hàng từ bảng trong tài liệu OneNote - Aspose.Note
 second_title: API Java Aspose.Note
 description: Tìm hiểu cách trích xuất văn bản hàng từ bảng OneNote một cách dễ dàng bằng Aspose.Note dành cho Java. Hãy làm theo hướng dẫn từng bước của chúng tôi để tích hợp liền mạch.
-type: docs
 weight: 13
 url: /vi/java/onenote-table-manipulation/extract-row-text-from-table/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Trích xuất văn bản hàng từ bảng trong tài liệu OneNote - Aspose.Note
+
 ## Giới thiệu
 Chào mừng bạn đến với hướng dẫn toàn diện này về cách trích xuất văn bản hàng từ các bảng trong tài liệu OneNote bằng Aspose.Note for Java. Aspose.Note là một thư viện Java mạnh mẽ cho phép các nhà phát triển làm việc liền mạch với các tệp Microsoft OneNote. Trong hướng dẫn này, chúng tôi sẽ hướng dẫn bạn từng bước thực hiện quy trình, trình bày cách trích xuất văn bản hàng từ các bảng trong tài liệu OneNote của bạn một cách hiệu quả.
 ## Điều kiện tiên quyết
@@ -74,3 +80,9 @@ Có, bạn có thể khám phá bản dùng thử miễn phí của Aspose.Note 
  Nhận giấy phép tạm thời từ[liên kết này](https://purchase.aspose.com/temporary-license/).
 ### Có bất kỳ yêu cầu hệ thống cụ thể nào để sử dụng Aspose.Note cho Java không?
 Tham khảo tài liệu để biết các yêu cầu chi tiết của hệ thống.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

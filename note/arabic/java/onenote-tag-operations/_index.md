@@ -3,10 +3,16 @@ title: عمليات علامة OneNote
 linktitle: عمليات علامة OneNote
 second_title: Aspose.Note جافا API
 description: اكتشف قوة Aspose.Note لـ Java. ارفع مستوى تجربتك في OneNote من خلال أدلة خطوة بخطوة حول عمليات العلامات وإضافة الصور والجداول والعقد النصية والمزيد.
-type: docs
 weight: 33
 url: /ar/java/onenote-tag-operations/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# عمليات علامة OneNote
+
 ## مقدمة
 
 تعرف على كيفية تحسين تجربة OneNote الخاصة بك باستخدام Aspose.Note لـ Java. بدءًا من إضافة عقد صور جديدة إلى عقد الجدول الديناميكي، تعمل سلسلة البرامج التعليمية هذه على تحسين مهاراتك في برمجة Java دون عناء.
@@ -47,3 +53,9 @@ url: /ar/java/onenote-tag-operations/
 تعزيز التعاون مع Aspose.Note لـ Java! تعرف على كيفية إنشاء قوالب ملاحظات الاجتماع الديناميكية خطوة بخطوة. قم بتنزيل المكتبة الآن!
 ### [الحصول على علامات العقدة في OneNote - Aspose.Note](./get-node-tags/)
 اكتشف أسرار OneNote باستخدام Aspose.Note لـ Java. يمكّنك هذا الدليل من استخراج علامات العقدة دون عناء. انغمس في مستقبل معالجة المستندات!
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

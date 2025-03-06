@@ -3,10 +3,16 @@ title: Работа с локалями в OneNote — Aspose.Note
 linktitle: Работа с локалями в OneNote — Aspose.Note
 second_title: Aspose.Note Java API
 description: Используйте возможности Aspose.Note для работы с языковыми стандартами OneNote! Извлекайте, манипулируйте и создавайте отчеты, адаптированные для разных языков и регионов. #OneNote #Java #Aspose
-type: docs
 weight: 10
 url: /ru/java/onenote-notebook-operations/working-with-locales/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Работа с локалями в OneNote — Aspose.Note
+
 ## Введение
 
 В сфере разработки Java Aspose.Note выделяется как мощный инструмент для работы с файлами OneNote. Независимо от того, хотите ли вы извлекать информацию, манипулировать контентом или создавать отчеты, Aspose.Note предоставляет обширный набор функций для оптимизации вашего рабочего процесса. В этом руководстве мы углубимся в один конкретный аспект: работу с локалями в OneNote с использованием Aspose.Note для Java.
@@ -99,3 +105,9 @@ A3: Хотя Aspose.Note в первую очередь предназначен
 ### В5: Могу ли я попробовать Aspose.Note перед покупкой?
 
 О5: Конечно, вы можете изучить возможности Aspose.Note, воспользовавшись бесплатной пробной версией, предлагаемой на веб-сайте.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

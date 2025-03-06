@@ -3,10 +3,16 @@ title: Joindre un fichier et définir une icône dans OneNote à l'aide de Java
 linktitle: Joindre un fichier et définir une icône dans OneNote à l'aide de Java
 second_title: API Java Aspose.Note
 description: Boostez votre flux de travail OneNote ! Apprenez à joindre des fichiers et à personnaliser les icônes par programme en Java avec Aspose.Note. Étapes faciles et code inclus ! #OneNote #Java #Aspose
-type: docs
 weight: 10
 url: /fr/java/onenote-java-integration/attach-file-and-set-icon/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Joindre un fichier et définir une icône dans OneNote à l'aide de Java
+
 ## Introduction
 
 OneNote est un outil populaire pour prendre des notes et organiser des informations, et avec l'aide d'Aspose.Note pour Java, vous pouvez améliorer ses capacités en joignant par programme des fichiers et en définissant des icônes pour améliorer la représentation visuelle de vos notes. Dans ce didacticiel, nous vous guiderons étape par étape tout au long du processus.
@@ -149,3 +155,10 @@ A3 : Absolument, vous pouvez choisir des icônes personnalisées pour représe
 ### Q5 : Existe-t-il une version d'essai disponible pour Aspose.Note pour Java ?
 
 A5 : Oui, vous pouvez explorer les fonctionnalités d'Aspose.Note pour Java avec un essai gratuit disponible sur[ce lien](https://releases.aspose.com/).
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -3,10 +3,16 @@ title: OneNote で出力画像解像度を設定する - Aspose.Note
 linktitle: OneNote で出力画像解像度を設定する - Aspose.Note
 second_title: Aspose.Note Java API
 description: Aspose.Note for Java を使用して OneNote ドキュメントの画像解像度を調整する方法を学習します。ステップバイステップのガイドに従って簡単に実装してください
-type: docs
 weight: 23
 url: /ja/java/onenote-document-saving/set-output-image-resolution/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# OneNote で出力画像解像度を設定する - Aspose.Note
+
 ## 導入
 
 Java を使用して OneNote ドキュメント内の画像の解像度を操作したいと考えていますか? Aspose.Note for Java は、そのようなタスクに対する堅牢なソリューションを提供します。このチュートリアルでは、Aspose.Note を使用して出力画像の解像度を設定する手順を説明します。
@@ -88,3 +94,9 @@ A4: はい、Aspose.Note は、サイズ変更、トリミング、回転など�
 ### Q5: Aspose.Note 関連のクエリのサポートはどこで受けられますか?
 
  A5: Aspose.Note コミュニティ フォーラムから支援を求めることができます。[ここ](https://forum.aspose.com/c/note/28).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

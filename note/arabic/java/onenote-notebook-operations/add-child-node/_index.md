@@ -3,10 +3,16 @@ title: إضافة عقدة فرعية في دفتر ملاحظات OneNote - Asp
 linktitle: إضافة عقدة فرعية في دفتر ملاحظات OneNote - Aspose.Note
 second_title: Aspose.Note جافا API
 description: تعرف على كيفية إضافة العقد الفرعية برمجياً إلى دفاتر ملاحظات OneNote باستخدام Aspose.Note لـ Java. تحسين تنظيم الملاحظات الخاصة بك دون عناء.
-type: docs
 weight: 11
 url: /ar/java/onenote-notebook-operations/add-child-node/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# إضافة عقدة فرعية في دفتر ملاحظات OneNote - Aspose.Note
+
 ## مقدمة
 
 يعد OneNote أداة قوية لتنظيم ملاحظاتك وأفكارك. يوفر Aspose.Note for Java طرقًا مناسبة لمعالجة ملفات OneNote برمجيًا. في هذا البرنامج التعليمي، سنتعرف على عملية إضافة عقدة فرعية إلى دفتر ملاحظات OneNote خطوة بخطوة.
@@ -89,3 +95,9 @@ notebook.save(dataDir);
 ### س5: هل يوجد منتدى مجتمعي حيث يمكنني طلب المساعدة والتوجيه لاستخدام Aspose.Note for Java؟
 
  ج5: نعم، يمكنك زيارة[منتدى Aspose.Note](https://forum.aspose.com/c/note/28) لطرح الأسئلة ومشاركة المعرفة والتفاعل مع المستخدمين والخبراء الآخرين.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

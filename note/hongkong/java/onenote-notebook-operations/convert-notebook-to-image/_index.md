@@ -3,10 +3,16 @@ title: 在 OneNote 中將筆記本轉換為圖片 - Aspose.Note
 linktitle: 在 OneNote 中將筆記本轉換為圖片 - Aspose.Note
 second_title: Aspose.Note Java API
 description: 了解如何使用 Aspose.Note for Java 將筆記本轉換為 OneNote 中的圖片。輕鬆將此功能整合到您的 Java 應用程式中。
-type: docs
 weight: 12
 url: /zh-hant/java/onenote-notebook-operations/convert-notebook-to-image/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# 在 OneNote 中將筆記本轉換為圖片 - Aspose.Note
+
 ## 介紹
 
 在本教程中，我們將探索如何使用 Aspose.Note for Java 程式庫將筆記本轉換為 OneNote 中的圖像。將筆記本轉換為圖像可用於多種目的，例如共享筆記、將其嵌入文件或將其合併到簡報中。
@@ -94,3 +100,9 @@ A4：是的，您可以使用 Aspose.Note 將多個筆記本有效地批次轉�
 ### Q5：在哪裡可以找到 Aspose.Note 的其他資源和支援？
 
  A5：有關更多文件、範例和社群支持，請訪問[Aspose.Note 論壇](https://forum.aspose.com/c/note/28)並探索[文件](https://reference.aspose.com/note/java/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

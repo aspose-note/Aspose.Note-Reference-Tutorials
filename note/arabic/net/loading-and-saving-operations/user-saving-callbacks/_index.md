@@ -3,10 +3,16 @@ title: عمليات الاسترجاعات لحفظ المستخدم في Aspose
 linktitle: عمليات الاسترجاعات لحفظ المستخدم في Aspose.Note
 second_title: Aspose.Note .NET API
 description: تعرف على كيفية تنفيذ عمليات رد الاتصال لحفظ المستخدم في Aspose.Note لـ .NET لتخصيص حفظ الخطوط وCSS والصور.
-type: docs
 weight: 31
 url: /ar/net/loading-and-saving-operations/user-saving-callbacks/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# عمليات الاسترجاعات لحفظ المستخدم في Aspose.Note
+
 ## مقدمة
 
 في هذا البرنامج التعليمي، سوف نستكشف كيفية تنفيذ عمليات الاسترجاعات لحفظ المستخدم في Aspose.Note لـ .NET. تسمح لك عمليات الاسترجاعات هذه بتخصيص عملية الحفظ من خلال توفير خطافات للتدخل في مراحل مختلفة، مثل حفظ الخطوط وأوراق أنماط CSS والصور. ومن خلال الاستفادة من عمليات الاسترجاعات هذه، يمكنك تخصيص سلوك الحفظ ليناسب متطلباتك المحددة، مما يعزز المرونة والتحكم في المخرجات.
@@ -118,3 +124,9 @@ public void ImageSaving(ImageSavingArgs args)
 ### س5: هل يمكنني تغيير سلوك الحفظ ديناميكيًا استنادًا إلى إدخال المستخدم أو شروط أخرى؟
 
 ج5: نعم، يمكنك دمج المنطق الشرطي ضمن أساليب رد الاتصال لضبط سلوك الحفظ ديناميكيًا استنادًا إلى عوامل مختلفة.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

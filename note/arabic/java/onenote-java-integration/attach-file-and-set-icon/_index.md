@@ -3,10 +3,16 @@ title: إرفاق ملف وتعيين أيقونة في OneNote باستخدام
 linktitle: إرفاق ملف وتعيين أيقونة في OneNote باستخدام Java
 second_title: Aspose.Note جافا API
 description: تعزيز سير عمل OneNote الخاص بك! تعرف على كيفية إرفاق الملفات وتخصيص الأيقونات برمجيًا في Java باستخدام Aspose.Note. خطوات سهلة ورمز متضمن! #OneNote #Java #Aspose
-type: docs
 weight: 10
 url: /ar/java/onenote-java-integration/attach-file-and-set-icon/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# إرفاق ملف وتعيين أيقونة في OneNote باستخدام Java
+
 ## مقدمة
 
 يعد OneNote أداة شائعة لتدوين الملاحظات وتنظيم المعلومات، وبمساعدة Aspose.Note for Java، يمكنك تحسين قدراته عن طريق إرفاق الملفات برمجيًا وتعيين الرموز لتحسين التمثيل المرئي لملاحظاتك. في هذا البرنامج التعليمي، سنرشدك خلال العملية خطوة بخطوة.
@@ -149,3 +155,10 @@ A1: نعم، يمكنك إرفاق أنواع مختلفة من الملفات،
 ### س5: هل هناك إصدار تجريبي متاح لـ Aspose.Note لـ Java؟
 
 ج5: نعم، يمكنك استكشاف وظائف Aspose.Note لـ Java من خلال الإصدار التجريبي المجاني المتاح على[هذا الرابط](https://releases.aspose.com/).
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

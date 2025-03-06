@@ -3,10 +3,16 @@ title: Získejte informace o obrázcích v Aspose.Note
 linktitle: Získejte informace o obrázcích v Aspose.Note
 second_title: Aspose.Note .NET API
 description: Přečtěte si, jak extrahovat informace o obrázcích ze souborů Microsoft OneNote pomocí Aspose.Note pro .NET. Postupujte podle našeho podrobného průvodce pro efektivní vývoj.
-type: docs
 weight: 13
 url: /cs/net/images/get-info-of-images/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Získejte informace o obrázcích v Aspose.Note
+
 ## Úvod
 
 Ve světě vývoje .NET poskytuje Aspose.Note výkonnou sadu nástrojů pro práci se soubory Microsoft OneNote. Jedním z běžných úkolů, kterým vývojáři často čelí, je extrahování informací z obrázků vložených do těchto poznámek. Ať už se jedná o získávání rozměrů, názvů souborů nebo časů úprav, Aspose.Note tento proces zjednodušuje.
@@ -98,3 +104,9 @@ A4: Ano, máte přístup k bezplatné zkušební verzi Aspose.Note a prozkoumejt
 ### Q5: Kde najdu další podporu nebo pomoc s Aspose.Note?
 
 A5: Pro jakékoli dotazy nebo pomoc můžete navštívit fórum Aspose.Note[tady](https://forum.aspose.com/c/note/28).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

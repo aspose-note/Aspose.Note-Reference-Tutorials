@@ -3,10 +3,16 @@ title: Настройка цвета фона ячейки в OneNote — Aspose
 linktitle: Настройка цвета фона ячейки в OneNote — Aspose.Note
 second_title: Aspose.Note Java API
 description: С легкостью преобразуйте документы OneNote с помощью Aspose.Note для Java. Легко настраивайте цвета фона ячеек. Попробуйте бесплатную пробную версию прямо сейчас!
-type: docs
 weight: 17
 url: /ru/java/onenote-table-manipulation/setting-cell-background-color/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Настройка цвета фона ячейки в OneNote — Aspose.Note
+
 ## Введение
 Добро пожаловать в наше руководство по настройке цвета фона ячейки в OneNote с помощью Aspose.Note для Java! В этом пошаговом руководстве мы покажем вам, как легко настроить цвета фона ячеек в документах OneNote.
 ## Предварительные условия
@@ -66,3 +72,9 @@ cell11.setBackgroundColor(Color.BLACK);
  Посетите форум поддержки[здесь](https://forum.aspose.com/c/note/28) чтобы получить помощь от сообщества Aspose.
 ### Где я могу приобрести Aspose.Note для Java?
  Вы можете приобрести библиотеку[здесь](https://purchase.aspose.com/buy).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

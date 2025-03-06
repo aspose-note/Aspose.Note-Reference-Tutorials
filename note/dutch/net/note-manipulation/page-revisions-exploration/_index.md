@@ -3,10 +3,16 @@ title: Ontdek paginarevisies in Aspose.Note-documenten
 linktitle: Ontdek paginarevisies in Aspose.Note-documenten
 second_title: Aspose.Note .NET API
 description: Leer hoe u paginarevisies in Aspose.Note-documenten kunt onderzoeken met behulp van het .NET-framework, met stapsgewijze begeleiding.
-type: docs
 weight: 14
 url: /nl/net/note-manipulation/page-revisions-exploration/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Ontdek paginarevisies in Aspose.Note-documenten
+
 ## Invoering
 
 In deze zelfstudie gaan we dieper in op het verkennen van paginarevisies in Aspose.Note-documenten met behulp van het .NET-framework. Aspose.Note is een krachtige bibliotheek waarmee ontwikkelaars programmatisch met Microsoft OneNote-bestanden kunnen werken en verschillende functies biedt om gegevens uit deze bestanden te manipuleren en te extraheren.
@@ -88,3 +94,9 @@ A3: Ja, u kunt een gratis proefversie van Aspose.Note voor .NET downloaden van[h
 ### V5: Waar kan ik ondersteuning vinden voor Aspose.Note voor .NET?
 
  A5: U kunt ondersteuning en hulpmiddelen vinden op de[Aspose.Note-forum](https://forum.aspose.com/c/note/28).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

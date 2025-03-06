@@ -3,10 +3,16 @@ title: Modificar el historial de páginas en OneNote - Aspose.Note
 linktitle: Modificar el historial de páginas en OneNote - Aspose.Note
 second_title: Aspose.Nota Java API
 description: ¡Elimine, modifique y agregue entradas del historial de páginas sin problemas! Guía y código paso a paso para dominar OneNote con Aspose.Note. #OneNote #Java #Aspose
-type: docs
 weight: 17
 url: /es/java/onenote-page-manipulation/modify-page-history/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Modificar el historial de páginas en OneNote - Aspose.Note
+
 ## Introducción
 
 En este tutorial, profundizaremos en el uso de Aspose.Note para Java para modificar el historial de páginas en documentos de OneNote. Aspose.Note es una poderosa API de Java que permite a los desarrolladores trabajar sin problemas con archivos OneNote, permitiendo diversas operaciones como crear, leer y modificar estos archivos mediante programación.
@@ -108,3 +114,10 @@ R4: Sí, Aspose.Note para Java proporciona API para manejar modificaciones masiv
 ### P5: ¿Existe un foro comunitario para Aspose.Note para Java donde pueda pedir ayuda?
 
  R5: Sí, puedes visitar el[Foro Aspose.Note](https://forum.aspose.com/c/note/28) para cualquier ayuda o consulta relacionada con la biblioteca.
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

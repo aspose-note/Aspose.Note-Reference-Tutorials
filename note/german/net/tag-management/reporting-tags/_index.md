@@ -3,10 +3,16 @@ title: Berichterstellung mit Tags in Aspose.Note
 linktitle: Berichterstellung mit Tags in Aspose.Note
 second_title: Aspose.Note .NET-API
 description: Erfahren Sie, wie Sie mit Aspose.Note für .NET aufschlussreiche Berichte aus digitalen Dokumenten erstellen. Schritt-für-Schritt-Anleitung bereitgestellt.
-type: docs
 weight: 16
 url: /de/net/tag-management/reporting-tags/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Berichterstellung mit Tags in Aspose.Note
+
 ## Einführung
 
 Im Bereich der Dokumentenverarbeitung und -verwaltung zeichnet sich Aspose.Note für .NET als leistungsstarkes Tool zum Umgang mit Notizen, Anmerkungen und Tags in digitalen Dokumenten aus. Tags spielen eine entscheidende Rolle beim Organisieren, Kategorisieren und Filtern von Informationen in Dokumenten und ermöglichen so ein effizientes Abrufen und Analysieren. Dieses Tutorial befasst sich mit den Feinheiten der Berichterstellung mit Tags in Aspose.Note und bietet eine Schritt-für-Schritt-Anleitung zum Erstellen von Berichten basierend auf verschiedenen Kriterien.
@@ -133,3 +139,9 @@ A2: Ja, Sie können über die auf eine kostenlose Testversion von Aspose.Note f�
 ## F5: Kann ich die Berichtskriterien in Aspose.Note für .NET anpassen?
 
 A5: Ja, Sie können die Berichtskriterien mithilfe der bereitgestellten APIs und Beispiele an Ihre spezifischen Anforderungen anpassen.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

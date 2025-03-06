@@ -3,10 +3,16 @@ title: Ορισμός χρώματος φόντου σελίδας στο OneNot
 linktitle: Ορισμός χρώματος φόντου σελίδας στο OneNote - Aspose.Note
 second_title: Aspose.Note Java API
 description: Μάθετε πώς να ορίζετε το χρώμα φόντου της σελίδας στο OneNote χωρίς κόπο χρησιμοποιώντας το Aspose.Note για Java. Βελτιώστε την οπτική ελκυστικότητα των εγγράφων σας με αυτό το απλό σεμινάριο.
-type: docs
 weight: 20
 url: /el/java/onenote-page-manipulation/set-page-background-color/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Ορισμός χρώματος φόντου σελίδας στο OneNote - Aspose.Note
+
 ## Εισαγωγή
 
 Σε αυτό το σεμινάριο, θα εμβαθύνουμε στη διαδικασία ρύθμισης του χρώματος φόντου της σελίδας στο OneNote χρησιμοποιώντας το Aspose.Note για Java. Το Aspose.Note είναι μια ισχυρή βιβλιοθήκη Java που επιτρέπει στους προγραμματιστές να χειρίζονται έγγραφα του OneNote μέσω προγραμματισμού. Η αλλαγή του χρώματος του φόντου της σελίδας μπορεί να βελτιώσει την οπτική ελκυστικότητα των εγγράφων σας στο OneNote, καθιστώντας τα πιο ελκυστικά και οργανωμένα.
@@ -100,3 +106,9 @@ A3: Ναι, το Aspose.Note προσφέρει επιλογές αδειοδό�
 ### Ε5: Πού μπορώ να βρω πρόσθετη υποστήριξη ή βοήθεια με το Aspose.Note;
 
 A5: Για οποιαδήποτε απορία ή βοήθεια, μπορείτε να επισκεφτείτε το φόρουμ Aspose.Note ή να απευθυνθείτε στην ομάδα υποστήριξής τους για άμεση βοήθεια.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

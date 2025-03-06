@@ -3,10 +3,16 @@ title: Masukkan Daftar Nomor Cina di Teks Aspose.Note
 linktitle: Masukkan Daftar Nomor Cina di Teks Aspose.Note
 second_title: Aspose.Catatan .NET API
 description: Pelajari cara memasukkan daftar nomor berbahasa Mandarin di Aspose.Note untuk dokumen .NET dengan mudah. Tingkatkan keterampilan pemformatan dokumen Anda dengan panduan langkah demi langkah ini.
-type: docs
 weight: 20
 url: /id/net/text-manipulation/insert-chinese-number-list/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Masukkan Daftar Nomor Cina di Teks Aspose.Note
+
 ## Perkenalan
 Apakah Anda ingin meningkatkan keterampilan Aspose.Note untuk .NET Anda dengan memasukkan daftar nomor berbahasa Mandarin ke dalam dokumen Anda? Jika demikian, Anda berada di tempat yang tepat! Dalam tutorial ini, kami akan memandu Anda melalui proses memasukkan daftar nomor berbahasa Mandarin menggunakan Aspose.Note untuk .NET. Pustaka canggih ini memungkinkan Anda memanipulasi dokumen OneNote dengan lancar.
 ## Prasyarat
@@ -91,3 +97,9 @@ A: Jelajahi secara komprehensif[Dokumentasi Aspose.Note](https://reference.aspos
  A: Dapatkan lisensi sementara[Di Sini](https://purchase.aspose.com/temporary-license/).
 ### T: Di mana saya dapat mencari bantuan atau mendiskusikan pertanyaan terkait Aspose.Note?
  J: Kunjungi[Forum dukungan Aspose.Note](https://forum.aspose.com/c/note/28) untuk dukungan masyarakat.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

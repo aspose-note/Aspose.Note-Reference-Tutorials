@@ -3,10 +3,16 @@ title: إنشاء قائمة مرقمة باللغة الصينية في OneNote
 linktitle: إنشاء قائمة مرقمة باللغة الصينية في OneNote - Aspose.Note
 second_title: Aspose.Note جافا API
 description: تحسين إنشاء المستندات في Java باستخدام Aspose.Note. تعلم كيفية إنشاء قائمة مرقمة باللغة الصينية في OneNote خطوة بخطوة. اكتشف ميزات Aspose.Note القوية.
-type: docs
 weight: 13
 url: /ar/java/onenote-text-manipulation/create-chinese-numbered-list/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# إنشاء قائمة مرقمة باللغة الصينية في OneNote - Aspose.Note
+
 ## مقدمة
 إذا كنت تتطلع إلى تحسين قدرات إنشاء المستندات لديك في Java، فإن Aspose.Note هو الحل الأمثل لك. في هذا البرنامج التعليمي، سنرشدك خلال عملية إنشاء قائمة مرقمة باللغة الصينية في OneNote باستخدام Aspose.Note لـ Java. تتيح لك هذه المكتبة القوية التعامل مع مستندات OneNote برمجيًا، مما يمنحك التحكم الكامل في بنيتها ومحتواها.
 ## المتطلبات الأساسية
@@ -109,3 +115,9 @@ System.out.printf("File saved: %s\n", dataDir + "CreateChineseNumberedList_out.p
  الرجوع إلى الوثائق[هنا](https://reference.aspose.com/note/java/).
 ### كيف يمكنني الحصول على الدعم لـ Aspose.Note؟
  قم بزيارة منتدى الدعم[هنا](https://forum.aspose.com/c/note/28) لأية مساعدة أو استفسار.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

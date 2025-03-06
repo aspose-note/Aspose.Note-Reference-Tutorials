@@ -3,10 +3,16 @@ title: A Document Visitor használata a OneNote-ban Java-val
 linktitle: A Document Visitor használata a OneNote-ban Java-val
 second_title: Aspose.Note Java API
 description: Ismerje meg, hogyan használhatja a Dokumentumlátogatót a OneNote-ban Java és Aspose.Note használatával. A OneNote-dokumentumok zökkenőmentes bejárása és kezelése.
-type: docs
 weight: 10
 url: /hu/java/onenote-document-manipulation/using-document-visitor/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# A Document Visitor használata a OneNote-ban Java-val
+
 ## Bevezetés
 
 Ebben az oktatóanyagban megvizsgáljuk, hogyan használhatja a Dokumentumlátogatót a OneNote-ban Java és Aspose.Note használatával. A Document Visitor lehetővé teszi a OneNote-dokumentum elemeinek bejárását és műveletek végrehajtását azokon. Lépésről lépésre végigvezetjük a folyamaton.
@@ -95,3 +101,9 @@ Ebben az oktatóanyagban megtanultuk, hogyan használhatja a Dokumentumlátogat�
 ### 5. kérdés: Elérhető az Aspose.Note dokumentációja?
 
  V5: Igen, megtalálja a dokumentációt[itt](https://reference.aspose.com/note/java/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

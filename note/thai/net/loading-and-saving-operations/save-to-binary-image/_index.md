@@ -3,10 +3,16 @@ title: บันทึกเป็นไบนารีอิมเมจใน 
 linktitle: บันทึกเป็นไบนารีอิมเมจใน Aspose.Note
 second_title: Aspose.Note .NET API
 description: เรียนรู้วิธีแปลงเอกสารเป็นอิมเมจไบนารีโดยใช้ Aspose.Note สำหรับ .NET ปฏิบัติตามคำแนะนำทีละขั้นตอนของเราเพื่อการบูรณาการที่ราบรื่น
-type: docs
 weight: 22
 url: /th/net/loading-and-saving-operations/save-to-binary-image/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# บันทึกเป็นไบนารีอิมเมจใน Aspose.Note
+
 ## การแนะนำ
 
 ในบทช่วยสอนนี้ เราจะสำรวจวิธีการบันทึกเอกสารลงในอิมเมจไบนารีโดยใช้ Aspose.Note สำหรับ .NET กระบวนการนี้เกี่ยวข้องกับการแปลงเอกสารให้เป็นภาพขาวดำโดยมีเกณฑ์คงที่ ซึ่งอาจมีประโยชน์สำหรับแอปพลิเคชันต่างๆ
@@ -97,3 +103,9 @@ A4: ได้ คุณสามารถวนซ้ำเอกสารหล
 ### คำถามที่ 5: ฉันจะหาแหล่งข้อมูลเพิ่มเติมและการสนับสนุนสำหรับ Aspose.Note ได้ที่ไหน
 
  A5: คุณสามารถสำรวจ[เอกสาร Aspose.Note](https://reference.aspose.com/note/net/)และขอความช่วยเหลือจาก[ฟอรั่ม Aspose.Note](https://forum.aspose.com/c/note/28) สำหรับข้อสงสัยหรือปัญหาใด ๆ
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

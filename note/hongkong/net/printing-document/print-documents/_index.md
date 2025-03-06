@@ -3,10 +3,16 @@ title: 使用 Aspose.Note for .NET 列印文檔
 linktitle: 使用 Aspose.Note for .NET 列印文檔
 second_title: Aspose.Note .NET API
 description: 了解如何使用 Aspose.Note for .NET 列印 OneNote 文件。無縫整合到 .NET 應用程式中的逐步指南。
-type: docs
 weight: 10
 url: /zh-hant/net/printing-document/print-documents/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# 使用 Aspose.Note for .NET 列印文檔
+
 ## 介紹
 
 在.NET 開發領域，Aspose.Note 是管理和操作 OneNote 檔案的強大工具。在其眾多功能中，一項重要功能是直接從 .NET 應用程式列印文件的能力。本教學將引導您完成使用 Aspose.Note for .NET 列印文件的流程，並提供逐步說明。
@@ -88,3 +94,9 @@ A4：是的，Aspose.Note 允許您透過以程式設計方式指定列印選項
 ### Q5：Aspose.Note支援列印為PDF或其他文件格式嗎？
 
 A5：是的，除了列印到實體印表機之外，Aspose.Note 還可以列印到各種文件格式，包括 PDF、XPS 和圖像格式。
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

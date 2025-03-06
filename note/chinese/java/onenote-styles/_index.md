@@ -3,10 +3,16 @@ title: OneNote 样式
 linktitle: OneNote 样式
 second_title: Aspose.Note Java API
 description: 探索使用 Aspose.Note for Java 修改 OneNote 文本样式的艺术。在我们的分步教程中学习更改字体颜色、大小和突出显示。
-type: docs
 weight: 31
 url: /zh/java/onenote-styles/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# OneNote 样式
+
 
 ## 介绍
 
@@ -36,3 +42,9 @@ Aspose.Note for Java 脱颖而出，成为寻求无缝集成和无与伦比的 O
 了解如何使用 Aspose.Note for Java 更改 OneNote 中的文本样式。轻松修改字体颜色、大小和突出显示。
 ### [在 OneNote 中设置默认段落样式 - Aspose.Note](./set-default-paragraph-style/)
 了解如何使用 Aspose.Note for Java 在 OneNote 中设置默认段落样式。请遵循我们的分步指南，在您的 Java 应用程序中实现高效的文本格式化。
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

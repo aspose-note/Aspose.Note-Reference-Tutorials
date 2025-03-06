@@ -3,10 +3,16 @@ title: Build Document and Insert Image in OneNote using Java
 linktitle: Build Document and Insert Image in OneNote using Java
 second_title: Aspose.Note Java API
 description: Learn how to build OneNote documents and insert images using Aspose.Note for Java. Step-by-step tutorial for seamless integration.
-type: docs
 weight: 12
 url: /java/onenote-hyperlinks-images/build-doc-insert-image/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Build Document and Insert Image in OneNote using Java
+
 ## Introduction
 
 In this tutorial, we'll explore how to use Aspose.Note for Java to build OneNote documents and insert images into them. Aspose.Note is a powerful Java API that enables developers to work with Microsoft OneNote files programmatically. We'll break down each step in detail to guide you through the process.
@@ -120,3 +126,10 @@ A4: For support, visit the [Aspose.Note forum](https://forum.aspose.com/c/note/2
 
 A5: Yes, you can request a temporary license [here](https://purchase.aspose.com/temporary-license/).
 
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

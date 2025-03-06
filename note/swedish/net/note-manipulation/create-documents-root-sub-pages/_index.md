@@ -3,10 +3,16 @@ title: Skapa dokument med rot- och undersidor med Aspose.Note
 linktitle: Skapa dokument med rot- och undersidor med Aspose.Note
 second_title: Aspose.Note .NET API
 description: Lär dig hur du använder Aspose.Note för .NET för att skapa dynamiska OneNote-dokument med hierarkiska strukturer.
-type: docs
 weight: 11
 url: /sv/net/note-manipulation/create-documents-root-sub-pages/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Skapa dokument med rot- och undersidor med Aspose.Note
+
 ## Introduktion
 
 Välkommen till vår handledning om att skapa dokument med rot- och undersidor med Aspose.Note för .NET! Aspose.Note är ett kraftfullt bibliotek som gör det möjligt för utvecklare att arbeta med Microsoft OneNote-filer programmatiskt, vilket gör det möjligt att skapa, manipulera och konvertera OneNote-dokument.
@@ -130,3 +136,9 @@ S4: Aspose.Note fokuserar i första hand på lokal utveckling, men du kan använ
 ### F5: Finns teknisk support tillgänglig för Aspose.Note?
 
 S5: Ja, Aspose tillhandahåller dedikerad teknisk support genom deras forum där du kan ställa frågor och få hjälp.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

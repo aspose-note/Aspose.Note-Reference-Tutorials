@@ -3,10 +3,16 @@ title: แทรกตารางใน OneNote - Aspose.Note
 linktitle: แทรกตารางใน OneNote - Aspose.Note
 second_title: Aspose.Note Java API
 description: เรียนรู้วิธีแทรกตารางใน OneNote โดยใช้ Aspose.Note สำหรับ Java คำแนะนำทีละขั้นตอนสำหรับการสร้างเนื้อหาแบบไดนามิก ปรับปรุงเอกสารของคุณได้อย่างง่ายดาย
-type: docs
 weight: 16
 url: /th/java/onenote-table-manipulation/insert-table/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# แทรกตารางใน OneNote - Aspose.Note
+
 ## การแนะนำ
 หากคุณต้องการปรับปรุงเอกสาร OneNote ของคุณด้วยการแทรกตารางโดยทางโปรแกรม Aspose.Note for Java คือโซลูชันที่เหมาะกับคุณ ในคำแนะนำทีละขั้นตอนนี้ เราจะแนะนำคุณตลอดขั้นตอนการแทรกตารางลงในเอกสาร OneNote โดยใช้ไลบรารี Java อันทรงพลังของ Aspose.Note
 ## ข้อกำหนดเบื้องต้น
@@ -101,3 +107,9 @@ public static OutlineElement GetOutlineElementWithText(String text)
  ตอบ: ได้ คุณสามารถสำรวจห้องสมุดได้ด้วย[ทดลองฟรี](https://releases.aspose.com/).
 ### ถาม: ฉันจะขอรับใบอนุญาตชั่วคราวสำหรับ Aspose.Note สำหรับ Java ได้อย่างไร
  ตอบ: รับใบอนุญาตชั่วคราว[ที่นี่](https://purchase.aspose.com/temporary-license/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

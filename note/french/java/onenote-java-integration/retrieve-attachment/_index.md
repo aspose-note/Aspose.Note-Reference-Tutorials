@@ -3,10 +3,16 @@ title: Récupérer une pièce jointe de OneNote à l'aide de Java
 linktitle: Récupérer une pièce jointe de OneNote à l'aide de Java
 second_title: API Java Aspose.Note
 description: Extrayez sans effort les pièces jointes des documents OneNote en Java ! Aspose.Note gère tous les formats et le traitement par lots. Étapes faciles et code inclus ! #OneNote #Java #Aspose
-type: docs
 weight: 12
 url: /fr/java/onenote-java-integration/retrieve-attachment/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Récupérer une pièce jointe de OneNote à l'aide de Java
+
 ## Introduction
 
 À l’ère numérique d’aujourd’hui, la gestion efficace de divers formats de documents est un aspect crucial du développement logiciel. Aspose.Note pour Java est une API puissante qui permet aux développeurs de travailler de manière transparente avec les fichiers Microsoft OneNote à l'aide d'applications Java. Que vous ayez besoin de récupérer des pièces jointes, de manipuler des pages ou d'extraire du texte, Aspose.Note pour Java fournit des fonctionnalités complètes pour rationaliser votre flux de travail.
@@ -112,3 +118,9 @@ R : Oui, les développeurs ont la possibilité de spécifier des emplacements d
 ### Q5 : Aspose.Note pour Java fournit-il une assistance et une assistance en cas de problèmes techniques ou de demandes de renseignements ?
 
 R : Oui, les développeurs peuvent accéder à une assistance complète via le forum Aspose.Note à l'adresse[https://forum.aspose.com/c/note/28](https://forum.aspose.com/c/note/28) pour toute assistance technique ou demande de renseignements.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

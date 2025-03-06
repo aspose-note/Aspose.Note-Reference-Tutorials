@@ -3,10 +3,16 @@ title: إنشاء مستند من القالب في OneNote - Aspose.Note
 linktitle: إنشاء مستند من القالب في OneNote - Aspose.Note
 second_title: Aspose.Note جافا API
 description: أنشئ مستندات ديناميكية بسهولة باستخدام Aspose.Note لـ Java. اتبع دليلنا خطوة بخطوة لإنشاء المستندات بكفاءة من القوالب.
-type: docs
 weight: 18
 url: /ar/java/onenote-text-manipulation/generate-document-from-template/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# إنشاء مستند من القالب في OneNote - Aspose.Note
+
 ## مقدمة
 هل تتطلع إلى تبسيط إنشاء المستندات في تطبيق Java الخاص بك؟ يوفر Aspose.Note for Java حلاً قويًا. في هذا البرنامج التعليمي، سنرشدك خلال إنشاء المستندات من القوالب باستخدام Aspose.Note لـ Java، مما يجعل العملية بأكملها سهلة وفعالة.
 ## المتطلبات الأساسية
@@ -84,3 +90,9 @@ System.out.println("\nThe document is generated successfully.");
  قم بزيارة[منتدى Aspose.Note](https://forum.aspose.com/c/note/28)لطلب المساعدة من المجتمع ودعم Aspose.
 ### هل هناك نسخة تجريبية مجانية متاحة؟
  نعم يمكنك الوصول إلى[تجربة مجانية](https://releases.aspose.com/) لاستكشاف الميزات قبل إجراء عملية الشراء.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

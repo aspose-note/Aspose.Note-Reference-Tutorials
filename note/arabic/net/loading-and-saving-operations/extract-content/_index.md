@@ -3,10 +3,16 @@ title: استخراج المحتوى في Aspose.Note
 linktitle: استخراج المحتوى في Aspose.Note
 second_title: Aspose.Note .NET API
 description: تعرف على كيفية استخراج المحتوى من مستندات Aspose.Note باستخدام Aspose.Note لـ .NET. يرشدك هذا البرنامج التعليمي الشامل خلال العملية خطوة بخطوة.
-type: docs
 weight: 15
 url: /ar/net/loading-and-saving-operations/extract-content/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# استخراج المحتوى في Aspose.Note
+
 ## مقدمة
 
 في هذا البرنامج التعليمي، سنستكشف كيفية استخراج المحتوى من مستندات Aspose.Note باستخدام Aspose.Note لـ .NET. Aspose.Note هي مكتبة قوية تتيح لك العمل مع ملفات Microsoft OneNote برمجياً. سنتناول العملية خطوة بخطوة، وسنقسم كل مثال إلى خطوات متعددة لضمان الوضوح والفهم.
@@ -133,3 +139,9 @@ Console.WriteLine(myConverter.GetText());
 ### س5: هل يتوفر الدعم الفني لمستخدمي Aspose.Note؟
 
 ج5: نعم، يوفر Aspose دعمًا فنيًا مخصصًا عبر المنتدى الخاص به لمساعدة المستخدمين في أي مشكلات أو استفسارات.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

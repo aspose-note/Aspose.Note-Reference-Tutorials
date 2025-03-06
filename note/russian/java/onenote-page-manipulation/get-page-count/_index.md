@@ -3,10 +3,16 @@ title: Получить количество страниц в OneNote — Aspos
 linktitle: Получить количество страниц в OneNote — Aspose.Note
 second_title: Aspose.Note Java API
 description: Узнайте, как получить количество страниц в документах OneNote с помощью Aspose.Note для Java. Это пошаговое руководство проведет вас через этот процесс без особых усилий.
-type: docs
 weight: 13
 url: /ru/java/onenote-page-manipulation/get-page-count/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Получить количество страниц в OneNote — Aspose.Note
+
 ## Введение
 
 В этом руководстве мы рассмотрим, как использовать Aspose.Note для Java для эффективного получения количества страниц в документе OneNote. Aspose.Note — это мощный Java API, который позволяет разработчикам программно работать с файлами Microsoft OneNote, выполняя такие задачи, как манипулирование, извлечение и преобразование документов.
@@ -86,3 +92,9 @@ A1: Aspose.Note для Java поддерживает различные верс
 ### Вопрос 5: Существует ли пробная версия Aspose.Note для Java, доступная для тестирования?
 
  О5: Да, вы можете загрузить бесплатную пробную версию с сайта[страница релизов](https://releases.aspose.com/) оценить возможности API.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

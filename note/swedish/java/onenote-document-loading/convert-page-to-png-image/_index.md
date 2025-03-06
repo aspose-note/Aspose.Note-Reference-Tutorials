@@ -3,10 +3,16 @@ title: Konvertera specifik sida till PNG-bild i OneNote - Java
 linktitle: Konvertera specifik sida till PNG-bild i OneNote - Java
 second_title: Aspose.Note Java API
 description: Lär dig att använda Aspose.Note för Java, konvertera en OneNote-sida till PNG. Följ enkla steg, ladda dokument och ställ in alternativ. Förbättra Java-appar med den här funktionen.
-type: docs
 weight: 13
 url: /sv/java/onenote-document-loading/convert-page-to-png-image/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Konvertera specifik sida till PNG-bild i OneNote - Java
+
 ## Introduktion
 
 I den här handledningen kommer du att lära dig hur du använder Aspose.Note för Java för att konvertera en specifik sida från ett OneNote-dokument till en PNG-bild. Vi delar upp processen i lätta att följa steg för att hjälpa dig att sömlöst integrera denna funktion i din Java-applikation.
@@ -93,3 +99,9 @@ S2: Ja, Aspose.Note stöder olika bildformat som JPEG, GIF, BMP och TIFF.
 ### F5: Var kan jag köpa en licens för Aspose.Note för Java?
 
  A5: Du kan köpa en licens från[köpsidan](https://purchase.aspose.com/buy).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

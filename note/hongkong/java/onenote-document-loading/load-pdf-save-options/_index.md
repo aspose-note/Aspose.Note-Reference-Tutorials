@@ -3,10 +3,16 @@ title: 使用 PdfSaveOptions 將 OneNote 文件載入到 Aspose.Note 中
 linktitle: 使用 PdfSaveOptions 將 OneNote 文件載入到 Aspose.Note 中
 second_title: Aspose.Note Java API
 description: 了解如何使用 Aspose.Note for Java 載入 OneNote 文件並將其輕鬆轉換為 PDF 格式。使用 Aspose.Note 簡化您的文件轉換任務。
-type: docs
 weight: 23
 url: /zh-hant/java/onenote-document-loading/load-pdf-save-options/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# 使用 PdfSaveOptions 將 OneNote 文件載入到 Aspose.Note 中
+
 ## 介紹
 
 歡迎閱讀這份關於使用 Aspose.Note for Java 的綜合指南！在本教程中，我們將探索如何利用 Aspose.Note 載入 OneNote 文件並使用 PdfSaveOptions 將其另存為 PDF。 Aspose.Note 是一個功能強大的 Java 程式庫，可讓開發人員無縫地使用 Microsoft OneNote 檔案。在本教學結束時，您將清楚地了解如何將 Aspose.Note 整合到您的 Java 專案中並輕鬆執行文件轉換。
@@ -83,3 +89,9 @@ A3：除了PDF之外，Aspose.Note也支援轉換為多種格式，例如DOCX、
 ### Q5：我可以在哪裡獲得 Aspose.Note 的協助或支援？
 
  A5：對於與 Aspose.Note 相關的任何幫助或疑問，您可以訪問[支援論壇](https://forum.aspose.com/c/note/28).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -3,10 +3,16 @@ title: معالجة جدول OneNote
 linktitle: معالجة جدول OneNote
 second_title: Aspose.Note جافا API
 description: قم بتحسين جداول OneNote الخاصة بك باستخدام Aspose.Note لـ Java. قم بتغيير الأنماط وإنشاء الجداول واستخراج النص بسلاسة. قم بتنزيل المكتبة لإنشاء مستند سلس.
-type: docs
 weight: 32
 url: /ar/java/onenote-table-manipulation/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# معالجة جدول OneNote
+
 
 
 ## مقدمة
@@ -55,3 +61,9 @@ url: /ar/java/onenote-table-manipulation/
 تعرّف على كيفية إدراج الجداول في OneNote باستخدام Aspose.Note لـ Java. دليل خطوة بخطوة لإنشاء المحتوى الديناميكي. تعزيز المستندات الخاصة بك دون عناء.
 ### [ضبط لون خلفية الخلية في OneNote - Aspose.Note](./setting-cell-background-color/)
 قم بتحويل مستندات OneNote بسهولة باستخدام Aspose.Note لـ Java. قم بتخصيص ألوان خلفية الخلية بسهولة. جرب النسخة التجريبية المجانية الآن!
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

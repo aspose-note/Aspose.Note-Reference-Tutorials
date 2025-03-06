@@ -3,10 +3,16 @@ title: Nastavení barvy pozadí buňky ve OneNotu - Aspose.Note
 linktitle: Nastavení barvy pozadí buňky ve OneNotu - Aspose.Note
 second_title: Aspose.Note Java API
 description: Transformujte dokumenty OneNotu snadno pomocí Aspose.Note pro Java. Bez námahy přizpůsobte barvy pozadí buněk. Vyzkoušejte bezplatnou zkušební verzi nyní!
-type: docs
 weight: 17
 url: /cs/java/onenote-table-manipulation/setting-cell-background-color/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Nastavení barvy pozadí buňky ve OneNotu - Aspose.Note
+
 ## Úvod
 Vítejte v našem kurzu o nastavení barvy pozadí buňky ve OneNotu pomocí Aspose.Note pro Java! V tomto podrobném průvodci vás provedeme procesem snadného přizpůsobení barev pozadí buněk v dokumentech OneNotu.
 ## Předpoklady
@@ -66,3 +72,9 @@ Ano, můžete procházet řádky a buňky tabulky a aplikovat barvu pozadí na v
  Navštivte fórum podpory[tady](https://forum.aspose.com/c/note/28) získat pomoc od komunity Aspose.
 ### Kde mohu zakoupit Aspose.Note pro Java?
  Knihovnu si můžete zakoupit[tady](https://purchase.aspose.com/buy).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

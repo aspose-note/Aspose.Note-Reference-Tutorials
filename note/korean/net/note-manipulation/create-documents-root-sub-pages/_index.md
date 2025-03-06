@@ -3,10 +3,16 @@ title: Aspose.Note를 사용하여 루트 및 하위 페이지가 있는 문서 
 linktitle: Aspose.Note를 사용하여 루트 및 하위 페이지가 있는 문서 만들기
 second_title: Aspose.Note .NET API
 description: .NET용 Aspose.Note를 사용하여 계층 구조가 있는 동적 OneNote 문서를 만드는 방법을 알아보세요.
-type: docs
 weight: 11
 url: /ko/net/note-manipulation/create-documents-root-sub-pages/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Aspose.Note를 사용하여 루트 및 하위 페이지가 있는 문서 만들기
+
 ## 소개
 
 .NET용 Aspose.Note를 사용하여 루트 및 하위 페이지가 있는 문서를 만드는 방법에 대한 튜토리얼에 오신 것을 환영합니다! Aspose.Note는 개발자가 프로그래밍 방식으로 Microsoft OneNote 파일을 사용하여 OneNote 문서를 생성, 조작 및 변환할 수 있도록 하는 강력한 라이브러리입니다.
@@ -130,3 +136,9 @@ A4: Aspose.Note는 주로 온프레미스 개발에 중점을 두고 있지만 �
 ### Q5: Aspose.Note에 대한 기술 지원이 가능한가요?
 
 A5: 예, Aspose는 질문을 하고 도움을 받을 수 있는 포럼을 통해 전담 기술 지원을 제공합니다.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

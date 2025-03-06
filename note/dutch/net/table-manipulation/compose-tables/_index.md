@@ -3,10 +3,16 @@ title: Stel tabellen samen met Aspose.Note
 linktitle: Stel tabellen samen met Aspose.Note
 second_title: Aspose.Note .NET API
 description: Leer hoe u gestructureerde tabellen met rich-text-inhoud samenstelt met Aspose.Note voor .NET. Verbeter moeiteloos de organisatie en leesbaarheid van documenten.
-type: docs
 weight: 11
 url: /nl/net/table-manipulation/compose-tables/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Stel tabellen samen met Aspose.Note
+
 ## Invoering
 
 Tabellen zijn fundamentele componenten van documenten en maken een gestructureerde presentatie van informatie mogelijk. Aspose.Note voor .NET biedt robuuste tools om moeiteloos tabellen samen te stellen. In deze zelfstudie begeleiden we u bij het maken van tabellen met RTF-inhoud met behulp van Aspose.Note.
@@ -170,3 +176,9 @@ A4: Ja, u kunt tabellen dynamisch vullen door gegevens op te halen uit databases
 ### V5: Is er technische ondersteuning beschikbaar voor Aspose.Note-gebruikers?
    
 A5: Ja, Aspose biedt uitgebreide technische ondersteuning via hun forums en speciale ondersteuningskanalen.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

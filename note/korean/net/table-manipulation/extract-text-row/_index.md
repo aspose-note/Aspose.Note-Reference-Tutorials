@@ -3,10 +3,16 @@ title: Aspose.Note의 테이블 행에서 텍스트 추출
 linktitle: Aspose.Note의 테이블 행에서 텍스트 추출
 second_title: Aspose.Note .NET API
 description: 이 포괄적인 튜토리얼을 통해 .NET용 Aspose.Note의 테이블 행에서 텍스트를 추출하는 방법을 알아보세요.
-type: docs
 weight: 14
 url: /ko/net/table-manipulation/extract-text-row/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Aspose.Note의 테이블 행에서 텍스트 추출
+
 ## 소개
 
 문서 처리 영역에서 Aspose.Note for .NET은 개발자가 프로그래밍 방식으로 OneNote 파일을 효율적으로 조작할 수 있도록 지원하는 강력한 솔루션입니다. 수많은 기능 중에서 테이블 행에서 텍스트를 추출하는 것은 개발자가 접하는 일반적인 작업입니다. 이 튜토리얼은 .NET용 Aspose.Note를 사용하여 테이블 행에서 텍스트를 추출하는 과정을 안내합니다.
@@ -98,3 +104,9 @@ A2: 물론입니다. .NET용 Aspose.Note는 요구 사항에 따라 추출된 �
 ### Q5: 구매하기 전에 Aspose.Note for .NET을 사용해 볼 수 있나요?
 
  A5: 물론 무료 평가판을 이용할 수 있습니다.[릴리스 페이지](https://releases.aspose.com/) 기능과 기능을 살펴보겠습니다.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -3,10 +3,16 @@ title: Uzyskaj informacje o obrazach w Aspose.Note
 linktitle: Uzyskaj informacje o obrazach w Aspose.Note
 second_title: Aspose.Note .NET API
 description: Dowiedz się, jak wyodrębnić informacje o obrazie z plików Microsoft OneNote za pomocą Aspose.Note dla .NET. Postępuj zgodnie z naszym przewodnikiem krok po kroku, aby uzyskać efektywny rozwój.
-type: docs
 weight: 13
 url: /pl/net/images/get-info-of-images/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Uzyskaj informacje o obrazach w Aspose.Note
+
 ## Wstęp
 
 W świecie programowania .NET Aspose.Note zapewnia potężny zestaw narzędzi do pracy z plikami Microsoft OneNote. Jednym z typowych zadań, przed którymi często stają programiści, jest wyodrębnianie informacji z obrazów osadzonych w tych notatkach. Niezależnie od tego, czy chodzi o uzyskiwanie wymiarów, nazw plików czy czasów modyfikacji, Aspose.Note upraszcza ten proces.
@@ -98,3 +104,9 @@ Odpowiedź 4: Tak, możesz uzyskać dostęp do bezpłatnej wersji próbnej Aspos
 ### P5: Gdzie mogę znaleźć dodatkowe wsparcie lub pomoc dotyczącą Aspose.Note?
 
 O5: W przypadku jakichkolwiek pytań lub pomocy możesz odwiedzić forum Aspose.Note[Tutaj](https://forum.aspose.com/c/note/28).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

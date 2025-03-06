@@ -3,10 +3,16 @@ title: حل التعارضات في مستندات Aspose.Note
 linktitle: حل التعارضات في مستندات Aspose.Note
 second_title: Aspose.Note .NET API
 description: تعرف على كيفية حل التعارضات في مستندات Aspose.Note باستخدام .NET. دليل خطوة بخطوة لحل النزاعات بكفاءة.
-type: docs
 weight: 10
 url: /ar/net/note-manipulation/conflict-page-resolution/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# حل التعارضات في مستندات Aspose.Note
+
 ## مقدمة
 
 يعد حل التعارضات في مستندات Aspose.Note مهمة بالغة الأهمية، خاصة عند التعامل مع المشاريع التعاونية أو المساهمين المتعددين. قد تنشأ هذه التعارضات بسبب التعديلات المتزامنة أو الإصدارات المختلفة أو التناقضات الأخرى داخل المستند. في هذا البرنامج التعليمي، سوف نتعمق في عملية تحديد وحل التعارضات داخل مستندات Aspose.Note باستخدام .NET. باتباع هذه الخطوات، ستكون مجهزًا لإدارة التعارضات بكفاءة وضمان سلامة المستندات.
@@ -100,3 +106,9 @@ doc.Save(dataDir + "ConflictPageManipulation_out.one", SaveFormat.One);
 ### س5: هل يدعم Aspose.Note ميزات التعاون في الوقت الفعلي؟
 
 ج5: يركز Aspose.Note بشكل أساسي على معالجة المستندات ولا يقدم ميزات التعاون في الوقت الحقيقي بشكل جاهز.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

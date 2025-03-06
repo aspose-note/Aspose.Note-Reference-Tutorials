@@ -3,10 +3,16 @@ title: قم بإنشاء المستندات ذات الصفحات الجذرية
 linktitle: قم بإنشاء المستندات ذات الصفحات الجذرية والفرعية باستخدام Aspose.Note
 second_title: Aspose.Note .NET API
 description: تعرف على كيفية استخدام Aspose.Note for .NET لإنشاء مستندات OneNote ديناميكية ذات بنيات هرمية.
-type: docs
 weight: 11
 url: /ar/net/note-manipulation/create-documents-root-sub-pages/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# قم بإنشاء المستندات ذات الصفحات الجذرية والفرعية باستخدام Aspose.Note
+
 ## مقدمة
 
 مرحبًا بك في برنامجنا التعليمي حول إنشاء المستندات ذات الصفحات الجذرية والصفحات الفرعية باستخدام Aspose.Note لـ .NET! Aspose.Note هي مكتبة قوية تمكن المطورين من العمل مع ملفات Microsoft OneNote برمجياً، مما يسمح بإنشاء مستندات OneNote ومعالجتها وتحويلها.
@@ -130,3 +136,9 @@ doc.Save(dataDir);
 ### س5: هل يتوفر الدعم الفني لـ Aspose.Note؟
 
 ج5: نعم، توفر Aspose دعمًا فنيًا مخصصًا من خلال المنتدى الخاص بها حيث يمكنك طرح الأسئلة والحصول على المساعدة.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

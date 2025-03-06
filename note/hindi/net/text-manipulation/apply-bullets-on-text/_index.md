@@ -3,10 +3,16 @@ title: Aspose.Note में टेक्स्ट पर बुलेट्स 
 linktitle: Aspose.Note में टेक्स्ट पर बुलेट्स लागू करें
 second_title: Aspose.Note .NET API
 description: अपने OneNote दस्तावेज़ों को बेहतर बनाने के लिए .NET के लिए Aspose.Note में टेक्स्ट पर बुलेट्स लगाने का तरीका जानें। प्रभावी फ़ॉर्मेटिंग के लिए इस चरण-दर-चरण मार्गदर्शिका का पालन करें।
-type: docs
 weight: 10
 url: /hi/net/text-manipulation/apply-bullets-on-text/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Aspose.Note में टेक्स्ट पर बुलेट्स लागू करें
+
 ## परिचय
 .NET के लिए Aspose.Note का उपयोग करके टेक्स्ट में बुलेट लगाने की इस चरण-दर-चरण मार्गदर्शिका में आपका स्वागत है। Aspose.Note एक शक्तिशाली लाइब्रेरी है जो डेवलपर्स को उनके .NET अनुप्रयोगों में Microsoft OneNote फ़ाइलों के साथ निर्बाध रूप से काम करने की अनुमति देती है। इस ट्यूटोरियल में, हम आपको टेक्स्ट में बुलेट्स लगाने, आपके OneNote दस्तावेज़ों की दृश्य अपील को बढ़ाने की प्रक्रिया के बारे में बताएंगे।
 ## आवश्यक शर्तें
@@ -86,3 +92,9 @@ Aspose.Note Microsoft OneNote के विभिन्न संस्करण
  हाँ, आप निःशुल्क परीक्षण डाउनलोड कर सकते हैं[यहाँ](https://releases.aspose.com/).
 ### मुझे अतिरिक्त सहायता और संसाधन कहां मिल सकते हैं?
  आप Aspose.Note सामुदायिक मंच पर जा सकते हैं[यहाँ](https://forum.aspose.com/c/note/28) समर्थन और चर्चा के लिए.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

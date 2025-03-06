@@ -3,10 +3,16 @@ title: Tạo bảng có cột bị khóa bằng Aspose.Note
 linktitle: Tạo bảng có cột bị khóa bằng Aspose.Note
 second_title: Aspose.Note .NET API
 description: Tìm hiểu cách tạo bảng có cột bị khóa bằng Aspose.Note cho .NET. Hướng dẫn từng bước để thực hiện các tác vụ xử lý tài liệu hiệu quả.
-type: docs
 weight: 12
 url: /vi/net/table-manipulation/create-table-locked-columns/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Tạo bảng có cột bị khóa bằng Aspose.Note
+
 ## Giới thiệu
 
 Tạo bảng có cột bị khóa là yêu cầu thường gặp trong các ứng dụng xử lý tài liệu. Aspose.Note for .NET cung cấp các công cụ mạnh mẽ để hoàn thành nhiệm vụ này một cách hiệu quả. Trong hướng dẫn này, chúng tôi sẽ hướng dẫn bạn từng bước trong quá trình tạo bảng có các cột bị khóa bằng cách sử dụng Aspose.Note cho .NET.
@@ -147,3 +153,9 @@ Câu trả lời 3: Có, Aspose.Note for .NET tích hợp liền mạch với c�
 ### Câu hỏi 5: Tôi có thể dùng thử Aspose.Note cho .NET trước khi mua không?
 
  Câu trả lời 5: Có, bạn có thể tải xuống phiên bản dùng thử miễn phí của Aspose.Note dành cho .NET từ[đây](https://releases.aspose.com/) để đánh giá các tính năng và khả năng tương thích của nó với yêu cầu của bạn.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -3,10 +3,16 @@ title: Vložit obrázky s hypertextovými odkazy do Aspose.Note
 linktitle: Vložit obrázky s hypertextovými odkazy do Aspose.Note
 second_title: Aspose.Note .NET API
 description: Naučte se vkládat obrázky s hypertextovými odkazy do Aspose.Note pro .NET bez námahy. Vylepšete interaktivitu dokumentů pomocí obrázků, na které lze kliknout.
-type: docs
 weight: 15
 url: /cs/net/images/insert-image-hyperlink/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Vložit obrázky s hypertextovými odkazy do Aspose.Note
+
 ## Úvod
 
 Aspose.Note for .NET poskytuje výkonnou sadu funkcí pro práci s obrázky, včetně možnosti vkládat obrázky pomocí hypertextových odkazů. V tomto tutoriálu vás provedeme procesem vkládání obrázků s hypertextovými odkazy pomocí Aspose.Note pro .NET.
@@ -89,3 +95,9 @@ Odpověď 3: Ano, pomocí Aspose.Note pro .NET můžete upravit vzhled hypertext
 ### Q5: Kde mohu získat podporu pro Aspose.Note pro .NET?
 
  A5: Můžete získat podporu pro Aspose.Note pro .NET z[Aspose.Note fóra](https://forum.aspose.com/c/note/28), kde můžete klást otázky, hledat rady a komunikovat s ostatními uživateli a odborníky.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

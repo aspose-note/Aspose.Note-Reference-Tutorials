@@ -3,10 +3,16 @@ title: Convertir des blocs-notes en image avec les options dans Aspose Note .NET
 linktitle: Convertir des blocs-notes en image avec les options dans Aspose Note .NET
 second_title: API Aspose.Note .NET
 description: Découvrez comment convertir des blocs-notes en images avec des options personnalisables à l'aide d'Aspose.Note pour .NET.
-type: docs
 weight: 13
 url: /fr/net/notebook-operations/convert-to-image-options/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Convertir des blocs-notes en image avec les options dans Aspose Note .NET
+
 ## Introduction
 
 Dans ce didacticiel, nous aborderons la conversion de blocs-notes en images avec diverses options à l'aide de la bibliothèque Aspose.Note pour .NET. Aspose.Note est une puissante API .NET qui permet aux développeurs de travailler avec les fichiers Microsoft OneNote par programme. En suivant les étapes décrites dans ce guide, vous apprendrez à convertir sans effort des blocs-notes en images tout en personnalisant la sortie en fonction de vos besoins.
@@ -95,3 +101,9 @@ A4 : Oui, Aspose.Note pour .NET propose diverses options pour personnaliser la s
 ### Q5 : Aspose.Note pour .NET prend-il en charge d'autres formats d'image que PNG ?
 
 A5 : Oui, Aspose.Note pour .NET prend en charge plusieurs formats d'image, notamment JPEG, BMP, GIF et TIFF.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

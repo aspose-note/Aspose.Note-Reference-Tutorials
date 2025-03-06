@@ -3,10 +3,16 @@ title: OneNote에서 비밀번호로 보호된 문서 로드 - Aspose.Note
 linktitle: OneNote에서 비밀번호로 보호된 문서 로드 - Aspose.Note
 second_title: Aspose.Note 자바 API
 description: Java용 Aspose.Note를 사용하여 OneNote에서 암호로 보호된 문서를 로드하는 방법을 알아보세요. 원활한 통합을 위한 단계별 가이드를 따르세요.
-type: docs
 weight: 22
 url: /ko/java/onenote-notebook-operations/load-password-protected-documents/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# OneNote에서 비밀번호로 보호된 문서 로드 - Aspose.Note
+
 ## 소개
 
 이 자습서에서는 Java용 Aspose.Note를 사용하여 OneNote에서 암호로 보호된 문서를 로드하는 과정을 안내합니다. Aspose.Note는 개발자가 프로그래밍 방식으로 Microsoft OneNote 파일을 사용하여 문서 로드, 편집, 저장과 같은 다양한 작업을 수행할 수 있도록 하는 강력한 Java 라이브러리입니다.
@@ -79,3 +85,9 @@ A: 예, Aspose.Note는 비밀번호로 보호되거나 암호화된 문서의 �
 ### Q5: Aspose.Note에 사용할 수 있는 평가판이 있습니까?
 
 A: 예, Aspose.Note의 무료 평가판을 다운로드할 수 있습니다.[여기](https://releases.aspose.com/) 구매하기 전에 기능을 살펴보세요.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

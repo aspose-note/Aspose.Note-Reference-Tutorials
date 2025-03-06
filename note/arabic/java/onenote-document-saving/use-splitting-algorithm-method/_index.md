@@ -3,10 +3,16 @@ title: استخدام أسلوب خوارزمية التقسيم في OneNote - 
 linktitle: استخدام أسلوب خوارزمية التقسيم في OneNote - Aspose.Note
 second_title: Aspose.Note جافا API
 description: إتقان تقسيم مستندات OneNote في Java باستخدام Aspose.Note! اختر الخوارزميات وتحكم في فواصل الصفحات واحفظها بصيغة PDF بسهولة. تم تضمين الكود! #OneNote #Java #Aspose
-type: docs
 weight: 26
 url: /ar/java/onenote-document-saving/use-splitting-algorithm-method/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# استخدام أسلوب خوارزمية التقسيم في OneNote - Aspose.Note
+
 ## مقدمة
 
 في هذا البرنامج التعليمي، سوف نتعمق في استخدام طريقة خوارزمية التقسيم في Aspose.Note لـ Java. Aspose.Note هي مكتبة قوية تتيح للمطورين العمل مع ملفات Microsoft OneNote برمجياً. يمكن أن يكون استخدام خوارزمية التقسيم مفيدًا بشكل خاص عندما تحتاج إلى معالجة مستندات OneNote وتصديرها، خاصة عند التعامل مع التخطيطات المعقدة أو الملفات الكبيرة.
@@ -101,3 +107,9 @@ try {
 ### س5: كيف يمكنني الحصول على ترخيص مؤقت لـ Aspose.Note؟
 
  ج5: يمكنك طلب أ[ترخيص مؤقت](https://purchase.aspose.com/temporary-license/) لتقييم المنتج خلال فترة تجريبية.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

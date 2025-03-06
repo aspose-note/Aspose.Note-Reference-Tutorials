@@ -3,10 +3,16 @@ title: OneNote-Dokument im Stream speichern – Aspose.Note
 linktitle: OneNote-Dokument im Stream speichern – Aspose.Note
 second_title: Aspose.Note Java API
 description: Erfahren Sie, wie Sie OneNote-Dokumente mit Aspose.Note für Java in einem Stream speichern. Folgen Sie unserem Schritt-für-Schritt-Tutorial für eine effiziente Integration in Ihre Java-Anwendungen.
-type: docs
 weight: 13
 url: /de/java/onenote-document-saving/save-onenote-document-to-stream/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# OneNote-Dokument im Stream speichern – Aspose.Note
+
 ## Einführung
 
 Willkommen zu unserem Tutorial zur Verwendung von Aspose.Note für Java zum Speichern von OneNote-Dokumenten in einem Stream. Aspose.Note ist eine leistungsstarke Java-Bibliothek, die es Entwicklern ermöglicht, programmgesteuert mit Microsoft OneNote-Dateien zu arbeiten. In diesem Tutorial führen wir Sie durch den Prozess des Speicherns eines OneNote-Dokuments in einem Stream mithilfe von Aspose.Note.
@@ -73,3 +79,9 @@ A1: Ja, Aspose.Note unterstützt das Speichern von Dokumenten in verschiedenen F
 ### F5: Benötige ich zu Evaluierungszwecken eine temporäre Lizenz?
 
  A5: Ja, Sie können eine temporäre Lizenz erhalten von[Hier](https://purchase.aspose.com/temporary-license/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

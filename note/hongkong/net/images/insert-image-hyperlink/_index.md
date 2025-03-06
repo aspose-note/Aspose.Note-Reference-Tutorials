@@ -3,10 +3,16 @@ title: 在 Aspose.Note 中插入帶有超連結的圖像
 linktitle: 在 Aspose.Note 中插入帶有超連結的圖像
 second_title: Aspose.Note .NET API
 description: 了解如何在 Aspose.Note for .NET 中輕鬆插入帶有超連結的圖像。透過可點擊的影像增強文件互動性。
-type: docs
 weight: 15
 url: /zh-hant/net/images/insert-image-hyperlink/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# 在 Aspose.Note 中插入帶有超連結的圖像
+
 ## 介紹
 
 Aspose.Note for .NET 提供了一組強大的映像處理功能，包括插入具有超連結的圖像的功能。在本教程中，我們將引導您完成使用 Aspose.Note for .NET 插入帶有超連結的圖像的過程。
@@ -89,3 +95,9 @@ A3：是的，您可以使用 Aspose.Note for .NET 自訂超連結的外觀，�
 ### 問題 5：在哪裡可以獲得 Aspose.Note for .NET 的支援？
 
  A5：您可以從 Aspose.Note for .NET 獲得支持[Aspose.Note 論壇](https://forum.aspose.com/c/note/28)，您可以在其中提出問題、尋求指導並與其他使用者和專家互動。
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

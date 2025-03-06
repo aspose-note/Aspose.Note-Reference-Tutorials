@@ -3,10 +3,16 @@ title: إضافة ارتباط تشعبي في OneNote باستخدام Java
 linktitle: إضافة ارتباط تشعبي في OneNote باستخدام Java
 second_title: Aspose.Note جافا API
 description: تعرف على كيفية إضافة الارتباطات التشعبية في OneNote باستخدام Java مع مكتبة Aspose.Note. عزز ملاحظاتك بروابط تفاعلية دون عناء.
-type: docs
 weight: 10
 url: /ar/java/onenote-hyperlinks-images/add-hyperlink/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# إضافة ارتباط تشعبي في OneNote باستخدام Java
+
 ## مقدمة
 
 يمكن أن تؤدي إضافة الارتباطات التشعبية إلى مستندات OneNote باستخدام Java إلى تحسين تفاعل ملاحظاتك وفائدتها بشكل كبير. في هذا البرنامج التعليمي، سنرشدك خلال العملية خطوة بخطوة، باستخدام Aspose.Note لمكتبة Java. دعونا الغوص في!
@@ -136,3 +142,9 @@ System.out.printf("File saved: %s\n", dataDir + "AddHyperlink_out.pdf");
 ### س5: أين يمكنني العثور على مزيد من المساعدة والموارد لاستخدام Aspose.Note؟
 
  ج5: يمكنك العثور على وثائق شاملة وبرامج تعليمية ودعم مجتمعي على موقع[منتدى Aspose.Note](https://forum.aspose.com/c/note/28).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

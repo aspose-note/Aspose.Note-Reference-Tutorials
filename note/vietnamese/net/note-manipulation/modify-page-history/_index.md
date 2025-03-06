@@ -3,10 +3,16 @@ title: Sửa đổi lịch sử trang trong Aspose.Note
 linktitle: Sửa đổi lịch sử trang trong Aspose.Note
 second_title: Aspose.Note .NET API
 description: Tìm hiểu cách sửa đổi lịch sử trang trong Aspose.Note dành cho .NET bằng hướng dẫn toàn diện này. Nâng cao khả năng xử lý tài liệu của bạn một cách dễ dàng.
-type: docs
 weight: 15
 url: /vi/net/note-manipulation/modify-page-history/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Sửa đổi lịch sử trang trong Aspose.Note
+
 ## Giới thiệu
 
 Trong lĩnh vực xử lý tài liệu, Aspose.Note for .NET nổi lên như một công cụ mạnh mẽ, trao quyền cho các nhà phát triển thao tác với các tệp OneNote một cách dễ dàng. Một nhiệm vụ phổ biến mà các nhà phát triển gặp phải là sửa đổi lịch sử trang trong tài liệu Aspose.Note. Hướng dẫn này giải thích từng bước quy trình, hướng dẫn bạn qua các không gian tên, điều kiện tiên quyết và đoạn mã cần thiết để thay đổi lịch sử trang một cách hiệu quả bằng cách sử dụng Aspose.Note for .NET.
@@ -94,3 +100,10 @@ Câu trả lời 4: Có, nhà phát triển có thể tìm kiếm sự trợ gi�
 ### Câu hỏi 5: Tôi có thể dùng thử Aspose.Note cho .NET trước khi mua hàng không?
 
 Câu trả lời 5: Hoàn toàn có thể, các nhà phát triển có thể tận dụng phiên bản dùng thử miễn phí của Aspose.Note dành cho .NET để đánh giá các tính năng và tính phù hợp của nó cho các dự án của họ.
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

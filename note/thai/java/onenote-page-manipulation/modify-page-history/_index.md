@@ -3,10 +3,16 @@ title: แก้ไขประวัติหน้าใน OneNote - Aspose.N
 linktitle: แก้ไขประวัติหน้าใน OneNote - Aspose.Note
 second_title: Aspose.Note Java API
 description: ลบ แก้ไข และเพิ่มรายการประวัติหน้าได้อย่างลงตัว! คำแนะนำและโค้ดทีละขั้นตอนสำหรับการเรียนรู้ OneNote ด้วย Aspose.Note #OneNote #Java #Aspose
-type: docs
 weight: 17
 url: /th/java/onenote-page-manipulation/modify-page-history/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# แก้ไขประวัติหน้าใน OneNote - Aspose.Note
+
 ## การแนะนำ
 
 ในบทช่วยสอนนี้ เราจะเจาะลึกการใช้ Aspose.Note สำหรับ Java เพื่อแก้ไขประวัติหน้าในเอกสาร OneNote Aspose.Note เป็น Java API อันทรงพลังที่ช่วยให้นักพัฒนาทำงานกับไฟล์ OneNote ได้อย่างราบรื่น ช่วยให้ดำเนินการต่างๆ ได้ เช่น การสร้าง การอ่าน และการแก้ไขไฟล์เหล่านี้โดยทางโปรแกรม
@@ -108,3 +114,10 @@ document.save(dataDir + "ModifyPageHistory_out.one");
 ### คำถามที่ 5: มีฟอรัมชุมชนสำหรับ Aspose.Note สำหรับ Java ที่ฉันสามารถขอความช่วยเหลือได้หรือไม่
 
  A5: ใช่ คุณสามารถเยี่ยมชมได้[ฟอรั่ม Aspose.Note](https://forum.aspose.com/c/note/28) สำหรับความช่วยเหลือหรือข้อสงสัยใด ๆ ที่เกี่ยวข้องกับห้องสมุด
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

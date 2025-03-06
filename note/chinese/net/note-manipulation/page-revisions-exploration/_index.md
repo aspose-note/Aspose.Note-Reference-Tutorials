@@ -3,10 +3,16 @@ title: 探索 Aspose.Note 文档中的页面修订
 linktitle: 探索 Aspose.Note 文档中的页面修订
 second_title: Aspose.Note .NET API
 description: 了解如何使用 .NET 框架在分步指导下探索 Aspose.Note 文档中的页面修订。
-type: docs
 weight: 14
 url: /zh/net/note-manipulation/page-revisions-exploration/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# 探索 Aspose.Note 文档中的页面修订
+
 ## 介绍
 
 在本教程中，我们将深入探索使用 .NET 框架的 Aspose.Note 文档中的页面修订。 Aspose.Note 是一个功能强大的库，使开发人员能够以编程方式处理 Microsoft OneNote 文件，并提供各种功能来操作这些文件并从中提取数据。
@@ -88,3 +94,9 @@ A3：是的，您可以从以下位置下载 Aspose.Note for .NET 的免费试�
 ### Q5：在哪里可以找到 Aspose.Note for .NET 支持？
 
  A5：您可以在以下位置找到支持和资源：[Aspose.Note 论坛](https://forum.aspose.com/c/note/28).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

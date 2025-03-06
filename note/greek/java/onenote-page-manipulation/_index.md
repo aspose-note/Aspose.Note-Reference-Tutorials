@@ -3,10 +3,16 @@ title: Χειρισμός σελίδας OneNote
 linktitle: Χειρισμός σελίδας OneNote
 second_title: Aspose.Note Java API
 description: Διαχειριστείτε σελίδες διένεξης, δημιουργήστε οργανωμένα έγγραφα και παρακολουθήστε τις αναθεωρήσεις στο OneNote χρησιμοποιώντας το Aspose.Note για Java. Οδηγίες βήμα προς βήμα για αποτελεσματική διαχείριση εγγράφων.
-type: docs
 weight: 29
 url: /el/java/onenote-page-manipulation/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Χειρισμός σελίδας OneNote
+
 
 ## Εισαγωγή
 
@@ -74,3 +80,9 @@ url: /el/java/onenote-page-manipulation/
 Μάθετε πώς να ορίζετε το χρώμα φόντου της σελίδας στο OneNote χωρίς κόπο χρησιμοποιώντας το Aspose.Note για Java. Βελτιώστε την οπτική ελκυστικότητα των εγγράφων σας με αυτό το απλό σεμινάριο.
 ### [Εργασία με αναθεωρήσεις σελίδων στο OneNote - Aspose.Note](./working-with-page-revisions/)
 Μάθετε πώς να διαχειρίζεστε τις αναθεωρήσεις σελίδων σε έγγραφα του OneNote χρησιμοποιώντας το Aspose.Note για Java. Αυτό το σεμινάριο παρέχει έναν οδηγό βήμα προς βήμα για αποτελεσματική παρακολούθηση αναθεωρήσεων και συνεργασία.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

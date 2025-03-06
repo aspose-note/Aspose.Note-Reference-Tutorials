@@ -3,10 +3,16 @@ title: Ustawianie koloru tła komórki w OneNote - Aspose.Note
 linktitle: Ustawianie koloru tła komórki w OneNote - Aspose.Note
 second_title: Aspose.Note API Java
 description: Z łatwością przekształcaj dokumenty OneNote za pomocą Aspose.Note dla Java. Bez wysiłku dostosowuj kolory tła komórek. Wypróbuj bezpłatną wersję próbną już teraz!
-type: docs
 weight: 17
 url: /pl/java/onenote-table-manipulation/setting-cell-background-color/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Ustawianie koloru tła komórki w OneNote - Aspose.Note
+
 ## Wstęp
 Witamy w naszym samouczku dotyczącym ustawiania koloru tła komórki w programie OneNote przy użyciu programu Aspose.Note dla języka Java! W tym przewodniku krok po kroku przeprowadzimy Cię przez proces dostosowywania kolorów tła komórek w dokumentach programu OneNote.
 ## Warunki wstępne
@@ -66,3 +72,9 @@ Tak, możesz przeglądać wiersze i komórki tabeli w pętli, aby zastosować ko
  Odwiedź forum pomocy[Tutaj](https://forum.aspose.com/c/note/28) aby uzyskać pomoc od społeczności Aspose.
 ### Gdzie mogę kupić Aspose.Note dla Java?
  Bibliotekę można kupić[Tutaj](https://purchase.aspose.com/buy).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

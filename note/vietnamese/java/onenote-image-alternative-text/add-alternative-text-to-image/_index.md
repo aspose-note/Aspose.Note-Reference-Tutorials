@@ -3,10 +3,16 @@ title: Thêm văn bản thay thế vào hình ảnh trong OneNote bằng Java
 linktitle: Thêm văn bản thay thế vào hình ảnh trong OneNote bằng Java
 second_title: API Java Aspose.Note
 description: Tìm hiểu cách thêm văn bản thay thế vào hình ảnh trong tài liệu OneNote bằng Java với Aspose.Note, nâng cao khả năng truy cập và tính toàn diện.
-type: docs
 weight: 10
 url: /vi/java/onenote-image-alternative-text/add-alternative-text-to-image/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Thêm văn bản thay thế vào hình ảnh trong OneNote bằng Java
+
 ## Giới thiệu
 
 Trong hướng dẫn này, chúng ta sẽ đi sâu vào hướng dẫn toàn diện về cách sử dụng Aspose.Note cho Java để thêm văn bản thay thế vào hình ảnh trong tài liệu OneNote. Văn bản thay thế đóng vai trò là mô tả văn bản của hình ảnh, hỗ trợ khả năng tiếp cận và hiểu biết cho những cá nhân không thể xem hình ảnh trực tiếp, chẳng hạn như những người sử dụng trình đọc màn hình. Bằng cách làm theo hướng dẫn này, bạn sẽ học cách tích hợp liền mạch văn bản thay thế vào tài liệu OneNote của mình bằng ngôn ngữ lập trình Java.
@@ -131,3 +137,9 @@ Câu trả lời 4: Có, Aspose.Note có sẵn cho nhiều ngôn ngữ lập tr�
 ### Câu hỏi 5: Có phiên bản dùng thử cho Aspose.Note không?
 
  Câu trả lời 5: Có, bạn có thể sử dụng phiên bản dùng thử miễn phí của Aspose.Note từ[đây](https://releases.aspose.com/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

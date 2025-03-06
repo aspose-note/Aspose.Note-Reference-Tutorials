@@ -3,10 +3,16 @@ title: حفظ إلى صورة بتدرج الرمادي في OneNote - Aspose.No
 linktitle: حفظ إلى صورة بتدرج الرمادي في OneNote - Aspose.Note
 second_title: Aspose.Note جافا API
 description: تعرف على كيفية حفظ مستند كصورة بتدرج رمادي في OneNote باستخدام Aspose.Note لـ Java. يمكنك التعامل بسهولة مع مستندات Microsoft OneNote برمجياً.
-type: docs
 weight: 17
 url: /ar/java/onenote-document-saving/save-to-grayscale-image/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# حفظ إلى صورة بتدرج الرمادي في OneNote - Aspose.Note
+
 ## مقدمة
 
 في هذا البرنامج التعليمي، سنستكشف كيفية حفظ مستند كصورة بتدرج رمادي في OneNote باستخدام Aspose.Note لـ Java. الصور ذات التدرج الرمادي هي صور أحادية اللون حيث يتم تمثيل معلومات الألوان بظلال اللون الرمادي فقط. Aspose.Note عبارة عن واجهة برمجة تطبيقات Java قوية تسمح بمعالجة مستندات Microsoft OneNote برمجيًا.
@@ -83,3 +89,9 @@ oneFile.save(dataDir, options);
 ### س5: أين يمكنني العثور على الدعم إذا واجهت مشكلات؟
 
 ج5: يمكنك العثور على الدعم في منتدى Aspose.Note[هنا](https://forum.aspose.com/c/note/28).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

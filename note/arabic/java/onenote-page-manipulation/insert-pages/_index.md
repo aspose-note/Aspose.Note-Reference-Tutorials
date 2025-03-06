@@ -3,10 +3,16 @@ title: إدراج صفحات في OneNote - Aspose.Note
 linktitle: إدراج صفحات في OneNote - Aspose.Note
 second_title: Aspose.Note جافا API
 description: تعرف على كيفية إدراج صفحات في مستندات OneNote برمجياً باستخدام Aspose.Note لـ Java. برنامج تعليمي شامل مع تعليمات خطوة بخطوة.
-type: docs
 weight: 16
 url: /ar/java/onenote-page-manipulation/insert-pages/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# إدراج صفحات في OneNote - Aspose.Note
+
 ## مقدمة
 
 في هذا البرنامج التعليمي، سوف نتعلم كيفية إدراج صفحات في مستند OneNote باستخدام Aspose.Note لـ Java.
@@ -132,3 +138,9 @@ System.out.println("Files Saved Successfully!");
 ### س5: هل يمكنني تخصيص مظهر الصفحات المدرجة في OneNote؟
 
 ج5: بالتأكيد، يوفر Aspose.Note خيارات شاملة لتخصيص تخطيطات الصفحة والأنماط والمحتوى لتلبية متطلباتك المحددة.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

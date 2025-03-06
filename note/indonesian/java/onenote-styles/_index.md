@@ -3,10 +3,16 @@ title: Gaya OneNote
 linktitle: Gaya OneNote
 second_title: Aspose.Catatan Java API
 description: Temukan seni memodifikasi gaya teks OneNote menggunakan Aspose.Note untuk Java. Pelajari cara mengubah warna font, ukuran, dan penyorotan dalam tutorial langkah demi langkah kami.
-type: docs
 weight: 31
 url: /id/java/onenote-styles/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Gaya OneNote
+
 
 ## Perkenalan
 
@@ -36,3 +42,9 @@ Selami dunia gaya OneNote, berbekal pengetahuan dan keahlian yang diberikan oleh
 Pelajari cara mengubah gaya teks di OneNote dengan Aspose.Note untuk Java. Ubah warna, ukuran, dan sorotan font dengan mudah.
 ### [Tetapkan Gaya Paragraf Default di OneNote - Aspose.Note](./set-default-paragraph-style/)
 Pelajari cara mengatur gaya paragraf default di OneNote menggunakan Aspose.Note untuk Java. Ikuti panduan langkah demi langkah kami untuk pemformatan teks yang efisien di aplikasi Java Anda.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

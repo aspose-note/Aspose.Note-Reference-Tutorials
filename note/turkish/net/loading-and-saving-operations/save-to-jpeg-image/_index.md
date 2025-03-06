@@ -3,10 +3,16 @@ title: Aspose.Note'ta JPEG Görüntüsüne Kaydet
 linktitle: Aspose.Note'ta JPEG Görüntüsüne Kaydet
 second_title: Aspose.Note .NET API'si
 description: Aspose.Note for .NET'i kullanarak OneNote belgelerini JPEG görüntülerine zahmetsizce nasıl kaydedeceğinizi öğrenin. Adım adım kılavuz dahildir.
-type: docs
 weight: 25
 url: /tr/net/loading-and-saving-operations/save-to-jpeg-image/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Aspose.Note'ta JPEG Görüntüsüne Kaydet
+
 ## giriiş
 
 Bu eğitimde, bir belgeyi JPEG formatında kaydetmek için Aspose.Note for .NET'in kullanımını inceleyeceğiz. Aspose.Note, geliştiricilerin Microsoft OneNote dosyalarıyla programlı olarak çalışmasını sağlayan güçlü bir kitaplıktır. Süreç boyunca size adım adım rehberlik edeceğiz ve her hususu iyice anlamanızı sağlayacağız.
@@ -83,3 +89,9 @@ Cevap3: Evet, Aspose.Note, belgelerin JPEG, PNG, TIFF ve daha fazlası dahil olm
 ### S5: Herhangi bir sorunla karşılaşırsam nasıl yardım alabilirim?
 
  Cevap5: Aspose topluluk forumundan yardım isteyebilirsiniz[Burada](https://forum.aspose.com/c/note/28)veya kişiselleştirilmiş yardım için destek ekibine ulaşın.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

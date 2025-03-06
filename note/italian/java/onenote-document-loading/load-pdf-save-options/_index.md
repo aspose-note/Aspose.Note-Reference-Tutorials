@@ -3,10 +3,16 @@ title: Carica il documento OneNote in Aspose.Note utilizzando PdfSaveOptions
 linktitle: Carica il documento OneNote in Aspose.Note utilizzando PdfSaveOptions
 second_title: Aspose.Note API Java
 description: Scopri come utilizzare Aspose.Note per Java per caricare documenti OneNote e convertirli in formato PDF senza sforzo. Semplifica le attività di conversione dei documenti con Aspose.Note.
-type: docs
 weight: 23
 url: /it/java/onenote-document-loading/load-pdf-save-options/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Carica il documento OneNote in Aspose.Note utilizzando PdfSaveOptions
+
 ## introduzione
 
 Benvenuti in questa guida completa sull'utilizzo di Aspose.Note per Java! In questo tutorial esploreremo come utilizzare Aspose.Note per caricare documenti OneNote e salvarli come PDF utilizzando PdfSaveOptions. Aspose.Note è una potente libreria Java che consente agli sviluppatori di lavorare senza problemi con i file Microsoft OneNote. Alla fine di questo tutorial, avrai una chiara comprensione di come integrare Aspose.Note nei tuoi progetti Java ed eseguire conversioni di documenti senza sforzo.
@@ -83,3 +89,9 @@ A3: Oltre al PDF, Aspose.Note supporta la conversione in vari formati come DOCX,
 ### Q5: Dove posso ottenere aiuto o supporto per Aspose.Note?
 
  A5: Per qualsiasi assistenza o domanda relativa ad Aspose.Note, è possibile visitare il[Forum di assistenza](https://forum.aspose.com/c/note/28).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

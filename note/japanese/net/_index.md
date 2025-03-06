@@ -1,12 +1,17 @@
 ---
 title: Aspose.Note for .NET の包括的なチュートリアルと例
 linktitle: Aspose.Note for .NET チュートリアル
-type: docs
 weight: 10
 url: /ja/net/
 description: 包括的なチュートリアルで Aspose.Note for .NET をマスターしましょう!添付ファイル、ハイパーリンク、画像などを詳しく調べます。 OneNote ドキュメントの操作を向上させます。
-is_root: true
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Aspose.Note for .NET の包括的なチュートリアルと例
+
 ## 導入
 
 OneNote のドキュメント操作ゲームをさらにレベルアップする準備はできていますか? Aspose.Note for .NET は可能性の世界への扉を開き、包括的なチュートリアルと例を提供します。複雑なライセンスから高度なテキスト操作まで、強化されたドキュメント開発の旅に乗り出しましょう。
@@ -97,3 +102,9 @@ Aspose.Note for .NET を使用して、視覚的に魅力的なドキュメン�
 タグ管理を備えた Aspose.Note をマスターします。画像、表、テキスト ノードを追加し、会議メモを生成します。タグの詳細を取得し、ドキュメントの操作を強化します。
 ### [テキストの操作](./text-manipulation/)
 Aspose.Note for .NET を使用して OneNote ドキュメントを変換します。箇条書きや番号付けの適用からスタイルの変更まで、テキスト操作テクニックを学びます。
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

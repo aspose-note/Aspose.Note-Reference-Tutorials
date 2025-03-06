@@ -3,10 +3,16 @@ title: Документ, защищенный паролем в Aspose.Note
 linktitle: Документ, защищенный паролем в Aspose.Note
 second_title: Aspose.Note .NET API
 description: Узнайте, как обрабатывать документы, защищенные паролем, с помощью Aspose.Note для .NET. Защитите свою конфиденциальную информацию с легкостью.
-type: docs
 weight: 18
 url: /ru/net/loading-and-saving-operations/password-protected-document/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Документ, защищенный паролем в Aspose.Note
+
 ## Введение
 
 В этом руководстве мы рассмотрим процесс обработки документов, защищенных паролем, с помощью Aspose.Note для .NET. Защита паролем добавляет дополнительный уровень безопасности к вашим документам, гарантируя, что только авторизованные пользователи смогут получить к ним доступ.
@@ -82,3 +88,9 @@ Console.WriteLine("\nPassword protected document loaded successfully.");
 ### Вопрос 5: Могу ли я автоматизировать процесс обработки документов, защищенных паролем?
 
 О5: Да, вы можете автоматизировать процесс с помощью сценариев или запланированных задач для эффективной обработки документов, защищенных паролем.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -3,10 +3,16 @@ title: Java を使用して OneNote の画像にハイパーリンクを追加�
 linktitle: Java を使用して OneNote の画像にハイパーリンクを追加する
 second_title: Aspose.Note Java API
 description: OneNote ドキュメントをインタラクティブにしましょう! Aspose.Note を使用して Java で画像にハイパーリンクを追加する方法を学びます。簡単な手順とコード例が含まれています。 #OneNote #Java #Aspose
-type: docs
 weight: 11
 url: /ja/java/onenote-hyperlinks-images/add-hyperlink-to-image/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Java を使用して OneNote の画像にハイパーリンクを追加する
+
 ## 導入
 
 このチュートリアルでは、Java を使用して OneNote の画像にハイパーリンクを追加する方法を説明します。画像にハイパーリンクを設定すると、ドキュメントの対話性と有用性が大幅に向上し、ユーザーはクリックするだけで関連コンテンツや外部リソースに簡単にアクセスできるようになります。
@@ -97,3 +103,9 @@ A4: ハイパーリンクの長さには特に制限はありませんが、読�
 ### Q5: Aspose.Note for Java は OneNote 以外のドキュメント形式をサポートしていますか?
 
 A5: はい、Aspose.Note for Java は、PDF、HTML、画像形式などのさまざまなドキュメント形式をサポートしています。
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -3,10 +3,16 @@ title: जावा का उपयोग करके OneNote में छव
 linktitle: जावा का उपयोग करके OneNote में छवि में हाइपरलिंक जोड़ें
 second_title: Aspose.नोट जावा एपीआई
 description: OneNote दस्तावेज़ों को इंटरैक्टिव बनाएं! Aspose.Note के साथ जावा में छवियों में हाइपरलिंक जोड़ने का तरीका जानें। आसान चरण और कोड उदाहरण शामिल! #वननोट #जावा #एस्पोज़
-type: docs
 weight: 11
 url: /hi/java/onenote-hyperlinks-images/add-hyperlink-to-image/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# जावा का उपयोग करके OneNote में छवि में हाइपरलिंक जोड़ें
+
 ## परिचय
 
 इस ट्यूटोरियल में, हम देखेंगे कि जावा का उपयोग करके OneNote में छवियों में हाइपरलिंक कैसे जोड़ें। हाइपरलिंकिंग छवियां आपके दस्तावेज़ों की अन्तरक्रियाशीलता और उपयोगिता को काफी हद तक बढ़ा सकती हैं, जिससे उपयोगकर्ता एक साधारण क्लिक के साथ संबंधित सामग्री या बाहरी संसाधनों तक आसानी से पहुंच सकते हैं।
@@ -97,3 +103,9 @@ A4: हालांकि हाइपरलिंक की लंबाई प
 ### Q5: क्या Java के लिए Aspose.Note OneNote के अलावा अन्य दस्तावेज़ प्रारूपों का समर्थन करता है?
 
 A5: हां, Java के लिए Aspose.Note पीडीएफ, HTML और छवि प्रारूपों सहित विभिन्न दस्तावेज़ प्रारूपों का समर्थन करता है।
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

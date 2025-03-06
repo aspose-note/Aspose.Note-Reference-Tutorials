@@ -3,10 +3,16 @@ title: Kiểm tra xem tài liệu OneNote có được mã hóa hay không - Jav
 linktitle: Kiểm tra xem tài liệu OneNote có được mã hóa hay không - Java
 second_title: API Java Aspose.Note
 description: Tìm hiểu cách kiểm tra xem tài liệu OneNote có được mã hóa bằng Java hay không bằng Aspose.Note. Hãy làm theo hướng dẫn từng bước của chúng tôi để xử lý tài liệu hiệu quả.
-type: docs
 weight: 10
 url: /vi/java/onenote-document-loading/check-document-encrypted/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Kiểm tra xem tài liệu OneNote có được mã hóa hay không - Java
+
 ## Giới thiệu
 
 Khi làm việc với tài liệu OneNote bằng Java, điều quan trọng là phải đảm bảo rằng tài liệu không bị mã hóa trước khi xử lý. Mã hóa tài liệu có thể bổ sung thêm một lớp bảo mật nhưng cũng có thể làm phức tạp các bước xử lý nếu không được xử lý đúng cách. Trong hướng dẫn này, chúng tôi sẽ hướng dẫn bạn quy trình kiểm tra xem tài liệu OneNote có được mã hóa bằng Aspose.Note for Java hay không.
@@ -116,3 +122,9 @@ Trả lời 4: Không, Aspose.Note được thiết kế đặc biệt để ch�
 ### Câu hỏi 5: Tôi có thể tìm thêm tài nguyên và hỗ trợ cho Aspose.Note dành cho Java ở đâu?
 
  A5: Bạn có thể ghé thăm[Diễn đàn Aspose.Note](https://forum.aspose.com/c/note/28) để được cộng đồng hỗ trợ và cung cấp tài liệu.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -1,12 +1,17 @@
 ---
 title: Tutorial completi ed esempi di Aspose.Note per .NET
 linktitle: Aspose.Note per tutorial .NET
-type: docs
 weight: 10
 url: /it/net/
 description: Padroneggia Aspose.Note per .NET con tutorial completi! Esplora allegati, collegamenti ipertestuali, immagini e altro ancora. Migliora la manipolazione dei documenti OneNote.
-is_root: true
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Tutorial completi ed esempi di Aspose.Note per .NET
+
 ## introduzione
 
 Sei pronto a migliorare il tuo gioco di manipolazione dei documenti OneNote? Aspose.Note per .NET apre le porte a un mondo di possibilità e ti offriamo tutorial ed esempi completi. Dalle complessità delle licenze alla manipolazione avanzata del testo, intraprendi un viaggio verso lo sviluppo avanzato dei documenti.
@@ -97,3 +102,9 @@ Crea documenti visivamente accattivanti con Aspose.Note per .NET! Esplora i tuto
 Master Aspose.Note con gestione dei tag. Aggiungi immagini, tabelle, nodi di testo e genera note sulla riunione. Recupera i dettagli dei tag e migliora la manipolazione dei documenti.
 ### [Manipolazione del testo](./text-manipulation/)
 Trasforma i tuoi documenti OneNote con Aspose.Note per .NET! Impara le tecniche di manipolazione del testo, dall'applicazione di punti elenco e numerazione alla modifica degli stili.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

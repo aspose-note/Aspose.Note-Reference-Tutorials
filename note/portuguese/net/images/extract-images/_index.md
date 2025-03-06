@@ -3,10 +3,16 @@ title: Extraia imagens de documentos Aspose.Note
 linktitle: Extraia imagens de documentos Aspose.Note
 second_title: API Aspose.Note .NET
 description: Aprenda como extrair facilmente imagens de documentos Aspose.Note usando Aspose.Note for .NET. Aprimore seus recursos de manipulação de documentos com este tutorial abrangente.
-type: docs
 weight: 12
 url: /pt/net/images/extract-images/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Extraia imagens de documentos Aspose.Note
+
 ## Introdução
 
 Você deseja extrair imagens de seus documentos Aspose.Note com eficiência? Aspose.Note for .NET fornece uma solução robusta para realizar essa tarefa perfeitamente. Neste tutorial, percorreremos o processo passo a passo para garantir que você possa recuperar imagens de seus documentos sem esforço.
@@ -91,3 +97,9 @@ A3: Sim, Aspose.Note for .NET suporta vários formatos de documentos, fornecendo
 ### Q5: Onde posso procurar assistência ou suporte para Aspose.Note for .NET?
 
  A5: Para qualquer dúvida ou assistência sobre Aspose.Note for .NET, você pode visitar o[Fórum Aspose.Note](https://forum.aspose.com/c/note/28) para interagir com especialistas e colegas desenvolvedores.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -3,10 +3,16 @@ title: Baca Teks Kaya di Aspose Note .NET
 linktitle: Baca Teks Kaya di Aspose Note .NET
 second_title: Aspose.Catatan .NET API
 description: Pelajari cara membaca teks kaya dari buku catatan OneNote secara terprogram menggunakan Aspose.Note untuk .NET. Ikuti tutorial langkah demi langkah kami untuk integrasi yang mudah.
-type: docs
 weight: 23
 url: /id/net/notebook-operations/read-rich-text/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Baca Teks Kaya di Aspose Note .NET
+
 ## Perkenalan
 
 Dalam tutorial ini, kita akan mempelajari cara membaca teks kaya menggunakan Aspose.Note untuk .NET. Aspose.Note adalah API canggih yang memungkinkan pengembang bekerja dengan dokumen Microsoft OneNote secara terprogram, menawarkan berbagai fungsi untuk membuat, mengedit, dan memanipulasi file OneNote.
@@ -97,3 +103,9 @@ A1: Ya, Aspose.Note untuk .NET memungkinkan Anda membuat, mengedit, dan memanipu
 ### Q5: Di mana saya dapat menemukan dokumentasi terperinci untuk Aspose.Note untuk .NET?
 
  A5: Anda dapat menemukan dokumentasi komprehensif untuk Aspose.Note untuk .NET di[halaman referensi](https://reference.aspose.com/note/net/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

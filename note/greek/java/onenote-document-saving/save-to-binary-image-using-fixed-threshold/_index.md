@@ -3,10 +3,16 @@ title: Αποθήκευση σε δυαδική εικόνα χρησιμοπο�
 linktitle: Αποθήκευση σε δυαδική εικόνα χρησιμοποιώντας σταθερό όριο στο OneNote
 second_title: Aspose.Note Java API
 description: Αποθηκεύστε εύκολα έγγραφα του Microsoft OneNote ως δυαδικές εικόνες χρησιμοποιώντας σταθερό όριο με το Aspose.Note Java. Αυξήστε τις δυνατότητες χειρισμού αρχείων του OneNote.
-type: docs
 weight: 14
 url: /el/java/onenote-document-saving/save-to-binary-image-using-fixed-threshold/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Αποθήκευση σε δυαδική εικόνα χρησιμοποιώντας σταθερό όριο στο OneNote
+
 ## Εισαγωγή
 
 Το Aspose.Note για Java είναι ένα ισχυρό API που επιτρέπει στους προγραμματιστές να εργάζονται με αρχεία Microsoft OneNote μέσω προγραμματισμού. Σε αυτό το σεμινάριο, θα διερευνήσουμε πώς να αποθηκεύσετε ένα έγγραφο ως δυαδική εικόνα χρησιμοποιώντας ένα σταθερό όριο. Ακολουθήστε τα παρακάτω βήματα για να το πετύχετε.
@@ -91,3 +97,9 @@ A4: Ναι, μπορείτε να επεξεργαστείτε ομαδικά π
 ### Ε5: Διατίθεται τεχνική υποστήριξη για το Aspose.Note για Java;
 
  A5: Ναι, η τεχνική υποστήριξη είναι διαθέσιμη μέσω του[Aspose.Note φόρουμ](https://forum.aspose.com/c/note/28), όπου μπορείτε να κάνετε ερωτήσεις και να ζητήσετε βοήθεια από ειδικούς.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

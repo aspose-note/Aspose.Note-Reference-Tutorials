@@ -3,10 +3,16 @@ title: Nhận bản sửa đổi của các trang trong OneNote - Aspose.Note
 linktitle: Nhận bản sửa đổi của các trang trong OneNote - Aspose.Note
 second_title: API Java Aspose.Note
 description: Tìm hiểu cách truy xuất bản sửa đổi của các trang trong tài liệu OneNote bằng Aspose.Note Java. Tích hợp tính năng này vào ứng dụng Java của bạn để quản lý tài liệu hiệu quả.
-type: docs
 weight: 15
 url: /vi/java/onenote-page-manipulation/get-revisions-of-pages/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Nhận bản sửa đổi của các trang trong OneNote - Aspose.Note
+
 ## Giới thiệu
 
 Trong hướng dẫn này, chúng ta sẽ đi sâu vào các khả năng của Aspose.Note for Java, một thư viện mạnh mẽ cho phép bạn làm việc liền mạch với các tệp Microsoft OneNote trong các ứng dụng Java của mình. Cụ thể, chúng tôi sẽ tập trung vào cách truy xuất các bản sửa đổi của các trang trong tài liệu OneNote. Đến cuối hướng dẫn này, bạn sẽ được trang bị kiến thức để trích xuất các bản sửa đổi trang một cách hiệu quả, bao gồm các chi tiết như thời gian sửa đổi lần cuối, thời gian tạo, tiêu đề, cấp độ và tác giả.
@@ -109,3 +115,9 @@ Câu trả lời 4: Có, cần có giấy phép hợp lệ để sử dụng Asp
 ### Câu hỏi 5: Tôi có thể tìm kiếm hỗ trợ ở đâu nếu gặp sự cố hoặc có thắc mắc về Aspose.Note dành cho Java?
 
  Câu trả lời 5: Để được hỗ trợ và trợ giúp, bạn có thể truy cập diễn đàn Aspose.Note[đây](https://forum.aspose.com/c/note/28)nơi bạn có thể đặt câu hỏi, chia sẻ kinh nghiệm và tương tác với những người dùng và chuyên gia khác.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

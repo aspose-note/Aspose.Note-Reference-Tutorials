@@ -3,10 +3,16 @@ title: Cambiar el estilo del título de la página en Aspose.Note
 linktitle: Cambiar el estilo del título de la página en Aspose.Note
 second_title: Aspose.Nota .NET API
 description: ¡Transforme sus documentos .NET con Aspose.Note! Aprenda a cambiar los estilos de los títulos de las páginas sin esfuerzo. Eleva la estética en unos sencillos pasos.
-type: docs
 weight: 13
 url: /es/net/text-manipulation/change-page-title-style/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Cambiar el estilo del título de la página en Aspose.Note
+
 ## Introducción
 ¿Está buscando mejorar el atractivo visual de sus documentos .NET con un estilo de título de página dinámico? Aspose.Note para .NET ofrece una solución perfecta que le permite cambiar sin esfuerzo el estilo de los títulos de sus páginas. En este tutorial, lo guiaremos a través del proceso, paso a paso, asegurándonos de que pueda mejorar la estética de sus documentos sin ningún problema.
 ## Requisitos previos
@@ -70,3 +76,9 @@ Imprima un mensaje de confirmación indicando que los estilos del título se han
  Puede comprar una licencia para Aspose.Note[aquí](https://purchase.aspose.com/buy).
 ### ¿Necesito una licencia temporal para realizar pruebas?
  Sí, si estás probando Aspose.Note, puedes obtener una licencia temporal[aquí](https://purchase.aspose.com/temporary-license/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

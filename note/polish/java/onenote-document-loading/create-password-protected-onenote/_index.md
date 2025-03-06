@@ -3,10 +3,16 @@ title: Twórz chronione hasłem dokumenty OneNote — Java
 linktitle: Twórz chronione hasłem dokumenty OneNote — Java
 second_title: Aspose.Note API Java
 description: Dowiedz się, jak utworzyć dokument OneNote chroniony hasłem w Javie za pomocą Aspose.Note. Zwiększ bezpieczeństwo, wykonując samouczki krok po kroku.
-type: docs
 weight: 19
 url: /pl/java/onenote-document-loading/create-password-protected-onenote/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Twórz chronione hasłem dokumenty OneNote — Java
+
 ## Wstęp
 
 W tym samouczku zagłębimy się w proces tworzenia chronionych hasłem dokumentów OneNote przy użyciu Java za pomocą Aspose.Note. Bezpieczeństwo jest najważniejsze w przypadku poufnych informacji, a ochrona hasłem zapewnia skuteczną warstwę ochrony przed nieautoryzowanym dostępem. Przeprowadzimy Cię przez każdy krok, upewniając się, że możesz bezproblemowo wdrożyć tę kluczową funkcję bezpieczeństwa w swoich aplikacjach Java.
@@ -80,3 +86,9 @@ O4: Tak, Aspose.Note zapewnia obsługę różnych algorytmów szyfrowania, aby s
 ### P5: Czy Aspose.Note nadaje się do aplikacji na poziomie przedsiębiorstwa?
 
 Odpowiedź 5: Oczywiście, Aspose.Note został zaprojektowany, aby sprostać wymaganiom aplikacji na poziomie korporacyjnym, oferując solidne funkcje bezpieczeństwa i niezawodną wydajność.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

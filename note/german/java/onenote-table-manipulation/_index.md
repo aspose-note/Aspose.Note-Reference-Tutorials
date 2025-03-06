@@ -3,10 +3,16 @@ title: OneNote-Tabellenmanipulation
 linktitle: OneNote-Tabellenmanipulation
 second_title: Aspose.Note Java API
 description: Erweitern Sie Ihre OneNote-Tabellen mit Aspose.Note für Java. Ändern Sie Stile, erstellen Sie Tabellen und extrahieren Sie Text nahtlos. Laden Sie die Bibliothek herunter, um eine reibungslose Dokumenterstellung zu gewährleisten.
-type: docs
 weight: 32
 url: /de/java/onenote-table-manipulation/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# OneNote-Tabellenmanipulation
+
 
 
 ## Einführung
@@ -55,3 +61,9 @@ Entdecken Sie die Geheimnisse der Textextraktion aus OneNote-Tabellen in Java mi
 Erfahren Sie, wie Sie mit Aspose.Note für Java Tabellen in OneNote einfügen. Schritt-für-Schritt-Anleitung für die dynamische Inhaltserstellung. Werten Sie Ihre Dokumente mühelos auf.
 ### [Festlegen der Hintergrundfarbe von Zellen in OneNote – Aspose.Note](./setting-cell-background-color/)
 Transformieren Sie OneNote-Dokumente ganz einfach mit Aspose.Note für Java. Passen Sie mühelos die Hintergrundfarben der Zellen an. Probieren Sie jetzt die kostenlose Testversion aus!
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

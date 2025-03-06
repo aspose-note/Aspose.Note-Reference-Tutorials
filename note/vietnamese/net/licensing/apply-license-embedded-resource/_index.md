@@ -3,10 +3,16 @@ title: Áp dụng giấy phép Aspose.Note từ tài nguyên nhúng
 linktitle: Áp dụng giấy phép Aspose.Note từ tài nguyên nhúng
 second_title: Aspose.Note .NET API
 description: Tìm hiểu cách áp dụng giấy phép Aspose.Note từ tài nguyên được nhúng trong ứng dụng .NET của bạn. Hãy làm theo hướng dẫn từng bước của chúng tôi để tích hợp liền mạch.
-type: docs
 weight: 10
 url: /vi/net/licensing/apply-license-embedded-resource/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Áp dụng giấy phép Aspose.Note từ tài nguyên nhúng
+
 ## Giới thiệu
 
 Aspose.Note for .NET là một API mạnh mẽ cho phép các nhà phát triển làm việc với các tệp Microsoft OneNote theo chương trình. Cho dù bạn đang muốn tạo, sửa đổi hoặc chuyển đổi tài liệu OneNote, Aspose.Note đều cung cấp một bộ tính năng toàn diện để đáp ứng nhu cầu của bạn. Trong hướng dẫn này, chúng ta sẽ tìm hiểu quy trình áp dụng giấy phép Aspose.Note từ tài nguyên được nhúng trong ứng dụng .NET của bạn.
@@ -86,3 +92,9 @@ Trả lời 1: Không, bạn cần có giấy phép hợp lệ để sử dụng
 ### Câu hỏi 5: Tôi có thể mua giấy phép Aspose.Note ở đâu?
 
  Câu trả lời 5: Bạn có thể mua giấy phép Aspose.Note[đây](https://purchase.aspose.com/buy).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

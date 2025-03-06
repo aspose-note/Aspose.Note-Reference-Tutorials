@@ -3,10 +3,16 @@ title: Aspose.Note ドキュメントにハイパーリンクを追加する
 linktitle: Aspose.Note ドキュメントにハイパーリンクを追加する
 second_title: Aspose.Note .NET API
 description: Aspose.Note for .NET を使用して Aspose.Note ドキュメントにハイパーリンクを追加する方法を学習します。このステップバイステップのチュートリアルを使用して、ドキュメントの対話性を強化します。
-type: docs
 weight: 10
 url: /ja/net/hyperlinks/add-hyperlinks/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Aspose.Note ドキュメントにハイパーリンクを追加する
+
 ## 導入
 
 このチュートリアルでは、.NET Framework を使用して Aspose.Note ドキュメント内のテキストにハイパーリンクを追加する方法を学習します。 Aspose.Note は、OneNote ドキュメントをプログラムで操作するための強力な機能を提供します。ハイパーリンクを追加すると、ドキュメントの対話性と使いやすさが向上し、ユーザーにとってより魅力的なドキュメントになります。
@@ -131,3 +137,9 @@ A4: Aspose.Note は、Microsoft OneNote 2010 以降のバージョンで動作�
 ### Q5: Aspose.Note API を使用してプログラムでハイパーリンクを追加できますか?
 
 A5: はい、Aspose.Note は、.NET アプリケーション内でプログラムによってテキストにハイパーリンクを追加できる API を提供します。
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

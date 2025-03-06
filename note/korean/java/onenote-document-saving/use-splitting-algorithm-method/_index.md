@@ -3,10 +3,16 @@ title: OneNote에서 분할 알고리즘 방법 사용 - Aspose.Note
 linktitle: OneNote에서 분할 알고리즘 방법 사용 - Aspose.Note
 second_title: Aspose.Note 자바 API
 description: Aspose.Note를 사용하여 Java에서 OneNote 문서 분할을 마스터하세요! 알고리즘을 선택하고, 페이지 나누기를 제어하고, 쉽게 PDF로 저장하세요. 코드가 포함되어 있습니다! #OneNote #Java #Aspose
-type: docs
 weight: 26
 url: /ko/java/onenote-document-saving/use-splitting-algorithm-method/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# OneNote에서 분할 알고리즘 방법 사용 - Aspose.Note
+
 ## 소개
 
 이 튜토리얼에서는 Java용 Aspose.Note에서 분할 알고리즘 방법을 사용하는 방법을 살펴보겠습니다. Aspose.Note는 개발자가 Microsoft OneNote 파일을 프로그래밍 방식으로 작업할 수 있는 강력한 라이브러리입니다. 분할 알고리즘을 활용하면 OneNote 문서를 조작하고 내보내야 할 때, 특히 복잡한 레이아웃이나 대용량 파일을 처리할 때 특히 유용할 수 있습니다.
@@ -101,3 +107,9 @@ A2: 물론이죠! Aspose.Note는 대용량 파일을 효율적으로 처리하�
 ### Q5: Aspose.Note의 임시 라이선스는 어떻게 얻을 수 있나요?
 
  A5: 요청하실 수 있습니다[임시면허](https://purchase.aspose.com/temporary-license/) 시험 기간 동안 제품을 평가합니다.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

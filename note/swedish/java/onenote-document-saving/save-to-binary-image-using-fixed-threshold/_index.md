@@ -3,10 +3,16 @@ title: Spara till binär bild med hjälp av fast tröskel i OneNote
 linktitle: Spara till binär bild med hjälp av fast tröskel i OneNote
 second_title: Aspose.Note Java API
 description: Spara enkelt Microsoft OneNote-dokument som binära bilder med hjälp av fast tröskelvärde med Aspose.Note Java. Öka dina OneNote-filmanipuleringsmöjligheter.
-type: docs
 weight: 14
 url: /sv/java/onenote-document-saving/save-to-binary-image-using-fixed-threshold/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Spara till binär bild med hjälp av fast tröskel i OneNote
+
 ## Introduktion
 
 Aspose.Note för Java är ett kraftfullt API som låter utvecklare arbeta med Microsoft OneNote-filer programmatiskt. I den här handledningen kommer vi att utforska hur man sparar ett dokument som en binär bild med hjälp av en fast tröskel. Följ stegen nedan för att uppnå detta.
@@ -91,3 +97,9 @@ S4: Ja, du kan batchbearbeta flera OneNote-dokument genom att iterera över varj
 ### F5: Finns teknisk support tillgänglig för Aspose.Note för Java?
 
  S5: Ja, teknisk support är tillgänglig via[Aspose.Note forum](https://forum.aspose.com/c/note/28), där du kan ställa frågor och söka hjälp från experter.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

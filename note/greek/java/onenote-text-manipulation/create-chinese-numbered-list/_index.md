@@ -3,10 +3,16 @@ title: Δημιουργία κινεζικής αριθμημένης λίστα
 linktitle: Δημιουργία κινεζικής αριθμημένης λίστας στο OneNote - Aspose.Note
 second_title: Aspose.Note Java API
 description: Βελτιώστε τη δημιουργία εγγράφων σε Java με το Aspose.Note. Μάθετε πώς να δημιουργείτε μια κινεζική αριθμημένη λίστα στο OneNote βήμα προς βήμα. Εξερευνήστε τις ισχυρές δυνατότητες του Aspose.Note.
-type: docs
 weight: 13
 url: /el/java/onenote-text-manipulation/create-chinese-numbered-list/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Δημιουργία κινεζικής αριθμημένης λίστας στο OneNote - Aspose.Note
+
 ## Εισαγωγή
 Αν θέλετε να βελτιώσετε τις δυνατότητες δημιουργίας εγγράφων σας σε Java, το Aspose.Note είναι η καλύτερη λύση. Σε αυτό το σεμινάριο, θα σας καθοδηγήσουμε στη διαδικασία δημιουργίας μιας κινεζικής αριθμημένης λίστας στο OneNote χρησιμοποιώντας το Aspose.Note για Java. Αυτή η ισχυρή βιβλιοθήκη σάς επιτρέπει να χειρίζεστε έγγραφα του OneNote μέσω προγραμματισμού, δίνοντάς σας πλήρη έλεγχο της δομής και του περιεχομένου τους.
 ## Προαπαιτούμενα
@@ -109,3 +115,9 @@ System.out.printf("File saved: %s\n", dataDir + "CreateChineseNumberedList_out.p
  Ανατρέξτε στην τεκμηρίωση[εδώ](https://reference.aspose.com/note/java/).
 ### Πώς μπορώ να λάβω υποστήριξη για το Aspose.Note;
  Επισκεφτείτε το φόρουμ υποστήριξης[εδώ](https://forum.aspose.com/c/note/28) για οποιαδήποτε βοήθεια ή απορία.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

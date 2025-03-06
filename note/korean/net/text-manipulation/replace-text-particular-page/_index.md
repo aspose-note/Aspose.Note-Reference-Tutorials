@@ -3,10 +3,16 @@ title: Aspose.Note에서 특정 페이지의 텍스트 바꾸기
 linktitle: Aspose.Note에서 특정 페이지의 텍스트 바꾸기
 second_title: Aspose.Note .NET API
 description: .NET을 사용하여 Aspose.Note의 특정 페이지에서 텍스트를 바꾸는 방법을 알아보세요. 효율적인 텍스트 조작을 위한 단계별 가이드를 따르세요.
-type: docs
 weight: 22
 url: /ko/net/text-manipulation/replace-text-particular-page/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Aspose.Note에서 특정 페이지의 텍스트 바꾸기
+
 ## 소개
 .NET 개발 세계에서 Aspose.Note는 Microsoft OneNote 파일을 프로그래밍 방식으로 조작하기 위한 강력한 도구로 돋보입니다. 개발자가 자주 직면하는 일반적인 작업 중 하나는 Aspose.Note 문서 내 특정 페이지의 텍스트를 바꾸는 것입니다. 이 단계별 가이드에서는 .NET용 Aspose.Note를 사용하여 이를 달성하는 방법을 살펴보겠습니다.
 ## 전제조건
@@ -82,3 +88,9 @@ Console.WriteLine("\nText replaced successfully on a particular page.\nFile save
 try-catch 블록을 사용하여 오류 처리를 구현하여 프로세스 중에 발생할 수 있는 예외를 관리할 수 있습니다.
 ### Q: Aspose.Note 지원을 위한 커뮤니티 포럼이 있나요?
  예, 다음 사이트에서 도움을 구하고 경험을 공유할 수 있습니다.[Aspose.Note 포럼](https://forum.aspose.com/c/note/28).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

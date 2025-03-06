@@ -3,10 +3,16 @@ title: Aspose Note .NET'teki Akıştan Not Defterlerini Yükleme
 linktitle: Aspose Note .NET'teki Akıştan Not Defterlerini Yükleme
 second_title: Aspose.Note .NET API'si
 description: Aspose.Note for .NET'te not defterlerini bir akıştan nasıl yükleyeceğinizi öğrenin. .NET uygulamalarınızla kusursuz entegrasyon için bu adım adım kılavuzu izleyin.
-type: docs
 weight: 19
 url: /tr/net/notebook-operations/load-notebooks-from-stream/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Aspose Note .NET'teki Akıştan Not Defterlerini Yükleme
+
 ## giriiş
 
 Bu eğitimde Aspose.Note for .NET kullanarak not defterlerinin bir akıştan nasıl yükleneceğini inceleyeceğiz. Aspose.Note, geliştiricilerin Microsoft OneNote dosyalarıyla programlı olarak çalışmasını sağlayan güçlü bir kitaplıktır. Not defterlerini bir akıştan yüklemek, .NET uygulamalarında dosya giriş/çıkış işlemleriyle uğraşırken yaygın bir görevdir.
@@ -92,3 +98,9 @@ Cevap1: Evet, Aspose.Note for .NET, .one, .onetoc2 ve daha fazlası dahil olmak 
 ### S5: Geçici lisanslama seçeneği var mı?
 
  Cevap5: Evet, adresinden geçici lisans alabilirsiniz.[Burada](https://purchase.aspose.com/temporary-license/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

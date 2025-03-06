@@ -3,10 +3,16 @@ title: Ustaw kolor tła stron w Aspose.Note
 linktitle: Ustaw kolor tła stron w Aspose.Note
 second_title: Aspose.Note .NET API
 description: Dowiedz się, jak ustawić kolor tła stron w dokumentach Aspose.Note przy użyciu języka programowania C#, korzystając z przewodnika krok po kroku.
-type: docs
 weight: 19
 url: /pl/net/note-manipulation/set-page-background-color/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Ustaw kolor tła stron w Aspose.Note
+
 ## Wstęp
 
 Aspose.Note dla .NET umożliwia programistom programowe manipulowanie dokumentami OneNote. Jednym z typowych zadań jest ustawienie koloru tła stron w tych dokumentach. W tym samouczku przeprowadzimy Cię przez ten proces krok po kroku.
@@ -97,3 +103,9 @@ Odpowiedź 3: Tak, możesz pobrać bezpłatną wersję próbną ze strony[Tutaj]
 ### P5: Gdzie mogę znaleźć dodatkowe wsparcie lub zadać pytania dotyczące Aspose.Note?
 
  A5: Możesz odwiedzić[Forum Aspose.Note](https://forum.aspose.com/c/note/28) w celu uzyskania wsparcia i nawiązania kontaktu z innymi użytkownikami.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

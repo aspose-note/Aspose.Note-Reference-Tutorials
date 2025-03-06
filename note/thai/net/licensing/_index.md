@@ -3,10 +3,16 @@ title: การเรียนรู้ Aspose.Note สิทธิ์การ
 linktitle: การออกใบอนุญาต
 second_title: Aspose.Note .NET API
 description: ใช้ใบอนุญาต Aspose.Note ในแอปพลิเคชัน .NET ของคุณ! สำรวจคำแนะนำทีละขั้นตอนสำหรับการฝังทรัพยากร การใช้พาธ FileStream และการออกใบอนุญาตแบบคิดค่าบริการตามปริมาณข้อมูลที่มีประสิทธิภาพ
-type: docs
 weight: 20
 url: /th/net/licensing/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# การเรียนรู้ Aspose.Note สิทธิ์การใช้งานสำหรับการรวม OneNote
+
 ## การแนะนำ
 
 คุณเป็นนักพัฒนา .NET ที่กำลังเจาะลึกขอบเขตไดนามิกของ Aspose.Note หรือไม่? การทำความเข้าใจวิธีการใช้ใบอนุญาตเป็นสิ่งสำคัญ โดยเฉพาะอย่างยิ่งเมื่อทำงานกับไฟล์ OneNote ในคู่มือที่ครอบคลุมนี้ เราจะสำรวจบทช่วยสอนการให้สิทธิ์การใช้งานต่างๆ เพื่อให้มั่นใจว่ากระบวนการรวมระบบจะราบรื่น และช่วยให้คุณสามารถจัดการไฟล์ OneNote ได้อย่างง่ายดาย
@@ -41,3 +47,9 @@ url: /th/net/licensing/
 เรียนรู้วิธีใช้ใบอนุญาต Aspose.Note โดยใช้ FileStream ในแอปพลิเคชัน .NET ของคุณเพื่อการผสานรวมที่ราบรื่น
 ### [การให้สิทธิ์ใช้งานแบบมิเตอร์กับ Aspose.Note](./metered-licensing/)
 เรียนรู้วิธีจัดการสิทธิ์การใช้งานซอฟต์แวร์อย่างมีประสิทธิภาพด้วย Aspose.Note สำหรับ .NET ผ่านการอนุญาตให้ใช้สิทธิ์แบบคิดค่าบริการตามปริมาณข้อมูล เพิ่มประสิทธิภาพการใช้ทรัพยากรและควบคุมต้นทุนอย่างมีประสิทธิภาพ
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

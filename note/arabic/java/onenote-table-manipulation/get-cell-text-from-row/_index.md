@@ -3,10 +3,16 @@ title: الحصول على نص الخلية من صف الجدول في OneNote
 linktitle: الحصول على نص الخلية من صف الجدول في OneNote - Aspose.Note
 second_title: Aspose.Note جافا API
 description: اكتشف أسرار استخراج النص من جداول OneNote في Java باستخدام Aspose.Note. اتبع دليلنا خطوة بخطوة لتعزيز مهاراتك في معالجة المستندات.
-type: docs
 weight: 15
 url: /ar/java/onenote-table-manipulation/get-cell-text-from-row/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# الحصول على نص الخلية من صف الجدول في OneNote - Aspose.Note
+
 ## مقدمة
 انطلق في رحلة إلى عالم تطوير Java بينما نكشف عن عملية استخراج النص من صفوف جدول OneNote باستخدام مكتبة Aspose.Note القوية. سيزودك هذا الدليل التفصيلي بالمهارات اللازمة للتنقل والتعامل مع النص داخل الجداول بكفاءة.
 ## المتطلبات الأساسية
@@ -73,3 +79,9 @@ for (Table table : nodes) {
  انضم إلى مجتمع Aspose.Note النابض بالحياة على[المنتدى](https://forum.aspose.com/c/note/28) للمناقشات والمساعدة.
 ### هل نماذج المستندات متاحة لأغراض الاختبار؟
 تعمق في وثائق Aspose.Note للحصول على كنز من نماذج المستندات ومقتطفات التعليمات البرمجية.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

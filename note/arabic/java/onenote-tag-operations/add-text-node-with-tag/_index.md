@@ -3,10 +3,16 @@ title: إضافة عقدة نصية مع علامة في OneNote - Aspose.Note
 linktitle: إضافة عقدة نصية مع علامة في OneNote - Aspose.Note
 second_title: Aspose.Note جافا API
 description: اكتشف كيفية إضافة عقد نصية ذات علامات في OneNote باستخدام Aspose.Note لـ Java. سهلة وفعالة وصديقة للمطورين. قم بتنزيل المكتبة الآن!
-type: docs
 weight: 13
 url: /ar/java/onenote-tag-operations/add-text-node-with-tag/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# إضافة عقدة نصية مع علامة في OneNote - Aspose.Note
+
 ## مقدمة
 في هذا البرنامج التعليمي، سنستكشف كيفية إضافة عقدة نصية بعلامة في OneNote باستخدام Aspose.Note لـ Java. Aspose.Note هي مكتبة Java قوية تتيح للمطورين العمل مع ملفات Microsoft OneNote برمجياً. تعد إضافة العقد النصية مع العلامات مطلبًا شائعًا في معالجة المستندات، ويعمل Aspose.Note على تبسيط هذه المهمة.
 ## المتطلبات الأساسية
@@ -121,3 +127,9 @@ doc.save(dataDir + "AddTextNodeWithTag_out.one");
  ج: نعم، يمكنك الحصول على تراخيص مؤقتة[هنا](https://purchase.aspose.com/temporary-license/).
 ### س: أين يمكنني العثور على الوثائق الخاصة بـ Aspose.Note لـ Java؟
  ج: الوثائق متاحة[هنا](https://reference.aspose.com/note/java/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

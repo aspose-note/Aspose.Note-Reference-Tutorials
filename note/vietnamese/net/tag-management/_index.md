@@ -3,10 +3,16 @@ title: Aspose.Note dành cho Hướng dẫn quản lý thẻ .NET
 linktitle: Quản lý thẻ
 second_title: Aspose.Note .NET API
 description: Làm chủ Aspose.Note với quản lý thẻ. Thêm hình ảnh, bảng, nút văn bản và tạo ghi chú cuộc họp. Truy xuất chi tiết thẻ và nâng cao thao tác tài liệu.
-type: docs
 weight: 30
 url: /vi/net/tag-management/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Aspose.Note dành cho Hướng dẫn quản lý thẻ .NET
+
 
 ## Giới thiệu
 
@@ -49,3 +55,9 @@ Tìm hiểu cách truy xuất chi tiết thẻ từ tài liệu Aspose.Note bằ
 Tìm hiểu cách thao tác với các tệp Microsoft OneNote theo chương trình bằng Aspose.Note for .NET. Mở và đóng dự án bằng thẻ một cách hiệu quả.
 ### [Báo cáo bằng thẻ trong Aspose.Note](./reporting-tags/)
 Tìm hiểu cách tạo báo cáo chuyên sâu từ tài liệu kỹ thuật số bằng Aspose.Note for .NET. Hướng dẫn từng bước được cung cấp.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

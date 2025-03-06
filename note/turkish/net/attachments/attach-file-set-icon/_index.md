@@ -3,10 +3,16 @@ title: Aspose.Note'ta Dosya Ekle ve Simgeyi Ayarla
 linktitle: Aspose.Note'ta Dosya Ekle ve Simgeyi Ayarla
 second_title: Aspose.Note .NET API'si
 description: Aspose.Note for .NET'te nasıl dosya ekleyeceğinizi ve simgeleri nasıl ayarlayacağınızı öğrenin. Bu adım adım eğitimle .NET uygulamalarınızı geliştirin.
-type: docs
 weight: 10
 url: /tr/net/attachments/attach-file-set-icon/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Aspose.Note'ta Dosya Ekle ve Simgeyi Ayarla
+
 ## giriiş
 
 .NET geliştirme alanında Aspose.Note, Microsoft OneNote belgelerini programlı olarak değiştirmek için güçlü bir araç olarak öne çıkıyor. Geliştiriciler, onun yeteneklerinden yararlanarak, uygulamalarında OneNote dosyalarının oluşturulması, düzenlenmesi ve yönetilmesiyle ilgili çeşitli görevleri otomatikleştirebilirler. Önemli özelliklerden biri, notlara dosya ekleme ve bu ekler için simgeler ayarlama yeteneğidir. Bu eğitimde Aspose.Note for .NET'i kullanarak dosya ekleme ve simge ayarlama sürecini ayrıntılı olarak ele alacağız.
@@ -125,3 +131,9 @@ Cevap4: Aspose.Note öncelikle yerel olarak depolanan veya akışlar aracılığ
 ### S5: Aspose.Note for .NET'te dosya ekleri için boyut sınırı var mı?
 
 Cevap5: Aspose.Note, dosya ekleri için belirli boyut sınırlamaları getirmez ancak sistem kaynaklarına ve performans hususlarına bağlı olarak pratik sınırlamalar geçerli olabilir.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

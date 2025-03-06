@@ -3,10 +3,16 @@ title: Dzielenie strony w Aspose.Note
 linktitle: Dzielenie strony w Aspose.Note
 second_title: Aspose.Note .NET API
 description: Dowiedz się, jak skutecznie dzielić strony w Aspose.Note dla .NET przy użyciu różnych algorytmów. Zapewnij schludną organizację dokumentów OneNote w formacie PDF.
-type: docs
 weight: 17
 url: /pl/net/loading-and-saving-operations/page-splitting/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Dzielenie strony w Aspose.Note
+
 ## Wstęp
 
 W tym samouczku odkryjemy, jak efektywnie dzielić strony za pomocą Aspose.Note dla .NET. Dzielenie stron to kluczowa funkcja, szczególnie w przypadku długich stron programu OneNote, które należy przekonwertować do formatu PDF. Aspose.Note oferuje różne algorytmy do kontrolowania logiki podziału, zapewniając, że powstałe pliki PDF są dobrze zorganizowane i czytelne.
@@ -87,3 +93,9 @@ O4: Aspose.Note jest przeznaczony przede wszystkim dla platformy .NET, ale możn
 ### P5: Gdzie mogę uzyskać pomoc, jeśli napotkam jakiekolwiek problemy?
 
  O5: Możesz zwrócić się o pomoc na forum społeczności Aspose.Note[Tutaj](https://forum.aspose.com/c/note/28).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

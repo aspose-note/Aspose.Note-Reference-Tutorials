@@ -3,10 +3,16 @@ title: Manipulace s textem ve OneNotu
 linktitle: Manipulace s textem ve OneNotu
 second_title: Aspose.Note Java API
 description: Prozkoumejte výukové programy Aspose.Note Java o manipulaci s textem ve OneNotu. Prozkoumejte efektivní metody pro úkoly, jako je extrahování textu, použití motivů, vytváření seznamů a další.
-type: docs
 weight: 34
 url: /cs/java/onenote-text-manipulation/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Manipulace s textem ve OneNotu
+
 
 ## Úvod
 
@@ -56,3 +62,9 @@ Přečtěte si, jak nahradit text na konkrétní stránce OneNotu pomocí Aspose
 Odemkněte potenciál Aspose.Note pro Javu! Naučte se, jak plynule nastavit jazyk kontroly pravopisu pro text ve OneNotu, pomocí našeho podrobného průvodce.
 ### [Nastavení názvu stránky ve stylu Microsoft OneNote – Aspose.Note](./setting-page-title-in-microsoft-onenote-style/)
 Přečtěte si, jak nastavit názvy stránek ve stylu Microsoft OneNote pomocí Aspose.Note pro Java. Vylepšete své dokumenty Java pomocí profesionálního formátování.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

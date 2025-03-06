@@ -3,10 +3,16 @@ title: Terapkan Penomoran pada Teks di Aspose.Note
 linktitle: Terapkan Penomoran pada Teks di Aspose.Note
 second_title: Aspose.Catatan .NET API
 description: Pelajari cara menerapkan penomoran teks di Aspose.Note untuk .NET dengan tutorial komprehensif ini. Sempurnakan pemformatan dokumen Anda dengan mudah.
-type: docs
 weight: 12
 url: /id/net/text-manipulation/apply-numbering-on-text/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Terapkan Penomoran pada Teks di Aspose.Note
+
 ## Perkenalan
 Aspose.Note untuk .NET menyediakan alat canggih untuk manipulasi dokumen dalam aplikasi C#. Dalam tutorial ini, kita akan mengeksplorasi proses penerapan penomoran pada teks menggunakan Aspose.Note. Ikuti petunjuk langkah demi langkah berikut untuk menyempurnakan format dokumen Anda dengan mudah.
 ## Prasyarat
@@ -81,3 +87,9 @@ Sangat! Aspose.Note terintegrasi secara mulus dengan Visual Studio untuk pengala
  Tentu! Anda dapat menjelajahi uji coba gratis[Di Sini](https://releases.aspose.com/).
 ### 5. Di mana saya bisa mendapatkan dukungan untuk Aspose.Note?
  Untuk bantuan atau pertanyaan apa pun, kunjungi[Aspose.Catatan forum](https://forum.aspose.com/c/note/28).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

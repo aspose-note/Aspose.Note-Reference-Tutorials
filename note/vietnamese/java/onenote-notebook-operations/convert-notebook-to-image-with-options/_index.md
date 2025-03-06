@@ -3,10 +3,16 @@ title: Chuyển đổi Notebook thành hình ảnh với các tùy chọn trong 
 linktitle: Chuyển đổi Notebook thành hình ảnh với các tùy chọn trong OneNote - Aspose.Note
 second_title: API Java Aspose.Note
 description: Tìm hiểu cách chuyển đổi Notebook thành hình ảnh với các tùy chọn bằng Aspose.Note cho Java. Hãy làm theo hướng dẫn từng bước của chúng tôi để tích hợp liền mạch vào các ứng dụng Java của bạn.
-type: docs
 weight: 14
 url: /vi/java/onenote-notebook-operations/convert-notebook-to-image-with-options/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Chuyển đổi Notebook thành hình ảnh với các tùy chọn trong OneNote - Aspose.Note
+
 ## Giới thiệu
 
 Trong hướng dẫn này, chúng ta sẽ đi sâu vào quá trình chuyển đổi Notebook thành hình ảnh với nhiều tùy chọn khác nhau bằng cách sử dụng Aspose.Note cho Java. Aspose.Note là một API Java mạnh mẽ cho phép các nhà phát triển làm việc với các tệp Microsoft OneNote theo chương trình, cho phép tích hợp liền mạch vào các ứng dụng Java của họ.
@@ -89,3 +95,9 @@ Câu trả lời 4: Có, Aspose cung cấp sự hỗ trợ tuyệt vời cho cá
 ### Câu hỏi 5: Có bản dùng thử miễn phí cho Aspose.Note cho Java không?
 
  Câu trả lời 5: Có, bạn có thể tận dụng bản dùng thử miễn phí Aspose.Note dành cho Java từ[đây](https://releases.aspose.com/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

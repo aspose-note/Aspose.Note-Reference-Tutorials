@@ -3,10 +3,16 @@ title: Удаление дочернего узла в записной книж
 linktitle: Удаление дочернего узла в записной книжке OneNote — Aspose.Note
 second_title: Aspose.Note Java API
 description: Узнайте, как удалить дочерний узел из записной книжки OneNote с помощью Aspose.Note для Java. Следуйте нашему пошаговому руководству для беспрепятственного управления документами.
-type: docs
 weight: 24
 url: /ru/java/onenote-notebook-operations/remove-child-node/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Удаление дочернего узла в записной книжке OneNote — Aspose.Note
+
 ## Введение
 
 В этом уроке мы углубимся в процесс удаления дочернего узла в записной книжке OneNote с помощью Aspose.Note для Java. Aspose.Note — это мощный API, который позволяет разработчикам программно работать с файлами Microsoft OneNote, обеспечивая различные операции, такие как создание, манипулирование и преобразование документов OneNote.
@@ -92,3 +98,9 @@ notebook.save(dataDir);
 ### Вопрос 5: Где я могу найти подробную документацию по Aspose.Note для Java?
 
  A5: Вы можете получить доступ к полной документации Aspose.Note для Java.[здесь](https://reference.aspose.com/note/java/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

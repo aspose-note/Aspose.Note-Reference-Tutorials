@@ -3,10 +3,16 @@ title: เพิ่มโหนดตารางด้วยแท็กใน 
 linktitle: เพิ่มโหนดตารางด้วยแท็กใน Aspose.Note
 second_title: Aspose.Note .NET API
 description: เรียนรู้วิธีเพิ่มตารางด้วยแท็กใน Aspose.Note สำหรับ .NET พัฒนาทักษะการจัดการเอกสารของคุณโดยทางโปรแกรม
-type: docs
 weight: 11
 url: /th/net/tag-management/add-table-node-tag/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# เพิ่มโหนดตารางด้วยแท็กใน Aspose.Note
+
 ## การแนะนำ
 
 ในบทช่วยสอนนี้ เราจะแนะนำคุณตลอดขั้นตอนการเพิ่มโหนดตารางด้วยแท็กโดยใช้ Aspose.Note สำหรับ .NET ทำตามขั้นตอนด้านล่างเพื่อให้บรรลุเป้าหมายนี้
@@ -137,3 +143,9 @@ A1: Aspose.Note สำหรับ .NET รองรับ .NET Framework เว
 ### คำถามที่ 5: มีการสนับสนุนทางเทคนิคสำหรับผู้ใช้ Aspose.Note หรือไม่
 
  A5: ใช่ มีการสนับสนุนทางเทคนิคผ่านฟอรัม Aspose[ที่นี่](https://forum.aspose.com/c/note/28)โดยคุณสามารถขอความช่วยเหลือจากผู้เชี่ยวชาญได้
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

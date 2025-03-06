@@ -3,10 +3,16 @@ title: Salvar usando o subsistema de fontes especificado no OneNote
 linktitle: Salvar usando o subsistema de fontes especificado no OneNote
 second_title: API Java Aspose.Note
 description: Aprenda como salvar documentos do OneNote usando o subsistema de fontes especificado em Java com Aspose.Note. Garanta uma representação consistente de fontes em todas as plataformas sem esforço.
-type: docs
 weight: 22
 url: /pt/java/onenote-document-saving/save-using-specified-fonts-subsystem/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Salvar usando o subsistema de fontes especificado no OneNote
+
 ## Introdução
 
 Aspose.Note for Java fornece recursos robustos para trabalhar com documentos do OneNote. Um requisito comum ao trabalhar com tais documentos é garantir que as fontes sejam mantidas adequadamente, especialmente se o documento for exportado ou salvo em formatos diferentes, como PDF. Este tutorial irá guiá-lo através do processo de salvar documentos do OneNote enquanto especifica o subsistema de fontes, garantindo uma representação consistente e precisa do texto em várias plataformas.
@@ -152,3 +158,9 @@ A4: Sim, você pode personalizar as propriedades da fonte, como tamanho, estilo 
 ### Q5: Existe uma versão de teste disponível para Aspose.Note para Java?
 
 A5: Sim, você pode obter uma avaliação gratuita do Aspose.Note para Java no site.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

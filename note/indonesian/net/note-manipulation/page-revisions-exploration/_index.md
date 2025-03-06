@@ -3,10 +3,16 @@ title: Jelajahi Revisi Halaman di Dokumen Aspose.Note
 linktitle: Jelajahi Revisi Halaman di Dokumen Aspose.Note
 second_title: Aspose.Catatan .NET API
 description: Pelajari cara menjelajahi revisi halaman di dokumen Aspose.Note menggunakan kerangka .NET dengan panduan langkah demi langkah.
-type: docs
 weight: 14
 url: /id/net/note-manipulation/page-revisions-exploration/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Jelajahi Revisi Halaman di Dokumen Aspose.Note
+
 ## Perkenalan
 
 Dalam tutorial ini, kita akan mempelajari revisi halaman di dokumen Aspose.Note menggunakan kerangka .NET. Aspose.Note adalah perpustakaan canggih yang memungkinkan pengembang bekerja dengan file Microsoft OneNote secara terprogram, menawarkan berbagai fitur untuk memanipulasi dan mengekstrak data dari file ini.
@@ -88,3 +94,9 @@ A3: Ya, Anda dapat mengunduh uji coba gratis Aspose.Note untuk .NET dari[Di Sini
 ### Q5: Di mana saya dapat menemukan dukungan untuk Aspose.Note untuk .NET?
 
  A5: Anda dapat menemukan dukungan dan sumber daya di[Aspose.Catatan forum](https://forum.aspose.com/c/note/28).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

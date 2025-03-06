@@ -3,10 +3,16 @@ title: Создайте заголовок в стиле MS в Aspose.Note
 linktitle: Создайте заголовок в стиле MS в Aspose.Note
 second_title: Aspose.Note .NET API
 description: Узнайте, как создавать заголовки в стиле Microsoft в Aspose.Note для .NET. Улучшите представление вашего документа с помощью этого простого руководства.
-type: docs
 weight: 15
 url: /ru/net/text-manipulation/create-title-ms-style/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Создайте заголовок в стиле MS в Aspose.Note
+
 ## Введение
 Вы хотите улучшить процесс создания документов, добавив заголовки в стиле Microsoft с помощью Aspose.Note для .NET? Это подробное руководство проведет вас через шаги, позволяющие легко создавать заголовки в стиле MS. Aspose.Note для .NET — это мощный инструмент, который позволяет разработчикам программно манипулировать документами OneNote.
 ## Предварительные условия
@@ -80,3 +86,9 @@ Console.WriteLine("\nPage title set up successfully in Microsoft OneNote style.\
 Используйте механизмы обработки исключений в C#, чтобы выявлять и обрабатывать любые потенциальные ошибки, которые могут возникнуть в процессе создания документа.
 ### Где я могу найти дополнительные примеры и документацию для Aspose.Note для .NET?
  Обратитесь к[Документация Aspose.Note для .NET](https://reference.aspose.com/note/net/)подробные примеры и исчерпывающую документацию.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

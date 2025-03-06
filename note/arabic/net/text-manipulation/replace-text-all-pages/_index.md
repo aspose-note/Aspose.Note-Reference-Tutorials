@@ -3,10 +3,16 @@ title: استبدال النص في كافة الصفحات في Aspose.Note
 linktitle: استبدال النص في كافة الصفحات في Aspose.Note
 second_title: Aspose.Note .NET API
 description: أطلق العنان لإمكانات Aspose.Note لـ .NET من خلال دليلنا خطوة بخطوة حول استبدال النص في جميع الصفحات. تبسيط معالجة المستندات دون عناء.
-type: docs
 weight: 21
 url: /ar/net/text-manipulation/replace-text-all-pages/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# استبدال النص في كافة الصفحات في Aspose.Note
+
 في المشهد الديناميكي لتطوير .NET، يبرز Aspose.Note كأداة قوية لمعالجة المستندات وإدارتها دون عناء. في هذا الدليل الشامل، سنستكشف تعقيدات استبدال النص في جميع الصفحات باستخدام Aspose.Note لـ .NET. سواء كنت مطورًا متمرسًا أو بدأت رحلتك للتو، تابع معنا بينما نقوم بتفصيل كل خطوة لتسخير الإمكانات الكاملة لهذه المكتبة متعددة الاستخدامات.
 ## المقدمة: احتضان ميزة Aspose.Note
 يعمل Aspose.Note for .NET على تمكين المطورين من التعامل مع ملفات OneNote بسهولة. تفتح القدرة على استبدال النص في جميع الصفحات عددًا لا يحصى من الإمكانيات لتحسين المستندات وتخصيصها. في هذا البرنامج التعليمي، سنتعمق في عملية استبدال النص بكفاءة، مما يتيح لك تبسيط سير عمل معالجة المستندات لديك.
@@ -80,3 +86,9 @@ Console.WriteLine("\nText replaced successfully on all pages.\nFile saved at " +
  ج: قم بزيارة[توثيق](https://reference.aspose.com/note/net/) للحصول على موارد ودروس متعمقة.
 ### س: هل يمكنني استخدام Aspose.Note للمشاريع التجارية؟
 ج: نعم، استكشف خيارات الترخيص وقم بإجراء عمليات الشراء[هنا](https://purchase.aspose.com/buy).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

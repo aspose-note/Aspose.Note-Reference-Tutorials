@@ -3,10 +3,16 @@ title: Aspose.Note에서 특정 페이지를 이미지로 변환
 linktitle: Aspose.Note에서 특정 페이지를 이미지로 변환
 second_title: Aspose.Note .NET API
 description: .NET용 Aspose.Note를 사용하여 프로그래밍 방식으로 Microsoft OneNote 문서의 특정 페이지를 이미지로 변환하는 방법을 알아보세요.
-type: docs
 weight: 11
 url: /ko/net/loading-and-saving-operations/convert-specific-page-to-image/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Aspose.Note에서 특정 페이지를 이미지로 변환
+
 ## 소개
 
 Aspose.Note for .NET은 개발자가 Microsoft OneNote 문서를 프로그래밍 방식으로 작업할 수 있게 해주는 강력한 API입니다. 콘텐츠를 추출하거나, 문서를 다른 형식으로 변환하거나, OneNote 파일 내의 요소를 조작해야 하는 경우 Aspose.Note for .NET은 작업을 간소화하는 포괄적인 기능을 제공합니다. 이 튜토리얼에서는 .NET용 Aspose.Note를 활용하여 OneNote 문서의 특정 페이지를 이미지로 변환하는 방법을 살펴보겠습니다. 전제조건을 다루고, 네임스페이스를 가져오고, 변환 프로세스 구현에 대한 단계별 지침을 제공합니다.
@@ -100,3 +106,9 @@ A4: 예, 요구 사항에 따라 이미지 품질을 설정할 수 있습니다.
 ### Q5: .NET용 Aspose.Note에 대한 지원은 어디서 받을 수 있나요?
 
  A5: .NET용 Aspose.Note 커뮤니티에서 지원을 받을 수 있습니다.[법정](https://forum.aspose.com/c/note/28).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

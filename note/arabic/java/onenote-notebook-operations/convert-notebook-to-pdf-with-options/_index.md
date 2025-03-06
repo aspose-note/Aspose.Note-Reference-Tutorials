@@ -3,10 +3,16 @@ title: تحويل دفتر الملاحظات إلى PDF باستخدام الخ
 linktitle: تحويل دفتر الملاحظات إلى PDF باستخدام الخيارات في OneNote - Aspose.Note
 second_title: Aspose.Note جافا API
 description: قم بتخصيص وتصدير دفاتر ملاحظات OneNote إلى PDF بسهولة! Aspose.Note لـ Java يتعامل مع الرفع الثقيل. دليل خطوة بخطوة متضمن! #OneNote #Java #Aspose
-type: docs
 weight: 17
 url: /ar/java/onenote-notebook-operations/convert-notebook-to-pdf-with-options/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# تحويل دفتر الملاحظات إلى PDF باستخدام الخيارات في OneNote - Aspose.Note
+
 ## مقدمة
 
 في هذا البرنامج التعليمي، سنتعمق في عالم تحويل دفاتر الملاحظات إلى PDF مع خيارات قابلة للتخصيص باستخدام Aspose.Note لـ Java. Aspose.Note عبارة عن واجهة برمجة تطبيقات Java قوية تسمح للمطورين بمعالجة مستندات Microsoft OneNote برمجيًا. يعد تحويل دفاتر الملاحظات إلى تنسيق PDF متطلبًا شائعًا في العديد من التطبيقات، ومع Aspose.Note، تصبح هذه المهمة مبسطة وفعالة.
@@ -90,3 +96,9 @@ notebook.save(dataDir, notebookSaveOptions);
 ### س5: كيف يمكنني الحصول على الدعم لـ Aspose.Note؟
 
  ج5: للحصول على أي مساعدة فنية أو استفسارات، يمكنك زيارة منتدى دعم Aspose.Note[هنا](https://forum.aspose.com/c/note/28).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

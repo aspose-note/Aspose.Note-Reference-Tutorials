@@ -3,10 +3,16 @@ title: OneNote Java integráció
 linktitle: OneNote Java integráció
 second_title: Aspose.Note Java API
 description: Növelje OneNote-élményét az Aspose.Note Java segítségével! Fedezze fel az oktatóanyagokat a fájlok csatolásáról, az ikonok beállításáról és a mellékletek programozott letöltéséről a Java használatával.
-type: docs
 weight: 20
 url: /hu/java/onenote-java-integration/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# OneNote Java integráció
+
 ## Bevezetés
 
 Üdvözöljük átfogó útmutatónkban a OneNote és a Java integrációjáról az Aspose.Note használatával. Akár tapasztalt fejlesztő, akár most kezdő, ezek az oktatóanyagok lehetővé teszik, hogy programozottan maximalizálja OneNote-képességeit.
@@ -36,3 +42,9 @@ Ismerje meg, hogyan csatolhat fájlokat és állíthat be ikonokat a OneNote-ban
 Ismerje meg, hogyan csatolhat fájlokat programozottan a OneNote-jegyzeteihez Java és Aspose.Note használatával.
 ### [Melléklet lekérése a OneNote-ból Java használatával](./retrieve-attachment/)
 Ismerje meg, hogyan tölthet le mellékleteket a OneNote-ból Java használatával az Aspose.Note segítségével, amely egy hatékony API a zökkenőmentes dokumentumkezeléshez.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

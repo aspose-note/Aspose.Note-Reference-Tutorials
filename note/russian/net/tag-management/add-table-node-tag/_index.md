@@ -3,10 +3,16 @@ title: Добавьте узел таблицы с тегом в Aspose.Note
 linktitle: Добавьте узел таблицы с тегом в Aspose.Note
 second_title: Aspose.Note .NET API
 description: Узнайте, как добавлять таблицы с тегами в Aspose.Note для .NET. Совершенствуйте свои навыки работы с документами программно.
-type: docs
 weight: 11
 url: /ru/net/tag-management/add-table-node-tag/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Добавьте узел таблицы с тегом в Aspose.Note
+
 ## Введение
 
 В этом руководстве мы покажем вам процесс добавления узла таблицы с тегом с помощью Aspose.Note для .NET. Чтобы добиться этого, выполните следующие действия.
@@ -137,3 +143,9 @@ A1: Aspose.Note для .NET поддерживает .NET Framework версии
 ### В5: Доступна ли техническая поддержка для пользователей Aspose.Note?
 
  О5: Да, техническая поддержка предоставляется через форумы Aspose.[здесь](https://forum.aspose.com/c/note/28), где вы можете обратиться за помощью к специалистам.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

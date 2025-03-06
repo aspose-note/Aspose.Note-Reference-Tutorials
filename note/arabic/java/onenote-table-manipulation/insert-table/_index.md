@@ -3,10 +3,16 @@ title: إدراج جدول في OneNote - Aspose.Note
 linktitle: إدراج جدول في OneNote - Aspose.Note
 second_title: Aspose.Note جافا API
 description: تعرّف على كيفية إدراج الجداول في OneNote باستخدام Aspose.Note لـ Java. دليل خطوة بخطوة لإنشاء المحتوى الديناميكي. تعزيز المستندات الخاصة بك دون عناء.
-type: docs
 weight: 16
 url: /ar/java/onenote-table-manipulation/insert-table/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# إدراج جدول في OneNote - Aspose.Note
+
 ## مقدمة
 إذا كنت تتطلع إلى تحسين مستندات OneNote الخاصة بك عن طريق إدراج الجداول برمجيًا، فإن Aspose.Note for Java هو الحل الأمثل لك. في هذا الدليل التفصيلي، سنرشدك خلال عملية إدراج جدول في مستند OneNote باستخدام مكتبة Java القوية الخاصة بـ Aspose.Note.
 ## المتطلبات الأساسية
@@ -101,3 +107,9 @@ public static OutlineElement GetOutlineElementWithText(String text)
  ج: نعم، يمكنك استكشاف المكتبة مع أ[تجربة مجانية](https://releases.aspose.com/).
 ### س: كيف يمكنني الحصول على ترخيص مؤقت لـ Aspose.Note لـ Java؟
  ج: احصل على ترخيص مؤقت[هنا](https://purchase.aspose.com/temporary-license/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

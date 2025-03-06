@@ -3,10 +3,16 @@ title: Δημιουργήστε έγγραφο και εισαγάγετε ει�
 linktitle: Δημιουργήστε έγγραφο και εισαγάγετε εικόνα με τη ροή στο OneNote - Java
 second_title: Aspose.Note Java API
 description: Μάθετε πώς να ενσωματώνετε εύκολα εικόνες σε έγγραφα του OneNote χρησιμοποιώντας το Aspose.Note για Java. Βήμα προς βήμα μάθημα για προγραμματιστές Java.
-type: docs
 weight: 13
 url: /el/java/onenote-hyperlinks-images/build-doc-insert-image-stream/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Δημιουργήστε έγγραφο και εισαγάγετε εικόνα με τη ροή στο OneNote - Java
+
 ## Εισαγωγή
 
 Καλώς ήρθατε στο περιεκτικό μας σεμινάριο σχετικά με τη χρήση του Aspose.Note για Java για τη δημιουργία εγγράφων και την εισαγωγή εικόνων χρησιμοποιώντας ροές εικόνων στο OneNote! Σε αυτό το σεμινάριο, θα σας καθοδηγήσουμε στη διαδικασία βήμα προς βήμα, διασφαλίζοντας ότι έχετε ξεκάθαρη κατανόηση κάθε σταδίου. Στο τέλος, θα μπορείτε να ενσωματώνετε εύκολα εικόνες στα έγγραφά σας στο OneNote χρησιμοποιώντας Java.
@@ -180,3 +186,10 @@ A4: Μπορείτε να αποκτήσετε πρόσβαση σε τεκμη�
 ### Ε5: Υπάρχει διαθέσιμη δοκιμαστική έκδοση για το Aspose.Note για Java;
 
 A5: Ναι, μπορείτε να αποκτήσετε μια δωρεάν δοκιμή του Aspose.Note για την Java για να εξερευνήσετε τις δυνατότητες και τις δυνατότητές της πριν λάβετε μια απόφαση αγοράς.
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

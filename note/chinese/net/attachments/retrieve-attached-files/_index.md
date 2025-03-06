@@ -3,10 +3,16 @@ title: 使用 Aspose.Note 检索附加文件
 linktitle: 使用 Aspose.Note 检索附加文件
 second_title: Aspose.Note .NET API
 description: 了解如何使用 Aspose.Note for .NET 从 Microsoft OneNote 文档中检索附加文件。按照步骤加载、获取节点并迭代附件。
-type: docs
 weight: 12
 url: /zh/net/attachments/retrieve-attached-files/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# 使用 Aspose.Note 检索附加文件
+
 ## 介绍
 
 在本教程中，我们将探讨如何使用 Aspose.Note for .NET 从文档中检索附加文件。 Aspose.Note 是一个功能强大的 API，允许开发人员以编程方式处理 Microsoft OneNote 文件。我们将把这个过程分解为简单的步骤，以便于遵循。
@@ -90,3 +96,9 @@ A4：是的，您可以在做出购买决定之前免费试用 Aspose.Note 来�
 ### Q5：如何获得Aspose.Note的临时许可证？
 
 A5：您可以向 Aspose 请求临时许可证，以在您的开发环境中评估 API 的全部功能。
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

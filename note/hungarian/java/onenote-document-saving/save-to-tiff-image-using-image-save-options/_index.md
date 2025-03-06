@@ -3,10 +3,16 @@ title: Mentés TIFF-képbe a OneNote képmentési beállításaival
 linktitle: Mentés TIFF-képbe a OneNote képmentési beállításaival
 second_title: Aspose.Note Java API
 description: Konvertálja a OneNote-dokumentumokat TIFF-re, és szabályozza a fájlméretet és -minőséget! Java nyelven válassza a Jpeg, PackBits vagy Fax tömörítést. Szerezzen kódpéldákat és tanulja meg, hogyan! #OneNote #Java #Aspose
-type: docs
 weight: 21
 url: /hu/java/onenote-document-saving/save-to-tiff-image-using-image-save-options/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Mentés TIFF-képbe a OneNote képmentési beállításaival
+
 ## Bevezetés
 
 Ebből az oktatóanyagból megtudhatja, hogyan menthet dokumentumot TIFF képformátumba az Aspose.Note for Java különböző tömörítési módszereivel. Kitérünk az előfeltételekre, a csomagok importálására, és lépésről lépésre útmutatót adunk minden egyes tömörítési módhoz.
@@ -121,3 +127,9 @@ V4: Igen, beállíthatja az olyan paramétereket, mint a minőség, a felbontás
 ### 5. kérdés: Az Aspose.Note for Java technikai támogatást nyújt?
 
 5. válasz: Igen, az Aspose átfogó technikai támogatást nyújt fórumokon és jegyalapú rendszereken keresztül.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

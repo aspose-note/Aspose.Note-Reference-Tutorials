@@ -3,10 +3,16 @@ title: 檢索 Aspose.Note 文字中的項目符號或編號列表
 linktitle: 檢索 Aspose.Note 文字中的項目符號或編號列表
 second_title: Aspose.Note .NET API
 description: 透過我們有關檢索項目符號或編號清單的逐步指南來釋放 Aspose.Note for .NET 的潛力。提升您的 OneNote 文件操作技能！
-type: docs
 weight: 23
 url: /zh-hant/net/text-manipulation/retrieve-bullet-number-list/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# 檢索 Aspose.Note 文字中的項目符號或編號列表
+
 ## 介紹
 歡迎來到 Aspose.Note for .NET 的世界，這是一個強大且多功能的程式庫，使開發人員能夠輕鬆處理 OneNote 文件操作。在本教學中，我們將深入研究使用 Aspose.Note for .NET 擷取項目符號或編號清單的過程。無論您是經驗豐富的開發人員還是編碼愛好者，本指南都將為您提供在 Aspose.Note 中使用清單的複雜知識。
 ## 先決條件
@@ -87,3 +93,9 @@ Aspose.Note 主要支援 .NET，但該程式庫還有其他針對不同平台和
 您可以探索並尋求幫助[Aspose.Note 論壇](https://forum.aspose.com/c/note/28)對於您可能遇到的任何疑問或問題。
 ### Aspose.Note for .NET 有免費試用版嗎？
 是的，您可以存取 Aspose.Note for .NET 的免費試用版[這裡](https://releases.aspose.com/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

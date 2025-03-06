@@ -3,10 +3,16 @@ title: Aspose.Note에서 태그를 사용하여 보고
 linktitle: Aspose.Note에서 태그를 사용하여 보고
 second_title: Aspose.Note .NET API
 description: .NET용 Aspose.Note를 사용하여 디지털 문서에서 통찰력 있는 보고서를 생성하는 방법을 알아보세요. 단계별 가이드가 제공됩니다.
-type: docs
 weight: 16
 url: /ko/net/tag-management/reporting-tags/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Aspose.Note에서 태그를 사용하여 보고
+
 ## 소개
 
 문서 처리 및 관리 영역에서 Aspose.Note for .NET은 디지털 문서 내의 메모, 주석 및 태그를 처리하는 강력한 도구로 돋보입니다. 태그는 문서 내의 정보를 구성, 분류 및 필터링하여 효율적인 검색 및 분석을 가능하게 하는 데 중요한 역할을 합니다. 이 튜토리얼에서는 Aspose.Note에서 태그를 사용한 보고의 복잡성을 자세히 살펴보고 다양한 기준에 따라 보고서를 생성하는 방법에 대한 단계별 지침을 제공합니다.
@@ -133,3 +139,9 @@ A2: 예, 다음에서 .NET용 Aspose.Note 무료 평가판에 액세스할 수 �
 ## Q5: .NET용 Aspose.Note에서 보고 기준을 사용자 정의할 수 있습니까?
 
 A5: 예, 제공된 API와 예제를 사용하여 특정 요구 사항에 따라 보고 기준을 맞춤화할 수 있습니다.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

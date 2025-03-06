@@ -3,10 +3,16 @@ title: Εισαγωγή εικόνων με υπερσυνδέσμους στο 
 linktitle: Εισαγωγή εικόνων με υπερσυνδέσμους στο Aspose.Note
 second_title: Aspose.Note .NET API
 description: Μάθετε πώς να εισάγετε εικόνες με υπερσυνδέσμους στο Aspose.Note για .NET χωρίς κόπο. Βελτιώστε τη διαδραστικότητα εγγράφων με εικόνες με δυνατότητα κλικ.
-type: docs
 weight: 15
 url: /el/net/images/insert-image-hyperlink/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Εισαγωγή εικόνων με υπερσυνδέσμους στο Aspose.Note
+
 ## Εισαγωγή
 
 Το Aspose.Note για .NET παρέχει ένα ισχυρό σύνολο δυνατοτήτων για εργασία με εικόνες, συμπεριλαμβανομένης της δυνατότητας εισαγωγής εικόνων με υπερσυνδέσμους. Σε αυτό το σεμινάριο, θα σας καθοδηγήσουμε στη διαδικασία εισαγωγής εικόνων με υπερσυνδέσμους χρησιμοποιώντας το Aspose.Note για .NET.
@@ -89,3 +95,9 @@ A3: Ναι, μπορείτε να προσαρμόσετε την εμφάνισ
 ### Ε5: Πού μπορώ να λάβω υποστήριξη για το Aspose.Note για .NET;
 
  A5: Μπορείτε να λάβετε υποστήριξη για το Aspose.Note για .NET από το[Φόρουμ Aspose.Note](https://forum.aspose.com/c/note/28), όπου μπορείτε να κάνετε ερωτήσεις, να αναζητήσετε καθοδήγηση και να αλληλεπιδράσετε με άλλους χρήστες και ειδικούς.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

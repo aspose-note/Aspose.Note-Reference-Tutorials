@@ -3,10 +3,16 @@ title: OneNote でグレースケール画像に保存 - Aspose.Note
 linktitle: OneNote でグレースケール画像に保存 - Aspose.Note
 second_title: Aspose.Note Java API
 description: Aspose.Note for Java を使用して、OneNote でドキュメントをグレースケール イメージとして保存する方法を学習します。 Microsoft OneNote ドキュメントをプログラムで簡単に操作します。
-type: docs
 weight: 17
 url: /ja/java/onenote-document-saving/save-to-grayscale-image/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# OneNote でグレースケール画像に保存 - Aspose.Note
+
 ## 導入
 
 このチュートリアルでは、Aspose.Note for Java を使用して、OneNote でドキュメントをグレースケール画像として保存する方法を説明します。グレースケール イメージは、色情報がグレーの階調だけで表されるモノクロ画像です。 Aspose.Note は、Microsoft OneNote ドキュメントをプログラムで操作できる強力な Java API です。
@@ -83,3 +89,9 @@ A4：もちろんです！ Aspose.Note は、OneNote ドキュメントをプロ
 ### Q5: 問題が発生した場合、どこでサポートを受けられますか?
 
 A5: Aspose.Note フォーラムでサポートを見つけることができます。[ここ](https://forum.aspose.com/c/note/28).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

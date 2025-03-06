@@ -3,10 +3,16 @@ title: 使用 Aspose.Note for .NET 在 OneNote 中进行文本操作
 linktitle: 文本处理
 second_title: Aspose.Note .NET API
 description: 使用 Aspose.Note for .NET 转换您的 OneNote 文档！学习文本操作技术，从应用项目符号和编号到改变样式。
-type: docs
 weight: 31
 url: /zh/net/text-manipulation/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# 使用 Aspose.Note for .NET 在 OneNote 中进行文本操作
+
 
 ## 介绍
 
@@ -110,3 +116,9 @@ url: /zh/net/text-manipulation/
 通过我们有关设置默认段落样式的分步指南，探索 Aspose.Note for .NET 的强大功能。毫不费力地提高您的文档操作技能。
 ### [在 Aspose.Note 中设置文本校对语言](./set-proofing-language-text/)
 使用 Aspose.Note for .NET 解锁强大的文本操作。通过分步指导轻松设置校对语言。立即增强您的 .NET 项目！
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

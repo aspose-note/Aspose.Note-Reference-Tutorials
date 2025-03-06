@@ -3,10 +3,16 @@ title: Erstellen Sie eine Aufzählungsliste in OneNote – Aspose.Note
 linktitle: Erstellen Sie eine Aufzählungsliste in OneNote – Aspose.Note
 second_title: Aspose.Note Java API
 description: Entdecken Sie die Schritt-für-Schritt-Anleitung zum Erstellen von Aufzählungslisten in OneNote mit Aspose.Note für Java. Erweitern Sie Ihre Dokumentenerstellung ganz einfach.
-type: docs
 weight: 12
 url: /de/java/onenote-text-manipulation/create-bulleted-list/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Erstellen Sie eine Aufzählungsliste in OneNote – Aspose.Note
+
 ## Einführung
 In der dynamischen Landschaft der Java-Entwicklung ist die Erstellung ansprechender und organisierter Dokumente von entscheidender Bedeutung. Aspose.Note für Java bietet ein leistungsstarkes Toolset zur Verbesserung Ihres Dokumenterstellungsprozesses. Dieses Tutorial führt Sie durch den Prozess der Erstellung von Aufzählungslisten in OneNote mit Aspose.Note für Java. Lassen Sie uns in die Details eintauchen.
 ## Voraussetzungen
@@ -92,3 +98,9 @@ Absolut! Sie können die Schriftart, Farbe und Größe der Elemente der Aufzähl
  Ja, Sie können eine kostenlose Testversion ausprobieren[Hier](https://releases.aspose.com/).
 ### Wie kann ich eine temporäre Lizenz für Aspose.Note für Java erhalten?
  Holen Sie sich eine temporäre Lizenz[Hier](https://purchase.aspose.com/temporary-license/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

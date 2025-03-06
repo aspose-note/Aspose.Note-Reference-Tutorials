@@ -3,10 +3,16 @@ title: Αποθήκευση με χρήση του υποσυστήματος κ
 linktitle: Αποθήκευση με χρήση του υποσυστήματος καθορισμένων γραμματοσειρών στο OneNote
 second_title: Aspose.Note Java API
 description: Μάθετε πώς να αποθηκεύετε έγγραφα του OneNote χρησιμοποιώντας καθορισμένο υποσύστημα γραμματοσειρών σε Java με το Aspose.Note. Εξασφαλίστε συνεπή αναπαράσταση γραμματοσειρών σε όλες τις πλατφόρμες χωρίς κόπο.
-type: docs
 weight: 22
 url: /el/java/onenote-document-saving/save-using-specified-fonts-subsystem/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Αποθήκευση με χρήση του υποσυστήματος καθορισμένων γραμματοσειρών στο OneNote
+
 ## Εισαγωγή
 
 Το Aspose.Note για Java παρέχει ισχυρές δυνατότητες για εργασία με έγγραφα OneNote. Μια κοινή απαίτηση όταν εργάζεστε με τέτοια έγγραφα είναι να διασφαλίζετε ότι οι γραμματοσειρές διατηρούνται σωστά, ειδικά εάν το έγγραφο πρόκειται να εξαχθεί ή να αποθηκευτεί σε διαφορετικές μορφές όπως το PDF. Αυτό το σεμινάριο θα σας καθοδηγήσει στη διαδικασία αποθήκευσης εγγράφων του OneNote καθορίζοντας παράλληλα το υποσύστημα γραμματοσειρών, διασφαλίζοντας συνεπή και ακριβή αναπαράσταση του κειμένου σε διάφορες πλατφόρμες.
@@ -152,3 +158,9 @@ A4: Ναι, μπορείτε να προσαρμόσετε τις ιδιότητ
 ### Ε5: Υπάρχει διαθέσιμη δοκιμαστική έκδοση για το Aspose.Note για Java;
 
 A5: Ναι, μπορείτε να λάβετε μια δωρεάν δοκιμή του Aspose.Note για Java από τον ιστότοπο.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

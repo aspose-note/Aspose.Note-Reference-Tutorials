@@ -3,10 +3,16 @@ title: OneNote에서 고정 임계값을 사용하여 이진 이미지에 저장
 linktitle: OneNote에서 고정 임계값을 사용하여 이진 이미지에 저장
 second_title: Aspose.Note 자바 API
 description: Aspose.Note Java의 고정 임계값을 사용하여 Microsoft OneNote 문서를 바이너리 이미지로 쉽게 저장할 수 있습니다. OneNote 파일 조작 기능을 향상하세요.
-type: docs
 weight: 14
 url: /ko/java/onenote-document-saving/save-to-binary-image-using-fixed-threshold/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# OneNote에서 고정 임계값을 사용하여 이진 이미지에 저장
+
 ## 소개
 
 Aspose.Note for Java는 개발자가 Microsoft OneNote 파일을 프로그래밍 방식으로 작업할 수 있게 해주는 강력한 API입니다. 이 튜토리얼에서는 고정된 임계값을 사용하여 문서를 바이너리 이미지로 저장하는 방법을 살펴보겠습니다. 이를 달성하려면 아래 단계를 따르십시오.
@@ -91,3 +97,9 @@ A4: 예, 각 파일을 반복하고 필요한 작업을 적용하여 여러 OneN
 ### Q5: Aspose.Note for Java에 대한 기술 지원이 가능한가요?
 
  A5: 예, 기술 지원은 다음을 통해 제공됩니다.[Aspose.Note 포럼](https://forum.aspose.com/c/note/28)에서 질문을 하고 전문가에게 도움을 구할 수 있습니다.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

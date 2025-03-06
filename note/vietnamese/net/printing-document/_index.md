@@ -3,10 +3,16 @@ title: Làm chủ việc in OneNote bằng Aspose.Note cho .NET
 linktitle: In tài liệu
 second_title: Aspose.Note .NET API
 description: In tài liệu OneNote bằng Aspose.Note for .NET. Khám phá khả năng tích hợp liền mạch vào các ứng dụng .NET, tùy chỉnh các tùy chọn in và giải phóng sức mạnh của việc in tài liệu.
-type: docs
 weight: 28
 url: /vi/net/printing-document/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Làm chủ việc in OneNote bằng Aspose.Note cho .NET
+
 ## Giới thiệu
 
 Bạn đã sẵn sàng nâng tầm trò chơi in tài liệu của mình bằng Aspose.Note cho .NET chưa? Đừng tìm đâu xa! Trong hướng dẫn chi tiết này, chúng tôi sẽ đi sâu vào hai hướng dẫn cần thiết, đảm bảo bạn có thể in tài liệu OneNote một cách dễ dàng và tùy chỉnh các tùy chọn in để có trải nghiệm phù hợp.
@@ -49,3 +55,9 @@ Tóm lại, việc thành thạo việc in và tùy chỉnh tài liệu bằng A
 Tìm hiểu cách in tài liệu OneNote bằng Aspose.Note cho .NET. Hướng dẫn từng bước để tích hợp liền mạch vào các ứng dụng .NET của bạn.
 ### [Tùy chỉnh in bằng Aspose.Note Tùy chọn in](./customize-printing-options/)
 Tìm hiểu cách tùy chỉnh việc in tài liệu bằng Aspose.Note for .NET. Tinh chỉnh cài đặt để có bản in tối ưu.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

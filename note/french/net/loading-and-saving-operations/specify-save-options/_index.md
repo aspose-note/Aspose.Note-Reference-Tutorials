@@ -3,10 +3,16 @@ title: Spécifier les options d'enregistrement dans Aspose.Note
 linktitle: Spécifier les options d'enregistrement dans Aspose.Note
 second_title: API Aspose.Note .NET
 description: Découvrez comment spécifier les options d'enregistrement dans Aspose.Note pour .NET afin de personnaliser le format de sortie et la qualité des documents OneNote.
-type: docs
 weight: 30
 url: /fr/net/loading-and-saving-operations/specify-save-options/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Spécifier les options d'enregistrement dans Aspose.Note
+
 ## Introduction
 
 Dans le domaine du développement .NET, Aspose.Note se distingue comme un outil puissant pour travailler avec des documents OneNote. Il offre un ensemble complet de fonctionnalités pour manipuler et gérer efficacement ces fichiers. Un aspect crucial du travail avec Aspose.Note consiste à spécifier des options de sauvegarde, qui permettent aux développeurs de personnaliser le format et la qualité de sortie en fonction de leurs besoins.
@@ -94,3 +100,9 @@ R4 : Aspose.Note est conçu pour gérer des documents OneNote de différentes t
 ### Q5 : Aspose.Note offre-t-il un support et une assistance aux développeurs rencontrant des problèmes ?
 
 A5 : Oui, les développeurs peuvent demander de l'aide et de l'assistance à l'équipe d'assistance Aspose.Note via le forum ou en contactant directement Aspose pour une résolution rapide de tout problème ou requête.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

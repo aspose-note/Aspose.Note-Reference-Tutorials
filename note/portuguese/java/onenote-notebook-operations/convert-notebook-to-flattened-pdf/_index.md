@@ -3,10 +3,16 @@ title: Converter bloco de notas em PDF nivelado no OneNote - Aspose.Note
 linktitle: Converter bloco de notas em PDF nivelado no OneNote - Aspose.Note
 second_title: API Java Aspose.Note
 description: Converta cadernos em PDFs achatados sem esforço com Aspose.Note para Java. Aproveite opções perfeitas de integração e personalização.
-type: docs
 weight: 16
 url: /pt/java/onenote-notebook-operations/convert-notebook-to-flattened-pdf/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Converter bloco de notas em PDF nivelado no OneNote - Aspose.Note
+
 ## Introdução
 
 Neste tutorial, exploraremos como converter um notebook em um formato PDF nivelado usando Aspose.Note para Java. A conversão de cadernos em PDFs é um requisito comum para muitos aplicativos, e o Aspose.Note simplifica esse processo com seu conjunto abrangente de recursos e API fácil de usar.
@@ -82,3 +88,9 @@ A3: Sim, você pode converter em lote vários cadernos em PDFs de forma eficient
 ### Q5: Onde posso encontrar suporte para Aspose.Note para Java?
 
  A5: Você pode encontrar suporte e assistência para Aspose.Note for Java no site[Fórum Aspose.Note](https://forum.aspose.com/c/note/28).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

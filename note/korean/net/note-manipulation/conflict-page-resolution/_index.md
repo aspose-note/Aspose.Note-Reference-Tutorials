@@ -3,10 +3,16 @@ title: Aspose.Note 문서의 충돌 해결
 linktitle: Aspose.Note 문서의 충돌 해결
 second_title: Aspose.Note .NET API
 description: .NET을 사용하여 Aspose.Note 문서의 충돌을 해결하는 방법을 알아보세요. 효율적인 갈등 해결을 위한 단계별 가이드입니다.
-type: docs
 weight: 10
 url: /ko/net/note-manipulation/conflict-page-resolution/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Aspose.Note 문서의 충돌 해결
+
 ## 소개
 
 Aspose.Note 문서의 충돌을 해결하는 것은 특히 공동 프로젝트나 여러 기여자를 처리할 때 중요한 작업입니다. 이러한 충돌은 문서 내 동시 편집, 버전 차이 또는 기타 불일치로 인해 발생할 수 있습니다. 이 튜토리얼에서는 .NET을 사용하여 Aspose.Note 문서 내에서 충돌을 식별하고 해결하는 프로세스를 자세히 살펴보겠습니다. 다음 단계를 따르면 충돌을 효율적으로 관리하고 문서 무결성을 보장할 수 있습니다.
@@ -100,3 +106,9 @@ A4: 예, Aspose.Note API를 사용하여 .NET 애플리케이션 내에서 사�
 ### Q5: Aspose.Note는 실시간 협업 기능을 지원합니까?
 
 A5: Aspose.Note는 주로 문서 조작에 중점을 두고 있으며 기본적으로 실시간 공동 작업 기능을 제공하지 않습니다.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -3,10 +3,16 @@ title: 在 OneNote 中設定儲存格背景顏色 - Aspose.Note
 linktitle: 在 OneNote 中設定儲存格背景顏色 - Aspose.Note
 second_title: Aspose.Note Java API
 description: 使用 Aspose.Note for Java 輕鬆轉換 OneNote 文件。輕鬆自訂儲存格背景顏色。立即免費試用！
-type: docs
 weight: 17
 url: /zh-hant/java/onenote-table-manipulation/setting-cell-background-color/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# 在 OneNote 中設定儲存格背景顏色 - Aspose.Note
+
 ## 介紹
 歡迎來到我們關於使用 Aspose.Note for Java 在 OneNote 中設定單元格背景顏色的教學課程！在本逐步指南中，我們將引導您輕鬆完成在 OneNote 文件中自訂儲存格背景顏色的過程。
 ## 先決條件
@@ -66,3 +72,9 @@ cell11.setBackgroundColor(Color.BLACK);
 造訪支援論壇[這裡](https://forum.aspose.com/c/note/28)從 Aspose 社區獲取協助。
 ### 在哪裡可以購買 Aspose.Note for Java？
 您可以購買圖書館[這裡](https://purchase.aspose.com/buy).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

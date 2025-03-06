@@ -3,10 +3,16 @@ title: Caricare i notebook dal flusso in Aspose Note .NET
 linktitle: Caricare i notebook dal flusso in Aspose Note .NET
 second_title: Aspose.Note API .NET
 description: Scopri come caricare i notebook da un flusso in Aspose.Note per .NET. Segui questa guida passo passo per un'integrazione perfetta nelle tue applicazioni .NET.
-type: docs
 weight: 19
 url: /it/net/notebook-operations/load-notebooks-from-stream/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Caricare i notebook dal flusso in Aspose Note .NET
+
 ## introduzione
 
 In questo tutorial esploreremo come caricare i notebook da un flusso utilizzando Aspose.Note per .NET. Aspose.Note è una potente libreria che consente agli sviluppatori di lavorare con i file Microsoft OneNote a livello di codice. Il caricamento di notebook da un flusso è un'attività comune quando si gestiscono operazioni di input/output di file nelle applicazioni .NET.
@@ -92,3 +98,9 @@ A1: Sì, Aspose.Note per .NET supporta varie versioni di file OneNote, inclusi .
 ### Q5: Esiste un'opzione per la licenza temporanea?
 
  R5: Sì, puoi ottenere una licenza temporanea da[Qui](https://purchase.aspose.com/temporary-license/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

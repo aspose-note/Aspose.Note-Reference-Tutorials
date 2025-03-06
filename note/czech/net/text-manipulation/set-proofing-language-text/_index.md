@@ -3,10 +3,16 @@ title: Nastavte jazyk kontroly pravopisu pro text v Aspose.Note
 linktitle: Nastavte jazyk kontroly pravopisu pro text v Aspose.Note
 second_title: Aspose.Note .NET API
 description: Odemkněte výkonnou manipulaci s textem pomocí Aspose.Note pro .NET. Nastavte jazyk korektury bez námahy pomocí podrobných pokynů. Vylepšete své .NET projekty nyní!
-type: docs
 weight: 25
 url: /cs/net/text-manipulation/set-proofing-language-text/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Nastavte jazyk kontroly pravopisu pro text v Aspose.Note
+
 ## Úvod
 Vítejte ve světě Aspose.Note pro .NET! V tomto komplexním průvodci prozkoumáme fascinující proces nastavení jazyka korektury textu pomocí Aspose.Note. Ať už jste zkušený vývojář nebo s Aspose.Note teprve začínáte, tento tutoriál vám poskytne podrobné informace a podrobné pokyny, jak zlepšit své dovednosti v manipulaci s textem.
 ## Předpoklady
@@ -89,3 +95,9 @@ Absolutně! Aspose.Note je pravidelně aktualizován, aby byla zajištěna kompa
  Rozhodně! Můžete získat přístup k bezplatné zkušební verzi Aspose.Note pro .NET[tady](https://releases.aspose.com/).
 ### Čelíte problémům nebo potřebujete pomoc?
  Navštivte[Fórum podpory Aspose.Note](https://forum.aspose.com/c/note/28) spojit se s komunitou a získat odbornou pomoc.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

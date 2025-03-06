@@ -3,10 +3,16 @@ title: Εφαρμόστε την άδεια χρήσης Aspose.Note χρησι�
 linktitle: Εφαρμόστε την άδεια χρήσης Aspose.Note χρησιμοποιώντας το FileStream
 second_title: Aspose.Note .NET API
 description: Μάθετε πώς να εφαρμόζετε μια άδεια χρήσης Aspose.Note χρησιμοποιώντας το FileStream στις εφαρμογές σας .NET για απρόσκοπτη ενσωμάτωση.
-type: docs
 weight: 12
 url: /el/net/licensing/apply-license-using-filestream/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Εφαρμόστε την άδεια χρήσης Aspose.Note χρησιμοποιώντας το FileStream
+
 ## Εισαγωγή
 
 Το Aspose.Note για .NET είναι ένα ισχυρό API που επιτρέπει στους προγραμματιστές να εργάζονται με αρχεία Microsoft OneNote μέσω προγραμματισμού. Είτε θέλετε να δημιουργήσετε, να διαβάσετε, να τροποποιήσετε ή να μετατρέψετε έγγραφα OneNote, το Aspose.Note για .NET παρέχει ολοκληρωμένες λειτουργίες για τον εξορθολογισμό της ροής εργασίας σας. Σε αυτό το σεμινάριο, θα διερευνήσουμε πώς να εφαρμόσετε μια άδεια χρήσης Aspose.Note χρησιμοποιώντας το FileStream, διασφαλίζοντας ότι η εφαρμογή σας έχει τη σωστή άδεια χρήσης για χρήση στην παραγωγή.
@@ -85,3 +91,9 @@ A4: Μπορείτε να λάβετε υποστήριξη από την κοι
 ### Ε5: Προσφέρετε προσωρινές άδειες;
 
  A5: Ναι, είναι διαθέσιμες προσωρινές άδειες[εδώ](https://purchase.aspose.com/temporary-license/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

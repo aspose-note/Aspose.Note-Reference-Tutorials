@@ -3,10 +3,16 @@ title: Преобразование блокнотов в PDF с помощью 
 linktitle: Преобразование блокнотов в PDF с помощью параметров в Aspose Note .NET
 second_title: Aspose.Note .NET API
 description: Узнайте, как конвертировать записные книжки Microsoft OneNote в формат PDF с помощью библиотеки Aspose.Note для .NET с настраиваемыми параметрами.
-type: docs
 weight: 16
 url: /ru/net/notebook-operations/convert-to-pdf-options/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Преобразование блокнотов в PDF с помощью параметров в Aspose Note .NET
+
 ## Введение
 
 В этом уроке мы рассмотрим процесс преобразования блокнотов в формат PDF с использованием библиотеки Aspose.Note для .NET. Aspose.Note для .NET предоставляет мощный набор функций для программной работы с файлами Microsoft OneNote.
@@ -102,3 +108,9 @@ Console.WriteLine("\nNoteBook document converted to pdf successfully with save o
 ### Вопрос 5: Как я могу получить техническую поддержку для Aspose.Note для .NET?
 
  О5: Вы можете получить техническую поддержку для Aspose.Note для .NET, посетив[Форум Aspose.Note](https://forum.aspose.com/c/note/28) или напрямую связавшись со службой поддержки Aspose.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

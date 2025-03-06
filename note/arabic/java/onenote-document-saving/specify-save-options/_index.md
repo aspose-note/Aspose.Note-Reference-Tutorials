@@ -3,10 +3,16 @@ title: حدد خيارات الحفظ في OneNote - Aspose.Note
 linktitle: حدد خيارات الحفظ في OneNote - Aspose.Note
 second_title: Aspose.Note جافا API
 description: تعرف على كيفية تحديد خيارات الحفظ في OneNote باستخدام Aspose.Note لـ Java. قم بتخصيص إعدادات فهرس الصفحات والعدد والضغط دون عناء.
-type: docs
 weight: 24
 url: /ar/java/onenote-document-saving/specify-save-options/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# حدد خيارات الحفظ في OneNote - Aspose.Note
+
 ## مقدمة
 
 في هذا البرنامج التعليمي، سوف نتعلم كيفية تحديد خيارات الحفظ في OneNote باستخدام Aspose.Note لـ Java. Aspose.Note هي مكتبة Java قوية تتيح للمطورين إنشاء مستندات OneNote ومعالجتها وتحويلها برمجيًا. باستخدام Aspose.Note، يمكنك التحكم بسهولة في خيارات الحفظ المختلفة لتخصيص الإخراج وفقًا لمتطلباتك.
@@ -109,3 +115,9 @@ doc.save(dataDir, opts);
 ### س5: هل Aspose.Note مناسب للاستخدام التجاري؟
 
 ج5: نعم، يمكن استخدام Aspose.Note لأغراض تجارية عن طريق شراء ترخيص.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

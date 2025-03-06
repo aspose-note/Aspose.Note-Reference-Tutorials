@@ -3,10 +3,16 @@ title: Преобразование блокнотов в изображения
 linktitle: Преобразование блокнотов в изображения с помощью параметров в Aspose Note .NET
 second_title: Aspose.Note .NET API
 description: Узнайте, как конвертировать блокноты в изображения с настраиваемыми параметрами с помощью Aspose.Note для .NET.
-type: docs
 weight: 13
 url: /ru/net/notebook-operations/convert-to-image-options/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Преобразование блокнотов в изображения с помощью параметров в Aspose Note .NET
+
 ## Введение
 
 В этом уроке мы углубимся в преобразование блокнотов в изображения с различными параметрами с помощью библиотеки Aspose.Note для .NET. Aspose.Note — это мощный .NET API, который позволяет разработчикам программно работать с файлами Microsoft OneNote. Выполнив шаги, описанные в этом руководстве, вы узнаете, как легко конвертировать блокноты в изображения, настраивая вывод в соответствии со своими требованиями.
@@ -95,3 +101,9 @@ notebook.Save(dataDir, notebookSaveOptions);
 ### Вопрос 5. Поддерживает ли Aspose.Note для .NET другие форматы изображений, кроме PNG?
 
 О5: Да, Aspose.Note для .NET поддерживает несколько форматов изображений, включая JPEG, BMP, GIF и TIFF.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

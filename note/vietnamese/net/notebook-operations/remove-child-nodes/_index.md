@@ -3,10 +3,16 @@ title: Xóa các nút con trong Aspose Note .NET
 linktitle: Xóa các nút con trong Aspose Note .NET
 second_title: Aspose.Note .NET API
 description: Tìm hiểu cách loại bỏ các nút con trong Aspose.Note dành cho .NET một cách dễ dàng. Đơn giản hóa việc quản lý tệp OneNote của bạn bằng hướng dẫn từng bước này.
-type: docs
 weight: 24
 url: /vi/net/notebook-operations/remove-child-nodes/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Xóa các nút con trong Aspose Note .NET
+
 ## Giới thiệu
 
 Trong hướng dẫn này, chúng ta sẽ khám phá cách loại bỏ các nút con một cách hiệu quả bằng cách sử dụng Aspose.Note cho .NET. Aspose.Note là một thư viện mạnh mẽ cho phép các nhà phát triển làm việc với các tệp Microsoft OneNote theo chương trình. Cho dù bạn đang quản lý sổ ghi chép, phần hay trang riêng lẻ, Aspose.Note đều đơn giản hóa quy trình bằng API trực quan. Ở đây, chúng tôi sẽ tập trung cụ thể vào việc xóa các nút con khỏi sổ ghi chép.
@@ -92,3 +98,9 @@ A4: Chắc chắn rồi! Aspose.Note cung cấp các tính năng mạnh mẽ đ�
 ### Câu hỏi 5: Tôi có thể tìm hỗ trợ bổ sung cho Aspose.Note ở đâu?
 
  Câu trả lời 5: Để được hỗ trợ hoặc giải đáp thêm bất kỳ thắc mắc nào, bạn có thể truy cập[Diễn đàn Aspose.Note](https://forum.aspose.com/c/note/28) nơi các chuyên gia và nhà phát triển đồng nghiệp sẵn sàng trợ giúp.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

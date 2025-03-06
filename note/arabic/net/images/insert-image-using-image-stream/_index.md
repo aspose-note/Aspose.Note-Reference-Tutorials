@@ -3,10 +3,16 @@ title: إدراج الصور باستخدام Image Stream في Aspose.Note
 linktitle: إدراج الصور باستخدام Image Stream في Aspose.Note
 second_title: Aspose.Note .NET API
 description: تعرف على كيفية إدراج الصور بسلاسة في مستندات Aspose.Note باستخدام تدفقات الصور في .NET. قم بتحسين ملفات الملاحظات الخاصة بك باستخدام العناصر المرئية دون عناء.
-type: docs
 weight: 11
 url: /ar/net/images/insert-image-using-image-stream/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# إدراج الصور باستخدام Image Stream في Aspose.Note
+
 ## مقدمة
 
 في هذا البرنامج التعليمي، سوف نستكشف كيفية إدراج الصور في مستند Aspose.Note باستخدام تدفقات الصور في .NET. Aspose.Note عبارة عن واجهة برمجة تطبيقات قوية تتيح للمطورين العمل مع ملفات Microsoft OneNote برمجيًا. باتباع الخطوات الموضحة في هذا الدليل، ستتعلم كيفية دمج الصور بسلاسة في مستندات Note الخاصة بك، مما يعزز جاذبيتها المرئية ووظائفها العامة.
@@ -120,3 +126,9 @@ A1: نعم، يمكنك إدراج صور متعددة في مستند واحد 
 ### س5: أين يمكنني العثور على موارد إضافية ودعم لـ Aspose.Note؟
 
  ج5: يمكنك العثور على وثائق ومنتديات ودعم شامل لـ Aspose.Note على موقع[منتدى أسبوز](https://forum.aspose.com/c/note/28).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

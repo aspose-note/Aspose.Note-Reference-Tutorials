@@ -3,10 +3,16 @@ title: Ajouter un nouveau nœud de table avec une balise dans OneNote - Aspose.N
 linktitle: Ajouter un nouveau nœud de table avec une balise dans OneNote - Aspose.Note
 second_title: API Java Aspose.Note
 description: Découvrez comment ajouter des nœuds de table dynamiques avec des balises dans OneNote à l'aide d'Aspose.Note pour Java. Améliorez l’organisation de vos documents sans effort.
-type: docs
 weight: 11
 url: /fr/java/onenote-tag-operations/add-new-table-node-with-tag/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Ajouter un nouveau nœud de table avec une balise dans OneNote - Aspose.Note
+
 ## Introduction
 Cherchez-vous à améliorer vos documents OneNote en ajoutant un nouveau nœud de tableau avec une balise ? Avec Aspose.Note pour Java, cette tâche devient simple, vous permettant de créer du contenu dynamique et organisé. Dans ce guide étape par étape, nous vous guiderons tout au long du processus d'ajout d'un nouveau nœud de table avec une balise dans OneNote à l'aide d'Aspose.Note pour Java.
 ## Conditions préalables
@@ -98,3 +104,9 @@ Absolument! Aspose.Note propose diverses options pour personnaliser l'apparence 
  Visiter le[Aspose.Note Documentation Java](https://reference.aspose.com/note/java/) pour des exemples complets et de la documentation.
 ### Comment puis-je obtenir de l'assistance pour Aspose.Note pour Java ?
  Visiter le[Forum Aspose.Note](https://forum.aspose.com/c/note/28) pour le soutien de la communauté ou[acheter un plan de support](https://purchase.aspose.com/buy) pour une assistance dédiée.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -3,10 +3,16 @@ title: Buat Dokumen dengan Root dan Sub Halaman di OneNote
 linktitle: Buat Dokumen dengan Root dan Sub Halaman di OneNote
 second_title: Aspose.Catatan Java API
 description: Buat dokumen dengan akar dan sub halaman di OneNote menggunakan Aspose.Note untuk Java. Ikuti panduan langkah demi langkah untuk mengatur catatan Anda secara efisien.
-type: docs
 weight: 11
 url: /id/java/onenote-page-manipulation/create-document-with-root-and-sub-pages/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Buat Dokumen dengan Root dan Sub Halaman di OneNote
+
 ## Perkenalan
 
 Dalam tutorial ini, kami akan memandu Anda melalui proses pembuatan dokumen dengan akar dan sub halaman di OneNote menggunakan Aspose.Note untuk Java. Dengan mengikuti langkah-langkah ini, Anda akan dapat mengatur dokumen OneNote Anda secara efisien dengan struktur hierarki.
@@ -169,3 +175,9 @@ A4: Ya, Aspose.Note untuk Java mendukung penyimpanan dokumen dalam berbagai form
 ### Q5: Apakah ada versi uji coba yang tersedia untuk Aspose.Note untuk Java?
 
 A5: Ya, Anda dapat mengunduh Aspose.Note untuk Java versi uji coba gratis dari situs web.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

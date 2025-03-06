@@ -3,10 +3,16 @@ title: Κατακτήστε την ενοποίηση του OneNote με το A
 linktitle: Σημείωση Χειρισμός
 second_title: Aspose.Note .NET API
 description: Ξεκλειδώστε τη δύναμη του Aspose.Note για .NET με τους οδηγούς μας που επικεντρώνονται στο OneNote. Επιλύστε διενέξεις, δημιουργήστε δυναμικά έγγραφα και εξερευνήστε αποτελεσματικό χειρισμό σελίδων.
-type: docs
 weight: 27
 url: /el/net/note-manipulation/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Κατακτήστε την ενοποίηση του OneNote με το Aspose.Note για .NET
+
 
 ## Εισαγωγή
 
@@ -69,3 +75,9 @@ url: /el/net/note-manipulation/
 Μάθετε πώς να ορίζετε το χρώμα φόντου των σελίδων στα έγγραφα Aspose.Note χρησιμοποιώντας τη γλώσσα προγραμματισμού C# με οδηγό βήμα προς βήμα.
 ### [Εργασία με αναθεωρήσεις σελίδων - Συμβουλές Aspose.Note](./working-with-page-revisions/)
 Μάθετε να διαχειρίζεστε τις αναθεωρήσεις σελίδων του Microsoft OneNote με το Aspose.Note. Οδηγός βήμα προς βήμα για απρόσκοπτη ενσωμάτωση και έλεγχο έκδοσης στις εφαρμογές σας .NET.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

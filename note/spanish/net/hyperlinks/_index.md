@@ -3,10 +3,16 @@ title: Aspose.Note para hipervínculo .NET e integración de OneNote
 linktitle: Hipervínculos
 second_title: Aspose.Nota .NET API
 description: ¡Aprenda a impulsar la interactividad en los documentos Aspose.Note! Descubra tutoriales sobre cómo agregar hipervínculos con Aspose.Note para .NET, mejorando la participación de su documento.
-type: docs
 weight: 22
 url: /es/net/hyperlinks/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Aspose.Note para hipervínculo .NET e integración de OneNote
+
 ## Introducción
 
 En el ámbito de Aspose.Note para .NET, la capacidad de agregar hipervínculos a sus documentos cambia las reglas del juego. Aumente la interactividad y la participación de su documento siguiendo nuestros tutoriales paso a paso.
@@ -45,3 +51,9 @@ En conclusión, Aspose.Note para .NET abre un mundo de posibilidades para la int
 ## Tutoriales de hipervínculos
 ### [Agregar hipervínculos en documentos Aspose.Note](./add-hyperlinks/)
 Aprenda cómo agregar hipervínculos a documentos Aspose.Note usando Aspose.Note para .NET. Mejore la interactividad de los documentos con este tutorial paso a paso.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

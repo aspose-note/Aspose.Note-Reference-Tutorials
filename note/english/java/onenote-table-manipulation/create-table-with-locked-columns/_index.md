@@ -3,10 +3,16 @@ title: Create Table with Locked Columns in OneNote - Aspose.Note
 linktitle: Create Table with Locked Columns in OneNote - Aspose.Note
 second_title: Aspose.Note Java API
 description: Enhance your OneNote experience with Aspose.Note for Java. Learn how to create tables with locked columns using a step-by-step guide. Download your free trial now!
-type: docs
 weight: 12
 url: /java/onenote-table-manipulation/create-table-with-locked-columns/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Create Table with Locked Columns in OneNote - Aspose.Note
+
 ## Introduction
 OneNote is a powerful tool for organizing information, and Aspose.Note for Java enhances its capabilities by providing a seamless way to create tables with locked columns. In this tutorial, we will guide you through the process of using Aspose.Note for Java to create a table with locked columns in OneNote.
 ## Prerequisites
@@ -90,3 +96,10 @@ Yes, you can [download a free trial](https://releases.aspose.com/) to explore th
 Visit the [Aspose.Note forum](https://forum.aspose.com/c/note/28) for support and community discussions.
 ### How can I obtain a temporary license for Aspose.Note for Java?
 Visit [this link](https://purchase.aspose.com/temporary-license/) to obtain a temporary license for testing purposes.
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -3,10 +3,16 @@ title: Đang tải tài liệu OneNote
 linktitle: Đang tải tài liệu OneNote
 second_title: API Java Aspose.Note
 description: Khám phá các hướng dẫn toàn diện về cách tải, chuyển đổi và tạo tài liệu OneNote bằng Aspose.Note cho Java. Dễ dàng nâng cao khả năng xử lý tài liệu của bạn.
-type: docs
 weight: 25
 url: /vi/java/onenote-document-loading/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Đang tải tài liệu OneNote
+
 
 ## Giới thiệu
 
@@ -97,3 +103,9 @@ Tìm hiểu cách sử dụng Aspose.Note dành cho Java để tải và thao t�
 Tìm hiểu cách tải tài liệu OneNote 2007 bằng Java bằng Aspose.Note để tích hợp liền mạch.
 ### [Tải tài liệu OneNote được bảo vệ bằng mật khẩu - Java](./load-password-protected-onenote/)
 Tìm hiểu cách tải tài liệu OneNote được bảo vệ bằng mật khẩu bằng Java với Aspose.Note for Java.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

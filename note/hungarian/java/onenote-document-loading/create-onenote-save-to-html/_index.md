@@ -4,10 +4,16 @@ linktitle: Hozzon létre OneNote-dokumentumot, és mentse HTML-be – Java
 second_title: Aspose.Note Java API
 description: Ismerje meg, hogyan hozhat létre és menthet OneNote-dokumentumokat HTML-ként az Aspose.Note for Java használatával. Integrálható a Java-alkalmazásokba a OneNote programozott fájlkezeléséhez.
 
-type: docs
 weight: 18
 url: /hu/java/onenote-document-loading/create-onenote-save-to-html/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Hozzon létre OneNote-dokumentumot, és mentse HTML-be – Java
+
 ## Bevezetés
 
 Az Aspose.Note for Java egy hatékony könyvtár, amely lehetővé teszi a fejlesztők számára, hogy programozottan dolgozzanak Microsoft OneNote fájlokkal. Ebben az oktatóanyagban megvizsgáljuk, hogyan hozhat létre OneNote-dokumentumot, és hogyan mentheti azt HTML formátumba az Aspose.Note for Java használatával.
@@ -136,3 +142,9 @@ Gratulálunk! Megtanulta, hogyan lehet OneNote-dokumentumot létrehozni és HTML
 ### 5. kérdés: Hogyan vásárolhatok licencet az Aspose.Note for Java számára?
 
  5. válasz: Licenceket vásárolhat a[Aspose honlapja](https://purchase.aspose.com/buy).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

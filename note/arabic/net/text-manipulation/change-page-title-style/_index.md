@@ -3,10 +3,16 @@ title: تغيير نمط عنوان الصفحة في Aspose.Note
 linktitle: تغيير نمط عنوان الصفحة في Aspose.Note
 second_title: Aspose.Note .NET API
 description: قم بتحويل مستندات .NET الخاصة بك باستخدام Aspose.Note! تعلم كيفية تغيير أنماط عنوان الصفحة دون عناء. ارفع مستوى الجمال في بضع خطوات بسيطة.
-type: docs
 weight: 13
 url: /ar/net/text-manipulation/change-page-title-style/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# تغيير نمط عنوان الصفحة في Aspose.Note
+
 ## مقدمة
 هل تتطلع إلى رفع المظهر المرئي لمستندات .NET الخاصة بك من خلال تصميم عنوان الصفحة الديناميكي؟ يوفر Aspose.Note for .NET حلاً سلسًا، مما يسمح لك بتغيير نمط عناوين صفحاتك بسهولة. في هذا البرنامج التعليمي، سنرشدك خلال العملية خطوة بخطوة، مما يضمن أنه يمكنك تحسين جماليات مستنداتك دون أي متاعب.
 ## المتطلبات الأساسية
@@ -70,3 +76,9 @@ Console.WriteLine("\nTitle's styles are changed successfully.");
  يمكنك شراء ترخيص لـ Aspose.Note[هنا](https://purchase.aspose.com/buy).
 ### هل أحتاج إلى ترخيص مؤقت لأغراض الاختبار؟
  نعم، إذا كنت تختبر Aspose.Note، فيمكنك الحصول على ترخيص مؤقت[هنا](https://purchase.aspose.com/temporary-license/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

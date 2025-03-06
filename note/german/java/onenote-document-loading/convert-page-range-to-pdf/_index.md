@@ -3,10 +3,16 @@ title: Konvertieren Sie einen bestimmten Seitenbereich in OneNote mit Java in PD
 linktitle: Konvertieren Sie einen bestimmten Seitenbereich in OneNote mit Java in PDF
 second_title: Aspose.Note Java API
 description: Erfahren Sie, wie Sie mit Aspose.Note für Java bestimmte Seitenbereiche nahtlos von OneNote in PDF konvertieren. Formatierung und Layout bleiben mühelos erhalten.
-type: docs
 weight: 11
 url: /de/java/onenote-document-loading/convert-page-range-to-pdf/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Konvertieren Sie einen bestimmten Seitenbereich in OneNote mit Java in PDF
+
 ## Einführung
 
 OneNote ist ein leistungsstarkes Tool zum Organisieren von Notizen. Manchmal müssen Sie jedoch möglicherweise bestimmte Seitenbereiche zum Teilen oder Archivieren in PDF exportieren. In diesem Tutorial führen wir Sie durch den Prozess der Konvertierung eines bestimmten Seitenbereichs in PDF mit Aspose.Note für Java.
@@ -85,3 +91,9 @@ A4: Ja, Sie können verschiedene Aspekte wie Seitengröße, Ausrichtung und Kopf
 ### F5: Unterstützt Aspose.Note für Java die Stapelkonvertierung mehrerer OneNote-Dokumente?
 
 A5: Ja, Sie können mehrere OneNote-Dokumente stapelweise in PDF konvertieren, indem Sie jedes Dokument durchlaufen und den Konvertierungsprozess anwenden.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -3,10 +3,16 @@ title: 在 Aspose.Note 中使用預設設定保存
 linktitle: 在 Aspose.Note 中使用預設設定保存
 second_title: Aspose.Note .NET API
 description: 透過逐步指南了解如何在 Aspose.Note for .NET 中使用預設設定來儲存文件。
-type: docs
 weight: 29
 url: /zh-hant/net/loading-and-saving-operations/save-with-default-settings/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# 在 Aspose.Note 中使用預設設定保存
+
 ## 介紹
 
 在 .NET 開發領域，Aspose.Note 作為處理 Microsoft OneNote 檔案的強大工具脫穎而出。無論您是處理筆記應用程式、數位筆記本還是任何其他相關項目，Aspose.Note 都提供必要的功能來簡化您的開發流程。在本教程中，我們將深入研究使用 Aspose.Note for .NET 以預設設定儲存文件的過程。我們將分解每個步驟，確保各級開發人員的清晰度和理解性。
@@ -86,3 +92,9 @@ A3：當然！ Aspose.Note 提供強大的功能和效能，使其適用於小�
 ### Q5: 我可以在購買前試用 Aspose.Note 嗎？
 
  A5：是的，您可以從[網站](https://releases.aspose.com/)在購買前探索 Aspose.Note 的功能。
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

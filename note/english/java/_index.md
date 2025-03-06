@@ -1,12 +1,17 @@
 ---
 title: Comprehensive Tutorials & Examples of Aspose.Note for Java
 linktitle: Aspose.Note for Java Tutorials
-type: docs
 weight: 10
 url: /java/
 description: Discover comprehensive tutorials and examples for Aspose.Note for Java. Elevate your OneNote experience with step-by-step guides on Java integration.
-is_root: true
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Comprehensive Tutorials & Examples of Aspose.Note for Java
+
 
 ## Introduction
 
@@ -91,3 +96,9 @@ Discover the power of Aspose.Note for Java. Elevate your OneNote experience with
 Explore Aspose.Note Java tutorials on OneNote text manipulation. Explore efficient methods for tasks like extracting text, applying themes, creating lists & more. 
 ### [Task and Outlook Integration](./task-and-outlook-integration/)
 Unlock the potential of Aspose.Note Java with our tutorials on integrating Outlook tasks into OneNote. Elevate your document processing skills with our tutorials.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

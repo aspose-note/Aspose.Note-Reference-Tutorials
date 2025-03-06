@@ -3,10 +3,16 @@ title: Tentukan Opsi Simpan di OneNote - Aspose.Note
 linktitle: Tentukan Opsi Simpan di OneNote - Aspose.Note
 second_title: Aspose.Catatan Java API
 description: Pelajari cara menentukan opsi penyimpanan di OneNote menggunakan Aspose.Note untuk Java. Sesuaikan pengaturan indeks, jumlah, dan kompresi halaman dengan mudah.
-type: docs
 weight: 24
 url: /id/java/onenote-document-saving/specify-save-options/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Tentukan Opsi Simpan di OneNote - Aspose.Note
+
 ## Perkenalan
 
 Dalam tutorial ini, kita akan mempelajari cara menentukan opsi penyimpanan di OneNote menggunakan Aspose.Note untuk Java. Aspose.Note adalah pustaka Java canggih yang memungkinkan pengembang membuat, memanipulasi, dan mengonversi dokumen OneNote secara terprogram. Dengan Aspose.Note, Anda dapat dengan mudah mengontrol berbagai opsi penyimpanan untuk menyesuaikan output sesuai kebutuhan Anda.
@@ -109,3 +115,9 @@ A4: Ya, Aspose.Note menyediakan API untuk enkripsi dan dekripsi dokumen OneNote.
 ### Q5: Apakah Aspose.Note cocok untuk penggunaan komersial?
 
 A5: Ya, Aspose.Note dapat digunakan untuk tujuan komersial dengan membeli lisensi.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

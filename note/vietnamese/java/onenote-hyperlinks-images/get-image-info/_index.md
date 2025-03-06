@@ -3,10 +3,16 @@ title: Nhận thông tin hình ảnh từ OneNote bằng Java
 linktitle: Nhận thông tin hình ảnh từ OneNote bằng Java
 second_title: API Java Aspose.Note
 description: Trích xuất thông tin hình ảnh từ tài liệu OneNote trong Java! Nhận kích thước hình ảnh, tên tệp, v.v. Bao gồm các bước dễ dàng và ví dụ về mã. #OneNote #Java #Aspose
-type: docs
 weight: 15
 url: /vi/java/onenote-hyperlinks-images/get-image-info/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Nhận thông tin hình ảnh từ OneNote bằng Java
+
 ## Giới thiệu
 
 Trong lĩnh vực phát triển Java, việc trích xuất thông tin từ các định dạng tài liệu khác nhau là một nhiệm vụ phổ biến. OneNote, một nền tảng ghi chú phổ biến, thường chứa hình ảnh bên cạnh văn bản. Truy xuất thông tin hình ảnh theo chương trình từ các tệp OneNote bằng Java có thể hợp lý hóa quy trình xử lý tài liệu. Trong hướng dẫn này, chúng ta sẽ tìm hiểu cách trích xuất chi tiết hình ảnh từ tài liệu OneNote bằng Aspose.Note cho Java.
@@ -113,3 +119,9 @@ Câu trả lời 2: Có, bạn có thể sử dụng Aspose.Note for Java cho c�
 ### Câu hỏi 5: Làm cách nào tôi có thể nhận được giấy phép tạm thời cho Aspose.Note cho Java?
  
  Câu trả lời 5: Bạn có thể lấy giấy phép tạm thời từ[Giấy phép tạm thời/](https://purchase.aspose.com/temporary-license/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

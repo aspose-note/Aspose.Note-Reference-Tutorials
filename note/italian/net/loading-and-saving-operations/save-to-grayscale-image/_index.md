@@ -3,10 +3,16 @@ title: Salva nell'immagine in scala di grigi in Aspose.Note
 linktitle: Salva nell'immagine in scala di grigi in Aspose.Note
 second_title: Aspose.Note API .NET
 description: Scopri come salvare i documenti OneNote come immagini in scala di grigi utilizzando Aspose.Note per .NET. Segui questo tutorial completo per un'elaborazione efficiente dei documenti.
-type: docs
 weight: 24
 url: /it/net/loading-and-saving-operations/save-to-grayscale-image/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Salva nell'immagine in scala di grigi in Aspose.Note
+
 ## introduzione
 
 In questo tutorial esploreremo come utilizzare Aspose.Note per .NET per salvare un documento come immagine in scala di grigi. Aspose.Note è una potente libreria che consente agli sviluppatori di lavorare con i file Microsoft OneNote a livello di codice, fornendo un'ampia gamma di funzionalità.
@@ -85,3 +91,9 @@ R4: Sì, puoi esplorare Aspose.Note attraverso la prova gratuita disponibile sul
 ### Q5: Come posso ottenere una licenza temporanea per Aspose.Note?
 
 R5: È possibile ottenere una licenza temporanea per Aspose.Note visitando il collegamento fornito e seguendo le istruzioni.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

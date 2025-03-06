@@ -3,10 +3,16 @@ title: Zadejte Možnosti uložení v Aspose.Note
 linktitle: Zadejte Možnosti uložení v Aspose.Note
 second_title: Aspose.Note .NET API
 description: Zjistěte, jak určit možnosti uložení v Aspose.Note pro .NET a přizpůsobit výstupní formát a kvalitu dokumentů OneNotu.
-type: docs
 weight: 30
 url: /cs/net/loading-and-saving-operations/specify-save-options/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Zadejte Možnosti uložení v Aspose.Note
+
 ## Úvod
 
 oblasti vývoje .NET vyniká Aspose.Note jako výkonný nástroj pro práci s dokumenty OneNotu. Nabízí komplexní sadu funkcí pro efektivní manipulaci a správu těchto souborů. Jedním z klíčových aspektů práce s Aspose.Note je specifikování možností ukládání, které umožňuje vývojářům přizpůsobit výstupní formát a kvalitu podle jejich požadavků.
@@ -94,3 +100,9 @@ A4: Aspose.Note je navržen tak, aby zpracovával dokumenty OneNote různých ve
 ### Q5: Nabízí Aspose.Note podporu a pomoc vývojářům, kteří se setkávají s problémy?
 
 Odpověď 5: Ano, vývojáři mohou požádat o pomoc a pomoc tým podpory Aspose.Note prostřednictvím fóra nebo kontaktováním přímo Aspose pro včasné vyřešení jakýchkoli problémů nebo dotazů.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

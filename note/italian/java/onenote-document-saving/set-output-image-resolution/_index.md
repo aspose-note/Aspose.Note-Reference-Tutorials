@@ -3,10 +3,16 @@ title: Imposta la risoluzione dell'immagine di output in OneNote - Aspose.Note
 linktitle: Imposta la risoluzione dell'immagine di output in OneNote - Aspose.Note
 second_title: Aspose.Note API Java
 description: Scopri come regolare la risoluzione dell'immagine nei documenti OneNote utilizzando Aspose.Note per Java. Segui la nostra guida passo passo per una facile implementazione
-type: docs
 weight: 23
 url: /it/java/onenote-document-saving/set-output-image-resolution/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Imposta la risoluzione dell'immagine di output in OneNote - Aspose.Note
+
 ## introduzione
 
 Stai cercando di manipolare la risoluzione delle immagini all'interno dei tuoi documenti OneNote utilizzando Java? Aspose.Note per Java offre una soluzione solida per tali attività. In questo tutorial, esamineremo i passaggi per impostare la risoluzione dell'immagine di output utilizzando Aspose.Note.
@@ -88,3 +94,9 @@ A4: Sì, Aspose.Note fornisce funzionalità complete per la manipolazione delle 
 ### Q5: Dove posso ottenere supporto per le query relative ad Aspose.Note?
 
  A5: È possibile chiedere assistenza al forum della community Aspose.Note[Qui](https://forum.aspose.com/c/note/28).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

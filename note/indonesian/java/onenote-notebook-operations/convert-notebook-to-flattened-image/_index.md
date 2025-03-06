@@ -3,10 +3,16 @@ title: Konversi Buku Catatan menjadi Gambar Rata di OneNote - Aspose.Note
 linktitle: Konversi Buku Catatan menjadi Gambar Rata di OneNote - Aspose.Note
 second_title: Aspose.Catatan Java API
 description: Pelajari cara mengonversi buku catatan menjadi gambar rata di OneNote menggunakan Aspose.Note untuk Java. Pertahankan semua elemen dalam satu file gambar dengan mudah.
-type: docs
 weight: 13
 url: /id/java/onenote-notebook-operations/convert-notebook-to-flattened-image/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Konversi Buku Catatan menjadi Gambar Rata di OneNote - Aspose.Note
+
 ## Perkenalan
 
 Dalam tutorial ini, kami akan memandu Anda melalui proses mengonversi buku catatan menjadi gambar rata di OneNote menggunakan Aspose.Note untuk Java. Hal ini memungkinkan Anda menyimpan buku catatan Anda sebagai file gambar, memastikan bahwa semua elemen disimpan dalam satu format gambar.
@@ -108,3 +114,9 @@ A3: Ya, Aspose.Note menyediakan opsi luas untuk menyesuaikan gambar keluaran, te
 ### Q5: Di mana saya dapat menemukan dukungan untuk Aspose.Note untuk Java?
 
  A5: Anda dapat menemukan dukungan dan sumber daya di forum Aspose.Note[Di Sini](https://forum.aspose.com/c/note/28).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

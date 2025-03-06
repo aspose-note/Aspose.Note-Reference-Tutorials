@@ -3,10 +3,16 @@ title: OneNote-dokumentummanipuláció
 linktitle: OneNote-dokumentummanipuláció
 second_title: Aspose.Note Java API
 description: Hozzon létre, kezeljen és automatizáljon OneNote dokumentumokat Java nyelven az Aspose.Note segítségével. Lépésről lépésre oktatóanyagok a Dokumentumlátogatóról, a formázott formázott szövegről és a formázott szöveg létrehozásáról.
-type: docs
 weight: 21
 url: /hu/java/onenote-document-manipulation/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# OneNote-dokumentummanipuláció
+
 
 ## Bevezetés
 
@@ -29,3 +35,9 @@ Ismerje meg, hogyan használhatja a Dokumentumlátogatót a OneNote-ban Java és
 Ismerje meg, hogyan hozhat létre gazdagon formázott OneNote-dokumentumokat programozottan Java nyelven az Aspose.Note for Java használatával. Kövesse lépésről lépésre útmutatónkat a zökkenőmentes dokumentumautomatizáláshoz.
 ### [Hozzon létre OneNote-dokumentumot egyszerű Rich Text segítségével Java nyelven](./create-onenote-document-simple-rich-text/)
 Ismerje meg, hogyan hozhat létre OneNote-dokumentumokat egyszerű formázott szöveggel az Aspose.Note for Java segítségével. Zökkenőmentesen integrálja ezt a funkciót Java-alkalmazásaiba a hatékony dokumentumkezelés érdekében.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

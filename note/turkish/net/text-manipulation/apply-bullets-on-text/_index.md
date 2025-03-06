@@ -3,10 +3,16 @@ title: Aspose.Note'ta Metne Madde İşaretleri Uygula
 linktitle: Aspose.Note'ta Metne Madde İşaretleri Uygula
 second_title: Aspose.Note .NET API'si
 description: OneNote belgelerinizi geliştirmek için Aspose.Note for .NET'te metne madde işaretlerini nasıl uygulayacağınızı öğrenin. Etkili biçimlendirme için bu adım adım kılavuzu izleyin.
-type: docs
 weight: 10
 url: /tr/net/text-manipulation/apply-bullets-on-text/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Aspose.Note'ta Metne Madde İşaretleri Uygula
+
 ## giriiş
 Aspose.Note for .NET kullanarak metne madde işaretleri uygulamayla ilgili bu adım adım kılavuza hoş geldiniz. Aspose.Note, geliştiricilerin .NET uygulamalarında Microsoft OneNote dosyalarıyla sorunsuz bir şekilde çalışmasına olanak tanıyan güçlü bir kitaplıktır. Bu eğitimde, OneNote belgelerinizin görsel çekiciliğini artırmak için metne madde işaretleri uygulama sürecinde size yol göstereceğiz.
 ## Önkoşullar
@@ -86,3 +92,9 @@ Aspose.Note, Microsoft OneNote'un çeşitli sürümlerini destekleyerek hem eski
  Evet, ücretsiz deneme sürümünü indirebilirsiniz[Burada](https://releases.aspose.com/).
 ### Ek destek ve kaynakları nerede bulabilirim?
  Aspose.Note topluluk forumunu ziyaret edebilirsiniz[Burada](https://forum.aspose.com/c/note/28) Destek ve tartışmalar için.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

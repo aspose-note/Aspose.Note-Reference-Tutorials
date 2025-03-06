@@ -3,10 +3,16 @@ title: Εξαγωγή εικόνων από το έγγραφο OneNote χρησ
 linktitle: Εξαγωγή εικόνων από το έγγραφο OneNote χρησιμοποιώντας Java
 second_title: Aspose.Note Java API
 description: Μάθετε πώς να εξάγετε εικόνες από έγγραφα του OneNote χρησιμοποιώντας Java με τη βιβλιοθήκη Aspose.Note. Ακολουθήστε τον βήμα προς βήμα οδηγό μας για απρόσκοπτη εξαγωγή εικόνων.
-type: docs
 weight: 14
 url: /el/java/onenote-hyperlinks-images/extract-images/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Εξαγωγή εικόνων από το έγγραφο OneNote χρησιμοποιώντας Java
+
 ## Εισαγωγή
 
 Σε αυτό το σεμινάριο, θα σας καθοδηγήσουμε στη διαδικασία εξαγωγής εικόνων από ένα έγγραφο του OneNote χρησιμοποιώντας Java με τη βοήθεια της βιβλιοθήκης Aspose.Note.
@@ -89,3 +95,9 @@ A4: Το Aspose.Note χειρίζεται αποτελεσματικά έγγρ�
 ### Ε5: Το Aspose.Note υποστηρίζει την εξαγωγή άλλων τύπων περιεχομένου εκτός από εικόνες;
 
 A5: Ναι, εκτός από εικόνες, το Aspose.Note επιτρέπει την εξαγωγή κειμένου, συνημμένων και άλλων τύπων περιεχομένου από έγγραφα του OneNote.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

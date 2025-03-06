@@ -3,10 +3,16 @@ title: Modifica la cronologia delle pagine in OneNote - Aspose.Note
 linktitle: Modifica la cronologia delle pagine in OneNote - Aspose.Note
 second_title: Aspose.Note API Java
 description: Elimina, modifica e aggiungi voci della cronologia delle pagine senza problemi! Guida e codice passo passo per padroneggiare OneNote con Aspose.Note. #OneNote #Java #Aspose
-type: docs
 weight: 17
 url: /it/java/onenote-page-manipulation/modify-page-history/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Modifica la cronologia delle pagine in OneNote - Aspose.Note
+
 ## introduzione
 
 In questo tutorial, approfondiremo l'utilizzo di Aspose.Note per Java per modificare la cronologia delle pagine nei documenti OneNote. Aspose.Note è una potente API Java che consente agli sviluppatori di lavorare senza problemi con i file OneNote, abilitando varie operazioni come la creazione, la lettura e la modifica di questi file a livello di codice.
@@ -108,3 +114,10 @@ A4: Sì, Aspose.Note per Java fornisce API per gestire le modifiche collettive i
 ### Q5: Esiste un forum della community per Aspose.Note per Java dove posso chiedere aiuto?
 
  A5: Sì, puoi visitare il[Forum Aspose.Note](https://forum.aspose.com/c/note/28) per qualsiasi assistenza o domanda relativa alla biblioteca.
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

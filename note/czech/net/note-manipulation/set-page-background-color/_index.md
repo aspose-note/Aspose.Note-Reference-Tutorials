@@ -3,10 +3,16 @@ title: Nastavte barvu pozadí stránek v Aspose.Note
 linktitle: Nastavte barvu pozadí stránek v Aspose.Note
 second_title: Aspose.Note .NET API
 description: Naučte se, jak nastavit barvu pozadí stránek v dokumentech Aspose.Note pomocí programovacího jazyka C# s podrobným průvodcem.
-type: docs
 weight: 19
 url: /cs/net/note-manipulation/set-page-background-color/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Nastavte barvu pozadí stránek v Aspose.Note
+
 ## Úvod
 
 Aspose.Note for .NET umožňuje vývojářům manipulovat s dokumenty OneNote programově. Jedním z běžných úkolů je nastavení barvy pozadí stránek v těchto dokumentech. V tomto tutoriálu vás provedeme procesem krok za krokem.
@@ -97,3 +103,9 @@ A3: Ano, můžete si stáhnout bezplatnou zkušební verzi z[tady](https://relea
 ### Q5: Kde mohu najít další podporu nebo se zeptat na otázky týkající se Aspose.Note?
 
  A5: Můžete navštívit[Aspose.Note fórum](https://forum.aspose.com/c/note/28) pro podporu a spojení s ostatními uživateli.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

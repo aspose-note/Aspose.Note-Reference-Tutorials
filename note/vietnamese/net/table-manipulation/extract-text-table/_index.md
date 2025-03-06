@@ -3,10 +3,16 @@ title: Trích xuất văn bản từ bảng trong Aspose.Note
 linktitle: Trích xuất văn bản từ bảng trong Aspose.Note
 second_title: Aspose.Note .NET API
 description: Tìm hiểu cách trích xuất văn bản từ các bảng trong Aspose.Note bằng C# với .NET framework. Hướng dẫn từng bước với đoạn mã và giải thích.
-type: docs
 weight: 15
 url: /vi/net/table-manipulation/extract-text-table/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Trích xuất văn bản từ bảng trong Aspose.Note
+
 ## Giới thiệu
 
 Trong hướng dẫn này, chúng ta sẽ khám phá cách trích xuất văn bản từ các bảng trong Aspose.Note bằng C# với .NET framework. Aspose.Note là một API mạnh mẽ cho phép các nhà phát triển làm việc với các tệp Microsoft OneNote theo chương trình, cho phép thực hiện nhiều thao tác khác nhau như tạo, đọc, thao tác và chuyển đổi tài liệu OneNote.
@@ -99,3 +105,9 @@ Câu trả lời 4: Có, Aspose.Note có sẵn cho nhiều nền tảng và ngô
 ### Câu hỏi 5: Tôi có thể tìm thêm tài nguyên và hỗ trợ cho Aspose.Note ở đâu?
 
  Câu trả lời 5: Bạn có thể tìm thấy các tài liệu, hướng dẫn và diễn đàn hỗ trợ mở rộng trên[Diễn đàn Aspose.Note](https://forum.aspose.com/c/note/28), cho phép bạn khám phá và giải quyết mọi truy vấn hoặc vấn đề bạn gặp phải trong quá trình phát triển.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

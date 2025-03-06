@@ -3,10 +3,16 @@ title: Opslaan om te streamen in OneNote - Aspose.Note
 linktitle: Opslaan om te streamen in OneNote - Aspose.Note
 second_title: Aspose.Note Java-API
 description: Leer hoe u OneNote-documenten opslaat in een stream in Java met behulp van Aspose.Note. Integreer deze functionaliteit moeiteloos in uw applicaties.
-type: docs
 weight: 20
 url: /nl/java/onenote-document-saving/save-to-stream/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Opslaan om te streamen in OneNote - Aspose.Note
+
 ## Invoering
 
 In deze zelfstudie gaan we dieper in op het gebruik van Aspose.Note voor Java, een krachtige bibliotheek voor het programmatisch werken met Microsoft OneNote-documenten. We zullen ons specifiek concentreren op het proces van het opslaan van OneNote-documenten in een stream. Door de stappen in deze handleiding te volgen, kunt u OneNote-bestanden efficiënt manipuleren binnen uw Java-toepassingen.
@@ -95,3 +101,9 @@ A4: U kunt documentatie, forums en ondersteuning voor Aspose.Note voor Java vind
 ### V5: Kan ik Aspose.Note voor Java uitproberen voordat ik een aankoop doe?
 
  A5: Ja, u kunt een gratis proefversie van Aspose.Note voor Java verkrijgen via de[Aspose-website](https://releases.aspose.com/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

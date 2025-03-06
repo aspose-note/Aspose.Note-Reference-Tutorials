@@ -3,10 +3,16 @@ title: Dorong dan Kelola Versi Halaman Saat Ini di Aspose.Note
 linktitle: Dorong dan Kelola Versi Halaman Saat Ini di Aspose.Note
 second_title: Aspose.Catatan .NET API
 description: Pelajari cara mendorong dan mengelola versi halaman saat ini di Aspose.Note untuk .NET dengan mudah. Tingkatkan kontrol dan kolaborasi versi dokumen.
-type: docs
 weight: 17
 url: /id/net/note-manipulation/manage-current-page-versions/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Dorong dan Kelola Versi Halaman Saat Ini di Aspose.Note
+
 ## Perkenalan
 
 Dalam dunia pengembangan perangkat lunak, mengelola dan memelihara berbagai versi dokumen sangat penting untuk memastikan keakuratan, ketertelusuran, dan akuntabilitas. Aspose.Note untuk .NET menyediakan alat canggih untuk memfasilitasi proses ini, memungkinkan pengembang untuk mendorong dan mengelola versi halaman saat ini dengan lancar. Dalam tutorial ini, kita akan mempelajari langkah-langkah yang diperlukan untuk mendorong dan mengelola versi halaman saat ini menggunakan Aspose.Note untuk .NET.
@@ -90,3 +96,9 @@ A4: Ya, Aspose.Note untuk .NET menyediakan API komprehensif untuk mengelola bagi
 ### Q5: Dapatkah saya mengotomatiskan proses mendorong versi halaman menggunakan Aspose.Note untuk .NET?
 
 A5: Tentu saja! Aspose.Note untuk .NET menawarkan kemampuan otomatisasi yang kuat, memungkinkan Anda mengintegrasikan kontrol versi dengan lancar ke dalam aplikasi Anda.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -3,10 +3,16 @@ title: تطبيق المظهر الداكن على النص في OneNote - Aspos
 linktitle: تطبيق المظهر الداكن على النص في OneNote - Aspose.Note
 second_title: Aspose.Note جافا API
 description: استكشف الخطوات السهلة لتطبيق سمة داكنة على نص OneNote الخاص بك باستخدام Aspose.Note لـ Java. ارفع مستوى تجربة التوثيق الرقمي الخاصة بك دون عناء.
-type: docs
 weight: 11
 url: /ar/java/onenote-text-manipulation/apply-dark-theme/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# تطبيق المظهر الداكن على النص في OneNote - Aspose.Note
+
 ## مقدمة
 في مشهد التوثيق الرقمي دائم التطور، يمكن أن تؤثر جماليات ملاحظاتك بشكل كبير على سهولة القراءة وتجربة المستخدم. أحد الجوانب البارزة هو تنفيذ سمة داكنة، مما يوفر بيئة جذابة بصريًا ومريحة. في هذا البرنامج التعليمي، سنرشدك خلال عملية تطبيق سمة داكنة على النص في OneNote باستخدام Aspose.Note لـ Java.
 ## المتطلبات الأساسية
@@ -62,3 +68,9 @@ doc.save(Paths.get(dataDir, "AsposeDarkTheme.pdf").toString());
  نعم، يمكنك الوصول إلى النسخة التجريبية المجانية[هنا](https://releases.aspose.com/).
 ### كيف يمكنني الحصول على الدعم لـ Aspose.Note لـ Java؟
  قم بزيارة[منتدى Aspose.Note](https://forum.aspose.com/c/note/28) للحصول على دعم المجتمع أو استكشاف خيارات الدعم المتميزة[هنا](https://purchase.aspose.com/temporary-license/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

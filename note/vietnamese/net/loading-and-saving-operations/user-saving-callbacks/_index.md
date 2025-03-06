@@ -3,10 +3,16 @@ title: Lệnh gọi lại tiết kiệm người dùng trong Aspose.Note
 linktitle: Lệnh gọi lại tiết kiệm người dùng trong Aspose.Note
 second_title: Aspose.Note .NET API
 description: Tìm hiểu cách triển khai lệnh gọi lại tiết kiệm người dùng trong Aspose.Note cho .NET để tùy chỉnh việc lưu phông chữ, CSS và hình ảnh.
-type: docs
 weight: 31
 url: /vi/net/loading-and-saving-operations/user-saving-callbacks/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Lệnh gọi lại tiết kiệm người dùng trong Aspose.Note
+
 ## Giới thiệu
 
 Trong hướng dẫn này, chúng ta sẽ khám phá cách triển khai lệnh gọi lại tiết kiệm người dùng trong Aspose.Note cho .NET. Các lệnh gọi lại này cho phép bạn tùy chỉnh quy trình lưu bằng cách cung cấp các móc nối để can thiệp ở các giai đoạn khác nhau, chẳng hạn như lưu phông chữ, biểu định kiểu CSS và hình ảnh. Bằng cách sử dụng các lệnh gọi lại này, bạn có thể điều chỉnh hành vi lưu cho phù hợp với yêu cầu cụ thể của mình, nâng cao tính linh hoạt và khả năng kiểm soát đầu ra.
@@ -118,3 +124,9 @@ Câu trả lời 4: Mặc dù các lệnh gọi lại này mang lại sự linh 
 ### Câu hỏi 5: Tôi có thể tự động thay đổi hành vi lưu dựa trên thông tin đầu vào của người dùng hoặc các điều kiện khác không?
 
 Câu trả lời 5: Có, bạn có thể kết hợp logic có điều kiện trong các phương thức gọi lại để điều chỉnh hành vi lưu một cách linh hoạt dựa trên nhiều yếu tố khác nhau.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

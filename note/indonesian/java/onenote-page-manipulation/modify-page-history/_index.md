@@ -3,10 +3,16 @@ title: Ubah Riwayat Halaman di OneNote - Aspose.Note
 linktitle: Ubah Riwayat Halaman di OneNote - Aspose.Note
 second_title: Aspose.Catatan Java API
 description: Hapus, ubah, & tambahkan entri riwayat halaman dengan mulus! Panduan langkah demi langkah & kode untuk menguasai OneNote dengan Aspose.Note. #OneNote #Java #Aspose
-type: docs
 weight: 17
 url: /id/java/onenote-page-manipulation/modify-page-history/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Ubah Riwayat Halaman di OneNote - Aspose.Note
+
 ## Perkenalan
 
 Dalam tutorial ini, kita akan mempelajari penggunaan Aspose.Note untuk Java untuk mengubah riwayat halaman di dokumen OneNote. Aspose.Note adalah API Java canggih yang memungkinkan pengembang bekerja secara lancar dengan file OneNote, memungkinkan berbagai operasi seperti membuat, membaca, dan memodifikasi file ini secara terprogram.
@@ -108,3 +114,10 @@ A4: Ya, Aspose.Note untuk Java menyediakan API untuk menangani modifikasi massal
 ### Q5: Apakah ada forum komunitas Aspose.Note untuk Java di mana saya dapat meminta bantuan?
 
  A5: Ya, Anda dapat mengunjungi[Aspose.Catatan forum](https://forum.aspose.com/c/note/28) untuk bantuan atau pertanyaan apa pun yang terkait dengan perpustakaan.
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

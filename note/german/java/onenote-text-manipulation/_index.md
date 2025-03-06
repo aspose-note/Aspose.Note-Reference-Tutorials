@@ -3,10 +3,16 @@ title: OneNote-Textmanipulation
 linktitle: OneNote-Textmanipulation
 second_title: Aspose.Note Java API
 description: Entdecken Sie Aspose.Note Java-Tutorials zur OneNote-Textmanipulation. Entdecken Sie effiziente Methoden für Aufgaben wie das Extrahieren von Text, das Anwenden von Themen, das Erstellen von Listen und mehr.
-type: docs
 weight: 34
 url: /de/java/onenote-text-manipulation/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# OneNote-Textmanipulation
+
 
 ## Einführung
 
@@ -56,3 +62,9 @@ Erfahren Sie, wie Sie mit Aspose.Note für Java Text auf einer bestimmten OneNot
 Nutzen Sie das Potenzial von Aspose.Note für Java! Erfahren Sie mit unserer Schritt-für-Schritt-Anleitung, wie Sie die Korrektursprache für Text in OneNote nahtlos festlegen.
 ### [Seitentitel im Microsoft OneNote-Stil festlegen – Aspose.Note](./setting-page-title-in-microsoft-onenote-style/)
 Erfahren Sie, wie Sie mit Aspose.Note für Java Seitentitel im Microsoft OneNote-Stil festlegen. Werten Sie Ihre Java-Dokumente mit professioneller Formatierung auf.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

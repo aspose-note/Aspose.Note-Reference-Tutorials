@@ -3,10 +3,16 @@ title: Operações de tags do OneNote
 linktitle: Operações de tags do OneNote
 second_title: API Java Aspose.Note
 description: Descubra o poder do Aspose.Note para Java. Eleve sua experiência no OneNote com guias passo a passo sobre operações de tags, adição de imagens, tabelas, nós de texto e muito mais.
-type: docs
 weight: 33
 url: /pt/java/onenote-tag-operations/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Operações de tags do OneNote
+
 ## Introdução
 
 Aprenda como otimizar sua experiência no OneNote com Aspose.Note para Java. Desde a adição de novos nós de imagem até nós de tabela dinâmica, esta série de tutoriais aprimora suas habilidades de programação Java sem esforço.
@@ -47,3 +53,9 @@ Explore como adicionar nós de texto com tags no OneNote usando Aspose.Note para
 Melhore a colaboração com Aspose.Note para Java! Aprenda como criar modelos dinâmicos de notas de reunião passo a passo. Baixe a biblioteca agora!
 ### [Obtenha tags de nó no OneNote - Aspose.Note](./get-node-tags/)
 Descubra os segredos do OneNote com Aspose.Note para Java. Este guia permite que você extraia tags de nó sem esforço. Mergulhe no futuro da manipulação de documentos!
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -3,10 +3,16 @@ title: Få versioner av sidor i OneNote - Aspose.Note
 linktitle: Få versioner av sidor i OneNote - Aspose.Note
 second_title: Aspose.Note Java API
 description: Lär dig hur du hämtar versioner av sidor i OneNote-dokument med Aspose.Note Java. Integrera detta i dina Java-appar för effektiv dokumenthantering.
-type: docs
 weight: 15
 url: /sv/java/onenote-page-manipulation/get-revisions-of-pages/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Få versioner av sidor i OneNote - Aspose.Note
+
 ## Introduktion
 
 den här handledningen kommer vi att fördjupa oss i funktionerna i Aspose.Note för Java, ett kraftfullt bibliotek som gör att du kan arbeta med Microsoft OneNote-filer sömlöst i dina Java-applikationer. Specifikt kommer vi att fokusera på hur man hämtar revisioner av sidor i ett OneNote-dokument. I slutet av den här guiden kommer du att vara utrustad med kunskapen för att effektivt extrahera sidrevisioner, inklusive detaljer som senast ändrade tid, skapande, titel, nivå och författare.
@@ -109,3 +115,9 @@ S4: Ja, en giltig licens krävs för kommersiell användning av Aspose.Note för
 ### F5: Var kan jag söka hjälp om jag stöter på problem eller har frågor om Aspose.Note för Java?
 
  S5: För support och hjälp kan du besöka Aspose.Note-forumet[här](https://forum.aspose.com/c/note/28)där du kan ställa frågor, dela erfarenheter och interagera med andra användare och experter.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

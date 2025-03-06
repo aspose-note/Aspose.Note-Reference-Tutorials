@@ -3,10 +3,16 @@ title: Kembalikan Revisi di Dokumen Aspose.Note
 linktitle: Kembalikan Revisi di Dokumen Aspose.Note
 second_title: Aspose.Catatan .NET API
 description: Pelajari cara mengelola revisi dokumen Aspose.Note secara efektif menggunakan Aspose.Note untuk .NET. Ikuti panduan langkah demi langkah untuk mengembalikan revisi dengan lancar.
-type: docs
 weight: 18
 url: /id/net/note-manipulation/roll-back-document-revisions/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Kembalikan Revisi di Dokumen Aspose.Note
+
 ## Perkenalan
 
 Dalam dunia manajemen dan pengeditan dokumen, sangat penting untuk memiliki kemampuan melacak perubahan dan kembali ke versi sebelumnya dengan lancar. Aspose.Note untuk .NET menyediakan alat canggih untuk mengelola revisi secara efektif, memastikan bahwa Anda dapat mengembalikan perubahan kapan pun diperlukan. Dalam tutorial ini, kita akan mempelajari proses mengembalikan revisi di dokumen Aspose.Note langkah demi langkah.
@@ -99,3 +105,9 @@ A4: Ya, Anda dapat mengintegrasikan fungsi rollback ke dalam aplikasi Anda dan m
 ### Q5: Apakah Aspose.Note memberikan dukungan jika saya mengalami masalah apa pun selama proses rollback?
 
  A5: Ya, Aspose memberikan dukungan khusus melalui forum mereka. Anda dapat mengunjungi[Aspose.Catatan forum](https://forum.aspose.com/c/note/28) untuk bantuan.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

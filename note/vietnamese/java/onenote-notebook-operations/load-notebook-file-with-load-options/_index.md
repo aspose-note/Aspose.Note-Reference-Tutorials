@@ -3,10 +3,16 @@ title: Tải tệp sổ ghi chép với tùy chọn tải trong OneNote - Aspose
 linktitle: Tải tệp sổ ghi chép với tùy chọn tải trong OneNote - Aspose.Note
 second_title: API Java Aspose.Note
 description: Tìm hiểu cách sử dụng Aspose.Note cho Java để thao tác theo chương trình với các tệp OneNote. Hãy bắt đầu với hướng dẫn toàn diện của chúng tôi ngay bây giờ.
-type: docs
 weight: 20
 url: /vi/java/onenote-notebook-operations/load-notebook-file-with-load-options/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Tải tệp sổ ghi chép với tùy chọn tải trong OneNote - Aspose.Note
+
 ## Giới thiệu
 
 Aspose.Note for Java là một thư viện mạnh mẽ cho phép các nhà phát triển làm việc với các tệp Microsoft OneNote theo chương trình. Cho dù bạn muốn tạo, thao tác hay chuyển đổi tài liệu OneNote, Aspose.Note for Java đều cung cấp các công cụ cần thiết để hợp lý hóa quy trình làm việc của bạn. Trong hướng dẫn này, chúng ta sẽ khám phá cách bắt đầu với Aspose.Note cho Java, bao gồm các điều kiện tiên quyết, nhập gói và chia nhỏ các ví dụ thành các bước dễ thực hiện.
@@ -94,3 +100,9 @@ Câu trả lời 1: Có, Aspose.Note for Java hỗ trợ nhiều phiên bản kh
 ### Câu hỏi 5: Tôi có cần giấy phép tạm thời để sử dụng Aspose.Note cho Java không?
 
  Câu trả lời 5: Nếu bạn đang đánh giá sản phẩm, bạn có thể nhận được giấy phép tạm thời[đây](https://purchase.aspose.com/temporary-license/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

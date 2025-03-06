@@ -3,10 +3,16 @@ title: Převod poznámkových bloků do formátu PDF (sloučený) v Aspose Note 
 linktitle: Převod poznámkových bloků do formátu PDF (sloučený) v Aspose Note .NET
 second_title: Aspose.Note .NET API
 description: Naučte se, jak bez námahy převést poznámkové bloky OneNote na sloučené PDF pomocí Aspose.Note pro .NET. Bezproblémově uchovávejte svůj obsah.
-type: docs
 weight: 15
 url: /cs/net/notebook-operations/convert-to-pdf-flattened/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Převod poznámkových bloků do formátu PDF (sloučený) v Aspose Note .NET
+
 ## Úvod
 
 Chcete převést své poznámkové bloky OneNote na sloučené soubory PDF pomocí Aspose Note .NET? Jste na správném místě! V tomto tutoriálu projdeme procesem krok za krokem.
@@ -91,3 +97,9 @@ A3: Rozhodně! Aspose.Note poskytuje rozsáhlé možnosti přizpůsobení během
 ### Q5: Kde mohu získat podporu, pokud narazím na nějaké problémy?
 
  A5: Můžete požádat o podporu od komunity Aspose na[Aspose.Note fóra](https://forum.aspose.com/c/note/28).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

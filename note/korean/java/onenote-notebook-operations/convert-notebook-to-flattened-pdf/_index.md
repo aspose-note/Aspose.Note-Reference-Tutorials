@@ -3,10 +3,16 @@ title: OneNote에서 노트북을 평면 PDF로 변환 - Aspose.Note
 linktitle: OneNote에서 노트북을 평면 PDF로 변환 - Aspose.Note
 second_title: Aspose.Note 자바 API
 description: Java용 Aspose.Note를 사용하여 노트북을 평면화된 PDF로 손쉽게 변환하세요. 원활한 통합 및 사용자 정의 옵션을 즐겨보세요.
-type: docs
 weight: 16
 url: /ko/java/onenote-notebook-operations/convert-notebook-to-flattened-pdf/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# OneNote에서 노트북을 평면 PDF로 변환 - Aspose.Note
+
 ## 소개
 
 이 튜토리얼에서는 Aspose.Note for Java를 사용하여 노트북을 평면화된 PDF 형식으로 변환하는 방법을 살펴보겠습니다. 노트북을 PDF로 변환하는 것은 많은 애플리케이션의 일반적인 요구 사항이며 Aspose.Note는 포괄적인 기능 세트와 사용하기 쉬운 API를 통해 이 프로세스를 단순화합니다.
@@ -82,3 +88,9 @@ A3: 예, Aspose.Note for Java를 사용하면 여러 노트북을 효율적으�
 ### Q5: Java용 Aspose.Note에 대한 지원은 어디서 찾을 수 있나요?
 
  A5: 다음 페이지에서 Java용 Aspose.Note에 대한 지원 및 지원을 찾을 수 있습니다.[Aspose.Note 포럼](https://forum.aspose.com/c/note/28).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

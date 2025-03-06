@@ -3,10 +3,16 @@ title: Souborové přílohy a načítání v dokumentech OneNotu
 linktitle: Přílohy
 second_title: Aspose.Note .NET API
 description: Zvyšte své .NET aplikace pomocí Aspose.Note! Prozkoumejte výukové programy pro připojování souborů, nastavení ikon a načítání příloh pro lepší vývoj.
-type: docs
 weight: 21
 url: /cs/net/attachments/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Souborové přílohy a načítání v dokumentech OneNotu
+
 ## Úvod
 
 Jste připraveni posunout své .NET aplikace na další úroveň? Ponořte se do světa Aspose. Všimněte si a odemkněte říši možností. Tento komplexní výukový program vás provede klíčovými funkcemi se zaměřením na připojení souborů, nastavení ikon a bezproblémové načítání připojených souborů.
@@ -37,3 +43,9 @@ Naučte se připojovat soubory a nastavovat ikony v Aspose.Note pro .NET. Vylep�
 Naučte se připojovat soubory k dokumentům Microsoft OneNote programově pomocí Aspose.Note pro .NET. Zjednodušte si proces vývoje pomocí tohoto komplexního návodu.
 ### [Načíst připojené soubory pomocí Aspose.Note](./retrieve-attached-files/)
 Přečtěte si, jak načíst přiložené soubory z dokumentů Microsoft OneNote pomocí Aspose.Note pro .NET. Postupujte podle kroků k načtení, získání uzlů a iteraci příloh.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

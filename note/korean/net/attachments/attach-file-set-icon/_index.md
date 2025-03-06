@@ -3,10 +3,16 @@ title: Aspose.Note에 파일 첨부 및 아이콘 설정
 linktitle: Aspose.Note에 파일 첨부 및 아이콘 설정
 second_title: Aspose.Note .NET API
 description: .NET용 Aspose.Note에서 파일을 첨부하고 아이콘을 설정하는 방법을 알아보세요. 이 단계별 튜토리얼을 통해 .NET 애플리케이션을 강화하세요.
-type: docs
 weight: 10
 url: /ko/net/attachments/attach-file-set-icon/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Aspose.Note에 파일 첨부 및 아이콘 설정
+
 ## 소개
 
 .NET 개발 영역에서 Aspose.Note는 Microsoft OneNote 문서를 프로그래밍 방식으로 조작하기 위한 강력한 도구로 돋보입니다. 개발자는 해당 기능을 활용하여 응용 프로그램 내에서 OneNote 파일 생성, 편집 및 관리와 관련된 다양한 작업을 자동화할 수 있습니다. 필수 기능 중 하나는 파일을 노트에 첨부하고 해당 첨부 파일에 대한 아이콘을 설정하는 기능입니다. 이번 튜토리얼에서는 Aspose.Note for .NET을 사용하여 파일을 첨부하고 아이콘을 설정하는 과정을 살펴보겠습니다.
@@ -125,3 +131,9 @@ A4: Aspose.Note는 주로 로컬에 저장되거나 스트림을 통해 액세�
 ### Q5: Aspose.Note for .NET에 첨부 파일 크기 제한이 있나요?
 
 A5: Aspose.Note는 첨부 파일에 대해 특정 크기 제한을 부과하지 않지만 시스템 리소스 및 성능 고려 사항에 따라 실질적인 제한이 적용될 수 있습니다.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

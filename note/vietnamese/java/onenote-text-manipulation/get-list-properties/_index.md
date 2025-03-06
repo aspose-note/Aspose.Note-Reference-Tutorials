@@ -3,10 +3,16 @@ title: Nhận thuộc tính danh sách trong OneNote - Aspose.Note
 linktitle: Nhận thuộc tính danh sách trong OneNote - Aspose.Note
 second_title: API Java Aspose.Note
 description: Khám phá Aspose.Note dành cho Java và truy xuất dễ dàng các thuộc tính danh sách trong tài liệu OneNote. Nâng cao khả năng xử lý tài liệu của bạn với thư viện Java mạnh mẽ này.
-type: docs
 weight: 19
 url: /vi/java/onenote-text-manipulation/get-list-properties/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Nhận thuộc tính danh sách trong OneNote - Aspose.Note
+
 ## Giới thiệu
 Chào mừng bạn đến với hướng dẫn toàn diện này về cách tận dụng Aspose.Note cho Java để truy xuất và phân tích các thuộc tính danh sách trong tài liệu OneNote. Cho dù bạn là nhà phát triển dày dạn kinh nghiệm hay mới bắt đầu với Aspose.Note, hướng dẫn này sẽ hướng dẫn bạn thực hiện quy trình, chia nhỏ từng bước để đảm bảo bạn hiểu rõ ràng.
 ## Điều kiện tiên quyết
@@ -95,3 +101,9 @@ Có, bạn có thể sửa đổi mã cho phù hợp với nhu cầu của mình
  Có, bạn có thể có được giấy phép tạm thời[đây](https://purchase.aspose.com/temporary-license/) cho mục đích thử nghiệm.
 ### Nếu tôi muốn mua Aspose.Note cho Java thì sao?
  Bạn có thể mua sản phẩm[đây](https://purchase.aspose.com/buy)để mở khóa toàn bộ tiềm năng của nó cho các dự án của bạn.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

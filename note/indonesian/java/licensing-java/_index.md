@@ -3,10 +3,16 @@ title: Lisensi Aspose.Note dengan Java
 linktitle: Lisensi Aspose.Note dengan Java
 second_title: Aspose.Catatan Java API
 description: Temukan seni mengelola lisensi terukur untuk OneNote di Java dengan Aspose.Note. Kontrol penggunaan secara efektif, pantau kredit, dan optimalkan biaya.
-type: docs
 weight: 24
 url: /id/java/licensing-java/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Lisensi Aspose.Note dengan Java
+
 ## Perkenalan
 
 Apakah Anda siap untuk memulai perjalanan ke dunia Aspose.Note untuk Java? Dalam panduan komprehensif ini, kami akan mempelajari seluk-beluk pengelolaan lisensi terukur untuk OneNote di Java. Mari menavigasi lanskap perizinan dengan Aspose.Note, mengungkap misteri dan memberdayakan Anda dengan pengetahuan untuk menggunakannya secara efektif.
@@ -40,3 +46,9 @@ Selamat! Anda sekarang telah memulai perjalanan untuk menguasai lisensi Aspose.N
 ## Lisensi Aspose.Note dengan Tutorial Java
 ### [Kelola Lisensi Terukur untuk OneNote di Java](./manage-metered-license/)
 Pelajari cara mengelola lisensi terukur untuk OneNote di Java menggunakan pustaka Aspose.Note. Kontrol penggunaan, pantau kredit, dan optimalkan biaya secara efisien.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -3,10 +3,16 @@ title: Υπερσυνδέσεις και εικόνες OneNote
 linktitle: Υπερσυνδέσεις και εικόνες OneNote
 second_title: Aspose.Note Java API
 description: Βελτιώστε την εμπειρία σας στο OneNote με τα εκπαιδευτικά προγράμματα Aspose.Note για Java. Μάθετε να προσθέτετε υπερσυνδέσμους, να εισάγετε εικόνες και να εξάγετε πληροφορίες εικόνας απρόσκοπτα με την ανάπτυξη Java.
-type: docs
 weight: 22
 url: /el/java/onenote-hyperlinks-images/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Υπερσυνδέσεις και εικόνες OneNote
+
 
 ## Εισαγωγή
 
@@ -48,3 +54,9 @@ url: /el/java/onenote-hyperlinks-images/
 Μάθετε πώς να εξάγετε πληροφορίες εικόνας από έγγραφα OneNote χρησιμοποιώντας Java με το Aspose.Note. Εύκολα βήματα για προγραμματιστές.
 ### [Εισαγάγετε μια εικόνα στο έγγραφο του OneNote με Java](./insert-image/)
 Μάθετε πώς να εισάγετε εικόνες σε έγγραφα του OneNote χρησιμοποιώντας Java με τη βιβλιοθήκη Aspose.Note για Java. Ακολουθήστε τον βήμα προς βήμα οδηγό μας για απρόσκοπτη ενσωμάτωση.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

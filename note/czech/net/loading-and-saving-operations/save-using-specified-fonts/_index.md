@@ -3,10 +3,16 @@ title: Uložit pomocí specifikovaných písem v Aspose.Note
 linktitle: Uložit pomocí specifikovaných písem v Aspose.Note
 second_title: Aspose.Note .NET API
 description: Naučte se ukládat dokumenty se zadanými fonty v Aspose.Note pro .NET. Snadno upravte nastavení písma pro konzistentní formátování dokumentu.
-type: docs
 weight: 28
 url: /cs/net/loading-and-saving-operations/save-using-specified-fonts/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Uložit pomocí specifikovaných písem v Aspose.Note
+
 ## Úvod
 
 V tomto tutoriálu se naučíme ukládat dokumenty pomocí specifikovaných písem v Aspose.Note pro .NET. Krok za krokem prozkoumáme různé metody, jak toho dosáhnout.
@@ -131,3 +137,9 @@ Odpověď 4: Ano, Aspose.Note umožňuje vkládání písem, aby byla zajištěn
 ### Q5: Kde mohu získat další pomoc s Aspose.Note?
 
  A5: Pro další pomoc nebo technickou podporu můžete navštívit stránku[Aspose.Note fórum](https://forum.aspose.com/c/note/28).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

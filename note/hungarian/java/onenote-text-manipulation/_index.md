@@ -3,10 +3,16 @@ title: OneNote szövegmanipuláció
 linktitle: OneNote szövegmanipuláció
 second_title: Aspose.Note Java API
 description: Fedezze fel az Aspose.Note Java oktatóanyagokat a OneNote szövegkezeléséről. Fedezze fel az olyan feladatok hatékony módszereit, mint a szöveg kibontása, a témák alkalmazása, a listák létrehozása és egyebek.
-type: docs
 weight: 34
 url: /hu/java/onenote-text-manipulation/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# OneNote szövegmanipuláció
+
 
 ## Bevezetés
 
@@ -56,3 +62,9 @@ Ismerje meg, hogyan cserélhet szöveget egy adott OneNote-oldalon az Aspose.Not
 Használja ki az Aspose.Note for Java-ban rejlő lehetőségeket! Lépésről lépésre szóló útmutatónkból megtudhatja, hogyan állíthat be zökkenőmentesen a szöveghez a OneNote-ban a korrektúra nyelvét.
 ### [Oldalcím beállítása a Microsoft OneNote stílusban – Aspose.Note](./setting-page-title-in-microsoft-onenote-style/)
 Ismerje meg, hogyan állíthat be oldalcímeket Microsoft OneNote stílusban az Aspose.Note for Java segítségével. Emelje fel Java-dokumentumait professzionális formázással.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

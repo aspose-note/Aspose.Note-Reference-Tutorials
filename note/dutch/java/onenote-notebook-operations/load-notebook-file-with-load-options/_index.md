@@ -3,10 +3,16 @@ title: Notebook-bestand laden met laadopties in OneNote - Aspose.Note
 linktitle: Notebook-bestand laden met laadopties in OneNote - Aspose.Note
 second_title: Aspose.Note Java-API
 description: Leer hoe u Aspose.Note voor Java kunt gebruiken om OneNote-bestanden programmatisch te manipuleren. Ga nu aan de slag met onze uitgebreide tutorial.
-type: docs
 weight: 20
 url: /nl/java/onenote-notebook-operations/load-notebook-file-with-load-options/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Notebook-bestand laden met laadopties in OneNote - Aspose.Note
+
 ## Invoering
 
 Aspose.Note voor Java is een krachtige bibliotheek waarmee ontwikkelaars programmatisch met Microsoft OneNote-bestanden kunnen werken. Of u nu OneNote-documenten wilt maken, manipuleren of converteren, Aspose.Note voor Java biedt de nodige hulpmiddelen om uw workflow te stroomlijnen. In deze zelfstudie onderzoeken we hoe u aan de slag kunt gaan met Aspose.Note voor Java, waarbij we de vereisten behandelen, pakketten importeren en voorbeelden opsplitsen in eenvoudig te volgen stappen.
@@ -94,3 +100,9 @@ A1: Ja, Aspose.Note voor Java ondersteunt verschillende versies van OneNote-best
 ### V5: Heb ik een tijdelijke licentie nodig om Aspose.Note voor Java te gebruiken?
 
  A5: Als u het product evalueert, kunt u een tijdelijke licentie verkrijgen[hier](https://purchase.aspose.com/temporary-license/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

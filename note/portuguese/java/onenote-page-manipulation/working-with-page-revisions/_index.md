@@ -3,10 +3,16 @@ title: Trabalhando com revisões de página no OneNote - Aspose.Note
 linktitle: Trabalhando com revisões de página no OneNote - Aspose.Note
 second_title: API Java Aspose.Note
 description: Aprenda como gerenciar revisões de páginas em documentos do OneNote usando Aspose.Note para Java. Fornece guia passo a passo para colaboração e rastreamento de revisão eficazes.
-type: docs
 weight: 21
 url: /pt/java/onenote-page-manipulation/working-with-page-revisions/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Trabalhando com revisões de página no OneNote - Aspose.Note
+
 ## Introdução
 
 O OneNote é uma ferramenta poderosa para organizar e gerenciar notas, mas às vezes você precisa trabalhar com revisões para rastrear alterações e colaborar de forma eficaz. Com Aspose.Note para Java, você pode gerenciar facilmente revisões de páginas em documentos do OneNote de forma programática. Este tutorial irá guiá-lo através do processo passo a passo.
@@ -98,3 +104,9 @@ R: Sim, você pode personalizar as revisões de página de acordo com seus requi
 ### Q5: Onde posso obter suporte para Aspose.Note para Java?
 
  R: Você pode obter suporte para Aspose.Note for Java no site[Fórum Aspose.Note](https://forum.aspose.com/c/note/28).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

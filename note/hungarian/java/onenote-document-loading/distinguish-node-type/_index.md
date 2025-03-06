@@ -3,10 +3,16 @@ title: A csomóponttípus megkülönböztetése a OneNote-dokumentumban – Java
 linktitle: A csomóponttípus megkülönböztetése a OneNote-dokumentumban – Java
 second_title: Aspose.Note Java API
 description: Ismerje meg, hogyan lehet megkülönböztetni a csomóponttípusokat a OneNote-dokumentumokban Java és Aspose.Note használatával. Fedezze fel a lépésenkénti útmutatót és a GYIK-et a zökkenőmentes integráció érdekében.
-type: docs
 weight: 20
 url: /hu/java/onenote-document-loading/distinguish-node-type/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# A csomóponttípus megkülönböztetése a OneNote-dokumentumban – Java
+
 ## Bevezetés
 
 A Java programozás területén a OneNote-dokumentumokkal végzett munka saját kihívásokat és bonyolultságokat rejt magában. Szerencsére az Aspose.Note for Java átfogó megoldást kínál az adatok zökkenőmentes navigálására, manipulálására és ezekből a dokumentumokból való kinyerésére. Ebben az oktatóanyagban egy konkrét szempontot vizsgálunk meg: a csomóponttípusok megkülönböztetését egy OneNote-dokumentumban Java használatával. Az útmutató végére alaposan megérti, hogyan azonosíthatja a különböző csomóponttípusokat, és hogyan használhatja hatékonyan ezt a tudást a Java-alkalmazásaiban.
@@ -74,3 +80,10 @@ Ebben az oktatóanyagban megvizsgáltuk, hogyan lehet megkülönböztetni a csom
 ### 5. kérdés: Elérhető az Aspose.Note for Java ingyenes próbaverziója?
 
  5. válasz: Igen, felfedezheti az Aspose.Note for Java szolgáltatásait a címen elérhető ingyenes próbaverzióval[ez a link](https://releases.aspose.com/).
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

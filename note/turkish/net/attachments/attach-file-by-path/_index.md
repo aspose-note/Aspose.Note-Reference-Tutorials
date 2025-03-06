@@ -3,10 +3,16 @@ title: Aspose.Note'ta Dosyayı Yola Göre Ekle
 linktitle: Aspose.Note'ta Dosyayı Yola Göre Ekle
 second_title: Aspose.Note .NET API'si
 description: Aspose.Note for .NET'i kullanarak Microsoft OneNote belgelerine programlı olarak nasıl dosya ekleyeceğinizi öğrenin. Bu kapsamlı eğitimle geliştirme sürecinizi basitleştirin.
-type: docs
 weight: 11
 url: /tr/net/attachments/attach-file-by-path/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Aspose.Note'ta Dosyayı Yola Göre Ekle
+
 ## giriiş
 
 Aspose.Note for .NET, geliştiricilerin Microsoft OneNote dosyalarıyla programlı olarak çalışmasını sağlayan güçlü bir kitaplıktır. OneNote belgelerini oluşturmak, düzenlemek, dönüştürmek veya değiştirmek istiyorsanız Aspose.Note for .NET, geliştirme sürecinizi kolaylaştırmak için kapsamlı işlevsellik sağlar.
@@ -147,3 +153,9 @@ C3: Evet, Aspose.Note for .NET'in ticari kullanımı için bir lisans almanız g
 ### S5: Aspose.Note for .NET desteğini nereden alabilirim?
 
  Cevap5: Aspose.Note topluluk forumlarından destek alabilirsiniz[Burada](https://forum.aspose.com/c/note/28).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

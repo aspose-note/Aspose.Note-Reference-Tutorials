@@ -3,10 +3,16 @@ title: 使用 OneSaveOptions 將文件儲存到 OneNote - Aspose.Note
 linktitle: 使用 OneSaveOptions 將文件儲存到 OneNote - Aspose.Note
 second_title: Aspose.Note Java API
 description: 了解如何使用 Aspose.Note for Java 中的 OneSaveOptions 將文件儲存為 OneNote 格式。透過這個綜合教程增強您的工作流程。
-type: docs
 weight: 11
 url: /zh-hant/java/onenote-document-saving/save-document-to-onenote-format-using-onesaveoptions/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# 使用 OneSaveOptions 將文件儲存到 OneNote - Aspose.Note
+
 ## 介紹
 
 在本教學中，我們將深入研究使用 Aspose.Note for Java 中的 OneSaveOptions 將文件儲存為 OneNote 格式的過程。 Aspose.Note 是一個功能強大的 Java API，有助於以程式設計方式操作和管理 OneNote 文件。透過遵循此逐步指南，您將學習如何有效地保存文檔，確保與 OneNote 格式的兼容性。
@@ -74,3 +80,9 @@ A4：當然，Aspose.Note for Java 旨在滿足企業級應用程式的需求，
 ### 問題 5：在哪裡可以找到 Aspose.Note for Java 的支援或其他資源？
 
  A5：您可以在以下位置找到 Aspose.Note for Java 的綜合文件、教學和論壇：[阿斯普斯網站](https://forum.aspose.com/c/note/28).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

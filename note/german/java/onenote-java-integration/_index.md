@@ -3,10 +3,16 @@ title: OneNote Java-Integration
 linktitle: OneNote Java-Integration
 second_title: Aspose.Note Java API
 description: Verbessern Sie Ihr OneNote-Erlebnis mit Aspose.Note Java! Entdecken Sie Tutorials zum Anhängen von Dateien, zum Festlegen von Symbolen und zum programmgesteuerten Abrufen von Anhängen mit Java.
-type: docs
 weight: 20
 url: /de/java/onenote-java-integration/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# OneNote Java-Integration
+
 ## Einführung
 
 Willkommen zu unserem umfassenden Leitfaden zur Integration von OneNote mit Java mithilfe von Aspose.Note. Ganz gleich, ob Sie ein erfahrener Entwickler sind oder gerade erst anfangen: Mit diesen Tutorials können Sie Ihre OneNote-Funktionen programmgesteuert maximieren.
@@ -36,3 +42,9 @@ Erfahren Sie, wie Sie mit Aspose.Note für Java Dateien anhängen und Symbole in
 Erfahren Sie, wie Sie mithilfe von Java mit Aspose.Note Dateien programmgesteuert an Ihre OneNote-Notizen anhängen.
 ### [Abrufen von Anhängen aus OneNote mit Java](./retrieve-attachment/)
 Erfahren Sie, wie Sie mit Aspose.Note, einer leistungsstarken API für die nahtlose Dokumentbearbeitung, Anhänge aus OneNote mithilfe von Java abrufen.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

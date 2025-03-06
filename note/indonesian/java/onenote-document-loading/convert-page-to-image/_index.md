@@ -3,10 +3,16 @@ title: Konversi Halaman Tertentu menjadi Gambar di OneNote menggunakan Java
 linktitle: Konversi Halaman Tertentu menjadi Gambar di OneNote menggunakan Java
 second_title: Aspose.Catatan Java API
 description: Pelajari cara mengonversi halaman tertentu menjadi gambar di OneNote menggunakan Java dengan Aspose.Note. Ikuti panduan langkah demi langkah kami untuk integrasi yang lancar.
-type: docs
 weight: 12
 url: /id/java/onenote-document-loading/convert-page-to-image/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Konversi Halaman Tertentu menjadi Gambar di OneNote menggunakan Java
+
 ## Perkenalan
 
 Dalam tutorial ini, kami akan memandu Anda melalui proses mengonversi halaman tertentu menjadi gambar di OneNote menggunakan Java dengan Aspose.Note. Dengan mengikuti langkah-langkah ini, Anda akan dapat mengintegrasikan fungsi ini dengan lancar ke dalam aplikasi Java Anda.
@@ -101,3 +107,9 @@ A4: Ya, Aspose.Note menyediakan perpustakaan untuk berbagai bahasa pemrograman t
 ### Q5: Di mana saya bisa mendapatkan dukungan atau bantuan tambahan?
 
  A5: Untuk dukungan atau bantuan tambahan, Anda dapat mengunjungi[Aspose.Catatan forum](https://forum.aspose.com/c/note/28) atau lihat dokumentasi yang tersedia[Di Sini](https://reference.aspose.com/note/java/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

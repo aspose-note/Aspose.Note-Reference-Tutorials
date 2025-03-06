@@ -3,10 +3,16 @@ title: Jegyzetfüzetek betöltése a Streamből az Aspose Note .NET-ben
 linktitle: Jegyzetfüzetek betöltése a Streamből az Aspose Note .NET-ben
 second_title: Aspose.Note .NET API
 description: Ismerje meg, hogyan tölthet be jegyzetfüzeteket adatfolyamból az Aspose.Note for .NET alkalmazásban. Kövesse ezt a lépésről lépésre szóló útmutatót a .NET-alkalmazásokba való zökkenőmentes integráció érdekében.
-type: docs
 weight: 19
 url: /hu/net/notebook-operations/load-notebooks-from-stream/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Jegyzetfüzetek betöltése a Streamből az Aspose Note .NET-ben
+
 ## Bevezetés
 
 Ebben az oktatóanyagban megvizsgáljuk, hogyan tölthet be jegyzetfüzeteket adatfolyamból az Aspose.Note for .NET segítségével. Az Aspose.Note egy hatékony könyvtár, amely lehetővé teszi a fejlesztők számára, hogy programozottan dolgozzanak Microsoft OneNote fájlokkal. A jegyzetfüzetek adatfolyamból való betöltése gyakori feladat a .NET-alkalmazások fájlbeviteli/kimeneti műveletei során.
@@ -92,3 +98,9 @@ Ebben az oktatóanyagban megtanultuk, hogyan tölthet be jegyzetfüzeteket az As
 ### 5. kérdés: Van lehetőség ideiglenes engedélyezésre?
 
  V5: Igen, ideiglenes engedélyt szerezhet be[itt](https://purchase.aspose.com/temporary-license/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -3,10 +3,16 @@ title: Töltsön be jelszóval védett dokumentumokat az Aspose Note .NET-be
 linktitle: Töltsön be jelszóval védett dokumentumokat az Aspose Note .NET-be
 second_title: Aspose.Note .NET API
 description: Ismerje meg, hogyan tölthet be biztonságosan jelszóval védett dokumentumokat az Aspose Note .NET-be egyszerű lépésekkel. Biztosítsa az adatok titkosságát titkosítással.
-type: docs
 weight: 22
 url: /hu/net/notebook-operations/load-password-protected-documents/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Töltsön be jelszóval védett dokumentumokat az Aspose Note .NET-be
+
 ## Bevezetés
 
 Az Aspose.Note for .NET egy hatékony API, amely lehetővé teszi a fejlesztők számára, hogy programozottan dolgozzanak Microsoft OneNote fájlokkal. Ebből az oktatóanyagból megtanuljuk, hogyan töltsünk be jelszóval védett dokumentumokat az Aspose.Note for .NET segítségével.
@@ -77,3 +83,9 @@ Ebben az oktatóanyagban megtanultuk, hogyan tölthetünk be jelszóval védett 
 ### 5. kérdés: Elérhető-e próbaverzió az Aspose.Note-hoz .NET-hez?
 
  5. válasz: Igen, elérheti az Aspose.Note ingyenes próbaverzióját .NET-hez innen[itt](https://releases.aspose.com/), amely lehetővé teszi, hogy vásárlás előtt felfedezze szolgáltatásait.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

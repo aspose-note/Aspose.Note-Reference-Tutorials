@@ -3,10 +3,16 @@ title: استرداد عدد الصفحات في مستند Aspose.Note
 linktitle: استرداد عدد الصفحات في مستند Aspose.Note
 second_title: Aspose.Note .NET API
 description: تعرف على كيفية حساب عدد الصفحات في مستند Aspose.Note باستخدام لغة C#. اتبع دليلنا خطوة بخطوة لسهولة التكامل.
-type: docs
 weight: 12
 url: /ar/net/note-manipulation/retrieve-number-of-pages/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# استرداد عدد الصفحات في مستند Aspose.Note
+
 ## مقدمة
 
 تعد Aspose.Note for .NET مكتبة قوية تتيح للمطورين العمل مع ملفات Microsoft OneNote برمجيًا. سواء كنت بحاجة إلى إنشاء مستندات OneNote أو معالجتها أو تحويلها، فإن Aspose.Note يوفر وظائف شاملة لتبسيط مهامك. في هذا البرنامج التعليمي، سوف نتعمق في إحدى العمليات الأساسية: استرداد عدد الصفحات في مستند Aspose.Note باستخدام لغة C#.
@@ -100,3 +106,9 @@ Console.WriteLine(count);
 ### س5: كيف يمكنني الحصول على الدعم الفني لـ Aspose.Note؟
 
  ج5: يمكنك طلب المساعدة والتفاعل مع المجتمع على[منتدى الدعم Aspose.Note](https://forum.aspose.com/c/note/28).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

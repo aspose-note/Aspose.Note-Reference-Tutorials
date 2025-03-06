@@ -3,10 +3,16 @@ title: Aspose.Note에서 경로별로 파일 첨부
 linktitle: Aspose.Note에서 경로별로 파일 첨부
 second_title: Aspose.Note .NET API
 description: .NET용 Aspose.Note를 사용하여 프로그래밍 방식으로 Microsoft OneNote 문서에 파일을 첨부하는 방법을 알아보세요. 이 포괄적인 튜토리얼을 통해 개발 프로세스를 단순화하세요.
-type: docs
 weight: 11
 url: /ko/net/attachments/attach-file-by-path/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Aspose.Note에서 경로별로 파일 첨부
+
 ## 소개
 
 Aspose.Note for .NET은 개발자가 Microsoft OneNote 파일을 프로그래밍 방식으로 작업할 수 있게 해주는 강력한 라이브러리입니다. OneNote 문서를 생성, 편집, 변환 또는 조작하려는 경우 Aspose.Note for .NET은 개발 프로세스를 간소화하는 포괄적인 기능을 제공합니다.
@@ -147,3 +153,9 @@ A3: 예, Aspose.Note for .NET을 상업적으로 사용하려면 라이선스를
 ### Q5: .NET용 Aspose.Note에 대한 지원은 어디서 찾을 수 있나요?
 
  A5: Aspose.Note 커뮤니티 포럼에서 지원을 요청할 수 있습니다.[여기](https://forum.aspose.com/c/note/28).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

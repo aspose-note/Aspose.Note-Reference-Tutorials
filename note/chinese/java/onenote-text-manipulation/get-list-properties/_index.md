@@ -3,10 +3,16 @@ title: 在 OneNote 中获取列表属性 - Aspose.Note
 linktitle: 在 OneNote 中获取列表属性 - Aspose.Note
 second_title: Aspose.Note Java API
 description: 探索 Aspose.Note for Java 并轻松检索 OneNote 文档中的列表属性。使用这个强大的 Java 库增强您的文档处理能力。
-type: docs
 weight: 19
 url: /zh/java/onenote-text-manipulation/get-list-properties/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# 在 OneNote 中获取列表属性 - Aspose.Note
+
 ## 介绍
 欢迎来到这个关于利用 Aspose.Note for Java 检索和分析 OneNote 文档中的列表属性的综合教程。无论您是经验丰富的开发人员还是刚刚开始使用 Aspose.Note，本指南都将引导您完成整个过程，分解每个步骤以确保清晰的理解。
 ## 先决条件
@@ -95,3 +101,9 @@ Aspose.Note支持各种OneNote版本，确保不同文档格式的兼容性。
 是的，您可以获得临时许可证[这里](https://purchase.aspose.com/temporary-license/)用于测试目的。
 ### 如果我想购买 Aspose.Note for Java 怎么办？
 您可以购买该产品[这里](https://purchase.aspose.com/buy)为您的项目释放其全部潜力。
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

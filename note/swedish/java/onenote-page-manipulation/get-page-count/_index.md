@@ -3,10 +3,16 @@ title: Få sidräkning i OneNote - Aspose.Note
 linktitle: Få sidräkning i OneNote - Aspose.Note
 second_title: Aspose.Note Java API
 description: Lär dig hur du hämtar sidräkningen i OneNote-dokument med Aspose.Note för Java. Denna steg-för-steg handledning guidar dig genom processen utan ansträngning.
-type: docs
 weight: 13
 url: /sv/java/onenote-page-manipulation/get-page-count/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Få sidräkning i OneNote - Aspose.Note
+
 ## Introduktion
 
 I den här handledningen kommer vi att utforska hur man använder Aspose.Note för Java för att effektivt hämta sidräkningen i ett OneNote-dokument. Aspose.Note är ett kraftfullt Java API som tillåter utvecklare att arbeta med Microsoft OneNote-filer programmatiskt, vilket möjliggör uppgifter som dokumentmanipulation, extrahering och konvertering.
@@ -86,3 +92,9 @@ S4: Ja, du kan komma åt dokumentationen och forumen på[Aspose hemsida](https:/
 ### F5: Finns det en testversion av Aspose.Note för Java tillgänglig för teständamål?
 
  A5: Ja, du kan ladda ner en gratis testversion från[släpper sida](https://releases.aspose.com/) för att utvärdera API:ts funktioner.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

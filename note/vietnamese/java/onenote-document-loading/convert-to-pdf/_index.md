@@ -3,10 +3,16 @@ title: Chuyển đổi tài liệu OneNote sang PDF - Java
 linktitle: Chuyển đổi tài liệu OneNote sang PDF - Java
 second_title: API Java Aspose.Note
 description: Tìm hiểu cách chuyển đổi tài liệu OneNote sang PDF bằng Aspose.Note for Java. Nâng cao khả năng xử lý tài liệu của bạn với hướng dẫn từng bước này.
-type: docs
 weight: 16
 url: /vi/java/onenote-document-loading/convert-to-pdf/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Chuyển đổi tài liệu OneNote sang PDF - Java
+
 ## Giới thiệu
 
 Trong hướng dẫn này, chúng ta sẽ khám phá cách chuyển đổi tài liệu OneNote sang PDF bằng Aspose.Note cho Java. Aspose.Note là một thư viện Java mạnh mẽ cho phép thao tác liền mạch các tệp OneNote, cung cấp nhiều chức năng khác nhau để làm việc với các thành phần khác nhau trong các tài liệu này. Một yêu cầu chung là chuyển đổi các tệp này sang định dạng PDF, có thể dễ dàng đạt được điều này bằng Aspose.Note.
@@ -105,3 +111,9 @@ Trả lời 1: Aspose.Note hỗ trợ nhiều phiên bản OneNote khác nhau, �
 ### Câu hỏi 5: Tôi có thể dùng thử Aspose.Note trước khi mua không?
 
 Câu trả lời 5: Có, bạn có thể yêu cầu dùng thử Aspose.Note miễn phí từ[đây](https://releases.aspose.com/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

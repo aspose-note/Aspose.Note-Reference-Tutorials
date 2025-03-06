@@ -3,10 +3,16 @@ title: Λάβετε κείμενο κελιού από τη γραμμή του 
 linktitle: Λάβετε κείμενο κελιού από τη γραμμή του πίνακα στο OneNote - Aspose.Note
 second_title: Aspose.Note Java API
 description: Ξεκλειδώστε τα μυστικά της εξαγωγής κειμένου από πίνακες OneNote σε Java χρησιμοποιώντας το Aspose.Note. Ακολουθήστε τον βήμα προς βήμα οδηγό μας για να βελτιώσετε τις δεξιότητές σας στην επεξεργασία εγγράφων.
-type: docs
 weight: 15
 url: /el/java/onenote-table-manipulation/get-cell-text-from-row/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Λάβετε κείμενο κελιού από τη γραμμή του πίνακα στο OneNote - Aspose.Note
+
 ## Εισαγωγή
 Ξεκινήστε ένα ταξίδι στη σφαίρα της ανάπτυξης Java καθώς ξετυλίγουμε τη διαδικασία εξαγωγής κειμένου από σειρές πίνακα OneNote χρησιμοποιώντας την ισχυρή βιβλιοθήκη Aspose.Note. Αυτός ο οδηγός βήμα προς βήμα θα σας εξοπλίσει με τις δεξιότητες για την αποτελεσματική πλοήγηση και χειρισμό κειμένου μέσα σε πίνακες.
 ## Προαπαιτούμενα
@@ -73,3 +79,9 @@ for (Table table : nodes) {
  Εγγραφείτε στη ζωντανή κοινότητα Aspose.Note στο[το φόρουμ](https://forum.aspose.com/c/note/28) για συζητήσεις και βοήθεια.
 ### Είναι διαθέσιμα δείγματα εγγράφων για σκοπούς δοκιμής;
 Βουτήξτε στην τεκμηρίωση του Aspose.Note για έναν θησαυρό από δείγματα εγγράφων και αποσπάσματα κώδικα.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

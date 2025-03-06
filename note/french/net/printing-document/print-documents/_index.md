@@ -3,10 +3,16 @@ title: Imprimer des documents à l'aide d'Aspose.Note pour .NET
 linktitle: Imprimer des documents à l'aide d'Aspose.Note pour .NET
 second_title: API Aspose.Note .NET
 description: Découvrez comment imprimer des documents OneNote à l’aide d’Aspose.Note pour .NET. Guide étape par étape pour une intégration transparente dans vos applications .NET.
-type: docs
 weight: 10
 url: /fr/net/printing-document/print-documents/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Imprimer des documents à l'aide d'Aspose.Note pour .NET
+
 ## Introduction
 
 Dans le domaine du développement .NET, Aspose.Note constitue un outil puissant pour gérer et manipuler les fichiers OneNote. Parmi sa myriade de fonctionnalités, une caractéristique cruciale est la possibilité d'imprimer des documents directement à partir de vos applications .NET. Ce didacticiel vous guidera tout au long du processus d'impression de documents à l'aide d'Aspose.Note pour .NET, en vous fournissant des instructions étape par étape tout au long du processus.
@@ -88,3 +94,9 @@ A4 : Oui, Aspose.Note vous permet d'imprimer des documents en silence en spécif
 ### Q5 : Aspose.Note prend-il en charge l'impression au format PDF ou d'autres formats de fichiers ?
 
 A5 : Oui, outre l'impression sur des imprimantes physiques, Aspose.Note facilite l'impression sur divers formats de fichiers, notamment PDF, XPS et formats d'image.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

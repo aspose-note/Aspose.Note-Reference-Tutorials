@@ -3,10 +3,16 @@ title: Thao tác tài liệu OneNote với Aspose.Note cho .NET
 linktitle: Hoạt động tải và lưu
 second_title: Aspose.Note .NET API
 description: Mở khóa sức mạnh của Aspose.Note cho .NET! Đi sâu vào hướng dẫn của chúng tôi để biết hướng dẫn từng bước về cách tải, lưu và thao tác tài liệu OneNote một cách dễ dàng.
-type: docs
 weight: 25
 url: /vi/net/loading-and-saving-operations/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Thao tác tài liệu OneNote với Aspose.Note cho .NET
+
 
 ## Giới thiệu
 
@@ -80,3 +86,9 @@ Tìm hiểu cách lưu tài liệu với cài đặt mặc định trong Aspose.
 Tìm hiểu cách chỉ định các tùy chọn lưu trong Aspose.Note cho .NET để tùy chỉnh định dạng và chất lượng đầu ra của tài liệu OneNote.
 ### [Lệnh gọi lại tiết kiệm người dùng trong Aspose.Note](./user-saving-callbacks/)
 Tìm hiểu cách triển khai lệnh gọi lại tiết kiệm người dùng trong Aspose.Note cho .NET để tùy chỉnh việc lưu phông chữ, CSS và hình ảnh.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -3,10 +3,16 @@ title: Vytvořte čínský číslovaný seznam ve OneNotu - Aspose.Note
 linktitle: Vytvořte čínský číslovaný seznam ve OneNotu - Aspose.Note
 second_title: Aspose.Note Java API
 description: Vylepšete vytváření dokumentů v Javě pomocí Aspose.Note. Naučte se krok za krokem vytvářet čínský číslovaný seznam ve OneNotu. Prozkoumejte výkonné funkce Aspose.Note.
-type: docs
 weight: 13
 url: /cs/java/onenote-text-manipulation/create-chinese-numbered-list/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Vytvořte čínský číslovaný seznam ve OneNotu - Aspose.Note
+
 ## Úvod
 Pokud chcete vylepšit své možnosti vytváření dokumentů v Javě, Aspose.Note je vaším řešením. V tomto kurzu vás provedeme procesem vytváření čínského číslovaného seznamu ve OneNotu pomocí Aspose.Note pro Javu. Tato výkonná knihovna vám umožňuje programově manipulovat s dokumenty OneNote, což vám dává plnou kontrolu nad jejich strukturou a obsahem.
 ## Předpoklady
@@ -109,3 +115,9 @@ Absolutně. Jak je uvedeno v tutoriálu, můžete upravit písmo, barvu a veliko
  Viz dokumentace[tady](https://reference.aspose.com/note/java/).
 ### Jak mohu získat podporu pro Aspose.Note?
  Navštivte fórum podpory[tady](https://forum.aspose.com/c/note/28) pro jakoukoli pomoc nebo dotazy.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

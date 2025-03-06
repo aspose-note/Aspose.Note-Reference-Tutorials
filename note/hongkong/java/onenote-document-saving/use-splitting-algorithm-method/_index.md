@@ -3,10 +3,16 @@ title: 在 OneNote 中使用分割演算法方法 - Aspose.Note
 linktitle: 在 OneNote 中使用分割演算法方法 - Aspose.Note
 second_title: Aspose.Note Java API
 description: 使用 Aspose.Note 掌握 Java 中的 OneNote 文件分割！選擇演算法、控制分頁符號並輕鬆儲存為 PDF。包含程式碼！ #OneNote #Java #Aspose
-type: docs
 weight: 26
 url: /zh-hant/java/onenote-document-saving/use-splitting-algorithm-method/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# 在 OneNote 中使用分割演算法方法 - Aspose.Note
+
 ## 介紹
 
 在本教程中，我們將深入研究在 Aspose.Note for Java 中使用分割演算法方法。 Aspose.Note 是一個功能強大的函式庫，可讓開發人員以程式設計方式處理 Microsoft OneNote 檔案。當您需要操作和匯出 OneNote 文件時，尤其是在處理複雜佈局或大文件時，使用分割演算法特別有用。
@@ -101,3 +107,9 @@ A2：當然！ Aspose.Note 提供了有效處理大型檔案的強大功能。
 ### Q5：如何取得Aspose.Note的臨時授權？
 
  A5：您可以請求[臨時執照](https://purchase.aspose.com/temporary-license/)在試用期內評估產品。
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -3,10 +3,16 @@ title: Resalte todos los cambios recientes en el texto Aspose.Note
 linktitle: Resalte todos los cambios recientes en el texto Aspose.Note
 second_title: Aspose.Nota .NET API
 description: ¡Mejore sus documentos Note con Aspose.Note para .NET! Aprenda a resaltar cambios recientes en el texto con este tutorial paso a paso.
-type: docs
 weight: 19
 url: /es/net/text-manipulation/highlight-recent-changes/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Resalte todos los cambios recientes en el texto Aspose.Note
+
 ## Introducción
 ¿Está buscando agregar características dinámicas y visualmente atractivas a sus documentos Note usando .NET? Aspose.Note para .NET es una solución poderosa que le permite manipular y mejorar sus archivos Note sin problemas. En este tutorial, profundizaremos en un aspecto específico: resaltar todos los cambios recientes en el texto de Aspose.Note.
 ## Requisitos previos
@@ -70,3 +76,9 @@ Puede incorporar bloques try-catch para manejar excepciones y brindar una experi
 ¡Absolutamente! Aspose.Note proporciona una amplia gama de funciones para formatear texto, incluidos estilos de fuente, tamaños y más.
 ### ¿Puedo integrar esta solución en una aplicación web?
 Sí, puede integrar Aspose.Note para .NET en aplicaciones web para mejorar las capacidades de procesamiento de documentos.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -3,10 +3,16 @@ title: Aspose.Note のグレースケール画像に保存
 linktitle: Aspose.Note のグレースケール画像に保存
 second_title: Aspose.Note .NET API
 description: Aspose.Note for .NET を使用して OneNote ドキュメントをグレースケール イメージとして保存する方法を学習します。文書を効率的に処理するには、この包括的なチュートリアルに従ってください。
-type: docs
 weight: 24
 url: /ja/net/loading-and-saving-operations/save-to-grayscale-image/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Aspose.Note のグレースケール画像に保存
+
 ## 導入
 
 このチュートリアルでは、Aspose.Note for .NET を利用してドキュメントをグレースケール イメージとして保存する方法を検討します。 Aspose.Note は、開発者が Microsoft OneNote ファイルをプログラムで操作できるようにする強力なライブラリであり、幅広い機能を提供します。
@@ -85,3 +91,9 @@ A4: はい、Aspose.Note の Web サイトで利用できる無料トライア�
 ### Q5: Aspose.Note の一時ライセンスを取得するにはどうすればよいですか?
 
 A5: 提供されたリンクにアクセスし、指示に従うことで、Aspose.Note の一時ライセンスを取得できます。
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

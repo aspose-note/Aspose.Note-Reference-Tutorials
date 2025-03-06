@@ -3,10 +3,16 @@ title: Đẩy và quản lý các phiên bản trang hiện tại trong Aspose.N
 linktitle: Đẩy và quản lý các phiên bản trang hiện tại trong Aspose.Note
 second_title: Aspose.Note .NET API
 description: Tìm hiểu cách đẩy và quản lý các phiên bản trang hiện tại trong Aspose.Note cho .NET một cách dễ dàng. Cải thiện khả năng cộng tác và kiểm soát phiên bản tài liệu.
-type: docs
 weight: 17
 url: /vi/net/note-manipulation/manage-current-page-versions/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Đẩy và quản lý các phiên bản trang hiện tại trong Aspose.Note
+
 ## Giới thiệu
 
 Trong thế giới phát triển phần mềm, việc quản lý và duy trì các phiên bản tài liệu khác nhau là rất quan trọng để đảm bảo tính chính xác, khả năng truy xuất nguồn gốc và trách nhiệm giải trình. Aspose.Note for .NET cung cấp các công cụ mạnh mẽ để hỗ trợ quá trình này, cho phép các nhà phát triển đẩy và quản lý các phiên bản trang hiện tại một cách liền mạch. Trong hướng dẫn này, chúng ta sẽ đi sâu vào các bước cần thiết để đẩy và quản lý các phiên bản trang hiện tại bằng Aspose.Note cho .NET.
@@ -90,3 +96,9 @@ Câu trả lời 4: Có, Aspose.Note for .NET cung cấp các API toàn diện �
 ### Câu hỏi 5: Tôi có thể tự động hóa quy trình đẩy phiên bản trang bằng Aspose.Note cho .NET không?
 
 A5: Chắc chắn rồi! Aspose.Note for .NET cung cấp khả năng tự động hóa mạnh mẽ, cho phép bạn tích hợp kiểm soát phiên bản một cách liền mạch vào ứng dụng của mình.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

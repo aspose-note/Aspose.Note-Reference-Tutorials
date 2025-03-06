@@ -3,10 +3,16 @@ title: OneNote のページ履歴を変更する - Aspose.Note
 linktitle: OneNote のページ履歴を変更する - Aspose.Note
 second_title: Aspose.Note Java API
 description: ページ履歴エントリをシームレスに削除、変更、追加します。 Aspose.Note を使用して OneNote をマスターするためのステップバイステップ ガイドとコード。 #OneNote #Java #Aspose
-type: docs
 weight: 17
 url: /ja/java/onenote-page-manipulation/modify-page-history/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# OneNote のページ履歴を変更する - Aspose.Note
+
 ## 導入
 
 このチュートリアルでは、Aspose.Note for Java を使用して OneNote ドキュメントのページ履歴を変更する方法について詳しく説明します。 Aspose.Note は、開発者が OneNote ファイルをシームレスに操作できるようにする強力な Java API で、これらのファイルの作成、読み取り、変更などのさまざまな操作をプログラムで実行できるようにします。
@@ -108,3 +114,10 @@ A4: はい、Aspose.Note for Java は一括変更を効率的に処理するた�
 ### Q5: 助けを求めることができる、Aspose.Note for Java のコミュニティ フォーラムはありますか?
 
  A5: はい、ご覧いただけます。[Aspose.Note フォーラム](https://forum.aspose.com/c/note/28)図書館に関するサポートや質問については、こちらをご覧ください。
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

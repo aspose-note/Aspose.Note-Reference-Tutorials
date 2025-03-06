@@ -3,10 +3,16 @@ title: OneNote notebook műveletek
 linktitle: OneNote notebook műveletek
 second_title: Aspose.Note Java API
 description: Használja ki az Aspose.Note for Java teljes potenciálját a OneNote notebook-műveletek oktatóanyagaival. Adjon lépésről lépésre útmutatót a Java-alkalmazások fejlesztéséhez.
-type: docs
 weight: 28
 url: /hu/java/onenote-notebook-operations/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# OneNote notebook műveletek
+
 
 ## Bevezetés
 
@@ -66,3 +72,9 @@ Ismerje meg, hogyan kérhet le dokumentumokat a OneNote Jegyzetfüzetből az Asp
 Ismerje meg, hogyan menthet jegyzetfüzeteket adatfolyamokba a OneNote-ban az Aspose.Note for Java segítségével. Növelje a termelékenységet hatékony notebook-kezeléssel.
 ### [Írjon jelszóval védett dokumentumot a OneNote-ban – Aspose.Note](./write-password-protected-document/)
 Ismerje meg, hogyan írhat jelszóval védett dokumentumokat a OneNote-ban az Aspose.Note for Java használatával. Könnyen követhető lépésekkel garantálja a biztonságot.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

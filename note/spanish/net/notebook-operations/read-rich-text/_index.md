@@ -3,10 +3,16 @@ title: Leer texto enriquecido en Aspose Note .NET
 linktitle: Leer texto enriquecido en Aspose Note .NET
 second_title: Aspose.Nota .NET API
 description: Aprenda a leer texto enriquecido de cuadernos de OneNote mediante programación utilizando Aspose.Note para .NET. Siga nuestro tutorial paso a paso para una fácil integración.
-type: docs
 weight: 23
 url: /es/net/notebook-operations/read-rich-text/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Leer texto enriquecido en Aspose Note .NET
+
 ## Introducción
 
 En este tutorial, exploraremos cómo leer texto enriquecido usando Aspose.Note para .NET. Aspose.Note es una potente API que permite a los desarrolladores trabajar con documentos de Microsoft OneNote mediante programación, ofreciendo una amplia gama de funcionalidades para crear, editar y manipular archivos de OneNote.
@@ -97,3 +103,9 @@ R1: Sí, Aspose.Note para .NET le permite crear, editar y manipular archivos de 
 ### P5: ¿Dónde puedo encontrar documentación detallada de Aspose.Note para .NET?
 
  R5: Puede encontrar documentación completa para Aspose.Note para .NET en el[página de referencia](https://reference.aspose.com/note/net/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

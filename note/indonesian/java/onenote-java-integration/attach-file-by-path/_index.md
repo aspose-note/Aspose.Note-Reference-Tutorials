@@ -3,10 +3,16 @@ title: Lampirkan File demi Jalur di OneNote dengan Java
 linktitle: Lampirkan File demi Jalur di OneNote dengan Java
 second_title: Aspose.Catatan Java API
 description: Tambahkan file ke catatan OneNote Anda dengan lancar! Pelajari cara melampirkan berdasarkan jalur di Java dengan Aspose.Note. Panduan & kode mudah disertakan! #OneNote #Java #Aspose
-type: docs
 weight: 11
 url: /id/java/onenote-java-integration/attach-file-by-path/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Lampirkan File demi Jalur di OneNote dengan Java
+
 ## Perkenalan
 
 OneNote adalah alat serbaguna untuk mengatur dan mengelola catatan, dan dengan Aspose.Note untuk Java, Anda dapat meningkatkan fungsinya dengan melampirkan file ke catatan Anda secara terprogram. Dalam tutorial ini, kami akan memandu Anda melalui proses melampirkan file berdasarkan jalurnya di OneNote menggunakan Java.
@@ -148,3 +154,9 @@ A4: Ya, Anda dapat melampirkan file ke bagian tertentu dengan mengaturnya dalam 
 ### Q5: Apakah ada batasan ukuran file yang dapat saya lampirkan?
 
 A5: Aspose.Note tidak menerapkan batasan ketat pada ukuran file, namun mempertimbangkan implikasi kinerja untuk file yang sangat besar.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

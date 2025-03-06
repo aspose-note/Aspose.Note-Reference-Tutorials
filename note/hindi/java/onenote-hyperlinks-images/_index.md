@@ -3,10 +3,16 @@ title: OneNote हाइपरलिंक और छवियाँ
 linktitle: OneNote हाइपरलिंक और छवियाँ
 second_title: Aspose.नोट जावा एपीआई
 description: जावा ट्यूटोरियल के लिए Aspose.Note के साथ अपने OneNote अनुभव को बेहतर बनाएं। जावा विकास के साथ हाइपरलिंक जोड़ना, चित्र सम्मिलित करना और छवि जानकारी निकालना सीखें।
-type: docs
 weight: 22
 url: /hi/java/onenote-hyperlinks-images/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# OneNote हाइपरलिंक और छवियाँ
+
 
 ## परिचय
 
@@ -48,3 +54,9 @@ Aspose.Note लाइब्रेरी के साथ जावा का उ
 Aspose.Note के साथ जावा का उपयोग करके OneNote दस्तावेज़ों से छवि जानकारी निकालने का तरीका जानें। डेवलपर्स के लिए आसान कदम.
 ### [जावा के साथ OneNote दस्तावेज़ में एक छवि सम्मिलित करें](./insert-image/)
 जावा लाइब्रेरी के लिए Aspose.Note के साथ जावा का उपयोग करके OneNote दस्तावेज़ों में छवियां सम्मिलित करना सीखें। निर्बाध एकीकरण के लिए हमारी चरण-दर-चरण मार्गदर्शिका का पालन करें।
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

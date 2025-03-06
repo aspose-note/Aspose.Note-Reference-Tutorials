@@ -3,10 +3,16 @@ title: Αποθήκευση με χρήση καθορισμένων γραμμ�
 linktitle: Αποθήκευση με χρήση καθορισμένων γραμματοσειρών στο Aspose.Note
 second_title: Aspose.Note .NET API
 description: Μάθετε πώς να αποθηκεύετε έγγραφα με καθορισμένες γραμματοσειρές στο Aspose.Note για .NET. Προσαρμόστε εύκολα τις ρυθμίσεις γραμματοσειράς για συνεπή μορφοποίηση εγγράφων.
-type: docs
 weight: 28
 url: /el/net/loading-and-saving-operations/save-using-specified-fonts/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Αποθήκευση με χρήση καθορισμένων γραμματοσειρών στο Aspose.Note
+
 ## Εισαγωγή
 
 Σε αυτό το σεμινάριο, θα μάθουμε πώς να αποθηκεύουμε έγγραφα χρησιμοποιώντας καθορισμένες γραμματοσειρές στο Aspose.Note για .NET. Θα εξερευνήσουμε διάφορες μεθόδους για να το πετύχουμε αυτό, βήμα προς βήμα.
@@ -131,3 +137,9 @@ A4: Ναι, το Aspose.Note επιτρέπει την ενσωμάτωση γρ
 ### Ε5: Πού μπορώ να λάβω περαιτέρω βοήθεια με το Aspose.Note;
 
  A5: Για περαιτέρω βοήθεια ή τεχνική υποστήριξη, μπορείτε να επισκεφτείτε το[Aspose.Note φόρουμ](https://forum.aspose.com/c/note/28).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

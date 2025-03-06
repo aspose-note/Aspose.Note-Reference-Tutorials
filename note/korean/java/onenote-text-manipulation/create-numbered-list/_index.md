@@ -3,10 +3,16 @@ title: OneNote에서 번호 매기기 목록 만들기 - Aspose.Note
 linktitle: OneNote에서 번호 매기기 목록 만들기 - Aspose.Note
 second_title: Aspose.Note 자바 API
 description: Java용 Aspose.Note를 사용하여 OneNote에서 번호 매기기 목록을 쉽게 만드는 방법을 알아보세요. 무료 평가판을 다운로드하고 Java 개발의 세계에 빠져보세요!
-type: docs
 weight: 14
 url: /ko/java/onenote-text-manipulation/create-numbered-list/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# OneNote에서 번호 매기기 목록 만들기 - Aspose.Note
+
 ## 소개
 Aspose.Note for Java는 Java 개발자가 Microsoft OneNote 파일을 원활하게 사용할 수 있도록 지원합니다. 이 자습서에서는 강력한 Java용 Aspose.Note 라이브러리를 사용하여 OneNote에서 번호 매기기 목록을 작성하는 과정을 안내합니다.
 ## 전제조건
@@ -91,3 +97,9 @@ System.out.printf("File saved: %s\n", dataDir + "CreateNumberedList_out.pdf");
  답: 다음을 참조하세요.[선적 서류 비치](https://reference.aspose.com/note/java/) 포괄적인 정보를 얻으려면.
 ### Q: Aspose.Note for Java 라이선스는 어떻게 구매하나요?
  A: 라이센스를 구입할 수 있습니다.[여기](https://purchase.aspose.com/buy).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

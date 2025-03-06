@@ -3,10 +3,16 @@ title: Java で OneNote の従量制ライセンスを管理する
 linktitle: Java で OneNote の従量制ライセンスを管理する
 second_title: Aspose.Note Java API
 description: Aspose.Note ライブラリを使用して Java で OneNote の従量制ライセンスを管理する方法を学習します。使用量を制御し、クレジットを監視し、コストを効率的に最適化します。
-type: docs
 weight: 10
 url: /ja/java/licensing-java/manage-metered-license/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Java で OneNote の従量制ライセンスを管理する
+
 ## 導入
 
 このチュートリアルでは、Aspose.Note for Java を使用して OneNote の従量制ライセンスを管理する方法を学習します。従量制ライセンスでは、クレジットに基づいて使用状況を監視および制御できるため、柔軟でコスト効率の高いソリューションが提供されます。
@@ -85,3 +91,9 @@ A3: はい、従量制課金ライセンスは複数のアプリケーション�
 ### Q5: Aspose.Note for Java のサポートはどこで入手できますか?
 
  A5: Aspose コミュニティ フォーラムからサポートを受けることができます。[ここ](https://forum.aspose.com/c/note/28).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

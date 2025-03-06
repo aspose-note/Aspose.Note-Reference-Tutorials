@@ -3,10 +3,16 @@ title: Afbeeldingen invoegen met hyperlinks in Aspose.Note
 linktitle: Afbeeldingen invoegen met hyperlinks in Aspose.Note
 second_title: Aspose.Note .NET API
 description: Leer hoe u moeiteloos afbeeldingen met hyperlinks kunt invoegen in Aspose.Note voor .NET. Verbeter de documentinteractiviteit met klikbare afbeeldingen.
-type: docs
 weight: 15
 url: /nl/net/images/insert-image-hyperlink/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Afbeeldingen invoegen met hyperlinks in Aspose.Note
+
 ## Invoering
 
 Aspose.Note voor .NET biedt een krachtige reeks functies voor het werken met afbeeldingen, waaronder de mogelijkheid om afbeeldingen met hyperlinks in te voegen. In deze zelfstudie begeleiden we u bij het invoegen van afbeeldingen met hyperlinks met behulp van Aspose.Note voor .NET.
@@ -89,3 +95,9 @@ A3: Ja, u kunt het uiterlijk van hyperlinks aanpassen, inclusief kleur-, onderst
 ### V5: Waar kan ik ondersteuning krijgen voor Aspose.Note voor .NET?
 
  A5: U kunt ondersteuning krijgen voor Aspose.Note voor .NET via de[Aspose.Note-forums](https://forum.aspose.com/c/note/28), waar u vragen kunt stellen, advies kunt zoeken en kunt communiceren met andere gebruikers en experts.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -3,10 +3,16 @@ title: Recupera il formato file in Aspose.Note
 linktitle: Recupera il formato file in Aspose.Note
 second_title: Aspose.Note API .NET
 description: Esplora Aspose.Note per .NET, una potente API per lavorare con i documenti Microsoft OneNote a livello di codice.
-type: docs
 weight: 19
 url: /it/net/loading-and-saving-operations/retrieve-file-format/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Recupera il formato file in Aspose.Note
+
 ## introduzione
 
 Aspose.Note per .NET è una potente API che consente agli sviluppatori di lavorare con i documenti Microsoft OneNote a livello di codice. Che tu abbia bisogno di creare, manipolare o convertire file OneNote, Aspose.Note semplifica il processo con il suo set di funzionalità intuitivo e completo.
@@ -83,3 +89,9 @@ A3: Sì, puoi esplorare le funzionalità di Aspose.Note con una prova gratuita d
 ### Q5: Ho bisogno di una licenza temporanea a scopo di valutazione?
 
  A5: Sebbene la prova gratuita ti consenta di testare Aspose.Note, puoi optare per una licenza temporanea per una valutazione estesa. Visita[Qui](https://purchase.aspose.com/temporary-license/) per ulteriori dettagli.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

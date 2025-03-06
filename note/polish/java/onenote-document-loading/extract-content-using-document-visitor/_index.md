@@ -3,10 +3,16 @@ title: Wyodrębnij zawartość programu OneNote za pomocą modułu odwiedzające
 linktitle: Wyodrębnij zawartość programu OneNote za pomocą modułu odwiedzającego dokument — Java
 second_title: Aspose.Note API Java
 description: Dowiedz się, jak wyodrębnić zawartość z dokumentów OneNote w Javie przy użyciu Aspose.Note dla Java. Samouczek krok po kroku z dostarczonymi przykładami kodu.
-type: docs
 weight: 21
 url: /pl/java/onenote-document-loading/extract-content-using-document-visitor/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Wyodrębnij zawartość programu OneNote za pomocą modułu odwiedzającego dokument — Java
+
 ## Wstęp
 
 Aspose.Note dla Java zapewnia zaawansowane funkcje wyodrębniania zawartości z dokumentów OneNote. W tym samouczku przeprowadzimy Cię przez proces wyodrębniania zawartości z dokumentu programu OneNote przy użyciu narzędzia Document Visitor w języku Java.
@@ -147,3 +153,9 @@ O4: Tak, Aspose.Note dla Java oferuje kompleksowe wsparcie w obsłudze złożony
 ### P5: Czy istnieje ograniczenie rozmiaru dokumentu OneNote, który można przetworzyć za pomocą Aspose.Note dla Java?
 
 O5: Aspose.Note dla Java został zaprojektowany do wydajnej obsługi dokumentów OneNote o różnych rozmiarach, zapewniając optymalną wydajność nawet w przypadku dużych dokumentów.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

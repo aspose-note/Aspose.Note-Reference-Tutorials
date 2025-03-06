@@ -3,10 +3,16 @@ title: 在 OneNote 中新增帶有標籤的新圖片節點 - Aspose.Note
 linktitle: 在 OneNote 中新增帶有標籤的新圖片節點 - Aspose.Note
 second_title: Aspose.Note Java API
 description: 了解如何使用 Aspose.Note for Java 在 OneNote 中新增帶有標籤的新映像節點。輕鬆提升您的 Java 程式設計技能。
-type: docs
 weight: 10
 url: /zh-hant/java/onenote-tag-operations/add-new-image-node-with-tag/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# 在 OneNote 中新增帶有標籤的新圖片節點 - Aspose.Note
+
 ## 介紹
 在 Java 程式設計領域，Aspose.Note 作為輕鬆處理 OneNote 文件的強大工具而脫穎而出。如果您希望提高自己的技能並了解如何使用 Aspose.Note 在 OneNote 中添加帶有標籤的新圖像節點，那麼您來對地方了。本逐步指南將引導您完成整個過程，確保您徹底掌握每個概念。
 ## 先決條件
@@ -96,3 +102,9 @@ doc.save(dataDir + "AddNewImageNodeWithTag_out.pdf", SaveFormat.Pdf);
 訪問社區論壇[這裡](https://forum.aspose.com/c/note/28)為了支持。
 ### 我需要臨時許可證嗎？
 如果需要，您可以獲得臨時許可證[這裡](https://purchase.aspose.com/temporary-license/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

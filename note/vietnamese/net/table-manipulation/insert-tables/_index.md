@@ -3,10 +3,16 @@ title: Chèn bảng vào tài liệu Aspose.Note
 linktitle: Chèn bảng vào tài liệu Aspose.Note
 second_title: Aspose.Note .NET API
 description: Tìm hiểu cách chèn bảng vào tài liệu Note bằng Aspose.Note for .NET. Sắp xếp dữ liệu liền mạch để cải thiện khả năng đọc và trình bày.
-type: docs
 weight: 16
 url: /vi/net/table-manipulation/insert-tables/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Chèn bảng vào tài liệu Aspose.Note
+
 ## Giới thiệu
 
 Trong hướng dẫn này, chúng ta sẽ khám phá cách sử dụng Aspose.Note cho .NET để chèn bảng vào tài liệu Note. Bảng rất cần thiết để tổ chức dữ liệu theo định dạng có cấu trúc trong tài liệu, nâng cao khả năng đọc và trình bày thông tin một cách rõ ràng.
@@ -131,3 +137,9 @@ A4: Việc tích hợp rất đơn giản; chỉ cần thêm tham chiếu Aspose
 ### Câu hỏi 5: Aspose.Note có cung cấp hỗ trợ cho các định dạng tệp khác nhau không?
 
 Câu trả lời 5: Có, Aspose.Note hỗ trợ nhiều định dạng tệp khác nhau bao gồm OneNote (ONE), PDF, HTML và định dạng hình ảnh để xuất và nhập tài liệu.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

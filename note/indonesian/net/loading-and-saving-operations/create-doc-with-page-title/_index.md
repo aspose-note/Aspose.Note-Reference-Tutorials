@@ -3,10 +3,16 @@ title: Buat Dokumen dengan Judul Halaman di Aspose.Note
 linktitle: Buat Dokumen dengan Judul Halaman di Aspose.Note
 second_title: Aspose.Catatan .NET API
 description: Pelajari cara membuat dokumen dengan halaman berjudul menggunakan Aspose.Note untuk .NET. Ikuti panduan langkah demi langkah kami untuk integrasi yang lancar.
-type: docs
 weight: 13
 url: /id/net/loading-and-saving-operations/create-doc-with-page-title/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Buat Dokumen dengan Judul Halaman di Aspose.Note
+
 ## Perkenalan
 
 Dalam tutorial ini, kami akan memandu Anda melalui proses pembuatan dokumen dengan halaman berjudul menggunakan Aspose.Note untuk .NET. Aspose.Note adalah API canggih yang memungkinkan pengembang bekerja dengan file Microsoft OneNote secara terprogram.
@@ -118,3 +124,9 @@ A4: Ya, Anda bisa menggunakan Aspose.Note untuk membaca, memodifikasi, dan meman
 ### Q5: Di mana saya bisa mendapatkan dukungan jika saya mengalami masalah?
 
  A5: Anda dapat menemukan dukungan dan bantuan di[Aspose.Catatan forum](https://forum.aspose.com/c/note/28), tempat para pakar dan anggota komunitas dapat membantu menjawab pertanyaan Anda.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

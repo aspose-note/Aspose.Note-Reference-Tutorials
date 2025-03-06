@@ -3,10 +3,16 @@ title: احصل على مراجعات الصفحات في OneNote - Aspose.Note
 linktitle: احصل على مراجعات الصفحات في OneNote - Aspose.Note
 second_title: Aspose.Note جافا API
 description: تعرف على كيفية استرداد مراجعات الصفحات داخل مستندات OneNote باستخدام Aspose.Note Java. قم بدمج هذا في تطبيقات Java الخاصة بك لإدارة المستندات بكفاءة.
-type: docs
 weight: 15
 url: /ar/java/onenote-page-manipulation/get-revisions-of-pages/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# احصل على مراجعات الصفحات في OneNote - Aspose.Note
+
 ## مقدمة
 
 في هذا البرنامج التعليمي، سوف نتعمق في إمكانيات Aspose.Note for Java، وهي مكتبة قوية تمكنك من العمل مع ملفات Microsoft OneNote بسلاسة في تطبيقات Java الخاصة بك. وعلى وجه التحديد، سنركز على كيفية استرداد مراجعات الصفحات داخل مستند OneNote. بحلول نهاية هذا الدليل، ستكون مجهزًا بالمعرفة اللازمة لاستخراج مراجعات الصفحة بكفاءة، بما في ذلك تفاصيل مثل وقت آخر تعديل، ووقت الإنشاء، والعنوان، والمستوى، والمؤلف.
@@ -109,3 +115,9 @@ for (Page pageRevision : revisions) {
 ### س5: أين يمكنني طلب المساعدة إذا واجهت مشكلات أو كانت لدي أسئلة حول Aspose.Note for Java؟
 
  ج5: للحصول على الدعم والمساعدة، يمكنك زيارة منتدى Aspose.Note[هنا](https://forum.aspose.com/c/note/28)حيث يمكنك طرح الأسئلة ومشاركة الخبرات والتفاعل مع المستخدمين والخبراء الآخرين.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

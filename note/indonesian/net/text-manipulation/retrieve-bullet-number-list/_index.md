@@ -3,10 +3,16 @@ title: Ambil Daftar Poin atau Nomor di Teks Aspose.Note
 linktitle: Ambil Daftar Poin atau Nomor di Teks Aspose.Note
 second_title: Aspose.Catatan .NET API
 description: Buka potensi Aspose.Note untuk .NET dengan panduan langkah demi langkah kami dalam mengambil daftar poin atau nomor. Tingkatkan keterampilan manipulasi dokumen OneNote Anda!
-type: docs
 weight: 23
 url: /id/net/text-manipulation/retrieve-bullet-number-list/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Ambil Daftar Poin atau Nomor di Teks Aspose.Note
+
 ## Perkenalan
 Selamat datang di dunia Aspose.Note untuk .NET, perpustakaan tangguh dan serbaguna yang memberdayakan pengembang untuk menangani manipulasi dokumen OneNote dengan mudah. Dalam tutorial ini, kita akan mempelajari proses mengambil daftar poin atau nomor menggunakan Aspose.Note untuk .NET. Baik Anda seorang pengembang berpengalaman atau penggemar coding, panduan ini akan membekali Anda dengan pengetahuan untuk menavigasi seluk-beluk bekerja dengan daftar di Aspose.Note.
 ## Prasyarat
@@ -87,3 +93,9 @@ Ya, Aspose.Note mendukung berbagai format OneNote, memastikan kompatibilitas den
 Anda dapat menjelajahi dan mencari bantuan di[Aspose.Catatan forum](https://forum.aspose.com/c/note/28) untuk pertanyaan atau masalah apa pun yang mungkin Anda temui.
 ### Apakah ada versi uji coba gratis Aspose.Note untuk .NET?
  Ya, Anda dapat mengakses Aspose.Note versi uji coba gratis untuk .NET[Di Sini](https://releases.aspose.com/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

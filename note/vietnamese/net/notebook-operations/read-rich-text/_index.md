@@ -3,10 +3,16 @@ title: Đọc văn bản có định dạng trong Aspose Note .NET
 linktitle: Đọc văn bản có định dạng trong Aspose Note .NET
 second_title: Aspose.Note .NET API
 description: Tìm hiểu cách đọc văn bản có định dạng từ sổ ghi chép OneNote theo chương trình bằng cách sử dụng Aspose.Note for .NET. Hãy làm theo hướng dẫn từng bước của chúng tôi để dễ dàng tích hợp.
-type: docs
 weight: 23
 url: /vi/net/notebook-operations/read-rich-text/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Đọc văn bản có định dạng trong Aspose Note .NET
+
 ## Giới thiệu
 
 Trong hướng dẫn này, chúng ta sẽ khám phá cách đọc văn bản có định dạng bằng Aspose.Note cho .NET. Aspose.Note là một API mạnh mẽ cho phép các nhà phát triển làm việc với các tài liệu Microsoft OneNote theo chương trình, cung cấp nhiều chức năng để tạo, chỉnh sửa và thao tác với các tệp OneNote.
@@ -97,3 +103,9 @@ Câu trả lời 1: Có, Aspose.Note for .NET cho phép bạn tạo, chỉnh s�
 ### Câu hỏi 5: Tôi có thể tìm tài liệu chi tiết về Aspose.Note cho .NET ở đâu?
 
  Câu trả lời 5: Bạn có thể tìm thấy tài liệu toàn diện về Aspose.Note dành cho .NET trên[Trang tham khảo](https://reference.aspose.com/note/net/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

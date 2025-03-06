@@ -3,10 +3,16 @@ title: Přidejte hypertextové odkazy do dokumentů Aspose.Note
 linktitle: Přidejte hypertextové odkazy do dokumentů Aspose.Note
 second_title: Aspose.Note .NET API
 description: Naučte se přidávat hypertextové odkazy do dokumentů Aspose.Note pomocí Aspose.Note pro .NET. Vylepšete interaktivitu dokumentů pomocí tohoto podrobného kurzu.
-type: docs
 weight: 10
 url: /cs/net/hyperlinks/add-hyperlinks/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Přidejte hypertextové odkazy do dokumentů Aspose.Note
+
 ## Úvod
 
 V tomto tutoriálu se naučíte přidávat hypertextové odkazy do textu v dokumentech Aspose.Note pomocí rozhraní .NET. Aspose.Note poskytuje výkonné funkce pro programovou manipulaci s dokumenty OneNotu. Přidání hypertextových odkazů může zlepšit interaktivitu a použitelnost vašich dokumentů a učinit je pro uživatele poutavějšími.
@@ -131,3 +137,9 @@ Odpověď 4: Aspose.Note je navržen pro práci s Microsoft OneNote 2010 a nově
 ### Q5: Mohu přidat hypertextové odkazy programově pomocí rozhraní API Aspose.Note?
 
 Odpověď 5: Ano, Aspose.Note poskytuje rozhraní API, která umožňují přidávat hypertextové odkazy na text programově v rámci aplikací .NET.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

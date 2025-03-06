@@ -3,10 +3,16 @@ title: Ajouter des nœuds enfants dans Aspose Note .NET
 linktitle: Ajouter des nœuds enfants dans Aspose Note .NET
 second_title: API Aspose.Note .NET
 description: Apprenez à ajouter des nœuds enfants dans Aspose Note .NET sans effort avec ce didacticiel complet. Améliorez dès maintenant vos compétences en manipulation de documents.
-type: docs
 weight: 10
 url: /fr/net/notebook-operations/add-child-nodes/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Ajouter des nœuds enfants dans Aspose Note .NET
+
 ## Introduction
 
 Dans ce didacticiel, nous apprendrons comment ajouter des nœuds enfants dans Aspose Note .NET. L'ajout de nœuds enfants est une opération fondamentale lorsque l'on travaille avec des documents, et Aspose Note .NET fournit un moyen simple d'accomplir cette tâche.
@@ -89,3 +95,9 @@ Toutes nos félicitations! Vous avez appris avec succès comment ajouter des nœ
 ### Q5 : Aspose.Note pour .NET est-il fourni avec de la documentation ?
 
  A5 : Oui, vous pouvez trouver une documentation détaillée[ici](https://reference.aspose.com/note/net/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

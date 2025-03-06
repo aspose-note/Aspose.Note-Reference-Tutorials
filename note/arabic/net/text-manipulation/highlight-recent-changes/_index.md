@@ -3,10 +3,16 @@ title: قم بتمييز كافة التغييرات الأخيرة في نص As
 linktitle: قم بتمييز كافة التغييرات الأخيرة في نص Aspose.Note
 second_title: Aspose.Note .NET API
 description: قم بتحسين مستندات الملاحظات الخاصة بك باستخدام Aspose.Note لـ .NET! تعرف على كيفية إبراز التغييرات الأخيرة في النص باستخدام هذا البرنامج التعليمي خطوة بخطوة.
-type: docs
 weight: 19
 url: /ar/net/text-manipulation/highlight-recent-changes/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# قم بتمييز كافة التغييرات الأخيرة في نص Aspose.Note
+
 ## مقدمة
 هل تتطلع إلى إضافة ميزات ديناميكية وجذابة بصريًا إلى مستندات Note الخاصة بك باستخدام .NET؟ يعد Aspose.Note for .NET حلاً قويًا يسمح لك بمعالجة ملفات Note وتحسينها بسلاسة. في هذا البرنامج التعليمي، سوف نتعمق في جانب واحد محدد: تسليط الضوء على جميع التغييرات الأخيرة في نص Aspose.Note.
 ## المتطلبات الأساسية
@@ -70,3 +76,9 @@ Console.WriteLine("\nText's recent changes are highlighted successfully.");
 قطعاً! يوفر Aspose.Note مجموعة واسعة من الميزات لتنسيق النص، بما في ذلك أنماط الخطوط وأحجامها والمزيد.
 ### هل يمكنني دمج هذا الحل في تطبيق ويب؟
 نعم، يمكنك دمج Aspose.Note for .NET في تطبيقات الويب لتحسين قدرات معالجة المستندات.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

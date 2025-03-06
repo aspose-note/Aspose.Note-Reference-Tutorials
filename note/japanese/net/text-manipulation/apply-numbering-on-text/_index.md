@@ -3,10 +3,16 @@ title: Aspose.Note のテキストに番号付けを適用する
 linktitle: Aspose.Note のテキストに番号付けを適用する
 second_title: Aspose.Note .NET API
 description: この包括的なチュートリアルで、Aspose.Note for .NET でテキストの番号付けを適用する方法を学びましょう。ドキュメントの書式設定を簡単に強化できます。
-type: docs
 weight: 12
 url: /ja/net/text-manipulation/apply-numbering-on-text/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Aspose.Note のテキストに番号付けを適用する
+
 ## 導入
 Aspose.Note for .NET は、C# アプリケーションでドキュメントを操作するための強力なツールを提供します。このチュートリアルでは、Aspose.Note を使用してテキストに番号を適用するプロセスを検討します。以下の段階的な手順に従って、ドキュメントの書式設定を簡単に強化します。
 ## 前提条件
@@ -81,3 +87,9 @@ Aspose.Note は、フォント スタイル、色などを含む幅広い書式�
 確かに！無料トライアルを試すことができます[ここ](https://releases.aspose.com/).
 ### 5. Aspose.Note のサポートはどこで入手できますか?
 サポートや質問がある場合は、次のサイトにアクセスしてください。[Aspose.Note フォーラム](https://forum.aspose.com/c/note/28).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

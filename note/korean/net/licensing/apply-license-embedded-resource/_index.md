@@ -3,10 +3,16 @@ title: 내장 리소스에서 Aspose.Note 라이선스 적용
 linktitle: 내장 리소스에서 Aspose.Note 라이선스 적용
 second_title: Aspose.Note .NET API
 description: .NET 애플리케이션에 포함된 리소스에서 Aspose.Note 라이선스를 적용하는 방법을 알아보세요. 원활한 통합을 위한 단계별 가이드를 따르세요.
-type: docs
 weight: 10
 url: /ko/net/licensing/apply-license-embedded-resource/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# 내장 리소스에서 Aspose.Note 라이선스 적용
+
 ## 소개
 
 Aspose.Note for .NET은 개발자가 Microsoft OneNote 파일을 프로그래밍 방식으로 작업할 수 있는 강력한 API입니다. OneNote 문서를 생성, 수정 또는 변환하려는 경우 Aspose.Note는 귀하의 요구 사항을 충족하는 포괄적인 기능 세트를 제공합니다. 이 튜토리얼에서는 .NET 애플리케이션에 포함된 리소스에서 Aspose.Note 라이선스를 적용하는 과정을 안내합니다.
@@ -86,3 +92,9 @@ A1: 아니요, .NET용 Aspose.Note를 사용하려면 유효한 라이선스가 
 ### Q5: Aspose.Note 라이선스는 어디서 구입할 수 있나요?
 
  A5: Aspose.Note 라이선스를 구매할 수 있습니다.[여기](https://purchase.aspose.com/buy).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

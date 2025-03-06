@@ -3,10 +3,16 @@ title: فتح وإغلاق المشاريع باستخدام العلامات ف
 linktitle: فتح وإغلاق المشاريع باستخدام العلامات في Aspose.Note
 second_title: Aspose.Note .NET API
 description: تعرف على كيفية التعامل مع ملفات Microsoft OneNote برمجياً باستخدام Aspose.Note لـ .NET. فتح وإغلاق المشاريع باستخدام العلامات بكفاءة.
-type: docs
 weight: 15
 url: /ar/net/tag-management/open-close-projects-tags/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# فتح وإغلاق المشاريع باستخدام العلامات في Aspose.Note
+
 ## مقدمة
 
 في هذا البرنامج التعليمي، سوف نتعلم كيفية استخدام Aspose.Note لـ .NET لفتح وإغلاق المشاريع ذات العلامات. Aspose.Note عبارة عن واجهة برمجة تطبيقات قوية تتيح للمطورين العمل مع ملفات Microsoft OneNote برمجيًا، مما يتيح مهام مثل معالجة النصوص والصور والعلامات داخل المستندات.
@@ -112,3 +118,9 @@ oneFile.Save(Path.Combine(dataDir, "ProjectNoteWithOpenProjectC.one"));
 ### س5: أين يمكنني الحصول على الدعم لـ Aspose.Note؟
 
  ج5: للحصول على الدعم، يمكنك زيارة Aspose.Note[المنتدى](https://forum.aspose.com/c/note/28).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

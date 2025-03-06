@@ -3,10 +3,16 @@ title: Вставка страниц в OneNote — Aspose.Note
 linktitle: Вставка страниц в OneNote — Aspose.Note
 second_title: Aspose.Note Java API
 description: Узнайте, как программно вставлять страницы в документы OneNote с помощью Aspose.Note для Java. Подробное руководство с пошаговыми инструкциями.
-type: docs
 weight: 16
 url: /ru/java/onenote-page-manipulation/insert-pages/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Вставка страниц в OneNote — Aspose.Note
+
 ## Введение
 
 В этом уроке мы научимся вставлять страницы в документ OneNote с помощью Aspose.Note для Java.
@@ -132,3 +138,9 @@ System.out.println("Files Saved Successfully!");
 ### Вопрос 5. Могу ли я настроить внешний вид вставленных страниц в OneNote?
 
 О5: Конечно, Aspose.Note предоставляет широкие возможности для настройки макетов страниц, стилей и контента в соответствии с вашими конкретными требованиями.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -3,10 +3,16 @@ title: รับการแก้ไขหน้าใน OneNote - Aspose.Note
 linktitle: รับการแก้ไขหน้าใน OneNote - Aspose.Note
 second_title: Aspose.Note Java API
 description: เรียนรู้วิธีดึงข้อมูลการแก้ไขของหน้าภายในเอกสาร OneNote โดยใช้ Aspose.Note Java รวมสิ่งนี้เข้ากับแอป Java ของคุณเพื่อการจัดการเอกสารที่มีประสิทธิภาพ
-type: docs
 weight: 15
 url: /th/java/onenote-page-manipulation/get-revisions-of-pages/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# รับการแก้ไขหน้าใน OneNote - Aspose.Note
+
 ## การแนะนำ
 
 ในบทช่วยสอนนี้ เราจะเจาะลึกความสามารถของ Aspose.Note สำหรับ Java ซึ่งเป็นไลบรารีอันทรงพลังที่ช่วยให้คุณทำงานกับไฟล์ Microsoft OneNote ในแอปพลิเคชัน Java ของคุณได้อย่างราบรื่น โดยเฉพาะอย่างยิ่ง เราจะเน้นไปที่วิธีการดึงข้อมูลการแก้ไขของหน้าภายในเอกสาร OneNote ในตอนท้ายของคู่มือนี้ คุณจะมีความรู้ในการแยกการแก้ไขหน้าได้อย่างมีประสิทธิภาพ รวมถึงรายละเอียดต่างๆ เช่น เวลาที่แก้ไขล่าสุด เวลาในการสร้าง ชื่อเรื่อง ระดับ และผู้แต่ง
@@ -109,3 +115,9 @@ for (Page pageRevision : revisions) {
 ### คำถามที่ 5: ฉันจะขอความช่วยเหลือได้ที่ไหนหากฉันประสบปัญหาหรือมีคำถามเกี่ยวกับ Aspose.Note สำหรับ Java
 
  A5: สำหรับการสนับสนุนและความช่วยเหลือ คุณสามารถไปที่ฟอรัม Aspose.Note[ที่นี่](https://forum.aspose.com/c/note/28)ซึ่งคุณสามารถถามคำถาม แบ่งปันประสบการณ์ และโต้ตอบกับผู้ใช้และผู้เชี่ยวชาญคนอื่นๆ ได้
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

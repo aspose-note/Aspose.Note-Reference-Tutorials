@@ -3,10 +3,16 @@ title: Aspose.Note for .NET ile OneNote Entegrasyonunu Öğrenmek
 linktitle: Not Manipülasyonu
 second_title: Aspose.Note .NET API'si
 description: OneNote odaklı eğitimlerimizle Aspose.Note for .NET'in gücünün kilidini açın. Çatışmaları çözün, dinamik belgeler oluşturun ve verimli sayfa düzenlemeyi keşfedin.
-type: docs
 weight: 27
 url: /tr/net/note-manipulation/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Aspose.Note for .NET ile OneNote Entegrasyonunu Öğrenmek
+
 
 ## giriiş
 
@@ -69,3 +75,9 @@ Aspose.Note for .NET kullanarak Aspose.Note belgelerindeki revizyonları etkili 
 Adım adım kılavuzla Aspose.Note belgelerinde C# programlama dilini kullanarak sayfaların arka plan rengini nasıl ayarlayacağınızı öğrenin.
 ### [Sayfa Revizyonlarıyla Çalışmak - Aspose.Note İpuçları](./working-with-page-revisions/)
 Aspose.Note ile Microsoft OneNote sayfa revizyonlarını yönetmeyi öğrenin. .NET uygulamalarınızda kusursuz entegrasyon ve sürüm kontrolü için adım adım kılavuz.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

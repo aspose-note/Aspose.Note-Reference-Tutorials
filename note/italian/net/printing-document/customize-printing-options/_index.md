@@ -3,10 +3,16 @@ title: Personalizza la stampa con le opzioni di stampa Aspose.Note
 linktitle: Personalizza la stampa con le opzioni di stampa Aspose.Note
 second_title: Aspose.Note API .NET
 description: Scopri come personalizzare la stampa di documenti con Aspose.Note per .NET. Impostazioni di precisione per stampe ottimali.
-type: docs
 weight: 11
 url: /it/net/printing-document/customize-printing-options/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Personalizza la stampa con le opzioni di stampa Aspose.Note
+
 ## introduzione
 
 La stampa di documenti con Aspose.Note per .NET può essere personalizzata per soddisfare requisiti specifici utilizzando le opzioni di stampa. In questo tutorial esploreremo come personalizzare la stampa utilizzando varie opzioni fornite da Aspose.Note. Se è necessario regolare le impostazioni della stampante, impostare risoluzioni o definire algoritmi di suddivisione della pagina, Aspose.Note offre flessibilità per ottenere i risultati di stampa desiderati.
@@ -95,3 +101,9 @@ A4: Aspose.Note supporta la stampa su un'ampia gamma di stampanti compatibili co
 ### Q5: posso automatizzare le attività di stampa utilizzando Aspose.Note?
 
 A5: Sì, Aspose.Note consente agli sviluppatori di automatizzare le attività di stampa integrando le opzioni di stampa nelle loro applicazioni .NET.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

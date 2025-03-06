@@ -3,10 +3,16 @@ title: Лицензирование Aspose.Note с Java
 linktitle: Лицензирование Aspose.Note с Java
 second_title: Aspose.Note Java API
 description: Откройте для себя искусство управления лимитными лицензиями OneNote на Java с помощью Aspose.Note. Эффективно контролируйте использование, отслеживайте кредиты и оптимизируйте затраты.
-type: docs
 weight: 24
 url: /ru/java/licensing-java/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Лицензирование Aspose.Note с Java
+
 ## Введение
 
 Готовы ли вы отправиться в путешествие в мир Aspose.Note для Java? В этом подробном руководстве мы углубимся в тонкости управления лимитными лицензиями для OneNote на Java. Давайте разберемся в сфере лицензирования с помощью Aspose.Note, разгадаем тайны и предоставим вам знания для эффективного использования.
@@ -40,3 +46,9 @@ url: /ru/java/licensing-java/
 ## Лицензирование Aspose.Note с учебными пособиями по Java
 ### [Управление лимитной лицензией для OneNote в Java](./manage-metered-license/)
 Узнайте, как управлять лимитными лицензиями для OneNote на Java с помощью библиотеки Aspose.Note. Контролируйте использование, отслеживайте кредиты и эффективно оптимизируйте затраты.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

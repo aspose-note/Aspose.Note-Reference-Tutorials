@@ -3,10 +3,16 @@ title: Μετατροπή συγκεκριμένης σελίδας σε εικ�
 linktitle: Μετατροπή συγκεκριμένης σελίδας σε εικόνα PNG στο OneNote - Java
 second_title: Aspose.Note Java API
 description: Μάθετε να χρησιμοποιείτε το Aspose.Note για Java, μετατρέποντας μια σελίδα OneNote σε PNG. Ακολουθήστε εύκολα βήματα, φορτώστε το έγγραφο και ορίστε επιλογές. Βελτιώστε τις εφαρμογές Java με αυτήν τη λειτουργία.
-type: docs
 weight: 13
 url: /el/java/onenote-document-loading/convert-page-to-png-image/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Μετατροπή συγκεκριμένης σελίδας σε εικόνα PNG στο OneNote - Java
+
 ## Εισαγωγή
 
 Σε αυτό το σεμινάριο, θα μάθετε πώς να χρησιμοποιείτε το Aspose.Note για Java για να μετατρέψετε μια συγκεκριμένη σελίδα από ένα έγγραφο του OneNote σε εικόνα PNG. Θα αναλύσουμε τη διαδικασία σε βήματα που μπορείτε να ακολουθήσετε για να σας βοηθήσουμε να ενσωματώσετε απρόσκοπτα αυτήν τη λειτουργικότητα στην εφαρμογή Java.
@@ -93,3 +99,9 @@ A2: Ναι, το Aspose.Note υποστηρίζει διάφορες μορφέ�
 ### Ε5: Πού μπορώ να αγοράσω άδεια χρήσης για το Aspose.Note για Java;
 
  A5: Μπορείτε να αγοράσετε μια άδεια από το[σελίδα αγοράς](https://purchase.aspose.com/buy).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

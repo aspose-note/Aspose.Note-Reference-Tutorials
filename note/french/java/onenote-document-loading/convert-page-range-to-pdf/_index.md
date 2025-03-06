@@ -3,10 +3,16 @@ title: Convertir une plage de pages spécifique en PDF dans OneNote avec Java
 linktitle: Convertir une plage de pages spécifique en PDF dans OneNote avec Java
 second_title: API Java Aspose.Note
 description: Découvrez comment convertir des plages de pages spécifiques de OneNote en PDF de manière transparente avec Aspose.Note pour Java. Préservez le formatage et la mise en page sans effort.
-type: docs
 weight: 11
 url: /fr/java/onenote-document-loading/convert-page-range-to-pdf/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Convertir une plage de pages spécifique en PDF dans OneNote avec Java
+
 ## Introduction
 
 OneNote est un outil puissant pour organiser des notes, mais vous devrez parfois exporter des plages de pages spécifiques au format PDF à des fins de partage ou d'archivage. Dans ce didacticiel, nous vous guiderons tout au long du processus de conversion d'une plage de pages spécifique en PDF à l'aide d'Aspose.Note pour Java.
@@ -85,3 +91,9 @@ A4 : Oui, vous pouvez personnaliser divers aspects tels que la taille de la page
 ### Q5 : Aspose.Note pour Java prend-il en charge la conversion par lots de plusieurs documents OneNote ?
 
 A5 : Oui, vous pouvez convertir par lots plusieurs documents OneNote en PDF en parcourant chaque document et en appliquant le processus de conversion.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

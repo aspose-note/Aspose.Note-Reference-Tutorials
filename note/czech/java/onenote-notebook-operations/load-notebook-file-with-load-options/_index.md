@@ -3,10 +3,16 @@ title: Načíst soubor poznámkového bloku pomocí možností načtení ve OneN
 linktitle: Načíst soubor poznámkového bloku pomocí možností načtení ve OneNotu – Aspose.Note
 second_title: Aspose.Note Java API
 description: Naučte se používat Aspose.Note pro Java k programové manipulaci se soubory OneNotu. Začněte nyní s naším komplexním návodem.
-type: docs
 weight: 20
 url: /cs/java/onenote-notebook-operations/load-notebook-file-with-load-options/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Načíst soubor poznámkového bloku pomocí možností načtení ve OneNotu – Aspose.Note
+
 ## Úvod
 
 Aspose.Note for Java je výkonná knihovna, která umožňuje vývojářům pracovat se soubory Microsoft OneNote programově. Ať už chcete vytvářet, manipulovat nebo převádět dokumenty OneNote, Aspose.Note pro Java poskytuje potřebné nástroje pro zefektivnění vašeho pracovního postupu. V tomto tutoriálu prozkoumáme, jak začít s Aspose.Note pro Java, pokryjeme předpoklady, importujeme balíčky a rozdělíme příklady do snadno pochopitelných kroků.
@@ -94,3 +100,9 @@ Odpověď 1: Ano, Aspose.Note pro Java podporuje různé verze souborů OneNote,
 ### Q5: Potřebuji dočasnou licenci k používání Aspose.Note pro Java?
 
  Odpověď 5: Pokud produkt hodnotíte, můžete získat dočasnou licenci[tady](https://purchase.aspose.com/temporary-license/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

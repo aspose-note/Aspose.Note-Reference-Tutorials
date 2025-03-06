@@ -3,10 +3,16 @@ title: 在 OneNote 中儲存到灰階影像 - Aspose.Note
 linktitle: 在 OneNote 中儲存到灰階影像 - Aspose.Note
 second_title: Aspose.Note Java API
 description: 了解如何使用 Aspose.Note for Java 在 OneNote 中將文件儲存為灰階影像。以程式設計方式輕鬆操作 Microsoft OneNote 文件。
-type: docs
 weight: 17
 url: /zh-hant/java/onenote-document-saving/save-to-grayscale-image/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# 在 OneNote 中儲存到灰階影像 - Aspose.Note
+
 ## 介紹
 
 在本教學中，我們將探討如何使用 Aspose.Note for Java 在 OneNote 中將文件儲存為灰階影像。灰階影像是單色影像，其中顏色資訊僅由灰色陰影表示。 Aspose.Note 是一個功能強大的 Java API，允許以程式設計方式操作 Microsoft OneNote 文件。
@@ -83,3 +89,9 @@ A4：當然！ Aspose.Note 提供了多種以程式設計方式編輯 OneNote �
 ### Q5：如果遇到問題，我可以在哪裡尋求支援？
 
 A5：您可以在 Aspose.Note 論壇上找到支持[這裡](https://forum.aspose.com/c/note/28).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -3,10 +3,16 @@ title: Ambil Jumlah Halaman di Dokumen Aspose.Note
 linktitle: Ambil Jumlah Halaman di Dokumen Aspose.Note
 second_title: Aspose.Catatan .NET API
 description: Pelajari cara menghitung halaman dalam dokumen Aspose.Note Anda menggunakan C#. Ikuti panduan langkah demi langkah kami untuk integrasi yang mudah.
-type: docs
 weight: 12
 url: /id/net/note-manipulation/retrieve-number-of-pages/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Ambil Jumlah Halaman di Dokumen Aspose.Note
+
 ## Perkenalan
 
 Aspose.Note untuk .NET adalah perpustakaan canggih yang memungkinkan pengembang bekerja dengan file Microsoft OneNote secara terprogram. Baik Anda perlu membuat, memanipulasi, atau mengonversi dokumen OneNote, Aspose.Note menyediakan fungsionalitas komprehensif untuk menyederhanakan tugas Anda. Dalam tutorial ini, kita akan mempelajari salah satu operasi penting: mengambil jumlah halaman dalam dokumen Aspose.Note menggunakan C#.
@@ -100,3 +106,9 @@ A2: Tentu saja, Aspose.Note mendukung konversi ke berbagai format termasuk PDF, 
 ### Q5: Bagaimana saya bisa mendapatkan dukungan teknis untuk Aspose.Note?
 
  A5: Anda dapat mencari bantuan dan terlibat dengan komunitas di[Forum dukungan Aspose.Note](https://forum.aspose.com/c/note/28).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

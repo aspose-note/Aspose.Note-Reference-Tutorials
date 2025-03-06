@@ -3,10 +3,16 @@ title: OneNote'ta Sayfa Geçmişini Değiştirme - Aspose.Note
 linktitle: OneNote'ta Sayfa Geçmişini Değiştirme - Aspose.Note
 second_title: Aspose.Note Java API'si
 description: Sayfa geçmişi girişlerini sorunsuz bir şekilde silin, değiştirin ve ekleyin! Aspose.Note ile OneNote'ta uzmanlaşmak için adım adım kılavuz ve kod. #OneNote #Java #Aspose
-type: docs
 weight: 17
 url: /tr/java/onenote-page-manipulation/modify-page-history/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# OneNote'ta Sayfa Geçmişini Değiştirme - Aspose.Note
+
 ## giriiş
 
 Bu eğitimde, OneNote belgelerindeki sayfa geçmişini değiştirmek için Aspose.Note for Java'yı kullanmayı ayrıntılı olarak ele alacağız. Aspose.Note, geliştiricilerin OneNote dosyalarıyla sorunsuz bir şekilde çalışmasına olanak tanıyan, bu dosyaları programlı olarak oluşturma, okuma ve değiştirme gibi çeşitli işlemlere olanak tanıyan güçlü bir Java API'sidir.
@@ -108,3 +114,10 @@ Cevap4: Evet, Aspose.Note for Java, toplu değişiklikleri verimli bir şekilde 
 ### S5: Aspose.Note for Java için yardım isteyebileceğim bir topluluk forumu var mı?
 
  A5: Evet, ziyaret edebilirsiniz[Aspose.Note forumu](https://forum.aspose.com/c/note/28) Kütüphaneyle ilgili her türlü yardım veya sorularınız için.
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

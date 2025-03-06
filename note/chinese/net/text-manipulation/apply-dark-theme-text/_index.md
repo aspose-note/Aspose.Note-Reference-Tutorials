@@ -3,10 +3,16 @@ title: 使用 Aspose.Note for .NET 进行深色主题转换
 linktitle: 将深色主题应用于 Aspose.Note 中的文本
 second_title: Aspose.Note .NET API
 description: 使用 Aspose.Note for .NET 转换您的 OneNote 文档！轻松应用时尚的深色主题。立即下载并增强您的笔记体验。
-type: docs
 weight: 11
 url: /zh/net/text-manipulation/apply-dark-theme-text/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# 使用 Aspose.Note for .NET 进行深色主题转换
+
 ## 介绍
 欢迎阅读我们有关在 Aspose.Note for .NET 中将深色主题应用于文本的分步指南。 Aspose.Note 是一个功能强大的 .NET API，允许开发人员以编程方式使用 Microsoft OneNote 文件。在本教程中，我们将探讨如何通过对文本应用深色主题来为 OneNote 文档提供时尚现代的外观。
 ## 先决条件
@@ -67,3 +73,9 @@ Aspose.Note 可以处理不同大小的文档，并且其性能针对效率进�
 是的，您可以根据自己的喜好修改代码以在主题之间切换。
 ### 在哪里可以获得 Aspose.Note 相关查询的支持？
 如需任何帮助，请访问[Aspose.Note 论坛](https://forum.aspose.com/c/note/28)或探索[文档](https://reference.aspose.com/note/net/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

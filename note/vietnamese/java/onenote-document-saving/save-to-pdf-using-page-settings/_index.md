@@ -3,10 +3,16 @@ title: Lưu vào PDF bằng Cài đặt trang trong OneNote - Aspose.Note
 linktitle: Lưu vào PDF bằng Cài đặt trang trong OneNote - Aspose.Note
 second_title: API Java Aspose.Note
 description: Tìm hiểu cách lưu tài liệu OneNote thành PDF trong Java bằng thư viện Aspose.Note. Hướng dẫn từng bước với các ví dụ về mã cho các cài đặt trang khác nhau.
-type: docs
 weight: 19
 url: /vi/java/onenote-document-saving/save-to-pdf-using-page-settings/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Lưu vào PDF bằng Cài đặt trang trong OneNote - Aspose.Note
+
 ## Giới thiệu
 
 Trong hướng dẫn này, chúng ta sẽ tìm hiểu cách lưu tài liệu OneNote sang định dạng PDF bằng cách sử dụng các cài đặt trang khác nhau với Aspose.Note cho Java. Chúng tôi sẽ đề cập đến hai phương pháp: lưu bằng cài đặt trang Letter và lưu bằng cài đặt trang A4 không giới hạn chiều cao.
@@ -112,3 +118,9 @@ Câu trả lời 4: Có, bạn có thể xử lý hàng loạt nhiều tệp One
 ### Câu hỏi 5: Có phiên bản dùng thử nào dành cho mục đích thử nghiệm không?
 
 Câu trả lời 5: Có, bạn có thể dùng thử miễn phí Aspose.Note dành cho Java từ trang web.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

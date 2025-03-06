@@ -3,10 +3,16 @@ title: Infoga sidor i OneNote - Aspose.Note
 linktitle: Infoga sidor i OneNote - Aspose.Note
 second_title: Aspose.Note Java API
 description: Lär dig hur du infogar sidor i OneNote-dokument programmatiskt med Aspose.Note för Java. Omfattande handledning med steg-för-steg-instruktioner.
-type: docs
 weight: 16
 url: /sv/java/onenote-page-manipulation/insert-pages/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Infoga sidor i OneNote - Aspose.Note
+
 ## Introduktion
 
 I den här handledningen kommer vi att lära oss hur man infogar sidor i ett OneNote-dokument med Aspose.Note för Java.
@@ -132,3 +138,9 @@ S4: Ja, du kan utveckla applikationer med Aspose.Note för Java på olika plattf
 ### F5: Kan jag anpassa utseendet på infogade sidor i OneNote?
 
 S5: Absolut, Aspose.Note erbjuder omfattande alternativ för att anpassa sidlayouter, stilar och innehåll för att möta dina specifika krav.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

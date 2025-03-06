@@ -3,10 +3,16 @@ title: Celachtergrondkleur instellen in OneNote - Aspose.Note
 linktitle: Celachtergrondkleur instellen in OneNote - Aspose.Note
 second_title: Aspose.Note Java-API
 description: Transformeer OneNote-documenten eenvoudig met Aspose.Note voor Java. Pas de achtergrondkleuren van de cellen moeiteloos aan. Probeer nu de gratis proefperiode!
-type: docs
 weight: 17
 url: /nl/java/onenote-table-manipulation/setting-cell-background-color/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Celachtergrondkleur instellen in OneNote - Aspose.Note
+
 ## Invoering
 Welkom bij onze tutorial over het instellen van de achtergrondkleur van cellen in OneNote met Aspose.Note voor Java! In deze stapsgewijze handleiding leiden we u door het proces van het moeiteloos aanpassen van celachtergrondkleuren in uw OneNote-documenten.
 ## Vereisten
@@ -66,3 +72,9 @@ Ja, u kunt door de rijen en cellen van uw tabel bladeren om de achtergrondkleur 
  Bezoek het ondersteuningsforum[hier](https://forum.aspose.com/c/note/28) om hulp te krijgen van de Aspose-gemeenschap.
 ### Waar kan ik Aspose.Note voor Java kopen?
  Je kunt de bibliotheek kopen[hier](https://purchase.aspose.com/buy).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

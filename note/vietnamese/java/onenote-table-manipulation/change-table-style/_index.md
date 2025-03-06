@@ -3,10 +3,16 @@ title: Thay đổi kiểu bảng trong OneNote - Aspose.Note
 linktitle: Thay đổi kiểu bảng trong OneNote - Aspose.Note
 second_title: API Java Aspose.Note
 description: Dễ dàng nâng cao các bảng OneNote của bạn với Aspose.Note for Java. Làm theo hướng dẫn từng bước của chúng tôi để thay đổi kiểu bảng. Tải thư viện ngay bây giờ!
-type: docs
 weight: 10
 url: /vi/java/onenote-table-manipulation/change-table-style/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Thay đổi kiểu bảng trong OneNote - Aspose.Note
+
 ## Giới thiệu
 Aspose.Note for Java là một thư viện mạnh mẽ cho phép các nhà phát triển thao tác với các tệp OneNote một cách dễ dàng. Trong hướng dẫn này, chúng tôi sẽ tập trung vào việc thay đổi kiểu bảng trong tài liệu OneNote bằng Aspose.Note cho Java. Thực hiện theo hướng dẫn từng bước để nâng cao sức hấp dẫn trực quan cho bảng của bạn.
 ## Điều kiện tiên quyết
@@ -88,3 +94,9 @@ Aspose.Note for Java đơn giản hóa quá trình thao tác với tệp OneNote
  Tham gia[Diễn đàn Aspose.Note](https://forum.aspose.com/c/note/28) để tìm kiếm sự giúp đỡ từ cộng đồng.
 ### Làm cách nào để mua Aspose.Note cho Java?
  Bạn có thể mua thư viện[đây](https://purchase.aspose.com/buy).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

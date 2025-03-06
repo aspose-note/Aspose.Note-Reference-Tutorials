@@ -3,10 +3,16 @@ title: OneNote Java-integration
 linktitle: OneNote Java-integration
 second_title: Aspose.Note Java API
 description: Förbättra din OneNote-upplevelse med Aspose.Note Java! Utforska självstudier om att bifoga filer, ställa in ikoner och hämta bilagor programmatiskt med Java.
-type: docs
 weight: 20
 url: /sv/java/onenote-java-integration/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# OneNote Java-integration
+
 ## Introduktion
 
 Välkommen till vår omfattande guide om att integrera OneNote med Java med Aspose.Note. Oavsett om du är en erfaren utvecklare eller precis har börjat, kommer dessa tutorials att ge dig möjlighet att maximera dina OneNote-funktioner programmatiskt.
@@ -36,3 +42,9 @@ Lär dig hur du bifogar filer och ställer in ikoner i OneNote med Java med Aspo
 Lär dig hur du bifogar filer till dina OneNote-anteckningar programmatiskt med Java med Aspose.Note.
 ### [Hämta bilaga från OneNote med Java](./retrieve-attachment/)
 Lär dig hur du hämtar bilagor från OneNote med Java med Aspose.Note, ett kraftfullt API för sömlös dokumenthantering.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -3,10 +3,16 @@ title: 在 OneNote 中设置单元格背景颜色 - Aspose.Note
 linktitle: 在 OneNote 中设置单元格背景颜色 - Aspose.Note
 second_title: Aspose.Note Java API
 description: 使用 Aspose.Note for Java 轻松转换 OneNote 文档。轻松自定义单元格背景颜色。立即免费试用！
-type: docs
 weight: 17
 url: /zh/java/onenote-table-manipulation/setting-cell-background-color/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# 在 OneNote 中设置单元格背景颜色 - Aspose.Note
+
 ## 介绍
 欢迎来到我们关于使用 Aspose.Note for Java 在 OneNote 中设置单元格背景颜色的教程！在本分步指南中，我们将引导您轻松完成在 OneNote 文档中自定义单元格背景颜色的过程。
 ## 先决条件
@@ -66,3 +72,9 @@ cell11.setBackgroundColor(Color.BLACK);
 访问支持论坛[这里](https://forum.aspose.com/c/note/28)从 Aspose 社区获取帮助。
 ### 在哪里可以购买 Aspose.Note for Java？
 您可以购买图书馆[这里](https://purchase.aspose.com/buy).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

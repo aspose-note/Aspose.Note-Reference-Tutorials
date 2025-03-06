@@ -3,10 +3,16 @@ title: Aggiungi testo alternativo all'immagine in OneNote utilizzando Java
 linktitle: Aggiungi testo alternativo all'immagine in OneNote utilizzando Java
 second_title: Aspose.Note API Java
 description: Scopri come aggiungere testo alternativo alle immagini nei documenti OneNote utilizzando Java con Aspose.Note, migliorando l'accessibilità e l'inclusività.
-type: docs
 weight: 10
 url: /it/java/onenote-image-alternative-text/add-alternative-text-to-image/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Aggiungi testo alternativo all'immagine in OneNote utilizzando Java
+
 ## introduzione
 
 In questo tutorial, approfondiremo una guida completa sull'utilizzo di Aspose.Note per Java per aggiungere testo alternativo alle immagini all'interno dei documenti OneNote. Il testo alternativo funge da descrizione testuale delle immagini, favorendo l'accessibilità e la comprensione per le persone che potrebbero non essere in grado di visualizzare le immagini direttamente, come coloro che utilizzano lettori di schermo. Seguendo questo tutorial imparerai come integrare perfettamente testo alternativo nei tuoi documenti OneNote utilizzando il linguaggio di programmazione Java.
@@ -131,3 +137,9 @@ A4: Sì, Aspose.Note è disponibile per più linguaggi di programmazione tra cui
 ### Q5: È disponibile una versione di prova per Aspose.Note?
 
  A5: Sì, puoi usufruire di una versione di prova gratuita di Aspose.Note da[Qui](https://releases.aspose.com/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -3,10 +3,16 @@ title: Vložit obrázky do dokumentů Aspose.Note
 linktitle: Vložit obrázky do dokumentů Aspose.Note
 second_title: Aspose.Note .NET API
 description: Naučte se, jak bezproblémově vkládat obrázky do dokumentů Aspose.Note pomocí .NET pro lepší vizuální obsah. Pro snadnou integraci postupujte podle našeho podrobného průvodce.
-type: docs
 weight: 16
 url: /cs/net/images/insert-images/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Vložit obrázky do dokumentů Aspose.Note
+
 ## Úvod
 
 Přidání obrázků do dokumentů Aspose.Note může výrazně zlepšit jejich vizuální přitažlivost a užitečnost. Ať už vytváříte poznámky, prezentace nebo jakýkoli jiný dokument, integrace obrázků může vašemu obsahu poskytnout kontext a jasnost. V tomto tutoriálu vás provedeme procesem vkládání obrázků do dokumentů Aspose.Note pomocí .NET.
@@ -89,3 +95,9 @@ A4: Určitě! Pomocí Aspose.Note můžete na jednu stránku vložit tolik obrá
 ### Otázka 5: Existuje omezení velikosti souboru obrázků, které lze vložit?
 
 Odpověď 5: Aspose.Note neklade přísná omezení velikosti souborů obrázků, ale doporučuje se optimalizovat obrázky pro lepší výkon.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -3,10 +3,16 @@ title: تطبيق الترقيم على النص في Aspose.Note
 linktitle: تطبيق الترقيم على النص في Aspose.Note
 second_title: Aspose.Note .NET API
 description: تعرف على كيفية تطبيق ترقيم النص في Aspose.Note لـ .NET باستخدام هذا البرنامج التعليمي الشامل. قم بتحسين تنسيق المستندات الخاصة بك دون عناء.
-type: docs
 weight: 12
 url: /ar/net/text-manipulation/apply-numbering-on-text/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# تطبيق الترقيم على النص في Aspose.Note
+
 ## مقدمة
 يوفر Aspose.Note for .NET أدوات قوية لمعالجة المستندات في تطبيقات C#. في هذا البرنامج التعليمي، سوف نستكشف عملية تطبيق الترقيم على النص باستخدام Aspose.Note. اتبع هذه الإرشادات خطوة بخطوة لتحسين تنسيق المستند الخاص بك دون عناء.
 ## المتطلبات الأساسية
@@ -81,3 +87,9 @@ Console.WriteLine("\nNumbering applied successfully on a text.\nFile saved at " 
  بالتأكيد! يمكنك استكشاف نسخة تجريبية مجانية[هنا](https://releases.aspose.com/).
 ### 5. أين يمكنني الحصول على الدعم لـ Aspose.Note؟
  لأي مساعدة أو استفسار قم بزيارة[منتدى Aspose.Note](https://forum.aspose.com/c/note/28).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

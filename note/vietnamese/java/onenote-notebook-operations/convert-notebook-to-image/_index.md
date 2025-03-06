@@ -3,10 +3,16 @@ title: Chuyển đổi Notebook thành hình ảnh trong OneNote - Aspose.Note
 linktitle: Chuyển đổi Notebook thành hình ảnh trong OneNote - Aspose.Note
 second_title: API Java Aspose.Note
 description: Tìm hiểu cách chuyển đổi sổ ghi chép thành hình ảnh trong OneNote bằng Aspose.Note for Java. Dễ dàng tích hợp chức năng này vào các ứng dụng Java của bạn.
-type: docs
 weight: 12
 url: /vi/java/onenote-notebook-operations/convert-notebook-to-image/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Chuyển đổi Notebook thành hình ảnh trong OneNote - Aspose.Note
+
 ## Giới thiệu
 
 Trong hướng dẫn này, chúng ta sẽ khám phá cách chuyển đổi sổ ghi chép thành hình ảnh trong OneNote bằng thư viện Aspose.Note for Java. Việc chuyển đổi sổ ghi chép thành hình ảnh có thể hữu ích cho nhiều mục đích khác nhau như chia sẻ ghi chú, nhúng chúng vào tài liệu hoặc kết hợp chúng vào bản trình bày.
@@ -94,3 +100,9 @@ Câu trả lời 4: Có, bạn có thể chuyển đổi hàng loạt nhiều s�
 ### Câu hỏi 5: Tôi có thể tìm thêm tài nguyên và hỗ trợ cho Aspose.Note ở đâu?
 
  Câu trả lời 5: Để biết thêm tài liệu, ví dụ và hỗ trợ cộng đồng, hãy truy cập[Diễn đàn Aspose.Note](https://forum.aspose.com/c/note/28) và khám phá[tài liệu](https://reference.aspose.com/note/java/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

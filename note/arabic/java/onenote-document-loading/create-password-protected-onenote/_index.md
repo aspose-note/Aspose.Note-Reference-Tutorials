@@ -3,10 +3,16 @@ title: إنشاء مستندات OneNote المحمية بكلمة مرور - Ja
 linktitle: إنشاء مستندات OneNote المحمية بكلمة مرور - Java
 second_title: Aspose.Note جافا API
 description: تعلم كيفية إنشاء مستند OneNote محمي بكلمة مرور في Java باستخدام Aspose.Note. قم بتعزيز الأمان باتباع الخطوات التعليمية بالخطوات.
-type: docs
 weight: 19
 url: /ar/java/onenote-document-loading/create-password-protected-onenote/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# إنشاء مستندات OneNote المحمية بكلمة مرور - Java
+
 ## مقدمة
 
 في هذا البرنامج التعليمي، سوف نتعمق في عملية إنشاء مستندات OneNote محمية بكلمة مرور باستخدام Java بمساعدة Aspose.Note. يعد الأمان أمرًا بالغ الأهمية عند التعامل مع المعلومات الحساسة، وتوفر حماية كلمة المرور طبقة دفاع فعالة ضد الوصول غير المصرح به. سنقوم بإرشادك خلال كل خطوة، مما يضمن أنه يمكنك تنفيذ ميزة الأمان المهمة هذه بسلاسة في تطبيقات Java الخاصة بك.
@@ -80,3 +86,9 @@ document.save(dataDir + "CreatePasswordProtected_out.one", saveOptions);
 ### س5: هل Aspose.Note مناسب للتطبيقات على مستوى المؤسسة؟
 
 ج5: بالتأكيد، تم تصميم Aspose.Note لتلبية متطلبات التطبيقات على مستوى المؤسسة، وتوفير ميزات أمان قوية وأداء موثوق.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

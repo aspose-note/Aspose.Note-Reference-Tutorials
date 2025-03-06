@@ -3,10 +3,16 @@ title: Δημιουργία εγγράφου και εισαγωγή εικόν�
 linktitle: Δημιουργία εγγράφου και εισαγωγή εικόνας στο Aspose.Note
 second_title: Aspose.Note .NET API
 description: Μάθετε πώς να εισάγετε εικόνες σε έγγραφα του OneNote μέσω προγραμματισμού χρησιμοποιώντας το Aspose.Note για .NET. Εύκολα βήματα για απρόσκοπτη επεξεργασία εγγράφων.
-type: docs
 weight: 10
 url: /el/net/images/build-doc-insert-image/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Δημιουργία εγγράφου και εισαγωγή εικόνας στο Aspose.Note
+
 ## Εισαγωγή
 
 Σε αυτό το σεμινάριο, θα εμβαθύνουμε στον κόσμο της χειραγώγησης εγγράφων χρησιμοποιώντας το Aspose.Note για .NET. Το Aspose.Note είναι ένα ισχυρό API που επιτρέπει στους προγραμματιστές να εργάζονται με αρχεία Microsoft OneNote μέσω προγραμματισμού, επιτρέποντας εργασίες όπως η δημιουργία, η τροποποίηση και η μετατροπή εγγράφων με ευκολία. 
@@ -150,3 +156,9 @@ A4: Ναι, το Aspose.Note παρέχει ολοκληρωμένες επιλ�
 ### Ε5: Πού μπορώ να βρω πρόσθετους πόρους και υποστήριξη για το Aspose.Note για .NET;
 
  A5: Μπορείτε να εξερευνήσετε την τεκμηρίωση Aspose.Note[εδώ](https://reference.aspose.com/note/net/) και ζητήστε βοήθεια από το φόρουμ της κοινότητας Aspose[εδώ](https://forum.aspose.com/c/note/28).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -3,10 +3,16 @@ title: Load OneNote 2007 Document - Java
 linktitle: Load OneNote 2007 Document - Java
 second_title: Aspose.Note Java API
 description: Learn to effortlessly load OneNote 2007 documents in Java using Aspose.Note. Elevate your Java application capabilities with Aspose.Note's robust functionality.
-type: docs
 weight: 26
 url: /java/onenote-document-loading/load-onenote-2007/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Load OneNote 2007 Document - Java
+
 ## Introduction
 
 In this tutorial, we'll delve into using Aspose.Note for Java to load OneNote 2007 documents seamlessly. Aspose.Note is a powerful Java library that allows developers to work with Microsoft OneNote files programmatically, enabling a wide range of applications from document manipulation to automation. By the end of this guide, you'll be equipped with the knowledge to effortlessly load OneNote 2007 documents in your Java applications.
@@ -108,3 +114,10 @@ A4: Yes, you can avail of the free trial of Aspose.Note from the [website](https
 ### Q5: How can I obtain a temporary license for Aspose.Note?
 
 A5: You can obtain a temporary license for Aspose.Note from the [temporary license page](https://purchase.aspose.com/temporary-license/).
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

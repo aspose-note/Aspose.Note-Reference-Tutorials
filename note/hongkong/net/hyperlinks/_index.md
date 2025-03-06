@@ -3,10 +3,16 @@ title: Aspose.Note for .NET 超連結和 OneNote 集成
 linktitle: 超連結
 second_title: Aspose.Note .NET API
 description: 學習增強 Aspose.Note 文件的互動性！了解有關使用 Aspose.Note for .NET 新增超連結的教學課程，從而增強文件的參與度。
-type: docs
 weight: 22
 url: /zh-hant/net/hyperlinks/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Aspose.Note for .NET 超連結和 OneNote 集成
+
 ## 介紹
 
 在 Aspose.Note for .NET 領域，為文件添加超連結的能力改變了遊戲規則。按照我們的逐步教學提高文件的互動性和參與度。
@@ -45,3 +51,9 @@ Aspose.Note for .NET 可讓您超越傳統的文件建立。透過掌握新增�
 ## 超連結教程
 ### [在 Aspose.Note 文件中新增超鏈接](./add-hyperlinks/)
 了解如何使用 Aspose.Note for .NET 新增超連結到 Aspose.Note 文件。透過此逐步教學增強文件互動性。
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -3,10 +3,16 @@ title: Chuyển đổi sổ ghi chép thành hình ảnh phẳng trong OneNote -
 linktitle: Chuyển đổi sổ ghi chép thành hình ảnh phẳng trong OneNote - Aspose.Note
 second_title: API Java Aspose.Note
 description: Tìm hiểu cách chuyển đổi sổ ghi chép thành hình ảnh phẳng trong OneNote bằng Aspose.Note for Java. Bảo toàn tất cả các thành phần trong một tệp hình ảnh một cách dễ dàng.
-type: docs
 weight: 13
 url: /vi/java/onenote-notebook-operations/convert-notebook-to-flattened-image/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Chuyển đổi sổ ghi chép thành hình ảnh phẳng trong OneNote - Aspose.Note
+
 ## Giới thiệu
 
 Trong hướng dẫn này, chúng tôi sẽ hướng dẫn bạn quy trình chuyển đổi sổ ghi chép thành hình ảnh phẳng trong OneNote bằng Aspose.Note cho Java. Điều này cho phép bạn lưu sổ ghi chép của mình dưới dạng tệp hình ảnh, đảm bảo rằng tất cả các thành phần được giữ nguyên ở một định dạng hình ảnh duy nhất.
@@ -108,3 +114,9 @@ Câu trả lời 3: Có, Aspose.Note cung cấp các tùy chọn mở rộng đ�
 ### Câu hỏi 5: Tôi có thể tìm hỗ trợ cho Aspose.Note dành cho Java ở đâu?
 
  Câu trả lời 5: Bạn có thể tìm thấy sự hỗ trợ và tài nguyên trên diễn đàn Aspose.Note[đây](https://forum.aspose.com/c/note/28).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

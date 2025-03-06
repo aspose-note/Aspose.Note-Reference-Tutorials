@@ -3,10 +3,16 @@ title: Добавьте узел изображения с тегом в Aspose.
 linktitle: Добавьте узел изображения с тегом в Aspose.Note
 second_title: Aspose.Note .NET API
 description: Узнайте, как улучшить ваши документы OneNote, добавляя изображения с пользовательскими тегами с помощью Aspose.Note для .NET.
-type: docs
 weight: 10
 url: /ru/net/tag-management/add-image-node-tag/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Добавьте узел изображения с тегом в Aspose.Note
+
 ## Введение
 
 В этом уроке мы рассмотрим, как добавить узел изображения с тегом, используя Aspose.Note для .NET. Эта функция позволяет улучшить ваши документы OneNote, добавляя изображения с настраиваемыми тегами.
@@ -110,3 +116,9 @@ A4: Aspose.Note в первую очередь поддерживает доба
 ### Вопрос 5. Существуют ли какие-либо ограничения на размер или формат добавляемых изображений?
 
 A5: Aspose.Note поддерживает широкий спектр форматов изображений и не накладывает строгих ограничений на размер изображений, что позволяет включать в ваши документы разнообразные визуальные эффекты.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -3,10 +3,16 @@ title: Tối ưu hóa hiệu suất OneNote
 linktitle: Tối ưu hóa hiệu suất OneNote
 second_title: API Java Aspose.Note
 description: Tối ưu hóa hiệu suất xuất OneNote với Aspose.Note Java. Tìm hiểu cách chuyển đổi tài liệu hiệu quả sang nhiều định dạng khác nhau với hướng dẫn từng bước để cải thiện năng suất.
-type: docs
 weight: 26
 url: /vi/java/onenote-performance-optimization/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Tối ưu hóa hiệu suất OneNote
+
 
 ## Giới thiệu
 
@@ -34,3 +40,9 @@ Tóm lại, việc nắm vững nghệ thuật tối ưu hóa hiệu suất xu�
 Tìm hiểu cách tối ưu hóa hiệu suất xuất trong OneNote bằng Java với Aspose.Note. Xuất tài liệu sang nhiều định dạng khác nhau một cách hiệu quả với hướng dẫn từng bước.
 ### [Tối ưu hóa hiệu suất cho hoạt động xuất trong OneNote - Java](./optimize-performance-consequent-export/)
 Tìm hiểu cách tối ưu hóa hiệu suất cho các hoạt động xuất trong OneNote bằng Aspose.Note for Java. Hướng dẫn từng bước để chuyển đổi hiệu quả.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

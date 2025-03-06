@@ -3,10 +3,16 @@ title: Pas het afdrukken aan met Aspose.Note-afdrukopties
 linktitle: Pas het afdrukken aan met Aspose.Note-afdrukopties
 second_title: Aspose.Note .NET API
 description: Leer hoe u het afdrukken van documenten kunt aanpassen met Aspose.Note voor .NET. Verfijn de instellingen voor optimale afdrukken.
-type: docs
 weight: 11
 url: /nl/net/printing-document/customize-printing-options/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Pas het afdrukken aan met Aspose.Note-afdrukopties
+
 ## Invoering
 
 Het afdrukken van documenten met Aspose.Note voor .NET kan met behulp van afdrukopties worden aangepast aan specifieke vereisten. In deze zelfstudie onderzoeken we hoe u het afdrukken kunt aanpassen met behulp van de verschillende opties van Aspose.Note. Of u nu de printerinstellingen moet aanpassen, resoluties moet instellen of algoritmen voor het splitsen van pagina's moet definiëren, Aspose.Note biedt flexibiliteit om de gewenste afdrukresultaten te bereiken.
@@ -95,3 +101,9 @@ A4: Aspose.Note ondersteunt afdrukken naar een breed scala aan printers die comp
 ### V5: Kan ik afdruktaken automatiseren met Aspose.Note?
 
 A5: Ja, met Aspose.Note kunnen ontwikkelaars afdruktaken automatiseren door afdrukopties in hun .NET-toepassingen te integreren.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

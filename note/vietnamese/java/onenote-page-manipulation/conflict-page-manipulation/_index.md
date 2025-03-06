@@ -3,10 +3,16 @@ title: Thao tác trang xung đột trong OneNote - Aspose.Note
 linktitle: Thao tác trang xung đột trong OneNote - Aspose.Note
 second_title: API Java Aspose.Note
 description: Tìm hiểu cách quản lý hiệu quả các trang xung đột trong OneNote bằng Aspose.Note for Java. Giải quyết xung đột một cách liền mạch bằng hướng dẫn từng bước.
-type: docs
 weight: 10
 url: /vi/java/onenote-page-manipulation/conflict-page-manipulation/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Thao tác trang xung đột trong OneNote - Aspose.Note
+
 ## Giới thiệu
 
 Người dùng OneNote thường gặp phải xung đột khi nhiều người dùng chỉnh sửa cùng một trang cùng một lúc. Giải quyết những xung đột này một cách hiệu quả là rất quan trọng để duy trì tính toàn vẹn của tài liệu. Aspose.Note for Java cung cấp các công cụ mạnh mẽ để quản lý các trang xung đột một cách liền mạch. Trong hướng dẫn này, chúng ta sẽ khám phá cách thao tác các trang xung đột bằng Aspose.Note cho Java.
@@ -113,3 +119,9 @@ Câu trả lời 4: Có, Aspose.Note dành cho Java cung cấp các tùy chọn 
 ### Câu hỏi 5: Có diễn đàn cộng đồng Aspose.Note dành cho người dùng Java không?
 
  A5: Chắc chắn rồi! Tham gia diễn đàn cộng đồng sôi động của chúng tôi tại[Aspose.Note để hỗ trợ Java](https://forum.aspose.com/c/note/28)để kết nối với những người dùng khác và nhận được sự trợ giúp của chuyên gia.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

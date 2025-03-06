@@ -3,10 +3,16 @@ title: Särskilj nodtyp i OneNote-dokument - Java
 linktitle: Särskilj nodtyp i OneNote-dokument - Java
 second_title: Aspose.Note Java API
 description: Lär dig hur du särskiljer nodtyper i OneNote-dokument med Java med Aspose.Note. Utforska steg-för-steg guide och vanliga frågor för sömlös integration.
-type: docs
 weight: 20
 url: /sv/java/onenote-document-loading/distinguish-node-type/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Särskilj nodtyp i OneNote-dokument - Java
+
 ## Introduktion
 
 När det gäller Java-programmering innebär arbetet med OneNote-dokument sin egen uppsättning utmaningar och krångligheter. Lyckligtvis tillhandahåller Aspose.Note för Java en omfattande lösning för att navigera, manipulera och extrahera data från dessa dokument sömlöst. I den här handledningen kommer vi att fördjupa oss i en specifik aspekt: att särskilja nodtyper i ett OneNote-dokument med Java. I slutet av den här guiden kommer du att ha en gedigen förståelse för hur du identifierar olika nodtyper och utnyttjar denna kunskap effektivt i dina Java-applikationer.
@@ -74,3 +80,10 @@ S3: Absolut, Aspose.Note för Java låter dig extrahera text, bilder och annat i
 ### F5: Finns det en gratis testversion tillgänglig för Aspose.Note för Java?
 
  S5: Ja, du kan utforska funktionerna i Aspose.Note för Java med en gratis testversion tillgänglig på[den här länken](https://releases.aspose.com/).
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

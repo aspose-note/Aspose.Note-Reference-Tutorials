@@ -3,10 +3,16 @@ title: 在 OneNote 中建立具有鎖定列的表 - Aspose.Note
 linktitle: 在 OneNote 中建立具有鎖定列的表 - Aspose.Note
 second_title: Aspose.Note Java API
 description: 使用 Aspose.Note for Java 增強您的 OneNote 體驗。了解如何使用逐步指南建立具有鎖定列的表。立即下載免費試用版！
-type: docs
 weight: 12
 url: /zh-hant/java/onenote-table-manipulation/create-table-with-locked-columns/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# 在 OneNote 中建立具有鎖定列的表 - Aspose.Note
+
 ## 介紹
 OneNote 是用於組織資訊的強大工具，Aspose.Note for Java 透過提供無縫方式建立具有鎖定列的表來增強其功能。在本教學中，我們將引導您完成使用 Aspose.Note for Java 在 OneNote 中建立具有鎖定列的表的過程。
 ## 先決條件
@@ -90,3 +96,9 @@ doc.save(dataDir);
 參觀[Aspose.Note 論壇](https://forum.aspose.com/c/note/28)用於支持和社區討論。
 ### 如何取得 Aspose.Note for Java 的臨時授權？
 訪問[這個連結](https://purchase.aspose.com/temporary-license/)取得用於測試目的的臨時許可證。
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -3,10 +3,16 @@ title: Přidat nový uzel obrázku se značkou ve OneNotu – Aspose.Note
 linktitle: Přidat nový uzel obrázku se značkou ve OneNotu – Aspose.Note
 second_title: Aspose.Note Java API
 description: Přečtěte si, jak přidat nový uzel obrázku se značkou ve OneNotu pomocí Aspose.Note pro Java. Zvyšte své znalosti programování v Javě bez námahy.
-type: docs
 weight: 10
 url: /cs/java/onenote-tag-operations/add-new-image-node-with-tag/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Přidat nový uzel obrázku se značkou ve OneNotu – Aspose.Note
+
 ## Úvod
 oblasti programování Java vyniká Aspose.Note jako výkonný nástroj pro snadnou manipulaci s dokumenty OneNote. Pokud chcete zlepšit své dovednosti a naučit se přidat nový uzel obrázku se značkou ve OneNotu pomocí Aspose.Note, jste na správném místě. Tento průvodce vás krok za krokem provede celým procesem a zajistí, že důkladně pochopíte každý koncept.
 ## Předpoklady
@@ -96,3 +102,9 @@ Gratulujeme! Úspěšně jste přidali nový uzel obrázku se značkou ve OneNot
  Navštivte komunitní fórum[tady](https://forum.aspose.com/c/note/28) pro podporu.
 ### Potřebuji dočasnou licenci?
  V případě potřeby můžete získat dočasnou licenci[tady](https://purchase.aspose.com/temporary-license/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

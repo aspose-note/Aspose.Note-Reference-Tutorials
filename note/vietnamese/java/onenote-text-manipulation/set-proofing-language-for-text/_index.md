@@ -3,10 +3,16 @@ title: Đặt ngôn ngữ soát lỗi cho văn bản trong OneNote - Aspose.Note
 linktitle: Đặt ngôn ngữ soát lỗi cho văn bản trong OneNote - Aspose.Note
 second_title: API Java Aspose.Note
 description: Khai phá tiềm năng của Aspose.Note dành cho Java! Tìm hiểu cách đặt ngôn ngữ soát lỗi cho văn bản trong OneNote một cách liền mạch với hướng dẫn từng bước của chúng tôi.
-type: docs
 weight: 22
 url: /vi/java/onenote-text-manipulation/set-proofing-language-for-text/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Đặt ngôn ngữ soát lỗi cho văn bản trong OneNote - Aspose.Note
+
 ## Giới thiệu
 Trong thế giới phát triển phần mềm năng động, Aspose.Note for Java nổi bật như một công cụ mạnh mẽ để quản lý và thao tác các tài liệu OneNote theo chương trình. Nếu bạn đang tìm cách cải thiện ứng dụng Java của mình bằng khả năng đặt ngôn ngữ soát lỗi cho văn bản trong OneNote thì bạn đã đến đúng nơi. Hướng dẫn này sẽ hướng dẫn bạn thực hiện từng bước quy trình, đảm bảo bạn nắm bắt rõ ràng từng khái niệm.
 ## Điều kiện tiên quyết
@@ -67,3 +73,9 @@ Trả lời: Có, Aspose.Note for Java được cập nhật thường xuyên đ
 Đ: Chắc chắn rồi! Đảm bảo bạn đã cấu hình đúng thư viện Aspose.Note for Java trong dự án web của mình.
 ### Câu hỏi: Tôi có thể tìm thêm ví dụ và tài liệu về Aspose.Note cho Java ở đâu?
  A: Khám phá[tài liệu](https://reference.aspose.com/note/java/) để có nguồn tài nguyên toàn diện.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

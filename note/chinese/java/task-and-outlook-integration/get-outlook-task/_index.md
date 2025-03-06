@@ -3,10 +3,16 @@ title: 在 OneNote 中获取 Outlook 任务 - Aspose.Note
 linktitle: 在 OneNote 中获取 Outlook 任务 - Aspose.Note
 second_title: Aspose.Note Java API
 description: 探索 Aspose.Note for Java 轻松从 OneNote 中提取 Outlook 任务的强大功能。遵循我们的分步指南并增强您的文档处理能力。
-type: docs
 weight: 10
 url: /zh/java/task-and-outlook-integration/get-outlook-task/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# 在 OneNote 中获取 Outlook 任务 - Aspose.Note
+
 ## 介绍
 欢迎阅读我们有关使用 Aspose.Note for Java 在 OneNote 中无缝检索 Outlook 任务的综合指南。 Aspose.Note 是一个功能强大的 Java API，允许开发人员轻松使用 Microsoft OneNote 文件。在本教程中，我们将引导您逐步完成从 OneNote 文档中提取 Outlook 任务的过程。
 ## 先决条件
@@ -71,3 +77,9 @@ Aspose.Note支持Microsoft OneNote 2010及更高版本。
 参观[Aspose.Note 论坛](https://forum.aspose.com/c/note/28)以获得社区支持。如需更多帮助，请考虑购买[临时执照](https://purchase.aspose.com/temporary-license/).
 ### 是否有可供测试的 OneNote 示例文档？
 您可以在 Aspose.Note 文档中找到示例文档[这里](https://reference.aspose.com/note/java/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

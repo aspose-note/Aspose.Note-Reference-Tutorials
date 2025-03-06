@@ -3,10 +3,16 @@ title: Java ile OneNote'ta Belirli Sayfa Aralığını PDF'ye Dönüştürme
 linktitle: Java ile OneNote'ta Belirli Sayfa Aralığını PDF'ye Dönüştürme
 second_title: Aspose.Note Java API'si
 description: Aspose.Note for Java ile belirli sayfa aralıklarını OneNote'tan PDF'ye sorunsuz bir şekilde nasıl dönüştüreceğinizi öğrenin. Biçimlendirmeyi ve düzeni zahmetsizce koruyun.
-type: docs
 weight: 11
 url: /tr/java/onenote-document-loading/convert-page-range-to-pdf/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Java ile OneNote'ta Belirli Sayfa Aralığını PDF'ye Dönüştürme
+
 ## giriiş
 
 OneNote, notları düzenlemek için güçlü bir araçtır ancak bazen paylaşım veya arşivleme amacıyla belirli sayfa aralıklarını PDF'ye aktarmanız gerekebilir. Bu eğitimde, Aspose.Note for Java'yı kullanarak belirli bir sayfa aralığını PDF'ye dönüştürme sürecinde size rehberlik edeceğiz.
@@ -85,3 +91,9 @@ Cevap4: Evet, Aspose.Note'un PDF Kaydetme Seçeneklerini kullanarak sayfa boyutu
 ### S5: Aspose.Note for Java, birden fazla OneNote belgesinin toplu dönüştürülmesini destekliyor mu?
 
 Y5: Evet, her belgede döngü yaparak ve dönüştürme işlemini uygulayarak birden fazla OneNote belgesini toplu olarak PDF'ye dönüştürebilirsiniz.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

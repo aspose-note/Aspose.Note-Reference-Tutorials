@@ -3,10 +3,16 @@ title: Sisipkan Halaman di OneNote - Aspose.Note
 linktitle: Sisipkan Halaman di OneNote - Aspose.Note
 second_title: Aspose.Catatan Java API
 description: Pelajari cara menyisipkan halaman ke dalam dokumen OneNote secara terprogram menggunakan Aspose.Note untuk Java. Tutorial komprehensif dengan petunjuk langkah demi langkah.
-type: docs
 weight: 16
 url: /id/java/onenote-page-manipulation/insert-pages/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Sisipkan Halaman di OneNote - Aspose.Note
+
 ## Perkenalan
 
 Dalam tutorial ini, kita akan mempelajari cara menyisipkan halaman ke dalam dokumen OneNote menggunakan Aspose.Note untuk Java.
@@ -132,3 +138,9 @@ A4: Ya, Anda dapat mengembangkan aplikasi menggunakan Aspose.Note untuk Java di 
 ### Q5: Bisakah saya mengkustomisasi tampilan halaman yang disisipkan di OneNote?
 
 A5: Tentu saja, Aspose.Note menyediakan opsi ekstensif untuk menyesuaikan tata letak halaman, gaya, dan konten untuk memenuhi kebutuhan spesifik Anda.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

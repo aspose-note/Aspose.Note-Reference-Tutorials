@@ -3,10 +3,16 @@ title: Mentés JPEG képbe a Mentés formátum használatával a OneNote-ban
 linktitle: Mentés JPEG képbe a Mentés formátum használatával a OneNote-ban
 second_title: Aspose.Note Java API
 description: Változtassa könnyedén a OneNote-dokumentumot JPEG képpé! Ez a Java oktatóanyag az Aspose.Note használatát mutatja be. Konvertálás és automatizálás kódpéldákkal! #OneNote #Java #Aspose
-type: docs
 weight: 18
 url: /hu/java/onenote-document-saving/save-to-jpeg-image-using-save-format/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Mentés JPEG képbe a Mentés formátum használatával a OneNote-ban
+
 ## Bevezetés
 
 Ebben az oktatóanyagban a dokumentum JPEG képformátumba mentésének folyamatát mutatjuk be az Aspose.Note for Java használatával. Az Aspose.Note egy hatékony Java API, amely lehetővé teszi a fejlesztők számára, hogy programozottan dolgozzanak Microsoft OneNote fájlokkal, lehetővé téve különféle műveleteket, például a tartalom konvertálását, manipulálását és kinyerését.
@@ -78,3 +84,9 @@ Ebben az oktatóanyagban megtanultuk, hogyan menthetünk el egy dokumentumot JPE
 ### 5. kérdés: Hol találom az Aspose.Note for Java részletes dokumentációját?
 
 5. válasz: Az Aspose.Note for Java részletes dokumentációja megtalálható[itt](https://reference.aspose.com/note/java/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

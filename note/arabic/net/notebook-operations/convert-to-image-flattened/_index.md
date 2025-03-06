@@ -3,10 +3,16 @@ title: تحويل دفاتر الملاحظات إلى صورة (مسطحة) ف�
 linktitle: تحويل دفاتر الملاحظات إلى صورة (مسطحة) في Aspose Note .NET
 second_title: Aspose.Note .NET API
 description: تعرف على كيفية تحويل دفاتر ملاحظات OneNote إلى صور مسطحة باستخدام Aspose.Note لـ .NET. دليل خطوة بخطوة للتكامل السلس.
-type: docs
 weight: 12
 url: /ar/net/notebook-operations/convert-to-image-flattened/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# تحويل دفاتر الملاحظات إلى صورة (مسطحة) في Aspose Note .NET
+
 ## مقدمة
 
 في هذا البرنامج التعليمي، سنتعلم كيفية استخدام Aspose.Note لـ .NET لتحويل دفاتر الملاحظات إلى صور مسطحة. سنقوم بتقسيم العملية إلى خطوات بسيطة لمساعدتك على فهمها وتنفيذها بفعالية.
@@ -93,3 +99,9 @@ notebook.Save(dataDir, notebookSaveOptions);
 ### س5: أين يمكنني العثور على وثائق Aspose.Note لـ .NET؟
 
  ج5: يمكنك العثور على الوثائق[هنا](https://reference.aspose.com/note/net/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -3,10 +3,16 @@ title: Recuperar documentos de OneNote Notebook - Aspose.Note
 linktitle: Recuperar documentos de OneNote Notebook - Aspose.Note
 second_title: Aspose.Nota Java API
 description: Aprenda cómo recuperar documentos de OneNote Notebook usando Aspose.Note para Java. Siga nuestra guía paso a paso para una integración perfecta.
-type: docs
 weight: 25
 url: /es/java/onenote-notebook-operations/retrieve-documents-from-onenote-notebook/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Recuperar documentos de OneNote Notebook - Aspose.Note
+
 ## Introducción
 
 ¡Bienvenido a la guía completa sobre cómo utilizar Aspose.Note para Java para recuperar documentos de OneNote Notebook! Aspose.Note es una potente API de Java que permite a los desarrolladores manipular archivos de OneNote con facilidad. En este tutorial, recorreremos el proceso paso a paso, dividiendo cada ejemplo en varios pasos para garantizar una comprensión clara.
@@ -92,3 +98,9 @@ R3: Sí, Aspose.Note para Java permite la automatización de tareas de recuperac
 ### P5: ¿Aspose.Note para Java ofrece una prueba gratuita?
 
  R5: Sí, puede aprovechar una prueba gratuita de Aspose.Note para Java visitando el[página de prueba gratuita](https://releases.aspose.com/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

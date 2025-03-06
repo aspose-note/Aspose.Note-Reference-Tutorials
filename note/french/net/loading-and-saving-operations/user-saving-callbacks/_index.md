@@ -3,10 +3,16 @@ title: Rappels sauvegardés par l'utilisateur dans Aspose.Note
 linktitle: Rappels sauvegardés par l'utilisateur dans Aspose.Note
 second_title: API Aspose.Note .NET
 description: Découvrez comment implémenter des rappels permettant d'enregistrer les utilisateurs dans Aspose.Note pour .NET afin de personnaliser l'enregistrement des polices, des CSS et des images.
-type: docs
 weight: 31
 url: /fr/net/loading-and-saving-operations/user-saving-callbacks/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Rappels sauvegardés par l'utilisateur dans Aspose.Note
+
 ## Introduction
 
 Dans ce didacticiel, nous explorerons comment implémenter des rappels permettant d'économiser l'utilisateur dans Aspose.Note pour .NET. Ces rappels vous permettent de personnaliser le processus d'enregistrement en fournissant des hooks pour intervenir à différentes étapes, telles que l'enregistrement des polices, des feuilles de style CSS et des images. En utilisant ces rappels, vous pouvez adapter le comportement d'enregistrement à vos besoins spécifiques, améliorant ainsi la flexibilité et le contrôle de la sortie.
@@ -118,3 +124,9 @@ A4 : Bien que ces rappels offrent de la flexibilité, assurez-vous qu'ils sont 
 ### Q5 : Puis-je modifier dynamiquement le comportement d'enregistrement en fonction des entrées de l'utilisateur ou d'autres conditions ?
 
 A5 : Oui, vous pouvez incorporer une logique conditionnelle dans les méthodes de rappel pour ajuster le comportement d'enregistrement de manière dynamique en fonction de divers facteurs.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

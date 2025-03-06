@@ -3,10 +3,16 @@ title: Zvládnutí tabulek pomocí integrace OneNote
 linktitle: Manipulace se stolem
 second_title: Aspose.Note .NET API
 description: Vytvářejte vizuálně přitažlivé dokumenty s Aspose.Note pro .NET! Prozkoumejte výukové programy pro manipulaci s tabulkami – změna stylů, skládání tabulek, extrahování textu a další.
-type: docs
 weight: 29
 url: /cs/net/table-manipulation/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Zvládnutí tabulek pomocí integrace OneNote
+
 
 ## Úvod
 
@@ -62,3 +68,9 @@ Naučte se extrahovat text z tabulek v Aspose.Note pomocí C# s rozhraním .NET.
 Naučte se vkládat tabulky do dokumentů Note pomocí Aspose.Note pro .NET. Bezproblémově organizujte data pro lepší čitelnost a prezentaci.
 ### [Nastavte barvu pozadí buňky v tabulkách Aspose.Note](./set-cell-background-color/)
 Naučte se, jak nastavit barvu pozadí buňky v tabulkách Aspose.Note pomocí podrobného průvodce. Vylepšete vizuály dokumentů bez námahy.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

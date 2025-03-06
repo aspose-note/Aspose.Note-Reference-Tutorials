@@ -3,10 +3,16 @@ title: OneNote hiperhivatkozások és képek
 linktitle: OneNote hiperhivatkozások és képek
 second_title: Aspose.Note Java API
 description: Növelje OneNote-élményét az Aspose.Note for Java oktatóanyaggal. Tanuljon meg zökkenőmentesen hiperhivatkozásokat hozzáadni, képeket beilleszteni és képinformációkat kivonni a Java fejlesztéssel.
-type: docs
 weight: 22
 url: /hu/java/onenote-hyperlinks-images/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# OneNote hiperhivatkozások és képek
+
 
 ## Bevezetés
 
@@ -48,3 +54,9 @@ Ismerje meg, hogyan bonthat ki képeket OneNote-dokumentumokból Java használat
 Ismerje meg, hogyan nyerhet ki képadatokat OneNote-dokumentumokból Java használatával az Aspose.Note segítségével. Egyszerű lépések a fejlesztők számára.
 ### [Kép beszúrása a OneNote dokumentumba Java segítségével](./insert-image/)
 Ismerje meg, hogyan illeszthet be képeket OneNote-dokumentumokba Java használatával az Aspose.Note for Java könyvtárral. Kövesse lépésenkénti útmutatónkat a zökkenőmentes integráció érdekében.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -3,10 +3,16 @@ title: OneNote'ta Not Defterini Düzleştirilmiş Görüntüye Dönüştürme - 
 linktitle: OneNote'ta Not Defterini Düzleştirilmiş Görüntüye Dönüştürme - Aspose.Note
 second_title: Aspose.Note Java API'si
 description: Aspose.Note for Java'yı kullanarak bir not defterini OneNote'ta düzleştirilmiş bir görüntüye nasıl dönüştüreceğinizi öğrenin. Tüm öğeleri tek bir görüntü dosyasında zahmetsizce koruyun.
-type: docs
 weight: 13
 url: /tr/java/onenote-notebook-operations/convert-notebook-to-flattened-image/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# OneNote'ta Not Defterini Düzleştirilmiş Görüntüye Dönüştürme - Aspose.Note
+
 ## giriiş
 
 Bu eğitimde, Aspose.Note for Java'yı kullanarak bir not defterini OneNote'ta düzleştirilmiş bir görüntüye dönüştürme sürecinde size rehberlik edeceğiz. Bu, not defterinizi bir görüntü dosyası olarak kaydetmenize olanak tanır ve tüm öğelerin tek bir görüntü formatında korunmasını sağlar.
@@ -108,3 +114,9 @@ Cevap3: Evet, Aspose.Note, sayfa boyutu, yönlendirme ve kalite ayarları da dah
 ### S5: Aspose.Note for Java desteğini nerede bulabilirim?
 
  Cevap5: Aspose.Note forumunda destek ve kaynak bulabilirsiniz[Burada](https://forum.aspose.com/c/note/28).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

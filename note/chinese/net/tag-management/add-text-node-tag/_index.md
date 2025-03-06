@@ -3,10 +3,16 @@ title: 在Aspose.Note中添加带标签的文本节点
 linktitle: 在Aspose.Note中添加带标签的文本节点
 second_title: Aspose.Note .NET API
 description: 了解如何使用 Aspose.Note for .NET 将带有标签的文本节点添加到 OneNote 文档中。
-type: docs
 weight: 12
 url: /zh/net/tag-management/add-text-node-tag/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# 在Aspose.Note中添加带标签的文本节点
+
 ## 介绍
 
 Aspose.Note for .NET 是一个功能强大的库，使开发人员能够使用 .NET 框架以编程方式创建、操作和转换 Microsoft OneNote 文件。在本教程中，我们将探讨如何使用 Aspose.Note for .NET 将带有标签的文本节点添加到 OneNote 文档中。
@@ -107,3 +113,9 @@ A4：是的，Aspose.Note for .NET 支持文档加密以确保数据安全。
 ### Q5：在哪里可以找到更多关于 Aspose.Note for .NET 的资源和支持？
 
  A5：您可以探索[.NET 文档的 Aspose.Note](https://reference.aspose.com/note/net/)并向有关部门寻求帮助[Aspose.Note 论坛](https://forum.aspose.com/c/note/28).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

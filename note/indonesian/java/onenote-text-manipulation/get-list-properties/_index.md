@@ -3,10 +3,16 @@ title: Dapatkan Properti Daftar di OneNote - Aspose.Note
 linktitle: Dapatkan Properti Daftar di OneNote - Aspose.Note
 second_title: Aspose.Catatan Java API
 description: Jelajahi Aspose.Note untuk Java dan ambil properti daftar dengan mudah di dokumen OneNote. Tingkatkan pemrosesan dokumen Anda dengan pustaka Java yang canggih ini.
-type: docs
 weight: 19
 url: /id/java/onenote-text-manipulation/get-list-properties/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Dapatkan Properti Daftar di OneNote - Aspose.Note
+
 ## Perkenalan
 Selamat datang di tutorial komprehensif tentang memanfaatkan Aspose.Note untuk Java untuk mengambil dan menganalisis properti daftar di dokumen OneNote. Baik Anda seorang pengembang berpengalaman atau baru memulai Aspose.Note, panduan ini akan memandu Anda melalui prosesnya, menguraikan setiap langkah untuk memastikan pemahaman yang jelas.
 ## Prasyarat
@@ -95,3 +101,9 @@ Ya, Anda dapat memodifikasi kode sesuai kebutuhan Anda dan secara selektif menga
  Ya, Anda bisa mendapatkan lisensi sementara[Di Sini](https://purchase.aspose.com/temporary-license/) untuk tujuan pengujian.
 ### Bagaimana jika saya ingin membeli Aspose.Note untuk Java?
  Anda dapat membeli produknya[Di Sini](https://purchase.aspose.com/buy)untuk membuka potensi penuhnya untuk proyek Anda.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -3,10 +3,16 @@ title: Simpan Buku Catatan untuk Streaming di OneNote - Aspose.Note
 linktitle: Simpan Buku Catatan untuk Streaming di OneNote - Aspose.Note
 second_title: Aspose.Catatan Java API
 description: Pelajari cara menyimpan buku catatan ke aliran di OneNote menggunakan Aspose.Note untuk Java. Tingkatkan produktivitas dengan manajemen notebook yang efisien.
-type: docs
 weight: 26
 url: /id/java/onenote-notebook-operations/save-notebook-to-stream/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Simpan Buku Catatan untuk Streaming di OneNote - Aspose.Note
+
 ## Perkenalan
 
 Dalam tutorial ini, kami akan memandu Anda melalui proses menyimpan buku catatan ke aliran di OneNote menggunakan Aspose.Note untuk Java. Dengan mengikuti langkah-langkah ini, Anda akan dapat mengelola buku catatan Anda secara terprogram secara efisien.
@@ -88,3 +94,9 @@ A3: Tentu saja! Aspose.Note untuk Java memberikan kemampuan integrasi yang lanca
 ### Q5: Apakah ada versi uji coba yang tersedia untuk Aspose.Note untuk Java?
 
  A5: Ya, Anda dapat mengakses versi trial[Di Sini](https://releases.aspose.com/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

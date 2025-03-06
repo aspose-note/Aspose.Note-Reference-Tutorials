@@ -3,10 +3,16 @@ title: Aspose.Note'ta OneNote Belgesi Oluşturun ve HTML'ye Kaydedin
 linktitle: Aspose.Note'ta OneNote Belgesi Oluşturun ve HTML'ye Kaydedin
 second_title: Aspose.Note .NET API'si
 description: Aspose.Note API'yi kullanarak .NET uygulamalarında Microsoft OneNote belgelerini HTML formatında nasıl oluşturacağınızı ve kaydedeceğinizi öğrenin. Adım adım örnekler içeren kapsamlı eğitimimizi takip edin.
-type: docs
 weight: 14
 url: /tr/net/loading-and-saving-operations/create-onenote-doc-save-to-html/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Aspose.Note'ta OneNote Belgesi Oluşturun ve HTML'ye Kaydedin
+
 ## giriiş
 
 Aspose.Note for .NET, geliştiricilerin .NET uygulamalarında Microsoft OneNote belgeleriyle programlı olarak çalışmasına olanak tanıyan güçlü bir API'dir. Aspose.Note ile OneNote dosyalarını zahmetsizce oluşturabilir, değiştirebilir ve dönüştürebilirsiniz. Bu eğitimde, bir OneNote belgesinin nasıl oluşturulacağını ve Aspose.Note for .NET API tarafından sağlanan çeşitli seçenekleri kullanarak HTML formatında nasıl kaydedileceğini inceleyeceğiz.
@@ -218,3 +224,9 @@ Cevap4: Evet, Aspose.Note API'yi kullanarak metin ve görselleri çıkarabilir, 
 ### S5: Aspose.Note özelliklerini test etmek için deneme sürümü mevcut mu?
 
  C5: Evet, ücretsiz deneme sürümünü şuradan indirebilirsiniz:[Burada](https://releases.aspose.com/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

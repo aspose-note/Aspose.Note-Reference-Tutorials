@@ -3,10 +3,16 @@ title: Erstellen Sie ein Dokument mit Stamm- und Unterseiten in OneNote
 linktitle: Erstellen Sie ein Dokument mit Stamm- und Unterseiten in OneNote
 second_title: Aspose.Note Java API
 description: Erstellen Sie mit Aspose.Note für Java ein Dokument mit Stamm- und Unterseiten in OneNote. Befolgen Sie die Schritt-für-Schritt-Anleitung, um Ihre Notizen effizient zu organisieren.
-type: docs
 weight: 11
 url: /de/java/onenote-page-manipulation/create-document-with-root-and-sub-pages/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Erstellen Sie ein Dokument mit Stamm- und Unterseiten in OneNote
+
 ## Einführung
 
 In diesem Tutorial führen wir Sie durch den Prozess der Erstellung eines Dokuments mit Stamm- und Unterseiten in OneNote mithilfe von Aspose.Note für Java. Wenn Sie diese Schritte befolgen, können Sie Ihre OneNote-Dokumente effizient mit hierarchischer Struktur organisieren.
@@ -169,3 +175,9 @@ A4: Ja, Aspose.Note für Java unterstützt das Speichern von Dokumenten in versc
 ### F5: Gibt es eine Testversion für Aspose.Note für Java?
 
 A5: Ja, Sie können eine kostenlose Testversion von Aspose.Note für Java von der Website herunterladen.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

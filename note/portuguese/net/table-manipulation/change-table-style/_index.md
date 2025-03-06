@@ -3,10 +3,16 @@ title: Alterar o estilo da tabela em Aspose.Note
 linktitle: Alterar o estilo da tabela em Aspose.Note
 second_title: API Aspose.Note .NET
 description: Aprenda como personalizar estilos de tabela em Aspose.Note usando C#. Modifique cores, fontes e muito mais para uma apresentação aprimorada de documentos.
-type: docs
 weight: 10
 url: /pt/net/table-manipulation/change-table-style/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Alterar o estilo da tabela em Aspose.Note
+
 ## Introdução
 
 Neste tutorial, exploraremos como alterar o estilo da tabela no Aspose.Note usando o .NET framework. Aspose.Note é uma API poderosa que permite aos desenvolvedores trabalhar com arquivos do Microsoft OneNote programaticamente. Ao personalizar o estilo das tabelas nos documentos do OneNote, você pode aprimorar seu apelo visual e legibilidade. Percorreremos o processo de modificação de estilos de tabela passo a passo, garantindo clareza e eficácia.
@@ -95,3 +101,9 @@ A4: Certamente, você pode gerar dinamicamente novas tabelas em documentos do On
 ### P5: Onde posso encontrar mais recursos e suporte para Aspose.Note?
 
  A5: Você pode explorar a documentação do Aspose.Note[aqui](https://reference.aspose.com/note/net/) e procure ajuda nos fóruns da comunidade Aspose.Note[aqui](https://forum.aspose.com/c/note/28).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

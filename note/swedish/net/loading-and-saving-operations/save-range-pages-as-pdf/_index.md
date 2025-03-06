@@ -3,10 +3,16 @@ title: Spara intervall av sidor som PDF i Aspose.Note
 linktitle: Spara intervall av sidor som PDF i Aspose.Note
 second_title: Aspose.Note .NET API
 description: Lär dig hur du sparar en rad sidor från OneNote-dokument som PDF-filer med Aspose.Note för .NET. Steg-för-steg handledning ingår.
-type: docs
 weight: 21
 url: /sv/net/loading-and-saving-operations/save-range-pages-as-pdf/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Spara intervall av sidor som PDF i Aspose.Note
+
 ## Introduktion
 
 Inom .NET-utvecklingens område framstår Aspose.Note som ett mångsidigt verktyg för att hantera OneNote-dokument med lätthet och effektivitet. Bland dess uppsjö av funktioner är en av de mest eftertraktade funktionerna möjligheten att spara en rad sidor som en PDF-fil. Denna handledning guidar dig genom processen steg för steg, och säkerställer att du sömlöst kan integrera denna förmåga i dina projekt.
@@ -99,3 +105,9 @@ A4: Absolut! Aspose.Note erbjuder omfattande alternativ för att anpassa utseend
 ### F5: Var kan jag hitta ytterligare support och resurser för Aspose.Note?
 
  S5: För ytterligare support, dokumentation och gemenskapsinteraktion kan du besöka[Aspose.Note Forum](https://forum.aspose.com/c/note/28).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

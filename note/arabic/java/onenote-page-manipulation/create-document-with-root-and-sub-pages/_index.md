@@ -3,10 +3,16 @@ title: قم بإنشاء مستند بالصفحات الجذرية والفرع
 linktitle: قم بإنشاء مستند بالصفحات الجذرية والفرعية في OneNote
 second_title: Aspose.Note جافا API
 description: قم بإنشاء مستند يحتوي على صفحات جذرية وفرعية في OneNote باستخدام Aspose.Note لـ Java. اتبع الدليل الموضح خطوة بخطوة لتنظيم ملاحظاتك بكفاءة.
-type: docs
 weight: 11
 url: /ar/java/onenote-page-manipulation/create-document-with-root-and-sub-pages/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# قم بإنشاء مستند بالصفحات الجذرية والفرعية في OneNote
+
 ## مقدمة
 
 في هذا البرنامج التعليمي، سنرشدك خلال عملية إنشاء مستند يحتوي على صفحات جذرية وفرعية في OneNote باستخدام Aspose.Note لـ Java. باتباع هذه الخطوات، ستتمكن من تنظيم مستندات OneNote بكفاءة باستخدام بنية هرمية.
@@ -169,3 +175,9 @@ try {
 ### س5: هل هناك إصدار تجريبي متاح لـ Aspose.Note لـ Java؟
 
 ج5: نعم، يمكنك تنزيل نسخة تجريبية مجانية من Aspose.Note لـ Java من موقع الويب.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

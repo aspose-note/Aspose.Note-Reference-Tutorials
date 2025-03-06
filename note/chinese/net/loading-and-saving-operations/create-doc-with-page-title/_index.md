@@ -3,10 +3,16 @@ title: 在 Aspose.Note 中创建带有页面标题的文档
 linktitle: 在 Aspose.Note 中创建带有页面标题的文档
 second_title: Aspose.Note .NET API
 description: 了解如何使用 Aspose.Note for .NET 创建带有标题页面的文档。请按照我们的分步指南进行无缝集成。
-type: docs
 weight: 13
 url: /zh/net/loading-and-saving-operations/create-doc-with-page-title/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# 在 Aspose.Note 中创建带有页面标题的文档
+
 ## 介绍
 
 在本教程中，我们将指导您完成使用 Aspose.Note for .NET 创建带有标题页面的文档的过程。 Aspose.Note 是一个功能强大的 API，允许开发人员以编程方式处理 Microsoft OneNote 文件。
@@ -118,3 +124,9 @@ A4：是的，您可以使用Aspose.Note轻松读取、修改和操作现有的O
 ### Q5：如果遇到任何问题，我可以在哪里寻求支持？
 
 A5：您可以在以下位置找到支持和帮助：[Aspose.Note 论坛](https://forum.aspose.com/c/note/28)，专家和社区成员可以帮助您解答疑问。
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

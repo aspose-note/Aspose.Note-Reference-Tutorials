@@ -3,10 +3,16 @@ title: OneNote에서 루트 및 하위 페이지가 포함된 문서 만들기
 linktitle: OneNote에서 루트 및 하위 페이지가 포함된 문서 만들기
 second_title: Aspose.Note 자바 API
 description: Aspose.Note for Java를 사용하여 OneNote에서 루트 및 하위 페이지가 포함된 문서를 만듭니다. 단계별 가이드에 따라 노트를 효율적으로 정리하세요.
-type: docs
 weight: 11
 url: /ko/java/onenote-page-manipulation/create-document-with-root-and-sub-pages/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# OneNote에서 루트 및 하위 페이지가 포함된 문서 만들기
+
 ## 소개
 
 이 튜토리얼에서는 Aspose.Note for Java를 사용하여 OneNote에서 루트 및 하위 페이지가 포함된 문서를 만드는 과정을 안내합니다. 다음 단계를 따르면 OneNote 문서를 계층 구조로 효율적으로 구성할 수 있습니다.
@@ -169,3 +175,9 @@ A4: 예, Aspose.Note for Java는 BMP, PDF, PNG 등을 포함한 다양한 형식
 ### Q5: Aspose.Note for Java에 사용할 수 있는 평가판이 있나요?
 
 A5: 예, 웹사이트에서 Java용 Aspose.Note의 무료 평가판을 다운로드할 수 있습니다.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

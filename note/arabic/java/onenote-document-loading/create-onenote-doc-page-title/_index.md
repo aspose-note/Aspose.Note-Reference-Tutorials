@@ -3,10 +3,16 @@ title: إنشاء مستند OneNote بعنوان الصفحة - Java
 linktitle: إنشاء مستند OneNote بعنوان الصفحة - Java
 second_title: Aspose.Note جافا API
 description: تعرف على كيفية إنشاء مستندات OneNote مع عناوين الصفحات في Java باستخدام Aspose.Note لـ Java. برنامج تعليمي شامل مع أمثلة التعليمات البرمجية.
-type: docs
 weight: 17
 url: /ar/java/onenote-document-loading/create-onenote-doc-page-title/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# إنشاء مستند OneNote بعنوان الصفحة - Java
+
 ## مقدمة
 
 في مجال تطوير Java، أصبحت إدارة مستندات OneNote ومعالجتها بسيطة وفعالة باستخدام Aspose.Note لـ Java. توفر واجهة برمجة تطبيقات Java القوية هذه للمطورين الأدوات اللازمة لإنشاء ملفات OneNote وتعديلها ومعالجتها برمجيًا، مما يوفر تكاملًا سلسًا في تطبيقاتهم. في هذا البرنامج التعليمي، سنتعمق في عملية إنشاء مستند OneNote بعنوان صفحة محدد باستخدام Aspose.Note لـ Java. من خلال اتباع الدليل التفصيلي الموضح أدناه، يمكن للمطورين الاستفادة بسهولة من إمكانات واجهة برمجة التطبيقات (API) هذه لتحسين تطبيقات Java الخاصة بهم من خلال وظائف إدارة مستندات OneNote القوية.
@@ -154,3 +160,9 @@ doc.save(dataDir);
 ### س5: هل يمكنني الحصول على ترخيص مؤقت لأغراض الاختبار؟
 
 ج5: نعم، يمكنك الحصول على ترخيص مؤقت من Aspose لأغراض الاختبار والتقييم.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

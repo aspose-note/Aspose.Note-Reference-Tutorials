@@ -3,10 +3,16 @@ title: Konversi Buku Catatan menjadi Gambar (Diratakan) di Aspose Note .NET
 linktitle: Konversi Buku Catatan menjadi Gambar (Diratakan) di Aspose Note .NET
 second_title: Aspose.Catatan .NET API
 description: Pelajari cara mengonversi buku catatan OneNote menjadi gambar rata menggunakan Aspose.Note untuk .NET. Panduan langkah demi langkah untuk integrasi yang lancar.
-type: docs
 weight: 12
 url: /id/net/notebook-operations/convert-to-image-flattened/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Konversi Buku Catatan menjadi Gambar (Diratakan) di Aspose Note .NET
+
 ## Perkenalan
 
 Dalam tutorial ini, kita akan mempelajari cara menggunakan Aspose.Note untuk .NET untuk mengonversi buku catatan menjadi gambar yang diratakan. Kami akan membagi prosesnya menjadi langkah-langkah sederhana untuk membantu Anda memahami dan menerapkannya secara efektif.
@@ -93,3 +99,9 @@ A1: Ya, Aspose.Note untuk .NET mampu menangani buku catatan kompleks secara efis
 ### Q5: Di mana saya dapat menemukan dokumentasi Aspose.Note untuk .NET?
 
  A5: Anda dapat menemukan dokumentasinya[Di Sini](https://reference.aspose.com/note/net/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

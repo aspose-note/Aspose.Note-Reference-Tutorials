@@ -3,10 +3,16 @@ title: Spara till gråskalebild i OneNote - Aspose.Note
 linktitle: Spara till gråskalebild i OneNote - Aspose.Note
 second_title: Aspose.Note Java API
 description: Lär dig hur du sparar ett dokument som en gråskalebild i OneNote med Aspose.Note för Java. Hantera enkelt Microsoft OneNote-dokument programmatiskt.
-type: docs
 weight: 17
 url: /sv/java/onenote-document-saving/save-to-grayscale-image/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Spara till gråskalebild i OneNote - Aspose.Note
+
 ## Introduktion
 
 I den här handledningen kommer vi att utforska hur man sparar ett dokument som en gråskalebild i OneNote med Aspose.Note för Java. Gråskalebilder är monokromatiska bilder där färginformationen endast representeras av gråtoner. Aspose.Note är ett kraftfullt Java API som tillåter manipulering av Microsoft OneNote-dokument programmatiskt.
@@ -83,3 +89,9 @@ A4: Absolut! Aspose.Note tillhandahåller ett brett utbud av funktioner för att
 ### F5: Var kan jag hitta support om jag stöter på problem?
 
 S5: Du kan hitta support på Aspose.Note-forumet[här](https://forum.aspose.com/c/note/28).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

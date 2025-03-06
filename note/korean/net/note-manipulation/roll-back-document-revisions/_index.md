@@ -3,10 +3,16 @@ title: Aspose.Note 문서의 개정판 롤백
 linktitle: Aspose.Note 문서의 개정판 롤백
 second_title: Aspose.Note .NET API
 description: .NET용 Aspose.Note를 사용하여 Aspose.Note 문서의 개정판을 효과적으로 관리하는 방법을 알아보세요. 개정판을 원활하게 롤백하려면 단계별 가이드를 따르세요.
-type: docs
 weight: 18
 url: /ko/net/note-manipulation/roll-back-document-revisions/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Aspose.Note 문서의 개정판 롤백
+
 ## 소개
 
 문서 관리 및 편집 분야에서는 변경 사항을 추적하고 이전 버전으로 원활하게 되돌릴 수 있는 능력을 갖추는 것이 중요합니다. Aspose.Note for .NET은 개정판을 효과적으로 관리할 수 있는 강력한 도구를 제공하므로 필요할 때마다 변경 사항을 롤백할 수 있습니다. 이 튜토리얼에서는 Aspose.Note 문서의 개정판을 롤백하는 과정을 단계별로 살펴보겠습니다.
@@ -99,3 +105,9 @@ A4: 예, 롤백 기능을 애플리케이션에 통합하고 필요에 따라 �
 ### Q5: Aspose.Note는 롤백 프로세스 중에 문제가 발생하면 지원을 제공합니까?
 
  A5: 네, Aspose는 포럼을 통해 전담 지원을 제공합니다. 당신은 방문 할 수 있습니다[Aspose.Note 포럼](https://forum.aspose.com/c/note/28) 도움을 위해.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

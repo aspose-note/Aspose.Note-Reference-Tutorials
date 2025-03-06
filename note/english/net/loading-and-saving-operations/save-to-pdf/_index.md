@@ -3,10 +3,16 @@ title: Save to PDF in Aspose.Note
 linktitle: Save to PDF in Aspose.Note
 second_title: Aspose.Note .NET API
 description: Learn how to save Microsoft OneNote documents to PDF format using Aspose.Note for .NET. Step-by-step tutorial with code examples for Letter and A4 page layouts.
-type: docs
 weight: 26
 url: /net/loading-and-saving-operations/save-to-pdf/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Save to PDF in Aspose.Note
+
 ## Introduction
 
 In this tutorial, we'll explore how to save documents to PDF format using Aspose.Note for .NET. Aspose.Note is a powerful library that enables developers to work with Microsoft OneNote files programmatically. We'll cover the prerequisites, import namespaces, and provide step-by-step guides for saving documents to PDF in various page layouts.
@@ -110,3 +116,10 @@ A4: You can find detailed documentation [here](https://reference.aspose.com/note
 ### Q5: Need further assistance?
 
 A5: Feel free to ask any questions or seek support on the Aspose.Note forum [here](https://forum.aspose.com/c/note/28).
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

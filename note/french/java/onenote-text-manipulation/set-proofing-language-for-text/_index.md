@@ -3,10 +3,16 @@ title: Définir la langue de vérification linguistique pour le texte dans OneNo
 linktitle: Définir la langue de vérification linguistique pour le texte dans OneNote - Aspose.Note
 second_title: API Java Aspose.Note
 description: Libérez le potentiel d’Aspose.Note pour Java ! Découvrez comment définir facilement la langue de vérification du texte dans OneNote grâce à notre guide étape par étape.
-type: docs
 weight: 22
 url: /fr/java/onenote-text-manipulation/set-proofing-language-for-text/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Définir la langue de vérification linguistique pour le texte dans OneNote - Aspose.Note
+
 ## Introduction
 Dans le monde dynamique du développement logiciel, Aspose.Note pour Java se distingue comme un outil puissant pour gérer et manipuler les documents OneNote par programmation. Si vous souhaitez améliorer vos applications Java avec la possibilité de définir un langage de vérification linguistique pour le texte dans OneNote, vous êtes au bon endroit. Ce didacticiel vous guidera tout au long du processus, étape par étape, en vous assurant de bien comprendre chaque concept.
 ## Conditions préalables
@@ -67,3 +73,9 @@ R : Implémentez des mécanismes de gestion des erreurs à l’aide de blocs tr
 R : Certainement ! Assurez-vous que la bibliothèque Aspose.Note pour Java est correctement configurée dans votre projet Web.
 ### Q : Où puis-je trouver des exemples et de la documentation supplémentaires pour Aspose.Note pour Java ?
  R : Explorez le[Documentation](https://reference.aspose.com/note/java/) pour des ressources complètes.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}
