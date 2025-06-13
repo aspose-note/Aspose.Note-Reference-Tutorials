@@ -8,6 +8,10 @@ weight: 26
 url: /net/notebook-operations/
 --- 
 
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
 ## Introduction
 
 Are you ready to become a master in Aspose Note .NET? Dive into our comprehensive tutorials covering various notebook operations. From adding child nodes to creating password-protected documents, we've got you covered!
@@ -99,3 +103,28 @@ Learn how to remove child nodes in Aspose.Note for .NET effortlessly. Simplify y
 Learn how to retrieve documents from OneNote notebooks programmatically using Aspose.Note for .NET, empowering seamless integration and manipulation.
 ### [Write Password-Protected Documents in Aspose Note .NET](./write-password-protected-documents/)
 Learn how to create password-protected documents in Aspose Note .NET for enhanced security. Step-by-step tutorial included.
+
+### [How to Create and Save a Notebook with Aspose.Note for .NET - Full Guide](./create-save-notebook-aspose-dot-net-guide/)
+Learn how to create and save digital notebooks efficiently using Aspose.Note for .NET. This guide covers setup, implementation, and best practices for developers.
+
+### [Master Accessing All Sections in OneNote with Aspose.Note .NET](./access-all-sections-one-note-aspose-dot-net/)
+Learn how to efficiently access and manage all sections within a OneNote notebook using Aspose.Note for .NET. Streamline your workflow and enhance productivity.
+
+### [Master Aspose.Note .NET&#58; Load and Save Notebooks Efficiently](./aspose-note-net-load-save-notebooks/)
+Learn how to load, save, and securely manage notebooks using Aspose.Note for .NET. This guide covers deferred saving options and document protection.
+
+### [Programmatic OneNote Notebook Management with Aspose.Note for .NET](./master-one-note-notebook-manipulation-dotnet/)
+Learn how to automate and manipulate Microsoft OneNote notebooks using Aspose.Note for .NET. This guide covers loading, editing, and saving notebook data efficiently.
+
+## Additional Resources
+
+- [Aspose.Note for Net Documentation](https://docs.aspose.com/note/net/)
+- [Aspose.Note for Net API Reference](https://reference.aspose.com/note/net/)
+- [Download Aspose.Note for Net](https://releases.aspose.com/note/net/)
+- [Aspose.Note Forum](https://forum.aspose.com/c/note)
+- [Free Support](https://forum.aspose.com/)
+- [Temporary License](https://purchase.aspose.com/temporary-license/)
+{{< /blocks/products/pf/tutorial-page-section >}}
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/products-backtop-button >}}
