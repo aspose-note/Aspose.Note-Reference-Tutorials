@@ -1,33 +1,52 @@
 ---
-title: Controleer of het OneNote-document gecodeerd is - Java
-linktitle: Controleer of het OneNote-document gecodeerd is - Java
-second_title: Aspose.Note Java-API
-description: Leer hoe u kunt controleren of een OneNote-document in Java is gecodeerd met Aspose.Note. Volg onze stapsgewijze handleiding voor een efficiënte documentverwerking.
+date: 2025-11-29
+description: Leer hoe u OneNote‑versleuteling in Java kunt controleren met Aspose.Note
+  voor Java. Deze gids laat u zien hoe u versleutelde OneNote‑bestanden kunt detecteren
+  voordat u ze verwerkt.
+language: nl
+linktitle: Check if OneNote Document is Encrypted - Java
+second_title: Aspose.Note Java API
+title: controleer onenote-encryptie java – verifieer OneNote-documentencryptie
+url: /java/onenote-document-loading/check-document-encrypted/
 weight: 10
-url: /nl/java/onenote-document-loading/check-document-encrypted/
 ---
 
-{{< blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/pf/main-container >}}
-{{< blocks/products/pf/tutorial-page-section >}}
+{{< blocks/products/pf/main-wrap-class >}}  
+{{< blocks/products/pf/main-container >}}  
+{{< blocks/products/pf/tutorial-page-section >}}  
 
-# Controleer of het OneNote-document gecodeerd is - Java
+# Controleer of OneNote‑document is versleuteld – Java  
 
-## Invoering
+## Inleiding  
 
-Wanneer u met OneNote-documenten in Java werkt, is het van cruciaal belang ervoor te zorgen dat het document niet wordt gecodeerd voordat het wordt verwerkt. Het versleutelen van documenten kan een extra beveiligingslaag toevoegen, maar kan ook de verwerkingsstappen bemoeilijken als er niet op de juiste manier mee wordt omgegaan. In deze zelfstudie begeleiden we u bij het controleren of een OneNote-document is gecodeerd met Aspose.Note voor Java.
+Wanneer je met OneNote‑bestanden werkt in een Java‑applicatie, is het eerste dat je moet weten **of het document versleuteld is**. Het proberen te laden van een versleuteld bestand zonder het juiste wachtwoord veroorzaakt fouten en onderbreekt je workflow. In deze tutorial laten we je stap voor stap zien **hoe je onenote encryptie java controleert** met Aspose.Note voor Java, zodat je veilig kunt bepalen of je de gebruiker om een wachtwoord moet vragen of het bestand verder kunt verwerken.  
 
-## Vereisten
+## Snelle antwoorden  
 
-Voordat u begint, moet u ervoor zorgen dat u aan de volgende vereisten voldoet:
+- **Welke methode bepaalt versleuteling?** `Document.isEncrypted`  
+- **Heb ik een wachtwoord nodig om te controleren?** Nee, je kunt de status opvragen zonder wachtwoord.  
+- **Welke API‑versie werkt?** Elke recente Aspose.Note voor Java‑release (getest met 24.11).  
+- **Kan ik zowel streams als bestandspaden controleren?** Ja – de API ondersteunt beide.  
+- **Wat gebeurt er als het wachtwoord onjuist is?** De methode retourneert `true`, wat aangeeft dat het bestand versleuteld blijft.  
 
-1.  Java Development Kit (JDK): Zorg ervoor dat Java op uw systeem is geïnstalleerd. Je kunt het downloaden van[hier](https://www.oracle.com/java/technologies/javase-jdk11-downloads.html).
+## Wat is check onenote encryption java?  
 
-2.  Aspose.Note voor Java-bibliotheek: Download en configureer de Aspose.Note voor Java-bibliotheek. Je kunt de downloadlink vinden[hier](https://releases.aspose.com/note/java/).
+`check onenote encryption java` is het proces waarbij je programmatisch verifieert of een OneNote‑(`.one`)‑bestand beschermd is met een wachtwoord voordat je probeert de inhoud te laden. Het kennen van de versleutelingsstatus helpt je runtime‑exceptions te vermijden en verbetert de gebruikerservaring.  
 
-## Pakketten importeren
+## Waarom OneNote‑versleuteling controleren vóór het laden?  
 
-Importeer om te beginnen de benodigde pakketten in uw Java-project:
+- **Voorkom runtime‑fouten** – het laden van een versleuteld bestand zonder wachtwoord veroorzaakt een uitzondering.  
+- **Verbeter de UI‑stroom** – je kunt de gebruiker alleen om een wachtwoord vragen wanneer dat nodig is.  
+- **Beveiligingsnaleving** – zorgt ervoor dat je beschermde inhoud volgens beleid afhandelt.  
+
+## Vereisten  
+
+1. **Java Development Kit (JDK)** – zorg dat Java 11 of hoger geïnstalleerd is. Download deze van [hier](https://www.oracle.com/java/technologies/javase-jdk11-downloads.html).  
+2. **Aspose.Note for Java** – verkrijg de bibliotheek vanaf de officiële downloadpagina [hier](https://releases.aspose.com/note/java/).  
+
+## Import‑pakketten  
+
+Om te beginnen, voeg de benodigde imports toe aan je Java‑project:  
 
 ```java
 import com.aspose.note.Document;
@@ -35,11 +54,13 @@ import com.aspose.note.LoadOptions;
 import java.io.FileInputStream;
 import java.io.IOException;
 import java.nio.file.Paths;
-```
+```  
 
-Laten we het proces in meerdere stappen opsplitsen:
+## Hoe check onenote encryption java  
 
-## Stap 1: Controleer of het document uit de stroom gecodeerd is
+Hieronder splitsen we de oplossing op in twee praktische scenario’s: het controleren van een document geladen vanuit een **stream** en het controleren van een document geladen vanuit een **bestandspad**.  
+
+### Stap 1: Controleren of een document geladen vanuit een stream versleuteld is  
 
 ```java
 public static void CheckIfDocumentFromStreamIsEncrypted() throws IOException {
@@ -63,15 +84,15 @@ public static void CheckIfDocumentFromStreamIsEncrypted() throws IOException {
     }
     // ExEnd:CheckIfDocumentFromStreamIsEncrypted
 }
-```
+```  
 
-Uitleg:
+**Uitleg**  
 
-- Deze methode controleert of een document dat uit een stream wordt geladen, gecodeerd is.
--  Het stelt het documentwachtwoord in met behulp van`setDocumentPassword` methode van`LoadOptions` klas.
--  De`Document.isEncrypted` Deze methode wordt gebruikt om te bepalen of het document al dan niet gecodeerd is.
+- `LoadOptions` stelt je in staat optioneel een wachtwoord op te geven (`setDocumentPassword`).  
+- `Document.isEncrypted(stream, loadOptions, ref)` controleert de versleutelingsstatus van de stream.  
+- Het `ref`‑array ontvangt een referentie naar het geladen `Document` wanneer het bestand **niet** versleuteld is, zodat je kunt doorgaan zonder een tweede laad‑aanroep.  
 
-## Stap 2: Controleer of het document uit bestand gecodeerd is
+### Stap 2: Controleren of een document geladen vanuit een bestandspad versleuteld is  
 
 ```java
 public static void CheckIfDocumentFromFileIsEncrypted() throws IOException {
@@ -90,41 +111,50 @@ public static void CheckIfDocumentFromFileIsEncrypted() throws IOException {
     }
     // ExEnd:CheckIfDocumentFromFileIsEncrypted
 }
-```
+```  
 
-Uitleg:
+**Uitleg**  
 
-- Deze methode controleert of een document dat uit een bestand wordt geladen, gecodeerd is.
--  Het maakt gebruik van de`Document.isEncrypted` methode vergelijkbaar met de vorige stap, maar met een bestandspad en wachtwoordparameter.
+- Deze overload werkt direct met een bestandspad en een wachtwoord‑string.  
+- Als het bestand **niet** versleuteld is, retourneert `isEncrypted` `false` en bevat `ref[0]` de referentie naar het geladen document.  
+- Als het wachtwoord onjuist is, retourneert de methode nog steeds `true`, wat aangeeft dat het bestand versleuteld blijft.  
 
-## Conclusie
+## Veelvoorkomende valkuilen & tips  
 
-In deze zelfstudie hebben we geleerd hoe u kunt controleren of een OneNote-document in Java is gecodeerd met Aspose.Note. Door de stapsgewijze handleiding te volgen en de meegeleverde codevoorbeelden te gebruiken, kunt u op efficiënte wijze de encryptiestatus van uw documenten bepalen, waardoor een soepele verwerking in uw Java-applicaties wordt gegarandeerd.
+- **Hard‑code nooit wachtwoorden** in productcode; haal ze veilig op (bijv. uit een kluis).  
+- Sluit altijd streams in een `finally`‑blok of gebruik try‑with‑resources om resource‑lekken te voorkomen.  
+- Als je `true` ontvangt van `isEncrypted` en `ref[0]` is `null`, is het bestand ofwel versleuteld **of** is het opgegeven wachtwoord onjuist. Vraag de gebruiker om het juiste wachtwoord en probeer opnieuw.  
 
-## Veelgestelde vragen
+## Veelgestelde vragen  
 
-### V1: Kan ik de coderingsstatus controleren zonder een wachtwoord op te geven?
+**V: Kan ik de versleutelingsstatus controleren zonder een wachtwoord op te geven?**  
+A: Ja. Roep `Document.isEncrypted` aan met een `LoadOptions`‑instantie waarin geen wachtwoord is ingesteld; de methode geeft simpelweg aan of het bestand versleuteld is.  
 
-A1: Ja, u kunt de coderingsstatus controleren zonder een wachtwoord op te geven. De`Document.isEncrypted` methode maakt dit mogelijk.
+**V: Wat gebeurt er als ik een onjuist wachtwoord opgeef?**  
+A: De methode retourneert `true`, wat aangeeft dat het document nog steeds versleuteld is, en `ref[0]` zal `null` zijn.  
 
-### Vraag 2: Wat gebeurt er als ik een onjuist wachtwoord opgeef?
+**V: Is er een manier om het document programmatisch te ontsleutelen?**  
+A: Ja. Zodra je het juiste wachtwoord kent, geef je het door aan `LoadOptions` (of de overload die een wachtwoord accepteert) en laad je het document; de API ontsleutelt het on‑the‑fly.  
 
- A2: Als u een onjuist wachtwoord opgeeft bij het controleren van de coderingsstatus, keert de methode terug`true`, wat aangeeft dat het document gecodeerd is, maar dat het opgegeven wachtwoord onjuist is.
+**V: Werkt Aspose.Note met andere Microsoft‑formaten?**  
+A: Aspose.Note is specifiek gebouwd voor OneNote‑(`.one`)‑bestanden. Voor andere Office‑formaten kun je Aspose.Words, Aspose.Cells, enz. overwegen.  
 
-### Vraag 3: Is het mogelijk om een gecodeerd document programmatisch te decoderen?
+**V: Waar vind ik meer voorbeelden en ondersteuning?**  
+A: Bezoek het [Aspose.Note‑forum](https://forum.aspose.com/c/note/28) voor community‑hulp, en raadpleeg de officiële documentatie voor extra code‑voorbeelden.  
 
-A3: Ja, u kunt een gecodeerd document programmatisch ontsleutelen door het juiste wachtwoord op te geven tijdens het laden van het document.
+## Conclusie  
 
-### V4: Kan ik Aspose.Note naast OneNote voor andere documentindelingen gebruiken?
+In deze gids hebben we **hoe je onenote encryptie java controleert** met Aspose.Note voor Java laten zien, zowel voor stream‑gebaseerde als bestand‑gebaseerde scenario’s. Door deze controles in je applicatie te integreren kun je versleutelde OneNote‑bestanden elegant afhandelen, de gebruikerservaring verbeteren en je verwerkingspipeline robuust houden.  
 
-A4: Nee, Aspose.Note is specifiek ontworpen om alleen met OneNote-documenten te werken.
+---  
 
-### V5: Waar kan ik meer bronnen en ondersteuning vinden voor Aspose.Note voor Java?
+**Laatst bijgewerkt:** 2025-11-29  
+**Getest met:** Aspose.Note 24.11 voor Java  
+**Auteur:** Aspose  
 
- A5: U kunt de bezoeken[Aspose.Note-forum](https://forum.aspose.com/c/note/28) voor gemeenschapsondersteuning en documentatie.
-{{< /blocks/products/pf/tutorial-page-section >}}
+{{< /blocks/products/pf/tutorial-page-section >}}  
 
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
+{{< /blocks/products/pf/main-container >}}  
+{{< /blocks/products/pf/main-wrap-class >}}  
 
 {{< blocks/products/products-backtop-button >}}

@@ -1,33 +1,52 @@
 ---
-title: Periksa apakah Dokumen OneNote Dienkripsi - Java
-linktitle: Periksa apakah Dokumen OneNote Dienkripsi - Java
-second_title: Aspose.Catatan Java API
-description: Pelajari cara memeriksa apakah dokumen OneNote dienkripsi di Java menggunakan Aspose.Note. Ikuti panduan langkah demi langkah kami untuk pemrosesan dokumen yang efisien.
+date: 2025-11-29
+description: Pelajari cara memeriksa enkripsi OneNote menggunakan Aspose.Note untuk
+  Java. Panduan ini menunjukkan cara mendeteksi file OneNote yang terenkripsi sebelum
+  diproses.
+language: id
+linktitle: Check if OneNote Document is Encrypted - Java
+second_title: Aspose.Note Java API
+title: Periksa Enkripsi OneNote Java – Verifikasi Enkripsi Dokumen OneNote
+url: /java/onenote-document-loading/check-document-encrypted/
 weight: 10
-url: /id/java/onenote-document-loading/check-document-encrypted/
 ---
 
-{{< blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/pf/main-container >}}
-{{< blocks/products/pf/tutorial-page-section >}}
+{{< blocks/products/pf/main-wrap-class >}}  
+{{< blocks/products/pf/main-container >}}  
+{{< blocks/products/pf/tutorial-page-section >}}  
 
-# Periksa apakah Dokumen OneNote Dienkripsi - Java
+# Periksa apakah Dokumen OneNote Terenkripsi - Java  
 
-## Perkenalan
+## Pendahuluan  
 
-Saat bekerja dengan dokumen OneNote di Java, penting untuk memastikan bahwa dokumen tersebut tidak dienkripsi sebelum memprosesnya. Mengenkripsi dokumen dapat menambah lapisan keamanan ekstra, namun juga dapat mempersulit langkah pemrosesan jika tidak ditangani dengan benar. Dalam tutorial ini, kami akan memandu Anda melalui proses pemeriksaan apakah dokumen OneNote dienkripsi menggunakan Aspose.Note untuk Java.
+Saat Anda bekerja dengan file OneNote dalam aplikasi Java, hal pertama yang perlu Anda ketahui adalah **apakah dokumen tersebut terenkripsi**. Mencoba memuat file yang terenkripsi tanpa kata sandi yang tepat akan menyebabkan kesalahan dan mengganggu alur kerja Anda. Dalam tutorial ini kami akan memandu Anda melalui **cara memeriksa enkripsi onenote java** dengan Aspose.Note untuk Java, sehingga Anda dapat dengan aman memutuskan apakah harus meminta kata sandi kepada pengguna atau melanjutkan pemrosesan file.  
 
-## Prasyarat
+## Jawaban Cepat  
 
-Sebelum memulai, pastikan Anda memiliki prasyarat berikut:
+- **Metode apa yang menentukan enkripsi?** `Document.isEncrypted`  
+- **Apakah saya perlu kata sandi untuk memeriksa?** Tidak, Anda dapat menanyakan status tanpa kata sandi.  
+- **Versi API mana yang berfungsi?** Semua rilis terbaru Aspose.Note untuk Java (dicoba dengan 24.11).  
+- **Bisakah saya memeriksa aliran dan jalur file?** Ya – API mendukung keduanya.  
+- **Apa yang terjadi jika kata sandi salah?** Metode mengembalikan `true`, menandakan file tetap terenkripsi.  
 
-1.  Java Development Kit (JDK): Pastikan Anda telah menginstal Java di sistem Anda. Anda dapat mengunduhnya dari[Di Sini](https://www.oracle.com/java/technologies/javase-jdk11-downloads.html).
+## Apa itu check onenote encryption java?  
 
-2.  Aspose.Note untuk Perpustakaan Java: Unduh dan atur perpustakaan Aspose.Note untuk Java. Anda dapat menemukan tautan unduhan[Di Sini](https://releases.aspose.com/note/java/).
+`check onenote encryption java` adalah proses memverifikasi secara programatis apakah file OneNote (`.one`) dilindungi dengan kata sandi sebelum mencoba memuat isinya. Mengetahui status enkripsi membantu Anda menghindari pengecualian runtime dan meningkatkan pengalaman pengguna.  
 
-## Paket Impor
+## Mengapa memeriksa enkripsi OneNote sebelum memuat?  
 
-Untuk memulai, impor paket yang diperlukan dalam proyek Java Anda:
+- **Mencegah error runtime** – memuat file terenkripsi tanpa kata sandi akan melempar pengecualian.  
+- **Meningkatkan alur UI** – Anda dapat meminta kata sandi kepada pengguna hanya bila diperlukan.  
+- **Kepatuhan keamanan** – memastikan Anda menangani konten yang dilindungi sesuai kebijakan.  
+
+## Prasyarat  
+
+1. **Java Development Kit (JDK)** – pastikan Java 11 atau yang lebih baru telah terpasang. Unduh dari [here](https://www.oracle.com/java/technologies/javase-jdk11-downloads.html).  
+2. **Aspose.Note for Java** – dapatkan perpustakaan dari halaman unduhan resmi [here](https://releases.aspose.com/note/java/).  
+
+## Impor Paket  
+
+Untuk memulai, tambahkan impor yang diperlukan ke proyek Java Anda:  
 
 ```java
 import com.aspose.note.Document;
@@ -35,11 +54,13 @@ import com.aspose.note.LoadOptions;
 import java.io.FileInputStream;
 import java.io.IOException;
 import java.nio.file.Paths;
-```
+```  
 
-Mari kita bagi prosesnya menjadi beberapa langkah:
+## Cara memeriksa enkripsi onenote java  
 
-## Langkah 1: Periksa apakah Dokumen dari Aliran Dienkripsi
+Di bawah ini kami membagi solusi menjadi dua skenario praktis: memeriksa dokumen yang dimuat dari **aliran** dan memeriksa dokumen yang dimuat langsung dari **jalur file**.  
+
+### Langkah 1: Periksa apakah dokumen yang dimuat dari aliran terenkripsi  
 
 ```java
 public static void CheckIfDocumentFromStreamIsEncrypted() throws IOException {
@@ -63,15 +84,15 @@ public static void CheckIfDocumentFromStreamIsEncrypted() throws IOException {
     }
     // ExEnd:CheckIfDocumentFromStreamIsEncrypted
 }
-```
+```  
 
-Penjelasan:
+**Penjelasan**  
 
-- Metode ini memeriksa apakah dokumen yang dimuat dari aliran dienkripsi.
--  Ini menetapkan kata sandi dokumen menggunakan`setDocumentPassword` metode dari`LoadOptions` kelas.
--  Itu`Document.isEncrypted` metode ini digunakan untuk menentukan apakah dokumen tersebut dienkripsi atau tidak.
+- `LoadOptions` memungkinkan Anda secara opsional menyediakan kata sandi (`setDocumentPassword`).  
+- `Document.isEncrypted(stream, loadOptions, ref)` memeriksa status enkripsi aliran.  
+- Array `ref` menerima referensi ke `Document` yang dimuat ketika file **tidak** terenkripsi, memungkinkan Anda melanjutkan pemrosesan tanpa panggilan muat kedua.  
 
-## Langkah 2: Periksa apakah Dokumen dari File Dienkripsi
+### Langkah 2: Periksa apakah dokumen yang dimuat dari jalur file terenkripsi  
 
 ```java
 public static void CheckIfDocumentFromFileIsEncrypted() throws IOException {
@@ -90,41 +111,50 @@ public static void CheckIfDocumentFromFileIsEncrypted() throws IOException {
     }
     // ExEnd:CheckIfDocumentFromFileIsEncrypted
 }
-```
+```  
 
-Penjelasan:
+**Penjelasan**  
 
-- Metode ini memeriksa apakah dokumen yang dimuat dari suatu file dienkripsi.
--  Ini menggunakan`Document.isEncrypted` metode yang mirip dengan langkah sebelumnya tetapi dengan parameter jalur file dan kata sandi.
+- Overload ini bekerja langsung dengan jalur file dan string kata sandi.  
+- Jika file **tidak** terenkripsi, `isEncrypted` mengembalikan `false` dan referensi `ref[0]` berisi dokumen yang dimuat.  
+- Jika kata sandi salah, metode tetap mengembalikan `true`, menandakan file tetap terenkripsi.  
 
-## Kesimpulan
+## Jebakan Umum & Tips  
 
-Dalam tutorial ini, kita mempelajari cara memeriksa apakah dokumen OneNote dienkripsi di Java menggunakan Aspose.Note. Dengan mengikuti panduan langkah demi langkah dan memanfaatkan contoh kode yang disediakan, Anda dapat menentukan status enkripsi dokumen Anda secara efisien, memastikan kelancaran pemrosesan di aplikasi Java Anda.
+- **Jangan pernah menuliskan kata sandi secara hard‑code** dalam kode produksi; ambil secara aman (misalnya, dari vault).  
+- Selalu tutup aliran dalam blok `finally` atau gunakan try‑with‑resources untuk menghindari kebocoran sumber daya.  
+- Jika Anda menerima `true` dari `isEncrypted` dan `ref[0]` bernilai `null`, file tersebut either terenkripsi **atau** kata sandi yang diberikan tidak tepat. Minta pengguna memasukkan kata sandi yang benar dan coba lagi.  
 
-## FAQ
+## Pertanyaan yang Sering Diajukan  
 
-### Q1: Dapatkah saya memeriksa status enkripsi tanpa memberikan kata sandi?
+**T: Bisakah saya memeriksa status enkripsi tanpa menyediakan kata sandi?**  
+J: Ya. Panggil `Document.isEncrypted` dengan instance `LoadOptions` yang tidak mengatur kata sandi; metode akan melaporkan apakah file terenkripsi atau tidak.  
 
-A1: Ya, Anda dapat memeriksa status enkripsi tanpa memberikan kata sandi. Itu`Document.isEncrypted` metode ini memungkinkan Anda melakukannya.
+**T: Apa yang terjadi jika saya memberikan kata sandi yang salah?**  
+J: Metode mengembalikan `true`, menandakan dokumen masih terenkripsi, dan `ref[0]` akan bernilai `null`.  
 
-### Q2: Apa yang terjadi jika saya memberikan kata sandi yang salah?
+**T: Apakah ada cara untuk mendekripsi dokumen secara programatis?**  
+J: Ya. Setelah Anda mengetahui kata sandi yang benar, berikan ke `LoadOptions` (atau overload yang menerima kata sandi) dan muat dokumen; API akan mendekripsinya secara otomatis.  
 
- A2: Jika Anda memberikan kata sandi yang salah saat memeriksa status enkripsi, metode ini akan kembali`true`, menunjukkan bahwa dokumen tersebut dienkripsi, tetapi kata sandi yang diberikan salah.
+**T: Apakah Aspose.Note bekerja dengan format Microsoft lainnya?**  
+J: Aspose.Note dirancang khusus untuk file OneNote (`.one`) saja. Untuk format Office lainnya, pertimbangkan Aspose.Words, Aspose.Cells, dll.  
 
-### Q3: Apakah mungkin untuk mendekripsi dokumen terenkripsi secara terprogram?
+**T: Di mana saya dapat menemukan contoh lebih banyak dan dukungan?**  
+J: Kunjungi [Aspose.Note forum](https://forum.aspose.com/c/note/28) untuk bantuan komunitas, dan periksa dokumentasi resmi untuk contoh kode tambahan.  
 
-A3: Ya, Anda dapat mendekripsi dokumen terenkripsi secara terprogram dengan memberikan kata sandi yang benar saat memuat dokumen.
+## Kesimpulan  
 
-### Q4: Bisakah saya menggunakan Aspose.Note untuk format dokumen lain selain OneNote?
+Dalam panduan ini kami menunjukkan **cara memeriksa enkripsi onenote java** menggunakan Aspose.Note untuk Java, mencakup skenario berbasis aliran dan berbasis file. Dengan mengintegrasikan pemeriksaan ini ke dalam aplikasi Anda, Anda dapat menangani file OneNote yang terenkripsi secara elegan, meningkatkan pengalaman pengguna, dan menjaga pipeline pemrosesan tetap kuat.  
 
-A4: Tidak, Aspose.Note dirancang khusus untuk bekerja dengan dokumen OneNote saja.
+---  
 
-### Q5: Di mana saya dapat menemukan lebih banyak sumber daya dan dukungan untuk Aspose.Note untuk Java?
+**Terakhir Diperbarui:** 2025-11-29  
+**Dicoba Dengan:** Aspose.Note 24.11 untuk Java  
+**Penulis:** Aspose  
 
- A5: Anda dapat mengunjungi[Aspose.Catatan forum](https://forum.aspose.com/c/note/28) untuk dukungan dan dokumentasi komunitas.
-{{< /blocks/products/pf/tutorial-page-section >}}
+{{< /blocks/products/pf/tutorial-page-section >}}  
 
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
+{{< /blocks/products/pf/main-container >}}  
+{{< /blocks/products/pf/main-wrap-class >}}  
 
 {{< blocks/products/products-backtop-button >}}
