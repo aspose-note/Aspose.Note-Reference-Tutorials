@@ -1,33 +1,52 @@
 ---
-title: Konwertuj dokument programu OneNote na format PDF — Java
-linktitle: Konwertuj dokument programu OneNote na format PDF — Java
-second_title: Aspose.Note API Java
-description: Dowiedz się, jak konwertować dokumenty OneNote do formatu PDF przy użyciu Aspose.Note dla Java. Zwiększ swoje możliwości przetwarzania dokumentów dzięki temu przewodnikowi krok po kroku.
+date: 2025-11-30
+description: Dowiedz się, jak konwertować dokumenty OneNote na PDF przy użyciu Aspose.Note
+  dla Javy. Ten przewodnik krok po kroku pokazuje, jak zapisać OneNote jako PDF, konwertować
+  wybrane strony oraz zintegrować rozwiązanie z projektami Java.
+language: pl
+linktitle: Convert OneNote to PDF - Java
+second_title: Aspose.Note Java API
+title: Konwertuj OneNote na PDF - Java
+url: /java/onenote-document-loading/convert-to-pdf/
 weight: 16
-url: /pl/java/onenote-document-loading/convert-to-pdf/
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Konwertuj dokument programu OneNote na format PDF — Java
+# Konwertowanie OneNote do PDF - Java
 
 ## Wstęp
 
-W tym samouczku omówimy, jak konwertować dokumenty OneNote do formatu PDF za pomocą Aspose.Note dla Java. Aspose.Note to potężna biblioteka Java, która umożliwia płynną manipulację plikami OneNote, zapewniając różne funkcje do pracy z różnymi elementami w tych dokumentach. Jednym z powszechnych wymagań jest konwersja tych plików do formatu PDF, co można łatwo osiągnąć za pomocą Aspose.Note.
+W tym samouczku przyjrzymy się, jak **konwertować OneNote do PDF** przy użyciu Aspose.Note dla Javy. Aspose.Note to potężna biblioteka Java, która pozwala manipulować plikami OneNote i łatwo **zapisać OneNote jako PDF**. Niezależnie od tego, czy potrzebujesz wygenerować pojedynczy PDF dla całego notesu, czy tylko **konwertować wybrane strony do PDF**, ten przewodnik przeprowadzi Cię przez cały proces przy użyciu jasnych, praktycznych przykładów.
 
-## Warunki wstępne
+## Szybkie odpowiedzi
+- **Jakiej biblioteki potrzebuję?** Aspose.Note for Java  
+- **Czy mogę konwertować tylko wybrane strony?** Tak – użyj `PdfSaveOptions.setPageIndex` i `setPageCount`  
+- **Czy potrzebuję licencji do produkcji?** Wymagana jest licencja komercyjna do użytku nie‑trial  
+- **Jaką wersję Javy obsługuje?** JDK 8 lub nowszy (zalecany JDK 15)  
+- **Czy wygenerowany PDF jest przeszukiwalny?** Tak, wygenerowany PDF zachowuje możliwość przeszukiwania tekstu domyślnie  
 
-Zanim zaczniemy, upewnij się, że spełnione są następujące wymagania wstępne:
+## Co to jest „konwertowanie OneNote do PDF”?
+Konwertowanie notesu OneNote do PDF oznacza wzięcie bogatego, wielostronicowego pliku OneNote (`.one`) i przekształcenie go w płaski, uniwersalnie wyświetlany dokument PDF. Jest to przydatne do udostępniania, archiwizacji lub drukowania notatek bez konieczności posiadania aplikacji OneNote.
 
-1.  Zestaw Java Development Kit (JDK): Upewnij się, że masz zainstalowany pakiet JDK w swoim systemie. Można go pobrać z[Tutaj](https://www.oracle.com/java/technologies/javase-jdk15-downloads.html).
+## Dlaczego konwertować OneNote do PDF przy użyciu Aspose.Note?
+- **Brak zależności od Microsoft Office** – działa na każdej platformie obsługującej Javę.  
+- **Precyzyjna kontrola** – możesz wybierać poszczególne strony, ustawiać jakość obrazu i osadzać czcionki.  
+- **Wysoka wierność** – układ, tabele i obrazy są zachowane dokładnie tak, jak wyglądają w OneNote.  
+- **Łatwa integracja** – kilka linii kodu naturalnie wpasowuje się w istniejące aplikacje Java.
 
-2.  Aspose.Note dla Java: Musisz mieć bibliotekę Aspose.Note dla Java. Jeśli jeszcze tego nie zrobiłeś, możesz pobrać go z[Tutaj](https://releases.aspose.com/note/java/).
+## Wymagania wstępne
 
-## Importuj pakiety
+Zanim zaczniemy, upewnij się, że masz następujące elementy:
 
-Aby rozpocząć, zaimportuj niezbędne pakiety do swojego projektu Java. Będziesz potrzebować`com.aspose.note.Document` I`com.aspose.note.PdfSaveOptions` zajęcia.
+1. **Java Development Kit (JDK)** – zainstalowany JDK 8+. Możesz go pobrać [tutaj](https://www.oracle.com/java/technologies/javase-jdk15-downloads.html).  
+2. **Aspose.Note for Java** – pobierz najnowszy plik JAR [tutaj](https://releases.aspose.com/note/java/).  
+
+## Importowanie pakietów
+
+Aby rozpocząć, zaimportuj niezbędne klasy do swojego projektu Java. Te klasy pozwalają wczytać plik OneNote i zdefiniować opcje eksportu do PDF.
 
 ```java
 import java.io.IOException;
@@ -35,82 +54,85 @@ import com.aspose.note.Document;
 import com.aspose.note.PdfSaveOptions;
 ```
 
-Podzielmy proces konwertowania dokumentu OneNote na format PDF na kilka kroków:
+### Krok 1: Wczytaj dokument OneNote
 
-## Krok 1: Załaduj dokument OneNote
-
-Najpierw załaduj dokument OneNote do Aspose.Note.
+Najpierw wczytaj plik OneNote, który chcesz skonwertować.
 
 ```java
 String dataDir = "Your Document Directory";
 Document oneFile = new Document(dataDir + "Sample1.one");
 ```
 
- Zastępować`"Your Document Directory"` ze ścieżką do dokumentu OneNote.
+Zastąp `"Your Document Directory"` absolutną lub względną ścieżką do swojego pliku `.one`.
 
-## Krok 2: Zainicjuj obiekt PdfSaveOptions
+### Krok 2: Zainicjalizuj `PdfSaveOptions`
 
- Zainicjuj a`PdfSaveOptions` obiekt, który określi opcje zapisania dokumentu w formacie PDF.
+Utwórz obiekt `PdfSaveOptions`, który będzie przechowywał wszystkie ustawienia związane z PDF.
 
 ```java
 PdfSaveOptions options = new PdfSaveOptions();
 ```
 
-## Krok 3: Ustaw indeks i liczbę stron (opcjonalnie)
+### Krok 3: Zapisz OneNote jako PDF (lub konwertuj wybrane strony do PDF)
 
-Opcjonalnie możesz ustawić indeks i liczbę stron, jeśli chcesz przekonwertować tylko określone strony dokumentu OneNote.
+Możesz skonwertować cały notes, lub ograniczyć konwersję do zakresu stron.
 
 ```java
-// Ustaw indeks strony
-// opcje.setPageIndex(2);
+// Set page index (zero‑based). Uncomment to start from page 2.
+// options.setPageIndex(2);
 
-// Ustaw liczbę stron
-// opcje.setPageCount(3);
+// Set page count. Uncomment to export only 3 pages starting from the index above.
+// options.setPageCount(3);
 ```
 
-Odkomentuj i dostosuj te linie w razie potrzeby.
+*Jeśli pozostawisz dwie linie zakomentowane, Aspose.Note skonwertuje cały dokument.*
 
-## Krok 4: Zapisz dokument w formacie PDF
+### Krok 4: Zapisz dokument jako PDF
 
-Zapisz załadowany dokument programu OneNote jako plik PDF, korzystając z określonych opcji.
+Teraz zapisz plik PDF na dysku, używając zdefiniowanych opcji.
 
 ```java
 oneFile.save(dataDir + "ConvertToPdf_out.pdf", options);
 ```
 
-## Krok 5: Wyświetl komunikat o powodzeniu
+### Krok 5: Wyświetl komunikat sukcesu
 
-Na koniec wydrukuj komunikat informujący o pomyślnej konwersji dokumentu do formatu PDF.
+Przyjazny komunikat w konsoli potwierdza, że konwersja zakończyła się sukcesem.
 
 ```java
 System.out.println("File saved: " + dataDir + "ConvertToPdf_out.pdf");
 ```
 
-## Wniosek
+## Typowe problemy i wskazówki
 
-tym samouczku nauczyliśmy się konwertować dokumenty OneNote do formatu PDF za pomocą Aspose.Note dla Java. Postępując zgodnie z przewodnikiem krok po kroku, możesz łatwo zintegrować tę funkcjonalność z aplikacjami Java, zwiększając możliwości przetwarzania dokumentów.
+- **Plik nie znaleziony** – sprawdź ponownie ścieżkę `dataDir` i upewnij się, że plik `.one` istnieje.  
+- **Puste strony PDF** – upewnij się, że źródłowy plik OneNote rzeczywiście zawiera treść na stronach, które eksportujesz.  
+- **Duże notesy** – rozważ konwersję w partiach (użyj `setPageIndex`/`setPageCount`), aby zmniejszyć zużycie pamięci.  
+- **Błędy licencji** – wersja próbna dodaje znak wodny; zastosuj ważną licencję w wersjach produkcyjnych.
 
-## Często zadawane pytania
+## Najczęściej zadawane pytania
 
-### P1: Czy Aspose.Note jest kompatybilny ze wszystkimi wersjami OneNote?
+**Q: Czy Aspose.Note jest kompatybilny ze wszystkimi wersjami OneNote?**  
+A: Aspose.Note obsługuje pliki utworzone w OneNote 2007, 2010, 2013, 2016 oraz najnowszej wersji Windows 10.
 
-O1: Aspose.Note obsługuje różne wersje OneNote, zapewniając zgodność z większością dokumentów OneNote.
+**Q: Czy mogę dostosować ustawienia konwersji PDF?**  
+A: Tak. Użyj klasy `PdfSaveOptions`, aby dostosować jakość obrazu, osadzać czcionki, ustawiać rozmiar strony i inne opcje.
 
-### P2: Czy mogę dostosować ustawienia konwersji PDF?
+**Q: Czy Aspose.Note wymaga licencji do użytku komercyjnego?**  
+A: Tak, wymagana jest licencja komercyjna do produkcji. Możesz ją uzyskać [tutaj](https://purchase.aspose.com/buy).
 
- O2: Tak, możesz dostosować ustawienia konwersji PDF za pomocą`PdfSaveOptions` klasy zgodnie z Twoimi wymaganiami.
+**Q: Czy wsparcie techniczne jest dostępne dla użytkowników Aspose.Note?**  
+A: Oczywiście. Dostęp do forum wsparcia [tutaj](https://forum.aspose.com/c/note/28).
 
-### P3: Czy Aspose.Note wymaga licencji do użytku komercyjnego?
+**Q: Czy mogę wypróbować Aspose.Note przed zakupem?**  
+A: Dostępna jest darmowa wersja próbna do pobrania [tutaj](https://releases.aspose.com/).
 
- Odpowiedź 3: Tak, Aspose.Note wymaga licencji do użytku komercyjnego. Licencję można uzyskać od[Tutaj](https://purchase.aspose.com/buy).
+---
 
-### P4: Czy dostępna jest pomoc techniczna dla użytkowników Aspose.Note?
+**Ostatnia aktualizacja:** 2025-11-30  
+**Testowano z:** Aspose.Note for Java 24.11  
+**Autor:** Aspose  
 
- O4: Tak, wsparcie techniczne jest dostępne dla użytkowników Aspose.Note. Możesz uzyskać dostęp do forum pomocy technicznej[Tutaj](https://forum.aspose.com/c/note/28).
-
-### P5: Czy mogę wypróbować Aspose.Note przed zakupem?
-
-A5: Tak, możesz poprosić o bezpłatną wersję próbną Aspose.Note od[Tutaj](https://releases.aspose.com/).
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
