@@ -110,19 +110,6 @@ V: A GIF és a JPEG általában kisebb fájlokat eredményez, mint a PNG, de a v
 ## Összegzés
 A fenti lépéseket követve most már **tudja, hogyan kell OneNote‑t képpé konvertálni** az Aspose.Note for Java alapértelmezett beállításaival. Ez a lehetőség lehetővé teszi a OneNote tartalom integrálását webgalériákba, előnézeti képek generálását vagy oldalak archiválását statikus képekként—mindezt Microsoft Office telepítése nélkül.
 
----
-
-**Utoljára frissítve:** 2025-11-30  
-**Tesztelt verzió:** Aspose.Note for Java 24.12  
-**Szerző:** Aspose  
-
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}
-
 ## GYIK
 
 ### Q1: Kezelni tudja az Aspose.Note for Java a komplex OneNote dokumentumokat?
@@ -144,3 +131,16 @@ A4: Ideiglenes licencet a [temporary license page](https://purchase.aspose.com/t
 ### Q5: Van közösségi fórum, ahol támogatást kaphatok az Aspose.Note for Java‑hoz?
 
 A5: Igen, csatlakozhat a közösségi fórumhoz a [Aspose.Note for Java Support](https://forum.aspose.com/c/note/28) oldalon, ahol segítséget kérhet és más felhasználókkal léphet kapcsolatba.
+
+---
+
+**Utoljára frissítve:** 2025-11-30  
+**Tesztelt verzió:** Aspose.Note for Java 24.12  
+**Szerző:** Aspose  
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

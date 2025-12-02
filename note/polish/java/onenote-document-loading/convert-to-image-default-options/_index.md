@@ -110,19 +110,6 @@ O: GIF i JPEG zazwyczaj generują mniejsze pliki niż PNG, ale wybór zależy od
 ## Zakończenie
 Postępując zgodnie z tymi zwięzłymi krokami, teraz wiesz **jak konwertować OneNote na obraz** przy użyciu Aspose.Note dla Javy z ustawieniami domyślnymi. Dzięki temu możesz integrować zawartość OneNote z galeriami internetowymi, generować miniatury lub archiwizować strony jako obrazy statyczne — wszystko bez konieczności instalacji Microsoft Office.
 
----
-
-**Ostatnia aktualizacja:** 2025-11-30  
-**Testowano z:** Aspose.Note dla Javy 24.12  
-**Autor:** Aspose  
-
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}
-
 ## FAQ's
 
 ### Q1: Czy Aspose.Note dla Javy radzi sobie z złożonymi dokumentami OneNote?
@@ -144,3 +131,16 @@ A4: Tymczasową licencję możesz uzyskać na [stronie tymczasowej licencji](htt
 ### Q5: Czy istnieje forum społeczności, gdzie mogę uzyskać wsparcie dla Aspose.Note dla Javy?
 
 A5: Tak, możesz dołączyć do forum społeczności pod adresem [Aspose.Note dla Javy Support](https://forum.aspose.com/c/note/28), aby uzyskać pomoc i wymienić się doświadczeniami z innymi użytkownikami.
+
+---
+
+**Ostatnia aktualizacja:** 2025-11-30  
+**Testowano z:** Aspose.Note dla Javy 24.12  
+**Autor:** Aspose  
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

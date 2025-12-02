@@ -110,19 +110,6 @@ oneFile.save(dataDir + "ConvertToImageUsingDefaultOptions_out.gif", SaveFormat.G
 ## Συμπέρασμα
 Ακολουθώντας αυτά τα σύντομα βήματα, τώρα ξέρετε **πώς να μετατρέψετε OneNote σε εικόνα** χρησιμοποιώντας το Aspose.Note for Java με τις προεπιλεγμένες ρυθμίσεις. Αυτή η δυνατότητα σας επιτρέπει να ενσωματώσετε το περιεχόμενο OneNote σε γκαλερί ιστού, να δημιουργήσετε μικρογραφίες ή να αρχειοθετήσετε σελίδες ως στατικές εικόνες — όλα χωρίς την ανάγκη εγκατάστασης του Microsoft Office.
 
----
-
-**Τελευταία ενημέρωση:** 2025-11-30  
-**Δοκιμασμένο με:** Aspose.Note for Java 24.12  
-**Συγγραφέας:** Aspose  
-
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}
-
 ## Συχνές Ερωτήσεις
 
 ### Ε1: Μπορεί το Aspose.Note for Java να διαχειριστεί πολύπλοκα έγγραφα OneNote;
@@ -144,3 +131,16 @@ oneFile.save(dataDir + "ConvertToImageUsingDefaultOptions_out.gif", SaveFormat.G
 ### Ε5: Υπάρχει φόρουμ κοινότητας όπου μπορώ να ζητήσω υποστήριξη για το Aspose.Note for Java;
 
 Α5: Ναι, μπορείτε να συμμετάσχετε στο φόρουμ κοινότητας στο [Aspose.Note for Java Support](https://forum.aspose.com/c/note/28) για να ζητήσετε βοήθεια και να αλληλεπιδράσετε με άλλους χρήστες.
+
+---
+
+**Τελευταία ενημέρωση:** 2025-11-30  
+**Δοκιμασμένο με:** Aspose.Note for Java 24.12  
+**Συγγραφέας:** Aspose  
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

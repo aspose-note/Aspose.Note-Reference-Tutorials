@@ -111,19 +111,6 @@ A: GIF と JPEG は一般的に PNG よりサイズが小さくなりますが�
 ## 結論
 これらの簡潔な手順に従うことで、デフォルト設定を使用した Aspose.Note for Java による **OneNote を画像に変換する方法** を習得できました。この機能により、OneNote コンテンツをウェブギャラリーに統合したり、サムネイルを生成したり、ページを静的画像としてアーカイブしたりでき、Microsoft Office をインストールする必要がありません。
 
----
-
-**Last Updated:** 2025-11-30  
-**Tested With:** Aspose.Note for Java 24.12  
-**Author:** Aspose  
-
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}
-
 ## FAQ
 
 ### Q1: Aspose.Note for Java は複雑な OneNote ドキュメントを処理できますか？
@@ -145,3 +132,16 @@ A4: Aspose のウェブサイトにある [temporary license page](https://purch
 ### Q5: Aspose.Note for Java のサポートを求めるコミュニティフォーラムはありますか？
 
 A5: はい、[Aspose.Note for Java Support](https://forum.aspose.com/c/note/28) でコミュニティフォーラムに参加し、支援を受けたり他のユーザーと交流したりできます。
+
+---
+
+**Last Updated:** 2025-11-30  
+**Tested With:** Aspose.Note for Java 24.12  
+**Author:** Aspose  
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

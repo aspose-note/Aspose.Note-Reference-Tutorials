@@ -108,17 +108,6 @@ Aspose.Note 将每页渲染为位图，然后使用选定的图像编解码器�
 ## 结论
 通过遵循这些简明步骤，您现在了解了如何使用 Aspose.Note for Java 的默认设置 **将 OneNote 转换为图像**。此功能可让您将 OneNote 内容集成到网页画廊、生成缩略图或将页面归档为静态图像——无需安装 Microsoft Office。
 
-**最后更新：** 2025-11-30  
-**测试环境：** Aspose.Note for Java 24.12  
-**作者：** Aspose  
-
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}
-
 ## 常见问题
 
 ### Q1: Aspose.Note for Java 能处理复杂的 OneNote 文档吗？
@@ -140,3 +129,16 @@ A4: 您可以在 Aspose 网站的 [temporary license page](https://purchase.aspo
 ### Q5: 是否有社区论坛可以寻求 Aspose.Note for Java 的支持？
 
 A5: 是的，您可以加入 [Aspose.Note for Java Support](https://forum.aspose.com/c/note/28) 社区论坛，获取帮助并与其他用户交流。
+
+---
+
+**最后更新：** 2025-11-30  
+**测试环境：** Aspose.Note for Java 24.12  
+**作者：** Aspose  
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

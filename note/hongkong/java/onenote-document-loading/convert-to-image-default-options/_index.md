@@ -118,19 +118,6 @@ A: 通常 GIF 和 JPEG 的檔案較 PNG 小，但需依品質需求選擇——P
 
 透過上述簡潔步驟，您現在已掌握使用 Aspose.Note for Java 及預設設定 **將 OneNote 轉換為圖像** 的方法。此功能可讓您將 OneNote 內容整合至網站相簿、產生縮圖，或將頁面存檔為靜態圖像，且無需安裝 Microsoft Office。
 
----
-
-**最後更新：** 2025-11-30  
-**測試環境：** Aspose.Note for Java 24.12  
-**作者：** Aspose  
-
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}
-
 ## 常見問答
 
 ### Q1: Aspose.Note for Java 能處理複雜的 OneNote 文件嗎？
@@ -152,3 +139,16 @@ A4: 您可於 Aspose 官方網站的[臨時授權頁面](https://purchase.aspose
 ### Q5: 是否有社群論壇可供我尋求 Aspose.Note for Java 的支援？
 
 A5: 有。您可加入[Aspose.Note for Java Support](https://forum.aspose.com/c/note/28) 社群論壇，尋求協助並與其他使用者交流。
+
+---
+
+**最後更新：** 2025-11-30  
+**測試環境：** Aspose.Note for Java 24.12  
+**作者：** Aspose  
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

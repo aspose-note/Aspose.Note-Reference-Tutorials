@@ -110,19 +110,6 @@ R : GIF et JPEG produisent généralement des fichiers plus petits que PNG, ma
 ## Conclusion
 En suivant ces étapes concises, vous savez maintenant **comment convertir OneNote en image** en utilisant Aspose.Note for Java avec les paramètres par défaut. Cette capacité vous permet d’intégrer le contenu OneNote dans des galeries web, de générer des vignettes ou d’archiver des pages en images statiques — le tout sans avoir besoin de Microsoft Office installé.
 
----
-
-**Dernière mise à jour :** 2025-11-30  
-**Testé avec :** Aspose.Note for Java 24.12  
-**Auteur :** Aspose  
-
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}
-
 ## FAQ
 
 ### Q1 : Aspose.Note for Java peut‑il gérer des documents OneNote complexes ?
@@ -139,3 +126,17 @@ R4 : Vous pouvez obtenir une licence temporaire depuis la [page de licence tem
 
 ### Q5 : Existe‑t‑il un forum communautaire où je peux obtenir de l'aide pour Aspose.Note for Java ?
 R5 : Oui, vous pouvez rejoindre le forum communautaire à l'adresse [Aspose.Note for Java Support](https://forum.aspose.com/c/note/28) pour demander de l'aide et interagir avec d'autres utilisateurs.
+
+
+---
+
+**Dernière mise à jour :** 2025-11-30  
+**Testé avec :** Aspose.Note for Java 24.12  
+**Auteur :** Aspose  
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

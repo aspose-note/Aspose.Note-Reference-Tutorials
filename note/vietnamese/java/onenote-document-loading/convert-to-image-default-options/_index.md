@@ -110,19 +110,6 @@ Aspose.Note render mỗi trang thành một bitmap, sau đó mã hoá nó bằng
 ## Kết luận
 Bằng cách thực hiện các bước ngắn gọn trên, bạn đã biết **cách chuyển đổi OneNote sang hình ảnh** bằng Aspose.Note for Java với các cài đặt mặc định. Khả năng này cho phép bạn tích hợp nội dung OneNote vào các bộ sưu tập web, tạo ảnh thu nhỏ, hoặc lưu trữ các trang dưới dạng hình ảnh tĩnh — tất cả mà không cần cài đặt Microsoft Office.
 
----
-
-**Cập nhật lần cuối:** 2025-11-30  
-**Đã kiểm tra với:** Aspose.Note for Java 24.12  
-**Tác giả:** Aspose  
-
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}
-
 ## FAQ's
 
 ### Q1: Aspose.Note for Java có thể xử lý các tài liệu OneNote phức tạp không?
@@ -144,3 +131,16 @@ A4: Bạn có thể nhận giấy phép tạm thời từ [temporary license pag
 ### Q5: Có diễn đàn cộng đồng nào để tôi có thể nhận hỗ trợ cho Aspose.Note for Java không?
 
 A5: Có, bạn có thể tham gia diễn đàn cộng đồng tại [Aspose.Note for Java Support](https://forum.aspose.com/c/note/28) để nhận trợ giúp và giao lưu với các người dùng khác.
+
+---
+
+**Cập nhật lần cuối:** 2025-11-30  
+**Đã kiểm tra với:** Aspose.Note for Java 24.12  
+**Tác giả:** Aspose  
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

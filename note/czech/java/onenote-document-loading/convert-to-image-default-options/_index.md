@@ -111,19 +111,6 @@ A: GIF a JPEG obvykle vytvářejí menší soubory než PNG, ale výběr závis�
 ## Závěr
 Po provedení těchto stručných kroků nyní víte **jak převést OneNote na obrázek** pomocí Aspose.Note pro Java s výchozími nastaveními. Tato funkce vám umožní integrovat obsah OneNote do webových galerií, generovat náhledy nebo archivovat stránky jako statické obrázky — vše bez nutnosti instalace Microsoft Office.
 
----
-
-**Poslední aktualizace:** 2025-11-30  
-**Testováno s:** Aspose.Note for Java 24.12  
-**Autor:** Aspose  
-
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}
-
 ## Často kladené otázky
 
 ### Q1: Může Aspose.Note pro Java zpracovat složité dokumenty OneNote?
@@ -140,3 +127,16 @@ A4: Dočasnou licenci můžete získat na [stránce dočasné licence](https://p
 
 ### Q5: Existuje komunitní fórum, kde mohu získat podporu pro Aspose.Note pro Java?
 A5: Ano, můžete se připojit ke komunitnímu fóru na [Aspose.Note for Java Support](https://forum.aspose.com/c/note/28), kde můžete požádat o pomoc a komunikovat s ostatními uživateli.
+
+---
+
+**Poslední aktualizace:** 2025-11-30  
+**Testováno s:** Aspose.Note for Java 24.12  
+**Autor:** Aspose  
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}
