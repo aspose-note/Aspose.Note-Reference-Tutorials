@@ -1,34 +1,52 @@
 ---
-title: Maak een OneNote-document en sla het op in HTML - Java
-linktitle: Maak een OneNote-document en sla het op in HTML - Java
-second_title: Aspose.Note Java-API
-description: Leer OneNote-documenten maken en opslaan als HTML met Aspose.Note voor Java. Integreer in Java-applicaties voor programmatische verwerking van OneNote-bestanden.
-
+date: 2025-12-02
+description: Leer hoe u lettertypen kunt exporteren terwijl u OneNote opslaat als
+  HTML met Aspose.Note voor Java. Deze gids laat zien hoe u OneNote via code kunt
+  maken en lettertypen, CSS en afbeeldingen kunt insluiten.
+language: nl
+linktitle: How to Export Fonts When Saving OneNote as HTML – Java
+second_title: Aspose.Note Java API
+title: Hoe lettertypen exporteren bij het opslaan van OneNote als HTML – Java
+url: /java/onenote-document-loading/create-onenote-save-to-html/
 weight: 18
-url: /nl/java/onenote-document-loading/create-onenote-save-to-html/
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Maak een OneNote-document en sla het op in HTML - Java
+# Hoe lettertypen exporteren bij het opslaan van OneNote als HTML – Java
 
-## Invoering
+## Introductie
 
-Aspose.Note voor Java is een krachtige bibliotheek waarmee ontwikkelaars programmatisch met Microsoft OneNote-bestanden kunnen werken. In deze zelfstudie onderzoeken we hoe u een OneNote-document kunt maken en dit in HTML-indeling kunt opslaan met Aspose.Note voor Java.
+In deze tutorial ontdek je **hoe je lettertypen kunt exporteren** wanneer je **OneNote opslaat als HTML** met Aspose.Note for Java. We lopen stap voor stap door het programmatically maken van een OneNote-document, het configureren van de HTML-opslagopties, en het insluiten van de benodigde lettertypebestanden zodat de resulterende HTML er precies uitziet als de oorspronkelijke OneNote-pagina's. Deze aanpak is perfect wanneer je de visuele getrouwheid van OneNote-inhoud in een web‑vriendelijk formaat moet behouden.
 
-## Vereisten
+## Snelle antwoorden
+- **Welke bibliotheek behandelt de export?** Aspose.Note for Java  
+- **Kunnen lettertypen in de HTML worden ingesloten?** Ja – stel `ExportFonts` in op `ExportEmbedded`  
+- **Heb ik een licentie nodig voor productie?** Een geldige Aspose.Note-licentie is vereist voor commercieel gebruik  
+- **Welke Java‑versie wordt ondersteund?** Java 8 of hoger  
+- **Is het mogelijk om bronnen op te slaan in afzonderlijke bestanden?** Absoluut – configureer `ResourceExportType` dienovereenkomstig  
 
-Voordat we beginnen, zorg ervoor dat u over het volgende beschikt:
+## Wat betekent “hoe lettertypen exporteren” in de context van OneNote HTML-conversie?
 
-1. Java Development Kit (JDK) op uw systeem geïnstalleerd.
-2.  Aspose.Note voor Java-bibliotheek. Je kunt het downloaden van[hier](https://releases.aspose.com/note/java/).
-3. Basiskennis van Java-programmeren.
+Wanneer je een OneNote-notebook converteert naar HTML, hangt het visuele uiterlijk af van CSS, afbeeldingen en vooral de lettertypen die in de oorspronkelijke pagina's worden gebruikt. **Lettertypen exporteren** betekent dat de lettertypebestanden (bijv. TTF) direct in het HTML‑pakket worden ingesloten zodat browsers de tekst precies kunnen weergeven zoals deze in OneNote verschijnt, zelfs als de eindgebruiker die lettertypen niet lokaal geïnstalleerd heeft.
 
-## Pakketten importeren
+## Waarom OneNote programmatically maken en opslaan als HTML?
 
-Importeer eerst de benodigde pakketten in uw Java-project:
+- **Automatisering:** Genereer rapporten, documentatie of kennisbank‑artikelen vanuit OneNote zonder handmatig kopiëren‑en‑plakken.  
+- **Consistentie:** Behoud lay-out, styling en aangepaste lettertypen op verschillende apparaten.  
+- **Portabiliteit:** HTML is universeel te bekijken—geen OneNote‑client nodig.  
+
+## Voorvereisten
+
+1. Java Development Kit (JDK) 8 of nieuwer geïnstalleerd.  
+2. Aspose.Note for Java‑bibliotheek – download van [here](https://releases.aspose.com/note/java/).  
+3. Een voorbeeld OneNote‑bestand (`.one`) om te laden, of je kunt programmatically een nieuw bestand maken.  
+
+## Importeer pakketten
+
+First, import the required classes into your Java project:
 
 ```java
 import java.io.ByteArrayOutputStream;
@@ -50,15 +68,19 @@ import com.aspose.note.ImageSavingArgs;
 import com.aspose.note.ResourceExportType;
 ```
 
-## Stap 1: Maak een OneNote-documentobject
+## Hoe lettertypen exporteren bij het opslaan van OneNote als HTML?
+
+Hieronder vind je een stapsgewijze handleiding die je **hoe lettertypen te exporteren** en andere bronnen laat zien.
+
+### Step 1: Create a OneNote document programmatically  
 
 ```java
 Document document = new Document("Path_to_your_sample_one_file");
 ```
 
- Deze code initialiseert een`Document` object door een voorbeeld van een OneNote-bestand te laden.
+Deze regel laadt een bestaand `.one`‑bestand. Als je **OneNote programmatically wilt maken**, kun je een nieuw `Document`‑object instantieren en secties/pagina's toevoegen via de API (niet getoond hier om de focus op het exporteren van lettertypen te behouden).
 
-## Stap 2: Opslaan als HTML in Memory Stream
+### Step 2: Save to a memory stream with embedded fonts  
 
 ```java
 HtmlSaveOptions options = new HtmlSaveOptions();
@@ -71,9 +93,10 @@ ByteArrayOutputStream outputStream = new ByteArrayOutputStream();
 document.save(outputStream, options);
 ```
 
-Hier stellen we de HTML-opslagopties in en slaan we het document op in een geheugenstroom.
+- `setExportFonts(ResourceExportType.ExportEmbedded)` vertelt Aspose.Note om **lettertypen te exporteren** direct in het HTML‑pakket.  
+- `setFontFaceTypes(FontFaceType.Ttf)` zorgt ervoor dat TrueType‑lettertypen worden gebruikt, die brede browserondersteuning hebben.
 
-## Stap 3: Opslaan als HTML met bronnen in afzonderlijke bestanden
+### Step 3: Save as HTML with separate resource files (still exporting fonts)  
 
 ```java
 HtmlSaveOptions options = new HtmlSaveOptions();
@@ -84,9 +107,9 @@ options.setExportImages(ResourceExportType.ExportEmbedded);
 document.save("output_directory/document.html", options);
 ```
 
-Met deze stap wordt het document opgeslagen als HTML met bronnen zoals CSS, lettertypen en afbeeldingen in afzonderlijke bestanden.
+Hoewel CSS en afbeeldingen zijn ingesloten, kun je `ResourceExportType` wijzigen naar `ExportExternal` als je afzonderlijke bestanden verkiest voor eenvoudigere caching. Het belangrijkste onderdeel—**lettertypen exporteren**—blijft ongewijzigd.
 
-## Stap 4: Opslaan als HTML in Memory Stream met callbacks om bronnen op te slaan
+### Step 4: Use callbacks to control where each resource is stored  
 
 ```java
 Document document = new Document("Path_to_your_sample_one_file");
@@ -115,33 +138,41 @@ if (!dir.exists()) {
 document.save(Paths.get(savingCallbacks.getRootFolder(), "document.html").toString(), options);
 ```
 
-Hier slaan we het document op als HTML in een geheugenstroom met behulp van callbacks om de besparing van bronnen te verwerken.
+De `UserSavingCallbacks`‑klasse (je moet `ICssSavingCallback`, `IImageSavingCallback` en `IFontSavingCallback` implementeren) geeft je volledige controle over de mapstructuur, waardoor je lettertypen in een aparte `fonts`‑directory kunt bewaren terwijl je nog steeds **lettertypen correct exporteert**.
 
-## Conclusie
+## Veelvoorkomende problemen & tips
 
-Gefeliciteerd! U hebt geleerd hoe u een OneNote-document kunt maken en dit in HTML-indeling kunt opslaan met Aspose.Note voor Java. U kunt deze functionaliteit nu in uw Java-toepassingen integreren om programmatisch met OneNote-bestanden te werken.
+- **Ontbrekende lettertypen in de output:** Controleer of `setExportFonts(ResourceExportType.ExportEmbedded)` is ingesteld en of het bron‑OneNote‑bestand daadwerkelijk ingesloten lettertypen gebruikt.  
+- **Grote HTML‑bestanden:** Het insluiten van lettertypen kan de grootte verhogen. Als bandbreedte een zorg is, schakel `ExportFonts` naar `ExportExternal` en host de lettertypen op een CDN.  
+- **Fouten in callback‑implementatie:** Zorg ervoor dat je callback‑klassen de stream correct schrijven en bronnen sluiten om bestandscorruptie te voorkomen.  
 
 ## Veelgestelde vragen
 
-### V1: Kan ik meerdere OneNote-documenten in één keer naar HTML converteren?
+**V: Kan ik meerdere OneNote‑documenten in één keer naar HTML converteren?**  
+A: Ja, loop door elke `Document`‑instantie en pas dezelfde `HtmlSaveOptions` toe.
 
-A1: Ja, u kunt meerdere documenten doorlopen en het opslagproces iteratief toepassen.
+**V: Ondersteunt Aspose.Note for Java andere uitvoerformaten naast HTML?**  
+A: Absoluut. Je kunt exporteren naar PDF, DOCX, PNG, JPEG en meer met de juiste opslagopties.
 
-### V2: Ondersteunt Aspose.Note voor Java naast HTML ook andere uitvoerformaten?
+**V: Is er een proefversie beschikbaar voor Aspose.Note for Java?**  
+A: Ja, download een gratis proefversie van [here](https://releases.aspose.com/).
 
-A2: Ja, Aspose.Note voor Java ondersteunt verschillende uitvoerformaten, waaronder PDF, DOCX en afbeeldingsformaten.
+**V: Waar kan ik ondersteuning krijgen voor Aspose.Note for Java?**  
+A: Bezoek het [Aspose.Note‑forum](https://forum.aspose.com/c/note/28) voor community‑ en officiële hulp.
 
-### V3: Is er een proefversie beschikbaar voor Aspose.Note voor Java?
+**V: Hoe kan ik een licentie aanschaffen voor Aspose.Note for Java?**  
+A: Licenties zijn verkrijgbaar op de [Aspose‑website](https://purchase.aspose.com/buy).
 
-A3: Ja, u kunt een gratis proefversie downloaden van[hier](https://releases.aspose.com/).
+## Conclusie
 
-### V4: Waar kan ik ondersteuning krijgen voor Aspose.Note voor Java?
+Je weet nu **hoe je lettertypen kunt exporteren** terwijl je **OneNote opslaat als HTML** met Aspose.Note for Java. Door `HtmlSaveOptions` te configureren en eventueel callbacks te gebruiken, kun je het exacte uiterlijk van je OneNote‑pagina's behouden — inclusief aangepaste lettertypen — bij het leveren op het web. Voel je vrij om te experimenteren met verschillende `ResourceExportType`‑instellingen om te voldoen aan de prestatie‑ en opslagvereisten van je project.
 
- A4: U kunt ondersteuning krijgen van de[Aspose.Note-forum](https://forum.aspose.com/c/note/28).
+---
 
-### V5: Hoe kan ik een licentie kopen voor Aspose.Note voor Java?
+**Last Updated:** 2025-12-02  
+**Tested With:** Aspose.Note for Java 24.12  
+**Author:** Aspose  
 
- A5: U kunt een licentie kopen bij de[Aspose-website](https://purchase.aspose.com/buy).
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

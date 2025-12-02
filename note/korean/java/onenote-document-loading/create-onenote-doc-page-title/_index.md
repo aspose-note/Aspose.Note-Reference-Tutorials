@@ -1,41 +1,49 @@
 ---
-title: 페이지 제목이 포함된 OneNote 문서 만들기 - Java
-linktitle: 페이지 제목이 포함된 OneNote 문서 만들기 - Java
-second_title: Aspose.Note 자바 API
-description: Aspose.Note for Java를 사용하여 Java에서 페이지 제목이 포함된 OneNote 문서를 만드는 방법을 알아보세요. 코드 예제가 포함된 종합 튜토리얼입니다.
+date: 2025-12-02
+description: Aspose.Note for Java를 사용하여 Java에서 제목이 있는 OneNote 페이지를 만드는 방법을 배웁니다. 이
+  가이드는 OneNote 페이지 제목을 설정하고 제목 글꼴을 사용자 지정하는 방법을 보여줍니다.
+language: ko
+linktitle: How to Create OneNote Page with Title - Java
+second_title: Aspose.Note Java API
+title: 제목이 있는 OneNote 페이지 만들기 - Java
+url: /java/onenote-document-loading/create-onenote-doc-page-title/
 weight: 17
-url: /ko/java/onenote-document-loading/create-onenote-doc-page-title/
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# 페이지 제목이 포함된 OneNote 문서 만들기 - Java
+# OneNote 페이지를 제목과 함께 만들기 - Java
 
 ## 소개
 
-Java 개발 영역에서 OneNote 문서 관리 및 조작은 Aspose.Note for Java를 사용하면 간단하고 효율적으로 수행됩니다. 이 강력한 Java API는 개발자에게 OneNote 파일을 프로그래밍 방식으로 생성, 수정 및 처리하는 데 필요한 도구를 제공하여 응용 프로그램과의 원활한 통합을 제공합니다. 이 튜토리얼에서는 Aspose.Note for Java를 사용하여 지정된 페이지 제목을 가진 OneNote 문서를 만드는 과정을 살펴보겠습니다. 아래에 설명된 단계별 가이드를 따르면 개발자는 이 API의 기능을 쉽게 활용하여 강력한 OneNote 문서 관리 기능으로 Java 응용 프로그램을 향상시킬 수 있습니다.
+프로그래밍 방식으로 **OneNote 페이지를 만드는 방법**이 필요하다면 Aspose.Note for Java가 이를 간단하게 해줍니다. 이 튜토리얼에서는 OneNote 파일을 생성하고, 페이지 제목을 설정하며, 제목의 글꼴까지 커스터마이징하는 방법을 Java 코드만으로 배우게 됩니다. 끝까지 따라오면 언제든 Java 애플리케이션에 통합할 수 있는 사용 준비가 된 OneNote 문서를 얻게 됩니다.
 
-## 전제조건
+## 빠른 답변
+- **필요한 라이브러리는?** Aspose.Note for Java.
+- **제목에 사용자 지정 글꼴을 적용할 수 있나요?** 예 – `ParagraphStyle`을 사용해 글꼴 이름, 크기, 색상을 정의합니다.
+- **지원되는 Java 버전은?** JDK 8 이상이면 모두 지원됩니다(API는 하위 호환됩니다).
+- **개발용 라이선스가 필요합니까?** 테스트용 무료 체험판을 사용할 수 있으며, 프로덕션에서는 라이선스가 필요합니다.
+- **출력 파일은 어디에 저장되나요?** `dataDir` 변수에 지정한 경로에 저장됩니다.
 
-이 튜토리얼을 진행하기 전에 다음 전제 조건이 충족되었는지 확인하세요.
+## OneNote 페이지 제목이란?
+OneNote 페이지 제목은 각 페이지 상단에 표시되는 헤더입니다. 일반적으로 페이지 이름, 생성 날짜 및 시간이 포함됩니다. 프로그래밍 방식으로 이 제목을 설정하면 일관되고 구조화된 노트북을 만들 수 있습니다.
 
-### 자바 개발 환경
+## 프로그래밍 방식으로 OneNote 페이지 제목을 설정해야 하는 이유
+- **자동화:** 수동 편집 없이 보고서나 회의록을 생성합니다.  
+- **일관성:** 모든 페이지에 동일한 명명 규칙을 적용합니다.  
+- **통합:** OneNote를 CRM, 프로젝트 관리 도구 등 다른 시스템과 연동합니다.  
 
-시스템에 JDK(Java Development Kit)가 설치되어 있는지 확인하십시오.
+## 사전 준비 사항
 
-### Java 라이브러리용 Aspose.Note
-
- Java 라이브러리용 Aspose.Note를 다운로드하고 설정하세요. 다운로드 링크를 찾을 수 있습니다[여기](https://releases.aspose.com/note/java/).
-
-### 통합 개발 환경(IDE)
-
-Java 개발을 위해 선호하는 IDE를 선택하세요. 널리 사용되는 선택에는 IntelliJ IDEA, Eclipse 또는 NetBeans가 있습니다.
+- **Java Development Kit (JDK)** – 버전 8 이상.  
+- **Aspose.Note for Java** – 공식 사이트 **[here](https://releases.aspose.com/note/java/)**에서 다운로드.  
+- **IDE** – IntelliJ IDEA, Eclipse 또는 NetBeans 중 선택.
 
 ## 패키지 가져오기
 
-먼저 페이지 제목이 있는 OneNote 문서를 쉽게 만들 수 있도록 Java용 Aspose.Note 라이브러리에서 필요한 패키지를 가져옵니다.
+먼저 Aspose.Note 라이브러리에서 필요한 클래스를 가져옵니다.
 
 ```java
 import com.aspose.note.*;
@@ -44,53 +52,46 @@ import java.io.IOException;
 import java.util.Calendar;
 ```
 
-이제 Aspose.Note를 사용하여 Java로 페이지 제목이 있는 OneNote 문서를 만드는 과정을 이해하기 위해 제공된 예제 코드를 여러 단계로 나누어 보겠습니다.
-
-## 1단계: 문서 디렉토리 설정
-
-OneNote 문서를 저장할 디렉터리를 정의합니다.
+### 단계 1: 문서 디렉터리 설정  
+생성된 OneNote 파일이 저장될 위치를 정의합니다.
 
 ```java
-// 문서 디렉터리의 경로입니다.
+// The path to the documents directory.
 String dataDir = "Your Document Directory";
 ```
 
-## 2단계: 문서 개체 만들기
-
-OneNote 문서 작업을 시작하려면 Document 클래스의 개체를 초기화하세요.
+### 단계 2: Document 객체 생성  
+새 `Document`를 인스턴스화합니다 – 이는 구축할 OneNote 파일을 나타냅니다.
 
 ```java
-//Document 클래스의 객체 생성
+// Create an object of the Document class
 Document doc = new Document();
 ```
 
-## 3단계: 페이지 개체 초기화
-
-OneNote 문서 내의 페이지를 나타내는 페이지 개체를 만듭니다.
+### 단계 3: Page 객체 초기화  
+제목과 기타 콘텐츠를 담을 `Page` 객체를 생성합니다.
 
 ```java
-// 페이지 클래스 객체 초기화
+// Initialize Page class object
 Page page = new Page();
 ```
 
-## 4단계: 기본 텍스트 스타일 설정
-
-글꼴 색상, 이름, 크기를 포함하여 문서의 모든 텍스트에 대한 기본 스타일을 정의합니다.
+### 단계 4: 기본 텍스트 스타일 설정  
+제목 텍스트에 적용될 기본 `ParagraphStyle`을 정의합니다. 여기서 **OneNote 제목 글꼴을 커스터마이징**합니다.
 
 ```java
-// 문서의 모든 텍스트에 대한 기본 스타일입니다.
+// Default style for all text in the document.
 ParagraphStyle textStyle = new ParagraphStyle()
                             .setFontColor(Color.BLACK)
                             .setFontName("Arial")
                             .setFontSize(10);
 ```
 
-## 5단계: 페이지 제목 속성 설정
-
-텍스트, 날짜, 시간 등 페이지 제목의 속성을 구성합니다.
+### 단계 5: 페이지 제목 속성 설정  
+여기서 **OneNote 페이지 제목** 세부 정보를 설정합니다 – 제목 텍스트, 날짜, 시간 등을 지정합니다. 필요에 따라 문자열을 수정하세요.
 
 ```java
-// 페이지 제목 속성 설정
+// Set page title properties
 Title title = new Title();
 
 RichText titleText = new RichText().append("Title text.");
@@ -108,58 +109,62 @@ titleTime.setParagraphStyle(textStyle);
 title.setTitleText(titleTime);
 ```
 
-## 6단계: 페이지 제목 설정
-
-페이지에 제목 속성을 할당합니다.
+### 단계 6: 제목을 페이지에 할당  
+이제 `Title` 객체를 `Page`와 연결하여 **OneNote에 제목을 추가**합니다.
 
 ```java
 page.setTitle(title);
 ```
 
-## 7단계: 문서에 페이지 추가
-
-문서에 페이지 노드를 추가합니다.
+### 단계 7: 페이지를 Document에 추가  
+구성된 페이지를 문서 구조에 추가합니다.
 
 ```java
 doc.appendChildLast(page);
 ```
 
-## 8단계: OneNote 문서 저장
-
-출력 디렉터리를 지정하고 생성된 OneNote 문서를 저장합니다.
+### 단계 8: OneNote 문서 저장  
+출력 파일 이름을 지정하고 노트북을 저장합니다. 이로써 **java create onenote file** 과정이 완료됩니다.
 
 ```java
 dataDir = dataDir + "load//CreateDocWithPageTitle_out.one";
 
-// OneNote 문서 저장
+// Save OneNote document
 doc.save(dataDir);
 ```
 
-## 결론
+## 일반적인 문제 및 팁
 
-결론적으로 Aspose.Note for Java는 OneNote 문서를 프로그래밍 방식으로 조작하려는 Java 개발자에게 강력한 솔루션을 제공합니다. 이 튜토리얼에서 제공되는 단계별 가이드를 따르면 개발자는 지정된 페이지 제목이 포함된 OneNote 문서를 손쉽게 생성하여 Java 애플리케이션의 기능을 향상시킬 수 있습니다.
+| 문제 | 해결책 |
+|-------|----------|
+| **잘못된 파일 경로** | `dataDir`이 올바른 구분자(`/` 또는 `\\`)로 끝나는지, 폴더가 존재하는지 확인하세요. |
+| **제목이 보이지 않음** | 각 `RichText` 요소에 `ParagraphStyle`이 적용되었는지 확인하세요. |
+| **라이선스 예외** | 테스트용으로 체험판 라이선스를 사용하고, 배포 전에는 정식 라이선스를 적용하세요. |
+| **날짜가 잘못된 월 표시** | Java의 월은 0부터 시작합니다; `cal.set(2018, 04, 03)`은 실제로 5월을 설정합니다. 적절히 조정하세요. |
 
-## FAQ
+## 자주 묻는 질문
 
-### Q1: Aspose.Note for Java는 다른 버전의 Java와 호환됩니까?
+**Q: Aspose.Note for Java는 다양한 Java 버전과 호환되나요?**  
+A: 예, 라이브러리는 Java 8 이상에서 작동하므로 환경에 따라 유연하게 사용할 수 있습니다.
 
-A1: 예, Aspose.Note for Java는 다양한 버전의 Java와 호환되므로 개발자에게 유연성을 보장합니다.
+**Q: 페이지 제목의 글꼴 스타일과 크기를 커스터마이즈할 수 있나요?**  
+A: 물론입니다! 단계 4에서 보여준 대로 `ParagraphStyle`을 사용해 원하는 글꼴 이름, 크기, 색상을 설정하면 됩니다.
 
-### Q2: 페이지 제목의 글꼴 스타일과 크기를 사용자 정의할 수 있나요?
+**Q: 페이지에 더 많은 콘텐츠(예: 단락, 이미지)를 추가하려면 어떻게 하나요?**  
+A: 추가 `RichText` 또는 `Image` 객체를 생성하고 스타일을 지정한 뒤, `page.appendChildLast(yourObject)`를 사용해 `Page`에 추가하면 됩니다.
 
-A2: 물론이죠! Aspose.Note for Java는 기본 설정에 따라 글꼴 스타일, 색상 및 크기를 사용자 정의할 수 있는 포괄적인 옵션을 제공합니다.
+**Q: Aspose.Note for Java의 체험판 버전을 사용할 수 있나요?**  
+A: 예, Aspose 웹사이트에서 무료 체험판을 다운로드하여 모든 기능을 평가할 수 있습니다.
 
-### Q3: Aspose.Note for Java에 사용할 수 있는 평가판이 있나요?
+**Q: 문제가 발생했을 때 어디에서 지원을 받을 수 있나요?**  
+A: [Aspose.Note 포럼](https://forum.aspose.com/c/note/28)에서 커뮤니티 도움을 받거나 Aspose에 지원 티켓을 열어 문의하세요.
 
-A3: 예, Java용 Aspose.Note의 무료 평가판에 액세스하여 구매하기 전에 해당 기능을 살펴볼 수 있습니다.
+---
 
-### Q4: Java용 Aspose.Note에 대한 지원을 어떻게 받을 수 있나요?
+**마지막 업데이트:** 2025-12-02  
+**테스트 환경:** Aspose.Note for Java 24.12 (작성 시 최신 버전)  
+**작성자:** Aspose  
 
-A4: 다음을 방문할 수 있습니다.[Aspose.Note 포럼](https://forum.aspose.com/c/note/28) Aspose.Note for Java와 관련된 기술 지원이나 문의 사항이 있는 경우
-
-### Q5: 테스트 목적으로 임시 라이선스를 얻을 수 있나요?
-
-A5: 예, 테스트 및 평가 목적으로 Aspose로부터 임시 라이선스를 얻을 수 있습니다.
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

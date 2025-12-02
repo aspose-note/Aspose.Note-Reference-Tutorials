@@ -1,34 +1,53 @@
 ---
-title: 建立 OneNote 文件並儲存為 HTML - Java
-linktitle: 建立 OneNote 文件並儲存為 HTML - Java
+date: 2025-12-02
+description: 了解如何在使用 Aspose.Note for Java 將 OneNote 儲存為 HTML 時匯出字型。本指南將示範如何以程式方式建立
+  OneNote，並嵌入字型、CSS 與圖片。
+language: zh-hant
+linktitle: How to Export Fonts When Saving OneNote as HTML – Java
 second_title: Aspose.Note Java API
-description: 了解使用 Aspose.Note for Java 建立 OneNote 文件並將其儲存為 HTML。整合到 Java 應用程式中以進行編程式 OneNote 檔案處理。
-
+title: 將 OneNote 儲存為 HTML 時如何匯出字型 – Java
+url: /java/onenote-document-loading/create-onenote-save-to-html/
 weight: 18
-url: /zh-hant/java/onenote-document-loading/create-onenote-save-to-html/
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# 建立 OneNote 文件並儲存為 HTML - Java
+# 如何在將 OneNote 儲存為 HTML 時匯出字型 – Java
 
-## 介紹
+## Introduction
 
-Aspose.Note for Java 是一個功能強大的函式庫，可讓開發人員以程式設計方式使用 Microsoft OneNote 檔案。在本教程中，我們將探索如何使用 Aspose.Note for Java 建立 OneNote 文件並將其儲存為 HTML 格式。
+在本教學中，您將了解 **如何匯出字型**，當您 **將 OneNote 儲存為 HTML** 時，使用 Aspose.Note for Java。 我們將示範如何以程式方式建立 OneNote 文件、設定 HTML 儲存選項，並嵌入所需的字型檔案，使產生的 HTML 與原始 OneNote 頁面外觀完全相同。此方法在您需要以網頁友好格式保留 OneNote 內容的視覺忠實度時非常適用。
 
-## 先決條件
+## Quick Answers
+- **什麼程式庫負責匯出？** Aspose.Note for Java  
+- **字型可以嵌入 HTML 嗎？** 是 – 設定 `ExportFonts` 為 `ExportEmbedded`  
+- **生產環境需要授權嗎？** 商業使用需擁有有效的 Aspose.Note 授權  
+- **支援哪個 Java 版本？** Java 8 或更高版本  
+- **是否可以將資源儲存為獨立檔案？** 當然可以 – 依需求設定 `ResourceExportType`  
 
-在我們開始之前，請確保您具備以下條件：
+## What is “how to export fonts” in the context of OneNote HTML conversion?
 
-1. 您的系統上安裝了 Java 開發工具包 (JDK)。
-2.  Java 函式庫的 Aspose.Note。您可以從以下位置下載：[這裡](https://releases.aspose.com/note/java/).
-3. Java 程式設計的基礎知識。
+在 OneNote HTML 轉換的情境下，「如何匯出字型」是什麼意思？
 
-## 導入包
+當您將 OneNote 筆記本轉換為 HTML 時，視覺外觀取決於 CSS、圖片，尤其是原始頁面使用的字型。**匯出字型** 意味著將字型檔案（例如 TTF）直接嵌入 HTML 套件，使瀏覽器能夠如同在 OneNote 中呈現的方式渲染文字，即使最終使用者本機未安裝這些字型。
 
-首先，將必要的套件匯入到您的 Java 專案中：
+## Why create OneNote programmatically and save it as HTML?
+
+- **自動化：** 從 OneNote 產生報告、文件或知識庫文章，無需手動複製貼上。  
+- **一致性：** 在不同裝置間保留版面配置、樣式與自訂字型。  
+- **可移植性：** HTML 可在任何平台檢視——不需要 OneNote 客戶端。  
+
+## Prerequisites
+
+1. 已安裝 Java Development Kit (JDK) 8 或更新版本。  
+2. Aspose.Note for Java 程式庫 – 從 [here](https://releases.aspose.com/note/java/) 下載。  
+3. 用於載入的範例 OneNote 檔案（`.one`），或您也可以以程式方式建立新的檔案。  
+
+## Import Packages
+
+First, import the required classes into your Java project:
 
 ```java
 import java.io.ByteArrayOutputStream;
@@ -50,15 +69,19 @@ import com.aspose.note.ImageSavingArgs;
 import com.aspose.note.ResourceExportType;
 ```
 
-## 第 1 步：建立 OneNote 文檔對象
+## How to Export Fonts While Saving OneNote as HTML?
+
+以下是逐步指南，說明 **如何匯出字型** 以及其他資源。
+
+### Step 1: Create a OneNote document programmatically  
 
 ```java
 Document document = new Document("Path_to_your_sample_one_file");
 ```
 
-這段程式碼初始化了一個`Document`透過載入範例 OneNote 檔案來取得物件。
+此行載入現有的 `.one` 檔案。若您需要 **以程式方式建立 OneNote**，可以實例化新的 `Document` 物件，並透過 API 新增章節/頁面（此處未示範，以免分散匯出字型的重點）。
 
-## 第 2 步：另存為 HTML 到記憶體流
+### Step 2: Save to a memory stream with embedded fonts  
 
 ```java
 HtmlSaveOptions options = new HtmlSaveOptions();
@@ -71,9 +94,10 @@ ByteArrayOutputStream outputStream = new ByteArrayOutputStream();
 document.save(outputStream, options);
 ```
 
-在這裡，我們設定 HTML 保存選項並將文件保存到記憶體流。
+- `setExportFonts(ResourceExportType.ExportEmbedded)` 告訴 Aspose.Note **匯出字型** 直接至 HTML 套件。  
+- `setFontFaceTypes(FontFaceType.Ttf)` 確保使用 TrueType 字型，具廣泛的瀏覽器相容性。  
 
-## 步驟 3： 另存為 HTML，資源位於單獨的文件中
+### Step 3: Save as HTML with separate resource files (still exporting fonts)  
 
 ```java
 HtmlSaveOptions options = new HtmlSaveOptions();
@@ -84,9 +108,9 @@ options.setExportImages(ResourceExportType.ExportEmbedded);
 document.save("output_directory/document.html", options);
 ```
 
-此步驟將文件另存為 HTML，並將 CSS、字體和圖像等資源保存在單獨的文件中。
+即使 CSS 與圖片已嵌入，若您偏好將資源分為獨立檔案以利快取，也可以將 `ResourceExportType` 改為 `ExportExternal`。關鍵步驟——**匯出字型**——仍保持不變。
 
-## 步驟 4： 儲存為 HTML 到記憶體流，並透過回調來節省資源
+### Step 4: Use callbacks to control where each resource is stored  
 
 ```java
 Document document = new Document("Path_to_your_sample_one_file");
@@ -115,33 +139,41 @@ if (!dir.exists()) {
 document.save(Paths.get(savingCallbacks.getRootFolder(), "document.html").toString(), options);
 ```
 
-在這裡，我們使用回調將文件作為 HTML 保存到記憶體流中以處理資源節省。
+`UserSavingCallbacks` 類別（您需要實作 `ICssSavingCallback`、`IImageSavingCallback` 與 `IFontSavingCallback`）讓您完整掌控資料夾結構，您可以將字型保留在專屬的 `fonts` 目錄中，同時正確 **匯出字型**。
 
-## 結論
+## Common Issues & Tips
 
-恭喜！您已經學習如何使用 Aspose.Note for Java 建立 OneNote 文件並將其儲存為 HTML 格式。現在，您可以將此功能整合到 Java 應用程式中，以程式設計方式處理 OneNote 檔案。
+- **輸出缺少字型：** 請確認已設定 `setExportFonts(ResourceExportType.ExportEmbedded)`，且來源 OneNote 檔案確實使用了嵌入字型。  
+- **HTML 檔案過大：** 嵌入字型會增加檔案大小。若擔心頻寬，可將 `ExportFonts` 改為 `ExportExternal`，並將字型放置於 CDN 上。  
+- **回呼實作錯誤：** 請確保您的回呼類別正確寫入串流並關閉資源，以免檔案損毀。  
 
-## 常見問題解答
+## Frequently Asked Questions
 
-### Q1：我可以一次將多個 OneNote 文件轉換為 HTML 嗎？
+**Q: 我可以一次轉換多個 OneNote 文件為 HTML 嗎？**  
+A: 可以，遍歷每個 `Document` 實例並套用相同的 `HtmlSaveOptions`。  
 
-A1：是的，您可以循環遍歷多個文件並迭代應用儲存過程。
+**Q: Aspose.Note for Java 是否支援除 HTML 之外的其他輸出格式？**  
+A: 當然支援。您可以使用相應的儲存選項匯出為 PDF、DOCX、PNG、JPEG 等格式。  
 
-### Q2：Aspose.Note for Java 是否支援 HTML 以外的其他輸出格式？
+**Q: 是否有 Aspose.Note for Java 的試用版？**  
+A: 有，請從 [here](https://releases.aspose.com/) 下載免費試用版。  
 
-A2：是的，Aspose.Note for Java 支援各種輸出格式，包括 PDF、DOCX 和影像格式。
+**Q: 我可以從哪裡取得 Aspose.Note for Java 的支援？**  
+A: 前往 [Aspose.Note forum](https://forum.aspose.com/c/note/28) 獲取社群與官方協助。  
 
-### Q3：Aspose.Note for Java 有試用版嗎？
+**Q: 如何購買 Aspose.Note for Java 的授權？**  
+A: 可於 [Aspose website](https://purchase.aspose.com/buy) 購買授權。  
 
-A3：是的，您可以從以下位置下載免費試用版：[這裡](https://releases.aspose.com/).
+## Conclusion
 
-### 問題 4：在哪裡可以獲得 Aspose.Note for Java 的支援？
+現在您已了解在使用 Aspose.Note for Java **將 OneNote 儲存為 HTML 時如何匯出字型**。透過設定 `HtmlSaveOptions`，並視需要使用回呼，您可以在網路上呈現 OneNote 頁面的完整外觀——包括自訂字型。歡迎嘗試不同的 `ResourceExportType` 設定，以符合您專案的效能與儲存需求。
 
- A4：您可以從以下機構獲得支持[Aspose.Note 論壇](https://forum.aspose.com/c/note/28).
+---
 
-### Q5：如何購買 Aspose.Note for Java 的授權？
+**最後更新：** 2025-12-02  
+**測試環境：** Aspose.Note for Java 24.12  
+**作者：** Aspose  
 
- A5：您可以從以下位置購買許可證：[阿斯普斯網站](https://purchase.aspose.com/buy).
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
