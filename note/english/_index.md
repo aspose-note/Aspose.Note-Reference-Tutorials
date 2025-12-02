@@ -98,13 +98,6 @@ These are links to some useful resources:
 - [OneNote Text Manipulation](./java/onenote-text-manipulation/)
 - [Task and Outlook Integration](./java/task-and-outlook-integration/)
 
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}
-
 ## Frequently Asked Questions
 
 **Q: Can I import password‑protected PDFs?**  
@@ -128,4 +121,9 @@ A: Process the PDF in chunks (e.g., one page at a time) and dispose of intermedi
 **Tested With:** Aspose.Note 24.11 for .NET & Java  
 **Author:** Aspose  
 
----
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

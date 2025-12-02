@@ -142,13 +142,6 @@ Learn how to load **OneNote 2007** documents in Java using Aspose.Note for seaml
 ### [Load Password‑Protected OneNote Document - Java](./load-password-protected-onenote/)
 Learn how to load password‑protected OneNote documents using Java with Aspose.Note for Java.
 
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}
-
 ## Frequently Asked Questions
 
 **Q: How do I set a password when creating a new OneNote file?**  
@@ -172,4 +165,9 @@ A: Save the document with `SaveFormat.HTML` and set `HtmlSaveOptions.embedResour
 **Tested With:** Aspose.Note for Java 24.11  
 **Author:** Aspose  
 
----
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

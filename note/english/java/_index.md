@@ -117,17 +117,15 @@ Explore Aspose.Note Java tutorials on OneNote text manipulation. Explore efficie
 ### [Task and Outlook Integration](./task-and-outlook-integration/)
 Unlock the potential of Aspose.Note Java with our tutorials on integrating Outlook tasks into OneNote. Elevate your document processing skills with our tutorials.
 
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}
-
 ---
 
 **Last Updated:** 2025-11-28  
 **Tested With:** Aspose.Note for Java latest release  
 **Author:** Aspose  
 
----
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}
