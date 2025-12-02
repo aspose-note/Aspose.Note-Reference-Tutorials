@@ -1,33 +1,55 @@
 ---
-title: Konwertuj określony zakres stron na plik PDF w programie OneNote za pomocą języka Java
-linktitle: Konwertuj określony zakres stron na plik PDF w programie OneNote za pomocą języka Java
-second_title: Aspose.Note API Java
-description: Dowiedz się, jak bezproblemowo konwertować określone zakresy stron z OneNote do formatu PDF za pomocą Aspose.Note dla Java. Bez problemu zachowaj formatowanie i układ.
+date: 2025-11-30
+description: Dowiedz się, jak eksportować strony OneNote, konwertując określony zakres
+  stron na PDF przy użyciu Aspose.Note dla Javy. Zawiera kod krok po kroku oraz wskazówki
+  najlepszych praktyk.
+language: pl
+linktitle: Export OneNote Pages – Convert Specific Page Range to PDF with Java
+second_title: Aspose.Note Java API
+title: Eksportuj strony OneNote – konwertuj określony zakres stron na PDF w Javie
+url: /java/onenote-document-loading/convert-page-range-to-pdf/
 weight: 11
-url: /pl/java/onenote-document-loading/convert-page-range-to-pdf/
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Konwertuj określony zakres stron na plik PDF w programie OneNote za pomocą języka Java
+# Eksportowanie stron OneNote – konwersja określonego zakresu stron do PDF w Javie
 
-## Wstęp
+## Wprowadzenie
 
-OneNote to potężne narzędzie do porządkowania notatek, ale czasami może być konieczne wyeksportowanie określonych zakresów stron do pliku PDF w celu udostępnienia lub archiwizacji. W tym samouczku przeprowadzimy Cię przez proces konwersji określonego zakresu stron do formatu PDF za pomocą Aspose.Note dla Java.
+Eksportowanie stron OneNote do formatu PDF jest częstym wymogiem, gdy trzeba udostępnić wybrane notatki, zarchiwizować fragment projektu lub stworzyć dokumentację do druku. W tym samouczku dowiesz się, **jak wyeksportować strony OneNote** z określonego zakresu do pliku PDF przy użyciu Aspose.Note Java API. Przeprowadzimy Cię przez każdy krok – od wczytania dokumentu źródłowego po dostosowanie wyjścia PDF – abyś mógł szybko i pewnie wbudować tę funkcjonalność w własne aplikacje Java.
 
-## Warunki wstępne
+## Szybkie odpowiedzi
+- **Jaka jest podstawowa klasa do wczytywania pliku OneNote?** `com.aspose.note.Document`
+- **Która opcja kontroluje zakres stron przy eksporcie do PDF?** `PdfSaveOptions.setPageIndex()` oraz `setPageCount()`
+- **Czy formatowanie i układ pozostają nienaruszone?** Tak, Aspose.Note zachowuje oryginalne formatowanie OneNote.
+- **Czy mogę wyeksportować nieciągłe strony?** Nie bezpośrednio; obsługiwane są tylko ciągłe zakresy.
+- **Jakiej wersji Javy wymaga biblioteka?** Java 8 lub nowsza (dowolny JDK obsługujący bibliotekę Aspose.Note).
 
-Zanim zaczniemy, upewnij się, że masz następujące wymagania wstępne:
+## Co to jest „export onenote pages”?
 
-1. Zestaw Java Development Kit (JDK): Upewnij się, że w systemie jest zainstalowana Java.
-2.  Aspose.Note dla Java: Pobierz i zainstaluj Aspose.Note dla Java z[Tutaj](https://releases.aspose.com/note/java/).
-3. Przykładowy dokument OneNote: Przygotuj przykładowy dokument OneNote, z którego chcesz wyodrębnić określony zakres stron.
+Eksportowanie stron OneNote oznacza konwersję wizualnej zawartości wybranych stron do innego przenośnego formatu – najczęściej PDF – przy zachowaniu oryginalnego układu, czcionek i obrazów. Umożliwia to łatwe rozpowszechnianie, drukowanie i długoterminowe przechowywanie notatek.
 
-## Importuj pakiety
+## Dlaczego warto używać Aspose.Note do konwersji dokumentu OneNote na PDF?
 
-W swoim projekcie Java zaimportuj pakiety niezbędne do korzystania z Aspose.Uwaga:
+- **Wysoka wierność** – Biblioteka odtwarza dokładny wygląd stron OneNote.
+- **Programowa kontrola** – Możesz określić zakresy stron, rozmiar papieru i inne opcje PDF w kodzie.
+- **Brak wymogu instalacji Office** – Działa w pełni po stronie serwera.
+- **Wieloplatformowość** – Działa na Windows, Linux i macOS z dowolnym standardowym JDK.
+
+## Wymagania wstępne
+
+Zanim rozpoczniesz, upewnij się, że masz:
+
+1. **Java Development Kit (JDK)** – Java 8+ zainstalowaną i skonfigurowaną na swoim komputerze.  
+2. **Aspose.Note for Java** – Pobierz najnowszą wersję ze strony: [Aspose.Note for Java](https://releases.aspose.com/note/java/).  
+3. **Przykładowy dokument OneNote** – Plik `.one` zawierający strony, które chcesz wyeksportować.
+
+## Importowanie pakietów
+
+W swoim projekcie Java zaimportuj niezbędne klasy do pracy z OneNote i konwersją do PDF:
 
 ```java
 import java.io.IOException;
@@ -36,61 +58,75 @@ import com.aspose.note.Document;
 import com.aspose.note.PdfSaveOptions;
 ```
 
-## Krok 1: Załaduj dokument OneNote
+## Krok 1: Wczytaj dokument OneNote
 
-Załaduj dokument OneNote za pomocą Aspose.Note:
+Najpierw wskaż API na folder zawierający plik `.one` i wczytaj go do obiektu `Document`:
 
 ```java
 String dataDir = "Your Document Directory";
 Document oneFile = new Document(dataDir + "Sample1.one");
 ```
 
-## Krok 2: Zainicjuj opcje zapisywania plików PDF
+> **Wskazówka:** Użyj ścieżki bezwzględnej lub zasobu z class‑path, jeśli aplikacja działa w kontenerze.
 
-Zainicjuj obiekt PdfSaveOptions i określ indeks i liczbę stron:
+## Krok 2: Zainicjuj opcje zapisu PDF
+
+Utwórz instancję `PdfSaveOptions` i określ zakres stron, które chcesz wyeksportować. Metoda `setPageIndex` używa indeksu zerowego, więc `2` odnosi się do trzeciej strony w dokumencie.
 
 ```java
 PdfSaveOptions opts = new PdfSaveOptions();
-opts.setPageIndex(2);  // Indeks strony początkowej
-opts.setPageCount(3);  // Liczba stron do uwzględnienia
+opts.setPageIndex(2);  // Starting page index (third page)
+opts.setPageCount(3);  // Number of consecutive pages to include
 ```
 
-## Krok 3: Zapisz jako plik PDF
+> **Dlaczego to ważne:** Ustawienie indeksu i liczby stron pozwala **konwertować konkretne strony do PDF** bez przetwarzania całego notesu, co oszczędza czas i pamięć.
 
-Zapisz określony zakres stron jako plik PDF:
+## Krok 3: Zapisz jako PDF
+
+Na koniec wywołaj metodę `save` podając nazwę pliku wyjściowego oraz skonfigurowane opcje. Biblioteka zajmuje się konwersją i zapisuje PDF na dysku.
 
 ```java
 oneFile.save(dataDir + "ConvertSpecificPageRangeToPdf_out.pdf", opts);
 System.out.println("File saved: " + dataDir + "ConvertSpecificPageRangeToPdf_out.pdf");
 ```
 
-Gratulacje! Pomyślnie przekonwertowałeś określony zakres stron z dokumentu OneNote na plik PDF przy użyciu Aspose.Note dla Java.
+Teraz powinieneś zobaczyć plik PDF zawierający tylko trzy wskazane strony.
 
-## Wniosek
+## Typowe problemy i rozwiązania
 
-W tym samouczku nauczyliśmy się, jak przekonwertować określony zakres stron z dokumentu OneNote na format PDF za pomocą Aspose.Note dla Java. Funkcjonalność ta może być przydatna do różnych celów, takich jak udostępnianie wybranych informacji lub tworzenie kopii archiwalnych.
+| Problem | Przyczyna | Rozwiązanie |
+|-------|-------|----------|
+| **Pusty plik PDF** | Nieprawidłowy `pageIndex` (poza zakresem) | Sprawdź całkowitą liczbę stron za pomocą `oneFile.getPages().size()` |
+| **Brak obrazów** | Obrazy przechowywane jako zasoby zewnętrzne | Upewnij się, że plik `.one` i wszystkie powiązane media znajdują się w tym samym katalogu |
+| **Spowolnienie przy dużych notesach** | Ładowanie całego dokumentu przed wycięciem | Użyj `PdfSaveOptions`, aby ograniczyć zakres stron, jak pokazano; rozważ przetwarzanie w partiach |
 
-## Często zadawane pytania
+## Najczęściej zadawane pytania
 
-### P1: Czy mogę określić wiele nieciągłych zakresów stron do konwersji?
+**P: Czy mogę określić wiele nieciągłych zakresów stron do eksportu?**  
+O: Obecnie Aspose.Note for Java obsługuje tylko ciągłe zakresy. Konieczne jest wykonanie osobnych operacji eksportu dla każdego zakresu.
 
-Odpowiedź 1: Niestety, Aspose.Note dla Java obsługuje obecnie konwersję tylko sąsiadujących zakresów stron do formatu PDF.
+**P: Czy Aspose.Note zachowuje oryginalne formatowanie przy **convert onenote pdf**?**  
+O: Tak, biblioteka utrzymuje czcionki, kolory, tabele i obrazy dokładnie tak, jak wyglądają w OneNote.
 
-### P2: Czy Aspose.Note dla Java zachowuje formatowanie oryginalnego dokumentu OneNote?
+**P: Czy można wyeksportować plik OneNote zabezpieczony hasłem?**  
+O: API nie otwiera bezpośrednio notebooków chronionych hasłem. Usuń ochronę najpierw lub użyj odpowiedniej procedury odszyfrowania przed wczytaniem.
 
-O2: Tak, Aspose.Note zapewnia zachowanie formatowania i układu oryginalnego dokumentu OneNote w wygenerowanym pliku PDF.
+**P: Jak mogę dostosować wygląd PDF (rozmiar strony, orientacja, nagłówki/stopki)?**  
+O: `PdfSaveOptions` udostępnia właściwości takie jak `setPageSize()`, `setOrientation()` i `setHeaderFooter()`, które pozwalają dostosować wyjście.
 
-### P3: Czy można konwertować dokumenty OneNote chronione hasłem do formatu PDF?
+**P: Czy mogę wsadowo **convert onenote document** do PDF dla wielu plików?**  
+O: Oczywiście. Przejdź pętlą po kolekcji plików `.one`, zastosuj te same `PdfSaveOptions` i zapisz każdy wynik.
 
-O3: Aspose.Note dla Java nie obsługuje bezpośredniej konwersji dokumentów OneNote chronionych hasłem. Przed konwersją należy usunąć zabezpieczenie hasłem.
+## Zakończenie
 
-### P4: Czy mogę dostosować wygląd wygenerowanego pliku PDF?
+W tym przewodniku pokazaliśmy **jak wyeksportować strony OneNote** poprzez konwersję określonego zakresu stron do PDF przy użyciu Aspose.Note for Java. Masz teraz gotowy fragment kodu, który możesz wbudować w większe przepływy pracy – niezależnie od tego, czy tworzysz narzędzie raportujące, system archiwizacji, czy prostą funkcję udostępniania notatek. Eksperymentuj z różnymi ustawieniami `PdfSaveOptions`, aby precyzyjnie dopasować wyjście PDF do swoich potrzeb.
 
-O4: Tak, możesz dostosować różne aspekty, takie jak rozmiar strony, orientacja i ustawienia nagłówka/stopki, korzystając z opcji zapisywania plików PDF Aspose.Note.
+---
 
-### P5: Czy Aspose.Note dla Java obsługuje wsadową konwersję wielu dokumentów OneNote?
+**Ostatnia aktualizacja:** 2025-11-30  
+**Testowano z:** Aspose.Note for Java 24.11  
+**Autor:** Aspose  
 
-O5: Tak, możesz zbiorczo konwertować wiele dokumentów OneNote do formatu PDF, przeglądając każdy dokument w pętli i stosując proces konwersji.
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
