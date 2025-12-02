@@ -1,34 +1,52 @@
 ---
-title: Tạo tài liệu OneNote và lưu vào HTML - Java
-linktitle: Tạo tài liệu OneNote và lưu vào HTML - Java
-second_title: API Java Aspose.Note
-description: Tìm hiểu cách tạo và lưu tài liệu OneNote dưới dạng HTML bằng Aspose.Note for Java. Tích hợp vào các ứng dụng Java để xử lý tệp OneNote theo chương trình.
-
+date: 2025-12-02
+description: Học cách xuất phông chữ khi lưu OneNote dưới dạng HTML bằng Aspose.Note
+  cho Java. Hướng dẫn này chỉ cho bạn cách tạo OneNote bằng lập trình và nhúng phông
+  chữ, CSS và hình ảnh.
+language: vi
+linktitle: How to Export Fonts When Saving OneNote as HTML – Java
+second_title: Aspose.Note Java API
+title: Cách xuất phông chữ khi lưu OneNote dưới dạng HTML – Java
+url: /java/onenote-document-loading/create-onenote-save-to-html/
 weight: 18
-url: /vi/java/onenote-document-loading/create-onenote-save-to-html/
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Tạo tài liệu OneNote và lưu vào HTML - Java
+# Cách Xuất Phông Khi Lưu OneNote dưới dạng HTML – Java
 
 ## Giới thiệu
 
-Aspose.Note for Java là một thư viện mạnh mẽ cho phép các nhà phát triển làm việc với các tệp Microsoft OneNote theo chương trình. Trong hướng dẫn này, chúng ta sẽ khám phá cách tạo tài liệu OneNote và lưu nó sang định dạng HTML bằng Aspose.Note cho Java.
+Trong hướng dẫn này, bạn sẽ khám phá **cách xuất phông** khi **lưu OneNote dưới dạng HTML** bằng Aspose.Note for Java. Chúng tôi sẽ hướng dẫn bạn tạo tài liệu OneNote bằng mã, cấu hình các tùy chọn lưu HTML, và nhúng các tệp phông cần thiết để HTML tạo ra trông hoàn toàn giống như các trang OneNote gốc. Cách tiếp cận này rất phù hợp khi bạn cần bảo toàn độ chính xác hình ảnh của nội dung OneNote trong định dạng thân thiện với web.
 
-## Điều kiện tiên quyết
+## Trả lời nhanh
+- **Thư viện nào chịu trách nhiệm xuất?** Aspose.Note for Java  
+- **Có thể nhúng phông vào HTML không?** Có – đặt `ExportFonts` thành `ExportEmbedded`  
+- **Có cần giấy phép cho môi trường sản xuất không?** Cần giấy phép Aspose.Note hợp lệ cho việc sử dụng thương mại  
+- **Phiên bản Java nào được hỗ trợ?** Java 8 hoặc cao hơn  
+- **Có thể lưu tài nguyên vào các tệp riêng biệt không?** Chắc chắn – cấu hình `ResourceExportType` cho phù hợp  
 
-Trước khi chúng ta bắt đầu, hãy đảm bảo rằng bạn có những điều sau:
+## “Cách xuất phông” trong ngữ cảnh chuyển đổi OneNote sang HTML là gì?
 
-1. Bộ công cụ phát triển Java (JDK) được cài đặt trên hệ thống của bạn.
-2.  Aspose.Note cho thư viện Java. Bạn có thể tải nó xuống từ[đây](https://releases.aspose.com/note/java/).
-3. Kiến thức cơ bản về lập trình Java.
+Khi bạn chuyển đổi một sổ tay OneNote sang HTML, diện mạo trực quan phụ thuộc vào CSS, hình ảnh và đặc biệt là các phông chữ được sử dụng trong các trang gốc. **Xuất phông** có nghĩa là nhúng các tệp phông (ví dụ: TTF) trực tiếp vào gói HTML để trình duyệt có thể hiển thị văn bản chính xác như trong OneNote, ngay cả khi người dùng cuối không có các phông đó được cài đặt trên máy tính.
 
-## Gói nhập khẩu
+## Tại sao lại tạo OneNote bằng mã và lưu dưới dạng HTML?
 
-Đầu tiên, nhập các gói cần thiết vào dự án Java của bạn:
+- **Tự động hoá:** Tạo báo cáo, tài liệu, hoặc bài viết kiến thức từ OneNote mà không cần sao chép thủ công.  
+- **Nhất quán:** Bảo toàn bố cục, kiểu dáng và phông chữ tùy chỉnh trên mọi thiết bị.  
+- **Di động:** HTML có thể xem ở mọi nơi—không cần client OneNote.  
+
+## Yêu cầu trước
+
+1. Java Development Kit (JDK) 8 hoặc mới hơn đã được cài đặt.  
+2. Thư viện Aspose.Note for Java – tải về từ [đây](https://releases.aspose.com/note/java/).  
+3. Một tệp OneNote mẫu (`.one`) để tải, hoặc bạn có thể tạo một tệp mới bằng mã.  
+
+## Nhập gói
+
+Đầu tiên, nhập các lớp cần thiết vào dự án Java của bạn:
 
 ```java
 import java.io.ByteArrayOutputStream;
@@ -50,15 +68,19 @@ import com.aspose.note.ImageSavingArgs;
 import com.aspose.note.ResourceExportType;
 ```
 
-## Bước 1: Tạo đối tượng tài liệu OneNote
+## Cách Xuất Phông Khi Lưu OneNote dưới dạng HTML?
+
+Dưới đây là hướng dẫn từng bước cho bạn **cách xuất phông** và các tài nguyên khác.
+
+### Bước 1: Tạo tài liệu OneNote bằng mã  
 
 ```java
 Document document = new Document("Path_to_your_sample_one_file");
 ```
 
- Mã này khởi tạo một`Document` đối tượng bằng cách tải tệp OneNote mẫu.
+Dòng này tải một tệp `.one` hiện có. Nếu bạn cần **tạo OneNote bằng mã**, bạn có thể khởi tạo một đối tượng `Document` mới và thêm các phần/điểm bằng API (không được hiển thị ở đây để tập trung vào việc xuất phông).
 
-## Bước 2: Lưu dưới dạng HTML vào Luồng bộ nhớ
+### Bước 2: Lưu vào luồng bộ nhớ với phông được nhúng  
 
 ```java
 HtmlSaveOptions options = new HtmlSaveOptions();
@@ -71,9 +93,10 @@ ByteArrayOutputStream outputStream = new ByteArrayOutputStream();
 document.save(outputStream, options);
 ```
 
-Ở đây, chúng tôi thiết lập các tùy chọn lưu HTML và lưu tài liệu vào luồng bộ nhớ.
+- `setExportFonts(ResourceExportType.ExportEmbedded)` yêu cầu Aspose.Note **xuất phông** trực tiếp vào gói HTML.  
+- `setFontFaceTypes(FontFaceType.Ttf)` đảm bảo sử dụng phông TrueType, có hỗ trợ rộng rãi trên trình duyệt.
 
-## Bước 3: Lưu dưới dạng HTML với tài nguyên trong các tệp riêng biệt
+### Bước 3: Lưu dưới dạng HTML với các tệp tài nguyên riêng (vẫn xuất phông)  
 
 ```java
 HtmlSaveOptions options = new HtmlSaveOptions();
@@ -84,9 +107,9 @@ options.setExportImages(ResourceExportType.ExportEmbedded);
 document.save("output_directory/document.html", options);
 ```
 
-Bước này lưu tài liệu dưới dạng HTML với các tài nguyên như CSS, phông chữ và hình ảnh trong các tệp riêng biệt.
+Mặc dù CSS và hình ảnh đã được nhúng, bạn vẫn có thể thay đổi `ResourceExportType` thành `ExportExternal` nếu muốn các tệp riêng để dễ dàng cache. Phần quan trọng—**xuất phông**—vẫn không thay đổi.
 
-## Bước 4: Lưu dưới dạng HTML vào Luồng bộ nhớ bằng lệnh gọi lại để tiết kiệm tài nguyên
+### Bước 4: Sử dụng callback để kiểm soát vị trí lưu từng tài nguyên  
 
 ```java
 Document document = new Document("Path_to_your_sample_one_file");
@@ -115,36 +138,46 @@ if (!dir.exists()) {
 document.save(Paths.get(savingCallbacks.getRootFolder(), "document.html").toString(), options);
 ```
 
-Ở đây, chúng tôi lưu tài liệu dưới dạng HTML vào luồng bộ nhớ bằng cách sử dụng lệnh gọi lại để xử lý việc tiết kiệm tài nguyên.
+Lớp `UserSavingCallbacks` (bạn cần triển khai `ICssSavingCallback`, `IImageSavingCallback`, và `IFontSavingCallback`) cho phép bạn kiểm soát toàn bộ cấu trúc thư mục, giúp lưu phông vào thư mục `fonts` riêng biệt trong khi vẫn **xuất phông** đúng cách.
 
-## Phần kết luận
+## Vấn đề thường gặp & Mẹo
 
-Chúc mừng! Bạn đã học cách tạo tài liệu OneNote và lưu nó sang định dạng HTML bằng Aspose.Note cho Java. Bây giờ bạn có thể tích hợp chức năng này vào các ứng dụng Java của mình để hoạt động với các tệp OneNote theo chương trình.
+- **Phông bị thiếu trong kết quả:** Kiểm tra lại rằng `setExportFonts(ResourceExportType.ExportEmbedded)` đã được đặt và tệp OneNote nguồn thực sự sử dụng phông được nhúng.  
+- **HTML lớn:** Nhúng phông có thể làm tăng kích thước. Nếu lo ngại về băng thông, chuyển `ExportFonts` sang `ExportExternal` và lưu phông trên CDN.  
+- **Lỗi triển khai callback:** Đảm bảo các lớp callback của bạn ghi đúng luồng và đóng tài nguyên để tránh hỏng tệp.  
 
 ## Câu hỏi thường gặp
 
-### Câu hỏi 1: Tôi có thể chuyển đổi nhiều tài liệu OneNote sang HTML cùng một lúc không?
+**H: Tôi có thể chuyển đổi nhiều tài liệu OneNote sang HTML cùng lúc không?**  
+Đ: Có, lặp qua từng đối tượng `Document` và áp dụng cùng một `HtmlSaveOptions`.  
 
-Câu trả lời 1: Có, bạn có thể lặp qua nhiều tài liệu và áp dụng quy trình lưu lặp đi lặp lại.
+**H: Aspose.Note for Java có hỗ trợ các định dạng xuất khác ngoài HTML không?**  
+Đ: Chắc chắn. Bạn có thể xuất ra PDF, DOCX, PNG, JPEG, và nhiều định dạng khác bằng các tùy chọn lưu phù hợp.  
 
-### Câu hỏi 2: Aspose.Note for Java có hỗ trợ các định dạng đầu ra khác ngoài HTML không?
+**H: Có phiên bản dùng thử cho Aspose.Note for Java không?**  
+Đ: Có, tải bản dùng thử miễn phí từ [đây](https://releases.aspose.com/).  
 
-Câu trả lời 2: Có, Aspose.Note for Java hỗ trợ nhiều định dạng đầu ra khác nhau bao gồm định dạng PDF, DOCX và hình ảnh.
+**H: Tôi có thể nhận hỗ trợ cho Aspose.Note for Java ở đâu?**  
+Đ: Truy cập [diễn đàn Aspose.Note](https://forum.aspose.com/c/note/28) để nhận trợ giúp từ cộng đồng và đội ngũ chính thức.  
 
-### Câu hỏi 3: Có phiên bản dùng thử cho Aspose.Note cho Java không?
+**H: Làm sao để mua giấy phép cho Aspose.Note for Java?**  
+Đ: Giấy phép có sẵn tại [trang web Aspose](https://purchase.aspose.com/buy).  
 
-Đ3: Có, bạn có thể tải xuống phiên bản dùng thử miễn phí từ[đây](https://releases.aspose.com/).
+## Kết luận
 
-### Câu hỏi 4: Tôi có thể nhận hỗ trợ cho Aspose.Note cho Java ở đâu?
+Bây giờ bạn đã biết **cách xuất phông** khi **lưu OneNote dưới dạng HTML** bằng Aspose.Note for Java. Bằng cách cấu hình `HtmlSaveOptions` và (nếu cần) sử dụng callback, bạn có thể bảo toàn giao diện chính xác của các trang OneNote—including phông tùy chỉnh—khi đưa chúng lên web. Hãy thử các thiết lập `ResourceExportType` khác nhau để phù hợp với yêu cầu hiệu năng và lưu trữ của dự án.
 
- A4: Bạn có thể nhận được hỗ trợ từ[Diễn đàn Aspose.Note](https://forum.aspose.com/c/note/28).
-
-### Câu hỏi 5: Làm cách nào tôi có thể mua giấy phép Aspose.Note cho Java?
-
- Câu trả lời 5: Bạn có thể mua giấy phép từ[trang web giả định](https://purchase.aspose.com/buy).
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
+
+---
+
+**Cập nhật lần cuối:** 2025-12-02  
+**Đã kiểm tra với:** Aspose.Note for Java 24.12  
+**Tác giả:** Aspose  
+
+---

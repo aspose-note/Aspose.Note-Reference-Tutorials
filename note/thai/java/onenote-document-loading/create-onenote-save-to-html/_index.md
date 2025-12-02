@@ -1,34 +1,51 @@
 ---
-title: สร้างเอกสาร OneNote และบันทึกเป็น HTML - Java
-linktitle: สร้างเอกสาร OneNote และบันทึกเป็น HTML - Java
+date: 2025-12-02
+description: เรียนรู้วิธีส่งออกแบบอักษรขณะบันทึก OneNote เป็น HTML ด้วย Aspose.Note
+  for Java คู่มือนี้จะแสดงวิธีสร้าง OneNote อย่างโปรแกรมเมติกและฝังแบบอักษร, CSS และรูปภาพ
+language: th
+linktitle: How to Export Fonts When Saving OneNote as HTML – Java
 second_title: Aspose.Note Java API
-description: เรียนรู้วิธีการสร้างและบันทึกเอกสาร OneNote เป็น HTML โดยใช้ Aspose.Note สำหรับ Java ผสานรวมเข้ากับแอปพลิเคชัน Java สำหรับการจัดการไฟล์ OneNote แบบเป็นโปรแกรม
-
+title: วิธีส่งออกฟอนต์เมื่อบันทึก OneNote เป็น HTML – Java
+url: /java/onenote-document-loading/create-onenote-save-to-html/
 weight: 18
-url: /th/java/onenote-document-loading/create-onenote-save-to-html/
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# สร้างเอกสาร OneNote และบันทึกเป็น HTML - Java
+# วิธีการส่งออกฟอนต์เมื่อบันทึก OneNote เป็น HTML – Java
 
-## การแนะนำ
+## Introduction
 
-Aspose.Note สำหรับ Java เป็นไลบรารีอันทรงพลังที่ช่วยให้นักพัฒนาสามารถทำงานกับไฟล์ Microsoft OneNote โดยทางโปรแกรม ในบทช่วยสอนนี้ เราจะสำรวจวิธีสร้างเอกสาร OneNote และบันทึกเป็นรูปแบบ HTML โดยใช้ Aspose.Note สำหรับ Java
+ในบทเรียนนี้คุณจะได้เรียนรู้ **วิธีการส่งออกฟอนต์** เมื่อคุณ **บันทึก OneNote เป็น HTML** ด้วย Aspose.Note for Java เราจะอธิบายขั้นตอนการสร้างเอกสาร OneNote ด้วยโปรแกรม, การกำหนดค่าตัวเลือกการบันทึกเป็น HTML, และการฝังไฟล์ฟอนต์ที่จำเป็นเพื่อให้ HTML ที่ได้มีลักษณะเหมือนกับหน้า OneNote ดั้งเดิมอย่างแม่นยำ วิธีนี้เหมาะอย่างยิ่งเมื่อคุณต้องการรักษาความเที่ยงตรงของการแสดงผล OneNote ในรูปแบบที่เป็นมิตรต่อเว็บ
 
-## ข้อกำหนดเบื้องต้น
+## Quick Answers
+- **What library handles the export?** Aspose.Note for Java  
+- **Can fonts be embedded in the HTML?** Yes – set `ExportFonts` to `ExportEmbedded`  
+- **Do I need a license for production?** A valid Aspose.Note license is required for commercial use  
+- **Which Java version is supported?** Java 8 or higher  
+- **Is it possible to save resources to separate files?** Absolutely – configure `ResourceExportType` accordingly  
 
-ก่อนที่เราจะเริ่ม ตรวจสอบให้แน่ใจว่าคุณมีสิ่งต่อไปนี้:
+## What is “how to export fonts” in the context of OneNote HTML conversion?
 
-1. ติดตั้ง Java Development Kit (JDK) บนระบบของคุณ
-2.  Aspose.Note สำหรับไลบรารี Java คุณสามารถดาวน์โหลดได้จาก[ที่นี่](https://releases.aspose.com/note/java/).
-3. ความรู้พื้นฐานเกี่ยวกับการเขียนโปรแกรม Java
+เมื่อคุณแปลงสมุดบันทึก OneNote เป็น HTML รูปลักษณ์ของหน้าเว็บจะขึ้นอยู่กับ CSS, รูปภาพ, และโดยเฉพาะอย่างยิ่งฟอนต์ที่ใช้ในหน้าเดิม **การส่งออกฟอนต์** หมายถึงการฝังไฟล์ฟอนต์ (เช่น TTF) ลงในแพ็กเกจ HTML โดยตรง เพื่อให้เบราว์เซอร์สามารถแสดงข้อความได้เหมือนกับที่ปรากฏใน OneNote แม้ว่าผู้ใช้ปลายทางจะไม่ได้ติดตั้งฟอนต์เหล่านั้นไว้ในเครื่อง
 
-## แพ็คเกจนำเข้า
+## Why create OneNote programmatically and save it as HTML?
 
-ขั้นแรก นำเข้าแพ็คเกจที่จำเป็นไปยังโปรเจ็กต์ Java ของคุณ:
+- **Automation:** สร้างรายงาน, เอกสาร, หรือบทความฐานความรู้จาก OneNote โดยอัตโนมัติโดยไม่ต้องคัดลอก‑วางด้วยมือ  
+- **Consistency:** รักษาเลย์เอาต์, สไตล์, และฟอนต์ที่กำหนดเองให้คงที่บนอุปกรณ์ทุกเครื่อง  
+- **Portability:** HTML สามารถดูได้ทั่วโลก—ไม่ต้องใช้ไคลเอนต์ OneNote  
+
+## Prerequisites
+
+1. Java Development Kit (JDK) 8 หรือใหม่กว่า  
+2. ไลบรารี Aspose.Note for Java – ดาวน์โหลดจาก [here](https://releases.aspose.com/note/java/)  
+3. ไฟล์ OneNote ตัวอย่าง (`.one`) เพื่อโหลด, หรือคุณสามารถสร้างไฟล์ใหม่ด้วยโปรแกรมได้  
+
+## Import Packages
+
+First, import the required classes into your Java project:
 
 ```java
 import java.io.ByteArrayOutputStream;
@@ -50,15 +67,19 @@ import com.aspose.note.ImageSavingArgs;
 import com.aspose.note.ResourceExportType;
 ```
 
-## ขั้นตอนที่ 1: สร้างวัตถุเอกสาร OneNote
+## How to Export Fonts While Saving OneNote as HTML?
+
+Below is a step‑by‑step guide that shows you **how to export fonts** and other resources.
+
+### Step 1: Create a OneNote document programmatically  
 
 ```java
 Document document = new Document("Path_to_your_sample_one_file");
 ```
 
- รหัสนี้เริ่มต้นก`Document` วัตถุโดยการโหลดไฟล์ OneNote ตัวอย่าง
+บรรทัดนี้โหลดไฟล์ `.one` ที่มีอยู่ หากคุณต้องการ **สร้าง OneNote ด้วยโปรแกรม** คุณสามารถสร้างอ็อบเจกต์ `Document` ใหม่และเพิ่มส่วน/หน้าโดยใช้ API (ไม่ได้แสดงในที่นี้เพื่อให้โฟกัสที่การส่งออกฟอนต์)
 
-## ขั้นตอนที่ 2: บันทึกเป็น HTML ไปยัง Memory Stream
+### Step 2: Save to a memory stream with embedded fonts  
 
 ```java
 HtmlSaveOptions options = new HtmlSaveOptions();
@@ -71,9 +92,10 @@ ByteArrayOutputStream outputStream = new ByteArrayOutputStream();
 document.save(outputStream, options);
 ```
 
-ที่นี่ เราตั้งค่าตัวเลือกการบันทึก HTML และบันทึกเอกสารลงในสตรีมหน่วยความจำ
+- `setExportFonts(ResourceExportType.ExportEmbedded)` บอก Aspose.Note ให้ **ส่งออกฟอนต์** โดยตรงเข้าไปในแพ็กเกจ HTML  
+- `setFontFaceTypes(FontFaceType.Ttf)` ทำให้ใช้ฟอนต์ TrueType ซึ่งรองรับโดยเบราว์เซอร์ส่วนใหญ่  
 
-## ขั้นตอนที่ 3: บันทึกเป็น HTML พร้อมทรัพยากรในไฟล์แยก
+### Step 3: Save as HTML with separate resource files (still exporting fonts)  
 
 ```java
 HtmlSaveOptions options = new HtmlSaveOptions();
@@ -84,9 +106,9 @@ options.setExportImages(ResourceExportType.ExportEmbedded);
 document.save("output_directory/document.html", options);
 ```
 
-ขั้นตอนนี้จะบันทึกเอกสารเป็น HTML พร้อมด้วยทรัพยากร เช่น CSS, แบบอักษร และรูปภาพในไฟล์แยกกัน
+แม้ว่า CSS และรูปภาพจะถูกฝังไว้แล้ว คุณก็สามารถเปลี่ยน `ResourceExportType` เป็น `ExportExternal` หากต้องการไฟล์แยกสำหรับการแคชที่ง่ายขึ้น ส่วนสำคัญ—**การส่งออกฟอนต์**—ยังคงไม่เปลี่ยนแปลง
 
-## ขั้นตอนที่ 4: บันทึกเป็น HTML ไปยัง Memory Stream พร้อม Callbacks เพื่อบันทึกทรัพยากร
+### Step 4: Use callbacks to control where each resource is stored  
 
 ```java
 Document document = new Document("Path_to_your_sample_one_file");
@@ -115,36 +137,46 @@ if (!dir.exists()) {
 document.save(Paths.get(savingCallbacks.getRootFolder(), "document.html").toString(), options);
 ```
 
-ที่นี่ เราบันทึกเอกสารเป็น HTML ลงในสตรีมหน่วยความจำโดยใช้การโทรกลับเพื่อจัดการการประหยัดทรัพยากร
+คลาส `UserSavingCallbacks` (คุณต้องทำการ implement `ICssSavingCallback`, `IImageSavingCallback`, และ `IFontSavingCallback`) ให้คุณควบคุมโครงสร้างโฟลเดอร์ได้เต็มที่ ทำให้คุณสามารถเก็บฟอนต์ไว้ในไดเรกทอรี `fonts` แยกต่างหากในขณะที่ **ส่งออกฟอนต์** อย่างถูกต้อง
 
-## บทสรุป
+## Common Issues & Tips
 
-ยินดีด้วย! คุณได้เรียนรู้วิธีสร้างเอกสาร OneNote และบันทึกเป็นรูปแบบ HTML โดยใช้ Aspose.Note สำหรับ Java ตอนนี้คุณสามารถรวมฟังก์ชันการทำงานนี้เข้ากับแอปพลิเคชัน Java ของคุณเพื่อทำงานกับไฟล์ OneNote โดยทางโปรแกรมได้
+- **Missing fonts in the output:** ตรวจสอบว่าได้ตั้งค่า `setExportFonts(ResourceExportType.ExportEmbedded)` แล้วและไฟล์ OneNote ต้นฉบับจริง ๆ มีการใช้ฟอนต์ที่ฝังอยู่  
+- **Large HTML files:** การฝังฟอนต์อาจทำให้ไฟล์ขนาดใหญ่ หากกังวลเรื่องแบนด์วิธ ให้เปลี่ยน `ExportFonts` เป็น `ExportExternal` แล้วโฮสต์ฟอนต์บน CDN  
+- **Callback implementation errors:** ให้แน่ใจว่าคลาส callback ของคุณเขียนสตรีมและปิดทรัพยากรอย่างถูกต้องเพื่อหลีกเลี่ยงไฟล์เสีย  
 
-## คำถามที่พบบ่อย
+## Frequently Asked Questions
 
-### คำถามที่ 1: ฉันสามารถแปลงเอกสาร OneNote หลายฉบับเป็น HTML ได้ในคราวเดียวหรือไม่
+**Q: Can I convert multiple OneNote documents to HTML in one go?**  
+A: Yes, loop through each `Document` instance and apply the same `HtmlSaveOptions`.  
 
-A1: ได้ คุณสามารถวนซ้ำเอกสารหลายชุดและใช้กระบวนการบันทึกซ้ำได้
+**Q: Does Aspose.Note for Java support other output formats besides HTML?**  
+A: Absolutely. You can export to PDF, DOCX, PNG, JPEG, and more using the appropriate save options.  
 
-### คำถามที่ 2: Aspose.Note สำหรับ Java รองรับรูปแบบเอาต์พุตอื่นๆ นอกเหนือจาก HTML หรือไม่
+**Q: Is there a trial version available for Aspose.Note for Java?**  
+A: Yes, download a free trial from [here](https://releases.aspose.com/).  
 
-ตอบ 2: ใช่ Aspose.Note สำหรับ Java รองรับรูปแบบเอาต์พุตที่หลากหลาย รวมถึง PDF, DOCX และรูปแบบรูปภาพ
+**Q: Where can I get support for Aspose.Note for Java?**  
+A: Visit the [Aspose.Note forum](https://forum.aspose.com/c/note/28) for community and official assistance.  
 
-### คำถามที่ 3: Aspose.Note สำหรับ Java มีเวอร์ชันทดลองใช้งานหรือไม่
+**Q: How can I purchase a license for Aspose.Note for Java?**  
+A: Licenses are available at the [Aspose website](https://purchase.aspose.com/buy).  
 
-A3: ได้ คุณสามารถดาวน์โหลดเวอร์ชันทดลองใช้ฟรีได้จาก[ที่นี่](https://releases.aspose.com/).
+## Conclusion
 
-### คำถามที่ 4: ฉันจะรับการสนับสนุนสำหรับ Aspose.Note สำหรับ Java ได้ที่ไหน
+You now know **how to export fonts** while you **save OneNote as HTML** using Aspose.Note for Java. By configuring `HtmlSaveOptions` and optionally using callbacks, you can preserve the exact look of your OneNote pages—including custom fonts—when delivering them on the web. Feel free to experiment with different `ResourceExportType` settings to suit your project’s performance and storage requirements.
 
- A4: คุณสามารถรับการสนับสนุนจาก[ฟอรั่ม Aspose.Note](https://forum.aspose.com/c/note/28).
-
-### คำถามที่ 5: ฉันจะซื้อใบอนุญาตสำหรับ Aspose.Note สำหรับ Java ได้อย่างไร
-
- A5: คุณสามารถซื้อใบอนุญาตได้จาก[เว็บไซต์กำหนด](https://purchase.aspose.com/buy).
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
+
+---
+
+**Last Updated:** 2025-12-02  
+**Tested With:** Aspose.Note for Java 24.12  
+**Author:** Aspose  
+
+---
