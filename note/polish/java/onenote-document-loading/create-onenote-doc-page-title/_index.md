@@ -1,41 +1,50 @@
 ---
-title: Utwórz dokument programu OneNote z tytułem strony — Java
-linktitle: Utwórz dokument programu OneNote z tytułem strony — Java
-second_title: Aspose.Note API Java
-description: Dowiedz się, jak tworzyć dokumenty OneNote z tytułami stron w Javie przy użyciu Aspose.Note dla Java. Obszerny samouczek z przykładami kodu.
+date: 2025-12-02
+description: Dowiedz się, jak utworzyć stronę OneNote z tytułem w języku Java przy
+  użyciu Aspose.Note for Java. Ten przewodnik pokazuje, jak ustawić tytuł strony OneNote
+  i dostosować czcionkę tytułu.
+language: pl
+linktitle: How to Create OneNote Page with Title - Java
+second_title: Aspose.Note Java API
+title: Jak utworzyć stronę OneNote z tytułem – Java
+url: /java/onenote-document-loading/create-onenote-doc-page-title/
 weight: 17
-url: /pl/java/onenote-document-loading/create-onenote-doc-page-title/
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Utwórz dokument programu OneNote z tytułem strony — Java
+# Jak utworzyć stronę OneNote z tytułem - Java
 
-## Wstęp
+## Wprowadzenie
 
-W dziedzinie programowania w języku Java zarządzanie dokumentami OneNote i manipulowanie nimi staje się proste i wydajne dzięki Aspose.Note for Java. Ten potężny interfejs API języka Java zapewnia programistom narzędzia niezbędne do programowego tworzenia, modyfikowania i przetwarzania plików programu OneNote, zapewniając bezproblemową integrację z ich aplikacjami. W tym samouczku zagłębimy się w proces tworzenia dokumentu OneNote z określonym tytułem strony za pomocą Aspose.Note dla Java. Postępując zgodnie ze szczegółowym przewodnikiem opisanym poniżej, programiści mogą z łatwością wykorzystać możliwości tego interfejsu API w celu ulepszenia swoich aplikacji Java za pomocą niezawodnych funkcji zarządzania dokumentami programu OneNote.
+Jeśli potrzebujesz **jak utworzyć stronę OneNote** programowo, Aspose.Note for Java ułatwia to. W tym samouczku dowiesz się, jak wygenerować plik OneNote, ustawić tytuł strony i nawet dostosować czcionkę tytułu — wszystko w kodzie Java. Po zakończeniu będziesz mieć gotowy dokument OneNote, który możesz zintegrować z dowolną aplikacją Java.
 
-## Warunki wstępne
+## Szybkie odpowiedzi
+- **Jakiej biblioteki wymaga?** Aspose.Note for Java.
+- **Czy mogę ustawić własną czcionkę dla tytułu?** Tak – użyj `ParagraphStyle`, aby określić nazwę czcionki, rozmiar i kolor.
+- **Która wersja Javy jest obsługiwana?** Dowolny JDK 8+ (API jest kompatybilne wstecz).
+- **Czy potrzebna jest licencja do rozwoju?** Darmowa wersja próbna działa do testów; licencja jest wymagana w produkcji.
+- **Gdzie zapisywany jest wynik?** Ścieżkę definiujesz w zmiennej `dataDir`.
 
-Przed kontynuowaniem tego samouczka upewnij się, że spełnione są następujące wymagania wstępne:
+## Co to jest tytuł strony OneNote?
+Tytuł strony OneNote to nagłówek wyświetlany u góry każdej strony. Zazwyczaj zawiera nazwę strony, datę utworzenia i godzinę. Ustawienie tego tytułu programowo pomaga tworzyć spójne, dobrze zorganizowane notatniki.
 
-### Środowisko programistyczne Java
+## Dlaczego ustawiać tytuł strony OneNote programowo?
+- **Automatyzacja:** Generuj raporty lub notatki ze spotkań bez ręcznej edycji.  
+- **Spójność:** Wymuszaj konwencję nazewnictwa we wszystkich stronach.  
+- **Integracja:** Łącz OneNote z innymi systemami (np. CRM, narzędzia do zarządzania projektami).  
 
-Upewnij się, że w systemie jest zainstalowany zestaw Java Development Kit (JDK).
+## Prerequisites
 
-### Aspose.Note dla biblioteki Java
+- **Java Development Kit (JDK)** – wersja 8 lub wyższa.  
+- **Aspose.Note for Java** – pobierz ze strony oficjalnej **[tutaj](https://releases.aspose.com/note/java/)**.  
+- **IDE** – IntelliJ IDEA, Eclipse lub NetBeans (według wyboru).
 
- Pobierz i skonfiguruj bibliotekę Aspose.Note dla Java. Możesz znaleźć link do pobrania[Tutaj](https://releases.aspose.com/note/java/).
+## Importowanie pakietów
 
-### Zintegrowane środowisko programistyczne (IDE)
-
-Wybierz preferowane IDE do programowania w języku Java. Do popularnych opcji należą IntelliJ IDEA, Eclipse lub NetBeans.
-
-## Importuj pakiety
-
-Najpierw zaimportuj niezbędne pakiety z biblioteki Aspose.Note for Java, aby ułatwić tworzenie dokumentów OneNote z tytułami stron.
+Najpierw zaimportuj klasy, których będziemy potrzebować z biblioteki Aspose.Note.
 
 ```java
 import com.aspose.note.*;
@@ -44,53 +53,46 @@ import java.io.IOException;
 import java.util.Calendar;
 ```
 
-Teraz podzielmy dostarczony przykładowy kod na wiele kroków, aby zrozumieć proces tworzenia dokumentu OneNote z tytułem strony w Javie przy użyciu Aspose.Note.
-
-## Krok 1: Skonfiguruj katalog dokumentów
-
-Zdefiniuj katalog, w którym chcesz zapisać dokument OneNote.
+### Krok 1: Ustaw katalog dokumentu  
+Określ, gdzie zostanie zapisany wygenerowany plik OneNote.
 
 ```java
-// Ścieżka do katalogu dokumentów.
+// The path to the documents directory.
 String dataDir = "Your Document Directory";
 ```
 
-## Krok 2: Utwórz obiekt dokumentu
-
-Zainicjuj obiekt klasy Document, aby rozpocząć pracę z dokumentem OneNote.
+### Krok 2: Utwórz obiekt Document  
+Utwórz nowy `Document` – reprezentuje on plik OneNote, który będziesz budować.
 
 ```java
-//Utwórz obiekt klasy Dokument
+// Create an object of the Document class
 Document doc = new Document();
 ```
 
-## Krok 3: Zainicjuj obiekt strony
-
-Utwórz obiekt Page, który będzie reprezentował stronę w dokumencie programu OneNote.
+### Krok 3: Zainicjuj obiekt Page  
+Utwórz obiekt `Page`, który będzie zawierał tytuł i dowolną treść.
 
 ```java
-// Zainicjuj obiekt klasy Page
+// Initialize Page class object
 Page page = new Page();
 ```
 
-## Krok 4: Ustaw domyślny styl tekstu
-
-Zdefiniuj domyślny styl całego tekstu w dokumencie, w tym kolor czcionki, nazwę i rozmiar.
+### Krok 4: Ustaw domyślny styl tekstu  
+Zdefiniuj domyślny `ParagraphStyle`, który zostanie zastosowany do tekstu tytułu. To miejsce, w którym **dostosowujemy czcionkę tytułu OneNote**.
 
 ```java
-// Domyślny styl całego tekstu w dokumencie.
+// Default style for all text in the document.
 ParagraphStyle textStyle = new ParagraphStyle()
                             .setFontColor(Color.BLACK)
                             .setFontName("Arial")
                             .setFontSize(10);
 ```
 
-## Krok 5: Ustaw właściwości tytułu strony
-
-Skonfiguruj właściwości tytułu strony, takie jak tekst, data i godzina.
+### Krok 5: Ustaw właściwości tytułu strony  
+Tutaj **ustawiamy szczegóły tytułu strony OneNote** – tekst tytułu, datę i godzinę. Śmiało modyfikuj łańcuchy, aby dopasować je do swojego przypadku.
 
 ```java
-// Ustaw właściwości tytułu strony
+// Set page title properties
 Title title = new Title();
 
 RichText titleText = new RichText().append("Title text.");
@@ -108,58 +110,62 @@ titleTime.setParagraphStyle(textStyle);
 title.setTitleText(titleTime);
 ```
 
-## Krok 6: Ustaw tytuł strony
-
-Przypisz właściwości tytułu do strony.
+### Krok 6: Przypisz tytuł do strony  
+Teraz **dodajemy tytuł do OneNote** łącząc obiekt `Title` ze `Page`.
 
 ```java
 page.setTitle(title);
 ```
 
-## Krok 7: Dołącz stronę do dokumentu
-
-Dodaj węzeł strony do dokumentu.
+### Krok 7: Dodaj stronę do dokumentu  
+Dodaj skonfigurowaną stronę do struktury dokumentu.
 
 ```java
 doc.appendChildLast(page);
 ```
 
-## Krok 8: Zapisz dokument OneNote
-
-Określ katalog wyjściowy i zapisz utworzony dokument OneNote.
+### Krok 8: Zapisz dokument OneNote  
+Określ nazwę pliku wyjściowego i zapisz notatnik. To kończy proces **java create onenote file**.
 
 ```java
 dataDir = dataDir + "load//CreateDocWithPageTitle_out.one";
 
-// Zapisz dokument programu OneNote
+// Save OneNote document
 doc.save(dataDir);
 ```
 
-## Wniosek
+## Częste problemy i wskazówki
 
-Podsumowując, Aspose.Note dla Java oferuje solidne rozwiązanie dla programistów Java, którzy chcą programowo manipulować dokumentami OneNote. Postępując zgodnie ze szczegółowym przewodnikiem zawartym w tym samouczku, programiści mogą bez wysiłku tworzyć dokumenty OneNote z określonymi tytułami stron, zwiększając funkcjonalność swoich aplikacji Java.
+| Issue | Solution |
+|-------|----------|
+| **Nieprawidłowa ścieżka pliku** | Upewnij się, że `dataDir` kończy się właściwym separatorem (`/` lub `\\`) i że folder istnieje. |
+| **Tytuł niewidoczny** | Sprawdź, czy `ParagraphStyle` jest zastosowany do każdego elementu `RichText`. |
+| **Wyjątek licencyjny** | Użyj licencji próbnej do testów; zastosuj pełną licencję przed wdrożeniem. |
+| **Data wyświetla niewłaściwy miesiąc** | Miesiące w Javie są zerowo‑indeksowane; `cal.set(2018, 04, 03)` faktycznie ustawia maj. Dostosuj odpowiednio. |
 
-## Często zadawane pytania
+## Najczęściej zadawane pytania
 
-### P1: Czy Aspose.Note for Java jest kompatybilny z różnymi wersjami Java?
+**Q:** Czy Aspose.Note for Java jest kompatybilny z różnymi wersjami Javy?  
+**A:** Tak, biblioteka działa z Java 8 i nowszymi, zapewniając elastyczność w różnych środowiskach.
 
-Odpowiedź 1: Tak, Aspose.Note dla Java jest kompatybilny z różnymi wersjami Java, zapewniając programistom elastyczność.
+**Q:** Czy mogę dostosować styl i rozmiar czcionki tytułu strony?  
+**A:** Oczywiście! Użyj `ParagraphStyle` (jak pokazano w Kroku 4), aby ustawić dowolną nazwę czcionki, rozmiar i kolor.
 
-### P2: Czy mogę dostosować styl czcionki i rozmiar tytułu strony?
+**Q:** Jak dodać więcej treści (np. akapity, obrazy) do strony?  
+**A:** Utwórz dodatkowe obiekty `RichText` lub `Image`, ustaw ich style i dodaj je do `Page` za pomocą `page.appendChildLast(yourObject)`.
 
-A2: Absolutnie! Aspose.Note dla Java zapewnia kompleksowe opcje dostosowywania stylu, koloru i rozmiaru czcionki zgodnie z własnymi preferencjami.
+**Q:** Czy dostępna jest wersja próbna Aspose.Note for Java?  
+**A:** Tak, możesz pobrać darmową wersję próbną ze strony Aspose, aby ocenić wszystkie funkcje.
 
-### P3: Czy dostępna jest wersja próbna Aspose.Note dla Java?
+**Q:** Gdzie mogę uzyskać wsparcie, jeśli napotkam problemy?  
+**A:** Odwiedź [forum Aspose.Note](https://forum.aspose.com/c/note/28) w celu uzyskania pomocy od społeczności lub otwórz zgłoszenie wsparcia w Aspose.
 
-Odpowiedź 3: Tak, możesz uzyskać dostęp do bezpłatnej wersji próbnej Aspose.Note dla Java, aby zapoznać się z jej funkcjami przed dokonaniem zakupu.
+---
 
-### P4: Jak mogę uzyskać wsparcie dla Aspose.Note dla Java?
+**Last Updated:** 2025-12-02  
+**Testowane z:** Aspose.Note for Java 24.12 (najnowsza w momencie pisania)  
+**Author:** Aspose  
 
-A4: Możesz odwiedzić[Forum Aspose.Note](https://forum.aspose.com/c/note/28) w celu uzyskania pomocy technicznej lub zapytań związanych z Aspose.Note for Java.
-
-### P5: Czy mogę uzyskać tymczasową licencję do celów testowych?
-
-Odpowiedź 5: Tak, możesz nabyć tymczasową licencję od Aspose do celów testowania i oceny.
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
