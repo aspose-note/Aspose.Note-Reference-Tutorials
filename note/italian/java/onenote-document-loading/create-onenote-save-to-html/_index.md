@@ -167,17 +167,15 @@ R: Le licenze sono disponibili sul [sito Aspose](https://purchase.aspose.com/buy
 
 Ora sai **come esportare i caratteri** mentre **salvi OneNote come HTML** usando Aspose.Note per Java. Configurando `HtmlSaveOptions` e, opzionalmente, utilizzando i callback, puoi preservare l'aspetto esatto delle tue pagine OneNote—including i caratteri personalizzati—quando le pubblichi sul web. Sentiti libero di sperimentare con le diverse impostazioni di `ResourceExportType` per adattarle alle esigenze di prestazioni e archiviazione del tuo progetto.
 
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}
-
 ---
 
 **Ultimo aggiornamento:** 2025-12-02  
 **Testato con:** Aspose.Note per Java 24.12  
 **Autore:** Aspose  
 
----
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

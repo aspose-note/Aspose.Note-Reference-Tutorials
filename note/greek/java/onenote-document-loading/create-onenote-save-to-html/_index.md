@@ -168,17 +168,15 @@ document.save(Paths.get(savingCallbacks.getRootFolder(), "document.html").toStri
 
 Τώρα γνωρίζετε **πώς να εξάγετε γραμματοσειρές** ενώ **αποθηκεύετε το OneNote ως HTML** χρησιμοποιώντας το Aspose.Note for Java. Διαμορφώνοντας τις `HtmlSaveOptions` και, προαιρετικά, χρησιμοποιώντας callbacks, μπορείτε να διατηρήσετε την ακριβή εμφάνιση των σελίδων OneNote—συμπεριλαμβανομένων των προσαρμοσμένων γραμματοσειρών—κατά τη διανομή τους στο web. Μη διστάσετε να πειραματιστείτε με διαφορετικές ρυθμίσεις `ResourceExportType` ώστε να ταιριάζουν στις απαιτήσεις απόδοσης και αποθήκευσης του έργου σας.
 
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}
-
 ---
 
 **Τελευταία Ενημέρωση:** 2025-12-02  
 **Δοκιμάστηκε Με:** Aspose.Note for Java 24.12  
 **Συγγραφέας:** Aspose  
 
----
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

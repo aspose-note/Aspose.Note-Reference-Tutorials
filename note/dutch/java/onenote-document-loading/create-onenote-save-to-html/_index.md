@@ -167,17 +167,15 @@ A: Licenties zijn verkrijgbaar op de [Aspose‑website](https://purchase.aspose.
 
 Je weet nu **hoe je lettertypen kunt exporteren** terwijl je **OneNote opslaat als HTML** met Aspose.Note for Java. Door `HtmlSaveOptions` te configureren en eventueel callbacks te gebruiken, kun je het exacte uiterlijk van je OneNote‑pagina's behouden — inclusief aangepaste lettertypen — bij het leveren op het web. Voel je vrij om te experimenteren met verschillende `ResourceExportType`‑instellingen om te voldoen aan de prestatie‑ en opslagvereisten van je project.
 
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}
-
 ---
 
 **Last Updated:** 2025-12-02  
 **Tested With:** Aspose.Note for Java 24.12  
 **Author:** Aspose  
 
----
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

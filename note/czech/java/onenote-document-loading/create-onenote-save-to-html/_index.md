@@ -167,17 +167,15 @@ A: Licence jsou k dispozici na [Aspose website](https://purchase.aspose.com/buy)
 
 Nyní víte **jak exportovat písma**, když **ukládáte OneNote jako HTML** pomocí Aspose.Note pro Java. Konfigurací `HtmlSaveOptions` a volitelným použitím zpětných volání můžete zachovat přesný vzhled vašich OneNote stránek – včetně vlastních písem – při jejich publikaci na webu. Klidně experimentujte s různými nastaveními `ResourceExportType`, aby vyhovovaly výkonu a požadavkům na úložiště vašeho projektu.
 
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}
-
 ---
 
 **Last Updated:** 2025-12-02  
 **Tested With:** Aspose.Note for Java 24.12  
 **Author:** Aspose  
 
----
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

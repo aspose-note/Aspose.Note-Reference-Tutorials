@@ -167,17 +167,15 @@ A: लाइसेंस [Aspose वेबसाइट](https://purchase.aspose.
 
 आप अब जानते हैं **फ़ॉन्ट निर्यात** कैसे करें जबकि आप **OneNote को HTML के रूप में सहेजते** हैं Aspose.Note for Java का उपयोग करके। `HtmlSaveOptions` को कॉन्फ़िगर करके और वैकल्पिक रूप से कॉलबैक का उपयोग करके, आप अपने OneNote पृष्ठों की सटीक लुक—कस्टम फ़ॉन्ट सहित—वेब पर डिलीवर कर सकते हैं। विभिन्न `ResourceExportType` सेटिंग्स के साथ प्रयोग करें ताकि आपके प्रोजेक्ट की प्रदर्शन और स्टोरेज आवश्यकताओं के अनुसार अनुकूलित किया जा सके।
 
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}
-
 ---
 
 **Last Updated:** 2025-12-02  
 **Tested With:** Aspose.Note for Java 24.12  
 **Author:** Aspose  
 
----
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

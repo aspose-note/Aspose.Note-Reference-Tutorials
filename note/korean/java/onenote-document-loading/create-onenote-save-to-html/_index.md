@@ -166,17 +166,15 @@ A: 라이선스는 [Aspose website](https://purchase.aspose.com/buy)에서 구�
 
 이제 Aspose.Note for Java를 사용하여 **OneNote를 HTML로 저장하면서 글꼴을 내보내는 방법**을 알게 되었습니다. `HtmlSaveOptions`를 구성하고 필요에 따라 콜백을 활용하면 웹에 제공할 때도 OneNote 페이지의 정확한 모양—맞춤 글꼴 포함—을 유지할 수 있습니다. 프로젝트의 성능 및 저장 요구에 맞게 다양한 `ResourceExportType` 설정을 실험해 보세요.
 
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}
-
 ---
 
 **Last Updated:** 2025-12-02  
 **Tested With:** Aspose.Note for Java 24.12  
 **Author:** Aspose  
 
----
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

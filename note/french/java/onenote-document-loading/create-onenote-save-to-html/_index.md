@@ -168,17 +168,15 @@ R : Les licences sont disponibles sur le [site Aspose](https://purchase.aspose
 
 Vous savez maintenant **comment exporter les polices** tout en **enregistrant OneNote en HTML** à l’aide d’Aspose.Note pour Java. En configurant `HtmlSaveOptions` et éventuellement en utilisant des callbacks, vous pouvez préserver l’aspect exact de vos pages OneNote — y compris les polices personnalisées — lors de leur diffusion sur le web. N’hésitez pas à expérimenter avec différents réglages de `ResourceExportType` pour répondre aux exigences de performance et de stockage de votre projet.
 
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}
-
 ---
 
 **Last Updated:** 2025-12-02  
 **Tested With:** Aspose.Note for Java 24.12  
 **Author:** Aspose  
 
----
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -167,17 +167,15 @@ A: Licenser finns på [Aspose website](https://purchase.aspose.com/buy).
 
 Du vet nu **hur man exporterar teckensnitt** när du **sparar OneNote som HTML** med Aspose.Note för Java. Genom att konfigurera `HtmlSaveOptions` och eventuellt använda återanrop kan du bevara exakt utseende på dina OneNote‑sidor—inklusive anpassade teckensnitt—när du levererar dem på webben. Känn dig fri att experimentera med olika `ResourceExportType`‑inställningar för att passa ditt projekts prestanda‑ och lagringskrav.
 
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}
-
 ---
 
 **Senast uppdaterad:** 2025-12-02  
 **Testat med:** Aspose.Note for Java 24.12  
 **Författare:** Aspose  
 
----
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -168,17 +168,15 @@ Klasa `UserSavingCallbacks` (musisz zaimplementować `ICssSavingCallback`, `IIma
 
 Teraz wiesz, **jak eksportować czcionki**, gdy **zapisujesz OneNote jako HTML** przy użyciu Aspose.Note for Java. Konfigurując `HtmlSaveOptions` i opcjonalnie używając callbacków, możesz zachować dokładny wygląd swoich stron OneNote — w tym niestandardowe czcionki — przy publikacji w sieci. Śmiało eksperymentuj z różnymi ustawieniami `ResourceExportType`, aby dopasować je do wymagań wydajności i przechowywania Twojego projektu.
 
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}
-
 ---
 
 **Last Updated:** 2025-12-02  
 **Tested With:** Aspose.Note for Java 24.12  
 **Author:** Aspose  
 
----
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -167,17 +167,15 @@ Lớp `UserSavingCallbacks` (bạn cần triển khai `ICssSavingCallback`, `IIm
 
 Bây giờ bạn đã biết **cách xuất phông** khi **lưu OneNote dưới dạng HTML** bằng Aspose.Note for Java. Bằng cách cấu hình `HtmlSaveOptions` và (nếu cần) sử dụng callback, bạn có thể bảo toàn giao diện chính xác của các trang OneNote—including phông tùy chỉnh—khi đưa chúng lên web. Hãy thử các thiết lập `ResourceExportType` khác nhau để phù hợp với yêu cầu hiệu năng và lưu trữ của dự án.
 
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}
-
 ---
 
 **Cập nhật lần cuối:** 2025-12-02  
 **Đã kiểm tra với:** Aspose.Note for Java 24.12  
 **Tác giả:** Aspose  
 
----
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

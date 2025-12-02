@@ -167,15 +167,15 @@ A: Licenças estão disponíveis no [site da Aspose](https://purchase.aspose.com
 
 Agora você sabe **como exportar fontes** ao **salvar OneNote como HTML** usando Aspose.Note for Java. Configurando `HtmlSaveOptions` e, opcionalmente, usando callbacks, você pode preservar a aparência exata das suas páginas OneNote—including fontes personalizadas—ao entregá‑las na web. Sinta‑se à vontade para experimentar diferentes configurações de `ResourceExportType` para atender aos requisitos de desempenho e armazenamento do seu projeto.
 
+---
+
+**Última atualização:** 2025-12-02  
+**Testado com:** Aspose.Note for Java 24.12  
+**Autor:** Aspose
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
-
----
-
-**Última atualização:** 2025-12-02  
-**Testado com:** Aspose.Note for Java 24.12  
-**Autor:** Aspose

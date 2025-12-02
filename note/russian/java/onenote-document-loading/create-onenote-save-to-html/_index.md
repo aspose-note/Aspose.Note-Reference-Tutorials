@@ -167,17 +167,15 @@ document.save(Paths.get(savingCallbacks.getRootFolder(), "document.html").toStri
 
 Теперь вы знаете, **как экспортировать шрифты**, когда **сохраняете OneNote в HTML** с помощью Aspose.Note for Java. Настраивая `HtmlSaveOptions` и при необходимости используя обратные вызовы, вы можете сохранить точный внешний вид ваших страниц OneNote — включая пользовательские шрифты — при их публикации в вебе. Не стесняйтесь экспериментировать с различными настройками `ResourceExportType`, чтобы подобрать оптимальный баланс между производительностью и требованиями к хранению.
 
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}
-
 ---
 
 **Последнее обновление:** 2025-12-02  
 **Тестировано с:** Aspose.Note for Java 24.12  
 **Автор:** Aspose  
 
----
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

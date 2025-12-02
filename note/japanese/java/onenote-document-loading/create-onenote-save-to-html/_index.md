@@ -166,17 +166,15 @@ A: ライセンスは [Aspose website](https://purchase.aspose.com/buy) で入�
 
 これで、Aspose.Note for Java を使用して **OneNote を HTML として保存** する際に **フォントをエクスポート** する方法が分かりました。`HtmlSaveOptions` を設定し、必要に応じてコールバックを使用することで、カスタムフォントを含む OneNote ページの正確な外観をウェブ上で提供できます。プロジェクトのパフォーマンスやストレージ要件に合わせて、さまざまな `ResourceExportType` 設定を試してみてください。
 
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}
-
 ---
 
 **Last Updated:** 2025-12-02  
 **Tested With:** Aspose.Note for Java 24.12  
 **Author:** Aspose  
 
----
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

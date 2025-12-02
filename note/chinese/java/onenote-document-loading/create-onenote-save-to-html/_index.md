@@ -166,17 +166,15 @@ A: 许可证可在 [Aspose website](https://purchase.aspose.com/buy) 购买。
 
 您现在已经了解 **如何在使用 Aspose.Note for Java 将 OneNote 保存为 HTML 时导出字体**。通过配置 `HtmlSaveOptions` 并可选使用回调，您可以在网页上呈现 OneNote 页面时保留其完整外观——包括自定义字体。欢迎尝试不同的 `ResourceExportType` 设置，以满足项目的性能和存储需求。
 
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}
-
 ---
 
 **最后更新：** 2025-12-02  
 **测试环境：** Aspose.Note for Java 24.12  
 **作者：** Aspose  
 
----
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -168,17 +168,15 @@ A: Licencelés elérhető az [Aspose weboldalon](https://purchase.aspose.com/buy
 
 Most már tudja, **hogyan exportáljon betűtípusokat**, miközben **OneNote‑t HTML‑ként ment** az Aspose.Note for Java használatával. A `HtmlSaveOptions` konfigurálásával és opcionálisan a callback‑ek használatával megőrizheti OneNote oldalai pontos megjelenését – beleértve az egyedi betűtípusokat is – amikor a weben teszi közzé. Nyugodtan kísérletezzen a különböző `ResourceExportType` beállításokkal, hogy a projekt teljesítmény‑ és tárolási igényeinek megfeleljen.
 
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}
-
 ---
 
 **Last Updated:** 2025-12-02  
 **Tested With:** Aspose.Note for Java 24.12  
 **Author:** Aspose  
 
----
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -169,15 +169,15 @@ C: Lisanslar [Aspose web sitesinde](https://purchase.aspose.com/buy) mevcuttur.
 
 Artık Aspose.Note for Java kullanarak **OneNote'i HTML olarak kaydederken yazı tiplerini dışa aktarma** yöntemini biliyorsunuz. `HtmlSaveOptions` yapılandırması ve isteğe bağlı geri çağrılar sayesinde OneNote sayfalarınızın—özel yazı tipleri dahil—tam görünümünü web ortamına taşıyabilirsiniz. Projenizin performans ve depolama gereksinimlerine uygun olması için farklı `ResourceExportType` ayarlarıyla denemeler yapmaktan çekinmeyin.
 
+---
+
+**Son Güncelleme:** 2025-12-02  
+**Test Edilen Sürüm:** Aspose.Note for Java 24.12  
+**Yazar:** Aspose
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
-
----
-
-**Son Güncelleme:** 2025-12-02  
-**Test Edilen Sürüm:** Aspose.Note for Java 24.12  
-**Yazar:** Aspose

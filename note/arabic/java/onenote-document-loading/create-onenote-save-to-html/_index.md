@@ -166,17 +166,15 @@ document.save(Paths.get(savingCallbacks.getRootFolder(), "document.html").toStri
 
 أنت الآن تعرف **كيفية تصدير الخطوط** أثناء **حفظ OneNote كملف HTML** باستخدام Aspose.Note for Java. من خلال تكوين `HtmlSaveOptions` واستخدام ردود النداء إذا لزم الأمر، يمكنك الحفاظ على المظهر الدقيق لصفحات OneNote—including الخطوط المخصصة—عند تقديمها على الويب. لا تتردد في تجربة إعدادات `ResourceExportType` المختلفة لتناسب متطلبات الأداء والتخزين في مشروعك.
 
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}
-
 ---
 
 **آخر تحديث:** 2025-12-02  
 **تم الاختبار مع:** Aspose.Note for Java 24.12  
 **المؤلف:** Aspose  
 
----
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}
