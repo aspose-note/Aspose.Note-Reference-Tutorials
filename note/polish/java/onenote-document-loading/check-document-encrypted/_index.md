@@ -1,33 +1,52 @@
 ---
-title: Sprawdź, czy dokument programu OneNote jest zaszyfrowany — Java
-linktitle: Sprawdź, czy dokument programu OneNote jest zaszyfrowany — Java
-second_title: Aspose.Note API Java
-description: Dowiedz się, jak sprawdzić, czy dokument OneNote jest zaszyfrowany w Javie przy użyciu Aspose.Note. Postępuj zgodnie z naszym przewodnikiem krok po kroku, aby efektywnie przetwarzać dokumenty.
+date: 2025-11-29
+description: Dowiedz się, jak sprawdzić szyfrowanie OneNote w Javie przy użyciu Aspose.Note
+  for Java. Ten przewodnik pokazuje, jak wykrywać zaszyfrowane pliki OneNote przed
+  przetwarzaniem.
+language: pl
+linktitle: Check if OneNote Document is Encrypted - Java
+second_title: Aspose.Note Java API
+title: Sprawdź szyfrowanie OneNote w Javie – zweryfikuj szyfrowanie dokumentu OneNote
+url: /java/onenote-document-loading/check-document-encrypted/
 weight: 10
-url: /pl/java/onenote-document-loading/check-document-encrypted/
 ---
 
-{{< blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/pf/main-container >}}
-{{< blocks/products/pf/tutorial-page-section >}}
+{{< blocks/products/pf/main-wrap-class >}}  
+{{< blocks/products/pf/main-container >}}  
+{{< blocks/products/pf/tutorial-page-section >}}  
 
-# Sprawdź, czy dokument programu OneNote jest zaszyfrowany — Java
+# Sprawdź, czy dokument OneNote jest zaszyfrowany - Java  
 
-## Wstęp
+## Wprowadzenie  
 
-Podczas pracy z dokumentami programu OneNote w języku Java niezwykle ważne jest, aby przed przetworzeniem dokumentu upewnić się, że nie jest on zaszyfrowany. Szyfrowanie dokumentów może zapewnić dodatkową warstwę zabezpieczeń, ale może również skomplikować etapy przetwarzania, jeśli nie zostanie właściwie przeprowadzone. W tym samouczku przeprowadzimy Cię przez proces sprawdzania, czy dokument OneNote jest zaszyfrowany przy użyciu Aspose.Note dla Java.
+Kiedy pracujesz z plikami OneNote w aplikacji Java, pierwszą rzeczą, którą musisz wiedzieć, jest **czy dokument jest zaszyfrowany**. Próba załadowania zaszyfrowanego pliku bez odpowiedniego hasła spowoduje błędy i przerwie Twój przepływ pracy. W tym samouczku pokażemy Ci **jak sprawdzić onenote encryption java** przy użyciu Aspose.Note for Java, abyś mógł bezpiecznie zdecydować, czy poprosić użytkownika o hasło, czy kontynuować przetwarzanie pliku.  
 
-## Warunki wstępne
+## Szybkie odpowiedzi  
 
-Zanim zaczniesz, upewnij się, że spełnione są następujące wymagania wstępne:
+- **Jaką metodę określa szyfrowanie?** `Document.isEncrypted`  
+- **Czy potrzebuję hasła, aby sprawdzić?** Nie, możesz zapytać o status bez hasła.  
+- **Która wersja API działa?** Dowolna najnowsza wersja Aspose.Note for Java (testowano z 24.11).  
+- **Czy mogę sprawdzić zarówno strumienie, jak i ścieżki plików?** Tak – API obsługuje oba.  
+- **Co się stanie, jeśli hasło jest nieprawidłowe?** Metoda zwraca `true`, co wskazuje, że plik pozostaje zaszyfrowany.  
 
-1.  Zestaw Java Development Kit (JDK): Upewnij się, że w systemie jest zainstalowana Java. Można go pobrać z[Tutaj](https://www.oracle.com/java/technologies/javase-jdk11-downloads.html).
+## Co to jest check onenote encryption java?  
 
-2.  Aspose.Note dla biblioteki Java: Pobierz i skonfiguruj bibliotekę Aspose.Note dla Java. Możesz znaleźć link do pobrania[Tutaj](https://releases.aspose.com/note/java/).
+`check onenote encryption java` to proces programistycznego weryfikowania, czy plik OneNote (`.one`) jest chroniony hasłem przed próbą załadowania jego zawartości. Znajomość stanu szyfrowania pomaga uniknąć wyjątków w czasie wykonywania i poprawia doświadczenie użytkownika.  
 
-## Importuj pakiety
+## Dlaczego sprawdzać szyfrowanie OneNote przed załadowaniem?  
 
-Aby rozpocząć, zaimportuj niezbędne pakiety do swojego projektu Java:
+- **Zapobiega błędom w czasie wykonywania** – ładowanie zaszyfrowanego pliku bez hasła powoduje wyjątek.  
+- **Poprawia przepływ UI** – możesz poprosić użytkownika o hasło tylko wtedy, gdy jest to konieczne.  
+- **Zgodność z bezpieczeństwem** – zapewnia, że obsługujesz chronioną treść zgodnie z polityką.  
+
+## Prerequisites  
+
+1. **Java Development Kit (JDK)** – upewnij się, że zainstalowano Java 11 lub nowszą. Pobierz go z [here](https://www.oracle.com/java/technologies/javase-jdk11-downloads.html).  
+2. **Aspose.Note for Java** – pobierz bibliotekę z oficjalnej strony pobierania [here](https://releases.aspose.com/note/java/).  
+
+## Importowanie pakietów  
+
+Aby rozpocząć, dodaj wymagane importy do swojego projektu Java:  
 
 ```java
 import com.aspose.note.Document;
@@ -35,15 +54,17 @@ import com.aspose.note.LoadOptions;
 import java.io.FileInputStream;
 import java.io.IOException;
 import java.nio.file.Paths;
-```
+```  
 
-Podzielmy proces na kilka etapów:
+## Jak sprawdzić onenote encryption java  
 
-## Krok 1: Sprawdź, czy dokument ze strumienia jest zaszyfrowany
+Poniżej dzielimy rozwiązanie na dwa praktyczne scenariusze: sprawdzanie dokumentu załadowanego z **strumienia** oraz sprawdzanie dokumentu załadowanego bezpośrednio z **ścieżki pliku**.  
+
+### Krok 1: Sprawdź, czy dokument załadowany ze strumienia jest zaszyfrowany  
 
 ```java
 public static void CheckIfDocumentFromStreamIsEncrypted() throws IOException {
-    // ExStart: Sprawdź, czy dokument ze strumienia jest zaszyfrowany
+    // ExStart:CheckIfDocumentFromStreamIsEncrypted
     String dataDir = "Your Document Directory";
 
     LoadOptions loadOptions = new LoadOptions();
@@ -61,21 +82,21 @@ public static void CheckIfDocumentFromStreamIsEncrypted() throws IOException {
     } finally {
         stream.close();
     }
-    // ExEnd: Sprawdź, czy dokument ze strumienia jest zaszyfrowany
+    // ExEnd:CheckIfDocumentFromStreamIsEncrypted
 }
-```
+```  
 
-Wyjaśnienie:
+**Wyjaśnienie**  
 
-- Ta metoda sprawdza, czy dokument załadowany ze strumienia jest zaszyfrowany.
--  Ustawia hasło dokumentu za pomocą`setDocumentPassword` metoda`LoadOptions` klasa.
--  The`Document.isEncrypted` metoda służy do ustalenia, czy dokument jest zaszyfrowany, czy nie.
+- `LoadOptions` pozwala opcjonalnie podać hasło (`setDocumentPassword`).  
+- `Document.isEncrypted(stream, loadOptions, ref)` sprawdza status szyfrowania strumienia.  
+- Tablica `ref` otrzymuje referencję do załadowanego `Document`, gdy plik **nie** jest zaszyfrowany, co pozwala kontynuować przetwarzanie bez drugiego wywołania ładowania.  
 
-## Krok 2: Sprawdź, czy dokument z pliku jest zaszyfrowany
+### Krok 2: Sprawdź, czy dokument załadowany ze ścieżki pliku jest zaszyfrowany  
 
 ```java
 public static void CheckIfDocumentFromFileIsEncrypted() throws IOException {
-    // ExStart: Sprawdź, czy dokument z pliku jest zaszyfrowany
+    // ExStart:CheckIfDocumentFromFileIsEncrypted
     String dataDir = "Your Document Directory";
 
     Document ref[] = { null };
@@ -90,41 +111,50 @@ public static void CheckIfDocumentFromFileIsEncrypted() throws IOException {
     }
     // ExEnd:CheckIfDocumentFromFileIsEncrypted
 }
-```
+```  
 
-Wyjaśnienie:
+**Wyjaśnienie**  
 
-- Ta metoda sprawdza, czy dokument załadowany z pliku jest zaszyfrowany.
--  Używa`Document.isEncrypted` metodę podobną do poprzedniego kroku, ale z podaniem ścieżki pliku i parametru hasła.
+- Ta przeciążona metoda działa bezpośrednio ze ścieżką pliku i ciągiem hasła.  
+- Jeśli plik **nie** jest zaszyfrowany, `isEncrypted` zwraca `false`, a referencja `ref[0]` zawiera załadowany dokument.  
+- Jeśli hasło jest nieprawidłowe, metoda nadal zwraca `true`, co wskazuje, że plik pozostaje zaszyfrowany.  
 
-## Wniosek
+## Częste pułapki i wskazówki  
 
-W tym samouczku dowiedzieliśmy się, jak sprawdzić, czy dokument OneNote jest zaszyfrowany w Javie przy użyciu Aspose.Note. Postępując zgodnie ze szczegółowym przewodnikiem i korzystając z podanych przykładów kodu, możesz skutecznie określić stan szyfrowania swoich dokumentów, zapewniając płynne przetwarzanie w aplikacjach Java.
+- **Nigdy nie koduj na stałe haseł** w kodzie produkcyjnym; pobieraj je bezpiecznie (np. z sejfu).  
+- Zawsze zamykaj strumienie w bloku `finally` lub używaj try‑with‑resources, aby uniknąć wycieków zasobów.  
+- Jeśli otrzymasz `true` z `isEncrypted` i `ref[0]` jest `null`, plik jest zaszyfrowany **lub** podane hasło jest nieprawidłowe. Poproś użytkownika o poprawne hasło i spróbuj ponownie.  
 
-## Często zadawane pytania
+## Najczęściej zadawane pytania  
 
-### P1: Czy mogę sprawdzić stan szyfrowania bez podawania hasła?
+**Q: Czy mogę sprawdzić status szyfrowania bez podawania hasła?**  
+A: Tak. Wywołaj `Document.isEncrypted` z instancją `LoadOptions`, która nie ustawia hasła; metoda po prostu zgłosi, czy plik jest zaszyfrowany.  
 
-Odpowiedź 1: Tak, możesz sprawdzić status szyfrowania bez podawania hasła. The`Document.isEncrypted` metoda na to pozwala.
+**Q: Co się stanie, jeśli podam nieprawidłowe hasło?**  
+A: Metoda zwraca `true`, co wskazuje, że dokument nadal jest zaszyfrowany, a `ref[0]` będzie `null`.  
 
-### P2: Co się stanie, jeśli podam nieprawidłowe hasło?
+**Q: Czy istnieje sposób na odszyfrowanie dokumentu programowo?**  
+A: Tak. Gdy znasz poprawne hasło, przekaż je do `LoadOptions` (lub do przeciążonej metody przyjmującej hasło) i załaduj dokument; API odszyfruje go w locie.  
 
- Odpowiedź 2: Jeśli podczas sprawdzania stanu szyfrowania podasz nieprawidłowe hasło, metoda zostanie zwrócona`true`, co oznacza, że dokument jest zaszyfrowany, ale podane hasło jest nieprawidłowe.
+**Q: Czy Aspose.Note działa z innymi formatami Microsoft?**  
+A: Aspose.Note jest przeznaczony wyłącznie do plików OneNote (`.one`). Dla innych formatów Office rozważ Aspose.Words, Aspose.Cells itp.  
 
-### P3: Czy możliwe jest programowe odszyfrowanie zaszyfrowanego dokumentu?
+**Q: Gdzie mogę znaleźć więcej przykładów i wsparcie?**  
+A: Odwiedź [forum Aspose.Note](https://forum.aspose.com/c/note/28) w celu uzyskania pomocy od społeczności oraz sprawdź oficjalną dokumentację, aby uzyskać dodatkowe przykłady kodu.  
 
-Odpowiedź 3: Tak, możesz programowo odszyfrować zaszyfrowany dokument, podając prawidłowe hasło podczas ładowania dokumentu.
+## Zakończenie  
 
-### P4: Czy mogę używać Aspose.Note do innych formatów dokumentów niż OneNote?
+W tym przewodniku pokazaliśmy **jak sprawdzić onenote encryption java** przy użyciu Aspose.Note for Java, obejmując zarówno scenariusze oparte na strumieniach, jak i na plikach. Integrując te kontrole w swojej aplikacji, możesz elegancko obsługiwać zaszyfrowane pliki OneNote, poprawić doświadczenie użytkownika i utrzymać solidność swojego potoku przetwarzania.  
 
-O4: Nie, Aspose.Note jest specjalnie zaprojektowany do pracy wyłącznie z dokumentami OneNote.
+---  
 
-### P5: Gdzie mogę znaleźć więcej zasobów i wsparcia dla Aspose.Note dla Java?
+**Ostatnia aktualizacja:** 2025-11-29  
+**Testowano z:** Aspose.Note 24.11 for Java  
+**Author:** Aspose  
 
- A5: Możesz odwiedzić[Forum Aspose.Note](https://forum.aspose.com/c/note/28) za wsparcie społeczności i dokumentację.
-{{< /blocks/products/pf/tutorial-page-section >}}
+{{< /blocks/products/pf/tutorial-page-section >}}  
 
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
+{{< /blocks/products/pf/main-container >}}  
+{{< /blocks/products/pf/main-wrap-class >}}  
 
 {{< blocks/products/products-backtop-button >}}

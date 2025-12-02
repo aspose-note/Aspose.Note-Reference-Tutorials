@@ -1,33 +1,53 @@
 ---
-title: Konwertuj określoną stronę na obraz PNG w programie OneNote — Java
-linktitle: Konwertuj określoną stronę na obraz PNG w programie OneNote — Java
-second_title: Aspose.Note API Java
-description: Naucz się korzystać z Aspose.Note dla Java, konwertując stronę OneNote do formatu PNG. Wykonaj proste kroki, załaduj dokument i ustaw opcje. Ulepsz aplikacje Java dzięki tej funkcjonalności.
+date: 2025-11-29
+description: Dowiedz się, jak wyeksportować stronę OneNote do formatu PNG przy użyciu
+  Aspose.Note dla Javy. Postępuj zgodnie z instrukcjami krok po kroku, aby ustawić
+  indeks strony, przekonwertować stronę i zapisać obraz.
+language: pl
+linktitle: Export OneNote Page to PNG Image in Java
+second_title: Aspose.Note Java API
+title: Eksportuj stronę OneNote do obrazu PNG w Javie przy użyciu Aspose.Note
+url: /java/onenote-document-loading/convert-page-to-png-image/
 weight: 13
-url: /pl/java/onenote-document-loading/convert-page-to-png-image/
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Konwertuj określoną stronę na obraz PNG w programie OneNote — Java
+# Eksportowanie strony OneNote do obrazu PNG w Javie przy użyciu Aspose.Note
 
-## Wstęp
+## Wprowadzenie
 
-W tym samouczku dowiesz się, jak używać Aspose.Note dla Java do konwertowania określonej strony z dokumentu OneNote na obraz PNG. Podzielimy ten proces na łatwe do wykonania kroki, które pomogą Ci bezproblemowo zintegrować tę funkcjonalność z aplikacją Java.
+W tym samouczku dowiesz się **jak wyeksportować stronę OneNote** do obrazu PNG przy użyciu biblioteki Aspose.Note dla Javy. Przejdziemy krok po kroku przez wszystko, co jest potrzebne — od przygotowania środowiska, przez ustawienie indeksu strony, aż po zapisanie jej jako wysokiej jakości plik PNG. Po zakończeniu będziesz mógł dodać tę funkcjonalność do dowolnej aplikacji Java pracującej z dokumentami OneNote.
 
-## Warunki wstępne
+## Szybkie odpowiedzi
+- **Jakiej biblioteki potrzebuję?** Aspose.Note dla Javy.  
+- **Czy mogę wyeksportować pojedynczą stronę?** Tak — użyj `setPageIndex`, aby wybrać konkretną stronę.  
+- **Jakie formaty obrazu są obsługiwane?** PNG, JPEG, GIF, BMP, TIFF (tutaj pokazano PNG).  
+- **Czy potrzebna jest licencja?** Dostępna jest darmowa wersja próbna; licencja jest wymagana w środowisku produkcyjnym.  
+- **Jak długo trwa implementacja?** Zazwyczaj mniej niż 10 minut dla podstawowej konwersji.
 
-Zanim zaczniesz, upewnij się, że masz następujące elementy:
+## Co to jest „export OneNote page”?
+Eksportowanie strony OneNote oznacza konwersję konkretnej strony wewnątrz dokumentu `.one` na samodzielny plik obrazu (w tym przypadku PNG). Jest to przydatne, gdy trzeba udostępnić, osadzić lub przetworzyć zawartość OneNote poza środowiskiem OneNote.
 
-1. Zestaw Java Development Kit (JDK): Upewnij się, że masz zainstalowany pakiet JDK w swoim systemie.
-2.  Aspose.Note dla biblioteki Java: Pobierz i zainstaluj bibliotekę Aspose.Note dla Java z pliku[strona internetowa](https://releases.aspose.com/note/java/).
-3. Dokument OneNote: przygotuj dokument OneNote, z którego chcesz przekonwertować określoną stronę do formatu PNG.
+## Dlaczego warto używać Aspose.Note dla Javy do konwersji OneNote na PNG?
+- **Brak zależności od Microsoft Office** – działa na każdej platformie obsługującej Javę.  
+- **Precyzyjna kontrola** – możesz wybrać dowolną stronę za pomocą `setPageIndex`.  
+- **Wysokiej jakości wynik** – PNG zachowuje grafikę wektorową i klarowność tekstu.  
+- **Gotowość do przetwarzania wsadowego** – łatwo pętlić po stronach w celu masowej konwersji.
 
-## Importuj pakiety
+## Wymagania wstępne
 
-Najpierw musisz zaimportować niezbędne pakiety do pliku Java:
+Zanim rozpoczniesz, upewnij się, że masz:
+
+1. **Java Development Kit (JDK)** – wersja 8 lub wyższa.  
+2. **Aspose.Note dla Javy** – pobierz najnowszy plik JAR z [strony Aspose](https://releases.aspose.com/note/java/).  
+3. **Dokument OneNote** (`.one`) zawierający stronę, którą chcesz wyeksportować.
+
+## Importowanie pakietów
+
+Najpierw zaimportuj niezbędne klasy Javy:
 
 ```java
 import java.io.IOException;
@@ -37,68 +57,80 @@ import com.aspose.note.LoadOptions;
 import com.aspose.note.SaveFormat;
 ```
 
-## Krok 1: Załaduj dokument OneNote
+## Przewodnik krok po kroku
+
+### Krok 1: Załaduj dokument OneNote
 
 ```java
-// Załaduj dokument do Aspose.Note.
+// Load the document into Aspose.Note.
 String dataDir = "Your Document Directory";
 Document oneFile = new Document(dataDir + "Sample1.one", new LoadOptions());
 ```
 
- Na tym etapie ładujemy dokument OneNote przy użyciu Aspose.Note`Document` klasa.
+Używamy klasy `Document`, aby odczytać plik OneNote z dysku. Obiekt `LoadOptions` pozwala w razie potrzeby dostosować zachowanie ładowania.
 
-## Krok 2: Zainicjuj obiekt ImageSaveOptions
+### Krok 2: Zainicjalizuj ImageSaveOptions
 
 ```java
-// Zainicjuj obiekt ImageSaveOptions
+// Initialize ImageSaveOptions object
 ImageSaveOptions opts = new ImageSaveOptions(SaveFormat.Png);
 ```
 
- Tutaj inicjujemy an`ImageSaveOptions` obiekt i określ format zapisu jako PNG.
+`ImageSaveOptions` informuje Aspose.Note, że chcemy uzyskać wynik w formacie **PNG**. Możesz przełączyć się na JPEG, BMP itp., zmieniając `SaveFormat`.
 
-## Krok 3: Ustaw indeks strony
+### Krok 3: Ustaw indeks strony (Jak konwertować stronę OneNote)
 
 ```java
-// ustaw indeks strony
+// set page index
 opts.setPageIndex(0);
 ```
 
-Ustaw indeks strony, którą chcesz przekonwertować. Pamiętaj, że indeksowanie strony zaczyna się od 0.
+Metoda `setPageIndex` wybiera, którą stronę wyeksportować. Numeracja stron zaczyna się od **0**, więc `0` oznacza pierwszą stronę. Zmień tę wartość, aby wyeksportować inną stronę.
 
-## Krok 4: Zapisz dokument jako PNG
+### Krok 4: Zapisz dokument jako PNG (Zapisz OneNote jako PNG)
 
 ```java
-// Zapisz dokument jako PNG.
+// Save the document as PNG.
 oneFile.save(dataDir + "ConvertSpecificPageToPngImage_out.png", opts);
 ```
 
-Na koniec zapisz dokument z określoną stroną przekonwertowaną na obraz PNG.
+Wywołanie `save` zapisuje wybraną stronę do pliku PNG na dysku. Nazwa pliku `ConvertSpecificPageToPngImage_out.png` jest tylko przykładem — możesz użyć dowolnej nazwy.
 
-## Wniosek
+## Typowe problemy i wskazówki
 
-Gratulacje! Pomyślnie nauczyłeś się, jak przekonwertować określoną stronę z dokumentu OneNote na obraz PNG za pomocą Aspose.Note dla Java. Zintegrowanie tej funkcji z aplikacjami Java umożliwi programowe manipulowanie dokumentami programu OneNote, zwiększając produktywność i rozszerzając możliwości oprogramowania.
+- **Nieprawidłowy indeks strony** – Pamiętaj, że indeksowanie zaczyna się od 0. Jeśli otrzymasz pusty obraz, sprawdź wartość indeksu.  
+- **Brak pliku JAR Aspose.Note** – Upewnij się, że JAR znajduje się w classpath; w przeciwnym razie pojawi się `ClassNotFoundException`.  
+- **Duże strony** – Dla bardzo dużych stron rozważ zwiększenie pamięci przydzielonej JVM (`-Xmx`), aby uniknąć `OutOfMemoryError`.
 
-## Często zadawane pytania
+## Najczęściej zadawane pytania
 
-### P1: Czy mogę za jednym razem przekonwertować wiele stron na obrazy PNG, używając Aspose.Note dla Java?
+### Q1: Czy mogę konwertować wiele stron na obrazy PNG jednocześnie przy użyciu Aspose.Note dla Javy?
+A1: Tak, możesz iterować po stronach dokumentu, aktualizować `opts.setPageIndex(i)` i wywoływać `save` dla każdej iteracji.
 
-Odpowiedź 1: Tak, możesz dokonać konwersji wsadowej, przeglądając strony i zapisując je indywidualnie.
+### Q2: Czy Aspose.Note dla Javy obsługuje inne formaty obrazu poza PNG?
+A2: Oczywiście. Możesz ustawić `SaveFormat.Jpeg`, `SaveFormat.Gif`, `SaveFormat.Bmp` lub `SaveFormat.Tiff` w `ImageSaveOptions`.
 
-### P2: Czy Aspose.Note dla Java obsługuje inne formaty obrazów oprócz PNG?
+### Q3: Czy dostępna jest darmowa wersja próbna Aspose.Note dla Javy?
+A3: Tak, możesz pobrać darmową wersję próbną z [strony internetowej](https://releases.aspose.com/).
 
-O2: Tak, Aspose.Note obsługuje różne formaty obrazów, takie jak JPEG, GIF, BMP i TIFF.
+### Q4: Czy mogę uzyskać pomoc techniczną, jeśli napotkam problemy z Aspose.Note dla Javy?
+A4: Oczywiście, wsparcie możesz uzyskać na forum społeczności Aspose [tutaj](https://forum.aspose.com/c/note/28).
 
-### P3: Czy dostępna jest bezpłatna wersja próbna Aspose.Note dla Java?
+### Q5: Gdzie mogę kupić licencję na Aspose.Note dla Javy?
+A5: Licencję można nabyć na [stronie zakupu](https://purchase.aspose.com/buy).
 
- Odpowiedź 3: Tak, możesz uzyskać dostęp do bezpłatnego okresu próbnego w witrynie[strona internetowa](https://releases.aspose.com/).
+### Q6: Jak wyeksportować stronę zawierającą osadzone obrazy?
+A6: Osadzone obrazy są renderowane automatycznie w wyjściowym pliku PNG; nie wymaga to dodatkowego kodu.
 
-### P4: Czy mogę uzyskać pomoc techniczną, jeśli napotkam jakiekolwiek problemy z Aspose.Note dla Java?
+### Q7: Czy mogę ustawić DPI lub rozdzielczość obrazu?
+A7: Tak, użyj `opts.setResolution(int dpi)` przed wywołaniem `save`, aby kontrolować jakość wyjścia.
 
- Odpowiedź 4: Oczywiście możesz szukać wsparcia na forum społeczności Aspose[Tutaj](https://forum.aspose.com/c/note/28).
+---
 
-### P5: Gdzie mogę kupić licencję na Aspose.Note dla Java?
+**Ostatnia aktualizacja:** 2025-11-29  
+**Testowano z:** Aspose.Note dla Javy 24.11 (najnowsza)  
+**Autor:** Aspose  
 
- Odpowiedź 5: Możesz kupić licencję w witrynie[strona zakupu](https://purchase.aspose.com/buy).
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

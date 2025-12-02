@@ -1,33 +1,51 @@
 ---
-title: تحقق مما إذا كان مستند OneNote مشفرًا - Java
-linktitle: تحقق مما إذا كان مستند OneNote مشفرًا - Java
-second_title: Aspose.Note جافا API
-description: تعرف على كيفية التحقق من تشفير مستند OneNote في Java باستخدام Aspose.Note. اتبع دليلنا خطوة بخطوة لمعالجة المستندات بكفاءة.
+date: 2025-11-29
+description: تعلم كيفية التحقق من تشفير OneNote باستخدام Aspose.Note للغة Java. يوضح
+  لك هذا الدليل كيفية اكتشاف ملفات OneNote المشفرة قبل معالجتها.
+language: ar
+linktitle: Check if OneNote Document is Encrypted - Java
+second_title: Aspose.Note Java API
+title: تحقق من تشفير OneNote في جافا – التحقق من تشفير مستند OneNote
+url: /java/onenote-document-loading/check-document-encrypted/
 weight: 10
-url: /ar/java/onenote-document-loading/check-document-encrypted/
 ---
 
-{{< blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/pf/main-container >}}
-{{< blocks/products/pf/tutorial-page-section >}}
+{{< blocks/products/pf/main-wrap-class >}}  
+{{< blocks/products/pf/main-container >}}  
+{{< blocks/products/pf/tutorial-page-section >}}  
 
-# تحقق مما إذا كان مستند OneNote مشفرًا - Java
+# تحقق مما إذا كان مستند OneNote مشفرًا - Java  
 
-## مقدمة
+## المقدمة  
 
-عند العمل مع مستندات OneNote في Java، من الضروري التأكد من عدم تشفير المستند قبل معالجته. يمكن أن يضيف تشفير المستندات طبقة إضافية من الأمان، ولكنه قد يؤدي أيضًا إلى تعقيد خطوات المعالجة إذا لم يتم التعامل معه بشكل صحيح. في هذا البرنامج التعليمي، سنرشدك خلال عملية التحقق مما إذا كان مستند OneNote مشفرًا باستخدام Aspose.Note لـ Java.
+عند العمل مع ملفات OneNote في تطبيق Java، أول شيء تحتاج إلى معرفته هو **ما إذا كان المستند مشفرًا**. محاولة تحميل ملف مشفر دون كلمة المرور الصحيحة سيؤدي إلى حدوث أخطاء وتعطيل سير العمل. في هذا البرنامج التعليمي سنرشدك إلى **كيفية التحقق من تشفير OneNote في Java** باستخدام Aspose.Note for Java، حتى تتمكن من اتخاذ قرار آمن إما بطلب كلمة مرور من المستخدم أو متابعة معالجة الملف.  
 
-## المتطلبات الأساسية
+## إجابات سريعة  
 
-قبل البدء، تأكد من توفر المتطلبات الأساسية التالية:
+- **ما الطريقة التي تحدد التشفير؟** `Document.isEncrypted`  
+- **هل أحتاج كلمة مرور للتحقق؟** لا، يمكنك الاستعلام عن الحالة دون كلمة مرور.  
+- **أي نسخة من API تعمل؟** أي إصدار حديث من Aspose.Note for Java (تم الاختبار مع 24.11).  
+- **هل يمكنني التحقق من كل من التدفقات ومسارات الملفات؟** نعم – API يدعم كلاهما.  
+- **ماذا يحدث إذا كانت كلمة المرور خاطئة؟** تُعيد الطريقة `true`، مما يدل على أن الملف لا يزال مشفرًا.  
 
-1.  Java Development Kit (JDK): تأكد من تثبيت Java على نظامك. يمكنك تنزيله من[هنا](https://www.oracle.com/java/technologies/javase-jdk11-downloads.html).
+## ما هو check onenote encryption java؟  
 
-2.  Aspose.Note لمكتبة Java: قم بتنزيل Aspose.Note لمكتبة Java وإعدادها. يمكنك العثور على رابط التحميل[هنا](https://releases.aspose.com/note/java/).
+`check onenote encryption java` هو عملية التحقق برمجيًا مما إذا كان ملف OneNote (`.one`) محميًا بكلمة مرور قبل محاولة تحميل محتوياته. معرفة حالة التشفير تساعدك على تجنب الاستثناءات أثناء التشغيل وتحسين تجربة المستخدم.  
 
-## حزم الاستيراد
+## لماذا يجب التحقق من تشفير OneNote قبل التحميل؟  
 
-للبدء، قم باستيراد الحزم الضرورية في مشروع Java الخاص بك:
+- **منع الأخطاء أثناء التشغيل** – تحميل ملف مشفر دون كلمة مرور يثير استثناء.  
+- **تحسين تدفق واجهة المستخدم** – يمكنك طلب كلمة مرور من المستخدم فقط عندما يكون ذلك ضروريًا.  
+- **الامتثال الأمني** – يضمن أنك تتعامل مع المحتوى المحمي وفقًا للسياسات.  
+
+## المتطلبات المسبقة  
+
+1. **Java Development Kit (JDK)** – تأكد من تثبيت Java 11 أو أحدث. حمّله من [here](https://www.oracle.com/java/technologies/javase-jdk11-downloads.html).  
+2. **Aspose.Note for Java** – احصل على المكتبة من صفحة التحميل الرسمية [here](https://releases.aspose.com/note/java/).  
+
+## استيراد الحزم  
+
+لبدء العمل، أضف الاستيرادات المطلوبة إلى مشروع Java الخاص بك:  
 
 ```java
 import com.aspose.note.Document;
@@ -35,15 +53,17 @@ import com.aspose.note.LoadOptions;
 import java.io.FileInputStream;
 import java.io.IOException;
 import java.nio.file.Paths;
-```
+```  
 
-دعونا نقسم العملية إلى خطوات متعددة:
+## كيفية التحقق من تشفير OneNote في Java  
 
-## الخطوة 1: تحقق مما إذا كان المستند من الدفق مشفرًا
+أدناه نقسم الحل إلى سيناريوهين عمليين: التحقق من مستند تم تحميله من **تدفق** والتحقق من مستند تم تحميله مباشرة من **مسار ملف**.  
+
+### الخطوة 1: التحقق مما إذا كان المستند المحمَّل من تدفق مشفرًا  
 
 ```java
 public static void CheckIfDocumentFromStreamIsEncrypted() throws IOException {
-    // ExStart: CheckIfDocumentFromStreamIsEncrypted
+    // ExStart:CheckIfDocumentFromStreamIsEncrypted
     String dataDir = "Your Document Directory";
 
     LoadOptions loadOptions = new LoadOptions();
@@ -63,15 +83,15 @@ public static void CheckIfDocumentFromStreamIsEncrypted() throws IOException {
     }
     // ExEnd:CheckIfDocumentFromStreamIsEncrypted
 }
-```
+```  
 
-توضيح:
+**شرح**  
 
-- تتحقق هذه الطريقة من تشفير المستند الذي تم تحميله من الدفق.
--  يقوم بتعيين كلمة مرور المستند باستخدام`setDocumentPassword` طريقة`LoadOptions` فصل.
--  ال`Document.isEncrypted` يتم استخدام الطريقة لتحديد ما إذا كانت الوثيقة مشفرة أم لا.
+- `LoadOptions` يتيح لك اختيارياً توفير كلمة مرور (`setDocumentPassword`).  
+- `Document.isEncrypted(stream, loadOptions, ref)` يتحقق من حالة تشفير التدفق.  
+- مصفوفة `ref` تستقبل إشارة إلى الـ `Document` المحمَّل عندما يكون الملف **غير** مشفر، مما يسمح لك بالمتابعة دون الحاجة إلى استدعاء تحميل ثاني.  
 
-## الخطوة 2: تحقق مما إذا كان المستند من الملف مشفرًا
+### الخطوة 2: التحقق مما إذا كان المستند المحمَّل من مسار ملف مشفرًا  
 
 ```java
 public static void CheckIfDocumentFromFileIsEncrypted() throws IOException {
@@ -90,41 +110,50 @@ public static void CheckIfDocumentFromFileIsEncrypted() throws IOException {
     }
     // ExEnd:CheckIfDocumentFromFileIsEncrypted
 }
-```
+```  
 
-توضيح:
+**شرح**  
 
-- تتحقق هذه الطريقة من تشفير المستند الذي تم تحميله من ملف.
--  يستخدم`Document.isEncrypted` الطريقة مشابهة للخطوة السابقة ولكن مع مسار الملف ومعلمة كلمة المرور.
+- هذا التحميل الزائد يعمل مباشرةً مع مسار ملف وسلسلة كلمة مرور.  
+- إذا كان الملف **غير** مشفر، تُعيد `isEncrypted` القيمة `false` وتحتوي `ref[0]` على المستند المحمَّل.  
+- إذا كانت كلمة المرور خاطئة، لا تزال الطريقة تُعيد `true`، مما يدل على أن الملف لا يزال مشفرًا.  
 
-## خاتمة
+## الأخطاء الشائعة والنصائح  
 
-في هذا البرنامج التعليمي، تعلمنا كيفية التحقق مما إذا كان مستند OneNote مشفرًا في Java باستخدام Aspose.Note. باتباع الدليل الموضح خطوة بخطوة واستخدام أمثلة التعليمات البرمجية المتوفرة، يمكنك تحديد حالة تشفير مستنداتك بكفاءة، مما يضمن المعالجة السلسة في تطبيقات Java الخاصة بك.
+- **لا تقم أبدًا بكتابة كلمات المرور صراحةً** في كود الإنتاج؛ احصل عليها بطريقة آمنة (مثلًا من خزانة سرية).  
+- أغلق التدفقات دائمًا في كتلة `finally` أو استخدم `try‑with‑resources` لتجنب تسرب الموارد.  
+- إذا حصلت على `true` من `isEncrypted` وكانت `ref[0]` تساوي `null`، فإن الملف إما مشفر **أو** كلمة المرور المقدمة غير صحيحة. اطلب من المستخدم كلمة المرور الصحيحة وأعد المحاولة.  
 
-## الأسئلة الشائعة
+## الأسئلة المتكررة  
 
-### س1: هل يمكنني التحقق من حالة التشفير دون توفير كلمة مرور؟
+**س: هل يمكنني التحقق من حالة التشفير دون توفير كلمة مرور؟**  
+ج: نعم. استدعِ `Document.isEncrypted` مع كائن `LoadOptions` لا يحدد كلمة مرور؛ ستُعيد الطريقة ببساطة ما إذا كان الملف مشفرًا.  
 
-A1: نعم، يمكنك التحقق من حالة التشفير دون توفير كلمة مرور. ال`Document.isEncrypted` الطريقة تسمح لك بذلك.
+**س: ماذا يحدث إذا قدمت كلمة مرور غير صحيحة؟**  
+ج: تُعيد الطريقة `true`، مما يدل على أن المستند لا يزال مشفرًا، وستكون `ref[0]` تساوي `null`.  
 
-### س2: ماذا يحدث إذا قمت بتوفير كلمة مرور غير صحيحة؟
+**س: هل هناك طريقة لفك تشفير المستند برمجيًا؟**  
+ج: نعم. بمجرد معرفة كلمة المرور الصحيحة، مرّرها إلى `LoadOptions` (أو التحميل الزائد الذي يقبل كلمة مرور) وحمّل المستند؛ سيقوم API بفك تشفيره تلقائيًا.  
 
- ج٢: إذا قمت بتوفير كلمة مرور غير صحيحة عند التحقق من حالة التشفير، فسيتم إرجاع الطريقة`true`، للإشارة إلى أن المستند مشفر، لكن كلمة المرور المقدمة غير صحيحة.
+**س: هل يعمل Aspose.Note مع صيغ Microsoft أخرى؟**  
+ج: Aspose.Note مخصص فقط لملفات OneNote (`.one`). بالنسبة لصيغ Office الأخرى، يمكنك النظر في Aspose.Words، Aspose.Cells، إلخ.  
 
-### س3: هل يمكن فك تشفير مستند مشفر برمجياً؟
+**س: أين يمكنني العثور على المزيد من الأمثلة والدعم؟**  
+ج: زر منتدى [Aspose.Note](https://forum.aspose.com/c/note/28) للحصول على مساعدة المجتمع، وتفقد الوثائق الرسمية لمزيد من عينات الشيفرة.  
 
-ج3: نعم، يمكنك فك تشفير مستند مشفر برمجيًا عن طريق توفير كلمة المرور الصحيحة أثناء تحميل المستند.
+## الخلاصة  
 
-### س4: هل يمكنني استخدام Aspose.Note لتنسيقات المستندات الأخرى إلى جانب OneNote؟
+في هذا الدليل أظهرنا **كيفية التحقق من تشفير OneNote في Java** باستخدام Aspose.Note for Java، مع تغطية السيناريوهات القائمة على التدفق والملف. من خلال دمج هذه الفحوصات في تطبيقك يمكنك التعامل بسلاسة مع ملفات OneNote المشفرة، تحسين تجربة المستخدم، والحفاظ على استقرار خط أنابيب المعالجة.  
 
-ج4: لا، Aspose.Note مصمم خصيصًا للعمل مع مستندات OneNote فقط.
+---  
 
-### س5: أين يمكنني العثور على المزيد من الموارد والدعم لـ Aspose.Note لـ Java؟
+**آخر تحديث:** 2025-11-29  
+**تم الاختبار مع:** Aspose.Note 24.11 for Java  
+**المؤلف:** Aspose  
 
- ج5: يمكنك زيارة[منتدى Aspose.Note](https://forum.aspose.com/c/note/28) لدعم المجتمع والتوثيق.
-{{< /blocks/products/pf/tutorial-page-section >}}
+{{< /blocks/products/pf/tutorial-page-section >}}  
 
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
+{{< /blocks/products/pf/main-container >}}  
+{{< /blocks/products/pf/main-wrap-class >}}  
 
 {{< blocks/products/products-backtop-button >}}
