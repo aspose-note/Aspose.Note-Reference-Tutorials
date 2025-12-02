@@ -125,17 +125,15 @@ A6: Các ảnh nhúng sẽ được render tự động trong đầu ra PNG; kh�
 ### Q7: Tôi có thể đặt DPI hoặc độ phân giải ảnh không?
 A7: Có, sử dụng `opts.setResolution(int dpi)` trước khi gọi `save` để điều chỉnh chất lượng đầu ra.
 
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}
-
 ---
 
 **Cập nhật lần cuối:** 2025-11-29  
 **Kiểm tra với:** Aspose.Note cho Java 24.11 (mới nhất)  
 **Tác giả:** Aspose  
 
----
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

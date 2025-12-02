@@ -124,17 +124,15 @@ oneFile.save(dataDir + "ConvertSpecificPageToPngImage_out.png", opts);
 ### س7: هل يمكنني تعيين DPI أو دقة الصورة؟
 ج7: نعم، استخدم `opts.setResolution(int dpi)` قبل استدعاء `save` للتحكم في جودة الإخراج.
 
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}
-
 ---
 
 **Last Updated:** 2025-11-29  
 **Tested With:** Aspose.Note for Java 24.11 (latest)  
 **Author:** Aspose  
 
----
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

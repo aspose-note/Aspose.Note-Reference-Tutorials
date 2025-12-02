@@ -134,17 +134,15 @@ A6: Inbäddade bilder renderas automatiskt i PNG‑utdata; ingen extra kod behö
 
 A7: Ja, använd `opts.setResolution(int dpi)` innan du anropar `save` för att kontrollera utdata‑kvaliteten.
 
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}
-
 ---
 
 **Last Updated:** 2025-11-29  
 **Tested With:** Aspose.Note for Java 24.11 (latest)  
 **Author:** Aspose  
 
----
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

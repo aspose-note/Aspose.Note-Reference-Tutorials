@@ -123,15 +123,15 @@ A6: 嵌入的圖像會自動在 PNG 輸出中呈現，無需額外程式碼。
 ### Q7: 我可以設定 DPI 或影像解析度嗎？
 A7: 可以，在呼叫 `save` 前使用 `opts.setResolution(int dpi)` 來控制輸出品質。
 
+---
+
+**最後更新：** 2025-11-29  
+**測試環境：** Aspose.Note for Java 24.11（最新）  
+**作者：** Aspose
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
-
----
-
-**最後更新：** 2025-11-29  
-**測試環境：** Aspose.Note for Java 24.11（最新）  
-**作者：** Aspose

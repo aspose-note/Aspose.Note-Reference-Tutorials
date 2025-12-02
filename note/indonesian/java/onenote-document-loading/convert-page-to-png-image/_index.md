@@ -125,15 +125,15 @@ A6: Gambar yang disematkan secara otomatis dirender dalam output PNG; tidak dipe
 ### Q7: Can I set the DPI or image resolution?
 A7: Ya, gunakan `opts.setResolution(int dpi)` sebelum memanggil `save` untuk mengontrol kualitas output.
 
+---
+
+**Terakhir Diperbarui:** 2025-11-29  
+**Diuji Dengan:** Aspose.Note for Java 24.11 (latest)  
+**Penulis:** Aspose
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
-
----
-
-**Terakhir Diperbarui:** 2025-11-29  
-**Diuji Dengan:** Aspose.Note for Java 24.11 (latest)  
-**Penulis:** Aspose

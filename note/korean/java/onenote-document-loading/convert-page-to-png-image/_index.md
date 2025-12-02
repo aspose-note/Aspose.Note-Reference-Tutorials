@@ -125,17 +125,15 @@ A6: 삽입된 이미지는 PNG 출력에 자동으로 렌더링되며 별도의 
 ### Q7: Can I set the DPI or image resolution?
 A7: 예, `save` 호출 전에 `opts.setResolution(int dpi)`를 사용하여 출력 품질을 조정할 수 있습니다.
 
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}
-
 ---
 
 **Last Updated:** 2025-11-29  
 **Tested With:** Aspose.Note for Java 24.11 (latest)  
 **Author:** Aspose  
 
----
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

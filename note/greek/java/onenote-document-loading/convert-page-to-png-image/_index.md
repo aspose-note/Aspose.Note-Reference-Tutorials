@@ -125,17 +125,15 @@ A6: Οι ενσωματωμένες εικόνες αποδίδονται αυτ
 ### Ε7: Μπορώ να ορίσω το DPI ή την ανάλυση της εικόνας;
 A7: Ναι, χρησιμοποιήστε `opts.setResolution(int dpi)` πριν καλέσετε `save` για να ελέγξετε την ποιότητα εξόδου.
 
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}
-
 ---
 
 **Τελευταία ενημέρωση:** 2025-11-29  
 **Δοκιμή με:** Aspose.Note για Java 24.11 (τελευταία)  
 **Συγγραφέας:** Aspose  
 
----
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

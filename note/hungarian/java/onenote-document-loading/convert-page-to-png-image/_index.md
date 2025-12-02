@@ -125,17 +125,15 @@ A6: A beágyazott képek automatikusan megjelennek a PNG kimenetben; nincs szük
 ### Q7: Beállíthatom a DPI‑t vagy a kép felbontását?
 A7: Igen, a `save` hívás előtt használja az `opts.setResolution(int dpi)`‑t a kimeneti minőség szabályozásához.
 
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}
-
 ---
 
 **Utoljára frissítve:** 2025-11-29  
 **Tesztelve a következővel:** Aspose.Note for Java 24.11 (legújabb)  
 **Szerző:** Aspose  
 
----
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

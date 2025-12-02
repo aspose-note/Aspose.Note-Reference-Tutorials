@@ -125,17 +125,15 @@ L’appel à `save` écrit la page sélectionnée dans un fichier PNG sur le dis
 ### Q7 : Puis‑je définir le DPI ou la résolution de l’image ?
 **R7** : Oui, utilisez `opts.setResolution(int dpi)` avant d’appeler `save` pour contrôler la qualité de sortie.
 
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}
-
 ---
 
 **Dernière mise à jour :** 2025-11-29  
 **Testé avec :** Aspose.Note pour Java 24.11 (dernière version)  
 **Auteur :** Aspose  
 
----
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -125,17 +125,15 @@ A6: Eingebettete Bilder werden automatisch im PNG‑Ausgabeformat gerendert; zus
 ### Q7: Kann ich DPI oder Bildauflösung festlegen?
 A7: Ja, verwenden Sie `opts.setResolution(int dpi)` vor dem Aufruf von `save`, um die Ausgabequalität zu steuern.
 
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}
-
 ---
 
 **Zuletzt aktualisiert:** 2025-11-29  
 **Getestet mit:** Aspose.Note für Java 24.11 (latest)  
 **Autor:** Aspose  
 
----
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

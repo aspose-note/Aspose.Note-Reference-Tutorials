@@ -132,17 +132,15 @@ A6：嵌入的图像会自动在 PNG 输出中渲染，无需额外代码。
 
 A7：可以，在调用 `save` 之前使用 `opts.setResolution(int dpi)` 来控制输出质量。
 
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}
-
 ---
 
 **最后更新：** 2025-11-29  
 **测试使用：** Aspose.Note for Java 24.11 (latest)  
 **作者：** Aspose  
 
----
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

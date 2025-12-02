@@ -124,17 +124,15 @@ A6: รูปภาพที่ฝังอยู่จะถูกเรนเ�
 ### Q7: สามารถตั้งค่า DPI หรือความละเอียดของภาพได้หรือไม่?
 A7: ได้ ใช้ `opts.setResolution(int dpi)` ก่อนเรียก `save` เพื่อควบคุมคุณภาพของผลลัพธ์
 
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}
-
 ---
 
 **อัปเดตล่าสุด:** 2025-11-29  
 **ทดสอบด้วย:** Aspose.Note for Java 24.11 (ล่าสุด)  
 **ผู้เขียน:** Aspose  
 
----
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -125,17 +125,15 @@ A6: Osadzone obrazy są renderowane automatycznie w wyjściowym pliku PNG; nie w
 ### Q7: Czy mogę ustawić DPI lub rozdzielczość obrazu?
 A7: Tak, użyj `opts.setResolution(int dpi)` przed wywołaniem `save`, aby kontrolować jakość wyjścia.
 
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}
-
 ---
 
 **Ostatnia aktualizacja:** 2025-11-29  
 **Testowano z:** Aspose.Note dla Javy 24.11 (najnowsza)  
 **Autor:** Aspose  
 
----
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

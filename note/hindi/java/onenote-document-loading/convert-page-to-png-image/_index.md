@@ -125,17 +125,15 @@ A6: एम्बेडेड इमेज़ स्वचालित रूप 
 ### Q7: क्या मैं DPI या इमेज रिज़ॉल्यूशन सेट कर सकता हूँ?
 A7: हाँ, `save` कॉल करने से पहले `opts.setResolution(int dpi)` का उपयोग करके आउटपुट क्वालिटी नियंत्रित कर सकते हैं।
 
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}
-
 ---
 
 **अंतिम अपडेट:** 2025-11-29  
 **टेस्टेड वर्ज़न:** Aspose.Note for Java 24.11 (नवीनतम)  
 **लेखक:** Aspose  
 
----
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

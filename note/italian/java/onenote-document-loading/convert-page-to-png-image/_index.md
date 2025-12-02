@@ -125,15 +125,15 @@ A6: Le immagini incorporate vengono renderizzate automaticamente nell'output PNG
 ### Q7: Posso impostare DPI o risoluzione dell'immagine?
 A7: Sì, usa `opts.setResolution(int dpi)` prima di chiamare `save` per controllare la qualità dell'output.
 
+---
+
+**Ultimo aggiornamento:** 2025-11-29  
+**Testato con:** Aspose.Note per Java 24.11 (latest)  
+**Autore:** Aspose
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
-
----
-
-**Ultimo aggiornamento:** 2025-11-29  
-**Testato con:** Aspose.Note per Java 24.11 (latest)  
-**Autore:** Aspose

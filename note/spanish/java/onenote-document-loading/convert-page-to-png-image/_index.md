@@ -125,17 +125,15 @@ Las imágenes incrustadas se renderizan automáticamente en la salida PNG; no se
 ### P7: ¿Puedo establecer el DPI o la resolución de la imagen?
 Sí, usa `opts.setResolution(int dpi)` antes de llamar a `save` para controlar la calidad de salida.
 
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}
-
 ---
 
 **Última actualización:** 2025-11-29  
 **Probado con:** Aspose.Note for Java 24.11 (latest)  
 **Autor:** Aspose  
 
----
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}
