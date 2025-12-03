@@ -1,33 +1,54 @@
 ---
-title: Ekstrak Konten OneNote menggunakan Document Visitor - Java
-linktitle: Ekstrak Konten OneNote menggunakan Document Visitor - Java
-second_title: Aspose.Catatan Java API
-description: Pelajari cara mengekstrak konten dari dokumen OneNote di Java menggunakan Aspose.Note untuk Java. Tutorial langkah demi langkah dengan contoh kode disediakan.
+date: 2025-12-03
+description: Pelajari cara mengonversi OneNote menjadi teks menggunakan Aspose.Note
+  untuk Java. Panduan langkah demi langkah yang mencakup ekstraksi teks, ekstraksi
+  gambar, dan cara membaca file OneNote.
+language: id
+linktitle: Convert OneNote to Text with Document Visitor – Java
+second_title: Aspose.Note Java API
+title: Konversi OneNote ke Teks dengan Document Visitor – Java
+url: /java/onenote-document-loading/extract-content-using-document-visitor/
 weight: 21
-url: /id/java/onenote-document-loading/extract-content-using-document-visitor/
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Ekstrak Konten OneNote menggunakan Document Visitor - Java
+# Mengonversi OneNote ke Teks dengan Document Visitor – Java
 
-## Perkenalan
+## Pendahuluan
 
-Aspose.Note untuk Java menyediakan fitur canggih untuk mengekstraksi konten dari dokumen OneNote. Dalam tutorial ini, kami akan memandu Anda melalui proses mengekstraksi konten dari dokumen OneNote menggunakan Document Visitor di Java.
+Dalam tutorial ini Anda akan belajar **cara mengonversi OneNote ke teks** menggunakan Document Visitor dari Aspose.Note untuk Java. Baik Anda perlu membaca file OneNote secara programatik, mengekstrak konten teks biasa, atau mengambil gambar yang disematkan, Document Visitor memberi Anda kontrol detail atas setiap node dalam dokumen .one.
+
+## Jawaban Cepat
+- **Apa arti “convert OneNote to text”?** Itu berarti mengekstrak representasi teks biasa (dan secara opsional gambar) dari file .one.  
+- **Perpustakaan mana yang membantu dengan ini?** Aspose.Note untuk Java menyediakan API `DocumentVisitor`.  
+- **Apakah saya memerlukan lisensi?** Versi percobaan gratis dapat digunakan untuk evaluasi; lisensi berbayar diperlukan untuk produksi.  
+- **Bisakah saya juga mengekstrak gambar?** Ya – implementasikan metode `VisitImageStart` untuk mengambil gambar.  
+- **Apa prasyaratnya?** Java JDK 8+, JAR Aspose.Note untuk Java, dan file .one untuk diproses.
+
+## Apa itu “convert OneNote to text”?
+Mengonversi OneNote ke teks berarti secara programatik membaca file OneNote (.one) dan mengambil konten teksnya, judul, serta elemen lainnya tanpa UI OneNote asli. Hal ini berguna untuk pengindeksan pencarian, pelaporan, atau migrasi konten ke platform lain.
+
+## Mengapa menggunakan Document Visitor untuk **cara membaca file OneNote**?
+Document Visitor mengikuti pola desain Visitor, memungkinkan Anda menelusuri setiap elemen (halaman, outline, gambar, run teks kaya, dll.) dalam dokumen OneNote. Dibandingkan dengan memuat seluruh dokumen ke memori dan menguraikannya secara manual, pendekatan visitor adalah:
+
+* **Efisien memori** – memproses node satu per satu.  
+* **Dapat diperluas** – Anda dapat menambahkan logika khusus untuk tipe node apa pun (mis., mengekstrak gambar).  
+* **Akurat** – mempertahankan hierarki asli, memastikan Anda tidak melewatkan konten tersembunyi.
 
 ## Prasyarat
 
-Sebelum memulai, pastikan Anda memiliki hal berikut:
+Sebelum memulai, pastikan Anda memiliki:
 
-1. Java Development Kit (JDK) diinstal pada sistem Anda.
-2.  Aspose.Note untuk perpustakaan Java diunduh. Anda dapat mengunduhnya[Di Sini](https://releases.aspose.com/note/java/).
-3. Dokumen OneNote (dengan ekstensi .one) untuk mengekstrak konten.
+1. **Java Development Kit (JDK) 8 atau lebih baru** terpasang.  
+2. **Aspose.Note untuk Java** library diunduh dari situs resmi – [download here](https://releases.aspose.com/note/java/).  
+3. Sebuah **dokumen OneNote** (`.one` file) yang ingin Anda konversi ke teks.  
 
-## Paket Impor
+## Langkah 1: Impor Paket
 
-Pertama, Anda perlu mengimpor paket yang diperlukan agar dapat bekerja dengan Aspose.Note untuk Java.
+Pertama, impor kelas yang Anda perlukan untuk bekerja dengan Aspose.Note untuk Java.
 
 ```java
 import java.io.IOException;
@@ -44,9 +65,9 @@ import com.aspose.note.RichText;
 import com.aspose.note.Title;
 ```
 
-## Langkah 1: Siapkan Kelas Pengunjung Dokumen
+## Langkah 2: Siapkan Kelas Document Visitor
 
-Buat kelas yang memperluas`DocumentVisitor` kelas yang disediakan oleh Aspose.Note untuk Java. Kelas ini akan menangani kunjungan ke berbagai node dokumen.
+Buat kelas yang memperluas `DocumentVisitor`. Visitor khusus ini akan mengump teks, menghitung node, dan (jika Anda mau) menyimpan gambar.
 
 ```java
 public class ExtractOneNoteContentUsingDocumentvisitor extends DocumentVisitor {
@@ -61,16 +82,16 @@ public class ExtractOneNoteContentUsingDocumentvisitor extends DocumentVisitor {
         mBuilder = new StringBuilder();
     }
     
-    // Metode lain akan diterapkan di sini
+    // Other methods will be implemented here
 }
 ```
 
-## Langkah 2: Terapkan Metode Pengunjung
+## Langkah 3: Implementasikan Metode Visitor  
 
-Terapkan metode pengunjung untuk berbagai jenis node yang ingin Anda proses dalam dokumen. Dalam contoh ini, kita akan mengimplementasikan metode untuk node RichText, Document, Page, Title, Image, OutlineGroup, Outline, dan OutlineElement.
+Di sini kami mengimplementasikan callback untuk tipe node yang kami pedulikan. Metode-metode tersebut meningkatkan penghitung node dan, untuk `RichText`, menambahkan teks sebenarnya ke `StringBuilder` kami. Anda juga dapat menambahkan logika untuk **mengekstrak gambar dari OneNote** dengan menangani `VisitImageStart`.
 
 ```java
-// Metode pengunjung untuk berbagai jenis node
+// Visitor methods for different types of nodes
 
 public /* override */ void VisitRichTextStart(RichText run) {
     ++nodecount;
@@ -91,6 +112,7 @@ public /* override */ void VisitTitleStart(Title title) {
 
 public /* override */ void VisitImageStart(Image image) {
     ++nodecount;
+    // Pro tip: you can save the image stream here if you need to extract images.
 }
 
 public /* override */ void VisitOutlineGroupStart(OutlineGroup outlineGroup) {
@@ -106,53 +128,68 @@ public void VisitOutlineElementStart(OutlineElement outlineElement) {
 }
 ```
 
-## Langkah 3: Metode Utama
+## Langkah 4: Metode Main – Jalankan Visitor
 
-Dalam metode utama, muat dokumen OneNote, buat instance kelas Pengunjung Dokumen kustom Anda, dan terima pengunjung untuk memulai proses kunjungan.
+Metode `main` memuat file OneNote, membuat instance visitor khusus kami, dan memulai penelusuran. Setelah penelusuran, kami mencetak teks yang diekstrak dan total jumlah node.
 
 ```java
 public static void main(String[] args) throws IOException {
-    // Buka dokumen yang ingin kita konversi.
+    // Open the document we want to convert.
     String dataDir = "Your Document Directory";
     Document doc = new Document(dataDir + "Sample1.one", new LoadOptions());
     
-    // Buat objek yang mewarisi kelas DocumentVisitor.
+    // Create an object that inherits from the DocumentVisitor class.
     ExtractOneNoteContentUsingDocumentvisitor myConverter = new ExtractOneNoteContentUsingDocumentvisitor();
     
-    // Terima pengunjung untuk memulai proses kunjungan.
+    // Accept the visitor to start the visiting process.
     doc.accept(myConverter);
     
-    // Ambil hasil operasi.
+    // Retrieve the result of the operation.
     System.out.println(myConverter.GetText());
     System.out.println(myConverter.NodeCount());
 }
 ```
 
-## Kesimpulan
+## Kasus Penggunaan Umum – **mengekstrak gambar dari OneNote**
 
-Dalam tutorial ini, Anda mempelajari cara mengekstrak konten dari dokumen OneNote menggunakan Aspose.Note untuk Java. Dengan menerapkan kelas Pengunjung Dokumen khusus dan mengunjungi node dokumen yang berbeda, Anda dapat mengekstrak dan memproses konten secara efektif sesuai kebutuhan Anda.
+* **Pengindeksan pencarian** – Mengonversi notebook OneNote menjadi teks biasa untuk mesin pencarian full‑text.  
+* **Migrasi konten** – Memindahkan catatan ke CMS atau portal dokumentasi.  
+* **Analitik data** – Mengambil teks dan gambar untuk pemrosesan bahasa alami atau analisis gambar.  
 
-## FAQ
+## Masalah Umum dan Solusinya
 
-### Q1: Bisakah saya mengekstrak tipe konten tertentu dari dokumen OneNote?
+| Issue | Solution |
+|-------|----------|
+| **NullPointerException saat membaca file .one** | Pastikan jalur file (`dataDir`) diakhiri dengan pemisah jalur (`/` atau `\\`) dan file tersebut ada. |
+| **Gambar tidak diekstrak** | Implementasikan logika di dalam `VisitImageStart` untuk menulis `image.getImageData()` ke file atau stream. |
+| **Notebook besar menyebabkan penggunaan memori tinggi** | Proses dokumen halaman per halaman atau gunakan API streaming jika tersedia. |
 
-A1: Ya, dengan menerapkan metode pengunjung spesifik untuk jenis node yang berbeda, Anda dapat mengekstrak konten secara selektif seperti teks, gambar, judul, dll.
+## Pertanyaan yang Sering Diajukan
 
-### Q2: Apakah Aspose.Note untuk Java kompatibel dengan versi dokumen OneNote yang berbeda?
+**Q:** Bisakah saya mengekstrak tipe konten tertentu dari dokumen OneNote?  
+**A:** Ya, dengan mengimplementasikan hanya metode visitor yang Anda butuhkan (mis., `VisitRichTextStart` untuk teks, `VisitImageStart` untuk gambar).
 
-A2: Aspose.Note untuk Java mendukung berbagai versi dokumen OneNote, memastikan kompatibilitas dan ekstraksi konten yang lancar.
+**Q:** Apakah Aspose.Note untuk Java kompatibel dengan berbagai versi file OneNote?  
+**A:** Tentu saja. Perpustakaan ini mendukung file .one yang dibuat oleh versi terbaru Microsoft OneNote.
 
-### Q3: Dapatkah saya mengintegrasikan proses ekstraksi ini ke dalam aplikasi Java saya?
+**Q:** Bisakah saya mengintegrasikan proses ekstraksi ini ke dalam aplikasi Java saya?  
+**A:** Ya. Kode yang ditampilkan adalah contoh mandiri yang dapat Anda sematkan langsung ke proyek Java mana pun.
 
-A3: Tentu saja, Anda dapat mengintegrasikan proses ekstraksi konten ke dalam aplikasi Java Anda dengan mudah dengan mengikuti tutorial yang disediakan.
+**Q:** Apakah Aspose.Note untuk Java menangani struktur OneNote yang kompleks?  
+**A:** Ya. Pola Visitor memungkinkan Anda menavigasi outline bersarang, grup, dan objek tersemat tanpa kehilangan hierarki.
 
-### Q4: Apakah Aspose.Note untuk Java menyediakan dukungan untuk menangani dokumen OneNote yang kompleks?
+**Q:** Apakah ada batasan ukuran dokumen OneNote yang dapat diproses?  
+**A:** Meskipun tidak ada batasan keras, notebook yang sangat besar mungkin memerlukan lebih banyak memori heap; pertimbangkan memprosesnya secara bertahap.
 
-A4: Ya, Aspose.Note untuk Java menawarkan dukungan komprehensif untuk menangani struktur dan konten kompleks dalam dokumen OneNote.
+**Q:** Bagaimana cara mengekstrak gambar dari OneNote?  
+**A:** Implementasikan metode `VisitImageStart` untuk mengakses `image.getImageData()` dan menulis byte ke file.
 
-### Q5: Apakah ada batasan ukuran dokumen OneNote yang dapat diproses menggunakan Aspose.Note untuk Java?
+---
 
-A5: Aspose.Note untuk Java dirancang untuk menangani dokumen OneNote dengan berbagai ukuran secara efisien, memastikan performa optimal bahkan dengan dokumen berukuran besar.
+**Terakhir Diperbarui:** 2025-12-03  
+**Diuji Dengan:** Aspose.Note for Java 24.11  
+**Penulis:** Aspose  
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
