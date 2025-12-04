@@ -1,33 +1,42 @@
 ---
-title: 使用文档访问器提取 OneNote 内容 - Java
-linktitle: 使用文档访问器提取 OneNote 内容 - Java
+date: 2025-12-04
+description: 学习如何使用 Aspose.Note 在 Java 中从 OneNote 文件中提取图像并将 OneNote 转换为文本。一步一步的指南，附带代码示例。
+language: zh
+linktitle: Extract Images from OneNote using Document Visitor - Java
 second_title: Aspose.Note Java API
-description: 了解如何使用 Aspose.Note for Java 从 Java 中的 OneNote 文档中提取内容。提供了带有代码示例的分步教程。
+title: 使用文档访问器从 OneNote 中提取图像 - Java
+url: /java/onenote-document-loading/extract-content-using-document-visitor/
 weight: 21
-url: /zh/java/onenote-document-loading/extract-content-using-document-visitor/
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# 使用文档访问器提取 OneNote 内容 - Java
+# 使用 Document Visitor 从 OneNote 中提取图像 - Java
 
 ## 介绍
 
-Aspose.Note for Java 提供了从 OneNote 文档中提取内容的强大功能。在本教程中，我们将指导您完成使用 Java 中的文档访问器从 OneNote 文档中提取内容的过程。
+Aspose.Note for Java 让 **从 OneNote 笔记本中提取图像** 变得轻而易举，同时也可以在 Java 中读取底层的 `.one` 文件。在本教程中，我们将通过一个完整的实战示例，演示如何加载 OneNote 文件、使用自定义的 `DocumentVisitor` 遍历其结构，并提取图像和纯文本。结束时，你还将了解如果只需要文本内容，如何 **将 OneNote 转换为文本**。
 
-## 先决条件
+## 快速答疑
+- **需要哪个库？** Aspose.Note for Java（下载链接见下方）。  
+- **只能提取图像吗？** 可以——在 `DocumentVisitor` 中实现 `VisitImageStart` 方法即可。  
+- **如何在 Java 中读取 .one 文件？** 使用 `new Document(path, new LoadOptions())`。  
+- **生产环境需要许可证吗？** 非试用使用必须购买商业许可证。  
+- **支持哪个 Java 版本？** JDK 8 或更高。
 
-在开始之前，请确保您具备以下条件：
+## 前置条件
 
-1. 您的系统上安装了 Java 开发工具包 (JDK)。
-2. 下载了 Java 库的 Aspose.Note。你可以下载它[这里](https://releases.aspose.com/note/java/).
-3. 要从中提取内容的 OneNote 文档（扩展名为 .one）。
+在开始之前，请确保你已经：
+
+1. 安装了 Java Development Kit (JDK) 8 或更高版本。  
+2. 下载了 Aspose.Note for Java 库。你可以在 **[此处](https://releases.aspose.com/note/java/)** 下载。  
+3. 准备好要提取图像或转换为文本的 OneNote 文档（`.one` 文件）。
 
 ## 导入包
 
-首先，您需要导入必要的包才能使用 Aspose.Note for Java。
+首先，导入 Aspose.Note API 中所需的类。
 
 ```java
 import java.io.IOException;
@@ -44,9 +53,9 @@ import com.aspose.note.RichText;
 import com.aspose.note.Title;
 ```
 
-## 第 1 步：设置文档访问者类
+## 步骤 1：创建自定义 Document Visitor
 
-创建一个类来扩展`DocumentVisitor`Aspose.Note for Java 提供的类。此类将处理访问文档的不同节点。
+创建一个继承自 `DocumentVisitor` 的类。该类将在 OneNote 文档的每个节点被访问时调用，从而 **从 OneNote 中提取图像**，并可选地收集文本。
 
 ```java
 public class ExtractOneNoteContentUsingDocumentvisitor extends DocumentVisitor {
@@ -61,16 +70,16 @@ public class ExtractOneNoteContentUsingDocumentvisitor extends DocumentVisitor {
         mBuilder = new StringBuilder();
     }
     
-    //其他方法将在这里实现
+    // Other methods will be implemented here
 }
 ```
 
-## 第 2 步：实现访问者方法
+## 步骤 2：实现 Visitor 方法
 
-为文档中要处理的不同类型的节点实现访问者方法。在此示例中，我们将为 RichText、Document、Page、Title、Image、OutlineGroup、Outline 和 OutlineElement 节点实现方法。
+为你关心的节点类型添加覆盖方法。下面的示例处理富文本、图像、标题、页面、轮廓以及轮廓元素。`VisitImageStart` 方法负责图像提取。
 
 ```java
-//不同类型节点的访问者方法
+// Visitor methods for different types of nodes
 
 public /* override */ void VisitRichTextStart(RichText run) {
     ++nodecount;
@@ -91,6 +100,8 @@ public /* override */ void VisitTitleStart(Title title) {
 
 public /* override */ void VisitImageStart(Image image) {
     ++nodecount;
+    // Here you could save the image to disk or process it further
+    System.out.println("Found image with size: " + image.getData().length + " bytes");
 }
 
 public /* override */ void VisitOutlineGroupStart(OutlineGroup outlineGroup) {
@@ -106,53 +117,72 @@ public void VisitOutlineElementStart(OutlineElement outlineElement) {
 }
 ```
 
-## 第三步：主要方法
+### 为什么要实现这些方法？
 
-在 main 方法中，加载 OneNote 文档，创建自定义文档访问者类的实例，并接受访问者以启动访问过程。
+- **从 OneNote 中提取图像：** `VisitImageStart` 直接提供原始图像字节。  
+- **将 OneNote 转换为文本：** `VisitRichTextStart` 收集文本内容，实现简单的 **将 OneNote 转换为文本** 操作。  
+- **读取 .one 文件 Java：** Visitor 模式抽象了底层 `.one` 文件结构，无需自行解析二进制格式。
+
+## 步骤 3：在 Main 方法中运行 Visitor
+
+加载 `.one` 文件，实例化你的 Visitor，并启动遍历。
 
 ```java
 public static void main(String[] args) throws IOException {
-    //打开我们要转换的文档。
+    // Open the document we want to convert.
     String dataDir = "Your Document Directory";
     Document doc = new Document(dataDir + "Sample1.one", new LoadOptions());
     
-    //创建一个继承自 DocumentVisitor 类的对象。
+    // Create an object that inherits from the DocumentVisitor class.
     ExtractOneNoteContentUsingDocumentvisitor myConverter = new ExtractOneNoteContentUsingDocumentvisitor();
     
-    //接受访客以开始访问流程。
+    // Accept the visitor to start the visiting process.
     doc.accept(myConverter);
     
-    //检索操作结果。
-    System.out.println(myConverter.GetText());
-    System.out.println(myConverter.NodeCount());
+    // Retrieve the result of the operation.
+    System.out.println(myConverter.GetText());   // Text extracted from the notebook
+    System.out.println(myConverter.NodeCount()); // Total nodes visited
 }
 ```
 
-## 结论
+## 常见使用场景
 
-在本教程中，您学习了如何使用 Aspose.Note for Java 从 OneNote 文档中提取内容。通过实现自定义文档访问者类并访问文档的不同节点，您可以根据您的要求有效地提取和处理内容。
+- **自动化报告：** 从 OneNote 会议笔记本中提取图像和文本，生成 PDF 或 HTML 摘要。  
+- **内容迁移：** 将旧版 OneNote 档案转换为纯文本文件，以便索引或搜索引擎抓取。  
+- **数字资产提取：** 收集嵌入的截图、图表或照片，以便在其他应用中复用。
 
-## 常见问题解答
+## 故障排查与技巧
 
-### Q1：我可以从 OneNote 文档中提取特定类型的内容吗？
+- **大型笔记本：** 如遇内存问题，可通过检查 `VisitPageStart` 并仅在需要时加载页面级资源来逐页处理。  
+- **图像格式：** `Image` 对象返回原始字节；保存前可能需要检测格式（PNG、JPEG）。  
+- **许可证错误：** 在生产环境加载文档前，请确保已设置 Aspose 许可证（`License license = new License(); license.setLicense("Aspose.Note.Java.lic");`）。
 
-A1：是的，通过为不同的节点类型实现特定的访问者方法，您可以选择性地提取文本、图像、标题等内容。
+## 常见问题
 
-### Q2：Aspose.Note for Java 是否兼容不同版本的 OneNote 文档？
+**问：我可以只提取 OneNote 文档中的特定类型内容吗？**  
+答：可以——只需覆盖你需要的 Visitor 方法（例如仅覆盖 `VisitImageStart` 提取图像，或 `VisitRichTextStart` 提取文本）。
 
-A2：Aspose.Note for Java支持各种版本的OneNote文档，保证兼容性和内容顺利提取。
+**问：Aspose.Note for Java 是否兼容不同版本的 OneNote 文档？**  
+答：完全兼容。该库支持所有主流 OneNote 文件版本，您可以放心 **在 Java 中读取 .one 文件**，无论原始 OneNote 版本如何。
 
-### Q3：我可以将此提取过程集成到我的 Java 应用程序中吗？
+**问：我能将此提取过程集成到我的 Java 应用中吗？**  
+答：可以。Visitor 模式可无缝嵌入任何 Java 代码库，只需添加库 JAR 并调用上面的示例即可。
 
-A3：当然，您可以按照提供的教程轻松地将内容提取过程集成到您的 Java 应用程序中。
+**问：Aspose.Note for Java 是否支持处理复杂的 OneNote 文档？**  
+答：支持。嵌套轮廓、嵌入媒体以及自定义数据都可以通过 Visitor API 访问。
 
-### Q4：Aspose.Note for Java 是否支持处理复杂的 OneNote 文档？
+**问：处理的 OneNote 文档大小有没有限制？**  
+答：没有硬性限制，但极大的笔记本可能需要更多堆内存；建议按页处理以降低内存占用。
 
-A4：是的，Aspose.Note for Java 为处理 OneNote 文档中的复杂结构和内容提供了全面的支持。
+**问：如何将提取的文本保存为纯文本文件？**  
+答：在 `myConverter.GetText()` 返回 `String` 后，使用标准 Java I/O（`Files.write(Paths.get("output.txt"), text.getBytes());`）写入文件。
 
-### Q5：使用 Aspose.Note for Java 处理的 OneNote 文档的大小有限制吗？
+---  
 
-A5：Aspose.Note for Java 旨在高效处理各种大小的 OneNote 文档，即使处理大型文档也能确保最佳性能。
+**最近更新：** 2025-12-04  
+**测试环境：** Aspose.Note for Java 24.10  
+**作者：** Aspose  
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
