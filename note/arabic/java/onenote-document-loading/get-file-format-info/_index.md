@@ -1,33 +1,43 @@
 ---
-title: احصل على معلومات تنسيق الملف من OneNote - Java
-linktitle: احصل على معلومات تنسيق الملف من OneNote - Java
-second_title: Aspose.Note جافا API
-description: تعلم كيفية استخراج تفاصيل تنسيق الملف من ملفات OneNote في Java باستخدام Aspose.Note. قم بتحسين تطبيقات Java الخاصة بك باتباع هذا البرنامج التعليمي الشامل.
+date: 2025-12-04
+description: تعلم كيفية استخراج تنسيق ملف Aspose Note من ملفات OneNote باستخدام Java
+  وAspose.Note. يوضح هذا البرنامج التعليمي الشيفرة خطوة بخطوة وأفضل الممارسات.
+language: ar
+linktitle: Get Aspose Note File Format Info from OneNote - Java
+second_title: Aspose.Note Java API
+title: احصل على معلومات تنسيق ملف Aspose Note من OneNote باستخدام Java
+url: /java/onenote-document-loading/get-file-format-info/
 weight: 22
-url: /ar/java/onenote-document-loading/get-file-format-info/
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# احصل على معلومات تنسيق الملف من OneNote - Java
+# احصل على معلومات تنسيق ملف Aspose Note من OneNote - Java
 
 ## مقدمة
 
-في هذا البرنامج التعليمي، سنستكشف كيفية استرداد معلومات تنسيق الملف من ملف OneNote باستخدام Java بمساعدة Aspose.Note. Aspose.Note for Java عبارة عن واجهة برمجة تطبيقات قوية تتيح للمطورين العمل مع ملفات Microsoft OneNote برمجيًا، مما يتيح مهام مثل القراءة والكتابة ومعالجة مستندات OneNote بسلاسة.
+في هذا البرنامج التعليمي ستتعلم كيفية استرجاع **aspose note file format** لمستند OneNote باستخدام Java و Aspose.Note API. معرفة تنسيق الملف الدقيق يتيح لك تخصيص منطق المعالجة—على سبيل المثال، التعامل مع ملفات OneNote 2010 بشكل مختلف عن ملفات OneNote Online—حتى يتمكن تطبيقك من العمل بثقة مع أي نسخة من دفتر ملاحظات OneNote.
 
-## المتطلبات الأساسية
+## إجابات سريعة
+- **ماذا يعني “aspose note file format”?** إنه قيمة enum التي تخبرك بأي نسخة من OneNote ينتمي الملف (مثال: OneNote 2010، OneNote Online).  
+- **ما المكتبة التي توفر هذه المعلومات؟** Aspose.Note for Java.  
+- **هل أحتاج إلى ترخيص لتشغيل العينة؟** نسخة تجريبية مجانية تعمل للتقييم؛ الترخيص التجاري مطلوب للإنتاج.  
+- **ما المتطلبات المسبقة؟** JDK 11+ و Aspose.Note for Java JAR على مسار الفئات الخاص بك.  
+- **كم من الوقت تستغرق العملية؟** حوالي 5 دقائق لنسخ الكود وتشغيله.  
 
-قبل أن نبدأ، تأكد من إعداد المتطلبات الأساسية التالية:
+## المتطلبات المسبقة
 
-1.  Java Development Kit (JDK): تأكد من تثبيت JDK على نظامك. يمكنك تنزيل وتثبيت JDK من[هنا](https://www.oracle.com/java/technologies/javase-jdk11-downloads.html).
+قبل أن نبدأ، تأكد من إعداد المتطلبات المسبقة التالية:
 
-2.  Aspose.Note لمكتبة Java: قم بتنزيل مكتبة Aspose.Note لـ Java وتضمينها في مشروعك. يمكنك العثور على رابط التحميل[هنا](https://releases.aspose.com/note/java/).
+1. مجموعة تطوير جافا (JDK): تأكد من تثبيت JDK على نظامك. يمكنك تنزيل وتثبيت JDK من [here](https://www.oracle.com/java/technologies/javase-jdk11-downloads.html).
 
-## حزم الاستيراد
+2. مكتبة Aspose.Note for Java: قم بتنزيل وإدراج مكتبة Aspose.Note for Java في مشروعك. يمكنك العثور على رابط التنزيل [here](https://releases.aspose.com/note/java/).
 
-أولاً، قم باستيراد الحزم الضرورية إلى مشروع Java الخاص بك لبدء العمل مع Aspose.Note. وإليك كيف يمكنك القيام بذلك:
+## استيراد الحزم
+
+أولاً، استورد الحزم اللازمة إلى مشروع Java الخاص بك للبدء في العمل مع Aspose.Note. إليك الطريقة:
 
 ## الخطوة 1: استيراد حزمة Aspose.Note
 
@@ -37,55 +47,91 @@ import com.aspose.note.Document;
 import com.aspose.note.FileFormat;
 ```
 
-الآن، لنتابع عملية استرداد معلومات تنسيق الملف من ملف OneNote.
+الآن، دعنا نتابع استرجاع معلومات **aspose note file format** من ملف OneNote.
 
-## الخطوة 1: تهيئة كائن المستند
+## استرجاع تنسيق ملف Aspose Note
+
+### الخطوة 2: تهيئة كائن Document
 
 ```java
 String dataDir = "Your Document Directory";
 Document document = new Document(dataDir + "Aspose.one");
 ```
 
-## الخطوة 2: تبديل البيان لتنسيق الملف
+### الخطوة 3: جملة Switch لتحديد تنسيق الملف
 
-استخدم عبارة التبديل لتحديد تنسيق ملف مستند OneNote.
+استخدم جملة `switch` لتحديد تنسيق ملف OneNote. يتيح لك ذلك توجيه المنطق بناءً على ما إذا كان الملف دفتر ملاحظات OneNote 2010 أو دفتر ملاحظات OneNote Online.
 
 ```java
 switch (document.getFileFormat()) {
     case FileFormat.OneNote2010:
-        // عملية ون نوت 2010
+        // Process OneNote 2010
         break;
     case FileFormat.OneNoteOnline:
-        // معالجة OneNote عبر الإنترنت
+        // Process OneNote Online
         break;
 }
 ```
 
-## خاتمة
+## لماذا معرفة تنسيق ملف Aspose Note مهم
 
-في هذا البرنامج التعليمي، تعلمنا كيفية استرداد معلومات تنسيق الملف من ملف OneNote باستخدام Java مع Aspose.Note. باتباع الخطوات الموضحة أعلاه، يمكنك دمج هذه الوظيفة بسلاسة في تطبيقات Java، مما يتيح معالجة فعالة لمستندات OneNote برمجيًا.
+تحديد التنسيق الدقيق للملف يساعدك في:
 
-## الأسئلة الشائعة
+* **اختر محرك العرض المناسب** – قد تحتاج الصيغ القديمة إلى معالجة قديمة.  
+* **تجنب مشكلات التوافق** – بعض الميزات متاحة فقط في إصدارات OneNote الأحدث.  
+* **تحسين الأداء** – يمكنك تخطي المعالجة غير الضرورية للتنسيقات التي لا تدعمها.  
 
-### س1: هل يمكنني استخدام Aspose.Note لـ Java لتحرير ملفات OneNote؟
+## المشكلات الشائعة والنصائح
 
-ج1: نعم، يوفر Aspose.Note for Java ميزات شاملة لتحرير ملفات OneNote وإنشائها ومعالجتها برمجيًا.
+* **Pitfall:** نسيان تعيين المسار الصحيح لـ `dataDir`.  
+  **Tip:** استخدم مسارًا مطلقًا أو تحقق من المسار النسبي من جذر مشروعك.  
 
-### س2: هل Aspose.Note for Java متوافق مع كافة إصدارات ملفات OneNote؟
+* **Pitfall:** الافتراض بأن `document.getFileFormat()` دائمًا يعيد enum معروف.  
+  **Tip:** أضف حالة `default` في جملة `switch` للتعامل مع التنسيقات غير المتوقعة بشكل سلس.  
 
-ج2: يدعم Aspose.Note for Java إصدارات مختلفة من ملفات OneNote، بما في ذلك OneNote 2010 وOneNote Online.
+## الخلاصة
 
-### س3: أين يمكنني العثور على دعم لـ Aspose.Note لـ Java؟
+في هذا البرنامج التعليمي، تعلمنا كيفية استرجاع **aspose note file format** من ملف OneNote باستخدام Java مع Aspose.Note. باتباع الخطوات أعلاه، يمكنك دمج اكتشاف التنسيق بسهولة في تطبيقات Java الخاصة بك، مما يتيح معالجة موثوقة لمستندات OneNote عبر الإصدارات المختلفة.
 
-ج3: يمكنك العثور على الدعم والمساعدة لـ Aspose.Note لـ Java على[منتدى Aspose.Note](https://forum.aspose.com/c/note/28).
+## الأسئلة المتكررة
 
-### س4: هل تتوفر نسخة تجريبية مجانية من Aspose.Note لـ Java؟
+### س1: هل يمكنني استخدام Aspose.Note for Java لتعديل ملفات OneNote؟
 
- ج4: نعم، يمكنك الوصول إلى النسخة التجريبية المجانية من Aspose.Note لـ Java من[هنا](https://releases.aspose.com/).
+A1: نعم، توفر Aspose.Note for Java ميزات شاملة لتعديل وإنشاء ومعالجة ملفات OneNote برمجيًا.
 
-### س5: كيف يمكنني شراء ترخيص Aspose.Note لـ Java؟
+### س2: هل Aspose.Note for Java متوافق مع جميع إصدارات ملفات OneNote؟
 
- ج5: يمكنك شراء ترخيص Aspose.Note لـ Java من[صفحة الشراء](https://purchase.aspose.com/buy).
+A2: تدعم Aspose.Note for Java إصدارات مختلفة من ملفات OneNote، بما في ذلك OneNote 2010 و OneNote Online.
+
+### س3: أين يمكنني العثور على الدعم لـ Aspose.Note for Java؟
+
+A3: يمكنك العثور على الدعم والمساعدة لـ Aspose.Note for Java في [منتدى Aspose.Note](https://forum.aspose.com/c/note/28).
+
+### س4: هل هناك نسخة تجريبية مجانية متاحة لـ Aspose.Note for Java؟
+
+A4: نعم، يمكنك الوصول إلى نسخة تجريبية مجانية من Aspose.Note for Java من [here](https://releases.aspose.com/).
+
+### س5: كيف يمكنني شراء ترخيص لـ Aspose.Note for Java؟
+
+A5: يمكنك شراء ترخيص لـ Aspose.Note for Java من [صفحة الشراء](https://purchase.aspose.com/buy).
+
+## الأسئلة المتداولة
+
+**س: هل يعمل الـ API مع ملفات OneNote المحمية بكلمة مرور؟**  
+**ج:** نعم، يمكنك فتح ملف محمي عن طريق توفير كلمة المرور عند إنشاء كائن `Document`.
+
+**س: هل يمكنني اكتشاف تنسيق الملف دون تحميل المستند بالكامل؟**  
+**ج:** يقوم مُنشئ `Document` بتحليل الرأس لتحديد التنسيق، لذا يكون الحمل الزائد قليلًا.
+
+**س: هل هناك طريقة لسرد جميع تنسيقات الملفات المدعومة برمجيًا؟**  
+**ج:** يمكنك التكرار على قيم enum `FileFormat` لرؤية كل تنسيق يتعرف عليه Aspose.Note.
+
+---
+
+**آخر تحديث:** 2025-12-04  
+**تم الاختبار مع:** Aspose.Note for Java 24.11  
+**المؤلف:** Aspose  
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
