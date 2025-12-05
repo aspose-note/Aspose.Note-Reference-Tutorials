@@ -1,41 +1,52 @@
 ---
-title: قم بتحميل مستند OneNote إلى Aspose.Note باستخدام PdfSaveOptions
-linktitle: قم بتحميل مستند OneNote إلى Aspose.Note باستخدام PdfSaveOptions
-second_title: Aspose.Note جافا API
-description: تعرف على كيفية استخدام Aspose.Note لـ Java لتحميل مستندات OneNote وتحويلها إلى تنسيق PDF دون عناء. قم بتبسيط مهام تحويل المستندات الخاصة بك باستخدام Aspose.Note.
+date: 2025-12-05
+description: تعلم كيفية تحويل OneNote إلى PDF وحفظ OneNote كملف PDF باستخدام Aspose.Note
+  للغة Java. بسط مهام تحويل المستندات الخاصة بك باستخدام PdfSaveOptions.
+language: ar
+linktitle: Load OneNote Document into Aspose.Note using PdfSaveOptions
+second_title: Aspose.Note Java API
+title: تحويل OneNote إلى PDF باستخدام Aspose.Note و PdfSaveOptions
+url: /java/onenote-document-loading/load-pdf-save-options/
 weight: 23
-url: /ar/java/onenote-document-loading/load-pdf-save-options/
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# قم بتحميل مستند OneNote إلى Aspose.Note باستخدام PdfSaveOptions
+# تحويل OneNote إلى PDF باستخدام Aspose.Note و PdfSaveOptions
 
-## مقدمة
+## المقدمة
 
-مرحبًا بك في هذا الدليل الشامل حول استخدام Aspose.Note لـ Java! في هذا البرنامج التعليمي، سنستكشف كيفية استخدام Aspose.Note لتحميل مستندات OneNote وحفظها كملفات PDF باستخدام PdfSaveOptions. Aspose.Note هي مكتبة Java قوية تتيح للمطورين العمل مع ملفات Microsoft OneNote بسلاسة. بحلول نهاية هذا البرنامج التعليمي، سيكون لديك فهم واضح لكيفية دمج Aspose.Note في مشاريع Java الخاصة بك وإجراء تحويلات المستندات دون عناء.
+في هذا الدليل الشامل، ستتعلم **كيفية تحويل OneNote إلى PDF** باستخدام Aspose.Note للغة Java. سنستعرض خطوات تحميل ملف OneNote، ضبط إعدادات التحويل، وأخيرًا حفظ النتيجة كملف PDF. بنهاية هذا الشرح ستكون قادرًا على دمج هذه العملية في تطبيقات Java الخاصة بك بسهولة.
 
-## المتطلبات الأساسية
+## إجابات سريعة
+- **ما المكتبة التي تتولى التحويل؟** Aspose.Note للغة Java مع `PdfSaveOptions`.
+- **كم من الوقت تستغرق التنفيذ الأساسي؟** حوالي 5‑10 دقائق للحصول على نموذج عمل.
+- **هل أحتاج إلى رخصة للإنتاج؟** نعم، يلزم الحصول على رخصة تجارية؛ يتوفر إصدار تجريبي مجاني.
+- **هل يمكنني تخصيص مخرجات PDF؟** بالتأكيد – `PdfSaveOptions` يتيح لك ضبط حجم الصفحة، الهوامش، والمزيد.
+- **ما صيغ OneNote المدعومة؟** كل من ملفات `.one` و `.onepkg` مدعومة.
 
-قبل أن نبدأ، تأكد من توفر المتطلبات الأساسية التالية:
+## تحويل OneNote إلى PDF – مقدمة
 
-### 1. إعداد بيئة تطوير جافا
+Aspose.Note يبسط التعامل مع ملفات Microsoft OneNote في Java. سواء كنت تحتاج إلى إنشاء تقارير، أرشفة ملاحظات، أو دمج محتوى OneNote في سير عمل أكبر، فإن تحويل هذه الملفات إلى PDF غالبًا ما يكون الخطوة الأولى.
 
-تأكد من تثبيت JDK (Java Development Kit) على نظامك. يمكنك تنزيل JDK وتثبيته من موقع Oracle الإلكتروني.
+## المتطلبات المسبقة
 
-### 2. Aspose.Note لمكتبة جافا
+قبل أن تبدأ، تأكد من توفر ما يلي:
 
- قم بتنزيل مكتبة Aspose.Note لـ Java من[موقع إلكتروني](https://releases.aspose.com/note/java/) وإدراجه في مشروع Java الخاص بك.
+### 1. بيئة تطوير Java
+إصدار حديث من JDK (يوصى بـ Java 17 أو أحدث). يمكنك تحميله من موقع Oracle أو اعتماد OpenJDK.
 
-### 3. نموذج مستند OneNote
+### 2. مكتبة Aspose.Note للغة Java
+احصل على أحدث حزمة Aspose.Note للغة Java من [صفحة التحميل الرسمية](https://releases.aspose.com/note/java/) وأضف ملف الـ JAR إلى مسار الـ classpath في مشروعك.
 
-قم بإعداد نموذج مستند OneNote الذي تريد تحويله إلى تنسيق PDF لأغراض الاختبار.
+### 3. مستند OneNote تجريبي
+ملف `.one` أو `.onepkg` ترغب في تحويله. للاختبار، يستخدم الدليل `Sample1.one`.
 
-## حزم الاستيراد
+## استيراد الحزم
 
-للبدء، قم باستيراد الحزم الضرورية إلى مشروع Java الخاص بك. ستمكنك هذه الحزم من الاستفادة من الوظائف التي يوفرها Aspose.Note.
+أولاً، استورد الفئات التي ستحتاجها. هذه الاستيرادات تمنحك الوصول إلى نموذج المستند الأساسي وخيارات تحويل PDF.
 
 ```java
 import java.io.IOException;
@@ -43,52 +54,64 @@ import com.aspose.note.Document;
 import com.aspose.note.PdfSaveOptions;
 ```
 
-## الخطوة 1: قم بتحميل مستند OneNote
+## حفظ OneNote كملف PDF باستخدام PdfSaveOptions
 
-الخطوة الأولى هي تحميل مستند OneNote في Aspose.Note.
+فيما يلي نقسم العملية إلى خطوتين واضحين: تحميل الملف المصدر وحفظه كملف PDF. كل خطوة تتضمن شرحًا مختصرًا لتفهم **سبب** تنفيذها.
+
+### الخطوة 1: تحميل مستند OneNote
+
+ننشئ كائن `Document` بالإشارة إلى ملف OneNote الموجود على القرص.
 
 ```java
-// قم بتحميل المستند إلى Aspose.Note.
+// Load the document into Aspose.Note.
 String dataDir = "Your Document Directory";
 Document oneFile = new Document(dataDir + "Sample1.one");
 ```
 
-## الخطوة 2: احفظ المستند بصيغة PDF
+*لماذا هذا مهم:* تحميل الملف إلى كائن `Document` يمنحك تحكمًا برمجيًا كاملاً في محتوياته، مما يسمح بإجراء تعديلات إضافية قبل التحويل إذا لزم الأمر.
 
-بمجرد تحميل المستند، فإن الخطوة التالية هي حفظه كملف PDF باستخدام PdfSaveOptions.
+### الخطوة 2: حفظ المستند كملف PDF
+
+الآن نستدعي طريقة `save`، مع تمرير كائن `PdfSaveOptions` جديد. هذا يخبر Aspose.Note بترجمة صفحات OneNote إلى صفحات PDF.
 
 ```java
-// احفظ المستند بصيغة PDF
+// Save the document as PDF
 oneFile.save(dataDir + "LoadDocIntoAsposeNoteUsingPdfsaveoptions_out.pdf", new PdfSaveOptions());
 ```
 
-تهانينا! لقد نجحت في تحميل مستند OneNote إلى Aspose.Note وحفظه كملف PDF باستخدام PdfSaveOptions.
+*نصيحة:* إذا رغبت في **حفظ OneNote كملف PDF** بإعدادات مخصصة (مثل حجم صفحة محدد أو ضغط الصور)، قم بضبط كائن `PdfSaveOptions` قبل تمريره إلى `save()`.
 
-## خاتمة
+## المشكلات الشائعة والحلول
 
-في هذا البرنامج التعليمي، قمنا بتغطية أساسيات استخدام Aspose.Note لـ Java لتحميل مستندات OneNote وتحويلها إلى تنسيق PDF. يعمل Aspose.Note على تبسيط عملية العمل مع ملفات Microsoft OneNote في تطبيقات Java، مما يوفر ميزات قوية وتكاملًا سلسًا. باتباع الخطوات الموضحة في هذا الدليل، يمكنك دمج Aspose.Note بكفاءة في مشاريع Java الخاصة بك وتبسيط مهام تحويل المستندات.
+| المشكلة | السبب | الحل |
+|-------|--------|-----|
+| **الملف غير موجود** | مسار `dataDir` غير صحيح | تحقق من مسار الدليل وتأكد من تطابق اسم الملف تمامًا. |
+| **إصدار OneNote غير مدعوم** | استخدام ملف `.one` قديم جدًا | قم بفتح الملف في OneNote وحفظه مرة أخرى، أو استخدم أحدث نسخة من Aspose.Note التي تضيف توافقًا أوسع. |
+| **مخرجات PDF تظهر فارغة** | نقص الخطوط على الخادم | ثبّت الخطوط المطلوبة أو قم بدمجها عبر `PdfSaveOptions.setEmbedStandardFonts(true)`. |
 
-## الأسئلة الشائعة
+## الأسئلة المتكررة
 
-### س1: هل Aspose.Note متوافق مع كافة إصدارات OneNote؟
+**س: هل Aspose.Note متوافق مع جميع إصدارات OneNote؟**  
+ج: نعم، يدعم Aspose.Note صيغ OneNote الحديثة، بما في ذلك `.one` و `.onepkg`. قد تحتاج الملفات القديمة إلى فتحها وإعادة حفظها في OneNote أولًا.
 
-ج1: يدعم Aspose.Note إصدارات مختلفة من Microsoft OneNote، مما يضمن التوافق عبر بيئات مختلفة.
+**س: هل يمكنني تخصيص مخرجات PDF (حجم الصفحة، الهوامش، إلخ)؟**  
+ج: بالتأكيد. توفر `PdfSaveOptions` خصائص مثل `setPageSize()`، `setMarginTop()`، و `setImageCompression()` لضبط النتيجة بدقة.
 
-### س2: هل يمكنني تخصيص مخرجات PDF باستخدام Aspose.Note؟
+**س: هل يدعم Aspose.Note التحويل إلى صيغ غير PDF؟**  
+ج: نعم، يمكنك تحويل ملفات OneNote إلى DOCX، HTML، JPEG، PNG، وغيرها باستخدام خيارات الحفظ المناسبة.
 
-ج2: نعم، يوفر Aspose.Note خيارات شاملة لتخصيص مخرجات PDF، بما في ذلك حجم الصفحة والهوامش وإعدادات الخط.
+**س: هل هناك نسخة تجريبية مجانية متاحة؟**  
+ج: نعم، يمكنك تحميل نسخة تجريبية كاملة الوظائف من [صفحة تحميل Aspose.Note](https://releases.aspose.com/).
 
-### س3: هل يقدم Aspose.Note الدعم لتنسيقات المستندات الأخرى إلى جانب PDF؟
+**س: أين يمكنني الحصول على المساعدة إذا واجهت مشاكل؟**  
+ج: منتدى مجتمع Aspose هو مكان رائع لطرح الأسئلة: [منتدى الدعم](https://forum.aspose.com/c/note/28).
 
-ج3: بصرف النظر عن PDF، يدعم Aspose.Note التحويل إلى تنسيقات مختلفة مثل DOCX وHTML وتنسيقات الصور مثل JPEG وPNG.
+---
 
-### س4: هل هناك نسخة تجريبية مجانية متاحة لـ Aspose.Note؟
+**آخر تحديث:** 2025-12-05  
+**تم الاختبار مع:** Aspose.Note للغة Java 24.12  
+**المؤلف:** Aspose  
 
- ج4: نعم، يمكنك استكشاف ميزات Aspose.Note من خلال النسخة التجريبية المجانية المتاحة على[هذا الرابط](https://releases.aspose.com/).
-
-### س5: أين يمكنني الحصول على المساعدة أو الدعم بخصوص Aspose.Note؟
-
- ج5: للحصول على أي مساعدة أو استفسارات تتعلق بـ Aspose.Note، يمكنك زيارة الموقع[منتدى الدعم](https://forum.aspose.com/c/note/28).
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

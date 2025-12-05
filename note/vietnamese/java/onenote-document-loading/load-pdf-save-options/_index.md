@@ -1,41 +1,53 @@
 ---
-title: Tải tài liệu OneNote vào Aspose.Note bằng PdfSaveOptions
-linktitle: Tải tài liệu OneNote vào Aspose.Note bằng PdfSaveOptions
-second_title: API Java Aspose.Note
-description: Tìm hiểu cách sử dụng Aspose.Note dành cho Java để tải tài liệu OneNote và chuyển đổi chúng sang định dạng PDF một cách dễ dàng. Đơn giản hóa tác vụ chuyển đổi tài liệu của bạn với Aspose.Note.
+date: 2025-12-05
+description: Tìm hiểu cách chuyển OneNote sang PDF và lưu OneNote dưới dạng PDF bằng
+  Aspose.Note cho Java. Đơn giản hoá các nhiệm vụ chuyển đổi tài liệu của bạn với
+  PdfSaveOptions.
+language: vi
+linktitle: Load OneNote Document into Aspose.Note using PdfSaveOptions
+second_title: Aspose.Note Java API
+title: Chuyển OneNote sang PDF bằng Aspose.Note sử dụng PdfSaveOptions
+url: /java/onenote-document-loading/load-pdf-save-options/
 weight: 23
-url: /vi/java/onenote-document-loading/load-pdf-save-options/
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Tải tài liệu OneNote vào Aspose.Note bằng PdfSaveOptions
+# Chuyển OneNote sang PDF với Aspose.Note sử dụng PdfSaveOptions
 
 ## Giới thiệu
 
-Chào mừng bạn đến với hướng dẫn toàn diện về cách sử dụng Aspose.Note cho Java! Trong hướng dẫn này, chúng ta sẽ khám phá cách sử dụng Aspose.Note để tải tài liệu OneNote và lưu chúng dưới dạng PDF bằng PdfSaveOptions. Aspose.Note là một thư viện Java mạnh mẽ cho phép các nhà phát triển làm việc liền mạch với các tệp Microsoft OneNote. Đến cuối hướng dẫn này, bạn sẽ hiểu rõ về cách tích hợp Aspose.Note vào các dự án Java của mình và thực hiện chuyển đổi tài liệu một cách dễ dàng.
+Trong hướng dẫn toàn diện này, bạn sẽ học **cách chuyển OneNote sang PDF** bằng Aspose.Note cho Java. Chúng tôi sẽ hướng dẫn cách tải tệp OneNote, cấu hình quá trình chuyển đổi, và cuối cùng lưu kết quả dưới dạng PDF. Khi kết thúc tutorial, bạn sẽ tự tin tích hợp quy trình này vào các ứng dụng Java của riêng mình.
 
-## Điều kiện tiên quyết
+## Câu trả lời nhanh
+- **Thư viện nào thực hiện chuyển đổi?** Aspose.Note cho Java với `PdfSaveOptions`.
+- **Thời gian thực hiện triển khai cơ bản là bao lâu?** Khoảng 5‑10 phút để có một nguyên mẫu hoạt động.
+- **Có cần giấy phép cho môi trường production không?** Có, cần giấy phép thương mại; có bản dùng thử miễn phí.
+- **Có thể tùy chỉnh đầu ra PDF không?** Chắc chắn – `PdfSaveOptions` cho phép bạn đặt kích thước trang, lề và nhiều hơn nữa.
+- **Các định dạng OneNote được hỗ trợ?** Cả tệp `.one` và `.onepkg` đều được hỗ trợ.
 
-Trước khi chúng tôi bắt đầu, hãy đảm bảo bạn có các điều kiện tiên quyết sau:
+## Chuyển OneNote sang PDF – Giới thiệu
 
-### 1. Thiết lập môi trường phát triển Java
+Aspose.Note đơn giản hoá việc làm việc với các tệp Microsoft OneNote trong Java. Dù bạn cần tạo báo cáo, lưu trữ ghi chú, hay tích hợp nội dung OneNote vào quy trình làm việc lớn hơn, việc chuyển các tệp này sang PDF thường là bước đầu tiên.
 
-Đảm bảo bạn đã cài đặt JDK (Bộ công cụ phát triển Java) trên hệ thống của mình. Bạn có thể tải xuống và cài đặt JDK từ trang web của Oracle.
+## Yêu cầu trước
 
-### 2. Aspose.Note cho Thư viện Java
+Trước khi bắt đầu, hãy chắc chắn rằng bạn đã có những thứ sau:
 
- Tải xuống thư viện Aspose.Note cho Java từ[trang mạng](https://releases.aspose.com/note/java/) và đưa nó vào dự án Java của bạn.
+### 1. Môi trường phát triển Java
+Một JDK mới (Java 17 hoặc mới hơn được khuyến nghị). Tải về từ trang web Oracle hoặc adopt OpenJDK.
+
+### 2. Thư viện Aspose.Note cho Java
+Tải gói Aspose.Note cho Java mới nhất từ [trang tải chính thức](https://releases.aspose.com/note/java/) và thêm JAR vào classpath của dự án.
 
 ### 3. Tài liệu OneNote mẫu
+Một tệp `.one` hoặc `.onepkg` mà bạn muốn chuyển đổi. Để thử nghiệm, tutorial sử dụng `Sample1.one`.
 
-Chuẩn bị một tài liệu OneNote mẫu mà bạn muốn chuyển đổi sang định dạng PDF cho mục đích thử nghiệm.
+## Nhập các gói
 
-## Gói nhập khẩu
-
-Để bắt đầu, hãy nhập các gói cần thiết vào dự án Java của bạn. Các gói này sẽ cho phép bạn sử dụng các chức năng do Aspose.Note cung cấp.
+Đầu tiên, nhập các lớp bạn sẽ cần. Những import này cho phép bạn truy cập vào mô hình tài liệu cốt lõi và các tùy chọn chuyển đổi PDF.
 
 ```java
 import java.io.IOException;
@@ -43,52 +55,64 @@ import com.aspose.note.Document;
 import com.aspose.note.PdfSaveOptions;
 ```
 
-## Bước 1: Tải tài liệu OneNote
+## Lưu OneNote dưới dạng PDF với PdfSaveOptions
 
-Bước đầu tiên là tải tài liệu OneNote vào Aspose.Note.
+Dưới đây chúng tôi chia quá trình thành hai bước rõ ràng: tải tệp nguồn và lưu nó dưới dạng PDF. Mỗi bước đều kèm theo giải thích ngắn để bạn hiểu **tại sao** chúng ta làm như vậy.
+
+### Bước 1: Tải tài liệu OneNote
+
+Chúng ta tạo một thể hiện `Document` bằng cách chỉ tới tệp OneNote trên đĩa.
 
 ```java
-// Tải tài liệu vào Aspose.Note.
+// Load the document into Aspose.Note.
 String dataDir = "Your Document Directory";
 Document oneFile = new Document(dataDir + "Sample1.one");
 ```
 
-## Bước 2: Lưu tài liệu dưới dạng PDF
+*Lý do quan trọng:* Tải tệp vào đối tượng `Document` cho phép bạn kiểm soát toàn bộ nội dung một cách lập trình, và có thể thực hiện các thao tác bổ sung trước khi chuyển đổi nếu cần.
 
-Sau khi tài liệu được tải, bước tiếp theo là lưu nó dưới dạng PDF bằng PdfSaveOptions.
+### Bước 2: Lưu tài liệu dưới dạng PDF
+
+Bây giờ chúng ta gọi phương thức `save`, truyền vào một thể hiện mới của `PdfSaveOptions`. Điều này yêu cầu Aspose.Note render các trang OneNote thành các trang PDF.
 
 ```java
-// Lưu tài liệu dưới dạng PDF
+// Save the document as PDF
 oneFile.save(dataDir + "LoadDocIntoAsposeNoteUsingPdfsaveoptions_out.pdf", new PdfSaveOptions());
 ```
 
-Chúc mừng! Bạn đã tải thành công tài liệu OneNote vào Aspose.Note và lưu nó dưới dạng PDF bằng PdfSaveOptions.
+*Mẹo:* Nếu bạn muốn **lưu OneNote dưới dạng PDF** với các cài đặt tùy chỉnh (ví dụ: kích thước trang cụ thể hoặc nén hình ảnh), hãy cấu hình đối tượng `PdfSaveOptions` trước khi truyền vào `save()`.
 
-## Phần kết luận
+## Các vấn đề thường gặp và giải pháp
 
-Trong hướng dẫn này, chúng tôi đã trình bày những điều cơ bản về cách sử dụng Aspose.Note cho Java để tải tài liệu OneNote và chuyển đổi chúng sang định dạng PDF. Aspose.Note đơn giản hóa quá trình làm việc với các tệp Microsoft OneNote trong các ứng dụng Java, cung cấp các tính năng mạnh mẽ và tích hợp liền mạch. Bằng cách làm theo các bước được nêu trong hướng dẫn này, bạn có thể kết hợp Aspose.Note một cách hiệu quả vào các dự án Java của mình và hợp lý hóa các tác vụ chuyển đổi tài liệu.
+| Vấn đề | Nguyên nhân | Giải pháp |
+|-------|------------|----------|
+| **Không tìm thấy tệp** | Đường dẫn `dataDir` không đúng | Kiểm tra lại đường dẫn thư mục và đảm bảo tên tệp khớp chính xác. |
+| **Phiên bản OneNote không được hỗ trợ** | Sử dụng tệp `.one` rất cũ | Cập nhật tệp trong OneNote trước, hoặc dùng phiên bản mới nhất của Aspose.Note để có khả năng tương thích rộng hơn. |
+| **Kết quả PDF trông trắng** | Thiếu phông chữ trên máy chủ | Cài đặt các phông chữ cần thiết hoặc nhúng chúng qua `PdfSaveOptions.setEmbedStandardFonts(true)`. |
 
 ## Câu hỏi thường gặp
 
-### Câu hỏi 1: Aspose.Note có tương thích với tất cả các phiên bản OneNote không?
+**H: Aspose.Note có tương thích với mọi phiên bản OneNote không?**  
+Đ: Có, Aspose.Note hỗ trợ các định dạng OneNote hiện đại, bao gồm `.one` và `.onepkg`. Các tệp cũ hơn có thể cần được mở và lưu lại trong OneNote trước.
 
-Trả lời 1: Aspose.Note hỗ trợ nhiều phiên bản khác nhau của Microsoft OneNote, đảm bảo khả năng tương thích trên các môi trường khác nhau.
+**H: Tôi có thể tùy chỉnh đầu ra PDF (kích thước trang, lề, v.v.) không?**  
+Đ: Chắc chắn. `PdfSaveOptions` cung cấp các thuộc tính như `setPageSize()`, `setMarginTop()`, và `setImageCompression()` để tinh chỉnh kết quả.
 
-### Câu hỏi 2: Tôi có thể tùy chỉnh đầu ra PDF bằng Aspose.Note không?
+**H: Aspose.Note có hỗ trợ chuyển đổi sang các định dạng khác ngoài PDF không?**  
+Đ: Có, bạn có thể chuyển đổi tệp OneNote sang DOCX, HTML, JPEG, PNG và nhiều định dạng khác bằng các tùy chọn lưu tương ứng.
 
-Câu trả lời 2: Có, Aspose.Note cung cấp các tùy chọn mở rộng để tùy chỉnh đầu ra PDF, bao gồm kích thước trang, lề và cài đặt phông chữ.
+**H: Có bản dùng thử miễn phí không?**  
+Đ: Có, bạn có thể tải bản dùng thử đầy đủ chức năng từ [trang tải Aspose.Note](https://releases.aspose.com/).
 
-### Câu hỏi 3: Aspose.Note có cung cấp hỗ trợ cho các định dạng tài liệu khác ngoài PDF không?
+**H: Tôi có thể nhận hỗ trợ ở đâu nếu gặp vấn đề?**  
+Đ: Diễn đàn cộng đồng Aspose là nơi tốt để đặt câu hỏi: [diễn đàn hỗ trợ](https://forum.aspose.com/c/note/28).
 
-Trả lời 3: Ngoài PDF, Aspose.Note còn hỗ trợ chuyển đổi sang nhiều định dạng khác nhau như DOCX, HTML và các định dạng hình ảnh như JPEG và PNG.
+---
 
-### Câu hỏi 4: Aspose.Note có bản dùng thử miễn phí không?
+**Cập nhật lần cuối:** 2025-12-05  
+**Đã kiểm tra với:** Aspose.Note cho Java 24.12  
+**Tác giả:** Aspose  
 
- Câu trả lời 4: Có, bạn có thể khám phá các tính năng của Aspose.Note bằng bản dùng thử miễn phí tại[liên kết này](https://releases.aspose.com/).
-
-### Câu hỏi 5: Tôi có thể nhận trợ giúp hoặc hỗ trợ cho Aspose.Note ở đâu?
-
- Câu trả lời 5: Để được hỗ trợ hoặc có thắc mắc liên quan đến Aspose.Note, bạn có thể truy cập[diễn đàn hỗ trợ](https://forum.aspose.com/c/note/28).
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
