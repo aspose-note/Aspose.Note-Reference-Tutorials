@@ -96,13 +96,6 @@ weight: 24
 
 تعرف على كيفية إدارة تراخيص المقياس لـ OneNote في Java باستخدام مكتبة Aspose.Note. تحكم في الاستخدام، راقب الأرصدة، وحسّن التكاليف بفعالية.
 
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}
-
 ## الأسئلة المتكررة
 
 **س: هل يمكنني التحويل من ترخيص قائم على المقياس إلى ترخيص دائم دون تغييرات في الكود؟**  
@@ -125,3 +118,10 @@ weight: 24
 **آخر تحديث:** 2025-12-04  
 **تم الاختبار مع:** Aspose.Note for Java 24.12 (أحدث نسخة عند كتابة هذا الدليل)  
 **المؤلف:** Aspose
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

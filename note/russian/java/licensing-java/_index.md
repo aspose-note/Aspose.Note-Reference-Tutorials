@@ -95,13 +95,6 @@ weight: 24
 ### [Управление измеряемой лицензией для OneNote в Java](./manage-metered-license/)
 Узнайте, как управлять измеряемыми лицензиями для OneNote в Java с помощью библиотеки Aspose.Note. Контролируйте использование, отслеживайте кредиты и эффективно оптимизируйте расходы.
 
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}
-
 ## Часто задаваемые вопросы
 
 **Вопрос:** Можно ли перейти от измеряемой лицензии к бессрочной без изменений кода?  
@@ -124,3 +117,10 @@ weight: 24
 **Последнее обновление:** 2025-12-04  
 **Тестировано с:** Aspose.Note for Java 24.12 (последняя версия на момент написания)  
 **Автор:** Aspose
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

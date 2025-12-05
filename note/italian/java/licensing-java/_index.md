@@ -94,13 +94,6 @@ Congratulazioni! Hai ora intrapreso il percorso per padroneggiare la licenza Asp
 ### [Gestire la Licenza a Consumo per OneNote in Java](./manage-metered-license/)
 Scopri come gestire le licenze a consumo per OneNote in Java usando la libreria Aspose.Note. Controlla l'uso, monitora i crediti e ottimizza i costi in modo efficiente.
 
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}
-
 ## Domande Frequenti
 
 **Q: Posso passare da una licenza a consumo a una perpetua senza modificare il codice?**  
@@ -123,3 +116,10 @@ A: No. La convalida dei crediti richiede una chiamata online al server di licenz
 **Ultimo aggiornamento:** 2025-12-04  
 **Testato con:** Aspose.Note per Java 24.12 (ultima versione al momento della stesura)  
 **Autore:** Aspose
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

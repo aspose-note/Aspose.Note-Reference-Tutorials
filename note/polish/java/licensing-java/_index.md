@@ -95,13 +95,6 @@ Gratulacje! Rozpocząłeś podróż, aby opanować licencjonowanie Aspose.Note w
 ### [Manage Metered License for OneNote in Java](./manage-metered-license/)
 Dowiedz się, jak zarządzać licencjami metrowanymi dla OneNote w Javie przy użyciu biblioteki Aspose.Note. Kontroluj użycie, monitoruj kredyty i efektywnie optymalizuj koszty.
 
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}
-
 ## Najczęściej zadawane pytania
 
 **Q: Czy mogę przejść z licencji metrowanej na licencję wieczystą bez zmian w kodzie?**  
@@ -124,3 +117,11 @@ A: Nie. Walidacja kredytów wymaga połączenia online z serwerem licencyjnym As
 **Last Updated:** 2025-12-04  
 **Tested With:** Aspose.Note for Java 24.12 (latest at time of writing)  
 **Author:** Aspose
+
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -93,13 +93,6 @@ weight: 24
 ### [Manage Metered License for OneNote in Java](./manage-metered-license/)
 Aspose.Note लाइब्रेरी का उपयोग करके Java में OneNote के लिए मीटरड लाइसेंसों को कैसे प्रबंधित करें, सीखें। उपयोग को नियंत्रित करें, क्रेडिट मॉनिटर करें, और लागत को प्रभावी ढंग से अनुकूलित करें।
 
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}
-
 ## अक्सर पूछे जाने वाले प्रश्न
 
 **Q: क्या मैं कोड में बदलाव किए बिना मीटरड लाइसेंस को परपेचुअल लाइसेंस में स्विच कर सकता हूँ?**  
@@ -122,3 +115,10 @@ A: नहीं। क्रेडिट वैधता के लिए Aspose
 **अंतिम अपडेट:** 2025-12-04  
 **Tested With:** Aspose.Note for Java 24.12 (latest at time of writing)  
 **Author:** Aspose
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

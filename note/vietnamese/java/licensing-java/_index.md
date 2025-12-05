@@ -95,13 +95,6 @@ Chúc mừng! Bạn đã bắt đầu hành trình làm chủ cấp phép Aspose
 ### [Quản lý giấy phép đo lường cho OneNote trong Java](./manage-metered-license/)
 Tìm hiểu cách quản lý giấy phép đo lường cho OneNote trong Java bằng thư viện Aspose.Note. Kiểm soát việc sử dụng, giám sát credit và tối ưu chi phí một cách hiệu quả.
 
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}
-
 ## Câu hỏi thường gặp
 
 **Hỏi: Tôi có thể chuyển từ giấy phép đo lường sang giấy phép vĩnh viễn mà không thay đổi mã không?**  
@@ -124,3 +117,10 @@ Tìm hiểu cách quản lý giấy phép đo lường cho OneNote trong Java b�
 **Cập nhật lần cuối:** 2025-12-04  
 **Được kiểm tra với:** Aspose.Note cho Java 24.12 (phiên bản mới nhất tại thời điểm viết)  
 **Tác giả:** Aspose
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -95,13 +95,6 @@ weight: 24
 ### [Διαχείριση άδειας μετρητή για OneNote σε Java](./manage-metered-license/)
 Μάθετε πώς να διαχειρίζεστε άδειες μετρητή για το OneNote σε Java χρησιμοποιώντας τη βιβλιοθήκη Aspose.Note. Ελέγξτε τη χρήση, παρακολουθήστε τις μονάδες και βελτιστοποιήστε το κόστος αποδοτικά.
 
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}
-
 ## Συχνές Ερωτήσεις
 
 **Q: Μπορώ να μεταβώ από άδεια μετρητή σε διαρκή χωρίς αλλαγές κώδικα;**  
@@ -124,3 +117,10 @@ A: Όχι. Η επικύρωση μονάδων απαιτεί κλήση στο
 **Last Updated:** 2025-12-04  
 **Tested With:** Aspose.Note for Java 24.12 (latest at time of writing)  
 **Author:** Aspose
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

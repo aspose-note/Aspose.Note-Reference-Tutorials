@@ -93,13 +93,6 @@ Java 프로젝트에서 Aspose.Note 사용량을 제어하는 팁과 요령을 �
 ### [Java에서 OneNote용 메터드 라이선스 관리](./manage-metered-license/)
 Aspose.Note 라이브러리를 사용하여 Java에서 OneNote용 메터드 라이선스를 관리하는 방법을 배웁니다. 사용량을 제어하고, 크레딧을 모니터링하며, 비용을 효율적으로 최적화합니다.
 
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}
-
 ## 자주 묻는 질문
 
 **Q: 메터드 라이선스에서 영구 라이선스로 코드 변경 없이 전환할 수 있나요?**  
@@ -122,3 +115,10 @@ A: 아니요. 크레딧 검증은 Aspose의 라이선스 서버에 온라인 호
 **Last Updated:** 2025-12-04  
 **Tested With:** Aspose.Note for Java 24.12 (latest at time of writing)  
 **Author:** Aspose
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

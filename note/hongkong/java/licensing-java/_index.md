@@ -93,13 +93,6 @@ weight: 24
 ### [在 Java 中管理 OneNote 計量授權](./manage-metered-license/)
 了解如何使用 Aspose.Note 程式庫在 Java 中管理 OneNote 的計量授權。控制使用量、監控點數，並有效優化成本。
 
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}
-
 ## 常見問答
 
 **Q: 我可以在不修改程式碼的情況下，將計量授權切換為永久授權嗎？**  
@@ -122,3 +115,10 @@ A: 不能。點數驗證需要連線至 Aspose 的授權伺服器。離線情況
 **Last Updated:** 2025-12-04  
 **測試環境：** Aspose.Note for Java 24.12 (latest at time of writing)  
 **作者：** Aspose
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

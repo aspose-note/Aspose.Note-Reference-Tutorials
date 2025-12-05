@@ -95,13 +95,6 @@ Parabéns! Você agora embarcou em uma jornada para dominar o licenciamento do A
 ### [Gerenciar Licença Metered para OneNote em Java](./manage-metered-license/)
 Aprenda a gerenciar licenças metered para OneNote em Java usando a biblioteca Aspose.Note. Controle o uso, monitore créditos e otimize custos de forma eficiente.
 
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}
-
 ## Perguntas Frequentes
 
 **Q: Posso mudar de uma licença metered para uma perpétua sem alterações no código?**  
@@ -124,3 +117,10 @@ A: Não. A validação de créditos requer uma chamada online ao servidor de lic
 **Última atualização:** 2025-12-04  
 **Testado com:** Aspose.Note para Java 24.12 (mais recente na data da escrita)  
 **Autor:** Aspose
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

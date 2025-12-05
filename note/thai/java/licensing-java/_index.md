@@ -115,13 +115,6 @@ Congratulations! You've now embarked on a journey to master Aspose.Note licensin
 ### [Manage Metered License for OneNote in Java](./manage-metered-license/)
 Learn how to manage metered licenses for OneNote in Java using Aspose.Note library. Control usage, monitor credits, and optimize costs efficiently.
 
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}
-
 ## Frequently Asked Questions
 
 **Q: Can I switch from a metered license to a perpetual one without code changes?**  
@@ -154,3 +147,10 @@ Learn how to manage metered licenses for OneNote in Java using Aspose.Note libra
 **Last Updated:** 2025-12-04  
 **Tested With:** Aspose.Note for Java 24.12 (latest at time of writing)  
 **Author:** Aspose
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -95,13 +95,6 @@ Grattis! Du har nu påbörjat en resa för att bemästra Aspose.Note‑licensier
 ### [Hantera mätbaserad licens för OneNote i Java](./manage-metered-license/)
 Lär dig hur du hanterar mätbaserade licenser för OneNote i Java med Aspose.Note‑biblioteket. Kontrollera användning, övervaka krediter och optimera kostnader effektivt.
 
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}
-
 ## Vanliga frågor
 
 **Q: Kan jag byta från en mätbaserad licens till en evig licens utan kodändringar?**  
@@ -124,3 +117,10 @@ A: Nej. Kreditvalideringen kräver ett online‑anrop till Asposes licensserver.
 **Senast uppdaterad:** 2025-12-04  
 **Testat med:** Aspose.Note för Java 24.12 (senaste vid skrivande)  
 **Författare:** Aspose
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -95,13 +95,6 @@ Gratulálunk! Most egy útra indultál, hogy elsajátítsd az Aspose.Note licenc
 
 Tanuld meg, hogyan kezelheted a metered licenceket a OneNote-hoz Java-ban az Aspose.Note könyvtár segítségével. Szabályozd a használatot, figyeld a krediteket, és optimalizáld a költségeket hatékonyan.
 
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}
-
 ## Gyakran Ismételt Kérdések
 
 **Q: Át tudok váltani a metered licencről egy örökös licencre kódbeli módosítások nélkül?**  
@@ -124,3 +117,10 @@ A: Nem. A kredit ellenőrzéshez online hívás szükséges az Aspose licencszer
 **Utolsó frissítés:** 2025-12-04  
 **Tesztelve:** Aspose.Note for Java 24.12 (legújabb a kiadás időpontjában)  
 **Szerző:** Aspose
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

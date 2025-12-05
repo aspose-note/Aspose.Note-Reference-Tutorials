@@ -95,13 +95,6 @@ Descubra consejos y trucos sobre cómo controlar el uso de Aspose.Note en su pro
 ### [Gestionar licencia medida para OneNote en Java](./manage-metered-license/)
 Aprenda cómo gestionar licencias medidas para OneNote en Java usando la biblioteca Aspose.Note. Controle el uso, monitorice los créditos y optimice los costos de manera eficiente.
 
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}
-
 ## Preguntas frecuentes
 
 **Q: ¿Puedo cambiar de una licencia medida a una perpetua sin cambios de código?**  
@@ -124,3 +117,10 @@ A: No. La validación de créditos requiere una llamada en línea al servidor de
 **Última actualización:** 2025-12-04  
 **Probado con:** Aspose.Note for Java 24.12 (latest at time of writing)  
 **Autor:** Aspose
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

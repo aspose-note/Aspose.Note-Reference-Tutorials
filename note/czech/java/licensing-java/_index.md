@@ -96,13 +96,6 @@ Gratulujeme! Vydali jste se na cestu k ovládnutí licencování Aspose.Note v J
 
 Naučte se, jak spravovat měřené licence pro OneNote v Javě pomocí knihovny Aspose.Note. Kontrolujte využití, sledujte kredity a efektivně optimalizujte náklady.
 
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}
-
 ## Často kladené otázky
 
 **Q: Mohu přejít z měřené licence na trvalou licenci bez změn kódu?**  
@@ -125,3 +118,10 @@ A: Ne. Validace kreditů vyžaduje online volání na licenční server Aspose. 
 **Poslední aktualizace:** 2025-12-04  
 **Testováno s:** Aspose.Note for Java 24.12 (latest at time of writing)  
 **Autor:** Aspose
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}
