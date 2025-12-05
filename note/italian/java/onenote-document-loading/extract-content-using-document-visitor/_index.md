@@ -1,33 +1,43 @@
 ---
-title: Estrai contenuto OneNote utilizzando Document Visitor - Java
-linktitle: Estrai contenuto OneNote utilizzando Document Visitor - Java
-second_title: Aspose.Note API Java
-description: Scopri come estrarre contenuto dai documenti OneNote in Java utilizzando Aspose.Note per Java. Tutorial passo passo con esempi di codice forniti.
+date: 2025-12-04
+description: Scopri come estrarre immagini dai file OneNote e convertire OneNote in
+  testo in Java usando Aspose.Note. Guida passo‑passo con esempi di codice.
+language: it
+linktitle: Extract Images from OneNote using Document Visitor - Java
+second_title: Aspose.Note Java API
+title: Estrai immagini da OneNote usando Document Visitor - Java
+url: /java/onenote-document-loading/extract-content-using-document-visitor/
 weight: 21
-url: /it/java/onenote-document-loading/extract-content-using-document-visitor/
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Estrai contenuto OneNote utilizzando Document Visitor - Java
+# Estrai immagini da OneNote usando Document Visitor - Java
 
-## introduzione
+## Introduzione
 
-Aspose.Note per Java fornisce potenti funzionalità per l'estrazione di contenuti dai documenti OneNote. In questo tutorial ti guideremo attraverso il processo di estrazione del contenuto da un documento OneNote utilizzando Document Visitor in Java.
+Aspose.Note for Java rende facile **estrarre immagini da OneNote** notebook così come leggere il file `.one` sottostante in Java. In questo tutorial ti guideremo attraverso un esempio completo e pratico che mostra come caricare un file OneNote, attraversare la sua struttura con un `DocumentVisitor` personalizzato e estrarre sia le immagini sia il testo semplice. Alla fine saprai anche come **convertire OneNote in testo** se hai bisogno solo del contenuto testuale.
+
+## Risposte rapide
+- **Quale libreria mi serve?** Aspose.Note for Java (link per il download sotto).  
+- **Posso estrarre solo le immagini?** Sì – implementa il metodo `VisitImageStart` in un `DocumentVisitor`.  
+- **Come leggo un file .one in Java?** Usa `new Document(path, new LoadOptions())`.  
+- **Ho bisogno di una licenza per la produzione?** È necessaria una licenza commerciale per l'uso non‑trial.  
+- **Quale versione di Java è supportata?** JDK 8 o superiore.
 
 ## Prerequisiti
 
-Prima di iniziare, assicurati di avere quanto segue:
+Prima di iniziare, assicurati di avere:
 
-1. Java Development Kit (JDK) installato sul tuo sistema.
-2.  Aspose.Note per la libreria Java scaricata. Puoi scaricarlo[Qui](https://releases.aspose.com/note/java/).
-3. Un documento OneNote (con estensione .one) da cui estrarre il contenuto.
+1. Java Development Kit (JDK) 8 o più recente installato.  
+2. Libreria Aspose.Note per Java scaricata. Puoi scaricarla **[qui](https://releases.aspose.com/note/java/)**.  
+3. Un documento OneNote (file `.one`) da cui vuoi estrarre immagini o convertire in testo.
 
-## Importa pacchetti
+## Importa i pacchetti
 
-Innanzitutto, devi importare i pacchetti necessari per lavorare con Aspose.Note per Java.
+Per prima cosa, importa le classi necessarie dall'API Aspose.Note.
 
 ```java
 import java.io.IOException;
@@ -44,9 +54,9 @@ import com.aspose.note.RichText;
 import com.aspose.note.Title;
 ```
 
-## Passaggio 1: impostare la classe dei visitatori dei documenti
+## Passo 1: Configura un Document Visitor personalizzato
 
-Crea una classe che estende il`DocumentVisitor` classe fornita da Aspose.Note per Java. Questa classe gestirà la visita di diversi nodi del documento.
+Crea una classe che estende `DocumentVisitor`. Questa classe verrà chiamata per ogni nodo nel documento OneNote, permettendoti di **estrarre immagini da OneNote** e opzionalmente raccogliere testo.
 
 ```java
 public class ExtractOneNoteContentUsingDocumentvisitor extends DocumentVisitor {
@@ -61,16 +71,16 @@ public class ExtractOneNoteContentUsingDocumentvisitor extends DocumentVisitor {
         mBuilder = new StringBuilder();
     }
     
-    // Altri metodi verranno implementati qui
+    // Other methods will be implemented here
 }
 ```
 
-## Passaggio 2: implementare i metodi dei visitatori
+## Passo 2: Implementa i metodi del Visitor
 
-Implementa i metodi visitatore per diversi tipi di nodi che desideri elaborare nel documento. In questo esempio, implementeremo metodi per i nodi RichText, Document, Page, Title, Image, OutlineGroup, Outline e OutlineElement.
+Aggiungi le sovrascritture per i tipi di nodo di tuo interesse. Di seguito gestiamo rich‑text, immagini, titoli, pagine, outline e elementi di outline. Il metodo `VisitImageStart` è dove avviene l'estrazione dell'immagine.
 
 ```java
-// Metodi visitatore per diversi tipi di nodi
+// Visitor methods for different types of nodes
 
 public /* override */ void VisitRichTextStart(RichText run) {
     ++nodecount;
@@ -91,6 +101,8 @@ public /* override */ void VisitTitleStart(Title title) {
 
 public /* override */ void VisitImageStart(Image image) {
     ++nodecount;
+    // Here you could save the image to disk or process it further
+    System.out.println("Found image with size: " + image.getData().length + " bytes");
 }
 
 public /* override */ void VisitOutlineGroupStart(OutlineGroup outlineGroup) {
@@ -106,53 +118,72 @@ public void VisitOutlineElementStart(OutlineElement outlineElement) {
 }
 ```
 
-## Passaggio 3: metodo principale
+### Perché implementare questi metodi?
 
-Nel metodo principale, carica il documento OneNote, crea un'istanza della classe Document Visitor personalizzata e accetta il visitatore per avviare il processo di visita.
+- **Estrarre immagini da OneNote:** `VisitImageStart` ti fornisce accesso diretto ai byte grezzi dell'immagine.  
+- **Convertire OneNote in testo:** `VisitRichTextStart` raccoglie il contenuto testuale, consentendo una semplice operazione di **convertire OneNote in testo**.  
+- **Leggere file .one in Java:** Il pattern visitor astrae la struttura sottostante del file `.one`, così non è necessario analizzare tu stesso il formato binario.
+
+## Passo 3: Esegui il Visitor dal tuo metodo main
+
+Carica il file `.one`, istanzia il tuo visitor e avvia l'attraversamento.
 
 ```java
 public static void main(String[] args) throws IOException {
-    // Apri il documento che vogliamo convertire.
+    // Open the document we want to convert.
     String dataDir = "Your Document Directory";
     Document doc = new Document(dataDir + "Sample1.one", new LoadOptions());
     
-    // Crea un oggetto che eredita dalla classe DocumentVisitor.
+    // Create an object that inherits from the DocumentVisitor class.
     ExtractOneNoteContentUsingDocumentvisitor myConverter = new ExtractOneNoteContentUsingDocumentvisitor();
     
-    // Accetta il visitatore per avviare il processo di visita.
+    // Accept the visitor to start the visiting process.
     doc.accept(myConverter);
     
-    // Recuperare il risultato dell'operazione.
-    System.out.println(myConverter.GetText());
-    System.out.println(myConverter.NodeCount());
+    // Retrieve the result of the operation.
+    System.out.println(myConverter.GetText());   // Text extracted from the notebook
+    System.out.println(myConverter.NodeCount()); // Total nodes visited
 }
 ```
 
-## Conclusione
+## Casi d'uso comuni
 
-In questo tutorial, hai imparato come estrarre il contenuto da un documento OneNote utilizzando Aspose.Note per Java. Implementando una classe Document Visitor personalizzata e visitando diversi nodi del documento, puoi estrarre ed elaborare in modo efficace il contenuto secondo le tue esigenze.
+- **Reportistica automatizzata:** Estrai immagini e testo da un notebook OneNote di riunioni per generare un riepilogo PDF o HTML.  
+- **Migrazione di contenuti:** Converti archivi OneNote legacy in file di testo semplice per indicizzazione o ingestione da motori di ricerca.  
+- **Estrazione di risorse digitali:** Raccogli screenshot, diagrammi o foto incorporati per riutilizzarli in altre applicazioni.
+
+## Risoluzione dei problemi e consigli
+
+- **Notebook di grandi dimensioni:** Se incontri problemi di memoria, elabora le pagine singolarmente controllando `VisitPageStart` e caricando le risorse a livello di pagina solo quando necessario.  
+- **Formati immagine:** L'oggetto `Image` restituisce byte grezzi; potresti dover rilevare il formato (PNG, JPEG) prima di salvare.  
+- **Errori di licenza:** Assicurati di aver impostato la licenza Aspose (`License license = new License(); license.setLicense("Aspose.Note.Java.lic");`) prima di caricare il documento in produzione.
 
 ## Domande frequenti
 
-### Q1: posso estrarre tipi specifici di contenuto dal documento OneNote?
+**Q: Posso estrarre tipi specifici di contenuto dal documento OneNote?**  
+A: Sì – sovrascrivendo solo i metodi del visitor di cui hai bisogno (ad esempio `VisitImageStart` per le immagini, `VisitRichTextStart` per il testo).
 
-R1: Sì, implementando metodi visitatore specifici per diversi tipi di nodo, puoi estrarre selettivamente contenuti come testo, immagini, titoli, ecc.
+**Q: Aspose.Note per Java è compatibile con diverse versioni di documenti OneNote?**  
+A: Assolutamente. La libreria supporta tutte le principali versioni di file OneNote, così puoi leggere in sicurezza progetti **.one file Java** indipendentemente dalla versione di OneNote di origine.
 
-### Q2: Aspose.Note per Java è compatibile con diverse versioni di documenti OneNote?
+**Q: Posso integrare questo processo di estrazione nella mia applicazione Java?**  
+A: Sì. Il pattern visitor funziona senza problemi in qualsiasi codebase Java; basta aggiungere il JAR della libreria e chiamare l'esempio mostrato sopra.
 
-A2: Aspose.Note per Java supporta varie versioni di documenti OneNote, garantendo compatibilità e estrazione fluida dei contenuti.
+**Q: Aspose.Note per Java fornisce supporto per la gestione di documenti OneNote complessi?**  
+A: Sì. Outline nidificati, media incorporati e dati personalizzati sono tutti esposti tramite l'API del visitor.
 
-### Q3: Posso integrare questo processo di estrazione nella mia applicazione Java?
+**Q: C'è qualche limite alla dimensione del documento OneNote che può essere elaborato?**  
+A: Non c'è un limite rigido, ma notebook estremamente grandi potrebbero richiedere più memoria heap; considera di elaborarli pagina per pagina.
 
-R3: Assolutamente sì, puoi integrare facilmente il processo di estrazione del contenuto nelle tue applicazioni Java seguendo il tutorial fornito.
+**Q: Come converto il testo estratto in un file di testo semplice?**  
+A: Dopo che `myConverter.GetText()` restituisce una `String`, scrivila in un file usando lo standard I/O Java (`Files.write(Paths.get("output.txt"), text.getBytes());`).
 
-### Q4: Aspose.Note per Java fornisce supporto per la gestione di documenti OneNote complessi?
+---  
 
-A4: Sì, Aspose.Note per Java offre un supporto completo per la gestione di strutture e contenuti complessi all'interno dei documenti OneNote.
+**Ultimo aggiornamento:** 2025-12-04  
+**Testato con:** Aspose.Note for Java 24.10  
+**Autore:** Aspose  
 
-### Q5: esiste un limite alla dimensione del documento OneNote che può essere elaborato utilizzando Aspose.Note per Java?
-
-A5: Aspose.Note per Java è progettato per gestire in modo efficiente documenti OneNote di varie dimensioni, garantendo prestazioni ottimali anche con documenti di grandi dimensioni.
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

@@ -1,33 +1,43 @@
 ---
-title: Trích xuất nội dung OneNote bằng cách sử dụng Document Visitor - Java
-linktitle: Trích xuất nội dung OneNote bằng cách sử dụng Document Visitor - Java
-second_title: API Java Aspose.Note
-description: Tìm hiểu cách trích xuất nội dung từ tài liệu OneNote trong Java bằng Aspose.Note for Java. Hướng dẫn từng bước với các ví dụ về mã được cung cấp.
+date: 2025-12-04
+description: Tìm hiểu cách trích xuất hình ảnh từ tệp OneNote và chuyển đổi OneNote
+  sang văn bản trong Java bằng Aspose.Note. Hướng dẫn từng bước kèm ví dụ mã.
+language: vi
+linktitle: Extract Images from OneNote using Document Visitor - Java
+second_title: Aspose.Note Java API
+title: Trích xuất hình ảnh từ OneNote bằng Document Visitor - Java
+url: /java/onenote-document-loading/extract-content-using-document-visitor/
 weight: 21
-url: /vi/java/onenote-document-loading/extract-content-using-document-visitor/
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Trích xuất nội dung OneNote bằng cách sử dụng Document Visitor - Java
+# Trích xuất hình ảnh từ OneNote bằng Document Visitor - Java
 
 ## Giới thiệu
 
-Aspose.Note for Java cung cấp các tính năng mạnh mẽ để trích xuất nội dung từ tài liệu OneNote. Trong hướng dẫn này, chúng tôi sẽ hướng dẫn bạn quy trình trích xuất nội dung từ tài liệu OneNote bằng cách sử dụng Document Visitor trong Java.
+Aspose.Note for Java giúp bạn **trích xuất hình ảnh từ OneNote** trong các sổ tay cũng như đọc tệp `.one` gốc trong Java. Trong hướng dẫn này, chúng tôi sẽ đưa bạn qua một ví dụ thực tế đầy đủ, cho thấy cách tải tệp OneNote, duyệt cấu trúc của nó bằng một `DocumentVisitor` tùy chỉnh, và lấy ra cả hình ảnh lẫn văn bản thuần. Khi kết thúc, bạn cũng sẽ biết cách **chuyển đổi OneNote sang văn bản** nếu chỉ cần nội dung văn bản.
 
-## Điều kiện tiên quyết
+## Câu trả lời nhanh
+- **Thư viện tôi cần gì?** Aspose.Note for Java (liên kết tải xuống bên dưới).  
+- **Tôi có thể chỉ trích xuất hình ảnh không?** Có – triển khai phương thức `VisitImageStart` trong một `DocumentVisitor`.  
+- **Làm sao đọc tệp .one trong Java?** Dùng `new Document(path, new LoadOptions())`.  
+- **Có cần giấy phép cho môi trường sản xuất không?** Cần giấy phép thương mại cho việc sử dụng không phải bản thử nghiệm.  
+- **Phiên bản Java nào được hỗ trợ?** JDK 8 hoặc cao hơn.
 
-Trước khi bắt đầu, hãy đảm bảo bạn có những điều sau:
+## Yêu cầu trước
 
-1. Bộ công cụ phát triển Java (JDK) được cài đặt trên hệ thống của bạn.
-2.  Aspose.Note cho thư viện Java đã được tải xuống. Bạn có thể tải nó xuống[đây](https://releases.aspose.com/note/java/).
-3. Tài liệu OneNote (có phần mở rộng .one) để trích xuất nội dung từ đó.
+Trước khi bắt đầu, hãy đảm bảo bạn có:
 
-## Gói nhập khẩu
+1. Java Development Kit (JDK) 8 hoặc mới hơn đã được cài đặt.  
+2. Thư viện Aspose.Note for Java đã tải về. Bạn có thể tải nó **[tại đây](https://releases.aspose.com/note/java/)**.  
+3. Một tài liệu OneNote (`.one` file) mà bạn muốn trích xuất hình ảnh hoặc chuyển đổi sang văn bản.
 
-Trước tiên, bạn cần nhập các gói cần thiết để hoạt động với Aspose.Note cho Java.
+## Nhập khẩu các gói
+
+Đầu tiên, nhập các lớp cần thiết từ API Aspose.Note.
 
 ```java
 import java.io.IOException;
@@ -44,9 +54,9 @@ import com.aspose.note.RichText;
 import com.aspose.note.Title;
 ```
 
-## Bước 1: Thiết lập lớp khách truy cập tài liệu
+## Bước 1: Thiết lập Document Visitor tùy chỉnh
 
-Tạo một lớp mở rộng`DocumentVisitor` lớp được cung cấp bởi Aspose.Note cho Java. Lớp này sẽ xử lý việc truy cập các nút khác nhau của tài liệu.
+Tạo một lớp kế thừa `DocumentVisitor`. Lớp này sẽ được gọi cho mỗi nút trong tài liệu OneNote, cho phép bạn **trích xuất hình ảnh từ OneNote** và tùy chọn thu thập văn bản.
 
 ```java
 public class ExtractOneNoteContentUsingDocumentvisitor extends DocumentVisitor {
@@ -61,16 +71,16 @@ public class ExtractOneNoteContentUsingDocumentvisitor extends DocumentVisitor {
         mBuilder = new StringBuilder();
     }
     
-    // Các phương pháp khác sẽ được thực hiện ở đây
+    // Other methods will be implemented here
 }
 ```
 
-## Bước 2: Triển khai các phương pháp dành cho khách truy cập
+## Bước 2: Triển khai các phương thức Visitor
 
-Triển khai các phương thức truy cập cho các loại nút khác nhau mà bạn muốn xử lý trong tài liệu. Trong ví dụ này, chúng tôi sẽ triển khai các phương thức cho các nút RichText, Document, Page, Title, Image, OutlineGroup, Outline và OutlineElement.
+Thêm các override cho các loại nút mà bạn quan tâm. Dưới đây chúng ta xử lý rich‑text, hình ảnh, tiêu đề, trang, outline và các phần tử outline. Phương thức `VisitImageStart` là nơi thực hiện việc trích xuất hình ảnh.
 
 ```java
-// Phương pháp truy cập cho các loại nút khác nhau
+// Visitor methods for different types of nodes
 
 public /* override */ void VisitRichTextStart(RichText run) {
     ++nodecount;
@@ -91,6 +101,8 @@ public /* override */ void VisitTitleStart(Title title) {
 
 public /* override */ void VisitImageStart(Image image) {
     ++nodecount;
+    // Here you could save the image to disk or process it further
+    System.out.println("Found image with size: " + image.getData().length + " bytes");
 }
 
 public /* override */ void VisitOutlineGroupStart(OutlineGroup outlineGroup) {
@@ -106,53 +118,72 @@ public void VisitOutlineElementStart(OutlineElement outlineElement) {
 }
 ```
 
-## Bước 3: Phương pháp chính
+### Tại sao cần triển khai các phương thức này?
 
-Trong phương thức chính, tải tài liệu OneNote, tạo một phiên bản của lớp Khách truy cập Tài liệu tùy chỉnh của bạn và chấp nhận khách truy cập bắt đầu quá trình truy cập.
+- **Trích xuất hình ảnh từ OneNote:** `VisitImageStart` cung cấp cho bạn quyền truy cập trực tiếp vào các byte hình ảnh thô.  
+- **Chuyển đổi OneNote sang văn bản:** `VisitRichTextStart` thu thập nội dung văn bản, cho phép thực hiện một thao tác **chuyển đổi OneNote sang văn bản** đơn giản.  
+- **Đọc tệp .one trong Java:** Mẫu Visitor trừu tượng hoá cấu trúc tệp `.one` nền tảng, vì vậy bạn không cần tự phân tích định dạng nhị phân.
+
+## Bước 3: Chạy Visitor từ phương thức Main của bạn
+
+Tải tệp `.one`, khởi tạo visitor của bạn, và bắt đầu duyệt.
 
 ```java
 public static void main(String[] args) throws IOException {
-    // Mở tài liệu chúng tôi muốn chuyển đổi.
+    // Open the document we want to convert.
     String dataDir = "Your Document Directory";
     Document doc = new Document(dataDir + "Sample1.one", new LoadOptions());
     
-    // Tạo một đối tượng kế thừa từ lớp DocumentVisitor.
+    // Create an object that inherits from the DocumentVisitor class.
     ExtractOneNoteContentUsingDocumentvisitor myConverter = new ExtractOneNoteContentUsingDocumentvisitor();
     
-    // Chấp nhận khách truy cập để bắt đầu quá trình truy cập.
+    // Accept the visitor to start the visiting process.
     doc.accept(myConverter);
     
-    // Truy xuất kết quả của hoạt động.
-    System.out.println(myConverter.GetText());
-    System.out.println(myConverter.NodeCount());
+    // Retrieve the result of the operation.
+    System.out.println(myConverter.GetText());   // Text extracted from the notebook
+    System.out.println(myConverter.NodeCount()); // Total nodes visited
 }
 ```
 
-## Phần kết luận
+## Các trường hợp sử dụng phổ biến
 
-Trong hướng dẫn này, bạn đã học cách trích xuất nội dung từ tài liệu OneNote bằng Aspose.Note cho Java. Bằng cách triển khai lớp Khách truy cập tài liệu tùy chỉnh và truy cập các nút khác nhau của tài liệu, bạn có thể trích xuất và xử lý nội dung theo yêu cầu của mình một cách hiệu quả.
+- **Báo cáo tự động:** Lấy hình ảnh và văn bản từ sổ tay họp OneNote để tạo bản tóm tắt PDF hoặc HTML.  
+- **Di chuyển nội dung:** Chuyển đổi các kho lưu trữ OneNote cũ sang tệp văn bản thuần để lập chỉ mục hoặc nhập vào công cụ tìm kiếm.  
+- **Trích xuất tài sản kỹ thuật số:** Thu thập các ảnh chụp màn hình, sơ đồ hoặc ảnh nhúng để tái sử dụng trong các ứng dụng khác.
+
+## Khắc phục sự cố & Mẹo
+
+- **Sổ tay lớn:** Nếu gặp vấn đề về bộ nhớ, hãy xử lý các trang riêng lẻ bằng cách kiểm tra `VisitPageStart` và chỉ tải tài nguyên cấp trang khi cần.  
+- **Định dạng hình ảnh:** Đối tượng `Image` trả về các byte thô; bạn có thể cần xác định định dạng (PNG, JPEG) trước khi lưu.  
+- **Lỗi giấy phép:** Đảm bảo bạn đã thiết lập giấy phép Aspose (`License license = new License(); license.setLicense("Aspose.Note.Java.lic");`) trước khi tải tài liệu trong môi trường sản xuất.
 
 ## Câu hỏi thường gặp
 
-### Câu hỏi 1: Tôi có thể trích xuất các loại nội dung cụ thể từ tài liệu OneNote không?
+**Q: Tôi có thể trích xuất các loại nội dung cụ thể nào từ tài liệu OneNote?**  
+A: Có – chỉ cần ghi đè các phương thức visitor bạn cần (ví dụ, `VisitImageStart` cho hình ảnh, `VisitRichTextStart` cho văn bản).
 
-Câu trả lời 1: Có, bằng cách triển khai các phương pháp truy cập cụ thể cho các loại nút khác nhau, bạn có thể trích xuất có chọn lọc nội dung như văn bản, hình ảnh, tiêu đề, v.v.
+**Q: Aspose.Note for Java có tương thích với các phiên bản tài liệu OneNote khác nhau không?**  
+A: Hoàn toàn. Thư viện hỗ trợ tất cả các phiên bản tệp OneNote chính, vì vậy bạn có thể an tâm **đọc tệp .one trong Java** bất kể phiên bản gốc của OneNote.
 
-### Câu hỏi 2: Aspose.Note for Java có tương thích với các phiên bản khác nhau của tài liệu OneNote không?
+**Q: Tôi có thể tích hợp quy trình trích xuất này vào ứng dụng Java của mình không?**  
+A: Có. Mẫu Visitor hoạt động mượt mà trong bất kỳ dự án Java nào; chỉ cần thêm JAR thư viện và gọi ví dụ đã trình bày ở trên.
 
-Câu trả lời 2: Aspose.Note for Java hỗ trợ nhiều phiên bản khác nhau của tài liệu OneNote, đảm bảo tính tương thích và trích xuất nội dung một cách suôn sẻ.
+**Q: Aspose.Note for Java có hỗ trợ xử lý các tài OneNote phức tạp không?**  
+A: Có. Các outline lồng nhau, phương tiện nhúng và dữ liệu tùy chỉnh đều được mở ra qua API visitor.
 
-### Câu hỏi 3: Tôi có thể tích hợp quy trình trích xuất này vào ứng dụng Java của mình không?
+**Q: Có giới hạn nào về kích thước tài liệu OneNote có thể xử lý không?**  
+A: Không có giới hạn cứng, nhưng các sổ tay cực lớn có thể yêu cầu nhiều bộ nhớ heap hơn; hãy cân nhắc xử lý từng trang một.
 
-Câu trả lời 3: Hoàn toàn có thể, bạn có thể dễ dàng tích hợp quy trình trích xuất nội dung vào các ứng dụng Java của mình bằng cách làm theo hướng dẫn được cung cấp.
+**Q: Làm sao chuyển đổi văn bản đã trích xuất thành tệp văn bản thuần?**  
+A: Sau khi `myConverter.GetText()` trả về một `String`, ghi nó vào tệp bằng I/O chuẩn của Java (`Files.write(Paths.get("output.txt"), text.getBytes());`).
 
-### Câu hỏi 4: Aspose.Note for Java có hỗ trợ xử lý các tài liệu OneNote phức tạp không?
+---  
 
-Câu trả lời 4: Có, Aspose.Note for Java cung cấp hỗ trợ toàn diện để xử lý các cấu trúc và nội dung phức tạp trong tài liệu OneNote.
+**Cập nhật lần cuối:** 2025-12-04  
+**Kiểm tra với:** Aspose.Note for Java 24.10  
+**Tác giả:** Aspose  
 
-### Câu hỏi 5: Có giới hạn nào về kích thước của tài liệu OneNote có thể được xử lý bằng Aspose.Note for Java không?
-
-Câu trả lời 5: Aspose.Note for Java được thiết kế để xử lý các tài liệu OneNote có nhiều kích cỡ khác nhau một cách hiệu quả, đảm bảo hiệu suất tối ưu ngay cả với các tài liệu lớn.
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

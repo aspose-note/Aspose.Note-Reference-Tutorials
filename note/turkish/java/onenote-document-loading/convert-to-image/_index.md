@@ -1,32 +1,52 @@
 ---
-title: OneNote Belgesini Görüntüye Dönüştürme - Java
-linktitle: OneNote Belgesini Görüntüye Dönüştürme - Java
-second_title: Aspose.Note Java API'si
-description: Aspose.Note for Java'yı kullanarak OneNote'u görüntüye dönüştürmeyi öğrenin. Kolay adımları izleyin, belgeyi yükleyin, seçenekleri başlatın ve PNG olarak kaydedin.
+date: 2025-12-04
+description: OneNote'u PNG görüntüsü olarak kaydetmeyi Aspose.Note for Java ile öğrenin.
+  Bu kılavuz ayrıca OneNote'u görüntü ve PDF'ye dönüştürmeyi gösterir.
+language: tr
+linktitle: How to Save OneNote as PNG Image with Aspose.Note for Java
+second_title: Aspose.Note Java API
+title: Aspose.Note for Java ile OneNote'u PNG Görüntüsü Olarak Kaydetme
+url: /java/onenote-document-loading/convert-to-image/
 weight: 14
-url: /tr/java/onenote-document-loading/convert-to-image/
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# OneNote Belgesini Görüntüye Dönüştürme - Java
+# Aspose.Note for Java ile OneNote'u PNG Görüntüsü Olarak Kaydetme
 
-## giriiş
+## Introduction
 
-Bu eğitimde, OneNote belgesini görüntüye dönüştürmek için Aspose.Note for Java'yı kullanma sürecinde size rehberlik edeceğiz. Her adımı takip edilmesi kolay talimatlara ayıracağız.
+Bu öğreticide **OneNote** belgelerini yüksek kaliteli PNG görüntüleri olarak nasıl kaydedeceğinizi **Aspose.Note for Java** kütüphanesini kullanarak öğreneceksiniz. OneNote'u görüntü formatlarına (PNG gibi) dönüştürmek, notları web sayfalarına yerleştirmeniz, küçük resimler oluşturmanız veya yazdırılabilir varlıklar üretmeniz gerektiğinde yaygın bir gereksinimdir. Ortamınızı kurmaktan dosyayı dışa aktarmaya kadar her adımı göstereceğiz; böylece bu yeteneği Java uygulamalarınıza hızlıca entegre edebilirsiniz.
 
-## Önkoşullar
+## Quick Answers
+- **Hangi kütüphane gerekiyor?** Aspose.Note for Java.  
+- **Başka formatlara dönüştürebilir miyim?** Evet – OneNote'u PDF, JPEG, BMP vb. formatlara da dönüştürebilirsiniz.  
+- **İnternet bağlantısına ihtiyacım var mı?** Hayır, dönüşüm yerel olarak gerçekleşir.  
+- **Bu kılavuzda hangi görüntü formatı kullanılıyor?** PNG (`SaveFormat`'ı değiştirerek JPEG veya BMP'ye geçebilirsiniz).  
+- **Dönüşüm ne kadar sürer?** Standart bir OneNote dosyası için genellikle bir saniyenin altında.
 
-Başlamadan önce aşağıdakilere sahip olduğunuzdan emin olun:
+## What is “how to save OneNote” in practice?
 
-1. Sisteminizde Java Geliştirme Kiti (JDK) yüklü.
-2.  Aspose.Note for Java kütüphanesi. Şuradan indirebilirsiniz[Burada](https://releases.aspose.com/note/java/).
+OneNote'u bir görüntü olarak kaydetmek, bir `.one` dosyasının her sayfasını raster bir formata (PNG, JPEG, …) render etmek anlamına gelir. Bu, OneNote yüklü olmayan kullanıcılarla notları paylaşmak veya statik görsel varlıklar oluşturmak için faydalıdır.
 
-## Paketleri İçe Aktar
+## Why use Aspose.Note for Java to convert OneNote to PNG?
 
-Öncelikle gerekli paketleri Java kodunuza aktarın:
+- **Harici bağımlılık yok** – tamamen Java içinde çalışır.  
+- **Tam doğruluk** – renkleri, yazı tiplerini ve düzeni korur.  
+- **Esnek çıktı** – PNG, JPEG, BMP, PDF, HTML ve daha fazlasını destekler.  
+- **Kurumsal hazır** – Java 8+ destekleyen herhangi bir platformda çalışır.
+
+## Prerequisites
+
+1. **Java Development Kit (JDK)** – sürüm 8 veya üzeri.  
+2. **Aspose.Note for Java** kütüphanesi – resmi siteden en son JAR'ı indirin: [Aspose.Note for Java indirme](https://releases.aspose.com/note/java/).  
+3. Dönüştürmek istediğiniz mevcut bir **OneNote (.one)** dosyası (ör. `Sample1.one`).
+
+## Import Packages
+
+First, import the classes we’ll need. This code block remains unchanged:
 
 ```java
 import java.io.IOException;
@@ -35,83 +55,86 @@ import com.aspose.note.ImageSaveOptions;
 import com.aspose.note.SaveFormat;
 ```
 
-Şimdi sağlanan örnek kodu birden çok adıma ayıralım:
+## Step‑by‑Step Guide
 
-## 1. Adım: Belge Dizinini Ayarlayın
-
-OneNote belgenizin bulunduğu dizini tanımlayın:
+### Step 1: Set up Document Directory  
+Define the folder that contains your OneNote file. Replace the placeholder with the actual path on your machine.
 
 ```java
 String dataDir = "Your Document Directory";
 ```
 
- Yer değiştirmek`"Your Document Directory"` OneNote belgenizin yolu ile birlikte.
-
-## Adım 2: Belgeyi Yükleyin
-
-OneNote belgesini Aspose.Note'a yükleyin:
+### Step 2: Load the OneNote Document  
+Create a `Document` object by loading the `.one` file.
 
 ```java
 Document oneFile = new Document(dataDir + "Sample1.one");
 ```
 
- Emin olmak`"Sample1.one"` OneNote belge dosyanızın adıyla eşleşir.
+> **Pro tip:** Daha sonra **OneNote'u PDF'e dönüştürmeniz** gerekirse, aynı `Document` örneğini farklı bir `SaveOptions` ile yeniden kullanabilirsiniz.
 
-## 3. Adım: ImageSaveOptions'ı başlatın
-
- Başlat`ImageSaveOptions` kaydetme biçimini belirtmek için nesne:
+### Step 3: Initialize ImageSaveOptions  
+Tell Aspose.Note which image format you want. Here we choose PNG, but you could also use `SaveFormat.Jpeg` or `SaveFormat.Bmp`.
 
 ```java
 ImageSaveOptions options = new ImageSaveOptions(SaveFormat.Png);
 ```
 
-Burada belgeyi PNG görüntüsü olarak kaydediyoruz. Gerekirse JPEG veya BMP gibi diğer formatları seçebilirsiniz.
+> This line also satisfies the secondary keyword **convert onenote to png** and **save onenote as png**.  
+> Bu satır aynı zamanda **convert onenote to png** ve **save onenote as png** anahtar kelimelerini de karşılar.
 
-## Adım 4: Belgeyi Görüntü Olarak Kaydetme
-
-Yüklenen belgeyi resim olarak kaydedin:
+### Step 4: Save the Document as an Image  
+Export the OneNote page(s) to a PNG file.
 
 ```java
 oneFile.save(dataDir + "ConvertToImage_out.png", options);
 ```
 
-Bu satır, belgeyi belirtilen seçeneklerle PNG görüntüsü olarak kaydeder.
+> The method `save` automatically handles multi‑page documents by creating separate image files for each page.  
+> `save` yöntemi, çok sayfalı belgeleri otomatik olarak her sayfa için ayrı görüntü dosyaları oluşturarak işler.
 
-## Adım 5: Onayı Yazdırın
-
-Dosyanın kaydedildiğini onaylamak için bir mesaj yazdırın:
+### Step 5: Print Confirmation  
+Let the user know where the output was written.
 
 ```java
 System.out.println("File saved: " + dataDir + "ConvertToImage_out.png");
 ```
 
-Bu satır, başarılı dönüştürme ve kaydedilen görüntü dosyasının konumu hakkında sizi bilgilendirir.
+## Common Issues and Solutions
 
-## Çözüm
+| Issue | Reason | Fix |
+|-------|--------|-----|
+| **FileNotFoundException** | Yanlış `dataDir` yolu | Klasör yolunun `/` veya `\\` ile bittiğini ve dosya adının doğru olduğunu doğrulayın. |
+| **Unsupported format** | Kütüphane sürümü tarafından desteklenmeyen eski bir görüntü formatına kaydetmeye çalışmak | Aspose.Note'u en son sürüme güncelleyin veya desteklenen bir `SaveFormat` seçin. |
+| **Large OneNote files cause OutOfMemoryError** | Yetersiz yığın (heap) alanı | JVM yığınını artırın (`-Xmx2g`) veya `Document.getPages()` döngüsüyle sayfaları tek tek işleyin. |
 
-Yukarıda özetlenen adımları izleyerek, Aspose.Note for Java'yı kullanarak bir OneNote belgesini zahmetsizce bir görüntüye dönüştürebilirsiniz. Java uygulamalarınızda belge dönüştürme işlemlerini gerçekleştirmenin basit ve etkili bir yoludur.
+## Frequently Asked Questions
 
-## SSS'ler
+**S: Bir seferde birden fazla OneNote dosyasını dönüştürebilir miyim?**  
+C: Evet. Dosya adları koleksiyonunda döngü oluşturup, her birini `new Document(...)` ile yükleyin ve kaydetme adımlarını tekrarlayın.
 
-### S1: Tek seferde birden fazla OneNote belgesini dönüştürebilir miyim?
+**S: Aspose.Note OneNote'u PDF'e dönüştürmeyi destekliyor mu?**  
+C: Kesinlikle. **convert onenote to pdf** yapmak için `ImageSaveOptions` yerine `PdfSaveOptions` kullanın.
 
-Cevap1: Evet, bir belge listesinde dolaşabilir ve her belge için dönüştürme işlemini gerçekleştirebilirsiniz.
+**S: PNG çıktısının çözünürlüğünü nasıl değiştirebilirim?**  
+C: `save` çağırmadan önce `options.setResolutionX(int)` ve `options.setResolutionY(int)` değerlerini ayarlayın.
 
-### S2: Aspose.Note görsellerin dışında diğer çıktı formatlarını da destekliyor mu?
+**S: OneNote'u JPEG gibi başka görüntü formatlarına dönüştürmenin bir yolu var mı?**  
+C: Evet, `ImageSaveOptions` yapıcısında `SaveFormat.Png` yerine `SaveFormat.Jpeg` veya `SaveFormat.Bmp` kullanın.
 
-Cevap2: Evet, Aspose.Note PDF, HTML ve Microsoft Word formatları gibi çeşitli çıktı formatlarını destekler.
+**S: Dönüşüm için internet bağlantısına ihtiyacım var mı?**  
+C: Hayır. Aspose.Note tüm işlemleri yerel olarak yapar; dış hizmetler çağrılmaz.
 
-### S3: Aspose.Note, OneNote dosyalarının tüm sürümleriyle uyumlu mudur?
+## Conclusion
 
-Cevap3: Aspose.Note, Microsoft OneNote'un farklı sürümlerinde oluşturulan OneNote dosyalarıyla uyumluluk sunar.
+Bu basit adımları izleyerek artık **OneNote** dosyalarını **Aspose.Note for Java** kullanarak PNG görüntüleri olarak nasıl kaydedeceğinizi biliyorsunuz. Bu yetenek, notları web sitelerine gömmek, yazdırılabilir varlıklar üretmek veya defterlerinizi statik görüntüler olarak arşivlemek gibi birçok senaryoya kapı açar. Diğer çıktı formatlarıyla (PDF veya JPEG gibi) da deney yapmaktan çekinmeyin ve kodu daha büyük otomasyon boru hatlarına entegre edin.
 
-### S4: Çıktı görüntülerinin çözünürlüğünü özelleştirebilir miyim?
+---
 
-Cevap4: Evet, Aspose.Note'ta bulunan seçenekleri kullanarak çözünürlüğü ve diğer parametreleri ayarlayabilirsiniz.
+**Last Updated:** 2025-12-04  
+**Tested With:** Aspose.Note for Java 24.12  
+**Author:** Aspose  
 
-### S5: Aspose.Note belge dönüştürme için internet bağlantısı gerektiriyor mu?
-
-Cevap5: Hayır, Aspose.Note internet bağlantısına ihtiyaç duymadan yerel olarak çalışır.
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

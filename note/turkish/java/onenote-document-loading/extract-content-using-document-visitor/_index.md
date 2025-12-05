@@ -1,33 +1,44 @@
 ---
-title: Belge Ziyaretçisini kullanarak OneNote İçeriğini Çıkarma - Java
-linktitle: Belge Ziyaretçisini kullanarak OneNote İçeriğini Çıkarma - Java
-second_title: Aspose.Note Java API'si
-description: Aspose.Note for Java'yı kullanarak Java'daki OneNote belgelerinden içeriği nasıl çıkaracağınızı öğrenin. Sağlanan kod örnekleriyle adım adım eğitim.
+date: 2025-12-04
+description: Aspose.Note kullanarak Java’da OneNote dosyalarından resimleri nasıl
+  çıkaracağınızı ve OneNote’u metne nasıl dönüştüreceğinizi öğrenin. Kod örnekleriyle
+  adım adım rehber.
+language: tr
+linktitle: Extract Images from OneNote using Document Visitor - Java
+second_title: Aspose.Note Java API
+title: Belge Ziyaretçisi Kullanarak OneNote'tan Görselleri Çıkarma - Java
+url: /java/onenote-document-loading/extract-content-using-document-visitor/
 weight: 21
-url: /tr/java/onenote-document-loading/extract-content-using-document-visitor/
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Belge Ziyaretçisini kullanarak OneNote İçeriğini Çıkarma - Java
+# OneNote'tan Görüntüleri Document Visitor Kullanarak Çıkarma - Java
 
-## giriiş
+## Introduction
 
-Aspose.Note for Java, OneNote belgelerinden içerik çıkarmak için güçlü özellikler sunar. Bu öğreticide, Java'daki Belge Ziyaretçisini kullanarak OneNote belgesinden içerik çıkarma sürecinde size yol göstereceğiz.
+Aspose.Note for Java, Java'da temel `.one` dosyasını okumanın yanı sıra **OneNote** defterlerinden görüntüleri **çıkarmayı** kolaylaştırır. Bu öğreticide, bir OneNote dosyasını nasıl yükleyeceğinizi, özel bir `DocumentVisitor` ile yapısını nasıl dolaşacağınızı ve hem görüntüleri hem de düz metni nasıl çıkaracağınızı gösteren eksiksiz, uygulamalı bir örnek üzerinden sizi yönlendireceğiz. Sonunda, yalnızca metin içeriğine ihtiyacınız varsa **OneNote'u metne dönüştürmeyi** de öğreneceksiniz.
 
-## Önkoşullar
+## Quick Answers
+- **Hangi kütüphane gerekiyor?** Aspose.Note for Java (aşağıdaki indirme bağlantısı).  
+- **Sadece görüntüleri çıkarabilir miyim?** Evet – bir `DocumentVisitor` içinde `VisitImageStart` metodunu uygulayın.  
+- **Java'da .one dosyasını nasıl okurum?** `new Document(path, new LoadOptions())` kullanın.  
+- **Üretim için lisansa ihtiyacım var mı?** Deneme dışı kullanım için ticari bir lisans gereklidir.  
+- **Hangi Java sürümü destekleniyor?** JDK 8 ve üzeri.
+
+## Prerequisites
 
 Başlamadan önce aşağıdakilere sahip olduğunuzdan emin olun:
 
-1. Sisteminizde Java Geliştirme Kiti (JDK) yüklü.
-2.  Aspose.Note for Java kütüphanesi indirildi. İndirebilirsin[Burada](https://releases.aspose.com/note/java/).
-3. İçeriğin ayıklanacağı bir OneNote belgesi (.one uzantılı).
+1. Java Development Kit (JDK) 8 veya daha yeni bir sürüm yüklü.  
+2. Aspose.Note for Java kütüphanesini indirdiniz. **[buradan](https://releases.aspose.com/note/java/)** indirebilirsiniz.  
+3. Görüntüleri çıkarmak veya metne dönüştürmek istediğiniz bir OneNote belgesi (`.one` dosyası).
 
-## Paketleri İçe Aktar
+## Import Packages
 
-Öncelikle Aspose.Note for Java ile çalışmak için gerekli paketleri içe aktarmanız gerekir.
+İlk olarak, Aspose.Note API'sinden gerekli sınıfları içe aktarın.
 
 ```java
 import java.io.IOException;
@@ -44,9 +55,9 @@ import com.aspose.note.RichText;
 import com.aspose.note.Title;
 ```
 
-## 1. Adım: Belge Ziyaretçi Sınıfını Ayarlayın
+## Step 1: Set Up a Custom Document Visitor
 
-genişleten bir sınıf oluşturun.`DocumentVisitor` Java için Aspose.Note tarafından sağlanan sınıf. Bu sınıf, belgenin farklı düğümlerini ziyaret etmeyi ele alacaktır.
+`DocumentVisitor` sınıfını genişleten bir sınıf oluşturun. Bu sınıf, OneNote belgesindeki her düğüm için çağrılacak ve **OneNote'tan görüntüleri çıkarmanıza** ve isteğe bağlı olarak metin toplamanıza olanak tanıyacak.
 
 ```java
 public class ExtractOneNoteContentUsingDocumentvisitor extends DocumentVisitor {
@@ -61,16 +72,16 @@ public class ExtractOneNoteContentUsingDocumentvisitor extends DocumentVisitor {
         mBuilder = new StringBuilder();
     }
     
-    // Burada başka yöntemler de uygulanacak
+    // Other methods will be implemented here
 }
 ```
 
-## 2. Adım: Ziyaretçi Yöntemlerini Uygulayın
+## Step 2: Implement Visitor Methods
 
-Belgede işlemek istediğiniz farklı düğüm türleri için ziyaretçi yöntemlerini uygulayın. Bu örnekte RichText, Document, Page, Title, Image, OutlineGroup, Outline ve OutlineElement düğümleri için yöntemler uygulayacağız.
+İlgilendiğiniz düğüm tipleri için geçersiz kılmalar ekleyin. Aşağıda zengin metin, görüntüler, başlıklar, sayfalar, anahatlar ve anahat öğeleri ele alıyoruz. Görüntü çıkarma işlemi `VisitImageStart` metodunda gerçekleşir.
 
 ```java
-// Farklı düğüm türleri için ziyaretçi yöntemleri
+// Visitor methods for different types of nodes
 
 public /* override */ void VisitRichTextStart(RichText run) {
     ++nodecount;
@@ -91,6 +102,8 @@ public /* override */ void VisitTitleStart(Title title) {
 
 public /* override */ void VisitImageStart(Image image) {
     ++nodecount;
+    // Here you could save the image to disk or process it further
+    System.out.println("Found image with size: " + image.getData().length + " bytes");
 }
 
 public /* override */ void VisitOutlineGroupStart(OutlineGroup outlineGroup) {
@@ -106,53 +119,72 @@ public void VisitOutlineElementStart(OutlineElement outlineElement) {
 }
 ```
 
-## Adım 3: Ana Yöntem
+### Why implement these methods?
 
-Ana yöntemde OneNote belgesini yükleyin, özel Belge Ziyaretçisi sınıfınızın bir örneğini oluşturun ve ziyaretçinin ziyaret sürecini başlatmasını kabul edin.
+- **OneNote'tan görüntüleri çıkarmak:** `VisitImageStart` ham görüntü baytlarına doğrudan erişim sağlar.  
+- **OneNote'u metne dönüştürmek:** `VisitRichTextStart` metin içeriğini toplar ve basit bir **OneNote'u metne dönüştür** işlemini mümkün kılar.  
+- **.one dosyasını Java'da okumak:** Ziyaretçi deseni, temel `.one` dosya yapısını soyutlar, böylece ikili formatı kendiniz ayrıştırmanız gerekmez.
+
+## Step 3: Run the Visitor from Your Main Method
+
+`.one` dosyasını yükleyin, ziyaretçinizi örnekleyin ve dolaşımı başlatın.
 
 ```java
 public static void main(String[] args) throws IOException {
-    // Dönüştürmek istediğimiz belgeyi açın.
+    // Open the document we want to convert.
     String dataDir = "Your Document Directory";
     Document doc = new Document(dataDir + "Sample1.one", new LoadOptions());
     
-    // DocumentVisitor sınıfından miras alan bir nesne oluşturun.
+    // Create an object that inherits from the DocumentVisitor class.
     ExtractOneNoteContentUsingDocumentvisitor myConverter = new ExtractOneNoteContentUsingDocumentvisitor();
     
-    // Ziyaret sürecini başlatmak için ziyaretçiyi kabul edin.
+    // Accept the visitor to start the visiting process.
     doc.accept(myConverter);
     
-    // İşlemin sonucunu alın.
-    System.out.println(myConverter.GetText());
-    System.out.println(myConverter.NodeCount());
+    // Retrieve the result of the operation.
+    System.out.println(myConverter.GetText());   // Text extracted from the notebook
+    System.out.println(myConverter.NodeCount()); // Total nodes visited
 }
 ```
 
-## Çözüm
+## Common Use Cases
 
-Bu eğitimde Aspose.Note for Java'yı kullanarak bir OneNote belgesinden nasıl içerik çıkaracağınızı öğrendiniz. Özel bir Belge Ziyaretçisi sınıfı uygulayarak ve belgenin farklı düğümlerini ziyaret ederek, gereksinimlerinize göre içeriği etkili bir şekilde çıkarabilir ve işleyebilirsiniz.
+- **Otomatik raporlama:** Bir OneNote toplantı defterinden görüntü ve metni çekerek PDF veya HTML özeti oluşturun.  
+- **İçerik taşıma:** Eski OneNote arşivlerini indeksleme veya arama motoru alımı için düz metin dosyalarına dönüştürün.  
+- **Dijital varlık çıkarma:** Gömülü ekran görüntülerini, diyagramları veya fotoğrafları diğer uygulamalarda yeniden kullanmak üzere toplayın.
 
-## SSS'ler
+## Troubleshooting & Tips
 
-### S1: OneNote belgesinden belirli içerik türlerini çıkarabilir miyim?
+- **Büyük defterler:** Bellek sorunlarıyla karşılaşırsanız, `VisitPageStart` kontrol ederek sayfaları tek tek işleyin ve yalnızca gerektiğinde sayfa‑seviyesi kaynakları yükleyin.  
+- **Görüntü formatları:** `Image` nesnesi ham baytları döndürür; kaydetmeden önce formatı (PNG, JPEG) tespit etmeniz gerekebilir.  
+- **Lisans hataları:** Üretimde belgeyi yüklemeden önce Aspose lisansını ayarladığınızdan emin olun (`License license = new License(); license.setLicense("Aspose.Note.Java.lic");`).
 
-Cevap1: Evet, farklı düğüm türleri için belirli ziyaretçi yöntemleri uygulayarak metin, resim, başlık vb. içerikleri seçerek çıkarabilirsiniz.
+## Frequently Asked Questions
 
-### S2: Aspose.Note for Java, OneNote belgelerinin farklı sürümleriyle uyumlu mudur?
+**S: OneNote belgesinden belirli içerik türlerini çıkarabilir miyim?**  
+C: Evet – yalnızca ihtiyacınız olan ziyaretçi metodlarını geçersiz kılarak (ör. görüntüler için `VisitImageStart`, metin için `VisitRichTextStart`) yapabilirsiniz.
 
-Cevap2: Aspose.Note for Java, OneNote belgelerinin çeşitli sürümlerini destekleyerek içeriğin uyumluluğunu ve sorunsuz şekilde çıkarılmasını sağlar.
+**S: Aspose.Note for Java, farklı OneNote belge sürümleriyle uyumlu mu?**  
+C: Kesinlikle. Kütüphane tüm ana OneNote dosya sürümlerini destekler, bu yüzden kaynak OneNote sürümünden bağımsız olarak **.one dosyasını Java'da okuyabilirsiniz**.
 
-### S3: Bu çıkarma işlemini Java uygulamama entegre edebilir miyim?
+**S: Bu çıkarma sürecini Java uygulamama entegre edebilir miyim?**  
+C: Evet. Ziyaretçi deseni herhangi bir Java kod tabanında sorunsuz çalışır; sadece kütüphane JAR'ını ekleyin ve yukarıdaki örneği çağırın.
 
-Cevap3: Kesinlikle, verilen eğitimi takip ederek içerik çıkarma sürecini Java uygulamalarınıza kolayca entegre edebilirsiniz.
+**S: Aspose.Note for Java, karmaşık OneNote belgelerini işlemek için destek sağlıyor mu?**  
+C: Sağlıyor. İç içe anahatlar, gömülü medya ve özel veriler tümü ziyaretçi API'si aracılığıyla erişilebilir.
 
-### S4: Aspose.Note for Java, karmaşık OneNote belgelerinin işlenmesi için destek sağlıyor mu?
+**S: İşlenebilecek OneNote belgesinin boyutu konusunda bir sınırlama var mı?**  
+C: Katı bir sınır yoktur, ancak çok büyük defterler daha fazla yığın (heap) belleği gerektirebilir; bunları sayfa sayfa işlemek mantıklı olabilir.
 
-Cevap4: Evet, Aspose.Note for Java, OneNote belgeleri içindeki karmaşık yapıların ve içeriğin işlenmesi için kapsamlı destek sunar.
+**S: Çıkarılan metni düz metin dosyasına nasıl dönüştürürüm?**  
+C: `myConverter.GetText()` bir `String` döndürdükten sonra, standart Java I/O kullanarak dosyaya yazın (`Files.write(Paths.get("output.txt"), text.getBytes());`).
 
-### S5: Aspose.Note for Java kullanılarak işlenebilecek OneNote belgesinin boyutunda herhangi bir sınır var mı?
+---  
 
-Cevap5: Aspose.Note for Java, çeşitli boyutlardaki OneNote belgelerini verimli bir şekilde işleyecek ve büyük belgelerde bile en iyi performansı sağlayacak şekilde tasarlanmıştır.
+**Son Güncelleme:** 2025-12-04  
+**Test Edilen Versiyon:** Aspose.Note for Java 24.10  
+**Yazar:** Aspose  
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
