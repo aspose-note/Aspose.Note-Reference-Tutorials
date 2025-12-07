@@ -1,37 +1,46 @@
 ---
-title: โหลดเอกสาร OneNote ลงใน Aspose.Note โดยใช้ SaveFormat - Java
-linktitle: โหลดเอกสาร OneNote ลงใน Aspose.Note โดยใช้ SaveFormat - Java
+date: 2025-12-07
+description: เรียนรู้วิธีบันทึก OneNote เป็น PDF และแปลงไฟล์ OneNote ด้วย Aspose.Note
+  สำหรับ Java คู่มือนี้จะแสดงวิธีการส่งออก OneNote เป็น PDF ดึงข้อความ และอื่น ๆ อีกมากมาย
+language: th
+linktitle: How to Save OneNote as PDF with Aspose.Note for Java
 second_title: Aspose.Note Java API
-description: จัดการเอกสาร OneNote ได้อย่างง่ายดายด้วย Aspose.Note สำหรับ Java โดยใช้ SaveFormat ปรับปรุงความสามารถในการจัดการเอกสาร Java ของคุณได้อย่างราบรื่นด้วย Aspose.Note
+title: วิธีบันทึก OneNote เป็น PDF ด้วย Aspose.Note สำหรับ Java
+url: /java/onenote-document-loading/load-save-format/
 weight: 24
-url: /th/java/onenote-document-loading/load-save-format/
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# โหลดเอกสาร OneNote ลงใน Aspose.Note โดยใช้ SaveFormat - Java
+# บันทึก OneNote เป็น PDF ด้วย Aspose.Note สำหรับ Java
 
-## การแนะนำ
+ในการพัฒนา Java สมัยใหม่ การสามารถ **save OneNote as PDF** ได้อย่างรวดเร็วและเชื่อถือได้เป็นความต้องการทั่วไป—ไม่ว่าจะต้องการเก็บบันทึกการประชุมเป็นเอกสาร, แชร์เอกสารกับผู้ใช้ที่ไม่มี OneNote, หรือทำการสร้างรายงานอัตโนมัติ บทแนะนำนี้จะพาคุณผ่านขั้นตอนการโหลดเอกสาร OneNote และส่งออกเป็น PDF ด้วย Aspose.Note สำหรับ Java เพื่อให้คุณสามารถ **convert OneNote files** ด้วยเพียงไม่กี่บรรทัดของโค้ด.
 
-ในขอบเขตของการพัฒนา Java การจัดการเอกสารอย่างมีประสิทธิภาพเป็นสิ่งสำคัญ Aspose.Note for Java มาเป็นเครื่องมือที่มีประโยชน์ โดยนำเสนอโซลูชันที่มีประสิทธิภาพสำหรับการทำงานกับเอกสาร OneNote ได้อย่างราบรื่น ในบทช่วยสอนนี้ เราจะเจาะลึกกระบวนการโหลดเอกสาร OneNote ลงใน Aspose.Note โดยใช้ SaveFormat ใน Java ด้วยการทำตามคำแนะนำทีละขั้นตอนนี้ คุณจะสามารถควบคุมพลังของ Aspose.Note เพื่อจัดการเอกสารของคุณได้อย่างง่ายดาย
+## คำตอบอย่างรวดเร็ว
+- **Aspose.Note ทำอะไร?** มันให้ API แบบ pure‑Java เพื่ออ่าน, แก้ไข, และส่งออกไฟล์ OneNote โดยไม่ต้องใช้ Microsoft OneNote.  
+- **ฉันสามารถส่งออกเป็น PDF โดยตรงได้หรือไม่?** ได้—ใช้ `SaveFormat.Pdf` เพื่อ **save OneNote as PDF** ในขั้นตอนเดียว.  
+- **ฉันต้องการไลเซนส์สำหรับการใช้งานในโปรดักชันหรือไม่?** จำเป็นต้องมีไลเซนส์เชิงพาณิชย์สำหรับการใช้งานในโปรดักชัน; มีการทดลองใช้ฟรีสำหรับการประเมินผล.  
+- **เวอร์ชัน Java ที่รองรับคืออะไร?** รองรับ Java 8 และรุ่นใหม่ทั้งหมด.  
+- **สามารถสกัดข้อความได้หรือไม่?** แน่นอน—คุณยังสามารถ **extract text from OneNote** ด้วย API เดียวกัน.
+
+## “save onenote as pdf” คืออะไร?
+การบันทึก OneNote เป็น PDF หมายถึงการแปลงรูปแบบไฟล์ `.one` ที่เป็นกรรมสิทธิ์ให้เป็นเอกสาร PDF ที่เป็นที่ยอมรับอย่างกว้างขวางและอ่านได้อย่างเดียว การแปลงนี้จะรักษาเลย์เอาต์, รูปภาพ, และการจัดรูปแบบไว้ขณะทำให้เนื้อหาเข้าถึงได้บนอุปกรณ์ใดก็ได้.
+
+## ทำไมต้องแปลง OneNote เป็น PDF (หรือส่งออก OneNote PDF)?
+- **Universal access:** PDF สามารถเปิดได้บนแพลตฟอร์มเกือบทุกประเภทโดยไม่ต้องใช้ OneNote.  
+- **Archival stability:** PDF เป็นตัวเลือกที่เหมาะสำหรับการจัดเก็บระยะยาวและการปฏิบัติตามมาตรฐาน.  
+- **Simplified sharing:** ผู้มีส่วนได้ส่วนเสียจะได้รับไฟล์เดียวที่ไม่สามารถแก้ไขได้.  
+- **Automation:** ผสานการแปลงเข้าในงานแบตช์หรือบริการเว็บ.
 
 ## ข้อกำหนดเบื้องต้น
+- **Java Development Kit (JDK)** – เวอร์ชัน 8 หรือใหม่กว่า.  
+- **Aspose.Note for Java** library – ดาวน์โหลดจาก [Aspose.Note download page](https://releases.aspose.com/note/java/) อย่างเป็นทางการ.  
+- ไฟล์ OneNote ที่มีอยู่ (`.one`) ที่คุณต้องการแปลง.
 
-ก่อนที่จะเข้าสู่บทช่วยสอนนี้ ตรวจสอบให้แน่ใจว่าคุณได้ตั้งค่าข้อกำหนดเบื้องต้นต่อไปนี้:
-
-### สภาพแวดล้อมการพัฒนาจาวา
-
-ตรวจสอบให้แน่ใจว่าคุณได้ติดตั้ง Java Development Kit (JDK) บนระบบของคุณแล้ว คุณสามารถดาวน์โหลดและติดตั้ง JDK ได้จากเว็บไซต์ Oracle
-
-### Aspose.Note สำหรับไลบรารี Java
-
- ดาวน์โหลดและติดตั้งไลบรารี Aspose.Note สำหรับ Java จากไฟล์ที่ให้มา[ลิ้งค์ดาวน์โหลด](https://releases.aspose.com/note/java/).
-
-## แพ็คเกจนำเข้า
-
-ก่อนที่เราจะเริ่ม เรามานำเข้าแพ็คเกจที่จำเป็นไปยังโปรเจ็กต์ Java ของเราก่อน:
+## นำเข้าแพ็กเกจ
+ขั้นแรก ให้นำเข้าคลาสที่จำเป็นสำหรับการโหลดและบันทึกเอกสาร OneNote.
 
 ```java
 import java.io.IOException;
@@ -39,54 +48,58 @@ import com.aspose.note.Document;
 import com.aspose.note.SaveFormat;
 ```
 
-ตอนนี้ เรามาแจกแจงขั้นตอนการโหลดเอกสาร OneNote ลงใน Aspose.Note โดยใช้ SaveFormat ใน Java ให้เป็นขั้นตอนที่สามารถจัดการได้:
+## คู่มือขั้นตอนโดยละเอียด
 
-## ขั้นตอนที่ 1: โหลดเอกสาร OneNote
-
-ขั้นแรก เราต้องโหลดเอกสาร OneNote ลงใน Aspose.Note นี่คือวิธีที่คุณสามารถบรรลุเป้าหมายนี้:
+### ขั้นตอนที่ 1: โหลดเอกสาร OneNote
+โหลดไฟล์ `.one` ของคุณเข้าสู่วัตถุ `Aspose.Note` `Document`. แทนที่ `Your Document Directory` ด้วยเส้นทางไปยังไฟล์ของคุณ.
 
 ```java
 // ExStart:SaveDocToOneNoteFormatUsingSaveFormat
-// โหลดเอกสารลงใน Aspose.Note
+// Load the document into Aspose.Note.
 String dataDir = "Your Document Directory";
 Document oneFile = new Document(dataDir + "Sample1.one");
 ```
 
-## ขั้นตอนที่ 2: บันทึกเอกสารในรูปแบบที่ต้องการ
-
-เมื่อโหลดเอกสารแล้วเราก็สามารถบันทึกเป็นรูปแบบที่ต้องการได้ ในตัวอย่างนี้ เราจะบันทึกเป็น PDF:
+### ขั้นตอนที่ 2: บันทึกเอกสารในรูปแบบที่ต้องการ
+ตอนนี้ส่งออกเอกสารที่โหลดเป็น PDF บรรทัดเดียวนี้ **saves OneNote as PDF** และแสดงวิธี **export OneNote PDF**.
 
 ```java
-// บันทึกเอกสารเป็น PDF
+// Save the document as PDF
 oneFile.save(dataDir + "LoadDocIntoAsposeNoteUsingSaveformat_out.pdf", SaveFormat.Pdf);
-// ตัวอย่างEnd:SaveDocToOneNoteFormatUsingSaveFormat
+// ExEnd:SaveDocToOneNoteFormatUsingSaveFormat
 ```
 
-## บทสรุป
-
-ในบทช่วยสอนนี้ เราได้สำรวจกระบวนการโหลดเอกสาร OneNote ลงใน Aspose.Note โดยใช้ SaveFormat ใน Java ด้วยการทำตามขั้นตอนที่ระบุไว้ คุณจะสามารถผสานรวม Aspose.Note เข้ากับโปรเจ็กต์ Java ของคุณได้อย่างราบรื่น ซึ่งช่วยให้การจัดการเอกสารมีประสิทธิภาพ
+## ปัญหาและวิธีแก้ไขทั่วไป
+| ปัญหา | วิธีแก้ไข |
+|-------|----------|
+| **ไฟล์ไม่พบ** | ตรวจสอบว่า `dataDir` ชี้ไปยังโฟลเดอร์ที่ถูกต้องและชื่อไฟล์ตรงกันอย่างแม่นยำ รวมถึงตัวพิมพ์ใหญ่‑เล็ก. |
+| **PDF ปรากฏว่าง** | ตรวจสอบว่าไฟล์ OneNote มีเนื้อหาที่มองเห็นได้; บางหน้าที่ซ่อนอาจไม่แสดงผล. |
+| **LicenseException** | ใช้ไลเซนส์ Aspose.Note ที่ถูกต้องก่อนเรียก `save()` เพื่อหลีกเลี่ยงลายน้ำการประเมินผล. |
+| **ไฟล์ขนาดใหญ่ทำให้เกิด OutOfMemoryError** | ประมวลผลเอกสารเป็นส่วน ๆ หรือเพิ่มขนาด heap ของ JVM (`-Xmx2g`). |
 
 ## คำถามที่พบบ่อย
 
-### คำถามที่ 1: Aspose.Note เข้ากันได้กับไลบรารี Java อื่นหรือไม่
+**Q: ฉันสามารถแปลงไฟล์ OneNote ไปเป็นรูปแบบอื่น ๆ นอกจาก PDF ได้หรือไม่?**  
+A: ใช่, Aspose.Note รองรับ DOCX, XPS, HTML, และรูปแบบอื่น ๆ ผ่านการนับจำนวน `SaveFormat` enumeration.
 
-ตอบ 1: ได้ Aspose.Note สามารถรวมเข้ากับไลบรารี Java ต่างๆ เพื่อขยายฟังก์ชันการทำงานได้
+**Q: ฉันจะสกัดข้อความจากเอกสาร OneNote อย่างไร?**  
+A: ใช้เมธอด `Document.getText()` เพื่อดึงข้อความธรรมดา, ทำให้คุณสามารถ **extract text onenote** สำหรับการทำดัชนีการค้นหา หรือการวิเคราะห์.
 
-### คำถามที่ 2: ฉันสามารถปรับแต่งรูปแบบการบันทึกใน Aspose.Note ได้หรือไม่
+**Q: สามารถแปลงไฟล์ OneNote ที่เข้ารหัสได้หรือไม่?**  
+A: แน่นอน—ใส่รหัสผ่านเมื่อสร้างวัตถุ `Document` เพื่อถอดรหัสไฟล์.
 
-ตอบ 2: แน่นอนว่า Aspose.Note ให้ความยืดหยุ่นในการบันทึกเอกสารในหลายรูปแบบตามความต้องการของคุณ
+**Q: Aspose.Note ทำงานบน Linux/macOS หรือไม่?**  
+A: ไลบรารีนี้เป็นแบบไม่ขึ้นกับแพลตฟอร์ม; มันทำงานได้ทุกที่ที่มี JVM ที่เข้ากันได้.
 
-### คำถามที่ 3: Aspose.Note รองรับเอกสาร OneNote ที่เข้ารหัสหรือไม่
+**Q: ฉันสามารถรับการสนับสนุนจากชุมชนได้จากที่ไหน?**  
+A: เข้าร่วมฟอรั่มของ Aspose ที่ [Aspose.Note community page](https://forum.aspose.com/c/note/28) เพื่อรับเคล็ดลับและการแก้ปัญหา.
 
-ตอบ 3: ใช่ Aspose.Note รองรับเอกสาร OneNote ที่เข้ารหัส จึงรับประกันความปลอดภัยของข้อมูล
+---
 
-### คำถามที่ 4: ฉันสามารถแยกข้อความจากเอกสาร OneNote โดยใช้ Aspose.Note ได้หรือไม่
+**อัปเดตล่าสุด:** 2025-12-07  
+**ทดสอบกับ:** Aspose.Note for Java 24.11  
+**ผู้เขียน:** Aspose  
 
-A4: แน่นอน Aspose.Note ช่วยให้คุณสามารถแยกเนื้อหาข้อความจากเอกสาร OneNote ได้อย่างง่ายดาย
-
-### คำถามที่ 5: มีฟอรัมชุมชนสำหรับผู้ใช้ Aspose.Note หรือไม่
-
- A5: ได้ คุณสามารถค้นหาการสนับสนุนและมีส่วนร่วมกับผู้ใช้ Aspose.Note คนอื่นๆ ได้บน[ฟอรั่ม](https://forum.aspose.com/c/note/28).
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

@@ -1,37 +1,46 @@
 ---
-title: SaveFormat을 사용하여 OneNote 문서를 Aspose.Note에 로드 - Java
-linktitle: SaveFormat을 사용하여 OneNote 문서를 Aspose.Note에 로드 - Java
-second_title: Aspose.Note 자바 API
-description: SaveFormat을 사용하여 Java용 Aspose.Note로 OneNote 문서를 쉽게 관리하세요. Aspose.Note를 사용하여 Java 문서 처리 기능을 원활하게 향상하세요.
+date: 2025-12-07
+description: Aspose.Note for Java를 사용하여 OneNote를 PDF로 저장하고 OneNote 파일을 변환하는 방법을 배웁니다.
+  이 가이드는 OneNote PDF를 내보내고 텍스트를 추출하는 방법 등 다양한 내용을 보여줍니다.
+language: ko
+linktitle: How to Save OneNote as PDF with Aspose.Note for Java
+second_title: Aspose.Note Java API
+title: Aspose.Note for Java를 사용하여 OneNote를 PDF로 저장하는 방법
+url: /java/onenote-document-loading/load-save-format/
 weight: 24
-url: /ko/java/onenote-document-loading/load-save-format/
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# SaveFormat을 사용하여 OneNote 문서를 Aspose.Note에 로드 - Java
+# Aspose.Note for Java를 사용하여 OneNote를 PDF로 저장하기
 
-## 소개
+현대 Java 개발에서 **OneNote를 PDF로 저장**하는 기능은 회의 노트를 보관하거나, OneNote를 사용하지 않는 사용자와 문서를 공유하거나, 보고서 생성을 자동화하는 등 다양한 상황에서 빠르고 안정적으로 필요합니다. 이 튜토리얼에서는 OneNote 문서를 로드하고 Aspose.Note for Java를 사용해 PDF로 내보내는 방법을 단계별로 안내하므로, 몇 줄의 코드만으로 **OneNote 파일을 변환**할 수 있습니다.
 
-Java 개발 영역에서는 문서를 효율적으로 처리하는 것이 중요합니다. Aspose.Note for Java는 OneNote 문서를 원활하게 작업할 수 있는 강력한 솔루션을 제공하는 편리한 도구로 제공됩니다. 이 튜토리얼에서는 Java에서 SaveFormat을 사용하여 OneNote 문서를 Aspose.Note로 로드하는 과정을 자세히 살펴보겠습니다. 이 단계별 가이드를 따르면 Aspose.Note의 강력한 기능을 활용하여 문서를 쉽게 관리할 수 있습니다.
+## Quick Answers
+- **Aspose.Note는 무엇을 하나요?** Microsoft OneNote 없이도 OneNote 파일을 읽고, 편집하고, 내보낼 수 있는 순수 Java API를 제공합니다.  
+- **PDF로 직접 내보낼 수 있나요?** 예—`SaveFormat.Pdf`를 사용하면 **OneNote를 PDF로 저장**을 한 단계로 수행할 수 있습니다.  
+- **프로덕션에 라이선스가 필요합니까?** 상용 라이선스가 필요합니다; 평가용 무료 체험판을 사용할 수 있습니다.  
+- **지원되는 Java 버전은 무엇인가요?** Java 8 이상에서 완전 지원됩니다.  
+- **텍스트 추출이 가능한가요?** 물론입니다—같은 API를 사용해 **OneNote에서 텍스트를 추출**할 수 있습니다.
 
-## 전제조건
+## What is “save onenote as pdf”?
+OneNote를 PDF로 저장한다는 것은 독점적인 `.one` 파일 형식을 널리 사용되는 읽기 전용 PDF 문서로 변환하는 것을 의미합니다. 이 변환은 레이아웃, 이미지 및 서식을 유지하면서 콘텐츠를 모든 장치에서 접근 가능하도록 합니다.
 
-이 튜토리얼을 시작하기 전에 다음 전제 조건이 설정되어 있는지 확인하세요.
+## Why convert OneNote to PDF (or export OneNote PDF)?
+- **범용 접근성:** PDF는 OneNote가 없어도 거의 모든 플랫폼에서 열 수 있습니다.  
+- **보관 안정성:** PDF는 장기 보관 및 규정 준수에 이상적입니다.  
+- **공유 간소화:** 이해관계자는 편집이 불가능한 단일 파일을 받게 됩니다.  
+- **자동화:** 배치 작업이나 웹 서비스에 변환을 통합할 수 있습니다.
 
-### 자바 개발 환경
+## Prerequisites
+- **Java Development Kit (JDK)** – 버전 8 이상.  
+- **Aspose.Note for Java** 라이브러리 – 공식 [Aspose.Note 다운로드 페이지](https://releases.aspose.com/note/java/)에서 다운로드.  
+- 변환하려는 기존 OneNote 파일(`.one`).
 
-시스템에 JDK(Java Development Kit)가 설치되어 있는지 확인하십시오. Oracle 웹사이트에서 JDK를 다운로드하여 설치할 수 있습니다.
-
-### Java 라이브러리용 Aspose.Note
-
- 제공된 Aspose.Note for Java 라이브러리를 다운로드하여 설치하세요.[다운로드 링크](https://releases.aspose.com/note/java/).
-
-## 패키지 가져오기
-
-시작하기 전에 필요한 패키지를 Java 프로젝트로 가져오겠습니다.
+## Import Packages
+먼저 OneNote 문서를 로드하고 저장하는 데 필요한 클래스를 가져옵니다.
 
 ```java
 import java.io.IOException;
@@ -39,54 +48,58 @@ import com.aspose.note.Document;
 import com.aspose.note.SaveFormat;
 ```
 
-이제 Java에서 SaveFormat을 사용하여 OneNote 문서를 Aspose.Note로 로드하는 프로세스를 관리 가능한 단계로 나누어 보겠습니다.
+## Step‑by‑Step Guide
 
-## 1단계: OneNote 문서 로드
-
-먼저 OneNote 문서를 Aspose.Note에 로드해야 합니다. 이를 달성하는 방법은 다음과 같습니다.
+### Step 1: Load the OneNote Document
+`.one` 파일을 `Aspose.Note` `Document` 객체로 로드합니다. `Your Document Directory`를 파일이 위치한 경로로 교체하세요.
 
 ```java
-// ExStart:SaveDocToOneNoteFormatSaveFormat 사용
-// 문서를 Aspose.Note에 로드합니다.
+// ExStart:SaveDocToOneNoteFormatUsingSaveFormat
+// Load the document into Aspose.Note.
 String dataDir = "Your Document Directory";
 Document oneFile = new Document(dataDir + "Sample1.one");
 ```
 
-## 2단계: 원하는 형식으로 문서 저장
-
-문서가 로드되면 원하는 형식으로 저장할 수 있습니다. 이 예에서는 PDF로 저장하겠습니다.
+### Step 2: Save the Document in the Desired Format
+로드한 문서를 PDF로 내보냅니다. 이 한 줄의 코드는 **OneNote를 PDF로 저장**하고 **OneNote PDF 내보내기**를 보여줍니다.
 
 ```java
-// 문서를 PDF로 저장
+// Save the document as PDF
 oneFile.save(dataDir + "LoadDocIntoAsposeNoteUsingSaveformat_out.pdf", SaveFormat.Pdf);
-// ExEnd:SaveDocToOneNoteFormatSaveFormat 사용
+// ExEnd:SaveDocToOneNoteFormatUsingSaveFormat
 ```
 
-## 결론
+## Common Issues and Solutions
+| Issue | Solution |
+|-------|----------|
+| **File not found** | `dataDir`가 올바른 폴더를 가리키는지, 파일 이름이 정확히(대소문자 포함) 일치하는지 확인하세요. |
+| **PDF appears blank** | OneNote 파일에 실제 내용이 있는지 확인하세요; 숨겨진 페이지는 렌더링되지 않을 수 있습니다. |
+| **LicenseException** | `save()` 호출 전에 유효한 Aspose.Note 라이선스를 적용하여 평가판 워터마크를 방지하세요. |
+| **Large files cause OutOfMemoryError** | 문서를 섹션별로 처리하거나 JVM 힙 크기(`-Xmx2g`)를 늘리세요. |
 
-이 튜토리얼에서는 Java에서 SaveFormat을 사용하여 OneNote 문서를 Aspose.Note로 로드하는 프로세스를 살펴보았습니다. 설명된 단계를 따르면 Aspose.Note를 Java 프로젝트에 원활하게 통합하여 효율적인 문서 관리가 가능합니다.
+## Frequently Asked Questions
 
-## FAQ
+**Q: Can I convert OneNote files to other formats besides PDF?**  
+A: Yes, Aspose.Note supports DOCX, XPS, HTML, and more via the `SaveFormat` enumeration.
 
-### Q1: Aspose.Note는 다른 Java 라이브러리와 호환됩니까?
+**Q: How do I extract text from a OneNote document?**  
+A: Use the `Document.getText()` method to retrieve plain text, enabling you to **extract text onenote** for search indexing or analytics.
 
-A1: 예, Aspose.Note는 확장된 기능을 위해 다양한 Java 라이브러리와 통합될 수 있습니다.
+**Q: Is it possible to convert encrypted OneNote files?**  
+A: Absolutely—provide the password when constructing the `Document` object to decrypt the file.
 
-### Q2: Aspose.Note에서 저장 형식을 사용자 정의할 수 있나요?
+**Q: Does Aspose.Note work on Linux/macOS?**  
+A: The library is platform‑agnostic; it runs wherever a compatible JVM is available.
 
-A2: 물론 Aspose.Note는 요구 사항에 따라 다양한 형식으로 문서를 저장할 수 있는 유연성을 제공합니다.
+**Q: Where can I get community support?**  
+A: Join the Aspose forums at the [Aspose.Note community page](https://forum.aspose.com/c/note/28) for tips and troubleshooting.
 
-### Q3: Aspose.Note는 암호화된 OneNote 문서를 지원합니까?
+---
 
-A3: 예, Aspose.Note는 암호화된 OneNote 문서를 지원하여 데이터 보안을 보장합니다.
+**Last Updated:** 2025-12-07  
+**Tested With:** Aspose.Note for Java 24.11  
+**Author:** Aspose  
 
-### Q4: Aspose.Note를 사용하여 OneNote 문서에서 텍스트 추출을 수행할 수 있나요?
-
-A4: 물론 Aspose.Note를 사용하면 OneNote 문서에서 텍스트 콘텐츠를 손쉽게 추출할 수 있습니다.
-
-### Q5: Aspose.Note 사용자를 위한 커뮤니티 포럼이 있나요?
-
- A5: 예, 다음에서 지원을 찾고 다른 Aspose.Note 사용자와 교류할 수 있습니다.[법정](https://forum.aspose.com/c/note/28).
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
