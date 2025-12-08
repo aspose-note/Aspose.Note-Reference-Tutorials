@@ -1,40 +1,55 @@
 ---
-title: Thao tác tài liệu OneNote
-linktitle: Thao tác tài liệu OneNote
-second_title: API Java Aspose.Note
-description: Tạo, thao tác và tự động hóa các tài liệu OneNote trong Java bằng Aspose.Note. Hướng dẫn từng bước về Trình truy cập tài liệu, văn bản có định dạng và tạo văn bản có định dạng.
+date: 2025-12-07
+description: Tìm hiểu cách tạo, thao tác và tự động hoá tài liệu OneNote trong Java
+  với Aspose Note Java. Các hướng dẫn từng bước bao gồm việc sử dụng Document Visitor,
+  tạo văn bản phong phú có định dạng và văn bản phong phú đơn giản.
+language: vi
+linktitle: OneNote Document Manipulation
+second_title: Aspose.Note Java API
+title: 'Aspose Note Java: Thao tác tài liệu OneNote'
+url: /java/onenote-document-manipulation/
 weight: 21
-url: /vi/java/onenote-document-manipulation/
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Thao tác tài liệu OneNote
+# Aspose Note Java – Thao tác tài liệu OneNote
 
+## Giới thiệu về Aspose Note Java
 
-## Giới thiệu
+Aspose.Note for Java (thường được gọi là **aspose note java**) cung cấp cho các nhà phát triển một API mạnh mẽ, hoàn toàn được quản lý để tạo, chỉnh sửa và tự động hoá các tệp OneNote mà không cần tới ứng dụng desktop. Cho dù bạn cần tạo biên bản họp, xây dựng sổ tay đào tạo, hay xử lý hàng loạt các sổ tay hiện có, thư viện này cho phép bạn thực hiện tất cả một cách lập trình từ Java.
 
-Aspose.Note for Java cung cấp một giải pháp mạnh mẽ để thao tác các tài liệu OneNote một cách dễ dàng. Trong loạt bài hướng dẫn này, chúng tôi sẽ hướng dẫn bạn các tác vụ thiết yếu, giúp bạn nắm vững nghệ thuật thao tác tài liệu OneNote bằng Java.
+Trong trung tâm này, bạn sẽ tìm thấy ba hướng dẫn tập trung, đưa bạn qua các kịch bản phổ biến nhất:
 
-## Sử dụng Trình truy cập tài liệu trong OneNote bằng Java
- Điều hướng thế giới phức tạp của thao tác tài liệu OneNote bằng cách khai thác sức mạnh của[Khách truy cập tài liệu](./using-document-visitor/) trong Java. Aspose.Note đơn giản hóa việc truyền tải và thao tác với tài liệu OneNote, mang đến sự tích hợp liền mạch cho các nhà phát triển. Hãy làm theo hướng dẫn toàn diện của chúng tôi để sử dụng hiệu quả Trình truy cập tài liệu, đảm bảo quy trình làm việc suôn sẻ và hiệu quả. 
+- **How to use visitor** – duyệt một tệp OneNote và cập nhật nội dung của nó.  
+- **How to manipulate OneNote** – tạo các trang văn bản phong phú, thêm hình ảnh và thiết lập thuộc tính trang.  
+- **How to generate simple rich text** – cách nhanh nhất để tạo một trang OneNote sạch sẽ từ mã.  
 
-## Tạo tài liệu OneNote với văn bản có định dạng trong Java
- Khai phá tiềm năng của Aspose.Note dành cho Java để tạo theo chương trình[tài liệu OneNote được định dạng phong phú](./create-onenote-document-formatted-rich-text/). Hướng dẫn từng bước của chúng tôi cho phép bạn tận dụng các khả năng của thư viện, cho phép tạo ra các tài liệu có cấu trúc và hấp dẫn trực quan. Đi sâu vào thế giới văn bản có định dạng và nâng cao ứng dụng Java của bạn bằng tính năng tạo tài liệu tự động.
+Mỗi hướng dẫn đều độc lập, bao gồm mã mẫu sẵn sàng chạy, và giải thích “tại sao” đằng sau mỗi bước để bạn có thể điều chỉnh các giải pháp cho dự án của mình.
 
-## Tạo tài liệu OneNote với văn bản đa dạng thức đơn giản trong Java
- Đơn giản hóa việc quản lý tài liệu trong các ứng dụng Java với Aspose.Note. Tìm hiểu cách tạo[Tài liệu OneNote có văn bản đa dạng thức đơn giản](./create-onenote-document-simple-rich-text/) một cách dễ dàng. Hướng dẫn của chúng tôi sẽ hướng dẫn bạn thực hiện quy trình, đảm bảo tích hợp liền mạch chức năng này vào các dự án Java của bạn. Nâng cao quá trình tạo tài liệu của bạn một cách đơn giản và hiệu quả. 
+## Sử dụng Document Visitor trong OneNote với Java
+Khám phá thế giới phức tạp của việc thao tác tài liệu OneNote bằng cách tận dụng sức mạnh của [Document Visitor](./using-document-visitor/) trong Java. Aspose.Note đơn giản hoá việc duyệt và thao tác các tài liệu OneNote, cung cấp tích hợp liền mạch cho các nhà phát triển. Hãy theo dõi hướng dẫn toàn diện của chúng tôi để sử dụng Document Visitor một cách hiệu quả, đảm bảo quy trình làm việc mượt mà và hiệu quả. 
 
-Tận dụng sức mạnh của Aspose.Note dành cho Java để hợp lý hóa các tác vụ thao tác tài liệu OneNote của bạn. Cho dù bạn đang khám phá sự phức tạp của Document Visitor hay nhắm tới văn bản có định dạng phong phú hay đơn giản, các hướng dẫn của chúng tôi đều cung cấp hướng dẫn toàn diện để nâng cao trải nghiệm phát triển Java của bạn. Khai thác tiềm năng của Aspose.Note và mở khóa các khả năng mới trong tự động hóa tài liệu OneNote.
-## Hướng dẫn thao tác tài liệu OneNote
-### [Sử dụng Trình truy cập tài liệu trong OneNote bằng Java](./using-document-visitor/)
-Tìm hiểu cách sử dụng Trình truy cập tài liệu trong OneNote bằng Java với Aspose.Note. Duyệt và thao tác các tài liệu OneNote một cách liền mạch.
-### [Tạo tài liệu OneNote với văn bản có định dạng trong Java](./create-onenote-document-formatted-rich-text/)
-Tìm hiểu cách tạo tài liệu OneNote có định dạng phong phú theo chương trình trong Java bằng cách sử dụng Aspose.Note for Java. Hãy làm theo hướng dẫn từng bước của chúng tôi để tự động hóa tài liệu một cách liền mạch.
-### [Tạo tài liệu OneNote với văn bản đa dạng thức đơn giản trong Java](./create-onenote-document-simple-rich-text/)
-Tìm hiểu cách tạo tài liệu OneNote bằng văn bản đa dạng thức đơn giản bằng Aspose.Note cho Java. Tích hợp liền mạch chức năng này vào các ứng dụng Java của bạn để quản lý tài liệu hiệu quả.
+## Tạo tài liệu OneNote với Văn bản phong phú Định dạng trong Java
+Khai phá tiềm năng của Aspose.Note cho Java để lập trình tạo [richly formatted OneNote documents](./create-onenote-document-formatted-rich-text/). Hướng dẫn từng bước của chúng tôi giúp bạn tận dụng khả năng của thư viện, cho phép tạo ra các tài liệu có giao diện hấp dẫn và cấu trúc rõ ràng. Hãy khám phá thế giới của văn bản phong phú được định dạng và nâng cao các ứng dụng Java của bạn với việc tạo tài liệu tự động.
+
+## Tạo tài liệu OneNote với Văn bản phong phú Đơn giản trong Java
+Đơn giản hoá việc quản lý tài liệu trong các ứng dụng Java với Aspose.Note. Tìm hiểu cách tạo [OneNote documents with simple rich text](./create-onenote-document-simple-rich-text/) một cách dễ dàng. Hướng dẫn của chúng tôi sẽ dẫn bạn qua quy trình, đảm bảo tích hợp liền mạch chức năng này vào các dự án Java của bạn. Nâng cao quy trình tạo tài liệu của bạn với sự đơn giản và hiệu quả. 
+
+Hãy tận dụng sức mạnh của Aspose.Note cho Java để tối ưu hoá các nhiệm vụ thao tác tài liệu OneNote của bạn. Cho dù bạn đang khám phá những chi tiết phức tạp của Document Visitor hay hướng tới văn bản phong phú được định dạng hoặc văn bản phong phú đơn giản, các hướng dẫn của chúng tôi cung cấp một hướng dẫn toàn diện để nâng cao trải nghiệm phát triển Java của bạn. Hãy khai thác tiềm năng của Aspose.Note và mở ra những khả năng mới trong tự động hoá tài liệu OneNote.
+
+## Hướng dẫn Thao tác Tài liệu OneNote
+### [Sử dụng Document Visitor trong OneNote với Java](./using-document-visitor/)
+Tìm hiểu cách sử dụng Document Visitor trong OneNote bằng Java với Aspose.Note. Duyệt và thao tác các tài liệu OneNote một cách liền mạch.
+
+### [Tạo tài liệu OneNote với Văn bản phong phú Định dạng trong Java](./create-onenote-document-formatted-rich-text/)
+Tìm hiểu cách tạo các tài liệu OneNote được định dạng phong phú một cách lập trình trong Java bằng Aspose.Note cho Java. Thực hiện theo hướng dẫn từng bước của chúng tôi để tự động hoá tài liệu một cách liền mạch.
+
+### [Tạo tài liệu OneNote với Văn bản phong phú Đơn giản trong Java](./create-onenote-document-simple-rich-text/)
+Tìm hiểu cách tạo các tài liệu OneNote với văn bản phong phú đơn giản bằng Aspose.Note cho Java. Tích hợp chức năng này một cách liền mạch vào các ứng dụng Java của bạn để quản lý tài liệu hiệu quả.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
