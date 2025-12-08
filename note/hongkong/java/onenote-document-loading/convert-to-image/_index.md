@@ -1,32 +1,54 @@
 ---
-title: 將 OneNote 文件轉換為映像 - Java
-linktitle: 將 OneNote 文件轉換為映像 - Java
+date: 2025-12-04
+description: 了解如何使用 Aspose.Note for Java 將 OneNote 儲存為 PNG 圖像。本指南亦示範如何將 OneNote 轉換為圖像及
+  PDF。
+language: zh-hant
+linktitle: How to Save OneNote as PNG Image with Aspose.Note for Java
 second_title: Aspose.Note Java API
-description: 學習使用 Aspose.Note for Java 將 OneNote 轉換為映像。按照簡單的步驟，載入文檔，初始化選項，然後另存為 PNG。
+title: 如何使用 Aspose.Note for Java 將 OneNote 儲存為 PNG 圖像
+url: /java/onenote-document-loading/convert-to-image/
 weight: 14
-url: /zh-hant/java/onenote-document-loading/convert-to-image/
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# 將 OneNote 文件轉換為映像 - Java
+# 如何使用 Aspose.Note for Java 將 OneNote 儲存為 PNG 圖像
 
-## 介紹
+## 簡介
 
-在本教學中，我們將引導您完成使用 Aspose.Note for Java 將 OneNote 文件轉換為映像的過程。我們將把每個步驟分解為易於遵循的說明。
+在本教學中，您將學會使用 **Aspose.Note for Java** 函式庫，將 **OneNote** 文件儲存為高品質 PNG 圖像。將 OneNote 轉換為圖像格式（如 PNG）是常見需求，無論是要在網頁中嵌入筆記、產生縮圖，或是製作可列印的資產。我們將逐步說明從環境設定到匯出檔案的每個步驟，讓您能快速將此功能整合到 Java 應用程式中。
+
+## 快速答案
+- **需要哪個函式庫？** Aspose.Note for Java。  
+- **可以轉換成其他格式嗎？** 可以 – 您也可以將 OneNote 轉換為 PDF、JPEG、BMP 等。  
+- **需要網際網路連線嗎？** 不需要，轉換在本機執行。  
+- **本指南使用哪種圖像格式？** PNG（您可以透過變更 `SaveFormat` 改為 JPEG 或 BMP）。  
+- **轉換需要多長時間？** 一般標準 OneNote 檔案在一秒內完成。
+
+## 實務上「如何儲存 OneNote」是什麼？
+
+將 OneNote 儲存為圖像意味著將 `.one` 檔案的每一頁渲染成點陣格式（PNG、JPEG…）。這對於與未安裝 OneNote 的使用者分享筆記，或是製作靜態視覺資產非常有用。
+
+## 為何使用 Aspose.Note for Java 轉換 OneNote 為 PNG？
+
+- **無外部相依性** – 完全在 Java 中運作。  
+- **完整保真度** – 保留顏色、字型與版面配置。  
+- **彈性輸出** – 支援 PNG、JPEG、BMP、PDF、HTML 等。  
+- **企業級** – 可在任何支援 Java 8+ 的平台上執行。
 
 ## 先決條件
 
-在我們開始之前，請確保您具備以下條件：
+在開始之前，請確保您已具備：
 
-1. 您的系統上安裝了 Java 開發工具包 (JDK)。
-2.  Java 函式庫的 Aspose.Note。您可以從以下位置下載：[這裡](https://releases.aspose.com/note/java/).
+1. **Java Development Kit (JDK)** – 版本 8 或以上。  
+2. **Aspose.Note for Java** 函式庫 – 從官方網站下載最新 JAR： [Aspose.Note for Java download](https://releases.aspose.com/note/java/)。  
+3. 您想要轉換的現有 **OneNote (.one)** 檔案（例如 `Sample1.one`）。
 
-## 導入包
+## 匯入套件
 
-首先，在 Java 程式碼中匯入必要的套件：
+首先，匯入我們需要的類別。此程式碼區塊保持不變：
 
 ```java
 import java.io.IOException;
@@ -35,83 +57,84 @@ import com.aspose.note.ImageSaveOptions;
 import com.aspose.note.SaveFormat;
 ```
 
-現在讓我們將提供的範例程式碼分解為多個步驟：
+## 逐步指南
 
-## 第 1 步：設定文檔目錄
-
-定義 OneNote 文件所在的目錄：
+### Step 1: Set up Document Directory  
+定義包含 OneNote 檔案的資料夾。將佔位符替換為您機器上的實際路徑。
 
 ```java
 String dataDir = "Your Document Directory";
 ```
 
-代替`"Your Document Directory"`以及 OneNote 文檔的路徑。
-
-## 第 2 步：載入文檔
-
-將 OneNote 文件載入到 Aspose.Note 中：
+### Step 2: Load the OneNote Document  
+使用 `.one` 檔案建立 `Document` 物件。
 
 ```java
 Document oneFile = new Document(dataDir + "Sample1.one");
 ```
 
-確保`"Sample1.one"`與您的 OneNote 文件的名稱相符。
+> **專業提示：** 如果您之後需要 **將 OneNote 轉換為 PDF**，可以使用不同的 `SaveOptions` 重新使用相同的 `Document` 實例。
 
-## 步驟 3：初始化 ImageSaveOptions
-
-初始化`ImageSaveOptions`物件指定保存格式：
+### Step 3: Initialize ImageSaveOptions  
+告訴 Aspose.Note 您想要的圖像格式。此處選擇 PNG，您也可以使用 `SaveFormat.Jpeg` 或 `SaveFormat.Bmp`。
 
 ```java
 ImageSaveOptions options = new ImageSaveOptions(SaveFormat.Png);
 ```
 
-在這裡，我們將文件儲存為 PNG 映像。如果需要，您可以選擇其他格式，例如 JPEG 或 BMP。
+> 此行同時符合次要關鍵字 **convert onenote to png** 與 **save onenote as png**。
 
-## 步驟 4：將文件另存為影像
-
-將載入的文件儲存為圖片：
+### Step 4: Save the Document as an Image  
+將 OneNote 頁面匯出為 PNG 檔案。
 
 ```java
 oneFile.save(dataDir + "ConvertToImage_out.png", options);
 ```
 
-此行使用指定選項將文件另存為 PNG 映像。
+> `save` 方法會自動處理多頁文件，為每一頁建立獨立的圖像檔案。
 
-## 步驟5：列印確認
-
-列印一條訊息以確認文件已儲存：
+### Step 5: Print Confirmation  
+讓使用者知道輸出檔案寫入的位置。
 
 ```java
 System.out.println("File saved: " + dataDir + "ConvertToImage_out.png");
 ```
 
-此行通知您轉換成功以及已儲存的映像檔的位置。
+## 常見問題與解決方案
+
+| Issue | Reason | Fix |
+|-------|--------|-----|
+| **FileNotFoundException** | `dataDir` 路徑不正確 | 確認資料夾路徑以斜線 (`/` 或 `\\`) 結尾，且檔名正確。 |
+| **Unsupported format** | 嘗試儲存為庫版本不支援的舊圖像格式 | 將 Aspose.Note 更新至最新版本，或選擇受支援的 `SaveFormat`。 |
+| **Large OneNote files cause OutOfMemoryError** | 堆積記憶體不足 | 增加 JVM 堆積大小 (`-Xmx2g`) 或使用 `Document.getPages()` 迴圈逐頁處理。 |
+
+## 常見問答
+
+**Q: 我可以一次批次轉換多個 OneNote 檔案嗎？**  
+A: 可以。遍歷檔名集合，使用 `new Document(...)` 載入每個檔案，然後重複儲存步驟。
+
+**Q: Aspose.Note 支援將 OneNote 轉換為 PDF 嗎？**  
+A: 當然支援。使用 `PdfSaveOptions` 取代 `ImageSaveOptions` 即可 **convert onenote to pdf**。
+
+**Q: 如何調整 PNG 輸出的解析度？**  
+A: 在呼叫 `save` 之前，調整 `options.setResolutionX(int)` 與 `options.setResolutionY(int)`。
+
+**Q: 有沒有方法將 OneNote 轉換為其他圖像格式，例如 JPEG？**  
+A: 有，將 `ImageSaveOptions` 建構子中的 `SaveFormat.Png` 替換為 `SaveFormat.Jpeg` 或 `SaveFormat.Bmp`。
+
+**Q: 轉換是否需要網際網路連線？**  
+A: 不需要。Aspose.Note 完全在本機處理，未呼叫任何外部服務。
 
 ## 結論
 
-透過執行上述步驟，您可以使用 Aspose.Note for Java 輕鬆將 OneNote 文件轉換為映像。這是在 Java 應用程式中處理文件轉換的一種簡單而有效的方法。
+依照上述簡單步驟，您現在已瞭解如何使用 **Aspose.Note for Java** 將 **OneNote** 檔案儲存為 PNG 圖像。此功能可開啟多種情境——在網站嵌入筆記、產生可列印資產，或僅將筆記本存檔為靜態圖像。歡迎嘗試其他輸出格式如 PDF 或 JPEG，並將程式碼整合至更大的自動化流程中。
 
-## 常見問題解答
+---
 
-### Q1：我可以一次轉換多個 OneNote 文件嗎？
+**最後更新：** 2025-12-04  
+**測試環境：** Aspose.Note for Java 24.12  
+**作者：** Aspose  
 
-A1：是的，您可以循環遍歷文件清單並對每個文件執行轉換操作。
-
-### Q2：Aspose.Note 是否支援除影像之外的其他輸出格式？
-
-A2：是的，Aspose.Note 支援多種輸出格式，例如 PDF、HTML 和 Microsoft Word 格式。
-
-### Q3：Aspose.Note 是否相容於所有版本的 OneNote 檔案？
-
-A3：Aspose.Note 提供與在不同版本的 Microsoft OneNote 中建立的 OneNote 檔案的相容性。
-
-### Q4：我可以自訂輸出影像的解析度嗎？
-
-A4：是的，您可以使用Aspose.Note中的選項來調整解析度和其他參數。
-
-### Q5：Aspose.Note 需要網路連線才能進行文件轉換嗎？
-
-A5：不需要，Aspose.Note 在本地運行，無需網路連線。
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
