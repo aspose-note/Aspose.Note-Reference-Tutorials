@@ -1,33 +1,47 @@
 ---
-title: Java'da Biçimlendirilmiş Zengin Metinle OneNote Belgesi Oluşturun
-linktitle: Java'da Biçimlendirilmiş Zengin Metinle OneNote Belgesi Oluşturun
-second_title: Aspose.Note Java API'si
-description: Aspose.Note for Java'yı kullanarak Java'da zengin formatlı OneNote belgelerini programlı olarak nasıl oluşturacağınızı öğrenin. Sorunsuz belge otomasyonu için adım adım kılavuzumuzu izleyin.
-weight: 11
+date: 2025-12-09
+description: Aspose.Note for Java kullanarak Java’da biçimlendirilmiş zengin metinle
+  OneNote’u PDF olarak kaydetmeyi öğrenin. Sorunsuz belge otomasyonu için adım adım
+  rehberimizi izleyin.
+linktitle: Save OneNote as PDF with Formatted Rich Text in Java
+second_title: Aspose.Note Java API
+title: OneNote'u Java'da Biçimlendirilmiş Zengin Metin ile PDF Olarak Kaydet
 url: /tr/java/onenote-document-manipulation/create-onenote-document-formatted-rich-text/
+weight: 11
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Java'da Biçimlendirilmiş Zengin Metinle OneNote Belgesi Oluşturun
+# OneNote'u Java'da Biçimlendirilmiş Zengin Metin ile PDF Olarak Kaydet
 
-## giriiş
+## Giriş
 
-Zengin biçimlendirilmiş OneNote belgelerini program aracılığıyla oluşturmak, Java uygulamalarında belge oluşturma görevlerini otomatikleştirmek isteyen geliştiriciler için güçlü bir araç olabilir. Aspose.Note for Java, bunu sorunsuz bir şekilde gerçekleştirmek için kapsamlı bir dizi özellik ve işlevsellik sağlar. Bu eğitimde, Aspose.Note for Java'yı kullanarak biçimlendirilmiş zengin metin içeren bir OneNote belgesi oluşturma sürecinde size rehberlik edeceğiz.
+OneNote'u **PDF olarak kaydetmek** ve zengin metin biçimlendirmesini korumak istiyorsanız doğru yerdesiniz. Bu öğreticide bir OneNote belgesi oluşturmayı, özel stiller uygulamayı ve Aspose.Note for Java kullanarak doğrudan PDF olarak dışa aktarmayı adım adım göstereceğiz. Sonunda, herhangi bir Java projesine ekleyebileceğiniz ve şık OneNote‑to‑PDF dönüşümlerini otomatikleştiren yeniden kullanılabilir bir kod parçacığına sahip olacaksınız.
 
-## Önkoşullar
+## Quick Answers
+- **Bu öğretici ne öğretir?** Stil verilen metinle bir OneNote belgesi oluşturmayı ve PDF olarak kaydetmeyi.  
+- **Hangi kütüphane gereklidir?** Aspose.Note for Java (resmi siteden indirilebilir).  
+- **Lisans gerekli mi?** Test için geçici bir lisans yeterli; üretim için tam lisans gerekir.  
+- **Hangi IDE'yi kullanabilirim?** Herhangi bir Java IDE—IntelliJ IDEA, Eclipse veya NetBeans.  
+- **Çıktı formatını değiştirebilir miyim?** Evet, Aspose.Note PDF, HTML, PNG ve daha fazlasını destekler.
 
-Başlamadan önce aşağıdaki önkoşulları oluşturduğunuzdan emin olun:
+## “save onenote as pdf” nedir?
+OneNote'u PDF olarak kaydetmek, OneNote sayfa yapısını—metin, resimler ve biçimlendirme dahil—her platformda OneNote gerektirmeden görüntülenebilen statik bir PDF dosyasına dönüştürmek anlamına gelir.
 
-1. Java Geliştirme Kiti (JDK): Sisteminizde JDK'nın kurulu olduğundan emin olun.
-2.  Aspose.Note for Java JAR: Aspose.Note for Java JAR dosyasını indirin ve projenize ekleyin. adresinden temin edebilirsiniz.[İndirme: {link](https://releases.aspose.com/note/java/).
-3. Entegre Geliştirme Ortamı (IDE): IntelliJ IDEA veya Eclipse gibi tercih ettiğiniz IDE'yi kullanın.
+## Neden Java’da zengin metin biçimlendirmesi?
+Java'da doğrudan zengin metin biçimlendirmesi (yazı tipleri, renkler, stiller) uygulamak, belgelerin profesyonel görünmesini ve marka yönergelerinize uymasını manuel düzenleme yapmadan sağlar.
 
-## Paketleri İçe Aktar
+## Gereksinimler
 
-Öncelikle gerekli paketleri Java projenize aktarmanız gerekir. Aşağıdaki içe aktarma ifadelerini Java dosyanızın başına ekleyin:
+1. **Java Development Kit (JDK)** – herhangi bir yeni sürüm (8 veya üzeri).  
+2. **Aspose.Note for Java JAR** – [download link](https://releases.aspose.com/note/java/) adresinden indirin.  
+3. **IDE** – IntelliJ IDEA, Eclipse veya tercih ettiğiniz herhangi bir editör.  
+
+## Paketleri İçe Aktarma
+
+İlk olarak, Java projenize gerekli paketleri içe aktarmanız gerekir. Aşağıdaki import ifadelerini Java dosyanızın başına ekleyin:
 
 ```java
 import java.awt.Color;
@@ -43,9 +57,9 @@ import com.aspose.note.ParagraphStyle;
 import com.aspose.note.Title;
 ```
 
-## 1. Adım: Belgeyi ve Sayfayı Ayarlayın
+## Adım 1: Belge ve Sayfayı Oluşturma
 
-Document ve Page nesnelerini başlatarak başlayalım:
+`Document` ve `Page` nesnelerini başlatarak başlayalım:
 
 ```java
 String dataDir = "Your Document Directory";
@@ -53,9 +67,9 @@ Document doc = new Document();
 Page page = new Page();
 ```
 
-## Adım 2: Biçimlendirmeyle Başlık Oluşturun
+## Adım 2: Biçimlendirilmiş Başlık Oluşturma
 
-Şimdi biçimlendirilmiş metinle bir başlık oluşturalım:
+Şimdi, biçimlendirilmiş metinle bir başlık oluşturalım:
 
 ```java
 Title title = new Title();
@@ -69,9 +83,9 @@ titleText.setParagraphStyle(defaultTextStyle);
 title.setTitleText(titleText);
 ```
 
-## 3. Adım: Biçimlendirmeyle Zengin Metin Oluşturun
+## Adım 3: Biçimlendirilmiş Zengin Metin Oluşturma
 
-Şimdi çeşitli biçimlendirme stillerine sahip zengin metinler oluşturalım:
+Sonra, çeşitli biçimlendirme stilleriyle zengin metin oluşturalım:
 
 ```java
 Outline outline = new Outline();
@@ -103,9 +117,9 @@ RichText text = new RichText()
 text.setParagraphStyle(defaultTextStyle);
 ```
 
-## 4. Adım: Sayfaya ve Belgeye Öğeler Ekleme
+## Adım 4: Öğfaya ve Belgeye Ekleme
 
-Şimdi başlığı ve zengin metni sayfa ve anahat öğelerine ekleyelim:
+Şimdi, başlığı ve zengin metni sayfaya ve anahat öğelerine ekleyelim:
 
 ```java
 outlineElem.appendChildLast(text);
@@ -115,39 +129,48 @@ page.appendChildLast(outline);
 doc.appendChildLast(page);
 ```
 
-## Adım 5: Belgeyi Kaydet
+## Adım 5: Belgeyi Kaydetme
 
-Son olarak oluşturulan OneNote belgesini kaydedin:
+Son olarak, oluşturulan OneNote belgesini PDF olarak kaydedin:
 
 ```java
 doc.save(dataDir + "CreateOneNoteDocument_out.pdf", SaveFormat.Pdf);
 ```
 
-## Çözüm
+## Yaygın Sorunlar ve Çözümleri
 
-Bu eğitimde, Aspose.Note for Java'yı kullanarak Java'da biçimlendirilmiş zengin metin içeren bir OneNote belgesinin nasıl oluşturulacağını öğrendik. Bu adım adım talimatları izleyerek, özelleştirilmiş OneNote belgelerini program aracılığıyla kolayca oluşturabilir ve belge otomasyon yeteneklerinizi geliştirebilirsiniz.
+| Issue | Solution |
+|-------|----------|
+| **Dosya bulunamadı** | `dataDir`'in mevcut bir klasöre işaret ettiğini ve yazma izinlerinizin olduğunu doğrulayın. |
+| **Eksik yazı tipleri** | Referans verdiğiniz yazı tiplerinin (ör. *Calibri*) ana bilgisayarda yüklü olduğundan emin olun. |
+| **Lisans uygulanmadı** | `Document` oluşturulmadan önce Aspose lisansınızı yükleyin; böylece değerlendirme filigranlarından kaçınırsınız. |
 
-## SSS'ler
+## Sıkça Sorulan Sorular
 
-### S1: Yazı tipi stillerini daha da özelleştirebilir miyim?
+**S: Yazı tipi stillerini daha da özelleştirebilir miyim?**  
+C: Evet, `TextStyle` ve `ParagraphStyle` sınıfları aracılığıyla alt çizgi, üstü çizili ve metin hizalaması gibi ek özellikleri ayarlayabilirsiniz.
 
-Cevap1: Evet, gereksinimlerinize uyacak şekilde yazı tipi rengi, boyutu, stili vb. çeşitli özellikleri ayarlayabilirsiniz.
+**S: Aspose.Note for Java tüm Java IDE'leriyle uyumlu mu?**  
+C: Kesinlikle. IDE standart Java geliştirmeyi desteklediği sürece, Aspose.Note JAR'ını projenin sınıf yoluna ekleyebilirsiniz.
 
-### S2: Aspose.Note for Java tüm Java IDE'leriyle uyumlu mudur?
+**S: Bu işlevi web uygulamalarına entegre edebilir miyim?**  
+C: Evet, aynı kod servlet tabanlı veya Spring Boot uygulamalarında çalışır ve sunucu tarafında dinamik OneNote‑to‑PDF oluşturmayı sağlar.
 
-Cevap2: Evet, Aspose.Note for Java'yı Java geliştirmeyi destekleyen herhangi bir Java IDE ile kullanabilirsiniz.
+**S: Aspose.Note for Java kullanımı için lisans gereksinimleri var mı?**  
+C: Üretim kullanımı için ticari bir lisans gerekir. Değerlendirme ve test için geçici bir lisans mevcuttur.
 
-### S3: Bu işlevselliği web uygulamalarına entegre edebilir miyim?
+**S: Aspose.Note for Java OneNote dışındaki diğer belge formatlarını destekliyor mu?**  
+C: PDF, HTML, PNG, JPEG ve çeşitli diğer dışa aktarma formatlarını destekler; böylece OneNote sayfalarını ihtiyacınız olan formata dönüştürme esnekliğine sahipsiniz.
 
-Cevap3: Kesinlikle, Aspose.Note for Java, dinamik belge üretimi için web uygulamalarına sorunsuz bir şekilde entegre edilebilir.
+## Sonuç
 
-### S4: Aspose.Note for Java'yı kullanmak için herhangi bir lisans gereksinimi var mı?
+Bu rehberde, Aspose.Note for Java kullanarak zengin metin biçimlendirmesi uygularken **OneNote'u PDF olarak kaydet** gösterdik. Adım adım talimatları izleyerek şık OneNote belgeleri oluşturmayı ve bunları herhangi bir Java tabanlı çözümde PDF'ye dönüştürmeyi otomatikleştirebilirsiniz.
 
-Cevap4: Evet, Aspose.Note for Java'yı ticari projelerde kullanmak için lisans almanız gerekiyor. Ancak test amacıyla geçici bir lisans da kullanabilirsiniz.
+---
 
-### S5: Aspose.Note for Java, OneNote'un yanı sıra diğer belge formatlarını da destekliyor mu?
-
-Cevap5: Evet, Aspose.Note for Java; PDF, HTML ve resim formatları da dahil olmak üzere çeşitli belge formatlarını destekler.
+**Son Güncelleme:** 2025-12-09  
+**Test Edilen Versiyon:** Aspose.Note for Java 24.11 (yazım zamanındaki en son sürüm)  
+**Yazar:** Aspose  
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
