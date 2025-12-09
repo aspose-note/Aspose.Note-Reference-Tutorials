@@ -3,11 +3,10 @@ date: 2025-12-04
 description: Μάθετε πώς να παρακολουθείτε τα πιστώματα και να διαχειρίζεστε τις μετρημένες
   άδειες για το OneNote σε Java με το Aspose.Note. Ελέγξτε τη χρήση, παρακολουθήστε
   την κατανάλωση και βελτιστοποιήστε το κόστος.
-language: el
 linktitle: Aspose.Note Licensing with Java
 second_title: Aspose.Note Java API
 title: Άδεια Aspose.Note με Java – Πώς να Παρακολουθείτε τις Μονάδες
-url: /java/licensing-java/
+url: /el/java/licensing-java/
 weight: 24
 ---
 

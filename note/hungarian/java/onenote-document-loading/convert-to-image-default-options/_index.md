@@ -3,11 +3,10 @@ date: 2025-11-30
 description: Könnyedén konvertálja a OneNote-ot képpé az Aspose.Note for Java segítségével.
   Kövesse ezt a lépésről‑lépésre útmutatót, hogy az alapértelmezett beállításokkal
   mentse a OneNote-ot képként.
-language: hu
 linktitle: Convert OneNote to Image using Default Options - Java
 second_title: Aspose.Note Java API
 title: OneNote átalakítása képpé alapértelmezett beállítások használatával – Java
-url: /java/onenote-document-loading/convert-to-image-default-options/
+url: /hu/java/onenote-document-loading/convert-to-image-default-options/
 weight: 15
 ---
 

@@ -4,11 +4,10 @@ description: Μάθετε πώς να μετατρέπετε έγγραφα OneN
   για Java. Αυτός ο οδηγός βήμα‑βήμα σας δείχνει πώς να αποθηκεύσετε το OneNote ως
   PDF, να μετατρέψετε συγκεκριμένες σελίδες και να ενσωματώσετε τη λύση στα Java έργα
   σας.
-language: el
 linktitle: Convert OneNote to PDF - Java
 second_title: Aspose.Note Java API
 title: Μετατροπή OneNote σε PDF - Java
-url: /java/onenote-document-loading/convert-to-pdf/
+url: /el/java/onenote-document-loading/convert-to-pdf/
 weight: 16
 ---
 

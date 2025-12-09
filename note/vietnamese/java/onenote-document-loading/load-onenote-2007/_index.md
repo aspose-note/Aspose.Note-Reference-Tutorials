@@ -3,11 +3,10 @@ date: 2025-12-05
 description: Tìm hiểu cách tải tài liệu OneNote 2007 trong Java bằng Aspose.Note.
   Hướng dẫn từng bước này cho bạn biết **cách tải onenote** một cách lập trình và
   xử lý các định dạng không được hỗ trợ.
-language: vi
 linktitle: Load OneNote 2007 Document - Java
 second_title: Aspose.Note Java API
 title: Cách nạp tài liệu OneNote 2007 - Java
-url: /java/onenote-document-loading/load-onenote-2007/
+url: /vi/java/onenote-document-loading/load-onenote-2007/
 weight: 26
 ---
 

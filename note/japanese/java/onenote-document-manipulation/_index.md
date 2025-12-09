@@ -2,11 +2,10 @@
 date: 2025-12-07
 description: Aspose Note Java を使用して、Java で OneNote ドキュメントの作成、操作、そして自動化方法を学びましょう。ステップバイステップのチュートリアルでは、Document
   Visitor の使用、書式設定されたリッチテキストの作成、シンプルなリッチテキストについて解説します。
-language: ja
 linktitle: OneNote Document Manipulation
 second_title: Aspose.Note Java API
 title: Aspose Note Java：OneNote ドキュメント操作
-url: /java/onenote-document-manipulation/
+url: /ja/java/onenote-document-manipulation/
 weight: 21
 ---
 

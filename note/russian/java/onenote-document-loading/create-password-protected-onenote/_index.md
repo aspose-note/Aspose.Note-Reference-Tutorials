@@ -3,11 +3,10 @@ date: 2025-12-02
 description: Узнайте, как защитить OneNote, создав документы OneNote с паролем на
   Java с помощью Aspose.Note. Следуйте этому пошаговому руководству, чтобы добавить
   надёжную защиту вашим блокнотам.
-language: ru
 linktitle: Create Password-Protected OneNote Documents - Java
 second_title: Aspose.Note Java API
 title: 'Как защитить OneNote: создание защищённых паролем документов OneNote — Java'
-url: /java/onenote-document-loading/create-password-protected-onenote/
+url: /ru/java/onenote-document-loading/create-password-protected-onenote/
 weight: 19
 ---
 

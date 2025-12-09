@@ -2,11 +2,10 @@
 date: 2025-11-29
 description: เรียนรู้วิธีตรวจสอบการเข้ารหัส OneNote ด้วย Java โดยใช้ Aspose.Note for
   Java คู่มือนี้จะแสดงวิธีตรวจจับไฟล์ OneNote ที่ถูกเข้ารหัสก่อนทำการประมวลผล
-language: th
 linktitle: Check if OneNote Document is Encrypted - Java
 second_title: Aspose.Note Java API
 title: ตรวจสอบการเข้ารหัส OneNote ด้วย Java – ยืนยันการเข้ารหัสเอกสาร OneNote
-url: /java/onenote-document-loading/check-document-encrypted/
+url: /th/java/onenote-document-loading/check-document-encrypted/
 weight: 10
 ---
 

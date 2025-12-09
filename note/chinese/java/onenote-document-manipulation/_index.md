@@ -2,11 +2,10 @@
 date: 2025-12-07
 description: 学习如何使用 Aspose Note Java 在 Java 中创建、操作和自动化 OneNote 文档。一步一步的教程涵盖使用 Document
   Visitor、创建格式化的富文本以及简单的富文本。
-language: zh
 linktitle: OneNote Document Manipulation
 second_title: Aspose.Note Java API
 title: Aspose Note Java：OneNote 文档操作
-url: /java/onenote-document-manipulation/
+url: /zh/java/onenote-document-manipulation/
 weight: 21
 ---
 

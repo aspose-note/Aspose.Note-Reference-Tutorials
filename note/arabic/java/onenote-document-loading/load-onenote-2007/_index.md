@@ -3,11 +3,10 @@ date: 2025-12-05
 description: تعلم كيفية تحميل مستندات OneNote 2007 في Java باستخدام Aspose.Note. يوضح
   لك هذا الدليل خطوة‑بخطوة **كيفية تحميل ملفات onenote** برمجيًا وكيفية التعامل مع
   الصيغ غير المدعومة.
-language: ar
 linktitle: Load OneNote 2007 Document - Java
 second_title: Aspose.Note Java API
 title: كيفية تحميل مستند OneNote 2007 - جافا
-url: /java/onenote-document-loading/load-onenote-2007/
+url: /ar/java/onenote-document-loading/load-onenote-2007/
 weight: 26
 ---
 

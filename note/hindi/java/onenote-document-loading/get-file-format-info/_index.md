@@ -2,11 +2,10 @@
 date: 2025-12-04
 description: जावा में Aspose.Note का उपयोग करके OneNote फ़ाइलों से Aspose नोट फ़ाइल
   फ़ॉर्मेट निकालना सीखें। यह ट्यूटोरियल चरण‑बद्ध कोड और सर्वोत्तम प्रथाएँ दिखाता है।
-language: hi
 linktitle: Get Aspose Note File Format Info from OneNote - Java
 second_title: Aspose.Note Java API
 title: जावा का उपयोग करके वननोट से Aspose नोट फ़ाइल फ़ॉर्मेट जानकारी प्राप्त करें
-url: /java/onenote-document-loading/get-file-format-info/
+url: /hi/java/onenote-document-loading/get-file-format-info/
 weight: 22
 ---
 

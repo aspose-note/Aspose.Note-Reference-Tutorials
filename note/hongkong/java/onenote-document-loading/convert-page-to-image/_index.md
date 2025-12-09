@@ -1,11 +1,10 @@
 ---
 date: 2025-11-29
 description: 學習如何使用 Java 將 OneNote 頁面匯出為圖像，並了解如何使用 Aspose.Note 轉換 OneNote 頁面圖像。請遵循我們的逐步指南，快速整合。
-language: zh-hant
 linktitle: How to Export OneNote Page to Image Using Java
 second_title: Aspose.Note Java API
 title: 使用 Java 將 OneNote 頁面匯出為圖像
-url: /java/onenote-document-loading/convert-page-to-image/
+url: /zh-hant/java/onenote-document-loading/convert-page-to-image/
 weight: 12
 ---
 

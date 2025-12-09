@@ -3,12 +3,11 @@ date: 2025-12-02
 description: Apprenez comment exporter les polices lors de l’enregistrement de OneNote
   au format HTML à l’aide d’Aspose.Note pour Java. Ce guide vous montre comment créer
   OneNote de manière programmatique et intégrer les polices, le CSS et les images.
-language: fr
 linktitle: How to Export Fonts When Saving OneNote as HTML – Java
 second_title: Aspose.Note Java API
 title: Comment exporter les polices lors de l’enregistrement de OneNote en HTML –
   Java
-url: /java/onenote-document-loading/create-onenote-save-to-html/
+url: /fr/java/onenote-document-loading/create-onenote-save-to-html/
 weight: 18
 ---
 

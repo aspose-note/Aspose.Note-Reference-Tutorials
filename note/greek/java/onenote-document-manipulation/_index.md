@@ -4,11 +4,10 @@ description: Μάθετε πώς να δημιουργείτε, να διαχε�
   OneNote σε Java με το Aspose Note Java. Τα βήμα‑βήμα μαθήματα καλύπτουν τη χρήση
   του Document Visitor, τη δημιουργία μορφοποιημένου πλούσιου κειμένου και το απλό
   πλούσιο κείμενο.
-language: el
 linktitle: OneNote Document Manipulation
 second_title: Aspose.Note Java API
 title: 'Aspose Note Java: Διαχείριση Εγγράφου OneNote'
-url: /java/onenote-document-manipulation/
+url: /el/java/onenote-document-manipulation/
 weight: 21
 ---
 

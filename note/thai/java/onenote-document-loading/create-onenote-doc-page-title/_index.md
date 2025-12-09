@@ -2,11 +2,10 @@
 date: 2025-12-02
 description: เรียนรู้วิธีสร้างหน้า OneNote พร้อมหัวข้อใน Java ด้วย Aspose.Note for
   Java คู่มือนี้แสดงวิธีตั้งค่าหัวข้อหน้า OneNote และปรับแต่งแบบอักษรของหัวข้อ
-language: th
 linktitle: How to Create OneNote Page with Title - Java
 second_title: Aspose.Note Java API
 title: วิธีสร้างหน้า OneNote พร้อมหัวเรื่อง - Java
-url: /java/onenote-document-loading/create-onenote-doc-page-title/
+url: /th/java/onenote-document-loading/create-onenote-doc-page-title/
 weight: 17
 ---
 

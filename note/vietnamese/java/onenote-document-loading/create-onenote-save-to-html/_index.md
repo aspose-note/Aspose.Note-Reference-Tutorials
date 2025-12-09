@@ -3,11 +3,10 @@ date: 2025-12-02
 description: Học cách xuất phông chữ khi lưu OneNote dưới dạng HTML bằng Aspose.Note
   cho Java. Hướng dẫn này chỉ cho bạn cách tạo OneNote bằng lập trình và nhúng phông
   chữ, CSS và hình ảnh.
-language: vi
 linktitle: How to Export Fonts When Saving OneNote as HTML – Java
 second_title: Aspose.Note Java API
 title: Cách xuất phông chữ khi lưu OneNote dưới dạng HTML – Java
-url: /java/onenote-document-loading/create-onenote-save-to-html/
+url: /vi/java/onenote-document-loading/create-onenote-save-to-html/
 weight: 18
 ---
 

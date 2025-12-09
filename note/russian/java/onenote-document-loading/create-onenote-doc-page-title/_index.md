@@ -3,11 +3,10 @@ date: 2025-12-02
 description: Узнайте, как создать страницу OneNote с заголовком на Java с помощью
   Aspose.Note for Java. Это руководство показывает, как установить заголовок страницы
   OneNote и настроить шрифт заголовка.
-language: ru
 linktitle: How to Create OneNote Page with Title - Java
 second_title: Aspose.Note Java API
 title: Как создать страницу OneNote с заголовком — Java
-url: /java/onenote-document-loading/create-onenote-doc-page-title/
+url: /ru/java/onenote-document-loading/create-onenote-doc-page-title/
 weight: 17
 ---
 

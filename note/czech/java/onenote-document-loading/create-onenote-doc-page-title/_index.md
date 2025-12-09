@@ -3,11 +3,10 @@ date: 2025-12-02
 description: Naučte se, jak vytvořit stránku OneNote s titulkem v Javě pomocí Aspose.Note
   pro Javu. Tento průvodce ukazuje, jak nastavit titulek stránky OneNote a přizpůsobit
   písmo titulku.
-language: cs
 linktitle: How to Create OneNote Page with Title - Java
 second_title: Aspose.Note Java API
 title: Jak vytvořit stránku OneNote s názvem – Java
-url: /java/onenote-document-loading/create-onenote-doc-page-title/
+url: /cs/java/onenote-document-loading/create-onenote-doc-page-title/
 weight: 17
 ---
 

@@ -3,11 +3,10 @@ date: 2025-12-04
 description: Tìm hiểu cách trích xuất định dạng tệp Aspose Note từ các tệp OneNote
   trong Java bằng Aspose.Note. Hướng dẫn này trình bày mã từng bước và các thực tiễn
   tốt nhất.
-language: vi
 linktitle: Get Aspose Note File Format Info from OneNote - Java
 second_title: Aspose.Note Java API
 title: Lấy thông tin định dạng tệp Aspose Note từ OneNote bằng Java
-url: /java/onenote-document-loading/get-file-format-info/
+url: /vi/java/onenote-document-loading/get-file-format-info/
 weight: 22
 ---
 

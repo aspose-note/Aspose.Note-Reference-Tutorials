@@ -3,11 +3,10 @@ date: 2025-11-29
 description: Tìm hiểu cách kiểm tra mã hóa OneNote trong Java bằng Aspose.Note cho
   Java. Hướng dẫn này cho bạn biết cách phát hiện các tệp OneNote được mã hóa trước
   khi xử lý.
-language: vi
 linktitle: Check if OneNote Document is Encrypted - Java
 second_title: Aspose.Note Java API
 title: kiểm tra mã hóa onenote java – Xác minh mã hóa tài liệu OneNote
-url: /java/onenote-document-loading/check-document-encrypted/
+url: /vi/java/onenote-document-loading/check-document-encrypted/
 weight: 10
 ---
 

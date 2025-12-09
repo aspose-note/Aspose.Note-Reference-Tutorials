@@ -2,11 +2,10 @@
 date: 2025-12-02
 description: เรียนรู้วิธีส่งออกแบบอักษรขณะบันทึก OneNote เป็น HTML ด้วย Aspose.Note
   for Java คู่มือนี้จะแสดงวิธีสร้าง OneNote อย่างโปรแกรมเมติกและฝังแบบอักษร, CSS และรูปภาพ
-language: th
 linktitle: How to Export Fonts When Saving OneNote as HTML – Java
 second_title: Aspose.Note Java API
 title: วิธีส่งออกฟอนต์เมื่อบันทึก OneNote เป็น HTML – Java
-url: /java/onenote-document-loading/create-onenote-save-to-html/
+url: /th/java/onenote-document-loading/create-onenote-save-to-html/
 weight: 18
 ---
 

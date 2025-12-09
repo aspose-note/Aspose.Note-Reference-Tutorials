@@ -4,11 +4,10 @@ description: Ismerje meg, hogyan konvertálhat OneNote dokumentumokat PDF formá
   az Aspose.Note for Java segítségével. Ez a lépésről‑lépésre útmutató megmutatja,
   hogyan menthet OneNote-ot PDF‑ként, hogyan konvertálhat konkrét oldalakat, és hogyan
   integrálhatja a megoldást Java projektjeibe.
-language: hu
 linktitle: Convert OneNote to PDF - Java
 second_title: Aspose.Note Java API
 title: OneNote konvertálása PDF-be – Java
-url: /java/onenote-document-loading/convert-to-pdf/
+url: /hu/java/onenote-document-loading/convert-to-pdf/
 weight: 16
 ---
 

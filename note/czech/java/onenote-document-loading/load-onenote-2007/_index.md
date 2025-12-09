@@ -3,11 +3,10 @@ date: 2025-12-05
 description: Naučte se, jak načíst dokumenty OneNote 2007 v Javě pomocí Aspose.Note.
   Tento krok‑za‑krokem průvodce vám ukáže **jak načíst onenote** soubory programově
   a jak zacházet s nepodporovanými formáty.
-language: cs
 linktitle: Load OneNote 2007 Document - Java
 second_title: Aspose.Note Java API
 title: Jak načíst dokument OneNote 2007 – Java
-url: /java/onenote-document-loading/load-onenote-2007/
+url: /cs/java/onenote-document-loading/load-onenote-2007/
 weight: 26
 ---
 

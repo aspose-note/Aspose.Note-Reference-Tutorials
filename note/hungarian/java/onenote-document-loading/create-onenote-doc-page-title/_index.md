@@ -3,11 +3,10 @@ date: 2025-12-02
 description: Ismerje meg, hogyan hozhat létre OneNote oldalt címmel Java-ban az Aspose.Note
   for Java használatával. Ez az útmutató bemutatja, hogyan állíthatja be a OneNote
   oldal címét, és testreszabhatja a cím betűtípusát.
-language: hu
 linktitle: How to Create OneNote Page with Title - Java
 second_title: Aspose.Note Java API
 title: Hogyan hozzunk létre OneNote oldalt címmel – Java
-url: /java/onenote-document-loading/create-onenote-doc-page-title/
+url: /hu/java/onenote-document-loading/create-onenote-doc-page-title/
 weight: 17
 ---
 

@@ -2,11 +2,10 @@
 date: 2025-12-04
 description: تعلم كيفية استخراج تنسيق ملف Aspose Note من ملفات OneNote باستخدام Java
   وAspose.Note. يوضح هذا البرنامج التعليمي الشيفرة خطوة بخطوة وأفضل الممارسات.
-language: ar
 linktitle: Get Aspose Note File Format Info from OneNote - Java
 second_title: Aspose.Note Java API
 title: احصل على معلومات تنسيق ملف Aspose Note من OneNote باستخدام Java
-url: /java/onenote-document-loading/get-file-format-info/
+url: /ar/java/onenote-document-loading/get-file-format-info/
 weight: 22
 ---
 

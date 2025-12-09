@@ -3,11 +3,10 @@ date: 2025-12-04
 description: Aspose.Note ile Java’da OneNote için kredi takibini nasıl yapacağınızı
   ve ölçülen lisansları nasıl yöneteceğinizi öğrenin. Kullanımı kontrol edin, tüketimi
   izleyin ve maliyetleri optimize edin.
-language: tr
 linktitle: Aspose.Note Licensing with Java
 second_title: Aspose.Note Java API
 title: Java ile Aspose.Note Lisanslama – Kredileri Nasıl İzlersiniz
-url: /java/licensing-java/
+url: /tr/java/licensing-java/
 weight: 24
 ---
 

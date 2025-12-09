@@ -2,11 +2,10 @@
 date: 2025-11-29
 description: تعلم كيفية التحقق من تشفير OneNote باستخدام Aspose.Note للغة Java. يوضح
   لك هذا الدليل كيفية اكتشاف ملفات OneNote المشفرة قبل معالجتها.
-language: ar
 linktitle: Check if OneNote Document is Encrypted - Java
 second_title: Aspose.Note Java API
 title: تحقق من تشفير OneNote في جافا – التحقق من تشفير مستند OneNote
-url: /java/onenote-document-loading/check-document-encrypted/
+url: /ar/java/onenote-document-loading/check-document-encrypted/
 weight: 10
 ---
 

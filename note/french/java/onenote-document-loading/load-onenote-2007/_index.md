@@ -3,11 +3,10 @@ date: 2025-12-05
 description: Apprenez à charger des documents OneNote 2007 en Java avec Aspose.Note.
   Ce guide étape par étape vous montre **comment charger onenote** de façon programmatique
   et gérer les formats non pris en charge.
-language: fr
 linktitle: Load OneNote 2007 Document - Java
 second_title: Aspose.Note Java API
 title: Comment charger un document OneNote 2007 - Java
-url: /java/onenote-document-loading/load-onenote-2007/
+url: /fr/java/onenote-document-loading/load-onenote-2007/
 weight: 26
 ---
 

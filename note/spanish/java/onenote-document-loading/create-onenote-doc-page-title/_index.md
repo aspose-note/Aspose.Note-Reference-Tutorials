@@ -3,11 +3,10 @@ date: 2025-12-02
 description: Aprenda a crear una página de OneNote con un título en Java usando Aspose.Note
   para Java. Esta guía muestra cómo establecer el título de la página de OneNote y
   personalizar la fuente del título.
-language: es
 linktitle: How to Create OneNote Page with Title - Java
 second_title: Aspose.Note Java API
 title: Cómo crear una página de OneNote con título - Java
-url: /java/onenote-document-loading/create-onenote-doc-page-title/
+url: /es/java/onenote-document-loading/create-onenote-doc-page-title/
 weight: 17
 ---
 

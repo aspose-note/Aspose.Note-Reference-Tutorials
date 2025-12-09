@@ -3,12 +3,11 @@ date: 2025-11-30
 description: Ismerje meg, hogyan exportálhat OneNote oldalakat egy adott oldaltartomány
   PDF‑re konvertálásával az Aspose.Note for Java segítségével. Tartalmaz lépésről‑lépésre
   kódot és a legjobb gyakorlatokra vonatkozó tippeket.
-language: hu
 linktitle: Export OneNote Pages – Convert Specific Page Range to PDF with Java
 second_title: Aspose.Note Java API
 title: OneNote oldalak exportálása – Kiválasztott oldaltartomány PDF‑be konvertálása
   Java‑val
-url: /java/onenote-document-loading/convert-page-range-to-pdf/
+url: /hu/java/onenote-document-loading/convert-page-range-to-pdf/
 weight: 11
 ---
 

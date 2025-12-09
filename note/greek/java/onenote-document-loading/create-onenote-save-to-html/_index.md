@@ -3,12 +3,11 @@ date: 2025-12-02
 description: Μάθετε πώς να εξάγετε γραμματοσειρές ενώ αποθηκεύετε το OneNote ως HTML
   χρησιμοποιώντας το Aspose.Note για Java. Αυτός ο οδηγός σας δείχνει πώς να δημιουργήσετε
   το OneNote προγραμματιστικά και να ενσωματώσετε γραμματοσειρές, CSS και εικόνες.
-language: el
 linktitle: How to Export Fonts When Saving OneNote as HTML – Java
 second_title: Aspose.Note Java API
 title: Πώς να εξάγετε τις γραμματοσειρές κατά την αποθήκευση του OneNote ως HTML –
   Java
-url: /java/onenote-document-loading/create-onenote-save-to-html/
+url: /el/java/onenote-document-loading/create-onenote-save-to-html/
 weight: 18
 ---
 

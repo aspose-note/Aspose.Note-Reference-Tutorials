@@ -4,11 +4,10 @@ description: Aspose Note Java kullanarak Java’da OneNote belgelerini nasıl ol
   manipüle edeceğinizi ve otomatikleştireceğinizi öğrenin. Adım adım öğreticiler,
   Document Visitor kullanımını, biçimlendirilmiş zengin metin oluşturmayı ve basit
   zengin metni kapsar.
-language: tr
 linktitle: OneNote Document Manipulation
 second_title: Aspose.Note Java API
 title: 'Aspose Note Java: OneNote Belgesi Manipülasyonu'
-url: /java/onenote-document-manipulation/
+url: /tr/java/onenote-document-manipulation/
 weight: 21
 ---
 

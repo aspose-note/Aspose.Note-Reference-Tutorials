@@ -3,12 +3,11 @@ date: 2025-11-29
 description: Apprenez comment vérifier le chiffrement OneNote en Java à l’aide d’Aspose.Note
   pour Java. Ce guide vous montre comment détecter les fichiers OneNote cryptés avant
   le traitement.
-language: fr
 linktitle: Check if OneNote Document is Encrypted - Java
 second_title: Aspose.Note Java API
 title: vérifier le chiffrement OneNote java – Vérifier le chiffrement du document
   OneNote
-url: /java/onenote-document-loading/check-document-encrypted/
+url: /fr/java/onenote-document-loading/check-document-encrypted/
 weight: 10
 ---
 

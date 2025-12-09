@@ -2,11 +2,10 @@
 date: 2025-12-02
 description: تعلم كيفية تصدير الخطوط أثناء حفظ OneNote كملف HTML باستخدام Aspose.Note
   للغة Java. يوضح لك هذا الدليل كيفية إنشاء OneNote برمجيًا وتضمين الخطوط وCSS والصور.
-language: ar
 linktitle: How to Export Fonts When Saving OneNote as HTML – Java
 second_title: Aspose.Note Java API
 title: كيفية تصدير الخطوط عند حفظ OneNote كملف HTML – Java
-url: /java/onenote-document-loading/create-onenote-save-to-html/
+url: /ar/java/onenote-document-loading/create-onenote-save-to-html/
 weight: 18
 ---
 

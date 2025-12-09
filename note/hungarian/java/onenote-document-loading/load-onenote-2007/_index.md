@@ -4,11 +4,10 @@ description: Tanulja meg, hogyan töltheti be a OneNote 2007 dokumentumokat Ja
   az Aspose.Note segítségével. Ez a lépésről‑lépésre útmutató megmutatja, **hogyan
   töltsük be a onenote** fájlokat programozottan, és hogyan kezelhetők a nem támogatott
   formátumok.
-language: hu
 linktitle: Load OneNote 2007 Document - Java
 second_title: Aspose.Note Java API
 title: Hogyan töltsünk be OneNote 2007 dokumentumot – Java
-url: /java/onenote-document-loading/load-onenote-2007/
+url: /hu/java/onenote-document-loading/load-onenote-2007/
 weight: 26
 ---
 

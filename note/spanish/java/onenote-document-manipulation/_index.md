@@ -3,11 +3,10 @@ date: 2025-12-07
 description: Aprenda a crear, manipular y automatizar documentos de OneNote en Java
   con Aspose Note Java. Los tutoriales paso a paso cubren el uso del Document Visitor,
   la creación de texto enriquecido con formato y texto enriquecido simple.
-language: es
 linktitle: OneNote Document Manipulation
 second_title: Aspose.Note Java API
 title: 'Aspose Note Java: Manipulación de documentos de OneNote'
-url: /java/onenote-document-manipulation/
+url: /es/java/onenote-document-manipulation/
 weight: 21
 ---
 

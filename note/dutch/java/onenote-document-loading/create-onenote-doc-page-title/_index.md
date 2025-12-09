@@ -3,11 +3,10 @@ date: 2025-12-02
 description: Leer hoe je een OneNote-pagina met een titel maakt in Java met Aspose.Note
   voor Java. Deze gids laat zien hoe je de titel van een OneNote-pagina instelt en
   het lettertype van de titel aanpast.
-language: nl
 linktitle: How to Create OneNote Page with Title - Java
 second_title: Aspose.Note Java API
 title: Hoe maak je een OneNote-pagina met titel - Java
-url: /java/onenote-document-loading/create-onenote-doc-page-title/
+url: /nl/java/onenote-document-loading/create-onenote-doc-page-title/
 weight: 17
 ---
 

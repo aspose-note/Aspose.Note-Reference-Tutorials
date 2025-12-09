@@ -3,12 +3,11 @@ date: 2025-12-04
 description: Aprenda a extrair o formato de arquivo Aspose Note de arquivos do OneNote
   em Java usando Aspose.Note. Este tutorial mostra o código passo a passo e as melhores
   práticas.
-language: pt
 linktitle: Get Aspose Note File Format Info from OneNote - Java
 second_title: Aspose.Note Java API
 title: Obtenha informações do formato de arquivo Aspose Note a partir do OneNote usando
   Java
-url: /java/onenote-document-loading/get-file-format-info/
+url: /pt/java/onenote-document-loading/get-file-format-info/
 weight: 22
 ---
 

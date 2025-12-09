@@ -3,11 +3,10 @@ date: 2025-12-04
 description: Pelajari cara memantau kredit dan mengelola lisensi bermeter untuk OneNote
   dalam Java dengan Aspose.Note. Kendalikan penggunaan, lacak konsumsi, dan optimalkan
   biaya.
-language: id
 linktitle: Aspose.Note Licensing with Java
 second_title: Aspose.Note Java API
 title: Lisensi Aspose.Note dengan Java – Cara Memantau Kredit
-url: /java/licensing-java/
+url: /id/java/licensing-java/
 weight: 24
 ---
 

@@ -4,12 +4,11 @@ description: Aspose.Note for Java kullanarak OneNote’u HTML olarak kaydederken
   tiplerini nasıl dışa aktaracağınızı öğrenin. Bu kılavuz, OneNote’u programlı olarak
   nasıl oluşturacağınızı ve yazı tiplerini, CSS’i ve görüntüleri nasıl gömeceğinizi
   gösterir.
-language: tr
 linktitle: How to Export Fonts When Saving OneNote as HTML – Java
 second_title: Aspose.Note Java API
 title: OneNote'i HTML Olarak Kaydederken Yazı Tiplerini Nasıl Dışa Aktarırsınız –
   Java
-url: /java/onenote-document-loading/create-onenote-save-to-html/
+url: /tr/java/onenote-document-loading/create-onenote-save-to-html/
 weight: 18
 ---
 

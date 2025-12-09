@@ -2,11 +2,10 @@
 date: 2025-11-29
 description: تعلم كيفية تصدير صفحة OneNote إلى PNG باستخدام Aspose.Note للغة Java.
   اتبع التعليمات خطوة بخطوة لتحديد فهرس الصفحة، تحويل الصفحة، وحفظ الصورة.
-language: ar
 linktitle: Export OneNote Page to PNG Image in Java
 second_title: Aspose.Note Java API
 title: تصدير صفحة OneNote إلى صورة PNG في Java باستخدام Aspose.Note
-url: /java/onenote-document-loading/convert-page-to-png-image/
+url: /ar/java/onenote-document-loading/convert-page-to-png-image/
 weight: 13
 ---
 

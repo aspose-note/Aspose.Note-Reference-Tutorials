@@ -3,11 +3,10 @@ date: 2025-11-29
 description: Μάθετε πώς να ελέγχετε την κρυπτογράφηση του OneNote σε Java χρησιμοποιώντας
   το Aspose.Note για Java. Αυτός ο οδηγός σας δείχνει πώς να εντοπίζετε κρυπτογραφημένα
   αρχεία OneNote πριν από την επεξεργασία.
-language: el
 linktitle: Check if OneNote Document is Encrypted - Java
 second_title: Aspose.Note Java API
 title: Έλεγχος κρυπτογράφησης OneNote Java – Επαλήθευση κρυπτογράφησης εγγράφου OneNote
-url: /java/onenote-document-loading/check-document-encrypted/
+url: /el/java/onenote-document-loading/check-document-encrypted/
 weight: 10
 ---
 

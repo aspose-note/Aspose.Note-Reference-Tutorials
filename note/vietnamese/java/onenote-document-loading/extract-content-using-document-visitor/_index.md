@@ -2,11 +2,10 @@
 date: 2025-12-04
 description: Tìm hiểu cách trích xuất hình ảnh từ tệp OneNote và chuyển đổi OneNote
   sang văn bản trong Java bằng Aspose.Note. Hướng dẫn từng bước kèm ví dụ mã.
-language: vi
 linktitle: Extract Images from OneNote using Document Visitor - Java
 second_title: Aspose.Note Java API
 title: Trích xuất hình ảnh từ OneNote bằng Document Visitor - Java
-url: /java/onenote-document-loading/extract-content-using-document-visitor/
+url: /vi/java/onenote-document-loading/extract-content-using-document-visitor/
 weight: 21
 ---
 

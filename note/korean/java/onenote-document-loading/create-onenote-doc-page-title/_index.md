@@ -2,11 +2,10 @@
 date: 2025-12-02
 description: Aspose.Note for Java를 사용하여 Java에서 제목이 있는 OneNote 페이지를 만드는 방법을 배웁니다. 이
   가이드는 OneNote 페이지 제목을 설정하고 제목 글꼴을 사용자 지정하는 방법을 보여줍니다.
-language: ko
 linktitle: How to Create OneNote Page with Title - Java
 second_title: Aspose.Note Java API
 title: 제목이 있는 OneNote 페이지 만들기 - Java
-url: /java/onenote-document-loading/create-onenote-doc-page-title/
+url: /ko/java/onenote-document-loading/create-onenote-doc-page-title/
 weight: 17
 ---
 

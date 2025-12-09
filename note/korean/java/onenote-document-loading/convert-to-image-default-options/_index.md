@@ -2,11 +2,10 @@
 date: 2025-11-30
 description: Aspose.Note for Java를 사용하여 OneNote를 손쉽게 이미지로 변환하세요. 기본 옵션으로 OneNote를
   이미지로 저장하는 단계별 튜토리얼을 따라보세요.
-language: ko
 linktitle: Convert OneNote to Image using Default Options - Java
 second_title: Aspose.Note Java API
 title: 기본 옵션을 사용하여 OneNote를 이미지로 변환 - Java
-url: /java/onenote-document-loading/convert-to-image-default-options/
+url: /ko/java/onenote-document-loading/convert-to-image-default-options/
 weight: 15
 ---
 

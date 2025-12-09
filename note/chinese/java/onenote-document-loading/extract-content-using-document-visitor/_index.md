@@ -1,11 +1,10 @@
 ---
 date: 2025-12-04
 description: 学习如何使用 Aspose.Note 在 Java 中从 OneNote 文件中提取图像并将 OneNote 转换为文本。一步一步的指南，附带代码示例。
-language: zh
 linktitle: Extract Images from OneNote using Document Visitor - Java
 second_title: Aspose.Note Java API
 title: 使用文档访问器从 OneNote 中提取图像 - Java
-url: /java/onenote-document-loading/extract-content-using-document-visitor/
+url: /zh/java/onenote-document-loading/extract-content-using-document-visitor/
 weight: 21
 ---
 

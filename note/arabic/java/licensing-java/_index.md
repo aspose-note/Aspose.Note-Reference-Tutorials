@@ -2,11 +2,10 @@
 date: 2025-12-04
 description: تعلم كيفية مراقبة الرصيد وإدارة تراخيص القياس لبرنامج OneNote في Java
   باستخدام Aspose.Note. تحكم في الاستخدام، تتبع الاستهلاك، وحسّن التكاليف.
-language: ar
 linktitle: Aspose.Note Licensing with Java
 second_title: Aspose.Note Java API
 title: ترخيص Aspose.Note مع Java – كيفية مراقبة الاعتمادات
-url: /java/licensing-java/
+url: /ar/java/licensing-java/
 weight: 24
 ---
 

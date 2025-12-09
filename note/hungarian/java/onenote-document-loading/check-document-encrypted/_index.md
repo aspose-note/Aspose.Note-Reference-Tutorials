@@ -3,12 +3,11 @@ date: 2025-11-29
 description: Tanulja meg, hogyan ellenőrizheti a OneNote titkosítást Java-ban az Aspose.Note
   for Java használatával. Ez az útmutató megmutatja, hogyan észlelhet titkosított
   OneNote-fájlokat a feldolgozás előtt.
-language: hu
 linktitle: Check if OneNote Document is Encrypted - Java
 second_title: Aspose.Note Java API
 title: ellenőrizze a OneNote titkosítást Java – OneNote dokumentum titkosításának
   ellenőrzése
-url: /java/onenote-document-loading/check-document-encrypted/
+url: /hu/java/onenote-document-loading/check-document-encrypted/
 weight: 10
 ---
 

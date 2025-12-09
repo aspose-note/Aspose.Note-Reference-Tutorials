@@ -3,11 +3,10 @@ date: 2025-12-02
 description: Java'da Aspose.Note for Java kullanarak başlıklı bir OneNote sayfası
   oluşturmayı öğrenin. Bu kılavuz, OneNote sayfa başlığını nasıl ayarlayacağınızı
   ve başlık yazı tipini nasıl özelleştireceğinizi gösterir.
-language: tr
 linktitle: How to Create OneNote Page with Title - Java
 second_title: Aspose.Note Java API
 title: Başlıklı OneNote Sayfası Nasıl Oluşturulur - Java
-url: /java/onenote-document-loading/create-onenote-doc-page-title/
+url: /tr/java/onenote-document-loading/create-onenote-doc-page-title/
 weight: 17
 ---
 

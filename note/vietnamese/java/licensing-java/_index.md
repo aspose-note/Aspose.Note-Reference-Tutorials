@@ -3,11 +3,10 @@ date: 2025-12-04
 description: Tìm hiểu cách giám sát tín dụng và quản lý giấy phép tính theo mức cho
   OneNote trong Java với Aspose.Note. Kiểm soát việc sử dụng, theo dõi tiêu thụ và
   tối ưu chi phí.
-language: vi
 linktitle: Aspose.Note Licensing with Java
 second_title: Aspose.Note Java API
 title: Cấp phép Aspose.Note với Java – Cách theo dõi tín dụng
-url: /java/licensing-java/
+url: /vi/java/licensing-java/
 weight: 24
 ---
 

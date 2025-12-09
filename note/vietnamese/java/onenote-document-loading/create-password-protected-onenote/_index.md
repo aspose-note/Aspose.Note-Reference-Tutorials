@@ -3,11 +3,10 @@ date: 2025-12-02
 description: Tìm hiểu cách bảo vệ OneNote bằng cách tạo tài liệu OneNote có mật khẩu
   trong Java với Aspose.Note. Hãy làm theo hướng dẫn từng bước này để thêm bảo mật
   mạnh cho sổ ghi chú của bạn.
-language: vi
 linktitle: Create Password-Protected OneNote Documents - Java
 second_title: Aspose.Note Java API
 title: 'Cách Bảo Vệ OneNote: Tạo Tài Liệu OneNote Có Mật Khẩu - Java'
-url: /java/onenote-document-loading/create-password-protected-onenote/
+url: /vi/java/onenote-document-loading/create-password-protected-onenote/
 weight: 19
 ---
 

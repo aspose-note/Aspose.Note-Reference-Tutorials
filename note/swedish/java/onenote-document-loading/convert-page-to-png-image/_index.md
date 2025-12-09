@@ -3,11 +3,10 @@ date: 2025-11-29
 description: Lär dig hur du exporterar en OneNote‑sida till PNG med Aspose.Note för
   Java. Följ steg‑för‑steg‑instruktionerna för att ange sidindex, konvertera sidan
   och spara bilden.
-language: sv
 linktitle: Export OneNote Page to PNG Image in Java
 second_title: Aspose.Note Java API
 title: Exportera OneNote-sida till PNG-bild i Java med Aspose.Note
-url: /java/onenote-document-loading/convert-page-to-png-image/
+url: /sv/java/onenote-document-loading/convert-page-to-png-image/
 weight: 13
 ---
 

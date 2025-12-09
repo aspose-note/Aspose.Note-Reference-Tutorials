@@ -3,11 +3,10 @@ date: 2025-12-02
 description: Naučte se, jak exportovat písma při ukládání OneNote jako HTML pomocí
   Aspose.Note pro Javu. Tento průvodce vám ukáže, jak programově vytvořit OneNote
   a vložit písma, CSS a obrázky.
-language: cs
 linktitle: How to Export Fonts When Saving OneNote as HTML – Java
 second_title: Aspose.Note Java API
 title: Jak exportovat písma při ukládání OneNote do HTML – Java
-url: /java/onenote-document-loading/create-onenote-save-to-html/
+url: /cs/java/onenote-document-loading/create-onenote-save-to-html/
 weight: 18
 ---
 

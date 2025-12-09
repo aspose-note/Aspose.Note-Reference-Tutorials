@@ -3,11 +3,10 @@ date: 2025-12-05
 description: Μάθετε πώς να φορτώνετε έγγραφα OneNote 2007 σε Java χρησιμοποιώντας
   το Aspose.Note. Αυτός ο οδηγός βήμα‑βήμα σας δείχνει **πώς να φορτώνετε αρχεία onenote**
   προγραμματιστικά και πώς να διαχειρίζεστε μη υποστηριζόμενες μορφές.
-language: el
 linktitle: Load OneNote 2007 Document - Java
 second_title: Aspose.Note Java API
 title: Πώς να φορτώσετε ένα έγγραφο OneNote 2007 - Java
-url: /java/onenote-document-loading/load-onenote-2007/
+url: /el/java/onenote-document-loading/load-onenote-2007/
 weight: 26
 ---
 

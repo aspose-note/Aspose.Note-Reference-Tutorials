@@ -3,11 +3,10 @@ date: 2025-12-05
 description: Aspose.Note kullanarak Java’da OneNote 2007 belgelerini nasıl yükleyeceğinizi
   öğrenin. Bu adım‑adım rehber, **onenote** dosyalarını programlı olarak nasıl yükleyeceğinizi
   ve desteklenmeyen formatları nasıl ele alacağınızı gösterir.
-language: tr
 linktitle: Load OneNote 2007 Document - Java
 second_title: Aspose.Note Java API
 title: OneNote 2007 Belgesini Yükleme - Java
-url: /java/onenote-document-loading/load-onenote-2007/
+url: /tr/java/onenote-document-loading/load-onenote-2007/
 weight: 26
 ---
 

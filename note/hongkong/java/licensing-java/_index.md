@@ -1,11 +1,10 @@
 ---
 date: 2025-12-04
 description: 學習如何在 Java 中使用 Aspose.Note 監控 OneNote 的點數並管理計量授權。控制使用情況、追蹤消耗，並優化成本。
-language: zh-hant
 linktitle: Aspose.Note Licensing with Java
 second_title: Aspose.Note Java API
 title: Aspose.Note 授權（Java）— 如何監控點數
-url: /java/licensing-java/
+url: /zh-hant/java/licensing-java/
 weight: 24
 ---
 

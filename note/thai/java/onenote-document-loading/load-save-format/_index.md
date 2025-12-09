@@ -2,11 +2,10 @@
 date: 2025-12-07
 description: เรียนรู้วิธีบันทึก OneNote เป็น PDF และแปลงไฟล์ OneNote ด้วย Aspose.Note
   สำหรับ Java คู่มือนี้จะแสดงวิธีการส่งออก OneNote เป็น PDF ดึงข้อความ และอื่น ๆ อีกมากมาย
-language: th
 linktitle: How to Save OneNote as PDF with Aspose.Note for Java
 second_title: Aspose.Note Java API
 title: วิธีบันทึก OneNote เป็น PDF ด้วย Aspose.Note สำหรับ Java
-url: /java/onenote-document-loading/load-save-format/
+url: /th/java/onenote-document-loading/load-save-format/
 weight: 24
 ---
 

@@ -3,11 +3,10 @@ date: 2025-12-07
 description: เรียนรู้วิธีสร้าง, จัดการ และทำงานอัตโนมัติเอกสาร OneNote ด้วย Java ผ่าน
   Aspose Note Java คำแนะนำแบบทีละขั้นตอนครอบคลุมการใช้ Document Visitor การสร้างข้อความที่มีการจัดรูปแบบแบบ
   Rich Text และข้อความ Rich Text อย่างง่าย
-language: th
 linktitle: OneNote Document Manipulation
 second_title: Aspose.Note Java API
 title: 'Aspose Note Java: การจัดการเอกสาร OneNote'
-url: /java/onenote-document-manipulation/
+url: /th/java/onenote-document-manipulation/
 weight: 21
 ---
 

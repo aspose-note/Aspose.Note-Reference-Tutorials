@@ -3,11 +3,10 @@ date: 2025-12-07
 description: Tìm hiểu cách tạo, thao tác và tự động hoá tài liệu OneNote trong Java
   với Aspose Note Java. Các hướng dẫn từng bước bao gồm việc sử dụng Document Visitor,
   tạo văn bản phong phú có định dạng và văn bản phong phú đơn giản.
-language: vi
 linktitle: OneNote Document Manipulation
 second_title: Aspose.Note Java API
 title: 'Aspose Note Java: Thao tác tài liệu OneNote'
-url: /java/onenote-document-manipulation/
+url: /vi/java/onenote-document-manipulation/
 weight: 21
 ---
 

@@ -3,11 +3,10 @@ date: 2025-12-04
 description: Tanulja meg, hogyan lehet képeket kinyerni a OneNote‑fájlokból, és hogyan
   konvertálhatja a OneNote‑ot szöveggé Java‑ban az Aspose.Note segítségével. Lépésről‑lépésre
   útmutató kódrészletekkel.
-language: hu
 linktitle: Extract Images from OneNote using Document Visitor - Java
 second_title: Aspose.Note Java API
 title: Képek kinyerése a OneNote-ból a Document Visitor használatával – Java
-url: /java/onenote-document-loading/extract-content-using-document-visitor/
+url: /hu/java/onenote-document-loading/extract-content-using-document-visitor/
 weight: 21
 ---
 

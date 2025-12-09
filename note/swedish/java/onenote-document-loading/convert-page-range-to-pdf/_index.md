@@ -3,12 +3,11 @@ date: 2025-11-30
 description: Lär dig hur du exporterar OneNote‑sidor genom att konvertera ett specifikt
   sidintervall till PDF med Aspose.Note för Java. Inkluderar steg‑för‑steg‑kod och
   bästa‑praxis‑tips.
-language: sv
 linktitle: Export OneNote Pages – Convert Specific Page Range to PDF with Java
 second_title: Aspose.Note Java API
 title: Exportera OneNote‑sidor – Konvertera ett specifikt sidintervall till PDF med
   Java
-url: /java/onenote-document-loading/convert-page-range-to-pdf/
+url: /sv/java/onenote-document-loading/convert-page-range-to-pdf/
 weight: 11
 ---
 

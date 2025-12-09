@@ -3,11 +3,10 @@ date: 2025-12-02
 description: Tìm hiểu cách tạo trang OneNote có tiêu đề bằng Java sử dụng Aspose.Note
   cho Java. Hướng dẫn này cho thấy cách đặt tiêu đề cho trang OneNote và tùy chỉnh
   phông chữ tiêu đề.
-language: vi
 linktitle: How to Create OneNote Page with Title - Java
 second_title: Aspose.Note Java API
 title: Cách tạo trang OneNote có tiêu đề - Java
-url: /java/onenote-document-loading/create-onenote-doc-page-title/
+url: /vi/java/onenote-document-loading/create-onenote-doc-page-title/
 weight: 17
 ---
 

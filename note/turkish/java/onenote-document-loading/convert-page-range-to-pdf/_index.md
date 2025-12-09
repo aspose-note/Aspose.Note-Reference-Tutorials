@@ -3,11 +3,10 @@ date: 2025-11-30
 description: Aspose.Note for Java kullanarak belirli bir sayfa aralığını PDF'ye dönüştürerek
   OneNote sayfalarını nasıl dışa aktaracağınızı öğrenin. Adım adım kod ve en iyi uygulama
   ipuçlarını içerir.
-language: tr
 linktitle: Export OneNote Pages – Convert Specific Page Range to PDF with Java
 second_title: Aspose.Note Java API
 title: OneNote Sayfalarını Dışa Aktar – Belirli Sayfa Aralığını Java ile PDF'e Dönüştür
-url: /java/onenote-document-loading/convert-page-range-to-pdf/
+url: /tr/java/onenote-document-loading/convert-page-range-to-pdf/
 weight: 11
 ---
 

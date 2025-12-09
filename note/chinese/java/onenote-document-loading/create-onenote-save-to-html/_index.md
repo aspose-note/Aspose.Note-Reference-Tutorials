@@ -2,11 +2,10 @@
 date: 2025-12-02
 description: 了解如何在使用 Aspose.Note for Java 将 OneNote 保存为 HTML 时导出字体。本指南展示了如何以编程方式创建
   OneNote 并嵌入字体、CSS 和图像。
-language: zh
 linktitle: How to Export Fonts When Saving OneNote as HTML – Java
 second_title: Aspose.Note Java API
 title: 在将 OneNote 保存为 HTML 时如何导出字体 – Java
-url: /java/onenote-document-loading/create-onenote-save-to-html/
+url: /zh/java/onenote-document-loading/create-onenote-save-to-html/
 weight: 18
 ---
 

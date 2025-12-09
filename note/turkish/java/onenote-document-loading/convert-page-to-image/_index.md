@@ -3,11 +3,10 @@ date: 2025-11-29
 description: Java kullanarak OneNote sayfalarını görüntülere nasıl dışa aktaracağınızı
   öğrenin ve Aspose.Note ile OneNote sayfa görüntüsünü nasıl dönüştüreceğinizi keşfedin.
   Hızlı entegrasyon için adım adım rehberimizi izleyin.
-language: tr
 linktitle: How to Export OneNote Page to Image Using Java
 second_title: Aspose.Note Java API
 title: Java Kullanarak OneNote Sayfasını Görüntü Olarak Dışa Aktarma
-url: /java/onenote-document-loading/convert-page-to-image/
+url: /tr/java/onenote-document-loading/convert-page-to-image/
 weight: 12
 ---
 

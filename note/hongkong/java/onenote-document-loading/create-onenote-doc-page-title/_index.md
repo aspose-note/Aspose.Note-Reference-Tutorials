@@ -2,11 +2,10 @@
 date: 2025-12-02
 description: 學習如何使用 Aspose.Note for Java 在 Java 中建立帶有標題的 OneNote 頁面。本指南展示如何設定 OneNote
   頁面的標題以及自訂標題字型。
-language: zh-hant
 linktitle: How to Create OneNote Page with Title - Java
 second_title: Aspose.Note Java API
 title: 如何使用 Java 建立帶標題的 OneNote 頁面
-url: /java/onenote-document-loading/create-onenote-doc-page-title/
+url: /zh-hant/java/onenote-document-loading/create-onenote-doc-page-title/
 weight: 17
 ---
 

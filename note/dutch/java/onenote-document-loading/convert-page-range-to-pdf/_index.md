@@ -3,12 +3,11 @@ date: 2025-11-30
 description: Leer hoe u OneNote‑pagina’s kunt exporteren door een specifiek paginabereik
   naar PDF te converteren met Aspose.Note voor Java. Inclusief stapsgewijze code en
   best‑practice‑tips.
-language: nl
 linktitle: Export OneNote Pages – Convert Specific Page Range to PDF with Java
 second_title: Aspose.Note Java API
 title: OneNote-pagina's exporteren – Specifiek paginabereik converteren naar PDF met
   Java
-url: /java/onenote-document-loading/convert-page-range-to-pdf/
+url: /nl/java/onenote-document-loading/convert-page-range-to-pdf/
 weight: 11
 ---
 

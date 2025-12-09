@@ -3,11 +3,10 @@ date: 2025-12-04
 description: Aspose.Note के साथ जावा में OneNote के लिए क्रेडिट की निगरानी और मीटर
   लाइसेंस प्रबंधन सीखें। उपयोग को नियंत्रित करें, खपत को ट्रैक करें, और लागत को अनुकूलित
   करें।
-language: hi
 linktitle: Aspose.Note Licensing with Java
 second_title: Aspose.Note Java API
 title: Aspose.Note लाइसेंसिंग जावा के साथ – क्रेडिट्स की निगरानी कैसे करें
-url: /java/licensing-java/
+url: /hi/java/licensing-java/
 weight: 24
 ---
 

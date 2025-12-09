@@ -2,11 +2,10 @@
 date: 2025-12-04
 description: Aspose.Note를 사용하여 Java에서 OneNote의 크레딧을 모니터링하고 사용량 기반 라이선스를 관리하는 방법을 배우세요.
   사용량을 제어하고, 소비를 추적하며, 비용을 최적화하세요.
-language: ko
 linktitle: Aspose.Note Licensing with Java
 second_title: Aspose.Note Java API
 title: Java와 함께하는 Aspose.Note 라이선스 – 크레딧 모니터링 방법
-url: /java/licensing-java/
+url: /ko/java/licensing-java/
 weight: 24
 ---
 

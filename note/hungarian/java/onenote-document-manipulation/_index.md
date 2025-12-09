@@ -4,11 +4,10 @@ description: Tanulja meg, hogyan hozhat létre, módosíthat és automatizálhat
   dokumentumokat Java-ban az Aspose Note Java segítségével. A lépésről‑lépésre útmutatók
   bemutatják a Document Visitor használatát, a formázott gazdag szöveg létrehozását
   és az egyszerű gazdag szöveget.
-language: hu
 linktitle: OneNote Document Manipulation
 second_title: Aspose.Note Java API
 title: 'Aspose Note Java: OneNote dokumentumkezelés'
-url: /java/onenote-document-manipulation/
+url: /hu/java/onenote-document-manipulation/
 weight: 21
 ---
 

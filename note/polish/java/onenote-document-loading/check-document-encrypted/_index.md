@@ -3,11 +3,10 @@ date: 2025-11-29
 description: Dowiedz się, jak sprawdzić szyfrowanie OneNote w Javie przy użyciu Aspose.Note
   for Java. Ten przewodnik pokazuje, jak wykrywać zaszyfrowane pliki OneNote przed
   przetwarzaniem.
-language: pl
 linktitle: Check if OneNote Document is Encrypted - Java
 second_title: Aspose.Note Java API
 title: Sprawdź szyfrowanie OneNote w Javie – zweryfikuj szyfrowanie dokumentu OneNote
-url: /java/onenote-document-loading/check-document-encrypted/
+url: /pl/java/onenote-document-loading/check-document-encrypted/
 weight: 10
 ---
 

@@ -4,11 +4,10 @@ description: Узнайте, как создавать, изменять и ав
   на Java с помощью Aspose Note Java. Пошаговые руководства охватывают использование
   Document Visitor, создание отформатированного богатого текста и простого богатого
   текста.
-language: ru
 linktitle: OneNote Document Manipulation
 second_title: Aspose.Note Java API
 title: 'Aspose Note Java: Работа с документами OneNote'
-url: /java/onenote-document-manipulation/
+url: /ru/java/onenote-document-manipulation/
 weight: 21
 ---
 

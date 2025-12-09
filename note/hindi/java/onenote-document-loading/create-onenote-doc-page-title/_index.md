@@ -3,11 +3,10 @@ date: 2025-12-02
 description: Aspose.Note for Java का उपयोग करके जावा में शीर्षक के साथ OneNote पेज
   बनाना सीखें। यह गाइड दिखाता है कि OneNote पेज का शीर्षक कैसे सेट करें और शीर्षक
   फ़ॉन्ट को कैसे अनुकूलित करें।
-language: hi
 linktitle: How to Create OneNote Page with Title - Java
 second_title: Aspose.Note Java API
 title: शीर्षक के साथ OneNote पेज कैसे बनाएं - Java
-url: /java/onenote-document-loading/create-onenote-doc-page-title/
+url: /hi/java/onenote-document-loading/create-onenote-doc-page-title/
 weight: 17
 ---
 

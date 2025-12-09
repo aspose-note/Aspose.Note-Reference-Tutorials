@@ -3,11 +3,10 @@ date: 2025-12-07
 description: जावा में Aspose Note Java के साथ OneNote दस्तावेज़ बनाना, संशोधित करना
   और स्वचालित करना सीखें। चरण-दर-चरण ट्यूटोरियल में Document Visitor का उपयोग, स्वरूपित
   रिच टेक्स्ट बनाना, और सरल रिच टेक्स्ट शामिल हैं।
-language: hi
 linktitle: OneNote Document Manipulation
 second_title: Aspose.Note Java API
 title: 'Aspose Note Java: OneNote दस्तावेज़ हेरफेर'
-url: /java/onenote-document-manipulation/
+url: /hi/java/onenote-document-manipulation/
 weight: 21
 ---
 

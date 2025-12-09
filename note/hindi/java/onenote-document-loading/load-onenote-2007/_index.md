@@ -3,11 +3,10 @@ date: 2025-12-05
 description: Aspose.Note का उपयोग करके जावा में OneNote 2007 दस्तावेज़ कैसे लोड करें,
   सीखें। यह चरण‑दर‑चरण गाइड आपको प्रोग्रामेटिक रूप से **how to load onenote** फ़ाइलें
   लोड करने और असमर्थित फ़ॉर्मैट को संभालने का तरीका दिखाता है।
-language: hi
 linktitle: Load OneNote 2007 Document - Java
 second_title: Aspose.Note Java API
 title: OneNote 2007 दस्तावेज़ को लोड कैसे करें - जावा
-url: /java/onenote-document-loading/load-onenote-2007/
+url: /hi/java/onenote-document-loading/load-onenote-2007/
 weight: 26
 ---
 

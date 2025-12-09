@@ -3,11 +3,10 @@ date: 2025-12-02
 description: Scopri come esportare i caratteri mentre salvi OneNote in HTML usando
   Aspose.Note per Java. Questa guida ti mostra come creare OneNote programmaticamente
   e incorporare caratteri, CSS e immagini.
-language: it
 linktitle: How to Export Fonts When Saving OneNote as HTML – Java
 second_title: Aspose.Note Java API
 title: Come esportare i font quando si salva OneNote come HTML – Java
-url: /java/onenote-document-loading/create-onenote-save-to-html/
+url: /it/java/onenote-document-loading/create-onenote-save-to-html/
 weight: 18
 ---
 

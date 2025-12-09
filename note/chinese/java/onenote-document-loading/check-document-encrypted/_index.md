@@ -2,11 +2,10 @@
 date: 2025-11-29
 description: 学习如何使用 Aspose.Note for Java 检查 OneNote 加密。本指南向您展示如何在处理之前检测加密的 OneNote
   文件。
-language: zh
 linktitle: Check if OneNote Document is Encrypted - Java
 second_title: Aspose.Note Java API
 title: 检查 OneNote 加密 Java – 验证 OneNote 文档加密
-url: /java/onenote-document-loading/check-document-encrypted/
+url: /zh/java/onenote-document-loading/check-document-encrypted/
 weight: 10
 ---
 

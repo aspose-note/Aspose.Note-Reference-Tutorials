@@ -3,11 +3,10 @@ date: 2025-12-04
 description: Apprenez à surveiller les crédits et à gérer les licences à compteurs
   pour OneNote en Java avec Aspose.Note. Contrôlez l’utilisation, suivez la consommation
   et optimisez les coûts.
-language: fr
 linktitle: Aspose.Note Licensing with Java
 second_title: Aspose.Note Java API
 title: Licence Aspose.Note avec Java – Comment surveiller les crédits
-url: /java/licensing-java/
+url: /fr/java/licensing-java/
 weight: 24
 ---
 

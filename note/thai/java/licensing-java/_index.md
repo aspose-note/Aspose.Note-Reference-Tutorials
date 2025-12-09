@@ -2,11 +2,10 @@
 date: 2025-12-04
 description: เรียนรู้วิธีตรวจสอบเครดิตและจัดการใบอนุญาตแบบตามการใช้งานสำหรับ OneNote
   ใน Java ด้วย Aspose.Note ควบคุมการใช้งาน ติดตามการบริโภค และเพิ่มประสิทธิภาพต้นทุน
-language: th
 linktitle: Aspose.Note Licensing with Java
 second_title: Aspose.Note Java API
 title: การให้สิทธิ์ Aspose.Note ด้วย Java – วิธีตรวจสอบเครดิต
-url: /java/licensing-java/
+url: /th/java/licensing-java/
 weight: 24
 ---
 

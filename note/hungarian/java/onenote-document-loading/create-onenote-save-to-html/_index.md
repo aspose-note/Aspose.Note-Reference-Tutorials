@@ -4,11 +4,10 @@ description: Tanulja meg, hogyan exportálhat betűtípusokat, miközben a OneNo
   HTML-ként menti az Aspose.Note for Java segítségével. Ez az útmutató bemutatja,
   hogyan hozhat létre OneNote-fájlokat programozottan, és hogyan ágyazhat be betűtípusokat,
   CSS-t és képeket.
-language: hu
 linktitle: How to Export Fonts When Saving OneNote as HTML – Java
 second_title: Aspose.Note Java API
 title: Hogyan exportáljuk a betűtípusokat a OneNote HTML-be mentésekor – Java
-url: /java/onenote-document-loading/create-onenote-save-to-html/
+url: /hu/java/onenote-document-loading/create-onenote-save-to-html/
 weight: 18
 ---
 

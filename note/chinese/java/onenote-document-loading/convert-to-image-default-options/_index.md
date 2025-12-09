@@ -1,11 +1,10 @@
 ---
 date: 2025-11-30
 description: 使用 Aspose.Note for Java，轻松将 OneNote 转换为图像。按照本分步教程，将 OneNote 保存为默认选项的图像。
-language: zh
 linktitle: Convert OneNote to Image using Default Options - Java
 second_title: Aspose.Note Java API
 title: 使用默认选项将 OneNote 转换为图像 - Java
-url: /java/onenote-document-loading/convert-to-image-default-options/
+url: /zh/java/onenote-document-loading/convert-to-image-default-options/
 weight: 15
 ---
 

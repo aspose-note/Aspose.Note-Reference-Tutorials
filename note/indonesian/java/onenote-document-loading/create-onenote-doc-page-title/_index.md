@@ -3,11 +3,10 @@ date: 2025-12-02
 description: Pelajari cara membuat halaman OneNote dengan judul di Java menggunakan
   Aspose.Note untuk Java. Panduan ini menunjukkan cara mengatur judul halaman OneNote
   dan menyesuaikan font judul.
-language: id
 linktitle: How to Create OneNote Page with Title - Java
 second_title: Aspose.Note Java API
 title: Cara Membuat Halaman OneNote dengan Judul - Java
-url: /java/onenote-document-loading/create-onenote-doc-page-title/
+url: /id/java/onenote-document-loading/create-onenote-doc-page-title/
 weight: 17
 ---
 

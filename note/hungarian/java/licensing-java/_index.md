@@ -3,11 +3,10 @@ date: 2025-12-04
 description: Tanulja meg, hogyan lehet nyomon követni a krediteket és kezelni a mérő
   licencet a OneNote-hoz Java-ban az Aspose.Note segítségével. Ellenőrizze a használatot,
   kövesse a fogyasztást, és optimalizálja a költségeket.
-language: hu
 linktitle: Aspose.Note Licensing with Java
 second_title: Aspose.Note Java API
 title: Aspose.Note licencelése Java-val – Hogyan figyeljük a krediteket
-url: /java/licensing-java/
+url: /hu/java/licensing-java/
 weight: 24
 ---
 

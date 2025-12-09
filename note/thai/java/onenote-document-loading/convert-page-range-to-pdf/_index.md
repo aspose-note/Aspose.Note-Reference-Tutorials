@@ -2,11 +2,10 @@
 date: 2025-11-30
 description: เรียนรู้วิธีส่งออกหน้าของ OneNote โดยแปลงช่วงหน้าที่กำหนดเป็น PDF ด้วย
   Aspose.Note สำหรับ Java พร้อมโค้ดขั้นตอนต่อขั้นตอนและเคล็ดลับการปฏิบัติที่ดีที่สุด.
-language: th
 linktitle: Export OneNote Pages – Convert Specific Page Range to PDF with Java
 second_title: Aspose.Note Java API
 title: ส่งออกหน้า OneNote – แปลงช่วงหน้าที่ระบุเป็น PDF ด้วย Java
-url: /java/onenote-document-loading/convert-page-range-to-pdf/
+url: /th/java/onenote-document-loading/convert-page-range-to-pdf/
 weight: 11
 ---
 

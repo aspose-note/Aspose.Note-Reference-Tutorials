@@ -2,11 +2,10 @@
 date: 2025-12-02
 description: تعلم كيفية إنشاء صفحة OneNote بعنوان باستخدام Java و Aspose.Note للـ
   Java. يوضح هذا الدليل كيفية تعيين عنوان صفحة OneNote وتخصيص خط العنوان.
-language: ar
 linktitle: How to Create OneNote Page with Title - Java
 second_title: Aspose.Note Java API
 title: كيفية إنشاء صفحة OneNote بعنوان - Java
-url: /java/onenote-document-loading/create-onenote-doc-page-title/
+url: /ar/java/onenote-document-loading/create-onenote-doc-page-title/
 weight: 17
 ---
 

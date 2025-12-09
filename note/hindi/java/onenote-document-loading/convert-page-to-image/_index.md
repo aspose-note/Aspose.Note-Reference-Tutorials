@@ -3,11 +3,10 @@ date: 2025-11-29
 description: जावा का उपयोग करके OneNote पेजों को इमेज में एक्सपोर्ट करना सीखें, और
   Aspose.Note के साथ OneNote पेज इमेज को कैसे कन्वर्ट करें, यह जानें। तेज़ इंटीग्रेशन
   के लिए हमारे चरण‑दर‑चरण गाइड का पालन करें।
-language: hi
 linktitle: How to Export OneNote Page to Image Using Java
 second_title: Aspose.Note Java API
 title: जावा का उपयोग करके OneNote पेज को इमेज में निर्यात कैसे करें
-url: /java/onenote-document-loading/convert-page-to-image/
+url: /hi/java/onenote-document-loading/convert-page-to-image/
 weight: 12
 ---
 

@@ -1,11 +1,10 @@
 ---
 date: 2025-11-30
 description: 學習如何使用 Aspose.Note for Java 將特定頁面範圍轉換為 PDF 以匯出 OneNote 頁面。包括逐步程式碼示例與最佳實踐技巧。
-language: zh-hant
 linktitle: Export OneNote Pages – Convert Specific Page Range to PDF with Java
 second_title: Aspose.Note Java API
 title: 匯出 OneNote 頁面 – 使用 Java 將特定頁面範圍轉換為 PDF
-url: /java/onenote-document-loading/convert-page-range-to-pdf/
+url: /zh-hant/java/onenote-document-loading/convert-page-range-to-pdf/
 weight: 11
 ---
 

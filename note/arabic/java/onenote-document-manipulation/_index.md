@@ -3,11 +3,10 @@ date: 2025-12-07
 description: تعلم كيفية إنشاء مستندات OneNote وتعديلها وأتمتتها في Java باستخدام Aspose
   Note Java. تغطي الدروس خطوة بخطوة استخدام Document Visitor، وإنشاء نص غني منسق،
   والنص الغني البسيط.
-language: ar
 linktitle: OneNote Document Manipulation
 second_title: Aspose.Note Java API
 title: 'Aspose Note Java: معالجة مستند OneNote'
-url: /java/onenote-document-manipulation/
+url: /ar/java/onenote-document-manipulation/
 weight: 21
 ---
 

@@ -2,11 +2,10 @@
 date: 2025-12-05
 description: 学习如何在 Java 中使用 Aspose.Note 加载 OneNote 2007 文档。本分步指南向您展示 **如何加载 OneNote**
   文件并处理不受支持的格式。
-language: zh
 linktitle: Load OneNote 2007 Document - Java
 second_title: Aspose.Note Java API
 title: 如何加载 OneNote 2007 文档 - Java
-url: /java/onenote-document-loading/load-onenote-2007/
+url: /zh/java/onenote-document-loading/load-onenote-2007/
 weight: 26
 ---
 

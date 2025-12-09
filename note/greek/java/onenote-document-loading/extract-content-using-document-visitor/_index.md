@@ -3,11 +3,10 @@ date: 2025-12-04
 description: Μάθετε πώς να εξάγετε εικόνες από αρχεία OneNote και να μετατρέψετε το
   OneNote σε κείμενο σε Java χρησιμοποιώντας το Aspose.Note. Οδηγός βήμα‑προς‑βήμα
   με παραδείγματα κώδικα.
-language: el
 linktitle: Extract Images from OneNote using Document Visitor - Java
 second_title: Aspose.Note Java API
 title: Εξαγωγή εικόνων από το OneNote με χρήση του Document Visitor - Java
-url: /java/onenote-document-loading/extract-content-using-document-visitor/
+url: /el/java/onenote-document-loading/extract-content-using-document-visitor/
 weight: 21
 ---
 

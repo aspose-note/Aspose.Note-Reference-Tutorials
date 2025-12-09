@@ -2,11 +2,10 @@
 date: 2025-12-04
 description: Aspose.Note for Java を使用して OneNote を PNG 画像として保存する方法を学びます。このガイドでは、OneNote
   を画像や PDF に変換する方法も示しています。
-language: ja
 linktitle: How to Save OneNote as PNG Image with Aspose.Note for Java
 second_title: Aspose.Note Java API
 title: Aspose.Note for Java を使用して OneNote を PNG 画像として保存する方法
-url: /java/onenote-document-loading/convert-to-image/
+url: /ja/java/onenote-document-loading/convert-to-image/
 weight: 14
 ---
 

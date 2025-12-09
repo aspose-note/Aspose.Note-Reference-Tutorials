@@ -3,11 +3,10 @@ date: 2025-12-02
 description: Узнайте, как экспортировать шрифты при сохранении OneNote в формате HTML
   с помощью Aspose.Note для Java. Это руководство показывает, как программно создавать
   OneNote и встраивать шрифты, CSS и изображения.
-language: ru
 linktitle: How to Export Fonts When Saving OneNote as HTML – Java
 second_title: Aspose.Note Java API
 title: Как экспортировать шрифты при сохранении OneNote в формате HTML – Java
-url: /java/onenote-document-loading/create-onenote-save-to-html/
+url: /ru/java/onenote-document-loading/create-onenote-save-to-html/
 weight: 18
 ---
 

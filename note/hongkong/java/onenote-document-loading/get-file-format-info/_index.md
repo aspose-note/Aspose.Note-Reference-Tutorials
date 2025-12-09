@@ -1,11 +1,10 @@
 ---
 date: 2025-12-04
 description: 學習如何在 Java 中使用 Aspose.Note 從 OneNote 檔案中提取 Aspose.Note 檔案格式。本教學展示逐步程式碼與最佳實踐。
-language: zh-hant
 linktitle: Get Aspose Note File Format Info from OneNote - Java
 second_title: Aspose.Note Java API
 title: 使用 Java 從 OneNote 取得 Aspose Note 檔案格式資訊
-url: /java/onenote-document-loading/get-file-format-info/
+url: /zh-hant/java/onenote-document-loading/get-file-format-info/
 weight: 22
 ---
 
