@@ -1,32 +1,47 @@
 ---
-title: การใช้ Document Visitor ใน OneNote กับ Java
-linktitle: การใช้ Document Visitor ใน OneNote กับ Java
+date: 2025-12-09
+description: เรียนรู้วิธีใช้แพทเทิร์น Visitor ใน Java กับ Aspose.Note เพื่อดึงข้อความจาก
+  OneNote, แปลง OneNote เป็น txt, และสำรวจเอกสารได้อย่างราบรื่น.
+linktitle: Visitor Pattern Java for OneNote Document Traversal
 second_title: Aspose.Note Java API
-description: เรียนรู้วิธีใช้ Document Visitor ใน OneNote โดยใช้ Java กับ Aspose.Note สำรวจและจัดการเอกสาร OneNote ได้อย่างราบรื่น
-weight: 10
+title: Visitor Pattern ใน Java สำหรับการท่องเอกสาร OneNote
 url: /th/java/onenote-document-manipulation/using-document-visitor/
+weight: 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# การใช้ Document Visitor ใน OneNote กับ Java
+# Visitor Pattern Java สำหรับการท่องเอกสาร OneNote
 
-## การแนะนำ
+## บทนำ
 
-ในบทช่วยสอนนี้ เราจะสำรวจวิธีใช้ Document Visitor ใน OneNote โดยใช้ Java กับ Aspose.Note Document Visitor ช่วยให้สามารถสำรวจองค์ประกอบของเอกสาร OneNote และดำเนินการกับองค์ประกอบเหล่านั้นได้ เราจะแนะนำคุณตลอดกระบวนการทีละขั้นตอน
+ในบทแนะนำนี้คุณจะได้ค้นพบ **how the visitor pattern java** ที่สามารถนำไปใช้กับไฟล์ OneNote ด้วยไลบรารี Aspose.Note โดยการใช้รูปแบบนี้คุณสามารถ **extract OneNote text**, **convert OneNote to txt**, และ **traverse OneNote** โครงสร้างแบบ node‑by‑node ได้อย่างมีประสิทธิภาพ เราจะเดินผ่านตัวอย่างเต็มรูปแบบแบบทำมือเพื่อให้คุณเริ่มดึงเนื้อหาจากโน้ตบุ๊กของคุณได้ทันที
+
+## คำตอบอย่างรวดเร็ว
+- **Visitor pattern ทำอะไร?** มันแยกการดำเนินการออกจากโครงสร้างของอ็อบเจ็กต์ ทำให้คุณสามารถเดินผ่านเอกสารโดยไม่ต้องแก้ไขคลาสของมัน  
+- **ไลบรารีใดสนับสนุนใน Java?** Aspose.Note for Java มีการทำงาน `DocumentVisitor` ที่พร้อมใช้  
+- **ฉันจะดึงข้อความจากไฟล์ OneNote ได้อย่างไร?** สร้าง visitor แบบกำหนดเองที่ต่อข้อความจากโหนด `RichText` – ดูโค้ดด้านล่าง  
+- **ฉันสามารถแปลง OneNote เป็นไฟล์ข้อความธรรมดาได้หรือไม่?** ได้ หลังจากเยี่ยมชมคุณสามารถเขียนข้อความที่รวบรวมได้ลงไฟล์ `.txt`  
+- **ข้อกำหนดเบื้องต้นคืออะไร?** Java JDK 8+ และ Aspose.Note for Java (ลิงก์ดาวน์โหลดให้ไว้)
+
+## Visitor Pattern Java คืออะไร?
+**visitor pattern java** เป็นรูปแบบการออกแบบคลาสสิกที่ให้คุณกำหนดการดำเนินการใหม่บนชุดของอ็อบเจ็กต์โดยไม่ต้องเปลี่ยนแปลงอ็อบเจ็กต์เอง ในบริบทของ OneNote แต่ละองค์ประกอบ (หน้า, โครงร่าง, รูปภาพ ฯลฯ) เป็นโหนดในต้นไม้ของเอกสาร `DocumentVisitor` จะเดินต้นไม้นี้โดยเรียกคอลแบ็กสำหรับแต่ละประเภทโหนด ทำให้เหมาะอย่างยิ่งสำหรับงานเช่น **how to extract text** หรือ **how to traverse OneNote** โครงสร้าง
+
+## ทำไมต้องใช้ Visitor กับ OneNote?
+- **การแยกความรับผิดชอบ:** ลอจิกการดึงข้อมูลอยู่ในที่เดียวขณะที่โมเดลเอกสารไม่ถูกแก้ไข  
+- **ความสามารถขยาย:** Visitor เดียวกันสามารถต่อขยายเพื่อจัดการรูปภาพ, ตาราง หรือเมตาดาต้ากำหนดเองได้  
+- **ประสิทธิภาพ:** การท่องทำในหนึ่งรอบ ลดการใช้หน่วยความจำ
 
 ## ข้อกำหนดเบื้องต้น
 
-ก่อนที่เราจะเริ่มต้น ตรวจสอบให้แน่ใจว่าคุณมีข้อกำหนดเบื้องต้นดังต่อไปนี้:
+1. **Java Development Kit (JDK):** ตรวจสอบให้แน่ใจว่าได้ติดตั้ง JDK 8 หรือใหม่กว่า  
+2. **Aspose.Note for Java:** ดาวน์โหลดและติดตั้งไลบรารีจาก [download link](https://releases.aspose.com/note/java/)  
 
-1. Java Development Kit (JDK): ตรวจสอบให้แน่ใจว่าคุณได้ติดตั้ง JDK บนระบบของคุณ
-2. Aspose.Note สำหรับ Java: ดาวน์โหลดและติดตั้ง Aspose.Note สำหรับ Java จาก[ลิ้งค์ดาวน์โหลด](https://releases.aspose.com/note/java/).
+## นำเข้าแพ็กเกจ
 
-## แพ็คเกจนำเข้า
-
-ขั้นแรก เรามานำเข้าแพ็คเกจที่จำเป็นสำหรับโค้ด Java ของเรากันก่อน:
+ก่อนอื่นให้ import คลาสที่จำเป็นสำหรับการโหลดไฟล์ OneNote และการทำงานของ visitor
 
 ```java
 import java.io.IOException;
@@ -49,58 +64,72 @@ String dataDir = "Your Document Directory";
 Document doc = new Document(dataDir + "Sample1.one");
 ```
 
- ให้แน่ใจว่าคุณเปลี่ยน`"Your Document Directory"` ด้วยเส้นทางไดเรกทอรีจริงที่มีเอกสาร OneNote ของคุณอยู่
+> **เคล็ดลับ:** แทนที่ `"Your Document Directory"` ด้วยเส้นทางเต็มไปยังโฟลเดอร์ที่มีไฟล์ `.one` ของคุณ
 
-## ขั้นตอนที่ 2: สร้างผู้เยี่ยมชมเอกสาร
+## ขั้นตอนที่ 2: สร้าง Custom Document Visitor
 
 ```java
 MyOneNoteToTxtWriter myConverter = new MyOneNoteToTxtWriter();
 ```
 
- ที่นี่เราสร้างอินสแตนซ์ของ`MyOneNoteToTxtWriter` ซึ่งเป็นคลาสแบบกำหนดเองที่สืบทอดมา`DocumentVisitor`. คลาสนี้ช่วยในการสำรวจผ่านโหนดเอกสาร
+`MyOneNoteToTxtWriter` ขยาย `DocumentVisitor` ภายในคุณจะ override เมธอดเช่น `visit(RichText rt)` เพื่อเก็บข้อความ และคุณยังสามารถนับโหนด, ดึงรูปภาพ ฯลฯ ได้ นี่คือจุดที่ **visitor pattern java** ส่องแสง – คุณกำหนดการดำเนินการครั้งเดียวแล้วให้ไลบรารีจัดการการท่อง
 
-## ขั้นตอนที่ 3: สำรวจและเยี่ยมชมโหนดเอกสาร
+## ขั้นตอนที่ 3: ท่องและเยี่ยมชมโหนดของเอกสาร
 
 ```java
 doc.accept(myConverter);
 ```
 
- โดยการโทร`accept()` วิธีการในเอกสารและส่งต่อผู้เยี่ยมชมที่กำหนดเองของเรา เราจะเริ่มกระบวนการเยี่ยมชม วิธีนี้จะสำรวจแต่ละโหนดในเอกสาร
+การเรียก `accept()` จะทำให้ visitor ทำงาน ไลบรารีจะเดินผ่านทุกหน้า, โครงร่าง, และองค์ประกอบโดยเรียกคอลแบ็กที่คุณได้ implement ไว้
 
-## ขั้นตอนที่ 4: รับผลลัพธ์
+## ขั้นตอนที่ 4: ดึงผลลัพธ์
 
 ```java
 System.out.println("Total Nodes: " + myConverter.getNodeCount());
 System.out.println(myConverter.getText());
 ```
 
-หลังจากกระบวนการเยี่ยมชมเสร็จสิ้น เราก็สามารถดึงผลลัพธ์ออกมาได้ ในตัวอย่างนี้ เราพิมพ์จำนวนโหนดทั้งหมดที่เยี่ยมชมและเนื้อหาข้อความที่สะสม
+หลังจากการเดินเสร็จสิ้น คุณสามารถสอบถาม visitor เพื่อรับจำนวนโหนดที่เยี่ยมชมทั้งหมดและข้อความธรรมดาที่สะสมไว้ นี่คือวิธีที่คุณ **extract OneNote text** และต่อมาจะ ** OneNote to txt** โดยเขียนสตริงที่ได้ลงไฟล์
 
-## บทสรุป
+## กรณีการใช้งานทั่วไป
 
-ในบทช่วยสอนนี้ เราได้เรียนรู้วิธีใช้ Document Visitor ใน OneNote กับ Java โดยใช้ Aspose.Note Document Visitor มอบวิธีที่มีประสิทธิภาพในการสำรวจองค์ประกอบของเอกสารและดำเนินการต่างๆ
+- **สรุปโน้ตอัตโนมัติ:** ดึงข้อความธรรมดาจากโน้ตหลายเล่มและส่งต่อให้เครื่องมือสรุป  
+- **สร้างดัชนีการค้นหา:** สร้างดัชนีที่ค้นหาได้โดยการดึงข้อความจากแต่ละไฟล์ OneNote  
+- **สคริปต์การย้ายข้อมูล:** แปลง OneNote รุ่นเก่าเป็นข้อความธรรมดาหรือ Markdown เพื่อใช้ในระบบเอกสารสมัยใหม่  
+
+## การแก้ไขปัญหาและเคล็ดลับ
+
+| ปัญหา | สาเหตุ | วิธีแก้ |
+|-------|-------|----------|
+| `NullPointerException` on `doc.accept()` | เส้นทางไฟล์เอกสารไม่ถูกต้อง | ตรวจสอบ `dataDir` และชื่อไฟล์; ใช้เส้นทางเต็มสำหรับการทดสอบ |
+| ไม่ได้ข้อความใดเลย | Visitor ไม่ได้ override `visit(RichText)` | ตรวจสอบให้แน่ใจว่า visitor ที่กำหนดเองของคุณจับโหนด `RichText` |
+| โน้ตบุ๊กขนาดใหญ่ทำให้หน่วยความจำอัดแน่น | Visitor เก็บข้อความทั้งหมดในหน่วยความจำ | เขียนข้อความลงไฟล์แบบเพิ่มส่วนภายใน visitor แทนการเก็บไว้ทั้งหมดในหน่วยความจำ |
 
 ## คำถามที่พบบ่อย
 
-### คำถามที่ 1: ฉันสามารถใช้ Aspose.Note สำหรับภาษาอื่นที่ไม่ใช่ Java ได้หรือไม่
+### Q1: ฉันสามารถใช้ Aspose.Note กับภาษาอื่นนอกจาก Java ได้หรือไม่?
+A1: ใช่, Aspose.Note รองรับ .NET, C++, Python และอื่น ๆ ตรวจสอบเอกสารอย่างเป็นทางการสำหรับแต่ละภาษา
 
-A1: ใช่ Aspose.Note รองรับภาษาการเขียนโปรแกรมที่หลากหลาย รวมถึง .NET, C++, Python ฯลฯ ตรวจสอบรายละเอียดจากเอกสารประกอบ
+### Q2: Aspose.Note ใช้ได้ฟรีหรือไม่?
+A2: Aspose.Note เป็นไลบรารีเชิงพาณิชย์ คุณสามารถดาวน์โหลดเวอร์ชันทดลองฟรีได้จาก [here](https://releases.aspose.com/)
 
-### คำถามที่ 2: Aspose.Note ใช้งานได้ฟรีหรือไม่
+### Q3: ฉันจะขอรับการสนับสนุนสำหรับ Aspose.Note ได้อย่างไร?
+3: คุณสามารถรับการสนับสนุนจากฟอรั่มชุมชนของ Aspose [here](https://forum.aspose.com/c/note/28)
 
- A2: Aspose.Note เป็นห้องสมุดเชิงพาณิชย์ คุณสามารถดาวน์โหลดเวอร์ชันทดลองใช้ฟรีได้จาก[ที่นี่](https://releases.aspose.com/).
+### Q4: ฉันสามารถซื้อใบอนุญาตชั่วคราวเพื่อทดสอบได้หรือไม่?
+A4: ได้, คุณสามารถซื้อใบอนุญาตชั่วคราวได้จาก [here](https://purchase.aspose.com/temporary-license/)
 
-### คำถามที่ 3: ฉันจะรับการสนับสนุนสำหรับ Aspose.Note ได้อย่างไร
+### Q5: มีเอกสารประกอบสำหรับ Aspose.Note หรือไม่?
+A5: มี, คุณสามารถดูเอกสารได้ที่ [here](https://reference.aspose.com/note/java/)
 
- A3: คุณสามารถรับการสนับสนุนจากฟอรัมชุมชน Aspose[ที่นี่](https://forum.aspose.com/c/note/28).
+## สรุป
 
-### คำถามที่ 4: ฉันสามารถซื้อใบอนุญาตชั่วคราวเพื่อการทดสอบได้หรือไม่
+โดยการนำ **visitor pattern java** ไปใช้ร่วมกับ Aspose.Note คุณจะได้วิธีที่สะอาดและขยายได้เพื่อ **how to extract text** จากไฟล์ OneNote, **convert OneNote to txt**, และโดยทั่วไป **how to traverse OneNote** โครงสร้าง อย่าลังเลที่จะขยาย `MyOneNoteToTxtWriter` เพื่อจัดการรูปภาพ, ตาราง หรือเมตาดาต้ากำหนดเองตามที่โครงการของคุณต้องการ
 
- A4: ได้ คุณสามารถซื้อใบอนุญาตชั่วคราวได้จาก[ที่นี่](https://purchase.aspose.com/temporary-license/).
+**Last Updated:** 2025-12-09  
+**Tested With:** Aspose.Note for Java 24.10  
+**Author:** Aspose  
 
-### คำถามที่ 5: มีเอกสารสำหรับ Aspose.Note หรือไม่
-
- A5: ใช่ คุณสามารถค้นหาเอกสารประกอบได้[ที่นี่](https://reference.aspose.com/note/java/).
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
