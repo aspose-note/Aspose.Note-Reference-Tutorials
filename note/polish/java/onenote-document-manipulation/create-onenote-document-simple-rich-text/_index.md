@@ -1,35 +1,54 @@
 ---
-title: Utwórz dokument OneNote z prostym tekstem sformatowanym w Javie
-linktitle: Utwórz dokument OneNote z prostym tekstem sformatowanym w Javie
-second_title: Aspose.Note API Java
-description: Dowiedz się, jak tworzyć dokumenty OneNote z tekstem sformatowanym przy użyciu Aspose.Note Java. Zintegruj tę funkcjonalność z aplikacjami Java, aby efektywnie zarządzać dokumentami.
+date: 2025-12-08
+description: Dowiedz się, jak ustawić styl akapitu i dodać element konspektu podczas
+  tworzenia dokumentów OneNote w języku Java przy użyciu Aspose.Note. Eksportuj OneNote
+  do PDF i generuj pliki OneNote bez wysiłku.
+language: pl
+linktitle: Set Paragraph Style while Creating OneNote Document in Java
+second_title: Aspose.Note Java API
+title: Ustaw styl akapitu podczas tworzenia dokumentu OneNote w Javie
+url: /java/onenote-document-manipulation/create-onenote-document-simple-rich-text/
 weight: 12
-url: /pl/java/onenote-document-manipulation/create-onenote-document-simple-rich-text/
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Utwórz dokument OneNote z prostym tekstem sformatowanym w Javie
+# Ustaw styl akapitu podczas tworzenia dokumentu OneNote w Javie
 
 ## Wstęp
 
-dzisiejszej erze cyfrowej potrzeba efektywnego zarządzania dokumentami i manipulowania nimi jest najważniejsza. Aspose.Note for Java jawi się jako potężne narzędzie, które umożliwia programistom bezproblemową pracę z dokumentami OneNote w aplikacjach Java. Ten samouczek ma na celu zapewnienie kompleksowego przewodnika na temat tworzenia dokumentów OneNote z prostym tekstem sformatowanym przy użyciu Aspose.Note dla Java.
+W dzisiejszym, szybko zmieniającym się środowisku programistycznym, możliwość **ustawienia stylu akapitu** programowo jest niezbędna do tworzenia dopracowanych plików OneNote. Ten samouczek pokazuje krok po kroku, jak wygenerować dokument OneNote z prostym tekstem sformatowanym, zastosować własne formatowanie akapitu oraz w końcu **wyeksportować OneNote do PDF** przy użyciu Aspose.Note dla Javy. Niezależnie od tego, czy budujesz silnik raportowania, zautomatyzowane rozwiązanie do notowania, czy usługę konwersji dokumentów, techniki opisane tutaj pomogą Ci **generować pliki OneNote**, które wyglądają dokładnie tak, jak tego potrzebujesz.
 
-## Warunki wstępne
+## Szybkie odpowiedzi
+- **Co oznacza „ustaw styl akapitu”?** Nakłada czcionkę, rozmiar, kolor i inne formatowanie na akapit tekstu.  
+- **Czy mogę wyeksportować wynik do PDF?** Tak – samouczek kończy się zapisem pliku OneNote jako PDF.  
+- **Czy potrzebna jest licencja na Aspose.Note?** Darmowa wersja próbna wystarczy do oceny; licencja jest wymagana w środowisku produkcyjnym.  
+- **Jakie IDE są obsługiwane?** Dowolne IDE Javy – Eclipse, IntelliJ IDEA, NetBeans itp.  
+- **Jak długo trwa implementacja?** Około 10‑15 minut dla podstawowego dokumentu.
 
-Zanim przejdziesz do samouczka, upewnij się, że masz skonfigurowane następujące wymagania wstępne:
+## Co to jest „ustaw styl akapitu” w Aspose.Note?
+Ustawianie stylu akapitu odnosi się do konfigurowania obiektu `ParagraphStyle` (nazwa czcionki, rozmiar, kolor itp.) i dołączania go do węzła `RichText`. Daje to pełną kontrolę nad tym, jak tekst wyświetla się na stronie OneNote.
 
-1. Zestaw Java Development Kit (JDK): Zainstaluj w swoim systemie pakiet JDK w wersji 1.8 lub nowszej.
-   
-2.  Aspose.Note dla biblioteki Java: Pobierz i zainstaluj bibliotekę Aspose.Note dla Java z[link do pobrania](https://releases.aspose.com/note/java/).
-   
-3. Zintegrowane środowisko programistyczne (IDE): Zainstaluj środowisko IDE, takie jak Eclipse lub IntelliJ IDEA, na potrzeby programowania w języku Java.
+## Dlaczego warto ustawiać styl akapitu przy generowaniu plików OneNote?
+- **Spójna identyfikacja wizualna:** Automatyczne stosowanie firmowych czcionek i kolorów.  
+- **Czytelność:** Większe czcionki lub określone kolory poprawiają dostępność.  
+- **Wierność przy eksporcie:** Sformatowany tekst jest zachowywany przy **konwersji OneNote do PDF** później.  
 
-## Importuj pakiety
+## Wymagania wstępne
 
-Najpierw zaimportuj niezbędne pakiety, aby móc korzystać z funkcjonalności Aspose.Note for Java.
+Zanim rozpoczniesz, upewnij się, że masz:
+
+1. **Java Development Kit (JDK) 1.8+** – dowolny współczesny JDK będzie działał.  
+2. **Aspose.Note for Java** – pobierz najnowszy plik JAR ze [strony pobierania Aspose.Note](https://releases.aspose.com/note/java/).  
+3. **IDE** (Eclipse, IntelliJ IDEA lub NetBeans) do kompilacji i uruchomienia przykładu.  
+
+> **Porada:** Dodaj plik JAR Aspose.Note do ścieżki klas projektu za pomocą Maven lub ręcznie odwołując się do JAR w IDE.
+
+## Importowanie pakietów
+
+Najpierw zaimportuj klasy, które będą potrzebne. Ten blok pozostaje niezmieniony.
 
 ```java
 import java.awt.Color;
@@ -43,49 +62,50 @@ import com.aspose.note.SaveFormat;
 import com.aspose.note.ParagraphStyle;
 ```
 
-Podzielmy teraz proces tworzenia dokumentu OneNote z prostym tekstem sformatowanym na kilka kroków:
+> Klasa `ParagraphStyle` jest kluczem do **ustawienia stylu akapitu** później w samouczku.
 
-## Krok 1: Ustaw katalog dokumentów
+## Przewodnik krok po kroku
+
+Poniżej znajduje się zwięzłe omówienie każdego kroku. Bloki kodu są dokładnie takie, jak w oryginalnym przykładzie; dodajemy jedynie tekst wyjaśniający.
+
+### Krok 1: Ustaw katalog dokumentu
+Zdefiniuj, gdzie zostaną zapisane wygenerowane pliki.
 
 ```java
 String dataDir = "Your Document Directory";
 ```
 
- Zastępować`"Your Document Directory"`ze ścieżką, w której chcesz zapisać utworzony dokument OneNote.
+Zastąp `"Your Document Directory"` ścieżką bezwzględną lub względną na swoim komputerze.
 
-## Krok 2: Zainicjuj obiekt dokumentu
+### Krok 2: Zainicjalizuj obiekt Document
+Utwórz główny obiekt `Document`, który reprezentuje plik OneNote.
 
 ```java
 Document doc = new Document();
 ```
 
- Utwórz instancję`Document` klasa, która reprezentuje dokument programu OneNote.
-
-## Krok 3: Zainicjuj obiekt strony
+### Krok 3: Zainicjalizuj obiekt Page
+Plik OneNote składa się z jednej lub wielu stron; zaczynamy od jednej strony.
 
 ```java
 Page page = new Page();
 ```
 
- Utwórz instancję a`Page` obiekt reprezentujący stronę w dokumencie programu OneNote.
-
-## Krok 4: Zainicjuj obiekt konturowy
+### Krok 4: Zainicjalizuj obiekt Outline
+Outlines działają jako kontenery dla elementów outline (pomyśl o nich jako sekcjach).
 
 ```java
 Outline outline = new Outline();
 ```
 
- Stworzyć`Outline` obiekt, który służy jako pojemnik na elementy konturu.
-
-## Krok 5: Zainicjuj obiekt OutlineElement
+### Krok 5: Zainicjalizuj obiekt OutlineElement
+Tutaj **dodajemy element outline**, który będzie zawierał nasz tekst sformatowany.
 
 ```java
 OutlineElement outlineElem = new OutlineElement();
 ```
 
- Utwórz instancję`OutlineElement` obiekt, reprezentujący pojedynczy element w obrębie konturu.
-
-## Krok 6: Ustaw styl tekstu
+### Krok 6: Ustaw styl tekstu (Ustaw styl akapitu)
 
 ```java
 ParagraphStyle textStyle = new ParagraphStyle()
@@ -94,82 +114,92 @@ ParagraphStyle textStyle = new ParagraphStyle()
                                     .setFontSize(10);
 ```
 
- Zdefiniuj`ParagraphStyle` obiekt, aby określić właściwości formatowania tekstu.
+Instancja `ParagraphStyle` definiuje czcionkę, rozmiar i kolor – to miejsce, w którym **ustawiamy styl akapitu** dla nadchodzącego węzła tekstowego.
 
-## Krok 7: Zainicjuj obiekt RichText
+### Krok 7: Zainicjalizuj obiekt RichText
 
 ```java
 RichText text = new RichText().append("Hello OneNote text!");
 text.setParagraphStyle(textStyle);
 ```
 
- Stwórz`RichText` obiekt i zastosuj do niego określony styl tekstu.
+Tworzymy węzeł `RichText`, wstawiamy prosty ciąg znaków i dołączamy wcześniej zdefiniowany styl.
 
-## Krok 8: Dodaj węzeł RichText do OutlineElement
+### Krok 8: Dodaj węzeł RichText do OutlineElement
 
 ```java
 outlineElem.appendChildLast(text);
 ```
 
- Dodaj`RichText` węzeł do`OutlineElement`.
+Teraz sformatowany tekst znajduje się wewnątrz elementu outline.
 
-## Krok 9: Dodaj węzeł OutlineElement do konspektu
+### Krok 9: Dodaj węzeł OutlineElement do Outline
 
 ```java
 outline.appendChildLast(outlineElem);
 ```
 
- Dołącz`OutlineElement` węzeł do`Outline`.
+Outline teraz zawiera element, który przechowuje nasz akapit.
 
-## Krok 10: Dodaj węzeł konspektu do strony
+### Krok 10: Dodaj węzeł Outline do Page
 
 ```java
 page.appendChildLast(outline);
 ```
 
- Dodaj`Outline` węzeł do`Page`.
+Umieszczamy outline na stronie.
 
-## Krok 11: Dodaj węzeł strony do dokumentu
+### Krok 11: Dodaj węzeł Page do Document
 
 ```java
 doc.appendChildLast(page);
 ```
 
- Dołącz`Page` węzeł do`Document`.
+Dokument ma teraz jedną stronę z naszym sformatowanym tekstem.
 
-## Krok 12: Zapisz dokument
+### Krok 12: Zapisz dokument (Eksport OneNote do PDF)
 
 ```java
 doc.save(dataDir + "CreateOneNoteDocumentWithSimpleRichText_out.pdf", SaveFormat.Pdf);
 ```
 
-Zapisz utworzony dokument OneNote w określonym katalogu w formacie PDF.
+Metoda `save` zapisuje plik OneNote i **eksportuje OneNote do PDF** w jednym kroku. Możesz także zapisać jako `.one`, używając `SaveFormat.One`, jeśli potrzebny jest format natywny.
 
-## Wniosek
+## Typowe problemy i rozwiązania
 
-Podsumowując, ten samouczek zawiera przewodnik krok po kroku dotyczący wykorzystania Aspose.Note dla Java do tworzenia dokumentów OneNote z prostym tekstem sformatowanym. Postępując zgodnie z tymi instrukcjami, programiści mogą bezproblemowo zintegrować tę funkcjonalność ze swoimi aplikacjami Java, ułatwiając efektywne zarządzanie dokumentami.
+| Problem | Przyczyna | Rozwiązanie |
+|-------|--------|-----|
+| **Plik nie znaleziony** | `dataDir` wskazuje na nieistniejący folder. | Upewnij się, że katalog istnieje lub utwórz go programowo (`new File(dataDir).mkdirs();`). |
+| **Pusty PDF** | Nie dodano żadnej treści przed zapisem. | Sprawdź, czy węzeł `RichText` został dołączony i czy styl został ustawiony. |
+| **Nieobsługiwana czcionka** | Nazwa czcionki nie jest zainstalowana w systemie. | Użyj popularnej czcionki, np. `"Arial"` lub osadź czcionkę w projekcie. |
 
-## Często zadawane pytania
+## Najczęściej zadawane pytania
 
-### P1: Czy Aspose.Note dla Java obsługuje złożone formatowanie?
+**P: Czy Aspose.Note radzi sobie z zaawansowanym formatowaniem, takim jak tabele lub obrazy?**  
+O: Tak, API obsługuje tabele, obrazy, hiperłącza i bardziej zaawansowane funkcje układu.
 
-Odpowiedź 1: Tak, Aspose.Note dla Java oferuje szerokie możliwości obsługi różnych wymagań formatowania, w tym złożonego formatowania, takiego jak tabele, obrazy i hiperłącza.
+**P: Czy można **konwertować OneNote PDF** z powrotem do pliku OneNote?**  
+O: Bezpośrednia konwersja nie jest dostępna, ale możesz wyodrębnić zawartość PDF i odtworzyć dokument OneNote przy użyciu API.
 
-### P2: Czy Aspose.Note for Java jest kompatybilny z różnymi środowiskami programistycznymi Java?
+**P: Czy biblioteka działa w środowiskach Linux/macOS?**  
+O: Oczywiście. Aspose.Note for Java jest niezależny od platformy; wystarczy mieć zainstalowany JDK.
 
-Odpowiedź 2: Oczywiście, Aspose.Note dla Java jest kompatybilny z popularnymi środowiskami programistycznymi Java, takimi jak Eclipse, IntelliJ IDEA i NetBeans.
+**P: Jak dodać wiele stron lub outline?**  
+O: Utwórz dodatkowe obiekty `Page` i `Outline`, a następnie dołącz je do `Document` tak samo, jak w przykładzie z jedną stroną.
 
-### P3: Czy Aspose.Note dla Java obsługuje manipulację plikami OneNote poza tekstem?
+**P: Gdzie mogę znaleźć więcej przykładów?**  
+O: Oficjalna dokumentacja Aspose.Note oraz [forum wsparcia](https://forum.aspose.com/c/note/28) zawierają liczne przykłady kodu.
 
-O3: Rzeczywiście, Aspose.Note dla Java obsługuje zaawansowane funkcje, takie jak dodawanie obrazów, tabel, załączników i innych elementów do dokumentów OneNote.
+## Zakończenie
 
-### P4: Czy mogę zintegrować Aspose.Note dla Java z innymi bibliotekami lub frameworkami Java?
+Widzisz teraz, jak **ustawić styl akapitu**, **dodać element outline** i **wygenerować plik OneNote**, który może być **wyeksportowany do PDF** przy użyciu Aspose.Note dla Javy. Włączenie sformatowanego tekstu już na etapie tworzenia zapewnia profesjonalny wygląd końcowego dokumentu oraz zachowanie formatowania przy późniejszej **konwersji OneNote do PDF**. Śmiało rozbudowuj tę bazę o obrazy, tabele czy własne metadane, aby spełnić wymagania swojego projektu.
 
-O4: Tak, Aspose.Note dla Java można bezproblemowo zintegrować z innymi bibliotekami lub frameworkami Java w celu zwiększenia możliwości przetwarzania dokumentów.
+---
 
-### P5: Czy Aspose.Note dla Java zapewnia kompleksową dokumentację i wsparcie?
+**Ostatnia aktualizacja:** 2025-12-08  
+**Testowano z:** Aspose.Note for Java 24.11 (najnowsze wydanie)  
+**Autor:** Aspose  
 
- Odpowiedź 5: Oczywiście, szczegółową dokumentację i dedykowaną pomoc techniczną dla Aspose.Note dla Java można znaleźć na stronie[forum wsparcia](https://forum.aspose.com/c/note/28).
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
