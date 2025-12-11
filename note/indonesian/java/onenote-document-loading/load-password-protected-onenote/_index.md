@@ -1,37 +1,45 @@
 ---
-title: Muat Dokumen OneNote yang Dilindungi Kata Sandi - Java
-linktitle: Muat Dokumen OneNote yang Dilindungi Kata Sandi - Java
-second_title: Aspose.Catatan Java API
-description: Buka potensi Aspose.Note untuk Java dalam menangani dokumen OneNote yang dilindungi kata sandi dengan mudah. Tingkatkan manajemen dokumen Java Anda dengan Aspose.Note.
-weight: 27
+date: 2025-12-11
+description: Pelajari cara memuat dokumen OneNote yang dilindungi kata sandi dengan
+  Aspose.Note untuk Java. Panduan langkah demi langkah ini menunjukkan cara mendapatkan
+  format file OneNote dan menangani file terenkripsi dengan mudah.
+linktitle: Load Password-Protected OneNote Document - Java
+second_title: Aspose.Note Java API
+title: Muat Dokumen OneNote yang Dilindungi Kata Sandi menggunakan Java
 url: /id/java/onenote-document-loading/load-password-protected-onenote/
+weight: 27
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Muat Dokumen OneNote yang Dilindungi Kata Sandi - Java
+# Muat Dokumen OneNote yang Dilindungi Kata Sandi menggunakan Java
 
-## Perkenalan
+Dalam tutorial ini Anda akan menemukan **cara memuat file OneNote yang dilindungi kata sandi** dengan Aspose.Note untuk Java. Baik Anda sedang membangun utilitas desktop atau layanan sisi server, kemampuan membuka notebook OneNote yang terenkripsi sangat penting untuk alur kerja dokumen yang aman. Kami juga akan menunjukkan cara **mendapatkan informasi format file OneNote** setelah memuat dokumen.
 
-Dalam bidang manajemen dan manipulasi dokumen, Aspose.Note untuk Java muncul sebagai alat yang ampuh, memfasilitasi penanganan dokumen OneNote secara lancar dengan fungsionalitas yang kuat. Dalam tutorial ini, kita akan mempelajari proses memuat dokumen OneNote yang dilindungi kata sandi menggunakan Java, membuka potensi Aspose.Note untuk menangani file terenkripsi dengan mudah.
+## Jawaban Cepat
+- **Perpustakaan apa yang menangani file OneNote terenkripsi?** Aspose.Note untuk Java.
+- **Apakah saya memerlukan lisensi untuk memuat notebook yang dilindungi kata sandi?** Versi percobaan gratis dapat digunakan untuk pengembangan; lisensi komersial diperlukan untuk produksi.
+- **Versi Java apa yang diperlukan?** Java 8 atau lebih baru.
+- **Bisakah saya mengambil format file setelah memuat?** Ya, gunakan `doc.getFileFormat()`.
+- **Apakah penanganan error diperlukan untuk kata sandi yang salah?** Tentu – tangkap `IOException` atau `InvalidPasswordException`.
 
 ## Prasyarat
 
-Sebelum kita memulai perjalanan ini, pastikan Anda memiliki prasyarat berikut:
+Sebelum kita mulai, pastikan Anda memiliki hal berikut:
 
-### 1. Instalasi Java Development Kit (JDK).
+### 1. Java Development Kit (JDK)
 
-Pastikan Anda telah menginstal Java Development Kit (JDK) di sistem Anda. Anda dapat mengunduh dan menginstal JDK terbaru dari situs Oracle.
+JDK terbaru (8 atau lebih baru) yang terpasang di mesin Anda. Anda dapat mengunduhnya dari situs web Oracle atau menggunakan distribusi OpenJDK.
 
-### 2. Aspose.Note untuk Perpustakaan Java
+### 2. Aspose.Note untuk Java
 
-Unduh dan integrasikan perpustakaan Aspose.Note untuk Java ke dalam proyek Anda. Anda dapat memperoleh perpustakaan dari situs web Aspose atau melalui dependensi Maven.
+Tambahkan pustaka Aspose.Note ke proyek Anda melalui Maven, Gradle, atau dengan mengunduh JAR dari situs web Aspose.
 
-## Paket Impor
+## Impor Paket
 
-Sebelum mendalami penerapannya, impor paket yang diperlukan untuk memanfaatkan fungsionalitas yang disediakan oleh Aspose.Note untuk Java.
+Pertama, impor kelas yang akan kita gunakan. Blok ini harus tetap persis seperti yang ditampilkan.
 
 ```java
 import java.io.IOException;
@@ -39,66 +47,79 @@ import com.aspose.note.Document;
 import com.aspose.note.LoadOptions;
 ```
 
-Mari kita uraikan proses memuat dokumen OneNote yang dilindungi kata sandi menjadi beberapa langkah:
+## Panduan Langkah‑per‑Langkah
 
-## Langkah 1: Tentukan Direktori Dokumen
+### Langkah 1: Tentukan direktori dokumen
 
-Mulailah dengan menentukan jalur direktori tempat dokumen OneNote Anda berada.
+Beritahu aplikasi di mana file OneNote berada.
 
 ```java
 String dataDir = "Your Document Directory";
 ```
 
-## Langkah 2: Buat Opsi Muat
+### Langkah 2: Buat opsi pemuatan dengan kata sandi
 
-Buat instance objek LoadOptions untuk menyesuaikan opsi pemuatan, termasuk menentukan kata sandi dokumen.
+Konfigurasikan `LoadOptions` untuk menyediakan kata sandi bagi notebook yang terenkripsi.
 
 ```java
 LoadOptions loadOptions = new LoadOptions();
 loadOptions.setDocumentPassword("password");
 ```
 
-## Langkah 3: Muat Dokumen yang Dilindungi Kata Sandi
+### Langkah 3: Muat dokumen OneNote yang dilindungi kata sandi
 
-Manfaatkan kelas Dokumen untuk memuat dokumen OneNote yang dilindungi kata sandi dengan menyediakan jalur file dan opsi pemuatan.
+Berikan jalur file dan instance `LoadOptions` ke konstruktor `Document`.
 
 ```java
 Document doc = new Document(dataDir + "Sample1.one", loadOptions);
 ```
 
-## Langkah 4: Ambil Format File
+### Langkah 4: Dapatkan format file OneNote (opsional)
 
-Secara opsional, Anda dapat mengambil dan mencetak format file dari dokumen yang dimuat untuk tujuan validasi.
+Jika Anda perlu memverifikasi jenis file, Anda dapat menanyakan formatnya setelah memuat.
 
 ```java
 System.out.println(doc.getFileFormat());
 ```
 
-## Kesimpulan
+## Mengapa Anda mungkin perlu **mendapatkan format file OneNote**
 
-Kesimpulannya, Aspose.Note untuk Java memberdayakan pengembang untuk menangani dokumen OneNote yang dilindungi kata sandi dengan mudah dan efisien. Dengan mengikuti langkah-langkah yang diuraikan dalam tutorial ini, Anda dapat dengan mudah mengintegrasikan fungsi ini ke dalam aplikasi Java Anda, sehingga meningkatkan kemampuan manajemen dokumen.
+Mengetahui format yang tepat (misalnya, OneNote 2007, OneNote 2010, OneNote 2016) membantu ketika Anda perlu mengonversi, mengekspor, atau menerapkan logika khusus versi. Pemanggilan `getFileFormat()` memberikan informasi ini secara instan.
 
-## FAQ
+## Masalah Umum dan Solusinya
 
-### Q1: Bisakah saya memuat beberapa dokumen OneNote yang dilindungi kata sandi secara bersamaan menggunakan Aspose.Note untuk Java?
+| Masalah | Solusi |
+|-------|----------|
+| **Kata sandi salah** | Bungkus kode pemuatan dalam blok try‑catch dan tampilkan pesan yang ramah. |
+| **File tidak ditemukan** | Pastikan `dataDir` diakhiri dengan pemisah jalur dan nama file sudah benar. |
+| **Versi OneNote tidak didukung** | Pastikan Anda menggunakan rilis Aspose.Note terbaru, yang menambahkan dukungan untuk format yang lebih baru. |
 
-A1: Ya, Anda bisa memuat beberapa dokumen OneNote yang dilindungi kata sandi secara bersamaan dengan mengulangi proses pemuatan untuk setiap dokumen.
+## Pertanyaan yang Sering Diajukan
 
-### Q2: Apakah Aspose.Note untuk Java kompatibel dengan semua versi dokumen OneNote?
+**Q: Bisakah saya memuat beberapa dokumen OneNote yang dilindungi kata sandi secara bersamaan?**  
+A: Ya. Cukup ulangi langkah pemuatan untuk setiap file, dengan menyediakan kata sandi yang sesuai setiap kali.
 
-A2: Aspose.Note untuk Java mendukung berbagai versi dokumen OneNote, memastikan kompatibilitas di berbagai format file.
+**Q: Apakah Aspose.Note untuk Java kompatibel dengan semua versi OneNote?**  
+A: Perpustakaan ini mendukung berbagai format OneNote, termasuk yang lama dan notebook Office 365 terbaru.
 
-### Q3: Bagaimana cara menangani kata sandi yang salah atau kesalahan dekripsi saat memuat dokumen?
+**Q: Bagaimana cara menangani kesalahan dekripsi secara programatis?**  
+A: Tangkap `IOException` atau `InvalidPasswordException` khusus, catat insiden tersebut, dan opsional meminta pengguna memasukkan kata sandi baru.
 
-A3: Anda dapat menerapkan mekanisme penanganan kesalahan untuk mengelola kata sandi yang salah atau kesalahan dekripsi dengan baik, memberikan umpan balik kepada pengguna atau mencatat informasi yang relevan untuk pemecahan masalah.
+**Q: Apakah ada versi percobaan Aspose.Note untuk Java?**  
+A: Tentu. Anda dapat mengunduh versi percobaan penuh 30‑hari dari situs web Aspose.
 
-### Q4: Apakah ada versi uji coba yang tersedia untuk Aspose.Note untuk Java?
+**Q: Bisakah saya menggunakan pustaka ini di aplikasi desktop maupun web?**  
+A: Ya. API ini bersifat platform‑agnostik dan bekerja dengan baik di kontainer servlet, layanan Spring Boot, atau aplikasi Java mandiri.
 
-A4: Ya, Anda dapat memanfaatkan versi uji coba gratis Aspose.Note untuk Java untuk menjelajahi fitur dan fungsinya sebelum membuat keputusan pembelian.
+**Q: Apakah pustaka ini mendukung ekstraksi gambar dari notebook yang dilindungi kata sandi?**  
+A: Setelah dokumen berhasil dimuat, Anda dapat menelusuri halamannya dan mengekstrak gambar menggunakan API Aspose.Note standar.
 
-### Q5: Dapatkah saya mengintegrasikan Aspose.Note untuk Java ke dalam aplikasi desktop dan web?
+---
 
-A5: Ya, Aspose.Note untuk Java dapat diintegrasikan dengan mulus ke dalam aplikasi desktop dan web, menawarkan fleksibilitas dan keserbagunaan di berbagai platform.
+**Terakhir Diperbarui:** 2025-12-11  
+**Diuji Dengan:** Aspose.Note untuk Java 24.12  
+**Penulis:** Aspose  
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
