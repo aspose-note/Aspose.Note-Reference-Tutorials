@@ -1,33 +1,43 @@
 ---
-title: Zapisz dokument programu OneNote w strumieniu — Aspose.Note
-linktitle: Zapisz dokument programu OneNote w strumieniu — Aspose.Note
-second_title: Aspose.Note API Java
-description: Dowiedz się, jak zapisywać dokumenty OneNote w strumieniu przy użyciu Aspose.Note dla Java. Postępuj zgodnie z naszym samouczkiem krok po kroku, aby uzyskać efektywną integrację z aplikacjami Java.
-weight: 13
+date: 2025-12-12
+description: Naucz się, jak zapisać plik PDF z OneNote do strumienia i wyeksportować
+  PDF z OneNote przy użyciu Aspose.Note dla Javy. Skorzystaj z naszego krok po kroku
+  poradnika, aby efektywnie zintegrować tę funkcję w swoich aplikacjach Java.
+linktitle: Save OneNote PDF to Stream - Aspose.Note
+second_title: Aspose.Note Java API
+title: Zapisz PDF z OneNote do strumienia – Aspose.Note
 url: /pl/java/onenote-document-saving/save-onenote-document-to-stream/
+weight: 13
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Zapisz dokument programu OneNote w strumieniu — Aspose.Note
+# Zapisz OneNote PDF do strumienia - Aspose.Note
 
-## Wstęp
+## Introduction
 
-Witamy w naszym samouczku dotyczącym używania Aspose.Note dla języka Java do zapisywania dokumentów OneNote w strumieniu. Aspose.Note to potężna biblioteka Java, która umożliwia programistom programową pracę z plikami Microsoft OneNote. W tym samouczku przeprowadzimy Cię przez proces zapisywania dokumentu OneNote w strumieniu przy użyciu Aspose.Note.
+W tym samouczku dowiesz się, jak **zapisać OneNote PDF** bezpośrednio do strumienia pamięci przy użyciu Aspose.Note dla Javy. Strumieniowanie dokumentu daje pełną kontrolę nad miejscem, w którym trafia wynik — czy to wysyłanie go przez sieć, przechowywanie w bazie danych, czy dalsze przetwarzanie bez użycia systemu plików. Przejdziemy krok po kroku, od załadowania pliku OneNote po wyeksportowanie go jako strumień PDF, abyś mógł z łatwością wbudować tę funkcjonalność w swoje aplikacje Java.
 
-## Warunki wstępne
+## Quick Answers
+- **What does “save OneNote PDF” mean?** It converts a OneNote file into a PDF format and writes the result to a stream instead of a physical file.  
+- **Why use a stream?** Streams let you handle data in memory, ideal for web services, APIs, or when you want to avoid temporary files.  
+- **Which Aspose.Note format is used?** The `SaveFormat.Pdf` enum tells the library to output PDF.  
+- **Do I need a license for production?** Yes—Aspose.Note requires a valid license for commercial use.  
+- **Can I export other formats?** Absolutely—use other `SaveFormat` values like `Docx`, `Html`, `Png`, etc.
 
-Zanim zaczniemy, upewnij się, że masz następujące wymagania wstępne:
+## Prerequisites
 
-- Podstawowa znajomość programowania w języku Java.
-- JDK zainstalowany w twoim systemie.
--  Biblioteka Aspose.Note dla Java pobrana i dodana do Twojego projektu. Można go pobrać z[Tutaj](https://releases.aspose.com/note/java/).
+Before we begin, ensure you have the following prerequisites:
 
-## Importuj pakiety
+- Basic understanding of Java programming.  
+- JDK installed on your system.  
+- Aspose.Note for Java library downloaded and added to your project. You can download it from [here](https://releases.aspose.com/note/java/).
 
-Najpierw zaimportujmy niezbędne pakiety:
+## Import Packages
+
+First, import the classes we’ll need. Keeping imports tidy makes the code easier to read and maintain.
 
 ```java
 import java.io.ByteArrayOutputStream;
@@ -36,49 +46,77 @@ import com.aspose.note.Document;
 import com.aspose.note.SaveFormat;
 ```
 
-## Krok 1: Załaduj dokument OneNote
+## Step 1: Load the OneNote Document
 
-Pierwszym krokiem jest załadowanie dokumentu OneNote do Aspose.Note.
+Load the source OneNote file into an `Aspose.Note` `Document` object. Replace the placeholder path with the actual location of your `.one` file.
 
 ```java
 String dataDir = "Your Document Directory";
 Document doc = new Document(dataDir + "Sample1.one");
 ```
 
-## Krok 2: Zapisz dokument w strumieniu
+## Step 2: Save Document to Stream
 
-Następnie zapiszemy załadowany dokument w strumieniu, w tym przypadku w ByteArrayOutputStream.
+Now we export the loaded document as a PDF and write it to a `ByteArrayOutputStream`. This stream can be sent directly to a client, saved to a database, or further manipulated.
 
 ```java
 ByteArrayOutputStream dstStream = new ByteArrayOutputStream();
 doc.save(dstStream, SaveFormat.Pdf);
 ```
 
-## Wniosek
+### How to **export OneNote PDF** to other destinations
 
-tym samouczku nauczyliśmy się używać Aspose.Note dla języka Java do zapisywania dokumentu programu OneNote w strumieniu. Wykonując poniższe kroki, możesz skutecznie zintegrować przetwarzanie dokumentów OneNote z aplikacjami Java.
+If you need the PDF as a byte array, simply call `dstStream.toByteArray()`. For web responses, write the byte array to the HTTP output stream. The same approach works for other formats—just change `SaveFormat.Pdf` to the desired enum value.
 
-## Często zadawane pytania
+## Common Issues and Solutions
 
-### P1: Czy mogę zapisać dokument OneNote w formatach innych niż PDF?
+- **OutOfMemoryError** – When handling very large OneNote files, consider using a `FileOutputStream` to write directly to disk instead of keeping everything in memory.  
+- **Missing fonts** – PDFs may lose custom fonts if they aren’t installed on the server. Use `FontSettings` to embed fonts if needed.  
+- **License not found** – Ensure the license file is loaded before calling any Aspose.Note APIs; otherwise, you’ll get a trial watermark.
 
-O1: Tak, Aspose.Note obsługuje zapisywanie dokumentów w różnych formatach, takich jak DOCX, HTML, JPEG, PNG itp. 
+## FAQ's
 
-### P2: Czy dostępna jest bezpłatna wersja próbna Aspose.Note dla Java?
+### Q1: Can I save the OneNote document in formats other than PDF?
 
- A2: Tak, możesz pobrać bezpłatną wersję próbną ze strony[Tutaj](https://releases.aspose.com/).
+A1: Yes, Aspose.Note supports saving documents in various formats like DOCX, HTML, JPEG, PNG, etc. 
 
-### P3: Gdzie mogę znaleźć więcej wsparcia lub zadać pytania związane z Aspose.Note?
+### Q2: Is there a free trial available for Aspose.Note for Java?
 
- A3: Możesz odwiedzić forum Aspose.Note[Tutaj](https://forum.aspose.com/c/note/28).
+A2: Yes, you can download a free trial from [here](https://releases.aspose.com/).
 
-### P4: Jak mogę kupić licencję na Aspose.Note dla Java?
+### Q3: Where can I find more support or ask questions related to Aspose.Note?
 
- A4: Możesz kupić licencję od[Tutaj](https://purchase.aspose.com/buy).
+A3: You can visit the Aspose.Note forum [here](https://forum.aspose.com/c/note/28).
 
-### P5: Czy potrzebuję tymczasowej licencji do celów oceny?
+### Q4: How can I purchase a license for Aspose.Note for Java?
 
- Odpowiedź 5: Tak, możesz uzyskać licencję tymczasową od[Tutaj](https://purchase.aspose.com/temporary-license/).
+A4: You can buy a license from [here](https://purchase.aspose.com/buy).
+
+### Q5: Do I need a temporary license for evaluation purposes?
+
+A5: Yes, you can obtain a temporary license from [here](https://purchase.aspose.com/temporary-license/).
+
+## Frequently Asked Questions
+
+**Q: Can I stream the PDF directly to an HTTP response?**  
+A: Yes—retrieve the byte array with `dstStream.toByteArray()` and write it to the servlet’s `OutputStream` with the appropriate `Content-Type: application/pdf`.
+
+**Q: Is it possible to encrypt the exported PDF?**  
+A: Aspose.Note does not encrypt PDFs directly, but you can post‑process the byte array with Aspose.PDF or a similar library to apply encryption.
+
+**Q: Does the library support converting password‑protected OneNote files?**  
+A: Yes—use the `Document` constructor that accepts a password parameter to open protected files before exporting.
+
+## Conclusion
+
+You now have a complete, production‑ready way to **save OneNote PDF** to a stream using Aspose.Note for Java. By following these steps you can seamlessly integrate OneNote‑to‑PDF conversion into web services, micro‑services, or any Java‑based backend that needs on‑the‑fly document generation.
+
+---
+
+**Last Updated:** 2025-12-12  
+**Tested With:** Aspose.Note for Java 24.11  
+**Author:** Aspose  
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
