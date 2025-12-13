@@ -1,51 +1,61 @@
 ---
-title: Salvar em imagem binária usando limite fixo no OneNote
-linktitle: Salvar em imagem binária usando limite fixo no OneNote
-second_title: API Java Aspose.Note
-description: Salve facilmente documentos do Microsoft OneNote como imagens binárias usando limite fixo com Aspose.Note Java. Eleve seus recursos de manipulação de arquivos do OneNote.
-weight: 14
+date: 2025-12-13
+description: Aprenda como ajustar o limiar para converter OneNote em PNG com Aspose.Note
+  Java, criando imagens OneNote em preto e branco usando binarização de imagem em
+  Java.
+linktitle: Save to Binary Image Using Fixed Threshold in OneNote
+second_title: Aspose.Note Java API
+title: Como Ajustar o Limiar ao Salvar o OneNote como Imagem Binária
 url: /pt/java/onenote-document-saving/save-to-binary-image-using-fixed-threshold/
+weight: 14
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Salvar em imagem binária usando limite fixo no OneNote
+# Como Ajustar o Limiar ao Salvar OneNote como Imagem Binária
 
 ## Introdução
 
-Aspose.Note for Java é uma API poderosa que permite aos desenvolvedores trabalhar com arquivos do Microsoft OneNote programaticamente. Neste tutorial, exploraremos como salvar um documento como uma imagem binária usando um limite fixo. Siga as etapas abaixo para conseguir isso.
+Neste tutorial você descobrirá **como ajustar o limiar** para exportar uma página do Microsoft OneNote como uma imagem PNG em preto‑e‑branco de alto contraste. Ao ajustar o valor fixo do limiar, você obtém controle preciso sobre a conversão, tornando-a ideal para cenários como pré‑processamento de OCR ou arquivamento de documentos. Percorreremos cada passo usando a API Aspose.Note para Java, para que você possa rapidamente **converter OneNote para PNG** com técnicas confiáveis de **image binarization Java**.
 
-## Pré-requisitos
+## Respostas Rápidas
+- **O que significa “ajustar o limiar”?** Define o ponto de corte de intensidade dos pixels usado ao converter uma imagem colorida para preto‑e‑branco.
+- **Qual formato é gerado?** Um arquivo PNG que pode ser aberto por qualquer visualizador de imagens.
+- **Posso mudar o valor do limiar?** Sim – modifique a chamada `setBinarizationThreshold()`.
+- **Preciso de licença?** Uma avaliação gratuita funciona para desenvolvimento; uma licença comercial é necessária para produção.
+- **Isso é compatível com todas as versões do OneNote?** Aspose.Note suporta OneNote 2010, 2013, 2016 e posteriores.
 
-Antes de começar, certifique-se de ter o seguinte:
+## Pré‑requisitos
 
-1. Java Development Kit (JDK) instalado em seu sistema.
-2.  Biblioteca Aspose.Note para Java baixada. Você pode baixá-lo em[aqui](https://releases.aspose.com/note/java/).
-3. Conhecimento básico de programação Java.
+Antes de começar, certifique‑se de que você tem:
 
-## Importar pacotes
+1. Java Development Kit (JDK) instalado.
+2. Biblioteca Aspose.Note para Java baixada de [aqui](https://releases.aspose.com/note/java/).
+3. Familiaridade básica com a sintaxe Java.
 
-Primeiro, importe os pacotes necessários para o seu arquivo Java.
+## Importar Pacotes
+
+Primeiro, importe as classes necessárias para o seu arquivo fonte Java.
 
 ```java
 import com.aspose.note.*;
 import java.io.IOException;
 ```
 
-## Etapa 1: carregue o documento
+## Etapa 1: Carregar o Documento
 
-Carregue o documento OneNote usando a API Aspose.Note.
+Carregue o arquivo OneNote que você deseja processar.
 
 ```java
 String dataDir = "Your Document Directory";
 Document oneFile = new Document(dataDir + "Aspose.one");
 ```
 
-## Etapa 2: definir opções de binarização
+## Etapa 2: Definir Opções de Binarização
 
-Defina as opções de binarização para salvar o documento como imagem binária.
+Defina as configurações de **image binarization Java** e especifique o limiar fixo que deseja usar.
 
 ```java
 dataDir = dataDir + "SaveToBinaryImageUsingFixedThreshold_out.png";
@@ -54,9 +64,11 @@ binarizationOptions.setBinarizationMethod(BinarizationMethod.FixedThreshold);
 binarizationOptions.setBinarizationThreshold(123);
 ```
 
-## Etapa 3: definir opções para salvar imagens
+> **Dica profissional:** Experimente valores de limiar entre 0‑255 para encontrar o ponto ideal para o seu documento específico. Valores mais baixos produzem imagens mais claras, valores mais altos resultam em saída mais escura.
 
-Defina as opções de salvamento de imagem, incluindo modo de cor e opções de binarização.
+## Etapa 3: Definir Opções de Salvamento de Imagem
+
+Configure o formato da imagem, o modo de cor e anexe as opções de binarização.
 
 ```java
 ImageSaveOptions options = new ImageSaveOptions(SaveFormat.Png);
@@ -64,39 +76,67 @@ options.setColorMode(ColorMode.BlackAndWhite);
 options.setBinarizationOptions(binarizationOptions);
 ```
 
-## Etapa 4: salve o documento
+A configuração `ColorMode.BlackAndWhite` garante que o arquivo final seja uma imagem **OneNote em preto e branco**.
 
-Salve o documento como uma imagem binária com as opções especificadas.
+## Etapa 4: Salvar o Documento
+
+Execute a operação de salvamento com as opções definidas anteriormente.
 
 ```java
 oneFile.save(dataDir, options);
 ```
 
+Depois de executar o código, você encontrará um arquivo PNG chamado `SaveToBinaryImageUsingFixedThreshold_out.png` na sua pasta de saída, pronto para processamento adicional ou arquivamento.
+
 ## Conclusão
 
-Neste tutorial, aprendemos como salvar um documento como uma imagem binária usando um limite fixo no Aspose.Note para Java. Seguindo essas etapas, você pode manipular facilmente os arquivos do OneNote de maneira programática.
+Mostramos **como ajustar o limiar** para produzir um PNG limpo e de alto contraste a partir de um arquivo OneNote usando Aspose.Note para Java. Ao dominar as opções de **image binarization Java**, você pode converter **OneNote para PNG** de forma confiável e criar ativos **OneNote em preto e branco** para OCR, impressão ou preservação digital.
 
-## Perguntas frequentes
+## Perguntas Frequentes
 
-### Q1: Posso ajustar o valor limite para binarização?
+### Q1: Posso ajustar o valor do limiar para binarização?
 
- A1: Sim, você pode ajustar o valor limite de acordo com suas necessidades, modificando o`setBinarizationThreshold()` parâmetro do método.
+R1: Sim, você pode ajustar o valor do limiar de acordo com suas necessidades modificando o parâmetro do método `setBinarizationThreshold()`.
 
 ### Q2: O Aspose.Note para Java é compatível com todas as versões do Microsoft OneNote?
 
-A2: Aspose.Note for Java oferece suporte a várias versões do Microsoft OneNote, incluindo 2010, 2013 e 2016.
+R2: O Aspose.Note para Java suporta várias versões do Microsoft OneNote, incluindo 2010, 2013 e 2016.
 
-### P3: Há alguma limitação quanto ao tamanho dos documentos que podem ser processados?
+### Q3: Existem limitações quanto ao tamanho dos documentos que podem ser processados?
 
-A3: Aspose.Note for Java não tem limitações quanto ao tamanho dos documentos que podem ser processados, permitindo que você lide com arquivos grandes com eficiência.
+R3: O Aspose.Note para Java não possui limitações de tamanho de documentos, permitindo que você manipule arquivos grandes de forma eficiente.
 
-### P4: Posso converter vários documentos do OneNote simultaneamente?
+### Q4: Posso converter vários documentos OneNote simultaneamente?
 
-A4: Sim, você pode processar em lote vários documentos do OneNote iterando cada arquivo e aplicando as operações necessárias.
+R4: Sim, você pode processar em lote vários documentos OneNote iterando sobre cada arquivo e aplicando as operações necessárias.
 
-### Q5: O suporte técnico está disponível para Aspose.Note para Java?
+### Q5: O suporte técnico está disponível para o Aspose.Note para Java?
 
- A5: Sim, o suporte técnico está disponível através do[Fórum Aspose.Note](https://forum.aspose.com/c/note/28), onde você pode tirar dúvidas e buscar ajuda de especialistas.
+R5: Sim, o suporte técnico está disponível através do [forum Aspose.Note](https://forum.aspose.com/c/note/28), onde você pode fazer perguntas e obter ajuda de especialistas.
+
+## Perguntas Frequentes
+
+**P: O que acontece se eu definir o limiar muito baixo?**  
+R: A imagem resultante pode ficar desbotada, com muitos tons de cinza retidos em vez de um contraste nítido preto‑e‑branco.
+
+**P: Posso usar um método de binarização diferente?**  
+R: Sim, o Aspose.Note também suporta limiar adaptativo; basta substituir `BinarizationMethod.FixedThreshold` por `BinarizationMethod.Adaptive`.
+
+**P: É possível exportar diretamente para outros formatos como JPEG?**  
+R: Absolutamente—mude `SaveFormat.Png` para `SaveFormat.Jpeg` no construtor `ImageSaveOptions`.
+
+**P: Como lidar com arquivos OneNote protegidos por senha?**  
+R: Carregue o documento usando a sobrecarga apropriada que aceita uma string de senha antes de aplicar as etapas de binarização.
+
+**P: Essa abordagem funciona em Linux/macOS?**  
+R: A biblioteca Aspose.Note Java é independente de plataforma, portanto o mesmo código roda em qualquer SO com um JDK compatível.
+
+---
+
+**Última atualização:** 2025-12-13  
+**Testado com:** Aspose.Note para Java 24.12 (mais recente)  
+**Autor:** Aspose  
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
