@@ -1,33 +1,42 @@
 ---
-title: บันทึกลงในภาพไบนารีโดยใช้เกณฑ์คงที่ใน OneNote
-linktitle: บันทึกลงในภาพไบนารีโดยใช้เกณฑ์คงที่ใน OneNote
+date: 2025-12-13
+description: เรียนรู้วิธีปรับค่าเกณฑ์เพื่อแปลง OneNote เป็น PNG ด้วย Aspose.Note Java
+  และสร้างภาพ OneNote สีขาวดำโดยใช้การไบนารีภาพใน Java.
+linktitle: Save to Binary Image Using Fixed Threshold in OneNote
 second_title: Aspose.Note Java API
-description: บันทึกเอกสาร Microsoft OneNote เป็นอิมเมจไบนารีได้อย่างง่ายดายโดยใช้เกณฑ์คงที่ด้วย Aspose.Note Java ยกระดับความสามารถในการจัดการไฟล์ OneNote ของคุณ
-weight: 14
+title: วิธีปรับค่าเกณฑ์เมื่อบันทึก OneNote เป็นภาพไบนารี
 url: /th/java/onenote-document-saving/save-to-binary-image-using-fixed-threshold/
+weight: 14
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# บันทึกลงในภาพไบนารีโดยใช้เกณฑ์คงที่ใน OneNote
+# วิธีปรับค่า Threshold เมื่อบันทึก OneNote เป็นภาพไบนารี
 
-## การแนะนำ
+## บทนำ
 
-Aspose.Note สำหรับ Java เป็น API ที่ทรงพลังที่ช่วยให้นักพัฒนาสามารถทำงานกับไฟล์ Microsoft OneNote โดยทางโปรแกรม ในบทช่วยสอนนี้ เราจะสำรวจวิธีการบันทึกเอกสารเป็นภาพไบนารี่โดยใช้เกณฑ์คงที่ ทำตามขั้นตอนด้านล่างเพื่อให้บรรลุเป้าหมายนี้
+ในบทแนะนำนี้คุณจะได้ค้นพบ **how to adjust threshold** เพื่อส่งออกหน้าของ Microsoft OneNote เป็นภาพ PNG ที่มีคอนทราสต์สูงและเป็นสีขาว‑ดำ โดยการปรับค่า threshold คงที่ คุณจะได้ควบคุมการแปลงอย่างแม่นยำ ทำให้เหมาะสำหรับสถานการณ์เช่นการเตรียมข้อมูลสำหรับ OCR หรือการเก็บเอกสาร เราจะเดินผ่านทุกขั้นตอนโดยใช้ Aspose.Note Java API เพื่อให้คุณสามารถ **convert OneNote to PNG** อย่างรวดเร็วด้วยเทคนิค **image binarization Java** ที่เชื่อถือได้.
+
+## คำตอบอย่างรวดเร็ว
+- **What does “adjust threshold” mean?** มันกำหนดค่าตัดความเข้มของพิกเซลที่ใช้เมื่อแปลงภาพสีเป็นสีขาว‑ดำ.
+- **Which format is produced?** ไฟล์ PNG ที่สามารถเปิดได้ด้วยโปรแกรมดูภาพใดก็ได้.
+- ** ได้ – แก้ไขการเรียก `setBinarizationThreshold()`
+- **Do I need a license?** การทดลองใช้ฟรีทำงานสำหรับการพัฒนา; จำเป็นต้องมีลิขสิทธิ์เชิงพาณิชย์สำหรับการใช้งานจริง.
+- **Is this compatible with all OneNote versions?** Aspose.Note รองรับ OneNote 2010, 2013, 2016 และรุ่นต่อไป.
 
 ## ข้อกำหนดเบื้องต้น
 
-ก่อนที่คุณจะเริ่มต้น ตรวจสอบให้แน่ใจว่าคุณมีสิ่งต่อไปนี้:
+ก่อนเริ่มต้น โปรดตรวจสอบว่าคุณมี:
 
-1. ติดตั้ง Java Development Kit (JDK) บนระบบของคุณ
-2.  Aspose.Note สำหรับไลบรารี Java ที่ดาวน์โหลด คุณสามารถดาวน์โหลดได้จาก[ที่นี่](https://releases.aspose.com/note/java/).
-3. ความรู้พื้นฐานเกี่ยวกับการเขียนโปรแกรม Java
+1. ติดตั้ง Java Development Kit (JDK) แล้ว
+2. ไลบรารี Aspose.Note for Java ที่ดาวน์โหลดจาก [here](https://releases.aspose.com/note/java/).
+3. ความคุ้นเคยพื้นฐานกับไวยากรณ์ของ Java
 
-## แพ็คเกจนำเข้า
+## นำเข้าแพ็กเกจ
 
-ขั้นแรก นำเข้าแพ็คเกจที่จำเป็นไปยังไฟล์ Java ของคุณ
+ขั้นแรก ให้นำเข้าคลาสที่จำเป็นเข้าสู่ไฟล์ซอร์สโค้ด Java ของคุณ.
 
 ```java
 import com.aspose.note.*;
@@ -36,16 +45,16 @@ import java.io.IOException;
 
 ## ขั้นตอนที่ 1: โหลดเอกสาร
 
-โหลดเอกสาร OneNote โดยใช้ Aspose.Note API
+โหลดไฟล์ OneNote ที่คุณต้องการประมวลผล.
 
 ```java
 String dataDir = "Your Document Directory";
 Document oneFile = new Document(dataDir + "Aspose.one");
 ```
 
-## ขั้นตอนที่ 2: ตั้งค่าตัวเลือกไบนารี
+## ขั้นตอนที่ 2: ตั้งค่าตัวเลือกการทำไบนารีภาพ
 
-กำหนดตัวเลือกไบนารีสำหรับการบันทึกเอกสารเป็นรูปภาพไบนารี
+กำหนดการตั้งค่า **image binarization Java** และระบุค่า threshold คงที่ที่ต้องการใช้.
 
 ```java
 dataDir = dataDir + "SaveToBinaryImageUsingFixedThreshold_out.png";
@@ -54,9 +63,11 @@ binarizationOptions.setBinarizationMethod(BinarizationMethod.FixedThreshold);
 binarizationOptions.setBinarizationThreshold(123);
 ```
 
-## ขั้นตอนที่ 3: ตั้งค่าตัวเลือกการบันทึกรูปภาพ
+> **Pro tip:** ทดลองค่า threshold ระหว่าง 0‑255 เพื่อหาค่าที่เหมาะสมกับเอกสารของคุณ ค่าใต้มักให้ภาพสว่างกว่า ส่วนค่าสูงให้ผลลัพธ์ที่มืดกว่า.
 
-ตั้งค่าตัวเลือกการบันทึกรูปภาพ รวมถึงโหมดสีและตัวเลือกไบนารี
+## ขั้นตอนที่ 3: ตั้งค่าตัวเลือกการบันทึกภาพ
+
+กำหนดรูปแบบภาพ, โหมดสี, และแนบตัวเลือกการทำไบนารี.
 
 ```java
 ImageSaveOptions options = new ImageSaveOptions(SaveFormat.Png);
@@ -64,39 +75,62 @@ options.setColorMode(ColorMode.BlackAndWhite);
 options.setBinarizationOptions(binarizationOptions);
 ```
 
+การตั้งค่า `ColorMode.BlackAndWhite` ทำให้ไฟล์สุดท้ายเป็นภาพ **black and white OneNote**
+
 ## ขั้นตอนที่ 4: บันทึกเอกสาร
 
-บันทึกเอกสารเป็นภาพไบนารี่ด้วยตัวเลือกที่ระบุ
+ดำเนินการบันทึกด้วยตัวเลือกที่กำหนดไว้ก่อนหน้า.
 
 ```java
 oneFile.save(dataDir, options);
 ```
 
-## บทสรุป
+หลังจากรันโค้ด คุณจะพบไฟล์ PNG ชื่อ `SaveToBinaryImageUsingFixedThreshold_out.png` ในโฟลเดอร์ผลลัพธ์ พร้อมสำหรับการประมวลผลต่อหรือการเก็บรักษา.
 
-ในบทช่วยสอนนี้ เราได้เรียนรู้วิธีบันทึกเอกสารเป็นอิมเมจไบนารี่โดยใช้เกณฑ์คงที่ใน Aspose.Note สำหรับ Java เมื่อทำตามขั้นตอนเหล่านี้ คุณสามารถจัดการไฟล์ OneNote โดยทางโปรแกรมได้อย่างง่ายดาย
+## สรุป
+
+เราได้แสดง **how to adjust threshold** เพื่อสร้าง PNG ที่คมชัดและคอนทราสต์สูงจากไฟล์ OneNote ด้วย Aspose.Note for Java โดยการเชี่ยวชาญตัวเลือก **image binarization Java** คุณสามารถ **convert OneNote to PNG** อย่างมั่นใจและสร้างทรัพยากร **black and white OneNote** สำหรับ OCR, การพิมพ์ หรือการเก็บรักษาดิจิทัล.
 
 ## คำถามที่พบบ่อย
 
-### คำถามที่ 1: ฉันสามารถปรับค่าเกณฑ์สำหรับไบนาไรเซชันได้หรือไม่
+### Q1: ฉันสามารถปรับค่า threshold สำหรับการทำไบนารีได้หรือไม่?
+A1: ได้ คุณสามารถปรับค่า threshold ตามความต้องการของคุณโดยแก้ไขพารามิเตอร์ของเมธอด `setBinarizationThreshold()`
 
- A1: ได้ คุณสามารถปรับค่าเกณฑ์ตามความต้องการของคุณได้โดยการแก้ไข`setBinarizationThreshold()` พารามิเตอร์วิธีการ
+### Q2: Aspose.Note for Java รองรับทุกเวอร์ชันของ Microsoft OneNote หรือไม่?
+A2: Aspose.Note for Java รองรับหลายเวอร์ชันของ Microsoft OneNote รวมถึง 2010, 2013, และ 2016.
 
-### คำถามที่ 2: Aspose.Note สำหรับ Java เข้ากันได้กับ Microsoft OneNote ทุกเวอร์ชันหรือไม่
+### Q3: มีข้อจำกัดใด ๆ เกี่ยวกับขนาดของเอกสารที่สามารถประมวลผลได้หรือไม่?
+A3: Aspose.Note for Java ไม่มีข้อจำกัดเรื่องขนาดของเอกสารที่สามารถประมวลผลได้ ทำให้คุณสามารถจัดการไฟล์ขนาดใหญ่ได้อย่างมีประสิทธิภาพ.
 
-คำตอบ 2: Aspose.Note สำหรับ Java รองรับ Microsoft OneNote เวอร์ชันต่างๆ รวมถึง 2010, 2013 และ 2016
+### Q4: ฉันสามารถแปลงเอกสาร OneNote หลายไฟล์พร้อมกันได้หรือไม่?
+A4: ได้ คุณสามารถประมวลผลหลายเอกสาร OneNote เป็นชุดโดยวนลูปผ่านแต่ละไฟล์และดำเนินการที่จำเป็น.
 
-### Q3: มีข้อจำกัดเกี่ยวกับขนาดของเอกสารที่สามารถประมวลผลได้หรือไม่?
+### Q5: มีการสนับสนุนทางเทคนิคสำหรับ Aspose.Note for Java หรือไม่?
+A5: มี การสนับสนุนทางเทคนิคผ่าน [Aspose.Note forum](https://forum.aspose.com/c/note/28) ที่คุณสามารถถามคำถามและขอความช่วยเหลือจากผู้เชี่ยวชาญ.
 
-A3: Aspose.Note สำหรับ Java ไม่มีข้อจำกัดเกี่ยวกับขนาดของเอกสารที่สามารถประมวลผลได้ ช่วยให้คุณสามารถจัดการไฟล์ขนาดใหญ่ได้อย่างมีประสิทธิภาพ
+## คำถามที่พบบ่อยเพิ่มเติม
 
-### คำถามที่ 4: ฉันสามารถแปลงเอกสาร OneNote หลายฉบับพร้อมกันได้หรือไม่
+**Q: จะเกิดอะไรขึ้นหากตั้งค่า threshold ต่ำเกินไป?**  
+A: ภาพที่ได้อาจดูซีดจาง มีโทนสีเทามากเกินไปแทนที่จะมีคอนทราสต์สีดำ‑ขาวที่คมชัด.
 
-A4: ได้ คุณสามารถประมวลผลเอกสาร OneNote หลายชุดได้โดยการวนซ้ำแต่ละไฟล์และใช้การดำเนินการที่จำเป็น
+**Q: ฉันสามารถใช้วิธีการทำไบนารีอื่นได้หรือไม่?**  
+A: ได้ Aspose.Note ยังรองรับการทำ adaptive thresholding; เพียงเปลี่ยน `BinarizationMethod.FixedThreshold` เป็น `BinarizationMethod.Adaptive`.
 
-### คำถามที่ 5: Aspose.Note สำหรับ Java มีการสนับสนุนด้านเทคนิคหรือไม่
+**Q: สามารถส่งออกโดยตรงเป็นรูปแบบอื่นเช่น JPEG ได้หรือไม่?**  
+A: แน่นอน—เปลี่ยน `SaveFormat.Png` เป็น `SaveFormat.Jpeg` ในคอนสตรัคเตอร์ `ImageSaveOptions`.
 
- A5: ใช่ การสนับสนุนทางเทคนิคมีให้ผ่านทาง[ฟอรั่ม Aspose.Note](https://forum.aspose.com/c/note/28)โดยคุณสามารถถามคำถามและขอความช่วยเหลือจากผู้เชี่ยวชาญได้
+**Q: จะจัดการไฟล์ OneNote ที่มีการป้องกันด้วยรหัสผ่านอย่างไร?**  
+A: โหลดเอกสารด้วยเมธอดที่รับสตริงรหัสผ่านก่อนที่จะทำขั้นตอนการทำไบนารี.
+
+**Q: วิธีนี้ทำงานบน Linux/macOS หรือไม่?**  
+A: ไลบรารี Aspose.Note Java เป็นแบบไม่ขึ้นกับแพลตฟอร์ม ดังนั้นโค้ดเดียวกันจะทำงานบน OS ใดก็ได้ที่มี JDK ที่รองรับ.
+
+---
+
+**อัปเดตล่าสุด:** 2025-12-13  
+**ทดสอบกับ:** Aspose.Note for Java 24.12 (latest)  
+**ผู้เขียน:** Aspose  
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

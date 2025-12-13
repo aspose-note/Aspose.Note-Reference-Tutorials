@@ -1,51 +1,60 @@
 ---
-title: Lưu vào hình ảnh nhị phân bằng ngưỡng cố định trong OneNote
-linktitle: Lưu vào hình ảnh nhị phân bằng ngưỡng cố định trong OneNote
-second_title: API Java Aspose.Note
-description: Dễ dàng lưu tài liệu Microsoft OneNote dưới dạng hình ảnh nhị phân bằng cách sử dụng ngưỡng cố định với Aspose.Note Java. Nâng cao khả năng thao tác tệp OneNote của bạn.
-weight: 14
+date: 2025-12-13
+description: Tìm hiểu cách điều chỉnh ngưỡng để chuyển OneNote sang PNG với Aspose.Note
+  Java, tạo hình ảnh OneNote đen trắng bằng nhị phân hoá ảnh trong Java.
+linktitle: Save to Binary Image Using Fixed Threshold in OneNote
+second_title: Aspose.Note Java API
+title: Cách điều chỉnh ngưỡng khi lưu OneNote thành ảnh nhị phân
 url: /vi/java/onenote-document-saving/save-to-binary-image-using-fixed-threshold/
+weight: 14
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Lưu vào hình ảnh nhị phân bằng ngưỡng cố định trong OneNote
+# Cách Điều Chỉnh Ngưỡng Khi Lưu OneNote Thành Ảnh Nhị Phân
 
-## Giới thiệu
+## Introduction
 
-Aspose.Note for Java là một API mạnh mẽ cho phép các nhà phát triển làm việc với các tệp Microsoft OneNote theo chương trình. Trong hướng dẫn này, chúng ta sẽ khám phá cách lưu tài liệu dưới dạng ảnh nhị phân bằng một ngưỡng cố định. Thực hiện theo các bước dưới đây để đạt được điều này.
+Trong hướng dẫn này, bạn sẽ khám phá **cách điều chỉnh ngưỡng** để xuất một trang Microsoft OneNote dưới dạng hình ảnh PNG đen‑trắng, độ tương phản cao. Bằng cách tinh chỉnh giá trị ngưỡng cố định, bạn có được kiểm soát chính xác quá trình chuyển đổi, rất phù hợp cho các trường hợp như tiền xử lý OCR hoặc lưu trữ tài liệu. Chúng tôi sẽ hướng dẫn từng bước bằng cách sử dụng Aspose.Note Java API, để bạn có thể nhanh chóng **chuyển đổi OneNote sang PNG** với các kỹ thuật **image binarization Java** đáng tin cậy.
 
-## Điều kiện tiên quyết
+## Quick Answers
+- **What does “adjust threshold” mean?** It sets the pixel intensity cut‑off used when converting a color image to black‑and‑white.
+- **Which format is produced?** A PNG file that can be opened by any image viewer.
+- **Can I change the threshold value?** Yes – modify the `setBinarizationThreshold()` call.
+- **Do I need a license?** A free trial works for development; a commercial license is required for production.
+- **Is this compatible with all OneNote versions?** Aspose.Note supports OneNote 2010, 2013, 2016 and later.
 
-Trước khi bắt đầu, hãy đảm bảo bạn có những điều sau:
+## Prerequisites
 
-1. Bộ công cụ phát triển Java (JDK) được cài đặt trên hệ thống của bạn.
-2.  Aspose.Note cho thư viện Java đã được tải xuống. Bạn có thể tải nó xuống từ[đây](https://releases.aspose.com/note/java/).
-3. Kiến thức cơ bản về lập trình Java.
+Trước khi bắt đầu, hãy đảm bảo bạn có:
 
-## Gói nhập khẩu
+1. Java Development Kit (JDK) đã được cài đặt.
+2. Thư viện Aspose.Note for Java tải về từ [here](https://releases.aspose.com/note/java/).
+3. Kiến thức cơ bản về cú pháp Java.
 
-Đầu tiên, nhập các gói cần thiết vào tệp Java của bạn.
+## Import Packages
+
+First, import the required classes into your Java source file.
 
 ```java
 import com.aspose.note.*;
 import java.io.IOException;
 ```
 
-## Bước 1: Tải tài liệu
+## Step 1: Load the Document
 
-Tải tài liệu OneNote bằng API Aspose.Note.
+Load the OneNote file you want to process.
 
 ```java
 String dataDir = "Your Document Directory";
 Document oneFile = new Document(dataDir + "Aspose.one");
 ```
 
-## Bước 2: Đặt tùy chọn nhị phân
+## Step 2: Set Binarization Options
 
-Xác định các tùy chọn nhị phân để lưu tài liệu dưới dạng ảnh nhị phân.
+Define the **image binarization Java** settings and specify the fixed threshold you wish to use.
 
 ```java
 dataDir = dataDir + "SaveToBinaryImageUsingFixedThreshold_out.png";
@@ -54,9 +63,11 @@ binarizationOptions.setBinarizationMethod(BinarizationMethod.FixedThreshold);
 binarizationOptions.setBinarizationThreshold(123);
 ```
 
-## Bước 3: Đặt tùy chọn lưu ảnh
+> **Pro tip:** Experiment with threshold values between 0‑255 to find the sweet spot for your particular document. Lower values produce lighter images, higher values give darker output.
 
-Đặt các tùy chọn lưu hình ảnh bao gồm chế độ màu và tùy chọn nhị phân.
+## Step 3: Set Image Save Options
+
+Configure the image format, color mode, and attach the binarization options.
 
 ```java
 ImageSaveOptions options = new ImageSaveOptions(SaveFormat.Png);
@@ -64,39 +75,67 @@ options.setColorMode(ColorMode.BlackAndWhite);
 options.setBinarizationOptions(binarizationOptions);
 ```
 
-## Bước 4: Lưu tài liệu
+The `ColorMode.BlackAndWhite` setting ensures the final file is a **black and white OneNote** image.
 
-Lưu tài liệu dưới dạng hình ảnh nhị phân với các tùy chọn được chỉ định.
+## Step 4: Save the Document
+
+Execute the save operation with the previously defined options.
 
 ```java
 oneFile.save(dataDir, options);
 ```
 
-## Phần kết luận
+After running the code, you’ll find a PNG file named `SaveToBinaryImageUsingFixedThreshold_out.png` in your output folder, ready for further processing or archiving.
 
-Trong hướng dẫn này, chúng ta đã tìm hiểu cách lưu tài liệu dưới dạng ảnh nhị phân bằng cách sử dụng ngưỡng cố định trong Aspose.Note cho Java. Bằng cách làm theo các bước này, bạn có thể dễ dàng thao tác với các tệp OneNote theo chương trình.
+## Conclusion
 
-## Câu hỏi thường gặp
+We’ve shown **how to adjust threshold** to produce a clean, high‑contrast PNG from a OneNote file using Aspose.Note for Java. By mastering the **image binarization Java** options, you can reliably **convert OneNote to PNG** and create **black and white OneNote** assets for OCR, printing, or digital preservation.
 
-### Câu hỏi 1: Tôi có thể điều chỉnh giá trị ngưỡng cho nhị phân hóa không?
+## FAQ's
 
- Trả lời 1: Có, bạn có thể điều chỉnh giá trị ngưỡng theo yêu cầu của mình bằng cách sửa đổi`setBinarizationThreshold()` tham số phương thức.
+### Q1: Can I adjust the threshold value for binarization?
 
-### Câu hỏi 2: Aspose.Note for Java có tương thích với tất cả các phiên bản Microsoft OneNote không?
+A1: Yes, you can adjust the threshold value according to your requirements by modifying the `setBinarizationThreshold()` method parameter.
 
-Câu trả lời 2: Aspose.Note for Java hỗ trợ nhiều phiên bản khác nhau của Microsoft OneNote bao gồm 2010, 2013 và 2016.
+### Q2: Is Aspose.Note for Java compatible with all versions of Microsoft OneNote?
 
-### Câu hỏi 3: Có bất kỳ hạn chế nào về kích thước của tài liệu có thể được xử lý không?
+A2: Aspose.Note for Java supports various versions of Microsoft OneNote including 3, and 2016.
 
-Câu trả lời 3: Aspose.Note dành cho Java không có giới hạn về kích thước tài liệu có thể được xử lý, cho phép bạn xử lý các tệp lớn một cách hiệu quả.
+### Q3: Are there any limitations on the size of documents that can be processed?
 
-### Câu hỏi 4: Tôi có thể chuyển đổi nhiều tài liệu OneNote cùng lúc không?
+A3: Aspose.Note for Java has no limitations on the size of documents that can be processed, allowing you to handle large files efficiently.
 
-A4: Có, bạn có thể xử lý hàng loạt nhiều tài liệu OneNote bằng cách lặp lại từng tệp và áp dụng các thao tác cần thiết.
+### Q4: Can I convert multiple OneNote documents simultaneously?
 
-### Câu hỏi 5: Aspose.Note for Java có hỗ trợ kỹ thuật không?
+A4: Yes, you can batch process multiple OneNote documents by iterating over each file and applying the necessary operations.
 
- Câu trả lời 5: Có, hỗ trợ kỹ thuật được cung cấp thông qua[Diễn đàn Aspose.Note](https://forum.aspose.com/c/note/28), nơi bạn có thể đặt câu hỏi và tìm kiếm sự trợ giúp từ các chuyên gia.
+### Q5: Is technical support available for Aspose.Note for Java?
+
+A5: Yes, technical support is available through the [Aspose.Note forum](https://forum.aspose.com/c/note/28), where you can ask questions and seek assistance from experts.
+
+## Frequently Asked Questions
+
+**Q: What happens if I set the threshold too low?**  
+A: The resulting image may appear washed out, with many gray tones retained instead of crisp black‑and‑white contrast.
+
+**Q: Can I use a different binarization method?**  
+A: Yes, Aspose.Note also supports adaptive thresholding; simply replace `BinarizationMethod.FixedThreshold` with `BinarizationMethod.Adaptive`.
+
+**Q: Is it possible to export directly to other formats like JPEG?**  
+A: Absolutely—change `SaveFormat.Png` to `SaveFormat.Jpeg` in the `ImageSaveOptions` constructor.
+
+**Q: How do I handle password‑protected OneNote files?**  
+A: Load the document with the appropriate overload that accepts a password string before applying the binarization steps.
+
+**Q: Does this approach work on Linux/macOS?**  
+A: The Aspose.Note Java library is platform‑independent, so the same code runs on any OS with a compatible JDK.
+
+---
+
+**Last Updated:** 2025-12-13  
+**Tested With:** Aspose.Note for Java 24.12 (latest)  
+**Author:** Aspose  
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

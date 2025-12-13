@@ -1,51 +1,60 @@
 ---
-title: الحفظ في الصورة الثنائية باستخدام العتبة الثابتة في OneNote
-linktitle: الحفظ في الصورة الثنائية باستخدام العتبة الثابتة في OneNote
-second_title: Aspose.Note جافا API
-description: احفظ مستندات Microsoft OneNote بسهولة كصور ثنائية باستخدام حد ثابت مع Aspose.Note Java. ارفع قدرات معالجة ملف OneNote لديك.
-weight: 14
+date: 2025-12-13
+description: تعلم كيفية ضبط العتبة لتحويل OneNote إلى PNG باستخدام Aspose.Note Java،
+  وإنشاء صور OneNote بالأبيض والأسود باستخدام تحويل الصورة إلى ثنائية في Java.
+linktitle: Save to Binary Image Using Fixed Threshold in OneNote
+second_title: Aspose.Note Java API
+title: كيفية ضبط العتبة عند حفظ OneNote كصورة ثنائية
 url: /ar/java/onenote-document-saving/save-to-binary-image-using-fixed-threshold/
+weight: 14
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# الحفظ في الصورة الثنائية باستخدام العتبة الثابتة في OneNote
+# كيفية ضبط العتبة عند حفظ OneNote إلى صورة ثنائية
 
-## مقدمة
+## المقدمة
 
-Aspose.Note for Java عبارة عن واجهة برمجة تطبيقات قوية تتيح للمطورين العمل مع ملفات Microsoft OneNote برمجيًا. في هذا البرنامج التعليمي، سوف نستكشف كيفية حفظ مستند كصورة ثنائية باستخدام حد ثابت. اتبع الخطوات أدناه لتحقيق ذلك.
+في هذا الدرس ستكتشف **كيفية ضبط العتبة** لتصدير صفحة Microsoft OneNote كصورة PNG ذات تباين عالٍ وأبيض وأسود. من خلال تعديل قيمة العتبة الثابتة تحصل على تحكم دقيق في التحويل، مما يجعلها مثالية لسيناريوهات مثل ما قبل معالجة OCR أو أرشفة المستندات. سنستعرض كل خطوة باستخدام Aspose.Note Java API، حتى تتمكن من **تحويل OneNote إلى PNG** بسرعة باستخدام تقنيات **image binarization Java** الموثوقة.
 
-## المتطلبات الأساسية
+## إجابات سريعة
+- **ماذا يعني “adjust threshold”?** يحدد حد شدة البكسل المستخدم عند تحويل صورة ملونة إلى أبيض وأسود.
+- **ما الصيغة التي يتم إنتاجها؟** ملف PNG يمكن فتحه بأي عارض صور.
+- **هل يمكنني تغيير قيمة العتبة؟** نعم – عدّل استدعاء `setBinarizationThreshold()`.
+- **هل أحتاج إلى ترخيص؟** نسخة التجربة المجانية تكفي للتطوير؛ يلزم ترخيص تجاري للإنتاج.
+- **هل هذا متوافق مع جميع إصدارات OneNote؟** Aspose.Note يدعم OneNote 2010، 2013، 2016 وما بعده.
 
-قبل أن تبدأ، تأكد من أن لديك ما يلي:
+## المتطلبات المسبقة
 
-1. تم تثبيت Java Development Kit (JDK) على نظامك.
-2.  تم تنزيل Aspose.Note لمكتبة Java. يمكنك تنزيله من[هنا](https://releases.aspose.com/note/java/).
-3. المعرفة الأساسية ببرمجة جافا.
+قبل البدء، تأكد من وجود ما يلي:
 
-## حزم الاستيراد
+1. تثبيت Java Development Kit (JDK).
+2. مكتبة Aspose.Note for Java تم تحميلها من [here](https://releases.aspose.com/note/java/).
+3. إلمام أساسي بصياغة Java.
 
-أولاً، قم باستيراد الحزم الضرورية إلى ملف Java الخاص بك.
+## استيراد الحزم
+
+أولاً، استورد الفئات المطلوبة في ملف Java الخاص بك.
 
 ```java
 import com.aspose.note.*;
 import java.io.IOException;
 ```
 
-## الخطوة 1: قم بتحميل المستند
+## الخطوة 1: تحميل المستند
 
-قم بتحميل مستند OneNote باستخدام Aspose.Note API.
+حمّل ملف OneNote الذي تريد معالجته.
 
 ```java
 String dataDir = "Your Document Directory";
 Document oneFile = new Document(dataDir + "Aspose.one");
 ```
 
-## الخطوة 2: تعيين خيارات الثنائية
+## الخطوة 2: ضبط خيارات Binarization
 
-حدد خيارات الثنائية لحفظ المستند كصورة ثنائية.
+حدد إعدادات **image binarization Java** وحدد العتبة الثابتة التي ترغب في استخدامها.
 
 ```java
 dataDir = dataDir + "SaveToBinaryImageUsingFixedThreshold_out.png";
@@ -54,9 +63,11 @@ binarizationOptions.setBinarizationMethod(BinarizationMethod.FixedThreshold);
 binarizationOptions.setBinarizationThreshold(123);
 ```
 
+> **نصيحة احترافية:** جرب قيم العتبة بين 0‑255 للعثور على النقطة المثالية لمستندك. القيم الأقل تنتج صورًا أفتح، والقيم الأعلى تعطي مخرجات أغمق.
+
 ## الخطوة 3: ضبط خيارات حفظ الصورة
 
-قم بتعيين خيارات حفظ الصورة بما في ذلك وضع الألوان وخيارات الثنائية.
+قم بتكوين تنسيق الصورة، وضع اللون، وإرفاق خيارات Binarization.
 
 ```java
 ImageSaveOptions options = new ImageSaveOptions(SaveFormat.Png);
@@ -64,39 +75,60 @@ options.setColorMode(ColorMode.BlackAndWhite);
 options.setBinarizationOptions(binarizationOptions);
 ```
 
-## الخطوة 4: احفظ المستند
+إعداد `ColorMode.BlackAndWhite` يضمن أن يكون الملف النهائي صورة **black and white OneNote**.
 
-احفظ المستند كصورة ثنائية مع الخيارات المحددة.
+## الخطوة 4: حفظ المستند
+
+نفّذ عملية الحفظ باستخدام الخيارات المحددة مسبقًا.
 
 ```java
 oneFile.save(dataDir, options);
 ```
 
-## خاتمة
+بعد تشغيل الكود، ستجد ملف PNG باسم `SaveToBinaryImageUsingFixedThreshold_out.png` في مجلد الإخراج، جاهز للمعالجة الإضافية أو الأرشفة.
 
-في هذا البرنامج التعليمي، تعلمنا كيفية حفظ مستند كصورة ثنائية باستخدام حد ثابت في Aspose.Note لـ Java. باتباع هذه الخطوات، يمكنك بسهولة التعامل مع ملفات OneNote برمجياً.
+## الخلاصة
 
-## الأسئلة الشائعة
+لقد أظهرنا **كيفية ضبط العتبة** لإنتاج صورة PNG نظيفة وعالية التباين من ملف OneNote باستخدام Aspose.Note for Java. من خلال إتقان خيارات **image binarization Java**، يمكنك بثقة **تحويل OneNote إلى PNG** وإنشاء موارد **black and white OneNote** لأغراض OCR أو الطباعة أو الحفظ الرقمي.
 
-### س1: هل يمكنني ضبط قيمة العتبة للتحويل الثنائي؟
+## الأسئلة المتكررة
 
- ج1: نعم، يمكنك ضبط قيمة العتبة وفقًا لمتطلباتك عن طريق تعديل`setBinarizationThreshold()` معلمة الطريقة.
+### س1: هل يمكنني ضبط قيمة العتبة للتثن binary؟
+**ج1:** نعم، يمكنك ضبط قيمة العتبة وفقًا لمتطلباتك عن طريق تعديل معامل طريقة `setBinarizationThreshold()`.
 
-### س2: هل Aspose.Note for Java متوافق مع كافة إصدارات Microsoft OneNote؟
-
-ج2: يدعم Aspose.Note for Java إصدارات مختلفة من Microsoft OneNote بما في ذلك الإصدارات 2010 و2013 و2016.
+### س2: هل Aspose.Note for Java متوافق مع جميع إصدارات Microsoft OneNote؟
+**ج2:** Aspose.Note for Java يدعم إصدارات Microsoft OneNote المختلفة بما فيها 2010، 2013، و2016.
 
 ### س3: هل هناك أي قيود على حجم المستندات التي يمكن معالجتها؟
-
-ج3: ليس لدى Aspose.Note for Java أي قيود على حجم المستندات التي يمكن معالجتها، مما يسمح لك بمعالجة الملفات الكبيرة بكفاءة.
+**ج3:** لا توجد قيود على حجم المستندات في Aspose.Note for Java، مما يتيح لك التعامل مع ملفات كبيرة بكفاءة.
 
 ### س4: هل يمكنني تحويل عدة مستندات OneNote في وقت واحد؟
+**ج4:** نعم، يمكنك معالجة دفعة من مستندات OneNote عن طريق التكرار على كل ملف وتطبيق العمليات اللازمة.
 
-ج4: نعم، يمكنك معالجة عدة مستندات OneNote دفعةً واحدة عن طريق التكرار على كل ملف وتطبيق العمليات الضرورية.
+### س5: هل يتوفر دعم فني لـ Aspose.Note for Java؟
+**ج5:** نعم، يتوفر الدعم الفني عبر [منتدى Aspose.Note](https://forum.aspose.com/c/note/28)، حيث يمكنك طرح الأسئلة والحصول على مساعدة من الخبراء.
 
-### س5: هل يتوفر الدعم الفني لـ Aspose.Note لـ Java؟
+## أسئلة شائعة
 
- ج5: نعم، الدعم الفني متوفر من خلال[منتدى Aspose.Note](https://forum.aspose.com/c/note/28)حيث يمكنك طرح الأسئلة وطلب المساعدة من الخبراء.
+**س: ماذا يحدث إذا ضبطت العتبة منخفضة جدًا؟**  
+ج: قد تظهر الصورة باهتة مع احتفاظها بالعديد من درجات الرمادي بدلاً من التباين الواضح بين الأسود والأبيض.
+
+**س: هل يمكنني استخدام طريقة تثن binary مختلفة؟**  
+ج: نعم، يدعم Aspose.Note أيضًا العتبة التكيفية؛ ما عليك سوى استبدال `BinarizationMethod.FixedThreshold` بـ `BinarizationMethod.Adaptive`.
+
+**س: هل من الممكن التصدير مباشرة إلى صيغ أخرى مثل JPEG؟**  
+ج: بالتأكيد—غيّر `SaveFormat.Png` إلى `SaveFormat.Jpeg` في مُنشئ `ImageSaveOptions`.
+
+**س: كيف أتعامل مع ملفات OneNote المحمية بكلمة مرور؟**  
+ج: حمّل المستند باستخدام الدالة التي تقبل سلسلة كلمة المرور قبل تطبيق خطوات التثن binary.
+
+**س: هل يعمل هذا الأسلوب على Linux/macOS؟**  
+ج: مكتبة Aspose.Note Java مستقلة عن النظام الأساسي، لذا يعمل نفس الكود على أي نظام تشغيل يحتوي على JDK متوافق.
+
+**آخر تحديث:** 2025-12-13  
+**تم الاختبار مع:** Aspose.Note for Java 24.12 (latest)  
+**المؤلف:** Aspose  
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
