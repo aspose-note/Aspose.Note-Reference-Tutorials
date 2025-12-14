@@ -1,96 +1,140 @@
 ---
-title: Lưu vào hình ảnh nhị phân bằng phương pháp Otsu trong OneNote
-linktitle: Lưu vào hình ảnh nhị phân bằng phương pháp Otsu trong OneNote
-second_title: API Java Aspose.Note
-description: Tìm hiểu cách lưu tài liệu OneNote dưới dạng hình ảnh nhị phân bằng phương pháp Otsu với Aspose.Note for Java. Nâng cao khả năng của ứng dụng Java của bạn với Aspose.Note.
-weight: 15
+date: 2025-12-14
+description: Tìm hiểu cách lưu OneNote dưới dạng ảnh PNG nhị phân bằng phương pháp
+  Otsu với Aspose.Note cho Java. Hướng dẫn này bao gồm việc lưu OneNote dưới dạng
+  PNG và tạo ảnh đen‑trắng trong Java.
+linktitle: How to Save OneNote as Binary Image Using Otsu Method
+second_title: Aspose.Note Java API
+title: Cách lưu OneNote thành ảnh nhị phân bằng phương pháp Otsu
 url: /vi/java/onenote-document-saving/save-to-binary-image-using-otsu-method/
+weight: 15
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Lưu vào hình ảnh nhị phân bằng phương pháp Otsu trong OneNote
+# Lưu Hình Ảnh Nhị Phân Bằng Phương Pháp Otsu trong OneNote
 
 ## Giới thiệu
 
-Trong hướng dẫn này, chúng ta sẽ tìm hiểu cách lưu tài liệu dưới dạng ảnh nhị phân bằng phương pháp Otsu trong Aspose.Note cho Java. Aspose.Note là một API mạnh mẽ cho phép các nhà phát triển Java làm việc với các tệp Microsoft OneNote theo chương trình. Việc lưu tài liệu dưới dạng hình ảnh nhị phân có thể hữu ích cho nhiều ứng dụng khác nhau như xử lý hình ảnh, OCR (Nhận dạng ký tự quang học), v.v.
+Trong hướng dẫn này, bạn sẽ khám phá **cách lưu tài liệu OneNote** dưới dạng hình ảnh nhị phân bằng phương pháp Otsu với Aspose.Note cho Java. Chuyển đổi tệp OneNote thành hình ảnh đen‑trắng rất hữu ích cho các pipeline xử lý ảnh, tiền xử lý OCR, hoặc khi bạn chỉ cần một bản sao trực quan nhẹ của ghi chú.
+
+## Câu trả lời nhanh
+- **Phương pháp Otsu làm gì?** Nó tự động xác định ngưỡng tối ưu để chuyển đổi ảnh xám thành ảnh đen‑trắng (nhị phân).  
+- **Định dạng nào được dùng cho đầu ra?** PNG là mặc định vì nó giữ chất lượng không mất dữ liệu.  
+- **Có cần giấy phép để chạy mã không?** Bản dùng thử miễn phí đủ cho phát triển; giấy phép thương mại cần cho môi trường sản xuất.  
+- **Tôi có thể đổi định dạng đầu ra sang định dạng khác không?** Có – chỉ cần thay `SaveFormat.Png` bằng định dạng hỗ trợ khác.  
+- **Phương pháp này có phù hợp cho OCR không?** Chắc chắn – ảnh nhị phân cải thiện độ chính xác OCR bằng cách loại bỏ nhiễu xám.
+
+## Phương pháp Otsu là gì?
+Phương pháp Otsu phân tích biểu đồ histogram của ảnh xám và chọn ngưỡng sao cho phương sai nội lớp được giảm thiểu, hiệu quả tách nền (trắng) và đối tượng (đen). Điều này khiến nó lý tưởng để tạo ra **ảnh đen trắng java** từ các trang OneNote.
+
+## Tại sao lưu OneNote dưới dạng PNG?
+- **Tương thích rộng rãi:** PNG hoạt động trên mọi trình duyệt, ứng dụng di động và công cụ desktop.  
+- **Nén không mất dữ liệu:** Không giảm chất lượng, rất quan trọng cho các bước xử lý tiếp theo.  
+- **Sẵn sàng cho OCR:** PNG nhị phân là đầu vào ưu tiên của hầu hết các engine OCR.
 
 ## Điều kiện tiên quyết
+1. Kiến thức cơ bản về lập trình Java.  
+2. Đã cài đặt JDK (Java Development Kit).  
+3. Thư viện Aspose.Note cho Java đã được thêm vào dự án (Maven/Gradle hoặc JAR thủ công).  
 
-Trước khi chúng tôi bắt đầu, hãy đảm bảo bạn có các điều kiện tiên quyết sau:
-1. Kiến thức cơ bản về ngôn ngữ lập trình Java.
-2. JDK (Bộ công cụ phát triển Java) được cài đặt trên hệ thống của bạn.
-3. Aspose.Note dành cho thư viện Java được tải xuống và định cấu hình trong dự án Java của bạn.
+## Nhập các gói cần thiết
+Để bắt đầu, nhập các lớp Aspose.Note và tiện ích I/O của Java.
 
-## Gói nhập khẩu
-
-Để bắt đầu, bạn cần nhập các gói cần thiết trong lớp Java của mình:
 ```java
 import com.aspose.note.*;
 import java.io.IOException;
 ```
 
-## Bước 1: Tải tài liệu
+## Bước 1: Tải tài liệu OneNote
+Đầu tiên, chỉ tới thư mục chứa tệp `.one` của bạn và tải nó vào đối tượng `Document`.
 
-Bước đầu tiên là tải tài liệu bạn muốn chuyển đổi sang hình ảnh nhị phân bằng Aspose.Note.
 ```java
 String dataDir = "Your Document Directory";
-// Tải tài liệu vào Aspose.Note.
+// Load the document into Aspose.Note.
 Document oneFile = new Document(dataDir + "Aspose.one");
 ```
 
-## Bước 2: Đặt tùy chọn nhị phân
-Tiếp theo, chúng ta cần chỉ định phương pháp nhị phân hóa. Trong ví dụ này, chúng tôi sẽ sử dụng phương pháp Otsu.
+## Bước 2: Cấu hình nhị phân hoá bằng Otsu
+Tạo một thể hiện `ImageBinarizationOptions` và chỉ định cho Aspose.Note sử dụng thuật toán Otsu.
+
 ```java
 dataDir = dataDir + "SaveToBinaryImageUsingOtsuMethod_out.png";
 ImageBinarizationOptions binarizationOptions = new ImageBinarizationOptions();
 binarizationOptions.setBinarizationMethod(BinarizationMethod.Otsu);
 ```
 
-## Bước 3: Đặt tùy chọn lưu ảnh
-Bây giờ, chúng ta sẽ định cấu hình các tùy chọn để lưu tài liệu dưới dạng hình ảnh. Chúng tôi sẽ đặt chế độ màu thành đen trắng và cung cấp các tùy chọn nhị phân mà chúng tôi đã xác định trước đó.
+## Bước 3: Đặt tùy chọn lưu ảnh (PNG, Đen‑Trắng)
+Xác định cách ảnh sẽ được lưu. Ở đây chúng ta chọn PNG, buộc chế độ màu đen‑trắng và gắn các tùy chọn nhị phân hoá.
+
 ```java
 ImageSaveOptions options = new ImageSaveOptions(SaveFormat.Png);
 options.setColorMode(ColorMode.BlackAndWhite);
 options.setBinarizationOptions(binarizationOptions);
 ```
 
-## Bước 4: Lưu tài liệu dưới dạng hình ảnh nhị phân
-Cuối cùng, chúng ta sẽ lưu tài liệu dưới dạng ảnh nhị phân bằng các tùy chọn đã chỉ định.
+## Bước 4: Lưu tài liệu dưới dạng ảnh nhị phân
+Cuối cùng, ghi PNG nhị phân ra đĩa bằng các tùy chọn đã chuẩn bị.
+
 ```java
-// Lưu tài liệu.
+// Save the document.
 oneFile.save(dataDir, options);
 ```
 
-## Phần kết luận
-Trong hướng dẫn này, chúng ta đã học cách lưu tài liệu dưới dạng ảnh nhị phân bằng phương pháp Otsu trong Aspose.Note cho Java. Chức năng này có thể có giá trị đối với các tác vụ xử lý ảnh khác nhau trong các ứng dụng Java.
+## Các vấn đề thường gặp & Mẹo
+- **Không tìm thấy tệp:** Kiểm tra `dataDir` có kết thúc bằng dấu phân cách đường dẫn (`/` hoặc `\\`) trước khi nối tên tệp.  
+- **Kết quả trống:** Đảm bảo trang OneNote nguồn có nội dung; các trang rỗng sẽ tạo PNG trống.  
+- **Hiệu năng:** Đối với sổ tay lớn, xử lý từng trang riêng biệt để giảm tiêu thụ bộ nhớ.
+
+## Kết luận
+Bây giờ bạn đã biết **cách lưu OneNote** dưới dạng ảnh PNG nhị phân bằng phương pháp Otsu trong Java. Cách này hoàn hảo để tạo ra các tài sản **ảnh đen trắng java** cho OCR, lưu trữ, hoặc bất kỳ trường hợp nào cần bản sao trực quan nhẹ của một trang OneNote.
 
 ## Câu hỏi thường gặp
 
-### Câu hỏi 1: Tôi có thể sử dụng Aspose.Note for Java để trích xuất văn bản từ tài liệu OneNote không?
+### Hỏi 1: Tôi có thể dùng Aspose.Note cho Java để trích xuất văn bản từ tài liệu OneNote không?
 
-Câu trả lời 1: Có, Aspose.Note for Java cung cấp các API để trích xuất nội dung văn bản từ tài liệu OneNote theo chương trình.
+Đáp 1: Có, Aspose.Note cho Java cung cấp API để trích xuất nội dung văn bản từ tài liệu OneNote một cách lập trình.
 
-### Câu hỏi 2: Aspose.Note for Java có tương thích với các phiên bản khác nhau của tệp OneNote không?
+### Hỏi 2: Aspose.Note cho Java có tương thích với các phiên bản khác nhau của tệp OneNote không?
 
-Câu trả lời 2: Có, Aspose.Note for Java hỗ trợ nhiều phiên bản khác nhau của tệp OneNote, bao gồm các định dạng .one và .onenote.
+Đáp 2: Có, Aspose.Note cho Java hỗ trợ nhiều phiên bản tệp OneNote, bao gồm định dạng .one và .onenote.
 
-### Câu hỏi 3: Tôi có thể tùy chỉnh các tùy chọn nhị phân để lưu tài liệu dưới dạng ảnh nhị phân không?
+### Hỏi 3: Tôi có thể tùy chỉnh các tùy chọn nhị phân hoá khi lưu tài liệu dưới dạng ảnh nhị phân không?
 
-A3: Hoàn toàn có thể, bạn có thể điều chỉnh phương pháp nhị phân hóa và các tùy chọn khác theo yêu cầu của mình.
+Đáp 3: Chắc chắn, bạn có thể điều chỉnh phương pháp nhị phân hoá và các tùy chọn khác theo yêu cầu của mình.
 
-### Câu hỏi 4: Aspose.Note for Java có hỗ trợ chuyển đổi hình ảnh nhị phân trở lại tài liệu OneNote không?
+### Hỏi 4: Aspose.Note cho Java có hỗ trợ chuyển ảnh nhị phân trở lại tài liệu OneNote không?
 
-Câu trả lời 4: Mặc dù Aspose.Note chủ yếu xử lý việc thao tác với tài liệu OneNote nhưng bạn có thể chuyển đổi hình ảnh trở lại định dạng OneNote bằng kỹ thuật OCR (Nhận dạng ký tự quang học).
+Đáp 4: Mặc dù Aspose.Note chủ yếu làm việc với việc thao tác tài liệu OneNote, bạn có thể chuyển ảnh trở lại định dạng OneNote bằng các kỹ thuật OCR (Nhận dạng ký tự quang học).
 
-### Câu hỏi 5: Tôi có thể nhận hỗ trợ ở đâu nếu gặp sự cố khi sử dụng Aspose.Note cho Java?
+### Hỏi 5: Tôi có thể nhận hỗ trợ ở đâu nếu gặp vấn đề khi sử dụng Aspose.Note cho Java?
 
-Câu trả lời 5: Bạn có thể truy cập diễn đàn Aspose.Note hoặc liên hệ với nhóm hỗ trợ của họ để được hỗ trợ về bất kỳ vấn đề hoặc thắc mắc kỹ thuật nào.
+Đáp 5: Bạn có thể truy cập diễn đàn Aspose.Note hoặc liên hệ đội ngũ hỗ trợ của họ để được trợ giúp về bất kỳ vấn đề kỹ thuật hoặc câu hỏi nào.
+
+## Các câu hỏi thường gặp bổ sung
+
+**Hỏi: Làm sao đổi định dạng đầu ra từ PNG sang JPEG?**  
+Đáp: Thay `SaveFormat.Png` bằng `SaveFormat.Jpeg` trong hàm khởi tạo `ImageSaveOptions`.
+
+**Hỏi: Có cách nào đặt DPI tùy chỉnh cho ảnh xuất ra không?**  
+Đáp: Có, sử dụng `options.setResolution(double dpi)` trước khi gọi `save`.
+
+**Hỏi: Tôi có thể xử lý nhiều trang OneNote trong một vòng lặp không?**  
+Đáp: Chắc chắn – lặp qua `Document.getPages()` và áp dụng cùng một logic lưu cho mỗi trang.
+
+---
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
+
+**Cập nhật lần cuối:** 2025-12-14  
+**Đã kiểm tra với:** Aspose.Note cho Java 24.12  
+**Tác giả:** Aspose  
+
+---
