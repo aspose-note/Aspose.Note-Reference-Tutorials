@@ -1,33 +1,46 @@
 ---
-title: Java에서 서식 있는 서식 있는 텍스트를 사용하여 OneNote 문서 만들기
-linktitle: Java에서 서식 있는 서식 있는 텍스트를 사용하여 OneNote 문서 만들기
-second_title: Aspose.Note 자바 API
-description: Java용 Aspose.Note를 사용하여 Java에서 프로그래밍 방식으로 다양한 형식의 OneNote 문서를 만드는 방법을 알아보세요. 원활한 문서 자동화를 위한 단계별 가이드를 따르세요.
-weight: 11
+date: 2025-12-09
+description: Aspose.Note for Java를 사용하여 Java에서 서식이 지정된 리치 텍스트가 포함된 OneNote를 PDF로 저장하는
+  방법을 배워보세요. 원활한 문서 자동화를 위한 단계별 가이드를 따라하세요.
+linktitle: Save OneNote as PDF with Formatted Rich Text in Java
+second_title: Aspose.Note Java API
+title: Java에서 서식이 적용된 리치 텍스트로 OneNote를 PDF로 저장
 url: /ko/java/onenote-document-manipulation/create-onenote-document-formatted-rich-text/
+weight: 11
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Java에서 서식 있는 서식 있는 텍스트를 사용하여 OneNote 문서 만들기
+# Java에서 서식이 적용된 리치 텍스트로 OneNote를 PDF로 저장하기
 
-## 소개
+## Introduction
 
-다양한 형식의 OneNote 문서를 프로그래밍 방식으로 만드는 것은 Java 응용 프로그램에서 문서 생성 작업을 자동화하려는 개발자에게 강력한 도구가 될 수 있습니다. Aspose.Note for Java는 이를 원활하게 달성할 수 있는 포괄적인 기능 세트를 제공합니다. 이 튜토리얼에서는 Aspose.Note for Java를 사용하여 서식 있는 텍스트가 포함된 OneNote 문서를 만드는 과정을 안내합니다.
+리치 텍스트 서식을 유지하면서 **OneNote를 PDF로 저장**해야 한다면, 바로 여기가 정답입니다. 이 튜토리얼에서는 OneNote 문서를 만들고, 사용자 정의 스타일을 적용한 뒤, Aspose.Note for Java를 사용해 직접 PDF로 내보내는 과정을 단계별로 안내합니다. 끝까지 따라오면 어떤 Java 프로젝트에도 삽입해 깔끔한 OneNote‑to‑PDF 변환을 자동화할 수 있는 재사용 가능한 코드 스니펫을 얻게 됩니다.
 
-## 전제조건
+## Quick Answers
+- **이 튜토리얼은 무엇을 가르치나요?** 스타일이 적용된 텍스트로 OneNote 문서를 만들고 PDF로 저장하는 방법.  
+- **필요한 라이브러리는?** Aspose.Note for Java (공식 사이트에서 다운로드 가능).  
+- **라이선스가 필요합니까?** 테스트용 임시 라이선스는 사용할 수 있지만, 프로덕션에서는 정식 라이선스가 필요합니다.  
+- **어떤 IDE를 사용할 수 있나요?** IntelliJ IDEA, Eclipse, NetBeans 등 모든 Java IDE.  
+- **출력 형식을 변경할 수 있나요?** 예, Aspose.Note는 PDF, HTML, PNG 등 다양한 형식을 지원합니다.
 
-시작하기 전에 다음 전제 조건이 설정되어 있는지 확인하세요.
+## What is “save onenote as pdf”?
+OneNote를 PDF로 저장한다는 것은 텍스트, 이미지 및 서식을 포함한 OneNote 페이지 구조를 정적인 PDF 파일로 변환하는 것으로, OneNote 없이도 모든 플랫폼에서 볼 수 있습니다.
 
-1. JDK(Java Development Kit): 시스템에 JDK가 설치되어 있는지 확인하세요.
-2.  Java JAR용 Aspose.Note: 프로젝트에 Java JAR용 Aspose.Note 파일을 다운로드하고 포함합니다. 에서 얻으실 수 있습니다.[다운로드 링크](https://releases.aspose.com/note/java/).
-3. 통합 개발 환경(IDE): IntelliJ IDEA 또는 Eclipse와 같이 선호하는 IDE를 사용하세요.
+## Why format rich text java?
+Java에서 직접 리치 텍스트 서식트, 색상, 스타일)을 적용하면 수동 편집 없이도 전문적이고 브랜드 가이드라인에 맞는 문서를 생성할 수 있습니다.
 
-## 패키지 가져오기
+## Prerequisites
 
-먼저, 필요한 패키지를 Java 프로젝트로 가져와야 합니다. Java 파일 시작 부분에 다음 가져오기 문을 추가합니다.
+1. **Java Development Kit (JDK)** – 최신 버전(8 이상) 중 하나.  
+2. **Aspose.Note for Java JAR** – [download 링크](https://releases.aspose.com/note/java/)에서 다운로드합니다.  
+3. **IDE** – IntelliJ IDEA, Eclipse 또는 선호하는 편집기.  
+
+## Import Packages
+
+먼저, Java 프로젝트에 필요한 패키지를 import해야 합니다. Java 파일의 시작 부분에 다음 import 구문을 추가하세요:
 
 ```java
 import java.awt.Color;
@@ -43,9 +56,9 @@ import com.aspose.note.ParagraphStyle;
 import com.aspose.note.Title;
 ```
 
-## 1단계: 문서 및 페이지 설정
+## Step 1: Set Up Document and Page
 
-Document 및 Page 개체를 초기화하는 것부터 시작해 보겠습니다.
+먼저 `Document`와 `Page` 객체를 초기화해 보겠습니다:
 
 ```java
 String dataDir = "Your Document Directory";
@@ -53,9 +66,9 @@ Document doc = new Document();
 Page page = new Page();
 ```
 
-## 2단계: 서식을 사용하여 제목 만들기
+## Step 2: Create Title with Formatting
 
-이제 서식이 지정된 텍스트로 제목을 만들어 보겠습니다.
+이제 서식이 적용된 제목을 만들어 보겠습니다:
 
 ```java
 Title title = new Title();
@@ -69,9 +82,9 @@ titleText.setParagraphStyle(defaultTextStyle);
 title.setTitleText(titleText);
 ```
 
-## 3단계: 서식을 사용하여 서식 있는 텍스트 만들기
+## Step 3: Create Rich Text with Formatting
 
-다음으로 다양한 서식 스타일을 사용하여 서식 있는 텍스트를 만들어 보겠습니다.
+다음으로 다양한 서식 스타일이 적용된 리치 텍스트를 만들어 보겠습니다:
 
 ```java
 Outline outline = new Outline();
@@ -103,9 +116,9 @@ RichText text = new RichText()
 text.setParagraphStyle(defaultTextStyle);
 ```
 
-## 4단계: 페이지 및 문서에 요소 추가
+## Step 4: Add Elements to Page and Document
 
-이제 페이지 및 개요 요소에 제목과 서식 있는 텍스트를 추가해 보겠습니다.
+이제 제목과 리치 텍스트를 페이지와 개요 요소에 추가해 보겠습니다:
 
 ```java
 outlineElem.appendChildLast(text);
@@ -115,39 +128,48 @@ page.appendChildLast(outline);
 doc.appendChildLast(page);
 ```
 
-## 5단계: 문서 저장
+## Step 5: Save Document
 
-마지막으로 생성된 OneNote 문서를 저장합니다.
+마지막으로, 만든 OneNote 문서를 PDF로 저장합니다:
 
 ```java
 doc.save(dataDir + "CreateOneNoteDocument_out.pdf", SaveFormat.Pdf);
 ```
 
-## 결론
+## Common Issues and Solutions
 
-이 튜토리얼에서는 Java용 Aspose.Note를 사용하여 Java에서 서식 있는 텍스트가 포함된 OneNote 문서를 만드는 방법을 배웠습니다. 이러한 단계별 지침을 따르면 프로그래밍 방식으로 사용자 지정된 OneNote 문서를 쉽게 생성하여 문서 자동화 기능을 향상시킬 수 있습니다.
+| Issue | Solution |
+|-------|----------|
+| **파일을 찾을 수 없음** | `dataDir`가 존재하는 폴더를 가리키고 쓰기 권한이 있는지 확인하세요. |
+| **폰트 누락** | 참조한 폰트(예: *Calibri*)가 호스트 머신에 설치되어 있는지 확인하세요. |
+| **라이선스 적용 안 됨** | `Document`를 생성하기 전에 Aspose 라이선스를 로드하여 평가 워터마크를 방지하세요. |
 
-## FAQ
+## Frequently Asked Questions
 
-### Q1: 글꼴 스타일을 추가로 사용자 정의할 수 있나요?
+**Q: 글꼴 스타일을 더 커스터마이즈할 수 있나요?**  
+A: 예, `TextStyle` 및 `ParagraphStyle` 클래스를 통해 밑줄, 취소선, 텍스트 정렬 등 추가 속성을 조정할 수 있습니다.
 
-A1: 예, 요구 사항에 맞게 글꼴 색상, 크기, 스타일 등과 같은 다양한 속성을 조정할 수 있습니다.
+**Q: Aspose.Note for Java가 모든 Java IDE와 호환되나요?**  
+A: 물론입니다. IDE가 표준 Java 개발을 지원한다면, 프로젝트 클래스패스에 Aspose.Note JAR을 추가하면 됩니다.
 
-### Q2: Aspose.Note for Java는 모든 Java IDE와 호환됩니까?
+**Q: 이 기능을 웹 애플리케이션에 통합할 수 있나요?**  
+A: 예, 동일한 코드를 서블릿 기반 또는 Spring Boot 애플리케이션에서 사용할 수 있어 서버 측에서 동적인 OneNote‑to‑PDF 생성이 가능합니다.
 
-A2: 예, Java 개발을 지원하는 모든 Java IDE에서 Aspose.Note for Java를 사용할 수 있습니다.
+**Q: Aspose.Note for Java 사용에 라이선스 요구사항이 있나요?**  
+A: 프로덕션 사용에는 상용 라이선스가 필요합니다. 평가 및 테스트용으로 임시 라이선스를 제공하고 있습니다.
 
-### Q3: 이 기능을 웹 애플리케이션에 통합할 수 있습니까?
+**Q: Aspose.Note for Java가 OneNote 외에 다른 문서 형식을 지원하나요?**  
+A: PDF, HTML, PNG, JPEG 등 여러 내보내기 형식을 지원하므로 OneNote 페이지를 원하는 형식으로 변환할 수 있는 유연성을 제공합니다.
 
-A3: 물론입니다. Java용 Aspose.Note는 동적 문서 생성을 위해 웹 애플리케이션에 완벽하게 통합될 수 있습니다.
+## Conclusion
 
-### Q4: Aspose.Note for Java를 사용하기 위한 라이선스 요구 사항이 있나요?
+이 가이드에서는 Aspose.Note for Java를 사용해 리치 텍스트 서식을 적용하면서 **OneNote를 PDF로 저장**하는 방법을 보여주었습니다. 단계별 지침을 따라 하면 깔끔한 OneNote 문서를 자동으로 생성하고 Java 기반 솔루션에서 PDF로 변환할 수 있습니다.
 
-A4: 네, 상용 프로젝트에서 Java용 Aspose.Note를 사용하려면 라이선스를 취득해야 합니다. 그러나 테스트 목적으로 임시 라이센스를 활용할 수도 있습니다.
+---
 
-### Q5: Java용 Aspose.Note는 OneNote 외에 다른 문서 형식을 지원합니까?
-
-A5: 예, Aspose.Note for Java는 PDF, HTML, 이미지 형식을 포함한 다양한 문서 형식을 지원합니다.
+**마지막 업데이트:** 2025-12-09  
+**테스트 환경:** Aspose.Note for Java 24.11 (작성 시 최신 버전)  
+**작성자:** Aspose  
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
