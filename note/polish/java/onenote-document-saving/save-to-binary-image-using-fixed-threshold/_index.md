@@ -92,28 +92,6 @@ Po uruchomieniu kodu znajdziesz plik PNG o nazwie `SaveToBinaryImageUsingFixedTh
 
 Pokazaliśmy **jak dostosować próg**, aby uzyskać czysty, wysokiego kontrastu PNG z pliku OneNote przy użyciu Aspose.Note for Java. Opanowując opcje **image binarization Java**, możesz niezawodnie **konwertować OneNote do PNG** i tworzyć **czarno‑białe zasoby OneNote** do OCR, druku lub cyfrowej konserwacji.
 
-## FAQ
-
-### Q1: Czy mogę dostosować wartość progu binaryzacji?
-
-A1: Tak, możesz zmienić wartość progu zgodnie z wymaganiami, modyfikując parametr metody `setBinarizationThreshold()`.
-
-### Q2: Czy Aspose.Note for Java jest kompatybilny ze wszystkimi wersjami Microsoft OneNote?
-
-A2: Aspose.Note for Java obsługuje różne wersje Microsoft OneNote, w tym 2010, 2013 i 2016.
-
-### Q3: Czy istnieją ograniczenia co do rozmiaru dokumentów, które można przetworzyć?
-
-A3: Aspose.Note for Java nie ma ograniczeń co do rozmiaru przetwarzanych dokumentów, co pozwala efektywnie obsługiwać duże pliki.
-
-### Q4: Czy mogę konwertować wiele dokumentów OneNote jednocześnie?
-
-A4: Tak, możesz przetwarzać wsadowo wiele dokumentów OneNote, iterując po każdym pliku i stosując niezbędne operacje.
-
-### Q5: Czy dostępne jest wsparcie techniczne dla Aspose.Note for Java?
-
-A5: Tak, wsparcie techniczne jest dostępne poprzez [Aspose.Note forum](https://forum.aspose.com/c/note/28), gdzie możesz zadawać pytania i uzyskać pomoc od ekspertów.
-
 ## Często zadawane pytania
 
 **Q: Co się stanie, jeśli ustawiam próg zbyt nisko?**  

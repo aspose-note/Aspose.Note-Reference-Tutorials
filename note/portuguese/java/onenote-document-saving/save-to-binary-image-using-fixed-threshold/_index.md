@@ -94,28 +94,6 @@ Mostramos **como ajustar o limiar** para produzir um PNG limpo e de alto contras
 
 ## Perguntas Frequentes
 
-### Q1: Posso ajustar o valor do limiar para binarização?
-
-R1: Sim, você pode ajustar o valor do limiar de acordo com suas necessidades modificando o parâmetro do método `setBinarizationThreshold()`.
-
-### Q2: O Aspose.Note para Java é compatível com todas as versões do Microsoft OneNote?
-
-R2: O Aspose.Note para Java suporta várias versões do Microsoft OneNote, incluindo 2010, 2013 e 2016.
-
-### Q3: Existem limitações quanto ao tamanho dos documentos que podem ser processados?
-
-R3: O Aspose.Note para Java não possui limitações de tamanho de documentos, permitindo que você manipule arquivos grandes de forma eficiente.
-
-### Q4: Posso converter vários documentos OneNote simultaneamente?
-
-R4: Sim, você pode processar em lote vários documentos OneNote iterando sobre cada arquivo e aplicando as operações necessárias.
-
-### Q5: O suporte técnico está disponível para o Aspose.Note para Java?
-
-R5: Sim, o suporte técnico está disponível através do [forum Aspose.Note](https://forum.aspose.com/c/note/28), onde você pode fazer perguntas e obter ajuda de especialistas.
-
-## Perguntas Frequentes
-
 **P: O que acontece se eu definir o limiar muito baixo?**  
 R: A imagem resultante pode ficar desbotada, com muitos tons de cinza retidos em vez de um contraste nítido preto‑e‑branco.
 

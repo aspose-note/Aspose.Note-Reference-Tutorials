@@ -92,28 +92,6 @@ Kodu çalıştırdıktan sonra, çıktı klasörünüzde `SaveToBinaryImageUsing
 
 **eşiği nasıl ayarlayacağınızı** gösterdik; Aspose.Note for Java kullanarak OneNote dosyasından temiz, yüksek kontrastlı bir PNG üretmek artık mümkün. **image binarization Java** seçeneklerini ustalaşarak **OneNote'u PNG'ye dönüştürebilir** ve OCR, baskı veya dijital koruma için **black and white OneNote** varlıkları oluşturabilirsiniz.
 
-## FAQ's
-
-### Q1: Binarizasyon için eşik değerini ayarlayabilir miyim?
-
-A1: Evet, `setBinarizationThreshold()` metodunun parametresini değiştirerek eşik değerini ihtiyacınıza göre ayarlayabilirsiniz.
-
-### Q2: Aspose.Note for Java, Microsoft OneNote'un tüm sürümleriyle uyumlu mu?
-
-A2: Aspose.Note for Java, Microsoft OneNote'un 2010, 2013 ve 2016 dahil olmak üzere çeşitli sürümlerini destekler.
-
-### Q3: İşlenebilecek belge boyutu üzerinde herhangi bir sınırlama var mı?
-
-A3: Aspose.Note for Java, işlenebilecek belge boyutu üzerinde bir sınırlama getirmez; büyük dosyaları da verimli bir şekilde yönetebilirsiniz.
-
-### Q4: Birden fazla OneNote belgesini aynı anda dönüştürebilir miyim?
-
-A4: Evet, her dosya üzerinde döngü kurarak ve gerekli işlemleri uygulayarak birden fazla OneNote belgesini toplu olarak işleyebilirsiniz.
-
-### Q5: Aspose.Note for Java için teknik destek mevcut mu?
-
-A5: Evet, teknik destek [Aspose.Note forumu](https://forum.aspose.com/c/note/28) üzerinden sağlanmaktadır; burada sorular sorabilir ve uzmanlardan yardım alabilirsiniz.
-
 ## Frequently Asked Questions
 
 **S: Eşiği çok düşük ayarlarsam ne olur?**  

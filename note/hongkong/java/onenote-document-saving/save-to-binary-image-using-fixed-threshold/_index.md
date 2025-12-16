@@ -99,28 +99,6 @@ oneFile.save(dataDir, options);
 
 我們示範了 **如何調整閾值**，以使用 Aspose.Note for Java 從 OneNote 檔案產生乾淨且高對比度的 PNG。掌握 **image binarization Java** 選項後，您即可可靠地 **convert OneNote to PNG**，並建立 **black and white OneNote** 資產，供 OCR、列印或數位保存使用。
 
-## FAQ's
-
-### Q1: 我可以調整二值化的閾值嗎？
-
-A1：可以，您可依需求調整閾值，只需修改 `setBinarizationThreshold()` 方法的參數。
-
-### Q2: Aspose.Note for Java 是否相容於所有 Microsoft OneNote 版本？
-
-A2：Aspose.Note for Java 支援多個 Microsoft OneNote 版本，包括 2010、2013 與 2016。
-
-### Q3: 可處理的文件大小是否有限制？
-
-A3：Aspose.Note for Java 對可處理的文件大小沒有任何限制，讓您能有效處理大型檔案。
-
-### Q4: 我可以同時轉換多個 OneNote 文件嗎？
-
-A4：可以，您可透過遍歷每個檔案並套用必要的操作，批次處理多個 OneNote 文件。
-
-### Q5: Aspose.Note for Java 是否提供技術支援？
-
-A5：是的，可透過 [Aspose.Note forum](https://forum.aspose.com/c/note/28) 獲得技術支援，您可在此提出問題並向專家尋求協助。
-
 ## Frequently Asked Questions
 
 **Q：如果將閾值設定得太低會發生什麼情況？**  

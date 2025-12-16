@@ -91,28 +91,6 @@ oneFile.save(dataDir, options);
 
 Aspose.Note for Java を使用して、**しきい値の調整** により OneNote ファイルからクリーンで高コントラストな PNG を生成する方法を示しました。**image binarization Java** オプションをマスターすれば、**OneNote を PNG に変換** でき、OCR、印刷、デジタル保存用の **black and white OneNote** 資産を安定して作成できます。
 
-## FAQ's
-
-### Q1: Can I adjust the threshold value for binarization?
-
-A1: はい、`setBinarizationThreshold()` メソッドのパラメータを変更することで、要件に合わせてしきい値を調整できます。
-
-### Q2: Is Aspose.Note for Java compatible with all versions of Microsoft OneNote?
-
-A2: Aspose.Note for Java は Microsoft OneNote の 2010、2013、2016 など複数バージョンをサポートしています。
-
-### Q3: Are there any limitations on the size of documents that can be processed?
-
-A3: Aspose.Note for Java には処理可能な文書サイズに制限がなく、大容量ファイルも効率的に扱えます。
-
-### Q4: Can I convert multiple OneNote documents simultaneously?
-
-A4: はい、各ファイルを順に処理するループを作成すれば、複数の OneNote 文書をバッチで変換できます。
-
-### Q5: Is technical support available for Aspose.Note for Java?
-
-A5: はい、[Aspose.Note forum](https://forum.aspose.com/c/note/28) で技術サポートが受けられ、専門家に質問や支援を依頼できます。
-
 ## Frequently Asked Questions
 
 **Q: What happens if I set the threshold too low?**  

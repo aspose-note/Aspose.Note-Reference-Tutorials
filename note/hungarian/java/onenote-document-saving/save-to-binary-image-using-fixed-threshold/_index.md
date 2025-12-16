@@ -92,28 +92,6 @@ A kód futtatása után egy `SaveToBinaryImageUsingFixedThreshold_out.png` nevű
 
 Bemutattuk, **hogyan állítsuk be a küszöböt**, hogy tiszta, magas kontrasztú PNG képet kapjunk egy OneNote fájlból az Aspose.Note for Java segítségével. A **image binarization Java** opciók elsajátításával megbízhatóan **konvertálhat OneNote‑t PNG‑re**, és **black and white OneNote** anyagokat hozhat létre OCR‑hez, nyomtatáshoz vagy digitális megőrzéshez.
 
-## GYIK
-
-### Q1: Módosíthatom a binárizálás küszöbértékét?
-
-A1: Igen, a `setBinarizationThreshold()` metódus paraméterének módosításával a saját igényei szerint állíthatja be a küszöböt.
-
-### Q2: Az Aspose.Note for Java kompatibilis-e a Microsoft OneNote minden verziójával?
-
-A2: Az Aspose.Note for Java támogatja a Microsoft OneNote különböző verzióit, beleértve a 2010, 2013 és 2016 kiadásokat.
-
-### Q3: Van korlátozás a feldolgozható dokumentumok méretére vonatkozóan?
-
-A3: Az Aspose.Note for Java nem korlátozza a feldolgozható dokumentumok méretét, így nagy fájlokkal is hatékonyan dolgozhat.
-
-### Q4: Több OneNote dokumentumot is konvertálhatok egyszerre?
-
-A4: Igen, több OneNote dokumentumot is batch‑feldolgozhat úgy, hogy végigiterál minden fájlon és alkalmazza a szükséges műveleteket.
-
-### Q5: Elérhető technikai támogatás az Aspose.Note for Java‑hoz?
-
-A5: Igen, technikai támogatás érhető el a [Aspose.Note fórumon](https://forum.aspose.com/c/note/28), ahol kérdéseket tehet fel és segítséget kaphat a szakértőktől.
-
 ## Gyakran Ismételt Kérdések
 
 **K: Mi történik, ha túl alacsonyra állítom a küszöböt?**  

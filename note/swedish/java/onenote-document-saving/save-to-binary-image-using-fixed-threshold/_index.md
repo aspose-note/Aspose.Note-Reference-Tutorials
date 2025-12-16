@@ -94,28 +94,6 @@ Vi har visat **hur man justerar tröskelvärdet** för att skapa en ren, högkon
 
 ## Vanliga frågor
 
-### Q1: Kan jag justera tröskelvärdet för binarisering?
-
-A1: Ja, du kan justera tröskelvärdet enligt dina krav genom att ändra parametern i metoden `setBinarizationThreshold()`.
-
-### Q2: Är Aspose.Note för Java kompatibel med alla versioner av Microsoft OneNote?
-
-A2: Aspose.Note för Java stödjer olika versioner av Microsoft OneNote inklusive 2010, 2013 och 2016.
-
-### Q3: Finns det några begränsningar för storleken på dokument som kan bearbetas?
-
-A3: Aspose.Note för Java har inga begränsningar för storleken på dokument som kan bearbetas, vilket gör att du kan hantera stora filer effektivt.
-
-### Q4: Kan jag konvertera flera OneNote‑dokument samtidigt?
-
-A4: Ja, du kan batch‑bearbeta flera OneNote‑dokument genom att iterera över varje fil och tillämpa de nödvändiga operationerna.
-
-### Q5: Finns teknisk support för Aspose.Note för Java?
-
-A5: Ja, teknisk support finns tillgänglig via [Aspose.Note forum](https://forum.aspose.com/c/note/28), där du kan ställa frågor och få hjälp av experter.
-
-## Vanliga frågor
-
 **Q: Vad händer om jag sätter tröskelvärdet för lågt?**  
 A: Den resulterande bilden kan bli urtvättad, med många gråtoner kvar istället för skarp svart‑vit kontrast.
 

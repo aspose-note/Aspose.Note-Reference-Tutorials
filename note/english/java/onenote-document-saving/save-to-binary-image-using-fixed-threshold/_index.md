@@ -90,28 +90,6 @@ After running the code, you’ll find a PNG file named `SaveToBinaryImageUsingFi
 
 We’ve shown **how to adjust threshold** to produce a clean, high‑contrast PNG from a OneNote file using Aspose.Note for Java. By mastering the **image binarization Java** options, you can reliably **convert OneNote to PNG** and create **black and white OneNote** assets for OCR, printing, or digital preservation.
 
-## FAQ's
-
-### Q1: Can I adjust the threshold value for binarization?
-
-A1: Yes, you can adjust the threshold value according to your requirements by modifying the `setBinarizationThreshold()` method parameter.
-
-### Q2: Is Aspose.Note for Java compatible with all versions of Microsoft OneNote?
-
-A2: Aspose.Note for Java supports various versions of Microsoft OneNote including 2010, 2013, and 2016.
-
-### Q3: Are there any limitations on the size of documents that can be processed?
-
-A3: Aspose.Note for Java has no limitations on the size of documents that can be processed, allowing you to handle large files efficiently.
-
-### Q4: Can I convert multiple OneNote documents simultaneously?
-
-A4: Yes, you can batch process multiple OneNote documents by iterating over each file and applying the necessary operations.
-
-### Q5: Is technical support available for Aspose.Note for Java?
-
-A5: Yes, technical support is available through the [Aspose.Note forum](https://forum.aspose.com/c/note/28), where you can ask questions and seek assistance from experts.
-
 ## Frequently Asked Questions
 
 **Q: What happens if I set the threshold too low?**  

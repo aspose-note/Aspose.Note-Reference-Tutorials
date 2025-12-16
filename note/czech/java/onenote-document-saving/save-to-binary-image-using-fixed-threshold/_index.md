@@ -93,28 +93,6 @@ Ukázali jsme **jak upravit práh**, abyste z OneNote souboru pomocí Aspose.Not
 
 ## Často kladené otázky
 
-### Q1: Mohu upravit hodnotu prahu pro binarizaci?
-
-A1: Ano, můžete upravit hodnotu prahu podle svých požadavků úpravou parametru metody `setBinarizationThreshold()`.
-
-### Q2: Je Aspose.Note pro Java kompatibilní se všemi verzemi Microsoft OneNote?
-
-A2: Aspose.Note pro Java podporuje různé verze Microsoft OneNote včetně 2010, 2013 a 2016.
-
-### Q3: Existují nějaká omezení velikosti dokumentů, které lze zpracovat?
-
-A3: Aspose.Note pro Java nemá žádná omezení velikosti dokumentů, které lze zpracovat, což vám umožní efektivně pracovat s velkými soubory.
-
-### Q4: Mohu převádět více OneNote dokumentů najednou?
-
-A4: Ano, můžete hromadně zpracovávat více OneNote dokumentů iterací přes každý soubor a aplikací potřebných operací.
-
-### Q5: Je k dispozici technická podpora pro Aspose.Note pro Java?
-
-A5: Ano, technická podpora je k dispozici prostřednictvím [fóra Aspose.Note](https://forum.aspose.com/c/note/28), kde můžete klást otázky a získat pomoc od odborníků.
-
-## Často kladené otázky
-
 **Q: Co se stane, když nastavím práh příliš nízko?**  
 A: Výsledný obrázek může vypadat vybledle, s mnoha šedými tóny místo ostrého černobílého kontrastu.
 

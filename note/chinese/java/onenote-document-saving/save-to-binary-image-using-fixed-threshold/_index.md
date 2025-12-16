@@ -93,28 +93,6 @@ oneFile.save(dataDir, options);
 
 ## 常见问题
 
-### Q1: 我可以调整二值化的阈值吗？
-
-A1: 可以，您只需修改 `setBinarizationThreshold()` 方法的参数即可根据需求调整阈值。
-
-### Q2: Aspose.Note for Java 是否兼容所有版本的 Microsoft OneNote？
-
-A2: Aspose.Note for Java 支持包括 2010、2013、2016 在内的多个 Microsoft OneNote 版本。
-
-### Q3: 对可处理的文档大小有任何限制吗？
-
-A3: Aspose.Note for Java 对文档大小没有限制，能够高效处理大型文件。
-
-### Q4: 我可以同时转换多个 OneNote 文档吗？
-
-A4: 可以，您可以遍历多个文件并对每个文件应用相同的操作，实现批量处理。
-
-### Q5: 是否提供 Aspose.Note for Java 的技术支持？
-
-A5: 是的，您可以通过 [Aspose.Note 论坛](https://forum.aspose.com/c/note/28) 提出问题，获取专家帮助。
-
-## Frequently Asked Questions
-
 **Q: 如果阈值设置得太低会怎样？**  
 A: 生成的图像可能显得颜色过淡色调，而不是清晰的黑白对比。
 

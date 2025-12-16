@@ -92,28 +92,6 @@ Después de ejecutar el código, encontrarás un archivo PNG llamado `SaveToBina
 
 Hemos demostrado **cómo ajustar el umbral** para producir un PNG limpio y de alto contraste a partir de un archivo OneNote usando Aspose.Note para Java. Al dominar las opciones de **image binarization Java**, puedes **convertir OneNote a PNG** de forma fiable y crear activos **black and white OneNote** para OCR, impresión o preservación digital.
 
-## Preguntas frecuentes
-
-### Q1: ¿Puedo ajustar el valor del umbral para la binarización?
-
-R1: Sí, puedes ajustar el valor del umbral según tus requisitos modificando el parámetro del método `setBinarizationThreshold()`.
-
-### Q2: ¿Es Aspose.Note para Java compatible con todas las versiones de Microsoft OneNote?
-
-R2: Aspose.Note para Java admite varias versiones de Microsoft OneNote, incluidas 2010, 2013 y 2016.
-
-### Q3: ¿Existen limitaciones en el tamaño de los documentos que pueden procesarse?
-
-R3: Aspose.Note para Java no tiene limitaciones de tamaño de documento, lo que te permite manejar archivos grandes de manera eficiente.
-
-### Q4: ¿Puedo convertir varios documentos OneNote simultáneamente?
-
-R4: Sí, puedes procesar por lotes varios documentos OneNote iterando sobre cada archivo y aplicando las operaciones necesarias.
-
-### Q5: ¿Está disponible el soporte técnico para Aspose.Note para Java?
-
-R5: Sí, el soporte técnico está disponible a través del [foro Aspose.Note](https://forum.aspose.com/c/note/28), donde puedes hacer preguntas y buscar asistencia de expertos.
-
 ## Preguntas frecuentes adicionales
 
 **P: ¿Qué ocurre si establezco el umbral demasiado bajo?**  

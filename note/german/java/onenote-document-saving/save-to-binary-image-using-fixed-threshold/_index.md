@@ -92,28 +92,6 @@ Nach dem Ausführen des Codes finden Sie eine PNG‑Datei namens `SaveToBinaryIm
 
 Wir haben gezeigt **wie man den Schwellenwert anpasst**, um aus einer OneNote‑Datei ein sauberes, hochkontrastiertes PNG mit Aspose.Note für Java zu erzeugen. Durch das Beherrschen der **image binarization Java**‑Optionen können Sie zuverlässig **OneNote zu PNG** konvertieren und **schwarz‑weiße OneNote**‑Assets für OCR, Druck oder digitale Langzeitarchivierung erstellen.
 
-## FAQ's
-
-### Q1: Kann ich den Schwellenwert für die Binarisierung anpassen?
-
-A1: Ja, Sie können den Schwellenwert nach Ihren Anforderungen anpassen, indem Sie den Parameter der Methode `setBinarizationThreshold()` ändern.
-
-### Q2: Ist Aspose.Note für Java mit allen Versionen von Microsoft OneNote kompatibel?
-
-A2: Aspose.Note für Java unterstützt verschiedene Versionen von Microsoft OneNote, einschließlich 2010, 2013 und 2016.
-
-### Q3: Gibt es Beschränkungen hinsichtlich der Dokumentgröße, die verarbeitet werden kann?
-
-A3: Aspose.Note für Java hat keine Beschränkungen bezüglich der Größe von Dokumenten, sodass Sie große Dateien effizient verarbeiten können.
-
-### Q4: Kann ich mehrere OneNote‑Dokumente gleichzeitig konvertieren?
-
-A4: Ja, Sie können mehrere OneNote‑Dokumente stapelweise verarbeiten, indem Sie über jede Datei iterieren und die erforderlichen Vorgänge anwenden.
-
-### Q5: Gibt es technischen Support für Aspose.Note für Java?
-
-A5: Ja, technischer Support ist über das [Aspose.Note‑Forum](https://forum.aspose.com/c/note/28) verfügbar, wo Sie Fragen stellen und Hilfe von Experten erhalten können.
-
 ## Häufig gestellte Fragen
 
 **F: Was passiert, wenn ich den Schwellenwert zu niedrig setze?**  
