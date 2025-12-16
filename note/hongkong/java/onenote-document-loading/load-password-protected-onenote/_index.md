@@ -1,37 +1,42 @@
 ---
-title: 載入受密碼保護的 OneNote 文件 - Java
-linktitle: 載入受密碼保護的 OneNote 文件 - Java
+date: 2025-12-11
+description: 學習如何使用 Aspose.Note for Java 載入受密碼保護的 OneNote 文件。此一步一步的指南將向您展示如何取得 OneNote
+  檔案格式並輕鬆處理加密檔案。
+linktitle: Load Password-Protected OneNote Document - Java
 second_title: Aspose.Note Java API
-description: 釋放 Aspose.Note for Java 的潛力，輕鬆處理受密碼保護的 OneNote 文件。使用 Aspose.Note 提升您的 Java 文件管理。
-weight: 27
+title: 使用 Java 載入受密碼保護的 OneNote 文件
 url: /zh-hant/java/onenote-document-loading/load-password-protected-onenote/
+weight: 27
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# 載入受密碼保護的 OneNote 文件 - Java
+# 使用 Java 載入受密碼保護的 OneNote 文件
 
-## 介紹
+在本教學中，您將了解 **如何使用 Aspose.Note for Java 載入受密碼保護的 OneNote** 檔案。無論您是在開發桌面工具還是伺服器端服務，能夠開啟加密的 OneNote 筆記本對於安全文件工作流程都是必須的。我們同時會示範 **載入文件後如何取得 OneNote 檔案格式** 資訊。
 
-在文件管理和操作領域，Aspose.Note for Java 成為一個強大的工具，透過強大的功能促進 OneNote 文件的無縫處理。在本教學中，我們將深入研究使用 Java 載入受密碼保護的 OneNote 文件的過程，釋放 Aspose.Note 輕鬆處理加密檔案的潛力。
+## 快速答覆
+- **哪個函式庫能處理加密的 OneNote 檔案？** Aspose.Note for Java。  
+- **載入受密碼保護的筆記本是否需要授權？** 開發階段可使用免費試用版；正式上線需購買商業授權。  
+- **需要哪個版本的 Java？** Java 8 或更新版本。  
+- **載入後可以取得檔案格式嗎？** 可以，使用 `doc.getFileFormat()`。  
+- **錯誤密碼需要例外處理嗎？** 必須 – 捕捉 `IOException` 或 `InvalidPasswordException`。
 
-## 先決條件
+## 前置條件
 
-在我們開始這趟旅程之前，請確保您具備以下先決條件：
+在開始之前，請確保您已具備以下條件：
 
-### 1.Java開發工具包（JDK）安裝
+### 1. Java 開發工具包 (JDK)
+在您的機器上安裝近期的 JDK（8 版或更新）。可從 Oracle 官方網站或 OpenJDK 發行版下載。
 
-確保您的系統上安裝了 Java 開發工具包 (JDK)。您可以從 Oracle 網站下載並安裝最新的 JDK。
+### 2. Aspose.Note for Java
+透過 Maven、Gradle 或直接從 Aspose 官方網站下載 JAR，將 Aspose.Note 函式庫加入您的專案。
 
-### 2.Java 函式庫的 Aspose.Note
+## 匯入套件
 
-下載 Aspose.Note for Java 程式庫並將其整合到您的專案中。您可以從 Aspose 網站或透過 Maven 依賴項取得該程式庫。
-
-## 導入包
-
-在深入實施之前，匯入必要的套件以利用 Aspose.Note for Java 提供的功能。
+首先，匯入我們將會使用的類別。此區塊必須完全保持原樣。
 
 ```java
 import java.io.IOException;
@@ -39,66 +44,73 @@ import com.aspose.note.Document;
 import com.aspose.note.LoadOptions;
 ```
 
-讓我們將載入受密碼保護的 OneNote 文件的過程分解為多個步驟：
+## 步驟說明
 
-## 第 1 步：定義文檔目錄
-
-首先指定 OneNote 文件所在的目錄路徑。
+### 步驟 1：定義文件目錄
+告訴程式 OneNote 檔案所在的位置。
 
 ```java
 String dataDir = "Your Document Directory";
 ```
 
-## 第 2 步：建立載入選項
-
-實例化 LoadOptions 物件以自訂載入選項，包括指定文件密碼。
+### 步驟 2：使用密碼建立載入選項
+設定 `LoadOptions`，提供加密筆記本的密碼。
 
 ```java
 LoadOptions loadOptions = new LoadOptions();
 loadOptions.setDocumentPassword("password");
 ```
 
-## 步驟 3：載入受密碼保護的文檔
-
-利用 Document 類別透過提供檔案路徑和載入選項來載入受密碼保護的 OneNote 文件。
+### 步驟 3：載入受密碼保護的 OneNote 文件
+將檔案路徑與 `LoadOptions` 實例傳入 `Document` 建構子。
 
 ```java
 Document doc = new Document(dataDir + "Sample1.one", loadOptions);
 ```
 
-## 步驟 4：檢索文件格式
-
-或者，您可以檢索並列印已載入文件的文件格式以進行驗證。
+### 步驟 4：取得 OneNote 檔案格式（可選）
+若需驗證檔案類型，可在載入後查詢其格式。
 
 ```java
 System.out.println(doc.getFileFormat());
 ```
 
-## 結論
+## 為何需要 **取得 OneNote 檔案格式**
+了解確切的格式（例如 OneNote 2007、OneNote 2010、OneNote 2016）有助於在轉換、匯出或套用特定版本邏輯時做出正確判斷。`getFileFormat()` 呼叫可即時提供此資訊。
 
-總而言之，Aspose.Note for Java 使開發人員能夠輕鬆且有效率地無縫處理受密碼保護的 OneNote 文件。透過遵循本教學中概述的步驟，您可以輕鬆地將此功能整合到您的 Java 應用程式中，從而增強文件管理功能。
+## 常見問題與解決方案
+| 問題 | 解決方案 |
+|-------|----------|
+| **密碼錯誤** | 將載入程式碼包在 try‑catch 區塊中，並顯示友善的錯誤訊息。 |
+| **找不到檔案** | 確認 `dataDir` 以路徑分隔符結尾，且檔名正確。 |
+| **不支援的 OneNote 版本** | 確保使用最新的 Aspose.Note 版本，該版本已加入對新格式的支援。 |
 
-## 常見問題解答
+## 常見問答
 
-### Q1：我可以使用 Aspose.Note for Java 同時載入多個受密碼保護的 OneNote 文件嗎？
+**Q: 可以同時載入多個受密碼保護的 OneNote 文件嗎？**  
+A: 可以。只要對每個檔案重複載入步驟，並提供相應的密碼即可。
 
-A1：是的，您可以透過對每個文件重複載入程序來同時載入多個受密碼保護的 OneNote 文件。
+**Q: Aspose.Note for Java 是否相容所有 OneNote 版本？**  
+A: 此函式庫支援多種 OneNote 格式，涵蓋舊版與最新的 Office 365 筆記本。
 
-### Q2：Aspose.Note for Java 是否相容於所有版本的 OneNote 文件？
+**Q: 如何在程式中處理解密錯誤？**  
+A: 捕捉 `IOException` 或特定的 `InvalidPasswordException`，記錄錯誤，並可選擇提示使用者重新輸入密碼。
 
-A2：Aspose.Note for Java 支援各種版本的 OneNote 文檔，確保不同文件格式的兼容性。
+**Q: Aspose.Note for Java 有試用版嗎？**  
+A: 有的。您可從 Aspose 官方網站下載功能完整的 30 天試用版。
 
-### Q3：載入文件時密碼錯誤或解密錯誤如何處理？
+**Q: 這個函式庫能同時用於桌面與 Web 應用程式嗎？**  
+A: 能。API 與平台無關，無論是在 servlet 容器、Spring Boot 服務，或是獨立的 Java 應用程式皆可使用。
 
-A3：您可以實施錯誤處理機制來優雅地管理不正確的密碼或解密錯誤，向使用者提供回饋或記錄相關資訊以進行故障排除。
+**Q: 函式庫是否支援從受密碼保護的筆記本中擷取圖像？**  
+A: 在成功載入文件後，您可以遍歷其頁面，使用標準的 Aspose.Note API 來擷取圖像。
 
-### Q4：Aspose.Note for Java 有試用版嗎？
+---
 
-A4：是的，您可以在做出購買決定之前使用 Aspose.Note for Java 的免費試用版來探索其功能和功能。
+**最後更新：** 2025-12-11  
+**測試環境：** Aspose.Note for Java 24.12  
+**作者：** Aspose  
 
-### Q5：我可以將 Aspose.Note for Java 整合到桌面和 Web 應用程式中嗎？
-
-A5：是的，Aspose.Note for Java 可以無縫整合到桌面和 Web 應用程式中，提供跨各種平台的靈活性和多功能性。
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

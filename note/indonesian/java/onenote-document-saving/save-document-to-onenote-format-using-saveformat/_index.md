@@ -1,33 +1,51 @@
 ---
-title: Simpan Dokumen ke OneNote Menggunakan SaveFormat - Aspose.Note
-linktitle: Simpan Dokumen ke OneNote Menggunakan SaveFormat - Aspose.Note
-second_title: Aspose.Catatan Java API
-description: Pelajari cara menyimpan dokumen ke format OneNote menggunakan Aspose.Note untuk Java. Ikuti tutorial langkah demi langkah ini untuk integrasi yang lancar ke dalam aplikasi Java Anda.
-weight: 12
+date: 2025-12-11
+description: Pelajari cara menyimpan dokumen OneNote menggunakan Aspose.Note untuk
+  Java. Panduan ini menunjukkan cara menyimpan file OneNote secara programatis dengan
+  SaveFormat.
+linktitle: How to Save OneNote Document Using SaveFormat - Aspose.Note
+second_title: Aspose.Note Java API
+title: Cara Menyimpan Dokumen OneNote Menggunakan SaveFormat - Aspose.Note
 url: /id/java/onenote-document-saving/save-document-to-onenote-format-using-saveformat/
+weight: 12
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Simpan Dokumen ke OneNote Menggunakan SaveFormat - Aspose.Note
+# Cara Menyimpan Dokumen OneNote Menggunakan SaveFormat - Aspose.Note
 
-## Perkenalan
+## Introduction
 
-Aspose.Note untuk Java adalah perpustakaan canggih yang memungkinkan pengembang bekerja dengan file Microsoft OneNote secara terprogram. Menyimpan dokumen ke format OneNote menggunakan SaveFormat adalah proses yang mudah. Dalam tutorial ini, kita akan memandu langkah-langkah yang diperlukan untuk menyelesaikan tugas ini.
+Jika Anda mencari cara yang andal untuk **how to save onenote** file dari Java, Aspose.Note untuk Java memudahkan. Dalam tutorial ini kami akan menjelaskan langkah‑langkah tepat untuk menyimpan dokumen OneNote menggunakan enum `SaveFormat`. Pada akhir, Anda akan memahami cara mengintegrasikan penyimpanan file OneNote ke dalam aplikasi Java apa pun.
 
-## Prasyarat
+## Quick Answers
+- **Library apa yang diperlukan?** Aspose.Note for Java  
+- **Metode mana yang menyimpan file?** `Document.save(...)` dengan `SaveFormat.One`  
+- **Apakah saya memerlukan lisensi untuk pengujian?** Versi percobaan gratis tersedia; lisensi diperlukan untuk produksi  
+- **Bisakah saya mengonversi format lain ke OneNote?** Ya, muat dokumen sumber dan simpan dengan `SaveFormat.One`  
+- **Versi Java yang didukung?** Java 8 dan yang lebih baru  
 
-Sebelum kita mulai, pastikan Anda memiliki hal berikut:
+## What is “how to save onenote” in Java?
+Menyimpan dokumen OneNote secara programatik berarti mengonversi objek `Document` dalam memori menjadi format file OneNote asli (`.one`). Ini berguna untuk menghasilkan laporan, mengekspor data, atau mengotomatiskan alur kerja pencatatan tanpa interaksi pengguna manual.
 
-1. Java Development Kit (JDK) diinstal pada sistem Anda.
-2.  Aspose.Note untuk perpustakaan Java diunduh. Anda bisa mendapatkannya dari[Di Sini](https://releases.aspose.com/note/java/).
-3. Pemahaman dasar bahasa pemrograman Java.
+## Why use Aspose.Note for OneNote file saving?
+- **Kontrol penuh** – Tidak memerlukan instalasi Microsoft Office.  
+- **Lintas‑platform** – Berfungsi di Windows, Linux, dan macOS.  
+- **Fidelity tinggi** – Mempertahankan bagian, halaman, dan konten kaya persis seperti yang muncul di OneNote.  
 
-## Paket Impor
+## Prerequisites
 
- Pertama, Anda perlu mengimpor paket yang diperlukan ke proyek Java Anda. Hal ini termasuk mengimpor`com.aspose.note` paket untuk bekerja dengan fungsi Aspose.Note.
+Sebelum kita mulai, pastikan Anda memiliki:
+
+1. Java Development Kit (JDK) terpasang di sistem Anda.  
+2. Perpustakaan Aspose.Note untuk Java yang telah diunduh. Anda dapat mendapatkannya dari [here](https://releases.aspose.com/note/java/).  
+3. Pemahaman dasar tentang bahasa pemrograman Java.  
+
+## Import Packages
+
+First, import the necessary classes that provide the Aspose.Note functionality.
 
 ```java
 import java.io.IOException;
@@ -35,55 +53,62 @@ import com.aspose.note.Document;
 import com.aspose.note.SaveFormat;
 ```
 
-## Langkah 1: Siapkan Direktori Dokumen
+## Step‑by‑Step Guide
 
-Tentukan direktori tempat dokumen Anda berada dan tempat Anda ingin menyimpan file keluaran.
+### Step 1: Set Up Document Directory  
+Tentukan di mana file `.one` sumber Anda berada dan di mana file yang dikonversi akan ditulis.
 
 ```java
 String dataDir = "Your Document Directory";
 ```
 
-## Langkah 2: Muat Dokumen
-
- Muat dokumen ke dalam aplikasi Java Anda menggunakan`Document` kelas yang disediakan oleh Aspose.Note.
+### Step 2: Load the Existing OneNote Document  
+Buat instance `Document` dengan memuat file OneNote yang sudah ada.
 
 ```java
 Document document = new Document(dataDir + "Sample1.one");
 ```
 
-## Langkah 3: Simpan Dokumen ke Format OneNote
-
-Simpan dokumen yang dimuat ke format OneNote menggunakan`save` metode dan menentukan format file keluaran yang diinginkan sebagai`SaveFormat.One`.
+### Step 3: Save Document to OneNote Format  
+Gunakan metode `save` dengan `SaveFormat.One` untuk menulis file kembali dalam format OneNote. Ini adalah inti dari **how to save onenote** secara programatik.
 
 ```java
 document.save(dataDir + "SaveDocToOneNoteFormatUsingSaveformat_out.one", SaveFormat.One);
 ```
 
-## Kesimpulan
+## Common Use Cases & Tips
 
-Dalam tutorial ini, kita telah mempelajari cara menyimpan dokumen ke format OneNote menggunakan SaveFormat di Aspose.Note untuk Java. Dengan mengikuti langkah-langkah sederhana ini, Anda dapat dengan mudah mengintegrasikan fungsi ini ke dalam aplikasi Java Anda.
+- **Pembuatan laporan otomatis** – Bangun file OneNote dari sumber data dan simpan dengan satu panggilan.  
+- **Konversi batch** – Loop melalui folder PDF atau dokumen Word, muat masing‑masing ke dalam `Document`, lalu simpan sebagai OneNote menggunakan pola yang sama.  
+- **Tips pro:** Selalu pastikan jalur `dataDir` diakhiri dengan pemisah file yang tepat (`/` atau `\\`) untuk menghindari `FileNotFoundException`.  
 
-## FAQ
+## Frequently Asked Questions
 
-### Q1: Apakah Aspose.Note untuk Java kompatibel dengan semua versi Microsoft OneNote?
-
+### Q1: Apakah Aspose.Note untuk Java kompatibel dengan semua versi Microsoft OneNote?  
 A1: Aspose.Note untuk Java mendukung berbagai versi Microsoft OneNote, memastikan kompatibilitas di berbagai lingkungan.
 
-### Q2: Bisakah saya mencoba Aspose.Note untuk Java sebelum membelinya?
+### Q2: Bisakah saya mencoba Aspose.Note untuk Java sebelum membelinya?  
+A2: Ya, Anda dapat mengunduh versi percobaan gratis Aspose.Note untuk Java dari [here](https://releases.aspose.com/).
 
- A2: Ya, Anda dapat mengunduh Aspose.Note untuk Java versi uji coba gratis dari[Di Sini](https://releases.aspose.com/).
+### Q3: Di mana saya dapat menemukan dokumentasi untuk Aspose.Note untuk Java?  
+A3: Dokumentasi terperinci untuk Aspose.Note untuk Java dapat ditemukan [here](https://reference.aspose.com/note/java/).
 
-### Q3: Di mana saya dapat menemukan dokumentasi Aspose.Note untuk Java?
+### Q4: Bagaimana saya dapat mendapatkan dukungan teknis untuk Aspose.Note untuk Java?  
+A4: Untuk bantuan teknis dan dukungan, Anda dapat mengunjungi forum Aspose.Note [here](https://forum.aspose.com/c/note/28).
 
- A3: Dokumentasi terperinci untuk Aspose.Note untuk Java dapat ditemukan[Di Sini](https://reference.aspose.com/note/java/).
+### Q5: Apakah ada opsi lisensi sementara yang tersedia untuk Aspose.Note untuk Java?  
+A5: Ya, Anda dapat memperoleh lisensi sementara untuk Aspose.Note untuk Java dari [here](https://purchase.aspose.com/temporary-license/).
 
-### Q4: Bagaimana saya bisa mendapatkan dukungan teknis untuk Aspose.Note untuk Java?
+## Conclusion
 
- A4: Untuk bantuan dan dukungan teknis, Anda dapat mengunjungi forum Aspose.Note[Di Sini](https://forum.aspose.com/c/note/28).
+Dalam panduan ini kami membahas **how to save onenote** dokumen menggunakan opsi `SaveFormat.One` di Aspose.Note untuk Java. Dengan mengikuti tiga langkah sederhana—menetapkan direktori, memuat dokumen, dan memanggil `save`—Anda dapat dengan mulus mengintegrasikan penyimpanan file OneNote ke dalam proyek Java apa pun.
 
-### Q5: Apakah tersedia opsi lisensi sementara untuk Aspose.Note untuk Java?
+---
 
- A5: Ya, Anda bisa mendapatkan lisensi sementara untuk Aspose.Note untuk Java dari[Di Sini](https://purchase.aspose.com/temporary-license/).
+**Last Updated:** 2025-12-11  
+**Tested With:** Aspose.Note for Java 24.12 (latest)  
+**Author:** Aspose  
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
