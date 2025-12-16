@@ -3,11 +3,10 @@ date: 2025-12-08
 description: Naučte se, jak nastavit styl odstavce a přidat prvek osnovy při vytváření
   dokumentů OneNote v Javě pomocí Aspose.Note. Exportujte OneNote do PDF a snadno
   generujte soubory OneNote.
-language: cs
 linktitle: Set Paragraph Style while Creating OneNote Document in Java
 second_title: Aspose.Note Java API
 title: Nastavit styl odstavce při vytváření dokumentu OneNote v Javě
-url: /java/onenote-document-manipulation/create-onenote-document-simple-rich-text/
+url: /cs/java/onenote-document-manipulation/create-onenote-document-simple-rich-text/
 weight: 12
 ---
 

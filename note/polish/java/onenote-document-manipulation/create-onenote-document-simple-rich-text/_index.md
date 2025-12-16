@@ -3,11 +3,10 @@ date: 2025-12-08
 description: Dowiedz się, jak ustawić styl akapitu i dodać element konspektu podczas
   tworzenia dokumentów OneNote w języku Java przy użyciu Aspose.Note. Eksportuj OneNote
   do PDF i generuj pliki OneNote bez wysiłku.
-language: pl
 linktitle: Set Paragraph Style while Creating OneNote Document in Java
 second_title: Aspose.Note Java API
 title: Ustaw styl akapitu podczas tworzenia dokumentu OneNote w Javie
-url: /java/onenote-document-manipulation/create-onenote-document-simple-rich-text/
+url: /pl/java/onenote-document-manipulation/create-onenote-document-simple-rich-text/
 weight: 12
 ---
 

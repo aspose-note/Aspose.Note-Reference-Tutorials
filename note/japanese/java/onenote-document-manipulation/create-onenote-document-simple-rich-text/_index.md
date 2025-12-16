@@ -2,11 +2,10 @@
 date: 2025-12-08
 description: Aspose.Note を使用して Java で OneNote ドキュメントを作成する際の段落スタイル設定とアウトライン要素の追加方法を学びます。OneNote
   を PDF にエクスポートし、OneNote ファイルを手軽に生成できます。
-language: ja
 linktitle: Set Paragraph Style while Creating OneNote Document in Java
 second_title: Aspose.Note Java API
 title: JavaでOneNoteドキュメントを作成する際に段落スタイルを設定する
-url: /java/onenote-document-manipulation/create-onenote-document-simple-rich-text/
+url: /ja/java/onenote-document-manipulation/create-onenote-document-simple-rich-text/
 weight: 12
 ---
 

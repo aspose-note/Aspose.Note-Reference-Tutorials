@@ -3,11 +3,10 @@ date: 2025-12-08
 description: เรียนรู้วิธีตั้งค่ารูปแบบย่อหน้าและเพิ่มองค์ประกอบโครงร่างเมื่อสร้างเอกสาร
   OneNote ด้วย Java โดยใช้ Aspose.Note ส่งออก OneNote เป็น PDF และสร้างไฟล์ OneNote
   อย่างง่ายดาย
-language: th
 linktitle: Set Paragraph Style while Creating OneNote Document in Java
 second_title: Aspose.Note Java API
 title: ตั้งค่ารูปแบบย่อหน้าในขณะสร้างเอกสาร OneNote ด้วย Java
-url: /java/onenote-document-manipulation/create-onenote-document-simple-rich-text/
+url: /th/java/onenote-document-manipulation/create-onenote-document-simple-rich-text/
 weight: 12
 ---
 

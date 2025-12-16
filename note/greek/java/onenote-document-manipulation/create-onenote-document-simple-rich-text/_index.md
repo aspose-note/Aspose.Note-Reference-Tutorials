@@ -3,11 +3,10 @@ date: 2025-12-08
 description: Μάθετε πώς να ορίζετε το στυλ παραγράφου και να προσθέτετε στοιχείο περιγράμματος
   κατά τη δημιουργία εγγράφων OneNote σε Java χρησιμοποιώντας το Aspose.Note. Εξάγετε
   το OneNote σε PDF και δημιουργήστε αρχεία OneNote με ευκολία.
-language: el
 linktitle: Set Paragraph Style while Creating OneNote Document in Java
 second_title: Aspose.Note Java API
 title: Ορισμός στυλ παραγράφου κατά τη δημιουργία εγγράφου OneNote σε Java
-url: /java/onenote-document-manipulation/create-onenote-document-simple-rich-text/
+url: /el/java/onenote-document-manipulation/create-onenote-document-simple-rich-text/
 weight: 12
 ---
 

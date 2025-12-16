@@ -2,11 +2,10 @@
 date: 2025-12-08
 description: 学习如何在使用 Aspose.Note 的 Java 中创建 OneNote 文档时设置段落样式并添加大纲元素。轻松将 OneNote 导出为
   PDF 并生成 OneNote 文件。
-language: zh
 linktitle: Set Paragraph Style while Creating OneNote Document in Java
 second_title: Aspose.Note Java API
 title: 在 Java 中创建 OneNote 文档时设置段落样式
-url: /java/onenote-document-manipulation/create-onenote-document-simple-rich-text/
+url: /zh/java/onenote-document-manipulation/create-onenote-document-simple-rich-text/
 weight: 12
 ---
 

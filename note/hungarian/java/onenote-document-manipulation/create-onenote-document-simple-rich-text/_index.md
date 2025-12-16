@@ -3,11 +3,10 @@ date: 2025-12-08
 description: Ismerje meg, hogyan állíthat be bekezdésstílust és adhat hozzá vázlat
   elemet a OneNote dokumentumok Java-ban történő létrehozásakor az Aspose.Note használatával.
   Exportálja a OneNote-ot PDF-be, és könnyedén generáljon OneNote fájlokat.
-language: hu
 linktitle: Set Paragraph Style while Creating OneNote Document in Java
 second_title: Aspose.Note Java API
 title: Bekezdés stílusának beállítása OneNote-dokumentum létrehozásakor Java-ban
-url: /java/onenote-document-manipulation/create-onenote-document-simple-rich-text/
+url: /hu/java/onenote-document-manipulation/create-onenote-document-simple-rich-text/
 weight: 12
 ---
 

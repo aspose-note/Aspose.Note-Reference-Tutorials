@@ -3,11 +3,10 @@ date: 2025-12-08
 description: Aprenda a definir o estilo de parágrafo e adicionar elemento de contorno
   ao criar documentos do OneNote em Java usando Aspose.Note. Exporte o OneNote para
   PDF e gere arquivos do OneNote sem esforço.
-language: pt
 linktitle: Set Paragraph Style while Creating OneNote Document in Java
 second_title: Aspose.Note Java API
 title: Definir estilo de parágrafo ao criar documento OneNote em Java
-url: /java/onenote-document-manipulation/create-onenote-document-simple-rich-text/
+url: /pt/java/onenote-document-manipulation/create-onenote-document-simple-rich-text/
 weight: 12
 ---
 

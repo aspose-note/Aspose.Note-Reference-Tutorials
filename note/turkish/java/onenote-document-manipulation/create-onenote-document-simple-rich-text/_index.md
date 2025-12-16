@@ -3,11 +3,10 @@ date: 2025-12-08
 description: Aspose.Note kullanarak Java’da OneNote belgeleri oluştururken paragraf
   stilini nasıl ayarlayacağınızı ve taslak öğesi ekleyeceğinizi öğrenin. OneNote’u
   PDF’ye dışa aktarın ve OneNote dosyalarını zahmetsizce oluşturun.
-language: tr
 linktitle: Set Paragraph Style while Creating OneNote Document in Java
 second_title: Aspose.Note Java API
 title: Java'da OneNote Belgesi Oluştururken Paragraf Stili Ayarla
-url: /java/onenote-document-manipulation/create-onenote-document-simple-rich-text/
+url: /tr/java/onenote-document-manipulation/create-onenote-document-simple-rich-text/
 weight: 12
 ---
 

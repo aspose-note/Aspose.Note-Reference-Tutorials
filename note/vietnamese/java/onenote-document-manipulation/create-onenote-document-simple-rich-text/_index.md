@@ -3,11 +3,10 @@ date: 2025-12-08
 description: Tìm hiểu cách đặt kiểu đoạn văn và thêm phần tử đề mục khi tạo tài liệu
   OneNote bằng Java sử dụng Aspose.Note. Xuất OneNote sang PDF và tạo tệp OneNote
   một cách dễ dàng.
-language: vi
 linktitle: Set Paragraph Style while Creating OneNote Document in Java
 second_title: Aspose.Note Java API
 title: Đặt kiểu đoạn văn khi tạo tài liệu OneNote bằng Java
-url: /java/onenote-document-manipulation/create-onenote-document-simple-rich-text/
+url: /vi/java/onenote-document-manipulation/create-onenote-document-simple-rich-text/
 weight: 12
 ---
 

@@ -2,11 +2,10 @@
 date: 2025-12-08
 description: Aspose.Note를 사용하여 Java에서 OneNote 문서를 만들 때 단락 스타일을 설정하고 개요 요소를 추가하는 방법을
   배워보세요. OneNote를 PDF로 내보내고 OneNote 파일을 손쉽게 생성하세요.
-language: ko
 linktitle: Set Paragraph Style while Creating OneNote Document in Java
 second_title: Aspose.Note Java API
 title: Java에서 OneNote 문서를 만들면서 단락 스타일 설정
-url: /java/onenote-document-manipulation/create-onenote-document-simple-rich-text/
+url: /ko/java/onenote-document-manipulation/create-onenote-document-simple-rich-text/
 weight: 12
 ---
 

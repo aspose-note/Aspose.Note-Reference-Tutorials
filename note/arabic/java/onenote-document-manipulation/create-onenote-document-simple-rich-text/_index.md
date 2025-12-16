@@ -2,11 +2,10 @@
 date: 2025-12-08
 description: تعلم كيفية تعيين نمط الفقرة وإضافة عنصر المخطط عند إنشاء مستندات OneNote
   في Java باستخدام Aspose.Note. قم بتصدير OneNote إلى PDF وإنشاء ملفات OneNote بسهولة.
-language: ar
 linktitle: Set Paragraph Style while Creating OneNote Document in Java
 second_title: Aspose.Note Java API
 title: تعيين نمط الفقرة أثناء إنشاء مستند OneNote في Java
-url: /java/onenote-document-manipulation/create-onenote-document-simple-rich-text/
+url: /ar/java/onenote-document-manipulation/create-onenote-document-simple-rich-text/
 weight: 12
 ---
 

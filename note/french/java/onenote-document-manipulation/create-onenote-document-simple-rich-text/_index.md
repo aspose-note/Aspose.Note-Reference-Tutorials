@@ -3,12 +3,11 @@ date: 2025-12-08
 description: Apprenez à définir le style de paragraphe et à ajouter un élément de
   plan lors de la création de documents OneNote en Java avec Aspose.Note. Exportez
   OneNote en PDF et générez des fichiers OneNote sans effort.
-language: fr
 linktitle: Set Paragraph Style while Creating OneNote Document in Java
 second_title: Aspose.Note Java API
 title: Définir le style de paragraphe lors de la création d'un document OneNote en
   Java
-url: /java/onenote-document-manipulation/create-onenote-document-simple-rich-text/
+url: /fr/java/onenote-document-manipulation/create-onenote-document-simple-rich-text/
 weight: 12
 ---
 

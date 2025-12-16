@@ -3,11 +3,10 @@ date: 2025-12-08
 description: Узнайте, как задавать стиль абзаца и добавлять элементы контура при создании
   документов OneNote на Java с использованием Aspose.Note. Экспортируйте OneNote в
   PDF и создавайте файлы OneNote без усилий.
-language: ru
 linktitle: Set Paragraph Style while Creating OneNote Document in Java
 second_title: Aspose.Note Java API
 title: Установить стиль абзаца при создании документа OneNote в Java
-url: /java/onenote-document-manipulation/create-onenote-document-simple-rich-text/
+url: /ru/java/onenote-document-manipulation/create-onenote-document-simple-rich-text/
 weight: 12
 ---
 

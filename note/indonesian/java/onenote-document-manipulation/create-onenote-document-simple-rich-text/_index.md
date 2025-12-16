@@ -3,11 +3,10 @@ date: 2025-12-08
 description: Pelajari cara mengatur gaya paragraf dan menambahkan elemen outline saat
   membuat dokumen OneNote dalam Java menggunakan Aspose.Note. Ekspor OneNote ke PDF
   dan buat file OneNote dengan mudah.
-language: id
 linktitle: Set Paragraph Style while Creating OneNote Document in Java
 second_title: Aspose.Note Java API
 title: Atur Gaya Paragraf saat Membuat Dokumen OneNote dalam Java
-url: /java/onenote-document-manipulation/create-onenote-document-simple-rich-text/
+url: /id/java/onenote-document-manipulation/create-onenote-document-simple-rich-text/
 weight: 12
 ---
 

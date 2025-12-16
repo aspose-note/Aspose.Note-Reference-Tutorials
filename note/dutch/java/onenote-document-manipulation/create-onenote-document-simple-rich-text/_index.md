@@ -3,11 +3,10 @@ date: 2025-12-08
 description: Leer hoe u alinea‑stijl instelt en een outline‑element toevoegt bij het
   maken van OneNote‑documenten in Java met Aspose.Note. Exporteer OneNote naar PDF
   en genereer moeiteloos OneNote‑bestanden.
-language: nl
 linktitle: Set Paragraph Style while Creating OneNote Document in Java
 second_title: Aspose.Note Java API
 title: Paragraafstijl instellen tijdens het maken van een OneNote‑document in Java
-url: /java/onenote-document-manipulation/create-onenote-document-simple-rich-text/
+url: /nl/java/onenote-document-manipulation/create-onenote-document-simple-rich-text/
 weight: 12
 ---
 

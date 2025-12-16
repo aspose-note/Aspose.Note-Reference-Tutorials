@@ -3,11 +3,10 @@ date: 2025-12-08
 description: जावा में Aspose.Note का उपयोग करके OneNote दस्तावेज़ बनाते समय पैराग्राफ
   शैली सेट करना और आउटलाइन तत्व जोड़ना सीखें। OneNote को PDF में निर्यात करें और आसानी
   से OneNote फ़ाइलें जनरेट करें।
-language: hi
 linktitle: Set Paragraph Style while Creating OneNote Document in Java
 second_title: Aspose.Note Java API
 title: जावा में वननोट दस्तावेज़ बनाते समय पैराग्राफ शैली सेट करें
-url: /java/onenote-document-manipulation/create-onenote-document-simple-rich-text/
+url: /hi/java/onenote-document-manipulation/create-onenote-document-simple-rich-text/
 weight: 12
 ---
 

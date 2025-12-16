@@ -3,11 +3,10 @@ date: 2025-12-08
 description: Aprenda a establecer el estilo de párrafo y agregar elementos de esquema
   al crear documentos de OneNote en Java usando Aspose.Note. Exporte OneNote a PDF
   y genere archivos de OneNote sin esfuerzo.
-language: es
 linktitle: Set Paragraph Style while Creating OneNote Document in Java
 second_title: Aspose.Note Java API
 title: Establecer estilo de párrafo al crear un documento de OneNote en Java
-url: /java/onenote-document-manipulation/create-onenote-document-simple-rich-text/
+url: /es/java/onenote-document-manipulation/create-onenote-document-simple-rich-text/
 weight: 12
 ---
 

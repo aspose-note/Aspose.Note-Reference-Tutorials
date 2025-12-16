@@ -3,11 +3,10 @@ date: 2025-12-08
 description: Erfahren Sie, wie Sie beim Erstellen von OneNote‑Dokumenten in Java mit
   Aspose.Note den Absatzstil festlegen und ein Gliederungselement hinzufügen. Exportieren
   Sie OneNote nach PDF und erstellen Sie mühelos OneNote‑Dateien.
-language: de
 linktitle: Set Paragraph Style while Creating OneNote Document in Java
 second_title: Aspose.Note Java API
 title: Absatzstil beim Erstellen eines OneNote-Dokuments in Java festlegen
-url: /java/onenote-document-manipulation/create-onenote-document-simple-rich-text/
+url: /de/java/onenote-document-manipulation/create-onenote-document-simple-rich-text/
 weight: 12
 ---
 

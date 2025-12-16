@@ -3,11 +3,10 @@ date: 2025-12-08
 description: Lär dig hur du ställer in styckeformat och lägger till ett konturelement
   när du skapar OneNote‑dokument i Java med Aspose.Note. Exportera OneNote till PDF
   och generera OneNote‑filer utan ansträngning.
-language: sv
 linktitle: Set Paragraph Style while Creating OneNote Document in Java
 second_title: Aspose.Note Java API
 title: Ställ in styckeformat när du skapar OneNote‑dokument i Java
-url: /java/onenote-document-manipulation/create-onenote-document-simple-rich-text/
+url: /sv/java/onenote-document-manipulation/create-onenote-document-simple-rich-text/
 weight: 12
 ---
 
