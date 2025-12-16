@@ -98,17 +98,15 @@ A: 当然可以 – 从 [here](https://releases.aspose.com/) 下载免费试用�
 **Q: 如何获取用于评估的临时许可证？**  
 A: 可在 [here](https://purchase.aspose.com/temporary-license/) 申请临时评估许可证。
 
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}
-
 ---
 
 **最后更新：** 2025-12-09  
 **测试环境：** Aspose.Note for Java 24.12（最新）  
 **作者：** Aspose  
 
----
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

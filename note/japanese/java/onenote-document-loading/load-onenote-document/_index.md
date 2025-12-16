@@ -97,17 +97,15 @@ A: もちろんです – 無料トライアルは [こちら](https://releases.
 **Q: 評価用の一時ライセンスはどのように取得できますか？**  
 A: 評価用の一時ライセンスは [こちら](https://purchase.aspose.com/temporary-license/) からリクエストしてください。
 
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}
-
 ---
 
 **最終更新日:** 2025-12-09  
 **テスト環境:** Aspose.Note for Java 24.12 (latest)  
 **作者:** Aspose  
 
----
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -99,15 +99,15 @@ A: Απολύτως – κατεβάστε τη δωρεάν δοκιμή από
 **Q: Πώς μπορώ να αποκτήσω προσωρινή άδεια για αξιολόγηση;**  
 A: Ζητήστε μια προσωρινή άδεια αξιολόγησης από [here](https://purchase.aspose.com/temporary-license/).
 
+---
+
+**Τελευταία Ενημέρωση:** 2025-12-09  
+**Δοκιμάστηκε Με:** Aspose.Note for Java 24.12 (latest)  
+**Συγγραφέας:** Aspose
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
-
----
-
-**Τελευταία Ενημέρωση:** 2025-12-09  
-**Δοκιμάστηκε Με:** Aspose.Note for Java 24.12 (latest)  
-**Συγγραφέας:** Aspose

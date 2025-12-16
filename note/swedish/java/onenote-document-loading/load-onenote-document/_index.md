@@ -99,17 +99,15 @@ A: Absolut – ladda ner gratis provversion från [here](https://releases.aspose
 **Q: Hur kan jag få en tillfällig licens för utvärdering?**  
 A: Begär en tillfällig utvärderingslicens från [here](https://purchase.aspose.com/temporary-license/).
 
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}
-
 ---
 
 **Senast uppdaterad:** 2025-12-09  
 **Testad med:** Aspose.Note för Java 24.12 (latest)  
 **Författare:** Aspose  
 
----
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

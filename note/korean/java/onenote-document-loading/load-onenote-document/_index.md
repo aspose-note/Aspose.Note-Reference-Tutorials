@@ -99,17 +99,15 @@ A: 물론입니다 – [여기](https://releases.aspose.com/)에서 무료 체�
 **Q: 평가용 임시 라이선스를 어떻게 얻을 수 있나요?**  
 A: [여기](https://purchase.aspose.com/temporary-license/)에서 임시 평가 라이선스를 요청하십시오.
 
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}
-
 ---
 
 **마지막 업데이트:** 2025-12-09  
 **테스트 환경:** Aspose.Note for Java 24.12 (최신)  
 **작성자:** Aspose  
 
----
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

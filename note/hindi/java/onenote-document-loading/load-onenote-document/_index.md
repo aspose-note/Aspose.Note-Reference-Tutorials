@@ -99,17 +99,15 @@ System.out.println(oneFile.getFileFormat());
 **प्रश्न:** मूल्यांकन के लिए अस्थायी लाइसेंस कैसे प्राप्त कर सकता हूँ?  
 **उत्तर:** अस्थायी मूल्यांकन लाइसेंस के लिए [यहाँ](https://purchase.aspose.com/temporary-license/) अनुरोध करें।
 
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}
-
 ---
 
 **अंतिम अपडेट:** 2025-12-09  
 **परीक्षित संस्करण:** Aspose.Note for Java 24.12 (latest)  
 **लेखक:** Aspose  
 
----
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -99,17 +99,15 @@ A: Oczywiście – pobierz darmową wersję próbną z [tutaj](https://releases.
 **Q: Jak mogę uzyskać tymczasową licencję do ewaluacji?**  
 A: Poproś o tymczasową licencję ewaluacyjną z [tutaj](https://purchase.aspose.com/temporary-license/).
 
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}
-
 ---
 
 **Ostatnia aktualizacja:** 2025-12-09  
 **Testowano z:** Aspose.Note for Java 24.12 (latest)  
 **Autor:** Aspose  
 
----
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -99,17 +99,15 @@ R: Assolutamente – scarica la versione di prova gratuita da [qui](https://rele
 **D: Come posso ottenere una licenza temporanea per la valutazione?**  
 R: Richiedi una licenza di valutazione temporanea da [qui](https://purchase.aspose.com/temporary-license/).
 
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}
-
 ---
 
 **Ultimo aggiornamento:** 2025-12-09  
 **Testato con:** Aspose.Note per Java 24.12 (latest)  
 **Autore:** Aspose  
 
----
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

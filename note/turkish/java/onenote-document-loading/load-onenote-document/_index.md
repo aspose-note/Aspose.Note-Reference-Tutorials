@@ -100,17 +100,15 @@ C: Kesinlikle – ücretsiz deneme sürümünü [buradan](https://releases.aspos
 **S: Değerlendirme için geçici bir lisans nasıl alabilirim?**  
 C: [buradan](https://purchase.aspose.com/temporary-license/) geçici değerlendirme lisansı talep edebilirsiniz.
 
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}
-
 ---
 
 **Son Güncelleme:** 2025-12-09  
 **Test Edilen Versiyon:** Aspose.Note for Java 24.12 (en yeni)  
 **Yazar:** Aspose  
 
----
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

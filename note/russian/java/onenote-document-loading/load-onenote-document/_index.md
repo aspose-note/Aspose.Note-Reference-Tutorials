@@ -99,17 +99,15 @@ System.out.println(oneFile.getFileFormat());
 **В: Как получить временную лицензию для оценки?**  
 **О:** Запросите временную лицензию для оценки по ссылке [here](https://purchase.aspose.com/temporary-license/).
 
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}
-
 ---
 
 **Последнее обновление:** 2025-12-09  
 **Тестировано с:** Aspose.Note for Java 24.12 (latest)  
 **Автор:** Aspose  
 
----
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

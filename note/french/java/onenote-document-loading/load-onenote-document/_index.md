@@ -99,15 +99,15 @@ A : Absolument – téléchargez l’essai gratuit depuis [ici](https://releases
 **Q : Comment puis‑je obtenir une licence temporaire pour l’évaluation ?**  
 A : Demandez une licence d’évaluation temporaire depuis [ici](https://purchase.aspose.com/temporary-license/).
 
+---
+
+**Dernière mise à jour :** 2025-12-09  
+**Testé avec :** Aspose.Note for Java 24.12 (latest)  
+**Auteur :** Aspose
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
-
----
-
-**Dernière mise à jour :** 2025-12-09  
-**Testé avec :** Aspose.Note for Java 24.12 (latest)  
-**Auteur :** Aspose

@@ -98,15 +98,15 @@ A: 當然可以 – 可從 [here](https://releases.aspose.com/) 下載免費試�
 **Q: 我要如何取得臨時評估授權？**  
 A: 可從 [here](https://purchase.aspose.com/temporary-license/) 申請臨時評估授權。
 
+---
+
+**最後更新：** 2025-12-09  
+**測試環境：** Aspose.Note for Java 24.12 (latest)  
+**作者：** Aspose
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
-
----
-
-**最後更新：** 2025-12-09  
-**測試環境：** Aspose.Note for Java 24.12 (latest)  
-**作者：** Aspose

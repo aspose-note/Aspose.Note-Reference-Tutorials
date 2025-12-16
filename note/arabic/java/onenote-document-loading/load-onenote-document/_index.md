@@ -99,15 +99,15 @@ System.out.println(oneFile.getFileFormat());
 **س: كيف يمكنني الحصول على ترخيص مؤقت للتقييم؟**  
 ج: اطلب ترخيص تقييم مؤقت من [here](https://purchase.aspose.com/temporary-license/).
 
+---
+
+**آخر تحديث:** 2025-12-09  
+**تم الاختبار باستخدام:** Aspose.Note for Java 24.12 (latest)  
+**المؤلف:** Aspose
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
-
----
-
-**آخر تحديث:** 2025-12-09  
-**تم الاختبار باستخدام:** Aspose.Note for Java 24.12 (latest)  
-**المؤلف:** Aspose

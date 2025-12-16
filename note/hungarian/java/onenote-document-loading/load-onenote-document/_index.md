@@ -100,17 +100,15 @@ V: Természetesen – töltsd le az ingyenes próbaverziót [ide](https://releas
 **K: Hogyan szerezhetek ideiglenes licencet értékeléshez?**  
 V: Kérj ideiglenes értékelési licencet [ide](https://purchase.aspose.com/temporary-license/).
 
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}
-
 ---
 
 **Utolsó frissítés:** 2025-12-09  
 **Tesztelve ezzel:** Aspose.Note for Java 24.12 (latest)  
 **Szerző:** Aspose  
 
----
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}
