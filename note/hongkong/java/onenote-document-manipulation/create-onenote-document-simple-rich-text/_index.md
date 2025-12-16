@@ -1,35 +1,52 @@
 ---
-title: 使用 Java 建立具有簡單富文本的 OneNote 文檔
-linktitle: 使用 Java 建立具有簡單富文本的 OneNote 文檔
+date: 2025-12-08
+description: 學習如何在 Java 中使用 Aspose.Note 設定段落樣式並新增大綱元素以建立 OneNote 文件。輕鬆將 OneNote 匯出為
+  PDF 並產生 OneNote 檔案。
+linktitle: Set Paragraph Style while Creating OneNote Document in Java
 second_title: Aspose.Note Java API
-description: 了解如何使用 Aspose.Note Java 建立具有富文本的 OneNote 文件。將此功能整合到您的 Java 應用程式中以實現高效的文件管理。
-weight: 12
+title: 在 Java 中建立 OneNote 文件時設定段落樣式
 url: /zh-hant/java/onenote-document-manipulation/create-onenote-document-simple-rich-text/
+weight: 12
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# 使用 Java 建立具有簡單富文本的 OneNote 文檔
+# 在 Java 中建立 OneNote 文件時設定段落樣式
 
 ## 介紹
 
-在當今的數位時代，有效管理和操作文件的需求至關重要。 Aspose.Note for Java 成為一個強大的工具，可讓開發人員在 Java 應用程式中無縫地使用 OneNote 文件。本教學課程旨在提供使用 Aspose.Note for Java 建立具有簡單富文本的 OneNote 文件的全面指南。
+在當前快速變化的開發環境中，能以程式方式 **設定段落樣式** 對於產出精緻的 OneNote 檔案至關重要。本教學將一步步示範如何產生帶有簡易富文字的 OneNote 文件、套用自訂段落格式，最後使用 Aspose.Note for Java **將 OneNote 匯出為 PDF**。無論您是在建構報表引擎、自動筆記解決方案，或是文件轉換服務，本文所涵蓋的技巧都能協助您 **產生符合需求的 OneNote 檔案**。
 
-## 先決條件
+## 快速問答
+- **「設定段落樣式」是什麼意思？** 它會將字型、大小、顏色等格式套用到一段文字上。  
+- **可以把結果匯出成 PDF 嗎？** 可以──教學最後會示範將 OneNote 檔案儲存為 PDF。  
+- **使用 Aspose.Note 需要授權嗎？** 評估階段可使用免費試用版，正式上線則需購買授權。  
+- **支援哪些 IDE？** 任何 Java IDE 都可──Eclipse、IntelliJ IDEA、NetBeans 等。  
+- **實作大約需要多久？** 基本文件約 10‑15 分鐘即可完成。
 
-在深入學習本教學之前，請確保您已設定以下先決條件：
+## Aspose.Note 中的「設定段落樣式」是什麼？
+設定段落樣式指的是建立並設定 `ParagraphStyle` 物件（字型名稱、大小、顏色等），再將其附加到 `RichText` 節點上。如此即可完整掌控 OneNote 頁面內文字的外觀。
 
-1. Java 開發工具包 (JDK)：在系統上安裝 JDK 1.8 或更高版本。
-   
-2.  Aspose.Note for Java Library：從下列位置下載並安裝 Aspose.Note for Java 函式庫[下載連結](https://releases.aspose.com/note/java/).
-   
-3. 整合開發環境 (IDE)：安裝用於 Java 開發的 IDE，例如 Eclipse 或 IntelliJ IDEA。
+## 為什麼在產生 OneNote 檔案時要設定段落樣式？
+- **一致的品牌形象：** 自動套用公司字型與色彩。  
+- **可讀性：** 較大的字型或特定顏色有助於提升可及性。  
+- **匯出相容性：** 之後 **將 OneNote 轉換為 PDF** 時，樣式會被完整保留。  
 
-## 導入包
+## 前置作業
 
-首先，匯入必要的套件以使用 Aspose.Note for Java 功能。
+在開始之前，請先確認您已具備：
+
+1. **Java Development Kit (JDK) 1.8+** ─ 任何近期版本皆可。  
+2. **Aspose.Note for Java** ─ 從 [Aspose.Note 下載頁面](https://releases.aspose.com/note/java/) 取得最新 JAR。  
+3. **IDE** (Eclipse、IntelliJ IDEA 或 NetBeans) 用於編譯與執行範例。  
+
+> **小技巧：** 透過 Maven 或手動將 Aspose.Note JAR 加入專案 classpath，即可完成設定。
+
+## 匯入套件
+
+首先匯入所需的類別。此區塊保持不變。
 
 ```java
 import java.awt.Color;
@@ -43,49 +60,50 @@ import com.aspose.note.SaveFormat;
 import com.aspose.note.ParagraphStyle;
 ```
 
-現在，讓我們將建立具有簡單富文本的 OneNote 文件的過程分解為多個步驟：
+> `ParagraphStyle` 類別是本教學稍後 **設定段落樣式** 的關鍵。
 
-## 步驟1：設定文檔目錄
+## 步驟說明
+
+以下為每個操作的簡明流程。程式碼區塊與原始範例完全相同，我們僅補充說明文字。
+
+### 步驟 1：設定文件目錄
+指定產生檔案的儲存位置。
 
 ```java
 String dataDir = "Your Document Directory";
 ```
 
-代替`"Your Document Directory"`與要儲存已建立的 OneNote 文件的路徑。
+將 `"Your Document Directory"` 替換為您機器上的絕對或相對路徑。
 
-## 步驟2：初始化文檔對象
+### 步驟 2：初始化 Document 物件
+建立代表 OneNote 檔案的根 `Document`。
 
 ```java
 Document doc = new Document();
 ```
 
-建立一個實例`Document`類，它代表一個 OneNote 文檔。
-
-## 第三步：初始化頁面對象
+### 步驟 3：初始化 Page 物件
+OneNote 檔案由一或多個頁面組成，我們先建立單一頁面。
 
 ```java
 Page page = new Page();
 ```
 
-實例化一個`Page`對象，代表 OneNote 文件中的頁面。
-
-## 第四步：初始化大綱對象
+### 步驟 4：初始化 Outline 物件
+Outline 為大綱元素的容器（可視為章節）。
 
 ```java
 Outline outline = new Outline();
 ```
 
-創建一個`Outline`對象，用作輪廓元素的容器。
-
-## 第5步：初始化OutlineElement對象
+### 步驟 5：初始化 OutlineElement 物件
+在此 **加入大綱元素**，用以容納富文字。
 
 ```java
 OutlineElement outlineElem = new OutlineElement();
 ```
 
-實例化一個`OutlineElement`對象，代表輪廓內的單一元素。
-
-## 步驟6：設定文字樣式
+### 步驟 6：設定文字樣式（設定段落樣式）
 
 ```java
 ParagraphStyle textStyle = new ParagraphStyle()
@@ -94,82 +112,92 @@ ParagraphStyle textStyle = new ParagraphStyle()
                                     .setFontSize(10);
 ```
 
-定義一個`ParagraphStyle`物件來指定文字的格式屬性。
+`ParagraphStyle` 實例定義字型、大小與顏色──這裡即為即將加入的文字節點 **設定段落樣式** 的地方。
 
-## 第7步：初始化RichText對象
+### 步驟 7：初始化 RichText 物件
 
 ```java
 RichText text = new RichText().append("Hello OneNote text!");
 text.setParagraphStyle(textStyle);
 ```
 
-創建一個`RichText`物件並向其套用指定的文字樣式。
+建立 `RichText` 節點、插入簡單字串，並套用先前定義的樣式。
 
-## 步驟8：將RichText節點加入OutlineElement
+### 步驟 8：將 RichText 節點加入 OutlineElement
 
 ```java
 outlineElem.appendChildLast(text);
 ```
 
-添加`RichText`節點到`OutlineElement`.
+此時已將帶樣式的文字放入大綱元素內。
 
-## 步驟 9：將 OutlineElement 節點加入 Outline
+### 步驟 9：將 OutlineElement 節點加入 Outline
 
 ```java
 outline.appendChildLast(outlineElem);
 ```
 
-追加`OutlineElement`節點到`Outline`.
+大綱現在包含了持有段落的元素。
 
-## 步驟10：向頁面新增大綱節點
+### 步驟 10：將 Outline 節點加入 Page
 
 ```java
 page.appendChildLast(outline);
 ```
 
-添加`Outline`節點到`Page`.
+將大綱放置於頁面上。
 
-## 第11步：將頁面節點加入到文件中
+### 步驟 11：將 Page 節點加入 Document
 
 ```java
 doc.appendChildLast(page);
 ```
 
-附上`Page`節點到`Document`.
+文件現在只有一個頁面，內含已套用樣式的文字。
 
-## 第12步：儲存文檔
+### 步驟 12：儲存文件（匯出 OneNote PDF）
 
 ```java
 doc.save(dataDir + "CreateOneNoteDocumentWithSimpleRichText_out.pdf", SaveFormat.Pdf);
 ```
 
-將建立的 OneNote 文件以 PDF 格式儲存到指定目錄。
+`save` 方法一次寫入 OneNote 檔案並 **匯出 OneNote PDF**。若需原生格式，只要使用 `SaveFormat.One` 即可儲存為 `.one`。
+
+## 常見問題與解決方案
+
+| 問題 | 原因 | 解決方式 |
+|------|------|----------|
+| **找不到檔案** | `dataDir` 指向不存在的資料夾。 | 確認目錄已建立，或以程式碼 `new File(dataDir).mkdirs();` 先建立。 |
+| **PDF 為空白** | 儲存前未加入任何內容。 | 確認已將 `RichText` 節點加入，且樣式已設定。 |
+| **不支援的字型** | 系統未安裝指定字型。 | 改用常見字型如 `"Arial"`，或將字型檔嵌入專案。 |
+
+## 常見問答
+
+**Q: Aspose.Note 能處理表格或圖片等複雜格式嗎？**  
+A: 能，API 支援表格、圖片、超連結以及更進階的版面配置。
+
+**Q: 能否 **將 OneNote PDF 轉回 OneNote 檔案**？**  
+A: 目前未提供直接轉換，但可先解析 PDF 內容，再利用 API 重建 OneNote 文件。
+
+**Q: 此函式庫能在 Linux/macOS 上執行嗎？**  
+A: 能。Aspose.Note for Java 為跨平台套件，只要安裝 JDK 即可。
+
+**Q: 如何加入多個頁面或大綱？**  
+A: 建立額外的 `Page` 與 `Outline` 物件，然後像單頁範例一樣將它們加入 `Document`。
+
+**Q: 哪裡可以找到更多範例？**  
+A: 官方 Aspose.Note 文件與 [支援論壇](https://forum.aspose.com/c/note/28) 提供大量程式碼範例。
 
 ## 結論
 
-總之，本教學提供了使用 Aspose.Note for Java 建立具有簡單富文本的 OneNote 文件的逐步指南。透過遵循這些說明，開發人員可以將此功能無縫整合到他們的 Java 應用程式中，從而促進高效的文件管理。
+您現在已了解如何 **設定段落樣式**、**加入大綱元素**，以及使用 Aspose.Note for Java **產生可匯出為 PDF 的 OneNote 檔案**。在建立文件時即套用樣式，可確保最終文件的專業外觀，且在之後的 **將 OneNote 轉換為 PDF** 操作中保持格式不變。歡迎在此基礎上加入圖片、表格或自訂中繼資料，以滿足您的專案需求。
 
-## 常見問題解答
+---
 
-### Q1：Aspose.Note for Java 可以處理複雜的格式嗎？
+**最後更新：** 2025-12-08  
+**測試環境：** Aspose.Note for Java 24.11（最新發行版）  
+**作者：** Aspose  
 
-A1：是的，Aspose.Note for Java 提供了廣泛的功能來處理各種格式要求，包括複雜的格式，例如表格、圖像和超連結。
-
-### Q2：Aspose.Note for Java是否相容於不同的Java開發環境？
-
-A2：當然，Aspose.Note for Java 與 Eclipse、IntelliJ IDEA 和 NetBeans 等流行的 Java 開發環境相容。
-
-### Q3：Aspose.Note for Java 是否支援文字以外的 OneNote 檔案操作？
-
-A3：確實，Aspose.Note for Java 支援進階功能，例如在 OneNote 文件中新增圖像、表格、附件等。
-
-### Q4：我可以將 Aspose.Note for Java 與其他 Java 函式庫或框架整合嗎？
-
-A4：是的，Aspose.Note for Java 可以與其他 Java 程式庫或框架無縫集成，以增強文件處理能力。
-
-### Q5：Aspose.Note for Java 是否提供全面的文件和支援？
-
- A5：當然，您可以在 Aspose.Note for Java 上找到詳細的文件和專門的支持[支援論壇](https://forum.aspose.com/c/note/28).
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
