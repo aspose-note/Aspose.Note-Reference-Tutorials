@@ -104,13 +104,15 @@ A: Ναι, μπορείτε να προσθέτετε, να επεξεργάζε
 **Q5: Παρέχει το Aspose.Note for Java τεχνική υποστήριξη;**  
 A: Ναι, η Aspose προσφέρει τεχνική υποστήριξη και ένα αφιερωμένο φόρουμ. Επισκεφθείτε το [Aspose.Note forum](https://forum.aspose.com/c/note/28) για βοήθεια.
 
+---
+
+**Last Updated:** 2025-12-16  
+**Tested With:** Aspose.Note for Java 24.12  
+**Author:** Aspose
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
-
-**Last Updated:** 2025-12-16  
-**Tested With:** Aspose.Note for Java 24.12  
-**Author:** Aspose

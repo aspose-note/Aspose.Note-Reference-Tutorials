@@ -103,15 +103,13 @@ A: Ja, Aspose erbjuder teknisk support och ett dedikerat forum. Besök [Aspose.N
 
 ---
 
+**Senast uppdaterad:** 2025-12-16  
+**Testat med:** Aspose.Note for Java 24.12  
+**Författare:** Aspose  
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
-
-**Senast uppdaterad:** 2025-12-16  
-**Testat med:** Aspose.Note for Java 24.12  
-**Författare:** Aspose  
-
----

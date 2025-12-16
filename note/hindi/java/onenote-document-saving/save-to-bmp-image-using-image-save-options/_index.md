@@ -106,15 +106,13 @@ A: हाँ, Aspose तकनीकी समर्थन और एक सम�
 
 ---
 
+**अंतिम अपडेट:** 2025-12-16  
+**परीक्षित संस्करण:** Aspose.Note for Java 24.12  
+**लेखक:** Aspose  
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
-
-**अंतिम अपडेट:** 2025-12-16  
-**परीक्षित संस्करण:** Aspose.Note for Java 24.12  
-**लेखक:** Aspose  
-
----

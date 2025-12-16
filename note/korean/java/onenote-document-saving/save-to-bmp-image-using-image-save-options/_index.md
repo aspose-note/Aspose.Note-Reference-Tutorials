@@ -105,15 +105,13 @@ A: 예, Aspose는 기술 지원 및 전용 포럼을 운영합니다. 도움이 
 
 ---
 
+**마지막 업데이트:** 2025-12-16  
+**테스트 환경:** Aspose.Note for Java 24.12  
+**작성자:** Aspose  
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
-
-**마지막 업데이트:** 2025-12-16  
-**테스트 환경:** Aspose.Note for Java 24.12  
-**작성자:** Aspose  
-
----

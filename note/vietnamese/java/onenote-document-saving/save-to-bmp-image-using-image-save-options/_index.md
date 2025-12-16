@@ -103,13 +103,15 @@ A: Có, bạn có thể thêm, chỉnh sửa hoặc xóa các trang, phần và 
 **Q5: Aspose.Note for Java có cung cấp hỗ trợ kỹ thuật không?**  
 A: Có, Aspose cung cấp hỗ trợ kỹ thuật và một diễn đàn chuyên dụng. Truy cập [Aspose.Note forum](https://forum.aspose.com/c/note/28) để được trợ giúp.
 
+---
+
+**Last Updated:** 2025-12-16  
+**Tested With:** Aspose.Note for Java 24.12  
+**Author:** Aspose
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
-
-**Last Updated:** 2025-12-16  
-**Tested With:** Aspose.Note for Java 24.12  
-**Author:** Aspose

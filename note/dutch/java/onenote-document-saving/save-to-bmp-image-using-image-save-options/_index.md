@@ -106,13 +106,15 @@ A: Ja, je kunt pagina's, secties en rijke inhoud (tekst, afbeeldingen, tabellen)
 **Q5: Biedt Aspose.Note for Java technische ondersteuning?**  
 A: Ja, Aspose biedt technische ondersteuning en een speciaal forum. Bezoek het [Aspose.Note forum](https://forum.aspose.com/c/note/28) voor hulp.
 
+---
+
+**Laatst bijgewerkt:** 2025-12-16  
+**Getest met:** Aspose.Note for Java 24.12  
+**Auteur:** Aspose
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
-
-**Laatst bijgewerkt:** 2025-12-16  
-**Getest met:** Aspose.Note for Java 24.12  
-**Auteur:** Aspose

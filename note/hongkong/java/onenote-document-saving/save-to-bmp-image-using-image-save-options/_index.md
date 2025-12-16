@@ -105,15 +105,13 @@ A：提供。Aspose 有技術支援與專屬論壇。請前往 [Aspose.Note foru
 
 ---
 
+**最後更新：** 2025-12-16  
+**測試環境：** Aspose.Note for Java 24.12  
+**作者：** Aspose  
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
-
-**最後更新：** 2025-12-16  
-**測試環境：** Aspose.Note for Java 24.12  
-**作者：** Aspose  
-
----

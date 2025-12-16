@@ -103,13 +103,15 @@ A: Tak, możesz dodawać, edytować lub usuwać strony, sekcje i bogatą zawarto
 **Q5: Czy Aspose.Note for Java zapewnia wsparcie techniczne?**  
 A: Tak, Aspose oferuje wsparcie techniczne oraz dedykowane forum. Odwiedź [forum Aspose.Note](https://forum.aspose.com/c/note/28), aby uzyskać pomoc.
 
+---
+
+**Last Updated:** 2025-12-16  
+**Tested With:** Aspose.Note for Java 24.12  
+**Author:** Aspose
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
-
-**Last Updated:** 2025-12-16  
-**Tested With:** Aspose.Note for Java 24.12  
-**Author:** Aspose

@@ -106,15 +106,13 @@ A: Ano, Aspose nabízí technickou podporu a vyhrazené fórum. Navštivte [Aspo
 
 ---
 
+**Poslední aktualizace:** 2025-12-16  
+**Testováno s:** Aspose.Note pro Java 24.12  
+**Autor:** Aspose  
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
-
-**Poslední aktualizace:** 2025-12-16  
-**Testováno s:** Aspose.Note pro Java 24.12  
-**Autor:** Aspose  
-
----

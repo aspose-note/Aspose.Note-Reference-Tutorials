@@ -103,13 +103,15 @@ A: 可以，您可以通过 API 添加、编辑或删除页面、章节以及丰
 **Q5: Aspose.Note for Java 是否提供技术支持？**  
 A: 是的，Aspose 提供技术支持和专门的论坛。访问 [Aspose.Note forum](https://forum.aspose.com/c/note/28) 获取帮助。
 
+---
+
+**最后更新：** 2025-12-16  
+**测试环境：** Aspose.Note for Java 24.12  
+**作者：** Aspose
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
-
-**最后更新：** 2025-12-16  
-**测试环境：** Aspose.Note for Java 24.12  
-**作者：** Aspose

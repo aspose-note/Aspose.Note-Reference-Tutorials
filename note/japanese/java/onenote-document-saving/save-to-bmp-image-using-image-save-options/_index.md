@@ -107,15 +107,13 @@ A: はい、Aspose は技術サポートと専用フォーラムを提供して�
 
 ---
 
+**最終更新日:** 2025-12-16  
+**テスト環境:** Aspose.Note for Java 24.12  
+**作者:** Aspose  
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
-
-**最終更新日:** 2025-12-16  
-**テスト環境:** Aspose.Note for Java 24.12  
-**作者:** Aspose  
-
----
