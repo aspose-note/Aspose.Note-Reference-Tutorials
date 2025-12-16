@@ -121,15 +121,13 @@ A: Určitě – iterujte přes `Document.getPages()` a použijte stejnou logiku 
 
 ---
 
+**Poslední aktualizace:** 2025-12-14  
+**Testováno s:** Aspose.Note for Java 24.12  
+**Autor:** Aspose  
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
-
-**Poslední aktualizace:** 2025-12-14  
-**Testováno s:** Aspose.Note for Java 24.12  
-**Autor:** Aspose  
-
----

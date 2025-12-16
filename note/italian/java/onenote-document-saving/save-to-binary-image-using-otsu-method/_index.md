@@ -126,15 +126,13 @@ R: Certamente – itera su `Document.getPages()` e applica la stessa logica di s
 
 ---
 
+**Ultimo Aggiornamento:** 2025-12-14  
+**Testato Con:** Aspose.Note per Java 24.12  
+**Autore:** Aspose  
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
-
-**Ultimo Aggiornamento:** 2025-12-14  
-**Testato Con:** Aspose.Note per Java 24.12  
-**Autore:** Aspose  
-
----

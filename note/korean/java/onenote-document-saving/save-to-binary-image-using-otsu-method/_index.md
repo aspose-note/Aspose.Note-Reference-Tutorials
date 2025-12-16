@@ -120,15 +120,13 @@ A: 물론입니다 – `Document.getPages()`를 반복하면서 각 페이지에
 
 ---
 
+**마지막 업데이트:** 2025-12-14  
+**테스트 환경:** Aspose.Note for Java 24.12  
+**작성자:** Aspose  
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
-
-**마지막 업데이트:** 2025-12-14  
-**테스트 환경:** Aspose.Note for Java 24.12  
-**작성자:** Aspose  
-
----

@@ -126,15 +126,13 @@ V: Természetesen – iteráljon a `Document.getPages()`-en, és alkalmazza ugya
 
 ---
 
+**Utoljára frissítve:** 2025-12-14  
+**Tesztelve a következővel:** Aspose.Note for Java 24.12  
+**Szerző:** Aspose  
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
-
-**Utoljára frissítve:** 2025-12-14  
-**Tesztelve a következővel:** Aspose.Note for Java 24.12  
-**Szerző:** Aspose  
-
----

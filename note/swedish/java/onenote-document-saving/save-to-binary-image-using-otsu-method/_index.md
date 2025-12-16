@@ -121,15 +121,13 @@ A: Absolut – iterera över `Document.getPages()` och tillämpa samma sparlogik
 
 ---
 
+**Senast uppdaterad:** 2025-12-14  
+**Testat med:** Aspose.Note för Java 24.12  
+**Författare:** Aspose  
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
-
-**Senast uppdaterad:** 2025-12-14  
-**Testat med:** Aspose.Note för Java 24.12  
-**Författare:** Aspose  
-
----

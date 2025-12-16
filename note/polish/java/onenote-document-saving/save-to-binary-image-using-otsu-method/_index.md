@@ -126,15 +126,13 @@ O: Zdecydowanie – iteruj po `Document.getPages()` i zastosuj tę samą logikę
 
 ---
 
+**Ostatnia aktualizacja:** 2025-12-14  
+**Testowano z:** Aspose.Note for Java 24.12  
+**Autor:** Aspose  
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
-
-**Ostatnia aktualizacja:** 2025-12-14  
-**Testowano z:** Aspose.Note for Java 24.12  
-**Autor:** Aspose  
-
----

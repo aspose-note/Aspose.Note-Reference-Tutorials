@@ -125,15 +125,13 @@ oneFile.save(dataDir, options);
 
 ---
 
+**آخر تحديث:** 2025-12-14  
+**تم الاختبار مع:** Aspose.Note for Java 24.12  
+**المؤلف:** Aspose  
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
-
-**آخر تحديث:** 2025-12-14  
-**تم الاختبار مع:** Aspose.Note for Java 24.12  
-**المؤلف:** Aspose  
-
----

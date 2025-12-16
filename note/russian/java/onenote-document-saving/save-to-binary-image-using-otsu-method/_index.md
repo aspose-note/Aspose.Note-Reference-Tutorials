@@ -126,15 +126,13 @@ A5: Вы можете посетить форум Aspose.Note или связа�
 
 ---
 
+**Последнее обновление:** 2025-12-14  
+**Тестировано с:** Aspose.Note for Java 24.12  
+**Автор:** Aspose  
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
-
-**Последнее обновление:** 2025-12-14  
-**Тестировано с:** Aspose.Note for Java 24.12  
-**Автор:** Aspose  
-
----

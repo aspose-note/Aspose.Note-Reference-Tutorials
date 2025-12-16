@@ -120,15 +120,13 @@ A5: คุณสามารถเยี่ยมชมฟอรั่ม Aspose
 
 ---
 
+**อัปเดตล่าสุด:** 2025-12-14  
+**ทดสอบด้วย:** Aspose.Note for Java 24.12  
+**ผู้เขียน:** Aspose  
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
-
-**อัปเดตล่าสุด:** 2025-12-14  
-**ทดสอบด้วย:** Aspose.Note for Java 24.12  
-**ผู้เขียน:** Aspose  
-
----

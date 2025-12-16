@@ -119,13 +119,15 @@ A5: Μπορείτε να επισκεφθείτε το φόρουμ Aspose.Note
 **Ε: Μπορώ να επεξεργαστώ πολλές σελίδες OneNote σε βρόχο;**  
 Α: Σίγουρα – επαναλάβετε πάνω στο `Document.getPages()` και εφαρμόστε την ίδια λογική αποθήκευσης σε κάθε σελίδα.
 
+---
+
+**Τελευταία Ενημέρωση:** 2025-12-14  
+**Δοκιμή με:** Aspose.Note for Java 24.12  
+**Συγγραφέας:** Aspose
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
-
-**Τελευταία Ενημέρωση:** 2025-12-14  
-**Δοκιμή με:** Aspose.Note for Java 24.12  
-**Συγγραφέας:** Aspose
