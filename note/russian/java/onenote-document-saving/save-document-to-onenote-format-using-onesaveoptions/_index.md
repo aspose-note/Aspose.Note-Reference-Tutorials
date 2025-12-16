@@ -96,15 +96,15 @@ A: Да, она разработана для высокообъёмных, кр
 ### Q: Где можно найти поддержку или дополнительные ресурсы по Aspose.Note for Java?
 A: Вы можете найти полную документацию, руководства и форумы сообщества на [Aspose website](https://forum.aspose.com/c/note/28).
 
+---
+
+**Последнее обновление:** 2025-12-11  
+**Тестировано с:** Aspose.Note for Java 24.11  
+**Автор:** Aspose
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
-
----
-
-**Последнее обновление:** 2025-12-11  
-**Тестировано с:** Aspose.Note for Java 24.11  
-**Автор:** Aspose

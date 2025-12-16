@@ -95,15 +95,15 @@ A: はい。高ボリュームでミッションクリティカルなシナリ�
 ### Q: Aspose.Note for Java のサポートや追加リソースはどこで見つけられますか？
 A: 詳細なドキュメント、チュートリアル、コミュニティフォーラムは [Aspose のウェブサイト](https://forum.aspose.com/c/note/28) で入手できます。
 
+---
+
+**Last Updated:** 2025-12-11  
+**Tested With:** Aspose.Note for Java 24.11  
+**Author:** Aspose
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
-
----
-
-**Last Updated:** 2025-12-11  
-**Tested With:** Aspose.Note for Java 24.11  
-**Author:** Aspose

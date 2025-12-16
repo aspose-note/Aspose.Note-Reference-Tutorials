@@ -95,17 +95,15 @@ A: 適用，設計上支援高容量、關鍵任務的情境，具備穩定效�
 ### Q: 我可以在哪裡取得 Aspose.Note for Java 的支援或其他資源？
 A: 您可在 [Aspose 網站](https://forum.aspose.com/c/note/28) 找到完整文件、教學與社群論壇。
 
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}
-
 ---
 
 **最後更新：** 2025-12-11  
 **測試環境：** Aspose.Note for Java 24.11  
 **作者：** Aspose  
 
----
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

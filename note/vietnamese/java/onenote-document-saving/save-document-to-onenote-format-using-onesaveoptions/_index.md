@@ -96,17 +96,15 @@ Mã trên **lưu tài liệu dưới dạng OneNote**, thực chất **chuyển 
 ### H: Tôi có thể tìm hỗ trợ hoặc tài nguyên bổ sung cho Aspose.Note cho Java ở đâu?
 Đ: Bạn có thể tìm tài liệu chi tiết, hướng dẫn và diễn đàn cộng đồng trên [trang web của Aspose](https://forum.aspose.com/c/note/28).
 
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}
-
 ---
 
 **Cập nhật lần cuối:** 2025-12-11  
 **Kiểm thử với:** Aspose.Note for Java 24.11  
 **Tác giả:** Aspose  
 
----
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

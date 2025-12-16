@@ -96,17 +96,15 @@ A: Ano, je navržen pro vysoký objem, kritické scénáře s robustním výkone
 ### Q: Kde najdu podporu nebo další zdroje pro Aspose.Note pro Java?
 A: Kompletní dokumentaci, tutoriály a komunitní fóra najdete na [Aspose website](https://forum.aspose.com/c/note/28).
 
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}
-
 ---
 
 **Poslední aktualizace:** 2025-12-11  
 **Testováno s:** Aspose.Note for Java 24.11  
 **Autor:** Aspose  
 
----
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

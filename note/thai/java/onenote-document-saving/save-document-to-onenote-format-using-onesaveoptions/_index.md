@@ -96,17 +96,15 @@ A: ใช่, ถูกออกแบบมาสำหรับสถานก
 ### Q: ฉันจะหาแหล่งสนับสนุนหรือทรัพยากรเพิ่มเติมสำหรับ Aspose.Note for Java ได้จากที่ไหน?
 A: คุณสามารถค้นหาเอกสารประกอบ, บทเรียน, และฟอรั่มชุมชนได้ที่ [Aspose website](https://forum.aspose.com/c/note/28)
 
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}
-
 ---
 
 **Last Updated:** 2025-12-11  
 **Tested With:** Aspose.Note for Java 24.11  
 **Author:** Aspose  
 
----
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

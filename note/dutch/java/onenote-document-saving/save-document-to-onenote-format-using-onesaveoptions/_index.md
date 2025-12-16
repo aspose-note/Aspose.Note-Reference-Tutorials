@@ -96,17 +96,15 @@ A: Ja, het is ontworpen voor hoge volumes en mission‑critical scenario’s met
 ### V: Waar kan ik ondersteuning of extra bronnen vinden voor Aspose.Note for Java?
 A: Je vindt uitgebreide documentatie, tutorials en community‑forums op de [Aspose website](https://forum.aspose.com/c/note/28).
 
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}
-
 ---
 
 **Laatst bijgewerkt:** 2025-12-11  
 **Getest met:** Aspose.Note for Java 24.11  
 **Auteur:** Aspose  
 
----
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

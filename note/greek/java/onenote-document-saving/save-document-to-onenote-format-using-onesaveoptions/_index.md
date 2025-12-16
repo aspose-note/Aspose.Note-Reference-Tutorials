@@ -98,15 +98,15 @@ document.save(dataDir + "SaveDocToOneNoteFormatUsingOnesaveoptions_out.one", new
 ### Ε: Πού μπορώ να βρω υποστήριξη ή πρόσθετους πόρους για το Aspose.Note για Java;
 Α: Μπορείτε να βρείτε εκτενή τεκμηρίωση, tutorials και φόρουμ κοινότητας στην [ιστοσελίδα της Aspose](https://forum.aspose.com/c/note/28).
 
+---
+
+**Τελευταία ενημέρωση:** 2025-12-11  
+**Δοκιμή με:** Aspose.Note for Java 24.11  
+**Συγγραφέας:** Aspose
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
-
----
-
-**Τελευταία ενημέρωση:** 2025-12-11  
-**Δοκιμή με:** Aspose.Note for Java 24.11  
-**Συγγραφέας:** Aspose

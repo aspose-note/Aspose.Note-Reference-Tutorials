@@ -95,17 +95,15 @@ document.save(dataDir + "SaveDocToOneNoteFormatUsingOnesaveoptions_out.one", new
 ### 问：我在哪里可以找到 Aspose.Note for Java 的支持或其他资源？
 答：您可以在 [Aspose 网站](https://forum.aspose.com/c/note/28) 上找到完整的文档、教程和社区论坛。
 
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}
-
 ---
 
 **最后更新：** 2025-12-11  
 **测试环境：** Aspose.Note for Java 24.11  
 **作者：** Aspose  
 
----
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

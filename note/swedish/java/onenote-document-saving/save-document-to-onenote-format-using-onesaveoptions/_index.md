@@ -96,15 +96,15 @@ A: Ja, den är designad för högvolym, kritiska scenarier med robust prestanda 
 ### Q: Var kan jag hitta support eller ytterligare resurser för Aspose.Note för Java?
 A: Du kan hitta omfattande dokumentation, handledningar och community-forum på [Aspose website](https://forum.aspose.com/c/note/28).
 
+---
+
+**Last Updated:** 2025-12-11  
+**Tested With:** Aspose.Note for Java 24.11  
+**Author:** Aspose
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
-
----
-
-**Last Updated:** 2025-12-11  
-**Tested With:** Aspose.Note for Java 24.11  
-**Author:** Aspose

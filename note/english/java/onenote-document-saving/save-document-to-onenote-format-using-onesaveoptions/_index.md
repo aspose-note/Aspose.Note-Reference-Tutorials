@@ -94,17 +94,15 @@ A: Yes, it is designed for high‑volume, mission‑critical scenarios with robu
 ### Q: Where can I find support or additional resources for Aspose.Note for Java?
 A: You can find comprehensive documentation, tutorials, and community forums on the [Aspose website](https://forum.aspose.com/c/note/28).
 
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}
-
 ---
 
 **Last Updated:** 2025-12-11  
 **Tested With:** Aspose.Note for Java 24.11  
 **Author:** Aspose  
 
----
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

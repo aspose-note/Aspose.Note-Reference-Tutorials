@@ -97,17 +97,15 @@ A: Igen, nagy mennyiségű, kritikus fontosságú feladatokra tervezték, erős 
 ### K: Hol találok támogatást vagy további forrásokat az Aspose.Note for Java-hoz?
 A: Átfogó dokumentációt, útmutatókat és közösségi fórumokat talál az [Aspose weboldalán](https://forum.aspose.com/c/note/28).
 
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}
-
 ---
 
 **Utoljára frissítve:** 2025-12-11  
 **Tesztelve:** Aspose.Note for Java 24.11  
 **Szerző:** Aspose  
 
----
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}
