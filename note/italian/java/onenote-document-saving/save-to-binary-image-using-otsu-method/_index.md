@@ -1,77 +1,101 @@
 ---
-title: Salva su immagine binaria utilizzando il metodo Otsu in OneNote
-linktitle: Salva su immagine binaria utilizzando il metodo Otsu in OneNote
-second_title: Aspose.Note API Java
-description: Impara a salvare i documenti OneNote come immagini binarie utilizzando il metodo Otsu con Aspose.Note per Java. Migliora le capacità della tua app Java con Aspose.Note.
-weight: 15
+date: 2025-12-14
+description: Scopri come salvare OneNote come immagine PNG binaria usando il metodo
+  Otsu con Aspose.Note per Java. Questa guida copre il salvataggio di OneNote come
+  PNG e la creazione di immagini in bianco‑nero in Java.
+linktitle: How to Save OneNote as Binary Image Using Otsu Method
+second_title: Aspose.Note Java API
+title: Come salvare OneNote come immagine binaria usando il metodo Otsu
 url: /it/java/onenote-document-saving/save-to-binary-image-using-otsu-method/
+weight: 15
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Salva su immagine binaria utilizzando il metodo Otsu in OneNote
+# Salva come Immagine Binaria con il Metodo Otsu in OneNote
 
-## introduzione
+## Introduzione
 
-In questo tutorial impareremo come salvare un documento come immagine binaria utilizzando il metodo Otsu in Aspose.Note per Java. Aspose.Note è una potente API che consente agli sviluppatori Java di lavorare con i file Microsoft OneNote a livello di codice. Salvare i documenti come immagini binarie può essere utile per varie applicazioni come l'elaborazione delle immagini, l'OCR (riconoscimento ottico dei caratteri) e altro ancora.
+In questo tutorial scoprirai **come salvare documenti OneNote** come immagini binarie usando il metodo Otsu con Aspose.Note per Java. Convertire un file OneNote in un'immagine in bianco‑nero è utile per pipeline di elaborazione immagini, pre‑elaborazione OCR o quando hai semplicemente bisogno di una rappresentazione visiva leggera delle tue note.
+
+## Risposte Rapide
+- **Cosa fa il metodo Otsu?** Determina automaticamente la soglia ottimale per convertire un'immagine in scala di grigi in un'immagine bianco‑nero (binaria).  
+- **Quale formato viene usato per l'output?** PNG è il valore predefinito perché preserva la qualità loss‑less.  
+- **È necessaria una licenza per eseguire il codice?** Una versione di prova gratuita è sufficiente per lo sviluppo; è richiesta una licenza commerciale per la produzione.  
+- **Posso cambiare l'output in un altro formato?** Sì – basta sostituire `SaveFormat.Png` con un altro formato supportato.  
+- **È adatto per OCR?** Assolutamente – le immagini binarie migliorano l'accuratezza OCR eliminando il rumore in scala di grigi.
+
+## Cos'è il Metodo Otsu?
+Il metodo Otsu analizza l'istogramma di un'immagine in scala di grigi e seleziona una soglia che minimizza la varianza intra‑classe, separando efficacemente lo sfondo (bianco) dal primo piano (nero). Questo lo rende ideale per creare **output black white image java** dalle pagine OneNote.
+
+## Perché Salvare OneNote come PNG?
+- **Compatibilità universale:** PNG funziona su browser, app mobili e strumenti desktop.  
+- **Compressione loss‑less:** Nessuna degradazione della qualità, fondamentale per l'elaborazione successiva.  
+- **Pronto per OCR:** I PNG binari sono l'input preferito per la maggior parte dei motori OCR.
 
 ## Prerequisiti
+1. Conoscenze di base della programmazione Java.  
+2. JDK (Java Development Kit) installato.  
+3. Libreria Aspose.Note per Java aggiunta al progetto (Maven/Gradle o JAR manuale).  
 
-Prima di iniziare, assicurati di avere i seguenti prerequisiti:
-1. Conoscenza base del linguaggio di programmazione Java.
-2. JDK (Java Development Kit) installato sul tuo sistema.
-3. Aspose.Note per la libreria Java scaricata e configurata nel tuo progetto Java.
+## Importa i Pacchetti
+Per iniziare, importa le classi Aspose.Note necessarie e le utility I/O di Java.
 
-## Importa pacchetti
-
-Per iniziare, devi importare i pacchetti necessari nella tua classe Java:
 ```java
 import com.aspose.note.*;
 import java.io.IOException;
 ```
 
-## Passaggio 1: caricare il documento
+## Passo 1: Carica il Documento OneNote
+Per prima cosa, indica la cartella che contiene il tuo file `.one` e caricalo nell'oggetto `Document`.
 
-Il primo passo è caricare il documento che desideri convertire in un'immagine binaria utilizzando Aspose.Note.
 ```java
 String dataDir = "Your Document Directory";
-// Caricare il documento in Aspose.Note.
+// Load the document into Aspose.Note.
 Document oneFile = new Document(dataDir + "Aspose.one");
 ```
 
-## Passaggio 2: imposta le opzioni di binarizzazione
-Successivamente, dobbiamo specificare il metodo di binarizzazione. In questo esempio utilizzeremo il metodo Otsu.
+## Passo 2: Configura la Binarizzazione con Otsu
+Crea un'istanza di `ImageBinarizationOptions` e indica ad Aspose.Note di utilizzare l'algoritmo Otsu.
+
 ```java
 dataDir = dataDir + "SaveToBinaryImageUsingOtsuMethod_out.png";
 ImageBinarizationOptions binarizationOptions = new ImageBinarizationOptions();
 binarizationOptions.setBinarizationMethod(BinarizationMethod.Otsu);
 ```
 
-## Passaggio 3: imposta le opzioni di salvataggio dell'immagine
-Ora configureremo le opzioni per salvare il documento come immagine. Imposteremo la modalità colore su bianco e nero e forniremo le opzioni di binarizzazione definite in precedenza.
+## Passo 3: Imposta le Opzioni di Salvataggio Immagine (PNG, Bianco‑Nero)
+Definisci come l'immagine verrà salvata. Qui scegliamo PNG, forziamo una modalità colore bianco‑nero e alleghiamo le opzioni di binarizzazione.
+
 ```java
 ImageSaveOptions options = new ImageSaveOptions(SaveFormat.Png);
 options.setColorMode(ColorMode.BlackAndWhite);
 options.setBinarizationOptions(binarizationOptions);
 ```
 
-## Passaggio 4: salva il documento come immagine binaria
-Infine, salveremo il documento come immagine binaria utilizzando le opzioni specificate.
+## Passo 4: Salva il Documento come Immagine Binaria
+Infine, scrivi il PNG binario su disco usando le opzioni preparate.
+
 ```java
-// Salva il documento.
+// Save the document.
 oneFile.save(dataDir, options);
 ```
 
+## Problemi Comuni & Consigli
+- **File non trovato:** Verifica che `dataDir` termini con un separatore di percorso (`/` o `\\`) prima di aggiungere il nome del file.  
+- **Output vuoto:** Assicurati che la pagina OneNote di origine contenga contenuti; le pagine vuote produrranno un PNG bianco.  
+- **Prestazioni:** Per notebook di grandi dimensioni, elabora le pagine singolarmente per mantenere basso l'uso di memoria.
+
 ## Conclusione
-In questo tutorial, abbiamo imparato come salvare un documento come immagine binaria utilizzando il metodo Otsu in Aspose.Note per Java. Questa funzionalità può essere utile per varie attività di elaborazione delle immagini nelle applicazioni Java.
+Ora sai **come salvare OneNote** come immagine PNG binaria usando il metodo Otsu in Java. Questo approccio è perfetto per creare risorse **black white image java** per OCR, archiviazione o qualsiasi scenario in cui è necessaria una copia visiva leggera di una pagina OneNote.
 
-## Domande frequenti
+## FAQ
 
-### Q1: posso utilizzare Aspose.Note per Java per estrarre testo da documenti OneNote?
+### Q1: Posso usare Aspose.Note per Java per estrarre testo dai documenti OneNote?
 
-A1: Sì, Aspose.Note per Java fornisce API per estrarre il contenuto di testo dai documenti OneNote a livello di codice.
+A1: Sì, Aspose.Note per Java fornisce API per estrarre programmaticamente il contenuto testuale dai documenti OneNote.
 
 ### Q2: Aspose.Note per Java è compatibile con diverse versioni di file OneNote?
 
@@ -79,15 +103,33 @@ A2: Sì, Aspose.Note per Java supporta varie versioni di file OneNote, inclusi i
 
 ### Q3: Posso personalizzare le opzioni di binarizzazione per salvare i documenti come immagini binarie?
 
-R3: Assolutamente, puoi regolare il metodo di binarizzazione e altre opzioni in base alle tue esigenze.
+A3: Assolutamente, puoi regolare il metodo di binarizzazione e altre opzioni secondo le tue esigenze.
 
-### Q4: Aspose.Note per Java supporta la conversione di immagini binarie in documenti OneNote?
+### Q4: Aspose.Note per Java supporta la conversione di immagini binarie di nuovo in documenti OneNote?
 
-A4: Sebbene Aspose.Note si occupi principalmente della manipolazione dei documenti OneNote, è possibile riconvertire le immagini nel formato OneNote utilizzando le tecniche OCR (riconoscimento ottico dei caratteri).
+A4: Sebbene Aspose.Note si occupi principalmente della manipolazione di documenti OneNote, è possibile convertire le immagini nuovamente in formato OneNote usando tecniche OCR (Optical Character Recognition).
 
-### Q5: Dove posso ottenere supporto se riscontro problemi durante l'utilizzo di Aspose.Note per Java?
+### Q5: Dove posso ottenere supporto se incontro problemi usando Aspose.Note per Java?
 
-R5: È possibile visitare il forum Aspose.Note o contattare il team di supporto per assistenza con eventuali problemi tecnici o richieste.
+A5: Puoi visitare il forum Aspose.Note o contattare il loro team di supporto per assistenza su questioni tecniche o richieste.
+
+## Altre Domande Frequenti
+
+**D: Come cambio il formato di output da PNG a JPEG?**  
+R: Sostituisci `SaveFormat.Png` con `SaveFormat.Jpeg` nel costruttore `ImageSaveOptions`.
+
+**D: È possibile impostare un DPI personalizzato per l'immagine esportata?**  
+R: Sì, usa `options.setResolution(double dpi)` prima di chiamare `save`.
+
+**D: Posso elaborare più pagine OneNote in un ciclo?**  
+R: Certamente – itera su `Document.getPages()` e applica la stessa logica di salvataggio a ciascuna pagina.
+
+---
+
+**Ultimo Aggiornamento:** 2025-12-14  
+**Testato Con:** Aspose.Note per Java 24.12  
+**Autore:** Aspose  
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
