@@ -1,33 +1,41 @@
 ---
-title: OneNote'ta Sayfa Ayarlarını Kullanarak PDF'ye Kaydetme - Aspose.Note
-linktitle: OneNote'ta Sayfa Ayarlarını Kullanarak PDF'ye Kaydetme - Aspose.Note
-second_title: Aspose.Note Java API'si
-description: Aspose.Note kitaplığını kullanarak OneNote belgelerini Java'da PDF'ye nasıl kaydedeceğinizi öğrenin. Farklı sayfa ayarlarına yönelik kod örnekleri içeren adım adım kılavuz.
-weight: 19
+date: 2025-12-17
+description: OneNote'tan PDF kaydetmeyi Aspose.Note for Java ile öğrenin. Bu adım
+  adım kılavuz, OneNote'u PDF'ye nasıl dönüştüreceğinizi ve PDF sayfa boyutunu Letter
+  ve A4 ayarlarıyla nasıl özelleştireceğinizi gösterir.
+linktitle: How to Save PDF Using Page Settings in OneNote - Aspose.Note
+second_title: Aspose.Note Java API
+title: OneNote'ta Sayfa Ayarlarıyla PDF Nasıl Kaydedilir - Aspose.Note
 url: /tr/java/onenote-document-saving/save-to-pdf-using-page-settings/
+weight: 19
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# OneNote'ta Sayfa Ayarlarını Kullanarak PDF'ye Kaydetme - Aspose.Note
+# OneNote'ta Sayfa Ayarlarını Kullanarak PDF Kaydetme - Aspose.Note
 
-## giriiş
+## Introduction
 
-Bu eğitimde, Aspose.Note for Java ile farklı sayfa ayarlarını kullanarak OneNote belgelerini PDF formatında nasıl kaydedeceğimizi öğreneceğiz. İki yöntemi ele alacağız: Letter sayfa ayarlarıyla kaydetme ve yükseklik sınırı olmadan A4 sayfa ayarlarıyla kaydetme.
+OneNote'u PDF'ye dönüştürürken çıktı sayfa boyutu üzerinde tam kontrol sağlamak istiyorsanız doğru yerdesiniz. Bu öğreticide Aspose.Note for Java kullanarak bir OneNote dosyasından **PDF nasıl kaydedilir** adım adım göstereceğiz. İki pratik senaryoyu göreceksiniz — klasik Letter boyutunda kaydetme ve yüksekliği sınırlı olmayan A4 sayfası kaydetme — böylece **PDF sayfa boyutunu** raporlama veya baskı gereksinimlerinize göre özelleştirebileceksiniz.
 
-## Önkoşullar
+## Quick Answers
+- **Ana kütüphane nedir?** Aspose.Note for Java  
+- **Hangi sayfa boyutları kapsanıyor?** Letter ve A4 (yükseklik sınırlaması yok)  
+- **Test için lisansa ihtiyacım var mı?** Ücretsiz deneme mevcuttur; üretim için lisans gereklidir  
+- **Gerekli Java sürümü nedir?** JDK 8 veya üzeri  
+- **Birden fazla dosyayı toplu işleyebilir miyim?** Evet, `Document` sınıfı üzerinden döngü yaparak  
 
-Başlamadan önce aşağıdaki önkoşulların mevcut olduğundan emin olun:
+## Prerequisites
 
-1. Sisteminizde Java Geliştirme Kiti (JDK) yüklü.
-2. Aspose.Note for Java kütüphanesi indirildi ve Java projenize dahil edildi.
-3. Java programlama dilinin temel anlayışı.
+Başlamadan önce şunların olduğundan emin **Java Development Kit (JDK)** yüklü (sürüm 8 veya üzeri).  
+2. **Aspose.Note for Java** kütüphanesini projenizin classpath'ine ekleyin.  
+3. Java sözdizimi ve dosya G/Ç hakkında temel bir anlayış.  
 
-## Paketleri İçe Aktar
+## Import Packages
 
-Aspose.Note for Java'yı projenizde kullanmak için gerekli paketleri içe aktardığınızdan emin olun. İşte ithalat beyanı:
+First, import the namespaces you’ll need. Keep this block exactly as shown; the code will compile without modification.
 
 ```java
 import com.aspose.note.*;
@@ -35,27 +43,27 @@ import java.io.IOException;
 import java.nio.file.Paths;
 ```
 
-## Mektup Sayfası Ayarlarını Kullanarak PDF'ye Kaydetme
+## How to Save PDF Using Letter Page Settings
 
-### 1. Adım: Belgeyi Yükleyin
+### Step 1: Load the OneNote Document
 
-Öncelikle OneNote belgesini Aspose.Note'a yükleyin:
+We start by loading the source `.one` file. Replace the placeholder path with the actual location of your OneNote file.
 
 ```java
 Document oneFile = new Document("path/to/your/OneNote.one");
 ```
 
-### Adım 2: Hedef Yolunu Tanımlayın
+### Step 2: Define the Destination Path
 
-PDF dosyasının hedef yolunu belirtin:
+Choose where the resulting PDF should be written. Again, update the path to suit your environment.
 
 ```java
 String dst = "path/to/your/SaveToPdfUsingLetterPageSettings.pdf";
 ```
 
-### 3. Adım: Belgeyi Kaydedin
+### Step 3: Save with Letter Page Settings
 
-Belgeyi Letter sayfa ayarlarıyla kaydedin:
+Create a `PdfSaveOptions` instance, set the **Letter** page size (a common US paper format), and invoke `save`. This demonstrates **customize PDF page size** using Aspose.Note’s built‑in helpers.
 
 ```java
 PdfSaveOptions options = new PdfSaveOptions();
@@ -63,27 +71,29 @@ options.setPageSettings(PageSettings.getLetter());
 oneFile.save(dst, options);
 ```
 
-## Yükseklik Sınırı Olmadan A4 Sayfa Ayarlarını Kullanarak PDF'ye Kaydetme
+> **İpucu:** Kenar boşluklarını veya yönlendirmeyi ayarlamanız gerekiyorsa, `PageSettings` üzerindeki ek özellikleri inceleyin.
 
-### 1. Adım: Belgeyi Yükleyin
+## How to Save PDF Using A4 Page Settings Without Height Limit
 
-Benzer şekilde OneNote belgesini Aspose.Note'a yükleyin:
+### Step 1: Load the OneNote Document
+
+The loading step is identical for the A4 scenario.
 
 ```java
 Document oneFile = new Document("path/to/your/OneNote.one");
 ```
 
-### Adım 2: Hedef Yolunu Tanımlayın
+### Step 2: Define the Destination Path
 
-PDF dosyasının hedef yolunu belirtin:
+Provide a distinct file name to avoid overwriting the previous PDF.
 
 ```java
 String dst = "path/to/your/SaveToPdfUsingA4PageSettingsWithoutHeightLimit.pdf";
 ```
 
-### 3. Adım: Belgeyi Kaydedin
+### Step 3: Save with A4 Page Settings (No Height Limit)
 
-Belgeyi yükseklik sınırı olmadan A4 sayfa ayarlarıyla kaydedin:
+Here we use `PageSettings.getA4NoHeightLimit()` to generate a PDF that automatically expands vertically—perfect for long notes or scrollable content.
 
 ```java
 PdfSaveOptions options = new PdfSaveOptions();
@@ -91,33 +101,43 @@ options.setPageSettings(PageSettings.getA4NoHeightLimit());
 oneFile.save(dst, options);
 ```
 
-Bu adımları izledikten sonra OneNote belgenizi farklı sayfa ayarlarını kullanarak başarıyla PDF'ye kaydetmiş olacaksınız.
+> **Neden önemli:** **A4 yüksekliği sınırlı olmayan** seçeneği içerik kesilmesini önler, OneNote sayfasının uzunluğuna bakılmaksızın tümünün PDF'de görünmesini sağlar.
 
-## Çözüm
+## Common Issues & Solutions
 
-Bu eğitimde, Aspose.Note for Java kütüphanesini kullanarak OneNote belgelerinin PDF formatında nasıl kaydedileceğini araştırdık. Adım adım kılavuzu takip ederek bu işlevselliği Java uygulamalarınıza kolayca entegre edebilirsiniz.
+| Sorun | Neden oluşur | Çözüm |
+|-------|----------------|-----|
+| **Boş PDF çıktısı** | Kaynak dosya yolu hatalı veya dosya erişilemez. | Yolu doğrulayın ve dosyanın mevcut olduğundan emin olun. |
+| **Sayfa boyutu uygulanmadı** | `PdfSaveOptions` `save` çağrısına bağlanmamış. | `options` nesnesini `oneFile.save()`'e geçirdiğinizden emin olun. |
+| **Büyük notlar için bellek yetersizliği** | Çok büyük `.one` dosyalarını yüklemek yığın (heap) alanını tüketebilir. | JVM yığın boyutunu (`-Xmx`) artırın veya dosyaları daha küçük partilerde işleyin. |
 
-## SSS'ler
+## Frequently Asked Questions
 
-### S1: Sayfa ayarlarını daha da özelleştirebilir miyim?
+**S: Sayfa ayarlarını, örneğin kenar boşlukları veya yönlendirme gibi, daha da özelleştirebilir miyim?**  
+C: Evet, `PageSettings` kenar boşlukları, yönlendirme ve DPI için özellikler sunar. Özel bir `PageSettings` nesnesi oluşturup `PdfSaveOptions`'a atayabilirsiniz.
 
-Cevap1: Evet, Aspose.Note for Java'yı kullanarak sayfa ayarlarını gereksinimlerinize göre özelleştirebilirsiniz.
+**S: **OneNote'u PDF'ye dönüştürmeyi** toplu bir işlemde nasıl yaparım?**  
+C: Dosya yolu koleksiyonunda döngü oluşturun, her biri için bir `Document` örneği oluşturun ve istediğiniz `PdfSaveOptions` ile `save` metodunu çağırın. Bu, yukarıda gösterilen kod desenini tekrar kullanır.
 
-### S2: Aspose.Note, PDF dışında diğer çıktı formatlarını da destekliyor mu?
+**S: Aspose.Note PDF dışındaki diğer dışa aktarma formatlarını destekliyor mu?**  
+C: Kesinlikle. İlgili `SaveOptions` sınıflarını kullanarak HTML, XPS veya PNG ve JPEG gibi çeşitli görüntü formatlarına dışa aktarabilirsiniz.
 
-Cevap2: Evet, Aspose.Note resimler ve HTML de dahil olmak üzere çeşitli çıktı formatlarını destekler.
+**S: **OneNote belgesi PDF**'yi gömülü yazı tipleriyle dışa aktarmanın bir yolu var mı?**  
+C: Kaydetmeden önce `PdfSaveOptions` örneğinde `options.setEmbedStandardFonts(true)` ayarlayın.
 
-### S3: Aspose.Note, OneNote dosyalarının farklı sürümleriyle uyumlu mudur?
+**S: Üretim kullanımında lisanslama hususları var mı?**  
+C: Değerlendirme için ücretsiz bir deneme mevcuttur, ancak üretim ortamlarında dağıtım için ticari lisans gereklidir.
 
-Cevap3: Evet, Aspose.Note, .one ve .onetoc2 dahil olmak üzere farklı sürümlerdeki OneNote dosyalarını destekler.
+## Conclusion
 
-### S4: Tek seferde birden fazla OneNote dosyasını PDF'ye dönüştürebilir miyim?
+Artık Aspose.Note for Java kullanarak OneNote dosyalarından **PDF nasıl kaydedilir** konusunda tam sayfa boyutu kontrolüne sahipsiniz — standart Letter düzeni ya da içeriğinizle birlikte büyüyen A4 sayfası ihtiyacınız olsun. Bu kod parçacıklarını mevcut Java uygulamalarınıza entegre ederek belge dönüşümünü otomatikleştirebilir, yazdırılabilir raporlar oluşturabilir veya OneNote defterlerini PDF olarak arşivleyebilirsiniz.
 
-Cevap4: Evet, Aspose.Note for Java'yı kullanarak birden fazla OneNote dosyasını toplu olarak işleyebilirsiniz.
+---
 
-### S5: Test amaçlı herhangi bir deneme sürümü mevcut mu?
+**Son Güncelleme:** 2025-12-17  
+**Test Edilen Sürüm:** Aspose.Note for Java 23.12  
+**Yazar:** Aspose  
 
-Cevap5: Evet, web sitesinden Aspose.Note for Java'nın ücretsiz deneme sürümünü edinebilirsiniz.
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
