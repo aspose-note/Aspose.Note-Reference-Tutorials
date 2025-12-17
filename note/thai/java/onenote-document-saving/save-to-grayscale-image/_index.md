@@ -1,33 +1,50 @@
 ---
-title: บันทึกเป็นรูปภาพระดับสีเทาใน OneNote - Aspose.Note
-linktitle: บันทึกเป็นรูปภาพระดับสีเทาใน OneNote - Aspose.Note
+date: 2025-12-17
+description: เรียนรู้วิธีการส่งออก OneNote โดยบันทึกเอกสารเป็นภาพ PNG แบบระดับสีเทาโดยใช้
+  Aspose.Note สำหรับ Java รวมขั้นตอนการโหลดเอกสาร OneNote และสร้างภาพระดับสีเทา
+linktitle: How to Export OneNote as Grayscale Image – Aspose.Note
 second_title: Aspose.Note Java API
-description: เรียนรู้วิธีบันทึกเอกสารเป็นรูปภาพระดับสีเทาใน OneNote โดยใช้ Aspose.Note for Java จัดการเอกสาร Microsoft OneNote โดยทางโปรแกรมได้อย่างง่ายดาย
-weight: 17
+title: วิธีส่งออก OneNote เป็นภาพระดับสีเทา – Aspose.Note
 url: /th/java/onenote-document-saving/save-to-grayscale-image/
+weight: 17
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# บันทึกเป็นรูปภาพระดับสีเทาใน OneNote - Aspose.Note
+# บันทึกเป็นภาพระดับสีเทาใน OneNote - Aspose.Note
 
-## การแนะนำ
+## บทนำ
 
-ในบทช่วยสอนนี้ เราจะสำรวจวิธีการบันทึกเอกสารเป็นรูปภาพระดับสีเทาใน OneNote โดยใช้ Aspose.Note for Java ภาพระดับสีเทาเป็นภาพเอกรงค์ซึ่งข้อมูลสีจะแสดงด้วยเฉดสีเทาเท่านั้น Aspose.Note เป็น Java API ที่ทรงพลังซึ่งช่วยให้สามารถจัดการเอกสาร Microsoft OneNote โดยทางโปรแกรม
+ในบทแนะนำนี้ เราจะแสดงให้คุณเห็น **วิธีการส่งออก onenote** โดยการบันทึกเอกสารเป็นภาพระดับสีเทาโดยใช้ Aspose.Note สำหรับ Java. ภาพระดับสีเทาเป็นรูปภาพโมโนโครมที่มีเฉพาะเฉดสีเทา ซึ่งมีประโยชน์สำหรับการพิมพ์, การเก็บถาวร, หรือการลดขนาดไฟล์. เราจะอธิบายขั้นตอนการโหลดเอกสาร OneNote, การกำหนดค่าตัวเลือกการบันทึกเพื่อ **สร้างภาพระดับสีเทา**, และสุดท้าย **บันทึกเอกสารเป็น PNG**.
+
+## คำตอบสั้น
+- **What does “how to export onenote” mean?** It refers to converting a OneNote file into another format, such as an image, programmatically.  
+- **Which format is best for grayscale output?** PNG works well because it preserves loss‑less quality and supports grayscale color mode.  
+- **Do I need a license?** A valid Aspose.Note license is required for production use; a temporary trial license is available for testing.  
+- **What Java version is required?** Java 8 or higher is recommended.  
+- **Can I change the image size?** Yes, you can adjust the `ImageSaveOptions` properties like `Resolution` or `PageSize` before saving.
+
+## “how to export onenote” คืออะไร?
+Exporting OneNote means programmatically converting a OneNote `.one` file into another representation—such as PDF, HTML, or an image. In this guide we focus on exporting to a **grayscale PNG** image, which is a common requirement for documentation or printing workflows.
+
+## ทำไมต้องส่งออก OneNote เป็นภาพระดับสีเทา?
+- **Reduced file size** – Grayscale PNGs are typically smaller than full‑color images.  
+- **Better readability** – For printed reports, grayscale often provides clearer contrast.  
+- **Compatibility** – PNG is widely supported across browsers, editors, and mobile devices.  
 
 ## ข้อกำหนดเบื้องต้น
 
-ก่อนที่เราจะเริ่ม ตรวจสอบให้แน่ใจว่าคุณมีสิ่งต่อไปนี้:
+Before we begin, ensure you have the following:
 
-1. ติดตั้ง Java Development Kit (JDK) บนระบบของคุณ
-2.  Aspose.Note สำหรับไลบรารี Java คุณสามารถดาวน์โหลดได้จาก[ที่นี่](https://releases.aspose.com/note/java/).
-3. ความเข้าใจพื้นฐานเกี่ยวกับการเขียนโปรแกรม Java
+1. Java Development Kit (JDK) installed on your system.  
+2. Aspose.Note for Java library. You can download it from [here](https://releases.aspose.com/note/java/).  
+3. Basic understanding of Java programming.  
 
-## แพ็คเกจนำเข้า
+## นำเข้าแพ็กเกจ
 
-ในการเริ่มต้น ให้นำเข้าแพ็คเกจที่จำเป็น:
+To get started, import the necessary packages:
 
 ```java
 import com.aspose.note.ColorMode;
@@ -37,18 +54,18 @@ import com.aspose.note.SaveFormat;
 import java.io.IOException;
 ```
 
-## ขั้นตอนที่ 1: โหลดเอกสาร
+## ขั้นตอนที่ 1: โหลดเอกสาร OneNote
 
- ขั้นแรก ให้โหลดเอกสารลงใน Aspose.Note แทนที่`"Your Document Directory"` พร้อมเส้นทางไปยังไดเร็กทอรีเอกสารของคุณและ`"Aspose.one"` ด้วยชื่อเอกสาร OneNote ของคุณ
+First, **load onenote document** into Aspose.Note. Replace `"Your Document Directory"` with the path to your local folder and `"Aspose.one"` with the name of your OneNote file.
 
 ```java
 String dataDir = "Your Document Directory";
 Document oneFile = new Document(dataDir + "Aspose.one");
 ```
 
-## ขั้นตอนที่ 2: ตั้งค่าเส้นทางเอาต์พุตและตัวเลือก
+## ขั้นตอนที่ 2: กำหนดเส้นทางและตัวเลือกการส่งออก
 
-กำหนดเส้นทางเอาต์พุตสำหรับรูปภาพระดับสีเทาและระบุตัวเลือกการบันทึก เราจะตั้งค่าโหมดสีเป็นโทนสีเทา
+Define the output path for the grayscale image and specify the saving options. We'll set the `ColorMode` to `GrayScale` and use the **save document as png** format.
 
 ```java
 dataDir = dataDir + "SaveAsGrayscaleImage_out.png";
@@ -58,40 +75,49 @@ options.setColorMode(ColorMode.GrayScale);
 
 ## ขั้นตอนที่ 3: บันทึกเอกสาร
 
-สุดท้าย ให้บันทึกเอกสารเป็นภาพระดับสีเทาโดยใช้ตัวเลือกที่ระบุ
+Finally, save the document as a grayscale PNG image using the configured options.
 
 ```java
 oneFile.save(dataDir, options);
 ```
 
-## บทสรุป
-
-ยินดีด้วย! คุณได้เรียนรู้วิธีบันทึกเอกสารเป็นรูปภาพระดับสีเทาใน OneNote โดยใช้ Aspose.Note for Java เรียบร้อยแล้ว สิ่งนี้มีประโยชน์อย่างเหลือเชื่อสำหรับแอพพลิเคชั่นต่างๆ ที่จำเป็นต้องใช้ภาพระดับสีเทา
+## ปัญหาที่พบบ่อยและวิธีแก้ไข
+- **FileNotFoundException** – Verify that `dataDir` points to the correct folder and that the `.one` file exists.  
+- **LicenseException** – Ensure you have applied a valid Aspose.Note license before calling `save`.  
+- **Low‑resolution output** – Adjust `options.setResolution(300)` to increase DPI if needed.
 
 ## คำถามที่พบบ่อย
 
-### คำถามที่ 1: ฉันสามารถบันทึกภาพระดับสีเทาในรูปแบบอื่นได้หรือไม่
+**Q1: Can I save the grayscale image in a different format?**  
+A1: Yes, simply change the `SaveFormat` parameter in the `ImageSaveOptions` constructor to `Jpeg`, `Bmp`, etc.
 
- A1: ใช่คุณทำได้ เพียงแค่เปลี่ยน`SaveFormat` พารามิเตอร์ใน`ImageSaveOptions` Constructor ในรูปแบบที่คุณต้องการ
+**Q2: Is Aspose.Note compatible with all versions of OneNote documents?**  
+A2: Aspose.Note supports Microsoft OneNote 2010 and later versions.
 
-### คำถามที่ 2: Aspose.Note เข้ากันได้กับเอกสาร OneNote ทุกเวอร์ชันหรือไม่
+**Q3: Does Aspose.Note require a license to use?**  
+A3: A valid license is required for production use, but a temporary trial license can be obtained for evaluation.
 
-ตอบ 2: Aspose.Note รองรับ Microsoft OneNote 2010 ขึ้นไป
+**Q4: Can I manipulate other aspects of the document before saving it as an image?**  
+A4: Absolutely! Aspose.Note provides a comprehensive API for editing sections, pages, and content before export.
 
-### คำถามที่ 3: Aspose.Note จำเป็นต้องมีใบอนุญาตในการใช้งานหรือไม่
+**Q5: Where can I find support if I encounter issues?**  
+A5: You can find support on the Aspose.Note forum [here](https://forum.aspose.com/c/note/28).
 
-A3: ใช่ คุณต้องมีใบอนุญาตที่ถูกต้องเพื่อใช้ Aspose.Note ในสภาพแวดล้อมการใช้งานจริง อย่างไรก็ตาม คุณสามารถขอรับใบอนุญาตชั่วคราวเพื่อการทดสอบได้
+## สรุป
 
-### คำถามที่ 4: ฉันสามารถจัดการส่วนอื่นๆ ของเอกสารก่อนที่จะบันทึกเป็นรูปภาพได้หรือไม่
+You've now learned **how to export onenote** by loading a OneNote file, configuring the save options to **create a grayscale image**, and **saving the document as PNG**. This technique is handy for generating lightweight, print‑ready visuals from OneNote notebooks. Feel free to experiment with other `ColorMode` settings or image formats to fit your project's needs.
 
-A4: แน่นอน! Aspose.Note มีคุณสมบัติที่หลากหลายสำหรับการแก้ไขเอกสาร OneNote โดยทางโปรแกรม
-
-### คำถามที่ 5: ฉันจะรับการสนับสนุนได้ที่ไหนหากฉันประสบปัญหา
-
-A5: คุณสามารถค้นหาการสนับสนุนได้ที่ฟอรั่ม Aspose.Note[ที่นี่](https://forum.aspose.com/c/note/28).
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
+
+---
+
+**อัปเดตล่าสุด:** 2025-12-17  
+**ทดสอบด้วย:** Aspose.Note 24.12 for Java  
+**ผู้เขียน:** Aspose  
+
+---

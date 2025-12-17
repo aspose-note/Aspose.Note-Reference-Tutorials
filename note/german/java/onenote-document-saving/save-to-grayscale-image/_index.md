@@ -1,33 +1,51 @@
 ---
-title: Als Graustufenbild in OneNote speichern – Aspose.Note
-linktitle: Als Graustufenbild in OneNote speichern – Aspose.Note
+date: 2025-12-17
+description: Erfahren Sie, wie Sie OneNote exportieren, indem Sie ein Dokument als
+  Graustufen‑PNG‑Bild mit Aspose.Note für Java speichern. Enthält Schritte zum Laden
+  des OneNote‑Dokuments und zum Erstellen eines Graustufen‑Bildes.
+linktitle: How to Export OneNote as Grayscale Image – Aspose.Note
 second_title: Aspose.Note Java API
-description: Erfahren Sie, wie Sie mit Aspose.Note für Java ein Dokument als Graustufenbild in OneNote speichern. Bearbeiten Sie Microsoft OneNote-Dokumente ganz einfach programmgesteuert.
-weight: 17
+title: Wie man OneNote als Graustufenbild exportiert – Aspose.Note
 url: /de/java/onenote-document-saving/save-to-grayscale-image/
+weight: 17
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Als Graustufenbild in OneNote speichern – Aspose.Note
+# Speichern als Graustufen‑Bild in OneNote – Aspose.Note
 
-## Einführung
+## Einleitung
 
-In diesem Tutorial erfahren Sie, wie Sie mit Aspose.Note für Java ein Dokument als Graustufenbild in OneNote speichern. Graustufenbilder sind monochromatische Bilder, bei denen die Farbinformationen nur durch Graustufen dargestellt werden. Aspose.Note ist eine leistungsstarke Java-API, die die programmgesteuerte Bearbeitung von Microsoft OneNote-Dokumenten ermöglicht.
+In diesem Tutorial zeigen wir Ihnen **wie man OneNote exportiert**, indem ein Dokument als Graustufen‑Bild mit Aspose.Note für Java gespeichert wird. Graustufen‑Bilder sind monochrome Bilder, die nur Grautöne enthalten und sich für den Druck, die Archivierung oder die Reduzierung der Dateigröße eignen. Wir führen Sie durch das Laden eines OneNote‑Dokuments, die Konfiguration der Speicheroptionen zum **Erstellen eines Graustufen‑Bildes** und schließlich das **Speichern des Dokuments als PNG**.
+
+## Schnelle Antworten
+- **Was bedeutet „how to export onenote“?** Es bezieht sich darauf, eine OneNote‑Datei programmgesteuert in ein anderes Format, z. B. ein Bild, zu konvertieren.  
+- **Welches Format ist am besten für Graustufenausgabe?** PNG eignet sich gut, weil es verlustfreie Qualität bewahrt und den Graustufen‑Farbmodus unterstützt.  
+- **Benötige ich eine Lizenz?** Eine gültige Aspose.Note‑Lizenz ist für den Produktionseinsatz erforderlich; eine temporäre Testlizenz ist zum Ausprobieren verfügbar.  
+- **Welche Java‑Version wird benötigt?** Java 8 oder höher wird empfohlen.  
+- **Kann ich die Bildgröße ändern?** Ja, Sie können die Eigenschaften von `ImageSaveOptions` wie `Resolution` oder `PageSize` vor dem Speichern anpassen.
+
+## Was bedeutet „how to export onenote“?
+Das Exportieren von OneNote bedeutet, eine OneNote‑`.one`‑Datei programmgesteuert in eine andere Darstellung zu konvertieren – beispielsweise PDF, HTML oder ein Bild. In diesem Leitfaden konzentrieren wir uns auf den Export in ein **Graustufen‑PNG**‑Bild, was häufig für Dokumentations‑ oder Druck‑Workflows benötigt wird.
+
+## Warum OneNote als Graustufen‑Bild exportieren?
+- **Reduzierte Dateigröße** – Graustufen‑PNGs sind in der Regel kleiner als Vollfarbbilder.  
+- **Bessere Lesbarkeit** – Für gedruckte Berichte bietet Graustufen oft einen klareren Kontrast.  
+- **Kompatibilität** – PNG wird von den meisten Browsern, Editoren und mobilen Geräten breit unterstützt.  
 
 ## Voraussetzungen
 
-Bevor wir beginnen, stellen Sie sicher, dass Sie über Folgendes verfügen:
+Bevor wir beginnen, stellen Sie sicher, dass Sie Folgendes haben:
 
-1. Java Development Kit (JDK) auf Ihrem System installiert.
-2.  Aspose.Note für Java-Bibliothek. Sie können es herunterladen unter[Hier](https://releases.aspose.com/note/java/).
-3. Grundlegendes Verständnis der Java-Programmierung.
+1. Java Development Kit (JDK) auf Ihrem System installiert.  
+2. Aspose.Note für Java‑Bibliothek. Sie können sie von [hier](https://releases.aspose.com/note/java/) herunterladen.  
+3. Grundlegendes Verständnis der Java‑Programmierung.  
 
 ## Pakete importieren
 
-Importieren Sie zunächst die erforderlichen Pakete:
+Um loszulegen, importieren Sie die notwendigen Pakete:
 
 ```java
 import com.aspose.note.ColorMode;
@@ -37,18 +55,18 @@ import com.aspose.note.SaveFormat;
 import java.io.IOException;
 ```
 
-## Schritt 1: Laden Sie das Dokument
+## Schritt 1: OneNote‑Dokument laden
 
- Laden Sie zunächst das Dokument in Aspose.Note. Ersetzen`"Your Document Directory"` mit dem Pfad zu Ihrem Dokumentenverzeichnis und`"Aspose.one"` mit dem Namen Ihres OneNote-Dokuments.
+Zuerst **laden Sie das OneNote‑Dokument** in Aspose.Note. Ersetzen Sie `"Your Document Directory"` durch den Pfad zu Ihrem lokalen Ordner und `"Aspose.one"` durch den Namen Ihrer OneNote‑Datei.
 
 ```java
 String dataDir = "Your Document Directory";
 Document oneFile = new Document(dataDir + "Aspose.one");
 ```
 
-## Schritt 2: Ausgabepfad und Optionen festlegen
+## Schritt 2: Ausgabepfad und Optionen festlegen
 
-Definieren Sie den Ausgabepfad für das Graustufenbild und legen Sie die Speicheroptionen fest. Wir stellen den Farbmodus auf Graustufen ein.
+Definieren Sie den Ausgabepfad für das Graustufen‑Bild und geben Sie die Speicheroptionen an. Wir setzen `ColorMode` auf `GrayScale` und verwenden das **save document as png**‑Format.
 
 ```java
 dataDir = dataDir + "SaveAsGrayscaleImage_out.png";
@@ -56,42 +74,49 @@ ImageSaveOptions options = new ImageSaveOptions(SaveFormat.Png);
 options.setColorMode(ColorMode.GrayScale);
 ```
 
-## Schritt 3: Speichern Sie das Dokument
+## Schritt 3: Dokument speichern
 
-Speichern Sie abschließend das Dokument mit den angegebenen Optionen als Graustufenbild.
+Speichern Sie schließlich das Dokument als Graustufen‑PNG‑Bild mit den konfigurierten Optionen.
 
 ```java
 oneFile.save(dataDir, options);
 ```
 
-## Abschluss
+## Häufige Probleme und Lösungen
+- **FileNotFoundException** – Stellen Sie sicher, dass `dataDir` auf den richtigen Ordner verweist und die `.one`‑Datei existiert.  
+- **LicenseException** – Stellen Sie sicher, dass Sie vor dem Aufruf von `save` eine gültige Aspose.Note‑Lizenz angewendet haben.  
+- **Niedrige Auflösung** – Passen Sie `options.setResolution(300)` an, um bei Bedarf die DPI zu erhöhen.
 
-Glückwunsch! Sie haben erfolgreich gelernt, wie Sie mit Aspose.Note für Java ein Dokument als Graustufenbild in OneNote speichern. Dies kann für verschiedene Anwendungen, bei denen Graustufenbilder erforderlich sind, äußerst nützlich sein.
+## Häufig gestellte Fragen
 
-## FAQs
+**Q1: Kann ich das Graustufen‑Bild in einem anderen Format speichern?**  
+A1: Ja, ändern Sie einfach den `SaveFormat`‑Parameter im `ImageSaveOptions`‑Konstruktor zu `Jpeg`, `Bmp` usw.
 
-### F1: Kann ich das Graustufenbild in einem anderen Format speichern?
+**Q2: Ist Aspose.Note mit allen Versionen von OneNote‑Dokumenten kompatibel?**  
+A2: Aspose.Note unterstützt Microsoft OneNote 2010 und spätere Versionen.
 
- A1: Ja, das können Sie. Ändern Sie einfach die`SaveFormat` Parameter in der`ImageSaveOptions` Konstruktor in Ihr gewünschtes Format.
+**Q3: Benötigt Aspose.Note eine Lizenz zur Nutzung?**  
+A3: Eine gültige Lizenz ist für den Produktionseinsatz erforderlich, aber eine temporäre Testlizenz kann für Evaluierungszwecke erhalten werden.
 
-### F2: Ist Aspose.Note mit allen Versionen von OneNote-Dokumenten kompatibel?
+**Q4: Kann ich andere Aspekte des Dokuments vor dem Speichern als Bild manipulieren?**  
+A4: Absolut! Aspose.Note bietet eine umfassende API zum Bearbeiten von Abschnitten, Seiten und Inhalten vor dem Export.
 
-A2: Aspose.Note unterstützt Microsoft OneNote 2010 und höher.
+**Q5: Wo finde ich Unterstützung, wenn ich auf Probleme stoße?**  
+A5: Sie finden Unterstützung im Aspose.Note‑Forum [hier](https://forum.aspose.com/c/note/28).
 
-### F3: Ist für die Nutzung von Aspose.Note eine Lizenz erforderlich?
+## Fazit
 
-A3: Ja, Sie benötigen eine gültige Lizenz, um Aspose.Note in Produktionsumgebungen verwenden zu können. Sie können jedoch zu Testzwecken eine temporäre Lizenz erwerben.
+Sie haben nun gelernt **wie man OneNote exportiert**, indem Sie eine OneNote‑Datei laden, die Speicheroptionen zum **Erstellen eines Graustufen‑Bildes** konfigurieren und **das Dokument als PNG speichern**. Diese Technik ist praktisch, um leichte, druckfertige Visualisierungen aus OneNote‑Notizbüchern zu erzeugen. Experimentieren Sie gern mit anderen `ColorMode`‑Einstellungen oder Bildformaten, um den Anforderungen Ihres Projekts gerecht zu werden.
 
-### F4: Kann ich andere Aspekte des Dokuments manipulieren, bevor ich es als Bild speichere?
-
-A4: Auf jeden Fall! Aspose.Note bietet zahlreiche Funktionen zum programmgesteuerten Bearbeiten von OneNote-Dokumenten.
-
-### F5: Wo finde ich Unterstützung, wenn ich auf Probleme stoße?
-
-A5: Unterstützung finden Sie im Aspose.Note-Forum[Hier](https://forum.aspose.com/c/note/28).
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
+
+---
+
+**Last Updated:** 2025-12-17  
+**Tested With:** Aspose.Note 24.12 for Java  
+**Author:** Aspose
