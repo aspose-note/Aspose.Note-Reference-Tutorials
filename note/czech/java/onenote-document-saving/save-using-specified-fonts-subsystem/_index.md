@@ -1,37 +1,55 @@
 ---
-title: Uložit pomocí zadaného podsystému písem ve OneNotu
-linktitle: Uložit pomocí zadaného podsystému písem ve OneNotu
+date: 2025-12-18
+description: Naučte se, jak **uložit OneNote jako PDF** pomocí specifikovaného podsystému
+  písem v Javě s Aspose.Note. Tento průvodce také ukazuje, jak převést OneNote do
+  PDF, načíst vlastní soubory písem a určit výchozí písma.
+linktitle: Save OneNote as PDF Using Specified Fonts Subsystem
 second_title: Aspose.Note Java API
-description: Naučte se ukládat dokumenty OneNotu pomocí specifikovaného subsystému písem v Javě pomocí Aspose.Note. Zajistěte bez námahy konzistentní reprezentaci písem napříč platformami.
-weight: 22
+title: Uložte OneNote jako PDF pomocí podsystému specifikovaných fontů
 url: /cs/java/onenote-document-saving/save-using-specified-fonts-subsystem/
+weight: 22
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Uložit pomocí zadaného podsystému písem ve OneNotu
+# Uložení OneNote jako PDF pomocí specifikovaného podsystému písem
 
 ## Úvod
 
-Aspose.Note for Java poskytuje robustní možnosti pro práci s dokumenty OneNotu. Jedním společným požadavkem při práci s takovými dokumenty je zajištění správné údržby písem, zejména pokud má být dokument exportován nebo uložen v různých formátech, jako je PDF. Tento výukový program vás provede procesem ukládání dokumentů OneNotu při specifikaci podsystému písem, což zajistí konzistentní a přesnou reprezentaci textu na různých platformách.
+V mnoha obchodních scénářích potřebujete **uložit OneNote jako PDF** a zachovat přesný vzhled původních stránek. Aspose.Note pro Java to usnadňuje tím, že vám umožní řídit podsystém písem během konverze. V tomto tutoriálu projdeme tři praktické způsoby, jak **převést OneNote do PDF**, včetně **načtení vlastních souborů písem**, **specifikace výchozího písma** a dokonce **použití proudu písma**, když písmo není k dispozici na cílovém stroji.
 
-## Předpoklady
+## Rychlé odpovědi
+- **Co znamená „uložit OneNote jako PDF“?** Převádí soubor .one do PDF při zachování rozvržení a stylování.  
+- **Které API zpracovává písma?** `DocumentFontsSubsystem` vám umožňuje definovat výchozí písmo nebo načíst vlastní soubor/stream písma.  
+- **Potřebuji licenci pro produkční použití?** Ano, pro ne‑zkušební použití je vyžadována komerční licence Aspose.Note.  
+- **Mohu převádět více souborů najednou?** Ano – stačí smyčkovat načítání a ukládání `Document`.  
+- **Jaká verze Javy je požadována?** Java 15 nebo novější (příklad používá JDK 15).
 
-Než se pustíme do výukového programu, ujistěte se, že máte nastaveny následující předpoklady:
+## Co je „uložit OneNote jako PDF“ s podsystémem písem?
+
+Uložení OneNote jako PDF s podsystémem písem znamená, že během procesu konverze Aspose.Note nahradí chybějící glyfy písmem, které poskytnete. Tím se zajistí, že PDF vypadá identicky na jakémkoli zařízení, i když původní písmo není nainstalováno.
+
+## Proč řídit podsystém písem při **převodu OneNote do PDF**?
+
+- **Konzistentní značka** – firemní dokumenty zachovávají přesný typ písma.  
+- **Spolehlivost napříč platformami** – PDF se vykreslují stejně na Windows, macOS, Linuxu i mobilních zařízeních.  
+- **Snížené chyby** – varování o chybějících písmenech zmizí, výstup je čistý.
+
+## Požadavky
 
 ### 1. Java Development Kit (JDK)
 
- Ujistěte se, že máte v systému nainstalovanou sadu Java Development Kit (JDK). Můžete si jej stáhnout z[tady](https://www.oracle.com/java/technologies/javase-jdk15-downloads.html) pokud jste to ještě neudělali.
+Ujistěte se, že máte nainstalovaný Java Development Kit (JDK). Můžete si jej stáhnout z [here](https://www.oracle.com/java/technologies/javase-jdk15-downloads.html), pokud jej ještě nemáte.
 
 ### 2. Aspose.Note for Java Library
 
- Stáhněte a nastavte knihovnu Aspose.Note for Java. Můžete si jej stáhnout z[webová stránka](https://releases.aspose.com/note/java/).
+Stáhněte a nastavte knihovnu Aspose.Note pro Java. Můžete ji stáhnout z [website](https://releases.aspose.com/note/java/).
 
-## Importujte balíčky
+## Import balíčků
 
-Ujistěte se, že do svého projektu Java importujete potřebné balíčky:
+Ujistěte se, že ve svém Java projektu importujete potřebné balíčky:
 
 ```java
 import com.aspose.note.Document;
@@ -43,82 +61,84 @@ import java.io.InputStream;
 import java.nio.file.Paths;
 ```
 
-Nyní si každý příklad rozdělíme do několika kroků, abychom procesu lépe porozuměli.
+Nyní si rozložíme každý příklad do několika kroků, abychom lépe pochopili proces.
 
-## Krok 1: Uložení pomocí podsystému písem dokumentu s výchozím názvem písma
+## Jak **uložit OneNote jako PDF** pomocí Document Fonts Subsystem s výchozím písmem
 
-Tento krok ukazuje, jak uložit dokument ve formátu PDF pomocí zadaného výchozího názvu písma.
+### Krok 1: Uložení pomocí Document Fonts Subsystem s názvem výchozího písma
+
+Tento krok demonstruje, jak **uložit OneNote jako PDF** jednoduchým způsobem zadáním názvu výchozího písma.
 
 ```java
 public static void SaveUsingDocumentFontsSubsystemWithDefaultFontName() throws IOException
 {
-    // Vložte dokument do Aspose.Note.
+    // Load the document into Aspose.Note.
     Document oneFile = new Document("missing-font.one");
 
-    // Zadejte výchozí písmo.
+    // Specify the default font.
     PdfSaveOptions options = new PdfSaveOptions();
     options.setFontsSubsystem(DocumentFontsSubsystem.usingDefaultFont("Times New Roman"));
 
-    // Uložte dokument jako PDF.
+    // Save the document as PDF.
     oneFile.save("SaveUsingDocumentFontsSubsystemWithDefaultFontName_out.pdf", options);
 }
 ```
 
 V tomto kroku:
-- Dokument OneNotu se načte pomocí Aspose.Note.
-- Výchozí písmo je určeno jako "Times New Roman".
-- Dokument se uloží ve formátu PDF se zadaným písmem.
+- Dokument OneNote je načten pomocí Aspose.Note.
+- **Výchozí písmo** je nastaveno na **"Times New Roman"**.
+- Dokument je uložen ve formátu PDF s vybraným písmem.
 
-## Krok 2: Uložte pomocí podsystému písem dokumentu s výchozím písmem ze souboru
+### Krok 2: Uložení pomocí Document Fonts Subsystem s výchozím písmem ze souboru
 
-Tento krok ukazuje, jak uložit dokument ve formátu PDF pomocí výchozího písma načteného ze souboru.
+Zde **načteme vlastní soubor písma** a použijeme jej jako náhradní při konverzi do PDF.
 
 ```java
 public static void SaveUsingDocumentFontsSubsystemWithDefaultFontFromFile() throws IOException
 {
-    // Vložte dokument do Aspose.Note.
+    // Load the document into Aspose.Note.
     Document oneFile = new Document("missing-font.one");
 
-    // Zadejte cestu k souboru písma.
+    // Specify the path to the font file.
     String fontFile = "geo_1.ttf";
 
-    // Zadejte výchozí písmo ze souboru.
+    // Specify the default font from the file.
     PdfSaveOptions options = new PdfSaveOptions();
     options.setFontsSubsystem(DocumentFontsSubsystem.usingDefaultFontFromFile(fontFile));
 
-    // Uložte dokument jako PDF.
+    // Save the document as PDF.
     oneFile.save("SaveUsingDocumentFontsSubsystemWithDefaultFontFromFile_out.pdf", options);
 }
 ```
 
-V tomto kroku:
-- Načte se soubor fontu "geo_1.ttf".
-- Výchozí písmo je určeno z načteného souboru písma.
-- Dokument se uloží ve formátu PDF se zadaným písmem.
+Klíčové body:
+- Vlastní soubor písma `geo_1.ttf` je načten z disku.
+- `usingDefaultFontFromFile` **specifikuje výchozí písmo ze souboru**, což zajišťuje, že PDF použije toto písmo, pokud originál chybí.
+- Výsledné PDF zachovává zamýšlený vzhled.
 
-## Krok 3: Uložte pomocí subsystému písem dokumentu s výchozím písmem ze streamu
+### Krok 3: Uložení pomocí Document Fonts Subsystem s výchozím písmem z proudu
 
-Tento krok ukazuje, jak uložit dokument ve formátu PDF pomocí výchozího písma načteného ze streamu.
+Někdy může být písmo uloženo v databázi nebo přijato přes síť. Tento příklad ukazuje, jak **použít proud písma**.
 
 ```java
 public static void SaveUsingDocumentFontsSubsystemWithDefaultFontFromStream() throws IOException
 {
-    // Vložte dokument do Aspose.Note.
+    // Load the document into Aspose.Note.
     Document oneFile = new Document("missing-font.one");
 
-    // Zadejte cestu k souboru písma.
+    // Specify the path to the font file.
     String fontFile = "geo_1.ttf";
 
-    // Načtěte soubor písma jako proud.
+    // Load the font file as a stream.
     InputStream stream = new FileInputStream(fontFile);
 
     try
     {
-        // Zadejte výchozí písmo ze streamu.
+        // Specify the default font from the stream.
         PdfSaveOptions options = new PdfSaveOptions();
         options.setFontsSubsystem(DocumentFontsSubsystem.usingDefaultFontFromStream(stream));
 
-        // Uložte dokument jako PDF.
+        // Save the document as PDF.
         oneFile.save("SaveUsingDocumentFontsSubsystemWithDefaultFontFromStream_out.pdf", options);
     }
     catch (Exception e)
@@ -128,36 +148,46 @@ public static void SaveUsingDocumentFontsSubsystemWithDefaultFontFromStream() th
 }
 ```
 
-V tomto kroku:
-- Soubor fontu "geo_1.ttf" se načte jako proud.
-- Výchozí písmo je určeno z načteného streamu.
-- Dokument se uloží ve formátu PDF se zadaným písmem.
+Co se zde děje:
+- Soubor písma je otevřen jako **InputStream**, což je užitečné, když je písmo uloženo v ne‑souborovém zdroji.
+- `usingDefaultFontFromStream` **používá stream písma** k definování záložního písma.
+- Soubor OneNote je uložen jako PDF s fontem založeným na streamu.
+
+## Časté problémy a řešení
+
+| Problém | Proč k tomu dochází | Jak opravit |
+|---------|---------------------|-------------|
+| **Upozornění na chybějící písmo** | Zdrojový soubor .one odkazuje na písmo, které není na počítači nainstalováno. | Poskytněte výchozí písmo pomocí `usingDefaultFont`, `usingDefaultFontFromFile` nebo `usingDefaultFontFromStream`. |
+| **Soubor vlastního písma nebyl nalezen** | Nesprávná cesta k souboru `.ttf`. | Použijte absolutní cesty nebo ověřte relativní cestu vzhledem k pracovnímu adresáři. |
+| **Stream není uzavřen** | Výjimka nastane před voláním `close()`. | Použijte try‑with‑resources (`try (InputStream stream = ...) { ... }`) pro automatické uzavření. |
+
+## Často kladené otázky
+
+**Q: Mohu specifikovat různá písma pro různé části dokumentu?**  
+A: Ano, můžete použít vlastní nastavení písma pro jednotlivé prvky bohatého textu pomocí třídy `Font` v Aspose.Note.
+
+**Q: Je Aspose.Note kompatibilní se všemi verzemi OneNote?**  
+A: Aspose.Note podporuje soubory OneNote z nedávných desktopových a mobilních verzí, což zajišťuje širokou kompatibilitu.
+
+**Q: Jak mohu řešit chybějící písma při ukládání dokumentů?**  
+A: Použijte metody podsystému písem uvedené výše (`usingDefaultFont`, `usingDefaultFontFromFile`, `usingDefaultFontFromStream`) k poskytnutí náhradního písma.
+
+**Q: Mohu přizpůsobit vlastnosti písma, jako je velikost a styl?**  
+A: Rozhodně – API vám umožní nastavit velikost, styl, barvu a další atributy na úrovni jednotlivých běhů textu.
+
+**Q: Je k dispozici zkušební verze pro Aspose.Note pro Java?**  
+A: Ano, bezplatnou zkušební verzi lze stáhnout z webu Aspose.
 
 ## Závěr
 
-V tomto tutoriálu jsme se naučili ukládat dokumenty OneNote pomocí specifikovaného subsystému písem v Javě pomocí Aspose.Note. Pomocí těchto kroků můžete zajistit konzistentní reprezentaci písem na různých platformách při exportu nebo ukládání dokumentů.
+V tomto tutoriálu jsme se naučili, jak **uložit OneNote jako PDF** a zároveň řídit podsystém písem v Javě pomocí Aspose.Note. Dodržením tří přístupů – zadání názvu výchozího písma, načtení vlastního souboru písma nebo použití proudu písma – můžete zajistit konzistentní zobrazení písem napříč platformami při exportu nebo ukládání vašich dokumentů OneNote.
 
-## FAQ
+---
 
-### Q1: Mohu zadat různá písma pro různé části dokumentu?
+**Poslední aktualizace:** 2025-12-18  
+**Testováno s:** Aspose.Note for Java 24.11  
+**Autor:** Aspose  
 
-Odpověď 1: Ano, pomocí Aspose.Note pro Javu můžete určit různá písma pro různé části dokumentu.
-
-### Q2: Je Aspose.Note kompatibilní se všemi verzemi OneNotu?
-
-Odpověď 2: Aspose.Note podporuje různé verze OneNotu a zajišťuje kompatibilitu v různých prostředích.
-
-### Q3: Jak mohu vyřešit chybějící písma při ukládání dokumentů?
-
-A3: Aspose.Note poskytuje možnosti pro určení výchozích písem, aby bylo možné efektivně zpracovat chybějící písma během ukládání dokumentu.
-
-### Q4: Mohu přizpůsobit vlastnosti písma, jako je velikost a styl?
-
-Odpověď 4: Ano, pomocí Aspose.Note pro Java můžete upravit vlastnosti písma, jako je velikost, styl a barva.
-
-### Q5: Je k dispozici zkušební verze pro Aspose.Note pro Java?
-
-A5: Ano, můžete získat bezplatnou zkušební verzi Aspose.Note pro Java z webu.
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

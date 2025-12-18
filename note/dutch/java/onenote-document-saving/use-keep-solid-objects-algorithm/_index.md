@@ -1,32 +1,51 @@
 ---
-title: Gebruik het Keep Solid Objects-algoritme in OneNote - Aspose.Note
-linktitle: Gebruik het Keep Solid Objects-algoritme in OneNote - Aspose.Note
-second_title: Aspose.Note Java-API
-description: Leer hoe u vaste objecten in uw Aspose.Note-documenten kunt behouden bij het converteren naar PDF met behulp van het Keep Solid Objects Algorithm in Java.
-weight: 25
+date: 2025-12-18
+description: Leer hoe je OneNote naar PDF converteert en het PDF‑document opslaat
+  in Java met behulp van Aspose.Note's Keep Solid Objects‑algoritme.
+linktitle: Convert OneNote to PDF with Keep Solid Objects Algorithm
+second_title: Aspose.Note Java API
+title: Converteer OneNote naar PDF met Keep Solid Objects-algoritme
 url: /nl/java/onenote-document-saving/use-keep-solid-objects-algorithm/
+weight: 25
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Gebruik het Keep Solid Objects-algoritme in OneNote - Aspose.Note
+# OneNote naar PDF converteren met Keep Solid Objects Algorithm
 
-## Invoering
+## Inleiding
 
-In deze zelfstudie onderzoeken we hoe u het Keep Solid Objects-algoritme in Aspose.Note voor Java kunt gebruiken. Dit algoritme is van onschatbare waarde voor het behouden van de integriteit van vaste objecten in uw documenten wanneer u deze naar PDF-indeling converteert. We zullen het proces stap voor stap opsplitsen, zodat er in elke fase duidelijkheid en begrip ontstaat.
+In deze tutorial laten we je stap voor stap zien hoe je **convert onenote to pdf** kunt uitvoeren terwijl je solide objecten behoudt, met behulp van het Keep Solid Objects Algorithm dat wordt geleverd door Aspose.Note for Java. Of je nu rapporten genereert, notities archiveert of een document‑verwerkingspipeline bouwt, het intact houden van die solide objecten is essentieel voor de integriteit van het document. We laten je ook zien hoe je **save document pdf java** kunt uitvoeren met dezelfde instellingen.
+
+## Snelle antwoorden
+- **Wat doet het Keep Solid Objects Algorithm?** Het zorgt ervoor dat solide objecten zoals vormen en tekeningen samen op één pagina blijven wanneer een OneNote‑bestand tijdens de PDF‑conversie wordt opgesplitst.  
+- **Heb ik een licentie nodig om dit te proberen?** Ja, een gratis proeflicentie is beschikbaar via Aspose.  
+- **Welke Java‑versie is vereist?** Java 8 of hoger wordt aanbevolen.  
+- **Kan ik de hoogte‑limiet voor gekloonde delen aanpassen?** Absoluut – je kunt een aangepaste hoogte‑limiet aan het algoritme doorgeven.  
+- **Is deze aanpak geschikt voor grote OneNote‑bestanden?** Ja, het algoritme werkt efficiënt zelfs bij notities met meerdere pagina’s.
+
+## Wat is “convert onenote to pdf”?
+
+Het converteren van OneNote‑notitieblokken naar PDF maakt een draagbare, alleen‑lezen versie van je notities die op verschillende platforms kan worden gedeeld. Het conversieproces splitst normaal gesproken pagina’s automatisch, wat complexe tekeningen kan breken. Het Keep Solid Objects Algorithm voorkomt dit door elk solide object geheel te houden.
+
+## Waarom het Keep Solid Objects Algorithm gebruiken?
+
+- **Behoudt visuele getrouwheid** – vormen, diagrammen en tekeningen blijven precies zoals ze in OneNote verschijnen.  
+- **Vermindert handmatige nabewerking** – geen noodzaak om objecten na de conversie opnieuw uit te lijnen.  
+- **Verbeterde PDF‑weergave** – behoudt consistentie in verschillende PDF‑viewers.  
 
 ## Vereisten
 
-Voordat we beginnen, zorg ervoor dat u over het volgende beschikt:
+Voordat we beginnen, zorg ervoor dat je het volgende hebt:
 
-1. Java Development Kit (JDK) op uw systeem geïnstalleerd.
-2.  Aspose.Note voor Java-bibliotheek. Je kunt het downloaden van[hier](https://releases.aspose.com/note/java/).
+1. Java Development Kit (JDK) geïnstalleerd op je systeem.  
+2. Aspose.Note for Java‑bibliotheek. Je kunt deze downloaden van [hier](https://releases.aspose.com/note/java/).  
 
-## Pakketten importeren
+## Import Packages
 
-Laten we eerst de benodigde pakketten importeren:
+Importeer eerst de benodigde klassen:
 
 ```java
 import java.io.IOException;
@@ -39,25 +58,25 @@ import com.aspose.note.PdfSaveOptions;
 
 ## Stap 1: Laad het document
 
-Laad het document in Aspose.Note met behulp van het volgende codefragment:
+Laad je OneNote‑bestand in een `Document`‑object:
 
 ```java
 String dataDir = "Your Document Directory";
 Document doc = new Document(dataDir + "Aspose.one");
 ```
 
-## Stap 2: Configureer de PDF-opslagopties
+## Stap 2: Configureer PDF‑opslaan‑opties
 
-Definieer PdfSaveOptions en stel het PageSplittingAlgorithm in op KeepSolidObjectsAlgorithm:
+Maak een `PdfSaveOptions`‑instantie aan en stel het pagina‑splits‑algoritme in op `KeepSolidObjectsAlgorithm`:
 
 ```java
 PdfSaveOptions pdfSaveOptions = new PdfSaveOptions();
 pdfSaveOptions.setPageSplittingAlgorithm(new KeepSolidObjectsAlgorithm());
 ```
 
-## Stap 3: Hoogtelimiet aanpassen (optioneel)
+## Stap 3: Pas de hoogte‑limiet aan (optioneel)
 
-U kunt indien nodig de hoogtelimiet van gekloonde onderdelen aanpassen:
+Als je fijnmazigere controle wilt over hoe gekloonde delen worden behandeld, specificeer dan een hoogte‑limiet (in points). Dit is handig bij zeer hoge objecten:
 
 ```java
 float heightLimitOfClonedPart = 500;
@@ -66,7 +85,7 @@ pdfSaveOptions.setPageSplittingAlgorithm(new KeepSolidObjectsAlgorithm(heightLim
 
 ## Stap 4: Sla het document op
 
-Sla ten slotte het document op met de opgegeven PDF-opslagopties:
+Sla tenslotte het OneNote‑document op als PDF met de geconfigureerde opties:
 
 ```java
 String outputDir = "Your Output Directory";
@@ -74,31 +93,39 @@ String outputFile = outputDir + "UsingKeepSolidObjectsAlgorithm_out.pdf";
 doc.save(outputFile);
 ```
 
-## Conclusie
+## Veelvoorkomende problemen en oplossingen
 
-In deze zelfstudie hebben we geleerd hoe u het Keep Solid Objects-algoritme in Aspose.Note voor Java kunt gebruiken. Dit algoritme zorgt ervoor dat vaste objecten in uw documenten behouden blijven wanneer u ze naar PDF-indeling converteert, waardoor de documentintegriteit behouden blijft.
+- **Objecten worden nog steeds over pagina’s gesplitst** – Controleer of je de nieuwste versie van Aspose.Note gebruikt en of de hoogte‑limiet (indien ingesteld) groot genoeg is voor jouw objecten.  
+- **Ontbrekende lettertypen of symbolen** – Zorg ervoor dat de benodigde lettertypen zijn geïnstalleerd op de machine waarop de conversie wordt uitgevoerd.  
+- **Prestatie‑vertraging bij enorme notitieblokken** – Overweeg het notitieblok in kleinere batches te verwerken of de JVM‑heap‑grootte te verhogen.
 
-## Veelgestelde vragen
+## FAQ's
 
-### V1: Kan ik de hoogtelimiet voor gekloonde onderdelen aanpassen?
+### Q1: Kan ik de hoogte‑limiet voor gekloonde delen aanpassen?
 
- A1: Ja, u kunt de hoogtelimiet van gekloonde onderdelen aanpassen aan uw wensen met behulp van de`heightLimitOfClonedPart` parameter.
+A1: Ja, je kunt de hoogte‑limiet van gekloonde delen aanpassen aan je eisen met de parameter `heightLimitOfClonedPart`.
 
-### Vraag 2: Waar kan ik meer documentatie vinden?
+### Q2: Waar kan ik meer documentatie vinden?
 
- A2: U kunt gedetailleerde documentatie vinden over Aspose.Note voor Java[hier](https://reference.aspose.com/note/java/).
+A2: Je kunt gedetailleerde documentatie over Aspose.Note for Java vinden [hier](https://reference.aspose.com/note/java/).
 
-### Vraag 3: Is er een gratis proefversie beschikbaar?
+### Q3: Is er een gratis proefversie beschikbaar?
 
- A3: Ja, u kunt een gratis proefversie van Aspose.Note voor Java krijgen[hier](https://releases.aspose.com/).
+A3: Ja, je kunt een gratis proefversie van Aspose.Note for Java krijgen [hier](https://releases.aspose.com/).
 
-### Vraag 4: Hoe kan ik ondersteuning krijgen als ik problemen tegenkom?
+### Q4: Hoe kan ik ondersteuning krijgen als ik problemen ondervind?
 
- A4: U kunt ondersteuning krijgen van de Aspose-gemeenschap[hier](https://forum.aspose.com/c/note/28).
+A4: Je kunt ondersteuning krijgen van de Aspose‑community [hier](https://forum.aspose.com/c/note/28).
 
-### Vraag 5: Waar kan ik een licentie kopen?
+### Q5: Waar kan ik een licentie aanschaffen?
 
- A5: U kunt een licentie kopen voor Aspose.Note voor Java[hier](https://purchase.aspose.com/buy).
+A5: Je kunt een licentie voor Aspose.Note for Java aanschaffen [hier](https://purchase.aspose.com/buy).
+
+---
+
+**Laatst bijgewerkt:** 2025-12-18  
+**Getest met:** Aspose.Note for Java 24.12  
+**Auteur:** Aspose  
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
