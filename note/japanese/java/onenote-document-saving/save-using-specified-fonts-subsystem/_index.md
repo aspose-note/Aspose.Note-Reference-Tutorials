@@ -1,37 +1,59 @@
 ---
-title: OneNote で指定したフォント サブシステムを使用して保存する
-linktitle: OneNote で指定したフォント サブシステムを使用して保存する
+date: 2025-12-18
+description: Java と Aspose.Note の指定フォントサブシステムを使用して OneNote を PDF として保存する方法を学びます。このガイドでは、OneNote
+  を PDF に変換する方法、カスタムフォントファイルを読み込む方法、デフォルトフォントを指定する方法も示しています。
+linktitle: Save OneNote as PDF Using Specified Fonts Subsystem
 second_title: Aspose.Note Java API
-description: Aspose.Note を使用して Java の指定されたフォント サブシステムを使用して OneNote ドキュメントを保存する方法を学習します。プラットフォーム間で一貫したフォント表現を簡単に確保できます。
-weight: 22
+title: 指定フォントサブシステムを使用してOneNoteをPDFとして保存
 url: /ja/java/onenote-document-saving/save-using-specified-fonts-subsystem/
+weight: 22
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# OneNote で指定したフォント サブシステムを使用して保存する
+# 指定フォントサブシステムを使用して OneNote を PDF として保存する
 
-## 導入
+## Introduction
 
-Aspose.Note for Java は、OneNote ドキュメントを操作するための堅牢な機能を提供します。このようなドキュメントを扱うときの一般的な要件の 1 つは、特にドキュメントを PDF などのさまざまな形式でエクスポートまたは保存する場合、フォントが適切に維持されていることを確認することです。このチュートリアルでは、フォント サブシステムを指定しながら OneNote ドキュメントを保存するプロセスを説明し、さまざまなプラットフォーム間で一貫した正確なテキスト表現を保証します。
+多くのビジネスシナリオでは、**OneNote を PDF として保存**し、元のページと同じ外観を保持する必要があります。Aspose.Note for Java を使用すれば、変換中にフォントサブシステムを制御できるため、この作業が簡単になります。このチュートリアルでは、**OneNote を PDF に変換**する実用的な 3 つの方法を紹介します。**カスタムフォントファイルの読み込み**、**デフォルトフォントの指定**、そしてフォントが対象マシンに存在しない場合の **フォントストリームの使用** について解説します。
 
-## 前提条件
+## Quick Answers
+- **「OneNote を PDF として保存」とは何ですか？**  
+  .one ファイルを PDF に変換し、レイアウトとスタイリングをそのまま保持します。  
+- **フォントを扱う API はどれですか？**  
+  `DocumentFontsSubsystem` を使用すると、デフォルトフォントの設定やカスタムフォントファイル/ストリームの読み込みが可能です。  
+- **本番環境でライセンスは必要ですか？**  
+  はい、商用利用には Aspose.Note の商用ライセンスが必要です（トライアル版以外）。  
+- **バッチで複数ファイルを変換できますか？**  
+  もちろんです。`Document` の読み込みと保存ロジックをループさせるだけです。  
+- **必要な Java バージョンは？**  
+  Java 15 以降（サンプルは JDK 15 を使用）。
 
-チュートリアルに入る前に、次の前提条件が設定されていることを確認してください。
+## What is “save OneNote as PDF” with a fonts subsystem?
 
-### 1. Java 開発キット (JDK)
+フォントサブシステム付きで OneNote を PDF として保存するとは、変換プロセス中に Aspose.Note が不足しているグリフを指定したフォントで置き換えることを意味します。これにより、元のフォントがインストールされていない環境でも、PDF の見た目が全く同じになります。
 
-システムに Java Development Kit (JDK) がインストールされていることを確認してください。からダウンロードできます[ここ](https://www.oracle.com/java/technologies/javase-jdk15-downloads.html)まだ行っていない場合は。
+## Why control the fonts subsystem when you **convert OneNote to PDF**?
 
-### 2. Java ライブラリの Aspose.Note
+- **一貫したブランディング** – 企業文書で正確な書体を保持。  
+- **クロスプラットフォームの信頼性** – PDF が Windows、macOS、Linux、モバイルで同一に表示。  
+- **エラー削減** – フォ欠如の警告が消え、クリーンな出力が得られます。
 
-Aspose.Note for Java ライブラリをダウンロードしてセットアップします。からダウンロードできます。[Webサイト](https://releases.aspose.com/note/java/).
+## Prerequisites
 
-## パッケージのインポート
+### 1. Java Development Kit (JDK)
 
-必要なパッケージを Java プロジェクトにインポートしてください。
+システムに Java Development Kit (JDK) がインストールされていることを確認してください。まだインストールしていない場合は、[here](https://www.oracle.com/java/technologies/javase-jdk15-downloads.html) からダウンロードできます。
+
+### 2. Aspose.Note for Java Library
+
+Aspose.Note for Java ライブラリをダウンロードしてセットアップしてください。ダウンロードは [website](https://releases.aspose.com/note/java/) から行えます。
+
+## Import Packages
+
+Java プロジェクトで必要なパッケージをインポートしてください:
 
 ```java
 import com.aspose.note.Document;
@@ -43,82 +65,84 @@ import java.io.InputStream;
 import java.nio.file.Paths;
 ```
 
-ここで、プロセスをよりよく理解するために、各例を複数のステップに分けてみましょう。
+それでは、各例を複数のステップに分解してプロセスを詳しく見ていきましょう。
 
-## ステップ 1: ドキュメント フォント サブシステムを使用してデフォルトのフォント名で保存する
+## How to **save OneNote as PDF** using Document Fonts Subsystem with a default font
 
-この手順では、指定したデフォルトのフォント名を使用してドキュメントを PDF 形式で保存する方法を示します。
+### Step 1: Save Using Document Fonts Subsystem with Default Font Name
+
+このステップでは、デフォルトフォント名を指定して **OneNote を PDF として保存**するシンプルな方法を示します。
 
 ```java
 public static void SaveUsingDocumentFontsSubsystemWithDefaultFontName() throws IOException
 {
-    //ドキュメントを Aspose.Note にロードします。
+    // Load the document into Aspose.Note.
     Document oneFile = new Document("missing-font.one");
 
-    //デフォルトのフォントを指定します。
+    // Specify the default font.
     PdfSaveOptions options = new PdfSaveOptions();
     options.setFontsSubsystem(DocumentFontsSubsystem.usingDefaultFont("Times New Roman"));
 
-    //ドキュメントを PDF として保存します。
+    // Save the document as PDF.
     oneFile.save("SaveUsingDocumentFontsSubsystemWithDefaultFontName_out.pdf", options);
 }
 ```
 
-このステップでは:
-- OneNote ドキュメントは Aspose.Note を使用して読み込まれます。
-- デフォルトのフォントは「Times New Roman」に指定されています。
-- ドキュメントは、指定したフォントを使用して PDF 形式で保存されます。
+このステップで行われること:
+- Aspose.Note を使用して OneNote ドキュメントを読み込みます。  
+- **デフォルトフォント**として **"Times New Roman"** を指定します。  
+- 選択したフォントで PDF 形式でドキュメントを保存します。
 
-## ステップ 2: ドキュメント フォント サブシステムを使用してファイルからのデフォルト フォントを保存する
+### Step 2: Save Using Document Fonts Subsystem with Default Font from File
 
-このステップでは、ファイルからロードされたデフォルトのフォントを使用してドキュメントを PDF 形式で保存する方法を示します。
+ここでは **カスタムフォントファイルを読み込み**、PDF 変換時のフォールバックとして使用します。
 
 ```java
 public static void SaveUsingDocumentFontsSubsystemWithDefaultFontFromFile() throws IOException
 {
-    //ドキュメントを Aspose.Note にロードします。
+    // Load the document into Aspose.Note.
     Document oneFile = new Document("missing-font.one");
 
-    //フォントファイルへのパスを指定します。
+    // Specify the path to the font file.
     String fontFile = "geo_1.ttf";
 
-    //ファイルからデフォルトのフォントを指定します。
+    // Specify the default font from the file.
     PdfSaveOptions options = new PdfSaveOptions();
     options.setFontsSubsystem(DocumentFontsSubsystem.usingDefaultFontFromFile(fontFile));
 
-    //ドキュメントを PDF として保存します。
+    // Save the document as PDF.
     oneFile.save("SaveUsingDocumentFontsSubsystemWithDefaultFontFromFile_out.pdf", options);
 }
 ```
 
-このステップでは:
-- フォントファイル「geo_1.ttf」が読み込まれます。
-- デフォルトのフォントは読み込まれたフォントファイルから指定されます。
-- ドキュメントは、指定したフォントを使用して PDF 形式で保存されます。
+重要ポイント:
+- **カスタムフォントファイル** `geo_1.ttf` を **ディスクから読み込み**ます。  
+- `usingDefaultFontFromFile` は **ファイルからデフォルトフォントを指定**し、元のフォントが欠如している場合にこのフォントが使用されます。  
+- 生成された PDF は意図した外観を保持します。
 
-## ステップ 3: ストリームからのデフォルトのフォントを使用してドキュメント フォント サブシステムを使用して保存する
+### Step 3: Save Using Document Fonts Subsystem with Default Font from Stream
 
-このステップでは、ストリームからロードされたデフォルトのフォントを使用してドキュメントを PDF 形式で保存する方法を示します。
+フォントがデータベースに保存されている、またはネットワーク経由で取得されるケースがあります。この例では **フォントストリームの使用**方法を示します。
 
 ```java
 public static void SaveUsingDocumentFontsSubsystemWithDefaultFontFromStream() throws IOException
 {
-    //ドキュメントを Aspose.Note にロードします。
+    // Load the document into Aspose.Note.
     Document oneFile = new Document("missing-font.one");
 
-    //フォントファイルへのパスを指定します。
+    // Specify the path to the font file.
     String fontFile = "geo_1.ttf";
 
-    //フォント ファイルをストリームとして読み込みます。
+    // Load the font file as a stream.
     InputStream stream = new FileInputStream(fontFile);
 
     try
     {
-        //ストリームからデフォルトのフォントを指定します。
+        // Specify the default font from the stream.
         PdfSaveOptions options = new PdfSaveOptions();
         options.setFontsSubsystem(DocumentFontsSubsystem.usingDefaultFontFromStream(stream));
 
-        //ドキュメントを PDF として保存します。
+        // Save the document as PDF.
         oneFile.save("SaveUsingDocumentFontsSubsystemWithDefaultFontFromStream_out.pdf", options);
     }
     catch (Exception e)
@@ -128,36 +152,46 @@ public static void SaveUsingDocumentFontsSubsystemWithDefaultFontFromStream() th
 }
 ```
 
-このステップでは:
-- フォントファイル「geo_1.ttf」がストリームとして読み込まれます。
-- デフォルトのフォントは、ロードされたストリームから指定されます。
-- ドキュメントは、指定したフォントを使用して PDF 形式で保存されます。
+ここで起こること:
+- フォントファイルを **InputStream** として開きます。これはファイル以外のソースにフォントがある場合に便利です。  
+- `usingDefaultFontFromStream` は **フォントストリームを使用**してフォールバックフォントを定義します。  
+- OneNote ファイルはストリームベースのフォントで PDF として保存されます。
 
-## 結論
+## Common Issues and Solutions
 
-このチュートリアルでは、Aspose.Note を使用して Java で指定されたフォント サブシステムを使用して OneNote ドキュメントを保存する方法を学習しました。これらの手順に従うことで、ドキュメントをエクスポートまたは保存するときに、さまざまなプラットフォーム間で一貫したフォント表現を確保できます。
+| Issue | Why it Happens | How to Fix |
+|-------|----------------|------------|
+| **Missing font warnings** | ソースの .one ファイルがマシンに存在しないフォントを参照しているため。 | `usingDefaultFont`、`usingDefaultFontFromFile`、または `usingDefaultFontFromStream` でデフォルトフォントを提供する。 |
+| **File not found for custom font** | `.ttf` ファイルへのパスが誤っているため。 | 絶対パスを使用するか、作業ディレクトリからの相対パスを確認する。 |
+| **Stream not closed** | 例外が発生して `close()` が呼び出されないため。 | `try‑with‑resources` (`try (InputStream stream = ...) { ... }`) を使用して自動的にクローズする。 |
 
-## よくある質問
+## Frequently Asked Questions
 
-### Q1: ドキュメントの異なる部分に異なるフォントを指定できますか?
+**Q: 文書の異なる部分に別々のフォントを指定できますか？**  
+A: はい、Aspose.Note の `Font` クラスを使用して、個々のリッチテキスト要素にカスタムフォント設定を適用できます。
 
-A1: はい、Aspose.Note for Java を使用して、ドキュメントのさまざまな部分に異なるフォントを指定できます。
+**Q: Aspose.Note はすべてのバージョンの OneNote と互換性がありますか？**  
+A: Aspose.Note は最近のデスクトップ版およびモバイル版の OneNote ファイルをサポートしており、広範な互換性を提供します。
 
-### Q2: Aspose.Note は OneNote のすべてのバージョンと互換性がありますか?
+**Q: 文書を保存する際にフォントが欠如している場合はどう対処すればよいですか？**  
+A: 上記のフォントサブシステムメソッド（`usingDefaultFont`、`usingDefaultFontFromFile`、`usingDefaultFontFromStream`）を使用してフォールバックフォントを提供してください。
 
-A2: Aspose.Note はさまざまなバージョンの OneNote をサポートし、さまざまな環境間での互換性を確保します。
+**Q: フォントのサイズやスタイルなどのプロパティをカスタマイズできますか？**  
+A: もちろんです。API ではラン単位でサイズ、スタイル、カラー、その他の属性を設定できます。
 
-### Q3: ドキュメントを保存するときにフォントが見つからない場合はどうすればよいですか?
+**Q: Aspose.Note for Java のトライアル版はありますか？**  
+A: はい、Aspose のウェブサイトから無料トライアルをダウンロードできます。
 
-A3: Aspose.Note には、ドキュメントの保存中に不足しているフォントを効果的に処理するためにデフォルトのフォントを指定するオプションが用意されています。
+## Conclusion
 
-### Q4: サイズやスタイルなどのフォントのプロパティをカスタマイズできますか?
+このチュートリアルでは、Aspose.Note を使用して Java でフォントサブシステムを制御しながら **OneNote を PDF として保存**する方法を学びました。デフォルトフォント名の指定、カスタムフォントファイルの読み込み、フォントストリームの使用という 3 つのアプローチに従うことで、エクスポートや保存時にプラットフォーム間で一貫したフォント表現を保証できます。
 
-A4: はい、Aspose.Note for Java を使用して、サイズ、スタイル、色などのフォント プロパティをカスタマイズできます。
+---
 
-### Q5: Aspose.Note for Java の試用版はありますか?
+**Last Updated:** 2025-12-18  
+**Tested With:** Aspose.Note for Java 24.11  
+**Author:** Aspose  
 
-A5: はい、Web サイトから Aspose.Note for Java の無料トライアルを入手できます。
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

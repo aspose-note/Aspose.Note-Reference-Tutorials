@@ -1,37 +1,56 @@
 ---
-title: Enregistrer à l'aide du sous-système de polices spécifié dans OneNote
-linktitle: Enregistrer à l'aide du sous-système de polices spécifié dans OneNote
-second_title: API Java Aspose.Note
-description: Découvrez comment enregistrer des documents OneNote à l'aide du sous-système de polices spécifié en Java avec Aspose.Note. Garantissez sans effort une représentation cohérente des polices sur toutes les plateformes.
-weight: 22
+date: 2025-12-18
+description: Apprenez comment **enregistrer OneNote au format PDF** en utilisant le
+  sous‑système de polices spécifié en Java avec Aspose.Note. Ce guide montre également
+  comment convertir OneNote en PDF, charger des fichiers de polices personnalisés
+  et spécifier les polices par défaut.
+linktitle: Save OneNote as PDF Using Specified Fonts Subsystem
+second_title: Aspose.Note Java API
+title: Enregistrer OneNote au format PDF à l'aide du sous‑système de polices spécifiées
 url: /fr/java/onenote-document-saving/save-using-specified-fonts-subsystem/
+weight: 22
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Enregistrer à l'aide du sous-système de polices spécifié dans OneNote
+# Enregistrer OneNote en PDF en utilisant le sous‑système de polices spécifié
 
 ## Introduction
 
-Aspose.Note pour Java offre des fonctionnalités robustes pour travailler avec des documents OneNote. Une exigence courante lorsque l'on travaille avec de tels documents est de s'assurer que les polices sont correctement conservées, en particulier si le document doit être exporté ou enregistré dans différents formats comme PDF. Ce didacticiel vous guidera tout au long du processus d'enregistrement des documents OneNote tout en spécifiant le sous-système de polices, garantissant ainsi une représentation cohérente et précise du texte sur différentes plates-formes.
+Dans de nombreux scénarios professionnels, vous devez **enregistrer OneNote en PDF** tout en conservant l’aspect exact des pages d’origine. Aspose.Note pour Java rend cela simple en vous permettant de contrôler le sous‑système de polices pendant la conversion. Dans ce tutoriel, nous passerons en revue trois méthodes pratiques pour **convertir OneNote en PDF**, en expliquant comment **charger des fichiers de polices personnalisées**, **spécifier une police par défaut**, et même **utiliser un flux de police** lorsque la police n’est pas disponible sur la machine cible.
 
-## Conditions préalables
+## Réponses rapides
+- **Que signifie « enregistrer OneNote en PDF » ?** Cela convertit un fichier .one en PDF tout en conservant la mise en page et le style intacts.  
+- **Quelle API gère les polices ?** `DocumentFontsSubsystem` vous permet de définir une police par défaut ou de charger un fichier/flux de police personnalisé.  
+- **Ai‑je besoin d’une licence pour la production ?** Oui, une licence commerciale Aspose.Note est requise pour une utilisation non‑d’évaluation.  
+- **Puis‑je convertir plusieurs fichiers en lot ?** Absolument – il suffit de boucler sur la logique de chargement et d’enregistrement du `Document`.  
+- **Quelle version de Java est requise ?** Java 15 ou supérieure (l’exemple utilise JDK 15).
 
-Avant de plonger dans le didacticiel, assurez-vous d'avoir configuré les conditions préalables suivantes :
+## Qu’est‑ce que « enregistrer OneNote en PDF » avec un sous‑système de polices ?
+
+Enregistrer OneNote en PDF avec un sous‑système de polices signifie que, pendant le processus de conversion, Aspose.Note remplace les glyphes manquants par la police que vous fournissez. Cela garantit que le PDF a exactement le même aspect sur n’importe quel appareil, même si la police d’origine n’est pas installée.
+
+## Pourquoi contrôler le sous‑système de polices lors de la **conversion de OneNote en PDF** ?
+
+- **Cohérence de la marque** – les documents d’entreprise conservent exactement la même typographie.  
+- **Fiabilité multiplateforme** – les PDF s’affichent de la même façon sous Windows, macOS, Linux et sur mobile.  
+- **Réduction des erreurs** – les avertissements de police manquante disparaissent, produisant une sortie propre.
+
+## Prérequis
 
 ### 1. Kit de développement Java (JDK)
 
- Assurez-vous que le kit de développement Java (JDK) est installé sur votre système. Vous pouvez le télécharger depuis[ici](https://www.oracle.com/java/technologies/javase-jdk15-downloads.html) si ce n'est pas déjà fait.
+Assurez‑vous d’avoir le Kit de développement Java (JDK) installé sur votre système. Vous pouvez le télécharger [ici](https://www.oracle.com/java/technologies/javase-jdk15-downloads.html) si ce n’est pas déjà fait.
 
-### 2. Aspose.Note pour la bibliothèque Java
+### 2. Bibliothèque Aspose.Note pour Java
 
- Téléchargez et configurez la bibliothèque Aspose.Note pour Java. Vous pouvez le télécharger depuis le[site web](https://releases.aspose.com/note/java/).
+Téléchargez et configurez la bibliothèque Aspose.Note pour Java. Vous pouvez la télécharger depuis le [site web](https://releases.aspose.com/note/java/).
 
-## Importer des packages
+## Importer les packages
 
-Assurez-vous d'importer les packages nécessaires dans votre projet Java :
+Assurez‑vous d’importer les packages nécessaires dans votre projet Java :
 
 ```java
 import com.aspose.note.Document;
@@ -45,80 +64,82 @@ import java.nio.file.Paths;
 
 Décomposons maintenant chaque exemple en plusieurs étapes pour mieux comprendre le processus.
 
-## Étape 1 : Enregistrer à l'aide du sous-système de polices de document avec le nom de police par défaut
+## Comment **enregistrer OneNote en PDF** en utilisant le sous‑système de polices du document avec une police par défaut
 
-Cette étape montre comment enregistrer un document au format PDF en utilisant un nom de police par défaut spécifié.
+### Étape 1 : Enregistrer en utilisant le sous‑système de polices du document avec le nom de police par défaut
+
+Cette étape montre comment **enregistrer OneNote en PDF** de manière simple en spécifiant un nom de police par défaut.
 
 ```java
 public static void SaveUsingDocumentFontsSubsystemWithDefaultFontName() throws IOException
 {
-    // Chargez le document dans Aspose.Note.
+    // Load the document into Aspose.Note.
     Document oneFile = new Document("missing-font.one");
 
-    // Spécifiez la police par défaut.
+    // Specify the default font.
     PdfSaveOptions options = new PdfSaveOptions();
     options.setFontsSubsystem(DocumentFontsSubsystem.usingDefaultFont("Times New Roman"));
 
-    // Enregistrez le document au format PDF.
+    // Save the document as PDF.
     oneFile.save("SaveUsingDocumentFontsSubsystemWithDefaultFontName_out.pdf", options);
 }
 ```
 
-Dans cette étape :
-- Le document OneNote est chargé à l'aide d'Aspose.Note.
-- La police par défaut est spécifiée comme « Times New Roman ».
-- Le document est enregistré au format PDF avec la police spécifiée.
+Dans cette étape :
+- Le document OneNote est chargé à l’aide d’Aspose.Note.  
+- La **police par défaut** est définie sur **« Times New Roman »**.  
+- Le document est enregistré au format PDF avec la police choisie.
 
-## Étape 2 : Enregistrer à l'aide du sous-système de polices de document avec la police par défaut du fichier
+### Étape 2 : Enregistrer en utilisant le sous‑système de polices du document avec une police par défaut depuis un fichier
 
-Cette étape montre comment enregistrer un document au format PDF en utilisant une police par défaut chargée à partir d'un fichier.
+Ici, nous **chargeons un fichier de police personnalisé** et l’utilisons comme police de secours lors de la conversion en PDF.
 
 ```java
 public static void SaveUsingDocumentFontsSubsystemWithDefaultFontFromFile() throws IOException
 {
-    // Chargez le document dans Aspose.Note.
+    // Load the document into Aspose.Note.
     Document oneFile = new Document("missing-font.one");
 
-    // Spécifiez le chemin d'accès au fichier de police.
+    // Specify the path to the font file.
     String fontFile = "geo_1.ttf";
 
-    // Spécifiez la police par défaut du fichier.
+    // Specify the default font from the file.
     PdfSaveOptions options = new PdfSaveOptions();
     options.setFontsSubsystem(DocumentFontsSubsystem.usingDefaultFontFromFile(fontFile));
 
-    // Enregistrez le document au format PDF.
+    // Save the document as PDF.
     oneFile.save("SaveUsingDocumentFontsSubsystemWithDefaultFontFromFile_out.pdf", options);
 }
 ```
 
-Dans cette étape :
-- Le fichier de police "geo_1.ttf" est chargé.
-- La police par défaut est spécifiée à partir du fichier de police chargé.
-- Le document est enregistré au format PDF avec la police spécifiée.
+Points clés :
+- Le **fichier de police personnalisé** `geo_1.ttf` est **chargé depuis le disque**.  
+- `usingDefaultFontFromFile` **spécifie la police par défaut depuis un fichier**, garantissant que le PDF utilise cette police lorsque l’originale est absente.  
+- Le PDF résultant conserve l’aspect prévu.
 
-## Étape 3 : Enregistrer à l'aide du sous-système de polices de document avec la police par défaut de Stream
+### Étape 3 : Enregistrer en utilisant le sous‑système de polices du document avec une police par défaut depuis un flux
 
-Cette étape montre comment enregistrer un document au format PDF à l'aide d'une police par défaut chargée à partir d'un flux.
+Parfois, la police peut être stockée dans une base de données ou reçue via le réseau. Cet exemple montre comment **utiliser un flux de police**.
 
 ```java
 public static void SaveUsingDocumentFontsSubsystemWithDefaultFontFromStream() throws IOException
 {
-    // Chargez le document dans Aspose.Note.
+    // Load the document into Aspose.Note.
     Document oneFile = new Document("missing-font.one");
 
-    // Spécifiez le chemin d'accès au fichier de police.
+    // Specify the path to the font file.
     String fontFile = "geo_1.ttf";
 
-    // Chargez le fichier de police sous forme de flux.
+    // Load the font file as a stream.
     InputStream stream = new FileInputStream(fontFile);
 
     try
     {
-        // Spécifiez la police par défaut du flux.
+        // Specify the default font from the stream.
         PdfSaveOptions options = new PdfSaveOptions();
         options.setFontsSubsystem(DocumentFontsSubsystem.usingDefaultFontFromStream(stream));
 
-        // Enregistrez le document au format PDF.
+        // Save the document as PDF.
         oneFile.save("SaveUsingDocumentFontsSubsystemWithDefaultFontFromStream_out.pdf", options);
     }
     catch (Exception e)
@@ -128,36 +149,46 @@ public static void SaveUsingDocumentFontsSubsystemWithDefaultFontFromStream() th
 }
 ```
 
-Dans cette étape :
-- Le fichier de police "geo_1.ttf" est chargé sous forme de flux.
-- La police par défaut est spécifiée à partir du flux chargé.
-- Le document est enregistré au format PDF avec la police spécifiée.
+Ce qui se passe ici :
+- Le fichier de police est ouvert en tant qu’**InputStream**, ce qui est utile lorsque la police provient d’une source qui n’est pas un fichier.  
+- `usingDefaultFontFromStream` **utilise un flux de police** pour définir la police de secours.  
+- Le fichier OneNote est enregistré en PDF avec la police fournie via le flux.
+
+## Problèmes courants et solutions
+
+| Problème | Pourquoi cela se produit | Comment résoudre |
+|----------|--------------------------|------------------|
+| **Avertissements de police manquante** | Le fichier .one source fait référence à une police qui n’est pas présente sur la machine. | Fournir une police par défaut via `usingDefaultFont`, `usingDefaultFontFromFile` ou `usingDefaultFontFromStream`. |
+| **Fichier de police personnalisé introuvable** | Chemin incorrect vers le fichier `.ttf`. | Utiliser des chemins absolus ou vérifier le chemin relatif par rapport au répertoire de travail. |
+| **Flux non fermé** | Une exception se produit avant l’appel à `close()`. | Utiliser le try‑with‑resources (`try (InputStream stream = ...) { ... }`) pour une fermeture automatique. |
+
+## Questions fréquemment posées
+
+**Q : Puis‑je spécifier des polices différentes pour différentes parties du document ?**  
+R : Oui, vous pouvez appliquer des paramètres de police personnalisés aux éléments de texte enrichi individuels en utilisant la classe `Font` d’Aspose.Note.
+
+**Q : Aspose.Note est‑il compatible avec toutes les versions de OneNote ?**  
+R : Aspose.Note prend en charge les fichiers OneNote des versions récentes de bureau et mobiles, assurant une large compatibilité.
+
+**Q : Comment gérer les polices manquantes lors de l’enregistrement des documents ?**  
+R : Utilisez les méthodes du sous‑système de polices présentées ci‑dessus (`usingDefaultFont`, `usingDefaultFontFromFile`, `usingDefaultFontFromStream`) pour fournir une police de secours.
+
+**Q : Puis‑je personnaliser les propriétés de la police comme la taille et le style ?**  
+R : Absolument – l’API permet de définir la taille, le style, la couleur et d’autres attributs au niveau de chaque run.
+
+**Q : Existe‑t‑il une version d’essai disponible pour Aspose.Note pour Java ?**  
+R : Oui, une version d’essai gratuite peut être téléchargée depuis le site web d’Aspose.
 
 ## Conclusion
 
-Dans ce didacticiel, nous avons appris à enregistrer des documents OneNote à l'aide du sous-système de polices spécifié en Java à l'aide d'Aspose.Note. En suivant ces étapes, vous pouvez garantir une représentation cohérente des polices sur différentes plates-formes lors de l'exportation ou de l'enregistrement de vos documents.
+Dans ce tutoriel, nous avons appris comment **enregistrer OneNote en PDF** tout en contrôlant le sous‑système de polices en Java avec Aspose.Note. En suivant les trois approches — spécifier un nom de police par défaut, charger un fichier de police personnalisé, ou utiliser un flux de police — vous pouvez garantir une représentation cohérente des polices sur toutes les plateformes lors de l’exportation ou de l’enregistrement de vos documents OneNote.
 
-## FAQ
+---
 
-### Q1 : Puis-je spécifier différentes polices pour différentes parties du document ?
+**Dernière mise à jour :** 2025-12-18  
+**Testé avec :** Aspose.Note pour Java 24.11  
+**Auteur :** Aspose  
 
-A1 : Oui, vous pouvez spécifier différentes polices pour différentes parties du document à l'aide d'Aspose.Note pour Java.
-
-### Q2 : Aspose.Note est-il compatible avec toutes les versions de OneNote ?
-
-A2 : Aspose.Note prend en charge différentes versions de OneNote, garantissant la compatibilité entre différents environnements.
-
-### Q3 : Comment puis-je gérer les polices manquantes lors de l'enregistrement de documents ?
-
-A3 : Aspose.Note fournit des options pour spécifier les polices par défaut afin de gérer efficacement les polices manquantes lors de l'enregistrement du document.
-
-### Q4 : Puis-je personnaliser les propriétés de la police telles que la taille et le style ?
-
-A4 : Oui, vous pouvez personnaliser les propriétés de police telles que la taille, le style et la couleur à l'aide d'Aspose.Note pour Java.
-
-### Q5 : Existe-t-il une version d'essai disponible pour Aspose.Note pour Java ?
-
-A5 : Oui, vous pouvez obtenir un essai gratuit d'Aspose.Note pour Java sur le site Web.
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

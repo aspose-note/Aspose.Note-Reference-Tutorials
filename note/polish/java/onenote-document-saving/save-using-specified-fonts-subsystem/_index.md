@@ -1,37 +1,55 @@
 ---
-title: Zapisz, używając określonego podsystemu czcionek w programie OneNote
-linktitle: Zapisz, używając określonego podsystemu czcionek w programie OneNote
-second_title: Aspose.Note API Java
-description: Dowiedz się, jak zapisywać dokumenty OneNote przy użyciu określonego podsystemu czcionek w Javie za pomocą Aspose.Note. Bez wysiłku zapewnij spójną reprezentację czcionek na różnych platformach.
-weight: 22
+date: 2025-12-18
+description: Naucz się, jak **zapisować OneNote jako PDF** przy użyciu określonego
+  podsystemu czcionek w Javie z Aspose.Note. Ten przewodnik pokazuje również, jak
+  konwertować OneNote na PDF, ładować własne pliki czcionek i określać czcionki domyślne.
+linktitle: Save OneNote as PDF Using Specified Fonts Subsystem
+second_title: Aspose.Note Java API
+title: Zapisz OneNote jako PDF przy użyciu określonego podsystemu czcionek
 url: /pl/java/onenote-document-saving/save-using-specified-fonts-subsystem/
+weight: 22
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Zapisz, używając określonego podsystemu czcionek w programie OneNote
+# Zapisz OneNote jako PDF przy użyciu określonego podsystemu czcionek
 
-## Wstęp
+## Wprowadzenie
 
-Aspose.Note dla Java zapewnia solidne możliwości pracy z dokumentami OneNote. Jednym z powszechnych wymagań podczas pracy z takimi dokumentami jest zapewnienie prawidłowego utrzymania czcionek, zwłaszcza jeśli dokument ma zostać wyeksportowany lub zapisany w różnych formatach, takich jak PDF. Ten samouczek przeprowadzi Cię przez proces zapisywania dokumentów programu OneNote przy określaniu podsystemu czcionek, zapewniając spójną i dokładną reprezentację tekstu na różnych platformach.
+W wielu scenariuszach biznesowych musisz **zapisz OneNote jako PDF** zachowując dokładny wygląd oryginalnych stron. Aspose.Note for Java ułatwia to, pozwalając kontrolować podsystem czcionek podczas konwersji. W tym samouczku przeprowadzimy trzy praktyczne sposoby **konwersji OneNote do PDF**, obejmujące **ładowanie własnych plików czcionek**, **określenie domyślnej czcionki** oraz **użycie strumienia czcionki**, gdy czcionka nie jest dostępna na docelowym komputerze.
 
-## Warunki wstępne
+## Quick Answers
+- **Co oznacza „save OneNote as PDF”?** Konwertuje plik .one do PDF, zachowując układ i styl.  
+- **Które API obsługuje czcionki?** `DocumentFontsSubsystem` pozwala zdefiniować domyślną czcionkę lub załadować własny plik/strumień czcionki.  
+- **Czy potrzebna jest licencja do produkcji?** Tak, komercyjna licencja Aspose.Note jest wymagana do użytku nie‑testowego.  
+- **Czy mogę konwertować wiele plików jednocześnie?** Oczywiście – wystarczy pętla nad logiką ładowania i zapisywania `Document`.  
+- **Jakiej wersji Javy wymaga?** Java 15 lub nowsza (przykład używa JDK 15).
 
-Zanim przejdziemy do samouczka, upewnij się, że masz skonfigurowane następujące wymagania wstępne:
+## Co to jest „save OneNote as PDF” z podsystemem czcionek?
 
-### 1. Zestaw programistyczny Java (JDK)
+Zapisanie OneNote jako PDF z podsystemem czcionek oznacza, że podczas procesu konwersji Aspose.Note zastępuje brakujące glify czcionką, którą podasz. Gwarantuje to, że PDF wygląda identycznie na każdym urządzeniu, nawet gdy oryginalna czcionka nie jest zainstalowana.
 
- Upewnij się, że w systemie jest zainstalowany zestaw Java Development Kit (JDK). Można go pobrać z[Tutaj](https://www.oracle.com/java/technologies/javase-jdk15-downloads.html) jeśli jeszcze tego nie zrobiłeś.
+## Dlaczego kontrolować podsystem czcionek przy **konwersji OneNote do PDF**?
 
-### 2. Aspose.Note dla biblioteki Java
+- **Spójna identyfikacja wizualna** – dokumenty korporacyjne zachowują dokładny krój pisma.  
+- **Niezawodność wieloplatformowa** – PDF-y renderują się tak samo na Windows, macOS, Linux i urządzeniach mobilnych.  
+- **Mniej błędów** – ostrzeżenia o brakujących czcionkach znikają, co daje czysty wynik.
 
- Pobierz i skonfiguruj bibliotekę Aspose.Note dla Java. Można go pobrać z[strona internetowa](https://releases.aspose.com/note/java/).
+## Prerequisites
 
-## Importuj pakiety
+### 1. Java Development Kit (JDK)
 
-Pamiętaj, aby zaimportować niezbędne pakiety do swojego projektu Java:
+Upewnij się, że masz zainstalowany Java Development Kit (JDK) na swoim systemie. Możesz go pobrać z [tutaj](https://www.oracle.com/java/technologies/javase-jdk15-downloads.html), jeśli jeszcze tego nie zrobiłeś.
+
+### 2. Biblioteka Aspose.Note for Java
+
+Pobierz i skonfiguruj bibliotekę Aspose.Note for Java. Możesz ją pobrać ze [strony internetowej](https://releases.aspose.com/note/java/).
+
+## Import Packages
+
+Upewnij się, że zaimportowałeś niezbędne pakiety w swoim projekcie Java:
 
 ```java
 import com.aspose.note.Document;
@@ -43,82 +61,84 @@ import java.io.InputStream;
 import java.nio.file.Paths;
 ```
 
-Podzielmy teraz każdy przykład na wiele kroków, aby lepiej zrozumieć proces.
+Teraz rozbijmy każdy przykład na kilka kroków, aby lepiej zrozumieć proces.
 
-## Krok 1: Zapisz przy użyciu podsystemu czcionek dokumentu z domyślną nazwą czcionki
+## Jak **zapisz OneNote jako PDF** używając Document Fonts Subsystem z domyślną czcionką
 
-W tym kroku pokazano, jak zapisać dokument w formacie PDF przy użyciu określonej domyślnej nazwy czcionki.
+### Krok 1: Zapisz używając Document Fonts Subsystem z nazwą domyślnej czcionki
+
+Ten krok demonstruje, jak **zapisz OneNote jako PDF** w prosty sposób, określając nazwę domyślnej czcionki.
 
 ```java
 public static void SaveUsingDocumentFontsSubsystemWithDefaultFontName() throws IOException
 {
-    // Załaduj dokument do Aspose.Note.
+    // Load the document into Aspose.Note.
     Document oneFile = new Document("missing-font.one");
 
-    // Określ domyślną czcionkę.
+    // Specify the default font.
     PdfSaveOptions options = new PdfSaveOptions();
     options.setFontsSubsystem(DocumentFontsSubsystem.usingDefaultFont("Times New Roman"));
 
-    // Zapisz dokument w formacie PDF.
+    // Save the document as PDF.
     oneFile.save("SaveUsingDocumentFontsSubsystemWithDefaultFontName_out.pdf", options);
 }
 ```
 
 W tym kroku:
 - Dokument OneNote jest ładowany przy użyciu Aspose.Note.
-- Domyślną czcionką jest „Times New Roman”.
-- Dokument zapisywany jest w formacie PDF z określoną czcionką.
+- **Domyślna czcionka** jest określona jako **"Times New Roman"**.
+- Dokument jest zapisywany w formacie PDF z wybraną czcionką.
 
-## Krok 2: Zapisz przy użyciu podsystemu czcionek dokumentów z domyślną czcionką z pliku
+### Krok 2: Zapisz używając Document Fonts Subsystem z domyślną czcionką z pliku
 
-W tym kroku pokazano, jak zapisać dokument w formacie PDF przy użyciu domyślnej czcionki załadowanej z pliku.
+Tutaj **ładujemy własny plik czcionki** i używamy go jako zapasowego przy konwersji do PDF.
 
 ```java
 public static void SaveUsingDocumentFontsSubsystemWithDefaultFontFromFile() throws IOException
 {
-    // Załaduj dokument do Aspose.Note.
+    // Load the document into Aspose.Note.
     Document oneFile = new Document("missing-font.one");
 
-    // Określ ścieżkę do pliku czcionki.
+    // Specify the path to the font file.
     String fontFile = "geo_1.ttf";
 
-    // Określ domyślną czcionkę z pliku.
+    // Specify the default font from the file.
     PdfSaveOptions options = new PdfSaveOptions();
     options.setFontsSubsystem(DocumentFontsSubsystem.usingDefaultFontFromFile(fontFile));
 
-    // Zapisz dokument w formacie PDF.
+    // Save the document as PDF.
     oneFile.save("SaveUsingDocumentFontsSubsystemWithDefaultFontFromFile_out.pdf", options);
 }
 ```
 
-W tym kroku:
-- Załadowany zostanie plik czcionki „geo_1.ttf”.
-- Domyślna czcionka jest określona na podstawie załadowanego pliku czcionki.
-- Dokument zapisywany jest w formacie PDF z określoną czcionką.
+Kluczowe punkty:
+- **Własny plik czcionki** `geo_1.ttf` jest **ładowany z dysku**.
+- `usingDefaultFontFromFile` **określa domyślną czcionkę z pliku**, zapewniając, że PDF użyje tej czcionki, gdy oryginalna jest nieobecna.
+- Powstały PDF zachowuje zamierzony wygląd.
 
-## Krok 3: Zapisz przy użyciu podsystemu czcionek dokumentów z domyślną czcionką ze strumienia
+### Krok 3: Zapisz używając Document Fonts Subsystem z domyślną czcionką ze strumienia
 
-tym kroku pokazano, jak zapisać dokument w formacie PDF przy użyciu domyślnej czcionki załadowanej ze strumienia.
+Czasami czcionka może być przechowywana w bazie danych lub otrzymywana przez sieć. Ten przykład pokazuje, jak **użyć strumienia czcionki**.
 
 ```java
 public static void SaveUsingDocumentFontsSubsystemWithDefaultFontFromStream() throws IOException
 {
-    // Załaduj dokument do Aspose.Note.
+    // Load the document into Aspose.Note.
     Document oneFile = new Document("missing-font.one");
 
-    // Określ ścieżkę do pliku czcionki.
+    // Specify the path to the font file.
     String fontFile = "geo_1.ttf";
 
-    // Załaduj plik czcionki jako strumień.
+    // Load the font file as a stream.
     InputStream stream = new FileInputStream(fontFile);
 
     try
     {
-        // Określ domyślną czcionkę ze strumienia.
+        // Specify the default font from the stream.
         PdfSaveOptions options = new PdfSaveOptions();
         options.setFontsSubsystem(DocumentFontsSubsystem.usingDefaultFontFromStream(stream));
 
-        // Zapisz dokument w formacie PDF.
+        // Save the document as PDF.
         oneFile.save("SaveUsingDocumentFontsSubsystemWithDefaultFontFromStream_out.pdf", options);
     }
     catch (Exception e)
@@ -128,36 +148,46 @@ public static void SaveUsingDocumentFontsSubsystemWithDefaultFontFromStream() th
 }
 ```
 
-W tym kroku:
-- Plik czcionki „geo_1.ttf” jest ładowany jako strumień.
-- Domyślna czcionka jest określona na podstawie załadowanego strumienia.
-- Dokument zapisywany jest w formacie PDF z określoną czcionką.
+Co się tutaj dzieje:
+- Plik czcionki jest otwierany jako **InputStream**, co jest przydatne, gdy czcionka znajduje się w źródle innym niż plik.
+- `usingDefaultFontFromStream` **używa strumienia czcionki** do określenia czcionki zapasowej.
+- Plik OneNote jest zapisywany jako PDF z czcionką opartą na strumieniu.
 
-## Wniosek
+## Typowe problemy i rozwiązania
 
-W tym samouczku nauczyliśmy się, jak zapisywać dokumenty OneNote przy użyciu określonego podsystemu czcionek w Javie przy użyciu Aspose.Note. Wykonując poniższe kroki, możesz zapewnić spójną reprezentację czcionek na różnych platformach podczas eksportowania lub zapisywania dokumentów.
+| Problem | Dlaczego się pojawia | Jak naprawić |
+|-------|----------------|------------|
+| **Ostrzeżenia o brakującej czcionce** | Plik .one odwołuje się do czcionki, której nie ma na komputerze. | Dostarcz domyślną czcionkę za pomocą `usingDefaultFont`, `usingDefaultFontFromFile` lub `usingDefaultFontFromStream`. |
+| **Nie znaleziono pliku czcionki** | Nieprawidłowa ścieżka do pliku `.ttf`. | Użyj ścieżek bezwzględnych lub zweryfikuj ścieżkę względną względem katalogu roboczego. |
+| **Strumień nie został zamknięty** | Wyjątek wystąpił przed wywołaniem `close()`. | Użyj try‑with‑resources (`try (InputStream stream = ...) { ... }`) aby automatycznie zamykać. |
 
-## Często zadawane pytania
+## Najczęściej zadawane pytania
 
-### P1: Czy mogę określić różne czcionki dla różnych części dokumentu?
+**P: Czy mogę określić różne czcionki dla różnych części dokumentu?**  
+O: Tak, możesz zastosować własne ustawienia czcionki do poszczególnych elementów tekstu przy użyciu klasy `Font` w Aspose.Note.
 
-O1: Tak, możesz określić różne czcionki dla różnych części dokumentu, używając Aspose.Note dla Java.
+**P: Czy Aspose.Note jest kompatybilny ze wszystkimi wersjami OneNote?**  
+O: Aspose.Note obsługuje pliki OneNote z najnowszych wersji desktopowych i mobilnych, zapewniając szeroką kompatybilność.
 
-### P2: Czy Aspose.Note jest kompatybilny ze wszystkimi wersjami OneNote?
+**P: Jak mogę obsłużyć brakujące czcionki przy zapisywaniu dokumentów?**  
+O: Użyj metod podsystemu czcionek pokazanych powyżej (`usingDefaultFont`, `usingDefaultFontFromFile`, `usingDefaultFontFromStream`), aby zapewnić zapasową czcionkę.
 
-O2: Aspose.Note obsługuje różne wersje OneNote, zapewniając kompatybilność w różnych środowiskach.
+**P: Czy mogę dostosować właściwości czcionki, takie jak rozmiar i styl?**  
+O: Oczywiście – API pozwala ustawić rozmiar, styl, kolor i inne atrybuty dla każdego fragmentu tekstu.
 
-### P3: Jak mogę sobie poradzić z brakującymi czcionkami podczas zapisywania dokumentów?
+**P: Czy dostępna jest wersja próbna Aspose.Note for Java?**  
+O: Tak, darmową wersję próbną można pobrać ze strony Aspose.
 
-O3: Aspose.Note udostępnia opcje umożliwiające określenie domyślnych czcionek w celu skutecznej obsługi brakujących czcionek podczas zapisywania dokumentu.
+## Zakończenie
 
-### P4: Czy mogę dostosować właściwości czcionki, takie jak rozmiar i styl?
+W tym samouczku nauczyliśmy się, jak **zapisz OneNote jako PDF** kontrolując podsystem czcionek w Javie przy użyciu Aspose.Note. Stosując trzy podejścia — określenie nazwy domyślnej czcionki, ładowanie własnego pliku czcionki lub użycie strumienia czcionki — możesz zapewnić spójną reprezentację czcionek na różnych platformach przy eksportowaniu lub zapisywaniu dokumentów OneNote.
 
-O4: Tak, możesz dostosować właściwości czcionki, takie jak rozmiar, styl i kolor, używając Aspose.Note dla Java.
+---
 
-### P5: Czy dostępna jest wersja próbna Aspose.Note dla Java?
+**Last Updated:** 2025-12-18  
+**Tested With:** Aspose.Note for Java 24.11  
+**Author:** Aspose  
 
-Odpowiedź 5: Tak, możesz pobrać bezpłatną wersję próbną Aspose.Note dla Java ze strony internetowej.
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

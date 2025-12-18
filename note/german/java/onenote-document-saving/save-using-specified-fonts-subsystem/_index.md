@@ -1,37 +1,56 @@
 ---
-title: Speichern Sie das Subsystem „Spezifizierte Schriftarten“ in OneNote
-linktitle: Speichern Sie das Subsystem „Spezifizierte Schriftarten“ in OneNote
+date: 2025-12-18
+description: Erfahren Sie, wie Sie **OneNote als PDF speichern** können, indem Sie
+  das angegebene Schriftarten‑Subsystem in Java mit Aspose.Note verwenden. Dieser
+  Leitfaden zeigt außerdem, wie Sie OneNote in PDF konvertieren, benutzerdefinierte
+  Schriftdateien laden und Standardschriften festlegen.
+linktitle: Save OneNote as PDF Using Specified Fonts Subsystem
 second_title: Aspose.Note Java API
-description: Erfahren Sie, wie Sie OneNote-Dokumente mithilfe des angegebenen Schriftarten-Subsystems in Java mit Aspose.Note speichern. Sorgen Sie mühelos für eine konsistente Schriftdarstellung auf allen Plattformen.
-weight: 22
+title: OneNote als PDF speichern mit dem Subsystem für festgelegte Schriftarten
 url: /de/java/onenote-document-saving/save-using-specified-fonts-subsystem/
+weight: 22
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Speichern Sie das Subsystem „Spezifizierte Schriftarten“ in OneNote
+# OneNote als PDF speichern mit angegebenem Schriftarten‑Subsystem
 
 ## Einführung
 
-Aspose.Note für Java bietet robuste Funktionen für die Arbeit mit OneNote-Dokumenten. Eine häufige Anforderung bei der Arbeit mit solchen Dokumenten besteht darin, sicherzustellen, dass die Schriftarten ordnungsgemäß beibehalten werden, insbesondere wenn das Dokument exportiert oder in anderen Formaten wie PDF gespeichert werden soll. Dieses Tutorial führt Sie durch den Prozess des Speicherns von OneNote-Dokumenten und gibt dabei das Schriftarten-Subsystem an, um eine konsistente und genaue Darstellung von Text auf verschiedenen Plattformen sicherzustellen.
+In vielen geschäftlichen Szenarien müssen Sie **OneNote als PDF speichern**, wobei das genaue Aussehen der Originalseiten erhalten bleibt. Aspose.Note für Java macht dies einfach, indem es Ihnen ermöglicht, das Schriftarten‑Subsystem während der Konvertierung zu steuern. In diesem Tutorial führen wir Sie durch drei praktische Methoden, um **OneNote in PDF zu konvertieren**, einschließlich **Laden benutzerdefinierter Schriftdateien**, **Festlegen einer Standardschrift** und sogar **Verwenden eines Schrift‑Streams**, wenn die Schrift auf dem Zielrechner nicht verfügbar ist.
+
+## Schnelle Antworten
+- **Was bedeutet „OneNote als PDF speichern“?** Es konvertiert eine .one‑Datei in ein PDF, wobei Layout und Stil unverändert bleiben.  
+- **Welche API verwaltet Schriftarten?** `DocumentFontsSubsystem` ermöglicht das Festlegen einer Standardschrift oder das Laden einer benutzerdefinierten Schriftdatei/eines Streams.  
+- **Benötige ich eine Lizenz für die Produktion?** Ja, für die Nutzung außerhalb der Testphase ist eine kommerzielle Aspose.Note‑Lizenz erforderlich.  
+- **Kann ich mehrere Dateien stapelweise konvertieren?** Absolut – einfach die `Document`‑Lade‑ und Speicherlogik in einer Schleife wiederholen.  
+- **Welche Java‑Version wird benötigt?** Java 15 oder höher (im Beispiel wird JDK 15 verwendet).
+
+## Was bedeutet „OneNote als PDF speichern“ mit einem Schriftarten‑Subsystem?
+
+Das Speichern von OneNote als PDF mit einem Schriftarten‑Subsystem bedeutet, dass Aspose.Note während des Konvertierungsprozesses fehlende Glyphen durch die von Ihnen bereitgestellte Schrift ersetzt. So sieht das PDF auf jedem Gerät identisch aus, selbst wenn die Originalschrift nicht installiert ist.
+
+## Warum das Schriftarten‑Subsystem steuern, wenn Sie **OneNote in PDF konvertieren**?
+
+- **Konsistentes Branding** – Unternehmensdokumente behalten exakt die gewünschte Schriftart.  
+- **Plattformübergreifende Zuverlässigkeit** – PDFs werden auf Windows, macOS, Linux und mobilen Geräten gleich dargestellt.  
+- **Weniger Fehler** – Warnungen wegen fehlender Schriften entfallen, wodurch ein sauberes Ergebnis entsteht.
 
 ## Voraussetzungen
 
-Bevor wir uns mit dem Tutorial befassen, stellen Sie sicher, dass die folgenden Voraussetzungen erfüllt sind:
-
 ### 1. Java Development Kit (JDK)
 
- Stellen Sie sicher, dass auf Ihrem System das Java Development Kit (JDK) installiert ist. Sie können es herunterladen unter[Hier](https://www.oracle.com/java/technologies/javase-jdk15-downloads.html) falls Sie es noch nicht getan haben.
+Stellen Sie sicher, dass das Java Development Kit (JDK) auf Ihrem System installiert ist. Sie können es von [hier](https://www.oracle.com/java/technologies/javase-jdk15-downloads.html) herunterladen, falls Sie es noch nicht haben.
 
-### 2. Aspose.Note für Java-Bibliothek
+### 2. Aspose.Note für Java Bibliothek
 
- Laden Sie die Aspose.Note für Java-Bibliothek herunter und richten Sie sie ein. Sie können es hier herunterladen[Webseite](https://releases.aspose.com/note/java/).
+Laden Sie die Aspose.Note für Java‑Bibliothek herunter und richten Sie sie ein. Der Download ist über die [Website](https://releases.aspose.com/note/java/) verfügbar.
 
 ## Pakete importieren
 
-Stellen Sie sicher, dass Sie die erforderlichen Pakete in Ihr Java-Projekt importieren:
+Stellen Sie sicher, dass Sie die erforderlichen Pakete in Ihrem Java‑Projekt importieren:
 
 ```java
 import com.aspose.note.Document;
@@ -43,82 +62,84 @@ import java.io.InputStream;
 import java.nio.file.Paths;
 ```
 
-Lassen Sie uns nun jedes Beispiel in mehrere Schritte unterteilen, um den Prozess besser zu verstehen.
+Nun zerlegen wir jedes Beispiel in mehrere Schritte, um den Prozess besser zu verstehen.
 
-## Schritt 1: Speichern Sie das Document Fonts Subsystem mit dem Standardschriftartnamen
+## Wie Sie **OneNote als PDF speichern** mit dem Document Fonts Subsystem und einer Standardschrift verwenden
 
-In diesem Schritt wird gezeigt, wie Sie ein Dokument im PDF-Format unter Verwendung eines angegebenen Standardschriftnamens speichern.
+### Schritt 1: Speichern mit Document Fonts Subsystem und Standard‑Schriftname
+
+Dieser Schritt zeigt, wie Sie **OneNote als PDF speichern** auf einfache Weise, indem Sie einen Standardschrift‑Namen angeben.
 
 ```java
 public static void SaveUsingDocumentFontsSubsystemWithDefaultFontName() throws IOException
 {
-    // Laden Sie das Dokument in Aspose.Note.
+    // Load the document into Aspose.Note.
     Document oneFile = new Document("missing-font.one");
 
-    // Geben Sie die Standardschriftart an.
+    // Specify the default font.
     PdfSaveOptions options = new PdfSaveOptions();
     options.setFontsSubsystem(DocumentFontsSubsystem.usingDefaultFont("Times New Roman"));
 
-    // Speichern Sie das Dokument als PDF.
+    // Save the document as PDF.
     oneFile.save("SaveUsingDocumentFontsSubsystemWithDefaultFontName_out.pdf", options);
 }
 ```
 
 In diesem Schritt:
-- Das OneNote-Dokument wird mit Aspose.Note geladen.
-- Als Standardschriftart ist „Times New Roman“ angegeben.
-- Das Dokument wird im PDF-Format mit der angegebenen Schriftart gespeichert.
+- Das OneNote‑Dokument wird mit Aspose.Note geladen.  
+- Die **Standardschrift** wird als **„Times New Roman“** festgelegt.  
+- Das Dokument wird im PDF‑Format mit der gewählten Schrift gespeichert.
 
-## Schritt 2: Speichern Sie das Document Fonts Subsystem mit der Standardschriftart aus der Datei
+### Schritt 2: Speichern mit Document Fonts Subsystem und Standardschrift aus Datei
 
-In diesem Schritt wird gezeigt, wie Sie ein Dokument im PDF-Format mit einer aus einer Datei geladenen Standardschriftart speichern.
+Hier **laden wir eine benutzerdefinierte Schriftdatei** und verwenden sie als Fallback bei der PDF‑Konvertierung.
 
 ```java
 public static void SaveUsingDocumentFontsSubsystemWithDefaultFontFromFile() throws IOException
 {
-    // Laden Sie das Dokument in Aspose.Note.
+    // Load the document into Aspose.Note.
     Document oneFile = new Document("missing-font.one");
 
-    // Geben Sie den Pfad zur Schriftartdatei an.
+    // Specify the path to the font file.
     String fontFile = "geo_1.ttf";
 
-    // Geben Sie die Standardschriftart aus der Datei an.
+    // Specify the default font from the file.
     PdfSaveOptions options = new PdfSaveOptions();
     options.setFontsSubsystem(DocumentFontsSubsystem.usingDefaultFontFromFile(fontFile));
 
-    // Speichern Sie das Dokument als PDF.
+    // Save the document as PDF.
     oneFile.save("SaveUsingDocumentFontsSubsystemWithDefaultFontFromFile_out.pdf", options);
 }
 ```
 
-In diesem Schritt:
-- Die Schriftartdatei „geo_1.ttf“ wird geladen.
-- Die Standardschriftart wird aus der geladenen Schriftartendatei angegeben.
-- Das Dokument wird im PDF-Format mit der angegebenen Schriftart gespeichert.
+Wichtige Punkte:
+- Die **benutzerdefinierte Schriftdatei** `geo_1.ttf` wird **von der Festplatte geladen**.  
+- `usingDefaultFontFromFile` **legt die Standardschrift aus einer Datei fest**, sodass das PDF diese Schrift verwendet, wenn die Originalschrift fehlt.  
+- Das resultierende PDF behält das gewünschte Erscheinungsbild bei.
 
-## Schritt 3: Speichern Sie das Document Fonts Subsystem mit der Standardschriftart aus Stream
+### Schritt 3: Speichern mit Document Fonts Subsystem und Standardschrift aus Stream
 
-In diesem Schritt wird gezeigt, wie Sie ein Dokument im PDF-Format mit einer aus einem Stream geladenen Standardschriftart speichern.
+Manchmal befindet sich die Schrift in einer Datenbank oder wird über das Netzwerk übertragen. Dieses Beispiel zeigt, wie Sie **einen Schrift‑Stream verwenden**.
 
 ```java
 public static void SaveUsingDocumentFontsSubsystemWithDefaultFontFromStream() throws IOException
 {
-    // Laden Sie das Dokument in Aspose.Note.
+    // Load the document into Aspose.Note.
     Document oneFile = new Document("missing-font.one");
 
-    // Geben Sie den Pfad zur Schriftartdatei an.
+    // Specify the path to the font file.
     String fontFile = "geo_1.ttf";
 
-    // Laden Sie die Schriftartdatei als Stream.
+    // Load the font file as a stream.
     InputStream stream = new FileInputStream(fontFile);
 
     try
     {
-        // Geben Sie die Standardschriftart aus dem Stream an.
+        // Specify the default font from the stream.
         PdfSaveOptions options = new PdfSaveOptions();
         options.setFontsSubsystem(DocumentFontsSubsystem.usingDefaultFontFromStream(stream));
 
-        // Speichern Sie das Dokument als PDF.
+        // Save the document as PDF.
         oneFile.save("SaveUsingDocumentFontsSubsystemWithDefaultFontFromStream_out.pdf", options);
     }
     catch (Exception e)
@@ -128,36 +149,46 @@ public static void SaveUsingDocumentFontsSubsystemWithDefaultFontFromStream() th
 }
 ```
 
-In diesem Schritt:
-- Die Schriftartdatei „geo_1.ttf“ wird als Stream geladen.
-- Die Standardschriftart wird aus dem geladenen Stream angegeben.
-- Das Dokument wird im PDF-Format mit der angegebenen Schriftart gespeichert.
+Was hier geschieht:
+- Die Schriftdatei wird als **InputStream** geöffnet, was nützlich ist, wenn die Schrift aus einer nicht‑dateibasierten Quelle stammt.  
+- `usingDefaultFontFromStream` **verwendet einen Schrift‑Stream**, um die Fallback‑Schrift zu definieren.  
+- Die OneNote‑Datei wird als PDF mit der stream‑basierten Schrift gespeichert.
 
-## Abschluss
+## Häufige Probleme und Lösungen
 
-In diesem Tutorial haben wir gelernt, wie man OneNote-Dokumente mithilfe des angegebenen Schriftarten-Subsystems in Java mithilfe von Aspose.Note speichert. Wenn Sie diese Schritte befolgen, können Sie beim Exportieren oder Speichern Ihrer Dokumente eine konsistente Schriftartendarstellung auf verschiedenen Plattformen sicherstellen.
+| Problem | Warum es passiert | Wie man es behebt |
+|---------|-------------------|-------------------|
+| **Warnungen wegen fehlender Schrift** | Die Quell‑.one‑Datei verweist auf eine Schrift, die auf dem Rechner nicht vorhanden ist. | Stellen Sie eine Standardschrift über `usingDefaultFont`, `usingDefaultFontFromFile` oder `usingDefaultFontFromStream` bereit. |
+| **Datei für benutzerdefinierte Schrift nicht gefunden** | Falscher Pfad zur `.ttf`‑Datei. | Verwenden Sie absolute Pfade oder prüfen Sie den relativen Pfad vom Arbeitsverzeichnis aus. |
+| **Stream nicht geschlossen** | Eine Ausnahme tritt auf, bevor `close()` aufgerufen wird. | Nutzen Sie try‑with‑resources (`try (InputStream stream = ...) { ... }`) für automatisches Schließen. |
 
-## FAQs
+## Häufig gestellte Fragen
 
-### F1: Kann ich für verschiedene Teile des Dokuments unterschiedliche Schriftarten angeben?
+**F: Kann ich verschiedene Schriften für unterschiedliche Teile des Dokuments festlegen?**  
+A: Ja, Sie können benutzerdefinierte Schriftarteinstellungen auf einzelne Rich‑Text‑Elemente anwenden, indem Sie die `Font`‑Klasse in Aspose.Note verwenden.
 
-A1: Ja, Sie können mit Aspose.Note für Java unterschiedliche Schriftarten für verschiedene Teile des Dokuments angeben.
+**F: Ist Aspose.Note mit allen Versionen von OneNote kompatibel?**  
+A: Aspose.Note unterstützt OneNote‑Dateien aus aktuellen Desktop‑ und Mobilversionen und bietet damit breite Kompatibilität.
 
-### F2: Ist Aspose.Note mit allen Versionen von OneNote kompatibel?
+**F: Wie gehe ich mit fehlenden Schriften beim Speichern von Dokumenten um?**  
+A: Verwenden Sie die oben gezeigten Methoden des Schriftarten‑Subsystems (`usingDefaultFont`, `usingDefaultFontFromFile`, `usingDefaultFontFromStream`), um einen Fallback bereitzustellen.
 
-A2: Aspose.Note unterstützt verschiedene Versionen von OneNote und gewährleistet so die Kompatibilität in verschiedenen Umgebungen.
+**F: Kann ich Schrift‑Eigenschaften wie Größe und Stil anpassen?**  
+A: Absolut – die API ermöglicht das Festlegen von Größe, Stil, Farbe und weiteren Attributen pro Lauf.
 
-### F3: Wie kann ich beim Speichern von Dokumenten mit fehlenden Schriftarten umgehen?
+**F: Gibt es eine Testversion von Aspose.Note für Java?**  
+A: Ja, eine kostenlose Testversion kann von der Aspose‑Website heruntergeladen werden.
 
-A3: Aspose.Note bietet Optionen zum Festlegen von Standardschriftarten, um fehlende Schriftarten beim Speichern von Dokumenten effektiv zu behandeln.
+## Fazit
 
-### F4: Kann ich die Schrifteigenschaften wie Größe und Stil anpassen?
+In diesem Tutorial haben wir gelernt, wie man **OneNote als PDF speichert**, während man das Schriftarten‑Subsystem in Java mit Aspose.Note steuert. Durch die drei vorgestellten Ansätze – Festlegen eines Standardschrift‑Namens, Laden einer benutzerdefinierten Schriftdatei oder Verwenden eines Schrift‑Streams – können Sie eine konsistente Schriftdarstellung über alle Plattformen hinweg gewährleisten, wenn Sie Ihre OneNote‑Dokumente exportieren oder speichern.
 
-A4: Ja, Sie können Schrifteigenschaften wie Größe, Stil und Farbe mit Aspose.Note für Java anpassen.
+---
 
-### F5: Gibt es eine Testversion für Aspose.Note für Java?
+**Zuletzt aktualisiert:** 2025-12-18  
+**Getestet mit:** Aspose.Note für Java 24.11  
+**Autor:** Aspose  
 
-A5: Ja, Sie können auf der Website eine kostenlose Testversion von Aspose.Note für Java herunterladen.
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
