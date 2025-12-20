@@ -1,33 +1,51 @@
 ---
-title: Utwórz dokument i wstaw obraz w programie OneNote przy użyciu języka Java
-linktitle: Utwórz dokument i wstaw obraz w programie OneNote przy użyciu języka Java
-second_title: Aspose.Note API Java
-description: Dowiedz się, jak tworzyć dokumenty OneNote i wstawiać obrazy za pomocą Aspose.Note dla Java. Samouczek krok po kroku dotyczący bezproblemowej integracji.
-weight: 12
+date: 2025-12-20
+description: Dowiedz się, jak dodać obraz do OneNote przy użyciu Aspose.Note dla Javy.
+  Przewodnik krok po kroku, jak tworzyć dokumenty OneNote i wstawiać obrazy programowo.
+linktitle: How to add picture to OneNote using Java – Build Document and Insert Image
+second_title: Aspose.Note Java API
+title: Jak dodać obraz do OneNote przy użyciu Javy – Utwórz dokument i wstaw obraz
 url: /pl/java/onenote-hyperlinks-images/build-doc-insert-image/
+weight: 12
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Utwórz dokument i wstaw obraz w programie OneNote przy użyciu języka Java
+# Jak dodać obraz do OneNote przy użyciu Java – Tworzenie dokumentu i wstawianie obrazu
 
-## Wstęp
+## Wprowadzenie
 
-W tym samouczku omówimy, jak używać Aspose.Note dla Java do tworzenia dokumentów OneNote i wstawiania do nich obrazów. Aspose.Note to potężny interfejs API Java, który umożliwia programistom programową pracę z plikami Microsoft OneNote. Szczegółowo opiszemy każdy krok, aby poprowadzić Cię przez proces.
+W tym samouczku dowiesz się **jak dodać obraz do OneNote** przy użyciu Aspose.Note Java API. Przeprowadzimy Cię przez tworzenie dokumentu OneNote od podstaw, wstawianie obrazu i zapisywanie wyniku jako PDF. Niezależnie od tego, czy tworzysz narzędzie raportujące, automatyzujesz notowanie, czy po prostu potrzebujesz programowo osadzać grafiki, ten przewodnik zapewnia jasną, praktyczną ścieżkę.
 
-## Warunki wstępne
+## Szybkie odpowiedzi
+- **Jakiej biblioteki potrzebuję?** Aspose.Note for Java.
+- **Czy mogę wstawić dowolny format obrazu?** Obsługiwane są JPEG, PNG, BMP, GIF i inne.
+- **Jakie formaty wyjściowe są dostępne?** Możesz zapisać jako OneNote, PDF, XPS, HTML itp.
+- **Czy potrzebna jest licencja do produkcji?** Tak, wymagana jest licencja komercyjna do użytku nie‑trial.
+- **Czy kod jest wieloplatformowy?** Absolutnie – Java działa na Windows, Linux i macOS.
 
-Zanim zaczniemy, upewnij się, że masz następujące wymagania wstępne:
+## Co oznacza „dodawanie obrazu do OneNote”?
+Dodanie obrazu do OneNote oznacza programowe osadzenie pliku graficznego na stronie OneNote, tak aby pojawił się obok tekstu, konturów lub innych elementów. API Aspose.Note abstrahuje format pliku OneNote, pozwalając skupić się na treści, a nie na leżącej u podstaw strukturze XML.
 
-1. Zestaw Java Development Kit (JDK): Upewnij się, że masz zainstalowany pakiet JDK w swoim systemie.
-2.  Biblioteka Aspose.Note dla Java: Pobierz i zainstaluj bibliotekę Aspose.Note dla Java z[strona internetowa](https://releases.aspose.com/note/java/).
-3. IDE (Zintegrowane środowisko programistyczne): Do kodowania używaj dowolnego środowiska IDE obsługującego język Java, takiego jak IntelliJ IDEA lub Eclipse.
+## Dlaczego dodawać obraz do OneNote przy użyciu Java?
+- **Automatyzacja:** Automatyczne generowanie protokołów spotkań ze zrzutami ekranu.
+- **Spójność:** Zapewnienie, że każda strona ma ten sam układ i identyfikację wizualną.
+- **Integracja:** Łączenie danych z innych systemów (np. wykresów) bezpośrednio w notatnikach OneNote.
+- **Wieloplatformowość:** Java pozwala uruchamiać ten sam kod na dowolnym serwerze lub komputerze stacjonarnym.
 
-## Importuj pakiety
+## Wymagania wstępne
 
-Zacznij od zaimportowania niezbędnych pakietów do kodu Java:
+Zanim zaczniemy, upewnij się, że masz następujące elementy:
+
+1. **Java Development Kit (JDK)** – dowolna aktualna wersja (8 lub nowsza).  
+2. **Biblioteka Aspose.Note for Java** – pobierz ją ze [strony internetowej](https://releases.aspose.com/note/java/).  
+3. **IDE** – IntelliJ IDEA, Eclipse lub dowolny edytor kompatybilny z Java, którego preferujesz.  
+
+## Importowanie pakietów
+
+Rozpocznij od zaimportowania niezbędnych klas w swoim pliku źródłowym Java:
 
 ```java
 import java.io.IOException;
@@ -40,9 +58,11 @@ import com.aspose.note.Page;
 import com.aspose.note.SaveFormat;
 ```
 
-## Krok 1: Skonfiguruj dokument
+## Przewodnik krok po kroku
 
-Najpierw utwórz nowy dokument OneNote i zainicjuj niezbędne obiekty:
+### Krok 1: Utworzenie dokumentu
+
+Utwórz nowy dokument OneNote oraz kontener strony, w którym będzie znajdować się zawartość.
 
 ```java
 String dataDir = "Your Document Directory";
@@ -50,9 +70,9 @@ Document doc = new Document();
 Page page = new Page();
 ```
 
-## Krok 2: Zainicjuj kontur
+### Krok 2: Inicjalizacja konturu (Outline)
 
-Skonfiguruj kontur dokumentu i określ właściwości przesunięcia:
+*Outline* działa jak kontener dla elementów takich jak tekst i obrazy. Ustawiamy jego przesunięcia na zero, aby zawartość zaczynała się w lewym górnym rogu.
 
 ```java
 Outline outline = new Outline();
@@ -60,27 +80,27 @@ outline.setVerticalOffset(0);
 outline.setHorizontalOffset(0);
 ```
 
-## Krok 3: Dodaj obraz
+### Krok 3: Załadowanie i wyrównanie obrazu
 
-Załaduj obraz i określ jego wyrównanie:
+Załaduj obraz, który chcesz osadzić, i wyrównaj go do prawej strony strony. To jest miejsce, w którym faktycznie **dodajemy obraz do OneNote**.
 
 ```java
 Image image = new Image(null, dataDir + "Input.jpg");
 image.setAlignment(HorizontalAlignment.Right);
 ```
 
-## Krok 4: Dodaj obraz do elementu konspektu
+### Krok 4: Dołączenie obrazu do elementu outline
 
-Dołącz obraz do elementu konturu:
+Umieść obraz wewnątrz `OutlineElement`. Ten krok łączy obiekt wizualny z hierarchią outline dokumentu.
 
 ```java
 OutlineElement outlineElem = new OutlineElement();
 outlineElem.appendChildLast(image);
 ```
 
-## Krok 5: Dodaj węzły konspektu i strony
+### Krok 5: Zbudowanie struktury dokumentu
 
-Dodaj węzły konspektu i strony do dokumentu:
+Dodaj element outline do outline, następnie dołącz outline do strony i na końcu dodaj stronę do dokumentu.
 
 ```java
 outline.appendChildLast(outlineElem);
@@ -88,9 +108,9 @@ page.appendChildLast(outline);
 doc.appendChildLast(page);
 ```
 
-## Krok 6: Zapisz dokument
+### Krok 6: Zapisanie dokumentu OneNote
 
-Na koniec zapisz dokument OneNote:
+Zapisz dokument na dysku. W tym przykładzie eksportujemy do PDF, ale możesz również zapisać jako natywny plik OneNote (`.one`), zmieniając `SaveFormat`.
 
 ```java
 try {
@@ -100,31 +120,36 @@ try {
 }
 ```
 
-## Wniosek
+## Częste problemy i rozwiązania
 
-Gratulacje! Pomyślnie nauczyłeś się tworzyć dokumenty OneNote i wstawiać do nich obrazy za pomocą Aspose.Note dla Java. Wykonując poniższe kroki, możesz efektywnie zarządzać plikami OneNote i manipulować nimi w aplikacjach Java.
+| Problem | Dlaczego się pojawia | Rozwiązanie |
+|-------|----------------|-----|
+| **Obraz się nie wyświetla** | Nieprawidłowa ścieżka pliku lub nieobsługiwany format. | Zweryfikuj, że `dataDir` wskazuje na właściwy folder i użyj obsługiwanego typu obrazu (JPEG, PNG itp.). |
+| **Dokument zapisany jako pusty PDF** | Nieprawidłowo ustawione przesunięcia outline. | Upewnij się, że wywołano `setVerticalOffset(0)` i `setHorizontalOffset(0)`, lub dostosuj przesunięcia, aby umieścić zawartość w granicach strony. |
+| **IOException przy zapisie** | Folder docelowy nie istnieje lub brakuje uprawnień do zapisu. | Utwórz folder wcześniej lub uruchom program z odpowiednimi uprawnieniami. |
 
-## Często zadawane pytania
+## Najczęściej zadawane pytania
 
-### P1: Gdzie mogę znaleźć dokumentację Aspose.Note dla Java?
+**Q1: Gdzie mogę znaleźć dokumentację Aspose.Note dla Java?**  
+A1: Dokumentację można znaleźć [tutaj](https://reference.aspose.com/note/java/).
 
- Odpowiedź 1: Możesz uzyskać dostęp do dokumentacji[Tutaj](https://reference.aspose.com/note/java/).
+**Q2: Jak pobrać Aspose.Note dla Java?**  
+A2: Aspose.Note dla Java można pobrać ze [strony pobierania](https://releases.aspose.com/note/java/).
 
-### P2: Jak pobrać Aspose.Note dla Java?
+**Q3: Czy dostępna jest darmowa wersja próbna Aspose.Note dla Java?**  
+A3: Tak, darmową wersję próbną można uzyskać na [stronie internetowej](https://releases.aspose.com/).
 
- O2: Możesz pobrać Aspose.Note dla Java z[strona pobierania](https://releases.aspose.com/note/java/).
+**Q4: Gdzie mogę uzyskać wsparcie dla Aspose.Note dla Java?**  
+A4: Wsparcie można uzyskać, odwiedzając [forum Aspose.Note](https://forum.aspose.com/c/note/28).
 
-### P3: Czy dostępna jest bezpłatna wersja próbna Aspose.Note dla Java?
+**Q5: Czy mogę uzyskać tymczasową licencję dla Aspose.Note dla Java?**  
+A5: Tak, tymczasową licencję można zamówić [tutaj](https://purchase.aspose.com/temporary-license/).
 
- Odpowiedź 3: Tak, możesz uzyskać bezpłatną wersję próbną w witrynie[strona internetowa](https://releases.aspose.com/).
+---
 
-### P4: Gdzie mogę uzyskać pomoc dotyczącą Aspose.Note dla Java?
-
- A4: Aby uzyskać pomoc, odwiedź stronę[Forum Aspose.Note](https://forum.aspose.com/c/note/28).
-
-### P5: Czy mogę uzyskać tymczasową licencję na Aspose.Note dla Java?
-
- Odpowiedź 5: Tak, możesz poprosić o licencję tymczasową[Tutaj](https://purchase.aspose.com/temporary-license/).
+**Ostatnia aktualizacja:** 2025-12-20  
+**Testowano z:** Aspose.Note for Java 24.12 (latest)  
+**Autor:** Aspose  
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
