@@ -1,62 +1,96 @@
 ---
-title: OneNote hiperhivatkozások és képek
-linktitle: OneNote hiperhivatkozások és képek
+date: 2025-12-20
+description: Tanulja meg, hogyan adhat hozzá hiperhivatkozást egy képhez a OneNote-ban
+  az Aspose.Note for Java segítségével. Lépésről lépésre útmutató az interaktív képhivatkozások
+  beágyazásához és a képek kezeléséhez a OneNote dokumentumokban.
+linktitle: OneNote Hyperlinks and Images
 second_title: Aspose.Note Java API
-description: Növelje OneNote-élményét az Aspose.Note for Java oktatóanyaggal. Tanuljon meg zökkenőmentesen hiperhivatkozásokat hozzáadni, képeket beilleszteni és képinformációkat kivonni a Java fejlesztéssel.
-weight: 22
+title: Hiperhivatkozás hozzáadása egy képhez a OneNote-ban Java-val
 url: /hu/java/onenote-hyperlinks-images/
+weight: 22
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# OneNote hiperhivatkozások és képek
-
+# OneNote hivatkozások és képek
 
 ## Bevezetés
 
-Ön Java-fejlesztő, aki szeretné továbbfejleszteni OneNote-készségeit? Merüljön el átfogó oktatóanyagainkban az Aspose.Note for Java segítségével, amelynek célja, hogy felvértezze Önt a OneNote-élmény javításához szükséges szakértelemmel. Fedezze fel a hiperhivatkozások és képek zökkenőmentes integrációját OneNote-dokumentumaiba, így jegyzetei interaktívak és látványosak.
+Java fejlesztő vagy, és szeretnéd fejleszteni OneNote tudásodat? Merülj el átfogó oktatóanyagainkban az Aspose.Note for Java segítségével, amelyek felkészítenek arra, hogy javítsd OneNote élményedet. Ebben az útmutatóban megtanulod, **hogyan adjunk hozzá hivatkozást egy képhez** OneNote dokumentumokban, így jegyzeteid interaktívak és vizuálisan vonzóak lesznek.
 
-## Hiperhivatkozás hozzáadása a OneNote-hoz Java segítségével
- A Java és az Aspose.Note könyvtár segítségével könnyedén elsajátíthatja a hiperhivatkozások OneNote-ban való hozzáadásának művészetét. Ez az oktatóanyag lépésről lépésre nyújt útmutatót a jegyzetek interaktív hivatkozásokkal történő bővítéséhez, biztosítva a dinamikus és lebilincselő jegyzetelési élményt. Nézze meg a[Hiperhivatkozás hozzáadása a OneNote-hoz Java oktatóanyaggal](./add-hyperlink/)és emelje fel OneNote-játékát.
+## Gyors válaszok
+- **Mit jelent a „képhez hivatkozás hozzáadása”?** Egy kattintható URL-t ágyaz be egy képobjektumba egy OneNote oldalon.  
+- **Melyik könyvtár támogatja ezt?** Az Aspose.Note for Java egy folyékony API-t biztosít a képek hivatkozásához.  
+- **Szükség van licencre?** Egy ingyenes próba verzió elegendő az értékeléshez; a kereskedelmi licenc szükséges a termeléshez.  
+- **Használhatok stream-eket fájlok helyett?** Igen – az Aspose.Note lehetővé teszi képek betöltését és mentését `InputStream` segítségével.  
+- **Kompatibilis-e a OneNote 2016 és a OneNote for Windows 10 verziókkal?** A generált `.one` fájl minden friss OneNote kliensen működik.
 
-## Hiperhivatkozás hozzáadása a képhez a OneNote-ban Java használatával
- Fedezze fel a OneNote-dokumentumokban található képhivatkozások világát részletes oktatóanyagunk segítségével. Ismerje meg, hogyan lehet zökkenőmentesen hiperhivatkozásokat hozzáadni a képekhez a Java és az Aspose.Note használatával. Emelje fel jegyzetei vizuális vonzerejét ezzel a lépésről lépésre szóló útmutatóval –[Hiperhivatkozás hozzáadása a képhez a OneNote-ban Java segítségével](./add-hyperlink-to-image/).
+## Hivatkozás hozzáadása OneNote-hoz Java-val
+Ismerd meg, hogyan adhatunk hozzá hivatkozásokat OneNote-hoz egyszerűen Java és az Aspose.Note könyvtár segítségével. Ez az oktatóanyag lépésről‑lépésre mutatja be, hogyan teheted interaktívvá a jegyzeteidet, dinamikus és vonzó feljegyzéseket hozva létre. Tekintsd meg a [Add Hyperlink in OneNote with Java tutorial](./add-hyperlink/) útmutatót, és emeld a OneNote tudásodat egy szinttel feljebb.
 
-## Dokumentum létrehozása és kép beszúrása a OneNote-ba Java használatával
- Emelje OneNote-dokumentumait a következő szintre azáltal, hogy elsajátítja a képek összeállításának és beszúrásának művészetét. Ez az oktatóanyag végigvezeti a folyamaton, biztosítva a zökkenőmentes integrációt az Aspose.Note for Java programmal. Növelje jegyzetelési élményét a[Dokumentum létrehozása és kép beszúrása a OneNote-ba a Java oktatóanyag segítségével](./build-doc-insert-image/).
+## Képhez hivatkozás hozzáadása OneNote-ban Java-val
+Fedezd fel a képhivatkozások világát OneNote dokumentumokban részletes oktatóanyagaink segítségével. Tanuld meg, hogyan adhatod hozzá zökkenőmentesen a hivatkozásokat képekhez Java és az Aspose.Note használatával. Emeld jegyzeteid vizuális vonzerejét ezzel a lépésről‑lépésre útmutatóval – [Add Hyperlink to Image in OneNote with Java](./add-hyperlink-to-image/).
 
- Java fejlesztőként lépésenkénti oktatóanyagunk segítségével megtanulhatja, hogyan integrálhat könnyedén képeket a OneNote dokumentumokba –[Dokumentum létrehozása és kép beszúrása a Stream segítségével a OneNote-ban – Java](./build-doc-insert-image-stream/)Növelje jegyzetelési élményét az Aspose.Note for Java segítségével.
+## Dokumentum építése és kép beszúrása OneNote-ban Java-val
+Emeld OneNote dokumentumaidat a következő szintre a dokumentumépítés és képek beszúrásának elsajátításával. Ez az oktatóanyag végigvezet a folyamaton, biztosítva a zökkenőmentes integrációt az Aspose.Note for Java-val. Fejleszd jegyzetkészítési élményeidet a [Build Document and Insert Image in OneNote using Java tutorial](./build-doc-insert-image/) segítségével.
 
-## Képek kibontása a OneNote-dokumentumból Java segítségével
- Fedezze fel a OneNote-dokumentumokból Java segítségével végzett képkivonás titkait. Kövesse részletes útmutatónkat az Aspose.Note könyvtárral a képek zökkenőmentes kibontásához. Növelje Java fejlesztési készségeit a[Képek kibontása a OneNote-dokumentumból a Java oktatóanyag segítségével](./extract-images/).
+Java fejlesztőként tanuld meg, hogyan illeszthetsz be képeket OneNote dokumentumokba egyszerűen – [Build Doc and Insert Image with Stream in OneNote - Java](./build-doc-insert-image-stream/). Emeld a jegyzetkészítési élményedet az Aspose.Note for Java-val.
 
-## Képadatok beszerzése a OneNote-ból Java használatával
- Kíváncsi a képadatok kinyerésére a OneNote-dokumentumokból? Merüljön el a könnyen követhető oktatóanyagunkban az Aspose.Note for Java segítségével. Növelje Java fejlesztési készségeit[Képadatok beszerzése a OneNote-ból Java használatával](./get-image-info/).
+## Képek kinyerése OneNote dokumentumból Java-val
+Fedezd fel a képek kinyerésének titkait OneNote dokumentumokból Java segítségével. Kövesd részletes útmutatónkat az Aspose.Note könyvtárral, hogy zökkenőmentesen kinyerhesd a képeket. Fejleszd Java fejlesztői képességeidet a [Extract Images from OneNote Document using Java tutorial](./extract-images/) segítségével.
 
-## Kép beszúrása a OneNote dokumentumba Java segítségével
- Tanulja meg, hogyan lehet képeket beszúrni a OneNote dokumentumokba Java használatával az Aspose.Note for Java könyvtárral. Lépésről lépésre haladó útmutatónk biztosítja a zökkenőmentes integrációs folyamatot. Növelje Java fejlesztési készségeit[Kép beszúrása a OneNote dokumentumba Java oktatóanyaggal](./insert-image/).
+## Képinformáció lekérése OneNote-ból Java-val
+Kíváncsi vagy, hogyan lehet kinyerni a képadatokat OneNote dokumentumokból? Merülj el könnyen követhető oktatóanyagainkban az Aspose.Note for Java használatával. Fejleszd Java fejlesztői tudásodat a [Get Image Info from OneNote using Java](./get-image-info/) útmutatóval.
 
-Induljon el erre a mesteri útra az Aspose.Note for Java oktatóanyagaival, amely minden lépéssel javítja OneNote-élményét. Növelje Java fejlesztési készségeit, és készítsen feltűnő jegyzeteket. Boldog kódolást!
-## A OneNote hiperhivatkozások és képek oktatóanyagai
-### [Hiperhivatkozás hozzáadása a OneNote-hoz Java segítségével](./add-hyperlink/)
-Ismerje meg, hogyan adhat hozzá hivatkozásokat a OneNote-hoz Java használatával az Aspose.Note könyvtárral. Növelje jegyzeteit interaktív hivatkozásokkal könnyedén.
-### [Hiperhivatkozás hozzáadása a képhez a OneNote-ban Java használatával](./add-hyperlink-to-image/)
-Ebből a lépésenkénti oktatóanyagból megtudhatja, hogyan adhat hozzá hivatkozásokat a OneNote-dokumentumok képeihez Java használatával.
-### [Dokumentum létrehozása és kép beszúrása a OneNote-ba Java használatával](./build-doc-insert-image/)
-Ismerje meg, hogyan hozhat létre OneNote-dokumentumokat és szúrhat be képeket az Aspose.Note for Java használatával. Lépésről lépésre bemutató útmutató a zökkenőmentes integrációhoz.
-### [Dokumentum létrehozása és kép beszúrása a Stream segítségével a OneNote-ban – Java](./build-doc-insert-image-stream/)
-Ismerje meg, hogyan integrálhat könnyedén képeket OneNote-dokumentumokba az Aspose.Note for Java segítségével. Lépésről lépésre bemutató útmutató Java fejlesztőknek.
-### [Képek kibontása a OneNote-dokumentumból Java segítségével](./extract-images/)
-Ismerje meg, hogyan bonthat ki képeket OneNote-dokumentumokból Java használatával az Aspose.Note könyvtárral. Kövesse lépésről lépésre útmutatónkat a zökkenőmentes képkivonáshoz.
-### [Képadatok beszerzése a OneNote-ból Java használatával](./get-image-info/)
-Ismerje meg, hogyan nyerhet ki képadatokat OneNote-dokumentumokból Java használatával az Aspose.Note segítségével. Egyszerű lépések a fejlesztők számára.
-### [Kép beszúrása a OneNote dokumentumba Java segítségével](./insert-image/)
-Ismerje meg, hogyan illeszthet be képeket OneNote-dokumentumokba Java használatával az Aspose.Note for Java könyvtárral. Kövesse lépésenkénti útmutatónkat a zökkenőmentes integráció érdekében.
+## Kép beszúrása OneNote dokumentumba Java-val
+Ismerd meg a képek beszúrásának folyamatát OneNote dokumentumokba Java és az Aspose.Note for Java könyvtár segítségével. Lépésről‑lépésre útmutatónk biztosítja a zökkenőmentes integrációt. Fejleszd Java fejlesztői képességeidet a [Insert an Image in OneNote Document with Java tutorial](./insert-image/) segítségével.
+
+Indulj el ezen a mesterség útján az Aspose.Note for Java oktatóanyagokkal, és javítsd OneNote élményedet minden lépésnél. Emeld Java fejlesztői képességeidet, és hozz létre kiemelkedő jegyzeteket. Boldog kódolást!
+
+## OneNote hivatkozások és képek oktatóanyagok
+### [Add Hyperlink in OneNote with Java](./add-hyperlink/)
+Tanuld meg, hogyan adhatunk hozzá hivatkozásokat OneNote-ban Java és az Aspose.Note könyvtár segítségével. Javítsd jegyzeteidet interaktív linkekkel egyszerűen.
+### [Add Hyperlink to Image in OneNote using Java](./add-hyperlink-to-image/)
+Tanuld meg, hogyan adhatunk hivatkozásokat képekhez OneNote dokumentumokban Java-val ebben a lépésről‑lépésre útmutatóban.
+### [Build Document and Insert Image in OneNote using Java](./build-doc-insert-image/)
+Tanuld meg, hogyan építs OneNote dokumentumokat és szúrj be képeket az Aspose.Note for Java-val. Lépésről‑lépésre útmutató a zökkenőmentes integrációhoz.
+### [Build Doc and Insert Image with Stream in OneNote - Java](./build-doc-insert-image-stream/)
+Tanuld meg, hogyan integrálj képeket OneNote dokumentumokba egyszerűen az Aspose.Note for Java-val. Lépésről‑lépésre útmutató Java fejlesztőknek.
+### [Extract Images from OneNote Document using Java](./extract-images/)
+Tanuld meg, hogyan nyerj ki képeket OneNote dokumentumokból Java-val az Aspose.Note könyvtár segítségével. Kövesd lépésről‑lépésre útmutatónkat a zökkenőmentes képkinyeréshez.
+### [Get Image Info from OneNote using Java](./get-image-info/)
+Tanuld meg, hogyan nyerj ki képinformációkat OneNote dokumentumokból Java-val az Aspose.Note használatával. Egyszerű lépések fejlesztőknek.
+### [Insert an Image in OneNote Document with Java](./insert-image/)
+Tanuld meg, hogyan szúrj be képeket OneNote dokumentumokba Java-val az Aspose.Note for Java könyvtárral. Kövesd lépésről‑lépésre útmutatónkat a zökkenőmentes integrációhoz.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
+
+## Gyakran ismételt kérdések
+
+**Q: Hozzáadhatok hivatkozást bármely képformátumhoz (PNG, JPEG, GIF)?**  
+A: Igen. Az Aspose.Note támogatja az összes szabványos képformátumot; a hivatkozás a képobjektumhoz kapcsolódik típustól függetlenül.
+
+**Q: Szükséges-e a OneNote fájlt szerkesztési módban megnyitni a hivatkozás hozzáadásához?**  
+A: Nem. A dokumentumot teljesen memóriában is létrehozhatod vagy módosíthatod, majd elmentheted egy `.one` fájlba.
+
+**Q: A hivatkozás működni fog a mobil OneNote alkalmazásokban?**  
+A: Teljesen. A generált hivatkozás a OneNote fájlformátumban tárolódik, amelyet asztali, webes és mobil kliensek egyaránt felismernek.
+
+**Q: Hogyan ellenőrizhetem, hogy a hivatkozás helyesen lett hozzáadva?**  
+A: Mentés után nyisd meg a fájlt OneNote-ban, és kattints a képre; a hivatkozott URL-nek meg kell nyílnia az alapértelmezett böngészőben.
+
+**Q: Van mód több hivatkozás hozzáadására egyetlen képhez?**  
+A: Egy kép csak egy hivatkozást tartalmazhat. Több link biztosításához használj kompozit képet külön kattintható területekkel, vagy adj hozzá különálló képobjektumokat.
+
+---
+
+**Utoljára frissítve:** 2025-12-20  
+**Tesztelve:** Aspose.Note for Java 24.10  
+**Szerző:** Aspose

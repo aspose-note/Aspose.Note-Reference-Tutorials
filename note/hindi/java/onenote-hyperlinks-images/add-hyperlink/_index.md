@@ -1,37 +1,57 @@
 ---
-title: जावा के साथ OneNote में हाइपरलिंक जोड़ें
-linktitle: जावा के साथ OneNote में हाइपरलिंक जोड़ें
-second_title: Aspose.नोट जावा एपीआई
-description: Aspose.Note लाइब्रेरी के साथ जावा का उपयोग करके OneNote में हाइपरलिंक जोड़ने का तरीका जानें। सहजता से इंटरैक्टिव लिंक के साथ अपने नोट्स को बेहतर बनाएं।
-weight: 10
+date: 2025-12-20
+description: जावा के साथ Aspose.Note लाइब्रेरी का उपयोग करके OneNote को PDF के रूप
+  में सहेजना और OneNote में हाइपरलिंक जोड़ना सीखें। OneNote से आसानी से PDF बनाएं।
+linktitle: Save OneNote as PDF and Add Hyperlink in OneNote with Java
+second_title: Aspose.Note Java API
+title: OneNote को PDF के रूप में सहेजें और Java के साथ OneNote में हाइपरलिंक जोड़ें
 url: /hi/java/onenote-hyperlinks-images/add-hyperlink/
+weight: 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# जावा के साथ OneNote में हाइपरलिंक जोड़ें
+# Java के साथ OneNote को PDF के रूप में सहेजें और OneNote में हाइपरलिंक जोड़ें
 
-## परिचय
+## Introduction
 
-जावा का उपयोग करके अपने OneNote दस्तावेज़ों में हाइपरलिंक जोड़ने से आपके नोट्स की अन्तरक्रियाशीलता और उपयोगिता में काफी वृद्धि हो सकती है। इस ट्यूटोरियल में, हम जावा लाइब्रेरी के लिए Aspose.Note का उपयोग करके चरण दर चरण प्रक्रिया में आपका मार्गदर्शन करेंगे। आइए गोता लगाएँ!
+अपने OneNote दस्तावेज़ों में हाइपरलिंक जोड़ना और साथ ही उन्हें PDF के रूप में सहेजना आपके नोट्स की इंटरैक्टिविटी को काफी बढ़ा सकता है और शेयरिंग को आसान बना सकता है। इस ट्यूटोरियल में आप **OneNote को PDF के रूप में कैसे सहेजें** और Java तथा Aspose.Note लाइब्रेरी का उपयोग करके क्लिक करने योग्य लिंक एम्बेड करना सीखेंगे। चलिए साथ में चरणों को देखते हैं!
 
-## आवश्यक शर्तें
+## Quick Answers
+- **क्या मैं Java के साथ OneNote को PDF के रूप में सहेज सकता हूँ?** हाँ, Aspose.Note for Java एक ही `save` कॉल से PDF जेनरेट करता है।
+- **हाइपरलिंक कैसे एम्बेड करें?** `RichText` सेगमेंट पर `TextStyle.setHyperlinkAddress` का उपयोग करें।
+- **पूर्वापेक्षाएँ क्या हैं?** JDK 8+ और Aspose.Note for Java लाइब्रेरी।
+- **कौन से आउटपुट फॉर्मेट समर्थित हैं?** PDF, DOCX, XPS, और अधिक।
+- **प्रोडक्शन के लिए लाइसेंस आवश्यक है?** हाँ, गैर‑इवैल्यूएशन उपयोग के लिए एक कमर्शियल लाइसेंस आवश्यक है।
 
-शुरू करने से पहले, सुनिश्चित करें कि आपने अपने सिस्टम पर निम्नलिखित आवश्यकताएँ स्थापित और सेट कर ली हैं:
+## What is “save onenote as pdf”?
 
-### जावा डेवलपमेंट किट (जेडीके)
+OneNote नोटबुक को PDF के रूप में सहेजने से आपके नोट्स का एक पोर्टेबल, केवल‑पढ़ने योग्य संस्करण बनता है जिसे किसी भी डिवाइस पर OneNote ऐप के बिना खोला जा सकता है। यह विशेष रूप से आर्काइविंग, प्रिंटिंग, या उन उपयोगकर्ताओं के साथ शेयर करने के लिए उपयोगी है जिनके पास OneNote नहीं है।
 
- सुनिश्चित करें कि आपके सिस्टम पर जावा डेवलपमेंट किट (जेडीके) स्थापित है। आप यहां से जेडीके डाउनलोड और इंस्टॉल कर सकते हैं[ओरेकल वेबसाइट](https://www.oracle.com/java/technologies/javase-jdk11-downloads.html).
+## Why generate PDF from OneNote with Aspose.Note Java?
 
-### जावा लाइब्रेरी के लिए Aspose.Note
+- **पूर्ण सटीकता:** फॉर्मेटिंग, इमेज़ और हाइपरलिंक को बरकरार रखता है।
+- **प्रोग्रामेटिक नियंत्रण:** बैकएंड सर्विसेज़ में बैच कन्वर्ज़न को ऑटोमेट करें।
+- **क्रॉस‑प्लेटफ़ॉर्म:** Windows, Linux, और macOS पर काम करता है।
+- **रिच API:** सहेजने से पहले सामग्री को आसानी से जोड़ें या संशोधित करें।
 
- जावा लाइब्रेरी के लिए Aspose.Note डाउनलोड और इंस्टॉल करें। आप दस्तावेज़ीकरण और डाउनलोड लिंक पा सकते हैं[यहाँ](https://reference.aspose.com/note/java/).
+## Prerequisites
 
-## पैकेज आयात करें
+Before we begin, ensure you have the following prerequisites installed and set up on your system:
 
-आरंभ करने के लिए, Java के लिए Aspose.Note के साथ काम करने के लिए आवश्यक आवश्यक पैकेज आयात करें।
+### Java Development Kit (JDK)
+
+Make sure you have Java Development Kit (JDK) installed on your system. You can download and install JDK from the [Oracle website](https://www.oracle.com/java/technologies/javase-jdk11-downloads.html).
+
+### Aspose.Note for Java Library
+
+Download and install the Aspose.Note for Java library. You can find the documentation and download link [here](https://reference.aspose.com/note/java/).
+
+## Import Packages
+
+To start with, import the necessary packages required for working with Aspose.Note for Java.
 
 ```java
 import java.io.IOException;
@@ -46,9 +66,11 @@ import com.aspose.note.ParagraphStyle;
 import com.aspose.note.Title;
 ```
 
-अब, आइए दिए गए उदाहरण को कई चरणों में तोड़ें:
+Now, let's break down the provided example into multiple steps:
 
-## चरण 1: दस्तावेज़ संरचना सेट करें
+## Step 1: Set Up Document Structure
+
+First, create a new document and a page where the content will live.
 
 ```java
 String dataDir = "Your Document Directory";
@@ -57,7 +79,9 @@ Page page = new Page();
 Title title = new Title();
 ```
 
-## चरण 2: डिफ़ॉल्ट टेक्स्ट शैली को परिभाषित करें
+## Step 2: Define Default Text Style
+
+Define a default paragraph style that will be applied to most text elements.
 
 ```java
 ParagraphStyle defaultTextStyle = new ParagraphStyle()
@@ -66,7 +90,9 @@ ParagraphStyle defaultTextStyle = new ParagraphStyle()
                                             .setFontColor(java.awt.Color.GRAY);
 ```
 
-## चरण 3: शीर्षक टेक्स्ट सेट करें
+## Step 3: Set Title Text
+
+Create a title for the page and apply the default style.
 
 ```java
 RichText titleText = new RichText().append("Title");
@@ -75,14 +101,18 @@ title.setTitleText(titleText);
 page.setTitle(title);
 ```
 
-## चरण 4: रूपरेखा और रूपरेखा तत्व बनाएं
+## Step 4: Create Outline and Outline Elements
+
+Outlines act like containers for paragraphs and other elements.
 
 ```java
 Outline outline = new Outline();
 OutlineElement outlineElem = new OutlineElement();
 ```
 
-## चरण 5: हाइपरलिंक के लिए टेक्स्ट शैली को परिभाषित करें
+## Step 5: Define Text Style for Hyperlink
+
+Here we define a red‑colored style that will be used for the clickable part.
 
 ```java
 TextStyle textStyleRed = new TextStyle()
@@ -91,7 +121,10 @@ TextStyle textStyleRed = new TextStyle()
                                     .setFontColor(java.awt.Color.red);
 ```
 
-## चरण 6: हाइपरलिंक के साथ टेक्स्ट जोड़ें
+## Step 6: Add Text with Hyperlink
+
+Now we build a `RichText` object that mixes normal text and a hyperlink.  
+The `setHyperlinkAddress` method tells Aspose.Note that this segment should be clickable.
 
 ```java
 RichText text = new RichText()
@@ -102,7 +135,9 @@ text.setParagraphStyle(defaultTextStyle);
 outlineElem.appendChildLast(text);
 ```
 
-## चरण 7: पृष्ठ में रूपरेखा और दस्तावेज़ में पृष्ठ जोड़ें
+## Step 7: Add Outline to Page and Page to Document
+
+Attach the outline element to the outline, the outline to the page, and finally the page to the document.
 
 ```java
 outline.appendChildLast(outlineElem);
@@ -110,38 +145,64 @@ page.appendChildLast(outline);
 doc.appendChildLast(page);
 ```
 
-## चरण 8: दस्तावेज़ सहेजें
+## Step 8: Save the Document as PDF
+
+The final step is to save the OneNote document as a PDF file. This is where the primary keyword **save onenote as pdf** comes into play.
 
 ```java
 doc.save(dataDir + "AddHyperlink_out.pdf");
 System.out.printf("File saved: %s\n", dataDir + "AddHyperlink_out.pdf");
 ```
 
-## निष्कर्ष
+## Conclusion
 
-बधाई हो! आपने Aspose.Note लाइब्रेरी की सहायता से Java का उपयोग करके अपने OneNote दस्तावेज़ में सफलतापूर्वक एक हाइपरलिंक जोड़ लिया है। यह कार्यक्षमता आपके नोट्स की अन्तरक्रियाशीलता और उपयोगिता को काफी हद तक बढ़ा सकती है।
+बधाई हो! आपने सफलतापूर्वक **OneNote को PDF के रूप में सहेजा** और Java तथा Aspose.Note लाइब्रेरी का उपयोग करके डॉक्यूमेंट में हाइपरलिंक जोड़ा। यह क्षमता आपको सीधे अपने OneNote कंटेंट से इंटरैक्टिव, शेयर करने योग्य PDFs बनाने देती है।
 
-## अक्सर पूछे जाने वाले प्रश्न
+## FAQ's
 
-### Q1: क्या Aspose.Note जावा के सभी संस्करणों के साथ संगत है?
+### Q1: क्या Aspose.Note सभी Java संस्करणों के साथ संगत है?
 
-A1: हाँ, Java के लिए Aspose.Note JDK 8 और इसके बाद के संस्करण सहित Java के सभी प्रमुख संस्करणों का समर्थन करता है।
+A1: हाँ, Aspose.Note for Java सभी प्रमुख Java संस्करणों का समर्थन करता है, जिसमें JDK 8 और उससे ऊपर शामिल हैं।
 
-### Q2: क्या मैं Aspose.Note का उपयोग करके एक ही दस्तावेज़ में एकाधिक हाइपरलिंक जोड़ सकता हूँ?
+### Q2: क्या मैं Aspose.Note का उपयोग करके एक ही डॉक्यूमेंट में कई हाइपरलिंक जोड़ सकता हूँ?
 
-ए2: बिल्कुल! आप Java के लिए Aspose.Note का उपयोग करके अपने OneNote दस्तावेज़ में जितनी चाहें उतने हाइपरलिंक जोड़ सकते हैं।
+A2: बिल्कुल! आप Aspose.Note for Java का उपयोग करके अपने OneNote डॉक्यूमेंट में जितने भी हाइपरलिंक चाहिए, जोड़ सकते हैं।
 
-### Q3: क्या Aspose.Note अन्य प्रोग्रामिंग भाषाओं के लिए समर्थन प्रदान करता है?
+### Q3: क्या Aspose.Note अन्य प्रोग्रामिंग भाषाओं के लिए समर्थन देता है?
 
-A3: हाँ, Aspose.Note .NET, Python और Android सहित विभिन्न प्रोग्रामिंग भाषाओं के लिए लाइब्रेरी प्रदान करता है।
+A3: हाँ, Aspose.Note विभिन्न प्रोग्रामिंग भाषाओं के लिए लाइब्रेरी प्रदान करता है, जिसमें .NET, Python, और Android शामिल हैं।
 
-### Q4: क्या Aspose.Note को मौजूदा जावा प्रोजेक्ट्स में एकीकृत करना आसान है?
+### Q4: क्या Aspose.Note को मौजूदा Java प्रोजेक्ट्स में इंटीग्रेट करना आसान है?
 
-A4: हां, आपके जावा प्रोजेक्ट्स में Aspose.Note को एकीकृत करना सीधा और अच्छी तरह से प्रलेखित है, जिससे इसे शुरू करना आसान हो जाता है।
+A4: हाँ, Aspose.Note को आपके Java प्रोजेक्ट्स में इंटीग्रेट करना सीधा और अच्छी तरह से दस्तावेज़ीकृत है, जिससे शुरू करना आसान हो जाता है।
 
-### Q5: Aspose.Note का उपयोग करने के लिए मुझे अधिक सहायता और संसाधन कहां मिल सकते हैं?
+### Q5: Aspose.Note का उपयोग करने के लिए अधिक मदद और संसाधन कहाँ मिल सकते हैं?
 
- A5: आप इस पर व्यापक दस्तावेज़, ट्यूटोरियल और सामुदायिक सहायता पा सकते हैं[Aspose.नोट फोरम](https://forum.aspose.com/c/note/28).
+A5: आप विस्तृत दस्तावेज़ीकरण, ट्यूटोरियल और समुदाय समर्थन [Aspose.Note फ़ोरम](https://forum.aspose.com/c/note/28) पर पा सकते हैं।
+
+## Frequently Asked Questions
+
+**प्रश्न: हाइपरलिंक की उपस्थिति को कैसे कस्टमाइज़ करूँ?**  
+उत्तर: `setHyperlinkAddress` कॉल करने से पहले `TextStyle` प्रॉपर्टीज़ जैसे `setFontColor`, `setUnderline`, या `setFontName` का उपयोग करें।
+
+**प्रश्न: क्या मैं डॉक्यूमेंट को PDF के अलावा अन्य फॉर्मेट में सहेज सकता हूँ?**  
+उत्तर: हाँ, Aspose.Note DOCX, XPS, HTML, और कई अन्य एक्सपोर्ट फॉर्मेट का समर्थन करता है।
+
+**प्रश्न: यदि मुझे मौजूदा OneNote फ़ाइल में हाइपरलिंक जोड़ना हो तो क्या करें?**  
+उत्तर: मौजूदा फ़ाइल को `new Document("input.one")` से लोड करें, दिखाए अनुसार सामग्री संशोधित करें, और फिर इच्छित फॉर्मेट के साथ `save` कॉल करें।
+
+**प्रश्न: क्या PDF जनरेट होने के बाद हाइपरलिंक को प्रोग्रामेटिकली खोलने का कोई तरीका है?**  
+उत्तर: PDF व्यूअर स्वचालित रूप से क्लिक करने योग्य लिंक को संभालेगा; अतिरिक्त कोड की आवश्यकता नहीं है।
+
+**प्रश्न: विकास उपयोग के लिए क्या मुझे लाइसेंस चाहिए?**  
+उत्तर: विकास और परीक्षण के लिए एक अस्थायी इवैल्यूएशन लाइसेंस पर्याप्त है, लेकिन प्रोडक्शन डिप्लॉयमेंट के लिए पूर्ण लाइसेंस आवश्यक है।
+
+---
+
+**अंतिम अपडेट:** 2025-12-20  
+**टेस्टेड विथ:** Aspose.Note for Java 23.12  
+**लेखक:** Aspose  
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

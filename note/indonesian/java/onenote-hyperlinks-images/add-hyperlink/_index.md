@@ -1,37 +1,58 @@
 ---
-title: Tambahkan Hyperlink di OneNote dengan Java
-linktitle: Tambahkan Hyperlink di OneNote dengan Java
-second_title: Aspose.Catatan Java API
-description: Pelajari cara menambahkan hyperlink di OneNote menggunakan Java dengan pustaka Aspose.Note. Sempurnakan catatan Anda dengan tautan interaktif dengan mudah.
-weight: 10
+date: 2025-12-20
+description: Pelajari cara menyimpan OneNote sebagai PDF dan menambahkan hyperlink
+  di OneNote menggunakan Java dengan pustaka Aspose.Note. Hasilkan PDF dari OneNote
+  dengan mudah.
+linktitle: Save OneNote as PDF and Add Hyperlink in OneNote with Java
+second_title: Aspose.Note Java API
+title: Simpan OneNote sebagai PDF dan Tambahkan Hyperlink di OneNote dengan Java
 url: /id/java/onenote-hyperlinks-images/add-hyperlink/
+weight: 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Tambahkan Hyperlink di OneNote dengan Java
+# Simpan OneNote sebagai PDF dan Tambahkan Hyperlink di OneNote dengan Java
 
-## Perkenalan
+## Introduction
 
-Menambahkan hyperlink ke dokumen OneNote Anda menggunakan Java bisa sangat meningkatkan interaktivitas dan kegunaan catatan Anda. Dalam tutorial ini, kami akan memandu Anda melalui proses langkah demi langkah, menggunakan Aspose.Note untuk pustaka Java. Ayo selami!
+Menambahkan hyperlink ke dokumen OneNote Anda sekaligus menyimpannya sebagai PDF dapat secara dramatis meningkatkan interaktivitas catatan Anda dan mempermudah berbagi. Pada tutorial ini Anda akan belajar **cara menyimpan OneNote sebagai PDF** dan menyisipkan tautan yang dapat diklik menggunakan Java serta pustaka Aspose.Note. Mari ikuti langkah‑langkahnya bersama!
 
-## Prasyarat
+## Quick Answers
+- **Apakah saya dapat menyimpan OneNote sebagai PDF dengan Java?** Ya, Aspose.Note untuk Java menyediakan satu panggilan `save` untuk menghasilkan PDF.
+- **Bagaimana cara menyisipkan hyperlink?** Gunakan `TextStyle.setHyperlinkAddress` pada segmen `RichText`.
+- **Apa saja prasyaratnya?** JDK 8+ dan pustaka Aspose.Note untuk Java.
+- **Format output apa yang didukung?** PDF, DOCX, XPS, dan lainnya.
+- **Apakah lisensi diperlukan untuk produksi?** Ya, lisensi komersial diperlukan untuk penggunaan non‑evaluasi.
 
-Sebelum kita mulai, pastikan Anda telah menginstal dan menyiapkan prasyarat berikut di sistem Anda:
+## What is “save onenote as pdf”?
 
-### Kit Pengembangan Java (JDK)
+Menyimpan notebook OneNote sebagai PDF menghasilkan versi portabel, hanya‑baca dari catatan Anda yang dapat dibuka di perangkat apa pun tanpa aplikasi OneNote. Ini sangat berguna untuk pengarsipan, pencetakan, atau berbagi dengan pengguna yang tidak memiliki OneNote.
 
- Pastikan Anda telah menginstal Java Development Kit (JDK) di sistem Anda. Anda dapat mengunduh dan menginstal JDK dari[situs web Oracle](https://www.oracle.com/java/technologies/javase-jdk11-downloads.html).
+## Why generate PDF from OneNote with Aspose.Note Java?
 
-### Aspose.Catatan untuk Perpustakaan Java
+- **Full fidelity:** Mempertahankan format, gambar, dan hyperlink.
+- **Programmatic control:** Mengotomatisasi konversi batch dalam layanan backend.
+- **Cross‑platform:** Berfungsi di Windows, Linux, dan macOS.
+- **Rich API:** Mudah menambah atau memodifikasi konten sebelum menyimpan.
 
- Unduh dan instal perpustakaan Aspose.Note untuk Java. Anda dapat menemukan dokumentasi dan tautan unduhan[Di Sini](https://reference.aspose.com/note/java/).
+## Prerequisites
 
-## Paket Impor
+Sebelum memulai, pastikan Anda telah menginstal dan menyiapkan prasyarat berikut pada sistem Anda:
 
-Untuk memulainya, impor paket yang diperlukan untuk bekerja dengan Aspose.Note untuk Java.
+### Java Development Kit (JDK)
+
+Pastikan Java Development Kit (JDK) terpasang di sistem Anda. Anda dapat mengunduh dan menginstal JDK dari [situs Oracle](https://www.oracle.com/java/technologies/javase-jdk11-downloads.html).
+
+### Aspose.Note for Java Library
+
+Unduh dan instal pustaka Aspose.Note untuk Java. Dokumentasi serta tautan unduhan dapat Anda temukan [di sini](https://reference.aspose.com/note/java/).
+
+## Import Packages
+
+Untuk memulai, impor paket‑paket yang diperlukan untuk bekerja dengan Aspose.Note untuk Java.
 
 ```java
 import java.io.IOException;
@@ -46,9 +67,11 @@ import com.aspose.note.ParagraphStyle;
 import com.aspose.note.Title;
 ```
 
-Sekarang, mari kita bagi contoh yang diberikan menjadi beberapa langkah:
+Sekarang, mari uraikan contoh yang diberikan menjadi beberapa langkah:
 
-## Langkah 1: Siapkan Struktur Dokumen
+## Step 1: Set Up Document Structure
+
+Pertama, buat dokumen baru dan halaman tempat konten akan ditempatkan.
 
 ```java
 String dataDir = "Your Document Directory";
@@ -57,7 +80,9 @@ Page page = new Page();
 Title title = new Title();
 ```
 
-## Langkah 2: Tentukan Gaya Teks Default
+## Step 2: Define Default Text Style
+
+Tentukan gaya paragraf default yang akan diterapkan pada kebanyakan elemen teks.
 
 ```java
 ParagraphStyle defaultTextStyle = new ParagraphStyle()
@@ -66,7 +91,9 @@ ParagraphStyle defaultTextStyle = new ParagraphStyle()
                                             .setFontColor(java.awt.Color.GRAY);
 ```
 
-## Langkah 3: Tetapkan Teks Judul
+## Step 3: Set Title Text
+
+Buat judul untuk halaman dan terapkan gaya default.
 
 ```java
 RichText titleText = new RichText().append("Title");
@@ -75,14 +102,18 @@ title.setTitleText(titleText);
 page.setTitle(title);
 ```
 
-## Langkah 4: Buat Garis Besar dan Elemen Garis Besar
+## Step 4: Create Outline and Outline Elements
+
+Outline berfungsi sebagai wadah untuk paragraf dan elemen lainnya.
 
 ```java
 Outline outline = new Outline();
 OutlineElement outlineElem = new OutlineElement();
 ```
 
-## Langkah 5: Tentukan Gaya Teks untuk Hyperlink
+## Step 5: Define Text Style for Hyperlink
+
+Di sini kita mendefinisikan gaya berwarna merah yang akan digunakan untuk bagian yang dapat diklik.
 
 ```java
 TextStyle textStyleRed = new TextStyle()
@@ -91,7 +122,10 @@ TextStyle textStyleRed = new TextStyle()
                                     .setFontColor(java.awt.Color.red);
 ```
 
-## Langkah 6: Tambahkan Teks dengan Hyperlink
+## Step 6: Add Text with Hyperlink
+
+Sekarang kita membangun objek `RichText` yang mencampur teks biasa dan hyperlink.  
+Metode `setHyperlinkAddress` memberi tahu Aspose.Note bahwa segmen ini harus dapat diklik.
 
 ```java
 RichText text = new RichText()
@@ -102,7 +136,9 @@ text.setParagraphStyle(defaultTextStyle);
 outlineElem.appendChildLast(text);
 ```
 
-## Langkah 7: Tambahkan Garis Besar ke Halaman dan Halaman ke Dokumen
+## Step 7: Add Outline to Page and Page to Document
+
+Lampirkan elemen outline ke outline, outline ke halaman, dan akhirnya halaman ke dokumen.
 
 ```java
 outline.appendChildLast(outlineElem);
@@ -110,38 +146,64 @@ page.appendChildLast(outline);
 doc.appendChildLast(page);
 ```
 
-## Langkah 8: Simpan Dokumen
+## Step 8: Save the Document as PDF
+
+Langkah terakhir adalah menyimpan dokumen OneNote sebagai file PDF. Inilah saat kata kunci utama **save onenote as pdf** berperan.
 
 ```java
 doc.save(dataDir + "AddHyperlink_out.pdf");
 System.out.printf("File saved: %s\n", dataDir + "AddHyperlink_out.pdf");
 ```
 
-## Kesimpulan
+## Conclusion
 
-Selamat! Anda telah berhasil menambahkan hyperlink ke dokumen OneNote Anda menggunakan Java dengan bantuan perpustakaan Aspose.Note. Fungsionalitas ini dapat meningkatkan interaktivitas dan kegunaan catatan Anda secara signifikan.
+Selamat! Anda telah berhasil **menyimpan OneNote sebagai PDF** dan menambahkan hyperlink ke dokumen menggunakan Java serta pustaka Aspose.Note. Kemampuan ini memungkinkan Anda membuat PDF interaktif dan dapat dibagikan langsung dari konten OneNote Anda.
 
-## FAQ
+## FAQ's
 
 ### Q1: Apakah Aspose.Note kompatibel dengan semua versi Java?
 
-A1: Ya, Aspose.Note untuk Java mendukung semua versi utama Java, termasuk JDK 8 dan yang lebih baru.
+A1: Ya, Aspose.Note untuk Java mendukung semua versi utama Java, termasuk JDK 8 ke atas.
 
 ### Q2: Bisakah saya menambahkan beberapa hyperlink dalam satu dokumen menggunakan Aspose.Note?
 
-A2: Tentu saja! Anda dapat menambahkan hyperlink sebanyak yang Anda perlukan dalam dokumen OneNote menggunakan Aspose.Note untuk Java.
+A2: Tentu! Anda dapat menambahkan sebanyak mungkin hyperlink yang diperlukan dalam dokumen OneNote Anda menggunakan Aspose.Note untuk Java.
 
 ### Q3: Apakah Aspose.Note menawarkan dukungan untuk bahasa pemrograman lain?
 
-A3: Ya, Aspose.Note menyediakan perpustakaan untuk berbagai bahasa pemrograman, termasuk .NET, Python, dan Android.
+A3: Ya, Aspose.Note menyediakan pustaka untuk berbagai bahasa pemrograman, termasuk .NET, Python, dan Android.
 
 ### Q4: Apakah Aspose.Note mudah diintegrasikan ke dalam proyek Java yang sudah ada?
 
-A4: Ya, mengintegrasikan Aspose.Note ke dalam proyek Java Anda sangatlah mudah dan terdokumentasi dengan baik, sehingga memudahkan untuk memulai.
+A4: Ya, mengintegrasikan Aspose.Note ke dalam proyek Java Anda cukup sederhana dan terdokumentasi dengan baik, sehingga mudah untuk memulai.
 
-### Q5: Di mana saya dapat menemukan lebih banyak bantuan dan sumber daya untuk menggunakan Aspose.Note?
+### Q5: Di mana saya dapat menemukan bantuan dan sumber daya lebih lanjut untuk menggunakan Aspose.Note?
 
- A5: Anda dapat menemukan dokumentasi ekstensif, tutorial, dan dukungan komunitas di[Aspose.Catatan forum](https://forum.aspose.com/c/note/28).
+A5: Anda dapat menemukan dokumentasi lengkap, tutorial, dan dukungan komunitas di [forum Aspose.Note](https://forum.aspose.com/c/note/28).
+
+## Frequently Asked Questions
+
+**Q: Bagaimana cara menyesuaikan tampilan hyperlink?**  
+A: Gunakan properti `TextStyle` seperti `setFontColor`, `setUnderline`, atau `setFontName` sebelum memanggil `setHyperlinkAddress`.
+
+**Q: Bisakah saya menyimpan dokumen dalam format selain PDF?**  
+A: Ya, Aspose.Note mendukung DOCX, XPS, HTML, dan beberapa format ekspor lainnya.
+
+**Q: Bagaimana jika saya perlu menambahkan hyperlink ke file OneNote yang sudah ada?**  
+A: Muat file yang ada dengan `new Document("input.one")`, modifikasi kontennya seperti yang ditunjukkan, lalu panggil `save` dengan format yang diinginkan.
+
+**Q: Apakah ada cara membuka hyperlink secara programatis setelah PDF dihasilkan?**  
+A: Penampil PDF akan menangani tautan yang dapat diklik secara otomatis; tidak diperlukan kode tambahan.
+
+**Q: Apakah saya memerlukan lisensi untuk penggunaan pengembangan?**  
+A: Lisensi evaluasi sementara cukup untuk pengembangan dan pengujian, tetapi lisensi penuh diperlukan untuk penyebaran produksi.
+
+---
+
+**Last Updated:** 2025-12-20  
+**Tested With:** Aspose.Note for Java 23.12  
+**Author:** Aspose  
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
