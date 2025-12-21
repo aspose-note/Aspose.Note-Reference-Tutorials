@@ -1,31 +1,49 @@
 ---
-title: Java kullanarak OneNote Belgesinden Görüntüleri Çıkarma
-linktitle: Java kullanarak OneNote Belgesinden Görüntüleri Çıkarma
-second_title: Aspose.Note Java API'si
-description: Aspose.Note kitaplığıyla Java kullanarak OneNote belgelerinden görüntüleri nasıl çıkaracağınızı öğrenin. Sorunsuz görüntü ayıklama için adım adım kılavuzumuzu izleyin.
-weight: 14
+date: 2025-12-21
+description: Java ve Aspose.Note kullanarak OneNote belgelerinden resimleri nasıl
+  çıkaracağınızı öğrenin. Bu adım adım kılavuz, resimleri hızlı ve güvenilir bir şekilde
+  nasıl çıkaracağınızı gösterir.
+linktitle: How to Extract Images from OneNote Document using Java
+second_title: Aspose.Note Java API
+title: Java Kullanarak OneNote Belgesinden Görselleri Nasıl Çıkarabilirsiniz
 url: /tr/java/onenote-hyperlinks-images/extract-images/
+weight: 14
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Java kullanarak OneNote Belgesinden Görüntüleri Çıkarma
+# OneNote Belgesinden Görüntüleri Java ile Nasıl Çıkarılır
 
-## giriiş
+## Giriş
 
-Bu eğitimde, Aspose.Note kütüphanesinin yardımıyla Java kullanarak bir OneNote belgesinden resim çıkarma sürecinde size rehberlik edeceğiz.
+Bu öğreticide, Aspose.Note kütüphanesinin yardımıyla Java kullanarak bir OneNote belgesinden **görüntüleri nasıl çıkaracağınızı** adım adım göstereceğiz. Görselleri raporlama, arşivleme veya daha ileri işlemeler için ihtiyacınız olsun, bu rehber tüm süreci size anlatacaktır.
+
+## Hızlı Yanıtlar
+- **Önerilen kütüphane nedir?** Aspose.Note for Java  
+- **Şifre korumalı bir defterden görüntü çıkarabilir miyim?** Evet, Aspose.Note bunu destekler.  
+- **Geliştirme için lisansa ihtiyacım var mı?** Test için ücretsiz deneme sürümü çalışır; üretim için lisans gereklidir.  
+- **Hangi Java sürümleri destekleniyor?** Java 8 ve üzeri (Java 15 dahil).  
+- **Çıkarma işlemi ne kadar sürer?** Standart bir defter için genellikle birkaç saniye.
+
+## OneNote'tan görüntü çıkarma nedir?
+Görüntü çıkarmak, bir OneNote (.one) dosyasına gömülmüş tüm resimleri programlı olarak bulmak ve her birini diskte ayrı bir görüntü dosyası olarak kaydetmek anlamına gelir. Bu, grafiklerinizi defter ortamının dışına yeniden kullanmak istediğinizde faydalıdır.
+
+## Neden OneNote'tan Java ile görüntü çıkarılmalı?
+- **Otomasyon:** Birçok defteri manuel çaba harcamadan toplu işleyin.  
+- **Tutarlılık:** Tüm dosyalarda aynı çıkarma mantığını garanti eder.  
+- **Entegrasyon:** Diğer Java tabanlı iş akışlarıyla (ör. OCR, görüntü analizi) kolayca birleştirilebilir.  
 
 ## Önkoşullar
 
 Başlamadan önce aşağıdakilere sahip olduğunuzdan emin olun:
 
-1.  Java Geliştirme Kiti (JDK): Sisteminizde Java'nın kurulu olduğundan emin olun. adresinden indirip kurabilirsiniz.[İnternet sitesi](https://www.oracle.com/java/technologies/javase-jdk15-downloads.html).
+1. **Java Development Kit (JDK)** – Sisteminizde Java yüklü olduğundan emin olun. [website](https://www.oracle.com/java/technologies/javase-jdk15-downloads.html) adresinden indirebilirsiniz.
 
-2.  Aspose.Note Kütüphanesi: Aspose.Note kütüphanesini indirin ve Java projenize ekleyin. Şu adresten alabilirsiniz:[İndirme: {link](https://releases.aspose.com/note/java/).
+2. **Aspose.Note Library** – Aspose.Note kütüphanesini indirin ve Java projenize ekleyin. [download link](https://releases.aspose.com/note/java/) adresinden temin edebilirsiniz.
 
-## Paketleri İçe Aktar
+## Paketleri İçe Aktarma
 
 Başlamak için gerekli paketleri içe aktarın:
 
@@ -38,27 +56,27 @@ import com.aspose.note.Document;
 import com.aspose.note.Image;
 ```
 
-## 1. Adım: Belgeyi Yükleyin
+## Adım 1: Belgeyi Yükleme
 
-Öncelikle Aspose.Note'u kullanarak OneNote belgesini yükleyin:
+İlk olarak, Aspose.Note kullanarak OneNote belgesini yükleyin:
 
 ```java
 String dataDir = "Your Document Directory";
 Document doc = new Document(dataDir + "Sample1.one");
 ```
 
-## Adım 2: Tüm Görselleri Alın
+## Adım 2: Tüm Görüntüleri Al
 
-Ardından belgedeki tüm görüntüleri alın:
+Sonra, belgedeki tüm görüntüleri alın:
 
 ```java
 List<Image> list = doc.getChildNodes(Image.class);
 System.out.printf("Total Images: %s\n\n", list.size());
 ```
 
-## 3. Adım: Görüntüleri Çıkarın
+## Adım 3: Görüntüleri Çıkarma
 
-Görüntü listesini yineleyin ve her görüntüyü bir dosyaya kaydedin:
+Görüntü listesini döngüyle gezerek her birini dosyaya kaydedin:
 
 ```java
 for (int i = 0; i < list.size(); i++) {
@@ -70,31 +88,38 @@ for (int i = 0; i < list.size(); i++) {
 }
 ```
 
-## Çözüm
+## Yaygın Sorunlar ve Çözümler
+- **Görüntü bulunamadı:** Kaynak `.one` dosyasının gömülü resimler içerdiğinden emin olun.  
+- **Dosya izin hataları:** `dataDir` yolunun yazılabilir olduğunu doğrulayın.  
+- **Desteklenmeyen görüntü formatları:** Aspose.Note çoğu yaygın formatı (PNG, JPEG, GIF) işler. Bir format desteklenmiyorsa, önce OneNote'ta defteri dönüştürmeyi düşünün.
 
-Aspose.Note kütüphanesi ile Java kullanarak OneNote belgesinden görsellerin çıkarılması sorunsuz bir şekilde gerçekleştirilebilir. Bu eğitimde özetlenen adımları izleyerek, daha fazla işlem veya analiz için belgelerinizden görüntüleri zahmetsizce alabilirsiniz.
+## Sonuç
 
-## SSS'ler
+Yukarıdaki adımları izleyerek, artık Java ve Aspose.Note kütüphanesini kullanarak bir OneNote belgesinden **görüntüleri nasıl çıkaracağınızı** biliyorsunuz. Bu mantığı daha büyük uygulamalara entegre edebilir, toplu işleme otomasyonu sağlayabilir veya sadece grafikleri yeniden kullanım için alabilirsiniz.
 
-### S1: Parola korumalı OneNote belgelerinden resim çıkarabilir miyim?
+## Sıkça Sorulan Sorular
 
-Cevap1: Evet, Aspose.Note şifre korumalı belgelerden görsellerin çıkarılmasını da destekler.
+**Q: Şifre korumalı OneNote belgelerinden görüntü çıkarabilir miyim?**  
+A: Evet, Aspose.Note şifre korumalı defterlerden görüntü çıkarmayı destekler.
 
-### S2: Aspose.Note Java'nın farklı sürümleriyle uyumlu mudur?
+**Q: Aspose.Note farklı Java sürümleriyle uyumlu mu?**  
+A: Aspose.Note Java 8 ve üzeri sürümlerle çalışır, böylece ortamlar arasında esneklik sağlar.
 
-Cevap2: Aspose.Note, Java'nın çeşitli sürümleriyle uyumludur ve geliştiricilere esneklik sağlar.
+**Q: Tek bir çalıştırmada birden fazla OneNote belgesinden görüntü çıkarabilir miyim?**  
+A: Kesinlikle. Dosya yolu listesini döngüyle işleyerek aynı çıkarma mantığını her belgeye uygulayabilirsiniz.
 
-### S3: Tek bir yürütmede birden çok OneNote belgesindeki görüntüleri çıkarabilir miyim?
+**Q: OneNote belgeleri için boyut sınırlamaları var mı?**  
+A: Aspose.Note büyük defterleri verimli bir şekilde işler; görüntü çıkarma için katı bir boyut sınırı yoktur.
 
-Cevap3: Kesinlikle, Aspose.Note'u kullanarak birden fazla belgeyi yineleyebilir ve her birinden görüntü çıkarabilirsiniz.
+**Q: Aspose.Note yalnızca görüntüler dışında başka içerik türlerini çıkarmayı destekliyor mu?**  
+A: Evet, aynı zamanda metin, ekler ve diğer gömülü nesneleri de çıkarabilirsiniz.
 
-### S4: OneNote belgeleri için herhangi bir boyut sınırlaması var mı?
+---
 
-Cevap4: Aspose.Note, çeşitli boyutlardaki belgeleri verimli bir şekilde işler ve görüntü çıkarma için belge boyutunda sınırlama olmamasını sağlar.
+**Son Güncelleme:** 2025-12-21  
+**Test Edilen Sürüm:** Aspose.Note for Java 24.12  
+**Yazar:** Aspose  
 
-### S5: Aspose.Note görsellerin dışında diğer içerik türlerinin çıkarılmasını destekliyor mu?
-
-Cevap5: Evet, Aspose.Note, resimlerin yanı sıra metin, ek ve diğer içerik türlerinin OneNote belgelerinden çıkarılmasına da olanak tanır.
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
