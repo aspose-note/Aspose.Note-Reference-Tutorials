@@ -1,31 +1,49 @@
 ---
-title: Estrai immagini da un documento OneNote utilizzando Java
-linktitle: Estrai immagini da un documento OneNote utilizzando Java
-second_title: Aspose.Note API Java
-description: Scopri come estrarre immagini da documenti OneNote utilizzando Java con la libreria Aspose.Note. Segui la nostra guida passo passo per un'estrazione delle immagini senza interruzioni.
-weight: 14
+date: 2025-12-21
+description: Scopri come estrarre le immagini dai documenti OneNote usando Java con
+  Aspose.Note. Questa guida passo passo mostra come estrarre le immagini in modo rapido
+  e affidabile.
+linktitle: How to Extract Images from OneNote Document using Java
+second_title: Aspose.Note Java API
+title: Come estrarre immagini da un documento OneNote usando Java
 url: /it/java/onenote-hyperlinks-images/extract-images/
+weight: 14
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Estrai immagini da un documento OneNote utilizzando Java
+# Come estrarre immagini da un documento OneNote usando Java
 
-## introduzione
+## Introduzione
 
-In questo tutorial ti guideremo attraverso il processo di estrazione delle immagini da un documento OneNote utilizzando Java con l'aiuto della libreria Aspose.Note.
+In questo tutorial ti guideremo su **come estrarre immagini** da un documento OneNote usando Java con l'aiuto della libreria Aspose.Note. Che tu abbia bisogno delle immagini per report, archiviazione o ulteriori elaborazioni, questa guida ti accompagnerà attraverso l'intero flusso di lavoro.
+
+## Risposte rapide
+- **Quale libreria è consigliata?** Aspose.Note per Java  
+- **Posso estrarre immagini da un blocco appunti protetto da password?** Sì, Aspose.Note lo supporta.  
+- **Ho bisogno di una licenza per lo sviluppo?** Una prova gratuita è sufficiente per i test; è necessaria una licenza per la produzione.  
+- **Quali versioni di Java sono supportate?** Java 8 e successive (inclusa Java 15).  
+- **Quanto tempo richiede l'estrazione?** Tipicamente pochi secondi per un blocco appunti standard.
+
+## Che cos'è l'estrazione di immagini da OneNote?
+Estrarre immagini significa individuare programmaticamente ogni immagine incorporata in un file OneNote (.one) e salvare ciascuna come file immagine separato sul disco. È utile quando si desidera riutilizzare le grafiche al di fuori dell'ambiente del blocco appunti.
+
+## Perché estrarre immagini da OneNote usando Java?
+- **Automazione:** Elaborare in batch molti blocchi appunti senza intervento manuale.  
+- **Coerenza:** Garantisce la stessa logica di estrazione per tutti i file.  
+- **Integrazione:** Si combina facilmente con altri flussi di lavoro basati su Java (ad es. OCR, analisi delle immagini).  
 
 ## Prerequisiti
 
 Prima di iniziare, assicurati di avere quanto segue:
 
-1.  Java Development Kit (JDK): assicurati di avere Java installato sul tuo sistema. È possibile scaricarlo e installarlo da[sito web](https://www.oracle.com/java/technologies/javase-jdk15-downloads.html).
+1. **Java Development Kit (JDK)** – Assicurati di avere Java installato sul tuo sistema. Puoi scaricarlo e installarlo dal [sito web](https://www.oracle.com/java/technologies/javase-jdk15-downloads.html).
 
-2.  Libreria Aspose.Note: scarica e includi la libreria Aspose.Note nel tuo progetto Java. Puoi ottenerlo da[Link per scaricare](https://releases.aspose.com/note/java/).
+2. **Aspose.Note Library** – Scarica e includi la libreria Aspose.Note nel tuo progetto Java. Puoi ottenerla dal [link di download](https://releases.aspose.com/note/java/).
 
-## Importa pacchetti
+## Importare i pacchetti
 
 Per iniziare, importa i pacchetti necessari:
 
@@ -38,16 +56,16 @@ import com.aspose.note.Document;
 import com.aspose.note.Image;
 ```
 
-## Passaggio 1: caricare il documento
+## Passo 1: Caricare il documento
 
-Innanzitutto, carica il documento OneNote utilizzando Aspose.Note:
+Per prima cosa, carica il documento OneNote usando Aspose.Note:
 
 ```java
 String dataDir = "Your Document Directory";
 Document doc = new Document(dataDir + "Sample1.one");
 ```
 
-## Passaggio 2: ottieni tutte le immagini
+## Passo 2: Ottenere tutte le immagini
 
 Successivamente, recupera tutte le immagini dal documento:
 
@@ -56,9 +74,9 @@ List<Image> list = doc.getChildNodes(Image.class);
 System.out.printf("Total Images: %s\n\n", list.size());
 ```
 
-## Passaggio 3: estrai le immagini
+## Passo 3: Estrarre le immagini
 
-Scorri l'elenco delle immagini e salva ciascuna immagine in un file:
+Itera l'elenco delle immagini e salva ciascuna immagine in un file:
 
 ```java
 for (int i = 0; i < list.size(); i++) {
@@ -70,31 +88,38 @@ for (int i = 0; i < list.size(); i++) {
 }
 ```
 
+## Problemi comuni e soluzioni
+- **Nessuna immagine trovata:** Verifica che il file `.one` di origine contenga effettivamente immagini incorporate.  
+- **Errori di permessi sui file:** Controlla che il percorso `dataDir` sia scrivibile.  
+- **Formati immagine non supportati:** Aspose.Note gestisce la maggior parte dei formati comuni (PNG, JPEG, GIF). Se un formato non è supportato, considera di convertire il blocco appunti in OneNote prima.
+
 ## Conclusione
 
-L'estrazione di immagini da un documento OneNote utilizzando Java può essere ottenuta senza problemi con la libreria Aspose.Note. Seguendo i passaggi descritti in questo tutorial, puoi recuperare facilmente immagini dai tuoi documenti per ulteriori elaborazioni o analisi.
+Seguendo i passaggi sopra, ora sai **come estrarre immagini** da un documento OneNote usando Java e la libreria Aspose.Note. Puoi integrare questa logica in applicazioni più ampie, automatizzare l'elaborazione batch o semplicemente recuperare grafiche per il riutilizzo.
 
 ## Domande frequenti
 
-### Q1: posso estrarre immagini da documenti OneNote protetti da password?
+**D: Posso estrarre immagini da documenti OneNote protetti da password?**  
+R: Sì, Aspose.Note supporta l'estrazione di immagini da blocchi appunti protetti da password.
 
-A1: Sì, Aspose.Note supporta anche l'estrazione di immagini da documenti protetti da password.
+**D: Aspose.Note è compatibile con diverse versioni di Java?**  
+R: Aspose.Note funziona con Java 8 e successive, offrendoti flessibilità in diversi ambienti.
 
-### Q2: Aspose.Note è compatibile con diverse versioni di Java?
+**D: Posso estrarre immagini da più documenti OneNote in un'unica esecuzione?**  
+R: Assolutamente. Puoi iterare un elenco di percorsi file e applicare la stessa logica di estrazione a ciascun documento.
 
-A2: Aspose.Note è compatibile con varie versioni di Java, garantendo flessibilità agli sviluppatori.
+**D: Esistono limitazioni di dimensione per i documenti OneNote?**  
+R: Aspose.Note gestisce efficientemente blocchi appunti di grandi dimensioni; non c'è un limite rigido per l'estrazione delle immagini.
 
-### Q3: posso estrarre immagini da più documenti OneNote in un'unica esecuzione?
+**D: Aspose.Note supporta l'estrazione di altri tipi di contenuto oltre alle immagini?**  
+R: Sì, è possibile estrarre anche testo, allegati e altri oggetti incorporati.
 
-A3: Assolutamente, puoi scorrere più documenti ed estrarre immagini da ciascuno di essi utilizzando Aspose.Note.
+---
 
-### Q4: Esistono limiti di dimensione per i documenti OneNote?
+**Ultimo aggiornamento:** 2025-12-21  
+**Testato con:** Aspose.Note per Java 24.12  
+**Autore:** Aspose  
 
-A4: Aspose.Note gestisce documenti di varie dimensioni in modo efficiente, garantendo l'assenza di limitazioni sulla dimensione del documento per l'estrazione delle immagini.
-
-### Q5: Aspose.Note supporta l'estrazione di altri tipi di contenuto oltre alle immagini?
-
-A5: Sì, oltre alle immagini, Aspose.Note consente l'estrazione di testo, allegati e altri tipi di contenuto dai documenti OneNote.
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

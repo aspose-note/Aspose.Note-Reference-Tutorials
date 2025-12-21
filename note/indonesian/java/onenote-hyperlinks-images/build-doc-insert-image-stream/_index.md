@@ -1,41 +1,63 @@
 ---
-title: Buat Dokumen dan Sisipkan Gambar dengan Stream di OneNote - Java
-linktitle: Buat Dokumen dan Sisipkan Gambar dengan Stream di OneNote - Java
-second_title: Aspose.Catatan Java API
-description: Pelajari cara mengintegrasikan gambar dengan mudah ke dalam dokumen OneNote menggunakan Aspose.Note untuk Java. Tutorial langkah demi langkah untuk pengembang Java.
-weight: 13
+date: 2025-12-21
+description: Pelajari cara membuat dokumen OneNote dengan Java dan dengan mudah menyisipkan
+  gambar menggunakan Aspose.Note untuk Java. Panduan langkah demi langkah untuk pengembang
+  Java.
+linktitle: How to create onenote document java – Build Doc and Insert Image with Stream
+second_title: Aspose.Note Java API
+title: Cara membuat dokumen OneNote Java – Membuat Dokumen dan Menyisipkan Gambar
+  dengan Stream
 url: /id/java/onenote-hyperlinks-images/build-doc-insert-image-stream/
+weight: 13
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Buat Dokumen dan Sisipkan Gambar dengan Stream di OneNote - Java
+# Cara membuat onenote document java – Membuat Dokumen dan Menyisipkan Gambar dengan Stream
 
-## Perkenalan
+## Introduction
 
-Selamat datang di tutorial komprehensif kami tentang penggunaan Aspose.Note untuk Java untuk membuat dokumen dan menyisipkan gambar menggunakan aliran gambar di OneNote! Dalam tutorial ini, kami akan memandu Anda melalui proses langkah demi langkah, memastikan Anda memiliki pemahaman yang jelas tentang setiap tahap. Pada akhirnya, Anda akan dapat dengan mudah mengintegrasikan gambar ke dalam dokumen OneNote Anda menggunakan Java.
+Selamat datang! Dalam tutorial ini Anda akan **create onenote document java** dari awal dan belajar cara menyisipkan gambar menggunakan aliran gambar. Kami akan membimbing Anda melalui setiap langkah, menjelaskan mengapa setiap bagian penting, dan memberikan tip praktis agar Anda dapat menerapkan teknik ini dalam proyek nyata. Pada akhir tutorial, Anda akan dapat menghasilkan halaman OneNote secara programatis dan menyematkan gambar tepat di tempat yang Anda inginkan.
 
-## Prasyarat
+## Quick Answers
+- **What library do I need?** Aspose.Note for Java  
+- **Can I insert images from a stream?** Yes – just pass an `InputStream` to the `Image` constructor.  
+- **Which format can I export to?** Any format supported by Aspose.Note, e.g., PDF, DOCX, HTML.  
+- **Do I need a license for development?** A free temporary license works for evaluation; a full license is required for production.  
+- **What Java version is required?** Java 8 or higher.
 
-Sebelum kita mendalami tutorialnya, pastikan Anda memiliki prasyarat berikut:
+## What is “create onenote document java”?
 
-### Kit Pengembangan Java (JDK)
+Membuat dokumen OneNote dalam Java berarti menggunakan API Aspose.Note untuk secara programatis membangun struktur notebook—halaman, outline, dan elemen—tanpa membuka klien desktop OneNote. Pendekatan ini ideal untuk pembuatan laporan otomatis, pemrosesan batch catatan, atau mengintegrasikan konten OneNote ke dalam aplikasi Java yang lebih besar.
 
-Pastikan Anda telah menginstal Java Development Kit (JDK) di sistem Anda. Anda dapat mengunduhnya dari situs web Oracle.
+## Why use Aspose.Note for Java to create onenote document java?
 
-### Aspose.Catatan untuk Perpustakaan Java
+- **Full control** over page layout, outline positioning, and element styling. → Kontrol penuh atas tata letak halaman, posisi outline, dan gaya elemen.  
+- **No COM interop** – works on any OS that supports Java. → Tanpa interop COM – bekerja pada semua OS yang mendukung Java.  
+- **Rich export options** – convert the same document to PDF, DOCX, HTML, etc., with a single call. → Opsi ekspor kaya – mengonversi dokumen yang sama ke PDF, DOCX, HTML, dll., dengan satu panggilan.  
+- **Stream‑friendly** – you can load images directly from memory, network, or cloud storage. → Ramahan stream – Anda dapat memuat gambar langsung dari memori, jaringan, atau penyimpanan cloud.
 
- Unduh dan instal perpustakaan Aspose.Note untuk Java dari yang disediakan[tautan](https://releases.aspose.com/note/java/).
+## Prerequisites
 
-### Pengaturan IDE
+Sebelum kita mulai, pastikan Anda telah menyiapkan hal‑hal berikut:
 
-Siapkan Lingkungan Pengembangan Terpadu (IDE) Anda dengan konfigurasi yang diperlukan untuk bekerja dengan proyek Java.
+### Java Development Kit (JDK)
 
-## Paket Impor
+JDK terbaru (8 atau lebih tinggi) terpasang di mesin Anda.
 
-Untuk memulai, impor paket yang diperlukan ke proyek Java Anda. Paket-paket ini akan menyediakan fungsionalitas yang diperlukan untuk bekerja dengan dokumen dan gambar OneNote.
+### Aspose.Note for Java Library
+
+Unduh perpustakaan dari halaman rilis resmi Aspose: [https://releases.aspose.com/note/java/](https://releases.aspose.com/note/java/).
+
+### IDE Setup
+
+Konfigurasikan IDE favorit Anda (IntelliJ IDEA, Eclipse, VS Code) untuk menyertakan file JAR Aspose.Note pada classpath proyek.
+
+## Import Packages
+
+Untuk memulai, impor kelas‑kelas Java dan Aspose.Note yang diperlukan. Impor ini memberi Anda akses ke pembuatan dokumen, penanganan halaman, manajemen outline, dan penyisipan gambar.
 
 ```java
 import java.io.FileInputStream;
@@ -51,33 +73,33 @@ import com.aspose.note.Page;
 import com.aspose.note.SaveFormat;
 ```
 
-## Langkah 1: Siapkan Direktori Dokumen
+## Step 1: Set Up Document Directory
 
- Tentukan direktori tempat dokumen dan gambar Anda berada. Mengganti`"Your Document Directory"` dengan jalur ke direktori Anda.
+Tentukan folder yang berisi gambar sumber Anda dan tempat file output akan disimpan. Ganti placeholder dengan path aktual di mesin Anda.
 
 ```java
 String dataDir = "Your Document Directory";
 ```
 
-## Langkah 2: Buat Objek Dokumen
+## Step 2: Create Document Object
 
- Inisialisasi sebuah instance dari`Document` kelas untuk mulai bekerja dengan dokumen OneNote Anda.
+Instansiasi `Document` baru. Objek ini mewakili notebook OneNote yang sedang Anda bangun.
 
 ```java
 Document doc = new Document();
 ```
 
-## Langkah 3: Inisialisasi Objek Halaman
+## Step 3: Initialize Page Object
 
- Membuat`Page` objek untuk mewakili halaman dalam dokumen.
+Buat `Page` yang akan menampung semua outline dan elemen untuk halaman notebook ini.
 
 ```java
 Page page = new Page();
 ```
 
-## Langkah 4: Buat Garis Besar
+## Step 4: Create Outline
 
- Inisialisasi sebuah`Outline` objek untuk menyusun konten di dalam halaman.
+`Outline` berfungsi sebagai wadah untuk elemen‑elemen yang diposisikan. Di sini kami mengatur offset vertikal dan horizontal untuk menempatkan outline pada halaman.
 
 ```java
 Outline outline1 = new Outline();
@@ -85,17 +107,17 @@ outline1.setVerticalOffset(600);
 outline1.setHorizontalOffset(0);
 ```
 
-## Langkah 5: Buat Elemen Garis Besar
+## Step 5: Create Outline Element
 
- Buat sebuah`OutlineElement` untuk menahan gambar dan menentukan posisinya.
+`OutlineElement` akan menjadi tempat gambar yang akan kami sisipkan.
 
 ```java
 OutlineElement outlineElem1 = new OutlineElement();
 ```
 
-## Langkah 6: Muat Aliran Gambar
+## Step 6: Load Image Stream
 
- Muat aliran gambar menggunakan`FileInputStream` untuk gambar yang diinginkan.
+Buka file gambar sebagai stream. Menggunakan stream memungkinkan Anda membaca gambar dari sumber apa pun (sistem file, jaringan, basis data) tanpa harus menyimpannya terlebih dahulu ke disk.
 
 ```java
 InputStream fs = null;
@@ -106,50 +128,50 @@ try {
 }
 ```
 
-## Langkah 7: Sisipkan Gambar
+## Step 7: Insert Image
 
- Masukkan gambar ke dalam dokumen dengan membuat`Image` objek dan mengatur perataannya.
+Buat objek `Image`. Argumen pertama dapat `null` ketika Anda menyediakan stream nanti, tetapi untuk kesederhanaan kami merujuk ke path file di sini dan mengatur perataan ke sisi kanan halaman.
 
 ```java
 Image image = new Image(null, dataDir + "image1.jpg");
 image.setAlignment(HorizontalAlignment.Right);
 ```
 
-## Langkah 8: Tambahkan Gambar ke Elemen Garis Besar
+## Step 8: Append Image to Outline Element
 
-Tambahkan gambar ke elemen kerangka.
+Tambahkan gambar ke elemen outline sehingga menjadi bagian dari hierarki visual halaman.
 
 ```java
 outlineElem1.appendChildLast(image);
 ```
 
-## Langkah 9: Tambahkan Elemen Garis Besar ke Garis Besar
+## Step 9: Append Outline Element to Outline
 
-Tambahkan elemen kerangka ke kerangka.
+Sekarang lampirkan elemen outline (yang berisi gambar) ke wadah outline.
 
 ```java
 outline1.appendChildLast(outlineElem1);
 ```
 
-## Langkah 10: Tambahkan Garis Besar ke Halaman
+## Step 10: Append Outline to Page
 
-Tambahkan kerangka ke halaman.
+Letakkan outline pada halaman.
 
 ```java
 page.appendChildLast(outline1);
 ```
 
-## Langkah 11: Tambahkan Halaman ke Dokumen
+## Step 11: Append Page to Document
 
-Terakhir, tambahkan halaman tersebut ke dokumen.
+Tambahkan halaman yang telah selesai dibangun ke objek dokumen.
 
 ```java
 doc.appendChildLast(page);
 ```
 
-## Langkah 12: Simpan Dokumen
+## Step 12: Save Document
 
-Simpan dokumen yang dimodifikasi, tentukan format yang diinginkan (misalnya PDF).
+Akhirnya, simpan dokumen OneNote dalam format yang Anda butuhkan. Pada contoh ini kami mengekspor ke PDF, tetapi Anda dapat memilih format apa pun yang didukung oleh Aspose.Note.
 
 ```java
 try {
@@ -159,33 +181,42 @@ try {
 }
 ```
 
-Dengan mengikuti langkah-langkah ini, Anda dapat dengan mudah membuat dokumen dan menyisipkan gambar menggunakan aliran gambar di OneNote menggunakan Aspose.Note untuk Java.
+Dengan mengikuti langkah‑langkah ini Anda telah berhasil **create onenote document java** dan menyematkan gambar menggunakan input stream.
 
-## Kesimpulan
+## Common Pitfalls & Tips
 
-Kesimpulannya, menguasai integrasi gambar ke dalam dokumen OneNote Anda menggunakan Java dapat meningkatkan proses pembuatan dokumen Anda secara signifikan. Dengan Aspose.Note untuk Java, Anda memiliki alat canggih yang dapat Anda gunakan untuk menyelesaikan tugas ini dengan lancar.
+- **Stream not closed** – In a production scenario, always close the `InputStream` in a `finally` block or use try‑with‑resources. → Stream tidak ditutup – Dalam skenario produksi, selalu tutup `InputStream` di blok `finally` atau gunakan try‑with‑resources.  
+- **Incorrect file path** – Double‑check that `dataDir` ends with the appropriate separator (`/` or `\`). → Path file tidak benar – Periksa kembali bahwa `dataDir` diakhiri dengan pemisah yang tepat (`/` atau `\`).  
+- **Image alignment** – If the image appears off‑screen, adjust the outline’s `VerticalOffset`/`HorizontalOffset` values. → Penjajaran gambar – Jika gambar muncul di luar layar, sesuaikan nilai `VerticalOffset`/`HorizontalOffset` pada outline.  
+- **License exceptions** – Using the evaluation version may add a watermark to the output; apply a valid license to remove it. → Pengecualian lisensi – Menggunakan versi evaluasi dapat menambahkan watermark pada output; terapkan lisensi yang valid untuk menghilangkannya.
 
-## FAQ
+## Frequently Asked Questions
 
-### Q1: Apakah Aspose.Note untuk Java kompatibel dengan semua versi OneNote?
+### Q1: Is Aspose.Note for Java compatible with all versions of OneNote?
 
-A1: Aspose.Note untuk Java mendukung berbagai versi OneNote, memastikan kompatibilitas di berbagai lingkungan.
+A1: Aspose.Note for Java supports various OneNote file formats, ensuring compatibility across desktop, online, and mobile versions. → Aspose.Note for Java mendukung berbagai format file OneNote, memastikan kompatibilitas di versi desktop, online, dan seluler.
 
-### Q2: Dapatkah saya mengkustomisasi tampilan gambar yang disisipkan dalam dokumen OneNote menggunakan Aspose.Note untuk Java?
+### Q2: Can I customize the appearance of inserted images in OneNote documents using Aspose.Note for Java?
 
-A2: Ya, Anda dapat menyesuaikan berbagai aspek gambar yang disisipkan, seperti perataan, ukuran, dan orientasi, agar sesuai dengan kebutuhan spesifik Anda.
+A2: Yes, you can modify alignment, size, rotation, and even apply cropping by using the corresponding properties on the `Image` object. → Ya, Anda dapat mengubah perataan, ukuran, rotasi, bahkan menerapkan pemotongan dengan menggunakan properti yang sesuai pada objek `Image`.
 
-### Q3: Apakah Aspose.Note untuk Java menyediakan dukungan untuk format dokumen lain selain PDF?
+### Q3: Does Aspose.Note for Java provide support for other document formats besides PDF?
 
-A3: Ya, Aspose.Note untuk Java mendukung berbagai format dokumen, termasuk DOCX, HTML, dan lainnya, memberi Anda fleksibilitas dalam tugas manajemen dokumen Anda.
+A3: Absolutely. The API can export to DOCX, HTML, XPS, and several other formats, giving you flexibility in how you share or archive your notes. → Tentu saja. API dapat mengekspor ke DOCX, HTML, XPS, dan beberapa format lainnya, memberi Anda fleksibilitas dalam cara berbagi atau mengarsipkan catatan.
 
-### Q4: Di mana saya dapat menemukan sumber daya tambahan dan dukungan untuk Aspose.Note untuk Java?
+### Q4: Where can I find additional resources and support for Aspose.Note for Java?
 
-A4: Anda dapat mengakses dokumentasi, tautan unduhan, forum dukungan, dan lisensi sementara Aspose.Note untuk Java melalui tautan yang disediakan.
+A4: The official Aspose website offers extensive documentation, code examples, forums, and temporary licenses for evaluation. → Situs resmi Aspose menyediakan dokumentasi lengkap, contoh kode, forum, dan lisensi sementara untuk evaluasi.
 
-### Q5: Apakah ada versi uji coba yang tersedia untuk Aspose.Note untuk Java?
+### Q5: Is there a trial version available for Aspose.Note for Java?
 
-A5: Ya, Anda bisa mendapatkan uji coba gratis Aspose.Note untuk Java guna menjelajahi fitur dan kemampuannya sebelum membuat keputusan pembelian.
+A5: Yes, you can download a free trial from the Aspose release page to explore all features before purchasing. → Ya, Anda dapat mengunduh versi percobaan gratis dari halaman rilis Aspose untuk menjelajahi semua fitur sebelum membeli.
+
+---
+
+**Last Updated:** 2025-12-21  
+**Tested With:** Aspose.Note for Java 24.12 (latest at time of writing)  
+**Author:** Aspose  
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

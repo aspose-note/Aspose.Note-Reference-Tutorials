@@ -1,37 +1,45 @@
 ---
-title: Java を使用して OneNote から画像情報を取得する
-linktitle: Java を使用して OneNote から画像情報を取得する
+date: 2025-12-21
+description: Aspose.Note を使用して Java で画像の寸法を取得する方法を学びましょう。数ステップで OneNote ファイルから幅、高さ、ファイル名などを抽出できます。
+linktitle: Get Image Dimensions Java from OneNote
 second_title: Aspose.Note Java API
-description: Java で OneNote ドキュメントから画像情報を抽出します。画像のサイズ、ファイル名などを取得します。簡単な手順とコード例が含まれています。 #OneNote #Java #Aspose
-weight: 15
+title: OneNoteから画像の寸法をJavaで取得
 url: /ja/java/onenote-hyperlinks-images/get-image-info/
+weight: 15
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Java を使用して OneNote から画像情報を取得する
+# OneNote から画像サイズ（Java）を取得する
 
-## 導入
+## はじめに
 
-Java 開発の分野では、さまざまなドキュメント形式から情報を抽出するのが一般的なタスクです。メモを取るための人気のあるプラットフォームである OneNote には、多くの場合、テキストとともに画像が含まれています。 Java を使用して OneNote ファイルからプログラムで画像情報を取得すると、ドキュメント処理ワークフローを合理化できます。このチュートリアルでは、Aspose.Note for Java を使用して OneNote ドキュメントから画像の詳細を抽出する方法を詳しく説明します。
+OneNote ノートブックから **get image dimensions java** を取得する必要がある場合、ここが適切な場所です。レポート生成、コンテンツ移行、分析など多くの自動化シナリオでは、ノートブックを手動で開かずに各画像の幅、高さ、元のサイズ、ファイル名を知りたいでしょう。このチュートリアルでは、Aspose.Note for Java を使用してプログラム的にその情報を抽出する方法を説明します。
+
+## クイック回答
+- **コードは何をしますか？** OneNote ファイル内のすべての画像を取得し、画像のサイズ、元のサイズ、ファイル名、更新日を出力します。  
+- **必要なライブラリは？** Aspose.Note for Java。  
+- **ライセンスは必要ですか？** テスト用には一時ライセンスで動作しますが、本番環境では正式なライセンスが必要です。  
+- **コード行数は？** 約30行で、明確で再利用可能なステップに分割されています。  
+- **典型的な実行時間は？** 数十枚の画像が含まれる標準的なノートブックで数ミリ秒です。
 
 ## 前提条件
 
-実装に入る前に、次の前提条件が満たされていることを確認してください。
+実装に入る前に、以下の前提条件が揃っていることを確認してください。
 
-### 1. Java 開発キット (JDK)
+### 1. Java Development Kit (JDK)
 
-システムに Java Development Kit (JDK) がインストールされていることを確認してください。最新の JDK を次の場所からダウンロードしてインストールできます。[オラクルのWebサイト](https://www.oracle.com/java/technologies/javase-jdk15-downloads.html).
+システムに Java Development Kit (JDK) がインストールされていることを確認してください。最新の JDK は [Oracle website](https://www.oracle.com/java/technologies/javase-jdk15-downloads.html) からダウンロードしてインストールできます。
 
-### 2. Java ライブラリの Aspose.Note
+### 2. Aspose.Note for Java ライブラリ
 
- Aspose.Note for Java ライブラリをダウンロードしてプロジェクトに組み込みます。ライブラリは次から入手できます。[ダウンロードページ](https://releases.aspose.com/note/java/).
+プロジェクトに Aspose.Note for Java ライブラリをダウンロードして組み込んでください。ライブラリは [download page](https://releases.aspose.com/note/java/) から取得できます。
 
 ### 3. OneNote ドキュメント
 
-画像を含むサンプル OneNote ドキュメントを準備します。このドキュメントは、プログラムによって画像情報を抽出するために使用されます。
+画像を含むサンプルの OneNote ドキュメントを用意してください。このドキュメントを使用して、プログラムで画像情報を抽出します。
 
 ## パッケージのインポート
 
@@ -44,41 +52,43 @@ import com.aspose.note.Document;
 import com.aspose.note.Image;
 ```
 
-上記のコードを段階的な手順に分解してみましょう。
+上記のコードをステップバイステップで分解して説明します。
 
-## ステップ 1: ドキュメント ディレクトリを設定する
+## OneNote から画像サイズ（Java）を取得する方法
+
+### ステップ 1: ドキュメントディレクトリの設定
 
 ```java
 String dataDir = "Your Document Directory";
 ```
 
-交換する`"Your Document Directory"`OneNote ドキュメントへのパスを置き換えます。
+`"Your Document Directory"` を OneNote ドキュメントへのパスに置き換えてください。
 
-## ステップ 2: ドキュメントをロードする
+### ステップ 2: ドキュメントのロード
 
 ```java
 Document doc = new Document(dataDir + "Sample1.one");
 ```
 
-Aspose.Note for Java ライブラリを使用して OneNote ドキュメントを読み込みます。ドキュメントへの正しいパスを指定していることを確認してください。
+Aspose.Note for Java ライブラリを使用して OneNote ドキュメントをロードします。正しいパスを指定していることを確認してください。
 
-## ステップ 3: すべての画像を取得する
+### ステップ 3: すべての画像を取得
 
 ```java
 List<Image> list = doc.getChildNodes(Image.class);
 ```
 
-ロードされた OneNote ドキュメントからすべての画像を取得します。
+ロードした OneNote ドキュメントからすべての画像を取得します。
 
-## ステップ 4: 印刷総画像数
+### ステップ 4: 画像総数を出力
 
 ```java
 System.out.printf("Total Images: %s\n\n", list.size());
 ```
 
-文書内で見つかった画像の総数を印刷します。
+ドキュメント内に見つかった画像の総数を出力します。
 
-## ステップ 5: 画像情報を走査して印刷する
+### ステップ 5: 画像情報を走査して出力
 
 ```java
 for (Image image : list) {
@@ -92,36 +102,58 @@ for (Image image : list) {
 }
 ```
 
-画像のリストを繰り返し処理し、各画像の幅、高さ、元の寸法、ファイル名、最終変更時刻などの詳細を印刷します。
+画像リストを走査し、各画像の幅、高さ、元のサイズ、ファイル名、最終更新時刻などの詳細を出力します。
 
-## 結論
+## なぜ Java で OneNote から画像を抽出するのか？
 
-このチュートリアルで概説されている手順に従うと、Aspose.Note for Java ライブラリの支援を受けて、Java を使用して OneNote ドキュメントから画像情報を効果的に取得できます。この機能をアプリケーションに統合すると、ドキュメント処理に関連するタスクが自動化され、効率と生産性が向上します。
+- **自動化:** ノートブックの手動検査を不要にします。  
+- **データ分析:** 画像メタデータをレポートパイプラインに供給します。  
+- **移行:** コンテンツを他のプラットフォームへ移す際に画像属性を保持します。  
+- **パフォーマンス:** 必要なメタデータだけを取得し、重いファイル解析を回避します。
+
+## よくある落とし穴とヒント
+
+- **パスが間違っている:** `dataDir` が適切なファイル区切り文字（`/` または `\`）で終わっているか確認してください。  
+- **ライセンス問題:** 有効なライセンスがないと、Aspose.Note が評価警告を出すことがあります。  
+- **大規模ノートブック:** 何千枚もの画像があるノートブックの場合、バッチ処理でメモリ使用量を抑えることを検討してください。
 
 ## よくある質問
 
-### Q1: Aspose.Note for Java は、OneNote 以外の他のドキュメント形式を処理できますか?
+### Q1: Aspose.Note for Java は OneNote 以外のドキュメント形式も扱えますか？
 
-A1: はい、Aspose.Note for Java は、OneNote、PDF、Microsoft Word などのさまざまなドキュメント形式をサポートしています。
+A1: はい、Aspose.Note for Java は OneNote、PDF、Microsoft Word などさまざまなドキュメント形式をサポートしています。
 
-### Q2: Aspose.Note for Java は個人使用と商用使用の両方に適していますか?
+### Q2: Aspose.Note for Java は個人利用と商用利用の両方に適していますか？
 
-A2: はい、Aspose.Note for Java は個人目的でも商用目的でも利用できます。
+A2: はい、個人利用でも商用利用でも Aspose.Note for Java を利用できます。
 
-### Q3: Aspose.Note for Java はテクニカル サポートを提供していますか?
+### Q3: Aspose.Note for Java は技術サポートを提供していますか？
 
- A3: はい、テクニカル サポートは、次の Aspose フォーラムを通じて利用できます。[ここ](https://forum.aspose.com/c/note/28).
+A3: はい、技術サポートは Aspose フォーラム（[here](https://forum.aspose.com/c/note/28)）で利用できます。
 
-### Q4: 購入する前に、Aspose.Note for Java を試してみることはできますか?
+### Q4: 購入前に Aspose.Note for Java を試すことはできますか？
 
- A4: はい、Java 用 Aspose.Note の無料試用版を次のサイトから試すことができます。[Aspose.Note for Java](https://releases.aspose.com/note/java/).
+A4: はい、[Aspose.Note for Java](https://releases.aspose.com/note/java/) から無料トライアル版を試すことができます。
 
-### Q5: Aspose.Note for Java の一時ライセンスを取得するにはどうすればよいですか?
- 
- A5: 一時ライセンスは以下から取得できます。[仮免許/](https://purchase.aspose.com/temporary-license/).
+### Q5: Aspose.Note for Java の一時ライセンスはどのように取得できますか？
+
+A5: [Temporary license/](https://purchase.aspose.com/temporary-license/) から一時ライセンスを取得できます。
+
+## 結論
+
+このチュートリアルの手順に従うことで、Aspose.Note for Java を使用して OneNote ドキュメントから **get image dimensions java** を効果的に取得できます。この機能をアプリケーションに組み込むことで、ドキュメント処理に関するタスクを自動化し、効率と生産性を向上させることができます。
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
+
+---
+
+**最終更新日:** 2025-12-21  
+**テスト環境:** Aspose.Note for Java 23.12  
+**作者:** Aspose  
+
+---

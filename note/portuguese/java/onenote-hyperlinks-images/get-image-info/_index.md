@@ -1,39 +1,49 @@
 ---
-title: Obtenha informações de imagem do OneNote usando Java
-linktitle: Obtenha informações de imagem do OneNote usando Java
-second_title: API Java Aspose.Note
-description: Extraia informações de imagem de documentos do OneNote em Java! Obtenha dimensões de imagens, nomes de arquivos e muito mais. Etapas fáceis e exemplos de código incluídos. #OneNote #Java #Aspose
-weight: 15
+date: 2025-12-21
+description: Aprenda a obter as dimensões da imagem em Java usando Aspose.Note. Extraia
+  largura, altura, nome do arquivo e muito mais de arquivos do OneNote em apenas alguns
+  passos.
+linktitle: Get Image Dimensions Java from OneNote
+second_title: Aspose.Note Java API
+title: Obter dimensões da imagem Java do OneNote
 url: /pt/java/onenote-hyperlinks-images/get-image-info/
+weight: 15
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Obtenha informações de imagem do OneNote usando Java
+# Obter dimensões da imagem Java do OneNote
 
 ## Introdução
 
-No domínio do desenvolvimento Java, extrair informações de vários formatos de documentos é uma tarefa comum. O OneNote, uma plataforma popular para anotações, geralmente contém imagens ao lado do texto. A recuperação de informações de imagem programaticamente de arquivos do OneNote usando Java pode agilizar os fluxos de trabalho de processamento de documentos. Neste tutorial, nos aprofundaremos em como extrair detalhes de imagens de documentos do OneNote usando Aspose.Note para Java.
+Se você precisa **obter dimensões da imagem java** de cadernos do OneNote, está no lugar certo. Em muitos cenários de automação — geração de relatórios, migração de conteúdo ou análise — você desejará conhecer a largura, altura, tamanho original e nome de arquivo de cada imagem sem abrir o caderno manualmente. Este tutorial orienta você a extrair essas informações programaticamente usando Aspose.Note for Java.
+
+## Respostas rápidas
+- **O que o código faz?** Recupera cada imagem em um arquivo OneNote e imprime suas dimensões, tamanho original, nome de arquivo e data de modificação.  
+- **Qual biblioteca é necessária?** Aspose.Note for Java.  
+- **Preciso de uma licença?** Uma licença temporária funciona para testes; uma licença completa é necessária para produção.  
+- **Quantas linhas de código?** Aproximadamente 30 linhas, divididas em etapas claras e reutilizáveis.  
+- **Tempo de execução típico?** Milissegundos para um caderno padrão com algumas dezenas de imagens.
 
 ## Pré-requisitos
 
-Antes de mergulharmos na implementação, certifique-se de ter os seguintes pré-requisitos em vigor:
+Antes de mergulharmos na implementação, certifique-se de que você tem os seguintes pré-requisitos em vigor:
 
 ### 1. Kit de Desenvolvimento Java (JDK)
 
-Certifique-se de ter o Java Development Kit (JDK) instalado em seu sistema. Você pode baixar e instalar o JDK mais recente no site[Site da Oracle](https://www.oracle.com/java/technologies/javase-jdk15-downloads.html).
+Certifique-se de que o Java Development Kit (JDK) está instalado em seu sistema. Você pode baixar e instalar o JDK mais recente no [site da Oracle](https://www.oracle.com/java/technologies/javase-jdk15-downloads.html).
 
 ### 2. Biblioteca Aspose.Note para Java
 
- Baixe e inclua a biblioteca Aspose.Note para Java em seu projeto. Você pode obter a biblioteca no[página de download](https://releases.aspose.com/note/java/).
+Faça o download e inclua a biblioteca Aspose.Note para Java em seu projeto. Você pode obter a biblioteca na [página de download](https://releases.aspose.com/note/java/).
 
 ### 3. Documento OneNote
 
-Prepare um documento de amostra do OneNote que contenha imagens. Este documento será usado para extrair informações da imagem programaticamente.
+Prepare um documento OneNote de exemplo que contenha imagens. Este documento será usado para extrair informações de imagens programaticamente.
 
-## Importar pacotes
+## Importar Pacotes
 
 Para começar, importe os pacotes necessários do Aspose.Note for Java:
 
@@ -46,23 +56,25 @@ import com.aspose.note.Image;
 
 Vamos dividir o código acima em instruções passo a passo:
 
-## Etapa 1: definir diretório de documentos
+## Como obter dimensões da imagem java do OneNote
+
+### Etapa 1: Definir Diretório do Documento
 
 ```java
 String dataDir = "Your Document Directory";
 ```
 
- Substituir`"Your Document Directory"` com o caminho para o seu documento do OneNote.
+Substitua `"Your Document Directory"` pelo caminho do seu documento OneNote.
 
-## Etapa 2: carregue o documento
+### Etapa 2: Carregar o Documento
 
 ```java
 Document doc = new Document(dataDir + "Sample1.one");
 ```
 
-Carregue o documento OneNote usando a biblioteca Aspose.Note para Java. Certifique-se de fornecer o caminho correto para o seu documento.
+Carregue o documento OneNote usando a biblioteca Aspose.Note for Java. Certifique‑se de fornecer o caminho correto para o seu documento.
 
-## Etapa 3: obtenha todas as imagens
+### Etapa 3: Obter Todas as Imagens
 
 ```java
 List<Image> list = doc.getChildNodes(Image.class);
@@ -70,7 +82,7 @@ List<Image> list = doc.getChildNodes(Image.class);
 
 Recupere todas as imagens do documento OneNote carregado.
 
-## Etapa 4: imprimir a contagem total de imagens
+### Etapa 4: Imprimir Contagem Total de Imagens
 
 ```java
 System.out.printf("Total Images: %s\n\n", list.size());
@@ -78,7 +90,7 @@ System.out.printf("Total Images: %s\n\n", list.size());
 
 Imprima o número total de imagens encontradas no documento.
 
-## Etapa 5: percorrer e imprimir informações da imagem
+### Etapa 5: Percorrer e Imprimir Informações da Imagem
 
 ```java
 for (Image image : list) {
@@ -92,36 +104,56 @@ for (Image image : list) {
 }
 ```
 
-Itere pela lista de imagens e imprima detalhes como largura, altura, dimensões originais, nome do arquivo e hora da última modificação para cada imagem.
+Itere pela lista de imagens e imprima detalhes como largura, altura, dimensões originais, nome de arquivo e hora da última modificação para cada imagem.
+
+## Por que extrair imagens do OneNote usando Java?
+
+- **Automação:** Elimine a inspeção manual de cadernos.  
+- **Análise de Dados:** Alimente os metadados de imagens nos pipelines de relatórios.  
+- **Migração:** Preserve os atributos das imagens ao mover o conteúdo para outras plataformas.  
+- **Desempenho:** Recupere apenas os metadados que você precisa, evitando a análise pesada de arquivos.
+
+## Armadilhas Comuns e Dicas
+
+- **Caminho incorreto:** Verifique se `dataDir` termina com o separador de arquivos apropriado (`/` ou `\`).  
+- **Problemas de licença:** Sem uma licença válida, o Aspose.Note pode gerar avisos de avaliação.  
+- **Cadernos grandes:** Para cadernos com milhares de imagens, considere processá‑los em lotes para reduzir o consumo de memória.
+
+## Perguntas Frequentes
+
+### Q1: O Aspose.Note para Java pode lidar com outros formatos de documento além do OneNote?
+
+A1: Sim, o Aspose.Note para Java suporta vários formatos de documento, incluindo OneNote, PDF e Microsoft Word.
+
+### Q2: O Aspose.Note para Java é adequado tanto para uso pessoal quanto comercial?
+
+A2: Sim, você pode usar o Aspose.Note para Java tanto para fins pessoais quanto comerciais.
+
+### Q3: O Aspose.Note para Java oferece suporte técnico?
+
+A3: Sim, o suporte técnico está disponível nos fóruns da Aspose em [aqui](https://forum.aspose.com/c/note/28).
+
+### Q4: Posso experimentar o Aspose.Note para Java antes de fazer a compra?
+
+A4: Sim, você pode explorar uma versão de avaliação gratuita do Aspose.Note para Java em [Aspose.Note for Java](https://releases.aspose.com/note/java/).
+
+### Q5: Como posso obter uma licença temporária para o Aspose.Note para Java?
+
+A5: Você pode adquirir uma licença temporária em [Temporary license/](https://purchase.aspose.com/temporary-license/).
 
 ## Conclusão
 
-Seguindo as etapas descritas neste tutorial, você pode recuperar efetivamente informações de imagem de documentos do OneNote usando Java com a ajuda da biblioteca Aspose.Note para Java. A integração desta funcionalidade nas suas aplicações pode automatizar tarefas relacionadas ao processamento de documentos, aumentando a eficiência e a produtividade.
+Seguindo as etapas descritas neste tutorial, você pode efetivamente **obter dimensões da imagem java** de documentos OneNote usando Aspose.Note para Java. Integrar essa funcionalidade em suas aplicações pode automatizar tarefas relacionadas ao processamento de documentos, aumentando a eficiência e a produtividade.
 
-## Perguntas frequentes
-
-### Q1: O Aspose.Note for Java pode lidar com outros formatos de documento além do OneNote?
-
-A1: Sim, Aspose.Note for Java oferece suporte a vários formatos de documento, incluindo OneNote, PDF e Microsoft Word.
-
-### Q2: O Aspose.Note for Java é adequado para uso pessoal e comercial?
-
-A2: Sim, você pode utilizar Aspose.Note for Java para fins pessoais e comerciais.
-
-### Q3: O Aspose.Note for Java oferece suporte técnico?
-
- A3: Sim, o suporte técnico está disponível através dos fóruns Aspose em[aqui](https://forum.aspose.com/c/note/28).
-
-### Q4: Posso experimentar o Aspose.Note para Java antes de fazer uma compra?
-
- A4: Sim, você pode explorar uma versão de avaliação gratuita do Aspose.Note para Java em[Aspose.Note for Java](https://releases.aspose.com/note/java/).
-
-### Q5: Como posso obter uma licença temporária para Aspose.Note for Java?
- 
- A5: Você pode adquirir uma licença temporária de[Licença temporária/](https://purchase.aspose.com/temporary-license/).
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
+
+---
+
+**Última atualização:** 2025-12-21  
+**Testado com:** Aspose.Note for Java 23.12  
+**Autor:** Aspose

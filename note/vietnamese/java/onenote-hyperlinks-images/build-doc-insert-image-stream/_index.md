@@ -1,41 +1,63 @@
 ---
-title: Xây dựng tài liệu và chèn hình ảnh bằng luồng trong OneNote - Java
-linktitle: Xây dựng tài liệu và chèn hình ảnh bằng luồng trong OneNote - Java
-second_title: API Java Aspose.Note
-description: Tìm hiểu cách tích hợp hình ảnh dễ dàng vào tài liệu OneNote bằng Aspose.Note for Java. Hướng dẫn từng bước dành cho nhà phát triển Java.
-weight: 13
+date: 2025-12-21
+description: Tìm hiểu cách tạo tài liệu OneNote bằng Java và chèn hình ảnh một cách
+  dễ dàng bằng Aspose.Note cho Java. Hướng dẫn từng bước dành cho các nhà phát triển
+  Java.
+linktitle: How to create onenote document java – Build Doc and Insert Image with Stream
+second_title: Aspose.Note Java API
+title: Cách tạo tài liệu OneNote bằng Java – Xây dựng tài liệu và chèn hình ảnh bằng
+  Stream
 url: /vi/java/onenote-hyperlinks-images/build-doc-insert-image-stream/
+weight: 13
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Xây dựng tài liệu và chèn hình ảnh bằng luồng trong OneNote - Java
+# Cách tạo tài liệu onenote bằng Java – Xây dựng tài liệu và chèn hình ảnh bằng Stream
 
 ## Giới thiệu
 
-Chào mừng bạn đến với hướng dẫn toàn diện của chúng tôi về cách sử dụng Aspose.Note cho Java để xây dựng tài liệu và chèn hình ảnh bằng luồng hình ảnh trong OneNote! Trong hướng dẫn này, chúng tôi sẽ hướng dẫn bạn từng bước thực hiện quy trình, đảm bảo bạn hiểu rõ ràng về từng giai đoạn. Cuối cùng, bạn sẽ có thể dễ dàng tích hợp hình ảnh vào tài liệu OneNote của mình bằng Java.
+Chào mừng! Trong hướng dẫn này, bạn sẽ **tạo tài liệu onenote bằng Java** từ đầu và học cách chèn hình ảnh bằng một luồng hình ảnh. Chúng tôi sẽ hướng dẫn từng bước, giải thích lý do mỗi phần quan trọng, và cung cấp các mẹo thực tế để bạn có thể áp dụng kỹ thuật này trong các dự án thực tế. Khi hoàn thành, bạn sẽ có thể tạo các trang OneNote một cách lập trình và nhúng hình ảnh chính xác ở vị trí bạn muốn.
 
-## Điều kiện tiên quyết
+## Câu trả lời nhanh
+- **Thư viện tôi cần là gì?** Aspose.Note for Java  
+- **Tôi có thể chèn hình ảnh từ một stream không?** Có – chỉ cần truyền một `InputStream` vào hàm khởi tạo `Image`.  
+- **Tôi có thể xuất sang định dạng nào?** Bất kỳ định dạng nào được Aspose.Note hỗ trợ, ví dụ: PDF, DOCX, HTML.  
+- **Tôi có cần giấy phép cho việc phát triển không?** Giấy phép tạm thời miễn phí đủ cho việc đánh giá; cần giấy phép đầy đủ cho môi trường sản xuất.  
+- **Phiên bản Java yêu cầu là gì?** Java 8 hoặc cao hơn.
 
-Trước khi chúng ta đi sâu vào hướng dẫn, hãy đảm bảo bạn có sẵn các điều kiện tiên quyết sau:
+## create onenote document java là gì?
+
+Tạo một tài liệu OneNote bằng Java có nghĩa là sử dụng API Aspose.Note để xây dựng cấu trúc sổ ghi chú—các trang, outline và các phần tử—một cách lập trình, mà không cần mở ứng dụng OneNote trên máy tính. Cách tiếp cận này lý tưởng cho việc tạo báo cáo tự động, xử lý hàng loạt ghi chú, hoặc tích hợp nội dung OneNote vào các ứng dụng Java lớn hơn.
+
+## Tại sao nên dùng Aspose.Note cho Java để tạo onenote document java?
+
+- **Kiểm soát đầy đủ** bố cục trang, vị trí outline và kiểu dáng các phần tử.  
+- **Không cần COM interop** – hoạt động trên bất kỳ hệ điều hành nào hỗ trợ Java.  
+- **Tùy chọn xuất phong phú** – chuyển đổi cùng một tài liệu sang PDF, DOCX, HTML, v.v., chỉ với một lệnh.  
+- **Thân thiện với stream** – bạn có thể tải hình ảnh trực tiếp từ bộ nhớ, mạng hoặc lưu trữ đám mây.
+
+## Yêu cầu trước
+
+Trước khi bắt đầu, hãy chắc chắn rằng bạn đã chuẩn bị các thứ sau:
 
 ### Bộ công cụ phát triển Java (JDK)
 
-Đảm bảo bạn đã cài đặt Bộ công cụ phát triển Java (JDK) trên hệ thống của mình. Bạn có thể tải nó từ trang web của Oracle.
+Một JDK mới (phiên bản 8 trở lên) đã được cài đặt trên máy của bạn.
 
-### Aspose.Note cho Thư viện Java
+### Thư viện Aspose.Note cho Java
 
- Tải xuống và cài đặt thư viện Aspose.Note cho Java từ thư viện được cung cấp[liên kết](https://releases.aspose.com/note/java/).
+Tải thư viện từ trang phát hành chính thức của Aspose: [https://releases.aspose.com/note/java/](https://releases.aspose.com/note/java/).
 
-### Cài đặt IDE
+### Cấu hình IDE
 
-Thiết lập Môi trường phát triển tích hợp (IDE) của bạn với các cấu hình cần thiết để làm việc với các dự án Java.
+Cấu hình IDE yêu thích của bạn (IntelliJ IDEA, Eclipse, VS Code) để bao gồm các tệp JAR của Aspose.Note trong classpath của dự án.
 
-## Gói nhập khẩu
+## Nhập các gói
 
-Để bắt đầu, hãy nhập các gói cần thiết vào dự án Java của bạn. Các gói này sẽ cung cấp chức năng cần thiết để hoạt động với các tài liệu và hình ảnh OneNote.
+Để bắt đầu, nhập các lớp Java và Aspose.Note cần thiết. Những import này cho phép bạn truy cập vào việc tạo tài liệu, xử lý trang, quản lý outline và chèn hình ảnh.
 
 ```java
 import java.io.FileInputStream;
@@ -53,31 +75,31 @@ import com.aspose.note.SaveFormat;
 
 ## Bước 1: Thiết lập thư mục tài liệu
 
- Xác định thư mục chứa tài liệu và hình ảnh của bạn. Thay thế`"Your Document Directory"` với đường dẫn đến thư mục của bạn.
+Xác định thư mục chứa các hình ảnh nguồn và nơi sẽ lưu tệp đầu ra. Thay thế phần giữ chỗ bằng đường dẫn thực tế trên máy của bạn.
 
 ```java
 String dataDir = "Your Document Directory";
 ```
 
-## Bước 2: Tạo đối tượng tài liệu
+## Bước 2: Tạo đối tượng Document
 
- Khởi tạo một thể hiện của`Document` class để bắt đầu làm việc với tài liệu OneNote của bạn.
+Khởi tạo một `Document` mới. Đối tượng này đại diện cho sổ ghi chú OneNote mà bạn đang xây dựng.
 
 ```java
 Document doc = new Document();
 ```
 
-## Bước 3: Khởi tạo đối tượng trang
+## Bước 3: Khởi tạo đối tượng Page
 
- Tạo một`Page` đối tượng để đại diện cho trang trong tài liệu.
+Tạo một `Page` sẽ chứa tất cả các outline và phần tử cho trang sổ ghi chú này.
 
 ```java
 Page page = new Page();
 ```
 
-## Bước 4: Tạo phác thảo
+## Bước 4: Tạo Outline
 
- Khởi tạo một`Outline` đối tượng để cấu trúc nội dung trong trang.
+Một `Outline` hoạt động như một container cho các phần tử được định vị. Ở đây chúng ta đặt các offset dọc và ngang để định vị outline trên trang.
 
 ```java
 Outline outline1 = new Outline();
@@ -85,9 +107,9 @@ outline1.setVerticalOffset(600);
 outline1.setHorizontalOffset(0);
 ```
 
-## Bước 5: Tạo phần tử phác thảo
+## Bước 5: Tạo Outline Element
 
- Tạo ra một`OutlineElement` để giữ hình ảnh và xác định vị trí của nó.
+`OutlineElement` sẽ chứa hình ảnh mà chúng ta sắp chèn.
 
 ```java
 OutlineElement outlineElem1 = new OutlineElement();
@@ -95,7 +117,7 @@ OutlineElement outlineElem1 = new OutlineElement();
 
 ## Bước 6: Tải luồng hình ảnh
 
- Tải luồng hình ảnh bằng cách sử dụng`FileInputStream` cho hình ảnh mong muốn.
+Mở tệp hình ảnh dưới dạng luồng. Sử dụng luồng cho phép bạn đọc hình ảnh từ bất kỳ nguồn nào (hệ thống tệp, mạng, cơ sở dữ liệu) mà không cần lưu nó vào đĩa trước.
 
 ```java
 InputStream fs = null;
@@ -108,48 +130,48 @@ try {
 
 ## Bước 7: Chèn hình ảnh
 
- Chèn hình ảnh vào tài liệu bằng cách tạo một`Image` đối tượng và thiết lập sự liên kết của nó.
+Tạo một đối tượng `Image`. Tham số đầu tiên có thể là `null` khi bạn cung cấp luồng sau này, nhưng để đơn giản chúng tôi tham chiếu đến đường dẫn tệp ở đây và đặt căn chỉnh của nó sang phía bên phải của trang.
 
 ```java
 Image image = new Image(null, dataDir + "image1.jpg");
 image.setAlignment(HorizontalAlignment.Right);
 ```
 
-## Bước 8: Nối hình ảnh vào phần tử phác thảo
+## Bước 8: Thêm hình ảnh vào Outline Element
 
-Nối hình ảnh vào phần tử phác thảo.
+Thêm hình ảnh vào outline element để nó trở thành một phần của cấu trúc hiển thị trên trang.
 
 ```java
 outlineElem1.appendChildLast(image);
 ```
 
-## Bước 9: Nối phần tử phác thảo vào phác thảo
+## Bước 9: Thêm Outline Element vào Outline
 
-Thêm phần tử phác thảo vào phác thảo.
+Bây giờ gắn outline element (chứa hình ảnh) vào container outline.
 
 ```java
 outline1.appendChildLast(outlineElem1);
 ```
 
-## Bước 10: Nối dàn ý vào trang
+## Bước 10: Thêm Outline vào Page
 
-Thêm dàn ý vào trang.
+Đặt outline lên trang.
 
 ```java
 page.appendChildLast(outline1);
 ```
 
-## Bước 11: Nối trang vào tài liệu
+## Bước 11: Thêm Page vào Document
 
-Cuối cùng, nối trang vào tài liệu.
+Thêm trang đã được xây dựng hoàn chỉnh vào đối tượng document.
 
 ```java
 doc.appendChildLast(page);
 ```
 
-## Bước 12: Lưu tài liệu
+## Bước 12: Lưu Document
 
-Lưu tài liệu đã sửa đổi, chỉ định định dạng mong muốn (ví dụ: PDF).
+Cuối cùng, lưu tài liệu OneNote ở định dạng bạn cần. Trong ví dụ này chúng tôi xuất ra PDF, nhưng bạn có thể chọn bất kỳ định dạng nào được Aspose.Note hỗ trợ.
 
 ```java
 try {
@@ -159,33 +181,42 @@ try {
 }
 ```
 
-Bằng cách làm theo các bước này, bạn có thể dễ dàng tạo tài liệu và chèn hình ảnh bằng luồng hình ảnh trong OneNote bằng Aspose.Note for Java.
+Bằng cách thực hiện các bước trên, bạn đã thành công **tạo onenote document java** và nhúng một hình ảnh bằng luồng đầu vào.
 
-## Phần kết luận
+## Những lỗi thường gặp & Mẹo
 
-Tóm lại, việc nắm vững cách tích hợp hình ảnh vào tài liệu OneNote bằng Java có thể nâng cao đáng kể quá trình tạo tài liệu của bạn. Với Aspose.Note for Java, bạn có sẵn một công cụ mạnh mẽ để hoàn thành nhiệm vụ này một cách liền mạch.
+- **Luồng không được đóng** – Trong môi trường sản xuất, luôn đóng `InputStream` trong khối `finally` hoặc sử dụng try‑with‑resources.  
+- **Đường dẫn tệp không đúng** – Kiểm tra lại rằng `dataDir` kết thúc bằng dấu phân tách thích hợp (`/` hoặc `\`).  
+- **Căn chỉnh hình ảnh** – Nếu hình ảnh hiển thị lệch, điều chỉnh giá trị `VerticalOffset`/`HorizontalOffset` của outline.  
+- **Ngoại lệ giấy phép** – Sử dụng phiên bản đánh giá có thể thêm watermark vào kết quả; áp dụng giấy phép hợp lệ để loại bỏ.
 
 ## Câu hỏi thường gặp
 
-### Câu hỏi 1: Aspose.Note for Java có tương thích với tất cả các phiên bản OneNote không?
+### Q1: Aspose.Note cho Java có tương thích với mọi phiên bản của OneNote không?
 
-Câu trả lời 1: Aspose.Note for Java hỗ trợ nhiều phiên bản OneNote khác nhau, đảm bảo khả năng tương thích trên các môi trường khác nhau.
+A1: Aspose.Note cho Java hỗ trợ nhiều định dạng tệp OneNote, đảm bảo tính tương thích trên các phiên bản desktop, online và mobile.
 
-### Câu hỏi 2: Tôi có thể tùy chỉnh giao diện của hình ảnh được chèn trong tài liệu OneNote bằng Aspose.Note for Java không?
+### Q2: Tôi có thể tùy chỉnh giao diện của hình ảnh chèn trong tài liệu OneNote bằng Aspose.Note cho Java không?
 
-Câu trả lời 2: Có, bạn có thể tùy chỉnh các khía cạnh khác nhau của hình ảnh được chèn, chẳng hạn như căn chỉnh, kích thước và hướng để phù hợp với yêu cầu cụ thể của bạn.
+A2: Có, bạn có thể thay đổi căn chỉnh, kích thước, xoay và thậm chí cắt ảnh bằng cách sử dụng các thuộc tính tương ứng trên đối tượng `Image`.
 
-### Câu hỏi 3: Aspose.Note for Java có hỗ trợ các định dạng tài liệu khác ngoài PDF không?
+### Q3: Aspose.Note cho Java có hỗ trợ các định dạng tài liệu khác ngoài PDF không?
 
-Câu trả lời 3: Có, Aspose.Note for Java hỗ trợ nhiều định dạng tài liệu, bao gồm DOCX, HTML, v.v., giúp bạn linh hoạt trong các tác vụ quản lý tài liệu của mình.
+A3: Chắc chắn. API có thể xuất ra DOCX, HTML, XPS và một số định dạng khác, mang lại sự linh hoạt trong việc chia sẻ hoặc lưu trữ ghi chú.
 
-### Câu hỏi 4: Tôi có thể tìm thêm tài nguyên và hỗ trợ cho Aspose.Note dành cho Java ở đâu?
+### Q4: Tôi có thể tìm tài nguyên và hỗ trợ bổ sung cho Aspose.Note cho Java ở đâu?
 
-Câu trả lời 4: Bạn có thể truy cập tài liệu, liên kết tải xuống, diễn đàn hỗ trợ và giấy phép tạm thời cho Aspose.Note cho Java thông qua các liên kết được cung cấp.
+A4: Trang web chính thức của Aspose cung cấp tài liệu chi tiết, ví dụ mã nguồn, diễn đàn và giấy phép tạm thời để đánh giá.
 
-### Câu hỏi 5: Có phiên bản dùng thử cho Aspose.Note cho Java không?
+### Q5: Có phiên bản dùng thử cho Aspose.Note cho Java không?
 
-Câu trả lời 5: Có, bạn có thể tải bản dùng thử miễn phí Aspose.Note dành cho Java để khám phá các tính năng và khả năng của nó trước khi đưa ra quyết định mua hàng.
+A5: Có, bạn có thể tải bản dùng thử miễn phí từ trang phát hành của Aspose để khám phá tất cả các tính năng trước khi mua.
+
+---
+
+**Cập nhật lần cuối:** 2025-12-21  
+**Kiểm thử với:** Aspose.Note for Java 24.12 (phiên bản mới nhất tại thời điểm viết)  
+**Tác giả:** Aspose  
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

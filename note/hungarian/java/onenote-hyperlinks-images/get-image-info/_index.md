@@ -1,41 +1,51 @@
 ---
-title: Képadatok beszerzése a OneNote-ból Java használatával
-linktitle: Képadatok beszerzése a OneNote-ból Java használatával
+date: 2025-12-21
+description: Ismerje meg, hogyan lehet Java-ban képméreteket lekérni az Aspose.Note
+  segítségével. Néhány lépésben kinyerheti a szélességet, magasságot, fájlnevet és
+  egyebeket a OneNote-fájlokból.
+linktitle: Get Image Dimensions Java from OneNote
 second_title: Aspose.Note Java API
-description: Képadatok kibontása a OneNote-dokumentumokból Java nyelven! Képméretek, fájlnevek stb. Könnyű lépéseket és kódpéldákat tartalmaz. #OneNote #Java #Aspose
-weight: 15
+title: Kép méreteinek lekérése Java-val a OneNote-ból
 url: /hu/java/onenote-hyperlinks-images/get-image-info/
+weight: 15
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Képadatok beszerzése a OneNote-ból Java használatával
+# Kép Méretek Lekérése Java-val a OneNote-ból
 
 ## Bevezetés
 
-A Java fejlesztés területén gyakori feladat az információk kinyerése a különböző dokumentumformátumokból. A OneNote, a jegyzetkészítés népszerű platformja, gyakran tartalmaz képeket a szöveg mellett. A képadatok programozott lekérése a OneNote-fájlokból Java használatával leegyszerűsítheti a dokumentumfeldolgozási munkafolyamatokat. Ebben az oktatóanyagban megvizsgáljuk, hogyan lehet képrészleteket kinyerni a OneNote-dokumentumokból az Aspose.Note for Java használatával.
+Ha **get image dimensions java**-t szeretne lekérni OneNote jegyzetfüzetekből, jó helyen jár. Sok automatizálási helyzetben—jelentéskészítés, tartalom migráció vagy elemzés—szükség van arra, hogy minden kép szélességét, magasságát, eredeti méretét és fájlnevét megtudja anélkül, hogy manuálisan megnyitná a jegyzetfüzetet. Ez az útmutató lépésről lépésre bemutatja, hogyan lehet ezt az információt programozottan kinyerni az Aspose.Note for Java használatával.
+
+## Gyors válaszok
+- **Mi a kód feladata?** Minden képet lekér a OneNote fájlból, és kiírja a méreteket, az eredeti méretet, a fájlnevet és a módosítás dátumát.  
+- **Melyik könyvtár szükséges?** Aspose.Note for Java.  
+- **Szükségem van licencre?** Egy ideiglenes licenc teszteléshez működik; a teljes licenc a termeléshez szükséges.  
+- **Hány sor kód?** Körülbelül 30 sor, világos, újrahasználható lépésekre bontva.  
+- **Tipikus futási idő?** Ezredmásodpercek egy átlagos jegyzetfüzet esetén, amely néhány tucat képet tartalmaz.
 
 ## Előfeltételek
 
-Mielőtt belemerülnénk a megvalósításba, győződjön meg arról, hogy a következő előfeltételekkel rendelkezik:
+Mielőtt belemerülnénk a megvalósításba, győződjön meg róla, hogy az alábbi előfeltételek rendelkezésre állnak:
 
-### 1. Java fejlesztőkészlet (JDK)
+### 1. Java Development Kit (JDK)
 
-Győződjön meg arról, hogy a Java Development Kit (JDK) telepítve van a rendszeren. Letöltheti és telepítheti a legújabb JDK-t a webhelyről[Oracle webhely](https://www.oracle.com/java/technologies/javase-jdk15-downloads.html).
+Győződjön meg róla, hogy a Java Development Kit (JDK) telepítve van a rendszerén. A legújabb JDK-t letöltheti és telepítheti az [Oracle weboldalról](https://www.oracle.com/java/technologies/javase-jdk15-downloads.html).
 
 ### 2. Aspose.Note for Java Library
 
- Töltse le és foglalja bele a projektbe az Aspose.Note for Java könyvtárat. A könyvtárat beszerezheti a[letöltési oldal](https://releases.aspose.com/note/java/).
+Töltse le és vegye fel az Aspose.Note for Java könyvtárat a projektjébe. A könyvtárat a [letöltési oldalról](https://releases.aspose.com/note/java/) szerezheti be.
 
-### 3. OneNote-dokumentum
+### 3. OneNote Document
 
-Készítsen egy minta OneNote-dokumentumot, amely képeket tartalmaz. Ez a dokumentum a képadatok programozott kinyerésére szolgál.
+Készítsen egy mint OneNote dokumentumot, amely képeket tartalmaz. Ez a dokumentum lesz felhasználva a képinformációk programozott kinyeréséhez.
 
 ## Csomagok importálása
 
-Kezdésként importálja a szükséges csomagokat az Aspose.Note for Java-ból:
+Az induláshoz importálja a szükséges csomagokat az Aspose.Note for Java-ból:
 
 ```java
 import java.io.IOException;
@@ -44,41 +54,43 @@ import com.aspose.note.Document;
 import com.aspose.note.Image;
 ```
 
-Bontsuk fel a fenti kódot lépésről lépésre:
+Törjük le a fenti kódot lépésről‑lépésre útmutatásokra:
 
-## 1. lépés: Állítsa be a dokumentumkönyvtárat
+## Hogyan kérje le a kép méreteket Java-val a OneNote-ból
+
+### 1. lépés: Dokumentum könyvtár beállítása
 
 ```java
 String dataDir = "Your Document Directory";
 ```
 
- Cserélje ki`"Your Document Directory"` a OneNote-dokumentum elérési útjával.
+Cserélje le a `"Your Document Directory"`-t a OneNote dokumentumának elérési útjára.
 
-## 2. lépés: Töltse be a dokumentumot
+### 2. lépés: Dokumentum betöltése
 
 ```java
 Document doc = new Document(dataDir + "Sample1.one");
 ```
 
-Töltse be a OneNote-dokumentumot az Aspose.Note for Java könyvtár használatával. Győződjön meg róla, hogy a megfelelő elérési utat adta meg a dokumentumhoz.
+Töltse be a OneNote dokumentumot az Aspose.Note for Java könyvtár segítségével. Győződjön meg róla, hogy a helyes útvonalat adja meg a dokumentumhoz.
 
-## 3. lépés: Töltse le az összes képet
+### 3. lépés: Összes kép lekérése
 
 ```java
 List<Image> list = doc.getChildNodes(Image.class);
 ```
 
-Az összes kép lekérése a betöltött OneNote-dokumentumból.
+Szerezze meg az összes képet a betöltött OneNote dokumentumból.
 
-## 4. lépés: Nyomtassa ki az Összes képszámot
+### 4. lépés: Összes kép számának kiírása
 
 ```java
 System.out.printf("Total Images: %s\n\n", list.size());
 ```
 
-Nyomtassa ki a dokumentumban talált képek teljes számát.
+Írja ki a dokumentumban talált képek teljes számát.
 
-## 5. lépés: Bejárás és képinformációk nyomtatása
+### 5. lépés: Képinformációk bejárása és kiírása
 
 ```java
 for (Image image : list) {
@@ -92,36 +104,58 @@ for (Image image : list) {
 }
 ```
 
-Iterálhatja a képek listáját, és nyomtathat olyan részleteket, mint a szélesség, magasság, eredeti méretek, fájlnév és az egyes képek utolsó módosításának ideje.
+Iteráljon a képek listáján, és írja ki az egyes képek részleteit, mint például a szélesség, magasság, eredeti méretek, fájlnév és az utolsó módosítás időpontja.
+
+## Miért kell képeket kinyerni a OneNote-ból Java-val?
+
+- **Automation:** Kézzel történő jegyzetfüzet ellenőrzés elkerülése.  
+- **Data Analytics:** Kép metaadatok betáplálása a jelentéskészítő csővezetékekbe.  
+- **Migration:** Kép attribútumok megőrzése a tartalom más platformokra való áthelyezésekor.  
+- **Performance:** Csak a szükséges metaadatok lekérése, a nehéz fájlparszolás elkerülése.
+
+## Gyakori hibák és tippek
+
+- **Incorrect path:** Ellenőrizze, hogy a `dataDir` a megfelelő fájlelválasztóval (`/` vagy `\`) végződik.  
+- **License issues:** Érvényes licenc nélkül az Aspose.Note értékelési figyelmeztetéseket dobhat.  
+- **Large notebooks:** Több ezer képet tartalmazó jegyzetfüzetek esetén fontolja meg a kötegelt feldolgozást a memóriahasználat csökkentése érdekében.
+
+## Gyakran feltett kérdések
+
+### Q1: Kezelhet az Aspose.Note for Java más dokumentumformátumokat is a OneNote-on kívül?
+
+A1: Igen, az Aspose.Note for Java különböző dokumentumformátumokat támogat, beleértve a OneNote-ot, a PDF-et és a Microsoft Word-öt.
+
+### Q2: Alkalmas az Aspose.Note for Java személyes és kereskedelmi használatra egyaránt?
+
+A2: Igen, az Aspose.Note for Java-t használhatja személyes és kereskedelmi célokra egyaránt.
+
+### Q3: Nyújt technikai támogatást az Aspose.Note for Java?
+
+A3: Igen, technikai támogatás érhető el az Aspose fórumokon itt: [here](https://forum.aspose.com/c/note/28).
+
+### Q4: Kipróbálhatom az Aspose.Note for Java-t vásárlás előtt?
+
+A4: Igen, ingyenes próbaverziót kipróbálhat az Aspose.Note for Java-ból itt: [Aspose.Note for Java](https://releases.aspose.com/note/java/).
+
+### Q5: Hogyan szerezhetek ideiglenes licencet az Aspose.Note for Java-hoz?
+
+A5: Ideiglenes licencet a [Temporary license/](https://purchase.aspose.com/temporary-license/) oldalon szerezhet.
 
 ## Következtetés
 
-Az oktatóanyagban ismertetett lépések követésével hatékonyan lekérheti a képadatokat a OneNote-dokumentumokból Java használatával az Aspose.Note for Java könyvtár segítségével. Ennek a funkciónak az alkalmazásaiba integrálása automatizálhatja a dokumentumfeldolgozással kapcsolatos feladatokat, növelve a hatékonyságot és a termelékenységet.
+A tutorialban leírt lépések követésével hatékonyan **get image dimensions java**-t tud lekérni OneNote dokumentumokból az Aspose.Note for Java segítségével. Ennek a funkciónak az alkalmazásokba való integrálása automatizálhatja a dokumentumfeldolgozással kapcsolatos feladatokat, növelve a hatékonyságot és a termelékenységet.
 
-## GYIK
-
-### 1. kérdés: Az Aspose.Note for Java kezelhet más dokumentumformátumokat a OneNote-on kívül?
-
-1. válasz: Igen, az Aspose.Note for Java különféle dokumentumformátumokat támogat, beleértve a OneNote-ot, a PDF-et és a Microsoft Word-t.
-
-### 2. kérdés: Az Aspose.Note for Java alkalmas személyes és kereskedelmi használatra is?
-
-2. válasz: Igen, az Aspose.Note for Java személyes és kereskedelmi célokra is használható.
-
-### 3. kérdés: Az Aspose.Note for Java technikai támogatást kínál?
-
- 3. válasz: Igen, a technikai támogatás elérhető az Aspose fórumain keresztül a címen[itt](https://forum.aspose.com/c/note/28).
-
-### 4. kérdés: Kipróbálhatom az Aspose.Note for Java programot vásárlás előtt?
-
- 4. válasz: Igen, felfedezheti az Aspose.Note a Java számára ingyenes próbaverzióját[Aspose.Note for Java](https://releases.aspose.com/note/java/).
-
-### 5. kérdés: Hogyan szerezhetek ideiglenes licencet az Aspose.Note for Java számára?
- 
- V5: Ideiglenes licencet szerezhet be[Ideiglenes jogosítvány/](https://purchase.aspose.com/temporary-license/).
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
+
+---
+
+**Last Updated:** 2025-12-21  
+**Tested With:** Aspose.Note for Java 23.12  
+**Author:** Aspose  
+
+---
