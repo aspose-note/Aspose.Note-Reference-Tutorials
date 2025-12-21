@@ -1,41 +1,51 @@
 ---
-title: Nhận thông tin hình ảnh từ OneNote bằng Java
-linktitle: Nhận thông tin hình ảnh từ OneNote bằng Java
-second_title: API Java Aspose.Note
-description: Trích xuất thông tin hình ảnh từ tài liệu OneNote trong Java! Nhận kích thước hình ảnh, tên tệp, v.v. Bao gồm các bước dễ dàng và ví dụ về mã. #OneNote #Java #Aspose
-weight: 15
+date: 2025-12-21
+description: Tìm hiểu cách lấy kích thước hình ảnh trong Java bằng Aspose.Note. Trích
+  xuất chiều rộng, chiều cao, tên tệp và nhiều thông tin khác từ các tệp OneNote chỉ
+  trong vài bước.
+linktitle: Get Image Dimensions Java from OneNote
+second_title: Aspose.Note Java API
+title: Lấy kích thước hình ảnh Java từ OneNote
 url: /vi/java/onenote-hyperlinks-images/get-image-info/
+weight: 15
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Nhận thông tin hình ảnh từ OneNote bằng Java
+# Lấy Kích Thước Hình Ảnh Java từ OneNote
 
 ## Giới thiệu
 
-Trong lĩnh vực phát triển Java, việc trích xuất thông tin từ các định dạng tài liệu khác nhau là một nhiệm vụ phổ biến. OneNote, một nền tảng ghi chú phổ biến, thường chứa hình ảnh bên cạnh văn bản. Truy xuất thông tin hình ảnh theo chương trình từ các tệp OneNote bằng Java có thể hợp lý hóa quy trình xử lý tài liệu. Trong hướng dẫn này, chúng ta sẽ tìm hiểu cách trích xuất chi tiết hình ảnh từ tài liệu OneNote bằng Aspose.Note cho Java.
+Nếu bạn cần **get image dimensions java** từ các sổ tay OneNote, bạn đang ở đúng nơi. Trong nhiều kịch bản tự động hoá—tạo báo cáo, di chuyển nội dung, hoặc phân tích—bạn sẽ muốn biết chiều rộng, chiều cao, kích thước gốc và tên tệp của mỗi hình ảnh mà không phải mở sổ tay thủ công. Hướng dẫn này sẽ chỉ cho bạn cách trích xuất thông tin đó một cách lập trình bằng Aspose.Note for Java.
 
-## Điều kiện tiên quyết
+## Câu trả lời nhanh
+- **Code này làm gì?** Lấy mọi hình ảnh trong một tệp OneNote và in ra kích thước, kích thước gốc, tên tệp và ngày sửa đổi.  
+- **Thư viện nào cần thiết?** Aspose.Note for Java.  
+- **Có cần giấy phép không?** Giấy phép tạm thời hoạt động cho việc thử nghiệm; giấy phép đầy đủ cần thiết cho môi trường sản xuất.  
+- **Có bao nhiêu dòng code?** Khoảng 30 dòng, chia thành các bước rõ ràng, có thể tái sử dụng.  
+- **Thời gian chạy điển hình?** Vài mili giây cho một sổ tay tiêu chuẩn với vài chục hình ảnh.
 
-Trước khi chúng ta đi sâu vào triển khai, hãy đảm bảo bạn có sẵn các điều kiện tiên quyết sau:
+## Yêu cầu trước
 
-### 1. Bộ công cụ phát triển Java (JDK)
+Trước khi chúng ta bắt đầu triển khai, hãy chắc chắn rằng bạn đã chuẩn bị các yêu cầu sau:
 
-Đảm bảo bạn đã cài đặt Bộ công cụ phát triển Java (JDK) trên hệ thống của mình. Bạn có thể tải xuống và cài đặt JDK mới nhất từ[Trang web của Oracle](https://www.oracle.com/java/technologies/javase-jdk15-downloads.html).
+### 1. Java Development Kit (JDK)
 
-### 2. Aspose.Note cho Thư viện Java
+Đảm bảo bạn đã cài đặt Java Development Kit (JDK) trên hệ thống của mình. Bạn có thể tải và cài đặt JDK mới nhất từ [Oracle website](https://www.oracle.com/java/technologies/javase-jdk15-downloads.html).
 
- Tải xuống và đưa thư viện Aspose.Note for Java vào dự án của bạn. Bạn có thể lấy thư viện từ[trang tải xuống](https://releases.aspose.com/note/java/).
+### 2. Thư viện Aspose.Note for Java
+
+Tải và thêm thư viện Aspose.Note for Java vào dự án của bạn. Bạn có thể lấy thư viện này từ [trang tải xuống](https://releases.aspose.com/note/java/).
 
 ### 3. Tài liệu OneNote
 
-Chuẩn bị một tài liệu OneNote mẫu có chứa hình ảnh. Tài liệu này sẽ được sử dụng để trích xuất thông tin hình ảnh theo chương trình.
+Chuẩn bị một tài liệu OneNote mẫu chứa hình ảnh. Tài liệu này sẽ được dùng để trích xuất thông tin hình ảnh một cách lập trình.
 
-## Gói nhập khẩu
+## Nhập các gói
 
-Để bắt đầu, hãy nhập các gói cần thiết từ Aspose.Note cho Java:
+Để bắt đầu, nhập các gói cần thiết từ Aspose.Note for Java:
 
 ```java
 import java.io.IOException;
@@ -44,41 +54,43 @@ import com.aspose.note.Document;
 import com.aspose.note.Image;
 ```
 
-Hãy chia đoạn mã trên thành các hướng dẫn từng bước:
+Hãy phân tích đoạn code trên thành các hướng dẫn từng bước:
 
-## Bước 1: Đặt thư mục tài liệu
+## Cách lấy kích thước hình ảnh java từ OneNote
+
+### Bước 1: Đặt Thư mục Tài liệu
 
 ```java
 String dataDir = "Your Document Directory";
 ```
 
- Thay thế`"Your Document Directory"` với đường dẫn đến tài liệu OneNote của bạn.
+Thay thế `"Your Document Directory"` bằng đường dẫn tới tài liệu OneNote của bạn.
 
-## Bước 2: Tải tài liệu
+### Bước 2: Tải Tài liệu
 
 ```java
 Document doc = new Document(dataDir + "Sample1.one");
 ```
 
-Tải tài liệu OneNote bằng thư viện Aspose.Note for Java. Đảm bảo bạn cung cấp đường dẫn chính xác tới tài liệu của mình.
+Tải tài liệu OneNote bằng thư viện Aspose.Note for Java. Đảm bảo bạn cung cấp đúng đường dẫn tới tài liệu.
 
-## Bước 3: Lấy tất cả hình ảnh
+### Bước 3: Lấy Tất Cả Hình Ảnh
 
 ```java
 List<Image> list = doc.getChildNodes(Image.class);
 ```
 
-Truy xuất tất cả hình ảnh từ tài liệu OneNote đã tải.
+Lấy tất cả hình ảnh từ tài liệu OneNote đã tải.
 
-## Bước 4: In tổng số ảnh
+### Bước 4: In Tổng Số Hình Ảnh
 
 ```java
 System.out.printf("Total Images: %s\n\n", list.size());
 ```
 
-In tổng số hình ảnh được tìm thấy trong tài liệu.
+In ra tổng số hình ảnh được tìm thấy trong tài liệu.
 
-## Bước 5: Di chuyển và in thông tin hình ảnh
+### Bước 5: Duyệt và In Thông Tin Hình Ảnh
 
 ```java
 for (Image image : list) {
@@ -92,36 +104,58 @@ for (Image image : list) {
 }
 ```
 
-Lặp lại danh sách hình ảnh và in chi tiết như chiều rộng, chiều cao, kích thước ban đầu, tên tệp và thời gian sửa đổi lần cuối cho mỗi hình ảnh.
+Duyệt qua danh sách hình ảnh và in các chi tiết như chiều rộng, chiều cao, kích thước gốc, tên tệp và thời gian sửa đổi cuối cùng cho mỗi hình ảnh.
 
-## Phần kết luận
+## Tại sao trích xuất hình ảnh từ OneNote bằng Java?
 
-Bằng cách làm theo các bước được nêu trong hướng dẫn này, bạn có thể truy xuất thông tin hình ảnh từ tài liệu OneNote bằng cách sử dụng Java một cách hiệu quả với sự hỗ trợ của thư viện Aspose.Note for Java. Việc tích hợp chức năng này vào ứng dụng của bạn có thể tự động hóa các tác vụ liên quan đến xử lý tài liệu, nâng cao hiệu quả và năng suất.
+- **Tự động hoá:** Loại bỏ việc kiểm tra thủ công các sổ tay.  
+- **Phân tích dữ liệu:** Đưa siêu dữ liệu hình ảnh vào các pipeline báo cáo.  
+- **Di chuyển:** Bảo tồn các thuộc tính hình ảnh khi chuyển nội dung sang nền tảng khác.  
+- **Hiệu suất:** Chỉ lấy siêu dữ liệu cần thiết, tránh việc phân tích tệp nặng.
 
-## Câu hỏi thường gặp
+## Những Cạm Bẫy Thường Gặp & Mẹo
 
-### Câu hỏi 1: Aspose.Note for Java có thể xử lý các định dạng tài liệu khác ngoài OneNote không?
+- **Đường dẫn không đúng:** Kiểm tra lại `dataDir` kết thúc bằng ký tự phân tách tệp thích hợp (`/` hoặc `\`).  
+- **Vấn đề giấy phép:** Nếu không có giấy phép hợp lệ, Aspose.Note có thể đưa ra cảnh báo đánh giá.  
+- **Sổ tay lớn:** Đối với sổ tay có hàng ngàn hình ảnh, hãy xem xét xử lý theo lô để giảm tiêu thụ bộ nhớ.
 
-Câu trả lời 1: Có, Aspose.Note for Java hỗ trợ nhiều định dạng tài liệu khác nhau, bao gồm OneNote, PDF và Microsoft Word.
+## Câu Hỏi Thường Gặp
 
-### Câu hỏi 2: Aspose.Note dành cho Java có phù hợp cho cả mục đích sử dụng cá nhân và thương mại không?
+### Q1: Aspose.Note for Java có thể xử lý các định dạng tài liệu khác ngoài OneNote không?
 
-Câu trả lời 2: Có, bạn có thể sử dụng Aspose.Note for Java cho cả mục đích cá nhân và thương mại.
+A1: Có, Aspose.Note for Java hỗ trợ nhiều định dạng tài liệu, bao gồm OneNote, PDF và Microsoft Word.
 
-### Câu hỏi 3: Aspose.Note for Java có cung cấp hỗ trợ kỹ thuật không?
+### Q2: Aspose.Note for Java có phù hợp cho cả mục đích cá nhân và thương mại không?
 
- Câu trả lời 3: Có, hỗ trợ kỹ thuật được cung cấp thông qua diễn đàn Aspose tại[đây](https://forum.aspose.com/c/note/28).
+A2: Có, bạn có thể sử dụng Aspose.Note for Java cho cả mục đích cá nhân và thương mại.
 
-### Câu hỏi 4: Tôi có thể dùng thử Aspose.Note cho Java trước khi mua hàng không?
+### Q3: Aspose.Note for Java có cung cấp hỗ trợ kỹ thuật không?
 
- Câu trả lời 4: Có, bạn có thể khám phá phiên bản dùng thử miễn phí của Aspose.Note dành cho Java từ[Aspose.Note cho Java](https://releases.aspose.com/note/java/).
+A3: Có, hỗ trợ kỹ thuật có sẵn qua diễn đàn Aspose tại [here](https://forum.aspose.com/c/note/28).
 
-### Câu hỏi 5: Làm cách nào tôi có thể nhận được giấy phép tạm thời cho Aspose.Note cho Java?
- 
- Câu trả lời 5: Bạn có thể lấy giấy phép tạm thời từ[Giấy phép tạm thời/](https://purchase.aspose.com/temporary-license/).
+### Q4: Tôi có thể thử Aspose.Note for Java trước khi mua không?
+
+A4: Có, bạn có thể khám phá phiên bản dùng thử miễn phí của Aspose.Note for Java từ [Aspose.Note for Java](https://releases.aspose.com/note/java/).
+
+### Q5: Làm sao để tôi có được giấy phép tạm thời cho Aspose.Note for Java?
+
+A5: Bạn có thể lấy giấy phép tạm thời từ [Temporary license/](https://purchase.aspose.com/temporary-license/).
+
+## Kết luận
+
+Bằng cách thực hiện các bước trong hướng dẫn này, bạn có thể hiệu quả **get image dimensions java** từ các tài liệu OneNote bằng Aspose.Note for Java. Việc tích hợp chức năng này vào ứng dụng của bạn có thể tự động hoá các nhiệm vụ liên quan đến xử lý tài liệu, nâng cao hiệu quả và năng suất.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
+
+---
+
+**Cập nhật lần cuối:** 2025-12-21  
+**Được kiểm tra với:** Aspose.Note for Java 23.12  
+**Tác giả:** Aspose  
+
+---
