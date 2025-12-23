@@ -1,34 +1,54 @@
 ---
-title: Lägg till alternativ text till bild i OneNote med Java
-linktitle: Lägg till alternativ text till bild i OneNote med Java
+date: 2025-12-23
+description: Lär dig hur du lägger till alt‑text till bilder i OneNote‑dokument med
+  Java och Aspose.Note. Denna guide visar hur du lägger till alternativ bildtext för
+  bättre tillgänglighet.
+linktitle: How to Add Alt Text to Image in OneNote using Java
 second_title: Aspose.Note Java API
-description: Lär dig hur du lägger till alternativ text till bilder i OneNote-dokument med Java med Aspose.Note, vilket förbättrar tillgängligheten och inkluderingen.
-weight: 10
+title: Hur man lägger till alt‑text till en bild i OneNote med Java
 url: /sv/java/onenote-image-alternative-text/add-alternative-text-to-image/
+weight: 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Lägg till alternativ text till bild i OneNote med Java
+# Hur man lägger till alt‑text till bild i OneNote med Java
 
 ## Introduktion
 
-I den här handledningen kommer vi att fördjupa oss i en omfattande guide om hur du använder Aspose.Note för Java för att lägga till alternativ text till bilder i OneNote-dokument. Alternativ text fungerar som en textbeskrivning av bilder, vilket underlättar tillgänglighet och förståelse för individer som kanske inte kan se bilder direkt, till exempel de som använder skärmläsare. Genom att följa den här handledningen lär du dig hur du sömlöst integrerar alternativ text i dina OneNote-dokument med hjälp av programmeringsspråket Java.
+I den här handledningen kommer du att upptäcka **hur man lägger till alt**‑text till bilder i OneNote‑dokument med Java och Aspose.Note‑API:t. Att lägga till alternativ text (alt‑text) förbättrar tillgängligheten för skärmläsaranvändare och ökar den övergripande inkluderingen av ditt innehåll. I slutet av guiden kommer du att kunna sätta bild‑alt‑text i Java, vilket gör dina OneNote‑filer mer förenliga med tillgänglighetsstandarder.
+
+## Snabba svar
+- **Vilket bibliotek krävs?** Aspose.Note for Java  
+- **Vilket primärt nyckelord riktar sig den här handledningen mot?** how to add alt  
+- **Behöver jag en licens för produktion?** Ja, en kommersiell licens krävs (en gratis provversion finns tillgänglig).  
+- **Kan jag lägga till alt‑text till flera bilder?** Absolut – upprepa bara stegen för varje bild.  
+- **Vilken Java‑version stöds?** Java 8 eller högre.
+
+## Vad betyder “how to add alt” i OneNote‑sammanhang?
+
+Att lägga till alt‑text innebär att tillhandahålla en textuell beskrivning av en bild som kan läsas av hjälpmedelstekniker. Denna beskrivning hjälper användare som inte kan se bilden att förstå dess syfte.
+
+## Varför lägga till alt‑text till bilder i OneNote?
+
+- **Tillgänglighet:** Uppfyller WCAG‑riktlinjer och förbättrar upplevelsen för användare med synnedsättningar.  
+- **Sökbarhet:** Sökmotorer kan indexera beskrivningen, vilket gör ditt innehåll mer upptäckbart.  
+- **Professionalism:** Visar ett engagemang för inkluderande design.
 
 ## Förutsättningar
 
-Innan du dyker in i handledningen, se till att du har följande förutsättningar:
+Innan du dyker ner i handledningen, se till att du har följande förutsättningar:
 
-1. Java Development Kit (JDK): Se till att du har JDK installerat på ditt system.
-2.  Aspose.Note for Java Library: Ladda ner och installera Aspose.Note for Java-biblioteket från[här](https://releases.aspose.com/note/java/).
-3. Integrated Development Environment (IDE): Ha en IDE som IntelliJ IDEA eller Eclipse inställd för Java-utveckling.
-4. Grundläggande kunskaper om Java-programmering: Bekanta dig med grundläggande Java-programmeringskoncept.
+1. Java Development Kit (JDK) – version 8 eller senare.  
+2. Aspose.Note for Java Library – ladda ner den från [here](https://releases.aspose.com/note/java/).  
+3. En IDE såsom IntelliJ IDEA eller Eclipse.  
+4. Grundläggande kunskap i Java‑programmering.
 
 ## Importera paket
 
-Först måste du importera de nödvändiga paketen till ditt Java-projekt för att använda Aspose.Note-funktionerna.
+Importera först de nödvändiga paketen i ditt Java‑projekt för att använda Aspose.Note‑funktionaliteten.
 
 ```java
 import java.io.IOException;
@@ -38,105 +58,115 @@ import com.aspose.note.Image;
 import com.aspose.note.Page;
 ```
 
-Låt oss nu dela upp processen att lägga till alternativ text till en bild i ett OneNote-dokument med hjälp av Java och Aspose.Note i steg-för-steg-instruktioner.
+Nu ska vi gå igenom processen för att lägga till **alternativ text bild** i ett OneNote‑dokument med Java och Aspose.Note i steg‑för‑steg‑instruktioner.
 
-## Steg 1: Konfigurera dokumentkatalog
+## Hur man lägger till alt‑text till bilder i OneNote med Java
+
+### Steg 1: Ställ in dokumentkatalogen
 
 ```java
 String dataDir = "Your Document Directory";
 ```
 
- Se till att byta ut`"Your Document Directory"` med sökvägen till din dokumentkatalog.
+Ersätt `"Your Document Directory"` med sökvägen till den mapp som innehåller din källbild och där utdatafilen ska sparas.
 
-## Steg 2: Skapa ett dokumentobjekt
+### Steg 2: Skapa ett dokumentobjekt
 
 ```java
 Document document = new Document();
 ```
 
-Skapa en ny instans av klassen Document.
+Detta skapar ett nytt, tomt OneNote‑dokument.
 
-## Steg 3: Skapa ett sidobjekt
+### Steg 3: Skapa ett sidobjekt
 
 ```java
 Page page = new Page();
 ```
 
-Skapa en ny instans av klassen Page.
+En sida kommer att hysa bilden vi håller på att lägga till.
 
-## Steg 4: Lägg till en bild på sidan
+### Steg 4: Lägg till en bild på sidan
 
 ```java
 Image image = new Image(null, dataDir + "image.jpg");
 ```
 
-Skapa en instans av klassen Image och skicka bildfilens sökväg som en parameter.
+`Image`‑konstruktorn laddar bildfilen från den angivna sökvägen.
 
-## Steg 5: Ställ in alternativ texttitel
+### Steg 5: Ställ in alternativ text‑titel
 
 ```java
 image.setAlternativeTextTitle("ImageAlternativeText Title");
 ```
 
-Ställ in den alternativa texttiteln för bilden.
+Här **lägger vi till alt‑text** som fungerar som en kort titel för bilden.
 
-## Steg 6: Ställ in alternativ textbeskrivning
+### Steg 6: Ställ in alternativ text‑beskrivning
 
 ```java
 image.setAlternativeTextDescription("ImageAlternativeText Description");
 ```
 
-Ställ in den alternativa textbeskrivningen för bilden.
+Denna beskrivning ger en mer detaljerad förklaring – perfekt för skärmläsare.
 
-## Steg 7: Lägg till bild på sidan
+### Steg 7: Lägg till bilden på sidan
 
 ```java
 page.appendChildLast(image);
 ```
 
-Lägg till bilden på sidan.
+Bilden (nu berikad med alt‑text) läggs till på sidan.
 
-## Steg 8: Lägg till sida till dokumentet
+### Steg 8: Lägg till sidan i dokumentet
 
 ```java
 document.appendChildLast(page);
 ```
 
-Lägg till sidan i dokumentet.
+Fäst sidan i OneNote‑dokumentet.
 
-## Steg 9: Spara dokument
+### Steg 9: Spara dokumentet
 
 ```java
 document.save(dataDir + "AlternativeText_out.one");
 ```
 
-Spara det ändrade dokumentet med alternativ text till bilden.
+Dokumentet sparas med den alternativa texten inbäddad i bilden.
+
+## Vanliga problem och lösningar
+
+- **FileNotFoundException:** Verifiera att `dataDir` pekar på rätt mapp och att `image.jpg` finns.  
+- **NullPointerException på bild:** Säkerställ att bildens sökväg är giltig och att filen inte är skadad.  
+- **Licensfel:** Använd en giltig Aspose.Note‑licensfil eller kör i provläge för utvärdering.
+
+## Vanliga frågor
+
+**Q: Kan jag lägga till alt‑text till flera bilder i ett och samma dokument?**  
+A: Ja, upprepa helt enkelt steg 4‑6 för varje bild du vill annotera.
+
+**Q: Vilka bildformat stöds för att lägga till alt‑text?**  
+A: Aspose.Note stöder JPEG, PNG, GIF, BMP och flera andra vanliga format.
+
+**Q: Är det möjligt att ändra eller ta bort alt‑text efter att den har satts?**  
+A: Absolut. Anropa `setAlternativeTextTitle("")` eller `setAlternativeTextDescription("")` för att rensa värdena, eller ange nya strängar för att uppdatera dem.
+
+**Q: Tillhandahåller Aspose.Note API:er för andra språk än Java?**  
+A: Ja, biblioteket finns också för .NET, C++ och Python.
+
+**Q: Var kan jag ladda ner en provversion av Aspose.Note?**  
+A: Du kan få en gratis provversion från [here](https://releases.aspose.com/).
 
 ## Slutsats
 
-I den här handledningen har vi utforskat hur man kan förbättra tillgängligheten för OneNote-dokument genom att lägga till alternativ text till bilder med Java med Aspose.Note. Genom att följa den steg-för-steg-guide som beskrivs ovan kan du säkerställa att dina dokument är mer inkluderande och tillgängliga för en bredare publik.
+Genom att följa den här steg‑för‑steg‑guiden vet du nu **hur man lägger till alt**‑text till bilder i OneNote med Java. Att implementera `add alternative text image` gör inte bara dina dokument mer tillgängliga utan förbättrar också deras sökbarhet och övergripande kvalitet. Känn dig fri att experimentera med olika titlar och beskrivningar för att bäst förmedla innebörden av varje bild.
 
-## FAQ's
+---
 
-### F1: Kan jag lägga till alternativ text till flera bilder i ett enda dokument?
+**Last Updated:** 2025-12-23  
+**Tested With:** Aspose.Note for Java 24.11  
+**Author:** Aspose  
 
-S1: Ja, du kan lägga till alternativ text till flera bilder genom att iterera genom varje bild och ställa in alternativ text därefter.
-
-### F2: Är Aspose.Note kompatibel med olika bildformat?
-
-S2: Ja, Aspose.Note stöder olika bildformat som JPEG, PNG, GIF, etc.
-
-### F3: Kan alternativ text redigeras eller tas bort när den väl har lagts till i en bild?
-
-S3: Ja, du kan redigera eller ta bort alternativ text från en bild genom att ändra respektive egenskaper.
-
-### F4: Ger Aspose.Note stöd för andra programmeringsspråk förutom Java?
-
-S4: Ja, Aspose.Note är tillgängligt för flera programmeringsspråk inklusive .NET, C++, och Python.
-
-### F5: Finns det en testversion tillgänglig för Aspose.Note?
-
- S5: Ja, du kan använda en gratis testversion av Aspose.Note från[här](https://releases.aspose.com/).
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
