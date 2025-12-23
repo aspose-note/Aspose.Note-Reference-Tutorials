@@ -1,34 +1,54 @@
 ---
-title: Tambahkan Teks Alternatif ke Gambar di OneNote menggunakan Java
-linktitle: Tambahkan Teks Alternatif ke Gambar di OneNote menggunakan Java
-second_title: Aspose.Catatan Java API
-description: Pelajari cara menambahkan teks alternatif ke gambar di dokumen OneNote menggunakan Java dengan Aspose.Note, sehingga meningkatkan aksesibilitas dan inklusivitas.
-weight: 10
+date: 2025-12-23
+description: Pelajari cara menambahkan teks alt pada gambar dalam dokumen OneNote
+  menggunakan Java dengan Aspose.Note. Panduan ini menunjukkan cara menambahkan teks
+  alternatif pada gambar untuk aksesibilitas yang lebih baik.
+linktitle: How to Add Alt Text to Image in OneNote using Java
+second_title: Aspose.Note Java API
+title: Cara Menambahkan Teks Alt ke Gambar di OneNote dengan Java
 url: /id/java/onenote-image-alternative-text/add-alternative-text-to-image/
+weight: 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Tambahkan Teks Alternatif ke Gambar di OneNote menggunakan Java
+# Cara Menambahkan Teks Alt ke Gambar di OneNote menggunakan Java
 
-## Perkenalan
+## Pendahuluan
 
-Dalam tutorial ini, kita akan mempelajari panduan komprehensif tentang penggunaan Aspose.Note untuk Java guna menambahkan teks alternatif ke gambar dalam dokumen OneNote. Teks alternatif berfungsi sebagai deskripsi tekstual gambar, membantu aksesibilitas dan pemahaman bagi individu yang mungkin tidak dapat melihat gambar secara langsung, seperti mereka yang menggunakan pembaca layar. Dengan mengikuti tutorial ini, Anda akan mempelajari cara mengintegrasikan teks alternatif ke dalam dokumen OneNote Anda dengan lancar menggunakan bahasa pemrograman Java.
+Dalam tutorial ini, Anda akan menemukan **cara menambahkan alt** teks ke gambar dalam dokumen OneNote menggunakan Java dan Aspose.Note API. Menambahkan teks alternatif (alt text) meningkatkan aksesibilitas bagi pengguna pembaca layar dan meningkatkan inklusivitas keseluruhan konten Anda. Pada akhir panduan ini, Anda akan dapat mengatur teks alt gambar dalam Java, membuat file OneNote Anda lebih sesuai dengan standar aksesibilitas.
+
+## Jawaban Cepat
+- **Library apa yang diperlukan?** Aspose.Note for Java  
+- **Kata kunci utama apa yang ditargetkan tutorial ini?** how to add alt  
+- **Apakah saya memerlukan lisensi untuk produksi?** Ya, lisensi komersial diperlukan (versi percobaan gratis tersedia).  
+- **Bisakah saya menambahkan teks alt ke beberapa gambar?** Tentu – cukup ulangi langkah untuk setiap gambar.  
+- **Versi Java apa yang didukung?** Java 8 atau lebih tinggi.
+
+## Apa itu “how to add alt” dalam konteks OneNote?
+
+Menambahkan teks alt berarti memberikan deskripsi tekstual untuk sebuah gambar yang dapat dibaca oleh teknologi bantu. Deskripsi ini membantu pengguna yang tidak dapat melihat gambar memahami tujuannya.
+
+## Mengapa menambahkan teks alt ke gambar di OneNote?
+
+- **Aksesibilitas:** Memenuhi pedoman WCAG dan meningkatkan pengalaman bagi pengguna dengan gangguan penglihatan.  
+- **Ketercarian:** Mesin pencari dapat mengindeks deskripsi, membuat konten Anda lebih mudah ditemukan.  
+- **Profesionalisme:** Menunjukkan komitmen terhadap desain inklusif.
 
 ## Prasyarat
 
-Sebelum masuk ke tutorial, pastikan Anda memiliki prasyarat berikut:
+Sebelum memulai tutorial, pastikan Anda memiliki prasyarat berikut:
 
-1. Java Development Kit (JDK): Pastikan Anda telah menginstal JDK di sistem Anda.
-2.  Aspose.Note untuk Perpustakaan Java: Unduh dan instal perpustakaan Aspose.Note untuk Java dari[Di Sini](https://releases.aspose.com/note/java/).
-3. Lingkungan Pengembangan Terpadu (IDE): Siapkan IDE seperti IntelliJ IDEA atau Eclipse untuk pengembangan Java.
-4. Pengetahuan Dasar Pemrograman Java: Biasakan diri Anda dengan konsep dasar pemrograman Java.
+1. Java Development Kit (JDK) – versi 8 atau lebih baru.  
+2. Aspose.Note for Java Library – unduh dari [here](https://releases.aspose.com/note/java/).  
+3. IDE seperti IntelliJ IDEA atau Eclipse.  
+4. Pengetahuan dasar pemrograman Java.
 
-## Paket Impor
+## Impor Paket
 
-Pertama, Anda perlu mengimpor paket yang diperlukan ke proyek Java Anda untuk memanfaatkan fungsionalitas Aspose.Note.
+Pertama, impor paket yang diperlukan ke dalam proyek Java Anda untuk memanfaatkan fungsionalitas Aspose.Note.
 
 ```java
 import java.io.IOException;
@@ -38,105 +58,115 @@ import com.aspose.note.Image;
 import com.aspose.note.Page;
 ```
 
-Sekarang, mari kita uraikan proses menambahkan teks alternatif ke gambar di dokumen OneNote menggunakan Java dan Aspose.Note menjadi petunjuk langkah demi langkah.
+Sekarang, mari kita uraikan proses menambahkan **gambar teks alternatif** ke dokumen OneNote menggunakan Java dan Aspose.Note menjadi instruksi langkah demi langkah.
 
-## Langkah 1: Siapkan Direktori Dokumen
+## Cara Menambahkan Teks Alt ke Gambar di OneNote menggunakan Java
+
+### Langkah 1: Siapkan Direktori Dokumen
 
 ```java
 String dataDir = "Your Document Directory";
 ```
 
- Pastikan untuk mengganti`"Your Document Directory"` dengan jalur ke direktori dokumen Anda.
+Ganti `"Your Document Directory"` dengan path ke folder yang berisi gambar sumber Anda dan tempat file output akan disimpan.
 
-## Langkah 2: Buat Objek Dokumen
+### Langkah 2: Buat Objek Dokumen
 
 ```java
 Document document = new Document();
 ```
 
-Buat instance baru dari kelas Dokumen.
+Ini membuat dokumen OneNote baru yang kosong.
 
-## Langkah 3: Buat Objek Halaman
+### Langkah 3: Buat Objek Halaman
 
 ```java
 Page page = new Page();
 ```
 
-Buat instance baru dari kelas Halaman.
+Sebuah halaman akan menampung gambar yang akan kita tambahkan.
 
-## Langkah 4: Tambahkan Gambar ke Halaman
+### Langkah 4: Tambahkan Gambar ke Halaman
 
 ```java
 Image image = new Image(null, dataDir + "image.jpg");
 ```
 
-Buat instance kelas Gambar, dengan meneruskan jalur file gambar sebagai parameter.
+Konstruktor `Image` memuat file gambar dari path yang ditentukan.
 
-## Langkah 5: Tetapkan Judul Teks Alternatif
+### Langkah 5: Atur Judul Teks Alternatif
 
 ```java
 image.setAlternativeTextTitle("ImageAlternativeText Title");
 ```
 
-Tetapkan judul teks alternatif untuk gambar.
+Di sini kita **menambahkan teks alt** yang berfungsi sebagai judul singkat untuk gambar.
 
-## Langkah 6: Tetapkan Deskripsi Teks Alternatif
+### Langkah 6: Atur Deskripsi Teks Alternatif
 
 ```java
 image.setAlternativeTextDescription("ImageAlternativeText Description");
 ```
 
-Tetapkan deskripsi teks alternatif untuk gambar.
+Deskripsi ini memberikan penjelasan yang lebih detail—sangat cocok untuk pembaca layar.
 
-## Langkah 7: Tambahkan Gambar ke Halaman
+### Langkah 7: Tambahkan Gambar ke Halaman
 
 ```java
 page.appendChildLast(image);
 ```
 
-Tambahkan gambar ke halaman.
+Gambar (sekarang diperkaya dengan teks alt) ditambahkan ke halaman.
 
-## Langkah 8: Tambahkan Halaman ke Dokumen
+### Langkah 8: Tambahkan Halaman ke Dokumen
 
 ```java
 document.appendChildLast(page);
 ```
 
-Tambahkan halaman ke dokumen.
+Lampirkan halaman ke dokumen OneNote.
 
-## Langkah 9: Simpan Dokumen
+### Langkah 9: Simpan Dokumen
 
 ```java
 document.save(dataDir + "AlternativeText_out.one");
 ```
 
-Simpan dokumen yang dimodifikasi dengan teks alternatif yang ditambahkan ke gambar.
+Dokumen disimpan dengan teks alternatif yang tertanam dalam gambar.
+
+## Masalah Umum dan Solusinya
+
+- **FileNotFoundException:** Pastikan `dataDir` mengarah ke folder yang benar dan `image.jpg` ada.  
+- **NullPointerException pada gambar:** Pastikan path gambar valid dan file tidak rusak.  
+- **Kesalahan lisensi:** Gunakan file lisensi Aspose.Note yang valid atau jalankan dalam mode percobaan untuk evaluasi.
+
+## Pertanyaan yang Sering Diajukan
+
+**Q: Bisakah saya menambahkan teks alt ke beberapa gambar dalam satu dokumen?**  
+A: Ya, cukup ulangi langkah 4‑6 untuk setiap gambar yang ingin Anda beri anotasi.
+
+**Q: Format gambar apa yang didukung untuk menambahkan teks alt?**  
+A: Aspose.Note mendukung JPEG, PNG, GIF, BMP, dan beberapa format umum lainnya.
+
+**Q: Apakah memungkinkan untuk memodifikasi atau menghapus teks alt setelah diatur?**  
+A: Tentu. Panggil `setAlternativeTextTitle("")` atau `setAlternativeTextDescription("")` untuk mengosongkan nilai, atau berikan string baru untuk memperbaruinya.
+
+**Q: Apakah Aspose.Note menyediakan API untuk bahasa lain selain Java?**  
+A: Ya, perpustakaan ini juga tersedia untuk .NET, C++, dan Python.
+
+**Q: Di mana saya dapat mengunduh versi percobaan Aspose.Note?**  
+A: Anda dapat memperoleh percobaan gratis dari [here](https://releases.aspose.com/).
 
 ## Kesimpulan
 
-Dalam tutorial ini, kita telah menjelajahi cara meningkatkan aksesibilitas dokumen OneNote dengan menambahkan teks alternatif ke gambar menggunakan Java dengan Aspose.Note. Dengan mengikuti panduan langkah demi langkah yang diuraikan di atas, Anda dapat memastikan bahwa dokumen Anda lebih inklusif dan dapat diakses oleh khalayak yang lebih luas.
+Dengan mengikuti panduan langkah demi langkah ini, Anda kini tahu **cara menambahkan alt** teks ke gambar di OneNote menggunakan Java. Menerapkan `add alternative text image` tidak hanya membuat dokumen Anda lebih dapat diakses tetapi juga meningkatkan ketercariannya dan kualitas secara keseluruhan. Jangan ragu untuk bereksperimen dengan judul dan deskripsi yang berbeda untuk menyampaikan makna setiap gambar dengan terbaik.
 
-## FAQ
+---
 
-### Q1: Dapatkah saya menambahkan teks alternatif ke beberapa gambar dalam satu dokumen?
+**Terakhir Diperbarui:** 2025-12-23  
+**Diuji Dengan:** Aspose.Note for Java 24.11  
+**Penulis:** Aspose  
 
-A1: Ya, Anda dapat menambahkan teks alternatif ke beberapa gambar dengan mengulangi setiap gambar dan mengatur teks alternatif yang sesuai.
-
-### Q2: Apakah Aspose.Note kompatibel dengan format gambar yang berbeda?
-
-A2: Ya, Aspose.Note mendukung berbagai format gambar seperti JPEG, PNG, GIF, dll.
-
-### Q3: Bisakah teks alternatif diedit atau dihapus setelah ditambahkan ke gambar?
-
-A3: Ya, Anda dapat mengedit atau menghapus teks alternatif dari gambar dengan memodifikasi properti masing-masing.
-
-### Q4: Apakah Aspose.Note menyediakan dukungan untuk bahasa pemrograman lain selain Java?
-
-A4: Ya, Aspose.Note tersedia untuk berbagai bahasa pemrograman termasuk .NET, C++, dan Piton.
-
-### Q5: Apakah ada versi uji coba yang tersedia untuk Aspose.Note?
-
- A5: Ya, Anda dapat memanfaatkan Aspose.Note versi uji coba gratis dari[Di Sini](https://releases.aspose.com/).
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

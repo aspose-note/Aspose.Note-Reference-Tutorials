@@ -1,34 +1,52 @@
 ---
-title: Java を使用して OneNote の画像に代替テキストを追加する
-linktitle: Java を使用して OneNote の画像に代替テキストを追加する
+date: 2025-12-23
+description: Java と Aspose.Note を使用して OneNote ドキュメントの画像に代替テキストを追加する方法を学びましょう。このガイドでは、アクセシビリティ向上のために代替テキスト画像を追加する手順を示します。
+linktitle: How to Add Alt Text to Image in OneNote using Java
 second_title: Aspose.Note Java API
-description: Java と Aspose.Note を使用して、OneNote ドキュメント内の画像に代替テキストを追加し、アクセシビリティと包括性を強化する方法を学びます。
-weight: 10
+title: Javaを使用してOneNoteの画像に代替テキストを追加する方法
 url: /ja/java/onenote-image-alternative-text/add-alternative-text-to-image/
+weight: 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Java を使用して OneNote の画像に代替テキストを追加する
+# OneNoteで画像に代替テキストを追加する方法（Java）
 
-## 導入
+## Introduction
 
-このチュートリアルでは、Aspose.Note for Java を利用して OneNote ドキュメント内の画像に代替テキストを追加するための包括的なガイドについて詳しく説明します。代替テキストは、画像のテキストによる説明として機能し、スクリーン リーダーを使用している人など、画像を直接表示できないユーザーのアクセシビリティと理解を支援します。このチュートリアルに従うことで、Java プログラミング言語を使用して代替テキストを OneNote ドキュメントにシームレスに統合する方法を学習します。
+このチュートリアルでは、Java と Aspose.Note API を使用して OneNote ドキュメントの画像に **代替テキスト（alt）** を追加する方法を紹介します。代替テキストを設定することで、スクリーンリーダー利用者へのアクセシビリティが向上し、コンテンツ全体の包括性が高まります。本ガイドを最後まで読むと、Java で画像の alt テキストを設定できるようになり、OneNote ファイルがアクセシビリティ基準により準拠した形になります。
 
-## 前提条件
+## Quick Answers
+- **必要なライブラリは？** Aspose.Note for Java  
+- **このチュートリアルの主要キーワードは？** how to add alt  
+- **本番環境でライセンスは必要ですか？** はい、商用ライセンスが必要です（無料トライアルあり）。  
+- **複数の画像に alt テキストを追加できますか？** もちろんです – 画像ごとに手順を繰り返すだけです。  
+- **対応している Java バージョンは？** Java 8 以上。
 
-チュートリアルに進む前に、次の前提条件を満たしていることを確認してください。
+## What is “how to add alt” in the context of OneNote?
 
-1. Java Development Kit (JDK): システムに JDK がインストールされていることを確認してください。
-2.  Aspose.Note for Java ライブラリ:Aspose.Note for Java ライブラリを次からダウンロードしてインストールします。[ここ](https://releases.aspose.com/note/java/).
-3. 統合開発環境 (IDE): Java 開発用に IntelliJ IDEA や Eclipse などの IDE をセットアップします。
-4. Java プログラミングの基本知識: Java プログラミングの基本概念を理解します。
+alt テキストを追加するとは、画像の内容をテキストで記述し、支援技術が読み上げられるようにすることです。この説明により、画像を見ることができないユーザーでも画像の目的を理解できます。
 
-## パッケージのインポート
+## Why add alt text to images in OneNote?
 
-まず、Aspose.Note の機能を利用するには、必要なパッケージを Java プロジェクトにインポートする必要があります。
+- **アクセシビリティ:** WCAG ガイドラインに準拠し、視覚障害のあるユーザーの体験を向上させます。  
+- **検索性:** 検索エンジンが説明文をインデックスできるため、コンテンツの発見性が高まります。  
+- **プロフェッショナリズム:** 包括的なデザインへの取り組みを示すことができます。
+
+## Prerequisites
+
+チュートリアルに入る前に、以下の前提条件を満たしていることを確認してください。
+
+1. Java Development Kit (JDK) – バージョン 8 以上。  
+2. Aspose.Note for Java ライブラリ – [here](https://releases.aspose.com/note/java/) からダウンロード。  
+3. IntelliJ IDEA や Eclipse などの IDE。  
+4. Java プログラミングの基本知識。
+
+## Import Packages
+
+まず、Aspose.Note の機能を利用できるように、必要なパッケージを Java プロジェクトにインポートします。
 
 ```java
 import java.io.IOException;
@@ -38,105 +56,115 @@ import com.aspose.note.Image;
 import com.aspose.note.Page;
 ```
 
-ここで、Java と Aspose.Note を使用して OneNote ドキュメント内の画像に代替テキストを追加するプロセスを段階的な手順に分けて説明します。
+それでは、Java と Aspose.Note を使用して OneNote ドキュメントに **代替テキスト画像** を追加する手順をステップバイステップで見ていきましょう。
 
-## ステップ 1: ドキュメント ディレクトリを設定する
+## How to Add Alt Text to Images in OneNote using Java
+
+### Step 1: Set Up Document Directory
 
 ```java
 String dataDir = "Your Document Directory";
 ```
 
-必ず交換してください`"Your Document Directory"`ドキュメント ディレクトリへのパスを置き換えます。
+`"Your Document Directory"` を、ソース画像が格納されているフォルダーおよび出力ファイルを保存したいフォルダーのパスに置き換えてください。
 
-## ステップ 2: ドキュメント オブジェクトを作成する
+### Step 2: Create a Document Object
 
 ```java
 Document document = new Document();
 ```
 
-Document クラスの新しいインスタンスを作成します。
+空の OneNote ドキュメントを新規作成します。
 
-## ステップ 3: ページ オブジェクトを作成する
+### Step 3: Create a Page Object
 
 ```java
 Page page = new Page();
 ```
 
-Page クラスの新しいインスタンスを作成します。
+画像を配置するページを作成します。
 
-## ステップ 4: ページに画像を追加する
+### Step 4: Add an Image to the Page
 
 ```java
 Image image = new Image(null, dataDir + "image.jpg");
 ```
 
-画像ファイルのパスをパラメータとして渡して、Image クラスのインスタンスを作成します。
+`Image` コンストラクタが指定されたパスから画像ファイルを読み込みます。
 
-## ステップ 5: 代替テキストのタイトルを設定する
+### Step 5: Set Alternative Text Title
 
 ```java
 image.setAlternativeTextTitle("ImageAlternativeText Title");
 ```
 
-画像の代替テキスト タイトルを設定します。
+ここで **alt テキスト** として画像の簡潔なタイトルを設定します。
 
-## ステップ 6: 代替テキストの説明を設定する
+### Step 6: Set Alternative Text Description
 
 ```java
 image.setAlternativeTextDescription("ImageAlternativeText Description");
 ```
 
-画像の代替テキストの説明を設定します。
+この説明は、より詳細な解説を提供し、スクリーンリーダーに最適です。
 
-## ステップ 7: ページに画像を追加する
+### Step 7: Append Image to the Page
 
 ```java
 page.appendChildLast(image);
 ```
 
-画像をページに追加します。
+alt テキストが付与された画像をページに追加します。
 
-## ステップ 8: ドキュメントにページを追加する
+### Step 8: Append Page to the Document
 
 ```java
 document.appendChildLast(page);
 ```
 
-ページをドキュメントに追加します。
+ページを OneNote ドキュメントに添付します。
 
-## ステップ 9: ドキュメントを保存する
+### Step 9: Save Document
 
 ```java
 document.save(dataDir + "AlternativeText_out.one");
 ```
 
-画像に代替テキストを追加して、変更したドキュメントを保存します。
+代替テキストが埋め込まれた状態でドキュメントを保存します。
 
-## 結論
+## Common Issues and Solutions
 
-このチュートリアルでは、Java と Aspose.Note を使用して画像に代替テキストを追加することで、OneNote ドキュメントのアクセシビリティを強化する方法を検討しました。上記で概説したステップバイステップのガイドに従うことで、ドキュメントをより包括的にし、より幅広い読者がアクセスできるものにすることができます。
+- **FileNotFoundException:** `dataDir` が正しいフォルダーを指しているか、`image.jpg` が存在するか確認してください。  
+- **NullPointerException on image:** 画像パスが有効で、ファイルが破損していないことを確認してください。  
+- **License errors:** 有効な Aspose.Note ライセンスファイルを使用するか、評価用にトライアルモードで実行してください。
 
-## よくある質問
+## Frequently Asked Questions
 
-### Q1: 単一ドキュメント内の複数の画像に代替テキストを追加できますか?
+**Q: 1 つのドキュメント内で複数の画像に alt テキストを追加できますか？**  
+A: はい、画像ごとに手順 4‑6 を繰り返すだけです。
 
-A1: はい、各画像を反復処理し、それに応じて代替テキストを設定することで、複数の画像に代替テキストを追加できます。
+**Q: どの画像フォーマットが alt テキストの追加に対応していますか？**  
+A: Aspose.Note は JPEG、PNG、GIF、BMP などの一般的なフォーマットをサポートしています。
 
-### Q2: Aspose.Note はさまざまな画像形式と互換性がありますか?
+**Q: 設定した alt テキストを後から変更または削除できますか？**  
+A: もちろんです。`setAlternativeTextTitle("")` や `setAlternativeTextDescription("")` を呼び出して値をクリアするか、新しい文字列を渡して更新できます。
 
-A2: はい、Aspose.Note は JPEG、PNG、GIF などのさまざまな画像形式をサポートしています。
+**Q: Aspose.Note は Java 以外の言語向け API も提供していますか？**  
+A: はい、.NET、C++、Python 用のライブラリも用意されています。
 
-### Q3: 画像に追加した代替テキストを編集または削除することはできますか?
+**Q: Aspose.Note のトライアル版はどこで入手できますか？**  
+A: [here](https://releases.aspose.com/) から無料トライアルを取得できます。
 
-A3: はい、それぞれのプロパティを変更することで、画像から代替テキストを編集または削除できます。
+## Conclusion
 
-### Q4: Aspose.Note は Java 以外のプログラミング言語もサポートしていますか?
+このステップバイステップガイドに従うことで、Java を使って OneNote の画像に **代替テキスト（alt）** を追加する方法が分かりました。`add alternative text image` を実装することで、ドキュメントのアクセシビリティが向上するだけでなく、検索性や全体的な品質も向上します。画像ごとに適切なタイトルと説明を試行し、最適な意味付けを行ってください。
 
-A4: はい、Aspose.Note は .NET、C などの複数のプログラミング言語で利用できます。++、Python。
+---
 
-### Q5: Aspose.Note の試用版はありますか?
+**Last Updated:** 2025-12-23  
+**Tested With:** Aspose.Note for Java 24.11  
+**Author:** Aspose  
 
- A5: はい、Aspose.Note の無料試用版を次のサイトから利用できます。[ここ](https://releases.aspose.com/).
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

@@ -1,34 +1,54 @@
 ---
-title: Thêm văn bản thay thế vào hình ảnh trong OneNote bằng Java
-linktitle: Thêm văn bản thay thế vào hình ảnh trong OneNote bằng Java
-second_title: API Java Aspose.Note
-description: Tìm hiểu cách thêm văn bản thay thế vào hình ảnh trong tài liệu OneNote bằng Java với Aspose.Note, nâng cao khả năng truy cập và tính toàn diện.
-weight: 10
+date: 2025-12-23
+description: Tìm hiểu cách thêm văn bản thay thế cho hình ảnh trong tài liệu OneNote
+  bằng Java với Aspose.Note. Hướng dẫn này chỉ cách thêm văn bản thay thế cho hình
+  ảnh để cải thiện khả năng truy cập.
+linktitle: How to Add Alt Text to Image in OneNote using Java
+second_title: Aspose.Note Java API
+title: Cách Thêm Văn Bản Thay Thế cho Hình Ảnh trong OneNote bằng Java
 url: /vi/java/onenote-image-alternative-text/add-alternative-text-to-image/
+weight: 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Thêm văn bản thay thế vào hình ảnh trong OneNote bằng Java
+# Cách Thêm Văn Bản Alt vào Hình Ảnh trong OneNote bằng Java
 
 ## Giới thiệu
 
-Trong hướng dẫn này, chúng ta sẽ đi sâu vào hướng dẫn toàn diện về cách sử dụng Aspose.Note cho Java để thêm văn bản thay thế vào hình ảnh trong tài liệu OneNote. Văn bản thay thế đóng vai trò là mô tả văn bản của hình ảnh, hỗ trợ khả năng tiếp cận và hiểu biết cho những cá nhân không thể xem hình ảnh trực tiếp, chẳng hạn như những người sử dụng trình đọc màn hình. Bằng cách làm theo hướng dẫn này, bạn sẽ học cách tích hợp liền mạch văn bản thay thế vào tài liệu OneNote của mình bằng ngôn ngữ lập trình Java.
+Trong hướng dẫn này, bạn sẽ khám phá **how to add alt** cho hình ảnh trong tài liệu OneNote bằng Java và Aspose.Note API. Thêm văn bản thay thế (alt text) cải thiện khả năng truy cập cho người dùng trình đọc màn hình và tăng tính bao trùm chung của nội dung. Khi kết thúc hướng dẫn, bạn sẽ có thể đặt alt text cho hình ảnh bằng Java, làm cho các tệp OneNote của bạn tuân thủ tốt hơn các tiêu chuẩn truy cập.
 
-## Điều kiện tiên quyết
+## Câu trả lời nhanh
+- **Thư viện nào được yêu cầu?** Aspose.Note for Java  
+- **Từ khóa chính mà hướng dẫn này nhắm tới là gì?** how to add alt  
+- **Tôi có cần giấy phép cho môi trường sản xuất không?** Có, cần một giấy phép thương mại (có thể dùng bản dùng thử miễn phí).  
+- **Tôi có thể thêm alt text cho nhiều hình ảnh không?** Có, chỉ cần lặp lại các bước cho mỗi hình ảnh.  
+- **Phiên bản Java nào được hỗ trợ?** Java 8 hoặc cao hơn.
 
-Trước khi đi sâu vào hướng dẫn, hãy đảm bảo bạn có các điều kiện tiên quyết sau:
+## “how to add alt” là gì trong ngữ cảnh OneNote?
 
-1. Bộ công cụ phát triển Java (JDK): Đảm bảo bạn đã cài đặt JDK trên hệ thống của mình.
-2.  Aspose.Note for Java Library: Tải xuống và cài đặt thư viện Aspose.Note for Java từ[đây](https://releases.aspose.com/note/java/).
-3. Môi trường phát triển tích hợp (IDE): Có một IDE như IntelliJ IDEA hoặc Eclipse được thiết lập để phát triển Java.
-4. Kiến thức cơ bản về lập trình Java: Làm quen với các khái niệm lập trình Java cơ bản.
+Thêm alt text có nghĩa là cung cấp mô tả bằng văn bản cho một hình ảnh mà các công nghệ hỗ trợ có thể đọc được. Mô tả này giúp người dùng không thể nhìn thấy hình ảnh hiểu được mục đích của nó.
 
-## Gói nhập khẩu
+## Tại sao cần thêm alt text vào hình ảnh trong OneNote?
 
-Trước tiên, bạn cần nhập các gói cần thiết vào dự án Java của mình để sử dụng các chức năng của Aspose.Note.
+- **Accessibility:** Đáp ứng các hướng dẫn WCAG và cải thiện trải nghiệm cho người dùng có khiếm thị.  
+- **Searchability:** Các công cụ tìm kiếm có thể lập chỉ mục mô tả, giúp nội dung của bạn dễ được khám phá hơn.  
+- **Professionalism:** Thể hiện cam kết về thiết kế bao trùm.
+
+## Yêu cầu trước
+
+Trước khi bắt đầu hướng dẫn, hãy đảm bảo bạn có các yêu cầu sau:
+
+1. Java Development Kit (JDK) – phiên bản 8 trở lên.  
+2. Thư viện Aspose.Note for Java – tải xuống từ [here](https://releases.aspose.com/note/java/).  
+3. Một IDE như IntelliJ IDEA hoặc Eclipse.  
+4. Kiến thức cơ bản về lập trình Java.
+
+## Nhập các Gói
+
+Đầu tiên, nhập các gói cần thiết vào dự án Java của bạn để sử dụng các chức năng của Aspose.Note.
 
 ```java
 import java.io.IOException;
@@ -38,105 +58,115 @@ import com.aspose.note.Image;
 import com.aspose.note.Page;
 ```
 
-Bây giờ, hãy chia nhỏ quy trình thêm văn bản thay thế vào hình ảnh trong tài liệu OneNote bằng Java và Aspose.Note thành các hướng dẫn từng bước.
+Bây giờ, chúng ta sẽ phân tích quy trình thêm **alternative text image** vào tài liệu OneNote bằng Java và Aspose.Note thành các hướng dẫn từng bước.
 
-## Bước 1: Thiết lập thư mục tài liệu
+## Cách Thêm Alt Text vào Hình Ảnh trong OneNote bằng Java
+
+### Bước 1: Thiết lập Thư mục Tài liệu
 
 ```java
 String dataDir = "Your Document Directory";
 ```
 
- Đảm bảo thay thế`"Your Document Directory"` với đường dẫn đến thư mục tài liệu của bạn.
+Thay thế `"Your Document Directory"` bằng đường dẫn tới thư mục chứa hình ảnh nguồn của bạn và nơi sẽ lưu tệp đầu ra.
 
-## Bước 2: Tạo đối tượng tài liệu
+### Bước 2: Tạo Đối tượng Document
 
 ```java
 Document document = new Document();
 ```
 
-Tạo một thể hiện mới của lớp Tài liệu.
+Điều này tạo ra một tài liệu OneNote mới, trống.
 
-## Bước 3: Tạo đối tượng trang
+### Bước 3: Tạo Đối tượng Page
 
 ```java
 Page page = new Page();
 ```
 
-Tạo một phiên bản mới của lớp Trang.
+Một trang sẽ chứa hình ảnh mà chúng ta sắp thêm.
 
-## Bước 4: Thêm hình ảnh vào trang
+### Bước 4: Thêm Hình Ảnh vào Trang
 
 ```java
 Image image = new Image(null, dataDir + "image.jpg");
 ```
 
-Tạo một thể hiện của lớp Hình ảnh, truyền đường dẫn tệp hình ảnh làm tham số.
+Constructor `Image` tải tệp hình ảnh từ đường dẫn đã chỉ định.
 
-## Bước 5: Đặt tiêu đề văn bản thay thế
+### Bước 5: Đặt Tiêu đề Văn bản Thay thế
 
 ```java
 image.setAlternativeTextTitle("ImageAlternativeText Title");
 ```
 
-Đặt tiêu đề văn bản thay thế cho hình ảnh.
+Ở đây chúng tôi **add alt text** để làm tiêu đề ngắn gọn cho hình ảnh.
 
-## Bước 6: Đặt mô tả văn bản thay thế
+### Bước 6: Đặt Mô tả Văn bản Thay thế
 
 ```java
 image.setAlternativeTextDescription("ImageAlternativeText Description");
 ```
 
-Đặt mô tả văn bản thay thế cho hình ảnh.
+Mô tả này cung cấp giải thích chi tiết hơn—hoàn hảo cho trình đọc màn hình.
 
-## Bước 7: Nối hình ảnh vào trang
+### Bước 7: Gắn Hình Ảnh vào Trang
 
 ```java
 page.appendChildLast(image);
 ```
 
-Nối hình ảnh vào trang.
+Hình ảnh (bây giờ đã được bổ sung alt text) được thêm vào trang.
 
-## Bước 8: Nối trang vào tài liệu
+### Bước 8: Gắn Trang vào Tài liệu
 
 ```java
 document.appendChildLast(page);
 ```
 
-Nối trang vào tài liệu.
+Gắn trang vào tài liệu OneNote.
 
-## Bước 9: Lưu tài liệu
+### Bước 9: Lưu Tài liệu
 
 ```java
 document.save(dataDir + "AlternativeText_out.one");
 ```
 
-Lưu tài liệu đã sửa đổi với văn bản thay thế được thêm vào hình ảnh.
+Tài liệu được lưu với văn bản thay thế được nhúng trong hình ảnh.
 
-## Phần kết luận
+## Các Vấn đề Thường gặp và Giải pháp
 
-Trong hướng dẫn này, chúng tôi đã khám phá cách nâng cao khả năng truy cập của tài liệu OneNote bằng cách thêm văn bản thay thế vào hình ảnh bằng Java với Aspose.Note. Bằng cách làm theo hướng dẫn từng bước được nêu ở trên, bạn có thể đảm bảo rằng tài liệu của mình bao quát hơn và dễ tiếp cận hơn với nhiều đối tượng hơn.
+- **FileNotFoundException:** Kiểm tra `dataDir` trỏ tới thư mục đúng và `image.jpg` tồn tại.  
+- **NullPointerException on image:** Đảm bảo đường dẫn hình ảnh hợp lệ và tệp không bị hỏng.  
+- **License errors:** Sử dụng tệp giấy phép Aspose.Note hợp lệ hoặc chạy ở chế độ dùng thử để đánh giá.
 
-## Câu hỏi thường gặp
+## Câu hỏi Thường gặp
 
-### Câu hỏi 1: Tôi có thể thêm văn bản thay thế vào nhiều hình ảnh trong một tài liệu không?
+**Q: Tôi có thể thêm alt text cho nhiều hình ảnh trong một tài liệu duy nhất không?**  
+A: Có, chỉ cần lặp lại các bước 4‑6 cho mỗi hình ảnh bạn muốn chú thích.
 
-Câu trả lời 1: Có, bạn có thể thêm văn bản thay thế vào nhiều hình ảnh bằng cách duyệt qua từng hình ảnh và đặt văn bản thay thế tương ứng.
+**Q: Định dạng hình ảnh nào được hỗ trợ để thêm alt text?**  
+A: Aspose.Note hỗ trợ JPEG, PNG, GIF, BMP và một số định dạng phổ biến khác.
 
-### Câu hỏi 2: Aspose.Note có tương thích với các định dạng hình ảnh khác nhau không?
+**Q: Có thể sửa đổi hoặc xóa alt text sau khi đã đặt không?**  
+A: Chắc chắn. Gọi `setAlternativeTextTitle("")` hoặc `setAlternativeTextDescription("")` để xóa giá trị, hoặc cung cấp chuỗi mới để cập nhật chúng.
 
-Câu trả lời 2: Có, Aspose.Note hỗ trợ nhiều định dạng hình ảnh khác nhau như JPEG, PNG, GIF, v.v.
+**Q: Aspose.Note có cung cấp API cho các ngôn ngữ khác ngoài Java không?**  
+A: Có, thư viện cũng có sẵn cho .NET, C++ và Python.
 
-### Câu hỏi 3: Văn bản thay thế có thể được chỉnh sửa hoặc xóa sau khi thêm vào hình ảnh không?
+**Q: Tôi có thể tải phiên bản dùng thử của Aspose.Note ở đâu?**  
+A: Bạn có thể nhận bản dùng thử miễn phí từ [here](https://releases.aspose.com/).
 
-Câu trả lời 3: Có, bạn có thể chỉnh sửa hoặc xóa văn bản thay thế khỏi hình ảnh bằng cách sửa đổi các thuộc tính tương ứng.
+## Kết luận
 
-### Câu hỏi 4: Aspose.Note có cung cấp hỗ trợ cho các ngôn ngữ lập trình khác ngoài Java không?
+Bằng cách làm theo hướng dẫn từng bước này, bạn hiện đã biết **how to add alt** text cho hình ảnh trong OneNote bằng Java. Việc triển khai `add alternative text image` không chỉ làm cho tài liệu của bạn dễ tiếp cận hơn mà còn cải thiện khả năng tìm kiếm và chất lượng tổng thể. Hãy thoải mái thử nghiệm các tiêu đề và mô tả khác nhau để truyền đạt tốt nhất ý nghĩa của mỗi hình ảnh.
 
-Câu trả lời 4: Có, Aspose.Note có sẵn cho nhiều ngôn ngữ lập trình bao gồm .NET, C++và Python.
+---
 
-### Câu hỏi 5: Có phiên bản dùng thử cho Aspose.Note không?
+**Cập nhật lần cuối:** 2025-12-23  
+**Được kiểm tra với:** Aspose.Note for Java 24.11  
+**Tác giả:** Aspose  
 
- Câu trả lời 5: Có, bạn có thể sử dụng phiên bản dùng thử miễn phí của Aspose.Note từ[đây](https://releases.aspose.com/).
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
