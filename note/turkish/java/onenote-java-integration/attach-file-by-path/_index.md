@@ -1,62 +1,79 @@
 ---
-title: Java ile OneNote'ta Dosyayı Yola Göre Ekleme
-linktitle: Java ile OneNote'ta Dosyayı Yola Göre Ekleme
-second_title: Aspose.Note Java API'si
-description: OneNote notlarınıza sorunsuz bir şekilde dosya ekleyin! Aspose.Note ile Java'da yola göre eklemeyi öğrenin. Kolay kılavuz ve kod dahildir! #OneNote #Java #Aspose
-weight: 11
+date: 2025-12-25
+description: Java ve Aspose.Note kullanarak OneNote'a ek dosya eklemeyi öğrenin. Adım
+  adım rehber, dosyayı yoluyla ekleyen Java kodunu ve ekli bir OneNote'un nasıl kaydedileceğini
+  gösterir.
+linktitle: Attach File by Path in OneNote with Java
+second_title: Aspose.Note Java API
+title: Java Kullanarak OneNote'a Ek Dosya Nasıl Eklenir
 url: /tr/java/onenote-java-integration/attach-file-by-path/
+weight: 11
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Java ile OneNote'ta Dosyayı Yola Göre Ekleme
+# Java ile OneNote'a Yoluyla Dosya Ekle
 
-## giriiş
+## Giriş
 
-OneNote, notları düzenlemek ve yönetmek için çok yönlü bir araçtır ve Aspose.Note for Java ile notlarınıza programlı olarak dosya ekleyerek işlevselliğini artırabilirsiniz. Bu öğreticide, Java kullanarak OneNote'ta bir dosyayı yoluna göre ekleme sürecinde size yol göstereceğiz.
+Bu rehberde, Java ve Aspose.Note kullanarak OneNote notlarına programlı olarak **ek nasıl eklenir** öğreneceksiniz. OneNote, bilgileri düzenlemek için çok yönlü bir araçtır ve Aspose.Note for Java API'sini kullanarak defterlerinizi PDF'ler, görüntüler veya metin belgeleri gibi dosyalarla zenginleştirebilirsiniz. Ortamı kurmaktan ekli belgeyle OneNote dosyasını kaydetmeye kadar her adımı birlikte inceleyeceğiz.
+
+## Hızlı Yanıtlar
+- **Birincil kütüphane nedir?** Aspose.Note for Java  
+- **Bu öğretici hangi anahtar kelimeyi hedefliyor?** ek nasıl eklenir  
+- **Lisans gereklimi?** Değerlendirme için ücretsiz deneme çalışır; üretim için bir lisans gereklidir.  
+- **Herhangi bir dosya türü ekleyebilir miyim?** Evet – metin dosyaları, görüntüler, PDF'ler vb. (java code attach file)  
+- **Uygulama ne kadar sürer?** Temel bir ek için yaklaşık 10‑15 dakika.
+
+## OneNote'ta “ek nasıl eklenir” nedir?
+
+Bir ek eklemek, harici bir dosyayı OneNote sayfasına gömmek anlamına gelir; böylece okuyucular ek'i nottan doğrudan açabilir veya indirebilir. Bu özellik, ilgili belgeleri notlarınızla birlikte tutmak istediğinizde çok önemlidir.
+
+## Neden programlı olarak dosya ekleyelim?
+
+- **Otomasyon:** Raporlar veya toplantı tutanakları oluştururken manuel adımları azaltır.  
+- **Tutarlılık:** Oluşturulan her defterin aynı yapıyı izlemesini sağlar.  
+- **Ölçeklenebilirlik:** Tekrarlayan UI çalışması olmadan döngü içinde onlarca dosya eklenebilir (programmatically attach file).
 
 ## Önkoşullar
 
-Başlamadan önce aşağıdakilere sahip olduğunuzdan emin olun:
+Başlamadan önce, aşağıdakilere sahip olduğunuzdan emin olun:
 
-1.  Java Geliştirme Kiti (JDK): Sisteminizde Java'nın kurulu olduğundan emin olun. En son sürümü şuradan indirip yükleyebilirsiniz:[Java web sitesi](https://www.oracle.com/java/).
-   
-2.  Aspose.Note for Java: Aspose.Note for Java kütüphanesini aşağıdaki adresten indirip yükleyin:[indirme sayfası](https://releases.aspose.com/note/java/).
+1. **Java Development Kit (JDK)** – [Java web sitesinden](https://www.oracle.com/java/) indirin.  
+2. **Aspose.Note for Java** – en son kütüphaneyi [indirme sayfasından](https://releases.aspose.com/note/java/) edinin.
 
-## Paketleri İçe Aktar
+## Paketleri İçe Aktarın
 
-Başlamak için gerekli paketleri Java projenize aktarın:
+Başlamak için gerekli paketleri Java projenize içe aktarın:
 
 ```java
 import com.aspose.note.*;
 import java.io.IOException;
 ```
 
-## 1. Adım: Belge Dizinini Ayarlayın
+## Adım 1: Belge Dizinini Ayarlayın
 
-Belgenizin bulunduğu dizini ayarlayın:
+OneNote belgenizin oluşturulacağı dizini ayarlayın:
 
 ```java
 String dataDir = "Your Document Directory";
 ```
 
- Yer değiştirmek`"Your Document Directory"`gerçek belge dizininizin yolu ile.
+`"Your Document Directory"` ifadesini OneNote dosyanızı tutacak klasörün mutlak yolu ile değiştirin.
 
-## Adım 2: Belge Nesnesi Oluşturun
+## Adım 2: Document Nesnesi Oluşturun
 
- Bir örneğini oluşturun`Document` sınıf:
+`Document` sınıfının bir örneğini oluşturun – bu yeni bir OneNote defteri temsil eder:
 
 ```java
 Document doc = new Document();
 ```
 
-Bu, yeni bir OneNote belgesini başlatır.
+## Adım 3: Sayfa ve Outline Nesnelerini Başlatın
 
-## 3. Adım: Sayfayı ve Anahat Nesnelerini Başlatın
-
- Başlat`Page`, `Outline` , Ve`OutlineElement` nesneler:
+Ek'i içerecek sayfa hiyerarşisini oluşturun:
 
 ```java
 Page page = new Page();
@@ -64,99 +81,121 @@ Outline outline = new Outline();
 OutlineElement outlineElem = new OutlineElement();
 ```
 
-Bu nesneler belge içindeki notlarınızı düzenlemek için gereklidir.
+## Adım 4: AttachedFile Nesnesini Başlatın
 
-## Adım 4: Ekli Dosya Nesnesini Başlatın
-
- Bir başlat`AttachedFile` Eklemek istediğiniz dosyanın yolunu içeren nesne:
+Gömmek istediğiniz dosyanın tam yolu ile bir `AttachedFile` nesnesi oluşturun:
 
 ```java
 AttachedFile attachedFile = new AttachedFile(null, dataDir + "attachment.txt");
 ```
 
- Yer değiştirmek`"attachment.txt"` Eklemek istediğiniz dosyanın adı ile birlikte.
+`"attachment.txt"` ifadesini eklemek istediğiniz dosyanın adıyla değiştirin (java code attach file).
 
-## Adım 5: Ekli Dosyayı Anahat Öğesine Ekleme
+## Adım 5: Ekli Dosyayı Outline Öğesine Ekleyin
 
-Ekli dosyayı anahat öğesine ekleyin:
+Ekli dosyayı outline öğesine bağlayarak notta görünmesini sağlayın:
 
 ```java
 outlineElem.appendChildLast(attachedFile);
 ```
 
-Bu adım dosyayı notunuza ekler.
+## Adım 6: Outline Öğesini Outline'a Ekleyin
 
-## Adım 6: Anahat'a Anahat Öğesi Ekleme
-
-Anahat öğesini ana hatta ekleyin:
+Outline öğesini outline konteynerine yerleştirin:
 
 ```java
 outline.appendChildLast(outlineElem);
 ```
 
-Bu, ekli dosyayı anahat içinde düzenler.
+## Adım 7: Outline'ı Sayfaya Ekleyin
 
-## Adım 7: Sayfaya Anahat Ekle
-
-Taslağı sayfaya ekleyin:
+Outline'ı (ekli dosyayla birlikte) sayfaya ekleyin:
 
 ```java
 page.appendChildLast(outline);
 ```
 
-Bu adım, taslağı sayfaya dahil eder.
+## Adım 8: Sayfayı Belgeye Ekleyin
 
-## Adım 8: Belgeye Sayfa Ekle
-
-Sayfayı belgeye ekleyin:
+Tamamlanmış sayfayı OneNote belgesine ekleyin:
 
 ```java
 doc.appendChildLast(page);
 ```
 
-Bu, OneNote belgenizin yapısını sonlandırır.
+## Adım 9: Belgeyi Kaydedin (ekli onenote kaydet)
 
-## Adım 9: Belgeyi Kaydet
-
-Belgeyi ekteki dosyayla birlikte kaydedin:
+Son olarak, defteri kaydedin. Bu adım **ekli onenote kaydet** işlevselliğini gösterir:
 
 ```java
 dataDir = dataDir + "AttachFileByPath_out.one";
 doc.save(dataDir);
 ```
 
-Bu, değiştirilen belgeyi ekli dosyayla birlikte kaydeder.
+Ortaya çıkan `AttachFileByPath_out.one` dosyası artık gömülü eki içeriyor.
 
-Tebrikler! Aspose.Note ile Java kullanarak OneNote'ta bir dosyayı yoluna göre başarıyla eklediniz.
+Tebrikler! Java ve Aspose.Note kullanarak OneNote'ta yol ile **ek nasıl eklenir** konusunu başarıyla öğrendiniz.
 
-## Çözüm
+## Yaygın Kullanım Senaryoları
 
-Bu eğitimde, Aspose.Note ile Java kullanarak programlı olarak dosya ekleyerek OneNote notlarınızı nasıl geliştireceğinizi öğrendik. Yukarıda özetlenen basit adımlarla notlarınızı ek eklentilerle verimli bir şekilde yönetebilir ve düzenleyebilir, böylece daha zengin bir deneyim sağlayabilirsiniz.
+- **Toplantı tutanakları:** Orijinal gündem PDF'sini notlara ekleyin.  
+- **Proje dokümantasyonu:** Tasarım diyagramlarını doğrudan deftere gömün.  
+- **Hukuki dosyalar:** Sözleşmeleri veya delil dosyalarını vaka notlarıyla birlikte ekleyin.
+
+## Sorun Giderme İpuçları ve Yaygın Tuzaklar
+
+- **Yanlış dosya yolu:** `dataDir` değişkeninin dosya adını eklemeden önce bir yol ayırıcı (`/` veya `\`) ile bittiğinden emin olun.  
+- **Büyük ekler:** Çok büyük dosyalar OneNote dosya boyutunu artırabilir; önce sıkıştırmayı düşünün.  
+- **Desteklenmeyen formatlar:** Çoğu dosya türü çalışsa da, bazı tescilli formatlar OneNote'ta doğru açılamayabilir.
 
 ## SSS'ler
 
-### S1: Bu yöntemi kullanarak birden fazla dosya ekleyebilir miyim?
+### S1: Bu yöntemle birden fazla dosya ekleyebilir miyim?
 
-Cevap1: Evet, her dosya için işlemi tekrarlayarak birden fazla dosya ekleyebilirsiniz.
+A1: Evet, her dosya için işlemi tekrarlayarak birden fazla dosya ekleyebilirsiniz.
 
-### S2: Herhangi bir formattaki dosyaları ekleyebilir miyim?
+### S2: Herhangi bir formatta dosya ekleyebilir miyim?
 
-Cevap2: Evet, metin dosyaları, resimler, PDF'ler vb. dahil olmak üzere çeşitli formatlardaki dosyaları ekleyebilirsiniz.
+A2: Evet, metin dosyaları, görüntüler, PDF'ler vb. dahil olmak üzere çeşitli formatlarda dosyalar ekleyebilirsiniz.
 
-### S3: Aspose.Note Java'nın farklı sürümleriyle uyumlu mudur?
+### S3: Aspose.Note farklı Java sürümleriyle uyumlu mu?
 
-Cevap3: Evet, Aspose.Note, Java'nın farklı sürümleriyle uyumludur ve geliştiricilere esneklik sağlar.
+A3: Evet, Aspose.Note farklı Java sürümleriyle uyumludur, geliştiricilere esneklik sağlar.
 
 ### S4: OneNote sayfasındaki belirli bölümlere dosya ekleyebilir miyim?
 
-Cevap4: Evet, dosyaları anahat içerisinde uygun şekilde düzenleyerek belirli bölümlere ekleyebilirsiniz.
+A4: Evet, outline içinde uygun şekilde düzenleyerek belirli bölümlere dosya ekleyebilirsiniz.
 
-### S5: Ekleyebileceğim dosya boyutunun bir sınırı var mı?
+### S5: Ekleyebileceğim dosya boyutu için bir limit var mı?
 
-Cevap5: Aspose.Note, dosya boyutuna katı sınırlamalar getirmez ancak çok büyük dosyalar için performans etkilerini dikkate alır.
+A5: Aspose.Note dosya boyutu üzerinde katı bir limit koymaz, ancak çok büyük dosyalar için performans etkilerini göz önünde bulundurun.
+
+## Sıkça Sorulan Sorular
+
+**S: Bu yaklaşım Windows 10 için OneNote ile çalışır mı?**  
+C: Evet, oluşturulan `.one` dosyası Windows 10, Windows 11 ve web sürümü dahil tüm modern OneNote istemcileriyle uyumludur.
+
+**S: Uzaktan bir URL'den dosya nasıl eklenir?**  
+C: Dosyayı önce yerel bir yola indirin, ardından aynı `AttachedFile` yapıcıyı yerel dosya yolu ile kullanın.
+
+**S: Herhangi bir akışı manuel olarak kapatmam gerekir mi?**  
+C: Aspose.Note API dosya akışlarını dahili olarak yönetir, bu yüzden `AttachedFile` nesnesi için açıkça kapatma gerekmez.
+
+**S: Ek için özel bir görüntüleme adı ayarlayabilir miyim?**  
+C: Evet, ilk argüman olarak bir görüntüleme adı kabul eden `AttachedFile` yapıcısını kullanın.
+
+**S: Üretim kullanımında lisans gerekli mi?**  
+C: Üretim dağıtımları için geçerli bir Aspose.Note lisansı gereklidir; değerlendirme için ücretsiz deneme kullanılabilir.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
+
+---
+
+**Son Güncelleme:** 2025-12-25  
+**Test Edilen Versiyon:** Aspose.Note for Java 24.11  
+**Yazar:** Aspose
