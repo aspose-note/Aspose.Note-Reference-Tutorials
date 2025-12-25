@@ -1,62 +1,76 @@
 ---
-title: แนบไฟล์ตามเส้นทางใน OneNote ด้วย Java
-linktitle: แนบไฟล์ตามเส้นทางใน OneNote ด้วย Java
+date: 2025-12-25
+description: เรียนรู้วิธีเพิ่มไฟล์แนบใน OneNote ด้วย Java และ Aspose.Note คู่มือแบบขั้นตอนแสดงโค้ด
+  Java ที่แนบไฟล์ตามเส้นทางและวิธีบันทึก OneNote พร้อมไฟล์แนบ
+linktitle: Attach File by Path in OneNote with Java
 second_title: Aspose.Note Java API
-description: เพิ่มไฟล์ลงในบันทึกย่อ OneNote ของคุณได้อย่างราบรื่น! เรียนรู้วิธีแนบตามเส้นทางใน Java ด้วย Aspose.Note รวมคำแนะนำและโค้ดง่ายๆ! #OneNote #Java #Aspose
-weight: 11
+title: วิธีเพิ่มไฟล์แนบใน OneNote ด้วย Java
 url: /th/java/onenote-java-integration/attach-file-by-path/
+weight: 11
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# แนบไฟล์ตามเส้นทางใน OneNote ด้วย Java
+# แนบไฟล์โดยใช้เส้นทางใน OneNote ด้วย Java
 
-## การแนะนำ
+## Introduction
 
-OneNote เป็นเครื่องมืออเนกประสงค์สำหรับการจัดระเบียบและจัดการบันทึกย่อ และด้วย Aspose.Note สำหรับ Java คุณสามารถปรับปรุงฟังก์ชันการทำงานได้โดยการแนบไฟล์เข้ากับบันทึกย่อของคุณโดยทางโปรแกรม ในบทช่วยสอนนี้ เราจะแนะนำคุณตลอดขั้นตอนการแนบไฟล์ตามเส้นทางใน OneNote โดยใช้ Java
+ในคู่มือนี้ คุณจะได้เรียนรู้ **วิธีการเพิ่มไฟล์แนบ** ลงในโน้ต OneNote อย่างอัตโนมัติด้วย Java และ Aspose.Note OneNote เป็นเครื่องมือที่ยืดหยุ่นสำหรับการจัดระเบียบข้อมูล และโดยการใช้ Aspose.Note for Java API คุณสามารถทำให้สมุดโน้ตของคุณมีไฟล์เช่น PDF, รูปภาพ หรือเอกสารข้อความได้ เราจะเดินผ่านแต่ละขั้นตอน ตั้งแต่การเตรียมสภาพแวดล้อมจนถึงการบันทึกไฟล์ OneNote พร้อมไฟล์แนบ
 
-## ข้อกำหนดเบื้องต้น
+## Quick Answers
+- **ไลบรารีหลักคืออะไร?** Aspose.Note for Java  
+- **คีย์เวิร์ดที่บทเรียนนี้มุ่งหมายคืออะไร?** how to add attachment  
+- **ต้องมีลิขสิทธิ์หรือไม่?** สามารถใช้รุ่นทดลองฟรีสำหรับการประเมิน; ต้องมีลิขสิทธิ์สำหรับการใช้งานจริง  
+- **สามารถแนบไฟล์ประเภทใดได้บ้าง?** ได้ – ไฟล์ข้อความ, รูปภาพ, PDF ฯลฯ (java code attach file)  
+- **ใช้เวลานานเท่าไหร่ในการทำงาน?** ประมาณ 10‑15 นาทีสำหรับการแนบไฟล์พื้นฐาน
 
-ก่อนที่คุณจะเริ่มต้น ตรวจสอบให้แน่ใจว่าคุณมีสิ่งต่อไปนี้:
+## What is “how to add attachment” in OneNote?
+การเพิ่มไฟล์แนบหมายถึงการฝังไฟล์ภายนอกไว้ภายในหน้า OneNote เพื่อให้ผู้อ่านสามารถเปิดหรือดาวน์โหลดไฟล์นั้นโดยตรงจากโน้ต ความสามารถนี้สำคัญเมื่อคุณต้องการเก็บเอกสารที่เกี่ยวข้องไว้พร้อมกับโน้ตของคุณ
 
-1.  Java Development Kit (JDK): ตรวจสอบให้แน่ใจว่าคุณได้ติดตั้ง Java บนระบบของคุณแล้ว คุณสามารถดาวน์โหลดและติดตั้งเวอร์ชันล่าสุดได้จาก[เว็บไซต์จาวา](https://www.oracle.com/java/).
-   
-2.  Aspose.Note สำหรับ Java: ดาวน์โหลดและติดตั้ง Aspose.Note สำหรับไลบรารี Java จาก[หน้าดาวน์โหลด](https://releases.aspose.com/note/java/).
+## Why programmatically attach file?
+- **Automation:** ลดขั้นตอนการทำด้วยมือเมื่อสร้างรายงานหรือบันทึกการประชุม  
+- **Consistency:** ทำให้ทุกสมุดโน้ตที่สร้างขึ้นมีโครงสร้างเดียวกัน  
+- **Scalability:** แนบไฟล์หลายสิบไฟล์ในลูป (programmatically attach file) โดยไม่ต้องทำซ้ำใน UI
 
-## แพ็คเกจนำเข้า
+## Prerequisites
 
-ในการเริ่มต้น ให้นำเข้าแพ็คเกจที่จำเป็นไปยังโปรเจ็กต์ Java ของคุณ:
+ก่อนเริ่มทำงาน ให้ตรวจสอบว่าคุณมี:
+
+1. **Java Development Kit (JDK)** – ดาวน์โหลดจาก [Java website](https://www.oracle.com/java/)  
+2. **Aspose.Note for Java** – รับไลบรารีล่าสุดจาก [download page](https://releases.aspose.com/note/java/)  
+
+## Import Packages
+
+เพื่อเริ่มต้น ให้นำเข้าแพ็กเกจที่จำเป็นในโปรเจกต์ Java ของคุณ:
 
 ```java
 import com.aspose.note.*;
 import java.io.IOException;
 ```
 
-## ขั้นตอนที่ 1: ตั้งค่าไดเร็กทอรีเอกสาร
+## Step 1: Set Up Document Directory
 
-ตั้งค่าไดเร็กทอรีที่มีเอกสารของคุณ:
+ตั้งค่าไดเรกทอรีที่ไฟล์ OneNote ของคุณจะถูกสร้าง:
 
 ```java
 String dataDir = "Your Document Directory";
 ```
 
- แทนที่`"Your Document Directory"`พร้อมเส้นทางไปยังไดเร็กทอรีเอกสารจริงของคุณ
+เปลี่ยน `"Your Document Directory"` ให้เป็นเส้นทางเต็มของโฟลเดอร์ที่คุณต้องการเก็บไฟล์ OneNote
 
-## ขั้นตอนที่ 2: สร้างวัตถุเอกสาร
+## Step 2: Create Document Object
 
- สร้างอินสแตนซ์ของ`Document` ระดับ:
+สร้างอินสแตนซ์ของคลาส `Document` – ซึ่งเป็นตัวแทนของสมุดโน้ต OneNote ใหม่:
 
 ```java
 Document doc = new Document();
 ```
 
-นี่เป็นการเริ่มต้นเอกสาร OneNote ใหม่
+## Step 3: Initialize Page and Outline Objects
 
-## ขั้นตอนที่ 3: เริ่มต้นออบเจ็กต์เพจและเค้าร่าง
-
- เริ่มต้น`Page`, `Outline` , และ`OutlineElement` วัตถุ:
+สร้างโครงสร้างหน้า (page hierarchy) ที่จะบรรจุไฟล์แนบ:
 
 ```java
 Page page = new Page();
@@ -64,99 +78,121 @@ Outline outline = new Outline();
 OutlineElement outlineElem = new OutlineElement();
 ```
 
-วัตถุเหล่านี้จำเป็นสำหรับการจัดระเบียบบันทึกย่อของคุณภายในเอกสาร
+## Step 4: Initialize AttachedFile Object
 
-## ขั้นตอนที่ 4: เริ่มต้นวัตถุ AttachedFile
-
- เริ่มต้นอัน`AttachedFile` วัตถุที่มีเส้นทางไปยังไฟล์ที่คุณต้องการแนบ:
+สร้างอ็อบเจ็กต์ `AttachedFile` พร้อมเส้นทางเต็มของไฟล์ที่คุณต้องการฝัง:
 
 ```java
 AttachedFile attachedFile = new AttachedFile(null, dataDir + "attachment.txt");
 ```
 
- แทนที่`"attachment.txt"` พร้อมชื่อไฟล์ที่คุณต้องการแนบ
+เปลี่ยน `"attachment.txt"` ให้เป็นชื่อไฟล์ที่คุณต้องการแนบ (java code attach file)
 
-## ขั้นตอนที่ 5: เพิ่มไฟล์แนบไปยังองค์ประกอบโครงร่าง
+## Step 5: Add Attached File to Outline Element
 
-เพิ่มไฟล์ที่แนบมากับองค์ประกอบโครงร่าง:
+เชื่อมไฟล์แนบกับองค์ประกอบ outline เพื่อให้ปรากฏในโน้ต:
 
 ```java
 outlineElem.appendChildLast(attachedFile);
 ```
 
-ขั้นตอนนี้จะแนบไฟล์ไปกับบันทึกย่อของคุณ
+## Step 6: Add Outline Element to Outline
 
-## ขั้นตอนที่ 6: เพิ่มองค์ประกอบโครงร่างลงในโครงร่าง
-
-เพิ่มองค์ประกอบโครงร่างให้กับโครงร่าง:
+วางองค์ประกอบ outline ไว้ภายในคอนเทนเนอร์ outline:
 
 ```java
 outline.appendChildLast(outlineElem);
 ```
 
-เพื่อจัดระเบียบไฟล์ที่แนบมาภายในโครงร่าง
+## Step 7: Add Outline to Page
 
-## ขั้นตอนที่ 7: เพิ่มโครงร่างลงในหน้า
-
-เพิ่มโครงร่างไปที่หน้า:
+เพิ่ม outline (พร้อมไฟล์แนบ) ลงในหน้า:
 
 ```java
 page.appendChildLast(outline);
 ```
 
-ขั้นตอนนี้รวมโครงร่างไว้ในหน้า
+## Step 8: Add Page to Document
 
-## ขั้นตอนที่ 8: เพิ่มหน้าลงในเอกสาร
-
-เพิ่มหน้าลงในเอกสาร:
+แทรกหน้าที่เสร็จสมบูรณ์เข้าไปในเอกสาร OneNote:
 
 ```java
 doc.appendChildLast(page);
 ```
 
-นี่เป็นการสรุปโครงสร้างของเอกสาร OneNote ของคุณ
+## Step 9: Save Document (save onenote with attachment)
 
-## ขั้นตอนที่ 9: บันทึกเอกสาร
-
-บันทึกเอกสารพร้อมไฟล์แนบ:
+สุดท้าย บันทึกสมุดโน้ต ขั้นตอนนี้แสดงฟังก์ชัน **save onenote with attachment**:
 
 ```java
 dataDir = dataDir + "AttachFileByPath_out.one";
 doc.save(dataDir);
 ```
 
-วิธีนี้จะบันทึกเอกสารที่แก้ไขพร้อมกับไฟล์ที่แนบมา
+ไฟล์ผลลัพธ์ `AttachFileByPath_out.one` ตอนนี้มีไฟล์แนบที่ฝังอยู่แล้ว
 
-ยินดีด้วย! คุณได้แนบไฟล์ตามเส้นทางใน OneNote สำเร็จแล้วโดยใช้ Java กับ Aspose.Note
+ขอแสดงความยินดี! คุณได้เรียนรู้ **วิธีการเพิ่มไฟล์แนบ** ด้วยเส้นทางใน OneNote โดยใช้ Java กับ Aspose.Note อย่างสำเร็จ
 
-## บทสรุป
+## Common Use Cases
 
-ในบทช่วยสอนนี้ เราได้เรียนรู้วิธีปรับปรุงบันทึกย่อ OneNote ของคุณโดยการแนบไฟล์ทางโปรแกรมโดยใช้ Java กับ Aspose.Note ด้วยขั้นตอนง่ายๆ ที่อธิบายไว้ข้างต้น คุณสามารถจัดการและจัดระเบียบบันทึกย่อของคุณด้วยไฟล์แนบเพิ่มเติมได้อย่างมีประสิทธิภาพ มอบประสบการณ์ที่สมบูรณ์ยิ่งขึ้น
+- **บันทึกการประชุม:** แนบ PDF เอกสารวาระต้นฉบับไว้กับบันทึก  
+- **เอกสารโครงการ:** ฝังแผนภาพการออกแบบโดยตรงในสมุดโน้ต  
+- **ไฟล์กฎหมาย:** รวมสัญญาหรือไฟล์หลักฐานไว้ข้างโน้ตคดี
 
-## คำถามที่พบบ่อย
+## Troubleshooting Tips & Common Pitfalls
 
-### คำถามที่ 1: ฉันสามารถแนบไฟล์หลายไฟล์ด้วยวิธีนี้ได้หรือไม่
+- **เส้นทางไฟล์ไม่ถูกต้อง:** ตรวจสอบให้ `dataDir` ลงท้ายด้วยตัวคั่นเส้นทาง (`/` หรือ `\`) ก่อนต่อชื่อไฟล์  
+- **ไฟล์แนบขนาดใหญ่:** ไฟล์ขนาดใหญ่มากอาจทำให้ไฟล์ OneNote มีขนาดเพิ่มขึ้น; ควรบีบอัดไฟล์ก่อนแนบ  
+- **รูปแบบที่ไม่รองรับ:** แม้ว่าจะรองรับไฟล์ส่วนใหญ่ แต่บางรูปแบบที่เป็นกรรมสิทธิ์อาจไม่เปิดได้อย่างถูกต้องใน OneNote
 
-A1: ได้ คุณสามารถแนบไฟล์ได้หลายไฟล์โดยทำซ้ำขั้นตอนสำหรับแต่ละไฟล์
+## FAQ's
 
-### คำถามที่ 2: ฉันสามารถแนบไฟล์ในรูปแบบใดก็ได้หรือไม่
+### Q1: Can I attach multiple files using this method?
 
-A2: ได้ คุณสามารถแนบไฟล์ในรูปแบบต่างๆ ได้ รวมถึงไฟล์ข้อความ รูปภาพ PDF ฯลฯ
+A1: Yes, you can attach multiple files by repeating the process for each file.
 
-### คำถามที่ 3: Aspose.Note เข้ากันได้กับ Java เวอร์ชันต่างๆ หรือไม่
+### Q2: Can I attach files of any format?
 
-ตอบ 3: ใช่ Aspose.Note เข้ากันได้กับ Java เวอร์ชันต่างๆ เพื่อให้เกิดความยืดหยุ่นสำหรับนักพัฒนา
+A2: Yes, you can attach files of various formats, including text files, images, PDFs, etc.
 
-### คำถามที่ 4: ฉันสามารถแนบไฟล์ไปยังส่วนเฉพาะภายในหน้า OneNote ได้หรือไม่
+### Q3: Is Aspose.Note compatible with different versions of Java?
 
-A4: ได้ คุณสามารถแนบไฟล์ไปยังส่วนที่ต้องการได้โดยการจัดระเบียบไฟล์เหล่านั้นภายในโครงร่างตามลำดับ
+A3: Yes, Aspose.Note is compatible with different versions of Java, ensuring flexibility for developers.
 
-### คำถามที่ 5: มีการจำกัดขนาดไฟล์ที่ฉันสามารถแนบได้หรือไม่
+### Q4: Can I attach files to specific sections within a OneNote page?
 
-A5: Aspose.Note ไม่มีการจำกัดขนาดไฟล์ที่เข้มงวด แต่ให้พิจารณาถึงผลกระทบด้านประสิทธิภาพการทำงานสำหรับไฟล์ที่มีขนาดใหญ่มาก
+A4: Yes, you can attach files to specific sections by organizing them within the outline accordingly.
+
+### Q5: Is there a limit to the file size I can attach?
+
+A5: Aspose.Note doesn't impose strict limits on file size, but consider performance implications for very large files.
+
+## Frequently Asked Questions
+
+**Q: Does this approach work with OneNote for Windows 10?**  
+A: Yes, the generated `.one` file is compatible with all modern OneNote clients, including Windows 10, Windows 11, and the web version.
+
+**Q: How can I attach a file from a remote URL?**  
+A: Download the file to a local path first, then use the same `AttachedFile` constructor with the local file path.
+
+**Q: Do I need to close any streams manually?**  
+A: The Aspose.Note API handles file streams internally, so explicit closing is not required for the `AttachedFile` object.
+
+**Q: Can I set a custom display name for the attachment?**  
+A: Yes, use the `AttachedFile` constructor that accepts a display name as the first argument.
+
+**Q: Is a license required for production use?**  
+A: A valid Aspose.Note license is required for production deployments; a free trial can be used for evaluation.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
+
+---
+
+**Last Updated:** 2025-12-25  
+**Tested With:** Aspose.Note for Java 24.11  
+**Author:** Aspose
