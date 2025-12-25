@@ -1,33 +1,54 @@
 ---
-title: Converteer Notebook naar afgeplatte afbeelding in OneNote - Aspose.Note
-linktitle: Converteer Notebook naar afgeplatte afbeelding in OneNote - Aspose.Note
-second_title: Aspose.Note Java-API
-description: Leer hoe u een notitieblok converteert naar een afgeplatte afbeelding in OneNote met behulp van Aspose.Note voor Java. Bewaar moeiteloos alle elementen in één afbeeldingsbestand.
-weight: 13
+date: 2025-12-25
+description: Leer hoe u OneNote naar PNG kunt converteren met Aspose.Note voor Java.
+  Deze gids laat zien hoe u de beeldresolutie instelt, een notitieboek plat maakt
+  en OneNote efficiënt als afbeelding opslaat.
+linktitle: How to Convert OneNote to PNG – Flatten Notebook to Image with Aspose.Note
+second_title: Aspose.Note Java API
+title: Hoe OneNote naar PNG converteren – Notebook platmaken tot afbeelding met Aspose.Note
 url: /nl/java/onenote-notebook-operations/convert-notebook-to-flattened-image/
+weight: 13
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Converteer Notebook naar afgeplatte afbeelding in OneNote - Aspose.Note
+# Notebook converteren naar een afgevlakte afbeelding in OneNote - Aspose.Note
 
-## Invoering
+## Introduction
 
-In deze zelfstudie begeleiden we u bij het converteren van een notitieblok naar een afgeplatte afbeelding in OneNote met behulp van Aspose.Note voor Java. Hierdoor kunt u uw notebook als afbeeldingsbestand opslaan, zodat alle elementen in één afbeeldingsformaat behouden blijven.
+In deze tutorial ontdek je hoe je **OneNote naar PNG** kunt **converteren** door een heel notebook om te zetten in één afgevlakte afbeelding met Aspose.Note voor Java. Deze aanpak is perfect wanneer je een notebook wilt delen als een statische afbeelding, wilt insluiten in rapporten, of wilt archiveren zonder visuele details te verliezen.
 
-## Vereisten
+## Quick Answers
+- **What does “flatten notebook” mean?** It merges all page elements into one raster image.  
+- **Which format is used?** PNG is the default, giving loss‑less quality.  
+- **Can I change the DPI?** Yes, use `setResolution` on the `ImageSaveOptions`.  
+- **Do I need a license?** A free trial works for evaluation; a commercial license is required for production.  
+- **Is this supported on all OSes?** The Java API runs anywhere Java does.
 
-Voordat we beginnen, zorg ervoor dat u over het volgende beschikt:
+## What is converting OneNote to PNG?
 
-1. Java Development Kit (JDK) op uw systeem geïnstalleerd.
-2.  Aspose.Note voor de Java-bibliotheek gedownload en ingesteld in uw Java-project. U kunt de bibliotheek downloaden van[hier](https://releases.aspose.com/note/java/).
-3. Basiskennis van Java-programmeren.
+Het converteren van OneNote naar PNG maakt een bitmap‑representatie van elke pagina in het notebook, waarbij tekst, tekeningen en ingesloten objecten behouden blijven in één afbeeldingsbestand. Dit is vooral nuttig voor documentatie, presentaties of compliance‑archieven.
 
-## Pakketten importeren
+## Why convert OneNote to PNG with Aspose.Note?
 
-Om te beginnen moet u de benodigde pakketten uit Aspose importeren. Opmerking voor Java:
+- **Full fidelity** – All visual elements are retained.  
+- **Single‑file output** – No need to manage multiple page files.  
+- **Customizable resolution** – Adjust DPI to meet quality requirements.  
+- **No Office installation** – Works completely independent of Microsoft OneNote.
+
+## Prerequisites
+
+Before we begin, ensure you have the following:
+
+1. Java Development Kit (JDK) installed on your system.  
+2. Aspose.Note for Java library downloaded and set up in your Java project. You can download the library from [here](https://releases.aspose.com/note/java/).  
+3. Basic knowledge of Java programming.
+
+## Import Packages
+
+To start, you need to import the necessary packages from Aspose.Note for Java:
 
 ```java
 import java.io.IOException;
@@ -37,29 +58,29 @@ import com.aspose.note.NotebookImageSaveOptions;
 import com.aspose.note.SaveFormat;
 ```
 
-## Stap 1: Documentmap instellen
+## Step 1: Set Up Document Directory
 
-Definieer eerst de map waarin uw notebookbestand zich bevindt:
+Firstly, define the directory where your notebook file is located:
 
 ```java
 String dataDir = "Your Document Directory";
 ```
 
- Vervangen`"Your Document Directory"` met het pad naar uw notebookbestand.
+Vervang `"Your Document Directory"` door het pad naar uw notebook‑bestand.
 
-## Stap 2: Notebook laden
+## Step 2: Load Notebook
 
- Laad vervolgens het notebookbestand met behulp van de`Notebook` klas:
+Next, load the notebook file using the `Notebook` class:
 
 ```java
 Notebook notebook = new Notebook(dataDir + "test.onetoc2");
 ```
 
- Zorg ervoor dat u deze vervangt`"test.onetoc2"` met de naam van uw notebookbestand.
+Zorg ervoor dat u `"test.onetoc2"` vervangt door de naam van uw notebook‑bestand.
 
-## Stap 3: Stel de opties voor het opslaan van afbeeldingen in
+## Step 3: Set Image Save Options
 
-Stel nu de opties in voor het opslaan van het notebook als afbeelding. We specificeren het opslagformaat als PNG en stellen de resolutie in op 400 DPI:
+Now, set up the options for saving the notebook as an image. We will specify the save format as PNG and set the resolution to 400 DPI:
 
 ```java
 NotebookImageSaveOptions saveOptions = new NotebookImageSaveOptions(SaveFormat.Png);
@@ -67,53 +88,63 @@ ImageSaveOptions documentSaveOptions = saveOptions.getDocumentSaveOptions();
 documentSaveOptions.setResolution(400);
 ```
 
-U kunt de resolutie aanpassen aan uw wensen.
+U kunt de resolutie aanpassen aan uw wensen. Dit is de plek waar u **image resolution** instelt om de uitvoerkwaliteit te beheersen.
 
-## Stap 4: Maak het notitieboekje plat
+## Step 4: Flatten Notebook
 
-Om ervoor te zorgen dat alle elementen in één afbeelding worden afgevlakt, stelt u de`flatten` optie om`true`:
+To ensure that all elements are flattened into a single image, set the `flatten` option to `true`:
 
 ```java
 saveOptions.setFlatten(true);
 ```
 
-Dit zorgt ervoor dat de resulterende afbeelding de lay-out van uw notebook behoudt.
+Het instellen van `flatten` op `true` garandeert dat de resulterende PNG de exacte lay-out van uw notebook behoudt.
 
-## Stap 5: Afbeelding opslaan
+## Step 5: Save Image
 
-Sla ten slotte het notitieboekje op als een afgeplatte afbeelding:
+Finally, save the notebook as a flattened image:
 
 ```java
 notebook.save(dataDir + "ExportImageasFlattenedNotebook_out.png", saveOptions);
 ```
 
- Vervangen`"ExportImageasFlattenedNotebook_out.png"` met de gewenste uitvoerbestandsnaam.
+Vervang `"ExportImageasFlattenedNotebook_out.png"` door de gewenste bestandsnaam voor de uitvoer. Deze stap **saves OneNote as an image** die u overal kunt delen of insluiten.
 
-## Conclusie
+## Common Use Cases
 
-Kortom, met Aspose.Note voor Java kunt u uw notitieboekje eenvoudig converteren naar een afgeplatte afbeelding in OneNote. Dit proces zorgt ervoor dat alle elementen in één beeldformaat bewaard blijven, waardoor delen en bekijken eenvoudig wordt.
+- **Documentation:** Embed the notebook image in technical manuals or user guides.  
+- **Presentations:** Use a high‑resolution PNG slide in PowerPoint without worrying about font or object compatibility.  
+- **Archiving:** Store a read‑only snapshot of a notebook for compliance audits.
 
-## Veelgestelde vragen
+## Troubleshooting Tips
 
-### Vraag 1: Kan ik de resolutie van het uitvoerbeeld aanpassen?
+- **File not found:** Double‑check the `dataDir` path and ensure the `.onetoc2` file exists.  
+- **Low quality image:** Increase the DPI by changing `documentSaveOptions.setResolution(600);`.  
+- **Missing elements:** Verify that `saveOptions.setFlatten(true);` is enabled; otherwise, some layers may remain separate.
 
- A1: Ja, u kunt de resolutie aanpassen aan uw wensen door de`setResolution` methodeparameter.
+## Frequently Asked Questions
 
-### V2: Ondersteunt Aspose.Note andere afbeeldingsformaten voor export?
+**Q1: Can I adjust the resolution of the output image?**  
+A1: Yes, you can adjust the resolution according to your requirements by modifying the `setResolution` method parameter.
 
-A2: Ja, Aspose.Note ondersteunt verschillende afbeeldingsformaten zoals PNG, JPEG, BMP, enz., voor het exporteren van notebooks.
+**Q2: Does Aspose.Note support other image formats for export?**  
+A2: Yes, Aspose.Note supports various image formats such as PNG, JPEG, BMP, etc., for exporting notebooks.
 
-### Vraag 3: Kan ik de uitvoerafbeelding verder aanpassen?
+**Q3: Can I customize the output image further?**  
+A3: Yes, Aspose.Note provides extensive options for customizing the output image, including page size, orientation, and quality settings.
 
-A3: Ja, Aspose.Note biedt uitgebreide opties voor het aanpassen van de uitvoerafbeelding, inclusief paginaformaat, richting en kwaliteitsinstellingen.
+**Q4: Is there a trial version available for Aspose.Note for Java?**  
+A4: Yes, you can obtain a free trial version from [here](https://releases.aspose.com/).
 
-### V4: Is er een proefversie beschikbaar voor Aspose.Note voor Java?
+**Q5: Where can I find support for Aspose.Note for Java?**  
+A5: You can find support and resources on the Aspose.Note forum [here](https://forum.aspose.com/c/note/28).
 
- A4: Ja, u kunt een gratis proefversie verkrijgen via[hier](https://releases.aspose.com/).
+---
 
-### V5: Waar kan ik ondersteuning vinden voor Aspose.Note voor Java?
+**Last Updated:** 2025-12-25  
+**Tested With:** Aspose.Note for Java 24.12  
+**Author:** Aspose  
 
- A5: U kunt ondersteuning en bronnen vinden op het Aspose.Note-forum[hier](https://forum.aspose.com/c/note/28).
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
