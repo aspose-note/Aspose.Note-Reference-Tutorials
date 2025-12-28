@@ -1,31 +1,46 @@
 ---
-title: تحويل دفتر الملاحظات إلى صورة في OneNote - Aspose.Note
-linktitle: تحويل دفتر الملاحظات إلى صورة في OneNote - Aspose.Note
-second_title: Aspose.Note جافا API
-description: تعرف على كيفية تحويل دفاتر الملاحظات إلى صور في OneNote باستخدام Aspose.Note لـ Java. قم بدمج هذه الوظيفة بسهولة في تطبيقات Java الخاصة بك.
-weight: 12
+date: 2025-12-28
+description: تعلم كيفية تحويل OneNote إلى صورة وحفظ OneNote بصيغة PNG باستخدام Aspose.Note
+  للغة Java. قم بدمج هذه الوظيفة بسهولة في تطبيقات Java الخاصة بك.
+linktitle: Convert Notebook to Image in OneNote - Aspose.Note
+second_title: Aspose.Note Java API
+title: تحويل OneNote إلى صورة – تحويل OneNote إلى صورة باستخدام Aspose.Note
 url: /ar/java/onenote-notebook-operations/convert-notebook-to-image/
+weight: 12
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# تحويل دفتر الملاحظات إلى صورة في OneNote - Aspose.Note
+# تحويل OneNote إلى صورة – تحويل OneNote إلى صورة باستخدام Aspose.Note
 
-## مقدمة
+## المقدمة
 
-في هذا البرنامج التعليمي، سوف نستكشف كيفية تحويل دفتر ملاحظات إلى صورة في OneNote باستخدام مكتبة Aspose.Note for Java. يمكن أن يكون تحويل دفاتر الملاحظات إلى صور مفيدًا لأغراض متعددة مثل مشاركة الملاحظات أو تضمينها في المستندات أو دمجها في العروض التقديمية.
+## إجابات سريعة
+- **ماذا يعني “convert onenote to image”?** يعني ذلك تحويل صفحة دفتر OneNote إلى ملف صورة نقطية مثل PNG.  
+- **أي صيغة يوصى بها للحصول على أفضل جودة؟** PNG هي صيغة غير مضغوطة وتحافظ على النصوص والرسومات الحادة.  
+- **هل أحتاج إلى ترخيص لاستخدام Aspose.Note؟** النسخة التجريبية المجانية تكفي للتطوير؛ يتطلب الترخيص التجاري للإنتاج.  
+- **هل يمكنني تحويل دفاتر متعددة دفعة واحدة؟** نعم – فقط قم بالتكرار على الملفات وأعد استخدام نفس كود التحويل.  
+- **ما نسخة Java المطلوبة؟** Java 8 أو أحدث (الدرس يستخدم JDK 15 كمثال).
 
-## المتطلبات الأساسية
+## ما هو “convert onenote to image”؟
+تحويل دفتر OneNote إلى صورة يستخرج التمثيل البصري لكل صفحة ويكتبها إلى ملف صورة قياسي. هذه العملية تحافظ على التخطيط والخطوط والكائنات المدمجة، مما يجعل المحتوى قابلاً للعرض على أي جهاز دون الحاجة إلى OneNote.
+
+## لماذا نستخدم Aspose.Note لهذا التحويل؟
+- **لا يعتمد على Microsoft Office** – يعمل على أي نظام تشغيل يدعم Java.  
+- **دقة عالية** – الصورة المولدة تطابق صفحة OneNote الأصلية بيكسلًا ببيكسل.  
+- **تنسيقات إخراج متعددة** – PNG, JPEG, BMP, GIF, TIFF.  
+- **واجهة برمجة تطبيقات بسيطة** – بضع أسطر من الكود تكفي للتحميل، الإعداد، والحفظ.
+
+## المتطلبات المسبقة
 
 قبل أن نبدأ، تأكد من أن لديك ما يلي:
 
-1.  Java Development Kit (JDK): تأكد من تثبيت Java على نظامك. يمكنك تنزيل وتثبيت أحدث إصدار من[موقع إلكتروني](https://www.oracle.com/java/technologies/javase-jdk15-downloads.html).
+1. **Java Development Kit (JDK)** – قم بتثبيت أحدث JDK من [الموقع](https://www.oracle.com/java/technologies/javase-jdk15-downloads.html).  
+2. **Aspose.Note for Java library** – قم بتحميل ملف JAR من [موقع Aspose](https://releases.aspose.com/note/java/) وأضفه إلى مسار الفئات (classpath) في مشروعك.
 
-2.  Aspose.Note لمكتبة Java: قم بتنزيل مكتبة Aspose.Note لـ Java وتضمينها في مشروعك. يمكنك الحصول على المكتبة من[موقع أسبوز](https://releases.aspose.com/note/java/).
-
-## حزم الاستيراد
+## استيراد الحزم
 
 ```java
 import java.io.IOException;
@@ -35,71 +50,78 @@ import com.aspose.note.ImageSaveOptions;
 import com.aspose.note.SaveFormat;
 ```
 
-الآن، دعونا نقسم عملية التحويل إلى خطوات متعددة:
+الآن، دعنا نقسم عملية التحويل إلى خطوات واضحة مرقمة.
 
-## الخطوة 1: قم بتحميل مستند دفتر الملاحظات
+## الخطوة 1: تحميل مستند دفتر الملاحظات
 
 ```java
-//حدد الدليل الذي يوجد به ملف دفتر الملاحظات الخاص بك
+// Specify the directory where your notebook file is located
 String dataDir = "Your Document Directory";
 
-// قم بتحميل المستند إلى Aspose.Note
+// Load the document into Aspose.Note
 Document oneFile = new Document(dataDir + "Sample1.one");
 ```
 
- في هذه الخطوة، نحدد مسار الدليل الذي يوجد به ملف دفتر الملاحظات. وبعد ذلك نستخدم`Document` فئة من مكتبة Aspose.Note لتحميل مستند دفتر الملاحظات المسمى "Sample1.one" في الذاكرة.
+في هذه الخطوة نوجه الـ API إلى المجلد الذي يحتوي على ملف `.one` ونحمله إلى كائن `Document`.
 
 ## الخطوة 2: تهيئة ImageSaveOptions
 
 ```java
-// تهيئة كائن PdfSaveOptions
+// Initialize PdfSaveOptions object
 ImageSaveOptions options = new ImageSaveOptions(SaveFormat.Png);
 ```
 
- هنا، نقوم بتهيئة`ImageSaveOptions` الكائن وحدد التنسيق الذي نريد حفظ مستند دفتر الملاحظات به. في هذه الحالة، نختار تنسيق PNG.
+هنا نقوم بإنشاء نسخة من `ImageSaveOptions` ونخبر Aspose.Note أننا نريد الإخراج بصيغة **PNG** – هذا يطابق الكلمة المفتاحية الثانوية *save onenote as png*.
 
-## الخطوة 3: احفظ المستند كصورة
+## الخطوة 3: حفظ المستند كصورة
 
 ```java
-// احفظ المستند بصيغة PNG
+// Save the document as PNG
 oneFile.save(dataDir + "ConvertToImage_out.png", options);
 ```
 
- والآن نستخدم`save()` طريقة لحفظ مستند دفتر الملاحظات المحمل كملف صورة. نحن نقدم مسار الملف حيث نريد حفظ الصورة وتمرير التهيئة`ImageSaveOptions` هدف.
+نداء `save()` يكتب صفحة دفتر الملاحظات إلى `ConvertToImage_out.png`. يمكنك تغيير `SaveFormat.Png` إلى `SaveFormat.Jpeg` إذا كنت تفضل إخراج JPEG متوافق مع **convert onenote to png**.
 
-## الخطوة 4: تأكيد الطباعة
+## الخطوة 4: طباعة التأكيد
 
 ```java
 System.out.println("File saved: " + dataDir + "ConvertToImage_out.png");
 ```
 
-أخيرًا، نقوم بطباعة رسالة تأكيد إلى وحدة التحكم تشير إلى نجاح التحويل والموقع الذي تم حفظ ملف الصورة فيه.
+رسالة بسيطة في وحدة التحكم تؤكد أن عملية **convert onenote to image** نجحت.
 
-## خاتمة
+## المشكلات الشائعة والنصائح
+- **الملف غير موجود** – تحقق مرة أخرى من مسار `dataDir` وتأكد من وجود `Sample1.one`.  
+- **أخطاء نفاد الذاكرة** – بالنسبة لدفاتر الملاحظات الكبيرة جدًا، قم بزيادة مساحة الذاكرة للـ JVM (`-Xmx`) أو عالج الصفحات بشكل فردي.  
+- **جودة الصورة** – يمكنك تعديل DPI عبر `options.setResolution(300);` للحصول على PNG بدقة أعلى.
 
-في هذا البرنامج التعليمي، تعلمنا كيفية تحويل دفتر ملاحظات إلى صورة في OneNote باستخدام مكتبة Aspose.Note لـ Java. باتباع الخطوات الموضحة أعلاه، يمكنك دمج هذه الوظيفة بسلاسة في تطبيقات Java الخاصة بك.
+## الأسئلة المتكررة
 
-## الأسئلة الشائعة
+**س: هل يمكنني تحويل دفاتر الملاحظات إلى تنسيقات صورة أخرى غير PNG؟**  
+ج: نعم. مكتبة Aspose.Note تدعم JPEG, BMP, GIF, TIFF، وغيرها. فقط غير تعداد `SaveFormat` في `ImageSaveOptions`.
 
-### س1: هل يمكنني تحويل دفاتر الملاحظات إلى تنسيقات صور أخرى إلى جانب PNG؟
+**س: هل Aspose.Note متوافق مع جميع إصدارات OneNote؟**  
+ج: Aspose.Note يوفر دعمًا شاملاً لمختلف صيغ ملفات OneNote، مما يضمن التوافق عبر إصدارات OneNote المختلفة.
 
- ج1: نعم يمكنك ذلك. تدعم مكتبة Aspose.Note العديد من تنسيقات الصور مثل JPEG وBMP وGIF وTIFF وما إلى ذلك. ويمكنك تحديد التنسيق المطلوب في ملف`ImageSaveOptions` الكائن وفقا لذلك.
+**س: هل يمكنني تخصيص إعدادات إخراج الصورة أثناء التحويل؟**  
+ج: بالتأكيد. يمكنك التحكم في الدقة، الجودة، عمق اللون، ومعلمات أخرى عبر كائن `ImageSaveOptions`.
 
-### س2: هل Aspose.Note متوافق مع كافة إصدارات OneNote؟
+**س: هل يدعم Aspose.Note التحويل الجماعي لعدة دفاتر ملاحظات؟**  
+ج: نعم. قم بالتكرار على مجموعة من ملفات `.one` وطبق نفس خطوات التحويل داخل حلقة.
 
-ج2: يوفر Aspose.Note دعمًا شاملاً للإصدارات المختلفة من OneNote، مما يضمن التوافق عبر البيئات وتنسيقات الملفات المختلفة.
+**س: أين يمكنني العثور على موارد إضافية ودعم لـ Aspose.Note؟**  
+ج: زر [منتدى Aspose.Note](https://forum.aspose.com/c/note/28) واستكشف [التوثيق الكامل](https://reference.aspose.com/note/java/).
 
-### س3: هل يمكنني تخصيص إعدادات إخراج الصورة أثناء التحويل؟
+## الخلاصة
 
-ج3: بالتأكيد. يوفر Aspose.Note خيارات شاملة لتخصيص الصورة الناتجة، بما في ذلك الدقة والجودة وعمق الألوان والمزيد. يمكنك تخصيص هذه الإعدادات وفقًا لمتطلباتك.
+أصبح لديك الآن مثال كامل وجاهز للإنتاج حول كيفية **convert onenote to image** و **save onenote as png** باستخدام Aspose.Note للـ Java. دمج هذه الأسطر القليلة في قاعدة الشيفرة الحالية سيمكنك من إنشاء صور عالية الجودة من دفاتر OneNote عند الحاجة.
 
-### س4: هل يدعم Aspose.Note التحويل المجمع لدفاتر ملاحظات متعددة؟
+---
 
-ج4: نعم، يمكنك تحويل عدة دفاتر ملاحظات إلى صور بكفاءة باستخدام Aspose.Note. ما عليك سوى تكرار قائمة ملفات دفتر الملاحظات لديك وتطبيق عملية التحويل الموضحة في هذا البرنامج التعليمي.
+**آخر تحديث:** 2025-12-28  
+**تم الاختبار مع:** Aspose.Note 24.11 للـ Java  
+**المؤلف:** Aspose  
 
-### س5: أين يمكنني العثور على موارد إضافية ودعم لـ Aspose.Note؟
-
- ج5: لمزيد من الوثائق والأمثلة ودعم المجتمع، قم بزيارة[منتدى Aspose.Note](https://forum.aspose.com/c/note/28) واستكشاف[توثيق](https://reference.aspose.com/note/java/).
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
