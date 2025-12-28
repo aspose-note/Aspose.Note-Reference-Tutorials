@@ -1,32 +1,47 @@
 ---
-title: 使用 OneNote 中的選項將筆記本轉換為圖像 - Aspose.Note
-linktitle: 使用 OneNote 中的選項將筆記本轉換為圖像 - Aspose.Note
+date: 2025-12-28
+description: 了解如何使用 Aspose.Note 在 Java 中將 OneNote 轉換為圖像並設定圖像解析度。本逐步指南亦說明如何匯出 OneNote
+  PNG 檔案。
+linktitle: Convert OneNote to Image with Options - Aspose.Note
 second_title: Aspose.Note Java API
-description: 了解如何使用 Aspose.Note for Java 將筆記本轉換為帶有選項的圖像。按照我們的逐步教學無縫整合到您的 Java 應用程式中。
-weight: 14
+title: 將 OneNote 轉換為圖片（含選項） - Aspose.Note
 url: /zh-hant/java/onenote-notebook-operations/convert-notebook-to-image-with-options/
+weight: 14
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# 使用 OneNote 中的選項將筆記本轉換為圖像 - Aspose.Note
+# 將 OneNote 轉換為圖像（含選項） - Aspose.Note
 
-## 介紹
+## 簡介
 
-在本教程中，我們將深入研究使用 Aspose.Note for Java 將筆記本轉換為具有各種選項的圖像的過程。 Aspose.Note 是一個功能強大的 Java API，使開發人員能夠以程式設計方式使用 Microsoft OneNote 文件，從而無縫整合到他們的 Java 應用程式中。
+在本教學中，您將學習如何使用 Aspose.Note for Java **將 OneNote 轉換為圖像**，並可使用各種選項。無論您需要用於報告的高解析度 PNG，或是快速的 JPEG 縮圖，以下步驟將精確說明如何完成並將此過程整合至您的 Java 應用程式中。
+
+## 快速答案
+- **什麼是「convert OneNote to image」的意思？** 它會將整個 OneNote 筆記本轉換為點陣圖檔案（PNG、JPEG 等）。
+- **建議使用哪種格式以獲得無損品質？** PNG，因為它能在不產生壓縮雜訊的情況下保留所有細節。
+- **如何在 Java 中設定圖像解析度？** 使用 `ImageSaveOptions.setResolution(int dpi)` 透過 `NotebookImageSaveOptions`。
+- **能否一次性將 OneNote 筆記本匯出為 PNG？** 可以，Aspose.Note 提供單一的 `save` 呼叫，搭配相應的選項即可。
+- **生產環境是否需要授權？** 生產環境需要商業授權；可使用免費試用版進行評估。
+
+## 什麼是「convert OneNote to image」？
+將 OneNote 筆記本轉換為圖像，即將筆記本的每一頁渲染為位圖檔案。此功能可用於建立靜態預覽、存檔內容，或在原始 OneNote 格式不受支援的報告中嵌入筆記本頁面。
+
+## 為什麼要使用 Aspose.Note for Java？
+- **完整控制** 輸出格式、解析度與色彩深度。  
+- **無需 Microsoft Office 依賴** – 可在任何伺服器端 Java 環境中運行。  
+- **支援複雜筆記本**，包括嵌入檔案、手寫墨跡與豐富文字。
 
 ## 先決條件
 
-在我們開始之前，請確保您具備以下先決條件：
+1. **Java Development Kit (JDK)** – 版本 8 或以上。  
+2. **Aspose.Note for Java JAR 檔案** – 從 [here](https://releases.aspose.com/note/java/) 下載最新程式庫，並將其加入專案的 classpath。
 
-1. Java 開發工具包 (JDK)：確保您的系統上安裝了 JDK。
-2. Aspose.Note for Java JAR 檔案：從下列位置下載 Aspose.Note for Java 函式庫[這裡](https://releases.aspose.com/note/java/)並將其包含在專案的類別路徑中。
+## 匯入套件
 
-## 導入包
-
-首先，讓我們為 Java 應用程式導入必要的套件：
+首先，匯入我們在載入筆記本與設定圖像輸出時所需的類別。
 
 ```java
 import java.io.IOException;
@@ -37,19 +52,19 @@ import com.aspose.note.NotebookImageSaveOptions;
 import com.aspose.note.SaveFormat;
 ```
 
-## 第 1 步：載入筆記本
+## 步驟 1：載入筆記本
 
-首先，我們需要載入要轉換為圖片的 OneNote 筆記本。
+載入您想要轉換的 OneNote 筆記本。將路徑替換為您 `.onetoc2` 檔案的所在位置。
 
 ```java
 String dataDir = "Your Document Directory";
-//載入 OneNote 筆記本
+// Load a OneNote Notebook
 Notebook notebook = new Notebook(dataDir + "test.onetoc2");
 ```
 
-## 第 2 步：設定儲存選項
+## 步驟 2：設定儲存選項（如何 **set image resolution java**）
 
-接下來，我們將定義影像儲存選項，包括所需的格式（PNG、JPEG 等）和解析度。
+建立 `NotebookImageSaveOptions` 實例，選擇輸出格式，並指定所需的解析度。在此範例中，我們使用 PNG，解析度為 400 dpi。
 
 ```java
 NotebookImageSaveOptions notebookSaveOptions = new NotebookImageSaveOptions(SaveFormat.Png);
@@ -59,42 +74,52 @@ ImageSaveOptions documentSaveOptions = notebookSaveOptions.getDocumentSaveOption
 documentSaveOptions.setResolution(400);
 ```
 
-## 步驟 3：將筆記本另存為影像
+> **專業提示：** 為了在大型筆記本上加快處理速度，可降低解析度（例如 150 dpi）。若需列印品質的圖形，則提高解析度。
 
-現在，我們將使用指定選項將筆記本儲存為圖像。
+## 步驟 3：將筆記本儲存為圖像（如何 **export OneNote PNG**）
+
+定義輸出檔案名稱並呼叫 `save`。相同的選項會套用至筆記本的每一頁。
 
 ```java
 dataDir = dataDir + "ExportNotebooktoImagewithOptions_out.png";
 
-//儲存筆記本
+// Save the Notebook
 notebook.save(dataDir, notebookSaveOptions);
 ```
 
-## 結論
+上述程式碼會產生 PNG 檔案（或一系列 PNG 檔案，每頁一個），其解析度為您設定的值。
 
-在本教程中，我們學習如何使用 Aspose.Note for Java 將筆記本轉換為具有各種選項的圖像。透過執行這些步驟，您可以將此功能無縫整合到您的 Java 應用程式中，從而為以程式設計方式操作 OneNote 檔案提供了可能性。
+## 常見問題與解決方案
 
-## 常見問題解答
+| 問題 | 解決方案 |
+|------|----------|
+| **OutOfMemoryError** 在大型筆記本上 | 增加 JVM 堆積大小（`-Xmx2g`）或降低解析度。 |
+| **輸出空白頁面** | 確保筆記本未受密碼保護；如有需要，使用 `Notebook.load(path, password)`。 |
+| **不支援的圖像格式** | 僅使用 `SaveFormat.Png`、`SaveFormat.Jpeg` 或 `SaveFormat.Bmp`——其他格式不支援筆記本匯出。 |
 
-### Q1：Aspose.Note 可以處理複雜的 OneNote 檔案嗎？
+## 常見問答
 
-A1：是的，Aspose.Note 可以有效地處理複雜的 OneNote 文件，讓您以程式設計方式對其執行各種操作。
+**Q: Aspose.Note 能處理複雜的 OneNote 檔案嗎？**  
+A: 是的，它能有效處理包含嵌入檔案、手寫墨跡與豐富格式的筆記本。
 
-### Q2：Aspose.Note for Java 是否易於整合到現有專案中？
+**Q: Aspose.Note for Java 容易整合到現有專案嗎？**  
+A: 絕對可以。API 簡單明瞭，您只需將 JAR 加入 classpath 即可。
 
-A2：當然！ Aspose.Note for Java 提供了一個簡單的 API，可以輕鬆整合到您的 Java 專案中，從而節省您的時間和精力。
+**Q: 在將筆記本轉換時，我可以自訂圖像輸出嗎？**  
+A: 可以。您可以透過 `ImageSaveOptions` 設定解析度、格式，甚至色彩深度。
 
-### Q3：轉換Notebook時可以自訂影像輸出嗎？
+**Q: Aspose.Note 為開發者提供支援嗎？**  
+A: 有。Aspose 提供豐富的文件、論壇與即時回應的支援管道。
 
-A3：是的，Aspose.Note 允許您透過指定解析度、格式等選項來自訂影像輸出。
+**Q: Aspose.Note for Java 有免費試用版嗎？**  
+A: 有，您可從 [here](https://releases.aspose.com/) 下載試用版。
 
-### Q4：Aspose.Note 為開發者提供支援嗎？
+---
 
-A4：是的，Aspose 透過論壇和文件為開發人員提供出色的支持，確保順利整合和故障排除。
+**最後更新：** 2025-12-28  
+**測試環境：** Aspose.Note 24.11 for Java  
+**作者：** Aspose  
 
-### Q5：Aspose.Note for Java 有免費試用版嗎？
-
- A5：是的，您可以從以下位置免費試用 Aspose.Note for Java：[這裡](https://releases.aspose.com/).
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

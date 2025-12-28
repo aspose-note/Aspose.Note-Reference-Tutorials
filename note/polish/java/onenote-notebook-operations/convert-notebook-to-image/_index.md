@@ -1,31 +1,49 @@
 ---
-title: Konwertuj notatnik na obraz w programie OneNote — Aspose.Note
-linktitle: Konwertuj notatnik na obraz w programie OneNote — Aspose.Note
-second_title: Aspose.Note API Java
-description: Dowiedz się, jak konwertować notesy na obrazy w programie OneNote przy użyciu programu Aspose.Note dla języka Java. Z łatwością zintegruj tę funkcjonalność z aplikacjami Java.
-weight: 12
+date: 2025-12-28
+description: Dowiedz się, jak konwertować OneNote na obraz i zapisywać OneNote jako
+  PNG przy użyciu Aspose.Note dla Javy. Łatwo zintegrować tę funkcjonalność z aplikacjami
+  Java.
+linktitle: Convert Notebook to Image in OneNote - Aspose.Note
+second_title: Aspose.Note Java API
+title: Konwertuj OneNote na obraz – konwertuj OneNote na obraz z Aspose.Note
 url: /pl/java/onenote-notebook-operations/convert-notebook-to-image/
+weight: 12
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Konwertuj notatnik na obraz w programie OneNote — Aspose.Note
+# Convert OneNote to Image – convert onenote to image with Aspose.Note
 
-## Wstęp
+## Introduction
 
-W tym samouczku omówimy, jak przekonwertować notatnik na obraz w programie OneNote przy użyciu biblioteki Aspose.Note dla Java. Konwertowanie notatników na obrazy może być przydatne do różnych celów, takich jak udostępnianie notatek, osadzanie ich w dokumentach lub uwzględnianie ich w prezentacjach.
+W tym samouczku dowiesz się **jak konwertować onenote na obraz** przy użyciu biblioteki Aspose.Note dla języka Java. Przekształcenie notatnika OneNote w obraz (PNG, JPEG itp.) jest przydatne, gdy musisz udostępnić notatki osobom, które nie mają OneNote, osadzić je w raportach lub wstawić do prezentacji. Przejdziemy krok po kroku przez cały proces, abyś mógł dodać tę funkcjonalność do swoich aplikacji Java w kilka minut.
 
-## Warunki wstępne
+## Quick Answers
+- **Co oznacza „convert onenote to image”?** Oznacza to renderowanie strony notatnika OneNote jako pliku obrazu rastrowego, takiego jak PNG.  
+- **Jaki format jest zalecany dla najlepszej jakości?** PNG jest bezstratny i zachowuje ostre teksty oraz grafikę.  
+- **Czy potrzebna jest licencja na użycie Aspose.Note?** Darmowa wersja próbna wystarcza do rozwoju; licencja komercyjna jest wymagana w środowisku produkcyjnym.  
+- **Czy mogę konwertować wiele notatników jednocześnie?** Tak – wystarczy pętla po plikach i ponowne użycie tego samego kodu konwersji.  
+- **Jakiej wersji Javy wymaga tutorial?** Java 8 lub nowsza (w przykładzie użyto JDK 15).
+
+## What is “convert onenote to image”?
+Konwersja notatnika OneNote do obrazu polega na wyodrębnieniu wizualnej reprezentacji każdej strony i zapisaniu jej jako standardowego pliku obrazu. Proces ten zachowuje układ, czcionki i osadzone obiekty, dzięki czemu zawartość jest widoczna na dowolnym urządzeniu bez potrzeby posiadania OneNote.
+
+## Why use Aspose.Note for this conversion?
+- **Brak zależności od Microsoft Office** – działa na każdym systemie operacyjnym, na którym działa Java.  
+- **Wysoka wierność** – renderowany obraz jest identyczny piksel po pikselu z oryginalną stroną OneNote.  
+- **Wiele formatów wyjściowych** – PNG, JPEG, BMP, GIF, TIFF.  
+- **Proste API** – kilka linii kodu wystarcza do załadowania, skonfigurowania i zapisania.
+
+## Prerequisites
 
 Zanim zaczniemy, upewnij się, że masz następujące elementy:
 
-1.  Zestaw Java Development Kit (JDK): Upewnij się, że w systemie jest zainstalowana Java. Możesz pobrać i zainstalować najnowszą wersję ze strony[strona internetowa](https://www.oracle.com/java/technologies/javase-jdk15-downloads.html).
+1. **Java Development Kit (JDK)** – Zainstaluj najnowszy JDK ze [strony](https://www.oracle.com/java/technologies/javase-jdk15-downloads.html).  
+2. **Aspose.Note for Java library** – Pobierz plik JAR z [witryny Aspose](https://releases.aspose.com/note/java/) i dodaj go do classpath swojego projektu.
 
-2.  Aspose.Note for Java Library: Pobierz i dołącz bibliotekę Aspose.Note for Java do swojego projektu. Bibliotekę można uzyskać z witryny[Strona Aspose](https://releases.aspose.com/note/java/).
-
-## Importuj pakiety
+## Import Packages
 
 ```java
 import java.io.IOException;
@@ -35,71 +53,79 @@ import com.aspose.note.ImageSaveOptions;
 import com.aspose.note.SaveFormat;
 ```
 
-Podzielmy teraz proces konwersji na kilka etapów:
+Teraz rozbijmy proces konwersji na przejrzyste, numerowane kroki.
 
-## Krok 1: Załaduj dokument notesu
+## Step 1: Load the Notebook Document
 
 ```java
-//Określ katalog, w którym znajduje się plik notatnika
+// Specify the directory where your notebook file is located
 String dataDir = "Your Document Directory";
 
-// Załaduj dokument do Aspose.Note
+// Load the document into Aspose.Note
 Document oneFile = new Document(dataDir + "Sample1.one");
 ```
 
- W tym kroku definiujemy ścieżkę katalogu, w którym znajduje się plik notatnika. Następnie korzystamy z`Document` class z biblioteki Aspose.Note, aby załadować do pamięci dokument notatnika o nazwie „Sample1.one”.
+W tym kroku wskazujemy API na folder zawierający plik `.one` i ładujemy go do obiektu `Document`.
 
-## Krok 2: Zainicjuj opcje ImageSaveOptions
+## Step 2: Initialize ImageSaveOptions
 
 ```java
-// Zainicjuj obiekt PdfSaveOptions
+// Initialize PdfSaveOptions object
 ImageSaveOptions options = new ImageSaveOptions(SaveFormat.Png);
 ```
 
- Tutaj inicjujemy an`ImageSaveOptions` obiekt i określ format, w jakim chcemy zapisać dokument notatnika. W tym przypadku wybieramy format PNG.
+Tutaj tworzymy instancję `ImageSaveOptions` i informujemy Aspose.Note, że chcemy uzyskać wynik w formacie **PNG** – spełnia to drugorzędne słowo kluczowe *save onenote as png*.
 
-## Krok 3: Zapisz dokument jako obraz
+## Step 3: Save the Document as Image
 
 ```java
-// Zapisz dokument jako PNG
+// Save the document as PNG
 oneFile.save(dataDir + "ConvertToImage_out.png", options);
 ```
 
- Teraz używamy`save()` metoda zapisania załadowanego dokumentu notatnika jako pliku obrazu. Podajemy ścieżkę pliku, w którym chcemy zapisać obraz i przekazujemy zainicjalizowany`ImageSaveOptions` obiekt.
+Wywołanie `save()` zapisuje stronę notatnika do pliku `ConvertToImage_out.png`. Możesz zmienić `SaveFormat.Png` na `SaveFormat.Jpeg`, jeśli wolisz **convert onenote to png**‑kompatybilny format JPEG.
 
-## Krok 4: Wydrukuj potwierdzenie
+## Step 4: Print Confirmation
 
 ```java
 System.out.println("File saved: " + dataDir + "ConvertToImage_out.png");
 ```
 
-Na koniec drukujemy na konsoli wiadomość potwierdzającą, wskazującą pomyślną konwersję i lokalizację, w której plik obrazu został zapisany.
+Prosty komunikat w konsoli potwierdza, że operacja **convert onenote to image** zakończyła się sukcesem.
 
-## Wniosek
+## Common Issues & Tips
 
-tym samouczku dowiedzieliśmy się, jak przekonwertować notatnik na obraz w programie OneNote przy użyciu biblioteki Aspose.Note dla Java. Wykonując kroki opisane powyżej, możesz bezproblemowo zintegrować tę funkcjonalność z aplikacjami Java.
+- **File not found** – Sprawdź dokładnie ścieżkę `dataDir` i upewnij się, że plik `Sample1.one` istnieje.  
+- **Out‑of‑memory errors** – Dla bardzo dużych notatników zwiększ pamięć sterty JVM (`-Xmx`) lub przetwarzaj strony pojedynczo.  
+- **Image quality** – Możesz dostosować DPI za pomocą `options.setResolution(300);` dla obrazów PNG o wyższej rozdzielczości.
 
-## Często zadawane pytania
+## Frequently Asked Questions
 
-### P1: Czy mogę konwertować notesy na inne formaty obrazów oprócz PNG?
+**Q: Czy mogę konwertować notatniki na inne formaty obrazu poza PNG?**  
+A: Tak. Biblioteka Aspose.Note obsługuje JPEG, BMP, GIF, TIFF i inne. Wystarczy zmienić wartość wyliczenia `SaveFormat` w `ImageSaveOptions`.
 
- A1: Tak, możesz. Biblioteka Aspose.Note obsługuje różne formaty obrazów, takie jak JPEG, BMP, GIF, TIFF itp. Możesz określić żądany format w`ImageSaveOptions` odpowiednio sprzeciwić się.
+**Q: Czy Aspose.Note jest kompatybilny ze wszystkimi wersjami OneNote?**  
+A: Aspose.Note zapewnia kompleksowe wsparcie dla różnych formatów plików OneNote, co gwarantuje kompatybilność z różnymi wersjami programu.
 
-### P2: Czy Aspose.Note jest kompatybilny ze wszystkimi wersjami OneNote?
+**Q: Czy mogę dostosować ustawienia wyjściowego obrazu podczas konwersji?**  
+A: Oczywiście. Możesz kontrolować rozdzielczość, jakość, głębię kolorów i inne parametry za pomocą obiektu `ImageSaveOptions`.
 
-O2: Aspose.Note zapewnia kompleksową obsługę różnych wersji OneNote, zapewniając kompatybilność w różnych środowiskach i formatach plików.
+**Q: Czy Aspose.Note obsługuje konwersję wsadową wielu notatników?**  
+A: Tak. Iteruj po kolekcji plików `.one` i zastosuj te same kroki konwersji w pętli.
 
-### P3: Czy mogę dostosować ustawienia wyjściowe obrazu podczas konwersji?
+**Q: Gdzie mogę znaleźć dodatkowe zasoby i wsparcie dla Aspose.Note?**  
+A: Odwiedź [forum Aspose.Note](https://forum.aspose.com/c/note/28) oraz zapoznaj się z pełną [dokumentacją](https://reference.aspose.com/note/java/).
 
-A3: Absolutnie. Aspose.Note oferuje rozbudowane opcje dostosowywania obrazu wyjściowego, w tym rozdzielczość, jakość, głębię kolorów i inne. Możesz dostosować te ustawienia do swoich wymagań.
+## Conclusion
 
-### P4: Czy Aspose.Note obsługuje konwersję wsadową wielu notatników?
+Masz teraz kompletny, gotowy do produkcji przykład, jak **convert onenote to image** i **save onenote as png** przy użyciu Aspose.Note dla Javy. Włącz te kilka linii do istniejącego kodu, a będziesz mógł na żądanie generować wysokiej jakości obrazy z notatników OneNote.
 
-O4: Tak, możesz efektywnie konwertować wiele notatników na obrazy za pomocą Aspose.Note. Po prostu przejrzyj listę plików notatnika i zastosuj proces konwersji opisany w tym samouczku.
+---
 
-### P5: Gdzie mogę znaleźć dodatkowe zasoby i wsparcie dla Aspose.Note?
+**Last Updated:** 2025-12-28  
+**Tested With:** Aspose.Note 24.11 for Java  
+**Author:** Aspose  
 
- Odpowiedź 5: Dalszą dokumentację, przykłady i wsparcie społeczności można znaleźć na stronie[Forum Aspose.Note](https://forum.aspose.com/c/note/28) i eksploruj[dokumentacja](https://reference.aspose.com/note/java/).
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

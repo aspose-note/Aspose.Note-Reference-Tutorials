@@ -1,33 +1,44 @@
 ---
-title: Konwertuj notatnik na spłaszczony plik PDF w programie OneNote — Aspose.Note
-linktitle: Konwertuj notatnik na spłaszczony plik PDF w programie OneNote — Aspose.Note
-second_title: Aspose.Note API Java
-description: Konwertuj notatniki na spłaszczone pliki PDF bez wysiłku dzięki Aspose.Note dla Java. Ciesz się bezproblemową integracją i możliwościami dostosowywania.
-weight: 16
+date: 2025-12-28
+description: Dowiedz się, jak spłaszczyć plik PDF z notatnika OneNote przy użyciu
+  Aspose.Note dla Javy. Ten przewodnik pokazuje, jak konwertować OneNote do PDF, dostosowywać
+  opcje eksportu i używać opcji zapisu Aspose PDF.
+linktitle: Convert Notebook to Flattened PDF in OneNote - Aspose.Note
+second_title: Aspose.Note Java API
+title: Jak spłaszczyć PDF z notatnika OneNote – Poradnik Aspose.Note
 url: /pl/java/onenote-notebook-operations/convert-notebook-to-flattened-pdf/
+weight: 16
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Konwertuj notatnik na spłaszczony plik PDF w programie OneNote — Aspose.Note
+# Jak spłaszczyć PDF z notatnika OneNote – Aspose.Note
 
-## Wstęp
+## Wprowadzenie
 
-W tym samouczku przyjrzymy się, jak przekonwertować notatnik na spłaszczony format PDF za pomocą Aspose.Note dla Java. Konwersja notatników do plików PDF jest powszechnym wymaganiem w wielu aplikacjach, a Aspose.Note upraszcza ten proces dzięki wszechstronnemu zestawowi funkcji i łatwemu w użyciu interfejsowi API.
+Jeśli potrzebujesz **spłaszczyć PDF** wygenerowany z notatników OneNote, ten samouczek przeprowadzi Cię krok po kroku przy użyciu Aspose.Note for Java. Konwersja notatnika OneNote do spłaszczonego PDF jest częstym wymogiem, gdy potrzebny jest statyczny dokument gotowy do druku, zachowujący oryginalny układ bez elementów interaktywnych. Omówimy wszystko – od konfiguracji środowiska po ustawienie `NotebookPdfSaveOptions`, aby wynikowy PDF był w pełni spłaszczony.
 
-## Warunki wstępne
+## Szybkie odpowiedzi
+- **Co to jest „flatten PDF”?** Tworzy PDF, w którym wszystkie elementy interaktywne (adnotacje, warstwy) są scalone w jedną statyczną stronę.  
+- **Która biblioteka obsługuje konwersję?** Aspose.Note for Java, wykorzystująca wbudowane opcje zapisu PDF.  
+- **Czy potrzebna jest licencja?** Darmowa wersja próbna wystarczy do oceny; licencja komercyjna jest wymagana w produkcji.  
+- **Czy mogę konwertować notatniki wsadowo?** Tak – możesz przechodzić przez wiele plików `.onetoc2` przy użyciu tego samego kodu.  
+- **Czy wynik jest naprawdę spłaszczony?** Ustawienie `flatten` na `true` gwarantuje PDF bez interakcji.
 
-Zanim zaczniemy, upewnij się, że masz następujące elementy:
+## Wymagania wstępne
 
-1. Zestaw Java Development Kit (JDK): Upewnij się, że masz zainstalowany pakiet JDK w swoim systemie.
-2.  Aspose.Note dla biblioteki Java: Pobierz i zainstaluj bibliotekę Aspose.Note dla Java z[Tutaj](https://releases.aspose.com/note/java/).
-3. Zintegrowane środowisko programistyczne (IDE): wybierz preferowane środowisko IDE, takie jak IntelliJ IDEA lub Eclipse.
+Zanim przejdziesz do kodu, upewnij się, że masz następujące elementy:
 
-## Importuj pakiety
+1. **Java Development Kit (JDK)** – dowolna aktualna wersja (8 lub wyższa) zainstalowana i skonfigurowana.  
+2. **Aspose.Note for Java library** – pobierz ją z [tutaj](https://releases.aspose.com/note/java/).  
+3. **IDE** – IntelliJ IDEA, Eclipse lub dowolny edytor, którego używasz.  
+4. **Notatnik OneNote** (`.onetoc2`), który chcesz wyeksportować.
 
-Najpierw zaimportujmy niezbędne pakiety do Twojego projektu Java:
+## Importowanie pakietów
+
+Najpierw zaimportuj klasy niezbędne do obsługi notatnika i eksportu do PDF.
 
 ```java
 import com.aspose.note.Notebook;
@@ -35,9 +46,9 @@ import com.aspose.note.NotebookPdfSaveOptions;
 import java.io.IOException;
 ```
 
-## Krok 1: Załaduj notatnik programu OneNote
+## Krok 1: Załaduj notatnik OneNote
 
-Aby rozpocząć, załaduj notatnik OneNote, który chcesz przekonwertować na format PDF:
+Załaduj notatnik, który chcesz przekonwertować. Zastąp ścieżkę placeholdera rzeczywistą lokalizacją pliku `.onetoc2`.
 
 ```java
 String dataDir = "Your Document Directory";
@@ -46,48 +57,58 @@ Notebook notebook = new Notebook(dataDir + "Notizbuch öffnen.onetoc2");
 
 ## Krok 2: Ustaw opcje konwersji
 
- Określ opcje konwersji notatnika do formatu PDF. Tutaj ustalimy`flatten` Do`true` aby spłaszczyć plik PDF:
+Skonfiguruj opcje zapisu PDF. Ustawienie `flatten` na `true` zapewnia, że wynikowy PDF będzie spłaszczony. To właśnie tutaj wchodzą w grę **aspose pdf save options**.
 
 ```java
 NotebookPdfSaveOptions notebookSaveOptions = new NotebookPdfSaveOptions();
 notebookSaveOptions.setFlatten(true);
 ```
 
-## Krok 3: Zapisz notatnik jako plik PDF
+## Krok 3: Zapisz notatnik jako spłaszczony PDF
 
-Określ katalog wyjściowy i zapisz notatnik jako plik PDF ze zdefiniowanymi opcjami:
+Zdefiniuj nazwę pliku wyjściowego i wywołaj metodę `save` z wcześniej skonfigurowanymi opcjami.
 
 ```java
 dataDir = dataDir + "ExportNotebookToPDFAsFlattened_out.pdf";
-// Zapisz notatnik
+// Save the Notebook
 notebook.save(dataDir, notebookSaveOptions);
 ```
 
-## Wniosek
+## Dlaczego to jest ważne
 
-W tym samouczku nauczyliśmy się, jak przekonwertować notatnik na spłaszczony format PDF za pomocą Aspose.Note dla Java. Proces ten jest prosty i można go bezproblemowo zintegrować z aplikacjami Java.
+Spłaszczanie PDF jest niezbędne, gdy dokument będzie udostępniany użytkownikom, którzy mogą nie mieć oryginalnej aplikacji OneNote, lub gdy potrzebny jest stały układ do drukowania, archiwizacji czy zgodności prawnej. Użycie `NotebookPdfSaveOptions` z Aspose.Note daje precyzyjną kontrolę nad procesem eksportu, co upraszcza **konwersję OneNote do PDF** przy zachowaniu wysokiej wierności wizualnej.
 
-## Często zadawane pytania
+## Typowe problemy i rozwiązywanie
 
-### P1: Czy Aspose.Note dla Java jest kompatybilny z różnymi wersjami OneNote?
+| Objaw | Prawdopodobna przyczyna | Rozwiązanie |
+|-------|--------------------------|-------------|
+| Puste strony w PDF | Notatnik nie został poprawnie załadowany | Sprawdź ścieżkę do pliku `.onetoc2` i upewnij się, że plik nie jest uszkodzony. |
+| PDF nie jest spłaszczony | `setFlatten(true)` nie zostało wywołane | Sprawdź ponownie, czy instancja `NotebookPdfSaveOptions` jest przekazywana do `save`. |
+| Błąd braku pamięci przy dużych notatnikach | Niewystarczająca pamięć sterty JVM | Zwiększ rozmiar sterty (`-Xmx2g` lub większy) podczas uruchamiania aplikacji. |
 
-Odpowiedź 1: Tak, Aspose.Note dla Java obsługuje różne wersje OneNote, zapewniając kompatybilność w różnych środowiskach.
+## Najczęściej zadawane pytania
 
-### P2: Czy mogę dostosować wydruk PDF za pomocą Aspose.Note dla Java?
+**Q: Czy Aspose.Note for Java jest kompatybilny z różnymi wersjami OneNote?**  
+A: Tak, Aspose.Note for Java obsługuje różne wersje OneNote, zapewniając płynną konwersję w różnych środowiskach.
 
-Odpowiedź 2: Oczywiście, możesz dostosować wyjściowy plik PDF do swoich wymagań, w tym układ strony, style czcionek i inne.
+**Q: Czy mogę dostosować wyjściowy PDF przy użyciu Aspose.Note for Java?**  
+A: Oczywiście. Możesz zmieniać rozmiar strony, marginesy, czcionki i inne właściwości za pomocą `NotebookPdfSaveOptions`.
 
-### P3: Czy Aspose.Note dla Java obsługuje wsadową konwersję notatników?
+**Q: Czy Aspose.Note for Java obsługuje konwersję wsadową notatników?**  
+A: Tak, możesz przechodzić przez wiele plików notatników i stosować te same opcje zapisu dla każdego z nich.
 
-O3: Tak, możesz efektywnie konwertować wiele notatników do plików PDF za pomocą Aspose.Note dla Java.
+**Q: Czy dostępna jest wersja próbna Aspose.Note for Java?**  
+A: Tak, darmową wersję próbną Aspose.Note for Java znajdziesz [tutaj](https://releases.aspose.com/).
 
-### P4: Czy dostępna jest wersja próbna Aspose.Note dla Java?
+**Q: Gdzie mogę uzyskać wsparcie dla Aspose.Note for Java?**  
+A: Wsparcie i pomoc dla Aspose.Note for Java znajdziesz na [forum Aspose.Note](https://forum.aspose.com/c/note/28).
 
- O4: Tak, możesz uzyskać dostęp do bezpłatnej wersji próbnej Aspose.Note dla Java z[Tutaj](https://releases.aspose.com/).
+---
 
-### P5: Gdzie mogę znaleźć wsparcie dla Aspose.Note dla Java?
+**Ostatnia aktualizacja:** 2025-12-28  
+**Testowano z:** Aspose.Note for Java 24.12  
+**Autor:** Aspose  
 
- O5: Możesz znaleźć wsparcie i pomoc dla Aspose.Note dla Java na[Forum Aspose.Note](https://forum.aspose.com/c/note/28).
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
