@@ -1,32 +1,49 @@
 ---
-title: Konwertuj notatnik na obraz za pomocą opcji w programie OneNote — Aspose.Note
-linktitle: Konwertuj notatnik na obraz za pomocą opcji w programie OneNote — Aspose.Note
-second_title: Aspose.Note API Java
-description: Dowiedz się, jak przekonwertować Notatnik na obraz za pomocą opcji przy użyciu Aspose.Note dla Java. Postępuj zgodnie z naszym samouczkiem krok po kroku, aby uzyskać bezproblemową integrację z aplikacjami Java.
-weight: 14
+date: 2025-12-28
+description: Dowiedz się, jak **konwertować OneNote na obraz** i ustawiać rozdzielczość
+  obrazu w Javie przy użyciu Aspose.Note. Ten przewodnik krok po kroku pokazuje również,
+  jak eksportować pliki PNG z OneNote.
+linktitle: Convert OneNote to Image with Options - Aspose.Note
+second_title: Aspose.Note Java API
+title: Konwertuj OneNote na obraz z opcjami – Aspose.Note
 url: /pl/java/onenote-notebook-operations/convert-notebook-to-image-with-options/
+weight: 14
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Konwertuj notatnik na obraz za pomocą opcji w programie OneNote — Aspose.Note
+# Konwertowanie OneNote na obraz z opcjami - Aspose.Note
 
-## Wstęp
+## Introduction
 
-W tym samouczku zagłębimy się w proces konwersji Notatnika na obraz za pomocą różnych opcji przy użyciu Aspose.Note dla Java. Aspose.Note to potężny interfejs API Java, który umożliwia programistom programową pracę z plikami Microsoft OneNote, umożliwiając bezproblemową integrację z ich aplikacjami Java.
+W tym samouczku dowiesz się, jak **konwertować OneNote na obraz** przy użyciu różnych opcji w Aspose.Note dla Javy. Niezależnie od tego, czy potrzebujesz wysokiej rozdzielczości PNG do raportowania, czy szybkiej miniatury JPEG, poniższe kroki pokażą dokładnie, jak to osiągnąć i zintegrować proces w aplikacjach Java.
 
-## Warunki wstępne
+## Quick Answers
+- **What does “convert OneNote to image” mean?** It transforms an entire OneNote notebook into raster image files (PNG, JPEG, etc.).
+- **Which format is recommended for lossless quality?** PNG, because it preserves all details without compression artifacts.
+- **How can I set the image resolution in Java?** Use `ImageSaveOptions.setResolution(int dpi)` via `NotebookImageSaveOptions`.
+- **Can I export a OneNote notebook as a PNG in one step?** Yes, Aspose.Note provides a single `save` call with the appropriate options.
+- **Do I need a license for production use?** A commercial license is required for production; a free trial is available for evaluation.
 
-Zanim zaczniemy, upewnij się, że spełnione są następujące wymagania wstępne:
+## What is “convert OneNote to image”?
 
-1. Zestaw Java Development Kit (JDK): Upewnij się, że masz zainstalowany pakiet JDK w swoim systemie.
-2. Aspose.Note dla plików Java JAR: Pobierz bibliotekę Aspose.Note dla Java z[Tutaj](https://releases.aspose.com/note/java/) i umieść go w ścieżce klas swojego projektu.
+Konwertowanie notatnika OneNote na obraz oznacza renderowanie każdej strony notatnika jako pliku bitmapowego. Jest to przydatne do tworzenia statycznych podglądów, archiwizacji treści lub osadzania stron notatnika w raportach, w których oryginalny format OneNote nie jest obsługiwany.
 
-## Importuj pakiety
+## Why use Aspose.Note for Java?
+- **Full control** over output format, resolution, and color depth.  
+- **No Microsoft Office dependency** – works on any server‑side Java environment.  
+- **Supports complex notebooks** with embedded files, ink, and rich text.
 
-Najpierw zaimportujmy niezbędne pakiety dla naszej aplikacji Java:
+## Prerequisites
+
+1. **Java Development Kit (JDK)** – version 8 or higher.  
+2. **Aspose.Note for Java JAR files** – download the latest library from [here](https://releases.aspose.com/note/java/) and add it to your project’s classpath.  
+
+## Import Packages
+
+First, import the classes we’ll need for loading the notebook and configuring the image output.
 
 ```java
 import java.io.IOException;
@@ -37,19 +54,19 @@ import com.aspose.note.NotebookImageSaveOptions;
 import com.aspose.note.SaveFormat;
 ```
 
-## Krok 1: Załaduj notatnik
+## Step 1: Load the Notebook
 
-Na początek musimy załadować notatnik OneNote, który chcemy przekonwertować na obraz.
+Load the OneNote notebook you want to convert. Replace the path with the location of your `.onetoc2` file.
 
 ```java
 String dataDir = "Your Document Directory";
-// Załaduj notatnik programu OneNote
+// Load a OneNote Notebook
 Notebook notebook = new Notebook(dataDir + "test.onetoc2");
 ```
 
-## Krok 2: Ustaw opcje zapisywania
+## Step 2: Set Save Options (How to **set image resolution java**)
 
-Następnie zdefiniujemy opcje zapisywania obrazu, w tym żądany format (PNG, JPEG itp.) i rozdzielczość.
+Create a `NotebookImageSaveOptions` instance, choose the output format, and specify the desired resolution. In this example we use PNG at 400 dpi.
 
 ```java
 NotebookImageSaveOptions notebookSaveOptions = new NotebookImageSaveOptions(SaveFormat.Png);
@@ -59,42 +76,52 @@ ImageSaveOptions documentSaveOptions = notebookSaveOptions.getDocumentSaveOption
 documentSaveOptions.setResolution(400);
 ```
 
-## Krok 3: Zapisz notatnik jako obraz
+> **Pro tip:** For faster processing on large notebooks, lower the resolution (e.g., 150 dpi). Increase it for print‑ready graphics.
 
-Teraz zapiszemy notatnik jako obraz z określonymi opcjami.
+## Step 3: Save the Notebook as Image (How to **export OneNote PNG**)
+
+Define the output file name and call `save`. The same options are applied to every page in the notebook.
 
 ```java
 dataDir = dataDir + "ExportNotebooktoImagewithOptions_out.png";
 
-// Zapisz notatnik
+// Save the Notebook
 notebook.save(dataDir, notebookSaveOptions);
 ```
 
-## Wniosek
+The code above will generate a PNG file (or a series of PNG files, one per page) with the resolution you set.
 
-W tym samouczku nauczyliśmy się, jak przekonwertować Notatnik na obraz za pomocą różnych opcji przy użyciu Aspose.Note dla Java. Wykonując poniższe kroki, możesz bezproblemowo zintegrować tę funkcję z aplikacjami Java, otwierając możliwości programowego manipulowania plikami OneNote.
+## Common Issues and Solutions
 
-## Często zadawane pytania
+| Issue | Solution |
+|-------|----------|
+| **OutOfMemoryError** on large notebooks | Increase JVM heap size (`-Xmx2g`) or reduce resolution. |
+| **Blank pages in output** | Ensure the notebook isn’t password‑protected; use `Notebook.load(path, password)` if needed. |
+| **Unsupported image format** | Use only `SaveFormat.Png`, `SaveFormat.Jpeg`, or `SaveFormat.Bmp` – other formats aren’t supported for notebook export. |
 
-### P1: Czy Aspose.Note obsługuje złożone pliki OneNote?
+## Frequently Asked Questions
 
-Odpowiedź 1: Tak, Aspose.Note może efektywnie obsługiwać złożone pliki OneNote, umożliwiając programowe wykonywanie na nich różnych operacji.
+**Q: Can Aspose.Note handle complex OneNote files?**  
+A: Yes, it efficiently processes notebooks with embedded files, ink annotations, and rich formatting.
 
-### P2: Czy Aspose.Note dla Java można łatwo zintegrować z istniejącymi projektami?
+**Q: Is Aspose.Note for Java easy to integrate into existing projects?**  
+A: Absolutely. The API is straightforward, and you only need to add the JAR to your classpath.
 
-A2: Absolutnie! Aspose.Note dla Java zapewnia proste API, które można łatwo zintegrować z projektami Java, oszczędzając czas i wysiłek.
+**Q: Can I customize the image output when converting a Notebook?**  
+A: Yes. You can set resolution, format, and even color depth via `ImageSaveOptions`.
 
-### P3: Czy mogę dostosować wyjściowy obraz podczas konwersji notebooka?
+**Q: Does Aspose.Note offer support for developers?**  
+A: Yes. Aspose provides extensive documentation, forums, and responsive support channels.
 
-O3: Tak, Aspose.Note umożliwia dostosowanie wyjściowego obrazu poprzez określenie opcji, takich jak rozdzielczość, format i inne.
+**Q: Is there a free trial available for Aspose.Note for Java?**  
+A: Yes, you can download a trial version from [here](https://releases.aspose.com/).
 
-### P4: Czy Aspose.Note oferuje wsparcie dla programistów?
+---
 
-Odpowiedź 4: Tak, Aspose zapewnia doskonałe wsparcie dla programistów za pośrednictwem forów i dokumentacji, zapewniając płynną integrację i rozwiązywanie problemów.
+**Last Updated:** 2025-12-28  
+**Tested With:** Aspose.Note 24.11 for Java  
+**Author:** Aspose  
 
-### P5: Czy dostępna jest bezpłatna wersja próbna Aspose.Note dla Java?
-
- O5: Tak, możesz skorzystać z bezpłatnej wersji próbnej Aspose.Note dla Java z[Tutaj](https://releases.aspose.com/).
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

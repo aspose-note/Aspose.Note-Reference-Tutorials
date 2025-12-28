@@ -1,32 +1,48 @@
 ---
-title: OneNote'taki Seçeneklerle Not Defterini Görüntüye Dönüştürme - Aspose.Note
-linktitle: OneNote'taki Seçeneklerle Not Defterini Görüntüye Dönüştürme - Aspose.Note
-second_title: Aspose.Note Java API'si
-description: Aspose.Note for Java'yı kullanarak bir Not Defterini seçeneklerle bir görüntüye nasıl dönüştüreceğinizi öğrenin. Java uygulamalarınızla sorunsuz entegrasyon için adım adım eğitimimizi izleyin.
-weight: 14
+date: 2025-12-28
+description: Aspose.Note kullanarak Java'da **OneNote'u görüntüye dönüştürmeyi** ve
+  görüntü çözünürlüğünü ayarlamayı öğrenin. Bu adım adım kılavuz, OneNote PNG dosyalarını
+  dışa aktarmayı da gösterir.
+linktitle: Convert OneNote to Image with Options - Aspose.Note
+second_title: Aspose.Note Java API
+title: OneNote'u Görsele Dönüştürme Seçenekleri - Aspose.Note
 url: /tr/java/onenote-notebook-operations/convert-notebook-to-image-with-options/
+weight: 14
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# OneNote'taki Seçeneklerle Not Defterini Görüntüye Dönüştürme - Aspose.Note
+# OneNote'u Görüntüye Dönüştürme ve Seçenekler - Aspose.Note
 
-## giriiş
+## Giriş
 
-Bu derste, Aspose.Note for Java'yı kullanarak bir Notebook'u çeşitli seçeneklerle bir görüntüye dönüştürme sürecini derinlemesine inceleyeceğiz. Aspose.Note, geliştiricilerin Microsoft OneNote dosyalarıyla programlı olarak çalışmasına olanak tanıyan ve Java uygulamalarına sorunsuz entegrasyon sağlayan güçlü bir Java API'sidir.
+Bu öğreticide, Aspose.Note for Java kullanarak **OneNote'u görüntüye dönüştürmeyi** çeşitli seçeneklerle nasıl yapacağınızı öğreneceksiniz. Raporlama için yüksek çözünürlüklü bir PNG ya da hızlı bir JPEG küçük resmi ihtiyacınız olsun, aşağıdaki adımlar tam olarak nasıl yapılacağını ve bu sürecin Java uygulamalarınıza nasıl entegre edileceğini gösterir.
+
+## Hızlı Yanıtlar
+- **“OneNote'u görüntüye dönüştürmek” ne anlama geliyor?** Bir OneNote defterinin tamamını raster görüntü dosyalarına (PNG, JPEG vb.) dönüştürür.
+- **Kayıpsız kalite için hangi format önerilir?** PNG, çünkü sıkıştırma artefaktları olmadan tüm detayları korur.
+- **Java’da görüntü çözünürlüğünü nasıl ayarlarım?** `NotebookImageSaveOptions` üzerinden `ImageSaveOptions.setResolution(int dpi)` kullanın.
+- **OneNote defterini tek adımda PNG olarak dışa aktarabilir miyim?** Evet, Aspose.Note uygun seçeneklerle tek bir `save` çağrısı sağlar.
+- **Üretim kullanımında lisansa ihtiyacım var mı?** Üretim için ticari bir lisans gereklidir; değerlendirme için ücretsiz bir deneme sürümü mevcuttur.
+
+## “OneNote'u görüntüye dönüştürmek” ne demektir?
+Bir OneNote defterini görüntüye dönüştürmek, defterdeki her sayfayı bitmap dosyası olarak render etmek anlamına gelir. Bu, statik ön izlemeler oluşturmak, içeriği arşivlemek veya orijinal OneNote formatının desteklenmediği raporlara defter sayfalarını gömmek için faydalıdır.
+
+## Neden Aspose.Note for Java?
+- **Çıktı formatı, çözünürlük ve renk derinliği üzerinde tam kontrol** sağlar.  
+- **Microsoft Office bağımlılığı yok** – herhangi bir sunucu‑tarafı Java ortamında çalışır.  
+- **Gömülü dosyalar, kalem ve zengin metin içeren karmaşık defterleri** destekler.
 
 ## Önkoşullar
 
-Başlamadan önce aşağıdaki önkoşulların mevcut olduğundan emin olun:
+1. **Java Development Kit (JDK)** – sürüm 8 veya üzeri.  
+2. **Aspose.Note for Java JAR dosyaları** – en yeni kütüphaneyi [buradan](https://releases.aspose.com/note/java/) indirip projenizin sınıf yoluna ekleyin.  
 
-1. Java Geliştirme Kiti (JDK): Sisteminizde JDK'nın kurulu olduğundan emin olun.
-2. Aspose.Note for Java JAR dosyaları: Aspose.Note for Java kütüphanesini şu adresten indirin:[Burada](https://releases.aspose.com/note/java/) ve bunu projenizin sınıf yoluna ekleyin.
+## Paketleri İçe Aktarma
 
-## Paketleri İçe Aktar
-
-Öncelikle Java uygulamamız için gerekli paketleri import edelim:
+İlk olarak, defteri yüklemek ve görüntü çıktısını yapılandırmak için ihtiyacımız olan sınıfları içe aktaralım.
 
 ```java
 import java.io.IOException;
@@ -37,19 +53,19 @@ import com.aspose.note.NotebookImageSaveOptions;
 import com.aspose.note.SaveFormat;
 ```
 
-## 1. Adım: Dizüstü Bilgisayarı Yükleyin
+## Adım 1: Defteri Yükleme
 
-Başlamak için görüntüye dönüştürmek istediğimiz OneNote not defterini yüklememiz gerekiyor.
+Dönüştürmek istediğiniz OneNote defterini yükleyin. `.onetoc2` dosyanızın konumunu yolu ile değiştirin.
 
 ```java
 String dataDir = "Your Document Directory";
-// OneNote Not Defteri Yükleme
+// Load a OneNote Notebook
 Notebook notebook = new Notebook(dataDir + "test.onetoc2");
 ```
 
-## 2. Adım: Kaydetme Seçeneklerini Ayarlayın
+## Adım 2: Kaydetme Seçeneklerini Ayarlama (**set image resolution java**)
 
-Daha sonra, istenen format (PNG, JPEG vb.) ve çözünürlük de dahil olmak üzere görsel kaydetme seçeneklerini tanımlayacağız.
+Bir `NotebookImageSaveOptions` örneği oluşturun, çıktı formatını seçin ve istediğiniz çözünürlüğü belirtin. Bu örnekte PNG ve 400 dpi kullanıyoruz.
 
 ```java
 NotebookImageSaveOptions notebookSaveOptions = new NotebookImageSaveOptions(SaveFormat.Png);
@@ -59,42 +75,52 @@ ImageSaveOptions documentSaveOptions = notebookSaveOptions.getDocumentSaveOption
 documentSaveOptions.setResolution(400);
 ```
 
-## 3. Adım: Not Defterini Görüntü Olarak Kaydetme
+> **Pro ipucu:** Büyük defterlerde daha hızlı işleme için çözünürlüğü düşürün (ör. 150 dpi). Baskı‑hazır grafikler için çözünürlüğü artırın.
 
-Şimdi not defterini belirtilen seçeneklerle resim olarak kaydedeceğiz.
+## Adım 3: Defteri Görüntü Olarak Kaydetme (**export OneNote PNG**)
+
+Çıktı dosya adını tanımlayın ve `save` metodunu çağırın. Aynı seçenekler defterdeki her sayfaya uygulanır.
 
 ```java
 dataDir = dataDir + "ExportNotebooktoImagewithOptions_out.png";
 
-// Not Defterini Kaydet
+// Save the Notebook
 notebook.save(dataDir, notebookSaveOptions);
 ```
 
-## Çözüm
+Yukarıdaki kod, belirttiğiniz çözünürlükte bir PNG dosyası (veya sayfa başına bir PNG dosyası serisi) oluşturur.
 
-Bu eğitimde Aspose.Note for Java'yı kullanarak bir Notebook'u çeşitli seçeneklerle bir görüntüye nasıl dönüştüreceğimizi öğrendik. Bu adımları izleyerek, bu işlevselliği Java uygulamalarınıza sorunsuz bir şekilde entegre edebilir, OneNote dosyalarını programlı olarak değiştirme olanaklarını açabilirsiniz.
+## Yaygın Sorunlar ve Çözümler
 
-## SSS'ler
+| Sorun | Çözüm |
+|-------|----------|
+| **OutOfMemoryError** büyük defterlerde | JVM yığın boyutunu artırın (`-Xmx2g`) veya çözünürlüğü azaltın. |
+| **Çıktıda boş sayfalar** | Defterin şifre korumalı olmadığından emin olun; gerekirse `Notebook.load(path, password)` kullanın. |
+| **Desteklenmeyen görüntü formatı** | Sadece `SaveFormat.Png`, `SaveFormat.Jpeg` veya `SaveFormat.Bmp` kullanın – diğer formatlar defter dışa aktarımı için desteklenmez. |
 
-### S1: Aspose.Note karmaşık OneNote dosyalarını işleyebilir mi?
+## Sık Sorulan Sorular
 
-Cevap1: Evet, Aspose.Note karmaşık OneNote dosyalarını verimli bir şekilde işleyebilir ve bunlar üzerinde programlı olarak çeşitli işlemler gerçekleştirmenize olanak tanır.
+**S: Aspose.Note karmaşık OneNote dosyalarını işleyebilir mi?**  
+C: Evet, gömülü dosyalar, kalem açıklamaları ve zengin biçimlendirme içeren defterleri verimli bir şekilde işler.
 
-### S2: Aspose.Note for Java'nın mevcut projelere entegrasyonu kolay mı?
+**S: Aspose.Note for Java mevcut projelere kolayca entegre edilebilir mi?**  
+C: Kesinlikle. API basittir ve sadece JAR dosyasını sınıf yolunuza eklemeniz yeterlidir.
 
-A2: Kesinlikle! Aspose.Note for Java, Java projelerinize entegre edilmesi kolay basit bir API sunarak zamandan ve emekten tasarruf etmenizi sağlar.
+**S: Bir Defteri dönüştürürken görüntü çıktısını özelleştirebilir miyim?**  
+C: Evet. `ImageSaveOptions` aracılığıyla çözünürlük, format ve hatta renk derinliğini ayarlayabilirsiniz.
 
-### S3: Dizüstü bilgisayarı dönüştürürken görüntü çıktısını özelleştirebilir miyim?
+**S: Aspose.Note geliştiricilere destek sağlıyor mu?**  
+C: Evet. Aspose kapsamlı dokümantasyon, forumlar ve hızlı yanıt veren destek kanalları sunar.
 
-Cevap3: Evet, Aspose.Note çözünürlük, format ve daha fazlası gibi seçenekleri belirleyerek görüntü çıktısını özelleştirmenize olanak tanır.
+**S: Aspose.Note for Java için ücretsiz bir deneme sürümü var mı?**  
+C: Evet, deneme sürümünü [buradan](https://releases.aspose.com/) indirebilirsiniz.
 
-### S4: Aspose.Note geliştiricilere destek sunuyor mu?
+---
 
-C4: Evet, Aspose, forumları ve belgeleri aracılığıyla geliştiricilere mükemmel destek sağlayarak sorunsuz entegrasyon ve sorun giderme sağlar.
+**Son Güncelleme:** 2025-12-28  
+**Test Edilen Sürüm:** Aspose.Note 24.11 for Java  
+**Yazar:** Aspose  
 
-### S5: Aspose.Note for Java'nın ücretsiz deneme sürümü mevcut mu?
-
- Cevap5: Evet, Aspose.Note for Java'nın ücretsiz deneme sürümünden şu adresten yararlanabilirsiniz:[Burada](https://releases.aspose.com/).
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

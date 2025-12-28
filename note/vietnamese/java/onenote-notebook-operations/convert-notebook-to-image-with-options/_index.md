@@ -1,32 +1,48 @@
 ---
-title: Chuyển đổi Notebook thành hình ảnh với các tùy chọn trong OneNote - Aspose.Note
-linktitle: Chuyển đổi Notebook thành hình ảnh với các tùy chọn trong OneNote - Aspose.Note
-second_title: API Java Aspose.Note
-description: Tìm hiểu cách chuyển đổi Notebook thành hình ảnh với các tùy chọn bằng Aspose.Note cho Java. Hãy làm theo hướng dẫn từng bước của chúng tôi để tích hợp liền mạch vào các ứng dụng Java của bạn.
-weight: 14
+date: 2025-12-28
+description: Tìm hiểu cách **chuyển đổi OneNote sang hình ảnh** và thiết lập độ phân
+  giải hình ảnh trong Java bằng Aspose.Note. Hướng dẫn từng bước này cũng chỉ cách
+  xuất các tệp PNG từ OneNote.
+linktitle: Convert OneNote to Image with Options - Aspose.Note
+second_title: Aspose.Note Java API
+title: Chuyển đổi OneNote sang hình ảnh với các tùy chọn - Aspose.Note
 url: /vi/java/onenote-notebook-operations/convert-notebook-to-image-with-options/
+weight: 14
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Chuyển đổi Notebook thành hình ảnh với các tùy chọn trong OneNote - Aspose.Note
+# Chuyển đổi OneNote sang Hình ảnh với Các tùy chọn - Aspose.Note
 
 ## Giới thiệu
 
-Trong hướng dẫn này, chúng ta sẽ đi sâu vào quá trình chuyển đổi Notebook thành hình ảnh với nhiều tùy chọn khác nhau bằng cách sử dụng Aspose.Note cho Java. Aspose.Note là một API Java mạnh mẽ cho phép các nhà phát triển làm việc với các tệp Microsoft OneNote theo chương trình, cho phép tích hợp liền mạch vào các ứng dụng Java của họ.
+Trong hướng dẫn này, bạn sẽ học cách **convert OneNote to image** với nhiều tùy chọn khác nhau bằng cách sử dụng Aspose.Note cho Java. Cho dù bạn cần PNG độ phân giải cao cho báo cáo hay một ảnh thu nhỏ JPEG nhanh chóng, các bước dưới đây sẽ chỉ cho bạn cách thực hiện và tích hợp quy trình này vào các ứng dụng Java của mình.
 
-## Điều kiện tiên quyết
+## Câu trả lời nhanh
+- **What does “convert OneNote to image” mean?** Nó chuyển đổi toàn bộ sổ tay OneNote thành các tệp hình ảnh raster (PNG, JPEG, v.v.).
+- **Which format is recommended for lossless quality?** PNG, vì nó giữ nguyên mọi chi tiết mà không có hiện tượng nén mất dữ liệu.
+- **How can I set the image resolution in Java?** Sử dụng `ImageSaveOptions.setResolution(int dpi)` thông qua `NotebookImageSaveOptions`.
+- **Can I export a OneNote notebook as a PNG in one step?** Có, Aspose.Note cung cấp một lệnh `save` duy nhất với các tùy chọn phù hợp.
+- **Do I need a license for production use?** Cần có giấy phép thương mại cho môi trường sản xuất; bản dùng thử miễn phí có sẵn để đánh giá.
 
-Trước khi chúng ta bắt đầu, hãy đảm bảo bạn có sẵn các điều kiện tiên quyết sau:
+## “convert OneNote to image” là gì?
+Chuyển đổi một sổ tay OneNote sang hình ảnh có nghĩa là render mỗi trang của sổ tay thành một tệp bitmap. Điều này hữu ích để tạo các bản xem trước tĩnh, lưu trữ nội dung, hoặc nhúng các trang sổ tay vào báo cáo khi định dạng OneNote gốc không được hỗ trợ.
 
-1. Bộ công cụ phát triển Java (JDK): Đảm bảo bạn đã cài đặt JDK trên hệ thống của mình.
-2. Aspose.Note cho các tệp Java JAR: Tải xuống thư viện Aspose.Note cho Java từ[đây](https://releases.aspose.com/note/java/) và đưa nó vào đường dẫn lớp của dự án của bạn.
+## Tại sao nên sử dụng Aspose.Note cho Java?
+- **Full control** trên định dạng đầu ra, độ phân giải và độ sâu màu.  
+- **No Microsoft Office dependency** – hoạt động trên bất kỳ môi trường Java phía máy chủ nào.  
+- **Supports complex notebooks** có các tệp nhúng, nét vẽ và văn bản phong phú.
 
-## Gói nhập khẩu
+## Yêu cầu trước
 
-Trước tiên, hãy nhập các gói cần thiết cho ứng dụng Java của chúng tôi:
+1. **Java Development Kit (JDK)** – phiên bản 8 trở lên.  
+2. **Aspose.Note for Java JAR files** – tải xuống thư viện mới nhất từ [here](https://releases.aspose.com/note/java/) và thêm vào classpath của dự án.  
+
+## Nhập các gói
+
+Đầu tiên, nhập các lớp mà chúng ta sẽ cần để tải sổ tay và cấu hình đầu ra hình ảnh.
 
 ```java
 import java.io.IOException;
@@ -37,19 +53,19 @@ import com.aspose.note.NotebookImageSaveOptions;
 import com.aspose.note.SaveFormat;
 ```
 
-## Bước 1: Tải Notebook
+## Bước 1: Tải sổ tay
 
-Để bắt đầu, chúng ta cần tải sổ ghi chép OneNote mà chúng ta muốn chuyển đổi thành hình ảnh.
+Tải sổ tay OneNote mà bạn muốn chuyển đổi. Thay thế đường dẫn bằng vị trí của tệp `.onetoc2` của bạn.
 
 ```java
 String dataDir = "Your Document Directory";
-// Tải sổ tay OneNote
+// Load a OneNote Notebook
 Notebook notebook = new Notebook(dataDir + "test.onetoc2");
 ```
 
-## Bước 2: Đặt tùy chọn lưu
+## Bước 2: Đặt tùy chọn lưu (Cách **set image resolution java**)
 
-Tiếp theo, chúng tôi sẽ xác định các tùy chọn lưu hình ảnh, bao gồm định dạng mong muốn (PNG, JPEG, v.v.) và độ phân giải.
+Tạo một thể hiện `NotebookImageSaveOptions`, chọn định dạng đầu ra và chỉ định độ phân giải mong muốn. Trong ví dụ này chúng tôi sử dụng PNG ở 400 dpi.
 
 ```java
 NotebookImageSaveOptions notebookSaveOptions = new NotebookImageSaveOptions(SaveFormat.Png);
@@ -59,42 +75,52 @@ ImageSaveOptions documentSaveOptions = notebookSaveOptions.getDocumentSaveOption
 documentSaveOptions.setResolution(400);
 ```
 
-## Bước 3: Lưu Notebook dưới dạng hình ảnh
+> **Pro tip:** Để xử lý nhanh hơn trên các sổ tay lớn, giảm độ phân giải (ví dụ, 150 dpi). Tăng độ phân giải cho đồ họa sẵn sàng in.
 
-Bây giờ, chúng ta sẽ lưu sổ ghi chép dưới dạng hình ảnh với các tùy chọn đã chỉ định.
+## Bước 3: Lưu sổ tay dưới dạng hình ảnh (Cách **export OneNote PNG**)
+
+Xác định tên tệp đầu ra và gọi `save`. Các tùy chọn giống nhau sẽ được áp dụng cho mỗi trang trong sổ tay.
 
 ```java
 dataDir = dataDir + "ExportNotebooktoImagewithOptions_out.png";
 
-// Lưu sổ tay
+// Save the Notebook
 notebook.save(dataDir, notebookSaveOptions);
 ```
 
-## Phần kết luận
+Mã trên sẽ tạo ra một tệp PNG (hoặc một loạt các tệp PNG, mỗi trang một tệp) với độ phân giải bạn đã đặt.
 
-Trong hướng dẫn này, chúng ta đã học cách chuyển đổi Notebook thành hình ảnh với nhiều tùy chọn khác nhau bằng Aspose.Note cho Java. Bằng cách làm theo các bước này, bạn có thể tích hợp liền mạch chức năng này vào các ứng dụng Java của mình, mở ra khả năng thao tác các tệp OneNote theo chương trình.
+## Các vấn đề thường gặp và giải pháp
+
+| Vấn đề | Giải pháp |
+|-------|----------|
+| **OutOfMemoryError** trên sổ tay lớn | Tăng kích thước heap JVM (`-Xmx2g`) hoặc giảm độ phân giải. |
+| **Blank pages in output** | Đảm bảo sổ tay không được bảo vệ bằng mật khẩu; sử dụng `Notebook.load(path, password)` nếu cần. |
+| **Unsupported image format** | Chỉ sử dụng `SaveFormat.Png`, `SaveFormat.Jpeg`, hoặc `SaveFormat.Bmp` – các định dạng khác không được hỗ trợ cho xuất sổ tay. |
 
 ## Câu hỏi thường gặp
 
-### Câu hỏi 1: Aspose.Note có thể xử lý các tệp OneNote phức tạp không?
+**Q: Aspose.Note có thể xử lý các tệp OneNote phức tạp không?**  
+A: Có, nó xử lý hiệu quả các sổ tay có tệp nhúng, chú thích nét vẽ và định dạng phong phú.
 
-Câu trả lời 1: Có, Aspose.Note có thể xử lý các tệp OneNote phức tạp một cách hiệu quả, cho phép bạn thực hiện nhiều thao tác khác nhau trên chúng theo chương trình.
+**Q: Aspose.Note cho Java có dễ tích hợp vào các dự án hiện có không?**  
+A: Hoàn toàn. API đơn giản, và bạn chỉ cần thêm JAR vào classpath.
 
-### Câu hỏi 2: Aspose.Note dành cho Java có dễ tích hợp vào các dự án hiện có không?
+**Q: Tôi có thể tùy chỉnh đầu ra hình ảnh khi chuyển đổi một Notebook không?**  
+A: Có. Bạn có thể đặt độ phân giải, định dạng và thậm chí độ sâu màu qua `ImageSaveOptions`.
 
-A2: Chắc chắn rồi! Aspose.Note for Java cung cấp một API đơn giản, dễ tích hợp vào các dự án Java của bạn, giúp bạn tiết kiệm thời gian và công sức.
+**Q: Aspose.Note có cung cấp hỗ trợ cho nhà phát triển không?**  
+A: Có. Aspose cung cấp tài liệu phong phú, diễn đàn và kênh hỗ trợ phản hồi nhanh.
 
-### Câu hỏi 3: Tôi có thể tùy chỉnh đầu ra hình ảnh khi chuyển đổi Notebook không?
+**Q: Có bản dùng thử miễn phí cho Aspose.Note cho Java không?**  
+A: Có, bạn có thể tải phiên bản dùng thử từ [here](https://releases.aspose.com/).
 
-Câu trả lời 3: Có, Aspose.Note cho phép bạn tùy chỉnh đầu ra hình ảnh bằng cách chỉ định các tùy chọn như độ phân giải, định dạng, v.v.
+---
 
-### Câu hỏi 4: Aspose.Note có cung cấp hỗ trợ cho nhà phát triển không?
+**Last Updated:** 2025-12-28  
+**Tested With:** Aspose.Note 24.11 for Java  
+**Author:** Aspose  
 
-Câu trả lời 4: Có, Aspose cung cấp sự hỗ trợ tuyệt vời cho các nhà phát triển thông qua diễn đàn và tài liệu của họ, đảm bảo quá trình tích hợp và khắc phục sự cố diễn ra suôn sẻ.
-
-### Câu hỏi 5: Có bản dùng thử miễn phí cho Aspose.Note cho Java không?
-
- Câu trả lời 5: Có, bạn có thể tận dụng bản dùng thử miễn phí Aspose.Note dành cho Java từ[đây](https://releases.aspose.com/).
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
