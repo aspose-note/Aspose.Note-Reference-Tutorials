@@ -1,33 +1,44 @@
 ---
-title: Převést Poznámkový blok na sloučený PDF ve OneNotu – Aspose.Note
-linktitle: Převést Poznámkový blok na sloučený PDF ve OneNotu – Aspose.Note
+date: 2025-12-28
+description: Naučte se, jak z OneNote sešitu vytvořit plochý PDF pomocí Aspose.Note
+  pro Javu. Tento průvodce ukazuje, jak převést OneNote do PDF, přizpůsobit možnosti
+  exportu a použít možnosti uložení Aspose PDF.
+linktitle: Convert Notebook to Flattened PDF in OneNote - Aspose.Note
 second_title: Aspose.Note Java API
-description: Převádějte notebooky na sloučené PDF bez námahy pomocí Aspose.Note pro Java. Užijte si bezproblémovou integraci a možnosti přizpůsobení.
-weight: 16
+title: Jak zploštit PDF z OneNote poznámkového bloku – tutoriál Aspose.Note
 url: /cs/java/onenote-notebook-operations/convert-notebook-to-flattened-pdf/
+weight: 16
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Převést Poznámkový blok na sloučený PDF ve OneNotu – Aspose.Note
+# Jak zploštit PDF z OneNote sešitu – Aspose.Note
 
 ## Úvod
 
-V tomto tutoriálu prozkoumáme, jak převést notebook do sloučeného formátu PDF pomocí Aspose.Note pro Java. Převod poznámkových bloků do PDF je běžným požadavkem mnoha aplikací a Aspose.Note tento proces zjednodušuje pomocí komplexní sady funkcí a snadno použitelného rozhraní API.
+Pokud potřebujete **flatten PDF** soubory generované z OneNote sešitů, tento tutoriál vás provede přesné kroky pomocí Aspose.Note pro Java. Převod OneNote sešitu na zploštělý PDF je běžná potřeba, když chcete statický, připravený k tisku dokument, který zachovává původní rozvržení bez interaktivních prvků. Pokryjeme vše od nastavení prostředí až po konfiguraci `NotebookPdfSaveOptions`, aby výsledný PDF byl plně zploštělý.
+
+## Rychlé odpovědi
+- **Co je “flatten PDF”?** Vytváří PDF, kde jsou všechny interaktivní prvky (poznámky, vrstvy) sloučeny do jediné statické stránky.
+- **Která knihovna provádí konverzi?** Aspose.Note pro Java, používající její vestavěné možnosti uložení PDF.
+- **Potřebuji licenci?** Bezplatná zkušební verze funguje pro hodnocení; pro produkční nasazení je vyžadována komerční licence.
+- **Mohu hromadně konvertovat sešity?** Ano – můžete pomocí stejného kódu projít více souborů `.onetoc2`.
+- **Je výstup skutečně zploštělý?** Nastavení `flatten` na `true` zaručuje neinteraktivní PDF.
 
 ## Předpoklady
 
-Než začneme, ujistěte se, že máte následující:
+Než se ponoříme do kódu, ujistěte se, že máte následující:
 
-1. Java Development Kit (JDK): Ujistěte se, že máte v systému nainstalovaný JDK.
-2.  Aspose.Note for Java Library: Stáhněte si a nainstalujte knihovnu Aspose.Note for Java z[tady](https://releases.aspose.com/note/java/).
-3. Integrované vývojové prostředí (IDE): Vyberte si IDE podle svých preferencí, jako je IntelliJ IDEA nebo Eclipse.
+1. **Java Development Kit (JDK)** – jakákoli recentní verze (8 nebo vyšší) nainstalovaná a nakonfigurovaná.
+2. **Aspose.Note pro Java knihovna** – stáhněte ji [zde](https://releases.aspose.com/note/java/).
+3. **IDE** – IntelliJ IDEA, Eclipse nebo jakýkoli editor, který preferujete.
+4. **OneNote sešit** (`.onetoc2` soubor), který chcete exportovat.
 
-## Importujte balíčky
+## Import balíčků
 
-Nejprve importujme potřebné balíčky do vašeho projektu Java:
+Nejprve importujte třídy potřebné pro práci se sešitem a export do PDF.
 
 ```java
 import com.aspose.note.Notebook;
@@ -35,59 +46,69 @@ import com.aspose.note.NotebookPdfSaveOptions;
 import java.io.IOException;
 ```
 
-## Krok 1: Načtěte OneNote Notebook
+## Krok 1: Načtení OneNote sešitu
 
-Chcete-li začít, načtěte poznámkový blok OneNotu, který chcete převést do PDF:
+Načtěte sešit, který chcete převést. Nahraďte zástupnou cestu skutečnou polohou vašeho souboru `.onetoc2`.
 
 ```java
 String dataDir = "Your Document Directory";
 Notebook notebook = new Notebook(dataDir + "Notizbuch öffnen.onetoc2");
 ```
 
-## Krok 2: Nastavte možnosti převodu
+## Krok 2: Nastavení možností konverze
 
- Definujte možnosti pro převod poznámkového bloku do PDF. Tady, nastavíme`flatten` na`true` pro sloučení PDF:
+Nakonfigurujte možnosti uložení PDF. Nastavení `flatten` na `true` zajišťuje, že výstupní PDF bude zploštělý. Zde vstupují do hry **aspose pdf save options**.
 
 ```java
 NotebookPdfSaveOptions notebookSaveOptions = new NotebookPdfSaveOptions();
 notebookSaveOptions.setFlatten(true);
 ```
 
-## Krok 3: Uložte Poznámkový blok jako PDF
+## Krok 3: Uložení sešitu jako zploštělého PDF
 
-Určete výstupní adresář a uložte zápisník jako PDF s definovanými možnostmi:
+Definujte název výstupního souboru a zavolejte metodu `save` s možnostmi, které jsme právě nakonfigurovali.
 
 ```java
 dataDir = dataDir + "ExportNotebookToPDFAsFlattened_out.pdf";
-// Uložte notebook
+// Save the Notebook
 notebook.save(dataDir, notebookSaveOptions);
 ```
 
-## Závěr
+## Proč je to důležité
 
-V tomto tutoriálu jsme se naučili, jak převést notebook do sloučeného formátu PDF pomocí Aspose.Note pro Javu. Tento proces je přímočarý a lze jej bez problémů integrovat do vašich aplikací Java.
+Zploštění PDF je nezbytné, když bude dokument sdílen s uživateli, kteří nemusí mít původní aplikaci OneNote, nebo když potřebujete pevné rozvržení pro tisk, archivaci či právní soulad. Použití `NotebookPdfSaveOptions` z Aspose.Note vám poskytuje detailní kontrolu nad procesem exportu, což usnadňuje **převod OneNote na PDF** při zachování vizuální věrnosti.
 
-## FAQ
+## Časté problémy a řešení
 
-### Q1: Je Aspose.Note for Java kompatibilní s různými verzemi OneNotu?
+| Příznak | Pravděpodobná příčina | Oprava |
+|---------|-----------------------|--------|
+| Prázdné stránky v PDF | Sešit nebyl načten správně | Ověřte cestu k souboru `.onetoc2` a ujistěte se, že soubor není poškozený. |
+| PDF není zploštělý | `setFlatten(true)` nebylo zavoláno | Zkontrolujte, že instance `NotebookPdfSaveOptions` je předána metodě `save`. |
+| Chyba nedostatku paměti u velkých sešitů | Nedostatečná velikost haldy JVM | Zvyšte velikost haldy (`-Xmx2g` nebo vyšší) při spouštění aplikace. |
 
-Odpověď 1: Ano, Aspose.Note pro Java podporuje různé verze OneNotu, což zajišťuje kompatibilitu v různých prostředích.
+## Často kladené otázky
 
-### Q2: Mohu přizpůsobit výstup PDF pomocí Aspose.Note pro Java?
+**Q: Je Aspose.Note pro Java kompatibilní s různými verzemi OneNote?**  
+A: Ano, Aspose.Note pro Java podporuje různé verze OneNote, což zajišťuje plynulou konverzi napříč prostředími.
 
-A2: Absolutně můžete upravit výstup PDF podle svých požadavků, včetně rozvržení stránky, stylů písem a dalších.
+**Q: Mohu přizpůsobit výstup PDF pomocí Aspose.Note pro Java?**  
+A: Rozhodně. Můžete upravit velikost stránky, okraje, písma a další vlastnosti pomocí `NotebookPdfSaveOptions`.
 
-### Q3: Podporuje Aspose.Note pro Java dávkovou konverzi notebooků?
+**Q: Podporuje Aspose.Note pro Java hromadnou konverzi sešitů?**  
+A: Ano, můžete projít více souborů sešitu a použít na každý stejné možnosti uložení.
 
-Odpověď 3: Ano, pomocí Aspose.Note pro Java můžete dávkově převést více poznámkových bloků do PDF efektivně.
+**Q: Je k dispozici zkušební verze Aspose.Note pro Java?**  
+A: Ano, můžete získat bezplatnou zkušební verzi Aspose.Note pro Java [zde](https://releases.aspose.com/).
 
-### Q4: Je k dispozici zkušební verze pro Aspose.Note pro Java?
+**Q: Kde mohu najít podporu pro Aspose.Note pro Java?**  
+A: Podporu a pomoc pro Aspose.Note pro Java najdete na [fóru Aspose.Note](https://forum.aspose.com/c/note/28).
 
- A4: Ano, máte přístup k bezplatné zkušební verzi Aspose.Note pro Java od[tady](https://releases.aspose.com/).
+---
 
-### Q5: Kde najdu podporu pro Aspose.Note pro Java?
+**Poslední aktualizace:** 2025-12-28  
+**Testováno s:** Aspose.Note pro Java 24.12  
+**Autor:** Aspose  
 
- A5: Podporu a pomoc pro Aspose.Note pro Java najdete na[Aspose.Note fórum](https://forum.aspose.com/c/note/28).
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

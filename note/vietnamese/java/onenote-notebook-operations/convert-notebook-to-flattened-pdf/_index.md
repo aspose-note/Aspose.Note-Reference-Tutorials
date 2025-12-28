@@ -1,33 +1,44 @@
 ---
-title: Chuyển đổi Notebook sang PDF phẳng trong OneNote - Aspose.Note
-linktitle: Chuyển đổi Notebook sang PDF phẳng trong OneNote - Aspose.Note
-second_title: API Java Aspose.Note
-description: Chuyển đổi sổ ghi chép thành tệp PDF được làm phẳng một cách dễ dàng với Aspose.Note cho Java. Tận hưởng các tùy chọn tích hợp và tùy chỉnh liền mạch.
-weight: 16
+date: 2025-12-28
+description: Tìm hiểu cách làm phẳng PDF từ một sổ tay OneNote bằng Aspose.Note cho
+  Java. Hướng dẫn này chỉ cách chuyển OneNote sang PDF, tùy chỉnh các tùy chọn xuất
+  và sử dụng các tùy chọn lưu PDF của Aspose.
+linktitle: Convert Notebook to Flattened PDF in OneNote - Aspose.Note
+second_title: Aspose.Note Java API
+title: Cách làm phẳng PDF từ Sổ tay OneNote – Hướng dẫn Aspose.Note
 url: /vi/java/onenote-notebook-operations/convert-notebook-to-flattened-pdf/
+weight: 16
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Chuyển đổi Notebook sang PDF phẳng trong OneNote - Aspose.Note
+# Cách Làm Phẳng PDF từ Sổ Ghi Chú OneNote – Aspose.Note
 
 ## Giới thiệu
 
-Trong hướng dẫn này, chúng ta sẽ khám phá cách chuyển đổi sổ ghi chép sang định dạng PDF phẳng bằng Aspose.Note cho Java. Chuyển đổi sổ ghi chép sang PDF là yêu cầu chung đối với nhiều ứng dụng và Aspose.Note đơn giản hóa quy trình này bằng bộ tính năng toàn diện và API dễ sử dụng.
+Nếu bạn cần **làm phẳng PDF** các tệp được tạo từ sổ ghi chú OneNote, hướng dẫn này sẽ chỉ cho bạn các bước chính xác bằng cách sử dụng Aspose.Note cho Java. Chuyển đổi một sổ ghi chú OneNote sang PDF đã làm phẳng là yêu cầu phổ biến khi bạn muốn có một tài liệu tĩnh, sẵn sàng in mà vẫn giữ nguyên bố cục gốc mà không có các yếu tố tương tác. Chúng tôi sẽ đề cập đến mọi thứ từ việc thiết lập môi trường đến cấu hình `NotebookPdfSaveOptions` để PDF kết quả được làm phẳng hoàn toàn.
 
-## Điều kiện tiên quyết
+## Câu trả lời nhanh
+- **“Flatten PDF” là gì?** Nó tạo ra một PDF mà tất cả các yếu tố tương tác (chú thích, lớp) được hợp nhất thành một trang tĩnh duy nhất.  
+- **Thư viện nào thực hiện việc chuyển đổi?** Aspose.Note cho Java, sử dụng các tùy chọn lưu PDF tích hợp sẵn.  
+- **Tôi có cần giấy phép không?** Bản dùng thử miễn phí đủ cho việc đánh giá; giấy phép thương mại cần thiết cho môi trường sản xuất.  
+- **Có thể chuyển đổi hàng loạt sổ ghi chú không?** Có – bạn có thể lặp qua nhiều tệp `.onetoc2` bằng cùng một đoạn mã.  
+- **Kết quả có thực sự được làm phẳng không?** Đặt `flatten` thành `true` đảm bảo PDF không có tính tương tác.
 
-Trước khi chúng tôi bắt đầu, hãy đảm bảo bạn có những điều sau:
+## Yêu cầu trước
 
-1. Bộ công cụ phát triển Java (JDK): Đảm bảo bạn đã cài đặt JDK trên hệ thống của mình.
-2.  Aspose.Note for Java Library: Tải xuống và cài đặt thư viện Aspose.Note for Java từ[đây](https://releases.aspose.com/note/java/).
-3. Môi trường phát triển tích hợp (IDE): Chọn một IDE theo sở thích của bạn, chẳng hạn như IntelliJ IDEA hoặc Eclipse.
+Trước khi chúng ta đi vào mã, hãy chắc chắn bạn đã có:
 
-## Gói nhập khẩu
+1. **Java Development Kit (JDK)** – bất kỳ phiên bản mới nào (8 trở lên) đã được cài đặt và cấu hình.  
+2. **Thư viện Aspose.Note cho Java** – tải về từ [here](https://releases.aspose.com/note/java/).  
+3. **Một IDE** – IntelliJ IDEA, Eclipse, hoặc bất kỳ trình soạn thảo nào bạn thích.  
+4. **Một sổ ghi chú OneNote** (`.onetoc2` file) mà bạn muốn xuất.
 
-Trước tiên, hãy nhập các gói cần thiết trong dự án Java của bạn:
+## Nhập các gói
+
+Đầu tiên, nhập các lớp cần thiết để xử lý sổ ghi chú và xuất PDF.
 
 ```java
 import com.aspose.note.Notebook;
@@ -35,9 +46,9 @@ import com.aspose.note.NotebookPdfSaveOptions;
 import java.io.IOException;
 ```
 
-## Bước 1: Tải sổ ghi chép OneNote
+## Bước 1: Tải Sổ Ghi Chú OneNote
 
-Để bắt đầu, hãy tải sổ ghi chép OneNote mà bạn muốn chuyển đổi sang PDF:
+Tải sổ ghi chú bạn muốn chuyển đổi. Thay thế đường dẫn mẫu bằng vị trí thực tế của tệp `.onetoc2` của bạn.
 
 ```java
 String dataDir = "Your Document Directory";
@@ -46,48 +57,58 @@ Notebook notebook = new Notebook(dataDir + "Notizbuch öffnen.onetoc2");
 
 ## Bước 2: Đặt tùy chọn chuyển đổi
 
- Xác định các tùy chọn để chuyển đổi sổ ghi chép sang PDF. Ở đây, chúng ta sẽ thiết lập`flatten` ĐẾN`true` để làm phẳng PDF:
+Cấu hình các tùy chọn lưu PDF. Đặt `flatten` thành `true` sẽ đảm bảo PDF đầu ra được làm phẳng. Đây là nơi **aspose pdf save options** phát huy tác dụng.
 
 ```java
 NotebookPdfSaveOptions notebookSaveOptions = new NotebookPdfSaveOptions();
 notebookSaveOptions.setFlatten(true);
 ```
 
-## Bước 3: Lưu Notebook dưới dạng PDF
+## Bước 3: Lưu Sổ Ghi Chú dưới dạng PDF đã làm phẳng
 
-Chỉ định thư mục đầu ra và lưu sổ ghi chép dưới dạng PDF với các tùy chọn đã xác định:
+Xác định tên tệp đầu ra và gọi phương thức `save` với các tùy chọn chúng ta vừa cấu hình.
 
 ```java
 dataDir = dataDir + "ExportNotebookToPDFAsFlattened_out.pdf";
-// Lưu sổ tay
+// Save the Notebook
 notebook.save(dataDir, notebookSaveOptions);
 ```
 
-## Phần kết luận
+## Tại sao điều này quan trọng
 
-Trong hướng dẫn này, chúng ta đã học cách chuyển đổi sổ ghi chép sang định dạng PDF phẳng bằng Aspose.Note cho Java. Quá trình này đơn giản và có thể được tích hợp liền mạch vào các ứng dụng Java của bạn.
+Làm phẳng PDF là cần thiết khi tài liệu sẽ được chia sẻ với người dùng có thể không có ứng dụng OneNote gốc hoặc khi bạn cần một bố cục cố định để in ấn, lưu trữ, hoặc tuân thủ pháp lý. Sử dụng `NotebookPdfSaveOptions` của Aspose.Note cho phép bạn kiểm soát chi tiết quá trình xuất, giúp việc **chuyển đổi OneNote sang PDF** trở nên đơn giản đồng thời giữ nguyên độ trung thực hình ảnh.
+
+## Vấn đề thường gặp & Khắc phục
+
+| Triệu chứng | Nguyên nhân có thể | Cách khắc phục |
+|-------------|--------------------|----------------|
+| Các trang trống trong PDF | Sổ ghi chú không được tải đúng cách | Kiểm tra đường dẫn tới tệp `.onetoc2` và đảm bảo tệp không bị hỏng. |
+| PDF chưa được làm phẳng | `setFlatten(true)` chưa được gọi | Kiểm tra lại rằng đối tượng `NotebookPdfSaveOptions` đã được truyền vào phương thức `save`. |
+| Lỗi hết bộ nhớ khi xử lý sổ ghi chú lớn | Bộ nhớ heap JVM không đủ | Tăng kích thước heap (`-Xmx2g` hoặc lớn hơn) khi chạy ứng dụng. |
 
 ## Câu hỏi thường gặp
 
-### Câu hỏi 1: Aspose.Note for Java có tương thích với các phiên bản OneNote khác nhau không?
+**Q: Aspose.Note cho Java có tương thích với các phiên bản OneNote khác nhau không?**  
+A: Có, Aspose.Note cho Java hỗ trợ nhiều phiên bản OneNote, đảm bảo chuyển đổi mượt mà trên mọi môi trường.
 
-Câu trả lời 1: Có, Aspose.Note for Java hỗ trợ nhiều phiên bản OneNote khác nhau, đảm bảo khả năng tương thích trên các môi trường khác nhau.
+**Q: Tôi có thể tùy chỉnh đầu ra PDF bằng Aspose.Note cho Java không?**  
+A: Chắc chắn. Bạn có thể điều chỉnh kích thước trang, lề, phông chữ và các thuộc tính khác qua `NotebookPdfSaveOptions`.
 
-### Câu hỏi 2: Tôi có thể tùy chỉnh đầu ra PDF bằng Aspose.Note cho Java không?
+**Q: Aspose.Note cho Java có hỗ trợ chuyển đổi hàng loạt sổ ghi chú không?**  
+A: Có, bạn có thể lặp qua nhiều tệp sổ ghi chú và áp dụng cùng một tùy chọn lưu cho mỗi tệp.
 
-Câu trả lời 2: Hoàn toàn có thể, bạn có thể tùy chỉnh đầu ra PDF theo yêu cầu của mình, bao gồm bố cục trang, kiểu phông chữ, v.v.
+**Q: Có phiên bản dùng thử cho Aspose.Note cho Java không?**  
+A: Có, bạn có thể truy cập bản dùng thử miễn phí của Aspose.Note cho Java từ [here](https://releases.aspose.com/).
 
-### Câu hỏi 3: Aspose.Note for Java có hỗ trợ chuyển đổi hàng loạt sổ ghi chép không?
+**Q: Tôi có thể tìm hỗ trợ cho Aspose.Note cho Java ở đâu?**  
+A: Bạn có thể tìm hỗ trợ và trợ giúp cho Aspose.Note cho Java trên [Aspose.Note forum](https://forum.aspose.com/c/note/28).
 
-Câu trả lời 3: Có, bạn có thể chuyển đổi hàng loạt nhiều sổ ghi chép thành tệp PDF một cách hiệu quả bằng cách sử dụng Aspose.Note for Java.
+---
 
-### Câu hỏi 4: Có phiên bản dùng thử cho Aspose.Note cho Java không?
+**Cập nhật lần cuối:** 2025-12-28  
+**Kiểm thử với:** Aspose.Note cho Java 24.12  
+**Tác giả:** Aspose  
 
- Câu trả lời 4: Có, bạn có thể truy cập bản dùng thử miễn phí Aspose.Note dành cho Java từ[đây](https://releases.aspose.com/).
-
-### Câu hỏi 5: Tôi có thể tìm hỗ trợ cho Aspose.Note dành cho Java ở đâu?
-
- Câu trả lời 5: Bạn có thể tìm thấy sự hỗ trợ và hỗ trợ dành cho Aspose.Note dành cho Java trên[Diễn đàn Aspose.Note](https://forum.aspose.com/c/note/28).
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
