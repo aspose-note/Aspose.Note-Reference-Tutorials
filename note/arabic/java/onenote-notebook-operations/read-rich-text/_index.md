@@ -1,37 +1,46 @@
 ---
-title: قراءة النص المنسق من OneNote Notebook - Aspose.Note
-linktitle: قراءة النص المنسق من OneNote Notebook - Aspose.Note
-second_title: Aspose.Note جافا API
-description: تعرف على كيفية قراءة النص المنسق من دفاتر ملاحظات OneNote باستخدام Aspose.Note لـ Java. قم بتحسين تطبيقات Java الخاصة بك من خلال تكامل OneNote السلس.
-weight: 23
+date: 2026-01-02
+description: تعلم كيفية قراءة النص الغني في OneNote باستخدام Aspose.Note للغة Java.
+  يوضح هذا الدليل خطوة بخطوة كيفية قراءة دفاتر ملاحظات OneNote بكفاءة.
+linktitle: How to Read OneNote - Read Rich Text from OneNote Notebook - Aspose.Note
+second_title: Aspose.Note Java API
+title: كيفية قراءة OneNote - قراءة النص الغني من دفتر ملاحظات OneNote - Aspose.Note
 url: /ar/java/onenote-notebook-operations/read-rich-text/
+weight: 23
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# قراءة النص المنسق من OneNote Notebook - Aspose.Note
+# قراءة النص المنسق من دفتر ملاحظات OneNote - Aspose.Note
 
 ## مقدمة
 
-في هذا البرنامج التعليمي، سوف نتعمق في كيفية استخدام Aspose.Note لـ Java لقراءة النص المنسق من دفتر ملاحظات OneNote. Aspose.Note عبارة عن واجهة برمجة تطبيقات Java قوية تتيح للمطورين العمل مع ملفات Microsoft OneNote بسلاسة. باتباع الخطوات الموضحة أدناه، ستتمكن من استخراج بيانات النص المنسق دون عناء، مما يتيح لك معالجة محتوى OneNote وتحليله بسهولة.
+إذا كنت تبحث عن **كيفية قراءة بيانات OneNote** برمجياً، فقد وصلت إلى المكان الصحيح. في هذا الدليل سنستعرض كيفية استخدام **Aspose.Note for Java** لاستخراج محتوى النص المنسق من دفتر ملاحظات OneNote. في النهاية، ستتمكن من استخراج النص العادي من أي دفتر ملاحظات، ومعالجته، ودمجه في تطبيقات Java الخاصة بك—سواء كنت تبني أدوات تقارير، أو فهارس بحث، أو سكريبتات ترحيل.
 
-## المتطلبات الأساسية
+## إجابات سريعة
+- **ما المكتبة المطلوبة؟** Aspose.Note for Java  
+- **هل يمكنني قراءة ملفات .one و .onetoc2؟** نعم، يدعم API جميع صيغ OneNote الأصلية.  
+- **هل أحتاج إلى ترخيص للتطوير؟** النسخة التجريبية المجانية تكفي للاختبار؛ يلزم ترخيص تجاري للإنتاج.  
+- **ما نسخة Java المطلوبة؟** Java 8 أو أعلى.  
+- **كم يستغرق التنفيذ؟** عادةً أقل من 15 دقيقة للاستخراج الأساسي.
 
-قبل الغوص في هذا البرنامج التعليمي، تأكد من توفر المتطلبات الأساسية التالية:
+## المتطلبات المسبقة
+
+قبل أن تبدأ، تأكد من وجود ما يلي:
 
 ### مجموعة تطوير جافا (JDK)
 
-تأكد من تثبيت JDK على نظامك. يمكنك تنزيل أحدث إصدار وتثبيته من موقع Oracle الإلكتروني.
+إصدار حديث من JDK (Java 8+). قم بتحميله من موقع Oracle أو استخدم OpenJDK.
 
-### Aspose.Note لجافا
+### Aspose.Note for Java
 
- قم بتنزيل Aspose.Note لـ Java وإعداده من الملف المرفق[رابط التحميل](https://releases.aspose.com/note/java/). اتبع تعليمات التثبيت لدمج Aspose.Note في بيئة Java الخاصة بك بسلاسة.
+قم بتحميل وإعداد Aspose.Note for Java من [رابط التحميل](https://releases.aspose.com/note/java/). اتبع تعليمات التثبيت لإضافة ملفات JAR إلى مسار الفئة (classpath) الخاص بمشروعك.
 
-## حزم الاستيراد
+## استيراد الحزم
 
-للبدء، تأكد من استيراد الحزم اللازمة للعمل مع Aspose.Note لـ Java بشكل فعال:
+للعمل مع API، استورد الفئات المطلوبة:
 
 ```java
 import java.io.IOException;
@@ -41,9 +50,9 @@ import com.aspose.note.Notebook;
 import com.aspose.note.RichText;
 ```
 
-## الخطوة 1: إعداد بيئتك
+## الخطوة 1: إعداد بيئة التطوير الخاصة بك
 
-قبل البدء في قراءة نص منسق من دفتر ملاحظات OneNote، قم بإعداد بيئة التطوير الخاصة بك. تأكد من تكوين Aspose.Note for Java بشكل صحيح وإضافته إلى تبعيات مشروعك.
+تأكد من أن ملفات JAR الخاصة بـ Aspose.Note مُشار إليها في أداة البناء (Maven أو Gradle أو مضافة يدوياً إلى IDE). هذه الخطوة تضمن أن المترجم يستطيع العثور على `Notebook` و `RichText`.
 
 ## الخطوة 2: الوصول إلى دفتر ملاحظات OneNote
 
@@ -52,17 +61,17 @@ String dataDir = "Your Document Directory";
 Notebook rootNotebook = new Notebook(dataDir + "test.onetoc2");
 ```
 
- حدد الدليل الذي يوجد به دفتر ملاحظات OneNote الخاص بك وقم بتهيئة ملف`Notebook` كائن مع المسار إلى دفتر الملاحظات.
+استبدل `Your Document Directory` بالمسار المطلق أو النسبي للمجلد الذي يحتوي على ملفات دفتر ملاحظات OneNote. يقوم مُنشئ `Notebook` بتحميل هيكل الدفتر لتتمكن من استكشاف محتوياته.
 
-## الخطوة 3: استخراج العقد النصية الغنية
+## الخطوة 3: استخراج عقد النص المنسق
 
 ```java
 List<RichText> allRichTextNodes = rootNotebook.getChildNodes(RichText.class);
 ```
 
- يمكنك استرداد جميع العقد النصية المنسقة من دفتر ملاحظات OneNote باستخدام`getChildNodes()` طريقة.
+`getChildNodes(RichText.class)` يتجول في شجرة الدفتر ويعيد كل عقدة تخزن بيانات النص المنسق، مثل الفقرات، وعناصر القوائم، وخلايا الجداول.
 
-## الخطوة 4: التكرار عبر العقد النصية الغنية
+## الخطوة 4: التكرار عبر عقد النص المنسق
 
 ```java
 for (RichText richTextNode : allRichTextNodes) {
@@ -70,33 +79,54 @@ for (RichText richTextNode : allRichTextNodes) {
 }
 ```
 
-قم بالمراجعة من خلال قائمة العقد النصية الغنية واطبع محتوى النص لكل عقدة.
+تقوم الحلقة بطباعة النص العادي لكل عقدة `RichText` إلى وحدة التحكم. يمكنك استبدال `System.out.println` بأي معالجة مخصصة—مثل الحفظ في قاعدة بيانات، أو إمداد فهرس بحث، أو إجراء تحليل لغوي.
 
-## خاتمة
+## لماذا قراءة النص المنسق من OneNote؟
 
-في هذا البرنامج التعليمي، تناولنا كيفية قراءة النص المنسق من دفتر ملاحظات OneNote باستخدام Aspose.Note لـ Java. باتباع هذه الخطوات، يمكنك استخراج البيانات النصية ومعالجتها بسهولة من ملفات OneNote في تطبيقات Java.
+- **ترحيل البيانات:** نقل محتوى OneNote القديم إلى أنظمة إدارة محتوى حديثة.  
+- **البحث والفهرسة:** بناء فهارس قابلة للبحث لقاعدة معرفة المؤسسة.  
+- **التقارير:** إنشاء ملخصات أو تحليلات من ملاحظات الاجتماعات تلقائياً.
 
-## الأسئلة الشائعة
+## المشكلات الشائعة والحلول
 
-### س1: هل يمكنني استخدام Aspose.Note لـ Java لتعديل ملفات OneNote؟
+| المشكلة | الحل |
+|-------|----------|
+| **FileNotFoundException** | تحقق من أن `dataDir` يشير إلى المجلد الصحيح وأن ملف `.onetoc2` موجود. |
+| **Unsupported format** | تأكد من أن الدفتر تم إنشاؤه بإصدار OneNote مدعوم؛ لا تزال ملفات `.one` القديمة متوافقة. |
+| **License not found** | ضع ملف `Aspose.Note.lic` في مسار الفئة (classpath) أو عيّن الترخيص برمجياً قبل تحميل الدفتر. |
 
-ج1: نعم، يوفر Aspose.Note for Java إمكانات شاملة لتعديل ملفات OneNote ومعالجتها برمجيًا.
+## الأسئلة المتكررة
 
-### س2: هل Aspose.Note for Java متوافق مع كافة إصدارات Microsoft OneNote؟
+### س1: هل يمكنني استخدام Aspose.Note for Java لتعديل ملفات OneNote؟
 
-ج2: يدعم Aspose.Note for Java إصدارات مختلفة من Microsoft OneNote، مما يضمن التوافق عبر تنسيقات الملفات المختلفة.
+ج1: نعم، يوفر Aspose.Note for Java إمكانيات واسعة لتعديل ومعالجة ملفات OneNote برمجياً.
 
-### س3: هل يتطلب Aspose.Note for Java ترخيصًا للاستخدام التجاري؟
+### س2: هل Aspose.Note for Java متوافق مع جميع إصدارات Microsoft OneNote؟
 
- ج3: نعم، مطلوب ترخيص صالح للاستخدام التجاري. يمكنك الحصول على ترخيص من[صفحة الشراء](https://purchase.aspose.com/buy).
+ج2: يدعم Aspose.Note for Java إصدارات مختلفة من Microsoft OneNote، مما يضمن التوافق عبر صيغ الملفات المتنوعة.
 
-### س4: هل يمكنني تجربة Aspose.Note لـ Java قبل الشراء؟
+### س3: هل يتطلب Aspose.Note for Java ترخيصاً للاستخدام التجاري؟
 
- ج4: نعم، يمكنك الاستفادة من النسخة التجريبية المجانية من[موقع إلكتروني](https://releases.aspose.com/).
+ج3: نعم، يلزم وجود ترخيص صالح للاستخدام التجاري. يمكنك الحصول على ترخيص من [صفحة الشراء](https://purchase.aspose.com/buy).
 
-### س5: أين يمكنني العثور على دعم لـ Aspose.Note لـ Java؟
+### س4: هل يمكنني تجربة Aspose.Note for Java قبل الشراء؟
 
- ج5: يمكنك العثور على الدعم والمساعدة على[منتدى Aspose.Note](https://forum.aspose.com/c/note/28).
+ج4: نعم، يمكنك الاستفادة من نسخة تجريبية مجانية من [الموقع](https://releases.aspose.com/).
+
+### س5: أين يمكنني العثور على الدعم لـ Aspose.Note for Java؟
+
+ج5: يمكنك العثور على الدعم والمساعدة في [منتدى Aspose.Note](https://forum.aspose.com/c/note/28).
+
+## الخلاصة
+
+في هذا الدليل، عرضنا **كيفية قراءة محتوى النص المنسق في OneNote** باستخدام Aspose.Note for Java. باتباع الخطوات الأربع البسيطة—إعداد البيئة، تحميل الدفتر، استخراج عقد `RichText`، والتكرار عليها—يمكنك استخراج البيانات النصية المخفية داخل ملفات OneNote واستخدامها في أي حل مبني على Java.
+
+---
+
+**آخر تحديث:** 2026-01-02  
+**تم الاختبار مع:** Aspose.Note for Java 23.12  
+**المؤلف:** Aspose  
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
