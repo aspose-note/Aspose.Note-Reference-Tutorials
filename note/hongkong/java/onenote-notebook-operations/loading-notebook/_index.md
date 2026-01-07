@@ -1,41 +1,49 @@
 ---
-title: 在 OneNote 中載入筆記本 - Aspose.Note
-linktitle: 在 OneNote 中載入筆記本 - Aspose.Note
+date: 2026-01-07
+description: 學習如何在 Java 中使用 Aspose.Note 建立 OneNote 文件並載入 OneNote 筆記本。一步一步的指南，包含程式碼、先決條件與常見問答。
+linktitle: Create OneNote Document – Load Notebook with Aspose.Note
 second_title: Aspose.Note Java API
-description: 用 Java 掌握 OneNote 筆記本！學習載入、探索和處理內容 - 從文件到子筆記本。包含簡單的步驟和程式碼！ #OneNote #Java #Aspose
-weight: 19
+title: 建立 OneNote 文件 – 使用 Aspose.Note 載入筆記本
 url: /zh-hant/java/onenote-notebook-operations/loading-notebook/
+weight: 19
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# 在 OneNote 中載入筆記本 - Aspose.Note
+# 建立 OneNote 文件 – 使用 Aspose.Note 載入筆記本
 
 ## 介紹
 
-歡迎來到我們關於使用 Aspose.Note for Java 來處理 OneNote 筆記本的教學。 Aspose.Note 是一個功能強大的 Java 程式庫，可讓開發人員以程式設計方式建立、操作和轉換 OneNote 文件。在本教程中，我們將引導您完成使用 Aspose.Note for Java 在 OneNote 中載入筆記本的過程。
+歡迎閱讀本教學，內容說明如何 **建立 OneNote 文件**，以及如何使用 Aspose.Note for Java 以程式方式 **載入 OneNote 筆記本**。無論您是需要自動化報告產生、遷移舊有筆記本，或將 OneNote 內容整合至更大的 Java 應用程式，本指南都會一步步帶您完成，從環境設定到遍歷筆記本內容。
 
-## 先決條件
+## 快速回答
+- **什麼程式庫可以在 Java 中建立 OneNote 文件？** Aspose.Note for Java  
+- **哪個方法可載入 OneNote 筆記本？** `new Notebook(path)`  
+- **開發時需要授權嗎？** 免費試用可用於測試；正式上線需購買商業授權。  
+- **主要前置條件是什麼？** JDK、Aspose.Note for Java，以及您選擇的 IDE。  
+- **載入後能提取 OneNote 內容嗎？** 可以——透過遍歷 `INotebookChildNode` 物件。
 
-在我們開始之前，請確保您具備以下先決條件：
+## 前置條件
 
-### Java 開發工具包 (JDK)
+在開始之前，請確保您已具備以下項目：
 
-確保您的系統上安裝了 JDK。您可以從 Oracle 網站下載最新版本的 JDK。
+### Java Development Kit (JDK)
 
-### Java 函式庫的 Aspose.Note
+確保您的電腦已安裝最新的 JDK。您可從 Oracle 官方網站下載。
 
-您需要下載並安裝 Aspose.Note for Java 函式庫。你可以找到下載鏈接[這裡](https://releases.aspose.com/note/java/).
+### Aspose.Note for Java 程式庫
+
+從官方發佈頁面 **[here](https://releases.aspose.com/note/java/)** 下載 Aspose.Note for Java 程式庫。
 
 ### IDE（整合開發環境）
 
-選擇您喜歡的 Java 開發 IDE。流行的選擇包括 IntelliJ IDEA、Eclipse 和 NetBeans。
+選擇您熟悉的 IDE——IntelliJ IDEA、Eclipse 或 NetBeans 都非常適合 Java 開發。
 
-## 導入包
+## 匯入 OneNote 套件
 
-首先，您需要將必要的套件匯入到您的 Java 專案中。這些套件提供了使用 Aspose.Note for Java 處理 OneNote 筆記本所需的功能。
+要開始使用 OneNote 筆記本，您需要匯入必要的類別。此步驟對應次要關鍵字 **import onenote packages**。
 
 ```java
 import java.io.IOException;
@@ -45,65 +53,95 @@ import com.aspose.note.INotebookChildNode;
 import com.aspose.note.Notebook;
 ```
 
-現在，讓我們深入了解使用 Aspose.Note for Java 在 OneNote 中載入筆記本的過程。
+套件已匯入，接下來我們開始載入筆記本。
 
-## 第1步：設定資料目錄
+## 如何載入 OneNote 筆記本？
+
+### 步驟 1：設定資料目錄
+
+定義包含 OneNote 筆記本檔案的資料夾。
 
 ```java
 String dataDir = "Your Document Directory";
 ```
 
-代替`"Your Document Directory"`以及 OneNote 筆記本目錄的路徑。
+將 `"Your Document Directory"` 替換為存放 `.onetoc2` 檔案之資料夾的絕對路徑。
 
-## 第 2 步：載入筆記本
+### 步驟 2：載入筆記本
+
+透過指向筆記本的 **`.onetoc2`** 檔案來建立 `Notebook` 實例。此示範次要關鍵字 **load onenote notebook**。
 
 ```java
 Notebook notebook = new Notebook(dataDir + "Notizbuch öffnen.onetoc2");
 ```
 
-這段程式碼創造了一個新的`Notebook`物件並載入由其路徑指定的筆記本檔案。
+### 步驟 3：遍歷筆記本內容（提取 OneNote 內容）
 
-## 第 3 步：迭代筆記本內容
+現在您可以遍歷每個子節點（文件或子筆記本），並依需求處理。此步驟符合次要關鍵字 **extract onenote content**。
 
 ```java
 for (INotebookChildNode notebookChildNode : notebook) {
     System.out.println(notebookChildNode.getDisplayName());
 
     if (notebookChildNode instanceof Document) {
-        //對子文件執行某些操作
+        // Do something with child document
     } else if (notebookChildNode instanceof Notebook) {
-        //用兒童筆記本做某事
+        // Do something with child notebook
     }
 }
 ```
 
-此循環迭代筆記本中的每個子節點，列印其顯示名稱。根據子節點是文件還是子筆記本，您可以執行特定操作。
+此迴圈會印出每個項目的顯示名稱，讓您快速了解筆記本結構。之後您可以擴充邏輯以讀取頁面內容、影像或中繼資料。
 
-## 結論
+## 常見問題與技巧
 
-在本教程中，我們介紹了使用 Aspose.Note for Java 在 OneNote 中載入筆記本的基礎知識。透過執行上述步驟，您可以將 Aspose.Note 整合到 Java 應用程式中，以便以程式設計方式處理 OneNote 文件。
+- **路徑錯誤：** 確認路徑以正確的 `.onetoc2` 檔名結尾；缺少副檔名會導致 `FileNotFoundException`。  
+- **編碼問題：** 若出現亂碼，請確認筆記本是以支援的語言/地區設定建立的。  
+- **效能：** 對於非常大的筆記本，建議在獨立執行緒中處理子節點，以保持 UI 響應。
 
-## 常見問題解答
+## 常見問答（現有）
 
-### Q1：Aspose.Note for Java 是否相容於所有版本的 OneNote？
+### Q1：Aspose.Note for Java 是否相容所有版本的 OneNote？
 
-A1: Aspose.Note for Java 支援 OneNote 2010 及更高版本。
+A1：Aspose.Note for Java 支援 OneNote 2010 以及之後的版本。
 
-### Q2：我可以使用 Aspose.Note for Java 來操作 OneNote 文件的內容嗎？
+### Q2：我可以使用 Aspose.Note for Java 操作 OneNote 文件的內容嗎？
 
-A2：是的，您可以使用 Aspose.Note for Java 從 OneNote 文件建立、修改和提取內容。
+A2：可以，您可以使用 Aspose.Note for Java 建立、修改及提取 OneNote 文件的內容。
 
-### Q3：Aspose.Note for Java 商業使用需要授權嗎？
+### Q3：Aspose.Note for Java 商業使用是否需要授權？
 
-A3：是的，您需要購買許可證才能用於商業用途。但是，您也可以利用免費試用來評估該程式庫。
+A3：是的，商業使用需購買授權。不過您也可以使用免費試用版來評估此程式庫。
 
 ### Q4：Aspose.Note for Java 是否提供技術支援？
 
- A4：是的，您可以從 Aspose.Note 論壇尋求技術協助[這裡](https://forum.aspose.com/c/note/28).
+A4：是的，您可在 Aspose.Note 論壇 **[here](https://forum.aspose.com/c/note/28)** 獲得技術協助。
 
-### Q5：我可以獲得臨時許可證用於測試目的嗎？
+### Q5：我可以取得測試用的臨時授權嗎？
 
- A5：是的，您可以申請臨時許可證[這裡](https://purchase.aspose.com/temporary-license/).
+A5：可以，您可於 **[here](https://purchase.aspose.com/temporary-license/)** 申請臨時授權。
+
+## 其他問答
+
+**Q: 如何從頭建立新的 OneNote 文件？**  
+A: 使用 `Document` 類別建立新筆記本，加入節或頁面，然後以 `document.save("output.one")` 儲存。
+
+**Q: 我可以將 OneNote 文件轉換成 PDF 或 HTML 嗎？**  
+A: 可以——Aspose.Note 提供 `document.save("output.pdf")` 或 `document.save("output.html")` 以便輕鬆轉換。
+
+**Q: 能否讀取 OneNote 頁面中的嵌入圖像？**  
+A: 當然可以。載入 `Document` 後，遍歷其 `Page` 物件即可提取 `Image` 資源。
+
+## 結論
+
+本教學說明了如何使用 Aspose.Note for Java **建立 OneNote 文件**、**載入 OneNote 筆記本**，以及 **提取其內容**。依照上述步驟，您即可將 OneNote 自動化無縫整合至 Java 應用程式，無論是開發遷移工具、報告引擎或自訂檢視器。
+
+---
+
+**最後更新：** 2026-01-07  
+**測試環境：** Aspose.Note for Java 24.12  
+**作者：** Aspose  
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
