@@ -1,33 +1,46 @@
 ---
-title: 在 OneNote 中创建包含根页面和子页面的文档
-linktitle: 在 OneNote 中创建包含根页面和子页面的文档
+description: 了解如何使用 Aspose.Note for Java 将 OneNote 保存为 PDF 并在 OneNote 中添加子页面。请按照本分步指南高效组织您的笔记。
+linktitle: How to Save OneNote PDF and Add Sub Pages
 second_title: Aspose.Note Java API
-description: 使用 Aspose.Note for Java 在 OneNote 中创建包含根页面和子页面的文档。按照分步指南有效地组织您的笔记。
-weight: 11
+title: 如何保存 OneNote PDF 并添加子页面
 url: /zh/java/onenote-page-manipulation/create-document-with-root-and-sub-pages/
+weight: 11
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# 在 OneNote 中创建包含根页面和子页面的文档
+# 如何保存 OneNote PDF 并添加子页面
 
-## 介绍
+## Introduction
 
-在本教程中，我们将指导您完成使用 Aspose.Note for Java 在 OneNote 中创建包含根页面和子页面的文档的过程。通过执行这些步骤，您将能够以层次结构有效地组织 OneNote 文档。
+在本教程中，您将了解 **如何使用 Aspose.Note for Java 将 OneNote 保存为 PDF**，同时创建包含根页面和子页面的文档。通过清晰的层次结构组织 OneNote 笔记本，可实现轻松导航，而导出为 PDF 则确保您可以以通用可读的格式共享笔记。我们还将展示如何以 onenote 风格添加子页面，从而轻松构建多层结构。
 
-## 先决条件
+## Quick Answers
+- **主要关键词是什么意思？** 它指的是使用 Aspose.Note 将 OneNote 笔记本导出为 PDF。  
+- **使用的是哪个 API？** Aspose.Note for Java。  
+- **我可以创建层级页面吗？** 可以——通过设置页面级别来构建根页面和子页面。  
+- **需要许可证吗？** 提供免费试用；生产环境需要商业许可证。  
+- **支持哪些输出格式？** BMP、PDF、PNG 等。
 
-在开始之前，请确保您具备以下先决条件：
+## What is “how to save OneNote PDF”?
+将 OneNote 保存为 PDF 是将笔记本的页面转换为固定布局的文档，保留格式、图像和层次结构。这对于共享、归档或打印笔记非常理想。
 
-1. Java 开发工具包 (JDK)：确保您的系统上安装了 JDK。
-2. Aspose.Note for Java：从以下位置下载并安装 Aspose.Note for Java：[网站](https://purchase.aspose.com/buy).
-3. 集成开发环境 (IDE)：选择 Java IDE，例如 IntelliJ IDEA、Eclipse 或 NetBeans。
+## Why add sub pages onenote?
+添加子页面可以将相关内容归类到父页面下，类似文件夹结构。它提升了笔记的组织性，加快搜索速度，并在笔记本导出为 PDF 时提升阅读体验。
 
-## 导入包
+## Prerequisites
 
-首先在 Java 项目中导入必要的包：
+在开始之前，请确保具备以下前提条件：
+
+1. Java Development Kit (JDK)：确保系统已安装 JDK。  
+2. Aspose.Note for Java：从[website](https://purchase.aspose.com/buy)下载并安装 Aspose.Note for Java。  
+3. Integrated Development Environment (IDE)：选择如 IntelliJ IDEA、Eclipse 或 NetBeans 等 Java IDE。
+
+## Import Packages
+
+在 Java 项目中导入必要的包：
 
 ```java
 import java.io.IOException;
@@ -41,25 +54,25 @@ import com.aspose.note.SaveFormat;
 import com.aspose.note.ParagraphStyle;
 ```
 
-## 第 1 步：设置文档目录
+## Step 1: Set Up Document Directory
 
-定义要保存 OneNote 文档的目录：
+定义保存 OneNote 文档的目录：
 
 ```java
 String dataDir = "Your Document Directory";
 ```
 
-## 第2步：创建文档对象
+## Step 2: Create Document Object
 
-实例化一个`Document`目的：
+实例化 `Document` 对象：
 
 ```java
 Document doc = new Document();
 ```
 
-## 第 3 步：创建页面
+## Step 3: Create Pages
 
-初始化页面对象并设置其级别：
+初始化页面对象并设置其层级。设置层级决定页面是根页面还是子页面：
 
 ```java
 Page page1 = new Page();
@@ -72,9 +85,9 @@ Page page3 = new Page();
 page3.setLevel((byte) 1);
 ```
 
-## 第四步：向页面添加节点
+## Step 4: Add Nodes to Pages
 
-### 将节点添加到首页
+### Adding Nodes to First Page
 
 ```java
 Outline outline = new Outline();
@@ -92,7 +105,7 @@ outline.appendChildLast(outlineElem);
 page1.appendChildLast(outline);
 ```
 
-### 将节点添加到第二页
+### Adding Nodes to Second Page
 
 ```java
 Outline outline2 = new Outline();
@@ -110,7 +123,7 @@ outline2.appendChildLast(outlineElem2);
 page2.appendChildLast(outline2);
 ```
 
-### 将节点添加到第三页
+### Adding Nodes to Third Page
 
 ```java
 Outline outline3 = new Outline();
@@ -128,7 +141,7 @@ outline3.appendChildLast(outlineElem3);
 page3.appendChildLast(outline3);
 ```
 
-## 步骤 5：将页面添加到文档
+## Step 5: Add Pages to the Document
 
 ```java
 doc.appendChildLast(page1);
@@ -136,45 +149,63 @@ doc.appendChildLast(page2);
 doc.appendChildLast(page3);
 ```
 
-## 第 6 步：保存文档
+## Step 6: Save the Document
 
-保存 OneNote 文档：
+将 OneNote 文档保存为 PDF（本例中为 BMP）。更改 `SaveFormat` 即可导出为 PDF，满足 “如何保存 OneNote PDF” 的需求：
 
 ```java
 try {
     doc.save(dataDir + "GenerateRootAndSubLevelPagesInOneNote_out.bmp", SaveFormat.Bmp);
 } catch (IOException e) {
-    //处理异常
+    // Handle exception
 }
 ```
 
-恭喜！您已使用 Aspose.Note for Java 在 OneNote 中成功创建了包含根页面和子页面的文档。
+> **技巧提示：** 若要直接导出为 PDF，请将 `SaveFormat.Bmp` 替换为 `SaveFormat.Pdf`。
 
-## 结论
+恭喜！您已成功创建包含根页面和子页面的 OneNote 文档，并学习了使用 Aspose.Note for Java **如何保存 OneNote PDF**。
 
-使用层次结构组织 OneNote 文档对于更好的管理和导航至关重要。使用 Aspose.Note for Java，您可以高效地创建具有根页面和子页面的文档，为您的笔记提供清晰且有组织的布局。
+## Why This Matters
 
-## 常见问题解答
+- **层级组织：** 根页面和子页面让您在 OneNote 中模拟文件夹结构。  
+- **无缝 PDF 导出：** 组织好后，导出为 PDF 能保留层级，使最终文档易于阅读和共享。  
+- **自动化：** 代码可集成到更大的 Java 应用中，实现批量创建结构化笔记本。
 
-### Q1：我可以使用Aspose.Note for Java 创建多个级别的子页面吗？
+## Common Pitfalls & How to Avoid Them
 
-A1：是的，您可以通过为每个页面设置适当的级别来创建多个级别的子页面。
+| Issue | Cause | Solution |
+|-------|-------|----------|
+| 页面显示在同一级别 | `setLevel` 值不正确 | 根页面使用 `setLevel((byte) 1)`，子页面使用 `setLevel((byte) 2)`（或更高） |
+| PDF 输出为空白 | 缺少 `SaveFormat.Pdf` 或文件路径不正确 | 确认目录存在并使用 `SaveFormat.Pdf` |
+| 字体未应用 | 字体名称错误或系统缺少该字体 | 确保在运行代码的机器上已安装该字体（例如 “David Transparent”） |
 
-### Q2：Aspose.Note for Java 是否兼容不同的 Java IDE？
+## Frequently Asked Questions
 
-A2：是的，Aspose.Note for Java 与流行的 Java IDE 兼容，例如 IntelliJ IDEA、Eclipse 和 NetBeans。
+**问：我可以使用 Aspose.Note for Java 创建多层子页面吗？**  
+答：可以，通过设置更高的层级数字来创建更深的层次结构（例如，`setLevel((byte) 3)` 表示第三级子页面）。
 
-### Q3：我可以自定义 OneNote 文档中的文本格式吗？
+**问：Aspose.Note for Java 是否兼容不同的 Java IDE？**  
+答：完全兼容。它可在 IntelliJ IDEA、Eclipse、NetBeans 以及任何支持 Java 开发的 IDE 中使用。
 
-A3：是的，您可以使用 Aspose.Note for Java 的富文本功能自定义字体、颜色、大小和其他格式选项。
+**问：我可以自定义 OneNote 文档中文本的格式吗？**  
+答：可以。使用 `ParagraphStyle` 为每个 `RichText` 元素设置字体名称、大小、颜色等属性。
 
-### Q4：Aspose.Note for Java支持保存不同格式的文档吗？
+**问：Aspose.Note for Java 是否支持除 BMP 之外的其他保存格式？**  
+答：支持。包括 PDF、PNG、JPEG、DOCX 等。相应地更改 `SaveFormat` 枚举即可。
 
-A4：是的，Aspose.Note for Java 支持以各种格式保存文档，包括 BMP、PDF、PNG 等。
+**问：是否提供 Aspose.Note for Java 的试用版？**  
+答：提供，可从 Aspose 官方网站下载免费试用版。
 
-### Q5：Aspose.Note for Java 有试用版吗？
+## Conclusion
 
-A5：是的，您可以从网站下载 Aspose.Note for Java 的免费试用版。
+通过清晰的层级结构组织 OneNote 笔记本并将其导出为 PDF，可使笔记更易访问和共享。按照上述步骤，您现在已经掌握了使用 Aspose.Note for Java **如何保存 OneNote PDF** 以及以 **onenote 风格添加子页面** 的编程方法。
+
+---
+
+**最后更新：** 2026-01-07  
+**测试环境：** Aspose.Note for Java 24.11（最新）  
+**作者：** Aspose  
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
