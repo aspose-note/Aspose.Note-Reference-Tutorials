@@ -1,41 +1,51 @@
 ---
-title: احصل على مراجعات الصفحة في OneNote - Aspose.Note
-linktitle: احصل على مراجعات الصفحة في OneNote - Aspose.Note
-second_title: Aspose.Note جافا API
-description: تعرف على كيفية استرداد مراجعات الصفحة في OneNote باستخدام Aspose.Note لـ Java. اتبع دليلنا خطوة بخطوة لتتبع التغييرات بشكل فعال.
-weight: 14
+date: 2026-01-10
+description: تعلم دليل مراجعات صفحات Aspose.Note للغة Java – استرجاع مراجعات صفحات
+  OneNote برمجياً باستخدام Aspose.Note. اتبع دليلنا خطوةً بخطوة.
+linktitle: Get Page Revisions in OneNote - Aspose.Note
+second_title: Aspose.Note Java API
+title: دليل مراجعات الصفحات في aspose.note – الحصول على مراجعات الصفحات في OneNote
 url: /ar/java/onenote-page-manipulation/get-page-revisions/
+weight: 14
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# احصل على مراجعات الصفحة في OneNote - Aspose.Note
+# الحصول على إصدارات الصفحات في OneNote - Aspose.Note
 
-## مقدمة
+OneNote هو منصة قوية لتدوين الملاحظات، وعندما تحتاج إلى تدقيق التغييرات، يُظهر **aspose.note page revisions tutorial** لك بالضبط كيفية سحب تاريخ الإصدارات ببضع أسطر من كود Java. في هذا الدليل سنستعرض كل ما تحتاجه — من البيئة إلى طباعة تفاصيل كل إصدار — حتى تتمكن من تتبع التعديلات ومساهمات المؤلفين والطوابع الزمنية بسهولة.
 
-يعد OneNote أداة قوية لتنظيم ملاحظاتك وإدارتها، ولكن في بعض الأحيان تحتاج إلى تتبع التغييرات والمراجعات التي تم إجراؤها على صفحاتك. باستخدام Aspose.Note لـ Java، يمكنك بسهولة استرداد مراجعات الصفحة برمجيًا. في هذا البرنامج التعليمي، سنرشدك خلال عملية الحصول على مراجعات الصفحة في OneNote باستخدام Aspose.Note لـ Java.
+## الإجابات السريعة
+- **ما الذي يغطيه الدرس؟** استرجاع تاريخ إصدارات الصفحة من ملف OneNote باستخدام Aspose.Note for Java.  
+- **ما نسخة المكتبة المطلوبة؟** أي إصدار حديث من Aspose.Note for Java يدعم `LoadOptions.setLoadHistory`.  
+- **هل أحتاج إلى ترخيص؟** ترخيص تقييم مؤقت يعمل للاختبار؛ يلزم ترخيص تجاري للإنتاج.  
+- **هل يمكنني تعديل الإصدارات؟** API للقراءة فقط بالنسبة للإصدارات؛ يمكنك فقط استرجاعها.  
+- **ما هي المتطلبات الأساسية؟** Java JDK، Aspose.Note for Java، ومستند OneNote يحتوي على بيانات إصدارات.
 
-## المتطلبات الأساسية
+## ما هو “aspose.note page revisions tutorial”؟
+يُظهر الدرس كيفية الوصول برمجياً إلى الإصدارات التاريخية لصف OneNote. كل إصدار يحتوي على بيانات وصفية مثل المؤلف، وقت الإنشاء، ووقت التعديل، مما يتيح لك بناء سجلات تدقيق أو ميزات سجل تغييرات داخل تطبيقاتك.
 
-قبل أن نبدأ، تأكد من توفر المتطلبات الأساسية التالية:
+## لماذا تستخدم Aspose.Note لتتبع إصدارات الصفحات؟
+- **No UI dependency** – لا يعتمد على واجهة المستخدم – يعمل بالكامل عبر الكود، مثالي لخدمات الخلفية.  
+- **Cross‑platform** – متعدد المنصات – Java يعمل على Windows وLinux وmacOS.  
+- **Full control** – تحكم كامل – استرجاع كل خاصية من خصائص الإصدار دون فتح OneNote يدويًا.  
+- **Performance** – الأداء – تحميل التاريخ مُحسّن، لذا حتى دفاتر الملاحظات الكبيرة تُعالج بسرعة.
 
-### 1. مجموعة تطوير جافا (JDK)
+## المتطلبات المسبقة
 
-تأكد من تثبيت Java Development Kit (JDK) على نظامك. يمكنك تنزيل JDK وتثبيته من موقع Oracle الإلكتروني.
+### 1. Java Development Kit (JDK)
+تأكد من تثبيت JDK حديث (8 أو أعلى) وتعيين المتغير `JAVA_HOME`.
 
-### 2. Aspose.Note لجافا
+### 2. Aspose.Note for Java
+قم بتنزيل المكتبة من [رابط التحميل](https://releases.aspose.com/note/java/).
 
-قم بتنزيل وتثبيت Aspose.Note لـ Java من[رابط التحميل](https://releases.aspose.com/note/java/).
+### 3. Sample OneNote Document
+أنشئ أو احصل على ملف OneNote (مثال: `Sample1.one`) يحتوي على صفحات مع تاريخ الإصدارات.
 
-### 3. نموذج مستند OneNote
-
-إعداد نموذج مستند OneNote (`Sample1.one`) الذي يحتوي على الصفحات التي تريد استرداد المراجعات منها.
-
-## حزم الاستيراد
-
-أولاً، تحتاج إلى استيراد الحزم الضرورية من Aspose.Note لـ Java.
+## استيراد الحزم
+أولاً، استورد الفئات المطلوبة من Aspose.Note.
 
 ```java
 import java.io.IOException;
@@ -45,19 +55,17 @@ import com.aspose.note.LoadOptions;
 import com.aspose.note.Page;
 ```
 
-الآن، دعونا نقسم المثال المقدم إلى خطوات متعددة:
+## تنفيذ خطوة بخطوة
 
-## الخطوة 1: إعداد دليل المستندات
-
-حدد مسار الدليل حيث يوجد مستند OneNote الخاص بك.
+### الخطوة 1: إعداد دليل المستند
+حدد المجلد الذي يوجد فيه ملف OneNote الخاص بك.
 
 ```java
 String dataDir = "Your Document Directory";
 ```
 
-## الخطوة 2: قم بتحميل مستند OneNote
-
- قم بتحميل مستند OneNote باستخدام`LoadOptions` لتمكين سجل التحميل.
+### الخطوة 2: تحميل مستند OneNote مع تمكين التاريخ
+فعّل علامة `LoadOptions` لسحب بيانات الإصدارات.
 
 ```java
 LoadOptions loadOptions = new LoadOptions();
@@ -65,17 +73,15 @@ loadOptions.setLoadHistory(true);
 Document document = new Document(dataDir + "Sample1.one", loadOptions);
 ```
 
-## الخطوة 3: احصل على الصفحة الأولى
-
-استرداد الصفحة الأولى من المستند الذي تم تحميله.
+### الخطوة 3: الحصول على الصفحة الأولى
+احصل على كائن الصفحة الأولى؛ سيكون هذا هو نقطة المرجع لاسترجاع تاريخها.
 
 ```java
 Page firstPage = document.getFirstChild();
 ```
 
-## الخطوة 4: التكرار من خلال مراجعات الصفحة
-
-قم بالتكرار من خلال كل مراجعة للصفحة واسترجاع المعلومات ذات الصلة مثل وقت التعديل الأخير ووقت الإنشاء والعنوان والمستوى والمؤلف.
+### الخطوة 4: التكرار عبر إصدارات الصفحة
+قم بالتكرار عبر كل إصدار واطبع البيانات الوصفية المفيدة مثل الطوابع الزمنية، العنوان، المستوى، والمؤلف.
 
 ```java
 for (Page pageRevision : document.getPageHistory(firstPage)) {
@@ -88,31 +94,36 @@ for (Page pageRevision : document.getPageHistory(firstPage)) {
 }
 ```
 
-## خاتمة
+> **Pro tip:** إذا كنت بحاجة لتصفية الإصدارات حسب مؤلف محدد أو نطاق تاريخي، ما عليك سوى إضافة فحوصات شرطية داخل حلقة `for`.
 
-في هذا البرنامج التعليمي، تعلمنا كيفية استرداد مراجعات الصفحة في OneNote باستخدام Aspose.Note لـ Java. باتباع هذه الخطوات، يمكنك تتبع التغييرات التي تم إجراؤها على صفحات OneNote الخاصة بك برمجياً بكفاءة.
+## المشكلات الشائعة والحلول
+- **No revisions returned:** تحقق من استدعاء `loadOptions.setLoadHistory(true)` قبل تحميل المستند.  
+- **Null author or title:** قد لا تخزن بعض إصدارات OneNote القديمة هذه الحقول؛ تعامل مع القيم `null` بلطف.  
+- **Performance lag on large notebooks:** حمّل الأقسام التي تحتاجها فقط أو زد حجم الذاكرة المخصصة لـ JVM.
 
-## الأسئلة الشائعة
+## الأسئلة المتكررة
 
-### س1: هل يمكنني استخدام Aspose.Note لـ Java لتعديل مراجعات الصفحة؟
+**س1: هل يمكنني استخدام Aspose.Note for Java لتعديل إصدارات الصفحات؟**  
+A1: لا، API يدعم حاليًا الوصول للقراءة فقط إلى إصدارات الصفحات.
 
-ج1: لا، يدعم Aspose.Note for Java حاليًا استرداد مراجعات الصفحة ولكن لا يدعم تعديلها.
+**س2: هل Aspose.Note for Java متوافق مع إصدارات مختلفة من مستندات OneNote؟**  
+A2: نعم، يعمل مع صيغ ملفات OneNote المتنوعة، مما يتيح معالجة سلسة عبر الإصدارات.
 
-### س2: هل يتوافق Aspose.Note for Java مع الإصدارات المختلفة من مستندات OneNote؟
+**س3: هل يتطلب Aspose.Note for Java ترخيصًا للاستخدام؟**  
+A3: يلزم ترخيص تجاري للاستخدام في الإنتاج، لكن يتوفر ترخيص تقييم مؤقت للاختبار.
 
-ج2: نعم، يدعم Aspose.Note for Java إصدارات مختلفة من مستندات OneNote، مما يسمح لك بالعمل مع تنسيقات ملفات مختلفة بسلاسة.
+**س4: هل يمكنني طلب الدعم إذا واجهت أي مشكلات أثناء استخدام Aspose.Note for Java؟**  
+A4: نعم، يمكنك طرح الأسئلة على منتدى Aspose.Note [هنا](https://forum.aspose.com/c/note/28).
 
-### س3: هل يتطلب Aspose.Note for Java ترخيصًا للاستخدام؟
+**س5: هل هناك نسخة تجريبية مجانية متاحة لـ Aspose.Note for Java؟**  
+A5: نعم، يمكنك تنزيل نسخة تجريبية مجانية من [الموقع](https://releases.aspose.com/).
 
-ج3: نعم، أنت بحاجة إلى شراء ترخيص لاستخدام Aspose.Note لـ Java في المشاريع التجارية. ومع ذلك، يمكنك أيضًا الحصول على ترخيص مؤقت لأغراض التقييم.
+---
 
-### س4: هل يمكنني طلب الدعم إذا واجهت أية مشكلات أثناء استخدام Aspose.Note لـ Java؟
+**آخر تحديث:** 2026-01-10  
+**تم الاختبار مع:** Aspose.Note for Java (latest release)  
+**المؤلف:** Aspose  
 
- ج4: نعم، يمكنك طلب الدعم من منتدى Aspose.Note[هنا](https://forum.aspose.com/c/note/28).
-
-### س5: هل تتوفر نسخة تجريبية مجانية من Aspose.Note لـ Java؟
-
- ج5: نعم، يمكنك الوصول إلى الإصدار التجريبي المجاني من Aspose.Note لـ Java من[موقع إلكتروني](https://releases.aspose.com/).
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
