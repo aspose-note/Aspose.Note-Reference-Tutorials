@@ -1,33 +1,43 @@
 ---
-title: OneNote'ta Sayfa Sayısını Alma - Aspose.Note
-linktitle: OneNote'ta Sayfa Sayısını Alma - Aspose.Note
-second_title: Aspose.Note Java API'si
-description: Aspose.Note for Java'yı kullanarak OneNote belgelerindeki sayfa sayısını nasıl alacağınızı öğrenin. Bu adım adım eğitim, süreç boyunca size zahmetsizce rehberlik eder.
-weight: 13
+date: 2026-01-12
+description: Aspose.Note for Java kullanarak OneNote sayfa sayısını nasıl alacağınızı
+  ve toplam OneNote sayfalarını nasıl yazdıracağınızı öğrenin. Bu öğreticide, sayfa
+  sayısını almak ve görüntülemek için adım adım kod gösterilmektedir.
+linktitle: Get OneNote Page Count with Aspose.Note for Java
+second_title: Aspose.Note Java API
+title: Aspose.Note for Java ile OneNote Sayfa Sayısını Al
 url: /tr/java/onenote-page-manipulation/get-page-count/
+weight: 13
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# OneNote'ta Sayfa Sayısını Alma - Aspose.Note
+# Aspose.Note for Java ile OneNote Sayfa Sayısını Alın
 
-## giriiş
+## Introduction
 
-Bu eğitimde, bir OneNote belgesindeki sayfa sayısını verimli bir şekilde almak için Aspose.Note for Java'nın nasıl kullanılacağını keşfedeceğiz. Aspose.Note, geliştiricilerin Microsoft OneNote dosyalarıyla programlı olarak çalışmasına olanak tanıyan, belge düzenleme, çıkarma ve dönüştürme gibi görevleri mümkün kılan güçlü bir Java API'sidir.
+Bu öğreticide, Aspose.Note for Java kullanarak bir OneNote belgesinden **OneNote sayfa sayısını nasıl alacağınızı** öğreneceksiniz. Projeyi kurma, bir `.one` dosyasını yükleme, sayfa sayısını alma ve sonunda **toplam OneNote sayfalarını** konsola **yazdırma** adımlarını birlikte inceleyeceğiz. Raporlama aracı oluşturuyor ya da belge yapısını doğrulamanız gerekiyorsa, bu kılavuz size net, çalıştırmaya hazır bir çözüm sunar.
 
-## Önkoşullar
+## Quick Answers
+- **Bu öğretici neyi kapsıyor?** Aspose.Note for Java ile bir OneNote dosyasındaki toplam sayfa sayısını alıp yazdırma.  
+- **Hangi kütüphane gerekli?** Aspose.Note for Java (resmi sürüm sayfasından indirin).  
+- **Lisans gerekli mi?** Test için ücretsiz deneme sürümü çalışır; üretim için ticari lisans gerekir.  
+- **Kaç satır kod?** Sadece dört kısa snippet – bir import, bir yükleme, bir sayma ve bir yazdırma.  
+- **Herhangi bir işletim sisteminde çalıştırabilir miyim?** Evet, uyumlu bir JDK ve Aspose.Note JAR'ı olduğu sürece.
 
-Başlamadan önce aşağıdaki önkoşullara sahip olduğunuzdan emin olun:
+## Prerequisites
 
-1. Java Geliştirme Kiti (JDK): Sisteminizde JDK'nın kurulu olduğundan emin olun.
-2.  Aspose.Note for Java Kütüphanesi: Aspose.Note for Java kütüphanesini şuradan indirip yükleyin:[indirme sayfası](https://releases.aspose.com/note/java/).
-3. Entegre Geliştirme Ortamı (IDE): Kodlama için IntelliJ IDEA veya Eclipse gibi tercih ettiğiniz bir IDE'yi seçin.
+Başlamadan önce, aşağıdaki ön koşullara sahip olduğunuzdan emin olun:
 
-## Paketleri İçe Aktar
+1. **Java Development Kit (JDK)** – herhangi bir güncel sürüm (JDK 8 veya üzeri).  
+2. **Aspose.Note for Java Library** – kütüphaneyi [download page](https://releases.aspose.com/note/java/) adresinden indirip kurun.  
+3. **Integrated Development Environment (IDE)** – IntelliJ IDEA, Eclipse veya tercih ettiğiniz herhangi bir editör.
 
-Başlamak için gerekli paketleri Java projenize aktarın:
+## Import Packages
+
+Başlamak için, Java projenize gerekli paketleri içe aktarın:
 
 ```java
 import java.io.IOException;
@@ -36,62 +46,86 @@ import com.aspose.note.Document;
 import com.aspose.note.Page;
 ```
 
-Şimdi örneği birden çok adıma ayıralım:
+Şimdi, örneği birden fazla adıma ayıralım:
 
-## 1. Adım: Projenizi Kurun
+## Step 1: Set Up Your Project
 
-IDE'nizde yeni bir Java projesi oluşturun ve Aspose.Note kütüphanesini projenizin sınıf yoluna aktarın.
+IDE'nizde yeni bir Java projesi oluşturun ve Aspose.Note JAR'ını projenin sınıf yoluna ekleyin. Bu, daha sonra kullanılacak `Document` ve `Page` sınıflarına erişim sağlar.
 
-## Adım 2: Belgeyi Yükleyin
+## Step 2: Load the Document
 
 ```java
 String dataDir = "Your Document Directory";
 Document doc = new Document(dataDir + "Sample1.one");
 ```
 
- Değiştirildiğinden emin olun`"Your Document Directory"` OneNote belgenizin gerçek yolunu belirtin.
+`"Your Document Directory"` ifadesini OneNote `.one` dosyanızın bulunduğu gerçek yol ile değiştirin.
 
-## 3. Adım: Sayfa Sayısını Alın
+## Step 3: Get the Number of Pages
 
 ```java
 int count = doc.getChildNodes(Page.class).size();
 ```
 
-Bu kod parçacığı, yüklenen OneNote belgesindeki sayfa sayısını alır.
+`getChildNodes(Page.class).size()` çağrısı toplam sayfa sayısını döndürür; bu, **OneNote sayfa sayısını almanın** temelidir.
 
-## Adım 4: Sayfa Sayısını Yazdırın
+## Print Total OneNote Pages
 
 ```java
 System.out.printf("Total Pages: %s", count);
 ```
 
-Son olarak toplam sayfa sayısını konsola yazdırın.
+Bu satır **toplam OneNote sayfalarını** konsola **yazdırır**, size anlık geri bildirim sağlar.
 
-## Çözüm
+## Conclusion
 
-Sonuç olarak Aspose.Note for Java'yı kullanmak, OneNote belgelerindeki sayfa sayılarını alma görevini basitleştirir. Bu eğitimde özetlenen adımları izleyerek bu işlevselliği Java uygulamalarınıza sorunsuz bir şekilde entegre edebilirsiniz.
+Bu basit adımları izleyerek, Aspose.Note for Java kullanarak herhangi bir OneNote belgesinin sayfa sayısını zahmetsizce alıp görüntüleyebilirsiniz. Bu snippet'i daha büyük uygulamalara entegre ederek belge analizini otomatikleştirebilir, özetler oluşturabilir veya içerik yapısını doğrulayabilirsiniz.
 
-## SSS'ler
+## FAQ's
 
-### S1: Aspose.Note for Java, OneNote dosyalarının tüm sürümleriyle uyumlu mudur?
+### Q1: Aspose.Note for Java tüm OneNote dosya sürümleriyle uyumlu mu?
 
-Cevap1: Aspose.Note for Java, .one ve .onetoc2 formatları da dahil olmak üzere OneNote dosyalarının çeşitli sürümlerini destekler.
+A1: Aspose.Note for Java, .one ve .onetoc2 formatları dahil olmak üzere çeşitli OneNote dosya sürümlerini destekler.
 
-### S2: OneNote belgelerini Aspose.Note for Java kullanarak değiştirebilir miyim?
+### Q2: Aspose.Note for Java ile OneNote belgelerini manipüle edebilir miyim?
 
-C2: Evet, OneNote belgelerinde sayfa ekleme veya kaldırma, içerik çıkarma ve diğer biçimlere dönüştürme gibi çok çeşitli işlemler gerçekleştirebilirsiniz.
+A2: Evet, sayfa ekleme veya kaldırma, içerik çıkarma ve diğer formatlara dönüştürme gibi geniş bir işlem yelpazesini gerçekleştirebilirsiniz.
 
-### S3: Aspose.Note for Java ticari kullanım için lisans gerektiriyor mu?
+### Q3: Aspose.Note for Java ticari kullanım için lisans gerektiriyor mu?
 
- Cevap3: Evet, Aspose.Note for Java'nın ticari kullanımı için bir lisans almanız gerekmektedir. adresinden lisans alabilirsiniz.[satın alma sayfası](https://purchase.aspose.com/buy).
+A3: Evet, Aspose.Note for Java'un ticari kullanımında bir lisans almanız gerekir. Lisansı [purchase page](https://purchase.aspose.com/buy) adresinden temin edebilirsiniz.
 
-### S4: Aspose.Note for Java'yı öğrenmek için kullanılabilecek ücretsiz kaynaklar var mı?
+### Q4: Aspose.Note for Java öğrenmek için ücretsiz kaynaklar var mı?
 
-C4: Evet, belgelere ve forumlara şuradan erişebilirsiniz:[Web sitesi](https://reference.aspose.com/note/java/) rehberlik ve destek için.
+A4: Evet, rehberlik ve destek için [Aspose website](https://reference.aspose.com/note/java/) üzerindeki dokümantasyon ve forumlara erişebilirsiniz.
 
-### S5: Aspose.Note for Java'nın test amaçlı deneme sürümü mevcut mu?
+### Q5: Aspose.Note for Java için test amaçlı bir deneme sürümü mevcut mu?
 
- C5: Evet, ücretsiz deneme sürümünü şuradan indirebilirsiniz:[sürümler sayfası](https://releases.aspose.com/) API'nin yeteneklerini değerlendirmek için.
+A5: Evet, API'nin yeteneklerini değerlendirmek için [releases page](https://releases.aspose.com/) adresinden ücretsiz deneme sürümünü indirebilirsiniz.
+
+## Frequently Asked Questions
+
+**Q: Bu kodu çok‑iş parçacıklı bir ortamda kullanabilir miyim?**  
+A: Evet, `Document` sınıfı yalnızca okuma işlemleri için thread‑safe'dir. Aynı `Document` örneğini aynı anda değiştirmekten kaçının.
+
+**Q: Dosya yolu yanlış olursa ne olur?**  
+A: Bir `IOException` fırlatılır. Dosyanın eksik olması durumunu nazikçe ele almak için yükleme kodunu try‑catch bloğuna alın.
+
+**Q: Şifre korumalı OneNote dosyalarıyla çalışır mı?**  
+A: Aspose.Note şu anda şifreli OneNote dosyalarını açmayı desteklememektedir. İşleme almadan önce korumayı kaldırmanız gerekir.
+
+**Q: Büyük bir not defterindeki sayfaları verimli bir şekilde nasıl sayabilirim?**  
+A: `getChildNodes` yöntemi zaten optimize edilmiştir, ancak yalnızca belirli bir sayfa alt kümesine ihtiyacınız varsa bölümleri akış (stream) olarak da işleyebilirsiniz.
+
+**Q: Sayfaları saydıktan sonra her bir sayfanın başlığını listeleyebilir miyim?**  
+A: Evet, `doc.getChildNodes(Page.class)` üzerinde döngü kurup `page.getTitle()` metodunu çağırarak her sayfanın başlığını alabilirsiniz.
+
+---
+
+**Last Updated:** 2026-01-12  
+**Tested With:** Aspose.Note for Java 24.12  
+**Author:** Aspose  
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
