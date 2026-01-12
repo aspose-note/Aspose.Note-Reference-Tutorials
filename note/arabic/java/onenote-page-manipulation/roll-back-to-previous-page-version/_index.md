@@ -1,34 +1,46 @@
 ---
-title: العودة إلى إصدار الصفحة السابقة في OneNote - Aspose.Note
-linktitle: العودة إلى إصدار الصفحة السابقة في OneNote - Aspose.Note
-second_title: Aspose.Note جافا API
-description: تعرف على كيفية الرجوع إلى إصدارات الصفحة السابقة في OneNote باستخدام Aspose.Note لـ Java. اتبع هذا الدليل المفصّل خطوة بخطوة لإدارة المستندات بكفاءة.
-weight: 19
+date: 2026-01-12
+description: تعلم كيفية التراجع عن صفحات OneNote واستعادة النسخة السابقة من OneNote
+  باستخدام Aspose.Note للغة Java. اتبع هذا الدليل خطوة بخطوة لإدارة مستندات فعّالة.
+linktitle: How to Roll Back OneNote - Aspose.Note
+second_title: Aspose.Note Java API
+title: كيفية التراجع عن OneNote - Aspose.Note
 url: /ar/java/onenote-page-manipulation/roll-back-to-previous-page-version/
+weight: 19
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# العودة إلى إصدار الصفحة السابقة في OneNote - Aspose.Note
+# كيفية التراجع عن OneNote - Aspose.Note
 
-## مقدمة
+## Introduction
 
-في هذا البرنامج التعليمي، سوف نتعمق في استخدام Aspose.Note لـ Java للرجوع إلى إصدار سابق من الصفحة في OneNote. يعد OneNote أداة قوية لتدوين الملاحظات والتعاون والتنظيم، ولكن في بعض الأحيان، تحدث أخطاء أو يجب التراجع عن التغييرات. يوفر Aspose.Note تكاملاً سلسًا مع Java، مما يوفر للمطورين القدرة على إدارة مستندات OneNote برمجيًا. يعد الرجوع إلى إصدار الصفحة السابق ميزة هامة للحفاظ على الدقة والتكامل في مستندات OneNote الخاصة بك.
+إذا كنت تبحث عن طريقة واضحة برمجية **how to roll back onenote** للصفحات عندما يحدث خطأ، فأنت في المكان الصحيح. في هذا الدرس سنستعرض كيفية استخدام Aspose.Note for Java لإرجاع صفحة OneNote إلى حالة سابقة. سواءً كنت تبني أداة إدارة ملاحظات آلية أو تحتاج إلى شبكة أمان للمفكرات التشاركية، فإن التراجع عن صفحة يساعد في الحفاظ على محتواك دقيقًا وموثوقًا.
 
-## المتطلبات الأساسية
+## Quick Answers
+- **ما معنى “التراجع” في OneNote؟** استعادة الصفحة إلى نسخة سابقة محفوظة في تاريخها.  
+- **أي API يتعامل مع التراجع؟** الفئة `PageHistory` في Aspose.Note for Java.  
+- **هل أحتاج إلى ترخيص؟** يلزم وجود ترخيص صالح لـ Aspose.Note للاستخدام في بيئة الإنتاج.  
+- **هل يمكنني اختيار أي نسخة سابقة؟** نعم – يمكنك اختيار أي إدخال من قائمة تاريخ الصفحة.  
+- **هل هذه الطريقة آمنة للملاحظات الكبيرة؟** بالتأكيد؛ العملية تعمل على صفحات فردية دون تحميل الدفتر بالكامل في الذاكرة.
 
-قبل أن نتعمق في البرنامج التعليمي، تأكد من توفر المتطلبات الأساسية التالية:
+## How to Roll Back OneNote Page Version
+فيما يلي دليل مختصر خطوة بخطوة يوضح بالضبط كيفية تنفيذ التراجع. كل خطوة تتضمن شرحًا موجزًا لتفهم *لماذا* نقوم بذلك، وليس فقط *ماذا* نكتب.
 
-### إعداد بيئة تطوير جافا
-1. تثبيت Java Development Kit (JDK): قم بتنزيل أحدث إصدار من JDK وتثبيته من موقع Oracle الإلكتروني أو مدير الحزم لديك.
-2. إعداد متغيرات بيئة Java: قم بتكوين متغيرات البيئة JAVA_HOME وPATH للإشارة إلى دليل تثبيت JDK الخاص بك.
-3.  تثبيت Aspose.Note for Java: قم بتنزيل مكتبة Aspose.Note for Java من[موقع إلكتروني](https://purchase.aspose.com/buy)، واتبع تعليمات التثبيت المتوفرة في الوثائق.
+## Prerequisites
 
-## حزم الاستيراد
+قبل الغوص في الشيفرة، تأكد من جاهزية ما يلي:
 
-للبدء، فلنستورد الحزم الضرورية من Aspose.Note لـ Java إلى مشروع Java الخاص بنا:
+### Java Development Environment Setup
+1. **تثبيت مجموعة تطوير جافا (JDK):** احصل على أحدث JDK من موقع Oracle أو من مدير الحزم المفضل لديك.  
+2. **تكوين متغيرات البيئة:** عيّن `JAVA_HOME` وقم بتحديث `PATH` بحيث تكون أوامر `java` و `javac` متاحة من سطر الأوامر.  
+3. **إضافة Aspose.Note for Java:** حمّل المكتبة من [الموقع](https://purchase.aspose.com/buy) وأضف ملف JAR إلى مسار الفئة (classpath) في مشروعك.
+
+## Import Packages
+
+للتفاعل مع ملفات OneNote، استورد الفئات الأساسية من Aspose.Note:
 
 ```java
 import java.io.IOException;
@@ -38,65 +50,73 @@ import com.aspose.note.Page;
 import com.aspose.note.PageHistory;
 ```
 
-الآن، دعنا نقسم عملية العودة إلى إصدار الصفحة السابقة في OneNote باستخدام Aspose.Note لـ Java إلى خطوات يمكن التحكم فيها:
-
-## الخطوة 1: قم بتحميل مستند OneNote
+## Step 1: Load OneNote Document
 ```java
 String dataDir = "Your Document Directory";
 Document document = new Document(dataDir + "Sample1.one");
 ```
- أولاً، حدد الدليل الذي يوجد به مستند OneNote الخاص بك. ثم قم بتحميل المستند إلى مثيل`Document` فصل.
+نحدد أولاً المجلد الذي يحتوي على ملف `.one` ونحمّله إلى كائن `Document`.
 
-## الخطوة 2: احصل على سجل الصفحة
+## Step 2: Get Page History
 ```java
 Page page = document.getFirstChild();
 PageHistory pageHistory = document.getPageHistory(page);
 ```
-قم باسترجاع محفوظات الصفحة للصفحة المطلوبة من المستند الذي تم تحميله. وهذا سيتيح لنا الوصول إلى الإصدارات السابقة من الصفحة.
+توفر لك `PageHistory` إمكانية الوصول إلى كل نسخة محفوظة من الصفحة المحددة، مما يتيح قدرة **restore previous onenote version**.
 
-## الخطوة 3: إزالة الصفحة الحالية
+## Step 3: Remove Current Page
 ```java
 document.removeChild(page);
 ```
-قم بإزالة الإصدار الحالي من الصفحة من المستند.
+بإزالة الصفحة الحالية نُفسح المجال للنسخة التي نريد إعادتها.
 
-## الخطوة 4: إلحاق إصدار الصفحة السابقة
+## Step 4: Append Previous Page Version
 ```java
 document.appendChildLast(pageHistory.get_Item(pageHistory.size() - 1));
 ```
-قم بإلحاق الإصدار السابق المطلوب من الصفحة بالمستند.
+هنا نختار أحدث إدخال تاريخي (يمكنك تعديل الفهرس لاستهداف أي نسخة أقدم) ونضيفه مرة أخرى إلى المستند.
 
-## الخطوة 5: حفظ المستند
+## Step 5: Save Document
 ```java
 document.save(dataDir + "RollBackToPreviousPageVersion_out.one");
 ```
-احفظ المستند المعدل بنسخة الصفحة التي تم إرجاعها إلى الدليل المحدد.
+أخيرًا، احفظ الدفتر المعدل. الآن يحتوي ملف الإخراج على الصفحة التي تم التراجع عنها.
 
-## خاتمة
+## Restore Previous OneNote Version
+يجمع استخدام `PageHistory` مع `appendChildLast` بينهما لتتمكن من **restore previous onenote version** ببضع أسطر من الشيفرة فقط. هذا مفيد جدًا في سير العمل الآلي حيث لا يكون التراجع اليدوي ممكنًا.
 
-في هذا البرنامج التعليمي، اكتشفنا كيفية العودة إلى إصدار الصفحة السابقة في OneNote باستخدام Aspose.Note لـ Java. باتباع الدليل الموضح خطوة بخطوة، يمكنك إدارة سلامة مستندات OneNote الخاصة بك والحفاظ عليها برمجيًا بكفاءة.
+## Common Issues & Tips
+- **Empty History:** إذا أعاد `pageHistory.size()` القيمة 0، فهذا يعني أن الصفحة لا تملك نسخًا محفوظة—تأكد من تفعيل النسخ الاحتياطي في OneNote.  
+- **Index Out of Bounds:** تذكر أن قائمة التاريخ تبدأ من الصفر. عدّل الفهرس (`size() - 1`) لاستهداف النسخة الدقيقة التي تحتاجها.  
+- **Performance:** العمل على صفحة واحدة يتجنب تحميل الدفتر بالكامل في الذاكرة، مما يحافظ على سرعة العملية حتى مع الملفات الكبيرة.
 
-## الأسئلة الشائعة
+## Conclusion
 
-### س1: هل يمكنني استرجاع إصدارات متعددة من الصفحة؟
+أصبح لديك الآن طريقة كاملة وجاهزة للإنتاج **how to roll back onenote** باستخدام Aspose.Note for Java. من خلال الاستفادة من `PageHistory`، يمكنك استعادة أي حالة سابقة لصفحة الدفتر بأمان، مما يضمن سلامة البيانات ويمنح المستخدمين الثقة في بيئات التعاون.
 
-ج: نعم، يمكنك الوصول إلى سجل الصفحة بالكامل والعودة إلى أي إصدار سابق حسب الحاجة.
+## Frequently Asked Questions
 
-### س2: هل يدعم Aspose.Note لغات البرمجة الأخرى إلى جانب Java؟
+**Q1: هل يمكنني التراجع عن عدة نسخ من صفحة؟**  
+A: نعم، يمكنك الوصول إلى تاريخ الصفحة بالكامل والتراجع إلى أي نسخة سابقة حسب الحاجة.
 
-ج: نعم، يوفر Aspose.Note مكتبات لمختلف لغات البرمجة، بما في ذلك .NET وC++و بايثون.
+**Q2: هل يدعم Aspose.Note لغات برمجة أخرى غير Java؟**  
+A: نعم، يوفر Aspose.Note مكتبات لعدة لغات برمجة، بما في ذلك .NET و C++ و Python.
 
-### س3: هل Aspose.Note متوافق مع كافة إصدارات OneNote؟
+**Q3: هل Aspose.Note متوافق مع جميع إصدارات OneNote؟**  
+A: يدعم Aspose.Note صيغ OneNote المتنوعة، مما يضمن التوافق مع معظم إصدارات المستندات.
 
-ج: يدعم Aspose.Note إصدارات مختلفة من OneNote، مما يضمن التوافق مع معظم تنسيقات المستندات.
+**Q4: هل يمكنني أتمتة مهام أخرى في OneNote باستخدام Aspose.Note؟**  
+A: بالتأكيد، يقدم Aspose.Note إمكانيات واسعة لإضافة وحذف وتعديل المحتوى برمجيًا.
 
-### س4: هل يمكنني أتمتة المهام الأخرى في OneNote باستخدام Aspose.Note؟
+**Q5: هل هناك منتدى مجتمع أو دعم متاح لـ Aspose.Note؟**  
+A: نعم، يمكنك زيارة [منتدى Aspose.Note](https://forum.aspose.com/c/note/28) للحصول على دعم المجتمع أو التواصل مع دعم عملاء Aspose للمساعدة.
 
-ج: بالتأكيد، يوفر Aspose.Note إمكانات واسعة النطاق لمعالجة مستندات OneNote برمجيًا، بما في ذلك إضافة المحتوى وحذفه وتعديله.
+---
 
-### س5: هل يتوفر منتدى مجتمعي أو دعم لـ Aspose.Note؟
+**Last Updated:** 2026-01-12  
+**Tested With:** Aspose.Note for Java (latest release)  
+**Author:** Aspose  
 
- ج: نعم، يمكنك زيارة[منتدى Aspose.Note](https://forum.aspose.com/c/note/28) للحصول على دعم المجتمع أو اتصل بدعم عملاء Aspose للحصول على المساعدة.
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

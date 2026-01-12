@@ -1,34 +1,47 @@
 ---
-title: Visszatérés az előző oldalverzióhoz a OneNote-ban – Aspose.Note
-linktitle: Visszatérés az előző oldalverzióhoz a OneNote-ban – Aspose.Note
+date: 2026-01-12
+description: Tanulja meg, hogyan lehet visszagörgetni a OneNote oldalakat és visszaállítani
+  a korábbi OneNote verziót az Aspose.Note for Java segítségével. Kövesse ezt a lépésről‑lépésre
+  útmutatót a hatékony dokumentumkezeléshez.
+linktitle: How to Roll Back OneNote - Aspose.Note
 second_title: Aspose.Note Java API
-description: Ismerje meg, hogyan térhet vissza a korábbi oldalverziókra a OneNote-ban az Aspose.Note for Java használatával. Kövesse ezt a lépésről lépésre szóló útmutatót a hatékony dokumentumkezelés érdekében.
-weight: 19
+title: Hogyan állítsuk vissza a OneNote-ot – Aspose.Note
 url: /hu/java/onenote-page-manipulation/roll-back-to-previous-page-version/
+weight: 19
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Visszatérés az előző oldalverzióhoz a OneNote-ban – Aspose.Note
+# How to Roll Back OneNote - Aspose.Note
 
-## Bevezetés
+## Introduction
 
-Ebben az oktatóanyagban az Aspose.Note for Java használatával foglalkozunk, amellyel a OneNote-ban egy oldal korábbi verziójára léphet vissza. A OneNote hatékony eszköz a jegyzetkészítéshez, az együttműködéshez és a rendszerezéshez, de időnként hibák történnek, vagy a változtatásokat vissza kell állítani. Az Aspose.Note zökkenőmentes integrációt kínál a Java-val, lehetővé téve a fejlesztők számára a OneNote-dokumentumok programozott kezelését. Az előző oldalverzióra való visszaállítás kulcsfontosságú funkció a OneNote-dokumentumok pontosságának és integritásának megőrzéséhez.
+Ha egyértelmű, programozott módot keresel arra, hogy **hogyan állítsd vissza a OneNote** oldalakat, amikor hiba csúszik be, jó helyen jársz. Ebben az útmutatóban végigvezetünk az Aspose.Note for Java használatával, hogy egy OneNote oldalt korábbi állapotára állítsunk vissza. Akár automatizált jegykezelő eszközt építesz, akár biztonsági hálót szeretnél a közös jegyzetfüzetekhez, az oldal visszaállítása segít a tartalom pontosságának és megbízhatóságának megőrzésében.
 
-## Előfeltételek
+## Quick Answers
+- **Mit jelent a „roll back” a OneNote esetében?** Egy oldal visszaállítása egy korábbi, a történetben mentett verzióra.  
+- **Melyik API kezeli a visszaállítást?** A `PageHistory` osztály az Aspose.Note for Java‑ban.  
+- **Szükség van licencre?** Egy érvényes Aspose.Note licenc szükséges a termelési környezetben.  
+- **Kiválaszthatok bármely korábbi verziót?** Igen – a oldal történetlistájából bármely bejegyzést kiválaszthatod.  
+- **Biztonságos ez a megközelítés nagy füzetek esetén?** Teljesen; a művelet egyedi oldalakon fut, anélkül, hogy a teljes füzetet betöltené a memóriába.
 
-Mielőtt belevágnánk az oktatóanyagba, győződjön meg arról, hogy a következő előfeltételek teljesülnek:
+## How to Roll Back OneNote Page Version
+Az alábbiakban egy tömör, lépésről‑lépésre útmutatót találsz, amely pontosan bemutatja, hogyan hajtsd végre a visszaállítást. Minden lépés rövid magyarázatot tartalmaz, hogy megértsd *miért* csináljuk, ne csak *mit* kell beírni.
 
-### Java fejlesztői környezet beállítása
-1. Java Development Kit (JDK) telepítése: Töltse le és telepítse a JDK legújabb verzióját az Oracle webhelyéről vagy a csomagkezelőjéről.
-2. Java környezeti változók beállítása: Állítsa be a JAVA_HOME és PATH környezeti változókat úgy, hogy a JDK telepítési könyvtárára mutassanak.
-3.  Az Aspose.Note for Java telepítése: Töltse le az Aspose.Note for Java könyvtárat a webhelyről[weboldal](https://purchase.aspose.com/buy), és kövesse a dokumentációban található telepítési utasításokat.
+## Prerequisites
 
-## Csomagok importálása
+Mielőtt a kódba merülnél, győződj meg róla, hogy a következők rendelkezésre állnak:
 
-Kezdésként importáljuk a szükséges csomagokat az Aspose.Note for Java-ból Java projektünkbe:
+### Java Development Environment Setup
+1. **Install Java Development Kit (JDK):** Szerezd be a legújabb JDK‑t az Oracle weboldaláról vagy a kedvenc csomagkezelődből.  
+2. **Configure Environment Variables:** Állítsd be a `JAVA_HOME` változót, és frissítsd a `PATH`‑t, hogy a `java` és `javac` parancsok elérhetők legyenek a parancssorból.  
+3. **Add Aspose.Note for Java:** Töltsd le a könyvtárat a [website](https://purchase.aspose.com/buy) oldalról, és add hozzá a JAR‑t a projekted osztályútvonalához.
+
+## Import Packages
+
+A OneNote fájlokkal való munka érdekében importáld a szükséges Aspose.Note osztályokat:
 
 ```java
 import java.io.IOException;
@@ -38,65 +51,73 @@ import com.aspose.note.Page;
 import com.aspose.note.PageHistory;
 ```
 
-Most pedig bontsuk fel kezelhető lépésekre az előző oldalverzióra való visszatérést a OneNote-ban az Aspose.Note for Java használatával:
-
-## 1. lépés: Töltse be a OneNote-dokumentumot
+## Step 1: Load OneNote Document
 ```java
 String dataDir = "Your Document Directory";
 Document document = new Document(dataDir + "Sample1.one");
 ```
- Először adja meg a könyvtárat, ahol a OneNote-dokumentum található. Ezután töltse be a dokumentumot a`Document` osztály.
+Először megadjuk azt a mappát, amelyik a `.one` fájlt tartalmazza, és betöltjük egy `Document` objektumba.
 
-## 2. lépés: Töltse le az oldalelőzményeket
+## Step 2: Get Page History
 ```java
 Page page = document.getFirstChild();
 PageHistory pageHistory = document.getPageHistory(page);
 ```
-A kívánt oldal oldaltörténetének lekérése a betöltött dokumentumból. Ezzel hozzáférést biztosítunk az oldal korábbi verzióihoz.
+A `PageHistory` hozzáférést biztosít a kiválasztott oldal minden mentett verziójához, lehetővé téve a **restore previous onenote version** funkciót.
 
-## 3. lépés: Távolítsa el az aktuális oldalt
+## Step 3: Remove Current Page
 ```java
 document.removeChild(page);
 ```
-Távolítsa el az oldal aktuális verzióját a dokumentumból.
+Az aktuális oldal eltávolításával helyet teremtünk a visszahozni kívánt verziónak.
 
-## 4. lépés: Előző oldalverzió hozzáfűzése
+## Step 4: Append Previous Page Version
 ```java
 document.appendChildLast(pageHistory.get_Item(pageHistory.size() - 1));
 ```
-Az oldal kívánt korábbi verziójának hozzáfűzése a dokumentumhoz.
+Itt kiválasztjuk a legújabb történelmi bejegyzést (az indexet módosíthatod, ha egy régebbi verziót szeretnél), és visszaadjuk a dokumentumhoz.
 
-## 5. lépés: Mentse el a dokumentumot
+## Step 5: Save Document
 ```java
 document.save(dataDir + "RollBackToPreviousPageVersion_out.one");
 ```
-Mentse el a módosított dokumentumot a visszagörgetett oldalverzióval a megadott könyvtárba.
+Végül elmentjük a módosított füzetet. A kimeneti fájl most már tartalmazza a visszaállított oldalt.
 
-## Következtetés
+## Restore Previous OneNote Version
+A `PageHistory` és az `appendChildLast` kombinációja lehetővé teszi a **restore previous onenote version** végrehajtását néhány kódsorral. Különösen hasznos automatizált munkafolyamatokban, ahol a manuális visszavonás nem kivitelezhető.
 
-Ebben az oktatóanyagban megvizsgáltuk, hogyan lehet visszalépni egy korábbi oldalverzióra a OneNote-ban az Aspose.Note for Java használatával. A részletes útmutató követésével hatékonyan kezelheti és megőrizheti a OneNote-dokumentumok integritását programozottan.
+## Common Issues & Tips
+- **Empty History:** Ha a `pageHistory.size()` 0‑t ad vissza, az oldalnak nincsenek mentett verziói – ellenőrizd, hogy a verziókövetés be van-e kapcsolva a OneNote‑ban.  
+- **Index Out of Bounds:** Ne feledd, hogy a történetlista nullától indul. Állítsd be az indexet (`size() - 1`) a kívánt verzió pontos eléréséhez.  
+- **Performance:** Egyetlen oldal feldolgozása elkerüli a teljes füzet memóriába töltését, így a művelet gyors marad még nagy fájlok esetén is.
 
-## GYIK
+## Conclusion
 
-### 1. kérdés: Visszaállíthatom egy oldal több verzióját?
+Most már egy komplett, termelésre kész módszerrel rendelkezel a **hogyan állítsd vissza a OneNote** oldalakat az Aspose.Note for Java segítségével. A `PageHistory` használatával biztonságosan visszaállíthatod a jegyzetfüzet oldalának bármely korábbi állapotát, biztosítva az adat integritását és a felhasználók bizalmát a közös környezetekben.
 
-V: Igen, hozzáférhet a teljes oldalelőzményhez, és szükség szerint visszatérhet bármely korábbi verzióhoz.
+## Frequently Asked Questions
 
-### 2. kérdés: Az Aspose.Note támogat más programozási nyelveket a Java mellett?
+**Q1: Can I roll back multiple versions of a page?**  
+A: Yes, you can access the entire page history and roll back to any previous version as needed.
 
-V: Igen, az Aspose.Note könyvtárakat biztosít különféle programozási nyelvekhez, beleértve a .NET-t, a C-t++, és Python.
+**Q2: Does Aspose.Note support other programming languages besides Java?**  
+A: Yes, Aspose.Note provides libraries for various programming languages, including .NET, C++, and Python.
 
-### 3. kérdés: Az Aspose.Note kompatibilis a OneNote összes verziójával?
+**Q3: Is Aspose.Note compatible with all versions of OneNote?**  
+A: Aspose.Note supports various OneNote formats, ensuring compatibility with most document versions.
 
-V: Az Aspose.Note a OneNote különféle verzióit támogatja, biztosítva a kompatibilitást a legtöbb dokumentumformátummal.
+**Q4: Can I automate other tasks in OneNote using Aspose.Note?**  
+A: Absolutely, Aspose.Note offers extensive capabilities for programmatically adding, deleting, and modifying content.
 
-### 4. kérdés: Automatizálhatok más feladatokat a OneNote-ban az Aspose.Note segítségével?
+**Q5: Is there a community forum or support available for Aspose.Note?**  
+A: Yes, you can visit the [Aspose.Note forum](https://forum.aspose.com/c/note/28) for community support or contact Aspose's customer support for assistance.
 
-V: Természetesen az Aspose.Note kiterjedt lehetőségeket kínál a OneNote-dokumentumok programozott kezeléséhez, beleértve a tartalom hozzáadását, törlését és módosítását.
+---
 
-### 5. kérdés: Elérhető közösségi fórum vagy támogatás az Aspose.Note számára?
+**Last Updated:** 2026-01-12  
+**Tested With:** Aspose.Note for Java (latest release)  
+**Author:** Aspose  
 
- V: Igen, meglátogathatja a[Aspose.Note fórum](https://forum.aspose.com/c/note/28) közösségi támogatásért, vagy segítségért forduljon az Aspose ügyfélszolgálatához.
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

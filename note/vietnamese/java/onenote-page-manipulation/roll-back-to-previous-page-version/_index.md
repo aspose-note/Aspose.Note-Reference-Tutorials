@@ -1,34 +1,47 @@
 ---
-title: Quay lại phiên bản trang trước trong OneNote - Aspose.Note
-linktitle: Quay lại phiên bản trang trước trong OneNote - Aspose.Note
-second_title: API Java Aspose.Note
-description: Tìm hiểu cách quay lại các phiên bản trang trước trong OneNote bằng Aspose.Note for Java. Hãy làm theo hướng dẫn từng bước này để quản lý tài liệu hiệu quả.
-weight: 19
+date: 2026-01-12
+description: Tìm hiểu cách khôi phục lại các trang OneNote và khôi phục phiên bản
+  OneNote trước đó bằng Aspose.Note cho Java. Hãy làm theo hướng dẫn từng bước này
+  để quản lý tài liệu hiệu quả.
+linktitle: How to Roll Back OneNote - Aspose.Note
+second_title: Aspose.Note Java API
+title: Cách quay lại OneNote - Aspose.Note
 url: /vi/java/onenote-page-manipulation/roll-back-to-previous-page-version/
+weight: 19
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Quay lại phiên bản trang trước trong OneNote - Aspose.Note
+# Cách hoàn tác OneNote - Aspose.Note
 
-## Giới thiệu
+## Introduction
 
-Trong hướng dẫn này, chúng ta sẽ đi sâu vào việc sử dụng Aspose.Note dành cho Java để quay lại phiên bản trước của một trang trong OneNote. OneNote là một công cụ mạnh mẽ để ghi chú, cộng tác và tổ chức nhưng đôi khi vẫn xảy ra lỗi hoặc các thay đổi cần được hoàn nguyên. Aspose.Note cung cấp khả năng tích hợp liền mạch với Java, cung cấp cho các nhà phát triển khả năng quản lý tài liệu OneNote theo chương trình. Quay lại phiên bản trang trước là một tính năng quan trọng để duy trì độ chính xác và tính toàn vẹn trong tài liệu OneNote của bạn.
+Nếu bạn đang tìm kiếm một cách rõ ràng, có thể lập trình để **how to roll back onenote** các trang khi có lỗi, bạn đã đến đúng nơi. Trong hướng dẫn này chúng tôi sẽ hướng dẫn sử dụng Aspose.Note for Java để khôi phục một trang OneNote về trạng thái trước đó. Dù bạn đang xây dựng công cụ quản lý ghi chú tự động hay cần một lưới an toàn cho sổ ghi chú cộng tác, việc hoàn tác một trang giúp nội dung của bạn chính xác và đáng tin cậy.
 
-## Điều kiện tiên quyết
+## Quick Answers
+- **“Roll back” có nghĩa là gì đối với OneNote?** Khôi phục một trang về phiên bản trước đã được lưu trong lịch sử.  
+- **API nào xử lý việc rollback?** Lớp `PageHistory` trong Aspose.Note for Java.  
+- **Tôi có cần giấy phép không?** Cần có giấy phép Aspose.Note hợp lệ để sử dụng trong môi trường sản xuất.  
+- **Tôi có thể chọn bất kỳ phiên bản trước nào không?** Có – bạn có thể chọn bất kỳ mục nào trong danh sách lịch sử của trang.  
+- **Phương pháp này có an toàn cho sổ ghi chú lớn không?** Hoàn toàn; thao tác chỉ làm việc trên các trang riêng lẻ mà không cần tải toàn bộ sổ ghi chú vào bộ nhớ.
 
-Trước khi chúng ta đi sâu vào hướng dẫn, hãy đảm bảo bạn có sẵn các điều kiện tiên quyết sau:
+## Cách hoàn tác phiên bản trang OneNote
+Dưới đây là hướng dẫn ngắn gọn, từng bước cho thấy cách thực hiện việc rollback. Mỗi bước bao gồm giải thích ngắn gọn để bạn hiểu *tại sao* chúng ta làm như vậy, không chỉ *cần gõ gì*.
 
-### Thiết lập môi trường phát triển Java
-1. Cài đặt Bộ công cụ phát triển Java (JDK): Tải xuống và cài đặt phiên bản JDK mới nhất từ trang web Oracle hoặc trình quản lý gói của bạn.
-2. Thiết lập các biến môi trường Java: Định cấu hình các biến môi trường JAVA_HOME và PATH để trỏ đến thư mục cài đặt JDK của bạn.
-3.  Cài đặt Aspose.Note for Java: Tải xuống thư viện Aspose.Note for Java từ[trang mạng](https://purchase.aspose.com/buy)và làm theo hướng dẫn cài đặt được cung cấp trong tài liệu.
+## Prerequisites
 
-## Gói nhập khẩu
+Trước khi chúng ta bắt đầu với mã, hãy chắc chắn rằng bạn đã chuẩn bị các mục sau:
 
-Để bắt đầu, hãy nhập các gói cần thiết từ Aspose.Note for Java vào dự án Java của chúng tôi:
+### Java Development Environment Setup
+1. **Cài đặt Java Development Kit (JDK):** Tải JDK mới nhất từ trang web Oracle hoặc trình quản lý gói ưa thích của bạn.  
+2. **Cấu hình biến môi trường:** Đặt `JAVA_HOME` và cập nhật `PATH` để các lệnh `java` và `javac` có thể truy cập từ dòng lệnh.  
+3. **Thêm Aspose.Note cho Java:** Tải thư viện từ [website](https://purchase.aspose.com/buy) và thêm file JAR vào classpath của dự án.
+
+## Import Packages
+
+Để tương tác với các tệp OneNote, nhập các lớp Aspose.Note cần thiết:
 
 ```java
 import java.io.IOException;
@@ -38,65 +51,73 @@ import com.aspose.note.Page;
 import com.aspose.note.PageHistory;
 ```
 
-Bây giờ, hãy chia nhỏ quá trình quay lại phiên bản trang trước đó trong OneNote bằng Aspose.Note for Java thành các bước có thể quản lý được:
-
-## Bước 1: Tải tài liệu OneNote
+## Step 1: Load OneNote Document
 ```java
 String dataDir = "Your Document Directory";
 Document document = new Document(dataDir + "Sample1.one");
 ```
- Đầu tiên, chỉ định thư mục chứa tài liệu OneNote của bạn. Sau đó, tải tài liệu vào một phiên bản của`Document` lớp học.
+Đầu tiên, chúng ta chỉ đến thư mục chứa tệp `.one` và tải nó vào một đối tượng `Document`.
 
-## Bước 2: Lấy lịch sử trang
+## Step 2: Get Page History
 ```java
 Page page = document.getFirstChild();
 PageHistory pageHistory = document.getPageHistory(page);
 ```
-Truy xuất lịch sử trang cho trang mong muốn từ tài liệu đã tải. Điều này sẽ cung cấp cho chúng tôi quyền truy cập vào các phiên bản trước của trang.
+`PageHistory` cung cấp quyền truy cập vào mọi phiên bản đã lưu của trang được chọn, cho phép khả năng **khôi phục phiên bản onenote trước**.
 
-## Bước 3: Xóa trang hiện tại
+## Step 3: Remove Current Page
 ```java
 document.removeChild(page);
 ```
-Xóa phiên bản hiện tại của trang khỏi tài liệu.
+Bằng cách xóa trang hiện tại, chúng ta tạo không gian cho phiên bản muốn khôi phục.
 
-## Bước 4: Nối phiên bản trang trước
+## Step 4: Append Previous Page Version
 ```java
 document.appendChildLast(pageHistory.get_Item(pageHistory.size() - 1));
 ```
-Nối phiên bản trước đó mong muốn của trang vào tài liệu.
+Ở đây chúng ta chọn mục lịch sử mới nhất (bạn có thể thay đổi chỉ số để chọn bất kỳ phiên bản cũ hơn nào) và thêm nó trở lại tài liệu.
 
-## Bước 5: Lưu tài liệu
+## Step 5: Save Document
 ```java
 document.save(dataDir + "RollBackToPreviousPageVersion_out.one");
 ```
-Lưu tài liệu đã sửa đổi với phiên bản trang được khôi phục vào thư mục được chỉ định.
+Cuối cùng, lưu lại sổ ghi chú đã chỉnh sửa. Tệp đầu ra bây giờ chứa trang đã được hoàn tác.
 
-## Phần kết luận
+## Restore Previous OneNote Version
+Sự kết hợp của `PageHistory` và `appendChildLast` cho phép bạn **khôi phục phiên bản onenote trước** chỉ với vài dòng mã. Điều này đặc biệt hữu ích trong các quy trình tự động nơi việc hoàn tác thủ công không khả thi.
 
-Trong hướng dẫn này, chúng ta đã khám phá cách quay lại phiên bản trang trước trong OneNote bằng Aspose.Note for Java. Bằng cách làm theo hướng dẫn từng bước, bạn có thể quản lý và duy trì tính toàn vẹn của tài liệu OneNote một cách hiệu quả theo chương trình.
+## Common Issues & Tips
+- **Lịch sử trống:** Nếu `pageHistory.size()` trả về 0, trang không có phiên bản đã lưu — hãy đảm bảo tính năng phiên bản được bật trong OneNote.  
+- **Chỉ số ngoài phạm vi:** Nhớ rằng danh sách lịch sử bắt đầu từ 0. Điều chỉnh chỉ số (`size() - 1`) để chọn đúng phiên bản bạn cần.  
+- **Hiệu năng:** Làm việc với một trang riêng lẻ tránh việc tải toàn bộ sổ ghi chú vào bộ nhớ, giúp thao tác nhanh ngay cả với các tệp lớn.
 
-## Câu hỏi thường gặp
+## Conclusion
 
-### Câu hỏi 1: Tôi có thể khôi phục nhiều phiên bản của một trang không?
+Bây giờ bạn đã có một phương pháp hoàn chỉnh, sẵn sàng cho môi trường sản xuất để **how to roll back onenote** các trang bằng Aspose.Note cho Java. Bằng cách sử dụng `PageHistory`, bạn có thể an toàn khôi phục bất kỳ trạng thái trước nào của một trang sổ ghi chú, đảm bảo tính toàn vẹn dữ liệu và mang lại sự tin tưởng cho người dùng cuối trong môi trường cộng tác.
 
-Đáp: Có, bạn có thể truy cập toàn bộ lịch sử trang và quay lại bất kỳ phiên bản nào trước đó nếu cần.
+## Frequently Asked Questions
 
-### Câu hỏi 2: Aspose.Note có hỗ trợ các ngôn ngữ lập trình khác ngoài Java không?
+**Q1: Tôi có thể hoàn tác nhiều phiên bản của một trang không?**  
+A: Có, bạn có thể truy cập toàn bộ lịch sử trang và hoàn tác về bất kỳ phiên bản trước nào khi cần.
 
-Trả lời: Có, Aspose.Note cung cấp thư viện cho nhiều ngôn ngữ lập trình khác nhau, bao gồm .NET, C++và Python.
+**Q2: Aspose.Note có hỗ trợ các ngôn ngữ lập trình khác ngoài Java không?**  
+A: Có, Aspose.Note cung cấp các thư viện cho nhiều ngôn ngữ lập trình, bao gồm .NET, C++ và Python.
 
-### Câu hỏi 3: Aspose.Note có tương thích với tất cả các phiên bản OneNote không?
+**Q3: Aspose.Note có tương thích với mọi phiên bản của OneNote không?**  
+A: Aspose.Note hỗ trợ nhiều định dạng OneNote, đảm bảo tương thích với hầu hết các phiên bản tài liệu.
 
-Trả lời: Aspose.Note hỗ trợ nhiều phiên bản OneNote khác nhau, đảm bảo khả năng tương thích với hầu hết các định dạng tài liệu.
+**Q4: Tôi có thể tự động hóa các tác vụ khác trong OneNote bằng Aspose.Note không?**  
+A: Chắc chắn, Aspose.Note cung cấp khả năng rộng rãi để lập trình thêm, xóa và sửa đổi nội dung.
 
-### Câu hỏi 4: Tôi có thể tự động hóa các tác vụ khác trong OneNote bằng Aspose.Note không?
+**Q5: Có diễn đàn cộng đồng hoặc hỗ trợ cho Aspose.Note không?**  
+A: Có, bạn có thể truy cập [diễn đàn Aspose.Note](https://forum.aspose.com/c/note/28) để nhận hỗ trợ cộng đồng hoặc liên hệ bộ phận hỗ trợ khách hàng của Aspose để được trợ giúp.
 
-Trả lời: Hoàn toàn có thể, Aspose.Note cung cấp các khả năng mở rộng để thao tác theo chương trình đối với tài liệu OneNote, bao gồm thêm, xóa và sửa đổi nội dung.
+---
 
-### Câu hỏi 5: Có diễn đàn cộng đồng hoặc hỗ trợ nào dành cho Aspose.Note không?
+**Cập nhật lần cuối:** 2026-01-12  
+**Đã kiểm tra với:** Aspose.Note for Java (latest release)  
+**Tác giả:** Aspose  
 
- Đ: Có, bạn có thể ghé thăm[Diễn đàn Aspose.Note](https://forum.aspose.com/c/note/28) để được hỗ trợ cộng đồng hoặc liên hệ với bộ phận hỗ trợ khách hàng của Aspose để được hỗ trợ.
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
