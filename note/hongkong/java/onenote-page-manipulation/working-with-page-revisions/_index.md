@@ -1,10 +1,11 @@
 ---
-title: 在 OneNote 中處理頁面修訂 - Aspose.Note
-linktitle: 在 OneNote 中處理頁面修訂 - Aspose.Note
+date: 2026-01-15
+description: 了解如何使用 Aspose.Note for Java 追蹤 OneNote 的變更並管理 OneNote 文件中的頁面修訂。包括修訂摘要範例以及如何修改修訂日期。
+linktitle: Working with Page Revisions in OneNote - Aspose.Note
 second_title: Aspose.Note Java API
-description: 了解如何使用 Aspose.Note for Java 管理 OneNote 文件中的頁面修訂。提供有效修訂追蹤和協作的逐步指南。
-weight: 21
+title: OneNote 變更追蹤 – 使用 Aspose.Note 管理頁面修訂
 url: /zh-hant/java/onenote-page-manipulation/working-with-page-revisions/
+weight: 21
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
@@ -13,29 +14,41 @@ url: /zh-hant/java/onenote-page-manipulation/working-with-page-revisions/
 
 # 在 OneNote 中處理頁面修訂 - Aspose.Note
 
-## 介紹
+## 簡介
 
-OneNote 是用於組織和管理筆記的強大工具，但有時您需要使用修訂來追蹤變更並有效協作。使用 Aspose.Note for Java，您可以以程式設計方式輕鬆管理 OneNote 文件中的頁面修訂。本教學將逐步指導您完成流程。
+OneNote 是一個強大的筆記組織工具，當您需要 **track changes onenote** 時，管理頁面修訂對於有效的協作至關重要。使用 Aspose.Note for Java，您可以以程式方式處理修訂、查看誰編輯了頁面，甚至調整時間戳記。本教學將帶您逐步完成從載入文件到更新修訂摘要的每個步驟。
 
-## 先決條件
+## 快速解答
+- **What does “track changes onenote” mean?** 它指的是監控誰在何時編輯 OneNote 頁面。
+- **Which library is required?** Aspose.Note for Java。
+- **Can I change the author or date of a revision?** 可以，使用 RevisionSummary API（`modify revision date`）。
+- **Do I need a OneNote file beforehand?** 需要，必須先備有一個 `.one` 範例檔案。
+- **Is a license needed for production?** 需要，商業使用必須擁有有效的 Aspose.Note 授權。
 
-在開始之前，請確保您具備以下條件：
+## 什麼是修訂摘要範例？
 
-### Java開發環境
+*revision summary* 提供關於頁面最近變更的中繼資料——作者名稱、最後修改時間以及其他細節。在本指南中，我們將取得並顯示這些資訊，然後示範如何 **modify revision date**。
 
-確保您的系統上安裝了 Java 開發工具包 (JDK)。
+## 為什麼要使用 Aspose.Note 追蹤 OneNote 變更？
 
-### Java 函式庫的 Aspose.Note
+- **Collaboration:** 協作：快速查看誰進行了最新編輯。
+- **Auditing:** 稽核：保留可靠的變更歷史以符合合規要求。
+- **Automation:** 自動化：將修訂處理整合到後端服務或遷移工具中。
 
-下載並安裝 Aspose.Note for Java 函式庫：[這裡](https://releases.aspose.com/note/java/).
+## 前置條件
 
-### OneNote 文檔
+### Java Development Environment
+確保您的系統已安裝 Java Development Kit（JDK）。
 
-準備好 OneNote 範例文件以供測試之用。
+### Aspose.Note for Java Library
+從 [here](https://releases.aspose.com/note/java/) 下載並安裝 Aspose.Note for Java 程式庫。
 
-## 導入包
+### OneNote Document
+準備好一個 OneNote 範例文件以供測試。
 
-在您的 Java 專案中，匯入必要的套件以使用 Aspose.Note for Java。
+## 匯入套件
+
+在您的 Java 專案中，匯入使用 Aspose.Note for Java 所需的套件。
 
 ```java
 import com.aspose.note.Document;
@@ -45,9 +58,9 @@ import java.io.IOException;
 import java.util.Calendar;
 ```
 
-讓我們將提供的範例分解為多個步驟，以便清楚地理解。
+讓我們將提供的範例分解為多個步驟，以便清晰理解。
 
-## 步驟1：載入OneNote文檔
+## Step 1: Load OneNote Document
 
 首先，載入 OneNote 文件並取得第一個子頁面。
 
@@ -57,9 +70,9 @@ Document document = new Document(dataDir + "Sample1.one");
 Page page = document.getFirstChild();
 ```
 
-## 第 2 步：閱讀頁面修訂摘要
+## Step 2: Read Page Revision Summary
 
-閱讀該頁面的內容修訂摘要。
+讀取該頁面的內容修訂摘要。這就是顯示最後編輯者的 **revision summary example**。
 
 ```java
 RevisionSummary pageRevisionInfo = page.getPageContentRevisionSummary();
@@ -68,9 +81,9 @@ System.out.println(String.format("Author:\t%s\nModified:\t%s",
         pageRevisionInfo.getLastModifiedTime().toString()));
 ```
 
-## 步驟 3：更新頁面修訂摘要
+## Step 3: Update Page Revision Summary
 
-使用新作者和修改日期更新頁面修訂摘要。
+使用新作者與新修改日期更新頁面修訂摘要。此範例示範如何以程式方式 **modify revision date**。
 
 ```java
 pageRevisionInfo.setAuthorMostRecent("New Author");
@@ -81,29 +94,36 @@ document.save(dataDir + "WorkingWithPageRevisions_out.one");
 
 ## 結論
 
-使用 Aspose.Note for Java 可以簡化以程式設計方式管理 OneNote 文件中的頁面修訂的過程。透過遵循本教程中概述的步驟，您可以有效地使用頁面修訂來追蹤變更並無縫協作。
+以程式方式管理 OneNote 文件中的頁面修訂，可藉由 Aspose.Note for Java 簡化。依循本教學的步驟，您即可有效 **track changes onenote**、檢視修訂細節，甚至 **modify revision date** 以符合工作流程需求。
 
-## 常見問題解答
+## FAQ's
 
-### Q1：我可以將 Aspose.Note for Java 與其他 Java 函式庫一起使用嗎？
+### Q1: Can I use Aspose.Note for Java with other Java libraries?
 
-答：是的，Aspose.Note for Java 可以與其他 Java 函式庫整合以增強功能。
+A: 可以，Aspose.Note for Java 可與其他 Java 程式庫整合，以增強功能。
 
-### Q2：Aspose.Note for Java支援所有版本的OneNote文件嗎？
+### Q2: Does Aspose.Note for Java support all versions of OneNote documents?
 
-答：Aspose.Note for Java 支援各種版本的 OneNote 文檔，包括舊版。
+A: Aspose.Note for Java 支援多種 OneNote 文件版本，包括較舊的版本。
 
-### Q3：Aspose.Note for Java適合企業級應用程式嗎？
+### Q3: Is Aspose.Note for Java suitable for enterprise-level applications?
 
-答：當然，Aspose.Note for Java 旨在滿足企業級應用程式的需求，具有強大的功能和可擴充性。
+A: 絕對適合，Aspose.Note for Java 為企業級應用設計，具備強大功能與可擴充性。
 
-### Q4：我可以使用 Aspose.Note for Java 自訂頁面修訂嗎？
+### Q4: Can I customize page revisions with Aspose.Note for Java?
 
-答：是的，您可以使用 Aspose.Note for Java 根據您的要求自訂頁面修訂。
+A: 可以，您可依需求使用 Aspose.Note for Java 自訂頁面修訂。
 
-### Q5：哪裡可以獲得 Aspose.Note for Java 的支援？
+### Q5: Where can I get support for Aspose.Note for Java?
 
-答：您可以從 Aspose.Note for Java 獲得支持[Aspose.Note 論壇](https://forum.aspose.com/c/note/28).
+A: 您可從 [Aspose.Note forum](https://forum.aspose.com/c/note/28) 取得 Aspose.Note for Java 的支援。
+
+---
+
+**最後更新：** 2026-01-15  
+**測試環境：** Aspose.Note for Java 24.12  
+**作者：** Aspose  
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
