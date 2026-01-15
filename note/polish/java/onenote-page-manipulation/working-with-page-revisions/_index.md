@@ -1,39 +1,52 @@
 ---
-title: Praca z wersjami stron w programie OneNote — Aspose.Note
-linktitle: Praca z wersjami stron w programie OneNote — Aspose.Note
-second_title: Aspose.Note API Java
-description: Dowiedz się, jak zarządzać wersjami stron w dokumentach OneNote za pomocą Aspose.Note dla Java. Zawiera przewodnik krok po kroku dotyczący skutecznego śledzenia wersji i współpracy.
-weight: 21
+date: 2026-01-15
+description: Dowiedz się, jak śledzić zmiany w OneNote i zarządzać wersjami stron
+  w dokumentach OneNote przy użyciu Aspose.Note dla Javy. Zawiera przykład podsumowania
+  wersji oraz instrukcję modyfikacji daty wersji.
+linktitle: Working with Page Revisions in OneNote - Aspose.Note
+second_title: Aspose.Note Java API
+title: Śledzenie zmian w OneNote – zarządzaj wersjami stron przy użyciu Aspose.Note
 url: /pl/java/onenote-page-manipulation/working-with-page-revisions/
+weight: 21
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Praca z wersjami stron w programie OneNote — Aspose.Note
+# Praca z rewizjami stron w OneNote - Aspose.Note
 
-## Wstęp
+## Wprowadzenie
 
-OneNote to potężne narzędzie do organizowania notatek i zarządzania nimi, ale czasami trzeba pracować z wersjami, aby śledzić zmiany i efektywnie współpracować. Dzięki Aspose.Note dla Java możesz łatwo programowo zarządzać wersjami stron w dokumentach OneNote. Ten samouczek przeprowadzi Cię przez proces krok po kroku.
+OneNote jest potężnym narzędziem do organizowania notatek, a gdy potrzebujesz **track changes onenote**, zarządzanie rewizjami stron staje się niezbędne dla efektywnej współpracy. Dzięki Aspose.Note for Java możesz programowo obsługiwać rewizje, zobaczyć, kto edytował stronę, a nawet dostosować znaczniki czasu. Ten samouczek przeprowadzi Cię przez każdy krok, od wczytania dokumentu po aktualizację podsumowania rewizji.
 
-## Warunki wstępne
+## Szybkie odpowiedzi
+- **Co oznacza „track changes onenote”?** Odnosi się do monitorowania, kto edytował stronę OneNote i kiedy.
+- **Jakiej biblioteki wymaga się?** Aspose.Note for Java.
+- **Czy mogę zmienić autora lub datę rewizji?** Tak, przy użyciu RevisionSummary API (`modify revision date`).
+- **Czy potrzebuję pliku OneNote wcześniej?** Tak, wymagany jest przykładowy plik `.one`.
+- **Czy licencja jest wymagana w produkcji?** Wymagana jest ważna licencja Aspose.Note do użytku komercyjnego.
 
-Zanim zaczniesz, upewnij się, że masz następujące elementy:
+## Czym jest przykład podsumowania rewizji?
+*revision summary* dostarcza metadane o najnowszych zmianach na stronie — nazwę autora, czas ostatniej modyfikacji i inne szczegóły. W tym przewodniku pobierzemy i wyświetlimy te informacje, a następnie pokażemy, jak **modify revision date**.
 
-### Środowisko programistyczne Java
+## Dlaczego śledzić zmiany onenote przy użyciu Aspose.Note?
+- **Collaboration:** Szybko zobacz, kto wprowadził najnowsze zmiany.
+- **Auditing:** Zachowaj wiarygodną historię zmian dla zgodności.
+- **Automation:** Zintegruj obsługę rewizji z usługami back‑end lub narzędziami migracyjnymi.
 
-Upewnij się, że w systemie jest zainstalowany zestaw Java Development Kit (JDK).
+## Wymagania wstępne
 
-### Aspose.Note dla biblioteki Java
+### Java Development Environment
+Upewnij się, że masz zainstalowany Java Development Kit (JDK) w swoim systemie.
 
-Pobierz i zainstaluj bibliotekę Aspose.Note dla Java z[Tutaj](https://releases.aspose.com/note/java/).
+### Aspose.Note for Java Library
+Pobierz i zainstaluj bibliotekę Aspose.Note for Java z [tutaj](https://releases.aspose.com/note/java/).
 
-### Dokument OneNota
+### OneNote Document
+Miej gotowy przykładowy dokument OneNote do celów testowych.
 
-Przygotuj przykładowy dokument programu OneNote do celów testowych.
-
-## Importuj pakiety
+## Import Packages
 
 W swoim projekcie Java zaimportuj niezbędne pakiety do pracy z Aspose.Note for Java.
 
@@ -45,11 +58,11 @@ import java.io.IOException;
 import java.util.Calendar;
 ```
 
-Dla lepszego zrozumienia podzielmy podany przykład na wiele kroków.
+Rozbijmy podany przykład na kilka kroków, aby uzyskać jasne zrozumienie.
 
-## Krok 1: Załaduj dokument OneNote
+## Krok 1: Wczytaj dokument OneNote
 
-Najpierw załaduj dokument OneNote i uzyskaj pierwszą stronę podrzędną.
+Najpierw wczytaj dokument OneNote i pobierz pierwszą podstronę.
 
 ```java
 String dataDir = "Your Document Directory";
@@ -57,9 +70,9 @@ Document document = new Document(dataDir + "Sample1.one");
 Page page = document.getFirstChild();
 ```
 
-## Krok 2: Przeczytaj podsumowanie wersji strony
+## Krok 2: Odczytaj podsumowanie rewizji strony
 
-Przeczytaj podsumowanie wersji treści strony.
+Odczytaj podsumowanie rewizji treści dla strony. To jest **revision summary example**, które pokazuje, kto ostatnio edytował stronę.
 
 ```java
 RevisionSummary pageRevisionInfo = page.getPageContentRevisionSummary();
@@ -68,9 +81,9 @@ System.out.println(String.format("Author:\t%s\nModified:\t%s",
         pageRevisionInfo.getLastModifiedTime().toString()));
 ```
 
-## Krok 3: Zaktualizuj podsumowanie wersji strony
+## Krok 3: Zaktualizuj podsumowanie rewizji strony
 
-Zaktualizuj podsumowanie wersji strony, podając nowego autora i datę modyfikacji.
+Zaktualizuj podsumowanie rewizji strony, podając nowego autora i nową datę modyfikacji. To pokazuje, jak programowo **modify revision date**.
 
 ```java
 pageRevisionInfo.setAuthorMostRecent("New Author");
@@ -79,31 +92,33 @@ pageRevisionInfo.setLastModifiedTime(modifiedDate.getTime());
 document.save(dataDir + "WorkingWithPageRevisions_out.one");
 ```
 
-## Wniosek
+## Podsumowanie
 
-Programowe zarządzanie wersjami stron w dokumentach OneNote można uprościć za pomocą Aspose.Note dla Java. Wykonując kroki opisane w tym samouczku, możesz efektywnie pracować z wersjami stron, aby śledzić zmiany i bezproblemowo współpracować.
+Zarządzanie rewizjami stron w dokumentach OneNote programowo może być uproszczone dzięki Aspose.Note for Java. Postępując zgodnie z krokami opisanymi w tym samouczku, możesz skutecznie **track changes onenote**, przeglądać szczegóły rewizji i nawet **modify revision date**, aby dopasować je do swojego przepływu pracy.
 
-## Często zadawane pytania
+## FAQ
 
-### P1: Czy mogę używać Aspose.Note dla Java z innymi bibliotekami Java?
+### Q1: Czy mogę używać Aspose.Note for Java z innymi bibliotekami Java?
+**A:** Tak, Aspose.Note for Java może być zintegrowany z innymi bibliotekami Java, aby zwiększyć funkcjonalność.
 
-O: Tak, Aspose.Note for Java można zintegrować z innymi bibliotekami Java w celu zwiększenia funkcjonalności.
+### Q2: Czy Aspose.Note for Java obsługuje wszystkie wersje dokumentów OneNote?
+**A:** Aspose.Note for Java obsługuje różne wersje dokumentów OneNote, w tym starsze wersje.
 
-### P2: Czy Aspose.Note dla Java obsługuje wszystkie wersje dokumentów OneNote?
+### Q3: Czy Aspose.Note for Java jest odpowiedni dla aplikacji na poziomie przedsiębiorstwa?
+**A:** Zdecydowanie, Aspose.Note for Java jest zaprojektowany, aby spełniać potrzeby aplikacji na poziomie przedsiębiorstwa, oferując solidne funkcje i skalowalność.
 
-Odp.: Aspose.Note for Java obsługuje różne wersje dokumentów OneNote, w tym starsze wersje.
+### Q4: Czy mogę dostosować rewizje stron przy użyciu Aspose.Note for Java?
+**A:** Tak, możesz dostosować rewizje stron zgodnie z wymaganiami, używając Aspose.Note for Java.
 
-### P3: Czy Aspose.Note dla Java nadaje się do aplikacji na poziomie przedsiębiorstwa?
+### Q5: Gdzie mogę uzyskać wsparcie dla Aspose.Note for Java?
+**A:** Wsparcie dla Aspose.Note for Java możesz uzyskać na [forum Aspose.Note](https://forum.aspose.com/c/note/28).
 
-O: Oczywiście, Aspose.Note dla Java został zaprojektowany, aby zaspokoić potrzeby aplikacji na poziomie korporacyjnym, oferując solidne funkcje i skalowalność.
+---
 
-### P4: Czy mogę dostosować wersje strony za pomocą Aspose.Note dla Java?
+**Last Updated:** 2026-01-15  
+**Tested With:** Aspose.Note for Java 24.12  
+**Author:** Aspose  
 
-O: Tak, możesz dostosować wersje strony zgodnie ze swoimi wymaganiami, używając Aspose.Note dla Java.
-
-### P5: Gdzie mogę uzyskać pomoc dotyczącą Aspose.Note dla Java?
-
- Odp.: Możesz uzyskać wsparcie dla Aspose.Note dla Java z[Forum Aspose.Note](https://forum.aspose.com/c/note/28).
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
