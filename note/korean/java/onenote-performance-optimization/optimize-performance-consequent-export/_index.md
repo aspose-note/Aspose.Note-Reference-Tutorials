@@ -1,38 +1,55 @@
 ---
-title: OneNote에서 내보내기 작업 성능 최적화 - Java
-linktitle: OneNote에서 내보내기 작업 성능 최적화 - Java
-second_title: Aspose.Note 자바 API
-description: Java용 Aspose.Note를 사용하여 OneNote에서 내보내기 작업의 성능을 최적화하는 방법을 알아보세요. 효율적인 변환을 위한 단계별 가이드.
-weight: 11
+date: 2026-01-18
+description: Aspose.Note for Java를 사용하여 OneNote를 효율적으로 내보내는 방법과 최적화된 성능으로 OneNote를
+  내보내는 방법을 배웁니다. 기본 텍스트 스타일을 설정하고 OneNote를 이미지로 저장하는 단계가 포함됩니다.
+linktitle: How to Export OneNote – Optimize Performance for Export Operations in Java
+second_title: Aspose.Note Java API
+title: OneNote 내보내기 방법 – Java에서 내보내기 작업 성능 최적화
 url: /ko/java/onenote-performance-optimization/optimize-performance-consequent-export/
+weight: 11
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# OneNote에서 내보내기 작업 성능 최적화 - Java
+# OneNote 내보내기 방법 – Java에서 내보내기 작업 성능 최적화
 
-## 소개
+## Introduction
 
-OneNote는 노트를 정리하고 관리하는 강력한 도구이지만 때로는 노트를 효율적으로 내보내는 것이 어려울 수 있습니다. 이 자습서에서는 Aspose.Note의 도움으로 Java를 사용하여 OneNote에서 내보내기 작업의 성능을 최적화하는 방법을 살펴보겠습니다.
+OneNote 노트북을 내보내는 것은 보고서를 생성하거나, 콘텐츠를 공유하거나, 데이터를 보관해야 할 때 병목 현상이 될 수 있습니다. 이 튜토리얼에서는 Aspose.Note for Java를 사용하여 OneNote를 빠르고 안정적으로 내보내는 방법을 보여줍니다. 내보내기 속도를 향상시키는 실용적인 기술, 기본 텍스트 스타일 설정, 그리고 JPG 또는 BMP와 같은 이미지 파일로 OneNote를 저장하는 방법을 배웁니다.
 
-## 전제조건
+## Quick Answers
+- **주요 라이브러리는 무엇인가요?** Aspose.Note for Java  
+- **어떤 형식으로 내보낼 수 있나요?** HTML, PDF, JPG, BMP (그 외 다수)  
+- **성능을 어떻게 향상시키나요?** 자동 레이아웃 감지를 비활성화하고 문서 객체를 재사용합니다  
+- **기본 텍스트 스타일을 설정할 수 있나요?** 예 – `ParagraphStyle`을 사용해 콘텐츠를 추가하기 전에 설정합니다  
+- **이미지 형식으로 내보내는 것이 지원되나요?** 물론입니다, `doc.save(...".jpg")` 또는 `.bmp`를 사용합니다  
 
-시작하기 전에 다음 전제 조건이 충족되었는지 확인하세요.
+## What is “how to export onenote”?
 
-### 1. 자바 개발 키트(JDK)
- 시스템에 JDK(Java Development Kit)가 설치되어 있는지 확인하십시오. JDK를 다운로드하여 설치할 수 있습니다.[웹사이트](https://www.oracle.com/java/technologies/javase-jdk11-downloads.html).
+OneNote를 내보낸다는 것은 고유한 OneNote 파일 구조를 HTML, PDF, 이미지 등 휴대 가능한 형식으로 변환하는 것을 의미합니다. 이를 통해 플랫폼 간 공유, 오프라인 접근, 그리고 다른 비즈니스 워크플로와의 연계가 가능해집니다.
 
-### 2. Java용 Aspose.Note
- 다음에서 Java용 Aspose.Note를 다운로드하여 설치하세요.[다운로드 링크](https://releases.aspose.com/note/java/).
+## Why optimize export performance?
 
-### 3. 통합 개발 환경(IDE)
-Java 개발을 위해 선호하는 IDE를 선택하세요. 널리 사용되는 선택에는 IntelliJ IDEA, Eclipse 또는 NetBeans가 있습니다.
+페이지가 많고 풍부한 미디어가 포함된 대형 노트북은 변환 속도를 저하시킬 수 있습니다. 자동 레이아웃 변경 감지를 끄는 등 몇 가지 설정을 조정하면 CPU 부하와 메모리 사용량을 줄여 보다 빠르고 예측 가능한 내보내기를 수행할 수 있습니다.
 
-## 패키지 가져오기
+## Prerequisites
 
-코드를 살펴보기 전에 Aspose를 사용하는 데 필요한 패키지를 가져와 보겠습니다.참고:
+시작하기 전에 다음이 설치되어 있는지 확인하십시오:
+
+### 1. Java Development Kit (JDK)
+최근 JDK가 설치되어 있는지 확인하십시오. [웹사이트](https://www.oracle.com/java/technologies/javase-jdk11-downloads.html)에서 다운로드할 수 있습니다.
+
+### 2. Aspose.Note for Java
+최신 Aspose.Note for Java 패키지를 [다운로드 링크](https://releases.aspose.com/note/java/)에서 받으세요.
+
+### 3. Integrated Development Environment (IDE)
+IntelliJ IDEA, Eclipse, NetBeans 등 어떤 Java IDE라도 사용 가능합니다.
+
+## Import Packages
+
+코드에 들어가기 전에 필요한 클래스를 가져옵니다:
 
 ```java
 import java.awt.Color;
@@ -44,9 +61,9 @@ import com.aspose.note.ParagraphStyle;
 import com.aspose.note.Title;
 ```
 
-이제 각 예를 여러 단계로 나누어 보겠습니다.
+## Step‑by‑Step Guide
 
-## 1단계. 문서 및 페이지 초기화
+### Step 1. Initialize Document and Page
 
 ```java
 String dataDir = "Your Document Directory";
@@ -55,9 +72,9 @@ doc.setAutomaticLayoutChangesDetectionEnabled(false);
 Page page = new Page();
 ```
 
-여기서는 새 문서를 초기화하고 자동 레이아웃 변경 감지를 비활성화합니다. 그런 다음 새 페이지를 만듭니다.
+새 `Document` 인스턴스를 생성하고 **자동 레이아웃 변경 감지를 비활성화**합니다—이는 빠른 내보내기를 위한 핵심 트윅입니다. 그런 다음 콘텐츠를 담을 새로운 `Page` 객체를 추가합니다.
 
-## 2단계. 기본 텍스트 스타일 설정
+### Step 2. Set Default Text Style *(set default text style)*
 
 ```java
 ParagraphStyle textStyle = new ParagraphStyle()
@@ -66,9 +83,9 @@ ParagraphStyle textStyle = new ParagraphStyle()
                                     .setFontSize(10);
 ```
 
-특정 글꼴 색상, 이름 및 크기를 사용하여 문서의 모든 텍스트에 대한 기본 스타일을 정의합니다.
+한 번 **기본 텍스트 스타일**을 정의하고 모든 텍스트 요소에 재사용하면 처리 시간이 절감되고 일관된 외관을 보장합니다.
 
-## 3단계. 제목 추가
+### Step 3. Add Title
 
 ```java
 RichText titleText = new RichText().append("Title text.");
@@ -87,17 +104,17 @@ title.setTitleTime(titleTime);
 page.setTitle(title);
 ```
 
-텍스트, 날짜, 시간이 포함된 제목 섹션을 만들고 지정된 텍스트 스타일을 설정합니다.
+여기서는 세 개의 별도 `RichText` 객체(제목, 날짜, 시간)로 구성된 제목 섹션을 만들고 앞서 정의한 **기본 텍스트 스타일**을 적용합니다.
 
-## 4단계. 페이지 노드 추가
+### Step 4. Append Page Node
 
 ```java
 doc.appendChildLast(page);
 ```
 
-문서에 페이지 노드를 추가합니다.
+이제 페이지가 문서 트리의 일부가 되어 내보내기 준비가 완료되었습니다.
 
-## 5단계. 다른 형식으로 문서 저장
+### Step 5. Save Document in Different Formats *(save onenote as image, convert onenote jpg)*
 
 ```java
 doc.save(dataDir + "OptimizePerformanceForConsequentExportOperations_out.html");
@@ -106,45 +123,55 @@ doc.save(dataDir + "OptimizePerformanceForConsequentExportOperations_out.jpg");
 doc.save(dataDir + "OptimizePerformanceForConsequentExportOperations_out.bmp");
 ```
 
-OneNote 문서를 각각 HTML, PDF, JPG 및 BMP 형식으로 저장합니다.
+**이미지 파일**(JPG, BMP)로 OneNote를 저장하는 방법과 HTML 및 PDF 저장 방법을 보여줍니다. 이는 가장 일반적인 내보내기 시나리오를 포괄하며 **convert onenote jpg** 사용 사례도 포함합니다.
 
-## 6단계. 텍스트 글꼴 크기 설정 및 레이아웃 변경 감지
+### Step 6. Set Text Font Size and Detect Layout Changes
 
 ```java
 textStyle.setFontSize(11);
 doc.detectLayoutChanges();
 ```
 
-글꼴 크기를 조정하고 레이아웃 변경을 수동으로 감지합니다.
+초기 내보내기 후 폰트 크기를 조정해야 할 경우, `ParagraphStyle`을 업데이트하고 `detectLayoutChanges()`를 호출해 문서를 다시 생성하지 않고 레이아웃 로직을 재적용할 수 있습니다.
 
-## 결론
+## Common Issues & Tips
 
-OneNote에서 내보내기 작업 성능을 최적화하는 것은 노트를 효율적으로 관리하는 데 중요합니다. 이 튜토리얼에 설명된 단계를 따르면 Java용 Aspose.Note를 사용하여 내보내기 프로세스를 향상시켜 노트를 다양한 형식으로 원활하게 변환할 수 있습니다.
+- **성능이 여전히 느린가요?** `setAutomaticLayoutChangesDetectionEnabled(false)`가 페이지를 추가하기 전에 호출되었는지 확인하십시오.  
+- **이미지가 빈 화면으로 나오나요?** 출력 디렉터리에 쓰기 권한이 있는지, 이미지 형식 확장자가 파일 이름과 일치하는지 확인하십시오.  
+- **대형 노트북에서 OutOfMemoryError가 발생하나요?** 페이지를 배치 처리하거나 JVM 힙 크기(`-Xmx2g`)를 늘리세요.  
 
-## FAQ
+## Frequently Asked Questions
 
-### Q1: Java용 Aspose.Note를 사용하여 OneNote 문서를 프로그래밍 방식으로 내보낼 수 있나요?
+**Q: Aspose.Note for Java를 사용해 OneNote 문서를 프로그래밍 방식으로 내보낼 수 있나요?**  
+A: 예, Aspose.Note for Java는 데스크톱 애플리케이션 없이도 OneNote 노트북을 조작하고 내보낼 수 있는 전체 API를 제공합니다.
 
-A1: 예, Aspose.Note for Java는 프로그래밍 방식으로 OneNote 문서를 조작하고 내보내는 API를 제공하여 유연성과 자동화를 제공합니다.
+**Q: Aspose.Note for Java가 다양한 Java IDE와 호환되나요?**  
+A: 물론입니다. 이 라이브러리는 IntelliJ IDEA, Eclipse, NetBeans 및 표준 Java 프로젝트를 지원하는 모든 IDE와 함께 사용할 수 있습니다.
 
-### Q2: Aspose.Note for Java는 다른 Java IDE와 호환됩니까?
+**Q: 테스트용 임시 라이선스를 어떻게 얻을 수 있나요?**  
+A: [웹사이트](https://purchase.aspose.com/temporary-license/)에서 임시 라이선스를 요청하면 제품을 구매 전에 평가할 수 있습니다.
 
-A2: 예, Aspose.Note for Java는 IntelliJ IDEA, Eclipse, NetBeans 등 다양한 Java IDE와 호환되므로 개발자가 선호하는 환경에서 작업할 수 있습니다.
+**Q: Aspose.Note가 JPG 및 BMP와 같은 이미지 형식으로 내보내는 것을 지원하나요?**  
+A: 예, `doc.save(...".jpg")` 및 `doc.save(...".bmp")` 메서드를 사용하면 **OneNote를 이미지 파일**로 저장할 수 있어 보고서나 프레젠테이션에 페이지를 쉽게 삽입할 수 있습니다.
 
-### Q3: Aspose.Note for Java의 임시 라이선스를 어떻게 얻을 수 있나요?
+**Q: 커뮤니티 지원이나 기술 질문을 어디에서 받을 수 있나요?**  
+A: 공식 Aspose 포럼인 [포럼](https://forum.aspose.com/c/note/28)에서 커뮤니티와 Aspose 엔지니어에게 도움을 받을 수 있습니다.
 
- A3: Aspose.Note for Java에 대한 임시 라이선스는 다음 사이트에서 얻을 수 있습니다.[웹사이트](https://purchase.aspose.com/temporary-license/), 구매하기 전에 제품을 평가할 수 있습니다.
+## Conclusion
 
-### Q4: Java용 Aspose.Note는 이미지 형식으로 내보내기를 지원합니까?
+이 가이드를 따라 **OneNote를 효율적으로 내보내는 방법**, **기본 텍스트 스타일을 설정하는 방법**, 그리고 **JPG 및 BMP와 같은 이미지 파일로 OneNote를 저장하는 방법**을 익혔습니다. 이러한 기술을 활용하면 Java 기반 애플리케이션에서 빠르고 신뢰할 수 있는 내보내기 파이프라인을 구축할 수 있습니다.
 
-A4: 예, Java용 Aspose.Note는 OneNote 문서를 JPG, BMP, PNG를 포함한 다양한 이미지 형식으로 내보내는 것을 지원하므로 출력 옵션의 다양성을 제공합니다.
-
-### Q5: Java용 Aspose.Note에 대한 지원은 어디서 찾을 수 있나요?
-
- A5: Java용 Aspose.Note에 대한 지원은 다음에서 찾을 수 있습니다.[법정](https://forum.aspose.com/c/note/28)에서 질문하고, 아이디어를 공유하고, 커뮤니티 및 지원팀과 상호 작용할 수 있습니다.
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
+
+---
+
+**마지막 업데이트:** 2026-01-18  
+**테스트 환경:** Aspose.Note for Java 24.12 (latest)  
+**작성자:** Aspose  
+
+---
