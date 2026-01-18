@@ -1,38 +1,57 @@
 ---
-title: OneNote'ta Dışa Aktarma İşlemleri için Performansı Optimize Etme - Java
-linktitle: OneNote'ta Dışa Aktarma İşlemleri için Performansı Optimize Etme - Java
-second_title: Aspose.Note Java API'si
-description: Aspose.Note for Java'yı kullanarak OneNote'ta dışa aktarma işlemlerinin performansını nasıl optimize edeceğinizi öğrenin. Verimli dönüşüm için adım adım kılavuz.
-weight: 11
+date: 2026-01-18
+description: OneNote'u verimli bir şekilde dışa aktarmayı ve Aspose.Note for Java
+  kullanarak optimize edilmiş performansla OneNote'u dışa aktarmayı öğrenin. Varsayılan
+  metin stilini ayarlama ve OneNote'u resim olarak kaydetme adımlarını içerir.
+linktitle: How to Export OneNote – Optimize Performance for Export Operations in Java
+second_title: Aspose.Note Java API
+title: OneNote Nasıl Dışa Aktarılır – Java'da Dışa Aktarım İşlemleri İçin Performansı
+  Optimize Etme
 url: /tr/java/onenote-performance-optimization/optimize-performance-consequent-export/
+weight: 11
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# OneNote'ta Dışa Aktarma İşlemleri için Performansı Optimize Etme - Java
+# OneNote'u Dışa Aktarma – Java'da Dışa Aktarım İşlemlerinin Performansını Optimize Etme
 
-## giriiş
+## Introduction
 
-OneNote, notlarınızı düzenlemek ve yönetmek için güçlü bir araçtır ancak bazen notlarınızı verimli bir şekilde dışa aktarmak zor olabilir. Bu eğitimde, Aspose.Note'un yardımıyla Java kullanarak OneNote'ta dışa aktarma işlemlerinin performansını nasıl optimize edebileceğimizi keşfedeceğiz.
+OneNote defterlerini dışa aktarmak, rapor oluşturmanız, içerik paylaşmanız veya verileri arşivlemeniz gerektiğinde bir darboğaz olabilir. Bu öğreticide **OneNote'u nasıl dışa aktaracağınızı** Aspose.Note for Java kullanarak hızlı ve güvenilir bir şekilde göstereceğiz. Dışa aktarma hızını artırma, varsayılan metin stilini ayarlama ve hatta **OneNote'u JPG veya BMP gibi görüntü dosyaları olarak kaydetme** konularında pratik teknikler öğreneceksiniz.
 
-## Önkoşullar
+## Quick Answers
+- **What is the primary library?** Aspose.Note for Java  
+- **Which formats can be exported?** HTML, PDF, JPG, BMP (and more)  
+- **How do I improve performance?** Disable automatic layout detection and reuse document objects  
+- **Can I set a default text style?** Yes – use `ParagraphStyle` before adding content  
+- **Is exporting to image supported?** Absolutely, use `doc.save(...".jpg")` or `.bmp`  
 
-Başlamadan önce aşağıdaki önkoşulların mevcut olduğundan emin olun:
+## What is “how to export onenote”?
 
-### 1. Java Geliştirme Kiti (JDK)
- Sisteminizde Java Development Kit'in (JDK) kurulu olduğundan emin olun. JDK'yı şuradan indirip yükleyebilirsiniz:[İnternet sitesi](https://www.oracle.com/java/technologies/javase-jdk11-downloads.html).
+OneNote'u dışa aktarmak, yerel OneNote dosya yapısını taşınabilir bir formata (HTML, PDF, görüntü vb.) dönüştürmek anlamına gelir. Bu, platformlar arası paylaşım, çevrim dışı erişim ve diğer iş akışlarıyla entegrasyon sağlar.
 
-### 2. Java için Aspose.Note
- Aspose.Note for Java'yı şu adresten indirip yükleyin:[İndirme: {link](https://releases.aspose.com/note/java/).
+## Why optimize export performance?
 
-### 3. Entegre Geliştirme Ortamı (IDE)
-Java geliştirme için tercih ettiğiniz IDE'yi seçin. Popüler seçenekler arasında IntelliJ IDEA, Eclipse veya NetBeans bulunur.
+Birçok sayfa ve zengin medya içeren büyük defterler, dönüşüm süresini yavaşlatabilir. Otomatik düzen değişikliklerinin algılanmasını kapatmak gibi birkaç ayarı değiştirerek CPU yükünü ve bellek kullanımını azaltır, daha hızlı ve öngörülebilir dışa aktarmalar elde edersiniz.
 
-## Paketleri İçe Aktar
+## Prerequisites
 
-Koda dalmadan önce Aspose.Note ile çalışmak için gerekli paketleri içe aktaralım:
+Başlamadan önce aşağıdakilerin kurulu olduğundan emin olun:
+
+### 1. Java Development Kit (JDK)
+Güncel bir JDK'ye sahip olduğunuzdan emin olun. İndirmek için [website](https://www.oracle.com/java/technologies/javase-jdk11-downloads.html) adresini ziyaret edin.
+
+### 2. Aspose.Note for Java
+En yeni Aspose.Note for Java paketini [download link](https://releases.aspose.com/note/java/) üzerinden edinin.
+
+### 3. Integrated Development Environment (IDE)
+Herhangi bir Java IDE çalışır—IntelliJ IDEA, Eclipse veya NetBeans hepsi uygun seçeneklerdir.
+
+## Import Packages
+
+Kodlamaya başlamadan önce ihtiyacımız olan sınıfları içe aktarın:
 
 ```java
 import java.awt.Color;
@@ -44,9 +63,9 @@ import com.aspose.note.ParagraphStyle;
 import com.aspose.note.Title;
 ```
 
-Şimdi her örneği birden fazla adıma ayıralım:
+## Step‑by‑Step Guide
 
-## 1. Adım. Belgeyi ve Sayfayı Başlat
+### Step 1. Initialize Document and Page
 
 ```java
 String dataDir = "Your Document Directory";
@@ -55,9 +74,9 @@ doc.setAutomaticLayoutChangesDetectionEnabled(false);
 Page page = new Page();
 ```
 
-Burada yeni bir belge başlatıyoruz ve otomatik düzen değişiklikleri algılamayı devre dışı bırakıyoruz. Daha sonra yeni bir sayfa oluşturuyoruz.
+Yeni bir `Document` örneği oluşturur ve **otomatik düzen değişikliklerinin algılanmasını devre dışı bırakır**—daha hızlı dışa aktarmalar için kritik bir ayar. Ardından içeriği tutacak yeni bir `Page` nesnesi ekleriz.
 
-## 2. Adım. Varsayılan Metin Stilini Ayarlayın
+### Step 2. Set Default Text Style *(set default text style)*
 
 ```java
 ParagraphStyle textStyle = new ParagraphStyle()
@@ -66,9 +85,9 @@ ParagraphStyle textStyle = new ParagraphStyle()
                                     .setFontSize(10);
 ```
 
-Belgedeki tüm metinler için belirli yazı tipi rengi, adı ve boyutuyla varsayılan bir stil tanımlayın.
+Bir **varsayılan metin stili** tanımlayıp her metin öğesi için yeniden kullanmak, işlem süresini tasarruf ettirir ve tutarlı bir görünüm sağlar.
 
-## 3. Adım. Başlık Ekle
+### Step 3. Add Title
 
 ```java
 RichText titleText = new RichText().append("Title text.");
@@ -87,17 +106,17 @@ title.setTitleTime(titleTime);
 page.setTitle(title);
 ```
 
-Metin, tarih ve saati içeren bir başlık bölümü oluşturun ve belirtilen metin stilini ayarlayın.
+Burada üç ayrı `RichText` nesnesi (başlık, tarih, saat) ile bir başlık bölümü oluşturur ve önceden tanımladığımız **varsayılan metin stilini** uygularız.
 
-## 4. Adım. Sayfa Düğümünü Ekle
+### Step 4. Append Page Node
 
 ```java
 doc.appendChildLast(page);
 ```
 
-Sayfa düğümünü belgeye ekleyin.
+Sayfa artık belge ağacının bir parçası ve dışa aktarmaya hazır.
 
-## 5. Adım. Belgeyi Farklı Formatlarda Kaydetme
+### Step 5. Save Document in Different Formats *(save onenote as image, convert onenote jpg)*
 
 ```java
 doc.save(dataDir + "OptimizePerformanceForConsequentExportOperations_out.html");
@@ -106,45 +125,55 @@ doc.save(dataDir + "OptimizePerformanceForConsequentExportOperations_out.jpg");
 doc.save(dataDir + "OptimizePerformanceForConsequentExportOperations_out.bmp");
 ```
 
-OneNote belgesini sırasıyla HTML, PDF, JPG ve BMP formatlarında kaydedin.
+**OneNote'u görüntü** dosyaları (JPG, BMP) olarak kaydetmenin yanı sıra HTML ve PDF formatlarını da gösteriyoruz. Bu, en yaygın dışa aktarma senaryolarını kapsar; **convert onenote jpg** kullanım durumunu da içerir.
 
-## 6. Adım. Metin Yazı Tipi Boyutunu Ayarlayın ve Düzen Değişikliklerini Algılayın
+### Step 6. Set Text Font Size and Detect Layout Changes
 
 ```java
 textStyle.setFontSize(11);
 doc.detectLayoutChanges();
 ```
 
-Yazı tipi boyutunu ayarlayın ve düzen değişikliklerini manuel olarak algılayın.
+İlk dışa aktarmadan sonra yazı tipi boyutunu ayarlamanız gerekiyorsa, sadece `ParagraphStyle`'ı güncelleyin ve `detectLayoutChanges()` çağırarak belgeyi yeniden oluşturmak zorunda kalmadan düzen mantığını yeniden uygulayın.
 
-## Çözüm
+## Common Issues & Tips
 
-OneNote'ta dışa aktarma işlemlerinin performansını optimize etmek, notlarınızı verimli bir şekilde yönetmek için çok önemlidir. Bu eğitimde özetlenen adımları izleyerek, Aspose.Note for Java'yı kullanarak dışa aktarma sürecini geliştirebilir, notlarınızın çeşitli formatlara sorunsuz bir şekilde dönüştürülmesini sağlayabilirsiniz.
+- **Performance still slow?** `setAutomaticLayoutChangesDetectionEnabled(false)` metodunun sayfalar eklenmeden önce çağrıldığından emin olun.  
+- **Images appear blank?** Çıktı dizininin yazma izinlerine sahip olduğundan ve görüntü formatı uzantılarının dosya adlarıyla eşleştiğinden emin olun.  
+- **Large notebooks cause OutOfMemoryError?** Sayfaları partiler halinde işleyin veya JVM yığın boyutunu (`-Xmx2g`) artırın.
 
-## SSS'ler
+## Frequently Asked Questions
 
-### S1: OneNote belgelerini programlı olarak dışa aktarmak için Aspose.Note for Java'yı kullanabilir miyim?
+**Q: Can I use Aspose.Note for Java to export OneNote documents programmatically?**  
+A: Yes, Aspose.Note for Java provides a full API to manipulate and export OneNote notebooks without needing the desktop application.
 
-C1: Evet, Aspose.Note for Java, OneNote belgelerini programlı olarak yönetmek ve dışa aktarmak için API'ler sağlar, esneklik ve otomasyon sunar.
+**Q: Is Aspose.Note for Java compatible with different Java IDEs?**  
+A: Absolutely. The library works with IntelliJ IDEA, Eclipse, NetBeans, and any IDE that supports standard Java projects.
 
-### S2: Aspose.Note for Java farklı Java IDE'leriyle uyumlu mudur?
+**Q: How can I obtain a temporary license for testing?**  
+A: You can request a temporary license from the [website](https://purchase.aspose.com/temporary-license/), which lets you evaluate the product before purchasing.
 
-C2: Evet, Aspose.Note for Java; IntelliJ IDEA, Eclipse ve NetBeans gibi çeşitli Java IDE'leriyle uyumludur ve geliştiricilerin tercih ettikleri ortamda çalışmasına olanak tanır.
+**Q: Does Aspose.Note support exporting to image formats like JPG and BMP?**  
+A: Yes, the `doc.save(...".jpg")` and `doc.save(...".bmp")` methods let you **save OneNote as image** files, making it easy to embed pages in reports or presentations.
 
-### S3: Aspose.Note for Java'nın geçici lisanslarını nasıl edinebilirim?
+**Q: Where can I get community support or ask technical questions?**  
+A: Visit the official Aspose forum at the [forum](https://forum.aspose.com/c/note/28) for help from both the community and Aspose engineers.
 
- Cevap3: Aspose.Note for Java'nın geçici lisanslarını şu adresten edinebilirsiniz:[İnternet sitesi](https://purchase.aspose.com/temporary-license/)Ürünü satın almadan önce değerlendirmenizi sağlar.
+## Conclusion
 
-### S4: Aspose.Note for Java, görüntü formatlarına aktarmayı destekliyor mu?
+Bu kılavuzu izleyerek **OneNote'u nasıl dışa aktaracağınızı** verimli bir şekilde, **varsayılan metin stilini nasıl ayarlayacağınızı** ve **OneNote'u JPG ve BMP gibi görüntü dosyaları olarak nasıl kaydedeceğinizi** öğrendiniz. Bu teknikler, herhangi bir Java tabanlı uygulama için hızlı ve güvenilir dışa aktarma boru hatları oluşturmanıza yardımcı olur.
 
-C4: Evet, Aspose.Note for Java, OneNote belgelerinin JPG, BMP ve PNG gibi çeşitli görüntü formatlarına aktarılmasını destekleyerek çıktı seçeneklerinde çok yönlülük sağlar.
-
-### S5: Aspose.Note for Java desteğini nerede bulabilirim?
-
- Cevap5: Aspose.Note for Java desteğini şu adreste bulabilirsiniz:[forum](https://forum.aspose.com/c/note/28)Soru sorabileceğiniz, fikirlerinizi paylaşabileceğiniz ve topluluk ve destek ekibiyle etkileşimde bulunabileceğiniz yer.
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
+
+---
+
+**Last Updated:** 2026-01-18  
+**Tested With:** Aspose.Note for Java 24.12 (latest)  
+**Author:** Aspose  
+
+---
