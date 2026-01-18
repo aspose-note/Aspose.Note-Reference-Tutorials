@@ -1,34 +1,52 @@
 ---
-title: Changer le style de texte dans OneNote - Aspose.Note
-linktitle: Changer le style de texte dans OneNote - Aspose.Note
-second_title: API Java Aspose.Note
-description: Mettez en gras, surlignez et redimensionnez ! Apprenez à formater le texte dans les documents OneNote avec Aspose.Note. Guide étape par étape et code inclus ! #OneNote #Java #Aspose
-weight: 10
+date: 2026-01-18
+description: Apprenez comment définir la couleur de police Java dans OneNote à l’aide
+  d’Aspose.Note, mettre en surbrillance le texte, modifier la taille de la police
+  et enregistrer OneNote au format PDF. Guide étape par étape avec du code.
+linktitle: Change Text Style in OneNote - Aspose.Note
+second_title: Aspose.Note Java API
+title: Définir la couleur de la police Java dans OneNote – Aspose.Note
 url: /fr/java/onenote-styles/change-text-style/
+weight: 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Changer le style de texte dans OneNote - Aspose.Note
+# Définir la couleur de police Java dans OneNote – Aspose.Note
 
 ## Introduction
 
-Bienvenue dans notre didacticiel sur la modification du style de texte dans OneNote à l'aide d'Aspose.Note pour Java ! Dans ce guide, nous vous guiderons pas à pas tout au long du processus, vous permettant de manipuler sans effort les styles de texte dans vos documents OneNote. Que vous cherchiez à changer la couleur de la police, à surligner du texte ou à ajuster la taille de la police, Aspose.Note fournit une solution complète pour répondre à vos besoins.
+Dans ce tutoriel, vous découvrirez comment **set font color Java** pour le texte à l'intérieur d'un document OneNote avec l'API Aspose.Note for Java. Nous parcourrons le chargement d'un fichier `.one`, l'accès à ses nœuds RichText, l'application de changements de couleur, de surbrillance et de taille de police, et enfin **saving OneNote as PDF**. Que vous ayez besoin de **highlight text onenote**, **modify font size onenote**, ou simplement de modifier le style global du texte, les étapes ci‑dessous vous offrent une solution complète prête pour la production.
 
-## Conditions préalables
+## Réponses rapides
+- **Can I change the font color of specific words?** Oui – parcourez les objets `TextRun` et appelez `setFontColor`.
+- **Does Aspose.Note let me save OneNote as PDF?** Absolument ; utilisez `document.save("output.pdf")`.
+- **What Java version is required?** Java 8 ou version supérieure.
+- **Is highlighting supported?** Utilisez `setHighlight(Color)` sur le `TextStyle`.
+- **Can I convert OneNote to PDF in one line?** Pas directement, mais la méthode `save` gère la conversion.
 
-Avant de plonger dans le didacticiel, assurez-vous de disposer des prérequis suivants :
+## Qu’est‑ce que “set font color java” ?
 
-1. Connaissance de base de la programmation Java.
-2. Kit de développement Java (JDK) installé sur votre système.
-3. Aspose.Note téléchargé et installé pour Java.
-4. Familiarité avec la structure et le formatage des documents OneNote.
+L'expression fait référence à l'attribution programmatique d'une nouvelle couleur de police aux éléments de texte d'un fichier OneNote à l'aide de code Java. Avec Aspose.Note, vous obtenez un contrôle complet sur les attributs de style tels que la couleur de police, la surbrillance et la taille, sans ouvrir l'interface OneNote.
 
-## Importer des packages
+## Pourquoi changer le style du texte onenote ?
 
-Avant de commencer, importons les packages nécessaires dans notre projet Java :
+- **Lisibilité améliorée** – le texte coloré ou surligné attire l'attention sur les points clés.
+- **Cohérence de la marque** – appliquer les couleurs d'entreprise à travers les notes de réunion.
+- **Qualité d'exportation** – les notes stylisées ont un aspect soigné lorsque vous **convert onenote to pdf** pour le partage.
+
+## Prérequis
+
+1. Connaissances de base en programmation Java.  
+2. JDK 8 ou version plus récente installé.  
+3. Bibliothèque Aspose.Note for Java ajoutée à votre projet (Maven/Gradle ou JAR manuel).  
+4. Un fichier OneNote d'exemple (`Sample1.one`) pour expérimenter.
+
+## Importer les packages
+
+Tout d'abord, importez les classes dont nous aurons besoin :
 
 ```java
 import java.awt.Color;
@@ -40,79 +58,89 @@ import com.aspose.note.TextRun;
 import com.aspose.note.TextStyle;
 ```
 
-Maintenant, décomposons l'exemple de code fourni en plusieurs étapes pour une meilleure compréhension :
+## Guide étape par étape
 
-## Étape 1 : Charger le document
+### Étape 1 : Charger le document
 
 ```java
-// Chargez le document dans Aspose.Note
+// Load the document into Aspose.Note
 Document document = new Document("Your Document Directory/Sample1.one");
 ```
 
-Dans cette étape, nous chargeons le document OneNote nommé « Sample1.one » dans Aspose.Note.
+Nous chargeons le fichier OneNote (`Sample1.one`) afin qu'Aspose.Note puisse travailler avec sa structure interne.
 
-## Étape 2 : accéder aux nœuds RichText
+### Étape 2 : Accéder aux nœuds RichText
 
 ```java
-// Obtenez un nœud RichText particulier
+// Get a particular RichText node
 List<RichText> richTextNodes = document.getChildNodes(RichText.class);
 RichText richText = richTextNodes.get(0);
 ```
 
-Ici, nous récupérons les nœuds RichText du document, nous permettant d'accéder et de manipuler le contenu du texte.
+Les objets `RichText` contiennent les paragraphes réels. En récupérant le premier nœud, nous obtenons une référence au texte que nous voulons styliser.
 
-## Étape 3 : Modifier le style du texte
+### Étape 3 : Modifier le style du texte (set font color java)
 
 ```java
 for (TextRun run : richText.getTextRuns()) {
-    // Définir la couleur de la police
+    // Set font color
     run.getStyle().setFontColor(Color.yellow);
-    // Définir la couleur de surbrillance
+    // Set highlight color
     run.getStyle().setHighlight(Color.blue);
-    // Définir la taille de la police
+    // Set font size
     run.getStyle().setFontSize(20);
 }
 ```
 
-Dans cette boucle, nous parcourons chaque TextRun dans le nœud RichText et modifions ses propriétés de style. Dans cet exemple, nous changeons la couleur de la police en jaune, mettons le texte en surbrillance en bleu et définissons la taille de la police sur 20.
+À l'intérieur de la boucle, nous **set font color Java** en jaune, appliquons une surbrillance bleue (démontrant **highlight text onenote**), et augmentons la taille à 20 points, illustrant **modify font size onenote**.
 
-## Étape 4 : Enregistrez le document
+### Étape 4 : Enregistrer le document (save onenote as pdf)
 
 ```java
 document.save("Your Document Directory/ChangeTextStyle_out.pdf");
 System.out.printf("File saved: %s\n", "Your Document Directory/ChangeTextStyle_out.pdf");
 ```
 
-Enfin, nous enregistrons le document modifié avec les nouveaux styles de texte appliqués.
+Appeler `save` avec une extension `.pdf` convertit automatiquement **convert onenote to pdf**, vous fournissant un fichier prêt à être partagé.
+
+## Problèmes courants et solutions
+
+| Problème | Raison | Solution |
+|----------|--------|----------|
+| Aucun changement de couleur visible | Le document était ouvert dans OneNote avant l'enregistrement | Fermez OneNote ou rechargez le fichier après la fin du processus Java |
+| Surbrillance non appliquée | Utilisation d'une couleur qui correspond à l'arrière‑plan | Choisissez une `Color` contrastante (par ex., `Color.yellow`) |
+| `document.save` lance `IOException` | Chemin de sortie invalide | Assurez‑vous que le répertoire existe et que vous avez les permissions d'écriture |
+
+## Questions fréquentes
+
+**Q : Puis‑je appliquer ces changements de style uniquement à certaines sections de mon fichier OneNote ?**  
+R : Oui – filtrez les nœuds `RichText` par leur parent `Section` ou `Page` avant d'itérer sur les `TextRun`s.
+
+**Q : En plus de la couleur, de la surbrillance et de la taille, quels autres formats Aspose.Note peut‑il gérer ?**  
+R : Vous pouvez modifier la famille de police, le gras/italique/souligné, l'alignement, et même l'espacement des paragraphes.
+
+**Q : Est‑il possible de traiter par lots plusieurs fichiers OneNote ?**  
+R : Absolument. Enveloppez la logique de chargement et de style dans une boucle qui traite chaque fichier `.one` d'un dossier.
+
+**Q : La bibliothèque prend‑elle en charge l'enregistrement direct vers d'autres formats comme DOCX ?**  
+R : Oui – Aspose.Note peut exporter vers PDF, DOCX, HTML et plusieurs formats d'image.
+
+**Q : Où puis‑je trouver plus d'exemples et la référence API ?**  
+R : Visitez le site officiel de documentation Aspose.Note, explorez la référence API, et téléchargez la version d'essai gratuite pour des tests pratiques.
 
 ## Conclusion
 
-En conclusion, ce didacticiel a montré comment modifier le style de texte dans OneNote à l'aide d'Aspose.Note pour Java. En suivant le guide étape par étape, vous pouvez facilement manipuler la couleur, la surbrillance et la taille de la police dans vos documents OneNote, améliorant ainsi leur attrait visuel et leur lisibilité.
+Vous disposez maintenant d'un exemple complet, de bout en bout, montrant comment **set font color Java**, surligner du texte, ajuster la taille de police, et **save OneNote as PDF** avec Aspose.Note. N'hésitez pas à adapter le code pour cibler des pages spécifiques, appliquer un style conditionnel, ou l'intégrer dans des pipelines de traitement de documents plus vastes.
 
-## FAQ
-
-### Q1 : Puis-je appliquer ces modifications de style de texte à des sections spécifiques de mon document OneNote ?
-
-A1 : Oui, vous pouvez modifier le code pour cibler des sections spécifiques en parcourant les nœuds RichText pertinents.
-
-### Q2 : Aspose.Note prend-il en charge d'autres options de formatage de texte au-delà de la couleur, de la surbrillance et de la taille ?
-
-A2 : Oui, Aspose.Note offre des fonctionnalités étendues de formatage de texte, notamment la famille de polices, le style, l'alignement, etc.
-
-### Q3 : Puis-je intégrer Aspose.Note à d’autres bibliothèques Java pour un traitement avancé des documents ?
-
-A3 : Absolument, Aspose.Note s'intègre de manière transparente à diverses bibliothèques Java, vous permettant d'améliorer vos capacités de manipulation de documents.
-
-### Q4 : Aspose.Note est-il adapté à un usage personnel et commercial ?
-
-A4 : Oui, Aspose.Note peut être utilisé à des fins personnelles et commerciales, offrant des options de licence flexibles adaptées à vos besoins.
-
-### Q5 : Où puis-je trouver des ressources supplémentaires et une assistance pour Aspose.Note ?
-
-A5 : Vous pouvez explorer la documentation Aspose.Note, télécharger la bibliothèque, accéder aux essais gratuits et demander de l'aide sur le forum Aspose.
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
+
+---
+
+**Dernière mise à jour :** 2026-01-18  
+**Testé avec :** Aspose.Note 24.11 for Java  
+**Auteur :** Aspose

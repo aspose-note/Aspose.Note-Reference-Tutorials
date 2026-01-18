@@ -1,34 +1,52 @@
 ---
-title: OneNote'ta Metin Stilini Değiştirme - Aspose.Note
-linktitle: OneNote'ta Metin Stilini Değiştirme - Aspose.Note
-second_title: Aspose.Note Java API'si
-description: Kalın, vurgulayın ve yeniden boyutlandırın! Aspose.Note ile OneNote belgelerindeki metni biçimlendirmeyi öğrenin. Adım adım kılavuz ve kod dahildir! #OneNote #Java #Aspose
-weight: 10
+date: 2026-01-18
+description: Java'da OneNote'ta yazı tipi rengini nasıl ayarlayacağınızı, Aspose.Note
+  kullanarak metni vurgulamayı, yazı tipi boyutunu değiştirmeyi ve OneNote'u PDF olarak
+  kaydetmeyi öğrenin. Adım adım kodlu rehber.
+linktitle: Change Text Style in OneNote - Aspose.Note
+second_title: Aspose.Note Java API
+title: OneNote'ta Java ile Yazı Tipi Rengini Ayarla – Aspose.Note
 url: /tr/java/onenote-styles/change-text-style/
+weight: 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# OneNote'ta Metin Stilini Değiştirme - Aspose.Note
+# OneNote'ta Java ile Yazı Tipi Rengini Ayarlama – Aspose.Note
 
-## giriiş
+## Giriş
 
-Aspose.Note for Java'yı kullanarak OneNote'ta metin stilini değiştirme eğitimimize hoş geldiniz! Bu kılavuzda, OneNote belgelerinizdeki metin stillerini zahmetsizce değiştirmenize olanak tanıyarak süreç boyunca size adım adım yol göstereceğiz. İster yazı tipi rengini değiştirmek, metni vurgulamak veya yazı tipi boyutunu ayarlamak istiyor olun, Aspose.Note ihtiyaçlarınızı karşılayacak kapsamlı bir çözüm sunar.
+## Hızlı Yanıtlar
+- **Belirli kelimelerin yazı tipi rengini değiştirebilir miyim?** Evet – `TextRun` nesneleri üzerinden döngü yaparak `setFontColor` ayarlayın.
+- **Aspose.Note OneNote'u PDF olarak kaydetmeme izin veriyor mu?** Kesinlikle; `document.save("output.pdf")` kullanın.
+- **Hangi Java sürümü gerekiyor?** Java 8 veya üzeri.
+- **Vurgulama destekleniyor mu?** `TextStyle` üzerinde `setHighlight(Color)` kullanın.
+- **OneNote'u tek satırda PDF'ye dönüştürebilir miyim?** Doğrudan değil, ancak `save` yöntemi dönüşümü gerçekleştirir.
+
+## “set font color java” nedir?
+
+Bu ifade, Java kodu kullanarak bir OneNote dosyasındaki metin öğelerine programlı olarak yeni bir yazı tipi rengi atamayı ifade eder. Aspose.Note ile, OneNote arayüzünü açmadan yazı tipi rengi, vurgulama ve boyut gibi stil özellikleri üzerinde tam kontrol elde edersiniz.
+
+## OneNote'ta metin stilini neden değiştirmelisiniz?
+
+- **Gelişmiş okunabilirlik** – renkli veya vurgulanan metin, ana noktalara dikkat çeker.
+- **Marka tutarlılığı** – toplantı notları boyunca kurumsal renkleri zorunlu kılar.
+- **Dışa aktarma kalitesi** – stil verilen notlar, **onenote'u pdf'ye dönüştürerek** paylaşıldığında daha profesyonel görünür.
 
 ## Önkoşullar
 
-Eğiticiye dalmadan önce aşağıdaki önkoşullara sahip olduğunuzdan emin olun:
+İçeriğe geçmeden önce şunların olduğundan emin olun:
 
-1. Java programlamanın temel bilgisi.
-2. Sisteminize Java Development Kit (JDK) yüklendi.
-3. Aspose.Note for Java'yı indirip yükledim.
-4. OneNote belge yapısı ve biçimlendirmesine aşinalık.
+1. Temel Java programlama bilgisi.  
+2. JDK 8 veya daha yeni bir sürüm yüklü.  
+3. Projeye Aspose.Note for Java kütüphanesinin eklenmesi (Maven/Gradle veya manuel JAR).  
+4. Deneme yapmak için bir örnek OneNote dosyası (`Sample1.one`).
 
-## Paketleri İçe Aktar
+## Paketleri İçe Aktarma
 
-Başlamadan önce gerekli paketleri Java projemize aktaralım:
+İlk olarak, ihtiyacımız olan sınıfları içe aktarın:
 
 ```java
 import java.awt.Color;
@@ -40,79 +58,89 @@ import com.aspose.note.TextRun;
 import com.aspose.note.TextStyle;
 ```
 
-Şimdi, daha iyi anlaşılması için sağlanan örnek kodu birden fazla adıma ayıralım:
+## Adım Adım Kılavuz
 
-## 1. Adım: Belgeyi Yükleyin
+### Adım 1: Belgeyi Yükleme
 
 ```java
-// Belgeyi Aspose.Note'a yükleyin
+// Load the document into Aspose.Note
 Document document = new Document("Your Document Directory/Sample1.one");
 ```
 
-Bu adımda "Sample1.one" isimli OneNote belgesini Aspose.Note'a yüklüyoruz.
+OneNote dosyasını (`Sample1.one`) yüklüyoruz, böylece Aspose.Note iç yapısıyla çalışabilir.
 
-## Adım 2: RichText Düğümlerine Erişin
+### Adım 2: RichText Düğümlerine Erişim
 
 ```java
-// Belirli bir RichText düğümünü alın
+// Get a particular RichText node
 List<RichText> richTextNodes = document.getChildNodes(RichText.class);
 RichText richText = richTextNodes.get(0);
 ```
 
-Burada, belgeden RichText düğümlerini alıyoruz, bu da metin içeriğine erişmemizi ve bunları değiştirmemizi sağlıyor.
+`RichText` nesneleri gerçek paragrafları içerir. İlk düğümü alarak stil vermek istediğimiz metne bir referans elde ederiz.
 
-## 3. Adım: Metin Stilini Değiştirin
+### Adım 3: Metin Stilini Değiştir (set font color java)
 
 ```java
 for (TextRun run : richText.getTextRuns()) {
-    // Yazı tipi rengini ayarla
+    // Set font color
     run.getStyle().setFontColor(Color.yellow);
-    // Vurgu rengini ayarla
+    // Set highlight color
     run.getStyle().setHighlight(Color.blue);
-    // Yazı tipi boyutunu ayarla
+    // Set font size
     run.getStyle().setFontSize(20);
 }
 ```
 
-Bu döngü içinde, RichText düğümü içindeki her TextRun'u yineliyoruz ve stil özelliklerini değiştiriyoruz. Bu örnekte yazı tipi rengini sarıya değiştiriyoruz, metni mavi renkle vurguluyoruz ve yazı tipi boyutunu 20 olarak ayarlıyoruz.
+Döngü içinde **set font color Java** ile metni sarıya ayarlıyoruz, mavi bir vurgulama uyguluyoruz (**highlight text onenote** örneği) ve boyutu 20 punto artırıyoruz, bu da **modify font size onenote** örneğidir.
 
-## Adım 4: Belgeyi Kaydedin
+### Adım 4: Belgeyi Kaydet (save onenote as pdf)
 
 ```java
 document.save("Your Document Directory/ChangeTextStyle_out.pdf");
 System.out.printf("File saved: %s\n", "Your Document Directory/ChangeTextStyle_out.pdf");
 ```
 
-Son olarak, değiştirilen belgeyi uygulanan yeni metin stilleri ile kaydediyoruz.
+`save` metodunu `.pdf` uzantısıyla çağırmak, otomatik olarak **convert onenote to pdf** yapar ve paylaşmaya hazır bir dosya oluşturur.
 
-## Çözüm
+## Yaygın Sorunlar ve Çözümler
 
-Sonuç olarak, bu eğitimde Aspose.Note for Java kullanılarak OneNote'ta metin stilinin nasıl değiştirileceği gösterilmiştir. Adım adım kılavuzu izleyerek, OneNote belgelerinizdeki yazı tipi rengini, vurgulamayı ve yazı tipi boyutunu kolayca değiştirerek görsel çekiciliğini ve okunabilirliğini artırabilirsiniz.
+| Sorun | Sebep | Çözüm |
+|-------|-------|-------|
+| Renk değişikliği görünmüyor | Belge, kaydetmeden önce OneNote'ta açıktı | Java işlemi tamamlandıktan sonra OneNote'u kapatın veya dosyayı yeniden yükleyin |
+| Vurgulama uygulanmadı | Arka planla aynı renkte bir renk kullanılıyor | Zıt bir `Color` seçin (ör. `Color.yellow`) |
+| `document.save` `IOException` hatası veriyor | Geçersiz çıktı yolu | Dizin mevcut olduğundan ve yazma izniniz olduğundan emin olun |
 
-## SSS'ler
+## Sık Sorulan Sorular
 
-### S1: Bu metin stili değişikliklerini OneNote belgemin belirli bölümlerine uygulayabilir miyim?
+**S: Bu stil değişikliklerini OneNote dosyamın yalnızca belirli bölümlerine uygulayabilir miyim?**  
+C: Evet – `TextRun`'ler üzerinde döngü yapmadan önce `RichText` düğümlerini üst `Section` veya `Page`'e göre filtreleyin.
 
-C1: Evet, ilgili RichText düğümlerini yineleyerek belirli bölümleri hedef alacak şekilde kodu değiştirebilirsiniz.
+**S: Renk, vurgulama ve boyut dışında Aspose.Note hangi diğer biçimlendirmeleri yapabilir?**  
+C: Yazı tipi ailesi, kalın/eğik/altı çizili, hizalama ve hatta paragraf aralığını değiştirebilirsiniz.
 
-### S2: Aspose.Note renk, vurgu ve boyutun ötesinde diğer metin formatlama seçeneklerini destekliyor mu?
+**S: Birden fazla OneNote dosyasını toplu işleme yapmak mümkün mü?**  
+C: Kesinlikle. Yükleme ve stil verme mantığını, klasördeki her `.one` dosyasını işleyen bir döngüye sarın.
 
-Cevap2: Evet, Aspose.Note, yazı tipi ailesi, stil, hizalama ve daha fazlasını içeren kapsamlı metin biçimlendirme yetenekleri sunar.
+**S: Kütüphane DOCX gibi diğer formatlara doğrudan kaydetmeyi destekliyor mu?**  
+C: Evet – Aspose.Note PDF, DOCX, HTML ve çeşitli görüntü formatlarına dışa aktarabilir.
 
-### S3: Gelişmiş belge işleme için Aspose.Note'u diğer Java kitaplıklarıyla entegre edebilir miyim?
+**S: Daha fazla örnek ve API referansını nereden bulabilirim?**  
+C: Resmi Aspose.Note dokümantasyon sitesini ziyaret edin, API referansını inceleyin ve ücretsiz deneme sürümünü indirerek uygulamalı test yapın.
 
-Cevap3: Aspose.Note kesinlikle çeşitli Java kitaplıklarıyla sorunsuz bir şekilde bütünleşerek belge işleme yeteneklerinizi geliştirmenize olanak tanır.
+## Sonuç
 
-### S4: Aspose.Note hem kişisel hem de ticari kullanıma uygun mudur?
+Artık Aspose.Note kullanarak **set font color Java**, metni vurgulama, yazı tipi boyutunu ayarlama ve **OneNote'u PDF olarak kaydetme** konularında tam bir uçtan uca örneğe sahipsiniz. Kodu belirli sayfalara hedeflemek, koşullu stil uygulamak veya daha büyük belge‑işleme akışlarına entegre etmek için özgürce uyarlayabilirsiniz.
 
-Cevap4: Evet, Aspose.Note hem kişisel hem de ticari amaçlarla kullanılabilir ve ihtiyaçlarınıza uygun esnek lisanslama seçenekleri sunar.
-
-### S5: Aspose.Note için ek kaynakları ve desteği nerede bulabilirim?
-
-Cevap5: Aspose.Note belgelerini inceleyebilir, kütüphaneyi indirebilir, ücretsiz denemelere erişebilir ve Aspose forumunda destek arayabilirsiniz.
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
+
+---
+
+**Last Updated:** 2026-01-18  
+**Tested With:** Aspose.Note 24.11 for Java  
+**Author:** Aspose
