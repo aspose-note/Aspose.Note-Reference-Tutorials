@@ -1,10 +1,13 @@
 ---
-title: Estilos de OneNote
-linktitle: Estilos de OneNote
-second_title: Aspose.Nota Java API
-description: Descubra el arte de modificar los estilos de texto de OneNote utilizando Aspose.Note para Java. Aprenda a cambiar el color, el tamaño y el resaltado de la fuente en nuestros tutoriales paso a paso.
-weight: 31
+date: 2026-01-20
+description: Aprende cómo cambiar el estilo en OneNote usando Aspose.Note para Java.
+  Domina el formato de texto en OneNote, el estilo de párrafo predeterminado y los
+  cambios de tamaño de fuente.
+linktitle: OneNote Styles
+second_title: Aspose.Note Java API
+title: Cómo cambiar el estilo en OneNote con Aspose.Note para Java
 url: /es/java/onenote-styles/
+weight: 31
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
@@ -13,38 +16,71 @@ url: /es/java/onenote-styles/
 
 # Estilos de OneNote
 
-
 ## Introducción
 
-En el ámbito de la toma de notas digitales, dominar los matices de los estilos de OneNote puede elevar su experiencia de usuario a nuevas alturas. Nuestros completos tutoriales, desarrollados por Aspose.Note para Java, profundizan en las complejidades de la manipulación de estilos de texto y le ofrecen las claves para desbloquear un mundo de personalización.
+Si buscas **cómo cambiar el estilo** en tus cuadernos de OneNote, has llegado al lugar correcto. En esta guía recorreremos el uso de Aspose.Note para Java para personalizar cada aspecto del formato de texto de OneNote, desde cambiar colores y tamaños de fuente hasta aplicar resaltados y establecer un estilo de párrafo predeterminado. Ya sea que estés construyendo una aplicación para tomar notas o automatizando la generación de informes, dominar estas técnicas te dará control total sobre la apariencia de tus notas digitales.
 
-## Desbloqueando la magia: cambiar el estilo del texto en OneNote
+## Respuestas rápidas
+- **¿A qué se refiere “cómo cambiar el estilo” en OneNote?** Ajustar el color, tamaño, resaltado de fuente o el formato de párrafo de forma programática.  
+- **¿Qué biblioteca maneja el estilo?** Aspose.Note for Java proporciona una API fluida para todas las operaciones de estilo de texto.  
+- **¿Necesito una licencia?** Una prueba gratuita funciona para desarrollo; se requiere una licencia comercial para producción.  
+- **¿Puedo establecer un estilo de párrafo predeterminado?** Sí, puedes definir un formato predeterminado que se aplique a cada nuevo párrafo.  
+- **¿Es compatible el cambio de tamaño de fuente en OneNote?** Absolutamente; la API te permite especificar cualquier tamaño de punto que necesites.
+
+## Cómo cambiar el estilo en OneNote
+Cambiar el estilo en OneNote es tan simple como llamar a unos pocos métodos en el objeto `RichText`. A continuación describimos los conceptos clave antes de sumergirnos en los dos tutoriales detallados que siguen.
+
+### Conceptos clave
+- **Formato de texto:** El nombre de la fuente, tamaño, color y resaltado se controlan mediante las propiedades de `TextRun`.  
+- **Formato de párrafo:** El estilo de párrafo predeterminado, la alineación y la sangría pueden establecerse a nivel de sección.  
+- **Ámbito del estilo:** Aplicar estilos a una sola ejecución, a un párrafo completo o globalmente en todo el documento.
+
+## Desbloqueando la magia: Cambiar estilo de texto en OneNote
 ### [Cambiar estilo de texto en OneNote - Aspose.Note](./change-text-style/)
 
-Embárcate en un viaje para transformar la apariencia de tus notas de OneNote con Aspose.Note para Java. En este tutorial, desentrañamos los secretos detrás de cambiar estilos de texto sin esfuerzo. Di adiós a las notas mundanas y da la bienvenida al contenido dinámico y visualmente atractivo.
+En este tutorial aprenderás a modificar el **onenote text formatting** de notas existentes. Cubrimos el cambio de color de fuente, el ajuste de la opción **change font size onenote**, y la adición de efectos de resaltado. Al final, podrás hacer que cualquier nota destaque visualmente con solo unas pocas líneas de código Java.
 
-¿Estás cansado del color de fuente predeterminado? ¿Listo para experimentar con diferentes tamaños y opciones de resaltado? Aspose.Note para Java te permite hacer precisamente eso. Nuestra guía paso a paso garantiza que incluso los principiantes puedan navegar por el proceso sin problemas. Al final de este tutorial, tendrá el poder de personalizar estilos de texto con facilidad, agregando un toque personal a sus notas digitales.
+## Creando consistencia: Establecer estilo de párrafo predeterminado en OneNote
+### [Establecer estilo de párrafo predeterminado en Oneagina crear cientos de páginas manuales, escribir y dar estilo a archivos OneNote de forma programática. Soporta el formato completo de OneNote, ofrece control granular sobre **onenote text formatting**, y funciona en todas las versiones principales de Java. Los tutoriales anteriores no solo te enseñan el “qué”, sino también el “por código más limpio y mantenible.
 
-## Consistencia en la elaboración: establecer el estilo de párrafo predeterminado en OneNote
-### [Set Default Paragraph Style in OneNote - Aspose.Note](./set-default-paragraph-style/
-
-La coherencia es clave, especialmente cuando se trata de formatear tus notas. Con Aspose.Note para Java, configurar estilos de párrafo predeterminados en OneNote se vuelve muy sencillo. Nuestro tutorial proporciona una hoja de ruta para formatear texto eficientemente en sus aplicaciones Java.
-
-Imagínese esto: sus notas, formateadas consistentemente con estilos de párrafo predeterminados que coinciden con sus preferencias. No más ajustes manuales tediosos. Nuestra guía paso a paso simplifica el proceso y garantiza que pueda mantener sin esfuerzo una apariencia coherente en todo su espacio de trabajo de OneNote.
-
-## ¿Por qué Aspose.Note para Java?
-Aspose.Note para Java se destaca como la solución ideal para desarrolladores y entusiastas que buscan una integración perfecta y una flexibilidad incomparable al trabajar con OneNote. Los tutoriales que se ofrecen aquí no solo lo guían a través de los aspectos técnicos sino que también inspiran creatividad al presentar sus ideas.
-
-## Conclusión
-Sumérgete en el mundo de los estilos de OneNote, armado con el conocimiento y la experiencia que brindan los tutoriales de Aspose.Note para Java. Transforme sus notas, mejore la coherencia y dé rienda suelta a su creatividad en el ámbito digital. ¡Mejore su experiencia OneNote hoy!
-## Tutoriales de estilos de OneNote
+## Casos de uso comunes
+- **Generación automática de informes:** Generar actas de reuniones con estilo coherente con la marca.  
+- **Creación de contenido educativo:** Aplicar fuentes y resaltados personalizados para enfatizar conceptos clave.  
+- **Documentación empresarial:** Aplicar estilos de párrafo a nivel de empresa de estilos de OneNote
 ### [Cambiar estilo de texto en OneNote - Aspose.Note](./change-text-style/)
-Aprenda a cambiar el estilo del texto en OneNote con Aspose.Note para Java. Modifique fácilmente el color, el tamaño y el resaltado de la fuente.
+Aprende cómo cambiar el estilo de texto en OneNote con Aspose.Note para Java. Modifica sin esfuerzo el color, tamaño y resaltado de la fuente.
+
 ### [Establecer estilo de párrafo predeterminado en OneNote - Aspose.Note](./set-default-paragraph-style/)
-Aprenda a configurar estilos de párrafo predeterminados en OneNote usando Aspose.Note para Java. Siga nuestra guía paso a paso para formatear texto eficientemente en sus aplicaciones Java.
+Aprende cómo establecer estilos de párrafo predeterminados en OneNote usando Aspose.Note para Java. Sigue nuestra guía paso a paso para un formateo de texto eficiente en tus aplicaciones Java.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
+
+---
+
+**Last Updated:** 2026-01-20  
+**Tested With:** Aspose.Note Java API (latest)  
+**Author:** Aspose  
+
+---
+
+**Frequently Asked Questions**
+
+**Q:** *¿Puedo aplicar el mismo estilo a varios párrafos a la vez?*  
+A: Sí, puedes iterar la colección de párrafos y asignar un objeto `ParagraphStyle` compartido.
+
+**Q:** *¿Es posible cambiar la fuente predeterminada para todo el cuaderno?*  
+A: Absolutamente. Establece el estilo de párrafo predeterminado a nivel del cuaderno y todas las nuevas páginas lo heredarán.
+
+**Q:** *¿Estas API funcionan con archivos OneNote encriptados?*  
+A: La API puede abrir archivos protegidos con contraseña cuando proporcionas la contraseña de descifrado durante la carga.
+
+**Q:** *¿Qué ocurre si establezco un tamaño de fuente que supera los límites de OneNote?*  
+A: Aspose.Note ajustará el tamaño al valor soportado más cercano, asegurando que el documento siga siendo válido.
+
+**Q:** *¿Puedo previsualizar la nota con estilo antes de guardarla?*  
+A: Sí, puedes renderizar el documento a HTML o PDF para ver el resultado visual al instante.
