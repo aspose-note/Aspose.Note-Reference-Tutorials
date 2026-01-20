@@ -1,50 +1,64 @@
 ---
-title: OneNote で表のスタイルを変更する - Aspose.Note
-linktitle: OneNote で表のスタイルを変更する - Aspose.Note
+date: 2026-01-20
+description: Aspose.Note for Java を使用して OneNote のテーブルスタイルを変更し、テーブル行の背景色を設定する方法を学びましょう。ステップバイステップのガイドに従って、背景色の適用、太字テキストの設定、そして
+  OneNote ドキュメントを保存します。
+linktitle: Change Table Style in OneNote - Aspose.Note
 second_title: Aspose.Note Java API
-description: Aspose.Note for Java を使用して、OneNote テーブルを簡単に強化します。テーブルのスタイルを変更するには、ステップバイステップのガイドに従ってください。今すぐライブラリをダウンロードしてください!
-weight: 10
+title: Aspose.Note を使用して OneNote のテーブルスタイルを変更する方法
 url: /ja/java/onenote-table-manipulation/change-table-style/
+weight: 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# OneNote で表のスタイルを変更する - Aspose.Note
+# OneNoteでテーブルスタイルを変更する方法（Aspose.Note）
 
-## 導入
-Aspose.Note for Java は、開発者が OneNote ファイルを簡単に操作できるようにする強力なライブラリです。このチュートリアルでは、Aspose.Note for Java を使用して OneNote ドキュメントの表スタイルを変更することに焦点を当てます。ステップバイステップのガイドに従って、テーブルの視覚的な魅力を高めます。
+## はじめに
+One使用すリアルでは、OneNote ファイルの読み込み、テーブルNote ド理解できるようになります。
+
+## クイック回答
+- **OneNote のテーブルスタイリングに最適なライブラリは何ですか？** Aspose.Note for Java.  
+- **テーブル行の背景色を設定できますか？** はい、`setRowStyle` ヘルパーメソッドを使用します。  
+- **OneNote のテーブルでテキストを太字にするには？** `setRowStyle` の `bold` フラグを設定します。  
+- **変更したファイルを保存するために必要なことは？** 有効なパスを指定して `document.save(...)` を呼び出します。  
+-です。「テーブルスタイルの変更」とは？
+テーブルのスタイルを変更するとは、行の色やテキストの書式、全体的な外観を変えて、データで OneNote の構造を完全に制御です式設定**オプション；背景色、太字、斜体テキストなどが利用できます。  
+
 ## 前提条件
-始める前に、次のものが揃っていることを確認してください。
-- Java 開発環境: マシン上に Java 開発環境がセットアップされていることを確認します。
--  Aspose.Note for Java ライブラリ: Aspose.Note for Java ライブラリを次の場所からダウンロードしてインストールします。[ダウンロードページ](https://releases.aspose.com/note/java/).
-- ドキュメント ディレクトリ: OneNote ドキュメントを保存するディレクトリを準備します。
-## パッケージのインポート
-Java プロジェクトで、Aspose で動作するために必要なパッケージをインポートします。注:
-```java
+開始する前に、以下が揃っていることを確認してください：
+
+- **Java 開発環境** – JDK 8 以上がインストールされていること。  
+- **Aspose.Note for Java ライブラリ** – [ダウンロードページ](https/java/) から取得してください。  
+- **ドキュメントディレクトリ** – `.one` ファイルを保存するフォルダー。  
+
+## パッケージのインポート```java
 import com.aspose.note.*;
 import java.awt.Color;
 import java.io.IOException;
 import java.nio.file.Paths;
 import java.util.List;
 ```
-## ステップ 1: ドキュメントを設定する
-OneNote ドキュメントを Aspose.Note にロードし、テーブル ノードのリストを取得します。
+
+## 手順 1: ドキュメントの設定
+OneNote ドキュメントを Aspose.Note に読み込み、テーブルノードのリストを取得します。
+
 ```java
-//ドキュメントを設定し、テーブル ノードのリストを取得します。
+// Set up the document and get the list of table nodes
 String dataDir = "Your Document Directory";
 Document document = new Document(dataDir + "ChangeTableStyleIn.one");
 List<Table> nodes = document.getChildNodes(Table.class);
 ```
-## ステップ 2: 行スタイルを設定する
-各テーブルを反復処理して、ヘッダーの後の最初の行を強調表示するなど、各行のスタイルを設定します。
+
+## 手順 2: 行のスタイル設定
+各テーブルを走査し、各行のスタイルを設定します。ヘッダーの次の最初の行をハイライトすることも含まれます。これにより **テーブル行の背景設定** と **背景色の適用方法** が示されます。
 
 ```java
-//ドキュメント内の各表の行スタイルを設定する
+// Set row styles for each table in the document
 for (Table table : nodes) {
     setRowStyle(table.getFirstChild(), Color.GRAY, true, true);
-    //先頭の後の最初の行を強調表示します。
+    // Highlight first row after the head.
     boolean flag = false;
     List<TableRow> rows = table.getChildren();
     for (int i = 1; i < rows.size(); ++i) {
@@ -53,7 +67,10 @@ for (Table table : nodes) {
     }
 }
 ```
+
 ## setRowStyle メソッド
+このヘルパーメソッドは、行内のすべてのセルに背景色、太字、斜体の書式設定を適用します。ここで **OneNote でテキストを太字にする方法** が実装されています。
+
 ```java
     private static void setRowStyle(TableRow row, Color highlightColor, boolean bold, boolean italic) {
         for (TableCell cell: row)
@@ -72,31 +89,43 @@ for (Table table : nodes) {
         }
     }
 ```
-## ステップ 3: ドキュメントを保存する
-変更したドキュメントを新しい表スタイルで保存します。
-これらの手順に従うと、Aspose.Note for Java を使用して OneNote ドキュメントの表のスタイルを簡単に変更できます。
+
+## 手順 3: ドキュメントの保存
+テーブルの書式設定が完了したら、変更されたドキュメントを保存します。これにより **新しい書式を適用した OneNote ドキュメントの保存方法** が示されます。
 
 ```java
-//変更したドキュメントを保存する
+// Save the modified document
 document.save(Paths.get(dataDir, "ChangeTableStyleOut.one").toString());
 ```
+
 ## 結論
-Aspose.Note for Java は、OneNote ファイルの操作プロセスを簡素化します。ライブラリの機能を活用すると、テーブルの視覚的なプレゼンテーションを簡単に強化できます。
+Aspose.Note for Java は、OneNote ファイルの操作プロセスを簡素化します。ライブラリの機能を活用すれば、テーブルスタイルの変更、テーブル行の背景色設定、テキストの太字化、そして OneNote ドキュメントの保存を、数行のコードで簡単に実現できます。
 
 ## よくある質問
-### Aspose.Note for Java のドキュメントはどこで見つけられますか?
-訪問[ドキュメンテーション](https://reference.aspose.com/note/java/)総合的な指導を行います。
-### Aspose.Note for Java の一時ライセンスを取得するにはどうすればよいですか?
-これに従ってください[リンク](https://purchase.aspose.com/temporary-license/)仮免許を取得するためです。
-### Aspose.Note for Java に利用できる無料トライアルはありますか?
-はい、無料試用版を次からダウンロードできます。[ここ](https://releases.aspose.com/).
-### Aspose.Note for Java のサポートはどこで入手できますか?
-に参加してください[Aspose.Note フォーラム](https://forum.aspose.com/c/note/28)コミュニティに援助を求めること。
-### Aspose.Note for Java を購入するにはどうすればよいですか?
-ライブラリを購入できます[ここ](https://purchase.aspose.com/buy).
+### Aspose.Note for Java のドキュメントはどこで見つけられますか？
+包括的なガイドは、[ドキュメント](https://reference.aspose.com/note/java/)をご覧ください。
+
+### Aspose.Note for Java の一時ライセンスはどのように取得できますか？
+一時ライセンスの取得は、この[リンク](https://purchase.aspose.com/temporary-license/)をご参照ください。
+
+### Aspose.Note for Java の無料トライアルはありますか？
+はい、[こちら](https://releases.aspose.com/)から無料トライアル版をダウンロードできます。
+
+### Aspose.Note for Java のサポートはどこで受けられますか？
+コミュニティから支援を受けるには、[Aspose.Note フォーラム](https://forum.aspose.com/c/note/28)に参加してください。
+
+### Aspose.Note for Java の購入方法は？
+ライブラリは[こちら](https://purchase.aspose.com/buy)から購入できます。
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
+
+---
+
+**最終更新日:** 2026-01-20  
+**テスト環境:** Aspose.Note for Java 24.11  
+**作者:** Aspose

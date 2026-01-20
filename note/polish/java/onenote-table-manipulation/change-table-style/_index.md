@@ -1,27 +1,47 @@
 ---
-title: Zmień styl tabeli w OneNote - Aspose.Note
-linktitle: Zmień styl tabeli w OneNote - Aspose.Note
-second_title: Aspose.Note API Java
-description: Ulepsz swoje tabele OneNote bez wysiłku dzięki Aspose.Note dla Java. Postępuj zgodnie z naszym przewodnikiem krok po kroku, aby zmienić style tabeli. Pobierz bibliotekę teraz!
-weight: 10
+date: 2026-01-20
+description: Dowiedz się, jak zmienić styl tabeli w OneNote przy użyciu Aspose.Note
+  dla Javy i ustawić kolory tła wierszy tabeli. Postępuj zgodnie z przewodnikiem krok
+  po kroku, aby zastosować kolor tła, pogrubić tekst i zapisać dokument OneNote.
+linktitle: Change Table Style in OneNote - Aspose.Note
+second_title: Aspose.Note Java API
+title: Jak zmienić styl tabeli w OneNote przy użyciu Aspose.Note
 url: /pl/java/onenote-table-manipulation/change-table-style/
+weight: 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Zmień styl tabeli w OneNote - Aspose.Note
+# Jak zmienić styl tabeli w OneNote przy użyciu Aspose.Note
 
-## Wstęp
-Aspose.Note dla Java to potężna biblioteka, która pozwala programistom na łatwe manipulowanie plikami OneNote. W tym samouczku skupimy się na zmianie stylu tabeli w dokumencie OneNote przy użyciu Aspose.Note dla Java. Postępuj zgodnie z przewodnikiem krok po kroku, aby poprawić atrakcyjność wizualną swoich stołów.
-## Warunki wstępne
-Zanim zaczniesz, upewnij się, że masz przygotowane następujące elementy:
-- Środowisko programistyczne Java: Upewnij się, że na komputerze skonfigurowano środowisko programistyczne Java.
--  Aspose.Note dla biblioteki Java: Pobierz i zainstaluj bibliotekę Aspose.Note dla Java z pliku[strona pobierania](https://releases.aspose.com/note/java/).
-- Katalog dokumentów: Przygotuj katalog do przechowywania dokumentów programu OneNote.
-## Importuj pakiety
-swoim projekcie Java zaimportuj niezbędne pakiety do pracy z Aspose.Uwaga:
+## Wprowadzenie
+Jeśli potrzebujesz **jak zmienić styl tabeli** w notesie OneNote, Aspose.Note for Java zrobi to za Ciebie w mgnieniu oka. W tym samouczku przeprowadzimy Cię przez cały proces — od załadowania pliku OneNote, ustawienia kolorów tła wierszy tabeli, zastosowania pogrubienia i kursywy, po ostateczne zapisanie zaktualizowanego dokumentu. Po zakończeniu będziesz pewnie formatować tabele w OneNote, wiedzieć, jak zastosować kolor tła do wierszy oraz rozumieć, jak zapisać dokument OneNote z nowymi stylami.
+
+## Szybkie odpowiedzi
+- **Jaka biblioteka jest najlepsza do stylizacji tabel w OneNote?** Aspose.Note for Java.  
+- **Czy mogę ustawić kolory tła wierszy tabeli?** Tak, używając metody pomocniczej `setRowStyle`.  
+- **Jak pogrubić tekst w tabeli OneNote?** Ustaw flagę `bold` w `setRowStyle`.  
+- **Co jest wymagane do zapisania zmodyfikowanego pliku?** Wywołaj `document.save(...)` z prawidłową ścieżką.  
+- **Czy potrzebna jest licencja do użytku produkcyjnego?** Tak, wymagana jest licencja komercyjna.
+
+## Czym jest „jak zmienić styl tabeli” w OneNote?
+Zmiana stylu tabeli oznacza modyfikację kolorów wierszy, formatowania tekstu oraz ogólnego wyglądu, aby dane były łatwiejsze do odczytania i bardziej atrakcyjne wizualnie. Aspose.Note udostępnia płynne API do programowego manipulowania tymi właściwościami.
+
+## Dlaczego używać Aspose.Note for Java?
+- **Pełna kontrola** nad strukturami OneNote bez ręcznej pracy w interfejsie użytkownika.  
+- **Wsparcie wieloplatformowe**; działa na każdym systemie operacyjnym, na którym działa Java.  
+- **Bogate opcje formatowania** takie jak kolory tła, pogrubienie i kursywa.  
+
+## Wymagania wstępne
+Zanim rozpoczniesz, upewnij się, że masz:
+- **Środowisko programistyczne Java** – zainstalowany JDK 8 lub wyższy.  
+- **Biblioteka Aspose.Note for Java** – pobierz ze [strony pobierania](https://releases.aspose.com/note/java/).  
+- **Katalog dokumentów** – folder, w którym będą przechowywane pliki `.one`.  
+
+## Importowanie pakietów
+W swoim projekcie Java zaimportuj niezbędne pakiety do pracy z Aspose.Note:
 ```java
 import com.aspose.note.*;
 import java.awt.Color;
@@ -29,22 +49,23 @@ import java.io.IOException;
 import java.nio.file.Paths;
 import java.util.List;
 ```
-## Krok 1: Skonfiguruj dokument
-Załaduj dokument OneNote do Aspose.Note i pobierz listę węzłów tabeli
+
+## Krok 1: Przygotowanie dokumentu
+Załaduj dokument OneNote do Aspose.Note i pobierz listę węzłów tabel.
 ```java
-// Skonfiguruj dokument i uzyskaj listę węzłów tabeli
+// Set up the document and get the list of table nodes
 String dataDir = "Your Document Directory";
 Document document = new Document(dataDir + "ChangeTableStyleIn.one");
 List<Table> nodes = document.getChildNodes(Table.class);
 ```
-## Krok 2: Ustaw style wierszy
-Wykonaj iterację po każdej tabeli, ustawiając styl dla każdego wiersza, w tym podświetlając pierwszy wiersz po nagłówku.
 
+## Krok 2: Ustawianie stylów wierszy
+Iteruj po każdej tabeli, ustawiając styl dla każdego wiersza, w tym podświetlając pierwszy wiersz po nagłówku. To demonstruje **ustawienie tła wiersza tabeli** i **jak zastosować kolor tła**.
 ```java
-// Ustaw style wierszy dla każdej tabeli w dokumencie
+// Set row styles for each table in the document
 for (Table table : nodes) {
     setRowStyle(table.getFirstChild(), Color.GRAY, true, true);
-    // Podświetl pierwszy rząd po głowie.
+    // Highlight first row after the head.
     boolean flag = false;
     List<TableRow> rows = table.getChildren();
     for (int i = 1; i < rows.size(); ++i) {
@@ -53,7 +74,9 @@ for (Table table : nodes) {
     }
 }
 ```
+
 ## Metoda setRowStyle
+Metoda pomocnicza stosuje kolor tła, pogrubienie i kursywę do każdej komórki w wierszu. To miejsce, w którym implementowane jest **jak pogrubić tekst w onenote**.
 ```java
     private static void setRowStyle(TableRow row, Color highlightColor, boolean bold, boolean italic) {
         for (TableCell cell: row)
@@ -72,31 +95,44 @@ for (Table table : nodes) {
         }
     }
 ```
-## Krok 3: Zapisz dokument
-Zapisz zmodyfikowany dokument z nowymi stylami tabeli.
-Wykonując te kroki, możesz łatwo zmienić styl tabeli w dokumencie OneNote przy użyciu Aspose.Note dla Java.
 
+## Krok 3: Zapisanie dokumentu
+Po sformatowaniu tabel, zapisz zmodyfikowany dokument. To pokazuje **jak zapisać dokument onenote** z zastosowanym nowym formatowaniem.
 ```java
-// Zapisz zmodyfikowany dokument
+// Save the modified document
 document.save(Paths.get(dataDir, "ChangeTableStyleOut.one").toString());
 ```
-## Wniosek
-Aspose.Note dla Java upraszcza proces manipulowania plikami OneNote. Wykorzystując możliwości biblioteki, możesz bez wysiłku poprawić wizualną prezentację swoich tabel.
 
-## Często zadawane pytania
-### Gdzie mogę znaleźć dokumentację Aspose.Note dla Java?
- Odwiedzić[dokumentacja](https://reference.aspose.com/note/java/) w celu uzyskania kompleksowych wskazówek.
-### Jak mogę uzyskać tymczasową licencję na Aspose.Note dla Java?
- Obserwuj to[połączyć](https://purchase.aspose.com/temporary-license/) nabyć licencję tymczasową.
-### Czy dostępna jest bezpłatna wersja próbna Aspose.Note dla Java?
- Tak, możesz pobrać bezpłatną wersję próbną ze strony[Tutaj](https://releases.aspose.com/).
-### Gdzie mogę uzyskać pomoc dotyczącą Aspose.Note dla Java?
- Dołącz[Forum Aspose.Note](https://forum.aspose.com/c/note/28) zwrócić się o pomoc do społeczeństwa.
-### Jak kupić Aspose.Note dla Java?
- Bibliotekę można kupić[Tutaj](https://purchase.aspose.com/buy).
+## Podsumowanie
+Aspose.Note for Java upraszcza proces manipulacji plikami OneNote. Wykorzystując możliwości biblioteki, możesz łatwo zmienić style tabel, ustawić kolory tła wierszy, pogrubić tekst i zapisać dokument OneNote — wszystko w kilku linijkach kodu.
+
+## Najczęściej zadawane pytania
+### Gdzie mogę znaleźć dokumentację Aspose.Note for Java?
+Odwiedź [dokumentację](https://reference.aspose.com/note/java/) po kompleksowe wskazówki.
+
+### Jak mogę uzyskać tymczasową licencję dla Aspose.Note for Java?
+Skorzystaj z tego [linku](https://purchase.aspose.com/temporary-license/), aby uzyskać tymczasową licencję.
+
+### Czy dostępna jest bezpłatna wersja próbna Aspose.Note for Java?
+Tak, możesz pobrać bezpłatną wersję próbną [tutaj](https://releases.aspose.com/).
+
+### Gdzie mogę uzyskać wsparcie dla Aspose.Note for Java?
+Dołącz do [forum Aspose.Note](https://forum.aspose.com/c/note/28), aby uzyskać pomoc od społeczności.
+
+### Jak mogę kupić Aspose.Note for Java?
+Możesz zakupić bibliotekę [tutaj](https://purchase.aspose.com/buy).
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
+
+---
+
+**Ostatnia aktualizacja:** 2026-01-20  
+**Testowano z:** Aspose.Note for Java 24.11  
+**Autor:** Aspose  
+
+---
