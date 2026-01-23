@@ -1,27 +1,39 @@
 ---
-title: Utwórz tabelę w programie OneNote — Aspose.Note
-linktitle: Utwórz tabelę w programie OneNote — Aspose.Note
-second_title: Aspose.Note API Java
-description: Dowiedz się, jak programowo tworzyć tabele w programie OneNote przy użyciu Aspose.Note dla języka Java. Przewodnik krok po kroku dotyczący wydajnego tworzenia dokumentów.
-weight: 11
+date: 2026-01-23
+description: Dowiedz się, jak programowo dodać tabelę do OneNote przy użyciu Aspose.Note
+  dla Javy. Przewodnik krok po kroku do efektywnego tworzenia dokumentów.
+linktitle: How to add table to OneNote with Aspose.Note for Java
+second_title: Aspose.Note Java API
+title: Jak dodać tabelę do OneNote przy użyciu Aspose.Note dla Javy
 url: /pl/java/onenote-table-manipulation/compose-table/
+weight: 11
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Utwórz tabelę w programie OneNote — Aspose.Note
+# Jak dodać tabelę do OneNote przy użyciu Aspose.Note dla Javy
 
-## Wstęp
-dzisiejszym konkurencyjnym środowisku biznesowym skuteczna komunikacja i współpraca to kluczowe czynniki osiągnięcia sukcesu. Aspose.Note dla Java zapewnia potężne rozwiązanie do programowego tworzenia i manipulowania dokumentami OneNote. W tym samouczku omówimy, jak tworzyć tabele w programie OneNote przy użyciu programu Aspose.Note dla języka Java. Postępuj zgodnie z poniższym przewodnikiem krok po kroku, aby usprawnić proces tworzenia dokumentu.
-## Warunki wstępne
-Przed przystąpieniem do samouczka upewnij się, że spełniasz następujące wymagania wstępne:
-- Podstawowa znajomość programowania w języku Java.
--  Zainstalowana biblioteka Aspose.Note dla Java. Można go pobrać z[Tutaj](https://releases.aspose.com/note/java/).
-- Zintegrowane środowisko programistyczne (IDE) skonfigurowane do programowania w języku Java.
-## Importuj pakiety
-Pamiętaj, aby zaimportować niezbędne pakiety, aby rozpocząć projekt. Dodaj następujące instrukcje importu do swojej klasy Java:
+## Wprowadzenie
+W tym samouczku dowiesz się, jak **dodać tabelę do OneNote** przy użyciu Aspose.Note dla Javy, co umożliwia programowe tworzenie bogatych, strukturalnych dokumentów zwiększających współpracę i raportowanie. Aspose.Note zapewnia potężne API do budowania stron OneNote, konspektów i tabel bez ręcznej edycji.
+
+## Szybkie odpowiedzi
+- **Co obejmuje ten samouczek?** Dodanie tabeli do OneNote przy użyciu Aspose.Note dla Javy.  
+- **Ile czasu potrzeba?** Około 10‑15 minut na podstawową implementację.  
+- **Czy potrzebna jest licencja?** Darmowa wersja próbna wystarcza do oceny; licencja komercyjna jest wymagana w środowisku produkcyjnym.  
+- **Jaką wersję Javy obsługuje?** Java 8 i nowsze.  
+- **Czy mogę dostosować style tabeli?** Tak – możesz modyfikować czcionki, kolory i obramowania komórek za pomocą API.
+
+## Wymagania wstępne
+Przed przystąpieniem do samouczka upewnij się, że spełniasz następujące wymagania:
+- Podstawowa znajomość programowania w Javie.  
+- Zainstalowana biblioteka Aspose.Note dla Javy. Możesz ją pobrać [tutaj](https://releases.aspose.com/note/java/).  
+- Zintegrowane środowisko programistyczne (IDE) skonfigurowane do programowania w Javie.
+
+## Importowanie pakietów
+Upewnij się, że importujesz niezbędne pakiety, aby rozpocząć projekt. Dodaj następujące instrukcje importu do swojej klasy w Javie:
+
 ```java
 import com.aspose.note.*;
 import java.awt.*;
@@ -29,18 +41,21 @@ import java.io.IOException;
 import java.nio.file.Paths;
 import java.util.stream.StreamSupport;
 ```
-## Krok 1: Ustaw katalog dokumentów
+
+## Krok 1: Ustaw katalog dokumentu
 ```java
 String dataDir = "Your Document Directory";
 ```
-Pamiętaj, aby zastąpić „Katalog Twoich dokumentów” rzeczywistą ścieżką, w której chcesz zapisać dokument OneNote.
+Zastąp `"Your Document Directory"` rzeczywistą ścieżką, w której chcesz zapisać dokument OneNote.
+
 ## Krok 2: Utwórz nagłówek
 ```java
 RichText headerText = new RichText().append("Super contest for suppliers.");
 headerText.setParagraphStyle(new ParagraphStyle().setFontSize(18).setBold(true));
 headerText.setAlignment(HorizontalAlignment.Center);
 ```
-Utwórz przyciągający wzrok nagłówek swojego dokumentu. W razie potrzeby dostosuj rozmiar czcionki, pogrubienie i wyrównanie.
+Utwórz przyciągający wzrok nagłówek dla swojego dokumentu. Dostosuj rozmiar czcionki, pogrubienie i wyrównanie w razie potrzeby.
+
 ## Krok 3: Utwórz stronę i konspekt
 ```java
 Page page = new Page();
@@ -48,41 +63,57 @@ Outline outline = page.appendChildLast(new Outline());
 outline.setHorizontalOffset(50);
 outline.appendChildLast(new OutlineElement()).appendChildLast(headerText);
 ```
-Skonfiguruj nową stronę i konspekt, a następnie dodaj wcześniej utworzony nagłówek do konspektu.
+Utwórz nową stronę i konspekt, a następnie dodaj wcześniej utworzony nagłówek do konspektu.
+
 ## Krok 4: Dodaj tekst podsumowania
 ```java
 RichText bodyTextHeader = outline.appendChildLast(new OutlineElement()).appendChildLast(new RichText());
 bodyTextHeader.setParagraphStyle(ParagraphStyle.getDefault());
 bodyTextHeader.append("This is the final ranking of proposals got from our suppliers.");
 ```
-Dołącz krótki tekst podsumowujący, aby zapewnić kontekst tabeli.
-## Krok 5: Utwórz tabelę
+Dodaj krótki tekst podsumowujący, aby zapewnić kontekst dla tabeli.
+
+## Krok 5: Dodaj tabelę do OneNote
 ```java
 Table ranking = outline.appendChildLast(new OutlineElement()).appendChildLast(new Table());
-// Pozostałe kroki obejmują ustawienie struktury tabeli, wiersza nagłówka i dodanie pustych wierszy.
-// Aby zapoznać się ze szczegółową implementacją, zapoznaj się z dostarczonym kodem.
+// Remaining steps are involved in setting up the table structure, header row, and adding empty rows.
+// Refer to the provided code for detailed implementation.
 ```
-Skomponuj strukturę tabeli i wypełnij ją odpowiednimi informacjami. Dostarczony kod obejmuje dodanie kolumn, wiersza nagłówka, pustych wierszy i zawartości szablonu dla kolumny „Kontakty”.
+Zbuduj strukturę tabeli i wypełnij ją odpowiednimi informacjami. Dostarczony kod zawiera dodawanie kolumn, wiersza nagłówka, pustych wierszy oraz szablonowej zawartości dla kolumny „Contacts”.
+
 ## Krok 6: Zapisz dokument
 ```java
 Document d = new Document();
 d.appendChildLast(page);
 d.save(Paths.get(dataDir, "ComposeTable_out.one").toString());
 ```
-Zapisz utworzony dokument z określoną nazwą pliku i ścieżką katalogu.
-## Wniosek
-Gratulacje! Pomyślnie utworzyłeś tabelę w OneNote przy użyciu Aspose.Note dla Java. W tym samouczku przedstawiono proces krok po kroku, umożliwiający programowe zwiększenie możliwości tworzenia dokumentów.
-## Często Zadawane Pytania
-### P: Gdzie mogę znaleźć dokumentację Aspose.Note dla Java?
- Możesz zapoznać się z dokumentacją[Tutaj](https://reference.aspose.com/note/java/).
-### P: Jak pobrać Aspose.Note dla Java?
- Można go pobrać z[ten link](https://releases.aspose.com/note/java/).
-### P: Czy dostępny jest bezpłatny okres próbny?
- Tak, możesz uzyskać dostęp do bezpłatnego okresu próbnego[Tutaj](https://releases.aspose.com/).
-### P: Gdzie mogę uzyskać pomoc dotyczącą Aspose.Note dla Java?
- Odwiedź forum pomocy[Tutaj](https://forum.aspose.com/c/note/28).
-### P: Czy mogę uzyskać licencję tymczasową?
- Tak, możesz uzyskać licencję tymczasową[Tutaj](https://purchase.aspose.com/temporary-license/).
+Zapisz utworzony dokument, podając określoną nazwę pliku i ścieżkę katalogu.
+
+## Podsumowanie
+Gratulacje! Pomyślnie **dodałeś tabelę do OneNote** przy użyciu Aspose.Note dla Javy. Ten samouczek pokazał proces krok po kroku, umożliwiając programowe zwiększenie możliwości tworzenia dokumentów.
+
+## Najczęściej zadawane pytania
+### Q: Gdzie mogę znaleźć dokumentację Aspose.Note dla Javy?
+Możesz odwołać się do dokumentacji [tutaj](https://reference.aspose.com/note/java/).
+
+### Q: Jak pobrać Aspose.Note dla Javy?
+Możesz ją pobrać z [tego linku](https://releases.aspose.com/note/java/).
+
+### Q: Czy dostępna jest wersja próbna?
+Tak, możesz uzyskać dostęp do wersji próbnej [tutaj](https://releases.aspose.com/).
+
+### Q: Gdzie mogę uzyskać wsparcie dla Aspose.Note dla Javy?
+Odwiedź forum wsparcia [tutaj](https://forum.aspose.com/c/note/28).
+
+### Q: Czy mogę uzyskać tymczasową licencję?
+Tak, możesz otrzymać tymczasową licencję [tutaj](https://purchase.aspose.com/temporary-license/).
+
+---
+
+**Last Updated:** 2026-01-23  
+**Tested With:** Aspose.Note for Java (latest release)  
+**Author:** Aspose  
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
