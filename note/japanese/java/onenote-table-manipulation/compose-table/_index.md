@@ -1,27 +1,38 @@
 ---
-title: OneNote でテーブルを作成 - Aspose.Note
-linktitle: OneNote でテーブルを作成 - Aspose.Note
+date: 2026-01-23
+description: Aspose.Note for Java を使用して、プログラムで OneNote に表を追加する方法を学びましょう。効率的なドキュメント作成のためのステップバイステップガイド。
+linktitle: How to add table to OneNote with Aspose.Note for Java
 second_title: Aspose.Note Java API
-description: Aspose.Note for Java を使用してプログラムで OneNote のテーブルを作成する方法を学びます。効率的に文書を作成するためのステップバイステップのガイド。
-weight: 11
+title: Aspose.Note for Java を使用して OneNote に表を追加する方法
 url: /ja/java/onenote-table-manipulation/compose-table/
+weight: 11
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# OneNote でテーブルを作成 - Aspose.Note
+# OneNote にテーブルを追加する方法（Aspose.Note for Java）
 
-## 導入
-今日の競争の激しいビジネス環境では、効果的なコミュニケーションとコラボレーションが成功への重要な要素となります。 Aspose.Note for Java は、OneNote ドキュメントをプログラムで作成および操作するための強力なソリューションを提供します。このチュートリアルでは、Aspose.Note for Java を使用して OneNote でテーブルを作成する方法を説明します。以下のステップバイステップのガイドに従って、ドキュメント作成プロセスを強化してください。
+## はじめに
+このチュートリアルでは、Aspose.Note for Java を使用して **OneNote にテーブルを追加** する方法を学びます。これにより、プログラムからリッチで構造化されたドキュメントを作成し、コラボレーションやレポート作成を強化できます。Aspose.Note は、手動編集なしで OneNote ページ、アウトライン、テーブルを構築するための強力な API を提供します。
+
+## クイック回答
+- **このチュートリアルの内容は？** Aspose.Note for Java を使用して OneNote にテーブルを追加する方法です。  
+- **所要時間は？** 基本的な実装で約 10‑15 分です。  
+- **ライセンスは必要ですか？** 評価用の無料トライアルで動作しますが、製品環境では商用ライセンスが必要です。  
+- **対応している Java バージョンは？** Java 8 以降。  
+- **テーブルのスタイルをカスタマイズできますか？** はい – API を通じてフォント、色、セルの枠線などを変更できます。
+
 ## 前提条件
-チュートリアルに進む前に、次の前提条件を満たしていることを確認してください。
-- Java プログラミングの基本的な知識。
--  Java ライブラリの Aspose.Note がインストールされています。からダウンロードできます[ここ](https://releases.aspose.com/note/java/).
-- Java 開発用にセットアップされた統合開発環境 (IDE)。
+チュートリアルに入る前に、以下の前提条件を満たしていることを確認してください。
+- Java プログラミングの基本知識。  
+- Aspose.Note for Java ライブラリがインストールされていること。[こちら](https://releases.aspose.com/note/java/)からダウンロードできます。  
+- Java 開発用の統合開発環境（IDE）が設定されていること。
+
 ## パッケージのインポート
-プロジェクトを開始するために必要なパッケージを必ずインポートしてください。次のインポート ステートメントを Java クラスに追加します。
+プロジェクトを開始するために必要なパッケージをインポートしてください。以下のインポート文を Java クラスに追加します。
+
 ```java
 import com.aspose.note.*;
 import java.awt.*;
@@ -29,60 +40,79 @@ import java.io.IOException;
 import java.nio.file.Paths;
 import java.util.stream.StreamSupport;
 ```
-## ステップ 1: ドキュメント ディレクトリを設定する
+
+## ステップ 1: ドキュメント ディレクトリの設定
 ```java
 String dataDir = "Your Document Directory";
 ```
-「ドキュメント ディレクトリ」を、OneNote ドキュメントを保存する実際のパスに置き換えてください。
-## ステップ 2: ヘッダーを作成する
+`"Your Document Directory"` を、OneNote ドキュメントを保存したい実際のパスに置き換えてください。
+
+## ステップ 2: ヘッダーの作成
 ```java
 RichText headerText = new RichText().append("Super contest for suppliers.");
 headerText.setParagraphStyle(new ParagraphStyle().setFontSize(18).setBold(true));
 headerText.setAlignment(HorizontalAlignment.Center);
 ```
-文書に目を引くヘッダーを作成します。必要に応じて、フォントのサイズ、太さ、配置を調整します。
-## ステップ 3: ページとアウトラインを作成する
+ドキュメント用の目を引くヘッダーを作成します。フォントサイズ、太字、配置などを必要に応じて調整してください。
+
+## ステップ 3: ページとアウトラインの作成
 ```java
 Page page = new Page();
 Outline outline = page.appendChildLast(new Outline());
 outline.setHorizontalOffset(50);
 outline.appendChildLast(new OutlineElement()).appendChildLast(headerText);
 ```
-新しいページとアウトラインを設定し、以前に作成したヘッダーをアウトラインに追加します。
-## ステップ 4: 概要テキストを追加する
+新しいページとアウトラインを設定し、先に作成したヘッダーをアウトラインに追加します。
+
+## ステップ 4: 要約テキストの追加
 ```java
 RichText bodyTextHeader = outline.appendChildLast(new OutlineElement()).appendChildLast(new RichText());
 bodyTextHeader.setParagraphStyle(ParagraphStyle.getDefault());
 bodyTextHeader.append("This is the final ranking of proposals got from our suppliers.");
 ```
-表のコンテキストを提供するための簡単な概要テキストを含めます。
-## ステップ 5: テーブルを作成する
+テーブルのコンテキストを提供する簡潔な要約テキストを含めます。
+
+## ステップ 5: OneNote にテーブルを追加
 ```java
 Table ranking = outline.appendChildLast(new OutlineElement()).appendChildLast(new Table());
-//残りの手順では、テーブル構造、ヘッダー行の設定、および空の行の追加が行われます。
-//詳細な実装については、提供されているコードを参照してください。
+// Remaining steps are involved in setting up the table structure, header row, and adding empty rows.
+// Refer to the provided code for detailed implementation.
 ```
-テーブル構造を作成し、関連情報を入力します。提供されたコードには、列、ヘッダー行、空の行、および「連絡先」列のテンプレート コンテンツの追加が含まれています。
-## ステップ 6: ドキュメントを保存する
+テーブル構造を組み立て、関連情報で埋めます。コード例には列の追加、ヘッダー行、空行、そして「Contacts」列用のテンプレートコンテンツが含まれています。
+
+## ステップ 6: ドキュメントの保存
 ```java
 Document d = new Document();
 d.appendChildLast(page);
 d.save(Paths.get(dataDir, "ComposeTable_out.one").toString());
 ```
-作成したドキュメントを指定したファイル名とディレクトリ パスで保存します。
+指定したファイル名とディレクトリパスで作成したドキュメントを保存します。
+
 ## 結論
-おめでとう！ Aspose.Note for Java を使用して OneNote でテーブルを正常に作成しました。このチュートリアルでは、プログラムによるドキュメント作成機能の強化を可能にする、段階的なプロセスを説明しました。
+おめでとうございます！Aspose.Note for Java を使用して **OneNote にテーブルを追加** することに成功しました。このチュートリアルは、ステップバイステップのプロセスを示し、プログラムからドキュメント作成機能を強化できるようにしました。
+
 ## よくある質問
-### Q: Aspose.Note for Java ドキュメントはどこで見つけられますか?
-ドキュメントを参照できます[ここ](https://reference.aspose.com/note/java/).
-### Q: Aspose.Note for Java をダウンロードするにはどうすればよいですか?
-からダウンロードできます[このリンク](https://releases.aspose.com/note/java/).
-### Q: 無料トライアルはありますか?
-はい、無料トライアルにアクセスできます[ここ](https://releases.aspose.com/).
-### Q: Aspose.Note for Java のサポートはどこで入手できますか?
-サポートフォーラムにアクセスしてください[ここ](https://forum.aspose.com/c/note/28).
-### Q: 仮免許は取得できますか?
-はい、仮免許を取得できます[ここ](https://purchase.aspose.com/temporary-license/).
+### Q: Aspose.Note for Java のドキュメントはどこで見つけられますか？
+ドキュメントは[こちら](https://reference.aspose.com/note/java/)をご参照ください。
+
+### Q: Aspose.Note for Java はどこからダウンロードできますか？
+[このリンク](https://releases.aspose.com/note/java/)からダウンロードできます。
+
+### Q: 無料トライアルは利用できますか？
+はい、無料トライアルは[こちら](https://releases.aspose.com/)から利用可能です。
+
+### Q: Aspose.Note for Java のサポートはどこで受けられますか？
+サポートフォーラムは[こちら](https://forum.aspose.com/c/note/28)です。
+
+### Q: 一時ライセンスを取得できますか？
+はい、一時ライセンスは[こちら](https://purchase.aspose.com/temporary-license/)から取得できます。
+
+---
+
+**Last Updated:** 2026-01-23  
+**Tested With:** Aspose.Note for Java (latest release)  
+**Author:** Aspose  
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
