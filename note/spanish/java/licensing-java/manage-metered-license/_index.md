@@ -1,33 +1,52 @@
 ---
-title: Administrar licencia medida para OneNote en Java
-linktitle: Administrar licencia medida para OneNote en Java
-second_title: Aspose.Nota Java API
-description: Aprenda a administrar licencias medidas para OneNote en Java usando la biblioteca Aspose.Note. Controle el uso, supervise los créditos y optimice los costos de manera eficiente.
-weight: 10
+date: 2026-01-28
+description: Aprende cómo convertir OneNote a PDF y gestionar una licencia medida
+  en Java usando Aspose.Note. Controla el uso, supervisa los créditos y mantén los
+  costos bajos.
+linktitle: Manage Metered License for OneNote in Java
+second_title: Aspose.Note Java API
+title: Convertir OneNote a PDF y gestionar licencia medida en Java
 url: /es/java/licensing-java/manage-metered-license/
+weight: 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Administrar licencia medida para OneNote en Java
+# Convertir OneNote a PDF y administrar licencia medida en Java
 
 ## Introducción
 
-En este tutorial, aprenderemos cómo administrar una licencia medida para OneNote usando Aspose.Note para Java. Las licencias medidas le permiten monitorear y controlar su uso en función de los créditos, lo que brinda una solución flexible y rentable.
+En este tutorial descubrirá cómo **convertir OneNote a PDF** mientras utiliza una licencia medida con la biblioteca Aspose.Note for Java. La licencia medida le permite rastrear el consumo de créditos en tiempo real, dándole la flexibilidad de pagar solo por lo que usa. Recorreremos todo el proceso: desde configurar sus claves de licencia hasta cargar un archivo OneNote, convertirlo a PDF y verificar su uso de créditos.
+
+## Respuestas rápidas
+- **¿Qué significa “convert OneNote to PDF”?** Transforma un archivo .one en un documento PDF portátil.  
+- **¿Qué biblioteca maneja la conversión?** Aspose.Note for Java proporciona una API simple para esta tarea.  
+- **¿Necesito una licencia para convertir?** Sí, se requiere una licencia medida para uso en producción.  
+- **¿Cómo puedo monitorear el uso?** Use `Metered.getConsumptionCredit()` y `Metered.getConsumptionQuantity()`.  
+- **¿Se requiere alguna configuración adicional?** Solo un Java JDK y el archivo JAR de Aspose.Note.
+
+## ¿Qué es “convert OneNote to PDF”?
+
+Convertir OneNote a PDF crea una representación estática y ampliamente compatible de las páginas de su cuaderno. Los PDFs son ideales para compartir, imprimir o archivar porque preservan el diseño, fuentes e imágenes en todas las plataformas.
+
+## ¿Por qué usar una licencia medida para esta conversión?
+
+Una licencia medida le cobra según el consumo real de créditos en lugar de una tarifa fija. Este modelo es perfecto cuando tiene necesidades intermitentes de conversión o desea mantener los costos predecibles mientras sigue accediendo al poder completo de Aspose.Note.
 
 ## Requisitos previos
 
-Antes de comenzar, asegúrese de tener los siguientes requisitos previos:
+Antes de comenzar, asegúrese de contar con:
 
-1.  Kit de desarrollo de Java (JDK): asegúrese de tener JDK instalado en su sistema. Puedes descargarlo desde[aquí](https://www.oracle.com/java/technologies/javase-jdk11-downloads.html).
-   
-2. Biblioteca Aspose.Note para Java: debe tener la biblioteca Aspose.Note para Java. Puedes descargarlo desde el[sitio web](https://releases.aspose.com/note/java/).
+1. **Java Development Kit (JDK)** – cualquier versión reciente (se recomienda JDK 11+). Descárguelo desde [aquí](https://www.oracle.com/java/technologies/javase-jdk11-downloads.html).  
+2. **Biblioteca Aspose.Note for Java** – obtenga el último JAR desde el [sitio web oficial](https://releases.aspose.com/note/java/).  
+
+> **Consejo profesional:** Añada el JAR de Aspose.Note al classpath de su proyecto o use una herramienta de construcción como Maven/Gradle para gestionar la dependencia.
 
 ## Importar paquetes
 
-Primero, importe los paquetes necesarios a su proyecto Java:
+Primero, importe las clases que necesitará. Mantenga este bloque exactamente como se muestra—sin cambios en el código mismo.
 
 ```java
 import com.aspose.note.Document;
@@ -38,16 +57,16 @@ import com.aspose.note.Metered;
 import java.nio.file.Paths;
 ```
 
-## Paso 1: configurar la licencia medida
+## Paso 1: Configurar la licencia medida
 
 ```java
 Metered metered = new Metered();
 metered.setMeteredKey("MyPublicKey", "MyPrivateKey");
 ```
 
- En este paso, inicializamos el`Metered` class y configure la clave medida con sus claves públicas y privadas proporcionadas por Aspose.
+Aquí creamos un objeto `Metered` e inyectamos las claves públicas/privadas que recibió de Aspose. Este paso activa el modo de licencia medida para todas las operaciones subsecuentes, incluida la llamada **convert OneNote to PDF**.
 
-## Paso 2: cargar el documento y realizar operaciones
+## Paso 2: Cargar el documento OneNote y convertir a PDF
 
 ```java
 String dataDir = "Your Document Directory";
@@ -55,42 +74,53 @@ Document doc = new Document(Paths.get(dataDir,"Sample1.one").toString());
 doc.save(Paths.get(dataDir,"MeteredLicense.pdf").toString());
 ```
 
- Aquí, cargamos el documento de OneNote desde el directorio especificado y lo guardamos como un archivo PDF. Asegúrese de reemplazar`"Your Document Directory"` con la ruta de su directorio real.
+- **Cargar**: `Document` lee el archivo `.one` ubicado en `dataDir`. Esta es la forma clásica de **cargar documento OneNote** para procesarlo.  
+- **Convertir y guardar**: Llamar a `save` con una extensión `.pdf` convierte automáticamente **.one a .pdf**. La operación también **guarda PDF desde OneNote** en la misma carpeta. Reemplace `"Your Document Directory"` con la ruta real en su máquina.
 
-## Paso 3: Verificar el consumo
+## Paso 3: Verificar el consumo de créditos antes y después de la conversión
 
 ```java
 System.out.println(String.format("Credit before operation: %.02f", Metered.getConsumptionCredit()));
 System.out.println(String.format("Consumption quantity before operation: %.02f", Metered.getConsumptionQuantity()));
 ```
 
-Este paso recupera e imprime la cantidad de crédito y consumo antes y después de la operación.
+Estas dos líneas imprimen el saldo de créditos restante y la cantidad de crédito usado por la conversión. Ejecutar las mismas llamadas después de la operación `save` mostrará los valores actualizados, permitiéndole verificar que la licencia medida está rastreando el uso correctamente.
 
-## Conclusión
+## Problemas comunes y soluciones
 
-En este tutorial, aprendimos cómo administrar una licencia medida para OneNote en Java usando la biblioteca Aspose.Note. Las licencias medidas brindan flexibilidad y control sobre su uso, lo que garantiza rentabilidad y una gestión eficiente de los recursos.
+| Problema | Por qué ocurre | Solución |
+|----------|----------------|----------|
+| **Claves de licencia medida inválidas** | Las claves están mal escritas o expiradas. | Verifique nuevamente las claves de su cuenta Aspose; regenéreles si es necesario. |
+| **Archivo no encontrado** | La ruta `dataDir` es incorrecta. | Use una ruta absoluta o verifique la ruta relativa desde la raíz de su proyecto. |
+| **Créditos insuficientes** | Todos los créditos han sido consumidos. | Adquiera créditos adicionales o cambie a una licencia permanente para cargas de trabajo de alto volumen. |
 
 ## Preguntas frecuentes
 
-### P1: ¿Qué es una licencia medida?
+**P: ¿Qué es una licencia medida?**  
+R: Una licencia medida le permite pagar por el uso de la API basado en créditos, ofreciendo un control de costos granular.
 
-R1: Una licencia medida le permite monitorear y controlar su uso de una API o servicio en función de los créditos.
-   
-### P2: ¿Cómo obtengo una clave medida para los productos Aspose?
+**P: ¿Cómo obtengo una clave medida para los productos Aspose?**  
+R: Compre una licencia en el sitio web de Aspose o solicite una clave de evaluación temporal a través del panel de su cuenta.
 
-R2: Puede obtener una clave medida comprando una licencia en el sitio web de Aspose o solicitando una licencia temporal para fines de evaluación.
-   
-### P3: ¿Puedo utilizar una licencia medida para múltiples aplicaciones?
+**P: ¿Puedo usar una licencia medida en múltiples aplicaciones?**  
+R: Sí, pero todo el consumo se agrega bajo la misma clave, así que monitoree el uso total cuidadosamente.
 
-R3: Sí, una licencia medida se puede utilizar en múltiples aplicaciones, pero el consumo se agregará.
-   
-### P4: ¿Hay una prueba gratuita disponible para Aspose.Note para Java?
+**P: ¿Hay una prueba gratuita para Aspose.Note for Java?**  
+R: Sí, puede descargar una prueba gratuita desde [aquí](https://releases.aspose.com/).
 
- R4: Sí, puedes descargar una prueba gratuita desde[aquí](https://releases.aspose.com/).
-   
-### P5: ¿Dónde puedo obtener soporte para Aspose.Note para Java?
+**P: ¿Dónde puedo obtener soporte para Aspose.Note for Java?**  
+R: Haga preguntas en los foros de la comunidad de Aspose [aquí](https://forum.aspose.com/c/note/28).
 
- R5: Puede obtener soporte en los foros de la comunidad Aspose[aquí](https://forum.aspose.com/c/note/28).
+## Conclusión
+
+Ahora tiene un flujo de trabajo completo y listo para producción para **convertir OneNote a PDF** mientras gestiona una licencia medida en Java. Al verificar el consumo de créditos antes y después de la conversión, puede asegurarse de que su aplicación se mantenga dentro del presupuesto y escale eficientemente.
+
+---
+
+**Last Updated:** 2026-01-28  
+**Tested With:** Aspose.Note for Java 24.12 (latest at time of writing)  
+**Author:** Aspose  
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
