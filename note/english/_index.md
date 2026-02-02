@@ -5,7 +5,7 @@ additionalTitle: Aspose API References
 description: Learn how to import PDF into OneNote with Aspose.Note, and discover how to print OneNote documents, create hyperlinks, and manage tags efficiently.
 weight: 11
 url: /
-date: 2025-11-28
+date: 2026-02-02
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
@@ -53,6 +53,12 @@ Below is the high‑level process you’ll follow in both .NET and Java environm
 - **Create tables onenote:** Insert `Table` objects to organise data in rows and columns.  
 - **Manage onenote tags:** Apply tags like “Important”, “Question”, or custom tags to highlight key sections.  
 - **Outlook task integration onenote:** Convert tagged items into Outlook tasks for follow‑up.
+
+## Common Issues and Solutions
+- **Large PDFs cause high memory usage:** Process the PDF one page at a time and dispose of each page object before moving to the next.  
+- **Password‑protected PDFs fail to load:** Supply the PDF password when opening the stream; Aspose.Note will decrypt it automatically.  
+- **Imported images appear blurry:** Ensure you set a high DPI when rendering PDF pages to images before import.  
+- **Hyperlinks not clickable after import:** Verify that the `Url` property of the `Hyperlink` object includes the full protocol (e.g., `https://`).  
 
 ## Aspose.Note for .NET Tutorials
 {{% alert color="primary" %}}
@@ -117,7 +123,7 @@ A: Process the PDF in chunks (e.g., one page at a time) and dispose of intermedi
 
 ---
 
-**Last Updated:** 2025-11-28  
+**Last Updated:** 2026-02-02  
 **Tested With:** Aspose.Note 24.11 for .NET & Java  
 **Author:** Aspose  
 
