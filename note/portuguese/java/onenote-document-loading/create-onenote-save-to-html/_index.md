@@ -1,5 +1,5 @@
 ---
-date: 2025-12-02
+date: 2026-02-07
 description: Aprenda como exportar fontes ao salvar o OneNote como HTML usando Aspose.Note
   para Java. Este guia mostra como criar o OneNote programaticamente e incorporar
   fontes, CSS e imagens.
@@ -18,24 +18,24 @@ weight: 18
 
 ## Introdução
 
-Neste tutorial você descobrirá **como exportar fontes** ao **salvar OneNote como HTML** usando Aspose.Note for Java. Vamos percorrer a criação de um documento OneNote programaticamente, a configuração das opções de salvamento HTML e a incorporação dos arquivos de fonte necessários para que o HTML resultante fique exatamente como as páginas originais do OneNote. Essa abordagem é perfeita quando você precisa preservar a fidelidade visual do conteúdo do OneNote em um formato amigável para a web.
+Neste tutorial você descobrirá **como exportar fontes** ao **salvar OneNote como HTML** usando Aspose.Note for Java. Vamos percorrer a criação de um documento OneNote programaticamente, configurar as opções de salvamento HTML e incorporar os arquivos de fonte necessários para que o HTML resultante tenha exatamente a mesma aparência das páginas originais do OneNote. Essa abordagem é perfeita quando você precisa preservar a fidelidade visual do conteúdo do OneNote em um formato amigável para a web.
 
-## Respostas rápidas
+## Respostas Rápidas
 - **Qual biblioteca lida com a exportação?** Aspose.Note for Java  
-- **As fontes podem ser incorporadas no HTML?** Sim – defina `ExportFonts` como `ExportEmbedded`  
-- **Preciso de licença para produção?** Uma licença válida do Aspose.Note é necessária para uso comercial  
+- **É possível incorporar fontes no HTML?** Sim – defina `ExportFonts` como `ExportEmbedded`  
+- **Preciso de uma licença para produção?** Uma licença válida do Aspose.Note é necessária para uso comercial  
 - **Qual versão do Java é suportada?** Java 8 ou superior  
-- **É possível salvar recursos em arquivos separados?** Absolutamente – configure `ResourceExportType` conforme necessário  
+- **É possível salvar recursos em arquivos separados?** Absolutamente – configure `ResourceExportType` adequadamente  
 
-## O que significa “como exportar fontes” no contexto da conversão de OneNote para HTML?
+## O que é “como exportar fontes” no contexto da conversão de OneNote para HTML?
 
-Ao converter um bloco de notas OneNote para HTML, a aparência visual depende de CSS, imagens e, especialmente, das fontes usadas nas páginas originais. **Exportar fontes** significa incorporar os arquivos de fonte (por exemplo, TTF) diretamente no pacote HTML para que os navegadores possam renderizar o texto exatamente como aparece no OneNote, mesmo que o usuário final não tenha essas fontes instaladas localmente.
+Ao converter um caderno do OneNote para HTML, a aparência visual depende de CSS, imagens e, especialmente, das fontes usadas nas páginas originais. **Exportar fontes** significa incorporar os arquivos de fonte (por exemplo, TTF) diretamente no pacote HTML para que os navegadores possam renderizar o texto exatamente como aparece no OneNote, mesmo que o usuário final não tenha essas fontes instaladas localmente.
 
-## Por que criar OneNote programaticamente e salvá-lo como HTML?
+## Por que criar OneNote programaticamente e salvá‑lo como HTML?
 
-- **Automação:** Gere relatórios, documentação ou artigos de base de conhecimento a partir do OneNote sem copiar‑colar manualmente.  
-- **Consistência:** Preserve layout, estilos e fontes personalizadas em todos os dispositivos.  
-- **Portabilidade:** HTML é visualizável universalmente—não há necessidade do cliente OneNote.  
+- **Automação:** Gere relatórios, documentação ou artigos de base de conhecimento a partir do OneNote sem copiar e colar manualmente.  
+- **Consistência:** Preserve layout, estilos e fontes personalizadas em diferentes dispositivos.  
+- **Portabilidade:** HTML pode ser visualizado universalmente—não é necessário o cliente OneNote.  
 
 ## Pré‑requisitos
 
@@ -69,17 +69,17 @@ import com.aspose.note.ResourceExportType;
 
 ## Como Exportar Fontes ao Salvar OneNote como HTML?
 
-A seguir, um guia passo a passo que mostra **como exportar fontes** e outros recursos.
+Abaixo está um guia passo a passo que mostra **como exportar fontes** e outros recursos.
 
-### Passo 1: Criar um documento OneNote programaticamente  
+### Etapa 1: Criar um documento OneNote programaticamente  
 
 ```java
 Document document = new Document("Path_to_your_sample_one_file");
 ```
 
-Esta linha carrega um arquivo `.one` existente. Se precisar **criar OneNote programaticamente**, pode instanciar um novo objeto `Document` e adicionar seções/páginas via API (não mostrado aqui para manter o foco na exportação de fontes).
+Esta linha carrega um arquivo `.one` existente. Se você precisar **criar OneNote programaticamente**, pode instanciar um novo objeto `Document` e adicionar seções/páginas via API (não mostrado aqui para manter o foco na exportação de fontes).
 
-### Passo 2: Salvar em um fluxo de memória com fontes incorporadas  
+### Etapa 2: Salvar em um fluxo de memória com fontes incorporadas  
 
 ```java
 HtmlSaveOptions options = new HtmlSaveOptions();
@@ -92,10 +92,10 @@ ByteArrayOutputStream outputStream = new ByteArrayOutputStream();
 document.save(outputStream, options);
 ```
 
-- `setExportFonts(ResourceExportType.ExportEmbedded)` indica ao Aspose.Note para **exportar fontes** diretamente no pacote HTML.  
-- `setFontFaceTypes(FontFaceType.Ttf)` garante que fontes TrueType sejam usadas, pois têm amplo suporte nos navegadores.
+- `setExportFonts(ResourceExportType.ExportEmbedded)` informa ao Aspose.Note para **exportar fontes** diretamente no pacote HTML.  
+- `setFontFaceTypes(FontFaceType.Ttf)` garante que fontes TrueType sejam usadas, as quais têm amplo suporte nos navegadores.
 
-### Passo 3: Salvar como HTML com arquivos de recursos separados (ainda exportando fontes)  
+### Etapa 3: Salvar como HTML com arquivos de recursos separados (ainda exportando fontes)  
 
 ```java
 HtmlSaveOptions options = new HtmlSaveOptions();
@@ -106,9 +106,9 @@ options.setExportImages(ResourceExportType.ExportEmbedded);
 document.save("output_directory/document.html", options);
 ```
 
-Mesmo que CSS e imagens estejam incorporados, você pode mudar `ResourceExportType` para `ExportExternal` se preferir arquivos separados para facilitar o cache. A parte essencial—**exportar fontes**—permanece inalterada.
+Mesmo que CSS e imagens estejam incorporados, você pode mudar o `ResourceExportType` para `ExportExternal` se preferir arquivos separados para facilitar o cache. A parte principal—**exportar fontes**—permanece inalterada.
 
-### Passo 4: Usar callbacks para controlar onde cada recurso é armazenado  
+### Etapa 4: Usar callbacks para controlar onde cada recurso é armazenado  
 
 ```java
 Document document = new Document("Path_to_your_sample_one_file");
@@ -139,11 +139,23 @@ document.save(Paths.get(savingCallbacks.getRootFolder(), "document.html").toStri
 
 A classe `UserSavingCallbacks` (você precisará implementar `ICssSavingCallback`, `IImageSavingCallback` e `IFontSavingCallback`) oferece controle total sobre a estrutura de pastas, permitindo que você mantenha as fontes em um diretório dedicado `fonts` enquanto ainda **exporta fontes** corretamente.
 
+## Como incorporar fontes personalizadas ao converter OneNote para HTML
+
+Incorporar fontes personalizadas garante que a renderização do HTML corresponda ao layout original do OneNote, mesmo em dispositivos que não possuem essas fontes instaladas. Ao usar `ExportEmbedded` junto com `FontFaceType.Ttf`, os arquivos TrueType são codificados em base‑64 e inseridos diretamente no CSS gerado, eliminando a necessidade de hospedagem externa de fontes.
+
+## Usando ResourceExportType para controlar a exportação de recursos
+
+`ResourceExportType` permite decidir se CSS, imagens e fontes são armazenados **dentro** do arquivo HTML (`ExportEmbedded`) ou salvos como arquivos **externos** (`ExportExternal`). Escolha `ExportEmbedded` para uma solução de arquivo único, ou `ExportExternal` quando quiser aproveitar o cache do navegador para ativos grandes.
+
+## Criando OneNote programaticamente para exportação HTML
+
+Se você começar do zero, pode construir um documento OneNote totalmente em código, adicionar seções, páginas e texto rico, e então aplicar as mesmas `HtmlSaveOptions` mostradas acima. Isso fornece automação de ponta a ponta: da geração de dados a uma saída HTML totalmente estilizada com fontes personalizadas incorporadas.
+
 ## Problemas Comuns & Dicas
 
 - **Fontes ausentes na saída:** Verifique se `setExportFonts(ResourceExportType.ExportEmbedded)` está definido e se o arquivo OneNote de origem realmente usa fontes incorporadas.  
 - **Arquivos HTML grandes:** Incorporar fontes pode aumentar o tamanho. Se a largura de banda for uma preocupação, altere `ExportFonts` para `ExportExternal` e hospede as fontes em um CDN.  
-- **Erros na implementação de callbacks:** Certifique‑se de que suas classes de callback gravem o stream corretamente e fechem os recursos para evitar corrupção de arquivos.  
+- **Erros na implementação de callbacks:** Garanta que suas classes de callback escrevam corretamente o fluxo e fechem os recursos para evitar corrupção de arquivos.  
 
 ## Perguntas Frequentes
 
@@ -151,10 +163,10 @@ A classe `UserSavingCallbacks` (você precisará implementar `ICssSavingCallback
 A: Sim, itere sobre cada instância `Document` e aplique as mesmas `HtmlSaveOptions`.  
 
 **Q: O Aspose.Note for Java suporta outros formatos de saída além de HTML?**  
-A: Absolutamente. Você pode exportar para PDF, DOCX, PNG, JPEG e muito mais usando as opções de salvamento apropriadas.  
+A: Absolutamente. Você pode exportar para PDF, DOCX, PNG, JPEG e mais usando as opções de salvamento apropriadas.  
 
 **Q: Existe uma versão de avaliação disponível para Aspose.Note for Java?**  
-A: Sim, faça o download de um teste gratuito [aqui](https://releases.aspose.com/).  
+A: Sim, faça o download de uma avaliação gratuita [aqui](https://releases.aspose.com/).  
 
 **Q: Onde posso obter suporte para Aspose.Note for Java?**  
 A: Visite o [forum Aspose.Note](https://forum.aspose.com/c/note/28) para assistência da comunidade e oficial.  
@@ -164,13 +176,13 @@ A: Licenças estão disponíveis no [site da Aspose](https://purchase.aspose.com
 
 ## Conclusão
 
-Agora você sabe **como exportar fontes** ao **salvar OneNote como HTML** usando Aspose.Note for Java. Configurando `HtmlSaveOptions` e, opcionalmente, usando callbacks, você pode preservar a aparência exata das suas páginas OneNote—including fontes personalizadas—ao entregá‑las na web. Sinta‑se à vontade para experimentar diferentes configurações de `ResourceExportType` para atender aos requisitos de desempenho e armazenamento do seu projeto.
+Agora você sabe **como exportar fontes** ao **salvar OneNote como HTML** usando Aspose.Note for Java. Configurando `HtmlSaveOptions` e, opcionalmente, usando callbacks, você pode preservar a aparência exata das suas páginas OneNote — incluindo fontes personalizadas — ao entregá‑las na web. Sinta‑se à vontade para experimentar diferentes configurações de `ResourceExportType` para atender aos requisitos de desempenho e armazenamento do seu projeto.
 
 ---
 
-**Última atualização:** 2025-12-02  
-**Testado com:** Aspose.Note for Java 24.12  
-**Autor:** Aspose
+**Last Updated:** 2026-02-07  
+**Tested With:** Aspose.Note for Java 24.12  
+**Author:** Aspose  
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
