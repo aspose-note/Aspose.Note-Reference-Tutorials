@@ -1,12 +1,10 @@
 ---
-date: 2025-12-02
-description: Aspose.Note ile Java’da şifre korumalı OneNote belgeleri oluşturarak
-  OneNote’u nasıl koruyacağınızı öğrenin. Defterlerinize güçlü güvenlik eklemek için
-  bu adım adım rehberi izleyin.
-linktitle: Create Password-Protected OneNote Documents - Java
+date: 2026-02-07
+description: Java ve Aspose.Note kullanarak OneNote dosyalarına şifre eklemeyi öğrenin.
+  Bu rehber, şifre korumalı OneNote defterlerini hızlı bir şekilde oluşturmayı gösterir.
+linktitle: Add Password to OneNote - Java
 second_title: Aspose.Note Java API
-title: 'OneNote''i Nasıl Korursunuz: Şifre Koruması Olan OneNote Belgeleri Oluşturma
-  - Java'
+title: Java ile OneNote Belgelerine Şifre Ekleme
 url: /tr/java/onenote-document-loading/create-password-protected-onenote/
 weight: 19
 ---
@@ -15,34 +13,35 @@ weight: 19
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# OneNote'u Nasıl Koruyabilirsiniz: Şifre Koruması Olan OneNote Belgeleri Oluşturma - Java
+# Java Kullanarak OneNote Belgelerine Şifre Ekleme
 
-Bu öğreticide, **Java ve Aspose.Note kütüphanesini kullanarak OneNote** dosyalarına şifre ekleyerek nasıl koruyacağınızı keşfedeceksiniz. Gizli toplantı notları ya da hassas proje planlarıyla çalışıyor olun, şifre koruması yetkisiz kullanıcıların erişimini engelleyen ekstra bir güvenlik katmanı sağlar. Ortamı kurmaktan kilitli bir OneNote dosyasını kaydetmeye kadar tüm adımları adım adım göstereceğiz; böylece sadece birkaç dakika içinde defterlerinizi güvenle koruyabilirsiniz.
+Bu öğreticide, **OneNote** dosyalarına şifre eklemeyi Aspose.Note Java kütüphanesi ile keşfedeceksiniz. Gizli toplantı tutanakları, finansal planlar veya kişisel araştırmalarınızı saklıyor olun, OneNote’a şifre eklemek yetkisiz gözlerden koruyan ekstra bir güvenlik katmanı sağlar. Geliştirme ortamınızı hazırlamaktan kilitli bir not defterini kaydetmeye kadar her adımı adım adım göstereceğiz; böylece sadece birkaç dakika içinde OneNote not defterlerinizi güvence altına alabilirsiniz.
 
 ## Hızlı Yanıtlar
-- **“how to protect onenote” ne anlama geliyor?** Bu, bir OneNote dosyasına şifre‑tabanlı güvenlik ekleyerek yalnızca doğru şifreye sahip kullanıcıların dosyayı açabilmesini sağlar.  
-- **Koruma işlemini hangi kütüphane gerçekleştiriyor?** Aspose.Note for Java, belge şifresi ayarlamak için basit bir API sunar.  
-- **Lisans gerekli mi?** Test amaçlı ücretsiz deneme sürümü çalışır; üretim kullanımı için ticari lisans gerekir.  
-- **Hangi Java sürümü gerekiyor?** Java 8 veya daha yenisi tam olarak desteklenir.  
-- **Uygulama ne kadar sürer?** SDK yüklendikten sonra genellikle 10 dakikadan az sürer.
+- **“add password to onenote” ne anlama geliyor?** Bir OneNote dosyasını şifreyle şifreleyerek sadece şifreyi bilen kullanıcıların not defterini açabilmesini sağlar.  
+- **Koruma hangi kütüphane tarafından sağlanıyor?** Aspose.Note for Java, belge şifresi ayarlamak için basit bir API sunar.  
+- **Lisans gerekiyor mu?** Test için ücretsiz deneme sürümü yeterlidir; üretim kullanımı için ticari lisans gereklidir.  
+- **Hangi Java sürümü gerekli?** Java 8 ve üzeri tam desteklenir.  
+- **Uygulama ne kadar sürer?** SDK kurulduktan sonra genellikle 10 dakika altında tamamlanır.
 
-## “how to protect onenote” nedir?
-OneNote defterini korumak, dosyayı açarken girilmesi gereken bir şifreyle şifrelemek anlamına gelir. Bu, kazara veri sızıntılarını önler ve gizli bilgiler için uyumluluk gereksinimlerini karşılamaya yardımcı olur.
+## “add password to onenote” nedir?
+OneNote’a şifre eklemek, not defteri dosyasını şifreleyerek açılışta doğru şifrenin girilmesini zorunlu kılar. Bu basit adım, kazara veri sızıntılarını önler ve gizli bilgiler için uyumluluk gereksinimlerini karşılamanıza yardımcı olur.
 
-## Neden şifre korumalı OneNote dosyaları oluşturmalısınız?
-- **Veri gizliliği:** Hassas toplantı tutanakları, finansal veriler veya kişisel notlar güven içinde kalır.  
+## OneNote not defterleri neden güvence altına alınmalı?
+- **Veri gizliliği:** Hassas toplantı tutanakları, finansal veriler veya kişisel notlar güvende kalır.  
 - **Uyumluluk:** GDPR, HIPAA veya kurum içi güvenlik politikalarına uyumu destekler.  
-- **Kullanım kolaylığı:** Kullanıcıların yalnızca tek bir şifreyi hatırlaması yeterlidir; karmaşık sertifika yönetimi gerekmez.
+- **Kullanım kolaylığı:** Kullanıcıların sadece tek bir şifre hatırlaması yeterlidir; karmaşık sertifika yönetimi gerekmez.  
+- **OneNote not defterini şifreyle koruma:** Yerleşik koruma, tüm büyük OneNote sürümlerinde çalışır ve kurumsal ortamlar için güvenilir bir seçimdir.
 
 ## Önkoşullar
 Başlamadan önce aşağıdakilere sahip olduğunuzdan emin olun:
 
-1. **Java Development Kit (JDK)** – Makinenizde Java 8 veya daha yeni bir sürüm kurulu.  
-2. **Aspose.Note for Java** – En son sürümü [web sitesi](https://releases.aspose.com/note/java/) üzerinden indirin.  
+1. **Java Development Kit (JDK)** – Java 8 veya daha yeni bir sürüm makinenizde kurulu olmalı.  
+2. **Aspose.Note for Java** – En son sürümü [web sitesinden](https://releases.aspose.com/note/java/) indirin.  
 3. **IDE** – Tercih ettiğiniz herhangi bir Java IDE (Eclipse, IntelliJ IDEA, VS Code vb.).
 
 ## Paketleri İçe Aktarma
-İhtiyacımız olan sınıfları içe aktaralım. İçe aktarma bloğu tam olarak gösterildiği gibi kalmalıdır.
+İhtiyacımız olan sınıfları içe aktarın. İçe aktarma bloğu tam olarak gösterildiği gibi kalmalıdır.
 
 ```java
 import java.io.IOException;
@@ -50,15 +49,18 @@ import com.aspose.note.Document;
 import com.aspose.note.OneSaveOptions;
 ```
 
-## Adım 1: OneNote Belgesini Yükleyin
-Koruma altına almak istediğiniz mevcut `.one` dosyasını yükleyin. `"Your Document Directory"` ifadesini sisteminizdeki gerçek yol ile değiştirin.
+## Aspose.Note ile OneNote’a Şifre Ekleme
+Aşağıda **şifre korumalı OneNote** dosyaları oluşturmanızı sağlayan adım‑adım kılavuz yer alıyor.
+
+### Adım 1: OneNote Belgesini Yükleme
+Koruma eklemek istediğiniz mevcut `.one` dosyasını yükleyin. `"Your Document Directory"` ifadesini sisteminizdeki gerçek yol ile değiştirin.
 
 ```java
 String dataDir = "Your Document Directory";
 Document document = new Document(dataDir + "Sample1.one");
 ```
 
-## Adım 2: Şifreyi Ayarlayın ve Belgeyi Kaydedin
+### Adım 2: Şifreyi Ayarlama ve Belgeyi Kaydetme
 Bir `OneSaveOptions` örneği oluşturun, şifreyi ayarlayın ve ardından korumalı dosyayı kaydedin.
 
 ```java
@@ -70,42 +72,42 @@ saveOptions.setDocumentPassword("YourPassword");
 document.save(dataDir + "CreatePasswordProtected_out.one", saveOptions);
 ```
 
-> **Pro tip:** Büyük harf, küçük harf, sayı ve sembollerin karışımını içeren güçlü bir şifre seçin. Şifreyi güvenli bir yerde (ör. bir şifre yöneticisi) saklayın; çünkü şifre kaybolursa defter açılamaz.
+> **Pro ipucu:** Büyük harf, küçük harf, sayı ve sembollerin karışımını içeren güçlü bir şifre seçin. Şifreyi güvenli bir yerde (ör. bir şifre yöneticisi) saklayın; çünkü şifre kaybolursa not defteri açılamaz.
 
-### Başardığınız Şey
-Bu adımları izleyerek **şifre korumalı bir OneNote** dosyası oluşturmuş oldunuz; yalnızca belirlediğiniz şifreyi bilen kullanıcılar dosyayı açabilir. Bu basit yaklaşım, dijital defterlerinizin güvenlik seviyesini önemli ölçüde artırır.
+### Başardıklarınız
+Bu adımları izleyerek **şifre korumalı OneNote** dosyası oluşturmuş oldunuz; yalnızca şifreyi bilen kullanıcılar dosyayı açabilir. Bu basit yaklaşım, dijital not defterlerinizin güvenlik seviyesini büyük ölçüde artırır.
 
 ## Yaygın Sorunlar ve Çözümler
-| Sorun | Sebep | Çözüm |
+| Sorun | Neden | Çözüm |
 |-------|--------|-----|
-| **“Invalid password” hatası alınıyor** | Şifre doğru kaydedilmemiş ya da dosya bozulmuş. | Şifre dizesinin doğru olduğundan emin olun ve kaydetme adımını tekrar çalıştırın. |
+| **“Invalid password” hatası alınıyor** | Şifre doğru kaydedilmemiş veya dosya bozulmuş. | Şifre dizgisinin doğru olduğundan emin olun ve kaydetme adımını tekrar çalıştırın. |
 | **Dosya bulunamadı** | `dataDir` yolu hatalı. | Mutlak bir yol kullanın veya göreli dizini iki kez kontrol edin. |
 | **Uyumluluk uyarıları** | Eski bir Aspose.Note sürümü kullanılıyor. | En son Aspose.Note for Java sürümüne güncelleyin. |
 
-## Sıkça Sorulan Sorular
+## Sık Sorulan Sorular
 
-**S: Zaten şifre korumalı bir OneNote belgesinin şifresini değiştirebilir miyim?**  
-C: Evet. Belgeyi mevcut şifreyle yükleyin, `OneSaveOptions` ile yeni bir şifre belirleyin ve tekrar kaydedin.
+**S: Zaten korunmuş bir OneNote belgesinin şifresini değiştirebilir miyim?**  
+C: Evet. Mevcut şifreyle belgeyi yükleyin, `OneSaveOptions` ile yeni şifreyi ayarlayın ve tekrar kaydedin.
 
 **S: Aspose.Note tüm OneNote sürümleriyle uyumlu mu?**  
 C: Aspose.Note, OneNote 2007, 2010, 2013, 2016 ve UWP sürümünü destekleyerek geniş bir uyumluluk sağlar.
 
-**S: Şifre korumasını nasıl kaldırabilirim?**  
-C: Mevcut şifreyle belgeyi yükleyin, `saveOptions.setDocumentPassword(null)` ayarlayın ve dosyayı kaydedin.
+**S: OneNote şifresini nasıl kaldırırım?**  
+C: Mevcut şifreyle belgeyi yükleyin, `saveOptions.setDocumentPassword(null)` çağrısını yapın ve dosyayı kaydedin. Bu işlem **onenote şifresini kaldırır**.
 
 **S: Aspose.Note basit şifrelerin ötesinde şifreleme algoritmaları sunuyor mu?**  
 C: Evet. Kütüphane, belge şifresi ayarlandığında otomatik olarak uygulanan AES‑256 şifrelemesini destekler.
 
 **S: Aspose.Note büyük ölçekli, kurumsal dağıtımlar için uygun mu?**  
-C: Kesinlikle. Yüksek performanslı, sunucu‑tarafı işleme için tasarlanmıştır ve kurumsal kullanım için güçlü güvenlik özellikleri içerir.
+C: Kesinlikle. Yüksek performanslı sunucu tarafı işleme için tasarlanmıştır ve kurumsal kullanım için sağlam güvenlik özellikleri içerir.
 
 ## Sonuç
-Artık **Java ve Aspose.Note kullanarak şifre korumalı bir OneNote dosyası oluşturmayı** biliyorsunuz. Bu teknik hızlı bir şekilde uygulanabilir, az kod gerektirir ve hassas defter içeriğiniz için güçlü bir koruma sağlar. Belge akışınızı daha da geliştirmek için bölüm yönetimi, resim ekleme veya toplu işleme gibi ek Aspose.Note özelliklerini keşfetmekten çekinmeyin.
+Artık **Java ve Aspose.Note kullanarak OneNote’a şifre ekleme** yöntemini biliyorsunuz. Bu teknik hızlı bir şekilde uygulanabilir, az kod gerektirir ve hassas not defteri içeriği için güçlü koruma sağlar. Belge akışınızı daha da geliştirmek için bölüm yönetimi, resim ekleme veya toplu işleme gibi ek Aspose.Note özelliklerini keşfetmekten çekinmeyin.
 
 ---
 
-**Son Güncelleme:** 2025-12-02  
-**Test Edilen Versiyon:** Aspose.Note for Java 24.12 (yazım anındaki en son sürüm)  
+**Son Güncelleme:** 2026-02-07  
+**Test Edilen:** Aspose.Note for Java (yazım anındaki en son sürüm)  
 **Yazar:** Aspose  
 
 {{< /blocks/products/pf/tutorial-page-section >}}
