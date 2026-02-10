@@ -1,11 +1,11 @@
 ---
-date: 2025-12-04
-description: Dowiedz się, jak wyodrębnić format pliku Aspose.Note z plików OneNote
-  w języku Java przy użyciu Aspose.Note. Ten samouczek pokazuje kod krok po kroku
-  oraz najlepsze praktyki.
+date: 2026-02-10
+description: Dowiedz się, jak wykrywać format pliku OneNote przy użyciu Aspose.Note
+  dla Javy. Ten przewodnik pokazuje, jak uzyskać format pliku OneNote oraz najlepsze
+  praktyki.
 linktitle: Get Aspose Note File Format Info from OneNote - Java
 second_title: Aspose.Note Java API
-title: Pobierz informacje o formacie pliku Aspose Note z OneNote przy użyciu Javy
+title: Jak wykryć format pliku OneNote przy użyciu Aspose.Note – Java
 url: /pl/java/onenote-document-loading/get-file-format-info/
 weight: 22
 ---
@@ -18,18 +18,18 @@ weight: 22
 
 ## Wprowadzenie
 
-W tym samouczku dowiesz się, jak pobrać **aspose note file format** dokumentu OneNote przy użyciu języka Java i API Aspose.Note. Znajomość dokładnego formatu pliku pozwala dostosować logikę przetwarzania — na przykład obsługiwać pliki OneNote 2010 inaczej niż pliki OneNote Online — dzięki czemu Twoja aplikacja będzie działać niezawodnie z dowolną wersją notatnika OneNote.
+W tym samouczku dowiesz się **jak wykrywać format pliku OneNote** przy użyciu Javy i API Aspose.Note. Pobranie formatu pliku Aspose note z dokumentu OneNote pozwala dostosować logikę przetwarzania — na przykład obsługiwać pliki OneNote 2010 inaczej niż pliki OneNote Online — dzięki czemu Twoja aplikacja będzie działać niezawodnie z dowolną wersją notatnika OneNote.
 
 ## Szybkie odpowiedzi
 - **Co oznacza „aspose note file format”?** To wartość wyliczeniowa, która informuje, do której wersji OneNote należy plik (np. OneNote 2010, OneNote Online).  
-- **Która biblioteka udostępnia te informacje?** Aspose.Note for Java.  
+- **Która biblioteka dostarcza te informacje?** Aspose.Note for Java.  
 - **Czy potrzebna jest licencja do uruchomienia przykładu?** Darmowa wersja próbna wystarczy do oceny; licencja komercyjna jest wymagana w środowisku produkcyjnym.  
 - **Jakie są wymagania wstępne?** JDK 11+ oraz plik JAR Aspose.Note for Java w classpath.  
-- **Jak długo zajmuje implementacja?** Około 5 minut na skopiowanie kodu i jego uruchomienie.
+- **Ile czasu zajmuje implementacja?** Około 5 minut na skopiowanie kodu i jego uruchomienie.
 
 ## Wymagania wstępne
 
-Zanim rozpoczniemy, upewnij się, że masz następujące elementy skonfigurowane:
+Zanim zaczniemy, upewnij się, że masz przygotowane następujące wymagania:
 
 1. Java Development Kit (JDK): Upewnij się, że masz zainstalowany JDK w systemie. Możesz pobrać i zainstalować JDK z [tutaj](https://www.oracle.com/java/technologies/javase-jdk11-downloads.html).
 
@@ -39,7 +39,7 @@ Zanim rozpoczniemy, upewnij się, że masz następujące elementy skonfigurowane
 
 Najpierw zaimportuj niezbędne pakiety do swojego projektu Java, aby rozpocząć pracę z Aspose.Note. Oto jak to zrobić:
 
-## Krok 1: Importuj pakiet Aspose.Note
+## Krok 1: Import pakietu Aspose.Note
 
 ```java
 import java.io.IOException;
@@ -49,9 +49,9 @@ import com.aspose.note.FileFormat;
 
 Teraz przejdźmy do pobierania informacji o **aspose note file format** z pliku OneNote.
 
-## Pobierz format pliku Aspose Note
+## Jak wykrywać format pliku OneNote przy użyciu Aspose.Note
 
-### Krok 2: Zainicjalizuj obiekt Document
+### Krok 2: Inicjalizacja obiektu Document
 
 ```java
 String dataDir = "Your Document Directory";
@@ -60,7 +60,7 @@ Document document = new Document(dataDir + "Aspose.one");
 
 ### Krok 3: Instrukcja switch dla formatu pliku
 
-Użyj instrukcji `switch`, aby określić format pliku dokumentu OneNote. Dzięki temu możesz rozgałęzić logikę w zależności od tego, czy plik jest notatnikiem OneNote 2010, czy OneNote Online.
+Użyj instrukcji `switch`, aby określić format pliku dokumentu OneNote. Dzięki temu możesz rozgałęzić logikę w zależności od tego, czy plik jest notatnikiem OneNote 2010 czy OneNote Online.
 
 ```java
 switch (document.getFileFormat()) {
@@ -73,64 +73,66 @@ switch (document.getFileFormat()) {
 }
 ```
 
-## Dlaczego znajomość formatu pliku Aspose Note ma znaczenie
+## Dlaczego znajomość formatu Aspose Note ma znaczenie
 
-Identyfikacja dokładnego formatu pliku pomaga:
+* **Wybierz odpowiedni silnik renderujący** – starsze formaty mogą wymagać obsługi legacy.  
+* **Unikaj problemów kompatybilności** – niektóre funkcje są dostępne tylko w nowszych wersjach OneNote.  
+* **Optymalizuj wydajność** – możesz pominąć niepotrzebne przetwarzanie formatów, które nie są obsługiwane.
 
-* **Wybrać odpowiedni silnik renderujący** – starsze formaty mogą wymagać obsługi legacy.  
-* **Uniknąć problemów kompatybilności** – niektóre funkcje są dostępne tylko w nowszych wersjach OneNote.  
-* **Zoptymalizować wydajność** – możesz pominąć niepotrzebne przetwarzanie dla formatów, które nie są obsługiwane.
-
-## Typowe pułapki i wskazówki
+## Częste pułapki i wskazówki
 
 * **Pułapka:** Zapomnienie o ustawieniu prawidłowej ścieżki dla `dataDir`.  
   **Wskazówka:** Użyj ścieżki bezwzględnej lub zweryfikuj ścieżkę względną względem katalogu głównego projektu.  
 
-* **Pułapka:** Zakładanie, że `document.getFileFormat()` zawsze zwraca znaną wartość wyliczeniową.  
-  **Wskazówka:** Dodaj przypadek `default` w instrukcji `switch`, aby obsłużyć nieoczekiwane formaty w sposób elegancki.
+* **Pułapka:** Zakładanie, że `document.getFileFormat()` zawsze zwraca znane wyliczenie.  
+  **Wskazówka:** Dodaj przypadek `default` w instrukcji `switch`, aby elegancko obsłużyć nieoczekiwane formaty.
 
-## Podsumowanie
+## Zakończenie
 
-W tym samouczku nauczyliśmy się, jak pobrać **aspose note file format** z pliku OneNote przy użyciu języka Java i Aspose.Note. Postępując zgodnie z powyższymi krokami, możesz płynnie zintegrować wykrywanie formatu z aplikacjami Java, zapewniając niezawodną manipulację dokumentami OneNote w różnych wersjach.
+W tym samouczku nauczyliśmy się, jak pobrać **aspose note file format** z pliku OneNote przy użyciu Javy i Aspose.Note. Postępując zgodnie z powyższymi krokami, możesz płynnie zintegrować wykrywanie formatu w swoich aplikacjach Java, co umożliwia niezawodne manipulowanie dokumentami OneNote w różnych wersjach.
 
 ## FAQ
 
-### Q1: Czy mogę używać Aspose.Note for Java do edycji plików OneNote?
+### P1: Czy mogę używać Aspose.Note for Java do edycji plików OneNote?
 
-A1: Tak, Aspose.Note for Java oferuje kompleksowe funkcje umożliwiające edycję, tworzenie i manipulację plikami OneNote programowo.
+O1: Tak, Aspose.Note for Java oferuje pełen zestaw funkcji umożliwiających programową edycję, tworzenie i manipulację plikami OneNote.
 
-### Q2: Czy Aspose.Note for Java jest kompatybilny ze wszystkimi wersjami plików OneNote?
+### P2: Czy Aspose.Note for Java jest kompatybilny ze wszystkimi wersjami plików OneNote?
 
-A2: Aspose.Note for Java obsługuje różne wersje plików OneNote, w tym OneNote 2010 oraz OneNote Online.
+O2: Aspose.Note for Java obsługuje różne wersje plików OneNote, w tym OneNote 2010 i OneNote Online.
 
-### Q3: Gdzie mogę znaleźć wsparcie dla Aspose.Note for Java?
+### P3: Gdzie mogę znaleźć wsparcie dla Aspose.Note for Java?
 
-A3: Wsparcie i pomoc dla Aspose.Note for Java znajdziesz na [forum Aspose.Note](https://forum.aspose.com/c/note/28).
+O3: Wsparcie i pomoc dla Aspose.Note for Java znajdziesz na [forum Aspose.Note](https://forum.aspose.com/c/note/28).
 
-### Q4: Czy dostępna jest darmowa wersja próbna Aspose.Note for Java?
+### P4: Czy dostępna jest darmowa wersja próbna Aspose.Note for Java?
 
-A4: Tak, darmową wersję próbną Aspose.Note for Java możesz pobrać [tutaj](https://releases.aspose.com/).
+O4: Tak, darmową wersję próbną Aspose.Note for Java możesz uzyskać [tutaj](https://releases.aspose.com/).
 
-### Q5: Jak mogę zakupić licencję na Aspose.Note for Java?
+### P5: Jak mogę zakupić licencję na Aspose.Note for Java?
 
-A5: Licencję na Aspose.Note for Java możesz nabyć na [stronie zakupu](https://purchase.aspose.com/buy).
+O5: Licencję na Aspose.Note for Java możesz zakupić na [stronie zakupu](https://purchase.aspose.com/buy).
 
-## Często zadawane pytania
+## Najczęściej zadawane pytania
 
-**Q: Czy API działa z plikami OneNote zabezpieczonymi hasłem?**  
-A: Tak, możesz otworzyć zabezpieczony plik, podając hasło podczas tworzenia obiektu `Document`.
+**P:** Jak mogę programowo **uzyskać format pliku OneNote**?  
+**O:** Wywołaj `document.getFileFormat()`; zwraca wyliczenie `FileFormat` wskazujące wersję.
 
-**Q: Czy mogę wykryć format pliku bez ładowania całego dokumentu?**  
-A: Konstruktor `Document` analizuje nagłówek, aby określić format, więc narzut jest minimalny.
+**P:** Co zrobić, gdy zwrócony zostanie nieznany format?  
+**O:** Dodaj przypadek `default` w instrukcji `switch`, aby elegancko obsłużyć nieoczekiwane formaty.
 
-**Q: Czy istnieje sposób na programowe wylistowanie wszystkich obsługiwanych formatów plików?**  
-A: Możesz iterować po wartościach wyliczenia `FileFormat`, aby zobaczyć każdy format rozpoznawany przez Aspose.Note.
+**P:** Czy mogę wykryć format bez ładowania całego dokumentu?  
+**O:** Konstruktor `Document` analizuje tylko nagłówek, więc narzut jest minimalny.
 
----
+**P:** Czy istnieje sposób, aby wyświetlić wszystkie obsługiwane formaty plików OneNote?  
+**O:** Przejdź przez `FileFormat.values()`, aby zobaczyć każdy format rozpoznawany przez Aspose.Note.
 
-**Last Updated:** 2025-12-04  
-**Tested With:** Aspose.Note for Java 24.11  
-**Author:** Aspose  
+**P:** Czy to działa z plikami OneNote zabezpieczonymi hasłem?  
+**O:** Tak, możesz otworzyć zabezpieczony plik, podając hasło przy tworzeniu obiektu `Document`.
+
+**Ostatnia aktualizacja:** 2026-02-10  
+**Testowano z:** Aspose.Note for Java 24.11  
+**Autor:** Aspose  
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
