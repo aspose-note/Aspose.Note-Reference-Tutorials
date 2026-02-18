@@ -1,13 +1,21 @@
 ---
-date: 2025-12-08
-description: Aspose.Note を使用して Java で OneNote ドキュメントを作成する際の段落スタイル設定とアウトライン要素の追加方法を学びます。OneNote
-  を PDF にエクスポートし、OneNote ファイルを手軽に生成できます。
+date: 2026-02-18
+description: Aspose.Note を使用して Java で OneNote ドキュメントを作成する際の段落スタイル設定方法やアウトライン要素の追加方法を学びましょう。OneNote
+  を PDF にエクスポートし、PDF として保存し、OneNote ファイルを簡単に生成できます。
 linktitle: Set Paragraph Style while Creating OneNote Document in Java
 second_title: Aspose.Note Java API
-title: JavaでOneNoteドキュメントを作成する際に段落スタイルを設定する
+title: OneNoteをPDFにエクスポート – JavaでOneNote文書を作成中に段落スタイルを設定
 url: /ja/java/onenote-document-manipulation/create-onenote-document-simple-rich-text/
 weight: 12
 ---
+
+設定"
+
+Similarly subheadings.
+
+Proceed.
+
+Let's write.
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
@@ -15,36 +23,39 @@ weight: 12
 
 # JavaでOneNoteドキュメントを作成する際の段落スタイル設定
 
-## Introduction
+## はじめに
 
-今日のスピーディな開発環境では、プログラムから **set paragraph style** を行えることが、洗練された OneNote ファイルを作成する上で不可欠です。このチュートリアルでは、シンプルなリッチテキストで OneNote ドキュメントを生成し、カスタム段落書式を適用し、最後に Aspose.Note for Java を使用して **export OneNote to PDF** する手順をステップバイステップで紹介します。レポートエンジン、自動ノート取得ソリューション、ドキュメント変換サービスの構築を検討している方でも、ここで紹介する手法を使えば、**generate OneNote files** を思い通りの外観で作成できます。
+今日のスピーディな開発環境では、**OneNoteをPDFにエクスポート**できることが、洗練された共有可能なドキュメントを作成する上で不可欠です。このチュートリアルでは、OneNote ファイルの作成、カスタム段落スタイルの適用、そして Aspose.Note for Java を使用した **OneNoteをPDFにエクスポート** の手順を解説します。レポートエンジン、自動ノート取得ソリューション、ドキュメント変換サービスの構築を検討している方は、ここで紹介する手法を使って **OneNoteをPDFとして保存** し、正確な書式制御を実現できます。
 
-## Quick Answers
-- **What does “set paragraph style” mean?** フォント、サイズ、カラー、その他の書式を段落単位で適用することです。  
-- **Can I export the result to PDF?** はい – チュートリアルの最後で OneNote ファイルを PDF として保存します。  
-- **Do I need a license for Aspose.Note?** 無料トライアルで評価は可能ですが、本番環境ではライセンスが必要です。  
-- **Which IDEs are supported?** 任意の Java IDE が使用可能です – Eclipse、IntelliJ IDEA、NetBeans など。  
-- **How long does the implementation take?** 基本的なドキュメントでおおよそ 10‑15 分程度です。
+## クイック回答
+- **「段落スタイルを設定する」とは何ですか？** テキストの段落にフォント、サイズ、色、その他の書式を適用することです。  
+- **結果を PDF にエクスポートできますか？** はい – チュートリアルの最後で OneNote ファイルを PDF として保存します。  
+- **Aspose.Note のライセンスは必要ですか？** 評価用の無料トライアルは利用可能ですが、本番環境ではライセンスが必要です。  
+- **対応 IDE はどれですか？** 任意の Java IDE – Eclipse、IntelliJ IDEA、NetBeans など。  
+- **実装にどれくらい時間がかかりますか？** 基本的なドキュメントでおおよそ 10‑15 分です。
 
-## What is “set paragraph style” in Aspose.Note?
-段落スタイルの設定とは、`ParagraphStyle` オブジェクト（フォント名、サイズ、カラー等）を構成し、それを `RichText` ノードに付与することを指します。これにより、OneNote ページ内のテキスト表示を完全にコントロールできます。
+## Aspose.Note における「段落スタイルを設定する」とは？
+段落スタイルの設定とは、`ParagraphStyle` オブジェクト（フォント名、サイズ、色など）を構成し、それを `RichText` ノードに付与することを指します。これにより、OneNote ページ内のテキスト表示をフルコントロールできます。
 
-## Why set paragraph style when generating OneNote files?
-- **Consistent branding:** 企業のフォントやカラーを自動的に適用できます。  
-- **Readability:** 大きめのフォントや特定のカラーでアクセシビリティを向上させます。  
-- **Export fidelity:** 後で **convert OneNote PDF** した際に、書式付きテキストが正しく保持されます。  
+## OneNote で段落スタイルを設定するには？
+スタイルの適用は、`ParagraphStyle` インスタンスを作成し、プロパティをカスタマイズした後、そのインスタンスを `RichText` 要素に割り当てるだけです。スタイルオブジェクトが準備できれば、API がワンラインで処理します。
 
-## Prerequisites
+## なぜ OneNote を PDF にエクスポートするのか？
+- **ブランドの一貫性:** 社内フォントやカラーを外部共有時に保持できます。  
+- **可読性:** PDF は正確なレイアウトを保持するため、印刷やアーカイブに最適です。  
+- **クロスプラットフォームアクセス:** 受信者は OneNote をインストールしていなくても、任意のデバイスで PDF を閲覧できます。  
 
-開始する前に、以下を用意してください。
+## 前提条件
+
+開始する前に、以下をご用意ください。
 
 1. **Java Development Kit (JDK) 1.8+** – 最近の JDK であれば問題ありません。  
-2. **Aspose.Note for Java** – 最新の JAR を [Aspose.Note ダウンロードページ](https://releases.aspose.com/note/java/) から取得してください。  
+2. **Aspose.Note for Java** – 最新の JAR は [Aspose.Note ダウンロードページ](https://releases.aspose.com/note/java/) から取得してください。  
 3. **IDE** (Eclipse、IntelliJ IDEA、または NetBeans) – サンプルのコンパイルと実行に使用します。  
 
-> **Pro tip:** Maven で依存関係を追加するか、IDE で JAR を手動で参照して、Aspose.Note JAR をプロジェクトのクラスパスに追加してください。
+> **プロのコツ:** Maven で依存関係を追加するか、IDE で JAR を手動でクラスパスに追加して、Aspose.Note JAR をプロジェクトに組み込みます。
 
-## Import Packages
+## パッケージのインポート
 
 まず、必要なクラスをインポートします。このブロックは変更しません。
 
@@ -60,14 +71,14 @@ import com.aspose.note.SaveFormat;
 import com.aspose.note.ParagraphStyle;
 ```
 
-> `ParagraphStyle` クラスは、チュートリアル後半で **set paragraph style** を行うための鍵となります。
+> `ParagraphStyle` クラスは、チュートリアル後半で **段落スタイルを設定** する際の鍵となります。
 
-## Step‑by‑Step Guide
+## 手順別ガイド
 
-以下に各操作の簡潔な手順を示します。コードブロックは元のサンプルと同一で、説明文のみ日本語に置き換えています。
+以下は各操作の簡潔な流れです。コードブロックは元のサンプルと同一で、説明文のみ日本語に置き換えています。
 
-### Step 1: Set Document Directory
-生成されたファイルの保存先ディレクトリを定義します。
+### 手順 1: ドキュメントディレクトリの設定
+生成されたファイルの保存先を定義します。
 
 ```java
 String dataDir = "Your Document Directory";
@@ -75,35 +86,35 @@ String dataDir = "Your Document Directory";
 
 `"Your Document Directory"` を、マシン上の絶対パスまたは相対パスに置き換えてください。
 
-### Step 2: Initialize Document Object
-OneNote ファイル全体を表すルート `Document` を作成します。
+### 手順 2: Document オブジェクトの初期化
+OneNote ファイルを表すルート `Document` を作成します。
 
 ```java
 Document doc = new Document();
 ```
 
-### Step 3: Initialize Page Object
+### 手順 3: Page オブジェクトの初期化
 OneNote ファイルは 1 つ以上のページで構成されます。ここでは単一ページから開始します。
 
 ```java
 Page page = new Page();
 ```
 
-### Step 4: Initialize Outline Object
+### 手順 4: Outline オブジェクトの初期化
 アウトラインはアウトライン要素（セクション相当）のコンテナとして機能します。
 
 ```java
 Outline outline = new Outline();
 ```
 
-### Step 5: Initialize OutlineElement Object
-ここでリッチテキストを保持する **outline element** を追加します。
+### 手順 5: OutlineElement オブジェクトの初期化
+ここで **アウトライン要素を追加** し、リッチテキストを保持させます。
 
 ```java
 OutlineElement outlineElem = new OutlineElement();
 ```
 
-### Step 6: Set Text Style (Set Paragraph Style)
+### 手順 6: テキストスタイルの設定（段落スタイルの設定）
 
 ```java
 ParagraphStyle textStyle = new ParagraphStyle()
@@ -112,9 +123,9 @@ ParagraphStyle textStyle = new ParagraphStyle()
                                     .setFontSize(10);
 ```
 
-`ParagraphStyle` インスタンスでフォント、サイズ、カラーを定義し、以降のテキストノードに **set paragraph style** を適用します。
+`ParagraphStyle` インスタンスがフォント、サイズ、カラーを定義し、以降のテキストノードに **段落スタイルを設定** します。
 
-### Step 7: Initialize RichText Object
+### 手順 7: RichText オブジェクトの初期化
 
 ```java
 RichText text = new RichText().append("Hello OneNote text!");
@@ -123,23 +134,23 @@ text.setParagraphStyle(textStyle);
 
 `RichText` ノードを作成し、シンプルな文字列を挿入、先ほど定義したスタイルを付与します。
 
-### Step 8: Add RichText Node to OutlineElement
+### 手順 8: RichText ノードを OutlineElement に追加
 
 ```java
 outlineElem.appendChildLast(text);
 ```
 
-これでスタイル付きテキストがアウトライン要素内に配置されました。
+これでスタイル付きテキストがアウトライン要素内に配置されます。
 
-### Step 9: Add OutlineElement Node to Outline
+### 手順 9: OutlineElement ノードを Outline に追加
 
 ```java
 outline.appendChildLast(outlineElem);
 ```
 
-アウトラインにテキストを保持する要素が追加されました。
+アウトラインに段落を保持する要素が追加されました。
 
-### Step 10: Add Outline Node to Page
+### 手順 10: Outline ノードを Page に追加
 
 ```java
 page.appendChildLast(outline);
@@ -147,55 +158,55 @@ page.appendChildLast(outline);
 
 ページ上にアウトラインを配置します。
 
-### Step 11: Add Page Node to Document
+### 手順 11: Page ノードを Document に追加
 
 ```java
 doc.appendChildLast(page);
 ```
 
-ドキュメントに単一ページが追加され、スタイル付きテキストが完成します。
+ドキュメントにスタイル付きテキストを含む単一ページが完成しました。
 
-### Step 12: Save the Document (Export OneNote PDF)
+### 手順 12: ドキュメントの保存（OneNote PDF のエクスポート）
 
 ```java
 doc.save(dataDir + "CreateOneNoteDocumentWithSimpleRichText_out.pdf", SaveFormat.Pdf);
 ```
 
-`save` メソッドで OneNote ファイルを保存すると同時に **export OneNote PDF** も実行できます。ネイティブ形式が必要な場合は `SaveFormat.One` を使用して `.one` として保存してください。
+`save` メソッドで OneNote ファイルを保存すると同時に **OneNote PDF をエクスポート** します。ネイティブ形式が必要な場合は `SaveFormat.One` を指定して `.one` として保存できます。
 
-## Common Issues & Solutions
+## よくある問題と対策
 
-| Issue | Reason | Fix |
-|-------|--------|-----|
-| **File not found** | `dataDir` が存在しないフォルダーを指しています。 | ディレクトリが存在することを確認するか、`new File(dataDir).mkdirs();` でプログラムから作成してください。 |
-| **Blank PDF** | 保存前にコンテンツが追加されていません。 | `RichText` ノードが正しく追加され、スタイルが設定されているか確認してください。 |
-| **Unsupported font** | システムにフォントがインストールされていません。 | `"Arial"` など一般的なフォントを使用するか、プロジェクトにフォントを埋め込んでください。 |
+| 問題 | 理由 | 対策 |
+|------|------|------|
+| **ファイルが見つからない** | `dataDir` が存在しないフォルダーを指している | ディレクトリが存在することを確認するか、`new File(dataDir).mkdirs();` でプログラムから作成してください。 |
+| **PDF が空白** | 保存前にコンテンツが追加されていない | `RichText` ノードが正しく追加され、スタイルが設定されているか確認してください。 |
+| **フォントがサポートされていない** | システムにフォントがインストールされていない | `"Arial"` など一般的なフォントを使用するか、プロジェクトにフォントを埋め込んでください。 |
 
-## Frequently Asked Questions
+## FAQ（よくある質問）
 
 **Q: Aspose.Note はテーブルや画像などの複雑な書式にも対応していますか？**  
 A: はい、API はテーブル、画像、ハイパーリンク、その他高度なレイアウト機能をサポートしています。
 
-**Q: **convert OneNote PDF** を元の OneNote ファイルに戻すことは可能ですか？**  
-A: 直接的な変換機能は提供されていませんが、PDF の内容を抽出し、API を使って OneNote ドキュメントを再構築することはできます。
+**Q: **OneNote PDF** を元の OneNote ファイルに変換できますか？**  
+A: 直接的な変換機能は提供されていませんが、PDF の内容を抽出して API で OneNote ドキュメントを再構築することは可能です。
 
 **Q: ライブラリは Linux/macOS 環境でも動作しますか？**  
 A: 完全にプラットフォームに依存しません。JDK がインストールされていれば問題なく動作します。
 
-**Q: 複数ページや複数アウトラインはどうやって追加しますか？**  
-A: 追加の `Page` や `Outline` オブジェクトを作成し、単一ページの例と同様に `Document` に Append すれば実現できます。
+**Q: 複数ページや複数アウトラインはどう追加しますか？**  
+A: 追加の `Page` や `Outline` オブジェクトを作成し、単一ページの例と同様に `Document` に Append します。
 
 **Q: もっとサンプルはどこで見られますか？**  
 A: 公式の Aspose.Note ドキュメントと [サポートフォーラム](https://forum.aspose.com/c/note/28) に多数のコード例が掲載されています。
 
-## Conclusion
+## 結論
 
-これで **set paragraph style**、**add outline element**、そして Aspose.Note for Java を使用した **export OneNote PDF** の手順が理解できました。作成段階でスタイル付きテキストを組み込むことで、最終的なドキュメントがプロフェッショナルに仕上がり、後続の **convert OneNote PDF** 操作でも書式が保持されます。画像、テーブル、カスタムメタデータなどを追加して、プロジェクトの要件に合わせて拡張してください。
+これで **段落スタイルを設定**、**アウトライン要素を追加**、そして Aspose.Note for Java を使用して **PDF にエクスポート可能な OneNote ファイルを生成** する方法が分かりました。作成段階でスタイル付きテキストを組み込むことで、最終的なドキュメントがプロフェッショナルに仕上がり、後続の **OneNote PDF 変換** でも書式が保持されます。画像、テーブル、カスタムメタデータなどを追加して、プロジェクトの要件に合わせて拡張してください。
 
 ---
 
-**最終更新日:** 2025-12-08  
-**テスト環境:** Aspose.Note for Java 24.11 (latest release)  
+**最終更新日:** 2026-02-18  
+**テスト環境:** Aspose.Note for Java 24.11（最新リリース）  
 **作者:** Aspose  
 
 {{< /blocks/products/pf/tutorial-page-section >}}

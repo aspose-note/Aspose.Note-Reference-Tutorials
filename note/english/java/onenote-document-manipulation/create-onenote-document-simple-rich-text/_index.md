@@ -1,11 +1,11 @@
 ---
-title: Set Paragraph Style while Creating OneNote Document in Java
+title: Export OneNote to PDF – Set Paragraph Style while Creating OneNote Document in Java
 linktitle: Set Paragraph Style while Creating OneNote Document in Java
 second_title: Aspose.Note Java API
-description: Learn how to set paragraph style and add outline element when creating OneNote documents in Java using Aspose.Note. Export OneNote to PDF and generate OneNote files effortlessly.
+description: Learn how to set paragraph style and add outline element when creating OneNote documents in Java using Aspose.Note. Export OneNote to PDF, save OneNote as PDF, and generate OneNote files effortlessly.
 weight: 12
 url: /java/onenote-document-manipulation/create-onenote-document-simple-rich-text/
-date: 2025-12-08
+date: 2026-02-18
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
@@ -16,7 +16,7 @@ date: 2025-12-08
 
 ## Introduction
 
-In today’s fast‑moving development landscape, being able to **set paragraph style** programmatically is essential for producing polished OneNote files. This tutorial shows you, step by step, how to generate a OneNote document with simple rich text, apply custom paragraph formatting, and finally **export OneNote to PDF** using Aspose.Note for Java. Whether you’re building a reporting engine, an automated note‑taking solution, or a document‑conversion service, the techniques covered here will help you **generate OneNote files** that look exactly the way you want.
+In today’s fast‑moving development landscape, being able to **export OneNote to PDF** programmatically is essential for producing polished, share‑ready documents. This tutorial walks you through creating a OneNote file, applying a custom paragraph style, and finally **exporting OneNote to PDF** using Aspose.Note for Java. Whether you’re building a reporting engine, an automated note‑taking solution, or a document‑conversion service, the techniques covered here will help you **save OneNote as PDF** with exact formatting control.
 
 ## Quick Answers
 - **What does “set paragraph style” mean?** It applies font, size, color, and other formatting to a paragraph of text.  
@@ -28,10 +28,13 @@ In today’s fast‑moving development landscape, being able to **set paragraph 
 ## What is “set paragraph style” in Aspose.Note?
 Setting paragraph style refers to configuring a `ParagraphStyle` object (font name, size, color, etc.) and attaching it to a `RichText` node. This gives you full control over how text appears inside a OneNote page.
 
-## Why set paragraph style when generating OneNote files?
-- **Consistent branding:** Apply corporate fonts and colors automatically.  
-- **Readability:** Larger fonts or specific colors improve accessibility.  
-- **Export fidelity:** Styled text is preserved when you **convert OneNote PDF** later.  
+## How to Set Paragraph Style in OneNote?
+Applying a style is as simple as creating a `ParagraphStyle` instance, customizing its properties, and assigning it to a `RichText` element. The API makes this a one‑line operation once the style object is ready.
+
+## Why Export OneNote to PDF?
+- **Consistent branding:** Preserve corporate fonts and colors when sharing notes externally.  
+- **Readability:** PDF retains exact layout, making it ideal for printing or archiving.  
+- **Cross‑platform access:** Recipients can view the PDF on any device without needing OneNote.  
 
 ## Prerequisites
 
@@ -193,7 +196,7 @@ You’ve now seen how to **set paragraph style**, **add outline element**, and *
 
 ---
 
-**Last Updated:** 2025-12-08  
+**Last Updated:** 2026-02-18  
 **Tested With:** Aspose.Note for Java 24.11 (latest release)  
 **Author:** Aspose  
 

@@ -1,53 +1,58 @@
 ---
-date: 2025-12-08
+date: 2026-02-18
 description: เรียนรู้วิธีตั้งค่ารูปแบบย่อหน้าและเพิ่มองค์ประกอบโครงร่างเมื่อสร้างเอกสาร
-  OneNote ด้วย Java โดยใช้ Aspose.Note ส่งออก OneNote เป็น PDF และสร้างไฟล์ OneNote
-  อย่างง่ายดาย
+  OneNote ด้วย Java โดยใช้ Aspose.Note ส่งออก OneNote เป็น PDF บันทึก OneNote เป็น
+  PDF และสร้างไฟล์ OneNote ได้อย่างง่ายดาย
 linktitle: Set Paragraph Style while Creating OneNote Document in Java
 second_title: Aspose.Note Java API
-title: ตั้งค่ารูปแบบย่อหน้าในขณะสร้างเอกสาร OneNote ด้วย Java
+title: ส่งออก OneNote เป็น PDF – ตั้งค่ารูปแบบย่อหน้าขณะสร้างเอกสาร OneNote ด้วย Java
 url: /th/java/onenote-document-manipulation/create-onenote-document-simple-rich-text/
 weight: 12
 ---
 
-{{< blocks/products/pf/main-wrap-class >}}
+ Thai is LTR, fine.
+
+Let's produce final content.{{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# ตั้งค่ารูปแบบย่อหน้าเมื่อสร้างเอกสาร OneNote ด้วย Java
+# ตั้งสไตล์ย่อหน้าในขณะสร้างเอกสาร OneNote ด้วย Java
 
-## Introduction
+## บทนำ
 
-ในสภาพแวดล้อมการพัฒนาที่เปลี่ยนแปลงอย่างรวดเร็วในปัจจุบัน การสามารถ **set paragraph style** ด้วยโปรแกรมเป็นสิ่งสำคัญสำหรับการสร้างไฟล์ OneNote ที่ดูเป็นมืออาชีพ บทแนะนำนี้จะแสดงให้คุณเห็นขั้นตอนต่อขั้นตอนว่าอย่างไรในการสร้างเอกสาร OneNote ด้วยข้อความแบบ rich text ง่าย ๆ การกำหนดรูปแบบย่อหน้าแบบกำหนดเอง และสุดท้าย **export OneNote to PDF** ด้วย Aspose.Note for Java ไม่ว่าคุณจะกำลังสร้างเอนจิ้นรายงาน โซลูชันบันทึกโน้ตอัตโนมัติ หรือบริการแปลงเอกสาร เทคนิคที่อธิบายไว้ที่นี่จะช่วยให้คุณ **generate OneNote files** ที่มีลักษณะตรงตามที่ต้องการ
+ในยุคการพัฒนาที่เคลื่อนที่อย่างรวดเร็วในปัจจุบัน การ **ส่งออก OneNote เป็น PDF** ด้วยโปรแกรมเป็นสิ่งสำคัญสำหรับการสร้างเอกสารที่ดูเป็นมืออาชีพและพร้อมแชร์ได้อย่างสมบูรณ์ บทเรียนนี้จะพาคุณผ่านการสร้างไฟล์ OneNote การกำหนดสไตล์ย่อหน้าแบบกำหนดเอง และสุดท้าย **ส่งออก OneNote เป็น PDF** ด้วย Aspose.Note for Java ไม่ว่าคุณจะกำลังสร้างเอนจินรายงาน โซลูชันบันทึกโน้ตอัตโนมัติ หรือบริการแปลงเอกสาร เทคนิคที่อธิบายไว้ที่นี่จะช่วยให้คุณ **บันทึก OneNote เป็น PDF** พร้อมการควบคุมรูปแบบที่แม่นยำ
 
-## Quick Answers
-- **What does “set paragraph style” mean?** มันหมายถึงการกำหนดฟอนต์, ขนาด, สี, และการจัดรูปแบบอื่น ๆ ให้กับย่อหน้าของข้อความ  
-- **Can I export the result to PDF?** ได้ – บทแนะนำจะจบด้วยการบันทึกไฟล์ OneNote เป็น PDF  
-- **Do I need a license for Aspose.Note?** สามารถใช้เวอร์ชันทดลองฟรีเพื่อประเมินค่าใช้จ่าย; ต้องมีลิขสิทธิ์สำหรับการใช้งานจริง  
-- **Which IDEs are supported?** IDE ของ Java ใดก็ได้ – Eclipse, IntelliJ IDEA, NetBeans ฯลฯ  
-- **How long does the implementation take?** ประมาณ 10‑15 นาทีสำหรับเอกสารพื้นฐาน
+## คำตอบสั้น ๆ
+- **“ตั้งสไตล์ย่อหน้า” หมายถึงอะไร?** หมายถึงการกำหนดฟอนต์ ขนาด สี และการจัดรูปแบบอื่น ๆ ให้กับย่อหน้าข้อความหนึ่ง  
+- **ฉันสามารถส่งออกผลลัพธ์เป็น PDF ได้หรือไม่?** ได้ – บทเรียนจะจบด้วยการบันทึกไฟล์ OneNote เป็น PDF  
+- **ต้องใช้ไลเซนส์สำหรับ Aspose.Note หรือไม่?** สามารถใช้รุ่นทดลองฟรีเพื่อประเมินผลได้; ต้องมีไลเซนส์สำหรับการใช้งานจริง  
+- **IDE ที่รองรับมีอะไรบ้าง?** ทุก IDE ของ Java – Eclipse, IntelliJ IDEA, NetBeans ฯลฯ  
+- **การทำงานนี้ใช้เวลานานแค่ไหน?** ประมาณ 10‑15 นาทีสำหรับเอกสารพื้นฐาน
 
-## What is “set paragraph style” in Aspose.Note?
-การตั้งค่า paragraph style หมายถึงการกำหนดอ็อบเจกต์ `ParagraphStyle` (ชื่อฟอนต์, ขนาด, สี ฯลฯ) แล้วผูกกับโหนด `RichText` ซึ่งทำให้คุณควบคุมการแสดงผลของข้อความภายในหน้า OneNote ได้อย่างเต็มที่
+## “ตั้งสไตล์ย่อหน้า” ใน Aspose.Note คืออะไร?
+การตั้งสไตล์ย่อหน้าหมายถึงการกำหนดอ็อบเจกต์ `ParagraphStyle` (ชื่อฟอนต์, ขนาด, สี ฯลฯ) แล้วผูกกับโหนด `RichText` ซึ่งทำให้คุณควบคุมการแสดงผลของข้อความภายในหน้า OneNote ได้อย่างเต็มที่
 
-## Why set paragraph style when generating OneNote files?
-- **Consistent branding:** ใช้ฟอนต์และสีขององค์กรโดยอัตโนมัติ  
-- **Readability:** ฟอนต์ขนาดใหญ่หรือสีเฉพาะช่วยเพิ่มการเข้าถึง  
-- **Export fidelity:** ข้อความที่มีรูปแบบจะคงอยู่เมื่อคุณ **convert OneNote PDF** ในภายหลัง  
+## วิธีตั้งสไตล์ย่อหน้าใน OneNote?
+การใช้สไตล์ทำได้ง่ายเพียงสร้างอินสแตนซ์ `ParagraphStyle` ปรับคุณสมบัติตามต้องการ แล้วกำหนดให้กับองค์ประกอบ `RichText` การเรียก API จะเป็นการทำงานหนึ่งบรรทัดเมื่ออ็อบเจกต์สไตล์พร้อมใช้งาน
 
-## Prerequisites
+## ทำไมต้องส่งออก OneNote เป็น PDF?
+- **การสร้างแบรนด์ที่สม่ำเสมอ:** รักษาฟอนต์และสีขององค์กรเมื่อนำโน้ตไปแชร์ภายนอก  
+- **ความอ่านง่าย:** PDF คงรูปแบบการจัดวางอย่างแม่นยำ ทำให้เหมาะสำหรับการพิมพ์หรือเก็บรักษา  
+- **การเข้าถึงข้ามแพลตฟอร์ม:** ผู้รับสามารถดู PDF บนอุปกรณ์ใดก็ได้โดยไม่ต้องมี OneNote  
 
-ก่อนเริ่มทำงาน ให้ตรวจสอบว่าคุณมี:
+## ข้อกำหนดเบื้องต้น
 
-1. **Java Development Kit (JDK) 1.8+** – JDK เวอร์ชันล่าสุดใดก็ใช้ได้  
-2. **Aspose.Note for Java** – ดาวน์โหลด JAR ล่าสุดจาก [Aspose.Note download page](https://releases.aspose.com/note/java/)  
-3. **An IDE** (Eclipse, IntelliJ IDEA, หรือ NetBeans) สำหรับคอมไพล์และรันตัวอย่าง  
+ก่อนเริ่มทำงาน โปรดตรวจสอบว่าคุณมี:
 
-> **Pro tip:** เพิ่ม Aspose.Note JAR ไปยัง classpath ของโปรเจกต์ผ่าน Maven หรืออ้างอิง JAR ด้วยตนเองใน IDE ของคุณ
+1. **Java Development Kit (JDK) 1.8+** – JDK เวอร์ชันล่าสุดใดก็ได้จะทำงานได้  
+2. **Aspose.Note for Java** – ดาวน์โหลด JAR ล่าสุดจาก [หน้าดาวน์โหลด Aspose.Note](https://releases.aspose.com/note/java/)  
+3. **IDE** (Eclipse, IntelliJ IDEA หรือ NetBeans) สำหรับคอมไพล์และรันตัวอย่าง  
 
-## Import Packages
+> **เคล็ดลับ:** เพิ่ม JAR ของ Aspose.Note ลงใน classpath ของโปรเจกต์ผ่าน Maven หรืออ้างอิง JAR ด้วยตนเองใน IDE ของคุณ
 
-เริ่มต้นด้วยการนำเข้าคลาสที่จำเป็น บล็อกนี้จะไม่เปลี่ยนแปลง
+## นำเข้าแพ็กเกจ
+
+ก่อนอื่นให้ทำการนำเข้าคลาสที่จำเป็น บล็อกนี้จะไม่เปลี่ยนแปลง
 
 ```java
 import java.awt.Color;
@@ -61,50 +66,50 @@ import com.aspose.note.SaveFormat;
 import com.aspose.note.ParagraphStyle;
 ```
 
-> คลาส `ParagraphStyle` คือกุญแจสำคัญสำหรับการ **set paragraph style** ในขั้นตอนต่อไปของบทแนะนำ
+> คลาส `ParagraphStyle` คือกุญแจสำคัญสำหรับ **ตั้งสไตล์ย่อหน้า** ในบทเรียนต่อไป
 
-## Step‑by‑Step Guide
+## คู่มือขั้นตอนโดยละเอียด
 
-ต่อไปนี้เป็นขั้นตอนสรุปการทำงานแต่ละขั้นตอน โค้ดบล็อกจะเหมือนกับตัวอย่างต้นฉบับ; เราเพียงเพิ่มคำอธิบายเท่านั้น
+ต่อไปนี้เป็นการเดินผ่านแต่ละขั้นตอนอย่างกระชับ โค้ดบล็อกจะเหมือนกับตัวอย่างต้นฉบับ; เราเพียงเพิ่มข้อความอธิบายเท่านั้น
 
-### Step 1: Set Document Directory
+### ขั้นตอนที่ 1: ตั้งค่าไดเรกทอรีเอกสาร
 กำหนดตำแหน่งที่ไฟล์ที่สร้างจะถูกบันทึก
 
 ```java
 String dataDir = "Your Document Directory";
 ```
 
-แทนที่ `"Your Document Directory"` ด้วยพาธแบบ absolute หรือ relative บนเครื่องของคุณ
+เปลี่ยน `"Your Document Directory"` ให้เป็นพาธแบบ absolute หรือ relative บนเครื่องของคุณ
 
-### Step 2: Initialize Document Object
-สร้างอ็อบเจกต์ `Document` รากที่แทนไฟล์ OneNote
+### ขั้นตอนที่ 2: เริ่มต้นอ็อบเจกต์ Document
+สร้าง `Document` รากที่แทนไฟล์ OneNote
 
 ```java
 Document doc = new Document();
 ```
 
-### Step 3: Initialize Page Object
-ไฟล์ OneNote ประกอบด้วยหนึ่งหรือหลายหน้า; เราเริ่มด้วยหน้าเดียว
+### ขั้นตอนที่ 3: เริ่มต้นอ็อบเจกต์ Page
+ไฟล์ OneNote ประกอบด้วยหน้าอย่างน้อยหนึ่งหน้า; เราเริ่มด้วยหน้าเดียว
 
 ```java
 Page page = new Page();
 ```
 
-### Step 4: Initialize Outline Object
-`Outline` ทำหน้าที่เป็นคอนเทนเนอร์สำหรับองค์ประกอบของ outline (คิดว่าเป็นส่วน)
+### ขั้นตอนที่ 4: เริ่มต้นอ็อบเจกต์ Outline
+Outline ทำหน้าที่เป็นคอนเทนเนอร์สำหรับองค์ประกอบ outline (คิดว่าเป็นส่วน)
 
 ```java
 Outline outline = new Outline();
 ```
 
-### Step 5: Initialize OutlineElement Object
-ที่นี่เราจะ **add outline element** ที่จะเก็บข้อความ rich text ของเรา
+### ขั้นตอนที่ 5: เริ่มต้นอ็อบเจกต์ OutlineElement
+ที่นี่เราจะ **เพิ่ม outline element** ที่จะเก็บ rich text ของเรา
 
 ```java
 OutlineElement outlineElem = new OutlineElement();
 ```
 
-### Step 6: Set Text Style (Set Paragraph Style)
+### ขั้นตอนที่ 6: ตั้งค่าสไตล์ข้อความ (ตั้งสไตล์ย่อหน้า)
 
 ```java
 ParagraphStyle textStyle = new ParagraphStyle()
@@ -113,9 +118,9 @@ ParagraphStyle textStyle = new ParagraphStyle()
                                     .setFontSize(10);
 ```
 
-อินสแตนซ์ `ParagraphStyle` กำหนดฟอนต์, ขนาด, และสี – นี้คือจุดที่เราจะ **set paragraph style** ให้กับโหนดข้อความที่จะสร้างต่อไป
+อินสแตนซ์ `ParagraphStyle` กำหนดฟอนต์, ขนาด, สี – นี่คือจุดที่เราจะ **ตั้งสไตล์ย่อหน้า** ให้กับโหนดข้อความที่กำลังจะสร้าง
 
-### Step 7: Initialize RichText Object
+### ขั้นตอนที่ 7: เริ่มต้นอ็อบเจกต์ RichText
 
 ```java
 RichText text = new RichText().append("Hello OneNote text!");
@@ -124,80 +129,80 @@ text.setParagraphStyle(textStyle);
 
 เราสร้างโหนด `RichText` ใส่สตริงง่าย ๆ แล้วผูกสไตล์ที่กำหนดไว้ก่อนหน้า
 
-### Step 8: Add RichText Node to OutlineElement
+### ขั้นตอนที่ 8: เพิ่มโหนด RichText ลงใน OutlineElement
 
 ```java
 outlineElem.appendChildLast(text);
 ```
 
-ตอนนี้ข้อความที่มีรูปแบบอยู่ภายใน outline element แล้ว
+ตอนนี้ข้อความที่มีสไตล์อยู่ภายใน outline element แล้ว
 
-### Step 9: Add OutlineElement Node to Outline
+### ขั้นตอนที่ 9: เพิ่มโหนด OutlineElement ลงใน Outline
 
 ```java
 outline.appendChildLast(outlineElem);
 ```
 
-`Outline` ตอนนี้มี element ที่เก็บย่อหน้าของเราแล้ว
+Outline ตอนนี้มี element ที่บรรจุย่อหน้าของเราแล้ว
 
-### Step 10: Add Outline Node to Page
+### ขั้นตอนที่ 10: เพิ่มโหนด Outline ลงใน Page
 
 ```java
 page.appendChildLast(outline);
 ```
 
-เราวาง `Outline` ลงบนหน้า
+เราวาง outline บนหน้า
 
-### Step 11: Add Page Node to Document
+### ขั้นตอนที่ 11: เพิ่มโหนด Page ลงใน Document
 
 ```java
 doc.appendChildLast(page);
 ```
 
-เอกสารตอนนี้มีหน้าเดียวที่มีข้อความที่กำหนดรูปแบบแล้ว
+เอกสารตอนนี้มีหน้าเดียวที่มีข้อความสไตล์แล้ว
 
-### Step 12: Save the Document (Export OneNote PDF)
+### ขั้นตอนที่ 12: บันทึกเอกสาร (ส่งออก OneNote PDF)
 
 ```java
 doc.save(dataDir + "CreateOneNoteDocumentWithSimpleRichText_out.pdf", SaveFormat.Pdf);
 ```
 
-เมธอด `save` จะเขียนไฟล์ OneNote และ **export OneNote PDF** ในขั้นตอนเดียว คุณยังสามารถบันทึกเป็น `.one` โดยใช้ `SaveFormat.One` หากต้องการรูปแบบดั้งเดิม
+เมธอด `save` จะเขียนไฟล์ OneNote และ **ส่งออก OneNote PDF** ในขั้นตอนเดียว คุณยังสามารถบันทึกเป็น `.one` โดยใช้ `SaveFormat.One` หากต้องการรูปแบบดั้งเดิม
 
-## Common Issues & Solutions
+## ปัญหาที่พบบ่อย & วิธีแก้
 
-| Issue | Reason | Fix |
-|-------|--------|-----|
-| **File not found** | `dataDir` ชี้ไปยังโฟลเดอร์ที่ไม่มีอยู่ | ตรวจสอบให้แน่ใจว่าโฟลเดอร์มีอยู่หรือสร้างด้วยโปรแกรม (`new File(dataDir).mkdirs();`) |
-| **Blank PDF** | ไม่มีเนื้อหาใดถูกเพิ่มก่อนบันทึก | ยืนยันว่าโหนด `RichText` ถูกเพิ่มและสไตล์ถูกตั้งค่า |
-| **Unsupported font** | ชื่อฟอนต์ไม่ได้ติดตั้งบนระบบ | ใช้ฟอนต์ทั่วไปเช่น `"Arial"` หรือฝังฟอนต์ในโปรเจกต์ |
+| ปัญหา | สาเหตุ | วิธีแก้ |
+|-------|--------|--------|
+| **ไม่พบไฟล์** | `dataDir` ชี้ไปยังโฟลเดอร์ที่ไม่มีอยู่ | ตรวจสอบให้แน่ใจว่าโฟลเดอร์มีอยู่หรือสร้างขึ้นโดยโปรแกรม (`new File(dataDir).mkdirs();`) |
+| **PDF ว่างเปล่า** | ไม่มีเนื้อหาใดถูกเพิ่มก่อนบันทึก | ยืนยันว่าโหนด `RichText` ถูกเพิ่มและสไตล์ถูกตั้งค่า |
+| **ฟอนต์ไม่รองรับ** | ชื่อฟอนต์ไม่ได้ติดตั้งบนระบบ | ใช้ฟอนต์ทั่วไปเช่น `"Arial"` หรือฝังฟอนต์ในโปรเจกต์ |
 
-## Frequently Asked Questions
+## คำถามที่พบบ่อย
 
-**Q: Aspose.Note สามารถจัดการรูปแบบซับซ้อนเช่น ตารางหรือรูปภาพได้หรือไม่?**  
-A: ได้, API รองรับตาราง, รูปภาพ, ลิงก์, และคุณลักษณะการจัดวางขั้นสูงอื่น ๆ  
+**ถาม: Aspose.Note สามารถจัดการรูปแบบซับซ้อนเช่น ตารางหรือรูปภาพได้หรือไม่?**  
+ตอบ: ได้, API รองรับตาราง, รูปภาพ, ไฮเปอร์ลิงก์ และคุณลักษณะการจัดวางขั้นสูงอื่น ๆ
 
-**Q: สามารถ **convert OneNote PDF** กลับเป็นไฟล์ OneNote ได้หรือไม่?**  
-A: การแปลงโดยตรงยังไม่มีให้บริการ, แต่คุณสามารถดึงข้อมูลจาก PDF แล้วสร้าง OneNote ใหม่ด้วย API  
+**ถาม: สามารถ **แปลง OneNote PDF** กลับเป็นไฟล์ OneNote ได้หรือไม่?**  
+ตอบ: การแปลงโดยตรงยังไม่มีให้บริการ, แต่คุณสามารถดึงข้อมูลจาก PDF แล้วสร้างไฟล์ OneNote ใหม่ด้วย API
 
-**Q: ไลบรารีทำงานบน Linux/macOS ได้หรือไม่?**  
-A: แน่นอน, Aspose.Note for Java เป็นแบบ platform‑independent; เพียงแค่ติดตั้ง JDK  
+**ถาม: ไลบรารีทำงานบน Linux/macOS ได้หรือไม่?**  
+ตอบ: แน่นอน. Aspose.Note for Java เป็นแบบ platform‑independent; เพียงแค่ติดตั้ง JDK
 
-**Q: จะเพิ่มหลายหน้าหรือหลาย outline อย่างไร?**  
-A: สร้างอ็อบเจกต์ `Page` และ `Outline` เพิ่มเติม แล้วผนวกเข้ากับ `Document` เช่นเดียวกับตัวอย่างหน้าเดียว  
+**ถาม: จะเพิ่มหลายหน้า หรือหลาย outline ได้อย่างไร?**  
+ตอบ: สร้างอ็อบเจกต์ `Page` และ `Outline` เพิ่มเติม แล้วผนวกเข้ากับ `Document` เช่นเดียวกับตัวอย่างหน้าเดียว
 
-**Q: จะหาโค้ดตัวอย่างเพิ่มเติมได้จากที่ไหน?**  
-A: เอกสารอย่างเป็นทางการของ Aspose.Note และ [support forum](https://forum.aspose.com/c/note/28) มีตัวอย่างโค้ดมากมาย  
+**ถาม: จะหา ตัวอย่างเพิ่มเติมได้จากที่ไหน?**  
+ตอบ: เอกสารอย่างเป็นทางการของ Aspose.Note และ [ฟอรั่มสนับสนุน](https://forum.aspose.com/c/note/28) มีตัวอย่างโค้ดมากมาย
 
-## Conclusion
+## สรุป
 
-คุณได้เรียนรู้วิธี **set paragraph style**, **add outline element**, และ **generate a OneNote file** ที่สามารถ **export to PDF** ด้วย Aspose.Note for Java การใส่ข้อความที่มีรูปแบบตั้งแต่ต้นกระบวนการสร้างเอกสารจะทำให้ผลลัพธ์ดูเป็นมืออาชีพและการ **convert OneNote PDF** ในภายหลังจะคงรูปแบบเดิมไว้ได้อย่างสมบูรณ์ อย่าลังเลที่จะต่อยอดพื้นฐานนี้ด้วยรูปภาพ, ตาราง, หรือเมทาดาต้าตามความต้องการของโครงการของคุณ
+คุณได้เรียนรู้วิธี **ตั้งสไตล์ย่อหน้า**, **เพิ่ม outline element**, และ **สร้างไฟล์ OneNote** ที่สามารถ **ส่งออกเป็น PDF** ด้วย Aspose.Note for Java การใส่สไตล์ข้อความตั้งแต่ขั้นตอนแรกทำให้เอกสารสุดท้ายดูเป็นมืออาชีพและการทำ **convert OneNote PDF** จะคงรูปแบบได้อย่างแม่นยำ อย่าลังเลที่จะต่อยอดพื้นฐานนี้ด้วยรูปภาพ, ตาราง หรือเมตาดาต้าตามความต้องการของโครงการของคุณ
 
 ---
 
-**Last Updated:** 2025-12-08  
-**Tested With:** Aspose.Note for Java 24.11 (latest release)  
-**Author:** Aspose  
+**อัปเดตล่าสุด:** 2026-02-18  
+**ทดสอบกับ:** Aspose.Note for Java 24.11 (รุ่นล่าสุด)  
+**ผู้เขียน:** Aspose  
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

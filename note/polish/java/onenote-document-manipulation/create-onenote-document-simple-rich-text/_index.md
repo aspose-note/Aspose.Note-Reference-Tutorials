@@ -1,11 +1,12 @@
 ---
-date: 2025-12-08
-description: Dowiedz się, jak ustawić styl akapitu i dodać element konspektu podczas
-  tworzenia dokumentów OneNote w języku Java przy użyciu Aspose.Note. Eksportuj OneNote
-  do PDF i generuj pliki OneNote bez wysiłku.
+date: 2026-02-18
+description: Naucz się ustawiać styl akapitu i dodawać element konspektu podczas tworzenia
+  dokumentów OneNote w Javie przy użyciu Aspose.Note. Eksportuj OneNote do PDF, zapisz
+  OneNote jako PDF i generuj pliki OneNote bez wysiłku.
 linktitle: Set Paragraph Style while Creating OneNote Document in Java
 second_title: Aspose.Note Java API
-title: Ustaw styl akapitu podczas tworzenia dokumentu OneNote w Javie
+title: Eksportuj OneNote do PDF – Ustaw styl akapitu podczas tworzenia dokumentu OneNote
+  w Javie
 url: /pl/java/onenote-document-manipulation/create-onenote-document-simple-rich-text/
 weight: 12
 ---
@@ -16,34 +17,37 @@ weight: 12
 
 # Ustaw styl akapitu podczas tworzenia dokumentu OneNote w Javie
 
-## Wstęp
+## Wprowadzenie
 
-W dzisiejszym, szybko zmieniającym się środowisku programistycznym, możliwość **ustawienia stylu akapitu** programowo jest niezbędna do tworzenia dopracowanych plików OneNote. Ten samouczek pokazuje krok po kroku, jak wygenerować dokument OneNote z prostym tekstem sformatowanym, zastosować własne formatowanie akapitu oraz w końcu **wyeksportować OneNote do PDF** przy użyciu Aspose.Note dla Javy. Niezależnie od tego, czy budujesz silnik raportowania, zautomatyzowane rozwiązanie do notowania, czy usługę konwersji dokumentów, techniki opisane tutaj pomogą Ci **generować pliki OneNote**, które wyglądają dokładnie tak, jak tego potrzebujesz.
+W dzisiejszym dynamicznie rozwijającym się środowisku programistycznym możliwość **eksportowania OneNote do PDF** w sposób programowy jest niezbędna do tworzenia dopracowanych, gotowych do udostępnienia dokumentów. Ten samouczek przeprowadzi Cię przez tworzenie pliku OneNote, zastosowanie własnego stylu akapitu oraz ostateczne **eksportowanie OneNote do PDF** przy użyciu Aspose.Note dla Javy. Niezależnie od tego, czy budujesz silnik raportowania, zautomatyzowane rozwiązanie do notowania, czy usługę konwersji dokumentów, techniki przedstawione tutaj pomogą Ci **zapisać OneNote jako PDF** z precyzyjną kontrolą formatowania.
 
 ## Szybkie odpowiedzi
 - **Co oznacza „ustaw styl akapitu”?** Nakłada czcionkę, rozmiar, kolor i inne formatowanie na akapit tekstu.  
 - **Czy mogę wyeksportować wynik do PDF?** Tak – samouczek kończy się zapisem pliku OneNote jako PDF.  
 - **Czy potrzebna jest licencja na Aspose.Note?** Darmowa wersja próbna wystarczy do oceny; licencja jest wymagana w środowisku produkcyjnym.  
-- **Jakie IDE są obsługiwane?** Dowolne IDE Javy – Eclipse, IntelliJ IDEA, NetBeans itp.  
+- **Jakie IDE są obsługiwane?** Dowolne IDE Java – Eclipse, IntelliJ IDEA, NetBeans itp.  
 - **Jak długo trwa implementacja?** Około 10‑15 minut dla podstawowego dokumentu.
 
-## Co to jest „ustaw styl akapitu” w Aspose.Note?
-Ustawianie stylu akapitu odnosi się do konfigurowania obiektu `ParagraphStyle` (nazwa czcionki, rozmiar, kolor itp.) i dołączania go do węzła `RichText`. Daje to pełną kontrolę nad tym, jak tekst wyświetla się na stronie OneNote.
+## Czym jest „ustaw styl akapitu” w Aspose.Note?
+Ustawianie stylu akapitu odnosi się do konfigurowania obiektu `ParagraphStyle` (nazwa czcionki, rozmiar, kolor itp.) i dołączania go do węzła `RichText`. Daje to pełną kontrolę nad tym, jak tekst wygląda na stronie OneNote.
 
-## Dlaczego warto ustawiać styl akapitu przy generowaniu plików OneNote?
-- **Spójna identyfikacja wizualna:** Automatyczne stosowanie firmowych czcionek i kolorów.  
-- **Czytelność:** Większe czcionki lub określone kolory poprawiają dostępność.  
-- **Wierność przy eksporcie:** Sformatowany tekst jest zachowywany przy **konwersji OneNote do PDF** później.  
+## Jak ustawić styl akapitu w OneNote?
+Zastosowanie stylu jest tak proste, jak stworzenie instancji `ParagraphStyle`, dostosowanie jej właściwości i przypisanie jej elementowi `RichText`. API umożliwia wykonanie tej operacji w jednej linii, gdy obiekt stylu jest gotowy.
+
+## Dlaczego eksportować OneNote do PDF?
+- **Spójna identyfikacja wizualna:** Zachowuje firmowe czcionki i kolory przy udostępnianiu notatek na zewnątrz.  
+- **Czytelność:** PDF utrzymuje dokładny układ, co czyni go idealnym do drukowania lub archiwizacji.  
+- **Dostępność na wszystkich platformach:** Odbiorcy mogą otworzyć PDF na dowolnym urządzeniu bez potrzeby posiadania OneNote.  
 
 ## Wymagania wstępne
 
-Zanim rozpoczniesz, upewnij się, że masz:
+Przed rozpoczęciem upewnij się, że masz:
 
-1. **Java Development Kit (JDK) 1.8+** – dowolny współczesny JDK będzie działał.  
+1. **Java Development Kit (JDK) 1.8+** – dowolny aktualny JDK będzie działał.  
 2. **Aspose.Note for Java** – pobierz najnowszy plik JAR ze [strony pobierania Aspose.Note](https://releases.aspose.com/note/java/).  
 3. **IDE** (Eclipse, IntelliJ IDEA lub NetBeans) do kompilacji i uruchomienia przykładu.  
 
-> **Porada:** Dodaj plik JAR Aspose.Note do ścieżki klas projektu za pomocą Maven lub ręcznie odwołując się do JAR w IDE.
+> **Pro tip:** Dodaj plik JAR Aspose.Note do ścieżki klas projektu za pomocą Maven lub ręcznie odwołując się do JAR w swoim IDE.
 
 ## Importowanie pakietów
 
@@ -65,7 +69,7 @@ import com.aspose.note.ParagraphStyle;
 
 ## Przewodnik krok po kroku
 
-Poniżej znajduje się zwięzłe omówienie każdego kroku. Bloki kodu są dokładnie takie, jak w oryginalnym przykładzie; dodajemy jedynie tekst wyjaśniający.
+Poniżej znajduje się zwięzły opis każdej operacji. Bloki kodu są dokładnie takie, jak w oryginalnym przykładzie; dodajemy jedynie tekst wyjaśniający.
 
 ### Krok 1: Ustaw katalog dokumentu
 Zdefiniuj, gdzie zostaną zapisane wygenerowane pliki.
@@ -113,7 +117,7 @@ ParagraphStyle textStyle = new ParagraphStyle()
                                     .setFontSize(10);
 ```
 
-Instancja `ParagraphStyle` definiuje czcionkę, rozmiar i kolor – to miejsce, w którym **ustawiamy styl akapitu** dla nadchodzącego węzła tekstowego.
+Instancja `ParagraphStyle` definiuje czcionkę, rozmiar i kolor — to miejsce, w którym **ustawiamy styl akapitu** dla nadchodzącego węzła tekstowego.
 
 ### Krok 7: Zainicjalizuj obiekt RichText
 
@@ -138,7 +142,7 @@ Teraz sformatowany tekst znajduje się wewnątrz elementu outline.
 outline.appendChildLast(outlineElem);
 ```
 
-Outline teraz zawiera element, który przechowuje nasz akapit.
+Outline zawiera teraz element, który przechowuje nasz akapit.
 
 ### Krok 10: Dodaj węzeł Outline do Page
 
@@ -154,31 +158,31 @@ Umieszczamy outline na stronie.
 doc.appendChildLast(page);
 ```
 
-Dokument ma teraz jedną stronę z naszym sformatowanym tekstem.
+Dokument ma już jedną stronę ze sformatowanym tekstem.
 
-### Krok 12: Zapisz dokument (Eksport OneNote do PDF)
+### Krok 12: Zapisz dokument (Eksportuj OneNote do PDF)
 
 ```java
 doc.save(dataDir + "CreateOneNoteDocumentWithSimpleRichText_out.pdf", SaveFormat.Pdf);
 ```
 
-Metoda `save` zapisuje plik OneNote i **eksportuje OneNote do PDF** w jednym kroku. Możesz także zapisać jako `.one`, używając `SaveFormat.One`, jeśli potrzebny jest format natywny.
+Metoda `save` zapisuje plik OneNote i **eksportuje OneNote PDF** w jednym kroku. Możesz także zapisać jako `.one`, używając `SaveFormat.One`, jeśli potrzebny jest natywny format.
 
 ## Typowe problemy i rozwiązania
 
-| Problem | Przyczyna | Rozwiązanie |
-|-------|--------|-----|
+| Problem | Powód | Rozwiązanie |
+|---------|-------|-------------|
 | **Plik nie znaleziony** | `dataDir` wskazuje na nieistniejący folder. | Upewnij się, że katalog istnieje lub utwórz go programowo (`new File(dataDir).mkdirs();`). |
 | **Pusty PDF** | Nie dodano żadnej treści przed zapisem. | Sprawdź, czy węzeł `RichText` został dołączony i czy styl został ustawiony. |
-| **Nieobsługiwana czcionka** | Nazwa czcionki nie jest zainstalowana w systemie. | Użyj popularnej czcionki, np. `"Arial"` lub osadź czcionkę w projekcie. |
+| **Nieobsługiwana czcionka** | Nazwa czcionki nie jest zainstalowana w systemie. | Użyj popularnej czcionki, np. `"Arial"`, lub osadź czcionkę w projekcie. |
 
 ## Najczęściej zadawane pytania
 
-**P: Czy Aspose.Note radzi sobie z zaawansowanym formatowaniem, takim jak tabele lub obrazy?**  
-O: Tak, API obsługuje tabele, obrazy, hiperłącza i bardziej zaawansowane funkcje układu.
+**P: Czy Aspose.Note obsługuje złożone formatowanie, takie jak tabele lub obrazy?**  
+O: Tak, API wspiera tabele, obrazy, hiperłącza i bardziej zaawansowane funkcje układu.
 
-**P: Czy można **konwertować OneNote PDF** z powrotem do pliku OneNote?**  
-O: Bezpośrednia konwersja nie jest dostępna, ale możesz wyodrębnić zawartość PDF i odtworzyć dokument OneNote przy użyciu API.
+**P: Czy istnieje możliwość **konwersji OneNote PDF** z powrotem do pliku OneNote?**  
+O: Bezpośrednia konwersja nie jest udostępniona, ale możesz wyodrębnić zawartość PDF i odtworzyć dokument OneNote przy użyciu API.
 
 **P: Czy biblioteka działa w środowiskach Linux/macOS?**  
 O: Oczywiście. Aspose.Note for Java jest niezależny od platformy; wystarczy mieć zainstalowany JDK.
@@ -189,15 +193,15 @@ O: Utwórz dodatkowe obiekty `Page` i `Outline`, a następnie dołącz je do `Do
 **P: Gdzie mogę znaleźć więcej przykładów?**  
 O: Oficjalna dokumentacja Aspose.Note oraz [forum wsparcia](https://forum.aspose.com/c/note/28) zawierają liczne przykłady kodu.
 
-## Zakończenie
+## Podsumowanie
 
-Widzisz teraz, jak **ustawić styl akapitu**, **dodać element outline** i **wygenerować plik OneNote**, który może być **wyeksportowany do PDF** przy użyciu Aspose.Note dla Javy. Włączenie sformatowanego tekstu już na etapie tworzenia zapewnia profesjonalny wygląd końcowego dokumentu oraz zachowanie formatowania przy późniejszej **konwersji OneNote do PDF**. Śmiało rozbudowuj tę bazę o obrazy, tabele czy własne metadane, aby spełnić wymagania swojego projektu.
+Widzisz teraz, jak **ustawić styl akapitu**, **dodać element outline** i **wygenerować plik OneNote**, który może być **wyeksportowany do PDF** przy użyciu Aspose.Note dla Javy. Wczesne zastosowanie stylowanego tekstu zapewnia, że końcowy dokument wygląda profesjonalnie, a każda kolejna operacja **konwersji OneNote PDF** zachowuje formatowanie. Śmiało rozbudowuj tę bazę o obrazy, tabele lub własne metadane, aby spełnić wymagania swojego projektu.
 
 ---
 
-**Ostatnia aktualizacja:** 2025-12-08  
-**Testowano z:** Aspose.Note for Java 24.11 (najnowsze wydanie)  
-**Autor:** Aspose  
+**Last Updated:** 2026-02-18  
+**Tested With:** Aspose.Note for Java 24.11 (latest release)  
+**Author:** Aspose  
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

@@ -1,10 +1,10 @@
 ---
-date: 2025-12-08
-description: 學習如何在 Java 中使用 Aspose.Note 設定段落樣式並新增大綱元素以建立 OneNote 文件。輕鬆將 OneNote 匯出為
-  PDF 並產生 OneNote 檔案。
+date: 2026-02-18
+description: 學習如何在使用 Aspose.Note 的 Java 中建立 OneNote 文件時設定段落樣式與新增大綱元素。將 OneNote 匯出為
+  PDF、將 OneNote 儲存為 PDF，並輕鬆產生 OneNote 檔案。
 linktitle: Set Paragraph Style while Creating OneNote Document in Java
 second_title: Aspose.Note Java API
-title: 在 Java 中建立 OneNote 文件時設定段落樣式
+title: 匯出 OneNote 為 PDF – 在 Java 中建立 OneNote 文件時設定段落樣式
 url: /zh-hant/java/onenote-document-manipulation/create-onenote-document-simple-rich-text/
 weight: 12
 ---
@@ -15,38 +15,41 @@ weight: 12
 
 # 在 Java 中建立 OneNote 文件時設定段落樣式
 
-## 介紹
+## Introduction
 
-在當前快速變化的開發環境中，能以程式方式 **設定段落樣式** 對於產出精緻的 OneNote 檔案至關重要。本教學將一步步示範如何產生帶有簡易富文字的 OneNote 文件、套用自訂段落格式，最後使用 Aspose.Note for Java **將 OneNote 匯出為 PDF**。無論您是在建構報表引擎、自動筆記解決方案，或是文件轉換服務，本文所涵蓋的技巧都能協助您 **產生符合需求的 OneNote 檔案**。
+在當今快速變化的開發環境中，能夠以程式方式 **export OneNote to PDF** 是製作精緻、可分享文件的關鍵。本教學將帶領您建立 OneNote 檔案、套用自訂段落樣式，最後使用 Aspose.Note for Java **export OneNote to PDF**。無論您是構建報表引擎、自動筆記解決方案，或是文件轉換服務，本文所涵蓋的技術都能協助您 **save OneNote as PDF**，並精確控制格式。
 
-## 快速問答
-- **「設定段落樣式」是什麼意思？** 它會將字型、大小、顏色等格式套用到一段文字上。  
-- **可以把結果匯出成 PDF 嗎？** 可以──教學最後會示範將 OneNote 檔案儲存為 PDF。  
-- **使用 Aspose.Note 需要授權嗎？** 評估階段可使用免費試用版，正式上線則需購買授權。  
-- **支援哪些 IDE？** 任何 Java IDE 都可──Eclipse、IntelliJ IDEA、NetBeans 等。  
-- **實作大約需要多久？** 基本文件約 10‑15 分鐘即可完成。
+## Quick Answers
+- **「set paragraph style」是什麼意思？** 它會將字型、大小、顏色及其他格式套用到段落文字上。  
+- **我可以將結果匯出為 PDF 嗎？** 可以——本教學最後會將 OneNote 檔案儲存為 PDF。  
+- **使用 Aspose.Note 需要授權嗎？** 免費試用可用於評估；正式環境需購買授權。  
+- **支援哪些 IDE？** 任何 Java IDE – Eclipse、IntelliJ IDEA、NetBeans 等。  
+- **實作大約需要多久？** 基本文件約需 10‑15 分鐘。
 
-## Aspose.Note 中的「設定段落樣式」是什麼？
-設定段落樣式指的是建立並設定 `ParagraphStyle` 物件（字型名稱、大小、顏色等），再將其附加到 `RichText` 節點上。如此即可完整掌控 OneNote 頁面內文字的外觀。
+## What is “set paragraph style” in Aspose.Note?
+在 Aspose.Note 中，「set paragraph style」指的是設定 `ParagraphStyle` 物件（字型名稱、大小、顏色等），並將其附加至 `RichText` 節點。這讓您能完整掌控 OneNote 頁面內文字的顯示方式。
 
-## 為什麼在產生 OneNote 檔案時要設定段落樣式？
-- **一致的品牌形象：** 自動套用公司字型與色彩。  
-- **可讀性：** 較大的字型或特定顏色有助於提升可及性。  
-- **匯出相容性：** 之後 **將 OneNote 轉換為 PDF** 時，樣式會被完整保留。  
+## How to Set Paragraph Style in OneNote?
+套用樣式非常簡單，只需建立 `ParagraphStyle` 實例、客製化其屬性，然後指派給 `RichText` 元素。API 讓此操作在樣式物件準備好後只需一行程式碼即可完成。
 
-## 前置作業
+## Why Export OneNote to PDF?
+- **一致的品牌形象：** 在對外分享筆記時保留公司字型與顏色。  
+- **可讀性：** PDF 保持精確版面，適合列印或存檔。  
+- **跨平台存取：** 收件人可在任何裝置上開啟 PDF，無需安裝 OneNote。  
 
-在開始之前，請先確認您已具備：
+## Prerequisites
 
-1. **Java Development Kit (JDK) 1.8+** ─ 任何近期版本皆可。  
-2. **Aspose.Note for Java** ─ 從 [Aspose.Note 下載頁面](https://releases.aspose.com/note/java/) 取得最新 JAR。  
-3. **IDE** (Eclipse、IntelliJ IDEA 或 NetBeans) 用於編譯與執行範例。  
+在開始之前，請確保您已具備以下條件：
 
-> **小技巧：** 透過 Maven 或手動將 Aspose.Note JAR 加入專案 classpath，即可完成設定。
+1. **Java Development Kit (JDK) 1.8+** – 任何較新的 JDK 都可使用。  
+2. **Aspose.Note for Java** – 從 [Aspose.Note 下載頁面](https://releases.aspose.com/note/java/) 取得最新 JAR。  
+3. **IDE**（Eclipse、IntelliJ IDEA 或 NetBeans）用於編譯與執行範例。  
 
-## 匯入套件
+> **專業提示：** 透過 Maven 或在 IDE 中手動引用 JAR，將 Aspose.Note JAR 加入專案的 classpath。
 
-首先匯入所需的類別。此區塊保持不變。
+## Import Packages
+
+首先，匯入我們將使用的類別。此區塊保持不變。
 
 ```java
 import java.awt.Color;
@@ -60,14 +63,14 @@ import com.aspose.note.SaveFormat;
 import com.aspose.note.ParagraphStyle;
 ```
 
-> `ParagraphStyle` 類別是本教學稍後 **設定段落樣式** 的關鍵。
+> `ParagraphStyle` 類別是稍後 **set paragraph style** 的關鍵。
 
-## 步驟說明
+## Step‑by‑Step Guide
 
-以下為每個操作的簡明流程。程式碼區塊與原始範例完全相同，我們僅補充說明文字。
+以下是每個步驟的簡要說明。程式碼區塊與原始範例完全相同，我們僅加入說明文字。
 
-### 步驟 1：設定文件目錄
-指定產生檔案的儲存位置。
+### Step 1: Set Document Directory
+設定產生檔案的儲存目錄。
 
 ```java
 String dataDir = "Your Document Directory";
@@ -75,35 +78,35 @@ String dataDir = "Your Document Directory";
 
 將 `"Your Document Directory"` 替換為您機器上的絕對或相對路徑。
 
-### 步驟 2：初始化 Document 物件
-建立代表 OneNote 檔案的根 `Document`。
+### Step 2: Initialize Document Object
+建立代表 OneNote 檔案的根 `Document` 物件。
 
 ```java
 Document doc = new Document();
 ```
 
-### 步驟 3：初始化 Page 物件
-OneNote 檔案由一或多個頁面組成，我們先建立單一頁面。
+### Step 3: Initialize Page Object
+OneNote 檔案由一或多個頁面組成；此處先建立單一頁面。
 
 ```java
 Page page = new Page();
 ```
 
-### 步驟 4：初始化 Outline 物件
+### Step 4: Initialize Outline Object
 Outline 為大綱元素的容器（可視為章節）。
 
 ```java
 Outline outline = new Outline();
 ```
 
-### 步驟 5：初始化 OutlineElement 物件
-在此 **加入大綱元素**，用以容納富文字。
+### Step 5: Initialize OutlineElement Object
+在此 **add outline element**，用以容納我們的富文字。
 
 ```java
 OutlineElement outlineElem = new OutlineElement();
 ```
 
-### 步驟 6：設定文字樣式（設定段落樣式）
+### Step 6: Set Text Style (Set Paragraph Style)
 
 ```java
 ParagraphStyle textStyle = new ParagraphStyle()
@@ -112,26 +115,26 @@ ParagraphStyle textStyle = new ParagraphStyle()
                                     .setFontSize(10);
 ```
 
-`ParagraphStyle` 實例定義字型、大小與顏色──這裡即為即將加入的文字節點 **設定段落樣式** 的地方。
+`ParagraphStyle` 實例定義字型、大小與顏色——這裡就是為即將加入的文字節點 **set paragraph style** 的地方。
 
-### 步驟 7：初始化 RichText 物件
+### Step 7: Initialize RichText Object
 
 ```java
 RichText text = new RichText().append("Hello OneNote text!");
 text.setParagraphStyle(textStyle);
 ```
 
-建立 `RichText` 節點、插入簡單字串，並套用先前定義的樣式。
+我們建立 `RichText` 節點，插入簡單字串，並套用先前定義的樣式。
 
-### 步驟 8：將 RichText 節點加入 OutlineElement
+### Step 8: Add RichText Node to OutlineElement
 
 ```java
 outlineElem.appendChildLast(text);
 ```
 
-此時已將帶樣式的文字放入大綱元素內。
+現在已將樣式化文字放入大綱元素中。
 
-### 步驟 9：將 OutlineElement 節點加入 Outline
+### Step 9: Add OutlineElement Node to Outline
 
 ```java
 outline.appendChildLast(outlineElem);
@@ -139,62 +142,62 @@ outline.appendChildLast(outlineElem);
 
 大綱現在包含了持有段落的元素。
 
-### 步驟 10：將 Outline 節點加入 Page
+### Step 10: Add Outline Node to Page
 
 ```java
 page.appendChildLast(outline);
 ```
 
-將大綱放置於頁面上。
+我們將大綱放置於頁面上。
 
-### 步驟 11：將 Page 節點加入 Document
+### Step 11: Add Page Node to Document
 
 ```java
 doc.appendChildLast(page);
 ```
 
-文件現在只有一個頁面，內含已套用樣式的文字。
+文件現在有一個包含樣式化文字的單一頁面。
 
-### 步驟 12：儲存文件（匯出 OneNote PDF）
+### Step 12: Save the Document (Export OneNote PDF)
 
 ```java
 doc.save(dataDir + "CreateOneNoteDocumentWithSimpleRichText_out.pdf", SaveFormat.Pdf);
 ```
 
-`save` 方法一次寫入 OneNote 檔案並 **匯出 OneNote PDF**。若需原生格式，只要使用 `SaveFormat.One` 即可儲存為 `.one`。
+`save` 方法一次寫入 OneNote 檔案並 **exports OneNote PDF**。若需原生格式，也可使用 `SaveFormat.One` 儲存為 `.one`。
 
-## 常見問題與解決方案
+## Common Issues & Solutions
 
-| 問題 | 原因 | 解決方式 |
-|------|------|----------|
-| **找不到檔案** | `dataDir` 指向不存在的資料夾。 | 確認目錄已建立，或以程式碼 `new File(dataDir).mkdirs();` 先建立。 |
-| **PDF 為空白** | 儲存前未加入任何內容。 | 確認已將 `RichText` 節點加入，且樣式已設定。 |
-| **不支援的字型** | 系統未安裝指定字型。 | 改用常見字型如 `"Arial"`，或將字型檔嵌入專案。 |
+| 問題 | 原因 | 解決方案 |
+|-------|--------|-----|
+| **File not found** | `dataDir` 指向不存在的資料夾。 | 確認目錄已存在，或以程式方式建立 (`new File(dataDir).mkdirs();`)。 |
+| **Blank PDF** | 儲存前未加入任何內容。 | 檢查已將 `RichText` 節點加入，且已設定樣式。 |
+| **Unsupported font** | 系統未安裝指定字型。 | 使用常見字型如 `"Arial"`，或將字型嵌入專案中。 |
 
-## 常見問答
+## Frequently Asked Questions
 
-**Q: Aspose.Note 能處理表格或圖片等複雜格式嗎？**  
-A: 能，API 支援表格、圖片、超連結以及更進階的版面配置。
+**Q: Aspose.Note 能處理如表格或圖片等複雜格式嗎？**  
+A: 能，API 支援表格、圖片、超連結以及更進階的版面配置功能。
 
-**Q: 能否 **將 OneNote PDF 轉回 OneNote 檔案**？**  
-A: 目前未提供直接轉換，但可先解析 PDF 內容，再利用 API 重建 OneNote 文件。
+**Q: 能否 **convert OneNote PDF** 回 OneNote 檔案？**  
+A: 目前未提供直接轉換，但您可抽取 PDF 內容，並使用 API 重新建立 OneNote 文件。
 
-**Q: 此函式庫能在 Linux/macOS 上執行嗎？**  
-A: 能。Aspose.Note for Java 為跨平台套件，只要安裝 JDK 即可。
+**Q: 此函式庫能在 Linux/macOS 環境下運作嗎？**  
+A: 當然可以。Aspose.Note for Java 與平台無關，只要安裝 JDK 即可。
 
 **Q: 如何加入多個頁面或大綱？**  
-A: 建立額外的 `Page` 與 `Outline` 物件，然後像單頁範例一樣將它們加入 `Document`。
+A: 建立額外的 `Page` 與 `Outline` 物件，然後像單頁範例一樣將它們附加至 `Document`。
 
 **Q: 哪裡可以找到更多範例？**  
 A: 官方 Aspose.Note 文件與 [支援論壇](https://forum.aspose.com/c/note/28) 提供大量程式碼範例。
 
-## 結論
+## Conclusion
 
-您現在已了解如何 **設定段落樣式**、**加入大綱元素**，以及使用 Aspose.Note for Java **產生可匯出為 PDF 的 OneNote 檔案**。在建立文件時即套用樣式，可確保最終文件的專業外觀，且在之後的 **將 OneNote 轉換為 PDF** 操作中保持格式不變。歡迎在此基礎上加入圖片、表格或自訂中繼資料，以滿足您的專案需求。
+您現在已了解如何 **set paragraph style**、**add outline element**，以及使用 Aspose.Note for Java **generate a OneNote file** 並 **export to PDF**。在建立文件時即套用樣式，可確保最終文件具備專業外觀，且任何後續的 **convert OneNote PDF** 動作都能保留格式。歡迎在此基礎上加入圖片、表格或自訂中繼資料，以滿足專案需求。
 
 ---
 
-**最後更新：** 2025-12-08  
+**最後更新：** 2026-02-18  
 **測試環境：** Aspose.Note for Java 24.11（最新發行版）  
 **作者：** Aspose  
 
