@@ -1,10 +1,10 @@
 ---
-date: 2025-12-11
-description: Aspose.Note for Java を使用して、パスワードで保護された OneNote ドキュメントの読み込み方法を学びましょう。このステップバイステップガイドでは、OneNote
-  ファイル形式の取得方法と暗号化されたファイルの簡単な扱い方を示します。
+date: 2026-02-18
+description: Aspose.Note for Java を使用して保護された OneNote Java ファイルを読み込み、OneNote のファイル形式を取得したり、OneNote
+  ノートブックから画像を抽出したりする方法を学びましょう。
 linktitle: Load Password-Protected OneNote Document - Java
 second_title: Aspose.Note Java API
-title: Javaでパスワード保護されたOneNoteドキュメントを読み込む
+title: 保護された OneNote の読み込み – Aspose.Note Java
 url: /ja/java/onenote-document-loading/load-password-protected-onenote/
 weight: 27
 ---
@@ -13,30 +13,30 @@ weight: 27
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Java を使用したパスワード保護された OneNote ドキュメントの読み込み
+# パスワード保護された OneNote ドキュメントを Java で読み込む
 
-このチュートリアルでは、Aspose.Note for Java を使用して **パスワード保護された OneNote** ファイルを読み込む方法を学びます。デスクトップユーティリティでもサーバーサイドサービスでも、暗号化された OneNote ノートブックを開くことは、安全なドキュメントワークフローに不可欠です。また、ドキュメントを読み込んだ後に **OneNote のファイル形式** 情報を取得する方法も示します。
+このチュートリアルでは **保護された onenote java** ファイルを Aspose.Note for Java で読み込む方法を紹介します。デスクトップユーティリティ、マイクロサービス、あるいは Web ベースの処理パイプラインを構築する場合でも、暗号化された OneNote ノートブックを開くことは安全なドキュメントワークフローに不可欠です。また、**onenote ファイル形式** の取得方法や、ドキュメントのロックが解除された後に **onenote から画像を抽出** する方法も示します。
 
 ## Quick Answers
-- **暗号化された OneNote ファイルを処理するライブラリは何ですか？** Aspose.Note for Java.
-- **パスワード保護されたノートブックを読み込むのにライセンスは必要ですか？** 開発目的であれば無料トライアルで動作しますが、本番環境では商用ライセンスが必要です。
-- **必要な Java のバージョンは？** Java 8 以降.
-- **読み込み後にファイル形式を取得できますか？** はい、`doc.getFileFormat()` を使用します。
-- **間違ったパスワードに対してエラーハンドリングは必要ですか？** 必要です – `IOException` または `InvalidPasswordException` をキャッチしてください。
+- **暗号化された OneNote ファイルを扱うライブラリは？** Aspose.Note for Java。  
+- **パスワード保護されたノートブックを読み込むのにライセンスは必要？** 開発用途なら無料トライアルで可能です。商用環境では商用ライセンスが必要です。  
+- **必要な Java バージョンは？** Java 8 以降。  
+- **読み込み後にファイル形式を取得できる？** はい、`doc.getFileFormat()` を使用します。  
+- **パスワードが間違っている場合のエラーハンドリングは必要？** 必須です – `IOException` または `InvalidPasswordException` をキャッチしてください。
 
-## 前提条件
+## Prerequisites
 
-開始する前に、以下が揃っていることを確認してください。
+開始する前に、以下を用意してください。
 
 ### 1. Java Development Kit (JDK)
-マシンにインストールされた最新の JDK（8 以上）。Oracle のウェブサイトからダウンロードするか、OpenJDK ディストリビューションを採用できます。
+マシンにインストールされた最新の JDK（8 以上）。Oracle のサイトまたは OpenJDK ディストリビューションからダウンロードできます。
 
 ### 2. Aspose.Note for Java
 Maven、Gradle、または Aspose のウェブサイトから JAR をダウンロードして、プロジェクトに Aspose.Note ライブラリを追加します。
 
-## パッケージのインポート
+## Import Packages
 
-まず、必要なクラスをインポートします。このブロックは示された通りに正確に残す必要があります。
+まず、必要なクラスをインポートします。このブロックは示された通りに正確に残してください。
 
 ```java
 import java.io.IOException;
@@ -44,70 +44,83 @@ import com.aspose.note.Document;
 import com.aspose.note.LoadOptions;
 ```
 
-## 手順ガイド
+## How to load protected onenote java
 
-### 手順 1: ドキュメントディレクトリの定義
-アプリケーションに OneNote ファイルの場所を伝えます。
+以下は実際に読み込みを行う手順です。各ステップを正確に実行すれば、ノートブックをさらに処理できる状態になります。
+
+### Step 1: Define the document directory
+OneNote ファイルが存在する場所をアプリケーションに伝えます。
 
 ```java
 String dataDir = "Your Document Directory";
 ```
 
-### 手順 2: パスワード付きのロードオプションを作成
-暗号化されたノートブックのパスワードを提供するように `LoadOptions` を構成します。
+### Step 2: Create load options with the password
+暗号化されたノートブックのパスワードを指定するために `LoadOptions` を設定します。
 
 ```java
 LoadOptions loadOptions = new LoadOptions();
 loadOptions.setDocumentPassword("password");
 ```
 
-### 手順 3: パスワード保護された OneNote ドキュメントを読み込む
+### Step 3: Load the password‑protected OneNote document
 ファイルパスと `LoadOptions` インスタンスを `Document` コンストラクタに渡します。
 
 ```java
 Document doc = new Document(dataDir + "Sample1.one", loadOptions);
 ```
 
-### 手順 4: OneNote のファイル形式を取得 (オプション)
-ファイルタイプを確認する必要がある場合は、読み込み後に形式を問い合わせることができます。
+### Step 4: Retrieve the OneNote file format (optional)
+ファイルタイプを確認したい場合は、読み込み後に形式を問い合わせることができます。
 
 ```java
 System.out.println(doc.getFileFormat());
 ```
 
-## **OneNote のファイル形式** を取得する必要がある理由
-正確な形式（例: OneNote 2007、OneNote 2010、OneNote 2016）を把握しておくと、変換、エクスポート、またはバージョン固有のロジックを適用する際に役立ちます。`getFileFormat()` 呼び出しでこの情報を即座に取得できます。
+## Why you might need to **retrieve onenote file format**
+正確な形式（例: OneNote 2007、OneNote 2010、OneNote 2016）を把握しておくと、変換やエクスポート、バージョン固有のロジックを適用する際に便利です。`getFileFormat()` 呼び出しで即座に情報が取得できます。
 
-## よくある問題と解決策
-| 問題 | 解決策 |
+## How to **extract images from onenote** after decryption
+ノートブックの読み込みに成功したら、ページを走査して埋め込まれた画像を取得できます。以下は簡潔な説明です（追加のコードブロックは不要です）：
+
+1. `doc.getPages()` を反復処理して各ページにアクセスします。  
+2. 各ページで `page.getImages()` を呼び出し、`Image` オブジェクトのコレクションを取得します。  
+3. `Image.save(outputPath)` メソッドを使って、画像をディスクまたはストリームに書き出します。
+
+> **Pro tip:** 画像抽出ロジックとファイル形式チェックを組み合わせることで、バージョン固有の画像処理を自動的に行えます。
+
+## Common Issues and Solutions
+| Issue | Solution |
 |-------|----------|
-| **パスワードが間違っています** | ロードコードを try‑catch ブロックで囲み、分かりやすいメッセージを表示します。 |
-| **ファイルが見つかりません** | `dataDir` がパス区切り文字で終わっているか、ファイル名が正しいかを確認してください。 |
-| **サポートされていない OneNote バージョン** | 最新の Aspose.Note リリースを使用していることを確認してください。これにより新しい形式のサポートが追加されています。 |
+| **Incorrect password** | 読み込みコードを try‑catch ブロックで囲み、ユーザーフレンドリーなメッセージを表示します。 |
+| **File not found** | `dataDir` の末尾にパス区切り文字が付いているか、ファイル名が正しいかを確認してください。 |
+| **Unsupported OneNote version** | 最新の Aspose.Note リリースを使用してください。新しい形式へのサポートが追加されています。 |
 
-## よくある質問
+## Frequently Asked Questions
 
-**Q: 複数のパスワード保護された OneNote ドキュメントを同時に読み込むことはできますか？**  
-A: はい。各ファイルについてロード手順を繰り返し、毎回適切なパスワードを指定してください。
+**Q: Can I load multiple password‑protected OneNote documents simultaneously?**  
+A: Yes. Simply repeat the loading steps for each file, supplying the appropriate password each time.
 
-**Q: Aspose.Note for Java はすべての OneNote バージョンと互換性がありますか？**  
-A: このライブラリは、レガシーから最新の Office 365 ノートブックまで、幅広い OneNote 形式をサポートしています。
+**Q: Is Aspose.Note for Java compatible with all OneNote versions?**  
+A: The library supports a wide range of OneNote formats, including legacy and the latest Office 365 notebooks.
 
-**Q: 復号エラーをプログラムでどのように処理すべきですか？**  
-A: `IOException` または特定の `InvalidPasswordException` をキャッチし、インシデントをログに記録し、必要に応じてユーザーに新しいパスワードを入力させてください。
+**Q: How should I handle decryption errors programmatically?**  
+A: Catch `IOException` or a specific `InvalidPasswordException`, log the incident, and optionally prompt the user for a new password.
 
-**Q: Aspose.Note for Java のトライアル版はありますか？**  
-A: あります。Aspose のウェブサイトから機能フルの 30 日間トライアルをダウンロードできます。
+**Q: Is there a trial version of Aspose.Note for Java?**  
+A: Absolutely. You can download a fully functional 30‑day trial from the Aspose website.
 
-**Q: このライブラリはデスクトップアプリとウェブアプリの両方で使用できますか？**  
-A: はい。API はプラットフォームに依存せず、サーブレットコンテナ、Spring Boot サービス、またはスタンドアロンの Java アプリケーションでも同様に動作します。
+**Q: Can I use this library in both desktop and web applications?**  
+A: Yes. The API is platform‑agnostic and works equally well in servlet containers, Spring Boot services, or standalone Java applications.
 
-**Q: パスワード保護されたノートブックから画像を抽出することはサポートされていますか？**  
-A: ドキュメントが正常に読み込まれたら、標準の Aspose.Note API を使用してページを走査し、画像を抽出できます。
+**Q: Does the library support extracting images from a password‑protected notebook?**  
+A: Once the document is successfully loaded, you can traverse its pages and extract images using the standard Aspose.Note API (see “How to extract images from onenote” above).
 
-**最終更新日:** 2025-12-11  
-**テスト環境:** Aspose.Note for Java 24.12  
-**作者:** Aspose  
+---
+
+**Last Updated:** 2026-02-18  
+**Tested With:** Aspose.Note for Java 24.12  
+**Author:** Aspose  
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

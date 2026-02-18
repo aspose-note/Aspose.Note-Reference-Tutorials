@@ -1,11 +1,11 @@
 ---
-date: 2025-12-09
-description: Naučte se, jak uložit OneNote jako PDF s formátovaným bohatým textem
-  v Javě pomocí Aspose.Note pro Javu. Postupujte podle našeho krok‑za‑krokem průvodce
-  pro bezproblémovou automatizaci dokumentů.
-linktitle: Save OneNote as PDF with Formatted Rich Text in Java
+date: 2026-02-18
+description: Naučte se, jak vytvořit dokument OneNote, formátovat bohatý text a uložit
+  jej jako PDF v Javě pomocí Aspose.Note. Průvodce krok za krokem pro bezproblémovou
+  automatizaci.
+linktitle: Create OneNote document and save as PDF in Java
 second_title: Aspose.Note Java API
-title: Uložit OneNote jako PDF s formátovaným bohatým textem v Javě
+title: Vytvořte dokument OneNote a uložte jej jako PDF v Javě
 url: /cs/java/onenote-document-manipulation/create-onenote-document-formatted-rich-text/
 weight: 11
 ---
@@ -14,34 +14,34 @@ weight: 11
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Uložte OneNote jako PDF s formátovaným bohatým textem v Javě
+# Vytvořte dokument OneNote a uložte jej jako PDF v Javě
 
 ## Úvod
 
-Pokud potřebujete **uložit OneNote jako PDF** a zachovat formátování bohatého textu, jste na správném místě. V tomto tutoriálu vás provedeme vytvořením dokumentu OneNote, aplikací vlastních stylů a exportem přímo do PDF pomocí Aspose.Note pro Java. Na konci budete mít znovupoužitelný úryvek kódu, který můžete vložit do libovolného Java projektu a automatizovat tak profesionální převody OneNote‑na‑PDF.
+Pokud potřebujete **vytvořit dokument OneNote** a **uložit OneNote jako PDF** při zachování formátování rich‑textu, jste na správném místě. V tomto tutoriálu vás provedeme vytvořením dokumentu OneNote, aplikací vlastních stylů a přímým exportem do PDF pomocí Aspose.Note pro Java. Na konci budete mít znovupoužitelný úryvek, který můžete vložit do libovolného Java projektu a automatizovat tak profesionální konverze OneNote‑na‑PDF.
 
 ## Rychlé odpovědi
 - **Co se v tomto tutoriálu učí?** Jak vytvořit dokument OneNote se stylovaným textem a uložit jej jako PDF.  
-- **Která knihovna je vyžadována?** Aspose.Note pro Java (ke stažení z oficiálního webu).  
+- **Která knihovna je vyžadována?** Aspose.Note pro Java (ke stažení z oficiální stránky).  
 - **Potřebuji licenci?** Dočasná licence funguje pro testování; plná licence je vyžadována pro produkci.  
-- **Jaké IDE mohu použít?** Jakékoli Java IDE – IntelliJ IDEA, Eclipse nebo NetBeans.  
+- **Jaké IDE mohu použít?** Jakékoli Java IDE — IntelliJ IDEA, Eclipse nebo NetBeans.  
 - **Mohu změnit výstupní formát?** Ano, Aspose.Note podporuje PDF, HTML, PNG a další.
 
-## Co znamená „uložit OneNote jako PDF“?
-Uložení OneNote jako PDF znamená převod struktury stránky OneNote – včetně textu, obrázků a formátování – do statického PDF souboru, který lze zobrazit na jakékoli platformě bez potřeby OneNote.
+## Co je „uložit onenote pdf“?
+Uložení OneNote jako PDF znamená převod struktury stránky OneNote — včetně textu, obrázků a formátování — do statického souboru PDF, který lze zobrazit na jakékoli platformě bez potřeby OneNote.
 
-## Proč formátovat bohatý text v Javě?
-Aplikace formátování bohatého textu (písma, barvy, styly) přímo v Javě vám umožní generovat dokumenty, které vypadají profesionálně a odpovídají vašim firemním směrnicím, bez nutnosti ruční úpravy.
+## Proč formátovat rich text v Javě?
+Aplikace **formátování rich textu** přímo v Javě vám umožní generovat dokumenty, které vypadají profesionálně a odpovídají vašim firemním směrnicím, bez nutnosti ruční úpravy.
 
 ## Předpoklady
 
-1. **Java Development Kit (JDK)** – jakákoli aktuální verze (8 nebo vyšší).  
-2. **Aspose.Note pro Java JAR** – stáhněte jej z [odkaz ke stažení](https://releases.aspose.com/note/java/).  
-3. **IDE** – IntelliJ IDEA, Eclipse nebo jakýkoli editor, který preferujete.  
+1. **Java Development Kit (JDK)** – libovolná aktuální verze (8 nebo vyšší).  
+2. **Aspose.Note pro Java JAR** – stáhněte jej z [odkazu ke stažení](https://releases.aspose.com/note/java/).  
+3. **IDE** – IntelliJ IDEA, Eclipse nebo libovolný editor, který preferujete.  
 
 ## Import balíčků
 
-Nejprve je třeba importovat potřebné balíčky do vašeho Java projektu. Přidejte následující importy na začátek vašeho Java souboru:
+Než začneme, importujte potřebné třídy do vašeho Java souboru:
 
 ```java
 import java.awt.Color;
@@ -57,9 +57,11 @@ import com.aspose.note.ParagraphStyle;
 import com.aspose.note.Title;
 ```
 
-## Krok 1: Nastavení dokumentu a stránky
+## Jak vytvořit dokument OneNote – krok za krokem
 
-Začneme inicializací objektů `Document` a `Page`:
+### Krok 1: Nastavení dokumentu a stránky
+
+Inicializujte objekty `Document` a `Page`, které budou obsahovat veškerý obsah:
 
 ```java
 String dataDir = "Your Document Directory";
@@ -67,9 +69,9 @@ Document doc = new Document();
 Page page = new Page();
 ```
 
-## Krok 2: Vytvoření nadpisu s formátováním
+### Krok 2: Vytvoření titulku s formátováním
 
-Nyní vytvoříme nadpis s formátovaným textem:
+Přidejte prvek titulku a použijte **set paragraph style** pro kontrolu jeho vzhledu:
 
 ```java
 Title title = new Title();
@@ -83,9 +85,9 @@ titleText.setParagraphStyle(defaultTextStyle);
 title.setTitleText(titleText);
 ```
 
-## Krok 3: Vytvoření bohatého textu s formátováním
+### Krok 3: Vytvoření rich textu s formátováním
 
-Dále vytvoříme bohatý text s různými styly formátování:
+Zde vytváříme obsah rich‑textu pomocí několika objektů `TextStyle`, abychom demonstrovali **formátování rich textu**:
 
 ```java
 Outline outline = new Outline();
@@ -117,9 +119,9 @@ RichText text = new RichText()
 text.setParagraphStyle(defaultTextStyle);
 ```
 
-## Krok 4: Přidání prvků na stránku a do dokumentu
+### Krok 4: Přidání prvků na stránku a do dokumentu
 
-Nyní přidáme nadpis a bohatý text na stránku a do struktury dokumentu:
+Zkombinujte titulek a rich text do hierarchie stránky:
 
 ```java
 outlineElem.appendChildLast(text);
@@ -129,9 +131,9 @@ page.appendChildLast(outline);
 doc.appendChildLast(page);
 ```
 
-## Krok 5: Uložení dokumentu
+### Krok 5: Uložení dokumentu – export onenote pdf
 
-Nakonec uložíme vytvořený OneNote dokument jako PDF:
+Nakonec exportujte dokument OneNote jako soubor PDF:
 
 ```java
 doc.save(dataDir + "CreateOneNoteDocument_out.pdf", SaveFormat.Pdf);
@@ -141,36 +143,36 @@ doc.save(dataDir + "CreateOneNoteDocument_out.pdf", SaveFormat.Pdf);
 
 | Problém | Řešení |
 |-------|----------|
-| **Soubor nenalezen** | Ověřte, že `dataDir` ukazuje na existující složku a máte oprávnění k zápisu. |
-| **Chybějící písma** | Ujistěte se, že písma, na která odkazujete (např. *Calibri*), jsou nainstalována na hostitelském počítači. |
-| **Licence nebyla použita** | Načtěte svou Aspose licenci před vytvořením `Document`, aby se předešlo vodoznakům z evaluační verze. |
+| **Soubor nenalezen** | Ověřte, že `dataDir` ukazuje na existující složku a že máte oprávnění k zápisu. |
+| **Chybějící fonty** | Ujistěte se, že fonty, na které odkazujete (např. *Calibri*), jsou nainstalovány na hostitelském počítači. |
+| **Licence nebyla použita** | Načtěte svou Aspose licenci před vytvořením `Document`, aby se zabránilo vodoznakům z evaluační verze. |
 
 ## Často kladené otázky
 
-**Otázka: Mohu dále přizpůsobit styly písma?**  
-**Odpověď:** Ano, můžete upravit další vlastnosti, jako podtržení, přeškrtnutí a zarovnání textu pomocí tříd `TextStyle` a `ParagraphStyle`.
+**Q: Mohu dále přizpůsobit styly fontů?**  
+A: Ano, můžete upravit další vlastnosti, jako podtržení, přeškrtnutí a zarovnání textu pomocí tříd `TextStyle` a `ParagraphStyle`.
 
-**Otázka: Je Aspose.Note pro Java kompatibilní se všemi Java IDE?**  
-**Odpověď:** Ano. Dokud IDE podporuje standardní vývoj v Javě, můžete přidat Aspose.Note JAR do classpath projektu.
+**Q: Je Aspose.Note pro Java kompatibilní se všemi Java IDE?**  
+A: Naprosto. Dokud IDE podporuje standardní vývoj v Javě, můžete přidat Aspose.Note JAR do classpath projektu.
 
-**Otázka: Mohu tuto funkci integrovat do webových aplikací?**  
-**Odpověď:** Ano, stejný kód funguje v servlet‑based nebo Spring Boot aplikacích, což umožňuje dynamické generování OneNote‑na‑PDF na straně serveru.
+**Q: Mohu tuto funkčnost integrovat do webových aplikací?**  
+A: Ano, stejný kód funguje v servlet‑based nebo Spring Boot aplikacích, což umožňuje dynamické generování OneNote‑na‑PDF na straně serveru.
 
-**Otázka: Existují licenční požadavky pro používání Aspose.Note pro Java?**  
-**Odpověď:** Ano, pro produkční použití je vyžadována komerční licence. Dočasná licence je k dispozici pro hodnocení a testování.
+**Q: Existují licenční požadavky pro používání Aspose.Note pro Java?**  
+A: Pro produkční použití je vyžadována komerční licence. Dočasná licence je k dispozici pro hodnocení a testování.
 
-**Otázka: Podporuje Aspose.Note pro Java i jiné formáty dokumentů kromě OneNote?**  
-**Odpověď:** Ano, podporuje PDF, HTML, PNG, JPEG a několik dalších exportních formátů, což vám poskytuje flexibilitu převádět stránky OneNote do požadovaného formátu.
+**Q: Podporuje Aspose.Note pro Java i jiné formáty dokumentů kromě OneNote?**  
+A: Podporuje PDF, HTML, PNG, JPEG a několik dalších exportních formátů, což vám poskytuje flexibilitu převádět stránky OneNote do požadovaného formátu.
 
 ## Závěr
 
-V tomto průvodci jsme ukázali, jak **uložit OneNote jako PDF** a zároveň aplikovat formátování bohatého textu pomocí Aspose.Note pro Java. Dodržením krok za krokem můžete automatizovat tvorbu profesionálních OneNote dokumentů a převádět je do PDF v jakémkoli řešení založeném na Javě.
+V tomto průvodci jsme ukázali, jak **vytvořit dokument OneNote**, aplikovat **formátování rich textu** a **uložit OneNote jako PDF** pomocí Aspose.Note pro Java. Dodržením krok‑za‑krokem instrukcí můžete automatizovat tvorbu profesionálních OneNote dokumentů a převádět je do PDF v jakémkoli řešení založeném na Javě.
 
 ---
 
-**Last Updated:** 2025-12-09  
-**Testováno s:** Aspose.Note for Java 24.11 (latest at time of writing)  
-**Author:** Aspose  
+**Poslední aktualizace:** 2026-02-18  
+**Testováno s:** Aspose.Note pro Java 24.11 (nejnovější v době psaní)  
+**Autor:** Aspose  
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

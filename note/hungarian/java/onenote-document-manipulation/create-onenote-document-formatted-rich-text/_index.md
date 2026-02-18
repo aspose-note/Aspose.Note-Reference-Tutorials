@@ -1,11 +1,11 @@
 ---
-date: 2025-12-09
-description: Ismerje meg, hogyan menthet OneNote-ot PDF formátumba formázott gazdag
-  szöveggel Java-ban az Aspose.Note for Java használatával. Kövesse lépésről‑lépésre
-  útmutatónkat a zökkenőmentes dokumentumautomatizáláshoz.
-linktitle: Save OneNote as PDF with Formatted Rich Text in Java
+date: 2026-02-18
+description: Ismerje meg, hogyan hozhat létre OneNote dokumentumot, formázhat gazdag
+  szöveget, és menthet PDF‑ként Java‑ban az Aspose.Note használatával. Lépésről‑lépésre
+  útmutató a zökkenőmentes automatizáláshoz.
+linktitle: Create OneNote document and save as PDF in Java
 second_title: Aspose.Note Java API
-title: OneNote mentése PDF formátumban formázott Rich Text-tel Java-ban
+title: OneNote dokumentum létrehozása és PDF‑ként mentése Java‑ban
 url: /hu/java/onenote-document-manipulation/create-onenote-document-formatted-rich-text/
 weight: 11
 ---
@@ -14,34 +14,34 @@ weight: 11
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Mentse a OneNote-ot PDF‑ként formázott Rich Text‑kel Java‑ban
+# OneNote dokumentum létrehozása és PDF-ként mentése Java-ban
 
 ## Bevezetés
 
-Ha **OneNote-ot PDF‑ként szeretné menteni**, miközben megőrzi a gazdag szövegformázást, jó helyen jár. Ebben az útmutatóban végigvezetjük a OneNote‑dokumentum létrehozásán, egyéni stílusok alkalmazásán, és a közvetlen PDF‑exporton az Aspose.Note for Java segítségével. A végére egy újrahasználható kódrészletet kap, amelyet bárm Java‑projektbe beilleszthet a kifinomult OneNote‑PDF konverziók automatizálásához.
+Ha **OneNote dokumentumot** kell **létrehoznod** és **OneNote-ot PDF‑ként mentened**, miközben megőrzöd a gazdag szövegformázást, jó helyen jársz. Ebben az útmutatóban végigvezetünk a OneNote dokumentum létrehozásán, egyéni stílusok alkalmazásán, és a közvetlen PDF‑exporton az Aspose.Note for Java segítségével. A végére egy újrahasználható kódrészletet kapsz, amelyet bármely Java projektbe beilleszthetsz a kifinomult OneNote‑PDF konverziók automatizálásához.
 
 ## Gyors válaszok
-- **Miről szól ez az útmutató?** Hogyan hozzunk létre egy OneNote‑dokumentumot formázott szöveggel, és mentsük PDF‑ként.  
+- **Ez az útmutató mit tanít?** Hogyan kell OneNote dokumentumot létrehozni stílusos szöveggel, és PDF‑ként menteni.  
 - **Melyik könyvtár szükséges?** Aspose.Note for Java (letölthető a hivatalos oldalról).  
-- **Szükség van licencre?** Ideiglenes licenc teszteléshez elegendő; teljes licenc a termeléshez kötelező.  
-- **Melyik IDE használható?** Bármely Java IDE – IntelliJ IDEA, Eclipse vagy NetBeans.  
-- **Módosítható a kimeneti formátum?** Igen, az Aspose.Note támogatja a PDF, HTML, PNG és további formátumokat.
+- **Szükségem van licencre?** Ideiglenes licenc teszteléshez elegendő; teljes licenc szükséges a termeléshez.  
+- **Milyen IDE-t használhatok?** Bármely Java IDE—IntelliJ IDEA, Eclipse vagy NetBeans.  
+- **Megváltoztathatom a kimeneti formátumot?** Igen, az Aspose.Note támogatja a PDF, HTML, PNG és további formátumokat.
 
-## Mi az a „save onenote as pdf”?
-A OneNote PDF‑ként való mentése azt jelenti, hogy a OneNote oldal struktúráját – beleértve a szöveget, képeket és formázást – egy statikus PDF‑fájlba konvertáljuk, amely bármely platformon megtekinthető anélkül, hogy a OneNote‑ra szükség lenne.
+## Mi az a „OneNote PDF‑ként mentése”?
+A OneNote PDF‑ként mentése azt jelenti, hogy a OneNote oldal struktúráját – beleértve a szöveget, képeket és formázást – egy statikus PDF fájlba konvertáljuk, amely bármely platformon megtekinthető anélkül, hogy a OneNote-ra szükség lenne.
 
-## Miért formázzuk a rich text‑et Java‑ban?
-A gazdag szövegformázás (betűtípusok, színek, stílusok) közvetlenül Java‑ban történő alkalmazása lehetővé teszi, hogy professzionális megjelenésű dokumentumokat generáljunk, amelyek megfelelnek a márka irányelveinek, anélkül, hogy kézi szerkesztésre lenne szükség.
+## Miért formázzuk a gazdag szöveget Java-ban?
+A **gazdag szöveg formázásának** közvetlen alkalmazása Java-ban lehetővé teszi, hogy professzionális megjelenésű dokumentumokat generálj, amelyek megfelelnek a márka irányelveinek, manuális szerkesztés nélkül.
 
 ## Előfeltételek
 
 1. **Java Development Kit (JDK)** – bármely friss verzió (8 vagy újabb).  
-2. **Aspose.Note for Java JAR** – töltsd le a [letöltési hivatkozás](://releases.aspose.com/note/java/) oldalról.  
-3. **IDE** – IntelliJ IDEA, Eclipse vagy bármely kedvelt szerkesztő.
+2. **Aspose.Note for Java JAR** – töltsd le a [letöltési hivatkozás](https://releases.aspose.com/note/java/) segítségével.  
+3. **IDE** – IntelliJ IDEA, Eclipse vagy bármely kedvelt szerkesztő.  
 
 ## Csomagok importálása
 
-Először importálni kell a szükséges csomagokat a Java‑projektbe. Add hozzá a következő import utasításokat a Java‑fájlod elejéhez:
+Mielőtt elkezdenénk, importáld a szükséges osztályokat a Java fájlodba:
 
 ```java
 import java.awt.Color;
@@ -57,9 +57,11 @@ import com.aspose.note.ParagraphStyle;
 import com.aspose.note.Title;
 ```
 
-## 1. lépés: Dokumentum és oldal beállítása
+## OneNote dokumentum létrehozása – Lépésről‑lépésre útmutató
 
-Kezdjük a `Document` és `Page` objektumok inicializálásával:
+### 1. lépés: Dokumentum és oldal beállítása
+
+Inicializáld a `Document` és `Page` objektumokat, amelyek a teljes tartalmat tárolják:
 
 ```java
 String dataDir = "Your Document Directory";
@@ -67,9 +69,9 @@ Document doc = new Document();
 Page page = new Page();
 ```
 
-## 2. lépés: Cím létrehozása formázással
+### 2. lépés: Cím létrehozása formázással
 
-Most hozzunk létre egy címet formázott szöveggel:
+Adj hozzá egy cím elemet, és alkalmazz **set paragraph style**‑t a megjelenés szabályozásához:
 
 ```java
 Title title = new Title();
@@ -83,9 +85,9 @@ titleText.setParagraphStyle(defaultTextStyle);
 title.setTitleText(titleText);
 ```
 
-## 3. lépés: Rich Text létrehozása formázással
+### 3. lépés: Gazdag szöveg létrehozása formázással
 
-Ezután készítsünk gazdag szöveget különböző formázási stílusokkal:
+Itt gazdag‑szöveges tartalmat építünk több `TextStyle` objektummal, hogy bemutassuk a **gazdag szöveg formázását**:
 
 ```java
 Outline outline = new Outline();
@@ -117,9 +119,9 @@ RichText text = new RichText()
 text.setParagraphStyle(defaultTextStyle);
 ```
 
-## 4. lépés: Elemek hozzáadása az oldalhoz és a dokumentumhoz
+### 4. lépés: Elemek hozzáadása az oldalhoz és a dokumentumhoz
 
-Adjunk hozzá a címet és a gazdag szöveget az oldalhoz, valamint a vázlat elemekhez:
+Kombináld a címet és a gazdag szöveget az oldal hierarchiájába:
 
 ```java
 outlineElem.appendChildLast(text);
@@ -129,9 +131,9 @@ page.appendChildLast(outline);
 doc.appendChildLast(page);
 ```
 
-## 5. lépés: Dokumentum mentése
+### 5. lépés: Dokumentum mentése – OneNote PDF exportálása
 
-Végül mentsük el a létrehozott OneNote‑dokumentumot PDF‑ként:
+Végül exportáld a OneNote dokumentumot PDF fájlként:
 
 ```java
 doc.save(dataDir + "CreateOneNoteDocument_out.pdf", SaveFormat.Pdf);
@@ -141,35 +143,35 @@ doc.save(dataDir + "CreateOneNoteDocument_out.pdf", SaveFormat.Pdf);
 
 | Probléma | Megoldás |
 |----------|----------|
-| **File not found** | Ellenőrizd, hogy a `dataDir` egy létező mappára mutat-e, és van‑e írási jogosultságod. |
-| **Missing fonts** | Győződj meg róla, hogy a hivatkozott betűtípusok (pl. *Calibri*) telepítve vannak a gépen. |
-| **License not applied** | Töltsd be az Aspose licencet a `Document` létrehozása előtt, hogy elkerüld a kiértékelési vízjelet. |
+| **Fájl nem található** | Ellenőrizd, hogy a `dataDir` egy létező mappára mutat, és van írási jogosultságod. |
+| **Hiányzó betűkészletek** | Győződj meg arról, hogy a hivatkozott betűk (pl. *Calibri*) telepítve vannak a gépen. |
+| **Licenc nincs alkalmazva** | Töltsd be az Aspose licencet a `Document` létrehozása előtt, hogy elkerüld a kiértékelési vízjeleket. |
 
-## Gyakran feltett kérdések
+## Gyakran ismételt kérdések
 
-**K: Testreszabhatom a betűstílusokat?**  
-V: Igen, további tulajdonságokat, például aláhúzást, áthúzást és szövegigazítást a `TextStyle` és `ParagraphStyle` osztályokkal állíthatod be.
+**K: Testreszabhatom a betűstílusokat tovább?**  
+V: Igen, a `TextStyle` és `ParagraphStyle` osztályok segítségével további tulajdonságokat, például aláhúzást, áthúzást és szövegigazítást is beállíthatsz.
 
-**K: Az Aspose.Note for Java kompatibilis minden Java IDE‑vel?**  
-V: Teljes mértékben. Amennyiben az IDE támogatja a standard Java fejlesztést, hozzáadhatod az Aspose.Note JAR‑t a projekt classpath‑jához.
+**K: Az Aspose.Note for Java kompatibilis minden Java IDE-vel?**  
+V: Teljesen. Amennyiben az IDE támogatja a standard Java fejlesztést, hozzáadhatod az Aspose.Note JAR‑t a projekt classpath‑jához.
 
-**K: Integrálható ez a funkció webalkalmazásokba?**  
-V: Igen, ugyanaz a kód működik servlet‑alapú vagy Spring Boot alkalmazásokban, lehetővé téve a dinamikus OneNote‑PDF generálást a szerveroldalon.
+**K: Integrálhatom ezt a funkciót webalkalmazásokba?**  
+V: Igen, ugyanaz a kód működik servlet‑alapú vagy Spring Boot alkalmazásokban is, lehetővé téve a dinamikus OneNote‑PDF generálást a szerver oldalon.
 
-**K: Milyen licencelési követelmények vannak az Aspose.Note for Java használatához?**  
-V: A termelési környezetben kereskedelmi licenc szükséges. Ideiglenes licenc elérhető értékeléshez és teszteléshez.
+**K: Vannak licencelési követelmények az Aspose.Note for Java használatához?**  
+V: Kereskedelmi licenc szükséges a termeléshez. Ideiglenes licenc elérhető értékeléshez és teszteléshez.
 
-**K: Támogatja az Aspose.Note for Java más dokumentumformátumokat is a OneNote‑on kívül?**  
-V: Igen, támogatja a PDF, HTML, PNG, JPEG és több exportformátumot így rugalmasan konvertálhatod a OneNote oldalakat a kívánt formátumba.
+**K: Támogatja az Aspose.Note for Java más dokumentumformátumokat is a OneNote-on kívül?**  
+V: Igen, támogatja a PDF, HTML, PNG, JPEG és több exportformátumot, így rugalmasan konvertálhatod a OneNote oldalakat a szükséges formátumba.
 
-## Összegzés
+## Következtetés
 
-Ebben az útmutatóban bemutattuk, hogyan **mentheted a OneNote‑ot PDF‑ként**, miközben gazdag szövegformázást alkalmazunk az Aspose.Note for Java segítségével. A lépésről‑lépésre útmutató követésével automatizálhatod a kifinomult OneNote‑dokumentumok létrehozását és PDF‑re konvertálását bármely Java‑alapú megoldásban.
+Ebben az útmutatóban bemutattuk, hogyan **hozz létre OneNote dokumentumot**, alkalmazz **gazdag szövegformázást**, és **mentsd OneNote‑ot PDF‑ként** az Aspose.Note for Java segítségével. A lépésről‑lépésre leírtak követésével automatizálhatod a kifinomult OneNote dokumentumok létrehozását és PDF‑re konvertálását bármely Java‑alapú megoldásban.
 
 ---
 
-**Utoljára frissítve:** 2025-12-09  
-**Tesztelt verzió:** Aspose.Note for Java 24.11 (a írás időpontjában legújabb)  
+**Utolsó frissítés:** 2026-02-18  
+**Tesztelve:** Aspose.Note for Java 24.11 (a legújabb a kiadás időpontjában)  
 **Szerző:** Aspose  
 
 {{< /blocks/products/pf/tutorial-page-section >}}
