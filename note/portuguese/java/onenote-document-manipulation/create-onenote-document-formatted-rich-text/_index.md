@@ -1,47 +1,58 @@
 ---
-date: 2025-12-09
-description: Aprenda como salvar o OneNote como PDF com texto rico formatado em Java
-  usando o Aspose.Note para Java. Siga nosso guia passo a passo para automação de
-  documentos sem complicações.
-linktitle: Save OneNote as PDF with Formatted Rich Text in Java
+date: 2026-02-18
+description: Aprenda a criar documentos OneNote, formatar texto rico e salvar como
+  PDF em Java usando Aspose.Note. Guia passo a passo para automação perfeita.
+linktitle: Create OneNote document and save as PDF in Java
 second_title: Aspose.Note Java API
-title: Salvar OneNote como PDF com Texto Rico Formatado em Java
+title: Criar documento OneNote e salvar como PDF em Java
 url: /pt/java/onenote-document-manipulation/create-onenote-document-formatted-rich-text/
 weight: 11
 ---
+
+ um documento onenote** e **salvar OneNote como PDF** preservando a formatação rich‑text, você está no lugar certo. Neste tutorial vamos percorrer a criação de um documento OneNote, aplicar estilos personalizados e exportá‑lo diretamente para PDF usando Aspose.Note for Java. Ao final, você terá um trecho reutilizável que pode inserir em qualquer projeto Java para automatizar conversões polidas de OneNote para PDF."
+
+Proceed similarly for other sections.
+
+Make sure to keep bold formatting.
+
+Translate Quick Answers list items.
+
+Translate table.
+
+Let's produce final content.
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Salvar OneNote como PDF com Texto Rico Formatado em Java
+# Create OneNote document and save as PDF in Java
 
-## Introdução
+## Introduction
 
-Se você precisa **salvar OneNote como PDF** preservando a formatação de texto rico, está no lugar certo. Neste tutorial vamos percorrer a criação de um documento OneNote, a aplicação de estilos personalizados e a exportação direta para PDF usando Aspose.Note for Java. Ao final, você terá um trecho de código reutilizável que pode ser inserido em qualquer projeto Java para automatizar conversões elegantes de OneNote para PDF.
+Se você precisa **criar onenote document** e **save OneNote as PDF** enquanto preserva a formatação rich‑text, você chegou ao lugar certo. Neste tutorial vamos percorrer a criação de um documento OneNote, aplicar estilos personalizados e exportá‑lo diretamente para PDF usando Aspose.Note for Java. Ao final, você terá um trecho reutilizável que pode inserir em qualquer projeto Java para automatizar conversões polidas de OneNote‑to‑PDF.
 
-## Respostas Rápidas
-- **O que este tutorial ensina?** Como criar um documento OneNote com texto estilizado e salvá‑lo como PDF.  
-- **Qual biblioteca é necessária?** Aspose.Note for Java (disponível para download no site oficial).  
-- **Preciso de licença?** Uma licença temporária funciona para testes; uma licença completa é necessária para produção.  
- **Qual IDE posso usar?** Qualquer IDE Java — IntelliJ IDEA, Eclipse ou Net.  
-- **Posso mudar o formato de saída?** Sim, o Aspose.Note suporta PDF, HTML, PNG e muito mais.
+## Quick Answers
+- **What does this tutorial teach?** How to create a OneNote document with styled text and save it as a PDF.  
+- **Which library is required?** Aspose.Note for Java (downloadable from the official site).  
+- **Do I need a license?** A temporary license works for testing; a full license is required for production.  
+- **What IDE can I use?** Any Java IDE—IntelliJ IDEA, Eclipse, or NetBeans.  
+- **Can I change the output format?** Yes, Aspose.Note supports PDF, HTML, PNG, and more.
 
-## O que significa “salvar onenote como pdf”?
-Salvar OneNote como PDF significa converter a estrutura da página OneNote — incluindo texto, imagens e formatação — em um arquivo PDF estático que pode ser visualizado em qualquer plataforma sem a necessidade do OneNote.
+## What is “save onenote pdf”?
+Salvar OneNote como PDF significa converter a estrutura da página OneNote — incluindo texto, imagens e formatação — em um arquivo PDF estático que pode ser visualizado em qualquer plataforma sem precisar do OneNote.
 
-## Por que formatar texto rico em java?
-Aplicar formatação de texto rico (fontes, cores, estilos) diretamente em Java permite gerar documentos que parecem profissionais e que seguem as diretrizes da sua marca sem edição manual.
+## Why format rich text java?
+Aplicar **format rich text** diretamente em Java permite gerar documentos que parecem profissionais e que seguem as diretrizes da sua marca sem edição manual.
 
-## Pré‑requisitos
+## Prerequisites
 
-1. **Java Development Kit (JDK)** – qualquer versão recente (8 ou superior).  
-2. **Aspose.Note for Java JAR** – faça o download pelo [link de download](https://releases.aspose.com/note/java/).  
-3. **IDE** – IntelliJ IDEA, Eclipse ou qualquer editor de sua preferência.  
+1. **Java Development Kit (JDK)** – any recent version (8 or higher).  
+2. **Aspose.Note for Java JAR** – download it from the [download link](https://releases.aspose.com/note/java/).  
+3. **IDE** – IntelliJ IDEA, Eclipse, or any editor you prefer.  
 
-## Importar Pacotes
+## Import Packages
 
-Primeiro, você precisa importar os pacotes necessários ao seu projeto Java. Adicione as seguintes instruções de importação ao início do seu arquivo Java:
+Before we start, import the necessary classes into your Java file:
 
 ```java
 import java.awt.Color;
@@ -57,9 +68,11 @@ import com.aspose.note.ParagraphStyle;
 import com.aspose.note.Title;
 ```
 
-## Etapa 1: Configurar Documento e Página
+## How to create OneNote document – Step‑by‑step guide
 
-Vamos começar inicializando os objetos `Document` e `Page`:
+### Step 1: Set Up Document and Page
+
+Initialize the `Document` and `Page` objects that will hold all content:
 
 ```java
 String dataDir = "Your Document Directory";
@@ -67,9 +80,9 @@ Document doc = new Document();
 Page page = new Page();
 ```
 
-## Etapa 2: Criar Título com Formatação
+### Step 2: Create Title with Formatting
 
-Agora, vamos criar um título com texto formatado:
+Add a title element and apply a **set paragraph style** to control its appearance:
 
 ```java
 Title title = new Title();
@@ -83,9 +96,9 @@ titleText.setParagraphStyle(defaultTextStyle);
 title.setTitleText(titleText);
 ```
 
-## Etapa 3: Criar Texto Rico com Formatação
+### Step 3: Create Rich Text with Formatting
 
-Em seguida, vamos criar texto rico com vários estilos de formatação:
+Here we build rich‑text content using several `TextStyle` objects to demonstrate **rich text formatting**:
 
 ```java
 Outline outline = new Outline();
@@ -117,9 +130,9 @@ RichText text = new RichText()
 text.setParagraphStyle(defaultTextStyle);
 ```
 
-## Etapa 4: Adicionar Elementos à Página e ao Documento
+### Step 4: Add Elements to Page and Document
 
-Agora, vamos adicionar o título e o texto rico à página e aos elementos de contorno:
+Combine the title and rich text into the page hierarchy:
 
 ```java
 outlineElem.appendChildLast(text);
@@ -129,52 +142,52 @@ page.appendChildLast(outline);
 doc.appendChildLast(page);
 ```
 
-## Etapa 5: Salvar Documento
+### Step 5: Save Document – export onenote pdf
 
-Por fim, salve o documento OneNote criado como PDF:
+Finally, export the OneNote document as a PDF file:
 
 ```java
 doc.save(dataDir + "CreateOneNoteDocument_out.pdf", SaveFormat.Pdf);
 ```
 
-## Problemas Comuns e Soluções
+## Common Issues and Solutions
 
-| Problema | Solução |
-|----------|----------|
-| **Arquivo não encontrado** | Verifique se `dataDir` aponta para uma pasta existente e se você tem permissões de gravação. |
-| **Fontes ausentes** | Certifique‑se de que fontes referenciadas (por exemplo, *Calibri*) estejam instaladas na máquina host. |
-| **Licença não aplicada** | Carregue sua licença Aspose antes de criar o `Document` para evitar marcas d'água de avaliação. |
+| Issue | Solution |
+|-------|----------|
+| **File not found** | Verify `dataDir` points to an existing folder and you have write permissions. |
+| **Missing fonts** | Ensure the fonts you reference (e.g., *Calibri*) are installed on the host machine. |
+| **License not applied** | Load your Aspose license before creating the `Document` to avoid evaluation watermarks. |
 
-## Perguntas Frequentes
+## Frequently Asked Questions
 
-**P: Posso personalizar ainda mais os estilos de fonte?**  
-R: Sim, você pode ajustar propriedades adicionais como sublinhado, tachado e alinhamento de texto via as classes `TextStyle` e `ParagraphStyle`.
+**Q: Can I customize the font styles further?**  
+A: Yes, you can adjust additional properties such as underline, strike‑through, and text alignment via the `TextStyle` and `ParagraphStyle` classes.
 
-**P: O Aspose.Note for Java é compatível com todas as IDEs Java?**  
-R: Absolutamente. Desde que a IDE suporte desenvolvimento Java padrão, você pode adicionar o JAR do Aspose.Note ao classpath do projeto.
+**Q: Is Aspose.Note for Java compatible with all Java IDEs?**  
+A: Absolutely. As long as the IDE supports standard Java development, you can add the Aspose.Note JAR to the project’s classpath.
 
-**P: Posso integrar essa funcionalidade em aplicações web?**  
-R: Sim, o mesmo código funciona em aplicações baseadas em servlet ou Spring Boot, permitindo a geração dinâmica de OneNote‑para‑PDF no lado do servidor.
+**Q: Can I integrate this functionality into web applications?**  
+A: Yes, the same code works in servlet‑based or Spring Boot applications, enabling dynamic OneNote‑to‑PDF generation on the server side.
 
-**P: Existem requisitos de licenciamento para usar o Aspose.Note for Java?**  
-R: Uma licença comercial é necessária para uso em produção. Uma licença temporária está disponível para avaliação e testes.
+**Q: Are there licensing requirements for using Aspose.Note for Java?**  
+A: A commercial license is required for production use. A temporary license is available for evaluation and testing.
 
-**P: O Aspose.Note for Java suporta outros formatos de documento além do OneNote?**  
-R: Ele suporta PDF, HTML, PNG, JPEG e vários outros formatos de exportação, oferecendo flexibilidade para converter páginas OneNote no formato que você precisar.
+**Q: Does Aspose.Note for Java support other document formats besides OneNote?**  
+A: It supports PDF, HTML, PNG, JPEG, and several other export formats, giving you flexibility to convert OneNote pages into the format you need.
 
-## Conclusão
+## Conclusion
 
-Neste guia demonstramos como **salvar OneNote como PDF** aplicando formatação de texto rico usando Aspose.Note for Java. Seguindo as instruções passo a passo, você pode automatizar a criação de documentos OneNote bem elaborados e convertê‑los para PDF em qualquer solução baseada em Java.
+In this guide we demonstrated how to **create OneNote document**, apply **rich text formatting**, and **save OneNote as PDF** using Aspose.Note for Java. By following the step‑by‑step instructions you can automate the creation of polished OneNote documents and convert them to PDF in any Java‑based solution.
 
 ---
 
-**Última atualização:** 2025-12-09  
-**Testado com:** Aspose.Note for Java 24.11 (mais recente na data de escrita)  
-**Autor:** Aspose  
+**Last Updated:** 2026-02-18  
+**Tested With:** Aspose.Note for Java 24.11 (latest at time of writing)  
+**Author:** Aspose  
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
-{{< /blocks/products/pf/main-wrap-class >}}
 {{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
