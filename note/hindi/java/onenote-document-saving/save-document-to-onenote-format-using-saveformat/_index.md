@@ -1,11 +1,11 @@
 ---
-date: 2025-12-11
-description: Aspose.Note for Java का उपयोग करके OneNote दस्तावेज़ों को कैसे सहेजें,
-  सीखें। यह गाइड दिखाता है कि SaveFormat के साथ प्रोग्रामेटिक रूप से OneNote फ़ाइलें
-  कैसे सहेजें।
-linktitle: How to Save OneNote Document Using SaveFormat - Aspose.Note
+date: 2026-02-20
+description: Aspose.Note for Java का उपयोग करके OneNote दस्तावेज़ को Java में कैसे
+  सहेजें और डेटा को OneNote में निर्यात करें, सीखें। यह गाइड SaveFormat के साथ प्रोग्रामेटिक
+  सहेजने को दर्शाता है।
+linktitle: How to Save OneNote Document Using SaveFormat - Aspise.Note
 second_title: Aspose.Note Java API
-title: सेवफ़ॉर्मेट का उपयोग करके OneNote दस्तावेज़ को कैसे सहेजें - Aspose.Note
+title: सेवफ़ॉर्मेट के साथ जावा में वननोट दस्तावेज़ को सहेजें – Aspose.Note
 url: /hi/java/onenote-document-saving/save-document-to-onenote-format-using-saveformat/
 weight: 12
 ---
@@ -14,38 +14,39 @@ weight: 12
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# SaveFormat का उपयोग करके OneNote दस्तावेज़ को कैसे सहेजें - Aspose.Note
+# SaveFormat के साथ OneNote दस्तावेज़ को Java में सहेजें – Aspose.Note
 
-## Introduction
+## Save OneNote Document Java – परिचय
 
-यदि आप जावा से **how to save onenote** फ़ाइलों को सहेजने का भरोसेमंद तरीका खोज रहे हैं, तो Aspose.Note for Java इसे आसान बनाता है। इस ट्यूटोरियल में हम `SaveFormat` enum का उपयोग करके OneNote दस्तावेज़ को सहेजने के लिए आवश्यक सटीक चरणों को दिखाएंगे। अंत तक, आप समझेंगे कि OneNote फ़ाइल सहेजने को किसी भी जावा एप्लिकेशन में कैसे एकीकृत किया जाए।
+यदि आप Java से **save onenote document java** करने का भरोसेमंद तरीका खोज रहे हैं, तो Aspose.Note for Java इसे बेहद आसान बना देता है। इस ट्यूटोरियल में हम `SaveFormat` enum का उपयोग करके OneNote दस्तावेज़ को सहेजने के लिए आवश्यक सटीक चरणों को दिखाएंगे। अंत तक, आप समझ जाएंगे कि OneNote फ़ाइल सहेजना—और यहाँ तक कि डेटा को onenote में निर्यात करना—को किसी भी Java एप्लिकेशन में कैसे एकीकृत किया जाए।
 
-## Quick Answers
-- **What library is required?** Aspose.Note for Java  
-- **Which method saves the file?** `Document.save(...)` with `SaveFormat.One`  
-- **Do I need a license for testing?** A free trial is available; a license is required for production  
-- **Can I convert other formats to OneNote?** Yes, load the source document and save with `SaveFormat.One`  
-- **Supported Java versions?** Java 8 and later  
+## त्वरित उत्तर
+- **कौन सी लाइब्रेरी आवश्यक है?** Aspose.Note for Java  
+- **कौन सा मेथड फ़ाइल को सहेजता है?** `Document.save(...)` के साथ `SaveFormat.One`  
+- **परीक्षण के लिए लाइसेंस चाहिए?** एक मुफ्त ट्रायल उपलब्ध है; उत्पादन के लिए लाइसेंस आवश्यक है  
+- **क्या मैं अन्य फ़ॉर्मेट को OneNote में बदल सकता हूँ?** हाँ, स्रोत दस्तावेज़ लोड करें और `SaveFormat.One` के साथ सहेजें  
+- **समर्थित Java संस्करण?** Java 8 और उसके बाद के संस्करण  
 
-## What is “how to save onenote” in Java?
-जावा में प्रोग्रामेटिक रूप से OneNote दस्तावेज़ को सहेजना का अर्थ है इन‑मेमा `Document` ऑब्जेक्ट को नेटिव OneNote फ़ाइल फ़ॉर्मेट (`.one`) में बदलना। यह रिपोर्ट जनरेट करने, डेटा एक्सपोर्ट करने या नोट‑लेने के वर्कफ़्लो को स्वचालित करने में उपयोगी है, बिना मैन्युअल यूज़र इंटरैक्शन के।
+## Java में “save onenote document java” क्या है?
+प्रोग्रामेटिक रूप से OneNote दस्तावेज़ सहेजना का मतलब है कि मेमोरी में मौजूद `Document` ऑब्जेक्ट को मूल OneNote फ़ाइल फ़ॉर्मेट (`.one`) में बदलना। यह तब उपयोगी होता है जब आपको **export data to onenote** करने की आवश्यकता हो, स्वचालित रिपोर्ट बनानी हो, या मैन्युअल उपयोगकर्ता इंटरैक्शन के बिना नोट‑टेकिंग वर्कफ़्लो बनाना हो।
 
-## Why use Aspose.Note for OneNote file saving?
-- **Full control** – Microsoft Office स्थापित करने की आवश्यकता नहीं।  
-- **Cross‑platform** – Windows, Linux, और macOS पर काम करता है।  
-- **High fidelity** – सेक्शन, पेज, और समृद्ध सामग्री को बिल्कुल वैसे ही संरक्षित करता है जैसे वे OneNote में दिखते हैं।  
+## Aspose.Note को OneNote फ़ाइल सहेजने के लिए क्यों चुनें?
+- **पूर्ण नियंत्रण** – Microsoft Office स्थापित करने की आवश्यकता नहीं।  
+- **क्रॉस‑प्लेटफ़ॉर्म** – Windows, Linux और macOS पर काम करता है।  
+- **उच्च सटीकता** – सेक्शन, पेज और रिच कंटेंट को बिल्कुल वैसे ही रखता है जैसा वे OneNote में दिखते हैं।  
+- **export data to onenote** – डेटाबेस, PDFs या अन्य स्रोतों से सामग्री को सहजता से OneNote फ़ाइल में ले जा सकते हैं।  
 
-## Prerequisites
+## पूर्वापेक्षाएँ
 
-शुरू करने से पहले सुनिश्चित करें कि आपके पास है:
+शुरू करने से पहले सुनिश्चित करें कि आपके पास निम्नलिखित हों:
 
 1. आपके सिस्टम पर Java Development Kit (JDK) स्थापित हो।  
-2. Aspose.Note for Java लाइब्रेरी डाउनलोड की हुई। आप इसे [here](https://releases.aspose.com/note/java/) से प्राप्त कर सकते हैं।  
-3. Java प्रोग्रामिंग भाषा की बुनियादी समझ।  
+2. Aspose.Note for Java लाइब्रेरी डाउनलोड की हुई हो। आप इसे [here](https://releases.aspose.com/note/java/) से प्राप्त कर सकते हैं।  
+3. Java प्रोग्रामिंग भाषा की बुनियादी समझ हो।  
 
-## Import Packages
+## पैकेज इम्पोर्ट करें
 
-पहले उन आवश्यक क्लासेस को इम्पोर्ट करें जो Aspose.Note की कार्यक्षमता प्रदान करती हैं।
+पहले, आवश्यक क्लासेज़ को इम्पोर्ट करें जो Aspose.Note की कार्यक्षमता प्रदान करती हैं।
 
 ```java
 import java.io.IOException;
@@ -53,59 +54,60 @@ import com.aspose.note.Document;
 import com.aspose.note.SaveFormat;
 ```
 
-## Step‑by‑Step Guide
+## चरण‑दर‑चरण गाइड
 
-### Step 1: Set Up Document Directory  
+### चरण 1: दस्तावेज़ डायरेक्टरी सेट करें  
 परिभाषित करें कि आपका स्रोत `.one` फ़ाइल कहाँ स्थित है और परिवर्तित फ़ाइल कहाँ लिखी जाएगी।
 
 ```java
 String dataDir = "Your Document Directory";
 ```
 
-### Step 2: Load the Existing OneNote Document  
-एक मौजूदा OneNote फ़ाइल को लोड करके `Document` इंस्टेंस बनाएं।
+### चरण 2: मौजूदा OneNote दस्तावेज़ लोड करें  
+एक `Document` इंस्टेंस बनाएं और मौजूदा OneNote फ़ाइल को लोड करें।
 
 ```java
 Document document = new Document(dataDir + "Sample1.one");
 ```
 
-### Step 3: Save Document to OneNote Format  
-फ़ाइल को OneNote फ़ॉर्मेट में वापस लिखने के लिए `save` मेथड को `SaveFormat.One` के साथ उपयोग करें। यह **how to save onenote** को प्रोग्रामेटिक रूप से करने का मुख्य भाग है।
+### चरण 3: दस्तावेज़ को OneNote फ़ॉर्मेट में सहेजें  
+फ़ाइल को OneNote फ़ॉर्मेट में वापस लिखने के लिए `save` मेथड को `SaveFormat.One` के साथ उपयोग करें। यह **save onenote document java** को प्रोग्रामेटिक रूप से करने का मुख्य भाग है।
 
 ```java
 document.save(dataDir + "SaveDocToOneNoteFormatUsingSaveformat_out.one", SaveFormat.One);
 ```
 
-## Common Use Cases & Tips
+## सामान्य उपयोग केस और टिप्स
 
-- **Automated report generation** – डेटा स्रोतों से OneNote फ़ाइल बनाएं और एक ही कॉल से सहेजें।  
-- **Batch conversion** – PDFs या Word डॉक्यूमेंट्स की फ़ोल्डर को लूप करें, प्रत्येक को `Document` में लोड करें, फिर समान पैटर्न से OneNote के रूप में सहेजें।  
-- **Pro tip:** हमेशा `dataDir` पाथ के अंत में उचित फ़ाइल सेपरेटर (`/` या `\\`) है या नहीं, यह जांचें ताकि `FileNotFoundException` से बचा जा सके।  
+- **स्वचालित रिपोर्ट जनरेशन** – डेटा स्रोतों से OneNote फ़ाइल बनाएं और एक ही कॉल से सहेजें।  
+- **बैच रूपांतरण** – PDFs या Word दस्तावेज़ों की फ़ोल्डर को लूप करें, प्रत्येक को `Document` में लोड करें, फिर समान पैटर्न से OneNote के रूप में सहेजें।  
+- **export data to onenote** – जब आपको संरचित डेटा (जैसे JSON, CSV) को साझा करने के लिए OneNote नोटबुक में ले जाना हो, तब इस विधि का उपयोग करें।  
+- **Pro tip:** हमेशा सुनिश्चित करें कि `dataDir` पाथ उचित फ़ाइल सेपरेटर (`/` या `\\`) के साथ समाप्त हो, ताकि `FileNotFoundException` से बचा जा सके।  
 
-## Frequently Asked Questions
+## अक्सर पूछे जाने वाले प्रश्न
 
-### Q1: Is Aspose.Note for Java compatible with all versions of Microsoft OneNote?  
-A1: Aspose.Note for Java supports various versions of Microsoft OneNote, ensuring compatibility across different environments.
+### Q1: क्या Aspose.Note for Java सभी Microsoft OneNote संस्करणों के साथ संगत है?  
+A1: Aspose.Note for Java विभिन्न Microsoft OneNote संस्करणों को सपोर्ट करता है, जिससे विभिन्न पर्यावरणों में संगतता सुनिश्चित होती है।
 
-### Q2: Can I try Aspose.Note for Java before purchasing it?  
-A2: Yes, you can download a free trial version of Aspose.Note for Java from [here](https://releases.aspose.com/).
+### Q2: क्या मैं Aspose.Note for Java को खरीदने से पहले आज़मा सकता हूँ?  
+A2: हाँ, आप Aspose.Note for Java का मुफ्त ट्रायल संस्करण [here](https://releases.aspose.com/) से डाउनलोड कर सकते हैं।
 
-### Q3: Where can I find documentation for Aspose.Note for Java?  
-A3: Detailed documentation for Aspose.Note for Java can be found [here](https://reference.aspose.com/note/java/).
+### Q3: Aspose.Note for Java की डॉक्यूमेंटेशन कहाँ मिल सकती है?  
+A3: Aspose.Note for Java की विस्तृत डॉक्यूमेंटेशन [here](https://reference.aspose.com/note/java/) पर उपलब्ध है।
 
-### Q4: How can I get technical support for Aspose.Note for Java?  
-A4: For technical assistance and support, you can visit the Aspose.Note forum [here](https://forum.aspose.com/c/note/28).
+### Q4: Aspose.Note for Java के लिए तकनीकी सहायता कैसे प्राप्त करूँ?  
+A4: तकनीकी सहायता और सपोर्ट के लिए आप Aspose.Note फ़ोरम [here](https://forum.aspose.com/c/note/28) पर जा सकते हैं।
 
-### Q5: Is there a temporary license option available for Aspose.Note for Java?  
-A5: Yes, you can obtain a temporary license for Aspose.Note for Java from [here](https://purchase.aspose.com/temporary-license/).
+### Q5: क्या Aspose.Note for Java के लिए अस्थायी लाइसेंस विकल्प उपलब्ध है?  
+A5: हाँ, आप Aspose.Note for Java के लिए अस्थायी लाइसेंस [here](https://purchase.aspose.com/temporary-license/) से प्राप्त कर सकते हैं।
 
-## Conclusion
+## निष्कर्ष
 
-इस गाइड में हमने **how to save onenote** दस्तावेज़ों को Aspose.Note for Java में `SaveFormat.One` विकल्प का उपयोग करके सहेजना कवर किया। तीन सरल चरणों—डायरेक्टरी सेट करना, दस्तावेज़ लोड करना, और `save` को कॉल करना—का पालन करके आप OneNote फ़ाइल सहेजने को किसी भी जावा प्रोजेक्ट में सहजता से एकीकृत कर सकते हैं।
+इस गाइड में हमने Aspose.Note for Java में `SaveFormat.One` विकल्प का उपयोग करके **save onenote document java** को कवर किया। निर्देशित तीन सरल चरणों—डायरेक्टरी सेट करना, दस्तावेज़ लोड करना, और `save` को कॉल करना—को अपनाकर आप किसी भी Java प्रोजेक्ट में OneNote फ़ाइल सहेजना और डेटा को onenote में निर्यात करना सहजता से एकीकृत कर सकते हैं।
 
 ---
 
-**Last Updated:** 2025-12-11  
+**Last Updated:** 2026-02-20  
 **Tested With:** Aspose.Note for Java 24.12 (latest)  
 **Author:** Aspose  
 
