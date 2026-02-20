@@ -1,15 +1,22 @@
 ---
-date: 2025-12-11
-description: Aspose.Note for Java'da OneSaveOptions kullanarak OneNote belgelerini
-  nasıl kaydedeceğinizi öğrenin. Bu kılavuz, belgeyi OneNote'a nasıl dönüştüreceğinizi,
-  .one formatına nasıl çevireceğinizi ve belgeyi OneNote'a verimli bir şekilde nasıl
-  kaydedeceğinizi gösterir.
+date: 2026-02-20
+description: Aspose.Note for Java'da OneSaveOptions kullanarak OneNote Java belgelerini
+  nasıl kaydedeceğinizi öğrenin. Bu kılavuz .one formatına dönüştürmeyi, .one dosyası
+  olarak kaydetmeyi ve OneNote belgelerini sıkıştırmayı kapsar.
 linktitle: How to Save OneNote Document Using OneSaveOptions - Aspose.Note
 second_title: Aspose.Note Java API
-title: OneSaveOptions Kullanarak OneNote Belgesini Kaydetme - Aspose.Note
+title: 'save onenote java: OneSaveOptions Kullanarak OneNote Belgesini Kaydet - Aspose.Note'
 url: /tr/java/onenote-document-saving/save-document-to-onenote-format-using-onesaveoptions/
 weight: 11
 ---
+
+< blocks/products/products-backtop-button >}}
+
+Now produce final content with same markdown.
+
+Make sure not to translate code block placeholders.
+
+Let's craft translation.
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
@@ -17,26 +24,29 @@ weight: 11
 
 # OneSaveOptions Kullanarak OneNote Belgesini Kaydetme - Aspose.Note
 
-## Introduction
+## Giriş
 
-Bu öğreticide, **Aspose.Note for Java** `OneSaveOptions` sınıfını kullanarak OneNote belgelerini nasıl kaydedeceğinizi öğreneceksiniz. **Bir belgeyi OneNote’a dönüştürmeniz**, **.one formatına çevirmeniz** ya da sadece **bir belgeyi OneNote’a kaydetmeniz** gerektiğinde, bu adım‑adım kılavuz size süreci gösterecek, neden önemli olduğunu açıklayacak ve güvenilir sonuçlar için en iyi uygulamaları sunacaktır.
+Bu öğreticide, Aspose.Note for Java’nın `OneSaveOptions` sınıfını kullanarak **save onenote java** belgelerini nasıl **save as .one file** yapacağınızı ve değişiklikleri OneNote’a geri kaydedeceğinizi öğreneceksiniz. Bir defteri yerel `.one` formatına dönüştürmeniz, **save as .one file** kaydetmeniz ya da sadece değişiklikleri OneNote’a geri aktarmanız gerekse de, bu adım‑adım kılavuz süreci size anlatır, neden önemli olduğunu açıklar ve güvenilir sonuçlar için en iyi uygulama ipuçlarını paylaşır.
 
-## Quick Answers
-- **OneSaveOptions ne işe yarar?** Aspose.Note’a bir `Document` nesnesini yerel OneNote `.one` formatına nasıl serileştireceğini söyler.  
-- **Lisans gerekir mi?** Geliştirme için ücretsiz deneme sürümü yeterlidir; üretim kullanımı için ticari lisans gereklidir.  
-- **Hangi Java sürümü gerekir?** Java 8 veya üzeri tam olarak desteklenir.  
+## Hızlı Yanıtlar
+- **OneSaveOptions ne işe yarar?** Aspose.Note’a bir `Document`i yerel OneNote `.one` formatına nasıl serileştireceğini söyler.  
+- **Lisans gerekli mi?** Geliştirme için ücretsiz deneme sürümü yeterlidir; üretim kullanımı için ticari lisans gerekir.  
+- **Hangi Java sürümü gereklidir?** Java 8 veya üzeri tam olarak desteklenir.  
 - **Çıktıyı özelleştirebilir miyim?** Evet – `OneSaveOptions` şifreleme, sıkıştırma ve daha fazlası için özellikler sunar.  
 - **Dönüşüm ne kadar sürer?** Standart belgeler için genellikle bir saniyenin altında; daha büyük dosyalar daha uzun sürebilir.
 
-## Prerequisites
+## save onenote java: OneSaveOptions Kullanarak OneNote Dosyalarını Kaydetme
+Koda geçmeden önce genel iş akışını anlamak faydalıdır. Mevcut bir OneNote (`.one`) ya da desteklenen herhangi bir kaynağı yüklersiniz, isteğe bağlı olarak içeriğini değiştirirsiniz ve ardından bir `OneSaveOptions` örneğiyle `save` metodunu çağırırsınız. Kütüphane, dosyanın OneNote’un iç yapısına uygun olmasını sağlarken **compression** gibi seçenekler üzerinde kontrol sunar.
+
+## Önkoşullar
 
 Başlamadan önce aşağıdakilere sahip olduğunuzdan emin olun:
 
-1. **Java Development Kit (JDK)** – sürüm 8 veya daha yeni bir sürüm makinenizde kurulu olmalı.  
+1. **Java Development Kit (JDK)** – makinenizde yüklü version 8 veya daha yeni bir sürüm.  
 2. **Aspose.Note for Java** kütüphanesi projenize eklenmiş olmalı. İndirmek için [buraya](https://releases.aspose.com/note/java/) tıklayın.  
-3. **Java programlama** ve dosya I/O temellerine temel bir anlayış.
+3. **Java programming** ve dosya I/O hakkında temel bir anlayış.
 
-## Import Packages
+## Paketleri İçe Aktarma
 
 İhtiyacımız olan sınıfları ilk olarak içe aktaralım:
 
@@ -46,61 +56,60 @@ import com.aspose.note.Document;
 import com.aspose.note.OneSaveOptions;
 ```
 
-## Step 1: Load the Source Document
+## Adım 1: Kaynak Belgeyi Yükleme
 
-Dönüştürmek veya yeniden kaydetmek istediğiniz OneNote dosyasını (veya desteklenen herhangi bir kaynağı) yükleyin:
+Dönüştürmek ya da yeniden kaydetmek istediğiniz OneNote dosyasını (veya desteklenen herhangi bir kaynağı) yükleyin:
 
 ```java
 String dataDir = "Your Document Directory";
 Document document = new Document(dataDir + "Sample1.one");
 ```
 
-`"Your Document Directory"` ifadesini, kaynak dosyanızın bulunduğu gerçek yol ile değiştirin. Bu adım **belgeyi belleğe yükler**, dönüşüm veya kaydetme için hazır hâle getirir.
+`"Your Document Directory"` ifadesini, kaynak dosyanızın bulunduğu gerçek yol ile değiştirin. Bu adım **belgeyi belleğe yükler**, dönüşüm ya da kaydetme için hazır hâle getirir.
 
-## Step 2: Save the Document to OneNote Format
+## Adım 2: Belgeyi OneNote Formatına Kaydet
 
-Şimdi `OneSaveOptions` kullanarak belgeyi yerel OneNote `.one` formatına yazalım:
+Şimdi `OneSaveOptions` kullanarak belgeyi yerel OneNote `.one` formatına geri yazın:
 
 ```java
 document.save(dataDir + "SaveDocToOneNoteFormatUsingOnesaveoptions_out.one", new OneSaveOptions());
 ```
 
-Yukarıdaki kod **belgeyi OneNote’a kaydeder**, dolayısıyla **belge .one formatına dönüştürülmüş olur**. Çıktı dosya adını, adlandırma kurallarınıza uygun şekilde değiştirmekten çekinmeyin.
+Yukarıdaki kod **belgeyi OneNote’a kaydeder**, etkili bir şekilde **belgeyi .one formatına dönüştürür** ve doğrudan OneNote istemcisinde açabileceğiniz bir **.one file** üretir.
 
-## Why Use OneSaveOptions?
+## OneSaveOptions Neden Kullanılır?
 
 - **Consistency** – Kaydedilen dosyanın OneNote’un iç yapısına uygun olmasını garanti eder.  
-- **Flexibility** – Şifreleme, sıkıştırma ve diğer serileştirme seçeneklerini ayarlamanıza olanak tanır.  
-- **Performance** – Hız için optimize edilmiştir; büyük not defterleri verimli bir şekilde işlenir.  
+- **Flexibility** – Şifreleme, **compression** ve diğer serileştirme seçeneklerini ayarlamanıza olanak tanır.  
+- **Performance** – Hız için optimize edilmiştir; büyük defterler verimli bir şekilde işlenir.  
 - **Cross‑platform** – Windows, Linux ve macOS ortamlarında aynı şekilde çalışır.
 
-## Common Pitfalls & Tips
+## Yaygın Tuzaklar ve İpuçları
 
-- **Incorrect Path** – `dataDir` değişkeninin dosya ayırıcı (`/` veya `\\`) ile bittiğinden emin olun, aksi takdirde `FileNotFoundException` alınabilir.  
-- **License Issues** – Geçerli bir lisans olmadan çalıştırmak, çıktı dosyasına filigran ekler.  
-- **Large Files** – 100 MB üzerindeki not defterleri için bellek tüketimini azaltmak amacıyla belgeyi parçalar halinde akış (stream) olarak işlemek düşünülmelidir.
+- **Incorrect Path** – `dataDir` değişkeninin dosya ayırıcı (`/` veya `\\`) ile bittiğinden emin olun, aksi takdirde `FileNotFoundException` alabilirsiniz.  
+- **License Issues** – Geçerli bir lisans olmadan çalıştırmak, çıktı dosyasına bir filigran ekleyecektir.  
+- **Large Files** – 100 MB üzerindeki defterler için belgenin parçalar halinde akış (stream) edilmesini düşünün, böylece bellek tüketimini azaltırsınız.  
+- **Compression** – `OneSaveOptions` gerektiğinde **compress OneNote documents** için `setCompressDocument(true)` metodunu sunar; bu, büyük defterlerin dosya boyutunu küçültebilir.
 
-## Frequently Asked Questions
+## Sıkça Sorulan Sorular
 
-### Q: Can I use Aspose.Note for Java with other programming languages?
-A: Yes, Aspose provides similar APIs for .NET, Python, and C++ that offer comparable functionality.
+### Q: Aspose.Note for Java’yı diğer programlama dilleriyle kullanabilir miyim?
+A: Evet, Aspose .NET, Python ve C++ için benzer API’ler sunar ve benzer işlevsellik sağlar.
 
-### Q: Is Aspose.Note for Java compatible with the latest versions of OneNote?
-A: The library maintains compatibility with current OneNote releases, ensuring seamless document manipulation.
+### Q: Aspose.Note for Java, OneNote’un en son sürümleriyle uyumlu mu?
+A: Kütüphane, mevcut OneNote sürümleriyle uyumluluğu korur, sorunsuz belge manipülasyonu sağlar.
 
-### Q: Can I customize the saving options for OneNote documents?
-A: Absolutely. `OneSaveOptions` lets you control formatting, layout, metadata, encryption, and more.
+### Q: OneNote belgeleri için kaydetme seçeneklerini özelleştirebilir miyim?
+A: Kesinlikle. `OneSaveOptions` biçimlendirme, düzen, meta veri, şifreleme ve **compression** üzerinde kontrol imkanı verir.
 
-### Q: Is Aspose.Note for Java suitable for enterprise‑level applications?
-A: Yes, it is designed for high‑volume, mission‑critical scenarios with robust performance and support.
+### Q: Aspose.Note for Java, kurumsal‑düzey uygulamalar için uygun mu?
+A: Evet, yüksek hacimli, görev‑kritik senaryolar için güçlü performans ve destek sunacak şekilde tasarlanmıştır.
 
-### Q: Where can I find support or additional resources for Aspose.Note for Java?
-A: You can find comprehensive documentation, tutorials, and community forums on the [Aspose website](https://forum.aspose.com/c/note/28).
+### Q: Aspose.Note for Java için destek veya ek kaynakları nereden bulabilirim?
+A: Kapsamlı dokümantasyon, öğreticiler ve topluluk forumlarını [Aspose web sitesinde](https://forum.aspose.com/c/note/28) bulabilirsiniz.
 
----
-
-**Son Güncelleme:** 2025-12-11  
-**Test Edilen:** Aspose.Note for Java 24.11  
+**Son Güncelleme:** 2026-02-20  
+**Test Edilen Versiyon:** Aspose.Note for Java 24.11 (latest)  
 **Yazar:** Aspose  
 
 {{< /blocks/products/pf/tutorial-page-section >}}
