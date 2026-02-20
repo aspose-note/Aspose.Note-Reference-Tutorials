@@ -1,10 +1,10 @@
 ---
-date: 2025-12-09
-description: Aspose.Note के साथ जावा विज़िटर पैटर्न का उपयोग करके OneNote टेक्स्ट
+date: 2026-02-20
+description: Aspose.Note के साथ जावा में विज़िटर पैटर्न का उपयोग करके OneNote टेक्स्ट
   निकालना, OneNote को txt में बदलना, और दस्तावेज़ों को सहजता से ट्रैवर्स करना सीखें।
 linktitle: Visitor Pattern Java for OneNote Document Traversal
 second_title: Aspose.Note Java API
-title: वननोट दस्तावेज़ ट्रैवर्सल के लिए जावा विज़िटर पैटर्न
+title: वननोट दस्तावेज़ पारगमन के लिए जावा विज़िटर पैटर्न
 url: /hi/java/onenote-document-manipulation/using-document-visitor/
 weight: 10
 ---
@@ -13,35 +13,36 @@ weight: 10
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# OneNote दस्तावेज़ ट्रैवर्सल के लिए विज़िटर पैटर्न जावा
+# Visitor Pattern Java for OneNote दस्तावेज़ ट्रैवर्सल
 
-## परिचय
+## Introduction
 
-इस ट्यूटोरियल में आप **विज़िटर पैटर्न जावा** को Aspose.Note लाइब्रेरी का उपयोग करके OneNote फ़ाइलों पर कैसे लागू किया जा सकता है, यह जानेंगे। इस पैटर्न का उपयोग करके आप प्रभावी रूप से **OneNote टेक्स्ट निकाल सकते हैं**, **OneNote को txt में बदल सकते हैं**, और **OneNote** संरचनाओं को नोड‑दर‑नोड ट्रैवर्स कर सकते हैं। हम एक पूर्ण, हैंड‑ऑन उदाहरण के माध्यम से चलेंगे ताकि आप तुरंत अपने नोटबुक से सामग्री निकालना शुरू कर सकें।
+इस ट्यूटोरियल में आप **how the visitor pattern java** को Aspose.Note लाइब्रेरी का उपयोग करके OneNote फ़ाइलों पर कैसे लागू किया जा सकता है, यह जानेंगे। इस पैटर्न को अपनाकर आप प्रभावी रूप से **extract OneNote text**, **convert OneNote to txt**, और **traverse OneNote** संरचनाओं को नोड‑बाय‑नोड देख सकते हैं। हम एक पूर्ण, हैंड‑ऑन उदाहरण के माध्यम से चलेंगे ताकि आप तुरंत अपने नोटबुक्स से सामग्री निकालना शुरू कर सकें। चाहे आपको **search index onenote** बनाना हो, **migrate onenote notes** करना हो, या सिर्फ नोट‑लेखन को ऑटोमेट करना हो, visitor pattern java आपको दस्तावेज़ ट्री के साथ काम करने का एक साफ़, पुन: उपयोग योग्य तरीका देता है।
 
-## त्वरित उत्तर
-- **विज़िटर पैटर्न क्या करता है?** यह ऑपरेशनों को ऑब्जेक्ट संरचना से अलग करता है, जिससे आप दस्तावेज़ को उसकी क्लासेज़ को बदले बिना चल सकते हैं।  
-- **जावा में इसे समर्थन देने वाली लाइब्रेरी कौन सी है?** Aspose.Note for Java एक तैयार `DocumentVisitor` इम्प्लीमेंटेशन प्रदान करती है।  
-- **मैं OneNote फ़ाइल से टेक्स्ट कैसे निकालूँ?** एक कस्टम विज़िटर इम्प्लीमेंट करें जो `RichText` नोड्स को जोड़ता है – नीचे कोड देखें।  
-- **क्या मैं OneNote को प्लेन‑टेक्स्ट फ़ाइल में बदल सकता हूँ?** हाँ, विज़िट करने के बाद आप एकत्रित टेक्स्ट को `.txt` में लिख सकते हैं।  
-- **पूर्वापेक्षाएँ क्या हैं?** Java JDK 8+ और Aspose.Note for Java (डाउनलोड लिंक प्रदान किया गया है)।
+## Quick Answers
+- **What does the visitor pattern do?** यह ऑपरेशनों को ऑब्जेक्ट संरचना से अलग करता है, जिससे आप दस्तावेज़ को उसकी क्लासेज़ को बदले बिना पार कर सकते हैं।  
+- **Which library supports this in Java?** Aspose.Note for Java एक तैयार `DocumentVisitor` इम्प्लीमेंटेशन प्रदान करता है।  
+- **How can I extract text from a OneNote file?** एक कस्टम विज़िटर इम्प्लीमेंट करें जो `RichText` नोड्स को जोड़ता है – नीचे कोड देखें।  
+- **Can I convert OneNote to a plain‑text file?** हाँ, विज़िट करने के बाद आप एकत्रित टेक्स्ट को `.txt` में लिख सकते हैं।  
+- **What are the prerequisites?** Java JDK 8+ और Aspose.Note for Java (डाउनलोड लिंक प्रदान किया गया है)।
 
-## विज़िटर पैटर्न जावा क्या है?
-**विज़िटर पैटर्न जावा** एक क्लासिक डिज़ाइन पैटर्न है जो आपको ऑब्जेक्ट्स के सेट पर नए ऑपरेशन्स परिभाषित करने की अनुमति देता है बिना उन ऑब्जेक्ट्स को बदले। OneNote के संदर्भ में, प्रत्येक तत्व (पेज, आउटलाइन, इमेज आदि) दस्तावेज़ ट्री में एक नोड होता है। एक `DocumentVisitor` इस ट्री को चलाता है, प्रत्येक नोड प्रकार के लिए कॉलबैक को कॉल करता है, जिससे **टेक्स्ट निकालने के तरीके** या **OneNote संरचनाओं को ट्रैवर्स करने के तरीके** जैसे कार्यों के लिए यह आदर्श बन जाता है।
+## What is Visitor Pattern Java?
+**visitor pattern java** एक क्लासिक डिज़ाइन पैटर्न है जो आपको ऑब्जेक्ट्स के सेट पर नए ऑपरेशन्स परिभाषित करने की अनुमति देता है बिना उन ऑब्जेक्ट्स को बदले। OneNote के संदर्भ में, प्रत्येक तत्व (पेजेज़, outlines, images आदि) दस्तावेज़ ट्री में एक नोड होता है। `DocumentVisitor` इस ट्री को चलाता है, प्रत्येक नोड प्रकार के लिए कॉलबैक को कॉल करता है, जिससे **how to extract text** या **how to traverse OneNote** जैसी कार्यों के लिए यह आदर्श बन जाता है।
 
-## OneNote के लिए विज़िटर क्यों उपयोग करें?
-- **चिंताओं का पृथक्करण:** आपका एक्सट्रैक्शन लॉजिक एक ही जगह रहता है, जबकि दस्तावेज़ मॉडल अपरिवर्तित रहता है।  
-- **स्केलेबिलिटी:** वही विज़िटर इमेज, टेबल या कस्टम मेटाडेटा को संभालने के लिए विस्तारित किया जा सकता है।  
-- **परफ़ॉर्मेंस:** ट्रैवर्सल एक ही पास में किया जाता है, जिससे मेमोरी ओवरहेड कम होता है।  
+## Why Use a Visitor for OneNote?
+- **Separation of concerns:** आपका एक्सट्रैक्शन लॉजिक एक ही जगह रहता है, जबकि दस्तावेज़ मॉडल अपरिवर्तित रहता है।  
+- **Scalability:** वही विज़िटर इमेजेज़, टेबल्स या कस्टम मेटाडेटा को संभालने के लिए विस्तारित किया जा सकता है।  
+- **Performance:** ट्रैवर्सल एक ही पास में किया जाता है, जिससे मेमोरी ओवरहेड कम होता है।  
+- **Flexibility for search indexing:** ट्रैवर्सल के दौरान प्लेन टेक्स्ट इकट्ठा करके आप उसे सीधे **search index onenote** पाइपलाइन में फीड कर सकते हैं।  
 
-## पूर्वापेक्षाएँ
+## Prerequisites
 
-1. **जावा डेवलपमेंट किट (JDK):** सुनिश्चित करें कि JDK 8 या बाद का संस्करण स्थापित है।  
-2. **Aspose.Note for Java:** लाइब्रेरी को [डाउनलोड लिंक](https://releases.aspose.com/note/java/) से डाउनलोड और इंस्टॉल करें।  
+1. **Java Development Kit (JDK):** सुनिश्चित करें कि JDK 8 या बाद का संस्करण स्थापित है।  
+2. **Aspose.Note for Java:** लाइब्रेरी को [download link](https://releases.aspose.com/note/java/) से डाउनलोड करके इंस्टॉल करें।  
 
-## पैकेज इम्पोर्ट करें
+## Import Packages
 
-सबसे पहले, उन क्लासेज़ को इम्पोर्ट करें जिनकी हमें OneNote फ़ाइल लोड करने और विज़िटर इम्प्लीमेंट करने के लिए आवश्यकता होगी।
+First, import the classes we’ll need for loading the OneNote file and implementing the visitor.
 
 ```java
 import java.io.IOException;
@@ -57,80 +58,89 @@ import com.aspose.note.RichText;
 import com.aspose.note.Title;
 ```
 
-## चरण 1: दस्तावेज़ लोड करें
+## Step 1: Load the Document
 
 ```java
 String dataDir = "Your Document Directory";
 Document doc = new Document(dataDir + "Sample1.one");
 ```
 
-> **प्रो टिप:** `"Your Document Directory"` को उस फ़ोल्डर के पूर्ण पथ से बदलें जहाँ आपकी `.one` फ़ाइल स्थित है।
+> **Pro tip:** `"Your Document Directory"` को उस फ़ोल्डर के पूर्ण पाथ से बदलें जहाँ आपकी `.one` फ़ाइल स्थित है।
 
-## चरण 2: कस्टम डॉक्यूमेंट विज़िटर बनाएं
+## Step 2: Create a Custom Document Visitor
 
 ```java
 MyOneNoteToTxtWriter myConverter = new MyOneNoteToTxtWriter();
 ```
 
-`MyOneNoteToTxtWriter` `DocumentVisitor` को एक्सटेंड करता है। इसमें आप `visit(RichText rt)` जैसी मेथड्स को ओवरराइड करेंगे ताकि टेक्स्ट एकत्र किया जा सके, और आप नोड्स की गिनती, इमेज एक्सट्रैक्शन आदि भी कर सकते हैं। यही वह जगह है जहाँ **विज़िटर पैटर्न जावा** चमकता है – आप ऑपरेशन एक बार परिभाषित करते हैं और लाइब्रेरी ट्रैवर्सल संभालती है।
+`MyOneNoteToTxtWriter` `DocumentVisitor` को एक्सटेंड करता है। इसमें आप `visit(RichText rt)` जैसे मेथड्स को ओवरराइड करेंगे ताकि टेक्स्ट इकट्ठा किया जा सके, और आप नोड्स की गिनती, इमेजेज़ एक्सट्रैक्शन आदि भी कर सकते हैं। यही वह जगह है जहाँ **visitor pattern java** चमकता है – आप ऑपरेशन एक बार परिभाषित करते हैं और लाइब्रेरी ट्रैवर्सल को संभालती है।
 
-## चरण 3: दस्तावेज़ नोड्स को ट्रैवर्स और विज़िट करें
+## Step 3: Traverse and Visit Document Nodes
 
 ```java
 doc.accept(myConverter);
 ```
 
-`accept()` को कॉल करने से विज़िटर ट्रिगर होता है। लाइब्रेरी हर पेज, आउटलाइन और एलिमेंट के माध्यम से चलती है, आपके द्वारा इम्प्लीमेंट किए गए कॉलबैक्स को कॉल करती है।
+`accept()` को कॉल करने से विज़िटर ट्रिगर होता है। लाइब्रेरी हर पेज, outline, और एलिमेंट के माध्यम से चलती है, आपके द्वारा इम्प्लीमेंट किए गए कॉलबैक्स को कॉल करती है।
 
-## चरण 4: परिणाम प्राप्त करें
+## Step 4: Retrieve Results
 
 ```java
 System.out.println("Total Nodes: " + myConverter.getNodeCount());
 System.out.println(myConverter.getText());
 ```
 
-वॉक समाप्त होने के बाद, आप विज़िटर से कुल विज़िट किए गए नोड्स की संख्या और संचित प्लेन टेक्स्ट प्राप्त कर सकते हैं। यह ठीक वही है जिससे आप **OneNote टेक्स्ट निकालते** हैं और बाद में **OneNote को txt में बदलते** हैं, बस लौटाए गए स्ट्रिंग को फ़ाइल में लिख दें।
+ट्रैवर्सल समाप्त होने के बाद, आप विज़िटर से कुल विज़िट किए गए नोड्स की संख्या और संचित प्लेन टेक्स्ट प्राप्त कर सकते हैं। यह ठीक वही तरीका है जिससे आप **extract OneNote text** करते हैं और बाद में **convert OneNote to txt** करके प्राप्त स्ट्रिंग को फ़ाइल में लिखते हैं।
 
-## सामान्य उपयोग केस
+## Common Use Cases
 
-- **ऑटोमैटेड नोट सारांशण:** कई नोटबुक्स से प्लेन टेक्स्ट निकालें और उसे सारांश इंजन में फीड करें।  
-- **सर्च इंडेक्सिंग:** प्रत्येक OneNote फ़ाइल से टेक्स्ट निकालकर एक सर्चेबल इंडेक्स बनाएं।  
-- **माइग्रेशन स्क्रिप्ट्स:** लेगेसी OneNote आर्काइव को प्लेन‑टेक्स्ट या Markdown में बदलें, ताकि आधुनिक डॉक्यूमेंटेशन सिस्टम में उपयोग हो सके।
+- **Automated note summarization:** कई नोटबुक्स से प्लेन टेक्स्ट निकालें और उसे एक समरीज़ेशन इंजन में फीड करें।  
+- **Search indexing:** प्रत्येक OneNote फ़ाइल से टेक्स्ट निकालकर एक सर्चेबल **search index onenote** बनाएं।  
+- **Migration scripts:** **Migrate onenote notes** को प्लेन‑टेक्स्ट, Markdown, या अन्य आधुनिक फ़ॉर्मैट्स में बदलें ताकि डॉक्यूमेंटेशन सिस्टम में उपयोग हो सके।  
+- **Content archiving:** निकाले गए टेक्स्ट को डेटाबेस में स्टोर करें ताकि दीर्घकालिक रिटेंशन और कंप्लायंस सुनिश्चित हो सके।
 
-## ट्रबलशूटिंग और टिप्स
+## How to Build a Search Index Onenote with Visitor Pattern Java
 
-| समस्या | कारण | समाधान |
+जब आपको OneNote सामग्री को सर्चेबल बनाना हो, तो visitor pattern java सीधे टेक्स्ट एनालाइज़र को फीड कर सकता है। विज़िटर द्वारा टेक्स्ट इकट्ठा करने के बाद, आप उसे Lucene, Elasticsearch, या किसी अन्य इंडेक्सिंग इंजन में पुश कर सकते हैं। क्योंकि विज़िटर क्रम में नोड्स प्रोसेस करता है, आप हायरार्किकल कॉन्टेक्स्ट (पेज टाइटल्स, outline हेडिंग्स) भी बनाए रखते हैं, जिससे रिलेवेंस स्कोरिंग बेहतर होती है।
+
+## Migrating OneNote Notes Using Visitor Pattern Java
+
+यदि आप OneNote से दूर जा रहे हैं, तो वही विज़िटर Markdown, HTML, या कस्टम JSON स्ट्रक्चर आउटपुट करने के लिए विस्तारित किया जा सकता है। `MyOneNoteToTxtWriter` में एक्सट्रैक्शन लॉजिक को केंद्रीकृत करके, आपको केवल नई आउटपुट मेथड्स जोड़नी होंगी—ट्रैवर्सल कोड में कोई बदलाव नहीं करना पड़ेगा।
+
+## Troubleshooting & Tips
+
+| Issue | Cause | Solution |
 |-------|-------|----------|
-| `doc.accept()` पर `NullPointerException` | दस्तावेज़ पाथ गलत | `dataDir` और फ़ाइल नाम की जाँच करें; परीक्षण के लिए पूर्ण पाथ उपयोग करें। |
-| कोई टेक्स्ट नहीं मिला | विज़िटर ने `visit(RichText)` को ओवरराइड नहीं किया | सुनिश्चित करें कि आपका कस्टम विज़िटर `RichText` नोड्स को कैप्चर करता है। |
-| बड़े नोटबुक्स से मेमोरी प्रेशर | विज़िटर पूरे टेक्स्ट को मेमोरी में रखता है | विज़िटर के अंदर टेक्स्ट को क्रमिक रूप से फ़ाइल में लिखें, सभी को एक साथ स्टोर न करें। |
+| `NullPointerException` on `doc.accept()` | Document path incorrect | `dataDir` और फ़ाइल नाम की जाँच करें; परीक्षण के लिए पूर्ण पाथ का उपयोग करें। |
+| No text returned | Visitor didn't override `visit(RichText)` | सुनिश्चित करें कि आपका कस्टम विज़िटर `RichText` नोड्स को कैप्चर करता है। |
+| Large notebooks cause memory pressure | Visitor keeps entire text in memory | विज़िटर के अंदर टेक्स्ट को फ़ाइल में क्रमिक रूप से लिखें, सभी को मेमोरी में रखने के बजाय। |
 
-## अक्सर पूछे जाने वाले प्रश्न
+## Frequently Asked Questions
 
-### Q1: क्या मैं Aspose.Note को जावा के अलावा अन्य भाषाओं में उपयोग कर सकता हूँ?
-A1: हाँ, Aspose.Note .NET, C++, Python और अन्य कई भाषाओं को सपोर्ट करता है। प्रत्येक भाषा के लिए आधिकारिक डॉक्यूमेंटेशन देखें।
+### Q1: Can I use Aspose.Note for languages other than Java?
+A1: Yes, Aspose.Note supports .NET, C++, Python, and more. Check the official docs for each language.
 
-### Q2: क्या Aspose.Note मुफ्त है?
-A2: Aspose.Note एक कमर्शियल लाइब्रेरी है। आप मुफ्त ट्रायल संस्करण [यहाँ](https://releases.aspose.com/) से डाउनलोड कर सकते हैं।
+### Q2: Is Aspose.Note free to use?
+A2: Aspose.Note is a commercial library. You can download a free trial version from [here](https://releases.aspose.com/).
 
-### Q3: Aspose.Note के लिए सपोर्ट कैसे प्राप्त करूँ?
-A3: आप Aspose कम्युनिटी फ़ोरम्स पर सपोर्ट पा सकते हैं [यहाँ](https://forum.aspose.com/c/note/28)।
+### Q3: How can I get support for Aspose.Note?
+A3: You can get support from the Aspose community forums [here](https://forum.aspose.com/c/note/28).
 
-### Q4: क्या परीक्षण के लिए मैं अस्थायी लाइसेंस खरीद सकता हूँ?
-A4: हाँ, आप अस्थायी लाइसेंस [यहाँ](https://purchase.aspose.com/temporary-license/) से खरीद सकते हैं।
+### Q4: Can I purchase a temporary license for testing purposes?
+A4: Yes, you can purchase a temporary license from [here](https://purchase.aspose.com/temporary-license/).
 
-### Q5: क्या Aspose.Note के लिए कोई डॉक्यूमेंटेशन उपलब्ध है?
-A5: हाँ, आप डॉक्यूमेंटेशन [यहाँ](https://reference.aspose.com/note/java/) पा सकते हैं।
+### Q5: Is there any documentation available for Aspose.Note?
+A5: Yes, you can find the documentation [here](https://reference.aspose.com/note/java/).
 
-## निष्कर्ष
+## Conclusion
 
-Aspose.Note के साथ **विज़िटर पैटर्न जावा** को लागू करके, आपके पास OneNote फ़ाइलों से **टेक्स्ट निकालने**, **OneNote को txt में बदलने**, और सामान्यतः **OneNote संरचनाओं को ट्रैवर्स करने** का एक साफ़, एक्स्टेन्सिबल तरीका है। जैसे-जैसे आपका प्रोजेक्ट विकसित होता है, `MyOneNoteToTxtWriter` को इमेज, टेबल या कस्टम मेटाडेटा संभालने के लिए विस्तारित करने में संकोच न करें।
+Aspose.Note के साथ **visitor pattern java** को लागू करके, अब आपके पास OneNote फ़ाइलों से **how to extract text**, **convert OneNote to txt**, और सामान्यतः **how to traverse OneNote** संरचनाओं को संभालने का एक साफ़, एक्स्टेन्सिबल तरीका है। यह पैटर्न आपको **search index onenote** बनाने, **migrate onenote notes** करने, और कस्टम एक्सपोर्ट पाइपलाइन बनाने के द्वार भी खोलता है। जैसे-जैसे आपका प्रोजेक्ट विकसित होता है, `MyOneNoteToTxtWriter` को इमेजेज़, टेबल्स, या कस्टम मेटाडेटा को संभालने के लिए विस्तारित करने में संकोच न करें।
 
 ---
 
-**अंतिम अपडेट:** 2025-12-09  
-**टेस्टेड विद:** Aspose.Note for Java 24.10  
-**लेखक:** Aspose  
+**Last Updated:** 2026-02-20  
+**Tested With:** Aspose.Note for Java 24.10  
+**Author:** Aspose  
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
