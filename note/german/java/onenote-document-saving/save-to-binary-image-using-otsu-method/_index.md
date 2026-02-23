@@ -1,11 +1,11 @@
 ---
-date: 2025-12-14
-description: Erfahren Sie, wie Sie OneNote mit der Otsu‑Methode als binäres PNG‑Bild
-  mit Aspose.Note für Java speichern. Dieser Leitfaden behandelt das Speichern von
-  OneNote als PNG und das Erstellen von Schwarz‑Weiß‑Bildern in Java.
+date: 2026-02-23
+description: Erfahren Sie, wie Sie die Otsu‑Methode in Java verwenden, um OneNote
+  als binäres PNG‑Bild mit Aspose.Note für Java zu speichern. Dieser Leitfaden behandelt
+  Otsu‑Binarisierung, PNG‑Export und OCR‑bereite Schwarz‑Weiß‑Bilder.
 linktitle: How to Save OneNote as Binary Image Using Otsu Method
 second_title: Aspose.Note Java API
-title: Wie man OneNote als Binärbild mit der Otsu‑Methode speichert
+title: Wie man die Otsu‑Methode in Java verwendet, um OneNote als Binärbild zu speichern
 url: /de/java/onenote-document-saving/save-to-binary-image-using-otsu-method/
 weight: 15
 ---
@@ -14,31 +14,32 @@ weight: 15
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Save to Binary Image Using Otsu Method in OneNote
+# Binärbild mit Otsu‑Methode in OneNote speichern
 
-## Einleitung
+## Einführung
 
-In diesem Tutorial erfahren Sie **wie Sie OneNote**-Dokumente als Binärbilder mit der Otsu-Methode und Aspose.Note für Java speichern können. Das Konvertieren einer OneNote‑Datei in ein Schwarz‑Weiß‑Bild ist praktisch für Bildverarbeitungspipelines, OCR‑Vorverarbeitung oder wenn Sie einfach eine leichtgewichtige visuelle Darstellung Ihrer Notizen benötigen.
+In diesem Tutorial lernen Sie **wie man Otsu method Java** verwendet, um ein OneNote‑Dokument in ein leichtgewichtiges binäres PNG‑Bild zu konvertieren. Egal, ob Sie eine OCR‑Pre‑Processing‑Pipeline bauen, Notizen archivieren oder einfach nur ein schnelles visuelles Vorschaubild benötigen, der Otsu‑Algorithmus liefert Ihnen eine optimale Schwarz‑Weiß‑Darstellung mit nur wenigen Code‑Zeilen.
 
 ## Schnelle Antworten
-- **Was macht die Otsu-Methode?** Sie bestimmt automatisch den optimalen Schwellenwert, um ein Graustufenbild in ein Schwarz‑Weiß‑(Binär‑)Bild zu konvertieren.  
+- **Was macht die Otsu‑Methode?** Sie bestimmt automatisch den optimalen Schwellenwert, um ein Graustufen‑Bild in ein Schwarz‑Weiß‑(Binär‑)Bild zu konvertieren.  
 - **Welches Format wird für die Ausgabe verwendet?** PNG ist der Standard, weil es verlustfreie Qualität bewahrt.  
-- **Benötige ich eine Lizenz, um den Code auszuführen?** Eine kostenlose Testversion funktioniert für die Entwicklung; für den Produktionseinsatz ist eine kommerzielle Lizenz erforderlich.  
+- **Benötige ich eine Lizenz, um den Code auszuführen?** Eine kostenlose Testversion reicht für die Entwicklung; für die Produktion ist eine kommerzielle Lizenz erforderlich.  
 - **Kann ich die Ausgabe in ein anderes Format ändern?** Ja – ersetzen Sie einfach `SaveFormat.Png` durch ein anderes unterstütztes Format.  
-- **Ist das für OCR geeignet?** Absolut – Binärbilder verbessern die OCR‑Genauigkeit, indem sie Graustufenrauschen entfernen.
+- **Ist das für OCR geeignet?** Absolut – Binärbilder verbessern die OCR‑Genauigkeit, indem sie Graustufen‑Rauschen entfernen.
 
-## Was ist die Otsu-Methode?
-Die Otsu-Methode analysiert das Histogramm eines Graustufenbildes und wählt einen Schwellenwert, der die Intra‑Klassen‑Varianz minimiert, wodurch Vordergrund (schwarz) vom Hintergrund (weiß) effektiv getrennt wird. Das macht sie ideal für die Erstellung von **black white image java**‑Ausgaben aus OneNote‑Seiten.
+## Was ist die Otsu‑Methode?
+Die Otsu‑Methode analysiert das Histogramm eines Graustufen‑Bildes und wählt einen Schwellenwert, der die Intra‑Klassen‑Varianz minimiert, wodurch Vordergrund (schwarz) vom Hintergrund (weiß) effektiv getrennt wird. Das macht sie ideal, um **black‑white image Java** Ausgaben aus OneNote‑Seiten zu erzeugen.
 
-## Warum OneNote als PNG speichern?
+## Warum die Otsu‑Method Java für die Binärbild‑Konvertierung verwenden?
 - **Universelle Kompatibilität:** PNG funktioniert in Browsern, mobilen Apps und Desktop‑Tools.  
 - **Verlustfreie Kompression:** Keine Qualitätsverschlechterung, was für nachgelagerte Verarbeitung entscheidend ist.  
-- **Bereit für OCR:** Binäre PNGs sind die bevorzugte Eingabe für die meisten OCR‑Engines.
+- **OCR‑bereite Ausgabe:** Binäre PNGs sind die bevorzugte Eingabe für die meisten OCR‑Engines und erhöhen die Erkennungsraten.  
+- **Minimaler Code‑Umfang:** Mit Aspose.Note können Sie die Otsu‑Binarisierung mit nur wenigen API‑Aufrufen anwenden.
 
 ## Voraussetzungen
-1. Grundkenntnisse in der Java‑Programmierung.  
+1. Grundkenntnisse in Java‑Programmierung.  
 2. Installiertes JDK (Java Development Kit).  
-3. Aspose.Note für Java-Bibliothek zu Ihrem Projekt hinzugefügt (Maven/Gradle oder manuell als JAR).  
+3. Aspose.Note for Java‑Bibliothek zu Ihrem Projekt hinzugefügt (Maven/Gradle oder manuelles JAR).  
 
 ## Pakete importieren
 Um zu beginnen, importieren Sie die erforderlichen Aspose.Note‑Klassen und Java‑I/O‑Hilfsprogramme.
@@ -57,8 +58,8 @@ String dataDir = "Your Document Directory";
 Document oneFile = new Document(dataDir + "Aspose.one");
 ```
 
-## Schritt 2: Binärisierung mit Otsu konfigurieren
-Erstellen Sie eine Instanz von `ImageBinarizationOptions` und teilen Sie Aspose.Note mit, den Otsu‑Algorithmus zu verwenden.
+## Schritt 2: Binarisierung mit Otsu konfigurieren
+Erstellen Sie eine Instanz von `ImageBinarizationOptions` und weisen Sie Aspose.Note an, den Otsu‑Algorithmus zu verwenden.
 
 ```java
 dataDir = dataDir + "SaveToBinaryImageUsingOtsuMethod_out.png";
@@ -67,7 +68,7 @@ binarizationOptions.setBinarizationMethod(BinarizationMethod.Otsu);
 ```
 
 ## Schritt 3: Bild‑Speicheroptionen festlegen (PNG, Schwarz‑Weiß)
-Definieren Sie, wie das Bild gespeichert wird. Hier wählen wir PNG, erzwingen einen Schwarz‑Weiß‑Farbmodus und fügen die Binärisierungsoptionen hinzu.
+Definieren Sie, wie das Bild gespeichert wird. Hier wählen wir PNG, erzwingen einen Schwarz‑Weiß‑Farbmodus und fügen die Binarisierungsoptionen hinzu.
 
 ```java
 ImageSaveOptions options = new ImageSaveOptions(SaveFormat.Png);
@@ -86,44 +87,53 @@ oneFile.save(dataDir, options);
 ## Häufige Probleme & Tipps
 - **Datei nicht gefunden:** Stellen Sie sicher, dass `dataDir` mit einem Pfadtrenner (`/` oder `\\`) endet, bevor Sie den Dateinamen anhängen.  
 - **Leere Ausgabe:** Vergewissern Sie sich, dass die Quell‑OneNote‑Seite Inhalt enthält; leere Seiten erzeugen ein leeres PNG.  
-- **Leistung:** Bei großen Notizbüchern verarbeiten Sie Seiten einzeln, um den Speicherverbrauch gering zu halten.
+- **Performance:** Bei großen Notizbüchern verarbeiten Sie Seiten einzeln, um den Speicherverbrauch gering zu halten.
 
 ## Fazit
-Sie wissen jetzt **wie Sie OneNote** als binäres PNG‑Bild mit der Otsu‑Methode in Java speichern können. Dieser Ansatz ist ideal, um **black white image java**‑Assets für OCR, Archivierung oder jede Situation zu erstellen, in der eine leichtgewichtige visuelle Kopie einer OneNote‑Seite benötigt wird.
+Sie wissen jetzt **wie man Otsu method Java** verwendet, um OneNote als binäres PNG‑Bild zu speichern. Dieser Ansatz ist ideal, um **black‑white image Java** Assets für OCR, Archivierung oder jedes Szenario zu erstellen, in dem eine leichtgewichtige visuelle Kopie einer OneNote‑Seite benötigt wird.
 
 ## FAQ
 
 ### Q1: Kann ich Aspose.Note für Java verwenden, um Text aus OneNote‑Dokumenten zu extrahieren?
-A1: Ja, Aspose.Note für Java bietet APIs, um Textinhalt aus OneNote‑Dokumenten programmgesteuert zu extrahieren.
+A1: Ja, Aspose.Note für Java bietet APIs, um Textinhalte aus OneNote‑Dokumenten programmgesteuert zu extrahieren.
 
 ### Q2: Ist Aspose.Note für Java mit verschiedenen Versionen von OneNote‑Dateien kompatibel?
-A2: Ja, Aspose.Note für Java unterstützt verschiedene Versionen von OneNote‑Dateien, einschließlich .one und .onenote Formaten.
+A2: Ja, Aspose.Note für Java unterstützt verschiedene Versionen von OneNote‑Dateien, einschließlich .one‑ und .onenote‑Formaten.
 
-### Q3: Kann ich die Binärisierungsoptionen anpassen, um Dokumente als Binärbilder zu speichern?
-A3: Absolut, Sie können die Binärisierungsmethode und weitere Optionen nach Ihren Anforderungen anpassen.
+### Q3: Kann ich die Binarisierungsoptionen für das Speichern von Dokumenten als Binärbilder anpassen?
+A3: Absolut, Sie können die Binarisierungsmethode und weitere Optionen nach Ihren Anforderungen anpassen.
 
 ### Q4: Unterstützt Aspose.Note für Java die Umwandlung von Binärbildern zurück in OneNote‑Dokumente?
-A4: Während Aspose.Note hauptsächlich die Manipulation von OneNote‑Dokumenten behandelt, können Sie Bilder mit OCR‑Techniken (Optical Character Recognition) zurück in das OneNote‑Format konvertieren.
+A4: Obwohl sich Aspose.Note hauptsächlich mit der Manipulation von OneNote‑Dokumenten beschäftigt, können Sie Bilder mithilfe von OCR‑Techniken (Optical Character Recognition) wieder in das OneNote‑Format konvertieren.
 
 ### Q5: Wo kann ich Unterstützung erhalten, wenn ich Probleme bei der Verwendung von Aspose.Note für Java habe?
-A5: Sie können das Aspose.Note‑Forum besuchen oder das Support‑Team für Hilfe bei technischen Problemen oder Anfragen kontaktieren.
+A5: Sie können das Aspose.Note‑Forum besuchen oder das Support‑Team kontaktieren, um Hilfe bei technischen Problemen oder Anfragen zu erhalten.
 
 ## Zusätzliche häufig gestellte Fragen
 
-**F: Wie ändere ich das Ausgabeformat von PNG zu JPEG?**  
+**Q: Wie ändere ich das Ausgabeformat von PNG zu JPEG?**  
 A: Ersetzen Sie `SaveFormat.Png` durch `SaveFormat.Jpeg` im Konstruktor von `ImageSaveOptions`.
 
-**F: Gibt es eine Möglichkeit, eine benutzerdefinierte DPI für das exportierte Bild festzulegen?**  
+**Q: Gibt es eine Möglichkeit, eine benutzerdefinierte DPI für das exportierte Bild festzulegen?**  
 A: Ja, verwenden Sie `options.setResolution(double dpi)` bevor Sie `save` aufrufen.
 
-**F: Kann ich mehrere OneNote‑Seiten in einer Schleife verarbeiten?**  
+**Q: Kann ich mehrere OneNote‑Seiten in einer Schleife verarbeiten?**  
 A: Auf jeden Fall – iterieren Sie über `Document.getPages()` und wenden Sie die gleiche Speicherlogik auf jede Seite an.
 
----
+## Häufig gestellte Fragen
 
-**Last Updated:** 2025-12-14  
-**Tested With:** Aspose.Note for Java 24.12  
-**Author:** Aspose  
+**Q: Ist der Otsu‑Algorithmus die einzige verfügbare Binarisierungsmethode?**  
+A: Nein, Aspose.Note unterstützt auch andere Methoden wie FixedThreshold. Sie können wechseln, indem Sie `BinarizationMethod.FixedThreshold` setzen und einen benutzerdefinierten Schwellenwert angeben.
+
+**Q: Behält das binäre PNG die Farbanmerkungen bei, die ursprünglich in der OneNote‑Seite vorhanden waren?**  
+A: Nein. Wenn `ColorMode.BlackAndWhite` aktiviert ist, werden alle Farben basierend auf dem Otsu‑Schwellenwert in reines Schwarz oder Weiß umgewandelt.
+
+**Q: Wie groß kann eine OneNote‑Datei sein, bevor der Speicher zum Problem wird?**  
+A: Das hängt von Ihrer JVM‑Heap‑Größe ab. Bei Notizbüchern größer als 200 MB sollten Sie die Seiten einzeln verarbeiten und nach jedem Speichern `System.gc()` aufrufen.
+
+**Zuletzt aktualisiert:** 2026-02-23  
+**Getestet mit:** Aspose.Note for Java 24.12  
+**Autor:** Aspose  
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
