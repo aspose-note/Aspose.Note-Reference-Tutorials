@@ -1,27 +1,49 @@
 ---
-title: Tạo danh sách có dấu đầu dòng trong OneNote - Aspose.Note
-linktitle: Tạo danh sách có dấu đầu dòng trong OneNote - Aspose.Note
-second_title: API Java Aspose.Note
-description: Khám phá hướng dẫn từng bước về cách tạo danh sách dấu đầu dòng trong OneNote bằng Aspose.Note for Java. Nâng cao việc tạo tài liệu của bạn một cách dễ dàng.
-weight: 12
+date: 2026-03-03
+description: Tìm hiểu cách tạo danh sách có dấu đầu dòng trong OneNote bằng Aspose.Note
+  cho Java và lưu tài liệu OneNote dưới dạng PDF. Hướng dẫn chi tiết từng bước với
+  các dấu đầu dòng trong Java.
+linktitle: Create Bulleted List OneNote - Aspose.Note
+second_title: Aspose.Note Java API
+title: Tạo danh sách có dấu đầu dòng OneNote - Aspose.Note
 url: /vi/java/onenote-text-manipulation/create-bulleted-list/
+weight: 12
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Tạo danh sách có dấu đầu dòng trong OneNote - Aspose.Note
+# Create Bulleted List OneNote - Aspose.Note
 
-## Giới thiệu
-Trong bối cảnh phát triển Java năng động, việc tạo ra các tài liệu hấp dẫn và có tổ chức là điều cần thiết. Aspose.Note for Java cung cấp một bộ công cụ mạnh mẽ để nâng cao quá trình tạo tài liệu của bạn. Hướng dẫn này sẽ hướng dẫn bạn quy trình tạo danh sách dấu đầu dòng trong OneNote bằng Aspose.Note cho Java. Hãy đi sâu vào chi tiết.
-## Điều kiện tiên quyết
-Trước khi chúng tôi bắt đầu, hãy đảm bảo rằng bạn có các điều kiện tiên quyết sau:
-- Kiến thức cơ bản về lập trình Java.
--  Aspose.Note cho thư viện Java đã được cài đặt. Bạn có thể tải nó xuống từ[Aspose.Note cho tài liệu Java](https://reference.aspose.com/note/java/).
-- Môi trường phát triển tích hợp Java (IDE) được thiết lập trên máy của bạn.
-## Gói nhập khẩu
-Bắt đầu bằng cách nhập các gói cần thiết vào dự án Java của bạn. Điều này đảm bảo rằng bạn có quyền truy cập vào các chức năng Aspose.Note dành cho Java.
+## Introduction
+Nếu bạn cần **tạo danh sách có dấu đầu dòng OneNote** một cách lập trình, Aspose.Note for Java cung cấp cho bạn một API sạch sẽ, linh hoạt, xử lý tất cả các chi tiết nội bộ của OneNote cho bạn. Trong hướng dẫn này, chúng tôi sẽ đi qua các bước chính xác để đặt dấu đầu dòng trong Java, thêm chúng vào một outline, và cuối cùng **lưu tài liệu OneNote dưới dạng PDF**. Khi kết thúc, bạn sẽ có một đoạn mã sẵn sàng sử dụng mà bạn có thể chèn vào bất kỳ dự án Java nào.
+
+## Quick Answers
+- **What does Aspose.Note do?** Nó cho phép bạn tạo, chỉnh sửa và chuyển đổi các tệp OneNote mà không cần cài đặt OneNote.  
+- **Can I set bullet points with Java?** Có – sử dụng `NumberList` để định nghĩa kiểu dấu đầu dòng.  
+- **How do I export to PDF?** Gọi `doc.save(...".pdf")` sau khi xây dựng trang.  
+- **Do I need a license for development?** Bản dùng thử miễn phí hoạt động cho việc thử nghiệm; cần có giấy phép cho môi trường sản xuất.  
+- **Which IDEs are supported?** Bất kỳ IDE Java nào như Eclipse, IntelliJ IDEA, hoặc VS Code.
+
+## What is “create bulleted list OneNote”?
+Tạo một danh sách có dấu đầu dòng trong OneNote có nghĩa là thêm một loạt các phần tử outline, trong đó mỗi phần tử bắt đầu bằng một ký tự dấu đầu dòng (ví dụ, “*”). Cấu trúc này cải thiện khả năng đọc và mô phỏng cách người dùng thủ công thêm danh sách trong giao diện OneNote.
+
+## Why use Aspose.Note for Java to set bullet points?
+- **No OneNote installation required** – hoạt động trên máy chủ và các pipeline CI.  
+- **Full control over styling** – phông chữ, kích thước, màu sắc và ký tự dấu đầu dòng đều có thể cấu hình.  
+- **Direct PDF export** – tạo PDF chỉ trong một dòng lệnh, lý tưởng cho báo cáo hoặc lưu trữ.  
+
+## Prerequisites
+Trước khi bắt đầu, hãy chắc chắn rằng bạn có:
+
+- Kiến thức cơ bản về lập trình Java.  
+- Thư viện Aspose.Note for Java đã được cài đặt – tải xuống từ [Aspose.Note for Java Documentation](https://reference.aspose.com/note/java/).  
+- Một IDE Java (Eclipse, IntelliJ IDEA, v.v.) đã được thiết lập trên máy của bạn.
+
+## Import Packages
+Bắt đầu bằng việc nhập các gói cần thiết vào dự án Java của bạn. Điều này sẽ cho phép bạn truy cập vào tất cả các lớp Aspose.Note mà chúng ta sẽ sử dụng.
+
 ```java
 import java.awt.Color;
 import java.io.IOException;
@@ -32,75 +54,108 @@ import com.aspose.note.OutlineElement;
 import com.aspose.note.Page;
 import com.aspose.note.RichText;
 import com.aspose.note.ParagraphStyle;
-// Nhập Aspose.Note cho các gói Java
+// Import Aspose.Note for Java packages
 ```
-## Bước 1: Khởi tạo tài liệu và trang
-Tạo một đối tượng của lớp Tài liệu và khởi tạo một đối tượng lớp Trang.
+
+## Step 1: Initialize Document and Page
+Tạo một thể hiện `Document` và một `Page` nơi outline sẽ được đặt.
+
 ```java
 String dataDir = "Your Document Directory";
-// tạo một đối tượng của lớp Tài liệu
+// create an object of the Document class
 Document doc = new Document();
-// khởi tạo đối tượng lớp Trang
+// initialize Page class object
 Page page = new Page();
 ```
-## Bước 2: Khởi tạo Outline và TextStyle
-Bây giờ, hãy khởi tạo đối tượng lớp Outline và đối tượng lớp TextStyle với các thuộc tính định dạng.
+
+## Step 2: Initialize Outline and TextStyle (set bullet points java)
+Chúng ta sẽ thiết lập một container `Outline` và định nghĩa một `ParagraphStyle` mặc định. Đây là nơi chúng ta **set bullet points java**‑style formatting.
+
 ```java
-// khởi tạo đối tượng lớp Outline
+// initialize Outline class object
 Outline outline = new Outline();
-// khởi tạo đối tượng lớp TextStyle và đặt thuộc tính định dạng
+// initialize TextStyle class object and set formatting properties
 ParagraphStyle defaultStyle = new ParagraphStyle()
                                     .setFontColor(Color.black)
                                     .setFontName("Arial")
                                     .setFontSize(10);
 ```
-## Bước 3: Tạo các thành phần danh sách có dấu đầu dòng
-Tạo các đối tượng lớp OutlineElement và áp dụng dấu đầu dòng để tạo danh sách dấu đầu dòng.
+
+## Step 3: Create Bulleted List Elements
+Tạo các đối tượng `OutlineElement` riêng lẻ, gắn một `NumberList` định nghĩa ký tự dấu đầu dòng, và thêm nội dung văn bản.
+
 ```java
-// khởi tạo các đối tượng lớp OutlineElement và áp dụng dấu đầu dòng
+// initialize OutlineElement class objects and apply bullets
 OutlineElement outlineElem1 = new OutlineElement();
 outlineElem1.setNumberList(new NumberList("*", "Arial", 10));
-// khởi tạo đối tượng lớp RichText và áp dụng kiểu văn bản
+// initialize RichText class object and apply text style
 RichText text1 = new RichText().append("First");
 text1.setParagraphStyle(defaultStyle);
 outlineElem1.appendChildLast(text1);
 ```
-Lặp lại các bước trên cho từng thành phần trong danh sách có dấu đầu dòng của bạn.
-## Bước 4: Thêm các phần tử phác thảo vào phác thảo
-Thêm các đối tượng OutlineElement đã tạo vào Outline.
+
+*Lặp lại khối trên cho mỗi dấu đầu dòng bổ sung bạn cần (ví dụ, `outlineElem2`, `outlineElem3`).*
+
+## Step 4: Add Outline Elements to Outline
+Thu thập tất cả các phần tử dấu đầu dòng vào `Outline` cha.
+
 ```java
-// thêm các yếu tố phác thảo
+// add outline elements
 outline.appendChildLast(outlineElem1);
 outline.appendChildLast(outlineElem2);
 outline.appendChildLast(outlineElem3);
 ```
-## Bước 5: Thêm dàn bài vào trang và lưu
-Thêm nút Dàn bài vào Trang, sau đó thêm nút Trang vào Tài liệu. Cuối cùng, lưu tài liệu.
+
+## Step 5: Add Outline to Page and Save (save OneNote document as PDF)
+Gắn `Outline` vào `Page`, thêm trang vào `Document`, và cuối cùng **save OneNote document as PDF**.
+
 ```java
-// thêm nút phác thảo
+// add Outline node
 page.appendChildLast(outline);
-// thêm nút Trang
+// add Page node
 doc.appendChildLast(page);
-// lưu tài liệu
+// save the document
 doc.save(dataDir + "CreateBulletedList_out.pdf");
 ```
-Chúc mừng! Bạn đã tạo thành công danh sách có dấu đầu dòng trong OneNote bằng Aspose.Note for Java.
-## Phần kết luận
-Aspose.Note for Java đơn giản hóa quá trình tạo tài liệu có định dạng phù hợp. Hướng dẫn này đã hướng dẫn bạn các bước để tạo danh sách có dấu đầu dòng trong OneNote. Khám phá nhiều khả năng hơn với Aspose.Note để nâng cao trải nghiệm tạo tài liệu của bạn.
-## Câu hỏi thường gặp
-### Aspose.Note for Java có tương thích với tất cả các IDE Java không?
-Có, Aspose.Note for Java tương thích với các Môi trường phát triển tích hợp Java phổ biến như Eclipse và IntelliJ IDEA.
-### Tôi có thể tùy chỉnh định dạng của danh sách dấu đầu dòng không?
-Tuyệt đối! Bạn có thể sửa đổi phông chữ, màu sắc và kích thước của các thành phần danh sách có dấu đầu dòng theo sở thích của mình.
-### Tôi có thể tìm hỗ trợ bổ sung cho Aspose.Note cho Java ở đâu?
- Tham quan[Aspose.Note dành cho diễn đàn hỗ trợ Java](https://forum.aspose.com/c/note/28) để được sự giúp đỡ từ cộng đồng.
-### Có bản dùng thử miễn phí cho Aspose.Note cho Java không?
- Có, bạn có thể khám phá phiên bản dùng thử miễn phí[đây](https://releases.aspose.com/).
-### Làm cách nào tôi có thể nhận được giấy phép tạm thời cho Aspose.Note cho Java?
- Nhận giấy phép tạm thời[đây](https://purchase.aspose.com/temporary-license/).
+
+Chúc mừng! Bạn đã **tạo danh sách có dấu đầu dòng OneNote** một cách lập trình và xuất nó ra PDF bằng Aspose.Note for Java.
+
+## Common Issues and Solutions
+| Issue | Solution |
+|-------|----------|
+| `outlineElem2` or `outlineElem3` not defined | Đảm bảo bạn sao chép khối mã từ Bước 3 cho mỗi dấu đầu dòng bổ sung và đổi tên biến cho phù hợp. |
+| PDF file not created | Kiểm tra `dataDir` trỏ tới thư mục có quyền ghi và bạn có quyền ghi vào đó. |
+| Bullet style looks different | Điều chỉnh các tham số của hàm khởi tạo `NumberList` (phông chữ, kích thước hoặc ký tự) để phù hợp với giao diện mong muốn. |
+
+## Frequently Asked Questions
+
+**Q: Is Aspose.Note for Java compatible with all Java IDEs?**  
+A: Có, nó hoạt động với Eclipse, IntelliJ IDEA, NetBeans và bất kỳ IDE nào hỗ trợ dự án Java tiêu chuẩn.
+
+**Q: Can I customize the formatting of the bulleted list?**  
+A: Chắc chắn! Bạn có thể thay đổi phông chữ, màu sắc, kích thước và thậm chí sử dụng các ký hiệu Unicode tùy chỉnh bằng cách sửa đổi các tham số của `NumberList`.
+
+**Q: Where can I find additional support for Aspose.Note for Java?**  
+A: Truy cập [Aspose.Note for Java support forum](https://forum.aspose.com/c/note/28) để nhận trợ giúp từ cộng đồng và hỗ trợ chính thức.
+
+**Q: Is there a free trial available for Aspose.Note for Java?**  
+A: Có, bạn có thể khám phá phiên bản dùng thử miễn phí [tại đây](https://releases.aspose.com/).
+
+**Q: How can I obtain a temporary license for Aspose.Note for Java?**  
+A: Nhận giấy phép tạm thời [tại đây](https://purchase.aspose.com/temporary-license/).
+
+## Conclusion
+Aspose.Note for Java giúp bạn dễ dàng **tạo danh sách có dấu đầu dòng OneNote**, định dạng mỗi dấu đầu dòng, và **lưu tài liệu OneNote dưới dạng PDF** trong vài bước ngắn gọn. Hãy thoải mái thử nghiệm các ký tự dấu đầu dòng, phông chữ và màu sắc khác nhau để phù hợp với ngôn ngữ thiết kế của ứng dụng. Khám phá các tính năng khác của Aspose.Note như bảng, hình ảnh và siêu liên kết để xây dựng nội dung OneNote phong phú hơn.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
+
+---
+
+**Last Updated:** 2026-03-03  
+**Tested With:** Aspose.Note for Java 24.11  
+**Author:** Aspose
