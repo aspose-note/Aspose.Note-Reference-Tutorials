@@ -1,11 +1,11 @@
 ---
-date: 2025-12-16
-description: Aprenda a salvar documentos do OneNote como imagens BMP usando as opções
-  de salvamento de imagem do Aspose.Note para Java. Também veja como salvar o OneNote
-  em PDF ou PNG.
-linktitle: how to save onenote to BMP Image Using Image Save Options
+date: 2026-03-05
+description: Aprenda como exportar documentos do OneNote para imagens BMP usando as
+  Opções de Salvamento de Imagem do Aspose.Note para Java. Veja também como converter
+  OneNote para PDF ou salvar OneNote como PNG.
+linktitle: how to export onenote to BMP Image Using Image Save Options
 second_title: Aspose.Note Java API
-title: como salvar o OneNote como imagem BMP usando opções de salvamento de imagem
+title: Como exportar o OneNote para imagem BMP usando opções de salvamento de imagem
 url: /pt/java/onenote-document-saving/save-to-bmp-image-using-image-save-options/
 weight: 16
 ---
@@ -14,23 +14,23 @@ weight: 16
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# como salvar onenote como imagem BMP usando Opções de Salvamento de Imagem
+# como exportar onenote para imagem BMP usando Opções de Salvamento de Imagem
 
-## Introdução
+## Como exportar onenote para imagem BMP
 
-Aspose.Note for Java é uma biblioteca poderosa que permite que desenvolvedores Java trabalhem com arquivos Microsoft OneNote programaticamente. **Neste tutorial você aprenderá como salvar documentos onenote como imagens BMP** usando o recurso Image Save Options do Aspose.Note for Java. Vamos percorrer cada passo, explicar por que você pode escolher BMP em vez de outros formatos e mostrar como integrar essa capacidade em suas próprias aplicações.
+Aspose.Note for Java é uma biblioteca poderosa que permite que desenvolvedores Java trabalhem com arquivos Microsoft OneNote programaticamente. **Neste tutorial você aprenderá como exportar documentos onenote para imagens BMP** usando o recurso Image Save Options do Aspose.Note for Java. Vamos percorrer cada passo, explicar por que você pode escolher BMP em vez de outros formatos e mostrar como integrar essa capacidade em suas próprias aplicações.
 
 ## Respostas Rápidas
-- **O que a classe Image Save Options faz?** Permite especificar o formato de imagem de saída (BMP, PNG, JPEG, etc.) ao converter uma página do OneNote.  
+- **O que a classe Image Save Options faz?** Ela permite especificar o formato de imagem de saída (BMP, PNG, JPEG, etc.) ao converter uma página do OneNote.  
 - **Preciso de uma licença para executar o exemplo?** Uma avaliação gratuita funciona para testes, mas uma licença comercial é necessária para uso em produção.  
 - **Posso converter uma página do OneNote para PDF ou PNG em vez de BMP?** Sim – basta alterar o enum `SaveFormat` (por exemplo, `SaveFormat.Pdf` ou `SaveFormat.Png`).  
 - **Qual versão do Java é suportada?** Java 8 e posteriores são totalmente suportados.  
-- **Existe algum tratamento especial para documentos grandes?** Você pode fazer streaming da saída para evitar alto consumo de memória.
+- **Existe algum tratamento especial para documentos grandes?** Você pode transmitir a saída para evitar alto consumo de memória.
 
-## O que são “Opções de Salvamento de Imagem” no Aspose.Note?
-A classe `ImageSaveOptions` fornece controle granular sobre como as páginas do OneNote são renderizadas como imagens raster. Você pode definir o formato da imagem, resolução, profundidade de cor e muito mais. Essa flexibilidade facilita a geração de arquivos BMP para sistemas legados ou arquivos PNG/JPEG para uso na web.
+## O que é “Image Save Options” no Aspose.Note?
+A classe `ImageSaveOptions` fornece controle granular sobre como as páginas do OneNote são renderizadas como imagens raster. Você pode definir o formato da imagem, resolução, profundidade de cor e muito mais. Essa flexibilidade facilita **exportar imagem de página onenote** para sistemas legados (BMP) ou cenários web modernos (PNG/JPEG).  
 
-## Pré-requisitos
+## Pré‑requisitos
 
 Antes de começar, certifique‑se de que você tem:
 
@@ -70,22 +70,22 @@ oneFile.save(dataDir, new ImageSaveOptions(SaveFormat.Bmp));
 ```
 
 Concatenamos o nome do arquivo de saída e, em seguida, chamamos `save` com uma instância de `ImageSaveOptions` configurada para **BMP** (`SaveFormat.Bmp`).  
-Se você quiser **salvar a página onenote** como PNG, basta substituir `SaveFormat.Bmp` por `SaveFormat.Png`. Da mesma forma, `SaveFormat.Pdf` permite realizar uma conversão **onenote para pdf**.
+Se você quiser **salvar página onenote** como PNG, basta substituir `SaveFormat.Bmp` por `SaveFormat.Png`. Da mesma forma, `SaveFormat.Pdf` permite que você faça uma conversão **onenote para pdf**.
 
-## Por que escolher BMP?
+## Por que Escolher BMP?
 - **Qualidade sem perdas** – BMP armazena dados de pixel brutos, preservando a aparência exata da página original.  
-- **Compatibilidade** – Aplicações antigas do Windows frequentemente exigem arquivos BMP.  
+- **Compatibilidade** – Aplicativos antigos do Windows frequentemente exigem arquivos BMP.  
 - **Simplicidade** – Sem artefatos de compressão, tornando-o ideal para processamento adicional de imagens.
 
-## Problemas Comuns e Dicas
+## Problemas Comuns & Dicas
 
 - **Erros de caminho de arquivo** – Certifique‑se de que `dataDir` termina com o separador de arquivos apropriado (`/` ou `\`).  
 - **Blocos de notas grandes** – Para arquivos OneNote muito grandes, considere salvar cada página individualmente para manter o uso de memória baixo.  
-- **Exceções de licença** – Executar o código sem uma licença válida adicionará uma marca d’água à imagem gerada.
+- **Exceções de licença** – Executar o código sem uma licença válida adicionará uma marca d'água à imagem gerada.
 
 ## Conclusão
 
-Neste guia demonstramos **como salvar onenote** documentos como imagens BMP usando `ImageSaveOptions` do Aspose.Note for Java. Ao trocar o enum `SaveFormat` você também pode gerar PNG, JPEG, PDF ou outros formatos suportados, oferecendo uma maneira flexível de exportar conteúdo do OneNote para qualquer cenário subsequente.
+Neste guia demonstramos **como exportar onenote** documentos para imagens BMP usando `ImageSaveOptions` do Aspose.Note for Java. Ao trocar o enum `SaveFormat` você também pode gerar PNG, JPEG, PDF ou outros formatos suportados, oferecendo uma maneira flexível de exportar conteúdo do OneNote para qualquer cenário subsequente.
 
 ## Perguntas Frequentes
 
@@ -102,11 +102,11 @@ A: Sim, a biblioteca é atualizada regularmente para permanecer em sincronia com
 A: Sim, você pode adicionar, editar ou excluir páginas, seções e conteúdo rico (texto, imagens, tabelas) através da API.
 
 **Q5: O Aspose.Note for Java oferece suporte técnico?**  
-A: Sim, a Aspose oferece suporte técnico e um fórum dedicado. Visite o [Aspose.Note forum](https://forum.aspose.com/c/note/28) para obter assistência.
+A: Sim, a Aspose oferece suporte técnico e um fórum dedicado. Visite o [forum Aspose.Note](https://forum.aspose.com/c/note/28) para obter ajuda.
 
 ---
 
-**Última atualização:** 2025-12-16  
+**Última atualização:** 2026-03-05  
 **Testado com:** Aspose.Note for Java 24.12  
 **Autor:** Aspose  
 
