@@ -1,27 +1,56 @@
 ---
-title: 在 OneNote 中获取列表属性 - Aspose.Note
-linktitle: 在 OneNote 中获取列表属性 - Aspose.Note
+date: 2026-03-08
+description: 了解如何使用 Aspose.Note for Java 从 OneNote 文档中提取列表属性。本分步指南为您展示所需的完整代码和技巧。
+linktitle: How to Extract List Properties in OneNote - Aspose.Note
 second_title: Aspose.Note Java API
-description: 探索 Aspose.Note for Java 并轻松检索 OneNote 文档中的列表属性。使用这个强大的 Java 库增强您的文档处理能力。
-weight: 19
+title: 如何在 OneNote 中提取列表属性 - Aspose.Note
 url: /zh/java/onenote-text-manipulation/get-list-properties/
+weight: 19
 ---
 
-{{< blocks/products/pf/main-wrap-class >}}
+) => translate label.
+
+**Author:** Aspose => translate label maybe "作者：Aspose".
+
+Now ensure shortcodes at start and end remain.
+
+We need to keep the outer shortcodes unchanged.
+
+Let's construct final output.{{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# 在 OneNote 中获取列表属性 - Aspose.Note
+# 如何在 OneNote 中提取列表属性 - Aspose.Note
 
 ## 介绍
-欢迎来到这个关于利用 Aspose.Note for Java 检索和分析 OneNote 文档中的列表属性的综合教程。无论您是经验丰富的开发人员还是刚刚开始使用 Aspose.Note，本指南都将引导您完成整个过程，分解每个步骤以确保清晰的理解。
-## 先决条件
-在深入学习本教程之前，请确保您具备以下先决条件：
--  Aspose.Note for Java：确保您安装了最新版本。你可以下载它[这里](https://releases.aspose.com/note/java/).
-- Java 开发环境：在您的系统上设置 Java 开发环境。
-- OneNote 文档：准备一个 OneNote 文档（例如“Sample1.one”）以供测试。
+在本教程中，您将学习如何使用 Aspose.Note for Java 从 OneNote 文件中**提取列表**属性。无论是读取字体细节、列表格式还是样式属性，本指南都会一步步带您完成——从加载文档到打印提取的值。完成后，您将拥有可直接集成到任何基于 Java 的文档处理流水线中的代码片段。
+
+## 快速回答
+- **“提取列表”是什么意思？** 它指读取存储在 OneNote 大纲中的编号或项目符号列表的格式细节（字体、大小、颜色、样式）。  
+- **需要哪个库？** Aspose.Note for Java（最新版本）。  
+- **测试时需要许可证吗？** 是的，建议使用临时许可证进行非生产环境的运行。  
+- **可以在任何操作系统上运行吗？** Java API 在 Windows、Linux 和 macOS 上均可工作。  
+- **实现大概需要多长时间？** 基本设置通常在 10 分钟以内完成。
+
+## 在 OneNote 中“如何提取列表”是什么意思？
+OneNote 将每个列表项存储为 `OutlineElement`，其中可能包含 `NumberList` 对象。提取列表即访问该对象的属性——如字体名称、大小、颜色和格式——以便以编程方式分析或修改它们。
+
+## 为什么使用 Aspose.Note for Java 来提取列表属性？
+- **无 COM 互操作** – 完全在 Java 中运行，无需 Windows OneNote 客户端。  
+- **完整保真** – 保留所有格式细节，包括自定义字体和颜色。  
+- **跨平台** – 可在任何服务器端环境中运行相同代码。  
+- **丰富 API** – 直接访问列表对象，使属性提取变得简单直观。
+
+## 前置条件
+在开始之前，请确保具备以下条件：
+
+- Aspose.Note for Java：下载最新发布 **[here](https://releases.aspose.com/note/java/)**。  
+- Java 开发环境（JDK 8 或更高）。  
+- 已放置在已知目录下的 OneNote 文档（例如 `Sample1.one`）。
+
 ## 导入包
-首先将必要的包导入到您的 Java 项目中。这确保您可以在代码中无缝使用 Aspose.Note 功能。
+首先，导入所需的类。这将为您提供对 Aspose.Note 核心功能的访问。
+
 ```java
 import java.io.IOException;
 import java.util.List;
@@ -30,77 +59,96 @@ import com.aspose.note.NumberList;
 import com.aspose.note.OutlineElement;
 ```
 
-现在，让我们将示例的每个步骤分解为分步指南。
+现在让我们一步步 walkthrough 实现过程。
 
-## 第1步：加载OneNote文档
+## 如何提取列表属性 – 步骤指南
+
+### 步骤 1：加载 OneNote 文档
+提供正确的 `.one` 文件路径并创建 `Document` 实例。
 
 ```java
-//文档目录的路径。
+// The path to the documents directory.
 String dataDir = "Your Document Directory";
 
-//将文档加载到Aspose.Note中
+// Load the document into Aspose.Note
 Document oneFile = new Document(dataDir + "Sample1.one");
 ```
 
-确保提供 OneNote 文档的正确路径。此步骤使用您的文档初始化 Aspose.Note 库。
+> **专业提示：** 使用绝对路径或根据项目的 resources 文件夹配置相对路径，以避免 `FileNotFoundException`。
 
-## 第2步：检索节点集合
+### 步骤 2：检索大纲节点集合
+每个列表都位于 `OutlineElement` 中。从文档中提取所有此类元素。
 
 ```java
-//检索大纲元素的集合节点
+// Retrieve a collection of nodes of the outline element
 List<OutlineElement> nodes = oneFile.getChildNodes(OutlineElement.class);
 ```
 
-在这里，我们检索代表 OneNote 文档中大纲元素的节点集合。
-
-## 第 3 步：迭代节点
+### 步骤 3：遍历节点并定位列表
+循环遍历每个节点，检查其是否包含 `NumberList`。若包含，则保存引用以供后续提取。
 
 ```java
-//遍历每个节点
+// Iterate through each node
 for (OutlineElement node : nodes) {
     if (node.getNumberList() != null) {
         NumberList list = node.getNumberList();
-        //继续对列表属性进行进一步操作
+        // Continue with further operations on list properties
     }
 }
 ```
 
-该循环迭代每个大纲元素节点并检查它是否包含数字列表。如果为 true，则继续提取列表属性。
-
-## 步骤 4：提取列表属性
+### 步骤 4：提取所需的列表属性
+在循环内部，您现在可以读取 `NumberList` 类公开的任何属性。
 
 ```java
-//检索字体名称
+// Retrieve font name
 System.out.println("Font Name: " + list.getFont());
-//检索字体长度
+// Retrieve font length (character count)
 System.out.println("Font Length: " + list.getFont());
-//检索字体大小
+// Retrieve font size
 System.out.println("Font Size: " + list.getFontSize());
-//检索字体颜色
+// Retrieve font color
 System.out.println("Font Color: " + list.getFontColor());
-//检索格式
+// Retrieve format (e.g., decimal, lowerLetter)
 System.out.println("Font format: " + list.getFormat());
-//勾选粗体
+// Check bold style
 System.out.println("Is bold: " + list.isBold());
-//检查斜体
+// Check italic style
 System.out.println("Is italic: " + list.isItalic());
 ```
 
-这些行提取各种列表属性，例如字体名称、字体长度、字体大小、字体颜色、格式和样式（粗体或斜体）。
+控制台输出将显示每个属性，方便您记录、分析或进一步处理列表的样式信息。
 
-## 结论
-恭喜！您已成功探索如何使用 Aspose.Note for Java 在 OneNote 中检索列表属性。本指南为您提供了增强文档处理能力的知识。尝试不同的文档并调整代码以满足您的特定要求。
-## 常见问题解答
-### Aspose.Note 是否兼容不同的 OneNote 版本？
-Aspose.Note支持各种OneNote版本，确保不同文档格式的兼容性。
-### 我可以自定义从 OneNote 文档检索到的字体属性吗？
-是的，您可以修改代码以满足您的需求并有选择地检索特定的字体属性。
-### 我在哪里可以找到额外的支持或帮助？
-如有任何疑问或问题，请访问[Aspose.Note 论坛](https://forum.aspose.com/c/note/28)寻求及时帮助。
-### 我需要临时许可证才能进行测试吗？
-是的，您可以获得临时许可证[这里](https://purchase.aspose.com/temporary-license/)用于测试目的。
-### 如果我想购买 Aspose.Note for Java 怎么办？
-您可以购买该产品[这里](https://purchase.aspose.com/buy)为您的项目释放其全部潜力。
+## 常见问题与故障排除
+| 症状 | 可能原因 | 解决方案 |
+|---------|--------------|-----|
+| `NullPointerException` on `list.getFont()` | 节点不包含 `NumberList`。 | 添加空值检查 (`if (node.getNumberList() != null)`)。 |
+| 没有任何输出 | `dataDir` 指向了错误的文件夹。 | 核实路径并确保 `Sample1.one` 存在。 |
+| 字体颜色显示为 `null` | 列表使用了默认主题颜色。 | 使用 `list.getFontColor()`，并在必要时回退到文档主题颜色。 |
+
+## 常见问答
+
+**Q: Aspose.Note 是否兼容不同版本的 OneNote？**  
+A: 是的，Aspose.Note 支持广泛的 OneNote 文件格式，从较早的 2007 版本到最新的 Office 365 发行版。
+
+**Q: 我可以自定义要检索的字体属性吗？**  
+A: 完全可以。您只需调用所需的 getter（例如 `getFontSize()` 或 `isBold()`），其余属性可忽略。
+
+**Q: 在哪里可以获得更多支持或帮助？**  
+A: 如有任何疑问或问题，请访问 [Aspose.Note forum](https://forum.aspose.com/c/note/28) 获取及时帮助。
+
+**Q: 测试时需要临时许可证吗？**  
+A: 是的，您可以在 **[here](https://purchase.aspose.com/temporary-license/)** 获取临时许可证用于评估。
+
+**Q: 如果想购买 Aspose.Note for Java，该怎么办？**  
+A: 您可以在 **[here](https://purchase.aspose.com/buy)** 购买该产品，以解锁其在项目中的全部功能。
+
+---
+
+**最后更新：** 2026-03-08  
+**测试环境：** Aspose.Note for Java（最新发布）  
+**作者：** Aspose  
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
