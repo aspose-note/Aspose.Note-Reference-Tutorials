@@ -108,13 +108,6 @@ C5: Aspose.Note forumunda [burada](https://forum.aspose.com/c/note/28/) destek b
 
 Artık **how to export onenote** işlemini bir OneNote dosyasını yükleyerek, **gri tonlamalı bir görüntü oluşturmak** için kaydetme seçeneklerini yapılandırarak ve **belgeyi PNG olarak kaydederek** nasıl yapacağınızı öğrendiniz. Bu teknik, OneNote defterlerinden hafif, baskıya hazır görseller üretmek için kullanışlıdır. Projenizin ihtiyaçlarına göre diğer `ColorMode` ayarlarını veya görüntü formatlarını denemekten çekinmeyin.
 
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}
-
 ---
 
 **Last Updated:** 2025-12-17  
@@ -122,3 +115,10 @@ Artık **how to export onenote** işlemini bir OneNote dosyasını yükleyerek, 
 **Author:** Aspose  
 
 ---
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

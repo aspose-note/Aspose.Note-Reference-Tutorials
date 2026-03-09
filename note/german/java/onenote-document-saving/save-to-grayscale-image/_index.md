@@ -108,15 +108,15 @@ A5: Sie finden Unterstützung im Aspose.Note‑Forum [hier](https://forum.aspose
 
 Sie haben nun gelernt **wie man OneNote exportiert**, indem Sie eine OneNote‑Datei laden, die Speicheroptionen zum **Erstellen eines Graustufen‑Bildes** konfigurieren und **das Dokument als PNG speichern**. Diese Technik ist praktisch, um leichte, druckfertige Visualisierungen aus OneNote‑Notizbüchern zu erzeugen. Experimentieren Sie gern mit anderen `ColorMode`‑Einstellungen oder Bildformaten, um den Anforderungen Ihres Projekts gerecht zu werden.
 
+---
+
+**Last Updated:** 2025-12-17  
+**Tested With:** Aspose.Note 24.12 for Java  
+**Author:** Aspose
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
-
----
-
-**Last Updated:** 2025-12-17  
-**Tested With:** Aspose.Note 24.12 for Java  
-**Author:** Aspose

@@ -101,28 +101,6 @@ System.out.println("Stream Size: " + stream.size() + " bytes");
 
 이 튜토리얼에서는 Aspose.Note for Java를 사용하여 **OneNote 문서를 스트림에 저장하는 방법**과 해당 스트림을 활용해 **OneNote를 PDF로 변환**하는 방법을 배웠습니다. 제공된 단계를 따르면 이 기능을 Java 애플리케이션에 원활히 통합하여 OneNote 파일을 프로그래밍 방식으로 효율적으로 조작할 수 있습니다.
 
-## FAQ
-
-### Q1: Aspose.Note for Java를 사용하여 OneNote 문서를 편집할 수 있나요?
-
-A1: 예, Aspose.Note for Java는 OneNote 문서를 프로그래밍 방식으로 편집, 생성 및 조작하기 위한 포괄적인 API를 제공합니다.
-
-### Q2: Aspose.Note for Java가 다양한 Java 버전과 호환되나요?
-
-A2: 예, Aspose.Note for Java는 JDK 8 이상을 포함한 다양한 Java 버전과 호환됩니다.
-
-### Q3: Aspose.Note for Java가 OneNote 문서를 다른 형식으로 저장하는 것을 지원하나요?
-
-A3: 예, Aspose.Note for Java는 PDF, DOCX, HTML 등 다양한 형식으로 OneNote 문서를 저장하는 것을 지원합니다.
-
-### Q4: Aspose.Note for Java에 대한 추가 자료와 지원을 어디서 찾을 수 있나요?
-
-A4: [Aspose 포럼](https://forum.aspose.com/c/note/28)에서 Aspose.Note for Java에 대한 문서, 포럼 및 지원을 찾을 수 있습니다.
-
-### Q5: 구매 전에 Aspose.Note for Java를 체험할 수 있나요?
-
-A5: 예, [Aspose 웹사이트](https://releases.aspose.com/)에서 Aspose.Note for Java의 무료 체험판을 받을 수 있습니다.
-
 ## 자주 묻는 질문
 
 **Q: 스트림에서 바이트 배열을 추출하여 추가로 처리하려면 어떻게 해야 하나요?**  

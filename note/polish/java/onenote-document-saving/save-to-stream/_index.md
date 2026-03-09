@@ -101,28 +101,6 @@ Na koniec wypisujemy rozmiar strumienia, wskazując ilość danych przechowywany
 
 W tym samouczku nauczyliśmy się **jak zapisać onenote** dokumenty do strumienia przy użyciu Aspose.Note dla Javy oraz jak ten strumień można wykorzystać do **konwersji onenote do pdf**. Postępując zgodnie z podanymi krokami, możesz płynnie zintegrować tę funkcjonalność w swoich aplikacjach Java, umożliwiając efektywne programowe manipulowanie plikami OneNote.
 
-## FAQ
-
-### Q1: Czy mogę używać Aspose.Note dla Javy do edycji dokumentów OneNote?
-
-A1: Tak, Aspose.Note dla Javy udostępnia kompleksowe API do edycji, tworzenia i manipulacji dokumentami OneNote programowo.
-
-### Q2: Czy Aspose.Note dla Javy jest kompatybilny z różnymi wersjami Javy?
-
-A2: Tak, Aspose.Note dla Javy jest kompatybilny z różnymi wersjami Javy, w tym JDK 8 i nowszymi.
-
-### Q3: Czy Aspose.Note dla Javy obsługuje zapisywanie dokumentów OneNote w innych formatach?
-
-A3: Tak, Aspose.Note dla Javy obsługuje zapisywanie dokumentów OneNote w wielu formatach, w tym PDF, DOCX, HTML i innych.
-
-### Q4: Gdzie mogę znaleźć dodatkowe zasoby i wsparcie dla Aspose.Note dla Javy?
-
-A4: Dokumentację, fora i wsparcie dla Aspose.Note dla Javy znajdziesz na [forum Aspose](https://forum.aspose.com/c/note/28).
-
-### Q5: Czy mogę wypróbować Aspose.Note dla Javy przed zakupem?
-
-A5: Tak, możesz uzyskać darmową wersję próbną Aspose.Note dla Javy ze [strony Aspose](https://releases.aspose.com/).
-
 ## Najczęściej zadawane pytania
 
 **P: Jak pobrać tablicę bajtów ze strumienia do dalszego przetwarzania?**  

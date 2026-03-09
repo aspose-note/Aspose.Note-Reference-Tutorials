@@ -102,28 +102,6 @@ Végül kiírjuk a stream méretét, amely a memóriában tárolt adat mennyisé
 
 Ebben az útmutatóban megtanultuk, **hogyan mentse a onenote** dokumentumokat stream‑be az Aspose.Note for Java segítségével, valamint azt, hogyan használható ez a stream a **onenote pdf‑re konvertálásához**. A bemutatott lépéseket követve könnyedén integrálhatja ezt a funkciót Java‑alkalmazásaiba, hatékonyan kezelve a OneNote fájlokat programozott módon.
 
-## GyIK
-
-### Q1: Használhatom az Aspose.Note for Java‑t OneNote dokumentumok szerkesztésére?
-
-A1: Igen, az Aspose.Note for Java átfogó API‑kat biztosít a OneNote dokumentumok programozott szerkesztéséhez, létrehozásához és manipulálásához.
-
-### Q2: Az Aspose.Note for Java kompatibilis a különböző Java verziókkal?
-
-A2: Igen, az Aspose.Note for Java kompatibilis a különböző Java verziókkal, beleértve a JDK 8‑at és az azt követőket.
-
-### Q3: Támogatja az Aspose.Note for Java a OneNote dokumentumok más formátumokba mentését?
-
-A3: Igen, az Aspose.Note for Java több formátumba tudja menteni a OneNote dokumentumokat, többek között PDF, DOCX, HTML és továbbiak.
-
-### Q4: Hol találok további forrásokat és támogatást az Aspose.Note for Java‑hoz?
-
-A4: Dokumentációt, fórumokat és támogatást a [Aspose fórumokon](https://forum.aspose.com/c/note/28) talál.
-
-### Q5: Próbálhatom-e ki az Aspose.Note for Java‑t vásárlás előtt?
-
-A5: Igen, ingyenes próbaverziót szerezhet az Aspose.Note for Java‑ból a [Aspose weboldaláról](https://releases.aspose.com/).
-
 ## Gyakran ismételt kérdések
 
 **K: Hogyan kapom meg a byte tömböt a stream‑ből további feldolgozáshoz?**  

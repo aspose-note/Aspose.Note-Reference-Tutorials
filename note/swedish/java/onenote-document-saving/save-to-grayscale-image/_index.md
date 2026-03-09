@@ -108,13 +108,6 @@ A5: Du kan hitta support på Aspose.Note‑forumet [here](https://forum.aspose.c
 
 Du har nu lärt dig **hur man exporterar onenote** genom att ladda en OneNote‑fil, konfigurera sparalternativen för att **skapa en gråskalebild**, och **spara dokumentet som PNG**. Denna teknik är praktisk för att skapa lätta, utskriftsklara visualiseringar från OneNote‑anteckningsböcker. Känn dig fri att experimentera med andra `ColorMode`‑inställningar eller bildformat för att passa ditt projekts behov.
 
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}
-
 ---
 
 **Last Updated:** 2025-12-17  
@@ -122,3 +115,10 @@ Du har nu lärt dig **hur man exporterar onenote** genom att ladda en OneNote‑
 **Author:** Aspose  
 
 ---
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

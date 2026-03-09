@@ -109,15 +109,15 @@ A5: Aspose.Note 포럼에서 지원을 받을 수 있습니다. [여기](https:/
 
 이제 OneNote 파일을 로드하고, 저장 옵션을 **그레이스케일 이미지 생성**으로 구성한 뒤, **문서를 PNG로 저장**함으로써 **OneNote 내보내기 방법**을 익혔습니다. 이 기술은 OneNote 노트북에서 가볍고 인쇄 준비가 된 시각 자료를 생성하는 데 유용합니다. 프로젝트 요구에 맞게 다른 `ColorMode` 설정이나 이미지 형식을 자유롭게 실험해 보세요.
 
+---
+
+**마지막 업데이트:** 2025-12-17  
+**테스트 환경:** Aspose.Note 24.12 for Java  
+**작성자:** Aspose
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
-
----
-
-**마지막 업데이트:** 2025-12-17  
-**테스트 환경:** Aspose.Note 24.12 for Java  
-**작성자:** Aspose

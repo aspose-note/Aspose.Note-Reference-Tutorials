@@ -108,13 +108,6 @@ J5: Anda dapat menemukan dukungan di forum Aspose.Note [sini](https://forum.aspo
 
 Anda kini telah mempelajari **cara mengekspor onenote** dengan memuat file OneNote, mengonfigurasi opsi penyimpanan untuk **membuat gambar grayscale**, dan **menyimpan dokumen sebagai PNG**. Teknik ini berguna untuk menghasilkan visual ringan yang siap cetak dari notebook OneNote. Jangan ragu untuk bereksperimen dengan pengaturan `ColorMode` lain atau format gambar untuk menyesuaikan kebutuhan proyek Anda.
 
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}
-
 ---
 
 **Terakhir Diperbarui:** 2025-12-17  
@@ -122,3 +115,10 @@ Anda kini telah mempelajari **cara mengekspor onenote** dengan memuat file OneNo
 **Penulis:** Aspose  
 
 ---
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

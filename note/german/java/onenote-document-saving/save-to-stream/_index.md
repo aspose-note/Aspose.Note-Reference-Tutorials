@@ -101,28 +101,6 @@ Abschließend geben wir die Größe des Streams aus, was die Menge der im Speich
 
 In diesem Tutorial haben wir **wie man OneNote**-Dokumente in einen Stream speichert, indem wir Aspose.Note für Java verwenden, und wie dieser Stream genutzt werden kann, um **OneNote in PDF zu konvertieren**. Durch Befolgen der bereitgestellten Schritte können Sie diese Funktion nahtlos in Ihre Java-Anwendungen integrieren, was eine effiziente programmgesteuerte Manipulation von OneNote-Dateien ermöglicht.
 
-## FAQ
-
-### Q1: Kann ich Aspose.Note für Java verwenden, um OneNote-Dokumente zu bearbeiten?
-
-A1: Ja, Aspose.Note für Java bietet umfassende APIs zum Bearbeiten, Erstellen und Manipulieren von OneNote-Dokumenten programmgesteuert.
-
-### Q2: Ist Aspose.Note für Java mit verschiedenen Java-Versionen kompatibel?
-
-A2: Ja, Aspose.Note für Java ist mit verschiedenen Java-Versionen kompatibel, einschließlich JDK 8 und später.
-
-### Q3: Unterstützt Aspose.Note für Java das Speichern von OneNote-Dokumenten in anderen Formaten?
-
-A3: Ja, Aspose.Note für Java unterstützt das Speichern von OneNote-Dokumenten in mehreren Formaten, einschließlich PDF, DOCX, HTML und mehr.
-
-### Q4: Wo finde ich zusätzliche Ressourcen und Unterstützung für Aspose.Note für Java?
-
-A4: Sie finden Dokumentation, Foren und Support für Aspose.Note für Java im [Aspose-Forum](https://forum.aspose.com/c/note/28).
-
-### Q5: Kann ich Aspose.Note für Java vor dem Kauf testen?
-
-A5: Ja, Sie können eine kostenlose Testversion von Aspose.Note für Java von der [Aspose-Website](https://releases.aspose.com/) erhalten.
-
 ## Häufig gestellte Fragen
 
 **F: Wie rufe ich das Byte-Array aus dem Stream für die weitere Verarbeitung ab?**  

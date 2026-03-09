@@ -100,28 +100,6 @@ System.out.println("Stream Size: " + stream.size() + " bytes");
 
 在本教學中，我們學會了使用 Aspose.Note for Java 將 **how to save onenote** 文件儲存至串流，以及如何利用該串流 **convert onenote to pdf**。依循上述步驟，您即可將此功能無縫整合至 Java 應用程式中，以程式方式有效操作 OneNote 檔案。
 
-## 常見問答
-
-### Q1：我可以使用 Aspose.Note for Java 編輯 OneNote 文件嗎？
-
-A1：可以，Aspose.Note for Java 提供完整的 API，讓您以程式方式編輯、建立與操作 OneNote 文件。
-
-### Q2：Aspose.Note for Java 是否相容於不同版本的 Java？
-
-A2：是的，Aspose.Note for Java 相容於多個 Java 版本，包括 JDK 8 及以上。
-
-### Q3：Aspose.Note for Java 是否支援將 OneNote 文件儲存為其他格式？
-
-A3：是的，Aspose.Note for Java 支援將 OneNote 文件儲存為多種格式，包括 PDF、DOCX、HTML 等。
-
-### Q4：我可以在哪裡找到 Aspose.Note for Java 的其他資源與支援？
-
-A4：您可於 [Aspose forums](https://forum.aspose.com/c/note/28) 找到 Aspose.Note for Java 的文件、論壇與支援。
-
-### Q5：我可以在購買前試用 Aspose.Note for Java 嗎？
-
-A5：可以，您可從 [Aspose website](https://releases.aspose.com/) 取得 Aspose.Note for Java 的免費試用版。
-
 ## 常見問題
 
 **Q：如何從串流取得位元組陣列以進行後續處理？**  

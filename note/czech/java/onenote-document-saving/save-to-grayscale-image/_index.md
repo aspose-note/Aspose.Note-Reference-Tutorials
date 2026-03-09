@@ -108,13 +108,6 @@ A5: Podporu najdete na fóru Aspose.Note [zde](https://forum.aspose.com/c/note/2
 
 Nyní jste se naučili **jak exportovat onenote** načtením souboru OneNote, nastavením možností uložení pro **vytvoření obrázku v odstínech šedi** a **uložením dokumentu jako PNG**. Tato technika je užitečná pro vytváření lehkých, připravených k tisku vizuálů z poznámkových bloků OneNote. Nebojte se experimentovat s dalšími nastaveními `ColorMode` nebo formáty obrázků, aby vyhovovaly potřebám vašeho projektu.
 
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}
-
 ---
 
 **Last Updated:** 2025-12-17  
@@ -122,3 +115,10 @@ Nyní jste se naučili **jak exportovat onenote** načtením souboru OneNote, na
 **Author:** Aspose  
 
 ---
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

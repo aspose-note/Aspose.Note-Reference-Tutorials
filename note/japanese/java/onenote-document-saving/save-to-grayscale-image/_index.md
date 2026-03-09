@@ -107,13 +107,6 @@ A5: Aspose.Note フォーラムは [こちら](https://forum.aspose.com/c/note/2
 
 これで **OneNote をエクスポート** し、ドキュメントを **グレースケール画像を作成** して **PNG として保存** する方法が理解できました。この手法は、OneNote ノートブックから軽量で印刷向きのビジュアルを生成する際に便利です。プロジェクトの要件に合わせて `ColorMode` の設定や画像形式を変更してみてください。
 
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}
-
 ---
 
 **最終更新日:** 2025-12-17  
@@ -121,3 +114,10 @@ A5: Aspose.Note フォーラムは [こちら](https://forum.aspose.com/c/note/2
 **作者:** Aspose  
 
 ---
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

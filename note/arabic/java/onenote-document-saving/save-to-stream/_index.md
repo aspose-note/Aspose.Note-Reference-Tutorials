@@ -101,28 +101,6 @@ System.out.println("Stream Size: " + stream.size() + " bytes");
 
 في هذا البرنامج التعليمي، تعلمنا **كيفية حفظ onenote** إلى تدفق باستخدام Aspose.Note for Java وكيف يمكن الاستفادة من ذلك التدفق **لتحويل onenote إلى pdf**. باتباع الخطوات المقدمة، يمكنك دمج هذه الوظيفة بسلاسة في تطبيقات Java الخاصة بك، مما يسمح بالتعامل الفعال مع ملفات OneNote برمجيًا.
 
-## الأسئلة المتكررة
-
-### Q1: هل يمكنني استخدام Aspose.Note for Java لتعديل مستندات OneNote؟
-
-A1: نعم، يوفر Aspose.Note for Java واجهات برمجة تطبيقات شاملة لتعديل وإنشاء ومعالجة مستندات OneNote برمجيًا.
-
-### Q2: هل Aspose.Note for Java متوافق مع إصدارات Java المختلفة؟
-
-A2: نعم، Aspose.Note for Java متوافق مع إصدارات Java المختلفة، بما في ذلك JDK 8 وما بعده.
-
-### Q3: هل يدعم Aspose.Note for Java حفظ مستندات OneNote بصيغ أخرى؟
-
-A3: نعم، يدعم Aspose.Note for Java حفظ مستندات OneNote بصيغ متعددة، بما في ذلك PDF و DOCX و HTML وغيرها.
-
-### Q4: أين يمكنني العثور على موارد إضافية ودعم لـ Aspose.Note for Java؟
-
-A4: يمكنك العثور على الوثائق والمنتديات والدعم لـ Aspose.Note for Java على [منتديات Aspose](https://forum.aspose.com/c/note/28).
-
-### Q5: هل يمكنني تجربة Aspose.Note for Java قبل الشراء؟
-
-A5: نعم، يمكنك الحصول على نسخة تجريبية مجانية من Aspose.Note for Java من [موقع Aspose](https://releases.aspose.com/).
-
 ## الأسئلة المتداولة
 
 **س: كيف يمكنني استرجاع مصفوفة البايتات من التدفق لمعالجة إضافية؟**  

@@ -109,13 +109,6 @@ oneFile.save(dataDir, options);
 
 Τώρα έχετε μάθει **πώς να εξάγετε το onenote** φορτώνοντας ένα αρχείο OneNote, διαμορφώνοντας τις επιλογές αποθήκευσης για **δημιουργία ασπρόμαυρης εικόνας**, και **αποθηκεύοντας το έγγραφο ως PNG**. Αυτή η τεχνική είναι χρήσιμη για τη δημιουργία ελαφριών, έτοιμων για εκτύπωση οπτικών από τα σημειωματάρια OneNote. Μη διστάσετε να πειραματιστείτε με άλλες ρυθμίσεις `ColorMode` ή μορφές εικόνας ώστε να ταιριάζουν στις ανάγκες του έργου σας.
 
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}
-
 ---
 
 **Τελευταία ενημέρωση:** 2025-12-17  
@@ -123,3 +116,10 @@ oneFile.save(dataDir, options);
 **Συγγραφέας:** Aspose  
 
 ---
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

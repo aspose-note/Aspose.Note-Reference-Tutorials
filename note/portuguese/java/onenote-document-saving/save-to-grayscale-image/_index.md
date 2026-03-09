@@ -108,13 +108,6 @@ A5: Você pode encontrar suporte no fórum do Aspose.Note [aqui](https://forum.a
 
 Agora você aprendeu **como exportar onenote** carregando um arquivo OneNote, configurando as opções de salvamento para **criar uma imagem em tons de cinza** e **salvando o documento como PNG**. Essa técnica é útil para gerar visuais leves e prontos para impressão a partir de cadernos OneNote. Sinta‑se à vontade para experimentar outras configurações de `ColorMode` ou formatos de imagem para atender às necessidades do seu projeto.
 
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}
-
 ---
 
 **Última atualização:** 2025-12-17  
@@ -122,3 +115,10 @@ Agora você aprendeu **como exportar onenote** carregando um arquivo OneNote, co
 **Autor:** Aspose  
 
 ---
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

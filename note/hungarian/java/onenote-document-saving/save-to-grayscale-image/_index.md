@@ -108,15 +108,15 @@ A5: Támogatást az Aspose.Note fórumon talál [itt](https://forum.aspose.com/c
 
 Most már megtanulta, hogyan **exportálja a onenote-ot** egy OneNote fájl betöltésével, a mentési beállítások konfigurálásával a **szürkeárnyalatos kép létrehozásához**, és a **dokumentum PNG-ként mentésével**. Ez a technika hasznos könnyű, nyomtatásra kész vizuális anyagok előállításához a OneNote jegyzetfüzetekből. Nyugodtan kísérletezzen más `ColorMode` beállításokkal vagy képformátumokkal, hogy megfeleljenek projektje igényeinek.
 
+---
+
+**Utolsó frissítés:** 2025-12-17  
+**Tesztelve:** Aspose.Note 24.12 for Java  
+**Szerző:** Aspose
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
-
----
-
-**Utolsó frissítés:** 2025-12-17  
-**Tesztelve:** Aspose.Note 24.12 for Java  
-**Szerző:** Aspose

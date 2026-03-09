@@ -103,28 +103,6 @@ V tomto tutoriálu jsme se naučili **jak uložit onenote** dokumenty do proudu 
 
 ## Často kladené otázky
 
-### Q1: Mohu použít Aspose.Note pro Java k úpravě OneNote dokumentů?
-
-A1: Ano, Aspose.Note pro Java poskytuje komplexní API pro úpravu, vytváření a manipulaci s OneNote dokumenty programově.
-
-### Q2: Je Aspose.Note pro Java kompatibilní s různými verzemi Javy?
-
-A2: Ano, Aspose.Note pro Java je kompatibilní s různými verzemi Javy, včetně JDK 8 a novějších.
-
-### Q3: Podporuje Aspose.Note pro Java ukládání OneNote dokumentů do jiných formátů?
-
-A3: Ano, Aspose.Note pro Java podporuje ukládání OneNote dokumentů do několika formátů, včetně PDF, DOCX, HTML a dalších.
-
-### Q4: Kde mohu najít další zdroje a podporu pro Aspose.Note pro Java?
-
-A4: Dokumentaci, fóra a podporu pro Aspose.Note pro Java najdete na [Aspose forums](https://forum.aspose.com/c/note/28).
-
-### Q5: Mohu vyzkoušet Aspose.Note pro Java před zakoupením?
-
-A5: Ano, můžete získat bezplatnou zkušební verzi Aspose.Note pro Java z [Aspose website](https://releases.aspose.com/).
-
-## Často kladené otázky
-
 **Q: Jak získám pole bajtů ze proudu pro další zpracování?**  
 A: Zavolejte `byte[] pdfBytes = stream.toByteArray();` a poté jej můžete odeslat přes HTTP, uložit do databáze nebo zapsat do souboru.
 

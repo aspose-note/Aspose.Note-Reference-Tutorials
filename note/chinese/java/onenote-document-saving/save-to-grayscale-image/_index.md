@@ -106,13 +106,6 @@ A5：您可以在 Aspose.Note 论坛 [here](https://forum.aspose.com/c/note/28) 
 
 您现在已经学习了通过加载 OneNote 文件、配置保存选项以 **创建灰度图像**，以及 **将文档保存为 PNG** 的 **how to export onenote** 方法。此技术对于从 OneNote 笔记本生成轻量级、可直接打印的视觉内容非常实用。欢迎尝试其他 `ColorMode` 设置或图像格式，以满足项目需求。
 
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}
-
 ---
 
 **Last Updated:** 2025-12-17  
@@ -120,3 +113,10 @@ A5：您可以在 Aspose.Note 论坛 [here](https://forum.aspose.com/c/note/28) 
 **Author:** Aspose  
 
 ---
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

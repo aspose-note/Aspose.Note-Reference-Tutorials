@@ -105,28 +105,6 @@ Trong tutorial này, chúng ta đã học **cách lưu onenote** tài liệu và
 
 ## Câu hỏi thường gặp
 
-### Q1: Tôi có thể dùng Aspose.Note cho Java để chỉnh sửa tài liệu OneNote không?
-
-A1: Có, Aspose.Note cho Java cung cấp các API toàn diện để chỉnh sửa, tạo và thao tác tài liệu OneNote một cách lập trình.
-
-### Q2: Aspose.Note cho Java có tương thích với các phiên bản Java khác nhau không?
-
-A2: Có, Aspose.Note cho Java tương thích với nhiều phiên bản Java, bao gồm JDK 8 và các phiên bản sau.
-
-### Q3: Aspose.Note cho Java có hỗ trợ lưu tài liệu OneNote ở các định dạng khác không?
-
-A3: Có, Aspose.Note cho Java hỗ trợ lưu tài liệu OneNote ở nhiều định dạng, bao gồm PDF, DOCX, HTML và nhiều hơn nữa.
-
-### Q4: Tôi có thể tìm tài nguyên và hỗ trợ bổ sung cho Aspose.Note cho Java ở đâu?
-
-A4: Bạn có thể tìm tài liệu, diễn đàn và hỗ trợ cho Aspose.Note cho Java trên [Aspose forums](https://forum.aspose.com/c/note/28).
-
-### Q5: Tôi có thể thử Aspose.Note cho Java trước khi mua không?
-
-A5: Có, bạn có thể nhận bản dùng thử miễn phí của Aspose.Note cho Java từ [Aspose website](https://releases.aspose.com/).
-
-## Câu hỏi thường gặp
-
 **Hỏi: Làm thế nào để lấy mảng byte từ stream để xử lý tiếp?**  
 Đáp: Gọi `byte[] pdfBytes = stream.toByteArray();` và sau đó bạn có thể gửi nó qua HTTP, lưu vào cơ sở dữ liệu, hoặc ghi ra tệp.
 

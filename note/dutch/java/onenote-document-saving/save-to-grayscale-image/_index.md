@@ -108,13 +108,6 @@ A5: Je kunt ondersteuning vinden op het Aspose.Note‑forum [here](https://forum
 
 Je hebt nu geleerd **hoe je onen OneNote‑bestand te laden, de opslaan‑opties te configureren om **een grijswaardenafbeelding te maken**, en **het document op te slaan als PNG**. Deze techniek is handig voor het genereren van lichtgewicht, print‑klare visuals uit OneNote‑notitieboeken. Voel je vrij om te experimenteren met andere `ColorMode`‑instellingen of afbeeldingsformaten om aan de behoeften van je project te voldoen.
 
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}
-
 ---
 
 **Last Updated:** 2025-12-17  
@@ -122,3 +115,10 @@ Je hebt nu geleerd **hoe je onen OneNote‑bestand te laden, de opslaan‑opties
 **Author:** Aspose  
 
 ---
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

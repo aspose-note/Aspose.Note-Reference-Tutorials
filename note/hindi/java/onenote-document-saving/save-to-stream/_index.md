@@ -103,28 +103,6 @@ System.out.println("Stream Size: " + stream.size() + " bytes");
 
 ## अक्सर पूछे जाने वाले प्रश्न
 
-### Q1: क्या मैं Aspose.Note for Java का उपयोग करके OneNote दस्तावेज़ों को संपादित कर सकता हूँ?
-
-A1: हाँ, Aspose.Note for Java प्रोग्रामेटिक रूप से OneNote दस्तावेज़ों को संपादित, बनाने और संचालित करने के लिए व्यापक APIs प्रदान करता है।
-
-### Q2: क्या Aspose.Note for Java विभिन्न Java संस्करणों के साथ संगत है?
-
-A2: हाँ, Aspose.Note for Java विभिन्न Java संस्करणों, जिसमें JDK 8 और उसके बाद के संस्करण शामिल हैं, के साथ संगत है।
-
-### Q3: क्या Aspose.Note for Java OneNote दस्तावेज़ों को अन्य फ़ॉर्मेट में सहेजने का समर्थन करता है?
-
-A3: हाँ, Aspose.Note for Java OneNote दस्तावेज़ों को कई फ़ॉर्मेट में सहेजने का समर्थन करता है, जिसमें PDF, DOCX, HTML, आदि शामिल हैं।
-
-### Q4: मैं Aspose.Note for Java के अतिरिक्त संसाधन और समर्थन कहाँ पा सकता हूँ?
-
-A4: आप Aspose.Note for Java के लिए दस्तावेज़, फ़ोरम और समर्थन [Aspose forums](https://forum.aspose.com/c/note/28) पर पा सकते हैं।
-
-### Q5: क्या मैं खरीदने से पहले Aspose.Note for Java को आज़मा सकता हूँ?
-
-A5: हाँ, आप Aspose.Note for Java का फ्री ट्रायल [Aspose website](https://releases.aspose.com/) से प्राप्त कर सकते हैं।
-
-## अक्सर पूछे जाने वाले प्रश्न
-
 **Q: मैं आगे की प्रोसेसिंग के लिए स्ट्रीम से बाइट एरे कैसे प्राप्त करूँ?**  
 A: `byte[] pdfBytes = stream.toByteArray();` कॉल करें और फिर आप इसे HTTP के माध्यम से भेज सकते हैं, डेटाबेस में संग्रहीत कर सकते हैं, या फ़ाइल में लिख सकते हैं।
 

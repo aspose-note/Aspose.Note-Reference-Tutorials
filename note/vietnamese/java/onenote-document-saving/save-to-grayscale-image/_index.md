@@ -108,13 +108,6 @@ A5: Bạn có thể tìm hỗ trợ trên diễn đàn Aspose.Note [tại đây]
 
 Bạn đã học **cách xuất onenote** bằng cách tải tệp OneNote, cấu hình các tùy chọn lưu để **tạo ảnh grayscale**, và **lưu tài liệu dưới dạng PNG**. Kỹ thuật này hữu ích cho việc tạo ra các hình ảnh nhẹ, sẵn sàng in từ sổ tay OneNote. Hãy thoải mái thử nghiệm các thiết lập `ColorMode` khác hoặc các định dạng ảnh để phù hợp với nhu cầu dự án của bạn.
 
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}
-
 ---
 
 **Cập nhật lần cuối:** 2025-12-17  
@@ -122,3 +115,10 @@ Bạn đã học **cách xuất onenote** bằng cách tải tệp OneNote, cấ
 **Tác giả:** Aspose  
 
 ---
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

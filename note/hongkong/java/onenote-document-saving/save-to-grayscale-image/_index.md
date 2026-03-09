@@ -107,13 +107,6 @@ A5：您可於 Aspose.Note 論壇取得支援，請點擊 [here](https://forum.a
 
 您現在已學會 **如何匯出 OneNote**：透過載入 OneNote 檔案、設定儲存選項以 **建立灰階影像**，並 **將文件儲存為 PNG**。此技巧可輕鬆產生輕量、適合列印的視覺圖檔，從 OneNote 筆記本中提取。歡迎嘗試其他 `ColorMode` 設定或影像格式，以符合您的專案需求。
 
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}
-
 ---
 
 **Last Updated:** 2025-12-17  
@@ -121,3 +114,10 @@ A5：您可於 Aspose.Note 論壇取得支援，請點擊 [here](https://forum.a
 **Author:** Aspose  
 
 ---
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

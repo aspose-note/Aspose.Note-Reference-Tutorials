@@ -106,13 +106,6 @@ A5: You can find support on the Aspose.Note forum [here](https://forum.aspose.co
 
 You've now learned **how to export onenote** by loading a OneNote file, configuring the save options to **create a grayscale image**, and **saving the document as PNG**. This technique is handy for generating lightweight, print‑ready visuals from OneNote notebooks. Feel free to experiment with other `ColorMode` settings or image formats to fit your project's needs.
 
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}
-
 ---
 
 **Last Updated:** 2025-12-17  
@@ -120,3 +113,10 @@ You've now learned **how to export onenote** by loading a OneNote file, configur
 **Author:** Aspose  
 
 ---
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

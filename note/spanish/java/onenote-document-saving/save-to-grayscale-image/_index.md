@@ -108,15 +108,15 @@ A5: Puede encontrar soporte en el foro de Aspose.Note [aquí](https://forum.aspo
 
 Ahora ha aprendido **cómo exportar onenote** cargando un archivo OneNote, configurando las opciones de guardado para **crear una imagen en escala de grises**, y **guardando el documento como PNG**. Esta técnica es útil para generar visuales ligeros y listos para imprimir a partir de cuadernos OneNote. Siéntase libre de experimentar con otras configuraciones de `ColorMode` o formatos de imagen para adaptarse a las necesidades de su proyecto.
 
+---
+
+**Last Updated:** 2025-12-17  
+**Tested With:** Aspose.Note 24.12 for Java  
+**Author:** Aspose
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
-
----
-
-**Last Updated:** 2025-12-17  
-**Tested With:** Aspose.Note 24.12 for Java  
-**Author:** Aspose

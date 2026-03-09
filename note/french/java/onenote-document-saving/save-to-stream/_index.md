@@ -101,28 +101,6 @@ Enfin, nous affichons la taille du flux, indiquant la quantité de données stoc
 
 Dans ce tutoriel, nous avons appris **comment enregistrer des documents onenote** dans un flux à l’aide d’Aspose.Note pour Java et comment ce flux peut être exploité pour **convertir onenote en pdf**. En suivant les étapes fournies, vous pouvez intégrer cette fonctionnalité de manière transparente dans vos applications Java, permettant une manipulation efficace des fichiers OneNote de façon programmatique.
 
-## FAQ
-
-### Q1 : Puis‑je utiliser Aspose.Note pour Java pour modifier des documents OneNote ?
-
-A1 : Oui, Aspose.Note pour Java fournit des API complètes pour éditer, créer et manipuler des documents OneNote programmaticalement.
-
-### Q2 : Aspose.Note pour Java est‑il compatible avec différentes versions de Java ?
-
-A2 : Oui, Aspose.Note pour Java est compatible avec diverses versions de Java, y compris JDK 8 et ultérieures.
-
-### Q3 : Aspose.Note pour Java prend‑il en charge l’enregistrement des documents OneNote dans d’autres formats ?
-
-A3 : Oui, Aspose.Note pour Java prend en charge l’enregistrement des documents OneNote dans plusieurs formats, notamment PDF, DOCX, HTML, etc.
-
-### Q4 : Où puis‑je trouver des ressources supplémentaires et du support pour Aspose.Note pour Java ?
-
-A4 : Vous pouvez trouver la documentation, les forums et le support pour Aspose.Note pour Java sur les [forums Aspose](https://forum.aspose.com/c/note/28).
-
-### Q5 : Puis‑je essayer Aspose.Note pour Java avant d’acheter ?
-
-A5 : Oui, vous pouvez obtenir un essai gratuit d’Aspose.Note pour Java depuis le [site Aspose](https://releases.aspose.com/).
-
 ## Questions fréquemment posées
 
 **Q : Comment récupérer le tableau d’octets depuis le flux pour un traitement ultérieur ?**  

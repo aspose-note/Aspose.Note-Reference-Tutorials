@@ -108,13 +108,6 @@ oneFile.save(dataDir, options);
 
 لقد تعلمت الآن **كيفية تصدير onenote** عن طريق تحميل ملف OneNote، ضبط خيارات الحفظ لإنشاء **صورة بتدرج الرمادي**، و**حفظ المستند كملف PNG**. هذه التقنية مفيدة لإنشاء رسومات خفيفة الوزن وجاهزة للطباعة من دفاتر OneNote. لا تتردد في تجربة إعدادات `ColorMode` أخرى أو صيغ صور مختلفة لتناسب احتياجات مشروعك.
 
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}
-
 ---
 
 **آخر تحديث:** 2025-12-17  
@@ -122,3 +115,10 @@ oneFile.save(dataDir, options);
 **المؤلف:** Aspose  
 
 ---
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}
