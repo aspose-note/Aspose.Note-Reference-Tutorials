@@ -1,33 +1,51 @@
 ---
-title: Zapisz w obrazie TIFF przy użyciu opcji zapisywania obrazu w programie OneNote
-linktitle: Zapisz w obrazie TIFF przy użyciu opcji zapisywania obrazu w programie OneNote
-second_title: Aspose.Note API Java
-description: Konwertuj dokumenty OneNote do formatu TIFF i kontroluj rozmiar i jakość plików! Wybierz kompresję Jpeg, PackBits lub Fax w Javie. Pobierz przykłady kodu i dowiedz się, jak to zrobić! #OneNote #Java #Aspose
-weight: 21
+date: 2025-12-17
+description: „Dowiedz się, jak zapisywać dokumenty OneNote jako pliki TIFF, używając
+  kompresji TIFF JPEG, PackBits lub CCITT Group 3 Fax w Javie. Kontroluj jakość obrazu,
+  rozmiar pliku i tryb kolorów za pomocą Aspose.Note.”
+linktitle: Save to TIFF Image Using TIFF JPEG Compression in OneNote
+second_title: Aspose.Note Java API
+title: Zapisz do obrazu TIFF przy użyciu kompresji TIFF JPEG w OneNote
 url: /pl/java/onenote-document-saving/save-to-tiff-image-using-image-save-options/
+weight: 21
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Zapisz w obrazie TIFF przy użyciu opcji zapisywania obrazu w programie OneNote
+# Zapisz jako obraz TIFF przy użyciu kompresji TIFF JPEG w OneNote
 
-## Wstęp
+## Wprowadzenie
 
-W tym samouczku dowiesz się, jak zapisać dokument w formacie obrazu TIFF przy użyciu różnych metod kompresji w Aspose.Note dla Java. Omówimy wymagania wstępne, importowanie pakietów i zapewnimy przewodnik krok po kroku dla każdej metody kompresji.
+W tym samouczku poznasz **sposób zapisywania dokumentu OneNote jako pliku TIFF przy użyciu kompresji TIFF JPEG** oraz dwóch innych popularnych metod kompresji. Przeprowadzimy Cię przez niezbędną konfigurację, zaimportujemy wymagane pakiety Java i przedstawimy przejrzysty kod krok po kroku dla każdej opcji kompresji. Po zakończeniu będziesz mógł kontrolować **jakość obrazu TIFF**, zmniejszyć rozmiar pliku i nawet tworzyć czarno‑białe pliki TIFF przeznaczone do faksu.
 
-## Warunki wstępne
+## Szybkie odpowiedzi
+- **Czym jest kompresja TIFF JPEG?** Metoda kompresji stratnej, która zmniejsza rozmiar pliku TIFF przy zachowaniu jakości wizualnej.  
+- **Która biblioteka obsługuje konwersję?** Aspose.Note for Java.  
+- **Czy potrzebna jest licencja?** Darmowa wersja próbna wystarczy do testów; licencja jest wymagana w środowisku produkcyjnym.  
+- **Czy mogę zmienić jakość obrazu?** Tak, ustawiając właściwość `quality` w `ImageSaveOptions`.  
+- **Czy konwersja wsadowa jest możliwa?** Oczywiście – można iterować po dokumentach i stosować te same opcje.
 
-Zanim zaczniesz, upewnij się, że masz następujące elementy:
+## Co to jest kompresja TIFF JPEG?
+Kompresja TIFF JPEG przechowuje dane obrazu w kontenerze TIFF, ale stosuje algorytm JPEG (stratny) w celu zmniejszenia pliku. Jest idealna, gdy potrzebujesz kompromisu między **jakością obrazu TIFF** a mniejszym rozmiarem pliku, szczególnie w zastosowaniach internetowych lub archiwalnych.
 
-- Zestaw Java Development Kit (JDK) zainstalowany w systemie.
-- Pobrano i skonfigurowano bibliotekę Aspose.Note dla Java.
-- Podstawowa znajomość języka programowania Java.
+## Dlaczego używać różnych typów kompresji TIFF?
+- **JPEG** – Dobre dla fotografii; oferuje regulowaną jakość.  
+- **PackBits** – Prosta, bezstratna metoda kodowania długości serii; przydatna przy grafice z dużymi jednolitymi obszarami.  
+- **CCITT Group 3 Fax** – Tylko czarno‑białe; idealne dla zeskanowanych dokumentów i transmisji faksowej.  
 
-## Importuj pakiety
+Wybór odpowiedniej kompresji pozwala spełnić ograniczenia przechowywania bez utraty wymaganego poziomu wierności wizualnej.
 
-Najpierw musisz zaimportować niezbędne pakiety do pliku Java:
+## Wymagania wstępne
+
+- Zstalowany Java Development Kit (JDK).  
+- Biblioteka Aspose.Note for Java dodana do projektu (Maven/Gradle lub ręcznie jako JAR).  
+- Podstawowa znajomość składni języka Java.
+
+## Importowanie pakietów
+
+Najpierw zaimportuj niezbędne klasy Aspose.Note do swojego pliku Java:
 
 ```java
 import com.aspose.note.*;
@@ -35,14 +53,16 @@ import java.io.IOException;
 import java.nio.file.Paths;
 ```
 
-## Krok 1: Zapisz w formacie TIFF przy użyciu kompresji JPEG
+## Krok 1: Zapisz jako TIFF przy użyciu kompresji TIFF JPEG
+
+Poniżej znajduje się pełna metoda, która wczytuje plik OneNote i zapisuje go jako TIFF z kompresją JPEG. Dostosuj wartość `quality` (0‑100), aby kontrolować **jakość obrazu TIFF**.
 
 ```java
 public static void SaveToTiffUsingJpegCompression() throws IOException {
-    // Ścieżka do katalogu dokumentów.
+    // The path to the documents directory.
     String dataDir = "Your Document Directory";
 
-    // Załaduj dokument do Aspose.Note.
+    // Load the document into Aspose.Note.
     Document oneFile = new Document(Paths.get(dataDir, "Aspose.one").toString());
 
     ImageSaveOptions options = new ImageSaveOptions(SaveFormat.Tiff);
@@ -53,19 +73,27 @@ public static void SaveToTiffUsingJpegCompression() throws IOException {
 }
 ```
 
--  Załaduj dokument za pomocą`Document` klasa.
--  Utwórz instancję`ImageSaveOptions` i określ typ kompresji TIFF jako JPEG.
-- Ustaw żądaną jakość (opcjonalnie).
-- Zapisz dokument w formacie TIFF, korzystając z określonych opcji.
+**Wyjaśnienie**
 
-## Krok 2: Zapisz w formacie TIFF przy użyciu kompresji PackBits
+- `ImageSaveOptions` informuje Aspose.Note, że ma wygenerować plik TIFF.  
+- `setTiffCompression(TiffCompression.Jpeg)` wybiera kompresję JPEG.  
+- `setQuality(93)` (opcjonalnie) precyzuje jakość obrazu; niższe wartości dają mniejsze pliki.
+
+### Jak zapisać TIFF z kompresją JPEG w Javie
+1. Ustaw `dataDir` na folder zawierający plik `.one`.  
+2. Wywołaj `SaveToTiffUsingJpegCompression()` z metody `main` lub usługi.  
+3. Powstały plik `.tiff` pojawi się w tym samym katalogu.
+
+## Krok 2: Zapisz jako TIFF przy użyciu kompresji PackBits
+
+Jeśli potrzebujesz opcji bezstratnej, PackBits to prosty algorytm kodowania długości serii, który sprawdza się przy grafice z jednolitymi kolorami.
 
 ```java
 public static void SaveToTiffUsingPackBitsCompression() throws IOException {
-    // Ścieżka do katalogu dokumentów.
+    // The path to the documents directory.
     String dataDir = "Your Document Directory";
 
-    // Załaduj dokument do Aspose.Note.
+    // Load the document into Aspose.Note.
     Document oneFile = new Document(Paths.get(dataDir, "Aspose.one").toString());
 
     ImageSaveOptions options = new ImageSaveOptions(SaveFormat.Tiff);
@@ -75,18 +103,21 @@ public static void SaveToTiffUsingPackBitsCompression() throws IOException {
 }
 ```
 
--  Załaduj dokument za pomocą`Document` klasa.
--  Utwórz instancję`ImageSaveOptions` i określ typ kompresji TIFF jako PackBits.
-- Zapisz dokument w formacie TIFF, korzystając z określonych opcji.
+**Wyjaśnienie**
 
-## Krok 3: Zapisz w formacie TIFF przy użyciu kompresji faksów CCITT Group 3
+- `setTiffCompression(TiffCompression.PackBits)` przełącza metodę kompresji.  
+- Ustawienie jakości nie jest potrzebne, ponieważ PackBits jest bezstratny.
+
+## Krok 3: Zapisz jako TIFF przy użyciu kompresji CCITT Group 3 Fax (czarno‑biały TIFF)
+
+Dla dokumentów w stylu faksu często potrzebny jest **czarno‑biały TIFF**. CCITT Group 3 zapewnia wysoką kompresję dla obrazów monochromatycznych.
 
 ```java
 public static void SaveToTiffUsingCcitt3Compression() throws IOException {
-    // Ścieżka do katalogu dokumentów.
+    // The path to the documents directory.
     String dataDir = "Your Document Directory";
 
-    // Załaduj dokument do Aspose.Note.
+    // Load the document into Aspose.Note.
     Document oneFile = new Document(Paths.get(dataDir, "Aspose.one").toString());
 
     ImageSaveOptions options = new ImageSaveOptions(SaveFormat.Tiff);
@@ -97,36 +128,47 @@ public static void SaveToTiffUsingCcitt3Compression() throws IOException {
 }
 ```
 
--  Załaduj dokument za pomocą`Document` klasa.
--  Utwórz instancję`ImageSaveOptions` i określ typ kompresji TIFF jako faks CCITT Group 3.
-- Ustaw tryb koloru na czarno-biały.
-- Zapisz dokument w formacie TIFF, korzystając z określonych opcji.
+**Wyjaśnienie**
 
-## Wniosek
+- `setColorMode(ColorMode.BlackAndWhite)` wymusza wyjście monochromatyczne.  
+- `setTiffCompression(TiffCompression.Ccitt3)` stosuje kompresję przeznaczoną do faksu.
 
-W tym samouczku nauczyłeś się, jak zapisać dokument w formacie obrazu TIFF przy użyciu różnych metod kompresji w Aspose.Note dla Java. Postępując zgodnie z przewodnikiem krok po kroku, możesz efektywnie wykorzystać możliwości Aspose.Note, aby spełnić Twoje wymagania.
+## Typowe problemy i wskazówki
 
-## Często zadawane pytania
+| Problem | Rozwiązanie |
+|-------|----------|
+| **Plik wyjściowy jest większy niż oczekiwano** | Spróbuj obniżyć wartość `quality` w JPEG lub przełącz się na PackBits, jeśli bezstratność jest dopuszczalna. |
+| **Kolory wyglądają wyblakłe** | Upewnij się, że nie ustawiasz przypadkowo `ColorMode.BlackAndWhite`, gdy potrzebny jest pełny kolor. |
+| **Błąd nieobsługiwanego formatu obrazu** | Sprawdź, czy używasz najnowszej wersji Aspose.Note; starsze wersje mogą nie zawierać niektórych enumów kompresji. |
+| **LicenseException w czasie działania** | Zainstaluj ważną licencję Aspose.Note (`License license = new License(); license.setLicense("Aspose.Note.Java.lic");`). |
 
-### P1: Czy mogę używać Aspose.Note dla Java do konwersji innych formatów dokumentów na TIFF?
+## Najczęściej zadawane pytania
 
-O1: Tak, Aspose.Note dla Java obsługuje konwersję różnych formatów dokumentów do TIFF, w tym dokumentów OneNote.
+**P: Czy mogę konwertować inne typy dokumentów (np. PDF, DOCX) do TIFF przy użyciu tych opcji?**  
+O: Tak. Aspose.Note koncentruje się na plikach OneNote, ale inne biblioteki Aspose (PDF, Words) oferują podobne `ImageSaveOptions` dla swoich formatów.
 
-### P2: Jakie znaczenie ma określenie typu kompresji podczas zapisywania w formacie TIFF?
+**P: czym różni się kompresja TIFF JPEG od standardowych plików JPEG?**  
+O: Dane obrazu są przechowywane wewnątrz kontenera TIFF, co zachowuje metadane i umożliwia wiele stron, podczas gdy algorytm kompresji pozostaje JPEG.
 
-Odpowiedź 2: Określenie typu kompresji pozwala kontrolować jakość obrazu i rozmiar pliku. Różne metody kompresji oferują kompromis między jakością a stopniem kompresji.
+**P: Czy można przetwarzać wsadowo wiele plików `.one`?**  
+O: Oczywiście. Przejdź po folderze, wywołaj jedną z trzech metod dla każdego pliku i zbierz powstałe pliki TIFF.
 
-### P3: Czy Aspose.Note dla Java nadaje się do wsadowego przetwarzania dokumentów?
+**P: Czy mogę kontrolować DPI/rozdzielczość wyjściowego TIFF?**  
+O: Tak. Użyj `options.setResolution(int dpi)` przed zapisem.
 
-O3: Tak, Aspose.Note dla Java udostępnia interfejsy API do przetwarzania wsadowego, umożliwiając wydajną automatyzację zadań konwersji dokumentów.
+**P: Czy Aspose.Note obsługuje przetwarzanie asynchroniczne?**  
+O: API jest synchroniczne, ale możesz owinąć wywołania w `CompletableFuture` lub puli wątków Javy, aby uzyskać równoległe wykonywanie.
 
-### P4: Czy mogę bardziej dostosować ustawienia kompresji?
+## Zakończenie
 
-O4: Tak, możesz dostosować parametry, takie jak jakość, rozdzielczość i metoda kompresji, aby dostosować wydruk do swoich wymagań.
+Masz teraz kompletny zestaw narzędzi **java tiff conversion**, który pozwala zapisywać dokumenty OneNote jako pliki TIFF przy użyciu kompresji JPEG, PackBits lub CCITT Group 3 Fax. Dostosuj jakość, tryb kolorów i rozdzielczość, aby spełnić konkretne wymagania **jakości obrazu TIFF**, i włącz te metody do przepływów wsadowych dla maksymalnej wydajności.
 
-### P5: Czy Aspose.Note dla Java oferuje wsparcie techniczne?
+---
 
-Odpowiedź 5: Tak, Aspose zapewnia kompleksowe wsparcie techniczne za pośrednictwem forów i systemów opartych na biletach.
+**Ostatnia aktualizacja:** 2025-12-17  
+**Testowano z:** Aspose.Note for Java 23.12 (najnowsza w momencie pisania)  
+**Autor:** Aspose  
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

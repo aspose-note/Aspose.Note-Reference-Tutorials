@@ -1,33 +1,53 @@
 ---
-title: Opslaan naar TIFF-afbeelding met behulp van de opties voor het opslaan van afbeeldingen in OneNote
-linktitle: Opslaan naar TIFF-afbeelding met behulp van de opties voor het opslaan van afbeeldingen in OneNote
-second_title: Aspose.Note Java-API
-description: Converteer OneNote-documenten naar TIFF en beheer de bestandsgrootte en -kwaliteit! Kies Jpeg-, PackBits- of Fax-compressie in Java. Ontvang codevoorbeelden en leer hoe! #OneNote #Java #Aspose
-weight: 21
+date: 2025-12-17
+description: Leer hoe u OneNote‑documenten als TIFF‑bestanden kunt opslaan met TIFF‑JPEG‑compressie,
+  PackBits of CCITT Group 3‑fax in Java. Beheer de beeldkwaliteit, bestandsgrootte
+  en kleurmodus met Aspose.Note.
+linktitle: Save to TIFF Image Using TIFF JPEG Compression in OneNote
+second_title: Aspose.Note Java API
+title: Opslaan naar TIFF‑afbeelding met TIFF‑JPEG‑compressie in OneNote
 url: /nl/java/onenote-document-saving/save-to-tiff-image-using-image-save-options/
+weight: 21
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Opslaan naar TIFF-afbeelding met behulp van de opties voor het opslaan van afbeeldingen in OneNote
+# Opslaan als TIFF-afbeelding met TIFF JPEG-compressie in OneNote
 
-## Invoering
+## Inleiding
 
-In deze zelfstudie leert u hoe u een document opslaat in een TIFF-afbeeldingsindeling met behulp van verschillende compressiemethoden in Aspose.Note voor Java. We behandelen de vereisten, het importeren van pakketten en bieden een stapsgewijze handleiding voor elke compressiemethode.
+In deze tutorial ontdek je **hoe je een OneNote‑document opslaat als een TIFF‑bestand met TIFF JPEG‑compressie** en twee andere populaire compressiemethoden. We lopen de benodigde setup door, importeren de vereiste Java‑pakketten en bieden duidelijke stap‑voor‑stap‑code voor elke compressie‑optie. Aan het einde kun je **TIFF‑afbeeldingskwaliteit** beheersen, de bestandsgrootte verkleinen en zelfs zwart‑wit‑TIFF's produceren voor fax‑achtige output.
 
-## Vereisten
+## Snelle antwoorden
+- **Wat is TIFF JPEG‑compressie?** Een verlies‑rijke compressiemethode die de TIFF‑bestandsgrootte verkleint terwijl de visuele kwaliteit behouden blijft.  
+- **Welke bibliotheek verwerkt de conversie?** Aspose.Note for Java.  
+- **Heb ik een licentie nodig?** Een gratis proefversie werkt voor testen; een licentie is vereist voor productie.  
+- **Kan ik de afbeeldingskwaliteit aanpassen?** Ja, stel de `quality`‑eigenschap in op `ImageSaveOptions`.  
+- **Is batch‑conversie mogelijk?** Absoluut – loop door documenten en pas dezelfde opties toe.
 
-Zorg ervoor dat u over het volgende beschikt voordat u begint:
+## Wat is TIFF JPEG‑compressie?
 
-- Java Development Kit (JDK) op uw systeem geïnstalleerd.
-- Aspose.Note voor Java-bibliotheek gedownload en geconfigureerd.
-- Basiskennis van de Java-programmeertaal.
+TIFF JPEG‑compressie slaat beeldgegevens op in de TIFF‑container maar past het verlies‑rijke algoritme van JPEG toe om het bestand te verkleinen. Het is ideaal wanneer je een balans nodig hebt tussen **tiff‑afbeeldingskwaliteit** en een kleinere bestandsgrootte, vooral voor web‑ of archiveringsscenario's.
+
+## Waarom verschillende TIFF‑compressietypen gebruiken?
+
+- **JPEG** – Goed voor foto’s; biedt aanpasbare kwaliteit.  
+- **PackBits** – Eenvoudige, verlies‑vrije run‑length‑codering; nuttig voor graphics met grote uniforme gebieden.  
+- **CCITT Group 3 Fax** – Alleen zwart‑wit; perfect voor gescande documenten en fax‑overdracht.  
+
+Het kiezen van de juiste compressie stelt je in staat om aan opslagbeperkingen te voldoen zonder de visuele nauwkeurigheid die voor jouw toepassing nodig is op te offeren.
+
+## Voorvereisten
+
+- Java Development Kit (JDK) geïnstalleerd.  
+- Aspose.Note for Java‑bibliotheek toegevoegd aan je project (Maven/Gradle of handmatige JAR).  
+- Basiskennis van Java‑syntaxis.
 
 ## Pakketten importeren
 
-Eerst moet u de benodigde pakketten naar uw Java-bestand importeren:
+Eerst importeer je de benodigde Aspose.Note‑klassen in je Java‑bestand:
 
 ```java
 import com.aspose.note.*;
@@ -35,14 +55,16 @@ import java.io.IOException;
 import java.nio.file.Paths;
 ```
 
-## Stap 1: Opslaan naar TIFF met behulp van JPEG-compressie
+## Stap 1: Opslaan als TIFF met TIFF JPEG‑compressie
+
+Hieronder staat de volledige methode die een OneNote‑bestand laadt en opslaat als een TIFF met JPEG‑compressie. Pas de `quality`‑waarde (0‑100) aan om **tiff‑afbeeldingskwaliteit** te regelen.
 
 ```java
 public static void SaveToTiffUsingJpegCompression() throws IOException {
-    // Het pad naar de documentenmap.
+    // The path to the documents directory.
     String dataDir = "Your Document Directory";
 
-    // Laad het document in Aspose.Note.
+    // Load the document into Aspose.Note.
     Document oneFile = new Document(Paths.get(dataDir, "Aspose.one").toString());
 
     ImageSaveOptions options = new ImageSaveOptions(SaveFormat.Tiff);
@@ -53,19 +75,27 @@ public static void SaveToTiffUsingJpegCompression() throws IOException {
 }
 ```
 
--  Laad het document met`Document` klas.
--  Maak een exemplaar van`ImageSaveOptions` en geef het TIFF-compressietype op als JPEG.
-- Stel de gewenste kwaliteit in (optioneel).
-- Sla het document op in TIFF-formaat met behulp van de opgegeven opties.
+**Uitleg**
 
-## Stap 2: Opslaan naar TIFF met behulp van PackBits-compressie
+- `ImageSaveOptions` vertelt Aspose.Note om een TIFF‑bestand te genereren.  
+- `setTiffCompression(TiffCompression.Jpeg)` selecteert JPEG‑compressie.  
+- `setQuality(93)` (optioneel) verfijnt de afbeeldingskwaliteit; lagere waarden produceren kleinere bestanden.
+
+### Hoe TIFF opslaan met JPEG‑compressie in Java
+1. Wijs `dataDir` naar de map die je `.one`‑bestand bevat.  
+2. Roep `SaveToTiffUsingJpegCompression()` aan vanuit je main‑methode of service.  
+3. Het resulterende `.tiff`‑bestand verschijnt in dezelfde map.
+
+## Stap 2: Opslaan als TIFF met PackBits‑compressie
+
+Als je een verlies‑vrije optie nodig hebt, is PackBits een eenvoudig run‑length‑algoritme dat goed werkt voor graphics met effen kleuren.
 
 ```java
 public static void SaveToTiffUsingPackBitsCompression() throws IOException {
-    // Het pad naar de documentenmap.
+    // The path to the documents directory.
     String dataDir = "Your Document Directory";
 
-    // Laad het document in Aspose.Note.
+    // Load the document into Aspose.Note.
     Document oneFile = new Document(Paths.get(dataDir, "Aspose.one").toString());
 
     ImageSaveOptions options = new ImageSaveOptions(SaveFormat.Tiff);
@@ -75,18 +105,21 @@ public static void SaveToTiffUsingPackBitsCompression() throws IOException {
 }
 ```
 
--  Laad het document met`Document` klas.
--  Maak een exemplaar van`ImageSaveOptions` en geef het TIFF-compressietype op als PackBits.
-- Sla het document op in TIFF-formaat met behulp van de opgegeven opties.
+**Uitleg**
 
-## Stap 3: Opslaan naar TIFF met behulp van CCITT Group 3-faxcompressie
+- `setTiffCompression(TiffCompression.PackBits)` schakelt de compressiemethode om.  
+- Er is geen kwaliteitsinstelling nodig omdat PackBits verlies‑vrij is.
+
+## Stap 3: Opslaan als TIFF met CCITT Group 3 Fax‑compressie (Zwart‑wit‑TIFF)
+
+Voor fax‑achtige documenten wil je vaak een **zwart‑wit‑TIFF**. CCITT Group 3 biedt hoge compressie voor monochrome afbeeldingen.
 
 ```java
 public static void SaveToTiffUsingCcitt3Compression() throws IOException {
-    // Het pad naar de documentenmap.
+    // The path to the documents directory.
     String dataDir = "Your Document Directory";
 
-    // Laad het document in Aspose.Note.
+    // Load the document into Aspose.Note.
     Document oneFile = new Document(Paths.get(dataDir, "Aspose.one").toString());
 
     ImageSaveOptions options = new ImageSaveOptions(SaveFormat.Tiff);
@@ -97,36 +130,47 @@ public static void SaveToTiffUsingCcitt3Compression() throws IOException {
 }
 ```
 
--  Laad het document met`Document` klas.
--  Maak een exemplaar van`ImageSaveOptions` en geef het TIFF-compressietype op als CCITT Group 3 Fax.
-- Stel de kleurmodus in op zwart-wit.
-- Sla het document op in TIFF-formaat met behulp van de opgegeven opties.
+**Uitleg**
 
-## Conclusie
+- `setColorMode(ColorMode.BlackAndWhite)` dwingt een monochrome output af.  
+- `setTiffCompression(TiffCompression.Ccitt3)` past de fax‑gerichte compressie toe.
 
-In deze zelfstudie hebt u geleerd hoe u een document kunt opslaan in de TIFF-afbeeldingsindeling met behulp van verschillende compressiemethoden in Aspose.Note voor Java. Door de stapsgewijze handleiding te volgen, kunt u efficiënt gebruik maken van de mogelijkheden van Aspose.Note om aan uw vereisten te voldoen.
+## Veelvoorkomende problemen & tips
+
+| Probleem | Oplossing |
+|----------|-----------|
+| **Uitvoerbestand is groter dan verwacht** | Probeer de JPEG `quality`‑waarde te verlagen of schakel over naar PackBits als verlies‑vrij acceptabel is. |
+| **Kleuren lijken vervaagd** | Zorg ervoor dat je niet per ongeluk `ColorMode.BlackAndWhite` instelt wanneer je volledige kleur nodig hebt. |
+| **Niet‑ondersteunde afbeeldingformaat‑fout** | Controleer of je een recente versie van Aspose.Note gebruikt; oudere builds kunnen bepaalde compressie‑enums missen. |
+| **LicenseException tijdens uitvoering** | Installeer een geldige Aspose.Note‑licentie (`License license = new License(); license.setLicense("Aspose.Note.Java.lic");`). |
 
 ## Veelgestelde vragen
 
-### V1: Kan ik Aspose.Note voor Java gebruiken om andere documentformaten naar TIFF te converteren?
+**V: Kan ik andere documenttypen (bijv. PDF, DOCX) naar TIFF converteren met deze opties?**  
+A: Ja. Aspose.Note richt zich op OneNote‑bestanden, maar de andere bibliotheken van Aspose (PDF, Words) bieden vergelijkbare `ImageSaveOptions` voor hun respectieve formaten.
 
-A1: Ja, Aspose.Note voor Java ondersteunt conversie van verschillende documentformaten naar TIFF, inclusief OneNote-documenten.
+**V: Hoe verschilt TIFF JPEG‑compressie van standaard JPEG‑bestanden?**  
+A: De beeldgegevens worden opgeslagen in een TIFF‑container, waardoor metadata behouden blijven en meerdere pagina's mogelijk zijn, terwijl het compressie‑algoritme JPEG blijft.
 
-### Vraag 2: Wat is de betekenis van het opgeven van het compressietype bij het opslaan naar TIFF?
+**V: Is het mogelijk om veel `.one`‑bestanden batch‑gewijs te verwerken?**  
+A: Absoluut. Loop door een map, roep een van de drie methoden per bestand aan en verzamel de resulterende TIFF‑bestanden.
 
-A2: Door het compressietype op te geven, kunt u de afbeeldingskwaliteit en de bestandsgrootte regelen. Verschillende compressiemethoden bieden compromissen tussen kwaliteit en compressieverhouding.
+**V: Kan ik de DPI/resolutie van de uitvoer‑TIFF regelen?**  
+A: Ja. Gebruik `options.setResolution(int dpi)` vóór het opslaan.
 
-### V3: Is Aspose.Note voor Java geschikt voor batchverwerking van documenten?
+**V: Ondersteunt Aspose.Note asynchrone verwerking?**  
+A: De API zelf is synchroon, maar je kunt oproepen wikkelen in Java’s `CompletableFuture` of thread‑pools voor parallelle uitvoering.
 
-A3: Ja, Aspose.Note voor Java biedt API's voor batchverwerking, waardoor u documentconversietaken efficiënt kunt automatiseren.
+## Conclusie
 
-### Vraag 4: Kan ik de compressie-instellingen verder aanpassen?
+Je hebt nu een complete **java tiff-conversie**‑toolkit die je in staat stelt OneNote‑documenten op te slaan als TIFF‑bestanden met JPEG-, PackBits- of CCITT Group 3 Fax‑compressie. Pas de kwaliteit, kleurmodus en resolutie aan om te voldoen aan je specifieke **tiff‑afbeeldingskwaliteit**‑eisen, en integreer deze methoden in batch‑workflows voor maximale productiviteit.
 
-A4: Ja, u kunt parameters zoals kwaliteit, resolutie en compressiemethode aanpassen om de uitvoer aan uw vereisten aan te passen.
+---
 
-### V5: Biedt Aspose.Note voor Java technische ondersteuning?
+**Laatst bijgewerkt:** 2025-12-17  
+**Getest met:** Aspose.Note for Java 23.12 (latest op het moment van schrijven)  
+**Auteur:** Aspose  
 
-A5: Ja, Aspose biedt uitgebreide technische ondersteuning via forums en op tickets gebaseerde systemen.
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

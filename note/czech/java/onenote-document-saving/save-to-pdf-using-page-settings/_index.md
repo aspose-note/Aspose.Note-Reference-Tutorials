@@ -1,33 +1,40 @@
 ---
-title: Uložit do PDF pomocí nastavení stránky ve OneNotu – Aspose.Note
-linktitle: Uložit do PDF pomocí nastavení stránky ve OneNotu – Aspose.Note
+date: 2025-12-17
+description: Naučte se, jak uložit PDF z OneNote pomocí Aspose.Note pro Javu. Tento
+  krok‑za‑krokem průvodce ukazuje, jak převést OneNote do PDF a přizpůsobit velikost
+  stránky PDF pomocí nastavení Letter a A4.
+linktitle: How to Save PDF Using Page Settings in OneNote - Aspose.Note
 second_title: Aspose.Note Java API
-description: Naučte se ukládat dokumenty OneNotu do PDF v Javě pomocí knihovny Aspose.Note. Podrobný průvodce s příklady kódu pro různá nastavení stránky.
-weight: 19
+title: Jak uložit PDF pomocí nastavení stránky v OneNote – Aspose.Note
 url: /cs/java/onenote-document-saving/save-to-pdf-using-page-settings/
+weight: 19
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Uložit do PDF pomocí nastavení stránky ve OneNotu – Aspose.Note
+# Jak uložit PDF pomocí nastavení stránky v OneNote - Aspose.Note
 
 ## Úvod
 
-V tomto tutoriálu se naučíme, jak uložit dokumenty OneNote do formátu PDF pomocí různých nastavení stránky pomocí Aspose.Note pro Java. Probereme dva způsoby: uložení s nastavením stránky Letter a uložení s nastavením stránky A4 bez omezení výšky.
+Pokud potřebujete **převést OneNote na PDF** a mít plnou kontrolu nad velikostí výstupní stránky, jste na správném místě. V tomto tutoriálu vás provedeme **tím, jak uložit PDF** ze souboru OneNote pomocí Aspose.Note pro Java. Uvidíte dva praktické scénáře – uložení s klasickou velikostí Letter a uložení s A4 stránkou bez omezení výšky – takže můžete **přizpůsobit velikost PDF stránky** tak, aby vyhovovala vašim požadavkům na reportování nebo tisk.
+
+## Rychlé odpovědi
+- **Jaká je hlavní knihovna?** Aspose.Note for Java  
+- **Jaké velikosti stránek jsou podporovány?** Letter a A4 (bez omezení výšky)  
+- **Potřebuji licenci pro testování?** K dispozici je bezplatná zkušební verze; licence je vyžadována pro produkci  
+- **Jaká verze Javy je vyžadována?** JDK 8 nebo vyšší  
+- **Mohu hromadně zpracovávat více souborů?** Ano, pomocí smyčky přes třídu `Document`
 
 ## Předpoklady
 
-Než začneme, ujistěte se, že máte splněny následující předpoklady:
+1. **Java Development Kit (JDK)** nainstalován (verze 8 nebo novější).  
+2. **Aspose.Note for Java** knihovna přidána do classpath vašeho Javy a práce se soubory.  
 
-1. Java Development Kit (JDK) nainstalovaný ve vašem systému.
-2. Aspose.Note pro knihovnu Java staženou a zahrnutou do vašeho projektu Java.
-3. Základní znalost programovacího jazyka Java.
+## Import balíčků
 
-## Importujte balíčky
-
-Ujistěte se, že jste importovali potřebné balíčky pro použití Aspose.Note for Java ve vašem projektu. Zde je prohlášení o importu:
+Nejprve importujte potřebné jmenné prostory. Zachovejte tento blok přesně tak, jak je uveden; kód se zkompiluje bez úprav.
 
 ```java
 import com.aspose.note.*;
@@ -35,11 +42,11 @@ import java.io.IOException;
 import java.nio.file.Paths;
 ```
 
-## Uložit do PDF pomocí nastavení stránky Letter
+## Jak uložit PDF pomocí nastavení stránky Letter
 
-### Krok 1: Vložte dokument
+### Krok 1: Načtěte dokument OneNote
 
-Nejprve načtěte dokument OneNotu do Aspose.Note:
+Začínáme načtením zdrojového souboru `.one`. Nahraďte zástupnou cestu skutečnou polohou vašeho souboru OneNote.
 
 ```java
 Document oneFile = new Document("path/to/your/OneNote.one");
@@ -47,15 +54,15 @@ Document oneFile = new Document("path/to/your/OneNote.one");
 
 ### Krok 2: Definujte cílovou cestu
 
-Zadejte cílovou cestu pro soubor PDF:
+Zvolte, kam má být výsledné PDF zapsáno. Opět aktualizujte cestu podle vašeho prostředí.
 
 ```java
 String dst = "path/to/your/SaveToPdfUsingLetterPageSettings.pdf";
 ```
 
-### Krok 3: Uložte dokument
+### Krok 3: Uložte s nastavením stránky Letter
 
-Uložte dokument s nastavením stránky Letter:
+Vytvořte instanci `PdfSaveOptions`, nastavte velikost stránky **Letter** (běžný formát papíru v USA) a zavolejte `save`. Tím se ukáže **přizpůsobení velikosti PDF stránky** pomocí vestavěných pomocníků Aspose.Note.
 
 ```java
 PdfSaveOptions options = new PdfSaveOptions();
@@ -63,11 +70,13 @@ options.setPageSettings(PageSettings.getLetter());
 oneFile.save(dst, options);
 ```
 
-## Uložit do PDF pomocí nastavení stránky A4 bez omezení výšky
+> **Tip:** Pokud potřebujete upravit okraje nebo orientaci, prozkoumejte další vlastnosti třídy `PageSettings`.
 
-### Krok 1: Vložte dokument
+## Jak uložit PDF pomocí nastavení stránky A4 bez omezení výšky
 
-Podobně načtěte dokument OneNotu do Aspose.Note:
+### Krok 1: Načtěte dokument OneNote
+
+Krok načítání je pro scénář A4 identický.
 
 ```java
 Document oneFile = new Document("path/to/your/OneNote.one");
@@ -75,15 +84,15 @@ Document oneFile = new Document("path/to/your/OneNote.one");
 
 ### Krok 2: Definujte cílovou cestu
 
-Zadejte cílovou cestu pro soubor PDF:
+Zadejte odlišný název souboru, aby nedošlo k přepsání předchozího PDF.
 
 ```java
 String dst = "path/to/your/SaveToPdfUsingA4PageSettingsWithoutHeightLimit.pdf";
 ```
 
-### Krok 3: Uložte dokument
+### Krok 3: Uložte s nastavením stránky A4 (bez omezení výšky)
 
-Uložte dokument s nastavením stránky A4 bez omezení výšky:
+Zde použijeme `PageSettings.getA4NoHeightLimit()`, aby se vytvořilo PDF, které se automaticky rozšiřuje vertikálně – ideální pro dlouhé poznámky nebo posuvný obsah.
 
 ```java
 PdfSaveOptions options = new PdfSaveOptions();
@@ -91,33 +100,43 @@ options.setPageSettings(PageSettings.getA4NoHeightLimit());
 oneFile.save(dst, options);
 ```
 
-Po provedení těchto kroků úspěšně uložíte dokument OneNotu do PDF s jiným nastavením stránky.
+> **Proč je to důležité:** Volba **A4 bez omezení výšky** zabraňuje oříznutí obsahu a zajišťuje, že celá stránka OneNote se zobrazí v PDF, bez ohledu na její délku.
+
+## Časté problémy a řešení
+
+| Problém | Proč se to děje | Řešení |
+|-------|----------------|-----|
+| **Prázdný výstup PDF** | Cesta k souboru je nesprávná nebo soubor není přístupný. | Ověřte cestu a ujistěte se, že soubor existuje. |
+| **Velikost stránky nebyla použita** | `PdfSaveOptions` není propojen s voláním `save`. | Ujistěte se, že předáváte objekt `options` do `oneFile.save()`. |
+| **Nedostatek paměti pro velké poznámky** | Načítání velmi velkých souborů `.one` může spotřebovat paměť haldy. | Zvyšte haldu JVM (`-Xmx`) nebo zpracovávejte soubory v menších dávkách. |
+
+## Často kladené otázky
+
+**Q: Mohu dále přizpůsobit nastavení stránky, například okraje nebo orientaci?**  
+A: Ano, `PageSettings` poskytuje vlastnosti pro okraje, orientaci a DPI. Můžete vytvořit vlastní objekt `PageSettings` a přiřadit jej k `PdfSaveOptions`.
+
+**Q: Jak **převést OneNote na PDF** v hromadné operaci?**  
+A: Projděte kolekci cest k souborům, pro každý vytvořte instanci `Document` a zavolejte `save` s požadovaným `PdfSaveOptions`. Tím se znovu použije stejný kódový vzor uvedený výše.
+
+**Q: Podporuje Aspose.Note jiné exportní formáty kromě PDF?**  
+A: Rozhodně. Můžete exportovat do HTML, XPS nebo různých formátů obrázků jako PNG a JPEG pomocí odpovídajících tříd `SaveOptions`.
+
+**Q: Existuje způsob, jak **exportovat OneNote dokument do PDF** s vloženými fonty?**  
+A: Nastavte `options.setEmbedStandardFonts(true)` na instanci `PdfSaveOptions` před uložením.
+
+**Q: Existují licenční úvahy pro produkční použití?**  
+A: K dispozici je bezplatná zkušební verze pro hodnocení, ale pro nasazení v produkčním prostředí je vyžadována komerční licence.
 
 ## Závěr
 
-V tomto tutoriálu jsme prozkoumali, jak uložit dokumenty OneNote do formátu PDF pomocí knihovny Aspose.Note pro Java. Podle podrobného průvodce můžete tuto funkci snadno integrovat do svých aplikací Java.
+Nyní víte **jak uložit PDF** ze souborů OneNote pomocí Aspose.Note pro Java, s plnou kontrolou nad rozměry stránky – ať už potřebujete standardní rozložení Letter nebo stránku A4, která roste s vaším obsahem. Začleňte tyto úryvky do vašich existujících Java aplikací pro automatizaci konverze dokumentů, generování tisknutelných reportů nebo archivaci sešitů OneNote jako PDF.
 
-## FAQ
+---
 
-### Q1: Mohu dále upravit nastavení stránky?
+**Poslední aktualizace:** 2025-12-17  
+**Testováno s:** Aspose.Note for Java 23.12  
+**Autor:** Aspose  
 
-Odpověď 1: Ano, pomocí Aspose.Note pro Java si můžete upravit nastavení stránky podle svých požadavků.
-
-### Q2: Podporuje Aspose.Note jiné výstupní formáty kromě PDF?
-
-A2: Ano, Aspose.Note podporuje různé výstupní formáty včetně obrázků a HTML.
-
-### Q3: Je Aspose.Note kompatibilní s různými verzemi souborů OneNotu?
-
-Odpověď 3: Ano, Aspose.Note podporuje soubory OneNote z různých verzí včetně .one a .onetoc2.
-
-### Q4: Mohu převést více souborů OneNotu do PDF v jednom spuštění?
-
-A4: Ano, můžete dávkově zpracovat více souborů OneNote pomocí Aspose.Note pro Java.
-
-### Q5: Je k dispozici nějaká zkušební verze pro testovací účely?
-
-A5: Ano, můžete získat bezplatnou zkušební verzi Aspose.Note pro Java z webu.
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
