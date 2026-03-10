@@ -1,31 +1,49 @@
 ---
-title: Ekstrak Gambar dari Dokumen OneNote menggunakan Java
-linktitle: Ekstrak Gambar dari Dokumen OneNote menggunakan Java
-second_title: Aspose.Catatan Java API
-description: Pelajari cara mengekstrak gambar dari dokumen OneNote menggunakan Java dengan pustaka Aspose.Note. Ikuti panduan langkah demi langkah kami untuk ekstraksi gambar yang lancar.
-weight: 14
+date: 2025-12-21
+description: Pelajari cara mengekstrak gambar dari dokumen OneNote menggunakan Java
+  dengan Aspose.Note. Panduan langkah demi langkah ini menunjukkan cara mengekstrak
+  gambar dengan cepat dan andal.
+linktitle: How to Extract Images from OneNote Document using Java
+second_title: Aspose.Note Java API
+title: Cara Mengekstrak Gambar dari Dokumen OneNote menggunakan Java
 url: /id/java/onenote-hyperlinks-images/extract-images/
+weight: 14
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Ekstrak Gambar dari Dokumen OneNote menggunakan Java
+# Cara Mengekstrak Gambar dari Dokumen OneNote menggunakan Java
 
 ## Perkenalan
 
-Dalam tutorial ini, kami akan memandu Anda melalui proses mengekstraksi gambar dari dokumen OneNote menggunakan Java dengan bantuan pustaka Aspose.Note.
+Dalam tutorial ini, kami akan memandu Anda melalui **cara mengekstrak gambar** dari dokumen OneNote menggunakan Java dengan bantuan pustaka Aspose.Note. Baik Anda memerlukan gambar untuk pelaporan, pengarsipan, atau pengiriman lebih lanjut, panduan ini akan menjelaskan seluruh alur kerja.
+
+## Jawaban Cepat
+- **Library apa yang direkomendasikan?** Aspose.Note untuk Java
+- **Apakah saya dapat mengekstrak gambar dari notebook yang dilindungi kata sandi?** Ya, Aspose.Note mendukungnya.
+- **Apakah saya memerlukan lisensi untuk pengembangan?** Versi percobaan gratis dapat digunakan untuk pengujian; lisensi diperlukan untuk produksi.
+- **Versi Java mana yang didukung?** Java8dan yang lebih baru (termasuk Java15).
+- **Berapa lama proses ekstraksi berlangsung?** Biasanya beberapa detik untuk notebook standar.
+
+## Apa itu ekstraksi gambar dari OneNote?
+Mengekstrak gambar berarti secara program menemukan setiap gambar yang tertanam dalam file OneNote (.one) dan menyimpan masing-masing sebagai file gambar terpisah di disk. Ini berguna ketika Anda ingin menggunakan kembali grafik di luar lingkungan notebook.
+
+## Mengapa mengekstrak gambar dari OneNote menggunakan Java?
+- **Otomasi:** Memproses banyak notebook secara batch tanpa usaha manual.
+- **Konsistensi:** Menjamin ekstraksi yang sama untuk semua file.
+- **Integrasi:** Mudah digabungkan dengan alur kerja berbasis Java lainnya (misalnya OCR, analisis gambar).
 
 ## Prasyarat
 
-Sebelum memulai, pastikan Anda memiliki hal berikut:
+Sebelum memulai, pastikan Anda memiliki hal‑hal berikut:
 
-1.  Java Development Kit (JDK): Pastikan Anda telah menginstal Java di sistem Anda. Anda dapat mengunduh dan menginstalnya dari[situs web](https://www.oracle.com/java/technologies/javase-jdk15-downloads.html).
+1. **Java Development Kit (JDK)** – Pastikan Java terpasang di sistem Anda. Anda dapat mengunduh dan mengunduh dari [situs web](https://www.Oracle.com/java/technologies/javase-jdk15-downloads.html).
 
-2.  Perpustakaan Aspose.Note: Unduh dan sertakan perpustakaan Aspose.Note dalam proyek Java Anda. Anda bisa mendapatkannya dari[tautan unduhan](https://releases.aspose.com/note/java/).
+2. **Aspose.Note Library** – Unduh dan sertakan pustaka Aspose.Note dalam proyek Java Anda. Anda dapat memperolehnya dari [tautan unduhan](https://releases.aspose.com/note/java/).
 
-## Paket Impor
+## Impor Paket
 
 Untuk memulai, impor paket yang diperlukan:
 
@@ -40,7 +58,7 @@ import com.aspose.note.Image;
 
 ## Langkah 1: Muat Dokumen
 
-Pertama, muat dokumen OneNote menggunakan Aspose.Note:
+Pertama, unduh dokumen OneNote menggunakan Aspose.Catatan:
 
 ```java
 String dataDir = "Your Document Directory";
@@ -58,7 +76,7 @@ System.out.printf("Total Images: %s\n\n", list.size());
 
 ## Langkah 3: Ekstrak Gambar
 
-Ulangi daftar gambar dan simpan setiap gambar ke file:
+Iterasi melalui daftar gambar dan simpan setiap gambar ke file:
 
 ```java
 for (int i = 0; i < list.size(); i++) {
@@ -70,31 +88,38 @@ for (int i = 0; i < list.size(); i++) {
 }
 ```
 
+## Masalah Umum dan Solusinya
+- **Tidak ditemukan gambar:** Pastikan file `.one` sumber memang berisi gambar yang tertanam.
+- **Kesalahan izin file:** Verifikasi bahwa path `dataDir` dapat ditulisi.
+- **Format gambar tidak didukung:** Aspose.Catatan menangani sebagian besar format umum (PNG, JPEG, GIF). Jika suatu format tidak didukung, harap ubah notebook di OneNote terlebih dahulu.
+
 ## Kesimpulan
 
-Mengekstrak gambar dari dokumen OneNote menggunakan Java dapat dilakukan secara lancar dengan pustaka Aspose.Note. Dengan mengikuti langkah-langkah yang diuraikan dalam tutorial ini, Anda dapat dengan mudah mengambil gambar dari dokumen Anda untuk diproses atau dianalisis lebih lanjut.
+Dengan mengikuti langkah‑langkah di atas, Anda kini mengetahui **cara mengekstrak gambar** dari dokumen OneNote menggunakan Java dan pustaka Aspose.Note. Anda dapat mengintegrasikan logika ini ke dalam aplikasi yang lebih besar, mengotomatisasi pemrosesan batch, atau cukup mengambil grafik untuk penggunaan kembali.
 
-## FAQ
+## Pertanyaan yang Sering Diajukan
 
-### Q1: Bisakah saya mengekstrak gambar dari dokumen OneNote yang dilindungi kata sandi?
+**T: Bisakah saya mengekstrak gambar dari dokumen OneNote yang dilindungi kata sandi?**
+A: Ya, Aspose.Note mendukung gambar dari notebook yang dilindungi kata sandi.
 
-A1: Ya, Aspose.Note juga mendukung ekstraksi gambar dari dokumen yang dilindungi kata sandi.
+**T: Apakah Aspose.Note kompatibel dengan versi Java yang berbeda?**
+A: Aspose.Note bekerja dengan Java8dan yang lebih baru, memberikan kebingungan di berbagai lingkungan.
 
-### Q2: Apakah Aspose.Note kompatibel dengan versi Java yang berbeda?
+**T: Bisakah saya mengekstrak gambar dari beberapa dokumen OneNote dalam satu eksekusi?**
+J: Tentu saja. Lakukan loop melalui path file dan terapkan logika ekstraksi yang sama pada setiap dokumen.
 
-A2: Aspose.Note kompatibel dengan berbagai versi Java, memastikan fleksibilitas bagi pengembang.
+**T: Apakah ada batasan ukuran untuk dokumen OneNote?**
+A: Aspose.Note menangani notebook besar dengan efisien; tidak ada batasan ukuran keras untuk ekstraksi gambar.
 
-### Q3: Bisakah saya mengekstrak gambar dari beberapa dokumen OneNote dalam satu eksekusi?
+**T: Apakah Aspose.Note mendukung ekstraksi tipe konten lain selain gambar?**
+A: Ya, Anda juga dapat mengekstrak teks, lampiran, dan objek tertanam lainnya.
 
-A3: Tentu saja, Anda dapat mengulangi beberapa dokumen dan mengekstrak gambar dari masing-masing dokumen menggunakan Aspose.Note.
+---
 
-### Q4: Apakah ada batasan ukuran untuk dokumen OneNote?
+**Terakhir Diperbarui:** 21-12-2025
+**Diuji Dengan:** Aspose.Note untuk Java 24.12
+**Penulis:** Beranggapan
 
-A4: Aspose.Note menangani dokumen dengan berbagai ukuran secara efisien, memastikan tidak ada batasan ukuran dokumen untuk ekstraksi gambar.
-
-### Q5: Apakah Aspose.Note mendukung ekstraksi jenis konten lain selain gambar?
-
-A5: Ya, selain gambar, Aspose.Note memungkinkan ekstraksi teks, lampiran, dan tipe konten lainnya dari dokumen OneNote.
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

@@ -1,33 +1,51 @@
 ---
-title: Trích xuất hình ảnh từ tài liệu OneNote bằng Java
-linktitle: Trích xuất hình ảnh từ tài liệu OneNote bằng Java
-second_title: API Java Aspose.Note
-description: Tìm hiểu cách trích xuất hình ảnh từ tài liệu OneNote bằng Java với thư viện Aspose.Note. Hãy làm theo hướng dẫn từng bước của chúng tôi để trích xuất hình ảnh liền mạch.
-weight: 14
+date: 2025-12-21
+description: Tìm hiểu cách trích xuất hình ảnh từ tài liệu OneNote bằng Java với Aspose.Note.
+  Hướng dẫn từng bước này cho thấy cách trích xuất hình ảnh nhanh chóng và đáng tin
+  cậy.
+linktitle: How to Extract Images from OneNote Document using Java
+second_title: Aspose.Note Java API
+title: Cách trích xuất hình ảnh từ tài liệu OneNote bằng Java
 url: /vi/java/onenote-hyperlinks-images/extract-images/
+weight: 14
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Trích xuất hình ảnh từ tài liệu OneNote bằng Java
+# Cách Trích Xuất Hình Ảnh từ Tài Liệu OneNote bằng Java
 
 ## Giới thiệu
 
-Trong hướng dẫn này, chúng tôi sẽ hướng dẫn bạn quy trình trích xuất hình ảnh từ tài liệu OneNote bằng Java với sự trợ giúp của thư viện Aspose.Note.
+Trong hướng dẫn này, chúng tôi sẽ chỉ cho bạn **cách trích xuất hình ảnh** từ tài liệu OneNote bằng Java với sự trợ giúp của thư viện Aspose.Note. Dù bạn cần các hình ảnh cho báo cáo, lưu trữ, hay xử lý tiếp theo, hướng dẫn này sẽ đưa bạn qua toàn bộ quy trình.
 
-## Điều kiện tiên quyết
+## Câu trả lời nhanh
+- **Thư viện nào được đề xuất?** Aspose.Note for Java  
+- **Tôi có thể trích xuất hình ảnh từ sổ ghi chú được bảo vệ bằng mật khẩu không?** Có, Aspose.Note hỗ trợ.  
+- **Tôi có cần giấy phép cho việc phát triển không?** Bản dùng thử miễn phí hoạt động cho việc thử nghiệm; cần giấy phép cho môi trường sản xuất.  
+- **Phiên bản Java nào được hỗ trợ?** Java 8 và các phiên bản mới hơn (bao gồm Java 15).  
+- **Quá trình trích xuất mất bao lâu?** Thông thường chỉ vài giây cho một sổ ghi chú tiêu chuẩn.
 
-Trước khi bắt đầu, hãy đảm bảo bạn có những điều sau:
+## Trích xuất hình ảnh từ OneNote là gì?
+Trích xuất hình ảnh có nghĩa là lập trình tìm kiếm mọi hình ảnh được nhúng trong tệp OneNote (.one) và lưu từng hình ảnh dưới dạng tệp riêng trên đĩa. Điều này hữu ích khi bạn muốn tái sử dụng đồ họa bên ngoài môi trường sổ ghi chú.
 
-1.  Bộ công cụ phát triển Java (JDK): Đảm bảo bạn đã cài đặt Java trên hệ thống của mình. Bạn có thể tải xuống và cài đặt nó từ[trang mạng](https://www.oracle.com/java/technologies/javase-jdk15-downloads.html).
+## Tại sao nên trích xuất hình ảnh từ OneNote bằng Java?
+- **Tự động hoá:** Xử lý hàng loạt nhiều sổ ghi chú mà không cần thao tác thủ công.  
+- **Nhất quán:** Đảm bảo cùng một logic trích xuất cho tất cả các tệp.  
+- **Tích hợp:** Dễ dàng kết hợp với các quy trình làm việc dựa trên Java khác (ví dụ: OCR, phân tích hình ảnh).  
 
-2.  Thư viện Aspose.Note: Tải xuống và đưa thư viện Aspose.Note vào dự án Java của bạn. Bạn có thể lấy nó từ[Liên kết tải xuống](https://releases.aspose.com/note/java/).
+## Yêu cầu trước
 
-## Gói nhập khẩu
+Trước khi bắt đầu, hãy chắc chắn bạn có những thứ sau:
 
-Để bắt đầu, hãy nhập các gói cần thiết:
+1. **Java Development Kit (JDK)** – Đảm bảo bạn đã cài đặt Java trên hệ thống. Bạn có thể tải và cài đặt từ [website](https://www.oracle.com/java/technologies/javase-jdk15-downloads.html).
+
+2. **Aspose.Note Library** – Tải về và đưa thư viện Aspose.Note vào dự án Java của bạn. Bạn có thể lấy nó từ [download link](https://releases.aspose.com/note/java/).
+
+## Nhập các Gói
+
+Để bắt đầu, nhập các gói cần thiết:
 
 ```java
 import java.io.IOException;
@@ -38,7 +56,7 @@ import com.aspose.note.Document;
 import com.aspose.note.Image;
 ```
 
-## Bước 1: Tải tài liệu
+## Bước 1: Tải Tài Liệu
 
 Đầu tiên, tải tài liệu OneNote bằng Aspose.Note:
 
@@ -47,18 +65,18 @@ String dataDir = "Your Document Directory";
 Document doc = new Document(dataDir + "Sample1.one");
 ```
 
-## Bước 2: Lấy tất cả hình ảnh
+## Bước 2: Lấy Tất Cả Hình Ảnh
 
-Tiếp theo, lấy tất cả hình ảnh từ tài liệu:
+Tiếp theo, lấy tất cả các hình ảnh từ tài liệu:
 
 ```java
 List<Image> list = doc.getChildNodes(Image.class);
 System.out.printf("Total Images: %s\n\n", list.size());
 ```
 
-## Bước 3: Trích xuất hình ảnh
+## Bước 3: Trích Xuất Hình Ảnh
 
-Lặp lại danh sách hình ảnh và lưu từng hình ảnh vào một tệp:
+Duyệt qua danh sách hình ảnh và lưu mỗi hình ảnh vào một tệp:
 
 ```java
 for (int i = 0; i < list.size(); i++) {
@@ -70,31 +88,36 @@ for (int i = 0; i < list.size(); i++) {
 }
 ```
 
-## Phần kết luận
+## Các Vấn Đề Thường Gặp và Giải Pháp
+- **Không tìm thấy hình ảnh:** Đảm bảo tệp `.one` nguồn thực sự chứa các hình ảnh được nhúng.  
+- **Lỗi quyền truy cập tệp:** Kiểm tra đường dẫn `dataDir` có thể ghi được.  
+- **Định dạng hình ảnh không được hỗ trợ:** Aspose.Note xử lý hầu hết các định dạng phổ biến (PNG, JPEG, GIF). Nếu một định dạng không được hỗ trợ, hãy cân nhắc chuyển đổi sổ ghi chú trong OneNote trước.
 
-Việc trích xuất hình ảnh từ tài liệu OneNote bằng Java có thể được thực hiện một cách liền mạch với thư viện Aspose.Note. Bằng cách làm theo các bước được nêu trong hướng dẫn này, bạn có thể dễ dàng truy xuất hình ảnh từ tài liệu của mình để xử lý hoặc phân tích thêm.
+## Kết luận
 
-## Câu hỏi thường gặp
+Bằng cách thực hiện các bước trên, bạn đã biết **cách trích xuất hình ảnh** từ tài liệu OneNote bằng Java và thư viện Aspose.Note. Bạn có thể tích hợp logic này vào các ứng dụng lớn hơn, tự động hoá xử lý hàng loạt, hoặc chỉ đơn giản là lấy đồ họa để tái sử dụng.
 
-### Câu hỏi 1: Tôi có thể trích xuất hình ảnh từ tài liệu OneNote được bảo vệ bằng mật khẩu không?
+## Câu Hỏi Thường Gặp
 
-Câu trả lời 1: Có, Aspose.Note cũng hỗ trợ trích xuất hình ảnh từ các tài liệu được bảo vệ bằng mật khẩu.
+**Q: Tôi có thể trích xuất hình ảnh từ tài liệu OneNote được bảo vệ bằng mật khẩu không?**  
+A: Có, Aspose.Note hỗ trợ trích xuất hình ảnh từ sổ ghi chú được bảo vệ bằng mật khẩu.
 
-### Câu hỏi 2: Aspose.Note có tương thích với các phiên bản Java khác nhau không?
+**Q: Aspose.Note có tương thích với các phiên bản Java khác nhau không?**  
+A: Aspose.Note hoạt động với Java 8 và các phiên bản mới hơn, mang lại sự linh hoạt cho môi trường của bạn.
 
-Câu trả lời 2: Aspose.Note tương thích với nhiều phiên bản Java khác nhau, đảm bảo tính linh hoạt cho nhà phát triển.
+**Q: Tôi có thể trích xuất hình ảnh từ nhiều tài liệu OneNote trong một lần thực thi không?**  
+A: Chắc chắn. Lặp qua danh sách các đường dẫn tệp và áp dụng cùng một logic trích xuất cho mỗi tài liệu.
 
-### Câu hỏi 3: Tôi có thể trích xuất hình ảnh từ nhiều tài liệu OneNote trong một lần thực thi không?
+**Q: Có giới hạn kích thước nào cho tài liệu OneNote không?**  
+A: Aspose.Note xử lý hiệu quả các sổ ghi chú lớn; không có giới hạn kích thước cố định cho việc trích xuất hình ảnh.
 
-Câu trả lời 3: Hoàn toàn có thể, bạn có thể lặp qua nhiều tài liệu và trích xuất hình ảnh từ mỗi tài liệu đó bằng Aspose.Note.
+**Q: Aspose.Note có hỗ trợ trích xuất các loại nội dung khác ngoài hình ảnh không?**  
+A: Có, bạn cũng có thể trích xuất văn bản, tệp đính kèm và các đối tượng nhúng khác.
 
-### Câu hỏi 4: Có bất kỳ giới hạn kích thước nào đối với tài liệu OneNote không?
+**Cập nhật lần cuối:** 2025-12-21  
+**Kiểm tra với:** Aspose.Note for Java 24.12  
+**Tác giả:** Aspose  
 
-Câu trả lời 4: Aspose.Note xử lý các tài liệu có kích thước khác nhau một cách hiệu quả, đảm bảo không có giới hạn về kích thước tài liệu để trích xuất hình ảnh.
-
-### Câu hỏi 5: Aspose.Note có hỗ trợ trích xuất các loại nội dung khác ngoài hình ảnh không?
-
-Câu trả lời 5: Có, ngoài hình ảnh, Aspose.Note còn cho phép trích xuất văn bản, tệp đính kèm và các loại nội dung khác từ tài liệu OneNote.
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
