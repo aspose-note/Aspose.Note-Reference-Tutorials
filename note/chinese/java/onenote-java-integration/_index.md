@@ -57,13 +57,6 @@ weight: 20
 ### [Retrieve Attachment from OneNote using Java](./retrieve-attachment/)
 了解如何使用 Java 与 Aspose.Note 检索 OneNote 附件，Aspose.Note 是用于无缝文档操作的强大 API。
 
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}
-
 ## 常见问题
 
 **Q: 我可以在商业项目中使用 Aspose.Note for Java 吗？**  
@@ -86,3 +79,10 @@ A: 不需要，Aspose.Note 可独立于 OneNote 应用运行，直接读取和�
 **最后更新：** 2025-12-23  
 **测试环境：** Aspose.Note for Java 24.12  
 **作者：** Aspose
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

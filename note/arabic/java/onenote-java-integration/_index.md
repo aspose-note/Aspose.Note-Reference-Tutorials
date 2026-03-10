@@ -58,13 +58,6 @@ weight: 20
 ### [استرجاع مرفق من OneNote باستخدام Java](./retrieve-attachment/)
 تعلم كيفية استرجاع المرفقات من OneNote باستخدام Java مع Aspose.Note، API قوي لمعالجة المستندات بسلاسة.
 
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}
-
 ## الأسئلة المتكررة
 
 **س: هل يمكنني استخدام Aspose.Note for Java في مشروع تجاري؟**  
@@ -87,3 +80,10 @@ weight: 20
 **آخر تحديث:** 2025-12-23  
 **تم الاختبار مع:** Aspose.Note for Java 24.12  
 **المؤلف:** Aspose
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

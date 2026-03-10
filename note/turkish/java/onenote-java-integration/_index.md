@@ -59,13 +59,6 @@ Java ve Aspose.Note kullanarak OneNote notlarınıza programlı olarak dosya ekl
 ### [Java Kullanarak OneNote'tan Ekleri Geri Getirme](./retrieve-attachment/)
 Java ve Aspose.Note kullanarak OneNote'tan ekleri nasıl alacağınızı öğrenin; bu güçlü API sorunsuz belge manipülasyonu sağlar.
 
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}
-
 ## Sıkça Sorulan Sorular
 
 **Q: Aspose.Note for Java'ı ticari bir projede kullanabilir miyim?**  
@@ -88,3 +81,10 @@ A: Hayır, Aspose.Note OneNote uygulamasından bağımsız çalışır; OneNote 
 **Son Güncelleme:** 2025-12-23  
 **Test Edilen:** Aspose.Note for Java 24.12  
 **Yazar:** Aspose
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

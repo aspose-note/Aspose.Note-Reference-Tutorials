@@ -58,13 +58,6 @@ weight: 20
 ### [Получение вложения из OneNote с Java](./retrieve-attachment/)
 Узнайте, как получать вложения из OneNote с помощью Java и Aspose.Note, мощного API для бесшовной работы с документами.
 
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}
-
 ## Часто задаваемые вопросы
 
 **В: Могу ли я использовать Aspose.Note for Java в коммерческом проекте?**  
@@ -87,3 +80,10 @@ A: Нет, Aspose.Note работает независимо от приложе
 **Последнее обновление:** 2025-12-23  
 **Тестировано с:** Aspose.Note for Java 24.12  
 **Автор:** Aspose
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

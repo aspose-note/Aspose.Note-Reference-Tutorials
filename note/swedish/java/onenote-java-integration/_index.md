@@ -58,13 +58,6 @@ Lär dig hur du programatiskt bifogar filer till dina OneNote-anteckningar med J
 ### [Retrieve Attachment from OneNote using Java](./retrieve-attachment/)
 Lär dig hur du hämtar bilagor från OneNote med Java och Aspose.Note, ett kraftfullt API för sömlös dokumentmanipulation.
 
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}
-
 ## Vanliga frågor
 
 **Q: Kan jag använda Aspose.Note för Java i ett kommersiellt projekt?**  
@@ -87,3 +80,10 @@ A: Nej, Aspose.Note fungerar oberoende av OneNote‑applikationen; det läser oc
 **Last Updated:** 2025-12-23  
 **Tested With:** Aspose.Note for Java 24.12  
 **Author:** Aspose
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

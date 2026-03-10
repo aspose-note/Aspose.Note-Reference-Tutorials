@@ -59,13 +59,6 @@ Pelajari cara melampirkan file ke catatan OneNote Anda secara programatis menggu
 ### [Ambil Lampiran dari OneNote menggunakan Java](./retrieve-attachment/)
 Pelajari cara mengambil lampiran dari OneNote menggunakan Java dengan Aspose.Note, API kuat untuk manipulasi dokumen yang mulus.
 
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}
-
 ## Pertanyaan yang Sering Diajukan
 
 **Q: Bisakah saya menggunakan Aspose.Note untuk Java dalam proyek komersial?**  
@@ -88,3 +81,10 @@ A: Tidak, Aspose.Note berfungsi secara independen dari aplikasi OneNote; ia memb
 **Last Updated:** 2025-12-23  
 **Tested With:** Aspose.Note for Java 24.12  
 **Author:** Aspose
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

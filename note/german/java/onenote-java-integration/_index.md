@@ -59,13 +59,6 @@ Erfahren Sie, wie Sie Dateien programmgesteuert mit Java und Aspose.Note an Ihre
 ### [Retrieve Attachment from OneNote using Java](./retrieve-attachment/)
 Erfahren Sie, wie Sie Anhänge aus OneNote mit Java und Aspose.Note abrufen, einer leistungsstarken API für nahtlose Dokumentmanipulation.
 
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}
-
 ## Häufig gestellte Fragen
 
 **Q: Kann ich Aspose.Note für Java in einem kommerziellen Projekt verwenden?**  
@@ -88,3 +81,10 @@ A: Nein, Aspose.Note arbeitet unabhängig von der OneNote‑Anwendung; es liest 
 **Zuletzt aktualisiert:** 2025-12-23  
 **Getestet mit:** Aspose.Note for Java 24.12  
 **Autor:** Aspose
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

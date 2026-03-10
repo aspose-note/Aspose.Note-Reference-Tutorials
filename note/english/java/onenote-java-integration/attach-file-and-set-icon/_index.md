@@ -1,5 +1,5 @@
 ---
-title: Create OneNote Document Java: Attach File and Set Icon
+title: Create OneNote Document Java - Attach File and Set Icon
 linktitle: Create OneNote Document Java: Attach File and Set Icon
 second_title: Aspose.Note Java API
 description: Learn how to create OneNote document Java programmatically, attach files and set custom icons using Aspose.Note. Step‑by‑step guide for developers.

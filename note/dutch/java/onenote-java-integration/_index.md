@@ -59,13 +59,6 @@ Leer hoe je programmatisch bestanden kunt bijvoegen aan je OneNote-notities met 
 ### [Retrieve Attachment from OneNote using Java](./retrieve-attachment/)
 Leer hoe je bijlagen kunt ophalen uit OneNote met Java en Aspose.Note, een krachtige API voor naadloze documentmanipulatie.
 
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}
-
 ## Veelgestelde Vragen
 
 **Q: Kan ik Aspose.Note for Java gebruiken in een commercieel project?**  
@@ -88,3 +81,10 @@ A: Nee, Aspose.Note werkt onafhankelijk van de OneNote‑applicatie; het leest e
 **Last Updated:** 2025-12-23  
 **Tested With:** Aspose.Note for Java 24.12  
 **Author:** Aspose
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

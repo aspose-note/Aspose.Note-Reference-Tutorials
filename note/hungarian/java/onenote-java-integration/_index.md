@@ -59,13 +59,6 @@ Ismerd meg, hogyan lehet programozottan fájlokat csatolni OneNote jegyzeteidhez
 ### [Melléklet lekérése OneNote-ból Java-val](./retrieve-attachment/)
 Ismerd meg, hogyan lehet lekérni a mellékleteket OneNote-ból Java-val az Aspose.Note segítségével, egy erőteljes API a zökkenőmentes dokumentummanipulációhoz.
 
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}
-
 ## Gyakran Ismételt Kérdések
 
 **Q: Használhatom az Aspose.Note for Java-t kereskedelmi projektben?**  
@@ -88,3 +81,10 @@ A: Nem, az Aspose.Note független a OneNote alkalmazástól; közvetlenül olvas
 **Last Updated:** 2025-12-23  
 **Tested With:** Aspose.Note for Java 24.12  
 **Author:** Aspose
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

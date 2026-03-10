@@ -58,13 +58,6 @@ Aprenda como anexar arquivos às suas notas do OneNote programaticamente usando 
 ### [Recuperar Anexo do OneNote usando Java](./retrieve-attachment/)
 Aprenda como recuperar anexos do OneNote usando Java com Aspose.Note, uma API poderosa para manipulação de documentos sem atritos.
 
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}
-
 ## Perguntas Frequentes
 
 **Q: Posso usar Aspose.Note for Java em um projeto comercial?**  
@@ -87,3 +80,10 @@ A: Não, Aspose.Note funciona independentemente do aplicativo OneNote; ele lê e
 **Última atualização:** 2025-12-23  
 **Testado com:** Aspose.Note for Java 24.12  
 **Autor:** Aspose
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

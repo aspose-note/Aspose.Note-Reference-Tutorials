@@ -58,13 +58,6 @@ Java와 Aspose.Note를 사용하여 OneNote 노트에 파일을 프로그래밍 
 ### [Retrieve Attachment from OneNote using Java](./retrieve-attachment/)
 Java와 Aspose.Note를 사용하여 OneNote에서 첨부 파일을 검색하는 방법을 배웁니다. 이 강력한 API는 원활한 문서 조작을 지원합니다.
 
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}
-
 ## 자주 묻는 질문
 
 **Q: Aspose.Note for Java를 상업 프로젝트에 사용할 수 있나요?**  
@@ -87,3 +80,10 @@ A: No, Aspose.Note works independently of the OneNote application; it reads and 
 **Last Updated:** 2025-12-23  
 **Tested With:** Aspose.Note for Java 24.12  
 **Author:** Aspose
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

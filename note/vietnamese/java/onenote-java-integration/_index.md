@@ -59,13 +59,6 @@ Tìm hiểu cách đính kèm tệp vào ghi chú OneNote của bạn một các
 ### [Retrieve Attachment from OneNote using Java](./retrieve-attachment/)
 Tìm hiểu cách lấy tệp đính kèm từ OneNote bằng Java với Aspose.Note, một API mạnh mẽ cho việc xử lý tài liệu liền mạch.
 
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}
-
 ## Câu hỏi thường gặp
 
 **H: Tôi có thể sử dụng Aspose.Note for Java trong dự án thương mại không?**  
@@ -88,3 +81,10 @@ Tìm hiểu cách lấy tệp đính kèm từ OneNote bằng Java với Aspose.
 **Last Updated:** 2025-12-23  
 **Tested With:** Aspose.Note for Java 24.12  
 **Author:** Aspose
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}
