@@ -14,30 +14,30 @@ weight: 24
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# OneNote'ta Belirli Sayfaları PDF Olarak Kaydet – Aspose.Note
+# OneNote'ta gizli Sayfaları PDF Olarak Kaydet – Aspose.Note
 
-## Introduction
+## Giriiş
 
-Bu öğreticide, Aspose.Note for Java kullanarak bir OneNote belgesinden **belirli sayfaları PDF olarak kaydetmeyi** keşfedeceksiniz. OneNote'u PDF olarak dışa aktarmanız, OneNote'u PDF'ye dönüştürmeniz ya da sadece sayfa aralığını ve sıkıştırmayı kontrol etmeniz gerektiğinde, bu rehber her adımı net açıklamalar ve çalıştırmaya hazır kodlarla size gösterir.
+Bu öğreticide, Aspose.Note for Java kullanarak bir OneNote belgesinden **belirli sayfaları PDF olarak kaydetmeyi** keşfedeceksiniz. OneNote'u PDF olarak yedeklemeniz, OneNote'u PDF'ye aktarmanız ya da sadece sayfa aralığını ve sıkıştırmayı kontrol etmenizi sağlar, bu rehber her şeyin ayrıntılı açıklamalarını ve çalıştırılmaya hazır kodlarla boyutunu gösterir.
 
-## Quick Answers
-- **“belirli sayfaları PDF olarak kaydet” ne anlama gelir?** OneNote sayfalarının bir alt kümesini seçmenizi ve yalnızca bu sayfaları içeren bir PDF oluşturmanızı sağlar.  
-- **Hangi kütüphane bunu yönetir?** Aspose.Note for Java, sayfa indeksi, sayısı ve görüntü sıkıştırmasını kontrol etmek için `PdfSaveOptions` sağlar.  
-- **Lisans gerekir mi?** Geliştirme için ücretsiz deneme sürümü çalışır; üretim için ticari lisans gereklidir.  
-- **Sayfa indeksi ve sayfa sayısını ayarlayabilir miyim?** Evet – `PdfSaveOptions` üzerinde `setPageIndex()` ve `setPageCount()` kullanın.  
-- **Görüntü sıkıştırması destekleniyor mu?** Kesinlikle – `setImageCompression()` ile JPEG, PNG veya diğer formatları seçebilirsiniz.
+## Hızlı Yanıtlar
+- **“belirli sayfaları PDF olarak kaydedin” ne anlama gelir?** OneNote sayfalarının bir alt kümesini seçimini ve yalnızca bu sayfaları içeren bir PDF oluşturmanızı sağlar.
+- **Hangi kurulumu bunu yönetir mi?** Aspose.Note for Java, sayfa indeksi, sayıları ve görüntü sıkıştırmasını kontrol etmek için `PdfSaveOptions` sağlar.
+- **Lisans gerekir mi?** Geliştirme için ücretsiz deneme sürümü çalışır; üretim için ticari lisans gereklidir.
+- **Sayfa indeksi ve sayfa değerlerini ayarlayabilir miyim?** Evet – `PdfSaveOptions` üzerinde `setPageIndex()` ve `setPageCount()` kullanın.
+- **Görüntü sıkıştırması destekleniyor mu?** kesinlikle – `setImageCompression()` ile JPEG, PNG veya diğer formatları bulunabilir.
 
-## Prerequisites
+## Önkoşullar
 
-Başlamadan önce, aşağıdakilere sahip olduğunuzdan emin olun:
+Başlamadan önce aşağıdakilere sahip olduğunuzdan emin olun:
 
-1. Java programlama temellerine hâkim olmak.  
-2. Makinenizde JDK yüklü olması.  
-3. Resmi siteden Aspose.Note for Java kütüphanesini indirin – **[buradan](https://releases.aspose.com/note/java/)** alabilirsiniz.  
+1. Java programlamanın temellerine hakim olmak.
+2. Makinenizde JDK yüklü olması.
+3. Resmi siteden Aspose.Note for Java kütüphanesini indirin – **[buradan](https://releases.aspose.com/note/java/)** alabilirsiniz.
 
-## Import Packages
+## Paketleri İçe Aktar
 
-Başlamak için, ihtiyacımız olan sınıfları içe aktaralım:
+Başlamak için, şişkin olan sınıfları içe aktaralım:
 
 ```java
 import com.aspose.note.Document;
@@ -46,11 +46,11 @@ import com.aspose.note.PdfSaveOptions;
 import java.io.IOException;
 ```
 
-Adım adım süreci inceleyelim.
+Adım adım sürecini inceleyelim.
 
-## How to Save Specific Pages PDF
+## Belirli Sayfalar PDF Nasıl Kaydedilir
 
-### Step 1: Load the OneNote Document
+### Adım 1: OneNote Belgesini Yükleyin
 
 OneNote Belgesini Yükleyin
 
@@ -64,7 +64,7 @@ Document doc = new Document(dataDir + "Aspose.one");
 
 Burada, kaynak `.one` dosyasını içeren klasöre işaret ediyor ve bunu bir `Document` nesnesine yüklüyoruz. Bu nesne, tüm OneNote defterini bellekte temsil eder.
 
-### Step 2: Initialize `PdfSaveOptions`
+### Adım 2: `PdfSaveOptions`'ı Başlatın
 
 `PdfSaveOptions`'ı Başlatın
 
@@ -75,7 +75,7 @@ PdfSaveOptions opts = new PdfSaveOptions();
 
 `PdfSaveOptions`, PDF dönüşüm sürecini ayrıntılı olarak kontrol etmenizi sağlar; **sayfa indeksi PDF** ve **sayfa sayısı PDF** ayarlama yeteneği dahil.
 
-### Step 3: Set Page Index and Count
+### Adım 3: Sayfa Dizini ve Sayısını Ayarlayın
 
 Sayfa İndeksini ve Sayısını Ayarlayın
 
@@ -89,7 +89,7 @@ opts.setPageCount(3);
 
 Bu iki çağrı, Aspose.Note'a sayfa 2'den (sıfır‑tabanlı) dışa aktarmaya başlamasını ve sonraki üç sayfayı dahil etmesini söyler. Bu, **belirli sayfaları PDF olarak kaydetme** işleminin özüdür.
 
-### Step 4: Specify Compression Settings
+### Adım 4: Sıkıştırma Ayarlarını Belirtin
 
 Sıkıştırma Ayarlarını Belirleyin
 
@@ -101,7 +101,7 @@ opts.setJpegQuality(90);
 
 PDF içindeki görüntü kalitesini kontrol edebilirsiniz. %90 kaliteye sahip JPEG sıkıştırması, dosya boyutu ve görsel doğruluk arasında iyi bir denge sunar.
 
-### Step 5: Save the Document with Options
+### Adım 5: Belgeyi Seçeneklerle Kaydedin
 
 Belgeyi Seçeneklerle Kaydedin
 
@@ -112,56 +112,56 @@ doc.save(dataDir, opts);
 
 `save` metodu, seçilen sayfaları yapılandırdığınız seçeneklerle yeni bir PDF dosyasına yazar. Sonuç, yalnızca ihtiyacınız olan sayfaları içeren kompakt bir PDF olur.
 
-## Why This Matters
+## Bu Neden Önemli?
 
 Neden Önemli?
 
-- **Performans:** Yalnızca gerekli sayfaları dışa aktarmak, işlem süresini ve bellek kullanımını azaltır, özellikle büyük defterlerde.  
-- **Dosya Boyutu:** Sayfa aralığını sınırlayarak ve JPEG sıkıştırması uygulayarak, ortaya çıkan PDF çok daha küçük olur—e-posta ekleri veya web yüklemeleri için idealdir.  
-- **Esneklik:** `setPageIndex` ve `setPageCount`'ı diğer seçeneklerle (ör. filigran ekleme) birleştirerek özel dışa aktarma süreçleri oluşturabilirsiniz.
+- **Performans:** Yalnızca gerekli birimlerden aktarım, işlem süresi ve bellek kesintileri, özellikle büyük defterlerde.
+- **Dosya Boyutu:** Sayfa aralığını sınırlayarak ve JPEG sıkıştırmasını açarak, ortaya çıkan PDF çok daha küçük olur—e-posta ekleri veya web yüklemeleri için idealdir.
+- **Esneklik:** `setPageIndex` ve `setPageCount`'ı diğer seçeneklerle (ör. filigran ekleme) birleştirerek özel genişletilmiş parçalar oluşturabilirsiniz.
 
-## Common Use Cases
+## Yaygın Kullanım Durumları
 
 Yaygın Kullanım Senaryoları
 
 | Senaryo | Özelliğin Yardımı |
-|----------|-----------------------|
-| Tek bir toplantı için rapor oluşturma | Defterin tamamı yerine yalnızca toplantının sayfasını dışa aktar. |
-| Seçilen bölümleri arşivleme | Uyumluluk için belirli bölümleri PDF olarak kaydedin, alakasız içerik ortaya çıkmasın. |
-| Mobil kullanıcılar için bant genişliğini azaltma | Yalnızca gerekli sayfaları içeren hafif bir PDF gönderin. |
+|----------|---------------|
+| Tek bir toplantı için rapor oluşturma | Defterin tamamının yerine yalnızca toplantının düzenli olarak aktarıldığı aktarılır. |
+| Seçilen bölümler arşivleme | Uyumluluk için belirli bölümlerin PDF olarak kaydedilmesi, engellenmeyen içeriğin ortaya çıkması. |
+| Mobil kullanıcılar için bant genişliğini azaltma | Yalnızca gerekli parçaları içeren hafif bir PDF gönderin. |
 
-## Troubleshooting & Tips
+## Sorun Giderme ve İpuçları
 
-Sorun Giderme ve İpuçları
+Sorun Giderme ve çözme
 
-- **Geçersiz sayfa indeksi:** Sayfa indekslemesinin 0'dan başladığını unutmayın. Toplam sayfa sayısından büyük bir indeks ayarlarsanız, Aspose.Note `ArgumentOutOfRangeException` hatası verir.  
-- **Sıfır sayfa sayısı:** `setPageCount(0)` ayarı boş bir PDF oluşturur. Pozitif bir tamsayı kullanın.  
-- **Sıkıştırma artefaktları:** JPEG kalitesi çok düşükse, görüntüler bulanık görünebilir. Gerekirse `setJpegQuality()` ayarlayın.  
-- **Dosya yolu sorunları:** Çıktı dizininin var olduğundan ve yazma izniniz olduğundan emin olun; aksi takdirde `doc.save()` başarısız olur.
+- **Geçersiz sayfa indeksi:** Sayfa indekslemesinin 0'dan ayrılmasını unutmayın. Toplam sayfa performansının büyük bir indeks ayarlarınız varsa, Aspose.Note `ArgumentOutOfRangeException` hatası verir.
+- **Sıfır sayfa sayıları:** `setPageCount(0)` ayarı boş bir PDF oluşturur. Pozitif bir tamsayı kullanın.
+- **Sıkıştırma artefaktları:** JPEG kalitesi çok düşük, görüntülerin çıktısı çıkarılabilir. `setJpegQuality()` ile ayarlayın.
+- **Dosya yolu sorunları:** Çıktı dizininin var olduğundan ve yazma izninizin olduğundan emin olun; Aksi takdirde `doc.save()` başarısız olur.
 
-## Frequently Asked Questions
+## Sıkça Sorulan Sorular
 
 Sıkça Sorulan Sorular
 
-**S1: Aspose.Note büyük OneNote belgelerini işleyebilir mi?**  
-C1: Evet, Aspose.Note büyük defterleri verimli bir şekilde işlemek için tasarlanmıştır ve yalnızca ihtiyacınız olan sayfaları dışa aktararak performansı daha da artırabilirsiniz.
+**S1: Aspose.Note büyük OneNote belgelerini işleyebilir mi?**
+C1: Evet, Aspose.Note büyük defterleri verimli bir şekilde işlemek için tasarlanmış ve yalnızca ihtiyacınız olan bölümleri aktararak performansı daha da artırabilirsiniz.
 
-**S2: Aspose.Note en yeni Java sürümleriyle uyumlu mu?**  
-C2: Kesinlikle. Kütüphane Java 8 ve daha yeni sürümlerle çalışır.
+**S2: Aspose.Note yeni Java sürümüyle uyumlu mu?**
+C2: elbette. Kütüphane Java8 ve daha yeni sürümlerle çalışır.
 
-**S3: OneNote belgelerini PDF dışındaki diğer formatlara dönüştürebilir miyim?**  
-C3: Evet, Aspose.Note DOCX, HTML, XPS ve çeşitli görüntü formatlarına dönüşümü destekler.
+**S3: OneNote belgelerini PDF dışındaki diğer formatlara dönüştürebilir miyim?**
+C3: Evet, Aspose.Note DOCX, HTML, XPS ve çeşitli görüntü formatlarına yerleştirilmesi.
 
-**S4: Aspose.Note OneNote belgelerinin şifreleme ve şifre çözme desteği sağlıyor mu?**  
-C4: Evet, API programatik olarak OneNote dosyalarını şifrelemek ve şifre çözmek için yöntemler içerir.
+**S4: Aspose.Note OneNote belgelerinin şifrelemesini ve şifre çözme desteğini sağlıyor mu?**
+C4: Evet, API programlı olarak OneNote'un şifresini kırmak ve şifreyi çözmek için şifreleri içerir.
 
-**S5: Aspose.Note ticari kullanım için uygun mu?**  
+**S5: Aspose.Note ticari kullanım için uygun mudur?**
 C5: Evet, ticari bir lisans, kütüphaneyi üretim ortamlarında kullanmanıza izin verir.
 
 ---
 
-**Son Güncelleme:** 2025-12-18  
-**Test Edilen Versiyon:** Aspose.Note for Java 24.12 (latest)  
+**Son Güncelleme:** 2025-12-18
+**Edilen Sürümünü Test Edin:** Aspose.Note for Java 24.12 (en yeni)
 **Yazar:** Aspose  
 
 {{< /blocks/products/pf/tutorial-page-section >}}

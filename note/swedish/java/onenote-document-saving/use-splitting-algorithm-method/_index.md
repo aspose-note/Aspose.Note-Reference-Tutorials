@@ -13,39 +13,46 @@ weight: 26
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Exportera OneNote‑sidor med delningsalgoritm‑metoden – Aspose.Note
+# Exportera OneNote-sidor med delningsalgoritm-metoden – Aspose.Note
 
-## Introduction
+## Introduktion
 
-If you need to **export OneNote pages** to a PDF document programmatically, Aspose.Note for Java makes it straightforward. In this tutorial we’ll walk through the Splitting Algorithm Method, which lets you control how content is broken across pages, ensuring a clean and readable PDF output. You’ll see how to set the PDF save options, choose the right page‑splitting algorithm, and finally generate the PDF file—all with just a few lines of Java code.
+Om du behöver **exportera OneNote-sidor** till ett PDF-dokument programmatiskt, gör Aspose.Note för Java det enkelt. I den här handledningen går vi igenom delningsalgoritmmetoden, som låter dig kontrollera hur innehåll delas upp över sidor, vilket säkerställer en ren och läsbar PDF-utdata. Du får se hur du ställer in PDF-sparalternativ, väljer rätt siddelningsalgoritm och slutligen genererar PDF-filen – allt med bara några rader Java-kod.
 
-## Quick Answers
-- **What does the Splitting Algorithm do?** It determines how objects that span page boundaries are handled when exporting OneNote pages to PDF.  
-- **Which library is required?** Aspose.Note for Java (download from the official Aspose site).  
-- **Do I need a license?** A temporary or full license is required for production use; a free trial is available.  
-- **Can I export large OneNote notebooks?** Yes – the library efficiently processes large files and lets you set page‑splitting rules.  
-- **What output formats are supported?** PDF, JPEG, PNG, XPS, and more; this guide focuses on PDF export.
+## Snabba svar
+- **Vad gör delningsalgoritmen?** Den avgör hur objekt som sträcker sig över sidgränser hanteras vid export av OneNote-sidor till PDF.
 
-## What is **export onenote pages**?
-Exporting OneNote pages means converting the native `.one` file format into a more portable format such as PDF. This is useful for sharing, archiving, or printing content without requiring the OneNote application.
+- **Vilket bibliotek krävs?** Aspose.Note för Java (ladda ner från den officiella Aspose-webbplatsen).
 
-## Why use the Splitting Algorithm for **export onenote pages**?
-The algorithm gives you fine‑grained control over how complex objects (tables, images, drawings) are handled at page breaks. By selecting the appropriate algorithm you can:
+- **Behöver jag en licens?** En tillfällig eller fullständig licens krävs för produktionsanvändning; en gratis provversion finns tillgänglig.
 
-* Preserve the visual layout of each page.  
-* Avoid clipped content that would otherwise be cut off.  
-* Reduce the number of generated pages when objects can be moved to the next page cleanly.  
+- **Kan jag exportera stora OneNote-anteckningsböcker?** Ja – biblioteket bearbetar effektivt stora filer och låter dig ställa in regler för siddelning.
 
-## Prerequisites
+- **Vilka utdataformat stöds?** PDF, JPEG, PNG, XPS med mera; den här guiden fokuserar på PDF-export.
 
-Before we begin, make sure you have the following prerequisites:
+## Vad är **exportera OneNote-sidor**?
+Att exportera OneNote-sidor innebär att konvertera det ursprungliga `.one`-filformatet till ett mer portabelt format som PDF. Detta är användbart för att dela, arkivera eller skriva ut innehåll utan att OneNote-programmet krävs.
 
-1. Java Development Kit (JDK): Ensure you have JDK installed on your system. You can download it from the [website](https://www.oracle.com/java/technologies/javase-jdk11-downloads.html).
-2. Aspose.Note for Java Library: Download and install the Aspose.Note for Java library from the [download link](https://releases.aspose.com/note/java/).
+## Varför använda delningsalgoritmen för **exportera OneNote-sidor**?
+Algoritmen ger dig finkornig kontroll över hur komplexa objekt (tabeller, bilder, ritningar) hanteras vid sidbrytningar. Genom att välja lämplig algoritm kan du:
 
-## Import Packages
+* Bevara den visuella layouten för varje sida.
 
-In your Java project, import the necessary packages to utilize Aspose.Note functionalities.
+* Undvika klippt innehåll som annars skulle beskäras.
+
+* Minska antalet genererade sidor när objekt kan flyttas till nästa sida utan problem.
+
+## Förutsättningar
+
+Innan vi börjar, se till att du har följande förutsättningar:
+
+1. Java Development Kit (JDK): Se till att du har JDK installerat på ditt system. Du kan ladda ner det från [webbplatsen](https://www.oracle.com/java/technologies/javase-jdk11-downloads.html).
+
+2. Aspose.Note för Java-biblioteket: Ladda ner och installera Aspose.Note för Java-biblioteket från [nedladdningslänken](https://releases.aspose.com/note/java/).
+
+## Importera paket
+
+Importera de nödvändiga paketen i ditt Java-projekt för att använda Aspose.Note-funktionerna.
 
 ```java
 import java.io.IOException;
@@ -56,41 +63,41 @@ import com.aspose.note.KeepSolidObjectsAlgorithm;
 import com.aspose.note.PdfSaveOptions;
 ```
 
-## Step 1: Define Document Directory
+## Steg 1: Definiera dokumentkatalog
 
-Set up the directory where your OneNote document is located.
+Konfigurera katalogen där ditt OneNote-dokument finns.
 
 ```java
 String dataDir = "Your Document Directory";
 ```
 
-## Step 2: Load the OneNote Document
+## Steg 2: Läs in OneNote-dokumentet
 
-Load the OneNote document using Aspose.Note's `Document` class.
+Ladda in OneNote-dokumentet med Aspose.Notes klass `Document`.
 
 ```java
 Document doc = new Document(dataDir + "Sample1.one");
 ```
 
-## Step 3: Set PDF Save Options
+## Steg 3: Ställ in PDF-sparalternativ
 
-Create an instance of `PdfSaveOptions` to specify options for saving the document as PDF. This is where you **set page splitting** behavior and other PDF‑related settings.
+Skapa en instans av `PdfSaveOptions` för att ange alternativ för att spara dokumentet som PDF. Det är här du **ställer in beteendet för siddelning** och andra PDF-relaterade inställningar.
 
 ```java
 PdfSaveOptions pdfSaveOptions = new PdfSaveOptions();
 ```
 
-## Step 4: Set Page Splitting Algorithm
+## Steg 4: Ställ in algoritmen för siddelning
 
-Choose the appropriate splitting algorithm according to your requirements. Here, we're using `KeepPartAndCloneSolidObjectToNextPageAlgorithm`, which keeps part of an object on the current page and clones the remainder to the next page.
+Välj lämplig delningsalgoritm enligt dina behov. Här använder vi `KeepPartAndCloneSolidObjectToNextPageAlgorithm`, som behåller en del av ett objekt på den aktuella sidan och klonar resten till nästa sida.
 
 ```java
 pdfSaveOptions.setPageSplittingAlgorithm(new KeepPartAndCloneSolidObjectToNextPageAlgorithm(100));
 ```
 
-## Step 5: Save the Document
+## Steg 5: Spara dokumentet
 
-Save the document with the specified PDF save options. This step **generates PDF onenote** output that you can open, share, or print.
+Spara dokumentet med de angivna PDF-sparalternativen. Detta steg **genererar PDF onenote**-utdata som du kan öppna, dela eller skriva ut.
 
 ```java
 try {
@@ -100,36 +107,36 @@ try {
 }
 ```
 
-## Common Issues and Solutions
+## Vanliga problem och lösningar
 
-| Issue | Solution |
+| Problem | Lösning |
 |-------|----------|
-| **Objects are cut off at page boundaries** | Try a different algorithm such as `AlwaysSplitObjectsAlgorithm` or increase the threshold value in `KeepPartAndCloneSolidObjectToNextPageAlgorithm`. |
-| **Output PDF is blank** | Verify that the source `.one` file is not corrupted and that the `dataDir` path is correct. |
-| **Performance is slow with large notebooks** | Use `pdfSaveOptions.setCompressImages(true)` to reduce memory usage, and consider processing the notebook in smaller sections. |
+| **Objekt är avskurna vid sidgränser** | Prova en annan algoritm, till exempel `AlwaysSplitObjectsAlgorithm`, eller öka tröskelvärdet i `KeepPartAndCloneSolidObjectToNextPageAlgorithm`. |
+| **Utdata-PDF:n är tom** | Kontrollera att källfilen `.one` inte är skadad och att sökvägen till `dataDir` är korrekt. |
+| **Prestandan är långsam med stora anteckningsböcker** | Använd `pdfSaveOptions.setCompressImages(true)` för att minska minnesanvändningen och överväg att bearbeta anteckningsboken i mindre avsnitt. |
 
-## Frequently Asked Questions
+## Vanliga frågor
 
-**Q: Can I use Aspose.Note for Java with other programming languages?**  
-A: Yes, Aspose.Note is available for .NET, C++, and Python as well.
+**F: Kan jag använda Aspose.Note för Java med andra programmeringsspråk?**
+S: Ja, Aspose.Note är även tillgängligt för .NET, C++ och Python.
 
-**Q: Is Aspose.Note suitable for processing large OneNote files?**  
-A: Absolutely. The library is optimized for handling large notebooks efficiently.
+**F: Är Aspose.Note lämpligt för att bearbeta stora OneNote-filer?**
+S: Absolut. Biblioteket är optimerat för att hantera stora anteckningsböcker effektivt.
 
-**Q: Where can I find additional resources and support for Aspose.Note?**  
-A: You can refer to the [documentation](https://reference.aspose.com/note/java/) and [forum](https://forum.aspose.com/c/note/28) for support and guidance.
+**F: Var kan jag hitta ytterligare resurser och support för Aspose.Note?**
+S: Du kan se [dokumentationen](https://reference.aspose.com/note/java/) och [forumet](https://forum.aspose.com/c/note/28) för support och vägledning.
 
-**Q: Can I try Aspose.Note before purchasing?**  
-A: Yes, you can avail of a [free trial](https://releases.aspose.com/) to explore the features before making a purchase.
+**F: Kan jag prova Aspose.Note innan jag köper?**
+S: Ja, du kan använda en [kostnadsfri testversion](https://releases.aspose.com/) för att utforska funktionerna innan du gör ett köp.
 
-**Q: How can I obtain a temporary license for Aspose.Note?**  
-A: You can request a [temporary license](https://purchase.aspose.com/temporary-license/) to evaluate the product under a trial period.
+**F: Hur kan jag få en tillfällig licens för Aspose.Note?**
+S: Du kan begära en [tillfällig licens](https://purchase.aspose.com/temporary-license/) för att utvärdera produkten under en testperiod.
 
 ---
 
-**Last Updated:** 2025-12-18  
-**Tested With:** Aspose.Note 24.12 for Java  
-**Author:** Aspose  
+**Senast uppdaterad:** 2025-12-18
+**Testad med:** Aspose.Note 24.12 för Java
+**Författare:** Aspose 
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

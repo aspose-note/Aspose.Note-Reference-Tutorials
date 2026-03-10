@@ -15,18 +15,18 @@ weight: 24
 
 # OneNote で特定ページの PDF を保存 – Aspose.Note
 
-## Introduction
+## はじめに
 
 このチュートリアルでは、Aspose.Note for Java を使用して OneNote ドキュメントから **特定ページの PDF を保存** する方法を学びます。**OneNote を PDF としてエクスポート**、**OneNote を PDF に変換**、またはページ範囲や圧縮を制御したい場合でも、このガイドは明確な説明とすぐに実行できるコードでステップバイステップで案内します。
 
-## Quick Answers
+## クイックアンサー
 - **“特定ページの PDF を保存” とは何ですか？** OneNote のページのサブセットを選択し、そのページだけを含む PDF を生成できます。  
 - **どのライブラリがこれを処理しますか？** Aspose.Note for Java は `PdfSaveOptions` を提供し、ページインデックス、ページ数、画像圧縮を制御できます。  
 - **ライセンスは必要ですか？** 開発には無料トライアルが使用できますが、本番環境では商用ライセンスが必要です。  
 - **ページインデックスとページ数を設定できますか？** はい – `PdfSaveOptions` の `setPageIndex()` と `setPageCount()` を使用します。  
 - **画像圧縮はサポートされていますか？** もちろんです – `setImageCompression()` で JPEG、PNG、その他の形式を選択できます。
 
-## Prerequisites
+## 前提条件
 
 開始する前に、以下を確認してください：
 
@@ -34,7 +34,7 @@ weight: 24
 2. マシンに JDK がインストールされていること。  
 3. 公式サイトからダウンロードした Aspose.Note for Java ライブラリ – **[こちら](https://releases.aspose.com/note/java/)** から入手できます。
 
-## Import Packages
+## パッケージのインポート
 
 まず、必要なクラスをインポートします：
 
@@ -47,9 +47,9 @@ import java.io.IOException;
 
 プロセスをステップバイステップで見ていきましょう。
 
-## How to Save Specific Pages PDF
+## 特定のページを PDF として保存する方法
 
-### Step 1: Load the OneNote Document
+### 手順 1: OneNote ドキュメントを読み込む
 
 ここでは、ソースの `.one` ファイルがあるフォルダーを指定し、`Document` オブジェクトにロードします。このオブジェクトはメモリ上の OneNote ノートブック全体を表します。
 
@@ -61,7 +61,7 @@ String dataDir = "Your Document Directory";
 Document doc = new Document(dataDir + "Aspose.one");
 ```
 
-### Step 2: Initialize `PdfSaveOptions`
+### 手順 2: `PdfSaveOptions` を初期化する
 
 `PdfSaveOptions` は PDF 変換プロセスを細かく制御でき、**ページインデックス PDF の設定**や**ページ数 PDF の設定**が可能です。
 
@@ -70,7 +70,7 @@ Document doc = new Document(dataDir + "Aspose.one");
 PdfSaveOptions opts = new PdfSaveOptions();
 ```
 
-### Step 3: Set Page Index and Count
+### 手順 3: ページインデックスとページ数を設定する
 
 この 2 つの呼び出しにより、Aspose.Note はページ 2（0 ベース）からエクスポートを開始し、次の 3 ページを含めます。これが **特定ページの PDF を保存** の核心です。
 
@@ -82,7 +82,7 @@ opts.setPageIndex(2);
 opts.setPageCount(3);
 ```
 
-### Step 4: Specify Compression Settings
+### 手順 4: 圧縮設定を指定する
 
 PDF 内の画像品質を制御できます。品質 90% の JPEG 圧縮は、ファイルサイズと視覚的忠実度のバランスが良いです。
 
@@ -92,7 +92,7 @@ opts.setImageCompression(PdfImageCompression.Jpeg);
 opts.setJpegQuality(90);
 ```
 
-### Step 5: Save the Document with Options
+### 手順 5: オプションを指定してドキュメントを保存する
 
 `save` メソッドは、設定したオプションを使用して選択したページを新しい PDF ファイルに書き込みます。結果として、必要なページだけを含むコンパクトな PDF が生成されます。
 
@@ -101,13 +101,13 @@ dataDir = dataDir + "Document.SaveWithOptions_out.pdf";
 doc.save(dataDir, opts);
 ```
 
-## Why This Matters
+## これが重要な理由
 
 - **パフォーマンス:** 必要なページだけをエクスポートすることで、処理時間とメモリ使用量が削減され、特に大規模なノートブックで効果的です。  
 - **ファイルサイズ:** ページ範囲を限定し JPEG 圧縮を適用することで、生成される PDF ははるかに小さくなり、メール添付やウェブアップロードに最適です。  
 - **柔軟性:** `setPageIndex` と `setPageCount` を他のオプション（例: ウォーターマーキング）と組み合わせて、カスタムエクスポートパイプラインを構築できます。
 
-## Common Use Cases
+## 一般的なユースケース
 
 | シナリオ | 機能が役立つ方法 |
 |----------|-----------------------|
@@ -115,14 +115,14 @@ doc.save(dataDir, opts);
 | 選択したセクションのアーカイブ | 関連性のないコンテンツを公開せず、コンプライアンスのために特定のセクションを PDF として保存します。 |
 | モバイルユーザーの帯域幅削減 | 必要なページだけを含む軽量 PDF を送信します。 |
 
-## Troubleshooting & Tips
+## トラブルシューティングとヒント
 
 - **無効なページインデックス:** ページインデックスは 0 から始まることを忘れないでください。総ページ数より大きいインデックスを設定すると、Aspose.Note は `ArgumentOutOfRangeException` をスローします。  
 - **ページ数が 0:** `setPageCount(0)` を設定すると空の PDF になります。正の整数を使用してください。  
 - **圧縮アーティファクト:** JPEG の品質が低すぎると画像がぼやけることがあります。必要に応じて `setJpegQuality()` を調整してください。  
 - **ファイルパスの問題:** 出力ディレクトリが存在し、書き込み権限があることを確認してください。そうでないと `doc.save()` が失敗します。
 
-## Frequently Asked Questions
+## よくある質問
 
 **Q1: Aspose.Note は大規模な OneNote ドキュメントを処理できますか？**  
 A1: はい、Aspose.Note は大きなノートブックを効率的に処理できるよう設計されており、必要なページだけをエクスポートすることでさらにパフォーマンスを向上させられます。

@@ -14,40 +14,40 @@ weight: 22
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Zapisz OneNote jako PDF przy użyciu określonego podsystemu czcionek
+# Zapisz OneNote jako PDF przy użyciu zwykłego podsystemu czcionek
 
 ## Wprowadzenie
 
-W wielu scenariuszach biznesowych musisz **zapisz OneNote jako PDF** zachowując dokładny wygląd oryginalnych stron. Aspose.Note for Java ułatwia to, pozwalając kontrolować podsystem czcionek podczas konwersji. W tym samouczku przeprowadzimy trzy praktyczne sposoby **konwersji OneNote do PDF**, obejmujące **ładowanie własnych plików czcionek**, **określenie domyślnej czcionki** oraz **użycie strumienia czcionki**, gdy czcionka nie jest dostępna na docelowym komputerze.
+W wielu skryptach wykonawczych należy **zapisz OneNote jako PDF**, który powoduje zastosowanie wyglądu zewnętrznego. Aspose.Note for Java ułatwia kontrolowanie podsystemu czcionek podczas pobytu. W tym samouczku przeprowadziliśmy trzy praktyczne systemy **konwersji OneNote do PDF**, udostępniają **ładowanie plików czcionek**, **określenie szczegółowej** oraz **użycie strumienia strumienia**, gdy czcionka nie jest dostępna na komputerze.
 
-## Quick Answers
-- **Co oznacza „save OneNote as PDF”?** Konwertuje plik .one do PDF, zachowując układ i styl.  
-- **Które API obsługuje czcionki?** `DocumentFontsSubsystem` pozwala zdefiniować domyślną czcionkę lub załadować własny plik/strumień czcionki.  
-- **Czy potrzebna jest licencja do produkcji?** Tak, komercyjna licencja Aspose.Note jest wymagana do użytku nie‑testowego.  
-- **Czy mogę konwertować wiele plików jednocześnie?** Oczywiście – wystarczy pętla nad logiką ładowania i zapisywania `Document`.  
-- **Jakiej wersji Javy wymaga?** Java 15 lub nowsza (przykład używa JDK 15).
+## Szybkie odpowiedzi
+- **Co oznacza „zapisz program OneNote jako plik PDF”?** Konwertuje plik .one do PDF, udostępniac układ i styl.
+- **Które API obsługiwane?** `DocumentFontsSubsystem` pozwala na domyślną czcionkę lub za korzystanie z własnego pliku/strumień.
+- **Czy jest połączeniem licencji do produkcji?** Tak, komercyjna licencja Aspose. Uwaga jest wymagana do użytku nietestowego.
+- **Czy mogę konwertować wiele plików jednocześnie?** Oczywiście – wystarczy pudełko nad logiką obciążającą i zawartą w `Document`.
+- **Jakiej wersji Javy wymaga?** Java15 lub nowsza (przykład używa JDK15).
 
-## Co to jest „save OneNote as PDF” z podsystemem czcionek?
+## Co to jest „zapisz program OneNote jako plik PDF” z podsystemem czcionek?
 
-Zapisanie OneNote jako PDF z podsystemem czcionek oznacza, że podczas procesu konwersji Aspose.Note zastępuje brakujące glify czcionką, którą podasz. Gwarantuje to, że PDF wygląda identycznie na każdym urządzeniu, nawet gdy oryginalna czcionka nie jest zainstalowana.
+Zapisanie OneNote jako PDF z podsystemem czcionek oznacza, że ​​podczas procesu narodowego Aspose.Note zastępuje brakujące glify czcionką, którą poddasz. Gwarantuje to, że PDF jest identyczny z każdym urządzeniem, nawet gdy Google czcionka nie jest zainstalowana.
 
-## Dlaczego kontrolować podsystem czcionek przy **konwersji OneNote do PDF**?
+## Dlaczego kontroluje podsystem czcionek przy **konwersji OneNote do PDF**?
 
-- **Spójna identyfikacja wizualna** – dokumenty korporacyjne zachowują dokładny krój pisma.  
-- **Niezawodność wieloplatformowa** – PDF-y renderują się tak samo na Windows, macOS, Linux i urządzeniach mobilnych.  
-- **Mniej błędów** – ostrzeżenia o brakujących czcionkach znikają, co daje czysty wynik.
+- **Spójna identyfikacja wizualna** – dokumenty korporacyjne wynikające z krój pisma.
+- **Niezawodność wieloplatformowa** – PDF-y renderują się tak samo na Windows, macOS, Linux i urządzeniach mobilnych.
+- **Mniej błędów** – zastosowanie o brakujących czcionkach znikających, co daje czysty wynik.
 
-## Prerequisites
+## Warunki wstępne
 
-### 1. Java Development Kit (JDK)
+### 1. Zestaw deweloperski Java (JDK)
 
-Upewnij się, że masz zainstalowany Java Development Kit (JDK) na swoim systemie. Możesz go pobrać z [tutaj](https://www.oracle.com/java/technologies/javase-jdk15-downloads.html), jeśli jeszcze tego nie zrobiłeś.
+zadziała, że ​​masz zainstalowany zestaw Java Development Kit (JDK) w swoim systemie. Możesz iść z [tutaj](https://www.oracle.com/java/technologies/javase-jdk15-downloads.html), jeśli jeszcze tego nie zrobiłeś.
 
-### 2. Biblioteka Aspose.Note for Java
+### 2. Biblioteka Aspose.Note dla Java
 
-Pobierz i skonfiguruj bibliotekę Aspose.Note for Java. Możesz ją pobrać ze [strony internetowej](https://releases.aspose.com/note/java/).
+Pobierz i skonfiguruj bibliotekę Aspose.Note dla Java. Możesz ją zabrać ze [strony internetowe](https://releases.aspose.com/note/java/).
 
-## Import Packages
+## Importuj pakiety
 
 Upewnij się, że zaimportowałeś niezbędne pakiety w swoim projekcie Java:
 
