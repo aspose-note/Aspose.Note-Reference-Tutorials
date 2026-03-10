@@ -145,13 +145,6 @@ A5: Вы можете получить временную лицензию по 
 
 Следуя шагам, описанным в этом учебнике, вы сможете эффективно **получить размеры изображений Java** из документов OneNote с помощью Aspose.Note for Java. Интеграция этой функции в ваши приложения позволит автоматизировать задачи, связанные с обработкой документов, повышая эффективность и продуктивность.
 
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}
-
 ---
 
 **Последнее обновление:** 2025-12-21  
@@ -159,3 +152,10 @@ A5: Вы можете получить временную лицензию по 
 **Автор:** Aspose  
 
 ---
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

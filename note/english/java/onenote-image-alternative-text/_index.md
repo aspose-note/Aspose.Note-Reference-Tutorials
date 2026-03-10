@@ -68,13 +68,6 @@ In the realm of OneNote image alternative text, Java and Aspose.Note are powerfu
 ### [Add Alternative Text to Image in OneNote using Java](./add-alternative-text-to-image/)
 Learn how to add alternative text to images in OneNote documents using Java with Aspose.Note, enhancing accessibility and inclusivity.
 
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}
-
 ## Frequently Asked Questions
 
 **Q: Do I need to reinstall OneNote after adding alt text?**  
@@ -99,3 +92,10 @@ A: Any recent version that supports Java 8+; we tested with the latest release a
 **Author:** Aspose  
 
 ---
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

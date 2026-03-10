@@ -145,13 +145,6 @@ Görüntü listesini döngüye alarak her bir görüntü için genişlik, yükse
 
 Bu öğreticide belirtilen adımları izleyerek, Aspose.Note for Java kullanarak OneNote belgelerinden etkili bir şekilde **get image dimensions java** alabilirsiniz. Bu işlevi uygulamalarınıza entegre etmek, belge işleme ile ilgili görevleri otomatikleştirerek verimliliği ve üretkenliği artırabilir.
 
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}
-
 ---
 
 **Last Updated:** 2025-12-21  
@@ -159,3 +152,10 @@ Bu öğreticide belirtilen adımları izleyerek, Aspose.Note for Java kullanarak
 **Author:** Aspose  
 
 ---
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

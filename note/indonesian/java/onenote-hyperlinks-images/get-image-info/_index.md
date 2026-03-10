@@ -16,36 +16,36 @@ weight: 15
 
 # Dapatkan Dimensi Gambar Java dari OneNote
 
-## Introduction
+## Perkenalan
 
-Jika Anda perlu **get image dimensions java** dari notebook OneNote, Anda berada di tempat yang tepat. Dalam banyak skenario otomatisasi—pembuatan laporan, migrasi konten, atau analitik—Anda akan ingin mengetahui lebar, tinggi, ukuran asli, dan nama file setiap gambar tanpa harus membuka notebook secara manual. Tutorial ini memandu Anda mengekstrak informasi tersebut secara programatis menggunakan Aspose.Note for Java.
+Jika Anda perlu **dapatkan dimensi gambar java** dari notebook OneNote, Anda berada di tempat yang tepat. Dalam banyak skenario otomatis—pembuatan laporan, migrasi konten, atau analitik—Anda akan ingin mengetahui lebar, tinggi, ukuran asli, dan nama file setiap gambar tanpa harus membuka notebook secara manual. Tutorial ini memandu Anda mengekstrak informasi tersebut secara terprogram menggunakan Aspose.Note for Java.
 
-## Quick Answers
-- **What does the code do?** Mengambil setiap gambar dalam file OneNote dan mencetak dimensinya, ukuran asli, nama file, serta tanggal modifikasi.  
-- **Which library is required?** Aspose.Note for Java.  
-- **Do I need a license?** Lisensi sementara dapat digunakan untuk pengujian; lisensi penuh diperlukan untuk produksi.  
-- **How many lines of code?** Sekitar 30 baris, dibagi menjadi langkah‑langkah yang jelas dan dapat digunakan kembali.  
-- **Typical run time?** Milidetik untuk notebook standar dengan beberapa puluh gambar.
+## Jawaban Cepat
+- **Apa fungsi kodenya?** Mengambil setiap gambar dalam file OneNote dan mencetak dimensinya, ukuran asli, nama file, serta tanggal modifikasi.
+- **Perpustakaan mana yang diperlukan?** Aspose.Note untuk Java.
+- **Apakah saya memerlukan lisensi?** Lisensi sementara dapat digunakan untuk pengujian; lisensi penuh diperlukan untuk produksi.
+- **Berapa baris kode?** Sekitar 30 baris, dibagi menjadi langkah‑langkah yang jelas dan dapat digunakan kembali.
+- **Waktu berjalan tipikal?** Milidetik untuk notebook standar dengan beberapa puluh gambar.
 
-## Prerequisites
+## Prasyarat
 
 Sebelum kita masuk ke implementasi, pastikan Anda memiliki prasyarat berikut:
 
-### 1. Java Development Kit (JDK)
+### 1. Kit Pengembangan Java (JDK)
 
-Pastikan Anda telah menginstal Java Development Kit (JDK) di sistem Anda. Anda dapat mengunduh dan menginstal JDK terbaru dari [Oracle website](https://www.oracle.com/java/technologies/javase-jdk15-downloads.html).
+Pastikan Anda telah menginstal Java Development Kit (JDK) di sistem Anda. Anda dapat mengunduh dan menginstal JDK terbaru dari [situs web Oracle](https://www.Oracle.com/java/technologies/javase-jdk15-downloads.html).
 
-### 2. Aspose.Note for Java Library
+### 2. Aspose.Note untuk Perpustakaan Java
 
-Unduh dan sertakan pustaka Aspose.Note for Java dalam proyek Anda. Anda dapat memperoleh pustaka tersebut dari [download page](https://releases.aspose.com/note/java/).
+Unduh dan sertakan pustaka Aspose.Note for Java dalam proyek Anda. Anda dapat memperoleh pustaka tersebut dari [halaman unduh](https://releases.aspose.com/note/java/).
 
-### 3. OneNote Document
+### 3. Dokumen OneNote
 
-Siapkan dokumen OneNote contoh yang berisi gambar. Dokumen ini akan digunakan untuk mengekstrak informasi gambar secara programatis.
+Siapkan dokumen OneNote contoh yang berisi gambar. Dokumen ini akan digunakan untuk mengekstrak informasi gambar secara terprogram.
 
-## Import Packages
+## Impor Paket
 
-Untuk memulai, impor paket yang diperlukan dari Aspose.Note for Java:
+Untuk memulai, impor paket yang diperlukan dari Aspose.Note untuk Java:
 
 ```java
 import java.io.IOException;
@@ -56,9 +56,9 @@ import com.aspose.note.Image;
 
 Mari kita uraikan kode di atas menjadi instruksi langkah‑demi‑langkah:
 
-## How to get image dimensions java from OneNote
+## Cara mendapatkan dimensi gambar java dari OneNote
 
-### Step 1: Set Document Directory
+### Langkah 1: Tetapkan Direktori Dokumen
 
 ```java
 String dataDir = "Your Document Directory";
@@ -66,7 +66,7 @@ String dataDir = "Your Document Directory";
 
 Ganti `"Your Document Directory"` dengan jalur ke dokumen OneNote Anda.
 
-### Step 2: Load the Document
+### Langkah 2: Muat Dokumen
 
 ```java
 Document doc = new Document(dataDir + "Sample1.one");
@@ -74,7 +74,7 @@ Document doc = new Document(dataDir + "Sample1.one");
 
 Muat dokumen OneNote menggunakan pustaka Aspose.Note for Java. Pastikan Anda memberikan jalur yang benar ke dokumen Anda.
 
-### Step 3: Get All Images
+### Langkah 3: Dapatkan Semua Gambar
 
 ```java
 List<Image> list = doc.getChildNodes(Image.class);
@@ -82,7 +82,7 @@ List<Image> list = doc.getChildNodes(Image.class);
 
 Ambil semua gambar dari dokumen OneNote yang telah dimuat.
 
-### Step 4: Print Total Images Count
+### Langkah 4: Cetak Jumlah Total Gambar
 
 ```java
 System.out.printf("Total Images: %s\n\n", list.size());
@@ -90,7 +90,7 @@ System.out.printf("Total Images: %s\n\n", list.size());
 
 Cetak total jumlah gambar yang ditemukan dalam dokumen.
 
-### Step 5: Traverse and Print Image Information
+### Langkah 5: Telusuri dan Cetak Informasi Gambar
 
 ```java
 for (Image image : list) {
@@ -106,44 +106,52 @@ for (Image image : list) {
 
 Iterasi melalui daftar gambar dan cetak detail seperti lebar, tinggi, dimensi asli, nama file, serta waktu terakhir dimodifikasi untuk setiap gambar.
 
-## Why extract images from OneNote using Java?
+## Mengapa mengekstrak gambar dari OneNote menggunakan Java?
 
-- **Automation:** Menghilangkan inspeksi manual notebook.  
-- **Data Analytics:** Menyalurkan metadata gambar ke pipeline pelaporan.  
-- **Migration:** Mempertahankan atribut gambar saat memindahkan konten ke platform lain.  
-- **Performance:** Mengambil hanya metadata yang Anda butuhkan, menghindari parsing file yang berat.
+- **Otomasi:** Menghilangkan buku catatan manual inspeksi.
+- **Analisis Data:** Menyalurkan metadata gambar ke jalur pelaporan.
+- **Migrasi:** Mempertahankan atribut gambar saat memindahkan konten ke platform lain.
+- **Kinerja:** Hanya menggunakan metadata yang Anda perlukan, menghindari penguraian file yang berat.
 
-## Common Pitfalls & Tips
+## Kesalahan & Tip Umum
 
-- **Incorrect path:** Periksa kembali bahwa `dataDir` diakhiri dengan pemisah file yang tepat (`/` atau `\`).  
-- **License issues:** Tanpa lisensi yang valid, Aspose.Note dapat menampilkan peringatan evaluasi.  
-- **Large notebooks:** Untuk notebook dengan ribuan gambar, pertimbangkan memproses dalam batch untuk mengurangi konsumsi memori.
+- **Jalur salah:**Periksa kembali bahwa `dataDir` diakhiri dengan batas file yang tepat (`/` atau `\`).
+- **Masalah lisensi:** Tanpa lisensi yang valid, Aspose.Note dapat menampilkan peringatan evaluasi.
+- **Buku catatan besar:** Untuk buku catatan dengan ribuan gambar, memproses proses dalam batch untuk mengurangi konsumsi memori.
 
-## Frequently Asked Questions
+## Pertanyaan yang Sering Diajukan
 
-### Q1: Can Aspose.Note for Java handle other document formats apart from OneNote?
+### Q1: Bisakah Aspose.Note untuk Java menangani format dokumen lain selain OneNote?
 
 A1: Ya, Aspose.Note for Java mendukung berbagai format dokumen, termasuk OneNote, PDF, dan Microsoft Word.
 
-### Q2: Is Aspose.Note for Java suitable for both personal and commercial use?
+### Q2: Apakah Aspose.Note untuk Java cocok untuk penggunaan pribadi dan komersial?
 
 A2: Ya, Anda dapat menggunakan Aspose.Note for Java untuk keperluan pribadi maupun komersial.
 
-### Q3: Does Aspose.Note for Java offer technical support?
+### Q3: Apakah Aspose.Note untuk Java menawarkan dukungan teknis?
 
-A3: Ya, dukungan teknis tersedia melalui forum Aspose di [here](https://forum.aspose.com/c/note/28).
+A3: Ya, dukungan teknis tersedia melalui forum Aspose di [di sini](https://forum.aspose.com/c/note/28).
 
-### Q4: Can I try Aspose.Note for Java before making a purchase?
+### Q4: Dapatkah saya mencoba Aspose.Note untuk Java sebelum melakukan pembelian?
 
 A4: Ya, Anda dapat menjelajahi versi percobaan gratis Aspose.Note for Java dari [Aspose.Note for Java](https://releases.aspose.com/note/java/).
 
-### Q5: How can I obtain a temporary license for Aspose.Note for Java?
+### Q5: Bagaimana cara mendapatkan lisensi sementara Aspose.Note untuk Java?
 
-A5: Anda dapat memperoleh lisensi sementara dari [Temporary license/](https://purchase.aspose.com/temporary-license/).
+A5: Anda dapat memperoleh lisensi sementara dari [Lisensi sementara/](https://purchase.aspose.com/temporary-license/).
 
-## Conclusion
+## Kesimpulan
 
-Dengan mengikuti langkah‑langkah yang dijelaskan dalam tutorial ini, Anda dapat secara efektif **get image dimensions java** dari dokumen OneNote menggunakan Aspose.Note for Java. Mengintegrasikan fungsionalitas ini ke dalam aplikasi Anda dapat mengotomatisasi tugas terkait pemrosesan dokumen, meningkatkan efisiensi dan produktivitas.
+Dengan mengikuti langkah‑langkah yang dijelaskan dalam tutorial ini, Anda dapat secara efektif **mendapatkan dimensi gambar java** dari dokumen OneNote menggunakan Aspose.Note for Java. Mengintegrasikan fungsionalitas ini ke dalam aplikasi Anda dapat mengotomatisasi tugas terkait pemrosesan dokumen, meningkatkan efisiensi dan produktivitas.
+
+---
+
+**Terakhir Diperbarui:** 21-12-2025
+**Diuji Dengan:** Aspose.Note untuk Java 23.12
+**Penulis:** Beranggapan 
+
+---
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
@@ -151,11 +159,3 @@ Dengan mengikuti langkah‑langkah yang dijelaskan dalam tutorial ini, Anda dapa
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
-
----
-
-**Last Updated:** 2025-12-21  
-**Tested With:** Aspose.Note for Java 23.12  
-**Author:** Aspose  
-
----

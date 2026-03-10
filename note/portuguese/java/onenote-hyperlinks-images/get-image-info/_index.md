@@ -145,15 +145,15 @@ A5: Você pode adquirir uma licença temporária em [Temporary license/](https:/
 
 Seguindo as etapas descritas neste tutorial, você pode efetivamente **obter dimensões da imagem java** de documentos OneNote usando Aspose.Note para Java. Integrar essa funcionalidade em suas aplicações pode automatizar tarefas relacionadas ao processamento de documentos, aumentando a eficiência e a produtividade.
 
+---
+
+**Última atualização:** 2025-12-21  
+**Testado com:** Aspose.Note for Java 23.12  
+**Autor:** Aspose
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
-
----
-
-**Última atualização:** 2025-12-21  
-**Testado com:** Aspose.Note for Java 23.12  
-**Autor:** Aspose

@@ -145,13 +145,6 @@ A5: Ideiglenes licencet a [Temporary license/](https://purchase.aspose.com/tempo
 
 A tutorialban leírt lépések követésével hatékonyan **get image dimensions java**-t tud lekérni OneNote dokumentumokból az Aspose.Note for Java segítségével. Ennek a funkciónak az alkalmazásokba való integrálása automatizálhatja a dokumentumfeldolgozással kapcsolatos feladatokat, növelve a hatékonyságot és a termelékenységet.
 
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}
-
 ---
 
 **Last Updated:** 2025-12-21  
@@ -159,3 +152,10 @@ A tutorialban leírt lépések követésével hatékonyan **get image dimensions
 **Author:** Aspose  
 
 ---
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -70,13 +70,6 @@ OneNote इमेज वैकल्पिक टेक्स्ट के क�
 ### [Add Alternative Text to Image in OneNote using Java](./add-alternative-text-to-image/)
 Java के साथ Aspose.Note का उपयोग करके OneNote दस्तावेज़ों में इमेजेज़ के लिए वैकल्पिक टेक्स्ट जोड़ना सीखें, जिससे एक्सेसिबिलिटी और समावेशिता बढ़े।
 
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}
-
 ## अक्सर पूछे जाने वाले प्रश्न
 
 **प्रश्न: क्या alt टेक्स्ट जोड़ने के बाद मुझे OneNote को पुनः इंस्टॉल करना पड़ेगा?**  
@@ -101,3 +94,10 @@ Java के साथ Aspose.Note का उपयोग करके OneNote �
 **लेखक:** Aspose  
 
 ---
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -69,13 +69,6 @@ Trong lĩnh vực văn bản thay thế cho hình ảnh OneNote, Java và Aspose
 ### [Thêm Văn bản Thay thế cho Hình ảnh trong OneNote bằng Java](./add-alternative-text-to-image/)
 Tìm hiểu cách thêm văn bản thay thế cho hình ảnh trong tài liệu OneNote bằng Java với Aspose.Note, nâng cao khả năng truy cập và tính bao trùm.
 
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}
-
 ## Câu hỏi thường gặp
 
 **Q: Tôi có cần cài đặt lại OneNote sau khi thêm alt text không?**  
@@ -98,3 +91,10 @@ A: Bất kỳ phiên bản gần đây nào hỗ trợ Java 8+; chúng tôi đã
 **Cập nhật lần cuối:** 2025-12-21  
 **Đã kiểm tra với:** Aspose.Note Java API (latest stable release)  
 **Tác giả:** Aspose
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

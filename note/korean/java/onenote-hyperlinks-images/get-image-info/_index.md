@@ -144,15 +144,15 @@ A5: 임시 라이선스는 [임시 라이선스](https://purchase.aspose.com/tem
 
 이 튜토리얼에 제시된 단계를 따르면 Aspose.Note for Java를 사용하여 OneNote 문서에서 **get image dimensions java** 를 효과적으로 가져올 수 있습니다. 이 기능을 애플리케이션에 통합하면 문서 처리와 관련된 작업을 자동화하여 효율성과 생산성을 향상시킬 수 있습니다.
 
+---
+
+**마지막 업데이트:** 2025-12-21  
+**테스트 환경:** Aspose.Note for Java 23.12  
+**작성자:** Aspose
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
-
----
-
-**마지막 업데이트:** 2025-12-21  
-**테스트 환경:** Aspose.Note for Java 23.12  
-**작성자:** Aspose

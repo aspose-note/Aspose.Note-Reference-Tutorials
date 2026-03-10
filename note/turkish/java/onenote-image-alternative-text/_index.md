@@ -69,13 +69,6 @@ OneNote görsel alternatif metni alanında Java ve Aspose.Note güçlü müttefi
 ### [Java kullanarak OneNote'ta Görsele Alternatif Metin Ekle](./add-alternative-text-to-image/)
 Java ve Aspose.Note kullanarak OneNote belgelerindeki görsellere alternatif metin eklemeyi öğrenin, erişilebilirliği ve kapsayıcılığı artırın.
 
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}
-
 ## Sıkça Sorulan Sorular
 
 **S: Alt metin ekledikten sonra OneNote'u yeniden kurmam gerekiyor mu?**  
@@ -98,3 +91,10 @@ C: Java 8+ destekleyen herhangi bir yeni sürüm; yazı zamanı en son sürümle
 **Son Güncelleme:** 2025-12-21  
 **Test Edilen:** Aspose.Note Java API (en son kararlı sürüm)  
 **Yazar:** Aspose
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

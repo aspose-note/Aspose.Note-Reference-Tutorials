@@ -70,13 +70,6 @@ Dalam ranah teks alternatif gambar OneNote, Java dan Aspose.Note adalah sekutu y
 
 Pelajari cara menambahkan teks alternatif ke gambar dalam dokumen OneNote menggunakan Java dengan Aspose.Note, meningkatkan aksesibilitas dan inklusivitas.
 
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}
-
 ## Pertanyaan yang Sering Diajukan
 
 **Q: Apakah saya perlu menginstal ulang OneNote setelah menambahkan teks alt?**  
@@ -99,3 +92,10 @@ A: Versi terbaru apa pun yang mendukung Java 8+; kami menguji dengan rilis terba
 **Terakhir Diperbarui:** 2025-12-21  
 **Diuji Dengan:** Aspose.Note Java API (latest stable release)  
 **Penulis:** Aspose
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

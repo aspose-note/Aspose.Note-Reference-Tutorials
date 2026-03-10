@@ -68,13 +68,6 @@ weight: 23
 ### [เพิ่มข้อความแทนภาพใน OneNote ด้วย Java](./add-alternative-text-to-image/)
 เรียนรู้วิธีเพิ่มข้อความแทนภาพในเอกสาร OneNote ด้วย Java และ Aspose.Note เพื่อเพิ่มการเข้าถึงและความรวม.
 
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}
-
 ## คำถามที่พบบ่อย
 
 **ถาม: ฉันต้องติดตั้ง OneNote ใหม่หลังจากเพิ่ม alt text หรือไม่?**  
@@ -97,3 +90,10 @@ A: เวอร์ชันล่าสุดใด ๆ ที่รองรั
 **อัปเดตล่าสุด:** 2025-12-21  
 **ทดสอบด้วย:** Aspose.Note Java API (รุ่นเสถียรล่าสุด)  
 **ผู้เขียน:** Aspose
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

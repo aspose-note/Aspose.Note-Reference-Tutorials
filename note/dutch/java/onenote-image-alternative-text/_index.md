@@ -69,13 +69,6 @@ Op het gebied van alternatieve tekst voor OneNote‑afbeeldingen zijn Java en As
 ### [Alternatieve Tekst Toevoegen aan Afbeelding in OneNote met Java](./add-alternative-text-to-image/)
 Leer hoe u alternatieve tekst kunt toevoegen aan afbeeldingen in OneNote‑documenten met Java en Aspose.Note, waardoor toegankelijkheid en inclusiviteit worden verbeterd.
 
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}
-
 ## Veelgestelde Vragen
 
 **V: Moet ik OneNote opnieuw installeren na het toevoegen van alt‑tekst?**  
@@ -98,3 +91,10 @@ A: Elke recente versie die Java 8+ ondersteunt; we hebben getest met de nieuws
 **Last Updated:** 2025-12-21  
 **Tested With:** Aspose.Note Java API (latest stable release)  
 **Author:** Aspose
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

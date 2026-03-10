@@ -144,13 +144,6 @@ A5: आप [Temporary license/](https://purchase.aspose.com/temporary-license/) 
 
 इस ट्यूटोरियल में बताए गए चरणों का पालन करके, आप Aspose.Note for Java का उपयोग करके OneNote दस्तावेज़ों से **get image dimensions java** को प्रभावी रूप से प्राप्त कर सकते हैं। इस कार्यक्षमता को अपने एप्लिकेशन में एकीकृत करने से दस्तावेज़ प्रोसेसिंग से संबंधित कार्यों का ऑटोमेशन संभव हो जाता है, जिससे दक्षता और उत्पादकता में वृद्धि होती है।
 
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}
-
 ---
 
 **अंतिम अपडेट:** 2025-12-21  
@@ -158,3 +151,10 @@ A5: आप [Temporary license/](https://purchase.aspose.com/temporary-license/) 
 **लेखक:** Aspose  
 
 ---
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

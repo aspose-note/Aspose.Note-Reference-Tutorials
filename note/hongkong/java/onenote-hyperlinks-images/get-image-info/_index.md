@@ -143,13 +143,6 @@ A5：您可從 [Temporary license/](https://purchase.aspose.com/temporary-licens
 
 依循本教學所列步驟，您即可使用 Aspose.Note for Java 從 OneNote 文件中有效地 **取得 image dimensions java**。將此功能整合至您的應用程式，可自動化文件處理相關任務，提升效率與生產力。
 
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}
-
 ---
 
 **最後更新：** 2025-12-21  
@@ -157,3 +150,10 @@ A5：您可從 [Temporary license/](https://purchase.aspose.com/temporary-licens
 **作者：** Aspose  
 
 ---
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

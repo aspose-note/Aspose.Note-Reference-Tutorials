@@ -70,13 +70,6 @@ weight: 23
 ### [Add Alternative Text to Image in OneNote using Java](./add-alternative-text-to-image/)
 تعلم كيفية إضافة نص بديل للصور في مستندات OneNote باستخدام Java مع Aspose.Note، لتعزيز الوصول والشمولية.
 
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}
-
 ## الأسئلة المتكررة
 
 **س: هل أحتاج إلى إعادة تثبيت OneNote بعد إضافة النص البديل؟**  
@@ -101,3 +94,10 @@ weight: 23
 **المؤلف:** Aspose  
 
 ---
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

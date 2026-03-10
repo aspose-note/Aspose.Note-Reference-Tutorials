@@ -15,11 +15,11 @@ weight: 16
 
 # JavaでOneNoteドキュメントに画像を挿入する
 
-## Introduction
+## はじめに
 
 このチュートリアルでは、Aspose.Note for Java を使用して Java で OneNote ドキュメントに画像を挿入する方法を解説します。Aspose.Note for Java は、Microsoft OneNote ファイルをプログラムから操作できる強力なライブラリで、作成・読み取り・編集などさまざまな操作が可能です。
 
-## Quick Answers
+## クイックアンサー
 - **What is the easiest way to add image to OneNote using Java?**  
   Aspose.Note for Java の `Image` クラスを使用し、ページに追加します。
 - **Do I need a license for production use?**  
@@ -31,21 +31,21 @@ weight: 16
 - **Which Java version is supported?**  
   Aspose.Note for Java は JDK 8 以降で動作します。
 
-## How to add image to OneNote using Java?
+## Java を使って OneNote に画像を追加するには？
 
 コードに入る前に、なぜプログラムで OneNote に画像を埋め込む必要があるのかを簡単に説明します。会議の議事録作成、レポートの自動生成、ドキュメントパイプラインの構築など、画像を挿入することでテキストだけでは伝えきれない視覚的コンテキストを提供できます。Aspose.Note for Java を使えば、OneNote の UI を開くことなくコードだけでこれらを実現できます。
 
-## Prerequisites
+## 前提条件
 
 開始する前に、以下の前提条件が整っていることを確認してください。
 
-### 1. Java Development Kit (JDK)
+### 1. Java 開発キット (JDK)
 システムに Java Development Kit (JDK) がインストールされていることを確認します。Oracle のウェブサイトから JDK をダウンロードしてインストールできます。
 
-### 2. Aspose.Note for Java Library
+### 2. Aspose.Note for Java ライブラリ
 [Aspose.Note for Java のドキュメント](https://reference.aspose.com/note/java/) に従ってライブラリをダウンロードし、設定してください。
 
-## Import Packages
+## パッケージのインポート
 
 まず、Java プロジェクトに必要なパッケージをインポートします。これらには Aspose.Note ライブラリとその他の依存関係が含まれます。
 
@@ -61,7 +61,7 @@ import com.aspose.note.SaveFormat;
 
 画像を OneNote ドキュメントに挿入する手順を複数のステップに分けて解説します。
 
-## Step 1: Load the OneNote Document
+## ステップ 1: OneNote ドキュメントを読み込む
 
 画像を挿入したい OneNote ドキュメントを読み込みます。
 
@@ -71,7 +71,7 @@ String dataDir = "Your Document Directory";
 Document oneFile = new Document(dataDir + "Sample1.one", options);
 ```
 
-## Step 2: Get the Page
+## ステップ 2: ページを取得する
 
 画像を挿入したいページを取得します。
 
@@ -79,7 +79,7 @@ Document oneFile = new Document(dataDir + "Sample1.one", options);
 Page page = oneFile.getFirstChild();
 ```
 
-## Step 3: Load the Image
+## ステップ 3: 画像を読み込む
 
 OneNote に挿入する画像を読み込みます。
 
@@ -87,7 +87,7 @@ OneNote に挿入する画像を読み込みます。
 Image image = new Image(oneFile, dataDir + "Input.jpg");
 ```
 
-## Step 4: Customize Image Attributes (Optional)
+## ステップ 4: 画像属性をカスタマイズする (オプション)
 
 必要に応じて画像のサイズ、位置、配置をカスタマイズできます。ここで **Java スタイルで画像の寸法を設定** します。
 
@@ -99,7 +99,7 @@ image.setHorizontalOffset(100);
 image.setAlignment(HorizontalAlignment.Right);
 ```
 
-## Step 5: Add Image to the Page
+## ステップ 5: ページに画像を追加する
 
 ページに画像を追加します。
 
@@ -107,7 +107,7 @@ image.setAlignment(HorizontalAlignment.Right);
 page.appendChildLast(image);
 ```
 
-## Step 6: Save the Document
+## ステップ 6: ドキュメントを保存する
 
 画像を挿入したドキュメントを保存します。この段階で **OneNote を PDF として保存** することも可能です。
 
@@ -119,37 +119,37 @@ try {
 }
 ```
 
-## Conclusion
+## まとめ
 
 本チュートリアルでは、Aspose.Note for Java ライブラリを活用して Java で OneNote ドキュメントに画像を挿入する方法を学びました。ステップバイステップの手順に従うだけで、プログラムから簡単に画像を組み込むことができます。
 
-## FAQ's
+## FAQ
 
-### Q1: Can I insert multiple images into a single OneNote document using this method?
+### Q1: この方法で、1つのOneNoteドキュメントに複数の画像を挿入できますか？
 
 A1: はい、各画像ごとに本チュートリアルの手順を繰り返すことで、1つの OneNote ドキュメントに複数の画像を挿入できます。
 
-### Q2: Is Aspose.Note for Java compatible with all versions of OneNote?
+### Q2: Aspose.Note for Javaは、すべてのバージョンのOneNoteと互換性がありますか？
 
 A2: Aspose.Note for Java は Microsoft OneNote 2010 以降で作成された OneNote ファイルの操作をサポートしています。
 
-### Q3: Can I insert images of different formats, such as PNG or GIF, into a OneNote document?
+### Q3: PNGやGIFなど、異なる形式の画像をOneNoteドキュメントに挿入できますか？
 
 A3: はい、PNG、JPEG、GIF などさまざまな形式の画像を Aspose.Note for Java で挿入できます。
 
-### Q4: Is there a trial version of Aspose.Note for Java available for testing purposes?
+### Q4: テスト用にAspose.Note for Javaの試用版はありますか？
 
 A4: はい、評価用に Aspose.Note for Java の無料トライアル版をウェブサイトからダウンロードできます。
 
-### Q5: How can I get technical support for Aspose.Note for Java?
+### Q5: Aspose.Note for Javaのテクニカルサポートを受けるにはどうすればよいですか？
 
 A5: Aspose.Note 製品専用の [フォーラム](https://forum.aspose.com/c/note/28) から技術サポートを受けられます。
 
 ---
 
-**Last Updated:** 2025-12-21  
-**Tested With:** Aspose.Note for Java 24.10  
-**Author:** Aspose  
+**最終更新日:** 2025年12月21日
+**テスト環境:** Aspose.Note for Java 24.10
+**作成者:** Aspose 
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

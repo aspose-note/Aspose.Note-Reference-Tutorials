@@ -69,13 +69,6 @@ A OneNote képek alternatív szövegének területén a Java és az Aspose.Note 
 ### [Add Alternative Text to Image in OneNote using Java](./add-alternative-text-to-image/)
 Ismerje meg, hogyan adhat alternatív szöveget a OneNote dokumentumok képeihez Java és az Aspose.Note segítségével, javítva a hozzáférhetőséget és az inkluzivitást.
 
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}
-
 ## Gyakran Ismételt Kérdések
 
 **K: Újra kell telepítenem a OneNote-ot az alt szöveg hozzáadása után?**  
@@ -98,3 +91,10 @@ V: Bármely friss verzió, amely támogatja a Java 8+‑at; a cikk írásakor 
 **Legutóbb frissítve:** 2025-12-21  
 **Tesztelve ezzel:** Aspose.Note Java API (latest stable release)  
 **Szerző:** Aspose
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -16,68 +16,61 @@ weight: 23
 
 # Uczyń OneNote Dostępnym – Alternatywny Tekst Obrazów
 
-## Introduction
+## Wstęp
 
-Zapewnienie, że Twoje zeszyty OneNote są użyteczne dla wszystkich, jest kluczową częścią nowoczesnego rozwoju oprogramowania. W tym samouczku odkryjesz **jak uczynić OneNote dostępnym** poprzez dodanie alternatywnego tekstu do obrazów przy użyciu Javy i API Aspose.Note. Przeprowadzimy Cię przez dlaczego, co i dokładne kroki, które musisz wykonać, aby dostarczyć inkluzywną treść bez dodatkowych problemów.
+Rozwiązanie, które Twoje zeszyty OneNote jest dostępne dla wszystkich, jest kluczową częścią nowoczesnego rozwoju oprogramowania. W tym samouczku odkryjesz **jak udostępnienie OneNote** poprzez rozszerzenie tekstu do obrazów przy użyciu Javy i API Aspose.Note. Przeprowadziliśmy Cię przez dlaczego, co i dokładne kroki, które muszą być dostarczone, aby zapewnić bezpieczeństwo inkluzywną treść bez zagrożeń.
 
-## Quick Answers
-- **What is the primary goal?** Dodaj tekst alternatywny do obrazów OneNote, aby uczynić zeszyt dostępnym.  
-- **Which language and library are used?** Java z Aspose.Note.  
-- **Do I need a license?** Darmowa wersja próbna działa do testów; licencja komercyjna jest wymagana w produkcji.  
-- **How long does implementation take?** Zazwyczaj poniżej 15 minut dla podstawowego dokumentu.  
-- **Is this approach standards‑compliant?** Tak, spełnia WCAG 2.1 oraz wytyczne Microsoft dotyczące dostępności.
+## Szybkie odpowiedzi
+- **Jaki jest główny cel?** Dodaj tekst alternatywny do obrazów OneNote, aby zachować zeszyt dostępnym.
+- **Jaki język i biblioteka są używane?** Java z Aspose.Note.
+- **Czy potrzebuję licencji?** Wersja próbna działa do testów; licencjat komercyjny jest wymagany w produkcji.
+- **Jak długo trwa wdrożenie?** poniżej 15 minut dla podstawowego dokumentu.
+- **Czy to podejście jest zgodne ze standardami?** Tak, spełnia WCAG2.1 oraz wytyczne Microsoft dotyczące konieczności.
 
-## What is “make onenote accessible”?
+## Co to jest „udostępnij program Onenote”?
 
-Uczynienie OneNote dostępnym oznacza zapewnienie tekstowych odpowiedników dla treści nienumerycznych — takich jak obrazy — aby czytniki ekranu i inne technologie wspomagające mogły przekazać tę samą informację użytkownikom z wadami wzroku. Dodanie alternatywnego tekstu (alt text) jest najprostszą, a jednocześnie najskuteczniejszą techniką, aby to osiągnąć.
+Uczynienie OneNote dostępne oznacza zapewnianie tekstów właściwych dla treści nienumerycznych — takich jak obrazy — aby czytniki ekranu i inne technologie rozszerzały informacje o powiadomieniach użytkowników z wadami wzroku. Dodanie tekstu (alt tekst) jest najprostszą, a jednocześnie występującą techniką, aby uzyskać dostęp.
 
-## Why add alt text with Java?
+## Po co dodawać tekst alternatywny w Javie?
 
-Cross‑platformowa natura Javy pozwala automatyzować przetwarzanie dokumentów OneNote na dowolnym serwerze lub środowisku desktopowym. Biblioteka Aspose.Note abstrahuje format pliku OneNote, zapewniając czyste API do ustawiania właściwości obrazu, takich jak alt text, bez konieczności pracy z niskopoziomowym XML.
+Wieloplatformowa natura Javy pozwala na automatyzację transmisji dokumentów OneNote na urządzeniu lub w środowisku desktopowym. Biblioteka Aspose.Note abstrahuje format pliku OneNote, proste API do ustawiania efektów obrazu, takich jak alt tekst, bez konieczności pracy z niskim poziomem XML.
 
-## Understanding the Significance
+## Zrozumienie znaczenia
 
-W dzisiejszym inkluzywnym środowisku cyfrowym dostępność nie jest opcjonalna — to obowiązek. OneNote jest szeroko stosowany w edukacji, korporacyjnych bazach wiedzy i prywatnym notowaniu. Gdy obrazy nie mają opisowego tekstu, użytkownicy czytników ekranu tracą kluczowy kontekst, co może prowadzić do nieporozumień i niezgodności z regulacjami dotyczącymi dostępności.
+W rozwiązaniu inkluzywnym środowisku cyfrowym dostępność nie jest opcjonalna — do dostępu. OneNote jest szeroko rozpowszechnionym w edukacji, korporacyjną bazą wiedzy i prywatnym notowaniu. Gdy obrazy nie mają opisu tekstu, użytkownicy ekranów klucza głównego kontekstu, co może spowodować nieporozumienie i niezgodność z regulacjąmi uruchamianymi.
 
-## Adding Alternative Text to OneNote Images with Java
+## Dodawanie tekstu alternatywnego do obrazów programu OneNote za pomocą języka Java
 ### [Dodaj Alternatywny Tekst do Obrazu w OneNote przy użyciu Javy](./add-alternative-text-to-image/)
 
-Wszechstronność Javy i możliwości Aspose.Note łączą się płynnie w tym przewodniku krok po kroku. Przeprowadzimy Cię przez otwieranie pliku OneNote, znajdowanie obrazów i przypisywanie znaczącego alternatywnego tekstu. Zwięzłe fragmenty kodu (pokazane w powiązanym pod‑tutorialu) ułatwiają to zadanie, pozwalając skupić się na treści, a nie na szablonie.
+Wszechstronność Javy i możliwości Aspose.Note połączenie się płynnie w tym przewodniku krok po kroku. Przeprowadzimy Cię przez otwarcie pliku OneNote, znalezione obrazy i przy zapisywaniu odpowiedniego tekstu. Zwięzłe fragment kodu (pokazane w powiązanym pod-tutorialu) Łatwe do zadania, spowodowane przez treść, a nie na szablonie.
 
-## The Accessibility Advantage
+## Zaleta dostępności
 
-Poprzez włączenie alternatywnego tekstu nie tylko spełniasz standardy dostępności, ale także umożliwiasz użytkownikom o różnych potrzebach. Wyobraź sobie kolegę z problemami wzrokowymi lub studenta korzystającego z czytnika ekranu — teraz mogą natychmiast zrozumieć treść Twoich obrazów w OneNote. To małe dodatki wypełniają dużą lukę.
+Możliwość udostępnienia tekstu nie tylko dostępna, ale także umożliwia użytkownikom o różnych potrzebach. Wyobraź sobie kolegę z opakowania zbiorczego lub studenta z czytnika ekranu — teraz może natychmiast otrzymać treść twoich obrazów w OneNote. To małe dodatki uzupełniają dużą lukę.
 
-## Elevating User Experience
+## Podnoszenie komfortu użytkownika
 
-Dostępność nie jest jedynie polem do zaznaczenia; zwiększa ogólną użyteczność. Gdy zastosujesz nasz przewodnik, zauważysz, że ten sam dokument staje się przyjaźniejszy dla wszystkich — wyszukiwarki mogą indeksować alt text, a przyszli programiści łatwiej utrzymają zeszyt.
+Dostępność nie jest tylko polem do zaznaczenia; zwiększenie użytkowości użytkowej. Gdy podłączony nasz przewodnik, zauważył, że ten sam dokument staje się przyjaźniejszy dla wszystkich — trzymając może indeksować alt tekst, a przyszli programiści muszą trzymać zeszyt.
 
-## Empowering Developers
+## Wspieranie programistów
 
-Ten samouczek jest zasobem dla programistów, którzy chcą wbudować dostępność w swoje aplikacje od samego początku. Niezależnie od tego, czy tworzysz system zarządzania notatkami, czy narzędzie do przetwarzania wsadowego, zasady omówione tutaj — *add alt text java* i *image alt text tutorial* — są wielokrotnego użytku w różnych projektach.
+Ten samouczek jest zasobem dla programistów, którzy chcą wbudować dostępność w swoich aplikacjach od samego początku. instrukcje od tego, czy tworząsz system zarządzania notatkami, czy narzędzie do przetwarzania wsadowego, zasady omówione tutaj — *add alt text java* i *image alt text tutorial* — są narzędziami użytkowymi w różnych projektach.
 
-## Common Pitfalls & Tips
+## Typowe pułapki i wskazówki
 
-- **Pro tip:** Trzymaj alt text zwięzły (poniżej 125 znaków), ale wystarczająco opisowy, aby przekazać cel obrazu.  
-- **Pitfall:** Ustawianie alt textu na dekoracyjnych obrazach nie jest konieczne; użyj pustego ciągu (`""`), aby zasygnalizować, że obraz może być pominięty.  
-- **Pitfall:** Zapomnienie o zapisaniu dokumentu po modyfikacjach spowoduje, że zmiany nie zostaną zachowane.
+- **Pro wskazówka:** trzymaj alt tekst zwięzły (poniżej 125 znaków), ale określony, aby zachować cel obrazu.
+- **Pułapka:** Ustawianie alternatywnego tekstu na dekoracyjnych obrazach nie jest konieczne; odstępnego ciągu („””), aby zasygnalizować, że może być pominięty.
+- **Pułapka:** Zapomnienie o zapisaniu dokumentu, że po modyfikacjach następuje, zmiana nie została zachowana.
 
-## Conclusion
+## Wniosek
 
-W dziedzinie alternatywnego tekstu obrazów OneNote, Java i Aspose.Note są potężnymi sojusznikami. Postępując zgodnie z tym samouczkiem, nie tylko dodasz alt text — aktywnie **uczynisz OneNote dostępnym**, promując inkluzywność i podnosząc ogólną jakość Twoich treści cyfrowych. Zanurz się, koduj z pewnością i wywieraj trwały wpływ na dostępność.
+W uzupełnieniu tekstu obrazów OneNote, Java i Aspose.Note są właściwymi sojusznikami. Postępując zgodnie z tym samouczkiem, nie tylko dodasz alternatywny tekst — aktywnie **uczynisz dostępny OneNote**, promując inkluzywność i dostarczając jakość twoich treści cyfrowych. Zanurz się, kodj z zastosowanie i wywieraj wpływ na dostępność.
 
-## OneNote Image Alternative Text Tutorials
+## Samouczki dotyczące alternatywnego tekstu programu OneNote
 ### [Dodaj Alternatywny Tekst do Obrazu w OneNote przy użyciu Javy](./add-alternative-text-to-image/)
-Dowiedz się, jak dodać alternatywny tekst do obrazów w dokumentach OneNote przy użyciu Javy i Aspose.Note, zwiększając dostępność i inkluzywność.
+Dowiedz się, jak uzyskać alternatywny tekst do obrazów w dokumentach OneNote przy użyciu Javy i Aspose.Note, dostępność i inkluzywność.
 
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}
-
-## Frequently Asked Questions
+## Często zadawane pytania
 
 **Q:** Czy muszę ponownie zainstalować OneNote po dodaniu alt textu?  
 **A:** Nie. Zmiany są zapisywane bezpośrednio w pliku .one, a OneNote automatycznie wyświetli zaktualizowany alt text.
@@ -99,3 +92,10 @@ Dowiedz się, jak dodać alternatywny tekst do obrazów w dokumentach OneNote pr
 **Ostatnia aktualizacja:** 2025-12-21  
 **Testowano z:** Aspose.Note Java API (latest stable release)  
 **Autor:** Aspose
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

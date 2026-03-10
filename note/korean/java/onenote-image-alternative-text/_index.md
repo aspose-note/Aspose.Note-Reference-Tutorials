@@ -68,13 +68,6 @@ OneNote 이미지 대체 텍스트 분야에서 Java와 Aspose.Note는 강력한
 ### [Java를 사용하여 OneNote 이미지에 대체 텍스트 추가하기](./add-alternative-text-to-image/)
 Java와 Aspose.Note를 사용해 OneNote 문서의 이미지에 대체 텍스트를 추가하는 방법을 배우고, 접근성과 포용성을 향상시킵니다.
 
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}
-
 ## 자주 묻는 질문
 
 **Q: 대체 텍스트를 추가한 후 OneNote를 재설치해야 하나요?**  
@@ -99,3 +92,10 @@ A: Java 8 이상을 지원하는 최신 버전이면 모두 사용 가능하며,
 **작성자:** Aspose  
 
 ---
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

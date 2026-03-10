@@ -14,26 +14,26 @@ weight: 14
 
 # Java を使用して OneNote ドキュメントから画像を抽出する方法
 
-## Introduction
+## はじめに
 
 このチュートリアルでは、Aspose.Note ライブラリを使用して Java で OneNote ドキュメントから **画像を抽出する方法** をご案内します。レポート作成、アーカイブ、またはさらなる処理のために画像が必要な場合でも、このガイドが全体のワークフローをステップバイステップで説明します。
 
-## Quick Answers
-- **What library is recommended?** Aspose.Note for Java  
-- **Can I extract images from a password‑protected notebook?** Yes, Aspose.Note supports it.  
-- **Do I need a license for development?** A free trial works for testing; a license is required for production.  
-- **Which Java versions are supported?** Java 8 and newer (including Java 15).  
-- **How long does the extraction take?** Typically a few seconds for a standard notebook.
+## クイックアンサー
+- **推奨ライブラリはどれですか？** Aspose.Note for Java
+- **パスワード保護されたノートブックから画像を抽出できますか？** はい、Aspose.Note はサポートしています。
+- **開発にはライセンスが必要ですか？** 無料トライアルはテスト用として使用できますが、本番環境ではライセンスが必要です。
+- **サポートされている Java のバージョンはどれですか？** Java8 以降（Java15 を含む）。
+- **抽出にはどのくらいの時間がかかりますか？** 標準的なノートブックでは通常数秒です。
 
-## What is image extraction from OneNote?
+## OneNote からの画像抽出とは何ですか？
 画像抽出とは、OneNote（.one）ファイルに埋め込まれたすべての画像をプログラムで検出し、各画像を個別の画像ファイルとしてディスクに保存することを指します。ノートブック環境外でグラフィックを再利用したい場合に便利です。
 
-## Why extract images from OneNote using Java?
+## Java を使用して OneNote から画像を抽出する理由は何ですか？
 - **Automation:** 手作業なしで多数のノートブックをバッチ処理できます。  
 - **Consistency:** すべてのファイルで同じ抽出ロジックを保証します。  
 - **Integration:** OCR や画像解析など、他の Java ベースのワークフローと簡単に組み合わせられます。  
 
-## Prerequisites
+## 前提条件
 
 開始する前に、以下を用意してください。
 
@@ -41,7 +41,7 @@ weight: 14
 
 2. **Aspose.Note Library** – Aspose.Note ライブラリをダウンロードし、Java プロジェクトに組み込んでください。入手は [download link](https://releases.aspose.com/note/java/) からです。
 
-## Import Packages
+## パッケージのインポート
 
 開始するには、必要なパッケージをインポートします：
 
@@ -54,7 +54,7 @@ import com.aspose.note.Document;
 import com.aspose.note.Image;
 ```
 
-## Step 1: Load the Document
+## ステップ 1: ドキュメントの読み込み
 
 まず、Aspose.Note を使用して OneNote ドキュメントを読み込みます：
 
@@ -63,7 +63,7 @@ String dataDir = "Your Document Directory";
 Document doc = new Document(dataDir + "Sample1.one");
 ```
 
-## Step 2: Get All Images
+## ステップ 2: すべての画像の取得
 
 次に、ドキュメント内のすべての画像を取得します：
 
@@ -72,7 +72,7 @@ List<Image> list = doc.getChildNodes(Image.class);
 System.out.printf("Total Images: %s\n\n", list.size());
 ```
 
-## Step 3: Extract Images
+## ステップ 3: 画像の抽出
 
 画像リストを反復処理し、各画像をファイルに保存します：
 
@@ -86,37 +86,37 @@ for (int i = 0; i < list.size(); i++) {
 }
 ```
 
-## Common Issues and Solutions
+## よくある問題と解決策
 - **No images found:** ソースの `.one` ファイルに埋め込み画像が実際に含まれているか確認してください。  
 - **File permission errors:** `dataDir` パスが書き込み可能であることを確認してください。  
 - **Unsupported image formats:** Aspose.Note は一般的なフォーマット（PNG、JPEG、GIF）をサポートしています。サポート外の形式の場合は、まず OneNote でノートブックを変換してください。
 
-## Conclusion
+## まとめ
 
 上記の手順に従うことで、Java と Aspose.Note ライブラリを使用して OneNote ドキュメントから **画像を抽出する方法** が理解できました。このロジックを大規模アプリケーションに組み込んだり、バッチ処理を自動化したり、単にグラフィックを再利用したりすることが可能です。
 
-## Frequently Asked Questions
+## よくある質問
 
-**Q: Can I extract images from password‑protected OneNote documents?**  
-A: Yes, Aspose.Note supports extracting images from password‑protected notebooks.
+**Q: パスワードで保護された OneNote ドキュメントから画像を抽出できますか？**
+A: はい、Aspose.Note はパスワードで保護されたノートブックからの画像抽出をサポートしています。
 
-**Q: Is Aspose.Note compatible with different versions of Java?**  
-A: Aspose.Note works with Java 8 and newer, giving you flexibility across environments.
+**Q: Aspose.Note は異なるバージョンの Java と互換性がありますか？**
+A: Aspose.Note は Java8 以降で動作するため、環境を問わず柔軟に使用できます。
 
-**Q: Can I extract images from multiple OneNote documents in a single execution?**  
-A: Absolutely. Loop through a list of file paths and apply the same extraction logic to each document.
+**Q: 1 回の実行で複数の OneNote ドキュメントから画像を抽出できますか？**
+A: もちろんです。ファイルパスのリストをループ処理し、各ドキュメントに同じ抽出ロジックを適用します。
 
-**Q: Are there any size limitations for the OneNote documents?**  
-A: Aspose.Note efficiently handles large notebooks; there’s no hard size limit for image extraction.
+**Q: OneNote ドキュメントにサイズ制限はありますか？**
+A: Aspose.Note は大きなノートブックを効率的に処理します。画像抽出に厳密なサイズ制限はありません。
 
-**Q: Does Aspose.Note support extracting other content types besides images?**  
-A: Yes, you can also extract text, attachments, and other embedded objects.
+**Q: Aspose.Note は画像以外のコンテンツタイプの抽出をサポートしていますか？**
+A: はい、テキスト、添付ファイル、その他の埋め込みオブジェクトも抽出できます。
 
 ---
 
-**Last Updated:** 2025-12-21  
-**Tested With:** Aspose.Note for Java 24.12  
-**Author:** Aspose  
+**最終更新日:** 2025年12月21日
+**テスト環境:** Aspose.Note for Java 24.12
+**作成者:** Aspose  
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

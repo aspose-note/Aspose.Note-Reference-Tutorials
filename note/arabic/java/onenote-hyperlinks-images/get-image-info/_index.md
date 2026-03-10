@@ -144,15 +144,15 @@ for (Image image : list) {
 
 باتباع الخطوات الموضحة في هذا الدليل، يمكنك بفعالية **get image dimensions java** من مستندات OneNote باستخدام Aspose.Note for Java. دمج هذه الوظيفة في تطبيقاتك يمكن أن ي automate tasks related to document processing، مما يعزز الكفاءة والإنتاجية.
 
+---
+
+**آخر تحديث:** 2025-12-21  
+**تم الاختبار مع:** Aspose.Note for Java 23.12  
+**المؤلف:** Aspose
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
-
----
-
-**آخر تحديث:** 2025-12-21  
-**تم الاختبار مع:** Aspose.Note for Java 23.12  
-**المؤلف:** Aspose
