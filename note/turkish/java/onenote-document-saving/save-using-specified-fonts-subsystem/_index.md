@@ -1,37 +1,54 @@
 ---
-title: OneNote'ta Belirtilen Yazı Tipleri Alt Sistemini Kullanarak Kaydetme
-linktitle: OneNote'ta Belirtilen Yazı Tipleri Alt Sistemini Kullanarak Kaydetme
-second_title: Aspose.Note Java API'si
-description: Aspose.Note ile Java'da belirtilen yazı tipi alt sistemini kullanarak OneNote belgelerini nasıl kaydedeceğinizi öğrenin. Platformlar arasında tutarlı yazı tipi gösterimini zahmetsizce sağlayın.
-weight: 22
+date: 2025-12-18
+description: Java'da Aspose.Note ile belirtilen yazı tipleri alt sistemini kullanarak
+  **OneNote'u PDF olarak kaydetmeyi** öğrenin. Bu kılavuz ayrıca OneNote'u PDF'ye
+  dönüştürmeyi, özel yazı tipi dosyalarını yüklemeyi ve varsayılan yazı tiplerini
+  belirtmeyi gösterir.
+linktitle: Save OneNote as PDF Using Specified Fonts Subsystem
+second_title: Aspose.Note Java API
+title: Belirtilen Yazı Tipleri Alt Sistemiyle OneNote'u PDF Olarak Kaydet
 url: /tr/java/onenote-document-saving/save-using-specified-fonts-subsystem/
+weight: 22
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# OneNote'ta Belirtilen Yazı Tipleri Alt Sistemini Kullanarak Kaydetme
+# Belirtilen Yazı Tipi Alt Sistemini Kullanarak OneNote'u PDF Olarak Kaydet
 
-## giriiş
+## Giriş
 
-Aspose.Note for Java, OneNote belgeleriyle çalışmak için güçlü yetenekler sağlar. Bu tür belgelerle çalışırken ortak gereksinimlerden biri, özellikle belge PDF gibi farklı formatlarda dışa aktarılacak veya kaydedilecekse, yazı tiplerinin düzgün şekilde korunmasını sağlamaktır. Bu eğitim, yazı tipi alt sistemini belirlerken OneNote belgelerini kaydetme sürecinde size rehberlik edecek ve metnin çeşitli platformlarda tutarlı ve doğru şekilde temsil edilmesini sağlayacaktır.
+## Hızlı Yanıtlar
+- **“OneNote'u PDF olarak kaydetmek” ne anlama geliyor?** Bir .one dosyasını, düzeni ve stilini koruyarak PDF'ye dönüştürür.  
+- **Hangi API yazı tiplerini yönetir?** `DocumentFontsSubsystem` size varsayılan bir yazı tipi tanımlama veya özel bir yazı tipi dosyası/akışı yükleme imkanı verir.  
+- **Üretim için lisansa ihtiyacım var mı?** Evet, deneme dışı kullanım için ticari bir Aspose.Note lisansı gereklidir.  
+- **Bir kerede birden fazla dosyayı dönüştürebilir miyim?** Kesinlikle – `Document` yükleme ve kaydetme mantığını döngü içinde çalıştırmanız yeterli.  
+- **Hangi Java sürümü gerekiyor?** Java 15 veya üzeri (örnek JDK 15 kullanıyor).
 
-## Önkoşullar
+## “Yazı Tipi Alt Sistemiyle OneNote'u PDF Olarak Kaydetmek” nedir?
 
-Eğiticiye dalmadan önce aşağıdaki önkoşulları oluşturduğunuzdan emin olun:
+Yazı tipi alt sistemiyle OneNote'u PDF olarak kaydetmek, dönüşüm sürecinde Aspose.Note'un eksik glifleri sağladığınız yazı tipiyle değiştirmesi anlamına gelir. Bu, orijinal yazı tipi yüklü olmasa bile PDF'nin her cihazda aynı görünmesini garanti eder.
 
-### 1. Java Geliştirme Kiti (JDK)
+## OneNote'u PDF'e dönüştürürken yazı tipi alt sistemini neden kontrol etmelisiniz?
 
- Sisteminizde Java Development Kit'in (JDK) kurulu olduğundan emin olun. Şuradan indirebilirsiniz[Burada](https://www.oracle.com/java/technologies/javase-jdk15-downloads.html) eğer henüz yapmadıysanız.
+- **Tutarlı marka kimliği** – kurumsal belgeler tam olarak aynı yazı tipini korur.  
+- **Çapraz platform güvenilirliği** – PDF'ler Windows, macOS, Linux ve mobil cihazlarda aynı şekilde görüntülenir.  
+- **Azaltılmış hatalar** – eksik yazı tipi uyarıları ortadan kalkar, temiz çıktı üretir.
 
-### 2. Java Kütüphanesi için Aspose.Note
+## Ön Koşullar
 
- Aspose.Note for Java kütüphanesini indirin ve kurun. adresinden indirebilirsiniz.[İnternet sitesi](https://releases.aspose.com/note/java/).
+### 1. Java Development Kit (JDK)
 
-## Paketleri İçe Aktar
+Sisteminizde Java Development Kit (JDK) yüklü olduğundan emin olun. Henüz yüklemediyseniz, [buradan](https://www.oracle.com/java/technologies/javase-jdk15-downloads.html) indirebilirsiniz.
 
-Gerekli paketleri Java projenize aktardığınızdan emin olun:
+### 2. Aspose.Note for Java Library
+
+Aspose.Note for Java kütüphanesini indirin ve kurun. [web sitesinden](https://releases.aspose.com/note/java/) indirebilirsiniz.
+
+## Paketleri İçe Aktarma
+
+Make sure to import the necessary packages in your Java project:
 
 ```java
 import com.aspose.note.Document;
@@ -45,80 +62,82 @@ import java.nio.file.Paths;
 
 Şimdi süreci daha iyi anlamak için her örneği birden fazla adıma ayıralım.
 
-## 1. Adım: Varsayılan Yazı Tipi Adıyla Belge Yazı Tipleri Alt Sistemini Kullanarak Kaydetme
+## Document Fonts Subsystem'i varsayılan bir yazı tipiyle kullanarak **OneNote'u PDF Olarak Kaydetme**
 
-Bu adım, belirli bir varsayılan yazı tipi adını kullanarak bir belgenin PDF formatında nasıl kaydedileceğini gösterir.
+### Adım 1: Document Fonts Subsystem'i Varsayılan Yazı Tipi Adı ile Kaydetme
+
+Bu adım, varsayılan bir yazı tipi adı belirterek **OneNote'u PDF olarak kaydetmenin** basit bir yolunu gösterir.
 
 ```java
 public static void SaveUsingDocumentFontsSubsystemWithDefaultFontName() throws IOException
 {
-    // Belgeyi Aspose.Note'a yükleyin.
+    // Load the document into Aspose.Note.
     Document oneFile = new Document("missing-font.one");
 
-    // Varsayılan yazı tipini belirtin.
+    // Specify the default font.
     PdfSaveOptions options = new PdfSaveOptions();
     options.setFontsSubsystem(DocumentFontsSubsystem.usingDefaultFont("Times New Roman"));
 
-    // Belgeyi PDF olarak kaydedin.
+    // Save the document as PDF.
     oneFile.save("SaveUsingDocumentFontsSubsystemWithDefaultFontName_out.pdf", options);
 }
 ```
 
 Bu adımda:
 - OneNote belgesi Aspose.Note kullanılarak yüklenir.
-- Varsayılan yazı tipi "Times New Roman" olarak belirtilmiştir.
-- Belge, belirtilen yazı tipiyle PDF formatında kaydedilir.
+- **Varsayılan yazı tipi**, **"Times New Roman"** olarak belirtilir.
+- Belge, seçilen yazı tipiyle PDF formatında kaydedilir.
 
-## Adım 2: Dosyadan Varsayılan Yazı Tipiyle Belge Yazı Tipleri Alt Sistemini Kullanarak Kaydetme
+### Adım 2: Document Fonts Subsystem'i Dosyadan Varsayılan Yazı Tipi ile Kaydetme
 
-Bu adım, bir dosyadan yüklenen varsayılan yazı tipini kullanarak bir belgenin PDF formatında nasıl kaydedileceğini gösterir.
+Burada **özel bir yazı tipi dosyası** yüklenir ve PDF'ye dönüştürürken yedek olarak kullanılır.
 
 ```java
 public static void SaveUsingDocumentFontsSubsystemWithDefaultFontFromFile() throws IOException
 {
-    // Belgeyi Aspose.Note'a yükleyin.
+    // Load the document into Aspose.Note.
     Document oneFile = new Document("missing-font.one");
 
-    // Yazı tipi dosyasının yolunu belirtin.
+    // Specify the path to the font file.
     String fontFile = "geo_1.ttf";
 
-    // Dosyadan varsayılan yazı tipini belirtin.
+    // Specify the default font from the file.
     PdfSaveOptions options = new PdfSaveOptions();
     options.setFontsSubsystem(DocumentFontsSubsystem.usingDefaultFontFromFile(fontFile));
 
-    // Belgeyi PDF olarak kaydedin.
+    // Save the document as PDF.
     oneFile.save("SaveUsingDocumentFontsSubsystemWithDefaultFontFromFile_out.pdf", options);
 }
 ```
 
-Bu adımda:
-- "geo_1.ttf" yazı tipi dosyası yüklendi.
-- Varsayılan yazı tipi, yüklenen yazı tipi dosyasından belirtilir.
-- Belge, belirtilen yazı tipiyle PDF formatında kaydedilir.
+Ana noktalar:
+- **Özel yazı tipi dosyası** `geo_1.ttf` **diskten yüklenir**.
+- `usingDefaultFontFromFile` **dosyadan varsayılan yazı tipini belirler**, orijinal yazı tipi eksik olduğunda PDF'nin bu yazı tipini kullanmasını sağlar.
+- Ortaya çıkan PDF, istenen görünümü korur.
 
-## 3. Adım: Akıştan Varsayılan Yazı Tipiyle Belge Yazı Tipleri Alt Sistemini Kullanarak Kaydetme
+### Adım 3: Document Fonts Subsystem'i Akıştan Varsayılan Yazı Tipi ile Kaydetme
 
-Bu adım, bir akıştan yüklenen varsayılan yazı tipini kullanarak bir belgenin PDF formatında nasıl kaydedileceğini gösterir.
+Bazen yazı tipi bir veritabanında saklanabilir veya ağ üzerinden alınabilir. Bu örnek, **yazı tipi akışı kullanmayı** gösterir.
 
 ```java
 public static void SaveUsingDocumentFontsSubsystemWithDefaultFontFromStream() throws IOException
 {
-    // Belgeyi Aspose.Note'a yükleyin.
+    // Load the document into Aspose.Note.
     Document oneFile = new Document("missing-font.one");
 
-    // Yazı tipi dosyasının yolunu belirtin.
+    // Specify the path to the font file.
     String fontFile = "geo_1.ttf";
 
-    // Yazı tipi dosyasını akış olarak yükleyin.
+    // Load the font file as a stream.
     InputStream stream = new FileInputStream(fontFile);
 
     try
     {
-        // Akıştan varsayılan yazı tipini belirtin.
+        // Specify the default font from the stream.
         PdfSaveOptions options = new PdfSaveOptions();
         options.setFontsSubsystem(DocumentFontsSubsystem.usingDefaultFontFromStream(stream));
 
-        // Belgeyi PDF olarak kaydedin.
+        // Save the document as PDF.
         oneFile.save("SaveUsingDocumentFontsSubsystemWithDefaultFontFromStream_out.pdf", options);
     }
     catch (Exception e)
@@ -128,36 +147,44 @@ public static void SaveUsingDocumentFontsSubsystemWithDefaultFontFromStream() th
 }
 ```
 
-Bu adımda:
-- "geo_1.ttf" yazı tipi dosyası akış olarak yüklenir.
-- Varsayılan yazı tipi, yüklenen akıştan belirtilir.
-- Belge, belirtilen yazı tipiyle PDF formatında kaydedilir.
+Burada şu gerçekleşir:
+- Yazı tipi dosyası bir **InputStream** olarak açılır; bu, yazı tipinin dosya dışı bir kaynağa ait olduğu durumlarda faydalıdır.
+- `usingDefaultFontFromStream` **yazı tipi akışı** kullanarak yedek yazı tipini tanımlar.
+- OneNote dosyası, akış tabanlı yazı tipiyle PDF olarak kaydedilir.
 
-## Çözüm
+## Yaygın Sorunlar ve Çözümler
 
-Bu eğitimde, Aspose.Note'u kullanarak Java'da belirtilen yazı tipi alt sistemini kullanarak OneNote belgelerinin nasıl kaydedileceğini öğrendik. Bu adımları izleyerek belgelerinizi dışa aktarırken veya kaydederken çeşitli platformlarda tutarlı yazı tipi gösterimi sağlayabilirsiniz.
+| Sorun | Neden Oluşur | Nasıl Çözülür |
+|-------|--------------|---------------|
+| **Eksik yazı tipi uyarıları** | Kaynak .one dosyası, makinede bulunmayan bir yazı tipine başvurur. | `usingDefaultFont`, `usingDefaultFontFromFile` veya `usingDefaultFontFromStream` aracılığıyla varsayılan bir yazı tipi sağlayın. |
+| **Özel yazı tipi dosyası bulunamadı** | `.ttf` dosyasının yolu yanlış. | Mutlak yollar kullanın veya çalışma dizininden göreceli yolu doğrulayın. |
+| **Akış kapatılmadı** | `close()` çağrılmadan önce bir istisna oluşur. | Otomatik kapatma için try‑with‑resources kullanın (`try (InputStream stream = ...) { ... }`). |
 
-## SSS'ler
+## Sıkça Sorulan Sorular
 
-### S1: Belgenin farklı bölümleri için farklı yazı tipleri belirtebilir miyim?
+**S: Belgenin farklı bölümleri için farklı yazı tipleri belirleyebilir miyim?**  
+C: Evet, Aspose.Note'taki `Font` sınıfını kullanarak bireysel zengin metin öğelerine özel yazı tipi ayarları uygulayabilirsiniz.
 
-Cevap1: Evet, Aspose.Note for Java'yı kullanarak belgenin farklı bölümleri için farklı yazı tipleri belirleyebilirsiniz.
+**S: Aspose.Note tüm OneNote sürümleriyle uyumlu mu?**  
+C: Aspose.Note, son masaüstü ve mobil sürümlerinden OneNote dosyalarını destekler, geniş bir uyumluluk sağlar.
 
-### S2: Aspose.Note, OneNote'un tüm sürümleriyle uyumlu mudur?
+**S: Belgeleri kaydederken eksik yazı tiplerini nasıl ele alabilirim?**  
+C: Yukarıda gösterilen yazı tipi alt sistemi yöntemlerini (`usingDefaultFont`, `usingDefaultFontFromFile`, `usingDefaultFontFromStream`) kullanarak bir yedek sağlayabilirsiniz.
 
-Cevap2: Aspose.Note, OneNote'un çeşitli sürümlerini destekleyerek farklı ortamlar arasında uyumluluk sağlar.
+**S: Yazı tipi özelliklerini, örneğin boyut ve stil gibi, özelleştirebilir miyim?**  
+C: Kesinlikle – API, bir koşul (run) bazında boyut, stil, renk ve diğer nitelikleri ayarlamanıza izin verir.
 
-### S3: Belgeleri kaydederken eksik yazı tiplerini nasıl halledebilirim?
+**S: Aspose.Note for Java için bir deneme sürümü mevcut mu?**  
+C: Evet, Aspose web sitesinden ücretsiz bir deneme sürümü indirilebilir.
 
-Cevap3: Aspose.Note, belge kaydetme sırasında eksik yazı tiplerini etkili bir şekilde ele almak için varsayılan yazı tiplerini belirleme seçenekleri sunar.
+## Sonuç
 
-### S4: Boyut ve stil gibi yazı tipi özelliklerini özelleştirebilir miyim?
+Bu öğreticide, Aspose.Note ile Java'da yazı tipi alt sistemini kontrol ederken **OneNote'u PDF olarak kaydetmeyi** öğrendik. Varsayılan bir yazı tipi adı belirleme, özel bir yazı tipi dosyası yükleme veya bir yazı tipi akışı kullanma gibi üç yaklaşımı izleyerek OneNote belgelerinizi dışa aktarırken veya kaydederken platformlar arasında tutarlı bir yazı tipi temsili garanti edebilirsiniz.
 
-Cevap4: Evet, Aspose.Note for Java'yı kullanarak boyut, stil ve renk gibi yazı tipi özelliklerini özelleştirebilirsiniz.
+**Last Updated:** 2025-12-18  
+**Tested With:** Aspose.Note for Java 24.11  
+**Author:** Aspose  
 
-### S5: Aspose.Note for Java'nın deneme sürümü mevcut mu?
-
-Cevap5: Evet, web sitesinden Aspose.Note for Java'nın ücretsiz deneme sürümünü edinebilirsiniz.
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

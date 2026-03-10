@@ -1,32 +1,51 @@
 ---
-title: Sử dụng thuật toán Keep Solid Objects trong OneNote - Aspose.Note
-linktitle: Sử dụng thuật toán Keep Solid Objects trong OneNote - Aspose.Note
-second_title: API Java Aspose.Note
-description: Tìm hiểu cách bảo toàn các đối tượng rắn trong tài liệu Aspose.Note của bạn khi chuyển đổi sang PDF bằng Thuật toán Keep Solid Objects trong Java.
-weight: 25
+date: 2025-12-18
+description: Tìm hiểu cách chuyển OneNote sang PDF và lưu tài liệu PDF Java bằng thuật
+  toán Keep Solid Objects của Aspose.Note trong Java.
+linktitle: Convert OneNote to PDF with Keep Solid Objects Algorithm
+second_title: Aspose.Note Java API
+title: Chuyển OneNote sang PDF với Thuật toán Giữ Đối Tượng Rắn
 url: /vi/java/onenote-document-saving/use-keep-solid-objects-algorithm/
+weight: 25
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Sử dụng thuật toán Keep Solid Objects trong OneNote - Aspose.Note
+# Chuyển đổi OneNote sang PDF với Thuật toán Giữ Đối tượng Rắn
 
 ## Giới thiệu
 
-Trong hướng dẫn này, chúng ta sẽ khám phá cách sử dụng Thuật toán Keep Solid Objects trong Aspose.Note cho Java. Thuật toán này rất có giá trị trong việc duy trì tính toàn vẹn của các đối tượng rắn trong tài liệu của bạn khi chuyển đổi chúng sang định dạng PDF. Chúng tôi sẽ chia nhỏ quy trình ra từng bước để đảm bảo sự rõ ràng và dễ hiểu ở từng giai đoạn.
+Trong hướng dẫn này, chúng tôi sẽ chỉ cho bạn cách **convert onenote to pdf** trong khi giữ nguyên các đối tượng rắn, sử dụng Thuật toán Keep Solid Objects Algorithm do Aspose.Note for Java cung cấp. Dù bạn đang tạo báo cáo, lưu trữ ghi chú, hay xây dựng một quy trình xử lý tài liệu, việc giữ nguyên các đối tượng rắn là rất quan trọng để duy trì tính toàn vẹn của tài liệu. Chúng tôi cũng sẽ chỉ cho bạn cách **save document pdf java** với cùng các cài đặt.
 
-## Điều kiện tiên quyết
+## Câu trả lời nhanh
+- **Thuật toán Keep Solid Objects Algorithm làm gì?** Nó đảm bảo rằng các đối tượng rắn như hình dạng và bản vẽ vẫn ở cùng một trang khi tệp OneNote được chia khi chuyển đổi sang PDF.  
+- **Tôi có cần giấy phép để thử không?** Có, một giấy phép dùng thử miễn phí có sẵn từ Aspose.  
+- **Yêu cầu phiên bản Java nào?** Đề nghị sử dụng Java 8 trở lên.  
+- **Tôi có thể điều chỉnh giới hạn chiều cao cho các phần được sao chép không?** Chắc chắn – bạn có thể truyền giới hạn chiều cao tùy chỉnh cho thuật toán.  
+- **Cách tiếp cận này có phù hợp với các tệp OneNote lớn không?** Có, thuật toán hoạt động hiệu quả ngay cả với các ghi chú đa trang.
 
-Trước khi chúng tôi bắt đầu, hãy đảm bảo bạn có những điều sau:
+## “convert onenote to pdf” là gì?
 
-1. Bộ công cụ phát triển Java (JDK) được cài đặt trên hệ thống của bạn.
-2.  Aspose.Note cho thư viện Java. Bạn có thể tải nó xuống từ[đây](https://releases.aspose.com/note/java/).
+Chuyển đổi sổ tay OneNote sang PDF tạo ra một phiên bản di động, chỉ đọc của ghi chú của bạn, có thể chia sẻ trên nhiều nền tảng. Quá trình chuyển đổi thường tự động chia trang, điều này có thể làm hỏng các bản vẽ phức tạp. Thuật toán Keep Solid Objects Algorithm ngăn chặn điều này bằng cách giữ mỗi đối tượng rắn nguyên vẹn.
 
-## Gói nhập khẩu
+## Tại sao nên sử dụng Thuật toán Keep Solid Objects Algorithm?
 
-Đầu tiên, hãy nhập các gói cần thiết:
+- **Bảo toàn độ trung thực hình ảnh** – các hình dạng, biểu đồ và bản vẽ vẫn giữ nguyên như trong OneNote.  
+- **Giảm công việc xử lý thủ công** – không cần căn chỉnh lại các đối tượng sau khi chuyển đổi.  
+- **Cải thiện việc hiển thị PDF** – duy trì tính nhất quán trên các trình xem PDF.  
+
+## Yêu cầu trước
+
+Trước khi bắt đầu, hãy chắc chắn rằng bạn đã có:
+
+1. Java Development Kit (JDK) được cài đặt trên hệ thống của bạn.  
+2. Thư viện Aspose.Note for Java. Bạn có thể tải xuống từ [đây](https://releases.aspose.com/note/java/).  
+
+## Nhập khẩu các gói
+
+Đầu tiên, nhập các lớp cần thiết:
 
 ```java
 import java.io.IOException;
@@ -39,16 +58,16 @@ import com.aspose.note.PdfSaveOptions;
 
 ## Bước 1: Tải tài liệu
 
-Tải tài liệu vào Aspose.Note bằng đoạn mã sau:
+Tải tệp OneNote của bạn vào một đối tượng `Document`:
 
 ```java
 String dataDir = "Your Document Directory";
 Document doc = new Document(dataDir + "Aspose.one");
 ```
 
-## Bước 2: Định cấu hình tùy chọn lưu PDF
+## Bước 2: Cấu hình tùy chọn lưu PDF
 
-Xác định PdfSaveOptions và đặt PageSplittingAlgorithm thành KeepSolidObjectsAlgorithm:
+Tạo một thể hiện `PdfSaveOptions` và đặt thuật toán chia trang thành `KeepSolidObjectsAlgorithm`:
 
 ```java
 PdfSaveOptions pdfSaveOptions = new PdfSaveOptions();
@@ -57,7 +76,7 @@ pdfSaveOptions.setPageSplittingAlgorithm(new KeepSolidObjectsAlgorithm());
 
 ## Bước 3: Điều chỉnh giới hạn chiều cao (Tùy chọn)
 
-Bạn có thể điều chỉnh giới hạn chiều cao của các phần được nhân bản nếu cần:
+Nếu bạn cần kiểm soát chi tiết hơn cách các phần được sao chép, hãy chỉ định giới hạn chiều cao (theo điểm). Điều này hữu ích khi làm việc với các đối tượng rất cao:
 
 ```java
 float heightLimitOfClonedPart = 500;
@@ -66,7 +85,7 @@ pdfSaveOptions.setPageSplittingAlgorithm(new KeepSolidObjectsAlgorithm(heightLim
 
 ## Bước 4: Lưu tài liệu
 
-Cuối cùng, lưu tài liệu với các tùy chọn lưu PDF được chỉ định:
+Cuối cùng, lưu tài liệu OneNote dưới dạng PDF bằng các tùy chọn đã cấu hình:
 
 ```java
 String outputDir = "Your Output Directory";
@@ -74,31 +93,39 @@ String outputFile = outputDir + "UsingKeepSolidObjectsAlgorithm_out.pdf";
 doc.save(outputFile);
 ```
 
-## Phần kết luận
+## Các vấn đề thường gặp và giải pháp
 
-Trong hướng dẫn này, chúng ta đã học cách sử dụng Thuật toán Keep Solid Objects trong Aspose.Note cho Java. Thuật toán này đảm bảo rằng các đối tượng rắn trong tài liệu của bạn được giữ nguyên khi chuyển đổi chúng sang định dạng PDF, duy trì tính toàn vẹn của tài liệu.
+- **Các đối tượng vẫn bị chia qua các trang** – Kiểm tra xem bạn đang sử dụng phiên bản mới nhất của Aspose.Note và giới hạn chiều cao (nếu đã đặt) có đủ lớn cho các đối tượng của bạn không.  
+- **Thiếu phông chữ hoặc ký hiệu** – Đảm bảo các phông chữ cần thiết đã được cài đặt trên máy tính nơi thực hiện chuyển đổi.  
+- **Giảm hiệu năng khi xử lý sổ tay lớn** – Xem xét xử lý sổ tay thành các lô nhỏ hơn hoặc tăng kích thước heap của JVM.
 
 ## Câu hỏi thường gặp
 
-### Câu hỏi 1: Tôi có thể điều chỉnh giới hạn chiều cao cho các bộ phận nhân bản không?
+### H1: Tôi có thể điều chỉnh giới hạn chiều cao cho các phần được sao chép không?
 
- Trả lời 1: Có, bạn có thể điều chỉnh giới hạn chiều cao của các bộ phận được nhân bản theo yêu cầu của mình bằng cách sử dụng`heightLimitOfClonedPart` tham số.
+A1: Có, bạn có thể điều chỉnh giới hạn chiều cao của các phần được sao chép theo yêu cầu của mình bằng tham số `heightLimitOfClonedPart`.
 
-### Câu hỏi 2: Tôi có thể tìm thêm tài liệu ở đâu?
+### H2: Tôi có thể tìm tài liệu chi tiết ở đâu?
 
- Câu trả lời 2: Bạn có thể tìm tài liệu chi tiết về Aspose.Note for Java[đây](https://reference.aspose.com/note/java/).
+A2: Bạn có thể tìm tài liệu chi tiết về Aspose.Note for Java [đây](https://reference.aspose.com/note/java/).
 
-### Câu 3: Có bản dùng thử miễn phí không?
+### H3: Có phiên bản dùng thử miễn phí không?
 
- Câu trả lời 3: Có, bạn có thể dùng thử miễn phí Aspose.Note dành cho Java[đây](https://releases.aspose.com/).
+A3: Có, bạn có thể nhận phiên bản dùng thử miễn phí của Aspose.Note for Java [đây](https://releases.aspose.com/).
 
-### Q4: Làm cách nào tôi có thể nhận được hỗ trợ nếu gặp bất kỳ vấn đề nào?
+### H4: Làm sao tôi có thể nhận hỗ trợ nếu gặp vấn đề?
 
- Câu trả lời 4: Bạn có thể nhận được hỗ trợ từ cộng đồng Aspose[đây](https://forum.aspose.com/c/note/28).
+A4: Bạn có thể nhận hỗ trợ từ cộng đồng Aspose [đây](https://forum.aspose.com/c/note/28).
 
-### Câu 5: Tôi có thể mua giấy phép ở đâu?
+### H5: Tôi có thể mua giấy phép ở đâu?
 
- Câu trả lời 5: Bạn có thể mua giấy phép cho Aspose.Note cho Java[đây](https://purchase.aspose.com/buy).
+A5: Bạn có thể mua giấy phép cho Aspose.Note for Java [đây](https://purchase.aspose.com/buy).
+
+---
+
+**Cập nhật lần cuối:** 2025-12-18  
+**Kiểm tra với:** Aspose.Note for Java 24.12  
+**Tác giả:** Aspose  
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

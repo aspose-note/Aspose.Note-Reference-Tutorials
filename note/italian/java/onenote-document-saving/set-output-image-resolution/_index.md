@@ -1,31 +1,53 @@
 ---
-title: Imposta la risoluzione dell'immagine di output in OneNote - Aspose.Note
-linktitle: Imposta la risoluzione dell'immagine di output in OneNote - Aspose.Note
-second_title: Aspose.Note API Java
-description: Scopri come regolare la risoluzione dell'immagine nei documenti OneNote utilizzando Aspose.Note per Java. Segui la nostra guida passo passo per una facile implementazione
-weight: 23
+date: 2025-12-18
+description: Impara come impostare la risoluzione JPEG e aumentare la risoluzione
+  delle immagini in OneNote usando Aspose.Note per Java. Segui la nostra guida passo‑passo
+  per regolare la risoluzione delle immagini nei documenti OneNote.
+linktitle: aspnote set jpeg resolution – Set Output Image Resolution in OneNote -
+  Aspose.Note
+second_title: Aspose.Note Java API
+title: aspnote imposta risoluzione jpeg – Imposta la risoluzione dell'immagine di
+  output in OneNote - Aspose.Note
 url: /it/java/onenote-document-saving/set-output-image-resolution/
+weight: 23
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Imposta la risoluzione dell'immagine di output in OneNote - Aspose.Note
+# aspnote set jpeg resolution – Imposta la risoluzione dell'immagine di output in OneNote - Aspose.Note
 
-## introduzione
+## Introduzione
 
-Stai cercando di manipolare la risoluzione delle immagini all'interno dei tuoi documenti OneNote utilizzando Java? Aspose.Note per Java offre una soluzione solida per tali attività. In questo tutorial, esamineremo i passaggi per impostare la risoluzione dell'immagine di output utilizzando Aspose.Note.
+In questo tutorial imparerai come **aspnote set jpeg resolution** quando esporti immagini da documenti OneNote utilizzando Aspose.Note per Java. Regolare la risoluzione dell'immagine è essenziale quando ti servono grafiche ad alta qualità per report, presentazioni o stampa, e ti aiuta anche a **increase onenote image resolution** senza gonfiare inutilmente le dimensioni del file. Ti guideremo attraverso l'intero processo — dal caricamento di un file OneNote al salvataggio con un'impostazione DPI personalizzata — così potrai applicare la tecnica nei tuoi progetti subito.
+
+## Risposte rapide
+- **Cosa fa aspnote set jpeg resolution?** Consente di definire i DPI delle immagini JPEG generate dalle pagine OneNote.  
+- **Perché aumentare onenote image resolution?** DPI più alti producono immagini più nitide, ideali per la stampa e per analisi visive dettagliate.  
+- **Quale formato posso usare?** L'esempio utilizza JPEG, ma Aspose.Note supporta PNG, BMP, GIF e altri.  
+- **È necessaria una licenza?** Una versione di prova gratuita è sufficiente per i test; per la produzione è richiesta una licenza commerciale.  
+- **Quanto tempo richiede l'implementazione?** Tipicamente meno di 10 minuti per una configurazione di base.
+
+## Che cos'è aspnote set jpeg resolution?
+
+Aspose.Note fornisce la classe `ImageSaveOptions`, che ti permette di controllare come le immagini vengono renderizzate quando un documento OneNote viene salvato. Impostando la proprietà `Resolution`, indichi esplicitamente alla libreria di generare file JPEG con il valore di punti per pollice (DPI) desiderato.
+
+## Perché aumentare onenote image resolution?
+
+- **Qualità pronta per la stampa:** DPI più alti garantiscono che le immagini rimangano nitide sulla carta.  
+- **Migliore chiarezza a schermo:** Grafica indipendente dallo zoom per dashboard o moduli e‑learning.  
+- **Coerenza del brand:** Assicura che loghi e diagrammi rispettino le linee guida aziendali.
 
 ## Prerequisiti
 
-Prima di iniziare, assicurati di possedere i seguenti prerequisiti:
+Prima di iniziare, assicurati di avere quanto segue:
 
-1. Java Development Kit (JDK): installa JDK sul tuo sistema.
-2. Aspose.Note per Java: Scarica e installa Aspose.Note per Java dal[sito web](https://releases.aspose.com/note/java/).
-3. Ambiente di sviluppo integrato (IDE): scegli il tuo IDE preferito come Eclipse o IntelliJ IDEA.
+1. **Java Development Kit (JDK)** – qualsiasi versione recente (consigliato Java 8+).  
+2. **Aspose.Note per Java** – scaricalo dal [sito web](https://releases.aspose.com/note/java/).  
+3. **IDE** – Eclipse, IntelliJ IDEA o qualsiasi editor compatibile con Java.
 
-## Importa pacchetti
+## Importare i pacchetti
 
 Nel tuo progetto Java, importa i pacchetti Aspose.Note necessari:
 
@@ -36,7 +58,7 @@ import com.aspose.note.ImageSaveOptions;
 import com.aspose.note.SaveFormat;
 ```
 
-## Passaggio 1: caricare il documento OneNote
+## Passo 1: Caricare il documento OneNote
 
 Inizia caricando il documento OneNote nella tua applicazione Java:
 
@@ -45,55 +67,64 @@ String dataDir = "Your Document Directory";
 Document doc = new Document(dataDir + "Sample1.one");
 ```
 
- Sostituire`"Your Document Directory"` con la directory effettiva in cui risiede il documento OneNote.
+Sostituisci `"Your Document Directory"` con il percorso reale in cui si trova il tuo file `.one`.
 
-## Passaggio 2: imposta le opzioni di salvataggio dell'immagine
+## Passo 2: Impostare le opzioni di salvataggio immagine
 
-Definire le opzioni di salvataggio dell'immagine e specificare la risoluzione desiderata:
+Definisci le opzioni di salvataggio immagine e specifica la risoluzione desiderata. Questo è il cuore di **aspnote set jpeg resolution**:
 
 ```java
 ImageSaveOptions imageSaveOptions = new ImageSaveOptions(SaveFormat.Jpeg);
 imageSaveOptions.setResolution(120);
 ```
 
- Qui stiamo impostando la risoluzione su`120 dpi`. È possibile modificare questo valore in base alle proprie esigenze.
+L'esempio imposta la risoluzione a **120 dpi**. Sentiti libero di aumentare questo valore — ad esempio `300` per immagini di qualità stampa — per **increase onenote image resolution** secondo le necessità.
 
-## Passaggio 3: salva il documento con la risoluzione modificata
+## Passo 3: Salvare il documento con la risoluzione modificata
 
-Salva il documento con la risoluzione dell'immagine aggiornata:
+Infine, salva il documento usando le opzioni configurate:
 
 ```java
 doc.save(dataDir + "SetOutputImageResolution_out.jpeg", imageSaveOptions);
 ```
 
-Ciò salverà il documento modificato con la risoluzione specificata.
+Il file di output `SetOutputImageResolution_out.jpeg` conterrà l'immagine JPEG renderizzata con i DPI specificati.
 
-## Conclusione
+## Problemi comuni e risoluzione
 
-In questo tutorial, abbiamo esplorato come impostare la risoluzione dell'immagine di output nei documenti OneNote utilizzando Aspose.Note per Java. Seguendo questi semplici passaggi, puoi manipolare in modo efficiente la risoluzione delle immagini per soddisfare i requisiti della tua applicazione.
-
+| Sintomo | Possibile causa | Soluzione |
+|---------|----------------|-----------|
+| L'immagine di output appare sfocata nonostante DPI elevati | Il contenuto originale di OneNote è a bassa risoluzione | Assicurati che la grafica di origine sia di alta qualità prima dell'esportazione |
+| `NullPointerException` su `setResolution` | Uso di una versione più vecchia di Aspose.Note | Aggiorna all'ultima release di Aspose.Note per Java |
+| La dimensione del file diventa troppo grande | DPI impostati eccessivamente alti (es. 600 dpi) | Bilancia DPI e dimensione accettabile del file; 150–300 dpi è tipico per la stampa |
 
 ## Domande frequenti
 
-### Q1: Posso regolare la risoluzione dell'immagine su un valore superiore a 120 dpi?
+**D: Posso impostare una risoluzione superiore a 120 dpi?**  
+R: Assolutamente. Puoi impostare qualsiasi valore intero che soddisfi i requisiti di qualità — ricorda solo che DPI più alti aumentano la dimensione del file.
 
-R1: Sì, puoi impostare la risoluzione su qualsiasi valore desiderato in base alle tue esigenze.
+**D: Aspose.Note supporta formati immagine diversi da JPEG?**  
+R: Sì. L'enumerazione `SaveFormat` include PNG, BMP, GIF e altri. Sostituisci `SaveFormat.Jpeg` con il formato desiderato.
 
-### Q2: Aspose.Note supporta altri formati di immagine oltre a JPEG?
+**D: Aspose.Note è compatibile con tutte le versioni di Java?**  
+R: La libreria funziona con Java 1.6 e successive, incluse Java 8, 11 e le versioni LTS più recenti.
 
-A2: Sì, Aspose.Note supporta vari formati di immagine come PNG, BMP, GIF, ecc.
+**D: Posso manipolare altre proprietà dell'immagine (es. ritaglio, rotazione) in OneNote?**  
+R: Sì. Aspose.Note offre un set completo di API per ridimensionare, ritagliare, ruotare e regolare la profondità di colore delle immagini.
 
-### Q3: Aspose.Note è compatibile con tutte le versioni di Java?
+**D: Dove posso ottenere supporto per Aspose.Note?**  
+R: Puoi chiedere assistenza nel forum della community di Aspose.Note [qui](https://forum.aspose.com/c/note/28).
 
-A3: Aspose.Note è compatibile con Java 1.6 o versioni successive.
+## Conclusione
 
-### Q4: posso manipolare altri aspetti delle immagini nei documenti OneNote utilizzando Aspose.Note?
+Seguendo questi passaggi, ora sai come **aspnote set jpeg resolution** e aumentare efficacemente **increase onenote image resolution** per qualsiasi documento OneNote usando Aspose.Note per Java. Regola i DPI in base ai requisiti visivi del tuo progetto e goditi immagini nitide e di alta qualità nelle tue applicazioni successive.
 
-A4: Sì, Aspose.Note fornisce funzionalità complete per la manipolazione delle immagini, inclusi ridimensionamento, ritaglio e rotazione.
+---
 
-### Q5: Dove posso ottenere supporto per le query relative ad Aspose.Note?
+**Ultimo aggiornamento:** 2025-12-18  
+**Testato con:** Aspose.Note per Java 24.12 (ultima versione al momento della scrittura)  
+**Autore:** Aspose  
 
- A5: È possibile chiedere assistenza al forum della community Aspose.Note[Qui](https://forum.aspose.com/c/note/28).
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

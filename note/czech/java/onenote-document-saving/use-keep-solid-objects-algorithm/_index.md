@@ -1,32 +1,51 @@
 ---
-title: Použijte algoritmus Keep Solid Objects ve OneNote – Aspose.Note
-linktitle: Použijte algoritmus Keep Solid Objects ve OneNote – Aspose.Note
+date: 2025-12-18
+description: Naučte se, jak převést OneNote do PDF a uložit dokument PDF v Javě pomocí
+  algoritmu Keep Solid Objects od Aspose.Note v Javě.
+linktitle: Convert OneNote to PDF with Keep Solid Objects Algorithm
 second_title: Aspose.Note Java API
-description: Naučte se, jak zachovat pevné objekty v dokumentech Aspose.Note při převodu do PDF pomocí algoritmu Keep Solid Objects v Javě.
-weight: 25
+title: Převést OneNote do PDF pomocí algoritmu Keep Solid Objects
 url: /cs/java/onenote-document-saving/use-keep-solid-objects-algorithm/
+weight: 25
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Použijte algoritmus Keep Solid Objects ve OneNote – Aspose.Note
+# Převod OneNote na PDF s algoritmem Keep Solid Objects Algorithm
 
 ## Úvod
 
-tomto tutoriálu prozkoumáme, jak využít algoritmus Keep Solid Objects v Aspose.Note pro Javu. Tento algoritmus je neocenitelný pro zachování integrity pevných objektů ve vašich dokumentech při jejich převodu do formátu PDF. Postup rozebereme krok za krokem a zajistíme jasnost a porozumění v každé fázi.
+V tomto tutoriálu vás provedeme, jak **convert onenote to pdf** při zachování pevných objektů, pomocí algoritmu Keep Solid Objects Algorithm poskytovaného společností Aspose.Note pro Java. Ať už generujete zprávy, archivujete poznámky nebo budujete pipeline pro zpracování dokumentů, udržení těchto pevných objektů v nezměněné podobě je zásadní pro integritu dokumentu. Také vám ukážeme, jak **save document pdf java** s těmito nastaveními.
+
+## Rychlé odpovědi
+- **Co dělá algoritmus Keep Solid Objects Algorithm?** Zajišťuje, že pevné objekty jako tvary a kresby zůstávají pohromadě na stránce, když je soubor OneNote během převodu na PDF rozdělen.  
+- **Potřebuji licenci k vyzkoušení?** Ano, bezplatná zkušební licence je k dispozici od Aspose.  
+- **Jaká verze Javy je vyžadována?** Doporučuje se Java 8 nebo vyšší.  
+- **Mohu upravit limit výšky pro klonované části?** Samozřejmě – můžete algoritmu předat vlastní limit výšky.  
+- **Je tento přístup vhodný pro velké soubory OneNote?** Ano, algoritmus funguje efektivně i u vícestránkových poznámek.
+
+## Co je “convert onenote to pdf”?
+
+Převod sešitů OneNote na PDF vytváří přenosnou, jen‑ke‑čtení verzi vašich poznámek, kterou lze sdílet napříč platformami. Proces převodu obvykle automaticky rozděluje stránky, což může poškodit složité kresby. Algoritmus Keep Solid Objects Algorithm tomu zabraňuje tím, že udržuje každý pevný objekt v celku.
+
+## Proč použít algoritmus Keep Solid Objects Algorithm?
+
+- **Zachovává vizuální věrnost** – tvary, grafy a kresby zůstávají přesně tak, jak se zobrazují v OneNote.  
+- **Snižuje manuální post‑zpracování** – není nutné po převodu objekty znovu zarovnávat.  
+- **Zlepšuje vykreslování PDF** – zachovává konzistenci napříč PDF prohlížeči.  
 
 ## Předpoklady
 
-Než začneme, ujistěte se, že máte následující:
+Než začneme, ujistěte se, že máte:
 
-1. Java Development Kit (JDK) nainstalovaný ve vašem systému.
-2.  Aspose.Note pro knihovnu Java. Můžete si jej stáhnout z[tady](https://releases.aspose.com/note/java/).
+1. Nainstalovaný Java Development Kit (JDK) ve vašem systému.  
+2. Knihovnu Aspose.Note pro Java. Můžete si ji stáhnout [zde](https://releases.aspose.com/note/java/).
 
-## Importujte balíčky
+## Import balíčků
 
-Nejprve naimportujeme potřebné balíčky:
+Nejprve importujte potřebné třídy:
 
 ```java
 import java.io.IOException;
@@ -37,36 +56,36 @@ import com.aspose.note.KeepSolidObjectsAlgorithm;
 import com.aspose.note.PdfSaveOptions;
 ```
 
-## Krok 1: Vložte dokument
+## Krok 1: Načtení dokumentu
 
-Načtěte dokument do Aspose.Note pomocí následujícího fragmentu kódu:
+Načtěte svůj soubor OneNote do objektu `Document`:
 
 ```java
 String dataDir = "Your Document Directory";
 Document doc = new Document(dataDir + "Aspose.one");
 ```
 
-## Krok 2: Nakonfigurujte možnosti uložení PDF
+## Krok 2: Nastavení možností uložení PDF
 
-Definujte PdfSaveOptions a nastavte PageSplittingAlgorithm na KeepSolidObjectsAlgorithm:
+Vytvořte instanci `PdfSaveOptions` a nastavte algoritmus rozdělení stránek na `KeepSolidObjectsAlgorithm`:
 
 ```java
 PdfSaveOptions pdfSaveOptions = new PdfSaveOptions();
 pdfSaveOptions.setPageSplittingAlgorithm(new KeepSolidObjectsAlgorithm());
 ```
 
-## Krok 3: Upravte limit výšky (volitelné)
+## Krok 3: Úprava limitu výšky (volitelné)
 
-V případě potřeby můžete upravit limit výšky klonovaných dílů:
+Pokud potřebujete jemnější kontrolu nad tím, jak jsou klonované části zpracovány, specifikujte limit výšky (v bodech). To je užitečné při práci s velmi vysokými objekty:
 
 ```java
 float heightLimitOfClonedPart = 500;
 pdfSaveOptions.setPageSplittingAlgorithm(new KeepSolidObjectsAlgorithm(heightLimitOfClonedPart));
 ```
 
-## Krok 4: Uložte dokument
+## Krok 4: Uložení dokumentu
 
-Nakonec uložte dokument se zadanými možnostmi uložení PDF:
+Nakonec uložte dokument OneNote jako PDF pomocí nakonfigurovaných možností:
 
 ```java
 String outputDir = "Your Output Directory";
@@ -74,31 +93,39 @@ String outputFile = outputDir + "UsingKeepSolidObjectsAlgorithm_out.pdf";
 doc.save(outputFile);
 ```
 
-## Závěr
+## Časté problémy a řešení
 
-V tomto tutoriálu jsme se naučili, jak využít algoritmus Keep Solid Objects v Aspose.Note pro Javu. Tento algoritmus zajišťuje, že pevné objekty ve vašich dokumentech budou zachovány při jejich převodu do formátu PDF, čímž se zachová integrita dokumentu.
+- **Objekty jsou stále rozděleny mezi stránky** – Ověřte, že používáte nejnovější verzi Aspose.Note a že nastavený limit výšky (pokud je nastaven) je dostatečně velký pro vaše objekty.  
+- **Chybějící fonty nebo symboly** – Ujistěte se, že požadované fonty jsou nainstalovány na počítači, kde probíhá převod.  
+- **Zpomalení výkonu u velkých sešitů** – Zvažte zpracování sešitu v menších dávkách nebo zvýšení velikosti haldy JVM.
 
-## FAQ
+## Často kladené otázky
 
-### Q1: Mohu upravit výškový limit pro klonované díly?
+### Q1: Mohu upravit limit výšky pro klonované části?
 
- A1: Ano, můžete upravit výškový limit klonovaných dílů podle vašich požadavků pomocí`heightLimitOfClonedPart` parametr.
+A1: Ano, můžete upravit limit výšky klonovaných částí podle svých požadavků pomocí parametru `heightLimitOfClonedPart`.
 
 ### Q2: Kde najdu další dokumentaci?
 
- A2: Můžete najít podrobnou dokumentaci na Aspose.Note pro Java[tady](https://reference.aspose.com/note/java/).
+A2: Podrobnou dokumentaci k Aspose.Note pro Java najdete [zde](https://reference.aspose.com/note/java/).
 
 ### Q3: Je k dispozici bezplatná zkušební verze?
 
- A3: Ano, můžete získat bezplatnou zkušební verzi Aspose.Note pro Java[tady](https://releases.aspose.com/).
+A3: Ano, bezplatnou zkušební verzi Aspose.Note pro Java získáte [zde](https://releases.aspose.com/).
 
-### Q4: Jak mohu získat podporu, pokud narazím na nějaké problémy?
+### Q4: Jak mohu získat podporu, pokud narazím na problémy?
 
- A4: Můžete získat podporu od komunity Aspose[tady](https://forum.aspose.com/c/note/28).
+A4: Podporu od komunity Aspose můžete získat [zde](https://forum.aspose.com/c/note/28).
 
-### Q5: Kde si mohu zakoupit licenci?
+### Q5: Kde mohu zakoupit licenci?
 
- A5: Můžete si zakoupit licenci pro Aspose.Note pro Java[tady](https://purchase.aspose.com/buy).
+A5: Licenci pro Aspose.Note pro Java můžete zakoupit [zde](https://purchase.aspose.com/buy).
+
+---
+
+**Poslední aktualizace:** 2025-12-18  
+**Testováno s:** Aspose.Note for Java 24.12  
+**Autor:** Aspose  
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

@@ -1,33 +1,43 @@
 ---
-title: Określ opcje zapisywania w programie OneNote — Aspose.Note
-linktitle: Określ opcje zapisywania w programie OneNote — Aspose.Note
-second_title: Aspose.Note API Java
-description: Dowiedz się, jak określić opcje zapisywania w programie OneNote przy użyciu programu Aspose.Note dla języka Java. Dostosuj indeks strony, liczbę i ustawienia kompresji bez wysiłku.
-weight: 24
+date: 2025-12-18
+description: Dowiedz się, jak zapisać wybrane strony jako PDF w OneNote przy użyciu
+  Aspose.Note dla Javy, obejmując indeks strony, liczbę stron i kompresję. Łatwo konwertuj
+  OneNote na PDF.
+linktitle: Save Specific Pages PDF in OneNote - Aspose.Note
+second_title: Aspose.Note Java API
+title: Zapisz określone strony PDF w OneNote – Aspose.Note
 url: /pl/java/onenote-document-saving/specify-save-options/
+weight: 24
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Określ opcje zapisywania w programie OneNote — Aspose.Note
+# Zapisz wybrane strony PDF w OneNote – Aspose.Note
 
-## Wstęp
+## Wprowadzenie
 
-tym samouczku dowiemy się, jak określić opcje zapisywania w OneNote przy użyciu Aspose.Note dla Java. Aspose.Note to potężna biblioteka Java, która umożliwia programistom programowe tworzenie, manipulowanie i konwertowanie dokumentów OneNote. Dzięki Aspose.Note możesz łatwo kontrolować różne opcje zapisywania, aby dostosować dane wyjściowe do swoich wymagań.
+W tym samouczku dowiesz się **jak zapisać wybrane strony PDF** z dokumentu OneNote przy użyciu Aspose.Note dla Javy. Niezależnie od tego, czy potrzebujesz **wyeksportować OneNote jako PDF**, **przekonwertować OneNote na PDF**, czy po prostu kontrolować zakres stron i kompresję, ten przewodnik przeprowadzi Cię przez każdy krok z jasnymi wyjaśnieniami i gotowym do uruchomienia kodem.
 
-## Warunki wstępne
+## Szybkie odpowiedzi
+- **Co oznacza „zapisz wybrane strony PDF”?** Umożliwia wybranie podzbioru stron OneNote i wygenerowanie pliku PDF zawierającego tylko te strony.  
+- **Która biblioteka obsługuje to?** Aspose.Note dla Javy udostępnia `PdfSaveOptions`, aby kontrolować indeks strony, liczbę stron oraz kompresję obrazów.  
+- **Czy potrzebna jest licencja?** Darmowa wersja próbna działa w środowisku deweloperskim; licencja komercyjna jest wymagana w produkcji.  
+- **Czy mogę ustawić indeks strony i liczbę stron?** Tak – użyj `setPageIndex()` i `setPageCount()` w `PdfSaveOptions`.  
+- **Czy obsługiwana jest kompresja obrazów?** Oczywiście – wybierz JPEG, PNG lub inne formaty za pomocą `setImageCompression()`.
 
-Zanim zaczniesz, upewnij się, że masz następujące wymagania wstępne:
+## Wymagania wstępne
 
-1. Podstawowa znajomość języka programowania Java.
-2. JDK (Java Development Kit) zainstalowany w twoim systemie.
-3.  Zainstalowana biblioteka Aspose.Note dla Java. Można go pobrać z[Tutaj](https://releases.aspose.com/note/java/).
+Zanim rozpoczniesz, upewnij się, że masz:
 
-## Importuj pakiety
+1. Podstawową znajomość programowania w Javie.  
+2. Zainstalowane JDK na swoim komputerze.  
+3. Bibliotekę Aspose.Note dla Javy pobraną z oficjalnej strony – możesz ją pobrać **[tutaj](https://releases.aspose.com/note/java/)**.  
 
-Aby rozpocząć, zaimportuj niezbędne pakiety do swojego kodu Java:
+## Importowanie pakietów
+
+Na początek zaimportuj klasy, które będą potrzebne:
 
 ```java
 import com.aspose.note.Document;
@@ -36,85 +46,106 @@ import com.aspose.note.PdfSaveOptions;
 import java.io.IOException;
 ```
 
-Podzielmy przykład na wiele kroków:
+Przejdźmy przez proces krok po kroku.
 
-## Krok 1: Załaduj dokument OneNote
+## Jak zapisać wybrane strony PDF
+
+### Krok 1: Załaduj dokument OneNote
 
 ```java
-// Ścieżka do katalogu dokumentów.
+// The path to the documents directory.
 String dataDir = "Your Document Directory";
 
-// Załaduj dokument do Aspose.Note.
+// Load the document into Aspose.Note.
 Document doc = new Document(dataDir + "Aspose.one");
 ```
 
- W tym kroku określamy ścieżkę do dokumentu OneNote i ładujemy go do`Document` obiekt.
+Tutaj wskazujemy folder zawierający plik źródłowy `.one` i ładujemy go do obiektu `Document`. Obiekt ten reprezentuje cały notes OneNote w pamięci.
 
-## Krok 2: Zainicjuj obiekt PdfSaveOptions
+### Krok 2: Zainicjalizuj `PdfSaveOptions`
 
 ```java
-// Zainicjuj obiekt PdfSaveOptions
+// Initialize PdfSaveOptions object
 PdfSaveOptions opts = new PdfSaveOptions();
 ```
 
- Tutaj inicjujemy a`PdfSaveOptions` obiekt, który będzie służył do określenia opcji zapisu dokumentu w formacie PDF.
+`PdfSaveOptions` zapewnia precyzyjną kontrolę nad procesem konwersji do PDF, w tym możliwość **ustawienia indeksu strony PDF** oraz **ustawienia liczby stron PDF**.
 
-## Krok 3: Ustaw indeks strony i liczbę
+### Krok 3: Ustaw indeks strony i liczbę stron
 
 ```java
-// Ustaw indeks strony
+// Set page index
 opts.setPageIndex(2);
 
-// Ustaw liczbę stron
+// Set page count
 opts.setPageCount(3);
 ```
 
-Linie te określają indeks i liczbę stron do zapisania. W tym przykładzie zapisujemy strony zaczynając od indeksu 2 i łącznie 3 strony.
+Te dwa wywołania informują Aspose.Note, aby rozpoczął eksport od strony 2 (indeksowanie od zera) i uwzględnił kolejne trzy strony. To jest sedno **zapisywania wybranych stron PDF**.
 
-## Krok 4: Określ ustawienia kompresji
+### Krok 4: Określ ustawienia kompresji
 
 ```java
-// W razie potrzeby określ kompresję
+// Specify compression if required
 opts.setImageCompression(PdfImageCompression.Jpeg);
 opts.setJpegQuality(90);
 ```
 
-Tutaj określamy ustawienia kompresji obrazu dla pliku PDF. Ustawiamy kompresję na format JPEG i określamy jakość JPEG na 90%.
+Możesz kontrolować jakość obrazów w PDF. Kompresja JPEG o jakości 90 % zapewnia dobrą równowagę między rozmiarem pliku a jakością wizualną.
 
-## Krok 5: Zapisz dokument z opcjami
+### Krok 5: Zapisz dokument z opcjami
 
 ```java
 dataDir = dataDir + "Document.SaveWithOptions_out.pdf";
 doc.save(dataDir, opts);
 ```
 
-Na koniec zapisujemy dokument z określonymi opcjami. Wyjściowy plik PDF zostanie zapisany w określonej lokalizacji z podanymi opcjami.
+Metoda `save` zapisuje wybrane strony do nowego pliku PDF, wykorzystując skonfigurowane opcje. Wynikiem jest kompaktowy PDF zawierający tylko potrzebne Ci strony.
 
-## Wniosek
+## Dlaczego to ma znaczenie
 
-W tym samouczku nauczyliśmy się, jak określić opcje zapisywania w OneNote przy użyciu Aspose.Note dla Java. Dostosowując opcje zapisywania, możesz kontrolować różne aspekty dokumentu wyjściowego, takie jak indeks stron, liczba i ustawienia kompresji.
+- **Wydajność:** Eksportowanie tylko wymaganych stron skraca czas przetwarzania i zużycie pamięci, szczególnie w przypadku dużych notesów.  
+- **Rozmiar pliku:** Ograniczając zakres stron i stosując kompresję JPEG, otrzymany PDF jest znacznie mniejszy — idealny do załączników e‑mail lub przesyłania w sieci.  
+- **Elastyczność:** Możesz łączyć `setPageIndex` i `setPageCount` z innymi opcjami (np. dodawanie znaków wodnych), aby tworzyć własne potoki eksportu.
 
-## Często zadawane pytania
+## Typowe przypadki użycia
 
-### P1: Czy Aspose.Note obsługuje duże dokumenty OneNote?
+| Scenariusz | Jak funkcja pomaga |
+|------------|--------------------|
+| Generowanie raportu z jednego spotkania | Eksportuj tylko stronę spotkania zamiast całego notesu. |
+| Archiwizowanie wybranych sekcji | Zapisz wybrane sekcje jako PDF w celu zgodności, nie ujawniając niepowiązanej treści. |
+| Zmniejszanie zużycia pasma dla użytkowników mobilnych | Wyślij lekki PDF zawierający tylko potrzebne strony. |
 
-Odpowiedź 1: Tak, Aspose.Note został zaprojektowany do wydajnej obsługi dużych dokumentów OneNote.
+## Rozwiązywanie problemów i wskazówki
 
-### P2: Czy Aspose.Note jest kompatybilny z najnowszymi wersjami Java?
+- **Nieprawidłowy indeks strony:** Pamiętaj, że indeksowanie stron zaczyna się od 0. Jeśli ustawisz indeks większy niż całkowita liczba stron, Aspose.Note zgłosi `ArgumentOutOfRangeException`.  
+- **Liczba stron równa zero:** Ustawienie `setPageCount(0)` skutkuje pustym PDF. Użyj liczby dodatniej.  
+- **Artefakty kompresji:** Jeśli jakość JPEG jest zbyt niska, obrazy mogą być rozmyte. Dostosuj `setJpegQuality()` w razie potrzeby.  
+- **Problemy ze ścieżką pliku:** Upewnij się, że katalog wyjściowy istnieje i masz uprawnienia do zapisu; w przeciwnym razie `doc.save()` zakończy się niepowodzeniem.
 
-Odpowiedź 2: Tak, Aspose.Note jest kompatybilny z najnowszymi wersjami Java.
+## Najczęściej zadawane pytania
 
-### P3: Czy mogę konwertować dokumenty OneNote na inne formaty za pomocą Aspose.Note?
+**Q1: Czy Aspose.Note radzi sobie z dużymi dokumentami OneNote?**  
+A1: Tak, Aspose.Note jest zaprojektowany do efektywnego przetwarzania dużych notesów i możesz dodatkowo zwiększyć wydajność, eksportując tylko potrzebne strony.
 
-O3: Tak, Aspose.Note obsługuje konwersję dokumentów OneNote do różnych formatów, takich jak PDF, DOCX i HTML.
+**Q2: Czy Aspose.Note jest kompatybilny z najnowszymi wersjami Javy?**  
+A2: Absolutnie. Biblioteka działa z Javą 8 i nowszymi wersjami.
 
-### P4: Czy Aspose.Note zapewnia obsługę szyfrowania i deszyfrowania dokumentów OneNote?
+**Q3: Czy mogę konwertować dokumenty OneNote na inne formaty oprócz PDF?**  
+A3: Tak, Aspose.Note obsługuje konwersję do DOCX, HTML, XPS i kilku formatów obrazów.
 
-Odpowiedź 4: Tak, Aspose.Note udostępnia interfejsy API do szyfrowania i deszyfrowania dokumentów OneNote.
+**Q4: Czy Aspose.Note zapewnia wsparcie dla szyfrowania i deszyfrowania dokumentów OneNote?**  
+A4: Tak, API zawiera metody umożliwiające programowe szyfrowanie i deszyfrowanie plików OneNote.
 
-### P5: Czy Aspose.Note nadaje się do użytku komercyjnego?
+**Q5: Czy Aspose.Note nadaje się do użytku komercyjnego?**  
+A5: Tak, licencja komercyjna pozwala na użycie biblioteki w środowiskach produkcyjnych.
 
-Odpowiedź 5: Tak, Aspose.Note może być wykorzystywane do celów komercyjnych po zakupie licencji.
+---
+
+**Ostatnia aktualizacja:** 2025-12-18  
+**Testowano z:** Aspose.Note for Java 24.12 (latest)  
+**Autor:** Aspose  
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

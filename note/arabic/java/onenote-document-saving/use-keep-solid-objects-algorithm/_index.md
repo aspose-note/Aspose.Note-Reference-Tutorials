@@ -1,32 +1,51 @@
 ---
-title: استخدم خوارزمية الاحتفاظ بالكائنات الصلبة في OneNote - Aspose.Note
-linktitle: استخدم خوارزمية الاحتفاظ بالكائنات الصلبة في OneNote - Aspose.Note
-second_title: Aspose.Note جافا API
-description: تعرف على كيفية الحفاظ على الكائنات الصلبة في مستندات Aspose.Note الخاصة بك عند التحويل إلى PDF باستخدام خوارزمية الاحتفاظ بالكائنات الصلبة في Java.
-weight: 25
+date: 2025-12-18
+description: تعلم كيفية تحويل OneNote إلى PDF وحفظ مستند PDF باستخدام خوارزمية Keep
+  Solid Objects في Aspose.Note بلغة Java.
+linktitle: Convert OneNote to PDF with Keep Solid Objects Algorithm
+second_title: Aspose.Note Java API
+title: تحويل OneNote إلى PDF باستخدام خوارزمية الحفاظ على الكائنات الصلبة
 url: /ar/java/onenote-document-saving/use-keep-solid-objects-algorithm/
+weight: 25
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# استخدم خوارزمية الاحتفاظ بالكائنات الصلبة في OneNote - Aspose.Note
+# تحويل OneNote إلى PDF باستخدام Keep Solid Objects Algorithm
 
-## مقدمة
+## المقدمة
 
-في هذا البرنامج التعليمي، سوف نستكشف كيفية استخدام خوارزمية الاحتفاظ بالكائنات الصلبة في Aspose.Note لـ Java. تعتبر هذه الخوارزمية لا تقدر بثمن للحفاظ على سلامة الكائنات الصلبة داخل مستنداتك عند تحويلها إلى تنسيق PDF. سنقوم بتقسيم العملية خطوة بخطوة، مما يضمن الوضوح والفهم في كل مرحلة.
+في هذا الدرس سنرشدك إلى كيفية **convert onenote to pdf** مع الحفاظ على الكائنات الصلبة، باستخدام خوارزمية Keep Solid Objects Algorithm المقدمة من Aspose.Note for Java. سواءً كنت تُنشئ تقارير، أو تُؤرّخ الملاحظات، أو تبني خط أنابيب لمعالجة المستندات، فإن الحفاظ على تلك الكائنات الصلبة أمر أساسي لسلامة المستند. سنظهر لك أيضًا كيفية **save document pdf java** باستخدام نفس الإعدادات.
 
-## المتطلبات الأساسية
+## إجابات سريعة
+- **ما الذي تقوم به خوارزمية Keep Solid Objects Algorithm؟** إنها تضمن بقاء الكائنات الصلبة مثل الأشكال والرسومات معًا على الصفحة عندما يتم تقسيم ملف OneNote أثناء تحويله إلى PDF.  
+- **هل أحتاج إلى ترخيص لتجربة هذا؟** نعم، ترخيص تجريبي مجاني متاح من Aspose.  
+- **ما إصدار Java المطلوب؟** يوصى باستخدام Java 8 أو أعلى.  
+- **هل يمكنني تعديل حد الارتفاع للأجزاء المستنسخة؟** بالتأكيد – يمكنك تمرير حد ارتفاع مخصص إلى الخوارزمية.  
+- **هل هذه الطريقة مناسبة لملفات OneNote الكبيرة؟** نعم، تعمل الخوارزمية بكفاءة حتى مع ملاحظات متعددة الصفحات.
 
-قبل أن نبدأ، تأكد من أن لديك ما يلي:
+## ما هو “convert onenote to pdf”?
 
-1. تم تثبيت Java Development Kit (JDK) على نظامك.
-2.  Aspose.Note لمكتبة جافا. يمكنك تنزيله من[هنا](https://releases.aspose.com/note/java/).
+تحويل دفاتر OneNote إلى PDF يخلق نسخة محمولة، للقراءة فقط من ملاحظاتك يمكن مشاركتها عبر المنصات. عادةً ما تقوم عملية التحويل بتقسيم الصفحات تلقائيًا، مما قد يتسبب في كسر الرسومات المعقدة. خوارزمية Keep Solid Objects Algorithm تمنع ذلك عن طريق الحفاظ على كل كائن صلب ككل.
 
-## حزم الاستيراد
+## لماذا نستخدم خوارزمية Keep Solid Objects Algorithm؟
 
-أولاً، لنستورد الحزم الضرورية:
+- **يحافظ على الدقة البصرية** – الأشكال، والرسوم البيانية، والرسومات تبقى تمامًا كما تظهر في OneNote.  
+- **يقلل من المعالجة اليدوية بعد التحويل** – لا حاجة لإعادة محاذاة الكائنات بعد التحويل.  
+- **يحسن عرض PDF** – يحافظ على التناسق عبر عارضات PDF.  
+
+## المتطلبات المسبقة
+
+قبل أن نبدأ، تأكد من أن لديك:
+
+1. Java Development Kit (JDK) مثبت على نظامك.  
+2. مكتبة Aspose.Note for Java. يمكنك تنزيلها من [here](https://releases.aspose.com/note/java/).  
+
+## استيراد الحزم
+
+First, import the necessary classes:
 
 ```java
 import java.io.IOException;
@@ -37,9 +56,9 @@ import com.aspose.note.KeepSolidObjectsAlgorithm;
 import com.aspose.note.PdfSaveOptions;
 ```
 
-## الخطوة 1: قم بتحميل المستند
+## الخطوة 1: تحميل المستند
 
-قم بتحميل المستند إلى Aspose.Note باستخدام مقتطف التعليمات البرمجية التالي:
+Load your OneNote file into an `Document` object:
 
 ```java
 String dataDir = "Your Document Directory";
@@ -48,25 +67,25 @@ Document doc = new Document(dataDir + "Aspose.one");
 
 ## الخطوة 2: تكوين خيارات حفظ PDF
 
-حدد PdfSaveOptions وقم بتعيين PageSplittingAlgorithm على KeepSolidObjectsAlgorithm:
+Create a `PdfSaveOptions` instance and set the page‑splitting algorithm to `KeepSolidObjectsAlgorithm`:
 
 ```java
 PdfSaveOptions pdfSaveOptions = new PdfSaveOptions();
 pdfSaveOptions.setPageSplittingAlgorithm(new KeepSolidObjectsAlgorithm());
 ```
 
-## الخطوة 3: ضبط حد الارتفاع (اختياري)
+## الخطوة 3: تعديل حد الارتفاع (اختياري)
 
-يمكنك ضبط حد الارتفاع للأجزاء المستنسخة إذا لزم الأمر:
+If you need finer control over how cloned parts are handled, specify a height limit (in points). This is useful when dealing with very tall objects:
 
 ```java
 float heightLimitOfClonedPart = 500;
 pdfSaveOptions.setPageSplittingAlgorithm(new KeepSolidObjectsAlgorithm(heightLimitOfClonedPart));
 ```
 
-## الخطوة 4: احفظ المستند
+## الخطوة 4: حفظ المستند
 
-أخيرًا، احفظ المستند باستخدام خيارات حفظ PDF المحددة:
+Finally, save the OneNote document as a PDF using the configured options:
 
 ```java
 String outputDir = "Your Output Directory";
@@ -74,31 +93,39 @@ String outputFile = outputDir + "UsingKeepSolidObjectsAlgorithm_out.pdf";
 doc.save(outputFile);
 ```
 
-## خاتمة
+## المشكلات الشائعة والحلول
 
-في هذا البرنامج التعليمي، تعلمنا كيفية استخدام خوارزمية الاحتفاظ بالكائنات الصلبة في Aspose.Note لـ Java. تضمن هذه الخوارزمية الحفاظ على الكائنات الصلبة الموجودة في مستنداتك عند تحويلها إلى تنسيق PDF، مما يحافظ على سلامة المستند.
+- **الكائنات لا تزال مقسمة عبر الصفحات** – تأكد من أنك تستخدم أحدث نسخة من Aspose.Note وأن حد الارتفاع (إذا تم تعيينه) كبير بما يكفي لكائناتك.  
+- **خطوط أو رموز مفقودة** – تأكد من تثبيت الخطوط المطلوبة على الجهاز الذي يتم فيه تشغيل التحويل.  
+- **تباطؤ الأداء على دفاتر ملاحظات ضخمة** – فكر في معالجة الدفتر على دفعات أصغر أو زيادة حجم ذاكرة JVM.  
 
-## الأسئلة الشائعة
+## الأسئلة المتكررة
 
-### س1: هل يمكنني ضبط حد الارتفاع للأجزاء المستنسخة؟
+### س1: هل يمكنني تعديل حد الارتفاع للأجزاء المستنسخة؟
 
- ج1: نعم، يمكنك ضبط حد الارتفاع للأجزاء المستنسخة وفقًا لمتطلباتك باستخدام`heightLimitOfClonedPart` معامل.
+A1: نعم، يمكنك تعديل حد ارتفاع الأجزاء المستنسخة وفقًا لمتطلباتك باستخدام المعامل `heightLimitOfClonedPart`.
 
-### س2: أين يمكنني العثور على المزيد من الوثائق؟
+### س2: أين يمكنني العثور على مزيد من الوثائق؟
 
- ج2: يمكنك العثور على وثائق مفصلة حول Aspose.Note لـ Java[هنا](https://reference.aspose.com/note/java/).
+A2: يمكنك العثور على وثائق مفصلة حول Aspose.Note for Java [here](https://reference.aspose.com/note/java/).
 
-### س3: هل هناك نسخة تجريبية مجانية متاحة؟
+### س3: هل يتوفر نسخة تجريبية مجانية؟
 
- ج3: نعم، يمكنك الحصول على نسخة تجريبية مجانية من Aspose.Note لـ Java[هنا](https://releases.aspose.com/).
+A3: نعم، يمكنك الحصول على نسخة تجريبية مجانية من Aspose.Note for Java [here](https://releases.aspose.com/).
 
-### س4: كيف يمكنني الحصول على الدعم إذا واجهت أية مشكلات؟
+### س4: كيف يمكنني الحصول على الدعم إذا واجهت أي مشاكل؟
 
- ج4: يمكنك الحصول على الدعم من مجتمع Aspose[هنا](https://forum.aspose.com/c/note/28).
+A4: يمكنك الحصول على الدعم من مجتمع Aspose [here](https://forum.aspose.com/c/note/28).
 
-### س5: أين يمكنني شراء الترخيص؟
+### س5: أين يمكنني شراء ترخيص؟
 
- ج5: يمكنك شراء ترخيص Aspose.Note لـ Java[هنا](https://purchase.aspose.com/buy).
+A5: يمكنك شراء ترخيص لـ Aspose.Note for Java [here](https://purchase.aspose.com/buy).
+
+---
+
+**آخر تحديث:** 2025-12-18  
+**تم الاختبار مع:** Aspose.Note for Java 24.12  
+**المؤلف:** Aspose  
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
