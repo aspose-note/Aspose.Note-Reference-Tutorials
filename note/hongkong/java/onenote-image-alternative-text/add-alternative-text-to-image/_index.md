@@ -1,34 +1,52 @@
 ---
-title: 使用 Java 在 OneNote 中向圖像添加替代文本
-linktitle: 使用 Java 在 OneNote 中向圖像添加替代文本
+date: 2025-12-23
+description: 學習如何使用 Java 與 Aspose.Note 在 OneNote 文件中為圖片添加替代文字。本指南說明如何添加替代文字以提升可及性。
+linktitle: How to Add Alt Text to Image in OneNote using Java
 second_title: Aspose.Note Java API
-description: 了解如何使用 Java 和 Aspose.Note 將替代文字新增至 OneNote 文件中的圖像，從而增強可訪問性和包容性。
-weight: 10
+title: 如何使用 Java 為 OneNote 圖片添加替代文字
 url: /zh-hant/java/onenote-image-alternative-text/add-alternative-text-to-image/
+weight: 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# 使用 Java 在 OneNote 中向圖像添加替代文本
+# 如何在 OneNote 中使用 Java 為圖片新增 Alt 文字
 
 ## 介紹
 
-在本教程中，我們將深入研究有關利用 Aspose.Note for Java 為 OneNote 文件中的圖像添加替代文字的綜合指南。替代文字用作圖像的文字描述，有助於無法直接查看圖像的個人（例如使用螢幕閱讀器的人）的存取和理解。透過學習本教學課程，您將了解如何使用 Java 程式語言將替代文字無縫整合到 OneNote 文件中。
+在本教學中，您將學會 **如何為** OneNote 文件中的圖片新增 alt 文字，使用 Java 以及 Aspose.Note API。加入替代文字（alt text）可提升螢幕閱讀器使用者的可及性，並增強內容的整體包容性。完成本指南後，您即可在 Java 中設定圖片的 alt 文字，讓您的 OneNote 檔案更符合可及性標準。
 
-## 先決條件
+## 快速回答
+- **需要哪個程式庫？** Aspose.Note for Java  
+- **本教學的主要關鍵字是什麼？** how to add alt  
+- **上線前需要授權嗎？** 需要商業授權（提供免費試用版）。  
+- **可以一次為多張圖片新增 alt 文字嗎？** 當然可以——對每張圖片重複相同步驟即可。  
+- **支援哪個 Java 版本？** Java 8 或以上。
 
-在深入學習本教程之前，請確保您具備以下先決條件：
+## 在 OneNote 中「how to add alt」是什麼意思？
 
-1. Java 開發工具包 (JDK)：確保您的系統上安裝了 JDK。
-2.  Aspose.Note for Java Library：下載並安裝 Aspose.Note for Java 函式庫[這裡](https://releases.aspose.com/note/java/).
-3. 整合開發環境 (IDE)：為 Java 開發設定 IDE，例如 IntelliJ IDEA 或 Eclipse。
-4. Java 程式設計基礎知識：熟悉基本的 Java 程式設計概念。
+新增 alt 文字即為圖片提供一段可被輔助技術讀取的文字說明。此說明可協助看不見圖片的使用者了解其用途。
 
-## 導入包
+## 為什麼要在 OneNote 圖片中加入 alt 文字？
 
-首先，您需要將必要的套件匯入到您的 Java 專案中才能使用 Aspose.Note 功能。
+- **可及性：** 符合 WCAG 準則，提升視障使用者的使用體驗。  
+- **可搜尋性：** 搜尋引擎可索引說明文字，使您的內容更易被發現。  
+- **專業度：** 展現對包容性設計的承諾。
+
+## 前置需求
+
+在開始教學前，請確保您已具備以下條件：
+
+1. Java Development Kit (JDK) – 版本 8 或更新。  
+2. Aspose.Note for Java 程式庫 – 從 [here](https://releases.aspose.com/note/java/) 下載。  
+3. IntelliJ IDEA、Eclipse 等任一 IDE。  
+4. 基本的 Java 程式設計知識。
+
+## 匯入套件
+
+首先，將必要的套件匯入您的 Java 專案，以使用 Aspose.Note 功能。
 
 ```java
 import java.io.IOException;
@@ -38,105 +56,115 @@ import com.aspose.note.Image;
 import com.aspose.note.Page;
 ```
 
-現在，讓我們將使用 Java 和 Aspose.Note 向 OneNote 文件中的圖像添加替代文字的過程分解為逐步說明。
+現在，我們將一步一步說明如何在 Java 與 Aspose.Note 中為 OneNote 文件的圖片新增 **替代文字**。
 
-## 第 1 步：設定文檔目錄
+## 如何在 OneNote 中使用 Java 為圖片新增 Alt 文字
+
+### 步驟 1：設定文件目錄
 
 ```java
 String dataDir = "Your Document Directory";
 ```
 
-確保更換`"Your Document Directory"`與您的文檔目錄的路徑。
+將 `"Your Document Directory"` 替換為包含來源圖片以及輸出檔案要儲存的資料夾路徑。
 
-## 第 2 步：建立文檔對象
+### 步驟 2：建立 Document 物件
 
 ```java
 Document document = new Document();
 ```
 
-建立 Document 類別的新實例。
+此程式碼會建立一個全新的、空的 OneNote 文件。
 
-## 第 3 步：建立頁面對象
+### 步驟 3：建立 Page 物件
 
 ```java
 Page page = new Page();
 ```
 
-建立 Page 類別的新實例。
+此頁面將容納即將加入的圖片。
 
-## 第 4 步：將圖像新增至頁面
+### 步驟 4：將圖片加入頁面
 
 ```java
 Image image = new Image(null, dataDir + "image.jpg");
 ```
 
-建立 Image 類別的實例，並將影像檔案路徑作為參數傳遞。
+`Image` 建構子會從指定路徑載入圖片檔案。
 
-## 第 5 步：設定替代文字標題
+### 步驟 5：設定替代文字標題
 
 ```java
 image.setAlternativeTextTitle("ImageAlternativeText Title");
 ```
 
-設定圖像的替代文字標題。
+在此 **新增 alt 文字**，作為圖片的簡短標題。
 
-## 第 6 步：設定替代文字描述
+### 步驟 6：設定替代文字說明
 
 ```java
 image.setAlternativeTextDescription("ImageAlternativeText Description");
 ```
 
-設定圖像的替代文字描述。
+此說明提供更詳細的解釋，適合螢幕閱讀器使用。
 
-## 第 7 步：將圖像附加到頁面
+### 步驟 7：將圖片附加至頁面
 
 ```java
 page.appendChildLast(image);
 ```
 
-將圖像附加到頁面。
+已加入 alt 文字的圖片會被加入頁面。
 
-## 步驟 8：將頁面附加到文檔
+### 步驟 8：將頁面附加至文件
 
 ```java
 document.appendChildLast(page);
 ```
 
-將頁面附加到文件中。
+將頁面連結至 OneNote 文件。
 
-## 第9步：儲存文檔
+### 步驟 9：儲存文件
 
 ```java
 document.save(dataDir + "AlternativeText_out.one");
 ```
 
-儲存修改後的文檔，並將替代文字新增至影像。
+文件會以嵌入替代文字的方式儲存。
+
+## 常見問題與解決方案
+
+- **FileNotFoundException：** 確認 `dataDir` 指向正確的資料夾，且 `image.jpg` 確實存在。  
+- **NullPointerException on image：** 確認圖片路徑有效且檔案未損壞。  
+- **授權錯誤：** 使用有效的 Aspose.Note 授權檔，或以試用模式執行評估。
+
+## 常見問答
+
+**Q: 可以在同一文件中為多張圖片新增 alt 文字嗎？**  
+A: 可以，只需對每張圖片重複第 4‑6 步即可。
+
+**Q: 支援哪些圖片格式加入 alt 文字？**  
+A: Aspose.Note 支援 JPEG、PNG、GIF、BMP 以及其他常見格式。
+
+**Q: 設定後可以修改或移除 alt 文字嗎？**  
+A: 當然可以。呼叫 `setAlternativeTextTitle("")` 或 `setAlternativeTextDescription("")` 以清除，或傳入新字串以更新。
+
+**Q: Aspose.Note 是否提供除 Java 之外的其他語言 API？**  
+A: 有，該程式庫亦支援 .NET、C++ 與 Python。
+
+**Q: 哪裡可以下載 Aspose.Note 的試用版？**  
+A: 可從 [here](https://releases.aspose.com/) 取得免費試用。
 
 ## 結論
 
-在本教程中，我們探討如何透過使用 Java 和 Aspose.Note 為圖像添加替代文字來增強 OneNote 文件的可訪問性。透過遵循上述逐步指南，您可以確保您的文件更具包容性並可供更廣泛的受眾使用。
+透過本步驟指南，您現在已掌握 **如何在 OneNote 中使用 Java 為圖片新增 alt** 文字。加入 `add alternative text image` 不僅提升文件的可及性，亦增進搜尋能見度與整體品質。歡迎自行嘗試不同的標題與說明，以最佳方式傳達每張圖片的意涵。
 
-## 常見問題解答
+---
 
-### 問題 1：我可以為單一文件中的多個圖像添加替代文字嗎？
+**最後更新：** 2025-12-23  
+**測試環境：** Aspose.Note for Java 24.11  
+**作者：** Aspose  
 
-A1：是的，您可以透過迭代每個圖像並相應地設定替代文字來為多個圖像添加替代文字。
-
-### Q2：Aspose.Note 是否相容於不同的影像格式？
-
-A2: 是的，Aspose.Note 支援多種圖片格式，如 JPEG、PNG、GIF 等。
-
-### 問題 3：替代文字加入圖像後可以編輯或刪除嗎？
-
-A3：是的，您可以透過修改對應的屬性來編輯或刪除影像中的替代文字。
-
-### Q4：Aspose.Note 是否提供對 Java 以外的其他程式語言的支援？
-
-A4：是的，Aspose.Note 可用於多種程式語言，包括 .NET、C++和Python。
-
-### Q5：Aspose.Note 有試用版嗎？
-
- A5：是的，您可以使用 Aspose.Note 的免費試用版[這裡](https://releases.aspose.com/).
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

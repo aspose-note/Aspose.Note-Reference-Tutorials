@@ -1,34 +1,54 @@
 ---
-title: Alternatív szöveg hozzáadása a OneNote képhez Java használatával
-linktitle: Alternatív szöveg hozzáadása a OneNote képhez Java használatával
+date: 2025-12-23
+description: Ismerje meg, hogyan adhat hozzá alternatív szöveget a OneNote dokumentumok
+  képeihez Java és az Aspose.Note segítségével. Ez az útmutató bemutatja, hogyan adjon
+  alternatív szöveget a képekhez a jobb hozzáférhetőség érdekében.
+linktitle: How to Add Alt Text to Image in OneNote using Java
 second_title: Aspose.Note Java API
-description: Ismerje meg, hogyan adhat alternatív szöveget a OneNote-dokumentumok képeihez Java használatával az Aspose.Note segítségével, ami javítja a kisegítő lehetőségeket és az inkluzivitást.
-weight: 10
+title: Hogyan adjunk alternatív szöveget a képhez a OneNote-ban Java használatával
 url: /hu/java/onenote-image-alternative-text/add-alternative-text-to-image/
+weight: 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Alternatív szöveg hozzáadása a OneNote képhez Java használatával
+# Hogyan adjunk alt szöveget a képekhez a OneNote-ban Java használatával
 
 ## Bevezetés
 
-Ebben az oktatóanyagban egy átfogó útmutatót mutatunk be az Aspose.Note for Java használatáról, amellyel alternatív szöveget adhat hozzá a OneNote-dokumentumok képeihez. Az alternatív szöveg a képek szöveges leírásaként szolgál, elősegítve a hozzáférést és a megértést azoknak az egyéneknek, akik esetleg nem tudják közvetlenül megtekinteni a képeket, például képernyőolvasót használók. Az oktatóanyagot követve megtanulhatja, hogyan integrálhat zökkenőmentesen alternatív szöveget OneNote-dokumentumaiba Java programozási nyelv használatával.
+Ebben az útmutatóban megtanulja, **hogyan adjon hozzá alt** szöveget a képekhez a OneNote dokumentumokban Java és az Aspose.Note API használatával. Az alternatív szöveg (alt text) hozzáadása javítja a képernyőolvasó felhasználók hozzáférhetőségét és növeli a tartalom általános inkluzivitását. A útmutató végére képes lesz Java-ban beállítani a kép alt szövegét, így a OneNote fájljai jobban megfelelnek a hozzáférhetőségi szabványoknak.
+
+## Gyors válaszok
+- **Melyik könyvtár szükséges?** Aspose.Note for Java  
+- **Melyik elsődleges kulcsszóra céloz ez az útmutató?** how to add alt  
+- **Szükségem van licencre a termeléshez?** Igen, kereskedelmi licenc szükséges (ingyenes próba elérhető).  
+- **Hozzáadhatok alt szöveget több képhez?** Természetesen – csak ismételje meg a lépéseket minden egyes képnél.  
+- **Melyik Java verzió támogatott?** Java 8 vagy újabb.
+
+## Mi a “how to add alt” a OneNote kontextusában?
+
+Az alt szöveg hozzáadása azt jelenti, hogy egy szöveges leírást biztosítunk a képhez, amelyet a segítő technológiák olvashatnak. Ez a leírás segíti a képet nem látható felhasználókat a kép céljának megértésében.
+
+## Miért adjunk alt szöveget a képekhez a OneNote-ban?
+
+- **Hozzáférhetőség:** Megfelel a WCAG irányelveknek és javítja a látássérült felhasználók élményét.  
+- **Kereshetőség:** A keresőmotorok indexelhetik a leírást, így a tartalma könnyebben megtalálható.  
+- **Professzionalizmus:** Mutatja az inkluzív tervezés iránti elkötelezettséget.
 
 ## Előfeltételek
 
-Mielőtt belevágna az oktatóanyagba, győződjön meg arról, hogy rendelkezik a következő előfeltételekkel:
+Mielőtt belemerülne az útmutatóba, győződjön meg arról, hogy rendelkezik a következő előfeltételekkel:
 
-1. Java Development Kit (JDK): Győződjön meg arról, hogy a JDK telepítve van a rendszeren.
-2.  Aspose.Note for Java Library: Töltse le és telepítse az Aspose.Note for Java könyvtárat innen[itt](https://releases.aspose.com/note/java/).
-3. Integrált fejlesztői környezet (IDE): A Java fejlesztéshez be kell állítania egy IDE-t, például az IntelliJ IDEA-t vagy az Eclipse-t.
-4. Java programozási alapismeretek: Ismerkedjen meg az alapvető Java programozási fogalmakkal.
+1. Java Development Kit (JDK) – 8 vagy újabb verzió.  
+2. Aspose.Note for Java könyvtár – töltse le innen: [here](https://releases.aspose.com/note/java/).  
+3. Egy IDE, például IntelliJ IDEA vagy Eclipse.  
+4. Alapvető Java programozási ismeretek.
 
 ## Csomagok importálása
 
-Először is importálnia kell a szükséges csomagokat a Java projektbe az Aspose.Note funkciók használatához.
+Először importálja a szükséges csomagokat a Java projektjébe az Aspose.Note funkciók használatához.
 
 ```java
 import java.io.IOException;
@@ -38,105 +58,115 @@ import com.aspose.note.Image;
 import com.aspose.note.Page;
 ```
 
-Most bontsuk le lépésről lépésre a OneNote-dokumentumban lévő képhez alternatív szöveg hozzáadásának folyamatát Java és Aspose.Note használatával.
+Most bontsuk le a **alternatív szöveg kép** hozzáadásának folyamatát egy OneNote dokumentumhoz Java és Aspose.Note használatával lépésről lépésre.
 
-## 1. lépés: Állítsa be a dokumentumkönyvtárat
+## Hogyan adjunk alt szöveget a képekhez a OneNote-ban Java használatával
+
+### 1. lépés: Dokumentum könyvtár beállítása
 
 ```java
 String dataDir = "Your Document Directory";
 ```
 
- Ügyeljen arra, hogy cserélje ki`"Your Document Directory"` a dokumentumkönyvtár elérési útjával.
+Cserélje le a `"Your Document Directory"` értéket a mappára, amely tartalmazza a forrásképet, és ahová a kimeneti fájlt menteni szeretné.
 
-## 2. lépés: Hozzon létre egy dokumentumobjektumot
+### 2. lépés: Dokumentum objektum létrehozása
 
 ```java
 Document document = new Document();
 ```
 
-Hozzon létre egy új példányt a Dokumentum osztályból.
+Ez létrehoz egy új, üres OneNote dokumentumot.
 
-## 3. lépés: Hozzon létre egy oldalobjektumot
+### 3. lépés: Oldal objektum létrehozása
 
 ```java
 Page page = new Page();
 ```
 
-Hozzon létre egy új példányt a Page osztályból.
+Az oldal fogja tartalmazni a hozzáadni kívánt képet.
 
-## 4. lépés: Adjon hozzá egy képet az oldalhoz
+### 4. lépés: Kép hozzáadása az oldalhoz
 
 ```java
 Image image = new Image(null, dataDir + "image.jpg");
 ```
 
-Hozzon létre egy példányt az Image osztályból, paraméterként adja át a képfájl elérési útját.
+Az `Image` konstruktor betölti a képfájlt a megadott útvonalról.
 
-## 5. lépés: Állítsa be az alternatív szövegcímet
+### 5. lépés: Alternatív szöveg címének beállítása
 
 ```java
 image.setAlternativeTextTitle("ImageAlternativeText Title");
 ```
 
-Állítsa be a kép alternatív szövegcímét.
+Itt **alt szöveget adunk hozzá**, amely a kép rövid címeként szolgál.
 
-## 6. lépés: Állítsa be az alternatív szövegleírást
+### 6. lépés: Alternatív szöveg leírásának beállítása
 
 ```java
 image.setAlternativeTextDescription("ImageAlternativeText Description");
 ```
 
-Állítsa be a kép alternatív szöveges leírását.
+Ez a leírás részletesebb magyarázatot ad – tökéletes a képernyőolvasók számára.
 
-## 7. lépés: Kép hozzáfűzése az oldalhoz
+### 7. lépés: Kép hozzáfűzése az oldalhoz
 
 ```java
 page.appendChildLast(image);
 ```
 
-Csatolja a képet az oldalhoz.
+A kép (most alt szöveggel gazdagítva) hozzáadódik az oldalhoz.
 
-## 8. lépés: Oldal hozzáfűzése a dokumentumhoz
+### 8. lépés: Oldal hozzáfűzése a dokumentumhoz
 
 ```java
 document.appendChildLast(page);
 ```
 
-Az oldal hozzáfűzése a dokumentumhoz.
+Csatolja az oldalt a OneNote dokumentumhoz.
 
-## 9. lépés: Mentse el a dokumentumot
+### 9. lépés: Dokumentum mentése
 
 ```java
 document.save(dataDir + "AlternativeText_out.one");
 ```
 
-Mentse el a módosított dokumentumot alternatív szöveggel a képhez.
+A dokumentum mentésre kerül, az alternatív szöveg a képen beágyazva.
 
-## Következtetés
+## Gyakori problémák és megoldások
 
-Ebben az oktatóanyagban megvizsgáltuk, hogyan javíthatjuk a OneNote-dokumentumok hozzáférhetőségét azáltal, hogy a Java és az Aspose.Note segítségével alternatív szöveget adunk a képekhez. A fent vázolt, lépésenkénti útmutató követésével biztosíthatja, hogy dokumentumai átfogóbbak és szélesebb közönség számára hozzáférhetők legyenek.
+- **FileNotFoundException:** Ellenőrizze, hogy a `dataDir` a megfelelő mappára mutat, és hogy a `image.jpg` létezik.  
+- **NullPointerException a képnél:** Győződjön meg arról, hogy a kép útvonala érvényes, és a fájl nem sérült.  
+- **Licenc hibák:** Használjon érvényes Aspose.Note licencfájlt, vagy futtassa próbaverzióban az értékeléshez.
 
-## GYIK
+## Gyakran ismételt kérdések
 
-### 1. kérdés: Hozzáadhatok alternatív szöveget több képhez egyetlen dokumentumon belül?
+**Q: Hozzáadhatok alt szöveget több képhez egyetlen dokumentumban?**  
+A: Igen, egyszerűen ismételje meg a 4‑6. lépéseket minden egyes annotálni kívánt képhez.
 
-1. válasz: Igen, több képhez is hozzáadhat alternatív szöveget úgy, hogy mindegyik képen végigfut, és ennek megfelelően beállítja az alternatív szöveget.
+**Q: Mely képformátumok támogatottak az alt szöveg hozzáadásához?**  
+A: Az Aspose.Note támogatja a JPEG, PNG, GIF, BMP és több más gyakori formátumot.
 
-### 2. kérdés: Az Aspose.Note kompatibilis a különböző képformátumokkal?
+**Q: Lehet módosítani vagy eltávolítani az alt szöveget, miután be lett állítva?**  
+A: Természetesen. Hívja a `setAlternativeTextTitle("")` vagy `setAlternativeTextDescription("")` metódust az értékek törléséhez, vagy adjon meg új karakterláncokat a frissítéshez.
 
-2. válasz: Igen, az Aspose.Note különféle képformátumokat támogat, például JPEG, PNG, GIF stb.
+**Q: Az Aspose.Note kínál API-kat más nyelvekhez is a Java mellett?**  
+A: Igen, a könyvtár elérhető .NET, C++ és Python számára is.
 
-### 3. kérdés: Szerkeszthető-e vagy eltávolítható-e alternatív szöveg, miután hozzáadta a képhez?
+**Q: Hol tölthetem le az Aspose.Note próba verzióját?**  
+A: Ingyenes próbaverziót szerezhet itt: [here](https://releases.aspose.com/).
 
-3. válasz: Igen, a megfelelő tulajdonságok módosításával szerkesztheti vagy eltávolíthatja a kép alternatív szövegét.
+## Összegzés
 
-### 4. kérdés: Az Aspose.Note támogat más programozási nyelveket a Java mellett?
+A lépésről‑lépésre útmutató követésével most már tudja, **hogyan adjon alt** szöveget a képekhez a OneNote-ban Java használatával. Az `add alternative text image` megvalósítása nem csak a dokumentumait hozzáférhetőbbé teszi, hanem javítja azok kereshetőségét és általános minőségét is. Nyugodtan kísérletezzen különböző címekkel és leírásokkal, hogy a legjobban közvetítse minden kép jelentését.
 
-4. válasz: Igen, az Aspose.Note több programozási nyelvhez is elérhető, beleértve a .NET-t, a C-t++, és Python.
+---
 
-### 5. kérdés: Elérhető az Aspose.Note próbaverziója?
+**Utolsó frissítés:** 2025-12-23  
+**Tesztelve:** Aspose.Note for Java 24.11  
+**Szerző:** Aspose  
 
- 5. válasz: Igen, igénybe veheti az Aspose.Note ingyenes próbaverzióját[itt](https://releases.aspose.com/).
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
