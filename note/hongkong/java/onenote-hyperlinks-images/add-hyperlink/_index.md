@@ -158,28 +158,6 @@ System.out.printf("File saved: %s\n", dataDir + "AddHyperlink_out.pdf");
 
 恭喜！您已成功 **將 OneNote 儲存為 PDF**，並使用 Java 與 Aspose.Note 函式庫在文件中加入超連結。此功能讓您能直接從 OneNote 內容產生可互動、可分享的 PDF。
 
-## 常見問答
-
-### Q1：Aspose.Note 是否相容所有 Java 版本？
-
-A1：是的，Aspose.Note for Java 支援所有主要的 Java 版本，包括 JDK 8 以上。
-
-### Q2：我可以在單一文件中使用 Aspose.Note 加入多個超連結嗎？
-
-A2：當然可以！您可在 OneNote 文件中使用 Aspose.Note for Java 加入任意數量的超連結。
-
-### Q3：Aspose.Note 是否提供其他程式語言的支援？
-
-A3：是的，Aspose.Note 提供多種程式語言的函式庫，包括 .NET、Python 與 Android。
-
-### Q4：Aspose.Note 容易整合到現有的 Java 專案嗎？
-
-A4：是的，將 Aspose.Note 整合到 Java 專案相當簡單，且文件完善，讓您輕鬆上手。
-
-### Q5：我可以在哪裡找到更多使用 Aspose.Note 的協助與資源？
-
-A5：您可於 [Aspose.Note 論壇](https://forum.aspose.com/c/note/28) 找到豐富的文件、教學與社群支援。
-
 ## 常見問題
 
 **問：如何自訂超連結的外觀？**  

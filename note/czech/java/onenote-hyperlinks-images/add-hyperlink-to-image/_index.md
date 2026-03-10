@@ -136,13 +136,6 @@ A: Ano, Aspose.Note pro Javu podporuje různé formáty dokumentů, včetně PDF
 
 Přidání **hypertextového odkazu k obrázku** v OneNote pomocí Javy je s Aspose.Note jednoduché. Dodržením výše uvedených kroků můžete své notebooky učinit interaktivnějšími a uživatelsky přívětivějšími, což čtenářům umožní snadno se dostat tam, kam potřebují, jediným kliknutím.
 
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}
-
 ---
 
 **Poslední aktualizace:** 2025-12-20  
@@ -150,3 +143,10 @@ Přidání **hypertextového odkazu k obrázku** v OneNote pomocí Javy je s Asp
 **Autor:** Aspose  
 
 ---
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

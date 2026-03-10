@@ -134,13 +134,6 @@ A: 支援，包括 PDF、HTML 以及各種影像格式。
 
 使用 Aspose.Note 於 Java 中為 OneNote 圖片新增 **超連結** 非常簡單。依照上述步驟操作，即可讓您的筆記本更具互動性與友善性，讓讀者只需點擊一次即可前往所需的資訊。
 
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}
-
 ---
 
 **最後更新：** 2025-12-20  
@@ -148,3 +141,10 @@ A: 支援，包括 PDF、HTML 以及各種影像格式。
 **作者：** Aspose  
 
 ---
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

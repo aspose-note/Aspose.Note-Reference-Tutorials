@@ -135,13 +135,6 @@ document.save(dataDir + "HyperlinkToImage_out.one");
 
 Добавление **гиперссылки к изображению** в OneNote с помощью Java становится простым благодаря Aspose.Note. Следуя приведённым выше шагам, вы сможете сделать свои блокноты более интерактивными и удобными, направляя читателей точно туда, куда нужно, одним щелчком.
 
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}
-
 ---
 
 **Последнее обновление:** 2025-12-20  
@@ -149,3 +142,10 @@ document.save(dataDir + "HyperlinkToImage_out.one");
 **Автор:** Aspose  
 
 ---
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

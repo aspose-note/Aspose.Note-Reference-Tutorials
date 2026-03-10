@@ -65,13 +65,6 @@ Pelajari cara mengekstrak info gambar dari dokumen OneNote menggunakan Java deng
 ### [Menyisipkan Gambar dalam Dokumen OneNote dengan Java](./insert-image/)
 Pelajari cara menyisipkan gambar ke dalam dokumen OneNote menggunakan Java dengan pustaka Aspose.Note for Java. Ikuti panduan langkah‑demi‑langkah kami untuk integrasi yang mulus.
 
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}
-
 ## Pertanyaan yang Sering Diajukan
 
 **Q: Bisakah saya menambahkan hyperlink ke format gambar apa pun (PNG, JPEG, GIF)?**  
@@ -94,3 +87,10 @@ A: Satu gambar hanya dapat menampung satu hyperlink. Untuk menyediakan beberapa 
 **Terakhir Diperbarui:** 2025-12-20  
 **Diuji Dengan:** Aspose.Note for Java 24.10  
 **Penulis:** Aspose
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -133,15 +133,15 @@ A: Sim, Aspose.Note for Java suporta vários formatos de documento, incluindo PD
 
 Adicionar um **hyperlink to image** no OneNote usando Java é simples com o Aspose.Note. Seguindo os passos acima, você pode tornar seus cadernos mais interativos e amigáveis, guiando os leitores exatamente onde precisam ir com um simples clique.
 
+---
+
+**Última atualização:** 2025-12-20  
+**Testado com:** Aspose.Note for Java 24.11  
+**Autor:** Aspose
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
-
----
-
-**Última atualização:** 2025-12-20  
-**Testado com:** Aspose.Note for Java 24.11  
-**Autor:** Aspose

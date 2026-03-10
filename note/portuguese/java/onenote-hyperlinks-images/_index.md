@@ -65,13 +65,6 @@ Aprenda como extrair informações de imagens de documentos do OneNote usando Ja
 ### [Inserir uma Imagem em Documento OneNote com Java](./insert-image/)
 Aprenda como inserir imagens em documentos do OneNote usando Java com a biblioteca Aspose.Note for Java. Siga nosso guia passo a passo para integração fluida.
 
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}
-
 ## Perguntas Frequentes
 
 **P: Posso adicionar um hyperlink a qualquer formato de imagem (PNG, JPEG, GIF)?**  
@@ -94,3 +87,10 @@ R: Uma imagem pode conter apenas um hyperlink. Para fornecer múltiplos links, c
 **Last Updated:** 2025-12-20  
 **Tested With:** Aspose.Note for Java 24.10  
 **Author:** Aspose
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

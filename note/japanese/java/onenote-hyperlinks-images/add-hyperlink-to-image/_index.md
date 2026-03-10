@@ -14,11 +14,11 @@ weight: 11
 
 # Java を使用して OneNote の画像にハイパーリンクを追加する
 
-## Introduction
+## はじめに
 
 このチュートリアルでは、Java を使用して OneNote の画像に **ハイパーリンクを追加** する方法を解説します。画像にハイパーリンクを設定すると、ノートブックのページがインタラクティブになり、読者はワンクリックで関連するウェブページやドキュメント、その他のセクションへ直接ジャンプできます。環境設定から最終的な OneNote ファイルの保存まで、すべての手順を順を追って説明するので、すぐにノートを強化できます。
 
-## Quick Answers
+## クイックアンサー
 - **What does “add hyperlink to image” mean?**  
   画像オブジェクトにクリック可能な URL を付与することです。
 - **Which library supports this feature?**  
@@ -30,7 +30,7 @@ weight: 11
 - **How long does implementation take?**  
   基本的な例で約 10‑15 分です。
 
-## Prerequisites
+## 前提条件
 
 開始する前に、以下を用意してください。
 
@@ -39,7 +39,7 @@ weight: 11
 3. Aspose.Note for Java ライブラリ。ダウンロードは [here](https://releases.aspose.com/note/java/) から。  
 4. IntelliJ IDEA や Eclipse などの統合開発環境 (IDE)。  
 
-## Import Packages
+## パッケージのインポート
 
 OneNote ドキュメントを操作するために、Java のコア I/O パッケージと Aspose.Note のクラスをインポートします。
 
@@ -48,7 +48,7 @@ import java.io.IOException;
 import com.aspose.note.*;
 ```
 
-## Step 1: Set up Document Directory
+## ステップ 1: ドキュメントディレクトリの設定
 
 ソース画像が格納されているフォルダーと、出力する OneNote ファイルの保存先フォルダーを定義します。プレースホルダーは実際のパスに置き換えてください。
 
@@ -56,7 +56,7 @@ import com.aspose.note.*;
 String dataDir = "Your Document Directory";
 ```
 
-## Step 2: Create a New Document Object
+## ステップ 2: 新しいドキュメントオブジェクトの作成
 
 新しい `Document` オブジェクトをインスタンス化します。これは作成中の OneNote ノートブック全体を表します。
 
@@ -64,7 +64,7 @@ String dataDir = "Your Document Directory";
 Document document = new Document();
 ```
 
-## Step 3: Create a Page Object
+## ステップ 3: ページオブジェクトの作成
 
 OneNote ノートブックはページで構成されます。ここでは、画像とハイパーリンクを保持する新しいページを作成します。
 
@@ -72,7 +72,7 @@ OneNote ノートブックはページで構成されます。ここでは、画
 Page page = new Page();
 ```
 
-## Step 4: Add Image with Hyperlink
+## ステップ 4: ハイパーリンク付きの画像の追加
 
 ページに画像を追加し、**画像ハイパーリンクを設定** します（本チュートリアルの主要アクション）。`setHyperlinkUrl` メソッドで指定した URL が画像に付与されます。
 
@@ -82,9 +82,9 @@ image.setHyperlinkUrl("http://www.aspose.com");
 page.appendChildLast(image);
 ```
 
-> **Pro tip:** 動的に **set image hyperlink java** を設定したい場合は、`setHyperlinkUrl` を呼び出す前に変数や設定ファイルから URL 文字列を組み立ててください。
+> **ヒント:** 動的に **set image hyperlink java** を設定したい場合は、`setHyperlinkUrl` を呼び出す前に変数や設定ファイルから URL 文字列を組み立ててください。
 
-## Step 5: Save the Document
+## ステップ 5: ドキュメントの保存
 
 最後にページをドキュメントに添付し、OneNote ファイルをディスクに書き出します。
 
@@ -93,46 +93,54 @@ document.appendChildLast(page);
 document.save(dataDir + "HyperlinkToImage_out.one");
 ```
 
-## Why add hyperlink to image in OneNote?
+## OneNote で画像にハイパーリンクを追加する理由
 
 - **Improved navigation:** 読者はノートブックを離れることなく、関連リソースへ直接ジャンプできます。  
 - **Better documentation:** スクリーンショットや図にリンクを埋め込むことで、学習体験が豊かになります。  
 - **Professional look:** ハイパーリンク付き画像はページをすっきりさせ、長い URL テキストブロックを回避できます。
 
-## Common Use Cases
+## 一般的なユースケース
 
 - 製品のスクリーンショットをオンラインマニュアルにリンクする。  
 - 図をライブデータダッシュボードに接続する。  
 - トレーニングノートブックから外部チュートリアルへのクイックアクセスを提供する。
 
-## Troubleshooting & Tips
+## トラブルシューティングとヒント
 
-| Issue | Solution |
+| 問題 | 解決策 |
 |-------|----------|
 | Image does not open the link | URL が正しくフォーマットされているか確認してください（`http://` または `https://` を含める）。 |
 | Hyperlink appears but is not clickable in some viewers | 最新の OneNote クライアントまたは Aspose.Note ビューアでファイルを開いているか確認してください。 |
 | Need **multiple hyperlinks same image** | Aspose.Note は画像あたり 1 つのハイパーリンクしかサポートしません。複数リンクを疑似的に実現するには、透明なシェイプオブジェクトを重ねてそれぞれにハイパーリンクを設定します。 |
 
-## Frequently Asked Questions
+## よくある質問
 
-**Q: Can I add multiple hyperlinks to the same image?**  
-A: Yes, you can add multiple hyperlinks to the same image by setting different URL targets. *(Note: Aspose.Note allows only one URL per image; to emulate multiple links, use transparent shapes.)*
+**Q: 同じ画像に複数のハイパーリンクを追加できますか？**
+A: はい、異なるURLターゲットを設定することで、同じ画像に複数のハイパーリンクを追加できます。*(注: Aspose.Note では、画像ごとに1つのURLのみが許可されます。複数のリンクをエミュレートするには、透明な図形を使用してください。)*
 
-**Q: Is Aspose.Note for Java compatible with all versions of OneNote?**  
-A: Aspose.Note for Java is compatible with OneNote 2010 and later versions.
+**Q: Aspose.Note for Java は、すべてのバージョンの OneNote と互換性がありますか？**
+A: Aspose.Note for Java は、OneNote 2010 以降のバージョンと互換性があります。
 
-**Q: Can I customize the appearance of hyperlinks in my documents?**  
-A: Yes, you can customize the appearance of hyperlinks using Aspose.Note for Java's styling options.
+**Q: ドキュメント内のハイパーリンクの外観をカスタマイズできますか？**
+A: はい、Aspose.Note for Java のスタイル設定オプションを使用して、ハイパーリンクの外観をカスタマイズできます。
 
-**Q: Are there any limitations on the length of hyperlinks?**  
-A: While there's no specific limit on hyperlink length, it's recommended to keep them concise for better readability.
+**Q: ハイパーリンクの長さに制限はありますか？**
+A: ハイパーリンクの長さに具体的な制限はありませんが、読みやすさを考慮して簡潔にすることをお勧めします。
 
-**Q: Does Aspose.Note for Java support other document formats besides OneNote?**  
-A: Yes, Aspose.Note for Java supports various document formats, including PDF, HTML, and image formats.
+**Q: Aspose.Note for Java は OneNote 以外のドキュメント形式もサポートしていますか？**
+A: はい、Aspose.Note for Java は PDF、HTML、画像形式など、さまざまなドキュメント形式をサポートしています。
 
-## Conclusion
+## まとめ
 
-Adding a **hyperlink to image** in OneNote using Java is straightforward with Aspose.Note. By following the steps above, you can make your notebooks more interactive and user‑friendly, guiding readers exactly where they need to go with a simple click.
+Aspose.Note を使えば、Java を使用して OneNote に **画像へのハイパーリンク** を簡単に追加できます。上記の手順に従うことで、ノートブックをよりインタラクティブで使いやすくし、クリックするだけで読者が必要な場所へ正確に誘導できるようになります。
+
+---
+
+**最終更新日:** 2025年12月20日
+**テスト環境:** Aspose.Note for Java 24.11
+**作成者:** Aspose  
+
+---
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
@@ -140,11 +148,3 @@ Adding a **hyperlink to image** in OneNote using Java is straightforward with As
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
-
----
-
-**Last Updated:** 2025-12-20  
-**Tested With:** Aspose.Note for Java 24.11  
-**Author:** Aspose  
-
----

@@ -135,15 +135,15 @@ A: Ja, Aspose.Note för Java stöder olika dokumentformat, inklusive PDF, HTML o
 
 Att lägga till en **hyperlänk till bild** i OneNote med Java är enkelt med Aspose.Note. Genom att följa stegen ovan kan du göra dina anteckningsböcker mer interaktiva och användarvänliga, och leda läsarna exakt dit de behöver gå med ett enkelt klick.
 
+---
+
+**Senast uppdaterad:** 2025-12-20  
+**Testad med:** Aspose.Note for Java 24.11  
+**Författare:** Aspose
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
-
----
-
-**Senast uppdaterad:** 2025-12-20  
-**Testad med:** Aspose.Note for Java 24.11  
-**Författare:** Aspose

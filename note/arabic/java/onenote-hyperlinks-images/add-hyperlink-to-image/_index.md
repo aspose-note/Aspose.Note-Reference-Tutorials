@@ -135,15 +135,15 @@ document.save(dataDir + "HyperlinkToImage_out.one");
 
 إضافة **ارتباط تشعبي إلى صورة** في OneNote باستخدام Java أمر بسيط مع Aspose.Note. باتباع الخطوات السابقة، يمكنك جعل دفاتر الملاحظات أكثر تفاعلية وسهولة في الاستخدام، وتوجيه القراء إلى المكان الذي يحتاجون إليه بنقرة واحدة بسيطة.
 
+---
+
+**آخر تحديث:** 2025-12-20  
+**تم الاختبار مع:** Aspose.Note for Java 24.11  
+**المؤلف:** Aspose
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
-
----
-
-**آخر تحديث:** 2025-12-20  
-**تم الاختبار مع:** Aspose.Note for Java 24.11  
-**المؤلف:** Aspose

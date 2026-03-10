@@ -136,13 +136,6 @@ document.save(dataDir + "HyperlinkToImage_out.one");
 
 Η προσθήκη **υπερσυνδέσμου σε εικόνα** στο OneNote με Java είναι απλή με την Aspose.Note. Ακολουθώντας τα παραπάνω βήματα, μπορείτε να κάνετε τα σημειωματάριά σας πιο διαδραστικά και φιλικά προς τον χρήστη, οδηγώντας τους αναγνώστες ακριβώς εκεί που χρειάζονται με ένα απλό κλικ.
 
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}
-
 ---
 
 **Τελευταία Ενημέρωση:** 2025-12-20  
@@ -150,3 +143,10 @@ document.save(dataDir + "HyperlinkToImage_out.one");
 **Συγγραφέας:** Aspose  
 
 ---
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

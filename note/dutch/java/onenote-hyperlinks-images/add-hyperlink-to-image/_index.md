@@ -1,6 +1,6 @@
 ---
 date: 2025-12-20
-description: Maak OneNote-documenten interactief! Leer hoe je een hyperlink aan een
+description: Maak OneNote-documenten interactief Leer hoe je een hyperlink aan een
   afbeelding toevoegt in Java met Aspose.Note. Gemakkelijke stappen en codevoorbeelden
   inbegrepen!
 linktitle: Add Hyperlink to Image in OneNote using Java
@@ -136,13 +136,6 @@ A: Ja, Aspose.Note for Java ondersteunt diverse documentformaten, waaronder PDF,
 
 Het toevoegen van een **hyperlink aan een afbeelding** in OneNote met Java is eenvoudig met Aspose.Note. Door de bovenstaande stappen te volgen, kun je je notebooks interactiever en gebruiksvriendelijker maken, waardoor lezers precies daar komen waar ze moeten met één simpele klik.
 
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}
-
 ---
 
 **Laatst bijgewerkt:** 2025-12-20  
@@ -150,3 +143,10 @@ Het toevoegen van een **hyperlink aan een afbeelding** in OneNote met Java is ee
 **Auteur:** Aspose  
 
 ---
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

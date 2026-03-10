@@ -135,15 +135,15 @@ O: Tak, Aspose.Note for Java obsługuje różne formaty dokumentów, w tym PDF, 
 
 Dodanie **hiperłącza do obrazu** w OneNote przy użyciu Javy jest proste dzięki Aspose.Note. Postępując zgodnie z powyższymi krokami, możesz uczynić swoje notatniki bardziej interaktywnymi i przyjaznymi dla użytkownika, prowadząc czytelników dokładnie tam, gdzie potrzebują, jednym kliknięciem.
 
+---
+
+**Ostatnia aktualizacja:** 2025-12-20  
+**Testowano z:** Aspose.Note for Java 24.11  
+**Autor:** Aspose
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
-
----
-
-**Ostatnia aktualizacja:** 2025-12-20  
-**Testowano z:** Aspose.Note for Java 24.11  
-**Autor:** Aspose

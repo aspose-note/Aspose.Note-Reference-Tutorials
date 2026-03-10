@@ -159,28 +159,6 @@ System.out.printf("File saved: %s\n", dataDir + "AddHyperlink_out.pdf");
 
 Herzlichen Glückwunsch! Sie haben erfolgreich **OneNote als PDF gespeichert** und dem Dokument mit Java und der Aspose.Note‑Bibliothek einen Hyperlink hinzugefügt. Diese Fähigkeit ermöglicht es Ihnen, interaktive, teilbare PDFs direkt aus Ihrem OneNote‑Inhalt zu erstellen.
 
-## FAQ's
-
-### Q1: Ist Aspose.Note mit allen Java-Versionen kompatibel?
-
-A1: Ja, Aspose.Note für Java unterstützt alle gängigen Java-Versionen, einschließlich JDK 8 und höher.
-
-### Q2: Kann ich mehrere Hyperlinks in einem einzigen Dokument mit Aspose.Note hinzufügen?
-
-A2: Absolut! Sie können beliebig viele Hyperlinks in Ihrem OneNote‑Dokument mit Aspose.Note für Java hinzufügen.
-
-### Q3: Bietet Aspose.Note Unterstützung für andere Programmiersprachen?
-
-A3: Ja, Aspose.Note stellt Bibliotheken für verschiedene Programmiersprachen bereit, darunter .NET, Python und Android.
-
-### Q4: Ist Aspose.Note einfach in bestehende Java‑Projekte zu integrieren?
-
-A4: Ja, die Integration von Aspose.Note in Ihre Java‑Projekte ist unkompliziert und gut dokumentiert, sodass Sie schnell loslegen können.
-
-### Q5: Wo finde ich weitere Hilfe und Ressourcen zur Verwendung von Aspose.Note?
-
-A5: Umfangreiche Dokumentation, Tutorials und Community‑Support finden Sie im [Aspose.Note‑Forum](https://forum.aspose.com/c/note/28).
-
 ## Häufig gestellte Fragen
 
 **Q: Wie kann ich das Aussehen des Hyperlinks anpassen?**  

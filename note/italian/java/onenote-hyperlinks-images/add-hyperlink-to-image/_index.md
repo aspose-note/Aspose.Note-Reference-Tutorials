@@ -136,15 +136,15 @@ R: Sì, Aspose.Note for Java supporta vari formati di documento, inclusi PDF, HT
 
 Aggiungere un **collegamento ipertestuale a un'immagine** in OneNote usando Java è semplice con Aspose.Note. Seguendo i passaggi sopra, puoi rendere i tuoi notebook più interattivi e facili da usare, guidando i lettori esattamente dove devono andare con un semplice clic.
 
+---
+
+**Last Updated:** 2025-12-20  
+**Tested With:** Aspose.Note for Java 24.11  
+**Author:** Aspose
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
-
----
-
-**Last Updated:** 2025-12-20  
-**Tested With:** Aspose.Note for Java 24.11  
-**Author:** Aspose

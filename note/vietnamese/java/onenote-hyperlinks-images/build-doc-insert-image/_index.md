@@ -15,37 +15,37 @@ weight: 12
 
 # Cách thêm hình ảnh vào OneNote bằng Java – Tạo tài liệu và chèn ảnh
 
-## Introduction
+## Giới thiệu
 
-Trong hướng dẫn này, bạn sẽ học **cách thêm hình ảnh vào OneNote** bằng API Aspose.Note Java. Chúng tôi sẽ hướng dẫn tạo tài liệu OneNote từ đầu, chèn một hình ảnh, và lưu kết quả dưới dạng PDF. Dù bạn đang xây dựng công cụ báo cáo, tự động ghi chú, hay chỉ cần nhúng đồ họa bằng lập trình, hướng dẫn này cung cấp một lộ trình rõ ràng, thực hành.
+Trong hướng dẫn này, bạn sẽ học **cách thêm hình ảnh vào OneNote** bằng API Aspose.Note Java. Chúng tôi sẽ hướng dẫn tạo tài liệu OneNote từ đầu, chèn một hình ảnh và lưu kết quả dưới dạng PDF. Dù bạn đang xây dựng công cụ báo cáo, ghi chú tự động hay chỉ cần nhúng đồ họa bằng trình cài đặt, hướng dẫn này sẽ cung cấp một hành động rõ ràng, rõ ràng.
 
-## Quick Answers
-- **Thư viện tôi cần là gì?** Aspose.Note for Java.  
-- **Tôi có thể chèn bất kỳ định dạng hình ảnh nào không?** JPEG, PNG, BMP, GIF và nhiều định dạng khác được hỗ trợ.  
-- **Các định dạng xuất nào có sẵn?** Bạn có thể lưu dưới dạng OneNote, PDF, XPS, HTML, v.v.  
-- **Tôi có cần giấy phép cho môi trường sản xuất không?** Có, cần giấy phép thương mại cho việc sử dụng không phải thử nghiệm.  
-- **Mã có đa nền tảng không?** Chắc chắn – Java chạy trên Windows, Linux và macOS.
+## Trả lời nhanh
+- **Thư viện tôi cần là gì?** Aspose.Note for Java.
+- **Tôi có thể chèn bất kỳ định dạng hình ảnh nào?** JPEG, PNG, BMP, GIF và nhiều định dạng khác được hỗ trợ.
+- **Có sẵn các định dạng xuất ra?** Bạn có thể lưu dưới các dạng OneNote, PDF, XPS, HTML, v.v.
+- **Tôi có cần giấy phép cho môi trường sản xuất không?** Có, cần giấy phép thương mại cho việc sử dụng không phải thử nghiệm.
+- **Không có nền tảng nào?** Chắc chắn – Java chạy trên Windows, Linux và macOS.
 
-## What is “add picture to OneNote”?
-Thêm hình ảnh vào OneNote có nghĩa là nhúng một tệp hình ảnh vào một trang OneNote một cách lập trình sao cho nó hiển thị cùng với văn bản, dàn trang hoặc các yếu tố khác. API Aspose.Note trừu tượng hoá định dạng tệp OneNote, cho phép bạn tập trung vào nội dung thay vì cấu trúc XML bên trong.
+## “thêm ảnh vào OneNote” là gì?
+Thêm hình ảnh vào OneNote có nghĩa là nhúng một tệp hình ảnh vào một trang OneNote một cách thiết lập trình sao cho nó hiển thị cùng với văn bản, dàn trang hoặc các yếu tố khác. API Aspose.Note được thể hiện dưới dạng biểu tượng OneNote tệp định dạng, cho phép bạn tập trung vào nội dung thay vì bên trong cấu trúc XML.
 
-## Why add picture to OneNote using Java?
-- **Tự động hoá:** Tự động tạo biên bản họp với ảnh chụp màn hình.  
-- **Nhất quán:** Đảm bảo mọi trang tuân theo cùng một bố cục và thương hiệu.  
-- **Tích hợp:** Kết hợp dữ liệu từ các hệ thống khác (ví dụ, biểu đồ) trực tiếp vào sổ tay OneNote.  
-- **Đa nền tảng:** Java cho phép bạn chạy cùng một mã trên bất kỳ môi trường máy chủ hoặc máy tính để bàn nào.
+## Tại sao thêm ảnh vào OneNote bằng Java?
+- **Tự động hóa:** Tự động tạo bản trình bày với ảnh chụp màn hình.
+- **Nhất quán:** Đảm bảo mọi trang đi kèm theo cùng một bố địa và thương hiệu.
+- **Tích hợp:** Kết hợp dữ liệu từ các hệ thống khác (ví dụ, biểu đồ) trực tiếp vào OneNote trong sổ tay.
+- **Da nền:** Java cho phép bạn chạy cùng một mã hóa trên bất kỳ môi trường máy chủ hoặc máy tính nào để bàn.
 
-## Prerequisites
+## Điều kiện tiên quyết
 
-Trước khi bắt đầu, hãy chắc chắn rằng bạn có các yêu cầu sau:
+Trước khi bắt đầu, hãy đảm bảo rằng bạn có các yêu cầu sau:
 
-1. **Java Development Kit (JDK)** – bất kỳ phiên bản mới nào (8 trở lên).  
-2. **Thư viện Aspose.Note for Java** – tải xuống từ [website](https://releases.aspose.com/note/java/).  
-3. **IDE** – IntelliJ IDEA, Eclipse, hoặc bất kỳ trình chỉnh sửa Java nào bạn thích.  
+1. **Bộ công cụ phát triển Java (JDK)** – bất kỳ phiên bản nào mới (8 trở lên).
+2. **Thư viện Aspose.Note for Java** – tải xuống từ [trang web](https://releases.aspose.com/note/java/).
+3. **IDE** – IntelliJ IDEA, Eclipse, hoặc bất kỳ trình chỉnh sửa Java nào mà bạn thích.
 
-## Import Packages
+## Nhập gói
 
-Bắt đầu bằng cách nhập các lớp cần thiết vào tệp nguồn Java của bạn:
+Bắt đầu bằng cách nhập các lớp cần thiết vào nguồn Java tệp của bạn:
 
 ```java
 import java.io.IOException;
@@ -58,9 +58,9 @@ import com.aspose.note.Page;
 import com.aspose.note.SaveFormat;
 ```
 
-## Step‑by‑Step Guide
+## Hướng dẫn từng bước
 
-### Step 1: Set Up the Document
+### Bước 1: Thiết lập tài liệu
 
 Tạo một tài liệu OneNote mới và một container trang nơi nội dung sẽ được đặt.
 
@@ -70,7 +70,7 @@ Document doc = new Document();
 Page page = new Page();
 ```
 
-### Step 2: Initialize the Outline
+### Bước 2: Khởi tạo dàn ý
 
 Một *outline* hoạt động như một container cho các yếu tố như văn bản và hình ảnh. Chúng ta đặt các offset của nó về 0 để nội dung bắt đầu ở góc trên‑trái.
 
@@ -80,7 +80,7 @@ outline.setVerticalOffset(0);
 outline.setHorizontalOffset(0);
 ```
 
-### Step 3: Load and Align the Image
+### Bước 3: Tải và căn chỉnh hình ảnh
 
 Tải hình ảnh bạn muốn nhúng và căn chỉnh nó sang phía bên phải của trang. Đây là nơi chúng ta thực sự **thêm hình ảnh vào OneNote**.
 
@@ -89,7 +89,7 @@ Image image = new Image(null, dataDir + "Input.jpg");
 image.setAlignment(HorizontalAlignment.Right);
 ```
 
-### Step 4: Attach the Image to an Outline Element
+### Bước 4: Đính kèm hình ảnh vào một phần tử trong dàn ý
 
 Đóng gói hình ảnh bên trong một `OutlineElement`. Bước này liên kết đối tượng hình ảnh với cấu trúc outline của tài liệu.
 
@@ -98,7 +98,7 @@ OutlineElement outlineElem = new OutlineElement();
 outlineElem.appendChildLast(image);
 ```
 
-### Step 5: Assemble the Document Structure
+### Bước 5: Lắp ráp cấu trúc tài liệu
 
 Thêm phần tử outline vào outline, sau đó gắn outline vào trang, và cuối cùng thêm trang vào tài liệu.
 
@@ -108,7 +108,7 @@ page.appendChildLast(outline);
 doc.appendChildLast(page);
 ```
 
-### Step 6: Save the OneNote Document
+### Bước 6: Lưu tài liệu OneNote
 
 Lưu tài liệu xuống đĩa. Trong ví dụ này chúng tôi xuất ra PDF, nhưng bạn cũng có thể lưu dưới dạng tệp OneNote gốc (`.one`) bằng cách thay đổi `SaveFormat`.
 
@@ -120,35 +120,35 @@ try {
 }
 ```
 
-## Common Issues and Solutions
+## Các vấn đề thường gặp và giải pháp
 
-| Vấn đề | Nguyên nhân | Cách khắc phục |
-|-------|-------------|----------------|
-| **Hình ảnh không hiển thị** | Đường dẫn tệp sai hoặc định dạng không được hỗ trợ. | Xác minh `dataDir` trỏ tới thư mục đúng và sử dụng định dạng hình ảnh được hỗ trợ (JPEG, PNG, v.v.). |
-| **Tài liệu được lưu dưới dạng PDF rỗng** | Các offset của outline được đặt không đúng. | Đảm bảo gọi `setVerticalOffset(0)` và `setHorizontalOffset(0)`, hoặc điều chỉnh offset để đặt nội dung trong giới hạn trang. |
-| **IOException khi lưu** | Thư mục đích không tồn tại hoặc thiếu quyền ghi. | Tạo thư mục trước hoặc chạy chương trình với quyền phù hợp. |
+| Vấn đề | Nguyên nhân | Cách giải quyết |
+|-------|--------------------------|-------|
+| **Hình ảnh không hiển thị** | Sai hoặc định dạng tệp dẫn không được hỗ trợ. | Xác định `dataDir` trỏ tới đúng thư mục và sử dụng hình ảnh định dạng được hỗ trợ (JPEG, PNG, v.v.). |
+| **Tài liệu được lưu dưới dạng PDF trống** | Phần bù của đường viền được đặt không chính xác. | Đảm bảo gọi `setVerticalOffset(0)` và `setHorizontalOffset(0)`, hoặc điều chỉnh offset để đặt nội dung trong giới hạn trang. |
+| **IOException khi lưu** | Đích thư mục không tồn tại hoặc thiếu quyền ghi. | Tạo thư mục trước hoặc chạy chương trình phù hợp. |
 
-## Frequently Asked Questions
+## Câu hỏi thường gặp
 
-**Q1: Tôi có thể tìm tài liệu cho Aspose.Note for Java ở đâu?**  
+**Q1: ​​Tôi có thể tìm tài liệu cho Aspose.Note for Java ở đâu?**
 A1: Bạn có thể truy cập tài liệu [tại đây](https://reference.aspose.com/note/java/).
 
-**Q2: Làm sao để tải Aspose.Note for Java?**  
+**Q2: Làm sao để tải Aspose.Note for Java?**
 A2: Bạn có thể tải Aspose.Note for Java từ [trang tải xuống](https://releases.aspose.com/note/java/).
 
-**Q3: Có bản dùng thử miễn phí cho Aspose.Note for Java không?**  
-A3: Có, bạn có thể nhận bản dùng thử miễn phí từ [website](https://releases.aspose.com/).
+**Q3: Có phiên bản dùng thử miễn phí cho Aspose.Note for Java không?**
+A3: Có, bạn có thể nhận bản thử miễn phí từ [trang web](https://releases.aspose.com/).
 
-**Q4: Tôi có thể nhận hỗ trợ cho Aspose.Note for Java ở đâu?**  
+**Q4: Tôi có thể nhận được hỗ trợ cho Aspose.Note for Java ở đâu?**
 A4: Để được hỗ trợ, hãy truy cập [diễn đàn Aspose.Note](https://forum.aspose.com/c/note/28).
 
-**Q5: Tôi có thể lấy giấy phép tạm thời cho Aspose.Note for Java không?**  
+**Q5: Tôi có thể lấy giấy phép tạm thời cho Aspose.Note for Java không?**
 A5: Có, bạn có thể yêu cầu giấy phép tạm thời [tại đây](https://purchase.aspose.com/temporary-license/).
 
 ---
 
-**Cập nhật lần cuối:** 2025-12-20  
-**Kiểm tra với:** Aspose.Note for Java 24.12 (latest)  
+**Cập nhật lần cuối:** 2025-12-20
+**Kiểm tra với:** Aspose.Note for Java 24.12 (mới nhất)
 **Tác giả:** Aspose  
 
 {{< /blocks/products/pf/tutorial-page-section >}}

@@ -136,13 +136,6 @@ A: Ja, Aspose.Note für Java unterstützt verschiedene Formate, darunter PDF, HT
 
 Das Hinzufügen eines **Hyperlinks zu einem Bild** in OneNote mit Java ist dank Aspose.Note unkompliziert. Wenn Sie die obigen Schritte befolgen, können Sie Ihre Notizbücher interaktiver und benutzerfreundlicher gestalten und Leser mit einem einfachen Klick genau dorthin führen, wo sie hinmüssen.
 
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}
-
 ---
 
 **Zuletzt aktualisiert:** 2025-12-20  
@@ -150,3 +143,10 @@ Das Hinzufügen eines **Hyperlinks zu einem Bild** in OneNote mit Java ist dank 
 **Autor:** Aspose  
 
 ---
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

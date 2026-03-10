@@ -136,15 +136,15 @@ V: Igen, az Aspose.Note for Java számos formátumot támogat, többek között 
 
 A **kép hiperhivatkozás hozzáadása a OneNote-ban Java használatával** egyszerű az Aspose.Note segítségével. A fenti lépések követésével interaktívabbá és felhasználó‑barátabbá teheted jegyzetfüzeteidet, és a olvasókat egy egyszerű kattintással a kívánt helyre irányíthatod.
 
+---
+
+**Utolsó frissítés:** 2025-12-20  
+**Tesztelve:** Aspose.Note for Java 24.11  
+**Szerző:** Aspose
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
-
----
-
-**Utolsó frissítés:** 2025-12-20  
-**Tesztelve:** Aspose.Note for Java 24.11  
-**Szerző:** Aspose

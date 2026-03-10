@@ -158,28 +158,6 @@ System.out.printf("File saved: %s\n", dataDir + "AddHyperlink_out.pdf");
 
 Chúc mừng! Bạn đã thành công **lưu OneNote dưới dạng PDF** và thêm một siêu liên kết vào tài liệu bằng Java và thư viện Aspose.Note. Khả năng này cho phép bạn tạo các tệp PDF tương tác, có thể chia sẻ trực tiếp từ nội dung OneNote của mình.
 
-## Câu hỏi thường gặp
-
-### Câu hỏi 1: Aspose.Note có tương thích với mọi phiên bản Java không?
-
-A1: Có, Aspose.Note cho Java hỗ trợ tất cả các phiên bản Java chính, bao gồm JDK 8 trở lên.
-
-### Câu hỏi 2: Tôi có thể thêm nhiều siêu liên kết trong một tài liệu duy nhất bằng Aspose.Note không?
-
-A2: Chắc chắn! Bạn có thể thêm bao nhiêu siêu liên kết tùy thích trong tài liệu OneNote của mình bằng Aspose.Note cho Java.
-
-### Câu hỏi 3: Aspose.Note có hỗ trợ các ngôn ngữ lập trình khác không?
-
-A3: Có, Aspose.Note cung cấp các thư viện cho nhiều ngôn ngữ lập trình, bao gồm .NET, Python và Android.
-
-### Câu hỏi 4: Aspose.Note có dễ tích hợp vào các dự án Java hiện có không?
-
-A4: Có, việc tích hợp Aspose.Note vào các dự án Java của bạn rất đơn giản và được tài liệu hoá đầy đủ, giúp bạn dễ dàng bắt đầu.
-
-### Câu hỏi 5: Tôi có thể tìm thêm trợ giúp và tài nguyên cho việc sử dụng Aspose.Note ở đâu?
-
-A5: Bạn có thể tìm tài liệu chi tiết, hướng dẫn và hỗ trợ cộng đồng trên [diễn đàn Aspose.Note](https://forum.aspose.com/c/note/28).
-
 ## Các câu hỏi thường gặp
 
 **Q: Làm thế nào để tùy chỉnh giao diện của siêu liên kết?**  

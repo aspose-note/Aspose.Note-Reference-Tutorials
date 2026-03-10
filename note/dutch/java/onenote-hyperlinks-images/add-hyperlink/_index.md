@@ -160,28 +160,6 @@ Gefeliciteerd! Je hebt met succes **OneNote opgeslagen als PDF** en een hyperlin
 
 ## Veelgestelde vragen
 
-### Q1: Is Aspose.Note compatibel met alle versies van Java?
-
-A1: Ja, Aspose.Note for Java ondersteunt alle belangrijke versies van Java, inclusief JDK 8 en hoger.
-
-### Q2: Kan ik meerdere hyperlinks toevoegen in één document met Aspose.Note?
-
-A2: Absoluut! Je kunt zoveel hyperlinks toevoegen als je nodig hebt binnen je OneNote‑document met Aspose.Note for Java.
-
-### Q3: Biedt Aspose.Note ondersteuning voor andere programmeertalen?
-
-A3: Ja, Aspose.Note biedt bibliotheken voor verschillende programmeertalen, waaronder .NET, Python en Android.
-
-### Q4: Is Aspose.Note gemakkelijk te integreren in bestaande Java‑projecten?
-
-A4: Ja, het integreren van Aspose.Note in je Java‑projecten is eenvoudig en goed gedocumenteerd, waardoor je snel kunt beginnen.
-
-### Q5: Waar kan ik meer hulp en bronnen vinden voor het gebruik van Aspose.Note?
-
-A5: Je kunt uitgebreide documentatie, tutorials en community‑ondersteuning vinden op het [Aspose.Note‑forum](https://forum.aspose.com/c/note/28).
-
-## Veelgestelde vragen
-
 **Q: Hoe kan ik het uiterlijk van de hyperlink aanpassen?**  
 A: Gebruik `TextStyle`‑eigenschappen zoals `setFontColor`, `setUnderline` of `setFontName` voordat je `setHyperlinkAddress` aanroept.
 

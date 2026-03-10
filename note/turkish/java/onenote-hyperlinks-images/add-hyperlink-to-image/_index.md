@@ -136,15 +136,15 @@ A: Evet, Aspose.Note for Java PDF, HTML ve görüntü formatları dahil çeşitl
 
 Java kullanarak OneNote'ta **görsele bağlantı eklemek**, Aspose.Note ile oldukça basittir. Yukarıdaki adımları izleyerek not defterlerinizi daha etkileşimli ve kullanıcı dostu hâle getirebilir, okuyucuları tek bir tıklama ile ihtiyaç duydukları yere yönlendirebilirsiniz.
 
+---
+
+**Son Güncelleme:** 2025-12-20  
+**Test Edilen:** Aspose.Note for Java 24.11  
+**Yazar:** Aspose
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
-
----
-
-**Son Güncelleme:** 2025-12-20  
-**Test Edilen:** Aspose.Note for Java 24.11  
-**Yazar:** Aspose

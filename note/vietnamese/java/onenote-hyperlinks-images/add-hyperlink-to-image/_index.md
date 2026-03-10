@@ -135,13 +135,6 @@ document.save(dataDir + "HyperlinkToImage_out.one");
 
 Thêm **siêu liên kết vào hình ảnh** trong OneNote bằng Java trở nên đơn giản với Aspose.Note. Bằng cách thực hiện các bước trên, bạn có thể làm cho notebook của mình trở nên tương tác và thân thiện hơn, dẫn dắt người đọc đến đúng nơi họ cần chỉ với một cú nhấp chuột.
 
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}
-
 ---
 
 **Last Updated:** 2025-12-20  
@@ -149,3 +142,10 @@ Thêm **siêu liên kết vào hình ảnh** trong OneNote bằng Java trở nê
 **Author:** Aspose  
 
 ---
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

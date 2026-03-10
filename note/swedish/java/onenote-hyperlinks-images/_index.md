@@ -65,13 +65,6 @@ Lär dig hur du extraherar bildinformation från OneNote‑dokument med Java och
 ### [Infoga en bild i OneNote‑dokument med Java](./insert-image/)
 Lär dig hur du infogar bilder i OneNote‑dokument med Java och Aspose.Note for Java‑biblioteket. Följ vår steg‑för‑steg‑guide för sömlös integration.
 
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}
-
 ## Vanliga frågor
 
 **Q: Kan jag lägga till en hyperlänk till vilket bildformat som helst (PNG, JPEG, GIF)?**  
@@ -94,3 +87,10 @@ Lär dig hur du infogar bilder i OneNote‑dokument med Java och Aspose.Note for
 **Last Updated:** 2025-12-20  
 **Tested With:** Aspose.Note for Java 24.10  
 **Author:** Aspose
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

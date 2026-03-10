@@ -65,13 +65,6 @@ weight: 22
 ### [Insert an Image in OneNote Document with Java](./insert-image/)
 Μάθετε πώς να εισάγετε εικόνες σε έγγραφα OneNote χρησιμοποιώντας Java με τη βιβλιοθήκη Aspose.Note for Java. Ακολουθήστε τον οδηγό βήμα‑βήμα μας για αδιάλειπτη ενσωμάτωση.
 
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}
-
 ## Συχνές Ερωτήσεις
 
 **Ε: Μπορώ να προσθέσω υπερσύνδεσμο σε οποιαδήποτε μορφή εικόνας (PNG, JPEG, GIF);**  
@@ -94,3 +87,10 @@ weight: 22
 **Last Updated:** 2025-12-20  
 **Tested With:** Aspose.Note for Java 24.10  
 **Author:** Aspose
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

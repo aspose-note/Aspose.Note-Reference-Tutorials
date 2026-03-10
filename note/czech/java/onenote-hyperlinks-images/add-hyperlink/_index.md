@@ -160,28 +160,6 @@ Gratulujeme! Úspěšně jste **uložili OneNote jako PDF** a přidali hypertext
 
 ## Často kladené otázky
 
-### Q1: Je Aspose.Note kompatibilní se všemi verzemi Javy?
-
-**A1:** Ano, Aspose.Note pro Javu podporuje všechny hlavní verze Javy, včetně JDK 8 a novějších.
-
-### Q2: Mohu přidat více hypertextových odkazů v jednom dokumentu pomocí Aspose.Note?
-
-**A2:** Rozhodně! Můžete přidat libovolný počet odkazů do vašeho OneNote dokumentu pomocí Aspose.Note pro Javu.
-
-### Q3: Nabízí Aspose.Note podporu pro jiné programovací jazyky?
-
-**A3:** Ano, Aspose.Note poskytuje knihovny pro různé programovací jazyky, včetně .NET, Pythonu a Androidu.
-
-### Q4: Je Aspose.Note snadno integrovatelný do existujících Java projektů?
-
-**A4:** Ano, integrace Aspose.Note do vašich Java projektů je přímočará a dobře zdokumentovaná, což usnadňuje rychlý start.
-
-### Q5: Kde mohu najít další pomoc a zdroje pro používání Aspose.Note?
-
-**A5:** Rozsáhlou dokumentaci, tutoriály a komunitní podporu najdete na [fóru Aspose.Note](https://forum.aspose.com/c/note/28).
-
-## Často kladené otázky
-
 **Q: Jak mohu přizpůsobit vzhled hypertextového odkazu?**  
 A: Použijte vlastnosti `TextStyle`, jako jsou `setFontColor`, `setUnderline` nebo `setFontName`, před voláním `setHyperlinkAddress`.
 

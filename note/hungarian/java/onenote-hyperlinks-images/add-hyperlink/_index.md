@@ -159,28 +159,6 @@ System.out.printf("File saved: %s\n", dataDir + "AddHyperlink_out.pdf");
 
 Gratulálunk! Sikeresen **mentette a OneNote-ot PDF-ként**, és hiperhivatkozást adott a dokumentumhoz Java és az Aspose.Note könyvtár segítségével. Ez a lehetőség interaktív, megosztható PDF-eket hoz létre közvetlenül a OneNote tartalmából.
 
-## GYIK
-
-### Q1: Az Aspose.Note kompatibilis minden Java verzióval?
-
-A1: Igen, az Aspose.Note for Java támogatja a Java összes fő verzióját, beleértve a JDK 8-at és azt fölöttit.
-
-### Q2: Hozzáadhatok több hiperhivatkozást egyetlen dokumentumhoz az Aspose.Note használatával?
-
-A2: Természetesen! Az Aspose.Note for Java segítségével annyi hiperhivatkozást is hozzáadhat, amennyire szüksége van a OneNote dokumentumban.
-
-### Q3: Az Aspose.Note támogat más programozási nyelveket is?
-
-A3: Igen, az Aspose.Note könyvtárakat biztosít különböző programozási nyelvekhez, többek között .NET, Python és Android számára.
-
-### Q4: Az Aspose.Note könnyen integrálható meglévő Java projektekbe?
-
-A4: Igen, az Aspose.Note integrálása a Java projektekbe egyszerű és jól dokumentált, így könnyen elkezdhető.
-
-### Q5: Hol találok további segítséget és forrásokat az Aspose.Note használatához?
-
-A5: Kiterjedt dokumentációt, oktatóanyagokat és közösségi támogatást talál az [Aspose.Note fórumon](https://forum.aspose.com/c/note/28).
-
 ## Gyakran Ismételt Kérdések
 
 **K: Hogyan testreszabhatom a hiperhivatkozás megjelenését?**  

@@ -134,13 +134,6 @@ document.save(dataDir + "HyperlinkToImage_out.one");
 
 使用 Aspose.Note 在 OneNote 中通过 Java **为图像添加超链接** 非常简便。按照上述步骤操作，即可让您的笔记本更加互动、友好，帮助读者通过一次点击精准跳转到所需位置。
 
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}
-
 ---
 
 **最后更新：** 2025-12-20  
@@ -148,3 +141,10 @@ document.save(dataDir + "HyperlinkToImage_out.one");
 **作者：** Aspose  
 
 ---
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

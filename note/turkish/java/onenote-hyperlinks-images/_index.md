@@ -65,13 +65,6 @@ Aspose.Note ile Java kullanarak OneNote belgelerinden görsel bilgilerini çıka
 ### [Java ile OneNote Belgesine Görsel Ekleme](./insert-image/)
 Aspose.Note for Java kütüphanesiyle Java kullanarak OneNote belgelerine görsel eklemeyi öğrenin. Sorunsuz entegrasyon için adım adım rehber.
 
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}
-
 ## Sıkça Sorulan Sorular
 
 **S: Herhangi bir görüntü formatına (PNG, JPEG, GIF) bağlantı ekleyebilir miyim?**  
@@ -94,3 +87,10 @@ C: Bir görsel yalnızca bir bağlantı tutabilir. Birden fazla bağlantı sağl
 **Son Güncelleme:** 2025-12-20  
 **Test Edilen Sürüm:** Aspose.Note for Java 24.10  
 **Yazar:** Aspose
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

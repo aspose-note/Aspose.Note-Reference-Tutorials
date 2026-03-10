@@ -160,28 +160,6 @@ System.out.printf("File saved: %s\n", dataDir + "AddHyperlink_out.pdf");
 
 Congratulazioni! Hai **salvato OneNote come PDF** con successo e aggiunto un collegamento ipertestuale al documento usando Java e la libreria Aspose.Note. Questa funzionalità ti consente di creare PDF interattivi e condivisibili direttamente dal tuo contenuto OneNote.
 
-## FAQ
-
-### Q1: Aspose.Note è compatibile con tutte le versioni di Java?
-
-A1: Sì, Aspose.Note per Java supporta tutte le principali versioni di Java, inclusi JDK 8 e successive.
-
-### Q2: Posso aggiungere più collegamenti ipertestuali in un unico documento usando Aspose.Note?
-
-A2: Assolutamente! Puoi aggiungere tutti i collegamenti ipertestuali di cui hai bisogno all'interno del tuo documento OneNote usando Aspose.Note per Java.
-
-### Q3: Aspose.Note offre supporto per altri linguaggi di programmazione?
-
-A3: Sì, Aspose.Note fornisce librerie per vari linguaggi di programmazione, inclusi .NET, Python e Android.
-
-### Q4: Aspose.Note è facile da integrare nei progetti Java esistenti?
-
-A4: Sì, integrare Aspose.Note nei tuoi progetti Java è semplice e ben documentato, rendendo facile l'avvio.
-
-### Q5: Dove posso trovare ulteriore aiuto e risorse per usare Aspose.Note?
-
-A5: Puoi trovare una documentazione completa, tutorial e supporto della community sul [forum di Aspose.Note](https://forum.aspose.com/c/note/28).
-
 ## Domande frequenti
 
 **Q: Come posso personalizzare l'aspetto del collegamento ipertestuale?**  

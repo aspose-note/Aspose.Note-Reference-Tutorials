@@ -65,13 +65,6 @@ Leer hoe u afbeeldingsinformatie uit OneNote‑documenten haalt met Java en Aspo
 ### [Een afbeelding invoegen in OneNote-document met Java](./insert-image/)
 Leer hoe u afbeeldingen invoegt in OneNote‑documenten met Java en de Aspose.Note for Java‑bibliotheek. Volg onze stapsgewijze gids voor naadloze integratie.
 
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}
-
 ## Veelgestelde vragen
 
 **V: Kan ik een hyperlink toevoegen aan elk afbeeldingsformaat (PNG, JPEG, GIF)?**  
@@ -94,3 +87,10 @@ Leer hoe u afbeeldingen invoegt in OneNote‑documenten met Java en de Aspose.No
 **Last Updated:** 2025-12-20  
 **Tested With:** Aspose.Note for Java 24.10  
 **Author:** Aspose
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

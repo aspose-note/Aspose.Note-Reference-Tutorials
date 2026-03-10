@@ -65,13 +65,6 @@ Tanuld meg, hogyan nyerj ki képinformációkat OneNote dokumentumokból Java-va
 ### [Insert an Image in OneNote Document with Java](./insert-image/)
 Tanuld meg, hogyan szúrj be képeket OneNote dokumentumokba Java-val az Aspose.Note for Java könyvtárral. Kövesd lépésről‑lépésre útmutatónkat a zökkenőmentes integrációhoz.
 
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}
-
 ## Gyakran ismételt kérdések
 
 **Q: Hozzáadhatok hivatkozást bármely képformátumhoz (PNG, JPEG, GIF)?**  
@@ -94,3 +87,10 @@ A: Egy kép csak egy hivatkozást tartalmazhat. Több link biztosításához has
 **Utoljára frissítve:** 2025-12-20  
 **Tesztelve:** Aspose.Note for Java 24.10  
 **Szerző:** Aspose
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

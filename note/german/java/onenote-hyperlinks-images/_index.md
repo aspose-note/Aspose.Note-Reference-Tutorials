@@ -71,13 +71,6 @@ Erfahren Sie, wie Sie Bildinformationen aus OneNote‑Dokumenten mit Java und As
 ### [Bild in OneNote‑Dokument mit Java einfügen](./insert-image/)
 Erfahren Sie, wie Sie Bilder in OneNote‑Dokumente mit Java und der Aspose.Note‑Bibliothek einfügen. Folgen Sie unserer Schritt‑für‑Schritt‑Anleitung für nahtlose Integration.
 
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}
-
 ## Häufig gestellte Fragen
 
 **F: Kann ich einem Bild in jedem Format (PNG, JPEG, GIF) einen Hyperlink hinzufügen?**  
@@ -100,3 +93,10 @@ A: Ein Bild kann nur einen Hyperlink enthalten. Um mehrere Links bereitzustellen
 **Zuletzt aktualisiert:** 2025-12-20  
 **Getestet mit:** Aspose.Note for Java 24.10  
 **Autor:** Aspose
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

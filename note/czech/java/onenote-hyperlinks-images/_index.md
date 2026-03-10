@@ -65,13 +65,6 @@ Naučte se, jak získat informace o obrázku z dokumentů OneNote pomocí Javy s
 ### [Vložení obrázku do dokumentu OneNote pomocí Javy](./insert-image/)
 Naučte se, jak vložit obrázky do dokumentů OneNote pomocí Javy s knihovnou Aspose.Note for Java. Postupujte podle našeho krok‑za‑krokem průvodce pro bezproblémovou integraci.
 
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}
-
 ## Často kladené otázky
 
 **Q: Mohu přidat hypertextový odkaz k libovolnému formátu obrázku (PNG, JPEG, GIF)?**  
@@ -94,3 +87,10 @@ A: Jeden obrázek může obsahovat pouze jeden hypertextový odkaz. Pro více od
 **Poslední aktualizace:** 2025-12-20  
 **Testováno s:** Aspose.Note for Java 24.10  
 **Autor:** Aspose
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -16,43 +16,43 @@ weight: 10
 
 # OneNote'u PDF Olarak Kaydet ve OneNote'a Java ile Köprü Ekle
 
-## Introduction
+## Giriiş
 
-OneNote belgelerinize köprüler eklemek ve aynı zamanda PDF olarak kaydetmek, notlarınızın etkileşimini büyük ölçüde artırabilir ve paylaşımı kolaylaştırabilir. Bu öğreticide **OneNote'u PDF olarak nasıl kaydedeceğinizi** ve Java ile Aspose.Note kütüphanesini kullanarak tıklanabilir bir bağlantı eklemeyi öğreneceksiniz. Adımları birlikte inceleyelim!
+OneNote belgelerinizi köprüler halinde değiştirebilir ve aynı zamanda PDF olarak çalıştırabilir, notlarınızın aktarımlarını büyük ölçüde artırabilir ve paylaşımını kolaylaştırabilir. Bu öğreticide **OneNote'u PDF olarak nasıl kaydedeceğinizi** ve Java ile Aspose.Note kütüphanesini kullanarak tıklanabilir bir bağlantı eklemeyi dosyalarını kullanarak. Adımları birlikte inceleyelim!
 
-## Quick Answers
-- **Java ile OneNote'u PDF olarak kaydedebilir miyim?** Evet, Aspose.Note for Java, PDF oluşturmak için tek bir `save` çağrısı sağlar.
+## Hızlı Yanıtlar
+- **Java ile OneNote'u PDF olarak kaydedebilir miyim?** Evet, Aspose.Note for Java, PDF oluşturmak için tek bir `save` birimi sağlar.
 - **Bir köprüyü nasıl eklerim?** `RichText` segmentinde `TextStyle.setHyperlinkAddress` kullanın.
 - **Gereksinimler nelerdir?** JDK 8+ ve Aspose.Note for Java kütüphanesi.
-- **Hangi çıktı formatları destekleniyor?** PDF, DOCX, XPS ve daha fazlası.
+- **Hangi çıkan formatları destekleniyor mu?** PDF, DOCX, XPS ve daha fazlası.
 - **Üretim için lisans gerekli mi?** Evet, değerlendirme dışı kullanım için ticari bir lisans gereklidir.
 
-## What is “save onenote as pdf”?
+## "Onenote'u pdf olarak kaydet" nedir?
 
-OneNote defterini PDF olarak kaydetmek, notlarınızın OneNote uygulaması olmadan herhangi bir cihazda açılabilen taşınabilir, yalnızca okunabilir bir sürümünü oluşturur. Bu, arşivleme, yazdırma veya OneNote olmayan kullanıcılarla paylaşma için özellikle faydalıdır.
+OneNote defterini PDF olarak kaydeder, notlarınızın OneNote uygulaması olmadan herhangi bir cihazda açılabilir taşınabilir, yalnızca okunabilir bir kaydedilebilir oluşturur. Bu, arşivleme, yazdırma veya OneNote olmayan kullanıcılarla paylaşmak için özellikle faydalıdır.
 
-## Why generate PDF from OneNote with Aspose.Note Java?
+## Neden Aspose.Note Java ile OneNote'tan PDF oluşturmalısınız?
 
 - **Tam doğruluk:** Biçimlendirme, görseller ve köprüler korunur.
-- **Programatik kontrol:** Arka uç hizmetlerinde toplu dönüşümleri otomatikleştirin.
-- **Çapraz platform:** Windows, Linux ve macOS'ta çalışır.
-- **Zengin API:** Kaydetmeden önce içeriği kolayca ekleyin veya değiştirin.
+- **Programatik kontrol:** Arka uç hizmetlerinde toplu dönüşümleri otomatikleştirir.
+- **Çapraz platformu:** Windows, Linux ve macOS'ta çalışır.
+- **Zengin API:** Kaydedilmeden önce içerik kolayca eklenir veya verilir.
 
-## Prerequisites
+## Önkoşullar
 
-Before we begin, ensure you have the following prerequisites installed and set up on your system:
+Başlamadan önce, aşağıdaki önkoşulların sisteminizde kurulu ve ayarlanmış olduğundan emin olun:
 
-### Java Development Kit (JDK)
+### Java Geliştirme Kiti (JDK)
 
-Sisteminizde Java Development Kit (JDK) yüklü olduğundan emin olun. JDK'yı [Oracle web sitesinden](https://www.oracle.com/java/technologies/javase-jdk11-downloads.html) indirebilir ve kurabilirsiniz.
+Sisteminizde Java Development Kit (JDK) yüklü olduğundan emin olun. JDK'yı [Oracle web sitesinde](https://www.oracle.com/java/technologies/javase-jdk11-downloads.html) indirebilir ve kurabilirsiniz.
 
-### Aspose.Note for Java Library
+### Java Kitaplığı için Aspose.Note
 
-Aspose.Note for Java kütüphanesini indirin ve kurun. Belgeleri ve indirme bağlantısını [burada](https://reference.aspose.com/note/java/) bulabilirsiniz.
+Aspose.Note for Java kütüphanesini indirip kurun. Belgeleri ve indirme dosyalarını [burada](https://reference.aspose.com/note/java/) bulabilirsiniz.
 
-## Import Packages
+## Paketleri İçe Aktar
 
-Başlamak için, Aspose.Note for Java ile çalışmak için gerekli paketleri içe aktarın.
+Başlamak için, Aspose.Note for Java ile çalışmak için gerekli kapları içe aktarın.
 
 ```java
 import java.io.IOException;
@@ -67,11 +67,11 @@ import com.aspose.note.ParagraphStyle;
 import com.aspose.note.Title;
 ```
 
-Now, let's break down the provided example into multiple steps:
+Şimdi verilen örneği birden çok adıma ayıralım:
 
-## Step 1: Set Up Document Structure
+## Adım 1: Belge Yapısını Ayarlayın
 
-İlk olarak, içeriğin yer alacağı yeni bir belge ve sayfa oluşturun.
+İlk olarak, içeriğin içerdiği yeni bir belge ve sayfa birleştirilir.
 
 ```java
 String dataDir = "Your Document Directory";
@@ -80,7 +80,7 @@ Page page = new Page();
 Title title = new Title();
 ```
 
-## Step 2: Define Default Text Style
+## Adım 2: Varsayılan Metin Stilini Tanımlayın
 
 Çoğu metin öğesine uygulanacak varsayılan paragraf stilini tanımlayın.
 
@@ -91,7 +91,7 @@ ParagraphStyle defaultTextStyle = new ParagraphStyle()
                                             .setFontColor(java.awt.Color.GRAY);
 ```
 
-## Step 3: Set Title Text
+## Adım 3: Başlık Metnini Ayarlayın
 
 Sayfa için bir başlık oluşturun ve varsayılan stili uygulayın.
 
@@ -102,7 +102,7 @@ title.setTitleText(titleText);
 page.setTitle(title);
 ```
 
-## Step 4: Create Outline and Outline Elements
+## Adım 4: Anahat ve Anahat Öğelerini Oluşturun
 
 Outline'lar, paragraflar ve diğer öğeler için kapsayıcılar gibi davranır.
 
@@ -111,7 +111,7 @@ Outline outline = new Outline();
 OutlineElement outlineElem = new OutlineElement();
 ```
 
-## Step 5: Define Text Style for Hyperlink
+## Adım 5: Köprü için Metin Stilini Tanımlayın
 
 Burada, tıklanabilir kısım için kullanılacak kırmızı renkli stili tanımlıyoruz.
 
@@ -122,7 +122,7 @@ TextStyle textStyleRed = new TextStyle()
                                     .setFontColor(java.awt.Color.red);
 ```
 
-## Step 6: Add Text with Hyperlink
+## Adım 6: Köprü İçeren Metni Ekleyin
 
 Şimdi normal metin ve bir köprü içeren bir `RichText` nesnesi oluşturuyoruz. `setHyperlinkAddress` yöntemi Aspose.Note'a bu segmentin tıklanabilir olması gerektiğini söyler.
 
@@ -135,7 +135,7 @@ text.setParagraphStyle(defaultTextStyle);
 outlineElem.appendChildLast(text);
 ```
 
-## Step 7: Add Outline to Page and Page to Document
+## Adım 7: Anahatı Sayfaya ve Sayfayı Belgeye Ekleyin
 
 Outline öğesini outline'a, outline'ı sayfaya ve son olarak sayfayı belgeye ekleyin.
 
@@ -145,7 +145,7 @@ page.appendChildLast(outline);
 doc.appendChildLast(page);
 ```
 
-## Step 8: Save the Document as PDF
+## Adım 8: Belgeyi PDF Olarak Kaydedin
 
 Son adım, OneNote belgesini PDF dosyası olarak kaydetmektir. Bu, ana anahtar kelime **save onenote as pdf** burada devreye girer.
 
@@ -154,54 +154,32 @@ doc.save(dataDir + "AddHyperlink_out.pdf");
 System.out.printf("File saved: %s\n", dataDir + "AddHyperlink_out.pdf");
 ```
 
-## Conclusion
+## Çözüm
 
-Tebrikler! Java ve Aspose.Note kütüphanesini kullanarak **OneNote'u PDF olarak kaydettiniz** ve belgeye bir köprü eklediniz. Bu özellik, OneNote içeriğinizden doğrudan etkileşimli, paylaşılabilir PDF'ler oluşturmanızı sağlar.
+Tebrikler! Java ve Aspose.Note kütüphanesini kullanarak **OneNote'u PDF olarak kaydettiniz** ve belgeye bir köprü eklediniz. Bu özellik, OneNote içeriğinizden etkileşimli, paylaşılabilir PDF'ler oluşturmanızı sağlar.
 
-## FAQ's
+## Sıkça Sorulan Sorular
 
-### Q1: Is Aspose.Note compatible with all versions of Java?
+**S: Köprünün görünümünü nasıl değiştirebilirim?**
+C: `setHyperlinkAddress` çağrısından önce `setFontColor`, `setUnderline` veya `setFontName` gibi `TextStyle` özelliklerini kullanın.
 
-A1: Evet, Aspose.Note for Java, JDK 8 ve üzeri dahil olmak üzere tüm büyük Java sürümlerini destekler.
+**S: Belgeyi PDF dışındaki formatlarda kaydedebilir miyim?**
+C: Evet, Aspose.Note DOCX, XPS, HTML ve çeşitli diğer kullanılabilir formatlarını kullanılabilir.
 
-### Q2: Can I add multiple hyperlinks in a single document using Aspose.Note?
+**S: Mevcut bir OneNote içeriğine köprü eklemem gerekirse?**
+C: `new Document("input.one")` ile mevcut olanı yükleyin, içeriği gösterildiği gibi ve ardından istediğiniz formatta `save` çağırın.
 
-A2: Kesinlikle! Aspose.Note for Java kullanarak OneNote belgenizde ihtiyacınız kadar köprü ekleyebilirsiniz.
+**S: PDF içerdiğinden sonra köprüyü programlı olarak açmanın bir yolu var mı?**
+C: PDF görüntüleyici tıklanabilir bağlantılar otomatik olarak işler; ek bir kod gerekmez.
 
-### Q3: Does Aspose.Note offer support for other programming languages?
-
-A3: Evet, Aspose.Note .NET, Python ve Android dahil çeşitli programlama dilleri için kütüphaneler sağlar.
-
-### Q4: Is Aspose.Note easy to integrate into existing Java projects?
-
-A4: Evet, Aspose.Note'u Java projelerinize entegre etmek basittir ve iyi belgelenmiştir, bu da başlamayı kolaylaştırır.
-
-### Q5: Where can I find more help and resources for using Aspose.Note?
-
-A5: [Aspose.Note forumunda](https://forum.aspose.com/c/note/28/) kapsamlı belgeler, öğreticiler ve topluluk desteği bulabilirsiniz.
-
-## Frequently Asked Questions
-
-**S: Köprünün görünümünü nasıl özelleştirebilirim?**  
-C: `setHyperlinkAddress` çağırmadan önce `setFontColor`, `setUnderline` veya `setFontName` gibi `TextStyle` özelliklerini kullanın.
-
-**S: Belgeyi PDF dışındaki formatlarda kaydedebilir miyim?**  
-C: Evet, Aspose.Note DOCX, XPS, HTML ve çeşitli diğer dışa aktarım formatlarını destekler.
-
-**S: Mevcut bir OneNote dosyasına köprü eklemem gerekirse?**  
-C: `new Document("input.one")` ile mevcut dosyayı yükleyin, içeriği gösterildiği gibi değiştirin ve ardından istediğiniz formatta `save` çağırın.
-
-**S: PDF oluşturulduktan sonra köprüyü programlı olarak açmanın bir yolu var mı?**  
-C: PDF görüntüleyici tıklanabilir bağlantıları otomatik olarak işler; ek bir kod gerekmez.
-
-**S: Geliştirme kullanımı için lisans gerekli mi?**  
-C: Geçici bir değerlendirme lisansı geliştirme ve test için yeterlidir, ancak üretim dağıtımları için tam lisans gereklidir.
+**S: Geliştirme kullanımı için lisans gerekli mi?**
+C: Geçici bir değerlendirme lisansı geliştirme ve test için yeterlidir, ancak üretim sunumları için tam lisans gereklidir.
 
 ---
 
-**Last Updated:** 2025-12-20  
-**Tested With:** Aspose.Note for Java 23.12  
-**Author:** Aspose  
+**Son Güncelleme:** 2025-12-20
+**Şunlarla Test Edildi:** Java 23.12 için Aspose.Note
+**Yazar:** Aspose  
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
