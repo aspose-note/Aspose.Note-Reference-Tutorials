@@ -99,28 +99,6 @@ Appeler `save` écrit le carnet à l’emplacement que vous avez spécifié. L�
 
 Vous avez maintenant appris **comment créer des carnets onenote** en utilisant Aspose.Note pour Java en seulement quelques lignes de code. Cette capacité vous permet d’automatiser la création de notes, d’intégrer OneNote dans des solutions Java plus vastes et d’optimiser votre flux de travail.
 
-## FAQ
-
-### Q1 : Puis‑je utiliser Aspose.Note pour Java pour manipuler des carnets existants ?
-
-R1 : Oui, Aspose.Note pour Java offre de nombreuses fonctionnalités pour manipuler des carnets existants, y compris l’ajout, la modification et la suppression de contenu.
-
-### Q2 : Aspose.Note pour Java est‑il compatible avec toutes les versions de Microsoft OneNote ?
-
-R2 : Aspose.Note pour Java prend en charge diverses versions de Microsoft OneNote, garantissant la compatibilité sur différents environnements.
-
-### Q3 : Puis‑je intégrer Aspose.Note pour Java dans mes applications Java existantes ?
-
-R3 : Absolument ! Aspose.Note pour Java est conçu pour s’intégrer parfaitement aux applications Java, vous permettant d’améliorer votre productivité sans effort.
-
-### Q4 : Existe‑t‑il un essai gratuit d’Aspose.Note pour Java ?
-
-R4 : Oui, vous pouvez accéder à un essai gratuit d’Aspose.Note pour Java depuis la [page des releases](https://releases.aspose.com/), vous permettant d’explorer ses fonctionnalités avant d’effectuer un achat.
-
-### Q5 : Où puis‑je obtenir du support pour Aspose.Note pour Java ?
-
-R5 : Pour toute assistance ou question concernant Aspose.Note pour Java, vous pouvez visiter le [forum Aspose.Note](https://forum.aspose.com/c/note/28) pour interagir avec la communauté et obtenir des conseils d’experts.
-
 ## Questions fréquemment posées
 
 **Q : Comment ajouter des sections ou des pages après la création du carnet ?**  
@@ -138,15 +116,15 @@ R : Absolument. L’API comprend des méthodes pour intégrer des images, de l
 **Q : Quelle version de Java est requise ?**  
 R : La bibliothèque fonctionne avec Java 8 et les versions ultérieures.
 
+---
+
+**Last Updated:** 2025-12-31  
+**Tested With:** Aspose.Note for Java 24.12  
+**Author:** Aspose
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
-
----
-
-**Last Updated:** 2025-12-31  
-**Tested With:** Aspose.Note for Java 24.12  
-**Author:** Aspose

@@ -13,46 +13,50 @@ weight: 12
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# как извлечь вложения OneNote с помощью Java
+# как включить вложения OneNote с помощью Java
 
-## Introduction
+## Введение
 
-В современную цифровую эпоху **как извлечь OneNote** данные программно является распространённой задачей для разработчиков, создающих приложения, ориентированные на документы. Aspose.Note for Java упрощает эту задачу, предоставляя богатый API, который может читать, изменять и экспортировать содержимое файлов Microsoft OneNote *.one*. В этом руководстве вы узнаете, как получать вложения — такие как изображения, PDF‑файлы или документы Word — из блокнота OneNote с помощью Java.
+В современную цифровую эпоху **как замена OneNote** данные программно являются распространенной платой для разработчиков, создающих приложения, ориентированные на документы. Aspose.Note для Java является основной задачей, предоставляющей богатый API, который может читать, изменять и экспортировать популярные файлы Microsoft OneNote*.one*. В этом руководстве вы узнаете, как получать вложения — такие как изображения, PDF‑файлы или документы Word — из блокнота OneNote с помощью Java.
 
-## Quick Answers
-- **What library do I need?** Aspose.Note for Java  
-- **Can I extract files from .one without manual unpacking?** Yes, the API reads the .one format directly.  
-- **Do I need a license for development?** A free evaluation license works for testing; a full license is required for production.  
-- **Which Java version is supported?** Java 8 or higher.  
-- **Is batch processing possible?** Absolutely—loop through multiple documents with the same code.
+## Быстрые ответы
+- **Какая библиотека мне нужна?** Aspose.Note для Java
+- **Могу ли я извлечь файлы из .one без распаковки вручную?** Да, API напрямую считывает формат .one.
+- **Нужна ли мне лицензия для разработки?** Бесплатная пробная лицензия подходит для тестирования; Для производства необходима полная лицензия.
+- **Какая версия Java поддерживается?** Java8 или выше.
+- **Возможна ли пакетная обработка?** Абсолютно — циклически перебирать несколько документов с одним и тем же кодом.
 
-## What is “how to extract onenote”?
-Извлечение содержимого OneNote означает программное чтение файла *.one* и извлечение из него встроенных ресурсов (вложений, изображений, текста). Это позволяет реализовать такие сценарии, как автоматическое архивирование документов, миграция контента или пользовательская отчётность.
+## Что такое «как извлечь onenote»?
+Извлечение качества OneNote позволяет легко читать файлы *.one* и извлекать из него встроенные ресурсы (вложения, изображения, текст). Это позволяет реализовать такие сценарии, как архивирование документов, миграция контента или пользовательская отчётность.
 
-## Why use Aspose.Note for Java?
-- **Full format support** – Handles every element of the OneNote file structure.  
-- **No Office installation required** – Works in headless environments such as servers or CI pipelines.  
-- **Batch‑ready** – Process dozens of notebooks in a single run with minimal memory footprint.  
+## Зачем использовать Aspose.Note для Java?
+- **Полная поддержка форматов** – обрабатывает каждый элемент файловой структуры OneNote.
+- **Установка Office не требуется** – работает в автономных средах, таких как серверы или конвейеры CI.
+- **Пакетная обработка** — обработка десятков блокнотов за один проход с минимальным использованием памяти.
 
-## Prerequisites
+## Предварительные условия
 
-Before diving into the code, make sure the following are ready:
+Прежде чем приступить к коду, убедитесь, что у вас есть следующее:
 
-### Java Development Kit (JDK)
+### Комплект разработки Java (JDK)
 
-1. Download the latest JDK from Oracle or an OpenJDK distributor.  
-2. Add the JDK `bin` directory to your system `PATH`.  
-3. Verify with `java -version` and `javac -version`.
+1. Загрузите последнюю версию JDK с сайта Oracle или дистрибьютора OpenJDK.
 
-### Aspose.Note for Java
+2. Добавьте каталог `bin` JDK в системную переменную `PATH`.
 
-1. Navigate to the [download page](https://releases.aspose.com/note/java/) of Aspose.Note for Java.  
-2. Download the latest release archive.  
-3. Extract the JAR files to a folder that your project can reference.
+3. Проверьте с помощью команд `java -version` и `javac -version`.
 
-## Import Packages
+### Aspose.Note для Java
 
-To start, import the classes you’ll need. The block below is unchanged from the original tutorial:
+1. Перейдите на страницу загрузки Aspose.Note для Java.
+
+2. Загрузите архив с последней версией.
+
+3. Распакуйте JAR-файлы в папку, на которую сможет ссылаться ваш проект.
+
+## Импорт пакетов
+
+Для начала импортируйте необходимые классы. Приведенный ниже блок не изменился по сравнению с оригинальным руководством:
 
 ```java
 import java.io.ByteArrayInputStream;
@@ -65,43 +69,43 @@ import com.aspose.note.AttachedFile;
 import com.aspose.note.Document;
 ```
 
-> **Pro tip:** Keep these imports together at the top of your source file to make future maintenance easier.
+> **Совет:** Храните эти импорты вместе в верхней части исходного файла, чтобы упростить дальнейшее сопровождение.
 
-## Step‑by‑Step Guide
+## Пошаговое руководство
 
-### Step 1: Define Document Directory
+### Шаг 1: Определение каталога документа
 
-Specify where the source *.one* file lives on your machine.
+Укажите, где на вашем компьютере находится исходный файл *.one*.
 
 ```java
 String dataDir = "Your Document Directory";
 ```
 
-Replace `"Your Document Directory"` with the absolute or relative path that contains your OneNote file.
+Замените `"Ваш каталог документов"` абсолютным или относительным путем к вашему файлу OneNote.
 
-### Step 2: Load the Document
+### Шаг 2: Загрузка документа
 
-Create a `Document` instance that represents the OneNote notebook.
+Создайте экземпляр `Document`, представляющий собой записную книжку OneNote.
 
 ```java
 Document doc = new Document(dataDir + "Sample1.one");
 ```
 
-> This line **retrieves** the OneNote file and prepares it for further processing.
+> Эта строка **получает** файл OneNote и подготавливает его для дальнейшей обработки.
 
-### Step 3: Get List of Attachments
+### Шаг 3: Получение списка вложений
 
-Ask the document for all attached files (images, PDFs, etc.).
+Запросите у документа все прикрепленные файлы (изображения, PDF-файлы и т. д.).
 
 ```java
 List<AttachedFile> attachments = doc.getChildNodes(AttachedFile.class);
 ```
 
-The returned `List` holds `AttachedFile` objects, each representing a single embedded resource.
+Возвращаемый `List` содержит объекты `AttachedFile`, каждый из которых представляет собой отдельный встроенный ресурс.
 
-### Step 4: Retrieve and Save Attachments
+### Шаг 4: Получение и сохранение вложений
 
-Iterate through the collection, extract the binary data, and write each file to disk.
+Пройдите по коллекции, извлеките двоичные данные и запишите каждый файл на диск.
 
 ```java
 for (AttachedFile a : attachments) {
@@ -114,40 +118,46 @@ for (AttachedFile a : attachments) {
 }
 ```
 
-- `a.getBytes()` returns the raw bytes of the attachment.  
-- `Utils.getPath(...)` builds a safe output location (you can replace it with any `Path` you prefer).  
-- The loop prints the full path of each saved file, giving you instant feedback.
+- `a.getBytes()` возвращает необработанные байты вложения.
 
-## Common Issues & Solutions
+- `Utils.getPath(...)` создает безопасное местоположение для вывода (вы можете заменить его любым `Path` по вашему выбору).
 
-| Issue | Why it Happens | Fix |
+- Цикл выводит полный путь к каждому сохраненному файлу, обеспечивая мгновенную обратную связь.
+
+## Распространенные проблемы и решения
+
+| Проблема | Причина | Решение |
+
 |-------|----------------|-----|
-| **No attachments returned** | The notebook may not contain any attached files or they are stored on a different page. | Verify the source *.one* file manually in OneNote, or iterate through pages (`doc.getChildNodes(Page.class)`) to locate attachments. |
-| **`AccessDeniedException` on Windows** | The output folder is read‑only or requires elevated permissions. | Choose a writable directory (e.g., user’s `Documents` folder) or run the JVM with appropriate rights. |
-| **Large files cause OutOfMemoryError** | Loading huge attachments into memory at once. | Stream the bytes directly to a file using `Files.newOutputStream` instead of loading the entire byte array. |
 
-## Frequently Asked Questions
+| **Вложения не возвращены** | Возможно, блокнот не содержит прикрепленных файлов или они хранятся на другой странице. | Проверьте исходный файл *.one* вручную в OneNote или пройдитесь по страницам (`doc.getChildNodes(Page.class)`), чтобы найти вложения. |
 
-**Q1: Can I retrieve attachments from password‑protected OneNote documents?**  
-A: Aspose.Note for Java supports opening password‑protected notebooks when you provide the correct credentials during document loading.
+| **`AccessDeniedException` в Windows** | Выходная папка доступна только для чтения или требует повышенных прав. | Выберите каталог с правами записи (например, папку «Документы» пользователя) или запустите JVM с соответствующими правами. |
 
-**Q2: Does Aspose.Note for Java support batch processing of multiple OneNote files?**  
-A: Yes, you can place the code inside a loop that iterates over a list of *.one* files, extracting attachments from each one.
+**Большие файлы вызывают ошибку OutOfMemoryError** | Загрузка больших вложений в память одновременно. | Передавайте байты непосредственно в файл с помощью `Files.newOutputStream` вместо загрузки всего массива байтов. |
 
-**Q3: Is there a limit to the size or number of attachments that can be retrieved?**  
-A: The API is designed to handle large notebooks, but practical limits depend on your JVM heap size and available disk space.
+## Часто задаваемые вопросы
 
-**Q4: Can I customize the output location and file naming convention for retrieved attachments?**  
-A: Absolutely—modify the `outputFile` and `outputPath` variables in the loop to suit your naming scheme and directory structure.
+**В1: Могу ли я получить вложения из защищенных паролем документов OneNote?**
+О: Aspose.Note для Java поддерживает открытие защищенных паролем блокнотов, если вы укажете правильные учетные данные во время загрузки документа.
 
-**Q5: Does Aspose.Note for Java provide support and assistance for technical issues?**  
-A: Yes, developers can access comprehensive support through the Aspose.Note forum at [https://forum.aspose.com/c/note/28](https://forum.aspose.com/c/note/28).
+**В2: Поддерживает ли Aspose.Note для Java пакетную обработку нескольких файлов OneNote?**
+О: Да, вы можете поместить код внутрь цикла, который перебирает список файлов *.one*, извлекая вложения из каждого из них.
+
+**Вопрос 3: Существует ли ограничение на размер или количество извлекаемых вложений?**
+Ответ: API разработан для обработки больших блокнотов, но практические ограничения зависят от размера кучи вашей JVM и доступного дискового пространства.
+
+**Вопрос 4: Могу ли я настроить местоположение выходных файлов и соглашение об именовании файлов для извлекаемых вложений?**
+Ответ: Конечно — измените переменные `outputFile` и `outputPath` в цикле в соответствии с вашей схемой именования и структурой каталогов.
+
+**Вопрос 5: Предоставляет ли Aspose.Note для Java поддержку и помощь по техническим вопросам?**
+Ответ: Да, разработчики могут получить всестороннюю поддержку через форум Aspose.Note по адресу [https://forum.aspose.com/c/note/28](https://forum.aspose.com/c/note/28).
 
 ---
 
-**Last Updated:** 2025-12-31  
-**Tested With:** Aspose.Note for Java 24.11  
-**Author:** Aspose  
+**Последнее обновление:** 31.12.2025
+**Протестировано с:** Aspose.Note для Java 24.11
+**Автор:** Aspose 
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

@@ -97,28 +97,6 @@ notebook.save(dataDir + "CreatandSaveANotebook.onetoc2");
 
 您現在已掌握 **如何使用 Aspose.Note for Java 以少量程式碼建立 OneNote 筆記本**。此功能讓您能自動化筆記產生、將 OneNote 整合至更大型的 Java 解決方案，並提升工作流程的效率。
 
-## FAQ's
-
-### Q1：我可以使用 Aspose.Note for Java 操作既有的筆記本嗎？
-
-A1：可以，Aspose.Note for Java 提供完整功能，讓您新增、修改與刪除既有筆記本的內容。
-
-### Q2：Aspose.Note for Java 是否相容所有版本的 Microsoft OneNote？
-
-A2：Aspose.Note for Java 支援多個版本的 Microsoft OneNote，確保在不同環境下皆可正常運作。
-
-### Q3：我能將 Aspose.Note for Java 整合到現有的 Java 應用程式嗎？
-
-A3：完全可以！Aspose.Note for Java 設計為可無縫嵌入 Java 應用程式，讓您輕鬆提升生產力。
-
-### Q4：是否提供 Aspose.Note for Java 的免費試用？
-
-A4：有，您可從 [releases page](https://releases.aspose.com/) 取得 Aspose.Note for Java 的免費試用版，先行體驗功能再決定是否購買。
-
-### Q5：我可以在哪裡取得 Aspose.Note for Java 的支援？
-
-A5：如需協助或有任何問題，請前往 [Aspose.Note forum](https://forum.aspose.com/c/note/28) 與社群互動，獲得專業指導。
-
 ## 常見問題
 
 **Q：建立筆記本後，如何加入章節或頁面？**  
@@ -136,15 +114,15 @@ A：當然支援。API 包含將圖片、音訊及其他媒體嵌入頁面的方
 **Q：需要哪個版本的 Java？**  
 A：此函式庫相容 Java 8 及以上版本。
 
+---
+
+**最後更新：** 2025-12-31  
+**測試環境：** Aspose.Note for Java 24.12  
+**作者：** Aspose
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
-
----
-
-**最後更新：** 2025-12-31  
-**測試環境：** Aspose.Note for Java 24.12  
-**作者：** Aspose

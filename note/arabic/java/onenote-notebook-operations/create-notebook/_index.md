@@ -98,28 +98,6 @@ notebook.save(dataDir + "CreatandSaveANotebook.onetoc2");
 
 لقد تعلمت الآن **كيفية إنشاء دفاتر ملاحظات OneNote** باستخدام Aspose.Note للغة Java في بضع أسطر من الشيفرة فقط. تتيح لك هذه القدرة أتمتة إنشاء الملاحظات، دمج OneNote في حلول Java أكبر، وتبسيط سير عملك.
 
-## الأسئلة المتكررة
-
-### س1: هل يمكنني استخدام Aspose.Note للغة Java للتعامل مع دفاتر ملاحظات موجودة؟
-
-ج1: نعم، توفر Aspose.Note للغة Java ميزات واسعة للتعامل مع دفاتر الملاحظات الموجودة، بما في ذلك إضافة وتعديل وحذف المحتوى.
-
-### س2: هل Aspose.Note للغة Java متوافق مع جميع إصدارات Microsoft OneNote؟
-
-ج2: تدعم Aspose.Note للغة Java إصدارات متعددة من Microsoft OneNote، مما يضمن التوافق عبر بيئات مختلفة.
-
-### س3: هل يمكنني دمج Aspose.Note للغة Java في تطبيقاتي الحالية المكتوبة بـ Java؟
-
-ج3: بالتأكيد! تم تصميم Aspose.Note للغة Java لتتكامل بسلاسة مع تطبيقات Java، مما يسمح لك بتحسين الإنتاجية بسهولة.
-
-### س4: هل يتوفر نسخة تجريبية مجانية لـ Aspose.Note للغة Java؟
-
-ج4: نعم، يمكنك الحصول على نسخة تجريبية مجانية من Aspose.Note للغة Java من خلال [صفحة الإصدارات](https://releases.aspose.com/)، مما يتيح لك استكشاف الميزات قبل الشراء.
-
-### س5: أين يمكنني الحصول على الدعم لـ Aspose.Note للغة Java؟
-
-ج5: لأي مساعدة أو استفسارات بخصوص Aspose.Note للغة Java، يمكنك زيارة [منتدى Aspose.Note](https://forum.aspose.com/c/note/28) للتفاعل مع المجتمع والحصول على إرشادات الخبراء.
-
 ## الأسئلة المتكررة الشائعة
 
 **س: كيف يمكنني إضافة أقسام أو صفحات بعد إنشاء دفتر الملاحظات؟**  
@@ -137,15 +115,15 @@ notebook.save(dataDir + "CreatandSaveANotebook.onetoc2");
 **س: ما نسخة Java المطلوبة؟**  
 ج: تعمل المكتبة مع Java 8 والإصدارات الأحدث.
 
+---
+
+**آخر تحديث:** 2025-12-31  
+**تم الاختبار مع:** Aspose.Note for Java 24.12  
+**المؤلف:** Aspose
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
-
----
-
-**آخر تحديث:** 2025-12-31  
-**تم الاختبار مع:** Aspose.Note for Java 24.12  
-**المؤلف:** Aspose

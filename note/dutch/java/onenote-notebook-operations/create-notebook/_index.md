@@ -100,28 +100,6 @@ Je hebt nu geleerd **hoe je OneNote-notebooks kunt maken** met Aspose.Note voor 
 
 ## Veelgestelde vragen
 
-### V1: Kan ik Aspose.Note voor Java gebruiken om bestaande notebooks te manipuleren?
-
-A1: Ja, Aspose.Note voor Java biedt uitgebreide functies voor het manipuleren van bestaande notebooks, inclusief het toevoegen, wijzigen en verwijderen van inhoud.
-
-### V2: Is Aspose.Note voor Java compatibel met alle versies van Microsoft OneNote?
-
-A2: Aspose.Note voor Java ondersteunt verschillende versies van Microsoft OneNote, waardoor compatibiliteit over verschillende omgevingen heen wordt gegarandeerd.
-
-### V3: Kan ik Aspose.Note voor Java integreren in mijn bestaande Java‑applicaties?
-
-A3: Absoluut! Aspose.Note voor Java is ontworpen om naadloos te integreren in Java‑applicaties, zodat je je productiviteit moeiteloos kunt verhogen.
-
-### V4: Is er een gratis proefversie beschikbaar voor Aspose.Note voor Java?
-
-A4: Ja, je kunt een gratis proefversie van Aspose.Note voor Java krijgen via de [releases‑pagina](https://releases.aspose.com/), zodat je de functies kunt verkennen voordat je een aankoop doet.
-
-### V5: Waar kan ik ondersteuning krijgen voor Aspose.Note voor Java?
-
-A5: Voor hulp of vragen over Aspose.Note voor Java kun je het [Aspose.Note‑forum](https://forum.aspose.com/c/note/28) bezoeken om met de community te communiceren en deskundig advies te krijgen.
-
-## Veelgestelde vragen
-
 **V: Hoe voeg ik secties of pagina's toe na het maken van het notebook?**  
 A: Gebruik de `Section`‑ en `Page`‑klassen die door Aspose.Note worden geleverd. Na het maken van een `Notebook` kun je `notebook.getSections().add(new Section())` aanroepen en vervolgens pagina's aan elke sectie toevoegen.
 
@@ -137,15 +115,15 @@ A: Absoluut. De API bevat methoden om afbeeldingen, audio en andere media in pag
 **V: Welke Java‑versie is vereist?**  
 A: De bibliotheek werkt met Java 8 en latere versies.
 
+---
+
+**Laatst bijgewerkt:** 2025-12-31  
+**Getest met:** Aspose.Note for Java 24.12  
+**Auteur:** Aspose
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
-
----
-
-**Laatst bijgewerkt:** 2025-12-31  
-**Getest met:** Aspose.Note for Java 24.12  
-**Auteur:** Aspose

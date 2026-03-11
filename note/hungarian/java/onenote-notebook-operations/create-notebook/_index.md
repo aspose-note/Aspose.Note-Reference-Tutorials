@@ -99,28 +99,6 @@ A `save` hívás a megadott helyre írja a jegyzetfüzetet. A `.onetoc2` kiterje
 
 Most már **tudja, hogyan hozhat létre onenote jegyzetfüzeteket** az Aspose.Note for Java segítségével néhány kódsorral. Ez a képesség lehetővé teszi a jegyzetek automatizálását, a OneNote integrálását nagyobb Java megoldásokba, és a munkafolyamatok egyszerűsítését.
 
-## Gyakran ismételt kérdések
-
-### Q1: Használhatom az Aspose.Note for Java‑t meglévő jegyzetfüzetek manipulálására?
-
-A1: Igen, az Aspose.Note for Java kiterjedt funkciókat biztosít meglévő jegyzetfüzetek kezelésére, beleértve a tartalom hozzáadását, módosítását és törlését.
-
-### Q2: Az Aspose.Note for Java kompatibilis-e a Microsoft OneNote összes verziójával?
-
-A2: Az Aspose.Note for Java különböző Microsoft OneNote verziókat támogat, biztosítva a kompatibilitást a különböző környezetekben.
-
-### Q3: Integrálhatom az Aspose.Note for Java‑t a meglévő Java alkalmazásaimba?
-
-A3: Teljes mértékben! Az Aspose.Note for Java úgy lett tervezve, hogy zökkenőmentesen beépíthető legyen Java alkalmazásokba, így könnyedén növelheti a produktivitását.
-
-### Q4: Elérhető ingyenes próba az Aspose.Note for Java‑hoz?
-
-A4: Igen, az Aspose.Note for Java ingyenes próbaverziója a [kiadási oldalon](https://releases.aspose.com/) érhető el, így a vásárlás előtt kipróbálhatja a funkciókat.
-
-### Q5: Hol kaphatok támogatást az Aspose.Note for Java‑hoz?
-
-A5: Bármilyen segítség vagy kérdés esetén látogasson el az [Aspose.Note fórumra](https://forum.aspose.com/c/note/28), ahol a közösség és a szakértők támogatást nyújtanak.
-
 ## Gyakran feltett kérdések
 
 **K: Hogyan adhatok hozzá szekciókat vagy oldalakat a jegyzetfüzet létrehozása után?**  
@@ -138,13 +116,6 @@ V: Teljes mértékben. Az API tartalmaz módszereket képek, hang és egyéb mé
 **K: Milyen Java verzió szükséges?**  
 V: A könyvtár Java 8‑as és újabb verziókkal működik.
 
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}
-
 ---
 
 **Utoljára frissítve:** 2025-12-31  
@@ -152,3 +123,10 @@ V: A könyvtár Java 8‑as és újabb verziókkal működik.
 **Szerző:** Aspose  
 
 ---
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

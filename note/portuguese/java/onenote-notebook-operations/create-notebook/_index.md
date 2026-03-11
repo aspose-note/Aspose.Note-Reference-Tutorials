@@ -101,28 +101,6 @@ Agora você aprendeu **como criar cadernos onenote** usando Aspose.Note para Jav
 
 ## Perguntas Frequentes
 
-### Q1: Posso usar Aspose.Note para Java para manipular cadernos existentes?
-
-A1: Sim, Aspose.Note para Java oferece recursos extensivos para manipular cadernos existentes, incluindo adição, modificação e exclusão de conteúdo.
-
-### Q2: O Aspose.Note para Java é compatível com todas as versões do Microsoft OneNote?
-
-A2: Aspose.Note para Java suporta várias versões do Microsoft OneNote, garantindo compatibilidade em diferentes ambientes.
-
-### Q3: Posso integrar Aspose.Note para Java nas minhas aplicações Java existentes?
-
-A3: Absolutamente! Aspose.Note para Java foi projetado para integrar‑se perfeitamente a aplicações Java, permitindo que você aumente sua produtividade sem esforço.
-
-### Q4: Existe um teste gratuito disponível para Aspose.Note para Java?
-
-A4: Sim, você pode acessar um teste gratuito do Aspose.Note para Java na [página de releases](https://releases.aspose.com/), permitindo explorar seus recursos antes de efetuar a compra.
-
-### Q5: Onde posso obter suporte para Aspose.Note para Java?
-
-A5: Para qualquer assistência ou dúvidas sobre Aspose.Note para Java, visite o [fórum Aspose.Note](https://forum.aspose.com/c/note/28) para interagir com a comunidade e obter orientação especializada.
-
-## Perguntas Frequentes
-
 **Q: Como adiciono seções ou páginas após criar o caderno?**  
 A: Use as classes `Section` e `Page` fornecidas pelo Aspose.Note. Após criar um `Notebook`, você pode chamar `notebook.getSections().add(new Section())` e então adicionar páginas a cada seção.
 
@@ -138,15 +116,15 @@ A: Absolutamente. A API inclui métodos para incorporar imagens, áudio e outras
 **Q: Qual versão do Java é necessária?**  
 A: A biblioteca funciona com Java 8 e versões posteriores.
 
+---
+
+**Last Updated:** 2025-12-31  
+**Tested With:** Aspose.Note for Java 24.12  
+**Author:** Aspose
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
-
----
-
-**Last Updated:** 2025-12-31  
-**Tested With:** Aspose.Note for Java 24.12  
-**Author:** Aspose

@@ -98,28 +98,6 @@ Durch Aufruf von `save` wird das Notizbuch an dem von Ihnen angegebenen Ort gesc
 
 Sie haben nun **gelernt, wie man OneNote‑Notizbücher** mit Aspose.Note für Java in nur wenigen Code‑Zeilen erstellt. Diese Fähigkeit ermöglicht Ihnen die Automatisierung der Notizerstellung, die Integration von OneNote in größere Java‑Lösungen und die Optimierung Ihres Workflows.
 
-## FAQ's
-
-### Q1: Kann ich Aspose.Note für Java verwenden, um vorhandene Notizbücher zu manipulieren?
-
-A1: Ja, Aspose.Note für Java bietet umfangreiche Funktionen zum Manipulieren bestehender Notizbücher, einschließlich Hinzufügen, Ändern und Löschen von Inhalten.
-
-### Q2: Ist Aspose.Note für Java mit allen Versionen von Microsoft OneNote kompatibel?
-
-A2: Aspose.Note für Java unterstützt verschiedene Versionen von Microsoft OneNote und gewährleistet damit Kompatibilität in unterschiedlichen Umgebungen.
-
-### Q3: Kann ich Aspose.Note für Java in meine bestehenden Java‑Anwendungen integrieren?
-
-A3: Absolut! Aspose.Note für Java ist so konzipiert, dass es sich nahtlos in Java‑Anwendungen einfügt und Ihre Produktivität mühelos steigert.
-
-### Q4: Gibt es eine kostenlose Testversion von Aspose.Note für Java?
-
-A4: Ja, Sie können eine kostenlose Testversion von Aspose.Note für Java über die [Releases‑Seite](https://releases.aspose.com/) erhalten, um die Funktionen vor einem Kauf zu prüfen.
-
-### Q5: Wo finde ich Support für Aspose.Note für Java?
-
-A5: Für Unterstützung oder Fragen zu Aspose.Note für Java besuchen Sie das [Aspose.Note‑Forum](https://forum.aspose.com/c/note/28), um mit der Community zu interagieren und fachkundige Hilfe zu erhalten.
-
 ## Häufig gestellte Fragen
 
 **F: Wie füge ich nach dem Erstellen des Notizbuchs Abschnitte oder Seiten hinzu?**  
@@ -137,13 +115,6 @@ A: Auf jeden Fall. Das API enthält Methoden zum Einbetten von Bildern, Audio un
 **F: Welche Java‑Version wird benötigt?**  
 A: Die Bibliothek funktioniert mit Java 8 und neueren Versionen.
 
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}
-
 ---
 
 **Zuletzt aktualisiert:** 2025-12-31  
@@ -151,3 +122,10 @@ A: Die Bibliothek funktioniert mit Java 8 und neueren Versionen.
 **Autor:** Aspose  
 
 ---
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

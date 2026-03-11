@@ -98,29 +98,7 @@ Wywołanie `save` zapisuje notatnik w określonym miejscu. Rozszerzenie pliku `.
 
 Właśnie nauczyłeś się **tworzyć notatniki OneNote** przy użyciu Aspose.Note dla Java w zaledwie kilku linijkach kodu. Dzięki temu możesz automatyzować tworzenie notatek, integrować OneNote z większymi rozwiązaniami Java i usprawnić swój przepływ pracy.
 
-## FAQ's
-
-### Q1: Czy mogę używać Aspose.Note dla Java do manipulacji istniejącymi notatnikami?
-
-A1: Tak, Aspose.Note dla Java oferuje rozbudowane funkcje manipulacji istniejącymi notatnikami, w tym dodawanie, modyfikowanie i usuwanie zawartości.
-
-### Q2: Czy Aspose.Note dla Java jest kompatybilny ze wszystkimi wersjami Microsoft OneNote?
-
-A2: Aspose.Note dla Java obsługuje różne wersje Microsoft OneNote, zapewniając kompatybilność w różnych środowiskach.
-
-### Q3: Czy mogę zintegrować Aspose.Note dla Java z istniejącymi aplikacjami Java?
-
-A3: Oczywiście! Aspose.Note dla Java został zaprojektowany tak, aby bezproblemowo integrować się z aplikacjami Java, umożliwiając łatwe zwiększenie produktywności.
-
-### Q4: Czy dostępna jest darmowa wersja próbna Aspose.Note dla Java?
-
-A4: Tak, darmową wersję próbną Aspose.Note dla Java możesz pobrać ze [strony wydań](https://releases.aspose.com/), co pozwala przetestować funkcje przed zakupem.
-
-### Q5: Gdzie mogę uzyskać wsparcie dla Aspose.Note dla Java?
-
-A5: W razie pytań lub problemów związanych z Aspose.Note dla Java, odwiedź [forum Aspose.Note](https://forum.aspose.com/c/note/28), aby skontaktować się ze społecznością i uzyskać pomoc ekspertów.
-
-## Frequently Asked Questions
+## Często zadawane pytania
 
 **Q: Jak dodać sekcje lub strony po utworzeniu notatnika?**  
 A: Skorzystaj z klas `Section` i `Page` udostępnionych przez Aspose.Note. Po utworzeniu obiektu `Notebook` możesz wywołać `notebook.getSections().add(new Section())`, a następnie dodać strony do każdej sekcji.
@@ -137,13 +115,6 @@ A: Oczywiście. API zawiera metody umożliwiające osadzanie obrazów, dźwięk�
 **Q: Jakiej wersji Javy wymaga biblioteka?**  
 A: Biblioteka działa z Javą 8 i nowszymi wersjami.
 
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}
-
 ---
 
 **Ostatnia aktualizacja:** 2025-12-31  
@@ -151,3 +122,10 @@ A: Biblioteka działa z Javą 8 i nowszymi wersjami.
 **Autor:** Aspose  
 
 ---
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

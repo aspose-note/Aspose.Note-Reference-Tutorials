@@ -100,28 +100,6 @@ Nyní jste se naučili **jak vytvořit OneNote sešity** pomocí Aspose.Note pro
 
 ## Často kladené otázky
 
-### Q1: Mohu použít Aspose.Note pro Java k manipulaci s existujícími sešity?
-
-**A1:** Ano, Aspose.Note pro Java poskytuje rozsáhlé funkce pro manipulaci s existujícími sešity, včetně přidávání, úpravy a mazání obsahu.
-
-### Q2: Je Aspose.Note pro Java kompatibilní se všemi verzemi Microsoft OneNote?
-
-**A2:** Aspose.Note pro Java podporuje různé verze Microsoft OneNote, což zajišťuje kompatibilitu napříč různými prostředími.
-
-### Q3: Mohu integrovat Aspose.Note pro Java do svých existujících Java aplikací?
-
-**A3:** Rozhodně! Aspose.Note pro Java je navržen tak, aby se bez problémů integroval do Java aplikací, což vám umožní snadno zvýšit produktivitu.
-
-### Q4: Je k dispozici bezplatná zkušební verze Aspose.Note pro Java?
-
-**A4:** Ano, můžete získat bezplatnou zkušební verzi Aspose.Note pro Java ze [stránky vydání](https://releases.aspose.com/), což vám umožní prozkoumat jeho funkce před zakoupením.
-
-### Q5: Kde mohu získat podporu pro Aspose.Note pro Java?
-
-**A5:** Pro jakoukoli pomoc nebo dotazy týkající se Aspose.Note pro Java můžete navštívit [forum Aspose.Note](https://forum.aspose.com/c/note/28), kde můžete komunikovat s komunitou a získat odborné rady.
-
-## Často kladené otázky
-
 **Q: Jak přidám sekce nebo stránky po vytvoření sešitu?**  
 **A:** Použijte třídy `Section` a `Page` poskytované Aspose.Note. Po vytvoření `Notebook` můžete zavolat `notebook.getSections().add(new Section())` a poté přidat stránky do každé sekce.
 
@@ -137,15 +115,15 @@ Nyní jste se naučili **jak vytvořit OneNote sešity** pomocí Aspose.Note pro
 **Q: Jaká verze Javy je vyžadována?**  
 **A:** Knihovna funguje s Javou 8 a novějšími verzemi.
 
+---
+
+**Last Updated:** 2025-12-31  
+**Tested With:** Aspose.Note for Java 24.12  
+**Author:** Aspose
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
-
----
-
-**Last Updated:** 2025-12-31  
-**Tested With:** Aspose.Note for Java 24.12  
-**Author:** Aspose

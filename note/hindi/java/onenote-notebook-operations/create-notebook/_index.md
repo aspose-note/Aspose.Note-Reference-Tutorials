@@ -100,28 +100,6 @@ notebook.save(dataDir + "CreatandSaveANotebook.onetoc2");
 
 ## अक्सर पूछे जाने वाले प्रश्न
 
-### Q1: क्या मैं Aspose.Note for Java का उपयोग करके मौजूदा नोटबुक्स को मैनीपुलेट कर सकता हूँ?
-
-A1: हाँ, Aspose.Note for Java मौजूदा नोटबुक्स को मैनीपुलेट करने के लिए व्यापक सुविधाएँ प्रदान करता है, जिसमें कंटेंट जोड़ना, संशोधित करना और हटाना शामिल है।
-
-### Q2: क्या Aspose.Note for Java सभी Microsoft OneNote संस्करणों के साथ संगत है?
-
-A2: Aspose.Note for Java विभिन्न Microsoft OneNote संस्करणों को सपोर्ट करता है, जिससे विभिन्न वातावरणों में संगतता सुनिश्चित होती है।
-
-### Q3: क्या मैं Aspose.Note for Java को अपने मौजूदा Java एप्लिकेशन्स में इंटीग्रेट कर सकता हूँ?
-
-A3: बिल्कुल! Aspose.Note for Java को Java एप्लिकेशन्स में सहजता से इंटीग्रेट करने के लिए डिज़ाइन किया गया है, जिससे आप अपनी उत्पादकता को आसानी से बढ़ा सकते हैं।
-
-### Q4: क्या Aspose.Note for Java के लिए कोई फ्री ट्रायल उपलब्ध है?
-
-A4: हाँ, आप [releases page](https://releases.aspose.com/) से Aspose.Note for Java का फ्री ट्रायल एक्सेस कर सकते हैं, जिससे खरीदारी से पहले इसकी सुविधाओं को एक्सप्लोर कर सकते हैं।
-
-### Q5: Aspose.Note for Java के लिए समर्थन कहाँ प्राप्त कर सकता हूँ?
-
-A5: Aspose.Note for Java से संबंधित किसी भी सहायता या प्रश्न के लिए आप [Aspose.Note forum](https://forum.aspose.com/c/note/28) पर जाकर समुदाय से संपर्क कर सकते हैं और विशेषज्ञ मार्गदर्शन प्राप्त कर सकते हैं।
-
-## अक्सर पूछे जाने वाले प्रश्न
-
 **Q: नोटबुक बनाने के बाद सेक्शन या पेज कैसे जोड़ूँ?**  
 **A:** Aspose.Note द्वारा प्रदान किए गए `Section` और `Page` क्लासेज़ का उपयोग करें। `Notebook` बन जाने के बाद आप `notebook.getSections().add(new Section())` कॉल करके सेक्शन जोड़ सकते हैं और प्रत्येक सेक्शन में पेजेज़ जोड़ सकते हैं।
 
@@ -137,15 +115,15 @@ A5: Aspose.Note for Java से संबंधित किसी भी सह
 **Q: कौन सा Java संस्करण आवश्यक है?**  
 **A:** यह लाइब्रेरी Java 8 और उसके बाद के संस्करणों के साथ काम करती है।
 
+---
+
+**Last Updated:** 2025-12-31  
+**Tested With:** Aspose.Note for Java 24.12  
+**Author:** Aspose
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
-
----
-
-**Last Updated:** 2025-12-31  
-**Tested With:** Aspose.Note for Java 24.12  
-**Author:** Aspose
