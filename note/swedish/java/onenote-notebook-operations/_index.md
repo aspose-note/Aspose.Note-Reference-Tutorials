@@ -100,13 +100,6 @@ Lär dig hur du sparar anteckningsböcker till strömmar i OneNote med Aspose.No
 #### [Skriv lösenordsskyddat dokument i OneNote - Aspose.Note](./write-password-protected-document/)
 Lär dig hur du **write password protected** dokument i OneNote med Aspose.Note for Java. Säkerställ säkerhet med enkla steg.
 
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}
-
 ---
 
 **Senast uppdaterad:** 2025-12-25  
@@ -114,3 +107,10 @@ Lär dig hur du **write password protected** dokument i OneNote med Aspose.Note 
 **Författare:** Aspose  
 
 ---
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

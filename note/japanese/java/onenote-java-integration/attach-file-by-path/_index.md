@@ -147,44 +147,28 @@ doc.save(dataDir);
 - **Large attachments:** 非常に大きなファイルは OneNote ファイルサイズを増加させる可能性があるため、事前に圧縮を検討してください。  
 - **Unsupported formats:** 多くのファイルタイプは動作しますが、いくつかの独自形式は OneNote で正しく開けないことがあります。
 
-## FAQ
+## よくある質問
 
-### Q1: Can I attach multiple files using this method?
+**Q: この方法は Windows 10 版 OneNote でも使えますか？**
+A: はい。生成された `.one` ファイルは、Windows 10、Windows 11、Web 版を含むすべての最新の OneNote クライアントと互換性があります。
 
-A1: Yes, you can attach multiple files by repeating the process for each file.
+**Q: リモート URL からファイルを添付するにはどうすればよいですか？**
+A: まずファイルをローカルパスにダウンロードし、次に同じ `AttachedFile` コンストラクターをローカルファイルパスで使用してください。
 
-### Q2: Can I attach files of any format?
+**Q: ストリームを手動で閉じる必要はありますか？**
+A: Aspose.Note API はファイルストリームを内部的に処理するため、`AttachedFile` オブジェクトを明示的に閉じる必要はありません。
 
-A2: Yes, you can attach files of various formats, including text files, images, PDFs, etc.
+**Q: 添付ファイルにカスタム表示名を設定できますか？**
+A: はい。最初の引数として表示名を受け取る `AttachedFile` コンストラクターを使用してください。
 
-### Q3: Is Aspose.Note compatible with different versions of Java?
+**Q: 本番環境での使用にはライセンスが必要ですか?**
+A: 本番環境での展開には有効な Aspose.Note ライセンスが必要です。評価には無料トライアルをご利用いただけます。
 
-A3: Yes, Aspose.Note is compatible with different versions of Java, ensuring flexibility for developers.
+---
 
-### Q4: Can I attach files to specific sections within a OneNote page?
-
-A4: Yes, you can attach files to specific sections by organizing them within the outline accordingly.
-
-### Q5: Is there a limit to the file size I can attach?
-
-A5: Aspose.Note doesn't impose strict limits on file size, but consider performance implications for very large files.
-
-## Frequently Asked Questions
-
-**Q: Does this approach work with OneNote for Windows 10?**  
-A: Yes, the generated `.one` file is compatible with all modern OneNote clients, including Windows 10, Windows 11, and the web version.
-
-**Q: How can I attach a file from a remote URL?**  
-A: Download the file to a local path first, then use the same `AttachedFile` constructor with the local file path.
-
-**Q: Do I need to close any streams manually?**  
-A: The Aspose.Note API handles file streams internally, so explicit closing is not required for the `AttachedFile` object.
-
-**Q: Can I set a custom display name for the attachment?**  
-A: Yes, use the `AttachedFile` constructor that accepts a display name as the first argument.
-
-**Q: Is a license required for production use?**  
-A: A valid Aspose.Note license is required for production deployments; a free trial can be used for evaluation.
+**最終更新:** 2025-12-25  
+**テスト環境:** Aspose.Note for Java 24.11  
+**作者:** Aspose
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
@@ -192,9 +176,3 @@ A: A valid Aspose.Note license is required for production deployments; a free tr
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
-
----
-
-**最終更新:** 2025-12-25  
-**テスト環境:** Aspose.Note for Java 24.11  
-**作者:** Aspose

@@ -100,15 +100,15 @@ weight: 28
 #### [Write Password-Protected Document in OneNote - Aspose.Note](./write-password-protected-document/)
 เรียนรู้วิธี **write password protected** เอกสารใน OneNote ด้วย Aspose.Note for Java รับประกันความปลอดภัยด้วยขั้นตอนที่ทำตามได้ง่าย.
 
+---
+
+**อัปเดตล่าสุด:** 2025-12-25  
+**ทดสอบกับ:** Aspose.Note for Java รุ่นล่าสุด  
+**ผู้เขียน:** Aspose
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
-
----
-
-**อัปเดตล่าสุด:** 2025-12-25  
-**ทดสอบกับ:** Aspose.Note for Java รุ่นล่าสุด  
-**ผู้เขียน:** Aspose

@@ -100,15 +100,15 @@ Aspose.Note for Java का उपयोग करके OneNote में न�
 #### [Write Password-Protected Document in OneNote - Aspose.Note](./write-password-protected-document/)
 Aspose.Note for Java का उपयोग करके OneNote में **write password protected** दस्तावेज़ कैसे लिखें, सीखें। आसान‑से‑अनुसरण करने वाले चरणों के साथ सुरक्षा सुनिश्चित करें।
 
+---
+
+**Last Updated:** 2025-12-25  
+**Tested With:** Aspose.Note for Java latest release  
+**Author:** Aspose
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
-
----
-
-**Last Updated:** 2025-12-25  
-**Tested With:** Aspose.Note for Java latest release  
-**Author:** Aspose

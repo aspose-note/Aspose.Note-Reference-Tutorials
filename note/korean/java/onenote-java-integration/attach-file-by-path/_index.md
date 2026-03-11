@@ -143,23 +143,6 @@ doc.save(dataDir);
 - **대용량 첨부 파일:** 매우 큰 파일은 OneNote 파일 크기를 증가시킬 수 있으므로 먼저 압축을 고려하세요.  
 - **지원되지 않는 형식:** 대부분의 파일 형식은 작동하지만, 일부 독점 형식은 OneNote에서 올바르게 열리지 않을 수 있습니다.
 
-## FAQ
-
-### Q1: 이 방법으로 여러 파일을 첨부할 수 있나요?
-A1: 예, 각 파일마다 과정을 반복하면 여러 파일을 첨부할 수 있습니다.
-
-### Q2: 모든 형식의 파일을 첨부할 수 있나요?
-A2: 예, 텍스트 파일, 이미지, PDF 등 다양한 형식의 파일을 첨부할 수 있습니다.
-
-### Q3: Aspose.Note가 다양한 Java 버전과 호환되나요?
-A3: 예, Aspose.Note는 다양한 Java 버전과 호환되어 개발자에게 유연성을 제공합니다.
-
-### Q4: OneNote 페이지 내 특정 섹션에 파일을 첨부할 수 있나요?
-A4: 예, outline을 적절히 구성하여 특정 섹션에 파일을 첨부할 수 있습니다.
-
-### Q5: 첨부할 수 있는 파일 크기에 제한이 있나요?
-A5: Aspose.Note는 파일 크기에 엄격한 제한을 두지 않지만, 매우 큰 파일의 경우 성능 영향을 고려해야 합니다.
-
 ## 자주 묻는 질문
 
 **Q: 이 방법이 Windows 10용 OneNote에서도 작동하나요?**  
@@ -177,15 +160,15 @@ A: 예, 첫 번째 인수로 표시 이름을 받는 `AttachedFile` 생성자를
 **Q: 제품 환경에서 라이선스가 필요합니까?**  
 A: 제품 배포에는 유효한 Aspose.Note 라이선스가 필요하며, 평가용으로는 무료 체험판을 사용할 수 있습니다.
 
+---
+
+**Last Updated:** 2025-12-25  
+**Tested With:** Aspose.Note for Java 24.11  
+**Author:** Aspose
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
-
----
-
-**Last Updated:** 2025-12-25  
-**Tested With:** Aspose.Note for Java 24.11  
-**Author:** Aspose

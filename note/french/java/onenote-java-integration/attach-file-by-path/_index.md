@@ -146,28 +146,6 @@ Félicitations ! Vous avez appris avec succès **comment ajouter une pièce jo
 - **Pièces jointes volumineuses :** Les fichiers très gros peuvent augmenter la taille du fichier OneNote ; pensez à les compresser au préalable.  
 - **Formats non pris en charge :** Bien que la plupart des types fonctionnent, certains formats propriétaires peuvent ne pas s’ouvrir correctement dans OneNote.
 
-## FAQ
-
-### Q1 : Puis‑je joindre plusieurs fichiers avec cette méthode ?
-
-R1 : Oui, vous pouvez joindre plusieurs fichiers en répétant le processus pour chaque fichier.
-
-### Q2 : Puis‑je joindre des fichiers de n’importe quel format ?
-
-R2 : Oui, vous pouvez joindre des fichiers de divers formats, y compris les fichiers texte, images, PDF, etc.
-
-### Q3 : Aspose.Note est‑il compatible avec différentes versions de Java ?
-
-R3 : Oui, Aspose.Note est compatible avec différentes versions de Java, assurant une flexibilité pour les développeurs.
-
-### Q4 : Puis‑je joindre des fichiers à des sections spécifiques d’une page OneNote ?
-
-R4 : Oui, vous pouvez joindre des fichiers à des sections spécifiques en les organisant dans l’outline en conséquence.
-
-### Q5 : Existe‑t‑il une limite de taille pour les fichiers que je peux joindre ?
-
-R5 : Aspose.Note n’impose pas de limites strictes de taille, mais il faut considérer les implications de performance pour des fichiers très volumineux.
-
 ## Questions fréquemment posées
 
 **Q : Cette approche fonctionne‑t‑elle avec OneNote pour Windows 10 ?**  
@@ -185,15 +163,15 @@ R : Oui, utilisez le constructeur `AttachedFile` qui accepte un nom d’affich
 **Q : Une licence est‑elle requise pour la production ?**  
 R : Une licence valide Aspose.Note est requise pour les déploiements en production ; un essai gratuit peut être utilisé pour l’évaluation.
 
+---
+
+**Dernière mise à jour :** 2025-12-25  
+**Testé avec :** Aspose.Note pour Java 24.11  
+**Auteur :** Aspose
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
-
----
-
-**Dernière mise à jour :** 2025-12-25  
-**Testé avec :** Aspose.Note pour Java 24.11  
-**Auteur :** Aspose

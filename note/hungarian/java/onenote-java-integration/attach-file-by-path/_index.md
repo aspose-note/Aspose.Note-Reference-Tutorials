@@ -146,26 +146,6 @@ Gratulálunk! Sikeresen megtanulta, **hogyan kell csatolni fájlt** útvonal ala
 - **Nagy csatolmányok:** Nagyon nagy fájlok növelhetik a OneNote fájl méretét; először tömörítse őket.  
 - **Nem támogatott formátumok:** Bár a legtöbb fájltípus működik, egyes saját tulajdonú formátumok nem nyithatók meg megfelelően a OneNote-ban.
 
-### Q1: Csatolhatok több fájlt ezzel a módszerrel?
-
-A1: Igen, több fájlt is csatolhat, ha a folyamatot minden egyes fájlra megismétli.
-
-### Q2: Bármilyen formátumú fájlt csatolhatok?
-
-A2: Igen, különféle formátumú fájlokat csatolhat, beleértve a szöveges fájlokat, képeket, PDF‑eket stb.
-
-### Q3: Az Aspose.Note kompatibilis a Java különböző verzióival?
-
-A3: Igen, az Aspose.Note kompatibilis a Java különböző verzióival, így rugalmas megoldást nyújt a fejlesztőknek.
-
-### Q4: Csatolhatok fájlokat a OneNote oldal egyes szekcióihoz?
-
-A4: Igen, a vázlat megfelelő szervezésével fájlokat csatolhat konkrét szekciókhoz.
-
-### Q5: Van korlátozás a csatolható fájl méretére?
-
-A5: Az Aspose.Note nem szab szigorú méretkorlátot, de nagy fájlok esetén vegye figyelembe a teljesítménybeli hatásokat.
-
 ## Gyakran Ismételt Kérdések
 
 **Q: Ez a megközelítés működik a Windows 10-es OneNote-dal?**  
@@ -183,15 +163,15 @@ A: Igen, használja az `AttachedFile` konstruktort, amely első argumentumként 
 **Q: Licenc szükséges a termeléshez?**  
 A: Egy érvényes Aspose.Note licenc szükséges a termelési környezetben; az ingyenes próba verzió értékelésre használható.
 
+---
+
+**Last Updated:** 2025-12-25  
+**Tested With:** Aspose.Note for Java 24.11  
+**Author:** Aspose
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
-
----
-
-**Last Updated:** 2025-12-25  
-**Tested With:** Aspose.Note for Java 24.11  
-**Author:** Aspose

@@ -146,28 +146,6 @@ Herzlichen Glückwunsch! Sie haben erfolgreich **wie man einen Anhang** per Pfad
 - **Große Anhänge:** Sehr große Dateien können die OneNote‑Dateigröße stark erhöhen; komprimieren Sie sie nach Möglichkeit vorher.  
 - **Nicht unterstützte Formate:** Obwohl die meisten Dateitypen funktionieren, können einige proprietäre Formate in OneNote nicht korrekt geöffnet werden.
 
-## FAQ's
-
-### Q1: Kann ich mehrere Dateien mit dieser Methode anhängen?
-
-A1: Ja, Sie können mehrere Dateien anhängen, indem Sie den Vorgang für jede Datei wiederholen.
-
-### Q2: Kann ich Dateien beliebigen Formats anhängen?
-
-A2: Ja, Sie können Dateien verschiedener Formate anhängen, einschließlich Textdateien, Bilder, PDFs usw.
-
-### Q3: Ist Aspose.Note mit verschiedenen Java‑Versionen kompatibel?
-
-A3: Ja, Aspose.Note ist mit verschiedenen Java‑Versionen kompatibel und bietet damit Flexibilität für Entwickler.
-
-### Q4: Kann ich Dateien zu bestimmten Abschnitten innerhalb einer OneNote‑Seite anhängen?
-
-A4: Ja, Sie können Dateien zu bestimmten Abschnitten anhängen, indem Sie sie entsprechend im Outline organisieren.
-
-### Q5: Gibt es ein Limit für die Dateigröße, die ich anhängen kann?
-
-A5: Aspose.Note legt keine strikten Grenzen für die Dateigröße fest, jedoch sollten Sie bei sehr großen Dateien die Leistungsaspekte berücksichtigen.
-
 ## Häufig gestellte Fragen
 
 **F: Funktioniert dieser Ansatz mit OneNote für Windows 10?**  
@@ -185,15 +163,15 @@ A: Ja, verwenden Sie den `AttachedFile`‑Konstruktor, der einen Anzeigenamen al
 **F: Ist für den Produktionseinsatz eine Lizenz erforderlich?**  
 A: Für den Produktionseinsatz ist eine gültige Aspose.Note‑Lizenz erforderlich; eine kostenlose Testversion kann für die Evaluierung genutzt werden.
 
+---
+
+**Zuletzt aktualisiert:** 2025-12-25  
+**Getestet mit:** Aspose.Note für Java 24.11  
+**Autor:** Aspose
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
-
----
-
-**Zuletzt aktualisiert:** 2025-12-25  
-**Getestet mit:** Aspose.Note für Java 24.11  
-**Autor:** Aspose

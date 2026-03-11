@@ -65,15 +65,15 @@ Lleva la conversión de imágenes al siguiente nivel aprendiendo a aplanar un cu
 #### [Guardar cuaderno en flujo en OneNote - Aspose.Note](./save-notebook-to-stream/)
 #### [Escribir documento protegido con contraseña en OneNote - Aspose.Note](./write-password-protected-document/)
 
+---
+
+**Última actualización:** 2025-12-25  
+**Probado con:** Aspose.Note for Java última versión  
+**Autor:** Aspose
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
-
----
-
-**Última actualización:** 2025-12-25  
-**Probado con:** Aspose.Note for Java última versión  
-**Autor:** Aspose

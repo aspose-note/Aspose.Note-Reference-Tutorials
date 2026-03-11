@@ -101,15 +101,15 @@ Leer hoe u notebooks kunt opslaan naar streams in OneNote met Aspose.Note for Ja
 #### [Wachtwoord‑beveiligd document schrijven in OneNote - Aspose.Note](./write-password-protected-document/)
 Leer hoe u **write password protected** documenten kunt schrijven in OneNote met Aspose.Note for Java. Zorg voor beveiliging met gemakkelijk te volgen stappen.
 
+---
+
+**Last Updated:** 2025-12-25  
+**Tested With:** Aspose.Note for Java latest release  
+**Author:** Aspose
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
-
----
-
-**Last Updated:** 2025-12-25  
-**Tested With:** Aspose.Note for Java latest release  
-**Author:** Aspose

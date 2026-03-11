@@ -16,35 +16,35 @@ weight: 28
 
 # Các thao tác sổ ghi chú OneNote
 
-## Introduction
+## Giới thiệu
 
-Bạn đã sẵn sàng **tạo sổ ghi chú OneNote** để hỗ trợ các ứng dụng Java của mình chưa? Trong trung tâm này, bạn sẽ khám phá một bộ đầy đủ các hướng dẫn Aspose.Note for Java, hướng dẫn bạn từ việc thêm nút con đến tải sổ ghi chú được bảo vệ bằng mật khẩu. Dù bạn cần đọc văn bản định dạng phong phú, xóa một nút con, hay ghi tài liệu được bảo vệ bằng mật khẩu, chúng tôi đều có giải pháp cho bạn. Hãy cùng khám phá các tính năng chính chi tiết:
+Bạn đã sẵn sàng **tạo ghi chú OneNote** để hỗ trợ các ứng dụng Java của mình chưa? Trong trung tâm này, bạn sẽ khám phá một bộ đầy đủ các hướng dẫn Aspose.Note dành cho Java, hướng dẫn bạn từ việc thêm nút vào để tải ghi chú được bảo vệ bằng mật khẩu. Dù bạn cần đọc văn bản dạng phong phú, hãy xóa một nút con, hoặc ghi tài liệu được bảo vệ bằng mật khẩu, chúng tôi đều có giải pháp cho bạn. Hãy cùng khám phá các tính năng chính của chi tiết:
 
-## Quick Overview of Core Capabilities
+## Tổng quan nhanh về năng lực cốt lõi
 
-- **Add child node** – Tổ chức các phần và trang một cách lập trình.  
-- **Load password protected** – Mở sổ ghi chú được bảo mật một cách an toàn.  
-- **Remove child node** – Dọn dẹp các phần không mong muốn một cách dễ dàng.  
-- **Read rich text** – Trích xuất nội dung định dạng để xử lý.  
-- **Write password protected** – Bảo mật các sổ ghi chú đầu ra của bạn.
+- **Thêm nút con** – Tổ chức các phần và trang theo cách cài đặt.
+- **Tải mật khẩu được bảo vệ** – Mở ghi chú được bảo mật an toàn.
+- **Remove child node** – Dọn dẹp các phần không mong muốn một cách dễ dàng.
+- **Đọc văn bản đa dạng thức** – Trích xuất nội dung dưới dạng để xử lý.
+- **Write pass protected** – Bảo mật các ghi chú đầu sổ của bạn.
 
-## Working with Locales in OneNote
+## Làm việc với các ngôn ngữ trong OneNote
 
-Khai thác tiềm năng thực sự của Aspose.Note for Java khi bạn xử lý các tệp OneNote một cách hiệu quả. Trong hướng dẫn này, chúng tôi sẽ chỉ cho bạn cách làm việc với các locale khác nhau, đảm bảo ứng dụng Java của bạn có thể thích nghi một cách liền mạch với các ngôn ngữ và khu vực đa dạng. [Explore Now](./working-with-locales/)
+Khai thác tiềm năng thực sự của Aspose.Note dành cho Java khi bạn xử lý các tệp OneNote một cách hiệu quả. Trong hướng dẫn này, chúng tôi sẽ chỉ chọn cho bạn cách làm việc với các ngôn ngữ khác nhau, đảm bảo ứng dụng Java của bạn có thể thích ứng một cách tiếp nối với các ngôn ngữ và khu vực đa dạng. [Khám phá ngay](./working-with-locales/)
 
-## Add Child Node in OneNote Notebook
+## Thêm nút con vào sổ tay OneNote
 
-Bạn có cần nâng cấp cách tổ chức ghi chú không? Tìm hiểu cách thêm nút con vào sổ ghi chú OneNote một cách lập trình bằng Aspose.Note for Java. Hướng dẫn từng bước này cung cấp những hiểu biết và mẹo để cải thiện việc quản lý ghi chú của bạn một cách dễ dàng. [Get Started](./add-child-node/)
+Bạn có cần nâng cấp cách ghi chú của tổ chức không? Tìm hiểu cách thêm nút vào ghi chú OneNote bằng cách cài đặt bằng Aspose.Note for Java. Hướng dẫn từng bước này cung cấp những điều đã biết và mẹo để cải thiện việc quản lý ghi chú của bạn một cách dễ dàng. [Bắt đầu](./add-child-node/)
 
-## Convert Notebook to Image in OneNote
+## Chuyển đổi sổ ghi chép thành hình ảnh trong OneNote
 
-Nâng cao các ứng dụng Java của bạn bằng cách tích hợp khả năng chuyển đổi sổ ghi chú thành hình ảnh trong OneNote. Với Aspose.Note for Java, quá trình này trở nên liền mạch và hiệu quả. Theo dõi hướng dẫn của chúng tôi để học cách triển khai chức năng này một cách dễ dàng. [Learn How](./convert-notebook-to-image/)
+Nâng cấp ứng dụng Java của bạn bằng cách tích hợp khả năng chuyển đổi ghi chú hình ảnh thành ghi chú trong OneNote. Với Aspose.Note for Java, quá trình này trở nên liền mạch và hiệu quả. Hãy theo dõi hướng dẫn của chúng tôi để học cách phát triển chức năng này một cách dễ dàng. [Tìm hiểu cách thực hiện](./convert-notebook-to-image/)
 
-## Convert Notebook to Flattened Image in OneNote
+## Chuyển Notebook sang Hình ảnh Flattened trong OneNote
 
-Nâng tầm việc chuyển đổi hình ảnh của bạn bằng cách học cách làm phẳng một sổ ghi chú thành một tệp hình ảnh duy nhất bằng Aspose.Note for Java. Bảo tồn mọi yếu tố một cách dễ dàng và hiệu quả. [Explore More](./convert-notebook-to-flattened-image/)
+Nâng tầm việc chuyển đổi hình ảnh của bạn bằng cách học cách tạo một cửa sổ ghi chú thành một hình ảnh tệp duy nhất bằng Aspose.Note for Java. Bảo tồn mọi yếu tố một cách dễ dàng và hiệu quả. [Khám phá thêm](./convert-notebook-to-flattened-image/)
 
-### Additional OneNote Notebook Operations Tutorials
+### Hướng dẫn thao tác sổ ghi chép OneNote bổ sung
 
 #### [Working with Locales in OneNote - Aspose.Note](./working-with-locales/)
 Khai thác sức mạnh của Aspose.Note for Java để đơn giản hoá việc xử lý tệp OneNote. Khám phá các tính năng, hướng dẫn và hỗ trợ.
@@ -100,15 +100,15 @@ Tìm hiểu cách lưu sổ ghi chú vào luồng trong OneNote bằng Aspose.No
 #### [Write Password-Protected Document in OneNote - Aspose.Note](./write-password-protected-document/)
 Tìm hiểu cách **ghi tài liệu được bảo vệ bằng mật khẩu** trong OneNote bằng Aspose.Note cho Java. Đảm bảo an ninh với các bước dễ hiểu.
 
+---
+
+**Last Updated:** 2025-12-25  
+**Tested With:** Aspose.Note for Java latest release  
+**Author:** Aspose
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
-
----
-
-**Last Updated:** 2025-12-25  
-**Tested With:** Aspose.Note for Java latest release  
-**Author:** Aspose

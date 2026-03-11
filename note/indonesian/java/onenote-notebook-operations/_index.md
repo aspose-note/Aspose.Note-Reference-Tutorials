@@ -16,35 +16,35 @@ weight: 28
 
 # Operasi Notebook OneNote
 
-## Introduction
+## Perkenalan
 
 Apakah Anda siap untuk **membuat notebook OneNote** yang mendukung aplikasi Java Anda? Di hub ini Anda akan menemukan rangkaian lengkap tutorial Aspose.Note untuk Java yang memandu Anda melalui segala hal mulai dari menambahkan node anak hingga memuat notebook yang dilindungi kata sandi. Baik Anda perlu membaca teks kaya, menghapus node anak, atau menulis dokumen yang dilindungi kata sandi, kami siap membantu. Mari jelajahi fitur utama secara detail:
 
-## Quick Overview of Core Capabilities
+## Ikhtisar Singkat Kemampuan Inti
 
-- **Add child node** – Mengatur bagian dan halaman secara programatis.  
-- **Load password protected** – Membuka notebook yang aman dengan aman.  
-- **Remove child node** – Menghapus bagian yang tidak diinginkan dengan mudah.  
-- **Read rich text** – Mengekstrak konten terformat untuk diproses.  
-- **Write password protected** – Mengamankan notebook keluaran Anda.
+- **Tambahkan simpul anak** – mengatur bagian dan halaman secara terprogram.
+- **Muat dilindungi kata sandi** – Membuka buku catatan yang aman dengan aman.
+- **Hapus simpul anak** – menghapus bagian yang tidak diinginkan dengan mudah.
+- **Baca teks kaya** – Mengekstrak konten terformat untuk diproses.
+- **Tulis dilindungi kata sandi** – Mengamankan buku catatan keluaran Anda.
 
-## Working with Locales in OneNote
+## Bekerja dengan Lokal di OneNote
 
-Buka potensi sejati Aspose.Note untuk Java saat Anda memproses file OneNote secara efisien. Dalam tutorial ini, kami akan memandu Anda bekerja dengan locale yang berbeda, memastikan aplikasi Java Anda dapat beradaptasi dengan preferensi bahasa dan wilayah yang beragam secara mulus. [Explore Now](./working-with-locales/)
+Buka potensi sejati Aspose.Note untuk Java saat Anda memproses file OneNote secara efisien. Dalam tutorial ini, kami akan memandu Anda bekerja dengan lokal yang berbeda, memastikan aplikasi Java Anda dapat beradaptasi dengan preferensi bahasa dan wilayah yang beragam secara mulus. [Jelajahi Sekarang](./working-with-locales/)
 
-## Add Child Node in OneNote Notebook
+## Tambahkan Node Anak di Buku Catatan OneNote
 
-Apakah organisasi catatan Anda membutuhkan peningkatan? Pelajari cara menambahkan node anak ke notebook OneNote secara programatis menggunakan Aspose.Note untuk Java. Tutorial langkah‑demi‑langkah ini memberikan wawasan dan tips untuk meningkatkan manajemen catatan Anda dengan mudah. [Get Started](./add-child-node/)
+Apakah organisasi catatan Anda membutuhkan peningkatan? Pelajari cara menambahkan node anak ke notebook OneNote secara terprogram menggunakan Aspose.Note untuk Java. Tutorial langkah‑demi‑langkah ini memberikan wawasan dan tips untuk meningkatkan pengelolaan catatan Anda dengan mudah. [Memulai](./add-child-node/)
 
-## Convert Notebook to Image in OneNote
+## Konversi Buku Catatan menjadi Gambar di OneNote
 
-Tingkatkan aplikasi Java Anda dengan mengintegrasikan kemampuan mengonversi notebook menjadi gambar di OneNote. Dengan Aspose.Note untuk Java, proses ini menjadi mulus dan efisien. Ikuti tutorial kami untuk mempelajari cara mengimplementasikan fungsi ini dengan mudah. [Learn How](./convert-notebook-to-image/)
+Tingkatkan aplikasi Java Anda dengan mengintegrasikan kemampuan mengubah notebook menjadi gambar di OneNote. Dengan Aspose.Note untuk Java, proses ini menjadi mulus dan efisien. Ikuti tutorial kami untuk mempelajari cara mengimplementasikan fungsi ini dengan mudah. [Pelajari Caranya](./convert-notebook-to-image/)
 
-## Convert Notebook to Flattened Image in OneNote
+## Ubah Buku Catatan menjadi Gambar Rata di OneNote
 
-Bawa konversi gambar Anda ke tingkat berikutnya dengan mempelajari cara meratakan notebook menjadi satu file gambar menggunakan Aspose.Note untuk Java. Pertahankan semua elemen dengan mudah dan efisien. [Explore More](./convert-notebook-to-flattened-image/)
+Bawa konversi gambar Anda ke tingkat berikutnya dengan mempelajari cara meratakan notebook menjadi satu file gambar menggunakan Aspose.Note untuk Java. Pertahankan semua elemen dengan mudah dan efisien. [Jelajahi Lebih Lanjut](./convert-notebook-to-flattened-image/)
 
-### Additional OneNote Notebook Operations Tutorials
+### Tutorial Pengoperasian Buku Catatan OneNote Tambahan
 
 #### [Bekerja dengan Locale di OneNote - Aspose.Note](./working-with-locales/)
 Manfaatkan kekuatan Aspose.Note untuk Java dalam mempermudah pemrosesan file OneNote dengan mudah. Jelajahi fitur, tutorial, dan dukungan.
@@ -100,15 +100,15 @@ Pelajari cara menyimpan notebook ke stream di OneNote menggunakan Aspose.Note un
 #### [Menulis Dokumen yang Dilindungi Kata Sandi di OneNote - Aspose.Note](./write-password-protected-document/)
 Pelajari cara **menulis dokumen yang dilindungi kata sandi** di OneNote menggunakan Aspose.Note untuk Java. Pastikan keamanan dengan langkah‑langkah yang mudah diikuti.
 
+---
+
+**Terakhir Diperbarui:** 2025-12-25  
+**Diuji Dengan:** Aspose.Note untuk Java rilis terbaru  
+**Penulis:** Aspose
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
-
----
-
-**Terakhir Diperbarui:** 2025-12-25  
-**Diuji Dengan:** Aspose.Note untuk Java rilis terbaru  
-**Penulis:** Aspose

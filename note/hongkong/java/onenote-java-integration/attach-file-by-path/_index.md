@@ -184,15 +184,15 @@ A：可以，使用接受顯示名稱作為第一參數的 `AttachedFile` 建構
 **Q：正式上線是否需要授權？**  
 A：正式部署必須使用有效的 Aspose.Note 授權；評估階段可使用免費試用版。
 
+---
+
+**最後更新：** 2025-12-25  
+**測試環境：** Aspose.Note for Java 24.11  
+**作者：** Aspose
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
-
----
-
-**最後更新：** 2025-12-25  
-**測試環境：** Aspose.Note for Java 24.11  
-**作者：** Aspose

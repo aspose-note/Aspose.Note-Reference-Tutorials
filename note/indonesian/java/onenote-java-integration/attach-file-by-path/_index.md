@@ -146,28 +146,6 @@ Selamat! Anda telah berhasil mempelajari **cara menambahkan lampiran** dengan pa
 - **Lampiran besar:** File yang sangat besar dapat meningkatkan ukuran file OneNote; pertimbangkan untuk mengompresnya terlebih dahulu.  
 - **Format tidak didukung:** Meskipun sebagian besar tipe file berfungsi, beberapa format proprietari mungkin tidak terbuka dengan benar di OneNote.
 
-## FAQ's
-
-### Q1: Bisakah saya melampirkan beberapa file menggunakan metode ini?
-
-A1: Ya, Anda dapat melampirkan beberapa file dengan mengulangi proses untuk setiap file.
-
-### Q2: Bisakah saya melampirkan file dalam format apa pun?
-
-A2: Ya, Anda dapat melampirkan file dalam berbagai format, termasuk file teks, gambar, PDF, dll.
-
-### Q3: Apakah Aspose.Note kompatibel dengan versi Java yang berbeda?
-
-A3: Ya, Aspose.Note kompatibel dengan berbagai versi Java, memastikan fleksibilitas bagi pengembang.
-
-### Q4: Bisakah saya melampirkan file ke bagian tertentu dalam halaman OneNote?
-
-A4: Ya, Anda dapat melampirkan file ke bagian tertentu dengan mengatur mereka di dalam outline secara sesuai.
-
-### Q5: Apakah ada batasan ukuran file yang dapat saya lampirkan?
-
-A5: Aspose.Note tidak memberlakukan batasan ketat pada ukuran file, namun pertimbangkan implikasi kinerja untuk file yang sangat besar.
-
 ## Pertanyaan yang Sering Diajukan
 
 **T: Apakah pendekatan ini bekerja dengan OneNote untuk Windows 10?**  
@@ -185,15 +163,15 @@ J: Ya, gunakan konstruktor `AttachedFile` yang menerima nama tampilan sebagai ar
 **T: Apakah lisensi diperlukan untuk penggunaan produksi?**  
 J: Lisensi Aspose.Note yang valid diperlukan untuk penyebaran produksi; versi percobaan dapat digunakan untuk evaluasi.
 
+---
+
+**Last Updated:** 2025-12-25  
+**Tested With:** Aspose.Note for Java 24.11  
+**Author:** Aspose
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
-
----
-
-**Last Updated:** 2025-12-25  
-**Tested With:** Aspose.Note for Java 24.11  
-**Author:** Aspose

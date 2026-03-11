@@ -100,15 +100,15 @@ Scopri come salvare i notebook in stream in OneNote usando Aspose.Note per Java.
 #### [Scrivere documento protetto da password in OneNote - Aspose.Note](./write-password-protected-document/)
 Scopri come **write password protected** documenti in OneNote usando Aspose.Note per Java. Garantisci la sicurezza con passaggi facili da seguire.
 
+---
+
+**Ultimo aggiornamento:** 2025-12-25  
+**Testato con:** Aspose.Note for Java latest release  
+**Autore:** Aspose
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
-
----
-
-**Ultimo aggiornamento:** 2025-12-25  
-**Testato con:** Aspose.Note for Java latest release  
-**Autore:** Aspose

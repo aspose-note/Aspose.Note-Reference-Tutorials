@@ -130,60 +130,44 @@ dataDir = dataDir + "AttachFileByPath_out.one";
 doc.save(dataDir);
 ```
 
-Powstały plik `AttachFileByPath_out.one` zawiera teraz osadzony załącznik.
+Powstał plik `AttachFileByPath_out.one` zawiera teraz osadzony zabity.
 
-Gratulacje! Pomyślnie nauczyłeś się **how to add attachment** przez ścieżkę w OneNote przy użyciu Javy i Aspose.Note.
+Gratulacje! Pomyślnie nauczyłeś się **jak dodać załącznik** przez rozwiązanie w OneNote przy użyciu Javy i Aspose.Note.
 
 ## Typowe przypadki użycia
 
-- **Protokoły spotkań:** Dołącz oryginalny PDF z agendą do notatek.  
-- **Dokumentacja projektowa:** Osadź diagramy projektowe bezpośrednio w notatniku.  
-- **Pliki prawne:** Dołącz umowy lub dowody obok notatek z sprawą.
+- **Protokoły spotkań:** Dołącz PDF z porządkiem obrad do notatek.
+- **Dokumentacja projektowa:** Osadź diagramy projektowe bezpośrednio w notatniku.
+- **Pliki prawne:** Dołącz umowę lub występ obok notatek z obowiązkowym.
 
-## Wskazówki rozwiązywania problemów i typowe pułapki
+## Problemy występują i typowe pułapki
 
-- **Nieprawidłowa ścieżka do pliku:** Upewnij się, że `dataDir` kończy się separatorem ścieżki (`/` lub `\`) przed dodaniem nazwy pliku.  
-- **Duże załączniki:** Bardzo duże pliki mogą zwiększyć rozmiar pliku OneNote; rozważ ich kompresję przed dołączeniem.  
-- **Nieobsługiwane formaty:** Choć większość typów plików działa, niektóre formaty własnościowe mogą nie otworzyć się poprawnie w OneNote.
+- **Nieprawidłowa ścieżka do pliku:** konsekwencja się, że `dataDir` kończy się separatorem źródła (`/` lub `\`) przedtem nazwy pliku.
+- **Duże ofiari:** Bardzo duże pliki mogą mieć rozmiar pliku OneNote; Problem ich kompresji przed dołączeniem.
+- **Nieobsługiwane formaty:** dostępne w powszechnym użyciu plików działa, niektóre formaty treściowe mogą nie być dostępne w programie OneNote.
 
-## FAQ
+## Często zadawane pytania
 
-### Q1: Czy mogę dołączyć wiele plików przy użyciu tej metody?
+**P: Czy to działa z OneNote dla Windows 10?**
+A: Tak, wygenerowany plik `.one` jest udostępniany przez dodatkowego klienta OneNote, w tym Windows 10, Windows 11 oraz kontrolę webową.
 
-A1: Tak, możesz dołączyć wiele plików, powtarzając proces dla każdego z nich.
+**Q: Jak mogę połączyć plik z zdalnym adresem URL?**
+A: Najpierw pobierz plik na lokalną nazwę, a następnie powiązań tego samego konstruktora `AttachedFile` z lokalną cechą pliku.
 
-### Q2: Czy mogę dołączać pliki w dowolnym formacie?
+**Q: Czy można zamknąć jakieś strumienie?**
+A: API Aspose.Note obsługujące strumienie plików wewnętrznie, więc ręczne zamykanie jest wymagane dla obiektu `AttachedFile`.
 
-A2: Tak, możesz dołączać pliki w różnych formatach, w tym pliki tekstowe, obrazy, PDF‑y itp.
+**Q: Czy można zainstalować własną instalację wyświetlaną dla wyłączonej?**
+A: Tak, komponenta `AttachedFile`, który jest przedstawiony jako pierwszy argument.
 
-### Q3: Czy Aspose.Note jest kompatybilny z różnymi wersjami Javy?
+**P: Czy wymagana jest licencjat do użytku produkcyjnego?**
+A: Ważna licencjat Aspose. Uwaga jest wymagana w środowisku produkcji; Wersja próbna może być użyta do oceny.
 
-A3: Tak, Aspose.Note jest kompatybilny z różnymi wersjami Javy, zapewniając elastyczność dla deweloperów.
+---
 
-### Q4: Czy mogę dołączać pliki do konkretnych sekcji na stronie OneNote?
-
-A4: Tak, możesz dołączać pliki do określonych sekcji, organizując je odpowiednio w obrębie outline.
-
-### Q5: Czy istnieje limit rozmiaru pliku, który mogę dołączyć?
-
-A5: Aspose.Note nie narzuca ścisłych limitów rozmiaru pliku, ale warto rozważyć wpływ na wydajność przy bardzo dużych plikach.
-
-## Frequently Asked Questions
-
-**Q: Czy to podejście działa z OneNote dla Windows 10?**  
-A: Tak, wygenerowany plik `.one` jest kompatybilny ze wszystkimi nowoczesnymi klientami OneNote, w tym Windows 10, Windows 11 oraz wersją webową.
-
-**Q: Jak mogę dołączyć plik z zdalnego URL?**  
-A: Najpierw pobierz plik na lokalną ścieżkę, a następnie użyj tego samego konstruktora `AttachedFile` z lokalną ścieżką pliku.
-
-**Q: Czy muszę ręcznie zamykać jakieś strumienie?**  
-A: API Aspose.Note obsługuje strumienie plików wewnętrznie, więc ręczne zamykanie nie jest wymagane dla obiektu `AttachedFile`.
-
-**Q: Czy mogę ustawić własną nazwę wyświetlaną dla załącznika?**  
-A: Tak, użyj konstruktora `AttachedFile`, który przyjmuje nazwę wyświetlaną jako pierwszy argument.
-
-**Q: Czy wymagana jest licencja do użytku produkcyjnego?**  
-A: Ważna licencja Aspose.Note jest wymagana w środowiskach produkcyjnych; wersja próbna może być użyta do oceny.
+**Ostatnia aktualizacja:** 2025-12-25  
+**Testowano z:** Aspose.Note for Java 24.11  
+**Autor:** Aspose
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
@@ -191,9 +175,3 @@ A: Ważna licencja Aspose.Note jest wymagana w środowiskach produkcyjnych; wers
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
-
----
-
-**Ostatnia aktualizacja:** 2025-12-25  
-**Testowano z:** Aspose.Note for Java 24.11  
-**Autor:** Aspose

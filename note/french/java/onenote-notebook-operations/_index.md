@@ -101,15 +101,15 @@ Apprenez à enregistrer des carnets dans des flux dans OneNote en utilisant Aspo
 #### [Écrire un document protégé par mot de passe dans OneNote - Aspose.Note](./write-password-protected-document/)
 Apprenez à **écrire des documents protégés par mot de passe** dans OneNote en utilisant Aspose.Note for Java. Assurez la sécurité avec des étapes faciles à suivre.
 
+---
+
+**Dernière mise à jour :** 2025-12-25  
+**Testé avec :** Aspose.Note for Java latest release  
+**Auteur :** Aspose
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
-
----
-
-**Dernière mise à jour :** 2025-12-25  
-**Testé avec :** Aspose.Note for Java latest release  
-**Auteur :** Aspose

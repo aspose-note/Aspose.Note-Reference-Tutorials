@@ -101,13 +101,6 @@ weight: 28
 #### [Γράψιμο Κωδικοπροστατευμένου Εγγράφου στο OneNote - Aspose.Note](./write-password-protected-document/)
 Μάθετε πώς να **γράψετε προστατευμένο με κωδικό** έγγραφα στο OneNote χρησιμοποιώντας Aspose.Note for Java. Εξασφαλίστε την ασφάλεια με βήματα εύκολα στην κατανόηση.
 
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}
-
 ---
 
 **Τελευταία Ενημέρωση:** 2025-12-25  
@@ -115,3 +108,10 @@ weight: 28
 **Συγγραφέας:** Aspose  
 
 ---
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

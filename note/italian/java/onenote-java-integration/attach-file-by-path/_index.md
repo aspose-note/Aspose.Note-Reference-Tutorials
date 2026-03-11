@@ -146,28 +146,6 @@ Congratulazioni! Hai appreso con successo **come aggiungere un allegato** per pe
 - **Allegati di grandi dimensioni:** File molto grandi possono aumentare le dimensioni del file OneNote; valuta la compressione preventiva.  
 - **Formati non supportati:** Sebbene la maggior parte dei tipi di file funzioni, alcuni formati proprietari potrebbero non aprirsi correttamente in OneNote.
 
-## FAQ
-
-### Q1: Posso allegare più file usando questo metodo?
-
-A1: Sì, puoi allegare più file ripetendo il processo per ciascun file.
-
-### Q2: Posso allegare file di qualsiasi formato?
-
-A2: Sì, puoi allegare file di vari formati, inclusi file di testo, immagini, PDF, ecc.
-
-### Q3: Aspose.Note è compatibile con diverse versioni di Java?
-
-A3: Sì, Aspose.Note è compatibile con diverse versioni di Java, garantendo flessibilità agli sviluppatori.
-
-### Q4: Posso allegare file a sezioni specifiche all'interno di una pagina OneNote?
-
-A4: Sì, puoi allegare file a sezioni specifiche organizzandoli all'interno dell'outline di conseguenza.
-
-### Q5: Esiste un limite alla dimensione del file che posso allegare?
-
-A5: Aspose.Note non impone limiti rigidi alla dimensione del file, ma è consigliabile considerare le implicazioni di prestazioni per file molto grandi.
-
 ## Domande Frequenti
 
 **D: Questo approccio funziona con OneNote per Windows 10?**  
@@ -185,15 +163,15 @@ R: Sì, usa il costruttore `AttachedFile` che accetta un nome visualizzato come 
 **D: È necessaria una licenza per l'uso in produzione?**  
 R: È richiesta una licenza valida di Aspose.Note per le distribuzioni in produzione; una versione di prova può essere usata per la valutazione.
 
+---
+
+**Ultimo aggiornamento:** 2025-12-25  
+**Testato con:** Aspose.Note per Java 24.11  
+**Autore:** Aspose
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
-
----
-
-**Ultimo aggiornamento:** 2025-12-25  
-**Testato con:** Aspose.Note per Java 24.11  
-**Autore:** Aspose

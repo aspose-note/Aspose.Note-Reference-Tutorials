@@ -98,13 +98,6 @@ Aspose.Note for Java を使用して、OneNote のノートブックをストリ
 #### [Write Password-Protected Document in OneNote - Aspose.Note](./write-password-protected-document/)
 Aspose.Note for Java を使用して、OneNote で **write password protected** ドキュメントを書き込む方法を学びましょう。簡単な手順でセキュリティを確保できます。
 
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}
-
 ---
 
 **Last Updated:** 2025-12-25  
@@ -112,3 +105,10 @@ Aspose.Note for Java を使用して、OneNote で **write password protected** 
 **Author:** Aspose  
 
 ---
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

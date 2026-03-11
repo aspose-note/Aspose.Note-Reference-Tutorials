@@ -100,15 +100,15 @@ Naučte se, jak ukládat notebooky do streamů v OneNote pomocí Aspose.Note pro
 #### [Write Password-Protected Document in OneNote - Aspose.Note](./write-password-protected-document/)
 Naučte se, jak **zapsat chráněné heslem** dokumenty v OneNote pomocí Aspose.Note pro Java. Zajistěte bezpečnost pomocí snadno sledovatelných kroků.
 
+---
+
+**Last Updated:** 2025-12-25  
+**Tested With:** Aspose.Note for Java latest release  
+**Author:** Aspose
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
-
----
-
-**Last Updated:** 2025-12-25  
-**Tested With:** Aspose.Note for Java latest release  
-**Author:** Aspose

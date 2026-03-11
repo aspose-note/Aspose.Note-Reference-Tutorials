@@ -100,13 +100,6 @@ Erfahren Sie, wie Sie Notizbücher in Streams in OneNote mit Aspose.Note für Ja
 #### [Passwortgeschütztes Dokument in OneNote schreiben - Aspose.Note](./write-password-protected-document/)
 Erfahren Sie, wie Sie **passwortgeschützte** Dokumente in OneNote mit Aspose.Note für Java **schreiben**. Gewährleisten Sie Sicherheit mit leicht nachvollziehbaren Schritten.
 
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}
-
 ---
 
 **Zuletzt aktualisiert:** 2025-12-25  
@@ -114,3 +107,10 @@ Erfahren Sie, wie Sie **passwortgeschützte** Dokumente in OneNote mit Aspose.No
 **Autor:** Aspose  
 
 ---
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

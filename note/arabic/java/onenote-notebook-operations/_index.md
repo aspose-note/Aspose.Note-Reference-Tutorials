@@ -16,35 +16,35 @@ weight: 28
 
 # عمليات دفتر ملاحظات OneNote
 
-## Introduction
+## مقدمة
 
-هل أنت مستعد **إنشاء دفتر ملاحظات OneNote** الذي يدعم تطبيقات Java الخاصة بك؟ في هذه المحور ستكتشف مجموعة كاملة من دروس Aspose.Note for Java التي ترشدك عبر كل شيء من إضافة العقد الفرعية إلى تحميل دفاتر ملاحظات محمية بكلمة مرور. سواء كنت بحاجة إلى قراءة نص غني، أو إزالة عقدة فرعية، أو كتابة مستندات محمية بكلمة مرور، نحن هنا لتغطيتك. دعنا نستكشف الميزات الرئيسية بالتفصيل:
+هل أنت مستعد ** إنشاء دفتر ملاحظات OneNote ** الذي يدعم تطبيقات Java الخاصة بك؟ في هذا المحور ستكتشف مجموعة كاملة من دروس Aspose.Note for Java التي ترشدك عبر كل شيء من إضافة العقد البناء إلى تحميل دفاتر حماية ملاحظات بكلمة مرور. سواء كنت بحاجة إلى قراءة نص غني، أو إزالة العقدة الفرعية، أو كتابة المستندات محمية بكلمة مرور، نحن هنا لتغطيتك. الفوائد الرئيسية للتفاصيل:
 
-## Quick Overview of Core Capabilities
+## نظرة عامة سريعة على القدرات الأساسية
 
-- **Add child node** – تنظيم الأقسام والصفحات برمجياً.  
-- **Load password protected** – فتح دفاتر الملاحظات المؤمنة بأمان.  
-- **Remove child node** – تنظيف الأقسام غير المرغوب فيها بسهولة.  
-- **Read rich text** – استخراج المحتوى المنسق للمعالجة.  
-- **Write password protected** – تأمين دفاتر الملاحظات الناتجة.
+- **إضافة عقدة فرعية** – تنظيم الأقسام والصفحات برمجياً.
+- **تحميل كلمة المرور المحمية** – فتح دفاتر الملاحظات المؤمنة بأمان.
+- **إزالة العقدة الفرعية** – تنظيف الأقسام غير التخصص فيها بسهولة.
+- **قراءة النص المنسق** – الكمية المنسقة للمعالجة.
+- **كتابة كلمة مرور محمية** – تأمين دفاتر الملاحظات العام.
 
-## Working with Locales in OneNote
+## العمل مع اللغات المحلية في OneNote
 
-اكتشف الإمكانات الحقيقية لـ Aspose.Note for Java أثناء معالجة ملفات OneNote بكفاءة. في هذا الدرس، سنرشدك إلى العمل مع إعدادات إقليمية مختلفة، لضمان قدرة تطبيق Java الخاص بك على التكيف بسلاسة مع تفضيلات اللغة والمنطقة المتنوعة. [Explore Now](./working-with-locales/)
+اكتشف أدوات أساسية لـ Aspose.Note for Java أثناء ملفات OneNote. في هذا الدرس، سنرشدك إلى العمل بخيارات متعددة ومتنوعة، وإمكانية تطبيق Java الخاص بك على التكيف مع تفضيلات اللغة المتنوعة. [استكشف الآن](./working-with-locales/)
 
-## Add Child Node in OneNote Notebook
+## إضافة عقدة فرعية في دفتر ملاحظات OneNote
 
-هل تحتاج تنظيم ملاحظاتك إلى تحسين؟ تعلم كيفية إضافة العقد الفرعية برمجياً إلى دفاتر ملاحظات OneNote باستخدام Aspose.Note for Java. يقدم هذا الدرس خطوة بخطوة رؤى ونصائح لتحسين إدارة ملاحظاتك بسهولة. [Get Started](./add-child-node/)
+هل تحتاج إلى تنظيم قوائمك لتحسين؟ تعلم كيفية البناء البناء برمجياً إلى دفاتر ملاحظات OneNote باستخدام Aspose.Note for Java. أدخل هذا الدرس خطوة بخطوة رؤى ونصائح لتحسين إدارة قوائمك بسهولة. [البدء](./add-child-node/)
 
-## Convert Notebook to Image in OneNote
+## تحويل دفتر الملاحظات إلى صورة في OneNote
 
-حسّن تطبيقات Java الخاصة بك بدمج القدرة على تحويل دفاتر الملاحظات إلى صور في OneNote. مع Aspose.Note for Java، تصبح هذه العملية سلسة وفعّالة. اتبع دليلنا لتعلم كيفية تنفيذ هذه الوظيفة بسهولة. [Learn How](./convert-notebook-to-image/)
+تحسين تطبيقات Java الخاصة بك بفضل قدرتها على تحويل دفاتر الملاحظات إلى صور في OneNote. مع Aspose.Note لـ Java، تصبح هذه السلسلة وفعّالة. اتبع دليلنا لتعلم كيفية تنفيذ هذا الوظيفة بسهولة. [تعرف على الطريقة](./convert-notebook-to-image/)
 
-## Convert Notebook to Flattened Image in OneNote
+## تحويل دفتر الملاحظات إلى صورة مسطحة في OneNote
 
-ارتق بتحويل الصور إلى المستوى التالي بتعلم كيفية تسطيح دفتر ملاحظات إلى ملف صورة واحد باستخدام Aspose.Note for Java. احفظ جميع العناصر بسهولة وكفاءة. [Explore More](./convert-notebook-to-flattened-image/)
+ارتق الصور إلى المستوى التالي بتعلم كيفية تسطيح ملاحظات دفتر إلى ملف صورة واحدة باستخدام Aspose.Note for Java. احفظ جميع العناصر بسهولة. [استكشاف المزيد](./convert-notebook-to-flatened-image/)
 
-### Additional OneNote Notebook Operations Tutorials
+### برامج تعليمية إضافية لعمليات دفتر OneNote
 
 #### [Working with Locales in OneNote - Aspose.Note](./working-with-locales/)
 اكتشف قوة Aspose.Note for Java لتبسيط معالجة ملفات OneNote بسهولة. استكشف الميزات، الدروس، والدعم.
@@ -100,15 +100,15 @@ weight: 28
 #### [Write Password-Protected Document in OneNote - Aspose.Note](./write-password-protected-document/)
 تعلم كيفية **كتابة مستندات محمية بكلمة مرور** في OneNote باستخدام Aspose.Note for Java. ضمّن الأمان بخطوات سهلة المتابعة.
 
+---
+
+**Last Updated:** 2025-12-25  
+**Tested With:** Aspose.Note for Java latest release  
+**Author:** Aspose
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
-
----
-
-**Last Updated:** 2025-12-25  
-**Tested With:** Aspose.Note for Java latest release  
-**Author:** Aspose

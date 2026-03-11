@@ -148,28 +148,6 @@ Tebrikler! Java ve Aspose.Note kullanarak OneNote'ta yol ile **ek nasıl eklenir
 - **Büyük ekler:** Çok büyük dosyalar OneNote dosya boyutunu artırabilir; önce sıkıştırmayı düşünün.  
 - **Desteklenmeyen formatlar:** Çoğu dosya türü çalışsa da, bazı tescilli formatlar OneNote'ta doğru açılamayabilir.
 
-## SSS'ler
-
-### S1: Bu yöntemle birden fazla dosya ekleyebilir miyim?
-
-A1: Evet, her dosya için işlemi tekrarlayarak birden fazla dosya ekleyebilirsiniz.
-
-### S2: Herhangi bir formatta dosya ekleyebilir miyim?
-
-A2: Evet, metin dosyaları, görüntüler, PDF'ler vb. dahil olmak üzere çeşitli formatlarda dosyalar ekleyebilirsiniz.
-
-### S3: Aspose.Note farklı Java sürümleriyle uyumlu mu?
-
-A3: Evet, Aspose.Note farklı Java sürümleriyle uyumludur, geliştiricilere esneklik sağlar.
-
-### S4: OneNote sayfasındaki belirli bölümlere dosya ekleyebilir miyim?
-
-A4: Evet, outline içinde uygun şekilde düzenleyerek belirli bölümlere dosya ekleyebilirsiniz.
-
-### S5: Ekleyebileceğim dosya boyutu için bir limit var mı?
-
-A5: Aspose.Note dosya boyutu üzerinde katı bir limit koymaz, ancak çok büyük dosyalar için performans etkilerini göz önünde bulundurun.
-
 ## Sıkça Sorulan Sorular
 
 **S: Bu yaklaşım Windows 10 için OneNote ile çalışır mı?**  
@@ -187,15 +165,15 @@ C: Evet, ilk argüman olarak bir görüntüleme adı kabul eden `AttachedFile` y
 **S: Üretim kullanımında lisans gerekli mi?**  
 C: Üretim dağıtımları için geçerli bir Aspose.Note lisansı gereklidir; değerlendirme için ücretsiz deneme kullanılabilir.
 
+---
+
+**Son Güncelleme:** 2025-12-25  
+**Test Edilen Versiyon:** Aspose.Note for Java 24.11  
+**Yazar:** Aspose
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
-
----
-
-**Son Güncelleme:** 2025-12-25  
-**Test Edilen Versiyon:** Aspose.Note for Java 24.11  
-**Yazar:** Aspose

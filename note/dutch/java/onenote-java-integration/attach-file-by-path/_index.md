@@ -146,28 +146,6 @@ Gefeliciteerd! Je hebt succesvol **hoe je een bijlage** via pad in OneNote toege
 - **Grote bijlagen:** Zeer grote bestanden kunnen de OneNote‑bestandsgrootte verhogen; overweeg ze eerst te comprimeren.  
 - **Niet‑ondersteunde formaten:** Hoewel de meeste bestandssoorten werken, kunnen sommige propriëtaire formaten niet correct openen in OneNote.
 
-## FAQ's
-
-### Q1: Kan ik meerdere bestanden bijvoegen met deze methode?
-
-A1: Ja, je kunt meerdere bestanden bijvoegen door het proces voor elk bestand te herhalen.
-
-### Q2: Kan ik bestanden van elk formaat bijvoegen?
-
-A2: Ja, je kunt bestanden van verschillende formaten bijvoegen, inclusief tekstbestanden, afbeeldingen, PDF's, enz.
-
-### Q3: Is Aspose.Note compatibel met verschillende versies van Java?
-
-A3: Ja, Aspose.Note is compatibel met verschillende versies van Java, wat flexibiliteit voor ontwikkelaars biedt.
-
-### Q4: Kan ik bestanden bijvoegen aan specifieke secties binnen een OneNote‑pagina?
-
-A4: Ja, je kunt bestanden bijvoegen aan specifieke secties door ze binnen de outline overeenkomstig te organiseren.
-
-### Q5: Is er een limiet aan de bestandsgrootte die ik kan bijvoegen?
-
-A5: Aspose.Note legt geen strikte limieten op aan de bestandsgrootte, maar houd rekening met prestatie‑implicaties bij zeer grote bestanden.
-
 ## Veelgestelde vragen
 
 **Q: Werkt deze aanpak met OneNote voor Windows 10?**  
@@ -185,15 +163,15 @@ A: Ja, gebruik de `AttachedFile`‑constructor die een weergavenaam als eerste a
 **Q: Is een licentie vereist voor productiegebruik?**  
 A: Een geldige Aspose.Note‑licentie is vereist voor productie‑implementaties; een gratis proefversie kan worden gebruikt voor evaluatie.
 
+---
+
+**Laatst bijgewerkt:** 2025-12-25  
+**Getest met:** Aspose.Note for Java 24.11  
+**Auteur:** Aspose
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
-
----
-
-**Laatst bijgewerkt:** 2025-12-25  
-**Getest met:** Aspose.Note for Java 24.11  
-**Auteur:** Aspose

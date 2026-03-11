@@ -146,23 +146,6 @@ El archivo resultante `AttachFileByPath_out.one` ahora contiene el adjunto incru
 
 ## Preguntas frecuentes
 
-### Q1: ¿Puedo adjuntar varios archivos usando este método?
-A1: Sí, puedes adjuntar varios archivos repitiendo el proceso para cada archivo.
-
-### Q2: ¿Puedo adjuntar archivos de cualquier formato?
-A2: Sí, puedes adjuntar archivos de varios formatos, incluidos archivos de texto, imágenes, PDFs, etc.
-
-### Q3: ¿Es Aspose.Note compatible con diferentes versiones de Java?
-A3: Sí, Aspose.Note es compatible con diferentes versiones de Java, garantizando flexibilidad para los desarrolladores.
-
-### Q4: ¿Puedo adjuntar archivos a secciones específicas dentro de una página de OneNote?
-A4: Sí, puedes adjuntar archivos a secciones específicas organizándolos dentro del outline según corresponda.
-
-### Q5: ¿Hay un límite al tamaño de archivo que puedo adjuntar?
-A5: Aspose.Note no impone límites estrictos al tamaño del archivo, pero considera las implicaciones de rendimiento para archivos muy grandes.
-
-## Preguntas frecuentes
-
 **Q: ¿Este enfoque funciona con OneNote para Windows 10?**  
 A: Sí, el archivo `.one` generado es compatible con todos los clientes modernos de OneNote, incluidos Windows 10, Windows 11 y la versión web.
 
@@ -178,15 +161,15 @@ A: Sí, utiliza el constructor `AttachedFile` que acepta un nombre de visualizac
 **Q: ¿Se requiere una licencia para uso en producción?**  
 A: Se requiere una licencia válida de Aspose.Note para despliegues en producción; una prueba gratuita puede usarse para evaluación.
 
+---
+
+**Última actualización:** 2025-12-25  
+**Probado con:** Aspose.Note for Java 24.11  
+**Autor:** Aspose
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
-
----
-
-**Última actualización:** 2025-12-25  
-**Probado con:** Aspose.Note for Java 24.11  
-**Autor:** Aspose

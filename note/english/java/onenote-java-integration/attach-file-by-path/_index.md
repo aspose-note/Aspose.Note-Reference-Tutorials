@@ -144,28 +144,6 @@ Congratulations! You've successfully learned **how to add attachment** by path i
 - **Large attachments:** Very large files may increase the OneNote file size; consider compressing them first.  
 - **Unsupported formats:** While most file types work, some proprietary formats may not open correctly in OneNote.
 
-## FAQ's
-
-### Q1: Can I attach multiple files using this method?
-
-A1: Yes, you can attach multiple files by repeating the process for each file.
-
-### Q2: Can I attach files of any format?
-
-A2: Yes, you can attach files of various formats, including text files, images, PDFs, etc.
-
-### Q3: Is Aspose.Note compatible with different versions of Java?
-
-A3: Yes, Aspose.Note is compatible with different versions of Java, ensuring flexibility for developers.
-
-### Q4: Can I attach files to specific sections within a OneNote page?
-
-A4: Yes, you can attach files to specific sections by organizing them within the outline accordingly.
-
-### Q5: Is there a limit to the file size I can attach?
-
-A5: Aspose.Note doesn't impose strict limits on file size, but consider performance implications for very large files.
-
 ## Frequently Asked Questions
 
 **Q: Does this approach work with OneNote for Windows 10?**  
@@ -183,15 +161,15 @@ A: Yes, use the `AttachedFile` constructor that accepts a display name as the fi
 **Q: Is a license required for production use?**  
 A: A valid Aspose.Note license is required for production deployments; a free trial can be used for evaluation.
 
+---
+
+**Last Updated:** 2025-12-25  
+**Tested With:** Aspose.Note for Java 24.11  
+**Author:** Aspose
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
-
----
-
-**Last Updated:** 2025-12-25  
-**Tested With:** Aspose.Note for Java 24.11  
-**Author:** Aspose

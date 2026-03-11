@@ -16,89 +16,95 @@ weight: 28
 
 # OneNote Defter İşlemleri
 
-## Introduction
+## Giriiş
 
-Java uygulamalarınızı güçlendiren **create OneNote notebook** dosyalarına hazır mısınız? Bu merkezde, Aspose.Note for Java için çocuğu düğüm eklemekten şifre korumalı defterleri yüklemeye kadar her şeyi kapsayan tam bir öğretici seti keşfedeceksiniz. Zengin metin okumanız, bir çocuğu düğüm kaldırmanız veya şifre korumalı belgeler yazmanız gerekse, biz sizin yanınızdayız. Şimdi temel özellikleri ayrıntılı olarak inceleyelim:
+Java uygulamalarınızı güçlendirin **OneNote not defteri oluşturun** dosyalarınıza hazır mısınız? Bu merkezde, Aspose.Note for Java için çocuğu düğümlemekten şifreli defterleriye kadar her şeyi kapsayan tam bir öğretici seti keşfedeceksiniz. Zengin metin okumanız, bir çocuğu düğümlemeniz veya şifrelenmiş belgeleri yazmanız halinde, biz sizin yanınızdayız. Şimdi temel özellikleri ayrıntılı olarak inceleyelim:
 
-## Quick Overview of Core Capabilities
+## Temel Yeteneklere Hızlı Genel Bakış
 
-- **Add child node** – Programatik olarak bölümleri ve sayfaları düzenleyin.  
-- **Load password protected** – Güvenli bir şekilde korumalı defterleri açın.  
-- **Remove child node** – İstenmeyen bölümleri kolayca temizleyin.  
-- **Read rich text** – İşleme için biçimlendirilmiş içeriği çıkarın.  
-- **Write password protected** – Çıktı defterlerinizi güvence altına alın.
+- **Alt düğüm ekle** – Programatik olarak bölümler ve sayfalar eklenir.
+- **Yükleme şifre korumalı** – Güvenli bir şekilde yönetilen defterleri açar.
+- **Alt düğümü kaldır** – İstenmeyen bölümler kolayca temizlenir.
+- **Zengin metin oku** – İşleme için biçimlendirilmiş içerik alınır.
+- **Şifre korumalı yaz** – Çıktı defterlerinizi güvence belgesinden alın.
 
-## Working with Locales in OneNote
+## OneNote'ta Yerel Ayarlarla Çalışmak
 
-Aspose.Note for Java'ın gerçek potansiyelini ortaya çıkarın ve OneNote dosyalarını verimli bir şekilde işleyin. Bu öğreticide, farklı yerel ayarlarla çalışmayı adım adım göstererek Java uygulamanızın çeşitli dil ve bölge tercihlerine sorunsuz uyum sağlamasını sağlayacağız. [Şimdi Keşfet](./working-with-locales/)
+Aspose.Note for Java'nın gerçek potansiyelini ortaya çıkarın ve OneNote'u verimli bir şekilde işleyin. Bu öğreticide, farklı yerel ayarlarla ilerlemeyi adım adım göstererek Java uygulamanızın çeşitli dil ve bölge tercihlerine sorunsuz uyum sağlamasını sağlarsınız. [Şimdi Keşfet](./locales ile çalışmak/)
 
-## Add Child Node in OneNote Notebook
+## OneNote Not Defteri'ne Alt Düğüm Ekle
 
-Notlarınızın organizasyonu bir yükseltmeye mi ihtiyaç duyuyor? Aspose.Note for Java kullanarak OneNote defterlerine programatik olarak çocuk düğümler eklemeyi öğrenin. Bu adım adım öğretici, not yönetiminizi zahmetsizce iyileştirmeniz için içgörüler ve ipuçları sunar. [Başlayın](./add-child-node/)
+Notlarınızın bir büyümesine ihtiyaç duyuyor musunuz? Aspose.Note for Java kullanarak OneNote defterlerine programlı olarak çocuk düğümleri eklemeyi öğrenin. Bu adım adım öğreticisi, yönetiminizi zahmetsizce uygulamanız için içgörüler ve yollar sunar. [Başlayın](./add-child-node/)
 
-## Convert Notebook to Image in OneNote
+## OneNote'ta Not Defterini Görüntüye Dönüştürme
 
-Java uygulamalarınızı OneNote'ta defterleri görsellere dönüştürme yeteneğini entegre ederek geliştirin. Aspose.Note for Java ile bu süreç sorunsuz ve verimli hale gelir. Bu işlevi zahmetsizce nasıl uygulayacağınızı öğrenmek için öğreticimizi izleyin. [Nasıl Öğrenilir](./convert-notebook-to-image/)
+Java uygulamalarınızı OneNote'ta defterleri görsellere dönüştürebilme özelliğini entegre ederek geliştirin. Aspose.Note for Java ile bu süreç sorunsuz ve verimli hale gelir. Bu verimliliğin zahmetsizce nasıl uygulanacağını öğrenmek için uygulamamızı izleyin. [Nasıl Öğrenilir](./convert-notebook-to-image/)
 
-## Convert Notebook to Flattened Image in OneNote
+## OneNote'ta Not Defterini Düzleştirilmiş Görüntüye Dönüştürme
 
-Resim dönüşümünüzü bir sonraki seviyeye taşıyarak Aspose.Note for Java kullanarak bir defteri tek bir görsel dosyaya düzleştirmeyi öğrenin. Tüm öğeleri kolay ve verimli bir şekilde koruyun. [Daha Fazla Keşfet](./convert-notebook-to-flattened-image/)
+Resim dönüştürmenizi bir sonraki seviyeye taşıyarak Aspose.Note for Java kullanarak bir tek bir görsel dosyayı düzleştirmeyi öğrenin. Tüm öğelerin kolay ve verimli bir şekilde kullanılması. [Daha Fazla Keşfet](./convert-notebook-to-flattened-image/)
 
-### Additional OneNote Notebook Operations Tutorials
+### Ek OneNote Not Defteri İşlemleri Eğitimleri
 
 #### [OneNote'ta Yerel Ayarlarla Çalışma - Aspose.Note](./working-with-locales/)
-Unlock the power of Aspose.Note for Java streamline OneNote file processing with ease. Explore features, tutorials, and support.
+Aspose.Note for Java'nın gücünün kilidini açın, OneNote dosya işlemeyi kolaylıkla kolaylaştırın. Özellikleri, öğreticileri ve desteği keşfedin.
 
 #### [OneNote Defterinde Çocuk Düğüm Ekleme - Aspose.Note](./add-child-node/)
-Learn how to programmatically add child nodes to OneNote notebooks using Aspose.Note for Java. Improve your note organization effortlessly.
+Aspose.Note for Java'yı kullanarak OneNote not defterlerine programlı olarak alt düğümleri nasıl ekleyeceğinizi öğrenin. Not organizasyonunuzu zahmetsizce geliştirin.
 
 #### [OneNote'ta Defteri Görsele Dönüştürme - Aspose.Note](./convert-notebook-to-image/)
-Learn how to convert notebooks to images in OneNote using Aspose.Note for Java. Easily integrate this functionality into your Java applications.
+Aspose.Note for Java kullanarak OneNote'ta defterleri nasıl görsele dönüştüreceğinizi öğrenin. Bu işlevselliği Java uygulamalarınıza kolayca entegre edin.
 
 #### [OneNote'ta Defteri Düzleştirilmiş Görsele Dönüştürme - Aspose.Note](./convert-notebook-to-flattened-image/)
-Learn how to convert a notebook to a flattened image in OneNote using Aspose.Note for Java. Preserve all elements in a single image file effortlessly.
+Aspose.Note for Java kullanarak OneNote'ta bir defteri düzleştirilmiş bir görsele nasıl dönüştüreceğinizi öğrenin. Tüm öğeleri tek bir görsel dosyasında zahmetsizce koruyun.
 
-#### [OneNote'ta Seçeneklerle Defteri Görsele Dönüştürme - Aspose.Note](./convert-notebook-to-image-with-options/)
-Learn how to convert a Notebook to an image with options using Aspose.Note for Java. Follow our step‑by‑step tutorial for seamless integration into your Java applications.
+#### [OneNote'ta Defteri Görsele Dönüştürme - Aspose.Note](./convert-notebook-to-image-with-options/)
+Aspose.Note for Java kullanarak bir defteri seçeneklerle bir görsele nasıl dönüştüreceğinizi öğrenin. Java uygulamalarınıza sorunsuz entegrasyon için adım adım kılavuzumuzu izleyin.
 
 #### [OneNote'ta Defteri PDF'e Dönüştürme - Aspose.Note](./convert-notebook-to-pdf/)
-Learn how to convert OneNote notebooks to PDF format using Aspose.Note for Java. Follow this step‑by‑step guide for seamless integration into your Java applications.
+Aspose.Note for Java kullanarak OneNote defterlerini PDF formatına nasıl dönüştüreceğinizi öğrenin. Java uygulamalarınıza sorunsuz entegrasyon için bu adım adım kılavuzu izleyin.
 
 #### [OneNote'ta Defteri Düzleştirilmiş PDF'e Dönüştürme - Aspose.Note](./convert-notebook-to-flattened-pdf/)
-Convert notebooks to flattened PDFs effortlessly with Aspose.Note for Java. Enjoy seamless integration and customization options.
+Aspose.Note for Java ile defterleri düzleştirilmiş PDF'lere zahmetsizce dönüştürün. Sorunsuz entegrasyon ve özelleştirme seçeneklerinin keyfini çıkarın.
 
-#### [OneNote'ta Seçeneklerle Defteri PDF'e Dönüştürme - Aspose.Note](./convert-notebook-to-pdf-with-options/)
-Learn how to convert OneNote notebooks to PDF in Java with Aspose.Note. Customize options effortlessly for seamless integration.
+#### [OneNote'ta Defteri PDF'e Dönüştürme - Aspose.Note](./convert-notebook-to-pdf-with-options/)
+Aspose.Note ile Java kullanarak OneNote defterlerini PDF'e nasıl dönüştüreceğinizi öğrenin. Sorunsuz entegrasyon için seçenekleri zahmetsizce özelleştirin.
 
 #### [OneNote'ta Defter Oluşturma - Aspose.Note](./create-notebook/)
-Learn how to **create OneNote notebook** programmatically using Aspose.Note for Java. Streamline your workflow with this step‑by‑step guide.
+Aspose.Note for Java kullanarak programatik olarak **OneNote defteri oluşturmayı** öğrenin. Bu adım adım kılavuzla iş akışınızı kolaylaştırın.
 
 #### [OneNote'ta Defter Yükleme - Aspose.Note](./loading-notebook/)
-Learn how to load a notebook in OneNote using Aspose.Note for Java. Step‑by‑step guide for developers.
+Aspose.Note for Java kullanarak OneNote'a bir defter yüklemeyi öğrenin. Geliştiriciler için adım adım kılavuz.
 
 #### [OneNote'ta Yükleme Seçenekleriyle Defter Dosyası Yükleme - Aspose.Note](./load-notebook-file-with-load-options/)
-Learn how to use Aspose.Note for Java to programmatically manipulate OneNote files. Get started with our comprehensive tutorial now.
+Aspose.Note for Java kullanarak OneNote dosyalarını programatik olarak nasıl manipüle edeceğinizi öğrenin. Kapsamlı eğitimimize hemen başlayın.
 
 #### [OneNote'ta Defteri Anında Yükleme - Aspose.Note](./load-notebook-instantly/)
-Learn how to instantly load OneNote notebooks in Java using Aspose.Note for Java. Improve your productivity with efficient notebook handling.
+Aspose.Note for Java kullanarak OneNote defterlerini anında nasıl yükleyeceğinizi öğrenin. Verimli defter yönetimi ile üretkenliğinizi artırın.
 
 #### [OneNote'ta Şifre Koruması Olan Belgeleri Yükleme - Aspose.Note](./load-password-protected-documents/)
-Learn how to **load password protected** documents in OneNote using Aspose.Note for Java. Follow our step‑by‑step guide for seamless integration.
+Aspose.Note for Java kullanarak OneNote'ta **şifre korumalı** belgeleri nasıl yükleyeceğinizi öğrenin. Sorunsuz entegrasyon için adım adım kılavuzumuzu izleyin.
 
 #### [OneNote Defterinden Zengin Metin Okuma - Aspose.Note](./read-rich-text/)
-Learn how to **read rich text** from OneNote notebooks using Aspose.Note for Java. Enhance your Java applications with seamless OneNote integration.
+Aspose.Note for Java kullanarak OneNote defterlerinden **zengin metin okumayı** öğrenin. Java uygulamalarınızı sorunsuz OneNote entegrasyonuyla geliştirin.
 
-#### [OneNote Defterinde Çocuk Düğüm Kaldırma - Aspose.Note](./remove-child-node/)
-Learn how to **remove child node** from a OneNote Notebook using Aspose.Note for Java. Follow our step‑by‑step guide for seamless document manipulation.
+#### [OneNote Defterinden Çocuk Düğüm Kaldırma - Aspose.Note](./remove-child-node/)
+Aspose.Note for Java kullanarak bir OneNote defterinden **alt düğümü kaldırmayı** öğrenin. Sorunsuz belge manipülasyonu için adım adım kılavuzumuzu izleyin.
 
-#### [OneNote Defterinden Belgeleri Geri Getirme - Aspose.Note](./retrieve-documents-from-onenote-notebook/)
-Learn how to retrieve documents from OneNote Notebook using Aspose.Note for Java. Follow our step‑by‑step guide for seamless integration.
+#### [OneNote Defterinden Belgeleri Geri Alma - Aspose.Note](./retrieve-documents-from-onenote-notebook/)
+Aspose.Note for Java kullanarak OneNote defterinden belgeleri nasıl alacağınızı öğrenin. Sorunsuz entegrasyon için adım adım kılavuzumuzu izleyin.
 
 #### [OneNote'ta Defteri Akışa Kaydetme - Aspose.Note](./save-notebook-to-stream/)
-Learn how to save notebooks to streams in OneNote using Aspose.Note for Java. Boost productivity with efficient notebook management.
+Aspose.Note for Java kullanarak OneNote'ta defterleri akışlara nasıl kaydedeceğinizi öğrenin. Verimli defter yönetimi ile üretkenliği artırın.
 
 #### [OneNote'ta Şifre Koruması Olan Belge Yazma - Aspose.Note](./write-password-protected-document/)
-Learn how to **write password protected** documents in OneNote using Aspose.Note for Java. Ensure security with easy‑to‑follow steps.
+Aspose.Note for Java kullanarak OneNote'ta **şifre korumalı** belgeler nasıl yazacağınızı öğrenin. Kolayca takip edilebilen adımlarla güvenliği sağlayın.
+
+---
+
+**Son Güncelleme:** 25.12.2025
+**Test Edildiği Sürüm:** Aspose.Note for Java'nın en son sürümü
+**Yazar:** Aspose
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
@@ -106,9 +112,3 @@ Learn how to **write password protected** documents in OneNote using Aspose.Note
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
-
----
-
-**Last Updated:** 2025-12-25  
-**Tested With:** Aspose.Note for Java latest release  
-**Author:** Aspose

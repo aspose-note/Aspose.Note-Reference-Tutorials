@@ -148,28 +148,6 @@ Grattis! Du har framgångsrikt lärt dig **how to add attachment** via sökväg 
 
 ## Vanliga frågor
 
-### Q1: Kan jag bifoga flera filer med den här metoden?
-
-A1: Ja, du kan bifoga flera filer genom att upprepa processen för varje fil.
-
-### Q2: Kan jag bifoga filer av vilket format som helst?
-
-A2: Ja, du kan bifoga filer av olika format, inklusive textfiler, bilder, PDF‑filer osv.
-
-### Q3: Är Aspose.Note kompatibel med olika versioner av Java?
-
-A3: Ja, Aspose.Note är kompatibel med olika versioner av Java, vilket ger flexibilitet för utvecklare.
-
-### Q4: Kan jag bifoga filer till specifika sektioner inom en OneNote‑sida?
-
-A4: Ja, du kan bifoga filer till specifika sektioner genom att organisera dem inom konturen på lämpligt sätt.
-
-### Q5: Finns det någon gräns för hur stor fil jag kan bifoga?
-
-A5: Aspose.Note har inga strikta begränsningar för filstorlek, men tänk på prestandapåverkan för mycket stora filer.
-
-## Vanliga frågor
-
 **Q: Fungerar detta tillvägagångssätt med OneNote för Windows 10?**  
 A: Ja, den genererade `.one`‑filen är kompatibel med alla moderna OneNote‑klienter, inklusive Windows 10, Windows 11 och webbversionen.
 
@@ -185,15 +163,15 @@ A: Ja, använd `AttachedFile`‑konstruktor som accepterar ett visningsnamn som 
 **Q: Krävs en licens för produktionsanvändning?**  
 A: En giltig Aspose.Note‑licens krävs för produktionsmiljöer; en gratis provversion kan användas för utvärdering.
 
+---
+
+**Senast uppdaterad:** 2025-12-25  
+**Testad med:** Aspose.Note för Java 24.11  
+**Författare:** Aspose
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
-
----
-
-**Senast uppdaterad:** 2025-12-25  
-**Testad med:** Aspose.Note för Java 24.11  
-**Författare:** Aspose

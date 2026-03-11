@@ -138,39 +138,17 @@ Parabéns! Você aprendeu com sucesso **how to add attachment** por caminho no O
 
 ## Casos de Uso Comuns
 
-- **Atas de reunião:** Anexar o PDF da agenda original às notas.  
-- **Documentação de projeto:** Incorporar diagramas de design diretamente no caderno.  
-- **Arquivos jurídicos:** Incluir contratos ou evidências ao lado das notas de caso.
+- **Atas de reunião:** Anexar o PDF da agenda original às notas.
+- **Documentação de projeto:** Incorporar diagramas de design diretamente no caderno.
+- **Arquivos jurídicos:** Incluir contratos ou provas ao lado das notas de caso.
 
 ## Dicas de Solução de Problemas e Armadilhas Comuns
 
-- **Caminho de arquivo incorreto:** Certifique‑se de que `dataDir` termina com um separador de caminho (`/` ou `\`) antes de concatenar o nome do arquivo.  
-- **Anexos grandes:** Arquivos muito grandes podem aumentar o tamanho do arquivo OneNote; considere compactá‑los primeiro.  
+- **Caminho de arquivo incorreto:** Certifique-se de que `dataDir` termina com um separador de caminho (`/` ou `\`) antes de concatenar o nome do arquivo.
+- **Anexos grandes:** Arquivos muito grandes podem aumentar o tamanho do arquivo OneNote; considere compactá-los primeiro.
 - **Formatos não suportados:** Embora a maioria dos tipos de arquivo funcione, alguns formatos proprietários podem não abrir corretamente no OneNote.
 
-## Perguntas Frequentes
-
-### Q1: Posso anexar vários arquivos usando este método?
-
-A1: Sim, você pode anexar vários arquivos repetindo o processo para cada um.
-
-### Q2: Posso anexar arquivos de qualquer formato?
-
-A2: Sim, você pode anexar arquivos de vários formatos, incluindo arquivos de texto, imagens, PDFs, etc.
-
-### Q3: O Aspose.Note é compatível com diferentes versões do Java?
-
-A3: Sim, o Aspose.Note é compatível com diferentes versões do Java, garantindo flexibilidade para desenvolvedores.
-
-### Q4: Posso anexar arquivos a seções específicas dentro de uma página do OneNote?
-
-A4: Sim, você pode anexar arquivos a seções específicas organizando‑os dentro do outline conforme necessário.
-
-### Q5: Existe um limite para o tamanho do arquivo que posso anexar?
-
-A5: O Aspose.Note não impõe limites rígidos de tamanho, mas considere implicações de desempenho para arquivos muito grandes.
-
-## Frequently Asked Questions
+## Perguntas frequentes
 
 **P: Essa abordagem funciona com o OneNote para Windows 10?**  
 R: Sim, o arquivo `.one` gerado é compatível com todos os clientes modernos do OneNote, incluindo Windows 10, Windows 11 e a versão web.
@@ -187,15 +165,15 @@ R: Sim, use o construtor `AttachedFile` que aceita um nome de exibição como pr
 **P: É necessária uma licença para uso em produção?**  
 R: Uma licença válida do Aspose.Note é necessária para implantações em produção; um teste gratuito pode ser usado para avaliação.
 
+---
+
+**Última Atualização:** 2025-12-25  
+**Testado com:** Aspose.Note for Java 24.11  
+**Autor:** Aspose
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
-
----
-
-**Última Atualização:** 2025-12-25  
-**Testado com:** Aspose.Note for Java 24.11  
-**Autor:** Aspose

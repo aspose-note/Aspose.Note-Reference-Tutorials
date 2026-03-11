@@ -101,13 +101,6 @@ Dowiedz się, jak zapisywać notatniki do strumieni w OneNote przy użyciu Aspos
 #### [Write Password-Protected Document in OneNote - Aspose.Note](./write-password-protected-document/)
 Dowiedz się, jak **zapisywać dokumenty zabezpieczone hasłem** w OneNote przy użyciu Aspose.Note dla Java. Zapewnij bezpieczeństwo dzięki prostym krokom.
 
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}
-
 ---
 
 **Last Updated:** 2025-12-25  
@@ -115,3 +108,10 @@ Dowiedz się, jak **zapisywać dokumenty zabezpieczone hasłem** w OneNote przy 
 **Author:** Aspose  
 
 ---
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}
