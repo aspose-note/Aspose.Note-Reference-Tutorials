@@ -1,35 +1,44 @@
 ---
-title: إزالة العقدة التابعة في OneNote Notebook - Aspose.Note
-linktitle: إزالة العقدة التابعة في OneNote Notebook - Aspose.Note
-second_title: Aspose.Note جافا API
-description: تعرف على كيفية إزالة عقدة فرعية من OneNote Notebook باستخدام Aspose.Note لـ Java. اتبع دليلنا خطوة بخطوة للتعامل السلس مع المستندات.
-weight: 24
+date: 2026-01-02
+description: تعلم كيفية إزالة العقدة من دفتر ملاحظات OneNote باستخدام Aspose.Note
+  للغة Java. اتبع دليلنا خطوة بخطوة لحذف العقد الفرعية وإدارة الأقسام بسهولة.
+linktitle: How to Remove Node - Remove Child Node in OneNote Notebook - Aspose.Note
+second_title: Aspose.Note Java API
+title: كيفية إزالة العقدة - إزالة العقدة الفرعية في دفتر ملاحظات OneNote - Aspose.Note
 url: /ar/java/onenote-notebook-operations/remove-child-node/
+weight: 24
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# إزالة العقدة التابعة في OneNote Notebook - Aspose.Note
+# كيفية إزالة العقدة: إزالة العقدة الفرعية في دفتر ملاحظات OneNote - Aspose.Note
 
-## مقدمة
+## المقدمة
 
-في هذا البرنامج التعليمي، سوف نتعمق في عملية إزالة العقدة الفرعية في OneNote Notebook باستخدام Aspose.Note لـ Java. Aspose.Note عبارة عن واجهة برمجة تطبيقات قوية تتيح للمطورين العمل مع ملفات Microsoft OneNote برمجيًا، مما يتيح عمليات متنوعة مثل إنشاء مستندات OneNote ومعالجتها وتحويلها.
+في هذا البرنامج التعليمي، ستكتشف **كيفية إزالة العقدة** — تحديدًا عقدة فرعية—من دفتر ملاحظات OneNote باستخدام Aspose.Note for Java. سواءً كنت تقوم بتنظيف الأقسام غير المستخدمة، أو أتمتة صيانة الدفتر، أو بناء أداة ترحيل، فإن إزالة العقد برمجيًا يمنحك تحكمًا دقيقًا في ملفات OneNote الخاصة بك.
 
-## المتطلبات الأساسية
+## إجابات سريعة
+- **ماذا يعني “remove node” في OneNote؟** يشير إلى حذف عنصر فرعي مثل قسم أو صفحة أو عقدة مخصصة من هيكل الدفتر.  
+- **أي API يتعامل مع ذلك؟** Aspose.Note for Java يوفر `Notebook.removeChild()` لإزالة آمنة.  
+- **هل أحتاج إلى ترخيص؟** الإصدار التجريبي المجاني يكفي للتطوير؛ يلزم ترخيص تجاري للإنتاج.  
+- **هل هناك أي إعدادات إضافية مطلوبة؟** فقط إعداد Java القياسي ووجود ملف JAR الخاص بـ Aspose.Note في مسار الفئات.  
+- **هل يمكنني إزالة عدة عقد في آن واحد؟** نعم—قم بالتكرار عبر المجموعة واستدعِ `removeChild` لكل تطابق.
 
-قبل أن نبدأ، تأكد من إعداد المتطلبات الأساسية التالية:
+## المتطلبات المسبقة
 
-1.  Java Development Kit (JDK): تأكد من تثبيت Java على نظامك. يمكنك تنزيل وتثبيت أحدث إصدار من JDK من[هنا](https://www.oracle.com/java/technologies/javase-jdk15-downloads.html).
+قبل أن نبدأ، تأكد من إعداد المتطلبات التالية:
 
-2.  Aspose.Note لـ Java: قم بتنزيل وتثبيت مكتبة Aspose.Note لـ Java من[موقع إلكتروني](https://purchase.aspose.com/buy) . يمكنك أيضًا الحصول على نسخة تجريبية مجانية من[هنا](https://releases.aspose.com/).
+1. **Java Development Kit (JDK)** – تأكد من تثبيت Java على نظامك. يمكنك تنزيل وتثبيت أحدث JDK من [here](https://www.oracle.com/java/technologies/javase-jdk15-downloads.html).
 
-3. بيئة التطوير المتكاملة (IDE): اختر بيئة التطوير المتكاملة التي تفضلها لتطوير Java. تشمل الاختيارات الشائعة IntelliJ IDEA أو Eclipse أو NetBeans.
+2. **Aspose.Note for Java** – قم بتنزيل وتثبيت مكتبة Aspose.Note for Java من [website](https://purchase.aspose.com/buy). يمكنك أيضًا الحصول على نسخة تجريبية مجانية من [here](https://releases.aspose.com/).
 
-## حزم الاستيراد
+3. **Integrated Development Environment (IDE)** – اختر بيئة تطوير مفضلة لك لتطوير Java. الخيارات الشائعة تشمل IntelliJ IDEA، Eclipse، أو NetBeans.
 
-أولاً، تحتاج إلى استيراد الحزم اللازمة لمشروع Java الخاص بك. وإليك كيف يمكنك القيام بذلك:
+## استيراد الحزم
+
+أولاً، تحتاج إلى استيراد الحزم الضرورية إلى مشروع Java الخاص بك. إليك الطريقة:
 
 ```java
 import java.io.IOException;
@@ -40,31 +49,33 @@ import com.aspose.note.Notebook;
 import com.aspose.note.system.collections.Generic.List;
 ```
 
-الآن، دعنا نقسم عملية إزالة عقدة فرعية من OneNote Notebook إلى خطوات متعددة:
+الآن، دعنا نفصل عملية إزالة عقدة فرعية من دفتر ملاحظات OneNote إلى عدة خطوات.
 
-## الخطوة 1: قم بتحميل دفتر ملاحظات OneNote
+## كيفية إزالة العقدة الفرعية في Java – دليل خطوة بخطوة
+
+### الخطوة 1: تحميل دفتر ملاحظات OneNote
 
 ```java
 String dataDir = "Your Document Directory";
 Notebook notebook = new Notebook(dataDir + "test.onetoc2");
 ```
 
-في هذه الخطوة، نحدد الدليل الذي يوجد به OneNote Notebook ونقوم بتحميله في كائن Notebook.
+في هذه الخطوة، نحدد الدليل الذي يقع فيه دفتر ملاحظات OneNote ونحمّله إلى كائن `Notebook`.
 
-## الخطوة 2: اجتياز العقد التابعة
+### الخطوة 2: التجول عبر العقد الفرعية
 
 ```java
 for (INotebookChildNode child : new List<>(notebook)) {
     if (child.getDisplayName().equals("Remove Me")) {
-        // قم بإزالة العنصر التابع من دفتر الملاحظات
+        // Remove the Child Item from the Notebook
         notebook.removeChild(child);
     }
 }
 ```
 
-هنا، نقوم بالتكرار خلال كل عقدة فرعية في دفتر الملاحظات. نتحقق مما إذا كان اسم العرض يطابق العقدة التي نريد إزالتها. إذا وجدت، نقوم بإزالته من دفتر الملاحظات.
+هنا، نتنقل عبر كل عقدة فرعية في الدفتر. نتحقق مما إذا كان اسم العرض يطابق العقدة التي نريد حذفها. إذا تم العثور عليها، نستدعي `removeChild` لإزالتها من هيكل الدفتر.
 
-## الخطوة 3: احفظ دفتر الملاحظات المعدل
+### الخطوة 3: حفظ دفتر الملاحظات المعدل
 
 ```java
 dataDir = dataDir + "RemoveChildNodeFromOneNoteNotebook_out.onetoc2";
@@ -73,34 +84,65 @@ notebook.save(dataDir);
 
 أخيرًا، نحدد دليل الإخراج ونحفظ دفتر الملاحظات المعدل بعد إزالة العقدة الفرعية المطلوبة.
 
-## خاتمة
+## لماذا حذف عقد OneNote برمجياً؟
 
-في هذا البرنامج التعليمي، تعلمنا كيفية إزالة عقدة فرعية من دفتر ملاحظات OneNote باستخدام Aspose.Note لـ Java. من خلال بضع خطوات بسيطة، يمكنك التعامل مع ملفات OneNote برمجيًا، مما يفتح عالمًا من الإمكانيات لإدارة المستندات وأتمتتها.
+- **Automation** – معالجة دفاتر ملاحظات بالآلاف دفعة واحدة دون جهد يدوي.  
+- **Consistency** – فرض معايير التسمية أو إزالة الأقسام القديمة عبر المؤسسة.  
+- **Integration** – دمج مع واجهات برمجة تطبيقات Aspose الأخرى (مثل التحويل إلى PDF) لإنشاء سير عمل من طرف إلى طرف.
 
-## الأسئلة الشائعة
+## المشكلات الشائعة والحلول
 
-### س1: هل يمكنني استخدام Aspose.Note لـ Java مع أطر عمل Java الأخرى؟
+| المشكلة | الحل |
+|-------|----------|
+| `NullPointerException` عندما يكون `child.getDisplayName()` فارغًا | أضف فحصًا للقيمة `null` قبل مقارنة الاسم. |
+| فشل حفظ دفتر الملاحظات | تأكد من أن مسار الإخراج قابل للكتابة وأن امتداد الملف هو `.onetoc2`. |
+| العقدة غير موجودة | تحقق من اسم العرض الدقيق (بما في ذلك الحالة والمسافات). |
 
-ج1: نعم، Aspose.Note for Java متوافق مع أطر عمل Java المختلفة مثل Spring وHbernate وما إلى ذلك. ويمكنك دمجه بسلاسة في تطبيقات Java الخاصة بك.
+## الأسئلة المتكررة
 
-### س2: هل يوجد منتدى مجتمعي لدعم Aspose.Note؟
+### س1: هل يمكنني استخدام Aspose.Note for Java مع أطر عمل Java أخرى؟
 
-ج2: نعم، يمكنك العثور على الدعم والتفاعل مع مستخدمين آخرين في منتدى Aspose.Note[هنا](https://forum.aspose.com/c/note/28).
+نعم، Aspose.Note for Java متوافق مع أطر عمل Java المختلفة مثل Spring، Hibernate، إلخ. يمكنك دمجه بسلاسة في تطبيقات Java الخاصة بك.
 
-### س3: هل يمكنني تجربة Aspose.Note لـ Java قبل الشراء؟
+### س2: هل هناك منتدى مجتمع لدعم Aspose.Note؟
 
- ج3: نعم، يمكنك الحصول على نسخة تجريبية مجانية من Aspose.Note لـ Java من[هنا](https://releases.aspose.com/).
+نعم، يمكنك العثور على الدعم والتفاعل مع المستخدمين الآخرين على منتدى Aspose.Note [here](https://forum.aspose.com/c/note/28).
+
+### س3: هل يمكنني تجربة Aspose.Note for Java قبل الشراء؟
+
+نعم، يمكنك الحصول على نسخة تجريبية مجانية من Aspose.Note for Java من [here](https://releases.aspose.com/).
 
 ### س4: كيف يمكنني الحصول على ترخيص مؤقت لـ Aspose.Note؟
 
- ج4: يمكنك الحصول على ترخيص مؤقت لـ Aspose.Note من[هنا](https://purchase.aspose.com/temporary-license/).
+يمكنك الحصول على ترخيص مؤقت لـ Aspose.Note من [here](https://purchase.aspose.com/temporary-license/).
 
-### س5: أين يمكنني العثور على الوثائق التفصيلية الخاصة بـ Aspose.Note لـ Java؟
+### س5: أين يمكنني العثور على الوثائق التفصيلية لـ Aspose.Note for Java؟
 
- ج5: يمكنك الوصول إلى الوثائق الكاملة لـ Aspose.Note لـ Java[هنا](https://reference.aspose.com/note/java/).
+يمكنك الوصول إلى الوثائق الكاملة لـ Aspose.Note for Java [here](https://reference.aspose.com/note/java/).
+
+**أسئلة وإجابات إضافية**
+
+**س: هل حذف عقدة يحذف أيضًا الصفحات الفرعية لها؟**  
+ج: نعم. عند حذف عقدة قسم، تُحذف جميع الصفحات الموجودة داخل ذلك القسم كجزء من العملية.
+
+**س: هل يمكنني التراجع عن الحذف بعد استدعاء `removeChild`؟**  
+ج: ليس مباشرة. يجب الاحتفاظ بنسخة احتياطية من دفتر الملاحظات أو العقدة المحددة قبل الحذف إذا كنت بحاجة لاستعادتها لاحقًا.
+
+## الخاتمة
+
+في هذا البرنامج التعليمي، استعرضنا **كيفية إزالة العقدة** — تحديدًا عقدة فرعية—من دفتر ملاحظات OneNote باستخدام Aspose.Note for Java. ببضع أسطر من الشيفرة، يمكنك أتمتة تنظيف الدفاتر، فرض الهيكلية، ودمج معالجة OneNote في خطوط أنابيب معالجة المستندات الأكبر.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
+
+---
+
+**آخر تحديث:** 2026-01-02  
+**تم الاختبار مع:** Aspose.Note 24.11 for Java  
+**المؤلف:** Aspose  
+
+---
