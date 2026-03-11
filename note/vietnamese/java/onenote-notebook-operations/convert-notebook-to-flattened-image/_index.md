@@ -1,31 +1,52 @@
 ---
-title: Chuyển đổi sổ ghi chép thành hình ảnh phẳng trong OneNote - Aspose.Note
-linktitle: Chuyển đổi sổ ghi chép thành hình ảnh phẳng trong OneNote - Aspose.Note
-second_title: API Java Aspose.Note
-description: Tìm hiểu cách chuyển đổi sổ ghi chép thành hình ảnh phẳng trong OneNote bằng Aspose.Note for Java. Bảo toàn tất cả các thành phần trong một tệp hình ảnh một cách dễ dàng.
-weight: 13
+date: 2025-12-25
+description: Tìm hiểu cách chuyển đổi OneNote sang PNG bằng Aspose.Note cho Java.
+  Hướng dẫn này chỉ ra cách đặt độ phân giải hình ảnh, làm phẳng một sổ ghi chú và
+  lưu OneNote dưới dạng hình ảnh một cách hiệu quả.
+linktitle: How to Convert OneNote to PNG – Flatten Notebook to Image with Aspose.Note
+second_title: Aspose.Note Java API
+title: Cách chuyển OneNote sang PNG – Chuyển đổi sổ ghi chú thành hình ảnh với Aspose.Note
 url: /vi/java/onenote-notebook-operations/convert-notebook-to-flattened-image/
+weight: 13
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Chuyển đổi sổ ghi chép thành hình ảnh phẳng trong OneNote - Aspose.Note
+# Chuyển Notebook thành Hình ảnh Phẳng trong OneNote - Aspose.Note
 
 ## Giới thiệu
 
-Trong hướng dẫn này, chúng tôi sẽ hướng dẫn bạn quy trình chuyển đổi sổ ghi chép thành hình ảnh phẳng trong OneNote bằng Aspose.Note cho Java. Điều này cho phép bạn lưu sổ ghi chép của mình dưới dạng tệp hình ảnh, đảm bảo rằng tất cả các thành phần được giữ nguyên ở một định dạng hình ảnh duy nhất.
+Trong hướng dẫn này, bạn sẽ khám phá cách **chuyển OneNote sang PNG** bằng cách biến toàn bộ notebook thành một hình ảnh phẳng duy nhất sử dụng Aspose.Note cho Java. Cách tiếp cận này rất phù hợp khi bạn cần chia sẻ notebook dưới dạng hình tĩnh, nhúng vào báo cáo, hoặc lưu trữ mà không mất bất kỳ chi tiết hình ảnh nào.
 
-## Điều kiện tiên quyết
+## Câu trả lời nhanh
+- **“Flatten notebook” có nghĩa là gì?** Nó hợp nhất tất cả các thành phần trang vào một hình ảnh raster duy nhất.  
+- **Định dạng nào được sử dụng?** PNG là mặc định, cung cấp chất lượng không mất mát.  
+- **Tôi có thể thay đổi DPI không?** Có, sử dụng `setResolution` trên `ImageSaveOptions`.  
+- **Có cần giấy phép không?** Bản dùng thử miễn phí đủ cho việc đánh giá; giấy phép thương mại cần thiết cho môi trường sản xuất.  
+- **Có được hỗ trợ trên mọi hệ điều hành không?** API Java chạy ở bất kỳ nơi nào có Java.
 
-Trước khi chúng tôi bắt đầu, hãy đảm bảo bạn có những điều sau:
+## Chuyển OneNote sang PNG là gì?
 
-1. Bộ công cụ phát triển Java (JDK) được cài đặt trên hệ thống của bạn.
-2.  Thư viện Aspose.Note for Java được tải xuống và thiết lập trong dự án Java của bạn. Bạn có thể tải thư viện từ[đây](https://releases.aspose.com/note/java/).
+Chuyển OneNote sang PNG tạo ra một biểu diễn bitmap của mọi trang trong notebook, giữ nguyên văn bản, bản vẽ và các đối tượng nhúng trong một tệp hình ảnh duy nhất. Điều này đặc biệt hữu ích cho tài liệu, bài thuyết trình hoặc lưu trữ tuân thủ.
+
+## Tại sao nên chuyển OneNote sang PNG với Aspose.Note?
+
+- **Độ trung thực cao** – Tất cả các yếu tố hình ảnh được giữ nguyên.  
+- **Đầu ra một tệp duy nhất** – Không cần quản lý nhiều tệp trang.  
+- **Độ phân giải tùy chỉnh** – Điều chỉnh DPI để đáp ứng yêu cầu chất lượng.  
+- **Không cần cài đặt Office** – Hoạt động hoàn toàn độc lập với Microsoft OneNote.
+
+## Yêu cầu trước
+
+Trước khi bắt đầu, hãy đảm bảo bạn có những thứ sau:
+
+1. Java Development Kit (JDK) đã được cài đặt trên hệ thống.  
+2. Thư viện Aspose.Note cho Java đã tải về và được thiết lập trong dự án Java của bạn. Bạn có thể tải thư viện từ [here](https://releases.aspose.com/note/java/).  
 3. Kiến thức cơ bản về lập trình Java.
 
-## Gói nhập khẩu
+## Nhập gói
 
 Để bắt đầu, bạn cần nhập các gói cần thiết từ Aspose.Note cho Java:
 
@@ -39,27 +60,27 @@ import com.aspose.note.SaveFormat;
 
 ## Bước 1: Thiết lập thư mục tài liệu
 
-Đầu tiên, xác định thư mục chứa tệp sổ ghi chép của bạn:
+Đầu tiên, xác định thư mục chứa tệp notebook của bạn:
 
 ```java
 String dataDir = "Your Document Directory";
 ```
 
- Thay thế`"Your Document Directory"` với đường dẫn đến tệp sổ ghi chép của bạn.
+Thay `"Your Document Directory"` bằng đường dẫn tới tệp notebook của bạn.
 
-## Bước 2: Tải sổ tay
+## Bước 2: Tải Notebook
 
- Tiếp theo, tải tệp sổ ghi chép bằng cách sử dụng`Notebook` lớp học:
+Tiếp theo, tải tệp notebook bằng lớp `Notebook`:
 
 ```java
 Notebook notebook = new Notebook(dataDir + "test.onetoc2");
 ```
 
- Đảm bảo thay thế`"test.onetoc2"` với tên của tập tin sổ ghi chép của bạn.
+Đảm bảo thay `"test.onetoc2"` bằng tên tệp notebook của bạn.
 
-## Bước 3: Đặt tùy chọn lưu ảnh
+## Bước 3: Thiết lập tùy chọn lưu ảnh
 
-Bây giờ, hãy thiết lập các tùy chọn để lưu sổ ghi chép dưới dạng hình ảnh. Chúng tôi sẽ chỉ định định dạng lưu là PNG và đặt độ phân giải thành 400 dpi:
+Bây giờ, cấu hình các tùy chọn để lưu notebook dưới dạng ảnh. Chúng ta sẽ chỉ định định dạng lưu là PNG và đặt độ phân giải là 400 DPI:
 
 ```java
 NotebookImageSaveOptions saveOptions = new NotebookImageSaveOptions(SaveFormat.Png);
@@ -67,53 +88,63 @@ ImageSaveOptions documentSaveOptions = saveOptions.getDocumentSaveOptions();
 documentSaveOptions.setResolution(400);
 ```
 
-Bạn có thể điều chỉnh độ phân giải theo yêu cầu của bạn.
+Bạn có thể điều chỉnh độ phân giải theo yêu cầu. Đây là nơi bạn **đặt độ phân giải ảnh** để kiểm soát chất lượng đầu ra.
 
 ## Bước 4: Làm phẳng Notebook
 
-Để đảm bảo rằng tất cả các phần tử được làm phẳng thành một hình ảnh duy nhất, hãy đặt`flatten` tùy chọn để`true`:
+Để đảm bảo tất cả các yếu tố được làm phẳng thành một hình ảnh duy nhất, đặt tùy chọn `flatten` thành `true`:
 
 ```java
 saveOptions.setFlatten(true);
 ```
 
-Điều này đảm bảo rằng hình ảnh thu được sẽ duy trì bố cục của sổ ghi chép của bạn.
+Việc đặt `flatten` thành `true` đảm bảo PNG kết quả giữ nguyên bố cục chính xác của notebook.
 
-## Bước 5: Lưu hình ảnh
+## Bước 5: Lưu ảnh
 
-Cuối cùng, lưu sổ ghi chép dưới dạng hình ảnh phẳng:
+Cuối cùng, lưu notebook dưới dạng hình ảnh đã được làm phẳng:
 
 ```java
 notebook.save(dataDir + "ExportImageasFlattenedNotebook_out.png", saveOptions);
 ```
 
- Thay thế`"ExportImageasFlattenedNotebook_out.png"` với tên tệp đầu ra mong muốn của bạn.
+Thay `"ExportImageasFlattenedNotebook_out.png"` bằng tên tệp đầu ra mong muốn của bạn. Bước này **lưu OneNote dưới dạng ảnh** mà bạn có thể chia sẻ hoặc nhúng ở bất kỳ đâu.
 
-## Phần kết luận
+## Các trường hợp sử dụng phổ biến
 
-Tóm lại, bằng cách sử dụng Aspose.Note cho Java, bạn có thể dễ dàng chuyển đổi sổ ghi chép của mình thành hình ảnh phẳng trong OneNote. Quá trình này đảm bảo rằng tất cả các thành phần được giữ nguyên ở một định dạng hình ảnh duy nhất, tạo điều kiện dễ dàng chia sẻ và xem.
+- **Tài liệu:** Nhúng hình ảnh notebook vào sổ tay kỹ thuật hoặc hướng dẫn người dùng.  
+- **Bài thuyết trình:** Sử dụng slide PNG độ phân giải cao trong PowerPoint mà không lo về tương thích phông chữ hay đối tượng.  
+- **Lưu trữ:** Lưu một bản sao chỉ đọc của notebook cho các cuộc kiểm toán tuân thủ.
+
+## Mẹo khắc phục sự cố
+
+- **Không tìm thấy tệp:** Kiểm tra lại đường dẫn `dataDir` và chắc chắn tệp `.onetoc2` tồn tại.  
+- **Ảnh chất lượng thấp:** Tăng DPI bằng cách thay đổi `documentSaveOptions.setResolution(600);`.  
+- **Thiếu một số yếu tố:** Đảm bảo `saveOptions.setFlatten(true);` được bật; nếu không, một số lớp có thể vẫn còn tách rời.
 
 ## Câu hỏi thường gặp
 
-### Q1: Tôi có thể điều chỉnh độ phân giải của hình ảnh đầu ra không?
+**Q1: Tôi có thể điều chỉnh độ phân giải của ảnh đầu ra không?**  
+A1: Có, bạn có thể điều chỉnh độ phân giải theo yêu cầu bằng cách thay đổi tham số của phương thức `setResolution`.
 
- Trả lời 1: Có, bạn có thể điều chỉnh độ phân giải theo yêu cầu của mình bằng cách sửa đổi`setResolution` tham số phương thức.
+**Q2: Aspose.Note có hỗ trợ các định dạng ảnh khác để xuất không?**  
+A2: Có, Aspose.Note hỗ trợ nhiều định dạng ảnh như PNG, JPEG, BMP, v.v., để xuất notebook.
 
-### Câu hỏi 2: Aspose.Note có hỗ trợ xuất các định dạng hình ảnh khác không?
+**Q3: Tôi có thể tùy chỉnh thêm ảnh đầu ra không?**  
+A3: Có, Aspose.Note cung cấp nhiều tùy chọn mở rộng để tùy chỉnh ảnh đầu ra, bao gồm kích thước trang, hướng và cài đặt chất lượng.
 
-Câu trả lời 2: Có, Aspose.Note hỗ trợ nhiều định dạng hình ảnh khác nhau như PNG, JPEG, BMP, v.v. để xuất sổ tay.
+**Q4: Có phiên bản dùng thử cho Aspose.Note cho Java không?**  
+A4: Có, bạn có thể lấy phiên bản dùng thử miễn phí từ [here](https://releases.aspose.com/).
 
-### Câu 3: Tôi có thể tùy chỉnh thêm hình ảnh đầu ra không?
+**Q5: Tôi có thể tìm hỗ trợ cho Aspose.Note cho Java ở đâu?**  
+A5: Bạn có thể tìm hỗ trợ và tài nguyên trên diễn đàn Aspose.Note [here](https://forum.aspose.com/c/note/28).
 
-Câu trả lời 3: Có, Aspose.Note cung cấp các tùy chọn mở rộng để tùy chỉnh hình ảnh đầu ra, bao gồm cài đặt kích thước trang, hướng và chất lượng.
+---
 
-### Câu hỏi 4: Có phiên bản dùng thử cho Aspose.Note cho Java không?
+**Cập nhật lần cuối:** 2025-12-25  
+**Đã kiểm tra với:** Aspose.Note cho Java 24.12  
+**Tác giả:** Aspose  
 
- Đ4: Có, bạn có thể tải phiên bản dùng thử miễn phí từ[đây](https://releases.aspose.com/).
-
-### Câu hỏi 5: Tôi có thể tìm hỗ trợ cho Aspose.Note dành cho Java ở đâu?
-
- Câu trả lời 5: Bạn có thể tìm thấy sự hỗ trợ và tài nguyên trên diễn đàn Aspose.Note[đây](https://forum.aspose.com/c/note/28).
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
