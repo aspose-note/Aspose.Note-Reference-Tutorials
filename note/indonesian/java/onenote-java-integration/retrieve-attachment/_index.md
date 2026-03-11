@@ -1,45 +1,58 @@
 ---
-title: Ambil Lampiran dari OneNote menggunakan Java
-linktitle: Ambil Lampiran dari OneNote menggunakan Java
-second_title: Aspose.Catatan Java API
-description: Ekstrak lampiran dengan mudah dari dokumen OneNote di Java! Aspose.Note menangani semua format & pemrosesan batch. Langkah & kode mudah disertakan! #OneNote #Java #Aspose
-weight: 12
+date: 2025-12-31
+description: Pelajari cara mengekstrak lampiran OneNote menggunakan Java dengan Aspose.Note.
+  Dapatkan file dari dokumen .one dengan cepat dan andal.
+linktitle: Retrieve Attachment from OneNote using Java
+second_title: Aspose.Note Java API
+title: cara mengekstrak lampiran OneNote menggunakan Java
 url: /id/java/onenote-java-integration/retrieve-attachment/
+weight: 12
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Ambil Lampiran dari OneNote menggunakan Java
+# cara mengekstrak lampiran onenote menggunakan Java
 
 ## Perkenalan
 
-Di era digital saat ini, menangani berbagai format dokumen secara efisien merupakan aspek penting dalam pengembangan perangkat lunak. Aspose.Note untuk Java adalah API canggih yang memberdayakan pengembang untuk bekerja secara lancar dengan file Microsoft OneNote menggunakan aplikasi Java. Baik Anda perlu mengambil lampiran, memanipulasi halaman, atau mengekstrak teks, Aspose.Note untuk Java menyediakan fungsionalitas komprehensif untuk menyederhanakan alur kerja Anda.
+Di era digital saat ini, **cara mengekstrak onenote** secara programatik menjadi tantangan umum bagi pengembang yang membangun aplikasi fokus dokumen. Aspose.Note for Java membuat tugas ini menjadi sederhana dengan menyediakan API kaya yang dapat membaca, memanipulasi, dan mengekspor konten dari file Microsoft OneNote*.one*. Pada tutorial ini Anda akan belajar cara mengambil lampiran—seperti gambar, PDF, atau dokumen Word—dari notebook OneNote menggunakan Java.
+
+## Jawaban Cepat
+- **Perpustakaan apa yang saya perlukan?** Aspose.Note for Java
+- **Apakah saya dapat mengekstrak file dari .one tanpa unpack manual?** Ya, API membaca format .one secara langsung.
+- **Apakah saya memerlukan lisensi untuk pengembangan?** Lisensi evaluasi gratis dapat digunakan untuk pengujian; lisensi penuh diperlukan untuk produksi.
+- **Versi Java mana yang didukung?** Java8atau lebih tinggi.
+- **Apakah pengiriman batch memungkinkan?** Tentu—loop melalui banyak dokumen dengan kode yang sama.
+
+## Apa itu “cara mengekstrak onenote”?
+Mengekstrak konten OneNote berarti membaca notebook *.one* secara terprogram dan mengambil sumber daya tersematnya (lampiran, gambar, teks). Hal ini memungkinkan skenario seperti pengarsapan dokumen otomatis, migrasi konten, atau pelaporan khusus.
+
+## Mengapa menggunakan Aspose.Note untuk Java?
+- **Dukungan format penuh** – melibatkan setiap elemen struktur file OneNote.
+- **Tidak memerlukan instalasi Office** – Berjalan di lingkungan headless seperti server atau pipeline CI.
+- **Siap batch** – Memproses puluhan notebook dalam satu dijalankan dengan jejak memori minimal.
 
 ## Prasyarat
 
-Sebelum mendalami pengambilan lampiran dari OneNote menggunakan Java dengan Aspose.Note, pastikan Anda memiliki prasyarat berikut:
+Sebelum menyelam ke kode, pastikan hal‑hal berikut sudah siap:
 
 ### Kit Pengembangan Java (JDK)
 
-Langkah 1: Kunjungi situs web Oracle atau gunakan distribusi sumber terbuka untuk mengunduh dan menginstal Java Development Kit (JDK) versi terbaru.
-
-Langkah 2: Siapkan variabel lingkungan untuk menyertakan JDK di PATH sistem Anda.
-
- Langkah 3: Verifikasi instalasi dengan menjalankan`java -version` Dan`javac -version` perintah di command prompt atau terminal Anda.
+1. Unduh JDK terbaru dari Oracle atau distributor OpenJDK.
+2. Tambahkan direktori `bin` JDK ke `PATH` sistem Anda.
+3. Verifikasi dengan `java -version` dan `javac -version`.
 
 ### Aspose.Catatan untuk Java
 
- Langkah 1: Navigasikan ke[Unduh Halaman](https://releases.aspose.com/note/java/) dari Aspose.Note untuk Java.
+1. Buka [halaman unduhan](https://releases.aspose.com/note/java/) Aspose.Note untuk Java.
+2. Unduh arsip rilis terbaru.
+3. Ekstrak file JAR ke folder yang dapat direferensikan proyek Anda.
 
-Langkah 2: Unduh versi terbaru perpustakaan Aspose.Note untuk Java.
+## Impor Paket
 
-Langkah 3: Ekstrak arsip yang diunduh ke lokasi yang sesuai di sistem Anda.
-
-## Paket Impor
-
-Untuk mulai mengambil lampiran dari OneNote menggunakan Java dengan Aspose.Note, Anda perlu mengimpor paket yang diperlukan ke proyek Java Anda. Ikuti langkah ini:
+Untuk memulai, impor kelas‑kelas yang diperlukan. Blok di bawah ini tidak berubah dari tutorial asli:
 
 ```java
 import java.io.ByteArrayInputStream;
@@ -52,33 +65,43 @@ import com.aspose.note.AttachedFile;
 import com.aspose.note.Document;
 ```
 
-Sekarang, mari kita bagi contoh yang diberikan menjadi beberapa langkah untuk memahami proses mengambil lampiran dari OneNote menggunakan Java dengan Aspose.Note.
+> **Tips pro:** Simpan impor ini bersama di bagian atas file sumber Anda agar pemeliharaan di masa depan lebih mudah.
 
-## Langkah 1: Tentukan Direktori Dokumen
+## Panduan Langkah-demi-Langkah
+
+### Langkah 1: Tentukan Direktori Dokumen
+
+Tentukan lokasi file *.one* sumber di mesin Anda.
 
 ```java
 String dataDir = "Your Document Directory";
 ```
 
- Mengganti`"Your Document Directory"` dengan jalur ke direktori dokumen OneNote Anda.
+Ganti `"Your Document Directory"` dengan path absolut atau relatif yang berisi file OneNote Anda.
 
-## Langkah 2: Muat Dokumen
+### Langkah 2: Muat Dokumen
+
+Buat instance `Document` yang mewakili notebook OneNote.
 
 ```java
 Document doc = new Document(dataDir + "Sample1.one");
 ```
 
-Muat dokumen OneNote ke Aspose.Note untuk diproses lebih lanjut.
+> Baris ini **mengambil** file OneNote dan menyiapkannya untuk pemrosesan lebih lanjut.
 
-## Langkah 3: Dapatkan Daftar Lampiran
+### Langkah 3: Dapatkan Daftar Lampiran
+
+Minta dokumen untuk semua file terlampir (gambar, PDF, dll.).
 
 ```java
 List<AttachedFile> attachments = doc.getChildNodes(AttachedFile.class);
 ```
 
-Ambil daftar lampiran yang ada di dokumen OneNote.
+`List` yang dikembalikan berisi objek `AttachedFile`, masing‑masing mewakili satu sumber daya tersemat.
 
-## Langkah 4: Ambil dan Simpan Lampiran
+### Langkah 4: Ambil dan Simpan Lampiran
+
+Iterasi koleksi, ekstrak data biner, dan tulis setiap file ke disk.
 
 ```java
 for (AttachedFile a : attachments) {
@@ -91,33 +114,41 @@ for (AttachedFile a : attachments) {
 }
 ```
 
-Ulangi setiap lampiran, ambil kontennya, dan simpan ke lokasi keluaran yang ditentukan.
+- `a.getBytes()` mengembalikan byte mentah lampiran.  
+- `Utils.getPath(...)` membangun lokasi output yang aman (Anda dapat menggantinya dengan `Path` apa pun yang diinginkan).  
+- Loop mencetak path lengkap setiap file yang disimpan, memberikan umpan balik instan.
 
-## Kesimpulan
+## Masalah & Solusi Umum
 
-Kesimpulannya, Aspose.Note untuk Java menawarkan solusi tangguh untuk mengambil lampiran dari dokumen OneNote dengan mudah. Dengan mengikuti langkah-langkah yang diuraikan dalam tutorial ini, pengembang dapat dengan mudah mengintegrasikan fungsi ini ke dalam aplikasi Java mereka, sehingga meningkatkan kemampuan manajemen dokumen.
+| Edisi | Mengapa Itu Terjadi | Perbaiki |
+|-------|----------------|-----|
+| **Tidak ada lampiran yang dikembalikan** | Notebook mungkin tidak berisi file yang terlampir atau disimpan pada halaman yang berbeda. | Verifikasi file *.one* secara manual di OneNote, atau iterasi melalui halaman (`doc.getChildNodes(Page.class)`) untuk menemukan lampiran. |
+| **`AccessDeniedException` di Windows** | Output folder bersifat read‑only atau memerlukan hak istimewa tinggi. | Pilih direktori yang dapat ditulisi (misalnya folder `Documents` pengguna) atau jalankan JVM dengan hak yang sesuai. |
+| **File berukuran besar menyebabkan OutOfMemoryError** | Memuat lampiran besar ke memori sekaligus. | Streaming byte langsung ke file menggunakan `Files.newOutputStream` alih-alih memuat seluruh byte array. |
 
-## FAQ
+## Pertanyaan yang Sering Diajukan
 
-### Q1: Bisakah saya mengambil lampiran dari dokumen OneNote yang dilindungi kata sandi?
+**T1: Dapatkah saya mengambil lampiran dari dokumen OneNote yang dilindungi kata sandi?**
+J: Aspose.Note for Java mendukung pembukaan buku catatan yang dilindungi kata sandi ketika Anda memberikan kredensial yang benar selama pemuatan dokumen.
 
-J: Aspose.Note untuk Java mendukung pengambilan lampiran dari dokumen OneNote yang dilindungi kata sandi dengan kredensial yang sesuai.
+**T2: Apakah Aspose.Note for Java mendukung pemrosesan batch beberapa file OneNote?**
+J: Ya, Anda dapat menempatkan kode di dalam loop yang mengulang daftar file *.one*, mengekstrak lampiran dari masing-masing file.
 
-### Q2: Apakah Aspose.Note untuk Java mendukung pemrosesan batch beberapa file OneNote?
+**T3: Apakah ada batasan ukuran atau jumlah lampiran yang dapat diambil?**
+J: API dirancang untuk menangani buku catatan besar, tetapi batasan praktis bergantung pada ukuran heap JVM Anda dan ruang disk yang tersedia.
 
-J: Ya, pengembang bisa menerapkan pemrosesan batch untuk mengambil lampiran dari beberapa file OneNote secara efisien.
+**T4: Dapatkah saya menyesuaikan lokasi output dan konvensi penamaan file untuk lampiran yang diambil?**
+J: Tentu saja—ubah variabel `outputFile` dan `outputPath` dalam loop agar sesuai dengan skema penamaan dan struktur direktori Anda.
 
-### Q3: Apakah ada batasan ukuran atau jumlah lampiran yang dapat diambil menggunakan Aspose.Note untuk Java?
+**T5: Apakah Aspose.Note for Java menyediakan dukungan dan bantuan untuk masalah teknis?**
+J: Ya, pengembang dapat mengakses dukungan komprehensif melalui forum Aspose.Note di [https://forum.aspose.com/c/note/28](https://forum.aspose.com/c/note/28).
 
-J: Aspose.Note untuk Java dirancang untuk menangani dokumen dengan berbagai ukuran dan kompleksitas, memastikan kinerja optimal bahkan dengan lampiran dalam jumlah besar.
+---
 
-### Q4: Dapatkah saya menyesuaikan lokasi keluaran dan konvensi penamaan file untuk lampiran yang diambil?
+**Terakhir Diperbarui:** 2025-12-31
+**Diuji Dengan:** Aspose.Note for Java 24.11
+**Penulis:** Aspose  
 
-J: Ya, pengembang memiliki fleksibilitas untuk menentukan lokasi keluaran khusus dan konvensi penamaan file sesuai dengan kebutuhan mereka.
-
-### Q5: Apakah Aspose.Note untuk Java memberikan dukungan dan bantuan jika ada masalah teknis atau pertanyaan?
-
-J: Ya, pengembang dapat mengakses dukungan komprehensif melalui forum Aspose.Note di[https://forum.aspose.com/c/note/28](https://forum.aspose.com/c/note/28) untuk bantuan teknis atau pertanyaan apa pun.
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

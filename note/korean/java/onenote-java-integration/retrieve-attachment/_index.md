@@ -1,45 +1,60 @@
 ---
-title: Java를 사용하여 OneNote에서 첨부 파일 검색
-linktitle: Java를 사용하여 OneNote에서 첨부 파일 검색
-second_title: Aspose.Note 자바 API
-description: Java로 OneNote 문서에서 첨부 파일을 손쉽게 추출하세요! Aspose.Note는 모든 형식 및 일괄 처리를 처리합니다. 쉬운 단계 및 코드가 포함되어 있습니다! #OneNote #Java #Aspose
-weight: 12
+date: 2025-12-31
+description: Java와 Aspose.Note를 사용하여 OneNote 첨부 파일을 추출하는 방법을 배워보세요. .one 문서에서 파일을
+  빠르고 안정적으로 가져옵니다.
+linktitle: Retrieve Attachment from OneNote using Java
+second_title: Aspose.Note Java API
+title: Java를 사용하여 OneNote 첨부 파일을 추출하는 방법
 url: /ko/java/onenote-java-integration/retrieve-attachment/
+weight: 12
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Java를 사용하여 OneNote에서 첨부 파일 검색
+# Java를 사용하여 OneNote 첨부 파일 추출 방법
 
 ## 소개
 
-오늘날 디지털 시대에 다양한 문서 형식을 효율적으로 처리하는 것은 소프트웨어 개발의 중요한 측면입니다. Aspose.Note for Java는 개발자가 Java 애플리케이션을 사용하여 Microsoft OneNote 파일을 원활하게 작업할 수 있도록 지원하는 강력한 API입니다. 첨부 파일 검색, 페이지 조작 또는 텍스트 추출이 필요한 경우 Aspose.Note for Java는 작업 흐름을 간소화하는 포괄적인 기능을 제공합니다.
+특히 디지털 시대에 **OneNote 응용 프로그램 파일 추출 방법**을 프로그래밍으로 구현하는 것은 문서 관련성을 개발하는 개발자들에게 있다는 의미입니다. Aspose.Note for Java는 Microsoft OneNote *.one* 파일의 내용을 이해하고, 내보낼 수 있는 풍부한 API를 제공하여 이 작업을 간단하게 설명합니다. 이 튜토리얼에서는 Java를 사용하여 OneNote 노트북에서 이미지, PDF, Word 문서와 동일한 첨부 파일을 가져오는 방법을 배웁니다.
 
-## 전제조건
+## 빠른 답변
+- **어떤 라이브러리가 필요합니까?** Aspose.Note for Java
+- **수동으로 압축을 풀지 않고도 .one에서 파일을 추출할 수 있나요?** 예, API는 .one 형식을 직접 읽습니다.
+- **개발을 위해 라이선스가 필요합니까?** 무료 평가판 라이선스는 테스트용으로 작동합니다. 생산을 위해서는 정식 라이센스가 필요합니다.
+- **어떤 Java 버전이 지원되나요?** Java8 이상입니다.
+- **일괄 처리가 가능합니까?** 물론입니다. 동일한 코드를 사용하여 여러 문서를 반복합니다.
 
-Aspose.Note와 함께 Java를 사용하여 OneNote에서 첨부 파일을 검색하기 전에 다음 전제 조건이 충족되었는지 확인하세요.
+## '원노트 추출방법'이란?
+OneNote 콘텐츠를 추출한다는 것은 *.one* 노트북을 프로그래밍으로 읽어들이는 것(첨부 파일, 이미지, 텍스트 등)을 삭제하는 것을 의미합니다. 이를 통해 자동 문서 보관, 콘텐츠 마이그레이션, 서비스 제공 등을 제공할 수 있습니다.
 
-### JDK(자바 개발 키트)
+## Java용 Aspose.Note를 사용하는 이유는 무엇입니까?
+- **전체 형식 지원** – OneNote 파일 구조의 모든 요소를 ​​처리합니다.
+- **Office 설치가 필요하지 않습니다** – 서버나 CI 파이프라인과 같은 헤드리스 환경에서 작동합니다.
+- **일괄 처리 가능** – 최소한의 메모리 공간으로 한 번에 수십 개의 노트북을 처리합니다.
 
-1단계: Oracle 웹 사이트를 방문하거나 오픈 소스 배포판을 채택하여 최신 버전의 JDK(Java Development Kit)를 다운로드하고 설치합니다.
+## 전제 조건
 
-2단계: 시스템 PATH에 JDK를 포함하도록 환경 변수를 설정합니다.
+코드를 살펴보기 전에 다음이 준비되었는지 확인하세요.
 
- 3단계: 다음을 실행하여 설치 확인`java -version` 그리고`javac -version` 명령 프롬프트나 터미널에서 명령을 실행하세요.
+### 자바 개발 키트(JDK)
 
-### Java용 Aspose.Note
+1. Oracle 또는 OpenJDK 배포자로부터 최신 JDK를 다운로드합니다.
+2. JDK `bin` 디렉터리를 시스템 `PATH`에 추가합니다.
+3. `java -version` 및 `javac -version`으로 확인합니다.
 
- 1단계: 다음으로 이동합니다.[다운로드 페이지](https://releases.aspose.com/note/java/) Aspose.Note for Java입니다.
+### Aspose.Note for Java
 
-2단계: Java 라이브러리용 Aspose.Note의 최신 버전을 다운로드합니다.
+1. Aspose.Note for Java 다운로드 페이지(https://releases.aspose.com/note/java/)로 이동합니다.
 
-3단계: 다운로드한 아카이브를 시스템의 적절한 위치에 추출합니다.
+2. 최신 릴리스 아카이브를 다운로드합니다.
+
+3. JAR 파일을 프로젝트에서 참조할 수 있는 폴더에 압축 해제합니다.
 
 ## 패키지 가져오기
 
-Aspose.Note와 함께 Java를 사용하여 OneNote에서 첨부 파일 검색을 시작하려면 필요한 패키지를 Java 프로젝트로 가져와야 합니다. 다음과 같이하세요:
+시작하려면 필요한 클래스를 가져옵니다. 아래 코드는 원래 튜토리얼과 동일합니다.
 
 ```java
 import java.io.ByteArrayInputStream;
@@ -52,33 +67,43 @@ import com.aspose.note.AttachedFile;
 import com.aspose.note.Document;
 ```
 
-이제 Aspose.Note와 함께 Java를 사용하여 OneNote에서 첨부 파일을 검색하는 프로세스를 이해하기 위해 제공된 예제를 여러 단계로 나누어 보겠습니다.
+**팁:** 향후 유지 관리를 쉽게 하려면 이러한 가져오기를 소스 파일 맨 위에 함께 유지하세요.
 
-## 1단계: 문서 디렉터리 정의
+## 단계별 가이드
+
+### 1단계: 문서 디렉터리 정의
+
+원본 *.one* 파일이 컴퓨터에 저장된 위치를 지정합니다.
 
 ```java
 String dataDir = "Your Document Directory";
 ```
 
- 바꾸다`"Your Document Directory"` OneNote 문서 디렉터리 경로를 사용하세요.
+`"문서 디렉터리"`를 OneNote 파일이 있는 절대 경로 또는 상대 경로로 바꿉니다.
 
-## 2단계: 문서 로드
+### 2단계: 문서 불러오기
+
+OneNote 노트북을 나타내는 `Document` 인스턴스를 생성합니다.
 
 ```java
 Document doc = new Document(dataDir + "Sample1.one");
 ```
 
-추가 처리를 위해 OneNote 문서를 Aspose.Note에 로드합니다.
+> 이 줄은 OneNote 파일을 **가져와** 추가 처리를 위해 준비합니다.
 
-## 3단계: 첨부 파일 목록 가져오기
+### 3단계: 첨부 파일 목록 가져오기
+
+문서에서 모든 첨부 파일(이미지, PDF 등)을 요청합니다.
 
 ```java
 List<AttachedFile> attachments = doc.getChildNodes(AttachedFile.class);
 ```
 
-OneNote 문서에 있는 첨부 파일 목록을 검색합니다.
+반환된 `List`에는 각각 단일 내장 리소스를 나타내는 `AttachedFile` 객체가 포함됩니다.
 
-## 4단계: 첨부 파일 검색 및 저장
+### 4단계: 첨부 파일 검색 및 저장
+
+컬렉션을 반복하고, 이진 데이터를 추출하고, 각 파일을 디스크에 저장합니다.
 
 ```java
 for (AttachedFile a : attachments) {
@@ -91,33 +116,47 @@ for (AttachedFile a : attachments) {
 }
 ```
 
-각 첨부 파일을 반복하고, 해당 콘텐츠를 검색하고, 지정된 출력 위치에 저장합니다.
+- `a.getBytes()`는 첨부 파일의 원시 바이트를 반환합니다.
 
-## 결론
+- `Utils.getPath(...)`는 안전한 출력 위치를 생성합니다(원하는 `Path`로 대체할 수 있습니다).
 
-결론적으로, Aspose.Note for Java는 OneNote 문서에서 첨부 파일을 쉽게 검색할 수 있는 강력한 솔루션을 제공합니다. 이 튜토리얼에 설명된 단계를 따르면 개발자는 이 기능을 Java 애플리케이션에 원활하게 통합하여 문서 관리 기능을 향상시킬 수 있습니다.
+- 루프는 저장된 각 파일의 전체 경로를 출력하여 즉각적인 피드백을 제공합니다.
 
-## FAQ
+## 일반적인 문제 및 해결 방법
 
-### Q1: 암호로 보호된 OneNote 문서에서 첨부 파일을 검색할 수 있나요?
+| 문제 | 발생 원인 | 해결 방법 |
 
-A: Java용 Aspose.Note는 적절한 자격 증명을 사용하여 암호로 보호된 OneNote 문서에서 첨부 파일을 검색하는 것을 지원합니다.
+|-------|----------------|-----|
 
-### Q2: Java용 Aspose.Note는 여러 OneNote 파일의 일괄 처리를 지원합니까?
+| **첨부 파일이 반환되지 않음** | 노트북에 첨부 파일이 없거나 다른 페이지에 저장되어 있을 수 있습니다. | OneNote에서 원본 *.one* 파일을 수동으로 확인하거나 페이지를 순회(`doc.getChildNodes(Page.class)`)하여 첨부 파일을 찾으세요. |
 
-A: 예, 개발자는 일괄 처리를 구현하여 여러 OneNote 파일에서 첨부 파일을 효율적으로 검색할 수 있습니다.
+| **Windows에서 `AccessDeniedException` 발생** | 출력 폴더가 읽기 전용이거나 관리자 권한이 필요합니다. | 쓰기 가능한 디렉터리(예: 사용자의 `Documents` 폴더)를 선택하거나 적절한 권한으로 JVM을 실행하세요. |
 
-### Q3: Aspose.Note for Java를 사용하여 검색할 수 있는 첨부 파일의 크기나 개수에 제한이 있나요?
+| **대용량 파일로 인해 OutOfMemoryError가 발생합니다.** | 대용량 첨부 파일을 한 번에 메모리에 로드하는 경우 발생합니다. | 전체 바이트 배열을 로드하는 대신 `Files.newOutputStream`을 사용하여 바이트를 파일로 직접 스트리밍하세요. |
 
-A: Aspose.Note for Java는 다양한 크기와 복잡성의 문서를 처리하도록 설계되어 첨부 파일이 많은 경우에도 최적의 성능을 보장합니다.
+## 자주 묻는 질문
 
-### Q4: 검색된 첨부 파일의 출력 위치와 파일 명명 규칙을 사용자 정의할 수 있습니까?
+**Q1: ​​암호로 보호된 OneNote 문서에서 첨부 파일을 가져올 수 있습니까?**
+A: Aspose.Note for Java는 문서 로드 시 올바른 자격 증명을 제공하면 암호로 보호된 노트북을 열 수 있습니다.
 
-A: 예, 개발자는 요구 사항에 따라 사용자 지정 출력 위치와 파일 명명 규칙을 유연하게 지정할 수 있습니다.
+**Q2: Aspose.Note for Java는 여러 OneNote 파일을 일괄 처리할 수 있습니까?**
+A: 예, *.one* 파일 목록을 반복하는 루프 안에 코드를 넣어 각 파일에서 첨부 파일을 추출할 수 있습니다.
 
-### Q5: Aspose.Note for Java는 기술적 문제나 문의 사항이 있는 경우 지원을 제공합니까?
+**Q3: 가져올 수 있는 첨부 파일의 크기나 개수에 제한이 있습니까?**
+A: API는 대용량 노트북을 처리하도록 설계되었지만, 실제 제한은 JVM 힙 크기와 사용 가능한 디스크 공간에 따라 달라집니다.
 
-A: 예, 개발자는 Aspose.Note 포럼을 통해 포괄적인 지원에 액세스할 수 있습니다.[https://forum.aspose.com/c/note/28](https://forum.aspose.com/c/note/28) 기술 지원이나 문의 사항이 있는 경우.
+**Q4: 검색된 첨부 파일의 출력 위치와 파일 이름 지정 규칙을 사용자 지정할 수 있습니까?**
+A: 물론입니다. 루프에서 `outputFile` 및 `outputPath` 변수를 수정하여 원하는 이름 지정 체계와 디렉터리 구조를 지정하십시오.
+
+**Q5: Aspose.Note for Java는 기술적인 문제에 대한 지원을 제공합니까?**
+A: 예, 개발자는 Aspose.Note 포럼(https://forum.aspose.com/c/note/28)을 통해 포괄적인 지원을 받을 수 있습니다.
+
+---
+
+**최종 업데이트:** 2025년 12월 31일
+**테스트 환경:** Aspose.Note for Java 24.11
+**제작자:** Aspose 
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
