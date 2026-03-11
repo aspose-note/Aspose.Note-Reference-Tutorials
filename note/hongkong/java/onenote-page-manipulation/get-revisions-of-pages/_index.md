@@ -1,37 +1,54 @@
 ---
-title: 取得 OneNote 中頁面的修訂 - Aspose.Note
-linktitle: 取得 OneNote 中頁面的修訂 - Aspose.Note
+date: 2026-01-10
+description: 了解如何使用 Aspose.Note for Java 獲取 OneNote 頁面的最後修改時間及檢索修訂版本。將此功能整合至您的 Java
+  應用程式，以實現高效的文件管理。
+linktitle: Get Revisions of Pages in OneNote - Aspose.Note
 second_title: Aspose.Note Java API
-description: 了解如何使用 Aspose.Note Java 擷取 OneNote 文件中頁面的修訂版本。將其整合到您的 Java 應用程式中以實現高效的文件管理。
-weight: 15
+title: 如何取得 OneNote 頁面的最後修改時間 – Aspose.Note
 url: /zh-hant/java/onenote-page-manipulation/get-revisions-of-pages/
+weight: 15
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# 取得 OneNote 中頁面的修訂 - Aspose.Note
+# 取得 OneNote 頁面的修訂記錄 - Aspose.Note
 
 ## 介紹
 
-在本教程中，我們將深入研究 Aspose.Note for Java 的功能，這是一個功能強大的程式庫，可讓您在 Java 應用程式中無縫地使用 Microsoft OneNote 檔案。具體來說，我們將重點放在如何檢索 OneNote 文件中頁面的修訂。在本指南結束時，您將具備有效提取頁面修訂的知識，包括上次修改時間、建立時間、標題、等級和作者等詳細資訊。
+在本教學中，您將 **取得頁面的最後修改時間**，並探索如何使用 Aspose.Note for Java 取得完整的修訂歷史。無論您是建置文件管理系統、審核變更，或只是需要顯示頁面最後編輯的時間，本指南都會示範如何以程式方式擷取這些資訊。
 
-## 先決條件
+## 快速回答
+- **「取得最後修改時間」會回傳什麼？** 回傳 OneNote 頁面最近一次編輯的時間戳記。  
+- **哪個類別提供修訂歷史？** 透過 `Document.getPageHistory(Page)` 取得的 `PageHistory`。  
+- **此功能需要授權嗎？** 需要，有效的 Aspose.Note 授權才能在正式環境使用。  
+- **支援哪個 Java 版本？** Java 8 或更高版本（JDK 8+）。  
+- **可以依作者過濾修訂嗎？** 您可以讀取每個 `Page` 物件的 `Author` 屬性，自行實作過濾條件。
 
-在深入學習本教學之前，請確保您已設定以下先決條件：
+## OneNote 中的「取得最後修改時間」是什麼？
 
-### 安裝 Java 開發工具包 (JDK)
+**最後修改時間** 是每個頁面所儲存的中繼資料欄位，用來記錄該頁面最近一次變更的時間。Aspose.Note 透過 `Page.getLastModifiedTime()` 方法公開此值，讓您輕鬆顯示或記錄變更日期。
 
-確保您的系統上安裝了 Java 開發工具包。您可以從 Oracle 網站下載並安裝它，或者如果您使用的是基於 Unix 的系統，則可以使用套件管理器。
+## 為什麼要取得頁面修訂？
 
-### Java 函式庫的 Aspose.Note
+- **稽核軌跡：** 保留誰在何時變更了什麼的紀錄。  
+- **版本比較：** 建置可將兩個修訂並排比較的功能。  
+- **使用者協作洞察：** 了解共享筆記本中的編輯模式。
 
-從網站下載並安裝 Aspose.Note for Java 程式庫。你可以找到下載鏈接[這裡](https://releases.aspose.com/note/java/)。請按照文件中提供的安裝說明進行操作[這裡](https://reference.aspose.com/note/java/).
+## 前置條件
 
-## 導入包
+在開始之前，請確保您已具備以下項目：
 
-首先，將必要的套件匯入到您的 Java 專案中。這些套件將允許您利用 Aspose.Note for Java 提供的功能。
+### 已安裝 Java Development Kit (JDK)
+從 Oracle 官方網站或您慣用的套件管理員安裝 JDK 8 或更新版本。
+
+### Aspose.Note for Java 套件
+從官方網站下載程式庫。您可以在 **[此處](https://releases.aspose.com/note/java/)** 取得下載連結。安裝說明請參考 **[此處](https://reference.aspose.com/note/java/)** 的文件。
+
+## 匯入套件
+
+首先，將必要的套件匯入您的 Java 專案。這些套件可讓您使用 Aspose.Note for Java 所提供的功能。
 
 ```java
 import java.io.IOException;
@@ -41,43 +58,40 @@ import com.aspose.note.Page;
 import com.aspose.note.PageHistory;
 ```
 
-現在，讓我們將提供的範例程式碼分解為多個步驟，以了解每個組件及其功能。
+接下來，我們將示範的程式碼分成多個步驟說明，以便了解每個元件及其功能。
 
-## 步驟1：設定文檔目錄
+## 如何取得 OneNote 頁面的最後修改時間
 
+### 步驟 1：設定文件目錄
 定義 OneNote 文件所在的目錄。
 
 ```java
 String dataDir = "Your Document Directory";
 ```
 
-## 第 2 步：載入文檔
-
-將 OneNote 文件載入到 Aspose.Note 中。
+### 步驟 2：載入文件
+將 OneNote 文件載入 Aspose.Note。
 
 ```java
 Document doc = new Document(dataDir + "Sample1.one");
 ```
 
-## 第 3 步：取得首頁
-
-從文件中檢索第一頁。
+### 步驟 3：取得第一頁
+從文件中取得第一頁。
 
 ```java
 Page firstPage = doc.getFirstChild();
 ```
 
-## 第 4 步：取得頁面修訂
-
-取得頁面的修改歷史記錄。
+### 步驟 4：取得頁面修訂
+取得該頁面的修訂歷史。
 
 ```java
 PageHistory revisions = doc.getPageHistory(firstPage);
 ```
 
-## 步驟5：遍歷頁面修訂
-
-迭代頁面修訂清單並檢索相關資訊。
+### 步驟 5：遍歷頁面修訂
+遍歷修訂清單，並取得相關資訊，包括 **最後修改時間**。
 
 ```java
 for (Page pageRevision : revisions) {
@@ -90,31 +104,34 @@ for (Page pageRevision : revisions) {
 }
 ```
 
-## 結論
+## 常見問題與解決方案
+- **`PageHistory` 為 null：** 確認文件確實包含修訂；否則 `getPageHistory` 可能回傳 `null`。  
+- **時區差異：** `getLastModifiedTime()` 會以系統預設時區回傳 `java.util.Date`，如有需要請自行轉換為 UTC。  
+- **授權未載入：** 若未載入有效授權，Aspose.Note 會以評估模式運作，處理的頁面數量會受到限制。
 
-在本教學中，我們探討如何使用 Aspose.Note for Java 擷取 OneNote 文件中頁面的修訂版本。透過遵循逐步指南並利用提供的範例程式碼，您可以輕鬆地將此功能整合到 Java 應用程式中，從而實現 OneNote 檔案的高效管理。
+## 常見問答
 
-## 常見問題解答
-
-### Q1：我可以使用Aspose.Note for Java建立新的OneNote文件嗎？
-
-A1：是的，Aspose.Note for Java 為以程式設計方式建立、讀取和操作 OneNote 文件提供了全面的支援。
+### Q1：我可以使用 Aspose.Note for Java 建立新的 OneNote 文件嗎？
+A1：可以，Aspose.Note for Java 完整支援以程式方式建立、讀取與操作 OneNote 文件。
 
 ### Q2：Aspose.Note for Java 是否相容於不同版本的 OneNote 檔案？
+A2：相容，Aspose.Note for Java 支援多種 Microsoft OneNote 檔案版本，確保在不同環境下皆可使用。
 
-A2：是的，Aspose.Note for Java 支援各種版本的 Microsoft OneNote 文件，確保不同環境之間的兼容性。
+### Q3：匯出 OneNote 文件時，我可以自訂輸出格式嗎？
+A3：當然可以，Aspose.Note for Java 提供將 OneNote 文件匯出為 PDF、HTML、影像等多種格式的彈性，且可自行設定匯出選項。
 
-### Q3：匯出 OneNote 文件時可以自訂輸出格式嗎？
+### Q4：Aspose.Note for Java 的商業使用是否需要授權？
+A4：需要，商業使用必須取得有效的授權。您可於 Aspose 官方網站購買授權。
 
-A3：當然，Aspose.Note for Java 可以靈活地將 OneNote 文件匯出為不同的格式，例如 PDF、HTML 和圖像，並提供自訂選項。
+### Q5：如果遇到問題或有疑問，我該向哪裡尋求協助？
+A5：您可前往 Aspose.Note 論壇 **[此處](https://forum.aspose.com/c/note/28)**，在那裡提問、分享經驗，並與其他使用者及專家互動。
 
-### Q4：Aspose.Note for Java 商業使用需要授權嗎？
+---
 
-A4：是的，Aspose.Note for Java 的商業用途需要有效的授權。您可以從 Aspose 網站取得許可證。
+**最後更新：** 2026-01-10  
+**測試環境：** Aspose.Note for Java 23.12（撰寫時的最新版本）  
+**作者：** Aspose  
 
-### Q5：如果我遇到問題或對 Aspose.Note for Java 有疑問，可以在哪裡尋求協助？
-
- A5： 如需支援和協助，您可以造訪 Aspose.Note 論壇[這裡](https://forum.aspose.com/c/note/28)，您可以在其中提出問題、分享經驗以及與其他使用者和專家互動。
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
