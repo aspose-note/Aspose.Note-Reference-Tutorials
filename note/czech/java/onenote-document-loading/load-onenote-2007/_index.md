@@ -1,16 +1,18 @@
 ---
-date: 2025-12-05
-description: Naučte se, jak načíst dokumenty OneNote 2007 v Javě pomocí Aspose.Note.
-  Tento krok‑za‑krokem průvodce vám ukáže **jak načíst onenote** soubory programově
-  a jak zacházet s nepodporovanými formáty.
+date: 2026-02-13
+description: Naučte se, jak načíst dokumenty OneNote 2007 v Javě pomocí Aspose.Note.
+  Tento krok‑za‑krokem průvodce vám ukáže, **jak programově načíst soubory OneNote**,
+  jak **extrahovat stránky z OneNote** a jak zacházet s nepodporovanými formáty.
 linktitle: Load OneNote 2007 Document - Java
 second_title: Aspose.Note Java API
-title: Jak načíst dokument OneNote 2007 – Java
+title: Jak načíst dokument OneNote 2007 – Java
 url: /cs/java/onenote-document-loading/load-onenote-2007/
 weight: 26
 ---
 
-{{< blocks/products/pf/main-wrap-class >}}
+ not to translate URLs.
+
+Now produce final content.{{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
@@ -18,26 +20,30 @@ weight: 26
 
 ## Úvod
 
-V tomto tutoriálu vás provedeme **jak načíst OneNote** dokumenty 2007 v Java aplikaci pomocí knihovny Aspose.Note pro Java. Ať už vytváříte migrační nástroj, automatizační skript nebo vlastní prohlížeč, načtení souboru OneNote je prvním nezbytným krokem. Na konci tohoto průvodce budete mít funkční úryvek kódu, který bezpečně otevře soubor OneNote 2007 a elegantně ošetří případ, kdy formát není podporován.
+V tomto tutoriálu vás provedeme **načtením OneNote** 2007 dokumentů v Java aplikaci pomocí knihovny Aspose.Note pro Java. Ať už vytváříte migrační nástroj, automatizační skript nebo vlastní prohlížeč, načtení souboru OneNote je prvním nezbytným krokem. Na konci tohoto průvodce budete mít funkční úryvek kódu, který bezpečně otevře soubor OneNote 2007 a elegantně ošetří situaci, kdy formát není podporován.
 
 ## Rychlé odpovědi
-- **Jaká knihovna je potřeba?** Aspose.Note for Java.
-- **Která verze Javy je vyžadována?** Java 8 nebo vyšší (JDK 8+).
-- **Mohu načíst soubory OneNote 2007 přímo?** Ano, pomocí třídy `Document`.
-- **Co se stane, pokud formát souboru není podporován?** Vyvolá se `UnsupportedFileFormatException`, kterou můžete zachytit a ošetřit.
+- **Jaká knihovna je potřeba?** Aspose.Note pro Java.  
+- **Jaká verze Javy je požadována?** Java 8 nebo vyšší (JDK 8+).  
+- **Mohu načíst soubory OneNote 2007 přímo?** Ano, pomocí třídy `Document`.  
+- **Co se stane, pokud formát souboru není podporován?** Vyvolá se `UnsupportedFileFormatException`, kterou můžete zachytit a ošetřit.  
 - **Potřebuji licenci pro produkční použití?** Ano, pro ne‑zkušební použití je vyžadována komerční licence.
+
+## Jak načíst dokument OneNote 2007 v Javě
+
+Načtení souboru OneNote 2007 je jednoduché, jakmile je knihovna Aspose.Note přidána do classpath. Následující sekce vás provedou všemi předpoklady, samotným načítacím kódem a tím, jak zacházet s nepodporovanými formáty.
 
 ## Požadavky
 
-Než se ponoříte do kódu, ujistěte se, že máte následující nastavené:
+Před tím, než se pustíte do kódu, ujistěte se, že máte nastaveno následující:
 
 ### Vývojové prostředí Java
 
-Aktuální JDK (8 nebo novější) nainstalované na vašem počítači. Můžete si jej stáhnout z webu Oracle nebo použít distribuci OpenJDK.
+Aktuální JDK (8 nebo novější) nainstalované na vašem počítači. Můžete jej stáhnout z webu Oracle nebo použít distribuci OpenJDK.
 
-### Knihovna Aspose.Note pro Java
+### Aspose.Note pro Java knihovna
 
-Stáhněte nejnovější balíček Aspose.Note pro Java z oficiálního [download link](https://releases.aspose.com/note/java/). Přidejte soubor JAR do classpath vašeho projektu (nebo použijte Maven/Gradle, pokud dáváte přednost).
+Stáhněte si nejnovější balíček Aspose.Note pro Java z oficiálního [download link](https://releases.aspose.com/note/java/). Přidejte JAR soubor do classpath vašeho projektu (nebo použijte Maven/Gradle, pokud dáváte přednost).
 
 ## Import balíčků
 
@@ -49,11 +55,11 @@ import com.aspose.note.FileFormat;
 import com.aspose.note.UnsupportedFileFormatException;
 ```
 
-## Průvodce krok za krokem
+## Postup krok za krokem
 
 ### Krok 1: Definujte adresář dokumentu
 
-Nejprve řekněte programu, kde se nachází váš soubor OneNote 2007. Nahraďte zástupný text skutečnou cestou ve vašem systému.
+Nejprve programu řekněte, kde se nachází váš soubor OneNote 2007. Nahraďte zástupný text skutečnou cestou ve vašem systému.
 
 ```java
 String dataDir = "Your Document Directory";
@@ -61,7 +67,7 @@ String dataDir = "Your Document Directory";
 
 ### Krok 2: Načtěte dokument OneNote 2007
 
-Nyní skutečně načteme soubor. Konstruktor `Document` čte soubor z disku. Volání zabalíme do bloku `try`, abychom mohli zachytit problémy související s formátem.
+Nyní skutečně načteme soubor. Konstruktor `Document` načte soubor z disku. Volání zabalíme do `try` bloku, abychom mohli zachytit problémy související s formátem.
 
 ```java
 // ExStart:LoadOneNote2007
@@ -81,9 +87,9 @@ catch (UnsupportedFileFormatException e)
 // ExEnd:LoadOneNote2007
 ```
 
-### Krok 3: Ošetřete nepodporované formáty souborů
+### Krok 3: Zpracování nepodporovaných formátů souborů
 
-Pokud soubor není podporovaným dokumentem OneNote 2007, knihovna vyvolá `UnsupportedFileFormatException`. Výše uvedený catch blok kontroluje konkrétní formát a vypíše přátelskou zprávu. Můžete nahradit `System.out.println` libovolným logovacím frameworkem, který preferujete.
+Pokud soubor není podporovaným dokumentem OneNote 2007, knihovna vyvolá `UnsupportedFileFormatException`. Výše uvedený catch blok kontroluje konkrétní formát a vypíše přátelskou zprávu. `System.out.println` můžete nahradit libovolným logovacím frameworkem dle potřeby.
 
 ```java
 catch (UnsupportedFileFormatException e)
@@ -97,15 +103,22 @@ catch (UnsupportedFileFormatException e)
 }
 ```
 
+## Jak extrahovat stránky z OneNote
+
+Po úspěšném načtení dokumentu můžete začít pracovat s jeho stránkami. Objekt `Document` poskytuje kolekci `getPages()`, která umožňuje iterovat, číst nebo exportovat jednotlivé stránky. To je typický první krok, když potřebujete **extrahovat stránky z onenote** pro další zpracování, například konverzi do PDF nebo HTML.
+
+> **Pro tip:** Použijte `document.getPages().stream()` pro stručný přístup v Java 8+, pokud potřebujete jen přečíst názvy stránek nebo exportovat obsah.
+
 ## Časté úskalí a tipy
 
-- **Nesprávná cesta** – Ujistěte se, že `dataDir` končí souborovým oddělovačem (`/` nebo `\\`) nebo spojte pomocí `Paths.get(...)`.
-- **Chybějící licence** – V režimu zkušební verze knihovna funguje, ale přidává vodoznak k vygenerovaným výstupům. Pro produkci zaregistrujte licenci.
-- **Kódování souboru** – Soubory OneNote 2007 jsou binární; nesnažte se je číst jako text.
+- **Nesprávná cesta** – Ujistěte se, že `dataDir` končí oddělovačem souborů (`/` nebo `\\`) nebo použijte `Paths.get(...)` pro spojení.  
+- **Chybějící licence** – V režimu zkušební verze knihovna funguje, ale do vygenerovaných výstupů přidává vodoznak. Pro produkční nasazení zaregistrujte licenci.  
+- **Kódování souboru** – Soubory OneNote 2007 jsou binární; nesnažte se je číst jako text.  
+- **Nepodporované verze** – API vyvolá `UnsupportedFileFormatException` pro starší nebo novější formáty OneNote, které nejsou zahrnuty v aktuální verzi knihovny.
 
 ## Závěr
 
-Nyní víte **jak načíst OneNote** dokumenty 2007 v Javě s Aspose.Note a máte vzor pro čisté ošetření nepodporovaných formátů. Odtud můžete zkoumat další akce, jako je extrakce stránek, konverze do PDF nebo programová úprava obsahu.
+Nyní víte **jak načíst OneNote** 2007 dokumenty v Javě pomocí Aspose.Note a máte vzor pro čisté ošetření nepodporovaných formátů. Odtud můžete dále zkoumat akce jako extrakci stránek, konverzi do PDF nebo programatické úpravy obsahu.
 
 ## Často kladené otázky
 
@@ -113,18 +126,20 @@ Nyní víte **jak načíst OneNote** dokumenty 2007 v Javě s Aspose.Note a mát
 A1: Aspose.Note podporuje formáty OneNote 2007, 2010 a 2013, stejně jako novější balíček .onepkg.
 
 **Q2: Mohu programově manipulovat s dokumenty OneNote pomocí Aspose.Note?**  
-A2: Ano, API vám umožní upravovat stránky, přidávat obrázky, extrahovat text a převádět sešity do PDF, HTML nebo formátů obrázků.
+A2: Ano, API umožňuje upravovat stránky, přidávat obrázky, extrahovat text a konvertovat poznámkové bloky do PDF, HTML nebo obrazových formátů.
 
-**Q3: Kde mohu najít další podporu a zdroje pro Aspose.Note?**  
-A3: Můžete prozkoumat [forum Aspose.Note](https://forum.aspose.com/c/note/28) pro pomoc, tutoriály a komunitní diskuse.
+**Q3: Kde najdu další podporu a zdroje pro Aspose.Note?**  
+A3: Pro pomoc, tutoriály a komunitní diskuse můžete navštívit [Aspose.Note forum](https://forum.aspose.com/c/note/28).
 
-**Q4: Je k dispozici bezplatná zkušební verze pro Aspose.Note?**  
+**Q4: Je k dispozici bezplatná zkušební verze Aspose.Note?**  
 A4: Ano, plně funkční bezplatnou zkušební verzi lze stáhnout z [webu](https://releases.aspose.com/).
 
-**Q5: Jak mohu získat dočasnou licenci pro Aspose.Note?**  
-A5: Dočasné licence jsou poskytovány prostřednictvím [stránky dočasné licence](https://purchase.aspose.com/temporary-license/).
+**Q5: Jak získám dočasnou licenci pro Aspose.Note?**  
+A5: Dočasné licence jsou poskytovány prostřednictvím [temporary license page](https://purchase.aspose.com/temporary-license/).
 
-**Poslední aktualizace:** 2025-12-05  
+---
+
+**Poslední aktualizace:** 2026-02-13  
 **Testováno s:** Aspose.Note pro Java 24.12 (nejnovější v době psaní)  
 **Autor:** Aspose  
 

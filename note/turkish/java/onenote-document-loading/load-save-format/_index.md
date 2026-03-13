@@ -1,8 +1,8 @@
 ---
-date: 2025-12-07
-description: OneNote'u PDF olarak kaydetmeyi ve OneNote dosyalarını Java için Aspose.Note
-  ile dönüştürmeyi öğrenin. Bu kılavuz, OneNote PDF'si dışa aktarma, metin çıkarma
-  ve daha fazlasını nasıl yapacağınızı gösterir.
+date: 2026-02-13
+description: Aspose.Note for Java kullanarak OneNote'u PDF olarak kaydetmeyi ve OneNote'u
+  PDF'ye dönüştürmeyi öğrenin. Bu kılavuz, OneNote PDF'sini dışa aktarmayı, metin
+  çıkarmayı ve daha fazlasını gösterir.
 linktitle: How to Save OneNote as PDF with Aspose.Note for Java
 second_title: Aspose.Note Java API
 title: Aspose.Note for Java ile OneNote'u PDF Olarak Kaydetme
@@ -14,23 +14,23 @@ weight: 24
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Aspose.Note for Java ile OneNote'u PDF olarak kaydet
+# Aspose.Note for Java ile OneNote'u PDF olarak kaydedin
 
-Modern Java geliştirmesinde, **OneNote'u PDF olarak kaydetmek** hızlı ve güvenilir bir şekilde yaygın bir gereksinimdir—toplantı notlarını arşivlemeniz, OneNote olmayan kullanıcılarla belge paylaşmanız veya rapor oluşturmayı otomatikleştirmeniz gerektiğinde. Bu öğretici, bir OneNote belgesini yüklemeyi ve Aspose.Note for Java kullanarak PDF'ye dışa aktarmayı adım adım gösterir, böylece sadece birkaç satır kodla **OneNote dosyalarını dönüştürebilirsiniz**.
+Modern Java geliştirmede, **OneNote'u PDF olarak kaydetmek** hızlı ve güvenilir bir şekilde yaygın bir gereksinimdir—toplantı notlarını arşivlemeniz, OneNote olmayan kullanıcılarla belgeleri paylaşmanız veya rapor oluşturmayı otomatikleştirmeniz gerektiğinde. Bu rehberde Aspose.Note for Java kullanarak **onenote'u pdf olarak kaydetmeyi** öğrenecek ve sadece birkaç satır kodla **onenote'u pdf'e dönüştürebileceksiniz**.
 
 ## Hızlı Yanıtlar
-- **Aspose.Note ne yapar?** Microsoft OneNote gerektirmeden OneNote dosyalarını okuma, düzenleme ve dışa aktarma için saf‑Java API'si sağlar.  
+- **Aspose.Note ne yapar?** Microsoft OneNote gerektirmeden OneNote dosyalarını okuma, düzenleme ve dışa aktarma için saf Java API'si sağlar.  
 - **PDF'ye doğrudan dışa aktarabilir miyim?** Evet—`SaveFormat.Pdf` kullanarak **OneNote'u PDF olarak kaydedebilirsiniz** tek adımda.  
-- **Üretim için lisansa ihtiyacım var mı?** Üretim kullanımında ticari bir lisans gereklidir; değerlendirme için ücretsiz deneme sürümü mevcuttur.  
-- **Hangi Java sürümleri destekleniyor?** Java 8 ve üzeri tam olarak desteklenir.  
-- **Metin çıkarma mümkün mü?** Kesinlikle—aynı API'yi kullanarak **OneNote'tan metin çıkarabilirsiniz**.
+- **Üretim için lisansa ihtiyacım var mı?** Üretim kullanımında ticari bir lisans gereklidir; değerlendirme için ücretsiz deneme mevcuttur.  
+- **Hangi Java sürümleri destekleniyor?** Java 8 ve üzeri tam olarak desteklenir.  
+- **Metin çıkarımı mümkün mü?** Kesinlikle—aynı API'yi kullanarak **OneNote'tan metin çıkarabilirsiniz**.
 
 ## “save onenote as pdf” nedir?
-OneNote'u PDF olarak kaydetmek, özel `.one` dosya formatını yaygın kabul gören, yalnızca okunabilir bir PDF belgesine dönüştürmek anlamına gelir. Bu dönüşüm, düzeni, görselleri ve biçimlendirmeyi korurken içeriğin herhangi bir cihazda erişilebilir olmasını sağlar.
+OneNote'u PDF olarak kaydetmek, özel `.one` dosya formatını yaygın olarak kabul edilen, yalnızca okunabilir bir PDF belgesine dönüştürmek anlamına gelir. Bu dönüşüm, düzeni, görselleri ve biçimlendirmeyi korurken içeriği herhangi bir cihazda erişilebilir kılar.
 
-## Neden OneNote'u PDF'ye dönüştürmek (veya OneNote PDF dışa aktarmak)?
+## Neden OneNote'u PDF'ye dönüştürmek (veya OneNote PDF'si dışa aktarmak)?
 - **Evrensel erişim:** PDF'ler, OneNote gerektirmeden neredeyse her platformda açılabilir.  
-- **Arşiv istikrarı:** PDF'ler uzun vadeli depolama ve uyumluluk için idealdir.  
+- **Arşivleme istikrarı:** PDF'ler uzun vadeli depolama ve uyumluluk için idealdir.  
 - **Basitleştirilmiş paylaşım:** Paydaşlar tek bir, düzenlenemez dosya alır.  
 - **Otomasyon:** Dönüşümü toplu işler veya web hizmetlerine entegre edin.
 
@@ -39,7 +39,7 @@ OneNote'u PDF olarak kaydetmek, özel `.one` dosya formatını yaygın kabul gö
 - **Aspose.Note for Java** kütüphanesi – resmi [Aspose.Note indirme sayfasından](https://releases.aspose.com/note/java/) indirin.  
 - Dönüştürmek istediğiniz mevcut bir OneNote dosyası (`.one`).
 
-## Paketleri İçe Aktarma
+## Paketleri İçe Aktarın
 İlk olarak, OneNote belgelerini yüklemek ve kaydetmek için gerekli sınıfları içe aktarın.
 
 ```java
@@ -61,7 +61,7 @@ Document oneFile = new Document(dataDir + "Sample1.one");
 ```
 
 ### Adım 2: Belgeyi İstenen Formatta Kaydedin
-Şimdi yüklü belgeyi PDF olarak dışa aktarın. Bu tek satır **OneNote'u PDF olarak kaydeder** ve **OneNote PDF dışa aktarmayı** gösterir.
+Şimdi yüklenen belgeyi PDF olarak dışa aktarın. Bu tek satır **OneNote'u PDF olarak kaydeder** ve **OneNote PDF'si dışa aktarmayı** gösterir.
 
 ```java
 // Save the document as PDF
@@ -69,34 +69,53 @@ oneFile.save(dataDir + "LoadDocIntoAsposeNoteUsingSaveformat_out.pdf", SaveForma
 // ExEnd:SaveDocToOneNoteFormatUsingSaveFormat
 ```
 
+## Java ile onenote'u pdf'e nasıl dönüştürülür
+Dönüşüm süreci temelde iki adımlı bir iş akışıdır: `.one` dosyasını yükleyin ve `save()` metodunu `SaveFormat.Pdf` ile çağırın. API tüm renderlamayı dahili olarak yönettiği için ek kütüphanelere veya Office kurulumlarına ihtiyacınız yoktur. Bu, **java convert onenote files** ifadesini sunucu‑tarafı otomasyon için hafif bir çözüm haline getirir.
+
+## Aspose.Note kullanarak onenote'dan metin nasıl çıkarılır
+Aranabilir içerik ihtiyacınız varsa veya notları bir arama motoruna beslemek istiyorsanız, düz metni doğrudan alabilirsiniz:
+
+- `oneFile.getText()` metodunu belgeyi yükledikten sonra çağırın.  
+- Metod, sayfalardan, tablolardan ve ana hatlardan tüm görünen metni içeren bir `String` döndürür.  
+- Ardından bu dizeyi bir `.txt` dosyasına yazabilir veya favori arama platformunuzla indeksleyebilirsiniz.
+
+> **Pro ipucu:** Hem insan tarafından okunabilir bir belge hem de makine tarafından okunabilir veri gerektiğinde metin çıkarımını PDF dönüşümüyle birleştirin.
+
+## Java onenote dosyalarını dönüştürme – en iyi uygulamalar
+1. **Girdi yollarını doğrulayın** – `new Document()` çağırmadan önce kaynak `.one` dosyasının mevcut olduğundan her zaman emin olun.  
+2. **Büyük not defterleri için belleği yönetin** – JVM yığınını (`-Xmx2g`) artırın veya `Document.getSections()` kullanarak not defterini bölümler halinde işleyin.  
+3. **Lisansı erken uygulayın** – değerlendirme filigranlarından kaçınmak için `Document` nesnesini oluşturduktan hemen sonra `.lic` dosyanızı yükleyin.  
+4. **Şifreli not defterlerini yönetin** – şifre korumalı dosyaları açmak için aşırı yüklenmiş `Document(String path, String password)` yapıcısını kullanın.
+
 ## Yaygın Sorunlar ve Çözümler
+
 | Sorun | Çözüm |
 |-------|----------|
-| **Dosya bulunamadı** | `dataDir`'in doğru klasöre işaret ettiğini ve dosya adının büyük/küçük harf duyarlılığıyla tam eşleştiğini doğrulayın. |
-| **PDF boş görünüyor** | OneNote dosyasının görünür içerik içerdiğinden emin olun; bazı gizli sayfalar render edilmeyebilir. |
-| **LicenseException** | Değerlendirme filigranlarından kaçınmak için `save()` çağırmadan önce geçerli bir Aspose.Note lisansı uygulayın. |
-| **Büyük dosyalar OutOfMemoryError hatası verir** | Belgeyi bölümler halinde işleyin veya JVM yığın boyutunu artırın (`-Xmx2g`). |
+| **Dosya bulunamadı** | `dataDir`'in doğru klasöre işaret ettiğini ve dosya adının büyük/küçük harf duyarlılığıyla tam olarak eşleştiğini doğrulayın. |
+| **PDF boş görünüyor** | OneNote dosyasının görünür içerik içerdiğinden emin olun; bazı gizli sayfalar renderlanmayabilir. |
+| **LicenseException** | `save()` çağırmadan önce geçerli bir Aspose.Note lisansı uygulayarak değerlendirme filigranlarından kaçının. |
+| **Büyük dosyalar OutOfMemoryError hatasına neden olur** | Belgeyi bölümler halinde işleyin veya JVM yığın boyutunu (`-Xmx2g`) artırın. |
 
 ## Sıkça Sorulan Sorular
 
-**S: OneNote dosyalarını PDF dışında başka formatlara dönüştürebilir miyim?**  
-C: Evet, Aspose.Note `SaveFormat` enum'ı aracılığıyla DOCX, XPS, HTML ve daha fazlasını destekler.
+**Q:** OneNote dosyalarını PDF dışındaki diğer formatlara dönüştürebilir miyim?  
+**A:** Evet, Aspose.Note `SaveFormat` enumarasyonu aracılığıyla DOCX, XPS, HTML ve daha fazlasını destekler.
 
-**S: OneNote belgesinden metni nasıl çıkarırım?**  
-C: Düz metni elde etmek için `Document.getText()` metodunu kullanın, bu sayede **onenote'tan metin çıkarabilirsiniz** arama indekslemesi veya analiz için.
+**Q:** OneNote belgesinden metni nasıl çıkarırım?  
+**A:** Düz metni almak için `Document.getText()` metodunu kullanın; bu, **extract text onenote** ifadesini arama indekslemesi veya analiz için kullanmanıza olanak tanır.
 
-**S: Şifreli OneNote dosyalarını dönüştürmek mümkün mü?**  
-C: Kesinlikle—`Document` nesnesini oluştururken şifreyi sağlayarak dosyayı çözebilirsiniz.
+**Q:** Şifreli OneNote dosyalarını dönüştürmek mümkün mü?  
+**A:** Kesinlikle—dosyayı şifrelemek için `Document` nesnesini oluştururken şifreyi sağlayın.
 
-**S: Aspose.Note Linux/macOS'ta çalışır mı?**  
-C: Kütüphane platform bağımsızdır; uyumlu bir JVM bulunduğu her yerde çalışır.
+**Q:** Aspose.Note Linux/macOS'ta çalışır mı?  
+**A:** Kütüphane platformdan bağımsızdır; uyumlu bir JVM bulunduğu her yerde çalışır.
 
-**S: Topluluk desteğini nereden alabilirim?**  
-C: İpuçları ve sorun giderme için [Aspose.Note topluluk sayfasındaki](https://forum.aspose.com/c/note/28) Aspose forumlarına katılın.
+**Q:** Topluluk desteğini nereden alabilirim?  
+**A:** İpuçları ve sorun giderme için [Aspose.Note topluluk sayfasındaki](https://forum.aspose.com/c/note/28) Aspose forumlarına katılın.
 
 ---
 
-**Son Güncelleme:** 2025-12-07  
+**Son Güncelleme:** 2026-02-13  
 **Test Edilen Versiyon:** Aspose.Note for Java 24.11  
 **Yazar:** Aspose  
 
