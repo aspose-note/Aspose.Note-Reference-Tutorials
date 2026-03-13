@@ -10,8 +10,8 @@ url: /el/java/onenote-document-saving/specify-save-options/
 weight: 24
 ---
 
-{{< blocks/products/products-backtop-button >}}
 {{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Αποθήκευση συγκεκριμένων σελίδων PDF στο OneNote – Aspose.Note
@@ -146,9 +146,10 @@ A5: Ναι, μια εμπορική άδεια σας επιτρέπει να χ
 **Δοκιμασμένο με: ** Aspose.Note για Java 24.12 (πιο πρόσφατο)
 **Συγγραφέας:** Aspose  
 
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}
 
-{{< blocks/products/pf/main-container >}}
+{{< blocks/products/products-backtop-button >}}
