@@ -3,7 +3,7 @@ title: How to Export Fonts When Saving OneNote as HTML – Java
 linktitle: How to Export Fonts When Saving OneNote as HTML – Java
 second_title: Aspose.Note Java API
 description: Learn how to export fonts while you save OneNote as HTML using Aspose.Note for Java. This guide shows you how to create OneNote programmatically and embed fonts, CSS, and images.
-date: 2025-12-02
+date: 2026-02-07
 weight: 18
 url: /java/onenote-document-loading/create-onenote-save-to-html/
 ---
@@ -16,7 +16,7 @@ url: /java/onenote-document-loading/create-onenote-save-to-html/
 
 ## Introduction
 
-In this tutorial you’ll discover **how to export fonts** when you **save OneNote as HTML** using Aspose.Note for Java. We'll walk through creating a OneNote document programmatically, configuring the HTML save options, and embedding the required font files so the resulting HTML looks exactly like the original OneNote pages. This approach is perfect when you need to preserve the visual fidelity of OneNote content in web‑friendly format.
+In this tutorial you’ll discover **how to export fonts** when you **save OneNote as HTML** using Aspose.Note for Java. We'll walk through creating a OneNote document programmatically, configuring the HTML save options, and embedding the required font files so the resulting HTML looks exactly like the original OneNote pages. This approach is perfect when you need to preserve the visual fidelity of OneNote content in a web‑friendly format.
 
 ## Quick Answers
 - **What library handles the export?** Aspose.Note for Java  
@@ -137,6 +137,18 @@ document.save(Paths.get(savingCallbacks.getRootFolder(), "document.html").toStri
 
 The `UserSavingCallbacks` class (you’ll need to implement `ICssSavingCallback`, `IImageSavingCallback`, and `IFontSavingCallback`) gives you full control over folder structure, allowing you to keep fonts in a dedicated `fonts` directory while still **exporting fonts** correctly.
 
+## How to embed custom fonts when converting OneNote to HTML
+
+Embedding custom fonts guarantees that the HTML rendering matches the original OneNote layout, even on devices that don’t have those fonts installed. By using `ExportEmbedded` together with `FontFaceType.Ttf`, the TrueType files are base‑64 encoded and inserted directly into the generated CSS, eliminating the need for external font hosting.
+
+## Using ResourceExportType to control resource export
+
+`ResourceExportType` lets you decide whether CSS, images, and fonts are stored **inside** the HTML file (`ExportEmbedded`) or saved as **external** files (`ExportExternal`). Choose `ExportEmbedded` for a single‑file solution, or `ExportExternal` when you want to leverage browser caching for large assets.
+
+## Creating OneNote programmatically for HTML export
+
+If you start from scratch, you can build a OneNote document entirely in code, add sections, pages, and rich text, and then apply the same `HtmlSaveOptions` shown above. This gives you end‑to‑end automation: from data generation to a fully styled HTML output with embedded custom fonts.
+
 ## Common Issues & Tips
 
 - **Missing fonts in the output:** Verify that `setExportFonts(ResourceExportType.ExportEmbedded)` is set and that the source OneNote file actually uses embedded fonts.  
@@ -166,7 +178,7 @@ You now know **how to export fonts** while you **save OneNote as HTML** using As
 
 ---
 
-**Last Updated:** 2025-12-02  
+**Last Updated:** 2026-02-07  
 **Tested With:** Aspose.Note for Java 24.12  
 **Author:** Aspose  
 

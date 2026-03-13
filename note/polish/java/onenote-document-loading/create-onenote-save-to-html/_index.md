@@ -1,5 +1,5 @@
 ---
-date: 2025-12-02
+date: 2026-02-07
 description: Dowiedz się, jak eksportować czcionki podczas zapisywania OneNote jako
   HTML przy użyciu Aspose.Note dla Javy. Ten przewodnik pokazuje, jak programowo tworzyć
   OneNote i osadzać czcionki, CSS oraz obrazy.
@@ -16,35 +16,34 @@ weight: 18
 
 # Jak eksportować czcionki przy zapisywaniu OneNote jako HTML – Java
 
-## Introduction
+## Wprowadzenie
 
-W tym samouczku dowiesz się, **jak eksportować czcionki** podczas **zapisywania OneNote jako HTML** przy użyciu Aspose.Note for Java. Przejdziemy przez tworzenie dokumentu OneNote programowo, konfigurowanie opcji zapisu HTML oraz osadzanie wymaganych plików czcionek, aby wynikowy HTML wyglądał dokładnie tak jak oryginalne strony OneNote. To podejście jest idealne, gdy potrzebujesz zachować wizualną wierność treści OneNote w formacie przyjaznym dla sieci.
+W tym samouczku odkryjesz **jak eksportować czcionki**, gdy **zapisujesz OneNote jako HTML** przy użyciu Aspose.Note for Java. Przeprowadzimy Cię przez tworzenie dokumentu OneNote programowo, konfigurowanie opcji zapisu HTML oraz osadzanie wymaganych plików czcionek, tak aby wygenerowany HTML wyglądał dokładnie tak jak oryginalne strony OneNote. To podejście jest idealne, gdy potrzebujesz zachować wizualną wierność treści OneNote w formacie przyjaznym dla sieci.
 
-## Quick Answers
-- **Jaką bibliotekę obsługuje eksport?** Aspose.Note for Java  
-- **Czy czcionki mogą być osadzone w HTML?** Tak – ustaw `ExportFonts` na `ExportEmbedded`  
-- **Czy potrzebna jest licencja do produkcji?** Wymagana jest ważna licencja Aspose.Note do użytku komercyjnego  
-- **Jaką wersję Javy obsługuje?** Java 8 lub wyższa  
-- **Czy można zapisywać zasoby do osobnych plików?** Oczywiście – skonfiguruj `ResourceExportType` odpowiednio  
+## Szybkie odpowiedzi
+- **Jaka biblioteka obsługuje eksport?** Aspose.Note for Java  
+- **Czy czcionki mogą być osadzone w HTML?** Yes – set `ExportFonts` to `ExportEmbedded`  
+- **Czy potrzebna jest licencja do produkcji?** A valid Aspose.Note license is required for commercial use  
+- **Która wersja Java jest wspierana?** Java 8 or higher  
+- **Czy można zapisywać zasoby do osobnych plików?** Absolutely – configure `ResourceExportType` accordingly  
 
-## What is “how to export fonts” in the context of OneNote HTML conversion?
+## Co oznacza „jak eksportować czcionki” w kontekście konwersji OneNote do HTML?
 
-Co oznacza „jak eksportować czcionki” w kontekście konwersji OneNote do HTML?  
-Podczas konwersji notesu OneNote do HTML wygląd wizualny zależy od CSS, obrazów i szczególnie od czcionek użytych na oryginalnych stronach. **Eksportowanie czcionek** oznacza osadzenie plików czcionek (np. TTF) bezpośrednio w pakiecie HTML, aby przeglądarki mogły renderować tekst dokładnie tak, jak w OneNote, nawet jeśli użytkownik końcowy nie ma tych czcionek zainstalowanych lokalnie.
+Podczas konwersji notatnika OneNote do HTML, wygląd wizualny zależy od CSS, obrazów i szczególnie od czcionek użytych na oryginalnych stronach. **Eksportowanie czcionek** oznacza osadzanie plików czcionek (np. TTF) bezpośrednio w pakiecie HTML, tak aby przeglądarki mogły renderować tekst dokładnie tak, jak wygląda w OneNote, nawet jeśli użytkownik końcowy nie ma tych czcionek zainstalowanych lokalnie.
 
-## Why create OneNote programmatically and save it as HTML?
+## Dlaczego tworzyć OneNote programowo i zapisywać go jako HTML?
 
-- **Automatyzacja:** Generowanie raportów, dokumentacji lub artykułów bazy wiedzy z OneNote bez ręcznego kopiowania‑wklejania.  
-- **Spójność:** Zachowanie układu, stylizacji i niestandardowych czcionek na różnych urządzeniach.  
+- **Automatyzacja:** Generuj raporty, dokumentację lub artykuły bazy wiedzy z OneNote bez ręcznego kopiowania i wklejania.  
+- **Spójność:** Zachowaj układ, stylizację i niestandardowe czcionki na różnych urządzeniach.  
 - **Przenośność:** HTML jest uniwersalnie wyświetlany — nie wymaga klienta OneNote.  
 
-## Prerequisites
+## Wymagania wstępne
 
 1. Java Development Kit (JDK) 8 lub nowszy zainstalowany.  
-2. Aspose.Note for Java library – download from [here](https://releases.aspose.com/note/java/).  
+2. Biblioteka Aspose.Note for Java – pobierz z [tutaj](https://releases.aspose.com/note/java/).  
 3. Przykładowy plik OneNote (`.one`) do załadowania, lub możesz utworzyć nowy programowo.  
 
-## Import Packages
+## Importowanie pakietów
 
 First, import the required classes into your Java project:
 
@@ -68,19 +67,19 @@ import com.aspose.note.ImageSavingArgs;
 import com.aspose.note.ResourceExportType;
 ```
 
-## How to Export Fonts While Saving OneNote as HTML?
+## Jak eksportować czcionki podczas zapisywania OneNote jako HTML?
 
-Poniżej znajduje się przewodnik krok po kroku, który pokazuje, **jak eksportować czcionki** oraz inne zasoby.
+Poniżej znajduje się przewodnik krok po kroku, który pokazuje **jak eksportować czcionki** oraz inne zasoby.
 
-### Step 1: Create a OneNote document programmatically  
+### Krok 1: Utwórz dokument OneNote programowo  
 
 ```java
 Document document = new Document("Path_to_your_sample_one_file");
 ```
 
-Ten wiersz ładuje istniejący plik `.one`. Jeśli potrzebujesz **utworzyć OneNote programowo**, możesz zainicjować nowy obiekt `Document` i dodać sekcje/strony za pomocą API (nie pokazano tutaj, aby skupić się na eksportowaniu czcionek).
+Ten wiersz ładuje istniejący plik `.one`. Jeśli potrzebujesz **utworzyć OneNote programowo**, możesz zainicjować nowy obiekt `Document` i dodać sekcje/strony za pomocą API (nie pokazano tutaj, aby skupić się na eksporcie czcionek).
 
-### Step 2: Save to a memory stream with embedded fonts  
+### Krok 2: Zapisz do strumienia pamięci z osadzonymi czcionkami  
 
 ```java
 HtmlSaveOptions options = new HtmlSaveOptions();
@@ -96,7 +95,7 @@ document.save(outputStream, options);
 - `setExportFonts(ResourceExportType.ExportEmbedded)` informuje Aspose.Note, aby **eksportował czcionki** bezpośrednio do pakietu HTML.  
 - `setFontFaceTypes(FontFaceType.Ttf)` zapewnia użycie czcionek TrueType, które mają szerokie wsparcie w przeglądarkach.
 
-### Step 3: Save as HTML with separate resource files (still exporting fonts)  
+### Krok 3: Zapisz jako HTML z oddzielnymi plikami zasobów (wciąż eksportując czcionki)  
 
 ```java
 HtmlSaveOptions options = new HtmlSaveOptions();
@@ -107,9 +106,9 @@ options.setExportImages(ResourceExportType.ExportEmbedded);
 document.save("output_directory/document.html", options);
 ```
 
-Mimo że CSS i obrazy są osadzone, możesz zmienić `ResourceExportType` na `ExportExternal`, jeśli wolisz osobne pliki dla łatwiejszego buforowania. Kluczowa część — **eksportowanie czcionek** — pozostaje niezmieniona.
+Mimo że CSS i obrazy są osadzone, możesz zmienić `ResourceExportType` na `ExportExternal`, jeśli wolisz oddzielne pliki dla łatwiejszego buforowania. Kluczowa część — **eksportowanie czcionek** — pozostaje niezmieniona.
 
-### Step 4: Use callbacks to control where each resource is stored  
+### Krok 4: Użyj callbacków, aby kontrolować, gdzie każdy zasób jest przechowywany  
 
 ```java
 Document document = new Document("Path_to_your_sample_one_file");
@@ -140,38 +139,48 @@ document.save(Paths.get(savingCallbacks.getRootFolder(), "document.html").toStri
 
 Klasa `UserSavingCallbacks` (musisz zaimplementować `ICssSavingCallback`, `IImageSavingCallback` oraz `IFontSavingCallback`) daje pełną kontrolę nad strukturą folderów, umożliwiając przechowywanie czcionek w dedykowanym katalogu `fonts`, jednocześnie **eksportując czcionki** prawidłowo.
 
-## Common Issues & Tips
+## Jak osadzić niestandardowe czcionki przy konwersji OneNote do HTML
 
-- **Brak czcionek w wyniku:** Sprawdź, czy ustawiono `setExportFonts(ResourceExportType.ExportEmbedded)` oraz czy źródłowy plik OneNote rzeczywiście używa osadzonych czcionek.  
-- **Duże pliki HTML:** Osadzanie czcionek może zwiększyć rozmiar. Jeśli przepustowość jest problemem, przełącz `ExportFonts` na `ExportExternal` i hostuj czcionki na CDN.  
-- **Błędy implementacji callbacków:** Upewnij się, że klasy callback poprawnie zapisują strumień i zamykają zasoby, aby uniknąć uszkodzenia pliku.  
+Osadzanie niestandardowych czcionek zapewnia, że renderowanie HTML odpowiada oryginalnemu układowi OneNote, nawet na urządzeniach, które nie mają tych czcionek zainstalowanych. Korzystając z `ExportEmbedded` razem z `FontFaceType.Ttf`, pliki TrueType są kodowane base‑64 i wstawiane bezpośrednio do generowanego CSS, eliminując potrzebę zewnętrznego hostingu czcionek.
 
-## Frequently Asked Questions
+## Używanie ResourceExportType do kontrolowania eksportu zasobów
 
-**Q:** Czy mogę konwertować wiele dokumentów OneNote do HTML jednocześnie?  
+`ResourceExportType` pozwala zdecydować, czy CSS, obrazy i czcionki są przechowywane **wewnątrz** pliku HTML (`ExportEmbedded`) czy zapisywane jako **zewnętrzne** pliki (`ExportExternal`). Wybierz `ExportEmbedded` dla rozwiązania jednoplikowego, lub `ExportExternal`, gdy chcesz wykorzystać buforowanie przeglądarki dla dużych zasobów.
+
+## Tworzenie OneNote programowo dla eksportu do HTML
+
+Jeśli zaczynasz od zera, możesz zbudować dokument OneNote w całości w kodzie, dodać sekcje, strony i tekst sformatowany, a następnie zastosować te same `HtmlSaveOptions` przedstawione powyżej. Daje to pełną automatyzację od generowania danych po w pełni stylowany wynik HTML z osadzonymi niestandardowymi czcionkami.
+
+## Typowe problemy i wskazówki
+
+- **Brak czcionek w wyjściu:** Verify that `setExportFonts(ResourceExportType.ExportEmbedded)` is set and that the source OneNote file actually uses embedded fonts.  
+- **Duże pliki HTML:** Embedding fonts can increase size. If bandwidth is a concern, switch `ExportFonts` to `ExportExternal` and host the fonts on a CDN.  
+- **Błędy implementacji callbacków:** Ensure your callback classes correctly write the stream and close resources to avoid file corruption.  
+
+## Najczęściej zadawane pytania
+
+**Q:** Czy mogę konwertować wiele dokumentów OneNote do HTML jednorazowo?  
 **A:** Tak, przeiteruj każdą instancję `Document` i zastosuj te same `HtmlSaveOptions`.  
 
-**Q:** Czy Aspose.Note for Java obsługuje inne formaty wyjściowe poza HTML?  
-**A:** Oczywiście. Możesz eksportować do PDF, DOCX, PNG, JPEG i innych, używając odpowiednich opcji zapisu.  
+**Q:** Czy Aspose.Note for Java obsługuje inne formaty wyjściowe oprócz HTML?  
+**A:** Zdecydowanie tak. Możesz eksportować do PDF, DOCX, PNG, JPEG i innych, używając odpowiednich opcji zapisu.  
 
 **Q:** Czy dostępna jest wersja próbna Aspose.Note for Java?  
-**A:** Tak, pobierz darmową wersję próbną z [here](https://releases.aspose.com/).  
+**A:** Tak, pobierz darmową wersję próbną z [tutaj](https://releases.aspose.com/).  
 
 **Q:** Gdzie mogę uzyskać wsparcie dla Aspose.Note for Java?  
-**A:** Odwiedź [Aspose.Note forum](https://forum.aspose.com/c/note/28) w celu uzyskania pomocy społeczności i oficjalnej.  
+**A:** Odwiedź [forum Aspose.Note](https://forum.aspose.com/c/note/28) dla pomocy społeczności i oficjalnej.  
 
-**Q:** Jak mogę zakupić licencję na Aspose.Note for Java?  
-**A:** Licencje są dostępne na [Aspose website](https://purchase.aspose.com/buy).  
+**Q:** Jak mogę kupić licencję na Aspose.Note for Java?  
+**A:** Licencje są dostępne na [stronie Aspose](https://purchase.aspose.com/buy).  
 
-## Conclusion
+## Podsumowanie
 
-Teraz wiesz, **jak eksportować czcionki**, gdy **zapisujesz OneNote jako HTML** przy użyciu Aspose.Note for Java. Konfigurując `HtmlSaveOptions` i opcjonalnie używając callbacków, możesz zachować dokładny wygląd swoich stron OneNote — w tym niestandardowe czcionki — przy publikacji w sieci. Śmiało eksperymentuj z różnymi ustawieniami `ResourceExportType`, aby dopasować je do wymagań wydajności i przechowywania Twojego projektu.
+Teraz wiesz **jak eksportować czcionki**, gdy **zapisujesz OneNote jako HTML** przy użyciu Aspose.Note for Java. Konfigurując `HtmlSaveOptions` i opcjonalnie używając callbacków, możesz zachować dokładny wygląd swoich stron OneNote — w tym niestandardowe czcionki — przy udostępnianiu ich w sieci. Śmiało eksperymentuj z różnymi ustawieniami `ResourceExportType`, aby dopasować je do wymagań wydajności i przechowywania Twojego projektu.
 
----
-
-**Last Updated:** 2025-12-02  
-**Tested With:** Aspose.Note for Java 24.12  
-**Author:** Aspose  
+**Ostatnia aktualizacja:** 2026-02-07  
+**Testowano z:** Aspose.Note for Java 24.12  
+**Autor:** Aspose  
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

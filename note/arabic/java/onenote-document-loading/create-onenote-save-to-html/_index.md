@@ -1,7 +1,7 @@
 ---
-date: 2025-12-02
+date: 2026-02-07
 description: تعلم كيفية تصدير الخطوط أثناء حفظ OneNote كملف HTML باستخدام Aspose.Note
-  للغة Java. يوضح لك هذا الدليل كيفية إنشاء OneNote برمجيًا وتضمين الخطوط وCSS والصور.
+  للغة Java. يوضح لك هذا الدليل كيفية إنشاء OneNote برمجيًا وإدراج الخطوط وCSS والصور.
 linktitle: How to Export Fonts When Saving OneNote as HTML – Java
 second_title: Aspose.Note Java API
 title: كيفية تصدير الخطوط عند حفظ OneNote كملف HTML – Java
@@ -15,36 +15,36 @@ weight: 18
 
 # كيفية تصدير الخطوط عند حفظ OneNote كملف HTML – Java
 
-## مقدمة
+## المقدمة
 
-في هذا الدرس ستكتشف **كيفية تصدير الخطوط** عندما **تحفظ OneNote كملف HTML** باستخدام Aspose.Note for Java. سنستعرض إنشاء مستند OneNote برمجياً، تكوين خيارات حفظ HTML، وتضمين ملفات الخطوط المطلوبة بحيث يبدو ملف HTML الناتج مطابقاً تماماً للصفحات الأصلية في OneNote. هذا النهج مثالي عندما تحتاج إلى الحفاظ على الدقة البصرية لمحتوى OneNote في صيغة صديقة للويب.
+في هذا الدرس ستكتشف **كيفية تصدير الخطوط** عندما **تحفظ OneNote كملف HTML** باستخدام Aspose.Note for Java. سنستعرض إنشاء مستند OneNote برمجياً، وتكوين خيارات حفظ HTML، وتضمين ملفات الخطوط المطلوبة بحيث يبدو ملف HTML الناتج مطابقاً تماماً للصفحات الأصلية في OneNote. هذا النهج مثالي عندما تحتاج إلى الحفاظ على الدقة البصرية لمحتوى OneNote في تنسيق صديق للويب.
 
 ## إجابات سريعة
 - **ما المكتبة التي تتعامل مع التصدير؟** Aspose.Note for Java  
-- **هل يمكن تضمين الخطوط في ملف HTML؟** نعم – اضبط `ExportFonts` إلى `ExportEmbedded`  
-- **هل أحتاج إلى ترخيص للاستخدام في الإنتاج؟** يلزم وجود ترخيص Aspose.Note صالح للاستخدام التجاري  
-- **ما نسخة Java المدعومة؟** Java 8 أو أعلى  
-- **هل من الممكن حفظ الموارد في ملفات منفصلة؟** بالتأكيد – اضبط `ResourceExportType` وفقاً لذلك  
+- **هل يمكن تضمين الخطوط في ملف HTML؟** Yes – set `ExportFonts` to `ExportEmbedded`  
+- **هل أحتاج إلى ترخيص للإنتاج؟** A valid Aspose.Note license is required for commercial use  
+- **ما نسخة Java المدعومة؟** Java 8 or higher  
+- **هل من الممكن حفظ الموارد في ملفات منفصلة؟** Absolutely – configure `ResourceExportType` accordingly  
 
-## ما هو “كيفية تصدير الخطوط” في سياق تحويل OneNote إلى HTML؟
+## ما معنى “كيفية تصدير الخطوط” في سياق تحويل OneNote إلى HTML؟
 
-عند تحويل دفتر ملاحظات OneNote إلى HTML، يعتمد المظهر البصري على CSS، الصور، وخاصة الخطوط المستخدمة في الصفحات الأصلية. **تصدير الخطوط** يعني تضمين ملفات الخط (مثل TTF) مباشرةً في حزمة HTML حتى يتمكن المتصفح من عرض النص كما هو في OneNote، حتى إذا لم يكن لدى المستخدم النهائي تلك الخطوط مثبتة محلياً.
+عند تحويل دفتر ملاحظات OneNote إلى HTML، يعتمد المظهر البصري على CSS، الصور، وخاصة الخطوط المستخدمة في الصفحات الأصلية. **تصدير الخطوط** يعني تضمين ملفات الخط (مثل TTF) مباشرةً في حزمة HTML حتى يتمكن المتصفح من عرض النص بنفس الشكل الذي يظهر في OneNote، حتى إذا لم يكن لدى المستخدم النهائي تلك الخطوط مثبتة محليًا.
 
 ## لماذا إنشاء OneNote برمجياً وحفظه كملف HTML؟
 
-- **الأتمتة:** إنشاء تقارير، وثائق، أو مقالات قاعدة معرفة من OneNote دون الحاجة إلى النسخ واللصق اليدوي.  
-- **الاتساق:** الحفاظ على التخطيط، الأنماط، والخطوط المخصصة عبر الأجهزة.  
-- **القابلية للنقل:** HTML يمكن عرضه على أي جهاز—لا حاجة إلى عميل OneNote.  
+- **الأتمتة:** توليد تقارير، وثائق، أو مقالات قاعدة معرفة من OneNote دون النسخ واللصق اليدوي.  
+- **الاتساق:** الحفاظ على التخطيط، التنسيق، والخطوط المخصصة عبر الأجهزة.  
+- **القابلية للنقل:** HTML يمكن عرضه عالمياً—لا حاجة لعميل OneNote.  
 
 ## المتطلبات المسبقة
 
-1. مجموعة تطوير جافا (JDK) 8 أو أحدث مثبتة.  
-2. مكتبة Aspose.Note for Java – حمّلها من [هنا](https://releases.aspose.com/note/java/).  
+1. Java Development Kit (JDK) 8 أو أحدث مثبت.  
+2. مكتبة Aspose.Note for Java – قم بتنزيلها من [هنا](https://releases.aspose.com/note/java/).  
 3. ملف OneNote تجريبي (`.one`) للتحميل، أو يمكنك إنشاء ملف جديد برمجياً.  
 
 ## استيراد الحزم
 
-أولاً، استورد الفئات المطلوبة في مشروع Java الخاص بك:
+First, import the required classes into your Java project:
 
 ```java
 import java.io.ByteArrayOutputStream;
@@ -68,7 +68,7 @@ import com.aspose.note.ResourceExportType;
 
 ## كيفية تصدير الخطوط أثناء حفظ OneNote كملف HTML؟
 
-فيما يلي دليل خطوة بخطوة يوضح لك **كيفية تصدير الخطوط** وغيرها من الموارد.
+Below is a step‑by‑step guide that shows you **how to export fonts** and other resources.
 
 ### الخطوة 1: إنشاء مستند OneNote برمجياً  
 
@@ -76,9 +76,9 @@ import com.aspose.note.ResourceExportType;
 Document document = new Document("Path_to_your_sample_one_file");
 ```
 
-هذا السطر يحمل ملف `.one` موجود. إذا كنت بحاجة إلى **إنشاء OneNote برمجياً**، يمكنك إنشاء كائن `Document` جديد وإضافة أقسام/صفحات عبر الـ API (لم يتم عرض ذلك هنا لتبسيط التركيز على تصدير الخطوط).
+This line loads an existing `.one` file. If you need to **create OneNote programmatically**, you can instantiate a new `Document` object and add sections/pages via the API (not shown here to keep the focus on exporting fonts).
 
-### الخطوة 2: حفظ إلى تدفق الذاكرة مع الخطوط المدمجة  
+### الخطوة 2: حفظ إلى تدفق الذاكرة مع تضمين الخطوط  
 
 ```java
 HtmlSaveOptions options = new HtmlSaveOptions();
@@ -91,8 +91,8 @@ ByteArrayOutputStream outputStream = new ByteArrayOutputStream();
 document.save(outputStream, options);
 ```
 
-- `setExportFonts(ResourceExportType.ExportEmbedded)` يخبر Aspose.Note بـ **تصدير الخطوط** مباشرةً إلى حزمة HTML.  
-- `setFontFaceTypes(FontFaceType.Ttf)` يضمن استخدام خطوط TrueType، التي تحظى بدعم واسع في المتصفحات.
+- `setExportFonts(ResourceExportType.ExportEmbedded)` tells Aspose.Note to **export fonts** directly into the HTML package.  
+- `setFontFaceTypes(FontFaceType.Ttf)` ensures TrueType fonts are used, which have broad browser support.
 
 ### الخطوة 3: حفظ كملف HTML مع ملفات موارد منفصلة (مع الاستمرار في تصدير الخطوط)  
 
@@ -105,7 +105,7 @@ options.setExportImages(ResourceExportType.ExportEmbedded);
 document.save("output_directory/document.html", options);
 ```
 
-على الرغم من أن CSS والصور مدمجة، يمكنك تغيير `ResourceExportType` إلى `ExportExternal` إذا فضلت ملفات منفصلة لتسهيل التخزين المؤقت. الجزء الأساسي—**تصدير الخطوط**—يبقى دون تغيير.
+Even though CSS and images are embedded, you can change the `ResourceExportType` to `ExportExternal` if you prefer separate files for easier caching. The key part—**exporting fonts**—remains unchanged.
 
 ### الخطوة 4: استخدام ردود النداء للتحكم في مكان تخزين كل مورد  
 
@@ -136,38 +136,50 @@ if (!dir.exists()) {
 document.save(Paths.get(savingCallbacks.getRootFolder(), "document.html").toString(), options);
 ```
 
-فئة `UserSavingCallbacks` (ستحتاج إلى تنفيذ `ICssSavingCallback`، `IImageSavingCallback`، و `IFontSavingCallback`) تمنحك التحكم الكامل في بنية المجلدات، مما يسمح لك بوضع الخطوط في دليل `fonts` مخصص مع **تصدير الخطوط** بشكل صحيح.
+The `UserSavingCallbacks` class (you’ll need to implement `ICssSavingCallback`, `IImageSavingCallback`, and `IFontSavingCallback`) gives you full control over folder structure, allowing you to keep fonts in a dedicated `fonts` directory while still **exporting fonts** correctly.
 
-## مشكلات شائعة ونصائح
+## كيفية تضمين الخطوط المخصصة عند تحويل OneNote إلى HTML
 
-- **الخطوط مفقودة في الناتج:** تأكد من ضبط `setExportFonts(ResourceExportType.ExportEmbedded)` وأن ملف OneNote المصدر يستخدم خطوطاً مدمجة فعلياً.  
-- **ملفات HTML كبيرة:** تضمين الخطوط قد يزيد الحجم. إذا كانت النطاق الترددي مصدر قلق، غيّر `ExportFonts` إلى `ExportExternal` واستضيف الخطوط على CDN.  
-- **أخطاء تنفيذ ردود النداء:** تأكد من أن فئات رد النداء تكتب التيار وتغلق الموارد بشكل صحيح لتجنب فساد الملفات.  
+Embedding custom fonts guarantees that the HTML rendering matches the original OneNote layout, even on devices that don’t have those fonts installed. By using `ExportEmbedded` together with `FontFaceType.Ttf`, the TrueType files are base‑64 encoded and inserted directly into the generated CSS, eliminating the need for external font hosting.
+
+## استخدام ResourceExportType للتحكم في تصدير الموارد
+
+`ResourceExportType` lets you decide whether CSS, images, and fonts are stored **inside** the HTML file (`ExportEmbedded`) or saved as **external** files (`ExportExternal`). Choose `ExportEmbedded` for a single‑file solution, or `ExportExternal` when you want to leverage browser caching for large assets.
+
+## إنشاء OneNote برمجياً لتصدير HTML
+
+If you start from scratch, you can build a OneNote document entirely in code, add sections, pages, and rich text, and then apply the same `HtmlSaveOptions` shown above. This gives you end‑to‑end automation: from data generation to a fully styled HTML output with embedded custom fonts.
+
+## المشكلات الشائعة والنصائح
+
+- **الخطوط المفقودة في الناتج:** Verify that `setExportFonts(ResourceExportType.ExportEmbedded)` is set and that the source OneNote file actually uses embedded fonts.  
+- **ملفات HTML الكبيرة:** Embedding fonts can increase size. If bandwidth is a concern, switch `ExportFonts` to `ExportExternal` and host the fonts on a CDN.  
+- **أخطاء تنفيذ ردود النداء:** Ensure your callback classes correctly write the stream and close resources to avoid file corruption.  
 
 ## الأسئلة المتكررة
 
 **س: هل يمكنني تحويل عدة مستندات OneNote إلى HTML دفعة واحدة؟**  
-ج: نعم، قم بالتكرار عبر كل كائن `Document` وطبق نفس `HtmlSaveOptions`.  
+ج: Yes, loop through each `Document` instance and apply the same `HtmlSaveOptions`.  
 
-**س: هل تدعم Aspose.Note for Java صيغ إخراج أخرى غير HTML؟**  
-ج: بالتأكيد. يمكنك التصدير إلى PDF، DOCX، PNG، JPEG، والمزيد باستخدام خيارات الحفظ المناسبة.  
+**س: هل يدعم Aspose.Note for Java صيغ إخراج أخرى غير HTML؟**  
+ج: Absolutely. You can export to PDF, DOCX, PNG, JPEG, and more using the appropriate save options.  
 
-**س: هل هناك نسخة تجريبية متاحة لـ Aspose.Note for Java؟**  
-ج: نعم، حمّل نسخة تجريبية مجانية من [هنا](https://releases.aspose.com/).  
+**س: هل تتوفر نسخة تجريبية من Aspose.Note for Java؟**  
+ج: Yes, download a free trial from [هنا](https://releases.aspose.com/).  
 
-**س: أين يمكنني الحصول على الدعم لـ Aspose.Note for Java؟**  
-ج: زر [منتدى Aspose.Note](https://forum.aspose.com/c/note/28) للحصول على مساعدة المجتمع والرسمية.  
+**س: أين يمكنني الحصول على دعم Aspose.Note for Java؟**  
+ج: Visit the [منتدى Aspose.Note](https://forum.aspose.com/c/note/28) for community and official assistance.  
 
 **س: كيف يمكنني شراء ترخيص لـ Aspose.Note for Java؟**  
-ج: الترخيص متاح عبر [موقع Aspose](https://purchase.aspose.com/buy).  
+ج: Licenses are available at the [موقع Aspose](https://purchase.aspose.com/buy).  
 
 ## الخلاصة
 
-أنت الآن تعرف **كيفية تصدير الخطوط** أثناء **حفظ OneNote كملف HTML** باستخدام Aspose.Note for Java. من خلال تكوين `HtmlSaveOptions` واستخدام ردود النداء إذا لزم الأمر، يمكنك الحفاظ على المظهر الدقيق لصفحات OneNote—including الخطوط المخصصة—عند تقديمها على الويب. لا تتردد في تجربة إعدادات `ResourceExportType` المختلفة لتناسب متطلبات الأداء والتخزين في مشروعك.
+You now know **how to export fonts** while you **save OneNote as HTML** using Aspose.Note for Java. By configuring `HtmlSaveOptions` and optionally using callbacks, you can preserve the exact look of your OneNote pages—including custom fonts—when delivering them on the web. Feel free to experiment with different `ResourceExportType` settings to suit your project’s performance and storage requirements.
 
 ---
 
-**آخر تحديث:** 2025-12-02  
+**آخر تحديث:** 2026-02-07  
 **تم الاختبار مع:** Aspose.Note for Java 24.12  
 **المؤلف:** Aspose  
 
