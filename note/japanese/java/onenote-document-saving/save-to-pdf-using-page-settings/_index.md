@@ -1,10 +1,10 @@
 ---
-date: 2025-12-17
-description: Aspose.Note for Java を使用して OneNote から PDF を保存する方法を学びましょう。このステップバイステップガイドでは、OneNote
-  を PDF に変換し、Letter および A4 設定で PDF ページサイズをカスタマイズする方法を示します。
-linktitle: How to Save PDF Using Page Settings in OneNote - Aspose.Note
+date: 2026-03-14
+description: Aspose.Note for Java を使用して OneNote を PDF に変換する方法を学び、Letter や A4 などの PDF
+  ページサイズをカスタマイズする手順をステップバイステップでご案内します。
+linktitle: Convert OneNote to PDF with Page Settings – Aspose.Note
 second_title: Aspose.Note Java API
-title: OneNote のページ設定を使用して PDF を保存する方法 - Aspose.Note
+title: ページ設定でOneNoteをPDFに変換 – Aspose.Note
 url: /ja/java/onenote-document-saving/save-to-pdf-using-page-settings/
 weight: 19
 ---
@@ -13,30 +13,30 @@ weight: 19
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# OneNote のページ設定を使用して PDF を保存する方法 - Aspose.Note
+# ページ設定を使用して OneNote を PDF に変換する方法 – Aspose.Note
 
-## はじめに
+## Introduction
 
-**OneNote を PDF に変換**し、出力ページサイズを完全にコントロールしたい場合は、ここが最適です。このチュートリアルでは、Aspose.Note for Java を使用して OneNote ファイルから **PDF を保存**する方法を解説します。クラシックな Letter サイズで保存するシナリオと、縦方向に制限のない A4 ページで保存するシナリオの 2 つを紹介し、**PDF ページサイズをカスタマイズ**してレポートや印刷要件に合わせる方法を示します。
+If you need to **convert OneNote to PDF** while keeping full control over the output page size, you’re in the right place. In this tutorial we’ll walk through **how to save PDF** from a OneNote file using Aspose.Note for Java. You’ll see two practical scenarios—saving with the classic Letter size and saving with an A4 page that has no height limit—so you can **customize PDF page size** to match your reporting or printing requirements. Knowing how to **export OneNote as PDF** gives you a reliable way to archive notes, generate printable reports, or share content with users who don’t have OneNote.
 
-## クイック回答
--なライブラリは？** Aspose.Note for Java  
-- **対象ページサイズは？** Letter と A4（高さ制限なし）  
-- **テストにライセンスは必要？** 無料トライアルあり；本番環境ではライセンスが必要  
-- **必要な Java バージョンは？** JDK 8 以上  
-- **複数ファイルを一括処理できる？** はい、`Document` クラスをループさせることで可能  
+## Quick Answers
+- **What is the primary library?** Aspose.Note for Java  
+- **Which page sizes are covered?** Letter and A4 (no height limit)  
+- **Do I need a license for testing?** A free trial is available; a license is required for production  
+- **What Java version is required?** JDK 8 or higher  
+- **Can I batch‑process multiple files?** Yes, by looping over the `Document` class  
 
-## 前提条件
+## Prerequisites
 
-作業を始める前に以下を用意してください。
+Before we dive in, make sure you have:
 
-1. **Java Development Kit (JDK)** がインストール済み（バージョン 8 以上）。  
-2. **Aspose.Note for Java** ライブラリをプロジェクトのクラスパスに追加。  
-3. Java の基本構文とファイル I/O の基礎知識。  
+1. **Java Development Kit (JDK)** installed (version 8 or later).  
+2. **Aspose.Note for Java** library added to your project’s classpath.  
+3. A basic understanding of Java syntax and file I/O.  
 
-## パッケージのインポート
+## Import Packages
 
-まず、必要な名前空間をインポートします。このブロックは示した通りにそのまま使用してください。コードは修正なしでコンパイルできます。
+First, import the namespaces you’ll need. Keep this block exactly as shown; the code will compile without modification.
 
 ```java
 import com.aspose.note.*;
@@ -44,27 +44,27 @@ import java.io.IOException;
 import java.nio.file.Paths;
 ```
 
-## Letter ページ設定で PDF を保存する方法
+## How to Export OneNote as PDF with Letter Page Settings
 
-### 手順 1: OneNote ドキュメントを読み込む
+### Step 1: Load the OneNote Document
 
-ソースの `.one` ファイルを読み込みます。プレースホルダーのパスは実際の OneNote ファイルの場所に置き換えてください。
+We start by loading the source `.one` file. Replace the placeholder path with the actual location of your OneNote file.
 
 ```java
 Document oneFile = new Document("path/to/your/OneNote.one");
 ```
 
-### 手順 2: 出力先パスを定義する
+### Step 2: Define the Destination Path
 
-生成された PDF の書き込み先を指定します。環境に合わせてパスを更新してください。
+Choose where the resulting PDF should be written. Again, update the path to suit your environment.
 
 ```java
 String dst = "path/to/your/SaveToPdfUsingLetterPageSettings.pdf";
 ```
 
-### 手順 3: Letter ページ設定で保存する
+### Step 3: Save with Letter Page Settings
 
-`PdfSaveOptions` インスタンスを作成し、**Letter** ページサイズ（米国で一般的な紙サイズ）を設定して `save` を呼び出します。これにより Aspose.Note の組み込みヘルパーを使って **PDF ページサイズをカスタマイズ**できます。
+Create a `PdfSaveOptions` instance, set the **Letter** page size (a common US paper format), and invoke `save`. This demonstrates **customize PDF page size** using Aspose.Note’s built‑in helpers.
 
 ```java
 PdfSaveOptions options = new PdfSaveOptions();
@@ -72,29 +72,29 @@ options.setPageSettings(PageSettings.getLetter());
 oneFile.save(dst, options);
 ```
 
-> **プロのコツ:** マージンや向きを調整したい場合は、`PageSettings` の追加プロパティを確認してください。
+> **Pro tip:** If you need to tweak margins or orientation, explore additional properties on `PageSettings`.
 
-## 高さ制限なし A4 ページ設定で PDF を保存する方法
+## How to Export OneNote as PDF with A4 Page Settings Without Height Limit
 
-### 手順 1: OneNote ドキュメントを読み込む
+### Step 1: Load the OneNote Document
 
-A4 シナリオでも読み込み手順は同じです。
+The loading step is identical for the A4 scenario.
 
 ```java
 Document oneFile = new Document("path/to/your/OneNote.one");
 ```
 
-### 手順 2: 出力先パスを定義する
+### Step 2: Define the Destination Path
 
-前回の PDF を上書きしないよう、別のファイル名を指定してください。
+Provide a distinct file name to avoid overwriting the previous PDF.
 
 ```java
 String dst = "path/to/your/SaveToPdfUsingA4PageSettingsWithoutHeightLimit.pdf";
 ```
 
-### 手順 3: 高さ制限なし A4 ページ設定で保存する
+### Step 3: Save with A4 Page Settings (No Height Limit)
 
-`PageSettings.getA4NoHeightLimit()` を使用して、縦に自動で拡張する PDF を生成します。長文ノートやスクロール可能なコンテンツに最適です。
+Here we use `PageSettings.getA4NoHeightLimit()` to generate a PDF that automatically expands vertically—perfect for long notes or scrollable content.
 
 ```java
 PdfSaveOptions options = new PdfSaveOptions();
@@ -102,42 +102,42 @@ options.setPageSettings(PageSettings.getA4NoHeightLimit());
 oneFile.save(dst, options);
 ```
 
-> **この設定が重要な理由:** **A4 高さ制限なし** オプションにより、コンテンツが切り取られることなく OneNote ページ全体が PDF に収められます。
+> **Why this matters:** The **A4 no‑height‑limit** option prevents content truncation, ensuring the entire OneNote page appears in the PDF, regardless of its length. This is especially useful when you need to **save PDF A4 size** for international printing standards.
 
-## よくある問題と解決策
+## Common Issues & Solutions
 
-| 問題 | 発生原因 | 対策 |
-|------|----------|------|
-| **Blank PDF output**（空白 PDF が生成される） | ソースファイルのパスが間違っている、またはファイルにアクセスできない。 | パスを確認し、ファイルが存在することを確かめてください。 |
-| **Page size not applied**（ページサイズが適用されない） | `PdfSaveOptions` が `save` 呼び出しに紐付いていない。 | `oneFile.save()` に `options` オブジェクトを渡しているか確認してください。 |
-| **Out‑of‑memory for large notes**（大きなノートでメモリ不足） | 非常に大きな `.one` ファイルを読み込むとヒープ領域を大量に消費する。 | JVM のヒープサイズ（`-Xmx`）を増やすか、ファイルを小さなバッチに分割して処理してください。 |
+| Issue | Why it Happens | Fix |
+|-------|----------------|-----|
+| **Blank PDF output** | Source file path is incorrect or file is inaccessible. | Verify the path and ensure the file exists. |
+| **Page size not applied** | `PdfSaveOptions` not linked to the `save` call. | Make sure you pass the `options` object to `oneFile.save()`. |
+| **Out‑of‑memory for large notes** | Loading very large `.one` files can consume heap space. | Increase JVM heap (`-Xmx`) or process files in smaller batches. |
 
-## FAQ（よくある質問）
+## Frequently Asked Questions
 
-**Q: マージンや向きなど、ページ設定をさらにカスタマイズできますか？**  
-A: はい、`PageSettings` にはマージン、向き、DPI などのプロパティがあります。カスタム `PageSettings` オブジェクトを作成し、`PdfSaveOptions` に割り当てることで実現できます。
+**Q: Can I further customize the page settings, such as margins or orientation?**  
+A: Yes, `PageSettings` provides properties for margins, orientation, and DPI. You can create a custom `PageSettings` object and assign it to `PdfSaveOptions`.
 
-**Q: **convert OneNote to PDF** をバッチ処理で行うには？**  
-A: ファイルパスのコレクションをループし、各パスで `Document` をインスタンス化し、目的の `PdfSaveOptions` を指定して `save` を呼び出します。上記コードパターンを再利用すれば実装は簡単です。
+**Q: How do I **convert OneNote to PDF** in a batch operation?**  
+A: Loop through a collection of file paths, instantiate a `Document` for each, and call `save` with the desired `PdfSaveOptions`. This reuses the same code pattern shown above.
 
-**Q: Aspose.Note は PDF 以外のエクスポート形式もサポートしていますか？**  
-A: もちろんです。HTML、XPS、PNG や JPEG などの画像形式へも、対応する `SaveOptions` クラスを使用してエクスポートできます。
+**Q: Does Aspose.Note support other export formats besides PDF?**  
+A: Absolutely. You can export to HTML, XPS, or various image formats like PNG and JPEG using the corresponding `SaveOptions` classes.
 
-**Q: **export OneNote document PDF** に埋め込みフォントを含める方法は？**  
-A: `PdfSaveOptions` インスタンスで `options.setEmbedStandardFonts(true)` を設定してから保存してください。
+**Q: Is there a way to **export OneNote as PDF** with embedded fonts?**  
+A: Set `options.setEmbedStandardFonts(true)` on the `PdfSaveOptions` instance before saving.
 
-**Q: 本番環境でのライセンスは必要ですか？**  
-A: 評価用の無料トライアルは利用可能ですが、商用環境でのデプロイには有償ライセンスが必要です。
+**Q: Are there licensing considerations for production use?**  
+A: A free trial is available for evaluation, but a commercial license is required for deployment in production environments.
 
-## 結論
+## Conclusion
 
-これで Aspose.Note for Java を使用し、ページサイズを完全に制御しながら OneNote ファイルから **PDF を保存**する方法が分かりました。標準的な Letter レイアウトでも、コンテンツに合わせて伸びる A4 ページでも、今回のコードスニペットを既存の Java アプリケーションに組み込めば、ドキュメント変換の自動化、印刷用レポートの生成、OneNote ノートブックの PDF アーカイブ化が容易に実現できます。
+You now know **how to convert OneNote to PDF** using Aspose.Note for Java, with full control over page dimensions—whether you need a standard Letter layout or an A4 page that grows with your content. Incorporate these snippets into your existing Java applications to automate document conversion, generate printable reports, or archive OneNote notebooks as PDFs. When you **save PDF A4 size** or **save PDF letter size**, the output will match the exact specifications you set, ensuring a professional look for every document.
 
 ---
 
-**最終更新日:** 2025-12-17  
-**テスト環境:** Aspose.Note for Java 23.12  
-**作者:** Aspose  
+**Last Updated:** 2026-03-14  
+**Tested With:** Aspose.Note for Java 23.12  
+**Author:** Aspose  
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
