@@ -1,22 +1,22 @@
 ---
-title: "aspnote set jpeg resolution – Set Output Image Resolution in OneNote - Aspose.Note"
-linktitle: "aspnote set jpeg resolution – Set Output Image Resolution in OneNote - Aspose.Note"
+title: "increase jpeg dpi – Set Output Image Resolution in OneNote with Aspose.Note"
+linktitle: "increase jpeg dpi – Set Output Image Resolution in OneNote - Aspose.Note"
 second_title: "Aspose.Note Java API"
-description: "Learn how to aspnote set jpeg resolution and increase onenote image resolution using Aspose.Note for Java. Follow our step‑by‑step guide to adjust image resolution in OneNote documents."
+description: "Learn how to increase jpeg dpi and set jpeg resolution to boost OneNote image quality using Aspose.Note for Java. Follow our step‑by‑step guide."
 weight: 23
 url: /java/onenote-document-saving/set-output-image-resolution/
-date: 2025-12-18
+date: 2026-03-14
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# aspnote set jpeg resolution – Set Output Image Resolution in OneNote - Aspose.Note
+# increase jpeg dpi – Set Output Image Resolution in OneNote - Aspose.Note
 
 ## Introduction
 
-In this tutorial, you'll learn how to **aspnote set jpeg resolution** when exporting images from OneNote documents using Aspose.Note for Java. Adjusting the image resolution is essential when you need high‑quality graphics for reports, presentations, or printing, and it also helps you **increase onenote image resolution** without inflating file size unnecessarily. We'll walk through the entire process—from loading a OneNote file to saving it with a custom DPI setting—so you can apply the technique in your own projects right away.
+In this tutorial, you'll learn how to **increase jpeg dpi** when exporting images from OneNote documents using Aspose.Note for Java. Adjusting the DPI (dots‑per‑inch) is essential when you need high‑quality graphics for reports, presentations, or printing, and it also helps you **increase onenote image resolution** without inflating file size unnecessarily. We'll walk through the entire process—from loading a OneNote file to saving it with a custom DPI setting—so you can apply the technique in your own projects right away.
 
 ## Quick Answers
 - **What does aspnote set jpeg resolution do?** It lets you define the DPI of JPEG images generated from OneNote pages.  
@@ -25,9 +25,9 @@ In this tutorial, you'll learn how to **aspnote set jpeg resolution** when expor
 - **Do I need a license?** A free trial works for testing; a commercial license is required for production.  
 - **How long does implementation take?** Typically under 10 minutes for a basic setup.
 
-## What is aspnote set jpeg resolution?
+## What is increase jpeg dpi and aspnote set jpeg resolution?
 
-Aspose.Note provides the `ImageSaveOptions` class, which lets you control how images are rendered when a OneNote document is saved. By setting the `Resolution` property, you explicitly tell the library to output JPEG files at the desired dots‑per‑inch (DPI) value.
+Aspose.Note provides the `ImageSaveOptions` class, which lets you control how images are rendered when a OneNote document is saved. By setting the `Resolution` property, you explicitly tell the library to output JPEG files at the desired dots‑per‑inch (DPI) value, effectively **increase jpeg dpi**.
 
 ## Why increase onenote image resolution?
 
@@ -54,7 +54,9 @@ import com.aspose.note.ImageSaveOptions;
 import com.aspose.note.SaveFormat;
 ```
 
-## Step 1: Load the OneNote Document
+## How to increase jpeg dpi when exporting OneNote images
+
+### Step 1: Load the OneNote Document
 
 Start by loading the OneNote document into your Java application:
 
@@ -65,7 +67,7 @@ Document doc = new Document(dataDir + "Sample1.one");
 
 Replace `"Your Document Directory"` with the actual path where your `.one` file lives.
 
-## Step 2: Set Image Save Options
+### Step 2: Set Image Save Options
 
 Define the image save options and specify the desired resolution. This is the core of **aspnote set jpeg resolution**:
 
@@ -76,7 +78,7 @@ imageSaveOptions.setResolution(120);
 
 The example sets the resolution to **120 dpi**. Feel free to increase this value—e.g., `300` for print‑quality images—to **increase onenote image resolution** as needed.
 
-## Step 3: Save the Document with Modified Resolution
+### Step 3: Save the Document with Modified Resolution
 
 Finally, save the document using the configured options:
 
@@ -113,11 +115,11 @@ A: You can seek assistance from the Aspose.Note community forum [here](https://f
 
 ## Conclusion
 
-By following these steps, you now know how to **aspnote set jpeg resolution** and effectively **increase onenote image resolution** for any OneNote document using Aspose.Note for Java. Adjust the DPI to match your project's visual requirements, and enjoy crisp, high‑quality images in your downstream applications.
+By following these steps, you now know how to **increase jpeg dpi** and effectively **increase onenote image resolution** for any OneNote document using Aspose.Note for Java. Adjust the DPI to match your project's visual requirements, and enjoy crisp, high‑quality images in your downstream applications.
 
 ---
 
-**Last Updated:** 2025-12-18  
+**Last Updated:** 2026-03-14  
 **Tested With:** Aspose.Note for Java 24.12 (latest at time of writing)  
 **Author:** Aspose  
 
