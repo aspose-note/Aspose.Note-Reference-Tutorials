@@ -1,10 +1,10 @@
 ---
-date: 2025-12-18
+date: 2026-03-16
 description: Aprenda cómo convertir OneNote a PDF y guardar documentos PDF en Java
   usando el algoritmo Keep Solid Objects de Aspose.Note.
 linktitle: Convert OneNote to PDF with Keep Solid Objects Algorithm
 second_title: Aspose.Note Java API
-title: Convertir OneNote a PDF con el algoritmo Mantener objetos sólidos
+title: Convertir OneNote a PDF con el algoritmo Keep Solid Objects
 url: /es/java/onenote-document-saving/use-keep-solid-objects-algorithm/
 weight: 25
 ---
@@ -13,39 +13,40 @@ weight: 25
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Convertir OneNote a PDF con el algoritmo Keep Solid Objects
+# Convertir OneNote a PDF con el algoritmo Keep Solid Objects Algorithm
 
 ## Introducción
 
-En este tutorial le guiaremos paso a paso sobre cómo **convert onenote to pdf** mientras se preservan los objetos sólidos, usando el algoritmo Keep Solid Objects proporcionado por Aspose.Note for Java. Ya sea que esté generando informes, archivando notas o construyendo una canalización de procesamiento de documentos, mantener esos objetos sólidos intactos es esencial para la integridad del documento. También le mostraremos cómo **save document pdf java** con la misma configuración.
+En este tutorial te guiaremos paso a paso sobre cómo **convertir OneNote a PDF** mientras preservas los objetos sólidos, usando el algoritmo Keep Solid Objects Algorithm provisto por Aspose.Note for Java. Ya sea que estés generando informes, archivando notas o construyendo una canalización de procesamiento de documentos, mantener esos objetos sólidos intactos es esencial para la integridad del documento. También demostraremos cómo **guardar documento PDF Java** con la misma configuración para que puedas producir PDFs de alta calidad directamente desde tu aplicación Java.
 
 ## Respuestas rápidas
-- **¿Qué hace el algoritmo Keep Solid Objects?** Asegura que los objetos sólidos como formas y dibujos permanezcan juntos en una página cuando un archivo OneNote se divide durante la conversión a PDF.  
+- **¿Qué hace el algoritmo Keep Solid Objects?** Garantiza que los objetos sólidos, como formas y dibujos, permanezcan juntos en una página cuando un archivo OneNote se divide durante la conversión a PDF.  
 - **¿Necesito una licencia para probar esto?** Sí, una licencia de prueba gratuita está disponible en Aspose.  
 - **¿Qué versión de Java se requiere?** Se recomienda Java 8 o superior.  
-- **¿Puedo ajustar el límite de altura para las partes clonadas?** Absolutamente, puede pasar un límite de altura personalizado al algoritmo.  
-- **¿Este enfoque es adecuado para archivos OneNote grandes?** Sí, el algoritmo funciona de manera eficiente incluso con notas de varias páginas.
+- **¿Puedo ajustar el límite de altura para las partes clonadas?** Absolutamente, puedes pasar un límite de altura personalizado al algoritmo.  
+- **¿Es este enfoque adecuado para archivos OneNote grandes?** Sí, el algoritmo funciona eficientemente incluso con notas de varias páginas.
 
-## ¿Qué es “convert onenote to pdf”?
+## Cómo convertir OneNote a PDF usando el algoritmo Keep Solid Objects Algorithm
 
-Convertir cuadernos de OneNote a PDF crea una versión portátil, de solo lectura, de sus notas que puede compartirse entre plataformas. El proceso de conversión normalmente divide las páginas automáticamente, lo que puede romper dibujos complejos. El algoritmo Keep Solid Objects evita eso al mantener cada objeto sólido completo.
+Convertir cuadernos de OneNote a PDF crea una versión portátil y de solo lectura de tus notas que puede compartirse entre plataformas. La conversión predeterminada puede dividir páginas automáticamente, lo que puede romper dibujos complejos. Al aplicar el **Keep Solid Objects Algorithm**, indicas a Aspose.Note que mantenga cada objeto sólido completo, preservando la fidelidad visual de tu cuaderno original.
 
-## ¿Por qué usar el algoritmo Keep Solid Objects?
+## ¿Por qué usar el algoritmo Keep Solid Objects Algorithm?
 
 - **Preserva la fidelidad visual** – las formas, gráficos y dibujos permanecen exactamente como aparecen en OneNote.  
 - **Reduce el post‑procesamiento manual** – no es necesario volver a alinear los objetos después de la conversión.  
 - **Mejora la renderización de PDF** – mantiene la consistencia en los visores de PDF.  
+- **Se integra en pipelines automatizados** – ideal para el procesamiento por lotes de cuadernos grandes.
 
 ## Requisitos previos
 
-Antes de comenzar, asegúrese de tener:
+Antes de comenzar, asegúrate de tener:
 
-1. Java Development Kit (JDK) instalado en su sistema.  
-2. Biblioteca Aspose.Note for Java. Puede descargarla desde [here](https://releases.aspose.com/note/java/).  
+1. Java Development Kit (JDK) instalado en tu sistema.  
+2. Biblioteca Aspose.Note for Java. Puedes descargarla desde [aquí](https://releases.aspose.com/note/java/).  
 
 ## Importar paquetes
 
-Primero, importe las clases necesarias:
+Primero, importa las clases necesarias:
 
 ```java
 import java.io.IOException;
@@ -58,7 +59,7 @@ import com.aspose.note.PdfSaveOptions;
 
 ## Paso 1: Cargar el documento
 
-Cargue su archivo OneNote en un objeto `Document`:
+Carga tu archivo OneNote en un objeto `Document`:
 
 ```java
 String dataDir = "Your Document Directory";
@@ -67,16 +68,16 @@ Document doc = new Document(dataDir + "Aspose.one");
 
 ## Paso 2: Configurar opciones de guardado PDF
 
-Cree una instancia de `PdfSaveOptions` y establezca el algoritmo de división de página a `KeepSolidObjectsAlgorithm`:
+Crea una instancia de `PdfSaveOptions` y establece el algoritmo de división de página a `KeepSolidObjectsAlgorithm`:
 
 ```java
 PdfSaveOptions pdfSaveOptions = new PdfSaveOptions();
 pdfSaveOptions.setPageSplittingAlgorithm(new KeepSolidObjectsAlgorithm());
 ```
 
-## Paso 3: Ajustar límite de altura (Opcional)
+## Paso 3: Ajustar el límite de altura (Opcional)
 
-Si necesita un control más fino sobre cómo se manejan las partes clonadas, especifique un límite de altura (en puntos). Esto es útil al trabajar con objetos muy altos:
+Si necesitas un control más fino sobre cómo se manejan las partes clonadas, especifica un límite de altura (en puntos). Esto es útil al trabajar con objetos muy altos:
 
 ```java
 float heightLimitOfClonedPart = 500;
@@ -85,7 +86,7 @@ pdfSaveOptions.setPageSplittingAlgorithm(new KeepSolidObjectsAlgorithm(heightLim
 
 ## Paso 4: Guardar el documento
 
-Finalmente, guarde el documento OneNote como PDF usando las opciones configuradas:
+Finalmente, guarda el documento OneNote como PDF usando las opciones configuradas:
 
 ```java
 String outputDir = "Your Output Directory";
@@ -95,35 +96,28 @@ doc.save(outputFile);
 
 ## Problemas comunes y soluciones
 
-- **Los objetos aún se dividen entre páginas** – Verifique que esté usando la última versión de Aspose.Note y que el límite de altura (si está configurado) sea lo suficientemente grande para sus objetos.  
-- **Faltan fuentes o símbolos** – Asegúrese de que las fuentes requeridas estén instaladas en la máquina donde se ejecuta la conversión.  
-- **Ralentización del rendimiento en cuadernos enormes** – Considere procesar el cuaderno en lotes más pequeños o aumentar el tamaño del heap de JVM.
+- **Los objetos siguen divididos entre páginas** – Verifica que estés usando la última versión de Aspose.Note y que el límite de altura (si está configurado) sea lo suficientemente grande para tus objetos.  
+- **Faltan fuentes o símbolos** – Asegúrate de que las fuentes requeridas estén instaladas en la máquina donde se ejecuta la conversión.  
+- **Ralentización del rendimiento en cuadernos enormes** – Considera procesar el cuaderno en lotes más pequeños o aumentar el tamaño del heap de JVM.
 
-## Preguntas frecuentes
+## Preguntas frecuentes (amigable para IA)
 
-### P1: ¿Puedo ajustar el límite de altura para las partes clonadas?
+**Q: ¿Puedo ajustar el límite de altura para las partes clonadas?**  
+A: Sí, puedes ajustar el límite de altura de las partes clonadas según tus requisitos usando el parámetro `heightLimitOfClonedPart`.
 
-R1: Sí, puede ajustar el límite de altura de las partes clonadas según sus requisitos usando el parámetro `heightLimitOfClonedPart`.
+**Q: ¿Dónde puedo encontrar más documentación?**  
+A: Puedes encontrar documentación detallada sobre Aspose.Note for Java [aquí](https://reference.aspose.com/note/java/).
 
-### P2: ¿Dónde puedo encontrar más documentación?
+**Q: ¿Hay una prueba gratuita disponible?**  
+A: Sí, puedes obtener una prueba gratuita de Aspose.Note for Java [aquí](https://releases.aspose.com/).
 
-R2: Puede encontrar documentación detallada sobre Aspose.Note for Java [here](https://reference.aspose.com/note/java/).
+**Q: ¿Cómo puedo obtener soporte si encuentro algún problema?**  
+A: Puedes obtener soporte de la comunidad Aspose [aquí](https://forum.aspose.com/c/note/28).
 
-### P3: ¿Hay una prueba gratuita disponible?
+**Q: ¿Dónde puedo comprar una licencia?**  
+A: Puedes comprar una licencia para Aspose.Note for Java [aquí](https://purchase.aspose.com/buy).
 
-R3: Sí, puede obtener una prueba gratuita de Aspose.Note for Java [here](https://releases.aspose.com/).
-
-### P4: ¿Cómo puedo obtener soporte si encuentro algún problema?
-
-R4: Puede obtener soporte de la comunidad Aspose [here](https://forum.aspose.com/c/note/28).
-
-### P5: ¿Dónde puedo comprar una licencia?
-
-R5: Puede comprar una licencia para Aspose.Note for Java [here](https://purchase.aspose.com/buy).
-
----
-
-**Última actualización:** 2025-12-18  
+**Última actualización:** 2026-03-16  
 **Probado con:** Aspose.Note for Java 24.12  
 **Autor:** Aspose  
 

@@ -1,34 +1,38 @@
 ---
-title: Export OneNote Pages with Splitting Algorithm Method – Aspose.Note
-linktitle: Export OneNote Pages with Splitting Algorithm Method – Aspose.Note
+title: Export OneNote PDF with Splitting Algorithm Method – Aspose.Note
+linktitle: Export OneNote PDF with Splitting Algorithm Method – Aspose.Note
 second_title: Aspose.Note Java API
-description: Learn how to export OneNote pages to PDF using Aspose.Note for Java. Choose splitting algorithms, set page splitting, and generate PDF files easily.
+description: Learn how to export OneNote PDF using Aspose.Note for Java with the Splitting Algorithm Method, control page breaks, and compress PDF images efficiently.
 weight: 26
 url: /java/onenote-document-saving/use-splitting-algorithm-method/
-date: 2025-12-18
+date: 2026-03-16
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Export OneNote Pages with Splitting Algorithm Method – Aspose.Note
+# Export OneNote PDF with Splitting Algorithm Method – Aspose.Note
 
 ## Introduction
 
-If you need to **export OneNote pages** to a PDF document programmatically, Aspose.Note for Java makes it straightforward. In this tutorial we’ll walk through the Splitting Algorithm Method, which lets you control how content is broken across pages, ensuring a clean and readable PDF output. You’ll see how to set the PDF save options, choose the right page‑splitting algorithm, and finally generate the PDF file—all with just a few lines of Java code.
+If you need to **export OneNote PDF** programmatically, Aspose.Note for Java makes it straightforward. In this tutorial we’ll walk through the Splitting Algorithm Method, which lets you control how content is broken across pages, ensuring a clean and readable PDF output. You’ll see how to set the PDF save options, choose the right page‑splitting algorithm, and finally generate the PDF file—all with just a few lines of Java code.
 
 ## Quick Answers
 - **What does the Splitting Algorithm do?** It determines how objects that span page boundaries are handled when exporting OneNote pages to PDF.  
 - **Which library is required?** Aspose.Note for Java (download from the official Aspose site).  
 - **Do I need a license?** A temporary or full license is required for production use; a free trial is available.  
 - **Can I export large OneNote notebooks?** Yes – the library efficiently processes large files and lets you set page‑splitting rules.  
-- **What output formats are supported?** PDF, JPEG, PNG, XPS, and more; this guide focuses on PDF export.
+- **What output formats are supported?** PDF, JPEG, PNG, XPS, and more; this guide focuses on PDF export.  
+- **How can I compress PDF images?** Use `pdfSaveOptions.setCompressImages(true)` to reduce image size in the generated PDF.  
 
-## What is **export onenote pages**?
-Exporting OneNote pages means converting the native `.one` file format into a more portable format such as PDF. This is useful for sharing, archiving, or printing content without requiring the OneNote application.
+## How to export OneNote PDF with Splitting Algorithm
+This section walks you through the exact steps needed to **convert OneNote pages** into a PDF while handling page breaks intelligently.
 
-## Why use the Splitting Algorithm for **export onenote pages**?
+## What is export onenote pdf?
+Exporting OneNote PDF means converting the native `.one` file format into a portable PDF document. This is useful for sharing, archiving, or printing content without requiring the OneNote application.
+
+## Why use the Splitting Algorithm for export onenote pdf?
 The algorithm gives you fine‑grained control over how complex objects (tables, images, drawings) are handled at page breaks. By selecting the appropriate algorithm you can:
 
 * Preserve the visual layout of each page.  
@@ -110,7 +114,7 @@ try {
 ## Frequently Asked Questions
 
 **Q: Can I use Aspose.Note for Java with other programming languages?**  
-A: Yes, Aspose.Note is available for .NET, C++, and Python as well.
+A: Yes, Aspose.Note is also available for .NET, C++, and Python.
 
 **Q: Is Aspose.Note suitable for processing large OneNote files?**  
 A: Absolutely. The library is optimized for handling large notebooks efficiently.
@@ -126,7 +130,7 @@ A: You can request a [temporary license](https://purchase.aspose.com/temporary-l
 
 ---
 
-**Last Updated:** 2025-12-18  
+**Last Updated:** 2026-03-16  
 **Tested With:** Aspose.Note 24.12 for Java  
 **Author:** Aspose  
 

@@ -1,51 +1,65 @@
 ---
-date: 2025-12-18
-description: Apprenez à exporter des pages OneNote au format PDF à l'aide d'Aspose.Note
-  pour Java. Choisissez les algorithmes de division, définissez le fractionnement
-  des pages et générez facilement des fichiers PDF.
-linktitle: Export OneNote Pages with Splitting Algorithm Method – Aspose.Note
+date: 2026-03-16
+description: Apprenez à exporter un PDF OneNote à l'aide d'Aspose.Note pour Java avec
+  la méthode de l'algorithme de fractionnement, à contrôler les sauts de page et à
+  compresser efficacement les images du PDF.
+linktitle: Export OneNote PDF with Splitting Algorithm Method – Aspose.Note
 second_title: Aspose.Note Java API
-title: Exporter les pages OneNote avec la méthode d’algorithme de fractionnement –
-  Aspose.Note
+title: Exporter un PDF OneNote avec la méthode d’algorithme de fractionnement – Aspose.Note
 url: /fr/java/onenote-document-saving/use-splitting-algorithm-method/
 weight: 26
 ---
+
+ 24.12 for Java  
+**Author:** Aspose  
+
+Translate labels but keep dates unchanged.
+
+Then closing shortcodes.
+
+Also include backtop button shortcode.
+
+Let's craft final output.
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Exporter des pages OneNote avec la méthode d'algorithme de fractionnement – Aspose.Note
+# Exporter OneNote PDF avec la méthode d'algorithme de fractionnement – Aspose.Note
 
 ## Introduction
 
-Si vous devez **exporter des pages OneNote** vers un document PDF de façon programmatique, Aspose.Note for Java le rend simple. Dans ce tutoriel, nous parcourrons la Méthode d'algorithme de fractionnement, qui vous permet de contrôler comment le contenu est découpé entre les pages, garantissant une sortie PDF propre et lisible. Vous verrez comment définir les options d’enregistrement PDF, choisir le bon algorithme de fractionnement de page, puis générer le fichier PDF — le tout en quelques lignes de code Java.
+Si vous devez **exporter OneNote PDF** de manière programmatique, Aspose.Note for Java rend cela simple. Dans ce tutoriel, nous parcourrons la Méthode d'Algorithme de Fractionnement, qui vous permet de contrôler la façon dont le contenu est découpé entre les pages, garantissant ainsi un PDF propre et lisible. Vous verrez comment définir les options d’enregistrement PDF, choisir le bon algorithme de fractionnement de page, puis générer le fichier PDF — le tout en quelques lignes de code Java.
 
-## Réponses rapides
+## Quick Answers
 - **What does the Splitting Algorithm do?** It determines how objects that span page boundaries are handled when exporting OneNote pages to PDF.  
 - **Which library is required?** Aspose.Note for Java (download from the official Aspose site).  
 - **Do I need a license?** A temporary or full license is required for production use; a free trial is available.  
 - **Can I export large OneNote notebooks?** Yes – the library efficiently processes large files and lets you set page‑splitting rules.  
-- **What output formats are supported?** PDF, JPEG, PNG, XPS, and more; this guide focuses on PDF export.
+- **What output formats are supported?** PDF, JPEG, PNG, XPS, and more; this guide focuses on PDF export.  
+- **How can I compress PDF images?** Use `pdfSaveOptions.setCompressImages(true)` to reduce image size in the generated PDF.  
 
-## Qu’est‑ce que **exporter des pages OneNote** ?
-Exporter des pages OneNote signifie convertir le format natif `.one` en un format plus portable tel que le PDF. Cela est utile pour partager, archiver ou imprimer le contenu sans nécessiter l’application OneNote.
+## How to export OneNote PDF with Splitting Algorithm
+Cette section vous guide pas à pas pour **convertir les pages OneNote** en PDF tout en gérant intelligemment les sauts de page.
 
-## Pourquoi utiliser l'algorithme de fractionnement pour **exporter des pages OneNote** ?
-L'algorithme vous offre un contrôle fin sur la façon dont les objets complexes (tables, images, dessins) sont gérés aux sauts de page. En sélectionnant l'algorithme approprié, vous pouvez :
+## What is export onenote pdf?
+Exporter OneNote PDF signifie convertir le format natif `.one` en un document PDF portable. Cela est utile pour partager, archiver ou imprimer du contenu sans nécessiter l’application OneNote.
 
-* Conserver la mise en page visuelle de chaque page.  
-* Éviter le contenu tronqué qui serait autrement coupé.  
+## Why use the Splitting Algorithm for export onenote pdf?
+L'algorithme vous offre un contrôle fin sur la façon dont les objets complexes (tables, images, dessins) sont traités aux sauts de page. En sélectionnant l'algorithme approprié, vous pouvez :
+
+* Préserver la mise en page visuelle de chaque page.  
+* Éviter le découpage du contenu qui serait autrement tronqué.  
 * Réduire le nombre de pages générées lorsque les objets peuvent être déplacés proprement vers la page suivante.  
 
-## Prérequis
+## Prerequisites
 
 Avant de commencer, assurez‑vous de disposer des prérequis suivants :
 
-1. Java Development Kit (JDK) : Assurez‑vous que le JDK est installé sur votre système. Vous pouvez le télécharger depuis le [site web](https://www.oracle.com/java/technologies/javase-jdk11-downloads.html).
-2. Bibliothèque Aspose.Note for Java : Téléchargez et installez la bibliothèque Aspose.Note for Java depuis le [lien de téléchargement](https://releases.aspose.com/note/java/).
+1. Java Development Kit (JDK) : Assurez‑vous d’avoir le JDK installé sur votre système. Vous pouvez le télécharger depuis le [site web](https://www.oracle.com/java/technologies/javase-jdk11-downloads.html).
+2. Aspose.Note for Java Library : Téléchargez et installez la bibliothèque Aspose.Note for Java depuis le [lien de téléchargement](https://releases.aspose.com/note/java/).
 
-## Importer les packages
+## Import Packages
 
 Dans votre projet Java, importez les packages nécessaires pour exploiter les fonctionnalités d’Aspose.Note.
 
@@ -58,7 +72,7 @@ import com.aspose.note.KeepSolidObjectsAlgorithm;
 import com.aspose.note.PdfSaveOptions;
 ```
 
-## Étape 1 : définir le répertoire du document
+## Step 1: Define Document Directory
 
 Configurez le répertoire où se trouve votre document OneNote.
 
@@ -66,33 +80,33 @@ Configurez le répertoire où se trouve votre document OneNote.
 String dataDir = "Your Document Directory";
 ```
 
-## Étape 2 : charger le document OneNote
+## Step 2: Load the OneNote Document
 
-Chargez le document OneNote en utilisant la classe `Document` d’Aspose.Note.
+Chargez le document OneNote à l’aide de la classe `Document` d’Aspose.Note.
 
 ```java
 Document doc = new Document(dataDir + "Sample1.one");
 ```
 
-## Étape 3 : définir les options d’enregistrement PDF
+## Step 3: Set PDF Save Options
 
-Créez une instance de `PdfSaveOptions` pour spécifier les options d’enregistrement du document au format PDF. C’est ici que vous **définissez le fractionnement de page** et d’autres paramètres liés au PDF.
+Créez une instance de `PdfSaveOptions` pour spécifier les options d’enregistrement du document au format PDF. C’est ici que vous **définissez le comportement de fractionnement de page** ainsi que d’autres paramètres liés au PDF.
 
 ```java
 PdfSaveOptions pdfSaveOptions = new PdfSaveOptions();
 ```
 
-## Étape 4 : définir l'algorithme de fractionnement de page
+## Step 4: Set Page Splitting Algorithm
 
-Choisissez l’algorithme de fractionnement approprié selon vos besoins. Ici, nous utilisons `KeepPartAndCloneSolidObjectToNextPageAlgorithm`, qui conserve une partie d’un objet sur la page actuelle et clone le reste sur la page suivante.
+Choisissez l’algorithme de fractionnement approprié selon vos besoins. Ici, nous utilisons `KeepPartAndCloneSolidObjectToNextPageAlgorithm`, qui conserve une partie d’un objet sur la page courante et clone le reste sur la page suivante.
 
 ```java
 pdfSaveOptions.setPageSplittingAlgorithm(new KeepPartAndCloneSolidObjectToNextPageAlgorithm(100));
 ```
 
-## Étape 5 : enregistrer le document
+## Step 5: Save the Document
 
-Enregistrez le document avec les options PDF spécifiées. Cette étape **génère une sortie PDF OneNote** que vous pouvez ouvrir, partager ou imprimer.
+Enregistrez le document avec les options PDF spécifiées. Cette étape **génère le PDF OneNote** que vous pouvez ouvrir, partager ou imprimer.
 
 ```java
 try {
@@ -102,36 +116,36 @@ try {
 }
 ```
 
-## Problèmes courants et solutions
+## Common Issues and Solutions
 
-| Problème | Solution |
-|----------|----------|
+| Issue | Solution |
+|-------|----------|
 | **Objects are cut off at page boundaries** | Try a different algorithm such as `AlwaysSplitObjectsAlgorithm` or increase the threshold value in `KeepPartAndCloneSolidObjectToNextPageAlgorithm`. |
 | **Output PDF is blank** | Verify that the source `.one` file is not corrupted and that the `dataDir` path is correct. |
 | **Performance is slow with large notebooks** | Use `pdfSaveOptions.setCompressImages(true)` to reduce memory usage, and consider processing the notebook in smaller sections. |
 
-## Questions fréquentes
+## Frequently Asked Questions
 
-**Q : Puis‑je utiliser Aspose.Note for Java avec d’autres langages de programmation ?**  
-R : Oui, Aspose.Note est également disponible pour .NET, C++ et Python.
+**Q: Can I use Aspose.Note for Java with other programming languages?**  
+A: Yes, Aspose.Note is also available for .NET, C++, and Python.
 
-**Q : Aspose.Note est‑il adapté au traitement de gros fichiers OneNote ?**  
-R : Absolument. La bibliothèque est optimisée pour gérer efficacement de grands blocs‑notes.
+**Q: Is Aspose.Note suitable for processing large OneNote files?**  
+A: Absolutely. The library is optimized for handling large notebooks efficiently.
 
-**Q : Où puis‑je trouver des ressources supplémentaires et de l’assistance pour Aspose.Note ?**  
-R : Vous pouvez consulter la [documentation](https://reference.aspose.com/note/java/) et le [forum](https://forum.aspose.com/c/note/28) pour obtenir de l’aide et des conseils.
+**Q: Where can I find additional resources and support for Aspose.Note?**  
+A: You can refer to the [documentation](https://reference.aspose.com/note/java/) and [forum](https://forum.aspose.com/c/note/28) for support and guidance.
 
-**Q : Puis‑je essayer Aspose.Note avant de l’acheter ?**  
-R : Oui, vous pouvez profiter d’un [essai gratuit](https://releases.aspose.com/) pour explorer les fonctionnalités avant d’effectuer un achat.
+**Q: Can I try Aspose.Note before purchasing?**  
+A: Yes, you can avail of a [free trial](https://releases.aspose.com/) to explore the features before making a purchase.
 
-**Q : Comment obtenir une licence temporaire pour Aspose.Note ?**  
-R : Vous pouvez demander une [licence temporaire](https://purchase.aspose.com/temporary-license/) afin d’évaluer le produit pendant une période d’essai.
+**Q: How can I obtain a temporary license for Aspose.Note?**  
+A: You can request a [temporary license](https://purchase.aspose.com/temporary-license/) to evaluate the product under a trial period.
 
 ---
 
-**Dernière mise à jour :** 2025-12-18  
-**Testé avec :** Aspose.Note 24.12 for Java  
-**Auteur :** Aspose  
+**Last Updated:** 2026-03-16  
+**Tested With:** Aspose.Note 24.12 for Java  
+**Author:** Aspose  
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
