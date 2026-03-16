@@ -1,7 +1,8 @@
 ---
-date: 2025-12-18
+date: 2026-03-16
 description: Aspose.Note'un Keep Solid Objects Algoritması'nı Java'da kullanarak OneNote'u
-  PDF'ye dönüştürmeyi ve belgeyi PDF olarak kaydetmeyi öğrenin.
+  PDF'ye nasıl dönüştüreceğinizi ve belge PDF'sini Java ile nasıl kaydedeceğinizi
+  öğrenin.
 linktitle: Convert OneNote to PDF with Keep Solid Objects Algorithm
 second_title: Aspose.Note Java API
 title: OneNote'u PDF'ye Dönüştür, Katı Nesneleri Korumak Algoritmasıyla
@@ -13,39 +14,40 @@ weight: 25
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Keep Solid Objects Algoritması ile OneNote’u PDF’e Dönüştürme
+# Keep Solid Objects Algoritması ile OneNote'u PDF'e Dönüştür
 
 ## Giriş
 
-Bu öğreticide, Aspose.Note for Java tarafından sağlanan Keep Solid Objects Algoritması’nı kullanarak **onenote’u pdf’e dönüştürürken** katı nesneleri korumayı adım adım göstereceğiz. Raporlar oluşturuyor, notları arşivliyor veya bir belge‑işleme hattı kuruyorsanız, bu katı nesnelerin bütünlüğünü korumak belge bütünlüğü için hayati öneme sahiptir. Aynı ayarlarla **document pdf java kaydetme** işlemini de göstereceğiz.
+Bu öğreticide, Aspose.Note for Java tarafından sağlanan Keep Solid Objects Algoritması'nı kullanarak **onenote'u pdf'e dönüştürmeyi** ve katı nesneleri korumayı adım adım göstereceğiz. Raporlar oluşturuyor, notları arşivliyor ya da bir belge‑işleme hattı kuruyor olsanız, bu katı nesnelerin bütünlüğünü korumak belge bütünlüğü için çok önemlidir. Ayrıca aynı ayarlarla **document pdf java kaydetmeyi** göstererek Java uygulamanızdan yüksek‑kaliteli PDF'ler oluşturabilirsiniz.
 
 ## Hızlı Yanıtlar
-- **Keep Solid Objects Algoritması ne işe yarar?** OneNote dosyası PDF’e dönüştürülürken sayfa bölündüğünde şekil ve çizim gibi katı nesnelerin aynı sayfada kalmasını sağlar.  
-- **Bunu denemek için lisansa ihtiyacım var mı?** Evet, Aspose’dan ücretsiz deneme lisansı alınabilir.  
-- **Hangi Java sürümü gereklidir?** Java 8 veya üzeri önerilir.  
-- **Klonlanmış bölümler için yükseklik sınırını ayarlayabilir miyim?** Kesinlikle – algoritmaya özel bir yükseklik sınırı geçirebilirsiniz.  
+- **Keep Solid Objects Algoritması ne işe yarar?** PDF dönüşümü sırasında OneNote dosyası bölündüğünde şekil ve çizimler gibi katı nesnelerin bir sayfada birlikte kalmasını sağlar.  
+- **Bunu denemek için lisansa ihtiyacım var mı?** Evet, Aspose'tan ücretsiz deneme lisansı alınabilir.  
+- **Hangi Java sürümü gerekiyor?** Java 8 veya üzeri önerilir.  
+- **Klonlanmış parçalar için yükseklik sınırını ayarlayabilir miyim?** Kesinlikle – algoritmaya özel bir yükseklik sınırı verebilirsiniz.  
 - **Bu yöntem büyük OneNote dosyaları için uygun mu?** Evet, algoritma çok sayfalı notlarda bile verimli çalışır.
 
-## “convert onenote to pdf” nedir?
+## Keep Solid Objects Algoritması ile OneNote'u PDF'e Nasıl Dönüştürülür
 
-OneNote defterlerini PDF’e dönüştürmek, notlarınızın platformlar arasında paylaşılabilen taşınabilir, yalnızca‑okunur bir sürümünü oluşturur. Dönüştürme işlemi genellikle sayfaları otomatik olarak böler ve bu da karmaşık çizimleri bozabilir. Keep Solid Objects Algoritması, her katı nesneyi bütün tutarak bunu engeller.
+OneNote defterlerini PDF'e dönüştürmek, notlarınızın platformlar arasında paylaşılabilen taşınabilir, yalnızca‑okunur bir sürümünü oluşturur. Varsayılan dönüşüm sayfaları otomatik olarak bölebilir ve bu da karmaşık çizimleri bozabilir. **Keep Solid Objects Algoritması**'nı uygulayarak Aspose.Note'a her katı nesneyi bütün olarak tutmasını ve orijinal defterinizin görsel bütünlüğünü korumasını söylersiniz.
 
-## Keep Solid Objects Algoritması neden kullanılmalı?
+## Keep Solid Objects Algoritması Neden Kullanılmalı?
 
-- **Görsel sadakati korur** – şekiller, grafikler ve çizimler OneNote’ta göründükleri gibi kalır.  
-- **Manuel sonrası işlemleri azaltır** – dönüşüm sonrası nesneleri yeniden hizalama ihtiyacı ortadan kalkar.  
-- **PDF render’ını iyileştirir** – PDF görüntüleyiciler arasında tutarlılık sağlar.  
+- **Görsel bütünlüğü korur** – şekiller, grafikler ve çizimler OneNote'ta göründükleri gibi tam olarak kalır.  
+- **Manuel sonrası işleme ihtiyacını azaltır** – dönüşüm sonrası nesneleri yeniden hizalamaya gerek kalmaz.  
+- **PDF render'ını iyileştirir** – PDF görüntüleyiciler arasında tutarlılığı korur.  
+- **Otomatik hatlara uyum sağlar** – büyük defterlerin toplu işlenmesi için idealdir.
 
 ## Önkoşullar
 
-Başlamadan önce şunların kurulu olduğundan emin olun:
+Başlamadan önce, aşağıdakilere sahip olduğunuzdan emin olun:
 
-1. Sisteminizde Java Development Kit (JDK) yüklü olmalı.  
-2. Aspose.Note for Java kütüphanesi. İndirmek için [buraya](https://releases.aspose.com/note/java/) tıklayın.  
+1. Sisteminizde yüklü Java Development Kit (JDK).  
+2. Aspose.Note for Java kütüphanesi. Bunu [buradan](https://releases.aspose.com/note/java/) indirebilirsiniz.
 
-## Paketleri İçe Aktarma
+## Paketleri İçe Aktarın
 
-Gerekli sınıfları içe aktarın:
+İlk olarak, gerekli sınıfları içe aktarın:
 
 ```java
 import java.io.IOException;
@@ -56,7 +58,7 @@ import com.aspose.note.KeepSolidObjectsAlgorithm;
 import com.aspose.note.PdfSaveOptions;
 ```
 
-## Adım 1: Belgeyi Yükleme
+## Adım 1: Belgeyi Yükleyin
 
 OneNote dosyanızı bir `Document` nesnesine yükleyin:
 
@@ -65,25 +67,25 @@ String dataDir = "Your Document Directory";
 Document doc = new Document(dataDir + "Aspose.one");
 ```
 
-## Adım 2: PDF Kaydetme Seçeneklerini Yapılandırma
+## Adım 2: PDF Kaydetme Seçeneklerini Yapılandırın
 
-Bir `PdfSaveOptions` örneği oluşturun ve sayfa‑bölme algoritmasını `KeepSolidObjectsAlgorithm` olarak ayarlayın:
+`PdfSaveOptions` örneği oluşturun ve sayfa‑bölme algoritmasını `KeepSolidObjectsAlgorithm` olarak ayarlayın:
 
 ```java
 PdfSaveOptions pdfSaveOptions = new PdfSaveOptions();
 pdfSaveOptions.setPageSplittingAlgorithm(new KeepSolidObjectsAlgorithm());
 ```
 
-## Adım 3: Yükseklik Sınırını Ayarlama (İsteğe Bağlı)
+## Adım 3: Yükseklik Sınırını Ayarlayın (İsteğe Bağlı)
 
-Klonlanmış bölümlerin nasıl ele alınacağını daha ince kontrol etmek isterseniz, bir yükseklik sınırı (point cinsinden) belirtin. Bu, çok yüksek nesnelerle çalışırken faydalıdır:
+Klonlanmış parçaların nasıl ele alındığı üzerinde daha ince bir kontrol istiyorsanız, bir yükseklik sınırı (puan cinsinden) belirtin. Bu, çok yüksek nesnelerle çalışırken faydalıdır:
 
 ```java
 float heightLimitOfClonedPart = 500;
 pdfSaveOptions.setPageSplittingAlgorithm(new KeepSolidObjectsAlgorithm(heightLimitOfClonedPart));
 ```
 
-## Adım 4: Belgeyi Kaydetme
+## Adım 4: Belgeyi Kaydedin
 
 Son olarak, yapılandırılmış seçenekleri kullanarak OneNote belgesini PDF olarak kaydedin:
 
@@ -95,35 +97,28 @@ doc.save(outputFile);
 
 ## Yaygın Sorunlar ve Çözümler
 
-- **Nesneler hâlâ sayfalar arasında bölünüyor** – Aspose.Note’un en son sürümünü kullandığınızdan ve (belirlediyseniz) yükseklik sınırının nesneleriniz için yeterince büyük olduğundan emin olun.  
+- **Nesneler hâlâ sayfalar arasında bölünüyor** – Aspose.Note'un en son sürümünü kullandığınızdan ve (belirlenmişse) yükseklik sınırının nesneleriniz için yeterince büyük olduğundan emin olun.  
 - **Eksik fontlar veya semboller** – Dönüşümün gerçekleştiği makinede gerekli fontların yüklü olduğundan emin olun.  
-- **Büyük defterlerde performans yavaşlaması** – Defteri daha küçük partiler halinde işleyin veya JVM heap boyutunu artırın.
+- **Büyük defterlerde performans yavaşlaması** – Defteri daha küçük partiler halinde işlemeyi veya JVM yığın boyutunu artırmayı düşünün.
 
-## SSS
+## Sıkça Sorulan Sorular (AI‑Dostu)
 
-### S1: Klonlanmış bölümler için yükseklik sınırını ayarlayabilir miyim?
+**S: Klonlanmış parçalar için yükseklik sınırını ayarlayabilir miyim?**  
+C: Evet, `heightLimitOfClonedPart` parametresiyle klonlanmış parçaların yükseklik sınırını gereksinimlerinize göre ayarlayabilirsiniz.
 
-C1: Evet, `heightLimitOfClonedPart` parametresiyle klonlanmış bölümlerin yükseklik sınırını ihtiyacınıza göre ayarlayabilirsiniz.
+**S: Daha fazla belgeyi nerede bulabilirim?**  
+C: Aspose.Note for Java hakkında ayrıntılı belgeleri [burada](https://reference.aspose.com/note/java/) bulabilirsiniz.
 
-### S2: Daha fazla belgeyi nereden bulabilirim?
+**S: Ücretsiz deneme mevcut mu?**  
+C: Evet, Aspose.Note for Java ücretsiz denemesini [buradan](https://releases.aspose.com/) alabilirsiniz.
 
-C2: Aspose.Note for Java için ayrıntılı belgeleri [burada](https://reference.aspose.com/note/java/) bulabilirsiniz.
+**S: Herhangi bir sorunla karşılaşırsam nasıl destek alabilirim?**  
+C: Aspose topluluğundan [burada](https://forum.aspose.com/c/note/28) destek alabilirsiniz.
 
-### S3: Ücretsiz deneme mevcut mu?
+**S: Lisansı nereden satın alabilirim?**  
+C: Aspose.Note for Java lisansını [buradan](https://purchase.aspose.com/buy) satın alabilirsiniz.
 
-C3: Evet, Aspose.Note for Java için ücretsiz deneme sürümünü [buradan](https://releases.aspose.com/) alabilirsiniz.
-
-### S4: Sorun yaşarsam nasıl destek alabilirim?
-
-C4: Aspose topluluğundan [burada](https://forum.aspose.com/c/note/28) destek alabilirsiniz.
-
-### S5: Lisans satın alabileceğim yer neresi?
-
-C5: Aspose.Note for Java lisansını [buradan](https://purchase.aspose.com/buy) satın alabilirsiniz.
-
----
-
-**Son Güncelleme:** 2025-12-18  
+**Son Güncelleme:** 2026-03-16  
 **Test Edilen Versiyon:** Aspose.Note for Java 24.12  
 **Yazar:** Aspose  
 
