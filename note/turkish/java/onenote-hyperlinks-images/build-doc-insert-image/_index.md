@@ -1,10 +1,11 @@
 ---
-date: 2025-12-20
-description: Aspose.Note for Java kullanarak OneNote'a resim eklemeyi öğrenin. OneNote
-  belgeleri oluşturmak ve programlı olarak resim eklemek için adım adım rehber.
+date: 2026-03-19
+description: Aspose.Note for Java kullanarak OneNote'a resim eklemeyi öğrenin. Bu
+  adım adım kılavuz, OneNote belgeleri oluşturmayı, OneNote'a resim eklemeyi ve OneNote'u
+  PDF olarak kaydetmeyi gösterir.
 linktitle: How to add picture to OneNote using Java – Build Document and Insert Image
 second_title: Aspose.Note Java API
-title: Java kullanarak OneNote'a resim ekleme – Belge oluşturma ve resim ekleme
+title: Java kullanarak OneNote'a resim ekleme – Belge Oluşturma ve Resim Ekleme
 url: /tr/java/onenote-hyperlinks-images/build-doc-insert-image/
 weight: 12
 ---
@@ -13,39 +14,41 @@ weight: 12
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Java ile OneNote’a Resim Ekleme – Belge Oluşturma ve Görsel Yerleştirme
+# Java kullanarak OneNote'a resim ekleme – Belge Oluşturma ve Resim Ekleme
 
-## Giriş
+## Introduction
 
-Bu öğreticide **Java Aspose.Note API** kullanarak **OneNote’a resim eklemeyi** öğreneceksiniz. Sıfırdan bir OneNote belgesi oluşturma, bir görsel ekleme ve sonucu PDF olarak kaydetme adımlarını göstereceğiz. Raporlama aracı geliştiriyor, not alma süreçlerini otomatikleştiriyor ya da programlı olarak grafik eklemeniz gerekiyorsa, bu rehber net ve uygulamalı bir yol sunar.
+Bu öğreticide, Aspose.Note Java API'sini kullanarak **OneNote'a resim eklemeyi** öğreneceksiniz. Sıfırdan bir OneNote belgesi oluşturmayı, bir görüntü eklemeyi ve sonucu PDF olarak kaydetmeyi adım adım göstereceğiz. Raporlama aracı geliştiriyor, not alma sürecini otomatikleştiriyor ya da programlı olarak grafik eklemeniz gerekiyorsa, bu rehber size net ve uygulamalı bir yol sunar.
 
-## Hızlı Yanıtlar
-- **Hangi kütüphane gerekiyor?** Aspose.Note for Java.
-- **Herhangi bir resim formatı ekleyebilir miyim?** JPEG, PNG, BMP, GIF ve daha fazlası desteklenir.
-- **Hangi çıktı formatları mevcut?** OneNote, PDF, XPS, HTML vb. olarak kaydedebilirsiniz.
-- **Üretim ortamında lisans gerekli mi?** Evet, deneme dışı kullanım için ticari lisans gerekir.
-- **Kod platformlar arası mı?** Kesinlikle – Java Windows, Linux ve macOS’ta çalışır.
+## Quick Answers
+- **What library do I need?** Aspose.Note for Java.  
+- **Can I insert any image format?** JPEG, PNG, BMP, GIF and more are supported.  
+- **Which output formats are available?** You can save as OneNote, PDF, XPS, HTML, etc.  
+- **Do I need a license for production?** Yes, a commercial license is required for non‑trial use.  
+- **Is the code cross‑platform?** Absolutely – Java runs on Windows, Linux, and macOS.
 
-## “OneNote’a resim ekleme” nedir?
-OneNote’a resim eklemek, bir resim dosyasını programlı olarak OneNote sayfasına gömerek metin, başlık veya diğer öğelerle birlikte görünmesini sağlamaktır. Aspose.Note API, OneNote dosya formatını soyutlayarak içeriğe odaklanmanızı, XML yapısını yönetmenizi gerektirmez.
+## How to add picture to onenote using Java
 
-## Neden Java ile OneNote’a resim ekleyelim?
-- **Otomasyon:** Toplantı tutanaklarını otomatik olarak ekran görüntüleriyle oluşturun.
-- **Tutarlılık:** Her sayfanın aynı düzen ve marka kimliğine sahip olmasını sağlayın.
-- **Entegrasyon:** Diğer sistemlerden gelen verileri (ör. grafikler) doğrudan OneNote defterlerine ekleyin.
-- **Platform bağımsızlığı:** Java, aynı kodu herhangi bir sunucu ya da masaüstü ortamında çalıştırmanıza olanak tanır.
+OneNote'a resim eklemek, bir görüntü dosyasını programlı olarak bir OneNote sayfasına gömmek anlamına gelir; böylece resim metin, taslaklar veya diğer öğelerle birlikte görünür. Aspose.Note API'si OneNote dosya formatını soyutlayarak, alttaki XML yapısına odaklanmadan içeriğe odaklanmanızı sağlar.
 
-## Önkoşullar
+### Why embed image in OneNote?
 
-Başlamadan önce aşağıdakilere sahip olduğunuzdan emin olun:
+- **Automation:** Generate meeting minutes with screenshots automatically.  
+- **Consistency:** Ensure every page follows the same layout and branding.  
+- **Integration:** Combine data from other systems (e.g., charts) directly into OneNote notebooks.  
+- **Cross‑platform:** Java lets you run the same code on any server or desktop environment.
 
-1. **Java Development Kit (JDK)** – herhangi bir güncel sürüm (8 veya üzeri).  
-2. **Aspose.Note for Java kütüphanesi** – [web sitesinden](https://releases.aspose.com/note/java/) indirin.  
-3. **IDE** – IntelliJ IDEA, Eclipse veya tercih ettiğiniz herhangi bir Java uyumlu editör.  
+## Prerequisites
 
-## Paketleri İçe Aktarma
+Before we begin, make sure you have the following:
 
-Java kaynak dosyanıza gerekli sınıfları aşağıdaki gibi ekleyin:
+1. **Java Development Kit (JDK)** – any recent version (8 or later).  
+2. **Aspose.Note for Java library** – download it from the [website](https://releases.aspose.com/note/java/).  
+3. **IDE** – IntelliJ IDEA, Eclipse, or any Java‑compatible editor you prefer.  
+
+## Import Packages
+
+Start by importing the necessary classes in your Java source file:
 
 ```java
 import java.io.IOException;
@@ -58,11 +61,11 @@ import com.aspose.note.Page;
 import com.aspose.note.SaveFormat;
 ```
 
-## Adım‑Adım Kılavuz
+## Step‑by‑Step Guide
 
-### Adım 1: Belgeyi Oluşturma
+### Step 1: Set Up the Document
 
-Yeni bir OneNote belgesi ve içeriğin yer alacağı bir sayfa konteyneri oluşturun.
+Create a fresh OneNote document and a page container where the content will live.
 
 ```java
 String dataDir = "Your Document Directory";
@@ -70,9 +73,9 @@ Document doc = new Document();
 Page page = new Page();
 ```
 
-### Adım 2: Outline’ı Başlatma
+### Step 2: Initialize the Outline
 
-*Outline*, metin ve görseller gibi öğeleri tutan bir kapsayıcı görevi görür. İçeriğin sol‑üst köşeden başlaması için ofsetleri sıfıra ayarlarız.
+An *outline* acts like a container for elements such as text and images. We set its offsets to zero so the content starts at the top‑left corner.
 
 ```java
 Outline outline = new Outline();
@@ -80,27 +83,27 @@ outline.setVerticalOffset(0);
 outline.setHorizontalOffset(0);
 ```
 
-### Adım 3: Görseli Yükleme ve Hizalama
+### Step 3: Load and Align the Image
 
-Eklemek istediğiniz resmi yükleyin ve sayfanın sağ tarafına hizalayın. İşte **OneNote’a resim ekleme** işleminin gerçekleştiği adım.
+Load the picture you want to embed and align it to the right side of the page. This is where we actually **add picture to OneNote**. The `Image` constructor demonstrates how to **load image file java** code‑wise.
 
 ```java
 Image image = new Image(null, dataDir + "Input.jpg");
 image.setAlignment(HorizontalAlignment.Right);
 ```
 
-### Adım 4: Görseli Outline Elementine Bağlama
+### Step 4: Attach the Image to an Outline Element
 
-Görseli bir `OutlineElement` içine sarın. Bu adım, görsel nesnesini belgenin outline hiyerarşisine bağlar.
+Wrap the image inside an `OutlineElement`. This step links the visual object to the document’s outline hierarchy and effectively **insert image into OneNote**.
 
 ```java
 OutlineElement outlineElem = new OutlineElement();
 outlineElem.appendChildLast(image);
 ```
 
-### Adım 5: Belge Yapısını Oluşturma
+### Step 5: Assemble the Document Structure
 
-Outline elementini outline’a ekleyin, ardından outline’ı sayfaya, son olarak da sayfayı belgeye ekleyin.
+Add the outline element to the outline, then attach the outline to the page, and finally add the page to the document.
 
 ```java
 outline.appendChildLast(outlineElem);
@@ -108,9 +111,9 @@ page.appendChildLast(outline);
 doc.appendChildLast(page);
 ```
 
-### Adım 6: OneNote Belgesini Kaydetme
+### Step 6: Save the OneNote Document
 
-Belgeyi diske kalıcı olarak yazın. Bu örnekte PDF’ye dışa aktarıyoruz, ancak `SaveFormat`’ı değiştirerek yerel OneNote dosyası (`.one`) olarak da kaydedebilirsiniz.
+Persist the document to disk. In this example we export to PDF, which demonstrates how to **save OneNote as PDF** or **convert OneNote to PDF**. You can also save as a native OneNote file (`.one`) by changing the `SaveFormat`.
 
 ```java
 try {
@@ -120,36 +123,42 @@ try {
 }
 ```
 
-## Yaygın Sorunlar ve Çözümler
+## Common Issues and Solutions
 
-| Sorun | Neden Oluşur | Çözüm |
-|-------|--------------|------|
-| **Görsel görünmüyor** | Yanlış dosya yolu veya desteklenmeyen format. | `dataDir`’in doğru klasöre işaret ettiğini doğrulayın ve desteklenen bir resim türü (JPEG, PNG vb.) kullanın. |
-| **Belge boş PDF olarak kaydediliyor** | Outline ofsetleri hatalı ayarlanmış. | `setVerticalOffset(0)` ve `setHorizontalOffset(0)` çağrılarının yapıldığından emin olun veya ofsetleri sayfa sınırları içinde olacak şekilde ayarlayın. |
-| **Kaydetme sırasında IOException** | Hedef klasör mevcut değil ya da yazma izni yok. | Klasörü önceden oluşturun veya programı gerekli izinlerle çalıştırın. |
+| Issue | Why it Happens | Fix |
+|-------|----------------|-----|
+| **Image not appearing** | Wrong file path or unsupported format. | Verify `dataDir` points to the correct folder and use a supported image type (JPEG, PNG, etc.). |
+| **Document saved as empty PDF** | Outline offsets set incorrectly. | Ensure `setVerticalOffset(0)` and `setHorizontalOffset(0)` are called, or adjust offsets to place content within the page bounds. |
+| **IOException on save** | Destination folder does not exist or lacks write permission. | Create the folder beforehand or run the program with appropriate permissions. |
 
-## Sık Sorulan Sorular
+## Frequently Asked Questions
 
-**S1: Aspose.Note for Java dokümantasyonuna nereden ulaşabilirim?**  
-C1: Dokümantasyona [buradan](https://reference.aspose.com/note/java/) erişebilirsiniz.
+**Q1: Where can I find the documentation for Aspose.Note for Java?**  
+A1: You can access the documentation [here](https://reference.aspose.com/note/java/).
 
-**S2: Aspose.Note for Java’yı nasıl indirebilirim?**  
-C2: Aspose.Note for Java’yı [indirme sayfasından](https://releases.aspose.com/note/java/) indirebilirsiniz.
+**Q2: How do I download Aspose.Note for Java?**  
+A2: You can download Aspose.Note for Java from the [download page](https://releases.aspose.com/note/java/).
 
-**S3: Aspose.Note for Java için ücretsiz deneme mevcut mu?**  
-C3: Evet, ücretsiz deneme sürümünü [web sitesinden](https://releases.aspose.com/) alabilirsiniz.
+**Q3: Is there a free trial available for Aspose.Note for Java?**  
+A3: Yes, you can get a free trial from the [website](https://releases.aspose.com/).
 
-**S4: Aspose.Note for Java için destek nasıl alınır?**  
-C4: Destek için [Aspose.Note forumunu](https://forum.aspose.com/c/note/28) ziyaret edin.
+**Q4: Where can I get support for Aspose.Note for Java?**  
+A4: For support, visit the [Aspose.Note forum](https://forum.aspose.com/c/note/28).
 
-**S5: Aspose.Note for Java için geçici bir lisans alabilir miyim?**  
-C5: Geçici lisansı [buradan](https://purchase.aspose.com/temporary-license/) talep edebilirsiniz.
+**Q5: Can I obtain a temporary license for Aspose.Note for Java?**  
+A5: Yes, you can request a temporary license [here](https://purchase.aspose.com/temporary-license/).
+
+**Q6: Can I use this code to **save OneNote as PDF** on a Linux server?**  
+A6: Absolutely. The Aspose.Note library is platform‑independent, so the same code works on Windows, Linux, and macOS.
+
+**Q7: Does the API support **embed image in OneNote** with transparent PNGs?**  
+A7: Yes, PNG files with alpha channels are fully supported and retain transparency when inserted.
 
 ---
 
-**Son Güncelleme:** 2025-12-20  
-**Test Edilen Sürüm:** Aspose.Note for Java 24.12 (en yeni)  
-**Yazar:** Aspose  
+**Last Updated:** 2026-03-19  
+**Tested With:** Aspose.Note for Java 24.12 (latest)  
+**Author:** Aspose  
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

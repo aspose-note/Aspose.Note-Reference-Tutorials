@@ -1,12 +1,12 @@
 ---
-date: 2025-12-21
-description: Dowiedz się, jak tworzyć dokumenty OneNote w Javie i bez wysiłku wstawiać
-  obrazy przy użyciu Aspose.Note dla Javy. Przewodnik krok po kroku dla programistów
-  Java.
+date: 2026-03-19
+description: Dowiedz się, jak tworzyć dokumenty OneNote w Javie przy użyciu Aspose.Note
+  for Java i wstawiać obrazy ze strumienia. Przewodnik krok po kroku dla programistów
+  Javy.
 linktitle: How to create onenote document java – Build Doc and Insert Image with Stream
 second_title: Aspose.Note Java API
 title: Jak utworzyć dokument OneNote w Javie – budowanie dokumentu i wstawianie obrazu
-  przy użyciu strumienia
+  za pomocą strumienia
 url: /pl/java/onenote-hyperlinks-images/build-doc-insert-image-stream/
 weight: 13
 ---
@@ -15,27 +15,27 @@ weight: 13
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Jak utworzyć dokument OneNote w Java – Budowanie dokumentu i wstawianie obrazu za pomocą strumienia
+# Jak utworzyć dokument onenote w Javie – Tworzenie dokumentu i wstawianie obrazu przy użyciu strumienia
 
 ## Wprowadzenie
 
-Witamy! W tym samouczku **utworzysz dokument OneNote w Java** od podstaw i nauczysz się wstawiać obrazy przy użyciu strumienia obrazu. Przejdziemy przez każdy krok, wyjaśnimy, dlaczego każdy element ma znaczenie, i podamy praktyczne wskazówki, abyś mógł zastosować tę technikę w rzeczywistych projektach. Po zakończeniu będziesz w stanie programowo generować strony OneNote i osadzać obrazy dokładnie tam, gdzie ich potrzebujesz.
+Witamy! W tym samouczku **utworzysz dokument onenote w Javie** od podstaw i nauczysz się wstawiać obrazy przy użyciu strumienia obrazu. Przejdziemy krok po kroku, wyjaśnimy, dlaczego każdy element ma znaczenie, i podamy praktyczne wskazówki, abyś mógł zastosować tę technikę w rzeczywistych projektach. Po zakończeniu będziesz w stanie programowo generować strony OneNote i osadzać obrazy dokładnie tam, gdzie ich potrzebujesz.
 
 ## Szybkie odpowiedzi
 - **Jakiej biblioteki potrzebuję?** Aspose.Note for Java  
 - **Czy mogę wstawiać obrazy ze strumienia?** Tak – wystarczy przekazać `InputStream` do konstruktora `Image`.  
 - **Do jakiego formatu mogę eksportować?** Każdy format obsługiwany przez Aspose.Note, np. PDF, DOCX, HTML.  
-- **Czy potrzebuję licencji do rozwoju?** Darmowa licencja tymczasowa działa w trybie ewaluacji; pełna licencja jest wymagana w produkcji.  
-- **Jaka wersja Java jest wymagana?** Java 8 lub wyższa.
+- **Czy potrzebna jest licencja do rozwoju?** Darmowa licencja tymczasowa działa w trybie ewaluacyjnym; pełna licencja jest wymagana w produkcji.  
+- **Jaka wersja Javy jest wymagana?** Java 8 lub wyższa.
 
-## Co to jest „utworzyć dokument OneNote w Java”?
+## Co to jest „create onenote document java”?
 
-Tworzenie dokumentu OneNote w Java oznacza użycie API Aspose.Note do programowego budowania struktury notatnika — stron, konturów i elementów — bez otwierania aplikacji OneNote na komputerze. Takie podejście jest idealne do automatycznego generowania raportów, przetwarzania partii notatek lub integrowania treści OneNote w większych aplikacjach Java.
+Tworzenie dokumentu OneNote w Javie oznacza użycie API Aspose.Note do programowego budowania struktury notatnika — stron, konturów i elementów — bez otwierania aplikacji OneNote na komputerze. Takie podejście jest idealne do automatycznego generowania raportów, przetwarzania partii notatek lub integrowania treści OneNote w większych aplikacjach Java.
 
-## Dlaczego używać Aspose.Note for Java do tworzenia dokumentu OneNote w Java?
+## Dlaczego warto używać Aspose.Note for Java do tworzenia dokumentu onenote w Javie?
 
 - **Pełna kontrola** nad układem strony, pozycjonowaniem konturów i stylizacją elementów.  
-- **Brak interfejsu COM** – działa na każdym systemie operacyjnym obsługującym Java.  
+- **Brak interakcji COM** – działa na każdym systemie operacyjnym obsługującym Javę.  
 - **Bogate opcje eksportu** – konwertuj ten sam dokument do PDF, DOCX, HTML itp. jednym wywołaniem.  
 - **Przyjazny dla strumieni** – możesz ładować obrazy bezpośrednio z pamięci, sieci lub przechowywania w chmurze.
 
@@ -49,7 +49,7 @@ Najnowszy JDK (8 lub nowszy) zainstalowany na Twoim komputerze.
 
 ### Biblioteka Aspose.Note for Java
 
-Pobierz bibliotekę ze strony oficjalnej wersji Aspose: [https://releases.aspose.com/note/java/](https://releases.aspose.com/note/java/).
+Pobierz bibliotekę z oficjalnej strony wydania Aspose: [https://releases.aspose.com/note/java/](https://releases.aspose.com/note/java/).
 
 ### Konfiguracja IDE
 
@@ -57,7 +57,7 @@ Skonfiguruj swoje ulubione IDE (IntelliJ IDEA, Eclipse, VS Code), aby uwzględni
 
 ## Importowanie pakietów
 
-Na początek zaimportuj wymagane klasy Java i Aspose.Note. Te importy dają dostęp do tworzenia dokumentów, obsługi stron, zarządzania konturami i wstawiania obrazów.
+Na początek zaimportuj wymagane klasy Java i Aspose.Note. Te importy zapewniają dostęp do tworzenia dokumentów, obsługi stron, zarządzania konturami i wstawiania obrazów.
 
 ```java
 import java.io.FileInputStream;
@@ -83,7 +83,7 @@ String dataDir = "Your Document Directory";
 
 ## Krok 2: Utwórz obiekt Document
 
-Utwórz nowy obiekt `Document`. Ten obiekt reprezentuje notatnik OneNote, który budujesz.
+Utwórz nową instancję `Document`. Ten obiekt reprezentuje notatnik OneNote, który budujesz.
 
 ```java
 Document doc = new Document();
@@ -99,7 +99,7 @@ Page page = new Page();
 
 ## Krok 4: Utwórz Outline
 
-`Outline` działa jak kontener dla rozmieszczonych elementów. Tutaj ustawiamy pionowe i poziome przesunięcia, aby umieścić kontur na stronie.
+`Outline` działa jak kontener dla elementów pozycjonowanych. Tutaj ustawiamy pionowe i poziome offsety, aby umieścić kontur na stronie.
 
 ```java
 Outline outline1 = new Outline();
@@ -109,7 +109,7 @@ outline1.setHorizontalOffset(0);
 
 ## Krok 5: Utwórz Outline Element
 
-`OutlineElement` będzie zawierał obraz, który zamierzamy wstawić.
+`OutlineElement` będzie hostował obraz, który zamierzamy wstawić.
 
 ```java
 OutlineElement outlineElem1 = new OutlineElement();
@@ -181,11 +181,11 @@ try {
 }
 ```
 
-Postępując zgodnie z tymi krokami, pomyślnie **utworzyłeś dokument OneNote w Java** i osadziłeś obraz przy użyciu strumienia wejściowego.
+Postępując zgodnie z tymi krokami, pomyślnie **utworzyłeś dokument onenote w Javie** i osadziłeś obraz przy użyciu strumienia wejściowego.
 
 ## Typowe pułapki i wskazówki
 
-- **Strumień nie został zamknięty** – W środowisku produkcyjnym zawsze zamykaj `InputStream` w bloku `finally` lub używaj try‑with‑resources.  
+- **Strumień nie zamknięty** – W środowisku produkcyjnym zawsze zamykaj `InputStream` w bloku `finally` lub używaj try‑with‑resources.  
 - **Nieprawidłowa ścieżka pliku** – Sprawdź dwukrotnie, czy `dataDir` kończy się odpowiednim separatorem (`/` lub `\`).  
 - **Wyrównanie obrazu** – Jeśli obraz pojawia się poza ekranem, dostosuj wartości `VerticalOffset`/`HorizontalOffset` konturu.  
 - **Wyjątki licencyjne** – Korzystanie z wersji ewaluacyjnej może dodać znak wodny do wyniku; zastosuj ważną licencję, aby go usunąć.
@@ -202,7 +202,7 @@ A2: Tak, możesz modyfikować wyrównanie, rozmiar, obrót, a nawet przycinać o
 
 ### Q3: Czy Aspose.Note for Java zapewnia obsługę innych formatów dokumentów poza PDF?
 
-A3: Zdecydowanie. API może eksportować do DOCX, HTML, XPS i kilku innych formatów, dając elastyczność w udostępnianiu lub archiwizacji notatek.
+A3: Zdecydowanie. API może eksportować do DOCX, HTML, XPS i kilku innych formatów, dając Ci elastyczność w udostępnianiu lub archiwizacji notatek.
 
 ### Q4: Gdzie mogę znaleźć dodatkowe zasoby i wsparcie dla Aspose.Note for Java?
 
@@ -212,10 +212,14 @@ A4: Oficjalna strona Aspose oferuje obszerną dokumentację, przykłady kodu, fo
 
 A5: Tak, możesz pobrać darmową wersję próbną ze strony wydania Aspose, aby przetestować wszystkie funkcje przed zakupem.
 
+## Podsumowanie
+
+Masz teraz kompletny, kompleksowy przykład, jak **utworzyć dokument onenote w Javie** i osadzić obrazy bezpośrednio z `InputStream`. Śmiało eksperymentuj z dodatkowymi elementami — tekstem, tabelami lub kształtami — aby wzbogacić swoje notatki. Gdy będziesz gotowy, odkryj liczne opcje eksportu oferowane przez Aspose.Note, aby udostępnić treść OneNote jako PDF, DOCX, HTML i inne.
+
 ---
 
-**Ostatnia aktualizacja:** 2025-12-21  
-**Testowano z:** Aspose.Note for Java 24.12 (najnowsza w momencie pisania)  
+**Ostatnia aktualizacja:** 2026-03-19  
+**Testowano z:** Aspose.Note for Java 24.12 (latest at time of writing)  
 **Autor:** Aspose  
 
 {{< /blocks/products/pf/tutorial-page-section >}}

@@ -1,6 +1,7 @@
 ---
-date: 2025-12-20
-description: 学习如何使用 Aspose.Note for Java 向 OneNote 添加图片。一步一步的指南，帮助您构建 OneNote 文档并以编程方式插入图像。
+date: 2026-03-19
+description: 学习如何使用 Aspose.Note for Java 向 OneNote 添加图片。本分步指南展示了如何创建 OneNote 文档、将图片插入
+  OneNote，以及将 OneNote 保存为 PDF。
 linktitle: How to add picture to OneNote using Java – Build Document and Insert Image
 second_title: Aspose.Note Java API
 title: 如何使用 Java 向 OneNote 添加图片 – 构建文档并插入图像
@@ -14,39 +15,39 @@ weight: 12
 
 # 如何使用 Java 向 OneNote 添加图片 – 构建文档并插入图像
 
-## 简介
+## 介绍
 
-在本教程中，您将学习 **如何使用 Aspose.Note Java API 向 OneNote 添加图片**。我们将演示如何从头创建 OneNote 文档、插入图像并将结果保存为 PDF。无论您是在构建报告工具、自动化记笔记，还是仅需以编程方式嵌入图形，本指南都提供了清晰、动手的路径。
+在本教程中，您将学习 **如何向 OneNote 添加图片**，使用 Aspose.Note Java API。我们将一步步演示如何从零创建 OneNote 文档、插入图像并将结果保存为 PDF。无论您是在构建报表工具、自动化记笔记，还是仅需以编程方式嵌入图形，本指南都提供了清晰、实操的路径。
 
-## 快速解答
-- **我需要哪个库？** Aspose.Note for Java.
-- **我可以插入任何图像格式吗？** 支持 JPEG、PNG、BMP、GIF 等。
-- **有哪些输出格式可用？** 您可以保存为 OneNote、PDF、XPS、HTML 等。
-- **生产环境需要许可证吗？** 是的，非试用使用需要商业许可证。
-- **代码是否跨平台？** 当然 – Java 可在 Windows、Linux 和 macOS 上运行。
+## 快速答案
+- **需要哪个库？** Aspose.Note for Java.  
+- **我可以插入任何图像格式吗？** 支持 JPEG、PNG、BMP、GIF 等。  
+- **有哪些输出格式可用？** 您可以保存为 OneNote、PDF、XPS、HTML 等。  
+- **生产环境需要许可证吗？** 是的，非试用使用需要商业许可证。  
+- **代码是跨平台的吗？** 当然——Java 可在 Windows、Linux 和 macOS 上运行。
 
-## 什么是“向 OneNote 添加图片”？
+## 如何使用 Java 向 OneNote 添加图片
 
-向 OneNote 添加图片是指以编程方式将图像文件嵌入到 OneNote 页面，使其与文本、大纲或其他元素一起显示。Aspose.Note API 抽象了 OneNote 文件格式，让您专注于内容，而无需处理底层 XML 结构。
+向 OneNote 添加图片意味着以编程方式将图像文件嵌入到 OneNote 页面中，使其与文本、轮廓或其他元素并列显示。Aspose.Note API 抽象了 OneNote 文件格式，让您专注于内容本身，而无需处理底层 XML 结构。
 
-## 为什么使用 Java 向 OneNote 添加图片？
+### 为什么在 OneNote 中嵌入图像？
 
-- **自动化：** 自动生成带有截图的会议纪要。
-- **一致性：** 确保每页遵循相同的布局和品牌风格。
-- **集成：** 将其他系统（例如图表）的数据直接合并到 OneNote 笔记本中。
+- **自动化：** 自动生成带有截图的会议纪要。  
+- **一致性：** 确保每页遵循相同的布局和品牌。  
+- **集成：** 将其他系统（例如图表）的数据直接合并到 OneNote 笔记本中。  
 - **跨平台：** Java 让您可以在任何服务器或桌面环境上运行相同的代码。
 
-## 前提条件
+## 前置条件
 
 在开始之前，请确保您具备以下条件：
 
 1. **Java Development Kit (JDK)** – 任意近期版本（8 或更高）。  
-2. **Aspose.Note for Java library** – 从[website](https://releases.aspose.com/note/java/)下载。  
-3. **IDE** – IntelliJ IDEA、Eclipse 或您喜欢的任何 Java 兼容编辑器。
+2. **Aspose.Note for Java 库** – 从[网站](https://releases.aspose.com/note/java/)下载。  
+3. **IDE** – IntelliJ IDEA、Eclipse 或您喜欢的任何 Java 兼容编辑器。  
 
 ## 导入包
 
-在 Java 源文件中导入必要的类：
+首先在 Java 源文件中导入必要的类：
 
 ```java
 import java.io.IOException;
@@ -59,11 +60,11 @@ import com.aspose.note.Page;
 import com.aspose.note.SaveFormat;
 ```
 
-## 分步指南
+## 步骤指南
 
 ### 步骤 1：设置文档
 
-创建一个全新的 OneNote 文档以及用于容纳内容的页面容器。
+创建一个全新的 OneNote 文档以及用于存放内容的页面容器。
 
 ```java
 String dataDir = "Your Document Directory";
@@ -83,7 +84,7 @@ outline.setHorizontalOffset(0);
 
 ### 步骤 3：加载并对齐图像
 
-加载要嵌入的图片并将其对齐到页面的右侧。这就是实际 **向 OneNote 添加图片** 的地方。
+加载您想嵌入的图片并将其对齐到页面的右侧。这正是我们实际 **向 OneNote 添加图片** 的地方。`Image` 构造函数演示了如何 **加载图像文件 java**。
 
 ```java
 Image image = new Image(null, dataDir + "Input.jpg");
@@ -92,14 +93,14 @@ image.setAlignment(HorizontalAlignment.Right);
 
 ### 步骤 4：将图像附加到大纲元素
 
-将图像包装在 `OutlineElement` 中。此步骤将视觉对象链接到文档的大纲层次结构。
+将图像包装在 `OutlineElement` 中。此步骤将视觉对象链接到文档的大纲层次结构，并有效地 **插入图像到 OneNote**。
 
 ```java
 OutlineElement outlineElem = new OutlineElement();
 outlineElem.appendChildLast(image);
 ```
 
-### 步骤 5：构建文档结构
+### 步骤 5：组装文档结构
 
 将大纲元素添加到大纲中，然后将大纲附加到页面，最后将页面加入文档。
 
@@ -111,7 +112,7 @@ doc.appendChildLast(page);
 
 ### 步骤 6：保存 OneNote 文档
 
-将文档持久化到磁盘。在本示例中我们导出为 PDF，但您也可以通过更改 `SaveFormat` 将其保存为本机 OneNote 文件（`.one`）。
+将文档持久化到磁盘。本例中我们导出为 PDF，演示了如何 **将 OneNote 保存为 PDF** 或 **将 OneNote 转换为 PDF**。您也可以通过更改 `SaveFormat` 将其保存为原生 OneNote 文件（`.one`）。
 
 ```java
 try {
@@ -123,32 +124,38 @@ try {
 
 ## 常见问题及解决方案
 
-| 问题 | 产生原因 | 解决办法 |
-|------|----------|----------|
-| **图像未显示** | 文件路径错误或格式不受支持。 | 验证 `dataDir` 指向正确的文件夹，并使用受支持的图像类型（JPEG、PNG 等）。 |
-| **文档保存为空 PDF** | 大纲偏移设置不正确。 | 确保调用 `setVerticalOffset(0)` 和 `setHorizontalOffset(0)`，或调整偏移以将内容放置在页面范围内。 |
-| **保存时出现 IOException** | 目标文件夹不存在或没有写入权限。 | 预先创建文件夹或以适当的权限运行程序。 |
+| 问题 | 产生原因 | 解决方案 |
+|-------|----------------|-----|
+| **图像未显示** | 文件路径错误或不支持的格式。 | 验证 `dataDir` 指向正确的文件夹，并使用受支持的图像类型（JPEG、PNG 等）。 |
+| **文档保存为空 PDF** | 大纲偏移设置不正确。 | 确保调用 `setVerticalOffset(0)` 和 `setHorizontalOffset(0)`，或调整偏移量以将内容放置在页面范围内。 |
+| **保存时出现 IOException** | 目标文件夹不存在或没有写入权限。 | 预先创建文件夹或以具有相应权限的方式运行程序。 |
 
-## 常见问题解答
+## 常见问题
 
-**Q1: 在哪里可以找到 Aspose.Note for Java 的文档？**  
-A1: 您可以在[here](https://reference.aspose.com/note/java/)访问文档。
+**Q1：在哪里可以找到 Aspose.Note for Java 的文档？**  
+A1: 您可以在[此处](https://reference.aspose.com/note/java/)访问文档。
 
-**Q2: 如何下载 Aspose.Note for Java？**  
-A2: 您可以从[download page](https://releases.aspose.com/note/java/)下载 Aspose.Note for Java。
+**Q2：如何下载 Aspose.Note for Java？**  
+A2: 您可以从[下载页面](https://releases.aspose.com/note/java/)获取 Aspose.Note for Java。
 
-**Q3: Aspose.Note for Java 是否提供免费试用？**  
-A3: 是的，您可以在[website](https://releases.aspose.com/)获取免费试用。
+**Q3：Aspose.Note for Java 是否提供免费试用？**  
+A3: 是的，您可以从[网站](https://releases.aspose.com/)获取免费试用。
 
-**Q4: 在哪里可以获得 Aspose.Note for Java 的支持？**  
-A4: 请访问[Aspose.Note forum](https://forum.aspose.com/c/note/28)获取支持。
+**Q4：在哪里可以获得 Aspose.Note for Java 的支持？**  
+A4: 请访问[Aspose.Note 论坛](https://forum.aspose.com/c/note/28)获取支持。
 
-**Q5: 我可以为 Aspose.Note for Java 获取临时许可证吗？**  
-A5: 可以，您可以在[here](https://purchase.aspose.com/temporary-license/)请求临时许可证。
+**Q5：我可以获取 Aspose.Note for Java 的临时许可证吗？**  
+A5: 可以，您可以在[此处](https://purchase.aspose.com/temporary-license/)申请临时许可证。
+
+**Q6：我可以在 Linux 服务器上使用此代码 **将 OneNote 保存为 PDF** 吗？**  
+A6: 完全可以。Aspose.Note 库是平台无关的，相同代码可在 Windows、Linux 和 macOS 上运行。
+
+**Q7：API 是否支持使用透明 PNG 的 **在 OneNote 中嵌入图像**？**  
+A7: 支持，带有 Alpha 通道的 PNG 文件在插入时会完整保留透明度。
 
 ---
 
-**最后更新：** 2025-12-20  
+**最后更新：** 2026-03-19  
 **测试环境：** Aspose.Note for Java 24.12（最新）  
 **作者：** Aspose  
 

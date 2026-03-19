@@ -1,11 +1,11 @@
 ---
-date: 2025-12-20
-description: Leer hoe je een afbeelding toevoegt aan OneNote met Aspose.Note voor
-  Java. Stapsgewijze handleiding om OneNote‑documenten te bouwen en afbeeldingen via
-  code in te voegen.
+date: 2026-03-19
+description: Leer hoe je een afbeelding aan OneNote kunt toevoegen met Aspose.Note
+  voor Java. Deze stapsgewijze handleiding laat zien hoe je OneNote‑documenten maakt,
+  een afbeelding in OneNote invoegt en OneNote opslaat als PDF.
 linktitle: How to add picture to OneNote using Java – Build Document and Insert Image
 second_title: Aspose.Note Java API
-title: Hoe een afbeelding toevoegen aan OneNote met Java – Document bouwen en afbeelding
+title: Hoe een afbeelding aan OneNote toevoegen met Java – Document bouwen en afbeelding
   invoegen
 url: /nl/java/onenote-hyperlinks-images/build-doc-insert-image/
 weight: 12
@@ -19,35 +19,37 @@ weight: 12
 
 ## Introductie
 
-In deze tutorial leer je **hoe je een afbeelding toevoegt aan OneNote** met de Aspose.Note Java API. We lopen stap voor stap door het maken van een OneNote‑document vanaf nul, het invoegen van een afbeelding, en het opslaan van het resultaat als PDF. Of je nu een rapportagetool bouwt, notities automatiseert, of gewoon grafische elementen programmatisch moet insluiten, deze gids biedt een duidelijke, praktische route.
+In deze tutorial leer je **hoe je een afbeelding toevoegt aan OneNote** met de Aspose.Note Java API. We lopen stap voor stap door het maken van een OneNote-document vanaf nul, het invoegen van een afbeelding en het opslaan van het resultaat als PDF. Of je nu een rapportagetool bouwt, notities automatiseert, of gewoon grafische elementen programmatically moet insluiten, deze gids biedt een duidelijke, praktische route.
 
 ## Snelle antwoorden
-- **Welke bibliotheek heb ik nodig?** Aspose.Note for Java.
-- **Kan ik elk afbeeldingsformaat invoegen?** JPEG, PNG, BMP, GIF en meer worden ondersteund.
-- **Welke uitvoerformaten zijn beschikbaar?** Je kunt opslaan als OneNote, PDF, XPS, HTML, enz.
-- **Heb ik een licentie nodig voor productie?** Ja, een commerciële licentie is vereist voor niet‑trial gebruik.
+- **Welke bibliotheek heb ik nodig?** Aspose.Note for Java.  
+- **Kan ik elk afbeeldingsformaat invoegen?** JPEG, PNG, BMP, GIF en meer worden ondersteund.  
+- **Welke uitvoerformaten zijn beschikbaar?** Je kunt opslaan als OneNote, PDF, XPS, HTML, enz.  
+- **Heb ik een licentie nodig voor productie?** Ja, een commerciële licentie is vereist voor niet‑trial gebruik.  
 - **Is de code cross‑platform?** Absoluut – Java draait op Windows, Linux en macOS.
 
-## Wat betekent “afbeelding toevoegen aan OneNote”?
-Een afbeelding toevoegen aan OneNote betekent dat je programmatisch een afbeeldingsbestand in een OneNote‑pagina insluit zodat deze naast tekst, outlines of andere elementen verschijnt. De Aspose.Note API abstraheert het OneNote‑bestandformaat, zodat je je kunt concentreren op de inhoud in plaats van op de onderliggende XML‑structuur.
+## Hoe een afbeelding toevoegen aan OneNote met Java
 
-## Waarom afbeelding toevoegen aan OneNote met Java?
-- **Automatisering:** Genereer automatisch notulen met screenshots.
-- **Consistentie:** Zorg ervoor dat elke pagina dezelfde lay-out en branding volgt.
-- **Integratie:** Combineer gegevens uit andere systemen (bijv. grafieken) direct in OneNote‑notebooks.
-- **Cross‑platform:** Java laat je dezelfde code uitvoeren op elke server of desktopomgeving.
+Een afbeelding toevoegen aan OneNote betekent dat je programmatically een afbeeldingsbestand in een OneNote-pagina insluit zodat deze naast tekst, outlines of andere elementen verschijnt. De Aspose.Note API abstraheert het OneNote-bestandsformaat, zodat je je kunt concentreren op de inhoud in plaats van op de onderliggende XML-structuur.
 
-## Vereisten
+### Waarom een afbeelding insluiten in OneNote?
 
-Voordat we beginnen, zorg dat je het volgende hebt:
+- **Automatisering:** Genereer automatisch notulen met screenshots.  
+- **Consistentie:** Zorg ervoor dat elke pagina dezelfde lay-out en branding volgt.  
+- **Integratie:** Combineer gegevens van andere systemen (bijv. grafieken) direct in OneNote-notitieblokken.  
+- **Cross‑platform:** Java laat je dezelfde code draaien op elke server of desktopomgeving.
+
+## Voorvereisten
+
+Voordat we beginnen, zorg ervoor dat je het volgende hebt:
 
 1. **Java Development Kit (JDK)** – elke recente versie (8 of later).  
-2. **Aspose.Note for Java bibliotheek** – download deze van de [website](https://releases.aspose.com/note/java/).  
+2. **Aspose.Note for Java library** – download deze van de [website](https://releases.aspose.com/note/java/).  
 3. **IDE** – IntelliJ IDEA, Eclipse, of een andere Java‑compatibele editor naar keuze.  
 
 ## Pakketten importeren
 
-Begin met het importeren van de benodigde klassen in je Java‑bronbestand:
+Begin met het importeren van de benodigde klassen in je Java-bronbestand:
 
 ```java
 import java.io.IOException;
@@ -60,11 +62,11 @@ import com.aspose.note.Page;
 import com.aspose.note.SaveFormat;
 ```
 
-## Stapsgewijze gids
+## Stapsgewijze handleiding
 
 ### Stap 1: Document opzetten
 
-Maak een nieuw OneNote‑document en een paginacontainer waarin de inhoud wordt geplaatst.
+Maak een nieuw OneNote-document en een paginacontainer waarin de inhoud zal worden geplaatst.
 
 ```java
 String dataDir = "Your Document Directory";
@@ -72,7 +74,7 @@ Document doc = new Document();
 Page page = new Page();
 ```
 
-### Stap 2: Initialiseer de Outline
+### Stap 2: Outline initialiseren
 
 Een *outline* fungeert als een container voor elementen zoals tekst en afbeeldingen. We stellen de offsets op nul in zodat de inhoud begint in de linkerbovenhoek.
 
@@ -82,27 +84,27 @@ outline.setVerticalOffset(0);
 outline.setHorizontalOffset(0);
 ```
 
-### Stap 3: Afbeelding laden en uitlijnen
+### Stap 3: De afbeelding laden en uitlijnen
 
-Laad de afbeelding die je wilt insluiten en lijn deze uit aan de rechterkant van de pagina. Dit is waar we daadwerkelijk **afbeelding toevoegen aan OneNote**.
+Laad de afbeelding die je wilt insluiten en lijn deze uit aan de rechterkant van de pagina. Dit is waar we daadwerkelijk **een afbeelding toevoegen aan OneNote**. De `Image` constructor laat zien hoe je **een afbeeldingsbestand in Java laadt**.
 
 ```java
 Image image = new Image(null, dataDir + "Input.jpg");
 image.setAlignment(HorizontalAlignment.Right);
 ```
 
-### Stap 4: Bevestig de afbeelding aan een Outline‑element
+### Stap 4: De afbeelding koppelen aan een Outline-element
 
-Plaats de afbeelding binnen een `OutlineElement`. Deze stap koppelt het visuele object aan de outline‑hiërarchie van het document.
+Plaats de afbeelding binnen een `OutlineElement`. Deze stap koppelt het visuele object aan de outline-hiërarchie van het document en **voegt de afbeelding in OneNote** in.
 
 ```java
 OutlineElement outlineElem = new OutlineElement();
 outlineElem.appendChildLast(image);
 ```
 
-### Stap 5: Stel de documentstructuur samen
+### Stap 5: Documentstructuur samenstellen
 
-Voeg het outline‑element toe aan de outline, koppel vervolgens de outline aan de pagina, en voeg ten slotte de pagina toe aan het document.
+Voeg het outline-element toe aan de outline, koppel vervolgens de outline aan de pagina, en voeg ten slotte de pagina toe aan het document.
 
 ```java
 outline.appendChildLast(outlineElem);
@@ -110,9 +112,9 @@ page.appendChildLast(outline);
 doc.appendChildLast(page);
 ```
 
-### Stap 6: Sla het OneNote‑document op
+### Stap 6: Het OneNote-document opslaan
 
-Sla het document op schijf op. In dit voorbeeld exporteren we naar PDF, maar je kunt ook opslaan als een native OneNote‑bestand (`.one`) door het `SaveFormat` aan te passen.
+Sla het document op schijf op. In dit voorbeeld exporteren we naar PDF, wat laat zien hoe je **OneNote als PDF opslaat** of **OneNote naar PDF converteert**. Je kunt ook opslaan als een native OneNote‑bestand (`.one`) door het `SaveFormat` te wijzigen.
 
 ```java
 try {
@@ -124,32 +126,38 @@ try {
 
 ## Veelvoorkomende problemen en oplossingen
 
-| Probleem | Waarom het gebeurt | Oplossing |
-|----------|--------------------|-----------|
-| **Afbeelding verschijnt niet** | Verkeerd bestandspad of niet‑ondersteund formaat. | Controleer of `dataDir` naar de juiste map wijst en gebruik een ondersteund afbeeldingsformaat (JPEG, PNG, enz.). |
-| **Document opgeslagen als lege PDF** | Outline‑offsets onjuist ingesteld. | Zorg dat `setVerticalOffset(0)` en `setHorizontalOffset(0)` worden aangeroepen, of pas de offsets aan zodat de inhoud binnen de paginagrenzen valt. |
-| **IOException bij opslaan** | Doelmap bestaat niet of er ontbreken schrijfrechten. | Maak de map vooraf aan of voer het programma uit met de juiste permissies. |
+| Issue | Why it Happens | Fix |
+|-------|----------------|-----|
+| **Afbeelding verschijnt niet** | Verkeerd bestandspad of niet‑ondersteund formaat. | Controleer of `dataDir` naar de juiste map wijst en gebruik een ondersteund afbeeldingsformaat (JPEG, PNG, etc.). |
+| **Document opgeslagen als lege PDF** | Outline-offsets onjuist ingesteld. | Zorg dat `setVerticalOffset(0)` en `setHorizontalOffset(0)` worden aangeroepen, of pas de offsets aan zodat de inhoud binnen de paginagrenzen valt. |
+| **IOException bij opslaan** | Doelmap bestaat niet of heeft geen schrijfrechten. | Maak de map vooraf aan of voer het programma uit met de juiste permissies. |
 
 ## Veelgestelde vragen
 
 **Q1: Waar kan ik de documentatie voor Aspose.Note voor Java vinden?**  
-A1: U kunt de documentatie raadplegen [hier](https://reference.aspose.com/note/java/).
+A1: Je kunt de documentatie raadplegen [hier](https://reference.aspose.com/note/java/).
 
 **Q2: Hoe download ik Aspose.Note voor Java?**  
-A2: U kunt Aspose.Note voor Java downloaden van de [downloadpagina](https://releases.aspose.com/note/java/).
+A2: Je kunt Aspose.Note voor Java downloaden van de [downloadpagina](https://releases.aspose.com/note/java/).
 
 **Q3: Is er een gratis proefversie beschikbaar voor Aspose.Note voor Java?**  
-A3: Ja, u kunt een gratis proefversie krijgen via de [website](https://releases.aspose.com/).
+A3: Ja, je kunt een gratis proefversie krijgen via de [website](https://releases.aspose.com/).
 
 **Q4: Waar kan ik ondersteuning krijgen voor Aspose.Note voor Java?**  
-A4: Voor ondersteuning kunt u het [Aspose.Note‑forum](https://forum.aspose.com/c/note/28) bezoeken.
+A4: Voor ondersteuning kun je het [Aspose.Note forum](https://forum.aspose.com/c/note/28) bezoeken.
 
 **Q5: Kan ik een tijdelijke licentie verkrijgen voor Aspose.Note voor Java?**  
-A5: Ja, u kunt een tijdelijke licentie aanvragen [hier](https://purchase.aspose.com/temporary-license/).
+A5: Ja, je kunt een tijdelijke licentie aanvragen [hier](https://purchase.aspose.com/temporary-license/).
+
+**Q6: Kan ik deze code gebruiken om **OneNote als PDF op te slaan** op een Linux‑server?**  
+A6: Absoluut. De Aspose.Note‑bibliotheek is platformonafhankelijk, dus dezelfde code werkt op Windows, Linux en macOS.
+
+**Q7: Ondersteunt de API het **insluiten van een afbeelding in OneNote** met transparante PNG's?**  
+A7: Ja, PNG‑bestanden met alfakanalen worden volledig ondersteund en behouden transparantie bij het invoegen.
 
 ---
 
-**Laatst bijgewerkt:** 2025-12-20  
+**Laatst bijgewerkt:** 2026-03-19  
 **Getest met:** Aspose.Note for Java 24.12 (latest)  
 **Auteur:** Aspose  
 

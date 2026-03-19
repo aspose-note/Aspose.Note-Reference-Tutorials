@@ -1,7 +1,7 @@
 ---
-date: 2025-12-21
-description: Aspose.Note for Java kullanarak OneNote belgesi oluşturmayı ve resimleri
-  sorunsuz bir şekilde eklemeyi öğrenin. Java geliştiricileri için adım adım rehber.
+date: 2026-03-19
+description: Aspose.Note for Java kullanarak Java’da OneNote belgesi oluşturmayı ve
+  bir akıştan görüntü eklemeyi öğrenin. Java geliştiricileri için adım adım rehber.
 linktitle: How to create onenote document java – Build Doc and Insert Image with Stream
 second_title: Aspose.Note Java API
 title: Java ile OneNote belgesi nasıl oluşturulur – Belge oluşturma ve akışla resim
@@ -14,49 +14,49 @@ weight: 13
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Java ile OneNote belgesi oluşturma – Belge ve Akış ile Resim Ekle
+# Java ile onenote document java oluşturma – Belge Oluştur ve Akış ile Resim Ekle
 
-## Giriiş
+## Introduction
 
-Hoş geldiniz! Bu öğreticide **Java ile OneNote belgesini oluşturacak** ve bir görüntü verilerini kullanarak resim eklemeyi bölmesini oluşturacaktır. Her adım adım adım atarak, her parçanın neden önemli olduğunu açıklayacak ve gerçek projelerde uygulamanız için pratik yollar sağlar. Sonunda OneNote sayfalarını programlı olarak oluşturabilecek ve resimleri tam istediğiniz yere yerleştirebileceksiniz.
+Hoş geldiniz! Bu öğreticide **onenote document java**'yu sıfırdan oluşturacak ve bir resim akışı kullanarak nasıl resim ekleyeceğinizi öğreneceksiniz. Her adımı adım adım inceleyecek, her parçanın neden önemli olduğunu açıklayacak ve gerçek projelerde bu tekniği uygulamanız için pratik ipuçları vereceğiz. Sonunda, OneNote sayfalarını programlı olarak oluşturabilecek ve resimleri tam istediğiniz yere yerleştirebileceksiniz.
 
-## Hızlı Yanıtlar
-- **Hangi kütüphanesi gerekiyor?** Aspose.Note for Java
-- **Akıştan resim seçeneği var mı?** Evet – sadece 'Image' yapıcısına bir 'InputStream' iletin.
-- **Hangi formatı aktarılabilir mi?** Aspose.Note tarafından desteklenen herhangi bir format, örneğin PDF, DOCX, HTML.
-- **Geliştirme için lisansa ihtiyacım var mı?** Değerlendirme için ücretsiz bir geçici lisans çalışır; Üretim için tam lisans gereklidir.
-- **Gerekli Java sürümü nedir?** Java8 veya üzeri.
+## Quick Answers
+- **What library do I need?** Aspose.Note for Java  
+- **Can I insert images from a stream?** Yes – just pass an `InputStream` to the `Image` constructor.  
+- **Which format can I export to?** Any format supported by Aspose.Note, e.g., PDF, DOCX, HTML.  
+- **Do I need a license for development?** A free temporary license works for evaluation; a full license is required for production.  
+- **What Java version is required?** Java 8 or higher.
 
-## “Java ile OneNote belgesi oluşturma” nedir?
+## What is “create onenote document java”?
 
-Java'da bir OneNote belgesi oluşturmak, Aspose.Note API'sini kullanarak bir not defteri sunmak—sayfalar, taslaklar ve çıktılar—programlı olarak inşa etmek anlamına gelir; OneNote bilgisayarın yüzeyini açmadan. Bu yaklaşım, otomatik rapor oluşturma, toplu çalıştırma veya OneNote'un daha büyük Java uygulamalarına entegre etme için idealdir.
+Java’da OneNote belgesi oluşturmak, Aspose.Note API’sini kullanarak bir defter yapısını—sayfalar, outline’lar ve öğeler—programlı olarak inşa etmek anlamına gelir; OneNote masaüstü istemcisi açmaya gerek kalmaz. Bu yaklaşım, otomatik rapor oluşturma, notların toplu işlenmesi veya OneNote içeriğini daha büyük Java uygulamalarına entegre etme gibi senaryolar için idealdir.
 
-## Java ile OneNote belgesi oluşturmak için Aspose.Note for Java neden kullanılmalı?
+## Why use Aspose.Note for Java to create onenote document java?
 
-- **Tam kontrol** sayfa düzeni, taslak stilleri ve öğe stilinde.
-- **COM etkileşimi yok** – Java'yı destekleyen herhangi bir işlem işlemi çalışır.
-- **Zengin yedekleme seçenekleri** – aynı belgeyi tek bir çağrı ile PDF, DOCX, HTML vb. formatlara dönüştürebilirsiniz.
-- **Akış dostu** – dosyaları doğrudan bellekten, ağdan veya bulut depolamadan yükleyebilirsiniz.
+- **Full control** over page layout, outline positioning, and element styling.  
+- **No COM interop** – works on any OS that supports Java.  
+- **Rich export options** – convert the same document to PDF, DOCX, HTML, etc., with a single call.  
+- **Stream‑friendly** – you can load images directly from memory, network, or cloud storage.
 
-## Önkoşullar
+## Prerequisites
 
-Başlamadan önce, aşağıdakilerin kurulu olduğundan emin olun:
+İlerlemeye başlamadan önce aşağıdaki gereksinimlerin kurulu olduğundan emin olun:
 
-### Java Geliştirme Kiti (JDK)
+### Java Development Kit (JDK)
 
-Makinenizde yüklü bir JDK (8 veya daha yeni bir sürüm).
+Makinenizde yüklü bir JDK (8 veya üzeri) bulunmalıdır.
 
-### Java Kitaplığı için Aspose.Note
+### Aspose.Note for Java Library
 
-Kütüphaneyi resmi Aspose sürümünün indirilmesi: [https://releases.aspose.com/note/java/](https://releases.aspose.com/note/java/).
+Resmi Aspose sürüm sayfasından kütüphaneyi indirin: [https://releases.aspose.com/note/java/](https://releases.aspose.com/note/java/).
 
-### IDE Kurulumu
+### IDE Setup
 
-Sevdiğiniz IDE'yi (IntelliJ IDEA, Eclipse, VS Code) Aspose.Note JAR'ın proje sınıflarını ekleyecek şekilde yapılandırın.
+Sevdiğiniz IDE’yi (IntelliJ IDEA, Eclipse, VS Code) Aspose.Note JAR dosyalarını proje sınıf yoluna ekleyecek şekilde yapılandırın.
 
-## Paketleri İçe Aktar
+## Import Packages
 
-Başlamak için gerekli Java ve Aspose.Note sınıflarını içe aktarın. Bu kapsamda bölümleme belge oluşturma, sayfa işleme, taslak yönetimi ve resim ekleme erişimi sağlar.
+Başlamak için gerekli Java ve Aspose.Note sınıflarını içe aktarın. Bu importlar belge oluşturma, sayfa işleme, outline yönetimi ve resim ekleme işlevlerine erişim sağlar.
 
 ```java
 import java.io.FileInputStream;
@@ -72,33 +72,33 @@ import com.aspose.note.Page;
 import com.aspose.note.SaveFormat;
 ```
 
-## Adım 1: Belge Dizinini Ayarlayın
+## Step 1: Set Up Document Directory
 
-Kaynak resimlerinizi içeren ve çıktı dosyasının kaydedileceği klasörü tanımlayın. Yer tutucuyu makinenizdeki gerçek yol ile değiştirin.
+Kaynak resimlerin bulunduğu ve çıktının kaydedileceği klasörü tanımlayın. Yer tutucuyu makinenizdeki gerçek yol ile değiştirin.
 
 ```java
 String dataDir = "Your Document Directory";
 ```
 
-## Adım 2: Belge Nesnesi Oluşturma
+## Step 2: Create Document Object
 
-Yeni bir `Document` örneği oluşturun. Bu nesne, oluşturduğunuz OneNote not defterini temsil eder.
+Yeni bir `Document` nesnesi oluşturun. Bu nesne, oluşturduğunuz OneNote defterini temsil eder.
 
 ```java
 Document doc = new Document();
 ```
 
-## Adım 3: Sayfa Nesnesini Başlatma
+## Step 3: Initialize Page Object
 
-Bu not defteri sayfası için tüm taslakları ve öğeleri tutacak bir `Page` oluşturun.
+Bu defter sayfası için tüm outline ve öğeleri tutacak bir `Page` oluşturun.
 
 ```java
 Page page = new Page();
 ```
 
-## Adım 4: Anahat Oluşturma
+## Step 4: Create Outline
 
-`Outline`, konumlandırılmış öğeler için bir kapsayıcı görevi görür. Burada taslağı sayfada konumlandırmak için dikey ve yatay offset değerlerini ayarlıyoruz.
+`Outline`, konumlandırılmış öğeler için bir kapsayıcı görevi görür. Burada outline’ı sayfada konumlandırmak için dikey ve yatay offset değerlerini ayarlıyoruz.
 
 ```java
 Outline outline1 = new Outline();
@@ -106,17 +106,17 @@ outline1.setVerticalOffset(600);
 outline1.setHorizontalOffset(0);
 ```
 
-## Adım 5: Anahat Öğesi Oluşturma
+## Step 5: Create Outline Element
 
-`OutlineElement`, ekleyeceğimiz resmi barındıracak.
+Resmi ekleyeceğimiz `OutlineElement` nesnesini oluşturun.
 
 ```java
 OutlineElement outlineElem1 = new OutlineElement();
 ```
 
-## Adım 6: Görüntü Akışını Yükleme
+## Step 6: Load Image Stream
 
-Resim dosyasını bir akış olarak açın. Akış kullanmak, resmi dosya sisteminden, ağdan veya veritabanından önce diske kaydetmeden okumanıza olanak tanır.
+Resim dosyasını bir akış olarak açın. Akış kullanmak, resmi dosya sistemi, ağ veya veritabanı gibi herhangi bir kaynaktan, önce diske kaydetmeden okumanızı sağlar.
 
 ```java
 InputStream fs = null;
@@ -127,7 +127,7 @@ try {
 }
 ```
 
-## Adım 7: Görüntü Ekleme
+## Step 7: Insert Image
 
 Bir `Image` nesnesi oluşturun. İlk argüman daha sonra bir akış sağladığınızda `null` olabilir, ancak basitlik açısından burada dosya yolunu referans alıyor ve hizalamasını sayfanın sağ tarafına ayarlıyoruz.
 
@@ -136,31 +136,31 @@ Image image = new Image(null, dataDir + "image1.jpg");
 image.setAlignment(HorizontalAlignment.Right);
 ```
 
-## Adım 8: Görüntüyü Anahat Öğesine Ekleme
+## Step 8: Append Image to Outline Element
 
-Resmi, sayfanın görsel hiyerarşisinin bir parçası haline gelmesi için taslak öğesine ekleyin.
+Resmi outline elementine ekleyerek sayfanın görsel hiyerarşisine dahil edin.
 
 ```java
 outlineElem1.appendChildLast(image);
 ```
 
-## Adım 9: Anahat Öğesini Anahat'a Ekleme
+## Step 9: Append Outline Element to Outline
 
-Şimdi resmi içeren taslak öğesini taslak kapsayıcısına bağlayın.
+Şimdi resmi içeren outline elementini outline kapsayıcısına ekleyin.
 
 ```java
 outline1.appendChildLast(outlineElem1);
 ```
 
-## Adım 10: Anahatı Sayfaya Ekleme
+## Step 10: Append Outline to Page
 
-Taslağı sayfaya yerleştirin.
+Outline’ı sayfaya yerleştirin.
 
 ```java
 page.appendChildLast(outline1);
 ```
 
-## Adım 11: Sayfayı Belgeye Ekleme
+## Step 11: Append Page to Document
 
 Tamamen oluşturulmuş sayfayı belge nesnesine ekleyin.
 
@@ -168,9 +168,9 @@ Tamamen oluşturulmuş sayfayı belge nesnesine ekleyin.
 doc.appendChildLast(page);
 ```
 
-## Adım 12: Belgeyi Kaydetme
+## Step 12: Save Document
 
-Son olarak, ihtiyacınız olan formatta OneNote belgesini kaydedin. Bu örnekte PDF olarak dışa aktarıyoruz, ancak Aspose.Note tarafından desteklenen herhangi bir formatı seçebilirsiniz.
+Son olarak OneNote belgesini ihtiyacınız olan formatta kaydedin. Bu örnekte PDF’ye dışa aktarıyoruz, ancak Aspose.Note tarafından desteklenen herhangi bir formatı seçebilirsiniz.
 
 ```java
 try {
@@ -180,45 +180,46 @@ try {
 }
 ```
 
-Bu adımları izleyerek başarıyla **Java ile OneNote belgesi oluşturmuş** ve bir giriş akışı kullanarak bir resmi gömmüş oldunuz.
+Bu adımları izleyerek **onenote document java**'yu başarıyla oluşturmuş ve bir `InputStream` kullanarak resmi belgeye yerleştirmiş oldunuz.
 
-## Sık Karşılaşılan Hatalar ve İpuçları
+## Common Pitfalls & Tips
 
-- **Akış kapatılmadı** – Üretim ortamında, `InputStream`'i her zaman bir `finally` bloğunda kapatın veya try-with-resources kullanın.
+- **Stream not closed** – In a production scenario, always close the `InputStream` in a `finally` block or use try‑with‑resources.  
+- **Incorrect file path** – Double‑check that `dataDir` ends with the appropriate separator (`/` or `\`).  
+- **Image alignment** – If the image appears off‑screen, adjust the outline’s `VerticalOffset`/`HorizontalOffset` values.  
+- **License exceptions** – Using the evaluation version may add a watermark to the output; apply a valid license to remove it.
 
-- **Yanlış dosya yolu** – `dataDir`'in uygun ayırıcıyla (`/` veya `\`) bittiğini iki kez kontrol edin.
+## Frequently Asked Questions
 
-- **Görüntü hizalaması** – Görüntü ekran dışında görünüyorsa, ana hatın `VerticalOffset`/`HorizontalOffset` değerlerini ayarlayın.
+### Q1: Is Aspose.Note for Java compatible with all versions of OneNote?
 
-- **Lisans istisnaları** – Değerlendirme sürümünü kullanmak çıktıya filigran ekleyebilir; filigranı kaldırmak için geçerli bir lisans uygulayın.
+A1: Aspose.Note for Java supports various OneNote file formats, ensuring compatibility across desktop, online, and mobile versions.
 
-## Sıkça Sorulan Sorular
+### Q2: Can I customize the appearance of inserted images in OneNote documents using Aspose.Note for Java?
 
-### S1: Aspose.Note for Java, OneNote'un tüm sürümleriyle uyumlu mu?
+A2: Yes, you can modify alignment, size, rotation, and even apply cropping by using the corresponding properties on the `Image` object.
 
-C1: Aspose.Note for Java, çeşitli OneNote dosya biçimlerini destekleyerek masaüstü, çevrimiçi ve mobil sürümler arasında uyumluluk sağlar.
+### Q3: Does Aspose.Note for Java provide support for other document formats besides PDF?
 
-### S2: Aspose.Note for Java kullanarak OneNote belgelerine eklenen resimlerin görünümünü özelleştirebilir miyim?
+A3: Absolutely. The API can export to DOCX, HTML, XPS, and several other formats, giving you flexibility in how you share or archive your notes.
 
-C2: Evet, `Image` nesnesindeki ilgili özellikleri kullanarak hizalamayı, boyutu, döndürmeyi ve hatta kırpmayı değiştirebilirsiniz.
+### Q4: Where can I find additional resources and support for Aspose.Note for Java?
 
-### S3: Aspose.Note for Java, PDF dışında diğer belge formatlarını da destekliyor mu?
+A4: The official Aspose website offers extensive documentation, code examples, forums, and temporary licenses for evaluation.
 
-C3: Kesinlikle. API, DOCX, HTML, XPS ve diğer birçok formata dışa aktarma yapabilir ve notlarınızı nasıl paylaşacağınız veya arşivleyeceğiniz konusunda size esneklik sağlar.
+### Q5: Is there a trial version available for Aspose.Note for Java?
 
-### S4: Aspose.Note for Java için ek kaynakları ve desteği nerede bulabilirim?
+A5: Yes, you can download a free trial from the Aspose release page to explore all features before purchasing.
 
-C4: Resmi Aspose web sitesi, kapsamlı dokümantasyon, kod örnekleri, forumlar ve değerlendirme için geçici lisanslar sunmaktadır.
+## Conclusion
 
-### S5: Aspose.Note for Java için deneme sürümü mevcut mu?
-
-C5: Evet, satın almadan önce tüm özellikleri keşfetmek için Aspose sürüm sayfasından ücretsiz bir deneme sürümü indirebilirsiniz.
+Artık **onenote document java**'yu oluşturup bir `InputStream` aracılığıyla doğrudan resim ekleyebileceğiniz tam bir uçtan uca örneğe sahipsiniz. Notlarınızı zenginleştirmek için metin, tablo veya şekil gibi ek öğelerle denemeler yapın. Hazır olduğunuzda, Aspose.Note’un sunduğu çok sayıda dışa aktarma seçeneğini keşfederek OneNote içeriğinizi PDF, DOCX, HTML ve daha fazlası olarak paylaşabilirsiniz.
 
 ---
 
-**Son Güncelleme:** 21.12.2025
-**Test Edildiği Sürüm:** Aspose.Note for Java 24.12 (yazım anındaki en güncel sürüm)
-**Yazar:** Aspose  
+**Last Updated:** 2026-03-19  
+**Tested With:** Aspose.Note for Java 24.12 (latest at time of writing)  
+**Author:** Aspose  
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

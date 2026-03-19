@@ -1,11 +1,11 @@
 ---
-date: 2025-12-21
-description: Ismerje meg, hogyan lehet képeket kinyerni OneNote dokumentumokból Java
-  és az Aspose.Note segítségével. Ez a lépésről‑lépésre útmutató megmutatja, hogyan
-  lehet a képeket gyorsan és megbízhatóan kinyerni.
-linktitle: How to Extract Images from OneNote Document using Java
+date: 2026-03-19
+description: Tanulja meg, hogyan lehet Java-ban kinyerni a OneNote képeket az Aspose.Note
+  könyvtár segítségével. Ez a lépésről‑lépésre útmutató megmutatja, hogyan lehet gyorsan
+  és megbízhatóan képeket kinyerni a .one fájlokból.
+linktitle: extract onenote images java – Extract Images from OneNote
 second_title: Aspose.Note Java API
-title: Hogyan lehet képeket kinyerni egy OneNote dokumentumból Java-val
+title: OneNote képek kinyerése Java – Képek kinyerése a OneNote-ból
 url: /hu/java/onenote-hyperlinks-images/extract-images/
 weight: 14
 ---
@@ -14,38 +14,39 @@ weight: 14
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Hogyan nyerjünk ki képeket egy OneNote dokumentumból Java használatával
+# extract onenote images java – Hogyan nyerjünk ki képeket OneNote dokumentumból Java-val
 
 ## Bevezetés
 
-Ebben az útmutatóban végigvezetünk a **képek kinyerésének** folyamatán egy OneNote dokumentumból Java és az Aspose.Note könyvtár segítségével. Akár jelentéskészítéshez, archiváláshoz, vagy további feldolgozáshoz van szüksége a képekre, ez az útmutató végigvezet a teljes munkafolyamaton.
+Ebben az útmutatóban megismerheted, hogyan **extract onenote images java** a Aspose.Note for Java könyvtárral. Akár jelentéskészítéshez, archiváláshoz, vagy OCR csővezetékbe való betápláláshoz van szükséged a képekre, végigvezetünk a teljes munkafolyamaton – a `.one` jegyzetfüzet betöltésétől kezdve egymás után minden képet egy külön fájlként a lemezre mentésig.
 
 ## Gyors válaszok
 - **Melyik könyvtár ajánlott?** Aspose.Note for Java  
-- **Kinyerhetek képeket egy jelszóval védett jegyzetfüzetből?** Igen, az Aspose.Note támogatja.  
-- **Szükségem van licencre a fejlesztéshez?** A ingyenes próba verzió teszteléshez megfelelő; a termeléshez licenc szükséges.  
+- **Kivonhatok képeket egy jelszóval védett jegyzetfüzetből?** Igen, az Aspose.Note támogatja.  
+- **Szükség van licencre fejlesztéshez?** Egy ingyenes próba a teszteléshez elegendő; a termeléshez licenc szükséges.  
 - **Mely Java verziók támogatottak?** Java 8 és újabb (beleértve a Java 15‑öt).  
-- **Mennyi időt vesz igénybe a kinyerés?** Általában néhány másodperc egy átlagos jegyzetfüzet esetén.
+- **Mennyi időt vesz igénybe a kinyerés?** Általában néhány másodperc egy átlagos jegyzetfüzet esetén.  
 
-## Mi az a képkinyerés a OneNote‑ból?
-A képek kinyerése azt jelenti, hogy programozottan megtaláljuk a OneNote (.one) fájlba beágyazott minden képet, és mindegyiket különálló képfájlként mentjük a lemezre. Ez akkor hasznos, ha a grafikákat a jegyzetfüzet környezetén kívül szeretné újra felhasználni.
+## Mi az **extract images from .one**?
 
-## Miért nyerjünk ki képeket a OneNote‑ból Java használatával?
-- **Automatizálás:** Több jegyzetfüzet kötegelt feldolgozása manuális beavatkozás nélkül.  
-- **Következetesség:** Biztosítja, hogy minden fájlra ugyanaz a kinyerési logika legyen alkalmazva.  
-- **Integráció:** Könnyen kombinálható más Java‑alapú munkafolyamatokkal (pl. OCR, képelemzés).  
+A képek kinyerése egy OneNote fájlból azt jelenti, hogy programozottan megtaláljuk a `.one` jegyzetfüzetbe beágyazott összes képet, és mindegyiket különálló képfájlba (PNG, JPEG, GIF stb.) írjuk. Ez akkor hasznos, ha a grafikákat a OneNote környezetén kívül szeretnéd újra felhasználni.
 
-## Előkövetelmények
+## Miért nyerjünk ki OneNote képeket Java-val?
 
-Mielőtt elkezdené, győződjön meg róla, hogy a következőkkel rendelkezik:
+- **Automatizálás:** Több tucat vagy akár több száz jegyzetfüzet feldolgozása manuális kattintás nélkül.  
+- **Következetesség:** Biztosítja az azonos kinyerési logikát minden fájlban.  
+- **Integráció:** Könnyen összekapcsolható a kimenet más Java‑alapú munkafolyamatokkal, például OCR, képelemzés vagy tartalomkezelő rendszerek.  
 
-1. **Java Development Kit (JDK)** – Győződjön meg róla, hogy a Java telepítve van a rendszerén. Letöltheti és telepítheti a [weboldalról](https://www.oracle.com/java/technologies/javase-jdk15-downloads.html).
+## Előfeltételek
 
-2. **Aspose.Note Library** – Töltse le és adja hozzá az Aspose.Note könyvtárat a Java projektjéhez. Letöltheti a [letöltési hivatkozásról](https://releases.aspose.com/note/java/).
+Mielőtt elkezdenéd, győződj meg róla, hogy a következő elemek rendelkezésre állnak:
+
+1. **Java Development Kit (JDK)** – Telepíts Java 8‑at vagy újabbat. Letöltheted a [weboldalról](https://www.oracle.com/java/technologies/javase-jdk15-downloads.html).  
+2. **Aspose.Note Library** – Töltsd le a legújabb Aspose.Note for Java csomagot, és add hozzá a projekted osztályútvonalához. Szerezd be a [letöltési hivatkozásról](https://releases.aspose.com/note/java/).  
 
 ## Csomagok importálása
 
-A kezdéshez importálja a szükséges csomagokat:
+A kezdéshez importáld a szükséges Java osztályokat:
 
 ```java
 import java.io.IOException;
@@ -56,9 +57,9 @@ import com.aspose.note.Document;
 import com.aspose.note.Image;
 ```
 
-## 1. lépés: Dokumentum betöltése
+## 1. lépés: OneNote dokumentum betöltése
 
-Először töltse be a OneNote dokumentumot az Aspose.Note használatával:
+Először irányítsd az API-t arra a mappára, amelyik a `.one` fájlodat tartalmazza, és töltsd be a jegyzetfüzetet:
 
 ```java
 String dataDir = "Your Document Directory";
@@ -67,16 +68,16 @@ Document doc = new Document(dataDir + "Sample1.one");
 
 ## 2. lépés: Az összes kép lekérése
 
-Ezután szerezze be a dokumentumból az összes képet:
+Kérd le az Aspose.Note-tól a dokumentumban található összes `Image` csomópontot. Ez a **extract onenote images java** folyamat középpontja:
 
 ```java
 List<Image> list = doc.getChildNodes(Image.class);
 System.out.printf("Total Images: %s\n\n", list.size());
 ```
 
-## 3. lépés: Képek kinyerése
+## 3. lépés: Minden kép mentése lemezre
 
-Iteráljon a képek listáján, és mentse minden képet egy fájlba:
+Iterálj a gyűjteményen, vedd ki a nyers bájtokat, és írd minden képet egy egyedi névvel rendelkező fájlba:
 
 ```java
 for (int i = 0; i < list.size(); i++) {
@@ -88,36 +89,37 @@ for (int i = 0; i < list.size(); i++) {
 }
 ```
 
+### Mi történik a háttérben?
+
+- `image.getBytes()` visszaadja az eredeti képadatot (PNG, JPEG, GIF stb.).  
+- `image.getFileName()` megőrzi az eredeti nevet, így könnyebb nyomon követni a forrást.  
+
 ## Gyakori problémák és megoldások
-- **Nincsenek képek:** Győződjön meg róla, hogy a forrás `.one` fájl valóban tartalmaz beágyazott képeket.  
-- **Fájl jogosultsági hibák:** Ellenőrizze, hogy a `dataDir` útvonal írható-e.  
-- **Nem támogatott képformátumok:** Az Aspose.Note a legtöbb általános formátumot kezeli (PNG, JPEG, GIF). Ha egy formátum nem támogatott, fontolja meg a jegyzetfüzet átalakítását OneNote-ban először.
-
-## Összegzés
-
-A fenti lépések követésével most már tudja, **hogyan nyerhet ki képeket** egy OneNote dokumentumból Java és az Aspose.Note könyvtár segítségével. Ezt a logikát beépítheti nagyobb alkalmazásokba, automatizálhatja a kötegelt feldolgozást, vagy egyszerűen visszanyerheti a grafikákat újrahasználatra.
+- **Nem található kép:** Ellenőrizd, hogy a forrás `.one` fájl valóban tartalmaz beágyazott képeket.  
+- **Fájl jogosultsági hibák:** Győződj meg róla, hogy a `dataDir` mappa írható a Java folyamat számára.  
+- **Nem támogatott képformátumok:** Az Aspose.Note kezeli a PNG, JPEG, GIF, BMP és TIFF formátumokat. Exotikus formátumok esetén először konvertáld a jegyzetfüzetet OneNote-ban.  
 
 ## Gyakran Ismételt Kérdések
 
-**K: Kinyerhetek képeket jelszóval védett OneNote dokumentumokból?**  
-V: Igen, az Aspose.Note támogatja a képek kinyerését jelszóval védett jegyzetfüzetekből.
+**Q: Kivonhatok képeket jelszóval védett OneNote dokumentumokból?**  
+A: Igen, az Aspose.Note támogatja a titkosított jegyzetfüzetek megnyitását és a képek kinyerését.
 
-**K: Az Aspose.Note kompatibilis a különböző Java verziókkal?**  
-V: Az Aspose.Note a Java 8 és újabb verziókkal működik, így rugalmasságot biztosít a különböző környezetekben.
+**Q: Az Aspose.Note kompatibilis a különböző Java verziókkal?**  
+A: A könyvtár a Java 8‑al és újabb verziókkal működik, így futtatható Java 11, Java 15 vagy későbbi kiadásokon is.
 
-**K: Kinyerhetek képeket több OneNote dokumentumból egyetlen futtatás során?**  
-V: Természetesen. Iteráljon a fájlútvonalak listáján, és alkalmazza ugyanazt a kinyerési logikát minden dokumentumra.
+**Q: Kivonhatok képeket több OneNote fájlból egyetlen futtatás során?**  
+A: Természetesen. Egyszerűen helyezd a kinyerési logikát egy ciklusba, amely egy `.one` fájlútvonalak listáján iterál.
 
-**K: Van méretkorlátozás a OneNote dokumentumokra?**  
-V: Az Aspose.Note hatékonyan kezeli a nagy jegyzetfüzeteket; nincs szigorú méretkorlát a képek kinyerésére.
+**Q: Van méretkorlátja a feldolgozható jegyzetfüzeteknek?**  
+A: Az Aspose.Note hatékonyan kezeli a nagy jegyzetfüzeteket; nincs kódolt méretkorlát a képek kinyerésére.
 
-**K: Az Aspose.Note támogatja más tartalomtípusok kinyerését is a képek mellett?**  
-V: Igen, szöveget, mellékleteket és egyéb beágyazott objektumokat is ki lehet nyerni.
+**Q: Az Aspose.Note lehetővé teszi más tartalomtípusok kinyerését is?**  
+A: Igen, hasonló API-k segítségével szöveget, táblázatokat, beágyazott fájlokat és egyéb objektumokat is ki lehet nyerni.
 
 ---
 
-**Legutóbb frissítve:** 2025-12-21  
-**Tesztelve a következővel:** Aspose.Note for Java 24.12  
+**Utolsó frissítés:** 2026-03-19  
+**Tesztelt verzió:** Aspose.Note for Java 24.12  
 **Szerző:** Aspose  
 
 {{< /blocks/products/pf/tutorial-page-section >}}

@@ -1,11 +1,11 @@
 ---
-date: 2025-12-21
-description: Leer hoe je afbeeldingen uit OneNote‑documenten kunt extraheren met Java
-  en Aspose.Note. Deze stapsgewijze handleiding laat zien hoe je afbeeldingen snel
+date: 2026-03-19
+description: Leer hoe je OneNote‑afbeeldingen in Java kunt extraheren met de Aspose.Note‑bibliotheek.
+  Deze stapsgewijze handleiding laat zien hoe je afbeeldingen uit .one‑bestanden snel
   en betrouwbaar kunt extraheren.
-linktitle: How to Extract Images from OneNote Document using Java
+linktitle: extract onenote images java – Extract Images from OneNote
 second_title: Aspose.Note Java API
-title: Hoe afbeeldingen uit een OneNote-document te extraheren met Java
+title: onenote‑afbeeldingen extraheren java – Afbeeldingen uit OneNote extraheren
 url: /nl/java/onenote-hyperlinks-images/extract-images/
 weight: 14
 ---
@@ -14,38 +14,39 @@ weight: 14
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Hoe afbeeldingen uit OneNote-document extraheren met Java
+# extract onenote images java – Hoe afbeeldingen uit OneNote‑document extraheren met Java
 
 ## Inleiding
 
-In deze tutorial laten we u zien **hoe u afbeeldingen kunt extraheren** uit een OneNote-document met Java met behulp van de Aspose.Note‑bibliotheek. Of u nu de afbeeldingen nodig heeft voor rapportage, archivering of verdere verwerking, deze gids leidt u door de volledige workflow.
+In deze tutorial ontdek je **hoe je onenote‑afbeeldingen met Java kunt extraheren** met de Aspose.Note for Java‑bibliotheek. Of je nu de afbeeldingen nodig hebt voor rapportage, archivering of om ze in een OCR‑pipeline te voeren, we lopen het volledige proces door – van het laden van een `.one`‑notebook tot het opslaan van elke afbeelding als een afzonderlijk bestand op schijf.
 
 ## Snelle antwoorden
 - **Welke bibliotheek wordt aanbevolen?** Aspose.Note for Java  
-- **Kan ik afbeeldingen extraheren uit een met wachtwoord beveiligd notitieboek?** Ja, Aspose.Note ondersteunt dit.  
+- **Kan ik afbeeldingen extraheren uit een met wachtwoord beveiligde notebook?** Ja, Aspose.Note ondersteunt dit.  
 - **Heb ik een licentie nodig voor ontwikkeling?** Een gratis proefversie werkt voor testen; een licentie is vereist voor productie.  
 - **Welke Java‑versies worden ondersteund?** Java 8 en nieuwer (inclusief Java 15).  
-- **Hoe lang duurt het extraheren?** Meestal enkele seconden voor een standaard notitieboek.
+- **Hoe lang duurt het extraheren?** Meestal enkele seconden voor een standaard notebook.  
 
-## Wat is afbeeldingsextractie uit OneNote?
-Afbeeldingsextractie betekent dat u programmatisch elke in een OneNote‑bestand (.one) ingesloten afbeelding opspoort en elke afbeelding opslaat als een afzonderlijk afbeeldingsbestand op schijf. Dit is handig wanneer u grafische elementen buiten de notitieboekomgeving wilt hergebruiken.
+## Wat is **extract images from .one**?
 
-## Waarom afbeeldingen uit OneNote extraheren met Java?
-- **Automatisering:** Batch‑verwerk veel notitieboeken zonder handmatige inspanning.  
-- **Consistentie:** Garandeert dezelfde extractielogica voor alle bestanden.  
-- **Integratie:** Gemakkelijk te combineren met andere Java‑gebaseerde workflows (bijv. OCR, beeldanalyse).  
+Afbeeldingen extraheren uit een OneNote‑bestand betekent dat je programmatically elke in een `.one`‑notebook ingebedde afbeelding opspoort en elke afbeelding opslaat als een apart afbeeldingsbestand (PNG, JPEG, GIF, enz.). Dit is handig wanneer je grafische elementen buiten de OneNote‑omgeving wilt hergebruiken.
 
-## Vereisten
+## Waarom OneNote‑afbeeldingen extraheren met Java?
 
-Voordat u begint, zorg ervoor dat u het volgende heeft:
+- **Automatisering:** Verwerk tientallen of honderden notebooks zonder handmatige klikken.  
+- **Consistentie:** Garandeert identieke extractielogica voor alle bestanden.  
+- **Integratie:** Koppel de output eenvoudig aan andere Java‑gebaseerde workflows zoals OCR, beeldanalyse of content‑managementsystemen.  
 
-1. **Java Development Kit (JDK)** – Zorg ervoor dat Java op uw systeem is geïnstalleerd. U kunt het downloaden en installeren via de [website](https://www.oracle.com/java/technologies/javase-jdk15-downloads.html).
+## Voorvereisten
 
-2. **Aspose.Note Library** – Download en voeg de Aspose.Note‑bibliotheek toe aan uw Java‑project. Verkrijg deze via de [download link](https://releases.aspose.com/note/java/).
+Zorg ervoor dat je de volgende items klaar hebt staan voordat je begint:
 
-## Importeer pakketten
+1. **Java Development Kit (JDK)** – Installeer Java 8 of nieuwer. Je kunt het downloaden van de [website](https://www.oracle.com/java/technologies/javase-jdk15-downloads.html).  
+2. **Aspose.Note Library** – Download het nieuwste Aspose.Note for Java‑pakket en voeg het toe aan de classpath van je project. Verkrijg het via de [download‑link](https://releases.aspose.com/note/java/).  
 
-Om te beginnen, importeer de benodigde pakketten:
+## Import Packages
+
+Om te beginnen, importeer je de benodigde Java‑klassen:
 
 ```java
 import java.io.IOException;
@@ -56,9 +57,9 @@ import com.aspose.note.Document;
 import com.aspose.note.Image;
 ```
 
-## Stap 1: Laad het document
+## Stap 1: Laad het OneNote‑document
 
-Laad eerst het OneNote‑document met Aspose.Note:
+Geef eerst de API de map op die je `.one`‑bestand bevat en laad het notebook:
 
 ```java
 String dataDir = "Your Document Directory";
@@ -67,16 +68,16 @@ Document doc = new Document(dataDir + "Sample1.one");
 
 ## Stap 2: Haal alle afbeeldingen op
 
-Haal vervolgens alle afbeeldingen uit het document op:
+Vraag Aspose.Note om elk `Image`‑knooppunt in het document. Dit is de kern van het **extract onenote images java**‑proces:
 
 ```java
 List<Image> list = doc.getChildNodes(Image.class);
 System.out.printf("Total Images: %s\n\n", list.size());
 ```
 
-## Stap 3: Exporteer afbeeldingen
+## Stap 3: Sla elke afbeelding op schijf op
 
-Itereer door de lijst met afbeeldingen en sla elke afbeelding op als een bestand:
+Loop door de collectie, haal de ruwe bytes op en schrijf elke afbeelding naar een uniek benoemd bestand:
 
 ```java
 for (int i = 0; i < list.size(); i++) {
@@ -88,35 +89,36 @@ for (int i = 0; i < list.size(); i++) {
 }
 ```
 
+### Wat gebeurt er op de achtergrond?
+
+- `image.getBytes()` retourneert de oorspronkelijke afbeeldingsdata (PNG, JPEG, GIF, enz.).  
+- `image.getFileName()` behoudt de oorspronkelijke naam, waardoor het makkelijker is de bron te traceren.  
+
 ## Veelvoorkomende problemen en oplossingen
 - **Geen afbeeldingen gevonden:** Controleer of het bron‑`.one`‑bestand daadwerkelijk ingesloten afbeeldingen bevat.  
-- **Bestandsmachtigingsfouten:** Verifieer dat het `dataDir`‑pad schrijfbaar is.  
-- **Niet‑ondersteunde afbeeldingsformaten:** Aspose.Note ondersteunt de meeste gangbare formaten (PNG, JPEG, GIF). Als een formaat niet wordt ondersteund, overweeg dan het notitieboek eerst in OneNote te converteren.
-
-## Conclusie
-
-Door de bovenstaande stappen te volgen, weet u nu **hoe u afbeeldingen kunt extraheren** uit een OneNote‑document met Java en de Aspose.Note‑bibliotheek. U kunt deze logica integreren in grotere toepassingen, batch‑verwerking automatiseren of simpelweg grafische elementen hergebruiken.
+- **Bestandsmachtigingsfouten:** Zorg ervoor dat de `dataDir`‑map schrijfbaar is voor het Java‑proces.  
+- **Niet‑ondersteunde afbeeldingsformaten:** Aspose.Note ondersteunt PNG, JPEG, GIF, BMP en TIFF. Voor exotische formaten kun je het notebook eerst in OneNote converteren.  
 
 ## Veelgestelde vragen
 
-**Q: Kan ik afbeeldingen extraheren uit met wachtwoord beveiligde OneNote‑documenten?**  
-A: Ja, Aspose.Note ondersteunt het extraheren van afbeeldingen uit met wachtwoord beveiligde notitieboeken.
+**V: Kan ik afbeeldingen extraheren uit met wachtwoord beveiligde OneNote‑documenten?**  
+A: Ja, Aspose.Note ondersteunt het openen van versleutelde notebooks en het extraheren van hun afbeeldingen.
 
-**Q: Is Aspose.Note compatibel met verschillende versies van Java?**  
-A: Aspose.Note werkt met Java 8 en nieuwer, waardoor u flexibiliteit heeft in diverse omgevingen.
+**V: Is Aspose.Note compatibel met verschillende versies van Java?**  
+A: De bibliotheek werkt met Java 8 en nieuwer, dus je kunt het draaien op Java 11, Java 15 of latere releases.
 
-**Q: Kan ik afbeeldingen extraheren uit meerdere OneNote‑documenten in één uitvoering?**  
-A: Absoluut. Loop door een lijst met bestandspaden en pas dezelfde extractielogica toe op elk document.
+**V: Kan ik afbeeldingen extraheren uit meerdere OneNote‑bestanden in één uitvoering?**  
+A: Absoluut. Plaats de extractielogica eenvoudig in een lus die over een lijst met `.one`‑bestandspaden iterereert.
 
-**Q: Zijn er limieten voor de grootte van OneNote‑documenten?**  
-A: Aspose.Note verwerkt grote notitieboeken efficiënt; er is geen harde limiet voor afbeeldingsextractie.
+**V: Zijn er groottebeperkingen voor de notebooks die ik kan verwerken?**  
+A: Aspose.Note verwerkt efficiënt grote notebooks; er is geen harde limiet voor het extraheren van afbeeldingen.
 
-**Q: Ondersteunt Aspose.Note het extraheren van andere inhoudstypen naast afbeeldingen?**  
-A: Ja, u kunt ook tekst, bijlagen en andere ingesloten objecten extraheren.
+**V: Laat Aspose.Note ook andere inhoudstypen extraheren?**  
+A: Ja, je kunt ook tekst, tabellen, ingesloten bestanden en andere objecten extraheren met vergelijkbare API‑aanroepen.
 
 ---
 
-**Laatst bijgewerkt:** 2025-12-21  
+**Laatst bijgewerkt:** 2026-03-19  
 **Getest met:** Aspose.Note for Java 24.12  
 **Auteur:** Aspose  
 

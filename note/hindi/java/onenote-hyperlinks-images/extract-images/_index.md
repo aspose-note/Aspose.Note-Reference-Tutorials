@@ -1,11 +1,11 @@
 ---
-date: 2025-12-21
-description: जावा के साथ Aspose.Note का उपयोग करके OneNote दस्तावेज़ों से चित्र निकालना
-  सीखें। यह चरण‑दर‑चरण गाइड दिखाता है कि चित्रों को तेज़ी और विश्वसनीयता से कैसे निकाला
-  जाए।
-linktitle: How to Extract Images from OneNote Document using Java
+date: 2026-03-19
+description: Aspose.Note लाइब्रेरी का उपयोग करके जावा में OneNote छवियों को निकालना
+  सीखें। यह चरण‑दर‑चरण गाइड .one फ़ाइलों से तेज़ और विश्वसनीय तरीके से छवियों को निकालने
+  का तरीका दिखाता है।
+linktitle: extract onenote images java – Extract Images from OneNote
 second_title: Aspose.Note Java API
-title: Java का उपयोग करके OneNote दस्तावेज़ से छवियों को निकालने का तरीका
+title: OneNote छवियों को निकालें जावा – OneNote से छवियों को निकालें
 url: /hi/java/onenote-hyperlinks-images/extract-images/
 weight: 14
 ---
@@ -14,40 +14,39 @@ weight: 14
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Java का उपयोग करके OneNote दस्तावेज़ से छवियों को निकालने का तरीका
+# extract onenote images java – How to Extract Images from OneNote Document using Java
 
-## परिचय
+## Introduction
 
-इस ट्यूटोरियल में, हम आपको Java और Aspose.Note लाइब्रेरी की मदद से OneNote दस्तावेज़ से **छवियों को निकालने** के तरीके से परिचित कराएंगे। चाहे आपको रिपोर्टिंग, अभिलेखीय या आगे की प्रोसेसिंग के लिए चित्रों की आवश्यकता हो, यह गाइड आपको पूरे कार्यप्रवाह से गुज़राएगा।
+इस ट्यूटोरियल में आप **how to extract onenote images java** को Aspose.Note for Java लाइब्रेरी की मदद से सीखेंगे। चाहे आपको रिपोर्टिंग, आर्काइविंग, या OCR पाइपलाइन में फ़ीड करने के लिए चित्रों की ज़रूरत हो, हम आपको पूरे वर्कफ़्लो के माध्यम से ले जाएंगे — `.one` नोटबुक को लोड करने से लेकर प्रत्येक चित्र को डिस्क पर अलग फ़ाइल के रूप में सहेजने तक।
 
-## त्वरित उत्तर
-- **कौन सी लाइब्रेरी अनुशंसित है?** Aspose.Note for Java  
-- **क्या मैं पासवर्ड‑सुरक्षित नोटबुक से छवियां निकाल सकता हूँ?** हाँ, Aspose.Note इसे सपोर्ट करता है।  
-- **क्या विकास के लिए लाइसेंस चाहिए?** परीक्षण के लिए एक मुफ्त ट्रायल काम करता है; उत्पादन के लिए लाइसेंस आवश्यक है।  
-- **कौन से Java संस्करण समर्थित हैं?** Java 8 और उसके बाद के (Java 15 सहित)।  
-- **निकालने में कितना समय लगता है?** सामान्य नोटबुक के लिए आमतौर पर कुछ सेकंड।
+## Quick Answers
+- **What library is recommended?** Aspose.Note for Java  
+- **Can I extract images from a password‑protected notebook?** Yes, Aspose.Note supports it.  
+- **Do I need a license for development?** A free trial works for testing; a license is required for production.  
+- **Which Java versions are supported?** Java 8 and newer (including Java 15).  
+- **How long does the extraction take?** Typically a few seconds for a standard notebook.  
 
-## OneNote से छवि निष्कर्षण क्या है?
+## What is **extract images from .one**?
 
-छवियों को निकालना मतलब है प्रोग्रामेटिक रूप से OneNote (.one) फ़ाइल में एम्बेड की गई प्रत्येक तस्वीर को ढूँढना और प्रत्येक को डिस्क पर अलग-अलग इमेज फ़ाइल के रूप में सहेजना। यह तब उपयोगी होता है जब आप नोटबुक वातावरण के बाहर ग्राफ़िक्स को पुन: उपयोग करना चाहते हैं।
+OneNote फ़ाइल से इमेज निकालना मतलब प्रोग्रामेटिक रूप से `.one` नोटबुक में एम्बेडेड हर चित्र को ढूँढ़ना और प्रत्येक को अलग‑अलग इमेज फ़ाइल (PNG, JPEG, GIF, आदि) के रूप में लिखना। यह तब उपयोगी होता है जब आप ग्राफ़िक्स को OneNote के बाहर पुनः उपयोग करना चाहते हैं।
 
-## Java का उपयोग करके OneNote से छवियां क्यों निकालें?
+## Why extract OneNote images using Java?
 
-- **ऑटोमेशन:** कई नोटबुक्स को बैच‑प्रोसेस करें बिना मैन्युअल प्रयास के।  
-- **संगति:** सभी फ़ाइलों में समान निष्कर्षण लॉजिक सुनिश्चित करता है।  
-- **इंटीग्रेशन:** अन्य Java‑आधारित कार्यप्रवाहों (जैसे OCR, इमेज एनालिसिस) के साथ आसानी से संयोजित करें।  
+- **Automation:** कई दर्जन या सैकड़ों नोटबुक को मैन्युअल क्लिक के बिना प्रोसेस करें।  
+- **Consistency:** सभी फ़ाइलों में समान एक्सट्रैक्शन लॉजिक सुनिश्चित करता है।  
+- **Integration:** आउटपुट को आसानी से अन्य Java‑आधारित वर्कफ़्लो जैसे OCR, इमेज एनालिसिस, या कंटेंट मैनेजमेंट सिस्टम में जोड़ सकते हैं।  
 
-## पूर्वापेक्षाएँ
+## Prerequisites
 
-शुरू करने से पहले, सुनिश्चित करें कि आपके पास निम्नलिखित हैं:
+शुरू करने से पहले सुनिश्चित करें कि आपके पास निम्नलिखित चीज़ें तैयार हों:
 
-1. **Java Development Kit (JDK)** – सुनिश्चित करें कि आपके सिस्टम पर Java स्थापित है। आप इसे [website](https://www.oracle.com/java/technologies/javase-jdk15-downloads.html) से डाउनलोड और इंस्टॉल कर सकते हैं।
+1. **Java Development Kit (JDK)** – Java 8 या उससे नया इंस्टॉल करें। आप इसे [website](https://www.oracle.com/java/technologies/javase-jdk15-downloads.html) से डाउनलोड कर सकते हैं।  
+2. **Aspose.Note Library** – नवीनतम Aspose.Note for Java पैकेज डाउनलोड करें और इसे अपने प्रोजेक्ट की classpath में जोड़ें। इसे [download link](https://releases.aspose.com/note/java/) से प्राप्त करें।  
 
-2. **Aspose.Note Library** – Aspose.Note लाइब्रेरी को डाउनलोड करके अपने Java प्रोजेक्ट में शामिल करें। आप इसे [download link](https://releases.aspose.com/note/java/) से प्राप्त कर सकते हैं।
+## Import Packages
 
-## पैकेज इम्पोर्ट करें
-
-शुरू करने के लिए, आवश्यक पैकेज इम्पोर्ट करें:
+शुरू करने के लिए आवश्यक Java क्लासेज़ इम्पोर्ट करें:
 
 ```java
 import java.io.IOException;
@@ -58,27 +57,27 @@ import com.aspose.note.Document;
 import com.aspose.note.Image;
 ```
 
-## चरण 1: दस्तावेज़ लोड करें
+## Step 1: Load the OneNote Document
 
-पहले, Aspose.Note का उपयोग करके OneNote दस्तावेज़ लोड करें:
+पहले, API को उस फ़ोल्डर की ओर इंगित करें जिसमें आपका `.one` फ़ाइल है और नोटबुक को लोड करें:
 
 ```java
 String dataDir = "Your Document Directory";
 Document doc = new Document(dataDir + "Sample1.one");
 ```
 
-## चरण 2: सभी छवियां प्राप्त करें
+## Step 2: Retrieve All Images
 
-अगला, दस्तावेज़ से सभी छवियों को प्राप्त करें:
+Aspose.Note को दस्तावेज़ के अंदर प्रत्येक `Image` नोड के लिए पूछें। यही **extract onenote images java** प्रक्रिया का मुख्य भाग है:
 
 ```java
 List<Image> list = doc.getChildNodes(Image.class);
 System.out.printf("Total Images: %s\n\n", list.size());
 ```
 
-## चरण 3: छवियों को निकालें
+## Step 3: Save Each Image to Disk
 
-छवियों की सूची पर इटरेट करें और प्रत्येक छवि को फ़ाइल में सहेजें:
+कलेक्शन पर लूप चलाएँ, रॉ बाइट्स निकालें, और प्रत्येक चित्र को एक यूनिक‑नाम वाली फ़ाइल में लिखें:
 
 ```java
 for (int i = 0; i < list.size(); i++) {
@@ -90,37 +89,38 @@ for (int i = 0; i < list.size(); i++) {
 }
 ```
 
-## सामान्य समस्याएँ और समाधान
-- **कोई छवि नहीं मिली:** सुनिश्चित करें कि स्रोत `.one` फ़ाइल में वास्तव में एम्बेडेड चित्र हैं।  
-- **फ़ाइल अनुमति त्रुटियां:** जांचें कि `dataDir` पथ लिखने योग्य है।  
-- **असमर्थित छवि फ़ॉर्मेट:** Aspose.Note अधिकांश सामान्य फ़ॉर्मेट (PNG, JPEG, GIF) को संभालता है। यदि कोई फ़ॉर्मेट असमर्थित है, तो पहले OneNote में नोटबुक को कन्वर्ट करने पर विचार करें।
+### What Happens Behind the Scenes?
 
-## निष्कर्ष
+- `image.getBytes()` मूल इमेज डेटा (PNG, JPEG, GIF, आदि) लौटाता है।  
+- `image.getFileName()` मूल नाम को बरकरार रखता है, जिससे स्रोत को ट्रैक करना आसान हो जाता है।  
 
-ऊपर दिए गए चरणों का पालन करके, अब आप Java और Aspose.Note लाइब्रेरी का उपयोग करके OneNote दस्तावेज़ से **छवियों को निकालने** का तरीका जानते हैं। आप इस लॉजिक को बड़े अनुप्रयोगों में एकीकृत कर सकते हैं, बैच प्रोसेसिंग को स्वचालित कर सकते हैं, या बस पुन: उपयोग के लिए ग्राफ़िक्स प्राप्त कर सकते हैं।
+## Common Issues and Solutions
+- **No images found:** Verify that the source `.one` file actually contains embedded pictures.  
+- **File permission errors:** Ensure the `dataDir` folder is writable by the Java process.  
+- **Unsupported image formats:** Aspose.Note handles PNG, JPEG, GIF, BMP, and TIFF. For exotic formats, consider converting the notebook in OneNote first.  
 
-## अक्सर पूछे जाने वाले प्रश्न
+## Frequently Asked Questions
 
-**प्र.: क्या मैं पासवर्ड‑सुरक्षित OneNote दस्तावेज़ों से छवियां निकाल सकता हूँ?**  
-उ.: हाँ, Aspose.Note पासवर्ड‑सुरक्षित नोटबुक्स से छवियां निकालने का समर्थन करता है।
+**Q: Can I extract images from password‑protected OneNote documents?**  
+A: Yes, Aspose.Note supports opening encrypted notebooks and extracting their images.
 
-**प्र.: क्या Aspose.Note विभिन्न Java संस्करणों के साथ संगत है?**  
-उ.: Aspose.Note Java 8 और उसके बाद के संस्करणों के साथ काम करता है, जिससे आपको विभिन्न वातावरणों में लचीलापन मिलता है।
+**Q: Is Aspose.Note compatible with different versions of Java?**  
+A: The library works with Java 8 and newer, so you can run it on Java 11, Java 15, or later releases.
 
-**प्र.: क्या मैं एक ही निष्पादन में कई OneNote दस्तावेज़ों से छवियां निकाल सकता हूँ?**  
-उ.: बिल्कुल। फ़ाइल पथों की सूची पर लूप करें और प्रत्येक दस्तावेज़ पर समान निष्कर्षण लॉजिक लागू करें।
+**Q: Can I extract images from multiple OneNote files in a single run?**  
+A: Absolutely. Simply place the extraction logic inside a loop that iterates over a list of `.one` file paths.
 
-**प्र.: OneNote दस्तावेज़ों के लिए कोई आकार सीमा है क्या?**  
-उ.: Aspose.Note बड़े नोटबुक्स को कुशलता से संभालता है; छवि निष्कर्षण के लिए कोई कठोर आकार सीमा नहीं है।
+**Q: Are there size limits for the notebooks I can process?**  
+A: Aspose.Note efficiently handles large notebooks; there is no hard‑coded size limit for image extraction.
 
-**प्र.: क्या Aspose.Note छवियों के अलावा अन्य सामग्री प्रकारों को निकालने का समर्थन करता है?**  
-उ.: हाँ, आप टेक्स्ट, अटैचमेंट और अन्य एम्बेडेड ऑब्जेक्ट भी निकाल सकते हैं।
+**Q: Does Aspose.Note allow extracting other content types?**  
+A: Yes, you can also extract text, tables, embedded files, and other objects using similar APIs.
 
 ---
 
-**अंतिम अपडेट:** 2025-12-21  
-**परीक्षण किया गया:** Aspose.Note for Java 24.12  
-**लेखक:** Aspose  
+**Last Updated:** 2026-03-19  
+**Tested With:** Aspose.Note for Java 24.12  
+**Author:** Aspose  
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

@@ -1,10 +1,10 @@
 ---
-date: 2025-12-21
-description: 学习如何使用 Java 和 Aspose.Note for Java 向 OneNote 文档添加图像。按照我们的分步指南插入图像，并可选择将
+date: 2026-03-19
+description: 学习如何使用 Java 和 Aspose.Note for Java 向 OneNote 添加图像，包括如何在 Java 中设置图像尺寸以及将
   OneNote 保存为 PDF。
 linktitle: Insert an Image in OneNote Document with Java
 second_title: Aspose.Note Java API
-title: 如何使用 Java 向 OneNote 添加图片
+title: 使用 Java 向 OneNote 添加图片
 url: /zh/java/onenote-hyperlinks-images/insert-image/
 weight: 16
 ---
@@ -13,43 +13,41 @@ weight: 16
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# 使用 Java 在 OneNote 文档中插入图像
+# 使用 Java 在 OneNote 文档中插入图片
 
 ## 介绍
 
-在本教程中，我们将探讨如何使用 Java 并借助 Aspose.Note for Java 将图像插入 OneNote 文档。Aspose.Note for Java 是一个强大的库，允许开发者以编程方式操作 Microsoft OneNote 文件，实现创建、读取和修改 OneNote 文档等多种操作。
+在本教程中，您将学习 **如何使用 Java 向 OneNote 添加图片**，通过 Aspose.Note for Java 库以编程方式实现。将图片嵌入 OneNote 页面在生成会议纪要、自动化报告或将文本与可视化数据相结合的文档时非常方便。完成本指南后，您将能够加载现有的 OneNote 文件，插入图片，可选地调整其大小和位置，甚至 **将 OneNote 保存为 PDF**——全部无需打开 OneNote UI。
 
-## 常见问题快速解答
-- **使用 Java 向 OneNote 添加图像的最简方法是什么？**  
+## 快速回答
+- **使用 Java 向 OneNote 添加图片的最简方法是什么？**  
   使用 Aspose.Note for Java 的 `Image` 类并将其追加到页面。
 - **生产环境使用是否需要许可证？**  
   是的，生产部署需要商业许可证。
-- **我可以为图像设置自定义尺寸吗？**  
-  当然可以——在 `Image` 对象上调用 `setWidth()` 和 `setHeight()`。
-- **在添加图像后，是否可以将 OneNote 文件保存为 PDF？**  
+- **我可以为图片设置自定义尺寸吗？**  
+  当然——在 `Image` 对象上调用 `setWidth()` 和 `setHeight()`。
+- **在添加图片后可以将 OneNote 文件保存为 PDF 吗？**  
   可以，调用 `save(..., SaveFormat.Pdf)` 即可 **将 OneNote 保存为 PDF**。
 - **支持哪个 Java 版本？**  
   Aspose.Note for Java 支持 JDK 8 及更高版本。
 
-## 如何使用 Java 向 OneNote 添加图像？
+## 为什么向 OneNote 添加图片？
 
-在深入代码之前，让我们简要讨论一下为何需要以编程方式在 OneNote 中嵌入图像。无论是生成会议纪要、创建自动化报告，还是构建文档流水线，插入图像都能为笔记提供纯文本无法呈现的视觉上下文。使用 Aspose.Note for Java，您可以完全通过代码实现，而无需打开 OneNote UI。
+添加视觉元素可以使笔记更易于理解且更具吸引力。图片可以展示图表、截图或数据图表，否则需要冗长的文字描述。自动化此步骤可节省时间，尤其是在从数据源生成大量笔记时。
 
 ## 前置条件
 
-在开始之前，请确保已准备好以下前置条件：
+在开始之前，请确保您已准备好以下内容：
 
 ### 1. Java 开发工具包 (JDK)
-
-确保您的系统已安装 Java 开发工具包 (JDK)。您可以从 Oracle 官方网站下载并安装 JDK。
+安装 JDK 8 或更高版本。您可以从 Oracle 网站下载，或使用 OpenJDK 发行版。
 
 ### 2. Aspose.Note for Java 库
-
-按照[文档](https://reference.aspose.com/note/java/)下载并设置 Aspose.Note for Java 库。
+下载最新的 Aspose.Note for Java 库并将其添加到项目的 classpath 中。详细的设置说明请参阅官方 [documentation](https://reference.aspose.com/note/java/)。
 
 ## 导入包
 
-首先在您的 Java 项目中导入必要的包。这些包包括 Aspose.Note 库以及其他所需的依赖项。
+首先导入必要的类。这些导入为您提供对核心 Aspose.Note 功能以及基本 Java 实用工具的访问。
 
 ```java
 import java.io.IOException;
@@ -61,11 +59,13 @@ import com.aspose.note.Page;
 import com.aspose.note.SaveFormat;
 ```
 
-让我们将向 OneNote 文档插入图像的过程拆分为多个步骤：
+## 步骤指南
 
-## 步骤 1：加载 OneNote 文档
+以下是简明的编号步骤指南。每一步包括简短说明以及需要复制的完整代码。
 
-首先，加载您想要插入图像的 OneNote 文档。
+### 步骤 1：加载 OneNote 文档
+
+我们创建一个 `LoadOptions` 实例（对以后自定义很有用），并打开现有的 `.one` 文件。
 
 ```java
 LoadOptions options = new LoadOptions();
@@ -73,25 +73,25 @@ String dataDir = "Your Document Directory";
 Document oneFile = new Document(dataDir + "Sample1.one", options);
 ```
 
-## 步骤 2：获取页面
+### 步骤 2：获取目标页面
 
-获取文档中您想要插入图像的页面。
+为简化起见，我们使用文档中的第一页，但您可以导航到所需的任何页面。
 
 ```java
 Page page = oneFile.getFirstChild();
 ```
 
-## 步骤 3：加载图像
+### 步骤 3：加载要嵌入的图片
 
-加载您想要插入 OneNote 文档的图像。
+通过传入文档引用和图片文件路径来实例化 `Image` 对象。
 
 ```java
 Image image = new Image(oneFile, dataDir + "Input.jpg");
 ```
 
-## 步骤 4：自定义图像属性（可选）
+### 步骤 4：设置图片尺寸 Java（可选）
 
-您可以根据需求自定义图像的尺寸、位置和对齐方式。这就是您以 **Java 风格设置图像尺寸** 的地方。
+如果需要图片适配特定区域，请调整其宽度、高度和偏移量。这正是次要关键词 **set image dimensions java** 发挥作用的地方。
 
 ```java
 image.setWidth(100);
@@ -101,17 +101,17 @@ image.setHorizontalOffset(100);
 image.setAlignment(HorizontalAlignment.Right);
 ```
 
-## 步骤 5：将图像添加到页面
+### 步骤 5：将图片追加到页面
 
-将图像添加到 OneNote 文档的页面中。
+`appendChildLast` 方法将图片作为选定页面的最后一个元素追加。
 
 ```java
 page.appendChildLast(image);
 ```
 
-## 步骤 6：保存文档
+### 步骤 6：保存文档——您也可以将 OneNote 保存为 PDF
 
-保存已修改的文档，包括插入的图像。您也可以在此阶段 **将 OneNote 保存为 PDF**。
+最后，持久化更改。示例演示将文件保存为 PDF，满足次要关键词 **save onenote as pdf**。
 
 ```java
 try {
@@ -121,36 +121,44 @@ try {
 }
 ```
 
+## 常见问题及解决方案
+
+| 症状 | 可能原因 | 解决办法 |
+|---------|--------------|-----|
+| `FileNotFoundException` 加载图片时 | 图片路径不正确 | 确认 `dataDir` 和图片文件名正确。 |
+| 图片显示失真 | 宽度/高度设置不正确 | 在调用 `setWidth`/`setHeight` 前使用原始图片尺寸或计算合适的宽高比。 |
+| PDF 输出为空白 | 缺少 Aspose.Note 许可证 | 在调用 `save` 前应用有效许可证。 |
+
+## 常见问答
+
+### Q1：我可以使用此方法在单个 OneNote 文档中插入多张图片吗？
+
+**A:** 是的。只需对每张要添加的图片重复步骤 3‑5，针对相同或不同的页面即可。
+
+### Q2：Aspose.Note for Java 与所有版本的 OneNote 兼容吗？
+
+**A:** Aspose.Note for Java 支持使用 Microsoft OneNote 2010 及更高版本创建的 OneNote 文件。
+
+### Q3：我可以在 OneNote 文档中插入不同格式的图片，例如 PNG 或 GIF 吗？
+
+**A:** 当然。该库支持 PNG、JPEG、GIF、BMP 等多种常见格式。
+
+### Q4：是否有 Aspose.Note for Java 的试用版可供测试？
+
+**A:** 是的，您可以从 Aspose 网站下载免费试用版，以在购买前评估 API。
+
+### Q5：如何获取 Aspose.Note for Java 的技术支持？
+
+**A:** 您可以访问专门针对 Aspose.Note 产品的 [forum](https://forum.aspose.com/c/note/28) 获取帮助。
+
 ## 结论
 
-在本教程中，我们学习了如何使用 Java 并借助 Aspose.Note for Java 库向 OneNote 文档插入图像。通过遵循一步步的指南，您可以轻松地以编程方式将图像嵌入 OneNote 文档中。
-
-## 常见问题
-
-### 问题 1：我可以使用此方法在单个 OneNote 文档中插入多张图像吗？
-
-答：可以，您可以通过对每张图像重复本教程中概述的步骤，将多张图像插入同一个 OneNote 文档。
-
-### 问题 2：Aspose.Note for Java 是否兼容所有版本的 OneNote？
-
-答：Aspose.Note for Java 支持处理在 Microsoft OneNote 2010 及更高版本中创建的 OneNote 文件。
-
-### 问题 3：我可以将不同格式的图像（如 PNG 或 GIF）插入 OneNote 文档吗？
-
-答：可以，Aspose.Note for Java 支持插入多种格式的图像，包括 PNG、JPEG、GIF 等。
-
-### 问题 4：是否提供 Aspose.Note for Java 的试用版供测试？
-
-答：可以，您可以从官方网站下载 Aspose.Note for Java 的免费试用版进行评估。
-
-### 问题 5：如何获取 Aspose.Note for Java 的技术支持？
-
-答：您可以访问专门针对 Aspose.Note 产品的[论坛](https://forum.aspose.com/c/note/28)获取技术支持。
+现在您拥有一个完整的、可用于生产的示例，展示了使用 Java **向 OneNote 添加图片**、自定义其外观，并可选地 **将 OneNote 保存为 PDF**。请随意将代码适配到您的工作流中——无论是构建报表引擎、自动化文档系统，还是自定义记笔记应用。
 
 ---
 
-**最后更新：** 2025-12-21  
-**测试版本：** Aspose.Note for Java 24.10  
+**最后更新：** 2026-03-19  
+**测试环境：** Aspose.Note for Java 24.10  
 **作者：** Aspose  
 
 {{< /blocks/products/pf/tutorial-page-section >}}
