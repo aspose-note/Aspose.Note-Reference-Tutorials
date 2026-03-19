@@ -1,10 +1,11 @@
 ---
-date: 2025-12-20
-description: تعلم كيفية إضافة صورة إلى OneNote باستخدام Aspose.Note للغة Java. دليل
-  خطوة بخطوة لإنشاء مستندات OneNote وإدراج الصور برمجيًا.
+date: 2026-03-19
+description: تعلم كيفية إضافة صورة إلى OneNote باستخدام Aspose.Note للغة Java. يوضح
+  هذا الدليل خطوة بخطوة كيفية إنشاء مستندات OneNote، وإدراج صورة في OneNote، وحفظ
+  OneNote كملف PDF.
 linktitle: How to add picture to OneNote using Java – Build Document and Insert Image
 second_title: Aspose.Note Java API
-title: كيفية إضافة صورة إلى OneNote باستخدام Java – إنشاء المستند وإدراج الصورة
+title: كيفية إضافة صورة إلى OneNote باستخدام Java – بناء المستند وإدراج الصورة
 url: /ar/java/onenote-hyperlinks-images/build-doc-insert-image/
 weight: 12
 ---
@@ -17,35 +18,37 @@ weight: 12
 
 ## المقدمة
 
-في هذا الدرس، ستتعلم **كيفية إضافة صورة إلى OneNote** باستخدام Aspose.Note Java API. سنستعرض إنشاء مستند OneNote من الصفر، إدراج صورة، وحفظ النتيجة كملف PDF. سواءً كنت تبني أداة تقارير، أو تقوم بأتمتة تدوين الملاحظات، أو تحتاج ببساطة إلى تضمين رسومات برمجياً، فإن هذا الدليل يقدم لك مسارًا واضحًا وتطبيقيًا.
+في هذا البرنامج التعليمي، ستتعلم **كيفية إضافة صورة إلى OneNote** باستخدام Aspose.Note Java API. سنستعرض إنشاء مستند OneNote من الصفر، وإدراج صورة، وحفظ النتيجة كملف PDF. سواءً كنت تبني أداة تقارير، أو تقوم بأتمتة تدوين الملاحظات، أو تحتاج ببساطة إلى تضمين رسومات برمجيًا، فإن هذا الدليل يقدم لك مسارًا واضحًا وتطبيقيًا.
 
 ## إجابات سريعة
 - **ما المكتبة التي أحتاجها؟** Aspose.Note for Java.  
-- **هل يمكنني إدراج أي تنسيق صورة؟** تدعم JPEG، PNG، BMP، GIF وغيرها.  
-- **ما هي صيغ الإخراج المتاحة؟** يمكنك الحفظ كـ OneNote، PDF، XPS، HTML، إلخ.  
-- **هل أحتاج إلى ترخيص للإنتاج؟** نعم، يلزم الحصول على ترخيص تجاري للاستخدام غير التجريبي.  
-- **هل الشيفرة متعددة المنصات؟** بالتأكيد – Java تعمل على Windows، Linux، و macOS.
+- **هل يمكنني إدراج أي صيغة صورة؟** JPEG, PNG, BMP, GIF and more are supported.  
+- **ما صيغ الإخراج المتاحة؟** You can save as OneNote, PDF, XPS, HTML, etc.  
+- **هل أحتاج إلى ترخيص للإنتاج؟** Yes, a commercial license is required for non‑trial use.  
+- **هل الكود متعدد المنصات؟** Absolutely – Java runs on Windows, Linux, and macOS.
 
-## ما هو “إضافة صورة إلى OneNote”؟
-إضافة صورة إلى OneNote تعني تضمين ملف صورة داخل صفحة OneNote برمجيًا بحيث تظهر جنبًا إلى جنب مع النص أو المخططات أو العناصر الأخرى. تقوم Aspose.Note API بتجريد تنسيق ملف OneNote، مما يتيح لك التركيز على المحتوى بدلاً من بنية XML الداخلية.
+## كيفية إضافة صورة إلى OneNote باستخدام Java
 
-## لماذا نضيف صورة إلى OneNote باستخدام Java؟
-- **الأتمتة:** إنشاء محاضر الاجتماعات مع لقطات الشاشة تلقائيًا.  
-- **الاتساق:** ضمان أن كل صفحة تتبع نفس التخطيط والعلامة التجارية.  
-- **التكامل:** دمج البيانات من أنظمة أخرى (مثل المخططات) مباشرةً في دفاتر OneNote.  
-- **متعددة المنصات:** تسمح لك Java بتشغيل نفس الشيفرة على أي خادم أو بيئة سطح مكتب.
+إضافة صورة إلى OneNote تعني تضمين ملف صورة برمجيًا في صفحة OneNote بحيث يظهر بجانب النص أو المخططات أو العناصر الأخرى. تقوم Aspose.Note API بتجريد تنسيق ملف OneNote، مما يتيح لك التركيز على المحتوى بدلاً من بنية XML الأساسية.
+
+### لماذا يتم تضمين صورة في OneNote؟
+
+- **الأتمتة:** Generate meeting minutes with screenshots automatically.  
+- **الاتساق:** Ensure every page follows the same layout and branding.  
+- **التكامل:** Combine data from other systems (e.g., charts) directly into OneNote notebooks.  
+- **متعدد المنصات:** Java lets you run the same code on any server or desktop environment.
 
 ## المتطلبات المسبقة
 
-قبل أن نبدأ، تأكد من توفر ما يلي:
+قبل أن نبدأ، تأكد من أن لديك ما يلي:
 
-1. **Java Development Kit (JDK)** – أي نسخة حديثة (8 أو أعلى).  
-2. **Aspose.Note for Java library** – حمّلها من [الموقع الإلكتروني](https://releases.aspose.com/note/java/).  
-3. **IDE** – IntelliJ IDEA، Eclipse، أو أي محرر يدعم Java تفضله.  
+1. **Java Development Kit (JDK)** – أي نسخة حديثة (8 أو أحدث).  
+2. **Aspose.Note for Java library** – قم بتنزيله من [الموقع الإلكتروني](https://releases.aspose.com/note/java/).  
+3. **IDE** – IntelliJ IDEA أو Eclipse أو أي محرر متوافق مع Java تفضله.  
 
 ## استيراد الحزم
 
-ابدأ باستيراد الفئات الضرورية في ملف المصدر Java الخاص بك:
+ابدأ باستيراد الفئات الضرورية في ملف Java المصدر الخاص بك:
 
 ```java
 import java.io.IOException;
@@ -62,7 +65,7 @@ import com.aspose.note.SaveFormat;
 
 ### الخطوة 1: إعداد المستند
 
-إنشاء مستند OneNote جديد وحاوية صفحة حيث سيُوضع المحتوى.
+أنشئ مستند OneNote جديدًا وحاوية صفحة حيث سيعيش المحتوى.
 
 ```java
 String dataDir = "Your Document Directory";
@@ -70,9 +73,9 @@ Document doc = new Document();
 Page page = new Page();
 ```
 
-### الخطوة 2: تهيئة المخطط (Outline)
+### الخطوة 2: تهيئة المخطط
 
-المخطط *outline* يعمل كحاوية للعناصر مثل النصوص والصور. نضبط إزاحاته إلى الصفر لتبدأ المحتويات من الزاوية العليا اليسرى.
+يعمل *المخطط* كحاوية للعناصر مثل النص والصور. نضبط إزاحاته إلى الصفر بحيث يبدأ المحتوى من الزاوية العليا اليسرى.
 
 ```java
 Outline outline = new Outline();
@@ -80,18 +83,18 @@ outline.setVerticalOffset(0);
 outline.setHorizontalOffset(0);
 ```
 
-### الخطوة 3: تحميل الصورة ومحاذاتها
+### الخطوة 3: تحميل ومحاذاة الصورة
 
-حمّل الصورة التي تريد تضمينها وحاذها إلى الجانب الأيمن من الصفحة. هنا يتم **إضافة صورة إلى OneNote** فعليًا.
+حمّل الصورة التي تريد تضمينها وقم بمحاذاتها إلى الجانب الأيمن من الصفحة. هنا نضيف فعليًا **صورة إلى OneNote**. يوضح مُنشئ `Image` كيفية **تحميل ملف صورة java** برمجيًا.
 
 ```java
 Image image = new Image(null, dataDir + "Input.jpg");
 image.setAlignment(HorizontalAlignment.Right);
 ```
 
-### الخطوة 4: ربط الصورة بعنصر المخطط
+### الخطوة 4: إرفاق الصورة بعنصر المخطط
 
-لف الصورة داخل `OutlineElement`. هذه الخطوة تربط الكائن البصري بهيكل المخطط في المستند.
+غلف الصورة داخل `OutlineElement`. هذه الخطوة تربط الكائن البصري بهرمية مخطط المستند وتقوم فعليًا **إدراج صورة في OneNote**.
 
 ```java
 OutlineElement outlineElem = new OutlineElement();
@@ -100,7 +103,7 @@ outlineElem.appendChildLast(image);
 
 ### الخطوة 5: تجميع بنية المستند
 
-أضف عنصر المخطط إلى المخطط، ثم اربط المخطط بالصفحة، وأخيرًا أضف الصفحة إلى المستند.
+أضف عنصر المخطط إلى المخطط، ثم أرفق المخطط بالصفحة، وأخيرًا أضف الصفحة إلى المستند.
 
 ```java
 outline.appendChildLast(outlineElem);
@@ -110,7 +113,7 @@ doc.appendChildLast(page);
 
 ### الخطوة 6: حفظ مستند OneNote
 
-احفظ المستند على القرص. في هذا المثال نصدر إلى PDF، لكن يمكنك أيضًا حفظه كملف OneNote أصلي (`.one`) بتغيير قيمة `SaveFormat`.
+احفظ المستند على القرص. في هذا المثال نصدر إلى PDF، مما يوضح كيفية **حفظ OneNote كملف PDF** أو **تحويل OneNote إلى PDF**. يمكنك أيضًا حفظه كملف OneNote أصلي (`.one`) عن طريق تغيير `SaveFormat`.
 
 ```java
 try {
@@ -122,33 +125,39 @@ try {
 
 ## المشكلات الشائعة والحلول
 
-| المشكلة | السبب | الحل |
-|--------|-------|------|
-| **الصورة لا تظهر** | مسار الملف غير صحيح أو تنسيق غير مدعوم. | تحقق من أن `dataDir` يشير إلى المجلد الصحيح واستخدم تنسيق صورة مدعوم (JPEG، PNG، إلخ). |
-| **المستند يُحفظ كملف PDF فارغ** | إزاحات المخطط مضبوطة بشكل غير صحيح. | تأكد من استدعاء `setVerticalOffset(0)` و `setHorizontalOffset(0)`، أو عدّل الإزاحات لتضع المحتوى داخل حدود الصفحة. |
-| **IOException عند الحفظ** | المجلد الوجهة غير موجود أو لا يملك صلاحية كتابة. | أنشئ المجلد مسبقًا أو شغّل البرنامج بصلاحيات مناسبة. |
+| المشكلة | سبب حدوثها | الحل |
+|-------|----------------|-----|
+| **الصورة غير ظاهرة** | مسار ملف غير صحيح أو صيغة غير مدعومة. | تحقق من أن `dataDir` يشير إلى المجلد الصحيح واستخدم نوع صورة مدعوم (JPEG، PNG، إلخ). |
+| **المستند محفوظ كملف PDF فارغ** | تم ضبط إزاحات المخطط بشكل غير صحيح. | تأكد من استدعاء `setVerticalOffset(0)` و `setHorizontalOffset(0)`، أو عدّل الإزاحات لتضع المحتوى داخل حدود الصفحة. |
+| **IOException عند الحفظ** | المجلد الوجهة غير موجود أو يفتقر إلى صلاحية الكتابة. | أنشئ المجلد مسبقًا أو شغّل البرنامج بصلاحيات مناسبة. |
 
 ## الأسئلة المتكررة
 
-**س1: أين يمكنني العثور على وثائق Aspose.Note for Java؟**  
-ج1: يمكنك الوصول إلى الوثائق [من هنا](https://reference.aspose.com/note/java/).
+**س1: أين يمكنني العثور على الوثائق الخاصة بـ Aspose.Note for Java؟**  
+A1: يمكنك الوصول إلى الوثائق [هنا](https://reference.aspose.com/note/java/).
 
-**س2: كيف يمكنني تحميل Aspose.Note for Java؟**  
-ج2: يمكنك تحميل Aspose.Note for Java من [صفحة التحميل](https://releases.aspose.com/note/java/).
+**س2: كيف يمكنني تنزيل Aspose.Note for Java؟**  
+A2: يمكنك تنزيل Aspose.Note for Java من [صفحة التنزيل](https://releases.aspose.com/note/java/).
 
 **س3: هل هناك نسخة تجريبية مجانية متاحة لـ Aspose.Note for Java؟**  
-ج3: نعم، يمكنك الحصول على نسخة تجريبية مجانية من [الموقع الإلكتروني](https://releases.aspose.com/).
+A3: نعم، يمكنك الحصول على نسخة تجريبية مجانية من [الموقع الإلكتروني](https://releases.aspose.com/).
 
-**س4: أين يمكنني الحصول على دعم لـ Aspose.Note for Java؟**  
-ج4: للحصول على الدعم، زر [منتدى Aspose.Note](https://forum.aspose.com/c/note/28).
+**س4: أين يمكنني الحصول على الدعم لـ Aspose.Note for Java؟**  
+A4: للحصول على الدعم، زر [منتدى Aspose.Note](https://forum.aspose.com/c/note/28).
 
 **س5: هل يمكنني الحصول على ترخيص مؤقت لـ Aspose.Note for Java؟**  
-ج5: نعم، يمكنك طلب ترخيص مؤقت [من هنا](https://purchase.aspose.com/temporary-license/).
+A5: نعم، يمكنك طلب ترخيص مؤقت [هنا](https://purchase.aspose.com/temporary-license/).
+
+**س6: هل يمكنني استخدام هذا الكود **لحفظ OneNote كملف PDF** على خادم Linux؟**  
+A6: بالطبع. مكتبة Aspose.Note مستقلة عن المنصة، لذا يعمل نفس الكود على Windows وLinux وmacOS.
+
+**س7: هل يدعم الـ API **تضمين صورة في OneNote** بصيغة PNG شفافة؟**  
+A7: نعم، ملفات PNG ذات القنوات ألفا مدعومة بالكامل وتحتفظ بالشفافية عند إدراجها.
 
 ---
 
-**آخر تحديث:** 2025-12-20  
-**تم الاختبار باستخدام:** Aspose.Note for Java 24.12 (latest)  
+**آخر تحديث:** 2026-03-19  
+**تم الاختبار مع:** Aspose.Note for Java 24.12 (latest)  
 **المؤلف:** Aspose  
 
 {{< /blocks/products/pf/tutorial-page-section >}}
