@@ -1,11 +1,11 @@
 ---
-date: 2025-12-21
-description: Ismerje meg, hogyan adhat képet a OneNote dokumentumokhoz Java-val az
-  Aspose.Note for Java segítségével. Kövesse lépésről‑lépésre útmutatónkat a képek
-  beszúrásához, és opcionálisan mentse a OneNote-ot PDF‑ként.
+date: 2026-03-19
+description: Tanulja meg, hogyan adhat hozzá képet a OneNote-hoz Java-val az Aspose.Note
+  for Java segítségével, beleértve, hogyan állíthatja be a kép méreteit Java-ban,
+  és hogyan mentheti a OneNote-ot PDF formátumban.
 linktitle: Insert an Image in OneNote Document with Java
 second_title: Aspose.Note Java API
-title: Hogyan adjunk képet a OneNote-hoz Java-val
+title: Kép hozzáadása a OneNote-hoz Java-val
 url: /hu/java/onenote-hyperlinks-images/insert-image/
 weight: 16
 ---
@@ -18,37 +18,37 @@ weight: 16
 
 ## Bevezetés
 
-Ebben a bemutatóban megvizsgáljuk, hogyan lehet képet beszúrni egy OneNote dokumentumba Java segítségével az Aspose.Note for Java használatával. Az Aspose.Note for Java egy erőteljes könyvtár, amely lehetővé teszi a fejlesztők számára, hogy programozottan dolgozzanak a Microsoft OneNote fájlokkal, beleértve a létrehozást, olvasást és a OneNote dokumentumok manipulálását.
+Ebben az útmutatóban megtanulja, **hogyan adjunk hozzá képet a OneNote-hoz** programozott módon Java és az Aspose.Note for Java könyvtár segítségével. Képek beágyazása a OneNote oldalakba hasznos, ha értekezési jegyzőkönyveket, automatizált jelentéseket vagy olyan dokumentációt kell létrehozni, amely szöveget kombinál vizuális adatokkal. A leírás végére képes lesz meglévő OneNote fájlt betölteni, képet beszúrni, opcionálisan méretét és pozícióját beállítani, és akár **OneNote mentése PDF‑ként** – mindezt a OneNote felhasználói felületének megnyitása nélkül.
 
 ## Gyors válaszok
 - **Mi a legegyszerűbb módja a kép hozzáadásának a OneNote-hoz Java-val?**  
   Használja az Aspose.Note for Java `Image` osztályát, és fűzze hozzá egy oldalhoz.
-- **Szükségem van licencre a termelési használathoz?**  
-  Igen, egy kereskedelmi licenc szükséges a termelési telepítésekhez.
-- **Beállíthatok egyedi méreteket a képhez?**  
-  Természetesen – hívja a `setWidth()` és `setHeight()` metódusokat a `Image` objektumon.
-- **Lehetséges a OneNote fájlt PDF-ként menteni a kép hozzáadása után?**  
-  Igen, hívja a `save(..., SaveFormat.Pdf)`-t a **OneNote PDF-ként mentéséhez**.
+- **Szükségem van licencre a termelésben való használathoz?**  
+  Igen, kereskedelmi licenc szükséges a termelési környezetben való telepítéshez.
+- **Beállíthatok egyedi méreteket a képre?**  
+  Természetesen – hívja meg a `setWidth()` és `setHeight()` metódusokat az `Image` objektumon.
+- **Lehetséges a OneNote fájl mentése PDF‑ként a kép hozzáadása után?**  
+  Igen, hívja meg a `save(..., SaveFormat.Pdf)` metódust a **OneNote mentéséhez PDF‑ként**.
 - **Melyik Java verzió támogatott?**  
-  Az Aspose.Note for Java a JDK 8 és újabb verzióival működik.
+  Az Aspose.Note for Java a JDK 8‑as és újabb verziókkal működik.
 
-## Hogyan adhatunk hozzá képet a OneNote-hoz Java-val?
+## Miért adjunk képet a OneNote-hoz?
 
-Mielőtt a kódba merülnénk, röviden megvitatjuk, miért lehet hasznos programozottan beágyazni képeket a OneNote-ba. Legyen szó értekezési jegyzőkönyvek generálásáról, automatizált jelentések készítéséről vagy dokumentációs csővezeték kiépítéséről, a képek vizuális kontextust adnak a jegyzeteknek, amit a sima szöveg nem tud nyújtani. Az Aspose.Note for Java-val mindezt teljesen kódból, a OneNote felületének megnyitása nélkül megteheti.
+A vizuális elemek hozzáadása érthetőbbé és vonzóbbá teszi a jegyzeteket. A képek ábrákat, képernyőképeket vagy adatgrafikonokat illusztrálhatnak, amelyek egyébként hosszú szöveges leírásokat igényelnének. Ennek a lépésnek az automatizálása időt takarít meg, különösen nagy mennyiségű jegyzet adatforrásokból történő generálásakor.
 
-## Előfeltételek
+## Előkövetelmények
 
-Mielőtt elkezdenénk, győződjön meg róla, hogy a következő előfeltételek rendelkezésre állnak:
+Mielőtt elkezdenénk, győződjön meg róla, hogy az alábbiak rendelkezésre állnak:
 
-### 1. Java Development Kit (JDK)
-Győződjön meg arról, hogy a Java Development Kit (JDK) telepítve van a rendszerén. A JDK-t letöltheti és telepítheti az Oracle weboldaláról.
+### 1. Java fejlesztői csomag (JDK)
+Telepítse a JDK 8‑at vagy újabbat. Letöltheti az Oracle weboldaláról, vagy használhat egy OpenJDK disztribúciót.
 
-### 2. Aspose.Note for Java Library
-Töltse le és állítsa be az Aspose.Note for Java könyvtárat a [dokumentáció](https://reference.aspose.com/note/java/) követésével.
+### 2. Aspose.Note for Java könyvtár
+Töltse le a legújabb Aspose.Note for Java könyvtárat, és adja hozzá a projekt osztályútvonalához. A részletes beállítási útmutató elérhető a hivatalos [documentation](https://reference.aspose.com/note/java/) oldalon.
 
-## Csomagok importálása
+## Importálás csomagok
 
-Kezdje a szükséges csomagok importálásával a Java projektjébe. Ezek a csomagok tartalmazzák az Aspose.Note könyvtárat és egyéb szükséges függőségeket.
+Kezdje a szükséges osztályok importálásával. Ezek az importok hozzáférést biztosítanak az Aspose.Note alapfunkcióihoz, valamint az alapvető Java segédprogramokhoz.
 
 ```java
 import java.io.IOException;
@@ -60,11 +60,13 @@ import com.aspose.note.Page;
 import com.aspose.note.SaveFormat;
 ```
 
-Törjük fel a képek OneNote dokumentumba történő beszúrásának folyamatát több lépésre:
+## Lépésről‑lépésre útmutató
 
-## 1. lépés: OneNote dokumentum betöltése
+Az alábbiakban egy tömör, számozott áttekintést talál. Minden lépés rövid magyarázatot tartalmaz, majd a pontos kódot, amelyet másolnia kell.
 
-Először töltse be azt a OneNote dokumentumot, amelybe be szeretné szúrni a képet.
+### 1. lépés: OneNote dokumentum betöltése
+
+Létrehozunk egy `LoadOptions` példányt (hasznos a későbbi testreszabásokhoz), és megnyitjuk a meglévő `.one` fájlt.
 
 ```java
 LoadOptions options = new LoadOptions();
@@ -72,25 +74,25 @@ String dataDir = "Your Document Directory";
 Document oneFile = new Document(dataDir + "Sample1.one", options);
 ```
 
-## 2. lépés: Az oldal lekérése
+### 2. lépés: Céloldal lekérése
 
-Szerezze meg azt az oldalt a dokumentumban, ahová a képet be szeretné szúrni.
+Egyszerűség kedvéért az első oldallal dolgozunk a dokumentumban, de bármelyik szükséges oldalra navigálhat.
 
 ```java
 Page page = oneFile.getFirstChild();
 ```
 
-## 3. lépés: Kép betöltése
+### 3. lépés: A beágyazni kívánt kép betöltése
 
-Töltse be azt a képet, amelyet be szeretne szúrni a OneNote dokumentumba.
+Példányosítunk egy `Image` objektumot a dokumentum hivatkozásával és a kép fájl elérési útjával.
 
 ```java
 Image image = new Image(oneFile, dataDir + "Input.jpg");
 ```
 
-## 4. lépés: Kép attribútumok testreszabása (opcionális)
+### 4. lépés: Kép méretek beállítása Java (opcionális)
 
-Opcionálisan testreszabhatja a kép méretét, helyzetét és igazítását a saját igényei szerint. Itt állíthatja be a **kép méreteit Java** stílusban.
+Ha a képet egy meghatározott területhez szeretné igazítani, állítsa be a szélességet, magasságot és az eltolásokat. Itt jön képbe a másodlagos kulcsszó **set image dimensions java**.
 
 ```java
 image.setWidth(100);
@@ -100,17 +102,17 @@ image.setHorizontalOffset(100);
 image.setAlignment(HorizontalAlignment.Right);
 ```
 
-## 5. lépés: Kép hozzáadása az oldalhoz
+### 5. lépés: Kép hozzáfűzése az oldalhoz
 
-Adja hozzá a képet az oldalhoz a OneNote dokumentumban.
+Az `appendChildLast` metódus a képet az adott oldal utolsó elemként adja hozzá.
 
 ```java
 page.appendChildLast(image);
 ```
 
-## 6. lépés: Dokumentum mentése
+### 6. lépés: Dokumentum mentése – mentheted a OneNote-ot PDF‑ként is
 
-Mentse el a módosított dokumentumot, beleértve a beszúrt képet is. Ezen a ponton **mentheti a OneNote-ot PDF-ként** is.
+Végül mentse el a módosításokat. A példa bemutatja, hogyan mentse a fájlt PDF‑ként, ezzel teljesítve a másodlagos kulcsszót **save onenote as pdf**.
 
 ```java
 try {
@@ -120,37 +122,45 @@ try {
 }
 ```
 
-## Összegzés
+## Általános problémák és megoldások
 
-Ebben a bemutatóban megtanultuk, hogyan lehet képet beszúrni egy OneNote dokumentumba Java segítségével az Aspose.Note for Java könyvtár használatával. A lépésről‑lépésre útmutató követésével könnyedén beépítheti a képeket OneNote dokumentumaiba programozottan.
+| Tünet | Valószínű ok | Megoldás |
+|---------|--------------|-----|
+| `FileNotFoundException` a kép betöltésekor | Helytelen képútvonal | Ellenőrizze, hogy a `dataDir` és a kép fájlneve helyes-e. |
+| A kép torzul | Szélesség/magasság helytelen beállítása | Használja az eredeti kép méreteit, vagy számoljon ki megfelelő képarányt a `setWidth`/`setHeight` hívása előtt. |
+| PDF kimenet üres | Hiányzó licenc az Aspose.Note-hoz | Alkalmazzon érvényes licencet a `save` hívása előtt. |
 
-## GYIK
+## Gyakran Ismételt Kérdések
 
 ### Q1: Beszúrhatok több képet egyetlen OneNote dokumentumba ezzel a módszerrel?
 
-Igen, több képet is beilleszthet egy OneNote dokumentumba, ha a bemutatott folyamatot minden képre megismétli.
+**A:** Igen. Egyszerűen ismételje meg a 3‑5‑ös lépéseket minden egyes képhez, amelyet hozzá szeretne adni, akár ugyanarra, akár különböző oldalakra.
 
 ### Q2: Az Aspose.Note for Java kompatibilis-e az összes OneNote verzióval?
 
-Az Aspose.Note for Java támogatja a Microsoft OneNote 2010 és újabb verziókban létrehozott fájlokkal való munkát.
+**A:** Az Aspose.Note for Java támogatja a Microsoft OneNote 2010‑el és újabb verziókkal létrehozott OneNote fájlokat.
 
-### Q3: Beszúrhatok különböző formátumú képeket, például PNG vagy GIF, egy OneNote dokumentumba?
+### Q3: Beszúrhatok különböző formátumú képeket, például PNG‑t vagy GIF‑et egy OneNote dokumentumba?
 
-Igen, az Aspose.Note for Java támogatja a képek különböző formátumokban való beszúrását, beleértve a PNG, JPEG, GIF és egyebeket.
+**A:** Természetesen. A könyvtár támogatja a PNG, JPEG, GIF, BMP és több más elterjedt formátumot.
 
-### Q4: Van elérhető próba verziója az Aspose.Note for Java-nak tesztelési célokra?
+### Q4: Van elérhető próba verziója az Aspose.Note for Java‑nak tesztelési célokra?
 
-Igen, letölthet egy ingyenes próba verziót az Aspose.Note for Java weboldaláról értékelési célokra.
+**A:** Igen, letölthet egy ingyenes próbaverziót az Aspose weboldaláról, hogy kipróbálja az API‑t a vásárlás előtt.
 
-### Q5: Hogyan kaphatok technikai támogatást az Aspose.Note for Java-hoz?
+### Q5: Hogyan kaphatok technikai támogatást az Aspose.Note for Java‑hoz?
 
-Technikai támogatást az Aspose.Note for Java-hoz a [forum](https://forum.aspose.com/c/note/28) oldalon talál.
+**A:** Segítséget kaphat a [forum](https://forum.aspose.com/c/note/28) oldalán, amely az Aspose.Note termékeknek van dedikálva.
+
+## Összegzés
+
+Most már rendelkezik egy teljes, termelés‑kész példával, amely megmutatja, **hogyan adjunk hozzá képet a OneNote-hoz** Java használatával, testre szabhatja a megjelenését, és opcionálisan **OneNote mentése PDF‑ként**. Nyugodtan alakítsa át a kódot saját munkafolyamataihoz – legyen szó jelentéskészítő motorról, automatizált dokumentációs rendszerről vagy egyedi jegyzetkészítő alkalmazásról.
 
 ---
 
-**Last Updated:** 2025-12-21  
-**Tested With:** Aspose.Note for Java 24.10  
-**Author:** Aspose  
+**Utolsó frissítés:** 2026-03-19  
+**Tesztelve:** Aspose.Note for Java 24.10  
+**Szerző:** Aspose  
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

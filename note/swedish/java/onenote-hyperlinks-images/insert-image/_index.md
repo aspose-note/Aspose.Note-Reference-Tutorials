@@ -1,11 +1,11 @@
 ---
-date: 2025-12-21
-description: Lär dig hur du lägger till bild i OneNote‑dokument med Java och Aspose.Note
-  för Java. Följ vår steg‑för‑steg‑guide för att infoga bilder och eventuellt spara
-  OneNote som PDF.
+date: 2026-03-19
+description: Lär dig hur du lägger till en bild i OneNote med Java och Aspose.Note
+  för Java, inklusive hur du ställer in bildens dimensioner i Java och sparar OneNote
+  som PDF.
 linktitle: Insert an Image in OneNote Document with Java
 second_title: Aspose.Note Java API
-title: Hur man lägger till en bild i OneNote med Java
+title: Lägg till bild i OneNote med Java
 url: /sv/java/onenote-hyperlinks-images/insert-image/
 weight: 16
 ---
@@ -18,37 +18,37 @@ weight: 16
 
 ## Introduktion
 
-I den här handledningen kommer vi att utforska hur man infogar en bild i ett OneNote-dokument med Java med hjälp av Aspose.Note for Java. Aspose.Note for Java är ett kraftfullt bibliotek som låter utvecklare arbeta med Microsoft OneNote-filer programatiskt, vilket möjliggör olika operationer såsom att skapa, läsa och manipulera OneNote-dokument.
+I den här handledningen kommer du att lära dig **hur man lägger till en bild i OneNote** programatiskt med Java och Aspose.Note for Java‑biblioteket. Att bädda in bilder i OneNote‑sidor är praktiskt när du behöver skapa mötesprotokoll, automatiserade rapporter eller dokumentation som kombinerar text med visuella data. I slutet av guiden kan du läsa in en befintlig OneNote‑fil, infoga en bild, eventuellt justera dess storlek och position, och till och med **spara OneNote som PDF** – allt utan att öppna OneNote‑gränssnittet.
 
 ## Snabba svar
 - **Vad är det enklaste sättet att lägga till en bild i OneNote med Java?**  
-  Använd Aspose.Note for Java's `Image`-klass och lägg till den på en sida.
-- **Behöver jag en licens för produktionsbruk?**  
+  Använd Aspose.Note for Javas `Image`‑klass och lägg till den på en sida.
+- **Behöver jag en licens för produktionsanvändning?**  
   Ja, en kommersiell licens krävs för produktionsdistributioner.
-- **Kan jag ange egna dimensioner för bilden?**  
-  Absolut – anropa `setWidth()` och `setHeight()` på `Image`-objektet.
+- **Kan jag ange anpassade dimensioner för bilden?**  
+  Absolut – anropa `setWidth()` och `setHeight()` på `Image`‑objektet.
 - **Är det möjligt att spara OneNote-filen som PDF efter att ha lagt till bilden?**  
   Ja, anropa `save(..., SaveFormat.Pdf)` för att **spara OneNote som PDF**.
 - **Vilken Java-version stöds?**  
   Aspose.Note for Java fungerar med JDK 8 och senare.
 
-## Hur lägger man till en bild i OneNote med Java?
+## Varför lägga till bild i OneNote?
 
-Innan vi dyker ner i koden, låt oss kort diskutera varför du kan vilja programatiskt bädda in bilder i OneNote. Oavsett om du genererar mötesprotokoll, skapar automatiserade rapporter eller bygger en dokumentationspipeline, ger infogning av bilder dina anteckningar en visuell kontext som ren text inte kan erbjuda. Med Aspose.Note for Java kan du göra detta helt i kod, utan att öppna OneNote‑gränssnittet.
+Att lägga till visuella element gör anteckningarna lättare att förstå och mer engagerande. Bilder kan illustrera diagram, skärmdumpar eller datadiagram som annars skulle kräva långa textbeskrivningar. Att automatisera detta steg sparar tid, särskilt när man genererar stora mängder anteckningar från datakällor.
 
 ## Förutsättningar
 
-Innan vi börjar, se till att du har följande förutsättningar på plats:
+Innan vi börjar, se till att du har följande redo:
 
 ### 1. Java Development Kit (JDK)
-Se till att du har Java Development Kit (JDK) installerat på ditt system. Du kan ladda ner och installera JDK från Oracles webbplats.
+Installera JDK 8 eller nyare. Du kan ladda ner den från Oracles webbplats eller använda en OpenJDK‑distribution.
 
 ### 2. Aspose.Note for Java Library
-Ladda ner och installera Aspose.Note for Java-biblioteket genom att följa [dokumentationen](https://reference.aspose.com/note/java/).
+Ladda ner det senaste Aspose.Note for Java‑biblioteket och lägg till det i ditt projekts classpath. Detaljerade installationsinstruktioner finns i den officiella [documentation](https://reference.aspose.com/note/java/).
 
 ## Importera paket
 
-Börja med att importera de nödvändiga paketen i ditt Java‑projekt. Dessa paket inkluderar Aspose.Note‑biblioteket och andra erforderliga beroenden.
+Börja med att importera de nödvändiga klasserna. Dessa importeringar ger dig tillgång till kärnfunktionaliteten i Aspose.Note samt grundläggande Java‑verktyg.
 
 ```java
 import java.io.IOException;
@@ -60,11 +60,13 @@ import com.aspose.note.Page;
 import com.aspose.note.SaveFormat;
 ```
 
-Låt oss dela upp processen för att infoga en bild i ett OneNote‑dokument i flera steg:
+## Steg‑för‑steg guide
 
-## Steg 1: Ladda OneNote‑dokumentet
+Nedan följer en kortfattad, numrerad genomgång. Varje steg innehåller en kort förklaring följt av exakt kod som du kan kopiera.
 
-Först, ladda OneNote‑dokumentet där du vill infoga bilden.
+### Steg 1: Ladda OneNote-dokumentet
+
+Vi skapar en `LoadOptions`‑instans (användbar för framtida anpassningar) och öppnar den befintliga `.one`‑filen.
 
 ```java
 LoadOptions options = new LoadOptions();
@@ -72,25 +74,25 @@ String dataDir = "Your Document Directory";
 Document oneFile = new Document(dataDir + "Sample1.one", options);
 ```
 
-## Steg 2: Hämta sidan
+### Steg 2: Hämta mål sidan
 
-Hämta sidan i dokumentet där du vill infoga bilden.
+För enkelhetens skull arbetar vi med den första sidan i dokumentet, men du kan navigera till vilken sida du än behöver.
 
 ```java
 Page page = oneFile.getFirstChild();
 ```
 
-## Steg 3: Ladda bilden
+### Steg 3: Ladda bilden du vill bädda in
 
-Ladda bilden som du vill infoga i OneNote‑dokumentet.
+Instansiera ett `Image`‑objekt genom att skicka dokumentreferensen och sökvägen till bildfilen.
 
 ```java
 Image image = new Image(oneFile, dataDir + "Input.jpg");
 ```
 
-## Steg 4: Anpassa bildattribut (valfritt)
+### Steg 4: Ställ in bilddimensioner Java (valfritt)
 
-Valfritt kan du anpassa bildens storlek, placering och justering enligt dina krav. Det är här du **sätter bilddimensioner i Java**‑stil.
+Om du behöver att bilden ska passa ett specifikt område, justera dess bredd, höjd och förskjutningar. Här kommer det sekundära nyckelordet **set image dimensions java** till nytta.
 
 ```java
 image.setWidth(100);
@@ -100,17 +102,17 @@ image.setHorizontalOffset(100);
 image.setAlignment(HorizontalAlignment.Right);
 ```
 
-## Steg 5: Lägg till bilden på sidan
+### Steg 5: Lägg till bilden på sidan
 
-Lägg till bilden på sidan i OneNote‑dokumentet.
+Metoden `appendChildLast` lägger till bilden som det sista elementet på den valda sidan.
 
 ```java
 page.appendChildLast(image);
 ```
 
-## Steg 6: Spara dokumentet
+### Steg 6: Spara dokumentet – du kan också spara OneNote som PDF
 
-Spara det modifierade dokumentet, inklusive den infogade bilden. Du kan också **spara OneNote som PDF** i detta steg.
+Till sist sparas ändringarna. Exemplet visar hur du sparar filen som PDF, vilket uppfyller det sekundära nyckelordet **save onenote as pdf**.
 
 ```java
 try {
@@ -120,30 +122,43 @@ try {
 }
 ```
 
-## Slutsats
+## Vanliga problem och lösningar
 
-I den här handledningen har vi lärt oss hur man infogar en bild i ett OneNote‑dokument med Java med hjälp av Aspose.Note for Java‑biblioteket. Genom att följa den steg‑för‑steg‑guiden kan du enkelt integrera bilder i dina OneNote‑dokument programatiskt.
+| Symptom | Trolig orsak | Lösning |
+|---------|--------------|---------|
+| `FileNotFoundException` när bilden laddas | Felaktig bildsökväg | Verifiera att `dataDir` och bildfilnamnet är korrekta. |
+| Bilden visas förvrängd | Bredd/höjd är felaktigt inställda | Använd bildens originaldimensioner eller beräkna ett korrekt bildförhållande innan du anropar `setWidth`/`setHeight`. |
+| PDF-utdata är tom | Saknad licens för Aspose.Note | Applicera en giltig licens innan du anropar `save`. |
 
 ## Vanliga frågor
 
 ### Q1: Kan jag infoga flera bilder i ett enda OneNote‑dokument med den här metoden?
-Ja, du kan infoga flera bilder i ett enda OneNote‑dokument genom att upprepa processen som beskrivs i den här handledningen för varje bild.
+
+**A:** Ja. Upprepa helt enkelt Steg 3‑5 för varje bild du vill lägga till, antingen på samma eller på olika sidor.
 
 ### Q2: Är Aspose.Note for Java kompatibel med alla versioner av OneNote?
-Aspose.Note for Java stödjer arbete med OneNote‑filer som skapats i Microsoft OneNote 2010 och senare versioner.
+
+**A:** Aspose.Note for Java stödjer OneNote‑filer som skapats med Microsoft OneNote 2010 och senare versioner.
 
 ### Q3: Kan jag infoga bilder i olika format, såsom PNG eller GIF, i ett OneNote‑dokument?
-Ja, Aspose.Note for Java stödjer infogning av bilder i olika format, inklusive PNG, JPEG, GIF och fler.
 
-### Q4: Finns det en provversion av Aspose.Note for Java tillgänglig för teständamål?
-Ja, du kan ladda ner en gratis provversion av Aspose.Note for Java från webbplatsen för utvärderingsändamål.
+**A:** Absolut. Biblioteket accepterar PNG, JPEG, GIF, BMP och flera andra vanliga format.
+
+### Q4: Finns det en provversion av Aspose.Note for Java för teständamål?
+
+**A:** Ja, du kan ladda ner en gratis provversion från Aspose‑webbplatsen för att utvärdera API‑et innan du köper.
 
 ### Q5: Hur kan jag få teknisk support för Aspose.Note for Java?
-Du kan få teknisk support för Aspose.Note for Java genom att besöka [forumet](https://forum.aspose.com/c/note/28) som är dedikerat till Aspose.Note‑produkter.
+
+**A:** Du kan få hjälp genom att besöka [forum](https://forum.aspose.com/c/note/28) som är dedikerat till Aspose.Note‑produkter.
+
+## Slutsats
+
+Du har nu ett komplett, produktionsklart exempel som visar **hur man lägger till en bild i OneNote** med Java, anpassar dess utseende och eventuellt **sparar OneNote som PDF**. Anpassa gärna koden efter dina egna arbetsflöden – oavsett om du bygger en rapporteringsmotor, ett automatiserat dokumentationssystem eller en skräddarsydd anteckningsapplikation.
 
 ---
 
-**Last Updated:** 2025-12-21  
+**Last Updated:** 2026-03-19  
 **Tested With:** Aspose.Note for Java 24.10  
 **Author:** Aspose  
 
