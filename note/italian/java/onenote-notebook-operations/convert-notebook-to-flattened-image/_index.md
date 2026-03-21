@@ -1,12 +1,12 @@
 ---
-date: 2025-12-25
-description: Scopri come convertire OneNote in PNG usando Aspose.Note per Java. Questa
-  guida mostra come impostare la risoluzione dell'immagine, appiattire un blocco appunti
-  e salvare OneNote come immagine in modo efficiente.
-linktitle: How to Convert OneNote to PNG – Flatten Notebook to Image with Aspose.Note
+date: 2026-03-21
+description: Scopri come appiattire un blocco note convertendo OneNote in PNG con
+  Aspose.Note per Java. Questa guida copre l'impostazione della risoluzione dell'immagine,
+  il salvataggio di OneNote come immagine e l'appiattimento dei blocchi note in modo
+  efficiente.
+linktitle: How to Flatten Notebook – Convert OneNote to PNG
 second_title: Aspose.Note Java API
-title: Come convertire OneNote in PNG – Appiattire il blocco appunti in immagine con
-  Aspose.Note
+title: Come appiattire il taccuino – Convertire OneNote in PNG
 url: /it/java/onenote-notebook-operations/convert-notebook-to-flattened-image/
 weight: 13
 ---
@@ -15,18 +15,18 @@ weight: 13
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Converti Notebook in Immagine Appiattita in OneNote - Aspose.Note
+# Come appiattire un notebook – Convertire OneNote in PNG
 
 ## Introduzione
 
-In questo tutorial scoprirai come **convertire OneNote in PNG** trasformando un intero notebook in un'unica immagine appiattita usando Aspose.Note per Java. Questo approccio è perfetto quando devi condividere un notebook come immagine statica, incorporarlo nei report o archiviarlo senza perdere alcun dettaglio visivo.
+In questo tutorial scoprirai **come appiattire un notebook** convertendo un notebook OneNote in un'immagine PNG ad alta qualità usando Aspose.Note per Java. Che tu abbia bisogno di inserire un'istantanea del notebook in un report, condividere una visualizzazione in sola lettura con i colleghi, o archiviare un'immagine conforme, questa guida passo‑passo ti mostra esattamente come salvare OneNote come immagine controllando la risoluzione.
 
-## Risposte Rapide
+## Risposte rapide
 - **Cosa significa “flatten notebook”?** Unisce tutti gli elementi della pagina in un'unica immagine raster.  
-- **Quale formato viene utilizzato?** PNG è il predefinito, garantendo qualità senza perdita.  
+- **Quale formato viene usato?** PNG è il formato predefinito, garantendo qualità loss‑less.  
 - **Posso cambiare il DPI?** Sì, usa `setResolution` su `ImageSaveOptions`.  
-- **È necessaria una licenza?** Una versione di prova gratuita è sufficiente per la valutazione; è richiesta una licenza commerciale per la produzione.  
-- **È supportato su tutti i sistemi operativi?** L'API Java funziona ovunque Java sia disponibile.
+- **È necessaria una licenza?** Una versione di prova gratuita è sufficiente per la valutazione; è necessaria una licenza commerciale per la produzione.  
+- **È supportato su tutti i sistemi operativi?** L'API Java funziona ovunque Java sia disponibile.  
 
 ## Cos'è la conversione di OneNote in PNG?
 
@@ -34,22 +34,22 @@ Convertire OneNote in PNG crea una rappresentazione bitmap di ogni pagina del no
 
 ## Perché convertire OneNote in PNG con Aspose.Note?
 
-- **Fedele al 100 %** – Tutti gli elementi visivi sono conservati.  
-- **Output in un unico file** – Non è necessario gestire più file di pagina.  
+- **Fidelità completa** – Tutti gli elementi visivi sono conservati.  
+- **Output a file singolo** – Non è necessario gestire più file di pagina.  
 - **Risoluzione personalizzabile** – Regola il DPI per soddisfare i requisiti di qualità.  
-- **Nessuna installazione di Office** – Funziona completamente indipendente da Microsoft OneNote.
+- **Nessuna installazione di Office** – Funziona completamente indipendente da Microsoft OneNote.  
 
 ## Prerequisiti
 
 Prima di iniziare, assicurati di avere quanto segue:
 
 1. Java Development Kit (JDK) installato sul tuo sistema.  
-2. Libreria Aspose.Note per Java scaricata e configurata nel tuo progetto Java. Puoi scaricare la libreria da [qui](https://releases.aspose.com/note/java/).  
-3. Conoscenze di base della programmazione Java.
+2. Libreria Aspose.Note per Java scaricata e configurata nel tuo progetto Java. Puoi scaricare la libreria da [here](https://releases.aspose.com/note/java/).  
+3. Conoscenza di base della programmazione Java.  
 
-## Importa Pacchetti
+## Importare i pacchetti
 
-Per iniziare, devi importare i pacchetti necessari da Aspose.Note per Java:
+Per iniziare, è necessario importare i pacchetti necessari da Aspose.Note per Java:
 
 ```java
 import java.io.IOException;
@@ -59,9 +59,11 @@ import com.aspose.note.NotebookImageSaveOptions;
 import com.aspose.note.SaveFormat;
 ```
 
-## Passo 1: Configura la Directory del Documento
+## Guida passo‑passo
 
-Innanzitutto, definisci la directory in cui si trova il tuo file notebook:
+### Passo 1: Configurare la directory del documento
+
+In primo luogo, definisci la directory in cui si trova il file del tuo notebook:
 
 ```java
 String dataDir = "Your Document Directory";
@@ -69,7 +71,7 @@ String dataDir = "Your Document Directory";
 
 Sostituisci `"Your Document Directory"` con il percorso del tuo file notebook.
 
-## Passo 2: Carica il Notebook
+### Passo 2: Caricare il notebook
 
 Successivamente, carica il file notebook usando la classe `Notebook`:
 
@@ -79,9 +81,9 @@ Notebook notebook = new Notebook(dataDir + "test.onetoc2");
 
 Assicurati di sostituire `"test.onetoc2"` con il nome del tuo file notebook.
 
-## Passo 3: Imposta le Opzioni di Salvataggio Immagine
+### Passo 3: Impostare le opzioni di salvataggio immagine (set image resolution java)
 
-Ora, imposta le opzioni per salvare il notebook come immagine. Specificheremo il formato di salvataggio come PNG e imposteremo la risoluzione a 400 DPI:
+Ora, imposta le opzioni per salvare il notebook come immagine. Specificheremo il formato di salvataggio come PNG e imposteremo la risoluzione a 400 DPI:
 
 ```java
 NotebookImageSaveOptions saveOptions = new NotebookImageSaveOptions(SaveFormat.Png);
@@ -91,7 +93,7 @@ documentSaveOptions.setResolution(400);
 
 Puoi regolare la risoluzione secondo le tue esigenze. Qui è dove **imposti la risoluzione dell'immagine** per controllare la qualità dell'output.
 
-## Passo 4: Appiattisci il Notebook
+### Passo 4: Appiattire il notebook (how to flatten notebook)
 
 Per garantire che tutti gli elementi siano appiattiti in un'unica immagine, imposta l'opzione `flatten` su `true`:
 
@@ -101,7 +103,7 @@ saveOptions.setFlatten(true);
 
 Impostare `flatten` su `true` garantisce che il PNG risultante mantenga l'esatta disposizione del tuo notebook.
 
-## Passo 5: Salva l'Immagine
+### Passo 5: Salvare l'immagine (save onenote as image)
 
 Infine, salva il notebook come immagine appiattita:
 
@@ -111,38 +113,38 @@ notebook.save(dataDir + "ExportImageasFlattenedNotebook_out.png", saveOptions);
 
 Sostituisci `"ExportImageasFlattenedNotebook_out.png"` con il nome del file di output desiderato. Questo passo **salva OneNote come immagine** che puoi condividere o incorporare ovunque.
 
-## Casi d'Uso Comuni
+## Casi d'uso comuni
 
-- **Documentazione:** Incorpora l'immagine del notebook nei manuali tecnici o nelle guide utente.  
-- **Presentazioni:** Usa una diapositiva PNG ad alta risoluzione in PowerPoint senza preoccuparti della compatibilità di font o oggetti.  
-- **Archiviazione:** Conserva uno snapshot in sola lettura di un notebook per audit di conformità.
+- **Documentazione:** Inserisci l'immagine del notebook in manuali tecnici o guide utente.  
+- **Presentazioni:** Usa una diapositiva PNG ad alta risoluzione in PowerPoint senza preoccuparti di compatibilità di font o oggetti.  
+- **Archiviazione:** Conserva un'istantanea in sola lettura di un notebook per audit di conformità.  
 
-## Suggerimenti per la Risoluzione dei Problemi
+## Suggerimenti per la risoluzione dei problemi
 
 - **File non trovato:** Controlla nuovamente il percorso `dataDir` e assicurati che il file `.onetoc2` esista.  
 - **Immagine di bassa qualità:** Aumenta il DPI modificando `documentSaveOptions.setResolution(600);`.  
-- **Elementi mancanti:** Verifica che `saveOptions.setFlatten(true);` sia abilitato; altrimenti, alcuni livelli potrebbero rimanere separati.
+- **Elementi mancanti:** Verifica che `saveOptions.setFlatten(true);` sia abilitato; altrimenti, alcuni livelli potrebbero rimanere separati.  
 
-## Domande Frequenti
+## Domande frequenti
 
 **Q1: Posso regolare la risoluzione dell'immagine di output?**  
 A1: Sì, puoi regolare la risoluzione secondo le tue esigenze modificando il parametro del metodo `setResolution`.
 
 **Q2: Aspose.Note supporta altri formati immagine per l'esportazione?**  
-A2: Sì, Aspose.Note supporta vari formati immagine come PNG, JPEG, BMP, ecc., per l'esportazione dei notebook.
+A2: Sì, Aspose.Note supporta vari formati immagine come PNG, JPEG, BMP, ecc., per esportare i notebook.
 
 **Q3: Posso personalizzare ulteriormente l'immagine di output?**  
 A3: Sì, Aspose.Note offre ampie opzioni per personalizzare l'immagine di output, inclusi dimensioni della pagina, orientamento e impostazioni di qualità.
 
 **Q4: È disponibile una versione di prova per Aspose.Note per Java?**  
-A4: Sì, puoi ottenere una versione di prova gratuita da [qui](https://releases.aspose.com/).
+A4: Sì, puoi ottenere una versione di prova gratuita da [here](https://releases.aspose.com/).
 
 **Q5: Dove posso trovare supporto per Aspose.Note per Java?**  
-A5: Puoi trovare supporto e risorse sul forum di Aspose.Note [qui](https://forum.aspose.com/c/note/28).
+A5: Puoi trovare supporto e risorse sul forum Aspose.Note [here](https://forum.aspose.com/c/note/28).
 
 ---
 
-**Ultimo aggiornamento:** 2025-12-25  
+**Ultimo aggiornamento:** 2026-03-21  
 **Testato con:** Aspose.Note per Java 24.12  
 **Autore:** Aspose  
 

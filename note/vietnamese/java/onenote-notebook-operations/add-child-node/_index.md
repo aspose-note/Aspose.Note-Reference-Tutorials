@@ -1,10 +1,10 @@
 ---
-date: 2025-12-25
-description: Học cách thêm nút con vào sổ tay OneNote một cách lập trình bằng Aspose.Note
-  cho Java. Cải thiện việc tổ chức ghi chú của bạn một cách dễ dàng.
+date: 2026-03-21
+description: Tìm hiểu cách thêm các nút con của OneNote và tự động tạo phần OneNote
+  một cách lập trình bằng Aspose.Note cho Java.
 linktitle: Add Child Node in OneNote Notebook - Aspose.Note
 second_title: Aspose.Note Java API
-title: Cách Thêm Nút Con vào Sổ Ghi Chú OneNote - Aspose.Note
+title: Cách Thêm Nút Con OneNote – Cách Thêm OneNote với Aspose.Note
 url: /vi/java/onenote-notebook-operations/add-child-node/
 weight: 11
 ---
@@ -13,33 +13,40 @@ weight: 11
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Cách Thêm Nút Con vào Sổ Ghi Chú OneNote - Aspose.Note
+# Cách Thêm Nút Con OneNote – Cách Thêm Onenote với Aspise.Note
 
-## Giới thiệu
+## Introduction
 
-OneNote là một công cụ mạnh mẽ để tổ chức ghi chú và ý tưởng của bạn. Aspose.Note for Java cung cấp các cách thuận tiện để thao tác các tệp OneNote một cách lập trình. **Trong hướng dẫn này, chúng tôi sẽ chỉ cho bạn cách thêm nút con** vào một sổ ghi chú OneNote từng bước, để bạn có thể giữ các sổ ghi chú kỹ thuật số của mình gọn gàng và có cấu trúc.
+Nếu bạn đang tìm kiếm một hướng dẫn rõ ràng, từng bước về **how to add onenote** các phần một cách tự động, bạn đã đến đúng nơi. Trong nhiều kịch bản kinh doanh—tạo biên bản họp, cung cấp mẫu dự án, hoặc di chuyển hàng loạt từ các công cụ ghi chú khác—bạn sẽ muốn thêm các nút con (phần) vào một sổ tay OneNote hiện có một cách lập trình. Hướng dẫn này cho bạn thấy cách **how to add onenote** các nút con bằng Aspose.Note cho Java, giúp bạn giữ sổ tay kỹ thuật số gọn gàng, có thể tìm kiếm và sẵn sàng cho tự động hoá.
 
-## Câu trả lời nhanh
-- **Mục đích chính là gì?** Để thêm một nút con (phần) vào một sổ ghi chú OneNote hiện có một cách lập trình.  
-- **Thư viện nào được yêu cầu?** Aspose.Note for Java.  
-- **Tôi có cần kết nối internet không?** Không, thư viện hoạt động hoàn toàn offline.  
+## Quick Answers
+- **Mục đích chính là gì?** Để thêm một nút con (section) vào một sổ tay OneNote hiện có một cách lập trình.  
+- **Thư viện nào được yêu cầu?** Aspose.Note cho Java.  
+- **Có cần kết nối internet không?** Không, thư viện hoạt động hoàn toàn offline.  
 - **Phiên bản Java nào được hỗ trợ?** Java 8 trở lên.  
-- **Thời gian thực hiện mất bao lâu?** Thông thường dưới 10 phút cho một kịch bản cơ bản.
+- **Thời gian triển khai mất bao lâu?** Thông thường dưới 10 phút cho một kịch bản cơ bản.
 
-## Cách Thêm Nút Con vào Sổ Ghi Chú OneNote
+## What is “how to add onenote” in practice?
 
-Trước khi bắt đầu với mã, hãy làm rõ lý do tại sao bạn có thể muốn tự động hoá công việc này. Việc tự động thêm các phần có thể hữu ích khi bạn tạo ghi chú cuộc họp, tạo mẫu dự án, hoặc đồng bộ nội dung từ các hệ thống khác vào OneNote.
+Thêm một nút con có nghĩa là chèn một phần mới vào tệp sổ tay OneNote (`.onetoc2`). Bằng cách tự động hoá bước này, bạn loại bỏ các cú nhấp chuột thủ công, đảm bảo quy tắc đặt tên nhất quán, và có thể tích hợp OneNote với các hệ thống doanh nghiệp khác.
 
-## Yêu cầu trước
+## Why automate OneNote section creation?
 
-Trước khi bắt đầu, hãy đảm bảo bạn có những thứ sau:
+- **Tốc độ:** Tạo hàng chục phần trong vài giây thay vì vài phút cho mỗi sổ tay.  
+- **Nhất quán:** Thực thi tiêu chuẩn đặt tên và cấu trúc thư mục một cách tự động.  
+- **Tích hợp:** Kết hợp OneNote với công cụ báo cáo, pipeline CI, hoặc trình tạo tài liệu.
 
-1. **Java Development Kit (JDK)** – Đảm bảo bạn đã cài đặt JDK trên hệ thống của mình.  
-2. **Thư viện Aspose.Note for Java** – Tải xuống và đưa thư viện Aspose.Note for Java vào dự án của bạn. Bạn có thể tải về từ [here](https://releases.aspose.com/note/java/).
+## Prerequisites
 
-## Nhập các Gói
+Trước khi bắt đầu, hãy chắc chắn rằng bạn có:
 
-Đầu tiên, nhập các gói cần thiết để làm việc với Aspose.Note for Java.
+1. **Java Development Kit (JDK)** – JDK 8 hoặc mới hơn đã được cài đặt trên máy của bạn.  
+2. **Thư viện Aspose.Note cho Java** – Tải phiên bản mới nhất từ [here](https://releases.aspose.com/note/java/).  
+3. Quyền ghi vào thư mục chứa sổ tay.
+
+## Import Packages
+
+Đầu tiên, nhập các lớp bạn sẽ cần để làm việc với các tệp OneNote.
 
 ```java
 import java.io.IOException;
@@ -47,31 +54,41 @@ import com.aspose.note.Document;
 import com.aspose.note.Notebook;
 ```
 
-## Bước 1: Thiết lập Thư mục Dữ liệu
+## Step‑by‑Step Guide
+
+### Step 1: Set up the Data Directory
+
+Xác định thư mục chứa sổ tay OneNote của bạn và bất kỳ tệp phần nào bạn dự định thêm.
 
 ```java
 String dataDir = "Your Document Directory";
 ```
 
-Đảm bảo chỉ định thư mục nơi các tài liệu OneNote của bạn được lưu trữ.
+> **Mẹo:** Sử dụng đường dẫn tuyệt đối hoặc thuộc tính có thể cấu hình nếu ứng dụng của bạn chạy trên nhiều môi trường.
 
-## Bước 2: Tải Sổ Ghi Chú OneNote
+### Step 2: Load the OneNote Notebook
+
+Tạo một đối tượng `Notebook` trỏ tới tệp `.onetoc2` hiện có.
 
 ```java
 Notebook notebook = new Notebook(dataDir + "Notizbuch �ffnen.onetoc2");
 ```
 
-Tải sổ ghi chú OneNote mà bạn muốn chỉnh sửa.
+Nếu không tìm thấy tệp, một `IOException` sẽ được ném—đảm bảo tên tệp và đường dẫn là chính xác.
 
-## Bước 3: java tạo phần onenote (chèn phần onenote mới)
+### Step 3: Create a New Section (Child Node)
+
+Khởi tạo một `Document` cho tệp phần mới (`.one`) và thêm nó vào sổ tay.
 
 ```java
 notebook.appendChild(new Document(dataDir + "Neuer Abschnitt 1.one"));
 ```
 
-Tạo một nút con mới (trong trường hợp này là một phần mới) và thêm nó vào sổ ghi chú.
+Bạn có thể lặp lại dòng này trong một vòng lặp để thêm nhiều phần cùng một lúc.
 
-## Bước 4: Lưu Sổ Ghi Chú
+### Step 4: Save the Modified Notebook
+
+Xác định tên tệp đầu ra và lưu sổ tay với nút con mới được thêm.
 
 ```java
 dataDir = dataDir + "AddChildNodetoOneNoteNotebook_out.onetoc2";
@@ -79,46 +96,54 @@ dataDir = dataDir + "AddChildNodetoOneNoteNotebook_out.onetoc2";
 notebook.save(dataDir);
 ```
 
-Lưu sổ ghi chú đã chỉnh sửa với nút con đã được thêm.
+Sau khi lưu, mở sổ tay kết quả trong OneNote để xác nhận phần mới xuất hiện như mong đợi.
 
-## Kết luận
+## Common Issues and Solutions
 
-Trong hướng dẫn này, chúng ta đã học **cách thêm nút con** vào một sổ ghi chú OneNote bằng Aspose.Note for Java. Chỉ với vài dòng mã, bạn có thể quản lý cấu trúc OneNote một cách lập trình, giúp dễ dàng tích hợp việc ghi chú vào quy trình tự động của mình.
+| Issue | Reason | Fix |
+|-------|--------|-----|
+| **`IOException` on save** | Thư mục đích chỉ đọc hoặc tệp bị khóa. | Đảm bảo có quyền ghi và đóng mọi phiên bản OneNote đang mở trước khi lưu. |
+| **Section not visible** | Định dạng tệp sai hoặc tệp `.one` bị hỏng. | Kiểm tra tệp phần nguồn mở đúng trong OneNote trước khi thêm. |
+| **Encoding problems** | Ký tự không phải ASCII trong tên tệp (ví dụ: dấu umlaut tiếng Đức). | Sử dụng mã hoá UTF‑8 cho đường dẫn tệp hoặc đổi tên tệp thành chỉ chứa ký tự ASCII. |
 
-## Câu hỏi thường gặp
+## Frequently Asked Questions
 
-### Câu hỏi 1: Tôi có thể sử dụng Aspose.Note cho Java để chỉnh sửa các tệp OneNote hiện có không?
+### Q1: Can I use Aspose.Note for Java to edit existing OneNote files?
 
-A1: Có, Aspose.Note cho Java cho phép bạn sửa đổi các tệp OneNote hiện có một cách hiệu quả.
+A1: Có, Aspose.Note cho Java cho phép bạn chỉnh sửa các tệp OneNote hiện có một cách hiệu quả.
 
-### Câu hỏi 2: Aspose.Note cho Java có tương thích với mọi phiên bản OneNote không?
+### Q2: Is Aspose.Note for Java compatible with all versions of OneNote?
 
 A2: Aspose.Note cho Java hỗ trợ nhiều phiên bản OneNote, đảm bảo tính tương thích trên các môi trường khác nhau.
 
-### Câu hỏi 3: Aspose.Note cho Java có yêu cầu truy cập internet để hoạt động không?
+### Q3: Does Aspose.Note for Java require internet access to function?
 
 A3: Không, Aspose.Note cho Java là một thư viện độc lập hoạt động offline, mang lại tính linh hoạt và bảo mật.
 
-### Câu hỏi 4: Tôi có thể tích hợp Aspose.Note cho Java vào các dự án Java hiện có của mình không?
+### Q4: Can I integrate Aspose.Note for Java into my existing Java projects?
 
-A4: Có, bạn có thể dễ dàng tích hợp Aspose.Note cho Java vào các dự án Java của mình bằng cách thêm thư viện vào các phụ thuộc.
+A4: Có, bạn có thể dễ dàng tích hợp Aspose.Note cho Java vào các dự án Java hiện có bằng cách thêm thư viện vào các phụ thuộc.
 
-### Câu hỏi 5: Có diễn đàn cộng đồng nào để tôi có thể tìm kiếm trợ giúp và hướng dẫn khi sử dụng Aspose.Note cho Java không?
+### Q5: Is there a community forum where I can seek help and guidance for using Aspose.Note for Java?
 
 A5: Có, bạn có thể truy cập [Aspose.Note forum](https://forum.aspose.com/c/note/28) để đặt câu hỏi, chia sẻ kiến thức và tương tác với các người dùng và chuyên gia khác.
 
-### Câu hỏi 6: Làm thế nào để tạo nhiều phần cùng một lúc?
+### Q6: How do I create multiple sections at once?
 
-A6: Bạn có thể lặp qua một mảng các đường dẫn tệp và gọi `appendChild` cho mỗi đối tượng `Document`.
+A6: Duyệt một mảng các đường dẫn tệp và gọi `appendChild` cho mỗi đối tượng `Document`.
 
-### Câu hỏi 7: Điều gì sẽ xảy ra nếu sổ ghi chú mục tiêu chỉ đọc?
+### Q7: What happens if the target notebook is read‑only?
 
-A7: Cố gắng lưu thay đổi vào sổ ghi chú chỉ đọc sẽ gây ra ngoại lệ `IOException`. Đảm bảo tệp có quyền ghi trước khi lưu.
+A7: Cố gắng lưu thay đổi vào sổ tay chỉ đọc sẽ ném ra một `IOException`. Đảm bảo tệp có quyền ghi trước khi lưu.
+
+## Conclusion
+
+Trong hướng dẫn này, chúng tôi đã trình bày cách **how to add onenote** các nút con bằng Aspose.Note cho Java, từ việc thiết lập môi trường đến lưu sổ tay đã cập nhật. Bằng cách tự động hoá việc tạo phần OneNote, bạn có thể tối ưu hoá quy trình tài liệu, thực thi tiêu chuẩn đặt tên và tích hợp ghi chú vào các giải pháp Java lớn hơn.
 
 ---
 
-**Cập nhật lần cuối:** 2025-12-25  
-**Kiểm tra với:** Aspose.Note for Java 24.10  
+**Cập nhật lần cuối:** 2026-03-21  
+**Kiểm thử với:** Aspose.Note for Java 24.11  
 **Tác giả:** Aspose  
 
 {{< /blocks/products/pf/tutorial-page-section >}}

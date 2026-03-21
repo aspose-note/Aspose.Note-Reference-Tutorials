@@ -1,11 +1,11 @@
 ---
-date: 2025-12-23
-description: Java ve Aspose.Note kullanarak OneNote belgelerindeki görsellere alternatif
-  metin eklemeyi öğrenin. Bu kılavuz, daha iyi erişilebilirlik için alternatif metin
-  eklemenin nasıl yapılacağını gösterir.
-linktitle: How to Add Alt Text to Image in OneNote using Java
+date: 2026-03-21
+description: Java ve Aspose.Note kullanarak OneNote belgesi oluşturmayı ve resim alt
+  metnini ayarlamayı öğrenin. Bu kılavuz ayrıca OneNote dosyasını nasıl kaydedeceğinizi
+  ve erişilebilirliği nasıl artıracağınızı gösterir.
+linktitle: Create OneNote Document & Add Alt Text to Images in Java
 second_title: Aspose.Note Java API
-title: Java Kullanarak OneNote'ta Görsele Alternatif Metin Ekleme
+title: Java'da OneNote Belgesi Oluştur ve Görsellere Alternatif Metin Ekle
 url: /tr/java/onenote-image-alternative-text/add-alternative-text-to-image/
 weight: 10
 ---
@@ -14,41 +14,41 @@ weight: 10
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Java Kullanarak OneNote'ta Görsele Alt Metin Ekleme
+# OneNote Belgesi Oluşturma ve Görüntülere Alt Metin Ekleme (Java)
 
-## Giriiş
+## Giriş
 
-Bu öğreticide, Java ve Aspose.Note API'si kullanarak OneNote açıklamalarındaki görsellere **alt metin eklemeyi** keşfedeceksiniz. Alternatif metin (alt metin) seçilebilir, ekran okuyucusu için erişilebilirliği artırılır ve içeriğinizin genel kapsayıcılığı yükseltilir. Bu rehberin sonunda Java'nın görsel alt metnini ayarlayabilecek ve OneNote dosyalarınızı erişilebilir hale getirerek daha uygun hale getirebileceksiniz.
+Bu öğreticide, Java ve Aspose.Note API'sını kullanarak programlı bir şekilde **OneNote belgesi oluşturmayı** ve **görüntü alt metni ayarlamayı** öğreneceksiniz. Alternatif metin eklemek, OneNote sayfalarınızı ekran okuyucu kullanıcıları için erişilebilir kılar, aranabilirliği artırır ve **OneNote dosyasını kaydetmenize** daha zengin meta verilerle yardımcı olur. Kılavuzun sonunda, **OneNote sayfalarına görüntü ekleyebilecek**, görüntüye hem bir başlık hem bir açıklama atayabilecek ve dosyayı diske kalıcı olarak kaydedebileceksiniz.
 
 ## Hızlı Yanıtlar
-- **Hangi kütüphane gereklidir?** Aspose.Note for Java
-- **Bu eğitim hangi birincil anahtar kelimeyi hedefliyor?** alt nasıl eklenir
-- **Üretim için lisansa ihtiyacım var mı?** Evet, ticari lisans gereklidir (ücretsiz deneme sürümü mevcuttur).
-- **Birden fazla görsele alternatif metin ekleyebilir miyim?** Kesinlikle; adımları her görsel için tekrarlamanız yeterli.
-- **Hangi Java sürümü destekleniyor?** Java8 veya üzeri.
+- **Gerekli kütüphane nedir?** Aspose.Note for Java  
+- **Bu öğreticinin hedeflediği birincil anahtar kelime nedir?** create onenote document  
+- **Üretim için lisansa ihtiyacım var mı?** Evet, ticari bir lisans gereklidir (ücretsiz deneme mevcuttur).  
+- **Birden fazla görüntüye alt metin ekleyebilir miyim?** Kesinlikle – her görüntü için adımları tekrarlamanız yeterlidir.  
+- **Hangi Java sürümü destekleniyor?** Java 8 veya üzeri.
 
-## OneNote bağlamında "alt nasıl eklenir" nedir?
+## OneNote bağlamında “create onenote document” ne anlama geliyor?
 
-Alt metni birleştirme, bir görselin yardımcı teknolojiler tarafından okunabilmesi için metinsel bir açıklamanın sağlanması. Bu açıklama, görseli göremeyen kullanıcıların amacını anlamalarına yardımcı olur.
+OneNote belgesi oluşturmak, sayfalar, metin, görüntüler ve diğer zengin içerikleri içerebilen bir `.one` dosyasını programlı olarak oluşturmak anlamına gelir. Aspose.Note ile bu dosyayı sıfırdan oluşturabilir, öğeler ekleyebilir ve ardından **OneNote dosyasını** istediğiniz bir konuma **kaydedebilirsiniz**.
 
-## OneNote'ta görsellere neden alternatif metin eklenmeli?
+## OneNote'ta görüntülere neden alt metin eklenmeli?
 
-- **Erişilebilirlik:** WCAG yönergelerine uyar ve görme engelli kullanıcıların deneyimini geliştirir.
-- **Aranabilirlik:** Arama motorları açıklamayı indeksleyebilir, dolayısıyla içeriğiniz daha keşfedilebilir olur.
-- **Profesyonellik:** Kapsayıcının olan bağlılığınızı gösterir.
+- **Erişilebilirlik:** WCAG yönergelerine uyar ve görme engelli kullanıcıları destekler.  
+- **Aranabilirlik:** Arama motorları açıklamayı indeksleyebilir, böylece içeriğiniz daha kolay bulunur.  
+- **Profesyonellik:** Kapsayıcı tasarım ve dokümantasyon kalitesine bağlılık gösterir.
 
-## Önkoşullar
+## Ön Koşullar
 
-Eğiticiye dalmadan önce aşağıdaki önkoşullara sahip olduğunuzdan emin olun:
+Öğreticiye başlamadan önce aşağıdaki ön koşulları karşıladığınızdan emin olun:
 
-1. Java Geliştirme Kiti (JDK) – sürüm 8 veya üzeri.
-2. Aspose.Note for Java Library – onu [buradan](https://releases.aspose.com/note/java/) adresinden indirin.
-3. IntelliJ IDEA veya Eclipse gibi bir IDE.
-4. Java programlamaya ilişkin temel bilgiler.
+1. Java Development Kit (JDK) – sürüm 8 veya üzeri.  
+2. Aspose.Note for Java Kütüphanesi – [buradan](https://releases.aspose.com/note/java/) indirin.  
+3. IntelliJ IDEA veya Eclipse gibi bir IDE.  
+4. Java programlama temelleri.
 
 ## Paketleri İçe Aktarma
 
-Öncelikle, Aspose.Note işlevlerini kullanmak için gerekli paketleri Java projenize içe aktarın.
+İlk olarak, Aspose.Note işlevlerini kullanabilmek için gerekli paketleri Java projenize içe aktarın.
 
 ```java
 import java.io.IOException;
@@ -58,115 +58,119 @@ import com.aspose.note.Image;
 import com.aspose.note.Page;
 ```
 
-Şimdi, Java ve Aspose.Note kullanarak bir OneNote belgesine **alternatif metinli resim** ekleme sürecini adım adım talimatlara ayıralım.
+Şimdi, **adım adım kılavuzu** izleyerek **OneNote belgesi oluşturmayı**, bir görüntü eklemeyi ve **görüntü alt metnini ayarlamayı** inceleyelim.
 
-## Java Kullanarak OneNote'taki Resimlere Alternatif Metin Nasıl Eklenir
+## Java'da OneNote Belgesi Oluşturma ve Görüntü Alt Metni Ayarlama
 
-### Adım 1: Belge Dizini Kurulumu
+### Adım 1: Belge Dizinini Ayarlama
 
 ```java
 String dataDir = "Your Document Directory";
 ```
 
-"Belge Dizininiz" ifadesini, kaynak görselinizi içeren ve çıktı dosyasının kaydedileceği klasörün yoluyla değiştirin.
+`"Your Document Directory"` ifadesini, kaynak görüntünüzün bulunduğu ve çıktı `.one` dosyasının kaydedilmesini istediğiniz mutlak yol ile değiştirin.
 
-### Adım 2: Belge Nesnesi Oluşturma
+### Adım 2: Document Nesnesi Oluşturma
 
 ```java
 Document document = new Document();
 ```
 
-Bu, yeni ve boş bir OneNote belgesi oluşturur.
+Bu satır, daha sonra eklenen içerikle **OneNote dosyasını kaydedeceğiniz** yeni bir **OneNote belgesi** oluşturur.
 
-### Adım 3: Sayfa Nesnesi Oluşturma
+### Adım 3: Page Nesnesi Oluşturma
 
 ```java
 Page page = new Page();
 ```
 
-Ekleyeceğimiz görseli bir sayfaya yerleştireceğiz.
+Bir sayfa, görüntü ve eklemek isteyebileceğiniz diğer öğeler için bir tuval görevi görür.
 
-### Adım 4: Sayfaya Görsel Ekleme
+### Adım 4: Sayfaya Bir Görüntü Ekleme
 
 ```java
 Image image = new Image(null, dataDir + "image.jpg");
 ```
 
-`Görüntü` yapıcı fonksiyonu, belirtilen yoldan görsel dosyasını yükler.
+`Image` yapıcı metodu, belirtilen yoldan görüntü dosyasını yükler. İşte **OneNote'a görüntü ekleme** (append image onenote) noktasına geldiğiniz yer.
 
-### Adım 5: Alternatif Metin Başlığı Ayarlama
+### Adım 5: Alternatif Metin Başlığını Ayarla (Görüntü Alt Metnini Ayarla)
 
 ```java
 image.setAlternativeTextTitle("ImageAlternativeText Title");
 ```
 
-Burada, görsel için kısa bir başlık görevi gören **alternatif metin** ekliyoruz.
+Burada, resim için özlü bir başlık görevi gören **görüntü alt metnini** ayarlıyoruz.
 
-### Adım 6: Alternatif Metin Açıklaması Ayarlama
+### Adım 6: Alternatif Metin Açıklamasını Ayarla (Alt Metin Açıklamasını Ayarla)
 
 ```java
 image.setAlternativeTextDescription("ImageAlternativeText Description");
 ```
 
-Bu açıklama, ekran okuyucular için mükemmel olan daha ayrıntılı bir açıklama sağlar.
+Açıklama, daha ayrıntılı bir açıklama sağlar—ekran okuyucular için mükemmeldir.
 
-### Adım 7: Görseli Sayfaya Ekleme
+### Adım 7: Görüntüyü Sayfaya Ekleme
 
 ```java
 page.appendChildLast(image);
 ```
 
-Görüntü (artık alternatif metinle zenginleştirilmiş) sayfaya eklenir.
+Şimdi, alt metniyle zenginleştirilmiş görüntü **OneNote sayfasına eklenmiştir**.
 
-### Adım 8: Sayfayı Belgeye Ekleyin
+### Adım 8: Sayfayı Belgeye Ekleme
 
 ```java
 document.appendChildLast(page);
 ```
 
-Sayfayı OneNote belgesine ekleyin.
+Sayfayı daha önce oluşturduğunuz OneNote belgesine ekleyin.
 
-### Adım 9: Belgeyi Kaydedin
+### Adım 9: Belgeyi Kaydet (OneNote Dosyasını Kaydet)
 
 ```java
 document.save(dataDir + "AlternativeText_out.one");
 ```
 
-Belge, alternatif metin resmin içine gömülü olarak kaydedilir.
+`save` çağrısı, tüm alt‑metin meta verilerini koruyarak **OneNote dosyasını** diske **yazar**.
 
-## Sık Karşılaşılan Sorunlar ve Çözümler
+## Yaygın Sorunlar ve Çözümler
 
-- **FileNotFoundException:** `dataDir`'in doğru klasöre işaret ettiğinden ve `image.jpg` dosyasının mevcut olduğundan emin olun.
-
-- **Resimde NullPointerException:** Resim yolunun geçerli olduğundan ve dosyanın bozuk olmadığından emin olun.
-
+- **FileNotFoundException:** `dataDir`'in doğru klasöre işaret ettiğini ve `image.jpg` dosyasının mevcut olduğunu doğrulayın.  
+- **NullPointerException** görüntüde: Görüntü yolunun geçerli olduğundan ve dosyanın bozuk olmadığından emin olun.  
 - **Lisans hataları:** Geçerli bir Aspose.Note lisans dosyası kullanın veya değerlendirme için deneme modunda çalıştırın.
 
-## Sıkça Sorulan Sorular
+## Sık Sorulan Sorular
 
-**S: Tek bir belge içinde birden fazla resme alternatif metin ekleyebilir miyim?**
-C: Evet, açıklama eklemek istediğiniz her resim için 4-6 arasındaki adımları tekrarlayın.
+**S: Tek bir belge içinde birden fazla görüntüye alt metin ekleyebilir miyim?**  
+C: Evet, eklemek istediğiniz her görüntü için adım 4‑6'yı tekrarlamanız yeterlidir.
 
-**S: Alternatif metin eklemek için hangi resim formatları destekleniyor?**
-C: Aspose.Note, JPEG, PNG, GIF, BMP ve diğer birçok yaygın formatı destekler.
+**S: Alt metin eklemek için hangi görüntü formatları destekleniyor?**  
+C: Aspose.Note JPEG, PNG, GIF, BMP ve birkaç diğer yaygın formatı destekler.
 
-**S: Ayarlandıktan sonra alternatif metni değiştirmek veya kaldırmak mümkün mü?**
-C: Kesinlikle. Değerleri temizlemek için `setAlternativeTextTitle("")` veya `setAlternativeTextDescription("")` fonksiyonlarını çağırın veya bunları güncellemek için yeni dizeler sağlayın.
+**S: Alt metin ayarlandıktan sonra değiştirmek veya kaldırmak mümkün mü?**  
+C: Kesinlikle. Değerleri temizlemek için `setAlternativeTextTitle("")` veya `setAlternativeTextDescription("")` çağırın, ya da yeni metinler sağlayarak güncelleyin.
 
-**S: Aspose.Note, Java dışında başka diller için de API sağlıyor mu?**
+**S: Aspose.Note Java dışındaki diğer diller için API'ler sunuyor mu?**  
 C: Evet, kütüphane .NET, C++ ve Python için de mevcuttur.
 
-**S: Aspose.Note'un deneme sürümünü nereden indirebilirim?**
+**S: Aspose.Note deneme sürümünü nereden indirebilirim?**  
 C: Ücretsiz deneme sürümünü [buradan](https://releases.aspose.com/) edinebilirsiniz.
+
+**S: Birden fazla sayfa ekledikten sonra programlı olarak **OneNote dosyasını** nasıl kaydederim?**  
+C: Tüm sayfa ve görüntüleri ekledikten sonra `document.save(<outputPath>)` metodunu bir kez çağırın; API dosyanın tam oluşturulmasını halleder.
+
+**S: Mevcut bir belgede **OneNote'a görüntü eklemek** (append image onenote) için aynı kodu kullanabilir miyim?**  
+C: Evet. Mevcut belgeyi `new Document(<filePath>)` ile yükleyin, ardından yeni görüntüler ve alt metin eklemek için adım 3‑7'yi izleyin.
 
 ## Sonuç
 
-Bu adım adım kılavuzu izleyerek, artık Java kullanarak OneNote'ta resimlere alternatif metin **nasıl** ekleyeceğinizi biliyorsunuz. `Alternatif metin resim ekleme` özelliğini uygulamak, belgelerinizi daha erişilebilir hale getirmekle kalmaz, aynı zamanda arama kolaylığını ve genel kalitesini de artırır. Her bir görselin anlamını en iyi şekilde iletmek için farklı başlıklar ve açıklamalarla denemeler yapmaktan çekinmeyin.
+Bu kılavuzu izleyerek artık Java kullanarak **OneNote belgesi oluşturmayı**, **OneNote'a görüntü eklemeyi** ve **görüntü alt metnini ayarlamayı** biliyorsunuz. Bu adımları uygulamak, OneNote dosyalarınızı daha erişilebilir kılmakla kalmaz, aynı zamanda bulunabilirliğini ve genel kalitesini artırır. Her görüntünün anlamını en iyi şekilde iletmek için farklı başlık ve açıklamalarla denemeler yapmaktan çekinmeyin.
 
 ---
 
-**Son Güncelleme:** 2025-12-23
-**Test Edildiği Sürüm:** Aspose.Note for Java 24.11
+**Son Güncelleme:** 2026-03-21  
+**Test Edilen Versiyon:** Aspose.Note for Java 24.11  
 **Yazar:** Aspose  
 
 {{< /blocks/products/pf/tutorial-page-section >}}

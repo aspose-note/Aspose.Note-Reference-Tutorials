@@ -1,22 +1,22 @@
 ---
-title: "How to Convert OneNote to PNG – Flatten Notebook to Image with Aspose.Note"
-linktitle: "How to Convert OneNote to PNG – Flatten Notebook to Image with Aspose.Note"
+title: "How to Flatten Notebook – Convert OneNote to PNG"
+linktitle: "How to Flatten Notebook – Convert OneNote to PNG"
 second_title: "Aspose.Note Java API"
-description: "Learn how to convert OneNote to PNG using Aspose.Note for Java. This guide shows how to set image resolution, flatten a notebook, and save OneNote as an image efficiently."
+description: "Learn how to flatten notebook by converting OneNote to PNG with Aspose.Note for Java. This guide covers setting image resolution, saving OneNote as image, and flattening notebooks efficiently."
 weight: 13
 url: /java/onenote-notebook-operations/convert-notebook-to-flattened-image/
-date: 2025-12-25
+date: 2026-03-21
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Convert Notebook to Flattened Image in OneNote - Aspose.Note
+# How to Flatten Notebook – Convert OneNote to PNG
 
 ## Introduction
 
-In this tutorial you'll discover how to **convert OneNote to PNG** by turning an entire notebook into a single flattened image using Aspose.Note for Java. This approach is perfect when you need to share a notebook as a static picture, embed it in reports, or archive it without losing any visual details.
+In this tutorial you'll discover **how to flatten notebook** content by converting a OneNote notebook to a high‑quality PNG image using Aspose.Note for Java. Whether you need to embed a notebook snapshot in a report, share a read‑only view with colleagues, or archive a compliant image, this step‑by‑step guide shows you exactly how to save OneNote as image while controlling resolution.
 
 ## Quick Answers
 - **What does “flatten notebook” mean?** It merges all page elements into one raster image.  
@@ -56,7 +56,9 @@ import com.aspose.note.NotebookImageSaveOptions;
 import com.aspose.note.SaveFormat;
 ```
 
-## Step 1: Set Up Document Directory
+## Step‑by‑Step Guide
+
+### Step 1: Set Up Document Directory
 
 Firstly, define the directory where your notebook file is located:
 
@@ -66,7 +68,7 @@ String dataDir = "Your Document Directory";
 
 Replace `"Your Document Directory"` with the path to your notebook file.
 
-## Step 2: Load Notebook
+### Step 2: Load Notebook
 
 Next, load the notebook file using the `Notebook` class:
 
@@ -76,9 +78,9 @@ Notebook notebook = new Notebook(dataDir + "test.onetoc2");
 
 Ensure to replace `"test.onetoc2"` with the name of your notebook file.
 
-## Step 3: Set Image Save Options
+### Step 3: Set Image Save Options (set image resolution java)
 
-Now, set up the options for saving the notebook as an image. We will specify the save format as PNG and set the resolution to 400 DPI:
+Now, set up the options for saving the notebook as an image. We will specify the save format as PNG and set the resolution to 400 DPI:
 
 ```java
 NotebookImageSaveOptions saveOptions = new NotebookImageSaveOptions(SaveFormat.Png);
@@ -88,7 +90,7 @@ documentSaveOptions.setResolution(400);
 
 You can adjust the resolution as per your requirements. This is where you **set image resolution** to control the output quality.
 
-## Step 4: Flatten Notebook
+### Step 4: Flatten Notebook (how to flatten notebook)
 
 To ensure that all elements are flattened into a single image, set the `flatten` option to `true`:
 
@@ -98,7 +100,7 @@ saveOptions.setFlatten(true);
 
 Setting `flatten` to `true` guarantees that the resulting PNG maintains the exact layout of your notebook.
 
-## Step 5: Save Image
+### Step 5: Save Image (save onenote as image)
 
 Finally, save the notebook as a flattened image:
 
@@ -139,7 +141,7 @@ A5: You can find support and resources on the Aspose.Note forum [here](https://f
 
 ---
 
-**Last Updated:** 2025-12-25  
+**Last Updated:** 2026-03-21  
 **Tested With:** Aspose.Note for Java 24.12  
 **Author:** Aspose  
 

@@ -1,11 +1,11 @@
 ---
-date: 2025-12-25
-description: OneNote'u PNG'ye dönüştürmeyi Aspose.Note for Java ile öğrenin. Bu kılavuz,
-  görüntü çözünürlüğünü ayarlamayı, bir not defterini düzleştirmeyi ve OneNote'u verimli
-  bir şekilde resim olarak kaydetmeyi gösterir.
-linktitle: How to Convert OneNote to PNG – Flatten Notebook to Image with Aspose.Note
+date: 2026-03-21
+description: Aspose.Note for Java ile OneNote'u PNG'ye dönüştürerek defteri düzleştirmeyi
+  öğrenin. Bu kılavuz, görüntü çözünürlüğünü ayarlamayı, OneNote'u resim olarak kaydetmeyi
+  ve defterleri verimli bir şekilde düzleştirmeyi kapsar.
+linktitle: How to Flatten Notebook – Convert OneNote to PNG
 second_title: Aspose.Note Java API
-title: OneNote'u PNG'ye Dönüştürme – Aspose.Note ile Defteri Görüntüye Düzleştirme
+title: Defteri Düzleştirme – OneNote'u PNG'ye Dönüştürme
 url: /tr/java/onenote-notebook-operations/convert-notebook-to-flattened-image/
 weight: 13
 ---
@@ -14,41 +14,41 @@ weight: 13
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# OneNote'ta Not Defterini Düzleştirilmiş Görüntüye Dönüştürme - Aspose.Note
+# How to Flatten Notebook – Convert OneNote to PNG
 
-## Giriş
+## Introduction
 
-Bu öğreticide, Aspose.Note for Java kullanarak bir bütün not defterini tek bir düzleştirilmiş görüntüye dönüştürerek **OneNote'u PNG'ye dönüştürmeyi** keşfedeceksiniz. Bu yaklaşım, bir not defterini statik bir resim olarak paylaşmanız, raporlara yerleştirmeniz veya görsel detayları kaybetmeden arşivlemeniz gerektiğinde mükemmeldir.
+Bu öğreticide **not defterini düzleştirme** (flatten notebook) içeriğini, Aspose.Note for Java kullanarak bir OneNote not defterini yüksek kaliteli PNG görüntüsüne dönüştürerek nasıl yapacağınızı keşfedeceksiniz. Bir rapora not defteri anlık görüntüsü eklemeniz, meslektaşlarınızla yalnızca okunabilir bir görünüm paylaşmanız veya uyumlu bir görüntüyü arşivlemeniz gerektiğinde, bu adım‑adım kılavuz, çözünürlüğü kontrol ederken OneNote’u görüntü olarak nasıl kaydedeceğinizi tam olarak gösterir.
 
-## Hızlı Yanıtlar
-- **“flatten notebook” ne anlama geliyor?** Tüm sayfa öğelerini tek bir raster görüntüde birleştirir.  
-- **Hangi format kullanılıyor?** PNG varsayılan olup kayıpsız kalite sağlar.  
-- **DPI'yi değiştirebilir miyim?** Evet, `ImageSaveOptions` üzerinde `setResolution` kullanın.  
-- **Lisans gerekli mi?** Değerlendirme için ücretsiz deneme çalışır; üretim için ticari lisans gereklidir.  
-- **Bu tüm işletim sistemlerinde destekleniyor mu?** Java API'si Java çalıştırabildiği her yerde çalışır.
+## Quick Answers
+- **“Flatten notebook” ne demektir?** Tüm sayfa öğelerini tek bir raster görüntüye birleştirir.  
+- **Hangi format kullanılır?** PNG varsayılan olup kayıpsız kalite sağlar.  
+- **DPI’yı değiştirebilir miyim?** Evet, `ImageSaveOptions` üzerindeki `setResolution` metodunu kullanın.  
+- **Lisans gerekir mi?** Değerlendirme için ücretsiz deneme sürümü çalışır; üretim için ticari lisans gereklidir.  
+- **Tüm işletim sistemlerinde destekleniyor mu?** Java API’si, Java’nın çalıştığı her yerde çalışır.
 
-## OneNote'u PNG'ye dönüştürmek nedir?
+## What is converting OneNote to PNG?
 
-OneNote'u PNG'ye dönüştürmek, not defterindeki her sayfanın bitmap temsili oluşturur ve metin, çizimler ve gömülü nesneleri tek bir görüntü dosyasında korur. Bu, özellikle dokümantasyon, sunumlar veya uyumluluk arşivleri için faydalıdır.
+OneNote’u PNG’ye dönüştürmek, not defterindeki her sayfanın bitmap temsili oluşturur ve metin, çizimler ve gömülü nesneleri tek bir görüntü dosyasında korur. Bu, dokümantasyon, sunumlar veya uyum arşivleri için özellikle faydalıdır.
 
-## OneNote'u PNG'ye Aspose.Note ile neden dönüştürmeliyiz?
+## Why convert OneNote to PNG with Aspose.Note?
 
 - **Full fidelity** – Tüm görsel öğeler korunur.  
-- **Single‑file output** – Birden fazla sayfa dosyasını yönetmeye gerek yoktur.  
-- **Customizable resolution** – Kalite gereksinimlerini karşılamak için DPI ayarlanabilir.  
-- **No Office installation** – Microsoft OneNote'dan tamamen bağımsız çalışır.
+- **Single‑file output** – Birden fazla sayfa dosyası yönetmeye gerek kalmaz.  
+- **Customizable resolution** – Kalite gereksinimlerinize göre DPI’yı ayarlayabilirsiniz.  
+- **No Office installation** – Microsoft OneNote’a tamamen bağımsız çalışır.
 
-## Ön Koşullar
+## Prerequisites
 
-Başlamadan önce aşağıdakilere sahip olduğunuzdan emin olun:
+Başlamadan önce aşağıdakilerin kurulu olduğundan emin olun:
 
-1. Sisteminizde yüklü Java Development Kit (JDK).  
-2. Aspose.Note for Java kütüphanesini indirmiş ve Java projenize eklemiş olun. Kütüphaneyi [buradan](https://releases.aspose.com/note/java/) indirebilirsiniz.  
-3. Java programlama temelleri.
+1. Sisteminizde Java Development Kit (JDK) yüklü.  
+2. Aspose.Note for Java kütüphanesini indirdiniz ve Java projenize eklediniz. Kütüphaneyi [buradan](https://releases.aspose.com/note/java/) indirebilirsiniz.  
+3. Java programlamaya temel düzeyde hakimiyet.
 
-## Paketleri İçe Aktarma
+## Import Packages
 
-Başlamak için, Aspose.Note for Java'dan gerekli paketleri içe aktarmanız gerekir:
+Başlamak için Aspose.Note for Java’dan gerekli paketleri içe aktarın:
 
 ```java
 import java.io.IOException;
@@ -58,7 +58,9 @@ import com.aspose.note.NotebookImageSaveOptions;
 import com.aspose.note.SaveFormat;
 ```
 
-## Adım 1: Belge Dizinini Ayarlama
+## Step‑by‑Step Guide
+
+### Step 1: Set Up Document Directory
 
 İlk olarak, not defteri dosyanızın bulunduğu dizini tanımlayın:
 
@@ -66,9 +68,9 @@ import com.aspose.note.SaveFormat;
 String dataDir = "Your Document Directory";
 ```
 
-`"Your Document Directory"` ifadesini not defteri dosyanızın yoluyla değiştirin.
+`"Your Document Directory"` ifadesini not defteri dosyanızın yolu ile değiştirin.
 
-## Adım 2: Not Defterini Yükleme
+### Step 2: Load Notebook
 
 Sonra, `Notebook` sınıfını kullanarak not defteri dosyasını yükleyin:
 
@@ -78,9 +80,9 @@ Notebook notebook = new Notebook(dataDir + "test.onetoc2");
 
 `"test.onetoc2"` ifadesini not defteri dosyanızın adıyla değiştirin.
 
-## Adım 3: Görüntü Kaydetme Seçeneklerini Ayarlama
+### Step 3: Set Image Save Options (set image resolution java)
 
-Şimdi, not defterini görüntü olarak kaydetmek için seçenekleri ayarlayın. Kaydetme formatını PNG olarak belirleyecek ve çözünürlüğü 400 DPI olarak ayarlayacağız:
+Şimdi, not defterini görüntü olarak kaydetmek için seçenekleri ayarlayın. Kaydetme formatını PNG olarak belirleyecek ve çözünürlüğü 400 DPI olarak ayarlayacağız:
 
 ```java
 NotebookImageSaveOptions saveOptions = new NotebookImageSaveOptions(SaveFormat.Png);
@@ -88,19 +90,19 @@ ImageSaveOptions documentSaveOptions = saveOptions.getDocumentSaveOptions();
 documentSaveOptions.setResolution(400);
 ```
 
-Çözünürlüğü gereksinimlerinize göre ayarlayabilirsiniz. Çıktı kalitesini kontrol etmek için **görüntü çözünürlüğünü ayarladığınız** yerdir.
+Gereksinimlerinize göre çözünürlüğü ayarlayabilirsiniz. Burada **görüntü çözünürlüğünü** (image resolution) ayarlayarak çıktı kalitesini kontrol edersiniz.
 
-## Adım 4: Not Defterini Düzleştirme
+### Step 4: Flatten Notebook (how to flatten notebook)
 
-Tüm öğelerin tek bir görüntüde düzleştirildiğinden emin olmak için `flatten` seçeneğini `true` olarak ayarlayın:
+Tüm öğelerin tek bir görüntüye düzleştirildiğinden emin olmak için `flatten` seçeneğini `true` olarak ayarlayın:
 
 ```java
 saveOptions.setFlatten(true);
 ```
 
-`flatten` seçeneğini `true` olarak ayarlamak, oluşan PNG'nin not defterinizin tam düzenini korumasını sağlar.
+`flatten` değerini `true` yapmak, oluşturulan PNG’nin not defterinizin tam düzenini korumasını sağlar.
 
-## Adım 5: Görüntüyü Kaydetme
+### Step 5: Save Image (save onenote as image)
 
 Son olarak, not defterini düzleştirilmiş bir görüntü olarak kaydedin:
 
@@ -108,42 +110,42 @@ Son olarak, not defterini düzleştirilmiş bir görüntü olarak kaydedin:
 notebook.save(dataDir + "ExportImageasFlattenedNotebook_out.png", saveOptions);
 ```
 
-`"ExportImageasFlattenedNotebook_out.png"` ifadesini istediğiniz çıktı dosya adıyla değiştirin. Bu adım, **OneNote'u istediğiniz yerde paylaşabileceğiniz veya yerleştirebileceğiniz bir görüntü olarak kaydeder**.
+`"ExportImageasFlattenedNotebook_out.png"` ifadesini istediğiniz çıktı dosya adıyla değiştirin. Bu adım **OneNote’u bir görüntü olarak kaydeder**, böylece istediğiniz yerde paylaşabilir veya yerleştirebilirsiniz.
 
-## Yaygın Kullanım Senaryoları
+## Common Use Cases
 
-- **Documentation:** Not defteri görüntüsünü teknik kılavuzlara veya kullanıcı rehberlerine yerleştirin.  
-- **Presentations:** Yazı tipi veya nesne uyumluluğu konusunda endişe etmeden PowerPoint'te yüksek çözünürlüklü PNG slaytı kullanın.  
+- **Documentation:** Not defteri görüntüsünü teknik kılavuzlar veya kullanıcı rehberlerine ekleyin.  
+- **Presentations:** PowerPoint’te yüksek çözünürlüklü PNG slaytını kullanın; font veya nesne uyumluluğu sorunları yaşamazsınız.  
 - **Archiving:** Uyumluluk denetimleri için not defterinin yalnızca okunabilir bir anlık görüntüsünü saklayın.
 
-## Sorun Giderme İpuçları
+## Troubleshooting Tips
 
 - **File not found:** `dataDir` yolunu iki kez kontrol edin ve `.onetoc2` dosyasının mevcut olduğundan emin olun.  
-- **Low quality image:** DPI'yi artırmak için `documentSaveOptions.setResolution(600);` ifadesini değiştirin.  
-- **Missing elements:** `saveOptions.setFlatten(true);` seçeneğinin etkin olduğundan emin olun; aksi takdirde bazı katmanlar ayrı kalabilir.
+- **Low quality image:** DPI’yı artırmak için `documentSaveOptions.setResolution(600);` satırını değiştirin.  
+- **Missing elements:** `saveOptions.setFlatten(true);` etkin olduğundan emin olun; aksi takdirde bazı katmanlar ayrı kalabilir.
 
-## Sıkça Sorulan Sorular
+## Frequently Asked Questions
 
-**S1: Çıktı görüntüsünün çözünürlüğünü ayarlayabilir miyim?**  
-C1: Evet, `setResolution` metod parametresini değiştirerek çözünürlüğü gereksinimlerinize göre ayarlayabilirsiniz.
+**Q1: Çıktı görüntüsünün çözünürlüğünü ayarlayabilir miyim?**  
+A1: Evet, `setResolution` metodunun parametresini değiştirerek gereksinimlerinize uygun çözünürlüğü ayarlayabilirsiniz.
 
-**S2: Aspose.Note dışa aktarım için başka görüntü formatlarını destekliyor mu?**  
-C2: Evet, Aspose.Note not defterlerini dışa aktarmak için PNG, JPEG, BMP vb. çeşitli görüntü formatlarını destekler.
+**Q2: Aspose.Note dışa aktarma için başka görüntü formatlarını destekliyor mu?**  
+A2: Evet, Aspose.Note PNG, JPEG, BMP gibi çeşitli görüntü formatlarını destekler.
 
-**S3: Çıktı görüntüsünü daha da özelleştirebilir miyim?**  
-C3: Evet, Aspose.Note sayfa boyutu, yönlendirme ve kalite ayarları gibi birçok özelleştirme seçeneği sunar.
+**Q3: Çıktı görüntüsünü daha da özelleştirebilir miyim?**  
+A3: Evet, Aspose.Note sayfa boyutu, yönlendirme ve kalite ayarları gibi geniş özelleştirme seçenekleri sunar.
 
-**S4: Aspose.Note for Java için bir deneme sürümü mevcut mu?**  
-C4: Evet, ücretsiz deneme sürümünü [buradan](https://releases.aspose.com/) edinebilirsiniz.
+**Q4: Aspose.Note for Java için bir deneme sürümü mevcut mu?**  
+A4: Evet, ücretsiz deneme sürümünü [buradan](https://releases.aspose.com/) edinebilirsiniz.
 
-**S5: Aspose.Note for Java için destek nereden bulunabilir?**  
-C5: Destek ve kaynakları Aspose.Note forumunda [burada](https://forum.aspose.com/c/note/28) bulabilirsiniz.
+**Q5: Aspose.Note for Java için destek nereden alınabilir?**  
+A5: Aspose.Note forumunda destek ve kaynakları [buradan](https://forum.aspose.com/c/note/28) bulabilirsiniz.
 
 ---
 
-**Son Güncelleme:** 2025-12-25  
-**Test Edilen Versiyon:** Aspose.Note for Java 24.12  
-**Yazar:** Aspose  
+**Last Updated:** 2026-03-21  
+**Tested With:** Aspose.Note for Java 24.12  
+**Author:** Aspose  
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
