@@ -1,6 +1,6 @@
 ---
-date: 2025-12-31
-description: Aspose.Note を使用して Java で OneNote の添付ファイルを抽出する方法を学びましょう。.one ドキュメントからファイルを迅速かつ確実に取得します。
+date: 2026-03-24
+description: Java と Aspose.Note を使用して OneNote の添付ファイルを抽出する方法を学びましょう。.one ドキュメントからファイルを迅速かつ確実に取得できます。
 linktitle: Retrieve Attachment from OneNote using Java
 second_title: Aspose.Note Java API
 title: Java を使用して OneNote の添付ファイルを抽出する方法
@@ -16,43 +16,48 @@ weight: 12
 
 ## はじめに
 
-今日のデジタル時代において、**how to extract onenote** データをプログラムで取得することは、ドキュメント中心のアプリケーションを構築する開発者にとって一般的な課題です。Aspose.Note for Java は、Microsoft OneNote の *.one* ファイルからコンテンツを読み取り、操作し、エクスポートできる豊富な API を提供することで、この作業をシンプルにします。このチュートリアルでは、Java を使用して OneNote ノートブックから画像、PDF、Word 文書などの添付ファイルを取得する方法を学びます。
+デジタル時代の今日、**how to extract onenote** データをプログラムで取得することは、ドキュメント中心のアプリケーションを構築する開発者にとって共通の課題です。Aspose.Note for Java は、Microsoft OneNote の *.one* ファイルからコンテンツを読み取り、操作し、エクスポートできる豊富な API を提供することで、この作業をシンプルにします。本チュートリアルでは、Java を使用して OneNote ノートブックから画像、PDF、Word 文書などの添付ファイルを取得する方法を学び、**retrieve files from .one** ノートブックを効率的に行う方法をご紹介します。
 
 ## クイック回答
-- **必要なライブラリは何ですか？** Aspose.Note for Java  
-- **.one から手動で解凍せずにファイルを抽出できますか？** はい、API は .one フォーマットを直接読み取ります。  
-- **開発にライセンスは必要ですか？** 無料の評価ライセンスはテストに使用できますが、本番環境ではフルライセンスが必要です。  
-- **サポートされている Java バージョンは？** Java 8 以上。  
-- **バッチ処理は可能ですか？** もちろんです。同じコードで複数のドキュメントをループ処理できます。
+- **What library do I need?** Aspose.Note for Java  
+- **Can I extract files from .one without manual unpacking?** Yes, the API reads the .one format directly.  
+- **Do I need a license for development?** A free evaluation license works for testing; a full license is required for production.  
+- **Which Java version is supported?** Java 8 or higher.  
+- **Is batch processing possible?** Absolutely—loop through multiple documents with the same code.
 
-## “how to extract onenote” とは？
+## 「how to extract onenote」とは？
+OneNote コンテンツの抽出とは、*.one* ノートブックをプログラムで読み取り、埋め込まれたリソース（添付ファイル、画像、テキスト）を取り出すことを指します。これにより、ドキュメントの自動アーカイブ、コンテンツの移行、カスタムレポート作成といったシナリオが実現できます。
 
-OneNote コンテンツの抽出とは、*.one* ノートブックをプログラムで読み取り、埋め込まれたリソース（添付ファイル、画像、テキスト）を取り出すことを指します。これにより、ドキュメントの自動アーカイブ、コンテンツの移行、カスタムレポート作成などのシナリオが実現できます。
+## なぜ Java で OneNote 添付ファイルを抽出するのか？
+- **Full format support** – Handles every element of the OneNote file structure, letting you **read .one file java** applications without extra dependencies.  
+- **No Office installation required** – Works in headless environments such as servers or CI pipelines.  
+- **Batch‑ready** – Process dozens of notebooks in a single run with minimal memory footprint.  
+- **Extract PDFs from OneNote** – The API exposes embedded PDFs as regular byte streams, so you can save them instantly.
 
-## Aspose.Note for Java を使用する理由
-- **フルフォーマットサポート** – OneNote ファイル構造のすべての要素を処理します。  
-- **Office のインストール不要** – サーバーや CI パイプラインなどのヘッドレス環境でも動作します。  
-- **バッチ対応** – メモリフットプリントを最小限に抑えながら、1 回の実行で多数のノートブックを処理できます。  
+## 主な使用例
+- **Enterprise archiving:** Pull attachments from meeting notes and store them in a document management system.  
+- **Content migration:** Move files from legacy OneNote notebooks to SharePoint or cloud storage.  
+- **Automated reporting:** Collect charts or PDFs embedded in notes and include them in generated reports.  
 
 ## 前提条件
 
-コードに取り掛かる前に、以下が準備できていることを確認してください：
+コードに入る前に、以下の項目が準備できていることを確認してください。
 
 ### Java Development Kit (JDK)
 
-1. Oracle または OpenJDK 配布元から最新の JDK をダウンロードします。  
+1. Oracle または OpenJDK ディストリビュータから最新の JDK をダウンロードします。  
 2. JDK の `bin` ディレクトリをシステムの `PATH` に追加します。  
-3. `java -version` と `javac -version` で確認します。  
+3. `java -version` と `javac -version` で動作を確認します。
 
 ### Aspose.Note for Java
 
-1. Aspose.Note for Java の[ダウンロードページ](https://releases.aspose.com/note/java/)に移動します。  
-2. 最新のリリースアーカイブをダウンロードします。  
-3. JAR ファイルをプロジェクトが参照できるフォルダーに展開します。  
+1. Aspose.Note for Java の[download page](https://releases.aspose.com/note/java/)へ移動します。  
+2. 最新リリースのアーカイブをダウンロードします。  
+3. JAR ファイルをプロジェクトで参照できるフォルダーに展開します。
 
 ## パッケージのインポート
 
-まず、必要なクラスをインポートします。以下のブロックは元のチュートリアルと同じです：
+まず、必要なクラスをインポートします。以下のブロックは元のチュートリアルと同じです。
 
 ```java
 import java.io.ByteArrayInputStream;
@@ -65,43 +70,43 @@ import com.aspose.note.AttachedFile;
 import com.aspose.note.Document;
 ```
 
-> **プロのコツ:** これらのインポートはソースファイルの先頭にまとめておくと、将来の保守が容易になります。
+> **Pro tip:** Keep these imports together at the top of your source file to make future maintenance easier.
 
-## ステップバイステップガイド
+## ステップバイステップ ガイド
 
-### ステップ 1: ドキュメントディレクトリの定義
+### ステップ 1: ドキュメント ディレクトリの定義
 
-ソースの *.one* ファイルがマシン上のどこにあるかを指定します。
+ソースの *.one* ファイルが保存されている場所を指定します。
 
 ```java
 String dataDir = "Your Document Directory";
 ```
 
-`"Your Document Directory"` を、OneNote ファイルが含まれる絶対パスまたは相対パスに置き換えてください。
+`"Your Document Directory"` を、OneNote ファイルが格納されている絶対パスまたは相対パスに置き換えてください。
 
-### ステップ 2: ドキュメントのロード
+### ステップ 2: ドキュメントの読み込み
 
-`Document` インスタンスを作成し、OneNote ノートブックを表します。
+OneNote ノートブックを表す `Document` インスタンスを作成します。
 
 ```java
 Document doc = new Document(dataDir + "Sample1.one");
 ```
 
-> この行は OneNote ファイルを **取得**し、以降の処理のために準備します。
+> This line **retrieves** the OneNote file and prepares it for further processing.
 
 ### ステップ 3: 添付ファイルの一覧取得
 
-ドキュメントに含まれるすべての添付ファイル（画像、PDF など）を取得します。
+ドキュメントからすべての添付ファイル（画像、PDF など）を取得します。
 
 ```java
 List<AttachedFile> attachments = doc.getChildNodes(AttachedFile.class);
 ```
 
-返される `List` には `AttachedFile` オブジェクトが格納されており、各オブジェクトは単一の埋め込みリソースを表します。
+返される `List` には、単一の埋め込みリソースを表す `AttachedFile` オブジェクトが格納されます。
 
 ### ステップ 4: 添付ファイルの取得と保存
 
-コレクションを反復処理し、バイナリデータを抽出して各ファイルをディスクに書き込みます。
+コレクションを走査し、バイナリデータを抽出して各ファイルをディスクに書き出します。
 
 ```java
 for (AttachedFile a : attachments) {
@@ -116,38 +121,44 @@ for (AttachedFile a : attachments) {
 
 - `a.getBytes()` は添付ファイルの生バイト列を返します。  
 - `Utils.getPath(...)` は安全な出力先を構築します（任意の `Path` に置き換えても構いません）。  
-- ループは保存された各ファイルのフルパスを出力し、即時のフィードバックを提供します。
+- ループは保存された各ファイルのフルパスを出力し、即時フィードバックを提供します。
 
 ## よくある問題と解決策
 
 | Issue | Why it Happens | Fix |
 |-------|----------------|-----|
-| **添付ファイルが返されない** | ノートブックに添付ファイルが含まれていないか、別のページに保存されている可能性があります。 | OneNote でソース *.one* ファイルを手動で確認するか、ページ (`doc.getChildNodes(Page.class)`) を反復して添付ファイルを探してください。 |
-| **Windows の `AccessDeniedException`** | 出力フォルダーが読み取り専用であるか、管理者権限が必要です。 | 書き込み可能なディレクトリ（例: ユーザーの `Documents` フォルダー）を選択するか、適切な権限で JVM を実行してください。 |
-| **大きなファイルで OutOfMemoryError が発生** | 一度に大量の添付ファイルをメモリに読み込んでいるためです。 | `Files.newOutputStream` を使用してバイトを直接ファイルにストリームし、全バイト配列をロードしないようにしてください。 |
+| **No attachments returned** | The notebook may not contain any attached files or they are stored on a different page. | Verify the source *.one* file manually in OneNote, or iterate through pages (`doc.getChildNodes(Page.class)`) to locate attachments. |
+| **`AccessDeniedException` on Windows** | The output folder is read‑only or requires elevated permissions. | Choose a writable directory (e.g., user’s `Documents` folder) or run the JVM with appropriate rights. |
+| **Large files cause OutOfMemoryError** | Loading huge attachments into memory at once. | Stream the bytes directly to a file using `Files.newOutputStream` instead of loading the entire byte array. |
+
+## トラブルシューティングのヒントとプロのコツ
+
+- **Pro tip:** If you only need PDFs, filter the `attachments` list by checking `a.getFileName().toLowerCase().endsWith(".pdf")` before saving.  
+- **Tip:** Use a try‑with‑resources block for the `ByteArrayInputStream` to ensure the stream is closed automatically.  
+- **Pitfall:** Forgetting to update `dataDir` will cause a `FileNotFoundException`. Double‑check the path separator for your OS.
 
 ## よくある質問
 
-**Q1: パスワードで保護された OneNote ドキュメントから添付ファイルを取得できますか？**  
-A: Aspose.Note for Java は、ドキュメントのロード時に正しい認証情報を提供すれば、パスワード保護されたノートブックを開くことをサポートしています。
+**Q1: Can I retrieve attachments from password‑protected OneNote documents?**  
+A: Aspose.Note for Java supports opening password‑protected notebooks when you provide the correct credentials during document loading.
 
-**Q2: Aspose.Note for Java は複数の OneNote ファイルのバッチ処理をサポートしていますか？**  
-A: はい、コードを *.one* ファイルのリストを反復するループに入れれば、各ファイルから添付ファイルを抽出できます。
+**Q2: Does Aspose.Note for Java support batch processing of multiple OneNote files?**  
+A: Yes, you can place the code inside a loop that iterates over a list of *.one* files, extracting attachments from each one.
 
-**Q3: 取得できる添付ファイルのサイズや数に制限はありますか？**  
-A: API は大規模なノートブックを扱えるよう設計されていますが、実際の制限は JVM のヒープサイズと利用可能なディスク容量に依存します。
+**Q3: Is there a limit to the size or number of attachments that can be retrieved?**  
+A: The API is designed to handle large notebooks, but practical limits depend on your JVM heap size and available disk space.
 
-**Q4: 取得した添付ファイルの出力先やファイル名の規則をカスタマイズできますか？**  
-A: もちろんです。ループ内の `outputFile` と `outputPath` 変数を変更すれば、任意の命名規則やディレクトリ構造に合わせられます。
+**Q4: Can I customize the output location and file naming convention for retrieved attachments?**  
+A: Absolutely—modify the `outputFile` and `outputPath` variables in the loop to suit your naming scheme and directory structure.
 
-**Q5: Aspose.Note for Java は技術的な問題に対するサポートや支援を提供していますか？**  
-A: はい、開発者は Aspose.Note フォーラム（[https://forum.aspose.com/c/note/28](https://forum.aspose.com/c/note/28)）で包括的なサポートを受けられます。
+**Q5: Does Aspose.Note for Java provide support and assistance for technical issues?**  
+A: Yes, developers can access comprehensive support through the Aspose.Note forum at [https://forum.aspose.com/c/note/28](https://forum.aspose.com/c/note/28).
 
 ---
 
-**最終更新日:** 2025-12-31  
-**テスト環境:** Aspose.Note for Java 24.11  
-**作者:** Aspose  
+**Last Updated:** 2026-03-24  
+**Tested With:** Aspose.Note for Java 24.11  
+**Author:** Aspose  
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

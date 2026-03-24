@@ -1,5 +1,5 @@
 ---
-date: 2025-12-31
+date: 2026-03-24
 description: Tìm hiểu cách trích xuất tệp đính kèm OneNote bằng Java với Aspose.Note.
   Truy xuất các tệp từ tài liệu .one một cách nhanh chóng và đáng tin cậy.
 linktitle: Retrieve Attachment from OneNote using Java
@@ -17,43 +17,50 @@ weight: 12
 
 ## Giới thiệu
 
-Trong thời đại kỹ thuật số ngày nay, **cách trích xuất onenote** dữ liệu một cách thiết lập là một công thức phổ biến cho các nhà phát triển xây dựng các ứng dụng trung vào tài liệu. Aspose.Note for Java làm cho nhiệm vụ này trở nên đơn giản bằng cách cung cấp một API phong phú có thể đọc, thao tác và xuất nội dung từ các tệp Microsoft OneNote *.one* . Trong hướng dẫn này, bạn sẽ học cách lấy các tệp đính kèm tệp—như hình ảnh, PDF hoặc tài liệu Word—từ một cửa sổ OneNote bằng Java.
+Trong thời đại số hiện nay, **how to extract onenote** dữ liệu một cách lập trình là một thách thức phổ biến đối với các nhà phát triển xây dựng các ứng dụng tập trung vào tài liệu. Aspose.Note for Java làm cho nhiệm vụ này trở nên đơn giản bằng cách cung cấp một API phong phú có thể đọc, thao tác và xuất nội dung từ các tệp Microsoft OneNote *.one*. Trong hướng dẫn này, bạn sẽ học cách lấy các tệp đính kèm—như hình ảnh, PDF hoặc tài liệu Word—từ một sổ tay OneNote bằng Java, và bạn sẽ thấy cách **retrieve files from .one** sổ tay một cách hiệu quả.
 
-## Trả lời nhanh
-- **Thư viện tôi cần là gì?** Aspose.Note for Java
-- **Tôi có thể trích xuất tệp từ .one mà không cần giải nén thủ công không?** Có, API đọc định dạng .one trực tiếp.
-- **Tôi có cần giấy phép cho việc phát triển không?** Giấy phép đánh giá miễn phí hoạt động cho việc thử nghiệm; Giấy phép đầy đủ cần thiết cho sản phẩm môi trường.
-- **Phiên bản Java nào được hỗ trợ?** Java8 hoặc cao hơn.
-- **Xử lý hàng loạt có khả năng thi không?** Chắc chắn—lặp qua nhiều tài liệu bằng cùng một đoạn mã.
+## Câu trả lời nhanh
+- **Thư viện tôi cần là gì?** Aspose.Note for Java  
+- **Tôi có thể trích xuất tệp từ .one mà không cần giải nén thủ công không?** Có, API đọc định dạng .one trực tiếp.  
+- **Tôi có cần giấy phép cho việc phát triển không?** Giấy phép đánh giá miễn phí hoạt động cho việc thử nghiệm; giấy phép đầy đủ cần thiết cho môi trường sản xuất.  
+- **Phiên bản Java nào được hỗ trợ?** Java 8 hoặc cao hơn.  
+- **Xử lý hàng loạt có khả thi không?** Chắc chắn—lặp qua nhiều tài liệu bằng cùng một đoạn mã.
 
-## “làm thế nào để trích xuất onenote” là gì?
+## “how to extract onenote” là gì?
 
-Trích xuất nội dung OneNote có nghĩa là đọc một sổ tay *.one* một cách cài đặt trình duyệt và lấy ra các tài nguyên nhúng của nó (tệp đính kèm, hình ảnh, văn bản). Điều này cho phép các kịch bản tự động lưu trữ tài liệu, chuyển nội dung hoặc tùy chỉnh báo cáo.
+Việc trích xuất nội dung OneNote có nghĩa là đọc một sổ tay *.one* một cách lập trình và lấy ra các tài nguyên nhúng (tệp đính kèm, hình ảnh, văn bản). Điều này cho phép các kịch bản như lưu trữ tài liệu tự động, di chuyển nội dung, hoặc báo cáo tùy chỉnh.
 
-## Tại sao nên sử dụng Aspose.Note cho Java?
-- **Hỗ trợ đầy đủ định dạng** – Xử lý mọi thành phần của cấu trúc tệp OneNote.
-- **Không cần cài đặt Office** – Hoạt động trong môi trường không có giao diện như máy chủ hoặc CI đường dẫn.
-- **Sẵn sàng cho hàng loạt xử lý** – Xử lý chiến dịch hàng hóa trong một lần chạy với dung lượng bộ nhớ tối thiểu.
+## Tại sao nên trích xuất tệp đính kèm OneNote bằng Java?
 
-## Điều kiện tiên quyết
+- **Hỗ trợ đầy đủ định dạng** – Xử lý mọi thành phần của cấu trúc tệp OneNote, cho phép bạn **read .one file java** ứng dụng mà không cần phụ thuộc thêm.  
+- **Không cần cài đặt Office** – Hoạt động trong môi trường không giao diện như máy chủ hoặc pipeline CI.  
+- **Sẵn sàng xử lý hàng loạt** – Xử lý hàng chục sổ tay trong một lần chạy với mức tiêu thụ bộ nhớ tối thiểu.  
+- **Trích xuất PDF từ OneNote** – API cung cấp các PDF nhúng dưới dạng luồng byte thông thường, vì vậy bạn có thể lưu chúng ngay lập tức.
 
-Trước khi đi sâu vào mã, hãy đảm bảo những thứ sau đã sẵn sàng:
+## Các trường hợp sử dụng phổ biến
+- **Lưu trữ doanh nghiệp:** Lấy các tệp đính kèm từ ghi chú cuộc họp và lưu chúng vào hệ thống quản lý tài liệu.  
+- **Di chuyển nội dung:** Di chuyển tệp từ các sổ tay OneNote cũ sang SharePoint hoặc lưu trữ đám mây.  
+- **Báo cáo tự động:** Thu thập biểu đồ hoặc PDF nhúng trong ghi chú và đưa chúng vào báo cáo được tạo.
 
-### Bộ công cụ phát triển Java (JDK)
+## Yêu cầu trước
 
-1. Tải xuống JDK mới nhất từ ​​Oracle hoặc nhà phân phối OpenJDK.
-2. Thêm `bin` thư mục của JDK vào hệ thống `PATH` của bạn.
+Trước khi bắt đầu với mã, hãy chắc chắn rằng các mục sau đã sẵn sàng:
+
+### Java Development Kit (JDK)
+
+1. Tải JDK mới nhất từ Oracle hoặc nhà phân phối OpenJDK.  
+2. Thêm thư mục `bin` của JDK vào `PATH` hệ thống của bạn.  
 3. Xác minh bằng `java -version` và `javac -version`.
 
-### Aspose.Note cho Java
+### Aspose.Note for Java
 
-1. Đi tới [trang tải xuống](https://releases.aspose.com/note/java/) của Aspose.Note for Java.
-2. Tải xuống bản lưu trữ phát hành mới nhất.
-3. nén các JAR tệp giải thích vào một thư mục mà dự án của bạn có thể tham chiếu.
+1. Truy cập [trang tải xuống](https://releases.aspose.com/note/java/) của Aspose.Note for Java.  
+2. Tải xuống tệp lưu trữ phát hành mới nhất.  
+3. Giải nén các tệp JAR vào thư mục mà dự án của bạn có thể tham chiếu.
 
-## Nhập gói
+## Nhập các gói
 
-Để bắt đầu, hãy nhập các lớp bạn cần. Khối dưới đây không thay đổi so với hướng dẫn gốc:
+Để bắt đầu, nhập các lớp bạn sẽ cần. Khối bên dưới không thay đổi so với hướng dẫn gốc:
 
 ```java
 import java.io.ByteArrayInputStream;
@@ -66,13 +73,13 @@ import com.aspose.note.AttachedFile;
 import com.aspose.note.Document;
 ```
 
-> **Mẹ:** Giữ các mục nhập này giống nhau ở nguồn tệp đầu tiên của bạn để việc bảo trì trong tương lai dễ dàng hơn.
+> **Mẹo chuyên nghiệp:** Giữ các import này cùng nhau ở đầu tệp nguồn của bạn để việc bảo trì trong tương lai dễ dàng hơn.
 
 ## Hướng dẫn từng bước
 
-### Bước 1: Xác định thư mục tài liệu
+### Bước 1: Xác định Thư mục Tài liệu
 
-Xác định vị trí tệp *.one* nguồn trên máy của bạn.
+Xác định vị trí tệp *.one* nguồn nằm trên máy của bạn.
 
 ```java
 String dataDir = "Your Document Directory";
@@ -80,7 +87,7 @@ String dataDir = "Your Document Directory";
 
 Thay thế `"Your Document Directory"` bằng đường dẫn tuyệt đối hoặc tương đối chứa tệp OneNote của bạn.
 
-### Bước 2: Tải tài liệu
+### Bước 2: Tải Tài liệu
 
 Tạo một thể hiện `Document` đại diện cho sổ tay OneNote.
 
@@ -88,19 +95,19 @@ Tạo một thể hiện `Document` đại diện cho sổ tay OneNote.
 Document doc = new Document(dataDir + "Sample1.one");
 ```
 
-> Dòng này **lấy** tệp OneNote và chuẩn bị cho việc xử lý tiếp theo.
+> Dòng này **lấy** tệp OneNote và chuẩn bị nó cho việc xử lý tiếp theo.
 
-### Bước 3: Lấy danh sách tệp đính kèm
+### Bước 3: Lấy Danh sách Các Tệp Đính Kèm
 
-Yêu cầu tài liệu trả về tất cả các tệp đính kèm (hình ảnh, PDF, v.v.).
+Yêu cầu tài liệu cung cấp tất cả các tệp đính kèm (hình ảnh, PDF, v.v.).
 
 ```java
 List<AttachedFile> attachments = doc.getChildNodes(AttachedFile.class);
 ```
 
-Danh sách trả về chứa các đối tượng `AttachedFile`, mỗi đối tượng đại diện cho một tài nguyên nhúng duy nhất.
+`List` trả về chứa các đối tượng `AttachedFile`, mỗi đối tượng đại diện cho một tài nguyên nhúng duy nhất.
 
-### Bước 4: Truy xuất và lưu tệp đính kèm
+### Bước 4: Lấy và Lưu Các Tệp Đính Kèm
 
 Lặp qua bộ sưu tập, trích xuất dữ liệu nhị phân và ghi mỗi tệp ra đĩa.
 
@@ -116,38 +123,44 @@ for (AttachedFile a : attachments) {
 ```
 
 - `a.getBytes()` trả về các byte thô của tệp đính kèm.  
-- `Utils.getPath(...)` xây dựng vị trí đầu ra an toàn (bạn có thể thay thế bằng bất kỳ `Path` nào bạn muốn).  
+- `Utils.getPath(...)` tạo một vị trí đầu ra an toàn (bạn có thể thay thế bằng bất kỳ `Path` nào bạn muốn).  
 - Vòng lặp in ra đường dẫn đầy đủ của mỗi tệp đã lưu, cung cấp phản hồi ngay lập tức.
 
 ## Các vấn đề thường gặp & Giải pháp
 
-| Vấn đề | Tại sao nó xảy ra | Sửa chữa |
-|-------|-------|------|
-| **Không có tệp đính kèm nào được trả lại** | Sổ tay có thể không chứa bất kỳ tệp đính kèm nào hoặc chúng được lưu trên một trang khác. | Xác minh nguồn tệp *.one* bằng cách mở thủ công trong OneNote hoặc lặp qua các trang (`doc.getChildNodes(Page.class)`) để tìm tệp đính kèm tệp đính kèm. |
-| **`AccessDeniedException` trên Windows** | Đọc chỉ đầu thư mục hoặc yêu cầu nâng cao quyền. | Chọn thư mục có thể được ghi (ví dụ: thư mục `Documents` của người dùng) hoặc chạy JVM với quyền thích hợp. |
-| **Tệp lớn gây ra OutOfMemoryError** | Tải các tệp đính kèm vào bộ nhớ cùng một lúc. | Dòng dữ liệu trực tiếp tới tệp bằng `Files.newOutputStream` thay vì tải toàn bộ mảng byte. |
+| Issue | Why it Happens | Fix |
+|-------|----------------|-----|
+| **Không có tệp đính kèm nào được trả về** | Sổ tay có thể không chứa bất kỳ tệp đính kèm nào hoặc chúng được lưu trên một trang khác. | Xác minh tệp *.one* nguồn bằng cách mở thủ công trong OneNote, hoặc lặp qua các trang (`doc.getChildNodes(Page.class)`) để tìm tệp đính kèm. |
+| **`AccessDeniedException` trên Windows** | Thư mục đầu ra chỉ đọc hoặc yêu cầu quyền cao hơn. | Chọn một thư mục có thể ghi được (ví dụ, thư mục `Documents` của người dùng) hoặc chạy JVM với quyền thích hợp. |
+| **Các tệp lớn gây OutOfMemoryError** | Tải các tệp đính kèm lớn vào bộ nhớ cùng một lúc. | Luồng các byte trực tiếp tới tệp bằng `Files.newOutputStream` thay vì tải toàn bộ mảng byte. |
+
+## Mẹo khắc phục sự cố & Mẹo chuyên nghiệp
+
+- **Mẹo chuyên nghiệp:** Nếu bạn chỉ cần PDF, hãy lọc danh sách `attachments` bằng cách kiểm tra `a.getFileName().toLowerCase().endsWith(".pdf")` trước khi lưu.  
+- **Mẹo:** Sử dụng khối try‑with‑resources cho `ByteArrayInputStream` để đảm bảo luồng được đóng tự động.  
+- **Cạm bẫy:** Quên cập nhật `dataDir` sẽ gây ra `FileNotFoundException`. Kiểm tra lại dấu phân cách đường dẫn cho hệ điều hành của bạn.
 
 ## Câu hỏi thường gặp
 
-**Q1: ​​Tôi có thể lấy tệp đính kèm từ tài liệu OneNote được bảo mật bằng mật khẩu không?**
-Trả lời: Aspose.Note for Java support open window được bảo mật bằng mật khẩu khi bạn cung cấp thông tin xác thực chính xác trong quá trình tải tài liệu.
+**Q1: Tôi có thể lấy tệp đính kèm từ tài liệu OneNote được bảo mật bằng mật khẩu không?**  
+A: Aspose.Note for Java hỗ trợ mở sổ tay được bảo mật bằng mật khẩu khi bạn cung cấp thông tin xác thực đúng trong quá trình tải tài liệu.
 
-**Q2: Aspose.Note for Java có hỗ trợ xử lý hàng loạt tệp OneNote không?**
-Trả lời: Có, bạn có thể đặt đoạn mã trong một trình duyệt vòng lặp qua danh sách các tệp tệp *.one*, trích xuất tệp đính kèm từ mỗi tệp.
+**Q2: Aspose.Note cho Java có hỗ trợ xử lý hàng loạt nhiều tệp OneNote không?**  
+A: Có, bạn có thể đặt đoạn mã trong một vòng lặp duyệt qua danh sách các tệp *.one*, trích xuất tệp đính kèm từ mỗi tệp.
 
-**Q3: Có giới hạn nào về kích thước hoặc số lượng tệp đính kèm đính kèm có thể được trích xuất không?**
-Trả lời: API được thiết kế để xử lý phần lớn cửa sổ, nhưng giới hạn thực tế phụ thuộc vào heap kích thước của JVM và không có khả năng đĩa trống.
+**Q3: Có giới hạn về kích thước hoặc số lượng tệp đính kèm có thể được trích xuất không?**  
+A: API được thiết kế để xử lý sổ tay lớn, nhưng giới hạn thực tế phụ thuộc vào kích thước heap của JVM và không gian đĩa khả dụng.
 
-**Q4: Tôi có thể tùy chỉnh vị trí đầu ra và quy tắc đặt tên cho các tệp đính kèm được trích xuất không?**
-Trả lời: Chắc chắn— sửa đổi các biến `outputFile` và `outputPath` trong vòng lặp để phù hợp với quy tắc đặt tên và thư mục cấu trúc của bạn.
+**Q4: Tôi có thể tùy chỉnh vị trí đầu ra và quy tắc đặt tên tệp cho các tệp đính kèm đã lấy không?**  
+A: Chắc chắn—sửa đổi các biến `outputFile` và `outputPath` trong vòng lặp để phù hợp với quy tắc đặt tên và cấu trúc thư mục của bạn.
 
-**Q5: Aspose.Note for Java có cung cấp hỗ trợ và trợ giúp cho các vấn đề kỹ thuật không?**
-Trả lời: Có, các nhà phát triển có thể truy cập hỗ trợ toàn diện qua diễn đàn Aspose.Note tại [https://forum.aspose.com/c/note/28](https://forum.aspose.com/c/note/28).
+**Q5: Aspose.Note cho Java có cung cấp hỗ trợ và trợ giúp cho các vấn đề kỹ thuật không?**  
+A: Có, các nhà phát triển có thể truy cập hỗ trợ toàn diện qua diễn đàn Aspose.Note tại [https://forum.aspose.com/c/note/28](https://forum.aspose.com/c/note/28).
 
 ---
 
-**Cập nhật lần cuối:** 2025-12-31
-**Đã kiểm tra:** Aspose.Note for Java 24.11
+**Cập nhật lần cuối:** 2026-03-24  
+**Kiểm thử với:** Aspose.Note for Java 24.11  
 **Tác giả:** Aspose  
 
 {{< /blocks/products/pf/tutorial-page-section >}}
