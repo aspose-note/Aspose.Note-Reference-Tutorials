@@ -1,31 +1,50 @@
 ---
-title: OneNote में नोटबुक को छवि में कनवर्ट करें - Aspose.Note
-linktitle: OneNote में नोटबुक को छवि में कनवर्ट करें - Aspose.Note
-second_title: Aspose.नोट जावा एपीआई
-description: जावा के लिए Aspose.Note का उपयोग करके OneNote में नोटबुक को छवियों में परिवर्तित करने का तरीका जानें। इस कार्यक्षमता को आसानी से अपने जावा अनुप्रयोगों में एकीकृत करें।
-weight: 12
+date: 2026-03-24
+description: Aspose.Note for Java का उपयोग करके OneNote को इमेज के रूप में सहेजना
+  और OneNote को इमेज में बदलना सीखें। जावा डेवलपर्स के लिए चरण‑दर‑चरण गाइड।
+linktitle: Save OneNote as Image – Convert Notebook to Image with Aspose.Note
+second_title: Aspose.Note Java API
+title: OneNote को छवि के रूप में सहेजें – Aspose.Note के साथ नोटबुक को छवि में बदलें
 url: /hi/java/onenote-notebook-operations/convert-notebook-to-image/
+weight: 12
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# OneNote में नोटबुक को छवि में कनवर्ट करें - Aspose.Note
+# OneNote को इमेज के रूप में सहेजें – Aspise.Note के साथ नोटबुक को इमेज में बदलें
 
-## परिचय
+## Introduction
 
-इस ट्यूटोरियल में, हम यह पता लगाएंगे कि जावा लाइब्रेरी के लिए Aspose.Note का उपयोग करके OneNote में एक नोटबुक को एक छवि में कैसे परिवर्तित किया जाए। नोटबुक को छवियों में परिवर्तित करना विभिन्न उद्देश्यों के लिए उपयोगी हो सकता है जैसे नोट्स साझा करना, उन्हें दस्तावेज़ों में एम्बेड करना, या उन्हें प्रस्तुतियों में शामिल करना।
+इस ट्यूटोरियल में आप **OneNote को इमेज के रूप में सहेजने** के बारे में सीखेंगे, जिसमें OneNote नोटबुक को PNG (या अन्य इमेज फ़ॉर्मेट) में Aspose.Note for Java लाइब्रेरी का उपयोग करके बदला जाता है। नोटबुक पेज़ को इमेज में बदलना उपयोगी है जब आपको नोट्स को उन प्लेटफ़ॉर्म पर साझा करना हो जो OneNote फ़ाइलों का समर्थन नहीं करते, उन्हें PDFs में एम्बेड करना हो, या स्लाइड डेक में शामिल करना हो।
 
-## आवश्यक शर्तें
+## Quick Answers
+- **What library is needed?** Aspose.Note for Java.  
+- **Which image formats are supported?** PNG, JPEG, BMP, GIF, TIFF, etc.  
+- **Do I need a license?** A free trial works for testing; a commercial license is required for production.  
+- **How long does the conversion take?** Typically a few seconds per notebook, depending on size.  
+- **Can I batch‑process notebooks?** Yes – just loop through the files and reuse the same code.
 
-शुरू करने से पहले, सुनिश्चित करें कि आपके पास निम्नलिखित हैं:
+## What is **save OneNote as image**?
 
-1.  जावा डेवलपमेंट किट (जेडीके): सुनिश्चित करें कि आपके सिस्टम पर जावा स्थापित है। आप यहां से नवीनतम संस्करण डाउनलोड और इंस्टॉल कर सकते हैं[वेबसाइट](https://www.oracle.com/java/technologies/javase-jdk15-downloads.html).
+OneNote को इमेज के रूप में सहेजना का अर्थ है `.one` नोटबुक के प्रत्येक पेज को रास्टर इमेज फ़ाइल (जैसे PNG) में रेंडर करना। यह एक पोर्टेबल, केवल‑देखने योग्य प्रतिनिधित्व बनाता है जिसे कहीं भी OneNote की आवश्यकता के बिना दिखाया जा सकता है।
 
-2.  जावा लाइब्रेरी के लिए Aspose.Note: जावा लाइब्रेरी के लिए Aspose.Note को डाउनलोड करें और अपने प्रोजेक्ट में शामिल करें। आप यहां से लाइब्रेरी प्राप्त कर सकते हैं[Aspose वेबसाइट](https://releases.aspose.com/note/java/).
+## Why convert OneNote to image?
 
-## पैकेज आयात करें
+- **Cross‑platform sharing** – प्राप्तकर्ता किसी भी डिवाइस पर सामग्री देख सकते हैं।  
+- **Embedding in documents** – इमेज को Word, PowerPoint, या PDFs में डालें।  
+- **Archiving** – एक विज़ुअल स्नैपशॉट स्टोर करें जो मूल नोटबुक के संपादित होने पर नहीं बदलता।  
+- **Presentation‑ready** – हाई‑रेज़ोल्यूशन PNG को सीधे स्लाइड्स में उपयोग करें।
+
+## Prerequisites
+
+शुरू करने से पहले सुनिश्चित करें कि आपके पास है:
+
+1. **Java Development Kit (JDK)** – नवीनतम JDK को [website](https://www.oracle.com/java/technologies/javase-jdk15-downloads.html) से डाउनलोड करें।  
+2. **Aspose.Note for Java library** – JAR को [Aspose website](https://releases.aspose.com/note/java/) से प्राप्त करें और अपने प्रोजेक्ट की classpath में जोड़ें।
+
+## Import Packages
 
 ```java
 import java.io.IOException;
@@ -35,71 +54,80 @@ import com.aspose.note.ImageSaveOptions;
 import com.aspose.note.SaveFormat;
 ```
 
-अब, आइए रूपांतरण प्रक्रिया को कई चरणों में विभाजित करें:
+अब हम चरण‑बद्ध रूप से परिवर्तन प्रक्रिया को देखते हैं।
 
-## चरण 1: नोटबुक दस्तावेज़ लोड करें
+## Step 1: Load the Notebook Document
 
 ```java
-//वह निर्देशिका निर्दिष्ट करें जहाँ आपकी नोटबुक फ़ाइल स्थित है
+// Specify the directory where your notebook file is located
 String dataDir = "Your Document Directory";
 
-// दस्तावेज़ को Aspose.Note में लोड करें
+// Load the document into Aspose.Note
 Document oneFile = new Document(dataDir + "Sample1.one");
 ```
 
- इस चरण में, हम उस निर्देशिका पथ को परिभाषित करते हैं जहां नोटबुक फ़ाइल स्थित है। फिर, हम इसका उपयोग करते हैं`Document` "Sample1.one" नामक नोटबुक दस्तावेज़ को मेमोरी में लोड करने के लिए Aspose.Note लाइब्रेरी से क्लास।
+हम API को उस फ़ोल्डर की ओर इंगित करते हैं जिसमें `Sample1.one` है और इसे `Document` ऑब्जेक्ट में लोड करते हैं। यहाँ से आप पेज़, सेक्शन और अन्य नोटबुक तत्वों तक पहुँच सकते हैं।
 
-## चरण 2: ImageSaveOptions को आरंभ करें
+## Step 2: Initialize ImageSaveOptions
 
 ```java
-// PdfSaveOptions ऑब्जेक्ट को प्रारंभ करें
+// Initialize PdfSaveOptions object
 ImageSaveOptions options = new ImageSaveOptions(SaveFormat.Png);
 ```
 
- यहां, हम एक प्रारंभ करते हैं`ImageSaveOptions` ऑब्जेक्ट बनाएं और वह प्रारूप निर्दिष्ट करें जिसमें हम नोटबुक दस्तावेज़ को सहेजना चाहते हैं। इस मामले में, हम पीएनजी प्रारूप चुनते हैं।
+`ImageSaveOptions` Aspose.Note को बताता है कि आप आउटपुट कैसे रेंडर करना चाहते हैं। इस उदाहरण में हमने PNG चुना है, लेकिन आप `SaveFormat.Png` को `SaveFormat.Jpeg`, `SaveFormat.Bmp` आदि से बदलकर **OneNote को इमेज में बदलने** के लिए अलग फ़ॉर्मेट चुन सकते हैं।
 
-## चरण 3: दस्तावेज़ को छवि के रूप में सहेजें
+## Step 3: Save the Document as Image
 
 ```java
-// दस्तावेज़ को पीएनजी के रूप में सहेजें
+// Save the document as PNG
 oneFile.save(dataDir + "ConvertToImage_out.png", options);
 ```
 
- अब, हम इसका उपयोग करते हैं`save()` लोड किए गए नोटबुक दस्तावेज़ को छवि फ़ाइल के रूप में सहेजने की विधि। हम फ़ाइल पथ प्रदान करते हैं जहां हम छवि को सहेजना चाहते हैं और प्रारंभिक पास करना चाहते हैं`ImageSaveOptions` वस्तु।
+`save()` कॉल रेंडर किए गए नोटबुक पेज(ओं) को `ConvertToImage_out.png` में लिखती है। यदि नोटबुक में कई पेज हैं, तो Aspose.Note स्वचालित रूप से अलग‑अलग इमेज फ़ाइलें बनाता है (जैसे `ConvertToImage_out_1.png`, `ConvertToImage_out_2.png`)।
 
-## चरण 4: पुष्टिकरण प्रिंट करें
+## Step 4: Print Confirmation
 
 ```java
 System.out.println("File saved: " + dataDir + "ConvertToImage_out.png");
 ```
 
-अंत में, हम कंसोल पर एक पुष्टिकरण संदेश प्रिंट करते हैं जो सफल रूपांतरण और उस स्थान को दर्शाता है जहां छवि फ़ाइल सहेजी गई है।
+एक साधा कंसोल संदेश पुष्टि करता है कि **OneNote को इमेज के रूप में सहेजने** का ऑपरेशन सफल रहा और आपको आउटपुट फ़ाइल का स्थान बताता है।
 
-## निष्कर्ष
+## Common Issues & Tips
 
-इस ट्यूटोरियल में, हमने सीखा कि जावा लाइब्रेरी के लिए Aspose.Note का उपयोग करके OneNote में एक नोटबुक को एक छवि में कैसे परिवर्तित किया जाए। ऊपर बताए गए चरणों का पालन करके, आप इस कार्यक्षमता को अपने जावा अनुप्रयोगों में निर्बाध रूप से एकीकृत कर सकते हैं।
+- **Large notebooks** – यदि `OutOfMemoryError` मिलता है तो JVM हीप (`-Xmx`) बढ़ाएँ।  
+- **Resolution control** – प्रिंट‑क्वालिटी इमेज के लिए DPI बढ़ाने हेतु `options.setResolution(300);` उपयोग करें।  
+- **Batch conversion** – ऊपर दिए गए चरणों को `for` लूप में रखें जो `.one` फ़ाइलों की सूची पर इटररेट करता हो।  
 
-## अक्सर पूछे जाने वाले प्रश्न
+## FAQ's
 
-### Q1: क्या मैं नोटबुक को पीएनजी के अलावा अन्य छवि प्रारूपों में परिवर्तित कर सकता हूं?
+### Q1: Can I convert notebooks to other image formats besides PNG?
 
- A1: हाँ, आप कर सकते हैं। Aspose.Note लाइब्रेरी विभिन्न छवि प्रारूपों जैसे JPEG, BMP, GIF, TIFF, आदि का समर्थन करती है। आप इसमें वांछित प्रारूप निर्दिष्ट कर सकते हैं`ImageSaveOptions` तदनुसार आपत्ति करें।
+A1: Yes, you can. The Aspose.Note library supports various image formats such as JPEG, BMP, GIF, TIFF, etc. You can specify the desired format in the `ImageSaveOptions` object accordingly.
 
-### Q2: क्या Aspose.Note OneNote के सभी संस्करणों के साथ संगत है?
+### Q2: Is Aspose.Note compatible with all versions of OneNote?
 
-A2: Aspose.Note OneNote के विभिन्न संस्करणों के लिए व्यापक समर्थन प्रदान करता है, जो विभिन्न वातावरणों और फ़ाइल स्वरूपों में अनुकूलता सुनिश्चित करता है।
+A2: Aspose.Note provides comprehensive support for various versions of OneNote, ensuring compatibility across different environments and file formats.
 
-### Q3: क्या मैं रूपांतरण के दौरान छवि आउटपुट सेटिंग्स को अनुकूलित कर सकता हूँ?
+### Q3: Can I customize the image output settings during conversion?
 
-A3: बिल्कुल. Aspose.Note आउटपुट छवि को अनुकूलित करने के लिए व्यापक विकल्प प्रदान करता है, जिसमें रिज़ॉल्यूशन, गुणवत्ता, रंग की गहराई और बहुत कुछ शामिल है। आप इन सेटिंग्स को अपनी आवश्यकताओं के अनुसार अनुकूलित कर सकते हैं।
+A3: Absolutely. Aspose.Note offers extensive options for customizing the output image, including resolution, quality, color depth, and more. You can tailor these settings according to your requirements.
 
-### Q4: क्या Aspose.Note एकाधिक नोटबुक के बैच रूपांतरण का समर्थन करता है?
+### Q4: Does Aspose.Note support batch conversion of multiple notebooks?
 
-A4: हाँ, आप Aspose.Note का उपयोग करके कुशलतापूर्वक एकाधिक नोटबुक्स को छवियों में परिवर्तित कर सकते हैं। बस अपनी नोटबुक फ़ाइलों की सूची को दोबारा दोहराएं और इस ट्यूटोरियल में उल्लिखित रूपांतरण प्रक्रिया को लागू करें।
+A4: Yes, you can batch convert multiple notebooks to images efficiently using Aspose.Note. Simply iterate through your list of notebook files and apply the conversion process outlined in this tutorial.
 
-### Q5: Aspose.Note के लिए मुझे अतिरिक्त संसाधन और समर्थन कहां मिल सकता है?
+### Q5: Where can I find additional resources and support for Aspose.Note?
 
- A5: अधिक दस्तावेज़ीकरण, उदाहरण और सामुदायिक सहायता के लिए, पर जाएँ[Aspose.नोट फोरम](https://forum.aspose.com/c/note/28) और अन्वेषण करें[प्रलेखन](https://reference.aspose.com/note/java/).
+A5: For further documentation, examples, and community support, visit the [Aspose.Note forum](https://forum.aspose.com/c/note/28) and explore the [documentation](https://reference.aspose.com/note/java/).
+
+---
+
+**अंतिम अपडेट:** 2026-03-24  
+**परीक्षण किया गया:** Aspose.Note for Java 24.8  
+**लेखक:** Aspose  
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

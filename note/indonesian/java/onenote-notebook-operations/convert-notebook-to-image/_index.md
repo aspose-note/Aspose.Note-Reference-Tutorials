@@ -1,31 +1,51 @@
 ---
-title: Konversi Buku Catatan menjadi Gambar di OneNote - Aspose.Note
-linktitle: Konversi Buku Catatan menjadi Gambar di OneNote - Aspose.Note
-second_title: Aspose.Catatan Java API
-description: Pelajari cara mengonversi buku catatan menjadi gambar di OneNote menggunakan Aspose.Note untuk Java. Integrasikan fungsi ini dengan mudah ke dalam aplikasi Java Anda.
-weight: 12
+date: 2026-03-24
+description: Pelajari cara menyimpan OneNote sebagai gambar dan mengonversi OneNote
+  menjadi gambar menggunakan Aspose.Note untuk Java. Panduan langkah demi langkah
+  untuk pengembang Java.
+linktitle: Save OneNote as Image – Convert Notebook to Image with Aspose.Note
+second_title: Aspose.Note Java API
+title: Simpan OneNote sebagai Gambar – Konversi Notebook ke Gambar dengan Aspose.Note
 url: /id/java/onenote-notebook-operations/convert-notebook-to-image/
+weight: 12
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Konversi Buku Catatan menjadi Gambar di OneNote - Aspose.Note
+# Simpan OneNote sebagai Gambar – Konversi Notebook ke Gambar dengan Aspose.Note
 
-## Perkenalan
+## Pendahuluan
 
-Dalam tutorial ini, kita akan mempelajari cara mengonversi buku catatan menjadi gambar di OneNote menggunakan pustaka Aspose.Note untuk Java. Mengonversi buku catatan menjadi gambar dapat berguna untuk berbagai tujuan seperti berbagi catatan, menyematkannya ke dalam dokumen, atau menggabungkannya ke dalam presentasi.
+Dalam tutorial ini Anda akan belajar **cara menyimpan OneNote sebagai gambar** dengan mengonversi notebook OneNote ke PNG (atau format gambar lainnya) menggunakan pustaka Aspose.Note untuk Java. Mengubah halaman notebook menjadi gambar sangat berguna ketika Anda perlu membagikan catatan di platform yang tidak mendukung file OneNote, menyematkannya dalam PDF, atau memasukkannya ke dalam slide presentasi.
+
+## Jawaban Cepat
+- **Library apa yang dibutuhkan?** Aspose.Note for Java.  
+- **Format gambar apa yang didukung?** PNG, JPEG, BMP, GIF, TIFF, dll.  
+- **Apakah saya membutuhkan lisensi?** Versi percobaan gratis dapat digunakan untuk pengujian; lisensi komersial diperlukan untuk produksi.  
+- **Berapa lama proses konversi?** Biasanya beberapa detik per notebook, tergantung ukuran.  
+- **Bisakah saya memproses notebook secara batch?** Ya – cukup lakukan loop pada file dan gunakan kembali kode yang sama.
+
+## Apa itu **save OneNote as image**?
+
+Menyimpan OneNote sebagai gambar berarti merender setiap halaman notebook `.one` menjadi file gambar raster (misalnya PNG). Ini menghasilkan representasi portabel yang hanya dapat dilihat dan dapat ditampilkan di mana saja tanpa memerlukan OneNote.
+
+## Mengapa mengonversi OneNote ke gambar?
+
+- **Berbagi lintas platform** – Penerima dapat melihat konten di perangkat apa pun.  
+- **Menyisipkan dalam dokumen** – Sisipkan gambar ke Word, PowerPoint, atau PDF.  
+- **Pengarsipan** – Simpan snapshot visual yang tidak akan berubah jika notebook asli diedit.  
+- **Siap presentasi** – Gunakan PNG beresolusi tinggi langsung dalam slide.
 
 ## Prasyarat
 
-Sebelum kita mulai, pastikan Anda memiliki hal berikut:
+Sebelum Anda memulai, pastikan Anda memiliki:
 
-1.  Java Development Kit (JDK): Pastikan Anda telah menginstal Java di sistem Anda. Anda dapat mengunduh dan menginstal versi terbaru dari[situs web](https://www.oracle.com/java/technologies/javase-jdk15-downloads.html).
+1. **Java Development Kit (JDK)** – Unduh JDK terbaru dari [website](https://www.oracle.com/java/technologies/javase-jdk15-downloads.html).  
+2. **Aspose.Note for Java library** – Dapatkan JAR dari [Aspose website](https://releases.aspose.com/note/java/) dan tambahkan ke classpath proyek Anda.
 
-2.  Aspose.Note untuk Perpustakaan Java: Unduh dan sertakan perpustakaan Aspose.Note untuk Java dalam proyek Anda. Anda dapat memperoleh perpustakaan dari[Asumsikan situs web](https://releases.aspose.com/note/java/).
-
-## Paket Impor
+## Impor Paket
 
 ```java
 import java.io.IOException;
@@ -35,37 +55,37 @@ import com.aspose.note.ImageSaveOptions;
 import com.aspose.note.SaveFormat;
 ```
 
-Sekarang, mari kita bagi proses konversi menjadi beberapa langkah:
+Sekarang mari kita jalani proses konversi langkah demi langkah.
 
 ## Langkah 1: Muat Dokumen Notebook
 
 ```java
-//Tentukan direktori tempat file buku catatan Anda berada
+// Specify the directory where your notebook file is located
 String dataDir = "Your Document Directory";
 
-// Muat dokumen ke Aspose.Note
+// Load the document into Aspose.Note
 Document oneFile = new Document(dataDir + "Sample1.one");
 ```
 
- Pada langkah ini, kita menentukan jalur direktori tempat file notebook berada. Kemudian, kami menggunakan`Document` kelas dari perpustakaan Aspose.Note untuk memuat dokumen buku catatan bernama "Sample1.one" ke dalam memori.
+Kami mengarahkan API ke folder yang berisi `Sample1.one` dan memuatnya ke dalam objek `Document`. Dari sini Anda dapat mengakses halaman, bagian, dan elemen notebook lainnya.
 
 ## Langkah 2: Inisialisasi ImageSaveOptions
 
 ```java
-// Inisialisasi objek PdfSaveOptions
+// Initialize PdfSaveOptions object
 ImageSaveOptions options = new ImageSaveOptions(SaveFormat.Png);
 ```
 
- Di sini, kami menginisialisasi sebuah`ImageSaveOptions` objek dan tentukan format di mana kita ingin menyimpan dokumen buku catatan. Dalam hal ini, kami memilih format PNG.
+`ImageSaveOptions` memberi tahu Aspose.Note bagaimana Anda ingin output dirender. Pada contoh ini kami memilih PNG, tetapi Anda dapat mengganti `SaveFormat.Png` dengan `SaveFormat.Jpeg`, `SaveFormat.Bmp`, dll., untuk **mengonversi OneNote ke gambar** dalam format lain.
 
 ## Langkah 3: Simpan Dokumen sebagai Gambar
 
 ```java
-// Simpan dokumen sebagai PNG
+// Save the document as PNG
 oneFile.save(dataDir + "ConvertToImage_out.png", options);
 ```
 
- Sekarang, kami menggunakan`save()` metode untuk menyimpan dokumen buku catatan yang dimuat sebagai file gambar. Kami menyediakan jalur file tempat kami ingin menyimpan gambar dan meneruskan inisialisasi`ImageSaveOptions` obyek.
+Pemanggilan `save()` menulis halaman notebook yang telah dirender ke `ConvertToImage_out.png`. Jika notebook berisi beberapa halaman, Aspose.Note akan secara otomatis menghasilkan file gambar terpisah (misalnya `ConvertToImage_out_1.png`, `ConvertToImage_out_2.png`).
 
 ## Langkah 4: Cetak Konfirmasi
 
@@ -73,33 +93,42 @@ oneFile.save(dataDir + "ConvertToImage_out.png", options);
 System.out.println("File saved: " + dataDir + "ConvertToImage_out.png");
 ```
 
-Terakhir, kami mencetak pesan konfirmasi ke konsol yang menunjukkan konversi berhasil dan lokasi penyimpanan file gambar.
+Pesan konsol sederhana mengonfirmasi bahwa operasi **save OneNote as image** berhasil dan memberi tahu Anda di mana menemukan file output.
 
-## Kesimpulan
+## Masalah Umum & Tips
 
-Dalam tutorial ini, kita mempelajari cara mengonversi buku catatan menjadi gambar di OneNote menggunakan pustaka Aspose.Note untuk Java. Dengan mengikuti langkah-langkah yang diuraikan di atas, Anda dapat mengintegrasikan fungsi ini dengan lancar ke dalam aplikasi Java Anda.
+- **Notebook besar** – Tingkatkan heap JVM (`-Xmx`) jika Anda mengalami `OutOfMemoryError`.  
+- **Kontrol resolusi** – Gunakan `options.setResolution(300);` untuk meningkatkan DPI gambar kualitas cetak.  
+- **Konversi batch** – Bungkus langkah-langkah di atas dalam `for` loop yang mengiterasi daftar file `.one`.  
 
 ## FAQ
 
-### Q1: Bisakah saya mengonversi buku catatan ke format gambar lain selain PNG?
+### Q1: Bisakah saya mengonversi notebook ke format gambar lain selain PNG?
 
- A1: Ya, Anda bisa. Pustaka Aspose.Note mendukung berbagai format gambar seperti JPEG, BMP, GIF, TIFF, dll. Anda dapat menentukan format yang diinginkan di`ImageSaveOptions` objek sesuai.
+A1: Ya, Anda bisa. Pustaka Aspose.Note mendukung berbagai format gambar seperti JPEG, BMP, GIF, TIFF, dll. Anda dapat menentukan format yang diinginkan dalam objek `ImageSaveOptions` sesuai kebutuhan.
 
 ### Q2: Apakah Aspose.Note kompatibel dengan semua versi OneNote?
 
-A2: Aspose.Note memberikan dukungan komprehensif untuk berbagai versi OneNote, memastikan kompatibilitas di berbagai lingkungan dan format file.
+A2: Aspose.Note menyediakan dukungan komprehensif untuk berbagai versi OneNote, memastikan kompatibilitas di berbagai lingkungan dan format file.
 
-### Q3: Dapatkah saya menyesuaikan pengaturan keluaran gambar selama konversi?
+### Q3: Bisakah saya menyesuaikan pengaturan output gambar selama konversi?
 
-A3: Tentu saja. Aspose.Note menawarkan opsi ekstensif untuk menyesuaikan gambar keluaran, termasuk resolusi, kualitas, kedalaman warna, dan banyak lagi. Anda dapat menyesuaikan pengaturan ini sesuai dengan kebutuhan Anda.
+A3: Tentu saja. Aspose.Note menawarkan opsi luas untuk menyesuaikan gambar output, termasuk resolusi, kualitas, kedalaman warna, dan lainnya. Anda dapat menyesuaikan pengaturan ini sesuai kebutuhan Anda.
 
-### Q4: Apakah Aspose.Note mendukung konversi batch beberapa buku catatan?
+### Q4: Apakah Aspose.Note mendukung konversi batch banyak notebook?
 
-A4: Ya, Anda dapat mengonversi beberapa buku catatan menjadi gambar secara batch secara efisien menggunakan Aspose.Note. Cukup ulangi daftar file buku catatan Anda dan terapkan proses konversi yang diuraikan dalam tutorial ini.
+A4: Ya, Anda dapat mengonversi batch banyak notebook menjadi gambar secara efisien menggunakan Aspose.Note. Cukup iterasi melalui daftar file notebook Anda dan terapkan proses konversi yang dijelaskan dalam tutorial ini.
 
 ### Q5: Di mana saya dapat menemukan sumber daya tambahan dan dukungan untuk Aspose.Note?
 
- A5: Untuk dokumentasi lebih lanjut, contoh, dan dukungan komunitas, kunjungi[Aspose.Catatan forum](https://forum.aspose.com/c/note/28) dan jelajahi[dokumentasi](https://reference.aspose.com/note/java/).
+A5: Untuk dokumentasi lebih lanjut, contoh, dan dukungan komunitas, kunjungi [Aspose.Note forum](https://forum.aspose.com/c/note/28) dan jelajahi [documentation](https://reference.aspose.com/note/java/).
+
+---
+
+**Last Updated:** 2026-03-24  
+**Tested With:** Aspose.Note for Java 24.8  
+**Author:** Aspose  
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

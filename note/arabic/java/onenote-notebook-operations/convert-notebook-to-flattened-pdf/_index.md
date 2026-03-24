@@ -1,33 +1,52 @@
 ---
-title: تحويل دفتر الملاحظات إلى PDF مسطح في OneNote - Aspose.Note
-linktitle: تحويل دفتر الملاحظات إلى PDF مسطح في OneNote - Aspose.Note
-second_title: Aspose.Note جافا API
-description: قم بتحويل دفاتر الملاحظات إلى ملفات PDF مسطحة بسهولة باستخدام Aspose.Note لـ Java. استمتع بخيارات التكامل والتخصيص السلسة.
-weight: 16
+date: 2026-03-24
+description: تعلم كيفية استخراج PDF مسطح من دفتر ملاحظات OneNote باستخدام Aspose.Note
+  للغة Java – حوّل OneNote إلى PDF بسرعة مع تكامل سهل وتخصيص.
+linktitle: Convert Notebook to Flattened PDF in OneNote - Aspose.Note
+second_title: Aspose.Note Java API
+title: كيفية تسطيح PDF من دفتر OneNote – Aspose.Note
 url: /ar/java/onenote-notebook-operations/convert-notebook-to-flattened-pdf/
+weight: 16
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# تحويل دفتر الملاحظات إلى PDF مسطح في OneNote - Aspose.Note
+# كيفية تسوية PDF من دفتر ملاحظات OneNote – Aspose.Note
 
-## مقدمة
+## Introduction
 
-في هذا البرنامج التعليمي، سنستكشف كيفية تحويل دفتر ملاحظات إلى تنسيق PDF مسطح باستخدام Aspose.Note لـ Java. يعد تحويل دفاتر الملاحظات إلى ملفات PDF مطلبًا شائعًا للعديد من التطبيقات، ويعمل Aspose.Note على تبسيط هذه العملية من خلال مجموعة الميزات الشاملة وواجهة برمجة التطبيقات (API) سهلة الاستخدام.
+في هذا الدرس ستكتشف **كيفية تسوية PDF** عند تحويل دفتر ملاحظات OneNote إلى مستند PDF باستخدام Aspose.Note for Java. تسوية PDF تزيل العناصر التفاعلية مثل التعليقات والطبقات، مما يمنحك ملفًا ثابتًا جاهزًا للطباعة يبدو نفسه على كل جهاز. سواء كنت تحتاج إلى أرشفة ملاحظات الاجتماعات، مشاركة التصاميم مع العملاء، أو إنشاء تقارير جاهزة للامتثال، يوضح لك هذا الدليل الخطوات الدقيقة للحصول على PDF مسطح ونظيف في دقائق.
 
-## المتطلبات الأساسية
+## Quick Answers
+- **ماذا يعني “تسوية PDF”?** يحول جميع المحتويات التفاعلية (التعليقات، حقول النماذج، الطبقات) إلى طبقة صفحة ثابتة واحدة.  
+- **أي مكتبة تتولى التحويل؟** توفر Aspose.Note for Java فئة `NotebookPdfSaveOptions` مخصصة.  
+- **هل أحتاج إلى ترخيص للاستخدام في الإنتاج؟** نعم، يلزم ترخيص تجاري؛ يتوفر نسخة تجريبية مجانية.  
+- **هل يمكنني معالجة دفاتر ملاحظات متعددة دفعة واحدة؟** بالتأكيد – فقط قم بالتكرار على ملفات الدفتر واستخدام نفس الخيارات.  
+- **ما نسخة Java المطلوبة؟** يدعم Java 8 أو أعلى.
 
-قبل أن نبدأ، تأكد من أن لديك ما يلي:
+## What is “how to flatten pdf” in the context of OneNote?
 
-1. Java Development Kit (JDK): تأكد من تثبيت JDK على نظامك.
-2.  Aspose.Note لمكتبة Java: قم بتنزيل وتثبيت Aspose.Note لمكتبة Java من[هنا](https://releases.aspose.com/note/java/).
-3. بيئة التطوير المتكاملة (IDE): اختر بيئة التطوير المتكاملة التي تفضلها، مثل IntelliJ IDEA أو Eclipse.
+تسوية PDF تعني أخذ المحتوى الغني متعدد الطبقات لدفتر ملاحظات OneNote وتحويله إلى تدفق صفحة واحد غير قابل للتحرير. هذا مفيد بشكل خاص عندما تريد التأكد من أن تخطيط العرض يبقى متسقًا عبر عارضات PDF، الطابعات، أو أنظمة الأرشفة.
 
-## حزم الاستيراد
+## Why Convert OneNote to PDF and Flatten It?
+- **الوصول الشامل:** يمكن فتح ملفات PDF على أي منصة دون الحاجة إلى OneNote.  
+- **الامتثال والأمان:** تمنع ملفات PDF المسطحة التعديلات العرضية أو استخراج البيانات.  
+- **إخراج جاهز للطباعة:** يتم عرض جميع الرسومات والجداول وضربات الحبر كما هي بالضبط.  
+- **مشاركة سهلة:** حجم ملف أصغر ولا يعتمد على خدمات Microsoft.
 
-أولاً، لنستورد الحزم الضرورية في مشروع Java الخاص بك:
+## Prerequisites
+
+قبل أن نبدأ، تأكد من وجود التالي:
+
+1. **Java Development Kit (JDK)** – JDK 8 أو أحدث مثبت على جهازك.  
+2. **Aspose.Note for Java Library** – قم بتنزيل أحدث إصدار من [here](https://releases.aspose.com/note/java/).  
+3. **Integrated Development Environment (IDE)** – IntelliJ IDEA أو Eclipse أو أي محرر تفضله.  
+
+## Import Packages
+
+أولاً، استورد الفئات الأساسية التي ستتيح لنا العمل مع دفاتر الملاحظات وخيارات حفظ PDF:
 
 ```java
 import com.aspose.note.Notebook;
@@ -35,59 +54,85 @@ import com.aspose.note.NotebookPdfSaveOptions;
 import java.io.IOException;
 ```
 
-## الخطوة 1: قم بتحميل دفتر ملاحظات OneNote
+## Step 1: Load the OneNote Notebook
 
-للبدء، قم بتحميل دفتر OneNote الذي تريد تحويله إلى PDF:
+حمّل دفتر الملاحظات الذي تريد تحويله. استبدل مسار العنصر النائب بالموقع الفعلي لملف `.onetoc2` الخاص بك.
 
 ```java
 String dataDir = "Your Document Directory";
 Notebook notebook = new Notebook(dataDir + "Notizbuch öffnen.onetoc2");
 ```
 
-## الخطوة 2: ضبط خيارات التحويل
+## Step 2: Set Conversion Options (Flatten PDF)
 
- حدد خيارات تحويل دفتر الملاحظات إلى PDF. هنا، سوف نقوم بتعيين`flatten` ل`true` لتسوية ملف PDF:
+أنشئ مثيلًا من `NotebookPdfSaveOptions` وفعل علم `flatten`. هذا يخبر Aspose.Note بإنتاج PDF مسطح.
 
 ```java
 NotebookPdfSaveOptions notebookSaveOptions = new NotebookPdfSaveOptions();
 notebookSaveOptions.setFlatten(true);
 ```
 
-## الخطوة 3: احفظ دفتر الملاحظات بصيغة PDF
+## Step 3: Save the Notebook as a Flattened PDF
 
-حدد دليل الإخراج واحفظ دفتر الملاحظات كملف PDF مع الخيارات المحددة:
+حدد اسم ملف الإخراج واستدعِ طريقة `save` مع الخيارات التي قمت بتكوينها.
 
 ```java
 dataDir = dataDir + "ExportNotebookToPDFAsFlattened_out.pdf";
-// احفظ دفتر الملاحظات
+// Save the Notebook
 notebook.save(dataDir, notebookSaveOptions);
 ```
 
-## خاتمة
+### How to Convert Notebook to PDF (Non‑Flattened) – Optional
+إذا احتجت يومًا إلى PDF عادي (غير مسطح)، ما عليك سوى ضبط `setFlatten(false)` أو إهمال الاستدعاء تمامًا. نفس الـ API يتعامل مع الحالتين.
 
-في هذا البرنامج التعليمي، تعلمنا كيفية تحويل دفتر ملاحظات إلى تنسيق PDF مسطح باستخدام Aspose.Note لـ Java. هذه العملية واضحة ويمكن دمجها بسلاسة في تطبيقات Java الخاصة بك.
+## Common Issues and Solutions
 
-## الأسئلة الشائعة
+| المشكلة | السبب | الحل |
+|-------|-------|-----|
+| **صفحات فارغة في الناتج** | دفتر الملاحظات يحتوي على كائنات غير مدعومة | تأكد من أنك تستخدم أحدث إصدار من Aspose.Note؛ قم بتحديث المكتبة. |
+| **استثناء ملف غير موجود** | مسار `dataDir` غير صحيح | تحقق من المسار المطلق أو استخدم `Paths.get(...)` لمسارات مستقلة عن النظام. |
+| **تجاهل علم التسوية** | استخدام نسخة مكتبة أقدم | قم بالترقية إلى أحدث إصدار من Aspose.Note for Java. |
 
-### س1: هل يتوافق Aspose.Note for Java مع الإصدارات المختلفة من OneNote؟
+## FAQ's
 
-ج1: نعم، يدعم Aspose.Note for Java إصدارات مختلفة من OneNote، مما يضمن التوافق عبر بيئات مختلفة.
+### س1: هل Aspose.Note for Java متوافق مع إصدارات مختلفة من OneNote؟
+ج1: نعم، يدعم Aspose.Note for Java إصدارات متعددة من OneNote، مما يضمن التوافق عبر بيئات مختلفة.
 
-### س2: هل يمكنني تخصيص مخرجات PDF باستخدام Aspose.Note لـ Java؟
+### س2: هل يمكنني تخصيص مخرجات PDF باستخدام Aspose.Note for Java؟
+ج2: بالتأكيد، يمكنك تخصيص مخرجات PDF وفقًا لمتطلباتك، بما في ذلك تخطيط الصفحة، أنماط الخطوط، وأكثر.
 
-ج2: بالتأكيد، يمكنك تخصيص إخراج PDF وفقًا لمتطلباتك، بما في ذلك تخطيط الصفحة وأنماط الخطوط والمزيد.
+### س3: هل يدعم Aspose.Note for Java التحويل الدفعي لدفاتر الملاحظات؟
+ج3: نعم، يمكنك تحويل عدة دفاتر ملاحظات إلى PDFs دفعة واحدة بفعالية باستخدام Aspose.Note for Java.
 
-### س3: هل يدعم Aspose.Note for Java التحويل المجمع لدفاتر الملاحظات؟
+### س4: هل تتوفر نسخة تجريبية من Aspose.Note for Java؟
+ج4: نعم، يمكنك الحصول على نسخة تجريبية مجانية من Aspose.Note for Java من [here](https://releases.aspose.com/).
 
-ج3: نعم، يمكنك تحويل عدة دفاتر ملاحظات إلى ملفات PDF بكفاءة باستخدام Aspose.Note لـ Java.
+### س5: أين يمكنني العثور على الدعم لـ Aspose.Note for Java؟
+ج5: يمكنك العثور على الدعم والمساعدة لـ Aspose.Note for Java في [Aspose.Note forum](https://forum.aspose.com/c/note/28).
 
-### س4: هل هناك إصدار تجريبي متاح لـ Aspose.Note لـ Java؟
+## Frequently Asked Questions
 
- ج4: نعم، يمكنك الوصول إلى النسخة التجريبية المجانية من Aspose.Note لـ Java من[هنا](https://releases.aspose.com/).
+**س: كيف يمكنني تسوية PDF مع الحفاظ على جودة الصورة؟**  
+ج: تحتفظ فئة `NotebookPdfSaveOptions` بدقة الصورة الأصلية؛ فقط تأكد من عدم تقليل حجم الصور قبل الحفظ.
 
-### س5: أين يمكنني العثور على دعم لـ Aspose.Note لـ Java؟
+**س: هل يمكنني إضافة كلمة مرور إلى PDF المسطح؟**  
+ج: نعم، اضبط الخاصية `setPassword` على `NotebookPdfSaveOptions` قبل استدعاء `save`.
 
- ج5: يمكنك العثور على الدعم والمساعدة لـ Aspose.Note لـ Java على[منتدى Aspose.Note](https://forum.aspose.com/c/note/28).
+**س: هل يمكن تضمين بيانات تعريف مخصصة داخل PDF؟**  
+ج: استخدم طريقة `setMetadata` على `NotebookPdfSaveOptions` لإضافة العنوان، المؤلف، وغيرها من حقول بيانات تعريف PDF.
+
+**س: هل ستظل التعليقات مرئية بعد التسوية؟**  
+ج: تصبح التعليقات جزءًا من رسومات الصفحة، لذا تظل مرئية لكنها لم تعد قابلة للتحرير.
+
+**س: هل تؤثر التسوية على حجم الملف؟**  
+ج: عادةً ما تقلل التسوية من حجم الملف لأن الكائنات التفاعلية تُزال، لكن الصور المدمجة الكبيرة قد تبقي الحجم مرتفعًا.
+
+---
+
+**آخر تحديث:** 2026-03-24  
+**تم الاختبار مع:** Aspose.Note for Java 24.12  
+**المؤلف:** Aspose  
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

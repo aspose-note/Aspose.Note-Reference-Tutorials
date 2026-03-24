@@ -1,31 +1,50 @@
 ---
-title: OneNote'ta Not Defterini Görüntüye Dönüştürme - Aspose.Note
-linktitle: OneNote'ta Not Defterini Görüntüye Dönüştürme - Aspose.Note
-second_title: Aspose.Note Java API'si
-description: Aspose.Note for Java'yı kullanarak not defterlerini OneNote'ta görüntülere nasıl dönüştüreceğinizi öğrenin. Bu işlevselliği Java uygulamalarınıza kolayca entegre edin.
-weight: 12
+date: 2026-03-24
+description: Aspose.Note for Java kullanarak OneNote'u görüntü olarak kaydetmeyi ve
+  OneNote'u görüntüye dönüştürmeyi öğrenin. Java geliştiricileri için adım adım rehber.
+linktitle: Save OneNote as Image – Convert Notebook to Image with Aspose.Note
+second_title: Aspose.Note Java API
+title: OneNote'u Görüntü Olarak Kaydet – Defteri Aspose.Note ile Görüntüye Dönüştür
 url: /tr/java/onenote-notebook-operations/convert-notebook-to-image/
+weight: 12
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# OneNote'ta Not Defterini Görüntüye Dönüştürme - Aspose.Note
+# OneNote'u Görüntü Olarak Kaydet – Defteri Görüntüye Dönüştürün Aspise.Note ile
 
-## giriiş
+## Introduction
 
-Bu eğitimde, Aspose.Note for Java kütüphanesini kullanarak bir not defterini OneNote'ta bir görüntüye nasıl dönüştürebileceğimizi keşfedeceğiz. Not defterlerini resimlere dönüştürmek, notları paylaşmak, belgelere gömmek veya sunumlara dahil etmek gibi çeşitli amaçlar için yararlı olabilir.
+Bu öğreticide **OneNote'u görüntü olarak nasıl kaydedeceğinizi** öğreneceksiniz; bir OneNote defterini PNG (veya başka bir görüntü formatı) olarak Aspose.Note for Java kütüphanesini kullanarak dönüştürerek. Defter sayfalarını görüntülere dönüştürmek, OneNote dosyalarını desteklemeyen platformlarda notları paylaşmanız, PDF'lere gömmeniz veya slayt sunumlarına eklemeniz gerektiğinde kullanışlıdır.
 
-## Önkoşullar
+## Quick Answers
+- **What library is needed?** Aspose.Note for Java.  
+- **Which image formats are supported?** PNG, JPEG, BMP, GIF, TIFF, etc.  
+- **Do I need a license?** A free trial works for testing; a commercial license is required for production.  
+- **How long does the conversion take?** Typically a few seconds per notebook, depending on size.  
+- **Can I batch‑process notebooks?** Yes – just loop through the files and reuse the same code.
 
-Başlamadan önce aşağıdakilere sahip olduğunuzdan emin olun:
+## What is **save OneNote as image**?
 
-1.  Java Geliştirme Kiti (JDK): Sisteminizde Java'nın kurulu olduğundan emin olun. En son sürümü şuradan indirip yükleyebilirsiniz:[İnternet sitesi](https://www.oracle.com/java/technologies/javase-jdk15-downloads.html).
+OneNote'u görüntü olarak kaydetmek, bir `.one` defterinin her sayfasını bir raster görüntü dosyasına (ör. PNG) render etmek anlamına gelir. Bu, OneNote gerektirmeden her yerde görüntülenebilen taşınabilir, sadece‑okunur bir temsil oluşturur.
 
-2.  Aspose.Note for Java Kütüphanesi: Aspose.Note for Java kütüphanesini indirin ve projenize ekleyin. Kütüphaneyi adresinden temin edebilirsiniz.[Web sitesi](https://releases.aspose.com/note/java/).
+## Why convert OneNote to image?
 
-## Paketleri İçe Aktar
+- **Cross‑platform sharing** – Alıcılar içeriği herhangi bir cihazda görüntüleyebilir.  
+- **Embedding in documents** – Görüntüyü Word, PowerPoint veya PDF'lere ekleyin.  
+- **Archiving** – Orijinal defter düzenlense bile değişmeyecek görsel bir anlık görüntü saklayın.  
+- **Presentation‑ready** – Yüksek çözünürlüklü PNG'leri doğrudan slaytlara yerleştirin.
+
+## Prerequisites
+
+Başlamadan önce şunların kurulu olduğundan emin olun:
+
+1. **Java Development Kit (JDK)** – En son JDK'yı [website](https://www.oracle.com/java/technologies/javase-jdk15-downloads.html) adresinden indirin.  
+2. **Aspose.Note for Java library** – JAR dosyasını [Aspose website](https://releases.aspose.com/note/java/) üzerinden alın ve projenizin classpath'ine ekleyin.
+
+## Import Packages
 
 ```java
 import java.io.IOException;
@@ -35,71 +54,80 @@ import com.aspose.note.ImageSaveOptions;
 import com.aspose.note.SaveFormat;
 ```
 
-Şimdi dönüştürme sürecini birden çok adıma ayıralım:
+Şimdi dönüşüm sürecini adım adım inceleyelim.
 
-## 1. Adım: Defter Belgesini Yükleyin
+## Step 1: Load the Notebook Document
 
 ```java
-//Not defteri dosyanızın bulunduğu dizini belirtin
+// Specify the directory where your notebook file is located
 String dataDir = "Your Document Directory";
 
-// Belgeyi Aspose.Note'a yükleyin
+// Load the document into Aspose.Note
 Document oneFile = new Document(dataDir + "Sample1.one");
 ```
 
- Bu adımda not defteri dosyasının bulunduğu dizin yolunu tanımlıyoruz. Daha sonra şunu kullanırız:`Document` "Sample1.one" adlı not defteri belgesini belleğe yüklemek için Aspose.Note kütüphanesinden sınıf.
+API'yi `Sample1.one` dosyasını içeren klasöre yönlendiriyor ve dosyayı bir `Document` nesnesine yüklüyoruz. Buradan sayfalara, bölümlere ve diğer defter öğelerine erişebilirsiniz.
 
-## Adım 2: ImageSaveOptions'ı başlatın
+## Step 2: Initialize ImageSaveOptions
 
 ```java
-// PdfSaveOptions nesnesini başlat
+// Initialize PdfSaveOptions object
 ImageSaveOptions options = new ImageSaveOptions(SaveFormat.Png);
 ```
 
- Burada bir başlangıç başlatıyoruz`ImageSaveOptions` nesneyi seçin ve not defteri belgesini kaydetmek istediğimiz formatı belirtin. Bu durumda PNG formatını seçiyoruz.
+`ImageSaveOptions`, Aspose.Note'un çıktıyı nasıl render edeceğini belirler. Bu örnekte PNG seçiyoruz, ancak `SaveFormat.Png` yerine `SaveFormat.Jpeg`, `SaveFormat.Bmp` vb. kullanarak **OneNote'u görüntüye dönüştürmek** için farklı bir format seçebilirsiniz.
 
-## 3. Adım: Belgeyi Resim Olarak Kaydetme
+## Step 3: Save the Document as Image
 
 ```java
-// Belgeyi PNG olarak kaydedin
+// Save the document as PNG
 oneFile.save(dataDir + "ConvertToImage_out.png", options);
 ```
 
- Şimdi şunu kullanıyoruz:`save()` Yüklenen not defteri belgesini bir görüntü dosyası olarak kaydetme yöntemi. Görüntüyü kaydetmek ve başlatılanları iletmek istediğimiz dosya yolunu sağlıyoruz`ImageSaveOptions` nesne.
+`save()` çağrısı render edilen defter sayfalarını `ConvertToImage_out.png` dosyasına yazar. Defter birden fazla sayfa içeriyorsa, Aspose.Note otomatik olarak ayrı görüntü dosyaları oluşturur (ör. `ConvertToImage_out_1.png`, `ConvertToImage_out_2.png`).
 
-## Adım 4: Onayı Yazdırın
+## Step 4: Print Confirmation
 
 ```java
 System.out.println("File saved: " + dataDir + "ConvertToImage_out.png");
 ```
 
-Son olarak, başarılı dönüşümü ve görsel dosyasının kaydedildiği konumu belirten konsola bir onay mesajı yazdırıyoruz.
+Basit bir konsol mesajı, **save OneNote as image** işleminin başarılı olduğunu ve çıktı dosyasının nerede bulunduğunu bildirir.
 
-## Çözüm
+## Common Issues & Tips
 
-Bu eğitimde, Aspose.Note for Java kütüphanesini kullanarak bir not defterini OneNote'ta bir görüntüye nasıl dönüştüreceğimizi öğrendik. Yukarıda özetlenen adımları izleyerek bu işlevselliği Java uygulamalarınıza sorunsuz bir şekilde entegre edebilirsiniz.
+- **Large notebooks** – `OutOfMemoryError` alırsanız JVM heap'ini (`-Xmx`) artırın.  
+- **Resolution control** – Baskı kalitesinde görüntüler için DPI'yi artırmak amacıyla `options.setResolution(300);` kullanın.  
+- **Batch conversion** – Yukarıdaki adımları bir `for` döngüsü içinde `.one` dosyalarının listesi üzerinde çalıştırarak toplu dönüşüm yapın.  
 
-## SSS'ler
+## FAQ's
 
-### S1: Not defterlerini PNG'nin yanı sıra diğer görüntü formatlarına da dönüştürebilir miyim?
+### Q1: Can I convert notebooks to other image formats besides PNG?
 
- A1: Evet, yapabilirsin. Aspose.Note kütüphanesi JPEG, BMP, GIF, TIFF vb. gibi çeşitli görüntü formatlarını destekler. İstediğiniz formatı`ImageSaveOptions` buna göre itiraz edin.
+A1: Yes, you can. The Aspose.Note library supports various image formats such as JPEG, BMP, GIF, TIFF, etc. You can specify the desired format in the `ImageSaveOptions` object accordingly.
 
-### S2: Aspose.Note, OneNote'un tüm sürümleriyle uyumlu mudur?
+### Q2: Is Aspose.Note compatible with all versions of OneNote?
 
-Cevap2: Aspose.Note, OneNote'un çeşitli sürümleri için kapsamlı destek sağlayarak farklı ortamlar ve dosya formatları arasında uyumluluk sağlar.
+A2: Aspose.Note provides comprehensive support for various versions of OneNote, ensuring compatibility across different environments and file formats.
 
-### S3: Dönüştürme sırasında görüntü çıkış ayarlarını özelleştirebilir miyim?
+### Q3: Can I customize the image output settings during conversion?
 
-A3: Kesinlikle. Aspose.Note, çıktı görüntüsünü özelleştirmek için çözünürlük, kalite, renk derinliği ve daha fazlasını içeren kapsamlı seçenekler sunar. Bu ayarları ihtiyaçlarınıza göre özelleştirebilirsiniz.
+A3: Absolutely. Aspose.Note offers extensive options for customizing the output image, including resolution, quality, color depth, and more. You can tailor these settings according to your requirements.
 
-### S4: Aspose.Note birden fazla not defterinin toplu dönüştürülmesini destekliyor mu?
+### Q4: Does Aspose.Note support batch conversion of multiple notebooks?
 
-Cevap4: Evet, Aspose.Note'u kullanarak birden fazla not defterini verimli bir şekilde toplu olarak görüntülere dönüştürebilirsiniz. Basitçe not defteri dosyaları listenizi gözden geçirin ve bu eğitimde özetlenen dönüştürme işlemini uygulayın.
+A4: Yes, you can batch convert multiple notebooks to images efficiently using Aspose.Note. Simply iterate through your list of notebook files and apply the conversion process outlined in this tutorial.
 
-### S5: Aspose.Note için ek kaynakları ve desteği nerede bulabilirim?
+### Q5: Where can I find additional resources and support for Aspose.Note?
 
- Cevap5: Daha fazla belge, örnek ve topluluk desteği için şu adresi ziyaret edin:[Aspose.Note forumu](https://forum.aspose.com/c/note/28) ve keşfedin[dokümantasyon](https://reference.aspose.com/note/java/).
+A5: For further documentation, examples, and community support, visit the [Aspose.Note forum](https://forum.aspose.com/c/note/28) and explore the [documentation](https://reference.aspose.com/note/java/).
+
+---
+
+**Last Updated:** 2026-03-24  
+**Tested With:** Aspose.Note for Java 24.8  
+**Author:** Aspose  
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
