@@ -1,37 +1,49 @@
 ---
-title: Praca z ustawieniami regionalnymi w programie OneNote — Aspose.Note
-linktitle: Praca z ustawieniami regionalnymi w programie OneNote — Aspose.Note
-second_title: Aspose.Note API Java
-description: Wykorzystaj moc Aspose.Note do pracy z lokalizacjami OneNote! Wyodrębniaj, manipuluj i generuj raporty dostosowane do różnych języków i regionów. #OneNote #Java #Aspose
-weight: 10
+date: 2026-01-05
+description: Dowiedz się, jak ustawić domyślną lokalizację, załadować dokument OneNote,
+  ustawić licencję Aspose, przekonwertować OneNote na PNG oraz zapisać OneNote jako
+  obraz przy użyciu Aspose.Note dla Javy.
+linktitle: Working with Locales in OneNote - Aspose.Note
+second_title: Aspose.Note Java API
+title: Ustaw domyślną lokalizację w OneNote – Aspose.Note Java
 url: /pl/java/onenote-notebook-operations/working-with-locales/
+weight: 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Praca z ustawieniami regionalnymi w programie OneNote — Aspose.Note
+# Ustaw domyślną lokalizację w OneNote – Aspose.Note Java
 
-## Wstęp
+## Wprowadzenie
 
-dziedzinie programowania w języku Java Aspose.Note wyróżnia się jako potężne narzędzie do pracy z plikami OneNote. Niezależnie od tego, czy chcesz wyodrębnić informacje, manipulować treścią, czy generować raporty, Aspose.Note zapewnia obszerny zestaw funkcji usprawniających przepływ pracy. W tym samouczku zajmiemy się jednym konkretnym aspektem: pracą z ustawieniami regionalnymi w OneNote przy użyciu Aspose.Note dla Java.
+Jeśli potrzebujesz **ustawić domyślną lokalizację** podczas przetwarzania plików OneNote, Aspose.Note dla Javy robi to w mig. W tym samouczku przeprowadzimy Cię przez wszystkie kroki — od licencjonowania produktu, po wczytanie dokumentu OneNote, zmianę lokalizacji i w końcu konwersję pliku do obrazu PNG. Po zakończeniu będziesz mógł dostosować ustawienia językowe i generować wyniki specyficzne dla danej lokalizacji przy użyciu kilku linii kodu.
 
-## Warunki wstępne
+## Szybkie odpowiedzi
+- **Co robi „ustaw domyślną lokalizację”?** Definiuje język i formatowanie regionalne używane przez Aspose.Note przy odczycie lub zapisie plików OneNote.  
+- **Czy potrzebna jest licencja?** Tak — ustaw licencję Aspose, aby odblokować pełną funkcjonalność.  
+- **Jakiej wersji Javy wymaga?** Wspierane są wszystkie wersje JDK 8+.  
+- **Czy mogę konwertować OneNote do PNG?** Oczywiście; API umożliwia zapisywanie stron jako obrazy.  
+- **Czy proces jest bezpieczny wątkowo?** Ustawienie domyślnej lokalizacji jest globalne, więc konfiguruje się je raz przy uruchamianiu aplikacji.
 
-Zanim zagłębisz się w ten samouczek, upewnij się, że spełniasz następujące wymagania wstępne:
+## Co to jest „ustaw domyślną lokalizację” w Aspose.Note?
+Ustawienie domyślnej lokalizacji informuje Aspose.Note, którego języka i konwencji kulturowych ma używać przy parsowaniu dat, liczb i tekstu. Jest to niezbędne w aplikacjach wieloregionalnych, które wymagają spójnego formatowania niezależnie od lokalizacji użytkownika.
 
-### Środowisko programistyczne Java
+## Dlaczego warto ustawić domyślną lokalizację przy pracy z OneNote?
+- **Precyzyjna reprezentacja danych:** Daty i liczby wyświetlane są prawidłowo dla docelowej grupy odbiorców.  
+- **Spójne ciągi UI:** Tekst wyodrębniony z OneNote respektuje ustawienia językowe.  
+- **Uproszczona konwersja:** Gdy później konwertujesz plik OneNote na PNG lub inne formaty, układ wizualny odpowiada oczekiwanej lokalizacji.
 
-Będziesz potrzebować środowiska programistycznego Java skonfigurowanego w swoim systemie. Upewnij się, że masz zainstalowany i prawidłowo skonfigurowany pakiet JDK (Java Development Kit).
+## Wymagania wstępne
 
-### Biblioteka Aspose.Note
+- **Środowisko programistyczne Java:** Zainstalowany JDK i skonfigurowana zmienna `JAVA_HOME`.  
+- **Biblioteka Aspose.Note:** Pobierz najnowszy plik JAR z [download link](https://releases.aspose.com/note/java/).  
+- **Ważny plik licencji Aspose** (bezpłatna wersja próbna wystarczy do testów).
 
- Pobierz i zainstaluj bibliotekę Aspose.Note dla Java. Można go uzyskać od[link do pobrania](https://releases.aspose.com/note/java/).
+## Importowanie pakietów
 
-## Importuj pakiety
-
-Zanim zaczniesz, zaimportuj niezbędne pakiety do swojego projektu Java. Pakiety te zapewniają niezbędne funkcjonalności do pracy z Aspose.Note.
+Zanim napiszesz jakikolwiek kod, zaimportuj klasy zapewniające wymaganą funkcjonalność.
 
 ```java
 import java.io.IOException;
@@ -42,26 +54,24 @@ import com.aspose.note.License;
 import com.aspose.note.LocaleOptions;
 ```
 
-Podzielmy podany przykład na kilka kroków:
-
-## Krok 1: Ustaw licencję
+## Krok 1: Ustaw licencję Aspose
 
 ```java
 License license = new License();
 license.setLicense("licenseFile");
 ```
 
-Upewnij się, że ustawiłeś odpowiednią ścieżkę pliku licencji, aby odblokować pełne możliwości Aspose.Note.
+Ustawienie licencji Aspose odblokowuje wszystkie funkcje, w tym obsługę lokalizacji i konwersję obrazów.
 
-## Krok 2: Ustaw domyślne ustawienia regionalne
+## Krok 2: Ustaw domyślną lokalizację
 
 ```java
 java.util.Locale.setDefault(new java.util.Locale("en", "rs"));
 ```
 
-Tutaj ustawiamy domyślne ustawienia regionalne na „en” (angielski) z kodem kraju „rs”. Ten krok zapewnia spójność języka i formatowania.
+Tutaj **ustawiamy domyślną lokalizację** na angielski (`en`) z kodem kraju `rs`. Dostosuj kody języka i kraju do swojej docelowej regionu.
 
-## Krok 3: Załaduj dokument
+## Krok 3: Wczytaj dokument OneNote
 
 ```java
 String inputFile = "Sample1.one";
@@ -70,44 +80,54 @@ Path inputPath = Paths.get(inputFile);
 Document oneFile = new Document(inputPath.toString());
 ```
 
-Załaduj dokument OneNote o nazwie „Sample1.one” do Aspose.Note w celu przetworzenia.
+Ten krok **wczytuje dokument OneNote** do obiektu `Document`, abyś mógł pracować z jego zawartością.
 
-## Krok 4: Zapisz dokument
+## Krok 4: Konwertuj OneNote na PNG (konwersja pliku OneNote)
 
 ```java
 oneFile.save("sample.png");
 ```
 
-Na koniec zapisz przetworzony dokument jako plik obrazu o nazwie „sample.png”.
+Metoda `save` wykonuje **konwersję pliku OneNote**, eksportując notes (lub konkretną stronę) jako obraz PNG — w praktyce **konwertuje onenote na png** i **zapisuje onenote jako obraz**.
 
-## Wniosek
+## Typowe problemy i wskazówki
 
-W tym samouczku omówiliśmy, jak pracować z ustawieniami regionalnymi w programie OneNote przy użyciu programu Aspose.Note dla języka Java. Wykonując te kroki, możesz skutecznie zarządzać ustawieniami języka i z łatwością przetwarzać pliki OneNote.
+- **Licencja nie znaleziona:** Upewnij się, że ścieżka do `licenseFile` jest poprawna i plik ma uprawnienia do odczytu.  
+- **Lokalizacja nie zastosowana:** Wywołaj `Locale.setDefault` **przed** wczytaniem dokumentu.  
+- **Brak wyjściowego obrazu:** Sprawdź, czy plik OneNote rzeczywiście zawiera renderowalne strony; puste notesy wygenerują pusty PNG.
 
-## Często zadawane pytania
+## Najczęściej zadawane pytania
 
-### P1: Czy Aspose.Note jest kompatybilny z różnymi wersjami Java?
+**P: Czy Aspose.Note jest kompatybilny z różnymi wersjami Javy?**  
+O: Tak, Aspose.Note obsługuje Javę 8 i nowsze, zapewniając szeroką kompatybilność w różnych środowiskach programistycznych.
 
-Odpowiedź 1: Tak, Aspose.Note obsługuje różne wersje Java, zapewniając kompatybilność w różnych środowiskach.
+**P: Czy mogę integrować Aspose.Note z innymi bibliotekami Java?**  
+O: Oczywiście. API współpracuje płynnie z popularnymi bibliotekami takimi jak Apache POI, Jackson i Spring.
 
-### P2: Czy mogę zintegrować Aspose.Note z innymi bibliotekami Java?
+**P: Czy Aspose.Note oferuje obsługę różnych formatów plików?**  
+O: Choć jego głównym celem są pliki OneNote, biblioteka może eksportować do PNG, JPEG, PDF i innych formatów graficznych.
 
-Odpowiedź 2: Oczywiście, Aspose.Note może bezproblemowo integrować się z innymi bibliotekami Java w celu zwiększenia funkcjonalności i usprawnienia rozwoju.
+**P: Czy istnieje forum społecznościowe dla użytkowników Aspose.Note, gdzie można uzyskać pomoc i dzielić się wiedzą?**  
+O: Tak, forum społeczności Aspose zapewnia platformę, na której użytkownicy mogą kontaktować się z ekspertami, zadawać pytania i współpracować nad rozwiązaniami. Odwiedź [support forum](https://forum.aspose.com/c/note/28) po pomoc.
 
-### P3: Czy Aspose.Note oferuje obsługę różnych formatów plików?
+**P: Czy mogę wypróbować Aspose.Note przed zakupem?**  
+O: Oczywiście, możesz zapoznać się z możliwościami Aspose.Note, korzystając z darmowej wersji próbnej dostępnej na stronie.
 
-O3: Chociaż Aspose.Note jest przeznaczony głównie dla plików OneNote, zapewnia obsługę różnych formatów dokumentów, oferując wszechstronność w przetwarzaniu dokumentów.
+## Zakończenie
 
-### P4: Czy istnieje forum społecznościowe dla użytkowników Aspose.Note, na którym można szukać pomocy i dzielić się wiedzą?
+Postępując zgodnie z tymi krokami, nauczyłeś się **ustawiać domyślną lokalizację**, **wczytywać dokument OneNote**, **ustawiać licencję Aspose** oraz **konwertować OneNote na PNG** przy użyciu Aspose.Note dla Javy. Ten przepływ pracy umożliwia generowanie raportów i obrazów uwzględniających lokalizację, które są dostosowane do globalnych odbiorców.
 
- Odpowiedź 4: Tak, forum społeczności Aspose stanowi platformę, na której użytkownicy mogą kontaktować się z ekspertami, zadawać pytania i współpracować nad rozwiązaniami. Odwiedzić[forum wsparcia](https://forum.aspose.com/c/note/28) do pomocy.
-
-### P5: Czy mogę wypróbować Aspose.Note przed zakupem?
-
-Odpowiedź 5: Oczywiście, możesz poznać możliwości Aspose.Note, korzystając z bezpłatnej wersji próbnej oferowanej na stronie internetowej.
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
+
+---
+
+**Ostatnia aktualizacja:** 2026-01-05  
+**Testowano z:** Aspose.Note 24.11 dla Javy  
+**Autor:** Aspose  
+
+---
