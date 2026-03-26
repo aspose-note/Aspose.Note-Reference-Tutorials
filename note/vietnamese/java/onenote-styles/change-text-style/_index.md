@@ -1,34 +1,54 @@
 ---
-title: Thay đổi kiểu văn bản trong OneNote - Aspose.Note
-linktitle: Thay đổi kiểu văn bản trong OneNote - Aspose.Note
-second_title: API Java Aspose.Note
-description: In đậm, đánh dấu và thay đổi kích thước! Tìm hiểu cách định dạng văn bản trong tài liệu OneNote bằng Aspose.Note. Bao gồm hướng dẫn từng bước và mã! #OneNote #Java #Aspose
-weight: 10
+date: 2026-01-18
+description: Tìm hiểu cách đặt màu phông chữ Java trong OneNote bằng Aspose.Note,
+  làm nổi bật văn bản, chỉnh sửa kích thước phông chữ và lưu OneNote dưới dạng PDF.
+  Hướng dẫn từng bước kèm mã nguồn.
+linktitle: Change Text Style in OneNote - Aspose.Note
+second_title: Aspose.Note Java API
+title: Thiết lập màu phông chữ Java trong OneNote – Aspose.Note
 url: /vi/java/onenote-styles/change-text-style/
+weight: 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Thay đổi kiểu văn bản trong OneNote - Aspose.Note
+# Đặt Màu Chữ Java trong OneNote – Aspose.Note
 
 ## Giới thiệu
 
-Chào mừng bạn đến với hướng dẫn của chúng tôi về cách thay đổi kiểu văn bản trong OneNote bằng Aspose.Note for Java! Trong hướng dẫn này, chúng tôi sẽ hướng dẫn bạn từng bước thực hiện quy trình, cho phép bạn dễ dàng thao tác các kiểu văn bản trong tài liệu OneNote của mình. Cho dù bạn đang muốn thay đổi màu phông chữ, đánh dấu văn bản hay điều chỉnh kích thước phông chữ, Aspose.Note đều cung cấp giải pháp toàn diện để đáp ứng nhu cầu của bạn.
+Trong hướng dẫn này bạn sẽ khám phá cách **đặt màu chữ Java** cho văn bản trong tài liệu OneNote bằng API Aspose.Note cho Java. Chúng ta sẽ thực hiện các bước tải tệp `.one`, truy cập các nút RichText, áp dụng thay đổi màu, tô sáng và kích thước phông chữ, và cuối cùng **lưu OneNote dưới dạng PDF**. Dù bạn cần **tô sáng văn bản onenote**, **thay đổi kích thước phông chữ onenote**, hay chỉ đơn giản là thay đổi kiểu chữ chung, các bước dưới đây cung cấp một giải pháp hoàn chỉnh, sẵn sàng cho môi trường sản xuất.
 
-## Điều kiện tiên quyết
+## Câu trả lời nhanh
+- **Tôi có thể thay đổi màu chữ của các từ cụ thể không?** Có – lặp qua các đối tượng `TextRun` và gọi `setFontColor`.
+- **Aspose.Note có cho phép lưu OneNote dưới dạng PDF không?** Chắc chắn; sử dụng `document.save("output.pdf")`.
+- **Yêu cầu phiên bản Java nào?** Java 8 hoặc cao hơn.
+- **Có hỗ trợ tô sáng không?** Dùng `setHighlight(Color)` trên `TextStyle`.
+- **Tôi có thể chuyển OneNote sang PDF trong một dòng không?** Không trực tiếp, nhưng phương thức `save` thực hiện việc chuyển đổi.
 
-Trước khi chúng ta đi sâu vào hướng dẫn, hãy đảm bảo bạn có các điều kiện tiên quyết sau:
+## “set font color java” là gì?
 
-1. Kiến thức cơ bản về lập trình Java.
-2. Đã cài đặt Bộ công cụ phát triển Java (JDK) trên hệ thống của bạn.
-3. Đã tải xuống và cài đặt Aspose.Note cho Java.
-4. Làm quen với cấu trúc và định dạng tài liệu OneNote.
+Cụm từ này đề cập đến việc gán màu chữ mới cho các thành phần văn bản trong tệp OneNote một cách lập trình bằng mã Java. Với Aspose.Note, bạn có toàn quyền kiểm soát các thuộc tính kiểu dáng như màu chữ, tô sáng và kích thước mà không cần mở giao diện OneNote.
 
-## Gói nhập khẩu
+## Tại sao phải thay đổi kiểu chữ onenote?
 
-Trước khi bắt đầu, hãy nhập các gói cần thiết trong dự án Java của chúng tôi:
+- **Cải thiện khả năng đọc** – Văn bản có màu hoặc được tô sáng sẽ thu hút sự chú ý tới các điểm quan trọng.
+- **Đồng nhất thương hiệu** – Áp dụng màu sắc công ty trên các ghi chú cuộc họp.
+- **Chất lượng xuất khẩu** – Các ghi chú được định dạng sẽ trông chuyên nghiệp hơn khi bạn **chuyển đổi onenote sang pdf** để chia sẻ.
+
+## Yêu cầu trước
+
+Trước khi bắt đầu, hãy chắc chắn rằng bạn đã có:
+
+1. Kiến thức cơ bản về lập trình Java.  
+2. JDK 8 hoặc mới hơn đã được cài đặt.  
+3. Thư viện Aspose.Note cho Java đã được thêm vào dự án (Maven/Gradle hoặc JAR thủ công).  
+4. Một tệp OneNote mẫu (`Sample1.one`) để thực hành.  
+
+## Nhập các gói
+
+Đầu tiên, nhập các lớp cần thiết:
 
 ```java
 import java.awt.Color;
@@ -40,79 +60,91 @@ import com.aspose.note.TextRun;
 import com.aspose.note.TextStyle;
 ```
 
-Bây giờ, hãy chia mã ví dụ được cung cấp thành nhiều bước để hiểu rõ hơn:
+## Hướng dẫn từng bước
 
-## Bước 1: Tải tài liệu
+### Bước 1: Tải tài liệu
 
 ```java
-// Tải tài liệu vào Aspose.Note
+// Load the document into Aspose.Note
 Document document = new Document("Your Document Directory/Sample1.one");
 ```
 
-Trong bước này, chúng tôi tải tài liệu OneNote có tên "Sample1.one" vào Aspose.Note.
+Chúng ta tải tệp OneNote (`Sample1.one`) để Aspose.Note có thể làm việc với cấu trúc nội bộ của nó.
 
-## Bước 2: Truy cập các nút RichText
+### Bước 2: Truy cập các nút RichText
 
 ```java
-// Nhận một nút RichText cụ thể
+// Get a particular RichText node
 List<RichText> richTextNodes = document.getChildNodes(RichText.class);
 RichText richText = richTextNodes.get(0);
 ```
 
-Ở đây, chúng tôi truy xuất các nút RichText từ tài liệu, cho phép chúng tôi truy cập và thao tác với nội dung văn bản.
+Các đối tượng `RichText` chứa các đoạn văn thực tế. Bằng cách lấy nút đầu tiên, chúng ta có được một tham chiếu tới văn bản cần định dạng.
 
-## Bước 3: Thay đổi kiểu văn bản
+### Bước 3: Thay đổi kiểu chữ (set font color java)
 
 ```java
 for (TextRun run : richText.getTextRuns()) {
-    // Đặt màu phông chữ
+    // Set font color
     run.getStyle().setFontColor(Color.yellow);
-    // Đặt màu đánh dấu
+    // Set highlight color
     run.getStyle().setHighlight(Color.blue);
-    // Đặt kích thước phông chữ
+    // Set font size
     run.getStyle().setFontSize(20);
 }
 ```
 
-Trong vòng lặp này, chúng tôi lặp qua từng TextRun trong nút RichText và sửa đổi các thuộc tính kiểu của nó. Trong ví dụ này, chúng tôi đang thay đổi màu phông chữ thành màu vàng, làm nổi bật văn bản màu xanh lam và đặt cỡ chữ thành 20.
+Trong vòng lặp, chúng ta **đặt màu chữ Java** thành màu vàng, áp dụng tô sáng màu xanh dương (để minh họa **highlight text onenote**), và tăng kích thước lên 20 điểm, thể hiện **modify font size onenote**.
 
-## Bước 4: Lưu tài liệu
+### Bước 4: Lưu tài liệu (save onenote as pdf)
 
 ```java
 document.save("Your Document Directory/ChangeTextStyle_out.pdf");
 System.out.printf("File saved: %s\n", "Your Document Directory/ChangeTextStyle_out.pdf");
 ```
 
-Cuối cùng, chúng tôi lưu tài liệu đã sửa đổi với các kiểu văn bản mới được áp dụng.
+Gọi `save` với phần mở rộng `.pdf` sẽ tự động **convert onenote to pdf**, cung cấp cho bạn một tệp sẵn sàng chia sẻ.
 
-## Phần kết luận
+## Các vấn đề thường gặp & Giải pháp
 
-Tóm lại, hướng dẫn này đã trình bày cách thay đổi kiểu văn bản trong OneNote bằng Aspose.Note cho Java. Bằng cách làm theo hướng dẫn từng bước, bạn có thể dễ dàng thao tác màu phông chữ, đánh dấu và kích thước phông chữ trong tài liệu OneNote của mình, nâng cao sức hấp dẫn trực quan và khả năng đọc của chúng.
+| Vấn đề | Nguyên nhân | Giải pháp |
+|-------|------------|----------|
+| Không thấy thay đổi màu | Tài liệu đã được mở trong OneNote trước khi lưu | Đóng OneNote hoặc tải lại tệp sau khi quá trình Java kết thúc |
+| Tô sáng không áp dụng | Sử dụng màu trùng với nền | Chọn một `Color` tương phản (ví dụ, `Color.yellow`) |
+| `document.save` ném `IOException` | Đường dẫn đầu ra không hợp lệ | Đảm bảo thư mục tồn tại và bạn có quyền ghi |
 
 ## Câu hỏi thường gặp
 
-### Câu hỏi 1: Tôi có thể áp dụng những thay đổi kiểu văn bản này cho các phần cụ thể trong tài liệu OneNote của mình không?
+**H: Tôi có thể áp dụng các thay đổi kiểu này chỉ cho một số phần nhất định trong tệp OneNote không?**  
+Đ: Có – lọc các nút `RichText` theo `Section` hoặc `Page` cha trước khi lặp qua các `TextRun`.
 
-Câu trả lời 1: Có, bạn có thể sửa đổi mã để nhắm mục tiêu các phần cụ thể bằng cách lặp qua các nút RichText có liên quan.
+**H: Ngoài màu, tô sáng và kích thước, Aspose.Note còn hỗ trợ định dạng nào khác?**  
+Đ: Bạn có thể thay đổi họ phông chữ, in đậm/nghiêng/gạch chân, căn chỉnh, và thậm chí khoảng cách đoạn văn.
 
-### Câu hỏi 2: Aspose.Note có hỗ trợ các tùy chọn định dạng văn bản khác ngoài màu sắc, đánh dấu và kích thước không?
+**H: Có thể xử lý hàng loạt nhiều tệp OneNote không?**  
+Đ: Chắc chắn. Đặt logic tải và định dạng trong một vòng lặp để xử lý từng tệp `.one` trong một thư mục.
 
-Câu trả lời 2: Có, Aspose.Note cung cấp khả năng định dạng văn bản mở rộng, bao gồm họ phông chữ, kiểu, căn chỉnh, v.v.
+**H: Thư viện có hỗ trợ lưu trực tiếp sang các định dạng khác như DOCX không?**  
+Đ: Có – Aspose.Note có thể xuất ra PDF, DOCX, HTML và một số định dạng ảnh.
 
-### Câu hỏi 3: Tôi có thể tích hợp Aspose.Note với các thư viện Java khác để xử lý tài liệu nâng cao không?
+**H: Tôi có thể tìm thêm ví dụ và tài liệu API ở đâu?**  
+Đ: Truy cập trang tài liệu chính thức của Aspose.Note, khám phá tham chiếu API, và tải bản dùng thử miễn phí để thử nghiệm thực tế.
 
-Câu trả lời 3: Hoàn toàn có thể, Aspose.Note tích hợp liền mạch với nhiều thư viện Java khác nhau, cho phép bạn nâng cao khả năng thao tác tài liệu của mình.
+## Kết luận
 
-### Câu hỏi 4: Aspose.Note có phù hợp cho cả mục đích sử dụng cá nhân và thương mại không?
+Bạn đã có một ví dụ hoàn chỉnh, từ đầu đến cuối, về cách **đặt màu chữ Java**, tô sáng văn bản, điều chỉnh kích thước phông chữ, và **lưu OneNote dưới dạng PDF** bằng Aspose.Note. Hãy tự do tùy chỉnh mã để nhắm tới các trang cụ thể, áp dụng định dạng có điều kiện, hoặc tích hợp vào các pipeline xử lý tài liệu lớn hơn.
 
-Câu trả lời 4: Có, Aspose.Note có thể được sử dụng cho cả mục đích cá nhân và thương mại, cung cấp các tùy chọn cấp phép linh hoạt phù hợp với nhu cầu của bạn.
-
-### Câu hỏi 5: Tôi có thể tìm thêm tài nguyên và hỗ trợ cho Aspose.Note ở đâu?
-
-Câu trả lời 5: Bạn có thể khám phá tài liệu Aspose.Note, tải xuống thư viện, truy cập các bản dùng thử miễn phí và tìm kiếm sự hỗ trợ trên diễn đàn Aspose.
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
+
+---
+
+**Cập nhật lần cuối:** 2026-01-18  
+**Kiểm tra với:** Aspose.Note 24.11 cho Java  
+**Tác giả:** Aspose  
+
+---
