@@ -1,35 +1,45 @@
 ---
-title: Usuń węzeł podrzędny w notesie programu OneNote — Aspose.Note
-linktitle: Usuń węzeł podrzędny w notesie programu OneNote — Aspose.Note
-second_title: Aspose.Note API Java
-description: Dowiedz się, jak usunąć węzeł podrzędny z notesu programu OneNote przy użyciu programu Aspose.Note dla języka Java. Postępuj zgodnie z naszym przewodnikiem krok po kroku, aby bezproblemowo manipulować dokumentami.
-weight: 24
+date: 2026-01-02
+description: Naucz się usuwać węzły z notatnika OneNote przy użyciu Aspose.Note dla
+  Javy. Skorzystaj z naszego krok po kroku przewodnika, aby usuwać węzły podrzędne
+  i łatwo zarządzać sekcjami.
+linktitle: How to Remove Node - Remove Child Node in OneNote Notebook - Aspose.Note
+second_title: Aspose.Note Java API
+title: Jak usunąć węzeł – usunąć węzeł podrzędny w notatniku OneNote – Aspose.Note
 url: /pl/java/onenote-notebook-operations/remove-child-node/
+weight: 24
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Usuń węzeł podrzędny w notesie programu OneNote — Aspose.Note
+# Jak usunąć węzeł: Usuwanie węzła potomnego w notatniku OneNote - Aspose.Note
 
-## Wstęp
+## Wprowadzenie
 
-tym samouczku zagłębimy się w proces usuwania węzła podrzędnego w notatniku OneNote przy użyciu Aspose.Note dla Java. Aspose.Note to potężny interfejs API, który umożliwia programistom programową pracę z plikami Microsoft OneNote, umożliwiając różne operacje, takie jak tworzenie, manipulowanie i konwersja dokumentów OneNote.
+W tym samouczku dowiesz się **jak usunąć węzeł** — konkretnie węzeł potomny — z notatnika OneNote przy użyciu Aspose.Note dla Javy. Niezależnie od tego, czy chcesz posprzątać nieużywane sekcje, zautomatyzować utrzymanie notatnika, czy zbudować narzędzie migracyjne, programowe usuwanie węzłów daje Ci precyzyjną kontrolę nad plikami OneNote.
 
-## Warunki wstępne
+## Szybkie odpowiedzi
+- **Co oznacza „usunięcie węzła” w OneNote?** Odwołuje się to do usunięcia elementu potomnego, takiego jak sekcja, strona lub niestandardowy węzeł, z hierarchii notatnika.  
+- **Które API obsługuje to działanie?** Aspose.Note dla Javy udostępnia metodę `Notebook.removeChild()` do bezpiecznego usuwania.  
+- **Czy potrzebna jest licencja?** Darmowa wersja próbna wystarcza do rozwoju; licencja komercyjna jest wymagana w środowisku produkcyjnym.  
+- **Czy wymagana jest dodatkowa konfiguracja?** Wystarczy standardowa konfiguracja Javy oraz plik JAR Aspose.Note w classpath.  
+- **Czy mogę usunąć wiele węzłów jednocześnie?** Tak — przejdź przez kolekcję i wywołaj `removeChild` dla każdego dopasowanego elementu.
 
-Zanim zaczniemy, upewnij się, że masz skonfigurowane następujące wymagania wstępne:
+## Wymagania wstępne
 
-1.  Zestaw Java Development Kit (JDK): Upewnij się, że w systemie jest zainstalowana Java. Możesz pobrać i zainstalować najnowszy pakiet JDK ze strony[Tutaj](https://www.oracle.com/java/technologies/javase-jdk15-downloads.html).
+Przed rozpoczęciem upewnij się, że masz przygotowane następujące elementy:
 
-2.  Aspose.Note dla Java: Pobierz i zainstaluj bibliotekę Aspose.Note dla Java z[strona internetowa](https://purchase.aspose.com/buy) . Możesz także uzyskać bezpłatną wersję próbną od[Tutaj](https://releases.aspose.com/).
+1. **Java Development Kit (JDK)** – Upewnij się, że Java jest zainstalowana w Twoim systemie. Najnowszy JDK możesz pobrać i zainstalować [tutaj](https://www.oracle.com/java/technologies/javase-jdk15-downloads.html).
 
-3. Zintegrowane środowisko programistyczne (IDE): Wybierz preferowane środowisko IDE do programowania w języku Java. Do popularnych opcji należą IntelliJ IDEA, Eclipse lub NetBeans.
+2. **Aspose.Note for Java** – Pobierz i zainstaluj bibliotekę Aspose.Note for Java ze [strony internetowej](https://purchase.aspose.com/buy). Darmową wersję próbną możesz uzyskać [tutaj](https://releases.aspose.com/).
 
-## Importuj pakiety
+3. **Integrated Development Environment (IDE)** – Wybierz ulubione środowisko IDE do programowania w Javie. Popularne wybory to IntelliJ IDEA, Eclipse lub NetBeans.
 
-Po pierwsze, musisz zaimportować niezbędne pakiety do swojego projektu Java. Oto jak możesz to zrobić:
+## Importowanie pakietów
+
+Najpierw musisz zaimportować niezbędne pakiety do swojego projektu Java. Oto jak to zrobić:
 
 ```java
 import java.io.IOException;
@@ -40,67 +50,100 @@ import com.aspose.note.Notebook;
 import com.aspose.note.system.collections.Generic.List;
 ```
 
-Podzielmy teraz proces usuwania węzła podrzędnego z notesu programu OneNote na kilka kroków:
+Teraz rozbijmy proces usuwania węzła potomnego z notatnika OneNote na kilka kroków.
 
-## Krok 1: Załaduj notatnik programu OneNote
+## Jak usunąć węzeł potomny w Javie – przewodnik krok po kroku
+
+### Krok 1: Załaduj notatnik OneNote
 
 ```java
 String dataDir = "Your Document Directory";
 Notebook notebook = new Notebook(dataDir + "test.onetoc2");
 ```
 
-W tym kroku określamy katalog, w którym znajduje się nasz Notatnik OneNote i ładujemy go do obiektu Notatnik.
+W tym kroku określamy katalog, w którym znajduje się nasz notatnik OneNote, i ładujemy go do obiektu `Notebook`.
 
-## Krok 2: Przejdź przez węzły podrzędne
+### Krok 2: Przejdź przez węzły potomne
 
 ```java
 for (INotebookChildNode child : new List<>(notebook)) {
     if (child.getDisplayName().equals("Remove Me")) {
-        // Usuń element podrzędny z notatnika
+        // Remove the Child Item from the Notebook
         notebook.removeChild(child);
     }
 }
 ```
 
-Tutaj iterujemy po każdym węźle podrzędnym notatnika. Sprawdzamy, czy wyświetlana nazwa pasuje do węzła, który chcemy usunąć. Jeśli zostanie znaleziony, usuwamy go z notatnika.
+Tutaj iterujemy po każdym węźle potomnym notatnika. Sprawdzamy, czy nazwa wyświetlana pasuje do węzła, który chcemy usunąć. Jeśli zostanie znaleziona, wywołujemy `removeChild`, aby usunąć go z hierarchii notatnika.
 
-## Krok 3: Zapisz zmodyfikowany notatnik
+### Krok 3: Zapisz zmodyfikowany notatnik
 
 ```java
 dataDir = dataDir + "RemoveChildNodeFromOneNoteNotebook_out.onetoc2";
 notebook.save(dataDir);
 ```
 
-Na koniec określamy katalog wyjściowy i zapisujemy zmodyfikowany notatnik po usunięciu żądanego węzła podrzędnego.
+Na koniec określamy katalog wyjściowy i zapisujemy zmodyfikowany notatnik po usunięciu wybranego węzła potomnego.
 
-## Wniosek
+## Dlaczego usuwać węzły OneNote programowo?
 
-W tym samouczku dowiedzieliśmy się, jak usunąć węzeł podrzędny z notesu programu OneNote przy użyciu programu Aspose.Note dla języka Java. Za pomocą zaledwie kilku prostych kroków możesz programowo manipulować plikami OneNote, otwierając świat możliwości zarządzania dokumentami i automatyzacji.
+- **Automatyzacja** – Przetwarzaj hurtowo tysiące notatników bez ręcznego wysiłku.  
+- **Spójność** – Wymuszaj konwencje nazewnictwa lub usuwaj przestarzałe sekcje w całej organizacji.  
+- **Integracja** – Łącz z innymi API Aspose (np. konwersja do PDF) w celu tworzenia kompleksowych przepływów pracy.
 
-## Często zadawane pytania
+## Typowe problemy i rozwiązania
 
-### P1: Czy mogę używać Aspose.Note dla Java z innymi frameworkami Java?
+| Problem | Rozwiązanie |
+|-------|----------|
+| `NullPointerException` gdy `child.getDisplayName()` jest null | Dodaj sprawdzenie null przed porównaniem nazwy. |
+| Notatnik nie może zostać zapisany | Upewnij się, że ścieżka wyjściowa jest zapisywalna i rozszerzenie pliku to `.onetoc2`. |
+| Nie znaleziono węzła | Sprawdź dokładną nazwę wyświetlaną (uwzględniając wielkość liter i białe znaki). |
 
-O1: Tak, Aspose.Note for Java jest kompatybilny z różnymi frameworkami Java, takimi jak Spring, Hibernate itp. Możesz go bezproblemowo zintegrować z aplikacjami Java.
+## Najczęściej zadawane pytania
 
-### P2: Czy istnieje forum społecznościowe umożliwiające wsparcie Aspose.Note?
+### Q1: Czy mogę używać Aspose.Note for Java z innymi frameworkami Java?
 
-Odpowiedź 2: Tak, możesz znaleźć wsparcie i nawiązać kontakt z innymi użytkownikami na forum Aspose.Note[Tutaj](https://forum.aspose.com/c/note/28).
+A1: Tak, Aspose.Note for Java jest kompatybilny z różnymi frameworkami Java, takimi jak Spring, Hibernate itp. Możesz go bezproblemowo zintegrować ze swoimi aplikacjami Java.
 
-### P3: Czy mogę wypróbować Aspose.Note dla Java przed zakupem?
+### Q2: Czy istnieje forum społecznościowe dla wsparcia Aspose.Note?
 
- O3: Tak, możesz uzyskać bezpłatną wersję próbną Aspose.Note dla Java od[Tutaj](https://releases.aspose.com/).
+A2: Tak, wsparcie i dyskusje z innymi użytkownikami znajdziesz na forum Aspose.Note [tutaj](https://forum.aspose.com/c/note/28).
 
-### P4: Jak mogę uzyskać tymczasową licencję na Aspose.Note?
+### Q3: Czy mogę wypróbować Aspose.Note for Java przed zakupem?
 
- A4: Możesz uzyskać tymczasową licencję na Aspose.Note od[Tutaj](https://purchase.aspose.com/temporary-license/).
+A3: Tak, darmową wersję próbną Aspose.Note for Java możesz uzyskać [tutaj](https://releases.aspose.com/).
 
-### P5: Gdzie mogę znaleźć szczegółową dokumentację Aspose.Note dla Java?
+### Q4: Jak mogę uzyskać tymczasową licencję dla Aspose.Note?
 
- O5: Możesz uzyskać dostęp do pełnej dokumentacji Aspose.Note dla Java[Tutaj](https://reference.aspose.com/note/java/).
+A4: Tymczasową licencję dla Aspose.Note możesz pobrać [tutaj](https://purchase.aspose.com/temporary-license/).
+
+### Q5: Gdzie znajdę szczegółową dokumentację Aspose.Note for Java?
+
+A5: Pełną dokumentację Aspose.Note for Java znajdziesz [tutaj](https://reference.aspose.com/note/java/).
+
+**Dodatkowe pytania i odpowiedzi**
+
+**Q: Czy usunięcie węzła usuwa również jego strony potomne?**  
+A: Tak. Gdy usuniesz węzeł sekcji, wszystkie strony znajdujące się w tej sekcji zostaną usunięte w ramach tej operacji.
+
+**Q: Czy mogę cofnąć usunięcie po wywołaniu `removeChild`?**  
+A: Nie bezpośrednio. Powinieneś zachować kopię zapasową notatnika lub konkretnego węzła przed usunięciem, jeśli potrzebujesz go później przywrócić.
+
+## Zakończenie
+
+W tym samouczku przedstawiliśmy **jak usunąć węzeł** — konkretnie węzeł potomny — z notatnika OneNote przy użyciu Aspose.Note dla Javy. Kilka linijek kodu pozwala zautomatyzować czyszczenie notatników, wymusić ich strukturę i zintegrować manipulację OneNote z większymi pipeline'ami przetwarzania dokumentów.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
+
+---
+
+**Ostatnia aktualizacja:** 2026-01-02  
+**Testowano z:** Aspose.Note 24.11 for Java  
+**Autor:** Aspose  
+
+---

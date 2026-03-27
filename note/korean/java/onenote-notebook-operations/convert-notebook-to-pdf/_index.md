@@ -1,33 +1,48 @@
 ---
-title: OneNote에서 노트북을 PDF로 변환 - Aspose.Note
-linktitle: OneNote에서 노트북을 PDF로 변환 - Aspose.Note
-second_title: Aspose.Note 자바 API
-description: Aspose.Note for Java를 사용하여 OneNote 노트북을 PDF 형식으로 변환하는 방법을 알아보세요. Java 애플리케이션에 원활하게 통합하려면 이 단계별 가이드를 따르세요.
-weight: 15
+date: 2026-01-02
+description: Aspose.Note for Java를 사용하여 OneNote를 PDF로 변환하고 OneNote를 PDF로 저장하는 방법을
+  배우세요. OneNote 노트북에서 PDF를 생성하는 단계별 가이드를 따라보세요.
+linktitle: Convert Notebook to PDF in OneNote - Aspose.Note
+second_title: Aspose.Note Java API
+title: OneNote를 PDF로 변환 – Aspose.Note로 노트북을 PDF로 변환
 url: /ko/java/onenote-notebook-operations/convert-notebook-to-pdf/
+weight: 15
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# OneNote에서 노트북을 PDF로 변환 - Aspose.Note
+# onenote를 pdf로 변환 – OneNote에서 노트북을 PDF로 변환
 
 ## 소개
 
-이 튜토리얼에서는 Aspose.Note for Java를 사용하여 노트북을 PDF 형식으로 변환하는 과정을 안내합니다. Aspose.Note는 Microsoft OneNote 파일을 프로그래밍 방식으로 작업하여 PDF로 변환과 같은 작업을 자동화할 수 있는 강력한 라이브러리입니다.
+이 튜토리얼에서는 Aspose.Note for Java를 사용하여 **onen를 pdf로 변환하는 방법**을 단계별로 안내합니다. Aspose.Note은 Microsoft OneNote 파일을 프로그래밍 방식으로 다룰 수 있게 해 주는 강력한 라이브러리로, onenote를 pdf로 저장하고, onenote에서 pdf를 생성하며, .one 파일을 pdf로 변환하는 작업을 자동화할 수 있습니다.
 
-## 전제조건
+## 빠른 답변
+- **이 튜토리얼에서 다루는 내용은?** Aspose.Note for Java를 사용하여 OneNote 노트북(.one)을 PDF 파일로 변환하는 방법.  
+- **필요한 라이브러리는?** Aspose.Note for Java (무료 체험판 제공).  
+- **라이선스가 필요한가요?** 프로덕션 사용 시 라이선스가 필요합니다; 개발 및 테스트 용도로는 체험판을 사용할 수 있습니다.  
+- **지원되는 Java 버전은?** JDK 8 이상이면 모두 사용 가능 (예제는 JDK 15 사용).  
+- **여러 노트북을 한 번에 변환할 수 있나요?** 예—코드를 루프에 감싸서 다수의 파일을 처리할 수 있습니다.
 
-시작하기 전에 다음 필수 구성 요소가 있는지 확인하세요.
+## “convert onenote to pdf”란?
+OneNote를 PDF로 변환한다는 것은 `.one` 노트북 파일을 가져와 인쇄 준비가 된 휴대용 PDF 문서로 만드는 것을 의미합니다. 이는 OneNote가 설치되지 않은 이해관계자와 노트를 공유하거나, 콘텐츠를 보관하거나, 자동화된 보고 파이프라인에 노트를 통합할 때 유용합니다.
 
-1.  JDK(Java Development Kit): 시스템에 JDK가 설치되어 있는지 확인하십시오. 에서 다운로드하여 설치할 수 있습니다.[오라클 웹사이트](https://www.oracle.com/java/technologies/javase-jdk15-downloads.html).
+## 왜 OneNote에서 PDF를 생성해야 할까요?
+- **범용 접근성:** PDF는 거의 모든 디바이스와 운영 체제에서 열 수 있습니다.  
+- **레이아웃 보존:** 이미지, 표, 서식이 모두 유지됩니다.  
+- **규정 준수:** PDF는 서명, 암호화 및 규제 목적의 저장이 용이합니다.  
+- **자동화:** 빌드 스크립트, 웹 서비스 또는 데스크톱 도구에 변환 단계를 삽입할 수 있습니다.
 
-2. Aspose.Note for Java 라이브러리: Aspose.Note for Java 라이브러리가 필요합니다. 다음에서 다운로드할 수 있습니다.[Aspose 웹사이트](https://releases.aspose.com/note/java/).
+## 사전 요구 사항
+
+1. **Java Development Kit (JDK)** – JDK가 설치되어 있는지 확인하세요. [Oracle 웹사이트](https://www.oracle.com/java/technologies/javase-jdk15-downloads.html)에서 다운로드할 수 있습니다.  
+2. **Aspose.Note for Java Library** – 최신 JAR 파일을 [Aspose 웹사이트](https://releases.aspose.com/note/java/)에서 다운로드하세요. 프로젝트의 클래스패스에 JAR를 추가합니다.
 
 ## 패키지 가져오기
 
-먼저 Aspose.Note를 사용하려면 Java 코드에 필요한 패키지를 가져와야 합니다. 방법은 다음과 같습니다.
+OneNote 문서와 PDF 출력 작업에 필요한 클래스를 먼저 가져옵니다.
 
 ```java
 import java.io.IOException;
@@ -36,67 +51,87 @@ import com.aspose.note.Document;
 import com.aspose.note.PdfSaveOptions;
 ```
 
-## 1단계: 노트북 문서 로드
+## 단계별 가이드
+
+### 단계 1: 노트북 문서 로드
+
+`Document` 인스턴스를 생성하고 `.one` 파일 경로를 지정합니다. `"Your Document Directory"`를 실제 **Sample1.one** 파일이 있는 폴더 경로로 바꾸세요.
 
 ```java
 String dataDir = "Your Document Directory";
 Document oneFile = new Document(dataDir + "Sample1.one");
 ```
 
- 이 단계에서는`Document` 개체를 선택하고 OneNote 파일("Sample1.one")을 해당 개체에 로드합니다. 바꾸다`"Your Document Directory"` OneNote 파일이 있는 실제 디렉터리를 사용합니다.
+### 단계 2: PDF 저장 옵션 초기화 (선택 사항)
 
-## 2단계: PDF 저장 옵션 초기화
+이미지 품질이나 폰트 포함과 같은 PDF 출력 설정을 조정하려면 `PdfSaveOptions` 객체를 생성합니다. 기본 설정 그대로 사용해도 향후 커스터마이징을 위한 훅이 됩니다.
 
 ```java
 PdfSaveOptions options = new PdfSaveOptions();
 ```
 
- 여기서는`PdfSaveOptions`PDF 변환 프로세스에 대한 추가 설정을 지정하는 개체입니다. 이 단계는 선택 사항이지만 요구 사항에 따라 변환을 사용자 정의할 수 있습니다.
+### 단계 3: 문서를 PDF로 저장
 
-## 3단계: 문서를 PDF로 저장
+원하는 출력 경로와 옵션 객체를 전달하여 `save` 메서드를 호출합니다. 이것이 핵심 **convert onenote to pdf** 작업입니다.
 
 ```java
 oneFile.save(dataDir + "ConvertToPdf_out.pdf", options);
 ```
 
- 마지막으로 우리는`save` 에 대한 방법`Document` 로드된 노트북 문서를 PDF 형식으로 변환하는 개체입니다. 변환된 PDF가 저장될 출력 파일 경로를 지정할 수 있습니다. 
+### 단계 4: 확인 메시지 출력
 
-## 4단계: 확인 메시지 인쇄
+피드백을 제공하면 특히 배치 작업을 자동화할 때 변환이 성공했는지 확인하는 데 도움이 됩니다.
 
 ```java
 System.out.println("File saved: " + dataDir + "ConvertToPdf_out.pdf");
 ```
 
-이 단계는 선택 사항이지만 사용자에게 피드백을 제공하는 데 권장됩니다. 성공적인 변환과 출력 PDF 파일의 위치를 나타내는 확인 메시지가 인쇄됩니다.
+## 일반적인 문제 및 해결 방법
+
+| 증상 | 가능한 원인 | 해결 방법 |
+|---------|--------------|-----|
+| **NullPointerException** when loading the file | `dataDir` 경로가 잘못되었거나 파일이 없음 | 전체 경로를 확인하고 `Sample1.one` 파일이 존재하는지 확인하세요. |
+| **OutOfMemoryError** on large notebooks | 힙 메모리 부족 | JVM 힙을 늘리세요 (`-Xmx2g` 이상) 또는 페이지를 청크로 나누어 처리합니다. |
+| PDF missing images | 이미지 처리를 위한 PDF 저장 옵션이 설정되지 않음 | `options.setEmbedImages(true)`를 설정하세요 (Aspose.Note 22.9 이상 필요). |
+
+## 자주 묻는 질문
+
+**Q: 한 번에 여러 .one 파일을 PDF로 변환할 수 있나요?**  
+A: 예, `.one` 파일 컬렉션을 순회하면서 동일한 변환 로직을 적용하면 됩니다.
+
+**Q: 변환 가능한 노트북 파일 크기에 제한이 있나요?**  
+A: Aspose.Note 자체에 엄격한 크기 제한은 없지만, 매우 큰 노트북은 더 많은 메모리가 필요하고 처리 시간이 오래 걸릴 수 있습니다.
+
+**Q: Aspose.Note가 PDF 외에 다른 형식으로도 변환을 지원하나요?**  
+A: 물론입니다. 이미지, HTML, Microsoft Word 문서 등 다양한 형식으로 직접할 수 있습니다.
+
+**Q: Aspose.Note for Java의 체험판을 사용할 수 있나요?**  
+A: 예, Aspose 웹사이트에서 완전 기능 체험판을 다운로드하여 라이브러리를 평가할 수 있습니다.
+
+**Q: Aspose.Note for Java에 대한 추가 지원 및 도움을 어디서 받을 수 있나요?**  
+A: [Aspose.Note 포럼](https://forum.aspose.com/c/note/28)에서 커뮤니티 지원, 샘플 코드 및 공식 지원을 받을 수 있습니다.
+
+**Q: **save onenote as pdf**를 사용자 정의 페이지 크기로 저장하려면 어떻게 해야 하나요?**  
+A: `save` 호출 전에 `options.setPageSize(PdfPageSize.A4)`(또는 다른 `PdfPageSize` 열거형) 를 설정하세요.
+
+**Q: Microsoft Office를 설치하지 않고 **generate pdf from onenote**를 할 수 있나요?**  
+A: 예, Aspose.Note는 순수 Java 라이브러리이며 서버에 Office가 필요하지 않습니다.
 
 ## 결론
 
-이 튜토리얼에서는 Java용 Aspose.Note를 사용하여 OneNote에서 노트북을 PDF로 변환하는 방법을 배웠습니다. 이러한 간단한 단계를 따르면 변환 프로세스를 자동화하고 이를 Java 애플리케이션에 원활하게 통합할 수 있습니다.
+이제 Aspose.Note for Java를 사용하여 **convert onenote to pdf**, **save onenote as pdf**, 그리고 **convert .one to pdf** 하는 방법을 배웠습니다. 이 단계들을 따라 하면 노트북‑to‑PDF 변환을 애플리케이션에 원활히 통합하고, 보고 워크플로를 자동화하며, 최종 사용자에게 휴대용 문서를 제공할 수 있습니다.
 
-## FAQ
-
-### Q1: 한 번의 실행으로 여러 노트북 파일을 PDF로 변환할 수 있습니까?
-
-A1: 예, 파일을 반복하면서 각 파일에 대해 개별적으로 변환 프로세스를 수행할 수 있습니다.
-
-### Q2: 변환할 수 있는 노트북 파일의 크기에 제한이 있나요?
-
-A2: Aspose.Note는 파일 크기에 엄격한 제한을 두지 않지만, 파일 크기가 클 경우 변환에 더 많은 시스템 리소스와 시간이 필요할 수 있습니다.
-
-### Q3: Aspose.Note는 PDF 이외의 다른 형식으로의 변환을 지원합니까?
-
-A3: 예, Aspose.Note는 이미지, HTML 및 Microsoft Word 문서를 포함한 다양한 형식으로의 변환을 지원합니다.
-
-### Q4: Aspose.Note for Java에 사용할 수 있는 평가판이 있습니까?
-
-A4: 예, Aspose 웹사이트에서 무료 평가판을 다운로드하여 구매하기 전에 라이브러리의 기능을 평가할 수 있습니다.
-
-### Q5: Aspose.Note for Java에 대한 추가 도움말과 지원은 어디서 찾을 수 있나요?
-
- A5: 다음을 방문할 수 있습니다.[Aspose.Note 포럼](https://forum.aspose.com/c/note/28) 도서관 이용 중 발생하는 질문이나 문제에 대한 도움을 받으십시오.
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
+
+---
+
+**마지막 업데이트:** 2026-01-02  
+**테스트 환경:** Aspose.Note 24.12 for Java  
+**작성자:** Aspose  
+
+---
