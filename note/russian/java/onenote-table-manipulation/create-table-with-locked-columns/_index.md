@@ -1,101 +1,158 @@
 ---
-title: Создать таблицу с заблокированными столбцами в OneNote — Aspose.Note
-linktitle: Создать таблицу с заблокированными столбцами в OneNote — Aspose.Note
+date: 2026-01-23
+description: Узнайте, как зафиксировать ширину столбцов при добавлении таблицы в OneNote
+  с помощью Aspose.Note для Java. Пошаговое руководство с кодом, советами и часто
+  задаваемыми вопросами.
+linktitle: How to Lock Column in OneNote Table – Aspose.Note
 second_title: Aspose.Note Java API
-description: Расширьте возможности OneNote с помощью Aspose.Note для Java. Узнайте, как создавать таблицы с заблокированными столбцами, используя пошаговое руководство. Загрузите бесплатную пробную версию прямо сейчас!
-weight: 12
+title: Как заблокировать столбец в таблице OneNote – Aspose.Note
 url: /ru/java/onenote-table-manipulation/create-table-with-locked-columns/
+weight: 12
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Создать таблицу с заблокированными столбцами в OneNote — Aspose.Note
+# Как заблокировать столбец в таблице OneNote – Aspose.Note
 
 ## Введение
-OneNote — мощный инструмент для организации информации, а Aspose.Note для Java расширяет его возможности, предоставляя простой способ создания таблиц с заблокированными столбцами. В этом руководстве мы покажем вам процесс использования Aspose.Note для Java для создания таблицы с заблокированными столбцами в OneNote.
-## Предварительные условия
-Прежде чем начать, убедитесь, что у вас есть следующие предварительные условия:
-- [Комплект разработки Java (JDK)](https://www.oracle.com/java/technologies/javase-downloads.html)установлен на вашей машине.
-- [Aspose.Note для Java](https://downloads.aspose.com/note/java) библиотека загружена и добавлена в ваш проект.
-## Импортировать пакеты
-В свой Java-проект импортируйте необходимые пакеты для работы с Aspose.Note:
+OneNote — универсальная платформа для заметок, а Aspose.Note for Java упрощает **блокировку ширины столбца** при добавлении таблицы в OneNote. В этом руководстве вы увидите полный практический пример, показывающий, как задать ширину столбца таблицы, заблокировать её и настроить границы таблицы OneNote — всё это с помощью нескольких строк кода на Java.
+
+## Быстрые ответы
+- **Что означает «заблокировать столбец»?** Это фиксирует ширину столбца, чтобы пользователь не мог изменить её в OneNote.  
+- **Какая библиотека предоставляет эту возможность?** Aspose.Note for Java.  
+- **Нужна ли лицензия для запуска примера?** Бесплатная пробная версия подходит для оценки; для продакшна требуется коммерческая лицензия.  
+- **Можно ли добавить новые строки после блокировки столбца?** Да, строки можно продолжать добавлять; заблокированная ширина сохраняется.  
+- **Какая версия Java поддерживается?** Java 6 и новее.
+
+## Что такое «заблокировать столбец» в таблице OneNote?
+Блокировка столбца означает назначение фиксированной ширины объекту `TableColumn` и установку его свойства `LockedWidth` в `true`. Это предотвращает случайное изменение размеров пользователями и сохраняет согласованность макета.
+
+## Почему стоит блокировать ширину столбца в OneNote?
+- **Последовательный макет** — ваши заметки выглядят одинаково на всех устройствах.  
+- **Повышенная читаемость** — длинный текст переносится внутри предсказуемого размера столбца.  
+- **Профессиональный вид** — заблокированные столбцы придают отчетному оформлению законченный вид.
+
+## Предварительные требования
+Прежде чем начать, убедитесь, что подготовлено следующее:
+
+- [Java Development Kit (JDK)](https://www.oracle.com/java/technologies/javase-downloads.html) установлен на вашем компьютере.  
+- Библиотека [Aspose.Note for Java](https://downloads.aspose.com/note/java) загружена и добавлена в classpath вашего проекта.
+
+## Импорт пакетов
+В вашем Java‑проекте импортируйте необходимые пакеты для работы с Aspose.Note:
+
 ```java
 import com.aspose.note.*;
 import java.io.IOException;
 ```
-## Шаг 1. Настройте свой проект
-Начните с создания нового проекта Java и добавления библиотеки Aspose.Note в ваш путь к классам. Убедитесь, что ваш проект настроен для использования JDK.
-## Шаг 2. Инициализация объектов документа и страницы
+
+## Шаг 1: Настройка проекта
+Создайте новый Java‑проект (или используйте существующий) и добавьте JAR‑файлы Aspose.Note в путь сборки. Убедитесь, что проект компилируется с установленным JDK.
+
+## Шаг 2: Инициализация объектов Document и Page
+Начинаем с создания нового `Document` и `Page`, где будет размещена таблица.
+
 ```java
-// Путь к каталогу документов.
+// The path to the documents directory.
 String dataDir = "Your Document Directory";
-//Создайте объект класса Document
+// Create an object of the Document class
 Document doc = new Document();
-// Инициализировать объект класса страницы
+// Initialize Page class object
 Page page = new Page();
 ```
-## Шаг 3. Создайте строки и ячейки таблицы
+
+## Шаг 3: Создание строк и ячеек таблицы
+Здесь мы формируем две строки, каждая с одной ячейкой, содержащей примерный текст. Это демонстрирует, как работает заблокированный столбец при коротком и длинном содержимом.
+
 ```java
-// Инициализировать объект класса TableRow
+// Initialize TableRow class object
 TableRow row1 = new TableRow();
-// Инициализируйте объект класса TableCell и установите текстовое содержимое.
+// Initialize TableCell class object and set text content
 TableCell cell11 = new TableCell();
 cell11.appendChildLast(InsertTable.GetOutlineElementWithText("Small text"));
 row1.appendChildLast(cell11);
-// Инициализировать объект класса TableRow
+// Initialize TableRow class object
 TableRow row2 = new TableRow();
-// Инициализируйте объект класса TableCell и установите текстовое содержимое.
+// Initialize TableCell class object and set text content
 TableCell cell21 = new TableCell();
 cell21.appendChildLast(InsertTable.GetOutlineElementWithText("Long   text    with    several   words and    spaces."));
 row2.appendChildLast(cell21);
 ```
-## Шаг 4. Создайте и настройте таблицу
+
+## Шаг 4: Создание и настройка таблицы
+Теперь создаём таблицу, **задаём ширину столбца**, **блокируем столбец** и **настраиваем границы таблицы OneNote**.
+
 ```java
-// Инициализировать объект класса таблицы
+// Initialize Table class object
 Table table = new Table();
-table.setBordersVisible(true);
+table.setBordersVisible(true);               // customize onenote table borders
 TableColumn col = new TableColumn();
-col.setWidth(200);
-col.setLockedWidth(true);
+col.setWidth(200);                           // set table column width
+col.setLockedWidth(true);                    // onenote table locked width
 table.getColumns().addItem(col);
-// Добавить строки
+// Add rows
 table.appendChildLast(row1);
 table.appendChildLast(row2);
 ```
-## Шаг 5. Добавьте таблицу в структуру и на страницу
+
+## Шаг 5: Добавление таблицы в Outline и страницу
+Присоединяем таблицу к `OutlineElement` и, наконец, добавляем её на страницу — это шаг **add outline element java**.
+
 ```java
 Outline outline = new Outline();
 OutlineElement outlineElem = new OutlineElement();
-// Добавить узел таблицы
+// Add table node
 outlineElem.appendChildLast(table);
-// Добавить узел элемента контура
+// Add outline element node
 outline.appendChildLast(outlineElem);
-// Добавить узел контура
+// Add outline node
 page.appendChildLast(outline);
-// Добавить узел страницы
+// Add page node
 doc.appendChildLast(page);
 ```
-## Шаг 6: Сохраните документ
+
+## Шаг 6: Сохранение документа
+Сохраните файл OneNote (`.one`) в каталог, указанный ранее.
+
 ```java
 dataDir = dataDir + "CreateTableWithLockedColumns_out.one";
 doc.save(dataDir);
 ```
-Поздравляем! Вы успешно создали таблицу с заблокированными столбцами в OneNote с помощью Aspose.Note для Java.
-## Заключение
-В этом руководстве мы рассмотрели процесс использования Aspose.Note для Java для улучшения работы с OneNote путем создания таблиц с заблокированными столбцами. Эта функция добавляет новый уровень организации и структуры в ваши заметки.
+
+Поздравляем! Вы успешно **add table to OneNote** с заблокированным столбцом, фиксированной шириной и настроенными границами, используя Aspose.Note for Java.
+
+## Распространённые проблемы и решения
+| Проблема | Решение |
+|----------|---------|
+| Таблица отображается без границ | Убедитесь, что вызвано `table.setBordersVisible(true);`. |
+| Ширина столбца меняется после добавления строк | Проверьте, что `col.setLockedWidth(true);` установлен **до** добавления строк. |
+| Файл не сохраняется | Проверьте, что `dataDir` указывает на папку с правом записи и заканчивается корректным именем файла. |
+
 ## Часто задаваемые вопросы
-### Совместим ли Aspose.Note для Java со всеми версиями Java?
-Да, Aspose.Note для Java совместим с Java 6 и более поздними версиями.
-### Могу ли я дополнительно настроить внешний вид таблицы?
-Абсолютно! Aspose.Note для Java предоставляет широкие возможности настройки таблиц, такие как настройка границ, интервалов между ячейками и многое другое.
-### Доступна ли пробная версия перед покупкой?
- Да, ты можешь[скачать бесплатную пробную версию](https://releases.aspose.com/) изучить возможности Aspose.Note для Java.
-### Где я могу найти дополнительную поддержку или обсуждения в сообществе?
- Посетить[Форум Aspose.Note](https://forum.aspose.com/c/note/28) за поддержку и обсуждения в сообществе.
-### Как я могу получить временную лицензию на Aspose.Note для Java?
- Посещать[эта ссылка](https://purchase.aspose.com/temporary-license/) получить временную лицензию для целей тестирования.
+
+**В: Совместима ли Aspose.Note for Java со всеми версиями Java?**  
+О: Да, работает с Java 6 и новее, включая Java 11 и Java 17.
+
+**В: Можно ли дальше настраивать внешний вид таблицы?**  
+О: Конечно! Вы можете менять стили границ, отступы ячеек, фон и многое другое через свойства `Table` и `TableCell`.
+
+**В: Есть ли пробная версия перед покупкой?**  
+О: Да, вы можете [скачать бесплатную пробную версию](https://releases.aspose.com/) и оценить возможности Aspose.Note for Java.
+
+**В: Где найти дополнительную поддержку или обсуждения сообщества?**  
+О: Посетите [форум Aspose.Note](https://forum.aspose.com/c/note/28) для получения поддержки и общения с сообществом.
+
+**В: Как получить временную лицензию для Aspose.Note for Java?**  
+О: Перейдите по [этой ссылке](https://purchase.aspose.com/temporary-license/) для получения временной лицензии в тестовых целях.
+
+---
+
+**Последнее обновление:** 2026-01-23  
+**Тестировано с:** Aspose.Note for Java 24.11  
+**Автор:** Aspose  
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

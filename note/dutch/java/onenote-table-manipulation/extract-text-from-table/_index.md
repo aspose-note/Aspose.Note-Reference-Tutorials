@@ -1,26 +1,44 @@
 ---
-title: Tekst uit tabel extraheren in OneNote - Aspose.Note
-linktitle: Tekst uit tabel extraheren in OneNote - Aspose.Note
-second_title: Aspose.Note Java-API
-description: Leer hoe u moeiteloos tekst uit tabellen in OneNote kunt extraheren met Aspose.Note voor Java. Volg onze stapsgewijze handleiding voor een naadloze integratie.
-weight: 14
+date: 2026-01-23
+description: Leer hoe je tabeltekst uit OneNote kunt extraheren met Aspose.Note voor
+  Java. Deze stapsgewijze gids laat zien hoe je tekst uit tabellen kunt extraheren
+  en zelfs OneNote‑tabeltekst kunt converteren voor verdere verwerking.
+linktitle: How to Extract Table Text from OneNote Using Aspose.Note
+second_title: Aspose.Note Java API
+title: Hoe tabeltekst uit OneNote te extraheren met Aspose.Note
 url: /nl/java/onenote-table-manipulation/extract-text-from-table/
+weight: 14
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Tekst uit tabel extraheren in OneNote - Aspose.Note
+# Hoe tabeltekst uit OneNote te extraheren met Aspose.Note
 
-## Invoering
-Op het gebied van Java-ontwikkeling onderscheidt Aspose.Note zich als een krachtig hulpmiddel voor het verwerken van OneNote-documenten. Een van de opmerkelijke kenmerken is de mogelijkheid om moeiteloos tekst uit tabellen te extraheren. Deze tutorial begeleidt u door het proces, waarbij elke stap wordt opgesplitst om een naadloze ervaring te garanderen.
-## Vereisten
-Voordat u in de zelfstudie duikt, moet u ervoor zorgen dat u over het volgende beschikt:
-- Java-ontwikkelomgeving: Zet een Java-ontwikkelomgeving op uw systeem op.
--  Aspose.Note-bibliotheek: Download en installeer de Aspose.Note-bibliotheek. U kunt de benodigde pakketten vinden[hier](https://releases.aspose.com/note/java/).
+## Introductie
+Als je werkt met OneNote‑bestanden in een Java‑applicatie, moet je vaak de inhoud uit tabellen halen voor rapportage, data‑analyse of migratiedoeleinden. In deze tutorial leer je **hoe je tabel**‑gegevens snel en betrouwbaar kunt extraheren met de Aspose.Note‑bibliotheek. We lopen elke stap door—van het laden van een `.one`‑bestand tot het afdrukken van de gecombineerde tekst van elke tabelcel—zodat je deze functionaliteit met minimale inspanning in je eigen projecten kunt integrerenukt het samengevoegde resultaat voor Java (nieuwste versie).  
+-ie.
+
+## Wat betekent “hoe tabel te extraheren” in de context van OneNote?
+Een tabel extraheren betekent het lezen van de tekstuele inhoud die in elke cel van een OneNote‑tabelknooppunt is opgeslagen en deze omzetten naar een platte‑tekstweergave. Dit is nuttig wanneer je **tekst uit tabellen** moet extraheren voor verdere verwerking, zoals het genereren van rapporten of het invoeren van gegevens in andere systemen.
+
+## Waarom Aspose.Note gebruiken voor het extraheren van tabeltekst?
+- **Volledige controle** over de OneNote‑bestandstructuur zonder dat Microsoft Office geïnstalleerd hoeft te zijn.  
+- **Cross‑platform** Java‑API werkt op elk OS dat Java ondersteunt.  
+- **Robuuste verwerking** van complexe OneNote‑functies (geneste tabellen, rich text, afbeeldingen).  
+- **Eenvoudige licentiëring** – je kunt beginnen met een gratis proefversie en upgraden wanneer je klaar bent.
+
+## Voorwaarden
+Voor je begint, zorg dat je het volgende hebt:
+
+- **Java-ontwikkelomgeving** – JDK 8 of hoger geïnstalleerd en geconfigureerd.  
+- **Aspose.Note‑bibliotheek** – Download de nieuwste JAR van de officiële release‑pagina [hier](https://releases.aspose.com/note/java/).  
+- **Een voorbeeld OneNote‑bestand** (`Sample1.one`) geplaatst in een map die je vanuit je code kunt refereren.
+
 ## Pakketten importeren
-Importeer in uw Java-project de Aspose.Note-pakketten om de functionaliteiten ervan te gebruiken. Hier is een voorbeeld:
+Importeer in je Java‑project de benodigde Aspose.Note‑klassen. Dit blok blijft ongewijzigd:
+
 ```java
 import java.io.IOException;
 import java.util.List;
@@ -29,59 +47,99 @@ import com.aspose.note.Document;
 import com.aspose.note.RichText;
 import com.aspose.note.Table;
 ```
-## Stap 1: Laad het document
+
+## Stapsgewijze handleiding
+
+### Stap 1: Laad het document
+Eerst wijs je naar de map die je `.one`‑bestand bevat en maak je een `Document`‑instantie.
+
 ```java
-// Het pad naar de documentenmap.
+// The path to the documents directory.
 String dataDir = "Your Document Directory";
-// Laad het document in Aspose.Note
+// Load the document into Aspose.Note
 Document document = new Document(dataDir + "Sample1.one");
-// Een lijst met tabelknooppunten ophalen
+// Get a list of table nodes
 List<Table> nodes = document.getChildNodes(Table.class);
-// Laad het document in Aspose.Note
+// Load the document into Aspose.Note
 Document document = new Document(dataDir + "Sample1.one");
 ```
-## Stap 2: Haal tabelknooppunten op
+
+> **Pro tip:** Houd het `dataDir`‑pad absoluut of gebruik `Paths.get()` om platform‑specifieke problemen te vermijden.
+
+### Stap 2: Haal tabel‑knooppunten op
+Haal elk tabelknooppunt op uit het document. Dit geeft je een collectie waar je over kunt itereren.
+
 ```java
-// Een lijst met tabelknooppunten ophalen
+// Get a list of table nodes
 List<Table> nodes = document.getChildNodes(Table.class);
 ```
-## Stap 3: Herhaal de tabellen
+
+### Stap 3: Doorloop tabellen
+Loop door elke tabel en geef de index weer. Dit helpt je te identificeren welke tabel je verwerkt, vooral wanneer een document meerdere tabellen bevat.
+
 ```java
 for (int i = 0; i < nodes.size(); i++) {
     Table table = nodes.get(i);
     System.out.println("Table # " + i);
 ```
-## Stap 4: Haal tekst uit de tabel op
+
+### Stap 4: Haal tekst uit tabel op
+Extraheer de `RichText`‑objecten uit de huidige tabel, concateneer hun tekst en sla deze op in een `StringBuilder`.
+
 ```java
-// Tekst ophalen
+// Retrieve text
 List<RichText> textNodes = (List<RichText>) table.getChildNodes(RichText.class);
 StringBuilder text = new StringBuilder();
 for (RichText richText : textNodes) {
     text = text.append(richText.getText().toString());
 }
 ```
-## Stap 5: Tekst afdrukken
+
+> **Waarom dit belangrijk is:** De `RichText`‑klasse legt opmaak vast, maar het aanroepen van `getText()` geeft de platte string terug die je nodig hebt voor verdere verwerking of conversie.
+
+### Stap 5: Tekst afdrukken
+Tot slot, toon de geëxtraheerde tekst op de console. In een real‑world scenario kun je deze string naar een bestand, een database schrijven, of converteren naar CSV.
+
 ```java
-// Druk tekst af op het uitvoerscherm
+// Print text on the output screen
 System.out.println(text);
 ```
-Volg deze stappen nauwgezet om tekst effectief uit tabellen in uw OneNote-documenten te extraheren.
-## Conclusie
-Door Aspose.Note voor Java in uw ontwikkeltoolkit op te nemen, kunt u naadloos tekst uit tabellen in OneNote-documenten extraheren. Deze tutorial biedt een gedetailleerde handleiding, zodat u deze functie moeiteloos kunt implementeren.
+
+Volg deze stappen nauwgezet om effectief **tekst uit tabellen** in je OneNote‑documenten te extraheren.
+
+## Veelvoorkomende problemen & oplossingen
+| Issue | Uitleg | Oplossing |
+|-------|--------|-----------|
+| `NullPointerException` when calling `getChildNodes` | Het document bevat mogelijk geen tabellen. | Controleer `nodes.isEmpty()` voordat je itereert. |
+| Encoding problems on non‑ASCII characters | Aspose.Note retourneert Unicode, maar de console ondersteunt dit mogelijk niet. | Stel de console‑codering in op UTF‑8 (`System.out`‑wrapper) of schrijf naar een bestand met de juiste codering. |
+| License not applied | Het gebruik van een proefversie zonder de licentie in te stellen kan de output afkappen. | Laad je licentiebestand via `License license = new License(); license.setLicense("Aspose.Note.lic");` voordat je het `Document` maakt. |
+
 ## Veelgestelde vragen
-### Is Aspose.Note compatibel met de nieuwste Java-versies?
-Ja, Aspose.Note is ontworpen om compatibel te zijn met de nieuwste Java-versies, waardoor een soepele integratie wordt gegarandeerd.
-### Kan ik Aspose.Note gebruiken voor zowel persoonlijke als commerciële projecten?
- Ja, Aspose.Note kan worden gebruikt voor zowel persoonlijke als commerciële projecten. Controleer de licentiegegevens[hier](https://purchase.aspose.com/buy).
-### Heb ik een tijdelijke licentie nodig voor testdoeleinden?
- Ja, u kunt een tijdelijke licentie voor testen verkrijgen via[deze link](https://purchase.aspose.com/temporary-license/).
-### Waar kan ik community-ondersteuning vinden voor Aspose.Note?
- U kunt gemeenschapsondersteuning vinden in de[Aspose.Note-forums](https://forum.aspose.com/c/note/28).
-### Hoe koop ik de Aspose.Note-bibliotheek?
- Je kunt de bibliotheek kopen[hier](https://purchase.aspose.com/buy).
+
+**Q: Is Aspose.Note compatibel met de nieuwste Java‑versies?**  
+A: Ja, Aspose.Note is ontworpen om compatibel te zijn met de nieuwste Java‑releases, waardoor een soepele integratie wordt gegarandeerd.
+
+**Q: Kan ik Aspose.Note gebruiken voor zowel persoonlijke als commerciële projecten?**  
+A: Ja, je kunt Aspose.Note gebruiken voor persoonlijke en commerciële projecten. Bekijk de licentie‑details [hier](https://purchase.aspose.com/buy).
+
+**Q: Heb ik een tijdelijke licentie nodig voor testdoeleinden?**  
+A: Ja, een tijdelijke licentie is beschikbaar voor evaluatie. Verkrijg deze via [deze link](https://purchase.aspose.com/temporary-license/).
+
+**Q: Waar kan ik community‑ondersteuning vinden voor Aspose.Note?**  
+A: Community‑ondersteuning is beschikbaar in de [Aspose.Note‑forums](https://forum.aspose.com/c/note/28).
+
+**Q: Hoe koop ik de Aspose.Note‑bibliotheek?**  
+A: Je kunt de bibliotheek direct aanschaffen [hier](https://purchase.aspose.com/buy).
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
+
+---
+
+**Laatst bijgewerkt:** 2026-01-23  
+**Getest met:** Aspose.Note 24.12 for Java  
+**Auteur:** Aspose

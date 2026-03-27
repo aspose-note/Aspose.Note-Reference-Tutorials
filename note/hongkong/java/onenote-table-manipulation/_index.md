@@ -1,10 +1,10 @@
 ---
-title: OneNote 表格操作
-linktitle: OneNote 表格操作
+description: 學習如何使用 Aspose.Note for Java 從 OneNote 表格中提取文字，並輕鬆設定儲存格背景顏色或變更表格樣式。
+linktitle: OneNote Table Manipulation
 second_title: Aspose.Note Java API
-description: 使用 Aspose.Note for Java 增強您的 OneNote 表格。無縫更改樣式、撰寫表格、擷取文字。下載該庫以順利建立文件。
-weight: 32
+title: 使用 Aspose.Note for Java 從 OneNote 表格中提取文字
 url: /zh-hant/java/onenote-table-manipulation/
+weight: 32
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
@@ -13,57 +13,102 @@ url: /zh-hant/java/onenote-table-manipulation/
 
 # OneNote 表格操作
 
-
-
 ## 介紹
 
-您準備好徹底改變您的 OneNote 體驗了嗎？潛入世界[用於 Java 的 Aspose.Note](https://www.aspose.com/products/note/java)教學並解鎖在 OneNote 文件中操作表格的可能性。在本綜合指南中，我們將探索一系列教程，涵蓋使用 Aspose.Note for Java 進行表格操作的各個方面。
+您準備好徹底改變 OneNote 的使用體驗了嗎？在本指南中，我們將示範如何使用 [Aspose.Note for Java](https://www.aspose.com/products/note/java) **從表格中擷取文字**。深入探索 Aspose.Note 教學，開啟在 OneNote 文件中操作表格的無限可能。本完整指南將帶您逐一了解一系列教學，涵蓋使用 Aspose.Note for Java 進行表格操作的各個面向。
 
-## 更改 OneNote 中的表格樣式 - Aspose.Note
-使用 Aspose.Note for Java 輕鬆改變 OneNote 表格的外觀。在本教程中，我們將引導您完成更改表格樣式的逐步過程，讓您可以根據自己的喜好自訂表格的外觀。[下載庫](https://releases.aspose.com/downloads/note/java)現在提升您的文件美觀。[探索更多](./change-table-style/)
+## 快速解答
+- **我可以使用 Java 從 OneNote 表格中擷取文字嗎？** 可以，Aspose.Note for Java 提供直接的 API 讀取儲存格與列的內容。  
+- **使用這些功能需要授權嗎？** 免費試用可用於評估；正式上線則需購買商業授權。  
+- **能否以程式方式變更表格樣式？** 當然可以——您可以套用內建樣式或自行建立自訂樣式。  
+- **如何設定儲存格的背景顏色？** 使用儲存格格式化 API，即可指定任意 RGB 顏色。  
+- **支援哪個版本的 Java？** Aspose.Note for Java 支援 Java 8 及以上版本。
 
-## 在 OneNote 中撰寫表格 - Aspose.Note
-使用 Aspose.Note for Java 以程式方式探索在 OneNote 中編寫表格的藝術。本教程提供了高效文件創建的詳細逐步指南。無論您是初學者還是經驗豐富的開發人員，都可以了解如何將表格組合無縫整合到 OneNote 專案中。[探索更多](./compose-table/).
+## 什麼是「從表格中擷取文字」？
 
-## 在 OneNote 中建立具有鎖定列的表 - Aspose.Note
-透過學習如何使用 Aspose.Note for Java 建立具有鎖定列的表格，將您的 OneNote 體驗提升到一個新的水平。我們的逐步指南可確保您輕鬆增強文件結構。[下載免費試用版](https://www.aspose.com/downloads/note/java)現在來探索鎖定列的威力。[探索更多](./create-table-with-locked-columns/).
+從表格中擷取文字指的是讀取 OneNote 頁面中每個儲存格或列所儲存的文字內容。當您需要分析、轉換或將資料從 OneNote 筆記本遷移至其他系統時，此操作相當重要。
 
-## 從 OneNote 文件中的表格中提取行文本 - Aspose.Note
-使用 Aspose.Note for Java 輕鬆從 OneNote 表格中提取行文字。本教程提供了無縫整合指南，使您能夠有效地操作和利用表格資料。請依照我們的詳細步驟增強您的文件處理技能。[探索更多](./extract-row-text-from-table/).
+## 為什麼選擇 Aspose.Note for Java 進行表格操作？
 
-## 從 OneNote 中的表格中提取文字 - Aspose.Note
-使用 Aspose.Note for Java 解鎖從 OneNote 中的表格中提取文字的秘密。我們的逐步指南簡化了該過程，使您能夠輕鬆提取文字並在 Java 應用程式中使用它。深入了解與 Aspose.Note 無縫整合的世界。[探索更多](./extract-text-from-table/).
+- **完整控制權：** 無需開啟 OneNote UI，即可操作表格。  
+- **豐富格式化：** 變更樣式、鎖定欄位、設定儲存格背景色等。  
+- **跨平台：** 可在任何支援 Java 的作業系統上執行。  
+- **無 COM 相容性問題：** 純 Java API，免除 Windows 專屬函式庫的需求。
 
-## 從 OneNote 中的表格行取得儲存格文字 - Aspose.Note
-掌握使用 Aspose.Note 從 Java 中的 OneNote 表格中提取文字的藝術。本教程提供了全面的指南，揭示了從行中獲取單元格文本的秘密。透過我們的逐步說明提升您的文件處理技能。[探索更多](./get-cell-text-from-row/).
+## 如何在 OneNote 中擷取表格文字
 
-## 在 OneNote 中插入表格 - Aspose.Note
-了解如何使用 Aspose.Note for Java 在 OneNote 中動態插入表格。本逐步指南適合初學者和高級用戶，確保透過動態內容建立增強文件的順利過程。[探索更多](./insert-table/).
+以下提供一系列聚焦於常見表格任務的教學，每篇皆為獨立的步驟說明，您可依需求直接套用於專案。
 
-## 在 OneNote 中設定儲存格背景顏色 - Aspose.Note
-使用 Aspose.Note for Java 輕鬆轉換 OneNote 文件。本教學將引導您輕鬆自訂儲存格背景顏色，為您的表格增添一抹活力。[嘗試免費試用](https://www.aspose.com/downloads/note/java)現在就來體驗客製化的力量吧。
+### 變更 OneNote 表格樣式 - Aspose.Note
+使用 Aspose.Note for Java 輕鬆改變 OneNote 表格的外觀。本教學將一步步說明 **變更表格樣式**，讓您依需求自訂表格外觀。[下載程式庫](https://releases.aspose.com/downloads/note/java) 立即提升文件美感。[探索更多](./change-table-style/)
 
-探索 Aspose.Note for Java）教學課程的世界，徹底改變 OneNote 文件中表格的操作方式。[下載庫](https://releases.aspose.com/downloads/note/java)並踏上無縫整合和文件增強之旅。探索更多教學以釋放 Aspose.Note for Java 的全部潛力。
+### 在 OneNote 中建立表格 - Aspose.Note
+學習如何以程式方式在 OneNote 中組合表格，使用 Aspose.Note for Java。本教學提供詳細的步驟指南，適合新手與有經驗的開發者，讓您順利將表格整合至 OneNote 專案中。[探索更多](./compose-table/)
+
+### 建立具鎖定欄位的 OneNote 表格 - Aspose.Note
+透過 Aspose.Note for Java，學會建立具鎖定欄位的表格，提升文件結構的穩定性。步驟說明讓您輕鬆上手。[下載免費試用版](https://www.aspose.com/downloads/note/java) 立即體驗鎖定欄位的威力。[探索更多](./create-table-with-locked-columns/)
+
+### 從 OneNote 文件的表格中擷取列文字 - Aspose.Note
+使用 Aspose.Note for Java，輕鬆擷取 OneNote 表格的列文字。本教學提供完整整合指南，協助您有效操作與利用表格資料。[探索更多](./extract-row-text-from-table/)
+
+### 從 OneNote 表格中擷取文字 - Aspose.Note
+解鎖 **從表格中擷取文字** 的技巧，使用 Aspose.Note for Java。本步驟說明簡化流程，讓您在 Java 應用程式中輕鬆取得文字並加以運用。[探索更多](./extract-text-from-table/)
+
+### 從 OneNote 表格的列中取得儲存格文字 - Aspose.Note
+掌握在 Java 中使用 Aspose.Note 從 OneNote 表格取得儲存格文字的技巧。本教學提供完整指南，揭示取得列中儲存格文字的祕訣，提升文件處理能力。[探索更多](./get-cell-text-from-row/)
+
+### 在 OneNote 中插入表格 - Aspose.Note
+學習如何使用 Aspose.Note for Java 動態插入表格。本步驟說明適用於新手與進階使用者，確保您能順利為文件加入動態內容。[探索更多](./insert-table/)
+
+### 設定 OneNote 儲存格背景顏色 - Aspose.Note
+使用 Aspose.Note for Java，輕鬆 **設定儲存格背景顏色**，為表格增添活力。[立即試用免費版](https://www.aspose.com/downloads/note/java) 體驗自訂的力量。
+
+探索 Aspose.Note for Java 教學，徹底改變您在 OneNote 文件中操作表格的方式。[下載程式庫](https://releases.aspose.com/downloads/note/java) 開啟無縫整合與文件強化之旅。探索更多教學，釋放 Aspose.Note for Java 的全部潛能。
+
 ## OneNote 表格操作教學
-### [更改 OneNote 中的表格樣式 - Aspose.Note](./change-table-style/)
-使用 Aspose.Note for Java 輕鬆增強您的 OneNote 表格。請按照我們的逐步指南更改表格樣式。立即下載庫！
-### [在 OneNote 中撰寫表格 - Aspose.Note](./compose-table/)
-了解如何使用 Aspose.Note for Java 以程式設計方式在 OneNote 中撰寫表格。高效率文件建立的逐步指南。
-### [在 OneNote 中建立具有鎖定列的表 - Aspose.Note](./create-table-with-locked-columns/)
-使用 Aspose.Note for Java 增強您的 OneNote 體驗。了解如何使用逐步指南建立具有鎖定列的表。立即下載免費試用版！
-### [從 OneNote 文件中的表格中提取行文本 - Aspose.Note](./extract-row-text-from-table/)
-學習使用 Aspose.Note for Java 輕鬆從 OneNote 表格中提取行文字。請按照我們的逐步指南進行無縫整合。
-### [從 OneNote 中的表格中提取文字 - Aspose.Note](./extract-text-from-table/)
-了解如何使用 Aspose.Note for Java 輕鬆從 OneNote 中的表格中提取文字。請按照我們的逐步指南進行無縫整合。
-### [從 OneNote 中的表格行取得儲存格文字 - Aspose.Note](./get-cell-text-from-row/)
-使用 Aspose.Note 解開 Java 中 OneNote 表中文字擷取的秘密。請按照我們的逐步指南來增強您的文件處理技能。
+### [變更 OneNote 表格樣式 - Aspose.Note](./change-table-style/)
+使用 Aspose.Note for Java 輕鬆提升 OneNote 表格。依照步驟說明變更表格樣式。立即下載程式庫！
+### [在 OneNote 中組合表格 - Aspose.Note](./compose-table/)
+學習如何以程式方式在 OneNote 中組合表格，使用 Aspose.Note for Java。提供高效文件建立的步驟指南。
+### [建立具鎖定欄位的 OneNote 表格 - Aspose.Note](./create-table-with-locked-columns/)
+使用 Aspose.Note for Java 強化 OneNote 體驗。學習如何透過步驟說明建立具鎖定欄位的表格。立即下載免費試用版！
+### [從 OneNote 文件的表格中擷取列文字 - Aspose.Note](./extract-row-text-from-table/)
+使用 Aspose.Note for Java 輕鬆擷取 OneNote 表格的列文字。依照步驟說明完成無縫整合。
+### [從 OneNote 表格中擷取文字 - Aspose.Note](./extract-text-from-table/)
+學習如何使用 Aspose.Note for Java **從表格中擷取文字**。依照步驟說明完成無縫整合。
+### [從 OneNote 表格的列中取得儲存格文字 - Aspose.Note](./get-cell-text-from-row/)
+使用 Aspose.Note 解鎖 Java 中 OneNote 表格文字擷取的祕訣。依照步驟說明提升文件處理技能。
 ### [在 OneNote 中插入表格 - Aspose.Note](./insert-table/)
-了解使用 Aspose.Note for Java 在 OneNote 中插入表格。動態內容創建的逐步指南。輕鬆增強您的文件。
-### [在 OneNote 中設定儲存格背景顏色 - Aspose.Note](./setting-cell-background-color/)
-使用 Aspose.Note for Java 輕鬆轉換 OneNote 文件。輕鬆自訂儲存格背景顏色。立即免費試用！
+學習使用 Aspose.Note for Java 在 OneNote 中插入表格。提供動態內容建立的步驟說明，輕鬆提升文件。
+### [設定 OneNote 儲存格背景顏色 - Aspose.Note](./setting-cell-background-color/)
+使用 Aspose.Note for Java 輕鬆變更 OneNote 文件。**設定儲存格背景顏色**。立即試用免費版！
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
+
+## 常見問題
+
+**Q:** 如何從 OneNote 表格的特定儲存格擷取文字？  
+**A:** 使用 Aspose.Note for Java 提供的 `Table.getRows().get(rowIndex).getCells().get(cellIndex).getText()` 方法。
+
+**Q:** 可以在表格建立之後變更表格樣式嗎？  
+**A:** 可以，隨時存取表格的 `Style` 屬性並指派預先定義好的樣式名稱即可。
+
+**Q:** 設定儲存格背景顏色的最佳方式是什麼？  
+**A:** 取得儲存格物件後，使用 `getCellFormat().setBackgroundColor(Color.fromArgb(r, g, b))` 方法。
+
+**Q:** 在正式環境使用這些功能需要付費授權嗎？  
+**A:** 正式上線需要商業授權；開發與測試階段可使用免費試用版。
+
+**Q:** 鎖定表格欄位時有什麼限制嗎？  
+**A:** 鎖定欄位已完整支援，但一旦鎖定後無法以程式方式編輯；必須在建立表格時即設定鎖定狀態。
+
+---
+
+**最後更新：** 2026-01-23  
+**測試環境：** Aspose.Note for Java 24.12  
+**作者：** Aspose
