@@ -1,11 +1,12 @@
 ---
-date: 2025-12-08
+date: 2026-02-18
 description: Aspose.Note kullanarak Java’da OneNote belgeleri oluştururken paragraf
-  stilini nasıl ayarlayacağınızı ve taslak öğesi ekleyeceğinizi öğrenin. OneNote’u
-  PDF’ye dışa aktarın ve OneNote dosyalarını zahmetsizce oluşturun.
+  stilini ayarlamayı ve anahat öğesi eklemeyi öğrenin. OneNote’u PDF’ye dışa aktarın,
+  OneNote’u PDF olarak kaydedin ve OneNote dosyalarını zahmetsizce oluşturun.
 linktitle: Set Paragraph Style while Creating OneNote Document in Java
 second_title: Aspose.Note Java API
-title: Java'da OneNote Belgesi Oluştururken Paragraf Stili Ayarla
+title: OneNote'u PDF'ye Dışa Aktar – Java'da OneNote Belgesi Oluştururken Paragraf
+  Stili Ayarla
 url: /tr/java/onenote-document-manipulation/create-onenote-document-simple-rich-text/
 weight: 12
 ---
@@ -14,40 +15,46 @@ weight: 12
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# OneNote Belgesi Oluştururken Paragraf Stili Ayarlama (Java)
+# Java'da OneNote Belgesi Oluştururken Paragraf Stilini Ayarlama
 
 ## Giriş
 
-Bugünün hızlı tempolu geliştirme ortamında, **paragraf stilini** programlı olarak ayarlayabilmek, şık OneNote dosyaları üretmek için hayati öneme sahiptir. Bu öğreticide, adım adım, basit zengin metinle bir OneNote belgesi nasıl oluşturulur, özel paragraf biçimlendirmesi nasıl uygulanır ve sonunda Aspose.Note for Java kullanarak **OneNote PDF olarak dışa aktarılır** gösterilmektedir. Raporlama motoru, otomatik not alma çözümü veya belge‑dönüştürme hizmeti geliştiriyor olun, burada ele alınan teknikler **OneNote dosyaları** istediğiniz gibi görünmesini sağlayacaktır.
+Bugünün hızlı gelişen yazılım ortamında, **export OneNote to PDF** işlemini programlı olarak yapabilmek, cilalı ve paylaşım‑hazır belgeler üretmek için çok önemlidir. Bu öğretici, bir OneNote dosyası oluşturmayı, özel bir paragraf stili uygulamayı ve son olarak Aspose.Note for Java kullanarak **export OneNote to PDF** işlemini adım adım gösterir. Raporlama motoru, otomatik not‑alma çözümü veya belge‑dönüştürme hizmeti geliştiriyor olun, burada ele alınan teknikler **save OneNote as PDF** işlemini tam biçimlendirme kontrolüyle yapmanıza yardımcı olacaktır.
 
 ## Hızlı Yanıtlar
-- **“Paragraf stili ayarlama” ne anlama geliyor?** Metin paragrafına yazı tipi, boyut, renk ve diğer biçimlendirmeleri uygular.  
-- **Sonucu PDF olarak dışa aktarabilir miyim?** Evet – öğreticinin sonunda OneNote dosyası PDF olarak kaydedilir.  
-- **Aspose.Note için lisansa ihtiyacım var mı?** Değerlendirme için ücretsiz deneme çalışır; üretim için lisans gereklidir.  
-- **Hangi IDE'ler destekleniyor?** Herhangi bir Java IDE – Eclipse, IntelliJ IDEA, NetBeans vb.  
-- **Uygulamanın süresi ne kadar?** Temel bir belge için yaklaşık 10‑15 dakikadır.
+- **set paragraph style** ne anlama geliyor? Bir metin paragrafına yazı tipi, boyut, renk ve diğer biçimlendirmeleri uygular.  
+- **Sonucu PDF olarak dışa aktarabilir miyim?** Evet – öğretici, OneNote dosyasını PDF olarak kaydetme ile sona erer.  
+- **Aspose.Note için lisansa ihtiyacım var mı?** Değerlendirme için ücretsiz deneme sürümü çalışır; üretim için lisans gereklidir.  
+- **Hangi IDE'ler destekleniyor?** Herhangi bir Java IDE – Eclipse, IntelliJ IDEA, NetBeans, vb.  
+- **Uygulamanın süresi ne kadar?** Temel bir belge için yaklaşık 10‑15 dakika.
 
-## Aspose.Note'ta “paragraf stili ayarlama” nedir?
-Paragraf stili ayarlama, bir `ParagraphStyle` nesnesini (yazı tipi adı, boyutu, rengi vb.) yapılandırıp bir `RichText` düğümüne eklemeyi ifade eder. Bu, OneNote sayfasındaki metnin nasıl görüneceği üzerinde tam kontrol sağlar.
+## Aspose.Note'ta “set paragraph style” nedir?
 
-## OneNote dosyaları oluştururken paragraf stili neden ayarlanmalı?
-- **Tutarlı marka kimliği:** Kurumsal yazı tipleri ve renkler otomatik olarak uygulanır.  
-- **Okunabilirlik:** Daha büyük yazı tipleri veya belirli renkler erişilebilirliği artırır.  
-- **Dışa aktarma bütünlüğü:** Stil verilen metin, daha sonra **OneNote PDF dönüştürülür**ken korunur.  
+Paragraf stilini ayarlamak, bir `ParagraphStyle` nesnesini (yazı tipi adı, boyut, renk vb.) yapılandırıp bir `RichText` düğümüne eklemeyi ifade eder. Bu, OneNote sayfasındaki metnin nasıl görüneceği üzerinde tam kontrol sağlar.
 
-## Ön Koşullar
+## OneNote'ta Paragraf Stili Nasıl Ayarlanır?
 
-Başlamadan önce şunların kurulu olduğundan emin olun:
+Bir stil uygulamak, bir `ParagraphStyle` örneği oluşturmak, özelliklerini özelleştirmek ve bir `RichText` öğesine atamak kadar basittir. Stil nesnesi hazır olduğunda API, bunu tek satırlık bir işlem haline getirir.
 
-1. **Java Development Kit (JDK) 1.8+** – herhangi bir güncel JDK yeterlidir.  
-2. **Aspose.Note for Java** – en yeni JAR dosyasını [Aspose.Note download page](https://releases.aspose.com/note/java/) adresinden indirin.  
-3. **Bir IDE** (Eclipse, IntelliJ IDEA veya NetBeans) – örnek kodu derleyip çalıştırmak için.  
+## OneNote PDF Olarak Neden Dışa Aktarılır?
 
-> **Pro tip:** Aspose.Note JAR dosyasını Maven aracılığıyla ya da IDE'nizde JAR dosyasını manuel olarak referans göstererek projenizin sınıf yoluna ekleyin.
+- **Consistent branding:** Dışarıyla not paylaşırken kurumsal yazı tiplerini ve renkleri koruyun.  
+- **Readability:** PDF, tam düzeni korur, bu da baskı veya arşivleme için idealdir.  
+- **Cross‑platform access:** Alıcılar, OneNote gerekmeksizin PDF'yi herhangi bir cihazda görüntüleyebilir.
 
-## Paketleri İçe Aktarma
+## Önkoşullar
 
-İhtiyacımız olan sınıfları ilk olarak içe aktaralım. Bu blok değişmeden kalır.
+Başlamadan önce, aşağıdakilere sahip olduğunuzdan emin olun:
+
+1. **Java Development Kit (JDK) 1.8+** – herhangi bir güncel JDK çalışır.  
+2. **Aspose.Note for Java** – en son JAR'ı [Aspose.Note download page](https://releases.aspose.com/note/java/) adresinden indirin.  
+3. **Bir IDE** (Eclipse, IntelliJ IDEA veya NetBeans), örneği derlemek ve çalıştırmak için.  
+
+> **Pro tip:** Aspose.Note JAR'ı Maven aracılığıyla veya IDE'nizde JAR'ı manuel olarak referans göstererek projenizin classpath'ine ekleyin.
+
+## Paketleri İçe Aktar
+
+İlk olarak, ihtiyacımız olan sınıfları içe aktarın. Bu blok değişmeden kalır.
 
 ```java
 import java.awt.Color;
@@ -61,51 +68,50 @@ import com.aspose.note.SaveFormat;
 import com.aspose.note.ParagraphStyle;
 ```
 
-> `ParagraphStyle` sınıfı, öğreticinin ilerleyen bölümlerinde **paragraf stilini ayarlamak** için anahtar görevi görür.
+> `ParagraphStyle` sınıfı, öğreticide daha sonra **set paragraph style** yapmak için anahtardır.
 
-## Adım Adım Kılavuz
+## Adım‑Adım Kılavuz
 
-Aşağıda her işlemin kısa bir yürütülmesi yer almaktadır. Kod blokları orijinal örnekle aynı kalmıştır; yalnızca açıklayıcı metin eklenmiştir.
+Aşağıda her işlem için kısa bir yürütme bulunmaktadır. Kod blokları orijinal örnekle aynı; sadece açıklayıcı metin ekliyoruz.
 
-### Adım 1: Belge Dizini Ayarla
-Oluşturulan dosyaların nereye kaydedileceğini tanımlayın.
+### Adım 1: Belge Dizinini Ayarla
+Define where the generated files will be saved.
 
 ```java
 String dataDir = "Your Document Directory";
 ```
 
-`"Your Document Directory"` ifadesini makinenizdeki mutlak ya da göreceli bir yol ile değiştirin.
+`"Your Document Directory"` ifadesini makinenizdeki mutlak ya da göreli bir yol ile değiştirin.
 
-### Adım 2: Belge Nesnesini Başlat
-OneNote dosyasını temsil eden kök `Document` nesnesini oluşturun.
+### Adım 2: Document Nesnesini Başlat
+Create the root `Document` that represents the OneNote file.
 
 ```java
 Document doc = new Document();
 ```
 
-### Adım 3: Sayfa Nesnesini Başlat
-OneNote dosyası bir veya daha fazla sayfadan oluşur; burada tek bir sayfa ile başlıyoruz.
+### Adım 3: Page Nesnesini Başlat
+A OneNote file consists of one or more pages; we start with a single page.
 
 ```java
 Page page = new Page();
 ```
 
 ### Adım 4: Outline Nesnesini Başlat
-Outline'lar, outline öğeleri için kapsayıcı görevi görür (bölüm gibi düşünülebilir).
+Outlines act as containers for outline elements (think of them as sections).
 
 ```java
 Outline outline = new Outline();
 ```
 
 ### Adım 5: OutlineElement Nesnesini Başlat
-Burada **outline öğesi** ekliyoruz; bu öğe zengin metnimizi tutacak.
+Here we **add outline element** that will hold our rich text.
 
 ```java
 OutlineElement outlineElem = new OutlineElement();
 ```
 
-### Adım 6: Metin Stilini Ayarla (Paragraf Stili Ayarlama)
-
+### Adım 6: Metin Stilini Ayarla (Set Paragraph Style)
 ```java
 ParagraphStyle textStyle = new ParagraphStyle()
                                     .setFontColor(Color.black)
@@ -113,90 +119,84 @@ ParagraphStyle textStyle = new ParagraphStyle()
                                     .setFontSize(10);
 ```
 
-`ParagraphStyle` örneği, yazı tipi, boyut ve rengi tanımlar – bu, sonraki metin düğümü için **paragraf stilini ayarladığımız** yerdir.
+The `ParagraphStyle` instance defines the font, size, and color—this is where we **set paragraph style** for the upcoming text node.
 
 ### Adım 7: RichText Nesnesini Başlat
-
 ```java
 RichText text = new RichText().append("Hello OneNote text!");
 text.setParagraphStyle(textStyle);
 ```
 
-Bir `RichText` düğümü oluşturur, basit bir dize ekler ve önceden tanımlanan stili iliştiririz.
+We create a `RichText` node, insert a simple string, and attach the previously defined style.
 
 ### Adım 8: RichText Düğümünü OutlineElement'e Ekle
-
 ```java
 outlineElem.appendChildLast(text);
 ```
 
-Artık stil verilen metin outline öğesi içinde yer alıyor.
+Now the styled text lives inside the outline element.
 
 ### Adım 9: OutlineElement Düğümünü Outline'a Ekle
-
 ```java
 outline.appendChildLast(outlineElem);
 ```
 
-Outline artık paragrafımızı tutan öğeyi içeriyor.
+The outline now contains the element that holds our paragraph.
 
-### Adım 10: Outline Düğümünü Sayfaya Ekle
-
+### Adım 10: Outline Düğümünü Page'e Ekle
 ```java
 page.appendChildLast(outline);
 ```
 
-Outline'ı sayfaya yerleştiriyoruz.
+We place the outline onto the page.
 
-### Adım 11: Sayfa Düğümünü Belgeye Ekle
-
+### Adım 11: Page Düğümünü Document'e Ekle
 ```java
 doc.appendChildLast(page);
 ```
 
-Belge artık stil verilen metnimizi içeren tek bir sayfaya sahip.
+The document now has a single page with our styled text.
 
-### Adım 12: Belgeyi Kaydet (OneNote PDF Olarak Dışa Aktar)
-
+### Adım 12: Belgeyi Kaydet (Export OneNote PDF)
 ```java
 doc.save(dataDir + "CreateOneNoteDocumentWithSimpleRichText_out.pdf", SaveFormat.Pdf);
 ```
 
-`save` yöntemi OneNote dosyasını yazar ve **OneNote PDF dışa aktarımı** aynı adımda gerçekleşir. Yerel format için `SaveFormat.One` kullanarak `.one` olarak da kaydedebilirsiniz.
+The `save` method writes the OneNote file and **exports OneNote PDF** in one step. You can also save as `.one` by using `SaveFormat.One` if you need the native format.
 
 ## Yaygın Sorunlar ve Çözümler
 
-| Sorun | Neden | Çözüm |
+| Sorun | Sebep | Çözüm |
 |-------|--------|-----|
-| **Dosya bulunamadı** | `dataDir` mevcut olmayan bir klasöre işaret ediyor. | Klasörün var olduğundan emin olun veya programatik olarak oluşturun (`new File(dataDir).mkdirs();`). |
-| **Boş PDF** | Kaydetmeden önce içerik eklenmemiş. | `RichText` düğümünün eklendiğini ve stilin ayarlandığını doğrulayın. |
-| **Desteklenmeyen yazı tipi** | Sisteminizde yazı tipi yüklü değil. | `"Arial"` gibi yaygın bir yazı tipi kullanın veya yazı tipini projeye gömün. |
+| **File not found** | `dataDir`, var olmayan bir klasöre işaret ediyor. | Dizinin var olduğundan emin olun veya programlı olarak oluşturun (`new File(dataDir).mkdirs();`). |
+| **Blank PDF** | Kaydetmeden önce içerik eklenmemiş. | `RichText` düğümünün eklendiğini ve stilin ayarlandığını doğrulayın. |
+| **Unsupported font** | Yazı tipi adı sistemde yüklü değil. | "Arial" gibi yaygın bir yazı tipi kullanın veya yazı tipini projeye gömün. |
 
 ## Sıkça Sorulan Sorular
 
-**S: Aspose.Note tablolar veya görseller gibi karmaşık biçimlendirmeleri destekliyor mu?**  
-C: Evet, API tablolar, görseller, hiperlinkler ve daha gelişmiş düzen özelliklerini destekler.
+**Q: Aspose.Note karmaşık biçimlendirmeleri (tablolar veya resimler gibi) işleyebilir mi?**  
+A: Evet, API tabloları, resimleri, hiperlinkleri ve daha gelişmiş düzen özelliklerini destekler.
 
-**S: **OneNote PDF**'yi tekrar OneNote dosyasına dönüştürmek mümkün mü?**  
-C: Doğrudan bir dönüşüm sağlanmaz, ancak PDF içeriğini çıkarıp API ile yeni bir OneNote belgesi oluşturabilirsiniz.
+**Q: OneNote PDF'yi bir OneNote dosyasına geri dönüştürmek mümkün mü?**  
+A: Doğrudan dönüşüm sağlanmaz, ancak PDF içeriğini çıkarıp API kullanarak bir OneNote belgesi yeniden oluşturabilirsiniz.
 
-**S: Kütüphane Linux/macOS ortamlarında çalışıyor mu?**  
-C: Kesinlikle. Aspose.Note for Java platform bağımsızdır; sadece JDK yüklü olduğundan emin olun.
+**Q: Kütüphane Linux/macOS ortamlarında çalışır mı?**  
+A: Kesinlikle. Aspose.Note for Java platform bağımsızdır; sadece JDK'nın kurulu olduğundan emin olun.
 
-**S: Birden fazla sayfa veya outline nasıl eklenir?**  
-C: Ek `Page` ve `Outline` nesneleri oluşturup, tek sayfalı örnek gibi `Document` nesnesine ekleyin.
+**Q: Birden fazla sayfa veya outline nasıl eklenir?**  
+A: Ek `Page` ve `Outline` nesneleri oluşturun, ardından tek sayfalı örnek gibi `Document`'e ekleyin.
 
-**S: Daha fazla örnek nerede bulunabilir?**  
-C: Resmi Aspose.Note belgeleri ve [support forum](https://forum.aspose.com/c/note/28) birçok kod örneği içerir.
+**Q: Daha fazla örnek nerede bulunur?**  
+A: Resmi Aspose.Note belgeleri ve [support forum](https://forum.aspose.com/c/note/28) birçok kod örneği içerir.
 
 ## Sonuç
 
-Artık **paragraf stilini ayarlamayı**, **outline öğesi eklemeyi** ve Aspose.Note for Java kullanarak **PDF olarak dışa aktarılabilen OneNote dosyası** oluşturmayı gördünüz. Stil verilen metni oluşturma aşamasında eklemek, son belgenin profesyonel görünmesini ve sonraki **OneNote PDF dönüştürme** işleminin biçimlendirmeyi korumasını sağlar. İhtiyacınıza göre bu temeli görseller, tablolar veya özel meta verilerle genişletebilirsiniz.
+Artık **set paragraph style**, **add outline element** ve Aspose.Note for Java kullanarak **exported to PDF** yapılabilen bir **OneNote dosyası** oluşturmayı gördünüz. Oluşturma sürecinin erken aşamasında stillendirilmiş metin eklemek, son belgenin profesyonel görünmesini ve sonraki **convert OneNote PDF** işleminin biçimlendirmeyi korumasını sağlar. Projenizin ihtiyaçlarını karşılamak için bu temeli resimler, tablolar veya özel meta verilerle genişletmekten çekinmeyin.
 
 ---
 
-**Son Güncelleme:** 2025-12-08  
-**Test Edilen Sürüm:** Aspose.Note for Java 24.11 (en son sürüm)  
+**Son Güncelleme:** 2026-02-18  
+**Test Edilen:** Aspose.Note for Java 24.11 (latest release)  
 **Yazar:** Aspose  
 
 {{< /blocks/products/pf/tutorial-page-section >}}

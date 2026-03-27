@@ -1,14 +1,17 @@
 ---
-date: 2025-12-08
+date: 2026-02-18
 description: Naučte se, jak nastavit styl odstavce a přidat prvek osnovy při vytváření
-  dokumentů OneNote v Javě pomocí Aspose.Note. Exportujte OneNote do PDF a snadno
-  generujte soubory OneNote.
+  dokumentů OneNote v Javě pomocí Aspose.Note. Exportujte OneNote do PDF, uložte OneNote
+  jako PDF a snadno generujte soubory OneNote.
 linktitle: Set Paragraph Style while Creating OneNote Document in Java
 second_title: Aspose.Note Java API
-title: Nastavit styl odstavce při vytváření dokumentu OneNote v Javě
+title: Export OneNote do PDF – Nastavení stylu odstavce při vytváření dokumentu OneNote
+  v Javě
 url: /cs/java/onenote-document-manipulation/create-onenote-document-simple-rich-text/
 weight: 12
 ---
+
+ produce final translation.
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
@@ -18,36 +21,39 @@ weight: 12
 
 ## Úvod
 
-V dnešním rychle se vyvíjejícím vývojovém prostředí je schopnost **set paragraph style** programově nezbytná pro vytváření vylepšených souborů OneNote. Tento tutoriál vám krok za krokem ukáže, jak vygenerovat dokument OneNote s jednoduchým bohatým textem, aplikovat vlastní formátování odstavců a nakonec **export OneNote to PDF** pomocí Aspose.Note pro Java. Ať už budujete reportingový engine, automatizované řešení pro pořizování poznámek nebo službu pro konverzi dokumentů, techniky zde popsané vám pomohou **generate OneNote files**, které budou vypadat přesně tak, jak chcete.
+V dnešním rychle se měnícím vývojovém prostředí je schopnost **programově exportovat OneNote do PDF** nezbytná pro tvorbu vylepšených, připravených ke sdílení dokumentů. Tento tutoriál vás provede vytvořením souboru OneNote, aplikací vlastního stylu odstavce a nakonec **exportem OneNote do PDF** pomocí Aspose.Note pro Javu. Ať už budujete reportingový engine, automatizované řešení pro zápis poznámek nebo službu pro konverzi dokumentů, techniky zde popsané vám pomohou **uložit OneNote jako PDF** s přesnou kontrolou formátování.
 
 ## Rychlé odpovědi
-- **Co znamená „set paragraph style“?** Používá se k nastavení písma, velikosti, barvy a dalších formátování odstavce textu.  
+- **Co znamená „nastavit styl odstavce“?** Aplikuje písmo, velikost, barvu a další formátování na odstavec textu.  
 - **Mohu výsledek exportovat do PDF?** Ano – tutoriál končí uložením souboru OneNote jako PDF.  
-- **Potřebuji licenci pro Aspose.Note?** Bezplatná zkušební verze stačí pro hodnocení; licence je vyžadována pro produkční nasazení.  
+- **Potřebuji licenci pro Aspose.Note?** Pro hodnocení stačí bezplatná zkušební verze; licence je vyžadována pro produkční nasazení.  
 - **Jaké IDE jsou podporovány?** Jakékoli Java IDE – Eclipse, IntelliJ IDEA, NetBeans atd.  
 - **Jak dlouho trvá implementace?** Přibližně 10‑15 minut pro základní dokument.
 
-## Co je „set paragraph style“ v Aspose.Note?
-Nastavení stylu odstavce se vztahuje ke konfiguraci objektu `ParagraphStyle` (název písma, velikost, barva atd.) a jeho přiřazení k uzlu `RichText`. To vám poskytuje plnou kontrolu nad tím, jak text vypadá na stránce OneNote.
+## Co je „nastavit styl odstavce“ v Aspose.Note?
+Nastavení stylu odstavce znamená konfiguraci objektu `ParagraphStyle` (název písma, velikost, barva atd.) a jeho přiřazení k uzlu `RichText`. To vám dává plnou kontrolu nad tím, jak text vypadá na stránce OneNote.
 
-## Proč nastavit styl odstavce při generování souborů OneNote?
-- **Consistent branding:** Automaticky aplikovat firemní písma a barvy.  
-- **Readability:** Větší písma nebo specifické barvy zlepšují přístupnost.  
-- **Export fidelity:** Stylovaný text je zachován, když později **convert OneNote PDF**.
+## Jak nastavit styl odstavce v OneNote?
+Aplikace stylu je tak jednoduchá, jako vytvořit instanci `ParagraphStyle`, upravit její vlastnosti a přiřadit ji elementu `RichText`. API umožňuje provést to jedním řádkem, jakmile je objekt stylu připraven.
+
+## Proč exportovat OneNote do PDF?
+- **Konzistentní branding:** Zachová firemní písma a barvy při sdílení poznámek externě.  
+- **Čitelnost:** PDF zachovává přesné rozložení, což je ideální pro tisk nebo archivaci.  
+- **Přístup napříč platformami:** Příjemci mohou PDF zobrazit na libovolném zařízení bez potřeby OneNote.  
 
 ## Požadavky
 
-Před začátkem se ujistěte, že máte:
+Než začnete, ujistěte se, že máte:
 
-1. **Java Development Kit (JDK) 1.8+** – jakýkoli aktuální JDK bude fungovat.  
-2. **Aspose.Note for Java** – stáhněte nejnovější JAR ze [stránky ke stažení Aspose.Note](https://releases.aspose.com/note/java/).  
+1. **Java Development Kit (JDK) 1.8+** – funguje jakýkoli aktuální JDK.  
+2. **Aspose.Note pro Javu** – stáhněte nejnovější JAR ze [stránky ke stažení Aspose.Note](https://releases.aspose.com/note/java/).  
 3. **IDE** (Eclipse, IntelliJ IDEA nebo NetBeans) pro kompilaci a spuštění ukázky.  
 
-> **Pro tip:** Přidejte JAR Aspose.Note do classpath vašeho projektu pomocí Maven nebo ručním odkazem na JAR ve vašem IDE.
+> **Tip:** Přidejte JAR Aspose.Note do classpath vašeho projektu pomocí Maven nebo ručního odkazu na JAR ve vašem IDE.
 
 ## Import balíčků
 
-Nejprve importujte třídy, které budeme potřebovat. Tento blok zůstává nezměněn.
+Nejprve importujte třídy, které budeme potřebovat. Tento blok zůstává beze změny.
 
 ```java
 import java.awt.Color;
@@ -61,14 +67,14 @@ import com.aspose.note.SaveFormat;
 import com.aspose.note.ParagraphStyle;
 ```
 
-> Třída `ParagraphStyle` je klíčem k **set paragraph style** později v tutoriálu.
+> Třída `ParagraphStyle` je klíčová pro **nastavení stylu odstavce** později v tutoriálu.
 
-## Postupný průvodce
+## Průvodce krok za krokem
 
-Níže je stručný průvodce každou operací. Kódové bloky jsou přesně takové, jaké jsou v originálním vzorku; pouze přidáváme vysvětlující text.
+Níže najdete stručný průchod jednotlivými operacemi. Kódové bloky jsou přesně takové, jaké jsou v původním příkladu; přidáváme jen vysvětlující text.
 
 ### Krok 1: Nastavení adresáře dokumentu
-Určete, kam budou generované soubory uloženy.
+Definujte, kam se mají generované soubory ukládat.
 
 ```java
 String dataDir = "Your Document Directory";
@@ -84,27 +90,28 @@ Document doc = new Document();
 ```
 
 ### Krok 3: Inicializace objektu Page
-Soubor OneNote se skládá z jedné nebo více stránek; začínáme s jednou stránkou.
+Soubor OneNote se skládá z jedné nebo více stránek; začínáme jednou stránkou.
 
 ```java
 Page page = new Page();
 ```
 
 ### Krok 4: Inicializace objektu Outline
-Outlines fungují jako kontejnery pro elementy outline (přemýšlejte o nich jako o sekcích).
+Outlines fungují jako kontejnery pro outline elementy (přemýšlejte o nich jako o sekcích).
 
 ```java
 Outline outline = new Outline();
 ```
 
 ### Krok 5: Inicializace objektu OutlineElement
-Zde **add outline element**, který bude obsahovat náš bohatý text.
+Zde **přidáváme outline element**, který bude obsahovat náš rich text.
 
 ```java
 OutlineElement outlineElem = new OutlineElement();
 ```
 
-### Krok 6: Nastavení stylu textu (Set Paragraph Style)
+### Krok 6: Nastavení stylu textu (Nastavit styl odstavce)
+
 ```java
 ParagraphStyle textStyle = new ParagraphStyle()
                                     .setFontColor(Color.black)
@@ -112,9 +119,10 @@ ParagraphStyle textStyle = new ParagraphStyle()
                                     .setFontSize(10);
 ```
 
-Instance `ParagraphStyle` definuje písmo, velikost a barvu — toto je místo, kde **set paragraph style** pro nadcházející textový uzel.
+Instance `ParagraphStyle` definuje písmo, velikost a barvu – toto je místo, kde **nastavujeme styl odstavce** pro nadcházející textový uzel.
 
 ### Krok 7: Inicializace objektu RichText
+
 ```java
 RichText text = new RichText().append("Hello OneNote text!");
 text.setParagraphStyle(textStyle);
@@ -123,73 +131,78 @@ text.setParagraphStyle(textStyle);
 Vytvoříme uzel `RichText`, vložíme jednoduchý řetězec a připojíme dříve definovaný styl.
 
 ### Krok 8: Přidání uzlu RichText do OutlineElement
+
 ```java
 outlineElem.appendChildLast(text);
 ```
 
-Nyní stylovaný text žije uvnitř elementu outline.
+Nyní stylizovaný text žije uvnitř outline elementu.
 
 ### Krok 9: Přidání uzlu OutlineElement do Outline
+
 ```java
 outline.appendChildLast(outlineElem);
 ```
 
 Outline nyní obsahuje element, který drží náš odstavec.
 
-### Krok 10: Přidání uzlu Outline na stránku
+### Krok 10: Přidání uzlu Outline do Page
+
 ```java
 page.appendChildLast(outline);
 ```
 
 Umístíme outline na stránku.
 
-### Krok 11: Přidání uzvu Page do Document
+### Krok 11: Přidání uzlu Page do Document
+
 ```java
 doc.appendChildLast(page);
 ```
 
-Dokument nyní má jednu stránku s naším stylovaným textem.
+Dokument nyní má jednu stránku s naším stylizovaným textem.
 
 ### Krok 12: Uložení dokumentu (Export OneNote PDF)
+
 ```java
 doc.save(dataDir + "CreateOneNoteDocumentWithSimpleRichText_out.pdf", SaveFormat.Pdf);
 ```
 
-Metoda `save` zapíše soubor OneNote a **exports OneNote PDF** v jednom kroku. Můžete také uložit jako `.one` pomocí `SaveFormat.One`, pokud potřebujete nativní formát.
+Metoda `save` zapíše soubor OneNote a **exportuje OneNote PDF** v jednom kroku. Můžete také uložit jako `.one` pomocí `SaveFormat.One`, pokud potřebujete nativní formát.
 
 ## Časté problémy a řešení
 
 | Problém | Důvod | Řešení |
-|-------|--------|-----|
-| **File not found** | `dataDir` ukazuje na neexistující složku. | Zajistěte, aby adresář existoval, nebo jej vytvořte programově (`new File(dataDir).mkdirs();`). |
-| **Blank PDF** | Před uložením nebyl přidán žádný obsah. | Ověřte, že uzel `RichText` je připojen a styl je nastaven. |
-| **Unsupported font** | Název písma není nainstalován v systému. | Použijte běžné písmo jako `"Arial"` nebo vložte písmo do projektu. |
+|---------|-------|--------|
+| **Soubor nenalezen** | `dataDir` ukazuje na neexistující složku. | Ujistěte se, že adresář existuje, nebo jej vytvořte programově (`new File(dataDir).mkdirs();`). |
+| **Prázdné PDF** | Před uložením nebyl přidán žádný obsah. | Ověřte, že je uzel `RichText` připojen a styl nastaven. |
+| **Není podporováno písmo** | Název písma není nainstalován v systému. | Použijte běžné písmo jako `"Arial"` nebo vložte písmo do projektu. |
 
 ## Často kladené otázky
 
-**Q: Může Aspose.Note zvládnout složité formátování, jako jsou tabulky nebo obrázky?**  
-A: Ano, API podporuje tabulky, obrázky, hypertextové odkazy a pokročilejší funkce rozvržení.
+**Q: Dokáže Aspose.Note zpracovat složité formátování, jako jsou tabulky nebo obrázky?**  
+A: Ano, API podporuje tabulky, obrázky, hypertextové odkazy a další pokročilé funkce rozvržení.
 
-**Q: Je možné **convert OneNote PDF** zpět na soubor OneNote?**  
+**Q: Je možné **převést OneNote PDF** zpět na soubor OneNote?**  
 A: Přímá konverze není k dispozici, ale můžete extrahovat obsah PDF a pomocí API znovu vytvořit dokument OneNote.
 
-**Q: Funguje knihovna na Linux/macOS prostředích?**  
-A: Rozhodně. Aspose.Note pro Java je platformově nezávislý; stačí mít nainstalovaný JDK.
+**Q: Funguje knihovna v prostředích Linux/macOS?**  
+A: Rozhodně. Aspose.Note pro Javu je platformně nezávislý; stačí mít nainstalovaný JDK.
 
-**Q: Jak přidám více stránek nebo outline?**  
-A: Vytvořte další objekty `Page` a `Outline` a poté je připojte k `Document` stejně jako v příkladu s jednou stránkou.
+**Q: Jak přidat více stránek nebo outline?**  
+A: Vytvořte další objekty `Page` a `Outline` a připojte je k `Document` stejně jako v jednostránkovém příkladu.
 
-**Q: Kde najdu více příkladů?**  
-A: Oficiální dokumentace Aspose.Note a [fórum podpory](https://forum.aspose.com/c/note/28) obsahují mnoho ukázek kódu.
+**Q: Kde najdu další příklady?**  
+A: Oficiální dokumentace Aspose.Note a [fórum podpory](https://forum.aspose.com/c/note/28) obsahují spoustu ukázek kódu.
 
 ## Závěr
 
-Nyní jste viděli, jak **set paragraph style**, **add outline element** a **generate a OneNote file**, který lze **exported to PDF** pomocí Aspose.Note pro Java. Začlenění stylovaného textu již v počáteční fázi tvorby zajišťuje, že finální dokument vypadá profesionálně a že jakákoli následná operace **convert OneNote PDF** zachová formátování. Neváhejte tuto základnu rozšířit o obrázky, tabulky nebo vlastní metadata, aby vyhovovala potřebám vašeho projektu.
+Nyní víte, jak **nastavit styl odstavce**, **přidat outline element** a **vytvořit soubor OneNote**, který lze **exportovat do PDF** pomocí Aspose.Note pro Javu. Začlenění stylizovaného textu již při tvorbě zajišťuje, že finální dokument bude profesionální a že jakákoli následná **konverze OneNote PDF** si zachová formátování. Neváhejte rozšířit tuto základnu o obrázky, tabulky nebo vlastní metadata podle potřeb vašeho projektu.
 
 ---
 
-**Poslední aktualizace:** 2025-12-08  
-**Testováno s:** Aspose.Note for Java 24.11 (nejnovější verze)  
+**Poslední aktualizace:** 2026-02-18  
+**Testováno s:** Aspose.Note pro Javu 24.11 (nejnovější vydání)  
 **Autor:** Aspose  
 
 {{< /blocks/products/pf/tutorial-page-section >}}
