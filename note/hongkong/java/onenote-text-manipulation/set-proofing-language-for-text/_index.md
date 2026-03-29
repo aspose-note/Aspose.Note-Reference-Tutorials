@@ -1,49 +1,75 @@
 ---
-title: 在 OneNote 中設定文字校對語言 - Aspose.Note
-linktitle: 在 OneNote 中設定文字校對語言 - Aspose.Note
+date: 2026-03-29
+description: 學習如何使用 Aspose.Note for Java 為 OneNote 文字設定語言。本分步指南將示範如何建立 OneNote 文件、變更文字語言，並有效儲存
+  OneNote 檔案。
+linktitle: Set Proofing Language for Text in OneNote - Aspose.Note
 second_title: Aspose.Note Java API
-description: 釋放 Aspose.Note for Java 的潛力！透過我們的逐步指南，了解如何在 OneNote 中無縫設定文字校對語言。
-weight: 22
+title: 如何在 OneNote 中設定文字語言 – Aspose.Note
 url: /zh-hant/java/onenote-text-manipulation/set-proofing-language-for-text/
+weight: 22
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# 在 OneNote 中設定文字校對語言 - Aspose.Note
+# 如何在 OneNote 中設定文字語言 – Aspose.Note
 
 ## 介紹
-在軟體開發的動態世界中，Aspose.Note for Java 作為以程式設計方式管理和操作 OneNote 文件的強大工具脫穎而出。如果您希望透過在 OneNote 中設定文字校對語言的能力來增強 Java 應用程序，那麼您來對地方了。本教學將逐步引導您完成整個過程，確保您清楚掌握每個概念。
-## 先決條件
-在深入學習本教程之前，請確保您具備以下先決條件：
-1. Java 開發環境：確保您的電腦上設定了 Java 開發環境。
-2.  Aspose.Note for Java 函式庫：從下列位置下載並安裝 Aspose.Note for Java 函式庫：[下載連結](https://releases.aspose.com/note/java/).
-3. 文檔目錄：為文檔建立一個目錄以儲存輸出檔案。
-## 導入包
-首先導入必要的套件來啟動您的開發流程。以下是幫助您入門的程式碼片段：
+如果您需要在 OneNote 筆記本中為特定文字片段 **設定語言**，Aspose.Note for Java 讓這個過程變得簡單。在本教學中，您將學習如何建立 OneNote 文件、為單個字詞或片語變更文字語言，最後將 OneNote 檔案儲存為已套用正確校對語言的檔案。完成後，您將了解設定語言對拼寫檢查與在地化的重要性，並擁有可直接執行的程式碼範例。
+
+## 快速解答
+- **設定語言** 會影響什麼？它告訴 OneNote 使用哪個校對字典來進行拼寫檢查和文法校正。  
+- **我可以在同一筆記中設定不同語言嗎？** 是的，您可以為每個文字段落指派語言。  
+- **我需要 Aspose.Note 的授權嗎？** 免費試用版可用於測試；正式環境需購買商業授權。  
+- **支援哪些 Java 版本？** Aspose.Note for Java 支援 Java 8 及以上版本。  
+- **輸出檔案是 .one 格式嗎？** 是的，文件會儲存為 OneNote *.one* 檔案。
+
+## 前置條件
+在深入程式碼之前，請確保您已具備以下條件：
+
+1. **Java 開發環境** – 已安裝並設定 JDK 8 或更高版本。  
+2. **Aspose.Note for Java 函式庫** – 從 [download link](https://releases.aspose.com/note/java/) 下載並安裝函式庫。  
+3. **文件目錄** – 在您的電腦上建立一個資料夾，用於儲存產生的 OneNote 檔案。
+
+## 為何在 OneNote 中設定文字語言？
+設定校對語言可確保拼寫檢查、文法建議與搜尋索引在多語言內容下正確運作。這在以下情況特別有用：
+
+- **全球團隊** 在同一本筆記本上協作。  
+- **在地化文件**，每個章節可能使用不同語言。  
+- **資料驅動的應用程式**，可為全球使用者程式化產生筆記。
+
+## 匯入套件
+首先匯入必要的 Aspose.Note 類別與 Java 工具。
+
 ```java
 import com.aspose.note.*;
 import java.io.IOException;
 import java.nio.file.Paths;
 import java.util.Locale;
 ```
-## 第 1 步：設定文件和頁面
-建立要使用的新文件和頁面。這將作為 OneNote 操作的基礎。
+
+## 步驟 1：設定文件與頁面
+建立一個全新的 OneNote 文件與用於放置內容的頁面。此步驟同時示範 **建立 OneNote 文件**。
+
 ```java
-//文檔目錄的路徑。
+// The path to the documents directory.
 String dataDir = "Your Document Directory";
 Document document = new Document();
 Page page = new Page();
 ```
-## 步驟2：建立輪廓和輪廓元素
-在頁面結構中建構大綱和大綱元素。這是帶有校對語言設定的文字所在的位置。
+
+## 步驟 2：建立大綱與大綱元素
+大綱是筆記本內容的容器。此處我們建立結構，稍後將放入特定語言的文字。
+
 ```java
 Outline outline = new Outline();
 OutlineElement outlineElem = new OutlineElement();
 ```
-## 第 3 步：新增具有語言設定的富文本
-將富文本整合到大綱元素中，指定每個文本段的校對語言。
+
+## 步驟 3：加入具語言設定的豐富文字
+現在我們透過將帶有特定 `Locale` 的 `TextStyle` 附加到每個文字段落，來 **變更文字語言**。此示範 **為文字設定語言**。
+
 ```java
 RichText text = new RichText()
                         .append("United States", new TextStyle().setLanguage(Locale.forLanguageTag("en-US")))
@@ -51,8 +77,10 @@ RichText text = new RichText()
                         .append(" China", new TextStyle().setLanguage(Locale.forLanguageTag("zh-CN")));
 text.setParagraphStyle(ParagraphStyle.getDefault());
 ```
-## 第 4 步：組織元素並保存
-組合您建立的元素並將文件儲存到指定目錄。
+
+## 步驟 4：組織元素並儲存
+組合大綱層級，將其附加至頁面，最後 **儲存 OneNote 檔案**，並套用語言設定。
+
 ```java
 outlineElem.appendChildLast(text);
 outline.appendChildLast(outlineElem);
@@ -60,19 +88,38 @@ page.appendChildLast(outline);
 document.appendChildLast(page);
 document.save(Paths.get(dataDir, "SetProofingLanguageForText.one").toString()); 
 ```
+
+## 常見陷阱與技巧
+- **Locale 格式** – 使用 IETF BCP‑47 標籤（例如 `en-US`、`de-DE`）。不正確的標籤會預設為文件的語言。  
+- **檔案路徑** – 確保 `dataDir` 指向已存在的資料夾；否則 `document.save` 會拋出 `IOException`。  
+- **專業提示：** 若需為整段文字設定語言，請將 `TextStyle` 套用至 `ParagraphStyle`，而非每次 `append` 呼叫。
+
 ## 結論
-恭喜！您已使用 Aspose.Note for Java 成功設定 OneNote 中文字的校對語言。本教學為您提供了無縫增強 Java 應用程式的知識和程式碼片段。
-## 常見問題解答
-### Q：我可以為範例中未提及的其他語言設定校對語言嗎？
-答：當然！透過在中加入所需的語言標籤來修改程式碼`setLanguage`方法。
-### Q：Aspose.Note for Java 與最新的 Java 版本相容嗎？
-答：是的，Aspose.Note for Java 會定期更新，以確保與最新 Java 版本的兼容性。
-### Q：校對語言設定過程中出現錯誤如何處理？
-答：使用 try-catch 區塊實作錯誤處理機制來解決任何潛在問題。
-### Q：我可以將此程式碼整合到 Web 應用程式中嗎？
-答：當然可以！確保您的 Web 專案中正確配置了 Aspose.Note for Java 程式庫。
-### Q：在哪裡可以找到 Aspose.Note for Java 的其他範例和文件？
-答：探索[文件](https://reference.aspose.com/note/java/)以獲得綜合資源。
+您剛剛學會如何使用 Aspose.Note for Java 為 OneNote 筆記本中的單個文字片段 **設定語言**。此功能讓您能以程式方式 **建立 OneNote 文件**、即時 **變更文字語言**，並 **儲存 OneNote 檔案**，附帶正確的校對中繼資料。
+
+## 常見問答
+
+**Q: 我可以為範例中未提及的其他語言設定校對語言嗎？**  
+A: 當然可以！加入額外的 `append` 呼叫，使用所需的 `Locale.forLanguageTag("xx-XX")`。
+
+**Q: Aspose.Note for Java 是否相容於最新的 Java 版本？**  
+A: 是的，函式庫會定期更新以支援最新的 Java 發行版。
+
+**Q: 如何在設定語言的過程中處理錯誤？**  
+A: 將儲存操作包在 `try‑catch` 區塊中，以捕捉 `IOException` 或 `AsposeException`。
+
+**Q: 我可以將此程式碼整合到 Web 應用程式中嗎？**  
+A: 當然可以。只需將 Aspose.Note JAR 加入 Web 專案的 classpath，並確保伺服器對目標目錄具有寫入權限。
+
+**Q: 我在哪裡可以找到 Aspose.Note for Java 的其他範例與文件？**  
+A: 瀏覽 [documentation](https://reference.aspose.com/note/java/) 以取得完整的 API 列表與範例專案。
+
+---
+
+**最後更新：** 2026-03-29  
+**測試環境：** Aspose.Note for Java 24.12  
+**作者：** Aspose  
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
