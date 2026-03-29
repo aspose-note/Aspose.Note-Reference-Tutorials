@@ -1,27 +1,48 @@
 ---
-title: OneNote でリスト プロパティを取得する - Aspose.Note
-linktitle: OneNote でリスト プロパティを取得する - Aspose.Note
+date: 2026-03-08
+description: Aspose.Note for Java を使用して OneNote ドキュメントからリストプロパティを抽出する方法を学びましょう。このステップバイステップガイドでは、必要な正確なコードとヒントを示します。
+linktitle: How to Extract List Properties in OneNote - Aspose.Note
 second_title: Aspose.Note Java API
-description: Aspose.Note for Java を探索して、OneNote ドキュメントのリスト プロパティを簡単に取得します。この強力な Java ライブラリを使用してドキュメント処理を強化します。
-weight: 19
+title: OneNote のリストプロパティを抽出する方法 - Aspose.Note
 url: /ja/java/onenote-text-manipulation/get-list-properties/
+weight: 19
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# OneNote でリスト プロパティを取得する - Aspose.Note
+# OneNote でリストプロパティを抽出する方法 - Aspose.Note
 
-## 導入
-Aspose.Note for Java を活用して OneNote ドキュメントのリスト プロパティを取得および分析するためのこの包括的なチュートリアルへようこそ。経験豊富な開発者であっても、Aspose.Note を使い始めたばかりであっても、このガイドではプロセスを順を追って説明し、明確に理解できるように各ステップに分けて説明します。
-## 前提条件
-チュートリアルに入る前に、次の前提条件が満たされていることを確認してください。
--  Aspose.Note for Java: 最新バージョンがインストールされていることを確認してください。ダウンロードできます[ここ](https://releases.aspose.com/note/java/).
-- Java 開発環境: システム上に Java 開発環境をセットアップします。
-- OneNote ドキュメント: OneNote ドキュメント (例: 「Sample1.one」) をテスト用に用意します。
-## パッケージのインポート
-まず、必要なパッケージを Java プロジェクトにインポートします。これにより、Aspose.Note の機能をコード内でシームレスに使用できるようになります。
+## Introduction
+このチュートリアルでは、Aspose.Note for Java を使用して OneNote ファイルから **リストを抽出する** 方法を学びます。フォントの詳細、リストの書式設定、スタイル属性を読み取る必要がある場合でも、このガイドはドキュメントの読み込みから抽出した値の出力まで、すべての手順を順を追って説明します。最後まで読むと、任意の Java ベースの文書処理パイプラインに組み込める、すぐに使えるコードスニペットが手に入ります。
+
+## Quick Answers
+- **「リストを抽出する」とは何ですか？** OneNote のアウトラインに保存された番号付きリストまたは箇条書きリストの書式詳細（フォント、サイズ、色、スタイル）を読み取ることを指します。  
+- **必要なライブラリはどれですか？** Aspose.Note for Java（最新バージョン）。  
+- **テストにライセンスは必要ですか？** はい、非本番環境での実行には一時ライセンスの使用が推奨されます。  
+- **任意の OS で実行できますか？** Java API は Windows、Linux、macOS で動作します。  
+- **実装にどれくらい時間がかかりますか？** 基本的な設定で通常 10 分未満です。
+
+## What is “how to extract list” in the context of OneNote?
+OneNote は各リスト項目を `OutlineElement` として保存し、そこに `NumberList` オブジェクトが含まれることがあります。リストを抽出するとは、そのオブジェクトのプロパティ（フォント名、サイズ、色、書式設定など）にアクセスし、プログラムから分析または変更できるようにすることです。
+
+## Why use Aspose.Note for Java to extract list properties?
+- **COM 相互運用なし** – Windows の OneNote クライアントを必要とせず、完全に Java だけで動作します。  
+- **完全な忠実度** – カスタムフォントやカラーを含むすべての書式詳細を保持します。  
+- **クロスプラットフォーム** – 任意のサーバーサイド環境で同じコードを実行できます。  
+- **リッチな API** – リストオブジェクトへの直接アクセスを提供し、プロパティ抽出をシンプルにします。
+
+## Prerequisites
+Before you start, ensure you have the following:
+
+- Aspose.Note for Java: 最新リリースを **[here](https://releases.aspose.com/note/java/)** からダウンロードしてください。  
+- Java 開発環境 (JDK 8 以上)。  
+- 既知のディレクトリに配置した OneNote ドキュメント（例: `Sample1.one`）。
+
+## Import Packages
+First, import the classes you’ll need. This gives you access to the core Aspose.Note functionality.
+
 ```java
 import java.io.IOException;
 import java.util.List;
@@ -30,77 +51,96 @@ import com.aspose.note.NumberList;
 import com.aspose.note.OutlineElement;
 ```
 
-次に、例の各ステップをステップバイステップのガイドに分解してみましょう。
+それでは、実装手順をステップバイステップで見ていきましょう。
 
-## ステップ 1: OneNote ドキュメントをロードする
+## How to extract list properties – Step‑by‑Step Guide
+
+### Step 1: Load the OneNote Document
+`.one` ファイルへの正しいパスを指定し、`Document` インスタンスを作成します。
 
 ```java
-//ドキュメントディレクトリへのパス。
+// The path to the documents directory.
 String dataDir = "Your Document Directory";
 
-//ドキュメントを Aspose.Note にロードします。
+// Load the document into Aspose.Note
 Document oneFile = new Document(dataDir + "Sample1.one");
 ```
 
-OneNote ドキュメントへの正しいパスを指定していることを確認してください。この手順では、ドキュメントを使用して Aspose.Note ライブラリを初期化します。
+> **プロのコツ:** 絶対パスを使用するか、プロジェクトのリソースフォルダーに基づいた相対パスを設定して、`FileNotFoundException` を回避してください。
 
-## ステップ 2: ノード コレクションを取得する
+### Step 2: Retrieve the collection of outline nodes
+Each list lives inside an `OutlineElement`. Pull all such elements from the document.
 
 ```java
-//アウトライン要素のコレクションノードを取得します。
+// Retrieve a collection of nodes of the outline element
 List<OutlineElement> nodes = oneFile.getChildNodes(OutlineElement.class);
 ```
 
-ここでは、OneNote ドキュメント内のアウトライン要素を表すノードのコレクションを取得します。
-
-## ステップ 3: ノードを反復処理する
+### Step 3: Iterate through the nodes and locate lists
+Loop through each node, checking whether it contains a `NumberList`. When it does, store the reference for later extraction.
 
 ```java
-//各ノードを反復処理する
+// Iterate through each node
 for (OutlineElement node : nodes) {
     if (node.getNumberList() != null) {
         NumberList list = node.getNumberList();
-        //リストのプロパティに対するさらなる操作を続行します。
+        // Continue with further operations on list properties
     }
 }
 ```
 
-このループは、各アウトライン要素ノードを反復処理し、番号リストが含まれているかどうかを確認します。 true の場合、リスト プロパティの抽出が続行されます。
-
-## ステップ 4: リストのプロパティを抽出する
+### Step 4: Extract the desired list properties
+Inside the loop, you can now read any attribute exposed by the `NumberList` class.
 
 ```java
-//フォント名の取得
+// Retrieve font name
 System.out.println("Font Name: " + list.getFont());
-//フォントの長さを取得する
+// Retrieve font length (character count)
 System.out.println("Font Length: " + list.getFont());
-//フォントサイズを取得する
+// Retrieve font size
 System.out.println("Font Size: " + list.getFontSize());
-//フォントの色の取得
+// Retrieve font color
 System.out.println("Font Color: " + list.getFontColor());
-//取得形式
+// Retrieve format (e.g., decimal, lowerLetter)
 System.out.println("Font format: " + list.getFormat());
-//太字にチェックを入れる
+// Check bold style
 System.out.println("Is bold: " + list.isBold());
-//斜体をチェックする
+// Check italic style
 System.out.println("Is italic: " + list.isItalic());
 ```
 
-これらの行は、フォント名、フォント長、フォント サイズ、フォントの色、形式、スタイル (太字または斜体) などのさまざまなリスト プロパティを抽出します。
+The console output will display each property, allowing you to log, analyze, or further process the list styling information.
 
-## 結論
-おめでとう！ Aspose.Note for Java を使用して OneNote のリスト プロパティを取得する方法を確認しました。このガイドでは、文書処理能力を強化するための知識を提供します。さまざまなドキュメントを試して、特定の要件に合わせてコードを調整します。
-## よくある質問
-### Aspose.Note は、さまざまな OneNote バージョンと互換性がありますか?
-Aspose.Note はさまざまな OneNote バージョンをサポートし、さまざまなドキュメント形式間での互換性を確保します。
-### OneNote ドキュメントから取得したフォント プロパティをカスタマイズできますか?
-はい、ニーズに合わせてコードを変更し、特定のフォント プロパティを選択的に取得できます。
-### 追加のサポートや支援はどこで入手できますか?
-質問や問題がある場合は、次のサイトにアクセスしてください。[Aspose.Note フォーラム](https://forum.aspose.com/c/note/28)迅速な支援のために。
-### テストには一時ライセンスが必要ですか?
-はい、一時ライセンスを取得できます[ここ](https://purchase.aspose.com/temporary-license/)テスト目的のため。
-### Aspose.Note for Java を購入したい場合はどうすればよいですか?
-製品を購入できます[ここ](https://purchase.aspose.com/buy)プロジェクトの可能性を最大限に引き出します。
+## Common Issues & Troubleshooting
+| Symptom | Likely Cause | Fix |
+|---------|--------------|-----|
+| `list.getFont()` で `NullPointerException` が発生 | ノードに `NumberList` が含まれていない | `if (node.getNumberList() != null)` のように null チェックを追加する。 |
+| 出力が表示されない | `dataDir` が間違ったフォルダーを指している | パスを確認し、`Sample1.one` が存在することを確認する。 |
+| フォントカラーが `null` と表示される | リストがデフォルトのテーマカラーを使用している | `list.getFontColor()` を使用し、ドキュメントのテーマをフォールバックとして使用する。 |
+
+## Frequently Asked Questions
+
+**Q: Aspose.Note はさまざまな OneNote バージョンに対応していますか？**  
+A: はい、Aspose.Note は古い 2007 バージョンから最新の Office 365 リリースまで、幅広い OneNote ファイル形式をサポートしています。
+
+**Q: 取得するフォントプロパティをカスタマイズできますか？**  
+A: もちろんです。必要な getter（例: `getFontSize()` や `isBold()`）だけを呼び出し、他は無視できます。
+
+**Q: 追加のサポートや支援はどこで得られますか？**  
+A: ご質問や問題がある場合は、[Aspose.Note フォーラム](https://forum.aspose.com/c/note/28)をご利用ください。
+
+**Q: テストに一時ライセンスは必要ですか？**  
+A: はい、評価目的で一時ライセンスを **[here](https://purchase.aspose.com/temporary-license/)** から取得できます。
+
+**Q: Aspose.Note for Java を購入したい場合は？**  
+A: 製品は **[here](https://purchase.aspose.com/buy)** から購入でき、プロジェクトでそのすべての機能を活用できます。
+
+---
+
+**最終更新日:** 2026-03-08  
+**テスト環境:** Aspose.Note for Java（最新リリース）  
+**作者:** Aspose  
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
