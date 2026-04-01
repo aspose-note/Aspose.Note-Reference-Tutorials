@@ -1,37 +1,53 @@
 ---
-title: Lampirkan File demi Jalur di Aspose.Note
-linktitle: Lampirkan File demi Jalur di Aspose.Note
-second_title: Aspose.Catatan .NET API
-description: Pelajari cara melampirkan file ke dokumen Microsoft OneNote secara terprogram menggunakan Aspose.Note untuk .NET. Sederhanakan proses pengembangan Anda dengan tutorial komprehensif ini.
-weight: 11
+date: 2026-04-01
+description: Pelajari cara membuat dokumen OneNote dan melampirkan file ke OneNote
+  secara programatis menggunakan Aspose.Note untuk .NET.
+keywords:
+- create onenote document
+- attach file to onenote
+- how to attach file
+linktitle: Buat Dokumen OneNote & Lampirkan File dengan Jalur menggunakan Aspose.Note
+second_title: Aspose.Note .NET API
+title: Buat Dokumen OneNote & Lampirkan File melalui Jalur dengan Aspose.Note
 url: /id/net/attachments/attach-file-by-path/
+weight: 11
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Lampirkan File demi Jalur di Aspose.Note
+# Buat Dokumen OneNote & Lampirkan File dengan Path menggunakan Aspose.Note
 
-## Perkenalan
+## Pendahuluan
 
-Aspose.Note untuk .NET adalah perpustakaan canggih yang memungkinkan pengembang bekerja dengan file Microsoft OneNote secara terprogram. Baik Anda ingin membuat, mengedit, mengonversi, atau memanipulasi dokumen OneNote, Aspose.Note untuk .NET menyediakan fungsionalitas komprehensif untuk menyederhanakan proses pengembangan Anda.
+Dalam tutorial ini Anda akan belajar cara **membuat dokumen OneNote** dan melampirkan file ke dalamnya menggunakan path sistem file sederhana. Baik Anda sedang membangun aplikasi pencatatan, mengotomatiskan pembuatan laporan, atau hanya perlu menyematkan file pendukung di dalam notebook OneNote, Aspose.Note untuk .NET membuat prosesnya sederhana dan dapat diandalkan.
+
+## Jawaban Cepat
+- **Apa yang dibahas dalam tutorial ini?** Membuat dokumen OneNote dan melampirkan file dengan path menggunakan Aspose.Note.  
+- **Perpustakaan mana yang diperlukan?** Aspose.Note untuk .NET (dapat diunduh dari situs resmi).  
+- **Apakah saya memerlukan lisensi?** Versi percobaan gratis dapat digunakan untuk pengujian; lisensi komersial diperlukan untuk produksi.  
+- **Bisakah saya menyimpan hasilnya sebagai file .one?** Ya – dokumen disimpan dalam format native OneNote.  
+- **Berapa lama waktu implementasinya?** Biasanya kurang dari 10 menit untuk skenario lampiran dasar.
+
+## Apa itu **membuat dokumen OneNote**?
+
+Membuat dokumen OneNote berarti secara programatik membangun sebuah notebook, bagian, halaman, dan konten (teks, gambar, lampiran) tanpa membuka UI OneNote. Hal ini berguna untuk pelaporan otomatis, pembuatan catatan massal, atau mengintegrasikan OneNote ke dalam alur kerja yang lebih besar.
+
+## Mengapa melampirkan file dengan path ke OneNote?
+
+Melampirkan file dengan path memungkinkan Anda menyematkan dokumen pendukung apa pun—PDF, spreadsheet, gambar—langsung di dalam halaman OneNote. Pengguna dapat membuka lampiran dengan satu klik, menjaga sumber daya terkait bersama-sama dan meningkatkan kolaborasi.
 
 ## Prasyarat
 
-Sebelum mulai menggunakan Aspose.Note untuk .NET, pastikan Anda memiliki prasyarat berikut:
-
-1. Lingkungan Pengembangan: Anda memerlukan komputer dengan kerangka .NET terinstal dan lingkungan pengembangan yang sesuai seperti Visual Studio.
-
-2.  Aspose.Note untuk .NET: Unduh dan instal Aspose.Note untuk .NET dari[tautan unduhan](https://releases.aspose.com/note/net/).
-
-3. Pengetahuan tentang C#: Biasakan diri Anda dengan bahasa pemrograman C# karena Aspose.Catatan untuk .NET terutama digunakan dengan C#.
-
-4. Pemahaman Dasar OneNote: Meskipun tidak wajib, memiliki pemahaman dasar tentang struktur dan konsep OneNote akan bermanfaat.
+1. **Lingkungan Pengembangan** – .NET Framework atau .NET Core terinstal dan Visual Studio (atau IDE pilihan Anda).  
+2. **Aspose.Note untuk .NET** – Unduh dan instal dari [download link](https://releases.aspose.com/note/net/).  
+3. **Pengetahuan C#** – Familiaritas dasar dengan sintaks C#.  
+4. **Dasar-dasar OneNote** – Memahami halaman, outline, dan lampiran membantu tetapi tidak wajib.
 
 ## Impor Namespace
 
-Untuk menggunakan Aspose.Note untuk .NET di proyek Anda, Anda perlu mengimpor namespace yang diperlukan. Inilah cara Anda melakukannya:
+Untuk menggunakan Aspose.Note untuk .NET dalam proyek Anda, Anda perlu mengimpor namespace yang diperlukan. Berikut cara melakukannya:
 
 ```csharp
 using System.IO;
@@ -41,35 +57,35 @@ using System.Collections.Generic;
 using System.Drawing;
 ```
 
-## Lampirkan File demi Jalur di Aspose.Note
+## Lampirkan File dengan Path di Aspose.Note
 
-Melampirkan file ke dokumen OneNote menggunakan Aspose.Note untuk .NET adalah proses yang mudah. Mari kita bagi menjadi beberapa langkah:
+Melampirkan file ke dokumen OneNote menggunakan Aspose.Note untuk .NET adalah proses yang sederhana. Mari kita uraikan menjadi beberapa langkah:
 
-### Langkah 1: Inisialisasi Objek Dokumen
+### Langkah 1: Inisialisasi Objek Document
 
 ```csharp
-// Jalur ke direktori dokumen.
+// The path to the documents directory.
 string dataDir = RunExamples.GetDataDir_Attachments();
 Document doc = new Document();
 ```
 
- Ini menginisialisasi contoh baru dari`Document` kelas, yang mewakili dokumen OneNote.
+Ini menginisialisasi instance baru dari kelas `Document`, yang mewakili dokumen OneNote.
 
-### Langkah 2: Inisialisasi Objek Halaman
+### Langkah 2: Inisialisasi Objek Page
 
 ```csharp
 Aspose.Note.Page page = new Aspose.Note.Page(doc);
 ```
 
- Di sini, kami membuat instance baru dari`Page` kelas, yang mewakili halaman dalam dokumen.
+Di sini, kami membuat instance baru dari kelas `Page`, yang mewakili halaman dalam dokumen.
 
-### Langkah 3: Inisialisasi Objek Garis Besar
+### Langkah 3: Inisialisasi Objek Outline
 
 ```csharp
 Outline outline = new Outline(doc);
 ```
 
- Sebuah`Outline` objek dibuat untuk mengatur konten dalam halaman.
+Objek `Outline` dibuat untuk mengatur konten di dalam halaman.
 
 ### Langkah 4: Inisialisasi Objek OutlineElement
 
@@ -77,7 +93,7 @@ Outline outline = new Outline(doc);
 OutlineElement outlineElem = new OutlineElement(doc);
 ```
 
-`OutlineElement` mewakili elemen dalam struktur garis besar.
+`OutlineElement` mewakili elemen dalam struktur outline.
 
 ### Langkah 5: Inisialisasi Objek AttachedFile
 
@@ -85,31 +101,31 @@ OutlineElement outlineElem = new OutlineElement(doc);
 AttachedFile attachedFile = new AttachedFile(doc,  dataDir + "attachment.txt");
 ```
 
- Di sini, kita membuat sebuah instance dari`AttachedFile`, menentukan jalur ke file yang ingin kita lampirkan.
+Di sini, kami membuat instance `AttachedFile`, menentukan path ke file yang ingin dilampirkan.
 
-### Langkah 6: Tambahkan File Terlampir
+### Langkah 6: Tambahkan File yang Dilampirkan
 
 ```csharp
 outlineElem.AppendChildLast(attachedFile);
 ```
 
-File terlampir ditambahkan ke elemen kerangka.
+File yang dilampirkan ditambahkan ke elemen outline.
 
-### Langkah 7: Tambahkan Elemen Garis Besar
+### Langkah 7: Tambahkan Elemen Outline
 
 ```csharp
 outline.AppendChildLast(outlineElem);
 ```
 
-Elemen kerangka ditambahkan ke kerangka.
+Elemen outline ditambahkan ke outline.
 
-### Langkah 8: Tambahkan Garis Besar
+### Langkah 8: Tambahkan Outline
 
 ```csharp
 page.AppendChildLast(outline);
 ```
 
-Garis besarnya ditambahkan ke halaman.
+Outline ditambahkan ke halaman.
 
 ### Langkah 9: Tambahkan Halaman
 
@@ -117,7 +133,7 @@ Garis besarnya ditambahkan ke halaman.
 doc.AppendChildLast(page);
 ```
 
-Terakhir, halaman tersebut ditambahkan ke dokumen.
+Akhirnya, halaman ditambahkan ke dokumen.
 
 ### Langkah 10: Simpan Dokumen
 
@@ -126,33 +142,44 @@ dataDir = dataDir + "AttachFileByPath_out.one";
 doc.Save(dataDir);
 ```
 
-Dokumen disimpan dan file berhasil dilampirkan.
+Dokumen disimpan, dan file berhasil dilampirkan.
 
-## Kesimpulan
+## Masalah Umum dan Solusinya
 
-Aspose.Note untuk .NET menyederhanakan proses bekerja dengan dokumen OneNote secara terprogram. Dengan mengikuti langkah-langkah yang diuraikan di atas, Anda dapat melampirkan file ke dokumen OneNote Anda dengan lancar menggunakan Aspose.Note untuk .NET.
+| Masalah | Mengapa Terjadi | Cara Memperbaiki |
+|-------|----------------|------------|
+| **File tidak ditemukan** | Path yang diberikan ke `AttachedFile` tidak benar atau file tidak ada. | Pastikan `dataDir` mengarah ke folder yang benar dan `attachment.txt` ada. |
+| **Lampiran tidak terlihat di OneNote** | Hierarki outline mungkin tidak lengkap. | Pastikan Anda menambahkan elemen outline ke outline, kemudian outline ke halaman, dan akhirnya halaman ke dokumen (seperti yang ditunjukkan pada langkah-langkah). |
+| **Penyimpanan gagal karena akses ditolak** | Folder target bersifat read‑only atau Anda tidak memiliki izin. | Simpan ke direktori yang dapat ditulis atau jalankan Visual Studio sebagai administrator. |
 
-## FAQ
+## Pertanyaan yang Sering Diajukan
 
 ### Q1: Apakah Aspose.Note untuk .NET kompatibel dengan semua versi OneNote?
 
-A1: Aspose.Note untuk .NET mendukung berbagai versi OneNote, termasuk OneNote 2010, 2013, 2016, dan OneNote terbaru untuk Windows 10.
+A1: Aspose.Note untuk .NET mendukung berbagai versi OneNote, termasuk OneNote 2010, 2013, 2016, dan OneNote terbaru untuk Windows 10.
 
-### Q2: Dapatkah saya memanipulasi file OneNote yang ada menggunakan Aspose.Note untuk .NET?
+### Q2: Apakah saya dapat memanipulasi file OneNote yang ada menggunakan Aspose.Note untuk .NET?
 
-A2: Ya, Anda bisa mengedit, memodifikasi, dan memanipulasi file OneNote yang ada secara terprogram menggunakan Aspose.Note untuk .NET.
+A2: Ya, Anda dapat mengedit, memodifikasi, dan memanipulasi file OneNote yang ada secara programatik menggunakan Aspose.Note untuk .NET.
 
 ### Q3: Apakah Aspose.Note untuk .NET memerlukan lisensi untuk penggunaan komersial?
 
-A3: Ya, Anda perlu memperoleh lisensi untuk penggunaan komersial Aspose.Note untuk .NET. Anda dapat memperoleh lisensi dari[halaman pembelian](https://purchase.aspose.com/buy).
+A3: Ya, Anda perlu memperoleh lisensi untuk penggunaan komersial Aspose.Note untuk .NET. Anda dapat memperoleh lisensi dari [purchase page](https://purchase.aspose.com/buy).
 
-### Q4: Apakah ada uji coba gratis yang tersedia untuk Aspose.Note untuk .NET?
+### Q4: Apakah tersedia percobaan gratis untuk Aspose.Note untuk .NET?
 
- A4: Ya, Anda dapat memanfaatkan uji coba gratis Aspose.Note untuk .NET dari[halaman percobaan](https://releases.aspose.com/).
+A4: Ya, Anda dapat menggunakan percobaan gratis Aspose.Note untuk .NET dari [trial page](https://releases.aspose.com/).
 
 ### Q5: Di mana saya dapat mencari dukungan untuk Aspose.Note untuk .NET?
 
- A5: Anda dapat mencari dukungan dari forum komunitas Aspose.Note[Di Sini](https://forum.aspose.com/c/note/28).
+A5: Anda dapat mencari dukungan di forum komunitas Aspose.Note [di sini](https://forum.aspose.com/c/note/28).
+
+---
+
+**Terakhir Diperbarui:** 2026-04-01  
+**Diuji Dengan:** Aspose.Note 24.11 for .NET  
+**Penulis:** Aspose  
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

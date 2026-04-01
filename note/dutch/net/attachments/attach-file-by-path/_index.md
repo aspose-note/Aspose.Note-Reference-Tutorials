@@ -1,37 +1,53 @@
 ---
-title: Bestand per pad bijvoegen in Aspose.Note
-linktitle: Bestand per pad bijvoegen in Aspose.Note
+date: 2026-04-01
+description: Leer hoe u een OneNote‑document maakt en een bestand programmeerbaar
+  aan OneNote toevoegt met behulp van Aspose.Note voor .NET.
+keywords:
+- create onenote document
+- attach file to onenote
+- how to attach file
+linktitle: Maak OneNote-document & voeg bestand toe via pad met Aspose.Note
 second_title: Aspose.Note .NET API
-description: Leer hoe u programmatisch bestanden aan Microsoft OneNote-documenten kunt toevoegen met Aspose.Note voor .NET. Vereenvoudig uw ontwikkelingsproces met deze uitgebreide tutorial.
-weight: 11
+title: Maak OneNote‑document & voeg bestand toe via pad met Aspose.Note
 url: /nl/net/attachments/attach-file-by-path/
+weight: 11
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Bestand per pad bijvoegen in Aspose.Note
+# Maak OneNote-document & voeg bestand toe via pad met Aspose.Note
 
-## Invoering
+## Inleiding
 
-Aspose.Note voor .NET is een krachtige bibliotheek waarmee ontwikkelaars programmatisch met Microsoft OneNote-bestanden kunnen werken. Of u nu OneNote-documenten wilt maken, bewerken, converteren of manipuleren, Aspose.Note voor .NET biedt uitgebreide functionaliteit om uw ontwikkelingsproces te stroomlijnen.
+In deze tutorial leer je hoe je **een OneNote-document** maakt en er een bestand aan toevoegt met behulp van een eenvoudig bestandssysteempad. Of je nu een notitie‑app bouwt, rapportgeneratie automatiseert, of gewoon ondersteunende bestanden in een OneNote-notitieboek wilt insluiten, Aspose.Note for .NET maakt het proces eenvoudig en betrouwbaar.
 
-## Vereisten
+## Snelle antwoorden
+- **Waar gaat deze tutorial over?** Een OneNote-document maken en een bestand via pad toevoegen met Aspose.Note.  
+- **Welke bibliotheek is vereist?** Aspose.Note for .NET (downloadbaar van de officiële site).  
+- **Heb ik een licentie nodig?** Een gratis proefversie werkt voor testen; een commerciële licentie is vereist voor productie.  
+- **Kan ik het resultaat opslaan als een .one‑bestand?** Ja – het document wordt opgeslagen in het native OneNote‑formaat.  
+- **Hoe lang duurt de implementatie?** Meestal minder dan 10 minuten voor een basaal bijlage‑scenario.
 
-Voordat u Aspose.Note voor .NET gaat gebruiken, moet u ervoor zorgen dat u aan de volgende vereisten voldoet:
+## Wat is **een OneNote-document maken**?
 
-1. Ontwikkelomgeving: U hebt een computer nodig waarop het .NET-framework is geïnstalleerd en een geschikte ontwikkelomgeving zoals Visual Studio.
+Een OneNote-document maken betekent programmatically een notitieboek, secties, pagina's en inhoud (tekst, afbeeldingen, bijlagen) opbouwen zonder de OneNote‑UI te openen. Dit is nuttig voor geautomatiseerde rapportage, bulk‑notitie‑generatie, of het integreren van OneNote in grotere workflows.
 
-2.  Aspose.Note voor .NET: Download en installeer Aspose.Note voor .NET vanaf de[download link](https://releases.aspose.com/note/net/).
+## Waarom een bestand via pad aan OneNote toevoegen?
 
-3. Kennis van C#: Maak uzelf vertrouwd met de programmeertaal C#, aangezien Aspose.Note voor .NET voornamelijk met C# wordt gebruikt.
+Een bestand via pad toevoegen stelt je in staat om elk ondersteunend document—PDF's, spreadsheets, afbeeldingen—direct in een OneNote-pagina in te sluiten. Gebruikers kunnen de bijlage met één klik openen, waardoor gerelateerde bronnen samen blijven en samenwerking verbetert.
 
-4. Basiskennis van OneNote: Hoewel het niet verplicht is, is het nuttig om een basiskennis van de structuur en concepten van OneNote te hebben.
+## Voorvereisten
 
-## Naamruimten importeren
+1. **Ontwikkelomgeving** – .NET Framework of .NET Core geïnstalleerd en Visual Studio (of je favoriete IDE).  
+2. **Aspose.Note for .NET** – Download en installeer vanaf de [download link](https://releases.aspose.com/note/net/).  
+3. **C#-kennis** – Basiskennis van C#-syntaxis.  
+4. **OneNote-basiskennis** – Begrip van pagina's, outlines en bijlagen helpt, maar is niet verplicht.
 
-Om Aspose.Note voor .NET in uw project te gebruiken, moet u de benodigde naamruimten importeren. Hier ziet u hoe u het kunt doen:
+## Namespaces importeren
+
+Om Aspose.Note for .NET in je project te gebruiken, moet je de benodigde namespaces importeren. Zo doe je dat:
 
 ```csharp
 using System.IO;
@@ -41,75 +57,75 @@ using System.Collections.Generic;
 using System.Drawing;
 ```
 
-## Bestand per pad bijvoegen in Aspose.Note
+## Bestand via pad toevoegen in Aspose.Note
 
-Het bijvoegen van bestanden aan een OneNote-document met Aspose.Note voor .NET is een eenvoudig proces. Laten we het in meerdere stappen opsplitsen:
+Bestanden toevoegen aan een OneNote-document met Aspose.Note for .NET is een eenvoudig proces. Laten we het opsplitsen in meerdere stappen:
 
-### Stap 1: Initialiseer het documentobject
+### Stap 1: Documentobject initialiseren
 
 ```csharp
-// Het pad naar de documentenmap.
+// The path to the documents directory.
 string dataDir = RunExamples.GetDataDir_Attachments();
 Document doc = new Document();
 ```
 
- Hiermee wordt een nieuw exemplaar van de`Document` klasse, die een OneNote-document vertegenwoordigt.
+Dit initialiseert een nieuwe instantie van de `Document`-klasse, die een OneNote-document vertegenwoordigt.
 
-### Stap 2: Initialiseer het paginaobject
+### Stap 2: Paginaobject initialiseren
 
 ```csharp
 Aspose.Note.Page page = new Aspose.Note.Page(doc);
 ```
 
- Hier maken we een nieuw exemplaar van de`Page` klasse, die een pagina binnen het document vertegenwoordigt.
+Hier creëren we een nieuwe instantie van de `Page`-klasse, die een pagina binnen het document vertegenwoordigt.
 
-### Stap 3: Initialiseer het omtrekobject
+### Stap 3: Outline-object initialiseren
 
 ```csharp
 Outline outline = new Outline(doc);
 ```
 
- Een`Outline` Er wordt een object gemaakt om de inhoud op de pagina te ordenen.
+Een `Outline`-object wordt aangemaakt om de inhoud binnen de pagina te organiseren.
 
-### Stap 4: Initialiseer het OutlineElement-object
+### Stap 4: OutlineElement-object initialiseren
 
 ```csharp
 OutlineElement outlineElem = new OutlineElement(doc);
 ```
 
-`OutlineElement` vertegenwoordigt een element binnen de omtrekstructuur.
+`OutlineElement` vertegenwoordigt een element binnen de outline‑structuur.
 
-### Stap 5: Initialiseer het AttachedFile-object
+### Stap 5: AttachedFile-object initialiseren
 
 ```csharp
 AttachedFile attachedFile = new AttachedFile(doc,  dataDir + "attachment.txt");
 ```
 
- Hier maken we een exemplaar van`AttachedFile`, waarbij u het pad opgeeft naar het bestand dat we willen bijvoegen.
+Hier creëren we een instantie van `AttachedFile`, waarbij we het pad naar het bestand dat we willen bijvoegen specificeren.
 
-### Stap 6: Voeg bijgevoegd bestand toe
+### Stap 6: Bijlage toevoegen
 
 ```csharp
 outlineElem.AppendChildLast(attachedFile);
 ```
 
-Het bijgevoegde bestand wordt aan het overzichtselement toegevoegd.
+De bijlage wordt toegevoegd aan het outline‑element.
 
-### Stap 7: Voeg overzichtselement toe
+### Stap 7: Outline-element toevoegen
 
 ```csharp
 outline.AppendChildLast(outlineElem);
 ```
 
-Het omtrekelement wordt aan de omtrek toegevoegd.
+Het outline‑element wordt toegevoegd aan de outline.
 
-### Stap 8: Voeg overzicht toe
+### Stap 8: Outline toevoegen
 
 ```csharp
 page.AppendChildLast(outline);
 ```
 
-Het overzicht wordt aan de pagina toegevoegd.
+De outline wordt toegevoegd aan de pagina.
 
 ### Stap 9: Pagina toevoegen
 
@@ -117,7 +133,7 @@ Het overzicht wordt aan de pagina toegevoegd.
 doc.AppendChildLast(page);
 ```
 
-Ten slotte wordt de pagina aan het document toegevoegd.
+Tenslotte wordt de pagina toegevoegd aan het document.
 
 ### Stap 10: Document opslaan
 
@@ -126,33 +142,44 @@ dataDir = dataDir + "AttachFileByPath_out.one";
 doc.Save(dataDir);
 ```
 
-Het document wordt opgeslagen en het bestand is succesvol bijgevoegd.
+Het document wordt opgeslagen, en het bestand is succesvol bijgevoegd.
 
-## Conclusie
+## Veelvoorkomende problemen en oplossingen
 
-Aspose.Note voor .NET vereenvoudigt het programmatisch werken met OneNote-documenten. Door de hierboven beschreven stappen te volgen, kunt u naadloos bestanden aan uw OneNote-documenten toevoegen met Aspose.Note voor .NET.
+| Probleem | Waarom het gebeurt | Hoe op te lossen |
+|----------|--------------------|------------------|
+| **Bestand niet gevonden** | Het opgegeven pad naar `AttachedFile` is onjuist of het bestand ontbreekt. | Controleer of `dataDir` naar de juiste map wijst en dat `attachment.txt` bestaat. |
+| **Bijlage niet zichtbaar in OneNote** | De outline‑hiërarchie is mogelijk onvolledig. | Zorg ervoor dat je het outline‑element toevoegt aan de outline, vervolgens de outline aan de pagina, en tenslotte de pagina aan het document (zoals getoond in de stappen). |
+| **Opslaan mislukt met toegang geweigerd** | De doelmap is alleen‑lezen of je hebt geen rechten. | Sla op in een schrijfbare directory of voer Visual Studio uit als administrator. |
 
 ## Veelgestelde vragen
 
-### V1: Is Aspose.Note voor .NET compatibel met alle versies van OneNote?
+### V1: Is Aspose.Note for .NET compatibel met alle versies van OneNote?
 
-A1: Aspose.Note voor .NET ondersteunt verschillende versies van OneNote, waaronder OneNote 2010, 2013, 2016 en de nieuwste OneNote voor Windows 10.
+A1: Aspose.Note for .NET ondersteunt verschillende versies van OneNote, waaronder OneNote 2010, 2013, 2016, en de nieuwste OneNote voor Windows 10.
 
-### V2: Kan ik bestaande OneNote-bestanden manipuleren met Aspose.Note voor .NET?
+### V2: Kan ik bestaande OneNote‑bestanden bewerken met Aspose.Note for .NET?
 
-A2: Ja, u kunt bestaande OneNote-bestanden programmatisch bewerken, wijzigen en manipuleren met Aspose.Note voor .NET.
+A2: Ja, je kunt bestaande OneNote‑bestanden programmatically bewerken, wijzigen en manipuleren met Aspose.Note for .NET.
 
-### V3: Heeft Aspose.Note voor .NET een licentie nodig voor commercieel gebruik?
+### V3: Vereist Aspose.Note for .NET een licentie voor commercieel gebruik?
 
-A3: Ja, u heeft een licentie nodig voor commercieel gebruik van Aspose.Note voor .NET. Een licentie kunt u verkrijgen bij de[aankooppagina](https://purchase.aspose.com/buy).
+A3: Ja, je moet een licentie aanschaffen voor commercieel gebruik van Aspose.Note for .NET. Je kunt een licentie verkrijgen via de [purchase page](https://purchase.aspose.com/buy).
 
-### V4: Is er een gratis proefversie beschikbaar voor Aspose.Note voor .NET?
+### V4: Is er een gratis proefversie beschikbaar voor Aspose.Note for .NET?
 
- A4: Ja, u kunt gebruikmaken van een gratis proefversie van Aspose.Note voor .NET van de[proefpagina](https://releases.aspose.com/).
+A4: Ja, je kunt een gratis proefversie van Aspose.Note for .NET krijgen via de [trial page](https://releases.aspose.com/).
 
-### V5: Waar kan ik ondersteuning zoeken voor Aspose.Note voor .NET?
+### V5: Waar kan ik ondersteuning krijgen voor Aspose.Note for .NET?
 
- A5: U kunt ondersteuning zoeken op de Aspose.Note-communityforums[hier](https://forum.aspose.com/c/note/28).
+A5: Je kunt ondersteuning zoeken op de Aspose.Note community‑forums [hier](https://forum.aspose.com/c/note/28).
+
+---
+
+**Laatste update:** 2026-04-01  
+**Getest met:** Aspose.Note 24.11 for .NET  
+**Auteur:** Aspose  
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

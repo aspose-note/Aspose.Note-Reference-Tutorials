@@ -1,37 +1,55 @@
 ---
-title: إرفاق الملف حسب المسار في Aspose.Note
-linktitle: إرفاق الملف حسب المسار في Aspose.Note
+date: 2026-04-01
+description: تعلم كيفية إنشاء مستند OneNote وإرفاق ملف إلى OneNote برمجيًا باستخدام
+  Aspose.Note لـ .NET.
+keywords:
+- create onenote document
+- attach file to onenote
+- how to attach file
+linktitle: إنشاء مستند OneNote وإرفاق ملف بالمسار باستخدام Aspose.Note
 second_title: Aspose.Note .NET API
-description: تعرف على كيفية إرفاق الملفات بمستندات Microsoft OneNote برمجياً باستخدام Aspose.Note لـ .NET. قم بتبسيط عملية التطوير الخاصة بك مع هذا البرنامج التعليمي الشامل.
-weight: 11
+title: إنشاء مستند OneNote وإرفاق ملف عبر المسار باستخدام Aspose.Note
 url: /ar/net/attachments/attach-file-by-path/
+weight: 11
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# إرفاق الملف حسب المسار في Aspose.Note
+# إنشاء مستند OneNote وإرفاق ملف بالمسار باستخدام Aspose.Note
 
 ## مقدمة
 
-Aspose.Note for .NET هي مكتبة قوية تمكن المطورين من العمل مع ملفات Microsoft OneNote برمجياً. سواء كنت تريد إنشاء مستندات OneNote أو تحريرها أو تحويلها أو معالجتها، فإن Aspose.Note for .NET يوفر وظائف شاملة لتبسيط عملية التطوير الخاصة بك.
+في هذا الدرس ستتعلم كيفية **إنشاء مستند OneNote** وإرفاق ملف به باستخدام مسار نظام ملفات بسيط. سواءً كنت تبني تطبيقًا لتدوين الملاحظات، أو تقوم بأتمتة إنشاء التقارير، أو تحتاج فقط إلى تضمين ملفات داعمة داخل دفتر ملاحظات OneNote، فإن Aspose.Note لـ .NET يجعل العملية بسيطة وموثوقة.
 
-## المتطلبات الأساسية
+## إجابات سريعة
+- **ما الذي يغطيه هذا الدرس؟** إنشاء مستند OneNote وإرفاق ملف بالمسار باستخدام Aspose.Note.  
+- **ما المكتبة المطلوبة؟** Aspose.Note لـ .NET (قابلة للتنزيل من الموقع الرسمي).  
+- **هل أحتاج إلى ترخيص؟** النسخة التجريبية المجانية تكفي للاختبار؛ يلزم الحصول على ترخيص تجاري للإنتاج.  
+- **هل يمكنني حفظ النتيجة كملف .one؟** نعم – يتم حفظ المستند بتنسيق OneNote الأصلي.  
+- **كم من الوقت تستغرق العملية؟** عادةً أقل من 10 دقائق لسيناريو الإرفاق الأساسي.
 
-قبل الغوص في استخدام Aspose.Note لـ .NET، تأكد من توفر المتطلبات الأساسية التالية:
+## ما هو **إنشاء مستند OneNote**؟
 
-1. بيئة التطوير: أنت بحاجة إلى جهاز كمبيوتر مثبت عليه إطار عمل .NET وبيئة تطوير مناسبة مثل Visual Studio.
+إنشاء مستند OneNote يعني بناء دفتر ملاحظات، أقسام، صفحات، ومحتوى (نص، صور، مرفقات) برمجيًا دون فتح واجهة OneNote. هذا مفيد للتقارير الآلية، إنشاء ملاحظات جماعية، أو دمج OneNote في سير عمل أكبر.
 
-2.  Aspose.Note لـ .NET: قم بتنزيل Aspose.Note لـ .NET وتثبيته من[رابط التحميل](https://releases.aspose.com/note/net/).
+## لماذا إرفاق ملف بالمسار إلى OneNote؟
 
-3. معرفة لغة C#: تعرف على لغة البرمجة C# حيث يتم استخدام Aspose.Note لـ .NET بشكل أساسي مع لغة C#.
+إرفاق ملف بالمسار يتيح لك تضمين أي مستند داعم—PDFs، جداول بيانات، صور—مباشرة داخل صفحة OneNote. يمكن للمستخدمين فتح المرفق بنقرة واحدة، مما يبقي الموارد ذات الصلة معًا ويحسن التعاون.
 
-4. الفهم الأساسي لـ OneNote: على الرغم من أن ذلك ليس إلزاميًا، إلا أن الفهم الأساسي لبنية OneNote ومفاهيمه سيكون مفيدًا.
+## المتطلبات المسبقة
+
+قبل البدء، تأكد من وجود ما يلي:
+
+1. **بيئة التطوير** – .NET Framework أو .NET Core مثبتة وVisual Studio (أو بيئة التطوير المفضلة لديك).  
+2. **Aspose.Note لـ .NET** – قم بتنزيله وتثبيته من [رابط التحميل](https://releases.aspose.com/note/net/).  
+3. **معرفة C#** – إلمام أساسي بصياغة C#.  
+4. **أساسيات OneNote** – فهم الصفحات، المخططات، والإرفاقات مفيد لكنه غير إلزامي.
 
 ## استيراد مساحات الأسماء
 
-لاستخدام Aspose.Note لـ .NET في مشروعك، تحتاج إلى استيراد مساحات الأسماء الضرورية. وإليك كيف يمكنك القيام بذلك:
+لاستخدام Aspose.Note لـ .NET في مشروعك، تحتاج إلى استيراد مساحات الأسماء الضرورية. إليك الطريقة:
 
 ```csharp
 using System.IO;
@@ -41,35 +59,35 @@ using System.Collections.Generic;
 using System.Drawing;
 ```
 
-## إرفاق الملف حسب المسار في Aspose.Note
+## إرفاق ملف بالمسار في Aspose.Note
 
-يعد إرفاق الملفات بمستند OneNote باستخدام Aspose.Note لـ .NET عملية مباشرة. دعونا نقسمها إلى خطوات متعددة:
+إرفاق ملفات إلى مستند OneNote باستخدام Aspose.Note لـ .NET عملية مباشرة. لنقسمها إلى عدة خطوات:
 
-### الخطوة 1: تهيئة كائن المستند
+### الخطوة 1: تهيئة كائن Document
 
 ```csharp
-// المسار إلى دليل المستندات.
+// The path to the documents directory.
 string dataDir = RunExamples.GetDataDir_Attachments();
 Document doc = new Document();
 ```
 
- يؤدي هذا إلى تهيئة مثيل جديد لـ`Document` فئة، والتي تمثل مستند OneNote.
+هذا يهيئ نسخة جديدة من الفئة `Document`، التي تمثل مستند OneNote.
 
-### الخطوة 2: تهيئة كائن الصفحة
+### الخطوة 2: تهيئة كائن Page
 
 ```csharp
 Aspose.Note.Page page = new Aspose.Note.Page(doc);
 ```
 
- هنا نقوم بإنشاء نسخة جديدة من`Page` class، الذي يمثل صفحة داخل المستند.
+هنا ننشئ نسخة جديدة من الفئة `Page`، التي تمثل صفحة داخل المستند.
 
-### الخطوة 3: تهيئة كائن المخطط التفصيلي
+### الخطوة 3: تهيئة كائن Outline
 
 ```csharp
 Outline outline = new Outline(doc);
 ```
 
- ان`Outline` يتم إنشاء الكائن لتنظيم المحتوى داخل الصفحة.
+يتم إنشاء كائن `Outline` لتنظيم المحتوى داخل الصفحة.
 
 ### الخطوة 4: تهيئة كائن OutlineElement
 
@@ -77,15 +95,15 @@ Outline outline = new Outline(doc);
 OutlineElement outlineElem = new OutlineElement(doc);
 ```
 
-`OutlineElement` يمثل عنصرا داخل هيكل المخطط التفصيلي.
+`OutlineElement` يمثل عنصرًا داخل هيكل المخطط.
 
-### الخطوة 5: تهيئة كائن الملف المرفق
+### الخطوة 5: تهيئة كائن AttachedFile
 
 ```csharp
 AttachedFile attachedFile = new AttachedFile(doc,  dataDir + "attachment.txt");
 ```
 
- هنا، نقوم بإنشاء مثيل`AttachedFile`، مع تحديد المسار إلى الملف الذي نريد إرفاقه.
+هنا ننشئ نسخة من `AttachedFile`، محددين المسار إلى الملف الذي نريد إرفاقه.
 
 ### الخطوة 6: إلحاق الملف المرفق
 
@@ -93,23 +111,23 @@ AttachedFile attachedFile = new AttachedFile(doc,  dataDir + "attachment.txt");
 outlineElem.AppendChildLast(attachedFile);
 ```
 
-يتم إلحاق الملف المرفق بعنصر المخطط التفصيلي.
+يتم إلحاق الملف المرفق بعنصر المخطط.
 
-### الخطوة 7: إلحاق عنصر المخطط التفصيلي
+### الخطوة 7: إلحاق عنصر المخطط
 
 ```csharp
 outline.AppendChildLast(outlineElem);
 ```
 
-يتم إلحاق عنصر المخطط التفصيلي بالمخطط التفصيلي.
+يتم إلحاق عنصر المخطط بالمخطط.
 
-### الخطوة 8: إلحاق المخطط التفصيلي
+### الخطوة 8: إلحاق المخطط
 
 ```csharp
 page.AppendChildLast(outline);
 ```
 
-يتم إلحاق المخطط التفصيلي بالصفحة.
+يتم إلحاق المخطط بالصفحة.
 
 ### الخطوة 9: إلحاق الصفحة
 
@@ -117,7 +135,7 @@ page.AppendChildLast(outline);
 doc.AppendChildLast(page);
 ```
 
-وأخيرا، يتم إلحاق الصفحة بالمستند.
+أخيرًا، يتم إلحاق الصفحة بالمستند.
 
 ### الخطوة 10: حفظ المستند
 
@@ -126,33 +144,42 @@ dataDir = dataDir + "AttachFileByPath_out.one";
 doc.Save(dataDir);
 ```
 
-تم حفظ المستند، وتم إرفاق الملف بنجاح.
+يتم حفظ المستند، وتكون العملية قد أرفقت الملف بنجاح.
 
-## خاتمة
+## المشكلات الشائعة والحلول
 
-يعمل Aspose.Note for .NET على تبسيط عملية العمل مع مستندات OneNote برمجيًا. باتباع الخطوات الموضحة أعلاه، يمكنك إرفاق الملفات بسهولة بمستندات OneNote الخاصة بك باستخدام Aspose.Note for .NET.
+| المشكلة | السبب | طريقة الحل |
+|-------|----------------|------------|
+| **File not found** | المسار المقدم إلى `AttachedFile` غير صحيح أو الملف مفقود. | تحقق من أن `dataDir` يشير إلى المجلد الصحيح وأن `attachment.txt` موجود. |
+| **Attachment not visible in OneNote** | قد يكون هيكل المخطط غير مكتمل. | تأكد من إلحاق عنصر المخطط بالمخطط، ثم المخطط بالصفحة، وأخيرًا الصفحة بالمستند (كما هو موضح في الخطوات). |
+| **Saving fails with access denied** | المجلد الهدف للكتابة فقط أو لا تملك الصلاحيات. | احفظ في دليل قابل للكتابة أو شغّل Visual Studio كمسؤول. |
 
-## الأسئلة الشائعة
+## الأسئلة المتكررة
 
-### س1: هل يتوافق Aspose.Note for .NET مع كافة إصدارات OneNote؟
+### س1: هل Aspose.Note لـ .NET متوافق مع جميع إصدارات OneNote؟
 
-ج1: يدعم Aspose.Note for .NET إصدارات مختلفة من OneNote، بما في ذلك OneNote 2010 و2013 و2016 وأحدث OneNote for Windows 10.
+A1: يدعم Aspose.Note لـ .NET إصدارات مختلفة من OneNote، بما في ذلك OneNote 2010، 2013، 2016، وآخر إصدار OneNote لنظام Windows 10.
 
-### س2: هل يمكنني معالجة ملفات OneNote الموجودة باستخدام Aspose.Note لـ .NET؟
+### س2: هل يمكنني تعديل ملفات OneNote الموجودة باستخدام Aspose.Note لـ .NET؟
 
-ج2: نعم، يمكنك تحرير ملفات OneNote الموجودة وتعديلها ومعالجتها برمجياً باستخدام Aspose.Note لـ .NET.
+A2: نعم، يمكنك تحرير، تعديل، والتعامل مع ملفات OneNote الموجودة برمجيًا باستخدام Aspose.Note لـ .NET.
 
-### س3: هل يتطلب Aspose.Note for .NET ترخيصًا للاستخدام التجاري؟
+### س3: هل يتطلب Aspose.Note لـ .NET ترخيصًا للاستخدام التجاري؟
 
-ج3: نعم، أنت بحاجة إلى الحصول على ترخيص للاستخدام التجاري لـ Aspose.Note لـ .NET. يمكنك الحصول على ترخيص من[صفحة الشراء](https://purchase.aspose.com/buy).
+A3: نعم، تحتاج إلى الحصول على ترخيص للاستخدام التجاري لـ Aspose.Note لـ .NET. يمكنك الحصول على الترخيص من [صفحة الشراء](https://purchase.aspose.com/buy).
 
-### س4: هل تتوفر نسخة تجريبية مجانية من Aspose.Note لـ .NET؟
+### س4: هل تتوفر نسخة تجريبية مجانية لـ Aspose.Note لـ .NET؟
 
- ج4: نعم، يمكنك الاستفادة من النسخة التجريبية المجانية من Aspose.Note لـ .NET من[صفحة تجريبية](https://releases.aspose.com/).
+A4: نعم، يمكنك الحصول على نسخة تجريبية مجانية من Aspose.Note لـ .NET عبر [صفحة التجربة](https://releases.aspose.com/).
 
 ### س5: أين يمكنني طلب الدعم لـ Aspose.Note لـ .NET؟
 
- ج5: يمكنك طلب الدعم من منتديات مجتمع Aspose.Note[هنا](https://forum.aspose.com/c/note/28).
+A5: يمكنك طلب الدعم من منتديات مجتمع Aspose.Note [هنا](https://forum.aspose.com/c/note/28).
+
+**آخر تحديث:** 2026-04-01  
+**تم الاختبار مع:** Aspose.Note 24.11 لـ .NET  
+**المؤلف:** Aspose  
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
