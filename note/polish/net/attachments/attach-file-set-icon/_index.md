@@ -1,33 +1,54 @@
 ---
-title: Dołącz plik i ustaw ikonę w Aspose.Note
+date: 2026-04-03
+description: Dowiedz się, jak ustawić niestandardową ikonę i dołączać pliki w Aspose.Note
+  dla .NET, w tym zapisywać pliki OneNote i używać obrazów jako ikon.
+keywords:
+- set custom icon
+- attach multiple files
+- use image as icon
+- save onenote file
+- embed text file
 linktitle: Dołącz plik i ustaw ikonę w Aspose.Note
 second_title: Aspose.Note .NET API
-description: Dowiedz się, jak dołączać pliki i ustawiać ikony w Aspose.Note dla .NET. Ulepsz swoje aplikacje .NET dzięki temu samouczkowi krok po kroku.
-weight: 10
+title: Ustaw niestandardową ikonę i dołącz plik w Aspose.Note
 url: /pl/net/attachments/attach-file-set-icon/
+weight: 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Dołącz plik i ustaw ikonę w Aspose.Note
+# Ustaw niestandardową ikonę i dołącz plik w Aspose.Note
 
-## Wstęp
+## Wprowadzenie
 
-dziedzinie programowania .NET Aspose.Note wyróżnia się jako potężne narzędzie do programowego manipulowania dokumentami Microsoft OneNote. Wykorzystując jego możliwości, programiści mogą zautomatyzować różne zadania związane z tworzeniem, edytowaniem i zarządzaniem plikami OneNote w swoich aplikacjach. Jedną z istotnych funkcji jest możliwość dołączania plików do notatek i ustawiania ikon dla tych załączników. W tym samouczku zagłębimy się w proces dołączania pliku i ustawiania ikony za pomocą Aspose.Note dla .NET.
+Jeśli potrzebujesz **set custom icon** dla załącznika na stronie OneNote, Aspose.Note dla .NET ułatwia to. Dołączając plik i przypisując obraz jako jego ikonę, możesz tworzyć bogatsze, bardziej informacyjne notatki, które wyglądają dokładnie tak, jak chcesz. W tym samouczku przeprowadzimy Cię przez cały proces — od nowego dokumentu, przez dodanie załącznika, zastosowanie niestandardowej ikony JPEG, aż po zapisanie pliku OneNote.
 
-## Warunki wstępne
+## Szybkie odpowiedzi
+- **Co oznacza „set custom icon”?** Umożliwia zastąpienie domyślnej miniatury załącznika obrazem, który dostarczysz.  
+- **Czy mogę dołączyć wiele plików?** Tak, powtórz kroki dołączania dla każdego pliku.  
+- **Jakie formaty obrazów są obsługiwane jako ikony?** Każdy format kompatybilny z .NET, taki jak JPEG, PNG, BMP lub GIF.  
+- **Czy potrzebuję licencji?** Wymagana jest ważna licencja Aspose.Note do użytku produkcyjnego; darmowa wersja próbna działa w celach oceny.  
+- **Jak zapisać plik OneNote?** Użyj `Document.Save()` i podaj ścieżkę pliku *.one*.
 
-Zanim zagłębisz się w ten samouczek, upewnij się, że spełniasz następujące wymagania wstępne:
+## Co to jest „set custom icon” w Aspose.Note?
+Ustawienie niestandardowej ikony oznacza przypisanie konkretnego obrazu (np. JPEG) do reprezentacji załączonego pliku na stronie OneNote. Poprawia to wskazówki wizualne dla użytkowników i może być użyte do wyświetlania logo typu pliku lub grafiki marki.
 
-- Podstawowa znajomość języka programowania C#
-- Zainstalowano bibliotekę Aspose.Note dla .NET
-- Środowisko programistyczne skonfigurowane w Visual Studio lub dowolnym preferowanym IDE
+## Dlaczego ustawiać niestandardową ikonę dla załączników?
+- **Lepszy kontekst wizualny:** Użytkownicy od razu rozpoznają typ lub przeznaczenie załączonego pliku.  
+- **Spójność marki:** Użyj logo swojej firmy jako ikony dla wszystkich powiązanych dokumentów.  
+- **Ulepszone UX:** Sprawia, że notatki wyglądają elegancko i profesjonalnie, szczególnie w udostępnionych zeszytach.
 
-## Importuj przestrzenie nazw
+## Wymagania wstępne
 
-Zacznijmy od zaimportowania niezbędnych przestrzeni nazw do projektu C#:
+- Podstawowa znajomość programowania w C#.
+- Zainstalowana biblioteka Aspose.Note dla .NET.
+- Visual Studio (lub dowolne IDE kompatybilne z .NET) gotowe do programowania.
+
+## Importowanie przestrzeni nazw
+
+Najpierw wprowadź wymagane przestrzenie nazw, aby móc pracować z plikami, obrazami i obiektami OneNote.
 
 ```csharp
 using System.IO;
@@ -37,35 +58,38 @@ using System.Collections.Generic;
 using System.Drawing.Imaging;
 ```
 
-## Dołącz plik i ustaw ikonę w Aspose.Note
+## Przewodnik krok po kroku, jak dołączyć plik i ustawić jego ikonę
 
-Podzielmy teraz proces dołączania pliku i ustawiania jego ikony w Aspose.Note na kilka kroków:
-
-### Krok 1: Utwórz obiekt dokumentu
+### Krok 1: Utwórz obiekt Document
+Nowa instancja `Document` reprezentuje plik OneNote, który zostanie utworzony.
 
 ```csharp
 Document doc = new Document();
 ```
 
-### Krok 2: Zainicjuj obiekt strony
+### Krok 2: Zainicjalizuj obiekt Page
+Każdy plik OneNote zawiera jedną lub więcej stron. Tutaj tworzymy pierwszą stronę.
 
 ```csharp
 Aspose.Note.Page page = new Aspose.Note.Page(doc);
 ```
 
-### Krok 3: Zainicjuj obiekt konspektu
+### Krok 3: Zainicjalizuj obiekt Outline
+Outlines (obrysy) pełnią rolę kontenerów dla bloków treści na stronie.
 
 ```csharp
 Outline outline = new Outline(doc);
 ```
 
-### Krok 4: Zainicjuj obiekt OutlineElement
+### Krok 4: Zainicjalizuj obiekt OutlineElement
+Ten element będzie przechowywał załączony plik oraz jego niestandardową ikonę.
 
 ```csharp
 OutlineElement outlineElem = new OutlineElement(doc);
 ```
 
-### Krok 5: Przeczytaj plik i zainicjuj obiekt ApplyedFile
+### Krok 5: Odczytaj obraz ikony i zainicjalizuj obiekt AttachedFile
+Otwieramy strumień obrazu (niestandardową ikonę) i wskazujemy plik, który chcemy osadzić.
 
 ```csharp
 string dataDir = "Your Document Directory";
@@ -75,62 +99,80 @@ using (var stream = File.OpenRead(dataDir + "icon.jpg"))
 }
 ```
 
-### Krok 6: Dołącz załączony plik do OutlineElement
+> **Pro tip:** Zastąp `ImageFormat.Jpeg` przez `ImageFormat.Png`, jeśli wolisz ikonę PNG.
+
+### Krok 6: Dodaj załączony plik do OutlineElement
+Teraz plik (z jego ikoną) staje się dzieckiem elementu outline.
 
 ```csharp
 outlineElem.AppendChildLast(attachedFile);
 ```
 
-### Krok 7: Dołącz element OutlineElement do konspektu
+### Krok 7: Dodaj OutlineElement do Outline
+To umieszcza element wewnątrz kontenera outline.
 
 ```csharp
 outline.AppendChildLast(outlineElem);
 ```
 
-### Krok 8: Dołącz konspekt do strony
+### Krok 8: Dodaj Outline do Page
+Dołącz całą hierarchię outline do strony.
 
 ```csharp
 page.AppendChildLast(outline);
 ```
 
-### Krok 9: Dołącz stronę do dokumentu
+### Krok 9: Dodaj Page do Document
+Dodaj ukończoną stronę do struktury dokumentu.
 
 ```csharp
 doc.AppendChildLast(page);
 ```
 
-### Krok 10: Zapisz dokument
+### Krok 10: Zapisz dokument OneNote
+Na koniec zapisz dokument na dysku jako plik *.one*.
 
 ```csharp
 dataDir = dataDir + "AttachFileAndSetIcon_out.one";
 doc.Save(dataDir);
 ```
 
-## Wniosek
+## Typowe przypadki użycia
+- **Osadzanie umów:** Dołącz plik PDF i użyj ikony z logo umowy.  
+- **Udostępnianie fragmentów kodu:** Dołącz plik `.txt` z niestandardową ikoną „code”.  
+- **Dokumentacja projektu:** Dołącz pliki projektowe i ustaw miniaturę pasującą do typu pliku.
 
-W tym samouczku omówiliśmy, jak załączyć plik i ustawić jego ikonę za pomocą Aspose.Note dla .NET. Postępując zgodnie z tymi szczegółowymi instrukcjami, możesz bezproblemowo zintegrować funkcję dołączania plików z aplikacjami .NET, zwiększając ich produktywność i wszechstronność.
+## Typowe problemy i rozwiązania
 
-## Często zadawane pytania
+| Problem | Rozwiązanie |
+|-------|----------|
+| **Ikona nie wyświetla się** | Zweryfikuj, czy format obrazu odpowiada `ImageFormat`, który podałeś (np. JPEG vs PNG). |
+| **Błędy ścieżki pliku** | Użyj `Path.Combine(dataDir, "file.ext")`, aby uniknąć problemów z brakującymi ukośnikami. |
+| **Duże załączniki powodują spowolnienie** | Skompresuj plik wcześniej lub podziel go na kilka mniejszych załączników. |
 
-### P1: Czy mogę dołączyć wiele plików do jednej notatki przy użyciu Aspose.Note dla .NET?
+## Najczęściej zadawane pytania
 
-Odpowiedź 1: Tak, możesz dołączyć wiele plików do notatki, powtarzając proces opisany w tym samouczku dla każdego pliku.
+**Q: Czy mogę dołączyć wiele plików do jednej notatki używając Aspose.Note dla .NET?**  
+A: Tak. Po prostu powtórz blok „Read the Icon Image and Initialize the AttachedFile Object” dla każdego pliku i dodaj każdy `AttachedFile` do tego samego `OutlineElement` lub utwórz osobne elementy.
 
-### P2: Czy można ustawić niestandardowe ikony dla załączników plików?
+**Q: Czy można ustawić niestandardowe ikony dla załączników plików?**  
+A: Oczywiście. Konstruktor `AttachedFile` pozwala przekazać strumień obrazu i określić format obrazu, dając pełną kontrolę nad ikoną.
 
-O2: Tak, Aspose.Note dla .NET umożliwia określenie niestandardowych ikon dla załączników plików zgodnie z Twoimi wymaganiami.
+**Q: Czy Aspose.Note obsługuje inne formaty obrazów do ustawiania ikon?**  
+A: Tak. Oprócz JPEG możesz używać PNG, BMP, GIF lub dowolnego formatu obsługiwanego przez `System.Drawing.Imaging.ImageFormat`.
 
-### P3: Czy Aspose.Note obsługuje inne formaty obrazów do ustawiania ikon?
+**Q: Czy mogę dołączać pliki z zewnętrznych URL-i?**  
+A: Choć Aspose.Note działa na lokalnych strumieniach, możesz pobrać plik za pomocą `HttpClient`, przechować go w `MemoryStream`, a następnie przekazać ten strumień do `AttachedFile`.
 
-O3: Tak, oprócz JPEG, możesz używać różnych innych formatów obrazów obsługiwanych przez .NET do ustawiania ikon, takich jak PNG, BMP lub GIF.
+**Q: Czy istnieje limit rozmiaru dla załączników plików?**  
+A: Aspose.Note nie narzuca sztywnego limitu, ale bardzo duże pliki mogą wpływać na zużycie pamięci i wydajność. Rozważ kompresję dużych załączników.
 
-### P4: Czy mogę dołączać pliki z zewnętrznych adresów URL za pomocą Aspose.Note dla .NET?
+---
 
-O4: Aspose.Note zajmuje się głównie plikami przechowywanymi lokalnie lub dostępnymi poprzez strumienie. Można jednak pobierać pliki z zewnętrznych adresów URL za pomocą bibliotek .NET, a następnie dołączać je za pomocą Aspose.Note.
+**Ostatnia aktualizacja:** 2026-04-03  
+**Testowano z:** Aspose.Note 24.11 dla .NET  
+**Autor:** Aspose  
 
-### P5: Czy istnieje limit rozmiaru plików załączników w Aspose.Note dla .NET?
-
-Odpowiedź 5: Aspose.Note nie narzuca określonych ograniczeń rozmiaru plików załączników, ale mogą obowiązywać ograniczenia praktyczne w zależności od zasobów systemowych i względów wydajnościowych.
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

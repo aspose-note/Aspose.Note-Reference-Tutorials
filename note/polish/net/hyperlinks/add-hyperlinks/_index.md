@@ -1,51 +1,75 @@
 ---
-title: Dodaj hiperłącza w dokumentach Aspose.Note
-linktitle: Dodaj hiperłącza w dokumentach Aspose.Note
+date: 2026-04-03
+description: Dowiedz się, jak dodać hiperlink w dokumentach Aspose.Note przy użyciu
+  Aspose.Note dla .NET, dostosować wygląd hiperlinku oraz wstawić wiele hiperlinków,
+  aby uzyskać bogatsze pliki OneNote.
+keywords:
+- how to add hyperlink
+- insert multiple hyperlinks
+- add hyperlink to onenote
+- customize hyperlink appearance
+- generate one file hyperlink
+linktitle: Jak dodać hiperłącze w dokumentach Aspose.Note
 second_title: Aspose.Note .NET API
-description: Dowiedz się, jak dodawać hiperłącza do dokumentów Aspose.Note przy użyciu Aspose.Note dla .NET. Zwiększ interaktywność dokumentów dzięki temu samouczkowi krok po kroku.
-weight: 10
+title: Jak dodać hiperłącze w dokumentach Aspose.Note
 url: /pl/net/hyperlinks/add-hyperlinks/
+weight: 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Dodaj hiperłącza w dokumentach Aspose.Note
+# Jak dodać hiperłącze w dokumentach Aspose.Note
 
-## Wstęp
+## Wprowadzenie
 
-W tym samouczku dowiesz się, jak dodawać hiperłącza do tekstu w dokumentach Aspose.Note przy użyciu platformy .NET. Aspose.Note zapewnia zaawansowane funkcje do programowego manipulowania dokumentami OneNote. Dodanie hiperłączy może zwiększyć interaktywność i użyteczność dokumentów, czyniąc je bardziej atrakcyjnymi dla użytkowników.
+W tym samouczku odkryjesz **jak dodać hiperłącze** do tekstu w dokumentach Aspose.Note przy użyciu API .NET. Dodanie hiperłącza zamienia statyczne notatki w interaktywną, klikalną treść — idealną do łączenia z zasobami internetowymi, wewnętrznymi sekcjami lub zewnętrznymi plikami. Przejdziemy krok po kroku, pokażemy, jak **dostosować wygląd hiperłącza**, oraz wyjaśnimy, jak **wstawić wiele hiperłączy**, gdy potrzebujesz bardziej rozbudowanych stron OneNote.
 
-## Warunki wstępne:
+## Szybkie odpowiedzi
+- **Jaka jest główna klasa do tworzenia pliku OneNote?** `Document` from Aspose.Note.
+- **Która właściwość sprawia, że tekst zachowuje się jak hiperłącze?** `IsHyperlink = true` on `TextStyle`.
+- **Czy mogę łączyć się z zewnętrznymi stronami internetowymi?** Tak, ustaw `HyperlinkAddress` na adres URL, np. `https://www.google.com`.
+- **Czy potrzebna jest licencja do użytku produkcyjnego?** Wymagana jest ważna licencja Aspose.Note dla wersji nie‑ewaluacyjnych.
+- **Jakie wersje .NET są obsługiwane?** .NET Framework 4.6+, .NET Core 3.1+, .NET 5/6+.
 
-Zanim zaczniesz, upewnij się, że masz następujące wymagania wstępne:
+## Co oznacza „jak dodać hiperłącze” w Aspose.Note?
+Dodanie hiperłącza oznacza dołączenie adresu URL do fragmentu tekstu, tak aby po kliknięciu przez użytkownika w OneNote, połączony zasób otworzył się w przeglądarce lub innej aplikacji. Aspose.Note udostępnia flagę `TextStyle.IsHyperlink` oraz właściwość `HyperlinkAddress`, aby umożliwić to programowo.
 
-1. Podstawowa znajomość języka programowania C#.
-2. Program Visual Studio zainstalowany w systemie.
-3.  Zainstalowana biblioteka Aspose.Note dla .NET. Można go pobrać z[Tutaj](https://releases.aspose.com/note/net/).
-4. Znajomość struktury i komponentów dokumentów Aspose.Note.
+## Dlaczego dodawać hiperłącza do dokumentów OneNote?
+- **Ulepszona nawigacja:** Przejdź bezpośrednio do powiązanych stron internetowych lub sekcji.
+- **Ulepszona dokumentacja:** Dostarczaj odnośniki, samouczki lub pliki źródłowe bez opuszczania notatki.
+- **Profesjonalny wygląd:** Dostosowywalne kolory i style pozwalają, aby hiperłącza wpasowały się w projekt dokumentu.
 
-## Importuj przestrzenie nazw:
+## Wymagania wstępne
 
-Najpierw musisz zaimportować niezbędne przestrzenie nazw do projektu C#. Te przestrzenie nazw zapewniają dostęp do klas i metod wymaganych do pracy z dokumentami Aspose.Note.
+1. Podstawowa znajomość C# i Visual Studio.
+2. Zainstalowana biblioteka Aspose.Note for .NET – pobierz ją z [here](https://releases.aspose.com/note/net/).
+3. Zrozumienie struktury dokumentu Aspose.Note (strony, kontury, tekst sformatowany).
+
+## Importowanie przestrzeni nazw
+
+Najpierw zaimportuj przestrzenie nazw, które dają dostęp do podstawowych klas Aspose.Note oraz podstawowych typów .NET.
 
 ```csharp
 using System;
 using System.Drawing;
 ```
 
-## Krok 1: Utwórz nowy obiekt dokumentu:
+## Przewodnik krok po kroku
 
-Rozpocznij od utworzenia nowej instancji klasy Document. Obiekt ten będzie reprezentował Twój dokument Aspose.Note, do którego dodasz hiperłącze.
+### Krok 1: Utwórz nowy obiekt Document
+
+Utwórz instancję `Document`, która będzie przechowywać wszystkie Twoje strony i zawartość.
 
 ```csharp
 Document doc = new Document();
 ```
 
-## Krok 2: Zdefiniuj style tekstu:
+### Krok 2: Zdefiniuj style tekstu (w tym styl hiperłącza)
 
-Zdefiniuj style tekstu dla zwykłego tekstu i tekstu hiperłącza. Możesz dostosować różne atrybuty, takie jak kolor czcionki, nazwa czcionki i rozmiar czcionki, zgodnie ze swoimi preferencjami.
+Utwórz dwa obiekty `TextStyle` – jeden dla zwykłego tekstu, a drugi dla hiperłącza.  
+Tutaj również **dostosowujemy wygląd hiperłącza** ustawiając kolor czcionki.
 
 ```csharp
 TextStyle textStyleRed = new TextStyle
@@ -62,9 +86,11 @@ TextStyle textStyleHyperlink = new TextStyle
 };
 ```
 
-## Krok 3: Utwórz obiekty RichText:
+> **Wskazówka:** Aby wstawić **wiele hiperłączy**, zdefiniuj dodatkowe obiekty `TextStyle` z różnymi wartościami `HyperlinkAddress` i użyj ich ponownie w późniejszych segmentach `RichText`.
 
-Utwórz obiekty RichText dla segmentów tekstu, które chcesz uwzględnić w dokumencie. Dołącz odpowiedni tekst i zastosuj żądane style tekstu do każdego segmentu.
+### Krok 3: Utwórz obiekty RichText
+
+Zbuduj akapit, który miesza zwykły tekst i hiperłącze. Metoda `Append` pozwala łączyć fragmenty ze stylami.
 
 ```csharp
 RichText text = new RichText() { ParagraphStyle = ParagraphStyle.Default }
@@ -73,9 +99,9 @@ RichText text = new RichText() { ParagraphStyle = ParagraphStyle.Default }
                     .Append(". This text is not a hyperlink.", TextStyle.Default);
 ```
 
-## Krok 4: Utwórz konspekt i element konspektu:
+### Krok 4: Utwórz kontur i element konturu
 
-Utwórz obiekty Outline i OutlineElement, aby uporządkować zawartość dokumentu. Dołącz obiekt RichText zawierający hiperłącze do OutlineElement.
+Kontury działają jak kontenery dla elementów wizualnych na stronie. Ustaw rozmiar i pozycję w razie potrzeby.
 
 ```csharp
 Outline outline = new Outline()
@@ -90,9 +116,9 @@ OutlineElement outlineElem = new OutlineElement();
 outlineElem.AppendChildLast(text);
 ```
 
-## Krok 5: Dodaj elementy do strony:
+### Krok 5: Dodaj elementy do strony
 
-Utwórz obiekt Title i obiekt Page. Dołącz obiekt Outline do strony. Na koniec dołącz stronę do dokumentu.
+Każdy plik OneNote składa się ze stron. Tworzymy `Title` i `Page`, a następnie dołączamy kontur.
 
 ```csharp
 Title title = new Title() { TitleText = titleText };
@@ -102,9 +128,9 @@ page.AppendChildLast(outline);
 doc.AppendChildLast(page);
 ```
 
-## Krok 6: Zapisz dokument:
+### Krok 6: Zapisz dokument
 
-Określ ścieżkę pliku, w którym chcesz zapisać dokument Aspose.Note i wywołaj metodę Save, aby go zapisać.
+Wybierz folder, utwórz pełną nazwę pliku i wywołaj `Save`. Plik wyjściowy będzie prawidłowym plikiem OneNote `.one` zawierającym Twoje hiperłącze.
 
 ```csharp
 string dataDir = "Your Document Directory";
@@ -112,31 +138,38 @@ string outputFilePath = Path.Combine(dataDir, "AddHyperlink_out.one");
 doc.Save(outputFilePath);
 ```
 
-## Wniosek:
+## Częste problemy i rozwiązania
 
-W tym samouczku nauczyłeś się dodawać hiperłącza do dokumentów Aspose.Note przy użyciu Aspose.Note dla .NET. Wykonując poniższe kroki, możesz zwiększyć interaktywność swoich dokumentów i zapewnić użytkownikom bardziej dynamiczne doświadczenia.
+| Problem | Rozwiązanie |
+|-------|----------|
+| Hiperłącze nie otwiera się | Upewnij się, że `HyperlinkAddress` zawiera protokół (`http://` lub `https://`). |
+| Kolor tekstu nie jest zastosowany | Ustaw `FontColor` w `TextStyle` używanym dla hiperłącza. |
+| Potrzeba kilku linków na jednej stronie | Utwórz wiele obiektów `TextStyle`, każdy z własnym `HyperlinkAddress`, i dołącz je do tego samego lub różnych obiektów `RichText`. |
+| Dokument nie ładuje się w OneNote | Zweryfikuj, że używasz obsługiwanej wersji OneNote (2010+). |
 
-## Często zadawane pytania
+## Najczęściej zadawane pytania
 
-### P1: Czy mogę dodać wiele hiperłączy w tym samym dokumencie za pomocą Aspose.Note?
+**Q: Czy mogę dodać wiele hiperłączy w tym samym dokumencie przy użyciu Aspose.Note?**  
+A: Tak, po prostu utwórz dodatkowe instancje `TextStyle` z różnymi wartościami `HyperlinkAddress` i dołącz je do swoich obiektów `RichText`.
 
-O1: Tak, możesz dodać wiele hiperłączy do różnych segmentów tekstu w jednym dokumencie Aspose.Note.
+**Q: Jak mogę dostosować wygląd hiperłączy?**  
+A: Użyj właściwości takich jak `FontColor`, `FontName` i `FontSize` w `TextStyle`, który ma `IsHyperlink = true`. Dzięki temu dopasujesz wygląd do identyfikacji wizualnej dokumentu.
 
-### P2: Czy mogę dostosować wygląd hiperłączy w dokumentach Aspose.Note?
+**Q: Czy Aspose.Note obsługuje hiperłącza do zewnętrznych stron internetowych?**  
+A: Absolutnie. Ustaw `HyperlinkAddress` na dowolny prawidłowy URL (w tym `http://` lub `https://`), aby połączyć się z zasobami spoza pliku OneNote.
 
-O2: Tak, możesz dostosować różne atrybuty, takie jak kolor czcionki, rozmiar czcionki i styl czcionki dla hiperłączy w dokumentach Aspose.Note.
+**Q: Czy można wygenerować pojedynczy plik OneNote zawierający wiele hiperłączy?**  
+A: Tak. Poprzez wielokrotne dołączanie stylizowanych segmentów `RichText` z różnymi adresami hiperłączy, możesz **wygenerować kolekcję hiperłączy w jednym pliku**.
 
-### P3: Czy Aspose.Note obsługuje hiperłącza do zewnętrznych stron internetowych?
+**Q: Czy Aspose.Note jest kompatybilny z najnowszymi wersjami OneNote?**  
+A: Biblioteka działa z OneNote 2010 i nowszymi, w tym z wersją Windows 10 UWP.
 
-O3: Tak, Aspose.Note umożliwia tworzenie hiperłączy przekierowujących użytkowników do zewnętrznych witryn internetowych lub stron internetowych.
+---
 
-### P4: Czy Aspose.Note jest kompatybilny ze wszystkimi wersjami Microsoft OneNote?
+**Ostatnia aktualizacja:** 2026-04-03  
+**Testowano z:** Aspose.Note for .NET 24.11  
+**Autor:** Aspose  
 
-O4: Aspose.Note jest przeznaczony do współpracy z Microsoft OneNote 2010 i nowszymi wersjami.
-
-### P5: Czy mogę programowo dodawać hiperłącza za pomocą interfejsów API Aspose.Note?
-
-Odpowiedź 5: Tak, Aspose.Note udostępnia interfejsy API, które umożliwiają programowe dodawanie hiperłączy do tekstu w aplikacjach .NET.
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

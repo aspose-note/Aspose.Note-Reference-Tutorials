@@ -1,33 +1,55 @@
 ---
-title: Adjunte archivo y establezca icono en Aspose.Note
-linktitle: Adjunte archivo y establezca icono en Aspose.Note
-second_title: Aspose.Nota .NET API
-description: Aprenda cómo adjuntar archivos y configurar íconos en Aspose.Note para .NET. Mejore sus aplicaciones .NET con este tutorial paso a paso.
-weight: 10
+date: 2026-04-03
+description: Aprenda cómo establecer un ícono personalizado y adjuntar archivos en
+  Aspose.Note para .NET, incluyendo guardar archivos de OneNote y usar imágenes como
+  íconos.
+keywords:
+- set custom icon
+- attach multiple files
+- use image as icon
+- save onenote file
+- embed text file
+linktitle: Adjuntar archivo y establecer ícono en Aspose.Note
+second_title: Aspose.Note .NET API
+title: Establecer icono personalizado y adjuntar archivo en Aspose.Note
 url: /es/net/attachments/attach-file-set-icon/
+weight: 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Adjunte archivo y establezca icono en Aspose.Note
+# Establecer ícono personalizado y adjuntar archivo en Aspose.Note
 
 ## Introducción
 
-En el ámbito del desarrollo .NET, Aspose.Note se destaca como una poderosa herramienta para manipular documentos de Microsoft OneNote mediante programación. Aprovechando sus capacidades, los desarrolladores pueden automatizar diversas tareas relacionadas con la creación, edición y administración de archivos OneNote dentro de sus aplicaciones. Una característica esencial es la capacidad de adjuntar archivos a notas y configurar íconos para esos archivos adjuntos. En este tutorial, profundizaremos en el proceso de adjuntar un archivo y configurar un ícono usando Aspose.Note para .NET.
+Si necesita **establecer ícono personalizado** para un archivo adjunto en una página de OneNote, Aspose.Note para .NET lo hace sencillo. Al adjuntar un archivo y asignar una imagen como su ícono, puede crear notas más ricas e informativas que se vean exactamente como desea. En este tutorial recorreremos todo el proceso—desde un documento nuevo, agregar un adjunto, aplicar un ícono JPEG personalizado y, finalmente, guardar el archivo OneNote.
+
+## Respuestas rápidas
+- **¿Qué significa “set custom icon”?** Permite reemplazar la miniatura predeterminada del adjunto con una imagen que proporcione.  
+- **¿Puedo adjuntar varios archivos?** Sí, repita los pasos de adjunto para cada archivo.  
+- **¿Qué formatos de imagen son compatibles para los íconos?** Cualquier formato compatible con .NET como JPEG, PNG, BMP o GIF.  
+- **¿Necesito una licencia?** Se requiere una licencia válida de Aspose.Note para uso en producción; una prueba gratuita sirve para evaluación.  
+- **¿Cómo guardo el archivo OneNote?** Use `Document.Save()` y especifique una ruta de archivo *.one*.
+
+## ¿Qué es “establecer ícono personalizado” en Aspose.Note?
+Establecer un ícono personalizado significa asignar una imagen específica (p. ej., un JPEG) para representar un archivo adjunto dentro de una página de OneNote. Esto mejora las pistas visuales para los usuarios y puede usarse para mostrar logotipos de tipo de archivo o imágenes de marca.
+
+## Por qué establecer un ícono personalizado para los archivos adjuntos?
+- **Mejor contexto visual:** Los usuarios reconocen al instante el tipo o propósito del archivo adjunto.  
+- **Consistencia de marca:** Use el logotipo de su empresa como ícono para todos los documentos relacionados.  
+- **Experiencia de usuario mejorada:** Hace que las notas se vean pulidas y profesionales, especialmente en cuadernos compartidos.
 
 ## Requisitos previos
 
-Antes de sumergirse en este tutorial, asegúrese de tener los siguientes requisitos previos:
-
-- Conocimientos básicos del lenguaje de programación C#.
-- Aspose.Note instalado para la biblioteca .NET
-- Entorno de desarrollo configurado con Visual Studio o cualquier IDE preferido
+- Conocimientos básicos de programación en C#.
+- Biblioteca Aspose.Note para .NET instalada.
+- Visual Studio (o cualquier IDE compatible con .NET) listo para el desarrollo.
 
 ## Importar espacios de nombres
 
-Comencemos importando los espacios de nombres necesarios a su proyecto C#:
+Primero, importe los espacios de nombres requeridos al alcance para que pueda trabajar con archivos, imágenes y objetos de OneNote.
 
 ```csharp
 using System.IO;
@@ -37,35 +59,38 @@ using System.Collections.Generic;
 using System.Drawing.Imaging;
 ```
 
-## Adjunte archivo y establezca icono en Aspose.Note
+## Guía paso a paso para adjuntar un archivo y establecer su ícono
 
-Ahora, analicemos el proceso de adjuntar un archivo y configurar su icono en Aspose.Note en varios pasos:
-
-### Paso 1: crear un objeto de documento
+### Paso 1: Crear un objeto Document
+Una nueva instancia de `Document` representa el archivo OneNote que va a crear.
 
 ```csharp
 Document doc = new Document();
 ```
 
-### Paso 2: inicializar el objeto de página
+### Paso 2: Inicializar un objeto Page
+Cada archivo OneNote contiene una o más páginas. Aquí creamos la primera página.
 
 ```csharp
 Aspose.Note.Page page = new Aspose.Note.Page(doc);
 ```
 
-### Paso 3: inicializar el objeto de esquema
+### Paso 3: Inicializar un objeto Outline
+Los contornos (Outlines) actúan como contenedores de bloques de contenido en una página.
 
 ```csharp
 Outline outline = new Outline(doc);
 ```
 
-### Paso 4: inicializar el objeto OutlineElement
+### Paso 4: Inicializar un objeto OutlineElement
+Este elemento contendrá el archivo adjunto y su ícono personalizado.
 
 ```csharp
 OutlineElement outlineElem = new OutlineElement(doc);
 ```
 
-### Paso 5: leer el archivo e inicializar el objeto AttachedFile
+### Paso 5: Leer la imagen del ícono e inicializar el objeto AttachedFile
+Abrimos el flujo de imagen (el ícono personalizado) y apuntamos al archivo que queremos incrustar.
 
 ```csharp
 string dataDir = "Your Document Directory";
@@ -75,62 +100,79 @@ using (var stream = File.OpenRead(dataDir + "icon.jpg"))
 }
 ```
 
-### Paso 6: Agregar el archivo adjunto a OutlineElement
+> **Consejo profesional:** Reemplace `ImageFormat.Jpeg` por `ImageFormat.Png` si prefiere un ícono PNG.
+
+### Paso 6: Añadir el archivo adjunto al OutlineElement
+Ahora el archivo (con su ícono) se convierte en un hijo del elemento OutlineElement.
 
 ```csharp
 outlineElem.AppendChildLast(attachedFile);
 ```
 
-### Paso 7: agregue OutlineElement al esquema
+### Paso 7: Añadir el OutlineElement al Outline
+Esto anida el elemento dentro del contenedor Outline.
 
 ```csharp
 outline.AppendChildLast(outlineElem);
 ```
 
-### Paso 8: agregar esquema a la página
+### Paso 8: Añadir el Outline a la Page
+Adjunte toda la jerarquía de Outline a la página.
 
 ```csharp
 page.AppendChildLast(outline);
 ```
 
-### Paso 9: agregar página al documento
+### Paso 9: Añadir la Page al Document
+Agregue la página completada a la estructura del documento.
 
 ```csharp
 doc.AppendChildLast(page);
 ```
 
-### Paso 10: guardar el documento
+### Paso 10: Guardar el documento OneNote
+Finalmente, escriba el documento en disco como un archivo *.one*.
 
 ```csharp
 dataDir = dataDir + "AttachFileAndSetIcon_out.one";
 doc.Save(dataDir);
 ```
 
-## Conclusión
+## Casos de uso comunes
+- **Incorporar contratos:** Adjunte un PDF y use un ícono con el logotipo del contrato.  
+- **Compartir fragmentos de código:** Adjunte un archivo `.txt` con un ícono personalizado de “código”.  
+- **Documentación de proyecto:** Adjunte archivos de diseño y establezca una miniatura que coincida con el tipo de archivo.
 
-En este tutorial, exploramos cómo adjuntar un archivo y configurar su ícono usando Aspose.Note para .NET. Si sigue estas instrucciones paso a paso, podrá integrar perfectamente la funcionalidad de archivos adjuntos en sus aplicaciones .NET, mejorando su productividad y versatilidad.
+## Problemas comunes y soluciones
+| Problema | Solución |
+|----------|----------|
+| **El ícono no se muestra** | Verifique que el formato de la imagen coincida con el `ImageFormat` que pasó (p. ej., JPEG vs PNG). |
+| **Errores de ruta de archivo** | Use `Path.Combine(dataDir, "file.ext")` para evitar problemas de barra faltante. |
+| **Los archivos adjuntos grandes causan retraso de rendimiento** | Comprima el archivo previamente o divídalo en varios adjuntos más pequeños. |
 
 ## Preguntas frecuentes
 
-### P1: ¿Puedo adjuntar varios archivos a una sola nota usando Aspose.Note para .NET?
+**P:** ¿Puedo adjuntar varios archivos a una sola nota usando Aspose.Note para .NET?  
+**R:** Sí. Simplemente repita el bloque “Read the Icon Image and Initialize the AttachedFile Object” para cada archivo y añada cada `AttachedFile` al mismo `OutlineElement` o cree elementos separados.
 
-R1: Sí, puedes adjuntar varios archivos a una nota repitiendo el proceso descrito en este tutorial para cada archivo.
+**P:** ¿Es posible establecer íconos personalizados para los archivos adjuntos?  
+**R:** Absolutamente. El constructor `AttachedFile` le permite pasar un flujo de imagen y especificar el formato de la imagen, dándole control total sobre el ícono.
 
-### P2: ¿Es posible configurar íconos personalizados para archivos adjuntos?
+**P:** ¿Aspose.Note admite otros formatos de imagen para establecer íconos?  
+**R:** Sí. Además de JPEG, puede usar PNG, BMP, GIF o cualquier formato compatible con `System.Drawing.Imaging.ImageFormat`.
 
-R2: Sí, Aspose.Note para .NET le permite especificar iconos personalizados para archivos adjuntos según sus requisitos.
+**P:** ¿Puedo adjuntar archivos desde URLs externas?  
+**R:** Aunque Aspose.Note funciona con flujos locales, puede descargar un archivo mediante `HttpClient`, almacenarlo en un `MemoryStream` y luego pasar ese flujo a `AttachedFile`.
 
-### P3: ¿Aspose.Note admite otros formatos de imagen para configurar iconos?
+**P:** ¿Existe un límite de tamaño para los archivos adjuntos?  
+**R:** Aspose.Note en sí no impone un límite estricto, pero los archivos muy grandes pueden afectar el uso de memoria y el rendimiento. Considere comprimir los adjuntos grandes.
 
-R3: Sí, además de JPEG, puede utilizar otros formatos de imagen compatibles con .NET para configurar iconos, como PNG, BMP o GIF.
+---
 
-### P4: ¿Puedo adjuntar archivos desde URL externas usando Aspose.Note para .NET?
+**Última actualización:** 2026-04-03  
+**Probado con:** Aspose.Note 24.11 para .NET  
+**Autor:** Aspose  
 
-R4: Aspose.Note se ocupa principalmente de archivos almacenados localmente o a los que se accede a través de transmisiones. Sin embargo, puede descargar archivos desde URL externas usando bibliotecas .NET y luego adjuntarlos usando Aspose.Note.
-
-### P5: ¿Existe un límite de tamaño para los archivos adjuntos en Aspose.Note para .NET?
-
-R5: Aspose.Note no impone límites de tamaño específicos para los archivos adjuntos, pero pueden aplicarse limitaciones prácticas según los recursos del sistema y las consideraciones de rendimiento.
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

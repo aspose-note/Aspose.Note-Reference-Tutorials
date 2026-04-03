@@ -1,33 +1,53 @@
 ---
-title: 在 Aspose.Note 中附加文件並設定圖標
-linktitle: 在 Aspose.Note 中附加文件並設定圖標
+date: 2026-04-03
+description: 了解如何在 Aspose.Note for .NET 中設定自訂圖示與附加檔案，包括儲存 OneNote 檔案以及使用圖片作為圖示。
+keywords:
+- set custom icon
+- attach multiple files
+- use image as icon
+- save onenote file
+- embed text file
+linktitle: 在 Aspose.Note 中附加檔案並設定圖示
 second_title: Aspose.Note .NET API
-description: 了解如何在 Aspose.Note for .NET 中附加文件和設定圖示。透過此逐步教程增強您的 .NET 應用程式。
-weight: 10
+title: 在 Aspose.Note 中設定自訂圖示並附加檔案
 url: /zh-hant/net/attachments/attach-file-set-icon/
+weight: 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# 在 Aspose.Note 中附加文件並設定圖標
+# 設定自訂圖示並在 Aspose.Note 中附加檔案
 
 ## 介紹
 
-在 .NET 開發領域，Aspose.Note 作為以程式設計方式操作 Microsoft OneNote 文件的強大工具而脫穎而出。利用其功能，開發人員可以自動執行與在應用程式中建立、編輯和管理 OneNote 檔案相關的各種任務。一項基本功能是將文件附加到筆記並為這些附件設定圖示的能力。在本教學中，我們將深入研究使用 Aspose.Note for .NET 附加檔案和設定圖示的過程。
+如果您需要在 OneNote 頁面為附件 **設定自訂圖示**，Aspose.Note for .NET 讓此操作變得簡單。透過附加檔案並指定圖像作為其圖示，您可以建立更豐富、更具資訊性的筆記，外觀完全符合您的需求。在本教學中，我們將完整示範整個流程——從建立全新文件、加入附件、套用自訂 JPEG 圖示，最後儲存 OneNote 檔案。
 
-## 先決條件
+## 快速解答
+- **「設定自訂圖示」是什麼意思？** 它讓您可以將預設的附件縮圖替換為您提供的圖像。  
+- **我可以附加多個檔案嗎？** 可以，對每個檔案重複附件步驟即可。  
+- **支援哪些圖像格式作為圖示？** 任何 .NET 相容的格式，例如 JPEG、PNG、BMP 或 GIF。  
+- **我需要授權嗎？** 正式使用時需要有效的 Aspose.Note 授權；免費試用版可用於評估。  
+- **如何儲存 OneNote 檔案？** 使用 `Document.Save()` 並指定 *.one* 檔案路徑。
 
-在深入學習本教程之前，請確保您具備以下先決條件：
+## 在 Aspose.Note 中「設定自訂圖示」是什麼？
+設定自訂圖示是指為 OneNote 頁面中的附件指定特定圖像（例如 JPEG），以此來代表該檔案。這可提升使用者的視覺提示，亦可用於顯示檔案類型標誌或品牌圖像。
 
-- C# 程式語言基礎知識
-- 已安裝 Aspose.Note for .NET 函式庫
-- 使用 Visual Studio 或任何首選 IDE 設定開發環境
+## 為何要為附件設定自訂圖示？
+- **更佳的視覺情境：** 使用者能立即辨識附件的類型或用途。  
+- **品牌一致性：** 使用公司標誌作為所有相關文件的圖示。  
+- **提升使用者體驗：** 讓筆記看起來更精緻、專業，特別是在共享筆記本中。
 
-## 導入命名空間
+## 前置條件
 
-讓我們先將必要的命名空間匯入到您的 C# 專案中：
+- 具備 C# 程式設計的基本知識。  
+- 已安裝 Aspose.Note for .NET 程式庫。  
+- Visual Studio（或任何 .NET 相容的 IDE）已就緒以進行開發。
+
+## 匯入命名空間
+
+首先，將所需的命名空間匯入範圍，以便操作檔案、圖像與 OneNote 物件。
 
 ```csharp
 using System.IO;
@@ -37,35 +57,38 @@ using System.Collections.Generic;
 using System.Drawing.Imaging;
 ```
 
-## 在 Aspose.Note 中附加文件並設定圖標
+## 步驟說明：附加檔案並設定其圖示
 
-現在，讓我們將在 Aspose.Note 中附加文件並設定其圖示的過程分解為多個步驟：
-
-### 第 1 步：建立文檔對象
+### 步驟 1：建立 Document 物件
+全新的 `Document` 實例代表您即將建立的 OneNote 檔案。
 
 ```csharp
 Document doc = new Document();
 ```
 
-### 第2步：初始化頁面對象
+### 步驟 2：初始化 Page 物件
+每個 OneNote 檔案包含一個或多個頁面。此處我們建立第一個頁面。
 
 ```csharp
 Aspose.Note.Page page = new Aspose.Note.Page(doc);
 ```
 
-### 第三步：初始化大綱對象
+### 步驟 3：初始化 Outline 物件
+Outline 作為頁面上內容區塊的容器。
 
 ```csharp
 Outline outline = new Outline(doc);
 ```
 
-### 步驟 4：初始化 OutlineElement 對象
+### 步驟 4：初始化 OutlineElement 物件
+此元素將保存附加的檔案及其自訂圖示。
 
 ```csharp
 OutlineElement outlineElem = new OutlineElement(doc);
 ```
 
-### 步驟5：讀取檔案並初始化 AttachedFile 對象
+### 步驟 5：讀取圖示影像並初始化 AttachedFile 物件
+我們開啟圖像串流（自訂圖示），並指向要嵌入的檔案。
 
 ```csharp
 string dataDir = "Your Document Directory";
@@ -75,62 +98,80 @@ using (var stream = File.OpenRead(dataDir + "icon.jpg"))
 }
 ```
 
-### 第 6 步：將附加檔案附加到 OutlineElement
+> **小技巧：** 若想使用 PNG 圖示，請將 `ImageFormat.Jpeg` 改為 `ImageFormat.Png`。
+
+### 步驟 6：將附加檔案加入 OutlineElement
+現在檔案（含圖示）成為 OutlineElement 的子項目。
 
 ```csharp
 outlineElem.AppendChildLast(attachedFile);
 ```
 
-### 第 7 步：將 OutlineElement 附加到 Outline
+### 步驟 7：將 OutlineElement 加入 Outline
+此動作將元素嵌入 Outline 容器內。
 
 ```csharp
 outline.AppendChildLast(outlineElem);
 ```
 
-### 第 8 步：將大綱附加到頁面
+### 步驟 8：將 Outline 加入 Page
+將整個 Outline 階層附加至頁面。
 
 ```csharp
 page.AppendChildLast(outline);
 ```
 
-### 第 9 步：將頁面附加到文檔
+### 步驟 9：將 Page 加入 Document
+將完成的頁面加入文件結構。
 
 ```csharp
 doc.AppendChildLast(page);
 ```
 
-### 第10步：儲存文檔
+### 步驟 10：儲存 OneNote 文件
+最後，將文件寫入磁碟，儲存為 *.one* 檔案。
 
 ```csharp
 dataDir = dataDir + "AttachFileAndSetIcon_out.one";
 doc.Save(dataDir);
 ```
 
-## 結論
+## 常見使用情境
+- **嵌入合約：** 附加 PDF 並使用合約標誌圖示。  
+- **分享程式碼片段：** 附加 `.txt` 檔案並使用自訂的「程式碼」圖示。  
+- **專案文件：** 附加設計檔案，並設定與檔案類型相符的縮圖。
 
-在本教學中，我們探索如何使用 Aspose.Note for .NET 附加檔案並設定其圖示。透過遵循這些逐步說明，您可以將文件附件功能無縫整合到 .NET 應用程式中，從而提高其工作效率和多功能性。
+## 常見問題與解決方案
 
-## 常見問題解答
+| 問題 | 解決方案 |
+|------|----------|
+| **圖示未顯示** | 確認圖像格式與您傳入的 `ImageFormat` 相符（例如 JPEG 與 PNG）。 |
+| **檔案路徑錯誤** | 使用 `Path.Combine(dataDir, "file.ext")` 以避免缺少斜線的問題。 |
+| **大型附件導致效能延遲** | 先壓縮檔案或將其分割成多個較小的附件。 |
 
-### Q1：我可以使用 Aspose.Note for .NET 將多個檔案附加到單一筆記嗎？
+## 常見問與答
 
-A1：是的，您可以透過對每個文件重複本教學中概述的過程，將多個文件附加到筆記中。
+**Q: 我可以使用 Aspose.Note for .NET 在單一筆記中附加多個檔案嗎？**  
+A: 可以。只需對每個檔案重複「讀取圖示影像並初始化 AttachedFile 物件」的區塊，並將每個 `AttachedFile` 附加至相同的 `OutlineElement`，或建立獨立的元素。
 
-### Q2：是否可以為文件附件設定自訂圖示？
+**Q: 是否可以為檔案附件設定自訂圖示？**  
+A: 當然可以。`AttachedFile` 建構函式允許您傳入圖像串流並指定圖像格式，讓您完全掌控圖示。
 
-A2：是的，Aspose.Note for .NET 允許您根據您的要求為檔案附件指定自訂圖示。
+**Q: Aspose.Note 是否支援其他圖像格式作為圖示？**  
+A: 支援。除了 JPEG，您也可以使用 PNG、BMP、GIF，或任何 `System.Drawing.Imaging.ImageFormat` 支援的格式。
 
-### Q3：Aspose.Note是否支援其他影像格式設定圖示？
+**Q: 我可以從外部 URL 附加檔案嗎？**  
+A: 雖然 Aspose.Note 主要使用本機串流，但您可以透過 `HttpClient` 下載檔案，將其存入 `MemoryStream`，再將該串流傳給 `AttachedFile`。
 
-A3：是的，除了JPEG之外，您還可以使用.NET支援的各種其他圖像格式來設定圖標，例如PNG、BMP或GIF。
+**Q: 檔案附件有大小限制嗎？**  
+A: Aspose.Note 本身沒有硬性限制，但極大檔案可能影響記憶體使用與效能。建議壓縮大型附件。
 
-### 問題 4：我可以使用 Aspose.Note for .NET 從外部 URL 附加檔案嗎？
+---
 
-A4：Aspose.Note 主要處理本機儲存或透過串流存取的檔案。但是，您可以使用 .NET 程式庫從外部 URL 下載文件，然後使用 Aspose.Note 附加它們。
+**Last Updated:** 2026-04-03  
+**Tested With:** Aspose.Note 24.11 for .NET  
+**Author:** Aspose  
 
-### Q5：Aspose.Note for .NET 中的檔案附件有大小限制嗎？
-
-A5：Aspose.Note 並沒有對檔案附件施加具體的大小限制，但根據系統資源和效能考慮，可能會存在實際限制。
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

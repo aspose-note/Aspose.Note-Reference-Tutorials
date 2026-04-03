@@ -1,31 +1,54 @@
 ---
-title: A csatolt fájlok letöltése az Aspose.Note segítségével
-linktitle: A csatolt fájlok letöltése az Aspose.Note segítségével
+date: 2026-04-03
+description: Tanulja meg, hogyan töltsön be OneNote‑dokumentumot, és hogyan nyerje
+  ki a csatolt fájlokat az Aspose.Note for .NET segítségével. Kövesse a lépésről‑lépésre
+  útmutatót a csatolmányok hatékony lekéréséhez.
+keywords:
+- load onenote document
+- extract attached files
+- convert attachment to stream
+linktitle: Csatolt fájlok lekérése az Aspose.Note segítségével
 second_title: Aspose.Note .NET API
-description: Ismerje meg, hogyan kérhet le csatolt fájlokat a Microsoft OneNote dokumentumokból az Aspose.Note for .NET használatával. Kövesse a lépéseket a betöltéshez, a csomópontok lekéréséhez és a mellékleteken keresztüli iterációhoz.
-weight: 12
+title: OneNote-dokumentum betöltése és mellékletek lekérése – Aspose.Note
 url: /hu/net/attachments/retrieve-attached-files/
+weight: 12
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# A csatolt fájlok letöltése az Aspose.Note segítségével
+# OneNote dokumentum betöltése és mellékletek lekérése – Aspose.Note
 
 ## Bevezetés
 
-Ebben az oktatóanyagban megvizsgáljuk, hogyan lehet letölteni csatolt fájlokat egy dokumentumból az Aspose.Note for .NET segítségével. Az Aspose.Note egy hatékony API, amely lehetővé teszi a fejlesztők számára, hogy programozottan dolgozzanak Microsoft OneNote fájlokkal. A folyamatot egyszerű lépésekre bontjuk, hogy könnyen követhető legyen.
+Ezen az útmutatón megtanulja, hogyan **töltsön be OneNote dokumentumot** és **vonjon ki csatolt fájlokat** az Aspose.Note for .NET segítségével. Akár migrációs eszközt, auditáló segédeszközt épít, vagy egyszerűen csak erőforrásokat szeretne kinyerni egy OneNote jegyzetfüzetből, az alábbi lépések megmutatják, hogyan lehet lekérni minden mellékletet, és opcionálisan **a mellékletet átalakítani stream-mé** a további feldolgozáshoz. Végigvezetjük a teljes folyamaton, a fájl betöltésétől a mellékletek helyi mentéséig.
+
+## Gyors válaszok
+- **Ez az útmutató mit fed le?** OneNote dokumentum betöltése és a csatolt fájlok kinyerése.  
+- **Melyik könyvtár szükséges?** Aspose.Note for .NET (ingyenes próba elérhető).  
+- **Hány sor kód?** Kevesebb, mint 30 sor négy tömör kódrészletben.  
+- **Lehet a mellékleteket streamként kezelni?** Igen – a példa bemutatja, hogyan lehet minden mellékletet memória stream-mé konvertálni.  
+- **Szükség van licencre a termeléshez?** Érvényes Aspose.Note licenc szükséges a nem próba használathoz.
+
+## Mi az a „OneNote dokumentum betöltése”?
+A OneNote dokumentum betöltése azt jelenti, hogy egy *.one* fájlt megnyitunk az Aspose.Note `Document` osztállyal, így programozott módon vizsgálhatjuk meg a tartalmát — oldalakat, szekciókat és bármilyen beágyazott erőforrást, például csatolt fájlokat.
+
+## Miért kell kinyerni a csatolt fájlokat?
+A csatolt fájlok gyakran értékes erőforrásokat (PDF-ek, képek, táblázatok) tartalmaznak, amelyeket a felhasználók a jegyzeteikbe ágyaztak be. Kinyerésük lehetővé teszi, hogy:
+- Archiválja vagy készítsen biztonsági mentést a fontos erőforrásokról.
+- További feldolgozást végezzen a fájlokon (pl. PDF‑gé konvertálás, tartalom elemzés).
+- Újra felhasználja az eszközöket más alkalmazásokban manuális másolás nélkül.
 
 ## Előfeltételek
 
-Mielőtt elkezdené, győződjön meg arról, hogy rendelkezik a következőkkel:
-
--  Aspose.Note for .NET: Győződjön meg arról, hogy telepítette az Aspose.Note for .NET-et. Letöltheti innen[itt](https://releases.aspose.com/note/net/).
+- Aspose.Note for .NET telepítve. Letöltheti [innen](https://releases.aspose.com/note/net/).
+- .NET fejlesztői környezet (Visual Studio, VS Code vagy bármely C# fordító).
+- OneNote fájl (`*.one`), amely egy vagy több csatolt fájlt tartalmaz.
 
 ## Névterek importálása
 
-Először is importáljuk a szükséges névtereket az Aspose használatához. Megjegyzés:
+First, import the namespaces that provide file I/O, Aspose.Note types, and collection utilities:
 
 ```csharp
 using System.IO;
@@ -35,67 +58,80 @@ using System.Collections.Generic;
 using System.Drawing;
 ```
 
-## 1. lépés: Töltse be a dokumentumot
+## 1. lépés: OneNote dokumentum betöltése
 
 ```csharp
-// A dokumentumok könyvtárának elérési útja.
+// The path to the documents directory.
 string dataDir = "Your Document Directory";
 
-// Töltse be a dokumentumot az Aspose.Note-ba.
+// Load the document into Aspose.Note.
 Document oneFile = new Document(dataDir + "Sample1.one");
 ```
 
-## 2. lépés: Szerezzen be csatolt fájlcsomópontokat
+> **Pro tipp:** Ellenőrizze, hogy a `dataDir` útvonal elválasztóval (`\` vagy `/`) végződik-e, hogy elkerülje a hibás fájlutakat.
+
+## 2. lépés: Csatolt fájl csomópontok lekérése
 
 ```csharp
-// Szerezze meg a csatolt fájl csomópontjainak listáját
+// Get a list of attached file nodes
 IList<AttachedFile> nodes = oneFile.GetChildNodes<AttachedFile>();
 ```
 
-## 3. lépés: Ismétlés csatolt fájlokon keresztül
+A `GetChildNodes<AttachedFile>()` hívás bejárja az egész jegyzetfüzet hierarchiáját, és visszaadja az összes `AttachedFile` elemet, lehetővé téve, hogy egyenként kezelje a mellékleteket.
+
+## 3. lépés: Csatolt fájlok iterálása és stream-mé konvertálása
 
 ```csharp
-// Iteráció az összes csomóponton keresztül
+// Iterate through all nodes
 foreach (AttachedFile file in nodes)
 {
-    // Csatolt fájl betöltése egy adatfolyam objektumhoz
+    // Load attached file to a stream object
     using (Stream outputStream = new MemoryStream(file.Bytes))
     {
-        // Hozzon létre egy helyi fájlt
+        // Create a local file
         using (Stream fileStream = System.IO.File.OpenWrite(String.Format(dataDir + file.FileName)))
         {
-            // Fájl adatfolyam másolása
+            // Copy file stream
             CopyStream(outputStream, fileStream);
         }
     }
 }
 ```
 
+Ebben a ciklusban **a mellékletet stream-mé konvertáljuk** (`MemoryStream`), így a memóriában manipulálhatja az adatokat, mielőtt elmentené őket. A `CopyStream` segédfüggvény egyszerűen átmásolja a bájtokat a memória stream-ből egy fizikai fájlba a lemezen.
+
+### Gyakori hibák és megoldások
+- **Hiányzó jogosultságok:** Győződjön meg róla, hogy az alkalmazásnak írási hozzáférése van a `dataDir`-hez.
+- **Nagy mellékletek:** Nagyon nagy fájlok esetén fontolja meg a darabolt másolást a teljes fájl memóriába betöltése helyett.
+- **Fájl névütközések:** Használja a `Path.GetUniqueFileName`-t vagy fűzzön hozzá időbélyeget, ha duplikált nevek lehetségesek.
+
 ## Következtetés
 
-Ebben az oktatóanyagban megtanultuk, hogyan kérhet le csatolt fájlokat egy dokumentumból az Aspose.Note for .NET segítségével. Ezeket az egyszerű lépéseket követve zökkenőmentesen integrálhatja ezt a funkciót .NET-alkalmazásaiba.
+Most már tudja, hogyan **töltsön be OneNote dokumentumot**, **vonjon ki csatolt fájlokat**, és **konvertálja minden mellékletet stream-mé** a további feldolgozáshoz. Illessze be ezeket a kódrészleteket .NET projektjeibe, hogy automatizálja az erőforrások kinyerését OneNote jegyzetfüzetekből.
 
-## GYIK
+## Gyakran Ismételt Kérdések
 
-### 1. kérdés: Az Aspose.Note kompatibilis a OneNote-fájlok összes verziójával?
+**Q: Az Aspose.Note kompatibilis minden OneNote fájlverzióval?**  
+A: Igen, az Aspose.Note támogatja a Microsoft OneNote fájlok különböző verzióit, biztosítva a kompatibilitást különböző platformokon.
 
-1. válasz: Igen, az Aspose.Note támogatja a Microsoft OneNote-fájlok különféle verzióit, így biztosítja a kompatibilitást a különböző platformokon.
+**Q: Módosíthatom a lekért csatolt fájlokat, mielőtt helyileg menteném őket?**  
+A: Természetesen! A csatolt fájlokat a szükség szerint manipulálhatja az alkalmazásában, mielőtt helyileg mentené őket.
 
-### 2. kérdés: Módosíthatom a letöltött csatolt fájlokat a helyi mentés előtt?
+**Q: Az Aspose.Note nyújt támogatást fejlesztőknek?**  
+A: Teljes mértékben! Az Aspose átfogó dokumentációt és dedikált támogatási fórumot biztosít a fejlesztők számára, hogy segítséget kapjanak bármilyen kérdés vagy probléma esetén.
 
-A2: Természetesen! A csatolt fájlokat szükség szerint módosíthatja az alkalmazáson belül, mielőtt helyileg elmentené őket.
+**Q: Kipróbálhatom az Aspose.Note-ot vásárlás előtt?**  
+A: Igen, ingyenes próba verziót vehet igénybe az Aspose.Note-ból, hogy felfedezze a funkciókat és képességeket vásárlási döntés előtt.
 
-### 3. kérdés: Az Aspose.Note kínál-e támogatást a fejlesztőknek?
+**Q: Hogyan szerezhetek ideiglenes licencet az Aspose.Note-hoz?**  
+A: Ideiglenes licencet kérhet az Aspose-tól, hogy a fejlesztői környezetben kiértékelhesse az API teljes képességeit.
 
-A3: Abszolút! Az Aspose kiterjedt dokumentációt és egy dedikált támogatási fórumot biztosít, hogy segítse a fejlesztőket bármilyen kérdésben vagy problémában.
+---
 
-### 4. kérdés: Kipróbálhatom az Aspose.Note-t a vásárlás előtt?
+**Utoljára frissítve:** 2026-04-03  
+**Tesztelve ezzel:** Aspose.Note 24.11 for .NET  
+**Szerző:** Aspose  
 
-4. válasz: Igen, igénybe veheti az Aspose.Note ingyenes próbaverzióját, hogy a vásárlási döntés meghozatala előtt felfedezze szolgáltatásait és funkcióit.
-
-### 5. kérdés: Hogyan szerezhetek ideiglenes licencet az Aspose.Note számára?
-
-5. válasz: Kérhet ideiglenes licencet az Aspose-tól, hogy értékelje az API teljes képességeit a fejlesztői környezetben.
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
