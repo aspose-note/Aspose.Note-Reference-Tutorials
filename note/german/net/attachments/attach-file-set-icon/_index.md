@@ -1,33 +1,55 @@
 ---
-title: Datei anhängen und Symbol in Aspose.Note festlegen
+date: 2026-04-03
+description: Erfahren Sie, wie Sie ein benutzerdefiniertes Symbol festlegen und Dateien
+  in Aspose.Note für .NET anhängen, einschließlich des Speicherns von OneNote‑Dateien
+  und der Verwendung von Bildern als Symbole.
+keywords:
+- set custom icon
+- attach multiple files
+- use image as icon
+- save onenote file
+- embed text file
 linktitle: Datei anhängen und Symbol in Aspose.Note festlegen
-second_title: Aspose.Note .NET-API
-description: Erfahren Sie, wie Sie in Aspose.Note für .NET Dateien anhängen und Symbole festlegen. Erweitern Sie Ihre .NET-Anwendungen mit dieser Schritt-für-Schritt-Anleitung.
-weight: 10
+second_title: Aspose.Note .NET API
+title: Benutzerdefiniertes Symbol festlegen und Datei in Aspose.Note anhängen
 url: /de/net/attachments/attach-file-set-icon/
+weight: 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Datei anhängen und Symbol in Aspose.Note festlegen
+# Benutzerdefiniertes Symbol festlegen und Datei in Aspose.Note anhängen
 
-## Einführung
+## Einleitung
 
-Im Bereich der .NET-Entwicklung zeichnet sich Aspose.Note als leistungsstarkes Tool zur programmgesteuerten Bearbeitung von Microsoft OneNote-Dokumenten aus. Mithilfe seiner Funktionen können Entwickler verschiedene Aufgaben im Zusammenhang mit der Erstellung, Bearbeitung und Verwaltung von OneNote-Dateien in ihren Anwendungen automatisieren. Eine wesentliche Funktion ist die Möglichkeit, Dateien an Notizen anzuhängen und Symbole für diese Anhänge festzulegen. In diesem Tutorial befassen wir uns mit dem Prozess des Anhängens einer Datei und dem Festlegen eines Symbols mithilfe von Aspose.Note für .NET.
+Wenn Sie ein **benutzerdefiniertes Symbol** für einen Anhang in einer OneNote‑Seite festlegen müssen, macht Aspose.Note für .NET das ganz einfach. Indem Sie eine Datei anhängen und ein Bild als Symbol zuweisen, können Sie reichhaltigere, informativere Notizen erstellen, die genau so aussehen, wie Sie es wünschen. In diesem Tutorial führen wir Sie durch den gesamten Prozess – beginnend mit einem neuen Dokument, dem Hinzufügen eines Anhangs, dem Anwenden eines benutzerdefinierten JPEG‑Symbols und schließlich dem Speichern der OneNote‑Datei.
+
+## Schnelle Antworten
+- **Was bedeutet „benutzerdefiniertes Symbol festlegen“?** Es ermöglicht Ihnen, das standardmäßige Anhangsvorschaubild durch ein von Ihnen bereitgestelltes Bild zu ersetzen.  
+- **Kann ich mehrere Dateien anhängen?** Ja, wiederholen Sie die Anhangsschritte für jede Datei.  
+- **Welche Bildformate werden für Symbole unterstützt?** Jedes .NET‑kompatible Format wie JPEG, PNG, BMP oder GIF.  
+- **Brauche ich eine Lizenz?** Für den Produktionseinsatz ist eine gültige Aspose.Note‑Lizenz erforderlich; eine kostenlose Testversion funktioniert für die Evaluierung.  
+- **Wie speichere ich die OneNote‑Datei?** Verwenden Sie `Document.Save()` und geben Sie einen *.one*-Dateipfad an.
+
+## Was bedeutet „benutzerdefiniertes Symbol festlegen“ in Aspose.Note?
+Ein benutzerdefiniertes Symbol festzulegen bedeutet, ein bestimmtes Bild (z. B. ein JPEG) zuzuweisen, das eine angehängte Datei innerhalb einer OneNote‑Seite darstellt. Dies verbessert die visuellen Hinweise für Benutzer und kann verwendet werden, um Dateityp‑Logos oder Markenbilder anzuzeigen.
+
+## Warum ein benutzerdefiniertes Symbol für Anhänge festlegen?
+- **Besserer visueller Kontext:** Benutzer erkennen sofort den Typ oder Zweck der angehängten Datei.  
+- **Markenkonsistenz:** Verwenden Sie das Logo Ihres Unternehmens als Symbol für alle zugehörigen Dokumente.  
+- **Verbesserte Benutzererfahrung:** Macht Notizen poliert und professionell, besonders in geteilten Notizbüchern.
 
 ## Voraussetzungen
 
-Bevor Sie mit diesem Tutorial beginnen, stellen Sie sicher, dass Sie die folgenden Voraussetzungen erfüllen:
-
-- Grundkenntnisse der Programmiersprache C#
-- Installierte Aspose.Note für .NET-Bibliothek
-- Mit Visual Studio oder einer beliebigen bevorzugten IDE eingerichtete Entwicklungsumgebung
+- Grundkenntnisse in C#‑Programmierung.
+- Aspose.Note für .NET Bibliothek installiert.
+- Visual Studio (oder eine beliebige .NET‑kompatible IDE) bereit für die Entwicklung.
 
 ## Namespaces importieren
 
-Beginnen wir mit dem Importieren der erforderlichen Namespaces in Ihr C#-Projekt:
+Zuerst bringen Sie die erforderlichen Namespaces in den Gültigkeitsbereich, damit Sie mit Dateien, Bildern und OneNote‑Objekten arbeiten können.
 
 ```csharp
 using System.IO;
@@ -37,35 +59,38 @@ using System.Collections.Generic;
 using System.Drawing.Imaging;
 ```
 
-## Datei anhängen und Symbol in Aspose.Note festlegen
+## Schritt‑für‑Schritt‑Anleitung zum Anhängen einer Datei und Festlegen ihres Symbols
 
-Lassen Sie uns nun den Prozess des Anhängens einer Datei und des Festlegens ihres Symbols in Aspose.Note in mehrere Schritte unterteilen:
-
-### Schritt 1: Erstellen Sie ein Dokumentobjekt
+### Schritt 1: Dokumentobjekt erstellen
+Eine neue `Document`‑Instanz repräsentiert die OneNote‑Datei, die Sie erstellen werden.
 
 ```csharp
 Document doc = new Document();
 ```
 
 ### Schritt 2: Seitenobjekt initialisieren
+Jede OneNote‑Datei enthält eine oder mehrere Seiten. Hier erstellen wir die erste Seite.
 
 ```csharp
 Aspose.Note.Page page = new Aspose.Note.Page(doc);
 ```
 
-### Schritt 3: Gliederungsobjekt initialisieren
+### Schritt 3: Outline‑Objekt initialisieren
+Outlines fungieren als Container für Inhaltsblöcke auf einer Seite.
 
 ```csharp
 Outline outline = new Outline(doc);
 ```
 
-### Schritt 4: OutlineElement-Objekt initialisieren
+### Schritt 4: OutlineElement‑Objekt initialisieren
+Dieses Element wird die angehängte Datei und ihr benutzerdefiniertes Symbol enthalten.
 
 ```csharp
 OutlineElement outlineElem = new OutlineElement(doc);
 ```
 
-### Schritt 5: Datei lesen und AttachedFile-Objekt initialisieren
+### Schritt 5: Symbolbild lesen und AttachedFile‑Objekt initialisieren
+Wir öffnen den Bild‑Stream (das benutzerdefinierte Symbol) und verweisen auf die Datei, die wir einbetten möchten.
 
 ```csharp
 string dataDir = "Your Document Directory";
@@ -75,62 +100,80 @@ using (var stream = File.OpenRead(dataDir + "icon.jpg"))
 }
 ```
 
-### Schritt 6: Angehängte Datei an OutlineElement anhängen
+> **Pro‑Tipp:** Ersetzen Sie `ImageFormat.Jpeg` durch `ImageFormat.Png`, wenn Sie ein PNG‑Symbol bevorzugen.
+
+### Schritt 6: Angefügte Datei zum OutlineElement hinzufügen
+Jetzt wird die Datei (mit ihrem Symbol) ein Kind des OutlineElements.
 
 ```csharp
 outlineElem.AppendChildLast(attachedFile);
 ```
 
-### Schritt 7: OutlineElement an Outline anhängen
+### Schritt 7: OutlineElement zum Outline hinzufügen
+Damit wird das Element im Outline‑Container verschachtelt.
 
 ```csharp
 outline.AppendChildLast(outlineElem);
 ```
 
-### Schritt 8: Gliederung an die Seite anhängen
+### Schritt 8: Outline zur Seite hinzufügen
+Fügen Sie die gesamte Outline‑Hierarchie zur Seite hinzu.
 
 ```csharp
 page.AppendChildLast(outline);
 ```
 
-### Schritt 9: Seite an Dokument anhängen
+### Schritt 9: Seite zum Dokument hinzufügen
+Fügen Sie die fertiggestellte Seite zur Dokumentstruktur hinzu.
 
 ```csharp
 doc.AppendChildLast(page);
 ```
 
-### Schritt 10: Dokument speichern
+### Schritt 10: OneNote‑Dokument speichern
+Schließlich schreiben Sie das Dokument als *.one*-Datei auf die Festplatte.
 
 ```csharp
 dataDir = dataDir + "AttachFileAndSetIcon_out.one";
 doc.Save(dataDir);
 ```
 
-## Abschluss
+## Häufige Anwendungsfälle
+- **Verträge einbetten:** Ein PDF anhängen und ein Vertrags‑Logo‑Symbol verwenden.  
+- **Code‑Snippets teilen:** Eine `.txt`‑Datei mit einem benutzerdefinierten „Code“‑Symbol anhängen.  
+- **Projektdokumentation:** Design‑Dateien anhängen und ein Miniaturbild festlegen, das zum Dateityp passt.
 
-In diesem Tutorial haben wir untersucht, wie Sie mit Aspose.Note für .NET eine Datei anhängen und ihr Symbol festlegen. Wenn Sie diese Schritt-für-Schritt-Anleitung befolgen, können Sie die Funktionalität für Dateianhänge nahtlos in Ihre .NET-Anwendungen integrieren und so deren Produktivität und Vielseitigkeit steigern.
+## Häufige Probleme und Lösungen
 
-## FAQs
+| Problem | Lösung |
+|-------|----------|
+| **Symbol wird nicht angezeigt** | Stellen Sie sicher, dass das Bildformat dem von Ihnen übergebenen `ImageFormat` entspricht (z. B. JPEG vs PNG). |
+| **Dateipfad‑Fehler** | Verwenden Sie `Path.Combine(dataDir, "file.ext")`, um fehlende Schrägstrich‑Probleme zu vermeiden. |
+| **Große Anhänge verursachen Leistungsverzögerungen** | Komprimieren Sie die Datei vorher oder teilen Sie sie in mehrere kleinere Anhänge auf. |
 
-### F1: Kann ich mit Aspose.Note für .NET mehrere Dateien an eine einzelne Notiz anhängen?
+## Häufig gestellte Fragen
 
-A1: Ja, Sie können mehrere Dateien an eine Notiz anhängen, indem Sie den in diesem Tutorial beschriebenen Vorgang für jede Datei wiederholen.
+**F: Kann ich mehrere Dateien zu einer einzelnen Notiz mit Aspose.Note für .NET anhängen?**  
+A: Ja. Wiederholen Sie einfach den Block „Symbolbild lesen und AttachedFile‑Objekt initialisieren“ für jede Datei und fügen Sie jedes `AttachedFile` dem selben `OutlineElement` hinzu oder erstellen Sie separate Elemente.
 
-### F2: Ist es möglich, benutzerdefinierte Symbole für Dateianhänge festzulegen?
+**F: Ist es möglich, benutzerdefinierte Symbole für Dateianhänge festzulegen?**  
+A: Absolut. Der `AttachedFile`‑Konstruktor ermöglicht es Ihnen, einen Bild‑Stream zu übergeben und das Bildformat anzugeben, wodurch Sie die vollständige Kontrolle über das Symbol haben.
 
-A2: Ja, Aspose.Note für .NET ermöglicht Ihnen die Angabe benutzerdefinierter Symbole für Dateianhänge entsprechend Ihren Anforderungen.
+**F: Unterstützt Aspose.Note weitere Bildformate zum Festlegen von Symbolen?**  
+A: Ja. Neben JPEG können Sie PNG, BMP, GIF oder jedes von `System.Drawing.Imaging.ImageFormat` unterstützte Format verwenden.
 
-### F3: Unterstützt Aspose.Note andere Bildformate zum Festlegen von Symbolen?
+**F: Kann ich Dateien von externen URLs anhängen?**  
+A: Obwohl Aspose.Note mit lokalen Streams arbeitet, können Sie eine Datei über `HttpClient` herunterladen, in einem `MemoryStream` speichern und diesen Stream dann an `AttachedFile` übergeben.
 
-A3: Ja, neben JPEG können Sie verschiedene andere von .NET unterstützte Bildformate zum Festlegen von Symbolen verwenden, z. B. PNG, BMP oder GIF.
+**F: Gibt es ein Größenlimit für Dateianhänge?**  
+A: Aspose.Note selbst legt kein festes Limit fest, aber sehr große Dateien können den Speicherverbrauch und die Leistung beeinträchtigen. Erwägen Sie, große Anhänge zu komprimieren.
 
-### F4: Kann ich mit Aspose.Note für .NET Dateien von externen URLs anhängen?
+---
 
-A4: Aspose.Note befasst sich hauptsächlich mit Dateien, die lokal gespeichert sind oder auf die über Streams zugegriffen wird. Sie können jedoch mithilfe von .NET-Bibliotheken Dateien von externen URLs herunterladen und diese dann mithilfe von Aspose.Note anhängen.
+**Zuletzt aktualisiert:** 2026-04-03  
+**Getestet mit:** Aspose.Note 24.11 for .NET  
+**Autor:** Aspose  
 
-### F5: Gibt es eine Größenbeschränkung für Dateianhänge in Aspose.Note für .NET?
-
-A5: Aspose.Note legt keine spezifischen Größenbeschränkungen für Dateianhänge fest, es können jedoch praktische Einschränkungen aufgrund von Systemressourcen und Leistungsaspekten gelten.
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

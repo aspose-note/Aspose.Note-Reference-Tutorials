@@ -1,33 +1,54 @@
 ---
-title: Lampirkan File dan Atur Ikon di Aspose.Note
+date: 2026-04-03
+description: Pelajari cara mengatur ikon khusus dan melampirkan file di Aspose.Note
+  untuk .NET, termasuk menyimpan file OneNote dan menggunakan gambar sebagai ikon.
+keywords:
+- set custom icon
+- attach multiple files
+- use image as icon
+- save onenote file
+- embed text file
 linktitle: Lampirkan File dan Atur Ikon di Aspose.Note
-second_title: Aspose.Catatan .NET API
-description: Pelajari cara melampirkan file dan mengatur ikon di Aspose.Note untuk .NET. Tingkatkan aplikasi .NET Anda dengan tutorial langkah demi langkah ini.
-weight: 10
+second_title: Aspose.Note .NET API
+title: Atur Ikon Kustom dan Lampirkan File di Aspose.Note
 url: /id/net/attachments/attach-file-set-icon/
+weight: 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Lampirkan File dan Atur Ikon di Aspose.Note
+# Atur Ikon Kustom dan Lampirkan File di Aspose.Note
 
-## Perkenalan
+## Pendahuluan
 
-Dalam bidang pengembangan .NET, Aspose.Note menonjol sebagai alat yang ampuh untuk memanipulasi dokumen Microsoft OneNote secara terprogram. Dengan memanfaatkan kemampuannya, pengembang dapat mengotomatiskan berbagai tugas terkait pembuatan, pengeditan, dan pengelolaan file OneNote dalam aplikasi mereka. Salah satu fitur penting adalah kemampuan untuk melampirkan file ke catatan dan mengatur ikon untuk lampiran tersebut. Dalam tutorial ini, kita akan mempelajari proses melampirkan file dan mengatur ikon menggunakan Aspose.Note untuk .NET.
+Jika Anda perlu **set custom icon** untuk lampiran di halaman OneNote, Aspose.Note untuk .NET mempermudah prosesnya. Dengan melampirkan file dan menetapkan gambar sebagai ikonnya, Anda dapat membuat catatan yang lebih kaya dan informatif yang tampil persis seperti yang Anda inginkan. Dalam tutorial ini kami akan membahas proses lengkap—dimulai dari dokumen baru, menambahkan lampiran, menerapkan ikon JPEG kustom, dan akhirnya menyimpan file OneNote.
+
+## Jawaban Cepat
+- **What does “set custom icon” mean?** Ini memungkinkan Anda mengganti thumbnail lampiran default dengan gambar yang Anda sediakan.  
+- **Can I attach multiple files?** Ya, ulangi langkah lampiran untuk setiap file.  
+- **Which image formats are supported for icons?** Format gambar apa yang didukung untuk ikon? Format apa pun yang kompatibel dengan .NET seperti JPEG, PNG, BMP, atau GIF.  
+- **Do I need a license?** Apakah saya memerlukan lisensi? Lisensi Aspose.Note yang valid diperlukan untuk penggunaan produksi; percobaan gratis dapat digunakan untuk evaluasi.  
+- **How do I save the OneNote file?** Bagaimana cara menyimpan file OneNote? Gunakan `Document.Save()` dan tentukan jalur file *.one*.
+
+## Apa itu “set custom icon” di Aspose.Note?
+Menetapkan ikon kustom berarti memberikan gambar tertentu (mis., JPEG) untuk mewakili file yang dilampirkan dalam halaman OneNote. Hal ini meningkatkan petunjuk visual bagi pengguna dan dapat digunakan untuk menampilkan logo tipe file atau gambar merek.
+
+## Mengapa mengatur ikon kustom untuk lampiran?
+- **Better visual context:** Pengguna langsung mengenali tipe atau tujuan file yang dilampirkan.  
+- **Brand consistency:** Gunakan logo perusahaan Anda sebagai ikon untuk semua dokumen terkait.  
+- **Enhanced UX:** Membuat catatan tampak rapi dan profesional, terutama dalam notebook yang dibagikan.
 
 ## Prasyarat
 
-Sebelum mendalami tutorial ini, pastikan Anda memiliki prasyarat berikut:
-
-- Pengetahuan dasar bahasa pemrograman C#
-- Menginstal Aspose.Note untuk perpustakaan .NET
-- Lingkungan pengembangan diatur dengan Visual Studio atau IDE pilihan lainnya
+- Pengetahuan dasar pemrograman C#.
+- Aspose.Note for .NET library terinstal.
+- Visual Studio (atau IDE kompatibel .NET lainnya) siap untuk pengembangan.
 
 ## Impor Namespace
 
-Mari kita mulai dengan mengimpor namespace yang diperlukan ke proyek C# Anda:
+Pertama, masukkan namespace yang diperlukan ke dalam ruang lingkup sehingga Anda dapat bekerja dengan file, gambar, dan objek OneNote.
 
 ```csharp
 using System.IO;
@@ -37,35 +58,38 @@ using System.Collections.Generic;
 using System.Drawing.Imaging;
 ```
 
-## Lampirkan File dan Atur Ikon di Aspose.Note
+## Panduan Langkah‑per‑Langkah untuk Melampirkan File dan Mengatur Ikonnya
 
-Sekarang, mari kita uraikan proses melampirkan file dan mengatur ikonnya di Aspose.Note menjadi beberapa langkah:
-
-### Langkah 1: Buat Objek Dokumen
+### Langkah 1: Buat Objek Document
+Instansi `Document` baru mewakili file OneNote yang akan Anda buat.
 
 ```csharp
 Document doc = new Document();
 ```
 
-### Langkah 2: Inisialisasi Objek Halaman
+### Langkah 2: Inisialisasi Objek Page
+Setiap file OneNote berisi satu atau lebih halaman. Di sini kami membuat halaman pertama.
 
 ```csharp
 Aspose.Note.Page page = new Aspose.Note.Page(doc);
 ```
 
-### Langkah 3: Inisialisasi Objek Garis Besar
+### Langkah 3: Inisialisasi Objek Outline
+Outline berfungsi sebagai wadah untuk blok konten pada sebuah halaman.
 
 ```csharp
 Outline outline = new Outline(doc);
 ```
 
 ### Langkah 4: Inisialisasi Objek OutlineElement
+Elemen ini akan menampung file yang dilampirkan dan ikonnya yang kustom.
 
 ```csharp
 OutlineElement outlineElem = new OutlineElement(doc);
 ```
 
-### Langkah 5: Baca File dan Inisialisasi Objek AttachedFile
+### Langkah 5: Baca Gambar Ikon dan Inisialisasi Objek AttachedFile
+Kami membuka aliran gambar (ikon kustom) dan menunjuk ke file yang ingin kami sematkan.
 
 ```csharp
 string dataDir = "Your Document Directory";
@@ -75,62 +99,80 @@ using (var stream = File.OpenRead(dataDir + "icon.jpg"))
 }
 ```
 
-### Langkah 6: Tambahkan File Terlampir ke OutlineElement
+> **Pro tip:** Ganti `ImageFormat.Jpeg` dengan `ImageFormat.Png` jika Anda lebih suka ikon PNG.
+
+### Langkah 6: Tambahkan File yang Dilampirkan ke OutlineElement
+Sekarang file (dengan ikonnya) menjadi anak dari elemen outline.
 
 ```csharp
 outlineElem.AppendChildLast(attachedFile);
 ```
 
 ### Langkah 7: Tambahkan OutlineElement ke Outline
+Ini menempatkan elemen di dalam wadah outline.
 
 ```csharp
 outline.AppendChildLast(outlineElem);
 ```
 
-### Langkah 8: Tambahkan Garis Besar ke Halaman
+### Langkah 8: Tambahkan Outline ke Page
+Lampirkan seluruh hierarki outline ke halaman.
 
 ```csharp
 page.AppendChildLast(outline);
 ```
 
-### Langkah 9: Tambahkan Halaman ke Dokumen
+### Langkah 9: Tambahkan Page ke Document
+Tambahkan halaman yang selesai ke struktur dokumen.
 
 ```csharp
 doc.AppendChildLast(page);
 ```
 
-### Langkah 10: Simpan Dokumen
+### Langkah 10: Simpan Dokumen OneNote
+Akhirnya, tulis dokumen ke disk sebagai file *.one*.
 
 ```csharp
 dataDir = dataDir + "AttachFileAndSetIcon_out.one";
 doc.Save(dataDir);
 ```
 
-## Kesimpulan
+## Kasus Penggunaan Umum
+- **Embedding contracts:** Lampirkan PDF dan gunakan ikon logo kontrak.  
+- **Sharing code snippets:** Lampirkan file `.txt` dengan ikon “code” kustom.  
+- **Project documentation:** Lampirkan file desain dan atur thumbnail yang sesuai dengan tipe file.
 
-Dalam tutorial ini, kita menjelajahi cara melampirkan file dan mengatur ikonnya menggunakan Aspose.Note untuk .NET. Dengan mengikuti petunjuk langkah demi langkah ini, Anda dapat dengan lancar mengintegrasikan fungsionalitas lampiran file ke dalam aplikasi .NET Anda, sehingga meningkatkan produktivitas dan keserbagunaannya.
+## Masalah Umum dan Solusinya
 
-## FAQ
+| Masalah | Solusi |
+|-------|----------|
+| **Icon not showing** | Verifikasi format gambar cocok dengan `ImageFormat` yang Anda berikan (mis., JPEG vs PNG). |
+| **File path errors** | Gunakan `Path.Combine(dataDir, \"file.ext\")` untuk menghindari masalah slash yang hilang. |
+| **Large attachments cause performance lag** | Kompres file terlebih dahulu atau bagi menjadi beberapa lampiran yang lebih kecil. |
 
-### Q1: Bisakah saya melampirkan banyak file ke satu catatan menggunakan Aspose.Note untuk .NET?
+## Pertanyaan yang Sering Diajukan
 
-A1: Ya, Anda dapat melampirkan banyak file ke catatan dengan mengulangi proses yang diuraikan dalam tutorial ini untuk setiap file.
+**Q:** Apakah saya dapat melampirkan beberapa file ke satu catatan menggunakan Aspose.Note untuk .NET?  
+**A:** Ya. Cukup ulangi blok “Read the Icon Image and Initialize the AttachedFile Object” untuk setiap file dan tambahkan setiap `AttachedFile` ke `OutlineElement` yang sama atau buat elemen terpisah.
 
-### Q2: Apakah mungkin untuk mengatur ikon khusus untuk lampiran file?
+**Q:** Apakah memungkinkan untuk mengatur ikon kustom untuk lampiran file?  
+**A:** Tentu saja. Konstruktor `AttachedFile` memungkinkan Anda memberikan aliran gambar dan menentukan format gambar, memberi Anda kontrol penuh atas ikon.
 
-A2: Ya, Aspose.Note untuk .NET memungkinkan Anda menentukan ikon khusus untuk lampiran file sesuai dengan kebutuhan Anda.
+**Q:** Apakah Aspose.Note mendukung format gambar lain untuk mengatur ikon?  
+**A:** Ya. Selain JPEG, Anda dapat menggunakan PNG, BMP, GIF, atau format apa pun yang didukung oleh `System.Drawing.Imaging.ImageFormat`.
 
-### Q3: Apakah Aspose.Note mendukung format gambar lain untuk mengatur ikon?
+**Q:** Apakah saya dapat melampirkan file dari URL eksternal?  
+**A:** Meskipun Aspose.Note bekerja dengan aliran lokal, Anda dapat mengunduh file melalui `HttpClient`, menyimpannya dalam `MemoryStream`, dan kemudian memberikan aliran tersebut ke `AttachedFile`.
 
-A3: Ya, selain JPEG, Anda dapat menggunakan berbagai format gambar lain yang didukung oleh .NET untuk mengatur ikon, seperti PNG, BMP, atau GIF.
+**Q:** Apakah ada batas ukuran untuk lampiran file?  
+**A:** Aspose.Note sendiri tidak menetapkan batas keras, tetapi file yang sangat besar dapat memengaruhi penggunaan memori dan kinerja. Pertimbangkan untuk mengompres lampiran besar.
 
-### Q4: Dapatkah saya melampirkan file dari URL eksternal menggunakan Aspose.Note untuk .NET?
+---
 
-A4: Aspose.Note terutama berkaitan dengan file yang disimpan secara lokal atau diakses melalui aliran. Namun, Anda dapat mengunduh file dari URL eksternal menggunakan perpustakaan .NET dan kemudian melampirkannya menggunakan Aspose.Note.
+**Last Updated:** 2026-04-03  
+**Tested With:** Aspose.Note 24.11 for .NET  
+**Author:** Aspose  
 
-### Q5: Apakah ada batasan ukuran lampiran file di Aspose.Note untuk .NET?
-
-A5: Aspose.Note tidak menerapkan batasan ukuran spesifik untuk lampiran file, namun batasan praktis mungkin berlaku berdasarkan sumber daya sistem dan pertimbangan kinerja.
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

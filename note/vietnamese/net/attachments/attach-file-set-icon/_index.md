@@ -1,33 +1,54 @@
 ---
-title: Đính kèm tệp và đặt biểu tượng trong Aspose.Note
+date: 2026-04-03
+description: Tìm hiểu cách đặt biểu tượng tùy chỉnh và đính kèm tệp trong Aspose.Note
+  cho .NET, bao gồm việc lưu các tệp OneNote và sử dụng hình ảnh làm biểu tượng.
+keywords:
+- set custom icon
+- attach multiple files
+- use image as icon
+- save onenote file
+- embed text file
 linktitle: Đính kèm tệp và đặt biểu tượng trong Aspose.Note
 second_title: Aspose.Note .NET API
-description: Tìm hiểu cách đính kèm tệp và đặt biểu tượng trong Aspose.Note cho .NET. Nâng cao ứng dụng .NET của bạn với hướng dẫn từng bước này.
-weight: 10
+title: Đặt biểu tượng tùy chỉnh và đính kèm tệp trong Aspose.Note
 url: /vi/net/attachments/attach-file-set-icon/
+weight: 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Đính kèm tệp và đặt biểu tượng trong Aspose.Note
+# Đặt biểu tượng tùy chỉnh và đính kèm tệp trong Aspose.Note
 
 ## Giới thiệu
 
-Trong lĩnh vực phát triển .NET, Aspose.Note nổi bật như một công cụ mạnh mẽ để thao tác các tài liệu Microsoft OneNote theo chương trình. Tận dụng khả năng của nó, các nhà phát triển có thể tự động hóa nhiều tác vụ khác nhau liên quan đến việc tạo, chỉnh sửa và quản lý tệp OneNote trong ứng dụng của họ. Một tính năng cần thiết là khả năng đính kèm tệp vào ghi chú và đặt biểu tượng cho các tệp đính kèm đó. Trong hướng dẫn này, chúng ta sẽ đi sâu vào quy trình đính kèm tệp và đặt biểu tượng bằng Aspose.Note cho .NET.
+Nếu bạn cần **đặt biểu tượng tùy chỉnh** cho một tệp đính kèm trong trang OneNote, Aspose.Note for .NET giúp thực hiện điều này một cách đơn giản. Bằng cách đính kèm một tệp và gán một hình ảnh làm biểu tượng, bạn có thể tạo ra các ghi chú phong phú, thông tin hơn và trông chính xác như mong muốn. Trong hướng dẫn này, chúng ta sẽ đi qua toàn bộ quy trình — bắt đầu từ một tài liệu mới, thêm tệp đính kèm, áp dụng biểu tượng JPEG tùy chỉnh, và cuối cùng lưu tệp OneNote.
 
-## Điều kiện tiên quyết
+## Câu trả lời nhanh
+- **“Đặt biểu tượng tùy chỉnh” có nghĩa là gì?** Nó cho phép bạn thay thế hình thu nhỏ mặc định của tệp đính kèm bằng một hình ảnh bạn cung cấp.  
+- **Tôi có thể đính kèm nhiều tệp không?** Có, lặp lại các bước đính kèm cho mỗi tệp.  
+- **Các định dạng hình ảnh nào được hỗ trợ cho biểu tượng?** Bất kỳ định dạng nào tương thích với .NET như JPEG, PNG, BMP hoặc GIF.  
+- **Tôi có cần giấy phép không?** Cần có giấy phép Aspose.Note hợp lệ cho môi trường sản xuất; bản dùng thử miễn phí đủ cho việc đánh giá.  
+- **Làm sao lưu tệp OneNote?** Sử dụng `Document.Save()` và chỉ định đường dẫn tệp *.one*.
 
-Trước khi đi sâu vào hướng dẫn này, hãy đảm bảo bạn có các điều kiện tiên quyết sau:
+## “Đặt biểu tượng tùy chỉnh” trong Aspose.Note là gì?
+Đặt biểu tượng tùy chỉnh có nghĩa là gán một hình ảnh cụ thể (ví dụ: JPEG) để đại diện cho tệp đính kèm trong một trang OneNote. Điều này cải thiện các gợi ý trực quan cho người dùng và có thể được dùng để hiển thị logo loại tệp hoặc hình ảnh thương hiệu.
 
-- Kiến thức cơ bản về ngôn ngữ lập trình C#
-- Đã cài đặt Aspose.Note cho thư viện .NET
-- Môi trường phát triển được thiết lập với Visual Studio hoặc bất kỳ IDE ưa thích nào
+## Tại sao nên đặt biểu tượng tùy chỉnh cho tệp đính kèm?
+- **Ngữ cảnh hình ảnh tốt hơn:** Người dùng ngay lập tức nhận ra loại hoặc mục đích của tệp đính kèm.  
+- **Nhất quán thương hiệu:** Sử dụng logo công ty của bạn làm biểu tượng cho tất cả các tài liệu liên quan.  
+- **Cải thiện trải nghiệm người dùng:** Giúp ghi chú trông chuyên nghiệp và tinh tế, đặc biệt trong sổ tay được chia sẻ.
+
+## Yêu cầu trước
+
+- Kiến thức cơ bản về lập trình C#.
+- Thư viện Aspose.Note for .NET đã được cài đặt.
+- Visual Studio (hoặc bất kỳ IDE nào tương thích .NET) sẵn sàng cho việc phát triển.
 
 ## Nhập không gian tên
 
-Hãy bắt đầu bằng cách nhập các không gian tên cần thiết vào dự án C# của bạn:
+Đầu tiên, đưa các không gian tên cần thiết vào phạm vi để bạn có thể làm việc với tệp, hình ảnh và các đối tượng OneNote.
 
 ```csharp
 using System.IO;
@@ -37,35 +58,38 @@ using System.Collections.Generic;
 using System.Drawing.Imaging;
 ```
 
-## Đính kèm tệp và đặt biểu tượng trong Aspose.Note
+## Hướng dẫn từng bước để đính kèm tệp và đặt biểu tượng
 
-Bây giờ, hãy chia nhỏ quá trình đính kèm tệp và đặt biểu tượng của nó trong Aspose.Note thành nhiều bước:
-
-### Bước 1: Tạo đối tượng tài liệu
+### Bước 1: Tạo đối tượng Document
+Một thể hiện `Document` mới đại diện cho tệp OneNote mà bạn sẽ xây dựng.
 
 ```csharp
 Document doc = new Document();
 ```
 
-### Bước 2: Khởi tạo đối tượng trang
+### Bước 2: Khởi tạo đối tượng Page
+Mỗi tệp OneNote chứa một hoặc nhiều trang. Ở đây chúng ta tạo trang đầu tiên.
 
 ```csharp
 Aspose.Note.Page page = new Aspose.Note.Page(doc);
 ```
 
 ### Bước 3: Khởi tạo đối tượng Outline
+Outline hoạt động như một container cho các khối nội dung trên trang.
 
 ```csharp
 Outline outline = new Outline(doc);
 ```
 
 ### Bước 4: Khởi tạo đối tượng OutlineElement
+Phần tử này sẽ chứa tệp đính kèm và biểu tượng tùy chỉnh của nó.
 
 ```csharp
 OutlineElement outlineElem = new OutlineElement(doc);
 ```
 
-### Bước 5: Đọc tệp và khởi tạo đối tượng AttachedFile
+### Bước 5: Đọc ảnh biểu tượng và khởi tạo đối tượng AttachedFile
+Chúng ta mở luồng ảnh (biểu tượng tùy chỉnh) và chỉ đến tệp muốn nhúng.
 
 ```csharp
 string dataDir = "Your Document Directory";
@@ -75,62 +99,79 @@ using (var stream = File.OpenRead(dataDir + "icon.jpg"))
 }
 ```
 
-### Bước 6: Nối tệp đính kèm vào OutlineElement
+> **Mẹo chuyên nghiệp:** Thay `ImageFormat.Jpeg` bằng `ImageFormat.Png` nếu bạn muốn sử dụng biểu tượng PNG.
+
+### Bước 6: Gắn tệp đính kèm vào OutlineElement
+Bây giờ tệp (cùng biểu tượng) trở thành một phần con của OutlineElement.
 
 ```csharp
 outlineElem.AppendChildLast(attachedFile);
 ```
 
-### Bước 7: Nối phần tử Outline vào Outline
+### Bước 7: Gắn OutlineElement vào Outline
+Điều này đặt phần tử bên trong container Outline.
 
 ```csharp
 outline.AppendChildLast(outlineElem);
 ```
 
-### Bước 8: Nối dàn ý vào trang
+### Bước 8: Gắn Outline vào Page
+Đính kèm toàn bộ cấu trúc Outline vào trang.
 
 ```csharp
 page.AppendChildLast(outline);
 ```
 
-### Bước 9: Nối trang vào tài liệu
+### Bước 9: Gắn Page vào Document
+Thêm trang đã hoàn thiện vào cấu trúc tài liệu.
 
 ```csharp
 doc.AppendChildLast(page);
 ```
 
-### Bước 10: Lưu tài liệu
+### Bước 10: Lưu tài liệu OneNote
+Cuối cùng, ghi tài liệu ra đĩa dưới dạng tệp *.one*.
 
 ```csharp
 dataDir = dataDir + "AttachFileAndSetIcon_out.one";
 doc.Save(dataDir);
 ```
 
-## Phần kết luận
+## Các trường hợp sử dụng phổ biến
+- **Nhúng hợp đồng:** Đính kèm PDF và sử dụng biểu tượng logo hợp đồng.  
+- **Chia sẻ đoạn mã:** Đính kèm tệp `.txt` với biểu tượng “code” tùy chỉnh.  
+- **Tài liệu dự án:** Đính kèm các tệp thiết kế và đặt hình thu nhỏ phù hợp với loại tệp.
 
-Trong hướng dẫn này, chúng tôi đã khám phá cách đính kèm tệp và đặt biểu tượng của nó bằng Aspose.Note cho .NET. Bằng cách làm theo các hướng dẫn từng bước này, bạn có thể tích hợp liền mạch chức năng đính kèm tệp vào các ứng dụng .NET của mình, nâng cao năng suất và tính linh hoạt của chúng.
+## Các vấn đề thường gặp và giải pháp
+| Vấn đề | Giải pháp |
+|-------|----------|
+| **Biểu tượng không hiển thị** | Kiểm tra định dạng hình ảnh có khớp với `ImageFormat` bạn đã truyền (ví dụ: JPEG vs PNG). |
+| **Lỗi đường dẫn tệp** | Sử dụng `Path.Combine(dataDir, "file.ext")` để tránh vấn đề thiếu dấu gạch chéo. |
+| **Tệp đính kèm lớn gây chậm hiệu năng** | Nén tệp trước hoặc chia thành nhiều tệp đính kèm nhỏ hơn. |
 
 ## Câu hỏi thường gặp
 
-### Câu hỏi 1: Tôi có thể đính kèm nhiều tệp vào một ghi chú bằng Aspose.Note cho .NET không?
+**H: Tôi có thể đính kèm nhiều tệp vào một ghi chú duy nhất bằng Aspose.Note for .NET không?**  
+Đ: Có. Chỉ cần lặp lại khối “Đọc ảnh biểu tượng và khởi tạo đối tượng AttachedFile” cho mỗi tệp và gắn mỗi `AttachedFile` vào cùng một `OutlineElement` hoặc tạo các phần tử riêng biệt.
 
-Câu trả lời 1: Có, bạn có thể đính kèm nhiều tệp vào ghi chú bằng cách lặp lại quy trình được nêu trong hướng dẫn này cho từng tệp.
+**H: Có thể đặt biểu tượng tùy chỉnh cho tệp đính kèm không?**  
+Đ: Chắc chắn. Hàm khởi tạo `AttachedFile` cho phép bạn truyền luồng ảnh và chỉ định định dạng ảnh, cho phép kiểm soát hoàn toàn biểu tượng.
 
-### Câu hỏi 2: Có thể đặt biểu tượng tùy chỉnh cho tệp đính kèm không?
+**H: Aspose.Note hỗ trợ các định dạng ảnh nào khác để đặt biểu tượng?**  
+Đ: Ngoài JPEG, bạn có thể sử dụng PNG, BMP, GIF hoặc bất kỳ định dạng nào được `System.Drawing.Imaging.ImageFormat` hỗ trợ.
 
-Câu trả lời 2: Có, Aspose.Note for .NET cho phép bạn chỉ định các biểu tượng tùy chỉnh cho tệp đính kèm theo yêu cầu của bạn.
+**H: Tôi có thể đính kèm tệp từ URL bên ngoài không?**  
+Đ: Mặc dù Aspose.Note làm việc với luồng cục bộ, bạn có thể tải tệp bằng `HttpClient`, lưu vào `MemoryStream`, sau đó truyền luồng đó cho `AttachedFile`.
 
-### Câu 3: Aspose.Note có hỗ trợ các định dạng hình ảnh khác để cài đặt biểu tượng không?
+**H: Có giới hạn kích thước cho tệp đính kèm không?**  
+Đ: Aspose.Note không áp đặt giới hạn cứng, nhưng tệp rất lớn có thể ảnh hưởng đến việc sử dụng bộ nhớ và hiệu năng. Nên nén các tệp lớn trước khi đính kèm.
 
-Câu trả lời 3: Có, ngoài JPEG, bạn có thể sử dụng nhiều định dạng hình ảnh khác được .NET hỗ trợ để đặt biểu tượng, chẳng hạn như PNG, BMP hoặc GIF.
+---
 
-### Câu hỏi 4: Tôi có thể đính kèm tệp từ các URL bên ngoài bằng Aspose.Note cho .NET không?
+**Cập nhật lần cuối:** 2026-04-03  
+**Được kiểm tra với:** Aspose.Note 24.11 for .NET  
+**Tác giả:** Aspose  
 
-Câu trả lời 4: Aspose.Note chủ yếu xử lý các tệp được lưu trữ cục bộ hoặc được truy cập thông qua luồng. Tuy nhiên, bạn có thể tải xuống tệp từ các URL bên ngoài bằng thư viện .NET rồi đính kèm chúng bằng Aspose.Note.
-
-### Câu hỏi 5: Có giới hạn kích thước cho tệp đính kèm trong Aspose.Note cho .NET không?
-
-Câu trả lời 5: Aspose.Note không áp đặt giới hạn kích thước cụ thể cho tệp đính kèm nhưng có thể áp dụng các giới hạn thực tế dựa trên các cân nhắc về hiệu suất và tài nguyên hệ thống.
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

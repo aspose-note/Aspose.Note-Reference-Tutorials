@@ -1,33 +1,54 @@
 ---
-title: Bifoga fil och ange ikon i Aspose.Note
-linktitle: Bifoga fil och ange ikon i Aspose.Note
+date: 2026-04-03
+description: Lär dig hur du ställer in en anpassad ikon och bifogar filer i Aspose.Note
+  för .NET, inklusive att spara OneNote‑filer och använda bilder som ikoner.
+keywords:
+- set custom icon
+- attach multiple files
+- use image as icon
+- save onenote file
+- embed text file
+linktitle: Bifoga fil och ställ in ikon i Aspose.Note
 second_title: Aspose.Note .NET API
-description: Lär dig hur du bifogar filer och ställer in ikoner i Aspose.Note för .NET. Förbättra dina .NET-applikationer med denna steg-för-steg handledning.
-weight: 10
+title: Ställ in anpassad ikon och bifoga fil i Aspose.Note
 url: /sv/net/attachments/attach-file-set-icon/
+weight: 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Bifoga fil och ange ikon i Aspose.Note
+# Ange anpassad ikon och bifoga fil i Aspose.Note
 
 ## Introduktion
 
-Inom .NET-utvecklingen framstår Aspose.Note som ett kraftfullt verktyg för att manipulera Microsoft OneNote-dokument programmatiskt. Utvecklare kan med hjälp av dess kapacitet automatisera olika uppgifter relaterade till att skapa, redigera och hantera OneNote-filer i sina applikationer. En viktig funktion är möjligheten att bifoga filer till anteckningar och ställa in ikoner för dessa bilagor. I den här handledningen kommer vi att fördjupa oss i processen att bifoga en fil och ställa in en ikon med Aspose.Note för .NET.
+Om du behöver **ange en anpassad ikon** för en bilaga i en OneNote‑sida, gör Aspose.Note för .NET det enkelt. Genom att bifoga en fil och tilldela en bild som dess ikon kan du skapa rikare, mer informativa anteckningar som ser exakt ut som du vill. I den här handledningen går vi igenom hela processen – från ett nytt dokument, lägga till en bilaga, applicera en anpassad JPEG‑ikon och slutligen spara OneNote‑filen.
+
+## Snabba svar
+- **Vad betyder “set custom icon”?** Det låter dig ersätta standard‑miniatyren för bilagan med en bild du tillhandahåller.  
+- **Kan jag bifoga flera filer?** Ja, upprepa bifogningsstegen för varje fil.  
+- **Vilka bildformat stöds för ikoner?** Alla .NET‑kompatibla format såsom JPEG, PNG, BMP eller GIF.  
+- **Behöver jag en licens?** En giltig Aspose.Note‑licens krävs för produktionsanvändning; en gratis provversion fungerar för utvärdering.  
+- **Hur sparar jag OneNote‑filen?** Använd `Document.Save()` och ange en *.one*-filväg.
+
+## Vad är “set custom icon” i Aspose.Note?
+Att ange en anpassad ikon innebär att tilldela en specifik bild (t.ex. en JPEG) för att representera en bifogad fil inom en OneNote‑sida. Detta förbättrar visuella ledtrådar för användare och kan användas för att visa filtyp‑logotyper eller varumärkesbilder.
+
+## Varför ange en anpassad ikon för bilagor?
+- **Bättre visuell kontext:** Användare känner omedelbart igen typen eller syftet med den bifogade filen.  
+- **Varumärkeskonsekvens:** Använd ditt företags logotyp som ikon för alla relaterade dokument.  
+- **Förbättrad användarupplevelse:** Gör anteckningar snygga och professionella, särskilt i delade anteckningsböcker.
 
 ## Förutsättningar
 
-Innan du dyker in i den här handledningen, se till att du har följande förutsättningar:
+- Grundläggande kunskap i C#‑programmering.  
+- Aspose.Note för .NET‑biblioteket installerat.  
+- Visual Studio (eller någon .NET‑kompatibel IDE) redo för utveckling.
 
-- Grundläggande kunskaper i programmeringsspråket C#
-- Installerade Aspose.Note för .NET-biblioteket
-- Utvecklingsmiljö konfigurerad med Visual Studio eller någon föredragen IDE
+## Importera namnrymder
 
-## Importera namnområden
-
-Låt oss börja med att importera de nödvändiga namnrymden till ditt C#-projekt:
+Först importerar du de nödvändiga namnrymderna så att du kan arbeta med filer, bilder och OneNote‑objekt.
 
 ```csharp
 using System.IO;
@@ -37,35 +58,38 @@ using System.Collections.Generic;
 using System.Drawing.Imaging;
 ```
 
-## Bifoga fil och ange ikon i Aspose.Note
+## Steg‑för‑steg‑guide för att bifoga en fil och ange dess ikon
 
-Låt oss nu dela upp processen för att bifoga en fil och ställa in dess ikon i Aspose.Note i flera steg:
-
-### Steg 1: Skapa ett dokumentobjekt
+### Steg 1: Skapa ett Document‑objekt
+Ett nytt `Document`‑instans representerar OneNote‑filen du kommer att bygga.
 
 ```csharp
 Document doc = new Document();
 ```
 
-### Steg 2: Initiera sidobjekt
+### Steg 2: Initiera ett Page‑objekt
+Varje OneNote‑fil innehåller en eller flera sidor. Här skapar vi den första sidan.
 
 ```csharp
 Aspose.Note.Page page = new Aspose.Note.Page(doc);
 ```
 
-### Steg 3: Initiera Outline Object
+### Steg 3: Initiera ett Outline‑objekt
+Outlines fungerar som behållare för innehållsblock på en sida.
 
 ```csharp
 Outline outline = new Outline(doc);
 ```
 
-### Steg 4: Initiera OutlineElement-objekt
+### Steg 4: Initiera ett OutlineElement‑objekt
+Detta element kommer att hålla den bifogade filen och dess anpassade ikon.
 
 ```csharp
 OutlineElement outlineElem = new OutlineElement(doc);
 ```
 
-### Steg 5: Läs fil och initiera AttachedFile Object
+### Steg 5: Läs ikonbilden och initiera AttachedFile‑objektet
+Vi öppnar bildströmmen (den anpassade ikonen) och pekar på filen vi vill bädda in.
 
 ```csharp
 string dataDir = "Your Document Directory";
@@ -75,62 +99,77 @@ using (var stream = File.OpenRead(dataDir + "icon.jpg"))
 }
 ```
 
-### Steg 6: Lägg till bifogad fil till OutlineElement
+> **Pro tip:** Byt ut `ImageFormat.Jpeg` mot `ImageFormat.Png` om du föredrar en PNG‑ikon.
+
+### Steg 6: Lägg till den bifogade filen i OutlineElement
+Nu blir filen (med sin ikon) ett barn till outline‑elementet.
 
 ```csharp
 outlineElem.AppendChildLast(attachedFile);
 ```
 
-### Steg 7: Lägg till OutlineElement till Outline
+### Steg 7: Lägg till OutlineElement i Outline
+Detta placerar elementet i outline‑behållaren.
 
 ```csharp
 outline.AppendChildLast(outlineElem);
 ```
 
-### Steg 8: Lägg till disposition på sidan
+### Steg 8: Lägg till Outline i Page
+Fäst hela outline‑hierarkin till sidan.
 
 ```csharp
 page.AppendChildLast(outline);
 ```
 
-### Steg 9: Lägg till sida till dokument
+### Steg 9: Lägg till Page i Document
+Lägg till den färdiga sidan i dokumentstrukturen.
 
 ```csharp
 doc.AppendChildLast(page);
 ```
 
-### Steg 10: Spara dokument
+### Steg 10: Spara OneNote‑dokumentet
+Skriv slutligen dokumentet till disk som en *.one*-fil.
 
 ```csharp
 dataDir = dataDir + "AttachFileAndSetIcon_out.one";
 doc.Save(dataDir);
 ```
 
-## Slutsats
+## Vanliga användningsfall
+- **Inbäddning av kontrakt:** Bifoga en PDF och använd en kontraktslogotyp som ikon.  
+- **Dela kodsnuttar:** Bifoga en `.txt`‑fil med en anpassad “kod”‑ikon.  
+- **Projekt‑dokumentation:** Bifoga designfiler och ange en miniatyr som matchar filtypen.
 
-I den här handledningen undersökte vi hur man bifogar en fil och ställer in dess ikon med Aspose.Note för .NET. Genom att följa dessa steg-för-steg-instruktioner kan du sömlöst integrera funktioner för bifogade filer i dina .NET-program, vilket förbättrar deras produktivitet och mångsidighet.
+## Vanliga problem och lösningar
+| Problem | Lösning |
+|-------|----------|
+| **Ikonen visas inte** | Verifiera att bildformatet matchar det `ImageFormat` du angav (t.ex. JPEG vs PNG). |
+| **Fel i filsökväg** | Använd `Path.Combine(dataDir, "file.ext")` för att undvika saknade snedstreck. |
+| **Stora bilagor ger prestandaproblem** | Komprimera filen i förväg eller dela upp i flera mindre bilagor. |
 
-## FAQ's
+## Vanliga frågor
 
-### F1: Kan jag bifoga flera filer till en enda anteckning med Aspose.Note för .NET?
+**Q: Kan jag bifoga flera filer till en enda anteckning med Aspose.Note för .NET?**  
+A: Ja. Upprepa helt enkelt blocket “Läs ikonbilden och initiera AttachedFile‑objektet” för varje fil och lägg till varje `AttachedFile` i samma `OutlineElement` eller skapa separata element.
 
-S1: Ja, du kan bifoga flera filer till en anteckning genom att upprepa processen som beskrivs i denna handledning för varje fil.
+**Q: Är det möjligt att ange anpassade ikoner för filbilagor?**  
+A: Absolut. `AttachedFile`‑konstruktorn låter dig skicka en bildström och specificera bildformatet, vilket ger full kontroll över ikonen.
 
-### F2: Är det möjligt att ställa in anpassade ikoner för filbilagor?
+**Q: Stöder Aspose.Note andra bildformat för att ange ikoner?**  
+A: Ja. Förutom JPEG kan du använda PNG, BMP, GIF eller vilket format som helst som stöds av `System.Drawing.Imaging.ImageFormat`.
 
-S2: Ja, Aspose.Note för .NET låter dig ange anpassade ikoner för filbilagor enligt dina krav.
+**Q: Kan jag bifoga filer från externa URL:er?**  
+A: Även om Aspose.Note arbetar med lokala strömmar kan du ladda ner en fil via `HttpClient`, lagra den i en `MemoryStream` och sedan skicka den strömmen till `AttachedFile`.
 
-### F3: Stöder Aspose.Note andra bildformat för inställning av ikoner?
+**Q: Finns det någon storleksgräns för filbilagor?**  
+A: Aspose.Note själv pålägger ingen hård gräns, men mycket stora filer kan påverka minnesanvändning och prestanda. Överväg att komprimera stora bilagor.
 
-S3: Ja, förutom JPEG kan du använda olika andra bildformat som stöds av .NET för att ställa in ikoner, såsom PNG, BMP eller GIF.
+**Senast uppdaterad:** 2026-04-03  
+**Testad med:** Aspose.Note 24.11 för .NET  
+**Författare:** Aspose  
 
-### F4: Kan jag bifoga filer från externa URL:er med Aspose.Note för .NET?
-
-S4: Aspose.Note handlar i första hand om filer som lagras lokalt eller nås via strömmar. Du kan dock ladda ner filer från externa URL:er med .NET-bibliotek och sedan bifoga dem med Aspose.Note.
-
-### F5: Finns det en storleksgräns för filbilagor i Aspose.Note för .NET?
-
-S5: Aspose.Note inför inga specifika storleksbegränsningar för filbilagor, men praktiska begränsningar kan gälla baserat på systemresurser och prestandaöverväganden.
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
