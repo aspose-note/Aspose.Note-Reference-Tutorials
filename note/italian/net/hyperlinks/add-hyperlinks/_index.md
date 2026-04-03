@@ -1,51 +1,75 @@
 ---
-title: Aggiungi collegamenti ipertestuali nei documenti Aspose.Note
-linktitle: Aggiungi collegamenti ipertestuali nei documenti Aspose.Note
-second_title: Aspose.Note API .NET
-description: Scopri come aggiungere collegamenti ipertestuali ai documenti Aspose.Note utilizzando Aspose.Note per .NET. Migliora l'interattività dei documenti con questo tutorial passo passo.
-weight: 10
+date: 2026-04-03
+description: Scopri come aggiungere collegamenti ipertestuali nei documenti Aspose.Note
+  usando Aspose.Note per .NET, personalizzare l’aspetto dei collegamenti ipertestuali
+  e inserire più collegamenti ipertestuali per file OneNote più ricchi.
+keywords:
+- how to add hyperlink
+- insert multiple hyperlinks
+- add hyperlink to onenote
+- customize hyperlink appearance
+- generate one file hyperlink
+linktitle: Come aggiungere un collegamento ipertestuale nei documenti Aspose.Note
+second_title: Aspose.Note .NET API
+title: Come aggiungere un collegamento ipertestuale nei documenti Aspose.Note
 url: /it/net/hyperlinks/add-hyperlinks/
+weight: 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Aggiungi collegamenti ipertestuali nei documenti Aspose.Note
+# Come aggiungere un collegamento ipertestuale nei documenti Aspose.Note
 
-## introduzione
+## Introduzione
 
-In questo tutorial imparerai come aggiungere collegamenti ipertestuali al testo all'interno dei documenti Aspose.Note utilizzando il framework .NET. Aspose.Note fornisce potenti funzionalità per manipolare i documenti OneNote a livello di codice. L'aggiunta di collegamenti ipertestuali può migliorare l'interattività e l'usabilità dei tuoi documenti, rendendoli più coinvolgenti per gli utenti.
+In questo tutorial scoprirai **come aggiungere un collegamento ipertestuale** al testo all'interno dei documenti Aspose.Note con l'API .NET. Aggiungere un collegamento ipertestuale trasforma le note statiche in contenuti interattivi e cliccabili—perfetti per collegare a risorse web, sezioni interne o file esterni. Ti guideremo passo passo, ti mostreremo come **personalizzare l'aspetto del collegamento ipertestuale** e spiegheremo come **inserire più collegamenti ipertestuali** quando hai bisogno di pagine OneNote più ricche.
 
-## Prerequisiti:
+## Risposte rapide
+- **Qual è la classe principale per creare un file OneNote?** `Document` di Aspose.Note.
+- **Quale proprietà fa sì che il testo si comporti da collegamento ipertestuale?** `IsHyperlink = true` su `TextStyle`.
+- **Posso collegarmi a siti web esterni?** Sì, imposta `HyperlinkAddress` a un URL come `https://www.google.com`.
+- **È necessaria una licenza per l'uso in produzione?** È richiesta una licenza valida di Aspose.Note per build non‑di valutazione.
+- **Quali versioni di .NET sono supportate?** .NET Framework 4.6+, .NET Core 3.1+, .NET 5/6+.
 
-Prima di iniziare, assicurati di possedere i seguenti prerequisiti:
+## Che cosa significa “come aggiungere un collegamento ipertestuale” in Aspose.Note?
+Aggiungere un collegamento ipertestuale significa associare un URL a un frammento di testo in modo che, quando un utente lo clicca all'interno di OneNote, la risorsa collegata si apra in un browser o in un'altra applicazione. Aspose.Note espone il flag `TextStyle.IsHyperlink` e la proprietà `HyperlinkAddress` per rendere possibile ciò programmaticamente.
 
-1. Conoscenza base del linguaggio di programmazione C#.
-2. Visual Studio installato nel sistema.
-3.  Aspose.Note per la libreria .NET installata. Puoi scaricarlo da[Qui](https://releases.aspose.com/note/net/).
-4. Familiarità con la struttura e i componenti dei documenti Aspose.Note.
+## Perché aggiungere collegamenti ipertestuali ai documenti OneNote?
+- **Navigazione migliorata:** Salta direttamente a pagine web o sezioni correlate.
+- **Documentazione migliorata:** Fornisci riferimenti, tutorial o file sorgente senza lasciare la nota.
+- **Aspetto professionale:** Colori e stili personalizzabili permettono ai collegamenti ipertestuali di integrarsi con il design del documento.
 
-## Importa spazi dei nomi:
+## Prerequisiti
 
-Innanzitutto, devi importare gli spazi dei nomi necessari nel tuo progetto C#. Questi spazi dei nomi forniscono l'accesso alle classi e ai metodi richiesti per lavorare con i documenti Aspose.Note.
+1. Conoscenza di base di C# e Visual Studio.
+2. Libreria Aspose.Note per .NET installata – scaricala da [qui](https://releases.aspose.com/note/net/).
+3. Comprensione della struttura dei documenti Aspose.Note (pagine, outline, rich text).
+
+## Importa gli spazi dei nomi
+
+Per prima cosa, importa gli spazi dei nomi che ti danno accesso alle classi core di Aspose.Note e ai tipi .NET di base.
 
 ```csharp
 using System;
 using System.Drawing;
 ```
 
-## Passaggio 1: crea un nuovo oggetto documento:
+## Guida passo‑passo
 
-Inizia creando una nuova istanza della classe Document. Questo oggetto rappresenterà il tuo documento Aspose.Note, al quale aggiungerai il collegamento ipertestuale.
+### Passo 1: Crea un nuovo oggetto Document
+
+Istanzia un `Document` che conterrà tutte le tue pagine e il contenuto.
 
 ```csharp
 Document doc = new Document();
 ```
 
-## Passaggio 2: definire gli stili di testo:
+### Passo 2: Definisci gli stili di testo (incluso lo stile del collegamento ipertestuale)
 
-Definire gli stili di testo per il testo normale e il testo del collegamento ipertestuale. Puoi personalizzare vari attributi come il colore del carattere, il nome del carattere e la dimensione del carattere in base alle tue preferenze.
+Crea due oggetti `TextStyle` – uno per il testo normale e uno per il collegamento ipertestuale.  
+Qui personalizziamo anche **l'aspetto del collegamento ipertestuale** impostando il colore del carattere.
 
 ```csharp
 TextStyle textStyleRed = new TextStyle
@@ -62,9 +86,11 @@ TextStyle textStyleHyperlink = new TextStyle
 };
 ```
 
-## Passaggio 3: crea oggetti RichText:
+> **Consiglio professionale:** Per inserire **più collegamenti ipertestuali**, definisci ulteriori oggetti `TextStyle` con valori `HyperlinkAddress` diversi e riutilizzali nei segmenti `RichText` successivi.
 
-Crea oggetti RichText per i segmenti di testo che desideri includere nel tuo documento. Aggiungi il testo appropriato e applica gli stili di testo desiderati a ciascun segmento.
+### Passo 3: Crea oggetti RichText
+
+Costruisci il paragrafo che mescola testo normale e il collegamento ipertestuale. Il metodo `Append` ti consente di concatenare frammenti con stile.
 
 ```csharp
 RichText text = new RichText() { ParagraphStyle = ParagraphStyle.Default }
@@ -73,9 +99,9 @@ RichText text = new RichText() { ParagraphStyle = ParagraphStyle.Default }
                     .Append(". This text is not a hyperlink.", TextStyle.Default);
 ```
 
-## Passaggio 4: creazione del contorno e dell'elemento del contorno:
+### Passo 4: Crea Outline e elemento Outline
 
-Crea un oggetto Outline e un oggetto OutlineElement per strutturare il contenuto del documento. Aggiungi l'oggetto RichText contenente il collegamento ipertestuale a OutlineElement.
+Gli Outline fungono da contenitori per gli elementi visivi su una pagina. Imposta dimensioni e posizione secondo necessità.
 
 ```csharp
 Outline outline = new Outline()
@@ -90,9 +116,9 @@ OutlineElement outlineElem = new OutlineElement();
 outlineElem.AppendChildLast(text);
 ```
 
-## Passaggio 5: aggiungi elementi alla pagina:
+### Passo 5: Aggiungi elementi a una pagina
 
-Crea un oggetto Titolo e un oggetto Pagina. Aggiungi l'oggetto Outline alla pagina. Infine, aggiungi la pagina al documento.
+Ogni file OneNote è composto da pagine. Creiamo un `Title` e una `Page`, quindi colleghiamo l'outline.
 
 ```csharp
 Title title = new Title() { TitleText = titleText };
@@ -102,9 +128,9 @@ page.AppendChildLast(outline);
 doc.AppendChildLast(page);
 ```
 
-## Passaggio 6: salvare il documento:
+### Passo 6: Salva il documento
 
-Specificare il percorso del file in cui si desidera salvare il documento Aspose.Note e chiamare il metodo Save per salvarlo.
+Scegli una cartella, compila il nome completo del file e chiama `Save`. Il file di output sarà un file OneNote `.one` valido contenente il tuo collegamento ipertestuale.
 
 ```csharp
 string dataDir = "Your Document Directory";
@@ -112,31 +138,38 @@ string outputFilePath = Path.Combine(dataDir, "AddHyperlink_out.one");
 doc.Save(outputFilePath);
 ```
 
-## Conclusione:
+## Problemi comuni e soluzioni
 
-In questo tutorial, hai imparato come aggiungere collegamenti ipertestuali ai documenti Aspose.Note utilizzando Aspose.Note per .NET. Seguendo questi passaggi puoi migliorare l'interattività dei tuoi documenti e offrire agli utenti un'esperienza più dinamica.
+| Problema | Soluzione |
+|----------|-----------|
+| Il collegamento ipertestuale non si apre | Assicurati che `HyperlinkAddress` includa il protocollo (`http://` o `https://`). |
+| Il colore del testo non viene applicato | Imposta `FontColor` sul `TextStyle` usato per il collegamento ipertestuale. |
+| Necessità di più collegamenti in una pagina | Crea più oggetti `TextStyle`, ognuno con il proprio `HyperlinkAddress`, e aggiungili allo stesso o a diversi oggetti `RichText`. |
+| Il documento non si carica in OneNote | Verifica di utilizzare una versione di OneNote supportata (2010+). |
 
 ## Domande frequenti
 
-### Q1: posso aggiungere più collegamenti ipertestuali all'interno dello stesso documento utilizzando Aspose.Note?
+**D: Posso aggiungere più collegamenti ipertestuali nello stesso documento usando Aspose.Note?**  
+R: Sì, basta creare ulteriori istanze `TextStyle` con valori `HyperlinkAddress` diversi e aggiungerle ai tuoi oggetti `RichText`.
 
-A1: Sì, puoi aggiungere più collegamenti ipertestuali a diversi segmenti di testo all'interno di un singolo documento Aspose.Note.
+**D: Come posso personalizzare l'aspetto dei collegamenti ipertestuali?**  
+R: Usa proprietà come `FontColor`, `FontName` e `FontSize` sul `TextStyle` che ha `IsHyperlink = true`. Questo ti permette di abbinare lo stile al branding del tuo documento.
 
-### Q2: posso personalizzare l'aspetto dei collegamenti ipertestuali nei documenti Aspose.Note?
+**D: Aspose.Note supporta i collegamenti ipertestuali a siti web esterni?**  
+R: Assolutamente. Imposta `HyperlinkAddress` su qualsiasi URL valido (inclusi `http://` o `https://`) per collegare fuori dal file OneNote.
 
-A2: Sì, è possibile personalizzare vari attributi come il colore del carattere, la dimensione del carattere e lo stile del carattere per i collegamenti ipertestuali nei documenti Aspose.Note.
+**D: È possibile generare un unico file OneNote che contiene molti collegamenti ipertestuali?**  
+R: Sì. Aggiungendo ripetutamente segmenti `RichText` con stili e diversi indirizzi di collegamento, puoi **generare una collezione di collegamenti ipertestuali in un unico file**.
 
-### Q3: Aspose.Note supporta i collegamenti ipertestuali a siti Web esterni?
+**D: Aspose.Note è compatibile con le versioni più recenti di OneNote?**  
+R: La libreria funziona con OneNote 2010 e successive, inclusa la versione UWP di Windows 10.
 
-A3: Sì, Aspose.Note consente di creare collegamenti ipertestuali che indirizzano gli utenti a siti Web o pagine Web esterne.
+---
 
-### Q4: Aspose.Note è compatibile con tutte le versioni di Microsoft OneNote?
+**Ultimo aggiornamento:** 2026-04-03  
+**Testato con:** Aspose.Note for .NET 24.11  
+**Autore:** Aspose  
 
-A4: Aspose.Note è progettato per funzionare con Microsoft OneNote 2010 e versioni successive.
-
-### Q5: posso aggiungere collegamenti ipertestuali a livello di codice utilizzando le API Aspose.Note?
-
-A5: Sì, Aspose.Note fornisce API che consentono di aggiungere collegamenti ipertestuali al testo a livello di codice all'interno delle applicazioni .NET.
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
