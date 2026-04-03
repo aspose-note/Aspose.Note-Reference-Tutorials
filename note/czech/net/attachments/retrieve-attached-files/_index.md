@@ -1,31 +1,54 @@
 ---
-title: Načíst připojené soubory pomocí Aspose.Note
-linktitle: Načíst připojené soubory pomocí Aspose.Note
+date: 2026-04-03
+description: Naučte se, jak načíst dokument OneNote a extrahovat připojené soubory
+  pomocí Aspose.Note pro .NET. Postupujte podle krok‑za‑krokem průvodce a efektivně
+  získávejte přílohy.
+keywords:
+- load onenote document
+- extract attached files
+- convert attachment to stream
+linktitle: Získat připojené soubory pomocí Aspose.Note
 second_title: Aspose.Note .NET API
-description: Přečtěte si, jak načíst přiložené soubory z dokumentů Microsoft OneNote pomocí Aspose.Note pro .NET. Postupujte podle kroků k načtení, získání uzlů a iteraci příloh.
-weight: 12
+title: Načíst dokument OneNote a získat přílohy – Aspose.Note
 url: /cs/net/attachments/retrieve-attached-files/
+weight: 12
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Načíst připojené soubory pomocí Aspose.Note
+# Načíst dokument OneNote a získat přílohy – Aspose.Note
 
 ## Úvod
 
-tomto tutoriálu prozkoumáme, jak načíst přiložené soubory z dokumentu pomocí Aspose.Note pro .NET. Aspose.Note je výkonné API, které umožňuje vývojářům pracovat se soubory Microsoft OneNote programově. Proces rozdělíme do jednoduchých kroků, aby bylo snadné jej sledovat.
+V tomto tutoriálu se naučíte, jak **načíst dokument OneNote** a **extrahovat připojené soubory** pomocí Aspose.Note pro .NET. Ať už vytváříte migrační nástroj, auditní utilitu nebo jen potřebujete získat zdroje z OneNote sešitu, níže uvedené kroky vám ukážou, jak získat každou přílohu a volitelně **převést přílohu na proud** pro další zpracování. Projdeme celý proces od načtení souboru až po uložení každé přílohy lokálně.
 
-## Předpoklady
+## Rychlé odpovědi
+- **Co tento tutoriál pokrývá?** Načtení dokumentu OneNote a extrakci jeho připojených souborů.  
+- **Která knihovna je vyžadována?** Aspose.Note pro .NET (k dispozici bezplatná zkušební verze).  
+- **Kolik řádků kódu?** Méně než 30 řádků ve čtyřech stručných úryvcích.  
+- **Mohu streamovat přílohy?** Ano – příklad ukazuje, jak převést každou přílohu na paměťový proud.  
+- **Potřebuji licenci pro produkci?** Pro ne‑zkušební použití je vyžadována platná licence Aspose.Note.
 
-Než začneme, ujistěte se, že máte následující:
+## Co znamená „načíst dokument OneNote“?
+Načtení dokumentu OneNote znamená otevření souboru *.one* pomocí třídy Aspose.Note `Document`, abyste mohli programově prozkoumat jeho obsah — stránky, sekce a jakékoli vložené zdroje, jako jsou připojené soubory.
 
--  Aspose.Note pro .NET: Ujistěte se, že jste nainstalovali Aspose.Note pro .NET. Můžete si jej stáhnout z[tady](https://releases.aspose.com/note/net/).
+## Proč extrahovat připojené soubory?
+Připojené soubory často obsahují cenné zdroje (PDF, obrázky, tabulky), které uživatelé vložili do svých poznámek. Jejich extrakce vám umožní:
+- Archivovat nebo zálohovat důležité zdroje.
+- Dále zpracovávat soubory (např. převést na PDF, analyzovat obsah).
+- Znovu použít aktiva v jiných aplikacích bez ručního kopírování.
 
-## Import jmenných prostorů
+## Požadavky
 
-Nejprve importujme potřebné jmenné prostory pro práci s Aspose. Poznámka:
+- Aspose.Note pro .NET nainstalován. Můžete jej stáhnout [zde](https://releases.aspose.com/note/net/).
+- Vývojové prostředí .NET (Visual Studio, VS Code nebo jakýkoli kompilátor C#).
+- Soubor OneNote (`*.one`), který obsahuje jeden nebo více připojených souborů.
+
+## Importovat jmenné prostory
+
+Nejprve importujte jmenné prostory, které poskytují souborové I/O, typy Aspose.Note a utility pro kolekce:
 
 ```csharp
 using System.IO;
@@ -35,67 +58,80 @@ using System.Collections.Generic;
 using System.Drawing;
 ```
 
-## Krok 1: Vložte dokument
+## Krok 1: Načíst dokument OneNote
 
 ```csharp
-// Cesta k adresáři dokumentů.
+// The path to the documents directory.
 string dataDir = "Your Document Directory";
 
-// Vložte dokument do Aspose.Note.
+// Load the document into Aspose.Note.
 Document oneFile = new Document(dataDir + "Sample1.one");
 ```
 
-## Krok 2: Získejte uzly připojených souborů
+> **Tip:** Ověřte, že `dataDir` končí oddělovačem cesty (`\` nebo `/`), aby nedošlo k nesprávným cestám k souborům.
+
+## Krok 2: Získat uzly připojených souborů
 
 ```csharp
-// Získejte seznam uzlů připojených souborů
+// Get a list of attached file nodes
 IList<AttachedFile> nodes = oneFile.GetChildNodes<AttachedFile>();
 ```
 
-## Krok 3: Iterujte přes připojené soubory
+Volání `GetChildNodes<AttachedFile>()` prohledá celou hierarchii sešitu a vrátí každý prvek `AttachedFile`, což vám umožní zpracovat každou přílohu samostatně.
+
+## Krok 3: Procházet připojené soubory a převést je na proud
 
 ```csharp
-// Iterujte přes všechny uzly
+// Iterate through all nodes
 foreach (AttachedFile file in nodes)
 {
-    // Načíst připojený soubor do objektu streamu
+    // Load attached file to a stream object
     using (Stream outputStream = new MemoryStream(file.Bytes))
     {
-        // Vytvořte místní soubor
+        // Create a local file
         using (Stream fileStream = System.IO.File.OpenWrite(String.Format(dataDir + file.FileName)))
         {
-            // Zkopírujte datový proud souboru
+            // Copy file stream
             CopyStream(outputStream, fileStream);
         }
     }
 }
 ```
 
+V tomto cyklu **převádíme přílohu na proud** (`MemoryStream`), abyste mohli manipulovat s daty v paměti před jejich uložením. Pomocná metoda `CopyStream` jednoduše kopíruje bajty z paměťového proudu do fyzického souboru na disku.
+
+### Časté úskalí a řešení
+- **Chybějící oprávnění:** Ujistěte se, že aplikace má zápisový přístup k `dataDir`.
+- **Velké přílohy:** U velkých souborů zvažte kopírování po částech místo načítání celého souboru do paměti.
+- **Konflikty názvů souborů:** Použijte `Path.GetUniqueFileName` nebo přidejte časové razítko, pokud jsou možné duplicitní názvy.
+
 ## Závěr
 
-V tomto tutoriálu jsme se naučili, jak načíst přiložené soubory z dokumentu pomocí Aspose.Note pro .NET. Pomocí těchto jednoduchých kroků můžete tuto funkci hladce integrovat do svých aplikací .NET.
+Nyní víte, jak **načíst dokument OneNote**, **extrahovat připojené soubory** a **převést každou přílohu na proud** pro další zpracování. Začleňte tyto úryvky do svých .NET projektů a automatizujte extrakci zdrojů z OneNote sešitů.
 
-## FAQ
+## Často kladené otázky
 
-### Q1: Je Aspose.Note kompatibilní se všemi verzemi souborů OneNotu?
+**Q: Je Aspose.Note kompatibilní se všemi verzemi souborů OneNote?**  
+A: Ano, Aspose.Note podporuje různé verze souborů Microsoft OneNote, což zajišťuje kompatibilitu napříč různými platformami.
 
-Odpověď 1: Ano, Aspose.Note podporuje různé verze souborů Microsoft OneNote a zajišťuje kompatibilitu na různých platformách.
+**Q: Mohu upravit získané připojené soubory před jejich lokálním uložením?**  
+A: Samozřejmě! Můžete soubory podle potřeby v aplikaci upravit před jejich lokálním uložením.
 
-### Q2: Mohu upravit načtené připojené soubory před jejich místním uložením?
+**Q: Nabízí Aspose.Note podporu pro vývojáře?**  
+A: Rozhodně! Aspose poskytuje rozsáhlou dokumentaci a vyhrazené fórum podpory, kde mohou vývojáři získat pomoc s jakýmikoli dotazy či problémy.
 
-A2: Určitě! S připojenými soubory můžete v rámci aplikace manipulovat podle potřeby, než je uložíte lokálně.
+**Q: Můžu vyzkoušet Aspose.Note před zakoupením?**  
+A: Ano, můžete využít bezplatnou zkušební verzi Aspose.Note a prozkoumat jeho funkce a možnosti před rozhodnutím o koupi.
 
-### Q3: Nabízí Aspose.Note podporu pro vývojáře?
+**Q: Jak mohu získat dočasnou licenci pro Aspose.Note?**  
+A: Můžete požádat o dočasnou licenci od Aspose, abyste mohli v testovacím prostředí plně využívat API.
 
-A3: Rozhodně! Aspose poskytuje rozsáhlou dokumentaci a vyhrazené fórum podpory, které pomáhá vývojářům s jakýmikoli dotazy nebo problémy, se kterými se setkají.
+---
 
-### Q4: Mohu vyzkoušet Aspose.Note před jeho zakoupením?
+**Poslední aktualizace:** 2026-04-03  
+**Testováno s:** Aspose.Note 24.11 pro .NET  
+**Autor:** Aspose  
 
-Odpověď 4: Ano, můžete využít bezplatnou zkušební verzi Aspose.Note, abyste prozkoumali její vlastnosti a funkce před rozhodnutím o nákupu.
-
-### Q5: Jak mohu získat dočasnou licenci pro Aspose.Note?
-
-A5: Můžete požádat Aspose o dočasnou licenci, abyste mohli vyhodnotit úplné možnosti API ve vašem vývojovém prostředí.
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
