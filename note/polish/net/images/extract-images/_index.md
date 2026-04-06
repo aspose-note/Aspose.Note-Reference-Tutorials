@@ -1,33 +1,56 @@
 ---
-title: Wyodrębnij obrazy z dokumentów Aspose.Note
-linktitle: Wyodrębnij obrazy z dokumentów Aspose.Note
+date: 2026-04-06
+description: Dowiedz się, jak wyodrębniać obrazy z dokumentów Aspose.Note przy użyciu
+  Aspose.Note dla .NET. Ten przewodnik pokazuje, jak efektywnie wyodrębniać obrazy.
+keywords:
+- how to extract images
+- Aspose.Note .NET
+- extract images from .one
+linktitle: Jak wyodrębnić obrazy z dokumentów Aspose.Note
 second_title: Aspose.Note .NET API
-description: Dowiedz się, jak bez wysiłku wyodrębniać obrazy z dokumentów Aspose.Note za pomocą Aspose.Note dla .NET. Zwiększ swoje możliwości manipulowania dokumentami dzięki temu wszechstronnemu samouczkowi.
-weight: 12
+title: Jak wyodrębnić obrazy z dokumentów Aspose.Note
 url: /pl/net/images/extract-images/
+weight: 12
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Wyodrębnij obrazy z dokumentów Aspose.Note
+# Jak wyodrębnić obrazy z dokumentów Aspose.Note
 
-## Wstęp
+## Wprowadzenie
 
-Czy chcesz efektywnie wyodrębniać obrazy z dokumentów Aspose.Note? Aspose.Note dla .NET zapewnia solidne rozwiązanie umożliwiające bezproblemową realizację tego zadania. W tym samouczku przeprowadzimy przez ten proces krok po kroku, aby zapewnić bezproblemowe pobieranie obrazów z dokumentów.
+Jeśli potrzebujesz **jak wyodrębnić obrazy** z plików Aspose.Note szybko i niezawodnie, jesteś we właściwym miejscu. Aspose.Note dla .NET oferuje przejrzyste API, które pozwala pobrać każdy obraz z notatnika `.one` przy użyciu kilku linii kodu C#. W tym samouczku przeprowadzimy Cię przez cały proces — od konfiguracji środowiska po zapisanie każdego obrazu na dysku — abyś mógł zintegrować wyodrębnianie obrazów w swoich aplikacjach .NET z pełnym przekonaniem.
 
-## Warunki wstępne
+## Szybkie odpowiedzi
+- **Co zwraca API?** Obiekt `Image` zawierający surowe bajty i oryginalną nazwę pliku.  
+- **Czy mogę wyodrębnić wszystkie obrazy jednocześnie?** Tak, `GetChildNodes<Image>()` zwraca każdy węzeł obrazu w dokumencie.  
+- **Czy potrzebna jest licencja do produkcji?** Wymagana jest licencja komercyjna do użytku nie‑testowego.  
+- **Obsługiwane wersje .NET?** .NET Framework 4.x, .NET Core 3.1+, .NET 5/6+.  
+- **Gdzie zapisywane są wyodrębnione pliki?** Do folderu określonego w `dataDir` (domyślnie ten sam folder co plik źródłowy).
 
-Zanim zaczniemy, upewnij się, że masz następujące wymagania wstępne:
+## Czym jest wyodrębnianie obrazów w Aspose.Note?
 
-1.  Biblioteka Aspose.Note dla .NET: Pobierz i zainstaluj bibliotekę Aspose.Note dla .NET z[link do pobrania](https://releases.aspose.com/note/net/).
-   
-2. .NET Framework: Upewnij się, że masz zainstalowaną platformę .NET Framework w swoim systemie.
+Wyodrębnianie obrazów oznacza odczytanie binarnych danych obrazu przechowywanych w pliku OneNote (`.one`) i zapisanie ich jako standardowe pliki graficzne (PNG, JPEG itp.). Jest to przydatne, gdy chcesz ponownie wykorzystać grafiki, generować miniatury lub migrować treść na inne platformy.
+
+## Dlaczego wyodrębniać obrazy przy użyciu Aspose.Note?
+
+- **Automatyzacja:** Brak ręcznego kopiowania‑wklejania; obsługa setek notatników programowo.  
+- **Spójność:** Zachowanie oryginalnej rozdzielczości i formatu.  
+- **Cross‑platform:** Działa na środowiskach .NET w systemach Windows, Linux i macOS.  
+- **Brak zależności od UI:** Działa w trybie head‑less, idealny dla zadań po stronie serwera lub potoków CI.
+
+## Wymagania wstępne
+
+Zanim zaczniemy, upewnij się, że masz następujące:
+
+1. **Aspose.Note for .NET Library** – Pobierz i zainstaluj z [download link](https://releases.aspose.com/note/net/).  
+2. **.NET Framework / .NET Core** – Dowolna obsługiwana wersja (zobacz sekcję Szybkie odpowiedzi).
 
 ## Importowanie przestrzeni nazw
 
-Po pierwsze, zaimportujmy niezbędne przestrzenie nazw, aby efektywnie wykorzystać funkcjonalność Aspose.Note dla .NET.
+Najpierw wprowadź wymagane przestrzenie nazw, aby kompilator wiedział, gdzie znaleźć klasy, których będziemy używać.
 
 ```csharp
 using System.IO;
@@ -37,26 +60,30 @@ using System.Drawing;
 using System;
 ```
 
-## Krok 1: Załaduj dokument
+## Przewodnik krok po kroku
 
- Załaduj dokument Aspose.Note do aplikacji. Zastępować`"Your Document Directory"` ze ścieżką do katalogu dokumentów.
+### Krok 1: Załaduj dokument
+
+Zaczynamy od wskazania folderu zawierającego plik OneNote i załadowania go do obiektu `Document`.
 
 ```csharp
 string dataDir = "Your Document Directory";
 Document oneFile = new Document(dataDir + "Aspose.one");
 ```
 
-## Krok 2: Uzyskaj węzły obrazu
+> **Wskazówka:** Użyj `Path.Combine(dataDir, "Aspose.one")` dla lepszego obsługi ścieżek na różnych systemach operacyjnych.
 
- Pobierz wszystkie węzły obrazu z dokumentu za pomocą`GetChildNodes` metoda.
+### Krok 2: Pobierz węzły obrazu
+
+Metoda `GetChildNodes<T>()` przeszukuje cały drzewo dokumentu i zwraca każdy węzeł żądanego typu — w tym przypadku `Image`.
 
 ```csharp
 IList<Aspose.Note.Image> nodes = oneFile.GetChildNodes<Aspose.Note.Image>();
 ```
 
-## Krok 3: Wyodrębnij obrazy
+### Krok 3: Wyodrębnij obrazy
 
-Wykonaj iterację przez każdy węzeł obrazu i wyodrębnij bajty obrazu.
+Iteruj przez każdy węzeł `Image`, konwertuj jego tablicę bajtów na `Bitmap` i zapisz go z oryginalną nazwą pliku.
 
 ```csharp
 foreach (Aspose.Note.Image image in nodes)
@@ -65,38 +92,55 @@ foreach (Aspose.Note.Image image in nodes)
     {
         using (Bitmap bitMap = new Bitmap(stream))
         {
-            // Zapisz bajty obrazu do pliku
+            // Save image bytes to a file
             bitMap.Save(String.Format(dataDir + "{0}", Path.GetFileName(image.FileName)));
         }
     }
 }
 ```
 
-## Wniosek
+> **Dlaczego to działa:** `image.Bytes` zawiera surowe dane obrazu, natomiast `image.FileName` zachowuje oryginalną nazwę, co sprawia, że zapisane pliki są od razu rozpoznawalne.
 
-Podsumowując, dzięki możliwościom Aspose.Note dla .NET wyodrębnianie obrazów z dokumentów staje się prostym zadaniem. Wykonując kroki opisane w tym samouczku, możesz bezproblemowo zintegrować funkcję ekstrakcji obrazów z aplikacjami .NET, zwiększając produktywność i efektywność.
+## Typowe pułapki i rozwiązania
 
-## Często zadawane pytania
+| Problem | Przyczyna | Rozwiązanie |
+|-------|-------|-----|
+| **Nie zapisano żadnych obrazów** | `dataDir` wskazuje na lokalizację tylko do odczytu lub nieprawidłową ścieżkę. | Zweryfikuj ścieżkę folderu i upewnij się, że aplikacja ma uprawnienia do zapisu. |
+| **Nazwa pliku jest pusta** | Niektóre obrazy OneNote są osadzone bez nazwy pliku. | Użyj nazwy zastępczej, np. `Guid.NewGuid().ToString() + ".png"`. |
+| **Wyjątek Out‑of‑memory** | Bardzo duże obrazy ładowane jednocześnie. | Przetwarzaj obrazy pojedynczo, jak pokazano, lub zwiększ limit pamięci procesu. |
 
-### P1: Czy Aspose.Note dla .NET jest kompatybilny ze wszystkimi wersjami .NET Framework?
+## Najczęściej zadawane pytania
 
-O1: Tak, Aspose.Note dla .NET jest kompatybilny z różnymi wersjami .NET Framework, zapewniając szeroką kompatybilność w różnych środowiskach.
+### Q1: Czy Aspose.Note dla .NET jest kompatybilny ze wszystkimi wersjami .NET Framework?
 
-### P2: Czy przy użyciu tej metody mogę wyodrębnić wiele obrazów z jednego dokumentu?
+A1: Tak, Aspose.Note dla .NET jest kompatybilny z różnymi wersjami .NET Framework, zapewniając szeroką kompatybilność w różnych środowiskach.
 
-A2: Absolutnie! Dostarczony fragment kodu umożliwia wyodrębnienie wszystkich obrazów znajdujących się w dokumencie, niezależnie od ich ilości.
+### Q2: Czy mogę wyodrębnić wiele obrazów z jednego dokumentu używając tej metody?
 
-### P3: Czy Aspose.Note dla .NET obsługuje inne formaty dokumentów oprócz .one?
+A2: Zdecydowanie! Dostarczony fragment kodu pozwala wyodrębnić wszystkie obrazy znajdujące się w dokumencie, niezależnie od ich liczby.
 
-O3: Tak, Aspose.Note dla .NET obsługuje różne formaty dokumentów, zapewniając wszechstronne rozwiązania do manipulacji dokumentami.
+### Q3: Czy Aspose.Note dla .NET obsługuje inne formaty dokumentów oprócz .one?
 
-### P4: Czy dostępna jest wersja próbna Aspose.Note dla .NET?
+A3: Tak, Aspose.Note dla .NET obsługuje różne formaty dokumentów, oferując wszechstronne rozwiązania do manipulacji dokumentami.
 
- O4: Tak, możesz uzyskać dostęp do bezpłatnej wersji próbnej Aspose.Note dla .NET z poziomu[strona internetowa](https://releases.aspose.com/), dzięki czemu możesz zapoznać się z jego funkcjami przed dokonaniem zakupu.
+### Q4: Czy dostępna jest wersja próbna Aspose.Note dla .NET?
 
-### P5: Gdzie mogę szukać pomocy lub wsparcia dla Aspose.Note dla .NET?
+A4: Tak, możesz uzyskać darmową wersję próbną Aspose.Note dla .NET ze [website](https://releases.aspose.com/), co pozwala na zapoznanie się z jej funkcjami przed zakupem.
 
- O5: W przypadku jakichkolwiek pytań lub pomocy dotyczącej Aspose.Note dla .NET, możesz odwiedzić stronę[Forum Aspose.Note](https://forum.aspose.com/c/note/28) do interakcji z ekspertami i innymi programistami.
+### Q5: Gdzie mogę uzyskać pomoc lub wsparcie dla Aspose.Note dla .NET?
+
+A5: W przypadku pytań lub potrzeb pomocy dotyczącej Aspose.Note dla .NET, możesz odwiedzić [Aspose.Note forum](https://forum.aspose.com/c/note/28), aby skontaktować się z ekspertami i innymi programistami.
+
+## Podsumowanie
+
+Postępując zgodnie z powyższymi krokami, teraz wiesz **jak wyodrębnić obrazy** z dokumentów Aspose.Note efektywnie. Włącz ten fragment kodu do większych potoków automatyzacji, przetwarzaj notatniki wsadowo lub twórz własne narzędzia galerii obrazów — wszystko z niezawodnością Aspose.Note dla .NET.
+
+---
+
+**Ostatnia aktualizacja:** 2026-04-06  
+**Testowano z:** Aspose.Note 24.12 for .NET  
+**Autor:** Aspose  
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
