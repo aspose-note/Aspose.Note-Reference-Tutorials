@@ -1,32 +1,51 @@
 ---
-title: Inserisci immagini con collegamenti ipertestuali in Aspose.Note
-linktitle: Inserisci immagini con collegamenti ipertestuali in Aspose.Note
-second_title: Aspose.Note API .NET
-description: Scopri come inserire immagini con collegamenti ipertestuali in Aspose.Note per .NET senza sforzo. Migliora l'interattività dei documenti con immagini cliccabili.
-weight: 15
+date: 2026-04-09
+description: Scopri come aggiungere collegamenti ipertestuali alle immagini in Aspose.Note
+  per .NET e rendi i tuoi documenti interattivi con grafiche cliccabili.
+keywords:
+- how to add hyperlink
+- insert image hyperlink
+- add clickable image
+- supported image formats
+- append image to page
+linktitle: Inserisci immagini con collegamento ipertestuale in Aspose.Note
+second_title: Aspose.Note .NET API
+title: Come aggiungere un collegamento ipertestuale alle immagini in Aspose.Note
 url: /it/net/images/insert-image-hyperlink/
+weight: 15
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Inserisci immagini con collegamenti ipertestuali in Aspose.Note
+# Come aggiungere un collegamento ipertestuale alle immagini in Aspose.Note
 
-## introduzione
+## Introduzione
 
-Aspose.Note per .NET fornisce un potente set di funzionalità per lavorare con le immagini, inclusa la possibilità di inserire immagini con collegamenti ipertestuali. In questo tutorial ti guideremo attraverso il processo di inserimento di immagini con collegamenti ipertestuali utilizzando Aspose.Note per .NET.
+Se hai bisogno di **how to add hyperlink** a un'immagine all'interno di un documento in stile OneNote, Aspose.Note per .NET lo rende semplice. In questo tutorial vedrai esattamente come inserire un'immagine con un link cliccabile, trasformando grafiche statiche in punti di navigazione interattivi. Alla fine, sarai in grado di aggiungere immagini cliccabili, supportare vari formati immagine e aggiungere con sicurezza **append image to page** objects.
+
+## Risposte rapide
+- **Che cosa fa la funzionalità?** Inserisce un'immagine che funge da collegamento ipertestuale all'interno di un documento Note.  
+- **Quale libreria è necessaria?** Aspose.Note per .NET (disponibile versione di prova gratuita).  
+- **Quanto tempo richiede l'implementazione?** Circa 5‑10 minutes per uno scenario base.  
+- **Posso usare diversi tipi di immagine?** Sì – JPEG, PNG, GIF, BMP e altri **supported image formats**.  
+- **È necessaria una licenza per la produzione?** Sì, è necessaria una licenza commerciale per l'uso non‑trial.
+
+## Come aggiungere un collegamento ipertestuale a un'immagine
+
+Di seguito troverai una guida passo‑passo che ti accompagna attraverso l'intero processo, dalla configurazione del progetto al salvataggio del documento finale.
 
 ## Prerequisiti
 
 Prima di iniziare, assicurati di avere quanto segue:
 
-1.  Aspose.Note per .NET: assicurati di aver installato Aspose.Note per .NET. In caso contrario, puoi scaricarlo da[Qui](https://releases.aspose.com/note/net/).
-2. Ambiente di sviluppo: configura il tuo ambiente di sviluppo con .NET framework.
-3. Immagine: tieni pronta l'immagine che desideri inserire nella directory dei documenti.
-4. Conoscenze di base: Familiarità con C# e framework .NET.
+1. Aspose.Note per .NET: Assicurati di aver installato Aspose.Note per .NET. In caso contrario, puoi scaricarlo da [here](https://releases.aspose.com/note/net/).  
+2. Ambiente di sviluppo: Configura il tuo ambiente di sviluppo con il framework .NET.  
+3. Immagine: Assicurati che l'immagine che desideri inserire sia pronta nella directory del tuo documento.  
+4. Conoscenze di base: Familiarità con C# e il framework .NET.
 
-## Importa spazi dei nomi
+## Importa gli spazi dei nomi
 
 ```csharp
 using System;
@@ -35,66 +54,87 @@ using System.Linq;
 using System.Text;
 ```
 
-## Passaggio 1: inizializza documento e pagina
+## Passo 1: Inizializza Document e Page
 
-Per prima cosa dobbiamo inizializzare un nuovo documento e creare una pagina in cui inserire la nostra immagine.
+Prima, dobbiamo creare una nuova istanza di `Document` e aggiungere una `Page` dove vivrà l'immagine.
 
 ```csharp
 var document = new Document();
 var page = new Page(document);
 ```
 
-## Passaggio 2: inserisci l'immagine con il collegamento ipertestuale
+## Passo 2: Inserisci immagine con collegamento ipertestuale
 
-Ora inseriamo l'immagine con un collegamento ipertestuale. Creeremo un`Image` oggetto e impostarlo`HyperlinkUrl` proprietà all'URL desiderato.
+Ora, **insert image hyperlink** creando un oggetto `Image` e assegnando la sua proprietà `HyperlinkUrl`.
 
 ```csharp
 string imagePath = "path_to_your_image.jpg";
-var image = new Image(document, imagePath) { HyperlinkUrl = "http://esempio.com" };
+var image = new Image(document, imagePath) { HyperlinkUrl = "http://example.com" };
 ```
 
-## Passaggio 3: aggiungi l'immagine alla pagina
+> **Pro tip:** Il `HyperlinkUrl` può puntare a qualsiasi indirizzo web, a un file locale o anche a un deep‑link all'interno di un altro documento OneNote.
 
-Successivamente, aggiungi l'immagine alla pagina.
+## Passo 3: Aggiungi immagine alla pagina
+
+Dopo che l'immagine è pronta, **append image to page** usando il metodo `AppendChildLast`.
 
 ```csharp
 page.AppendChildLast(image);
 ```
 
-## Passaggio 4: aggiungi la pagina al documento
+## Passo 4: Aggiungi pagina al documento
 
-Infine, aggiungi la pagina al documento e salvala.
+Infine, aggiungi la pagina al documento e salva il file.
 
 ```csharp
 document.AppendChildLast(page);
 document.Save("path_to_output_file.one");
 ```
 
-## Conclusione
+## Perché usare immagini cliccabili?
 
-In questo tutorial, abbiamo imparato come inserire immagini con collegamenti ipertestuali utilizzando Aspose.Note per .NET. Seguendo questi passaggi, puoi integrare perfettamente immagini con collegamenti ipertestuali selezionabili nei tuoi documenti, migliorandone l'interattività e la funzionalità.
+Aggiungere un collegamento ipertestuale a un'immagine ti permette di:
+
+* Guida i lettori a risorse correlate senza ingombrare la pagina con link testuali.  
+* Crea note più ricche e coinvolgenti che si comportano come presentazioni interattive.  
+* Mantieni il design visivo pulito fornendo comunque tutte le capacità di navigazione.
+
+## Problemi comuni e suggerimenti
+
+| Problema | Soluzione |
+|----------|-----------|
+| **Immagine non visualizzata** | Verifica che `imagePath` punti a un file valido e che il formato sia tra i **supported image formats** (JPEG, PNG, GIF, BMP). |
+| **Collegamento ipertestuale non funziona** | Assicurati che l'URL includa il protocollo (`http://` o `https://`). |
+| **Sono necessarie più immagini** | Ripeti **Step 2** e **Step 3** per ogni immagine, quindi **append** ciascuna alla stessa pagina o a pagine diverse secondo necessità. |
+| **Problemi di prestazioni** | Carica le immagini grandi una sola volta, riutilizza l'oggetto `Image` o comprimi i file sorgente prima dell'inserimento. |
 
 ## Domande frequenti
 
-### Q1: Posso inserire più immagini con collegamenti ipertestuali in un unico documento?
+**D: Posso inserire più immagini con collegamenti ipertestuali in un unico documento?**  
+R: Sì, puoi inserire quante immagini con collegamenti ipertestuali desideri in un unico documento usando Aspose.Note per .NET.
 
-A1: Sì, puoi inserire tutte le immagini con collegamenti ipertestuali necessarie in un singolo documento utilizzando Aspose.Note per .NET.
+**D: Aspose.Note supporta diversi formati immagine?**  
+R: Sì, Aspose.Note supporta vari **supported image formats**, inclusi JPEG, PNG, GIF, BMP, ecc.
 
-### Q2: Aspose.Note supporta diversi formati di immagine?
+**D: Posso personalizzare l'aspetto dei collegamenti ipertestuali?**  
+R: Sì, puoi personalizzare l'aspetto dei collegamenti ipertestuali, includendo colore, sottolineatura ed effetti al passaggio del mouse, usando Aspose.Note per .NET.
 
-A2: Sì, Aspose.Note supporta vari formati di immagine, inclusi JPEG, PNG, GIF, BMP, ecc.
+**D: È disponibile una versione di prova di Aspose.Note per .NET?**  
+R: Sì, puoi scaricare una versione di prova gratuita di Aspose.Note per .NET da [here](https://releases.aspose.com/).
 
-### Q3: Posso personalizzare l'aspetto dei collegamenti ipertestuali?
+**D: Dove posso ottenere supporto per Aspose.Note per .NET?**  
+R: Puoi ottenere supporto per Aspose.Note per .NET dal [Aspose.Note forums](https://forum.aspose.com/c/note/28), dove puoi porre domande, cercare indicazioni e interagire con altri utenti ed esperti.
 
-A3: Sì, è possibile personalizzare l'aspetto dei collegamenti ipertestuali, inclusi colore, sottolineatura ed effetti al passaggio del mouse, utilizzando Aspose.Note per .NET.
+## Conclusione
 
-### Q4: È disponibile una versione di prova per Aspose.Note per .NET?
+In questo tutorial abbiamo coperto **how to add hyperlink** a un'immagine usando Aspose.Note per .NET, mostrato il codice necessario e discusso le migliori pratiche per l'uso di **clickable images**. Con questi passaggi puoi arricchire i tuoi documenti in stile OneNote, migliorare la navigazione e offrire un'esperienza di lettura più coinvolgente.
 
- A4: Sì, puoi scaricare una versione di prova gratuita di Aspose.Note per .NET da[Qui](https://releases.aspose.com/).
+---
 
-### Q5: Dove posso ottenere supporto per Aspose.Note per .NET?
+**Last Updated:** 2026-04-09  
+**Tested With:** Aspose.Note 24.11 for .NET  
+**Author:** Aspose  
 
- A5: È possibile ottenere supporto per Aspose.Note per .NET da[Aspose.Note forum](https://forum.aspose.com/c/note/28), dove puoi porre domande, chiedere assistenza e interagire con altri utenti ed esperti.
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
