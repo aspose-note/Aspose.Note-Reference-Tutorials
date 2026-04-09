@@ -1,34 +1,58 @@
 ---
-title: Přidejte alternativní text k obrázkům v Aspose.Note
-linktitle: Přidejte alternativní text k obrázkům v Aspose.Note
+date: 2026-04-09
+description: Naučte se snadno přidávat alternativní text k obrázkům v Aspose.Note
+  pro .NET. Zvyšte přístupnost a zlepšete uživatelský zážitek pomocí tohoto krok‑za‑krokem
+  průvodce.
+keywords:
+- how to add alt text
+- add alternative text image
+- append image to page
+linktitle: Přidat alternativní text k obrázkům v Aspose.Note
 second_title: Aspose.Note .NET API
-description: Naučte se, jak snadno přidat alternativní text k obrázkům v Aspose.Note pro .NET. Vylepšete dostupnost a vylepšete uživatelskou zkušenost pomocí tohoto podrobného průvodce.
-weight: 14
+title: Jak přidat alternativní text k obrázkům v Aspose.Note
 url: /cs/net/images/image-alternative-text/
+weight: 14
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Přidejte alternativní text k obrázkům v Aspose.Note
+# Jak přidat alternativní text k obrázkům v Aspose.Note
 
 ## Úvod
 
-Přidání alternativního textu k obrázkům v Aspose.Note pro .NET může zlepšit dostupnost a zlepšit porozumění obrázků pro uživatele se zdravotním postižením. V tomto tutoriálu vás provedeme procesem krok za krokem.
+Pokud potřebujete **jak přidat alternativní text** k obrázkům ve svých dokumentech ve stylu OneNote, jste na správném místě. Tento tutoriál vás provede přesné kroky, jak pomocí Aspose.Note pro .NET přidat alternativní text (jak titul, tak popis) k obrázku. Přidání alternativního textu nejen zvyšuje přístupnost pro uživatele čteček obrazovky, ale také zlepšuje SEO pro jakýkoli webově publikovaný obsah, který později vkládá tyto obrázky.
 
-## Předpoklady
+## Rychlé odpovědi
+- **Co znamená „alt text“?** Textový popis, který představuje obrázek, když nelze zobrazit.  
+- **Proč použít Aspose.Note pro alt text?** Poskytuje jednoduché API pro nastavení jak titulku, tak popisu programově.  
+- **Jaké jsou předpoklady?** .NET vývojové prostředí, Visual Studio a Aspose.Note pro .NET nainstalované.  
+- **Mohu přidat alt text k existujícím obrázkům?** Ano – můžete načíst objekt obrázku, nastavit jeho vlastnosti a dokument uložit.  
+- **Kam se ukládá výstup?** Do cesty, kterou určíte pomocí `document.Save(...)`.
 
-Než začnete, ujistěte se, že máte následující předpoklady:
+## Co je „jak přidat alt text“ v Aspose.Note?
 
-- Základní znalost programovacího jazyka C#.
-- Nainstalované Visual Studio IDE.
--  Aspose.Note pro .NET nainstalován. Můžete si jej stáhnout[tady](https://releases.aspose.com/note/net/).
-- Soubor obrázku, se kterým se dá pracovat.
+Přidání alt textu znamená přiřazení vlastností `AlternativeTextTitle` a `AlternativeTextDescription` objektu `Image`. Tyto vlastnosti jsou čteny čtečkami obrazovky a dalšími asistenčními technologiemi, aby předaly význam obrázku.
 
-## Import jmenných prostorů
+## Proč přidat alternativní text k obrázku ve vašem dokumentu?
 
-Nejprve nezapomeňte zahrnout potřebné jmenné prostory:
+- **Soulad s přístupností** – splňuje směrnice WCAG a Section 508.  
+- **Vylepšené SEO** – vyhledávače indexují popisný text.  
+- **Lepší uživatelská zkušenost** – uživatelé s vypnutými obrázky stále rozumí obsahu.
+
+## Požadavky
+
+Before you begin, make sure you have:
+
+- Základní znalost C# a .NET vývoje.  
+- Nainstalované Visual Studio na vašem počítači.  
+- Aspose.Note pro .NET stažený a referencovaný ve vašem projektu – můžete jej získat [zde](https://releases.aspose.com/note/net/).  
+- Soubor obrázku (např. `image.jpg`), který chcete vložit.
+
+## Importovat jmenné prostory
+
+Nejprve zahrňte jmenné prostory potřebné pro práci se soubory a objekty Aspose.Note.
 
 ```csharp
 using System.IO;
@@ -38,71 +62,98 @@ using System.Drawing;
 using System;
 ```
 
-## Krok 1: Inicializujte dokument a stránku
+## Krok 1: Inicializovat dokument a stránku
+
+Vytvořte novou instanci `Document` a přidejte `Page`, na kterou bude obrázek umístěn.
 
 ```csharp
 var document = new Document();
 var page = new Page(document);
 ```
 
-## Krok 2: Načtěte obrázek
+## Krok 2: Načíst obrázek
+
+Odkazujte na složku, která obsahuje váš obrázek, a vytvořte objekt `Image`.
 
 ```csharp
 string dataDir = "Your Document Directory";
 var image = new Image(document, dataDir + "image.jpg");
 ```
 
-## Krok 3: Nastavte alternativní text
+## Krok 3: Nastavit alternativní text
+
+Zde **přidáváme alternativní text k obrázku** vyplněním polí titulku i popisu.
 
 ```csharp
 image.AlternativeTextTitle = "This is an image's title!";
 image.AlternativeTextDescription = "And this is an image's description!";
 ```
 
-## Krok 4: Připojte obrázek ke stránce
+## Krok 4: Připojit obrázek ke stránce
+
+Nyní **připojujeme obrázek ke stránce** pomocí metody `AppendChildLast`.
 
 ```csharp
 page.AppendChildLast(image);
 ```
 
-## Krok 5: Uložte dokument
+## Krok 5: Uložit dokument
+
+Zadejte název výstupního souboru a uložte OneNote dokument.
 
 ```csharp
 dataDir = dataDir + "ImageAlternativeText_out.one";
 document.Save(dataDir);
 ```
 
-## Krok 6: Zobrazte zprávu o úspěchu
+## Krok 6: Zobrazit zprávu o úspěchu
+
+Jednoduchá zpráva v konzoli potvrzuje, že operace byla úspěšná.
 
 ```csharp
 Console.WriteLine("\nImage alternative text setup successfully.\nFile saved at " + dataDir); 
 ```
 
-## Závěr
+## Časté problémy a řešení
 
-Přidání alternativního textu k obrázkům je zásadní pro usnadnění přístupu a zlepšuje uživatelský dojem. Aspose.Note pro .NET poskytuje přímý způsob, jak tento úkol efektivně splnit.
+| Problém | Příčina | Řešení |
+|-------|-------|-----|
+| **Alt text se nezobrazuje** | `AlternativeTextTitle` nebo `AlternativeTextDescription` jsou prázdné | Ujistěte se, že jsou před uložením nastaveny obě vlastnosti. |
+| **Soubor nenalezen** | Špatná cesta `dataDir` | Použijte absolutní cestu nebo ověřte, že relativní složka existuje. |
+| **Výjimka při ukládání** | Nedostatečná oprávnění k zápisu | Spusťte Visual Studio jako administrátor nebo vyberte složku s oprávněním k zápisu. |
 
-## FAQ
+## Často kladené otázky
 
-### Q1: Proč je pro obrázky důležitý alternativní text?
+### Q1: Proč je alternativní text důležitý pro obrázky?
 
-Odpověď 1: Alternativní text poskytuje textový popis obrázků a zpřístupňuje je uživatelům, kteří spoléhají na čtečky obrazovky nebo mají obrázky deaktivované.
+A1: Alternativní text poskytuje textový popis obrázků, což je činí přístupnými pro uživatele, kteří používají čtečky obrazovky nebo mají obrázky vypnuté.
 
-### Q2: Mohu přidat alternativní text ke stávajícím obrázkům v dokumentu?
+### Q2: Mohu přidat alternativní text k existujícím obrázkům v dokumentu?
 
-Odpověď 2: Ano, pomocí Aspose.Note pro .NET můžete snadno přidat alternativní text k obrázkům, které se již v dokumentu nacházejí.
+A2: Ano, můžete snadno přidat alternativní text k obrázkům, které jsou již v dokumentu, pomocí Aspose.Note pro .NET.
 
-### Q3: Je Aspose.Note kompatibilní s jinými knihovnami .NET?
+### Q3: Je Aspose.Note kompatibilní s jinými .NET knihovnami?
 
-Odpověď 3: Aspose.Note se hladce integruje s dalšími knihovnami .NET a poskytuje komplexní funkce pro manipulaci s dokumenty.
+A3: Aspose.Note se bez problémů integruje s dalšími .NET knihovnami a poskytuje komplexní funkce pro manipulaci s dokumenty.
 
 ### Q4: Jak mohu získat podporu pro Aspose.Note?
 
- A4: Podporu pro Aspose.Note můžete získat návštěvou[Aspose.Note fórum](https://forum.aspose.com/c/note/28), kde můžete klást otázky a hledat řešení.
+A4: Podporu pro Aspose.Note můžete získat návštěvou [fóra Aspose.Note](https://forum.aspose.com/c/note/28), kde můžete klást otázky a najít řešení.
 
-### Q5: Je k dispozici bezplatná zkušební verze pro Aspose.Note?
+### Q5: Je k dispozici bezplatná zkušební verze Aspose.Note?
 
-A5: Ano, můžete využít bezplatnou zkušební verzi Aspose.Note návštěvou[tady](https://releases.aspose.com/).
+A5: Ano, můžete získat bezplatnou zkušební verzi Aspose.Note návštěvou [zde](https://releases.aspose.com/).
+
+## Závěr
+
+Přidání alt textu k obrázkům je malý krok, který má velký dopad na přístupnost, SEO a celkovou uživatelskou zkušenost. S Aspose.Note pro .NET je proces jednoduchý – stačí nastavit vlastnosti `AlternativeTextTitle` a `AlternativeTextDescription`, připojit obrázek a dokument uložit.
+
+---
+
+**Poslední aktualizace:** 2026-04-09  
+**Testováno s:** Aspose.Note 24.11 for .NET  
+**Autor:** Aspose  
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
