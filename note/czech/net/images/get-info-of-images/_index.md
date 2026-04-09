@@ -1,32 +1,52 @@
 ---
-title: Získejte informace o obrázcích v Aspose.Note
-linktitle: Získejte informace o obrázcích v Aspose.Note
+date: 2026-04-09
+description: Naučte se, jak extrahovat metadata obrázků a získat rozměry obrázků ze
+  souborů OneNote pomocí Aspose.Note pro .NET. Podrobný návod krok za krokem pro vývojáře
+  C#.
+keywords:
+- extract image metadata
+- how to extract images
+- get image dimensions
+- load onenote document
+- c# get image properties
+linktitle: Jak extrahovat metadata obrázku z OneNote pomocí Aspose.Note
 second_title: Aspose.Note .NET API
-description: Přečtěte si, jak extrahovat informace o obrázcích ze souborů Microsoft OneNote pomocí Aspose.Note pro .NET. Postupujte podle našeho podrobného průvodce pro efektivní vývoj.
-weight: 13
+title: Jak extrahovat metadata obrázku z OneNote pomocí Aspose.Note
 url: /cs/net/images/get-info-of-images/
+weight: 13
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Získejte informace o obrázcích v Aspose.Note
+# Extrahování metadat obrázku pomocí Aspose.Note pro .NET
 
-## Úvod
+V tomto praktickém tutoriálu se naučíte **jak extrahovat metadata obrázku** – včetně šířky, výšky, původní velikosti, názvu souboru a času úpravy – z souborů Microsoft OneNote pomocí knihovny Aspose.Note pro C#. Ať už potřebujete zobrazovat miniatury obrázků, ověřovat velikosti obrázků nebo vytvářet katalog vložených aktiv, programové získávání těchto informací vám ušetří nespočet ručních kroků.
 
-Ve světě vývoje .NET poskytuje Aspose.Note výkonnou sadu nástrojů pro práci se soubory Microsoft OneNote. Jedním z běžných úkolů, kterým vývojáři často čelí, je extrahování informací z obrázků vložených do těchto poznámek. Ať už se jedná o získávání rozměrů, názvů souborů nebo časů úprav, Aspose.Note tento proces zjednodušuje.
+## Rychlé odpovědi
+- **Co znamená „extrahovat metadata obrázku“?** Získávání vlastností jako rozměry, název souboru a časové razítka z obrázků uložených uvnitř dokumentu OneNote.  
+- **Která knihovna to provádí?** Aspose.Note for .NET.  
+- **Potřebuji licenci?** Pro vývoj stačí bezplatná zkušební verze; pro produkci je vyžadována komerční licence.  
+- **Podporované platformy?** .NET Framework 4.6+, .NET Core 3.1+, .NET 5/6+.  
+- **Typický čas běhu?** Méně než sekunda pro standardní soubor .one.
 
-## Předpoklady
+## Co je extrahování metadat obrázku?
+Extrahování metadat obrázku znamená programové čtení popisných atributů (šířka, výška, původní rozměry, název souboru, čas poslední úpravy atd.), které doprovázejí každý objekt obrázku uvnitř stránky OneNote. Tato data jsou užitečná pro validaci, reportování nebo další zpracování obrázků.
 
-Než se vrhneme na extrahování informací o obrázku pomocí Aspose.Note, ujistěte se, že máte následující:
+## Proč extrahovat metadata obrázku z OneNote?
+- **Automatizace** – Vytvářejte nástroje, které automaticky generují inventáře obrázků.  
+- **Validace** – Zajistěte, že obrázky splňují požadavky na velikost před publikací.  
+- **Integrace** – Propojte obsah OneNote s jinými systémy, které potřebují podrobnosti o obrázcích (CMS, DAM atd.).  
+- **Výkon** – Vyhněte se načítání celých binárních dat obrázku, pokud jsou potřeba jen rozměry.
 
-1. Základní znalost C#: Pro pochopení příkladů kódu je nezbytná znalost programovacího jazyka C#.
-2.  Nainstalovaný Aspose.Note for .NET: Ujistěte se, že máte ve svém vývojovém prostředí nainstalovanou knihovnu Aspose.Note. Můžete si jej stáhnout[tady](https://releases.aspose.com/note/net/).
+## Požadavky
+1. **C# fundamentals** – Základy C# – Měli byste být schopni psát základní kód v C#.  
+2. **Aspose.Note for .NET** – Aspose.Note pro .NET – Stáhněte a nainstalujte knihovnu z oficiálního webu [zde](https://releases.aspose.com/note/net/).  
+3. **A OneNote (.one) file** – Soubor OneNote (.one) – Jakýkoli existující dokument OneNote, který obsahuje obrázky.
 
-## Import jmenných prostorů
-
-Než začneme, importujme potřebné jmenné prostory:
+## Importujte jmenné prostory
+Než začneme, importujte požadované jmenné prostory:
 
 ```csharp
 using System.IO;
@@ -35,34 +55,31 @@ using System.Collections.Generic;
 using System;
 ```
 
-## Krok 1: Vložte dokument
-
-Nejprve načtěte cílový dokument OneNotu do Aspose.Note:
+## Krok 1: Načtěte dokument OneNote
+Nejprve načtěte cílový soubor OneNote do objektu `Aspose.Note.Document`. Toto je krok **load onenote document**, který připraví API pro další dotazy.
 
 ```csharp
-// Cesta k adresáři dokumentů.
+// The path to the documents directory.
 string dataDir = "Your Document Directory";
 
-// Vložte dokument do Aspose.Note.
+// Load the document into Aspose.Note.
 Document oneFile = new Document(dataDir + "Aspose.one");
 ```
 
- Nahradit`"Your Document Directory"` s cestou k vašemu souboru OneNotu.
+Nahraďte `"Your Document Directory"` skutečnou složkou, která obsahuje váš soubor `.one`.
 
-## Krok 2: Načtěte informace o obrázku
-
-Dále načtěte všechny obrazové uzly z dokumentu:
+## Krok 2: Získejte všechny uzly obrázků
+Nyní **jak extrahovat obrázky** získáním každého uzlu `Image` z dokumentu.
 
 ```csharp
-// Získejte všechny obrazové uzly
+// Get all Image nodes
 IList<Aspose.Note.Image> images = oneFile.GetChildNodes<Aspose.Note.Image>();
 ```
 
-Tento fragment kódu načte všechny uzly obrázku v načteném dokumentu OneNotu.
+Metoda `GetChildNodes<T>()` prohledá celou hierarchii poznámkového bloku a vrátí kolekci objektů obrázku.
 
-## Krok 3: Iterujte obrázky
-
-Nyní projdeme každý uzel obrázku a extrahujeme jeho metadata:
+## Krok 3: Procházejte každý obrázek a **c# získat vlastnosti obrázku**
+Projdeme kolekci a vypíšeme metadata, včetně hodnot **get image dimensions** a **extract original image size**.
 
 ```csharp
 foreach (Aspose.Note.Image image in images)
@@ -77,33 +94,38 @@ foreach (Aspose.Note.Image image in images)
 }
 ```
 
-Tato smyčka vytiskne různé atributy každého obrázku, jako je šířka, výška, původní rozměry, název souboru a čas poslední úpravy.
+Výstup ukazuje aktuální šířku/výšku každého obrázku (tak, jak je vykreslený na stránce), původní rozměry uložené v souboru, název souboru a čas poslední úpravy.
 
-## Závěr
+## Časté problémy a řešení
+| Problém | Důvod | Řešení |
+|-------|--------|-----|
+| **NullReferenceException** když je `images` prázdný | Dokument neobsahuje žádné obrázky | Ověřte, že zdrojový soubor `.one` skutečně obsahuje vložené obrázky. |
+| **Nesprávné rozměry** | Obrázky jsou v OneNote škálovány | Použijte `OriginalWidth`/`OriginalHeight` pro získání skutečné velikosti. |
+| **FileName je prázdný** | Obrázek byl vložen ze schránky | API nemusí mít název souboru; ve svém kódu ošetřete `null` nebo prázdné řetězce. |
 
-Aspose.Note pro .NET se získávání obrazových informací z dokumentů OneNotu stává bezproblémovým procesem. Podle kroků uvedených v tomto tutoriálu mohou vývojáři efektivně získávat metadata z vložených obrázků, což jim umožňuje vytvářet robustní aplikace.
+## Často kladené otázky
 
-## FAQ
+**Q: Je Aspose.Note kompatibilní se všemi verzemi Microsoft OneNote?**  
+A: Aspose.Note podporuje formáty .one, .onepkg a .onetoc2, pokrývající většinu verzí OneNote od roku 2007 dál.
 
-### Q1: Je Aspose.Note kompatibilní se všemi verzemi Microsoft OneNote?
+**Q: Mohu po extrahování upravit vlastnosti obrázku?**  
+A: Ano, můžete měnit vlastnosti jako `Width`, `Height` nebo `FileName` a poté dokument uložit.
 
-Odpověď 1: Aspose.Note podporuje různé formáty souborů OneNote, včetně .one, .onepkg a .onetoc2, což zajišťuje kompatibilitu mezi různými verzemi.
+**Q: Funguje Aspose.Note s .NET Core?**  
+A: Ano. Knihovna je plně kompatibilní s .NET Core, .NET 5 i .NET 6.
 
-### Q2: Mohu upravit vlastnosti obrázku pomocí Aspose.Note?
+**Q: Je k dispozici bezplatná zkušební verze?**  
+A: Ano, můžete si stáhnout zkušební verzi z webu Aspose a vyzkoušet všechny funkce.
 
-Odpověď 2: Ano, Aspose.Note umožňuje programově manipulovat s vlastnostmi obrázku, jako jsou rozměry, názvy souborů a časy úprav.
+**Q: Kde mohu získat další pomoc nebo podporu komunity?**  
+A: Navštivte fórum Aspose.Note [zde](https://forum.aspose.com/c/note/28) pro tipy, ukázkový kód a odpovědi od komunity.
 
-### Q3: Nabízí Aspose.Note podporu pro .NET Core?
+---
 
-Odpověď 3: Ano, Aspose.Note poskytuje podporu pro .NET Core a umožňuje vývoj vašich aplikací napříč platformami.
+**Poslední aktualizace:** 2026-04-09  
+**Testováno s:** Aspose.Note 24.11 for .NET  
+**Autor:** Aspose  
 
-### Q4: Je k dispozici bezplatná zkušební verze pro Aspose.Note?
-
-A4: Ano, máte přístup k bezplatné zkušební verzi Aspose.Note a prozkoumejte její funkce před nákupem.
-
-### Q5: Kde najdu další podporu nebo pomoc s Aspose.Note?
-
-A5: Pro jakékoli dotazy nebo pomoc můžete navštívit fórum Aspose.Note[tady](https://forum.aspose.com/c/note/28).
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

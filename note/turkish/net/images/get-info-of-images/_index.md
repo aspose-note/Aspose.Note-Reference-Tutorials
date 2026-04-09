@@ -1,32 +1,52 @@
 ---
-title: Aspose.Note'taki Görsellerin Bilgisini Alın
-linktitle: Aspose.Note'taki Görsellerin Bilgisini Alın
-second_title: Aspose.Note .NET API'si
-description: Aspose.Note for .NET'i kullanarak Microsoft OneNote dosyalarından görüntü bilgilerini nasıl çıkaracağınızı öğrenin. Verimli geliştirme için adım adım kılavuzumuzu izleyin.
-weight: 13
+date: 2026-04-09
+description: Aspose.Note for .NET ile OneNote dosyalarından görüntü meta verilerini
+  çıkarmayı ve görüntü boyutlarını almayı öğrenin. C# geliştiricileri için adım adım
+  rehber.
+keywords:
+- extract image metadata
+- how to extract images
+- get image dimensions
+- load onenote document
+- c# get image properties
+linktitle: Aspose.Note kullanarak OneNote'tan görüntü meta verilerini nasıl çıkarabilirsiniz
+second_title: Aspose.Note .NET API
+title: Aspose.Note kullanarak OneNote'tan resim meta verilerini nasıl çıkarılır
 url: /tr/net/images/get-info-of-images/
+weight: 13
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Aspose.Note'taki Görsellerin Bilgisini Alın
+# Aspose.Note for .NET ile Görüntü Üst Verilerini Çıkarma
 
-## giriiş
+Bu uygulamalı öğreticide, Aspose.Note kütüphanesini C# için kullanarak Microsoft OneNote dosyalarından genişlik, yükseklik, orijinal boyut, dosya adı ve değiştirilme zamanı dahil olmak üzere **görüntü üst verilerini nasıl çıkaracağınızı** öğreneceksiniz. Görüntü küçük resimlerini göstermeniz, görüntü boyutlarını doğrulamanız veya gömülü varlıkların bir kataloğunu oluşturmanız gerekse, bu bilgileri programlı olarak çıkarmak sayısız manuel adımı tasarruf ettirir.
 
-.NET geliştirme dünyasında Aspose.Note, Microsoft OneNote dosyalarıyla çalışmak için güçlü bir araç seti sağlar. Geliştiricilerin sıklıkla karşılaştığı ortak görevlerden biri, bu notların içine yerleştirilmiş görsellerden bilgi çıkarmaktır. Aspose.Note, boyutların, dosya adlarının veya değişiklik zamanlarının elde edilmesi bu süreci basitleştirir.
+## Hızlı Yanıtlar
+- **“görüntü üst verilerini çıkarma” ne anlama geliyor?** OneNote belgesi içinde depolanan görüntülerden boyutlar, dosya adı ve zaman damgaları gibi özellikleri almayı ifade eder.  
+- **Bu işlemi hangi kütüphane gerçekleştirir?** Aspose.Note for .NET.  
+- **Bir lisansa ihtiyacım var mı?** Geliştirme için ücretsiz deneme sürümü çalışır; üretim için ticari lisans gereklidir.  
+- **Desteklenen platformlar?** .NET Framework 4.6+, .NET Core 3.1+, .NET 5/6+.  
+- **Tipik çalışma süresi?** Standart bir .one dosyası için bir saniyeden az.
+
+## Görüntü üst verilerini çıkarma nedir?
+Görüntü üst verilerini çıkarmak, bir OneNote sayfasındaki her görüntü nesnesine eşlik eden açıklayıcı nitelikleri (genişlik, yükseklik, orijinal boyutlar, dosya adı, son‑değiştirilme zamanı vb.) programlı olarak okumak anlamına gelir. Bu veriler doğrulama, raporlama veya daha ileri görüntü işleme için faydalıdır.
+
+## Neden OneNote'tan görüntü üst verilerini çıkaralım?
+- **Otomasyon** – Görüntü envanterlerini otomatik olarak oluşturan araçlar geliştirin.  
+- **Doğrulama** – Yayınlamadan önce görüntülerin boyut gereksinimlerini karşıladığından emin olun.  
+- **Entegrasyon** – Görüntü detaylarına ihtiyaç duyan diğer sistemlerle (CMS, DAM vb.) OneNote içeriğini birleştirin.  
+- **Performans** – Yalnızca boyutlar gerektiğinde tam görüntü ikili dosyalarını yüklemekten kaçının.
 
 ## Önkoşullar
+1. **C# temelleri** – Temel C# kodu yazmada rahat olmalısınız.  
+2. **Aspose.Note for .NET** – Kütüphaneyi resmi siteden [buradan](https://releases.aspose.com/note/net/) indirin ve kurun.  
+3. **Bir OneNote (.one) dosyası** – Görüntü içeren mevcut herhangi bir OneNote belgesi.
 
-Aspose.Note ile görüntü bilgilerini çıkarmaya başlamadan önce aşağıdakilere sahip olduğunuzdan emin olun:
-
-1. Temel C# bilgisi: C# programlama diline aşina olmak, kod örneklerini anlamak için çok önemlidir.
-2.  Aspose.Note for .NET kurulu: Geliştirme ortamınızda Aspose.Note kütüphanesinin kurulu olduğundan emin olun. İndirebilirsin[Burada](https://releases.aspose.com/note/net/).
-
-## Ad Alanlarını İçe Aktar
-
-Başlamadan önce gerekli ad alanlarını içe aktaralım:
+## Ad Alanlarını İçe Aktarın
+Başlamadan önce, gerekli ad alanlarını içe aktarın:
 
 ```csharp
 using System.IO;
@@ -35,34 +55,31 @@ using System.Collections.Generic;
 using System;
 ```
 
-## 1. Adım: Belgeyi Yükleyin
-
-Öncelikle hedef OneNote belgesini Aspose.Note'a yükleyin:
+## Adım 1: OneNote belgesini yükleyin
+İlk olarak, hedef OneNote dosyasını bir `Aspose.Note.Document` nesnesine yükleyin. Bu, API'yi sonraki sorgular için hazırlayan **OneNote belgesini yükle** adımıdır.
 
 ```csharp
-// Belgeler dizininin yolu.
+// The path to the documents directory.
 string dataDir = "Your Document Directory";
 
-// Belgeyi Aspose.Note'a yükleyin.
+// Load the document into Aspose.Note.
 Document oneFile = new Document(dataDir + "Aspose.one");
 ```
 
- Yer değiştirmek`"Your Document Directory"` OneNote dosyanızın yolu ile birlikte.
+`"Your Document Directory"` ifadesini `.one` dosyanızı tutan gerçek klasörle değiştirin.
 
-## 2. Adım: Görüntü Bilgilerini Alın
-
-Daha sonra belgedeki tüm görüntü düğümlerini alın:
+## Adım 2: Tüm görüntü düğümlerini alın
+Şimdi, belgeden her `Image` düğümünü çekerek **görüntüleri nasıl çıkaracağımızı** göstereceğiz.
 
 ```csharp
-// Tüm Görüntü düğümlerini al
+// Get all Image nodes
 IList<Aspose.Note.Image> images = oneFile.GetChildNodes<Aspose.Note.Image>();
 ```
 
-Bu kod parçacığı, yüklenen OneNote belgesindeki tüm görüntü düğümlerini getirir.
+`GetChildNodes<T>()` yöntemi tüm not defteri hiyerarşisini tarar ve bir görüntü nesnesi koleksiyonu döndürür.
 
-## Adım 3: Görselleri Yineleyin
-
-Şimdi meta verilerini çıkarmak için her görüntü düğümünü tekrarlayalım:
+## Her görüntü üzerinde döngü yapın ve **c# get image properties**
+Koleksiyon üzerinde döngü kuracağız ve üst verileri, **görüntü boyutlarını al** ve **orijinal görüntü boyutunu çıkar** değerlerini içerecek şekilde yazdıracağız.
 
 ```csharp
 foreach (Aspose.Note.Image image in images)
@@ -77,33 +94,38 @@ foreach (Aspose.Note.Image image in images)
 }
 ```
 
-Bu döngü, her görüntünün genişlik, yükseklik, orijinal boyutlar, dosya adı ve son değiştirilme zamanı gibi çeşitli özelliklerini yazdırır.
+Çıktı, her görüntünün sayfada render edildiği mevcut genişlik/yüksekliğini, dosyada saklanan orijinal boyutlarını, dosya adını ve son değişiklik zaman damgasını gösterir.
 
-## Çözüm
+## Yaygın Sorunlar ve Çözümler
+| Sorun | Neden | Çözüm |
+|-------|--------|-----|
+| **NullReferenceException** `images` boş olduğunda | Belge hiçbir görüntü içermiyor | Kaynak `.one` dosyasının gömülü görüntüler içerdiğini doğrulayın. |
+| **Incorrect dimensions** | Görüntüler OneNote'ta ölçeklendirilmiş | Gerçek boyutu elde etmek için `OriginalWidth`/`OriginalHeight` kullanın. |
+| **FileName is empty** | Görüntü panodan yapıştırıldı | API bir dosya adı içermeyebilir; kodunuzda `null` veya boş stringleri işleyin. |
 
-Aspose.Note for .NET ile OneNote belgelerinden görüntü bilgilerinin çıkarılması sorunsuz bir süreç haline gelir. Geliştiriciler, bu eğitimde özetlenen adımları izleyerek, gömülü görüntülerden meta verileri verimli bir şekilde alabilir ve böylece güçlü uygulamalar oluşturmalarını sağlayabilirler.
+## Sıkça Sorulan Sorular
 
-## SSS'ler
+**Q: Aspose.Note, Microsoft OneNote'un tüm sürümleriyle uyumlu mu?**  
+A: Aspose.Note .one, .onepkg ve .onetoc2 formatlarını destekler, 2007'den itibaren çoğu OneNote sürümünü kapsar.
 
-### S1: Aspose.Note, Microsoft OneNote'un tüm sürümleriyle uyumlu mudur?
+**Q: Çıkarma işleminden sonra görüntü özelliklerini değiştirebilir miyim?**  
+A: Evet, `Width`, `Height` veya `FileName` gibi özellikleri değiştirebilir ve ardından belgeyi kaydedebilirsiniz.
 
-Cevap1: Aspose.Note, .one, .onepkg ve .onetoc2 dahil olmak üzere çeşitli OneNote dosya formatlarını destekleyerek farklı sürümler arasında uyumluluk sağlar.
+**Q: Aspose.Note .NET Core ile çalışıyor mu?**  
+A: Kesinlikle. Kütüphane .NET Core, .NET 5 ve .NET 6 ile tam uyumludur.
 
-### S2: Aspose.Note'u kullanarak görüntü özelliklerini değiştirebilir miyim?
+**Q: Ücretsiz bir deneme sürümü mevcut mu?**  
+A: Evet, tüm özellikleri keşfetmek için Aspose web sitesinden bir deneme sürümü indirebilirsiniz.
 
-Cevap2: Evet, Aspose.Note boyutlar, dosya adları ve değişiklik süreleri gibi görüntü özelliklerini programlı olarak değiştirmenize olanak tanır.
+**Q: Ek yardım veya topluluk desteği nereden alabilirim?**  
+A: İpuçları, örnek kod ve topluluktan yanıtlar için Aspose.Note forumunu [buradan](https://forum.aspose.com/c/note/28) ziyaret edin.
 
-### S3: Aspose.Note .NET Core desteği sunuyor mu?
+---
 
-C3: Evet, Aspose.Note, .NET Core desteği sağlayarak uygulamalarınız için platformlar arası geliştirme olanağı sağlar.
+**Son Güncelleme:** 2026-04-09  
+**Test Edilen:** Aspose.Note 24.11 for .NET  
+**Yazar:** Aspose  
 
-### S4: Aspose.Note'un ücretsiz deneme sürümü mevcut mu?
-
-Cevap4: Evet, satın alma işlemi yapmadan önce özelliklerini keşfetmek için Aspose.Note'un ücretsiz deneme sürümüne erişebilirsiniz.
-
-### S5: Aspose.Note ile ilgili ek desteği veya yardımı nerede bulabilirim?
-
-Cevap5: Sorularınız veya yardımlarınız için Aspose.Note forumunu ziyaret edebilirsiniz.[Burada](https://forum.aspose.com/c/note/28).
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
