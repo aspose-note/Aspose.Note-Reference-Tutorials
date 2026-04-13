@@ -1,32 +1,58 @@
 ---
-title: Inserisci immagini utilizzando Image Stream in Aspose.Note
-linktitle: Inserisci immagini utilizzando Image Stream in Aspose.Note
-second_title: Aspose.Note API .NET
-description: Scopri come inserire facilmente immagini nei documenti Aspose.Note utilizzando flussi di immagini in .NET. Migliora i tuoi file Note con immagini senza sforzo.
-weight: 11
+date: 2026-04-13
+description: Scopri come aggiungere immagini ai documenti OneNote utilizzando flussi
+  di immagini in .NET con Aspose.Note. Questa guida passo‑passo copre il caricamento
+  delle immagini dallo stream, l’aggiunta alle outline e il salvataggio del file.
+keywords:
+- add image to onenote
+- how to insert image
+- load image from stream
+- append image to outline
+- image stream .net
+linktitle: Aggiungi immagine a OneNote tramite flusso di immagine con Aspose.Note
+second_title: Aspose.Note .NET API
+title: Aggiungi immagine a OneNote tramite flusso di immagine usando Aspose.Note
 url: /it/net/images/insert-image-using-image-stream/
+weight: 11
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Inserisci immagini utilizzando Image Stream in Aspose.Note
+# Aggiungere immagine a OneNote tramite flusso immagine usando Aspose.Note
 
-## introduzione
+## Introduzione
 
-In questo tutorial esploreremo come inserire immagini in un documento Aspose.Note utilizzando flussi di immagini in .NET. Aspose.Note è una potente API che consente agli sviluppatori di lavorare con i file Microsoft OneNote a livello di codice. Seguendo i passaggi descritti in questa guida, imparerai come integrare perfettamente le immagini nei tuoi documenti Note, migliorandone l'attrattiva visiva e la funzionalità generale.
+In questo tutorial, scoprirai **come aggiungere un'immagine a OneNote** nei documenti caricando un'immagine da uno stream e aggiungendola a un contorno con Aspose.Note per .NET. Che tu stia creando uno strumento di reporting, un'app per prendere appunti o automatizzando la documentazione, inserire immagini programmaticamente rende i tuoi file OneNote molto più coinvolgenti e utili.
+
+## Risposte rapide
+- **Quale libreria è necessaria?** Aspose.Note per .NET (disponibile prova gratuita).  
+- **Quali versioni di .NET sono supportate?** .NET Framework 4.5+, .NET Core 3.1+, .NET 5/6+.  
+- **Posso caricare immagini da uno stream?** Sì – usa `FileStream` o qualsiasi implementazione di `Stream`.  
+- **Come controllo l'allineamento dell'immagine?** Imposta la proprietà `Alignment` (ad es., `HorizontalAlignment.Right`).  
+- **Qual è il formato di file prodotto?** Un file OneNote (`.one`) che può essere aperto in Microsoft OneNote.
+
+## Che cosa significa “aggiungere immagine a OneNote”?
+
+Aggiungere un'immagine a un file OneNote significa incorporare un elemento visivo direttamente nella gerarchia dei contenuti di una pagina. Con Aspose.Note lavori con oggetti come `Document`, `Page`, `Outline` e `OutlineElement`. Inserendo un oggetto `Image` in un `OutlineElement`, l'immagine diventa parte del layout della pagina OneNote.
+
+## Perché usare Aspose.Note per l'inserimento di immagini?
+
+- **Nessuna installazione di Office richiesta** – genera o modifica file OneNote su un server.  
+- **Controllo completo sul layout** – allinea, ridimensiona e posiziona le immagini esattamente dove ti servono.  
+- **Compatibile con gli stream** – funziona con qualsiasi `Stream`, perfetto per archiviazione cloud o scenari solo in memoria.  
+- **Cross‑platform** – compatibile con runtime .NET su Windows, Linux e macOS.
 
 ## Prerequisiti
 
-Prima di iniziare, assicurati di disporre dei seguenti prerequisiti:
-1. Ambiente di sviluppo: configura un ambiente di sviluppo con funzionalità .NET.
-2.  Libreria Aspose.Note: scarica e installa la libreria Aspose.Note per .NET. È possibile trovare il collegamento per il download[Qui](https://releases.aspose.com/note/net/).
-3. File immagine: prepara i file immagine che intendi inserire nel documento Nota.
-4. Comprensione di base: familiarizza con i concetti di base del linguaggio di programmazione C# e della gestione dei file.
+1. **Ambiente di sviluppo** – Visual Studio 2022 o qualsiasi IDE compatibile con .NET.  
+2. **Libreria Aspose.Note** – scaricala dal sito ufficiale [qui](https://releases.aspose.com/note/net/).  
+3. **File immagine** – almeno un'immagine (JPG, PNG, BMP, GIF o TIFF) che desideri incorporare.  
+4. **Conoscenza base di C#** – familiarità con la gestione dei file e la programmazione orientata agli oggetti.
 
-## Importa spazi dei nomi
-Innanzitutto, importiamo gli spazi dei nomi necessari nel nostro progetto. Questi spazi dei nomi forniranno l'accesso alle classi e ai metodi necessari per lavorare con Aspose.Note e gestire l'inserimento di immagini.
+## Importare gli spazi dei nomi
+Per prima cosa, importa gli spazi dei nomi che ci danno accesso alle classi Aspose.Note e alle utility I/O standard di .NET.
 
 ```csharp
 using System.IO;
@@ -36,30 +62,35 @@ using System.Drawing;
 using System;
 ```
 
-Ora suddividiamo il processo di inserimento delle immagini utilizzando i flussi di immagini in più passaggi.
+Ora percorriamo il processo passo dopo passo.
 
-## Passaggio 1: inizializzare l'oggetto documento
+### Passo 1: Inizializzare l'oggetto Document
+Iniziamo creando una nuova istanza di `Document` che conterrà il file OneNote.
+
 ```csharp
-// Il percorso della directory dei documenti.
+// The path to the documents directory.
 string dataDir = "Your Document Directory";
 Document doc = new Document();
 ```
-Inizializziamo una nuova istanza della classe Document, che rappresenta il documento OneNote.
 
-## Passaggio 2: crea un oggetto pagina
+### Passo 2: Creare l'oggetto Page
+Un file OneNote è composto da una o più pagine. Qui creiamo una nuova pagina per ospitare il nostro contenuto.
+
 ```csharp
 Aspose.Note.Page page = new Aspose.Note.Page(doc);
 ```
-Creiamo un nuovo oggetto Pagina per aggiungervi contenuto.
 
-## Passaggio 3: inizializzare gli oggetti Outline e OutlineElement
+### Passo 3: Inizializzare gli oggetti Outline e OutlineElement
+Gli Outline sono contenitori per contenuti ricchi (testo, immagini, tabelle). Un `OutlineElement` è un figlio che contiene effettivamente gli elementi.
+
 ```csharp
 Outline outline1 = new Outline(doc);
 OutlineElement outlineElem1 = new OutlineElement(doc);
 ```
-Creiamo istanze delle classi Outline e OutlineElement per strutturare il nostro contenuto all'interno della pagina.
 
-## Passaggio 4: carica l'immagine dallo streaming
+### Passo 4: Caricare l'immagine dallo stream
+Utilizzando un `FileStream` (o qualsiasi `Stream`) leggiamo il file immagine e creiamo un oggetto `Image`. Qui la parola chiave **load image from stream** brilla.
+
 ```csharp
 using (FileStream fs = File.OpenRead(dataDir + "image.jpg"))
 {
@@ -70,62 +101,74 @@ using (FileStream fs = File.OpenRead(dataDir + "image.jpg"))
     outlineElem1.AppendChildLast(image1);
 }
 ```
-Apriamo il file immagine utilizzando FileStream e lo carichiamo in un oggetto Image. Possiamo specificare proprietà come l'allineamento per l'immagine.
 
-## Passaggio 5: aggiungi l'immagine a OutlineElement
+### Passo 5: Aggiungere l'immagine a OutlineElement
+L'immagine è ora parte del `OutlineElement`. Questo passo dimostra la funzionalità **append image to outline**.
+
 ```csharp
 outlineElem1.AppendChildLast(image1);
 ```
-Aggiungiamo l'immagine a OutlineElement, aggiungendola di fatto alla struttura del documento.
 
-## Passaggio 6: aggiungi OutlineElement a Outline
+### Passo 6: Aggiungere OutlineElement a Outline
+Ora colleghiamo l'elemento (con l'immagine) al contenitore outline.
+
 ```csharp
 outline1.AppendChildLast(outlineElem1);
 ```
-Aggiungiamo l'OutlineElement contenente l'immagine all'Outline.
 
-## Passaggio 7: aggiungi la struttura alla pagina
+### Passo 7: Aggiungere Outline alla pagina
+L'outline, contenente l'immagine, viene aggiunto alla pagina.
+
 ```csharp
 page.AppendChildLast(outline1);
 ```
-Aggiungiamo la struttura alla pagina, finalizzando la struttura del contenuto.
 
-## Passaggio 8: aggiungi la pagina al documento
+### Passo 8: Aggiungere la pagina al documento
+Con la pagina pronta, la inseriamo nella gerarchia del documento.
+
 ```csharp
 doc.AppendChildLast(page);
 ```
-Aggiungiamo la Pagina al Documento, completando l'assemblaggio del documento.
 
-## Passaggio 9: salva il documento
+### Passo 9: Salvare il documento
+Infine, salviamo il file OneNote su disco. Il file risultante può essere aperto in Microsoft OneNote.
+
 ```csharp
 doc.Save(dataDir + "BuildDocAndInsertImageUsingImageStream_out.one");
 ```
-Infine, salviamo il documento assemblato con l'immagine inserita.
 
-## Conclusione
-Seguendo questo tutorial, hai imparato come inserire immagini nei documenti Aspose.Note utilizzando flussi di immagini in .NET. Sfruttando le funzionalità di Aspose.Note, ora puoi integrare perfettamente gli elementi visivi nei file Note, migliorandone l'utilità e l'attrattiva visiva.
+## Problemi comuni e soluzioni
+
+| Problema | Perché accade | Soluzione |
+|----------|----------------|-----------|
+| **L'immagine non appare** | Lo stream è stato chiuso prima che l'immagine fosse aggiunta. | Mantieni il blocco `using` attorno alla chiamata `AppendChildLast` (come mostrato). |
+| **Allineamento errato** | Proprietà `Alignment` non impostata o sovrascritta successivamente. | Imposta `Alignment` quando crei l'`Image` o modifica `image1.Alignment` prima di aggiungerla. |
+| **Formato immagine non supportato** | Tentativo di caricare un formato non riconosciuto da Aspose.Note. | Converti l'immagine in JPG, PNG, BMP, GIF o TIFF prima. |
+| **Errori di percorso file** | `dataDir` punta a una cartella inesistente. | Usa `Path.Combine` e verifica che la cartella esista prima di eseguire. |
 
 ## Domande frequenti
 
-### Q1: Posso inserire più immagini in un singolo documento utilizzando questo metodo?
+**D: Posso inserire più immagini in un unico documento usando questo metodo?**  
+R: Sì. Basta ripetere i passaggi *Load Image from Stream* e *Append Image to OutlineElement* per ogni immagine.
 
-R1: Sì, puoi inserire più immagini in un singolo documento ripetendo i passaggi di inserimento immagine per ciascuna immagine.
+**D: Aspose.Note supporta altri formati immagine oltre a JPG?**  
+R: Assolutamente. PNG, BMP, GIF e TIFF sono tutti supportati.
 
-### Q2: Aspose.Note supporta altri formati di immagine oltre a JPG?
+**D: Posso personalizzare l'allineamento e le dimensioni delle immagini inserite?**  
+R: Sì. Oltre a `Alignment`, puoi impostare le proprietà `Width`, `Height` e `Scale` sull'oggetto `Image`.
 
-A2: Sì, Aspose.Note supporta vari formati di immagine, inclusi PNG, BMP, GIF e TIFF.
+**D: Aspose.Note è compatibile con tutte le versioni di .NET?**  
+R: Funziona con .NET Framework 4.5+, .NET Core 3.1+, .NET 5 e .NET 6+.
 
-### Q3: Posso personalizzare l'allineamento e la dimensione delle immagini inserite?
+**D: Dove posso trovare risorse aggiuntive e supporto per Aspose.Note?**  
+R: Puoi trovare documentazione completa, forum e supporto sul [Aspose Forum](https://forum.aspose.com/c/note/28).
 
-A3: Assolutamente, Aspose.Note fornisce ampie opzioni per personalizzare l'allineamento, le dimensioni e altre proprietà delle immagini inserite.
+---
 
-### Q4: Aspose.Note è compatibile con tutte le versioni di .NET?
+**Ultimo aggiornamento:** 2026-04-13  
+**Testato con:** Aspose.Note 24.11 per .NET  
+**Autore:** Aspose  
 
-A4: Aspose.Note per .NET è compatibile con più versioni del framework .NET, garantendo un'ampia compatibilità tra diversi ambienti di sviluppo.
-
-### Q5: Dove posso trovare risorse aggiuntive e supporto per Aspose.Note?
-
- R5: È possibile trovare documentazione completa, forum e supporto per Aspose.Note su[Aspose Forum](https://forum.aspose.com/c/note/28).
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

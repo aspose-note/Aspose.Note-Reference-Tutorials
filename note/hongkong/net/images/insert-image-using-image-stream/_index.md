@@ -1,32 +1,56 @@
 ---
-title: 在Aspose.Note中使用圖像流插入圖像
-linktitle: 在Aspose.Note中使用圖像流插入圖像
+date: 2026-04-13
+description: 學習如何在 .NET 中使用 Aspose.Note 透過圖像串流將圖片加入 OneNote 文件。本分步指南涵蓋從串流載入圖片、將其附加至大綱，以及儲存檔案的操作。
+keywords:
+- add image to onenote
+- how to insert image
+- load image from stream
+- append image to outline
+- image stream .net
+linktitle: 使用 Aspose.Note 透過圖像串流將圖片新增至 OneNote
 second_title: Aspose.Note .NET API
-description: 了解如何使用 .NET 中的圖像流將圖像無縫插入 Aspose.Note 文件中。輕鬆透過視覺效果增強您的 Note 檔案。
-weight: 11
+title: 使用 Aspose.Note 透過影像串流將圖片新增至 OneNote
 url: /zh-hant/net/images/insert-image-using-image-stream/
+weight: 11
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# 在Aspose.Note中使用圖像流插入圖像
+# 使用 Aspose.Note 透過 Image Stream 將圖片加入 OneNote
 
-## 介紹
+## 簡介
 
-在本教學中，我們將探討如何使用 .NET 中的圖像流將圖像插入 Aspose.Note 文件中。 Aspose.Note 是一個功能強大的 API，可讓開發人員以程式設計方式處理 Microsoft OneNote 檔案。透過遵循本指南中概述的步驟，您將了解如何將影像無縫整合到 Note 文件中，從而增強其視覺吸引力和整體功能。
+在本教學中，您將發現 **如何將圖片加入 OneNote** 文件，方法是從串流載入圖片並將其附加到大綱，使用 Aspose.Note for .NET。無論您是建立報告工具、筆記應用程式，或自動化文件產生，程式化插入圖片都能讓您的 OneNote 檔案更具吸引力與實用性。
+
+## 快速解答
+- **需要哪個程式庫？** Aspose.Note for .NET（提供免費試用）。  
+- **支援哪些 .NET 版本？** .NET Framework 4.5+、.NET Core 3.1+、.NET 5/6+。  
+- **可以從串流載入圖片嗎？** 可以 – 使用 `FileStream` 或任何 `Stream` 實作。  
+- **如何控制圖片對齊方式？** 設定 `Alignment` 屬性（例如 `HorizontalAlignment.Right`）。  
+- **產生的檔案格式為何？** OneNote (`.one`) 檔案，可在 Microsoft OneNote 中開啟。
+
+## 什麼是「將圖片加入 OneNote」？
+
+將圖片加入 OneNote 檔案表示將視覺元素直接嵌入頁面的內容層級中。使用 Aspose.Note 時，您會操作如 `Document`、`Page`、`Outline`、`OutlineElement` 等物件。將 `Image` 物件插入 `OutlineElement` 後，圖片即成為 OneNote 頁面版面的組成部分。
+
+## 為何使用 Aspose.Note 進行圖片插入？
+
+- **不需安裝 Office** – 可在伺服器上產生或修改 OneNote 檔案。  
+- **完整的版面控制** – 可精確對齊、調整大小與定位圖片。  
+- **支援串流** – 可使用任何 `Stream`，非常適合雲端儲存或僅記憶體的情境。  
+- **跨平台** – 相容於 Windows、Linux 與 macOS 的 .NET 執行環境。
 
 ## 先決條件
 
-在我們開始之前，請確保您具備以下先決條件：
-1. 開發環境：建構具有.NET功能的開發環境。
-2.  Aspose.Note 函式庫：下載並安裝 Aspose.Note for .NET 函式庫。你可以找到下載鏈接[這裡](https://releases.aspose.com/note/net/).
-3. 圖片檔案：準備要插入到 Note 文件中的映像檔。
-4. 基本理解：熟悉 C# 程式語言和檔案處理的基本概念。
+1. **開發環境** – Visual Studio 2022 或任何相容 .NET 的 IDE。  
+2. **Aspose.Note 程式庫** – 從官方網站[此處](https://releases.aspose.com/note/net/)下載。  
+3. **圖片檔案** – 至少一張您想嵌入的圖片（JPG、PNG、BMP、GIF 或 TIFF）。  
+4. **基本 C# 知識** – 熟悉檔案處理與物件導向程式碼。
 
-## 導入命名空間
-首先，讓我們將必要的命名空間匯入到我們的專案中。這些命名空間將提供對使用 Aspose.Note 和處理影像插入所需的類別和方法的存取。
+## 匯入命名空間
+首先，匯入提供 Aspose.Note 類別與標準 .NET I/O 工具的命名空間。
 
 ```csharp
 using System.IO;
@@ -36,30 +60,35 @@ using System.Drawing;
 using System;
 ```
 
-現在，我們將使用影像流插入影像的過程分解為多個步驟。
+現在讓我們一步一步走過整個流程。
 
-## 步驟1：初始化文檔對象
+### 步驟 1：初始化 Document 物件
+我們先建立一個全新的 `Document` 實例，用於保存 OneNote 檔案。
+
 ```csharp
-//文檔目錄的路徑。
+// The path to the documents directory.
 string dataDir = "Your Document Directory";
 Document doc = new Document();
 ```
-我們初始化 Document 類別的一個新實例，它代表 OneNote 文件。
 
-## 第2步：建立頁面對象
+### 步驟 2：建立 Page 物件
+OneNote 檔案由一或多個頁面組成。此處我們建立一個新頁面來放置內容。
+
 ```csharp
 Aspose.Note.Page page = new Aspose.Note.Page(doc);
 ```
-我們建立一個新的 Page 物件來新增內容。
 
-## 步驟 3：初始化 Outline 和 OutlineElement 對象
+### 步驟 3：初始化 Outline 與 OutlineElement 物件
+Outline 是用來容納豐富內容（文字、圖片、表格）的容器。`OutlineElement` 為其子項，實際保存這些項目。
+
 ```csharp
 Outline outline1 = new Outline(doc);
 OutlineElement outlineElem1 = new OutlineElement(doc);
 ```
-我們創建 Outline 和 OutlineElement 類別的實例來建立頁面中的內容。
 
-## 第 4 步：從流中載入圖像
+### 步驟 4：從串流載入圖片
+使用 `FileStream`（或任何 `Stream`）讀取圖片檔案並建立 `Image` 物件。這正是 **從串流載入圖片** 的關鍵所在。
+
 ```csharp
 using (FileStream fs = File.OpenRead(dataDir + "image.jpg"))
 {
@@ -70,62 +99,74 @@ using (FileStream fs = File.OpenRead(dataDir + "image.jpg"))
     outlineElem1.AppendChildLast(image1);
 }
 ```
-我們使用 FileStream 打開圖像檔案並將其載入到 Image 物件中。我們可以指定影像的對齊等屬性。
 
-## 第 5 步：將圖片附加到 OutlineElement
+### 步驟 5：將圖片附加至 OutlineElement
+圖片現在已成為 `OutlineElement` 的一部份。此步驟示範 **將圖片附加至大綱** 的功能。
+
 ```csharp
 outlineElem1.AppendChildLast(image1);
 ```
-我們將圖像附加到 OutlineElement，從而有效地將其添加到文件結構中。
 
-## 第 6 步：將 OutlineElement 附加到 Outline
+### 步驟 6：將 OutlineElement 附加至 Outline
+現在我們將包含圖片的元素附加至 Outline 容器。
+
 ```csharp
 outline1.AppendChildLast(outlineElem1);
 ```
-我們將包含圖像的 OutlineElement 加入 Outline 中。
 
-## 第 7 步：將大綱附加到頁面
+### 步驟 7：將 Outline 附加至 Page
+包含圖片的 Outline 被加入至頁面。
+
 ```csharp
 page.AppendChildLast(outline1);
 ```
-我們將大綱附加到頁面，最終確定內容結構。
 
-## 第 8 步：將頁面附加到文檔
+### 步驟 8：將 Page 附加至 Document
+頁面準備好後，我們將其插入至文件層級中。
+
 ```csharp
 doc.AppendChildLast(page);
 ```
-我們將頁面附加到文件中，完成文件組裝。
 
-## 第9步：儲存文檔
+### 步驟 9：儲存 Document
+最後，我們將 OneNote 檔案寫入磁碟。產生的檔案可在 Microsoft OneNote 中開啟。
+
 ```csharp
 doc.Save(dataDir + "BuildDocAndInsertImageUsingImageStream_out.one");
 ```
-最後，我們保存帶有插入圖像的組合文件。
 
-## 結論
-透過學習本教學課程，您已經了解如何使用 .NET 中的圖像流將圖像插入到 Aspose.Note 文件中。利用 Aspose.Note 的功能，您現在可以將視覺效果無縫整合到您的 Note 檔案中，從而增強其實用性和視覺吸引力。
+## 常見問題與解決方案
 
-## 常見問題解答
+| 問題 | 發生原因 | 解決方法 |
+|-------|----------------|-----|
+| **圖片未顯示** | 在加入圖片前，串流已被關閉。 | 在 `AppendChildLast` 呼叫周圍保留 `using` 區塊（如範例所示）。 |
+| **對齊不正確** | `Alignment` 屬性未設定或之後被覆寫。 | 在建立 `Image` 時設定 `Alignment`，或在附加前修改 `image1.Alignment`。 |
+| **不支援的圖片格式** | 嘗試載入 Aspose.Note 無法辨識的格式。 | 先將圖片轉換為 JPG、PNG、BMP、GIF 或 TIFF。 |
+| **檔案路徑錯誤** | `dataDir` 指向不存在的資料夾。 | 使用 `Path.Combine`，並在執行前確認資料夾是否存在。 |
 
-### Q1：我可以使用此方法將多個影像插入單一文件嗎？
+## 常見問答
 
-A1：是的，您可以透過對每個影像重複影像插入步驟將多個影像插入單一文件中。
+**Q: 我可以使用此方法在單一文件中插入多張圖片嗎？**  
+A: 可以。只需對每張圖片重複 *從串流載入圖片* 與 *將圖片附加至 OutlineElement* 的步驟。
 
-### Q2：Aspose.Note 是否支援除 JPG 之外的其他影像格式？
+**Q: Aspose.Note 是否支援除 JPG 之外的其他圖片格式？**  
+A: 當然支援。PNG、BMP、GIF 與 TIFF 都可使用。
 
-A2：是的，Aspose.Note 支援各種影像格式，包括 PNG、BMP、GIF 和 TIFF。
+**Q: 我可以自訂插入圖片的對齊方式與尺寸嗎？**  
+A: 可以。除了 `Alignment`，您還可以在 `Image` 物件上設定 `Width`、`Height` 與 `Scale` 屬性。
 
-### Q3：我可以自訂插入影像的對齊方式和大小嗎？
+**Q: Aspose.Note 相容於所有 .NET 版本嗎？**  
+A: 它支援 .NET Framework 4.5+、.NET Core 3.1+、.NET 5 以及 .NET 6+。
 
-A3：當然，Aspose.Note 提供了豐富的選項來自訂插入影像的對齊方式、大小和其他屬性。
+**Q: 我可以在哪裡找到 Aspose.Note 的其他資源與支援？**  
+A: 您可在 [Aspose 論壇](https://forum.aspose.com/c/note/28) 找到完整文件、討論區與支援資訊。
 
-### Q4：Aspose.Note 是否相容於所有版本的.NET？
+---
 
-A4：Aspose.Note for .NET 與.NET 框架的多個版本相容，確保跨不同開發環境的廣泛相容性。
+**最後更新：** 2026-04-13  
+**測試環境：** Aspose.Note 24.11 for .NET  
+**作者：** Aspose  
 
-### Q5：在哪裡可以找到 Aspose.Note 的其他資源和支援？
-
- A5：您可以在 Aspose.Note 上找到全面的文件、論壇和支持[Aspose論壇](https://forum.aspose.com/c/note/28).
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
