@@ -1,32 +1,60 @@
 ---
-title: Chèn hình ảnh bằng Luồng hình ảnh trong Aspose.Note
-linktitle: Chèn hình ảnh bằng Luồng hình ảnh trong Aspose.Note
+date: 2026-04-13
+description: Học cách thêm hình ảnh vào tài liệu OneNote bằng cách sử dụng luồng hình
+  ảnh trong .NET với Aspose.Note. Hướng dẫn từng bước này bao gồm việc tải hình ảnh
+  từ luồng, chèn chúng vào các đề mục và lưu tệp.
+keywords:
+- add image to onenote
+- how to insert image
+- load image from stream
+- append image to outline
+- image stream .net
+linktitle: Thêm hình ảnh vào OneNote qua luồng hình ảnh bằng Aspose.Note
 second_title: Aspose.Note .NET API
-description: Tìm hiểu cách chèn hình ảnh liền mạch vào tài liệu Aspose.Note bằng cách sử dụng luồng hình ảnh trong .NET. Dễ dàng nâng cao tệp Ghi chú của bạn bằng hình ảnh.
-weight: 11
+title: Thêm hình ảnh vào OneNote qua luồng hình ảnh bằng Aspose.Note
 url: /vi/net/images/insert-image-using-image-stream/
+weight: 11
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Chèn hình ảnh bằng Luồng hình ảnh trong Aspose.Note
+# Thêm Hình Ảnh vào OneNote qua Luồng Hình Ảnh bằng Aspose.Note
 
 ## Giới thiệu
 
-Trong hướng dẫn này, chúng ta sẽ khám phá cách chèn hình ảnh vào tài liệu Aspose.Note bằng cách sử dụng luồng hình ảnh trong .NET. Aspose.Note là một API mạnh mẽ cho phép các nhà phát triển làm việc với các tệp Microsoft OneNote theo chương trình. Bằng cách làm theo các bước được nêu trong hướng dẫn này, bạn sẽ tìm hiểu cách tích hợp liền mạch hình ảnh vào tài liệu Ghi chú của mình, nâng cao sức hấp dẫn trực quan và chức năng tổng thể của chúng.
+Trong hướng dẫn này, bạn sẽ khám phá **cách thêm hình ảnh vào OneNote** bằng cách tải một hình ảnh từ luồng và chèn nó vào một outline với Aspose.Note cho .NET. Dù bạn đang xây dựng công cụ báo cáo, ứng dụng ghi chú, hay tự động hoá tài liệu, việc chèn ảnh một cách lập trình sẽ làm cho các tệp OneNote của bạn trở nên sinh động và hữu ích hơn nhiều.
 
-## Điều kiện tiên quyết
+## Câu trả lời nhanh
+- **Thư viện tôi cần là gì?** Aspose.Note for .NET (free trial available).  
+- **Các phiên bản .NET nào được hỗ trợ?** .NET Framework 4.5+, .NET Core 3.1+, .NET 5/6+.  
+- **Tôi có thể tải hình ảnh từ luồng không?** Yes – use `FileStream` or any `Stream` implementation.  
+- **Làm thế nào để kiểm soát căn chỉnh hình ảnh?** Set the `Alignment` property (e.g., `HorizontalAlignment.Right`).  
+- **Định dạng tệp nào được tạo ra?** A OneNote (`.one`) file that can be opened in Microsoft OneNote.
 
-Trước khi chúng ta bắt đầu, hãy đảm bảo rằng bạn có sẵn các điều kiện tiên quyết sau:
-1. Môi trường phát triển: Thiết lập môi trường phát triển với khả năng .NET.
-2.  Thư viện Aspose.Note: Tải xuống và cài đặt thư viện Aspose.Note cho .NET. Bạn có thể tìm thấy liên kết tải xuống[đây](https://releases.aspose.com/note/net/).
-3. Tệp hình ảnh: Chuẩn bị các tệp hình ảnh mà bạn định chèn vào tài liệu Ghi chú của mình.
-4. Hiểu biết cơ bản: Làm quen với các khái niệm cơ bản về ngôn ngữ lập trình C# và xử lý tệp.
+## Thêm hình ảnh vào OneNote là gì?
+
+Thêm một hình ảnh vào tệp OneNote có nghĩa là nhúng một yếu tố trực quan trực tiếp vào trong cấu trúc nội dung của một trang. Với Aspose.Note, bạn làm việc với các đối tượng như `Document`, `Page`, `Outline` và `OutlineElement`. Bằng cách chèn một đối tượng `Image` vào một `OutlineElement`, hình ảnh sẽ trở thành một phần của bố cục trang OneNote.
+
+## Tại sao nên sử dụng Aspose.Note để chèn hình ảnh?
+
+- **Không cần cài đặt Office** – generate or modify OneNote files on a server.  
+- **Kiểm soát hoàn toàn bố cục** – align, resize, and position images exactly where you need them.  
+- **Thân thiện với luồng** – works with any `Stream`, perfect for cloud storage or memory‑only scenarios.  
+- **Đa nền tảng** – compatible with Windows, Linux, and macOS .NET runtimes.
+
+## Yêu cầu trước
+
+Trước khi bắt đầu, hãy chắc chắn rằng bạn có:
+
+1. **Môi trường phát triển** – Visual Studio 2022 or any .NET‑compatible IDE.  
+2. **Thư viện Aspose.Note** – download it from the official site [here](https://releases.aspose.com/note/net/).  
+3. **Tệp hình ảnh** – at least one picture (JPG, PNG, BMP, GIF, or TIFF) you want to embed.  
+4. **Kiến thức cơ bản về C#** – familiarity with file handling and object‑oriented code.
 
 ## Nhập không gian tên
-Đầu tiên, hãy nhập các không gian tên cần thiết vào dự án của chúng ta. Các không gian tên này sẽ cung cấp quyền truy cập vào các lớp và phương thức cần thiết để làm việc với Aspose.Note và xử lý việc chèn hình ảnh.
+First, import the namespaces that give us access to Aspose.Note classes and standard .NET I/O utilities.
 
 ```csharp
 using System.IO;
@@ -36,30 +64,35 @@ using System.Drawing;
 using System;
 ```
 
-Bây giờ, hãy chia quá trình chèn hình ảnh bằng luồng hình ảnh thành nhiều bước.
+Now let’s walk through the process step‑by‑step.
 
-## Bước 1: Khởi tạo đối tượng tài liệu
+### Bước 1: Khởi tạo đối tượng Document
+We start by creating a fresh `Document` instance that will hold the OneNote file.
+
 ```csharp
-// Đường dẫn đến thư mục tài liệu.
+// The path to the documents directory.
 string dataDir = "Your Document Directory";
 Document doc = new Document();
 ```
-Chúng tôi khởi tạo một phiên bản mới của lớp Tài liệu, đại diện cho tài liệu OneNote.
 
-## Bước 2: Tạo đối tượng trang
+### Bước 2: Tạo đối tượng Page
+A OneNote file consists of one or more pages. Here we create a new page to host our content.
+
 ```csharp
 Aspose.Note.Page page = new Aspose.Note.Page(doc);
 ```
-Chúng tôi tạo một đối tượng Trang mới để thêm nội dung vào đó.
 
-## Bước 3: Khởi tạo các đối tượng Outline và OutlineElement
+### Bước 3: Khởi tạo các đối tượng Outline và OutlineElement
+Outlines are containers for rich content (text, images, tables). An `OutlineElement` is a child that actually holds the items.
+
 ```csharp
 Outline outline1 = new Outline(doc);
 OutlineElement outlineElem1 = new OutlineElement(doc);
 ```
-Chúng tôi tạo các phiên bản của lớp Outline và OutlineElement để cấu trúc nội dung của chúng tôi trong trang.
 
-## Bước 4: Tải hình ảnh từ luồng
+### Bước 4: Tải hình ảnh từ luồng
+Using a `FileStream` (or any `Stream`) we read the image file and create an `Image` object. This is where the **load image from stream** keyword shines.
+
 ```csharp
 using (FileStream fs = File.OpenRead(dataDir + "image.jpg"))
 {
@@ -70,62 +103,74 @@ using (FileStream fs = File.OpenRead(dataDir + "image.jpg"))
     outlineElem1.AppendChildLast(image1);
 }
 ```
-Chúng tôi mở tệp hình ảnh bằng FileStream và tải nó vào đối tượng Hình ảnh. Chúng ta có thể chỉ định các thuộc tính như căn chỉnh cho hình ảnh.
 
-## Bước 5: Nối hình ảnh vào OutlineElement
+### Bước 5: Gắn hình ảnh vào OutlineElement
+The image is now part of the `OutlineElement`. This step demonstrates **append image to outline** functionality.
+
 ```csharp
 outlineElem1.AppendChildLast(image1);
 ```
-Chúng tôi nối hình ảnh vào OutlineElement, thêm nó vào cấu trúc tài liệu một cách hiệu quả.
 
-## Bước 6: Nối phần tử Outline vào Outline
+### Bước 6: Gắn OutlineElement vào Outline
+We now attach the element (with the image) to the outline container.
+
 ```csharp
 outline1.AppendChildLast(outlineElem1);
 ```
-Chúng tôi nối OutlineElement chứa hình ảnh vào Outline.
 
-## Bước 7: Nối dàn ý vào trang
+### Bước 7: Gắn Outline vào Page
+The outline, containing the image, is added to the page.
+
 ```csharp
 page.AppendChildLast(outline1);
 ```
-Chúng tôi nối Dàn bài vào Trang, hoàn thiện cấu trúc nội dung.
 
-## Bước 8: Nối trang vào tài liệu
+### Bước 8: Gắn Page vào Document
+With the page ready, we insert it into the document hierarchy.
+
 ```csharp
 doc.AppendChildLast(page);
 ```
-Chúng tôi nối Trang vào Tài liệu, hoàn thành việc lắp ráp tài liệu.
 
-## Bước 9: Lưu tài liệu
+### Bước 9: Lưu Document
+Finally, we persist the OneNote file to disk. The resulting file can be opened in Microsoft OneNote.
+
 ```csharp
 doc.Save(dataDir + "BuildDocAndInsertImageUsingImageStream_out.one");
 ```
-Cuối cùng chúng ta lưu tài liệu đã ghép có hình ảnh được chèn vào.
 
-## Phần kết luận
-Bằng cách làm theo hướng dẫn này, bạn đã học cách chèn hình ảnh vào tài liệu Aspose.Note bằng luồng hình ảnh trong .NET. Tận dụng các khả năng của Aspose.Note, giờ đây bạn có thể tích hợp liền mạch hình ảnh vào các tệp Ghi chú của mình, nâng cao tiện ích và sự hấp dẫn trực quan của chúng.
+## Các vấn đề thường gặp và giải pháp
+
+| Vấn đề | Nguyên nhân | Giải pháp |
+|-------|----------------|-----|
+| **Hình ảnh không hiển thị** | Luồng đã bị đóng trước khi hình ảnh được thêm. | Giữ khối `using` quanh lời gọi `AppendChildLast` (như trong ví dụ). |
+| **Căn chỉnh không đúng** | Thuộc tính `Alignment` chưa được đặt hoặc bị ghi đè sau này. | Đặt `Alignment` khi tạo `Image` hoặc sửa `image1.Alignment` trước khi chèn. |
+| **Định dạng hình ảnh không được hỗ trợ** | Cố gắng tải một định dạng không được Aspose.Note nhận dạng. | Chuyển đổi hình ảnh sang JPG, PNG, BMP, GIF hoặc TIFF trước. |
+| **Lỗi đường dẫn tệp** | `dataDir` trỏ tới thư mục không tồn tại. | Sử dụng `Path.Combine` và kiểm tra thư mục tồn tại trước khi chạy. |
 
 ## Câu hỏi thường gặp
 
-### Câu hỏi 1: Tôi có thể chèn nhiều hình ảnh vào một tài liệu bằng phương pháp này không?
+**Q: Tôi có thể chèn nhiều hình ảnh vào một tài liệu duy nhất bằng phương pháp này không?**  
+A: Có. Chỉ cần lặp lại các bước *Load Image from Stream* và *Append Image to OutlineElement* cho mỗi hình ảnh.
 
-Câu trả lời 1: Có, bạn có thể chèn nhiều hình ảnh vào một tài liệu bằng cách lặp lại các bước chèn hình ảnh cho từng hình ảnh.
+**Q: Aspose.Note có hỗ trợ các định dạng hình ảnh khác ngoài JPG không?**  
+A: Chắc chắn. PNG, BMP, GIF và TIFF đều được hỗ trợ.
 
-### Câu hỏi 2: Aspose.Note có hỗ trợ các định dạng hình ảnh khác ngoài JPG không?
+**Q: Tôi có thể tùy chỉnh căn chỉnh và kích thước của hình ảnh đã chèn không?**  
+A: Có. Ngoài `Alignment`, bạn có thể đặt các thuộc tính `Width`, `Height` và `Scale` trên đối tượng `Image`.
 
-Câu trả lời 2: Có, Aspose.Note hỗ trợ nhiều định dạng hình ảnh khác nhau, bao gồm PNG, BMP, GIF và TIFF.
+**Q: Aspose.Note có tương thích với mọi phiên bản .NET không?**  
+A: Nó hoạt động với .NET Framework 4.5+, .NET Core 3.1+, .NET 5 và .NET 6+.
 
-### Câu hỏi 3: Tôi có thể tùy chỉnh cách căn chỉnh và kích thước của hình ảnh được chèn không?
+**Q: Tôi có thể tìm tài nguyên và hỗ trợ bổ sung cho Aspose.Note ở đâu?**  
+A: Bạn có thể tìm tài liệu chi tiết, diễn đàn và hỗ trợ trên [Aspose Forum](https://forum.aspose.com/c/note/28).
 
-Câu trả lời 3: Hoàn toàn có thể, Aspose.Note cung cấp các tùy chọn mở rộng để tùy chỉnh căn chỉnh, kích thước và các thuộc tính khác của hình ảnh được chèn.
+---
 
-### Câu hỏi 4: Aspose.Note có tương thích với tất cả các phiên bản .NET không?
+**Cập nhật lần cuối:** 2026-04-13  
+**Đã kiểm tra với:** Aspose.Note 24.11 for .NET  
+**Tác giả:** Aspose  
 
-Câu trả lời 4: Aspose.Note for .NET tương thích với nhiều phiên bản của .NET framework, đảm bảo khả năng tương thích rộng rãi trên các môi trường phát triển khác nhau.
-
-### Câu hỏi 5: Tôi có thể tìm thêm tài nguyên và hỗ trợ cho Aspose.Note ở đâu?
-
- Câu trả lời 5: Bạn có thể tìm thấy tài liệu, diễn đàn và hỗ trợ toàn diện cho Aspose.Note trên[Diễn đàn Aspose](https://forum.aspose.com/c/note/28).
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

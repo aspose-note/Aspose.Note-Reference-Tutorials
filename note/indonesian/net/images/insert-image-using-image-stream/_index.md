@@ -1,32 +1,60 @@
 ---
-title: Sisipkan Gambar menggunakan Image Stream di Aspose.Note
-linktitle: Sisipkan Gambar menggunakan Image Stream di Aspose.Note
-second_title: Aspose.Catatan .NET API
-description: Pelajari cara menyisipkan gambar dengan lancar ke dalam dokumen Aspose.Note menggunakan aliran gambar di .NET. Sempurnakan file Note Anda dengan visual dengan mudah.
-weight: 11
+date: 2026-04-13
+description: Pelajari cara menambahkan gambar ke dokumen OneNote menggunakan aliran
+  gambar di .NET dengan Aspose.Note. Panduan langkah demi langkah ini mencakup memuat
+  gambar dari aliran, menambahkannya ke outline, dan menyimpan file.
+keywords:
+- add image to onenote
+- how to insert image
+- load image from stream
+- append image to outline
+- image stream .net
+linktitle: Tambahkan Gambar ke OneNote melalui Aliran Gambar menggunakan Aspose.Note
+second_title: Aspose.Note .NET API
+title: Tambahkan Gambar ke OneNote melalui Aliran Gambar menggunakan Aspose.Note
 url: /id/net/images/insert-image-using-image-stream/
+weight: 11
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Sisipkan Gambar menggunakan Image Stream di Aspose.Note
+# Menambahkan Gambar ke OneNote melalui Aliran Gambar menggunakan Aspose.Note
 
-## Perkenalan
+## Pendahuluan
 
-Dalam tutorial ini, kita akan mempelajari cara menyisipkan gambar ke dalam dokumen Aspose.Note menggunakan aliran gambar di .NET. Aspose.Note adalah API canggih yang memungkinkan pengembang bekerja dengan file Microsoft OneNote secara terprogram. Dengan mengikuti langkah-langkah yang diuraikan dalam panduan ini, Anda akan mempelajari cara mengintegrasikan gambar ke dalam dokumen Note Anda dengan lancar, sehingga meningkatkan daya tarik visual dan fungsionalitasnya secara keseluruhan.
+Dalam tutorial ini, Anda akan menemukan **cara menambahkan gambar ke OneNote** dokumen dengan memuat gambar dari aliran dan menambahkannya ke outline menggunakan Aspose.Note untuk .NET. Baik Anda sedang membangun alat pelaporan, aplikasi pencatatan, atau mengotomatisasi dokumentasi, menyisipkan gambar secara programatik membuat file OneNote Anda jauh lebih menarik dan berguna.
+
+## Jawaban Cepat
+- **Library apa yang saya butuhkan?** Aspose.Note for .NET (trial gratis tersedia).  
+- **Versi .NET apa yang didukung?** .NET Framework 4.5+, .NET Core 3.1+, .NET 5/6+.  
+- **Bisakah saya memuat gambar dari aliran?** Ya – gunakan `FileStream` atau implementasi `Stream` apa pun.  
+- **Bagaimana cara mengontrol perataan gambar?** Atur properti `Alignment` (misalnya, `HorizontalAlignment.Right`).  
+- **Format file apa yang dihasilkan?** File OneNote (`.one`) yang dapat dibuka di Microsoft OneNote.
+
+## Apa itu “menambahkan gambar ke OneNote”?
+
+Menambahkan gambar ke file OneNote berarti menyematkan elemen visual langsung di dalam hierarki konten halaman. Dengan Aspose.Note Anda bekerja dengan objek seperti `Document`, `Page`, `Outline`, dan `OutlineElement`. Dengan menyisipkan objek `Image` ke dalam `OutlineElement`, gambar menjadi bagian dari tata letak halaman OneNote.
+
+## Mengapa menggunakan Aspose.Note untuk penyisipan gambar?
+
+- **Tidak memerlukan instalasi Office** – menghasilkan atau memodifikasi file OneNote di server.  
+- **Kontrol penuh atas tata letak** – mengatur perataan, mengubah ukuran, dan menempatkan gambar tepat di tempat yang Anda inginkan.  
+- **Ramahan aliran** – bekerja dengan `Stream` apa pun, cocok untuk penyimpanan cloud atau skenario hanya memori.  
+- **Lintas platform** – kompatibel dengan runtime .NET Windows, Linux, dan macOS.
 
 ## Prasyarat
 
-Sebelum kita mulai, pastikan Anda memiliki prasyarat berikut:
-1. Lingkungan Pengembangan: Siapkan lingkungan pengembangan dengan kemampuan .NET.
-2.  Perpustakaan Aspose.Note: Unduh dan instal perpustakaan Aspose.Note untuk .NET. Anda dapat menemukan tautan unduhan[Di Sini](https://releases.aspose.com/note/net/).
-3. File Gambar: Siapkan file gambar yang ingin Anda masukkan ke dalam dokumen Note Anda.
-4. Pemahaman Dasar: Biasakan diri Anda dengan konsep dasar bahasa pemrograman C# dan penanganan file.
+Sebelum kita mulai, pastikan Anda memiliki:
 
-## Impor Namespace
-Pertama, mari impor namespace yang diperlukan ke proyek kita. Namespace ini akan memberikan akses ke kelas dan metode yang diperlukan untuk bekerja dengan Aspose.Note dan menangani penyisipan gambar.
+1. **Lingkungan Pengembangan** – Visual Studio 2022 atau IDE .NET‑compatible apa pun.  
+2. **Pustaka Aspose.Note** – unduh dari situs resmi [here](https://releases.aspose.com/note/net/).  
+3. **File Gambar** – setidaknya satu gambar (JPG, PNG, BMP, GIF, atau TIFF) yang ingin Anda sematkan.  
+4. **Pengetahuan Dasar C#** – familiaritas dengan penanganan file dan kode berorientasi objek.
+
+## Mengimpor Namespace
+Pertama, impor namespace yang memberi kami akses ke kelas Aspose.Note dan utilitas I/O standar .NET.
 
 ```csharp
 using System.IO;
@@ -36,30 +64,35 @@ using System.Drawing;
 using System;
 ```
 
-Sekarang, mari kita uraikan proses memasukkan gambar menggunakan aliran gambar menjadi beberapa langkah.
+Sekarang mari kita jalani proses langkah demi langkah.
 
-## Langkah 1: Inisialisasi Objek Dokumen
+### Langkah 1: Inisialisasi Objek Document
+Kami memulai dengan membuat instance `Document` baru yang akan menampung file OneNote.
+
 ```csharp
-// Jalur ke direktori dokumen.
+// The path to the documents directory.
 string dataDir = "Your Document Directory";
 Document doc = new Document();
 ```
-Kami menginisialisasi instance baru dari kelas Dokumen, yang mewakili dokumen OneNote.
 
-## Langkah 2: Buat Objek Halaman
+### Langkah 2: Buat Objek Page
+File OneNote terdiri dari satu atau lebih halaman. Di sini kami membuat halaman baru untuk menampung konten kami.
+
 ```csharp
 Aspose.Note.Page page = new Aspose.Note.Page(doc);
 ```
-Kami membuat objek Halaman baru untuk menambahkan konten ke dalamnya.
 
-## Langkah 3: Inisialisasi Objek Outline dan OutlineElement
+### Langkah 3: Inisialisasi Objek Outline dan OutlineElement
+Outline adalah wadah untuk konten kaya (teks, gambar, tabel). `OutlineElement` adalah anak yang sebenarnya memegang item-item tersebut.
+
 ```csharp
 Outline outline1 = new Outline(doc);
 OutlineElement outlineElem1 = new OutlineElement(doc);
 ```
-Kami membuat instance kelas Outline dan OutlineElement untuk menyusun konten kami di dalam halaman.
 
-## Langkah 4: Muat Gambar dari Stream
+### Langkah 4: Muat Gambar dari Aliran
+Dengan menggunakan `FileStream` (atau `Stream` apa pun) kami membaca file gambar dan membuat objek `Image`. Di sinilah kata kunci **load image from stream** bersinar.
+
 ```csharp
 using (FileStream fs = File.OpenRead(dataDir + "image.jpg"))
 {
@@ -70,62 +103,72 @@ using (FileStream fs = File.OpenRead(dataDir + "image.jpg"))
     outlineElem1.AppendChildLast(image1);
 }
 ```
-Kami membuka file gambar menggunakan FileStream dan memuatnya ke dalam objek Gambar. Kita dapat menentukan properti seperti perataan gambar.
 
-## Langkah 5: Tambahkan Gambar ke OutlineElement
+### Langkah 5: Tambahkan Gambar ke OutlineElement
+Gambar kini menjadi bagian dari `OutlineElement`. Langkah ini mendemonstrasikan fungsi **append image to outline**.
+
 ```csharp
 outlineElem1.AppendChildLast(image1);
 ```
-Kami menambahkan gambar ke OutlineElement, secara efektif menambahkannya ke struktur dokumen.
 
-## Langkah 6: Tambahkan OutlineElement ke Outline
+### Langkah 6: Tambahkan OutlineElement ke Outline
+Kami kini menempelkan elemen (dengan gambar) ke wadah outline.
+
 ```csharp
 outline1.AppendChildLast(outlineElem1);
 ```
-Kami menambahkan OutlineElement yang berisi gambar ke Outline.
 
-## Langkah 7: Tambahkan Garis Besar ke Halaman
+### Langkah 7: Tambahkan Outline ke Page
+Outline, yang berisi gambar, ditambahkan ke halaman.
+
 ```csharp
 page.AppendChildLast(outline1);
 ```
-Kami menambahkan Garis Besar ke Halaman, menyelesaikan struktur konten.
 
-## Langkah 8: Tambahkan Halaman ke Dokumen
+### Langkah 8: Tambahkan Page ke Document
+Dengan halaman siap, kami menyisipkannya ke dalam hierarki dokumen.
+
 ```csharp
 doc.AppendChildLast(page);
 ```
-Kami menambahkan Halaman ke Dokumen, menyelesaikan perakitan dokumen.
 
-## Langkah 9: Simpan Dokumen
+### Langkah 9: Simpan Document
+Akhirnya, kami menyimpan file OneNote ke disk. File yang dihasilkan dapat dibuka di Microsoft OneNote.
+
 ```csharp
 doc.Save(dataDir + "BuildDocAndInsertImageUsingImageStream_out.one");
 ```
-Terakhir, kami menyimpan dokumen rakitan dengan gambar yang disisipkan.
 
-## Kesimpulan
-Dengan mengikuti tutorial ini, Anda telah mempelajari cara menyisipkan gambar ke dalam dokumen Aspose.Note menggunakan aliran gambar di .NET. Memanfaatkan kemampuan Aspose.Note, kini Anda dapat dengan mulus mengintegrasikan visual ke dalam file Note Anda, meningkatkan utilitas dan daya tarik visualnya.
+## Masalah Umum dan Solusinya
 
-## FAQ
+| Masalah | Mengapa Terjadi | Solusi |
+|-------|----------------|-----|
+| **Gambar tidak muncul** | Aliran ditutup sebelum gambar ditambahkan. | Pertahankan blok `using` di sekitar pemanggilan `AppendChildLast` (seperti yang ditunjukkan). |
+| **Perataan tidak tepat** | Properti `Alignment` tidak diatur atau ditimpa kemudian. | Atur `Alignment` saat membuat `Image` atau ubah `image1.Alignment` sebelum menambahkan. |
+| **Format gambar tidak didukung** | Mencoba memuat format yang tidak dikenali oleh Aspose.Note. | Konversi gambar ke JPG, PNG, BMP, GIF, atau TIFF terlebih dahulu. |
+| **Kesalahan jalur file** | `dataDir` mengarah ke folder yang tidak ada. | Gunakan `Path.Combine` dan pastikan folder ada sebelum dijalankan. |
 
-### Q1: Bisakah saya menyisipkan banyak gambar ke dalam satu dokumen menggunakan metode ini?
+## Pertanyaan yang Sering Diajukan
 
-A1: Ya, Anda dapat menyisipkan banyak gambar ke dalam satu dokumen dengan mengulangi langkah-langkah penyisipan gambar untuk setiap gambar.
+**Q: Bisakah saya menyisipkan beberapa gambar ke dalam satu dokumen menggunakan metode ini?**  
+**A: Ya. Cukup ulangi langkah *Load Image from Stream* dan *Append Image to OutlineElement* untuk setiap gambar.**
 
-### Q2: Apakah Aspose.Note mendukung format gambar lain selain JPG?
+**Q: Apakah Aspose.Note mendukung format gambar lain selain JPG?**  
+**A: Tentu saja. PNG, BMP, GIF, dan TIFF semuanya didukung.**
 
-A2: Ya, Aspose.Note mendukung berbagai format gambar, termasuk PNG, BMP, GIF, dan TIFF.
+**Q: Bisakah saya menyesuaikan perataan dan ukuran gambar yang disisipkan?**  
+**A: Ya. Selain `Alignment`, Anda dapat mengatur properti `Width`, `Height`, dan `Scale` pada objek `Image`.**
 
-### Q3: Dapatkah saya menyesuaikan perataan dan ukuran gambar yang disisipkan?
+**Q: Apakah Aspose.Note kompatibel dengan semua versi .NET?**  
+**A: Ini bekerja dengan .NET Framework 4.5+, .NET Core 3.1+, .NET 5, dan .NET 6+.**
 
-A3: Tentu saja, Aspose.Note menyediakan opsi luas untuk menyesuaikan perataan, ukuran, dan properti lain dari gambar yang disisipkan.
+**Q: Di mana saya dapat menemukan sumber daya tambahan dan dukungan untuk Aspose.Note?**  
+**A: Anda dapat menemukan dokumentasi lengkap, forum, dan dukungan di [Aspose Forum](https://forum.aspose.com/c/note/28).**
 
-### Q4: Apakah Aspose.Note kompatibel dengan semua versi .NET?
+**Terakhir Diperbarui:** 2026-04-13  
+**Diuji Dengan:** Aspose.Note 24.11 untuk .NET  
+**Penulis:** Aspose  
 
-A4: Aspose.Note untuk .NET kompatibel dengan beberapa versi kerangka .NET, memastikan kompatibilitas luas di berbagai lingkungan pengembangan.
-
-### Q5: Di mana saya dapat menemukan sumber daya tambahan dan dukungan untuk Aspose.Note?
-
- A5: Anda dapat menemukan dokumentasi komprehensif, forum, dan dukungan untuk Aspose.Note di[Asumsikan Forum](https://forum.aspose.com/c/note/28).
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

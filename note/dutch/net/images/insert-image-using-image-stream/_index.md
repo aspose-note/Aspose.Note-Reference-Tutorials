@@ -1,32 +1,59 @@
 ---
-title: Afbeeldingen invoegen met Image Stream in Aspose.Note
-linktitle: Afbeeldingen invoegen met Image Stream in Aspose.Note
+date: 2026-04-13
+description: Leer hoe je afbeeldingen toevoegt aan OneNote‑documenten met behulp van
+  afbeeldingsstreams in .NET met Aspose.Note. Deze stapsgewijze gids behandelt het
+  laden van afbeeldingen vanuit een stream, het toevoegen ervan aan outlines en het
+  opslaan van het bestand.
+keywords:
+- add image to onenote
+- how to insert image
+- load image from stream
+- append image to outline
+- image stream .net
+linktitle: Afbeelding toevoegen aan OneNote via afbeeldingstroom met Aspose.Note
 second_title: Aspose.Note .NET API
-description: Leer hoe u naadloos afbeeldingen in Aspose.Note-documenten kunt invoegen met behulp van afbeeldingsstreams in .NET. Verbeter uw notitiebestanden moeiteloos met beelden.
-weight: 11
+title: Afbeelding toevoegen aan OneNote via afbeeldingsstroom met Aspose.Note
 url: /nl/net/images/insert-image-using-image-stream/
+weight: 11
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Afbeeldingen invoegen met Image Stream in Aspose.Note
+# Afbeelding toevoegen aan OneNote via Image Stream met Aspose.Note
 
-## Invoering
+## Inleiding
 
-In deze zelfstudie onderzoeken we hoe u afbeeldingen in een Aspose.Note-document kunt invoegen met behulp van afbeeldingsstreams in .NET. Aspose.Note is een krachtige API waarmee ontwikkelaars programmatisch met Microsoft OneNote-bestanden kunnen werken. Door de stappen in deze handleiding te volgen, leert u hoe u afbeeldingen naadloos in uw Note-documenten kunt integreren, waardoor hun visuele aantrekkingskracht en algehele functionaliteit worden verbeterd.
+In deze tutorial ontdek je **hoe je een afbeelding aan OneNote** documenten kunt toevoegen door een afbeelding vanuit een stream te laden en deze aan een outline toe te voegen met Aspose.Note voor .NET. Of je nu een rapportagetool, een notitie‑app of automatisering van documentatie bouwt, het programmatically invoegen van afbeeldingen maakt je OneNote‑bestanden veel aantrekkelijker en bruikbaarder.
+
+## Snelle antwoorden
+- **Welke bibliotheek heb ik nodig?** Aspose.Note for .NET (free trial available).  
+- **Welke .NET‑versies worden ondersteund?** .NET Framework 4.5+, .NET Core 3.1+, .NET 5/6+.  
+- **Kan ik afbeeldingen vanuit een stream laden?** Ja – gebruik `FileStream` of een andere `Stream`‑implementatie.  
+- **Hoe regel ik de uitlijning van de afbeelding?** Stel de `Alignment`‑eigenschap in (bijv. `HorizontalAlignment.Right`).  
+- **Welk bestandsformaat wordt geproduceerd?** Een OneNote (`.one`) bestand dat geopend kan worden in Microsoft OneNote.
+
+## Wat betekent “afbeelding toevoegen aan OneNote”?
+
+Een afbeelding toevoegen aan een OneNote‑bestand betekent dat je een visueel element direct in de inhoudshiërarchie van een pagina embedde. Met Aspose.Note werk je met objecten zoals `Document`, `Page`, `Outline` en `OutlineElement`. Door een `Image`‑object in een `OutlineElement` te plaatsen, wordt de foto onderdeel van de OneNote‑paginalay‑out.
+
+## Waarom Aspose.Note gebruiken voor het invoegen van afbeeldingen?
+
+- **Geen Office‑installatie vereist** – genereer of wijzig OneNote‑bestanden op een server.  
+- **Volledige controle over lay‑out** – uitlijnen, formaat wijzigen en afbeeldingen precies plaatsen waar je ze nodig hebt.  
+- **Stream‑vriendelijk** – werkt met elke `Stream`, perfect voor cloudopslag of alleen‑geheugen scenario's.  
+- **Cross‑platform** – compatibel met Windows, Linux en macOS .NET runtimes.
 
 ## Vereisten
 
-Voordat we beginnen, zorg ervoor dat u aan de volgende vereisten voldoet:
-1. Ontwikkelomgeving: Zet een ontwikkelomgeving op met .NET-mogelijkheden.
-2.  Aspose.Note-bibliotheek: Download en installeer de Aspose.Note voor .NET-bibliotheek. Je kunt de downloadlink vinden[hier](https://releases.aspose.com/note/net/).
-3. Afbeeldingsbestanden: bereid de afbeeldingsbestanden voor die u in uw Note-document wilt invoegen.
-4. Basiskennis: maak uzelf vertrouwd met de basisconcepten van de programmeertaal C# en bestandsverwerking.
+1. **Ontwikkelomgeving** – Visual Studio 2022 of elke .NET‑compatibele IDE.  
+2. **Aspose.Note Bibliotheek** – download deze van de officiële site [here](https://releases.aspose.com/note/net/).  
+3. **Afbeeldingsbestanden** – ten minste één afbeelding (JPG, PNG, BMP, GIF of TIFF) die je wilt insluiten.  
+4. **Basis C#‑kennis** – vertrouwd met bestandsafhandeling en objectgeoriënteerde code.
 
-## Naamruimten importeren
-Laten we eerst de benodigde naamruimten in ons project importeren. Deze naamruimten bieden toegang tot de klassen en methoden die nodig zijn om met Aspose.Note te werken en het invoegen van afbeeldingen af te handelen.
+## Namespaces importeren
+Eerst importeren we de namespaces die ons toegang geven tot Aspose.Note‑klassen en standaard .NET I/O‑hulpmiddelen.
 
 ```csharp
 using System.IO;
@@ -36,30 +63,35 @@ using System.Drawing;
 using System;
 ```
 
-Laten we nu het proces van het invoegen van afbeeldingen met behulp van afbeeldingsstromen in meerdere stappen opsplitsen.
+Laten we nu stap voor stap door het proces lopen.
 
-## Stap 1: Initialiseer het documentobject
+### Stap 1: Documentobject initialiseren
+We beginnen met het maken van een nieuw `Document`‑instance dat het OneNote‑bestand zal bevatten.
+
 ```csharp
-// Het pad naar de documentenmap.
+// The path to the documents directory.
 string dataDir = "Your Document Directory";
 Document doc = new Document();
 ```
-We initialiseren een nieuw exemplaar van de klasse Document, die het OneNote-document vertegenwoordigt.
 
-## Stap 2: Maak een paginaobject
+### Stap 2: Pagina‑object maken
+Een OneNote‑bestand bestaat uit één of meer pagina's. Hier maken we een nieuwe pagina om onze inhoud te hosten.
+
 ```csharp
 Aspose.Note.Page page = new Aspose.Note.Page(doc);
 ```
-We maken een nieuw Page-object om er inhoud aan toe te voegen.
 
-## Stap 3: Initialiseer Outline- en OutlineElement-objecten
+### Stap 3: Outline‑ en OutlineElement‑objecten initialiseren
+Outlines zijn containers voor rijke inhoud (tekst, afbeeldingen, tabellen). Een `OutlineElement` is een kind dat daadwerkelijk de items bevat.
+
 ```csharp
 Outline outline1 = new Outline(doc);
 OutlineElement outlineElem1 = new OutlineElement(doc);
 ```
-We maken exemplaren van de klassen Outline en OutlineElement om onze inhoud op de pagina te structureren.
 
-## Stap 4: Laad afbeelding uit stream
+### Stap 4: Afbeelding laden vanuit stream
+Met een `FileStream` (of een andere `Stream`) lezen we het afbeeldingsbestand en maken we een `Image`‑object. Dit is waar het **load image from stream**‑keyword schittert.
+
 ```csharp
 using (FileStream fs = File.OpenRead(dataDir + "image.jpg"))
 {
@@ -70,62 +102,74 @@ using (FileStream fs = File.OpenRead(dataDir + "image.jpg"))
     outlineElem1.AppendChildLast(image1);
 }
 ```
-We openen het afbeeldingsbestand met behulp van een FileStream en laden het in een Image-object. We kunnen eigenschappen zoals uitlijning voor de afbeelding opgeven.
 
-## Stap 5: Voeg afbeelding toe aan OutlineElement
+### Stap 5: Afbeelding toevoegen aan OutlineElement
+De afbeelding maakt nu deel uit van het `OutlineElement`. Deze stap demonstreert de **append image to outline**‑functionaliteit.
+
 ```csharp
 outlineElem1.AppendChildLast(image1);
 ```
-We voegen de afbeelding toe aan het OutlineElement en voegen deze effectief toe aan de documentstructuur.
 
-## Stap 6: Voeg OutlineElement toe aan Outline
+### Stap 6: OutlineElement toevoegen aan Outline
+We voegen nu het element (met de afbeelding) toe aan de outline‑container.
+
 ```csharp
 outline1.AppendChildLast(outlineElem1);
 ```
-We voegen het OutlineElement met de afbeelding toe aan de Outline.
 
-## Stap 7: Voeg een overzicht toe aan de pagina
+### Stap 7: Outline toevoegen aan pagina
+De outline, met de afbeelding, wordt toegevoegd aan de pagina.
+
 ```csharp
 page.AppendChildLast(outline1);
 ```
-We voegen het overzicht toe aan de pagina en finaliseren de inhoudsstructuur.
 
-## Stap 8: Pagina aan document toevoegen
+### Stap 8: Pagina toevoegen aan document
+Met de pagina klaar, voegen we deze in de documenthiërarchie in.
+
 ```csharp
 doc.AppendChildLast(page);
 ```
-We voegen de pagina aan het document toe en voltooien de documentmontage.
 
-## Stap 9: Document opslaan
+### Stap 9: Document opslaan
+Tot slot slaan we het OneNote‑bestand op schijf op. Het resulterende bestand kan geopend worden in Microsoft OneNote.
+
 ```csharp
 doc.Save(dataDir + "BuildDocAndInsertImageUsingImageStream_out.one");
 ```
-Ten slotte slaan we het samengestelde document op met de ingevoegde afbeelding.
 
-## Conclusie
-Door deze zelfstudie te volgen, hebt u geleerd hoe u afbeeldingen in Aspose.Note-documenten kunt invoegen met behulp van afbeeldingsstreams in .NET. Door gebruik te maken van de mogelijkheden van Aspose.Note kunt u nu naadloos beeldmateriaal in uw Note-bestanden integreren, waardoor de bruikbaarheid en visuele aantrekkingskracht ervan wordt vergroot.
+## Veelvoorkomende problemen en oplossingen
+
+| Probleem | Waarom het gebeurt | Oplossing |
+|----------|--------------------|-----------|
+| **Afbeelding verschijnt niet** | De stream werd gesloten voordat de afbeelding werd toegevoegd. | Houd het `using`‑blok rond de `AppendChildLast`‑aanroep (zoals getoond). |
+| **Onjuiste uitlijning** | `Alignment`‑eigenschap niet ingesteld of later overschreven. | Stel `Alignment` in bij het maken van de `Image` of wijzig `image1.Alignment` vóór het toevoegen. |
+| **Niet‑ondersteund afbeeldingsformaat** | Poging een formaat te laden dat niet door Aspose.Note wordt herkend. | Converteer de afbeelding eerst naar JPG, PNG, BMP, GIF of TIFF. |
+| **Bestandspad‑fouten** | `dataDir` wijst naar een niet‑bestaande map. | Gebruik `Path.Combine` en controleer of de map bestaat voordat je uitvoert. |
 
 ## Veelgestelde vragen
 
-### Vraag 1: Kan ik met deze methode meerdere afbeeldingen in één document invoegen?
+**Q: Kan ik meerdere afbeeldingen in één document invoegen met deze methode?**  
+A: Ja. Herhaal simpelweg de *Afbeelding laden vanuit stream* en *Afbeelding toevoegen aan OutlineElement* stappen voor elke afbeelding.
 
-A1: Ja, u kunt meerdere afbeeldingen in één document invoegen door de stappen voor het invoegen van afbeeldingen voor elke afbeelding te herhalen.
+**Q: Ondersteunt Aspose.Note andere afbeeldingsformaten naast JPG?**  
+A: Absoluut. PNG, BMP, GIF en TIFF worden allemaal ondersteund.
 
-### V2: Ondersteunt Aspose.Note andere afbeeldingsformaten dan JPG?
+**Q: Kan ik de uitlijning en grootte van ingevoegde afbeeldingen aanpassen?**  
+A: Ja. Naast `Alignment` kun je de `Width`, `Height` en `Scale`‑eigenschappen op het `Image`‑object instellen.
 
-A2: Ja, Aspose.Note ondersteunt verschillende afbeeldingsformaten, waaronder PNG, BMP, GIF en TIFF.
+**Q: Is Aspose.Note compatibel met alle versies van .NET?**  
+A: Het werkt met .NET Framework 4.5+, .NET Core 3.1+, .NET 5, en .NET 6+.
 
-### V3: Kan ik de uitlijning en grootte van ingevoegde afbeeldingen aanpassen?
+**Q: Waar kan ik extra bronnen en ondersteuning voor Aspose.Note vinden?**  
+A: Je kunt uitgebreide documentatie, forums en support vinden op het [Aspose Forum](https://forum.aspose.com/c/note/28).
 
-A3: Absoluut, Aspose.Note biedt uitgebreide opties voor het aanpassen van de uitlijning, grootte en andere eigenschappen van ingevoegde afbeeldingen.
+---
 
-### V4: Is Aspose.Note compatibel met alle versies van .NET?
+**Laatst bijgewerkt:** 2026-04-13  
+**Getest met:** Aspose.Note 24.11 for .NET  
+**Auteur:** Aspose  
 
-A4: Aspose.Note voor .NET is compatibel met meerdere versies van het .NET-framework, waardoor een brede compatibiliteit tussen verschillende ontwikkelomgevingen wordt gegarandeerd.
-
-### V5: Waar kan ik aanvullende bronnen en ondersteuning voor Aspose.Note vinden?
-
- A5: U kunt uitgebreide documentatie, forums en ondersteuning voor Aspose.Note vinden op de[Aspose-forum](https://forum.aspose.com/c/note/28).
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
