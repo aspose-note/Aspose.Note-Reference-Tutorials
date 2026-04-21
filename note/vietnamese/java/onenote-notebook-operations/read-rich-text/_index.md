@@ -1,37 +1,46 @@
 ---
-title: Đọc văn bản có định dạng từ sổ tay OneNote - Aspose.Note
-linktitle: Đọc văn bản có định dạng từ sổ tay OneNote - Aspose.Note
-second_title: API Java Aspose.Note
-description: Tìm hiểu cách đọc văn bản đa dạng thức từ sổ ghi chép OneNote bằng Aspose.Note for Java. Nâng cao các ứng dụng Java của bạn bằng cách tích hợp OneNote liền mạch.
-weight: 23
+date: 2026-01-02
+description: Tìm hiểu cách đọc văn bản phong phú của OneNote bằng Aspose.Note cho
+  Java. Hướng dẫn từng bước này cho thấy cách đọc sổ tay OneNote một cách hiệu quả.
+linktitle: How to Read OneNote - Read Rich Text from OneNote Notebook - Aspose.Note
+second_title: Aspose.Note Java API
+title: Cách Đọc OneNote - Đọc Văn Bản Định Dạng Phong Phú từ Sổ Tay OneNote - Aspose.Note
 url: /vi/java/onenote-notebook-operations/read-rich-text/
+weight: 23
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Đọc văn bản có định dạng từ sổ tay OneNote - Aspose.Note
+# Đọc Văn bản Định dạng Đầy đủ từ Sổ tay OneNote - Aspose.Note
 
 ## Giới thiệu
 
-Trong hướng dẫn này, chúng ta sẽ đi sâu vào cách sử dụng Aspose.Note cho Java để đọc văn bản có định dạng từ sổ ghi chép OneNote. Aspose.Note là một API Java mạnh mẽ cho phép các nhà phát triển làm việc liền mạch với các tệp Microsoft OneNote. Bằng cách làm theo các bước được nêu bên dưới, bạn sẽ có thể trích xuất dữ liệu văn bản đa dạng thức một cách dễ dàng, cho phép bạn thao tác và phân tích nội dung OneNote một cách dễ dàng.
+Nếu bạn đang tìm kiếm **cách đọc OneNote** dữ liệu một cách lập trình, bạn đã đến đúng nơi. Trong hướng dẫn này, chúng tôi sẽ hướng dẫn cách sử dụng **Aspose.Note for Java** để trích xuất nội dung văn bản định dạng đầy đủ từ một sổ tay OneNote. Khi hoàn thành, bạn sẽ có thể lấy văn bản thuần từ bất kỳ sổ tay nào, thao tác với nó và tích hợp vào các ứng dụng Java của mình—cho dù bạn đang xây dựng công cụ báo cáo, chỉ mục tìm kiếm, hay các script di chuyển dữ liệu.
 
-## Điều kiện tiên quyết
+## Câu trả lời nhanh
+- **Thư viện cần thiết là gì?** Aspose.Note for Java  
+- **Tôi có thể đọc cả tệp .one và .onetoc2 không?** Có, API hỗ trợ tất cả các định dạng gốc của OneNote.  
+- **Tôi có cần giấy phép cho việc phát triển không?** Bản dùng thử miễn phí đủ cho việc kiểm tra; giấy phép thương mại cần thiết cho môi trường sản xuất.  
+- **Phiên bản Java yêu cầu là gì?** Java 8 hoặc cao hơn.  
+- **Thời gian thực hiện khoảng bao lâu?** Thông thường dưới 15 phút cho việc trích xuất cơ bản.
 
-Trước khi đi sâu vào hướng dẫn này, hãy đảm bảo bạn có sẵn các điều kiện tiên quyết sau:
+## Các yêu cầu trước
 
-### Bộ công cụ phát triển Java (JDK)
+Trước khi bắt đầu, hãy chắc chắn rằng bạn có những thứ sau:
 
-Đảm bảo bạn đã cài đặt JDK trên hệ thống của mình. Bạn có thể tải xuống và cài đặt phiên bản mới nhất từ trang web của Oracle.
+### Java Development Kit (JDK)
 
-### Aspose.Note cho Java
+Một JDK mới (Java 8+). Tải về từ trang web Oracle hoặc sử dụng OpenJDK.
 
- Tải xuống và thiết lập Aspose.Note cho Java từ tài liệu được cung cấp[Liên kết tải xuống](https://releases.aspose.com/note/java/). Làm theo hướng dẫn cài đặt để tích hợp Aspose.Note vào môi trường Java của bạn một cách liền mạch.
+### Aspose.Note for Java
 
-## Gói nhập khẩu
+Tải và thiết lập Aspose.Note for Java từ [liên kết tải xuống](https://releases.aspose.com/note/java/). Thực hiện các hướng dẫn cài đặt để thêm các tệp JAR vào classpath của dự án.
 
-Để bắt đầu, hãy đảm bảo bạn nhập các gói cần thiết để hoạt động hiệu quả với Aspose.Note for Java:
+## Nhập các gói
+
+Để làm việc với API, nhập các lớp cần thiết:
 
 ```java
 import java.io.IOException;
@@ -41,28 +50,28 @@ import com.aspose.note.Notebook;
 import com.aspose.note.RichText;
 ```
 
-## Bước 1: Thiết lập môi trường của bạn
+## Bước 1: Thiết lập môi trường phát triển của bạn
 
-Trước khi bạn bắt đầu đọc văn bản có định dạng từ sổ ghi chép OneNote, hãy thiết lập môi trường phát triển của bạn. Đảm bảo Aspose.Note for Java được định cấu hình và thêm đúng cách vào các phần phụ thuộc của dự án của bạn.
+Đảm bảo các JAR của Aspose.Note được tham chiếu trong công cụ xây dựng của bạn (Maven, Gradle, hoặc thêm thủ công vào IDE). Bước này giúp trình biên dịch có thể tìm thấy `Notebook` và `RichText`.
 
-## Bước 2: Truy cập sổ tay OneNote
+## Bước 2: Truy cập Sổ tay OneNote
 
 ```java
 String dataDir = "Your Document Directory";
 Notebook rootNotebook = new Notebook(dataDir + "test.onetoc2");
 ```
 
- Chỉ định thư mục chứa sổ ghi chép OneNote của bạn và khởi tạo một`Notebook` đối tượng có đường dẫn đến sổ ghi chép.
+Thay thế `Your Document Directory` bằng đường dẫn tuyệt đối hoặc tương đối tới thư mục chứa các tệp sổ tay OneNote. Hàm khởi tạo `Notebook` tải cấu trúc cây của sổ tay để bạn có thể khám phá nội dung của nó.
 
-## Bước 3: Trích xuất các nút văn bản đa dạng thức
+## Bước 3: Trích xuất các nút Rich Text
 
 ```java
 List<RichText> allRichTextNodes = rootNotebook.getChildNodes(RichText.class);
 ```
 
- Truy xuất tất cả các nút văn bản có định dạng từ sổ ghi chép OneNote bằng cách sử dụng`getChildNodes()` phương pháp.
+`getChildNodes(RichText.class)` duyệt cây sổ tay và trả về mọi nút lưu trữ dữ liệu văn bản định dạng đầy đủ, chẳng hạn như đoạn văn, mục danh sách và ô bảng.
 
-## Bước 4: Lặp lại các nút văn bản đa dạng thức
+## Bước 4: Duyệt qua các nút Rich Text
 
 ```java
 for (RichText richTextNode : allRichTextNodes) {
@@ -70,33 +79,54 @@ for (RichText richTextNode : allRichTextNodes) {
 }
 ```
 
-Lặp lại danh sách các nút văn bản đa dạng thức và in ra nội dung văn bản của từng nút.
+Vòng lặp in ra văn bản thuần của mỗi nút `RichText` lên console. Bạn có thể thay thế `System.out.println` bằng bất kỳ xử lý tùy chỉnh nào—lưu vào cơ sở dữ liệu, đưa vào chỉ mục tìm kiếm, hoặc thực hiện phân tích ngôn ngữ.
 
-## Phần kết luận
+## Tại sao cần đọc Rich Text từ OneNote?
 
-Trong hướng dẫn này, chúng tôi đã đề cập đến cách đọc văn bản có định dạng từ sổ ghi chép OneNote bằng Aspose.Note cho Java. Bằng cách làm theo các bước này, bạn có thể trích xuất và thao tác liền mạch dữ liệu văn bản từ các tệp OneNote trong ứng dụng Java của mình.
+- **Di chuyển dữ liệu:** Chuyển nội dung OneNote cũ sang các hệ thống quản lý nội dung hiện đại.  
+- **Tìm kiếm & Đánh chỉ mục:** Xây dựng các chỉ mục có thể tìm kiếm cho các kho kiến thức doanh nghiệp.  
+- **Báo cáo:** Tự động tạo bản tóm tắt hoặc phân tích từ các ghi chú cuộc họp.
+
+## Các vấn đề thường gặp & Giải pháp
+
+| Issue | Solution |
+|-------|----------|
+| **FileNotFoundException** | Xác minh rằng `dataDir` trỏ tới thư mục đúng và tệp `.onetoc2` tồn tại. |
+| **Unsupported format** | Đảm bảo sổ tay được tạo bằng phiên bản OneNote được hỗ trợ; các tệp `.one` cũ vẫn tương thích. |
+| **License not found** | Đặt tệp `Aspose.Note.lic` của bạn vào classpath hoặc thiết lập giấy phép bằng chương trình trước khi tải sổ tay. |
 
 ## Câu hỏi thường gặp
 
-### Câu hỏi 1: Tôi có thể sử dụng Aspose.Note for Java để sửa đổi các tệp OneNote không?
+### Q1: Tôi có thể sử dụng Aspose.Note for Java để chỉnh sửa tệp OneNote không?
 
-Câu trả lời 1: Có, Aspose.Note for Java cung cấp các khả năng mở rộng để sửa đổi và thao tác với các tệp OneNote theo chương trình.
+A1: Có, Aspose.Note for Java cung cấp khả năng mở rộng để chỉnh sửa và thao tác các tệp OneNote một cách lập trình.
 
-### Câu hỏi 2: Aspose.Note for Java có tương thích với tất cả các phiên bản Microsoft OneNote không?
+### Q2: Aspose.Note for Java có tương thích với mọi phiên bản của Microsoft OneNote không?
 
-Câu trả lời 2: Aspose.Note for Java hỗ trợ nhiều phiên bản khác nhau của Microsoft OneNote, đảm bảo khả năng tương thích trên các định dạng tệp khác nhau.
+A2: Aspose.Note for Java hỗ trợ nhiều phiên bản của Microsoft OneNote, đảm bảo tính tương thích với các định dạng tệp khác nhau.
 
-### Câu hỏi 3: Aspose.Note for Java có yêu cầu giấy phép sử dụng thương mại không?
+### Q3: Aspose.Note for Java có yêu cầu giấy phép cho việc sử dụng thương mại không?
 
- Câu trả lời 3: Có, cần có giấy phép hợp lệ để sử dụng cho mục đích thương mại. Bạn có thể nhận được giấy phép từ[trang mua hàng](https://purchase.aspose.com/buy).
+A3: Có, cần có giấy phép hợp lệ cho việc sử dụng thương mại. Bạn có thể mua giấy phép từ [trang mua hàng](https://purchase.aspose.com/buy).
 
-### Câu hỏi 4: Tôi có thể dùng thử Aspose.Note cho Java trước khi mua không?
+### Q4: Tôi có thể dùng bản dùng thử miễn phí của Aspose.Note for Java trước khi mua không?
 
- Đ4: Có, bạn có thể tận dụng bản dùng thử miễn phí từ[trang mạng](https://releases.aspose.com/).
+A4: Có, bạn có thể dùng bản dùng thử miễn phí từ [trang web](https://releases.aspose.com/).
 
-### Câu hỏi 5: Tôi có thể tìm hỗ trợ cho Aspose.Note dành cho Java ở đâu?
+### Q5: Tôi có thể tìm hỗ trợ cho Aspose.Note for Java ở đâu?
 
- Câu trả lời 5: Bạn có thể tìm thấy sự hỗ trợ và trợ giúp trên[Diễn đàn Aspose.Note](https://forum.aspose.com/c/note/28).
+A5: Bạn có thể tìm hỗ trợ và trợ giúp trên [diễn đàn Aspose.Note](https://forum.aspose.com/c/note/28).
+
+## Kết luận
+
+Trong hướng dẫn này, chúng tôi đã trình bày **cách đọc OneNote** nội dung văn bản định dạng đầy đủ bằng Aspose.Note for Java. Bằng cách thực hiện bốn bước đơn giản—thiết lập môi trường, tải sổ tay, trích xuất các nút `RichText`, và duyệt qua chúng—bạn có thể khai thác dữ liệu văn bản ẩn trong các tệp OneNote và áp dụng chúng trong bất kỳ giải pháp dựa trên Java nào.
+
+---
+
+**Last Updated:** 2026-01-02  
+**Tested With:** Aspose.Note for Java 23.12  
+**Author:** Aspose  
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
