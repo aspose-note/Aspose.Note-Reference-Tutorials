@@ -15,36 +15,36 @@ weight: 15
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# convert onenote to pdf – Jegyzetfüzet konvertálása PDF‑be a OneNote‑ban
+# onenote konvertálása pdf-be – Jegyzetfüzet konvertálása PDF-be a OneNote-ban
 
-## Introduction
+## Bevezetés
 
-Ebben az útmutatóban végigvezetünk a **how to convert onenote to pdf** folyamaton az Aspose.Note for Java használatával. Az Aspose.Note egy erőteljes könyvtár, amely lehetővé teszi a Microsoft OneNote fájlok programozott kezelését, így automatizálhatók olyan feladatok, mint az onenote mentése pdf‑ként, pdf generálása onenote‑ból, és a .one pdf‑be konvertálása további feldolgozáshoz.
+Ebben az útmutatóban végigvezetünk a **how to convert onenote to pdf** folyamaton az Aspose.Note for Java használja. Az Aspose.Note egy könyvtár, amely lehetővé teszi a Microsoft OneNote fájlok programozott kezelését, így automatizálhatók olyan feladatok, mint az onenote mentése pdf‑ként, pdf generálása onenote‑ból, és a .one pdf‑be konvertálása további feldolgozáshoz.
 
-## Quick Answers
-- **What does this tutorial cover?** OneNote jegyzetfüzet (.one) PDF fájlba konvertálása Aspose.Note for Java‑val.  
-- **Which library is required?** Aspose.Note for Java (ingyenes próba elérhető).  
-- **Do I need a license?** Licenc szükséges a termeléshez; a próba verzió fejlesztéshez és teszteléshez használható.  
-- **What Java version is supported?** Bármely JDK 8+ (a példában JDK 15 van).  
-- **Can I batch‑convert multiple notebooks?** Igen — a kódot egy ciklusba ágyazva több fájlt is feldolgozhat.
+## Gyors válaszok
+- **Mire vonatkozik ez az oktatóanyag?** OneNote jegyzetfüzet (.one) PDF fájlba konvertálása Aspose.Note for Java‑val.
+- **Melyik könyvtár szükséges?** Aspose.Note for Java (ingyenes próba elérhető).
+- **Szükségem van engedélyre?** Licenc szükséges a termeléshez; a próba verzió fejlesztéshez és teszteléshez használható.
+- **Milyen Java verzió támogatott?** Bármely JDK 8+ (a példában JDK 15 van).
+- **Can I batch‑convert multiple notebooks?** Igen—a kódot egy ciklusba ágyazva több fájlt is feldolgozhat.
 
-## What is “convert onenote to pdf”?
+## Mit jelent az „onenote konvertálása pdf-be”?
 A OneNote PDF‑be konvertálása azt jelenti, hogy egy `.one` jegyzetfüzet fájlt átalakítunk egy hordozható, nyomtatásra kész PDF dokumentummá. Ez hasznos a jegyzetek megosztásához olyan érintettekkel, akiknek nincs OneNote‑ja, archiváláshoz vagy a jegyzetek automatizált jelentésfolyamatokba való integrálásához.
 
-## Why generate PDF from OneNote?
-- **Universal access:** A PDF szinte minden eszközön és operációs rendszeren működik.  
-- **Preserves layout:** Minden kép, táblázat és formázás megmarad.  
-- **Compliance:** A PDF‑k könnyebben aláírhatók, titkosíthatók és tárolhatók szabályozási célokra.  
-- **Automation:** A konvertálási lépést beágyazhatja build‑szkriptekbe, webszolgáltatásokba vagy asztali eszközökbe.
+## Miért érdemes PDF-et létrehozni a OneNote-ból?
+- **Universal access:** A PDF szinte minden eszközön és operációs rendszeren működik.
+- **Elrendezés megőrzése:** Minden kép, táblázat és formázás megmarad.
+- **Compliance:** A PDF-k könnyebben aláírhatók, titkosíthatók és tárolhatók szabályozási célokra.
+- **Automatizálás:** A konvertálási lépést beágyazhatja build-szkriptekbe, webszolgáltatásokba vagy asztali eszközökbe.
 
-## Prerequisites
+## Előfeltételek
 
-1. **Java Development Kit (JDK)** – Győződjön meg róla, hogy a JDK telepítve van. Letöltheti a [Oracle weboldaláról](https://www.oracle.com/java/technologies/javase-jdk15-downloads.html).  
-2. **Aspose.Note for Java Library** – Töltse le a legújabb JAR‑t a [Aspose weboldaláról](https://releases.aspose.com/note/java/). Adja hozzá a JAR‑t a projekt osztályútvonalához.
+1. **Java Development Kit JDK)** – G újra meg róla, hogy a JDK telepítve van. Letöltheti a [Oracle weboldaláról](https://www.oracle.com/java/technologies/javase-jdk15-downloads.html).
+2. **Aspose.Note for Java Library** – Töltse le a legújabb JAR-t a [Aspose weboldaláról](https://releases.aspose.com/note/java/). Adja hozzá a JAR-t a projekt osztályútvonalához.
 
-## Import Packages
+## Csomagok importálása
 
-Első lépésként importálja a szükséges osztályokat, amelyek lehetővé teszik a OneNote dokumentumok és a PDF kimenet kezelését.
+Első lépésként a szükséges osztályokat, importként lehetővé teszi a OneNote dokumentumok és a PDF kimenet kezelését.
 
 ```java
 import java.io.IOException;
@@ -53,9 +53,9 @@ import com.aspose.note.Document;
 import com.aspose.note.PdfSaveOptions;
 ```
 
-## Step‑by‑Step Guide
+## Lépésről lépésre útmutató
 
-### Step 1: Load the Notebook Document
+### 1. lépés: A Jegyzetfüzet dokumentum betöltése
 
 Hozzon létre egy `Document` példányt, és mutassa a `.one` fájlra. Cserélje le a `"Your Document Directory"` értéket arra a mappára, amelyik a **Sample1.one** fájlt tartalmazza.
 
@@ -64,7 +64,7 @@ String dataDir = "Your Document Directory";
 Document oneFile = new Document(dataDir + "Sample1.one");
 ```
 
-### Step 2: Initialize PDF Save Options (Optional)
+### 2. lépés: PDF mentési beállítások inicializálása (opcionális)
 
 Ha finomhangolni szeretné a PDF kimenetet — például a képminőséget vagy a betűk beágyazását — hozzon létre egy `PdfSaveOptions` objektumot. Még ha az alapértelmezett beállításokkal is hagyja, ez egy kiindulópontot biztosít a későbbi testreszabásokhoz.
 
@@ -72,7 +72,7 @@ Ha finomhangolni szeretné a PDF kimenetet — például a képminőséget v
 PdfSaveOptions options = new PdfSaveOptions();
 ```
 
-### Step 3: Save the Document as PDF
+### 3. lépés: A dokumentum mentése PDF formátumban
 
 Hívja meg a `save` metódust, megadva a kívánt kimeneti útvonalat és az opciók objektumot. Ez a **convert onenote to pdf** művelet központi része.
 
@@ -80,7 +80,7 @@ Hívja meg a `save` metódust, megadva a kívánt kimeneti útvonalat és az opc
 oneFile.save(dataDir + "ConvertToPdf_out.pdf", options);
 ```
 
-### Step 4: Print Confirmation Message
+### 4. lépés: Megerősítő üzenet nyomtatása
 
 A visszajelzés segít ellenőrizni, hogy a konvertálás sikeres volt‑e, különösen kötegelt feladatok automatizálásakor.
 
@@ -88,40 +88,51 @@ A visszajelzés segít ellenőrizni, hogy a konvertálás sikeres volt‑e, kül
 System.out.println("File saved: " + dataDir + "ConvertToPdf_out.pdf");
 ```
 
-## Common Issues & Troubleshooting
+## Gyakori problémák és hibaelhárítás
 
-| Symptom | Likely Cause | Fix |
-|---------|--------------|-----|
-| **NullPointerException** when loading the file | Incorrect `dataDir` path or missing file | Verify the full path and ensure `Sample1.one` exists. |
-| **OutOfMemoryError** on large notebooks | Insufficient heap memory | Increase JVM heap (`-Xmx2g` or higher) or process pages in chunks. |
-| PDF missing images | PDF save options not configured for image handling | Set `options.setEmbedImages(true)` (requires Aspose.Note 22.9+). |
+| Tünet | Valószínű ok | Javítás |
 
-## Frequently Asked Questions
+---------|--------------|-----|
+| **NullPointerException** a fájl betöltésekor | Helytelen `dataDir` elérési út vagy hiányzó fájl | Ellenőrizze a teljes elérési utat, és győződjön meg arról, hogy a `Sample1.one` létezik. |
+| **OutOfMemoryError** nagy jegyzetfüzeteken | Nincs elegendő memória a heap memóriában | Növelje a JVM heap méretét (`-Xmx2g` vagy magasabb), vagy dolgozza fel az oldalakat darabokban. |
 
-**Q: Can I convert multiple notebook files to PDF in a single run?**  
-A: Yes, you can loop through a collection of `.one` files and apply the same conversion logic to each file.
+| Hiányzó képek a PDF-ből | A PDF mentési beállításai nincsenek konfigurálva a képkezeléshez | Állítsa be az `options.setEmbedImages(true)` értéket (Aspose.Note 22.9+ szükséges). |
 
-**Q: Are there any limitations on the size of the notebook files that can be converted?**  
-A: Aspose.Note doesn’t impose strict size limits, but very large notebooks will need more memory and may take longer to process.
+## Gyakran Ismételt Kérdések
 
-**Q: Does Aspose.Note support conversion to other formats besides PDF?**  
-A: Absolutely. You can generate images, HTML, or Microsoft Word documents directly from a OneNote notebook.
+**K: Konvertálhatok több jegyzetfüzetfájlt PDF-be egyetlen futtatással?**
 
-**Q: Is there a trial version available for Aspose.Note for Java?**  
-A: Yes, a fully functional trial can be downloaded from the Aspose website to evaluate the library before purchasing.
+V: Igen, végigfuthat `.one` fájlok gyűjteményén, és ugyanazt a konvertálási logikát alkalmazhatja minden fájlra.
 
-**Q: Where can I find more help and support for Aspose.Note for Java?**  
-A: Visit the [Aspose.Note forum](https://forum.aspose.com/c/note/28) for community assistance, sample code, and official support.
+**K: Vannak-e korlátozások a konvertálható jegyzetfüzetfájlok méretére vonatkozóan?**
+V: Az Aspose.Note nem szab szigorú méretkorlátokat, de a nagyon nagy jegyzetfüzeteknek több memóriára van szükségük, és a feldolgozásuk tovább tarthat.
 
-**Q: How do I **save onenote as pdf** with custom page size?**  
-A: Use `options.setPageSize(PdfPageSize.A4)` (or any other `PdfPageSize` enum) before calling `save`.
+**K: Az Aspose.Note támogatja a PDF-en kívüli más formátumokba való konvertálást?**
+V: Természetesen. Képeket, HTML-t vagy Microsoft Word-dokumentumokat közvetlenül a OneNote jegyzetfüzetből generálhat.
 
-**Q: Can I **generate pdf from onenote** without installing Microsoft Office?**  
-A: Yes, Aspose.Note is a pure Java library and does not require Office on the server.
+**K: Van próbaverzió az Aspose.Note for Java-hoz?**
+V: Igen, egy teljes funkcionalitású próbaverzió letölthető az Aspose webhelyéről, hogy a vásárlás előtt kiértékelhesse a könyvtárat.
 
-## Conclusion
+**K: Hol találok további segítséget és támogatást az Aspose.Note for Java-hoz?**
+V: Látogassa meg az [Aspose.Note fórumot](https://forum.aspose.com/c/note/28) közösségi segítségért, mintakódért és hivatalos támogatásért.
 
-Most már megtanulta, hogyan kell **convert onenote to pdf**, **save onenote as pdf**, és akár **convert .one to pdf** is az Aspose.Note for Java segítségével. A lépések követésével zökkenőmentesen integrálhatja a jegyzet‑PDF konvertálást alkalmazásaiba, automatizálhatja a jelentéskészítési munkafolyamatokat, és hordozható dokumentumokat szállíthat a végfelhasználóknak.
+**K: Hogyan **menthetem el a OneNote-ot PDF-ként** egyéni oldalmérettel?**
+V: Használja az `options.setPageSize(PdfPageSize.A4)` (vagy bármely más `PdfPageSize` felsorolást) parancsot a `save` meghívása előtt.
+
+**K: Generálhatok **pdf-et OneNote-ból** a Microsoft Office telepítése nélkül?**
+V: Igen, az Aspose.Note egy tiszta Java könyvtár, és nem igényel Office-t a szerveren.
+
+## Konklúzió
+
+A legtöbb már megtanulta, hogyan kell **convert onenote to pdf**, **save onenote as pdf**, és akár **convert .one to pdf** az Aspose.Note Java segítségével. A lépések követésével zökkenőmentesen integrálhatja a jegyzet-PDF konvertálás alkalmazását, automatizálhatja a jelentéskészítési munkafolyamatokat, és hordozható dokumentumokat szállíthat a végfelhasználóknak.
+
+---
+
+**Utolsó frissítés:** 2026-01-02
+**Tesztelve:** Aspose.Note 24.12 for Java
+**Szerző:** Aspose  
+
+---
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
@@ -129,11 +140,3 @@ Most már megtanulta, hogyan kell **convert onenote to pdf**, **save onenote as 
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
-
----
-
-**Last Updated:** 2026-01-02  
-**Tested With:** Aspose.Note 24.12 for Java  
-**Author:** Aspose  
-
----

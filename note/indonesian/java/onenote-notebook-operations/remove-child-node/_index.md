@@ -133,13 +133,6 @@ J: Tidak secara langsung. Anda sebaiknya menyimpan cadangan notebook atau node s
 
 Dalam tutorial ini, kami telah menjelaskan **cara menghapus node** — khususnya sebuah node anak—dari Notebook OneNote menggunakan Aspose.Note untuk Java. Dengan hanya beberapa baris kode, Anda dapat mengotomatisasi pembersihan notebook, menegakkan struktur, dan mengintegrasikan manipulasi OneNote ke dalam pipeline pemrosesan dokumen yang lebih besar.
 
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}
-
 ---
 
 **Terakhir Diperbarui:** 2026-01-02  
@@ -147,3 +140,10 @@ Dalam tutorial ini, kami telah menjelaskan **cara menghapus node** — khusu
 **Penulis:** Aspose  
 
 ---
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

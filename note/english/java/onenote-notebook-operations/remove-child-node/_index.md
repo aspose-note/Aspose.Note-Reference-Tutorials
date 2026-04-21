@@ -131,13 +131,6 @@ A: Not directly. You should keep a backup of the notebook or the specific node b
 
 In this tutorial, we've walked through **how to remove node** — specifically a child node—from a OneNote Notebook using Aspose.Note for Java. With just a few lines of code, you can automate notebook cleanup, enforce structure, and integrate OneNote manipulation into larger document‑processing pipelines.
 
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}
-
 ---
 
 **Last Updated:** 2026-01-02  
@@ -145,3 +138,10 @@ In this tutorial, we've walked through **how to remove node** — specifical
 **Author:** Aspose  
 
 ---
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

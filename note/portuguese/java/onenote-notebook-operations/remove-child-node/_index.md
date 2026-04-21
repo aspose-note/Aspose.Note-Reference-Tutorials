@@ -133,13 +133,6 @@ R: Não diretamente. É recomendável manter um backup do caderno ou do nó espe
 
 Neste tutorial, percorremos **como remover um nó** — especificamente um nó filho—de um caderno OneNote usando o Aspose.Note para Java. Com apenas algumas linhas de código, você pode automatizar a limpeza de cadernos, impor estrutura e integrar a manipulação do OneNote em pipelines maiores de processamento de documentos.
 
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}
-
 ---
 
 **Última atualização:** 2026-01-02  
@@ -147,3 +140,10 @@ Neste tutorial, percorremos **como remover um nó** — especificamente um n
 **Autor:** Aspose  
 
 ---
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

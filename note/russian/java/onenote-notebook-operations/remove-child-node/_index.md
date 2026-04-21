@@ -133,13 +133,6 @@ notebook.save(dataDir);
 
 В этом руководстве мы рассмотрели, **как удалить узел** — а именно дочерний узел — из блокнота OneNote с помощью Aspose.Note для Java. Всего несколькими строками кода вы можете автоматизировать очистку блокнотов, поддерживать их структуру и интегрировать работу с OneNote в более крупные конвейеры обработки документов.
 
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}
-
 ---
 
 **Последнее обновление:** 2026-01-02  
@@ -147,3 +140,10 @@ notebook.save(dataDir);
 **Автор:** Aspose  
 
 ---
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

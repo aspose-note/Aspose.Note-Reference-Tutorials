@@ -134,13 +134,6 @@ V: Nem közvetlenül. Célszerű a jegyzetfüzet vagy a konkrét csomópont bizt
 
 Ebben az oktatóanyagban bemutattuk, **hogyan távolítsunk el egy csomópontot** — különösen egy gyermekcsomópontot — egy OneNote jegyzetfüzetből az Aspose.Note for Java használatával. Néhány kódsorral automatizálhatja a jegyzetfüzet takarítást, érvényesítheti a struktúrát, és integrálhatja a OneNote manipulációt nagyobb dokumentumfeldolgozó csővezetékekbe.
 
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}
-
 ---
 
 **Utoljára frissítve:** 2026-01-02  
@@ -148,3 +141,10 @@ Ebben az oktatóanyagban bemutattuk, **hogyan távolítsunk el egy csomópontot*
 **Szerző:** Aspose  
 
 ---
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

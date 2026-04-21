@@ -133,13 +133,6 @@ A: Nie bezpośrednio. Powinieneś zachować kopię zapasową notatnika lub konkr
 
 W tym samouczku przedstawiliśmy **jak usunąć węzeł** — konkretnie węzeł potomny — z notatnika OneNote przy użyciu Aspose.Note dla Javy. Kilka linijek kodu pozwala zautomatyzować czyszczenie notatników, wymusić ich strukturę i zintegrować manipulację OneNote z większymi pipeline'ami przetwarzania dokumentów.
 
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}
-
 ---
 
 **Ostatnia aktualizacja:** 2026-01-02  
@@ -147,3 +140,10 @@ W tym samouczku przedstawiliśmy **jak usunąć węzeł** — konkretnie wę
 **Autor:** Aspose  
 
 ---
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

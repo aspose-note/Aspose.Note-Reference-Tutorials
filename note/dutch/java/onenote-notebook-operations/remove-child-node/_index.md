@@ -134,15 +134,15 @@ A: Niet direct. Je moet een back‑up van het notebook of de specifieke node bew
 
 In deze tutorial hebben we stap voor stap laten zien **hoe je een node kunt verwijderen** — specifiek een child node—uit een OneNote Notebook met Aspose.Note voor Java. Met slechts een paar regels code kun je notebook‑opschoning automatiseren, structuur afdwingen en OneNote‑manipulatie integreren in grotere document‑verwerkingspijplijnen.
 
+---
+
+**Last Updated:** 2026-01-02  
+**Tested With:** Aspose.Note 24.11 for Java  
+**Author:** Aspose
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
-
----
-
-**Last Updated:** 2026-01-02  
-**Tested With:** Aspose.Note 24.11 for Java  
-**Author:** Aspose

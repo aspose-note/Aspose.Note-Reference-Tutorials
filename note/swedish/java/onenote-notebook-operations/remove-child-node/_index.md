@@ -133,15 +133,15 @@ A: Inte direkt. Du bör behålla en säkerhetskopia av anteckningsboken eller de
 
 I den här handledningen har vi gått igenom **hur man tar bort nod** — specifikt en underordnad nod—från en OneNote‑anteckningsbok med hjälp av Aspose.Note för Java. Med bara några rader kod kan du automatisera rensning av anteckningsböcker, upprätthålla struktur och integrera OneNote‑manipulation i större dokument‑bearbetningspipelines.
 
+---
+
+**Senast uppdaterad:** 2026-01-02  
+**Testad med:** Aspose.Note 24.11 for Java  
+**Författare:** Aspose
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
-
----
-
-**Senast uppdaterad:** 2026-01-02  
-**Testad med:** Aspose.Note 24.11 for Java  
-**Författare:** Aspose

@@ -122,13 +122,6 @@ R : Oui, Aspose.Note est une bibliothèque pure Java et ne nécessite pas Offi
 
 Vous avez maintenant appris comment **convertir onenote en pdf**, **enregistrer onenote en pdf**, et même **convertir .one en pdf** à l’aide d’Aspose.Note pour Java. En suivant ces étapes, vous pouvez intégrer sans effort la conversion de cahier en PDF dans vos applications, automatiser les flux de travail de reporting, et fournir des documents portables aux utilisateurs finaux.
 
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}
-
 ---
 
 **Dernière mise à jour :** 2026-01-02  
@@ -136,3 +129,10 @@ Vous avez maintenant appris comment **convertir onenote en pdf**, **enregistrer 
 **Auteur :** Aspose  
 
 ---
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -14,34 +14,34 @@ weight: 15
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# convert onenote to pdf – Convert Notebook to PDF in OneNote
+# convert onenote σε pdf – Μετατροπή Notebook σε PDF στο OneNote
 
-## Introduction
+## Εισαγωγή
 
 Σε αυτό το tutorial, θα δούμε **πώς να μετατρέψετε το onenote σε pdf** χρησιμοποιώντας το Aspose.Note for Java. Το Aspose.Note είναι μια ισχυρή βιβλιοθήκη που σας επιτρέπει να εργάζεστε προγραμματιστικά με αρχεία Microsoft OneNote, επιτρέποντας την αυτοματοποίηση εργασιών όπως η αποθήκευση onenote ως pdf, η δημιουργία pdf από onenote και η μετατροπή .one σε pdf για επεξεργασία downstream.
 
-## Quick Answers
-- **Τι καλύπτει αυτό το tutorial;** Μετατροπή ενός OneNote notebook (.one) σε αρχείο PDF με το Aspose.Note for Java.  
-- **Ποια βιβλιοθήκη απαιτείται;** Aspose.Note for Java (διατίθεται δωρεάν δοκιμαστική έκδοση).  
-- **Χρειάζομαι άδεια;** Απαιτείται άδεια για παραγωγική χρήση· η δοκιμαστική έκδοση λειτουργεί για ανάπτυξη και δοκιμές.  
-- **Ποια έκδοση Java υποστηρίζεται;** Οποιαδήποτε JDK 8+ (το παράδειγμα χρησιμοποιεί JDK 15).  
+## Γρήγορες απαντήσεις
+- **Τι καλύπτει αυτό το σεμινάριο;** Μετατροπή ενός σημειωματάριου OneNote (.one) σε αρχείο PDF με το Aspose.Note για Java.
+- **Ποια βιβλιοθήκη εργασίας;** Aspose.Note for Java (διατίθεται δωρεάν δοκιμαστική έκδοση).
+- **Χρειάζομαι άδεια;** Απαιτείται άδεια για παραγωγική χρήση· η δοκιμαστική έκδοση λειτουργεί για ανάπτυξη και δοκιμές.
+- **Ποια έκδοση Java υποστηρίζεται;** Οποιαδήποτε JDK 8+ (το παράδειγμα του JDK 15).
 - **Μπορώ να μετατρέψω μαζικά πολλά notebooks;** Ναι—τυλίξτε τον κώδικα σε βρόχο για επεξεργασία πολλαπλών αρχείων.
 
-## What is “convert onenote to pdf”?
+## Τι είναι η "μετατροπή onenote σε pdf";
 Η μετατροπή OneNote σε PDF σημαίνει ότι παίρνετε ένα αρχείο notebook `.one` και παράγετε ένα φορητό, έτοιμο για εκτύπωση έγγραφο PDF. Αυτό είναι χρήσιμο για την κοινή χρήση σημειώσεων με ενδιαφερόμενους που δεν διαθέτουν OneNote, την αρχειοθέτηση περιεχομένου ή την ενσωμάτωση σημειώσεων σε αυτοματοποιημένες ροές αναφοράς.
 
-## Why generate PDF from OneNote?
-- **Καθολική πρόσβαση:** Το PDF λειτουργεί σχεδόν σε κάθε συσκευή και λειτουργικό σύστημα.  
-- **Διατήρηση διάταξης:** Όλες οι εικόνες, πίνακες και μορφοποίηση παραμένουν.  
-- **Συμμόρφωση:** Τα PDF είναι πιο εύκολο να υπογραφούν, κρυπτογραφηθούν και αποθηκευτούν για κανονιστικούς σκοπούς.  
-- **Αυτοματοποίηση:** Μπορείτε να ενσωματώσετε το βήμα μετατροπής σε scripts build, web services ή desktop εργαλεία.
+## Γιατί να δημιουργήσετε PDF από το OneNote;
+- **Καθολική πρόσβαση:** Το PDF λειτουργεί σχεδόν σε κάθε συσκευή και λειτουργικό σύστημα.
+- **Διατήρηση διάταξης:** Όλες οι εικόνες, πίνακες και μορφοποίηση παραμένουν.
+- **Συμμόρφωση:** Το PDF είναι πιο εύκολο να υπογραφεί, να κρυπτογραφηθεί και να αποθηκευτεί για κανονιστικούς σκοπούς.
+- **Αυτοματοποίηση:** Μπορείτε να ενσωματώσετε το βήμα μετατροπής σε scripts build, web services ή desktop tools.
 
-## Prerequisites
+## Προαπαιτούμενα
 
-1. **Java Development Kit (JDK)** – Βεβαιωθείτε ότι το JDK είναι εγκατεστημένο. Μπορείτε να το κατεβάσετε από την [Oracle website](https://www.oracle.com/java/technologies/javase-jdk15-downloads.html).  
+1. **Java Development Kit (JDK)** – Βεβαιωθείτε ότι το JDK είναι εγκατεστημένο. Μπορείτε να κατεβάσετε από την [Oracle website](https://www.oracle.com/java/technologies/javase-jdk15-downloads.html).
 2. **Aspose.Note for Java Library** – Κατεβάστε το τελευταίο JAR από την [Aspose website](https://releases.aspose.com/note/java/). Προσθέστε το JAR στο classpath του έργου σας.
 
-## Import Packages
+## Εισαγωγή πακέτων
 
 Πρώτα, εισάγετε τις απαραίτητες κλάσεις που επιτρέπουν την εργασία με έγγραφα OneNote και έξοδο PDF.
 
@@ -52,9 +52,9 @@ import com.aspose.note.Document;
 import com.aspose.note.PdfSaveOptions;
 ```
 
-## Step‑by‑Step Guide
+## Οδηγός βήμα προς βήμα
 
-### Step 1: Load the Notebook Document
+### Βήμα 1: Φόρτωση του εγγράφου σημειωματάριου
 
 Δημιουργήστε ένα αντικείμενο `Document` και δείξτε το στο αρχείο `.one`. Αντικαταστήστε το `"Your Document Directory"` με το πραγματικό φάκελο που περιέχει το **Sample1.one**.
 
@@ -63,7 +63,7 @@ String dataDir = "Your Document Directory";
 Document oneFile = new Document(dataDir + "Sample1.one");
 ```
 
-### Step 2: Initialize PDF Save Options (Optional)
+### Βήμα 2: Αρχικοποίηση επιλογών αποθήκευσης PDF (Προαιρετικό)
 
 Αν χρειάζεται να ρυθμίσετε την έξοδο PDF—όπως την ποιότητα εικόνας ή την ενσωμάτωση γραμματοσειρών—δημιουργήστε ένα αντικείμενο `PdfSaveOptions`. Ακόμη και αν το αφήσετε με τις προεπιλεγμένες ρυθμίσεις, σας παρέχει ένα σημείο για μελλοντικές προσαρμογές.
 
@@ -71,7 +71,7 @@ Document oneFile = new Document(dataDir + "Sample1.one");
 PdfSaveOptions options = new PdfSaveOptions();
 ```
 
-### Step 3: Save the Document as PDF
+### Βήμα 3: Αποθήκευση του εγγράφου ως PDF
 
 Καλέστε τη μέθοδο `save`, περνώντας το επιθυμητό μονοπάτι εξόδου και το αντικείμενο επιλογών. Αυτό είναι η κύρια λειτουργία **convert onenote to pdf**.
 
@@ -79,7 +79,7 @@ PdfSaveOptions options = new PdfSaveOptions();
 oneFile.save(dataDir + "ConvertToPdf_out.pdf", options);
 ```
 
-### Step 4: Print Confirmation Message
+### Βήμα 4: Μήνυμα επιβεβαίωσης εκτύπωσης
 
 Η παροχή ανατροφοδότησης σας βοηθά να επαληθεύσετε ότι η μετατροπή ολοκληρώθηκε επιτυχώς, ειδικά όταν αυτοματοποιείτε μαζικές εργασίες.
 
@@ -87,40 +87,48 @@ oneFile.save(dataDir + "ConvertToPdf_out.pdf", options);
 System.out.println("File saved: " + dataDir + "ConvertToPdf_out.pdf");
 ```
 
-## Common Issues & Troubleshooting
+## Συνήθη Προβλήματα & Αντιμετώπιση Προβλημάτων
 
-| Symptom | Likely Cause | Fix |
+| Σύμπτωμα | Πιθανή Αιτία | Διόρθωση |
 |---------|--------------|-----|
-| **NullPointerException** when loading the file | Incorrect `dataDir` path or missing file | Verify the full path and ensure `Sample1.one` exists. |
-| **OutOfMemoryError** on large notebooks | Insufficient heap memory | Increase JVM heap (`-Xmx2g` or higher) or process pages in chunks. |
-| PDF missing images | PDF save options not configured for image handling | Set `options.setEmbedImages(true)` (requires Aspose.Note 22.9+). |
+| **NullPointerException** κατά τη φόρτωση του αρχείου | Λανθασμένη διαδρομή `dataDir` ή αρχείο που λείπει | Επαληθεύστε την πλήρη διαδρομή και βεβαιωθείτε ότι υπάρχει το `Sample1.one`. |
+| **OutOfMemoryError** σε μεγάλα σημειωματάρια | Ανεπαρκής μνήμη σωρού | Αύξηση σωρού JVM (`-Xmx2g` ή υψηλότερη) ή επεξεργασία σελίδων σε τμήματα. |
+| Λείπουν εικόνες PDF | Οι επιλογές αποθήκευσης PDF δεν έχουν ρυθμιστεί για χειρισμό εικόνων | Ορισμός `options.setEmbedImages(true)` (απαιτείται Aspose.Note 22.9+). |
 
-## Frequently Asked Questions
+## Συνήθεις Ερωτήσεις
 
-**Q: Can I convert multiple notebook files to PDF in a single run?**  
-A: Yes, you can loop through a collection of `.one` files and apply the same conversion logic to each file.
+**Ε: Μπορώ να μετατρέψω πολλά αρχεία σημειωματάριου σε PDF με μία μόνο εκτέλεση;**
+Α: Ναι, μπορείτε να κάνετε επανάληψη σε μια συλλογή αρχείων `.one` και να εφαρμόσετε την ίδια λογική μετατροπής σε κάθε αρχείο.
 
-**Q: Are there any limitations on the size of the notebook files that can be converted?**  
-A: Aspose.Note doesn’t impose strict size limits, but very large notebooks will need more memory and may take longer to process.
+**Ε: Υπάρχουν περιορισμοί στο μέγεθος των αρχείων σημειωματάριου που μπορούν να μετατραπούν;**
+Α: Το Aspose.Note δεν επιβάλλει αυστηρά όρια μεγέθους, αλλά τα πολύ μεγάλα σημειωματάρια θα χρειαστούν περισσότερη μνήμη και ενδέχεται να χρειαστούν περισσότερο χρόνο για την επεξεργασία τους.
 
-**Q: Does Aspose.Note support conversion to other formats besides PDF?**  
-A: Absolutely. You can generate images, HTML, or Microsoft Word documents directly from a OneNote notebook.
+**Ε: Υποστηρίζει το Aspose.Note τη μετατροπή σε άλλες μορφές εκτός από PDF;**
+Α: Απολύτως. Μπορείτε να δημιουργήσετε εικόνες, HTML ή έγγραφα Microsoft Word απευθείας από ένα σημειωματάριο OneNote.
 
-**Q: Is there a trial version available for Aspose.Note for Java?**  
-A: Yes, a fully functional trial can be downloaded from the Aspose website to evaluate the library before purchasing.
+**Ε: Υπάρχει διαθέσιμη δοκιμαστική έκδοση για το Aspose.Note για Java;**
+Α: Ναι, μπορείτε να κατεβάσετε μια πλήρως λειτουργική δοκιμαστική έκδοση από τον ιστότοπο του Aspose για να αξιολογήσετε τη βιβλιοθήκη πριν από την αγορά.
 
-**Q: Where can I find more help and support for Aspose.Note for Java?**  
-A: Visit the [Aspose.Note forum](https://forum.aspose.com/c/note/28) for community assistance, sample code, and official support.
+**Ε: Πού μπορώ να βρω περισσότερη βοήθεια και υποστήριξη για το Aspose.Note για Java;**
+Α: Επισκεφθείτε το [φόρουμ Aspose.Note](https://forum.aspose.com/c/note/28) για βοήθεια από την κοινότητα, δείγμα κώδικα και επίσημη υποστήριξη.
 
-**Q: How do I **save onenote as pdf** with custom page size?**  
-A: Use `options.setPageSize(PdfPageSize.A4)` (or any other `PdfPageSize` enum) before calling `save`.
+**Ε: Πώς μπορώ **να αποθηκεύσω το onenote ως pdf** με προσαρμοσμένο μέγεθος σελίδας;**
+Α: Χρησιμοποιήστε το «options.setPageSize(PdfPageSize.A4)» (ή οποιοδήποτε άλλο αριθμό «PdfPageSize») πριν καλέσετε το «save».
 
-**Q: Can I **generate pdf from onenote** without installing Microsoft Office?**  
-A: Yes, Aspose.Note is a pure Java library and does not require Office on the server.
+**Ε: Μπορώ **δημιουργώ pdf από το onenote** χωρίς εγκατάσταση του Microsoft Office;**
+Α: Ναι, το Aspose.Note είναι μια καθαρή βιβλιοθήκη Java και δεν απαιτεί Office στον διακομιστή.
 
-## Conclusion
+## Συμπέρασμα
 
-Έχετε τώρα μάθει πώς να **convert onenote to pdf**, **save onenote as pdf**, και ακόμη **convert .one to pdf** χρησιμοποιώντας το Aspose.Note for Java. Ακολουθώντας αυτά τα βήματα μπορείτε να ενσωματώσετε απρόσκοπτα τη μετατροπή notebook‑to‑PDF στις εφαρμογές σας, να αυτοματοποιήσετε ροές αναφοράς και να παραδώσετε φορητά έγγραφα στους τελικούς χρήστες.
+Έχετε τώρα μάθει πώς να **convert onenote σε pdf**, **save onenote as pdf**, και ακόμη **convert .one σε pdf** χρησιμοποιώντας το Aspose.Note για Java. Ακολουθώντας αυτά τα βήματα για να ενσωματώσετε απρόσκοπτα τη μετατροπή του notebook‑to‑PDF στις εφαρμογές σας, να αυτοματοποιήσετε ροές αναφορές και να παραδώσετε φορητά έγγραφα στους τελικούς χρήστες.
+
+---
+
+**Τελευταία ενημέρωση: ** 02-01-2026
+**Δοκιμασμένο με:** Aspose.Note 24.12 για Java
+**Συγγραφέας:** Aspose  
+
+---
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
@@ -128,11 +136,3 @@ A: Yes, Aspose.Note is a pure Java library and does not require Office on the se
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
-
----
-
-**Last Updated:** 2026-01-02  
-**Tested With:** Aspose.Note 24.12 for Java  
-**Author:** Aspose  
-
----

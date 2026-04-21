@@ -134,13 +134,6 @@ A: Nicht direkt. Sie sollten vor dem Löschen ein Backup des Notebooks oder des 
 
 In diesem Tutorial haben wir **wie man einen Knoten entfernt** — insbesondere einen Kindknoten — aus einem OneNote‑Notebook mithilfe von Aspose.Note für Java Schritt für Schritt durchgearbeitet. Mit nur wenigen Codezeilen können Sie die Notebook‑Bereinigung automatisieren, Strukturen durchsetzen und die OneNote‑Manipulation in größere Dokumenten‑Verarbeitungspipelines integrieren.
 
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}
-
 ---
 
 **Zuletzt aktualisiert:** 2026-01-02  
@@ -148,3 +141,10 @@ In diesem Tutorial haben wir **wie man einen Knoten entfernt** — insbesond
 **Autor:** Aspose  
 
 ---
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

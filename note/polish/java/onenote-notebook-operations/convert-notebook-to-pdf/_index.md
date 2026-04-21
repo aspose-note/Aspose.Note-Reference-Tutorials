@@ -122,13 +122,6 @@ O: Tak, Aspose.Note jest czystą biblioteką Java i nie wymaga Office na serwerz
 
 Teraz wiesz, jak **convert onenote to pdf**, **save onenote as pdf**, a także **convert .one to pdf** przy użyciu Aspose.Note dla Javy. Postępując zgodnie z tymi krokami, możesz płynnie zintegrować konwersję notesu‑do‑PDF w swoich aplikacjach, zautomatyzować przepływy raportowania i dostarczyć przenośne dokumenty użytkownikom końcowym.
 
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}
-
 ---
 
 **Ostatnia aktualizacja:** 2026-01-02  
@@ -136,3 +129,10 @@ Teraz wiesz, jak **convert onenote to pdf**, **save onenote as pdf**, a także *
 **Autor:** Aspose  
 
 ---
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

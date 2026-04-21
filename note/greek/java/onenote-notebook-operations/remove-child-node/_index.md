@@ -134,13 +134,6 @@ notebook.save(dataDir);
 
 Σε αυτό το tutorial, περάσαμε από **το πώς να αφαιρέσετε έναν κόμβο** — συγκεκριμένα έναν παιδικό κόμβο — από ένα Σημειωματάριο OneNote χρησιμοποιώντας το Aspose.Note για Java. Με λίγες μόνο γραμμές κώδικα, μπορείτε να αυτοματοποιήσετε τον καθαρισμό των σημειωματάριων, να επιβάλλετε δομή και να ενσωματώσετε τη διαχείριση OneNote σε μεγαλύτερες pipelines επεξεργασίας εγγράφων.
 
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}
-
 ---
 
 **Τελευταία Ενημέρωση:** 2026-01-02  
@@ -148,3 +141,10 @@ notebook.save(dataDir);
 **Συγγραφέας:** Aspose  
 
 ---
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

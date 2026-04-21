@@ -132,13 +132,6 @@ A: 직접적인 복구는 불가능합니다. 나중에 복원해야 할 경우 
 
 이 튜토리얼에서는 Aspose.Note for Java를 사용해 OneNote 노트북에서 **노드 제거** — 특히 자식 노드 — 방법을 단계별로 살펴보았습니다. 몇 줄의 코드만으로 노트북 정리를 자동화하고 구조를 강제하며, 문서 처리 파이프라인에 OneNote 조작을 통합할 수 있습니다.
 
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}
-
 ---
 
 **마지막 업데이트:** 2026-01-02  
@@ -146,3 +139,10 @@ A: 직접적인 복구는 불가능합니다. 나중에 복원해야 할 경우 
 **작성자:** Aspose  
 
 ---
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -132,13 +132,6 @@ notebook.save(dataDir);
 
 في هذا البرنامج التعليمي، استعرضنا **كيفية إزالة العقدة** — تحديدًا عقدة فرعية—من دفتر ملاحظات OneNote باستخدام Aspose.Note for Java. ببضع أسطر من الشيفرة، يمكنك أتمتة تنظيف الدفاتر، فرض الهيكلية، ودمج معالجة OneNote في خطوط أنابيب معالجة المستندات الأكبر.
 
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}
-
 ---
 
 **آخر تحديث:** 2026-01-02  
@@ -146,3 +139,10 @@ notebook.save(dataDir);
 **المؤلف:** Aspose  
 
 ---
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

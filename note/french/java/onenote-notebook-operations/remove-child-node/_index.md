@@ -134,13 +134,6 @@ R : Pas directement. Vous devez conserver une sauvegarde du carnet ou du nœud
 
 Dans ce tutoriel, nous avons parcouru **comment supprimer un nœud** — plus précisément un nœud enfant—dans un carnet OneNote à l’aide d’Aspose.Note pour Java. En quelques lignes de code, vous pouvez automatiser le nettoyage des carnets, appliquer une structure cohérente et intégrer la manipulation de OneNote dans des pipelines de traitement de documents plus larges.
 
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}
-
 ---
 
 **Dernière mise à jour :** 2026-01-02  
@@ -148,3 +141,10 @@ Dans ce tutoriel, nous avons parcouru **comment supprimer un nœud** — plu
 **Auteur :** Aspose  
 
 ---
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

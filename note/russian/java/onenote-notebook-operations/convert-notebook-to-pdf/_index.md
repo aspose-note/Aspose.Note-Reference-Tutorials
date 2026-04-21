@@ -122,13 +122,6 @@ A: Да, Aspose.Note — чистая Java‑библиотека и не тре
 
 Теперь вы знаете, как **convert onenote to pdf**, **save onenote as pdf** и даже **convert .one to pdf** с помощью Aspose.Note для Java. Следуя этим шагам, вы сможете без проблем интегрировать конвертацию блокнотов в PDF в свои приложения, автоматизировать процессы отчетности и предоставлять переносимые документы конечным пользователям.
 
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}
-
 ---
 
 **Last Updated:** 2026-01-02  
@@ -136,3 +129,10 @@ A: Да, Aspose.Note — чистая Java‑библиотека и не тре
 **Author:** Aspose  
 
 ---
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

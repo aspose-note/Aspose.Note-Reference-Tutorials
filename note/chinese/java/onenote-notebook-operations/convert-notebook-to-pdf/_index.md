@@ -121,15 +121,15 @@ System.out.println("File saved: " + dataDir + "ConvertToPdf_out.pdf");
 
 您现在已经学习了如何使用 Aspose.Note for Java **convert onenote to pdf**、**save onenote as pdf**，甚至 **convert .one to pdf**。按照这些步骤，您可以轻松将笔记本转 PDF 的转换集成到应用程序中，自动化报告工作流，并向最终用户交付可携带的文档。
 
+---
+
+**最后更新：** 2026-01-02  
+**测试环境：** Aspose.Note 24.12 for Java  
+**作者：** Aspose
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
-
----
-
-**最后更新：** 2026-01-02  
-**测试环境：** Aspose.Note 24.12 for Java  
-**作者：** Aspose

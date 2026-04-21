@@ -119,13 +119,6 @@ System.out.println("File saved: " + dataDir + "ConvertToPdf_out.pdf");
 
 لقد تعلمت الآن كيفية **convert onenote to pdf**، و**save onenote as pdf**، وحتى **convert .one to pdf** باستخدام Aspose.Note for Java. باتباع هذه الخطوات يمكنك دمج تحويل دفتر الملاحظات إلى PDF بسلاسة في تطبيقاتك، أتمتة سير عمل التقارير، وتقديم مستندات محمولة للمستخدمين النهائيين.
 
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}
-
 ---
 
 **Last Updated:** 2026-01-02  
@@ -133,3 +126,10 @@ System.out.println("File saved: " + dataDir + "ConvertToPdf_out.pdf");
 **Author:** Aspose  
 
 ---
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}
