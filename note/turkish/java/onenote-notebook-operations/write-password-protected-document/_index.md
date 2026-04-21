@@ -127,15 +127,15 @@ C: Aspose.Note katı bir sınırlama getirmez; ancak çok uzun şifreler perform
 
 Artık Aspose.Note for Java kullanarak **password protect onenote** dosyalarına yönelik eksiksiz, üretim‑hazır bir yaklaşımınız var. Yukarıdaki adımları izleyerek defterleri güvenli bir şekilde depolayabilir, bireysel bölümleri koruyabilir ve şifreleri programatik olarak yönetebilirsiniz.
 
+---
+
+**Last Updated:** 2026-01-05  
+**Tested With:** Aspose.Note 24.12 for Java  
+**Author:** Aspose
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
-
----
-
-**Last Updated:** 2026-01-05  
-**Tested With:** Aspose.Note 24.12 for Java  
-**Author:** Aspose

@@ -118,15 +118,15 @@ R: Por supuesto, puedes explorar las capacidades de Aspose.Note aprovechando la 
 
 Al seguir estos pasos has aprendido cómo **set default locale**, **load OneNote document**, **set Aspose license** y **convert OneNote to PNG** usando Aspose.Note para Java. Este flujo de trabajo te permite generar informes y imágenes conscientes de la configuración regional que se adaptan a audiencias globales.
 
+---
+
+**Última actualización:** 2026-01-05  
+**Probado con:** Aspose.Note 24.11 for Java  
+**Autor:** Aspose
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
-
----
-
-**Última actualización:** 2026-01-05  
-**Probado con:** Aspose.Note 24.11 for Java  
-**Autor:** Aspose

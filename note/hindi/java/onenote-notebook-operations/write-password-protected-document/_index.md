@@ -127,15 +127,15 @@ A: Aspose.Note सख्त सीमाएँ नहीं लगाता; ह
 
 आप अब Aspose.Note for Java का उपयोग करके **password protect onenote** फ़ाइलों को सुरक्षित करने का पूर्ण, प्रोडक्शन‑रेडी तरीका जानते हैं। ऊपर दिए गए चरणों का पालन करके आप नोटबुक्स को सुरक्षित रूप से स्टोर कर सकते हैं, व्यक्तिगत सेक्शन को सुरक्षित कर सकते हैं, और पासवर्ड को प्रोग्रामेटिकली मैनेज कर सकते हैं।
 
+---
+
+**अंतिम अपडेट:** 2026-01-05  
+**परीक्षित संस्करण:** Aspose.Note 24.12 for Java  
+**लेखक:** Aspose
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
-
----
-
-**अंतिम अपडेट:** 2026-01-05  
-**परीक्षित संस्करण:** Aspose.Note 24.12 for Java  
-**लेखक:** Aspose

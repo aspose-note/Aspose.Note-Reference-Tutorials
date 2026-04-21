@@ -126,13 +126,6 @@ childDocument2.save(dataDir + "Locked Pass2.one", documentSaveOptions2);
 
 現在您已掌握使用 Aspose.Note for Java 為 **OneNote** 檔案加密保護的完整、可投入生產的解決方案。依循上述步驟，即可安全地儲存筆記本、保護單獨章節，並以程式方式管理密碼。
 
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}
-
 ---
 
 **最後更新：** 2026-01-05  
@@ -140,3 +133,10 @@ childDocument2.save(dataDir + "Locked Pass2.one", documentSaveOptions2);
 **作者：** Aspose  
 
 ---
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

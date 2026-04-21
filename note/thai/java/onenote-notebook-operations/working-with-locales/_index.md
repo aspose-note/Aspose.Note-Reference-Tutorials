@@ -117,15 +117,15 @@ A: ได้เลย, คุณสามารถสำรวจความส
 
 โดยทำตามขั้นตอนเหล่านี้คุณได้เรียนรู้วิธี **ตั้งค่า locale เริ่มต้น**, **โหลดเอกสาร OneNote**, **ตั้งค่าใบอนุญาต Aspose**, และ **แปลง OneNote เป็น PNG** ด้วย Aspose.Note สำหรับ Java. กระบวนการนี้ช่วยให้คุณสร้างรายงานและภาพที่รับรู้ locale ได้อย่างเหมาะสมสำหรับผู้ชมทั่วโลก.
 
+---
+
+**อัปเดตล่าสุด:** 2026-01-05  
+**ทดสอบด้วย:** Aspose.Note 24.11 for Java  
+**ผู้เขียน:** Aspose
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
-
----
-
-**อัปเดตล่าสุด:** 2026-01-05  
-**ทดสอบด้วย:** Aspose.Note 24.11 for Java  
-**ผู้เขียน:** Aspose

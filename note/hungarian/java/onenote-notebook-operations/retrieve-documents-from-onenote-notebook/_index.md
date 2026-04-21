@@ -95,23 +95,6 @@ for (Document document : allDocuments) {
 
 Összefoglalva, ez az oktatóanyag részletes útmutatót nyújtott arról, **hogyan használja az Aspose‑t** Java‑ban a **OneNote dokumentumok lekéréséhez** egy jegyzetfüzetből. A leírt lépések követésével zökkenőmentesen integrálhatja ezt a funkciót Java alkalmazásaiba, és elkezdhet erőteljes automatizálási munkafolyamatokat építeni.
 
-## Gyakran ismételt kérdések
-
-### Q1: Használhatom az Aspose.Note for Java‑t meglévő OneNote dokumentumok módosítására?
-A1: Igen, az Aspose.Note for Java átfogó funkciókat biztosít a meglévő OneNote dokumentumok módosításához és manipulálásához.
-
-### Q2: Az Aspose.Note for Java kompatibilis a OneNote fájlok különböző verzióival?
-A2: Teljesen, az Aspose.Note for Java támogatja a OneNote fájlok különböző verzióit, biztosítva a kompatibilitást különböző környezetekben.
-
-### Q3: Automatizálhatom a dokumentumlekérési feladatokat az Aspose.Note for Java segítségével?
-A3: Igen, az Aspose.Note for Java lehetővé teszi a dokumentumlekérési feladatok automatizálását, hatékony adatfeldolgozást biztosítva nagy mennyiségű adat esetén.
-
-### Q4: Hol találok további támogatást az Aspose.Note for Java-hoz?
-A4: További támogatás és segítségért látogasson el az [Aspose.Note fórumra](https://forum.aspose.com/c/note/28), ahol kérdéseket tehet fel és kapcsolatba léphet más felhasználókkal.
-
-### Q5: Az Aspose.Note for Java kínál ingyenes próbaidőszakot?
-A5: Igen, az Aspose.Note for Java ingyenes próbaverzióját a [próbaoldalon](https://releases.aspose.com/) érheti el.
-
 ## Gyakran feltett kérdések
 
 **Q: Miben különbözik a „hogyan használja az aspose” más OneNote könyvtáraktól?**  

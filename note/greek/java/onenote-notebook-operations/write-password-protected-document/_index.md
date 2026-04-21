@@ -127,13 +127,6 @@ childDocument2.save(dataDir + "Locked Pass2.one", documentSaveOptions2);
 
 Τώρα έχετε μια πλήρη, έτοιμη για παραγωγή προσέγγιση για **προστασία κωδικού πρόσβασης OneNote** αρχείων χρησιμοποιώντας την Aspose.Note για Java. Ακολουθώντας τα παραπάνω βήματα μπορείτε να αποθηκεύετε με ασφάλεια notebooks, να προστατεύετε μεμονωμένα sections και να διαχειρίζεστε προγραμματιστικά τους κωδικούς.
 
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}
-
 ---
 
 **Τελευταία ενημέρωση:** 2026-01-05  
@@ -141,3 +134,10 @@ childDocument2.save(dataDir + "Locked Pass2.one", documentSaveOptions2);
 **Συγγραφέας:** Aspose  
 
 ---
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -18,32 +18,32 @@ weight: 10
 
 ## Introduction
 
-Si vous devez **définir la locale par défaut** lors du traitement de fichiers OneNote, Aspose.Note pour Java rend cela très simple. Dans ce tutoriel, nous passerons en revue tout ce dont vous avez besoin — de la licence du produit au chargement d’un document OneNote, en passant par la modification de la locale, et enfin la conversion du fichier en image PNG. À la fin, vous pourrez personnaliser les paramètres de langue et générer des sorties spécifiques à la locale avec seulement quelques lignes de code.
+Si vous devez **définir la locale par défaut** lors du traitement des fichiers OneNote, Aspose.Note pour Java rend cela très simple. Dans ce tutoriel, nous passerons en revue tout ce dont vous avez besoin — de la licence du produit au chargement d'un document OneNote, en passant par la modification de la locale, et enfin la conversion du fichier en image PNG. À la fin, vous pourrez personnaliser les paramètres de langue et générer des sorties spécifiques à la locale avec seulement quelques lignes de code.
 
-## Quick Answers
-- **Que fait « définir la locale par défaut » ?** Elle définit la langue et le formatage régional utilisés par Aspose.Note lors de la lecture ou de l’écriture de fichiers OneNote.  
-- **Ai-je besoin d’une licence ?** Oui — définissez la licence Aspose pour débloquer toutes les fonctionnalités.  
-- **Quelle version de Java est requise ?** Toute version JDK 8+ est prise en charge.  
-- **Puis-je convertir OneNote en PNG ?** Absolument ; l’API vous permet d’enregistrer les pages sous forme d’images.  
-- **Le processus est‑il thread‑safe ?** Définir la locale par défaut est global, il faut donc la configurer une seule fois au démarrage de l’application.
+## Réponses rapides
+- **Que fait «définir la locale par défaut»?** Elle définit la langue et le formatage régional utilisés par Aspose.Note lors de la lecture ou de l'écriture de fichiers OneNote.
+- **Ai-je besoin d'une licence?** Oui — définit la licence Aspose pour débloquer toutes les fonctionnalités.
+- **Quelle version de Java est requise ?** Toute version JDK 8+ est prise en charge.
+- **Puis-je convertir OneNote en PNG?** Absolument; l’API vous permet d’enregistrer les pages sous forme d’images.
+- **Le processus est‑il thread‑safe?** définir la locale par défaut est global, il faut donc la configurer une seule fois au démarrage de l'application.
 
-## Qu’est‑ce que « définir la locale par défaut » dans Aspose.Note ?
+## Qu’est-ce que « définir la locale par défaut » dans Aspose.Note ?
 
-Définir la locale par défaut indique à Aspose.Note quelle langue et quelles conventions culturelles appliquer lors de l’analyse des dates, des nombres et du texte. C’est essentiel pour les applications multi‑régionales qui nécessitent un formatage cohérent entre les différentes locales des utilisateurs.
+Définir la locale par défaut indique à Aspose. Notez quelle langue et quelles conventions culturelles s'appliquent lors de l'analyse des dates, des nombres et du texte. C’est essentiel pour les applications multirégionales qui nécessitent un formatage cohérent entre les différents paramètres régionaux des utilisateurs.
 
-## Pourquoi définir la locale par défaut lors du travail avec OneNote ?
+## Pourquoi définir les paramètres régionaux par défaut lors du travail avec OneNote ?
 
-- **Représentation précise des données :** Les dates et les nombres s’affichent correctement pour le public cible.  
-- **Chaînes d’interface cohérentes :** Le texte extrait de OneNote respecte les paramètres de langue.  
-- **Conversion simplifiée :** Lorsque vous convertissez ultérieurement un fichier OneNote en PNG ou dans d’autres formats, la mise en page visuelle correspond à la locale attendue.
+- **Représentation précise des données :** Les dates et les nombres s'affichent correctement pour le public cible.
+- **Chaînes d'interface intégrées :** Le texte extrait de OneNote respecte les paramètres de langue.
+- **Conversion simplifiée :** Lorsque vous convertissez ultérieurement un fichier OneNote en PNG ou dans d'autres formats, la mise en page visuelle correspond à la locale attendue.
 
 ## Prérequis
 
-- **Environnement de développement Java :** JDK installé et `JAVA_HOME` configuré.  
-- **Bibliothèque Aspose.Note :** Téléchargez le dernier JAR depuis le [lien de téléchargement](https://releases.aspose.com/note/java/).  
-- **Un fichier de licence Aspose valide** (l’essai gratuit fonctionne pour les tests).
+- **Environnement de développement Java :** JDK installé et `JAVA_HOME` configuré.
+- **Bibliothèque Aspose.Note:** Téléchargez le dernier JAR depuis le [lien de téléchargement](https://releases.aspose.com/note/java/).
+- **Un fichier de licence Aspose valide** (l'essai gratuit fonctionne pour les tests).
 
-## Import Packages
+## Importer des packages
 
 Avant d’écrire du code, importez les classes qui fournissent les fonctionnalités requises.
 
@@ -119,13 +119,6 @@ R : Bien sûr, vous pouvez explorer les fonctionnalités d’Aspose.Note en pr
 
 En suivant ces étapes, vous avez appris à **définir la locale par défaut**, **charger un document OneNote**, **définir la licence Aspose**, et **convertir OneNote en PNG** en utilisant Aspose.Note pour Java. Ce flux de travail vous permet de générer des rapports et des images sensibles à la locale, adaptés à un public mondial.
 
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}
-
 ---
 
 **Last Updated:** 2026-01-05  
@@ -133,3 +126,10 @@ En suivant ces étapes, vous avez appris à **définir la locale par défaut**, 
 **Author:** Aspose  
 
 ---
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -96,28 +96,6 @@ Na závěr tento tutoriál poskytl podrobný návod, jak **použít Aspose** pro
 
 ## Často kladené otázky
 
-### Q1: Mohu použít Aspose.Note pro Java k úpravě existujících dokumentů OneNote?
-
-A1: Ano, Aspose.Note pro Java poskytuje komplexní funkčnost pro úpravu a manipulaci s existujícími dokumenty OneNote.
-
-### Q2: Je Aspose.Note pro Java kompatibilní s různými verzemi souborů OneNote?
-
-A2: Naprosto, Aspose.Note pro Java podporuje různé verze souborů OneNote, což zajišťuje kompatibilitu napříč různými prostředími.
-
-### Q3: Mohu automatizovat úlohy načítání dokumentů pomocí Aspose.Note pro Java?
-
-A3: Ano, Aspose.Note pro Java umožňuje automatizaci úloh načítání dokumentů, což umožňuje efektivní zpracování velkých objemů dat.
-
-### Q4: Kde mohu najít další podporu pro Aspose.Note pro Java?
-
-A4: Pro další podporu a pomoc můžete navštívit [forum Aspose.Note](https://forum.aspose.com/c/note/28), kde můžete klást otázky a komunikovat s ostatními uživateli.
-
-### Q5: Nabízí Aspose.Note pro Java bezplatnou zkušební verzi?
-
-A5: Ano, můžete získat bezplatnou zkušební verzi Aspose.Note pro Java na [stránce s bezplatnou zkušební verzí](https://releases.aspose.com/).
-
-## Frequently Asked Questions
-
 **Q: Jak se „jak použít aspose“ liší od ostatních knihoven OneNote?**  
 A: Aspose.Note poskytuje čisté Java API bez COM závislostí, což jej činí ideálním pro multiplatformní serverová prostředí.
 

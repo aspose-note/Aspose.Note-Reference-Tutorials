@@ -125,13 +125,6 @@ A: Aspose.Note does not impose strict limits; however, extremely long passwords 
 
 You now have a complete, production‑ready approach to **password protect onenote** files using Aspose.Note for Java. By following the steps above you can securely store notebooks, protect individual sections, and manage passwords programmatically.
 
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}
-
 ---
 
 **Last Updated:** 2026-01-05  
@@ -139,3 +132,10 @@ You now have a complete, production‑ready approach to **password protect oneno
 **Author:** Aspose  
 
 ---
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -96,28 +96,6 @@ Em conclusão, este tutorial forneceu um guia detalhado sobre **como usar o Aspo
 
 ## Perguntas Frequentes
 
-### Q1: Posso usar o Aspose.Note para Java para modificar documentos OneNote existentes?
-
-A1: Sim, o Aspose.Note para Java fornece funcionalidade abrangente para modificar e manipular documentos OneNote existentes.
-
-### Q2: O Aspose.Note para Java é compatível com diferentes versões de arquivos OneNote?
-
-A2: Absolutamente, o Aspose.Note para Java suporta várias versões de arquivos OneNote, garantindo compatibilidade em diferentes ambientes.
-
-### Q3: Posso automatizar tarefas de recuperação de documentos usando o Aspose.Note para Java?
-
-A3: Sim, o Aspose.Note para Java permite a automação de tarefas de recuperação de documentos, possibilitando o processamento eficiente de grandes volumes de dados.
-
-### Q4: Onde posso encontrar suporte adicional para o Aspose.Note para Java?
-
-A4: Para suporte e assistência adicionais, você pode visitar o [fórum Aspose.Note](https://forum.aspose.com/c/note/28) onde pode fazer perguntas e interagir com outros usuários.
-
-### Q5: O Aspose.Note para Java oferece um teste gratuito?
-
-A5: Sim, você pode obter um teste gratuito do Aspose.Note para Java visitando a [página de teste gratuito](https://releases.aspose.com/).
-
-## Perguntas Frequentes
-
 **Q: Como “como usar aspose” difere de outras bibliotecas OneNote?**  
 A: O Aspose.Note fornece uma API pura‑Java sem dependências COM, tornando‑a ideal para ambientes de servidor multiplataforma.
 

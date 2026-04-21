@@ -127,13 +127,6 @@ A: Aspose.Note legt geen strikte limieten op; echter, extreem lange wachtwoorden
 
 Je hebt nu een volledige, productieklare aanpak om **OneNote**‑bestanden te **wachtwoordbeveiligen** met Aspose.Note voor Java. Door de bovenstaande stappen te volgen kun je notitieboeken veilig opslaan, individuele secties beschermen en wachtwoorden programmatisch beheren.
 
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}
-
 ---
 
 **Laatst bijgewerkt:** 2026-01-05  
@@ -141,3 +134,10 @@ Je hebt nu een volledige, productieklare aanpak om **OneNote**‑bestanden te **
 **Auteur:** Aspose  
 
 ---
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

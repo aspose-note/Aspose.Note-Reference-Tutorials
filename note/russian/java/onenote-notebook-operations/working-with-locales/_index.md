@@ -117,13 +117,6 @@ oneFile.save("sample.png");
 
 Следуя этим шагам, вы научились **устанавливать локаль по умолчанию**, **загружать документ OneNote**, **устанавливать лицензию Aspose** и **конвертировать OneNote в PNG** с помощью Aspose.Note для Java. Такой рабочий процесс позволяет создавать отчёты и изображения, учитывающие локаль, для глобальной аудитории.
 
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}
-
 ---
 
 **Последнее обновление:** 2026-01-05  
@@ -131,3 +124,10 @@ oneFile.save("sample.png");
 **Автор:** Aspose  
 
 ---
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

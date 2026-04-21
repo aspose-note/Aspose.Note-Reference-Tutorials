@@ -127,13 +127,6 @@ A: O Aspose.Note não impõe limites rígidos; porém, senhas extremamente longa
 
 Agora você tem uma abordagem completa e pronta para produção para **proteger com senha onenote** usando Aspose.Note para Java. Seguindo os passos acima, você pode armazenar cadernos com segurança, proteger seções individuais e gerenciar senhas programaticamente.
 
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}
-
 ---
 
 **Última atualização:** 2026-01-05  
@@ -141,3 +134,10 @@ Agora você tem uma abordagem completa e pronta para produção para **proteger 
 **Autor:** Aspose  
 
 ---
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

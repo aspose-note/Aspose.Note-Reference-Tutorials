@@ -94,28 +94,6 @@ for (Document document : allDocuments) {
 
 Zusammenfassend bietet dieses Tutorial eine detaillierte Anleitung, **wie man Aspose** für Java verwendet, um **OneNote-Dokumente** aus einem Notizbuch **abzurufen**. Durch Befolgen der beschriebenen Schritte können Sie diese Funktionalität nahtlos in Ihre Java-Anwendungen integrieren und leistungsstarke Automatisierungs-Workflows erstellen.
 
-## FAQ
-
-### Q1: Kann ich Aspose.Note für Java verwenden, um bestehende OneNote-Dokumente zu ändern?
-
-A1: Ja, Aspose.Note für Java bietet umfassende Funktionen zum Ändern und Manipulieren bestehender OneNote-Dokumente.
-
-### Q2: Ist Aspose.Note für Java mit verschiedenen Versionen von OneNote-Dateien kompatibel?
-
-A2: Absolut, Aspose.Note für Java unterstützt verschiedene Versionen von OneNote-Dateien und gewährleistet Kompatibilität in unterschiedlichen Umgebungen.
-
-### Q3: Kann ich Dokumentabrufaufgaben mit Aspose.Note für Java automatisieren?
-
-A3: Ja, Aspose.Note für Java ermöglicht die Automatisierung von Dokumentabrufaufgaben und erlaubt eine effiziente Verarbeitung großer Datenmengen.
-
-### Q4: Wo finde ich zusätzlichen Support für Aspose.Note für Java?
-
-A4: Für zusätzlichen Support und Hilfe können Sie das [Aspose.Note-Forum](https://forum.aspose.com/c/note/28) besuchen, wo Sie Fragen stellen und mit anderen Benutzern interagieren können.
-
-### Q5: Bietet Aspose.Note für Java eine kostenlose Testversion an?
-
-A5: Ja, Sie können eine kostenlose Testversion von Aspose.Note für Java erhalten, indem Sie die [Kostenlose-Testseite](https://releases.aspose.com/) besuchen.
-
 ## Häufig gestellte Fragen
 
 **Q: Wie unterscheidet sich “how to use aspose” von anderen OneNote-Bibliotheken?**  

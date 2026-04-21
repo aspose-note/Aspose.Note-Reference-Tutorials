@@ -117,13 +117,6 @@ oneFile.save("sample.png");
 
 Ακολουθώντας αυτά τα βήματα μάθατε πώς να **ορίσετε την προεπιλεγμένη τοπική ρύθμιση**, **φορτώσετε έγγραφο OneNote**, **ορίσετε την άδεια Aspose** και **μετατρέψετε OneNote σε PNG** χρησιμοποιώντας το Aspose.Note για Java. Αυτή η ροή εργασίας σας δίνει τη δυνατότητα να δημιουργείτε αναφορές και εικόνες που λαμβάνουν υπόψη την τοπική ρύθμιση, εξυπηρετώντας παγκόσμια κοινά.
 
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}
-
 ---
 
 **Τελευταία ενημέρωση:** 2026-01-05  
@@ -131,3 +124,10 @@ oneFile.save("sample.png");
 **Συγγραφέας:** Aspose  
 
 ---
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

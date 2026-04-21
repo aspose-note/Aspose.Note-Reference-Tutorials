@@ -126,13 +126,6 @@ A: Aspose.Note har inga strikta begränsningar; dock kan extremt långa lösenor
 
 Du har nu ett komplett, produktionsklart tillvägagångssätt för att **lösenordsskydda OneNote**‑filer med Aspose.Note för Java. Genom att följa stegen ovan kan du säkert lagra anteckningsböcker, skydda enskilda sektioner och hantera lösenord programatiskt.
 
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}
-
 ---
 
 **Senast uppdaterad:** 2026-01-05  
@@ -140,3 +133,10 @@ Du har nu ett komplett, produktionsklart tillvägagångssätt för att **löseno
 **Författare:** Aspose  
 
 ---
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

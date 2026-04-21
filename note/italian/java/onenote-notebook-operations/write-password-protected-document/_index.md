@@ -126,15 +126,15 @@ R: Aspose.Note non impone limiti rigidi; tuttavia, password estremamente lunghe 
 
 Ora disponi di un approccio completo e pronto per la produzione per **proteggere con password i file OneNote** usando Aspose.Note per Java. Seguendo i passaggi sopra, puoi archiviare in modo sicuro i notebook, proteggere sezioni individuali e gestire le password programmaticamente.
 
+---
+
+**Ultimo aggiornamento:** 2026-01-05  
+**Testato con:** Aspose.Note 24.12 for Java  
+**Autore:** Aspose
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
-
----
-
-**Ultimo aggiornamento:** 2026-01-05  
-**Testato con:** Aspose.Note 24.12 for Java  
-**Autore:** Aspose

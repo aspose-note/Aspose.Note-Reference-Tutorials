@@ -14,30 +14,30 @@ weight: 25
 
 # OneNote ノートブックからドキュメントを取得する - Aspose.Note
 
-## Introduction
+## はじめに
 
 Aspose.Note for Java を使用して **OneNote ドキュメントを取得する方法** の包括的なガイドへようこそ！このチュートリアルでは、OneNote ノートブックからすべてのドキュメントを取得し、コンソールに結果を表示し、独自のプロジェクトにコードを拡張できる場所を理解するための正確な手順を学びます。
 
-## Quick Answers
+## よくある質問
 - **必要なライブラリは？** Aspose.Note for Java  
 - **任意の OneNote ファイルを読み取れますか？** はい、サポートされている OneNote 形式であれば可能です。  
 - **開発にライセンスは必要ですか？** 評価用の無料トライアルで動作しますが、本番環境では商用ライセンスが必要です。  
 - **必要な JDK バージョンは？** Java 8 以降。  
 - **コードはクロスプラットフォームですか？** もちろんです – Windows、Linux、macOS で動作します。
 
-## How to Use Aspose for OneNote Document Retrieval
+## Aspose を使用した OneNote ドキュメントの取得方法
 このセクションでは主要キーワードを強調し、コードに入る前に簡単な概念モデルを提供します。
 
-### Why retrieve OneNote documents?
+### OneNote ドキュメントを取得する理由
 - レポート作成やデータ抽出パイプラインを自動化する。  
 - コンテンツを他のコラボレーションプラットフォームへ移行する。  
 - ノート、画像、埋め込みファイルに対して大量分析を実施する。
 
-### Prerequisites
+### 前提条件
 
 チュートリアルに入る前に、以下の前提条件を満たしていることを確認してください。
 
-#### Java Development Kit (JDK)
+#### Java 開発キット (JDK)
 
 システムに Java Development Kit (JDK) がインストールされていることを確認してください。最新バージョンは Oracle のウェブサイトからダウンロードしてインストールできます。
 
@@ -45,7 +45,7 @@ Aspose.Note for Java を使用して **OneNote ドキュメントを取得する
 
 Aspose のウェブサイトから Aspose.Note for Java ライブラリをダウンロードしてインストールしてください。ダウンロードリンクは [こちら](https://releases.aspose.com/note/java/) にあります。
 
-## Import Packages
+## パッケージのインポート
 
 まず、Java プロジェクトに必要なパッケージをインポートします。これらのパッケージは OneNote ファイルを操作するための機能を提供します。
 
@@ -57,7 +57,7 @@ import com.aspose.note.Document;
 import com.aspose.note.Notebook;
 ```
 
-## Step 1: Specify Document Directory
+## ステップ1：ドキュメントディレクトリを指定する
 
 OneNote ドキュメントが格納されているディレクトリを定義します。
 
@@ -65,13 +65,13 @@ OneNote ドキュメントが格納されているディレクトリを定義し
 String dataDir = "Your Document Directory";
 ```
 
-## Step 2: Load the Notebook
+## ステップ2：ノートブックを読み込む
 
 ```java
 Notebook rootNotebook = new Notebook(dataDir + "test.onetoc2");
 ```
 
-## Step 3: Get All Documents
+## ステップ3：すべてのドキュメントを取得する
 
 `getChildNodes()` メソッドを使用してノートブックからすべてのドキュメントを取得します。
 
@@ -79,7 +79,7 @@ Notebook rootNotebook = new Notebook(dataDir + "test.onetoc2");
 List<Document> allDocuments = rootNotebook.getChildNodes(Document.class);
 ```
 
-## Step 4: Display Document Names
+## ステップ4：ドキュメント名を表示する
 
 各ドキュメントをループし、名前を表示します。
 
@@ -89,33 +89,11 @@ for (Document document : allDocuments) {
 }
 ```
 
-## Conclusion
+## まとめ
 
 結論として、このチュートリアルは **Aspose** を使用して Java で **OneNote ドキュメントを取得** する方法について詳細に解説しました。示された手順に従うことで、この機能を Java アプリケーションにシームレスに統合し、強力な自動化ワークフローを構築し始めることができます。
 
-## FAQ's
-
-### Q1: Aspose.Note for Java を使って既存の OneNote ドキュメントを変更できますか？
-
-A1: はい、Aspose.Note for Java は既存の OneNote ドキュメントを変更・操作するための包括的な機能を提供します。
-
-### Q2: Aspose.Note for Java はさまざまなバージョンの OneNote ファイルに対応していますか？
-
-A2: もちろんです。Aspose.Note for Java は多数の OneNote ファイルバージョンをサポートしており、異なる環境間での互換性を確保します。
-
-### Q3: Aspose.Note for Java を使用してドキュメント取得タスクを自動化できますか？
-
-A3: はい、Aspose.Note for Java はドキュメント取得タスクの自動化を可能にし、大量データの効率的な処理を実現します。
-
-### Q4: Aspose.Note for Java の追加サポートはどこで得られますか？
-
-A4: 追加のサポートや支援については、[Aspose.Note フォーラム](https://forum.aspose.com/c/note/28) を訪問し、質問や他のユーザーとのやり取りが可能です。
-
-### Q5: Aspose.Note for Java は無料トライアルを提供していますか？
-
-A5: はい、[無料トライアルページ](https://releases.aspose.com/) から Aspose.Note for Java の無料トライアルをご利用いただけます。
-
-## Frequently Asked Questions
+## よくある質問
 
 **Q: “how to use aspose” は他の OneNote ライブラリと何が違うのですか？**  
 A: Aspose.Note は COM 依存がなく純粋な Java API を提供するため、クロスプラットフォームのサーバー環境に最適です。

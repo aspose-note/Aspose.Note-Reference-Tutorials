@@ -118,15 +118,15 @@ A: 當然可以，您可透過網站提供的免費試用版來體驗 Aspose.Not
 
 透過上述步驟，您已學會如何使用 Aspose.Note for Java **設定預設語系**、**載入 OneNote 文件**、**設定 Aspose 授權**，以及 **將 OneNote 轉換為 PNG**。此工作流程讓您能產生具語系感知的報告與圖像，滿足全球受眾的需求。
 
+---
+
+**最後更新：** 2026-01-05  
+**測試環境：** Aspose.Note 24.11 for Java  
+**作者：** Aspose
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
-
----
-
-**最後更新：** 2026-01-05  
-**測試環境：** Aspose.Note 24.11 for Java  
-**作者：** Aspose

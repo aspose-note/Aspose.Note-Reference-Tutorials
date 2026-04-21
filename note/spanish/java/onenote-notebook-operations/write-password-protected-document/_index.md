@@ -127,13 +127,6 @@ R: Aspose.Note no impone límites estrictos; sin embargo, contraseñas extremada
 
 Ahora dispone de un enfoque completo y listo para producción para **proteger con contraseña OneNote** usando Aspose.Note para Java. Siguiendo los pasos anteriores podrá almacenar cuadernos de forma segura, proteger secciones individuales y gestionar contraseñas programáticamente.
 
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}
-
 ---
 
 **Última actualización:** 2026-01-05  
@@ -141,3 +134,10 @@ Ahora dispone de un enfoque completo y listo para producción para **proteger co
 **Autor:** Aspose  
 
 ---
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

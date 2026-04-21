@@ -116,15 +116,15 @@ A: 当然可以，您可以通过网站提供的免费试用版体验 Aspose.Not
 
 通过本教程，您已经学会了如何 **设置默认语言区域**、**加载 OneNote 文档**、**设置 Aspose 许可证**，以及使用 Aspose.Note for Java **将 OneNote 转换为 PNG**。此工作流帮助您生成面向全球受众的语言区域感知报告和图像。
 
+---
+
+**最后更新：** 2026-01-05  
+**测试环境：** Aspose.Note 24.11 for Java  
+**作者：** Aspose
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
-
----
-
-**最后更新：** 2026-01-05  
-**测试环境：** Aspose.Note 24.11 for Java  
-**作者：** Aspose

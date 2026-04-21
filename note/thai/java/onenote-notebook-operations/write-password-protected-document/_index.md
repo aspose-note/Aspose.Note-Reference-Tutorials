@@ -126,13 +126,6 @@ childDocument2.save(dataDir + "Locked Pass2.one", documentSaveOptions2);
 
 คุณได้เรียนรู้วิธีการที่ครบถ้วนและพร้อมใช้งานในระดับการผลิตเพื่อ **ป้องกันรหัสผ่าน OneNote** ด้วย Aspose.Note สำหรับ Java โดยทำตามขั้นตอนข้างต้น คุณสามารถจัดเก็บสมุดบันทึกอย่างปลอดภัย ป้องกันส่วนย่อยแต่ละส่วน และจัดการรหัสผ่านผ่านโปรแกรมได้อย่างเป็นระบบ
 
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}
-
 ---
 
 **อัปเดตล่าสุด:** 2026-01-05  
@@ -140,3 +133,10 @@ childDocument2.save(dataDir + "Locked Pass2.one", documentSaveOptions2);
 **ผู้เขียน:** Aspose  
 
 ---
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

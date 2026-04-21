@@ -126,13 +126,6 @@ O: Aspose.Note nie narzuca ścisłych limitów; jednak bardzo długie hasła mog
 
 Masz teraz kompletną, gotową do wdrożenia metodę **zabezpieczania OneNote hasłem** przy użyciu Aspose.Note dla Javy. Postępując zgodnie z powyższymi krokami, możesz bezpiecznie przechowywać notatniki, chronić poszczególne sekcje i zarządzać hasłami programowo.
 
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}
-
 ---
 
 **Ostatnia aktualizacja:** 2026-01-05  
@@ -140,3 +133,10 @@ Masz teraz kompletną, gotową do wdrożenia metodę **zabezpieczania OneNote ha
 **Autor:** Aspose  
 
 ---
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

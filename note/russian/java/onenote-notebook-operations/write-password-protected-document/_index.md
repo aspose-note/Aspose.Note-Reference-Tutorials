@@ -126,13 +126,6 @@ childDocument2.save(dataDir + "Locked Pass2.one", documentSaveOptions2);
 
 Теперь у вас есть полностью готовый к продакшн подход к **защите OneNote паролем** с помощью Aspose.Note для Java. Следуя указанным шагам, вы сможете безопасно хранить блокноты, защищать отдельные разделы и управлять паролями программно.
 
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}
-
 ---
 
 **Последнее обновление:** 2026-01-05  
@@ -140,3 +133,10 @@ childDocument2.save(dataDir + "Locked Pass2.one", documentSaveOptions2);
 **Автор:** Aspose  
 
 ---
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

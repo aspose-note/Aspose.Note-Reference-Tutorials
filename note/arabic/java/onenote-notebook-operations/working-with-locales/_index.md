@@ -116,15 +116,15 @@ oneFile.save("sample.png");
 
 باتباع هذه الخطوات تعلمت كيفية **تعيين اللغة الافتراضية**، **تحميل مستند OneNote**، **تعيين ترخيص Aspose**، و**تحويل OneNote إلى PNG** باستخدام Aspose.Note for Java. هذه العملية تمكنك من إنشاء تقارير وصور حساسة للغة تلبي احتياجات الجمهور العالمي.
 
+---
+
+**Last Updated:** 2026-01-05  
+**Tested With:** Aspose.Note 24.11 for Java  
+**Author:** Aspose
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
-
----
-
-**Last Updated:** 2026-01-05  
-**Tested With:** Aspose.Note 24.11 for Java  
-**Author:** Aspose

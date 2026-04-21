@@ -94,28 +94,6 @@ for (Document document : allDocuments) {
 
 In conclusione, questo tutorial ha fornito una guida dettagliata su **come utilizzare Aspose** per Java per **recuperare documenti OneNote** da un notebook. Seguendo i passaggi descritti, potete integrare senza problemi questa funzionalità nelle vostre applicazioni Java e iniziare a creare potenti flussi di automazione.
 
-## FAQ
-
-### Q1: Posso usare Aspose.Note per Java per modificare documenti OneNote esistenti?
-
-A1: Sì, Aspose.Note per Java offre funzionalità complete per modificare e manipolare documenti OneNote esistenti.
-
-### Q2: Aspose.Note per Java è compatibile con diverse versioni di file OneNote?
-
-A2: Assolutamente, Aspose.Note per Java supporta varie versioni di file OneNote, garantendo compatibilità in diversi ambienti.
-
-### Q3: Posso automatizzare le attività di recupero dei documenti usando Aspose.Note per Java?
-
-A3: Sì, Aspose.Note per Java consente l'automazione delle attività di recupero dei documenti, permettendo una gestione efficiente di grandi volumi di dati.
-
-### Q4: Dove posso trovare supporto aggiuntivo per Aspose.Note per Java?
-
-A4: Per supporto e assistenza aggiuntivi, potete visitare il [forum Aspose.Note](https://forum.aspose.com/c/note/28) dove è possibile porre domande e interagire con altri utenti.
-
-### Q5: Aspose.Note per Java offre una versione di prova gratuita?
-
-A5: Sì, potete usufruire di una versione di prova gratuita di Aspose.Note per Java visitando la [pagina della prova gratuita](https://releases.aspose.com/).
-
 ## Domande Frequenti
 
 **Q: In che modo “come usare aspose” differisce dalle altre librerie OneNote?**  

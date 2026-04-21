@@ -127,13 +127,6 @@ A: Aspose.Note neklade přísná omezení; velmi dlouhá hesla však mohou ovliv
 
 Nyní máte kompletní, připravený přístup k **ochraně OneNote heslem** pomocí Aspose.Note pro Java. Dodržením výše uvedených kroků můžete bezpečně ukládat zápisníky, chránit jednotlivé sekce a programově spravovat hesla.
 
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}
-
 ---
 
 **Poslední aktualizace:** 2026-01-05  
@@ -141,3 +134,10 @@ Nyní máte kompletní, připravený přístup k **ochraně OneNote heslem** pom
 **Autor:** Aspose  
 
 ---
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -94,28 +94,6 @@ for (Document document : allDocuments) {
 
 Podsumowując, ten tutorial dostarczył szczegółowego przewodnika, jak **używać Aspose** dla Javy do **pobierania dokumentów OneNote** z notatnika. Postępując zgodnie z opisanymi krokami, możesz płynnie zintegrować tę funkcjonalność ze swoimi aplikacjami Javy i rozpocząć budowanie potężnych przepływów automatyzacji.
 
-## FAQ
-
-### Q1: Czy mogę używać Aspose.Note dla Javy do modyfikacji istniejących dokumentów OneNote?
-
-A1: Tak, Aspose.Note dla Javy zapewnia kompleksową funkcjonalność do modyfikacji i manipulacji istniejącymi dokumentami OneNote.
-
-### Q2: Czy Aspose.Note dla Javy jest kompatybilny z różnymi wersjami plików OneNote?
-
-A2: Absolutnie, Aspose.Note dla Javy obsługuje różne wersje plików OneNote, zapewniając kompatybilność w różnych środowiskach.
-
-### Q3: Czy mogę zautomatyzować zadania pobierania dokumentów przy użyciu Aspose.Note dla Javy?
-
-A3: Tak, Aspose.Note dla Javy umożliwia automatyzację zadań pobierania dokumentów, co pozwala na efektywne przetwarzanie dużych wolumenów danych.
-
-### Q4: Gdzie mogę znaleźć dodatkowe wsparcie dla Aspose.Note dla Javy?
-
-A4: Dodatkowe wsparcie i pomoc znajdziesz na [forum Aspose.Note](https://forum.aspose.com/c/note/28), gdzie możesz zadawać pytania i wymieniać się doświadczeniami z innymi użytkownikami.
-
-### Q5: Czy Aspose.Note dla Javy oferuje darmową wersję próbną?
-
-A5: Tak, możesz skorzystać z darmowej wersji próbnej Aspose.Note dla Javy, odwiedzając [stronę z wersją próbną](https://releases.aspose.com/).
-
 ## Najczęściej zadawane pytania
 
 **P: Jak „jak używać aspose” różni się od innych bibliotek OneNote?**  

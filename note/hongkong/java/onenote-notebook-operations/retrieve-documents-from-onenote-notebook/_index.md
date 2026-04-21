@@ -93,28 +93,6 @@ for (Document document : allDocuments) {
 
 總結來說，本教學提供了關於 **如何使用 Aspose** 於 Java 以 **檢索 OneNote 文件** 從筆記本的詳細指南。依照上述步驟操作，即可將此功能無縫整合至您的 Java 應用程式，並開始構建強大的自動化工作流程。
 
-## 常見問答
-
-### Q1：我可以使用 Aspose.Note for Java 來修改現有的 OneNote 文件嗎？
-
-A1：可以，Aspose.Note for Java 提供完整功能以修改與操作現有的 OneNote 文件。
-
-### Q2：Aspose.Note for Java 是否相容於不同版本的 OneNote 檔案？
-
-A2：絕對相容，Aspose.Note for Java 支援多種版本的 OneNote 檔案，確保在不同環境中的相容性。
-
-### Q3：我可以使用 Aspose.Note for Java 自動化文件檢索任務嗎？
-
-A3：可以，Aspose.Note for Java 可自動化文件檢索任務，讓大量資料的處理更有效率。
-
-### Q4：我可以在哪裡取得 Aspose.Note for Java 的額外支援？
-
-A4：如需額外支援與協助，您可前往 [Aspose.Note 論壇](https://forum.aspose.com/c/note/28) 提問並與其他使用者交流。
-
-### Q5：Aspose.Note for Java 是否提供免費試用？
-
-A5：可以，您可前往 [免費試用頁面](https://releases.aspose.com/) 取得 Aspose.Note for Java 的免費試用。
-
 ## 常見問題
 
 **Q: 「如何使用 aspose」與其他 OneNote 函式庫有何不同？**  

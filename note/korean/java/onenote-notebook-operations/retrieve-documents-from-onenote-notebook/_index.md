@@ -93,23 +93,6 @@ for (Document document : allDocuments) {
 
 결론적으로, 이 튜토리얼은 Java용 **Aspose**를 사용하여 노트북에서 **OneNote 문서를 가져오는** 방법에 대한 자세한 가이드를 제공했습니다. 제시된 단계를 따라 하면 이 기능을 Java 애플리케이션에 원활히 통합하고 강력한 자동화 워크플로를 구축할 수 있습니다.
 
-## FAQ
-
-### Q1: Aspose.Note for Java를 사용하여 기존 OneNote 문서를 수정할 수 있나요?
-A1: 예, Aspose.Note for Java는 기존 OneNote 문서를 수정하고 조작할 수 있는 포괄적인 기능을 제공합니다.
-
-### Q2: Aspose.Note for Java가 다양한 버전의 OneNote 파일과 호환되나요?
-A2: 물론입니다. Aspose.Note for Java는 다양한 버전의 OneNote 파일을 지원하여 다양한 환경에서 호환성을 보장합니다.
-
-### Q3: Aspose.Note for Java를 사용하여 문서 가져오기 작업을 자동화할 수 있나요?
-A3: 예, Aspose.Note for Java를 사용하면 문서 가져오기 작업을 자동화할 수 있어 대량 데이터 처리를 효율적으로 수행할 수 있습니다.
-
-### Q4: Aspose.Note for Java에 대한 추가 지원을 어디서 찾을 수 있나요?
-A4: 추가 지원 및 도움이 필요하면 [Aspose.Note 포럼](https://forum.aspose.com/c/note/28)에서 질문을 하고 다른 사용자와 소통할 수 있습니다.
-
-### Q5: Aspose.Note for Java가 무료 체험을 제공하나요?
-A5: 예, [무료 체험 페이지](https://releases.aspose.com/)를 방문하여 Aspose.Note for Java의 무료 체험을 이용할 수 있습니다.
-
 ## 자주 묻는 질문
 
 **Q: “how to use aspose”가 다른 OneNote 라이브러리와 어떻게 다른가요?**  

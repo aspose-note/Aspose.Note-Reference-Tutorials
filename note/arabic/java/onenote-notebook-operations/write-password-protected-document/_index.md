@@ -126,13 +126,6 @@ childDocument2.save(dataDir + "Locked Pass2.one", documentSaveOptions2);
 
 الآن لديك نهج كامل وجاهز للإنتاج **لحماية OneNote بكلمة مرور** باستخدام Aspose.Note للـ Java. باتباع الخطوات أعلاه يمكنك تخزين دفاتر الملاحظات بأمان، حماية الأقسام الفردية، وإدارة كلمات المرور برمجيًا.
 
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}
-
 ---
 
 **آخر تحديث:** 2026-01-05  
@@ -140,3 +133,10 @@ childDocument2.save(dataDir + "Locked Pass2.one", documentSaveOptions2);
 **المؤلف:** Aspose  
 
 ---
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

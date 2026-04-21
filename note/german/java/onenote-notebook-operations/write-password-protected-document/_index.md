@@ -127,13 +127,6 @@ A: Aspose.Note legt keine strengen Grenzen fest; extrem lange Passwörter könne
 
 Sie verfügen nun über einen vollständigen, produktionsbereiten Ansatz, um **OneNote‑Dateien** mit Aspose.Note für Java **mit Passwort zu schützen**. Durch Befolgen der obigen Schritte können Sie Notizbücher sicher speichern, einzelne Abschnitte schützen und Passwörter programmgesteuert verwalten.
 
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}
-
 ---
 
 **Zuletzt aktualisiert:** 2026-01-05  
@@ -141,3 +134,10 @@ Sie verfügen nun über einen vollständigen, produktionsbereiten Ansatz, um **O
 **Autor:** Aspose  
 
 ---
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

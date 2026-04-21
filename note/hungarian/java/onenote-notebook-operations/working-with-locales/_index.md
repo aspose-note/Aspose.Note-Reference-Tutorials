@@ -118,15 +118,15 @@ A: Természetesen, a weboldalon elérhető ingyenes próba verzióval felfedezhe
 
 Ezeknek a lépéseknek a követésével megtanulta, hogyan **állítsa be az alapértelmezett nyelvi beállítást**, **töltse be a OneNote dokumentumot**, **állítsa be az Aspose licencet**, és **konvertálja a OneNote‑ot PNG‑re** az Aspose.Note for Java segítségével. Ez a munkafolyamat lehetővé teszi, hogy locale‑tudatos jelentéseket és képeket generáljon, amelyek a globális közönség igényeit szolgálják.
 
+---
+
+**Legutóbb frissítve:** 2026-01-05  
+**Tesztelve ezzel:** Aspose.Note 24.11 for Java  
+**Szerző:** Aspose
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
-
----
-
-**Legutóbb frissítve:** 2026-01-05  
-**Tesztelve ezzel:** Aspose.Note 24.11 for Java  
-**Szerző:** Aspose

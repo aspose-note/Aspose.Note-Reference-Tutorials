@@ -127,15 +127,15 @@ childDocument2.save(dataDir + "Locked Pass2.one", documentSaveOptions2);
 
 Bạn đã có một quy trình hoàn chỉnh, sẵn sàng cho môi trường production để **bảo mật onenote** bằng mật khẩu sử dụng Aspose.Note cho Java. Bằng cách thực hiện các bước trên, bạn có thể lưu trữ an toàn các sổ ghi chú, bảo vệ các phần riêng lẻ, và quản lý mật khẩu một cách lập trình.
 
+---
+
+**Cập nhật lần cuối:** 2026-01-05  
+**Kiểm tra với:** Aspose.Note 24.12 cho Java  
+**Tác giả:** Aspose
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
-
----
-
-**Cập nhật lần cuối:** 2026-01-05  
-**Kiểm tra với:** Aspose.Note 24.12 cho Java  
-**Tác giả:** Aspose

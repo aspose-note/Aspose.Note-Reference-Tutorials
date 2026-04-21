@@ -117,15 +117,15 @@ A: Chắc chắn, bạn có thể khám phá các tính năng của Aspose.Note 
 
 Bằng cách thực hiện các bước này, bạn đã học cách **đặt ngôn ngữ mặc định**, **tải tài liệu OneNote**, **đặt giấy phép Aspose**, và **chuyển đổi OneNote sang PNG** bằng Aspose.Note cho Java. Quy trình này cho phép bạn tạo ra các báo cáo và hình ảnh có nhận thức ngôn ngữ, phù hợp với khán giả toàn cầu.
 
+---
+
+**Last Updated:** 2026-01-05  
+**Tested With:** Aspose.Note 24.11 for Java  
+**Author:** Aspose
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
-
----
-
-**Last Updated:** 2026-01-05  
-**Tested With:** Aspose.Note 24.11 for Java  
-**Author:** Aspose

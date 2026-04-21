@@ -94,28 +94,6 @@ for (Document document : allDocuments) {
 
 Tóm lại, tutorial này đã cung cấp hướng dẫn chi tiết về **cách sử dụng Aspose** cho Java để **truy xuất tài liệu OneNote** từ một sổ ghi chú. Bằng cách thực hiện các bước đã nêu, bạn có thể tích hợp chức năng này một cách liền mạch vào các ứng dụng Java của mình và bắt đầu xây dựng các quy trình tự động hoá mạnh mẽ.
 
-## Câu hỏi thường gặp
-
-### Q1: Tôi có thể sử dụng Aspose.Note cho Java để chỉnh sửa tài liệu OneNote hiện có không?
-
-A1: Có, Aspose.Note cho Java cung cấp chức năng toàn diện để chỉnh sửa và thao tác các tài liệu OneNote hiện có.
-
-### Q2: Aspose.Note cho Java có tương thích với các phiên bản tệp OneNote khác nhau không?
-
-A2: Chắc chắn, Aspose.Note cho Java hỗ trợ nhiều phiên bản tệp OneNote, đảm bảo tương thích trên các môi trường khác nhau.
-
-### Q3: Tôi có thể tự động hoá các tác vụ truy xuất tài liệu bằng Aspose.Note cho Java không?
-
-A3: Có, Aspose.Note cho Java cho phép tự động hoá các tác vụ truy xuất tài liệu, giúp xử lý hiệu quả khối lượng dữ liệu lớn.
-
-### Q4: Tôi có thể tìm hỗ trợ bổ sung cho Aspose.Note cho Java ở đâu?
-
-A4: Để nhận hỗ trợ và trợ giúp thêm, bạn có thể truy cập [diễn đàn Aspose.Note](https://forum.aspose.com/c/note/28) nơi bạn có thể đặt câu hỏi và tương tác với những người dùng khác.
-
-### Q5: Aspose.Note cho Java có cung cấp bản dùng thử miễn phí không?
-
-A5: Có, bạn có thể sử dụng bản dùng thử miễn phí của Aspose.Note cho Java bằng cách truy cập [trang dùng thử miễn phí](https://releases.aspose.com/).
-
 ## Các câu hỏi thường gặp khác
 
 **Q: “cách sử dụng aspose” khác gì so với các thư viện OneNote khác?**  

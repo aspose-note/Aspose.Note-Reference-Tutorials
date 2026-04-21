@@ -119,15 +119,15 @@ Il metodo `save` esegue una **conversione del file onenote**, esportando il note
 
 Seguendo questi passaggi hai imparato come **impostare la locale predefinita**, **caricare il documento OneNote**, **impostare la licenza Aspose** e **convertire OneNote in PNG** usando Aspose.Note per Java. Questo flusso di lavoro ti consente di generare report e immagini sensibili alla locale che soddisfano un pubblico globale.
 
+---
+
+**Ultimo aggiornamento:** 2026-01-05  
+**Testato con:** Aspose.Note 24.11 for Java  
+**Autore:** Aspose
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
-
----
-
-**Ultimo aggiornamento:** 2026-01-05  
-**Testato con:** Aspose.Note 24.11 for Java  
-**Autore:** Aspose
