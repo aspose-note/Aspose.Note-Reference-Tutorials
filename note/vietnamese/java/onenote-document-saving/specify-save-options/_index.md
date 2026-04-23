@@ -1,11 +1,11 @@
 ---
-date: 2025-12-18
+date: 2026-03-16
 description: Tìm hiểu cách lưu các trang PDF cụ thể trong OneNote bằng Aspose.Note
-  cho Java, bao gồm chỉ mục trang, số trang và nén. Chuyển đổi OneNote sang PDF một
-  cách dễ dàng.
-linktitle: Save Specific Pages PDF in OneNote - Aspose.Note
+  cho Java, bao gồm chỉ mục trang, số lượng trang và nén. Chuyển đổi OneNote sang
+  PDF một cách dễ dàng.
+linktitle: Save Specific Pages PDF in OneNote – Aspose.Note
 second_title: Aspose.Note Java API
-title: Lưu các trang PDF cụ thể trong OneNote - Aspose.Note
+title: Lưu PDF các trang cụ thể trong OneNote – Aspose.Note
 url: /vi/java/onenote-document-saving/specify-save-options/
 weight: 24
 ---
@@ -18,26 +18,34 @@ weight: 24
 
 ## Giới thiệu
 
-Trong hướng dẫn này, bạn sẽ khám phá **cách lưu PDF các trang có thể** từ tài liệu OneNote bằng Aspose.Note cho Java. Cho dù bạn cần **xuất OneNote thành PDF**, **chuyển đổi OneNote sang PDF**, hoặc chỉ muốn kiểm soát Kiểm soát vi trang và nén, hướng dẫn này sẽ đưa ra cho bạn từng bước để giải thích rõ ràng và sẵn sàng chạy mã hóa.
+Trong hướng dẫn này, bạn sẽ khám phá **cách lưu PDF các trang cụ thể** từ tài liệu OneNote bằng Aspose.Note cho Java. Dù bạn cần **xuất OneNote dưới dạng PDF**, **chuyển đổi OneNote sang PDF**, hay chỉ muốn kiểm soát phạm vi trang và mức nén, hướng dẫn này sẽ dẫn bạn qua từng bước với giải thích rõ ràng và mã sẵn sàng chạy. Khi hoàn thành, bạn cũng sẽ hiểu cách **giảm kích thước PDF** và **nén ảnh PDF** bằng nén JPEG.
 
-## Trả lời nhanh
-- **“lưu các trang cụ thể PDF” có nghĩa là gì?** Nó cho phép bạn chọn một tập tin OneNote của các trang và tạo một tập tin PDF chỉ chứa những trang đó.
-- **Thư viện nào xử lý công việc này?** Aspose.Note for Java cung cấp `PdfSaveOptions` để kiểm soát chỉ mục trang, số lượng trang và hình ảnh nén.
-- **Tôi có cần giấy phép không?** Bản dùng thử miễn phí hoạt động cho việc phát triển; giấy phép thương mại cần thiết cho môi trường sản xuất.
-- **Tôi có thể đặt chỉ mục trang và số lượng trang không?** Có – use `setPageIndex()` và `setPageCount()` trên `PdfSaveOptions`.
-- **Không có hình ảnh nén được hỗ trợ hỗ trợ?** Chắc chắn – chọn JPEG, PNG hoặc các định dạng khác qua `setImageCompression()`.
+## Câu trả lời nhanh
+- **“Lưu PDF các trang cụ thể” có nghĩa là gì?** Nó cho phép bạn chọn một tập hợp các trang OneNote và tạo một PDF chỉ chứa những trang đó.  
+- **Thư viện nào thực hiện chức năng này?** Aspose.Note cho Java cung cấp `PdfSaveOptions` để điều khiển chỉ mục trang, số lượng trang và nén ảnh.  
+- **Có cần giấy phép không?** Bản dùng thử miễn phí hoạt động cho phát triển; giấy phép thương mại cần thiết cho môi trường sản xuất.  
+- **Có thể đặt chỉ mục trang và số lượng trang không?** Có – sử dụng `setPageIndex()` và `setPageCount()` trên `PdfSaveOptions`.  
+- **Có hỗ trợ nén ảnh không?** Chắc chắn – chọn JPEG, PNG hoặc các định dạng khác qua `setImageCompression()`.
 
-## Điều kiện tiên quyết
+## **save specific pages pdf** là gì?
 
-Trước khi bắt đầu, hãy chắc chắn rằng bạn có:
+Lưu PDF các trang cụ thể có nghĩa là trích xuất chỉ những trang bạn cần từ một sổ tay OneNote và tạo một PDF chỉ chứa những trang đó. Điều này đặc biệt hữu ích khi bạn muốn **tạo báo cáo PDF onenote** mà không phải xuất toàn bộ sổ tay.
 
-1. Cơ sở kiến ​​thức về lập trình Java.
-2. JDK đã được cài đặt trên máy tính của bạn.
-3. Thư viện Aspose.Note cho Java đã tải xuống từ trang chính thức – bạn có thể lấy nó **[tại đây](https://releases.aspose.com/note/java/)**.
+## Tại sao nên sử dụng **save specific pages pdf** với Aspose.Note?
 
-## Nhập gói
+- **Tăng hiệu suất:** Xuất một phần của các trang giúp tránh tải toàn bộ sổ tay vào bộ nhớ, tăng tốc xử lý cho các tệp lớn.  
+- **Giảm kích thước tệp:** Bằng cách giới hạn phạm vi trang và áp dụng **jpeg compression pdf**, PDF tạo ra sẽ nhỏ hơn nhiều — lý tưởng cho việc gửi email hoặc chia sẻ trên web.  
+- **Linh hoạt:** Kết hợp việc chọn trang với các tùy chọn khác như watermark, mã hoá, hoặc siêu dữ liệu tùy chỉnh để phù hợp với bất kỳ quy trình làm việc nào.
 
-Để bắt đầu, hãy nhập các lớp chúng ta sẽ cần:
+## Yêu cầu trước
+
+Trước khi bắt đầu, hãy chắc chắn rằng bạn đã có:
+
+1. Kiến thức cơ bản về lập trình Java.  
+2. JDK đã được cài đặt trên máy của bạn.  
+3. Thư viện Aspose.Note cho Java tải về từ trang chính thức – bạn có thể lấy **[tại đây](https://releases.aspose.com/note/java/)**.  
+
+## Nhập các gói
 
 ```java
 import com.aspose.note.Document;
@@ -46,9 +54,9 @@ import com.aspose.note.PdfSaveOptions;
 import java.io.IOException;
 ```
 
-Hãy đi qua quy trình từng bước.
+Hãy cùng đi qua quy trình từng bước.
 
-## Cách lưu PDF trang cụ thể
+## Cách lưu PDF các trang cụ thể
 
 ### Bước 1: Tải tài liệu OneNote
 
@@ -71,7 +79,7 @@ PdfSaveOptions opts = new PdfSaveOptions();
 
 `PdfSaveOptions` cung cấp cho bạn khả năng kiểm soát chi tiết quá trình chuyển đổi PDF, bao gồm khả năng **đặt chỉ mục trang PDF** và **đặt số lượng trang PDF**.
 
-### Bước 3: Thiết lập chỉ mục trang và số trang
+### Bước 3: Đặt chỉ mục trang và số lượng trang
 
 ```java
 // Set page index
@@ -81,7 +89,7 @@ opts.setPageIndex(2);
 opts.setPageCount(3);
 ```
 
-Hai lời gọi này chỉ cho Aspose.Note bắt đầu xuất từ trang 2 (đánh số từ 0) và bao gồm ba trang tiếp theo. Đây là cốt lõi của **saving specific pages PDF**.
+Hai lệnh này chỉ cho Aspose.Note bắt đầu xuất từ trang 2 (đánh số từ 0) và bao gồm ba trang tiếp theo. Đây là phần cốt lõi của **lưu PDF các trang cụ thể**.
 
 ### Bước 4: Chỉ định cài đặt nén
 
@@ -91,7 +99,7 @@ opts.setImageCompression(PdfImageCompression.Jpeg);
 opts.setJpegQuality(90);
 ```
 
-Bạn có thể kiểm soát chất lượng hình ảnh trong PDF. Nén JPEG với chất lượng 90 % cung cấp sự cân bằng tốt giữa kích thước tệp và độ trung thực hình ảnh.
+Bạn có thể kiểm soát chất lượng ảnh trong PDF. Nén JPEG với chất lượng 90 % mang lại cân bằng tốt giữa kích thước tệp và độ trung thực hình ảnh, giúp bạn **giảm kích thước PDF** trong khi vẫn duy trì khả năng đọc.
 
 ### Bước 5: Lưu tài liệu với các tùy chọn
 
@@ -100,51 +108,53 @@ dataDir = dataDir + "Document.SaveWithOptions_out.pdf";
 doc.save(dataDir, opts);
 ```
 
-Phương thức `save` ghi các trang đã chọn vào một tệp PDF mới sử dụng các tùy chọn chúng ta đã cấu hình. Kết quả là một PDF gọn nhẹ chỉ chứa các trang bạn cần.
-
-## Tại sao điều này lại quan trọng
-
-- **Hiệu suất:** Xuất chỉ các trang cần xử lý thời gian thiết bị và sử dụng bộ nhớ, đặc biệt với cửa sổ lớn.
-- **Kích thước tệp tệp:** Bằng cách giới hạn phạm vi trang và áp dụng nén JPEG, PDF tạo ra sẽ nhỏ hơn nhiều—lý tưởng cho tệp đính kèm email hoặc tải lên web.
-- **Linh hoạt:** Bạn có thể kết hợp `setPageIndex` và `setPageCount` với các tùy chọn khác (ví dụ: đánh dấu bản quyền) để xây dựng tùy chỉnh xuất hiện quy định.
+Phương thức `save` ghi các trang đã chọn vào một tệp PDF mới sử dụng các tùy chọn đã cấu hình. Kết quả là một PDF gọn nhẹ chỉ chứa những trang bạn cần.
 
 ## Các trường hợp sử dụng phổ biến
 
-| bản | Hỗ trợ tính năng |
-|----------|--------------|
-| Tạo báo cáo cho một cuộc họp duy nhất | Xuất chỉ trang của cuộc thi thay vì toàn bộ cửa sổ. |
-| Lưu trữ các phần đã chọn | Lưu các phần cụ thể dưới dạng PDF để chiết xuất mà không hiển thị nội dung không liên quan. |
-| Giảm băng thông cho người dùng di động | Gửi một bản PDF nhẹ nhàng chứa các trang cần thiết. |
+| Kịch bản | Cách tính năng hỗ trợ |
+|----------|-----------------------|
+| Tạo báo cáo cho một cuộc họp duy nhất | Xuất chỉ trang của cuộc họp thay vì toàn bộ sổ tay. |
+| Lưu trữ các phần đã chọn | Lưu các phần cụ thể dưới dạng PDF để tuân thủ mà không lộ nội dung không liên quan. |
+| Giảm băng thông cho người dùng di động | Gửi PDF nhẹ chỉ chứa các trang cần thiết. |
+| Tạo tài liệu in | **Tạo PDF onenote** tài liệu in chỉ bao gồm các slide liên quan. |
 
 ## Khắc phục sự cố & Mẹo
 
-- **Chỉ trang không hợp lệ:** Hãy nhớ rằng chỉ mục trang bắt đầu từ 0. Nếu bạn đặt chỉ mục lớn hơn tổng số trang, Aspose.Note sẽ loại bỏ `ArgumentOutOfRangeException`.
-- **Số lượng trang bằng 0:** Đặt `setPageCount(0)` sẽ tạo ra một tệp PDF trống. Hãy sử dụng số dương.
-- **Nén nén:** Nếu chất lượng JPEG quá thấp, hình ảnh có thể bị mờ. Điều chỉnh `setJpegQuality()` cho phù hợp.
-- **Văn đề tài liệu đường dẫn:** Đảm bảo đầu thư mục tồn tại và bạn có quyền ghi; if not `doc.save()` will failed.
+- **Chỉ mục trang không hợp lệ:** Nhớ rằng chỉ mục trang bắt đầu từ 0. Nếu bạn đặt chỉ mục lớn hơn tổng số trang, Aspose.Note sẽ ném ra `ArgumentOutOfRangeException`.  
+- **Số lượng trang bằng 0:** Đặt `setPageCount(0)` sẽ tạo ra một PDF rỗng. Hãy sử dụng số nguyên dương.  
+- **Hiện tượng nhiễu nén:** Nếu chất lượng JPEG quá thấp, ảnh có thể bị mờ. Điều chỉnh `setJpegQuality()` cho phù hợp để duy trì chất lượng **compress images pdf** chấp nhận được.  
+- **Vấn đề đường dẫn tệp:** Đảm bảo thư mục đầu ra tồn tại và bạn có quyền ghi; nếu không `doc.save()` sẽ thất bại.  
+- **Mẹo hiệu suất:** Khi làm việc với sổ tay rất lớn, kết hợp `setPageIndex`/`setPageCount` với `opts.setOptimizeImageSize(true)` (nếu có) để tiếp tục **giảm kích thước PDF**.
 
 ## Câu hỏi thường gặp
 
-**Q1: ​​Aspose.Note có thể xử lý các tài liệu OneNote lớn không?**
-A1: Có, Aspose.Note được thiết kế để xử lý hiệu quả các cửa sổ lớn và bạn có thể cải thiện hiệu suất hơn nữa bằng cách xuất chỉ các trang cần thiết.
+**Q1: Aspose.Note có thể xử lý các tài liệu OneNote lớn không?**  
+A1: Có, Aspose.Note được thiết kế để xử lý hiệu quả các sổ tay lớn, và bạn có thể cải thiện hiệu suất hơn nữa bằng cách xuất chỉ những trang cần thiết.
 
-**Q2: Aspose.Note có tương thích với các phiên bản Java mới nhất không?**
-A2: Chắc chắn. Thư viện hoạt động với Java8 và các phiên bản mới hơn.
+**Q2: Aspose.Note có tương thích với các phiên bản Java mới nhất không?**  
+A2: Chắc chắn. Thư viện hoạt động với Java 8 và các phiên bản mới hơn.
 
-**Q3: Tôi có thể chuyển đổi tài liệu OneNote sang các định dạng khác ngoài PDF không?**
-A3: Có, Aspose.Note hỗ trợ chuyển đổi sang DOCX, HTML, XPS và một số định dạng hình ảnh.
+**Q3: Tôi có thể chuyển đổi tài liệu OneNote sang các định dạng khác ngoài PDF không?**  
+A3: Có, Aspose.Note hỗ trợ chuyển đổi sang DOCX, HTML, XPS và một số định dạng ảnh.
 
-**Q4: Aspose.Note có hỗ trợ mã hóa và giải mã tài liệu OneNote không?**
-A4: Có, API bao gồm các phương thức để mã hóa và giải mã tệp OneNote theo trình cài đặt.
+**Q4: Aspose.Note có cung cấp hỗ trợ mã hoá và giải mã tài liệu OneNote không?**  
+A4: Có, API bao gồm các phương thức để mã hoá và giải mã tệp OneNote một cách lập trình.
 
-**Q5: Aspose.Note có phù hợp để sử dụng thương mại không?**
+**Q5: Aspose.Note có phù hợp cho việc sử dụng thương mại không?**  
 A5: Có, giấy phép thương mại cho phép bạn sử dụng thư viện trong môi trường sản xuất.
+
+**Q6: Nén JPEG ảnh hưởng như thế nào đến kích thước cuối cùng của PDF?**  
+A6: Nén JPEG giảm đáng kể kích thước của các ảnh nhúng, đây là yếu tố chính giúp **giảm kích thước pdf** cho các trang có nhiều đồ họa.
+
+**Q7: Tôi có thể kết hợp nhiều tùy chọn lưu, như thêm watermark khi lưu các trang cụ thể không?**  
+A7: Có, `PdfSaveOptions` hỗ trợ các cài đặt bổ sung như watermark, mã hoá và siêu dữ liệu có thể kết hợp với việc chọn trang.
 
 ---
 
-**Cập nhật lần cuối:** 2025-12-18
-**Kiểm tra với:** Aspose.Note for Java 24.12 (mới nhất)
-**Tác giả:** Aspose 
+**Cập nhật lần cuối:** 2026-03-16  
+**Kiểm tra với:** Aspose.Note cho Java 24.12 (phiên bản mới nhất)  
+**Tác giả:** Aspose  
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
