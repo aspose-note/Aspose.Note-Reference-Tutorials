@@ -1,11 +1,11 @@
 ---
-date: 2025-12-17
-description: Leer hoe je PDF kunt opslaan vanuit OneNote met Aspose.Note voor Java.
-  Deze stapsgewijze gids laat zien hoe je OneNote naar PDF converteert en de PDF-paginagrootte
-  aanpast met Letter‑ en A4‑instellingen.
-linktitle: How to Save PDF Using Page Settings in OneNote - Aspose.Note
+date: 2026-03-14
+description: Leer hoe u OneNote naar PDF converteert met Aspose.Note voor Java, met
+  stapsgewijze begeleiding om de PDF-paginagrootte aan te passen, inclusief Letter-
+  en A4-formaten.
+linktitle: Convert OneNote to PDF with Page Settings – Aspose.Note
 second_title: Aspose.Note Java API
-title: Hoe PDF opslaan met paginainstellingen in OneNote - Aspose.Note
+title: Converteer OneNote naar PDF met pagina‑instellingen – Aspose.Note
 url: /nl/java/onenote-document-saving/save-to-pdf-using-page-settings/
 weight: 19
 ---
@@ -14,30 +14,30 @@ weight: 19
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Hoe PDF op te slaan met paginainstellingen in OneNote - Aspose.Note
+# Hoe OneNote naar PDF converteren met paginainstellingen – Aspose.Note
 
-## Introductie
+## Introduction
 
-Als je **OneNote naar PDF wilt converteren** en volledige controle wilt behouden over de paginagrootte van de output, ben je hier op het juiste adres. In deze tutorial lopen we stap voor stap **uit hoe je PDF kunt opslaan** vanuit een OneNote‑bestand met Aspose.Note voor Java. Je ziet twee praktische scenario’s – opslaan met de klassieke Letter‑grootte en opslaan met een A4‑pagina zonder hoogte‑limiet – zodat je **de PDF‑paginagrootte kunt aanpassen** aan je rapportage‑ of afdrukvereisten.
+Als je **OneNote naar PDF wilt converteren** en tegelijkertijd volledige controle over de paginagrootte van de output wilt behouden, ben je hier op de juiste plek. In deze tutorial laten we zien **hoe je PDF kunt opslaan** vanuit een OneNote‑bestand met behulp van Aspose.Note voor Java. Je ziet twee praktische scenario's — opslaan met het klassieke Letter‑formaat en opslaan met een A4‑pagina zonder hoogte‑limiet — zodat je **PDF-paginagrootte kunt aanpassen** aan je rapportage‑ of afdrukvereisten. Weten hoe je **OneNote kunt exporteren als PDF** geeft je een betrouwbare manier om notities te archiveren, afdrukbare rapporten te genereren of inhoud te delen met gebruikers die geen OneNote hebben.
 
-## Snelle antwoorden
-- **Wat is de primaire bibliotheek?** Aspose.Note voor Java  
-- **Welke paginagroottes worden behandeld?** Letter en A4 (zonder hoogte‑limiet)  
+## Quick Answers
+- **Wat is de primaire bibliotheek?** Aspose.Note for Java  
+- **Welke paginagroottes worden ondersteund?** Letter en A4 (geen hoogte‑limiet)  
 - **Heb ik een licentie nodig voor testen?** Een gratis proefversie is beschikbaar; een licentie is vereist voor productie  
 - **Welke Java‑versie is vereist?** JDK 8 of hoger  
-- **Kan ik meerdere bestanden in batch verwerken?** Ja, door te itereren over de `Document`‑klasse
+- **Kan ik meerdere bestanden in batch verwerken?** Ja, door te loopen over de `Document`‑klasse  
 
-## Voorwaarden
+## Prerequisites
 
-Voordat we beginnen, zorg dat je het volgende hebt:
+Voordat we beginnen, zorg ervoor dat je het volgende hebt:
 
-1. **Java Development Kit (JDK)** geïnstalleerd (versie 8 of later).  
-2. **Aspose.Note voor Java** bibliotheek toegevoegd aan de classpath van je project.  
-3. Een basisbegrip van Java‑syntaxis en bestand‑I/O.  
+1. **Java Development Kit (JDK)** geïnstalleerd (versie 8 of hoger).  
+2. **Aspose.Note for Java** bibliotheek toegevoegd aan de classpath van je project.  
+3. Een basisbegrip van Java‑syntaxis en bestands‑I/O.  
 
-## Import pakketten
+## Import Packages
 
-Importeer eerst de namespaces die je nodig hebt. Houd dit blok exact zoals getoond; de code compileert zonder aanpassingen.
+Importeer eerst de namespaces die je nodig hebt. Houd dit blok precies zoals weergegeven; de code compileert zonder aanpassingen.
 
 ```java
 import com.aspose.note.*;
@@ -45,17 +45,17 @@ import java.io.IOException;
 import java.nio.file.Paths;
 ```
 
-## Hoe PDF op te slaan met Letter‑paginainstellingen
+## How to Export OneNote as PDF with Letter Page Settings
 
-### Stap 1: Laad het OneNote‑document
+### Step 1: Load the OneNote Document
 
-We beginnen met het laden van het bron‑`.one`‑bestand. Vervang het tijdelijke pad door de daadwerkelijke locatie van je OneNote‑bestand.
+Wij beginnen met het laden van het bron‑`.one`‑bestand. Vervang het tijdelijke pad door de werkelijke locatie van je OneNote‑bestand.
 
 ```java
 Document oneFile = new Document("path/to/your/OneNote.one");
 ```
 
-### Stap 2: Definieer het bestemmingspad
+### Step 2: Define the Destination Path
 
 Kies waar de resulterende PDF moet worden weggeschreven. Werk het pad opnieuw bij zodat het past bij jouw omgeving.
 
@@ -63,9 +63,9 @@ Kies waar de resulterende PDF moet worden weggeschreven. Werk het pad opnieuw bi
 String dst = "path/to/your/SaveToPdfUsingLetterPageSettings.pdf";
 ```
 
-### Stap 3: Sla op met Letter‑paginainstellingen
+### Step 3: Save with Letter Page Settings
 
-Maak een `PdfSaveOptions`‑instantie, stel de **Letter**‑paginagrootte in (een veelgebruikt Amerikaans papierformaat), en roep `save` aan. Dit laat zien hoe je **de PDF‑paginagrootte kunt aanpassen** met de ingebouwde helpers van Aspose.Note.
+Maak een `PdfSaveOptions`‑instantie, stel de **Letter**‑paginagrootte in (een veelgebruikt Amerikaans papierformaat), en roep `save` aan. Dit toont hoe je **PDF-paginagrootte kunt aanpassen** met de ingebouwde helpers van Aspose.Note.
 
 ```java
 PdfSaveOptions options = new PdfSaveOptions();
@@ -73,11 +73,11 @@ options.setPageSettings(PageSettings.getLetter());
 oneFile.save(dst, options);
 ```
 
-> **Pro tip:** Als je marges of oriëntatie wilt aanpassen, verken dan de extra eigenschappen van `PageSettings`.
+> **Pro tip:** Als je marges of oriëntatie moet aanpassen, verken dan extra eigenschappen op `PageSettings`.
 
-## Hoe PDF op te slaan met A4‑paginainstellingen zonder hoogte‑limiet
+## How to Export OneNote as PDF with A4 Page Settings Without Height Limit
 
-### Stap 1: Laad het OneNote‑document
+### Step 1: Load the OneNote Document
 
 De laadstap is identiek voor het A4‑scenario.
 
@@ -85,17 +85,17 @@ De laadstap is identiek voor het A4‑scenario.
 Document oneFile = new Document("path/to/your/OneNote.one");
 ```
 
-### Stap 2: Definieer het bestemmingspad
+### Step 2: Define the Destination Path
 
-Geef een andere bestandsnaam op om te voorkomen dat de vorige PDF wordt overschreven.
+Geef een unieke bestandsnaam op om overschrijving van de vorige PDF te voorkomen.
 
 ```java
 String dst = "path/to/your/SaveToPdfUsingA4PageSettingsWithoutHeightLimit.pdf";
 ```
 
-### Stap 3: Sla op met A4‑paginainstellingen (zonder hoogte‑limiet)
+### Step 3: Save with A4 Page Settings (No Height Limit)
 
-Hier gebruiken we `PageSettings.getA4NoHeightLimit()` om een PDF te genereren die automatisch verticaal uitbreidt – perfect voor lange notities of scrollbare inhoud.
+Hier gebruiken we `PageSettings.getA4NoHeightLimit()` om een PDF te genereren die automatisch verticaal uitbreidt — perfect voor lange notities of scrollbare inhoud.
 
 ```java
 PdfSaveOptions options = new PdfSaveOptions();
@@ -103,41 +103,41 @@ options.setPageSettings(PageSettings.getA4NoHeightLimit());
 oneFile.save(dst, options);
 ```
 
-> **Waarom dit belangrijk is:** De **A4 zonder‑hoogte‑limiet**‑optie voorkomt afkappen van inhoud, zodat de volledige OneNote‑pagina in de PDF verschijnt, ongeacht de lengte.
+> **Waarom dit belangrijk is:** De **A4 zonder hoogte‑limiet**‑optie voorkomt afkappen van inhoud, waardoor de volledige OneNote‑pagina in de PDF verschijnt, ongeacht de lengte. Dit is vooral handig wanneer je **PDF A4‑grootte moet opslaan** voor internationale afdrukstandaarden.
 
-## Veelvoorkomende problemen & oplossingen
+## Common Issues & Solutions
 
-| Probleem | Waarom het gebeurt | Oplossing |
-|----------|--------------------|-----------|
-| **Lege PDF‑output** | Het pad naar het bronbestand is onjuist of het bestand is ontoegankelijk. | Controleer het pad en zorg dat het bestand bestaat. |
+| Issue | Why it Happens | Fix |
+|-------|----------------|-----|
+| **Lege PDF-uitvoer** | Het pad naar het bronbestand is onjuist of het bestand is ontoegankelijk. | Controleer het pad en zorg dat het bestand bestaat. |
 | **Paginagrootte niet toegepast** | `PdfSaveOptions` is niet gekoppeld aan de `save`‑aanroep. | Zorg ervoor dat je het `options`‑object doorgeeft aan `oneFile.save()`. |
-| **Out‑of‑memory bij grote notities** | Het laden van zeer grote `.one`‑bestanden kan veel heap‑geheugen verbruiken. | Verhoog de JVM‑heap (`-Xmx`) of verwerk bestanden in kleinere batches. |
+| **Out‑of‑memory voor grote notities** | Het laden van zeer grote `.one`‑bestanden kan heap‑geheugen verbruiken. | Verhoog de JVM‑heap (`-Xmx`) of verwerk bestanden in kleinere batches. |
 
-## Veelgestelde vragen
+## Frequently Asked Questions
 
-**V: Kan ik de paginainstellingen verder aanpassen, zoals marges of oriëntatie?**  
-A: Ja, `PageSettings` biedt eigenschappen voor marges, oriëntatie en DPI. Je kunt een aangepast `PageSettings`‑object maken en dit toewijzen aan `PdfSaveOptions`.
+**Q: Kan ik de paginainstellingen verder aanpassen, zoals marges of oriëntatie?**  
+A: Ja, `PageSettings` biedt eigenschappen voor marges, oriëntatie en DPI. Je kunt een aangepast `PageSettings`‑object maken en toewijzen aan `PdfSaveOptions`.
 
-**V: Hoe **convert OneNote to PDF** ik in een batch‑operatie?**  
-A: Loop door een collectie van bestandspaden, instantiateer een `Document` voor elk, en roep `save` aan met de gewenste `PdfSaveOptions`. Dit hergebruikt hetzelfde code‑patroon dat hierboven is getoond.
+**Q: Hoe **convert OneNote to PDF** in een batch‑operatie?**  
+A: Loop door een collectie bestands‑paden, instantiateer een `Document` voor elk, en roep `save` aan met de gewenste `PdfSaveOptions`. Dit hergebruikt hetzelfde code‑patroon als hierboven getoond.
 
-**V: Ondersteunt Aspose.Note andere exportformaten naast PDF?**  
-A: Absoluut. Je kunt exporteren naar HTML, XPS, of diverse afbeeldingsformaten zoals PNG en JPEG met de bijbehorende `SaveOptions`‑klassen.
+**Q: Ondersteunt Aspose.Note andere exportformaten naast PDF?**  
+A: Zeker. Je kunt exporteren naar HTML, XPS of verschillende beeldformaten zoals PNG en JPEG met behulp van de bijbehorende `SaveOptions`‑klassen.
 
-**V: Is er een manier om **export OneNote document PDF** met ingesloten lettertypen te maken?**  
+**Q: Is er een manier om **OneNote te exporteren als PDF** met ingesloten lettertypen?**  
 A: Stel `options.setEmbedStandardFonts(true)` in op de `PdfSaveOptions`‑instantie vóór het opslaan.
 
-**V: Zijn er licentie‑overwegingen voor gebruik in productie?**  
+**Q: Zijn er licentie‑overwegingen voor productiegebruik?**  
 A: Een gratis proefversie is beschikbaar voor evaluatie, maar een commerciële licentie is vereist voor inzet in productie‑omgevingen.
 
-## Conclusie
+## Conclusion
 
-Je weet nu **hoe je PDF kunt opslaan** vanuit OneNote‑bestanden met Aspose.Note voor Java, met volledige controle over de paginadimensies – of je nu een standaard Letter‑lay-out nodig hebt of een A4‑pagina die meegroeit met je inhoud. Integreer deze fragmenten in je bestaande Java‑applicaties om documentconversie te automatiseren, afdrukbare rapporten te genereren, of OneNote‑notitieblokken als PDF’s te archiveren.
+Je weet nu **hoe je OneNote naar PDF kunt converteren** met Aspose.Note voor Java, met volledige controle over paginadimensies — of je nu een standaard Letter‑indeling nodig hebt of een A4‑pagina die meegroeit met je inhoud. Integreer deze fragmenten in je bestaande Java‑applicaties om documentconversie te automatiseren, afdrukbare rapporten te genereren of OneNote‑notitieblokken als PDF’s te archiveren. Wanneer je **PDF A4‑grootte opslaat** of **PDF Letter‑grootte opslaat**, zal de output exact overeenkomen met de specificaties die je hebt ingesteld, wat zorgt voor een professionele uitstraling van elk document.
 
 ---
 
-**Laatst bijgewerkt:** 2025-12-17  
-**Getest met:** Aspose.Note voor Java 23.12  
+**Laatst bijgewerkt:** 2026-03-14  
+**Getest met:** Aspose.Note for Java 23.12  
 **Auteur:** Aspose  
 
 {{< /blocks/products/pf/tutorial-page-section >}}

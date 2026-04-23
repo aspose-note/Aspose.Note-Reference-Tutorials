@@ -1,16 +1,18 @@
 ---
-date: 2025-12-17
+date: 2026-03-14
 description: Naučte se, jak v Javě ukládat dokumenty OneNote jako soubory TIFF pomocí
-  komprese TIFF JPEG, PackBits nebo CCITT Group 3 Fax. Ovládejte kvalitu obrazu, velikost
-  souboru a režim barev pomocí Aspose.Note.
+  komprese TIFF JPEG, komprese TIFF PackBits nebo CCITT Group 3 Fax. Ovládejte kvalitu
+  obrazu, velikost souboru a barevný režim pomocí Aspose.Note.
 linktitle: Save to TIFF Image Using TIFF JPEG Compression in OneNote
 second_title: Aspose.Note Java API
-title: Uložit do TIFF obrázku pomocí komprese TIFF JPEG v OneNote
+title: Uložit do TIFF obrázku pomocí TIFF JPEG komprese v OneNote
 url: /cs/java/onenote-document-saving/save-to-tiff-image-using-image-save-options/
 weight: 21
 ---
 
-{{< blocks/products/pf/main-wrap-class >}}
+ unchanged. Ensure we didn't translate any URLs (none). Ensure we kept markdown formatting.
+
+Now produce final answer.{{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
@@ -18,28 +20,30 @@ weight: 21
 
 ## Úvod
 
-V tomto tutoriálu se dozvíte **how to save a OneNote document to a TIFF file using TIFF JPEG compression** a také o dvou dalších populárních metodách komprese. Provedeme vás potřebným nastavením, importem nezbytných Java balíčků a poskytneme jasný krok‑za‑krokem kód pro každou možnost komprese. Na konci budete schopni řídit **TIFF image quality**, snížit velikost souboru a dokonce vytvořit černobílé TIFFy pro fax‑styl výstup.
+V tomto tutoriálu objevíte **jak uložit dokument OneNote do souboru TIFF pomocí komprese TIFF JPEG** a dva další populární kompresní metody. Provedeme vás potřebným nastavením, importem nezbytných Java balíčků a poskytneme jasný krok‑za‑krokem kód pro každou možnost komprese. Na konci budete schopni řídit **kvalitu obrázku TIFF**, snížit velikost souboru a dokonce vytvořit černobílé TIFF soubory pro fax‑styl výstup.
 
 ## Rychlé odpovědi
-- **What is TIFF JPEG compression?** Metoda ztrátové komprese, která snižuje velikost souboru TIFF při zachování vizuální kvality.  
-- **Which library handles the conversion?** Aspose.Note for Java.  
-- **Do I need a license?** Bezplatná zkušební verze funguje pro testování; licence je vyžadována pro produkci.  
-- **Can I change the image quality?** Ano, nastavte vlastnost `quality` na `ImageSaveOptions`.  
-- **Is batch conversion possible?** Rozhodně – projděte smyčkou dokumenty a použijte stejné možnosti.
+- **Co je komprese TIFF JPEG?** Metoda ztrátové komprese, která snižuje velikost souboru TIFF při zachování vizuální kvality.  
+- **Která knihovna provádí konverzi?** Aspose.Note for Java.  
+- **Potřebuji licenci?** Bezplatná zkušební verze funguje pro testování; licence je vyžadována pro produkci.  
+- **Mohu změnit kvalitu obrázku?** Ano, nastavte vlastnost `quality` na `ImageSaveOptions`.  
+- **Je možná hromadná konverze?** Rozhodně – projděte dokumenty ve smyčce a použijte stejné možnosti.
 
-## Co je TIFF JPEG Compression?
+## Co je komprese TIFF JPEG?
 
-Komprese TIFF JPEG ukládá obrazová data v kontejneru TIFF, ale používá ztrátový algoritmus JPEG k zmenšení souboru. Je ideální, když potřebujete rovnováhu mezi **tiff image quality** a menší velikostí souboru, zejména pro webové nebo archivní scénáře.
+Komprese TIFF JPEG ukládá obrazová data v kontejneru TIFF, ale používá ztrátový algoritmus JPEG k zmenšení souboru. Je ideální, když potřebujete rovnováhu mezi **kvalitou obrázku TIFF** a menší velikostí souboru, zejména pro webové nebo archivní scénáře.
 
 ## Proč používat různé typy komprese TIFF?
-
 - **JPEG** – Vhodné pro fotografie; nabízí nastavitelnou kvalitu.  
-- **PackBits** – Jednoduché, bezztrátové kódování běhu; užitečné pro grafiku s velkými jednotnými oblastmi.  
-- **CCITT Group 3 Fax** – Pouze černobílé; perfektní pro skenované dokumenty a faxové přenosy.  
+- **PackBits** – Jednoduché, bezztrátové kódování běhové délky; užitečné pro grafiku s velkými jednotnými oblastmi.  
+- **CCITT Group 3 Fax** – Pouze černobílé; ideální pro skenované dokumenty a faxové přenosy.  
 
-Výběrem správné komprese můžete splnit omezení úložiště, aniž byste obětovali vizuální věrnost požadovanou pro vaši aplikaci.
+Výběrem správné komprese můžete splnit požadavky na úložiště, aniž byste obětovali vizuální věrnost potřebnou pro vaši aplikaci.
 
-## Předpoklady
+## Převod One na TIFF pomocí Aspose.Note
+Pokud je vaším cílem **převést OneNote na TIFF**, níže uvedené tři metody pokrývají nejčastější scénáře. Každá metoda načte soubor `.one`, nakonfiguruje `ImageSaveOptions` a uloží výsledek jako soubor `.tiff`.
+
+## Požadavky
 
 - Nainstalovaný Java Development Kit (JDK).  
 - Knihovna Aspose.Note pro Java přidána do vašeho projektu (Maven/Gradle nebo ruční JAR).  
@@ -47,7 +51,7 @@ Výběrem správné komprese můžete splnit omezení úložiště, aniž byste 
 
 ## Import balíčků
 
-Nejprve přiveďte potřebné třídy Aspose.Note do vašeho Java souboru:
+First, bring the necessary Aspose.Note classes into your Java file:
 
 ```java
 import com.aspose.note.*;
@@ -57,7 +61,7 @@ import java.nio.file.Paths;
 
 ## Krok 1: Uložení do TIFF pomocí komprese TIFF JPEG
 
-Níže je kompletní metoda, která načte soubor OneNote a uloží jej jako TIFF s JPEG kompresí. Upravit hodnotu `quality` (0‑100) pro řízení **tiff image quality**.
+Níže je kompletní metoda, která načte soubor OneNote a uloží jej jako TIFF s JPEG kompresí. Nastavte hodnotu `quality` (0‑100) pro řízení **kvality obrázku TIFF**.
 
 ```java
 public static void SaveToTiffUsingJpegCompression() throws IOException {
@@ -79,16 +83,20 @@ public static void SaveToTiffUsingJpegCompression() throws IOException {
 
 - `ImageSaveOptions` říká Aspose.Note, aby výstupem byl soubor TIFF.  
 - `setTiffCompression(TiffCompression.Jpeg)` vybírá JPEG kompresi.  
-- `setQuality(93)` (volitelné) jemně ladí kvalitu obrazu; nižší hodnoty produkují menší soubory.
+- `setQuality(93)` (volitelné) jemně ladí kvalitu obrázku; nižší hodnoty produkují menší soubory.
 
 ### Jak uložit TIFF s JPEG kompresí v Javě
 1. Nastavte `dataDir` na složku obsahující váš soubor `.one`.  
 2. Zavolejte `SaveToTiffUsingJpegCompression()` z vaší hlavní metody nebo služby.  
 3. Výsledný soubor `.tiff` se objeví ve stejném adresáři.
 
+## Přehled komprese TIFF PackBits
+
+PackBits je bezztrátový kompresní algoritmus, který funguje nejlépe pro obrázky s velkými oblastmi jednolitých barev. V dokumentaci se často označuje jako **tiff packbits compression**.
+
 ## Krok 2: Uložení do TIFF pomocí komprese PackBits
 
-Pokud potřebujete bezztrátovou možnost, PackBits je jednoduchý algoritmus běhové délky, který funguje dobře pro grafiku s jednotnými barvami.
+Pokud potřebujete bezztrátovou možnost, PackBits je jednoduchý algoritmus běhové délky, který funguje dobře pro grafiku s jednolitými barvami.
 
 ```java
 public static void SaveToTiffUsingPackBitsCompression() throws IOException {
@@ -112,7 +120,7 @@ public static void SaveToTiffUsingPackBitsCompression() throws IOException {
 
 ## Krok 3: Uložení do TIFF pomocí komprese CCITT Group 3 Fax (černobílý TIFF)
 
-Pro dokumenty ve stylu faxu často potřebujete **black and white TIFF**. CCITT Group 3 poskytuje vysokou kompresi pro monochromatické obrázky.
+Pro dokumenty ve stylu faxu často potřebujete **černobílý TIFF**. CCITT Group 3 poskytuje vysokou kompresi pro monochromatické obrázky.
 
 ```java
 public static void SaveToTiffUsingCcitt3Compression() throws IOException {
@@ -133,42 +141,42 @@ public static void SaveToTiffUsingCcitt3Compression() throws IOException {
 **Vysvětlení**
 
 - `setColorMode(ColorMode.BlackAndWhite)` vynutí monochromatický výstup.  
-- `setTiffCompression(TiffCompression.Ccitt3)` použije fax‑orientovanou kompresi.
+- `setTiffCompression(TiffCompression.Ccitt3)` aplikuje fax‑orientovanou kompresi.
 
 ## Časté problémy a tipy
 
 | Problém | Řešení |
 |-------|----------|
-| **Výstupní soubor je větší než očekáváno** | Zkuste snížit hodnotu JPEG `quality` nebo přepněte na PackBits, pokud je bezztrátová komprese přijatelná. |
-| **Barvy vypadají vybledlé** | Ujistěte se, že nevybíráte neúmyslně `ColorMode.BlackAndWhite`, když potřebujete plnou barvu. |
-| **Chyba nepodporovaného formátu obrázku** | Ověřte, že používáte aktuální verzi Aspose.Note; starší sestavení mohou postrádat některé kompresní výčty. |
+| **Výstupní soubor je větší, než se očekávalo** | Zkuste snížit hodnotu JPEG `quality` nebo přepněte na PackBits, pokud je bezztrátová komprese přijatelna. |
+| **Barvy vypadají vybledlé** | Ujistěte se, že jste neúmyslně nenastavili `ColorMode.BlackAndWhite`, když potřebujete plnou barvu. |
+| **Chyba nepodporovaného formátu obrázku** | Ověřte, že používáte aktuální verzi Aspose.Note; starší verze mohou postrádat některé kompresní výčty. |
 | **LicenseException za běhu** | Nainstalujte platnou licenci Aspose.Note (`License license = new License(); license.setLicense("Aspose.Note.Java.lic");`). |
 
 ## Často kladené otázky
 
-**Q: Můžu převádět jiné typy dokumentů (např. PDF, DOCX) na TIFF s těmito možnostmi?**  
-A: Ano. Aspose.Note se zaměřuje na soubory OneNote, ale další knihovny Aspose (PDF, Words) poskytují podobné `ImageSaveOptions` pro jejich příslušné formáty.
+**Q: Mohu převádět i jiné typy dokumentů (např. PDF, DOCX) na TIFF s těmito možnostmi?**  
+A: Ano. Zatímco Aspose.Note se zaměřuje na soubory OneNote, Aspose.PDF, Aspose.Words a další knihovny poskytují podobné `ImageSaveOptions` pro jejich formáty.
 
-**Q: Jak se liší komprese TIFF JPEG od standardních JPEG souborů?**  
-A: Obrazová data jsou uložena uvnitř kontejneru TIFF, zachovávají metadata a umožňují více stránek, zatímco kompresní algoritmus zůstává JPEG.
+**Q: Jak se komprese TIFF JPEG liší od standardního JPEG souboru?**  
+A: Algoritmus JPEG je stejný, ale obrazová data jsou uložena uvnitř kontejneru TIFF, který může obsahovat více stránek a bohatší metadata.
 
 **Q: Je možné hromadně zpracovat mnoho souborů `.one`?**  
-A: Rozhodně. Projděte složku, zavolejte kteroukoliv ze tří metod pro každý soubor a shromážděte výsledné TIFFy.
+A: Rozhodně. Procházejte adresář, zavolejte kteroukoliv ze tří metod pro každý soubor a shromážděte výsledné TIFFy.
 
-**Q: Můžu řídit DPI/rozlišení výstupního TIFF?**  
+**Q: Mohu řídit DPI/rozlišení výstupního TIFF?**  
 A: Ano. Použijte `options.setResolution(int dpi)` před uložením.
 
 **Q: Podporuje Aspose.Note asynchronní zpracování?**  
-A: API je samo o sobě synchronní, ale můžete volání zabalit do Java `CompletableFuture` nebo thread poolů pro paralelní provádění.
+A: API je samotné synchronní, ale můžete volání zabalit do Java `CompletableFuture` nebo thread poolu pro paralelní provedení.
 
 ## Závěr
 
-Nyní máte kompletní **java tiff conversion** sadu nástrojů, která vám umožní ukládat dokumenty OneNote jako TIFF soubory pomocí JPEG, PackBits nebo CCITT Group 3 Fax komprese. Přizpůsobte kvalitu, režim barev a rozlišení tak, aby vyhovovaly vašim konkrétním požadavkům na **tiff image quality**, a integrujte tyto metody do hromadných pracovních postupů pro maximální produktivitu.
+Nyní máte kompletní **java tiff conversion** sadu nástrojů, která vám umožní ukládat dokumenty OneNote jako soubory TIFF pomocí komprese JPEG, PackBits nebo CCITT Group 3 Fax. Nastavte kvalitu, režim barev a rozlišení tak, aby vyhovovaly vašim konkrétním požadavkům na **kvalitu obrázku TIFF**, a integrujte tyto metody do hromadných pracovních postupů pro maximální produktivitu.
 
 ---
 
-**Poslední aktualizace:** 2025-12-17  
-**Testováno s:** Aspose.Note for Java 23.12 (nejnovější v době psaní)  
+**Poslední aktualizace:** 2026-03-14  
+**Testováno s:** Aspose.Note for Java 23.12 (latest at time of writing)  
 **Autor:** Aspose  
 
 {{< /blocks/products/pf/tutorial-page-section >}}
