@@ -1,41 +1,54 @@
 ---
-title: العمل مع مراجعات الصفحة في OneNote - Aspose.Note
-linktitle: العمل مع مراجعات الصفحة في OneNote - Aspose.Note
-second_title: Aspose.Note جافا API
-description: تعرف على كيفية إدارة مراجعات الصفحات في مستندات OneNote باستخدام Aspose.Note لـ Java. يوفر دليلاً خطوة بخطوة لتتبع المراجعة والتعاون بشكل فعال.
-weight: 21
+date: 2026-01-15
+description: تعلم كيفية تتبع التغييرات في OneNote وإدارة مراجعات الصفحات في مستندات
+  OneNote باستخدام Aspose.Note للغة Java. يتضمن مثالًا على ملخص المراجعة وكيفية تعديل
+  تاريخ المراجعة.
+linktitle: Working with Page Revisions in OneNote - Aspose.Note
+second_title: Aspose.Note Java API
+title: تتبع التغييرات في أوننوت – إدارة مراجعات الصفحات باستخدام Aspose.Note
 url: /ar/java/onenote-page-manipulation/working-with-page-revisions/
+weight: 21
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# العمل مع مراجعات الصفحة في OneNote - Aspose.Note
+# العمل مع مراجعات الصفحات في OneNote - Aspose.Note
 
 ## مقدمة
 
-يعد OneNote أداة قوية لتنظيم الملاحظات وإدارتها، ولكن في بعض الأحيان تحتاج إلى العمل مع المراجعات لتتبع التغييرات والتعاون بشكل فعال. باستخدام Aspose.Note for Java، يمكنك بسهولة إدارة مراجعات الصفحة في مستندات OneNote برمجيًا. سيرشدك هذا البرنامج التعليمي خلال العملية خطوة بخطوة.
+OneNote أداة قوية لتنظيم الملاحظات، وعندما تحتاج إلى **track changes onenote**، يصبح إدارة مراجعات الصفحات أمرًا أساسيًا للتعاون الفعّال. باستخدام Aspose.Note for Java، يمكنك التعامل مع المراجعات برمجيًا، وعرض من قام بتحرير الصفحة، وحتى تعديل الطوابع الزمنية. يرشّحك هذا الدليل خلال كل خطوة، من تحميل المستند إلى تحديث ملخص المراجعة.
 
-## المتطلبات الأساسية
+## إجابات سريعة
+- **What does “track changes onenote” mean?** يشير إلى مراقبة من قام بتحرير صفحة OneNote ومتى.
+- **Which library is required?** Aspose.Note for Java.
+- **Can I change the author or date of a revision?** نعم، باستخدام RevisionSummary API (`modify revision date`).
+- **Do I need a OneNote file beforehand?** نعم، يلزم وجود ملف `.one` تجريبي.
+- **Is a license needed for production?** يتطلب ترخيص Aspose.Note صالح للاستخدام التجاري.
 
-قبل أن تبدأ، تأكد من أن لديك ما يلي:
+## ما هو مثال ملخص المراجعة؟
+*revision summary* يوفر بيانات تعريفية حول أحدث التغييرات في الصفحة—اسم المؤلف، وقت التعديل الأخير، وتفاصيل أخرى. في هذا الدليل سنسترجع ونعرض هذه المعلومات، ثم نوضح كيفية **modify revision date**.
 
-### بيئة تطوير جافا
+## لماذا تتبع التغييرات onenote باستخدام Aspose.Note؟
+- **Collaboration:** التعاون: رؤية سريعة لمن قام بأحدث التعديلات.
+- **Auditing:** التدقيق: الحفاظ على سجل موثوق للتغييرات للامتثال.
+- **Automation:** الأتمتة: دمج معالجة المراجعات في خدمات الخلفية أو أدوات الترحيل.
 
-تأكد من تثبيت Java Development Kit (JDK) على نظامك.
+## المتطلبات المسبقة
 
-### Aspose.Note لمكتبة جافا
+### بيئة تطوير Java
+تأكد من تثبيت مجموعة تطوير جافا (JDK) على نظامك.
 
-قم بتنزيل وتثبيت Aspose.Note لمكتبة Java من[هنا](https://releases.aspose.com/note/java/).
+### مكتبة Aspose.Note for Java
+قم بتنزيل وتثبيت مكتبة Aspose.Note for Java من [here](https://releases.aspose.com/note/java/).
 
-### وثيقة ون نوت
+### مستند OneNote
+احرص على وجود مستند OneNote تجريبي جاهز لأغراض الاختبار.
 
-احصل على نموذج مستند OneNote جاهزًا لأغراض الاختبار.
+## استيراد الحزم
 
-## حزم الاستيراد
-
-في مشروع Java الخاص بك، قم باستيراد الحزم اللازمة للعمل مع Aspose.Note لـ Java.
+في مشروع Java الخاص بك، استورد الحزم الضرورية للعمل مع Aspose.Note for Java.
 
 ```java
 import com.aspose.note.Document;
@@ -45,9 +58,9 @@ import java.io.IOException;
 import java.util.Calendar;
 ```
 
-دعونا نقسم المثال المقدم إلى خطوات متعددة لفهم واضح.
+دعنا نقسم المثال المقدم إلى خطوات متعددة لفهم واضح.
 
-## الخطوة 1: قم بتحميل مستند OneNote
+## الخطوة 1: تحميل مستند OneNote
 
 أولاً، قم بتحميل مستند OneNote واحصل على الصفحة الفرعية الأولى.
 
@@ -57,9 +70,9 @@ Document document = new Document(dataDir + "Sample1.one");
 Page page = document.getFirstChild();
 ```
 
-## الخطوة 2: اقرأ ملخص مراجعة الصفحة
+## الخطوة 2: قراءة ملخص مراجعة الصفحة
 
-اقرأ ملخص مراجعة المحتوى للصفحة.
+اقرأ ملخص مراجعة المحتوى للصفحة. هذا هو **revision summary example** الذي يُظهر من قام بتحرير الصفحة آخر مرة.
 
 ```java
 RevisionSummary pageRevisionInfo = page.getPageContentRevisionSummary();
@@ -70,7 +83,7 @@ System.out.println(String.format("Author:\t%s\nModified:\t%s",
 
 ## الخطوة 3: تحديث ملخص مراجعة الصفحة
 
-قم بتحديث ملخص مراجعة الصفحة بالمؤلف الجديد والتاريخ المعدل.
+قم بتحديث ملخص مراجعة الصفحة بمؤلف جديد وتاريخ تعديل جديد. يوضح هذا كيفية **modify revision date** برمجيًا.
 
 ```java
 pageRevisionInfo.setAuthorMostRecent("New Author");
@@ -79,31 +92,33 @@ pageRevisionInfo.setLastModifiedTime(modifiedDate.getTime());
 document.save(dataDir + "WorkingWithPageRevisions_out.one");
 ```
 
-## خاتمة
+## الخلاصة
 
-يمكن تبسيط إدارة مراجعات الصفحات في مستندات OneNote برمجيًا باستخدام Aspose.Note لـ Java. باتباع الخطوات الموضحة في هذا البرنامج التعليمي، يمكنك العمل بشكل فعال مع مراجعات الصفحة لتتبع التغييرات والتعاون بسلاسة.
+يمكن تبسيط إدارة مراجعات الصفحات في مستندات OneNote برمجيًا باستخدام Aspose.Note for Java. باتباع الخطوات الموضحة في هذا الدليل، يمكنك بفعالية **track changes onenote**، عرض تفاصيل المراجعة، وحتى **modify revision date** لتناسب سير عملك.
 
-## الأسئلة الشائعة
+## الأسئلة المتكررة
 
-### س1: هل يمكنني استخدام Aspose.Note لـ Java مع مكتبات Java الأخرى؟
+### س1: هل يمكنني استخدام Aspose.Note for Java مع مكتبات Java أخرى؟
+نعم، يمكن دمج Aspose.Note for Java مع مكتبات Java أخرى لتعزيز الوظائف.
 
-ج: نعم، يمكن دمج Aspose.Note for Java مع مكتبات Java الأخرى لتحسين الأداء الوظيفي.
+### س2: هل يدعم Aspose.Note for Java جميع إصدارات مستندات OneNote؟
+يدعم Aspose.Note for Java إصدارات مختلفة من مستندات OneNote، بما في ذلك الإصدارات القديمة.
 
-### س2: هل يدعم Aspose.Note for Java كافة إصدارات مستندات OneNote؟
+### س3: هل Aspose.Note for Java مناسب لتطبيقات المستوى المؤسسي؟
+بالطبع، تم تصميم Aspose.Note for Java لتلبية احتياجات التطبيقات على مستوى المؤسسات مع ميزات قوية وقابلية التوسع.
 
-ج: يدعم Aspose.Note for Java إصدارات مختلفة من مستندات OneNote، بما في ذلك الإصدارات الأقدم.
+### س4: هل يمكنني تخصيص مراجعات الصفحات باستخدام Aspose.Note for Java؟
+نعم، يمكنك تخصيص مراجعات الصفحات وفقًا لمتطلباتك باستخدام Aspose.Note for Java.
 
-### س3: هل Aspose.Note for Java مناسب للتطبيقات على مستوى المؤسسة؟
+### س5: أين يمكنني الحصول على الدعم لـ Aspose.Note for Java؟
+يمكنك الحصول على الدعم لـ Aspose.Note for Java من [Aspose.Note forum](https://forum.aspose.com/c/note/28).
 
-ج: بالتأكيد، تم تصميم Aspose.Note for Java لتلبية احتياجات التطبيقات على مستوى المؤسسة مع ميزات قوية وقابلية للتوسع.
+---
 
-### س4: هل يمكنني تخصيص مراجعات الصفحة باستخدام Aspose.Note لـ Java؟
+**Last Updated:** 2026-01-15  
+**Tested With:** Aspose.Note for Java 24.12  
+**Author:** Aspose  
 
-ج: نعم، يمكنك تخصيص مراجعات الصفحة وفقًا لمتطلباتك باستخدام Aspose.Note لـ Java.
-
-### س5: أين يمكنني الحصول على الدعم لـ Aspose.Note لـ Java؟
-
- ج: يمكنك الحصول على دعم Aspose.Note لـ Java من[منتدى Aspose.Note](https://forum.aspose.com/c/note/28).
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
