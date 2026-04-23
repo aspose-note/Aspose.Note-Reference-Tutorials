@@ -1,11 +1,12 @@
 ---
-date: 2025-12-04
-description: Tanulja meg, hogyan lehet képeket kinyerni a OneNote‑fájlokból, és hogyan
-  konvertálhatja a OneNote‑ot szöveggé Java‑ban az Aspose.Note segítségével. Lépésről‑lépésre
-  útmutató kódrészletekkel.
-linktitle: Extract Images from OneNote using Document Visitor - Java
+date: 2026-02-10
+description: Tanulja meg, hogyan konvertálja a OneNote-ot szöveggé, és hogyan nyerjen
+  ki képeket az Aspose.Note for Java segítségével. Az útmutató bemutatja, hogyan olvassuk
+  be a .one fájlt Java-ban, és hogyan hajtsuk végre a OneNote szövegkinyerést.
+linktitle: Convert OneNote to Text and Extract Images using Document Visitor - Java
 second_title: Aspose.Note Java API
-title: Képek kinyerése a OneNote-ból a Document Visitor használatával – Java
+title: OneNote konvertálása szöveggé és képek kinyerése a Document Visitor használatával
+  – Java
 url: /hu/java/onenote-document-loading/extract-content-using-document-visitor/
 weight: 21
 ---
@@ -14,30 +15,40 @@ weight: 21
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Képek kinyerése a OneNote-ból Dokumentum Látogatóval – Java
+# OneNote konvertálása szöveggé és képek kinyerése Document Visitor segítségével – Java
 
 ## Bevezetés
 
-Aspose.Note for Java megkönnyíti a **képek kinyerését a OneNote** jegyzetfüzetekből, valamint a mögöttes `.one` fájl olvasását Java-ban. Ebben az útmutatóban lépésről lépésre bemutatunk egy komplett, gyakorlati példát, amely megmutatja, hogyan töltsünk be egy OneNote fájlt, járjuk be a struktúráját egy egyedi `DocumentVisitor` segítségével, és nyerjük ki a képeket és a sima szöveget. A végére megtanulod, hogyan **konvertálj OneNote-ot szöveggé**, ha csak a szöveges tartalomra van szükséged.
+Az Aspose.Note for Java megkönnyíti a **OneNote szöveggé konvertálását**, miközben **képeket nyer ki a OneNote jegyzetfüzetekből**. Ebben az útmutatóban egy komplett, gyakorlati példán keresztül mutatjuk be, hogyan töltsünk be egy OneNote fájlt, járjuk be a szerkezetét egy egyedi `DocumentVisitor` segítségével, és nyerjük ki a képeket valamint az egyszerű szöveget. A végére már tudni fogja, hogyan **olvassa be a .one fájlt Java‑ban**, és miért ideális ez a megközelítés automatizált tartalom-migrációhoz vagy jelentéskészítéshez.
 
 ## Gyors válaszok
-- **Milyen könyvtárra van szükségem?** Aspose.Note for Java (letölthető alább).  
-- **Kinyerhetek csak képeket?** Igen – implementáld a `VisitImageStart` metódust egy `DocumentVisitor`-ban.  
-- **Hogyan olvassak be egy .one fájlt Java-ban?** Használd a `new Document(path, new LoadOptions())`-t.  
+- **Melyik könyvtárra van szükségem?** Aspose.Note for Java (letöltési link alább).  
+- **Kizárólag képeket tudok kinyerni?** Igen – valósítsa meg a `VisitImageStart` metódust egy `DocumentVisitor`‑ben.  
+- **Hogyan olvassak be egy .one fájlt Java‑ban?** Használja a `new Document(path, new LoadOptions())` kifejezést.  
 - **Szükség van licencre a termeléshez?** Kereskedelmi licenc szükséges a nem‑próba használathoz.  
-- **Mely Java verzió támogatott?** JDK 8 vagy újabb.
+- **Melyik Java verzió támogatott?** JDK 8 vagy újabb.
+
+## Mi az a OneNote konvertálása szöveggé?
+
+A OneNote szöveggé konvertálása azt jelenti, hogy a `.one` jegyzetfüzet nyers szöveges tartalmát kinyerjük, és egyszerű Unicode szövegként mentjük el. Ez akkor hasznos, ha kereshető archívumokra, könnyű adatfolyamokra vagy egyszerű összefoglalókra van szükség az eredeti OneNote formázás nélkül.
+
+## Miért használjuk az Aspose.Note Document Visitor‑t a OneNote szövegkinyeréshez?
+
+- **Finomhangolt vezérlés:** A visitor minta lehetővé teszi, hogy pontosan meghatározza, mely csomópontokat (oldalak, vázlatok, képek, gazdag szöveg) szeretné feldolgozni.  
+- **Teljesítmény:** Elkerüli a teljes dokumentum egyetlen blobként való betöltését a memóriába; minden csomópontot igény szerint látogat meg.  
+- **Sokoldalúság:** Ugyanaz a visitor kiterjeszthető képek, táblázatok vagy egyedi metaadatok kinyerésére, így egyetlen megoldást nyújt mind a **OneNote szöveggé konvertálásához**, mind a **képek kinyeréséhez**.
 
 ## Előfeltételek
 
-Mielőtt elkezdenéd, győződj meg róla, hogy rendelkezel:
+Mielőtt elkezdené, győződjön meg róla, hogy rendelkezik:
 
-1. Java Development Kit (JDK) 8 vagy újabb telepítve.  
-2. Aspose.Note for Java könyvtár letöltve. Letöltheted **[itt](https://releases.aspose.com/note/java/)**.  
-3. Egy OneNote dokumentum (`.one` fájl), amelyből képeket szeretnél kinyerni vagy szöveggé konvertálni.
+1. Java Development Kit (JDK) 8 vagy újabb verzióval.  
+2. Aspose.Note for Java könyvtárral. Letöltheti **[itt](https://releases.aspose.com/note/java/)**.  
+3. Egy OneNote dokumentummal (`.one` fájl), amelyből képeket szeretne kinyerni vagy szöveget konvertálni.
 
 ## Csomagok importálása
 
-Először importáld a szükséges osztályokat az Aspose.Note API-ból.
+Először importálja a szükséges osztályokat az Aspose.Note API‑ból.
 
 ```java
 import java.io.IOException;
@@ -54,9 +65,9 @@ import com.aspose.note.RichText;
 import com.aspose.note.Title;
 ```
 
-## 1. lépés: Egyedi Document Visitor beállítása
+## 1. lépés: Egyedi Document Visitor létrehozása
 
-Hozz létre egy osztályt, amely kiterjeszti a `DocumentVisitor`-t. Ez az osztály minden egyes csomópontnál meghívódik a OneNote dokumentumban, lehetővé téve a **képek kinyerését a OneNote-ból** és opcionálisan a szöveg összegyűjtését.
+Hozzon létre egy osztályt, amely kiterjeszti a `DocumentVisitor`‑t. Ez az osztály minden egyes csomópontnál meghívásra kerül a OneNote dokumentumban, lehetővé téve a **OneNote képek kinyerését** és opcionálisan a szöveg gyűjtését.
 
 ```java
 public class ExtractOneNoteContentUsingDocumentvisitor extends DocumentVisitor {
@@ -75,9 +86,9 @@ public class ExtractOneNoteContentUsingDocumentvisitor extends DocumentVisitor {
 }
 ```
 
-## 2. lépés: Látogató metódusok implementálása
+## 2. lépés: Visitor metódusok megvalósítása
 
-Adj hozzá felülírásokat a számodra fontos csomóponttípusokhoz. Az alábbiakban a gazdag szöveget, képeket, címeket, oldalakat, vázlatokat és vázlat elemeket kezeljük. A `VisitImageStart` metódusban történik a képek kinyerése.
+Adjon felülírást azokhoz a csomóponttípusokhoz, amelyek érdeklik. Az alábbiakban a gazdag szöveget, képeket, címeket, oldalakat, vázlatokat és vázlategységeket kezeljük. A `VisitImageStart` metódusban történik a képek kinyerése.
 
 ```java
 // Visitor methods for different types of nodes
@@ -118,15 +129,15 @@ public void VisitOutlineElementStart(OutlineElement outlineElement) {
 }
 ```
 
-### Miért implementáljuk ezeket a metódusokat?
+### Miért kell ezeket a metódusokat megvalósítani?
 
-- **Képek kinyerése a OneNote-ból:** A `VisitImageStart` közvetlen hozzáférést biztosít a nyers kép bájtokhoz.  
-- **OneNote konvertálása szöveggé:** A `VisitRichTextStart` összegyűjti a szöveges tartalmat, lehetővé téve egy egyszerű **OneNote szöveggé konvertálás** műveletet.  
-- **.one fájl olvasása Java-ban:** A látogató minta elvonja a mögöttes `.one` fájl struktúráját, így nem kell magadnak a bináris formátumot elemezni.
+- **Képek kinyerése a OneNote‑ból:** A `VisitImageStart` közvetlen hozzáférést biztosít a nyers képbyte-okhoz.  
+- **OneNote szöveggé konvertálása:** A `VisitRichTextStart` összegyűjti a szöveges tartalmat, lehetővé téve egy egyszerű **OneNote szöveggé konvertálás** műveletet.  
+- **.one fájl Java‑ban olvasása:** A visitor minta elrejti a `.one` fájl alacsony szintű szerkezetét, így nem kell magát a bináris formátumot értelmezni.
 
-## 3. lépés: A látogató futtatása a fő metódusból
+## 3. lépés: Visitor futtatása a fő metódusból
 
-Töltsd be a `.one` fájlt, példányosítsd a látogatót, és indítsd el a bejárást.
+Töltse be a `.one` fájlt, példányosítsa a visitor‑t, és indítsa el a bejárást.
 
 ```java
 public static void main(String[] args) throws IOException {
@@ -146,43 +157,44 @@ public static void main(String[] args) throws IOException {
 }
 ```
 
-## Általános felhasználási esetek
+## Gyakori felhasználási esetek
 
-- **Automatizált jelentéskészítés:** Képek és szöveg kinyerése egy OneNote megbeszélés jegyzetfüzetből PDF vagy HTML összefoglaló generálásához.  
-- **Tartalom migráció:** Régi OneNote archívumok konvertálása egyszerű szövegfájlokká indexel vagy keresőmotorok számára.  
-- **Digitális eszközök kinyerése:** Beágyazott képernyőképek, diagramok vagy fényképek gyűjtése más alkalmazásokban való újrahasználathoz.
+- **Automatizált jelentéskészítés:** Képek és szöveg kinyerése egy OneNote megbeszélés jegyzetfüzetéből PDF vagy HTML összefoglaló generálásához.  
+- **Tartalom migráció:** Régi OneNote archívumok konvertálása egyszerű szövegfájlokká indexelés vagy keresőmotorok számára.  
+- **Digitális eszközök kinyerése:** Beágyazott képernyőképek, diagramok vagy fényképek gyűjtése további alkalmazásokban való újrafelhasználásra.  
 
-## Hibakeresés és tippek
+## Hibaelhárítás és tippek
 
-- **Nagy jegyzetfüzetek:** Ha memória problémákba ütközöl, dolgozd fel az oldalakat egyenként a `VisitPageStart` ellenőrzésével, és tölts be oldal‑szintű erőforrásokat csak szükség esetén.  
-- **Képformátumok:** Az `Image` objektum nyers bájtokat ad vissza; a mentés előtt esetleg fel kell ismerned a formátumot (PNG, JPEG).  
-- **Licenc hibák:** Győződj meg róla, hogy beállítottad az Aspose licencet (`License license = new License(); license.setLicense("Aspose.Note.Java.lic");`) a dokumentum betöltése előtt a termelésben.
+- **Nagy jegyzetfüzetek:** Ha memóriaproblémákba ütközik, dolgozzon oldalanként, ellenőrizve a `VisitPageStart`‑ot, és csak szükség esetén töltse be az oldal‑szintű erőforrásokat.  
+- **Képformátumok:** Az `Image` objektum nyers byte‑okat ad vissza; a mentés előtt meg kell határozni a formátumot (PNG, JPEG).  
+- **Licenchibák:** Győződjön meg róla, hogy a termelésben beállította az Aspose licencet (`License license = new License(); license.setLicense("Aspose.Note.Java.lic");`) a dokumentum betöltése előtt.  
+- **Képek hatékony kinyerése:** Szűrje a csomópontokat a `VisitImageStart`‑ben méret vagy formátum alapján, ha csak bizonyos típusú képekre van szükség.  
 
-## Gyakran Ismételt Kérdések
+## Gyakran ismételt kérdések
 
-**K: Kinyerhetek specifikus típusú tartalmat a OneNote dokumentumból?**  
-V: Igen – csak azokat a látogató metódusokat felülírva, amelyekre szükséged van (pl. `VisitImageStart` képekhez, `VisitRichTextStart` szöveghez).
+**K: Képes vagyok-e specifikus típusú tartalmat kinyerni a OneNote dokumentumból?**  
+V: Igen – csak azokat a visitor metódusokat kell felülírni, amelyekre szüksége van (pl. `VisitImageStart` a képekhez, `VisitRichTextStart` a szöveghez).
 
-**K: Az Aspose.Note for Java kompatibilis a OneNote dokumentumok különböző verzióival?**  
-V: Teljesen. A könyvtár támogatja az összes főbb OneNote fájlverziót, így nyugodtan **.one fájl Java** projekteket olvashatsz, függetlenül a forrás OneNote verziótól.
+**K: Az Aspose.Note for Java kompatibilis-e a különböző OneNote dokumentumverziókkal?**  
+V: Teljes mértékben. A könyvtár támogatja az összes fő OneNote fájlverziót, így biztonságosan **olvashat .one fájl Java** projekteket a forrás OneNote verziójától függetlenül.
 
-**K: Integrálhatom ezt a kinyerési folyamatot a Java alkalmazásomba?**  
-V: Igen. A látogató minta zökkenőmentesen működik bármely Java kódbázisban; csak add hozzá a könyvtár JAR-át és hívd meg a fenti példát.
+**K: Integrálhatom-e ezt a kinyerési folyamatot a Java alkalmazásomba?**  
+V: Igen. A visitor minta zökkenőmentesen működik bármely Java kódbázisban; csak adja hozzá a könyvtár JAR‑ját, és hívja meg a fenti példát.
 
-**K: Az Aspose.Note for Java támogatja a komplex OneNote dokumentumok kezelését?**  
-V: Igen. A beágyazott vázlatok, beágyazott média és egyedi adatok mind elérhetők a látogató API-n keresztül.
+**K: Az Aspose.Note for Java támogatja-e a komplex OneNote dokumentumok kezelését?**  
+V: Igen. A beágyazott vázlatok, médiák és egyedi adatok mind elérhetők a visitor API‑n keresztül.
 
-**K: Van valamilyen korlát a feldolgozható OneNote dokumentum méretére?**  
-V: Nincs szigorú korlát, de rendkívül nagy jegyzetfüzetek több heap memóriát igényelhetnek; fontold meg az oldalonkénti feldolgozást.
+**K: Van-e korlátozás a feldolgozható OneNote dokumentum méretére?**  
+V: Nincs szigorú határ, de rendkívül nagy jegyzetfüzetek több heap memóriát igényelhetnek; érdemes oldalanként feldolgozni őket.
 
 **K: Hogyan konvertáljam a kinyert szöveget egyszerű szövegfájlba?**  
-V: Miután a `myConverter.GetText()` egy `String`-et ad vissza, írd ki egy fájlba a szokásos Java I/O-val (`Files.write(Paths.get("output.txt"), text.getBytes());`).
+V: Miután a `myConverter.GetText()` egy `String`‑et ad vissza, írja ki egy fájlba a szokásos Java I/O‑val (`Files.write(Paths.get("output.txt"), text.getBytes());`).
 
----  
+---
 
-**Last Updated:** 2025-12-04  
-**Tested With:** Aspose.Note for Java 24.10  
-**Author:** Aspose  
+**Utolsó frissítés:** 2026-02-10  
+**Tesztelt verzió:** Aspose.Note for Java 24.10  
+**Szerző:** Aspose  
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

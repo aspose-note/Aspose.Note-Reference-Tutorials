@@ -1,10 +1,10 @@
 ---
-date: 2025-12-04
-description: เรียนรู้วิธีดึงรูปภาพจากไฟล์ OneNote และแปลง OneNote เป็นข้อความใน Java
-  ด้วย Aspose.Note คู่มือทีละขั้นตอนพร้อมตัวอย่างโค้ด
-linktitle: Extract Images from OneNote using Document Visitor - Java
+date: 2026-02-10
+description: เรียนรู้วิธีแปลง OneNote เป็นข้อความและดึงรูปภาพด้วย Aspose.Note สำหรับ
+  Java คู่มือแสดงวิธีอ่านไฟล์ .one ด้วย Java และทำการสกัดข้อความจาก OneNote
+linktitle: Convert OneNote to Text and Extract Images using Document Visitor - Java
 second_title: Aspose.Note Java API
-title: ดึงรูปภาพจาก OneNote ด้วย Document Visitor - Java
+title: แปลง OneNote เป็นข้อความและดึงรูปภาพโดยใช้ Document Visitor - Java
 url: /th/java/onenote-document-loading/extract-content-using-document-visitor/
 weight: 21
 ---
@@ -13,30 +13,36 @@ weight: 21
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# ดึงรูปภาพจาก OneNote ด้วย Document Visitor - Java
+# แปลง OneNote เป็นข้อความและดึงรูปภาพโดยใช้ Document Visitor - Java
 
 ## บทนำ
 
-Aspose.Note for Java ทำให้การ **ดึงรูปภาพจาก OneNote** จากสมุดบันทึกเป็นเรื่องง่าย รวมถึงการอ่านไฟล์ `.one` ที่อยู่ด้านล่างใน Java ด้วย ในบทเรียนนี้เราจะพาคุณผ่านตัวอย่างเต็มรูปแบบที่ทำให้คุณเห็นวิธีโหลดไฟล์ OneNote, เดินทางผ่านโครงสร้างด้วย `DocumentVisitor` ที่กำหนดเอง, และดึงรูปภาพและข้อความธรรมดาออกมา เมื่อจบคุณจะรู้วิธี **แปลง OneNote เป็นข้อความ** หากคุณต้องการเพียงเนื้อหาข้อความเท่านั้น
+Aspose.Note for Java ทำให้การ **convert OneNote to text** เป็นเรื่องง่าย พร้อมกับ **extracting images from OneNote** notebooks. ในบทแนะนำนี้เราจะพาคุณผ่านตัวอย่างเต็มรูปแบบที่แสดงวิธีโหลดไฟล์ OneNote, เดินผ่านโครงสร้างด้วย `DocumentVisitor` ที่กำหนดเอง, และดึงรูปภาพและข้อความธรรมดาออกมา. เมื่อเสร็จคุณจะรู้วิธี **read .one file java** projects และทำไมวิธีนี้จึงเหมาะสำหรับการย้ายเนื้อหาอัตโนมัติหรือการรายงาน.
 
 ## คำตอบด่วน
-- **ฉันต้องใช้ไลบรารีอะไร?** Aspose.Note for Java (ลิงก์ดาวน์โหลดด้านล่าง).  
-- **ฉันสามารถดึงรูปภาพเท่านั้นได้หรือไม่?** ได้ – ให้ทำการ implement เมธอด `VisitImageStart` ใน `DocumentVisitor`.  
-- **ฉันจะอ่านไฟล์ .one ใน Java อย่างไร?** ใช้ `new Document(path, new LoadOptions())`.  
-- **ฉันต้องการลิขสิทธิ์สำหรับการใช้งานจริงหรือไม่?** จำเป็นต้องมีลิขสิทธิ์เชิงพาณิชย์สำหรับการใช้งานที่ไม่ใช่รุ่นทดลอง.  
-- **เวอร์ชัน Java ที่รองรับคืออะไร?** JDK 8 หรือสูงกว่า.
+- **ต้องการไลบรารีอะไร?** Aspose.Note for Java (download link below).  
+- **ฉันสามารถดึงรูปภาพเท่านั้นได้หรือไม่?** Yes – implement the `VisitImageStart` method in a `DocumentVisitor`.  
+- **ฉันจะอ่านไฟล์ .one ใน Java อย่างไร?** Use `new Document(path, new LoadOptions())`.  
+- **ต้องการไลเซนส์สำหรับการใช้งานจริงหรือไม่?** A commercial license is required for non‑trial use.  
+- **เวอร์ชัน Java ที่รองรับคืออะไร?** JDK 8 or higher.
+
+## convert OneNote to text คืออะไร?
+
+## ทำไมต้องใช้ Document Visitor ของ Aspose.Note สำหรับการสกัดข้อความจาก onenote?
+
+- **การควบคุมแบบละเอียด:** The visitor pattern lets you decide exactly which nodes (pages, outlines, images, rich text) you want to process.  
+- **ประสิทธิภาพ:** You avoid loading the entire document into memory as a single blob; each node is visited on demand.  
+- **ความหลากหลาย:** The same visitor can be extended to extract images, tables, or custom metadata, making it a one‑stop solution for both **convert onenote to text** and **how to extract images** tasks.
 
 ## ข้อกำหนดเบื้องต้น
 
-ก่อนที่คุณจะเริ่ม, ตรวจสอบให้แน่ใจว่าคุณมี:
-
-1. Java Development Kit (JDK) 8 หรือใหม่กว่า ติดตั้งแล้ว.  
-2. ไลบรารี Aspose.Note for Java ที่ดาวน์โหลดแล้ว คุณสามารถดาวน์โหลดได้ **[ที่นี่](https://releases.aspose.com/note/java/)**.  
-3. เอกสาร OneNote (`.one` file) ที่คุณต้องการดึงรูปภาพหรือแปลงเป็นข้อความ.
+1. Java Development Kit (JDK) 8 or newer installed.  
+2. Aspose.Note for Java library downloaded. You can download it **[here](https://releases.aspose.com/note/java/)**.  
+3. เอกสาร OneNote (`.one` file) ที่คุณต้องการดึงรูปภาพหรือแปลงเป็นข้อความ
 
 ## นำเข้าแพ็กเกจ
 
-แรก, ให้นำเข้าคลาสที่จำเป็นจาก Aspose.Note API.
+ขั้นแรก ให้นำเข้าคลาสที่จำเป็นจาก Aspose.Note API.
 
 ```java
 import java.io.IOException;
@@ -53,9 +59,9 @@ import com.aspose.note.RichText;
 import com.aspose.note.Title;
 ```
 
-## ขั้นตอนที่ 1: ตั้งค่า Custom Document Visitor
+## ขั้นตอนที่ 1: ตั้งค่า Document Visitor แบบกำหนดเอง
 
-สร้างคลาสที่สืบทอดจาก `DocumentVisitor`. คลาสนี้จะถูกเรียกสำหรับแต่ละโหนดในเอกสาร One, ทำให้คุณสามารถ **ดึงรูปภาพจาก OneNote** และเก็บข้อความได้ตามต้องการ.
+สร้างคลาสที่สืบทอดจาก `DocumentVisitor`. คลาสนี้จะถูกเรียกสำหรับแต่ละโหนดในเอกสาร OneNote, ทำให้คุณสามารถ **extract OneNote images** และเก็บข้อความได้ตามต้องการ.
 
 ```java
 public class ExtractOneNoteContentUsingDocumentvisitor extends DocumentVisitor {
@@ -74,9 +80,9 @@ public class ExtractOneNoteContentUsingDocumentvisitor extends DocumentVisitor {
 }
 ```
 
-## ขั้นตอนที่ 2: Implement Visitor Methods
+## ขั้นตอนที่ 2: สร้างเมธอด Visitor
 
-เพิ่มการ override สำหรับประเภทโหนดที่คุณสนใจ ด้านล่างเราจัดการกับ rich‑text, images, titles, pages, outlines, และ outline elements. เมธอด `VisitImageStart` คือที่ทำการดึงรูปภาพ.
+เพิ่มการ override สำหรับประเภทโหนดที่คุณสนใจ ด้านล่างเราจัดการกับ rich‑text, images, titles, pages, outlines, และ outline elements. เมธอด `VisitImageStart` คือที่ทำการสกัดรูปภาพ
 
 ```java
 // Visitor methods for different types of nodes
@@ -117,15 +123,15 @@ public void VisitOutlineElementStart(OutlineElement outlineElement) {
 }
 ```
 
-### ทำไมต้อง implement เมธอดเหล่านี้?
+### ทำไมต้องสร้างเมธอดเหล่านี้?
 
-- **ดึงรูปภาพจาก OneNote:** `VisitImageStart` ให้คุณเข้าถึงไบต์ของรูปภาพดิบโดยตรง.  
-- **แปลง OneNote เป็นข้อความ:** `VisitRichTextStart` รวบรวมเนื้อหาข้อความ, ทำให้สามารถทำ **แปลง OneNote เป็นข้อความ** อย่างง่าย.  
-- **อ่านไฟล์ .one ใน Java:** รูปแบบ Visitor แยกโครงสร้างไฟล์ `.one` พื้นฐานออก, ดังนั้นคุณไม่จำเป็นต้องแยกวิเคราะห์รูปแบบไบนารีด้วยตนเอง.
+- **ดึงรูปภาพจาก OneNote:** `VisitImageStart` gives you direct access to the raw image bytes.  
+- **แปลง OneNote เป็นข้อความ:** `VisitRichTextStart` collects the textual content, enabling a simple **convert OneNote to text** operation.  
+- **อ่านไฟล์ .one ด้วย Java:** The visitor pattern abstracts the underlying `.one` file structure, so you don’t need to parse the binary format yourself.
 
-## ขั้นตอนที่ 3: เรียกใช้ Visitor จากเมธอด Main ของคุณ
+## ขั้นตอนที่ 3: เรียกใช้ Visitor จากเมธอด main ของคุณ
 
-โหลดไฟล์ `.one`, สร้างอินสแตนซ์ของ Visitor ของคุณ, และเริ่มการเดินทาง.
+โหลดไฟล์ `.one`, สร้างอินสแตนซ์ของ visitor ของคุณ, และเริ่มการเดินผ่าน.
 
 ```java
 public static void main(String[] args) throws IOException {
@@ -147,40 +153,41 @@ public static void main(String[] args) throws IOException {
 
 ## กรณีการใช้งานทั่วไป
 
-- **การรายงานอัตโนมัติ:** ดึงรูปภาพและข้อความจากสมุดบันทึกการประชุม OneNote เพื่อสร้างสรุปเป็น PDF หรือ HTML.  
-- **การย้ายเนื้อหา:** แปลงไฟล์ OneNote เก่าเป็นไฟล์ plain‑text เพื่อทำดัชนีหรือให้เครื่องมือค้นหาอ่าน.  
-- **การสกัดสินทรัพย์ดิจิทัล:** เก็บภาพหน้าจอ, แผนภาพ, หรือรูปถ่ายที่ฝังอยู่เพื่อใช้ใหม่ในแอปพลิเคชันอื่น.
+- **การรายงานอัตโนมัติ:** Pull images and text from a OneNote meeting notebook to generate a PDF or HTML summary.  
+- **การย้ายเนื้อหา:** Convert legacy OneNote archives to plain‑text files for indexing or search‑engine ingestion.  
+- **การสกัดสินทรัพย์ดิจิทัล:** Harvest embedded screenshots, diagrams, or photos for reuse in other applications.  
 
 ## การแก้ไขปัญหาและเคล็ดลับ
 
-- **สมุดบันทึกขนาดใหญ่:** หากพบปัญหาหน่วยความจำ, ให้ประมวลผลหน้าแยกตาม `VisitPageStart` และโหลดทรัพยากรระดับหน้าตามความจำเป็น.  
-- **รูปแบบภาพ:** อ็อบเจกต์ `Image` คืนค่าไบต์ดิบ; คุณอาจต้องตรวจจับรูปแบบ (PNG, JPEG) ก่อนบันทึก.  
-- **ข้อผิดพลาดลิขสิทธิ์:** ตรวจสอบว่าคุณได้ตั้งค่าลิขสิทธิ์ Aspose (`License license = new License(); license.setLicense("Aspose.Note.Java.lic");`) ก่อนโหลดเอกสารในสภาพการผลิต.
+- **สมุดบันทึกขนาดใหญ่:** If you encounter memory issues, process pages individually by checking `VisitPageStart` and loading page‑level resources only when needed.  
+- **รูปแบบภาพ:** The `Image` object returns raw bytes; you may need to detect the format (PNG, JPEG) before saving.  
+- **ข้อผิดพลาดไลเซนส์:** Ensure you have set the Aspose license (`License license = new License(); license.setLicense("Aspose.Note.Java.lic");`) before loading the document in production.  
+- **วิธีดึงรูปภาพอย่างมีประสิทธิภาพ:** Filter nodes inside `VisitImageStart` by size or format if you only need certain image types.  
 
 ## คำถามที่พบบ่อย
 
 **Q: ฉันสามารถดึงประเภทเนื้อหาเฉพาะจากเอกสาร OneNote ได้หรือไม่?**  
-A: ได้ – โดยการ override เฉพาะเมธอด Visitor ที่คุณต้องการ (เช่น `VisitImageStart` สำหรับรูปภาพ, `VisitRichTextStart` สำหรับข้อความ).
+A: ได้ – โดยการ override เฉพาะเมธอด visitor ที่คุณต้องการ (เช่น `VisitImageStart` สำหรับรูปภาพ, `VisitRichTextStart` สำหรับข้อความ).
 
 **Q: Aspose.Note for Java รองรับเวอร์ชันต่าง ๆ ของเอกสาร OneNote หรือไม่?**  
-A: แน่นอน. ไลบรารีรองรับเวอร์ชันไฟล์ OneNote หลักทั้งหมด, ดังนั้นคุณสามารถ **อ่านไฟล์ .one ใน Java** ได้อย่างปลอดภัยไม่ว่าจะเป็นเวอร์ชันใดของ OneNote ที่มาจาก.
+A: Absolutely. The library supports all major OneNote file versions, so you can safely **read .one file java** projects regardless of the originating OneNote version.
 
-**Q: ฉันสามารถรวมกระบวนการสกัดนี้เข้ากับแอปพลิเคชัน Java ของฉันได้หรือไม่?**  
-A: ได้. รูปแบบ Visitor ทำงานอย่างราบรื่นในโค้ด Java ใด ๆ; เพียงเพิ่ม JAR ของไลบรารีและเรียกใช้ตัวอย่างที่แสดงด้านบน.
+**Q: ฉันสามารถรวมกระบวนการสกัดนี้เข้าในแอปพลิเคชัน Java ของฉันได้หรือไม่?**  
+A: Yes. The visitor pattern works seamlessly inside any Java codebase; just add the library JAR and call the example shown above.
 
 **Q: Aspose.Note for Java มีการสนับสนุนการจัดการเอกสาร OneNote ที่ซับซ้อนหรือไม่?**  
-A: มี. โครงร่างซ้อนกัน, สื่อฝัง, และข้อมูลกำหนดเองทั้งหมดสามารถเข้าถึงได้ผ่าน Visitor API.
+A: It does. Nested outlines, embedded media, and custom data are all exposed through the visitor API.
 
-**Q: มีขีดจำกัดขนาดของเอกสาร OneNote ที่สามารถประมวลผลได้หรือไม่?**  
-A: ไม่มีขีดจำกัดที่แน่นอน, แต่สมุดบันทึกที่ใหญ่มากอาจต้องการหน่วยความจำ heap มากขึ้น; ควรพิจารณาประมวลผลเป็นหน้าทีละหน้า.
+**Q: มีขีดจำกัดใด ๆ สำหรับขนาดของเอกสาร OneNote ที่สามารถประมวลผลได้หรือไม่?**  
+A: There is no hard limit, but extremely large notebooks may require more heap memory; consider processing them page by page.
 
-**Q: ฉันจะแปลงข้อความที่สกัดออกเป็นไฟล์ plain‑text อย่างไร?**  
-A: หลังจาก `myConverter.GetText()` คืนค่า `String`, ให้เขียนลงไฟล์โดยใช้ Java I/O มาตรฐาน (`Files.write(Paths.get("output.txt"), text.getBytes());`).
+**Q: ฉันจะแปลงข้อความที่สกัดได้เป็นไฟล์ข้อความธรรมดาอย่างไร?**  
+A: After `myConverter.GetText()` returns a `String`, write it to a file using standard Java I/O (`Files.write(Paths.get("output.txt"), text.getBytes());`).
 
----  
+---
 
-**อัปเดตล่าสุด:** 2025-12-04  
-**ทดสอบกับ:** Aspose.Note for Java 24.10  
+**อัปเดตล่าสุด:** 2026-02-10  
+**ทดสอบด้วย:** Aspose.Note for Java 24.10  
 **ผู้เขียน:** Aspose  
 
 {{< /blocks/products/pf/tutorial-page-section >}}
