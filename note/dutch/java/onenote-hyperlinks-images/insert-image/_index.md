@@ -1,11 +1,11 @@
 ---
-date: 2025-12-21
-description: Leer hoe u afbeeldingen kunt toevoegen aan OneNote‑documenten met Java
-  en Aspose.Note voor Java. Volg onze stapsgewijze handleiding om afbeeldingen in
-  te voegen en optioneel OneNote op te slaan als PDF.
+date: 2026-03-19
+description: Leer hoe je een afbeelding toevoegt aan OneNote met Java en Aspose.Note
+  voor Java, inclusief hoe je afbeeldingsafmetingen instelt in Java en OneNote opslaat
+  als PDF.
 linktitle: Insert an Image in OneNote Document with Java
 second_title: Aspose.Note Java API
-title: Hoe een afbeelding toe te voegen aan OneNote met Java
+title: Afbeelding toevoegen aan OneNote met Java
 url: /nl/java/onenote-hyperlinks-images/insert-image/
 weight: 16
 ---
@@ -14,41 +14,43 @@ weight: 16
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Voeg een afbeelding in in OneNote-document met Java
+# Een afbeelding invoegen in OneNote-document met Java
 
-## Introductie
+## Introduction
 
-In deze tutorial verkennen we hoe je een afbeelding in een OneNote-document kunt invoegen met Java met behulp van Aspose.Note voor Java. Aspose.Note for Java is een krachtige bibliotheek die ontwikkelaars in staat stelt om programmatisch met Microsoft OneNote-bestanden te werken, waardoor verschillende bewerkingen mogelijk zijn, zoals het maken, lezen en manipuleren van OneNote-documenten.
+In deze tutorial leer je **how to add image to OneNote** programmatisch met Java en de Aspose.Note for Java bibliotheek. Het invoegen van afbeeldingen in OneNote-pagina's is handig wanneer je notulen, geautomatiseerde rapporten of documentatie moet genereren die tekst combineert met visuele gegevens. Aan het einde van de gids kun je een bestaand OneNote-bestand laden, een afbeelding invoegen, optioneel de grootte en positie aanpassen, en zelfs **save OneNote as PDF** – allemaal zonder de OneNote UI te openen.
 
-## Snelle antwoorden
-- **Wat is de gemakkelijkste manier om een ​​afbeelding toe te voegen aan OneNote met Java?** 
-Gebruik de `Image`‑klasse van Aspose.Note for Java en voeg deze toe aan een pagina.
-- **Heb ik een licentie nodig voor productiegebruik?** 
-Ja, een licentie is vereist voor productie‑implementaties.
-- **Kan ik aangepaste afmetingen voor de afbeelding instellen?** 
-Absoluut – roep `setWidth()` en `setHeight()` aan op het `Image`-object.
-- **Is het mogelijk om het OneNote-bestand als PDF op te slaan nadat de afbeelding is toegevoegd?** 
-Ja, roep `save(..., SaveFormat.Pdf)` naar **OneNote sla op als PDF**.
-- **Welke Java-versie wordt ondersteund?** 
-Aspose.Note voor Java werkt met JDK8 en hoger.
+## Quick Answers
+- **What is the easiest way to add image to OneNote using Java?**  
+  Gebruik de `Image`-klasse van Aspose.Note for Java en voeg deze toe aan een pagina.
+- **Do I need a license for production use?**  
+  Ja, een commerciële licentie is vereist voor productie‑implementaties.
+- **Can I set custom dimensions for the image?**  
+  Absoluut – roep `setWidth()` en `setHeight()` aan op het `Image`-object.
+- **Is it possible to save the OneNote file as PDF after adding the image?**  
+  Ja, roep `save(..., SaveFormat.Pdf)` aan om **save OneNote as PDF**.
+- **Which Java version is supported?**  
+  Aspose.Note for Java werkt met JDK 8 en hoger.
 
-## Hoe kan ik een afbeelding toevoegen aan OneNote met Java?
+## Why add image to OneNote?
 
-Voordat we in de code duiken, laten we kort beschrijven waarom je programmatisch afbeeldingen in OneNote zou willen insluiten. Of je nu notulen maakt, gewelddadige rapporten geschreven, of een documentatie‑pipeline bouwt, het invoegen van afbeeldingen geeft je notities een visuele context die platte tekst niet kan bieden. Met Aspose.Note voor Java kun je dit volledig in code doen, zonder dat je de OneNote‑UI kunt openen.
+Waarom een afbeelding toevoegen aan OneNote?
 
-## Vereisten
+Het toevoegen van visuele elementen maakt notities makkelijker te begrijpen en aantrekkelijker. Afbeeldingen kunnen diagrammen, screenshots of gegevensgrafieken illustreren die anders een lange tekstuele beschrijving zouden vereisen. Het automatiseren van deze stap bespaart tijd, vooral bij het genereren van grote aantallen notities uit gegevensbronnen.
 
-Voordat we beginnen, zorg ervoor dat je de volgende vereisten hebt ingesteld:
+## Prerequisites
 
-### 1. Java-ontwikkelingskit (JDK)
-Zorg ervoor dat je Java Development Kit (JDK) op je systeem hebt geïnstalleerd. Je kunt JDK downloaden en installeren vanaf de Oracle‑website.
+Voordat we beginnen, zorg dat je het volgende klaar hebt:
 
-### 2. Aspose.Note voor Java-bibliotheek
-Download en installeer de Aspose.Note voor Java‑bibliotheek door de [documentatie](https://reference.aspose.com/note/java/) om te volgen.
+### 1. Java Development Kit (JDK)
+Installeer JDK 8 of nieuwer. Je kunt het downloaden van de Oracle-website of een OpenJDK-distributie gebruiken.
 
-## Pakketten importeren
+### 2. Aspose.Note for Java Library
+Download de nieuwste Aspose.Note for Java bibliotheek en voeg deze toe aan de classpath van je project. Gedetailleerde installatie‑instructies zijn beschikbaar in de officiële [documentatie](https://reference.aspose.com/note/java/).
 
-Begin met het importeren van de gecombineerde pakketten in je Java-project. Deze pakketten omvatten de Aspose.Note‑bibliotheek en andere vereiste afhankelijkheden.
+## Import Packages
+
+Begin met het importeren van de benodigde klassen. Deze imports geven je toegang tot de kernfunctionaliteit van Aspose.Note evenals basis Java‑hulpmiddelen.
 
 ```java
 import java.io.IOException;
@@ -60,11 +62,13 @@ import com.aspose.note.Page;
 import com.aspose.note.SaveFormat;
 ```
 
-Laten we het proces van het toevoegen van een afbeelding in een OneNote-document opsplitsen in meerdere stappen:
+## Step‑by‑Step Guide
 
-## Stap 1: Laad het OneNote-document
+Hieronder vind je een beknopte, genummerde walkthrough. Elke stap bevat een korte uitleg gevolgd door de exacte code die je moet kopiëren.
 
-Laad eerst je het OneNote-document waarin je de afbeelding wilt invoegen.
+### Step 1: Load the OneNote document
+
+We maken een `LoadOptions`‑instantie (handig voor toekomstige aanpassingen) en openen het bestaande `.one`‑bestand.
 
 ```java
 LoadOptions options = new LoadOptions();
@@ -72,25 +76,25 @@ String dataDir = "Your Document Directory";
 Document oneFile = new Document(dataDir + "Sample1.one", options);
 ```
 
-## Stap 2: De pagina ophalen
+### Step 2: Get the target page
 
-Verkrijg de pagina in het document waar je de afbeelding wilt invoegen.
+Voor eenvoud werken we met de eerste pagina in het document, maar je kunt naar elke gewenste pagina navigeren.
 
 ```java
 Page page = oneFile.getFirstChild();
 ```
 
-## Stap 3: De afbeelding laden
+### Step 3: Load the image you want to embed
 
-Laad de afbeelding die je wilt invoegen in het OneNote‑document.
+Instantieer een `Image`‑object door de documentreferentie en het pad naar het afbeeldingsbestand door te geven.
 
 ```java
 Image image = new Image(oneFile, dataDir + "Input.jpg");
 ```
 
-## Stap 4: Afbeeldingskenmerken aanpassen (optioneel)
+### Step 4: Set image dimensions Java (optional)
 
-Optioneel kun je de grootte, locatie en uitlijning van de afbeelding aanpassen volgens je vereisten. Dit is waar je **afbeeldingsafmetingen instelt Java** stijl.
+Als je wilt dat de afbeelding in een specifiek gebied past, pas dan de breedte, hoogte en offsets aan. Hier komt het secundaire trefwoord **set image dimensions java** goed van pas.
 
 ```java
 image.setWidth(100);
@@ -100,17 +104,17 @@ image.setHorizontalOffset(100);
 image.setAlignment(HorizontalAlignment.Right);
 ```
 
-## Stap 5: Afbeelding aan de pagina toevoegen
+### Step 5: Append the image to the page
 
-Voeg de afbeelding toe aan de pagina in het OneNote‑document.
+De `appendChildLast`‑methode voegt de afbeelding toe als het laatste element op de geselecteerde pagina.
 
 ```java
 page.appendChildLast(image);
 ```
 
-## Stap 6: Het document opslaan
+### Step 6: Save the document – you can also save OneNote as PDF
 
-Sla het gewijzigde document op, inclusief de ingevoegde afbeelding. Je kunt ook **OneNote opslaan als PDF** in deze fase.
+Tot slot, sla de wijzigingen op. Het voorbeeld toont hoe je het bestand opslaat als PDF, waarmee het secundaire trefwoord **save onenote as pdf** wordt vervuld.
 
 ```java
 try {
@@ -120,37 +124,45 @@ try {
 }
 ```
 
-## Conclusie
+## Common Issues and Solutions
 
-In deze tutorial hebben we geleerd hoe je een afbeelding in een OneNote-document kunt invoegen met Java met behulp van de Aspose.Note voor Java-bibliotheek. Door de stapsgewijze gids te volgen, kun je moeiteloos afbeeldingen programmatisch opnemen in je OneNote-documenten opnemen.
+| Symptoom | Waarschijnlijke oorzaak | Oplossing |
+|----------|--------------------------|-----------|
+| `FileNotFoundException` bij het laden van de afbeelding | Onjuist afbeeldingspad | Controleer of `dataDir` en de bestandsnaam van de afbeelding correct zijn. |
+| Afbeelding verschijnt vervormd | Breedte/hoogte onjuist ingesteld | Gebruik de originele afbeeldingsafmetingen of bereken een juiste beeldverhouding voordat je `setWidth`/`setHeight` aanroept. |
+| PDF‑output is leeg | Ontbrekende licentie voor Aspose.Note | Pas een geldige licentie toe vóór het aanroepen van `save`. |
 
-## Veelgestelde vragen
+## Frequently Asked Questions
 
-### Vraag 1: Kan ik met deze methode meerdere afbeeldingen in één OneNote-document invoegen?
+### Q1: Can I insert multiple images into a single OneNote document using this method?
 
-**A1:** Ja, je kunt meerdere afbeeldingen in één OneNote-document toevoegen door het proces dat in deze tutorial wordt beschreven voor elke afbeelding te herhalen.
+**A:** Ja. Herhaal simpelweg Stappen 3‑5 voor elke afbeelding die je wilt toevoegen, gericht op dezelfde of verschillende pagina's.
 
-### V2: Is Aspose.Note voor Java compatibel met alle versies van OneNote?
+### Q2: Is Aspose.Note for Java compatible with all versions of OneNote?
 
-**A2:** Aspose.Note for Java ondersteunt het werken met OneNote‑bestanden die zijn gemaakt in Microsoft OneNote 2010 en latere versies.
+**A:** Aspose.Note for Java ondersteunt OneNote‑bestanden die zijn gemaakt met Microsoft OneNote 2010 en latere versies.
 
-### V3: Kan ik afbeeldingen van verschillende formaten, zoals PNG of GIF, in een OneNote-document invoegen?
+### Q3: Can I insert images of different formats, such as PNG or GIF, into a OneNote document?
 
-**A3:** Ja, Aspose.Note for Java ondersteunt het invoegen van afbeeldingen in diverse formaten, waaronder PNG, JPEG, GIF en meer.
+**A:** Absoluut. De bibliotheek accepteert PNG, JPEG, GIF, BMP en verschillende andere gangbare formaten.
 
-### V4: Is er een proefversie van Aspose.Note voor Java beschikbaar voor testdoeleinden?
+### Q4: Is there a trial version of Aspose.Note for Java available for testing purposes?
 
-**A4:** Ja, je kunt een gratis proefversie van Aspose.Note voor het downloaden van Java van de website voor evaluatiedoeleinden.
+**A:** Ja, je kunt een gratis proefversie downloaden van de Aspose‑website om de API te evalueren voordat je koopt.
 
-### V5: Hoe kan ik technische ondersteuning krijgen voor Aspose.Note voor Java?
+### Q5: How can I get technical support for Aspose.Note for Java?
 
-**A5:** Je kunt technische ondersteuning voor Aspose.Note for Java krijgen door het [forum](https://forum.aspose.com/c/note/28) te bezoeken dat gewijd is aan Aspose.Note‑producten.
+**A:** Je kunt hulp krijgen door het [forum](https://forum.aspose.com/c/note/28) te bezoeken dat gewijd is aan Aspose.Note‑producten.
+
+## Conclusion
+
+Je hebt nu een compleet, productie‑klaar voorbeeld dat **how to add image to OneNote** laat zien met Java, het uiterlijk aanpast, en optioneel **save OneNote as PDF**. Voel je vrij om de code aan te passen aan je eigen workflows—of je nu een rapportage‑engine, een geautomatiseerd documentatiesysteem, of een aangepaste notitie‑applicatie bouwt.
 
 ---
 
-**Laatst bijgewerkt:** 21-12-2025
-**Getest met:** Aspose.Note voor Java 24.10
-**Auteur:** Aspose  
+**Last Updated:** 2026-03-19  
+**Tested With:** Aspose.Note for Java 24.10  
+**Author:** Aspose  
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

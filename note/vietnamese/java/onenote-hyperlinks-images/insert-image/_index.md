@@ -1,11 +1,10 @@
 ---
-date: 2025-12-21
-description: Tìm hiểu cách thêm hình ảnh vào tài liệu OneNote bằng Java với Aspose.Note
-  for Java. Thực hiện theo hướng dẫn từng bước của chúng tôi để chèn hình ảnh và tùy
-  chọn lưu OneNote dưới dạng PDF.
+date: 2026-03-19
+description: Học cách thêm hình ảnh vào OneNote bằng Java với Aspose.Note for Java,
+  bao gồm cách đặt kích thước hình ảnh trong Java và lưu OneNote dưới dạng PDF.
 linktitle: Insert an Image in OneNote Document with Java
 second_title: Aspose.Note Java API
-title: Cách thêm hình ảnh vào OneNote bằng Java
+title: Thêm hình ảnh vào OneNote bằng Java
 url: /vi/java/onenote-hyperlinks-images/insert-image/
 weight: 16
 ---
@@ -14,41 +13,41 @@ weight: 16
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Chèn hình ảnh vào tài liệu OneNote bằng Java
+# Chèn Hình Ảnh vào Tài liệu OneNote bằng Java
 
-## Giới thiệu
+## Introduction
 
-Trong hướng dẫn này, chúng ta sẽ khám phá cách chèn một hình ảnh vào tài liệu OneNote bằng Java với sự trợ giúp của Aspose.Note for Java. Aspose.Note for Java là một thư viện mạnh mẽ cho phép các nhà phát triển làm việc với các tệp Microsoft OneNote một cách lập trình, hỗ trợ các thao tác như tạo, đọc và thao tác các tài liệu OneNote.
+Trong hướng dẫn này, bạn sẽ học **cách thêm hình ảnh vào OneNote** bằng cách lập trình sử dụng Java và thư viện Aspose.Note for Java. Nhúng hình ảnh vào các trang OneNote rất hữu ích khi bạn cần tạo biên bản họp, báo cáo tự động, hoặc tài liệu kết hợp văn bản với dữ liệu hình ảnh. Khi hoàn thành hướng dẫn, bạn sẽ có thể tải một tệp OneNote hiện có, chèn một hình ảnh, tùy chọn điều chỉnh kích thước và vị trí, và thậm chí **lưu OneNote dưới dạng PDF** – tất cả mà không cần mở giao diện người dùng OneNote.
 
-## Câu trả lời nhanh
+## Quick Answers
 - **Cách dễ nhất để thêm hình ảnh vào OneNote bằng Java là gì?**  
   Sử dụng lớp `Image` của Aspose.Note for Java và thêm nó vào một trang.
 - **Tôi có cần giấy phép cho việc sử dụng trong môi trường sản xuất không?**  
-  Có, cần giấy phép thương mại cho các triển khai trong môi trường sản xuất.
+  Có, cần giấy phép thương mại cho các triển khai sản xuất.
 - **Tôi có thể đặt kích thước tùy chỉnh cho hình ảnh không?**  
   Chắc chắn – gọi `setWidth()` và `setHeight()` trên đối tượng `Image`.
 - **Có thể lưu tệp OneNote dưới dạng PDF sau khi thêm hình ảnh không?**  
   Có, gọi `save(..., SaveFormat.Pdf)` để **lưu OneNote dưới dạng PDF**.
 - **Phiên bản Java nào được hỗ trợ?**  
-  Aspose.Note for Java hoạt động với JDK 8 và các phiên bản sau.
+  Aspose.Note for Java hoạt động với JDK 8 trở lên.
 
-## Cách thêm hình ảnh vào OneNote bằng Java?
+## Why add image to OneNote?
 
-Trước khi bắt đầu viết mã, hãy cùng thảo luận ngắn gọn tại sao bạn có thể muốn nhúng hình ảnh vào OneNote một cách lập trình. Dù bạn đang tạo biên bản họp, tạo báo cáo tự động, hay xây dựng quy trình tài liệu, việc chèn hình ảnh sẽ cung cấp ngữ cảnh trực quan cho ghi chú mà văn bản thuần không thể mang lại. Với Aspose.Note for Java, bạn có thể thực hiện toàn bộ quá trình này bằng code, mà không cần mở giao diện OneNote.
+Thêm các yếu tố hình ảnh làm cho ghi chú dễ hiểu hơn và hấp dẫn hơn. Hình ảnh có thể minh họa sơ đồ, ảnh chụp màn hình, hoặc biểu đồ dữ liệu mà nếu không sẽ cần mô tả bằng văn bản dài dòng. Tự động hoá bước này tiết kiệm thời gian, đặc biệt khi tạo ra một lượng lớn ghi chú từ các nguồn dữ liệu.
 
-## Yêu cầu trước
+## Prerequisites
 
-Trước khi bắt đầu, hãy đảm bảo rằng bạn đã thiết lập các yêu cầu sau:
+Trước khi bắt đầu, hãy chắc chắn bạn đã chuẩn bị các mục sau:
 
 ### 1. Java Development Kit (JDK)
-Đảm bảo bạn đã cài đặt Java Development Kit (JDK) trên hệ thống của mình. Bạn có thể tải và cài đặt JDK từ trang web của Oracle.
+Cài đặt JDK 8 hoặc mới hơn. Bạn có thể tải xuống từ trang web Oracle hoặc sử dụng bản phân phối OpenJDK.
 
 ### 2. Aspose.Note for Java Library
-Tải xuống và thiết lập thư viện Aspose.Note for Java bằng cách tham khảo [documentation](https://reference.aspose.com/note/java/).
+Tải thư viện Aspose.Note for Java mới nhất và thêm vào classpath của dự án. Hướng dẫn cài đặt chi tiết có sẵn trong [tài liệu chính thức](https://reference.aspose.com/note/java/).
 
-## Nhập gói
+## Import Packages
 
-Bắt đầu bằng việc nhập các gói cần thiết vào dự án Java của bạn. Các gói này bao gồm thư viện Aspose.Note và các phụ thuộc khác cần thiết.
+Bắt đầu bằng việc nhập các lớp cần thiết. Các import này cung cấp quyền truy cập vào chức năng cốt lõi của Aspose.Note cũng như các tiện ích cơ bản của Java.
 
 ```java
 import java.io.IOException;
@@ -60,11 +59,13 @@ import com.aspose.note.Page;
 import com.aspose.note.SaveFormat;
 ```
 
-Hãy phân tích quy trình chèn hình ảnh vào tài liệu OneNote thành nhiều bước:
+## Step‑by‑Step Guide
 
-## Bước 1: Tải tài liệu OneNote
+Dưới đây là một hướng dẫn ngắn gọn, được đánh số. Mỗi bước bao gồm một giải thích ngắn gọn và đoạn mã chính xác bạn cần sao chép.
 
-Đầu tiên, tải tài liệu OneNote mà bạn muốn chèn hình ảnh vào.
+### Step 1: Load the OneNote document
+
+Chúng ta tạo một thể hiện `LoadOptions` (hữu ích cho các tùy chỉnh trong tương lai) và mở tệp `.one` hiện có.
 
 ```java
 LoadOptions options = new LoadOptions();
@@ -72,25 +73,25 @@ String dataDir = "Your Document Directory";
 Document oneFile = new Document(dataDir + "Sample1.one", options);
 ```
 
-## Bước 2: Lấy trang
+### Step 2: Get the target page
 
-Lấy trang trong tài liệu nơi bạn muốn chèn hình ảnh.
+Để đơn giản, chúng ta làm việc với trang đầu tiên trong tài liệu, nhưng bạn có thể điều hướng tới bất kỳ trang nào bạn cần.
 
 ```java
 Page page = oneFile.getFirstChild();
 ```
 
-## Bước 3: Tải hình ảnh
+### Step 3: Load the image you want to embed
 
-Tải hình ảnh mà bạn muốn chèn vào tài liệu OneNote.
+Khởi tạo một đối tượng `Image` bằng cách truyền tham chiếu tài liệu và đường dẫn tới tệp hình ảnh.
 
 ```java
 Image image = new Image(oneFile, dataDir + "Input.jpg");
 ```
 
-## Bước 4: Tùy chỉnh thuộc tính hình ảnh (Tùy chọn)
+### Step 4: Set image dimensions Java (optional)
 
-Tùy chọn, bạn có thể tùy chỉnh kích thước, vị trí và căn chỉnh của hình ảnh theo yêu cầu của mình. Đây là nơi bạn **đặt kích thước hình ảnh theo phong cách Java**.
+Nếu bạn cần hình ảnh vừa với một khu vực cụ thể, hãy điều chỉnh chiều rộng, chiều cao và độ lệch. Đây là nơi từ khóa phụ **set image dimensions java** tỏa sáng.
 
 ```java
 image.setWidth(100);
@@ -100,17 +101,17 @@ image.setHorizontalOffset(100);
 image.setAlignment(HorizontalAlignment.Right);
 ```
 
-## Bước 5: Thêm hình ảnh vào trang
+### Step 5: Append the image to the page
 
-Thêm hình ảnh vào trang trong tài liệu OneNote.
+Phương thức `appendChildLast` thêm hình ảnh vào vị trí cuối cùng trên trang đã chọn.
 
 ```java
 page.appendChildLast(image);
 ```
 
-## Bước 6: Lưu tài liệu
+### Step 6: Save the document – you can also save OneNote as PDF
 
-Lưu tài liệu đã chỉnh sửa, bao gồm cả hình ảnh đã chèn. Bạn cũng có thể **lưu OneNote dưới dạng PDF** ở bước này.
+Cuối cùng, lưu các thay đổi. Ví dụ minh họa việc lưu tệp dưới dạng PDF, đáp ứng từ khóa phụ **save onenote as pdf**.
 
 ```java
 try {
@@ -120,30 +121,43 @@ try {
 }
 ```
 
-## Kết luận
+## Common Issues and Solutions
 
-Trong hướng dẫn này, chúng ta đã học cách chèn một hình ảnh vào tài liệu OneNote bằng Java với sự trợ giúp của thư viện Aspose.Note for Java. Bằng cách làm theo hướng dẫn từng bước, bạn có thể dễ dàng tích hợp hình ảnh vào tài liệu OneNote một cách lập trình.
+| Triệu chứng | Nguyên nhân có thể | Cách khắc phục |
+|-------------|--------------------|----------------|
+| `FileNotFoundException` khi tải hình ảnh | Đường dẫn hình ảnh không đúng | Kiểm tra lại `dataDir` và tên tệp hình ảnh. |
+| Hình ảnh bị biến dạng | Chiều rộng/chiều cao được đặt không đúng | Sử dụng kích thước gốc của hình ảnh hoặc tính toán tỷ lệ phù hợp trước khi gọi `setWidth`/`setHeight`. |
+| Kết quả PDF trống | Thiếu giấy phép cho Aspose.Note | Áp dụng giấy phép hợp lệ trước khi gọi `save`. |
 
-## Câu hỏi thường gặp
+## Frequently Asked Questions
 
-### Câu hỏi 1: Tôi có thể chèn nhiều hình ảnh vào một tài liệu OneNote duy nhất bằng phương pháp này không?
-A1: Có, bạn có thể chèn nhiều hình ảnh vào một tài liệu OneNote duy nhất bằng cách lặp lại quy trình đã mô tả trong hướng dẫn này cho mỗi hình ảnh.
+### Q1: Tôi có thể chèn nhiều hình ảnh vào một tài liệu OneNote duy nhất bằng phương pháp này không?
 
-### Câu hỏi 2: Aspose.Note for Java có tương thích với mọi phiên bản OneNote không?
-A2: Aspose.Note for Java hỗ trợ làm việc với các tệp OneNote được tạo trong Microsoft OneNote 2010 và các phiên bản sau này.
+**A:** Có. Chỉ cần lặp lại Các bước 3‑5 cho mỗi hình ảnh bạn muốn thêm, hướng tới cùng một trang hoặc các trang khác.
 
-### Câu hỏi 3: Tôi có thể chèn hình ảnh ở các định dạng khác nhau, như PNG hoặc GIF, vào tài liệu OneNote không?
-A3: Có, Aspose.Note for Java hỗ trợ chèn hình ảnh ở nhiều định dạng, bao gồm PNG, JPEG, GIF và các định dạng khác.
+### Q2: Aspose.Note for Java có tương thích với mọi phiên bản OneNote không?
 
-### Câu hỏi 4: Có phiên bản dùng thử của Aspose.Note for Java để thử nghiệm không?
-A4: Có, bạn có thể tải xuống phiên bản dùng thử miễn phí của Aspose.Note for Java từ trang web để đánh giá.
+**A:** Aspose.Note for Java hỗ trợ các tệp OneNote được tạo bằng Microsoft OneNote 2010 và các phiên bản sau.
 
-### Câu hỏi 5: Làm thế nào để tôi nhận được hỗ trợ kỹ thuật cho Aspose.Note for Java?
-A5: Bạn có thể nhận hỗ trợ kỹ thuật cho Aspose.Note for Java bằng cách truy cập [forum](https://forum.aspose.com/c/note/28) dành cho các sản phẩm Aspose.Note.
+### Q3: Tôi có thể chèn hình ảnh ở các định dạng khác nhau, như PNG hoặc GIF, vào tài liệu OneNote không?
+
+**A:** Chắc chắn. Thư viện chấp nhận PNG, JPEG, GIF, BMP và một số định dạng phổ biến khác.
+
+### Q4: Có phiên bản dùng thử của Aspose.Note for Java để thử nghiệm không?
+
+**A:** Có, bạn có thể tải bản dùng thử miễn phí từ trang web Aspose để đánh giá API trước khi mua.
+
+### Q5: Làm thế nào để tôi nhận được hỗ trợ kỹ thuật cho Aspose.Note for Java?
+
+**A:** Bạn có thể nhận trợ giúp bằng cách truy cập [diễn đàn](https://forum.aspose.com/c/note/28) dành cho các sản phẩm Aspose.Note.
+
+## Conclusion
+
+Bạn giờ đã có một ví dụ hoàn chỉnh, sẵn sàng cho môi trường sản xuất, cho thấy **cách thêm hình ảnh vào OneNote** bằng Java, tùy chỉnh giao diện của nó, và tùy chọn **lưu OneNote dưới dạng PDF**. Hãy tự do điều chỉnh mã cho quy trình làm việc của mình—cho dù bạn đang xây dựng một công cụ báo cáo, hệ thống tài liệu tự động, hoặc một ứng dụng ghi chú tùy chỉnh.
 
 ---
 
-**Last Updated:** 2025-12-21  
+**Last Updated:** 2026-03-19  
 **Tested With:** Aspose.Note for Java 24.10  
 **Author:** Aspose  
 

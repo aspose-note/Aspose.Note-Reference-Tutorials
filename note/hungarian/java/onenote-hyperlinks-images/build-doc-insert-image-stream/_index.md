@@ -1,7 +1,7 @@
 ---
-date: 2025-12-21
-description: Tanulja meg, hogyan hozhat létre OneNote dokumentumot Java nyelven, és
-  könnyedén illeszthet be képeket az Aspose.Note for Java segítségével. Lépésről lépésre
+date: 2026-03-19
+description: Tanulja meg, hogyan hozhat létre OneNote dokumentumot Java‑ban az Aspose.Note
+  for Java segítségével, és hogyan szúrhat be képeket egy adatfolyamból. Lépésről‑lépésre
   útmutató Java fejlesztőknek.
 linktitle: How to create onenote document java – Build Doc and Insert Image with Stream
 second_title: Aspose.Note Java API
@@ -15,49 +15,49 @@ weight: 13
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Hogyan hozzunk létre OneNote dokumentumot Java‑ban – Dokumentum építése és kép beszúrása stream‑ből
+# Hogyan hozhatunk létre onenote dokumentumot Java‑ban – Dokumentum építése és kép beszúrása stream‑ből
 
-## Bevezetés
+## Introduction
 
-Üdvözlünk! Ebben az útmutatóban **OneNote dokumentumot Java‑ban** hozunk létre a semmiből, és megmutatjuk, hogyan szúrj be képeket egy kép‑stream használatával. Lépésről‑lépésre végigvezetünk, elmagyarázzuk, miért fontos minden részlet, és gyakorlati tippeket adunk, hogy a technikát valós projektekben is alkalmazhasd. A végére képes leszel programozottan generálni OneNote oldalakat, és a képeket pontosan oda beágyazni, ahová szükséged van.
+Üdvözlünk! Ebben az útmutatóban **create onenote document java**-t hozunk létre a semmiből, és megtanuljuk, hogyan szúrjunk be képeket egy kép‑stream segítségével. Lépésről lépésre végigvezetünk, elmagyarázzuk, miért fontos minden részlet, és gyakorlati tippeket adunk, hogy a technikát valós projektekben is alkalmazhasd. A végére programozott módon tudsz OneNote oldalakat generálni, és a képeket pontosan oda beágyazni, ahová szükséged van.
 
-## Gyors válaszok
-- **Melyik könyvtárra van szükség?** Aspose.Note for Java  
-- **Beszúrhatók képek stream‑ből?** Igen – egyszerűen add át az `InputStream`‑et az `Image` konstruktorának.  
-- **Melyik formátumba exportálhatok?** Bármely, az Aspose.Note által támogatott formátumba, például PDF, DOCX, HTML.  
-- **Szükséges licenc a fejlesztéshez?** Egy ingyenes ideiglenes licenc elegendő a kiértékeléshez; a teljes licenc a termeléshez kötelező.  
+## Quick Answers
+- **Milyen könyvtárra van szükségem?** Aspose.Note for Java  
+- **Beszúrhatok képeket stream‑ből?** Igen – egyszerűen add át az `InputStream`‑et az `Image` konstruktorának.  
+- **Milyen formátumba exportálhatok?** Bármely, az Aspose.Note által támogatott formátum, például PDF, DOCX, HTML.  
+- **Szükségem van licencre a fejlesztéshez?** Egy ingyenes ideiglenes licenc elegendő kiértékeléshez; a termeléshez teljes licenc szükséges.  
 - **Melyik Java verzió szükséges?** Java 8 vagy újabb.
 
-## Mi az a „create onenote document java”?
+## What is “create onenote document java”?
 
-A OneNote dokumentum Java‑ban történő létrehozása azt jelenti, hogy az Aspose.Note API‑t használva programozottan építünk fel egy jegyzetfüzet struktúrát – oldalakat, körvonalakat és elemeket – anélkül, hogy megnyitnánk a OneNote asztali kliensét. Ez a megközelítés ideális automatizált jelentéskészítéshez, tömeges jegyzetfeldolgozáshoz, vagy a OneNote tartalom nagyobb Java‑alkalmazásokba való integrálásához.
+A OneNote dokumentum Java‑ban történő létrehozása azt jelenti, hogy az Aspose.Note API‑t használva programozottan építünk fel egy jegyzetfüzet struktúrát – oldalakat, körvonalakat és elemeket – anélkül, hogy megnyitnánk a OneNote asztali kliensét. Ez a megközelítés ideális automatizált jelentéskészítéshez, jegyzetek kötegelt feldolgozásához, vagy a OneNote tartalom nagyobb Java‑alkalmazásokba való integrálásához.
 
-## Miért használjuk az Aspose.Note for Java‑t a „create onenote document java” feladathoz?
+## Why use Aspose.Note for Java to create onenote document java?
 
-- **Teljes kontroll** az oldal elrendezése, a körvonal pozicionálása és az elemek stílusa felett.  
+- **Teljes irányítás** az oldal elrendezése, a körvonal pozicionálása és az elemek stílusa felett.  
 - **Nincs COM interop** – bármely, Java‑t támogató operációs rendszeren működik.  
-- **Gazdag exportálási lehetőségek** – ugyanazt a dokumentumot egy hívással konvertálhatod PDF, DOCX, HTML stb. formátumba.  
-- **Stream‑barát** – a képeket közvetlenül memóriából, hálózatról vagy felhő tárolóból töltheted be.
+- **Gazdag exportálási lehetőségek** – egyetlen hívással konvertálhatod ugyanazt a dokumentumot PDF‑be, DOCX‑be, HTML‑be stb.  
+- **Stream‑barát** – képeket tölthetsz be közvetlenül memóriából, hálózatról vagy felhő tárolóból.
 
-## Előfeltételek
+## Prerequisites
 
-Mielőtt belevágnánk, győződj meg róla, hogy a következők telepítve vannak:
+Mielőtt belemerülnénk, győződj meg róla, hogy a következők be vannak állítva:
 
 ### Java Development Kit (JDK)
 
-Friss JDK (8 vagy újabb) a gépeden.
+Egy aktuális JDK (8 vagy újabb) telepítve van a gépeden.
 
 ### Aspose.Note for Java Library
 
 Töltsd le a könyvtárat a hivatalos Aspose kiadási oldalról: [https://releases.aspose.com/note/java/](https://releases.aspose.com/note/java/).
 
-### IDE beállítása
+### IDE Setup
 
-Állítsd be a kedvenc IDE‑det (IntelliJ IDEA, Eclipse, VS Code), hogy a projekt classpath‑ába felvegye az Aspose.Note JAR fájlokat.
+Állítsd be a kedvenc IDE‑det (IntelliJ IDEA, Eclipse, VS Code), hogy a projekt classpath‑jába belefoglalja az Aspose.Note JAR fájlokat.
 
-## Csomagok importálása
+## Import Packages
 
-A kezdéshez importáld a szükséges Java és Aspose.Note osztályokat. Ezek az importok hozzáférést biztosítanak a dokumentum létrehozásához, oldalkezeléshez, körvonalkezeléshez és kép beszúrásához.
+A kezdéshez importáld a szükséges Java és Aspose.Note osztályokat. Ezek az importok hozzáférést biztosítanak a dokumentum létrehozásához, oldalkezeléshez, körvonalkezeléshez és kép beszúráshoz.
 
 ```java
 import java.io.FileInputStream;
@@ -73,31 +73,31 @@ import com.aspose.note.Page;
 import com.aspose.note.SaveFormat;
 ```
 
-## 1. lépés: Dokumentum könyvtár beállítása
+## Step 1: Set Up Document Directory
 
-Határozd meg azt a mappát, amely a forrásképeket tartalmazza, és ahová a kimeneti fájlt menteni szeretnéd. Cseréld ki a helyőrzőt a géped tényleges elérési útjára.
+Határozd meg azt a mappát, amely a forrásképeket tartalmazza, és ahová a kimeneti fájl mentésre kerül. Cseréld le a helyőrzőt a gépeden lévő tényleges útvonalra.
 
 ```java
 String dataDir = "Your Document Directory";
 ```
 
-## 2. lépés: Dokumentum objektum létrehozása
+## Step 2: Create Document Object
 
-Hozz létre egy új `Document` példányt. Ez az objektum képviseli a felépített OneNote jegyzetfüzetet.
+Hozz létre egy új `Document` példányt. Ez az objektum a OneNote jegyzetfüzetet képviseli, amelyet építesz.
 
 ```java
 Document doc = new Document();
 ```
 
-## 3. lépés: Oldal objektum inicializálása
+## Step 3: Initialize Page Object
 
-Hozz létre egy `Page` objektumot, amely az összes körvonalat és elemet tartalmazni fogja ezen a jegyzetfüzet oldalon.
+Hozz létre egy `Page` objektumot, amely a jegyzetfüzet oldalához tartozó összes körvonalat és elemet tartalmazza.
 
 ```java
 Page page = new Page();
 ```
 
-## 4. lépés: Körvonal létrehozása
+## Step 4: Create Outline
 
 Az `Outline` egy konténerként működik a pozícionált elemek számára. Itt állítjuk be a függőleges és vízszintes eltolásokat, hogy a körvonalat az oldalon elhelyezzük.
 
@@ -107,7 +107,7 @@ outline1.setVerticalOffset(600);
 outline1.setHorizontalOffset(0);
 ```
 
-## 5. lépés: Körvonal elem létrehozása
+## Step 5: Create Outline Element
 
 Az `OutlineElement` fogja tartalmazni a beillesztendő képet.
 
@@ -115,9 +115,9 @@ Az `OutlineElement` fogja tartalmazni a beillesztendő képet.
 OutlineElement outlineElem1 = new OutlineElement();
 ```
 
-## 6. lépés: Kép stream betöltése
+## Step 6: Load Image Stream
 
-Nyisd meg a kép fájlt stream‑ként. A stream használata lehetővé teszi, hogy a képet bármilyen forrásból (fájlrendszer, hálózat, adatbázis) olvasd be anélkül, hogy előbb lemezre mentenéd.
+Nyisd meg a képfájlt stream‑ként. A stream használatával a képet bármilyen forrásból (fájlrendszer, hálózat, adatbázis) olvashatod, anélkül hogy előbb lementenéd a lemezre.
 
 ```java
 InputStream fs = null;
@@ -128,16 +128,16 @@ try {
 }
 ```
 
-## 7. lépés: Kép beszúrása
+## Step 7: Insert Image
 
-Hozz létre egy `Image` objektumot. Az első argumentum lehet `null`, ha később stream‑et adsz meg, de egyszerűség kedvéért itt a fájl elérési útját használjuk, és a kép igazítását az oldal jobb oldalára állítjuk.
+Hozz létre egy `Image` objektumot. Az első argumentum lehet `null`, ha később stream‑et adsz meg, de egyszerűség kedvéért itt a fájl útvonalra hivatkozunk, és a kép igazítását az oldal jobb oldalára állítjuk.
 
 ```java
 Image image = new Image(null, dataDir + "image1.jpg");
 image.setAlignment(HorizontalAlignment.Right);
 ```
 
-## 8. lépés: Kép hozzáadása a körvonal elemhez
+## Step 8: Append Image to Outline Element
 
 Add hozzá a képet a körvonal elemhez, hogy az az oldal vizuális hierarchiájának része legyen.
 
@@ -145,7 +145,7 @@ Add hozzá a képet a körvonal elemhez, hogy az az oldal vizuális hierarchiáj
 outlineElem1.appendChildLast(image);
 ```
 
-## 9. lépés: Körvonal elem hozzáadása a körvonalhoz
+## Step 9: Append Outline Element to Outline
 
 Most csatold a körvonal elemet (amely a képet tartalmazza) a körvonal konténerhez.
 
@@ -153,15 +153,15 @@ Most csatold a körvonal elemet (amely a képet tartalmazza) a körvonal kontén
 outline1.appendChildLast(outlineElem1);
 ```
 
-## 10. lépés: Körvonal hozzáadása az oldalhoz
+## Step 10: Append Outline to Page
 
-Helyezd el a körvonalat az oldalon.
+Helyezd a körvonalat az oldalra.
 
 ```java
 page.appendChildLast(outline1);
 ```
 
-## 11. lépés: Oldal hozzáadása a dokumentumhoz
+## Step 11: Append Page to Document
 
 Add hozzá a teljesen felépített oldalt a dokumentum objektumhoz.
 
@@ -169,9 +169,9 @@ Add hozzá a teljesen felépített oldalt a dokumentum objektumhoz.
 doc.appendChildLast(page);
 ```
 
-## 12. lépés Dokumentum mentése
+## Step 12: Save Document
 
-Végül mentsd el a OneNote dokumentumot a kívánt formátumban. Ebben a példában PDF‑be exportálunk, de választhatsz bármely, az Aspose.Note által támogatott formátumot.
+Végül mentsd el a OneNote dokumentumot a szükséges formátumban. Ebben a példában PDF‑be exportálunk, de választhatsz bármely, az Aspose.Note által támogatott formátumot.
 
 ```java
 try {
@@ -181,42 +181,46 @@ try {
 }
 ```
 
-Ezekkel a lépésekkel sikeresen **létrehoztad a onenote document java**-t, és egy bemeneti stream segítségével beágyaztad a képet.
+Ezeket a lépéseket követve sikeresen **created onenote document java**-t hoztál létre, és egy input stream segítségével ágyaztál be egy képet.
 
-## Gyakori hibák és tippek
+## Common Pitfalls & Tips
 
-- **Stream nem záródik le** – Éles környezetben mindig zárd le az `InputStream`‑et egy `finally` blokkban, vagy használj try‑with‑resources‑t.  
-- **Helytelen fájlútvonal** – Ellenőrizd, hogy a `dataDir` a megfelelő elválasztóval (`/` vagy `\`) végződik-e.  
+- **A stream nincs lezárva** – Éles környezetben mindig zárd le az `InputStream`‑et egy `finally` blokkban, vagy használj try‑with‑resources‑t.  
+- **Helytelen fájl útvonal** – Ellenőrizd, hogy a `dataDir` a megfelelő elválasztóval (`/` vagy `\`) végződik‑e.  
 - **Kép igazítása** – Ha a kép a képernyőn kívül jelenik meg, állítsd be a körvonal `VerticalOffset`/`HorizontalOffset` értékeit.  
-- **Licenc kivételek** – Az értékelő verzió vízjelet adhat a kimenethez; egy érvényes licenc eltávolítja azt.
+- **Licenc kivételek** – Az értékelő verzió használata vízjelet adhat a kimenethez; érvényes licenc alkalmazásával eltávolítható.
 
-## Gyakran feltett kérdések
+## Frequently Asked Questions
 
-### Q1: Az Aspose.Note for Java kompatibilis-e minden OneNote verzióval?
+### Q1: Az Aspose.Note for Java kompatibilis minden OneNote verzióval?
 
-A1: Az Aspose.Note for Java különböző OneNote fájlformátumokat támogat, biztosítva a kompatibilitást asztali, online és mobil verziókkal egyaránt.
+A1: Az Aspose.Note for Java különféle OneNote fájlformátumokat támogat, biztosítva a kompatibilitást asztali, online és mobil verziók között.
 
-### Q2: Testreszabhatom a beillesztett képek megjelenését OneNote dokumentumokban az Aspose.Note for Java segítségével?
+### Q2: Testreszabhatom a beillesztett képek megjelenését OneNote dokumentumokban az Aspose.Note for Java használatával?
 
-A2: Igen, módosíthatod az igazítást, méretet, forgatást, sőt még vágást is alkalmazhatsz a `Image` objektum megfelelő tulajdonságain keresztül.
+A2: Igen, módosíthatod az igazítást, méretet, forgatást, sőt, vágást is alkalmazhatsz a `Image` objektum megfelelő tulajdonságainak használatával.
 
 ### Q3: Az Aspose.Note for Java támogat más dokumentumformátumokat is a PDF‑en kívül?
 
-A3: Természetesen. Az API képes exportálni DOCX, HTML, XPS és számos egyéb formátumba, így rugalmasan oszthatod meg vagy archiválhatod a jegyzeteidet.
+A3: Teljes mértékben. Az API exportálhat DOCX, HTML, XPS és több más formátumba, így rugalmasan oszthatod meg vagy archiválhatod a jegyzeteidet.
 
-### Q4: Hol találok további forrásokat és támogatást az Aspose.Note for Java‑hoz?
+### Q4: Hol találok további erőforrásokat és támogatást az Aspose.Note for Java-hoz?
 
-A4: Az hivatalos Aspose weboldal kiterjedt dokumentációt, kódrészleteket, fórumokat és ideiglenes licenceket kínál az értékeléshez.
+A4: A hivatalos Aspose weboldal átfogó dokumentációt, kódpéldákat, fórumokat és ideiglenes licencet kínál értékeléshez.
 
-### Q5: Elérhető próba verzió az Aspose.Note for Java‑hoz?
+### Q5: Elérhető próba verzió az Aspose.Note for Java-hoz?
 
-A5: Igen, letölthetsz egy ingyenes próbaverziót az Aspose kiadási oldaláról, hogy minden funkciót kipróbálhass vásárlás előtt.
+A5: Igen, letölthetsz egy ingyenes próbaverziót az Aspose kiadási oldaláról, hogy a vásárlás előtt minden funkciót kipróbálhass.
+
+## Conclusion
+
+Most már van egy teljes, vég‑től‑végig példád arra, hogyan **create onenote document java**-t készíts, és képeket ágyazz be közvetlenül egy `InputStream`‑ből. Nyugodtan kísérletezz további elemekkel – szöveggel, táblázatokkal vagy alakzatokkal – hogy gazdagabbá tedd a jegyzeteidet. Amikor készen állsz, fedezd fel az Aspose.Note által kínált számos exportálási lehetőséget, hogy a OneNote tartalmadat PDF‑ként, DOCX‑ként, HTML‑ként és egyebként megoszthasd.
 
 ---
 
-**Last Updated:** 2025-1221  
-**Tested With:** Aspose.Note for Java 24.12 (latest at time of writing)  
-**Author:** Aspose  
+**Utoljára frissítve:** 2026-03-19  
+**Tesztelve:** Aspose.Note for Java 24.12 (latest at time of writing)  
+**Szerző:** Aspose  
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

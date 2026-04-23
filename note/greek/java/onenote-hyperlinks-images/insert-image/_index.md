@@ -1,11 +1,11 @@
 ---
-date: 2025-12-21
-description: Μάθετε πώς να προσθέτετε εικόνα σε έγγραφα OneNote χρησιμοποιώντας Java
-  με το Aspose.Note for Java. Ακολουθήστε τον βήμα‑βήμα οδηγό μας για την εισαγωγή
-  εικόνων και, προαιρετικά, αποθηκεύστε το OneNote ως PDF.
+date: 2026-03-19
+description: Μάθετε πώς να προσθέσετε εικόνα στο OneNote χρησιμοποιώντας Java με το
+  Aspose.Note for Java, συμπεριλαμβανομένου του πώς να ορίσετε τις διαστάσεις της
+  εικόνας στην Java και να αποθηκεύσετε το OneNote ως PDF.
 linktitle: Insert an Image in OneNote Document with Java
 second_title: Aspose.Note Java API
-title: Πώς να προσθέσετε εικόνα στο OneNote χρησιμοποιώντας Java
+title: Προσθήκη εικόνας στο OneNote χρησιμοποιώντας Java
 url: /el/java/onenote-hyperlinks-images/insert-image/
 weight: 16
 ---
@@ -16,39 +16,39 @@ weight: 16
 
 # Εισαγωγή εικόνας σε έγγραφο OneNote με Java
 
-## Εισαγωγή
+## Introduction
 
-Σε αυτό το tutorial, θα εξερευνήσουμε πώς να εισάγετε μια εικόνα σε ένα έγγραφο OneNote χρησιμοποιώντας Java με τη βοήθεια του Aspose.Note for Java. Το Aspose.Note for Java είναι μια ισχυρή βιβλιοθήκη που επιτρέπει στους προγραμματιστές να εργάζονται με αρχεία Microsoft OneNote προγραμματιστικά, επιτρέποντας διάφορες λειτουργίες όπως δημιουργία, ανάγνωση και διαχείριση εγγράφων OneNote.
+Σε αυτό το tutorial θα μάθετε **πώς να προσθέσετε εικόνα στο OneNote** προγραμματιστικά χρησιμοποιώντας τη βιβλιοθήκη Aspose.Note for Java. Η ενσωμάτωση εικόνων σε σελίδες OneNote είναι χρήσιμη όταν χρειάζεται να δημιουργήσετε πρακτικά συναντήσεων, αυτοματοποιημένες αναφορές ή τεκμηρίωση που συνδυάζει κείμενο με οπτικά δεδομένα. Στο τέλος του οδηγού θα μπορείτε να φορτώσετε ένα υπάρχον αρχείο OneNote, να εισάγετε μια εικόνα, προαιρετικά να ρυθμίσετε το μέγεθος και τη θέση της, και ακόμη **να αποθηκεύσετε το OneNote ως PDF** – όλα χωρίς να ανοίξετε το UI του OneNote.
 
-## Σύντομες Απαντήσεις
-- **Ποιος είναι ο πιο εύκολος τρόπος για να προσθέσετε εικόνα στο OneNote χρησιμοποιώντας Java;**  
-  Χρησιμοποιήστε την κλάση `Image` του Aspose.Note for Java και προσθέστε την σε μια σελίδα.
-- **Χρειάζομαι άδεια για παραγωγική χρήση;**  
-  Ναι, απαιτείται εμπορική άδεια για παραγωγικές εγκαταστάσεις.
-- **Μπορώ να ορίσω προσαρμοσμένες διαστάσεις για την εικόνα;**  
-  Απόλυτα – καλέστε `setWidth()` και `setHeight()` στο αντικείμενο `Image`.
-- **Είναι δυνατόν να αποθηκεύσετε το αρχείο OneNote ως PDF μετά την προσθήκη της εικόνας;**  
-  Ναι, καλέστε `save(..., SaveFormat.Pdf)` για να **αποθηκεύσετε το OneNote ως PDF**.
-- **Ποια έκδοση της Java υποστηρίζεται;**  
-  Το Aspose.Note for Java λειτουργεί με JDK 8 και νεότερες εκδόσεις.
+## Quick Answers
+- **What is the easiest way to add image to OneNote using Java?**  
+  Use Aspose.Note for Java’s `Image` class and append it to a page.
+- **Do I need a license for production use?**  
+  Yes, a commercial license is required for production deployments.
+- **Can I set custom dimensions for the image?**  
+  Absolutely – call `setWidth()` and `setHeight()` on the `Image` object.
+- **Is it possible to save the OneNote file as PDF after adding the image?**  
+  Yes, call `save(..., SaveFormat.Pdf)` to **save OneNote as PDF**.
+- **Which Java version is supported?**  
+  Aspose.Note for Java works with JDK 8 and later.
 
-## Πώς να προσθέσετε εικόνα στο OneNote χρησιμοποιώντας Java;
+## Why add image to OneNote?
 
-Πριν βυθιστούμε στον κώδικα, ας συζητήσουμε σύντομα γιατί μπορεί να θέλετε να ενσωματώσετε εικόνες προγραμματιστικά στο OneNote. Είτε δημιουργείτε πρακτικά συναντήσεων, είτε αυτοματοποιημένες αναφορές, είτε μια διαδικασία τεκμηρίωσης, η εισαγωγή εικόνων προσδίδει οπτικό πλαίσιο που το απλό κείμενο δεν μπορεί να προσφέρει. Με το Aspose.Note for Java μπορείτε να το κάνετε εξ ολοκλήρου μέσω κώδικα, χωρίς να ανοίξετε το UI του OneNote.
+Η προσθήκη οπτικών στοιχείων κάνει τις σημειώσεις πιο εύκολες στην κατανόηση και πιο ελκυστικές. Οι εικόνες μπορούν να απεικονίσουν διαγράμματα, στιγμιότυπα οθόνης ή γραφήματα δεδομένων που διαφορετικά θα απαιτούσαν εκτενείς περιγραφές κειμένου. Η αυτοματοποίηση αυτού του βήματος εξοικονομεί χρόνο, ειδικά όταν δημιουργείτε μεγάλες παρτίδες σημειώσεων από πηγές δεδομένων.
 
-## Προαπαιτούμενα
+## Prerequisites
 
-Πριν ξεκινήσουμε, βεβαιωθείτε ότι έχετε ρυθμίσει τα παρακάτω:
+Before we begin, make sure you have the following ready:
 
 ### 1. Java Development Kit (JDK)
-Βεβαιωθείτε ότι έχετε εγκαταστήσει το Java Development Kit (JDK) στο σύστημά σας. Μπορείτε να κατεβάσετε και να εγκαταστήσετε το JDK από την ιστοσελίδα της Oracle.
+Install JDK 8 or newer. You can download it from the Oracle website or use an OpenJDK distribution.
 
 ### 2. Aspose.Note for Java Library
-Κατεβάστε και ρυθμίστε τη βιβλιοθήκη Aspose.Note for Java ακολουθώντας την [τεκμηρίωση](https://reference.aspose.com/note/java/).
+Download the latest Aspose.Note for Java library and add it to your project’s classpath. Detailed setup instructions are available in the official [documentation](https://reference.aspose.com/note/java/).
 
-## Εισαγωγή πακέτων
+## Import Packages
 
-Ξεκινήστε εισάγοντας τα απαραίτητα πακέτα στο έργο Java σας. Αυτά τα πακέτα περιλαμβάνουν τη βιβλιοθήκη Aspose.Note και άλλες απαιτούμενες εξαρτήσεις.
+Start by importing the necessary classes. These imports give you access to the core Aspose.Note functionality as well as basic Java utilities.
 
 ```java
 import java.io.IOException;
@@ -60,11 +60,13 @@ import com.aspose.note.Page;
 import com.aspose.note.SaveFormat;
 ```
 
-Ας αναλύσουμε τη διαδικασία εισαγωγής μιας εικόνας σε ένα έγγραφο OneNote σε πολλαπλά βήματα:
+## Step‑by‑Step Guide
 
-## Βήμα 1: Φόρτωση του εγγράφου OneNote
+Below is a concise, numbered walkthrough. Each step includes a short explanation followed by the exact code you need to copy.
 
-Πρώτα, φορτώστε το έγγραφο OneNote στο οποίο θέλετε να εισάγετε την εικόνα.
+### Step 1: Load the OneNote document
+
+We create a `LoadOptions` instance (useful for future customizations) and open the existing `.one` file.
 
 ```java
 LoadOptions options = new LoadOptions();
@@ -72,25 +74,25 @@ String dataDir = "Your Document Directory";
 Document oneFile = new Document(dataDir + "Sample1.one", options);
 ```
 
-## Βήμα 2: Λήψη της σελίδας
+### Step 2: Get the target page
 
-Ανακτήστε τη σελίδα στο έγγραφο όπου θέλετε να προσθέσετε την εικόνα.
+For simplicity we work with the first page in the document, but you can navigate to any page you need.
 
 ```java
 Page page = oneFile.getFirstChild();
 ```
 
-## Βήμα 3: Φόρτωση της εικόνας
+### Step 3: Load the image you want to embed
 
-Φορτώστε την εικόνα που θέλετε να εισάγετε στο έγγραφο OneNote.
+Instantiate an `Image` object by passing the document reference and the path to the picture file.
 
 ```java
 Image image = new Image(oneFile, dataDir + "Input.jpg");
 ```
 
-## Βήμα 4: Προσαρμογή ιδιοτήτων εικόνας (Προαιρετικό)
+### Step 4: Set image dimensions Java (optional)
 
-Προαιρετικά, μπορείτε να προσαρμόσετε το μέγεθος, τη θέση και την ευθυγράμμιση της εικόνας σύμφωνα με τις απαιτήσεις σας. Εδώ είναι όπου **ορίζετε τις διαστάσεις της εικόνας** σε στυλ Java.
+If you need the picture to fit a specific area, adjust its width, height, and offsets. This is where the secondary keyword **set image dimensions java** shines.
 
 ```java
 image.setWidth(100);
@@ -100,17 +102,17 @@ image.setHorizontalOffset(100);
 image.setAlignment(HorizontalAlignment.Right);
 ```
 
-## Βήμα 5: Προσθήκη εικόνας στη σελίδα
+### Step 5: Append the image to the page
 
-Προσθέστε την εικόνα στη σελίδα του εγγράφου OneNote.
+The `appendChildLast` method adds the image as the last element on the selected page.
 
 ```java
 page.appendChildLast(image);
 ```
 
-## Βήμα 6: Αποθήκευση του εγγράφου
+### Step 6: Save the document – you can also save OneNote as PDF
 
-Αποθηκεύστε το τροποποιημένο έγγραφο, συμπεριλαμβανομένης της εισαχθείσας εικόνας. Μπορείτε επίσης να **αποθηκεύσετε το OneNote ως PDF** σε αυτό το στάδιο.
+Finally, persist the changes. The example demonstrates saving the file as a PDF, fulfilling the secondary keyword **save onenote as pdf**.
 
 ```java
 try {
@@ -120,37 +122,45 @@ try {
 }
 ```
 
-## Συμπέρασμα
+## Common Issues and Solutions
 
-Σε αυτό το tutorial, μάθαμε πώς να εισάγουμε μια εικόνα σε ένα έγγραφο OneNote χρησιμοποιώντας Java με τη βοήθεια της βιβλιοθήκης Aspose.Note for Java. Ακολουθώντας τον οδηγό βήμα‑βήμα, μπορείτε εύκολα να ενσωματώσετε εικόνες στα έγγραφα OneNote προγραμματιστικά.
+| Symptom | Likely Cause | Fix |
+|---------|--------------|-----|
+| `FileNotFoundException` when loading the image | Incorrect image path | Verify `dataDir` and the image filename are correct. |
+| Image appears distorted | Width/height set incorrectly | Use the original image dimensions or calculate a proper aspect ratio before calling `setWidth`/`setHeight`. |
+| PDF output is blank | Missing license for Aspose.Note | Apply a valid license before calling `save`. |
 
-## Συχνές Ερωτήσεις
+## Frequently Asked Questions
 
-### Q1: Μπορώ να εισάγω πολλαπλές εικόνες σε ένα μόνο έγγραφο OneNote χρησιμοποιώντας αυτή τη μέθοδο;
+### Q1: Can I insert multiple images into a single OneNote document using this method?
 
-A1: Ναι, μπορείτε να εισάγετε πολλαπλές εικόνες σε ένα μόνο έγγραφο OneNote επαναλαμβάνοντας τη διαδικασία που περιγράφεται σε αυτό το tutorial για κάθε εικόνα.
+**A:** Yes. Simply repeat Steps 3‑5 for each image you want to add, targeting the same or different pages.
 
-### Q2: Το Aspose.Note for Java είναι συμβατό με όλες τις εκδόσεις του OneNote;
+### Q2: Is Aspose.Note for Java compatible with all versions of OneNote?
 
-A2: Το Aspose.Note for Java υποστηρίζει εργασία με αρχεία OneNote που δημιουργήθηκαν σε Microsoft OneNote 2010 και νεότερες εκδόσεις.
+**A:** Aspose.Note for Java supports OneNote files created with Microsoft OneNote 2010 and later versions.
 
-### Q3: Μπορώ να εισάγω εικόνες διαφορετικών μορφών, όπως PNG ή GIF, σε ένα έγγραφο OneNote;
+### Q3: Can I insert images of different formats, such as PNG or GIF, into a OneNote document?
 
-A3: Ναι, το Aspose.Note for Java υποστηρίζει την εισαγωγή εικόνων σε διάφορες μορφές, συμπεριλαμβανομένων PNG, JPEG, GIF και άλλων.
+**A:** Absolutely. The library accepts PNG, JPEG, GIF, BMP, and several other common formats.
 
-### Q4: Υπάρχει δοκιμαστική έκδοση του Aspose.Note for Java για δοκιμαστικούς σκοπούς;
+### Q4: Is there a trial version of Aspose.Note for Java available for testing purposes?
 
-A4: Ναι, μπορείτε να κατεβάσετε μια δωρεάν δοκιμαστική έκδοση του Aspose.Note for Java από την ιστοσελίδα για σκοπούς αξιολόγησης.
+**A:** Yes, you can download a free trial from the Aspose website to evaluate the API before purchasing.
 
-### Q5: Πώς μπορώ να λάβω τεχνική υποστήριξη για το Aspose.Note for Java;
+### Q5: How can I get technical support for Aspose.Note for Java?
 
-A5: Μπορείτε να λάβετε τεχνική υποστήριξη για το Aspose.Note for Java επισκεπτόμενοι το [forum](https://forum.aspose.com/c/note/28) αφιερωμένο στα προϊόντα Aspose.Note.
+**A:** You can get help by visiting the [forum](https://forum.aspose.com/c/note/28) dedicated to Aspose.Note products.
+
+## Conclusion
+
+You now have a complete, production‑ready example that shows **how to add image to OneNote** using Java, customize its appearance, and optionally **save OneNote as PDF**. Feel free to adapt the code to your own workflows—whether you’re building a reporting engine, an automated documentation system, or a custom note‑taking application.
 
 ---
 
-**Τελευταία ενημέρωση:** 2025-12-21  
-**Δοκιμάστηκε με:** Aspose.Note for Java 24.10  
-**Συγγραφέας:** Aspose  
+**Last Updated:** 2026-03-19  
+**Tested With:** Aspose.Note for Java 24.10  
+**Author:** Aspose  
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
