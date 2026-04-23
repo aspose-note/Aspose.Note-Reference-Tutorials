@@ -1,10 +1,10 @@
 ---
-date: 2025-12-12
-description: 了解如何使用 Aspose.Note for Java 将 OneNote PDF 保存到流并导出 OneNote PDF。请按照我们的分步教程，将其高效集成到您的
-  Java 应用程序中。
-linktitle: Save OneNote PDF to Stream - Aspose.Note
+date: 2026-02-23
+description: 学习如何使用 Aspose.Note for Java 将 OneNote 转换为 PDF、保存 PDF 流以及从 OneNote 生成
+  PDF。一步一步的 Java PDF 流指南。
+linktitle: Convert OneNote to PDF and Save to Stream – Aspose.Note
 second_title: Aspose.Note Java API
-title: 将 OneNote PDF 保存到流 - Aspose.Note
+title: 将 OneNote 转换为 PDF 并保存到流 – Aspose.Note
 url: /zh/java/onenote-document-saving/save-onenote-document-to-stream/
 weight: 13
 ---
@@ -13,30 +13,40 @@ weight: 13
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# 将 OneNote PDF 保存到流 - Aspose.Note
+# Convert OneNote to PDF and Save to Stream – Aspose.Note
 
-## 介绍
+## Introduction
 
-在本教程中，您将学习如何使用 Aspose.Note for Java **将 OneNote PDF 保存** 到内存流。将文档以流的形式输出，可让您完全掌控输出位置——无论是需要通过网络传输、存入数据库，还是在不触及文件系统的情况下进一步处理。我们将逐步演示从加载 OneNote 文件到导出为 PDF 流的全过程，帮助您自信地将此功能集成到 Java 应用程序中。
+在本教程中，您将学习如何使用 Aspose.Note for Java **将 OneNote 转换为 PDF** 并直接 **将 PDF 流保存到内存**。将 PDF 以流的形式输出可以让您完全控制输出位置——无论是为 Web 服务生成 PDF、将其存入数据库，还是在不触及文件系统的情况下传递给其他组件。我们将逐步演示从加载 OneNote 文件到导出为 PDF 流的每一步，让您能够自信地将此功能集成到 Java 应用程序中。
 
-## 快速答疑
-- **“保存 OneNote PDF” 是什么意思？** 它将 OneNote 文件转换为 PDF 格式，并将结果写入流，而不是物理文件。  
-- **为什么使用流？** 流可以在内存中处理数据，适用于 Web 服务、API，或希望避免临时文件的场景。  
-- **使用的 Aspose.Note 格式是什么？** `SaveFormat.Pdf` 枚举指示库输出 PDF。  
-- **生产环境需要许可证吗？** 是的——Aspose.Note 在商业使用时必须拥有有效许可证。  
-- **可以导出其他格式吗？** 当然可以——使用其他 `SaveFormat` 值，如 `Docx`、`Html`、`Png` 等。
+## Quick Answers
+- **What does “convert OneNote to PDF” mean?** It transforms a OneNote `.one` file into a PDF document and writes the result to a stream instead of a physical file.  
+- **Why use a stream?** Streams let you handle data in memory, ideal for web services, APIs, or when you want to avoid temporary files.  
+- **Which Aspose.Note format is used?** The `SaveFormat.Pdf` enum tells the library to output PDF.  
+- **Do I need a license for production?** Yes—Aspose.Note requires a valid license for commercial use.  
+- **Can I export other formats?** Absolutely—use other `SaveFormat` values like `Docx`, `Html`, `Png`, etc.
 
-## 前置条件
+## What is converting OneNote to PDF?
+将 OneNote 转换为 PDF 意味着将 OneNote 笔记本中丰富的多页内容扁平化为可移植的 PDF 文档。当您需要只读、跨平台查看的笔记版本，或必须将内容嵌入邮件、报表或归档等工作流时，这非常有用。
 
-在开始之前，请确保您具备以下前置条件：
+## Why stream PDF in Java?
+在 Java 中以流的方式处理 PDF 可以避免将临时文件写入磁盘的开销。它使您能够：
+
+* 直接将 PDF 通过 HTTP 响应发送。  
+* 将字节数组存入数据库的 BLOB 列。  
+* 将输出链式传递给其他库（例如使用 Aspose.PDF 进行加密），而无需中间 I/O。
+
+## Prerequisites
+
+在开始之前，请确保具备以下前置条件：
 
 - 基本的 Java 编程知识。  
 - 系统已安装 JDK。  
-- 已下载并将 Aspose.Note for Java 库添加到项目中。您可以从 [此处](https://releases.aspose.com/note/java/) 下载。
+- 已下载并将 Aspose.Note for Java 库添加到项目中。您可以从 [here](https://releases.aspose.com/note/java/) 下载。
 
-## 导入包
+## Import Packages
 
-首先，导入我们需要的类。保持导入整洁有助于代码更易阅读和维护。
+First, import the classes we’ll need. Keeping imports tidy makes the code easier to read and maintain.
 
 ```java
 import java.io.ByteArrayOutputStream;
@@ -45,76 +55,75 @@ import com.aspose.note.Document;
 import com.aspose.note.SaveFormat;
 ```
 
-## 步骤 1：加载 OneNote 文档
+## Step 1: Load the OneNote Document
 
-将源 OneNote 文件加载到 `Aspose.Note` 的 `Document` 对象中。将占位路径替换为实际的 `.one` 文件位置。
+Load the source OneNote file into an `Aspose.Note` `Document` object. Replace the placeholder path with the actual location of your `.one` file.
 
 ```java
 String dataDir = "Your Document Directory";
 Document doc = new Document(dataDir + "Sample1.one");
 ```
 
-## 步骤 2：将文档保存到流
+## Step 2: Save Document to Stream
 
-现在我们将已加载的文档导出为 PDF，并写入 `ByteArrayOutputStream`。该流可以直接发送给客户端、保存到数据库，或进一步处理。
+Now we export the loaded document as a PDF and write it to a `ByteArrayOutputStream`. This stream can be sent directly to a client, saved to a database, or further manipulated.
 
 ```java
 ByteArrayOutputStream dstStream = new ByteArrayOutputStream();
 doc.save(dstStream, SaveFormat.Pdf);
 ```
 
-### 如何将 **OneNote PDF** 导出到其他目标
+### How to **export PDF byte array** to other destinations
+If you need the PDF as a byte array, simply call `dstStream.toByteArray()`. For web responses, write the byte array to the HTTP output stream. The same approach works for other formats—just change `SaveFormat.Pdf` to the desired enum value.
 
-如果需要 PDF 的字节数组，只需调用 `dstStream.toByteArray()`。在 Web 响应中，将字节数组写入 HTTP 输出流即可。同样的做法适用于其他格式——只需将 `SaveFormat.Pdf` 更改为所需的枚举值。
+## Common Issues and Solutions
 
-## 常见问题及解决方案
+- **OutOfMemoryError** – When handling very large OneNote files, consider using a `FileOutputStream` to write directly to disk instead of keeping everything in memory.  
+- **Missing fonts** – PDFs may lose custom fonts if they aren’t installed on the server. Use `FontSettings` to embed fonts if needed.  
+- **License not found** – Ensure the license file is loaded before calling any Aspose.Note APIs; otherwise, you’ll get a trial watermark.
 
-- **OutOfMemoryError** – 处理非常大的 OneNote 文件时，考虑使用 `FileOutputStream` 直接写入磁盘，而不是全部保存在内存中。  
-- **缺少字体** – 如果服务器上未安装自定义字体，PDF 可能会失去这些字体。必要时使用 `FontSettings` 嵌入字体。  
-- **未找到许可证** – 在调用任何 Aspose.Note API 之前，请确保已加载许可证文件；否则会出现试用水印。
+## FAQ's
 
-## 常见问答
+### Q1: Can I save the OneNote document in formats other than PDF?
 
-### Q1：我可以将 OneNote 文档保存为 PDF 之外的格式吗？
+A1: Yes, Aspose.Note supports saving documents in various formats like DOCX, HTML, JPEG, PNG, etc. 
 
-A1：可以，Aspose.Note 支持将文档保存为 DOCX、HTML、JPEG、PNG 等多种格式。
+### Q2: Is there a free trial available for Aspose.Note for Java?
 
-### Q2：Aspose.Note for Java 有免费试用吗？
+A2: Yes, you can download a free trial from [here](https://releases.aspose.com/).
 
-A2：有，您可以从 [此处](https://releases.aspose.com/) 下载免费试用版。
+### Q3: Where can I find more support or ask questions related to Aspose.Note?
 
-### Q3：在哪里可以获取更多支持或提问关于 Aspose.Note 的问题？
+A3: You can visit the Aspose.Note forum [here](https://forum.aspose.com/c/note/28).
 
-A3：您可以访问 Aspose.Note 论坛 [此处](https://forum.aspose.com/c/note/28)。
+### Q4: How can I purchase a license for Aspose.Note for Java?
 
-### Q4：如何购买 Aspose.Note for Java 的许可证？
+A4: You can buy a license from [here](https://purchase.aspose.com/buy).
 
-A4：您可以在 [此处](https://purchase.aspose.com/buy) 购买许可证。
+### Q5: Do I need a temporary license for evaluation purposes?
 
-### Q5：评估期间需要临时许可证吗？
+A5: Yes, you can obtain a temporary license from [here](https://purchase.aspose.com/temporary-license/).
 
-A5：需要，您可以在 [此处](https://purchase.aspose.com/temporary-license/) 获取临时许可证。
+## Frequently Asked Questions
 
-## 常见问题
+**Q: Can I stream the PDF directly to an HTTP response?**  
+A: Yes—retrieve the byte array with `dstStream.toByteArray()` and write it to the servlet’s `OutputStream` with the appropriate `Content-Type: application/pdf`.
 
-**问：我可以直接将 PDF 流输出到 HTTP 响应吗？**  
-答：可以——使用 `dstStream.toByteArray()` 获取字节数组，然后将其写入 servlet 的 `OutputStream`，并设置 `Content-Type: application/pdf`。
+**Q: Is it possible to encrypt the exported PDF?**  
+A: Aspose.Note does not encrypt PDFs directly, but you can post‑process the byte array with Aspose.PDF or a similar library to apply encryption.
 
-**问：是否可以对导出的 PDF 进行加密？**  
-答：Aspose.Note 本身不直接加密 PDF，但您可以使用 Aspose.PDF 或其他库对字节数组进行后处理以实现加密。
+**Q: Does the library support converting password‑protected OneNote files?**  
+A: Yes—use the `Document` constructor that accepts a password parameter to open protected files before exporting.
 
-**问：库是否支持转换受密码保护的 OneNote 文件？**  
-答：支持——使用接受密码参数的 `Document` 构造函数打开受保护的文件后再进行导出。
+## Conclusion
 
-## 结论
-
-现在，您已经掌握了一套完整、可用于生产环境的 **将 OneNote PDF 保存到流** 的方法，使用 Aspose.Note for Java。按照这些步骤，您可以轻松将 OneNote 转 PDF 的功能集成到 Web 服务、微服务或任何需要即时文档生成的 Java 后端中。
+You now have a complete, production‑ready way to **convert OneNote to PDF**, **save PDF stream**, and **export PDF byte array** using Aspose.Note for Java. By following these steps you can seamlessly integrate OneNote‑to‑PDF conversion into web services, micro‑services, or any Java‑based backend that needs on‑the‑fly document generation.
 
 ---
 
-**最后更新：** 2025-12-12  
-**测试环境：** Aspose.Note for Java 24.11  
-**作者：** Aspose  
+**Last Updated:** 2026-02-23  
+**Tested With:** Aspose.Note for Java 24.11  
+**Author:** Aspose  
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
