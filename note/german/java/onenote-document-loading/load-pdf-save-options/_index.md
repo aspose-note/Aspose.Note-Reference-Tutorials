@@ -1,5 +1,5 @@
 ---
-date: 2025-12-05
+date: 2026-02-15
 description: Erfahren Sie, wie Sie OneNote in PDF konvertieren und OneNote als PDF
   mit Aspose.Note für Java speichern. Vereinfachen Sie Ihre Dokumentkonvertierungsaufgaben
   mit PdfSaveOptions.
@@ -14,34 +14,34 @@ weight: 23
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# OneNote mit Aspose.Note und PdfSaveOptions in PDF konvertieren
+# OneNote in PDF konvertieren mit Aspose.Note und PdfSaveOptions
 
-## Einführung
+## Einleitung
 
-In diesem umfassenden Leitfaden erfahren Sie **wie Sie OneNote mit Aspose.Note für Java in PDF konvertieren**. Wir zeigen Ihnen, wie Sie eine OneNote‑Datei laden, die Konvertierung konfigurieren und das Ergebnis schließlich als PDF speichern. Am Ende des Tutorials können Sie diesen Workflow problemlos in Ihre eigenen Java‑Anwendungen integrieren.
+In diesem umfassenden Leitfaden lernen Sie **wie man OneNote in PDF** mit Aspose.Note für Java konvertiert. Wir führen Sie durch das Laden einer OneNote‑Datei, die Konfiguration der Konvertierung und schließlich das Speichern des Ergebnisses als PDF. Am Ende des Tutorials können Sie diesen Workflow problemlos in Ihre eigenen Java‑Anwendungen integrieren.
 
 ## Schnelle Antworten
-- **Welche Bibliothek führt die Konvertierung durch?** Aspose.Note für Java mit `PdfSaveOptions`.
-- **Wie lange dauert die Grundimplementierung?** Etwa 5‑10 Minuten für einen funktionierenden Prototyp.
-- **Benötige ich eine Lizenz für die Produktion?** Ja, eine kommerzielle Lizenz ist erforderlich; eine kostenlose Testversion ist verfügbar.
-- **Kann ich die PDF‑Ausgabe anpassen?** Absolut – `PdfSaveOptions` ermöglicht das Festlegen von Seitengröße, Rändern und mehr.
-- **Unterstützte OneNote‑Formate?** Sowohl `.one`‑ als auch `.onepkg`‑Dateien werden unterstützt.
+- **Welche Bibliothek übernimmt die Konvertierung?** Aspose.Note for Java mit `PdfSaveOptions`.
+- **Wie lange dauert die Grundimplementierung?** Etwa 5‑10 Minuten für einen funktionierenden Prototyp.
+- **Benötige ich eine Lizenz für die Produktion?** Ja, eine kommerzielle Lizenz ist erforderlich; ein kostenloser Testzeitraum ist verfügbar.
+- **Kann ich die PDF-Ausgabe anpassen?** Absolut – `PdfSaveOptions` ermöglicht das Festlegen von Seitengröße, Rändern und mehr.
+- **Unterstützte OneNote-Formate?** Sowohl `.one`- als auch `.onepkg`-Dateien werden unterstützt.
 
-## OneNote in PDF konvertieren – Einführung
+## Warum OneNote in PDF konvertieren?
 
-Aspose.Note vereinfacht die Arbeit mit Microsoft‑OneNote‑Dateien in Java. Egal, ob Sie Berichte erstellen, Notizen archivieren oder OneNote‑Inhalte in einen größeren Workflow integrieren möchten – die Konvertierung dieser Dateien in PDF ist häufig der erste Schritt.
+Das Konvertieren von OneNote‑Notizbüchern in PDF liefert ein universell anzeigbares, druckbares und archivierbares Format. PDFs eignen sich ideal zum Teilen mit Stakeholdern, die kein OneNote installiert haben, für compliance‑gesteuerte Dokumentenaufbewahrung und zum Einbetten von Notizen in größere Reporting‑Pipelines.
 
 ## Voraussetzungen
 
 Bevor Sie beginnen, stellen Sie sicher, dass Sie Folgendes haben:
 
-### 1. Java‑Entwicklungsumgebung
+### 1. Java-Entwicklungsumgebung
 Ein aktuelles JDK (Java 17 oder neuer wird empfohlen). Laden Sie es von der Oracle‑Website oder von OpenJDK herunter.
 
 ### 2. Aspose.Note für Java Bibliothek
-Holen Sie sich das neueste Aspose.Note‑für‑Java‑Paket von der [offiziellen Download‑Seite](https://releases.aspose.com/note/java/) und fügen Sie die JAR‑Datei Ihrem Projekt‑Klassenpfad hinzu.
+Holen Sie sich das neueste Aspose.Note‑Paket für Java von der [offiziellen Download‑Seite](https://releases.aspose.com/note/java/) und fügen Sie die JAR‑Datei Ihrem Projekt‑Klassenpfad hinzu.
 
-### 3. Beispiel‑OneNote‑Dokument
+### 3. Beispiel-OneNote-Dokument
 Eine `.one`‑ oder `.onepkg`‑Datei, die Sie konvertieren möchten. Für Tests verwendet das Tutorial `Sample1.one`.
 
 ## Pakete importieren
@@ -54,11 +54,11 @@ import com.aspose.note.Document;
 import com.aspose.note.PdfSaveOptions;
 ```
 
-## OneNote mit PdfSaveOptions als PDF speichern
+## OneNote als PDF speichern mit PdfSaveOptions
 
-Im Folgenden teilen wir den Prozess in zwei klare Schritte: Laden der Quelldatei und Speichern als PDF. Jeder Schritt enthält eine kurze Erklärung, damit Sie **verstehen**, warum wir ihn ausführen.
+Im Folgenden teilen wir den Prozess in zwei klare Schritte auf: Laden der Quelldatei und Speichern als PDF. Jeder Schritt enthält eine kurze Erklärung, damit Sie **verstehen**, warum wir ihn ausführen.
 
-### Schritt 1: OneNote‑Dokument laden
+### Schritt 1: OneNote-Dokument laden
 
 Wir erstellen eine `Document`‑Instanz, indem wir auf die OneNote‑Datei auf dem Datenträger verweisen.
 
@@ -72,45 +72,53 @@ Document oneFile = new Document(dataDir + "Sample1.one");
 
 ### Schritt 2: Dokument als PDF speichern
 
-Jetzt rufen wir die `save`‑Methode auf und übergeben eine neue `PdfSaveOptions`‑Instanz. Damit weist Aspose.Note an, die OneNote‑Seiten als PDF‑Seiten zu rendern.
+Jetzt rufen wir die `save`‑Methode auf und übergeben eine neue `PdfSaveOptions`‑Instanz. Damit teilt man Aspose.Note mit, die OneNote‑Seiten als PDF‑Seiten zu rendern.
 
 ```java
 // Save the document as PDF
 oneFile.save(dataDir + "LoadDocIntoAsposeNoteUsingPdfsaveoptions_out.pdf", new PdfSaveOptions());
 ```
 
-*Hinweis:* Wenn Sie **OneNote als PDF** mit benutzerdefinierten Einstellungen (z. B. bestimmte Seitengröße oder Bildkompression) speichern möchten, konfigurieren Sie das `PdfSaveOptions`‑Objekt, bevor Sie es an `save()` übergeben.
+*Tipp:* Wenn Sie **OneNote als PDF** mit benutzerdefinierten Einstellungen – etwa einer bestimmten **pdf page size java** – speichern möchten, konfigurieren Sie das `PdfSaveOptions`‑Objekt, bevor Sie es an `save()` übergeben. Beispielsweise können Sie `setPageSize(PageSize.A4)` aufrufen, um eine A4‑Seitengröße zu erzwingen, was häufig bei Java‑basierten PDF‑Generierungen gefordert wird.
+
+*Profi‑Tipp:* Sie können außerdem `setEmbedStandardFonts(true)` setzen, um Schriftarten einzubetten und leere Seiten auf Systemen zu vermeiden, denen die benötigten Schriftarten fehlen.
+
+## Häufige Anwendungsfälle
+
+- **Berichtserstellung:** Exportieren Sie Besprechungsnotizen oder Projektdokumentation als PDF zur Verteilung.
+- **Archivierung:** Bewahren Sie OneNote‑Inhalte in einem nicht editierbaren, langfristigen Speicherformat auf.
+- **Compliance:** Konvertieren Sie regulierte Notizen in PDFs, die digital signiert und geprüft werden können.
 
 ## Häufige Probleme und Lösungen
 
 | Problem | Grund | Lösung |
 |---------|-------|--------|
 | **Datei nicht gefunden** | Falscher `dataDir`‑Pfad | Überprüfen Sie den Verzeichnispfad und stellen Sie sicher, dass der Dateiname exakt übereinstimmt. |
-| **Nicht unterstützte OneNote‑Version** | Sehr alte `.one`‑Datei | Öffnen Sie die Datei zuerst in OneNote und speichern Sie sie erneut, oder verwenden Sie die neueste Aspose.Note‑Version, die breitere Kompatibilität bietet. |
+| **Nicht unterstützte OneNote‑Version** | Verwendung einer sehr alten `.one`‑Datei | Aktualisieren Sie die Datei zuerst in OneNote oder verwenden Sie die neueste Version von Aspose.Note, die breitere Kompatibilität bietet. |
 | **PDF‑Ausgabe ist leer** | Fehlende Schriftarten auf dem Server | Installieren Sie die erforderlichen Schriftarten oder betten Sie sie über `PdfSaveOptions.setEmbedStandardFonts(true)` ein. |
 
 ## Häufig gestellte Fragen
 
-**F: Ist Aspose.Note mit allen Versionen von OneNote kompatibel?**  
+**Q: Ist Aspose.Note mit allen Versionen von OneNote kompatibel?**  
 A: Ja, Aspose.Note unterstützt aktuelle OneNote‑Formate, einschließlich `.one` und `.onepkg`. Ältere Legacy‑Dateien müssen möglicherweise zuerst in OneNote geöffnet und erneut gespeichert werden.
 
-**F: Kann ich die PDF‑Ausgabe (Seitengröße, Ränder usw.) anpassen?**  
+**Q: Kann ich die PDF‑Ausgabe (Seitengröße, Ränder usw.) anpassen?**  
 A: Absolut. `PdfSaveOptions` bietet Eigenschaften wie `setPageSize()`, `setMarginTop()` und `setImageCompression()`, um das Ergebnis fein abzustimmen.
 
-**F: Unterstützt Aspose.Note die Konvertierung in andere Formate als PDF?**  
+**Q: Unterstützt Aspose.Note die Konvertierung in andere Formate als PDF?**  
 A: Ja, Sie können OneNote‑Dateien mit den entsprechenden Save‑Optionen in DOCX, HTML, JPEG, PNG und weitere Formate konvertieren.
 
-**F: Gibt es eine kostenlose Testversion?**  
+**Q: Gibt es einen kostenlosen Testzeitraum?**  
 A: Ja, Sie können eine voll funktionsfähige Testversion von der [Aspose.Note‑Download‑Seite](https://releases.aspose.com/) herunterladen.
 
-**F: Wo bekomme ich Hilfe, wenn ich auf Probleme stoße?**  
-A: Das Aspose‑Community‑Forum ist ein guter Ort, um Fragen zu stellen: [Support‑Forum](https://forum.aspose.com/c/note/28).
+**Q: Wo bekomme ich Hilfe, wenn ich auf Probleme stoße?**  
+A: Das Aspose‑Community‑Forum ist ein guter Ort, um Fragen zu stellen: [support forum](https://forum.aspose.com/c/note/28).
 
 ---
 
-**Zuletzt aktualisiert:** 2025-12-05  
-**Getestet mit:** Aspose.Note für Java 24.12  
-**Autor:** Aspose  
+**Last Updated:** 2026-02-15  
+**Tested With:** Aspose.Note for Java 24.12  
+**Author:** Aspose  
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
