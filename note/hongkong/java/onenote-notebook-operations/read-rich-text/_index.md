@@ -1,10 +1,16 @@
 ---
-date: 2026-01-02
-description: 學習如何使用 Aspose.Note for Java 讀取 OneNote 豐富文字。此一步一步的指南展示如何有效讀取 OneNote
-  筆記本。
-linktitle: How to Read OneNote - Read Rich Text from OneNote Notebook - Aspose.Note
+date: 2026-04-24
+description: 學習如何使用 Aspose.Note for Java 從 OneNote 筆記本中提取文字、載入 OneNote 筆記本檔案並讀取 .one
+  檔案，以應對遷移與搜尋索引的 OneNote 場景。
+keywords:
+- extract text onenote
+- load onenote notebook
+- search index onenote
+- read .one file java
+- migrate onenote content
+linktitle: 提取文字 OneNote – 使用 Aspose.Note 從 OneNote 筆記本讀取富文本
 second_title: Aspose.Note Java API
-title: 如何讀取 OneNote - 從 OneNote 筆記本讀取富文本 - Aspose.Note
+title: 提取文字 OneNote – 使用 Aspose.Note 從 OneNote 筆記本讀取富文本
 url: /zh-hant/java/onenote-notebook-operations/read-rich-text/
 weight: 23
 ---
@@ -13,30 +19,42 @@ weight: 23
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# 從 OneNote 筆記本讀取 Rich Text - Aspose.Note
+# 提取 OneNote 文字 – 使用 Aspose.Note 讀取 OneNote 筆記本的富文字
 
-## 簡介
+## 介紹
 
-如果您正在尋找 **如何以程式方式讀取 OneNote** 資料，您來對地方了。在本教學中，我們將示範如何使用 **Aspose.Note for Java** 從 OneNote 筆記本中擷取 rich‑text 內容。完成後，您將能從任何筆記本中提取純文字、進行操作，並將其整合到您的 Java 應用程式中——無論是建立報告工具、搜尋索引，或是遷移腳本。
+如果您需要以程式方式 **提取 OneNote 文字**，您來對地方了。在本教學中，我們將示範如何使用 **Aspose.Note for Java** 從 OneNote 筆記本讀取富文字內容。完成後，您將能從任何筆記本中抽取純文字、進行操作，並將其整合到您的 Java 應用程式中——無論是建立報告工具、**OneNote 搜尋索引**，或是用於 **遷移 OneNote 內容** 的腳本。
 
-## 快速解答
-- **需要的函式庫是什麼？** Aspose.Note for Java  
-- **我可以同時讀取 .one 與 .onetoc2 檔案嗎？** 可以，API 支援所有原生 OneNote 格式。  
-- **開發時需要授權嗎？** 免費試用可用於測試；正式環境需購買商業授權。  
-- **需要哪個版本的 Java？** Java 8 或更高。  
-- **實作需要多長時間？** 基本擷取通常在 15 分鐘以內完成。
+## 快速回答
+- **需要哪個函式庫？** Aspose.Note for Java  
+- **可以讀取 .one 與 .onetoc2 檔案嗎？** 可以，API 支援所有原生 OneNote 格式。  
+- **開發時需要授權嗎？** 免費試用可用於測試；正式上線需購買商業授權。  
+- **需要哪個 Java 版本？** Java 8 或更高。  
+- **實作需要多長時間？** 基本抽取通常在 15 分鐘以內完成。
+
+## 什麼是「提取 OneNote 文字」？
+
+提取 OneNote 文字是指以程式方式取得 OneNote 檔案內每個 RichText 元素的純文字表示。這讓您可以取得可搜尋、可索引或可遷移的內容，而不需要原始的 OneNote 使用者介面。
+
+## 為什麼要以程式方式載入 OneNote 筆記本？
+
+以程式方式載入 OneNote 筆記本可讓您：
+
+- **OneNote 搜尋索引** – 將抽取的文字餵入 Elasticsearch、Azure Cognitive Search 或任何自訂索引。  
+- **遷移 OneNote 內容** – 將舊有筆記搬移至 SharePoint、Confluence 或資料庫。  
+- **自動化報告** – 從會議筆記產生摘要、分析或合規報告。  
 
 ## 前置條件
 
-在開始之前，請確保您已具備以下項目：
+開始之前，請確保您具備以下條件：
 
-### Java 開發工具包 (JDK)
+### Java Development Kit (JDK)
 
-近期的 JDK（Java 8 以上）。可從 Oracle 官方網站或採用 OpenJDK 下載。
+近期的 JDK（Java 8+）。可從 Oracle 官方網站或 AdoptOpenJDK 下載。
 
 ### Aspose.Note for Java
 
-從提供的[下載連結](https://releases.aspose.com/note/java/)下載並設定 Aspose.Note for Java。依照安裝說明將 JAR 檔案加入專案的 classpath。
+從提供的 [下載連結](https://releases.aspose.com/note/java/) 下載並設定 Aspose.Note for Java。依照安裝說明將 JAR 檔加入專案的 classpath。
 
 ## 匯入套件
 
@@ -52,7 +70,7 @@ import com.aspose.note.RichText;
 
 ## 步驟 1：設定開發環境
 
-確保在建置工具（Maven、Gradle，或手動加入 IDE）中已參考 Aspose.Note JAR。此步驟可確保編譯器能找到 `Notebook` 與 `RichText`。
+確保在建置工具（Maven、Gradle 或手動加入 IDE）中已參考 Aspose.Note JAR。此步驟可讓編譯器找到 `Notebook` 與 `RichText`。
 
 ## 步驟 2：存取 OneNote 筆記本
 
@@ -61,15 +79,15 @@ String dataDir = "Your Document Directory";
 Notebook rootNotebook = new Notebook(dataDir + "test.onetoc2");
 ```
 
-將 `Your Document Directory` 替換為包含 OneNote 筆記本檔案之資料夾的絕對或相對路徑。`Notebook` 建構子會載入筆記本的層級結構，讓您可以探索其內容。
+將 `Your Document Directory` 替換為包含 OneNote 筆記本檔案的絕對或相對路徑。`Notebook` 建構子會載入筆記本的層級結構，讓您能探索其內容。
 
-## 步驟 3：擷取 Rich Text 節點
+## 步驟 3：抽取 Rich Text 節點
 
 ```java
 List<RichText> allRichTextNodes = rootNotebook.getChildNodes(RichText.class);
 ```
 
-`getChildNodes(RichText.class)` 會遍歷筆記本樹，回傳所有儲存 rich‑text 資料的節點，例如段落、清單項目與表格儲存格。
+`getChildNodes(RichText.class)` 會遍歷筆記本樹狀結構，回傳所有儲存富文字資料的節點，例如段落、清單項目與表格儲存格。
 
 ## 步驟 4：遍歷 Rich Text 節點
 
@@ -79,51 +97,41 @@ for (RichText richTextNode : allRichTextNodes) {
 }
 ```
 
-此迴圈會將每個 `RichText` 節點的純文字輸出至主控台。您可以將 `System.out.println` 替換為任何自訂處理——例如儲存至資料庫、寫入搜尋索引，或執行語言分析。
-
-## 為何要從 OneNote 讀取 Rich Text？
-
-- **資料遷移：** 將舊有 OneNote 內容搬移至現代內容管理系統。  
-- **搜尋與索引：** 為企業知識庫建立可搜尋的索引。  
-- **報告：** 自動從會議筆記產生摘要或分析報表。  
+此迴圈會將每個 `RichText` 節點的純文字印出至主控台。您可以將 `System.out.println` 換成自訂處理——例如寫入資料庫、餵入搜尋索引，或執行語言分析。
 
 ## 常見問題與解決方案
 
 | 問題 | 解決方案 |
 |-------|----------|
-| **FileNotFoundException** | 驗證 `dataDir` 是否指向正確的資料夾，且 `.onetoc2` 檔案確實存在。 |
-| **Unsupported format** | 確保筆記本是使用受支援的 OneNote 版本建立；較舊的 `.one` 檔案仍相容。 |
-| **License not found** | 將 `Aspose.Note.lic` 檔案放置於 classpath，或在載入筆記本前以程式方式設定授權。 |
+| **FileNotFoundException** | 確認 `dataDir` 指向正確資料夾，且 `.onetoc2` 檔案確實存在。 |
+| **Unsupported format** | 確保筆記本是使用受支援的 OneNote 版本建立；舊版 `.one` 檔仍相容。 |
+| **License not found** | 將 `Aspose.Note.lic` 檔放入 classpath，或在載入筆記本前以程式方式設定授權。 |
 
 ## 常見問答
 
 ### Q1：我可以使用 Aspose.Note for Java 修改 OneNote 檔案嗎？
 
-A1：可以，Aspose.Note for Java 提供廣泛的功能，可以程式方式修改與操作 OneNote 檔案。
+A1：可以，Aspose.Note for Java 提供豐富的功能，可程式化修改與操作 OneNote 檔案。
 
-### Q2：Aspose.Note for Java 與所有版本的 Microsoft OneNote 相容嗎？
+### Q2：Aspose.Note for Java 是否相容所有版本的 Microsoft OneNote？
 
-A2：Aspose.Note for Java 支援多個版本的 Microsoft OneNote，確保對不同檔案格式的相容性。
+A2：Aspose.Note for Java 支援多種 Microsoft OneNote 版本，確保不同檔案格式皆可相容。
 
-### Q3：Aspose.Note for Java 商業使用需要授權嗎？
+### Q3：Aspose.Note for Java 商業使用是否需要授權？
 
-A3：是的，商業使用需取得有效授權。您可從[購買頁面](https://purchase.aspose.com/buy)取得授權。
+A3：是的，商業使用必須取得有效授權。您可於 [購買頁面](https://purchase.aspose.com/buy) 取得授權。
 
-### Q4：我可以在購買前試用 Aspose.Note for Java 嗎？
+### Q4：我可以在購買前先試用 Aspose.Note for Java 嗎？
 
-A4：可以，您可從[網站](https://releases.aspose.com/)取得免費試用。
+A4：可以，您可從 [網站](https://releases.aspose.com/) 下載免費試用版。
 
 ### Q5：我可以在哪裡取得 Aspose.Note for Java 的支援？
 
-A5：您可在[Aspose.Note 論壇](https://forum.aspose.com/c/note/28)取得支援與協助。
-
-## 結論
-
-本指南示範了 **如何讀取 OneNote** rich‑text 內容，使用 Aspose.Note for Java。透過四個簡單步驟——設定環境、載入筆記本、擷取 `RichText` 節點，並遍歷它們，您即可解鎖 OneNote 檔案中隱藏的文字資料，並在任何基於 Java 的解決方案中加以運用。
+A5：您可於 [Aspose.Note 論壇](https://forum.aspose.com/c/note/28) 獲得支援與協助。
 
 ---
 
-**最後更新：** 2026-01-02  
+**最後更新：** 2026-04-24  
 **測試環境：** Aspose.Note for Java 23.12  
 **作者：** Aspose  
 
