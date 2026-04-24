@@ -1,11 +1,18 @@
 ---
-date: 2026-01-02
-description: Pelajari cara membaca teks kaya OneNote menggunakan Aspose.Note untuk
-  Java. Panduan langkah demi langkah ini menunjukkan cara membaca notebook OneNote
-  secara efisien.
-linktitle: How to Read OneNote - Read Rich Text from OneNote Notebook - Aspose.Note
+date: 2026-04-24
+description: Pelajari cara mengekstrak teks OneNote dari buku catatan OneNote menggunakan
+  Aspose.Note untuk Java, memuat file buku catatan OneNote, dan membaca file .one
+  dengan Java untuk skenario migrasi serta indeks pencarian OneNote.
+keywords:
+- extract text onenote
+- load onenote notebook
+- search index onenote
+- read .one file java
+- migrate onenote content
+linktitle: Ekstrak Teks OneNote – Baca Teks Kaya dari Notebook OneNote menggunakan
+  Aspose.Note
 second_title: Aspose.Note Java API
-title: Cara Membaca OneNote - Membaca Teks Kaya dari Notebook OneNote - Aspose.Note
+title: Ekstrak Teks OneNote – Baca Teks Kaya dari Notebook OneNote menggunakan Aspose.Note
 url: /id/java/onenote-notebook-operations/read-rich-text/
 weight: 23
 ---
@@ -14,34 +21,46 @@ weight: 23
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Baca Teks Kaya dari Notebook OneNote - Aspose.Note
+# Ekstrak Teks onenote – Baca Teks Kaya dari Notebook OneNote menggunakan Aspose.Note
 
 ## Pendahuluan
 
-Jika Anda mencari **cara membaca data OneNote** secara programatis, Anda berada di tempat yang tepat. Dalam tutorial ini kami akan menjelaskan cara menggunakan **Aspose.Note for Java** untuk mengekstrak konten teks kaya dari notebook OneNote. Pada akhir tutorial, Anda akan dapat mengambil teks biasa dari notebook mana pun, memanipulasinya, dan mengintegrasikannya ke dalam aplikasi Java Anda—baik Anda sedang membangun alat pelaporan, indeks pencarian, atau skrip migrasi.
+Jika Anda perlu **extract text onenote** secara programatis, Anda berada di tempat yang tepat. Dalam tutorial ini kami akan menjelaskan cara menggunakan **Aspose.Note for Java** untuk membaca konten rich‑text dari notebook OneNote. Pada akhir tutorial, Anda akan dapat mengambil teks biasa dari notebook apa pun, memanipulasinya, dan mengintegrasikannya ke dalam aplikasi Java Anda—baik Anda sedang membangun alat pelaporan, indeks pencarian onenote, atau skrip migrasi untuk **migrate onenote content**.
 
 ## Jawaban Cepat
-- **Perpustakaan apa yang dibutuhkan?** Aspose.Note for Java  
-- **Bisakah saya membaca file .one dan .onetoc2?** Ya, API mendukung semua format native OneNote.  
-- **Apakah saya memerlukan lisensi untuk pengembangan?** Versi percobaan gratis dapat digunakan untuk pengujian; lisensi komersial diperlukan untuk produksi.  
-- **Versi Java apa yang diperlukan?** Java 8 atau lebih tinggi.  
-- **Berapa lama implementasinya?** Biasanya kurang dari 15 menit untuk ekstraksi dasar.
+- **Library apa yang dibutuhkan?** Aspose.Note for Java  
+- **Bisakah saya membaca file .one dan .onetoc2?** Yes, the API supports all native OneNote formats.  
+- **Apakah saya memerlukan lisensi untuk pengembangan?** A free trial works for testing; a commercial license is required for production.  
+- **Versi Java apa yang diperlukan?** Java 8 or higher.  
+- **Berapa lama implementasinya?** Typically under 15 minutes for basic extraction.
+
+## Apa itu “extract text onenote”?
+
+Men­ek­strak teks onenote berarti secara programatis mengambil representasi teks biasa dari setiap elemen RichText yang disimpan di dalam file OneNote. Ini memberi Anda konten yang dapat dicari, diindeks, atau dimigrasikan tanpa UI OneNote asli.
+
+## Mengapa memuat notebook OneNote secara programatis?
+
+Memuat notebook OneNote dengan kode memungkinkan Anda:
+
+- **Search index onenote** – mengirimkan teks yang diekstrak ke Elasticsearch, Azure Cognitive Search, atau indeks khusus apa pun.  
+- **Migrate onenote content** – memindahkan catatan lama ke SharePoint, Confluence, atau basis data.  
+- **Automate reporting** – menghasilkan ringkasan, analitik, atau laporan kepatuhan dari catatan rapat.  
 
 ## Prasyarat
 
 Sebelum Anda memulai, pastikan Anda memiliki hal berikut:
 
-### Java Development Kit (JDK)
+### Kit Pengembangan Java (JDK)
 
 JDK terbaru (Java 8+). Unduh dari situs web Oracle atau gunakan OpenJDK.
 
 ### Aspose.Note for Java
 
-Unduh dan siapkan Aspose.Note for Java dari [tautan unduhan](https://releases.aspose.com/note/java/). Ikuti petunjuk instalasi untuk menambahkan file JAR ke classpath proyek Anda.
+Unduh dan siapkan Aspose.Note for Java dari [tautan unduhan](https://releases.aspose.com/note/java/) yang disediakan. Ikuti petunjuk instalasi untuk menambahkan file JAR ke classpath proyek Anda.
 
 ## Impor Paket
 
-Untuk bekerja dengan API, impor kelas yang diperlukan:
+To work with the API, import the required classes:
 
 ```java
 import java.io.IOException;
@@ -62,17 +81,17 @@ String dataDir = "Your Document Directory";
 Notebook rootNotebook = new Notebook(dataDir + "test.onetoc2");
 ```
 
-Ganti `Your Document Directory` dengan path absolut atau relatif ke folder yang berisi file notebook OneNote. Konstruktor `Notebook` memuat hierarki notebook sehingga Anda dapat menjelajahi isinya.
+Ganti `Your Document Directory` dengan jalur absolut atau relatif ke folder yang berisi file notebook OneNote. Konstruktor `Notebook` memuat hierarki notebook sehingga Anda dapat menjelajahi isinya.
 
-## Langkah 3: Ekstrak Node Teks Kaya
+## Langkah 3: Ekstrak Node Rich Text
 
 ```java
 List<RichText> allRichTextNodes = rootNotebook.getChildNodes(RichText.class);
 ```
 
-`getChildNodes(RichText.class)` menelusuri pohon notebook mengembalikan setiap node yang menyimpan data teks kaya, seperti paragraf, item daftar, dan sel tabel.
+`getChildNodes(RichText.class)` menelusuri pohon notebook dan mengembalikan setiap node yang menyimpan data rich‑text, seperti paragraf, item daftar, dan sel tabel.
 
-## Langkah 4: Iterasi Node Teks Kaya
+## Langkah 4: Iterasi Melalui Node Rich Text
 
 ```java
 for (RichText richTextNode : allRichTextNodes) {
@@ -80,21 +99,15 @@ for (RichText richTextNode : allRichTextNodes) {
 }
 ```
 
-Loop ini mencetak teks biasa dari setiap node `RichText` ke konsol. Anda dapat mengganti `System.out.println` dengan pemrosesan khusus apa pun—menyimpan ke basis data, mengisi indeks pencarian, atau melakukan analisis bahasa.
-
-## Mengapa Membaca Teks Kaya dari OneNote?
-
-- **Migrasi Data:** Memindahkan konten OneNote lama ke sistem manajemen konten modern.  
-- **Pencarian & Pengindeksan:** Membuat indeks yang dapat dicari untuk basis pengetahuan perusahaan.  
-- **Pelaporan:** Menghasilkan ringkasan atau analitik dari catatan rapat secara otomatis.  
+Loop ini mencetak teks biasa dari setiap node `RichText` ke konsol. Anda dapat mengganti `System.out.println` dengan pemrosesan khusus apa pun—menyimpan ke basis data, mengirim ke indeks pencarian, atau melakukan analisis bahasa.
 
 ## Masalah Umum & Solusi
 
-| Issue | Solution |
+| Masalah | Solusi |
 |-------|----------|
-| **FileNotFoundException** | Verifikasi bahwa `dataDir` mengarah ke folder yang benar dan bahwa file `.onetoc2` ada. |
+| **FileNotFoundException** | Verifikasi bahwa `dataDir` mengarah ke folder yang benar dan file `.onetoc2` ada. |
 | **Unsupported format** | Pastikan notebook dibuat dengan versi OneNote yang didukung; file `.one` lama masih kompatibel. |
-| **License not found** | Letakkan file `Aspose.Note.lic` Anda di classpath atau atur lisensi secara programatik sebelum memuat notebook. |
+| **License not found** | Tempatkan file `Aspose.Note.lic` Anda di classpath atau atur lisensi secara programatis sebelum memuat notebook. |
 
 ## Pertanyaan yang Sering Diajukan
 
@@ -104,7 +117,7 @@ A1: Ya, Aspose.Note for Java menyediakan kemampuan luas untuk memodifikasi dan m
 
 ### Q2: Apakah Aspose.Note for Java kompatibel dengan semua versi Microsoft OneNote?
 
-A2: Aspose.Note for Java mendukung berbagai versi Microsoft OneNote, memastikan kompatibilitas di seluruh format file yang berbeda.
+A2: Aspose.Note for Java mendukung berbagai versi Microsoft OneNote, memastikan kompatibilitas di berbagai format file.
 
 ### Q3: Apakah Aspose.Note for Java memerlukan lisensi untuk penggunaan komersial?
 
@@ -112,21 +125,17 @@ A3: Ya, lisensi yang valid diperlukan untuk penggunaan komersial. Anda dapat mem
 
 ### Q4: Bisakah saya mencoba Aspose.Note for Java sebelum membeli?
 
-A4: Ya, Anda dapat mencoba versi percobaan gratis dari [situs web](https://releases.aspose.com/).
+A4: Ya, Anda dapat memanfaatkan percobaan gratis dari [situs web](https://releases.aspose.com/).
 
 ### Q5: Di mana saya dapat menemukan dukungan untuk Aspose.Note for Java?
 
 A5: Anda dapat menemukan dukungan dan bantuan di [forum Aspose.Note](https://forum.aspose.com/c/note/28).
 
-## Kesimpulan
-
-Dalam panduan ini kami menunjukkan **cara membaca konten teks kaya OneNote** menggunakan Aspose.Note for Java. Dengan mengikuti empat langkah sederhana—menyiapkan lingkungan, memuat notebook, mengekstrak node `RichText`, dan mengiterasinya—Anda dapat membuka data teks yang tersembunyi di dalam file OneNote dan memanfaatkannya dalam solusi berbasis Java pun.
-
 ---
 
-**Last Updated:** 2026-01-02  
-**Tested With:** Aspose.Note for Java 23.12  
-**Author:** Aspose  
+**Terakhir Diperbarui:** 2026-04-24  
+**Diuji Dengan:** Aspose.Note for Java 23.12  
+**Penulis:** Aspose  
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
