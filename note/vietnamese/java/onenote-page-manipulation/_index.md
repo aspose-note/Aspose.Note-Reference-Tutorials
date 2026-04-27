@@ -92,15 +92,15 @@ Tìm hiểu cách đặt màu nền trang trong OneNote một cách dễ dàng b
 ### [Làm việc với Các Phiên bản Trang trong OneNote - Aspose.Note](./working-with-page-revisions/)
 Tìm hiểu cách quản lý các phiên bản trang trong tài liệu OneNote bằng Aspose.Note for Java. Hướng dẫn này cung cấp các bước chi tiết để theo dõi phiên bản và hợp tác hiệu quả.
 
+---
+
+**Cập nhật lần cuối:** 2026-01-07  
+**Được kiểm tra với:** Aspose.Note for Java (latest)  
+**Tác giả:** Aspose
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
-
----
-
-**Cập nhật lần cuối:** 2026-01-07  
-**Được kiểm tra với:** Aspose.Note for Java (latest)  
-**Tác giả:** Aspose

@@ -115,15 +115,15 @@ Pelajari cara mengatur warna latar belakang halaman di OneNote dengan mudah meng
 ### [Bekerja dengan Revisi Halaman di OneNote - Aspose.Note](./working-with-page-revisions/)
 Pelajari cara mengelola revisi halaman dalam dokumen OneNote menggunakan Aspose.Note for Java. Tutorial ini menyediakan panduan langkah demi langkah untuk pelacakan revisi yang efektif dan kolaborasi.
 
+---
+
+**Terakhir Diperbarui:** 2026-01-07  
+**Diuji Dengan:** Aspose.Note for Java (latest)  
+**Penulis:** Aspose
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
-
----
-
-**Terakhir Diperbarui:** 2026-01-07  
-**Diuji Dengan:** Aspose.Note for Java (latest)  
-**Penulis:** Aspose

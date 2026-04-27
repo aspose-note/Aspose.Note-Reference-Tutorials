@@ -27,57 +27,57 @@ weight: 29
 
 สมุดบันทึกที่ดูสวยงามสามารถปรับปรุงการอ่านและประสบการณ์ผู้ใช้ได้ ด้วย Aspose.Note คุณสามารถง่าย ๆ **set onenote page background** สีต่าง ๆ เพื่อไฮไลท์ส่วนสำคัญหรือปรับแต่งโน้ตของคุณให้เป็นเอกลักษณ์
 
-## Conflict Page Manipulation in OneNote - Aspose.Note
+## การจัดการหน้าข้อขัดแย้งใน OneNote - Aspose.Note
 
-หน้า conflict อาจเป็นปัญหา แต่ด้วย Aspose.Note for Java การแก้ไขก็ง่ายดาย คู่มือ [step-by-step guide](./conflict-page-manipulation/) ของเราช่วยให้คุณนำทางการจัดการหน้า conflict ได้อย่างราบรื่น ทำให้โน้ตของคุณจัดระเบียบอย่างต่อเนื่อง ค้นหาเพิ่มเติม
+ข้อขัดแย้งอาจก่อให้เกิดปัญหาแต่ด้วย Aspose.Note for Java จริงก็มีความสำคัญอย่างยิ่ง [คำแนะนำทีละขั้นตอน](./conflict-page-manipulation/) ของเราจะช่วยให้การจัดการหน้าความขัดแย้งสามารถตรวจสอบได้โดยไม่มีการจดบันทึกของคุณอย่างต่อเนื่องค้นหาเพิ่มเติม
 
-## Create Document with Root and Sub Pages in OneNote - Aspose.Note
+## สร้างเอกสารด้วยรูทและเพจย่อยใน OneNote - Aspose.Note
 
-จัดระเบียบความคิดของคุณอย่างเป็นระบบโดยสร้างเอกสารที่มี root และ sub‑pages ด้วย Aspose.Note for Java คู่มือของเรา [guide](./create-document-with-root-and-sub-pages/) ให้ขั้นตอนที่ทำตามง่าย ช่วยให้คุณจัดโครงสร้างและจัดการโน้ตได้อย่างมีประสิทธิภาพ ค้นหาเพิ่มเติม
+การจัดการความคิดของคุณอย่างแม่นยำโดยสร้างเอกสารที่มีรูทและเพจย่อยด้วย Aspose.Note for Java มีความสำคัญอย่างยิ่ง [guide](./create-document-with-root-and-sub-pages/) ให้ขั้นตอนที่ทำตามง่ายช่วยจัดโครงสร้างและดำเนินการโน้ตของเราได้อย่างมีประสิทธิภาพในการค้นหาเพิ่มเติม
 
-## Get Information about Pages in OneNote - Aspose.Note
+## รับข้อมูลเกี่ยวกับหน้าใน OneNote - Aspose.Note
 
-ปลดล็อกพลังของการสกัดข้อมูลจากเอกสาร OneNote ด้วย Aspose.Note for Java นักพัฒนา, [tutorial](./get-information-about-pages/) นี้สำหรับคุณ! ดำดิ่งสู่การสกัดรายละเอียดหน้าอย่างง่ายดายด้วยคู่มือที่เป็นมิตรกับผู้ใช้ ค้นหาเพิ่มเติม
+ปลดล็อกพลังของการสกัดเอกสาร OneNote ด้วย Aspose.Note for Java ตรวจสอบ, [tutorial](./get-information-about-pages/) สำหรับคุณ! ดำดิ่งสู่การสกัดรายละเอียดหน้าอย่างแรกด้วยคู่มือที่ผู้ใช้ค้นหาเพิ่มเติม
 
-## Get Page Count in OneNote - Aspose.Note
+## รับจำนวนหน้าใน OneNote - Aspose.Note
 
-สงสัยจำนวนหน้าของเอกสาร OneNote ของคุณหรือไม่? Aspose.Note for Java มีคำตอบให้คุณ ติดตาม [straightforward tutorial](./get-page-count/) ของเราเพื่อดึงจำนวนหน้าอย่างง่ายดาย ทำให้กระบวนการจัดการเอกสารของคุณง่ายขึ้น ค้นหาเพิ่มเติม
+สงสัยจำนวนหน้าของเอกสาร OneNote ใช่หรือไม่? Aspose.Note for Java คำตอบมีให้คุณติดตาม [บทช่วยสอนที่ตรงประเด็น](./get-page-count/) ของเราเพื่อดึงจำนวนหน้าอย่างไม่ต้องสงสัยเลยว่าคุณจะจัดการเอกสารของคุณอีกครั้งในการค้นหาเพิ่มเติม
 
-## Get Page Revisions in OneNote - Aspose.Note
+## รับการแก้ไขหน้าใน OneNote - Aspose.Note
 
-ติดตามการเปลี่ยนแปลงในเอกสาร OneNote ของคุณอย่างมีประสิทธิภาพด้วย Aspose.Note for Java คู่มือ [step-by-step guide](./get-page-revisions/) ของเราช่วยให้คุณดึงการแก้ไขหน้าได้อย่างราบรื่น ทำให้คุณอัพเดทการพัฒนาเอกสารของคุณอยู่เสมอ ค้นหาเพิ่มเติม
+ติดตามการเปลี่ยนแปลงในเอกสาร OneNote ของคุณอย่างมีประสิทธิภาพด้วย Aspose.Note สำหรับ Java ที่จำเป็น [คำแนะนำทีละขั้นตอน](./get-page-revisions/) ของเราช่วยให้คุณดึงหน้าได้อย่างมีประสิทธิภาพ คุณต้องอัปเดตการพัฒนาเอกสารของคุณอยู่เสมอค้นหาเพิ่มเติม
 
-## Get Revisions of Pages in OneNote - Aspose.Note
+## รับการแก้ไขหน้าใน OneNote - Aspose.Note
 
-รวมการติดตามการแก้ไขเข้ากับแอปพลิเคชัน Java ของคุณอย่างไร้รอยต่อด้วย [Aspose.Note](https://link-to-aspose.note) เรียนรู้วิธีดึงการแก้ไขของหน้าในเอกสาร OneNote และเพิ่มความสามารถในการจัดการเอกสารของคุณ ค้นหาเพิ่มเติม
+รวมไปถึงความต้องการแอปพลิเคชัน Java ของคุณอย่างราบรื่นด้วย [Aspose.Note](https://link-to-aspose.note) และจะดึงเอาหน้าในเอกสาร OneNote เป็นส่วนจัดการเอกสารของคุณค้นหาเพิ่มเติม
 
-## Insert Pages in OneNote - Aspose.Note
+## แทรกหน้าใน OneNote - Aspose.Note
 
-ต้องการแทรกหน้าลงในเอกสาร OneNote อย่างอัตโนมัติหรือไม่? Aspose.Note for Java มีคู่มือที่ครอบคลุม ติดตาม [step-by-step instructions](./insert-pages/) เพื่อการแก้ไขเอกสารอย่างราบรื่น ค้นหาเพิ่มเติม
+ต้องการแทรกหน้าลงในเอกสาร OneNote ในอัตโนมัติหรือไม่? Aspose.Note for Java มีคู่มือติดตามติดตาม [คำแนะนำทีละขั้นตอน](./insert-pages/) เพื่อให้มั่นใจในเอกสารอย่างใดอย่างหนึ่งค้นหาเพิ่มเติม
 
-## Modify Page History in OneNote - Aspose.Note
+## แก้ไขประวัติหน้าใน OneNote - Aspose.Note
 
-สำรวจความซับซ้อนของการแก้ไขประวัติหน้าในเอกสาร OneNote ด้วย Aspose.Note for Java คู่มือของเรา [tutorial](./modify-page-history/) พร้อมตัวอย่างโค้ด ช่วยคุณผ่านกระบวนการอย่างง่ายดาย ค้นหาเพิ่มเติม
+เหตุผลของการที่ประวัติหน้าในเอกสาร OneNote ด้วย Aspose.Note สำหรับ Java จะต้องตรวจสอบของเรา [tutorial](./modify-page-history/) พร้อมตัวอย่างโค้ดเพื่อช่วยผ่านการตรวจสอบอย่างใดอย่างหนึ่งค้นหาเพิ่มเติม
 
-## Push Current Page Version in OneNote - Aspose.Note
+## พุชเวอร์ชันหน้าปัจจุบันใน OneNote - Aspose.Note
 
-จัดการเวอร์ชันเอกสารอย่างง่ายดายโดยเรียนรู้วิธี push the current page version ใน OneNote ด้วย Aspose.Note for Java ทำให้การควบคุมเวอร์ชันของคุณง่ายขึ้นด้วย [easy-to-follow tutorial](./push-current-page-version/) ของเรา ค้นหาเพิ่มเติม
+จัดการเอกสารอย่างละเอียดโดยไม่จำเป็นต้องพุชเวอร์ชันหน้าปัจจุบันใน OneNote ด้วย Aspose.Note สำหรับ Java ระบบควบคุมการจัดการของคุณด้วย [ง่ายต่อการปฏิบัติตามบทช่วยสอน](./push-current-page-version/) ของเราค้นหาเพิ่มเติม
 
-## Roll Back to Previous Page Version in OneNote - Aspose.Note
+## ย้อนกลับไปเป็นเวอร์ชันหน้าก่อนหน้าใน OneNote - Aspose.Note
 
-ความผิดพลาดเกิดขึ้นได้ แต่ด้วย Aspose.Note for Java การแก้ไขเป็นเรื่องง่าย เรียนรู้วิธี roll back to previous page versions ใน OneNote ด้วย [step-by-step guide](./roll-back-to-previous-page-version/) ของเรา เพื่อการจัดการเอกสารที่มีประสิทธิภาพ ค้นหาเพิ่มเติม
+ความผิดพลาดเกิดขึ้นได้แต่ด้วย Aspose.Note สำหรับ Java จริงๆ เป็นเรื่องง่ายที่จะย้อนกลับไปเป็นเวอร์ชันหน้าก่อนหน้าใน OneNote ด้วย [คำแนะนำทีละขั้นตอน](./roll-back-to-previous-page-version/) ของเรา เพื่อการจัดการเอกสารสืบค้นเพิ่มเติม
 
-## Set Page Background Color in OneNote - Aspose.Note
+## ตั้งค่าสีพื้นหลังของหน้าใน OneNote - Aspose.Note
 
-เพิ่มความสวยงามให้กับเอกสาร OneNote ของคุณโดยเรียนรู้วิธี set page background color ด้วย Aspose.Note for Java คู่มือของเรา [tutorial](./set-page-background-color/) ทำให้กระบวนการง่ายขึ้น ช่วยให้คุณสร้างโน้ตที่สวยงามอย่างง่ายดาย ค้นหาเพิ่มเติม
+เพื่อที่จะจดจำเอกสาร OneNote ของคุณโดยไม่จำเป็นต้องตั้งค่าสีพื้นหลังของหน้าด้วย Aspose.Note สำหรับ Java ฮาร์ดแวร์ของเรา [tutorial](./set-page-พื้นหลัง-color/) คุณจะต้องทำงานหนัก
 
-## Working with Page Revisions in OneNote - Aspose.Note
+## การทำงานกับการแก้ไขหน้าใน OneNote - Aspose.Note
 
-ทำงานร่วมกันอย่างมีประสิทธิภาพโดยเชี่ยวชาญการแก้ไขหน้าในเอกสาร OneNote ด้วย Aspose.Note for Java คู่มือของเรา [tutorial](./working-with-page-revisions/) ให้คำแนะนำแบบละเอียดขั้นตอนต่อขั้นตอน ช่วยให้คุณจัดการการแก้ไขและส่งเสริมการทำงานร่วมกันอย่างไร้รอยต่อ ค้นหาเพิ่มเติม
+วิธีการที่มีประสิทธิภาพโดยมุ่งเน้นไปที่หน้าในเอกสาร OneNote ด้วย Aspose.Note สำหรับ Java คู่มือของเรา [tutorial](./working-with-page-revisions/) คำแนะนำแบบละเอียดต่อขั้นตอน ช่วยให้เราจัดการและส่งเสริมอย่างมีประสิทธิภาพในการค้นหาเพิ่มเติม
 
-เริ่มต้นการเดินทางสู่ความเชี่ยวชาญ OneNote กับ Aspose.Note for Java - ที่ซึ่งการจัดการหน้าที่มีประสิทธิภาพพบกับความเรียบง่าย! ค้นหาเพิ่มเติม
+เริ่มต้นการเดินทางสู่การเดินทาง OneNote กับ Aspose.Note for Java - ที่การจัดการหน้าพบกับความเรียบง่าย! ค้นหาเพิ่มเติม
 
-## OneNote Page Manipulation Tutorials
+## บทช่วยสอนการจัดการหน้า OneNote
 
 ### [การจัดการหน้า Conflict ใน OneNote - Aspose.Note](./conflict-page-manipulation/)
 เรียนรู้วิธีจัดการหน้า conflict ใน OneNote อย่างมีประสิทธิภาพด้วย Aspose.Note for Java แก้ไขความขัดแย้งได้อย่างราบรื่นด้วยคำแนะนำแบบขั้นตอนต่อขั้นตอน
@@ -115,15 +115,15 @@ weight: 29
 ### [Working with Page Revisions in OneNote - Aspose.Note](./working-with-page-revisions/)
 เรียนรู้วิธีจัดการการแก้ไขหน้าในเอกสาร OneNote ด้วย Aspose.Note for Java คู่มือนี้ให้คำแนะนำขั้นตอนต่อขั้นตอนสำหรับการติดตามการแก้ไขและการทำงานร่วมกันอย่างมีประสิทธิภาพ
 
+---
+
+**Last Updated:** 2026-01-07  
+**Tested With:** Aspose.Note for Java (latest)  
+**Author:** Aspose
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
-
----
-
-**Last Updated:** 2026-01-07  
-**Tested With:** Aspose.Note for Java (latest)  
-**Author:** Aspose

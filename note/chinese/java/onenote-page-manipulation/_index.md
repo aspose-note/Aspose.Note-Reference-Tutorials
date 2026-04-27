@@ -90,15 +90,16 @@ weight: 29
 学习如何使用 Aspose.Note for Java 轻松设置 OneNote 页面背景颜色。通过此简易教程提升文档的视觉吸引力。
 ### [使用 OneNote 页面修订 - Aspose.Note](./working-with-page-revisions/)
 学习如何使用 Aspose.Note for Java 管理 OneNote 文档的页面修订。此教程提供分步指南，帮助您实现有效的修订跟踪与协作。
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}
 
 ---
 
 **最后更新：** 2026-01-07  
 **测试环境：** Aspose.Note for Java (latest)  
 **作者：** Aspose
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

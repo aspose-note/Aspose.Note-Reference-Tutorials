@@ -78,40 +78,52 @@ OneNote belgelerinde sayfa revizyonlarıyla etkili bir şekilde iş birliği yap
 
 Aspose.Note for Java ile OneNote ustalığı yolculuğuna başlayın - verimli sayfa manipülasyonunun sadelikle buluştuğu yer! Daha fazla keşfedin.
 
-## OneNote Sayfa Manipülasyonu Öğreticileri
+## OneNote Sayfa Manipülasyonu Öğretileri
 ### [OneNote'ta Çakışma Sayfa Manipülasyonu - Aspose.Note](./conflict-page-manipulation/)
-Learn how to efficiently manage conflict pages in OneNote using Aspose.Note for Java. Resolve conflicts seamlessly with step-by-step guidance.
+Aspose.Note for Java kullanarak OneNote'ta çakışan sayfaları verimli bir şekilde nasıl yöneteceğinizi öğrenin. Adım adım kılavuz ile çakışmaları sorunsuz bir şekilde çözün.
+
 ### [OneNote'ta Kök ve Alt Sayfalarla Belge Oluşturma](./create-document-with-root-and-sub-pages/)
-Create a document with root and sub pages in OneNote using Aspose.Note for Java. Follow the step-by-step guide to efficiently organize your notes.
-### [OneNote'ta Sayfalar Hakkında Bilgi Almak - Aspose.Note](./get-information-about-pages/)
-Learn how to extract page information from OneNote documents using Aspose.Note for Java. Easy-to-follow tutorial for developers.
+Aspose.Note for Java kullanarak OneNote'ta kök ve alt sayfaları olan bir belge oluşturun. Notlarınızı verimli bir şekilde düzenlemek için adım adım kılavuzu izleyin.
+
+### [OneNote'ta Sayfalar Hakkında Bilgi Alma - Aspose.Note](./get-information-about-pages/)
+Aspose.Note for Java kullanarak OneNote belgelerinden sayfa bilgilerini nasıl çıkaracağınızı öğrenin. Geliştiriciler için kolay takip edilebilir bir eğitim.
+
 ### [OneNote'ta Sayfa Sayısını Öğrenme - Aspose.Note](./get-page-count/)
-Learn how to retrieve the page count in OneNote documents using Aspose.Note for Java. This step-by-step tutorial guides you through the process effortlessly.
-### [OneNote'ta Sayfa Revizyonlarını Almak - Aspose.Note](./get-page-revisions/)
-Learn how to retrieve page revisions in OneNote using Aspose.Note for Java. Follow our step-by-step guide for efficient tracking of changes.
-### [OneNote'ta Sayfaların Revizyonlarını Almak - Aspose.Note](./get-revisions-of-pages/)
-Learn how to retrieve revisions of pages within OneNote documents using Aspose.Note for Java. Integrate this functionality seamlessly into your Java applications for efficient document management.
+Aspose.Note for Java kullanarak OneNote belgelerindeki sayfa sayısını nasıl alacağınızı öğrenin. Bu adım adım kılavuz, süreci zahmetsizce tamamlamanıza yardımcı olur.
+
+### [OneNote'ta Sayfa Revizyonlarını Alma - Aspose.Note](./get-page-revisions/)
+Aspose.Note for Java kullanarak OneNote'ta sayfa revizyonlarını nasıl alacağınızı öğrenin. Değişikliklerin verimli bir şekilde izlenmesi için adım adım kılavuzumuzu takip edin.
+
+### [OneNote'ta Sayfaların Revizyonlarını Alma - Aspose.Note](./get-revisions-of-pages/)
+Aspose.Note for Java kullanarak OneNote belgelerindeki sayfa revizyonlarını nasıl alacağınızı öğrenin. Bu işlevselliği, verimli belge yönetimi için Java uygulamalarınıza sorunsuz bir şekilde entegre edin.
+
 ### [OneNote'ta Sayfa Ekleme - Aspose.Note](./insert-pages/)
-Learn how to insert pages into OneNote documents programmatically using Aspose.Note for Java. Comprehensive tutorial with step-by-step instructions.
+Aspose.Note for Java kullanarak OneNote belgelerine programatik olarak sayfa eklemeyi öğrenin. Adım adım talimatlarla kapsamlı bir eğitim.
+
 ### [OneNote'ta Sayfa Geçmişini Değiştirme - Aspose.Note](./modify-page-history/)
-Learn how to modify page history in OneNote documents using Aspose.Note for Java. Step-by-step tutorial with code examples.
+Aspose.Note for Java kullanarak OneNote belgelerinde sayfa geçmişini nasıl değiştireceğinizi öğrenin. Kod örnekleriyle adım adım bir eğitim.
+
 ### [OneNote'ta Mevcut Sayfa Sürümünü İtme - Aspose.Note](./push-current-page-version/)
-Learn how to push current page version in OneNote using Aspose.Note for Java. Seamlessly manage document versioning with ease.
-### [OneNote'ta Önceki Sayfa Sürümüne Geri Dönme - Aspose.Note](./roll-back-to-previous-page-version/)
-Learn how to roll back to previous page versions in OneNote using Aspose.Note for Java. Follow this step-by-step guide for efficient document management.
+Aspose.Note for Java kullanarak OneNote'ta mevcut sayfa sürümünü nasıl göndereceğinizi öğrenin. Belge sürümlemeyi kolaylıkla ve sorunsuz bir şekilde yönetin.
+
+### [OneNote'ta Önceki Sayfa Sürümüne Geri Döndürme - Aspose.Note](./roll-back-to-previous-page-version/)
+Aspose.Note for Java kullanarak OneNote'ta önceki sayfa sürümlerine nasıl geri döneceğinizi öğrenin. Verimli belge yönetimi için bu adım adım kılavuzu izleyin.
+
 ### [OneNote'ta Sayfa Arka Plan Rengini Ayarlama - Aspose.Note](./set-page-background-color/)
-Learn how to set the page background color in OneNote effortlessly using Aspose.Note for Java. Enhance the visual appeal of your documents with this simple tutorial.
+Aspose.Note for Java kullanarak OneNote'ta sayfa arka plan rengini zahmetsizce nasıl ayarlayacağınızı öğrenin. Bu basit eğitimle belgelerinizin görsel çekiciliğini artırın.
+
 ### [OneNote'ta Sayfa Revizyonlarıyla Çalışma - Aspose.Note](./working-with-page-revisions/)
-Learn how to manage page revisions in OneNote documents using Aspose.Note for Java. This tutorial provides a step-by-step guide for effective revision tracking and collaboration.
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}
+Aspose.Note for Java kullanarak OneNote belgelerinde sayfa revizyonlarını nasıl yöneteceğinizi öğrenin. Bu eğitim, etkili revizyon takibi ve iş birliği için adım adım bir kılavuz sunar.
 
 ---
 
 **Son Güncelleme:** 2026-01-07  
 **Test Edilen:** Aspose.Note for Java (latest)  
 **Yazar:** Aspose
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

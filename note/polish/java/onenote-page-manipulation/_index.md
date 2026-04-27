@@ -91,15 +91,16 @@ Dowiedz się, jak cofnąć się do poprzednich wersji stron w OneNote przy pomoc
 Dowiedz się, jak łatwo ustawić kolor tła strony w OneNote przy użyciu Aspose.Note for Java. Zwiększ atrakcyjność wizualną dokumentów dzięki temu prostemu samouczkowi.
 ### [Praca z wersjami stron w OneNote – Aspose.Note](./working-with-page-revisions/)
 Dowiedz się, jak zarządzać wersjami stron w dokumentach OneNote przy pomocy Aspose.Note for Java. Ten samouczek zapewnia przewodnik krok po kroku dla skutecznego śledzenia wersji i współpracy.
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}
 
 ---
 
 **Ostatnia aktualizacja:** 2026-01-07  
 **Testowane z:** Aspose.Note for Java (latest)  
 **Autor:** Aspose
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

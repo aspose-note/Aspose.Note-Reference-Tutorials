@@ -116,15 +116,15 @@ Erfahren Sie, wie Sie die Seitenhintergrundfarbe in OneNote mühelos mit Aspose.
 ### [Arbeiten mit Seitenrevisionen in OneNote - Aspose.Note](./working-with-page-revisions/)
 Erfahren Sie, wie Sie Seitenrevisionen in OneNote-Dokumenten mit Aspose.Note für Java verwalten. Dieses Tutorial bietet eine Schritt-für-Schritt-Anleitung für effektives Verfolgen von Revisionen und Zusammenarbeit.
 
+---
+
+**Zuletzt aktualisiert:** 2026-01-07  
+**Getestet mit:** Aspose.Note for Java (latest)  
+**Autor:** Aspose
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
-
----
-
-**Zuletzt aktualisiert:** 2026-01-07  
-**Getestet mit:** Aspose.Note for Java (latest)  
-**Autor:** Aspose

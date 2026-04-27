@@ -103,15 +103,16 @@ weight: 29
 Μάθετε πώς να ορίσετε το χρώμα φόντου της σελίδας στο OneNote άψογα χρησιμοποιώντας το Aspose.Note for Java. Βελτιώστε την οπτική ελκυστικότητα των εγγράφων σας με αυτό το απλό μάθημα.
 ### [Διαχείριση Αναθεωρήσεων Σελίδας στο OneNote - Aspose.Note](./working-with-page-revisions/)
 Μάθετε πώς να διαχειριστείτε τις αναθεωρήσεις σελίδας σε έγγραφα OneNote χρησιμοποιώντας το Aspose.Note for Java. Αυτό το μάθημα παρέχει έναν βήμα-προς-βήμα οδηγό για αποτελεσματική παρακολούθηση αναθεωρήσεων και συνεργασία.
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}
 
 ---
 
 **Last Updated:** 2026-01-07  
 **Tested With:** Aspose.Note for Java (latest)  
 **Author:** Aspose
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -17,27 +17,27 @@ weight: 10
 
 ## Pendahuluan
 
-Pengguna OneNote sering mengalami konflik ketika beberapa pengguna mengedit halaman yang sama secara bersamaan. **Implementing a conflict resolution strategy** membantu menyelesaikan masalah ini secara efisien dan menjaga integritas dokumen. Dalam tutorial ini, kami akan menjelaskan cara memanipulasi halaman konflik dengan Aspose.Note for Java, sehingga Anda dapat **resolve OneNote conflicts** dan menjaga notebook Anda tetap bersih.
+Pengguna OneNote sering mengalami konflik ketika beberapa pengguna mengedit halaman yang sama secara bersamaan. **Menerapkan strategi resolusi konflik** membantu menyelesaikan masalah ini secara efisien dan menjaga integritas dokumen. Dalam tutorial ini, kami akan menjelaskan cara memanipulasi halaman konflik dengan Aspose.Note for Java, sehingga Anda dapat **menyelesaikan konflik OneNote** dan menjaga notebook Anda tetap bersih.
 
 ## Jawaban Cepat
-- **Apa itu strategi resolusi konflik?** Serangkaian langkah programatik untuk mengidentifikasi, mengevaluasi, dan menangani revisi halaman yang konflik di OneNote.  
-- **Mengapa memanipulasi halaman konflik?** Untuk menghapus data konflik yang tidak diinginkan dan memastikan dokumen akhir mencerminkan versi yang benar.  
-- **Perpustakaan mana yang menangani ini?** Aspose.Note for Java menyediakan API khusus untuk manajemen halaman konflik.  
-- **Apakah saya memerlukan lisensi?** Lisensi Aspose.Note yang valid diperlukan untuk penggunaan produksi; versi percobaan gratis tersedia.  
-- **Bisakah saya mengotomatisasi ini dalam pipeline CI?** Ya—cukup integrasikan kode Java ke dalam skrip build Anda.
+- **Apa itu strategi penyelesaian konflik?** Serangkaian langkah programatik untuk mengidentifikasi, memicu, dan menangani revisi halaman yang konflik di OneNote.
+- **Mengapa memanipulasi halaman konflik?** Untuk menghapus data konflik yang tidak diinginkan dan memastikan dokumen akhir mencerminkan versi yang benar.
+- **Perpustakaan mana yang menangani ini?** Aspose.Note for Java menyediakan API khusus untuk manajemen konflik halaman.
+- **Apakah saya memerlukan lisensi?** Lisensi Aspose.Catatan yang valid diperlukan untuk penggunaan produksi; versi percobaan gratis tersedia.
+- ** menelepon saya mengotomatisasi ini dalam pipeline CI?** Ya—cukup integrasikan kode Java ke dalam skrip build Anda.
 
 ## Apa itu Strategi Resolusi Konflik?
-Sebuah **conflict resolution strategy** adalah pendekatan yang secara programatik mendeteksi halaman dengan edit yang konflik, memutuskan versi mana yang akan dipertahankan, dan secara opsional menghapus atau menandai yang lainnya. Hal ini memastikan notebook kolaboratif tetap konsisten tanpa intervensi manual.
+Sebuah **strategi resolusi konflik** adalah pendekatan yang secara terprogram mendeteksi halaman dengan edit yang konflik, memutuskan versi mana yang akan dipertahankan, dan secara opsional menghapus atau menandai yang lainnya. Hal ini memastikan notebook kolaboratif tetap konsisten tanpa intervensi manual.
 
 ## Mengapa Menggunakan Aspose.Note untuk Java?
-Aspose.Note mengabstraksi format file OneNote, memberi Anda akses langsung ke riwayat halaman, metadata revisi, dan flag konflik. Ini memungkinkan Anda mengotomatisasi penanganan konflik, mengintegrasikan dengan aplikasi Java yang ada, dan menghindari jebakan pembersihan notebook manual.
+Aspose.Note mengabstraksi format file OneNote, memberi Anda akses langsung ke halaman riwayat, revisi metadata, dan tandai konflik. Ini memungkinkan Anda mengotomatisasi penyelesaian konflik, mengintegrasikan dengan aplikasi Java yang ada, dan menghindari jebakan pembersihan manual notebook.
 
 ## Prasyarat
 
-Sebelum menyelami manipulasi halaman konflik, pastikan Anda memiliki prasyarat berikut:
+Sebelum menyelami halaman konflik, pastikan Anda memiliki prasyarat berikut:
 
-1. **Java Development Kit (JDK)** – Instal JDK untuk mengompilasi dan menjalankan program Java.  
-2. **Aspose.Note for Java** – Unduh dan instal Aspose.Note for Java dari [website](https://releases.aspose.com/note/java/).  
+1. **Java Development Kit (JDK)** – Instal JDK untuk mengompilasi dan menjalankan program Java.
+2. **Aspose.Note for Java** – Unduh dan instal Aspose.Note for Java dari [website](https://releases.aspose.com/note/java/).
 3. **Integrated Development Environment (IDE)** – Pilih IDE seperti IntelliJ IDEA atau Eclipse untuk pengembangan Java.
 
 ## Impor Paket

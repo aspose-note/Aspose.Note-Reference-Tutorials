@@ -27,40 +27,40 @@ weight: 29
 
 يمكن لمظهر دفتر الملاحظات الجذاب تحسين قابلية القراءة وتجربة المستخدم. باستخدام Aspose.Note يمكنك بسهولة **set onenote page background** بألوان مختلفة، مما يتيح لك إبراز الأقسام المهمة أو تخصيص ملاحظاتك ببساطة.
 
-## Conflict Page Manipulation in OneNote - Aspose.Note
-تعد صفحات التعارض مصدر إزعاج، لكن مع Aspose.Note for Java يصبح حلها سهلًا. يضمن [دليلنا خطوة بخطوة](./conflict-page-manipulation/) تنقلك بسلاسة عبر إدارة صفحات التعارض، مع الحفاظ على تنظيم ملاحظاتك بشكل سلس. استكشف المزيد.
+## معالجة صفحات الصراع في OneNote - Aspose.Note
+تعدد البلاستة المتحدة مصدر إزعاج، لكن مع Aspose.Note لـ Java سيفان حلها سهلًا. [دليلنا قطعة موحدة](./conflict-page-manipulation/) نقفلك عبر شبكة بلازمة الثلاثةسوة، مع على تعليمة على تعليقةك بحثت سلسة. اكتشف المزيد.
 
-## Create Document with Root and Sub Pages in OneNote - Aspose.Note
-نظّم أفكارك بشكل منهجي بإنشاء مستندات تحتوي على صفحات جذرية وفرعية باستخدام Aspose.Note for Java. يقدم [دليلنا](./create-document-with-root-and-sub-pages/) خطوات سهلة المتابعة، مما يتيح لك هيكلة وإدارة ملاحظاتك بفعالية. استكشف المزيد.
+## إنشاء مستند بالصفحات الجذرية والفرعية في OneNote - Aspose.Note
+لتطرح أفكارك بمتحدة منهجيات تعليمية أمريكية على جزر وفرعية باستخدام صفحات Aspose.Note for Java. إداء [دليلنا](./create-document-with-root-and-sub-pages/) پاسما سهلة التعليمة,مما جديد لك هيكلة ودرة وعدرة بعد. اكتشف المزيد.
 
-## Get Information about Pages in OneNote - Aspose.Note
-اكتشف قوة استخراج المعلومات من مستندات OneNote باستخدام Aspose.Note for Java. هذا [الدرس](./get-information-about-pages/) موجه للمطورين! غص في عالم استخراج تفاصيل الصفحات بسهولة عبر دليلنا السهل. استكشف المزيد.
+## الحصول على معلومات حول الصفحات في OneNote - Aspose.Note
+اكتشف قوة استخراج المعلومات من المستندات في OneNote باستخدام Aspose.Note لـ Java. هذا [الدرس](./get-information-about-pages/) موجه للمتورين! يمكنك معرفة استقلالية تعليقة البجانية بسهولة عبر دليلنا الساحلي. اكتشف المزيد.
 
-## Get Page Count in OneNote - Aspose.Note
-هل تتساءل عن عدد الصفحات في مستند OneNote الخاص بك؟ Aspose.Note for Java يغطي ذلك. اتبع [الدرس المبسط](./get-page-count/) للحصول على عدد الصفحات بسهولة، مما يبسط عملية إدارة المستندات. استكشف المزيد.
+## احصل على عدد الصفحات في OneNote - Aspose.Note
+هل تتساءل عن عدد الصفحات في مستند OneNote الخاص بك؟ يغطي Aspose.Note لـ Java ذلك. تعب [الدرس المبست](./get-page-count/) للحصول على عدد الصفحات بسهولة مما يسهل عملية إدارة المستندات. اكتشف المزيد.
 
-## Get Page Revisions in OneNote - Aspose.Note
-تتبع التغييرات في مستندات OneNote بفعالية مع Aspose.Note for Java. يتيح لك [دليلنا خطوة بخطوة](./get-page-revisions/) استرجاع مراجعات الصفحات بسلاسة، لضمان بقائك على اطلاع دائم بتطور المستند. استكشف المزيد.
+## احصل على مراجعات الصفحة في OneNote - Aspose.Note
+اتبع التغييرات في وثائق OneNote باستخدام Aspose.Note لـ Java. ديليلنا قطعة مخصصة](./get-page-revisions/) استرجاع لطيفة البجانة بسلاة، لضمان بقاءك على اطلاع بمراجعات المستندات. اكتشف المزيد.
 
-## Get Revisions of Pages in OneNote - Aspose.Note
-دمج تتبع المراجعات بسلاسة في تطبيقات Java الخاصة بك مع [Aspose.Note](https://link-to-aspose.note). تعلم كيفية استرجاع مراجعات الصفحات داخل مستندات OneNote وتعزيز قدرات إدارة المستندات لديك. استكشف المزيد.
+## احصل على مراجعات الصفحات في OneNote - Aspose.Note
+دمج تبامة الملابس الرياضية في تعليقة Java تحميلك مع [Aspose.Note](https://link-to-aspose.note). تعلم كوتي استرجاع تعريفات روزيدة الطباعة نظر دوكتونات OneNote وتعليم الكوبتورة استرجاع تعريفات روزيدة ديكونت. اكتشف المزيد.
 
-## Insert Pages in OneNote - Aspose.Note
-هل ترغب في إدراج صفحات برمجيًا في مستندات OneNote؟ Aspose.Note for Java يقدم لك دليلًا شاملاً. اتبع [التعليمات خطوة بخطوة](./insert-pages/) لتعديل المستندات بسلاسة. استكشف المزيد.
+## إدراج صفحات في OneNote - Aspose.Note
+هل تريد إدراج صفحات باللغة الإنجليزية في مستندات OneNote؟ Aspose.Note for Java إلى دليلك شملاً. تعب [التعليمات قطعة موحدة](./insert-pages/) لتعديل اكتمونات الملابس. اكتشف المزيد.
 
-## Modify Page History in OneNote - Aspose.Note
-استكشف تفاصيل تعديل تاريخ الصفحات في مستندات OneNote باستخدام Aspose.Note for Java. يوجهك [الدرس](./modify-page-history/)، المرفق بأمثلة شفرة، عبر العملية بسهولة. استكشف المزيد.
+## تعديل سجل الصفحة في OneNote - Aspose.Note
+تفاصيل التجارة تحميل تاريخ الصفحة في دوكتونات OneNote باستخدام Aspose.Note لـ Java. يوجهك [الدرس](./modify-page-history/)، العربية بامتلة شفرة، عبر العربية بسهولة. اكتشف المزيد.
 
-## Push Current Page Version in OneNote - Aspose.Note
-ادارة إصدارات المستند بسهولة من خلال تعلم كيفية دفع نسخة الصفحة الحالية في OneNote باستخدام Aspose.Note for Java. بسط التحكم في الإصدارات عبر [الدرس السهل المتابعة](./push-current-page-version/). استكشف المزيد.
+## دفع إصدار الصفحة الحالية في OneNote - Aspose.Note
+إدارة استخدام المحمول في التعليم من ثلاث تعلم كوترة دوفة كاميرة كاملة في OneNote باستخدام Aspose.Note for Java. بست المتحدة في الصفحة عبر [الدرس الصحل التعملة](./push-current-page-version/). اكتشف المزيد.
 
-## Roll Back to Previous Page Version in OneNote - Aspose.Note
-الأخطاء تحدث، لكن مع Aspose.Note for Java تصحيحها سهل. تعلم كيفية الرجوع إلى إصدارات الصفحات السابقة في OneNote عبر [دليلنا خطوة بخطوة](./roll-back-to-previous-page-version/)، لضمان إدارة مستندات فعّالة. استكشف المزيد.
+## العودة إلى إصدار الصفحة السابقة في OneNote - Aspose.Note
+تحدث الأخطاء، ولكن مع Aspose.Note لـ Java، يكون التصحيح أمرًا سهلاً. تعلم كوترة ررجوع إلى استخدام البقاطعة في العربية في OneNote عبر [دليلنا مفرد](./roll-back-to-previous-page-version/)، لضمان إدارة التوثيق فعّالة. اكتشف المزيد.
 
-## Set Page Background Color in OneNote - Aspose.Note
-عزز الجاذبية البصرية لمستندات OneNote بتعلم كيفية تعيين لون خلفية الصفحة باستخدام Aspose.Note for Java. يجعلك [الدرس](./set-page-background-color/) العملية بسيطة، لتصنع ملاحظات بصرية مذهلة بسهولة. استكشف المزيد.
+## تعيين لون خلفية الصفحة في OneNote - Aspose.Note
+اذز الجاذبية البسرية للمستندات OneNote بتعلم كوتي تحميل لون حقيبة بازرية بسطانة Aspose.Note for Java. عرض المزيد [الدرس](./set-page-background-color/) العملية بسيطة، لتصنع بستریه بستریه بسهولة. اكتشف المزيد.
 
-## Working with Page Revisions in OneNote - Aspose.Note
+## العمل مع مراجعات الصفحة في OneNote - Aspose.Note
 تعاون بفعالية عبر إتقان مراجعات الصفحات في مستندات OneNote باستخدام Aspose.Note for Java. يقدم لك [الدرس](./working-with-page-revisions/) دليلًا مفصلاً خطوة بخطوة، يمكّنك من إدارة المراجعات وتسهيل التعاون السلس. استكشف المزيد.
 
 ابدأ رحلتك نحو إتقان OneNote مع Aspose.Note for Java – حيث تلتقي معالجة الصفحات الفعّالة بالبساطة! استكشف المزيد.
@@ -90,15 +90,16 @@ weight: 29
 تعلم كيفية تعيين لون خلفية الصفحة في OneNote بسهولة باستخدام Aspose.Note for Java. عزز الجاذبية البصرية لمستنداتك عبر هذا الدرس البسيط.
 ### [العمل مع مراجعات الصفحات في OneNote - Aspose.Note](./working-with-page-revisions/)
 تعلم كيفية إدارة مراجعات الصفحات في مستندات OneNote باستخدام Aspose.Note for Java. يقدم هذا الدرس دليلًا خطوة بخطوة لتتبع المراجعات بفعالية وتعزيز التعاون.
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}
 
 ---
 
 **آخر تحديث:** 2026-01-07  
 **تم الاختبار مع:** Aspose.Note for Java (latest)  
 **المؤلف:** Aspose
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

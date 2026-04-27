@@ -117,7 +117,7 @@ Gratulacje! Pomyślnie zastosowałeś **strategię rozwiązywania konfliktów**,
 
 Efektywne zarządzanie stronami konfliktowymi jest kluczowe dla współpracy przy edycji dokumentów. Dzięki Aspose.Note for Java możesz płynnie **rozwiązywać konflikty OneNote**, utrzymywać integralność dokumentu i automatyzować czyszczenie jako część swojego przepływu pracy.
 
-## Frequently Asked Questions
+## Często zadawane pytania
 
 **Q1: Czy mogę używać Aspose.Note for Java z innymi bibliotekami Java?**  
 A: Oczywiście! Aspose.Note for Java integruje się płynnie z innymi bibliotekami Java, aby zwiększyć możliwości przetwarzania dokumentów.

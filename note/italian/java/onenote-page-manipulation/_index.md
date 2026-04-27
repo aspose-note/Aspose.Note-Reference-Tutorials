@@ -91,15 +91,16 @@ Scopri come tornare alle versioni precedenti delle pagine in OneNote usando Aspo
 Scopri come impostare il colore di sfondo della pagina in OneNote senza sforzo usando Aspose.Note per Java. Migliora l'appeal visivo dei tuoi documenti con questo semplice tutorial.
 ### [Lavorare con le revisioni delle pagine in OneNote - Aspose.Note](./working-with-page-revisions/)
 Scopri come gestire le revisioni delle pagine nei documenti OneNote usando Aspose.Note per Java. Questo tutorial fornisce una guida passo-passo per un tracciamento efficace delle revisioni e collaborazione.
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}
 
 ---
 
 **Last Updated:** 2026-01-07  
 **Tested With:** Aspose.Note for Java (latest)  
 **Author:** Aspose
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

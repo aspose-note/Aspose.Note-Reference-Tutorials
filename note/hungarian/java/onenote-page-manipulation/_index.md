@@ -103,15 +103,16 @@ Tanuld meg, hogyan lépj vissza az előző oldalverziókra OneNote-ban az Aspose
 Tanuld meg, hogyan állítsd be az oldal háttérszínét OneNote-ban könnyedén az Aspose.Note for Java segítségével. Növeld dokumentumaid vizuális vonzerejét ezzel az egyszerű oktatóanyaggal.
 ### [Munka oldalrevíziókkal OneNote-ban - Aspose.Note](./working-with-page-revisions/)
 Tanuld meg, hogyan kezeld az oldalrevíziókat OneNote dokumentumokban az Aspose.Note for Java segítségével. Ez az oktatóanyag lépésről lépésre útmutatót nyújt a hatékony revíziókövetéshez és együttműködéshez.
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}
 
 ---
 
 **Utolsó frissítés:** 2026-01-07  
 **Tesztelt verzió:** Aspose.Note for Java (latest)  
 **Szerző:** Aspose
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

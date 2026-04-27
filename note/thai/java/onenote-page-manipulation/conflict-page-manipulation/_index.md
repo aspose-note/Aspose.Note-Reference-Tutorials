@@ -118,25 +118,25 @@ doc.save(dataDir + "ConflictPageManipulation_out.one", SaveFormat.One);
 
 ## คำถามที่พบบ่อย
 
-**Q1: Can I use Aspose.Note for Java with other Java libraries?**  
-A: แน่นอน! Aspose.Note for Java สามารถผสานรวมอย่างราบรื่นกับไลบรารี Java อื่น ๆ เพื่อเพิ่มศักยภาพการประมวลผลเอกสารของคุณ.
+**คำถามที่ 1: ฉันสามารถใช้ Aspose.Note สำหรับ Java กับไลบรารี Java อื่นๆ ได้หรือไม่**
+ตอบ: แน่นอน! สมมติหมายเหตุสำหรับ Java ได้อย่างมีประสิทธิภาพโดยรวมอย่างใดอย่างหนึ่งกับไลบรารี Java อื่นๆ อีกมากมายที่จะช่วยให้สมุนไพรของคุณเอกสารของคุณ
 
-**Q2: Is Aspose.Note for Java compatible with different operating systems?**  
-A: ใช่, Aspose.Note for Java รองรับ Windows, Linux, และ macOS, ทำให้มีความยืดหยุ่นบนแพลตฟอร์มต่าง ๆ.
+**คำถามที่ 2: Aspose.Note สำหรับ Java เข้ากันได้กับระบบปฏิบัติการที่แตกต่างกันหรือไม่**
+ตอบ: ถูกต้อง, Aspose.Note สำหรับ Java เข้ากันได้กับ Windows, Linux, และ macOS, เรียนรู้เพิ่มเติมเกี่ยวกับแพลตฟอร์มที่แตกต่างกัน
 
-**Q3: Does Aspose.Note for Java support cloud integration?**  
-A: แน่นอน, Aspose.Note for Java มีตัวเลือกการผสานรวมกับคลาวด์, ช่วยให้คุณโต้ตอบกับบริการจัดเก็บข้อมูลบนคลาวด์ได้อย่างราบรื่น.
+**คำถามที่ 3: Aspose.Note สำหรับ Java รองรับการผสานรวมระบบคลาวด์หรือไม่**
+ตอบ: เราเชื่อว่า Aspose.Note for Java เชื่อว่าการสืบค้นของลูกค้า, นำเสนอบริการกับบริการที่อยู่บนคลาวด์ล่องเรือ.
 
-**Q4: Can I customize conflict resolution strategies with Aspose.Note for Java?**  
-A: ใช่, Aspose.Note for Java มีตัวเลือกการปรับแต่งอย่างกว้างขวาง, ทำให้คุณสามารถออกแบบกลยุทธ์การแก้ไขข้อขัดแย้งให้ตรงกับความต้องการของคุณได้.
+**คำถามที่ 4: ฉันสามารถปรับแต่งกลยุทธ์การแก้ไขข้อขัดแย้งด้วย Aspose.Note สำหรับ Java ได้หรือไม่**
+ตอบ: ยืนยัน, Aspose.หมายเหตุสำหรับ Java เพื่อตรวจสอบความถูกต้อง, ไม่จำเป็นต้องออกแบบกลยุทธ์ที่แท้จริงข้อให้เรียกร้องเรียกร้องโดยตรง
 
-**Q5: Is there a community forum for Aspose.Note for Java users?**  
-A: แน่นอน! เข้าร่วมฟอรั่มชุมชนของเราที่ [Aspose.Note for Java Support](https://forum.aspose.com/c/note/28) เพื่อเชื่อมต่อกับผู้ใช้คนอื่นและรับความช่วยเหลือจากผู้เชี่ยวชาญ.
+**คำถามที่ 5: มีฟอรัมชุมชนสำหรับ Aspose.Note สำหรับผู้ใช้ Java หรือไม่**
+ตอบ: แน่นอน! การดำเนินการฟอรั่มชุมชนของเราที่ [Aspose.Note for Java Support](https://forum.aspose.com/c/note/28) เพื่อสอบถามความคิดเห็นผู้ใช้คนอื่นและความช่วยเหลือจากผู้เชี่ยวชาญ
 
-**Q6: How do I programmatically identify which pages are conflict pages?**  
-A: ใช้เมธอด `isConflictPage()` บนแต่ละอ็อบเจกต์ `Page` ที่ดึงมาจากคอลเลกชัน `PageHistory`.
+**คำถามที่ 6: ฉันจะระบุโดยทางโปรแกรมได้อย่างไรว่าหน้าใดเป็นหน้าที่ขัดแย้งกัน**
+A: ใช้เมธอด `isConflictPage()` บนแต่ละอ็อบเจกต์ `Page` ที่ดึงมาจากความร้อน `PageHistory`.
 
-**Q7: Will removing the conflict flag affect other revisions?**  
+**คำถามที่ 7: การลบแฟล็กข้อขัดแย้งจะส่งผลต่อการแก้ไขอื่นๆ หรือไม่** 
 A: ไม่. การเปลี่ยนแปลงแฟล็กข้อขัดแย้งจะส่งผลต่อวิธีการบันทึกหน้าเท่านั้น; ข้อมูลเมตาของการแก้ไขอื่น ๆ ยังคงอยู่โดยไม่มีการเปลี่ยนแปลง.
 
 **อัปเดตล่าสุด:** 2026-01-07  

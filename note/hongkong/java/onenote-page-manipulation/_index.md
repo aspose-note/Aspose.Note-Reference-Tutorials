@@ -91,15 +91,15 @@ weight: 29
 ### [設定 OneNote 頁面背景顏色 - Aspose.Note](./set-page-background-color/)
 ### [在 OneNote 中使用頁面修訂 - Aspose.Note](./working-with-page-revisions/)
 
+---
+
+**最後更新：** 2026-01-07  
+**測試環境：** Aspose.Note for Java (latest)  
+**作者：** Aspose
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
-
----
-
-**最後更新：** 2026-01-07  
-**測試環境：** Aspose.Note for Java (latest)  
-**作者：** Aspose

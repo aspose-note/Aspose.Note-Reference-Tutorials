@@ -103,15 +103,16 @@ Naučte se, jak se vrátit k předchozím verzím stránek v OneNote pomocí Asp
 Naučte se, jak snadno nastavit barvu pozadí stránky v OneNote pomocí Aspose.Note pro Java. Zvyšte vizuální atraktivitu svých dokumentů s tímto jednoduchým tutoriálem.
 ### [Práce s revizemi stránek v OneNote – Aspose.Note](./working-with-page-revisions/)
 Naučte se, jak spravovat revize stránek v dokumentech OneNote pomocí Aspose.Note pro Java. Tento tutoriál poskytuje průvodce krok za krokem pro efektivní sledování revizí a spolupráci.
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}
 
 ---
 
 **Last Updated:** 2026-01-07  
 **Tested With:** Aspose.Note for Java (latest)  
 **Author:** Aspose
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

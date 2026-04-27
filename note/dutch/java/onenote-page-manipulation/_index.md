@@ -91,15 +91,16 @@ Leer hoe u kunt terugrollen naar eerdere paginaversies in OneNote met Aspose.Not
 Leer hoe u moeiteloos de paginabackgroundkleur kunt instellen in OneNote met Aspose.Note voor Java. Verhoog de visuele aantrekkingskracht van uw documenten met deze eenvoudige tutorial.
 ### [Werken met paginarevisies in OneNote - Aspose.Note](./working-with-page-revisions/)
 Leer hoe u paginarevisies kunt beheren in OneNote-documenten met Aspose.Note voor Java. Deze tutorial biedt een stap-voor-stap gids voor effectieve revisietracering en samenwerking.
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}
 
 ---
 
 **Laatst bijgewerkt:** 2026-01-07  
 **Getest met:** Aspose.Note for Java (latest)  
 **Auteur:** Aspose
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

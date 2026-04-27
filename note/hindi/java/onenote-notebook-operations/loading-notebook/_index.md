@@ -14,38 +14,39 @@ weight: 19
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# OneNote दस्तावेज़ बनाएं – Aspose.Note के साथ नोटबुक लोड करें
+# OneNote डॉक्यूमेंट बनाएं – Aspose.Note के साथ नोटबुक लोड करें
 
-## Introduction
+## इंट्रोडक्शन
 
-हमारे ट्यूटोरियल में आपका स्वागत है जहाँ आप **OneNote दस्तावेज़** कैसे बनाते हैं और विशेष रूप से Aspose.Note for Java का उपयोग करके प्रोग्रामेटिक रूप से **OneNote नोटबुक** कैसे लोड करते हैं, यह सीखेंगे। चाहे आपको रिपोर्ट जेनरेशन को ऑटोमेट करना हो, लेगेसी नोटबुक्स को माइग्रेट करना हो, या OneNote कंटेंट को बड़े Java एप्लिकेशन में इंटीग्रेट करना हो, यह गाइड आपको हर चरण से ले जाता है—पर्यावरण सेटअप से लेकर नोटबुक की सामग्री को इटररेट करने तक।  
+हमारे ट्यूटोरियल में आपका स्वागत है जहाँ आप **OneNote डॉक्यूमेंट** कैसे बनाते हैं और खास तौर पर Aspose.Note for Java का इस्तेमाल करके प्रोग्रामेटिक तौर पर **OneNote नोटबुक** कैसे लोड करते हैं, यह बताया गया है। चाहे आपको रिपोर्ट जेनरेशन को ऑटोमेट करना हो, लेगेसी नोटबुक को माइग्रेट करना हो, या OneNote सामग्री को बड़े Java एप्लिकेशन में इंटीग्रेट करना हो, यह गाइड आपको हर स्टेप से ले जाता है—पर्यावरण सेटअप से लेकर नोटबुक की सामग्री को इटरेट करने तक।
 
-## Quick Answers
-- **What library lets you create OneNote documents in Java?** Aspose.Note for Java  
-- **Which method loads a OneNote notebook?** `new Notebook(path)`  
-- **Do I need a license for development?** A free trial works for testing; a commercial license is required for production.  
-- **What are the main prerequisites?** JDK, Aspose.Note for Java, and an IDE of your choice.  
-- **Can I extract OneNote content after loading?** Yes—by iterating through `INotebookChildNode` objects.
+## क्विक आंसर्स
+- **कौन सी लाइब्रेरी आपको Java में OneNote डॉक्यूमेंट बनाने देती है?** Aspose.Note for Java
+- **कौन सा मेथड OneNote नोटबुक लोड करता है?** `new Notebook(path)`
+- **क्या मुझे डेवलपमेंट के लिए लाइसेंस चाहिए?** टेस्टिंग के लिए फ्री ट्रायल काम करता है; प्रोडक्शन के लिए कमर्शियल लाइसेंस ज़रूरी है।
+- **मुख्य ज़रूरी शर्तें क्या हैं?** JDK, Java के लिए Aspose.Note, और आपकी पसंद का एक IDE।
 
-## Prerequisites
+- **क्या मैं लोड होने के बाद OneNote कंटेंट निकाल सकता हूँ?** हाँ—`INotebookChildNode` ऑब्जेक्ट्स को दोहराकर।
 
-Before we dive in, ensure you have the following:
+## ज़रूरी शर्तें
 
-### Java Development Kit (JDK)
+इससे पहले कि हम आगे बढ़ें, पक्का करें कि आपके पास ये चीज़ें हैं:
 
-Make sure the latest JDK is installed on your machine. You can download it from the Oracle website.
+### Java डेवलपमेंट किट (JDK)
 
-### Aspose.Note for Java Library
+पक्का करें कि आपकी मशीन पर लेटेस्ट JDK इंस्टॉल है। आप इसे Oracle वेबसाइट से डाउनलोड कर सकते हैं।
 
-Download the Aspose.Note for Java library from the official release page **[here](https://releases.aspose.com/note/java/)**.
+### Java लाइब्रेरी के लिए Aspose.Note
 
-### IDE (Integrated Development Environment)
+ऑफिशियल रिलीज़ पेज **[यहाँ](https://releases.aspose.com/note/java/)** से Java लाइब्रेरी के लिए Aspose.Note डाउनलोड करें।
 
-Pick an IDE you’re comfortable with—IntelliJ IDEA, Eclipse, or NetBeans all work great for Java development.
+### IDE (इंटीग्रेटेड डेवलपमेंट एनवायरनमेंट)
 
-## Import OneNote Packages
+एक ऐसा IDE चुनें जिसमें आप कम्फर्टेबल हों—IntelliJ IDEA, Eclipse, या NetBeans सभी Java डेवलपमेंट के लिए बहुत अच्छे काम करते हैं।
 
-To start working with OneNote notebooks, you need to import the required classes. This step aligns with the secondary keyword **import onenote packages**.
+## OneNote पैकेज इंपोर्ट करें
+
+OneNote नोटबुक के साथ काम शुरू करने के लिए, आपको ज़रूरी क्लास इंपोर्ट करनी होंगी। यह स्टेप सेकेंडरी कीवर्ड **इम्पोर्ट वननोट पैकेज** के साथ अलाइन होता है।
 
 ```java
 import java.io.IOException;
@@ -55,31 +56,31 @@ import com.aspose.note.INotebookChildNode;
 import com.aspose.note.Notebook;
 ```
 
-Now that the packages are imported, let’s move on to loading the notebook.
+अब जब पैकेज इंपोर्ट हो गए हैं, तो चलिए नोटबुक लोड करने के लिए आगे बढ़ते हैं।
 
-## How to load OneNote notebook?
+## OneNote नोटबुक कैसे लोड करें?
 
-### Step 1: Set Data Directory
+### स्टेप 1: डेटा डायरेक्टरी सेट करें
 
-Define the folder that contains your OneNote notebook files.
+वह फ़ोल्डर तय करें जिसमें आपकी OneNote नोटबुक फ़ाइलें हों।
 
 ```java
 String dataDir = "Your Document Directory";
 ```
 
-Replace `"Your Document Directory"` with the absolute path to the folder that holds the `.onetoc2` file.
+`"Your Document Directory"` को उस फ़ोल्डर के एब्सोल्यूट पाथ से बदलें जिसमें `.onetoc2` फ़ाइल है।
 
-### Step 2: Load Notebook
+### स्टेप 2: नोटबुक लोड करें
 
-Create a `Notebook` instance by pointing to the notebook’s **`.onetoc2`** file. This demonstrates the secondary keyword **load onenote notebook**.
+नोटबुक की **`.onetoc2`** फ़ाइल पर पॉइंट करके एक `Notebook` इंस्टेंस बनाएं। यह सेकेंडरी कीवर्ड **load onenote notebook** दिखाता है।
 
 ```java
 Notebook notebook = new Notebook(dataDir + "Notizbuch öffnen.onetoc2");
 ```
 
-### Step 3: Iterate Through Notebook Contents (Extract OneNote Content)
+### स्टेप 3: नोटबुक कंटेंट में बदलाव करें (OneNote कंटेंट निकालें)
 
-You can now walk through each child node—documents or sub‑notebooks—and process them as needed. This fulfills the secondary keyword **extract onenote content**.
+अब आप हर चाइल्ड नोड—डॉक्यूमेंट्स या सब-नोटबुक—में जा सकते हैं और ज़रूरत के हिसाब से उन्हें प्रोसेस कर सकते हैं। यह सेकेंडरी कीवर्ड **extract onenote content** को पूरा करता है।
 
 ```java
 for (INotebookChildNode notebookChildNode : notebook) {
@@ -93,56 +94,58 @@ for (INotebookChildNode notebookChildNode : notebook) {
 }
 ```
 
-The loop prints the display name of every item, giving you a quick overview of the notebook structure. From here you can expand the logic to read page contents, images, or metadata.
+लूप हर आइटम का डिस्प्ले नाम प्रिंट करता है, जिससे आपको नोटबुक स्ट्रक्चर का क्विक ओवरव्यू मिलता है। यहां से आप पेज कंटेंट, इमेज या मेटाडेटा पढ़ने के लिए लॉजिक को एक्सपैंड कर सकते हैं।
 
-## Common Issues & Tips
+## आम समस्याएं और टिप्स
 
-- **Path Errors:** Ensure the path ends with the exact `.onetoc2` filename; missing the extension will cause a `FileNotFoundException`.  
-- **Encoding Problems:** If you encounter garbled text, verify that the notebook was created with a supported language/locale.  
-- **Performance:** For very large notebooks, consider processing child nodes in a separate thread to keep the UI responsive.
+- **पाथ एरर:** पक्का करें कि पाथ एकदम सही `.onetoc2` फ़ाइलनेम के साथ खत्म हो; एक्सटेंशन मिस होने पर `FileNotFoundException` होगा।
 
-## Frequently Asked Questions (Existing)
+- **एनकोडिंग समस्याएं:** अगर आपको गड़बड़ टेक्स्ट मिलता है, तो वेरिफ़ाई करें कि नोटबुक किसी सपोर्टेड भाषा/लोकेल के साथ बनाया गया था।
 
-### Q1: Is Aspose.Note for Java compatible with all versions of OneNote?
+- **परफ़ॉर्मेंस:** बहुत बड़ी नोटबुक के लिए, UI को रिस्पॉन्सिव बनाए रखने के लिए चाइल्ड नोड्स को एक अलग थ्रेड में प्रोसेस करने पर विचार करें।
 
-A1: Aspose.Note for Java supports OneNote 2010 and later versions.
+## अक्सर पूछे जाने वाले सवाल (मौजूदा)
 
-### Q2: Can I manipulate the content of a OneNote document using Aspose.Note for Java?
+### Q1: क्या Aspose.Note for Java, OneNote के सभी वर्शन के साथ कम्पैटिबल है?
 
-A2: Yes, you can create, modify, and extract content from OneNote documents using Aspose.Note for Java.
+A1: Aspose.Note for Java, OneNote 2010 और बाद के वर्शन को सपोर्ट करता है।
 
-### Q3: Does Aspose.Note for Java require a license for commercial use?
+### Q2: क्या मैं Aspose.Note for Java का इस्तेमाल करके OneNote डॉक्यूमेंट के कंटेंट में बदलाव कर सकता हूँ?
 
-A3: Yes, you need to purchase a license for commercial use. However, you can also avail of a free trial to evaluate the library.
+A2: हाँ, आप Aspose.Note for Java का इस्तेमाल करके OneNote डॉक्यूमेंट से कंटेंट बना सकते हैं, बदल सकते हैं और निकाल सकते हैं।
 
-### Q4: Is technical support available for Aspose.Note for Java?
+### Q3: क्या Aspose.Note for Java को कमर्शियल इस्तेमाल के लिए लाइसेंस की ज़रूरत है?
 
-A4: Yes, you can seek technical assistance from the Aspose.Note forums **[here](https://forum.aspose.com/c/note/28)**.
+A3: हाँ, आपको कमर्शियल इस्तेमाल के लिए लाइसेंस खरीदना होगा। हालाँकि, आप लाइब्रेरी को जाँचने के लिए फ़्री ट्रायल का फ़ायदा भी उठा सकते हैं।
 
-### Q5: Can I obtain a temporary license for testing purposes?
+### Q4: क्या Aspose.Note for Java के लिए टेक्निकल सपोर्ट उपलब्ध है?
 
-A5: Yes, you can request a temporary license **[here](https://purchase.aspose.com/temporary-license/)**.
+A4: हाँ, आप Aspose.Note फ़ोरम से टेक्निकल मदद ले सकते हैं **[यहाँ](https://forum.aspose.com/c/note/28)**.
 
-## Additional FAQ
+### Q5: क्या मैं टेस्टिंग के मकसद से टेम्पररी लाइसेंस ले सकता हूँ?
 
-**Q: How do I create a new OneNote document from scratch?**  
-A: Use the `Document` class to instantiate a new notebook, add sections/pages, and then save it with `document.save("output.one")`.
+A5: हाँ, आप टेम्पररी लाइसेंस के लिए रिक्वेस्ट कर सकते हैं **[यहाँ](https://purchase.aspose.com/temporary-license/)**.
 
-**Q: Can I convert a OneNote document to PDF or HTML?**  
-A: Yes—Aspose.Note provides `document.save("output.pdf")` or `document.save("output.html")` for easy conversion.
+## और FAQ
 
-**Q: Is it possible to read embedded images from a OneNote page?**  
-A: Absolutely. After loading a `Document`, iterate through its `Page` objects and extract `Image` resources.
+**सवाल: मैं शुरू से नया OneNote डॉक्यूमेंट कैसे बनाऊं?**
+जवाब: नई नोटबुक बनाने, सेक्शन/पेज जोड़ने और फिर उसे `document.save("output.one")` से सेव करने के लिए `Document` क्लास का इस्तेमाल करें।
 
-## Conclusion
+**सवाल: क्या मैं OneNote डॉक्यूमेंट को PDF या HTML में बदल सकता हूं?**
+जवाब: हां—Aspose.Note आसान कन्वर्ज़न के लिए `document.save("output.pdf")` या `document.save("output.html")` देता है।
 
-In this tutorial we covered how to **create OneNote documents**, **load a OneNote notebook**, and **extract its content** using Aspose.Note for Java. By following the steps above, you can seamlessly integrate OneNote automation into your Java applications, whether you’re building a migration tool, a reporting engine, or a custom viewer.
+**सवाल: क्या OneNote पेज से एम्बेडेड इमेज पढ़ना मुमकिन है?**
+जवाब: बिल्कुल। `Document` लोड करने के बाद, उसके `Page` ऑब्जेक्ट्स को देखें और `Image` रिसोर्स निकालें।
+
+## निष्कर्ष
+
+इस ट्यूटोरियल में हमने बताया कि Aspose.Note for Java का इस्तेमाल करके **OneNote डॉक्यूमेंट कैसे बनाएं**, **OneNote नोटबुक कैसे लोड करें**, और **उसका कंटेंट कैसे निकालें**। ऊपर दिए गए स्टेप्स को फॉलो करके, आप अपने Java एप्लिकेशन में OneNote ऑटोमेशन को आसानी से इंटीग्रेट कर सकते हैं, चाहे आप माइग्रेशन टूल, रिपोर्टिंग इंजन या कस्टम व्यूअर बना रहे हों।
 
 ---
 
-**Last Updated:** 2026-01-07  
-**Tested With:** Aspose.Note for Java 24.12  
-**Author:** Aspose  
+**पिछला अपडेट:** 2026-01-07
+**इसके साथ टेस्ट किया गया:** Aspose.Note for Java 24.12
+**लेखक:** Aspose  
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
