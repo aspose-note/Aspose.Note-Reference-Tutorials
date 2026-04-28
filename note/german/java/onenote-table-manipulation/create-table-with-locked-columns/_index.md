@@ -87,7 +87,7 @@ Glückwunsch! Sie haben mit Aspose.Note für Java erfolgreich eine Tabelle mit g
 In diesem Tutorial haben wir den Prozess der Verwendung von Aspose.Note für Java untersucht, um Ihr OneNote-Erlebnis durch die Erstellung von Tabellen mit gesperrten Spalten zu verbessern. Diese Funktionalität fügt Ihren Notizen eine neue Ebene der Organisation und Struktur hinzu.
 ## FAQs
 ### Ist Aspose.Note für Java mit allen Java-Versionen kompatibel?
-Ja, Aspose.Note für Java ist mit Java 6 und späteren Versionen kompatibel.
+Ja, Aspose.Note für Java ist mit Java SE 7 und späteren Versionen kompatibel.
 ### Kann ich das Erscheinungsbild der Tabelle weiter anpassen?
 Absolut! Aspose.Note für Java bietet umfangreiche Optionen zum Anpassen von Tabellen, wie zum Beispiel das Anpassen von Rändern, Zellenabständen und mehr.
 ### Gibt es vor dem Kauf eine Testversion?

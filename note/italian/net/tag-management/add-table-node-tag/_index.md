@@ -52,8 +52,8 @@ Aspose.Note.Page page = new Aspose.Note.Page(doc);
  Inizializza il`Table`, `TableRow` , E`TableCell` oggetti:
 
 ```csharp
-TableRow row = new TableRow(doc);
-TableCell cell = new TableCell(doc);
+TableRow row = new TableRow();
+TableCell cell = new TableCell();
 ```
 
 ## Passaggio 3: inserisci il contenuto nella cella
@@ -69,7 +69,7 @@ cell.AppendChildLast(InsertTable.GetOutlineElementWithText(doc, "Single cell."))
  Inizializza il`Table` oggetto con proprietà specificate:
 
 ```csharp
-Table table = new Table(doc)
+Table table = new Table()
 {
     IsBordersVisible = true,
     Columns = { new TableColumn { Width = 70 } }
@@ -97,8 +97,8 @@ table.Tags.Add(NoteTag.CreateQuestionMark());
  Creare un`Outline` E`OutlineElement` per aggiungere il nodo della tabella:
 
 ```csharp
-Outline outline = new Outline(doc);
-OutlineElement outlineElem = new OutlineElement(doc);
+Outline outline = new Outline();
+OutlineElement outlineElem = new OutlineElement();
 outlineElem.AppendChildLast(table);
 outline.AppendChildLast(outlineElem);
 page.AppendChildLast(outline);

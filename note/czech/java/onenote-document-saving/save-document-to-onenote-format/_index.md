@@ -116,7 +116,7 @@ V tomto průvodci jsme pokryli vše, co potřebujete vědět k **exportu dokumen
 ---
 
 **Poslední aktualizace:** 2025-12-11  
-**Testováno s:** Aspose.Note 24.11 for Java  
+**Testováno s:** Aspose.Note 26.4 for Java  
 **Autor:** Aspose  
 
 {{< /blocks/products/pf/tutorial-page-section >}}

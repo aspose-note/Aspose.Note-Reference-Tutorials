@@ -29,7 +29,7 @@ In this tutorial, you’ll discover **how to remove node** — specifically 
 
 Before we begin, ensure that you have the following prerequisites set up:
 
-1. **Java Development Kit (JDK)** – Make sure you have Java installed on your system. You can download and install the latest JDK from [here](https://www.oracle.com/java/technologies/javase-jdk15-downloads.html).
+1. **Java Development Kit (JDK)** – Make sure you have Java installed on your system. You can download and install the latest JDK from [here](https://www.oracle.com/java/technologies/downloads/).
 
 2. **Aspose.Note for Java** – Download and install Aspose.Note for Java library from the [website](https://purchase.aspose.com/buy). You can also obtain a free trial from [here](https://releases.aspose.com/).
 
@@ -134,7 +134,7 @@ In this tutorial, we've walked through **how to remove node** — specifical
 ---
 
 **Last Updated:** 2026-01-02  
-**Tested With:** Aspose.Note 24.11 for Java  
+**Tested With:** Aspose.Note 26.4 for Java  
 **Author:** Aspose  
 
 ---

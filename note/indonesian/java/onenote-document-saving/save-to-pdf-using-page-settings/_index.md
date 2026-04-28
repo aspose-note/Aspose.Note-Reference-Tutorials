@@ -136,7 +136,7 @@ Anda kini mengetahui **cara menyimpan PDF** dari file OneNote menggunakan Aspose
 ---
 
 **Terakhir Diperbarui:** 17-12-2025
-**Diuji Dengan:** Aspose.Note untuk Java 23.12
+**Diuji Dengan:** Aspose.Note untuk Java 26.4
 **Penulis:** Beranggapan  
 
 {{< /blocks/products/pf/tutorial-page-section >}}

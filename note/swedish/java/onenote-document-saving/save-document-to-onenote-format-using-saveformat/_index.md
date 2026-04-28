@@ -105,7 +105,7 @@ I den här guiden gick vi igenom **how to save onenote**‑dokument med `SaveFor
 ---
 
 **Senast uppdaterad:** 2025-12-11  
-**Testat med:** Aspose.Note for Java 24.12 (senaste)  
+**Testat med:** Aspose.Note for Java 26.4 (senaste)  
 **Författare:** Aspose  
 
 {{< /blocks/products/pf/tutorial-page-section >}}

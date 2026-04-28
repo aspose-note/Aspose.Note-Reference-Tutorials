@@ -116,7 +116,7 @@ Dans ce guide, nous avons couvert tout ce que vous devez savoir pour **exporter 
 ---
 
 **Dernière mise à jour :** 2025-12-11  
-**Testé avec :** Aspose.Note 24.11 for Java  
+**Testé avec :** Aspose.Note 26.4 for Java  
 **Auteur :** Aspose  
 
 {{< /blocks/products/pf/tutorial-page-section >}}

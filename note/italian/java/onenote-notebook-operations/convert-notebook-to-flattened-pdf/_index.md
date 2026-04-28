@@ -41,7 +41,7 @@ Per iniziare, carica il blocco appunti di OneNote che desideri convertire in PDF
 
 ```java
 String dataDir = "Your Document Directory";
-Notebook notebook = new Notebook(dataDir + "Notizbuch öffnen.onetoc2");
+Notebook notebook = new Notebook(dataDir + "Notebook.onetoc2");
 ```
 
 ## Passaggio 2: imposta le opzioni di conversione

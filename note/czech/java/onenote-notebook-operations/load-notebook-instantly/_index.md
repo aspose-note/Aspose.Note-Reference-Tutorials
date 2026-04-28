@@ -40,7 +40,7 @@ Instant loading onenote je funkce třídy `NotebookLoadOptions`, která říká 
 
 Než začneme, ujistěte se, že máte následující předpoklady:
 
-1. **Java Development Kit (JDK):** Ujistěte se, že máte na svém systému nainstalovanou Javu. Nejnovější JDK můžete stáhnout a nainstalovat z [zde](https://www.oracle.com/java/technologies/javase-jdk15-downloads.html).
+1. **Java Development Kit (JDK):** Ujistěte se, že máte na svém systému nainstalovanou Javu. Nejnovější JDK můžete stáhnout a nainstalovat z [zde](https://www.oracle.com/java/technologies/downloads/).
 
 2. **Aspose.Note for Java:** Potřebujete knihovnu Aspose.Note pro Java. Můžete ji získat na [stahovací stránce](https://releases.aspose.com/note/java/).
 
@@ -115,7 +115,7 @@ A4: Ano, můžete si stáhnout bezplatnou zkušební verzi z [zde](https://relea
 A5: Dočasnou licenci můžete požádat na [stránce dočasné licence](https://purchase.aspose.com/temporary-license/).
 
 **Poslední aktualizace:** 2025-12-31  
-**Testováno s:** Aspose.Note pro Java 24.12 (nejnovější)  
+**Testováno s:** Aspose.Note pro Java 26.4 (nejnovější)  
 **Autor:** Aspose  
 
 {{< /blocks/products/pf/tutorial-page-section >}}

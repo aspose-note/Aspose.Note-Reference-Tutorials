@@ -141,7 +141,7 @@ notebook.save(dataDir + "ExportImageasFlattenedNotebook_out.png", saveOptions);
 ---
 
 **آخر تحديث:** 2025-12-25  
-**تم الاختبار مع:** Aspose.Note للغة Java 24.12  
+**تم الاختبار مع:** Aspose.Note للغة Java 26.4  
 **المؤلف:** Aspose  
 
 {{< /blocks/products/pf/tutorial-page-section >}}

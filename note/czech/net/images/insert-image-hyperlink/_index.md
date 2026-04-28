@@ -41,7 +41,7 @@ Nejprve musíme inicializovat nový dokument a vytvořit stránku pro vložení 
 
 ```csharp
 var document = new Document();
-var page = new Page(document);
+var page = new Page();
 ```
 
 ## Krok 2: Vložte obrázek s hypertextovým odkazem
@@ -50,7 +50,7 @@ Nyní vložíme obrázek s hypertextovým odkazem. Vytvoříme`Image` objekt a n
 
 ```csharp
 string imagePath = "path_to_your_image.jpg";
-var image = new Image(document, imagePath) { HyperlinkUrl = "http://example.com" };
+var image = new Image(imagePath) { HyperlinkUrl = "https://example.com" };
 ```
 
 ## Krok 3: Připojte obrázek ke stránce

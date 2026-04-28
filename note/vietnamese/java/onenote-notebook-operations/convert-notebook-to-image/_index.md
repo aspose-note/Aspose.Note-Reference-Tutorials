@@ -21,7 +21,7 @@ Trong hướng dẫn này, chúng ta sẽ khám phá cách chuyển đổi sổ 
 
 Trước khi chúng tôi bắt đầu, hãy đảm bảo bạn có những điều sau:
 
-1.  Bộ công cụ phát triển Java (JDK): Đảm bảo bạn đã cài đặt Java trên hệ thống của mình. Bạn có thể tải xuống và cài đặt phiên bản mới nhất từ[trang mạng](https://www.oracle.com/java/technologies/javase-jdk15-downloads.html).
+1.  Bộ công cụ phát triển Java (JDK): Đảm bảo bạn đã cài đặt Java trên hệ thống của mình. Bạn có thể tải xuống và cài đặt phiên bản mới nhất từ[trang mạng](https://www.oracle.com/java/technologies/downloads/).
 
 2.  Aspose.Note for Java Library: Tải xuống và đưa thư viện Aspose.Note for Java vào dự án của bạn. Bạn có thể lấy thư viện từ[trang web giả định](https://releases.aspose.com/note/java/).
 

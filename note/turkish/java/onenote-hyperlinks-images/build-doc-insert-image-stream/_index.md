@@ -132,7 +132,7 @@ try {
 Bir `Image` nesnesi oluşturun. İlk argüman daha sonra bir akış sağladığınızda `null` olabilir, ancak basitlik açısından burada dosya yolunu referans alıyor ve hizalamasını sayfanın sağ tarafına ayarlıyoruz.
 
 ```java
-Image image = new Image(null, dataDir + "image1.jpg");
+Image image = new Image(dataDir + "image1.jpg");
 image.setAlignment(HorizontalAlignment.Right);
 ```
 
@@ -217,7 +217,7 @@ C5: Evet, satın almadan önce tüm özellikleri keşfetmek için Aspose sürüm
 ---
 
 **Son Güncelleme:** 21.12.2025
-**Test Edildiği Sürüm:** Aspose.Note for Java 24.12 (yazım anındaki en güncel sürüm)
+**Test Edildiği Sürüm:** Aspose.Note for Java 26.4 (yazım anındaki en güncel sürüm)
 **Yazar:** Aspose  
 
 {{< /blocks/products/pf/tutorial-page-section >}}

@@ -105,7 +105,7 @@ Artık **Java ve Aspose.Note kullanarak şifre korumalı bir OneNote dosyası ol
 ---
 
 **Son Güncelleme:** 2025-12-02  
-**Test Edilen Versiyon:** Aspose.Note for Java 24.12 (yazım anındaki en son sürüm)  
+**Test Edilen Versiyon:** Aspose.Note for Java 26.4 (yazım anındaki en son sürüm)  
 **Yazar:** Aspose  
 
 {{< /blocks/products/pf/tutorial-page-section >}}

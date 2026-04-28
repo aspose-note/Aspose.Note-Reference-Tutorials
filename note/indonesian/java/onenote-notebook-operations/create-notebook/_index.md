@@ -32,7 +32,7 @@ Sebelum kita mulai, pastikan Anda memiliki hal‑hal berikut siap:
 
 ### Kit Pengembangan Java (JDK) Terpasang
 
-Anda memerlukan JDK terbaru. Unduh dari [situs web Java](https://www.oracle.com/java/technologies/javase-jdk15-downloads.html).
+Anda memerlukan JDK terbaru. Unduh dari [situs web Java](https://www.oracle.com/java/technologies/downloads/).
 
 ### Aspose.Note untuk Perpustakaan Java
 
@@ -118,7 +118,7 @@ A: Pustaka ini bekerja dengan Java 8 dan versi yang lebih baru.
 ---
 
 **Terakhir Diperbarui:** 31-12-2025
-**Diuji Dengan:** Aspose.Note untuk Java 24.12
+**Diuji Dengan:** Aspose.Note untuk Java 26.4
 **Penulis:** Beranggapan  
 
 ---

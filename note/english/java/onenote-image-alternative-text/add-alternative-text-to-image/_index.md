@@ -87,7 +87,7 @@ A page will host the image we are about to add.
 ### Step 4: Add an Image to the Page
 
 ```java
-Image image = new Image(null, dataDir + "image.jpg");
+Image image = new Image(dataDir + "image.jpg");
 ```
 
 The `Image` constructor loads the image file from the specified path.
@@ -162,7 +162,7 @@ By following this step‑by‑step guide, you now know **how to add alt** text t
 ---
 
 **Last Updated:** 2025-12-23  
-**Tested With:** Aspose.Note for Java 24.11  
+**Tested With:** Aspose.Note for Java 26.4  
 **Author:** Aspose  
 
 {{< /blocks/products/pf/tutorial-page-section >}}

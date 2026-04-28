@@ -47,7 +47,7 @@ using System.Collections.Generic;
 string dataDir = "Your Document Directory";
 
 // OneNote 전자 필기장 로드
-var notebook = new Notebook(dataDir + "Notizbuch �ffnen.onetoc2");
+var notebook = new Notebook(dataDir + "Notebook.onetoc2");
 ```
 
 ## 2단계: 새 하위 노드 추가

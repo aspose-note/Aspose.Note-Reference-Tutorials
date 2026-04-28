@@ -58,7 +58,7 @@ OutlineElement outlineElem = new OutlineElement();
 ## 第 5 步：加载并插入图像
 ```java
 //加载图像
-Image image = new Image(null, dataDir + "Input.jpg");
+Image image = new Image(dataDir + "Input.jpg");
 //在文档节点中插入图像
 outlineElem.appendChildLast(image);
 ```

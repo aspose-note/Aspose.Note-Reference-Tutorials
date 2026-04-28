@@ -124,7 +124,7 @@ V tomto průvodci jsme ukázali **jak číst formátovaný text** z OneNote pomo
 ---
 
 **Poslední aktualizace:** 2026-01-02  
-**Testováno s:** Aspose.Note for Java 23.12  
+**Testováno s:** Aspose.Note for Java 26.4  
 **Autor:** Aspose  
 
 {{< /blocks/products/pf/tutorial-page-section >}}

@@ -105,7 +105,7 @@ Neste guia cobrimos **como salvar onenote** documentos usando a opção `SaveFor
 ---
 
 **Última atualização:** 2025-12-11  
-**Testado com:** Aspose.Note for Java 24.12 (latest)  
+**Testado com:** Aspose.Note for Java 26.4 (latest)  
 **Autor:** Aspose  
 
 {{< /blocks/products/pf/tutorial-page-section >}}

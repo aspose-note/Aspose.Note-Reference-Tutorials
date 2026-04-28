@@ -85,7 +85,7 @@ Page page = oneFile.getFirstChild();
 Laad de afbeelding die je wilt invoegen in het OneNote‑document.
 
 ```java
-Image image = new Image(oneFile, dataDir + "Input.jpg");
+Image image = new Image(dataDir + "Input.jpg");
 ```
 
 ## Stap 4: Afbeeldingskenmerken aanpassen (optioneel)
@@ -149,7 +149,7 @@ In deze tutorial hebben we geleerd hoe je een afbeelding in een OneNote-document
 ---
 
 **Laatst bijgewerkt:** 21-12-2025
-**Getest met:** Aspose.Note voor Java 24.10
+**Getest met:** Aspose.Note voor Java 26.4
 **Auteur:** Aspose  
 
 {{< /blocks/products/pf/tutorial-page-section >}}

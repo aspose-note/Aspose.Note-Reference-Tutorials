@@ -41,7 +41,7 @@ Aspose.Note.Document doc = new Aspose.Note.Document();
 // Initiera Sidklassobjekt
 Aspose.Note.Page page = new Aspose.Note.Page(doc);
 // Initiera Outline-klassobjekt
-Outline outline = new Outline(doc);
+Outline outline = new Outline();
 ```
 ## Steg 3: Ställ in standardtextstil
 ```csharp
@@ -51,8 +51,8 @@ ParagraphStyle defaultStyle = new ParagraphStyle { FontColor = Color.Black, Font
 ## Steg 4: Skapa konturelement med punkter
 ```csharp
 // Initiera OutlineElement-klassobjekt och använd kulor
-OutlineElement outlineElem1 = new OutlineElement(doc) { NumberList = new NumberList("*", "Arial", 10) };
-RichText text1 = new RichText(doc) { Text = "First", ParagraphStyle = defaultStyle };
+OutlineElement outlineElem1 = new OutlineElement() { NumberList = new NumberList("*", "Arial", 10) };
+RichText text1 = new RichText() { Text = "First", ParagraphStyle = defaultStyle };
 outlineElem1.AppendChildLast(text1);
 // Upprepa för andra konturelement
 ```

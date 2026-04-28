@@ -66,7 +66,7 @@ Aspose.Note.Page page = new Aspose.Note.Page(doc);
 ### الخطوة 3: تهيئة كائن المخطط التفصيلي
 
 ```csharp
-Outline outline = new Outline(doc);
+Outline outline = new Outline();
 ```
 
  ان`Outline` يتم إنشاء الكائن لتنظيم المحتوى داخل الصفحة.
@@ -74,7 +74,7 @@ Outline outline = new Outline(doc);
 ### الخطوة 4: تهيئة كائن OutlineElement
 
 ```csharp
-OutlineElement outlineElem = new OutlineElement(doc);
+OutlineElement outlineElem = new OutlineElement();
 ```
 
 `OutlineElement` يمثل عنصرا داخل هيكل المخطط التفصيلي.
@@ -82,7 +82,7 @@ OutlineElement outlineElem = new OutlineElement(doc);
 ### الخطوة 5: تهيئة كائن الملف المرفق
 
 ```csharp
-AttachedFile attachedFile = new AttachedFile(doc,  dataDir + "attachment.txt");
+AttachedFile attachedFile = new AttachedFile(dataDir + "attachment.txt");
 ```
 
  هنا، نقوم بإنشاء مثيل`AttachedFile`، مع تحديد المسار إلى الملف الذي نريد إرفاقه.

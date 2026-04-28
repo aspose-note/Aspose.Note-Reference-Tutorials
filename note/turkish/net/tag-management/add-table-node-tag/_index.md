@@ -52,8 +52,8 @@ Aspose.Note.Page page = new Aspose.Note.Page(doc);
  Başlat`Table`, `TableRow` , Ve`TableCell` nesneler:
 
 ```csharp
-TableRow row = new TableRow(doc);
-TableCell cell = new TableCell(doc);
+TableRow row = new TableRow();
+TableCell cell = new TableCell();
 ```
 
 ## 3. Adım: İçeriği Hücreye Ekleme
@@ -69,7 +69,7 @@ cell.AppendChildLast(InsertTable.GetOutlineElementWithText(doc, "Single cell."))
  Başlat`Table` belirtilen özelliklere sahip nesne:
 
 ```csharp
-Table table = new Table(doc)
+Table table = new Table()
 {
     IsBordersVisible = true,
     Columns = { new TableColumn { Width = 70 } }
@@ -97,8 +97,8 @@ table.Tags.Add(NoteTag.CreateQuestionMark());
  Oluşturduğunuz bir`Outline` Ve`OutlineElement` tablo düğümünü eklemek için:
 
 ```csharp
-Outline outline = new Outline(doc);
-OutlineElement outlineElem = new OutlineElement(doc);
+Outline outline = new Outline();
+OutlineElement outlineElem = new OutlineElement();
 outlineElem.AppendChildLast(table);
 outline.AppendChildLast(outlineElem);
 page.AppendChildLast(outline);

@@ -58,7 +58,7 @@ String dataDir = "Your Document Directory";
 ## ステップ 2: ノートブックをロードする
 
 ```java
-Notebook notebook = new Notebook(dataDir + "Notizbuch öffnen.onetoc2");
+Notebook notebook = new Notebook(dataDir + "Notebook.onetoc2");
 ```
 
 このコード スニペットは新しいものを作成します`Notebook`オブジェクトを呼び出し、そのパスで指定されたノートブック ファイルをロードします。

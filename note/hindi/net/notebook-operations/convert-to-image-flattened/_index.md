@@ -48,7 +48,7 @@ using System.Text;
 string dataDir = "Your Document Directory";
 
 // OneNote नोटबुक लोड करें
-var notebook = new Notebook(dataDir + "Notizbuch öffnen.onetoc2");
+var notebook = new Notebook(dataDir + "Notebook.onetoc2");
 ```
 
 ## चरण 2: सहेजें विकल्प सेट करें

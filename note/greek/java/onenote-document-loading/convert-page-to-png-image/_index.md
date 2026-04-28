@@ -127,7 +127,7 @@ A7: Ναι, χρησιμοποιήστε `opts.setResolution(int dpi)` πριν 
 ---
 
 **Τελευταία ενημέρωση:** 2025-11-29  
-**Δοκιμή με:** Aspose.Note για Java 24.11 (τελευταία)  
+**Δοκιμή με:** Aspose.Note για Java 26.4 (τελευταία)  
 **Συγγραφέας:** Aspose  
 
 {{< /blocks/products/pf/tutorial-page-section >}}

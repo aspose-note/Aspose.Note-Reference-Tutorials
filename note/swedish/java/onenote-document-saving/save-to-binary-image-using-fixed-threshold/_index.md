@@ -132,7 +132,7 @@ A: Aspose.Note Java‑biblioteket är plattformsoberoende, så samma kod körs p
 ---
 
 **Senast uppdaterad:** 2025-12-13  
-**Testad med:** Aspose.Note for Java 24.12 (senaste)  
+**Testad med:** Aspose.Note for Java 26.4 (senaste)  
 **Författare:** Aspose  
 
 {{< /blocks/products/pf/tutorial-page-section >}}

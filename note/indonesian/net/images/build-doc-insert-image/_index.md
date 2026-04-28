@@ -61,7 +61,7 @@ Aspose.Note.Page page = new Aspose.Note.Page(doc);
 ## Langkah 3: Inisialisasi Objek Garis Besar
 
 ```csharp
-Outline outline = new Outline(doc);
+Outline outline = new Outline();
 ```
 
  Itu`Outline`kelas mewakili simpul garis besar dalam hierarki dokumen. Kami membuat objek garis besar baru untuk menyusun dokumen kami.
@@ -69,7 +69,7 @@ Outline outline = new Outline(doc);
 ## Langkah 4: Inisialisasi Objek OutlineElement
 
 ```csharp
-OutlineElement outlineElem = new OutlineElement(doc);
+OutlineElement outlineElem = new OutlineElement();
 ```
 
  Sebuah`OutlineElement` mewakili elemen dalam kerangka. Di sini, kita membuat elemen kerangka baru untuk menambahkan konten ke dokumen kita.

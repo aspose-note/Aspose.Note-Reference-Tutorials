@@ -166,7 +166,7 @@ Ora disponi di un toolkit completo per la **conversione TIFF in Java** che ti co
 ---
 
 **Ultimo aggiornamento:** 2025-12-17  
-**Testato con:** Aspose.Note per Java 23.12 (ultima versione al momento della stesura)  
+**Testato con:** Aspose.Note per Java 26.4 (ultima versione al momento della stesura)  
 **Autore:** Aspose  
 
 {{< /blocks/products/pf/tutorial-page-section >}}

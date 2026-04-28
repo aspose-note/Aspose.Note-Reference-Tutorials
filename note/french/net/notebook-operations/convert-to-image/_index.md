@@ -42,7 +42,7 @@ Pour commencer, nous devons charger le bloc-notes OneNote que nous souhaitons co
 
 ```csharp
 string dataDir = "Your Document Directory";
-var notebook = new Notebook(dataDir + "Notizbuch �ffnen.onetoc2");
+var notebook = new Notebook(dataDir + "Notebook.onetoc2");
 ```
 
 ## Étape 2 : Enregistrez le bloc-notes en tant qu’image

@@ -102,7 +102,7 @@ System.out.println(oneFile.getFileFormat());
 ---
 
 **آخر تحديث:** 2025-12-09  
-**تم الاختبار باستخدام:** Aspose.Note for Java 24.12 (latest)  
+**تم الاختبار باستخدام:** Aspose.Note for Java 26.4 (latest)  
 **المؤلف:** Aspose
 
 {{< /blocks/products/pf/tutorial-page-section >}}

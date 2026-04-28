@@ -47,7 +47,7 @@ Laden Sie das vorhandene Notebook dort, wo Sie einen untergeordneten Knoten hinz
 string dataDir = "Your Document Directory";
 
 // Laden Sie ein OneNote-Notizbuch
-var notebook = new Notebook(dataDir + "Notizbuch �ffnen.onetoc2");
+var notebook = new Notebook(dataDir + "Notebook.onetoc2");
 ```
 
 ## Schritt 2: Hängen Sie einen neuen untergeordneten Knoten an

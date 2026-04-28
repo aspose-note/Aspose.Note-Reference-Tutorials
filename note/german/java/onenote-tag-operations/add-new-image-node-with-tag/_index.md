@@ -58,7 +58,7 @@ OutlineElement outlineElem = new OutlineElement();
 ## Schritt 5: Bild laden und einfügen
 ```java
 // ein Bild laden
-Image image = new Image(null, dataDir + "Input.jpg");
+Image image = new Image(dataDir + "Input.jpg");
 // Bild in den Dokumentknoten einfügen
 outlineElem.appendChildLast(image);
 ```

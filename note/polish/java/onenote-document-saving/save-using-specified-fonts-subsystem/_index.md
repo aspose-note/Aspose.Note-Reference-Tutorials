@@ -25,7 +25,7 @@ W wielu skryptach wykonawczych należy **zapisz OneNote jako PDF**, który powod
 - **Które API obsługiwane?** `DocumentFontsSubsystem` pozwala na domyślną czcionkę lub za korzystanie z własnego pliku/strumień.
 - **Czy jest połączeniem licencji do produkcji?** Tak, komercyjna licencja Aspose. Uwaga jest wymagana do użytku nietestowego.
 - **Czy mogę konwertować wiele plików jednocześnie?** Oczywiście – wystarczy pudełko nad logiką obciążającą i zawartą w `Document`.
-- **Jakiej wersji Javy wymaga?** Java15 lub nowsza (przykład używa JDK15).
+- **Jakiej wersji Javy wymaga?** Java 8 lub nowsza (przykład używa JDK 8).
 
 ## Co to jest „zapisz program OneNote jako plik PDF” z podsystemem czcionek?
 
@@ -41,7 +41,7 @@ Zapisanie OneNote jako PDF z podsystemem czcionek oznacza, że ​​podczas pro
 
 ### 1. Zestaw deweloperski Java (JDK)
 
-zadziała, że ​​masz zainstalowany zestaw Java Development Kit (JDK) w swoim systemie. Możesz iść z [tutaj](https://www.oracle.com/java/technologies/javase-jdk15-downloads.html), jeśli jeszcze tego nie zrobiłeś.
+zadziała, że ​​masz zainstalowany zestaw Java Development Kit (JDK) w swoim systemie. Możesz iść z [tutaj](https://www.oracle.com/java/technologies/downloads/), jeśli jeszcze tego nie zrobiłeś.
 
 ### 2. Biblioteka Aspose.Note dla Java
 
@@ -185,7 +185,7 @@ W tym samouczku nauczyliśmy się, jak **zapisz OneNote jako PDF** kontrolując 
 ---
 
 **Last Updated:** 2025-12-18  
-**Tested With:** Aspose.Note for Java 24.11  
+**Tested With:** Aspose.Note for Java 26.4  
 **Author:** Aspose  
 
 {{< /blocks/products/pf/tutorial-page-section >}}

@@ -106,7 +106,7 @@ A: Sim, você pode baixar uma avaliação totalmente funcional na [página de do
 A: O fórum da comunidade Aspose é um ótimo lugar para fazer perguntas: [forum de suporte](https://forum.aspose.com/c/note/28).
 
 **Última atualização:** 2025-12-05  
-**Testado com:** Aspose.Note for Java 24.12  
+**Testado com:** Aspose.Note for Java 26.4  
 **Autor:** Aspose  
 
 {{< /blocks/products/pf/tutorial-page-section >}}

@@ -48,7 +48,7 @@ Laden Sie zunächst das OneNote-Notizbuch, das Sie in Ihre Anwendung konvertiere
 string dataDir = "Your Document Directory";
 
 // Laden Sie ein OneNote-Notizbuch
-var notebook = new Notebook(dataDir + "Notizbuch öffnen.onetoc2");
+var notebook = new Notebook(dataDir + "Notebook.onetoc2");
 ```
 
 ## Schritt 2: Speicheroptionen festlegen

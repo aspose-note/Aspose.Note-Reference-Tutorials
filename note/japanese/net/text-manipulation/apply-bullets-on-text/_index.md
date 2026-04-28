@@ -41,7 +41,7 @@ Aspose.Note.Document doc = new Aspose.Note.Document();
 // Pageクラスオブジェクトの初期化
 Aspose.Note.Page page = new Aspose.Note.Page(doc);
 //アウトラインクラスオブジェクトの初期化
-Outline outline = new Outline(doc);
+Outline outline = new Outline();
 ```
 ## ステップ 3: デフォルトのテキストスタイルを設定する
 ```csharp
@@ -51,8 +51,8 @@ ParagraphStyle defaultStyle = new ParagraphStyle { FontColor = Color.Black, Font
 ## ステップ 4: 箇条書きを含むアウトライン要素を作成する
 ```csharp
 //OutlineElement クラス オブジェクトを初期化して箇条書きを適用する
-OutlineElement outlineElem1 = new OutlineElement(doc) { NumberList = new NumberList("*", "Arial", 10) };
-RichText text1 = new RichText(doc) { Text = "First", ParagraphStyle = defaultStyle };
+OutlineElement outlineElem1 = new OutlineElement() { NumberList = new NumberList("*", "Arial", 10) };
+RichText text1 = new RichText() { Text = "First", ParagraphStyle = defaultStyle };
 outlineElem1.AppendChildLast(text1);
 //他のアウトライン要素についても繰り返します
 ```

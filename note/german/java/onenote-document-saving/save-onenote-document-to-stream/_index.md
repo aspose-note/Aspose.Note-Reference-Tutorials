@@ -114,7 +114,7 @@ Sie haben nun eine vollständige, produktionsreife Methode, **OneNote‑PDF** mi
 ---
 
 **Zuletzt aktualisiert:** 2025-12-12  
-**Getestet mit:** Aspose.Note für Java 24.11  
+**Getestet mit:** Aspose.Note für Java 26.4  
 **Autor:** Aspose  
 
 {{< /blocks/products/pf/tutorial-page-section >}}

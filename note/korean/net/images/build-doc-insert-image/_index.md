@@ -61,7 +61,7 @@ Aspose.Note.Page page = new Aspose.Note.Page(doc);
 ## 3단계: 개요 개체 초기화
 
 ```csharp
-Outline outline = new Outline(doc);
+Outline outline = new Outline();
 ```
 
  그만큼`Outline`클래스는 문서 계층의 개요 노드를 나타냅니다. 문서를 구성하기 위해 새로운 개요 개체를 만듭니다.
@@ -69,7 +69,7 @@ Outline outline = new Outline(doc);
 ## 4단계: OutlineElement 객체 초기화
 
 ```csharp
-OutlineElement outlineElem = new OutlineElement(doc);
+OutlineElement outlineElem = new OutlineElement();
 ```
 
  안`OutlineElement` 개요 내의 요소를 나타냅니다. 여기서는 문서에 콘텐츠를 추가하기 위한 새로운 개요 요소를 만듭니다.

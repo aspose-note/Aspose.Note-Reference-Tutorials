@@ -53,7 +53,7 @@ Cree objetos Página y Esquema para estructurar el contenido del documento de On
 
 ```csharp
 Aspose.Note.Page page = new Aspose.Note.Page(doc);
-Outline outline = new Outline(doc);
+Outline outline = new Outline();
 ```
 
 ## Paso 3: agregar nodo de texto con etiqueta
@@ -61,9 +61,9 @@ Outline outline = new Outline(doc);
 Cree un objeto RichText con el texto y estilo deseados y luego agréguelo al OutlineElement.
 
 ```csharp
-OutlineElement outlineElem = new OutlineElement(doc);
+OutlineElement outlineElem = new OutlineElement();
 ParagraphStyle textStyle = new ParagraphStyle { FontColor = Color.Black, FontName = "Arial", FontSize = 10 };
-RichText text = new RichText(doc) { Text = "OneNote text.", ParagraphStyle = textStyle };
+RichText text = new RichText() { Text = "OneNote text.", ParagraphStyle = textStyle };
 text.Tags.Add(NoteTag.CreateYellowStar());
 outlineElem.AppendChildLast(text);
 ```

@@ -130,7 +130,7 @@ A5：您可以在 [here](https://reference.aspose.com/note/java/) 找到 Aspose.
 ---
 
 **最后更新：** 2025-12-17  
-**测试环境：** Aspose.Note for Java 23.12（撰写时的最新版本）  
+**测试环境：** Aspose.Note for Java 26.4（撰写时的最新版本）  
 **作者：** Aspose  
 
 {{< /blocks/products/pf/tutorial-page-section >}}

@@ -105,7 +105,7 @@ Anda kini mengetahui **cara melindungi OneNote** dengan membuat file yang dilind
 ---
 
 **Terakhir Diperbarui:** 2025-12-02  
-**Diuji Dengan:** Aspose.Note untuk Java 24.12 (terbaru pada saat penulisan)  
+**Diuji Dengan:** Aspose.Note untuk Java 26.4 (terbaru pada saat penulisan)  
 **Penulis:** Aspose  
 
 {{< /blocks/products/pf/tutorial-page-section >}}

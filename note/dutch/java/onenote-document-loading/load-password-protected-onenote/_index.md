@@ -110,7 +110,7 @@ A: Zodra het document succesvol is geladen, kun je de pagina's doorlopen en afbe
 ---
 
 **Laatst bijgewerkt:** 2025-12-11  
-**Getest met:** Aspose.Note for Java 24.12  
+**Getest met:** Aspose.Note for Java 26.4  
 **Auteur:** Aspose  
 
 {{< /blocks/products/pf/tutorial-page-section >}}

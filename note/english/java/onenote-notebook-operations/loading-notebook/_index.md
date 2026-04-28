@@ -58,7 +58,7 @@ Replace `"Your Document Directory"` with the path to your OneNote notebook direc
 ## Step 2: Load Notebook
 
 ```java
-Notebook notebook = new Notebook(dataDir + "Notizbuch öffnen.onetoc2");
+Notebook notebook = new Notebook(dataDir + "Notebook.onetoc2");
 ```
 
 This code snippet creates a new `Notebook` object and loads the notebook file specified by its path.

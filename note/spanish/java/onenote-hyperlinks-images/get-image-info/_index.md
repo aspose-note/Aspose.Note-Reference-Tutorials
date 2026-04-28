@@ -33,7 +33,7 @@ Antes de sumergirnos en la implementación, asegúrate de contar con los siguien
 
 ### 1. Java Development Kit (JDK)
 
-Asegúrate de tener instalado el Java Development Kit (JDK) en tu sistema. Puedes descargar e instalar la última versión del JDK desde el [sitio web de Oracle](https://www.oracle.com/java/technologies/javase-jdk15-downloads.html).
+Asegúrate de tener instalado el Java Development Kit (JDK) en tu sistema. Puedes descargar e instalar la última versión del JDK desde el [sitio web de Oracle](https://www.oracle.com/java/technologies/downloads/).
 
 ### 2. Biblioteca Aspose.Note para Java
 
@@ -148,7 +148,7 @@ Siguiendo los pasos descritos en este tutorial, podrás **obtener dimensiones de
 ---
 
 **Última actualización:** 2025-12-21  
-**Probado con:** Aspose.Note para Java 23.12  
+**Probado con:** Aspose.Note para Java 26.4  
 **Autor:** Aspose  
 
 ---

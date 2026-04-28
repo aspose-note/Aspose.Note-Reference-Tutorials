@@ -127,7 +127,7 @@ A5: Tillfälliga licenser tillhandahålls via [tillfällig licens-sidan](https:/
 ---
 
 **Senast uppdaterad:** 2025-12-05  
-**Testad med:** Aspose.Note for Java 24.12 (senaste vid tidpunkten för skrivandet)  
+**Testad med:** Aspose.Note for Java 26.4 (senaste vid tidpunkten för skrivandet)  
 **Författare:** Aspose  
 
 {{< /blocks/products/pf/tutorial-page-section >}}

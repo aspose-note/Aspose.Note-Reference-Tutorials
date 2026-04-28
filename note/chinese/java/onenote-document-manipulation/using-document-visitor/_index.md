@@ -128,7 +128,7 @@ A5: 有，文档可在 [here](https://reference.aspose.com/note/java/) 查看。
 ---
 
 **Last Updated:** 2025-12-09  
-**Tested With:** Aspose.Note for Java 24.10  
+**Tested With:** Aspose.Note for Java 26.4  
 **Author:** Aspose  
 
 {{< /blocks/products/pf/tutorial-page-section >}}

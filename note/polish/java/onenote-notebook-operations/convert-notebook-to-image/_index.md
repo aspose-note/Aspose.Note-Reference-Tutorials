@@ -21,7 +21,7 @@ W tym samouczku omówimy, jak przekonwertować notatnik na obraz w programie One
 
 Zanim zaczniemy, upewnij się, że masz następujące elementy:
 
-1.  Zestaw Java Development Kit (JDK): Upewnij się, że w systemie jest zainstalowana Java. Możesz pobrać i zainstalować najnowszą wersję ze strony[strona internetowa](https://www.oracle.com/java/technologies/javase-jdk15-downloads.html).
+1.  Zestaw Java Development Kit (JDK): Upewnij się, że w systemie jest zainstalowana Java. Możesz pobrać i zainstalować najnowszą wersję ze strony[strona internetowa](https://www.oracle.com/java/technologies/downloads/).
 
 2.  Aspose.Note for Java Library: Pobierz i dołącz bibliotekę Aspose.Note for Java do swojego projektu. Bibliotekę można uzyskać z witryny[Strona Aspose](https://releases.aspose.com/note/java/).
 

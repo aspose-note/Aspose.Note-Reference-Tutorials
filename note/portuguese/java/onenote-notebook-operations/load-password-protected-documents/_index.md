@@ -54,7 +54,7 @@ String dataDir = "Your Document Directory";
 
 NotebookLoadOptions loadOptions = new NotebookLoadOptions();
 loadOptions.setDeferredLoading(true);
-Notebook notebook = new Notebook(dataDir + "Notizbuch öffnen.onetoc2", loadOptions);
+Notebook notebook = new Notebook(dataDir + "Notebook.onetoc2", loadOptions);
 notebook.loadChildDocument(dataDir + "Neuer Abschnitt 1.one");
 ```
 
@@ -97,7 +97,7 @@ R: Sim, você pode baixar uma versão de avaliação gratuita do Aspose.Note [aq
 ---
 
 **Última atualização:** 2026-01-02  
-**Testado com:** Aspose.Note 24.12 for Java  
+**Testado com:** Aspose.Note 26.4 for Java  
 **Autor:** Aspose  
 
 {{< /blocks/products/pf/tutorial-page-section >}}

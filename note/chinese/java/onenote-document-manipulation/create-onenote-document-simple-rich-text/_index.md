@@ -191,7 +191,7 @@ doc.save(dataDir + "CreateOneNoteDocumentWithSimpleRichText_out.pdf", SaveFormat
 您现在已经了解了如何使用 Aspose.Note for Java **设置段落样式**、**添加大纲元素**以及**生成可** **导出为 PDF** 的 OneNote 文件。在创建过程的早期加入样式化文本，可确保最终文档专业美观，并且后续的 **将 OneNote 转换为 PDF** 操作能够保留格式。欢迎在此基础上添加图像、表格或自定义元数据，以满足项目需求。
 
 **最后更新：** 2025-12-08  
-**测试环境：** Aspose.Note for Java 24.11（最新发布）  
+**测试环境：** Aspose.Note for Java 26.4（最新发布）  
 **作者：** Aspose  
 
 {{< /blocks/products/pf/tutorial-page-section >}}

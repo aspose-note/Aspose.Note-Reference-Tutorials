@@ -58,7 +58,7 @@ String dataDir = "Your Document Directory";
 ## Bước 2: Tải sổ tay
 
 ```java
-Notebook notebook = new Notebook(dataDir + "Notizbuch öffnen.onetoc2");
+Notebook notebook = new Notebook(dataDir + "Notebook.onetoc2");
 ```
 
  Đoạn mã này tạo ra một cái mới`Notebook` đối tượng và tải tệp sổ ghi chép được chỉ định bởi đường dẫn của nó.

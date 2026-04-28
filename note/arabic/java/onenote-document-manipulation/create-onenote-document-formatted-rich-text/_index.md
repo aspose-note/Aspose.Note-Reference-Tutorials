@@ -168,7 +168,7 @@ doc.save(dataDir + "CreateOneNoteDocument_out.pdf", SaveFormat.Pdf);
 ---
 
 **آخر تحديث:** 2025-12-09  
-**تم الاختبار مع:** Aspose.Note for Java 24.11 (latest at time of writing)  
+**تم الاختبار مع:** Aspose.Note for Java 26.4 (latest at time of writing)  
 **المؤلف:** Aspose  
 
 {{< /blocks/products/pf/tutorial-page-section >}}

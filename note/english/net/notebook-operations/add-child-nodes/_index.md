@@ -47,7 +47,7 @@ Load the existing notebook where you want to add a child node. You can do this b
 string dataDir = "Your Document Directory";
 
 // Load a OneNote Notebook
-var notebook = new Notebook(dataDir + "Notizbuch �ffnen.onetoc2");
+var notebook = new Notebook(dataDir + "Notebook.onetoc2");
 ```
 
 ## Step 2: Append a New Child Node

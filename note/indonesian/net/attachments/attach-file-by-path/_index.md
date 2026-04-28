@@ -66,7 +66,7 @@ Aspose.Note.Page page = new Aspose.Note.Page(doc);
 ### Langkah 3: Inisialisasi Objek Garis Besar
 
 ```csharp
-Outline outline = new Outline(doc);
+Outline outline = new Outline();
 ```
 
  Sebuah`Outline` objek dibuat untuk mengatur konten dalam halaman.
@@ -74,7 +74,7 @@ Outline outline = new Outline(doc);
 ### Langkah 4: Inisialisasi Objek OutlineElement
 
 ```csharp
-OutlineElement outlineElem = new OutlineElement(doc);
+OutlineElement outlineElem = new OutlineElement();
 ```
 
 `OutlineElement` mewakili elemen dalam struktur garis besar.
@@ -82,7 +82,7 @@ OutlineElement outlineElem = new OutlineElement(doc);
 ### Langkah 5: Inisialisasi Objek AttachedFile
 
 ```csharp
-AttachedFile attachedFile = new AttachedFile(doc,  dataDir + "attachment.txt");
+AttachedFile attachedFile = new AttachedFile(dataDir + "attachment.txt");
 ```
 
  Di sini, kita membuat sebuah instance dari`AttachedFile`, menentukan jalur ke file yang ingin kita lampirkan.

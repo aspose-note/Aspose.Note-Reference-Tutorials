@@ -127,7 +127,7 @@ A7: हाँ, `save` कॉल करने से पहले `opts.setResolu
 ---
 
 **अंतिम अपडेट:** 2025-11-29  
-**टेस्टेड वर्ज़न:** Aspose.Note for Java 24.11 (नवीनतम)  
+**टेस्टेड वर्ज़न:** Aspose.Note for Java 26.4 (नवीनतम)  
 **लेखक:** Aspose  
 
 {{< /blocks/products/pf/tutorial-page-section >}}

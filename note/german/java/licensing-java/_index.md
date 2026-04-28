@@ -112,7 +112,7 @@ A: Aspose stellt eine REST‑API zum programmatischen Kauf zusätzlicher Credits
 A: Nein. Die Credit‑Validierung erfordert einen Online‑Aufruf zum Aspose‑Lizenzierungs‑Server. Für Offline‑Szenarien verwenden Sie stattdessen eine perpetual Lizenz.
 
 **Zuletzt aktualisiert:** 2025-12-04  
-**Getestet mit:** Aspose.Note für Java 24.12 (aktuell zum Zeitpunkt der Erstellung)  
+**Getestet mit:** Aspose.Note für Java 26.4 (aktuell zum Zeitpunkt der Erstellung)  
 **Autor:** Aspose
 
 {{< /blocks/products/pf/tutorial-page-section >}}

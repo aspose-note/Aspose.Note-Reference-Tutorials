@@ -86,7 +86,7 @@ OutlineElement outlineElem = new OutlineElement();
 Vytvořte instanci `AttachedFile` s úplnou cestou k souboru, který chcete vložit:
 
 ```java
-AttachedFile attachedFile = new AttachedFile(null, dataDir + "attachment.txt");
+AttachedFile attachedFile = new AttachedFile(dataDir + "attachment.txt");
 ```
 
 Změňte `"attachment.txt"` na název souboru, který chcete připojit (java code attach file).
@@ -168,7 +168,7 @@ A: Platná licence Aspose.Note je vyžadována pro produkční nasazení; pro ho
 ---
 
 **Last Updated:** 2025-12-25  
-**Tested With:** Aspose.Note for Java 24.11  
+**Tested With:** Aspose.Note for Java 26.4  
 **Author:** Aspose
 
 {{< /blocks/products/pf/tutorial-page-section >}}

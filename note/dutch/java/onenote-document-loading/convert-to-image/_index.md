@@ -130,7 +130,7 @@ Door deze eenvoudige stappen te volgen, weet je nu **hoe je OneNote**‑bestande
 ---
 
 **Laatst bijgewerkt:** 2025-12-04  
-**Getest met:** Aspose.Note voor Java 24.12  
+**Getest met:** Aspose.Note voor Java 26.4  
 **Auteur:** Aspose  
 
 {{< /blocks/products/pf/tutorial-page-section >}}

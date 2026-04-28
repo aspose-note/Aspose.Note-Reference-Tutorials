@@ -107,7 +107,7 @@ A: Absolut. Sie können einen beliebigen ganzzahligen Wert festlegen, der Ihren 
 A: Ja. Die Enumeration `SaveFormat` enthält PNG, BMP, GIF und weitere Formate. Ersetzen Sie `SaveFormat.Jpeg` durch das gewünschte Format.
 
 **F: Ist Aspose.Note mit allen Java-Versionen kompatibel?**
-A: Die Bibliothek ist mit Java 1.6 und höher kompatibel, einschließlich Java 8, 11 und neueren LTS-Versionen.
+A: Die Bibliothek ist mit Java SE 7 und höher kompatibel, einschließlich Java 8, 11 und neueren LTS-Versionen.
 
 **F: Kann ich in OneNote weitere Bildeigenschaften bearbeiten (z. B. Zuschneiden, Drehen)?**
 A: Ja. Aspose.Note bietet umfassende APIs zur Bildbearbeitung, z. B. zum Ändern der Größe, Zuschneiden, Drehen und Anpassen der Farbtiefe.
@@ -122,7 +122,7 @@ Durch Befolgen dieser Schritte wissen Sie jetzt, wie Sie **Aspnote Set JPEG Reso
 ---
 
 **Letzte Aktualisierung:** 18.12.2025
-**Getestet mit:** Aspose.Note für Java 24.12 (aktuell zum Zeitpunkt des Schreibens)
+**Getestet mit:** Aspose.Note für Java 26.4 (aktuell zum Zeitpunkt des Schreibens)
 **Autor:** Aspose  
 
 {{< /blocks/products/pf/tutorial-page-section >}}

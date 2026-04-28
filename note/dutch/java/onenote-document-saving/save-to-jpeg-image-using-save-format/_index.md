@@ -129,7 +129,7 @@ We hebben alles behandeld wat je nodig hebt om **OneNote als afbeelding op te sl
 ---
 
 **Laatst bijgewerkt:** 2025-12-17  
-**Getest met:** Aspose.Note for Java 23.12 (latest op het moment van schrijven)  
+**Getest met:** Aspose.Note for Java 26.4 (latest op het moment van schrijven)  
 **Auteur:** Aspose  
 
 {{< /blocks/products/pf/tutorial-page-section >}}

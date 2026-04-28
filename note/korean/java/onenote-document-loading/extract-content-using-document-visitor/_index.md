@@ -180,7 +180,7 @@ A: `myConverter.GetText()`가 반환한 `String`을 표준 Java I/O(`Files.write
 ---  
 
 **마지막 업데이트:** 2025-12-04  
-**테스트 환경:** Aspose.Note for Java 24.10  
+**테스트 환경:** Aspose.Note for Java 26.4  
 **작성자:** Aspose  
 
 {{< /blocks/products/pf/tutorial-page-section >}}

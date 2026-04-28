@@ -134,7 +134,7 @@ oneFile.save(dataDir + "ConvertToImageUsingDefaultOptions_out.gif", SaveFormat.G
 ---
 
 **Τελευταία ενημέρωση:** 2025-11-30  
-**Δοκιμασμένο με:** Aspose.Note for Java 24.12  
+**Δοκιμασμένο με:** Aspose.Note for Java 26.4  
 **Συγγραφέας:** Aspose  
 
 {{< /blocks/products/pf/tutorial-page-section >}}

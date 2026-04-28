@@ -91,7 +91,7 @@ A1: Ano, Aspose.Note pro Java poskytuje API pro programovou úpravu existující
 
 ### Q2: Je Aspose.Note pro Java kompatibilní s různými verzemi Java?
 
-A2: Aspose.Note pro Java je kompatibilní s Java 6 (1.6) a novějšími verzemi.
+A2: Aspose.Note pro Java je kompatibilní s Java SE 7 a novějšími verzemi.
 
 ### Q3: Mohu pomocí Aspose.Note pro Java extrahovat textový obsah z dokumentů OneNote?
 
@@ -108,7 +108,7 @@ A5: Ano, můžete prozkoumat funkce Aspose.Note pro Java s bezplatnou zkušební
 ---
 
 **Last Updated:** 2025-12-09  
-**Tested With:** Aspose.Note for Java 24.12 (latest at time of writing)  
+**Tested With:** Aspose.Note for Java 26.4 (latest at time of writing)  
 **Author:** Aspose  
 
 {{< /blocks/products/pf/tutorial-page-section >}}

@@ -87,7 +87,7 @@ Toutes nos félicitations! Vous avez créé avec succès un tableau avec des col
 Dans ce didacticiel, nous avons exploré le processus d'utilisation d'Aspose.Note pour Java pour améliorer votre expérience OneNote en créant des tableaux avec des colonnes verrouillées. Cette fonctionnalité ajoute une nouvelle couche d'organisation et de structure à vos notes.
 ## FAQ
 ### Aspose.Note pour Java est-il compatible avec toutes les versions de Java ?
-Oui, Aspose.Note pour Java est compatible avec Java 6 et les versions ultérieures.
+Oui, Aspose.Note pour Java est compatible avec Java SE 7 et les versions ultérieures.
 ### Puis-je personnaliser davantage l’apparence du tableau ?
 Absolument! Aspose.Note pour Java fournit de nombreuses options pour personnaliser les tableaux, telles que l'ajustement des bordures, de l'espacement des cellules, etc.
 ### Existe-t-il une version d'essai disponible avant d'acheter ?

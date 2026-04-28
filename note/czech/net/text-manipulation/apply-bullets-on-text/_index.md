@@ -41,7 +41,7 @@ Aspose.Note.Document doc = new Aspose.Note.Document();
 // Inicializujte objekt třídy Page
 Aspose.Note.Page page = new Aspose.Note.Page(doc);
 // Inicializovat objekt třídy Outline
-Outline outline = new Outline(doc);
+Outline outline = new Outline();
 ```
 ## Krok 3: Nastavte výchozí styl textu
 ```csharp
@@ -51,8 +51,8 @@ ParagraphStyle defaultStyle = new ParagraphStyle { FontColor = Color.Black, Font
 ## Krok 4: Vytvořte prvky obrysu s odrážkami
 ```csharp
 // Inicializujte objekty třídy OutlineElement a použijte odrážky
-OutlineElement outlineElem1 = new OutlineElement(doc) { NumberList = new NumberList("*", "Arial", 10) };
-RichText text1 = new RichText(doc) { Text = "First", ParagraphStyle = defaultStyle };
+OutlineElement outlineElem1 = new OutlineElement() { NumberList = new NumberList("*", "Arial", 10) };
+RichText text1 = new RichText() { Text = "First", ParagraphStyle = defaultStyle };
 outlineElem1.AppendChildLast(text1);
 // Opakujte pro další prvky obrysu
 ```

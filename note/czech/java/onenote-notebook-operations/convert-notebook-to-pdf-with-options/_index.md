@@ -45,7 +45,7 @@ Chcete-li převést poznámkový blok do formátu PDF, musíte nejprve načíst 
 ```java
 String dataDir = "Your Document Directory";
 // Načtěte poznámkový blok OneNotu
-Notebook notebook = new Notebook(dataDir + "Notizbuch �ffnen.onetoc2");
+Notebook notebook = new Notebook(dataDir + "Notebook.onetoc2");
 ```
 
 ## Krok 2: Určete možnosti uložení PDF

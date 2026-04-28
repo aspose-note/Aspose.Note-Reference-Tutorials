@@ -134,7 +134,7 @@ A7：可以，在调用 `save` 之前使用 `opts.setResolution(int dpi)` 来控
 ---
 
 **最后更新：** 2025-11-29  
-**测试使用：** Aspose.Note for Java 24.11 (latest)  
+**测试使用：** Aspose.Note for Java 26.4 (latest)  
 **作者：** Aspose  
 
 {{< /blocks/products/pf/tutorial-page-section >}}

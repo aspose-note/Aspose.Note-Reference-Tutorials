@@ -55,7 +55,7 @@ String dataDir = "Your Document Directory";
 
 NotebookLoadOptions loadOptions = new NotebookLoadOptions();
 loadOptions.setDeferredLoading(true);
-Notebook notebook = new Notebook(dataDir + "Notizbuch öffnen.onetoc2", loadOptions);
+Notebook notebook = new Notebook(dataDir + "Notebook.onetoc2", loadOptions);
 notebook.loadChildDocument(dataDir + "Neuer Abschnitt 1.one");
 ```
 
@@ -98,7 +98,7 @@ A: Igen, letölthet egy ingyenes próba verziót az Aspose.Note-ból [innen](htt
 ---
 
 **Utoljára frissítve:** 2026-01-02  
-**Tesztelve:** Aspose.Note 24.12 for Java  
+**Tesztelve:** Aspose.Note 26.4 for Java  
 **Szerző:** Aspose  
 
 {{< /blocks/products/pf/tutorial-page-section >}}

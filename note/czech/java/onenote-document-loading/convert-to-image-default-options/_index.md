@@ -130,7 +130,7 @@ A5: Ano, můžete se připojit ke komunitnímu fóru na [Aspose.Note for Java Su
 ---
 
 **Poslední aktualizace:** 2025-11-30  
-**Testováno s:** Aspose.Note for Java 24.12  
+**Testováno s:** Aspose.Note for Java 26.4  
 **Autor:** Aspose  
 
 {{< /blocks/products/pf/tutorial-page-section >}}

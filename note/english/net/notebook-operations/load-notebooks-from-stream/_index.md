@@ -49,7 +49,7 @@ Firstly, you need to create a `FileStream` object to open the notebook file from
 ```csharp
 string dataDir = "Your Document Directory";
 
-FileStream stream = new FileStream(dataDir + "Notizbuch öffnen.onetoc2", FileMode.Open);
+FileStream stream = new FileStream(dataDir + "Notebook.onetoc2", FileMode.Open);
 ```
 
 ## Step 3: Initialize Notebook Object

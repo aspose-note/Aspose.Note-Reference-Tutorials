@@ -169,7 +169,7 @@ Du vet nu **hur man exporterar teckensnitt** när du **sparar OneNote som HTML**
 ---
 
 **Senast uppdaterad:** 2025-12-02  
-**Testat med:** Aspose.Note for Java 24.12  
+**Testat med:** Aspose.Note for Java 26.4  
 **Författare:** Aspose  
 
 {{< /blocks/products/pf/tutorial-page-section >}}

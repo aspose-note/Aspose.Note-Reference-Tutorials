@@ -112,7 +112,7 @@ oneFile.save(dataDir, options);
 ---
 
 **Последнее обновление:** 17 декабря 2025 г.
-**Протестировано с:** Aspose.Note 24.12 для Java
+**Протестировано с:** Aspose.Note 26.4 для Java
 **Автор:** Aspose  
 
 ---

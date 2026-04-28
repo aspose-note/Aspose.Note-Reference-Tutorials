@@ -61,7 +61,7 @@ Aspose.Note.Page page = new Aspose.Note.Page(doc);
 ## Steg 3: Initiera Outline Object
 
 ```csharp
-Outline outline = new Outline(doc);
+Outline outline = new Outline();
 ```
 
  De`Outline`klass representerar en dispositionsnod i dokumenthierarkin. Vi skapar ett nytt dispositionsobjekt för att strukturera vårt dokument.
@@ -69,7 +69,7 @@ Outline outline = new Outline(doc);
 ## Steg 4: Initiera OutlineElement-objekt
 
 ```csharp
-OutlineElement outlineElem = new OutlineElement(doc);
+OutlineElement outlineElem = new OutlineElement();
 ```
 
  En`OutlineElement` representerar ett element i en kontur. Här skapar vi ett nytt dispositionselement för att lägga till innehåll i vårt dokument.

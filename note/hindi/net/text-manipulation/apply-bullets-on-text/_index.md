@@ -41,7 +41,7 @@ Aspose.Note.Document doc = new Aspose.Note.Document();
 // पेज क्लास ऑब्जेक्ट को इनिशियलाइज़ करें
 Aspose.Note.Page page = new Aspose.Note.Page(doc);
 // आउटलाइन क्लास ऑब्जेक्ट को इनिशियलाइज़ करें
-Outline outline = new Outline(doc);
+Outline outline = new Outline();
 ```
 ## चरण 3: डिफ़ॉल्ट टेक्स्ट शैली सेट करें
 ```csharp
@@ -51,8 +51,8 @@ ParagraphStyle defaultStyle = new ParagraphStyle { FontColor = Color.Black, Font
 ## चरण 4: बुलेट के साथ रूपरेखा तत्व बनाएं
 ```csharp
 // आउटलाइनएलिमेंट क्लास ऑब्जेक्ट को प्रारंभ करें और बुलेट लागू करें
-OutlineElement outlineElem1 = new OutlineElement(doc) { NumberList = new NumberList("*", "Arial", 10) };
-RichText text1 = new RichText(doc) { Text = "First", ParagraphStyle = defaultStyle };
+OutlineElement outlineElem1 = new OutlineElement() { NumberList = new NumberList("*", "Arial", 10) };
+RichText text1 = new RichText() { Text = "First", ParagraphStyle = defaultStyle };
 outlineElem1.AppendChildLast(text1);
 // अन्य रूपरेखा तत्वों के लिए दोहराएँ
 ```

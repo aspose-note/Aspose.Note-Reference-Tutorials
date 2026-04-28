@@ -91,7 +91,7 @@ R1: Sí, Aspose.Note for Java proporciona APIs para editar documentos OneNote ex
 
 ### P2: ¿Es Aspose.Note for Java compatible con diferentes versiones de Java?
 
-R2: Aspose.Note for Java es compatible con Java 6 (1.6) y versiones posteriores.
+R2: Aspose.Note for Java es compatible con Java SE 7 y versiones posteriores.
 
 ### P3: ¿Puedo extraer contenido de texto de documentos OneNote usando Aspose.Note for Java?
 
@@ -108,7 +108,7 @@ R5: Sí, puedes explorar las funciones de Aspose.Note for Java con una prueba gr
 ---
 
 **Última actualización:** 2025-12-09  
-**Probado con:** Aspose.Note for Java 24.12 (latest at time of writing)  
+**Probado con:** Aspose.Note for Java 26.4 (latest at time of writing)  
 **Autor:** Aspose  
 
 {{< /blocks/products/pf/tutorial-page-section >}}

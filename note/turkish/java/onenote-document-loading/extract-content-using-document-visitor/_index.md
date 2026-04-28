@@ -181,7 +181,7 @@ C: `myConverter.GetText()` bir `String` döndürdükten sonra, standart Java I/O
 ---  
 
 **Son Güncelleme:** 2025-12-04  
-**Test Edilen Versiyon:** Aspose.Note for Java 24.10  
+**Test Edilen Versiyon:** Aspose.Note for Java 26.4  
 **Yazar:** Aspose  
 
 {{< /blocks/products/pf/tutorial-page-section >}}

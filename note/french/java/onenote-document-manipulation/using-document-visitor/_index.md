@@ -130,7 +130,7 @@ En appliquant le **visitor pattern java** avec Aspose.Note, vous disposez désor
 ---
 
 **Dernière mise à jour :** 2025-12-09  
-**Testé avec :** Aspose.Note pour Java 24.10  
+**Testé avec :** Aspose.Note pour Java 26.4  
 **Auteur :** Aspose  
 
 {{< /blocks/products/pf/tutorial-page-section >}}

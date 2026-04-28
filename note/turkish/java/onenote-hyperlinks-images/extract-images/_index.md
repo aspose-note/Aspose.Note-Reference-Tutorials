@@ -24,7 +24,7 @@ Bu öğreticide, Aspose.Note kütüphanesinin yardımıyla Java kullanarak bir O
 - **Önerilen kütüphane nedir?** Aspose.Note for Java  
 - **Şifre korumalı bir defterden görüntü çıkarabilir miyim?** Evet, Aspose.Note bunu destekler.  
 - **Geliştirme için lisansa ihtiyacım var mı?** Test için ücretsiz deneme sürümü çalışır; üretim için lisans gereklidir.  
-- **Hangi Java sürümleri destekleniyor?** Java 8 ve üzeri (Java 15 dahil).  
+- **Hangi Java sürümleri destekleniyor?** Java 8 ve üzeri (Java 8 dahil).  
 - **Çıkarma işlemi ne kadar sürer?** Standart bir defter için genellikle birkaç saniye.
 
 ## OneNote'tan görüntü çıkarma nedir?
@@ -39,7 +39,7 @@ Görüntü çıkarmak, bir OneNote (.one) dosyasına gömülmüş tüm resimleri
 
 Başlamadan önce aşağıdakilere sahip olduğunuzdan emin olun:
 
-1. **Java Development Kit (JDK)** – Sisteminizde Java yüklü olduğundan emin olun. [website](https://www.oracle.com/java/technologies/javase-jdk15-downloads.html) adresinden indirebilirsiniz.
+1. **Java Development Kit (JDK)** – Sisteminizde Java yüklü olduğundan emin olun. [website](https://www.oracle.com/java/technologies/downloads/) adresinden indirebilirsiniz.
 
 2. **Aspose.Note Library** – Aspose.Note kütüphanesini indirin ve Java projenize ekleyin. [download link](https://releases.aspose.com/note/java/) adresinden temin edebilirsiniz.
 
@@ -117,7 +117,7 @@ A: Evet, aynı zamanda metin, ekler ve diğer gömülü nesneleri de çıkarabil
 ---
 
 **Son Güncelleme:** 2025-12-21  
-**Test Edilen Sürüm:** Aspose.Note for Java 24.12  
+**Test Edilen Sürüm:** Aspose.Note for Java 26.4  
 **Yazar:** Aspose  
 
 {{< /blocks/products/pf/tutorial-page-section >}}

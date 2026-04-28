@@ -97,7 +97,7 @@ oneFile.save(dataDir + "LoadDocIntoAsposeNoteUsingSaveformat_out.pdf", SaveForma
 ---
 
 **آخر تحديث:** 2025-12-07  
-**تم الاختبار مع:** Aspose.Note للـ Java 24.11  
+**تم الاختبار مع:** Aspose.Note للـ Java 26.4  
 **المؤلف:** Aspose  
 
 {{< /blocks/products/pf/tutorial-page-section >}}

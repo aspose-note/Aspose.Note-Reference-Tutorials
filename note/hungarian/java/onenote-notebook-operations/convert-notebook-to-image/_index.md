@@ -21,7 +21,7 @@ Ebben az oktatóanyagban megvizsgáljuk, hogyan alakíthat át jegyzetfüzetet k
 
 Mielőtt elkezdené, győződjön meg arról, hogy rendelkezik a következőkkel:
 
-1.  Java Development Kit (JDK): Győződjön meg arról, hogy a Java telepítve van a rendszeren. A legújabb verziót letöltheti és telepítheti a[weboldal](https://www.oracle.com/java/technologies/javase-jdk15-downloads.html).
+1.  Java Development Kit (JDK): Győződjön meg arról, hogy a Java telepítve van a rendszeren. A legújabb verziót letöltheti és telepítheti a[weboldal](https://www.oracle.com/java/technologies/downloads/).
 
 2.  Aspose.Note for Java Library: Töltse le és foglalja bele projektjébe az Aspose.Note for Java könyvtárat. A könyvtárat beszerezheti a[Aspose honlapja](https://releases.aspose.com/note/java/).
 

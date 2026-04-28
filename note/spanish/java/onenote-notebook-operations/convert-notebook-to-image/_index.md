@@ -21,7 +21,7 @@ En este tutorial, exploraremos cómo convertir un cuaderno en una imagen en OneN
 
 Antes de comenzar, asegúrese de tener lo siguiente:
 
-1.  Kit de desarrollo de Java (JDK): asegúrese de tener Java instalado en su sistema. Puede descargar e instalar la última versión desde[sitio web](https://www.oracle.com/java/technologies/javase-jdk15-downloads.html).
+1.  Kit de desarrollo de Java (JDK): asegúrese de tener Java instalado en su sistema. Puede descargar e instalar la última versión desde[sitio web](https://www.oracle.com/java/technologies/downloads/).
 
 2.  Biblioteca Aspose.Note para Java: descargue e incluya la biblioteca Aspose.Note para Java en su proyecto. Puede obtener la biblioteca en el[Aspose sitio web](https://releases.aspose.com/note/java/).
 

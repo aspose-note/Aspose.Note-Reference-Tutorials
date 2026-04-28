@@ -58,7 +58,7 @@ String dataDir = "Your Document Directory";
 ## Langkah 2: Muat Buku Catatan
 
 ```java
-Notebook notebook = new Notebook(dataDir + "Notizbuch öffnen.onetoc2");
+Notebook notebook = new Notebook(dataDir + "Notebook.onetoc2");
 ```
 
  Cuplikan kode ini membuat yang baru`Notebook` objek dan memuat file notebook yang ditentukan oleh jalurnya.

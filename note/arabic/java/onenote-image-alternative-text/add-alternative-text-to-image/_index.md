@@ -88,7 +88,7 @@ Page page = new Page();
 ### الخطوة 4: إضافة صورة إلى الصفحة
 
 ```java
-Image image = new Image(null, dataDir + "image.jpg");
+Image image = new Image(dataDir + "image.jpg");
 ```
 
 يقوم مُنشئ `Image` بتحميل ملف الصورة من المسار المحدد.
@@ -163,7 +163,7 @@ document.save(dataDir + "AlternativeText_out.one");
 ---
 
 **آخر تحديث:** 2025-12-23  
-**تم الاختبار مع:** Aspose.Note for Java 24.11  
+**تم الاختبار مع:** Aspose.Note for Java 26.4  
 **المؤلف:** Aspose  
 
 {{< /blocks/products/pf/tutorial-page-section >}}

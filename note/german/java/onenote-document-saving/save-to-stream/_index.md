@@ -119,7 +119,7 @@ A: Aspose.Note kann passwortgeschützte Dateien öffnen, indem das Passwort dem 
 A: Ja, Aspose.Note bewahrt Bilder, Diagramme und andere eingebettete Objekte während des Konvertierungsprozesses.
 
 **Letzte Aktualisierung:** 2025-12-17  
-**Getestet mit:** Aspose.Note für Java 24.12 (latest)  
+**Getestet mit:** Aspose.Note für Java 26.4 (latest)  
 **Autor:** Aspose  
 
 {{< /blocks/products/pf/tutorial-page-section >}}

@@ -142,7 +142,7 @@ A5：可以，購買商業授權後即可在正式環境中使用此程式庫。
 ---
 
 **最後更新：** 2025-12-18  
-**測試環境：** Aspose.Note for Java 24.12（最新）  
+**測試環境：** Aspose.Note for Java 26.4（最新）  
 **作者：** Aspose  
 
 {{< /blocks/products/pf/tutorial-page-section >}}

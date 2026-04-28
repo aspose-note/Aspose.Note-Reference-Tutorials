@@ -91,7 +91,7 @@ A: एक इमेज में केवल एक हाइपरलिंक
 ---
 
 **अंतिम अपडेट:** 2025-12-20  
-**परीक्षण किया गया:** Aspose.Note for Java 24.10  
+**परीक्षण किया गया:** Aspose.Note for Java 26.4  
 **लेखक:** Aspose
 
 {{< /blocks/products/pf/tutorial-page-section >}}

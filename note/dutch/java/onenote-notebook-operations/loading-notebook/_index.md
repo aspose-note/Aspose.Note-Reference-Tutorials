@@ -58,7 +58,7 @@ String dataDir = "Your Document Directory";
 ## Stap 2: Notebook laden
 
 ```java
-Notebook notebook = new Notebook(dataDir + "Notizbuch öffnen.onetoc2");
+Notebook notebook = new Notebook(dataDir + "Notebook.onetoc2");
 ```
 
  Met dit codefragment wordt een nieuw`Notebook` object en laadt het notebookbestand dat is opgegeven door het pad.

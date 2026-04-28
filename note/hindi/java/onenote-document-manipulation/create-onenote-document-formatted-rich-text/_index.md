@@ -169,7 +169,7 @@ A: यह PDF, HTML, PNG, JPEG, और कई अन्य एक्सपोर
 ---
 
 **Last Updated:** 2025-12-09  
-**परीक्षण किया गया:** Aspose.Note for Java 24.11 (latest at time of writing)  
+**परीक्षण किया गया:** Aspose.Note for Java 26.4 (latest at time of writing)  
 **लेखक:** Aspose  
 
 {{< /blocks/products/pf/tutorial-page-section >}}

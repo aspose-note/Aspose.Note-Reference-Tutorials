@@ -127,7 +127,7 @@ A5: Tymczasowe licencje są udostępniane na [stronie tymczasowych licencji](htt
 ---
 
 **Ostatnia aktualizacja:** 2025-12-05  
-**Testowano z:** Aspose.Note for Java 24.12 (najnowsza w momencie pisania)  
+**Testowano z:** Aspose.Note for Java 26.4 (najnowsza w momencie pisania)  
 **Autor:** Aspose  
 
 {{< /blocks/products/pf/tutorial-page-section >}}

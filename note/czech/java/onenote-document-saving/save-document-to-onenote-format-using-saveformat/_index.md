@@ -105,7 +105,7 @@ V tomto průvodci jsme pokryli **how to save onenote** dokumenty pomocí volby `
 ---
 
 **Last Updated:** 2025-12-11  
-**Tested With:** Aspose.Note for Java 24.12 (latest)  
+**Tested With:** Aspose.Note for Java 26.4 (latest)  
 **Author:** Aspose  
 
 {{< /blocks/products/pf/tutorial-page-section >}}

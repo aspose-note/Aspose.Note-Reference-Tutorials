@@ -127,7 +127,7 @@ C5: Geçici lisanslar [geçici lisans sayfası](https://purchase.aspose.com/temp
 ---
 
 **Son Güncelleme:** 2025-12-05  
-**Test Edilen Versiyon:** Aspose.Note for Java 24.12 (yazım zamanındaki en son)  
+**Test Edilen Versiyon:** Aspose.Note for Java 26.4 (yazım zamanındaki en son)  
 **Yazar:** Aspose  
 
 {{< /blocks/products/pf/tutorial-page-section >}}

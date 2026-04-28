@@ -102,7 +102,7 @@ A: Minta lisensi evaluasi sementara dari [sini](https://purchase.aspose.com/temp
 ---
 
 **Terakhir Diperbarui:** 2025-12-09  
-**Diuji Dengan:** Aspose.Note untuk Java 24.12 (terbaru)  
+**Diuji Dengan:** Aspose.Note untuk Java 26.4 (terbaru)  
 **Penulis:** Aspose  
 
 {{< /blocks/products/pf/tutorial-page-section >}}

@@ -32,7 +32,7 @@ In deze tutorial ontdek je **hoe je een node kunt verwijderen** — specifie
 
 Voordat we beginnen, zorg ervoor dat je de volgende zaken hebt ingesteld:
 
-1. **Java Development Kit (JDK)** – Zorg ervoor dat Java op je systeem is geïnstalleerd. Je kunt de nieuwste JDK downloaden en installeren via [hier](https://www.oracle.com/java/technologies/javase-jdk15-downloads.html).
+1. **Java Development Kit (JDK)** – Zorg ervoor dat Java op je systeem is geïnstalleerd. Je kunt de nieuwste JDK downloaden en installeren via [hier](https://www.oracle.com/java/technologies/downloads/).
 
 2. **Aspose.Note for Java** – Download en installeer de Aspose.Note for Java‑bibliotheek vanaf de [website](https://purchase.aspose.com/buy). Je kunt ook een gratis proefversie verkrijgen via [hier](https://releases.aspose.com/).
 
@@ -137,7 +137,7 @@ In deze tutorial hebben we stap voor stap laten zien **hoe je een node kunt verw
 ---
 
 **Last Updated:** 2026-01-02  
-**Tested With:** Aspose.Note 24.11 for Java  
+**Tested With:** Aspose.Note 26.4 for Java  
 **Author:** Aspose
 
 {{< /blocks/products/pf/tutorial-page-section >}}

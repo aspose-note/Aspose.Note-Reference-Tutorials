@@ -58,7 +58,7 @@ String dataDir = "Your Document Directory";
 ## 2단계: 노트북 로드
 
 ```java
-Notebook notebook = new Notebook(dataDir + "Notizbuch öffnen.onetoc2");
+Notebook notebook = new Notebook(dataDir + "Notebook.onetoc2");
 ```
 
  이 코드 조각은 새로운`Notebook` 해당 경로로 지정된 노트북 파일을 로드합니다.

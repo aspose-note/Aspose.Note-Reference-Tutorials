@@ -41,7 +41,7 @@ Aspose.Note.Document doc = new Aspose.Note.Document();
 // Oldal osztály objektum inicializálása
 Aspose.Note.Page page = new Aspose.Note.Page(doc);
 // Inicializálja az Outline osztály objektumot
-Outline outline = new Outline(doc);
+Outline outline = new Outline();
 ```
 ## 3. lépés: Állítsa be az alapértelmezett szövegstílust
 ```csharp
@@ -51,8 +51,8 @@ ParagraphStyle defaultStyle = new ParagraphStyle { FontColor = Color.Black, Font
 ## 4. lépés: Vázlatelemek létrehozása felsorolásjelekkel
 ```csharp
 // Inicializálja az OutlineElement osztályobjektumokat és alkalmazza a felsorolásjeleket
-OutlineElement outlineElem1 = new OutlineElement(doc) { NumberList = new NumberList("*", "Arial", 10) };
-RichText text1 = new RichText(doc) { Text = "First", ParagraphStyle = defaultStyle };
+OutlineElement outlineElem1 = new OutlineElement() { NumberList = new NumberList("*", "Arial", 10) };
+RichText text1 = new RichText() { Text = "First", ParagraphStyle = defaultStyle };
 outlineElem1.AppendChildLast(text1);
 // Ismételje meg a többi vázlatelemhez
 ```

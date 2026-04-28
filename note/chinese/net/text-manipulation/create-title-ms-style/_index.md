@@ -37,24 +37,24 @@ string outputPath = dataDir + "CreateTitleMsStyle_out.one";
 实例化一个新的`Document`和`Page`使用 Aspose.Note for .NET。
 ```csharp
 var doc = new Document();
-var page = new Page(doc);
+var page = new Page();
 ```
 ## 步骤 3：以 Microsoft OneNote 样式定义标题
 现在，以 Microsoft OneNote 样式为您的页面创建标题。这涉及设置标题文本、日期和时间。
 ```csharp
-page.Title = new Title(doc)
+page.Title = new Title()
 {
-    TitleText = new RichText(doc)
+    TitleText = new RichText()
     {
         Text = "Title text.",
         ParagraphStyle = ParagraphStyle.Default
     },
-    TitleDate = new RichText(doc)
+    TitleDate = new RichText()
     {
         Text = new DateTime(2011, 11, 11).ToString("D", CultureInfo.InvariantCulture),
         ParagraphStyle = ParagraphStyle.Default
     },
-    TitleTime = new RichText(doc)
+    TitleTime = new RichText()
     {
         Text = "12:34",
         ParagraphStyle = ParagraphStyle.Default

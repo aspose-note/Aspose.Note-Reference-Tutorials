@@ -85,7 +85,7 @@ outline.setHorizontalOffset(0);
 โหลดรูปภาพที่ต้องการฝังและจัดตำแหน่งให้ชิดด้านขวาของหน้า นี่คือจุดที่เราจริง ๆ **เพิ่มรูปภาพไปยัง OneNote**
 
 ```java
-Image image = new Image(null, dataDir + "Input.jpg");
+Image image = new Image(dataDir + "Input.jpg");
 image.setAlignment(HorizontalAlignment.Right);
 ```
 
@@ -148,7 +148,7 @@ A5: ได้ คุณสามารถขอรับลิขสิทธิ
 ---
 
 **อัปเดตล่าสุด:** 2025-12-20  
-**ทดสอบกับ:** Aspose.Note for Java 24.12 (ล่าสุด)  
+**ทดสอบกับ:** Aspose.Note for Java 26.4 (ล่าสุด)  
 **ผู้เขียน:** Aspose  
 
 {{< /blocks/products/pf/tutorial-page-section >}}

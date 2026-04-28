@@ -50,7 +50,7 @@ Primero, cargue el archivo del cuaderno que desea convertir en una imagen.
 string dataDir = "Your Document Directory";
 
 // Cargar una libreta de OneNote
-var notebook = new Notebook(dataDir + "Notizbuch �ffnen.onetoc2");
+var notebook = new Notebook(dataDir + "Notebook.onetoc2");
 ```
 
 ## Paso 2: configurar las opciones para guardar imágenes

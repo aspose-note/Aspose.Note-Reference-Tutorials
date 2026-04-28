@@ -22,7 +22,7 @@ weight: 14
 - **推荐使用的库是什么？** Aspose.Note for Java  
 - **我可以从受密码保护的笔记本中提取图像吗？** 是的，Aspose.Note 支持此功能。  
 - **开发是否需要许可证？** 免费试用可用于测试；生产环境需要许可证。  
-- **支持哪些 Java 版本？** Java 8 及更高版本（包括 Java 15）。  
+- **支持哪些 Java 版本？** Java 8 及更高版本（包括 Java 8）。  
 - **提取需要多长时间？** 对于标准笔记本通常只需几秒。
 
 ## 什么是从 OneNote 中提取图像？
@@ -39,7 +39,7 @@ weight: 14
 
 在开始之前，请确保您具备以下条件：
 
-1. **Java Development Kit (JDK)** – 确保系统已安装 Java。您可以从[网站](https://www.oracle.com/java/technologies/javase-jdk15-downloads.html)下载并安装。  
+1. **Java Development Kit (JDK)** – 确保系统已安装 Java。您可以从[网站](https://www.oracle.com/java/technologies/downloads/)下载并安装。  
 2. **Aspose.Note Library** – 下载并在您的 Java 项目中引用 Aspose.Note 库。您可以通过[下载链接](https://releases.aspose.com/note/java/)获取。  
 
 ## 导入包
@@ -116,7 +116,7 @@ for (int i = 0; i < list.size(); i++) {
 ---
 
 **最后更新：** 2025-12-21  
-**测试环境：** Aspose.Note for Java 24.12  
+**测试环境：** Aspose.Note for Java 26.4  
 **作者：** Aspose  
 
 {{< /blocks/products/pf/tutorial-page-section >}}

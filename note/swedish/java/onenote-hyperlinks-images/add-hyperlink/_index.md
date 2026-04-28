@@ -129,7 +129,7 @@ Nu bygger vi ett `RichText`‑objekt som blandar vanlig text och en hyperlänk.
 ```java
 RichText text = new RichText()
                             .append("This is ", textStyleRed)
-                            .append("hyperlink", new TextStyle().setHyperlinkAddress("www.google.com"))
+                            .append("hyperlink", new TextStyle().setHyperlinkAddress("https://www.google.com"))
                             .append(". This text is not a hyperlink.", TextStyle.getDefault());
 text.setParagraphStyle(defaultTextStyle);
 outlineElem.appendChildLast(text);
@@ -178,7 +178,7 @@ A: En tillfällig utvärderingslicens räcker för utveckling och testning, men 
 ---
 
 **Senast uppdaterad:** 2025-12-20  
-**Testad med:** Aspose.Note for Java 23.12  
+**Testad med:** Aspose.Note for Java 26.4  
 **Författare:** Aspose  
 
 {{< /blocks/products/pf/tutorial-page-section >}}

@@ -127,7 +127,7 @@ catch (UnsupportedFileFormatException e)
 ---
 
 **Последнее обновление:** 2025-12-05  
-**Тестировано с:** Aspose.Note for Java 24.12 (на момент написания)  
+**Тестировано с:** Aspose.Note for Java 26.4 (на момент написания)  
 **Автор:** Aspose  
 
 {{< /blocks/products/pf/tutorial-page-section >}}

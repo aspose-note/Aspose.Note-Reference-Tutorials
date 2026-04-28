@@ -108,7 +108,7 @@ A: Aspose 커뮤니티 포럼이 좋은 질문 장소입니다: [지원 포럼](
 ---
 
 **마지막 업데이트:** 2025-12-05  
-**테스트 환경:** Aspose.Note for Java 24.12  
+**테스트 환경:** Aspose.Note for Java 26.4  
 **작성자:** Aspose  
 
 {{< /blocks/products/pf/tutorial-page-section >}}

@@ -136,7 +136,7 @@ System.out.println("File saved: " + dataDir + "ConvertSpecificPageToImage_out.jp
 ---
 
 **Последнее обновление:** 2025-11-29  
-**Тестировано с:** Aspose.Note for Java 24.12  
+**Тестировано с:** Aspose.Note for Java 26.4  
 **Автор:** Aspose  
 
 {{< /blocks/products/pf/tutorial-page-section >}}

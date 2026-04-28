@@ -134,7 +134,7 @@ Nyní víte **jak uložit PDF** ze souborů OneNote pomocí Aspose.Note pro Java
 ---
 
 **Poslední aktualizace:** 2025-12-17  
-**Testováno s:** Aspose.Note for Java 23.12  
+**Testováno s:** Aspose.Note for Java 26.4  
 **Autor:** Aspose  
 
 {{< /blocks/products/pf/tutorial-page-section >}}

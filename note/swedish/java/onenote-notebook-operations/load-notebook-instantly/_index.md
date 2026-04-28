@@ -40,7 +40,7 @@ Om du laddar onenote omedelbart och funktionen med `NotebookLoadOptions` för at
 
 Håll utkik efter nästa dag i framtiden:
 
-1. **Java Development Kit (JDK):** Du kan installera Java på ditt system. När du installerar JDK:n från [här](https://www.oracle.com/java/technologies/javase-jdk15-downloads.html).
+1. **Java Development Kit (JDK):** Du kan installera Java på ditt system. När du installerar JDK:n från [här](https://www.oracle.com/java/technologies/downloads/).
 
 2. **Aspose.Note för Java:** Se Aspose.Note för Java-biblioteket. Kontrollera sidan [download page](https://releases.aspose.com/note/java/).
 
@@ -117,7 +117,7 @@ S5: Du kan begära en tillfällig licens från [sidan för tillfälliga licenser
 ---
 
 **Senast uppdaterad:** 2025-12-31
-**Testad med:** Aspose.Note för Java 24.12 (senaste)
+**Testad med:** Aspose.Note för Java 26.4 (senaste)
 **Författare:** Aspose  
 
 {{< /blocks/products/pf/tutorial-page-section >}}

@@ -104,7 +104,7 @@ Bây giờ bạn đã biết **cách bảo vệ OneNote** bằng cách tạo fil
 ---
 
 **Cập nhật lần cuối:** 2025-12-02  
-**Kiểm tra với:** Aspose.Note for Java 24.12 (phiên bản mới nhất tại thời điểm viết)  
+**Kiểm tra với:** Aspose.Note for Java 26.4 (phiên bản mới nhất tại thời điểm viết)  
 **Tác giả:** Aspose  
 
 {{< /blocks/products/pf/tutorial-page-section >}}

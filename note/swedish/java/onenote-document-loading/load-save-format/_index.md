@@ -97,7 +97,7 @@ A: Gå med i Aspose‑forumet på [Aspose.Note community‑sidan](https://forum.
 ---
 
 **Senast uppdaterad:** 2025-12-07  
-**Testad med:** Aspose.Note for Java 24.11  
+**Testad med:** Aspose.Note for Java 26.4  
 **Författare:** Aspose  
 
 {{< /blocks/products/pf/tutorial-page-section >}}

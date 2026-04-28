@@ -58,7 +58,7 @@ String dataDir = "Your Document Directory";
 ## चरण 2: नोटबुक लोड करें
 
 ```java
-Notebook notebook = new Notebook(dataDir + "Notizbuch öffnen.onetoc2");
+Notebook notebook = new Notebook(dataDir + "Notebook.onetoc2");
 ```
 
  यह कोड स्निपेट एक नया बनाता है`Notebook` ऑब्जेक्ट और उसके पथ द्वारा निर्दिष्ट नोटबुक फ़ाइल को लोड करता है।

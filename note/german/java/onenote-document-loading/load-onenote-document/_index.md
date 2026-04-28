@@ -102,7 +102,7 @@ A: Fordern Sie eine temporäre Evaluierungslizenz von [hier](https://purchase.as
 ---
 
 **Last Updated:** 2025-12-09  
-**Tested With:** Aspose.Note for Java 24.12 (latest)  
+**Tested With:** Aspose.Note for Java 26.4 (latest)  
 **Author:** Aspose
 
 {{< /blocks/products/pf/tutorial-page-section >}}

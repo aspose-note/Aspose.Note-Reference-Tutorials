@@ -162,7 +162,7 @@ doc.save(dataDir);
 ---
 
 **अंतिम अपडेट:** 2025-12-02  
-**परीक्षित संस्करण:** Aspose.Note for Java 24.12 (लेखन समय पर नवीनतम)  
+**परीक्षित संस्करण:** Aspose.Note for Java 26.4 (लेखन समय पर नवीनतम)  
 **लेखक:** Aspose  
 
 {{< /blocks/products/pf/tutorial-page-section >}}

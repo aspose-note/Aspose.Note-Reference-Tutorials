@@ -136,7 +136,7 @@ oneFile.save(dst, options);
 ---
 
 **最后更新：** 2025-12-17  
-**测试环境：** Aspose.Note for Java 23.12  
+**测试环境：** Aspose.Note for Java 26.4  
 **作者：** Aspose  
 
 {{< /blocks/products/pf/tutorial-page-section >}}

@@ -21,7 +21,7 @@ url: /zh/java/onenote-notebook-operations/convert-notebook-to-image/
 
 在我们开始之前，请确保您具备以下条件：
 
-1.  Java 开发工具包 (JDK)：确保您的系统上安装了 Java。您可以从以下位置下载并安装最新版本[网站](https://www.oracle.com/java/technologies/javase-jdk15-downloads.html).
+1.  Java 开发工具包 (JDK)：确保您的系统上安装了 Java。您可以从以下位置下载并安装最新版本[网站](https://www.oracle.com/java/technologies/downloads/).
 
 2.  Aspose.Note for Java 库：下载 Aspose.Note for Java 库并将其包含在您的项目中。您可以从以下位置获取该库：[阿斯普斯网站](https://releases.aspose.com/note/java/).
 

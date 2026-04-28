@@ -116,7 +116,7 @@ Trong hướng dẫn này, chúng tôi đã trình bày mọi thứ bạn cần 
 ---
 
 **Last Updated:** 2025-12-11  
-**Tested With:** Aspose.Note 24.11 for Java  
+**Tested With:** Aspose.Note 26.4 for Java  
 **Author:** Aspose  
 
 {{< /blocks/products/pf/tutorial-page-section >}}

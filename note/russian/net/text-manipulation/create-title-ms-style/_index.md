@@ -37,24 +37,24 @@ string outputPath = dataDir + "CreateTitleMsStyle_out.one";
  Создать экземпляр нового`Document` и`Page` используя Aspose.Note для .NET.
 ```csharp
 var doc = new Document();
-var page = new Page(doc);
+var page = new Page();
 ```
 ## Шаг 3. Определите заголовок в стиле Microsoft OneNote
 Теперь создайте заголовок для своей страницы в стиле Microsoft OneNote. Это включает в себя настройку текста заголовка, даты и времени.
 ```csharp
-page.Title = new Title(doc)
+page.Title = new Title()
 {
-    TitleText = new RichText(doc)
+    TitleText = new RichText()
     {
         Text = "Title text.",
         ParagraphStyle = ParagraphStyle.Default
     },
-    TitleDate = new RichText(doc)
+    TitleDate = new RichText()
     {
         Text = new DateTime(2011, 11, 11).ToString("D", CultureInfo.InvariantCulture),
         ParagraphStyle = ParagraphStyle.Default
     },
-    TitleTime = new RichText(doc)
+    TitleTime = new RichText()
     {
         Text = "12:34",
         ParagraphStyle = ParagraphStyle.Default

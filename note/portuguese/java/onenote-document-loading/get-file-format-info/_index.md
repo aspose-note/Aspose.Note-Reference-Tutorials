@@ -130,7 +130,7 @@ A: Você pode iterar sobre os valores do enum `FileFormat` para ver todos os for
 ---
 
 **Última atualização:** 2025-12-04  
-**Testado com:** Aspose.Note for Java 24.11  
+**Testado com:** Aspose.Note for Java 26.4  
 **Autor:** Aspose  
 
 {{< /blocks/products/pf/tutorial-page-section >}}

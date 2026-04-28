@@ -129,7 +129,7 @@ Seguindo estes passos simples, você agora sabe **como salvar OneNote** como ima
 ---
 
 **Última atualização:** 2025-12-04  
-**Testado com:** Aspose.Note para Java 24.12  
+**Testado com:** Aspose.Note para Java 26.4  
 **Autor:** Aspose  
 
 {{< /blocks/products/pf/tutorial-page-section >}}

@@ -58,7 +58,7 @@ String dataDir = "Your Document Directory";
 ## 第 2 步：載入筆記本
 
 ```java
-Notebook notebook = new Notebook(dataDir + "Notizbuch öffnen.onetoc2");
+Notebook notebook = new Notebook(dataDir + "Notebook.onetoc2");
 ```
 
 這段程式碼創造了一個新的`Notebook`物件並載入由其路徑指定的筆記本檔案。

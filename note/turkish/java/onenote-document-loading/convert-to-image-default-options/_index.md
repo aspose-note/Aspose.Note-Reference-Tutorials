@@ -134,7 +134,7 @@ C5: Evet, diğer kullanıcılarla etkileşimde bulunmak ve destek almak için [A
 ---
 
 **Son Güncelleme:** 2025-11-30  
-**Test Edilen:** Aspose.Note for Java 24.12  
+**Test Edilen:** Aspose.Note for Java 26.4  
 **Yazar:** Aspose  
 
 {{< /blocks/products/pf/tutorial-page-section >}}

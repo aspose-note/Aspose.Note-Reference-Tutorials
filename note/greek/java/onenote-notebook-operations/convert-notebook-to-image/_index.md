@@ -21,7 +21,7 @@ url: /el/java/onenote-notebook-operations/convert-notebook-to-image/
 
 Πριν ξεκινήσουμε, βεβαιωθείτε ότι έχετε τα εξής:
 
-1.  Java Development Kit (JDK): Βεβαιωθείτε ότι έχετε εγκαταστήσει Java στο σύστημά σας. Μπορείτε να κατεβάσετε και να εγκαταστήσετε την πιο πρόσφατη έκδοση από το[δικτυακός τόπος](https://www.oracle.com/java/technologies/javase-jdk15-downloads.html).
+1.  Java Development Kit (JDK): Βεβαιωθείτε ότι έχετε εγκαταστήσει Java στο σύστημά σας. Μπορείτε να κατεβάσετε και να εγκαταστήσετε την πιο πρόσφατη έκδοση από το[δικτυακός τόπος](https://www.oracle.com/java/technologies/downloads/).
 
 2.  Aspose.Note για Java Library: Κάντε λήψη και συμπεριλάβετε τη βιβλιοθήκη Aspose.Note για Java στο έργο σας. Μπορείτε να αποκτήσετε τη βιβλιοθήκη από το[Aspose website](https://releases.aspose.com/note/java/).
 

@@ -45,7 +45,7 @@ Laten we in het conversieproces duiken. We zullen elke stap opsplitsen in overzi
 string dataDir = "Your Document Directory";
 
 // Laad een OneNote-notitieblok
-var notebook = new Notebook(dataDir + "Notizbuch öffnen.onetoc2");
+var notebook = new Notebook(dataDir + "Notebook.onetoc2");
 ```
 
  In deze stap specificeren we de map waarin ons notebookbestand zich bevindt en laden we dit in onze applicatie met behulp van de`Notebook` klasse aangeboden door Aspose.Note.

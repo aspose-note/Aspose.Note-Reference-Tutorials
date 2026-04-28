@@ -99,7 +99,7 @@ A: Umfangreiche Dokumentation, Tutorials und Community‑Foren finden Sie auf de
 ---
 
 **Zuletzt aktualisiert:** 2025-12-11  
-**Getestet mit:** Aspose.Note für Java 24.11  
+**Getestet mit:** Aspose.Note für Java 26.4  
 **Autor:** Aspose  
 
 {{< /blocks/products/pf/tutorial-page-section >}}

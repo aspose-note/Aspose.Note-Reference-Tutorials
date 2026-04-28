@@ -105,7 +105,7 @@ A5: はい、[here](https://purchase.aspose.com/temporary-license/) から一時
 ---
 
 **最終更新日:** 2025-12-11  
-**テスト環境:** Aspose.Note for Java 24.12（最新）  
+**テスト環境:** Aspose.Note for Java 26.4（最新）  
 **作者:** Aspose  
 
 {{< /blocks/products/pf/tutorial-page-section >}}

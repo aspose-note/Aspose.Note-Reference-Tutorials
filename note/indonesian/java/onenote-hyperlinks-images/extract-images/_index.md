@@ -24,7 +24,7 @@ Dalam tutorial ini, kami akan memandu Anda melalui **cara mengekstrak gambar** d
 - **Library apa yang direkomendasikan?** Aspose.Note untuk Java
 - **Apakah saya dapat mengekstrak gambar dari notebook yang dilindungi kata sandi?** Ya, Aspose.Note mendukungnya.
 - **Apakah saya memerlukan lisensi untuk pengembangan?** Versi percobaan gratis dapat digunakan untuk pengujian; lisensi diperlukan untuk produksi.
-- **Versi Java mana yang didukung?** Java8dan yang lebih baru (termasuk Java15).
+- **Versi Java mana yang didukung?** Java8dan yang lebih baru (termasuk Java 8).
 - **Berapa lama proses ekstraksi berlangsung?** Biasanya beberapa detik untuk notebook standar.
 
 ## Apa itu ekstraksi gambar dari OneNote?
@@ -39,7 +39,7 @@ Mengekstrak gambar berarti secara program menemukan setiap gambar yang tertanam 
 
 Sebelum memulai, pastikan Anda memiliki hal‑hal berikut:
 
-1. **Java Development Kit (JDK)** – Pastikan Java terpasang di sistem Anda. Anda dapat mengunduh dan mengunduh dari [situs web](https://www.Oracle.com/java/technologies/javase-jdk15-downloads.html).
+1. **Java Development Kit (JDK)** – Pastikan Java terpasang di sistem Anda. Anda dapat mengunduh dan mengunduh dari [situs web](https://www.oracle.com/java/technologies/downloads/).
 
 2. **Aspose.Note Library** – Unduh dan sertakan pustaka Aspose.Note dalam proyek Java Anda. Anda dapat memperolehnya dari [tautan unduhan](https://releases.aspose.com/note/java/).
 
@@ -117,7 +117,7 @@ A: Ya, Anda juga dapat mengekstrak teks, lampiran, dan objek tertanam lainnya.
 ---
 
 **Terakhir Diperbarui:** 21-12-2025
-**Diuji Dengan:** Aspose.Note untuk Java 24.12
+**Diuji Dengan:** Aspose.Note untuk Java 26.4
 **Penulis:** Beranggapan
 
 {{< /blocks/products/pf/tutorial-page-section >}}

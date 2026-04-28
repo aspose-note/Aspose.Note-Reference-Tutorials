@@ -147,7 +147,7 @@ Trả lời: Có, các nhà phát triển có thể truy cập hỗ trợ toàn 
 ---
 
 **Cập nhật lần cuối:** 2025-12-31
-**Đã kiểm tra:** Aspose.Note for Java 24.11
+**Đã kiểm tra:** Aspose.Note for Java 26.4
 **Tác giả:** Aspose  
 
 {{< /blocks/products/pf/tutorial-page-section >}}

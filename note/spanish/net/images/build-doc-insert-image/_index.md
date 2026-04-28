@@ -61,7 +61,7 @@ Aspose.Note.Page page = new Aspose.Note.Page(doc);
 ## Paso 3: inicializar el objeto de esquema
 
 ```csharp
-Outline outline = new Outline(doc);
+Outline outline = new Outline();
 ```
 
  El`Outline`La clase representa un nodo de esquema en la jerarquía del documento. Creamos un nuevo objeto de esquema para estructurar nuestro documento.
@@ -69,7 +69,7 @@ Outline outline = new Outline(doc);
 ## Paso 4: inicializar el objeto OutlineElement
 
 ```csharp
-OutlineElement outlineElem = new OutlineElement(doc);
+OutlineElement outlineElem = new OutlineElement();
 ```
 
  Un`OutlineElement` representa un elemento dentro de un contorno. Aquí, creamos un nuevo elemento de esquema para agregar contenido a nuestro documento.

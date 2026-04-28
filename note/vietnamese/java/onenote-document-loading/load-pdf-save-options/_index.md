@@ -109,7 +109,7 @@ oneFile.save(dataDir + "LoadDocIntoAsposeNoteUsingPdfsaveoptions_out.pdf", new P
 ---
 
 **Cập nhật lần cuối:** 2025-12-05  
-**Đã kiểm tra với:** Aspose.Note cho Java 24.12  
+**Đã kiểm tra với:** Aspose.Note cho Java 26.4  
 **Tác giả:** Aspose  
 
 {{< /blocks/products/pf/tutorial-page-section >}}

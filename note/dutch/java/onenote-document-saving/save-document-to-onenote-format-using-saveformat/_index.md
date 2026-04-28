@@ -105,7 +105,7 @@ In deze gids hebben we behandeld **how to save onenote** documenten op te slaan 
 ---
 
 **Laatst bijgewerkt:** 2025-12-11  
-**Getest met:** Aspose.Note for Java 24.12 (latest)  
+**Getest met:** Aspose.Note for Java 26.4 (latest)  
 **Auteur:** Aspose  
 
 {{< /blocks/products/pf/tutorial-page-section >}}

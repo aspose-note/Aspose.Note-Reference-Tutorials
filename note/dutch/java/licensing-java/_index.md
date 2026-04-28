@@ -114,7 +114,7 @@ A: Nee. De credit‑validatie vereist een online oproep naar de licentieserver v
 ---
 
 **Laatst bijgewerkt:** 2025-12-04  
-**Getest met:** Aspose.Note for Java 24.12 (latest at time of writing)  
+**Getest met:** Aspose.Note for Java 26.4 (latest at time of writing)  
 **Auteur:** Aspose
 
 {{< /blocks/products/pf/tutorial-page-section >}}

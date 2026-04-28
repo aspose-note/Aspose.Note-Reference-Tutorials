@@ -109,7 +109,7 @@ System.out.println(doc.getFileFormat());
 ---
 
 **آخر تحديث:** 2025-12-11  
-**تم الاختبار مع:** Aspose.Note for Java 24.12  
+**تم الاختبار مع:** Aspose.Note for Java 26.4  
 **المؤلف:** Aspose  
 
 {{< /blocks/products/pf/tutorial-page-section >}}

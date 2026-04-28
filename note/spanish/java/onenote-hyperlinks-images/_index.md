@@ -85,7 +85,7 @@ A: Una imagen solo puede contener un hipervínculo. Para proporcionar varios enl
 ---
 
 **Última actualización:** 2025-12-20  
-**Probado con:** Aspose.Note for Java 24.10  
+**Probado con:** Aspose.Note for Java 26.4  
 **Autor:** Aspose
 
 {{< /blocks/products/pf/tutorial-page-section >}}

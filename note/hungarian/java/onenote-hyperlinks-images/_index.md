@@ -85,7 +85,7 @@ A: Egy kép csak egy hivatkozást tartalmazhat. Több link biztosításához has
 ---
 
 **Utoljára frissítve:** 2025-12-20  
-**Tesztelve:** Aspose.Note for Java 24.10  
+**Tesztelve:** Aspose.Note for Java 26.4  
 **Szerző:** Aspose
 
 {{< /blocks/products/pf/tutorial-page-section >}}

@@ -85,7 +85,7 @@ A: Satu gambar hanya dapat menampung satu hyperlink. Untuk menyediakan beberapa 
 ---
 
 **Terakhir Diperbarui:** 2025-12-20  
-**Diuji Dengan:** Aspose.Note for Java 24.10  
+**Diuji Dengan:** Aspose.Note for Java 26.4  
 **Penulis:** Aspose
 
 {{< /blocks/products/pf/tutorial-page-section >}}

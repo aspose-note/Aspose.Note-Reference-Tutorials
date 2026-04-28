@@ -131,7 +131,7 @@ try {
 `Image` 객체를 생성합니다. 첫 번째 인자는 나중에 스트림을 제공할 경우 `null`로 할 수 있지만, 여기서는 간단히 파일 경로를 지정하고 페이지 오른쪽에 정렬하도록 설정합니다.
 
 ```java
-Image image = new Image(null, dataDir + "image1.jpg");
+Image image = new Image(dataDir + "image1.jpg");
 image.setAlignment(HorizontalAlignment.Right);
 ```
 
@@ -213,7 +213,7 @@ A5: 예, Aspose 릴리스 페이지에서 무료 체험판을 다운로드하여
 ---
 
 **최종 업데이트:** 2025-12-21  
-**테스트 환경:** Aspose.Note for Java 24.12 (작성 시 최신 버전)  
+**테스트 환경:** Aspose.Note for Java 26.4 (작성 시 최신 버전)  
 **작성자:** Aspose  
 
 {{< /blocks/products/pf/tutorial-page-section >}}

@@ -44,7 +44,7 @@ using System.Collections.Generic;
 string dataDir = "Your Document Directory";
 
 // Načtěte poznámkový blok OneNotu
-var notebook = new Notebook(dataDir + "Notizbuch �ffnen.onetoc2");
+var notebook = new Notebook(dataDir + "Notebook.onetoc2");
 ```
 
  V tomto kroku načteme OneNote Notebook pomocí`Notebook` třídy poskytuje Aspose.Note.

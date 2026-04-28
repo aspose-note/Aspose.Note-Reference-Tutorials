@@ -44,7 +44,7 @@ using System.Collections.Generic;
 string dataDir = "Your Document Directory";
 
 // Memuat Buku Catatan OneNote
-var notebook = new Notebook(dataDir + "Notizbuch �ffnen.onetoc2");
+var notebook = new Notebook(dataDir + "Notebook.onetoc2");
 ```
 
  Pada langkah ini, kita memuat Buku Catatan OneNote menggunakan`Notebook` kelas yang disediakan oleh Aspose.Note.

@@ -125,7 +125,7 @@ A4: Sì, una versione di prova completamente funzionale può essere scaricata da
 A5: Le licenze temporanee sono fornite tramite la [pagina della licenza temporanea](https://purchase.aspose.com/temporary-license/).
 
 **Ultimo Aggiornamento:** 2025-12-05  
-**Testato Con:** Aspose.Note per Java 24.12 (ultima versione al momento della stesura)  
+**Testato Con:** Aspose.Note per Java 26.4 (ultima versione al momento della stesura)  
 **Autore:** Aspose  
 
 {{< /blocks/products/pf/tutorial-page-section >}}

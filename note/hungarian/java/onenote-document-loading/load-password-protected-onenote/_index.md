@@ -111,7 +111,7 @@ A: Miután a dokumentum sikeresen betöltődött, bejárhatja az oldalakat, és 
 ---
 
 **Utoljára frissítve:** 2025-12-11  
-**Tesztelve a következővel:** Aspose.Note for Java 24.12  
+**Tesztelve a következővel:** Aspose.Note for Java 26.4  
 **Szerző:** Aspose  
 
 {{< /blocks/products/pf/tutorial-page-section >}}

@@ -115,7 +115,7 @@ A: Ne. Validace kreditů vyžaduje online volání na licenční server Aspose. 
 ---
 
 **Poslední aktualizace:** 2025-12-04  
-**Testováno s:** Aspose.Note for Java 24.12 (latest at time of writing)  
+**Testováno s:** Aspose.Note for Java 26.4 (latest at time of writing)  
 **Autor:** Aspose
 
 {{< /blocks/products/pf/tutorial-page-section >}}

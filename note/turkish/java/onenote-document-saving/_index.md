@@ -159,7 +159,7 @@ C: En güncel sürüm için resmi Aspose web sitesini veya Maven Central Reposit
 ---
 
 **Son Güncelleme:** 2025-12-11  
-**Test Edilen Sürüm:** Aspose.Note 24.12 for Java  
+**Test Edilen Sürüm:** Aspose.Note 26.4 for Java  
 **Yazar:** Aspose  
 
 {{< /blocks/products/pf/tutorial-page-section >}}

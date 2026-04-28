@@ -24,7 +24,7 @@ weight: 22
 - **哪个 API 负责字体？** `DocumentFontsSubsystem` 允许您定义默认字体或加载自定义字体文件/流。  
 - **生产环境需要许可证吗？** 是的，非试用使用必须购买商业版 Aspose.Note 许可证。  
 - **可以批量转换多个文件吗？** 当然，只需在 `Document` 的加载和保存逻辑上循环即可。  
-- **需要哪个 Java 版本？** Java 15 或更高（示例使用 JDK 15）。
+- **需要哪个 Java 版本？** Java 8 或更高（示例使用 JDK 8）。
 
 ## 什么是带字体子系统的 “将 OneNote 保存为 PDF”？
 
@@ -40,7 +40,7 @@ weight: 22
 
 ### 1. Java 开发工具包 (JDK)
 
-确保系统已安装 Java Development Kit (JDK)。如果尚未安装，可从 [here](https://www.oracle.com/java/technologies/javase-jdk15-downloads.html) 下载。
+确保系统已安装 Java Development Kit (JDK)。如果尚未安装，可从 [here](https://www.oracle.com/java/technologies/downloads/) 下载。
 
 ### 2. Aspose.Note for Java 库
 
@@ -184,7 +184,7 @@ public static void SaveUsingDocumentFontsSubsystemWithDefaultFontFromStream() th
 ---
 
 **最后更新：** 2025-12-18  
-**测试环境：** Aspose.Note for Java 24.11  
+**测试环境：** Aspose.Note for Java 26.4  
 **作者：** Aspose  
 
 {{< /blocks/products/pf/tutorial-page-section >}}

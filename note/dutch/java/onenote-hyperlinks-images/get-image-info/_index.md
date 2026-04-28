@@ -33,7 +33,7 @@ Voordat we ingaan op de implementatie, moet u ervoor zorgen dat u aan de volgend
 
 ### 1. Java-ontwikkelingskit (JDK)
 
-Zorg ervoor dat je Java Development Kit (JDK) op je systeem hebt geïnstalleerd. Je kunt de nieuwste JDK downloaden en installeren vanaf de [Oracle website](https://www.oracle.com/java/technologies/javase-jdk15-downloads.html).
+Zorg ervoor dat je Java Development Kit (JDK) op je systeem hebt geïnstalleerd. Je kunt de nieuwste JDK downloaden en installeren vanaf de [Oracle website](https://www.oracle.com/java/technologies/downloads/).
 
 ### 2. Aspose.Note voor Java-bibliotheek
 
@@ -148,7 +148,7 @@ Door de stappen in deze tutorial te volgen, kun je effectief **get image dimensi
 ---
 
 **Laatst bijgewerkt:** 21-12-2025
-**Getest met:** Aspose.Note voor Java 23.12
+**Getest met:** Aspose.Note voor Java 26.4
 **Auteur:** Aspose
 
 {{< /blocks/products/pf/tutorial-page-section >}}

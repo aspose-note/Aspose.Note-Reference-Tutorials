@@ -124,7 +124,7 @@ A5: คุณสามารถหาแหล่งสนับสนุนแ�
 ---
 
 **Last Updated:** 2026-01-02  
-**Tested With:** Aspose.Note for Java 23.12  
+**Tested With:** Aspose.Note for Java 26.4  
 **Author:** Aspose  
 
 {{< /blocks/products/pf/tutorial-page-section >}}

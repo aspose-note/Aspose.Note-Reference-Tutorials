@@ -50,7 +50,7 @@ Primeiro, precisamos carregar o bloco de notas do OneNote que queremos converter
 string dataDir = "Your Document Directory";
 
 // Carregar um bloco de anotações do OneNote
-var notebook = new Notebook(dataDir + "Notizbuch �ffnen.onetoc2");
+var notebook = new Notebook(dataDir + "Notebook.onetoc2");
 ```
 
 ## Passo 2: Especifique as opções para salvar PDF

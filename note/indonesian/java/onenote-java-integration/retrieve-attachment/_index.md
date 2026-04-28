@@ -146,7 +146,7 @@ J: Ya, pengembang dapat mengakses dukungan komprehensif melalui forum Aspose.Not
 ---
 
 **Terakhir Diperbarui:** 2025-12-31
-**Diuji Dengan:** Aspose.Note for Java 24.11
+**Diuji Dengan:** Aspose.Note for Java 26.4
 **Penulis:** Aspose  
 
 {{< /blocks/products/pf/tutorial-page-section >}}

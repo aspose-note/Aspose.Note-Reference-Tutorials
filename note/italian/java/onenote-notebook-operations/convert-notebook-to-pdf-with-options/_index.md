@@ -45,7 +45,7 @@ Per convertire un taccuino in PDF, devi prima caricare il taccuino OneNote. Assi
 ```java
 String dataDir = "Your Document Directory";
 // Carica un blocco appunti di OneNote
-Notebook notebook = new Notebook(dataDir + "Notizbuch �ffnen.onetoc2");
+Notebook notebook = new Notebook(dataDir + "Notebook.onetoc2");
 ```
 
 ## Passaggio 2: specificare le opzioni di salvataggio del PDF

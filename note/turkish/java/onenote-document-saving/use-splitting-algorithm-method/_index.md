@@ -127,7 +127,7 @@ C: Evet, özellikleri keşfetmek için [free trial](https://releases.aspose.com/
 C: Ürünü deneme süresi içinde değerlendirmek için [temporary license](https://purchase.aspose.com/temporary-license/) talep edebilirsiniz.
 
 **Son Güncelleme:** 2025-12-18  
-**Test Edilen Versiyon:** Aspose.Note 24.12 for Java  
+**Test Edilen Versiyon:** Aspose.Note 26.4 for Java  
 **Yazar:** Aspose  
 
 {{< /blocks/products/pf/tutorial-page-section >}}

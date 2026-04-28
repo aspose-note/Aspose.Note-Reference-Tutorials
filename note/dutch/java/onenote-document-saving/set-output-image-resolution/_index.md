@@ -107,7 +107,7 @@ A: Zeker. Je kunt elke totale waarde gebruiken die aan je kwaliteitseisen vereis
 EEN:Ja. De `SaveFormat`‑enum bevat PNG, BMP, GIF en meer. Vervang `SaveFormat.Jpeg` door het noodzakelijke formaat.
 
 **V: Is Aspose.Note compatibel met alle Java‑versies?**
-A: De bibliotheek werkt met Java1.6 en later, inclusief Java8, 11 en nieuwere LTS‑releases.
+A: De bibliotheek werkt met Java SE 7 en later, inclusief Java8, 11 en nieuwere LTS‑releases.
 
 **V: Kan ik andere afbeeldings‑eigenschappen (bijv. bijsnijden, roteren) in OneNote manipuleren?**
 EEN:Ja. Aspose.Note biedt een volledige reeks API’s voor beeldmanipulatie, zoals schalen, bijsnijden, roteren en het aanpassen van kleurdiepte.
@@ -122,7 +122,7 @@ Door deze stappen te volgen, weet je nu hoe je **aspnote jpeg-resolutie instelt*
 ---
 
 **Laatst bijgewerkt:** 2025-12-18
-**Getest met:** Aspose.Note voor Java 24.12 (laatste op het moment van schrijven)
+**Getest met:** Aspose.Note voor Java 26.4 (laatste op het moment van schrijven)
 **Auteur:** Aspose  
 
 {{< /blocks/products/pf/tutorial-page-section >}}

@@ -58,7 +58,7 @@ String dataDir = "Your Document Directory";
 ## 2. Adım: Not Defterini Yükleyin
 
 ```java
-Notebook notebook = new Notebook(dataDir + "Notizbuch öffnen.onetoc2");
+Notebook notebook = new Notebook(dataDir + "Notebook.onetoc2");
 ```
 
  Bu kod parçacığı yeni bir`Notebook` nesneyi kullanır ve yolu tarafından belirtilen not defteri dosyasını yükler.

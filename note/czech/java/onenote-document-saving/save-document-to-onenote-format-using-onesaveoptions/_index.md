@@ -99,7 +99,7 @@ A: Kompletní dokumentaci, tutoriály a komunitní fóra najdete na [Aspose webs
 ---
 
 **Poslední aktualizace:** 2025-12-11  
-**Testováno s:** Aspose.Note for Java 24.11  
+**Testováno s:** Aspose.Note for Java 26.4  
 **Autor:** Aspose  
 
 {{< /blocks/products/pf/tutorial-page-section >}}

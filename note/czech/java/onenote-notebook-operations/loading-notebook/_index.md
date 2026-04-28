@@ -58,7 +58,7 @@ String dataDir = "Your Document Directory";
 ## Krok 2: Načtěte notebook
 
 ```java
-Notebook notebook = new Notebook(dataDir + "Notizbuch öffnen.onetoc2");
+Notebook notebook = new Notebook(dataDir + "Notebook.onetoc2");
 ```
 
  Tento fragment kódu vytvoří nový`Notebook` objekt a načte soubor poznámkového bloku určený jeho cestou.

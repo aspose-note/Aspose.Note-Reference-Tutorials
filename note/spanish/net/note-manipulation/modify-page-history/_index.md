@@ -62,14 +62,14 @@ Realice las modificaciones deseadas en el historial de la página.
 ```csharp
 pageHistory.RemoveRange(0, 1);
 
-pageHistory[0] = new Page(document);
+pageHistory[0] = new Page();
 if (pageHistory.Count > 1)
 {
     pageHistory[1].Title.TitleText.Text = "New Title";
 
-    pageHistory.Add(new Page(document));
+    pageHistory.Add(new Page());
 
-    pageHistory.Insert(1, new Page(document));
+    pageHistory.Insert(1, new Page());
 
     document.Save(dataDir + "ModifyPageHistory_out.one");
 }

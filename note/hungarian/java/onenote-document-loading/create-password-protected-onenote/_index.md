@@ -105,7 +105,7 @@ Most már tudod, **hogyan védheted a OneNote-ot** egy jelszóval védett fájl 
 ---
 
 **Utoljára frissítve:** 2025-12-02  
-**Tesztelve:** Aspose.Note for Java 24.12 (a legújabb a írás időpontjában)  
+**Tesztelve:** Aspose.Note for Java 26.4 (a legújabb a írás időpontjában)  
 **Szerző:** Aspose  
 
 {{< /blocks/products/pf/tutorial-page-section >}}

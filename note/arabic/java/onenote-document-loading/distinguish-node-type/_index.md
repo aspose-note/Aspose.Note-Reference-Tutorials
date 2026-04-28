@@ -90,7 +90,7 @@ System.out.println(doc.getNodeType());
 
 ### س2: هل Aspose.Note for Java متوافق مع إصدارات Java المختلفة؟
 
-ج2: Aspose.Note for Java متوافق مع Java 6 (1.6) والإصدارات الأحدث.
+ج2: Aspose.Note for Java متوافق مع Java SE 7 والإصدارات الأحدث.
 
 ### س3: هل يمكنني استخراج النصوص من مستندات OneNote باستخدام Aspose.Note for Java؟
 
@@ -107,7 +107,7 @@ System.out.println(doc.getNodeType());
 ---
 
 **آخر تحديث:** 2025-12-09  
-**تم الاختبار مع:** Aspose.Note for Java 24.12 (أحدث نسخة وقت الكتابة)  
+**تم الاختبار مع:** Aspose.Note for Java 26.4 (أحدث نسخة وقت الكتابة)  
 **المؤلف:** Aspose  
 
 {{< /blocks/products/pf/tutorial-page-section >}}

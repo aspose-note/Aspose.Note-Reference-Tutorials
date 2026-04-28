@@ -159,7 +159,7 @@ A: Látogassa meg az hivatalos Aspose weboldalt vagy a Maven Central Repository�
 ---
 
 **Utoljára frissítve:** 2025-12-11  
-**Tesztelt verzió:** Aspose.Note 24.12 for Java  
+**Tesztelt verzió:** Aspose.Note 26.4 for Java  
 **Szerző:** Aspose  
 
 {{< /blocks/products/pf/tutorial-page-section >}}

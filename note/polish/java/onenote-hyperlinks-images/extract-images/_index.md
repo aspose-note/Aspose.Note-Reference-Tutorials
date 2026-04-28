@@ -24,7 +24,7 @@ W tym samouczku poprowadzimy Cię krok po kroku **jak wyodrębnić obrazy** z do
 - **Jakiej biblioteki używać?** Aspose.Note for Java  
 - **Czy mogę wyodrębnić obrazy z notatnika zabezpieczonego hasłem?** Tak, Aspose.Note to obsługuje.  
 - **Czy potrzebna jest licencja do rozwoju?** Darmowa wersja próbna wystarczy do testów; licencja jest wymagana w produkcji.  
-- **Jakie wersje Javy są wspierane?** Java 8 i nowsze (w tym Java 15).  
+- **Jakie wersje Javy są wspierane?** Java 8 i nowsze (w tym Java 8).  
 - **Jak długo trwa wyodrębnianie?** Zazwyczaj kilka sekund dla standardowego notatnika.
 
 ## Czym jest wyodrębnianie obrazów z OneNote?
@@ -39,7 +39,7 @@ Wyodrębnianie obrazów oznacza programowe znajdowanie każdego obrazu osadzoneg
 
 Zanim zaczniesz, upewnij się, że masz następujące elementy:
 
-1. **Java Development Kit (JDK)** – Upewnij się, że Java jest zainstalowana w Twoim systemie. Możesz ją pobrać i zainstalować ze [strony internetowej](https://www.oracle.com/java/technologies/javase-jdk15-downloads.html).
+1. **Java Development Kit (JDK)** – Upewnij się, że Java jest zainstalowana w Twoim systemie. Możesz ją pobrać i zainstalować ze [strony internetowej](https://www.oracle.com/java/technologies/downloads/).
 
 2. **Aspose.Note Library** – Pobierz i dołącz bibliotekę Aspose.Note do swojego projektu Java. Możesz ją uzyskać z [linku do pobrania](https://releases.aspose.com/note/java/).
 
@@ -117,7 +117,7 @@ O: Tak, możesz także wyodrębnić tekst, załączniki i inne osadzone obiekty.
 ---
 
 **Ostatnia aktualizacja:** 2025-12-21  
-**Testowano z:** Aspose.Note for Java 24.12  
+**Testowano z:** Aspose.Note for Java 26.4  
 **Autor:** Aspose  
 
 {{< /blocks/products/pf/tutorial-page-section >}}

@@ -125,7 +125,7 @@ W tym przewodniku pokazaliśmy **jak odczytać tekst sformatowany z OneNote** pr
 ---
 
 **Ostatnia aktualizacja:** 2026-01-02  
-**Testowano z:** Aspose.Note for Java 23.12  
+**Testowano z:** Aspose.Note for Java 26.4  
 **Autor:** Aspose  
 
 {{< /blocks/products/pf/tutorial-page-section >}}

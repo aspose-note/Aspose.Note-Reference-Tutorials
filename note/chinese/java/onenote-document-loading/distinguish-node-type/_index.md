@@ -89,7 +89,7 @@ A1: 可以，Aspose.Note for Java 提供了用于以编程方式编辑已有 One
 
 ### Q2: Aspose.Note for Java 是否兼容不同的 Java 版本？
 
-A2: Aspose.Note for Java 兼容 Java 6（1.6）及更高版本。
+A2: Aspose.Note for Java 兼容 Java SE 7（1.6）及更高版本。
 
 ### Q3: 我能否使用 Aspose.Note for Java 从 OneNote 文档中提取文本内容？
 
@@ -106,7 +106,7 @@ A5: 是的，您可以通过 [this link](https://releases.aspose.com/) 获取免
 ---
 
 **最后更新：** 2025-12-09  
-**测试环境：** Aspose.Note for Java 24.12（撰写时的最新版本）  
+**测试环境：** Aspose.Note for Java 26.4（撰写时的最新版本）  
 **作者：** Aspose  
 
 {{< /blocks/products/pf/tutorial-page-section >}}

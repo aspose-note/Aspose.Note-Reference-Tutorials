@@ -41,7 +41,7 @@ using System.Text;
 
 ```csharp
 var document = new Document();
-var page = new Page(document);
+var page = new Page();
 ```
 
 ## Шаг 2. Вставьте изображение с гиперссылкой
@@ -50,7 +50,7 @@ var page = new Page(document);
 
 ```csharp
 string imagePath = "path_to_your_image.jpg";
-var image = new Image(document, imagePath) { HyperlinkUrl = "http://пример.com" };
+var image = new Image(imagePath) { HyperlinkUrl = "https://пример.com" };
 ```
 
 ## Шаг 3. Добавьте изображение на страницу

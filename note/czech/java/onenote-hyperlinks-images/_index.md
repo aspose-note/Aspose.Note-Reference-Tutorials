@@ -85,7 +85,7 @@ A: Jeden obrázek může obsahovat pouze jeden hypertextový odkaz. Pro více od
 ---
 
 **Poslední aktualizace:** 2025-12-20  
-**Testováno s:** Aspose.Note for Java 24.10  
+**Testováno s:** Aspose.Note for Java 26.4  
 **Autor:** Aspose
 
 {{< /blocks/products/pf/tutorial-page-section >}}

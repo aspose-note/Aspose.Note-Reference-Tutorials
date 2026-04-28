@@ -99,7 +99,7 @@ Mã trên **lưu tài liệu dưới dạng OneNote**, thực chất **chuyển 
 ---
 
 **Cập nhật lần cuối:** 2025-12-11  
-**Kiểm thử với:** Aspose.Note for Java 24.11  
+**Kiểm thử với:** Aspose.Note for Java 26.4  
 **Tác giả:** Aspose  
 
 {{< /blocks/products/pf/tutorial-page-section >}}

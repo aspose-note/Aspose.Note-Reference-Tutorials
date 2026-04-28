@@ -54,8 +54,8 @@ Chúng tôi tạo một đối tượng Trang mới để thêm nội dung vào 
 
 ## Bước 3: Khởi tạo các đối tượng Outline và OutlineElement
 ```csharp
-Outline outline1 = new Outline(doc);
-OutlineElement outlineElem1 = new OutlineElement(doc);
+Outline outline1 = new Outline();
+OutlineElement outlineElem1 = new OutlineElement();
 ```
 Chúng tôi tạo các phiên bản của lớp Outline và OutlineElement để cấu trúc nội dung của chúng tôi trong trang.
 

@@ -129,7 +129,7 @@ A: 'Document'에서 원하는 'Page' 개체를 검색하고 'page.save(outputPat
 ---
 
 **최종 업데이트:** 2025년 12월 17일
-**테스트 대상:** Java 23.12용 Aspose.Note(작성 당시 최신)
+**테스트 대상:** Java 26.4용 Aspose.Note(작성 당시 최신)
 **저자:** Aspose  
 
 {{< /blocks/products/pf/tutorial-page-section >}}

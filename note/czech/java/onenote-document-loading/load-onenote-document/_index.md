@@ -102,7 +102,7 @@ A: Požádejte o dočasnou evaluační licenci na [zde](https://purchase.aspose.
 ---
 
 **Poslední aktualizace:** 2025-12-09  
-**Testováno s:** Aspose.Note pro Javu 24.12 (nejnovější)  
+**Testováno s:** Aspose.Note pro Javu 26.4 (nejnovější)  
 **Autor:** Aspose  
 
 {{< /blocks/products/pf/tutorial-page-section >}}

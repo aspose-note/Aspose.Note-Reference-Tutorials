@@ -53,7 +53,7 @@ OneNote दस्तावेज़ की सामग्री को सं�
 
 ```csharp
 Aspose.Note.Page page = new Aspose.Note.Page(doc);
-Outline outline = new Outline(doc);
+Outline outline = new Outline();
 ```
 
 ## चरण 3: टैग के साथ टेक्स्ट नोड जोड़ें
@@ -61,9 +61,9 @@ Outline outline = new Outline(doc);
 वांछित टेक्स्ट और शैली के साथ एक रिचटेक्स्ट ऑब्जेक्ट बनाएं, और फिर इसे आउटलाइनएलिमेंट में जोड़ें।
 
 ```csharp
-OutlineElement outlineElem = new OutlineElement(doc);
+OutlineElement outlineElem = new OutlineElement();
 ParagraphStyle textStyle = new ParagraphStyle { FontColor = Color.Black, FontName = "Arial", FontSize = 10 };
-RichText text = new RichText(doc) { Text = "OneNote text.", ParagraphStyle = textStyle };
+RichText text = new RichText() { Text = "OneNote text.", ParagraphStyle = textStyle };
 text.Tags.Add(NoteTag.CreateYellowStar());
 outlineElem.AppendChildLast(text);
 ```

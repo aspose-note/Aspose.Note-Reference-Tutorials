@@ -158,7 +158,7 @@ A: Besök den officiella Aspose‑webbplatsen eller Maven Central Repository fö
 ---
 
 **Senast uppdaterad:** 2025-12-11  
-**Testad med:** Aspose.Note 24.12 för Java  
+**Testad med:** Aspose.Note 26.4 för Java  
 **Författare:** Aspose  
 
 {{< /blocks/products/pf/tutorial-page-section >}}

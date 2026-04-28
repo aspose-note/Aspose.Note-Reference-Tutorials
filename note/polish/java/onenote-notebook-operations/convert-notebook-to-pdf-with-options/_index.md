@@ -45,7 +45,7 @@ Aby przekonwertować notatnik na format PDF, musisz najpierw załadować notatni
 ```java
 String dataDir = "Your Document Directory";
 // Załaduj notatnik programu OneNote
-Notebook notebook = new Notebook(dataDir + "Notizbuch �ffnen.onetoc2");
+Notebook notebook = new Notebook(dataDir + "Notebook.onetoc2");
 ```
 
 ## Krok 2: Określ opcje zapisywania plików PDF

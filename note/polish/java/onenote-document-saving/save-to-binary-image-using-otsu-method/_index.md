@@ -127,7 +127,7 @@ O: Zdecydowanie – iteruj po `Document.getPages()` i zastosuj tę samą logikę
 ---
 
 **Ostatnia aktualizacja:** 2025-12-14  
-**Testowano z:** Aspose.Note for Java 24.12  
+**Testowano z:** Aspose.Note for Java 26.4  
 **Autor:** Aspose  
 
 {{< /blocks/products/pf/tutorial-page-section >}}

@@ -135,7 +135,7 @@ TextStyle textStyleRed = new TextStyle()
 ```java
 RichText text = new RichText()
                             .append("This is ", textStyleRed)
-                            .append("hyperlink", new TextStyle().setHyperlinkAddress("www.google.com"))
+                            .append("hyperlink", new TextStyle().setHyperlinkAddress("https://www.google.com"))
                             .append(". This text is not a hyperlink.", TextStyle.getDefault());
 text.setParagraphStyle(defaultTextStyle);
 outlineElem.appendChildLast(text);
@@ -184,7 +184,7 @@ System.out.printf("File saved: %s\n", dataDir + "AddHyperlink_out.pdf");
 ---
 
 **अंतिम अपडेट:** 2025-12-20  
-**टेस्टेड विथ:** Aspose.Note for Java 23.12  
+**टेस्टेड विथ:** Aspose.Note for Java 26.4  
 **लेखक:** Aspose  
 
 {{< /blocks/products/pf/tutorial-page-section >}}

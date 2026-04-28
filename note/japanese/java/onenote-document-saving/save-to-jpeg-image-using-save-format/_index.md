@@ -129,7 +129,7 @@ A: `Document` から目的の `Page` オブジェクトを取得し、`page.save
 ---
 
 **最終更新日:** 2025-12-17  
-**テスト対象:** Aspose.Note for Java 23.12 (執筆時点での最新バージョン)  
+**テスト対象:** Aspose.Note for Java 26.4 (執筆時点での最新バージョン)  
 **作者:** Aspose  
 
 {{< /blocks/products/pf/tutorial-page-section >}}

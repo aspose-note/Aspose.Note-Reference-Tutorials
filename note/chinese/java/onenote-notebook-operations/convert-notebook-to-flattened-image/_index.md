@@ -141,7 +141,7 @@ A5：您可以在 Aspose.Note 论坛 [here](https://forum.aspose.com/c/note/28) 
 ---
 
 **最后更新：** 2025-12-25  
-**测试环境：** Aspose.Note for Java 24.12  
+**测试环境：** Aspose.Note for Java 26.4  
 **作者：** Aspose  
 
 {{< /blocks/products/pf/tutorial-page-section >}}

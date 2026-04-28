@@ -96,7 +96,7 @@ R : Rejoignez les forums Aspose sur la [Aspose.Note community page](https://fo
 ---
 
 **Dernière mise à jour :** 2025-12-07  
-**Testé avec :** Aspose.Note pour Java 24.11  
+**Testé avec :** Aspose.Note pour Java 26.4  
 **Auteur :** Aspose  
 
 {{< /blocks/products/pf/tutorial-page-section >}}

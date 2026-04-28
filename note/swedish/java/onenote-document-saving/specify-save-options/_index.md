@@ -139,7 +139,7 @@ A4: Ja, API‑et innehåller metoder för att kryptera och dekryptera OneNote‑
 A5: Ja, en kommersiell licens tillåter dig att använda biblioteket i produktionsmiljöer.
 
 **Senast uppdaterad:** 2025-12-18  
-**Testat med:** Aspose.Note for Java 24.12 (latest)  
+**Testat med:** Aspose.Note for Java 26.4 (latest)  
 **Författare:** Aspose  
 
 {{< /blocks/products/pf/tutorial-page-section >}}

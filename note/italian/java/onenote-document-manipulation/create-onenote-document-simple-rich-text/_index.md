@@ -197,7 +197,7 @@ Ora hai visto come **impostare lo stile del paragrafo**, **aggiungere un element
 ---
 
 **Ultimo aggiornamento:** 2025-12-08  
-**Testato con:** Aspose.Note per Java 24.11 (ultima release)  
+**Testato con:** Aspose.Note per Java 26.4 (ultima release)  
 **Autore:** Aspose  
 
 {{< /blocks/products/pf/tutorial-page-section >}}

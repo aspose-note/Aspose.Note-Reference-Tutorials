@@ -130,7 +130,7 @@ A: Όχι. Το Aspose.Note εκτελεί όλη την επεξεργασία 
 ---
 
 **Τελευταία ενημέρωση:** 2025-12-04  
-**Δοκιμάστηκε με:** Aspose.Note for Java 24.12  
+**Δοκιμάστηκε με:** Aspose.Note for Java 26.4  
 **Συγγραφέας:** Aspose  
 
 {{< /blocks/products/pf/tutorial-page-section >}}

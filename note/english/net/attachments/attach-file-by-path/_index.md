@@ -66,7 +66,7 @@ Here, we create a new instance of the `Page` class, which represents a page with
 ### Step 3: Initialize Outline Object
 
 ```csharp
-Outline outline = new Outline(doc);
+Outline outline = new Outline();
 ```
 
 An `Outline` object is created to organize the content within the page.
@@ -74,7 +74,7 @@ An `Outline` object is created to organize the content within the page.
 ### Step 4: Initialize OutlineElement Object
 
 ```csharp
-OutlineElement outlineElem = new OutlineElement(doc);
+OutlineElement outlineElem = new OutlineElement();
 ```
 
 `OutlineElement` represents an element within the outline structure.
@@ -82,7 +82,7 @@ OutlineElement outlineElem = new OutlineElement(doc);
 ### Step 5: Initialize AttachedFile Object
 
 ```csharp
-AttachedFile attachedFile = new AttachedFile(doc,  dataDir + "attachment.txt");
+AttachedFile attachedFile = new AttachedFile(dataDir + "attachment.txt");
 ```
 
 Here, we create an instance of `AttachedFile`, specifying the path to the file we want to attach.

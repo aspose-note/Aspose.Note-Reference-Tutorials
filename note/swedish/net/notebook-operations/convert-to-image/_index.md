@@ -42,7 +42,7 @@ För att börja måste vi ladda OneNote-anteckningsboken vi vill konvertera. Så
 
 ```csharp
 string dataDir = "Your Document Directory";
-var notebook = new Notebook(dataDir + "Notizbuch �ffnen.onetoc2");
+var notebook = new Notebook(dataDir + "Notebook.onetoc2");
 ```
 
 ## Steg 2: Spara anteckningsboken som en bild

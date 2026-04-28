@@ -59,8 +59,8 @@ Aspose.Note.Page page = new Aspose.Note.Page(doc);
 तालिका के लिए TableRow ऑब्जेक्ट बनाएं:
 
 ```csharp
-TableRow row1 = new TableRow(doc);
-TableRow row2 = new TableRow(doc);
+TableRow row1 = new TableRow();
+TableRow row2 = new TableRow();
 ```
 
 ## चरण 4: टेबलसेल ऑब्जेक्ट को आरंभ करें
@@ -68,10 +68,10 @@ TableRow row2 = new TableRow(doc);
 टेबलसेल ऑब्जेक्ट बनाएं और प्रत्येक सेल के लिए टेक्स्ट सामग्री सेट करें:
 
 ```csharp
-TableCell cell11 = new TableCell(doc);
+TableCell cell11 = new TableCell();
 cell11.AppendChildLast(InsertTable.GetOutlineElementWithText(doc, "Small text"));
 
-TableCell cell21 = new TableCell(doc);
+TableCell cell21 = new TableCell();
 cell21.AppendChildLast(InsertTable.GetOutlineElementWithText(doc, "Long text with several words and spaces."));
 ```
 
@@ -80,7 +80,7 @@ cell21.AppendChildLast(InsertTable.GetOutlineElementWithText(doc, "Long text wit
 टेबल क्लास ऑब्जेक्ट को प्रारंभ करें और कॉलम की चौड़ाई और लॉक की गई चौड़ाई जैसे गुण सेट करें:
 
 ```csharp
-Table table = new Table(doc)
+Table table = new Table()
 {
     IsBordersVisible = true,
     Columns = { new TableColumn { Width = 70, LockedWidth = true } }
@@ -101,8 +101,8 @@ table.AppendChildLast(row2);
 तालिका नोड को OutlineElement में जोड़ें:
 
 ```csharp
-Outline outline = new Outline(doc);
-OutlineElement outlineElem = new OutlineElement(doc);
+Outline outline = new Outline();
+OutlineElement outlineElem = new OutlineElement();
 outlineElem.AppendChildLast(table);
 outline.AppendChildLast(outlineElem);
 ```

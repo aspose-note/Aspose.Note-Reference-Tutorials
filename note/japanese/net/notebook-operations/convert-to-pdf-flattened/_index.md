@@ -44,7 +44,7 @@ using System.Collections.Generic;
 string dataDir = "Your Document Directory";
 
 // OneNote ノートブックをロードする
-var notebook = new Notebook(dataDir + "Notizbuch �ffnen.onetoc2");
+var notebook = new Notebook(dataDir + "Notebook.onetoc2");
 ```
 
 この手順では、次のコマンドを使用して OneNote ノートブックを読み込みます。`Notebook` Aspose.Note によって提供されるクラス。

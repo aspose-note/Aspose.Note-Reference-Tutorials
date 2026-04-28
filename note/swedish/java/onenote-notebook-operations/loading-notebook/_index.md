@@ -58,7 +58,7 @@ String dataDir = "Your Document Directory";
 ## Steg 2: Ladda anteckningsboken
 
 ```java
-Notebook notebook = new Notebook(dataDir + "Notizbuch öffnen.onetoc2");
+Notebook notebook = new Notebook(dataDir + "Notebook.onetoc2");
 ```
 
  Detta kodavsnitt skapar en ny`Notebook` objekt och laddar anteckningsboken som anges av dess sökväg.

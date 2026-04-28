@@ -131,7 +131,7 @@ Bu kılavuzda, Aspose.Note for Java kullanarak OneNote zengin metin içeriğini 
 ---
 
 **Son Güncelleme:** 2026-01-02
-**Test Edildiği Sürüm:** Aspose.Note for Java 23.12
+**Test Edildiği Sürüm:** Aspose.Note for Java 26.4
 **Yazar:** Aspose  
 
 {{< /blocks/products/pf/tutorial-page-section >}}

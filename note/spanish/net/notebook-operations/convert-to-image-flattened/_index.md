@@ -48,7 +48,7 @@ Primero, cargue el cuaderno de OneNote que desea convertir en su aplicación.
 string dataDir = "Your Document Directory";
 
 // Cargar una libreta de OneNote
-var notebook = new Notebook(dataDir + "Notizbuch öffnen.onetoc2");
+var notebook = new Notebook(dataDir + "Notebook.onetoc2");
 ```
 
 ## Paso 2: configurar las opciones de guardar

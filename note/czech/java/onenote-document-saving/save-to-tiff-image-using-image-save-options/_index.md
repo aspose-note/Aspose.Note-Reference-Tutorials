@@ -168,7 +168,7 @@ Nyní máte kompletní **java tiff conversion** sadu nástrojů, která vám umo
 ---
 
 **Poslední aktualizace:** 2025-12-17  
-**Testováno s:** Aspose.Note for Java 23.12 (nejnovější v době psaní)  
+**Testováno s:** Aspose.Note for Java 26.4 (nejnovější v době psaní)  
 **Autor:** Aspose  
 
 {{< /blocks/products/pf/tutorial-page-section >}}

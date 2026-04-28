@@ -85,7 +85,7 @@ outline.setHorizontalOffset(0);
 Tải hình ảnh bạn muốn nhúng và căn chỉnh nó sang phía bên phải của trang. Đây là nơi chúng ta thực sự **thêm hình ảnh vào OneNote**.
 
 ```java
-Image image = new Image(null, dataDir + "Input.jpg");
+Image image = new Image(dataDir + "Input.jpg");
 image.setAlignment(HorizontalAlignment.Right);
 ```
 
@@ -148,7 +148,7 @@ A5: Có, bạn có thể yêu cầu giấy phép tạm thời [tại đây](http
 ---
 
 **Cập nhật lần cuối:** 2025-12-20
-**Kiểm tra với:** Aspose.Note for Java 24.12 (mới nhất)
+**Kiểm tra với:** Aspose.Note for Java 26.4 (mới nhất)
 **Tác giả:** Aspose  
 
 {{< /blocks/products/pf/tutorial-page-section >}}

@@ -61,7 +61,7 @@ Aspose.Note.Page page = new Aspose.Note.Page(doc);
 ## ขั้นตอนที่ 3: เริ่มต้นวัตถุเค้าร่าง
 
 ```csharp
-Outline outline = new Outline(doc);
+Outline outline = new Outline();
 ```
 
  ที่`Outline`class แสดงถึงโหนดเค้าร่างในลำดับชั้นของเอกสาร เราสร้างวัตถุเค้าร่างใหม่เพื่อจัดโครงสร้างเอกสารของเรา
@@ -69,7 +69,7 @@ Outline outline = new Outline(doc);
 ## ขั้นตอนที่ 4: เริ่มต้นวัตถุ OutlineElement
 
 ```csharp
-OutlineElement outlineElem = new OutlineElement(doc);
+OutlineElement outlineElem = new OutlineElement();
 ```
 
  หนึ่ง`OutlineElement` แสดงถึงองค์ประกอบภายในโครงร่าง ที่นี่ เราสร้างองค์ประกอบเค้าร่างใหม่เพื่อเพิ่มเนื้อหาลงในเอกสารของเรา

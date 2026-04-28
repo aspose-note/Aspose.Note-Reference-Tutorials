@@ -66,7 +66,7 @@ Aspose.Note.Page page = new Aspose.Note.Page(doc);
 ### Passaggio 3: inizializza l'oggetto contorno
 
 ```csharp
-Outline outline = new Outline(doc);
+Outline outline = new Outline();
 ```
 
  UN`Outline` viene creato un oggetto per organizzare il contenuto all'interno della pagina.
@@ -74,7 +74,7 @@ Outline outline = new Outline(doc);
 ### Passaggio 4: inizializzare l'oggetto OutlineElement
 
 ```csharp
-OutlineElement outlineElem = new OutlineElement(doc);
+OutlineElement outlineElem = new OutlineElement();
 ```
 
 `OutlineElement` rappresenta un elemento all'interno della struttura del contorno.
@@ -82,7 +82,7 @@ OutlineElement outlineElem = new OutlineElement(doc);
 ### Passaggio 5: inizializzare l'oggetto attachedfile
 
 ```csharp
-AttachedFile attachedFile = new AttachedFile(doc,  dataDir + "attachment.txt");
+AttachedFile attachedFile = new AttachedFile(dataDir + "attachment.txt");
 ```
 
  Qui creiamo un'istanza di`AttachedFile`, specificando il percorso del file che vogliamo allegare.

@@ -31,7 +31,7 @@ Bu öğretirken, Aspose.Note for Java kullanarak bir OneNote Defterinden **düğ
 
 Başlamadan önce, aşağıdaki önkoşulların kurulu olduğundan emin olun:
 
-1. **Java Development Kit (JDK)** – Sisteminizde Java yüklü olduğundan emin olun. En son JDK'yı [buradan](https://www.oracle.com/java/technologies/javase-jdk15-downloads.html) indirebilir ve kurabilirsiniz.
+1. **Java Development Kit (JDK)** – Sisteminizde Java yüklü olduğundan emin olun. En son JDK'yı [buradan](https://www.oracle.com/java/technologies/downloads/) indirebilir ve kurabilirsiniz.
 
 2. **Aspose.Note for Java** – Aspose.Note for Java kütüphanesini [web ülkesinde](https://purchase.aspose.com/buy) indirip kurun. Ayrıca ücretsiz deneme yazılımı [buradan](https://releases.aspose.com/) edinebilirsiniz.
 
@@ -138,7 +138,7 @@ Bu öğretirken, Aspose.Note for Java kullanarak bir OneNote Defterinden **düğ
 ---
 
 **Son Güncelleme:** 2026-01-02
-**Test Edilenler:** Java için Aspose.Note 24.11
+**Test Edilenler:** Java için Aspose.Note 26.4
 **Yazar:** Aspose  
 
 ---

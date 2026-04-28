@@ -85,7 +85,7 @@ outline.setHorizontalOffset(0);
 Eklemek istediğiniz resmi yükleyin ve sayfanın sağ tarafına hizalayın. İşte **OneNote’a resim ekleme** işleminin gerçekleştiği adım.
 
 ```java
-Image image = new Image(null, dataDir + "Input.jpg");
+Image image = new Image(dataDir + "Input.jpg");
 image.setAlignment(HorizontalAlignment.Right);
 ```
 
@@ -148,7 +148,7 @@ C5: Geçici lisansı [buradan](https://purchase.aspose.com/temporary-license/) t
 ---
 
 **Son Güncelleme:** 2025-12-20  
-**Test Edilen Sürüm:** Aspose.Note for Java 24.12 (en yeni)  
+**Test Edilen Sürüm:** Aspose.Note for Java 26.4 (en yeni)  
 **Yazar:** Aspose  
 
 {{< /blocks/products/pf/tutorial-page-section >}}

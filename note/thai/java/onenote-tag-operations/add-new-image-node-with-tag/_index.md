@@ -58,7 +58,7 @@ OutlineElement outlineElem = new OutlineElement();
 ## ขั้นตอนที่ 5: โหลดและแทรกรูปภาพ
 ```java
 // โหลดรูปภาพ
-Image image = new Image(null, dataDir + "Input.jpg");
+Image image = new Image(dataDir + "Input.jpg");
 // แทรกรูปภาพในโหนดเอกสาร
 outlineElem.appendChildLast(image);
 ```

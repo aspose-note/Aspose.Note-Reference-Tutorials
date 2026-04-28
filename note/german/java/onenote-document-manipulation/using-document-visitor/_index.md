@@ -128,7 +128,7 @@ A5: Ja, die Dokumentation finden Sie [hier](https://reference.aspose.com/note/ja
 Durch die Anwendung des **Visitor-Pattern Java** mit Aspose.Note haben Sie nun eine saubere, erweiterbare Methode, **wie man Text extrahiert** aus OneNote‑Dateien, **OneNote in txt konvertiert** und allgemein **wie man OneNote**‑Strukturen durchläuft. Sie können `MyOneNoteToTxtWriter` gerne erweitern, um Bilder, Tabellen oder benutzerdefinierte Metadaten zu verarbeiten, wenn Ihr Projekt wächst.
 
 **Zuletzt aktualisiert:** 2025-12-09  
-**Getestet mit:** Aspose.Note for Java 24.10  
+**Getestet mit:** Aspose.Note for Java 26.4  
 **Autor:** Aspose  
 
 {{< /blocks/products/pf/tutorial-page-section >}}

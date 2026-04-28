@@ -169,7 +169,7 @@ document.save(Paths.get(savingCallbacks.getRootFolder(), "document.html").toStri
 ---
 
 **Последнее обновление:** 2025-12-02  
-**Тестировано с:** Aspose.Note for Java 24.12  
+**Тестировано с:** Aspose.Note for Java 26.4  
 **Автор:** Aspose  
 
 {{< /blocks/products/pf/tutorial-page-section >}}

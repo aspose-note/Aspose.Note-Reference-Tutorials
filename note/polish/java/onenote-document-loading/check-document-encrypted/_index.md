@@ -24,7 +24,7 @@ Kiedy pracujesz z plikami OneNote w aplikacji Java, pierwszą rzeczą, którą m
 
 - **Jaką metodę określa szyfrowanie?** `Document.isEncrypted`  
 - **Czy potrzebuję hasła, aby sprawdzić?** Nie, możesz zapytać o status bez hasła.  
-- **Która wersja API działa?** Dowolna najnowsza wersja Aspose.Note for Java (testowano z 24.11).  
+- **Która wersja API działa?** Dowolna najnowsza wersja Aspose.Note for Java (testowano z 26.4).  
 - **Czy mogę sprawdzić zarówno strumienie, jak i ścieżki plików?** Tak – API obsługuje oba.  
 - **Co się stanie, jeśli hasło jest nieprawidłowe?** Metoda zwraca `true`, co wskazuje, że plik pozostaje zaszyfrowany.  
 
@@ -148,7 +148,7 @@ W tym przewodniku pokazaliśmy **jak sprawdzić onenote encryption java** przy u
 ---  
 
 **Ostatnia aktualizacja:** 2025-11-29  
-**Testowano z:** Aspose.Note 24.11 for Java  
+**Testowano z:** Aspose.Note 26.4 for Java  
 **Author:** Aspose  
 
 {{< /blocks/products/pf/tutorial-page-section >}}  

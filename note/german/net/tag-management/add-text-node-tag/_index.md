@@ -53,7 +53,7 @@ Erstellen Sie Seiten- und Gliederungsobjekte, um den Inhalt des OneNote-Dokument
 
 ```csharp
 Aspose.Note.Page page = new Aspose.Note.Page(doc);
-Outline outline = new Outline(doc);
+Outline outline = new Outline();
 ```
 
 ## Schritt 3: Textknoten mit Tag hinzufügen
@@ -61,9 +61,9 @@ Outline outline = new Outline(doc);
 Erstellen Sie ein RichText-Objekt mit dem gewünschten Text und Stil und fügen Sie es dann dem OutlineElement hinzu.
 
 ```csharp
-OutlineElement outlineElem = new OutlineElement(doc);
+OutlineElement outlineElem = new OutlineElement();
 ParagraphStyle textStyle = new ParagraphStyle { FontColor = Color.Black, FontName = "Arial", FontSize = 10 };
-RichText text = new RichText(doc) { Text = "OneNote text.", ParagraphStyle = textStyle };
+RichText text = new RichText() { Text = "OneNote text.", ParagraphStyle = textStyle };
 text.Tags.Add(NoteTag.CreateYellowStar());
 outlineElem.AppendChildLast(text);
 ```

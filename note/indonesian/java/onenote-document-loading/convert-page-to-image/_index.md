@@ -134,7 +134,7 @@ J: Kunjungi [forum Aspose.Note](https://forum.aspose.com/c/note/28) atau lihat d
 ---
 
 **Terakhir Diperbarui:** 2025-11-29  
-**Diuji Dengan:** Aspose.Note untuk Java 24.12  
+**Diuji Dengan:** Aspose.Note untuk Java 26.4  
 **Penulis:** Aspose  
 
 {{< /blocks/products/pf/tutorial-page-section >}}

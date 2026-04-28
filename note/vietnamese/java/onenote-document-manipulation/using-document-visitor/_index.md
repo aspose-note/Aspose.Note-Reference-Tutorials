@@ -130,7 +130,7 @@ Bằng cách áp dụng **visitor pattern java** cùng Aspose.Note, bạn đã c
 ---
 
 **Cập nhật lần cuối:** 2025-12-09  
-**Đã kiểm tra với:** Aspose.Note for Java 24.10  
+**Đã kiểm tra với:** Aspose.Note for Java 26.4  
 **Tác giả:** Aspose  
 
 {{< /blocks/products/pf/tutorial-page-section >}}

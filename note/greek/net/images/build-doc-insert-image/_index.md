@@ -61,7 +61,7 @@ Aspose.Note.Page page = new Aspose.Note.Page(doc);
 ## Βήμα 3: Αρχικοποίηση αντικειμένου περίγραμμα
 
 ```csharp
-Outline outline = new Outline(doc);
+Outline outline = new Outline();
 ```
 
  ο`Outline`Η κλάση αντιπροσωπεύει έναν κόμβο περιγράμματος στην ιεραρχία του εγγράφου. Δημιουργούμε ένα νέο αντικείμενο περιγράμματος για τη δομή του εγγράφου μας.
@@ -69,7 +69,7 @@ Outline outline = new Outline(doc);
 ## Βήμα 4: Αρχικοποιήστε το αντικείμενο OutlineElement
 
 ```csharp
-OutlineElement outlineElem = new OutlineElement(doc);
+OutlineElement outlineElem = new OutlineElement();
 ```
 
  Ενα`OutlineElement` αντιπροσωπεύει ένα στοιχείο μέσα σε ένα περίγραμμα. Εδώ, δημιουργούμε ένα νέο στοιχείο περίγραμμα για να προσθέσουμε περιεχόμενο στο έγγραφό μας.

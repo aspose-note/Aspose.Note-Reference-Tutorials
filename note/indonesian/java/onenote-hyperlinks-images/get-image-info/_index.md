@@ -33,7 +33,7 @@ Sebelum kita masuk ke implementasi, pastikan Anda memiliki prasyarat berikut:
 
 ### 1. Kit Pengembangan Java (JDK)
 
-Pastikan Anda telah menginstal Java Development Kit (JDK) di sistem Anda. Anda dapat mengunduh dan menginstal JDK terbaru dari [situs web Oracle](https://www.Oracle.com/java/technologies/javase-jdk15-downloads.html).
+Pastikan Anda telah menginstal Java Development Kit (JDK) di sistem Anda. Anda dapat mengunduh dan menginstal JDK terbaru dari [situs web Oracle](https://www.oracle.com/java/technologies/downloads/).
 
 ### 2. Aspose.Note untuk Perpustakaan Java
 
@@ -148,7 +148,7 @@ Dengan mengikuti langkah‑langkah yang dijelaskan dalam tutorial ini, Anda dapa
 ---
 
 **Terakhir Diperbarui:** 21-12-2025
-**Diuji Dengan:** Aspose.Note untuk Java 23.12
+**Diuji Dengan:** Aspose.Note untuk Java 26.4
 **Penulis:** Beranggapan 
 
 ---

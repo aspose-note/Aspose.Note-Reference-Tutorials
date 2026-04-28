@@ -48,7 +48,7 @@ Ladda först OneNote-anteckningsboken som du vill konvertera till din applikatio
 string dataDir = "Your Document Directory";
 
 // Ladda en OneNote-anteckningsbok
-var notebook = new Notebook(dataDir + "Notizbuch öffnen.onetoc2");
+var notebook = new Notebook(dataDir + "Notebook.onetoc2");
 ```
 
 ## Steg 2: Ställ in sparalternativ

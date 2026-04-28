@@ -25,7 +25,7 @@ In molti scenari aziendali è necessario **salvare OneNote come PDF** preservand
 - **Quale API gestisce i font?** `DocumentFontsSubsystem` consente di definire un font predefinito o caricare un file/stream di font personalizzato.  
 - **È necessaria una licenza per la produzione?** Sì, è richiesta una licenza commerciale di Aspose.Note per l’uso non‑trial.  
 - **Posso convertire più file in batch?** Assolutamente – basta iterare sulla logica di caricamento e salvataggio del `Document`.  
-- **Quale versione di Java è richiesta?** Java 15 o successiva (l’esempio utilizza JDK 15).
+- **Quale versione di Java è richiesta?** Java 8 o successiva (l’esempio utilizza JDK 8).
 
 ## Cos’è “salvare OneNote come PDF” con un sottosistema dei font?
 
@@ -41,7 +41,7 @@ Salvare OneNote come PDF con un sottosistema dei font significa che, durante il 
 
 ### 1. Java Development Kit (JDK)
 
-Assicurati di avere installato il Java Development Kit (JDK) sul tuo sistema. Puoi scaricarlo da [qui](https://www.oracle.com/java/technologies/javase-jdk15-downloads.html) se non lo hai già fatto.
+Assicurati di avere installato il Java Development Kit (JDK) sul tuo sistema. Puoi scaricarlo da [qui](https://www.oracle.com/java/technologies/downloads/) se non lo hai già fatto.
 
 ### 2. Libreria Aspose.Note per Java
 
@@ -185,7 +185,7 @@ In questo tutorial abbiamo imparato come **salvare OneNote come PDF** controllan
 ---
 
 **Ultimo aggiornamento:** 2025-12-18  
-**Testato con:** Aspose.Note per Java 24.11  
+**Testato con:** Aspose.Note per Java 26.4  
 **Autore:** Aspose  
 
 {{< /blocks/products/pf/tutorial-page-section >}}

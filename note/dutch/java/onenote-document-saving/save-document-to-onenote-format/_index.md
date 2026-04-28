@@ -116,7 +116,7 @@ In deze gids hebben we alles behandeld wat je moet weten om **document als oneno
 ---
 
 **Laatst bijgewerkt:** 2025-12-11  
-**Getest met:** Aspose.Note 24.11 for Java  
+**Getest met:** Aspose.Note 26.4 for Java  
 **Auteur:** Aspose  
 
 {{< /blocks/products/pf/tutorial-page-section >}}

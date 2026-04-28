@@ -161,7 +161,7 @@ A: Visit the [Aspose.Note forum](https://forum.aspose.com/c/note/28) for communi
 ---
 
 **อัปเดตล่าสุด:** 2025-12-02  
-**ทดสอบกับ:** Aspose.Note for Java 24.12 (latest at time of writing)  
+**ทดสอบกับ:** Aspose.Note for Java 26.4 (latest at time of writing)  
 **ผู้เขียน:** Aspose  
 
 {{< /blocks/products/pf/tutorial-page-section >}}

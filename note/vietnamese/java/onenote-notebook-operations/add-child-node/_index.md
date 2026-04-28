@@ -58,7 +58,7 @@ String dataDir = "Your Document Directory";
 ## Bước 2: Tải Sổ Ghi Chú OneNote
 
 ```java
-Notebook notebook = new Notebook(dataDir + "Notizbuch �ffnen.onetoc2");
+Notebook notebook = new Notebook(dataDir + "Notebook.onetoc2");
 ```
 
 Tải sổ ghi chú OneNote mà bạn muốn chỉnh sửa.
@@ -118,7 +118,7 @@ A7: Cố gắng lưu thay đổi vào sổ ghi chú chỉ đọc sẽ gây ra ng
 ---
 
 **Cập nhật lần cuối:** 2025-12-25  
-**Kiểm tra với:** Aspose.Note for Java 24.10  
+**Kiểm tra với:** Aspose.Note for Java 26.4  
 **Tác giả:** Aspose  
 
 {{< /blocks/products/pf/tutorial-page-section >}}

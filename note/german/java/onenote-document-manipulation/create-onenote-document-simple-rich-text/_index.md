@@ -196,7 +196,7 @@ Sie haben nun gesehen, wie man **Absatzstil festlegt**, **Outline‑Element hinz
 ---
 
 **Zuletzt aktualisiert:** 2025-12-08  
-**Getestet mit:** Aspose.Note für Java 24.11 (neueste Version)  
+**Getestet mit:** Aspose.Note für Java 26.4 (neueste Version)  
 **Autor:** Aspose  
 
 {{< /blocks/products/pf/tutorial-page-section >}}

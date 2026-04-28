@@ -87,7 +87,7 @@ Gratulálunk! Sikeresen létrehozott egy táblázatot zárolt oszlopokkal a OneN
 Ebben az oktatóanyagban megvizsgáltuk az Aspose.Note for Java használatának folyamatát, hogy javítsa a OneNote-élményt azáltal, hogy zárolt oszlopokat tartalmazó táblázatokat hoz létre. Ez a funkció új rendszerezési és szerkezeti réteget ad a jegyzetekhez.
 ## GYIK
 ### Az Aspose.Note for Java kompatibilis az összes Java-verzióval?
-Igen, az Aspose.Note for Java kompatibilis a Java 6 és újabb verzióival.
+Igen, az Aspose.Note for Java kompatibilis a Java SE 7 és újabb verzióival.
 ### Testreszabhatom a táblázat megjelenését?
 Teljesen! Az Aspose.Note for Java kiterjedt lehetőségeket kínál a táblázatok testreszabásához, például a szegélyek, a cellaközök és egyebek beállításához.
 ### Vásárlás előtt van próbaverzió?

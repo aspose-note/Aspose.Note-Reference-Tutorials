@@ -142,7 +142,7 @@ A5: 有。您可加入[Aspose.Note for Java Support](https://forum.aspose.com/c/
 ---
 
 **最後更新：** 2025-11-30  
-**測試環境：** Aspose.Note for Java 24.12  
+**測試環境：** Aspose.Note for Java 26.4  
 **作者：** Aspose  
 
 {{< /blocks/products/pf/tutorial-page-section >}}

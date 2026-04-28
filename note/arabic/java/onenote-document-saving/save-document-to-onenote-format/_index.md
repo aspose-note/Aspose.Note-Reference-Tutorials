@@ -115,7 +115,7 @@ doc.save(dataDir + "SaveDocToOneNoteFormat_out.one");
 ---
 
 **آخر تحديث:** 2025-12-11  
-**تم الاختبار مع:** Aspose.Note 24.11 للغة Java  
+**تم الاختبار مع:** Aspose.Note 26.4 للغة Java  
 **المؤلف:** Aspose  
 
 {{< /blocks/products/pf/tutorial-page-section >}}

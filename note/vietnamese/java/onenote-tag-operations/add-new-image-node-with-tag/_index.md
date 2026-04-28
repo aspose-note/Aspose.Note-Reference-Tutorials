@@ -58,7 +58,7 @@ OutlineElement outlineElem = new OutlineElement();
 ## Bước 5: Tải và chèn hình ảnh
 ```java
 // tải một hình ảnh
-Image image = new Image(null, dataDir + "Input.jpg");
+Image image = new Image(dataDir + "Input.jpg");
 // chèn hình ảnh vào nút tài liệu
 outlineElem.appendChildLast(image);
 ```

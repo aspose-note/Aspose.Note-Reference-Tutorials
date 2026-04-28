@@ -48,7 +48,7 @@ Nejprve načtěte poznámkový blok OneNote, který chcete převést do aplikace
 string dataDir = "Your Document Directory";
 
 // Načtěte poznámkový blok OneNotu
-var notebook = new Notebook(dataDir + "Notizbuch öffnen.onetoc2");
+var notebook = new Notebook(dataDir + "Notebook.onetoc2");
 ```
 
 ## Krok 2: Nastavte možnosti uložení

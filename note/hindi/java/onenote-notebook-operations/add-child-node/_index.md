@@ -58,7 +58,7 @@ String dataDir = "Your Document Directory";
 ## चरण 2: OneNote नोटबुक लोड करें
 
 ```java
-Notebook notebook = new Notebook(dataDir + "Notizbuch �ffnen.onetoc2");
+Notebook notebook = new Notebook(dataDir + "Notebook.onetoc2");
 ```
 
 ## चरण 3: java create onenote section (insert new section onenote)
@@ -112,7 +112,7 @@ A7: यदि आप रीड‑ओनली नोटबुक में ब�
 ---
 
 **अंतिम अपडेट:** 2025-12-25  
-**परीक्षित संस्करण:** Aspose.Note for Java 24.10  
+**परीक्षित संस्करण:** Aspose.Note for Java 26.4  
 **लेखक:** Aspose  
 
 {{< /blocks/products/pf/tutorial-page-section >}}

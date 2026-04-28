@@ -53,7 +53,7 @@ String dataDir = "Your Document Directory";
 
 NotebookLoadOptions loadOptions = new NotebookLoadOptions();
 loadOptions.setDeferredLoading(true);
-Notebook notebook = new Notebook(dataDir + "Notizbuch öffnen.onetoc2", loadOptions);
+Notebook notebook = new Notebook(dataDir + "Notebook.onetoc2", loadOptions);
 notebook.loadChildDocument(dataDir + "Neuer Abschnitt 1.one");
 ```
 
@@ -94,7 +94,7 @@ A: 您可參考 [Aspose.Note for Java documentation](https://reference.aspose.co
 A: 有，您可從 [here](https://releases.aspose.com/) 下載免費試用版，先行體驗功能再決定是否購買。
 
 **最後更新日期：** 2026-01-02  
-**測試環境：** Aspose.Note 24.12 for Java  
+**測試環境：** Aspose.Note 26.4 for Java  
 **作者：** Aspose  
 
 {{< /blocks/products/pf/tutorial-page-section >}}

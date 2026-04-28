@@ -171,7 +171,7 @@ Artık Aspose.Note for Java kullanarak **OneNote'i HTML olarak kaydederken yazı
 ---
 
 **Son Güncelleme:** 2025-12-02  
-**Test Edilen Sürüm:** Aspose.Note for Java 24.12  
+**Test Edilen Sürüm:** Aspose.Note for Java 26.4  
 **Yazar:** Aspose
 
 {{< /blocks/products/pf/tutorial-page-section >}}

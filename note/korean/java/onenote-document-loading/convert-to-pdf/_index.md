@@ -23,7 +23,7 @@ weight: 16
 - **What library do I need?** Aspose.Note for Java  
 - **Can I convert only selected pages?** Yes – use `PdfSaveOptions.setPageIndex` and `setPageCount`  
 - **Do I need a license for production?** A commercial license is required for non‑trial use  
-- **Which Java version is supported?** JDK 8 or later (JDK 15 is recommended)  
+- **Which Java version is supported?** JDK 8 or later (JDK 8 is recommended)  
 - **Is the output PDF searchable?** Yes, the generated PDF retains text searchable by default  
 
 ## What is “convert OneNote to PDF”?
@@ -39,7 +39,7 @@ OneNote 노트북을 PDF로 변환한다는 것은 풍부한 멀티‑페이지 
 
 시작하기 전에 아래 항목을 준비해 주세요:
 
-1. **Java Development Kit (JDK)** – JDK 8+가 설치되어 있어야 합니다. 다운로드는 [here](https://www.oracle.com/java/technologies/javase-jdk15-downloads.html)에서 가능합니다.  
+1. **Java Development Kit (JDK)** – JDK 8+가 설치되어 있어야 합니다. 다운로드는 [here](https://www.oracle.com/java/technologies/downloads/)에서 가능합니다.  
 2. **Aspose.Note for Java** – 최신 JAR 파일을 [here](https://releases.aspose.com/note/java/)에서 다운로드하세요.  
 
 ## Import Packages
@@ -128,7 +128,7 @@ A: A free trial is available for download [here](https://releases.aspose.com/).
 ---
 
 **Last Updated:** 2025-11-30  
-**Tested With:** Aspose.Note for Java 24.11  
+**Tested With:** Aspose.Note for Java 26.4  
 **Author:** Aspose  
 
 {{< /blocks/products/pf/tutorial-page-section >}}

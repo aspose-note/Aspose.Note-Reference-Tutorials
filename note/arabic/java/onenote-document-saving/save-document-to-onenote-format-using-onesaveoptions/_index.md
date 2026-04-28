@@ -99,7 +99,7 @@ document.save(dataDir + "SaveDocToOneNoteFormatUsingOnesaveoptions_out.one", new
 ---
 
 **آخر تحديث:** 2025-12-11  
-**تم الاختبار مع:** Aspose.Note للغة Java 24.11  
+**تم الاختبار مع:** Aspose.Note للغة Java 26.4  
 **المؤلف:** Aspose
 
 {{< /blocks/products/pf/tutorial-page-section >}}

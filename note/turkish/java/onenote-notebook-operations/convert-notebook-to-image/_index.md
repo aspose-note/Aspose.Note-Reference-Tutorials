@@ -21,7 +21,7 @@ Bu eğitimde, Aspose.Note for Java kütüphanesini kullanarak bir not defterini 
 
 Başlamadan önce aşağıdakilere sahip olduğunuzdan emin olun:
 
-1.  Java Geliştirme Kiti (JDK): Sisteminizde Java'nın kurulu olduğundan emin olun. En son sürümü şuradan indirip yükleyebilirsiniz:[İnternet sitesi](https://www.oracle.com/java/technologies/javase-jdk15-downloads.html).
+1.  Java Geliştirme Kiti (JDK): Sisteminizde Java'nın kurulu olduğundan emin olun. En son sürümü şuradan indirip yükleyebilirsiniz:[İnternet sitesi](https://www.oracle.com/java/technologies/downloads/).
 
 2.  Aspose.Note for Java Kütüphanesi: Aspose.Note for Java kütüphanesini indirin ve projenize ekleyin. Kütüphaneyi adresinden temin edebilirsiniz.[Web sitesi](https://releases.aspose.com/note/java/).
 

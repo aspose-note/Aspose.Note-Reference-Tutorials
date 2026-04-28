@@ -25,7 +25,7 @@ weight: 16
 - **Ποια βιβλιοθήκη χρειάζομαι;** Aspose.Note for Java  
 - **Μπορώ να μετατρέψω μόνο επιλεγμένες σελίδες;** Ναι – χρησιμοποιήστε `PdfSaveOptions.setPageIndex` και `setPageCount`  
 - **Χρειάζομαι άδεια για παραγωγή;** Απαιτείται εμπορική άδεια για χρήση εκτός δοκιμής  
-- **Ποια έκδοση Java υποστηρίζεται;** JDK 8 ή νεότερη (συνιστάται JDK 15)  
+- **Ποια έκδοση Java υποστηρίζεται;** JDK 8 ή νεότερη (συνιστάται JDK 8)  
 - **Είναι το παραγόμενο PDF αναζητήσιμο;** Ναι, το παραγόμενο PDF διατηρεί το κείμενο αναζητήσιμο από προεπιλογή  
 
 ## Τι είναι η “μετατροπή OneNote σε PDF”;
@@ -41,7 +41,7 @@ weight: 16
 
 Πριν ξεκινήσουμε, βεβαιωθείτε ότι έχετε τα εξής:
 
-1. **Java Development Kit (JDK)** – Εγκατεστημένο JDK 8+. Μπορείτε να το κατεβάσετε από [here](https://www.oracle.com/java/technologies/javase-jdk15-downloads.html).  
+1. **Java Development Kit (JDK)** – Εγκατεστημένο JDK 8+. Μπορείτε να το κατεβάσετε από [here](https://www.oracle.com/java/technologies/downloads/).  
 2. **Aspose.Note for Java** – κατεβάστε το τελευταίο JAR από [here](https://releases.aspose.com/note/java/).  
 
 ## Εισαγωγή Πακέτων
@@ -130,7 +130,7 @@ A: Διατίθεται δωρεάν δοκιμαστική έκδοση για 
 ---
 
 **Τελευταία ενημέρωση:** 2025-11-30  
-**Δοκιμάστηκε με:** Aspose.Note for Java 24.11  
+**Δοκιμάστηκε με:** Aspose.Note for Java 26.4  
 **Συγγραφέας:** Aspose  
 
 {{< /blocks/products/pf/tutorial-page-section >}}

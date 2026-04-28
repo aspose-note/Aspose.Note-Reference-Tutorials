@@ -58,7 +58,7 @@ String dataDir = "Your Document Directory";
 ## Schritt 2: Notebook laden
 
 ```java
-Notebook notebook = new Notebook(dataDir + "Notizbuch öffnen.onetoc2");
+Notebook notebook = new Notebook(dataDir + "Notebook.onetoc2");
 ```
 
  Dieses Code-Snippet erstellt ein neues`Notebook` Objekt und lädt die durch ihren Pfad angegebene Notebook-Datei.

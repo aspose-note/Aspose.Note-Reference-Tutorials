@@ -169,7 +169,7 @@ Ora sai **come esportare i caratteri** mentre **salvi OneNote come HTML** usando
 ---
 
 **Ultimo aggiornamento:** 2025-12-02  
-**Testato con:** Aspose.Note per Java 24.12  
+**Testato con:** Aspose.Note per Java 26.4  
 **Autore:** Aspose  
 
 {{< /blocks/products/pf/tutorial-page-section >}}

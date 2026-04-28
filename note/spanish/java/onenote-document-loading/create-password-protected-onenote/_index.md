@@ -105,7 +105,7 @@ Ahora sabes **cómo proteger OneNote** creando un archivo protegido con contrase
 ---
 
 **Última actualización:** 2025-12-02  
-**Probado con:** Aspose.Note for Java 24.12 (última versión al momento de escribir)  
+**Probado con:** Aspose.Note for Java 26.4 (última versión al momento de escribir)  
 **Autor:** Aspose  
 
 {{< /blocks/products/pf/tutorial-page-section >}}

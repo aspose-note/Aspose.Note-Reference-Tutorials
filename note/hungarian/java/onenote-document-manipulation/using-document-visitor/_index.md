@@ -130,7 +130,7 @@ A **visitor pattern java** alkalmazásával az Aspose.Note‑ban most már egy t
 ---
 
 **Utolsó frissítés:** 2025-12-09  
-**Tesztelve:** Aspose.Note for Java 24.10  
+**Tesztelve:** Aspose.Note for Java 26.4  
 **Szerző:** Aspose  
 
 {{< /blocks/products/pf/tutorial-page-section >}}

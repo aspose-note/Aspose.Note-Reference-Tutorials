@@ -91,7 +91,7 @@ A1: Evet, Aspose.Note for Java, mevcut OneNote belgelerini programlı olarak dü
 
 ### Q2: Aspose.Note for Java farklı Java sürümleriyle uyumlu mu?
 
-A2: Aspose.Note for Java, Java 6 (1.6) ve sonraki sürümlerle uyumludur.
+A2: Aspose.Note for Java, Java SE 7 ve sonraki sürümlerle uyumludur.
 
 ### Q3: Aspose.Note for Java kullanarak OneNote belgelerinden metin içeriği çıkarabilir miyim?
 
@@ -108,7 +108,7 @@ A5: Evet, [this link](https://releases.aspose.com/) adresinde bulunan ücretsiz 
 ---
 
 **Son Güncelleme:** 2025-12-09  
-**Test Edilen Sürüm:** Aspose.Note for Java 24.12 (yazım zamanındaki en son sürüm)  
+**Test Edilen Sürüm:** Aspose.Note for Java 26.4 (yazım zamanındaki en son sürüm)  
 **Yazar:** Aspose  
 
 {{< /blocks/products/pf/tutorial-page-section >}}

@@ -45,7 +45,7 @@ Para convertir un cuaderno a PDF, primero debe cargar el cuaderno de OneNote. As
 ```java
 String dataDir = "Your Document Directory";
 // Cargar una libreta de OneNote
-Notebook notebook = new Notebook(dataDir + "Notizbuch �ffnen.onetoc2");
+Notebook notebook = new Notebook(dataDir + "Notebook.onetoc2");
 ```
 
 ## Paso 2: especifique las opciones para guardar PDF

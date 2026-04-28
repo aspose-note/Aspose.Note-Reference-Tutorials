@@ -107,7 +107,7 @@ doc.save(dataDir + "SetOutputImageResolution_out.jpeg", imageSaveOptions);
 उत्तर: हाँ। `SaveFormat` एुम में PNG, BMP, GIF आदि शामिल हैं। `SaveFormat.Jpeg` को इच्छित फ़ॉर्मेट से बदलें।
 
 **प्रश्न: क्या Aspose.Note सभी Java संस्करणों के साथ संगत है?**  
-उत्तर: लाइब्रेरी Java 1.6 और उसके बाद के संस्करणों, जिसमें Java 8, 11 और नवीनतम LTS रिलीज़ शामिल हैं, के साथ काम करती है।
+उत्तर: लाइब्रेरी Java SE 7 और उसके बाद के संस्करणों, जिसमें Java 8, 11 और नवीनतम LTS रिलीज़ शामिल हैं, के साथ काम करती है।
 
 **प्रश्न: क्या मैं OneNote में अन्य इमेज प्रॉपर्टीज़ (जैसे क्रॉपिंग, रोटेशन) को मैनीपुलेट कर सकता हूँ?**  
 उत्तर: हाँ। Aspose.Note इमेज रिसाइज़िंग, क्रॉपिंग, रोटेशन और कलर डेप्थ समायोजन के लिए पूर्ण API सेट प्रदान करता है।
@@ -122,7 +122,7 @@ doc.save(dataDir + "SetOutputImageResolution_out.jpeg", imageSaveOptions);
 ---
 
 **अंतिम अपडेट:** 2025-12-18  
-**टेस्टेड विद:** Aspose.Note for Java 24.12 (लेखन के समय नवीनतम)  
+**टेस्टेड विद:** Aspose.Note for Java 26.4 (लेखन के समय नवीनतम)  
 **लेखक:** Aspose  
 
 {{< /blocks/products/pf/tutorial-page-section >}}

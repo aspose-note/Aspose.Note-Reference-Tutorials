@@ -170,7 +170,7 @@ document.save(Paths.get(savingCallbacks.getRootFolder(), "document.html").toStri
 ---
 
 **Τελευταία Ενημέρωση:** 2025-12-02  
-**Δοκιμάστηκε Με:** Aspose.Note for Java 24.12  
+**Δοκιμάστηκε Με:** Aspose.Note for Java 26.4  
 **Συγγραφέας:** Aspose  
 
 {{< /blocks/products/pf/tutorial-page-section >}}

@@ -196,7 +196,7 @@ doc.save(dataDir + "CreateOneNoteDocumentWithSimpleRichText_out.pdf", SaveFormat
 ---
 
 **Последнее обновление:** 2025-12-08  
-**Тестировано с:** Aspose.Note for Java 24.11 (последний релиз)  
+**Тестировано с:** Aspose.Note for Java 26.4 (последний релиз)  
 **Автор:** Aspose  
 
 {{< /blocks/products/pf/tutorial-page-section >}}

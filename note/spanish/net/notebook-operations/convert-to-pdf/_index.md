@@ -45,7 +45,7 @@ Profundicemos en el proceso de conversión. Dividiremos cada paso en partes mane
 string dataDir = "Your Document Directory";
 
 // Cargar una libreta de OneNote
-var notebook = new Notebook(dataDir + "Notizbuch öffnen.onetoc2");
+var notebook = new Notebook(dataDir + "Notebook.onetoc2");
 ```
 
  En este paso, especificamos el directorio donde se encuentra nuestro archivo de cuaderno y lo cargamos en nuestra aplicación usando el`Notebook` clase proporcionada por Aspose.Note.

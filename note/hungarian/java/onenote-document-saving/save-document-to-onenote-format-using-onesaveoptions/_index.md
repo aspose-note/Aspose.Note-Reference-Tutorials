@@ -100,7 +100,7 @@ A: Átfogó dokumentációt, útmutatókat és közösségi fórumokat talál az
 ---
 
 **Utoljára frissítve:** 2025-12-11  
-**Tesztelve:** Aspose.Note for Java 24.11  
+**Tesztelve:** Aspose.Note for Java 26.4  
 **Szerző:** Aspose  
 
 {{< /blocks/products/pf/tutorial-page-section >}}

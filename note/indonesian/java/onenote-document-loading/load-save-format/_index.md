@@ -95,7 +95,7 @@ J: Bergabunglah dengan forum Aspose di [halaman komunitas Aspose.Note](https://f
 ---
 
 **Terakhir Diperbarui:** 2025-12-07  
-**Diuji Dengan:** Aspose.Note for Java 24.11  
+**Diuji Dengan:** Aspose.Note for Java 26.4  
 **Penulis:** Aspose  
 
 {{< /blocks/products/pf/tutorial-page-section >}}

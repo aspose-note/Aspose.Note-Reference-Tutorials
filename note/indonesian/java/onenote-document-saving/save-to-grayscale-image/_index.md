@@ -111,7 +111,7 @@ Anda kini telah mempelajari **cara mengekspor onenote** dengan memuat file OneNo
 ---
 
 **Terakhir Diperbarui:** 2025-12-17  
-**Diuji Dengan:** Aspose.Note 24.12 untuk Java  
+**Diuji Dengan:** Aspose.Note 26.4 untuk Java  
 **Penulis:** Aspose  
 
 ---

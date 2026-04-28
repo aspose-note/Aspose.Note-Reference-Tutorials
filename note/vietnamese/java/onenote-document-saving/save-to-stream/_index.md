@@ -123,7 +123,7 @@ Trong tutorial này, chúng ta đã học **cách lưu onenote** tài liệu và
 ---
 
 **Cập nhật lần cuối:** 2025-12-17  
-**Được kiểm tra với:** Aspose.Note for Java 24.12 (latest)  
+**Được kiểm tra với:** Aspose.Note for Java 26.4 (latest)  
 **Tác giả:** Aspose  
 
 {{< /blocks/products/pf/tutorial-page-section >}}

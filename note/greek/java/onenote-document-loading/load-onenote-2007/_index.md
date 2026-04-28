@@ -125,7 +125,7 @@ catch (UnsupportedFileFormatException e)
 Α5: Οι προσωρινές άδειες παρέχονται μέσω της [σελίδας προσωρινής άδειας](https://purchase.aspose.com/temporary-license/).
 
 **Τελευταία Ενημέρωση:** 2025-12-05  
-**Δοκιμάστηκε Με:** Aspose.Note for Java 24.12 (τελευταία έκδοση τη στιγμή της συγγραφής)  
+**Δοκιμάστηκε Με:** Aspose.Note for Java 26.4 (τελευταία έκδοση τη στιγμή της συγγραφής)  
 **Συγγραφέας:** Aspose  
 
 {{< /blocks/products/pf/tutorial-page-section >}}

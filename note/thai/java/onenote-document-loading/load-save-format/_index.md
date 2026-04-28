@@ -96,7 +96,7 @@ A: เข้าร่วมฟอรั่มของ Aspose ที่ [Aspose.
 ---
 
 **อัปเดตล่าสุด:** 2025-12-07  
-**ทดสอบกับ:** Aspose.Note for Java 24.11  
+**ทดสอบกับ:** Aspose.Note for Java 26.4  
 **ผู้เขียน:** Aspose  
 
 {{< /blocks/products/pf/tutorial-page-section >}}

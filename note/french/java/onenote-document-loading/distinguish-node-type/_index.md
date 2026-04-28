@@ -108,7 +108,7 @@ R5 : Oui, vous pouvez explorer les fonctionnalités d’Aspose.Note for Java a
 ---
 
 **Dernière mise à jour :** 2025-12-09  
-**Testé avec :** Aspose.Note for Java 24.12 (dernière version au moment de la rédaction)  
+**Testé avec :** Aspose.Note for Java 26.4 (dernière version au moment de la rédaction)  
 **Auteur :** Aspose  
 
 {{< /blocks/products/pf/tutorial-page-section >}}

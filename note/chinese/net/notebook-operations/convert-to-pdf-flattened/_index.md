@@ -44,7 +44,7 @@ using System.Collections.Generic;
 string dataDir = "Your Document Directory";
 
 //加载 OneNote 笔记本
-var notebook = new Notebook(dataDir + "Notizbuch �ffnen.onetoc2");
+var notebook = new Notebook(dataDir + "Notebook.onetoc2");
 ```
 
 在此步骤中，我们使用以下命令加载 OneNote 笔记本`Notebook`Aspose.Note 提供的类。

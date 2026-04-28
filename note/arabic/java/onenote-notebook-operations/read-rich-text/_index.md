@@ -124,7 +124,7 @@ for (RichText richTextNode : allRichTextNodes) {
 ---
 
 **آخر تحديث:** 2026-01-02  
-**تم الاختبار مع:** Aspose.Note for Java 23.12  
+**تم الاختبار مع:** Aspose.Note for Java 26.4  
 **المؤلف:** Aspose  
 
 {{< /blocks/products/pf/tutorial-page-section >}}

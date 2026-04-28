@@ -50,7 +50,7 @@ Pertama, muat file buku catatan yang ingin Anda konversi menjadi gambar.
 string dataDir = "Your Document Directory";
 
 // Memuat Buku Catatan OneNote
-var notebook = new Notebook(dataDir + "Notizbuch �ffnen.onetoc2");
+var notebook = new Notebook(dataDir + "Notebook.onetoc2");
 ```
 
 ## Langkah 2: Atur Opsi Penyimpanan Gambar

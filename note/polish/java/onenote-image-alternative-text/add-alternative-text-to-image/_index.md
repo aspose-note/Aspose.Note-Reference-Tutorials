@@ -89,7 +89,7 @@ Strona będzie hostować obraz, który zamierzamy dodać.
 ### Krok 4: Dodaj obraz do strony
 
 ```java
-Image image = new Image(null, dataDir + "image.jpg");
+Image image = new Image(dataDir + "image.jpg");
 ```
 
 Konstruktor `Image` ładuje plik obrazu z określonej ścieżki.
@@ -164,7 +164,7 @@ Korzystając z tego przewodnika krok po kroku, teraz wiesz **how to add alt** te
 ---
 
 **Ostatnia aktualizacja:** 2025-12-23  
-**Testowane z:** Aspose.Note for Java 24.11  
+**Testowane z:** Aspose.Note for Java 26.4  
 **Autor:** Aspose  
 
 {{< /blocks/products/pf/tutorial-page-section >}}

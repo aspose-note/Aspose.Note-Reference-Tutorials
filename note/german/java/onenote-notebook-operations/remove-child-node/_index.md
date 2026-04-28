@@ -32,7 +32,7 @@ In diesem Tutorial erfahren Sie **wie man einen Knoten entfernt** — insbes
 
 Bevor wir beginnen, stellen Sie sicher, dass die folgenden Voraussetzungen eingerichtet sind:
 
-1. **Java Development Kit (JDK)** – Stellen Sie sicher, dass Java auf Ihrem System installiert ist. Sie können das neueste JDK von [hier](https://www.oracle.com/java/technologies/javase-jdk15-downloads.html) herunterladen und installieren.
+1. **Java Development Kit (JDK)** – Stellen Sie sicher, dass Java auf Ihrem System installiert ist. Sie können das neueste JDK von [hier](https://www.oracle.com/java/technologies/downloads/) herunterladen und installieren.
 
 2. **Aspose.Note for Java** – Laden Sie die Aspose.Note‑Bibliothek für Java von der [Website](https://purchase.aspose.com/buy) herunter und installieren Sie sie. Eine kostenlose Testversion erhalten Sie ebenfalls [hier](https://releases.aspose.com/).
 
@@ -137,7 +137,7 @@ In diesem Tutorial haben wir **wie man einen Knoten entfernt** — insbesond
 ---
 
 **Zuletzt aktualisiert:** 2026-01-02  
-**Getestet mit:** Aspose.Note 24.11 für Java  
+**Getestet mit:** Aspose.Note 26.4 für Java  
 **Autor:** Aspose  
 
 ---

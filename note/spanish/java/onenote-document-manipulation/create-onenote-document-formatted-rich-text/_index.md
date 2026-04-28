@@ -169,7 +169,7 @@ En esta guía demostramos cómo **guardar OneNote como PDF** mientras aplicas fo
 ---
 
 **Última actualización:** 2025-12-09  
-**Probado con:** Aspose.Note for Java 24.11 (latest at time of writing)  
+**Probado con:** Aspose.Note for Java 26.4 (latest at time of writing)  
 **Autor:** Aspose  
 
 {{< /blocks/products/pf/tutorial-page-section >}}

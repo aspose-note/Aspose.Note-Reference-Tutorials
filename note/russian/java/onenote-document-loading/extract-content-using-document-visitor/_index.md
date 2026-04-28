@@ -181,7 +181,7 @@ public static void main(String[] args) throws IOException {
 ---  
 
 **Последнее обновление:** 2025-12-04  
-**Тестировано с:** Aspose.Note for Java 24.10  
+**Тестировано с:** Aspose.Note for Java 26.4  
 **Автор:** Aspose  
 
 {{< /blocks/products/pf/tutorial-page-section >}}

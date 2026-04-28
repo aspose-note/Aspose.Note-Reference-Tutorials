@@ -97,7 +97,7 @@ A: Tham gia diễn đàn Aspose tại [trang cộng đồng Aspose.Note](https:/
 ---
 
 **Cập nhật lần cuối:** 2025-12-07  
-**Kiểm tra với:** Aspose.Note for Java 24.11  
+**Kiểm tra với:** Aspose.Note for Java 26.4  
 **Tác giả:** Aspose  
 
 {{< /blocks/products/pf/tutorial-page-section >}}

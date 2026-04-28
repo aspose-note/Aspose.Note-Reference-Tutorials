@@ -146,7 +146,7 @@ A: はい、開発者は Aspose.Note フォーラム（[https://forum.aspose.com
 ---
 
 **最終更新日:** 2025-12-31  
-**テスト環境:** Aspose.Note for Java 24.11  
+**テスト環境:** Aspose.Note for Java 26.4  
 **作者:** Aspose  
 
 {{< /blocks/products/pf/tutorial-page-section >}}

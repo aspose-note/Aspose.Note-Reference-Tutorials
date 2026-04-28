@@ -99,7 +99,7 @@ A: Kompleksową dokumentację, samouczki i fora społecznościowe znajdziesz na 
 ---
 
 **Ostatnia aktualizacja:** 2025-12-11  
-**Testowano z:** Aspose.Note for Java 24.11  
+**Testowano z:** Aspose.Note for Java 26.4  
 **Autor:** Aspose  
 
 {{< /blocks/products/pf/tutorial-page-section >}}

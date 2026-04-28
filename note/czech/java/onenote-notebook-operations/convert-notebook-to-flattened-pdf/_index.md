@@ -41,7 +41,7 @@ Chcete-li začít, načtěte poznámkový blok OneNotu, který chcete převést 
 
 ```java
 String dataDir = "Your Document Directory";
-Notebook notebook = new Notebook(dataDir + "Notizbuch öffnen.onetoc2");
+Notebook notebook = new Notebook(dataDir + "Notebook.onetoc2");
 ```
 
 ## Krok 2: Nastavte možnosti převodu

@@ -195,7 +195,7 @@ A: 公式の Aspose.Note ドキュメントと [サポートフォーラム](htt
 ---
 
 **最終更新日:** 2025-12-08  
-**テスト環境:** Aspose.Note for Java 24.11 (latest release)  
+**テスト環境:** Aspose.Note for Java 26.4 (latest release)  
 **作者:** Aspose  
 
 {{< /blocks/products/pf/tutorial-page-section >}}

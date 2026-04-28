@@ -58,7 +58,7 @@ String dataDir = "Your Document Directory";
 ## Шаг 2. Загрузите блокнот
 
 ```java
-Notebook notebook = new Notebook(dataDir + "Notizbuch öffnen.onetoc2");
+Notebook notebook = new Notebook(dataDir + "Notebook.onetoc2");
 ```
 
  Этот фрагмент кода создает новый`Notebook` объект и загружает файл записной книжки, указанный по его пути.

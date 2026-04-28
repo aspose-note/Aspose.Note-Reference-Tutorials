@@ -32,7 +32,7 @@ weight: 18
 
 ### Java Development Kit (JDK) Installed
 
-आपको एक नवीनतम JDK चाहिए। इसे [Java website](https://www.oracle.com/java/technologies/javase-jdk15-downloads.html) से डाउनलोड करें।
+आपको एक नवीनतम JDK चाहिए। इसे [Java website](https://www.oracle.com/java/technologies/downloads/) से डाउनलोड करें।
 
 ### Aspose.Note for Java Library
 
@@ -118,7 +118,7 @@ notebook.save(dataDir + "CreatandSaveANotebook.onetoc2");
 ---
 
 **Last Updated:** 2025-12-31  
-**Tested With:** Aspose.Note for Java 24.12  
+**Tested With:** Aspose.Note for Java 26.4  
 **Author:** Aspose
 
 {{< /blocks/products/pf/tutorial-page-section >}}

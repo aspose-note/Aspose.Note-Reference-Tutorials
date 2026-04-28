@@ -123,7 +123,7 @@ R: Sí, Aspose.Note conserva imágenes, gráficos y otros objetos incrustados du
 ---
 
 **Última actualización:** 2025-12-17  
-**Probado con:** Aspose.Note para Java 24.12 (última)  
+**Probado con:** Aspose.Note para Java 26.4 (última)  
 **Autor:** Aspose  
 
 {{< /blocks/products/pf/tutorial-page-section >}}

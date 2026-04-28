@@ -125,7 +125,7 @@ R5: Se stai valutando il prodotto, puoi ottenere una licenza temporanea [qui](ht
 ---
 
 **Ultimo aggiornamento:** 2025-12-31  
-**Testato con:** Aspose.Note 24.11 per Java  
+**Testato con:** Aspose.Note 26.4 per Java  
 **Autore:** Aspose
 
 {{< /blocks/products/pf/tutorial-page-section >}}

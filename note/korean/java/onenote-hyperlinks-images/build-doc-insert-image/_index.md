@@ -85,7 +85,7 @@ outline.setHorizontalOffset(0);
 삽입할 그림을 로드하고 페이지 오른쪽에 정렬합니다. 여기서 실제로 **OneNote에 그림을 추가**합니다.
 
 ```java
-Image image = new Image(null, dataDir + "Input.jpg");
+Image image = new Image(dataDir + "Input.jpg");
 image.setAlignment(HorizontalAlignment.Right);
 ```
 
@@ -148,7 +148,7 @@ A5: 예, [여기](httpshttps://purchase.aspose.com/temporary-license/)에서 임
 ---
 
 **마지막 업데이트:** 2025-12-20  
-**테스트 환경:** Aspose.Note for Java 24.12 (최신)  
+**테스트 환경:** Aspose.Note for Java 26.4 (최신)  
 **작성자:** Aspose  
 
 {{< /blocks/products/pf/tutorial-page-section >}}

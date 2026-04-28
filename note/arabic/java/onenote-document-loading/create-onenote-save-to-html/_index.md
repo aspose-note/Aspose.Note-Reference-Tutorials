@@ -168,7 +168,7 @@ document.save(Paths.get(savingCallbacks.getRootFolder(), "document.html").toStri
 ---
 
 **آخر تحديث:** 2025-12-02  
-**تم الاختبار مع:** Aspose.Note for Java 24.12  
+**تم الاختبار مع:** Aspose.Note for Java 26.4  
 **المؤلف:** Aspose  
 
 {{< /blocks/products/pf/tutorial-page-section >}}

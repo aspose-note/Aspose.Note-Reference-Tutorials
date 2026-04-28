@@ -45,7 +45,7 @@ using System.Collections.Generic;
 string dataDir = "Your Document Directory";
 
 // OneNote नोटबुक लोड करें
-var notebook = new Notebook(dataDir + "Notizbuch öffnen.onetoc2");
+var notebook = new Notebook(dataDir + "Notebook.onetoc2");
 ```
 
  इस चरण में, हम उस निर्देशिका को निर्दिष्ट करते हैं जहां हमारी नोटबुक फ़ाइल स्थित है और इसका उपयोग करके इसे अपने एप्लिकेशन में लोड करते हैं`Notebook` Aspose.Note द्वारा प्रदान की गई कक्षा।

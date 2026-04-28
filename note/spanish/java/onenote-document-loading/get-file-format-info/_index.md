@@ -129,7 +129,7 @@ A: Puede iterar sobre los valores del enum `FileFormat` para ver cada formato qu
 ---
 
 **Última actualización:** 2025-12-04  
-**Probado con:** Aspose.Note for Java 24.11  
+**Probado con:** Aspose.Note for Java 26.4  
 **Autor:** Aspose  
 
 {{< /blocks/products/pf/tutorial-page-section >}}

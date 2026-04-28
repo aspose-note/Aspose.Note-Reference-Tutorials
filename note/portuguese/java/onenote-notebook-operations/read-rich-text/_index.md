@@ -124,7 +124,7 @@ Neste guia demonstramos **como ler texto rico do OneNote** usando o Aspose.Note 
 ---
 
 **Última atualização:** 2026-01-02  
-**Testado com:** Aspose.Note for Java 23.12  
+**Testado com:** Aspose.Note for Java 26.4  
 **Autor:** Aspose  
 
 {{< /blocks/products/pf/tutorial-page-section >}}

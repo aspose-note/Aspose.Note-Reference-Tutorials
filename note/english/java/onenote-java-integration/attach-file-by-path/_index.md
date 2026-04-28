@@ -82,7 +82,7 @@ OutlineElement outlineElem = new OutlineElement();
 Instantiate an `AttachedFile` with the full path to the file you want to embed:
 
 ```java
-AttachedFile attachedFile = new AttachedFile(null, dataDir + "attachment.txt");
+AttachedFile attachedFile = new AttachedFile(dataDir + "attachment.txt");
 ```
 
 Change `"attachment.txt"` to the name of the file you wish to attach (java code attach file).
@@ -164,7 +164,7 @@ A: A valid Aspose.Note license is required for production deployments; a free tr
 ---
 
 **Last Updated:** 2025-12-25  
-**Tested With:** Aspose.Note for Java 24.11  
+**Tested With:** Aspose.Note for Java 26.4  
 **Author:** Aspose
 
 {{< /blocks/products/pf/tutorial-page-section >}}

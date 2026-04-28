@@ -114,7 +114,7 @@ A: Nem. A kredit ellenőrzéshez online hívás szükséges az Aspose licencszer
 --- 
 
 **Utolsó frissítés:** 2025-12-04  
-**Tesztelve:** Aspose.Note for Java 24.12 (legújabb a kiadás időpontjában)  
+**Tesztelve:** Aspose.Note for Java 26.4 (legújabb a kiadás időpontjában)  
 **Szerző:** Aspose
 
 {{< /blocks/products/pf/tutorial-page-section >}}

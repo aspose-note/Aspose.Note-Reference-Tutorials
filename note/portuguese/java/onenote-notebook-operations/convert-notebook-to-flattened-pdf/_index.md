@@ -41,7 +41,7 @@ Para começar, carregue o bloco de notas do OneNote que deseja converter para PD
 
 ```java
 String dataDir = "Your Document Directory";
-Notebook notebook = new Notebook(dataDir + "Notizbuch öffnen.onetoc2");
+Notebook notebook = new Notebook(dataDir + "Notebook.onetoc2");
 ```
 
 ## Etapa 2: definir opções de conversão

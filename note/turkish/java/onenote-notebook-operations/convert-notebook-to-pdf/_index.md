@@ -24,7 +24,7 @@ Bu öğreticide, Aspose.Note for Java kullanarak **how to convert onenote to pdf
 - **Bu öğreticinin kapsamı nedir?** Aspose.Note for Java ile bir OneNote defterini (.one) PDF dosyasına dönüştürmek.  
 - **Hangi kütüphane gereklidir?** Aspose.Note for Java (ücretsiz deneme mevcut).  
 - **Lisans gerekli mi?** Üretim kullanımı için lisans gerekir; deneme sürümü geliştirme ve test için çalışır.  
-- **Hangi Java sürümü destekleniyor?** JDK 8+ (örnek JDK 15 kullanıyor).  
+- **Hangi Java sürümü destekleniyor?** JDK 8+ (örnek JDK 8 kullanıyor).  
 - **Birden fazla defteri toplu olarak dönüştürebilir miyim?** Evet—kodları bir döngü içinde sararak birçok dosyayı işleyebilirsiniz.
 
 ## “convert onenote to pdf” nedir?
@@ -38,7 +38,7 @@ OneNote'u PDF'e dönüştürmek, bir `.one` defter dosyasını alıp taşınabil
 
 ## Önkoşullar
 
-1. **Java Development Kit (JDK)** – JDK'nın kurulu olduğundan emin olun. [Oracle web sitesinden](https://www.oracle.com/java/technologies/javase-jdk15-downloads.html) indirebilirsiniz.  
+1. **Java Development Kit (JDK)** – JDK'nın kurulu olduğundan emin olun. [Oracle web sitesinden](https://www.oracle.com/java/technologies/downloads/) indirebilirsiniz.  
 2. **Aspose.Note for Java Library** – En son JAR dosyasını [Aspose web sitesinden](https://releases.aspose.com/note/java/) indirin. JAR'ı projenizin sınıf yoluna ekleyin.
 
 ## Paketleri İçe Aktarma
@@ -125,7 +125,7 @@ Artık Aspose.Note for Java kullanarak **convert onenote to pdf**, **save onenot
 ---
 
 **Son Güncelleme:** 2026-01-02  
-**Test Edilen Versiyon:** Aspose.Note 24.12 for Java  
+**Test Edilen Versiyon:** Aspose.Note 26.4 for Java  
 **Yazar:** Aspose  
 
 ---

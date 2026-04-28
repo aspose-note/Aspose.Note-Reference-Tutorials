@@ -41,7 +41,7 @@ Per prima cosa dobbiamo inizializzare un nuovo documento e creare una pagina in 
 
 ```csharp
 var document = new Document();
-var page = new Page(document);
+var page = new Page();
 ```
 
 ## Passaggio 2: inserisci l'immagine con il collegamento ipertestuale
@@ -50,7 +50,7 @@ Ora inseriamo l'immagine con un collegamento ipertestuale. Creeremo un`Image` og
 
 ```csharp
 string imagePath = "path_to_your_image.jpg";
-var image = new Image(document, imagePath) { HyperlinkUrl = "http://esempio.com" };
+var image = new Image(imagePath) { HyperlinkUrl = "https://esempio.com" };
 ```
 
 ## Passaggio 3: aggiungi l'immagine alla pagina

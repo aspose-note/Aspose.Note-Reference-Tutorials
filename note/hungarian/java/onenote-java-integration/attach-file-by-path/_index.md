@@ -84,7 +84,7 @@ OutlineElement outlineElem = new OutlineElement();
 Hozzon létre egy `AttachedFile` példányt a beágyazni kívánt fájl teljes útvonalával:
 
 ```java
-AttachedFile attachedFile = new AttachedFile(null, dataDir + "attachment.txt");
+AttachedFile attachedFile = new AttachedFile(dataDir + "attachment.txt");
 ```
 
 Cserélje le a `"attachment.txt"` értéket a csatolni kívánt fájl nevére (java code attach file).
@@ -166,7 +166,7 @@ A: Egy érvényes Aspose.Note licenc szükséges a termelési környezetben; az 
 ---
 
 **Last Updated:** 2025-12-25  
-**Tested With:** Aspose.Note for Java 24.11  
+**Tested With:** Aspose.Note for Java 26.4  
 **Author:** Aspose
 
 {{< /blocks/products/pf/tutorial-page-section >}}

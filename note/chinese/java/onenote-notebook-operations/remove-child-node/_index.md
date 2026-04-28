@@ -29,7 +29,7 @@ weight: 24
 
 在开始之前，请确保已设置以下先决条件：
 
-1. **Java Development Kit (JDK)** – 确保系统已安装 Java。您可以从 [here](https://www.oracle.com/java/technologies/javase-jdk15-downloads.html) 下载并安装最新的 JDK。
+1. **Java Development Kit (JDK)** – 确保系统已安装 Java。您可以从 [here](https://www.oracle.com/java/technologies/downloads/) 下载并安装最新的 JDK。
 
 2. **Aspose.Note for Java** – 从 [website](https://purchase.aspose.com/buy) 下载并安装 Aspose.Note for Java 库。您也可以从 [here](https://releases.aspose.com/) 获取免费试用版。
 
@@ -134,7 +134,7 @@ A5: 您可以在 [here](https://reference.aspose.com/note/java/) 查看 Aspose.N
 ---
 
 **Last Updated:** 2026-01-02  
-**Tested With:** Aspose.Note 24.11 for Java  
+**Tested With:** Aspose.Note 26.4 for Java  
 **Author:** Aspose  
 
 ---

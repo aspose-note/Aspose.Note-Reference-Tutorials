@@ -100,7 +100,7 @@ R: Solicita una licencia de evaluación temporal desde [here](https://purchase.a
 ---
 
 **Última actualización:** 2025-12-09  
-**Probado con:** Aspose.Note para Java 24.12 (última versión)  
+**Probado con:** Aspose.Note para Java 26.4 (última versión)  
 **Autor:** Aspose  
 
 {{< /blocks/products/pf/tutorial-page-section >}}

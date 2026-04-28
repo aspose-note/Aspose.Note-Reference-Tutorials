@@ -89,7 +89,7 @@ Page page = new Page();
 ### चरण 4: पेज में इमेज जोड़ें
 
 ```java
-Image image = new Image(null, dataDir + "image.jpg");
+Image image = new Image(dataDir + "image.jpg");
 ```
 
 `Image` कंस्ट्रक्टर निर्दिष्ट पाथ से इमेज फ़ाइल लोड करता है।
@@ -164,7 +164,7 @@ document.save(dataDir + "AlternativeText_out.one");
 ---
 
 **अंतिम अपडेट:** 2025-12-23  
-**परीक्षित संस्करण:** Aspose.Note for Java 24.11  
+**परीक्षित संस्करण:** Aspose.Note for Java 26.4  
 **लेखक:** Aspose  
 
 {{< /blocks/products/pf/tutorial-page-section >}}

@@ -45,7 +45,7 @@ Mari selami proses konversi. Kami akan membagi setiap langkah menjadi beberapa b
 string dataDir = "Your Document Directory";
 
 // Memuat Buku Catatan OneNote
-var notebook = new Notebook(dataDir + "Notizbuch öffnen.onetoc2");
+var notebook = new Notebook(dataDir + "Notebook.onetoc2");
 ```
 
  Pada langkah ini, kita menentukan direktori tempat file notebook kita berada dan memuatnya ke dalam aplikasi kita menggunakan`Notebook` kelas yang disediakan oleh Aspose.Note.

@@ -116,7 +116,7 @@ W tym przewodniku omówiliśmy wszystko, co musisz wiedzieć, aby **eksportować
 ---
 
 **Ostatnia aktualizacja:** 2025-12-11  
-**Testowane z:** Aspose.Note 24.11 dla Javy  
+**Testowane z:** Aspose.Note 26.4 dla Javy  
 **Autor:** Aspose  
 
 {{< /blocks/products/pf/tutorial-page-section >}}

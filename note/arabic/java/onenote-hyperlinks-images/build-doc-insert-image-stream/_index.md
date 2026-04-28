@@ -131,7 +131,7 @@ try {
 أنشئ كائنًا من النوع `Image`. يمكن أن يكون الوسيط الأول `null` عندما تزود الـ stream لاحقًا، لكن للتبسيط نُشير إلى مسار الملف هنا ونحدد محاذاته إلى الجانب الأيمن من الصفحة.
 
 ```java
-Image image = new Image(null, dataDir + "image1.jpg");
+Image image = new Image(dataDir + "image1.jpg");
 image.setAlignment(HorizontalAlignment.Right);
 ```
 
@@ -213,7 +213,7 @@ try {
 ---
 
 **آخر تحديث:** 2025-12-21  
-**تم الاختبار مع:** Aspose.Note for Java 24.12 (latest at time of writing)  
+**تم الاختبار مع:** Aspose.Note for Java 26.4 (latest at time of writing)  
 **المؤلف:** Aspose  
 
 {{< /blocks/products/pf/tutorial-page-section >}}

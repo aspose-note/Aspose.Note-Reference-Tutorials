@@ -49,7 +49,7 @@ using System.Globalization;
 ```csharp
 string dataDir = "Your Document Directory";
 
-FileStream stream = new FileStream(dataDir + "Notizbuch öffnen.onetoc2", FileMode.Open);
+FileStream stream = new FileStream(dataDir + "Notebook.onetoc2", FileMode.Open);
 ```
 
 ## चरण 3: नोटबुक ऑब्जेक्ट को आरंभ करें

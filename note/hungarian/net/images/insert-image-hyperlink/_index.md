@@ -41,7 +41,7 @@ Először is inicializálnunk kell egy új dokumentumot, és létre kell hoznunk
 
 ```csharp
 var document = new Document();
-var page = new Page(document);
+var page = new Page();
 ```
 
 ## 2. lépés: Kép beszúrása hiperhivatkozással
@@ -50,7 +50,7 @@ Most illesszük be a képet egy hiperhivatkozással. Létrehozunk egy`Image` obj
 
 ```csharp
 string imagePath = "path_to_your_image.jpg";
-var image = new Image(document, imagePath) { HyperlinkUrl = "http://example.com" };
+var image = new Image(imagePath) { HyperlinkUrl = "https://example.com" };
 ```
 
 ## 3. lépés: Kép hozzáfűzése az oldalhoz

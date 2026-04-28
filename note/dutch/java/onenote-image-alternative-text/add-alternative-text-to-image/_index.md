@@ -89,7 +89,7 @@ Een pagina zal de afbeelding hosten die we gaan toevoegen.
 ### Stap 4: Een afbeelding aan de pagina toevoegen
 
 ```java
-Image image = new Image(null, dataDir + "image.jpg");
+Image image = new Image(dataDir + "image.jpg");
 ```
 
 De `Image`‑constructor laadt het afbeeldingsbestand vanaf het opgegeven pad.
@@ -164,7 +164,7 @@ Door deze stap‑voor‑stap‑gids te volgen, weet je nu **hoe alt**‑tekst to
 ---
 
 **Laatst bijgewerkt:** 2025-12-23  
-**Getest met:** Aspose.Note for Java 24.11  
+**Getest met:** Aspose.Note for Java 26.4  
 **Auteur:** Aspose  
 
 {{< /blocks/products/pf/tutorial-page-section >}}

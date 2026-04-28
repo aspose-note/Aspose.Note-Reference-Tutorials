@@ -197,7 +197,7 @@ Vous avez maintenant vu comment **définir le style de paragraphe**, **ajouter u
 ---
 
 **Dernière mise à jour :** 2025-12-08  
-**Testé avec :** Aspose.Note pour Java 24.11 (dernière version)  
+**Testé avec :** Aspose.Note pour Java 26.4 (dernière version)  
 **Auteur :** Aspose  
 
 {{< /blocks/products/pf/tutorial-page-section >}}

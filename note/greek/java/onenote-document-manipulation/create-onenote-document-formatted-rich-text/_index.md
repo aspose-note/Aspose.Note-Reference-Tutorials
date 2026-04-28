@@ -169,7 +169,7 @@ A: Υποστηρίζει PDF, HTML, PNG, JPEG και αρκετές άλλες 
 ---
 
 **Τελευταία Ενημέρωση:** 2025-12-09  
-**Δοκιμή με:** Aspose.Note for Java 24.11 (latest at time of writing)  
+**Δοκιμή με:** Aspose.Note for Java 26.4 (latest at time of writing)  
 **Συγγραφέας:** Aspose  
 
 {{< /blocks/products/pf/tutorial-page-section >}}

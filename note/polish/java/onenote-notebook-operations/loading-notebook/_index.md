@@ -58,7 +58,7 @@ String dataDir = "Your Document Directory";
 ## Krok 2: Załaduj notatnik
 
 ```java
-Notebook notebook = new Notebook(dataDir + "Notizbuch öffnen.onetoc2");
+Notebook notebook = new Notebook(dataDir + "Notebook.onetoc2");
 ```
 
  Ten fragment kodu tworzy nowy plik`Notebook` obiekt i ładuje plik notatnika określony przez jego ścieżkę.

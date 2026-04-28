@@ -109,7 +109,7 @@ R: Vous pouvez trouver une documentation complète, des tutoriels et des forums 
 ---
 
 **Dernière mise à jour :** 2025-12-11  
-**Testé avec :** Aspose.Note for Java 24.11  
+**Testé avec :** Aspose.Note for Java 26.4  
 **Auteur :** Aspose
 
 {{< /blocks/products/pf/tutorial-page-section >}}

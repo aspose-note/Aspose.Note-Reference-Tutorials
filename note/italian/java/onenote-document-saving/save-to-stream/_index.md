@@ -121,7 +121,7 @@ A: Sì, Aspose.Note preserva immagini, grafici e altri oggetti incorporati duran
 ---
 
 **Ultimo aggiornamento:** 2025-12-17  
-**Testato con:** Aspose.Note per Java 24.12 (latest)  
+**Testato con:** Aspose.Note per Java 26.4 (latest)  
 **Autore:** Aspose  
 
 {{< /blocks/products/pf/tutorial-page-section >}}

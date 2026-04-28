@@ -50,7 +50,7 @@ using System.Collections.Generic;
 string dataDir = "Your Document Directory";
 
 // OneNote Not Defteri Yükleme
-var notebook = new Notebook(dataDir + "Notizbuch �ffnen.onetoc2");
+var notebook = new Notebook(dataDir + "Notebook.onetoc2");
 ```
 
 ## 2. Adım: Görüntü Kaydetme Seçeneklerini Ayarlayın

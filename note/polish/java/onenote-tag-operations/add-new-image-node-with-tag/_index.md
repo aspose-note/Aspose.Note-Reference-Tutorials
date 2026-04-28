@@ -58,7 +58,7 @@ OutlineElement outlineElem = new OutlineElement();
 ## Krok 5: Załaduj i wstaw obraz
 ```java
 // załaduj obraz
-Image image = new Image(null, dataDir + "Input.jpg");
+Image image = new Image(dataDir + "Input.jpg");
 // wstaw obraz w węźle dokumentu
 outlineElem.appendChildLast(image);
 ```

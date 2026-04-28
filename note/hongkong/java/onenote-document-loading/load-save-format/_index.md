@@ -97,7 +97,7 @@ A: 前往 Aspose 論壇的 [Aspose.Note 社群頁面](https://forum.aspose.com/c
 ---
 
 **最後更新：** 2025-12-07  
-**測試環境：** Aspose.Note for Java 24.11  
+**測試環境：** Aspose.Note for Java 26.4  
 **作者：** Aspose  
 
 {{< /blocks/products/pf/tutorial-page-section >}}

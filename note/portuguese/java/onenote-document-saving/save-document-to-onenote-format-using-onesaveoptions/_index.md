@@ -99,7 +99,7 @@ A: Você pode encontrar documentação completa, tutoriais e fóruns da comunida
 ---
 
 **Última atualização:** 2025-12-11  
-**Testado com:** Aspose.Note for Java 24.11  
+**Testado com:** Aspose.Note for Java 26.4  
 **Autor:** Aspose  
 
 {{< /blocks/products/pf/tutorial-page-section >}}

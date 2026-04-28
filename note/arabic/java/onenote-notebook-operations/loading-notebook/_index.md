@@ -58,7 +58,7 @@ String dataDir = "Your Document Directory";
 ## الخطوة 2: تحميل دفتر الملاحظات
 
 ```java
-Notebook notebook = new Notebook(dataDir + "Notizbuch öffnen.onetoc2");
+Notebook notebook = new Notebook(dataDir + "Notebook.onetoc2");
 ```
 
  يقوم مقتطف الكود هذا بإنشاء ملف جديد`Notebook` الكائن ويقوم بتحميل ملف دفتر الملاحظات المحدد بواسطة مساره.

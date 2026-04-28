@@ -45,7 +45,7 @@ För att konvertera en anteckningsbok till PDF måste du först ladda OneNote-an
 ```java
 String dataDir = "Your Document Directory";
 // Ladda en OneNote-anteckningsbok
-Notebook notebook = new Notebook(dataDir + "Notizbuch �ffnen.onetoc2");
+Notebook notebook = new Notebook(dataDir + "Notebook.onetoc2");
 ```
 
 ## Steg 2: Ange PDF-sparalternativ

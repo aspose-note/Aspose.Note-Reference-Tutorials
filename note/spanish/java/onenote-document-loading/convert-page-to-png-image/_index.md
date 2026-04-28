@@ -127,7 +127,7 @@ Sí, usa `opts.setResolution(int dpi)` antes de llamar a `save` para controlar l
 ---
 
 **Última actualización:** 2025-11-29  
-**Probado con:** Aspose.Note for Java 24.11 (latest)  
+**Probado con:** Aspose.Note for Java 26.4 (latest)  
 **Autor:** Aspose  
 
 {{< /blocks/products/pf/tutorial-page-section >}}

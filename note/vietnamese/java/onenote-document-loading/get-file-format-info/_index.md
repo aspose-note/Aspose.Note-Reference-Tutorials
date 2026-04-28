@@ -129,7 +129,7 @@ A: Bạn có thể duyệt qua các giá trị của enum `FileFormat` để xem
 ---
 
 **Last Updated:** 2025-12-04  
-**Tested With:** Aspose.Note for Java 24.11  
+**Tested With:** Aspose.Note for Java 26.4  
 **Author:** Aspose  
 
 {{< /blocks/products/pf/tutorial-page-section >}}

@@ -95,7 +95,7 @@ A: A biblioteca é independente de plataforma; ela funciona onde houver uma JVM 
 A: Participe dos fóruns da Aspose na [página da comunidade Aspose.Note](https://forum.aspose.com/c/note/28) para dicas e solução de problemas.
 
 **Última atualização:** 2025-12-07  
-**Testado com:** Aspose.Note for Java 24.11  
+**Testado com:** Aspose.Note for Java 26.4  
 **Autor:** Aspose  
 
 {{< /blocks/products/pf/tutorial-page-section >}}

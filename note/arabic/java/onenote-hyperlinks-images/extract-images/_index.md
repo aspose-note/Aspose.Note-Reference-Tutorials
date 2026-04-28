@@ -23,7 +23,7 @@ weight: 14
 - **ما المكتبة الموصى بها؟** Aspose.Note for Java  
 - **هل يمكن استخراج الصور من دفتر ملاحظات محمي بكلمة مرور؟** نعم، تدعم Aspose.Note ذلك.  
 - **هل أحتاج إلى ترخيص للتطوير؟** النسخة التجريبية المجانية تكفي للاختبار؛ الترخيص مطلوب للإنتاج.  
-- **ما إصدارات Java المدعومة؟** Java 8 وأحدث (بما في ذلك Java 15).  
+- **ما إصدارات Java المدعومة؟** Java 8 وأحدث (بما في ذلك Java 8).  
 - **كم يستغرق استخراج الصور؟** عادةً بضع ثوانٍ لدفتر ملاحظات قياسي.
 
 ## ما هو استخراج الصور من OneNote؟
@@ -38,7 +38,7 @@ weight: 14
 
 قبل البدء، تأكد من توفر ما يلي:
 
-1. **Java Development Kit (JDK)** – تأكد من تثبيت Java على نظامك. يمكنك تنزيله وتثبيته من [الموقع الإلكتروني](https://www.oracle.com/java/technologies/javase-jdk15-downloads.html).
+1. **Java Development Kit (JDK)** – تأكد من تثبيت Java على نظامك. يمكنك تنزيله وتثبيته من [الموقع الإلكتروني](https://www.oracle.com/java/technologies/downloads/).
 
 2. **Aspose.Note Library** – قم بتنزيل مكتبة Aspose.Note وأدرجها في مشروع Java الخاص بك. يمكنك الحصول عليها من [رابط التنزيل](https://releases.aspose.com/note/java/).
 
@@ -116,7 +116,7 @@ for (int i = 0; i < list.size(); i++) {
 ---
 
 **آخر تحديث:** 2025-12-21  
-**تم الاختبار مع:** Aspose.Note for Java 24.12  
+**تم الاختبار مع:** Aspose.Note for Java 26.4  
 **المؤلف:** Aspose  
 
 {{< /blocks/products/pf/tutorial-page-section >}}

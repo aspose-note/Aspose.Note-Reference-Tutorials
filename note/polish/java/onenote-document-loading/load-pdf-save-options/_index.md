@@ -109,7 +109,7 @@ oneFile.save(dataDir + "LoadDocIntoAsposeNoteUsingPdfsaveoptions_out.pdf", new P
 ---
 
 **Ostatnia aktualizacja:** 2025-12-05  
-**Testowano z:** Aspose.Note for Java 24.12  
+**Testowano z:** Aspose.Note for Java 26.4  
 **Autor:** Aspose  
 
 {{< /blocks/products/pf/tutorial-page-section >}}

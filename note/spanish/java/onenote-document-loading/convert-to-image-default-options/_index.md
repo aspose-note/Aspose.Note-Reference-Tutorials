@@ -134,7 +134,7 @@ R5: Sí, puedes unirte al foro comunitario en [Aspose.Note para Java Support](ht
 ---
 
 **Última actualización:** 2025-11-30  
-**Probado con:** Aspose.Note para Java 24.12  
+**Probado con:** Aspose.Note para Java 26.4  
 **Autor:** Aspose  
 
 {{< /blocks/products/pf/tutorial-page-section >}}

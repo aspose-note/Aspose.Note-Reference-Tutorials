@@ -45,7 +45,7 @@ Hãy đi sâu vào quá trình chuyển đổi. Chúng tôi sẽ chia nhỏ từ
 string dataDir = "Your Document Directory";
 
 // Tải sổ tay OneNote
-var notebook = new Notebook(dataDir + "Notizbuch öffnen.onetoc2");
+var notebook = new Notebook(dataDir + "Notebook.onetoc2");
 ```
 
  Trong bước này, chúng tôi chỉ định thư mục chứa tệp sổ ghi chép của chúng tôi và tải nó vào ứng dụng của chúng tôi bằng cách sử dụng`Notebook` lớp được cung cấp bởi Aspose.Note.

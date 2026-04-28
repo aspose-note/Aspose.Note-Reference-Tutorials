@@ -117,7 +117,7 @@ A: Setelah dokumen berhasil dimuat, Anda dapat menelusuri halamannya dan mengeks
 ---
 
 **Terakhir Diperbarui:** 2025-12-11  
-**Diuji Dengan:** Aspose.Note untuk Java 24.12  
+**Diuji Dengan:** Aspose.Note untuk Java 26.4  
 **Penulis:** Aspose  
 
 {{< /blocks/products/pf/tutorial-page-section >}}

@@ -195,7 +195,7 @@ A: 공식 Aspose.Note 문서와 [지원 포럼](https://forum.aspose.com/c/note/
 ---
 
 **최종 업데이트:** 2025-12-08  
-**테스트 환경:** Aspose.Note for Java 24.11 (최신 릴리스)  
+**테스트 환경:** Aspose.Note for Java 26.4 (최신 릴리스)  
 **작성자:** Aspose  
 
 {{< /blocks/products/pf/tutorial-page-section >}}

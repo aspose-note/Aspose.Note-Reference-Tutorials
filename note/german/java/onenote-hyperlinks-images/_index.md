@@ -91,7 +91,7 @@ A: Ein Bild kann nur einen Hyperlink enthalten. Um mehrere Links bereitzustellen
 ---
 
 **Zuletzt aktualisiert:** 2025-12-20  
-**Getestet mit:** Aspose.Note for Java 24.10  
+**Getestet mit:** Aspose.Note for Java 26.4  
 **Autor:** Aspose
 
 {{< /blocks/products/pf/tutorial-page-section >}}

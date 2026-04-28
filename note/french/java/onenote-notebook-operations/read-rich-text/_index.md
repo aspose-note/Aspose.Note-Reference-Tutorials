@@ -125,7 +125,7 @@ Dans ce guide, nous avons démontré **comment lire le texte enrichi d’un carn
 ---
 
 **Dernière mise à jour :** 2026-01-02  
-**Testé avec :** Aspose.Note for Java 23.12  
+**Testé avec :** Aspose.Note for Java 26.4  
 **Auteur :** Aspose  
 
 {{< /blocks/products/pf/tutorial-page-section >}}

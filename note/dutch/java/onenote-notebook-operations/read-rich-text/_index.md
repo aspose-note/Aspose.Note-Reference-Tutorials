@@ -125,7 +125,7 @@ In deze gids hebben we **hoe je OneNote**‑rich‑text‑inhoud kunt lezen met 
 ---
 
 **Laatst bijgewerkt:** 2026-01-02
-**Getest met:** Aspose.Note voor Java 23.12
+**Getest met:** Aspose.Note voor Java 26.4
 **Auteur:** Aspose 
 
 {{< /blocks/products/pf/tutorial-page-section >}}

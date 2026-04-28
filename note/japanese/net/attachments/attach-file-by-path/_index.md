@@ -66,7 +66,7 @@ Aspose.Note.Page page = new Aspose.Note.Page(doc);
 ### ステップ 3: アウトライン オブジェクトを初期化する
 
 ```csharp
-Outline outline = new Outline(doc);
+Outline outline = new Outline();
 ```
 
 アン`Outline`オブジェクトは、ページ内のコンテンツを整理するために作成されます。
@@ -74,7 +74,7 @@ Outline outline = new Outline(doc);
 ### ステップ 4:OutlineElement オブジェクトを初期化する
 
 ```csharp
-OutlineElement outlineElem = new OutlineElement(doc);
+OutlineElement outlineElem = new OutlineElement();
 ```
 
 `OutlineElement`はアウトライン構造内の要素を表します。
@@ -82,7 +82,7 @@ OutlineElement outlineElem = new OutlineElement(doc);
 ### ステップ 5: AttachedFile オブジェクトを初期化する
 
 ```csharp
-AttachedFile attachedFile = new AttachedFile(doc,  dataDir + "attachment.txt");
+AttachedFile attachedFile = new AttachedFile(dataDir + "attachment.txt");
 ```
 
 ここでは、次のインスタンスを作成します。`AttachedFile`、添付するファイルへのパスを指定します。

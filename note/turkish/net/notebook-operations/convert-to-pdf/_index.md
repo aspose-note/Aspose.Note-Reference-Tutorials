@@ -45,7 +45,7 @@ Dönüşüm sürecine dalalım. Kolay anlaşılması için her adımı yönetile
 string dataDir = "Your Document Directory";
 
 // OneNote Not Defteri Yükleme
-var notebook = new Notebook(dataDir + "Notizbuch öffnen.onetoc2");
+var notebook = new Notebook(dataDir + "Notebook.onetoc2");
 ```
 
  Bu adımda not defteri dosyamızın bulunduğu dizini belirleyip uygulamamıza aşağıdaki komutu kullanarak yüklüyoruz.`Notebook` Aspose.Note tarafından sağlanan sınıf.

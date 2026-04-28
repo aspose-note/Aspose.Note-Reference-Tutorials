@@ -157,7 +157,7 @@ If you need to break a large OneNote notebook into smaller, more manageable piec
 **A:** Bezoek de officiële Aspose‑website of Maven Central Repository voor de meest recente release.
 
 **Laatst bijgewerkt:** 2025-12-11  
-**Getest met:** Aspose.Note 24.12 for Java  
+**Getest met:** Aspose.Note 26.4 for Java  
 **Auteur:** Aspose  
 
 {{< /blocks/products/pf/tutorial-page-section >}}

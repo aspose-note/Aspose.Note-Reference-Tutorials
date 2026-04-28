@@ -129,7 +129,7 @@ A: Je kunt over de `FileFormat`‑enum‑waarden itereren om elk formaat te zien
 ---
 
 **Laatst bijgewerkt:** 2025-12-04  
-**Getest met:** Aspose.Note for Java 24.11  
+**Getest met:** Aspose.Note for Java 26.4  
 **Auteur:** Aspose  
 
 {{< /blocks/products/pf/tutorial-page-section >}}

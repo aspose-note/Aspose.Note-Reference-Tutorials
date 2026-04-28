@@ -58,7 +58,7 @@ String dataDir = "Your Document Directory";
 ## 2. lépés: Töltse be a notebookot
 
 ```java
-Notebook notebook = new Notebook(dataDir + "Notizbuch öffnen.onetoc2");
+Notebook notebook = new Notebook(dataDir + "Notebook.onetoc2");
 ```
 
  Ez a kódrészlet újat hoz létre`Notebook` objektumot, és betölti az elérési útjában megadott jegyzetfüzetfájlt.

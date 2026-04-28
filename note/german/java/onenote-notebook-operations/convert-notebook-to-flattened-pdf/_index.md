@@ -41,7 +41,7 @@ Laden Sie zunächst das OneNote-Notizbuch, das Sie in PDF konvertieren möchten:
 
 ```java
 String dataDir = "Your Document Directory";
-Notebook notebook = new Notebook(dataDir + "Notizbuch öffnen.onetoc2");
+Notebook notebook = new Notebook(dataDir + "Notebook.onetoc2");
 ```
 
 ## Schritt 2: Konvertierungsoptionen festlegen

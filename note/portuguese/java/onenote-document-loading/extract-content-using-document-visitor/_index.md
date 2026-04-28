@@ -180,7 +180,7 @@ A: Após `myConverter.GetText()` retornar uma `String`, escreva‑a em um arquiv
 ---  
 
 **Última atualização:** 2025-12-04  
-**Testado com:** Aspose.Note for Java 24.10  
+**Testado com:** Aspose.Note for Java 26.4  
 **Autor:** Aspose  
 
 {{< /blocks/products/pf/tutorial-page-section >}}

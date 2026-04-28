@@ -135,7 +135,7 @@ Artık Aspose.Note for Java kullanarak OneNote dosyalarından **PDF nasıl kayde
 ---
 
 **Son Güncelleme:** 2025-12-17  
-**Test Edilen Sürüm:** Aspose.Note for Java 23.12  
+**Test Edilen Sürüm:** Aspose.Note for Java 26.4  
 **Yazar:** Aspose  
 
 {{< /blocks/products/pf/tutorial-page-section >}}

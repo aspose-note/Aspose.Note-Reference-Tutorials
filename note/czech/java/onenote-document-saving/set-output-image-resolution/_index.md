@@ -107,7 +107,7 @@ A: Samozřejmě. Můžete nastavit libovolnou celočíselnou hodnotu, která vyh
 A: Ano. Výčtový typ `SaveFormat` zahrnuje PNG, BMP, GIF a další. Stačí nahradit `SaveFormat.Jpeg` požadovaným formátem.
 
 **Q: Je Aspose.Note kompatibilní se všemi verzemi Javy?**  
-A: Knihovna funguje s Java 1.6 a novějšími, včetně Java 8, 11 a dalších LTS verzí.
+A: Knihovna funguje s Java SE 7 a novějšími, včetně Java 8, 11 a dalších LTS verzí.
 
 **Q: Mohu v OneNote manipulovat s dalšími vlastnostmi obrázku (např. ořez, otočení)?**  
 A: Ano. Aspose.Note nabízí kompletní sadu API pro změnu velikosti, ořez, otáčení a úpravu barevné hloubky obrázků.
@@ -122,7 +122,7 @@ Po absolvování těchto kroků nyní víte, jak **aspnote set jpeg resolution**
 ---
 
 **Poslední aktualizace:** 2025-12-18  
-**Testováno s:** Aspose.Note for Java 24.12 (nejnovější v době psaní)  
+**Testováno s:** Aspose.Note for Java 26.4 (nejnovější v době psaní)  
 **Autor:** Aspose  
 
 {{< /blocks/products/pf/tutorial-page-section >}}

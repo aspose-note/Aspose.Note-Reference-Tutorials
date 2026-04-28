@@ -21,7 +21,7 @@ In deze zelfstudie onderzoeken we hoe u een notitieblok naar een afbeelding in O
 
 Voordat we beginnen, zorg ervoor dat u over het volgende beschikt:
 
-1.  Java Development Kit (JDK): Zorg ervoor dat Java op uw systeem is geïnstalleerd. U kunt de nieuwste versie downloaden en installeren vanaf de[website](https://www.oracle.com/java/technologies/javase-jdk15-downloads.html).
+1.  Java Development Kit (JDK): Zorg ervoor dat Java op uw systeem is geïnstalleerd. U kunt de nieuwste versie downloaden en installeren vanaf de[website](https://www.oracle.com/java/technologies/downloads/).
 
 2.  Aspose.Note voor Java-bibliotheek: Download de Aspose.Note voor Java-bibliotheek en neem deze op in uw project. U kunt de bibliotheek verkrijgen bij de[Aspose-website](https://releases.aspose.com/note/java/).
 

@@ -167,7 +167,7 @@ Most már rendelkezik egy teljes, **java tiff konverzió** eszközkészlettel, a
 ---
 
 **Last Updated:** 2025-12-17  
-**Tested With:** Aspose.Note for Java 23.12 (latest at time of writing)  
+**Tested With:** Aspose.Note for Java 26.4 (latest at time of writing)  
 **Author:** Aspose  
 
 {{< /blocks/products/pf/tutorial-page-section >}}

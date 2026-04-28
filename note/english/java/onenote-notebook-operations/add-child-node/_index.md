@@ -57,7 +57,7 @@ Make sure to specify the directory where your OneNote documents are stored.
 ## Step 2: Load the OneNote Notebook
 
 ```java
-Notebook notebook = new Notebook(dataDir + "Notizbuch �ffnen.onetoc2");
+Notebook notebook = new Notebook(dataDir + "Notebook.onetoc2");
 ```
 
 Load the OneNote notebook you want to modify.
@@ -117,7 +117,7 @@ A7: Attempting to save changes to a read‑only notebook will throw an `IOExcept
 ---
 
 **Last Updated:** 2025-12-25  
-**Tested With:** Aspose.Note for Java 24.10  
+**Tested With:** Aspose.Note for Java 26.4  
 **Author:** Aspose  
 
 {{< /blocks/products/pf/tutorial-page-section >}}

@@ -146,7 +146,7 @@ A: Tak, programiści mogą uzyskać kompleksowe wsparcie poprzez forum Aspose.No
 ---
 
 **Ostatnia aktualizacja:** 2025-12-31  
-**Testowano z:** Aspose.Note for Java 24.11  
+**Testowano z:** Aspose.Note for Java 26.4  
 **Autor:** Aspose  
 
 {{< /blocks/products/pf/tutorial-page-section >}}

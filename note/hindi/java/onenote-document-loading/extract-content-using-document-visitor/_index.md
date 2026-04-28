@@ -180,7 +180,7 @@ public static void main(String[] args) throws IOException {
 ---  
 
 **अंतिम अपडेट:** 2025-12-04  
-**टेस्टेड वर्ज़न:** Aspose.Note for Java 24.10  
+**टेस्टेड वर्ज़न:** Aspose.Note for Java 26.4  
 **लेखक:** Aspose  
 
 {{< /blocks/products/pf/tutorial-page-section >}}

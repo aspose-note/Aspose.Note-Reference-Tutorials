@@ -58,7 +58,7 @@ String dataDir = "Your Document Directory";
 ## Βήμα 2: Φόρτωση σημειωματάριου
 
 ```java
-Notebook notebook = new Notebook(dataDir + "Notizbuch öffnen.onetoc2");
+Notebook notebook = new Notebook(dataDir + "Notebook.onetoc2");
 ```
 
  Αυτό το απόσπασμα κώδικα δημιουργεί ένα νέο`Notebook` αντικείμενο και φορτώνει το αρχείο σημειωματάριου που καθορίζεται από τη διαδρομή του.

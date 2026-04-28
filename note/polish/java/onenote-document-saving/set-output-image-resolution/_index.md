@@ -124,7 +124,7 @@ Wykonując te kroki, wiesz już, jak **ustawić rozdzielczość JPEG w Aspnote**
 ---
 
 **Ostatnia aktualizacja:** 2025-12-18
-**Testowano z:** Aspose.Note dla Java 24.12 (najnowsza wersja w momencie pisania)
+**Testowano z:** Aspose.Note dla Java 26.4 (najnowsza wersja w momencie pisania)
 **Autor:** Aspose 
 
 {{< /blocks/products/pf/tutorial-page-section >}}

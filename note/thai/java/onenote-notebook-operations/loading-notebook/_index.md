@@ -58,7 +58,7 @@ String dataDir = "Your Document Directory";
 ## ขั้นตอนที่ 2: โหลดสมุดบันทึก
 
 ```java
-Notebook notebook = new Notebook(dataDir + "Notizbuch öffnen.onetoc2");
+Notebook notebook = new Notebook(dataDir + "Notebook.onetoc2");
 ```
 
  ข้อมูลโค้ดนี้จะสร้างข้อมูลโค้ดใหม่`Notebook` วัตถุและโหลดไฟล์สมุดบันทึกที่ระบุโดยเส้นทาง

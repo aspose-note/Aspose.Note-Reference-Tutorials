@@ -109,7 +109,7 @@ C: Belge başarıyla yüklendikten sonra, sayfalarını dolaşarak ve standart A
 ---
 
 **Son Güncelleme:** 2025-12-11  
-**Test Edilen Versiyon:** Aspose.Note for Java 24.12  
+**Test Edilen Versiyon:** Aspose.Note for Java 26.4  
 **Yazar:** Aspose  
 
 {{< /blocks/products/pf/tutorial-page-section >}}

@@ -134,7 +134,7 @@ A5: Sì, puoi unirti al forum della community su [Aspose.Note per Java Support](
 ---
 
 **Ultimo aggiornamento:** 2025-11-30  
-**Testato con:** Aspose.Note per Java 24.12  
+**Testato con:** Aspose.Note per Java 26.4  
 **Autore:** Aspose  
 
 {{< /blocks/products/pf/tutorial-page-section >}}

@@ -129,7 +129,7 @@ J: Anda dapat meminta [lisensi sementara](https://purchase.aspose.com/temporary-
 ---
 
 **Terakhir Diperbarui:** 2025-12-18  
-**Diuji Dengan:** Aspose.Note 24.12 untuk Java  
+**Diuji Dengan:** Aspose.Note 26.4 untuk Java  
 **Penulis:** Aspose  
 
 {{< /blocks/products/pf/tutorial-page-section >}}

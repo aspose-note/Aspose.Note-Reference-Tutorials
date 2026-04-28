@@ -109,7 +109,7 @@ A: Das Aspose‑Community‑Forum ist ein guter Ort, um Fragen zu stellen: [Supp
 ---
 
 **Zuletzt aktualisiert:** 2025-12-05  
-**Getestet mit:** Aspose.Note für Java 24.12  
+**Getestet mit:** Aspose.Note für Java 26.4  
 **Autor:** Aspose  
 
 {{< /blocks/products/pf/tutorial-page-section >}}

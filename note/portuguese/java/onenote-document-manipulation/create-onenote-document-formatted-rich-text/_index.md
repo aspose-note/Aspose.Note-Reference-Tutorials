@@ -169,7 +169,7 @@ Neste guia demonstramos como **salvar OneNote como PDF** aplicando formatação 
 ---
 
 **Última atualização:** 2025-12-09  
-**Testado com:** Aspose.Note for Java 24.11 (mais recente na data de escrita)  
+**Testado com:** Aspose.Note for Java 26.4 (mais recente na data de escrita)  
 **Autor:** Aspose  
 
 {{< /blocks/products/pf/tutorial-page-section >}}

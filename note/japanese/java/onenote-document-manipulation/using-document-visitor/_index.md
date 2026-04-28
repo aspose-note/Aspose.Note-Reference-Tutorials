@@ -136,7 +136,7 @@ Aspose.Note と **visitor pattern java** を組み合わせることで、OneNot
 ---
 
 **最終更新日:** 2025-12-09  
-**テスト環境:** Aspose.Note for Java 24.10  
+**テスト環境:** Aspose.Note for Java 26.4  
 **作者:** Aspose  
 
 {{< /blocks/products/pf/tutorial-page-section >}}

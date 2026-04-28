@@ -66,7 +66,7 @@ Aspose.Note.Page page = new Aspose.Note.Page(doc);
 ### Étape 3 : initialiser l'objet de contour
 
 ```csharp
-Outline outline = new Outline(doc);
+Outline outline = new Outline();
 ```
 
  Un`Outline` L'objet est créé pour organiser le contenu de la page.
@@ -74,7 +74,7 @@ Outline outline = new Outline(doc);
 ### Étape 4 : initialiser l'objet OutlineElement
 
 ```csharp
-OutlineElement outlineElem = new OutlineElement(doc);
+OutlineElement outlineElem = new OutlineElement();
 ```
 
 `OutlineElement` représente un élément dans la structure de plan.
@@ -82,7 +82,7 @@ OutlineElement outlineElem = new OutlineElement(doc);
 ### Étape 5 : initialiser l'objet AttachedFile
 
 ```csharp
-AttachedFile attachedFile = new AttachedFile(doc,  dataDir + "attachment.txt");
+AttachedFile attachedFile = new AttachedFile(dataDir + "attachment.txt");
 ```
 
  Ici, nous créons une instance de`AttachedFile`, en spécifiant le chemin d'accès au fichier que nous voulons joindre.

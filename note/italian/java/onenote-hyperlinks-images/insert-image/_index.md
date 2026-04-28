@@ -85,7 +85,7 @@ Page page = oneFile.getFirstChild();
 Carica l'immagine che desideri inserire nel documento OneNote.
 
 ```java
-Image image = new Image(oneFile, dataDir + "Input.jpg");
+Image image = new Image(dataDir + "Input.jpg");
 ```
 
 ## Passo 4: Personalizzare gli attributi dell'immagine (Opzionale)
@@ -144,7 +144,7 @@ A5: Puoi ottenere supporto tecnico per Aspose.Note for Java visitando il [forum]
 ---
 
 **Ultimo aggiornamento:** 2025-12-21  
-**Testato con:** Aspose.Note for Java 24.10  
+**Testato con:** Aspose.Note for Java 26.4  
 **Autore:** Aspose  
 
 {{< /blocks/products/pf/tutorial-page-section >}}

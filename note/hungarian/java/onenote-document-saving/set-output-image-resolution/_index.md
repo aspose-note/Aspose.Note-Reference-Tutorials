@@ -107,7 +107,7 @@ A: Természetesen. Bármilyen egész számot beállíthat, amely megfelel minős
 A: Igen. A `SaveFormat` enum tartalmazza a PNG, BMP, GIF és egyebeket. Cserélje le a `SaveFormat.Jpeg`‑et a kívánt formátumra.
 
 **Q: Az Aspose.Note kompatibilis-e minden Java verzióval?**  
-A: A könyvtár a Java 1.6‑tól kezdve működik, beleértve a Java 8, 11 és az újabb LTS kiadásokat is.
+A: A könyvtár a Java SE 7‑tól kezdve működik, beleértve a Java 8, 11 és az újabb LTS kiadásokat is.
 
 **Q: Manipulálhatok más képjellemzőket (pl. vágás, forgatás) a OneNote‑ban?**  
 A: Igen. Az Aspose.Note teljes körű képmanipulációs API‑kat kínál átméretezéshez, vágáshoz, forgatáshoz és színmélység beállításához.
@@ -122,7 +122,7 @@ A lépések követésével most már tudja, hogyan **aspnote set jpeg resolution
 ---
 
 **Last Updated:** 2025-12-18  
-**Tested With:** Aspose.Note for Java 24.12 (latest at time of writing)  
+**Tested With:** Aspose.Note for Java 26.4 (latest at time of writing)  
 **Author:** Aspose  
 
 {{< /blocks/products/pf/tutorial-page-section >}}

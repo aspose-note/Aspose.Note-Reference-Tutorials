@@ -54,8 +54,8 @@ Aspose.Note.Page page = new Aspose.Note.Page(doc);
 
 ## الخطوة 3: تهيئة كائنات المخطط التفصيلي والعنصر التفصيلي
 ```csharp
-Outline outline1 = new Outline(doc);
-OutlineElement outlineElem1 = new OutlineElement(doc);
+Outline outline1 = new Outline();
+OutlineElement outlineElem1 = new OutlineElement();
 ```
 نقوم بإنشاء مثيلات لفئتي Outline وOutlineElement لتنظيم المحتوى الخاص بنا داخل الصفحة.
 

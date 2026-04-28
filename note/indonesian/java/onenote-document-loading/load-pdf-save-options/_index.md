@@ -107,7 +107,7 @@ A: Ya, Anda dapat mengunduh versi percobaan penuh fungsional dari [halaman unduh
 A: Forum komunitas Aspose adalah tempat yang bagus untuk mengajukan pertanyaan: [forum dukungan](https://forum.aspose.com/c/note/28).
 
 **Terakhir Diperbarui:** 2025-12-05  
-**Diuji Dengan:** Aspose.Note untuk Java 24.12  
+**Diuji Dengan:** Aspose.Note untuk Java 26.4  
 **Penulis:** Aspose  
 
 {{< /blocks/products/pf/tutorial-page-section >}}

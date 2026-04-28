@@ -39,7 +39,7 @@ weight: 21
 
 在開始之前，請確保您已具備以下條件：
 
-1. **Java Development Kit (JDK)：** 確認系統已安裝 Java。您可從 [此處](https://www.oracle.com/java/technologies/javase-jdk15-downloads.html) 下載並安裝最新的 JDK。
+1. **Java Development Kit (JDK)：** 確認系統已安裝 Java。您可從 [此處](https://www.oracle.com/java/technologies/downloads/) 下載並安裝最新的 JDK。
 
 2. **Aspose.Note for Java：** 必須取得 Aspose.Note for Java 函式庫。請前往 [下載頁面](https://releases.aspose.com/note/java/) 取得。
 
@@ -116,7 +116,7 @@ A5：您可前往 [臨時授權頁面](https://purchase.aspose.com/temporary-lic
 ---
 
 **最後更新：** 2025-12-31  
-**測試環境：** Aspose.Note for Java 24.12（最新）  
+**測試環境：** Aspose.Note for Java 26.4（最新）  
 **作者：** Aspose  
 
 {{< /blocks/products/pf/tutorial-page-section >}}

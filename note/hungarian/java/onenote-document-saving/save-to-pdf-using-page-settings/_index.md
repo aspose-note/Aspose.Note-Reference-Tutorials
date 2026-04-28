@@ -137,7 +137,7 @@ Most már tudod, **hogyan menthet PDF-et** OneNote fájlokból az Aspose.Note fo
 ---
 
 **Last Updated:** 2025-12-17  
-**Tested With:** Aspose.Note for Java 23.12  
+**Tested With:** Aspose.Note for Java 26.4  
 **Author:** Aspose  
 
 {{< /blocks/products/pf/tutorial-page-section >}}

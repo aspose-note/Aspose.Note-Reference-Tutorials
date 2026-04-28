@@ -187,7 +187,7 @@ Du har nu sett hur man **set paragraph style**, **add outline element** och **ge
 ---
 
 **Senast uppdaterad:** 2025-12-08  
-**Testat med:** Aspose.Note for Java 24.11 (senaste version)  
+**Testat med:** Aspose.Note for Java 26.4 (senaste version)  
 **Författare:** Aspose  
 
 {{< /blocks/products/pf/tutorial-page-section >}}

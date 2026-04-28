@@ -130,7 +130,7 @@ A5: Ja, Sie können dem Community‑Forum unter [Aspose.Note für Java Support](
 ---
 
 **Zuletzt aktualisiert:** 2025-11-30  
-**Getestet mit:** Aspose.Note für Java 24.12  
+**Getestet mit:** Aspose.Note für Java 26.4  
 **Autor:** Aspose  
 
 {{< /blocks/products/pf/tutorial-page-section >}}

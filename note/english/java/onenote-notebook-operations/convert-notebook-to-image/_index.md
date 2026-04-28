@@ -21,7 +21,7 @@ In this tutorial, we will explore how to convert a notebook to an image in OneNo
 
 Before we begin, ensure you have the following:
 
-1. Java Development Kit (JDK): Make sure you have Java installed on your system. You can download and install the latest version from the [website](https://www.oracle.com/java/technologies/javase-jdk15-downloads.html).
+1. Java Development Kit (JDK): Make sure you have Java installed on your system. You can download and install the latest version from the [website](https://www.oracle.com/java/technologies/downloads/).
 
 2. Aspose.Note for Java Library: Download and include the Aspose.Note for Java library in your project. You can obtain the library from the [Aspose website](https://releases.aspose.com/note/java/).
 

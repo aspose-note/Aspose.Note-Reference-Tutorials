@@ -58,7 +58,7 @@ String dataDir = "Your Document Directory";
 ## 第 2 步：加载笔记本
 
 ```java
-Notebook notebook = new Notebook(dataDir + "Notizbuch öffnen.onetoc2");
+Notebook notebook = new Notebook(dataDir + "Notebook.onetoc2");
 ```
 
 这段代码创建了一个新的`Notebook`对象并加载由其路径指定的笔记本文件。

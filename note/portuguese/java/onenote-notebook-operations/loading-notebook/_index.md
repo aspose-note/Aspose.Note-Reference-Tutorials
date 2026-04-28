@@ -58,7 +58,7 @@ String dataDir = "Your Document Directory";
 ## Etapa 2: carregar o notebook
 
 ```java
-Notebook notebook = new Notebook(dataDir + "Notizbuch öffnen.onetoc2");
+Notebook notebook = new Notebook(dataDir + "Notebook.onetoc2");
 ```
 
  Este trecho de código cria um novo`Notebook` objeto e carrega o arquivo de notebook especificado por seu caminho.

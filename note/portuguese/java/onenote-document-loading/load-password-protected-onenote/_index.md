@@ -109,7 +109,7 @@ R: Uma vez que o documento seja carregado com sucesso, você pode percorrer suas
 ---
 
 **Última atualização:** 2025-12-11  
-**Testado com:** Aspose.Note for Java 24.12  
+**Testado com:** Aspose.Note for Java 26.4  
 **Autor:** Aspose  
 
 {{< /blocks/products/pf/tutorial-page-section >}}

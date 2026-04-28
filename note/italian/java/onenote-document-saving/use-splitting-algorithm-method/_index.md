@@ -127,7 +127,7 @@ R: Sì, puoi usufruire di una [prova gratuita](https://releases.aspose.com/) per
 R: Puoi richiedere una [licenza temporanea](https://purchase.aspose.com/temporary-license/) per valutare il prodotto durante un periodo di prova.
 
 **Ultimo aggiornamento:** 2025-12-18
-**Testato con:** Aspose.Note 24.12 per Java
+**Testato con:** Aspose.Note 26.4 per Java
 **Autore:** Chiedi  
 
 {{< /blocks/products/pf/tutorial-page-section >}}

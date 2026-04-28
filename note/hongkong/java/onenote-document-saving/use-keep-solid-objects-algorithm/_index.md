@@ -123,7 +123,7 @@ A5：您可在 [here](https://purchase.aspose.com/buy) 購買 Aspose.Note for Ja
 ---
 
 **最後更新：** 2025-12-18  
-**測試環境：** Aspose.Note for Java 24.12  
+**測試環境：** Aspose.Note for Java 26.4  
 **作者：** Aspose  
 
 {{< /blocks/products/pf/tutorial-page-section >}}

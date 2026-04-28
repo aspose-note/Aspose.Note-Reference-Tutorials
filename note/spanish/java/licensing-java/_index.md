@@ -114,7 +114,7 @@ A: No. La validación de créditos requiere una llamada en línea al servidor de
 ---
 
 **Última actualización:** 2025-12-04  
-**Probado con:** Aspose.Note for Java 24.12 (latest at time of writing)  
+**Probado con:** Aspose.Note for Java 26.4 (latest at time of writing)  
 **Autor:** Aspose
 
 {{< /blocks/products/pf/tutorial-page-section >}}

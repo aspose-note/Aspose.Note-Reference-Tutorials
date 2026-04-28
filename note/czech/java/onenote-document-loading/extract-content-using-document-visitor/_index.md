@@ -178,7 +178,7 @@ A: Po tom, co `myConverter.GetText()` vrátí `String`, zapište jej do souboru 
 ---  
 
 **Poslední aktualizace:** 2025-12-04  
-**Testováno s:** Aspose.Note for Java 24.10  
+**Testováno s:** Aspose.Note for Java 26.4  
 **Autor:** Aspose  
 
 {{< /blocks/products/pf/tutorial-page-section >}}

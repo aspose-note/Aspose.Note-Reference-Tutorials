@@ -41,7 +41,7 @@ import java.io.IOException;
 
 ```java
 String dataDir = "Your Document Directory";
-Notebook notebook = new Notebook(dataDir + "Notizbuch öffnen.onetoc2");
+Notebook notebook = new Notebook(dataDir + "Notebook.onetoc2");
 ```
 
 ## Βήμα 2: Ορίστε τις επιλογές μετατροπής

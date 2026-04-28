@@ -45,7 +45,7 @@ Lassen Sie uns in den Konvertierungsprozess eintauchen. Zum besseren Verständni
 string dataDir = "Your Document Directory";
 
 // Laden Sie ein OneNote-Notizbuch
-var notebook = new Notebook(dataDir + "Notizbuch öffnen.onetoc2");
+var notebook = new Notebook(dataDir + "Notebook.onetoc2");
 ```
 
  In diesem Schritt geben wir das Verzeichnis an, in dem sich unsere Notebook-Datei befindet, und laden sie mithilfe von in unsere Anwendung`Notebook` Klasse, bereitgestellt von Aspose.Note.

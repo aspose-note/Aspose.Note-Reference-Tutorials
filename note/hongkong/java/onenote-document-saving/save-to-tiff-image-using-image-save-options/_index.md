@@ -165,7 +165,7 @@ A: API 本身為同步，但您可將呼叫包裝於 Java 的 `CompletableFuture
 ---
 
 **最後更新日期：** 2025-12-17  
-**測試環境：** Aspose.Note for Java 23.12（撰寫時的最新版本）  
+**測試環境：** Aspose.Note for Java 26.4（撰寫時的最新版本）  
 **作者：** Aspose  
 
 {{< /blocks/products/pf/tutorial-page-section >}}

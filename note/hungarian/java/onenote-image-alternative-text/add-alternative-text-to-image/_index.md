@@ -89,7 +89,7 @@ Az oldal fogja tartalmazni a hozzáadni kívánt képet.
 ### 4. lépés: Kép hozzáadása az oldalhoz
 
 ```java
-Image image = new Image(null, dataDir + "image.jpg");
+Image image = new Image(dataDir + "image.jpg");
 ```
 
 Az `Image` konstruktor betölti a képfájlt a megadott útvonalról.
@@ -164,7 +164,7 @@ A lépésről‑lépésre útmutató követésével most már tudja, **hogyan ad
 ---
 
 **Utolsó frissítés:** 2025-12-23  
-**Tesztelve:** Aspose.Note for Java 24.11  
+**Tesztelve:** Aspose.Note for Java 26.4  
 **Szerző:** Aspose  
 
 {{< /blocks/products/pf/tutorial-page-section >}}

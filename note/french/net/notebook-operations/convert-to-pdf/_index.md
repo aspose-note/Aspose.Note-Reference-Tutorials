@@ -45,7 +45,7 @@ Passons au processus de conversion. Nous décomposerons chaque étape en morceau
 string dataDir = "Your Document Directory";
 
 // Charger un bloc-notes OneNote
-var notebook = new Notebook(dataDir + "Notizbuch öffnen.onetoc2");
+var notebook = new Notebook(dataDir + "Notebook.onetoc2");
 ```
 
  Dans cette étape, nous spécifions le répertoire où se trouve notre fichier notebook et le chargeons dans notre application à l'aide du`Notebook` classe fournie par Aspose.Note.

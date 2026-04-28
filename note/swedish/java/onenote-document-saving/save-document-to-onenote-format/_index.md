@@ -112,7 +112,7 @@ I den här guiden har vi gått igenom allt du behöver veta för att **export do
 **A:** Du kan komma åt den detaljerade dokumentationen [here](https://reference.aspose.com/note/java/).
 
 **Senast uppdaterad:** 2025-12-11  
-**Testad med:** Aspose.Note 24.11 for Java  
+**Testad med:** Aspose.Note 26.4 for Java  
 **Författare:** Aspose  
 
 {{< /blocks/products/pf/tutorial-page-section >}}

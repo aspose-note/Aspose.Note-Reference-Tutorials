@@ -26,7 +26,7 @@ Sok üzleti helyzetben szükség van arra, hogy **OneNote-ot PDF-ként mentsünk
 - **Melyik API kezeli a betűkészleteket?** A `DocumentFontsSubsystem` lehetővé teszi alapértelmezett betűkészlet meghatározását vagy egyedi betűkészlet fájl/stream betöltését.  
 - **Szükség van licencre a termeléshez?** Igen, kereskedelmi Aspose.Note licenc szükséges a nem‑próbaverzió használatához.  
 - **Több fájlt konvertálhatok egyszerre?** Természetesen – csak ciklusba kell tenni a `Document` betöltési és mentési logikáját.  
-- **Milyen Java verzió szükséges?** Java 15 vagy újabb (a példa JDK 15-öt használ).
+- **Milyen Java verzió szükséges?** Java 8 vagy újabb (a példa JDK 8-öt használ).
 
 ## Mi az a “save OneNote as PDF” betűkészlet alrendszerrel?
 
@@ -42,7 +42,7 @@ A OneNote PDF-be mentése betűkészlet alrendszerrel azt jelenti, hogy a konver
 
 ### 1. Java fejlesztői csomag (JDK)
 
-Győződjön meg róla, hogy a rendszerén telepítve van a Java Development Kit (JDK). Letöltheti [innen](https://www.oracle.com/java/technologies/javase-jdk15-downloads.html), ha még nincs.
+Győződjön meg róla, hogy a rendszerén telepítve van a Java Development Kit (JDK). Letöltheti [innen](https://www.oracle.com/java/technologies/downloads/), ha még nincs.
 
 ### 2. Aspose.Note for Java könyvtár
 
@@ -186,7 +186,7 @@ Ebben az útmutatóban megtanultuk, hogyan **mentse a OneNote-ot PDF-ként**, mi
 ---
 
 **Legutóbb frissítve:** 2025-12-18  
-**Tesztelve:** Aspose.Note for Java 24.11  
+**Tesztelve:** Aspose.Note for Java 26.4  
 **Szerző:** Aspose  
 
 {{< /blocks/products/pf/tutorial-page-section >}}

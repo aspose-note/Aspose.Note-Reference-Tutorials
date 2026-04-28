@@ -179,7 +179,7 @@ public static void main(String[] args) throws IOException {
 ---  
 
 **最近更新：** 2025-12-04  
-**测试环境：** Aspose.Note for Java 24.10  
+**测试环境：** Aspose.Note for Java 26.4  
 **作者：** Aspose  
 
 {{< /blocks/products/pf/tutorial-page-section >}}

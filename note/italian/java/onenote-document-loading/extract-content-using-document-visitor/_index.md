@@ -180,7 +180,7 @@ A: Dopo che `myConverter.GetText()` restituisce una `String`, scrivila in un fil
 ---  
 
 **Ultimo aggiornamento:** 2025-12-04  
-**Testato con:** Aspose.Note for Java 24.10  
+**Testato con:** Aspose.Note for Java 26.4  
 **Autore:** Aspose  
 
 {{< /blocks/products/pf/tutorial-page-section >}}

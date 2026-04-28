@@ -58,7 +58,7 @@ Certifique-se de especificar o diretório onde seus documentos OneNote estão ar
 ## Etapa 2: Carregar o Caderno OneNote
 
 ```java
-Notebook notebook = new Notebook(dataDir + "Notizbuch �ffnen.onetoc2");
+Notebook notebook = new Notebook(dataDir + "Notebook.onetoc2");
 ```
 
 Carregue o caderno OneNote que você deseja modificar.
@@ -118,7 +118,7 @@ A7: Tentar salvar alterações em um caderno somente‑leitura lançará uma `IO
 ---
 
 **Última Atualização:** 2025-12-25  
-**Testado com:** Aspose.Note for Java 24.10  
+**Testado com:** Aspose.Note for Java 26.4  
 **Autor:** Aspose  
 
 {{< /blocks/products/pf/tutorial-page-section >}}

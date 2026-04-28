@@ -110,7 +110,7 @@ A: Po úspěšném načtení dokumentu můžete procházet jeho stránky a extra
 ---
 
 **Poslední aktualizace:** 2025-12-11  
-**Testováno s:** Aspose.Note for Java 24.12  
+**Testováno s:** Aspose.Note for Java 26.4  
 **Autor:** Aspose  
 
 {{< /blocks/products/pf/tutorial-page-section >}}

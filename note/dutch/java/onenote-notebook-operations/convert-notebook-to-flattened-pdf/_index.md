@@ -41,7 +41,7 @@ Laad om te beginnen het OneNote-notitieblok dat u naar PDF wilt converteren:
 
 ```java
 String dataDir = "Your Document Directory";
-Notebook notebook = new Notebook(dataDir + "Notizbuch öffnen.onetoc2");
+Notebook notebook = new Notebook(dataDir + "Notebook.onetoc2");
 ```
 
 ## Stap 2: Conversieopties instellen

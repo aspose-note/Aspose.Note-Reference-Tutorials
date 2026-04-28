@@ -203,7 +203,7 @@ Je hebt nu gezien hoe je **set paragraph style**, **add outline element**, en **
 ---
 
 **Last Updated:** 2025-12-08  
-**Tested With:** Aspose.Note for Java 24.11 (latest release)  
+**Tested With:** Aspose.Note for Java 26.4 (latest release)  
 **Author:** Aspose  
 
 {{< /blocks/products/pf/tutorial-page-section >}}

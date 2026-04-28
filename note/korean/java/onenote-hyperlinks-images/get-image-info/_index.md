@@ -32,7 +32,7 @@ OneNote 노트북에서 **get image dimensions java** 를 가져와야 한다면
 
 ### 1. Java Development Kit (JDK)
 
-시스템에 Java Development Kit (JDK)이 설치되어 있는지 확인하십시오. 최신 JDK는 [Oracle 웹사이트](https://www.oracle.com/java/technologies/javase-jdk15-downloads.html)에서 다운로드하고 설치할 수 있습니다.
+시스템에 Java Development Kit (JDK)이 설치되어 있는지 확인하십시오. 최신 JDK는 [Oracle 웹사이트](https://www.oracle.com/java/technologies/downloads/)에서 다운로드하고 설치할 수 있습니다.
 
 ### 2. Aspose.Note for Java Library
 
@@ -147,7 +147,7 @@ A5: 임시 라이선스는 [임시 라이선스](https://purchase.aspose.com/tem
 ---
 
 **마지막 업데이트:** 2025-12-21  
-**테스트 환경:** Aspose.Note for Java 23.12  
+**테스트 환경:** Aspose.Note for Java 26.4  
 **작성자:** Aspose
 
 {{< /blocks/products/pf/tutorial-page-section >}}

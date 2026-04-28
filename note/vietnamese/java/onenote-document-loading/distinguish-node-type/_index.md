@@ -90,7 +90,7 @@ A1: Có, Aspose.Note for Java cung cấp API để chỉnh sửa các tài liệ
 
 ### Q2: Aspose.Note for Java có tương thích với các phiên bản Java khác nhau không?
 
-A2: Aspose.Note for Java tương thích với Java 6 (1.6) và các phiên bản sau này.
+A2: Aspose.Note for Java tương thích với Java SE 7 và các phiên bản sau này.
 
 ### Q3: Tôi có thể trích xuất nội dung văn bản từ tài liệu OneNote bằng Aspose.Note for Java không?
 
@@ -107,7 +107,7 @@ A5: Có, bạn có thể khám phá các tính năng của Aspose.Note for Java 
 ---
 
 **Last Updated:** 2025-12-09  
-**Tested With:** Aspose.Note for Java 24.12 (latest at time of writing)  
+**Tested With:** Aspose.Note for Java 26.4 (latest at time of writing)  
 **Author:** Aspose  
 
 {{< /blocks/products/pf/tutorial-page-section >}}

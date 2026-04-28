@@ -160,7 +160,7 @@ R : Oui, vous pouvez télécharger une version d’essai gratuite depuis le si
 R : Consultez le [forum Aspose.Note](https://forum.aspose.com/c/note/28) pour obtenir de l’aide de la communauté ou ouvrez un ticket de support auprès d’Aspose.
 
 **Dernière mise à jour :** 2025-12-02  
-**Testé avec :** Aspose.Note for Java 24.12 (dernière version au moment de la rédaction)  
+**Testé avec :** Aspose.Note for Java 26.4 (dernière version au moment de la rédaction)  
 **Auteur :** Aspose  
 
 {{< /blocks/products/pf/tutorial-page-section >}}

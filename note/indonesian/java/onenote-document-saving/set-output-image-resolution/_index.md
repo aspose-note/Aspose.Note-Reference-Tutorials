@@ -111,7 +111,7 @@ J: Tentu saja. Anda dapat mengatur nilai integer apa pun yang memenuhi persyarat
 J: Ya. Enum `SaveFormat` mencakup PNG, BMP, GIF, dan banyak lagi. Ganti `SaveFormat.Jpeg` dengan format yang diinginkan.
 
 **T: Apakah Aspose.Note kompatibel dengan semua versi Java?**
-J: Pustaka ini berfungsi dengan Java 1.6 dan yang lebih baru, termasuk Java 8, 11, dan rilis LTS yang lebih baru.
+J: Pustaka ini berfungsi dengan Java SE 7 dan yang lebih baru, termasuk Java 8, 11, dan rilis LTS yang lebih baru.
 
 **T: Bisakah saya memanipulasi properti gambar lainnya (misalnya, memotong, memutar) di OneNote?**
 J: Ya. Aspose.Note menawarkan serangkaian API manipulasi gambar lengkap untuk mengubah ukuran, memotong, memutar, dan menyesuaikan kedalaman warna.
@@ -126,7 +126,7 @@ Dengan mengikuti langkah‑langkah ini, Anda kini mengetahui cara **aspnote set 
 ---
 
 **Terakhir Diperbarui:** 18-12-2025
-**Diuji Dengan:** Aspose.Note untuk Java 24.12 (terbaru pada saat penulisan)
+**Diuji Dengan:** Aspose.Note untuk Java 26.4 (terbaru pada saat penulisan)
 **Penulis:** Beranggapan  
 
 {{< /blocks/products/pf/tutorial-page-section >}}

@@ -196,7 +196,7 @@ Most már látta, hogyan **állítsuk be a bekezdésstílust**, **adjunk hozzá 
 ---
 
 **Utolsó frissítés:** 2025-12-08  
-**Tesztelve ezzel:** Aspose.Note for Java 24.11 (legújabb kiadás)  
+**Tesztelve ezzel:** Aspose.Note for Java 26.4 (legújabb kiadás)  
 **Szerző:** Aspose  
 
 {{< /blocks/products/pf/tutorial-page-section >}}

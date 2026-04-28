@@ -108,7 +108,7 @@ A: 在成功載入文件後，您可以遍歷其頁面，使用標準的 Aspose.
 ---
 
 **最後更新：** 2025-12-11  
-**測試環境：** Aspose.Note for Java 24.12  
+**測試環境：** Aspose.Note for Java 26.4  
 **作者：** Aspose  
 
 {{< /blocks/products/pf/tutorial-page-section >}}

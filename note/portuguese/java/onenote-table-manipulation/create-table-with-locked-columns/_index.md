@@ -87,7 +87,7 @@ Parabéns! Você criou com êxito uma tabela com colunas bloqueadas no OneNote u
 Neste tutorial, exploramos o processo de utilização do Aspose.Note para Java para aprimorar sua experiência no OneNote criando tabelas com colunas bloqueadas. Esta funcionalidade adiciona uma nova camada de organização e estrutura às suas notas.
 ## Perguntas frequentes
 ### O Aspose.Note for Java é compatível com todas as versões Java?
-Sim, Aspose.Note for Java é compatível com Java 6 e versões posteriores.
+Sim, Aspose.Note for Java é compatível com Java SE 7 e versões posteriores.
 ### Posso personalizar ainda mais a aparência da tabela?
 Absolutamente! Aspose.Note for Java oferece amplas opções para personalizar tabelas, como ajuste de bordas, espaçamento de células e muito mais.
 ### Existe uma versão de teste disponível antes de comprar?

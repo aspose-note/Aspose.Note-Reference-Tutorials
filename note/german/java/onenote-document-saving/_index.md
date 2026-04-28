@@ -159,7 +159,7 @@ A: Besuchen Sie die offizielle Aspose‑Website oder das Maven Central Repositor
 ---
 
 **Zuletzt aktualisiert:** 2025-12-11  
-**Getestet mit:** Aspose.Note 24.12 für Java  
+**Getestet mit:** Aspose.Note 26.4 für Java  
 **Autor:** Aspose  
 
 {{< /blocks/products/pf/tutorial-page-section >}}

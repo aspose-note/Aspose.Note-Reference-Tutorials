@@ -31,7 +31,7 @@ Neste tutorial, você descobrirá **como remover um nó** — especificament
 
 Antes de começar, certifique‑se de que você tem os seguintes pré‑requisitos configurados:
 
-1. **Java Development Kit (JDK)** – Garanta que o Java esteja instalado no seu sistema. Você pode baixar e instalar o JDK mais recente [aqui](https://www.oracle.com/java/technologies/javase-jdk15-downloads.html).
+1. **Java Development Kit (JDK)** – Garanta que o Java esteja instalado no seu sistema. Você pode baixar e instalar o JDK mais recente [aqui](https://www.oracle.com/java/technologies/downloads/).
 
 2. **Aspose.Note for Java** – Baixe e instale a biblioteca Aspose.Note for Java a partir do [site](https://purchase.aspose.com/buy). Você também pode obter um teste gratuito [aqui](https://releases.aspose.com/).
 
@@ -136,7 +136,7 @@ Neste tutorial, percorremos **como remover um nó** — especificamente um n
 ---
 
 **Última atualização:** 2026-01-02  
-**Testado com:** Aspose.Note 24.11 for Java  
+**Testado com:** Aspose.Note 26.4 for Java  
 **Autor:** Aspose  
 
 ---

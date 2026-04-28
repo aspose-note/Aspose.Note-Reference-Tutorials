@@ -61,7 +61,7 @@ Aspose.Note.Page page = new Aspose.Note.Page(doc);
 ## Stap 3: Initialiseer het omtrekobject
 
 ```csharp
-Outline outline = new Outline(doc);
+Outline outline = new Outline();
 ```
 
  De`Outline`klasse vertegenwoordigt een overzichtsknooppunt in de documenthiërarchie. We maken een nieuw overzichtsobject om ons document te structureren.
@@ -69,7 +69,7 @@ Outline outline = new Outline(doc);
 ## Stap 4: Initialiseer het OutlineElement-object
 
 ```csharp
-OutlineElement outlineElem = new OutlineElement(doc);
+OutlineElement outlineElem = new OutlineElement();
 ```
 
  Een`OutlineElement` vertegenwoordigt een element binnen een omtrek. Hier maken we een nieuw overzichtselement om inhoud aan ons document toe te voegen.
