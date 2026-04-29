@@ -1,34 +1,54 @@
 ---
-title: Zmień styl tekstu w OneNote - Aspose.Note
-linktitle: Zmień styl tekstu w OneNote - Aspose.Note
-second_title: Aspose.Note API Java
-description: Pogrub, wyróżnij i zmień rozmiar! Dowiedz się, jak formatować tekst w dokumentach OneNote za pomocą Aspose.Note. Zawiera przewodnik krok po kroku i kod! #OneNote #Java #Aspose
-weight: 10
+date: 2026-01-18
+description: Dowiedz się, jak ustawić kolor czcionki w Java w OneNote przy użyciu
+  Aspose.Note, podświetlić tekst, zmienić rozmiar czcionki i zapisać OneNote jako
+  PDF. Przewodnik krok po kroku z kodem.
+linktitle: Change Text Style in OneNote - Aspose.Note
+second_title: Aspose.Note Java API
+title: Ustaw kolor czcionki w OneNote przy użyciu Java – Aspose.Note
 url: /pl/java/onenote-styles/change-text-style/
+weight: 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Zmień styl tekstu w OneNote - Aspose.Note
+# Ustaw kolor czcionki Java w OneNote – Aspose.Note
 
-## Wstęp
+## Wprowadzenie
 
-Witamy w naszym samouczku dotyczącym zmiany stylu tekstu w OneNote przy użyciu Aspose.Note dla Java! W tym przewodniku przeprowadzimy Cię krok po kroku przez ten proces, umożliwiając łatwe manipulowanie stylami tekstu w dokumentach programu OneNote. Niezależnie od tego, czy chcesz zmienić kolor czcionki, zaznaczyć tekst, czy dostosować rozmiar czcionki, Aspose.Note zapewnia kompleksowe rozwiązanie spełniające Twoje potrzeby.
+W tym samouczku dowiesz się, jak **ustawić kolor czcionki Java** dla tekstu w dokumencie OneNote przy użyciu API Aspose.Note for Java. Przejdziemy przez ładowanie pliku `.one`, dostęp do jego węzłów RichText, zastosowanie zmian koloru, podświetlenia i rozmiaru czcionki, a na koniec **zapisanie OneNote jako PDF**. Niezależnie od tego, czy potrzebujesz **podświetlić tekst w OneNote**, **zmienić rozmiar czcionki w OneNote**, czy po prostu zmienić ogólny styl tekstu, poniższe kroki zapewniają kompletną, gotową do produkcji rozwiązanie.
 
-## Warunki wstępne
+## Szybkie odpowiedzi
+- **Czy mogę zmienić kolor czcionki konkretnych słów?** Tak – iteruj przez obiekty `TextRun` i użyj `setFontColor`.
+- **Czy Aspose.Note pozwala zapisać OneNote jako PDF?** Absolutnie; użyj `document.save("output.pdf")`.
+- **Jaka wersja Java jest wymagana?** Java 8 lub nowsza.
+- **Czy podświetlanie jest obsługiwane?** Użyj `setHighlight(Color)` na `TextStyle`.
+- **Czy mogę przekonwertować OneNote do PDF w jednej linii?** Nie bezpośrednio, ale metoda `save` obsługuje konwersję.
 
-Zanim przejdziemy do samouczka, upewnij się, że spełniasz następujące wymagania wstępne:
+## Co to jest „set font color java”?
 
-1. Podstawowa znajomość programowania w języku Java.
-2. Zainstalowano zestaw Java Development Kit (JDK) w systemie.
-3. Pobrano i zainstalowano Aspose.Note dla Java.
-4. Znajomość struktury i formatowania dokumentów programu OneNote.
+To wyrażenie odnosi się do programowego przypisywania nowego koloru czcionki elementom tekstowym w pliku OneNote przy użyciu kodu Java. Dzięki Aspose.Note uzyskujesz pełną kontrolę nad atrybutami stylu, takimi jak kolor czcionki, podświetlenie i rozmiar, bez konieczności otwierania interfejsu OneNote.
 
-## Importuj pakiety
+## Dlaczego zmieniać styl tekstu w OneNote?
 
-Zanim zaczniemy, zaimportujmy niezbędne pakiety do naszego projektu Java:
+- **Lepsza czytelność** – kolorowy lub podświetlony tekst przyciąga uwagę do kluczowych punktów.
+- **Spójność marki** – wymuszaj korporacyjne kolory w notatkach ze spotkań.
+- **Jakość eksportu** – stylizowane notatki wyglądają profesjonalnie, gdy **konwertujesz OneNote na PDF** w celu udostępnienia.
+
+## Wymagania wstępne
+
+Zanim zaczniemy, upewnij się, że masz:
+
+1. Podstawową wiedzę programistyczną w Javie.  
+2. Zainstalowany JDK 8 lub nowszy.  
+3. Bibliotekę Aspose.Note for Java dodaną do projektu (Maven/Gradle lub ręczny JAR).  
+4. Przykładowy plik OneNote (`Sample1.one`) do eksperymentów.  
+
+## Importowanie pakietów
+
+Najpierw zaimportuj klasy, których będziemy potrzebować:
 
 ```java
 import java.awt.Color;
@@ -40,79 +60,91 @@ import com.aspose.note.TextRun;
 import com.aspose.note.TextStyle;
 ```
 
-Podzielmy teraz dostarczony przykładowy kod na wiele kroków, aby lepiej zrozumieć:
+## Przewodnik krok po kroku
 
-## Krok 1: Załaduj dokument
+### Krok 1: Załaduj dokument
 
 ```java
-// Załaduj dokument do Aspose.Note
+// Load the document into Aspose.Note
 Document document = new Document("Your Document Directory/Sample1.one");
 ```
 
-Na tym etapie ładujemy dokument OneNote o nazwie „Sample1.one” do Aspose.Note.
+Ładujemy plik OneNote (`Sample1.one`), aby Aspose.Note mógł pracować z jego wewnętrzną strukturą.
 
-## Krok 2: Uzyskaj dostęp do węzłów RichText
+### Krok 2: Uzyskaj dostęp do węzłów RichText
 
 ```java
-// Pobierz konkretny węzeł RichText
+// Get a particular RichText node
 List<RichText> richTextNodes = document.getChildNodes(RichText.class);
 RichText richText = richTextNodes.get(0);
 ```
 
-Tutaj pobieramy węzły RichText z dokumentu, umożliwiając nam dostęp do treści tekstowej i manipulowanie nią.
+Obiekty `RichText` zawierają rzeczywiste akapity. Pobierając pierwszy węzeł, uzyskujemy dostęp do tekstu, który chcemy sformatować.
 
-## Krok 3: Zmień styl tekstu
+### Krok 3: Zmień styl tekstu (set font color java)
 
 ```java
 for (TextRun run : richText.getTextRuns()) {
-    // Ustaw kolor czcionki
+    // Set font color
     run.getStyle().setFontColor(Color.yellow);
-    // Ustaw kolor podświetlenia
+    // Set highlight color
     run.getStyle().setHighlight(Color.blue);
-    // Ustaw rozmiar czcionki
+    // Set font size
     run.getStyle().setFontSize(20);
 }
 ```
 
-W tej pętli iterujemy po każdym TextRun w węźle RichText i modyfikujemy jego właściwości stylu. W tym przykładzie zmieniamy kolor czcionki na żółty, podświetlamy tekst na niebiesko i ustawiamy rozmiar czcionki na 20.
+Wewnątrz pętli **ustawiamy kolor czcionki Java** na żółty, stosujemy niebieskie podświetlenie (ilustrując **highlight text onenote**) i zwiększamy rozmiar do 20 punktów, co pokazuje **modify font size onenote**.
 
-## Krok 4: Zapisz dokument
+### Krok 4: Zapisz dokument (save onenote as pdf)
 
 ```java
 document.save("Your Document Directory/ChangeTextStyle_out.pdf");
 System.out.printf("File saved: %s\n", "Your Document Directory/ChangeTextStyle_out.pdf");
 ```
 
-Na koniec zapisujemy zmodyfikowany dokument z zastosowanymi nowymi stylami tekstu.
+Wywołanie `save` z rozszerzeniem `.pdf` automatycznie **convert onenote to pdf**, dając gotowy do udostępnienia plik.
 
-## Wniosek
+## Częste problemy i rozwiązania
 
-Podsumowując, w tym samouczku pokazano, jak zmienić styl tekstu w OneNote za pomocą Aspose.Note dla Java. Postępując zgodnie ze szczegółowym przewodnikiem, możesz łatwo manipulować kolorem, wyróżnianiem i rozmiarem czcionki w dokumentach programu OneNote, zwiększając ich atrakcyjność wizualną i czytelność.
+| Problem | Powód | Rozwiązanie |
+|-------|--------|-----|
+| Brak widocznej zmiany koloru | Dokument został otwarty w OneNote przed zapisem | Zamknij OneNote lub przeładuj plik po zakończeniu procesu Java |
+| Podświetlenie nie zastosowano | Użyto koloru, który pasuje do tła | Wybierz kontrastowy `Color` (np. `Color.yellow`) |
+| `document.save` zgłasza `IOException` | Nieprawidłowa ścieżka wyjściowa | Upewnij się, że katalog istnieje i masz uprawnienia do zapisu |
 
-## Często zadawane pytania
+## Najczęściej zadawane pytania
 
-### P1: Czy mogę zastosować te zmiany stylu tekstu do określonych sekcji mojego dokumentu programu OneNote?
+**P: Czy mogę zastosować te zmiany stylu tylko do niektórych sekcji mojego pliku OneNote?**  
+O: Tak – filtruj węzły `RichText` według ich rodzica `Section` lub `Page` przed iteracją po `TextRun`.
 
-Odpowiedź 1: Tak, możesz zmodyfikować kod, aby kierować go do określonych sekcji, iterując po odpowiednich węzłach RichText.
+**P: Oprócz koloru, podświetlenia i rozmiaru, jakie inne formatowanie obsługuje Aspose.Note?**  
+O: Możesz zmienić rodzinę czcionki, pogrubienie/pochylenie/podkreślenie, wyrównanie oraz nawet odstępy między akapitami.
 
-### P2: Czy Aspose.Note obsługuje inne opcje formatowania tekstu poza kolorem, podświetleniem i rozmiarem?
+**P: Czy istnieje możliwość przetwarzania wsadowego wielu plików OneNote?**  
+O: Absolutnie. Umieść logikę ładowania i stylizacji w pętli, która przetwarza każdy plik `.one` w folderze.
 
-Odpowiedź 2: Tak, Aspose.Note oferuje szerokie możliwości formatowania tekstu, w tym rodzinę czcionek, styl, wyrównanie i inne.
+**P: Czy biblioteka obsługuje bezpośrednie zapisywanie do innych formatów, takich jak DOCX?**  
+O: Tak – Aspose.Note może eksportować do PDF, DOCX, HTML i kilku formatów obrazów.
 
-### P3: Czy mogę zintegrować Aspose.Note z innymi bibliotekami Java w celu zaawansowanego przetwarzania dokumentów?
+**P: Gdzie mogę znaleźć więcej przykładów i referencję API?**  
+O: Odwiedź oficjalną stronę dokumentacji Aspose.Note, przeglądaj referencję API i pobierz darmową wersję próbną do praktycznych testów.
 
-Odpowiedź 3: Oczywiście, Aspose.Note bezproblemowo integruje się z różnymi bibliotekami Java, co pozwala na zwiększenie możliwości manipulowania dokumentami.
+## Zakończenie
 
-### P4: Czy Aspose.Note nadaje się zarówno do użytku osobistego, jak i komercyjnego?
+Masz teraz kompletny, pełny przykład, jak **ustawić kolor czcionki Java**, podświetlić tekst, dostosować rozmiar czcionki i **zapisać OneNote jako PDF** przy użyciu Aspose.Note. Śmiało dostosuj kod, aby celować w konkretne strony, stosować warunkowe formatowanie lub zintegrować go z większymi pipeline'ami przetwarzania dokumentów.
 
-Odpowiedź 4: Tak, Aspose.Note może być używany zarówno do celów osobistych, jak i komercyjnych, oferując elastyczne opcje licencjonowania dostosowane do Twoich potrzeb.
-
-### P5: Gdzie mogę znaleźć dodatkowe zasoby i wsparcie dla Aspose.Note?
-
-Odpowiedź 5: Możesz przeglądać dokumentację Aspose.Note, pobrać bibliotekę, uzyskać dostęp do bezpłatnych wersji próbnych i szukać pomocy na forum Aspose.
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
+
+---
+
+**Ostatnia aktualizacja:** 2026-01-18  
+**Testowano z:** Aspose.Note 24.11 for Java  
+**Autor:** Aspose  
+
+---

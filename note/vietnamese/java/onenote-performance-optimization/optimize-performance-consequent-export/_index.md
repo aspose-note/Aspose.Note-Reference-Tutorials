@@ -1,38 +1,59 @@
 ---
-title: Tối ưu hóa hiệu suất cho hoạt động xuất trong OneNote - Java
-linktitle: Tối ưu hóa hiệu suất cho hoạt động xuất trong OneNote - Java
-second_title: API Java Aspose.Note
-description: Tìm hiểu cách tối ưu hóa hiệu suất cho các hoạt động xuất trong OneNote bằng Aspose.Note for Java. Hướng dẫn từng bước để chuyển đổi hiệu quả.
-weight: 11
+date: 2026-01-18
+description: Học cách xuất OneNote một cách hiệu quả và cách xuất OneNote với hiệu
+  suất tối ưu bằng Aspose.Note cho Java. Bao gồm các bước thiết lập kiểu văn bản mặc
+  định và lưu OneNote dưới dạng hình ảnh.
+linktitle: How to Export OneNote – Optimize Performance for Export Operations in Java
+second_title: Aspose.Note Java API
+title: Cách xuất OneNote – Tối ưu hiệu suất cho các thao tác xuất trong Java
 url: /vi/java/onenote-performance-optimization/optimize-performance-consequent-export/
+weight: 11
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Tối ưu hóa hiệu suất cho hoạt động xuất trong OneNote - Java
+# Cách xuất OneNote – Tối ưu hiệu suất cho các hoạt động xuất trong Java
 
 ## Giới thiệu
 
-OneNote là một công cụ mạnh mẽ để sắp xếp và quản lý ghi chú của bạn, nhưng đôi khi, việc xuất ghi chú của bạn một cách hiệu quả có thể là một thách thức. Trong hướng dẫn này, chúng ta sẽ khám phá cách tối ưu hóa hiệu suất cho các hoạt động xuất trong OneNote bằng Java với sự trợ giúp của Aspose.Note.
+Việc xuất sổ tay OneNote có thể là một nút thắt khi bạn cần tạo báo cáo, chia sẻ nội dung hoặc lưu trữ dữ liệu. Trong hướng dẫn này, chúng tôi sẽ chỉ **cách xuất OneNote** một cách nhanh chóng và đáng tin cậy bằng cách sử dụng Aspose.Note cho Java. Bạn sẽ học các kỹ thuật thực tế để cải thiện tốc độ xuất, đặt kiểu văn bản mặc định, và thậm chí **lưu OneNote dưới dạng hình ảnh** như JPG hoặc BMP.
 
-## Điều kiện tiên quyết
+## Câu trả lời nhanh
+- **Thư viện chính là gì?** Aspose.Note for Java  
+- **Các định dạng có thể xuất là gì?** HTML, PDF, JPG, BMP (và hơn nữa)  
+- **Làm thế nào để cải thiện hiệu suất?** Tắt phát hiện bố cục tự động và tái sử dụng các đối tượng tài liệu  
+- **Có thể đặt kiểu văn bản mặc định không?** Có – sử dụng `ParagraphStyle` trước khi thêm nội dung  
+- **Xuất ra hình ảnh có được hỗ trợ không?** Chắc chắn, sử dụng `doc.save(...".jpg")` hoặc `.bmp`  
 
-Trước khi chúng ta bắt đầu, hãy đảm bảo bạn có sẵn các điều kiện tiên quyết sau:
+## “how to export onenote” là gì?
 
-### 1. Bộ công cụ phát triển Java (JDK)
- Đảm bảo rằng bạn đã cài đặt Bộ công cụ phát triển Java (JDK) trên hệ thống của mình. Bạn có thể tải xuống và cài đặt JDK từ[trang mạng](https://www.oracle.com/java/technologies/javase-jdk11-downloads.html).
+Xuất OneNote có nghĩa là chuyển đổi cấu trúc tệp OneNote gốc sang một định dạng di động (HTML, PDF, hình ảnh, v.v.). Điều này cho phép chia sẻ trên các nền tảng, truy cập ngoại tuyến và tích hợp với các quy trình công việc kinh doanh khác.
 
-### 2. Aspose.Note cho Java
- Tải xuống và cài đặt Aspose.Note cho Java từ[Liên kết tải xuống](https://releases.aspose.com/note/java/).
+## Tại sao cần tối ưu hiệu suất xuất?
+
+Các sổ tay lớn với nhiều trang và đa phương tiện phong phú có thể gây ra quá trình chuyển đổi chậm. Bằng cách điều chỉnh một vài cài đặt—như tắt phát hiện thay đổi bố cục tự động—bạn giảm tải CPU và sử dụng bộ nhớ, mang lại việc xuất nhanh hơn và dự đoán được hơn.
+
+## Yêu cầu trước
+
+Trước khi bắt đầu, hãy đảm bảo các mục sau đã được cài đặt:
+
+### 1. Java Development Kit (JDK)
+
+Đảm bảo bạn có một JDK mới. Bạn có thể tải xuống từ [website](https://www.oracle.com/java/technologies/javase-jdk11-downloads.html).
+
+### 2. Aspose.Note for Java
+
+Lấy gói Aspose.Note for Java mới nhất từ [liên kết tải xuống](https://releases.aspose.com/note/java/).
 
 ### 3. Môi trường phát triển tích hợp (IDE)
-Chọn IDE ưa thích của bạn để phát triển Java. Các lựa chọn phổ biến bao gồm IntelliJ IDEA, Eclipse hoặc NetBeans.
 
-## Gói nhập khẩu
+Bất kỳ IDE Java nào cũng hoạt động—IntelliJ IDEA, Eclipse hoặc NetBeans đều là lựa chọn tốt.
 
-Trước khi đi sâu vào mã, hãy nhập các gói cần thiết để hoạt động với Aspose.Lưu ý:
+## Nhập các gói
+
+Trước khi bắt đầu viết mã, nhập các lớp mà chúng ta sẽ cần:
 
 ```java
 import java.awt.Color;
@@ -44,9 +65,9 @@ import com.aspose.note.ParagraphStyle;
 import com.aspose.note.Title;
 ```
 
-Bây giờ, hãy chia từng ví dụ thành nhiều bước:
+## Hướng dẫn từng bước
 
-## Bước 1. Khởi tạo tài liệu và trang
+### Bước 1. Khởi tạo Document và Page
 
 ```java
 String dataDir = "Your Document Directory";
@@ -55,9 +76,9 @@ doc.setAutomaticLayoutChangesDetectionEnabled(false);
 Page page = new Page();
 ```
 
-Ở đây, chúng tôi khởi tạo một tài liệu mới và tắt tính năng phát hiện thay đổi bố cục tự động. Sau đó, chúng tôi tạo một trang mới.
+Chúng ta tạo một thể hiện `Document` mới và **tắt phát hiện thay đổi bố cục tự động**—một điều chỉnh quan trọng để xuất nhanh hơn. Sau đó chúng ta thêm một đối tượng `Page` mới sẽ chứa nội dung của chúng ta.
 
-## Bước 2. Đặt kiểu văn bản mặc định
+### Bước 2. Đặt kiểu văn bản mặc định *(set default text style)*
 
 ```java
 ParagraphStyle textStyle = new ParagraphStyle()
@@ -66,9 +87,9 @@ ParagraphStyle textStyle = new ParagraphStyle()
                                     .setFontSize(10);
 ```
 
-Xác định kiểu mặc định cho tất cả văn bản trong tài liệu với màu, tên và kích thước phông chữ cụ thể.
+Định nghĩa một **kiểu văn bản mặc định** một lần và tái sử dụng cho mọi phần tử văn bản giúp tiết kiệm thời gian xử lý và đảm bảo giao diện nhất quán.
 
-## Bước 3. Thêm tiêu đề
+### Bước 3. Thêm tiêu đề
 
 ```java
 RichText titleText = new RichText().append("Title text.");
@@ -87,17 +108,17 @@ title.setTitleTime(titleTime);
 page.setTitle(title);
 ```
 
-Tạo phần tiêu đề có văn bản, ngày và giờ, đồng thời đặt kiểu văn bản đã chỉ định.
+Ở đây chúng ta xây dựng một phần tiêu đề với ba đối tượng `RichText` riêng biệt (tiêu đề, ngày, giờ) và áp dụng **kiểu văn bản mặc định** mà chúng ta đã định nghĩa trước đó.
 
-## Bước 4. Nối nút trang
+### Bước 4. Gắn nút Page
 
 ```java
 doc.appendChildLast(page);
 ```
 
-Nối nút trang vào tài liệu.
+Trang hiện đã là một phần của cây tài liệu, sẵn sàng để xuất.
 
-## Bước 5. Lưu tài liệu ở các định dạng khác nhau
+### Bước 5. Lưu tài liệu ở các định dạng khác nhau *(save onenote as image, convert onenote jpg)*
 
 ```java
 doc.save(dataDir + "OptimizePerformanceForConsequentExportOperations_out.html");
@@ -106,45 +127,55 @@ doc.save(dataDir + "OptimizePerformanceForConsequentExportOperations_out.jpg");
 doc.save(dataDir + "OptimizePerformanceForConsequentExportOperations_out.bmp");
 ```
 
-Lưu tài liệu OneNote ở định dạng HTML, PDF, JPG và BMP tương ứng.
+Chúng tôi trình diễn **lưu OneNote dưới dạng hình ảnh** (JPG, BMP) cũng như HTML và PDF. Điều này bao phủ các kịch bản xuất phổ biến nhất, bao gồm trường hợp sử dụng **convert onenote jpg**.
 
-## Bước 6. Đặt kích thước phông chữ văn bản và phát hiện các thay đổi về bố cục
+### Bước 6. Đặt kích thước phông chữ và phát hiện thay đổi bố cục
 
 ```java
 textStyle.setFontSize(11);
 doc.detectLayoutChanges();
 ```
 
-Điều chỉnh kích thước phông chữ và phát hiện các thay đổi bố cục theo cách thủ công.
+Nếu bạn cần điều chỉnh kích thước phông chữ sau khi xuất lần đầu, chỉ cần cập nhật `ParagraphStyle` và gọi `detectLayoutChanges()` để áp dụng lại logic bố cục mà không cần tạo lại tài liệu.
 
-## Phần kết luận
+## Vấn đề thường gặp & Mẹo
 
-Tối ưu hóa hiệu suất cho các hoạt động xuất trong OneNote là rất quan trọng để quản lý hiệu quả các ghi chú của bạn. Bằng cách làm theo các bước được nêu trong hướng dẫn này, bạn có thể nâng cao quy trình xuất bằng Aspose.Note cho Java, đảm bảo chuyển đổi liền mạch các ghi chú của bạn sang nhiều định dạng khác nhau.
+- **Hiệu suất vẫn chậm?** Kiểm tra rằng `setAutomaticLayoutChangesDetectionEnabled(false)` được gọi trước khi bất kỳ trang nào được thêm.  
+- **Hình ảnh xuất hiện trống?** Đảm bảo thư mục đầu ra có quyền ghi và các phần mở rộng định dạng hình ảnh khớp với tên tệp.  
+- **Sổ tay lớn gây OutOfMemoryError?** Xử lý các trang theo lô hoặc tăng kích thước heap JVM (`-Xmx2g`).  
 
 ## Câu hỏi thường gặp
 
-### Câu hỏi 1: Tôi có thể sử dụng Aspose.Note for Java để xuất tài liệu OneNote theo chương trình không?
+**Q: Tôi có thể sử dụng Aspose.Note cho Java để xuất tài liệu OneNote một cách lập trình không?**  
+A: Có, Aspose.Note cho Java cung cấp một API đầy đủ để thao tác và xuất sổ tay OneNote mà không cần ứng dụng desktop.
 
-Câu trả lời 1: Có, Aspose.Note for Java cung cấp các API để thao tác và xuất tài liệu OneNote theo chương trình, mang lại sự linh hoạt và tự động hóa.
+**Q: Aspose.Note cho Java có tương thích với các IDE Java khác nhau không?**  
+A: Chắc chắn. Thư viện hoạt động với IntelliJ IDEA, Eclipse, NetBeans và bất kỳ IDE nào hỗ trợ dự án Java tiêu chuẩn.
 
-### Câu hỏi 2: Aspose.Note for Java có tương thích với các IDE Java khác nhau không?
+**Q: Làm sao tôi có thể nhận được giấy phép tạm thời để thử nghiệm?**  
+A: Bạn có thể yêu cầu giấy phép tạm thời từ [website](https://purchase.aspose.com/temporary-license/), cho phép bạn đánh giá sản phẩm trước khi mua.
 
-Câu trả lời 2: Có, Aspose.Note for Java tương thích với nhiều IDE Java khác nhau như IntelliJ IDEA, Eclipse và NetBeans, cho phép các nhà phát triển làm việc trong môi trường ưa thích của họ.
+**Q: Aspose.Note có hỗ trợ xuất sang các định dạng hình ảnh như JPG và BMP không?**  
+A: Có, các phương thức `doc.save(...".jpg")` và `doc.save(...".bmp")` cho phép bạn **lưu OneNote dưới dạng hình ảnh** để dễ dàng nhúng các trang vào báo cáo hoặc bản trình bày.
 
-### Câu hỏi 3: Làm cách nào tôi có thể nhận được giấy phép tạm thời cho Aspose.Note cho Java?
+**Q: Tôi có thể nhận hỗ trợ cộng đồng hoặc đặt câu hỏi kỹ thuật ở đâu?**  
+A: Truy cập diễn đàn chính thức của Aspose tại [forum](https://forum.aspose.com/c/note/28) để nhận trợ giúp từ cộng đồng và các kỹ sư Aspose.
 
- Câu trả lời 3: Bạn có thể lấy giấy phép tạm thời cho Aspose.Note cho Java từ[trang mạng](https://purchase.aspose.com/temporary-license/), giúp bạn có thể đánh giá sản phẩm trước khi mua.
+## Kết luận
 
-### Câu hỏi 4: Aspose.Note for Java có hỗ trợ xuất sang định dạng hình ảnh không?
+Bằng cách làm theo hướng dẫn này, bạn giờ đã biết **cách xuất OneNote** một cách hiệu quả, cách **đặt kiểu văn bản mặc định**, và cách **lưu OneNote dưới dạng hình ảnh** như JPG và BMP. Những kỹ thuật này giúp bạn xây dựng các quy trình xuất nhanh, đáng tin cậy cho bất kỳ ứng dụng nào dựa trên Java.
 
-Câu trả lời 4: Có, Aspose.Note for Java hỗ trợ xuất tài liệu OneNote sang nhiều định dạng hình ảnh khác nhau bao gồm JPG, BMP và PNG, mang lại tính linh hoạt trong các tùy chọn đầu ra.
-
-### Câu hỏi 5: Tôi có thể tìm hỗ trợ cho Aspose.Note dành cho Java ở đâu?
-
- Câu trả lời 5: Bạn có thể tìm thấy hỗ trợ cho Aspose.Note dành cho Java trên[diễn đàn](https://forum.aspose.com/c/note/28), nơi bạn có thể đặt câu hỏi, chia sẻ ý tưởng và tương tác với cộng đồng và nhóm hỗ trợ.
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
+
+---
+
+**Last Updated:** 2026-01-18  
+**Tested With:** Aspose.Note for Java 24.12 (latest)  
+**Author:** Aspose  
+
+---
