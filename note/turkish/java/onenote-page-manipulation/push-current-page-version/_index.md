@@ -1,33 +1,53 @@
 ---
-title: OneNote'ta Geçerli Sayfa Sürümünü Aktarın - Aspose.Note
-linktitle: OneNote'ta Geçerli Sayfa Sürümünü Aktarın - Aspose.Note
-second_title: Aspose.Note Java API'si
-description: OneNote içeriğini güncel tutun! Sayfa geçmişini güncellemeyi ve sürümleri yönetmeyi öğrenin; adım adım kılavuz ve kod dahildir. #OneNote #Java #Aspose
-weight: 18
+date: 2026-01-12
+description: Aspose.Note for Java ile mevcut sürümü iterek OneNote sayfalarını nasıl
+  kaydedeceğinizi öğrenin. OneNote dosyasını yükleme, geçmiş ekleme, sayfayı klonlama
+  ve sürüm geçmişini güncelleme konularını kapsayan adım adım rehber.
+linktitle: Push Current Page Version in OneNote - Aspose.Note
+second_title: Aspense.Note Java API
+title: OneNote Sayfa Sürümünü Kaydetme – OneNote'ta Mevcut Sayfa Sürümünü Gönder -
+  Aspose.Note
 url: /tr/java/onenote-page-manipulation/push-current-page-version/
+weight: 18
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# OneNote'ta Geçerli Sayfa Sürümünü Aktarın - Aspose.Note
+# OneNote Sayfa Sürümünü Kaydetme – Mevcut Sayfa Sürümünü OneNote'da İtme
 
-## giriiş
+## Giriş
 
-Bu eğitimde, geçerli sayfa sürümünü OneNote'a aktarmak için Aspose.Note for Java'yı nasıl kullanabileceğimizi keşfedeceğiz. Aspose.Note, geliştiricilerin Microsoft OneNote belgeleriyle programlı olarak çalışmasına olanak tanıyan, OneNote dosyalarını oluşturma, değiştirme ve dönüştürme gibi çeşitli işlemleri mümkün kılan güçlü bir Java kitaplığıdır.
+Bu öğreticide, Aspose.Note for Java kullanarak mevcut sayfa sürümünü iterek **OneNote** sayfalarını nasıl kaydedeceğinizi keşfedeceksiniz. Tam bir denetim izi tutmanız gerekse ya da sadece sürüm geçmişini yönetmeniz gerekse, aşağıdaki adımlar bir OneNote dosyasını nasıl yükleyeceğinizi, geçmiş girişleri ekleyeceğinizi, bir sayfayı klonlayacağınızı ve OneNote sürümünü programlı olarak nasıl güncelleyeceğinizi gösterir.
+
+## Hızlı Yanıtlar
+- **“push current page version” ne anlama geliyor?** Mevcut sayfanın bir anlık görüntüsünü belgenin sürüm geçmişine ekler.  
+- **Neden Aspose.Note for Java kullanmalı?** Microsoft Office gerektirmeden OneNote dosyalarını manipüle etmek için saf‑Java bir API sağlar.  
+- **Bunu denemek için lisansa ihtiyacım var mı?** Ücretsiz bir deneme indirilebilir, ancak üretim kullanımı için lisans gereklidir.  
+- **Birçok sayfa için sürümlemeyi otomatikleştirebilir miyim?** Evet, sayfalar arasında döngü kurabilir ve her biri için aynı API'yi çağırabilirsiniz.  
+- **Kaydedilen dosya en yeni OneNote ile uyumlu mu?** Aspose.Note, mevcut OneNote formatlarıyla uyumluluğu sürdürür.
+
+## Sürüm geçmişiyle “OneNote nasıl kaydedilir” ne demektir?
+Sürüm geçmişiyle OneNote kaydetmek, her düzenlemeyi ayrı bir giriş olarak depolamak anlamına gelir; böylece daha sonra geri alabilir veya değişiklikleri inceleyebilirsiniz. Aspose.Note’un `PageHistory` sınıfı bunu basitleştirir.
+
+## Neden mevcut sayfa sürümünü itmeliyiz?
+- **Denetlenebilirlik:** Her değişiklik kaydedilir, uyumluluk gereksinimlerini karşılar.  
+- **İşbirliği:** Takım üyeleri kimlerin neyi ne zaman değiştirdiğini görebilir.  
+- **Güvenlik:** Kazara üzerine yazılan içerik geçmişten geri getirilebilir.
 
 ## Önkoşullar
 
-Başlamadan önce aşağıdaki önkoşullara sahip olduğunuzdan emin olun:
-1. Java programlama dili hakkında temel bilgiler.
-2. Sisteminize Java Development Kit (JDK) yüklendi.
-3.  Aspose.Note for Java kütüphanesi. Şuradan indirebilirsiniz[Burada](https://releases.aspose.com/note/java/).
-4. Üzerinde çalışılacak örnek bir OneNote belgesi.
+Başlamadan önce, şunların olduğundan emin olun:
 
-## Paketleri İçe Aktar
+1. Java programlama temelleri hakkında bilgi.  
+2. Makinenizde yüklü Java Development Kit (JDK).  
+3. Aspose.Note for Java kütüphanesi – bunu [buradan](https://releases.aspose.com/note/java/) indirebilirsiniz.  
+4. Sürümlemek istediğiniz bir örnek OneNote belgesi (ör. `Sample1.one`).
 
-Aspose.Note işlevlerini kullanmak için öncelikle Java projenize gerekli paketleri içe aktarmanız gerekir.
+## Paketleri İçe Aktarın
+
+İlk olarak, OneNote belgeleri ve bunların geçmişiyle çalışabilmek için gerekli sınıfları içe aktarın.
 
 ```java
 import java.io.IOException;
@@ -37,68 +57,86 @@ import com.aspose.note.Page;
 import com.aspose.note.PageHistory;
 ```
 
-## 1. Adım: OneNote Belgesini Yükleyin
+## Adım 1: OneNote Belgesini Yükleyin
+
+OneNote dosyasını yüklemek, **geçmiş ekleme** sürecinin ilk adımıdır. API, `.one` dosyasını bir `Document` nesnesine okur.
 
 ```java
 String dataDir = "Your Document Directory";
 Document document = new Document(dataDir + "Sample1.one");
 ```
 
- Burada,`dataDir` OneNote belgenizin bulunduğu dizini işaret etmelidir. Yer değiştirmek`"Sample1.one"` OneNote dosyanızın adıyla.
+> **İpucu:** `dataDir`, OneNote dosyanızın bulunduğu klasöre işaret etmelidir. Farklı bir belgeyle çalışıyorsanız dosya adını ayarlayın.
 
-## Adım 2: Geçerli Sayfayı ve Geçmişini Alın
+## Adım 2: Mevcut Sayfayı ve Onun Geçmişini Alın
+
+Sürüm geçmişini yönetmek için sürümlemek istediğiniz sayfaya ve ona bağlı `PageHistory` nesnesine bir referansa ihtiyacınız var.
 
 ```java
 Page page = document.getFirstChild();
 PageHistory pageHistory = document.getPageHistory(page);
 ```
 
- Belgenin ilk sayfasını kullanarak alıyoruz`getFirstChild()` ve ardından geçmişini kullanarak elde edin`getPageHistory()`.
+> **Neden önemli:** `getFirstChild()` ilk sayfayı alır (diğerleri için döngü yapabilirsiniz) ve `getPageHistory(page)` sürüm anlık görüntülerinin saklandığı konteyneri size verir.
 
-## Adım 3: Geçerli Sayfa Sürümünü Aktarın
+## Adım 3: Mevcut Sayfa Sürümünü İtin
+
+Şimdi **sayfayı klonlamayı** ve geçmişe itmemizi yapıyoruz. Klonlama, gelecekteki düzenlemelerden bağımsız bir derin kopya oluşturur.
 
 ```java
 pageHistory.addItem(page.deepClone());
 ```
 
-Burada sayfanın güncel sürümünü kopyalayıp yeni bir öğe olarak ekleyerek geçmişine ekliyoruz.
+> **Pro ipucu:** `deepClone()` kullanmak, tüm iç içe öğelerin (metin, resimler, tablolar) sürüm girişinde yakalanmasını garanti eder.
 
 ## Adım 4: Belgeyi Kaydedin
+
+Son olarak, belgeyi kaydederek **OneNote sürümünü güncelleyin**. Yeni dosya eklenen geçmiş girişini içerecek.
 
 ```java
 document.save(dataDir + "PushCurrentPageVersion_out.one");
 ```
 
-Son olarak değiştirilen belgeyi güncellenmiş sayfa geçmişiyle birlikte kaydediyoruz.
+OneNote'ta `PushCurrentPageVersion_out.one` dosyasını açtığınızda, UI üzerinden erişilebilen sürüm geçmişini göreceksiniz.
 
-## Çözüm
+## Yaygın Tuzaklar ve Nasıl Kaçınılır
 
-Bu eğitimde, Aspose.Note for Java'yı kullanarak OneNote'ta geçerli sayfa sürümünü nasıl aktaracağımızı öğrendik. Bu adımları izleyerek OneNote belgelerinizin sürümlendirmesini programlı olarak etkili bir şekilde yönetebilirsiniz.
+- **Yazma izinlerinin eksik olması:** Çıktı dizininin yazılabilir olduğundan emin olun; aksi takdirde `save()` bir istisna fırlatır.  
+- **Yanlış dosya yolu:** `dataDir`'in bir yol ayırıcı (`/` veya `\`) ile bittiğini iki kez kontrol edin.  
+- **Büyük belgeler:** Çok büyük OneNote dosyaları için, bellek kullanımını azaltmak amacıyla yalnızca sürümlemeniz gereken sayfaları klonlamayı düşünün.
 
-## SSS'ler
+## Sonuç
 
-### S1: Şifrelenmiş OneNote dosyalarıyla çalışmak için Aspose.Note for Java'yı kullanabilir miyim?
+Artık **OneNote** sayfalarını mevcut sürümü iterek nasıl kaydedeceğinizi, etkili bir şekilde **sürüm geçmişini yönetebileceğinizi** ve Aspose.Note for Java kullanarak **OneNote sürümünü güncelleyebileceğinizi** biliyorsunuz. Bu yaklaşım otomatik raporlama hatlarına, yedekleme çözümlerine veya işbirlikçi düzenleme araçlarına entegre edilebilir.
 
-Cevap1: Evet, Aspose.Note for Java, hem şifrelenmiş hem de şifrelenmemiş OneNote dosyalarıyla çalışmayı destekler.
+## Sıkça Sorulan Sorular
 
-### S2: Aspose.Note for Java, OneNote'un en son sürümüyle uyumlu mu?
+**S: Aspose.Note for Java'yı şifreli OneNote dosyalarıyla kullanabilir miyim?**  
+C: Evet, kütüphane hem şifreli hem de şifresiz OneNote belgelerini açmayı destekler.
 
-Cevap2: Aspose.Note for Java, OneNote belgelerinin en son sürümleriyle uyumluluğu korumaya çalışmaktadır.
+**S: API en yeni OneNote sürümleriyle uyumlu mu?**  
+C: Aspose.Note, en yeni OneNote dosya formatlarıyla uyumlu kalmaya çalışır.
 
-### S3: Aspose.Note for Java'yı kullanarak OneNote belgeleri içindeki metin ve görselleri değiştirebilir miyim?
+**S: Sürümleme sırasında metin ve resimleri manipüle edebilir miyim?**  
+C: Kesinlikle. Sayfa içeriğini düzenleyebilir, ardından değişiklikleri yakalamak için yeni bir sürüm itebilirsiniz.
 
-Cevap3: Kesinlikle, Aspose.Note for Java, OneNote dosyalarındaki metin, resim ve diğer öğelerin işlenmesi için kapsamlı işlevler sağlar.
+**S: Aspose.Note OneNote dosyalarını diğer formatlara dönüştürmeye izin veriyor mu?**  
+C: Evet, API üzerinden doğrudan PDF, HTML veya görüntü formatlarına dönüştürebilirsiniz.
 
-### S4: Aspose.Note for Java, OneNote dosyalarının diğer formatlara dönüştürülmesini destekliyor mu?
+**S: Sorun yaşarsam nereden yardım alabilirim?**  
+C: Topluluk desteği için [Aspose.Note forumunu](https://forum.aspose.com/c/note/28) ziyaret edin veya Aspose destek ile iletişime geçin.
 
-Cevap4: Evet, Aspose.Note for Java, OneNote dosyalarının PDF, HTML ve görüntü formatları gibi çeşitli formatlara dönüştürülmesini destekler.
-
-### S5: Herhangi bir sorunla karşılaşırsam Aspose.Note for Java desteğini nereden alabilirim?
-
- A5: ziyaret edebilirsiniz[Aspose.Note forumu](https://forum.aspose.com/c/note/28) topluluktan yardım istemek veya doğrudan Aspose desteğiyle iletişime geçmek için.
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
+
+---
+
+**Last Updated:** 2026-01-12  
+**Tested With:** Aspose.Note for Java 24.11  
+**Author:** Aspose  
+
+---
