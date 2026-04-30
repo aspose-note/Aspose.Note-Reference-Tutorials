@@ -1,10 +1,15 @@
 ---
-description: Pelajari cara menyimpan PDF OneNote dan menambahkan subhalaman di OneNote
-  menggunakan Aspose.Note untuk Java. Ikuti panduan langkah demi langkah ini untuk
-  mengatur catatan Anda secara efisien.
-linktitle: How to Save OneNote PDF and Add Sub Pages
+date: 2026-04-30
+description: Pelajari cara **menyimpan onenote sebagai pdf** dan menambahkan sub halaman
+  di OneNote menggunakan Aspose.Note untuk Java. Ikuti panduan langkah demi langkah
+  ini untuk mengatur catatan Anda secara efisien.
+keywords:
+- save onenote as pdf
+- add sub pages onenote
+- Aspose.Note Java
+linktitle: Cara Menyimpan OneNote sebagai PDF dan Menambahkan Sub Halaman
 second_title: Aspose.Note Java API
-title: Cara Menyimpan PDF OneNote dan Menambahkan Subhalaman
+title: Cara Menyimpan OneNote sebagai PDF dan Menambahkan Sub Halaman
 url: /id/java/onenote-page-manipulation/create-document-with-root-and-sub-pages/
 weight: 11
 ---
@@ -13,34 +18,34 @@ weight: 11
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Cara Menyimpan OneNote PDF dan Menambahkan Sub Halaman
+# Cara Menyimpan OneNote sebagai PDF dan Menambahkan Sub Halaman
 
 ## Pendahuluan
 
-Dalam tutorial ini, Anda akan menemukan **cara menyimpan OneNote PDF** sambil membuat dokumen yang berisi halaman root dan sub halaman menggunakan Aspose.Note for Java. Mengatur notebook OneNote Anda dengan hierarki yang jelas memudahkan navigasi, dan kemampuan mengekspor ke PDF memastikan Anda dapat membagikan catatan dalam format yang dapat dibaca secara universal. Kami juga akan menunjukkan cara **menambahkan sub halaman onenote** gaya, sehingga Anda dapat membangun struktur multi‑level dengan mudah.
+Dalam tutorial ini, Anda akan menemukan **how to save onenote as pdf** sambil membuat dokumen yang berisi halaman root dan sub halaman menggunakan Aspose.Note for Java. Mengatur notebook OneNote Anda dengan hierarki yang jelas membuat navigasi menjadi mudah, dan mengekspor ke PDF memastikan Anda dapat berbagi catatan dalam format yang dapat dibaca secara universal. Kami juga akan menunjukkan cara **add sub pages onenote** style, sehingga Anda dapat membangun struktur multi‑level dengan mudah.
 
 ## Jawaban Cepat
-- **Apa arti kata kunci utama?** Itu merujuk pada mengekspor notebook OneNote ke PDF menggunakan Aspose.Note.  
-- **API mana yang digunakan?** Aspose.Note for Java.  
-- **Bisakah saya membuat halaman hierarkis?** Ya – atur level halaman untuk membuat halaman root dan sub.  
-- **Apakah saya memerlukan lisensi?** Versi percobaan gratis tersedia; lisensi komersial diperlukan untuk produksi.  
-- **Format output apa yang didukung?** BMP, PDF, PNG, dan lainnya.
+- **What does “save onenote as pdf” mean?** Itu merujuk pada mengekspor notebook OneNote ke file PDF menggunakan Aspose.Note for Java.  
+- **Which API is required?** Aspose.Note for Java menyediakan kelas dan metode yang diperlukan.  
+- **Can I create hierarchical pages?** Ya – atur level halaman untuk membuat halaman root dan sub halaman.  
+- **Do I need a license for production?** Versi percobaan gratis tersedia, tetapi lisensi komersial diperlukan untuk penggunaan produksi.  
+- **Which formats can I export to?** Selain PDF Anda dapat mengekspor ke BMP, PNG, JPEG, DOCX, dan lainnya.
 
-## Apa itu “cara menyimpan OneNote PDF”?
+## Cara Menyimpan OneNote sebagai PDF
 
-Menyimpan OneNote sebagai PDF mengonversi halaman notebook menjadi dokumen berlayout tetap yang mempertahankan format, gambar, dan hierarki. Ini ideal untuk berbagi, mengarsipkan, atau mencetak catatan.
+Menyimpan OneNote sebagai PDF mengubah setiap halaman notebook menjadi dokumen berlayout tetap yang mempertahankan format, gambar, dan hierarki halaman. Ini ideal untuk berbagi, mengarsipkan, atau mencetak catatan sambil menjaga struktur asli tetap utuh.
 
-## Mengapa menambahkan sub halaman onenote?
+## Mengapa menambahkan sub pages onenote?
 
-Menambahkan sub halaman memungkinkan Anda mengelompokkan konten terkait di bawah halaman induk, meniru struktur seperti folder. Ini meningkatkan organisasi catatan, mempercepat pencarian, dan memperbaiki pengalaman membaca ketika notebook diekspor ke PDF.
+Menambahkan sub halaman memungkinkan Anda mengelompokkan konten terkait di bawah halaman induk, meniru struktur seperti folder. Ini meningkatkan organisasi catatan, mempercepat pencarian, dan meningkatkan pengalaman membaca ketika notebook diekspor ke PDF.
 
 ## Prasyarat
 
-Sebelum memulai, pastikan Anda memiliki prasyarat berikut:
+Sebelum Anda memulai, pastikan Anda memiliki prasyarat berikut:
 
-1. Java Development Kit (JDK): Pastikan Anda telah menginstal JDK di sistem Anda.  
-2. Aspose.Note for Java: Unduh dan instal Aspose.Note for Java dari [website](https://purchase.aspose.com/buy).  
-3. Integrated Development Environment (IDE): Pilih IDE Java seperti IntelliJ IDEA, Eclipse, atau NetBeans.
+1. **Java Development Kit (JDK)** – Pastikan Anda telah menginstal JDK di sistem Anda.  
+2. **Aspose.Note for Java** – Unduh dan instal Aspose.Note for Java dari [website](https://purchase.aspose.com/buy).  
+3. **Integrated Development Environment (IDE)** – Pilih IDE Java seperti IntelliJ IDEA, Eclipse, atau NetBeans.
 
 ## Impor Paket
 
@@ -76,7 +81,7 @@ Document doc = new Document();
 
 ## Langkah 3: Buat Halaman
 
-Inisialisasi objek halaman dan atur levelnya. Menetapkan level menentukan apakah sebuah halaman merupakan halaman root atau sub halaman:
+Inisialisasi objek halaman dan atur levelnya. Menetapkan level menentukan apakah sebuah halaman adalah halaman root atau sub halaman:
 
 ```java
 Page page1 = new Page();
@@ -155,7 +160,7 @@ doc.appendChildLast(page3);
 
 ## Langkah 6: Simpan Dokumen
 
-Simpan dokumen OneNote sebagai PDF (atau BMP dalam contoh ini). Mengubah `SaveFormat` memungkinkan Anda mengekspor ke PDF, yang memenuhi persyaratan “cara menyimpan OneNote PDF”:
+Simpan dokumen OneNote sebagai PDF (atau BMP dalam contoh ini). Mengubah `SaveFormat` memungkinkan Anda mengekspor ke PDF, yang memenuhi persyaratan “save onenote as pdf”:
 
 ```java
 try {
@@ -165,50 +170,50 @@ try {
 }
 ```
 
-> **Tip Pro:** Untuk mengekspor langsung ke PDF, ganti `SaveFormat.Bmp` dengan `SaveFormat.Pdf`.
+> **Pro tip:** Untuk mengekspor langsung ke PDF, ganti `SaveFormat.Bmp` dengan `SaveFormat.Pdf`.
 
-Selamat! Anda telah berhasil membuat dokumen OneNote dengan halaman root dan sub serta mempelajari **cara menyimpan OneNote PDF** menggunakan Aspose.Note for Java.
+Selamat! Anda telah berhasil membuat dokumen OneNote dengan halaman root dan sub halaman serta mempelajari **how to save onenote as pdf** menggunakan Aspose.Note for Java.
 
 ## Mengapa Ini Penting
 
-- **Organisasi hierarkis:** Halaman root dan sub memungkinkan Anda meniru struktur folder di dalam OneNote.  
-- **Ekspor PDF tanpa hambatan:** Setelah diatur, mengekspor ke PDF mempertahankan hierarki, membuat dokumen akhir mudah dibaca dan dibagikan.  
-- **Otomatisasi:** Kode dapat diintegrasikan ke dalam aplikasi Java yang lebih besar, memungkinkan pembuatan batch notebook terstruktur.
+- **Hierarchical organization:** Halaman root dan sub halaman memungkinkan Anda meniru struktur folder di dalam OneNote.  
+- **Seamless PDF export:** Setelah terorganisir, mengekspor ke PDF mempertahankan hierarki, membuat dokumen akhir mudah dibaca dan dibagikan.  
+- **Automation:** Kode dapat diintegrasikan ke dalam aplikasi Java yang lebih besar, memungkinkan pembuatan batch notebook terstruktur.
 
 ## Kesalahan Umum & Cara Menghindarinya
 
 | Masalah | Penyebab | Solusi |
 |-------|-------|----------|
 | Halaman muncul pada level yang sama | Nilai `setLevel` tidak tepat | Gunakan `setLevel((byte) 1)` untuk halaman root dan `setLevel((byte) 2)` (atau lebih tinggi) untuk sub halaman. |
-| Output PDF terlihat kosong | Tidak ada `SaveFormat.Pdf` atau jalur file salah | Pastikan direktori ada dan gunakan `SaveFormat.Pdf`. |
+| Output PDF terlihat kosong | Tidak ada `SaveFormat.Pdf` atau jalur file tidak tepat | Verifikasi direktori ada dan gunakan `SaveFormat.Pdf`. |
 | Font tidak diterapkan | Nama font salah atau font tidak ada di sistem | Pastikan font (misalnya “David Transparent”) terinstal pada mesin yang menjalankan kode. |
 
 ## Pertanyaan yang Sering Diajukan
 
-**Q: Bisakah saya membuat beberapa level sub‑halaman menggunakan Aspose.Note for Java?**  
-A: Ya, Anda dapat membuat hierarki yang lebih dalam dengan menetapkan nomor level yang lebih tinggi (misalnya, `setLevel((byte) 3)` untuk sub‑halaman tingkat tiga).
+**Q:** Bisakah saya membuat beberapa level sub‑halaman menggunakan Aspose.Note for Java?  
+**A:** Ya, Anda dapat membuat hierarki yang lebih dalam dengan mengatur nomor level yang lebih tinggi (misalnya `setLevel((byte) 3)` untuk sub‑halaman tingkat ketiga).
 
-**Q: Apakah Aspose.Note for Java kompatibel dengan berbagai IDE Java?**  
-A: Tentu saja. Ia bekerja dengan IntelliJ IDEA, Eclipse, NetBeans, dan IDE apa pun yang mendukung pengembangan Java.
+**Q:** Apakah Aspose.Note for Java kompatibel dengan berbagai IDE Java?  
+**A:** Tentu saja. Ini bekerja dengan IntelliJ IDEA, Eclipse, NetBeans, dan IDE apa pun yang mendukung pengembangan Java.
 
-**Q: Bisakah saya menyesuaikan format teks dalam dokumen OneNote saya?**  
-A: Ya. Gunakan `ParagraphStyle` untuk mengatur nama font, ukuran, warna, dan atribut lainnya untuk setiap elemen `RichText`.
+**Q:** Bisakah saya menyesuaikan format teks dalam dokumen OneNote saya?  
+**A:** Ya. Gunakan `ParagraphStyle` untuk mengatur nama font, ukuran, warna, dan atribut lainnya untuk setiap elemen `RichText`.
 
-**Q: Apakah Aspose.Note for Java mendukung penyimpanan dokumen dalam format selain BMP?**  
-A: Ya. Format yang didukung meliputi PDF, PNG, JPEG, DOCX, dan lainnya. Ubah enum `SaveFormat` sesuai kebutuhan.
+**Q:** Apakah Aspose.Note for Java mendukung penyimpanan dokumen dalam format selain BMP?  
+**A:** Ya. Format yang didukung meliputi PDF, PNG, JPEG, DOCX, dan lainnya. Ubah enum `SaveFormat` sesuai kebutuhan.
 
-**Q: Apakah ada versi percobaan yang tersedia untuk Aspose.Note for Java?**  
-A: Ya, Anda dapat mengunduh percobaan gratis dari situs web Aspose.
+**Q:** Apakah ada versi percobaan yang tersedia untuk Aspose.Note for Java?  
+**A:** Ya, Anda dapat mengunduh percobaan gratis dari situs web Aspose.
 
 ## Kesimpulan
 
-Mengatur notebook OneNote Anda dengan struktur hierarkis yang jelas dan mengekspornya sebagai PDF membuat catatan lebih mudah diakses dan dibagikan. Dengan mengikuti langkah‑langkah di atas, Anda kini tahu **cara menyimpan OneNote PDF** dan **menambahkan sub halaman onenote** secara programatis dengan Aspose.Note for Java.
+Mengatur notebook OneNote Anda dengan struktur hierarki yang jelas dan mengekspornya sebagai PDF membuat catatan Anda lebih mudah diakses dan dibagikan. Dengan mengikuti langkah-langkah di atas, Anda kini tahu **how to save onenote as pdf** dan **add sub pages onenote** style secara programatis dengan Aspose.Note for Java.
 
 ---
 
-**Last Updated:** 2026-01-07  
-**Tested With:** Aspose.Note for Java 24.11 (latest)  
-**Author:** Aspose  
+**Terakhir Diperbarui:** 2026-04-30  
+**Diuji Dengan:** Aspose.Note for Java 24.11 (latest)  
+**Penulis:** Aspose  
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
