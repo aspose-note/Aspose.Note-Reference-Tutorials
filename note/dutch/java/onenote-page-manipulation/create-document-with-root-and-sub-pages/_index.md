@@ -1,10 +1,15 @@
 ---
-description: Leer hoe u OneNote‑PDF's kunt opslaan en subpagina's kunt toevoegen in
-  OneNote met Aspose.Note voor Java. Volg deze stapsgewijze handleiding om uw notities
+date: 2026-04-30
+description: Leer hoe je **OneNote als pdf kunt opslaan** en subpagina's kunt toevoegen
+  in OneNote met Aspose.Note voor Java. Volg deze stapsgewijze gids om je notities
   efficiënt te organiseren.
-linktitle: How to Save OneNote PDF and Add Sub Pages
+keywords:
+- save onenote as pdf
+- add sub pages onenote
+- Aspose.Note Java
+linktitle: Hoe OneNote opslaan als PDF en subpagina’s toevoegen
 second_title: Aspose.Note Java API
-title: Hoe OneNote PDF op te slaan en subpagina's toe te voegen
+title: Hoe OneNote opslaan als PDF en subpagina’s toevoegen
 url: /nl/java/onenote-page-manipulation/create-document-with-root-and-sub-pages/
 weight: 11
 ---
@@ -13,32 +18,34 @@ weight: 11
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Hoe OneNote PDF op te slaan en subpagina's toe te voegen
+# Hoe OneNote op te slaan als PDF en subpagina's toe te voegen
 
 ## Introductie
 
-In deze tutorial ontdek je **hoe je OneNote PDF kunt opslaan** terwijl je een document maakt dat zowel hoofd‑ als subpagina's bevat met Aspose.Note for Java. Het organiseren van je OneNote‑notitieblokken met een duidelijke hiërarchie maakt navigatie moeiteloos, en de mogelijkheid om te exporteren naar PDF zorgt ervoor dat je notities kunt delen in een universeel leesbaar formaat. We laten je ook zien hoe je **subpagina's onenote‑stijl** kunt toevoegen, zodat je met gemak meerlagige structuren kunt opbouwen.
+In deze tutorial ontdek je **how to save onenote as pdf** terwijl je een document maakt dat zowel hoofd‑ als subpagina's bevat met behulp van Aspose.Note for Java. Het organiseren van je OneNote-notitieblokken met een duidelijke hiërarchie maakt navigatie moeiteloos, en exporteren naar PDF zorgt ervoor dat je je notities kunt delen in een universeel leesbaar formaat. We laten je ook zien hoe je **add sub pages onenote** stijl kunt toepassen, zodat je moeiteloos meerlagige structuren kunt bouwen.
 
 ## Snelle antwoorden
-- **Wat betekent het primaire zoekwoord?** Het verwijst naar het exporteren van een OneNote‑notitieblok naar PDF met Aspose.Note.
-- **Welke API wordt gebruikt?** Aspose.Note for Java.
-- **Kan ik hiërarchische pagina's maken?** Ja – stel het paginaniveau in om hoofd‑ en subpagina's te bouwen.
-- **Heb ik een licentie nodig?** Een gratis proefversie is beschikbaar; een commerciële licentie is vereist voor productie.
-- **Welke uitvoerformaten worden ondersteund?** BMP, PDF, PNG en meer.
+- **What does “save onenote as pdf” mean?** Het verwijst naar het exporteren van een OneNote-notitieblok naar een PDF‑bestand met behulp van Aspose.Note for Java.  
+- **Which API is required?** Aspose.Note for Java levert de benodigde klassen en methoden.  
+- **Can I create hierarchical pages?** Ja – stel het paginaniveau in om hoofd‑ en subpagina's te bouwen.  
+- **Do I need a license for production?** Er is een gratis proefversie beschikbaar, maar een commerciële licentie is vereist voor productiegebruik.  
+- **Which formats can I export to?** Naast PDF kun je exporteren naar BMP, PNG, JPEG, DOCX en meer.  
 
-## Wat is “hoe OneNote PDF op te slaan”?
-OneNote opslaan als PDF zet de pagina's van het notitieblok om in een vast‑layout document dat opmaak, afbeeldingen en hiërarchie behoudt. Dit is ideaal voor het delen, archiveren of afdrukken van notities.
+## Hoe OneNote op te slaan als PDF
 
-## Waarom subpagina's onenote toevoegen?
-Het toevoegen van subpagina's stelt je in staat gerelateerde inhoud onder een bovenliggende pagina te groeperen, vergelijkbaar met een map‑structuur. Het verbetert de organisatie van notities, maakt zoeken sneller en verbetert de leeservaring wanneer het notitieblok wordt geëxporteerd naar PDF.
+Het opslaan van OneNote als PDF converteert elke notitieblokpagina naar een vast‑layout document dat opmaak, afbeeldingen en de paginahierarchie behoudt. Dit is ideaal voor het delen, archiveren of afdrukken van notities terwijl de oorspronkelijke structuur intact blijft.
+
+## Waarom subpagina's toevoegen onenote?
+
+Het toevoegen van subpagina's stelt je in staat gerelateerde inhoud onder een bovenliggende pagina te groeperen, wat een map‑achtige structuur nabootst. Het verbetert de organisatie van notities, versnelt het zoeken en verbetert de leeservaring wanneer het notitieblok wordt geëxporteerd naar PDF.
 
 ## Voorvereisten
 
-Voordat je begint, zorg dat je de volgende voorvereisten hebt:
+Voordat je begint, zorg ervoor dat je de volgende voorvereisten hebt:
 
-1. Java Development Kit (JDK): Zorg ervoor dat je JDK op je systeem geïnstalleerd hebt.  
-2. Aspose.Note for Java: Download en installeer Aspose.Note for Java vanaf de [website](https://purchase.aspose.com/buy).  
-3. Integrated Development Environment (IDE): Kies een Java‑IDE zoals IntelliJ IDEA, Eclipse of NetBeans.
+1. **Java Development Kit (JDK)** – Zorg ervoor dat je JDK op je systeem geïnstalleerd hebt.  
+2. **Aspose.Note for Java** – Download en installeer Aspose.Note for Java van de [website](https://purchase.aspose.com/buy).  
+3. **Integrated Development Environment (IDE)** – Kies een Java IDE zoals IntelliJ IDEA, Eclipse of NetBeans.
 
 ## Pakketten importeren
 
@@ -74,7 +81,7 @@ Document doc = new Document();
 
 ## Stap 3: Pagina's maken
 
-Initialiseer paginobjecten en stel hun niveaus in. Het instellen van het niveau bepaalt of een pagina een hoofd‑ of een subpagina is:
+Initialiseer paginobjecten en stel hun niveaus in. Het instellen van het niveau bepaalt of een pagina een hoofd‑pagina of een sub‑pagina is:
 
 ```java
 Page page1 = new Page();
@@ -87,9 +94,9 @@ Page page3 = new Page();
 page3.setLevel((byte) 1);
 ```
 
-## Stap 4: Nodes aan pagina's toevoegen
+## Stap 4: Knooppunten aan pagina's toevoegen
 
-### Nodes aan de eerste pagina toevoegen
+### Knooppunten aan eerste pagina toevoegen
 
 ```java
 Outline outline = new Outline();
@@ -107,7 +114,7 @@ outline.appendChildLast(outlineElem);
 page1.appendChildLast(outline);
 ```
 
-### Nodes aan de tweede pagina toevoegen
+### Knooppunten aan tweede pagina toevoegen
 
 ```java
 Outline outline2 = new Outline();
@@ -125,7 +132,7 @@ outline2.appendChildLast(outlineElem2);
 page2.appendChildLast(outline2);
 ```
 
-### Nodes aan de derde pagina toevoegen
+### Knooppunten aan derde pagina toevoegen
 
 ```java
 Outline outline3 = new Outline();
@@ -151,9 +158,9 @@ doc.appendChildLast(page2);
 doc.appendChildLast(page3);
 ```
 
-## Stap 6: Het document opslaan
+## Stap 6: Document opslaan
 
-Sla het OneNote‑document op als een PDF (of BMP in dit voorbeeld). Door `SaveFormat` te wijzigen kun je exporteren naar PDF, wat voldoet aan de “hoe OneNote PDF op te slaan” vereiste:
+Sla het OneNote‑document op als een PDF (of BMP in dit voorbeeld). Het wijzigen van `SaveFormat` stelt je in staat te exporteren naar PDF, wat voldoet aan de “save onenote as pdf” vereiste:
 
 ```java
 try {
@@ -165,46 +172,46 @@ try {
 
 > **Pro tip:** Om direct naar PDF te exporteren, vervang `SaveFormat.Bmp` door `SaveFormat.Pdf`.
 
-Gefeliciteerd! Je hebt met succes een OneNote‑document met hoofd‑ en subpagina's gemaakt en geleerd **hoe OneNote PDF op te slaan** met Aspose.Note for Java.
+Gefeliciteerd! Je hebt met succes een OneNote‑document met hoofd‑ en subpagina's gemaakt en geleerd **how to save onenote as pdf** te gebruiken met Aspose.Note for Java.
 
 ## Waarom dit belangrijk is
 
-- **Hiërarchische organisatie:** Hoofd‑ en subpagina's laten je mapstructuren nabootsen binnen OneNote.  
-- **Naadloze PDF‑export:** Zodra de structuur is opgezet, behoudt exporteren naar PDF de hiërarchie, waardoor het einddocument gemakkelijk leesbaar en deelbaar is.  
-- **Automatisering:** De code kan worden geïntegreerd in grotere Java‑applicaties, waardoor batch‑creatie van gestructureerde notitieblokken mogelijk is.
+- **Hierarchical organization:** Hoofd‑ en subpagina's laten je mapstructuren binnen OneNote nabootsen.  
+- **Seamless PDF export:** Zodra ze georganiseerd zijn, behoudt exporteren naar PDF de hiërarchie, waardoor het einddocument gemakkelijk leesbaar en deelbaar is.  
+- **Automation:** De code kan worden geïntegreerd in grotere Java‑applicaties, waardoor batch‑creatie van gestructureerde notitieblokken mogelijk is.  
 
 ## Veelvoorkomende valkuilen & hoe ze te vermijden
 
 | Probleem | Oorzaak | Oplossing |
 |----------|---------|-----------|
 | Pagina's verschijnen op hetzelfde niveau | Onjuiste `setLevel`‑waarde | Gebruik `setLevel((byte) 1)` voor hoofd‑pagina's en `setLevel((byte) 2)` (of hoger) voor sub‑pagina's. |
-| PDF‑output is leeg | Ontbrekende `SaveFormat.Pdf` of onjuiste bestands‑pad | Controleer of de map bestaat en gebruik `SaveFormat.Pdf`. |
+| PDF‑output ziet er leeg uit | Ontbrekende `SaveFormat.Pdf` of onjuist bestandspad | Controleer of de map bestaat en gebruik `SaveFormat.Pdf`. |
 | Lettertype niet toegepast | Verkeerde lettertype‑naam of ontbrekend lettertype op het systeem | Zorg ervoor dat het lettertype (bijv. “David Transparent”) geïnstalleerd is op de machine die de code uitvoert. |
 
 ## Veelgestelde vragen
 
-**V: Kan ik meerdere niveaus van sub‑pagina's maken met Aspose.Note for Java?**  
-A: Ja, je kunt diepere hiërarchieën creëren door hogere niveau‑nummers in te stellen (bijv. `setLevel((byte) 3)` voor een sub‑pagina op derde niveau).
+**Q:** Kan ik meerdere niveaus van sub‑pagina's maken met Aspose.Note for Java?  
+**A:** Ja, je kunt diepere hiërarchieën creëren door hogere niveau‑nummers in te stellen (bijv. `setLevel((byte) 3)` voor een sub‑pagina van derde niveau).
 
-**V: Is Aspose.Note for Java compatibel met verschillende Java‑IDE's?**  
-A: Absoluut. Het werkt met IntelliJ IDEA, Eclipse, NetBeans en elke IDE die Java‑ontwikkeling ondersteunt.
+**Q:** Is Aspose.Note for Java compatibel met verschillende Java‑IDE's?  
+**A:** Absoluut. Het werkt met IntelliJ IDEA, Eclipse, NetBeans en elke IDE die Java‑ontwikkeling ondersteunt.
 
-**V: Kan ik de opmaak van tekst in mijn OneNote‑document aanpassen?**  
-A: Ja. Gebruik `ParagraphStyle` om lettertype, grootte, kleur en andere attributen voor elk `RichText`‑element in te stellen.
+**Q:** Kan ik de opmaak van tekst in mijn OneNote‑document aanpassen?  
+**A:** Ja. Gebruik `ParagraphStyle` om lettertype, grootte, kleur en andere attributen voor elk `RichText`‑element in te stellen.
 
-**V: Ondersteunt Aspose.Note for Java het opslaan van documenten in andere formaten dan BMP?**  
-A: Ja. Ondersteunde formaten omvatten PDF, PNG, JPEG, DOCX en meer. Pas de `SaveFormat`‑enum dienovereenkomstig aan.
+**Q:** Ondersteunt Aspose.Note for Java het opslaan van documenten in andere formaten dan BMP?  
+**A:** Ja. Ondersteunde formaten omvatten PDF, PNG, JPEG, DOCX en meer. Pas de `SaveFormat`‑enum dienovereenkomstig aan.
 
-**V: Is er een proefversie beschikbaar voor Aspose.Note for Java?**  
-A: Ja, je kunt een gratis proefversie downloaden van de Aspose‑website.
+**Q:** Is er een proefversie beschikbaar voor Aspose.Note for Java?  
+**A:** Ja, je kunt een gratis proefversie downloaden van de Aspose‑website.
 
 ## Conclusie
 
-Het organiseren van je OneNote‑notitieblokken met een duidelijke hiërarchische structuur en het exporteren ervan als PDF maakt je notities toegankelijker en deelbaarder. Door de bovenstaande stappen te volgen, weet je nu **hoe je OneNote PDF opslaat** en **subpagina's onenote‑stijl** programmatically kunt toevoegen met Aspose.Note for Java.
+Het organiseren van je OneNote‑notitieblokken met een duidelijke hiërarchische structuur en het exporteren ervan als PDF's maakt je notities toegankelijker en deelbaar. Door de bovenstaande stappen te volgen, weet je nu hoe je **how to save onenote as pdf** en **add sub pages onenote** stijl programmatically kunt toepassen met Aspose.Note for Java.
 
 ---
 
-**Laatst bijgewerkt:** 2026-01-07  
+**Laatst bijgewerkt:** 2026-04-30  
 **Getest met:** Aspose.Note for Java 24.11 (latest)  
 **Auteur:** Aspose  
 

@@ -1,10 +1,15 @@
 ---
-description: Dowiedz się, jak zapisać plik PDF z OneNote i dodać podstrony w OneNote
+date: 2026-04-30
+description: Dowiedz się, jak **zapisać OneNote jako PDF** i dodać podstrony w OneNote
   przy użyciu Aspose.Note dla Javy. Postępuj zgodnie z tym przewodnikiem krok po kroku,
   aby efektywnie organizować swoje notatki.
-linktitle: How to Save OneNote PDF and Add Sub Pages
+keywords:
+- save onenote as pdf
+- add sub pages onenote
+- Aspose.Note Java
+linktitle: Jak zapisać OneNote jako PDF i dodać podstrony
 second_title: Aspose.Note Java API
-title: Jak zapisać PDF z OneNote i dodać podstrony
+title: Jak zapisać OneNote jako PDF i dodać podstrony
 url: /pl/java/onenote-page-manipulation/create-document-with-root-and-sub-pages/
 weight: 11
 ---
@@ -13,36 +18,36 @@ weight: 11
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Jak zapisać OneNote PDF i dodać podstrony
+# Jak zapisać OneNote jako PDF i dodać podstrony
 
 ## Wprowadzenie
 
-W tym samouczku dowiesz się **jak zapisać OneNote PDF**, tworząc dokument zawierający zarówno strony główne, jak i podstrony przy użyciu Aspose.Note for Java. Organizowanie notatników OneNote w przejrzystej hierarchii ułatwia nawigację, a możliwość eksportu do PDF zapewnia udostępnianie notatek w uniwersalnym formacie. Pokażemy również, jak **dodać podstrony w stylu onenote**, aby z łatwością budować struktury wielopoziomowe.
+W tym samouczku odkryjesz **jak zapisać OneNote jako PDF** tworząc dokument zawierający zarówno strony główne, jak i podstrony przy użyciu Aspose.Note for Java. Organizowanie notatników OneNote w przejrzystą hierarchię ułatwia nawigację, a eksport do PDF zapewnia możliwość udostępniania notatek w uniwersalnym formacie. Pokażemy również, jak **dodać podstrony w stylu OneNote**, aby łatwo budować struktury wielopoziomowe.
 
 ## Szybkie odpowiedzi
-- **Co oznacza główne słowo kluczowe?** Odnosi się do eksportowania notatnika OneNote do PDF przy użyciu Aspose.Note.  
-- **Jakie API jest używane?** Aspose.Note for Java.  
-- **Czy mogę tworzyć hierarchiczne strony?** Tak – ustaw poziom strony, aby zbudować strony główne i podstrony.  
-- **Czy potrzebna jest licencja?** Dostępna jest bezpłatna wersja próbna; licencja komercyjna jest wymagana w produkcji.  
-- **Jakie formaty wyjściowe są obsługiwane?** BMP, PDF, PNG i inne.
+- **Co oznacza „save onenote as pdf”?** Odnosi się do eksportowania notatnika OneNote do pliku PDF przy użyciu Aspose.Note for Java.  
+- **Jakie API jest wymagane?** Aspose.Note for Java dostarcza niezbędne klasy i metody.  
+- **Czy mogę tworzyć hierarchiczne strony?** Tak – ustaw poziom strony, aby tworzyć strony główne i podstrony.  
+- **Czy potrzebna jest licencja do produkcji?** Dostępna jest bezpłatna wersja próbna, ale do użytku produkcyjnego wymagana jest licencja komercyjna.  
+- **Do jakich formatów mogę eksportować?** Oprócz PDF możesz eksportować do BMP, PNG, JPEG, DOCX i innych.
 
-## Co to jest „jak zapisać OneNote PDF”?
-Zapisywanie OneNote jako PDF konwertuje strony notatnika na dokument o stałym układzie, zachowujący formatowanie, obrazy i hierarchię. Jest to idealne rozwiązanie do udostępniania, archiwizacji lub drukowania notatek.
+## Jak zapisać OneNote jako PDF
+
+Zapisanie OneNote jako PDF konwertuje każdą stronę notatnika na dokument o stałym układzie, zachowujący formatowanie, obrazy i hierarchię stron. Jest to idealne rozwiązanie do udostępniania, archiwizacji lub drukowania notatek przy zachowaniu pierwotnej struktury.
 
 ## Dlaczego dodawać podstrony w OneNote?
-Dodawanie podstron pozwala grupować powiązane treści pod stroną nadrzędną, odzwierciedlając strukturę podobną do folderów. Poprawia organizację notatek, przyspiesza wyszukiwanie i zwiększa komfort czytania po wyeksportowaniu notatnika do PDF.
+
+Dodawanie podstron pozwala grupować powiązane treści pod stroną nadrzędną, naśladując strukturę podobną do folderów. Poprawia organizację notatek, przyspiesza wyszukiwanie i zwiększa komfort czytania po wyeksportowaniu notatnika do PDF.
 
 ## Wymagania wstępne
 
-Zanim rozpoczniesz, upewnij się, że masz następujące elementy:
-
-1. Java Development Kit (JDK): Upewnij się, że masz zainstalowany JDK w systemie.  
-2. Aspose.Note for Java: Pobierz i zainstaluj Aspose.Note for Java ze [strony internetowej](https://purchase.aspose.com/buy).  
-3. Zintegrowane środowisko programistyczne (IDE): Wybierz IDE Java, takie jak IntelliJ IDEA, Eclipse lub NetBeans.
+1. **Java Development Kit (JDK)** – Upewnij się, że JDK jest zainstalowany w systemie.  
+2. **Aspose.Note for Java** – Pobierz i zainstaluj Aspose.Note for Java ze [strony internetowej](https://purchase.aspose.com/buy).  
+3. **Zintegrowane środowisko programistyczne (IDE)** – Wybierz IDE Java, takie jak IntelliJ IDEA, Eclipse lub NetBeans.
 
 ## Importowanie pakietów
 
-Rozpocznij od zaimportowania niezbędnych pakietów w swoim projekcie Java:
+Start by importing the necessary packages in your Java project:
 
 ```java
 import java.io.IOException;
@@ -66,7 +71,7 @@ String dataDir = "Your Document Directory";
 
 ## Krok 2: Utwórz obiekt Document
 
-Utwórz instancję obiektu `Document`:
+Utwórz obiekt `Document`:
 
 ```java
 Document doc = new Document();
@@ -74,7 +79,7 @@ Document doc = new Document();
 
 ## Krok 3: Utwórz strony
 
-Zainicjuj obiekty stron i ustaw ich poziomy. Ustawienie poziomu określa, czy strona jest stroną główną, czy podstroną:
+Zainicjalizuj obiekty stron i ustaw ich poziomy. Ustawienie poziomu określa, czy strona jest stroną główną, czy podstroną:
 
 ```java
 Page page1 = new Page();
@@ -153,7 +158,7 @@ doc.appendChildLast(page3);
 
 ## Krok 6: Zapisz dokument
 
-Zapisz dokument OneNote jako PDF (lub BMP w tym przykładzie). Zmiana `SaveFormat` umożliwia eksport do PDF, co spełnia wymaganie „jak zapisać OneNote PDF”:
+Zapisz dokument OneNote jako PDF (lub BMP w tym przykładzie). Zmiana `SaveFormat` pozwala na eksport do PDF, co spełnia wymaganie „save onenote as pdf”:
 
 ```java
 try {
@@ -165,44 +170,46 @@ try {
 
 > **Wskazówka:** Aby wyeksportować bezpośrednio do PDF, zamień `SaveFormat.Bmp` na `SaveFormat.Pdf`.
 
-Gratulacje! Pomyślnie utworzyłeś dokument OneNote z stronami głównymi i podstronami oraz nauczyłeś się **jak zapisać OneNote PDF** przy użyciu Aspose.Note for Java.
+Gratulacje! Pomyślnie utworzyłeś dokument OneNote z stronami głównymi i podstronami oraz nauczyłeś się **jak zapisać OneNote jako PDF** przy użyciu Aspose.Note for Java.
 
 ## Dlaczego to ma znaczenie
 
-- **Hierarchiczna organizacja:** Strony główne i podstrony pozwalają na odzwierciedlenie struktury folderów w OneNote.  
-- **Bezproblemowy eksport do PDF:** Po zorganizowaniu, eksport do PDF zachowuje hierarchię, co sprawia, że końcowy dokument jest łatwy do czytania i udostępniania.  
+- **Hierarchiczna organizacja:** Strony główne i podstrony pozwalają na naśladowanie struktury folderów w OneNote.  
+- **Bezproblemowy eksport do PDF:** Po zorganizowaniu, eksport do PDF zachowuje hierarchię, co sprawia, że końcowy dokument jest łatwy do odczytania i udostępnienia.  
 - **Automatyzacja:** Kod może być zintegrowany z większymi aplikacjami Java, umożliwiając masową kreację strukturalnych notatników.
 
 ## Typowe pułapki i jak ich unikać
 
 | Problem | Przyczyna | Rozwiązanie |
-|-------|-------|----------|
-| Strony pojawiają się na tym samym poziomie | Nieprawidłowa wartość `setLevel` | Użyj `setLevel((byte) 1)` dla stron głównych i `setLevel((byte) 2)` (lub wyższego) dla podstron. |
+|---------|-----------|-------------|
+| Strony pojawiają się na tym samym poziomie | Nieprawidłowa wartość `setLevel` | Użyj `setLevel((byte) 1)` dla stron głównych i `setLevel((byte) 2)` (lub wyższej) dla podstron. |
 | Wyjście PDF jest puste | Brak `SaveFormat.Pdf` lub nieprawidłowa ścieżka pliku | Sprawdź, czy katalog istnieje i użyj `SaveFormat.Pdf`. |
-| Czcionka nie została zastosowana | Nieprawidłowa nazwa czcionki lub brak czcionki w systemie | Upewnij się, że czcionka (np. „David Transparent”) jest zainstalowana na komputerze uruchamiającym kod. |
+| Czcionka nie jest zastosowana | Nieprawidłowa nazwa czcionki lub brak czcionki w systemie | Upewnij się, że czcionka (np. „David Transparent”) jest zainstalowana na maszynie uruchamiającej kod. |
 
 ## Najczęściej zadawane pytania
 
-**Q: Czy mogę tworzyć wiele poziomów podstron przy użyciu Aspose.Note for Java?**  
-A: Tak, możesz tworzyć głębsze hierarchie, ustawiając wyższe numery poziomów (np. `setLevel((byte) 3)` dla podstrony trzeciego poziomu).
+**P: Czy mogę tworzyć wiele poziomów podstron przy użyciu Aspose.Note for Java?**  
+O: Tak, możesz tworzyć głębsze hierarchie, ustawiając wyższe numery poziomów (np. `setLevel((byte) 3)` dla podstrony trzeciego poziomu).
 
-**Q: Czy Aspose.Note for Java jest kompatybilny z różnymi IDE Java?**  
-A: Absolutnie. Działa z IntelliJ IDEA, Eclipse, NetBeans i każdym innym IDE obsługującym rozwój w Javie.
+**P: Czy Aspose.Note for Java jest kompatybilny z różnymi IDE Java?**  
+O: Zdecydowanie tak. Działa z IntelliJ IDEA, Eclipse, NetBeans oraz każdym IDE wspierającym rozwój w Javie.
 
-**Q: Czy mogę dostosować formatowanie tekstu w moim dokumencie OneNote?**  
-A: Tak. Użyj `ParagraphStyle`, aby ustawić nazwę czcionki, rozmiar, kolor i inne atrybuty dla każdego elementu `RichText`.
+**P: Czy mogę dostosować formatowanie tekstu w moim dokumencie OneNote?**  
+O: Tak. Użyj `ParagraphStyle`, aby ustawić nazwę czcionki, rozmiar, kolor i inne atrybuty dla każdego elementu `RichText`.
 
-**Q: Czy Aspose.Note for Java obsługuje zapisywanie dokumentów w formatach innych niż BMP?**  
-A: Tak. Obsługiwane formaty to m.in. PDF, PNG, JPEG, DOCX i inne. Zmieniaj odpowiednio wartość enum `SaveFormat`.
+**P: Czy Aspose.Note for Java obsługuje zapisywanie dokumentów w formatach innych niż BMP?**  
+O: Tak. Obsługiwane formaty to PDF, PNG, JPEG, DOCX i inne. Zmodyfikuj odpowiednio enum `SaveFormat`.
 
-**Q: Czy dostępna jest wersja próbna Aspose.Note for Java?**  
-A: Tak, możesz pobrać bezpłatną wersję próbną ze strony Aspose.
+**P: Czy dostępna jest wersja próbna Aspose.Note for Java?**  
+O: Tak, możesz pobrać bezpłatną wersję próbną ze strony Aspose.
 
 ## Podsumowanie
 
-Organizowanie notatników OneNote w przejrzystej strukturze hierarchicznej oraz ich eksport jako PDF sprawia, że notatki są bardziej dostępne i łatwiejsze do udostępniania. Postępując zgodnie z powyższymi krokami, teraz wiesz **jak zapisać OneNote PDF** oraz **dodać podstrony w stylu onenote** programowo przy użyciu Aspose.Note for Java.
+Organizowanie notatników OneNote w przejrzystą strukturę hierarchiczną i eksportowanie ich jako PDF sprawia, że notatki są bardziej dostępne i łatwiejsze do udostępniania. Postępując zgodnie z powyższymi krokami, teraz wiesz **jak zapisać OneNote jako PDF** i **dodać podstrony w stylu OneNote** programowo przy użyciu Aspose.Note for Java.
 
-**Ostatnia aktualizacja:** 2026-01-07  
+---
+
+**Ostatnia aktualizacja:** 2026-04-30  
 **Testowano z:** Aspose.Note for Java 24.11 (latest)  
 **Autor:** Aspose  
 

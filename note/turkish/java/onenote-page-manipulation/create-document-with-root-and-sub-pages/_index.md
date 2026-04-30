@@ -1,10 +1,15 @@
 ---
-description: Aspose.Note for Java kullanarak OneNote PDF'yi nasıl kaydedeceğinizi
-  ve OneNote'da alt sayfalar ekleyeceğinizi öğrenin. Notlarınızı verimli bir şekilde
-  düzenlemek için bu adım adım rehberi izleyin.
-linktitle: How to Save OneNote PDF and Add Sub Pages
+date: 2026-04-30
+description: Aspose.Note for Java kullanarak OneNote'ta **onenote'u pdf olarak kaydet**
+  ve alt sayfalar eklemeyi öğrenin. Notlarınızı verimli bir şekilde düzenlemek için
+  bu adım adım kılavuzu izleyin.
+keywords:
+- save onenote as pdf
+- add sub pages onenote
+- Aspose.Note Java
+linktitle: OneNote'u PDF olarak kaydetme ve alt sayfalar ekleme
 second_title: Aspose.Note Java API
-title: OneNote PDF'si Nasıl Kaydedilir ve Alt Sayfalar Nasıl Eklenir
+title: OneNote'u PDF Olarak Kaydetme ve Alt Sayfalar Eklemek
 url: /tr/java/onenote-page-manipulation/create-document-with-root-and-sub-pages/
 weight: 11
 ---
@@ -13,32 +18,35 @@ weight: 11
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# OneNote PDF Nasıl Kaydedilir ve Alt Sayfalar Nasıl Eklenir
+# OneNote'u PDF olarak Kaydetme ve Alt Sayfalar Ekleme
 
 ## Giriş
 
-Bu öğreticide, Aspose.Note for Java kullanarak kök ve alt sayfalar içeren bir belge oluştururken **OneNote PDF nasıl kaydedilir** keşfedeceksiniz. OneNote defterlerinizi net bir hiyerarşi ile düzenlemek, gezinmeyi zahmetsiz kılar ve PDF olarak dışa aktarma, notlarınızı evrensel olarak okunabilir bir formatta paylaşmanızı sağlar. Ayrıca **sub pages onenote** stilinde alt sayfalar eklemeyi de göstereceğiz, böylece çok seviyeli yapılar kolayca oluşturabilirsiniz.
+Bu öğreticide, Aspose.Note for Java kullanarak hem kök hem de alt sayfalar içeren bir belge oluştururken **how to save onenote as pdf** öğreneceksiniz. OneNote defterlerinizi net bir hiyerarşiyle düzenlemek gezinmeyi sorunsuz hâle getirir ve PDF'ye dışa aktarmak notlarınızı evrensel olarak okunabilir bir formatta paylaşmanızı sağlar. Ayrıca **add sub pages onenote** stilinde nasıl alt sayfalar ekleyeceğinizi de göstereceğiz, böylece çok seviyeli yapılar kolayca oluşturabilirsiniz.
 
 ## Hızlı Yanıtlar
-- **Birincil anahtar kelime ne anlama geliyor?** Aspose.Note kullanarak bir OneNote defterini PDF olarak dışa aktarmayı ifade eder.
-- **Hangi API kullanılıyor?** Aspose.Note for Java.
-- **Hiyerarşik sayfalar oluşturabilir miyim?** Evet – sayfa seviyesini ayarlayarak kök ve alt sayfalar oluşturabilirsiniz.
-- **Lisans gerekli mi?** Ücretsiz deneme mevcuttur; üretim ortamı için ticari lisans gereklidir.
-- **Hangi çıktı formatları destekleniyor?** BMP, PDF, PNG ve daha fazlası.
 
-## “how to save OneNote PDF” nedir?
-OneNote’u PDF olarak kaydetmek, defterin sayfalarını biçimlendirme, görseller ve hiyerarşi korunarak sabit düzenli bir belgeye dönüştürür. Bu, notları paylaşmak, arşivlemek veya yazdırmak için idealdir.
+- **What does “save onenote as pdf” mean?** OneNote defterini Aspose.Note for Java kullanarak PDF dosyasına dışa aktarmayı ifade eder.  
+- **Which API is required?** Aspose.Note for Java gerekli sınıfları ve yöntemleri sağlar.  
+- **Can I create hierarchical pages?** Evet – kök sayfalar ve alt sayfalar oluşturmak için sayfa seviyesini ayarlayın.  
+- **Do I need a license for production?** Ücretsiz deneme mevcuttur, ancak üretim kullanımı için ticari lisans gereklidir.  
+- **Which formats can I export to?** PDF'nin yanı sıra BMP, PNG, JPEG, DOCX ve daha fazlasına dışa aktarabilirsiniz.
 
-## Neden alt sayfalar eklenir?
-Alt sayfalar eklemek, ilgili içeriği bir üst sayfanın altında gruplayarak klasör benzeri bir yapı oluşturur. Bu, not organizasyonunu iyileştirir, aramayı hızlandırır ve defter PDF’ye dışa aktarıldığında okuma deneyimini artırır.
+## OneNote'u PDF Olarak Kaydetme
+
+OneNote'u PDF olarak kaydetmek, her defter sayfasını biçimlendirmeyi, görüntüleri ve sayfa hiyerarşisini koruyan sabit düzenli bir belgeye dönüştürür. Bu, notları paylaşmak, arşivlemek veya yazdırmak için, orijinal yapıyı bozmadan ideal bir yöntemdir.
+
+## Neden onenote alt sayfalar ekleyelim?
+
+Alt sayfalar eklemek, ilgili içeriği bir üst sayfanın altında gruplamanıza olanak tanır ve klasör benzeri bir yapıyı yansıtır. Bu, not organizasyonunu iyileştirir, aramayı hızlandırır ve defter PDF'ye dışa aktarıldığında okuma deneyimini artırır.
 
 ## Önkoşullar
 
-Başlamadan önce aşağıdaki önkoşullara sahip olduğunuzdan emin olun:
+Başlamadan önce, aşağıdaki önkoşullara sahip olduğunuzdan emin olun:
 
-1. Java Development Kit (JDK): Sisteminizde JDK yüklü olduğundan emin olun.  
-2. Aspose.Note for Java: Aspose.Note for Java’yı [web sitesinden](https://purchase.aspose.com/buy) indirin ve kurun.  
-3. Entegre Geliştirme Ortamı (IDE): IntelliJ IDEA, Eclipse veya NetBeans gibi bir Java IDE’si seçin.
+1. **Java Development Kit (JDK)** – Sisteminizde JDK yüklü olduğundan emin olun.  
+2. **Aspose.Note for Java** – Aspose.Note for Java'ı [web sitesi](https://purchase.aspose.com/buy) adresinden indirin ve kurun.  
+3. **Integrated Development Environment (IDE)** – IntelliJ IDEA, Eclipse veya NetBeans gibi bir Java IDE'si seçin.
 
 ## Paketleri İçe Aktarma
 
@@ -56,7 +64,7 @@ import com.aspose.note.SaveFormat;
 import com.aspose.note.ParagraphStyle;
 ```
 
-## Adım 1: Belge Dizini Ayarlama
+## Adım 1: Belge Dizinini Ayarlama
 
 OneNote belgenizi kaydetmek istediğiniz dizini tanımlayın:
 
@@ -64,9 +72,9 @@ OneNote belgenizi kaydetmek istediğiniz dizini tanımlayın:
 String dataDir = "Your Document Directory";
 ```
 
-## Adım 2: Belge Nesnesi Oluşturma
+## Adım 2: Document Nesnesi Oluşturma
 
-Bir `Document` nesnesi örnekleyin:
+`Document` nesnesini örnekleyin:
 
 ```java
 Document doc = new Document();
@@ -74,7 +82,7 @@ Document doc = new Document();
 
 ## Adım 3: Sayfalar Oluşturma
 
-Sayfa nesnelerini başlatın ve seviyelerini ayarlayın. Seviyeyi ayarlamak, sayfanın kök sayfa mı yoksa alt sayfa mı olduğunu belirler:
+Sayfa nesnelerini başlatın ve seviyelerini ayarlayın. Seviyeyi ayarlamak, bir sayfanın kök sayfa mı yoksa alt sayfa mı olduğunu belirler:
 
 ```java
 Page page1 = new Page();
@@ -153,7 +161,7 @@ doc.appendChildLast(page3);
 
 ## Adım 6: Belgeyi Kaydetme
 
-OneNote belgesini PDF (veya bu örnekte BMP) olarak kaydedin. `SaveFormat`'ı değiştirerek PDF olarak dışa aktarabilirsiniz; bu, “how to save OneNote PDF” gereksinimini karşılar:
+OneNote belgesini PDF olarak (bu örnekte BMP olarak) kaydedin. `SaveFormat`'ı değiştirerek PDF'ye dışa aktarabilirsiniz; bu, “save onenote as pdf” gereksinimini karşılar:
 
 ```java
 try {
@@ -163,49 +171,49 @@ try {
 }
 ```
 
-> **Pro ipucu:** Doğrudan PDF’ye dışa aktarmak için `SaveFormat.Bmp` yerine `SaveFormat.Pdf` kullanın.
+> **Pro tip:** PDF'ye doğrudan dışa aktarmak için `SaveFormat.Bmp` yerine `SaveFormat.Pdf` kullanın.
 
-Tebrikler! Kök ve alt sayfalara sahip bir OneNote belgesi başarıyla oluşturdunuz ve Aspose.Note for Java kullanarak **OneNote PDF nasıl kaydedilir** öğrendiniz.
+Tebrikler! Kök ve alt sayfalara sahip bir OneNote belgesi başarıyla oluşturdunuz ve Aspose.Note for Java kullanarak **how to save onenote as pdf** öğrendiniz.
 
 ## Neden Önemli
 
-- **Hiyerarşik organizasyon:** Kök ve alt sayfalar, OneNote içinde klasör yapısını taklit etmenizi sağlar.  
-- **Sorunsuz PDF dışa aktarımı:** Düzenlendikten sonra PDF’ye dışa aktarma, hiyerarşiyi korur ve son belgeyi okumayı ve paylaşmayı kolaylaştırır.  
-- **Otomasyon:** Kod, daha büyük Java uygulamalarına entegre edilebilir, yapılandırılmış defterlerin toplu oluşturulmasını sağlar.
+- **Hierarchical organization:** Kök ve alt sayfalar, OneNote içinde klasör yapısını taklit etmenizi sağlar.  
+- **Seamless PDF export:** Düzenlendikten sonra PDF'ye dışa aktarmak hiyerarşiyi korur, böylece son belge okunması ve paylaşılması kolay olur.  
+- **Automation:** Kod, daha büyük Java uygulamalarına entegre edilebilir ve yapılandırılmış defterlerin toplu oluşturulmasını sağlar.
 
 ## Yaygın Tuzaklar ve Nasıl Kaçınılır
 
 | Sorun | Neden | Çözüm |
 |-------|-------|----------|
 | Sayfalar aynı seviyede görünüyor | Yanlış `setLevel` değeri | Kök sayfalar için `setLevel((byte) 1)`, alt sayfalar için `setLevel((byte) 2)` (veya daha yüksek) kullanın. |
-| PDF çıktısı boş görünüyor | `SaveFormat.Pdf` eksik veya dosya yolu hatalı | Dizin mevcut olduğundan emin olun ve `SaveFormat.Pdf` kullanın. |
-| Yazı tipi uygulanmıyor | Yanlış yazı tipi adı veya sistemde eksik font | Kodun çalıştığı makinede (ör. “David Transparent”) fontun yüklü olduğundan emin olun. |
+| PDF çıktısı boş görünüyor | `SaveFormat.Pdf` eksik veya dosya yolu hatalı | Dizinin mevcut olduğunu doğrulayın ve `SaveFormat.Pdf` kullanın. |
+| Yazı tipi uygulanmadı | Yanlış yazı tipi adı veya sistemde yazı tipi eksik | Kodun çalıştığı makinede yazı tipinin (ör. “David Transparent”) yüklü olduğundan emin olun. |
 
 ## Sıkça Sorulan Sorular
 
 **S: Aspose.Note for Java kullanarak birden fazla alt‑sayfa seviyesi oluşturabilir miyim?**  
-C: Evet, daha yüksek seviye numaraları (ör. üçüncü‑seviye alt‑sayfa için `setLevel((byte) 3)`) ayarlayarak daha derin hiyerarşiler oluşturabilirsiniz.
+C: Evet, daha yüksek seviye numaraları ayarlayarak (ör. üçüncü‑seviye alt‑sayfa için `setLevel((byte) 3)`) daha derin hiyerarşiler oluşturabilirsiniz.
 
-**S: Aspose.Note for Java farklı Java IDE’leriyle uyumlu mu?**  
+**S: Aspose.Note for Java farklı Java IDE'leriyle uyumlu mu?**  
 C: Kesinlikle. IntelliJ IDEA, Eclipse, NetBeans ve Java geliştirmeyi destekleyen herhangi bir IDE ile çalışır.
 
-**S: OneNote belgemdeki metin biçimlendirmesini özelleştirebilir miyim?**  
-C: Evet. Her `RichText` öğesi için `ParagraphStyle` kullanarak yazı tipi adı, boyutu, rengi ve diğer özellikleri ayarlayabilirsiniz.
+**S: OneNote belgemde metin biçimlendirmesini özelleştirebilir miyim?**  
+C: Evet. Her `RichText` öğesi için yazı tipi adı, boyutu, rengi ve diğer özellikleri ayarlamak için `ParagraphStyle` kullanın.
 
-**S: Aspose.Note for Java BMP dışındaki formatlarda kaydetmeyi destekliyor mu?**  
-C: Evet. Desteklenen formatlar arasında PDF, PNG, JPEG, DOCX ve daha fazlası bulunur. `SaveFormat` enum’ını buna göre değiştirin.
+**S: Aspose.Note for Java BMP dışındaki formatlarda belge kaydetmeyi destekliyor mu?**  
+C: Evet. Desteklenen formatlar PDF, PNG, JPEG, DOCX ve daha fazlasını içerir. `SaveFormat` enum'ını buna göre değiştirin.
 
 **S: Aspose.Note for Java için bir deneme sürümü mevcut mu?**  
 C: Evet, Aspose web sitesinden ücretsiz bir deneme sürümü indirebilirsiniz.
 
 ## Sonuç
 
-OneNote defterlerinizi net bir hiyerarşik yapı ile düzenlemek ve PDF olarak dışa aktarmak, notlarınızı daha erişilebilir ve paylaşılabilir kılar. Yukarıdaki adımları izleyerek **OneNote PDF nasıl kaydedilir** ve **sub pages onenote** stilinde programatik olarak alt sayfalar eklenir konularını artık biliyorsunuz.
+OneNote defterlerinizi net bir hiyerarşik yapı ile düzenlemek ve PDF olarak dışa aktarmak notlarınızı daha erişilebilir ve paylaşılabilir hâle getirir. Yukarıdaki adımları izleyerek artık Aspose.Note for Java ile programlı olarak **how to save onenote as pdf** ve **add sub pages onenote** stilinde nasıl yapacağınızı biliyorsunuz.
 
 ---
 
-**Son Güncelleme:** 2026-01-07  
-**Test Edilen Versiyon:** Aspose.Note for Java 24.11 (en son)  
+**Son Güncelleme:** 2026-04-30  
+**Test Edilen Versiyon:** Aspose.Note for Java 24.11 (latest)  
 **Yazar:** Aspose  
 
 {{< /blocks/products/pf/tutorial-page-section >}}
