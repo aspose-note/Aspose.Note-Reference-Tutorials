@@ -1,41 +1,52 @@
 ---
-title: Pobierz wersje strony w programie OneNote — Aspose.Note
-linktitle: Pobierz wersje strony w programie OneNote — Aspose.Note
-second_title: Aspose.Note API Java
-description: Dowiedz się, jak pobrać wersje stron w programie OneNote przy użyciu programu Aspose.Note dla języka Java. Postępuj zgodnie z naszym przewodnikiem krok po kroku, aby skutecznie śledzić zmiany.
-weight: 14
+date: 2026-01-10
+description: Poznaj samouczek aspose.note dotyczący wersji stron w Javie – pobieraj
+  wersje stron OneNote programowo przy użyciu Aspose.Note. Postępuj zgodnie z naszym
+  przewodnikiem krok po kroku.
+linktitle: Get Page Revisions in OneNote - Aspose.Note
+second_title: Aspose.Note Java API
+title: aspose.note – samouczek wersji stron – Pobieranie wersji stron w OneNote
 url: /pl/java/onenote-page-manipulation/get-page-revisions/
+weight: 14
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Pobierz wersje strony w programie OneNote — Aspose.Note
+# Pobieranie wersji stron w OneNote - Aspose.Note
 
-## Wstęp
+OneNote jest potężną platformą do tworzenia notatek, a gdy potrzebujesz audytować zmiany, **aspose.note page revisions tutorial** pokazuje dokładnie, jak pobrać historię wersji przy użyciu kilku linii kodu Java. W tym przewodniku przeprowadzimy Cię przez wszystko, czego potrzebujesz — od konfiguracji środowiska po wypisanie szczegółów każdej wersji — abyś mógł łatwo śledzić edycje, wkład autorów i znaczniki czasu.
 
-OneNote to potężne narzędzie do porządkowania notatek i zarządzania nimi, ale czasami trzeba śledzić zmiany i poprawki wprowadzone na stronach. Dzięki Aspose.Note dla Java możesz łatwo programowo pobierać wersje stron. W tym samouczku przeprowadzimy Cię przez proces uzyskiwania wersji stron w programie OneNote przy użyciu programu Aspose.Note dla języka Java.
+## Szybkie odpowiedzi
+- **Co obejmuje tutorial?** Pobieranie historii wersji stron z pliku OneNote przy użyciu Aspose.Note dla Javy.  
+- **Jakiej wersji biblioteki wymaga?** Dowolna aktualna wersja Aspose.Note dla Javy, która obsługuje `LoadOptions.setLoadHistory`.  
+- **Czy potrzebna jest licencja?** Tymczasowa licencja ewaluacyjna działa w testach; licencja komercyjna jest wymagana w produkcji.  
+- **Czy mogę modyfikować wersje?** API jest tylko do odczytu wersji; możesz je jedynie pobierać.  
+- **Jakie są główne wymagania wstępne?** Java JDK, Aspose.Note dla Javy oraz dokument OneNote z danymi wersji.
 
-## Warunki wstępne
+## Co to jest „aspose.note page revisions tutorial”?
+Tutorial pokazuje, jak programowo uzyskać dostęp do historycznych wersji strony OneNote. Każda wersja zawiera metadane, takie jak autor, czas utworzenia i czas modyfikacji, co umożliwia budowanie ścieżek audytu lub funkcji dziennika zmian w aplikacjach.
 
-Zanim zaczniemy, upewnij się, że spełnione są następujące wymagania wstępne:
+## Dlaczego warto używać Aspose.Note do śledzenia wersji stron?
+- **Brak zależności od UI** – działa w pełni w kodzie, idealny dla usług backendowych.  
+- **Cross‑platform** – Java działa na Windows, Linux i macOS.  
+- **Pełna kontrola** – pobiera wszystkie właściwości wersji bez ręcznego otwierania OneNote.  
+- **Wydajność** – ładowanie historii jest zoptymalizowane, więc nawet duże notatniki są przetwarzane szybko.
 
-### 1. Zestaw programistyczny Java (JDK)
+## Wymagania wstępne
 
-Upewnij się, że w systemie jest zainstalowany zestaw Java Development Kit (JDK). Możesz pobrać i zainstalować JDK ze strony internetowej Oracle.
+### 1. Java Development Kit (JDK)
+Upewnij się, że zainstalowano aktualny JDK (8 lub wyższy) i ustawiono zmienną `JAVA_HOME`.
 
 ### 2. Aspose.Note dla Javy
-
-Pobierz i zainstaluj Aspose.Note dla Java z pliku[link do pobrania](https://releases.aspose.com/note/java/).
+Pobierz bibliotekę z [download link](https://releases.aspose.com/note/java/).
 
 ### 3. Przykładowy dokument OneNote
+Utwórz lub zdobądź plik OneNote (np. `Sample1.one`), który zawiera strony z historią wersji.
 
-Przygotuj przykładowy dokument OneNote (`Sample1.one`) zawierający strony, z których chcesz pobrać wersje.
-
-## Importuj pakiety
-
-Najpierw musisz zaimportować niezbędne pakiety z Aspose.Note dla Java.
+## Importowanie pakietów
+Najpierw zaimportuj wymagane klasy Aspose.Note.
 
 ```java
 import java.io.IOException;
@@ -45,19 +56,17 @@ import com.aspose.note.LoadOptions;
 import com.aspose.note.Page;
 ```
 
-Podzielmy teraz podany przykład na kilka kroków:
+## Implementacja krok po kroku
 
-## Krok 1: Skonfiguruj katalog dokumentów
-
-Zdefiniuj ścieżkę katalogu, w którym znajduje się dokument programu OneNote.
+### Krok 1: Ustaw katalog dokumentu
+Zdefiniuj folder, w którym znajduje się Twój plik OneNote.
 
 ```java
 String dataDir = "Your Document Directory";
 ```
 
-## Krok 2: Załaduj dokument OneNote
-
- Załaduj dokument OneNote za pomocą`LoadOptions` aby włączyć historię ładowania.
+### Krok 2: Załaduj dokument OneNote z włączoną historią
+Włącz flagę `LoadOptions`, aby pobrać dane wersji.
 
 ```java
 LoadOptions loadOptions = new LoadOptions();
@@ -65,17 +74,15 @@ loadOptions.setLoadHistory(true);
 Document document = new Document(dataDir + "Sample1.one", loadOptions);
 ```
 
-## Krok 3: Zdobądź pierwszą stronę
-
-Pobierz pierwszą stronę z załadowanego dokumentu.
+### Krok 3: Pobierz pierwszą stronę
+Pobierz obiekt pierwszej strony; będzie to punkt odniesienia do pobierania jej historii.
 
 ```java
 Page firstPage = document.getFirstChild();
 ```
 
-## Krok 4: Iteruj po wersjach strony
-
-Przeglądaj każdą wersję strony i pobieraj istotne informacje, takie jak czas ostatniej modyfikacji, czas utworzenia, tytuł, poziom i autor.
+### Krok 4: Iteruj przez wersje stron
+Iteruj przez każdą wersję i wypisz przydatne metadane, takie jak znaczniki czasu, tytuł, poziom i autor.
 
 ```java
 for (Page pageRevision : document.getPageHistory(firstPage)) {
@@ -88,31 +95,36 @@ for (Page pageRevision : document.getPageHistory(firstPage)) {
 }
 ```
 
-## Wniosek
+> **Pro tip:** Jeśli potrzebujesz filtrować wersje według konkretnego autora lub zakresu dat, po prostu dodaj warunki sprawdzające wewnątrz pętli `for`.
 
-W tym samouczku nauczyliśmy się, jak pobierać wersje stron w programie OneNote przy użyciu programu Aspose.Note dla języka Java. Wykonując te kroki, możesz efektywnie śledzić zmiany wprowadzane na stronach programu OneNote w sposób programowy.
+## Typowe problemy i rozwiązania
+- **Brak zwróconych wersji:** Upewnij się, że `loadOptions.setLoadHistory(true)` jest wywoływane przed załadowaniem dokumentu.  
+- **Autor lub tytuł null:** Niektóre starsze wersje OneNote mogą nie przechowywać tych pól; obsługuj wartości `null` w sposób bezpieczny.  
+- **Opóźnienia wydajności przy dużych notatnikach:** Ładuj tylko potrzebne sekcje lub zwiększ rozmiar sterty JVM.
 
-## Często zadawane pytania
+## Najczęściej zadawane pytania
 
-### P1: Czy mogę używać Aspose.Note dla Java do modyfikowania wersji stron?
+**Q1: Czy mogę używać Aspose.Note dla Javy do modyfikowania wersji stron?**  
+A1: Nie, API obecnie obsługuje tylko dostęp do wersji w trybie tylko do odczytu.
 
-O1: Nie, Aspose.Note dla Java obsługuje obecnie pobieranie wersji stron, ale nie umożliwia ich modyfikowania.
+**Q2: Czy Aspose.Note dla Javy jest kompatybilny z różnymi wersjami dokumentów OneNote?**  
+A2: Tak, działa z różnymi formatami plików OneNote, umożliwiając płynne przetwarzanie między wersjami.
 
-### P2: Czy Aspose.Note dla Java jest kompatybilny z różnymi wersjami dokumentów OneNote?
+**Q3: Czy Aspose.Note dla Javy wymaga licencji do użycia?**  
+A3: Licencja komercyjna jest wymagana w środowisku produkcyjnym, ale dostępna jest tymczasowa licencja ewaluacyjna do testów.
 
-Odpowiedź 2: Tak, Aspose.Note dla Java obsługuje różne wersje dokumentów OneNote, umożliwiając płynną pracę z różnymi formatami plików.
+**Q4: Czy mogę uzyskać wsparcie, jeśli napotkam problemy podczas używania Aspose.Note dla Javy?**  
+A4: Tak, możesz zadawać pytania na forum Aspose.Note [tutaj](https://forum.aspose.com/c/note/28).
 
-### P3: Czy Aspose.Note dla Java wymaga licencji?
+**Q5: Czy dostępna jest darmowa wersja próbna Aspose.Note dla Javy?**  
+A5: Tak, możesz pobrać darmową wersję próbną ze [strony internetowej](https://releases.aspose.com/).
 
-O3: Tak, musisz kupić licencję, aby używać Aspose.Note dla Java w projektach komercyjnych. Można jednak również uzyskać licencję tymczasową do celów testowych.
+---
 
-### P4: Czy mogę zwrócić się o pomoc, jeśli napotkam jakiekolwiek problemy podczas korzystania z Aspose.Note dla Java?
+**Ostatnia aktualizacja:** 2026-01-10  
+**Testowano z:** Aspose.Note for Java (latest release)  
+**Autor:** Aspose  
 
- O4: Tak, możesz szukać pomocy na forum Aspose.Note[Tutaj](https://forum.aspose.com/c/note/28).
-
-### P5: Czy dostępna jest bezpłatna wersja próbna Aspose.Note dla Java?
-
- O5: Tak, możesz uzyskać dostęp do bezpłatnej wersji próbnej Aspose.Note dla Java z poziomu[strona internetowa](https://releases.aspose.com/).
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
