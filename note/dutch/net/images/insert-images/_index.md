@@ -1,33 +1,54 @@
 ---
-title: Afbeeldingen invoegen in Aspose.Note-documenten
-linktitle: Afbeeldingen invoegen in Aspose.Note-documenten
+date: 2026-05-05
+description: Leer hoe je een afbeelding in Aspose.Note‑documenten kunt invoegen met
+  .NET. Deze stapsgewijze gids laat zien hoe je een afbeelding kunt uitlijnen, een
+  afbeelding aan een pagina kunt toevoegen en visuele inhoud kunt verbeteren.
+keywords:
+- how to insert image
+- how to align image
+- append image to page
+linktitle: Afbeeldingen invoegen in Aspose.Note‑documenten
 second_title: Aspose.Note .NET API
-description: Leer hoe u naadloos afbeeldingen in Aspose.Note-documenten kunt invoegen met behulp van .NET voor verbeterde visuele inhoud. Volg onze stapsgewijze handleiding voor eenvoudige integratie.
-weight: 16
+title: Hoe een afbeelding in Aspose.Note-documenten in te voegen met .NET
 url: /nl/net/images/insert-images/
+weight: 16
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Afbeeldingen invoegen in Aspose.Note-documenten
+# Hoe een afbeelding in Aspose.Note-documenten in te voegen met .NET
 
-## Invoering
+## Introductie
 
-Het toevoegen van afbeeldingen aan uw Aspose.Note-documenten kan hun visuele aantrekkingskracht en bruikbaarheid aanzienlijk vergroten. Of u nu notities, presentaties of een ander document maakt, het integreren van afbeeldingen kan uw inhoud context en duidelijkheid geven. In deze zelfstudie begeleiden we u bij het proces van het invoegen van afbeeldingen in uw Aspose.Note-documenten met behulp van .NET.
+Als je je Aspose.Note‑bestanden aantrekkelijker wilt maken, **hoe een afbeelding in te voegen** is de eerste vaardigheid die je wilt beheersen. In deze tutorial lopen we de exacte stappen door die je nodig hebt om afbeeldingen toe te voegen, hun grootte te regelen, ze nauwkeurig te positioneren en zelfs uit te lijnen zoals je wilt. Aan het einde kun je gemakkelijk afbeeldingen invoegen, uitlijnen en een afbeelding aan een pagina toevoegen — allemaal met schone, leesbare C#‑code.
+
+## Snelle antwoorden
+- **Welke bibliotheek is vereist?** Aspose.Note for .NET  
+- **Kan ik de afbeeldingsgrootte programmatically instellen?** Ja – gebruik de Width en Height‑eigenschappen.  
+- **Hoe positioneer ik een afbeelding?** Pas HorizontalOffset, VerticalOffset aan of gebruik uitlijnopties.  
+- **Is er een limiet op afbeeldingsformaten?** JPG, PNG, BMP, GIF en andere worden ondersteund.  
+- **Heb ik een licentie nodig voor productie?** Een geldige Aspose.Note‑licentie is vereist voor commercieel gebruik.
+
+## Wat is het invoegen van een afbeelding in Aspose.Note?
+
+Een afbeelding invoegen betekent het maken van een Aspose.Note.Image‑object, het configureren van de visuele eigenschappen, en het toevoegen aan een pagina in een OneNote‑compatibel .one‑bestand. Hiermee kun je notities verrijken met screenshots, diagrammen of andere visuele hulpmiddelen.
+
+## Waarom afbeeldingen invoegen met Aspose.Note?
+
+- **Betere communicatie:** Visuals verduidelijken complexe ideeën sneller dan alleen tekst.  
+- **Consistente lay-out:** Programmatic control zorgt ervoor dat elk document dezelfde ontwerpnormen volgt.  
+- **Automatisering vriendelijk:** Ideaal voor het genereren van rapporten, tutorials of batch‑verwerkte notitieblokken.
 
 ## Vereisten
 
-Voordat we aan de slag gaan, moet u ervoor zorgen dat u aan de volgende vereisten voldoet:
+1. Aspose.Note for .NET: Download en installeer Aspose.Note for .NET vanaf [hier](https://releases.aspose.com/note/net/).  
+2. Afbeeldingsbestanden: Zorg dat de afbeeldingsbestanden (JPG, PNG, enz.) die je wilt insluiten klaarstaan op schijf.
 
-1.  Aspose.Note voor .NET: Download en installeer Aspose.Note voor .NET van[hier](https://releases.aspose.com/note/net/).
-   
-2. Afbeeldingsbestanden: bereid de afbeeldingsbestanden voor die u in uw Aspose.Note-documenten wilt invoegen.
+## Namespaces importeren
 
-## Naamruimten importeren
-
-Ten eerste moet u de benodigde naamruimten importeren om met Aspose.Note in uw .NET-project te kunnen werken. Hier ziet u hoe u het kunt doen:
+We beginnen met het importeren van de namespaces die ons toegang geven tot bestands‑I/O en de Aspose.Note‑API.
 
 ```csharp
 using System.IO;
@@ -39,7 +60,7 @@ using System;
 
 ## Stap 1: Document laden en pagina ophalen
 
-Begin met het laden van uw bestaande Aspose.Note-document en ga naar de gewenste pagina waar u de afbeelding wilt invoegen.
+Open eerst het bestaande .one‑document en haal de pagina op waar de afbeelding zal worden geplaatst.
 
 ```csharp
 string dataDir = "Your Document Directory";
@@ -47,57 +68,90 @@ Document doc = new Document(dataDir + "YourDocument.one");
 Aspose.Note.Page page = doc.FirstChild;
 ```
 
+## Hoe een afbeelding uitlijnen
+
+Voordat we de afbeelding toevoegen, bepaal hoe deze moet uitlijnen met andere inhoud. Aspose.Note biedt horizontale uitlijnopties (Links, Midden, Rechts). Je kunt de plaatsing ook fijn afstellen met offset‑waarden.
+
 ## Stap 2: Afbeelding laden en eigenschappen instellen
 
-Laad vervolgens de afbeelding die u wilt invoegen en specificeer de eigenschappen ervan, zoals breedte, hoogte, offsets en uitlijning, volgens uw vereisten.
+Maak het Image‑object, wijs het naar je bestand, en definieer de afmetingen, offsets en uitlijning.
 
 ```csharp
 Aspose.Note.Image image = new Aspose.Note.Image(doc, dataDir + "image.jpg")
 {
-    Width = 100,                // Afbeeldingsbreedte instellen
-    Height = 100,               // Stel de beeldhoogte in
-    HorizontalOffset = 100,     // Horizontale offset instellen
-    VerticalOffset = 400,       // Verticale offset instellen
-    Alignment = HorizontalAlignment.Right  // Stel de uitlijning van de afbeelding in
+    Width = 100,                // Set image width
+    Height = 100,               // Set image height
+    HorizontalOffset = 100,     // Set horizontal offset
+    VerticalOffset = 400,       // Set vertical offset
+    Alignment = HorizontalAlignment.Right  // Set image alignment
 };
 ```
 
-## Stap 3: Afbeelding toevoegen aan pagina
+## Afbeelding aan pagina toevoegen
 
-Nadat u de afbeeldingseigenschappen heeft geconfigureerd, voegt u de afbeelding toe aan de gewenste pagina van uw Aspose.Note-document.
+Nu de afbeelding volledig is geconfigureerd, voeg je deze toe aan de elementboom van de pagina.
 
 ```csharp
 page.AppendChildLast(image);
 ```
 
+## Veelvoorkomende valkuilen & tips
+
+- **Onjuiste offsets:** Onthoud dat offsets worden gemeten vanaf de linkerbovenhoek van de pagina. Een grote verticale offset kan de afbeelding buiten het scherm duwen.  
+- **Niet‑ondersteund formaat:** Als je een formaat probeert dat niet wordt herkend, zal Aspose.Note een uitzondering werpen — converteer het bestand eerst naar JPG of PNG.  
+- **Licentie‑waarschuwingen:** Werken zonder licentie voegt een watermerk toe aan het gegenereerde document; pas altijd je licentie toe in productie.
+
 ## Conclusie
 
-Gefeliciteerd! U hebt met succes een afbeelding in uw Aspose.Note-document ingevoegd met behulp van .NET. Afbeeldingen kunnen de visuele weergave van uw documenten aanzienlijk verbeteren, waardoor ze aantrekkelijker en informatiever worden.
+Je hebt nu geleerd **hoe een afbeelding in te voegen** in een Aspose.Note‑document, hoe **een afbeelding uit te lijnen**, en hoe **een afbeelding aan een pagina toe te voegen** met een paar eenvoudige regels C#. Deze technieken stellen je in staat om automatisch rijkere, professionelere notitieblokken te bouwen.
 
 ## Veelgestelde vragen
 
-### V1: Kan ik afbeeldingen van elk formaat in Aspose.Note-documenten invoegen?
+### Q1: Kan ik afbeeldingen van elk formaat in Aspose.Note‑documenten invoegen?
 
 A1: Ja, Aspose.Note ondersteunt verschillende afbeeldingsformaten, waaronder JPG, PNG, BMP, GIF, enz.
 
-### Vraag 2: Is het mogelijk om het formaat van de ingevoegde afbeeldingen programmatisch te wijzigen?
+### Q2: Is het mogelijk om de ingevoegde afbeeldingen programmatically te schalen?
 
-A2: Absoluut! Tijdens het invoegen kunt u de breedte en hoogte van afbeeldingen aanpassen aan uw voorkeuren.
+A2: Absoluut! Je kunt de breedte en hoogte van afbeeldingen aanpassen aan je voorkeuren tijdens het invoegen.
 
-### V3: Biedt Aspose.Note opties om de uitlijning van afbeeldingen te wijzigen?
+### Q3: Biedt Aspose.Note opties om de uitlijning van afbeeldingen aan te passen?
 
-A3: Ja, u kunt afbeeldingen links, rechts of in het midden uitlijnen op uw documentpagina's.
+A3: Ja, je kunt afbeeldingen uitlijnen naar links, rechts of midden binnen de pagina's van je document.
 
-### Vraag 4: Kan ik meerdere afbeeldingen invoegen op één pagina van mijn document?
+### Q4: Kan ik meerdere afbeeldingen in één pagina van mijn document invoegen?
 
-A4: Zeker! Met Aspose.Note kunt u zoveel afbeeldingen op één pagina invoegen als u nodig heeft.
+A4: Zeker! Je kunt zoveel afbeeldingen invoegen als je nodig hebt op één pagina met behulp van Aspose.Note.
 
-### Vraag 5: Is er een limiet aan de bestandsgrootte van afbeeldingen die kunnen worden ingevoegd?
+### Q5: Is er een limiet aan de bestandsgrootte van afbeeldingen die kunnen worden ingevoegd?
 
 A5: Aspose.Note legt geen strikte beperkingen op aan de bestandsgrootte van afbeeldingen, maar het wordt aanbevolen om afbeeldingen te optimaliseren voor betere prestaties.
+
+## Veelgestelde vragen
+
+**Q: Hoe laad ik een afbeelding vanuit een stream in plaats van een bestandspad?**  
+A: Gebruik de Image(Stream, Document)‑constructor en geef een MemoryStream mee die de afbeeldingsbytes bevat.
+
+**Q: Kan ik de afbeelding wijzigen nadat deze aan de pagina is toegevoegd?**  
+A: Ja, je kunt de Width, Height, HorizontalOffset, VerticalOffset, en Alignment‑eigenschappen van het bestaande Image‑object aanpassen en vervolgens page.Update() aanroepen.
+
+**Q: Is het mogelijk om een bijschrift onder de afbeelding toe te voegen?**  
+A: Voeg een RichText‑element toe na de afbeelding en stel de tekst in als bijschrift.
+
+**Q: Ondersteunt Aspose.Note geanimeerde GIF's?**  
+A: Geanimeerde GIF's worden behandeld als statische afbeeldingen; alleen het eerste frame wordt weergegeven.
+
+**Q: Wat moet ik doen als de afbeelding onscherp lijkt?**  
+A: Zorg ervoor dat de bronafbeelding voldoende resolutie heeft en vermijd het opschalen boven de oorspronkelijke grootte.
+
+---
+
+**Laatst bijgewerkt:** 2026-05-05  
+**Getest met:** Aspose.Note 23.12 for .NET  
+**Auteur:** Aspose  
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}
-
 {{< blocks/products/products-backtop-button >}}
