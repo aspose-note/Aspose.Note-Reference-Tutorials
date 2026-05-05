@@ -133,7 +133,7 @@ try {
 Buat objek `Image`. Argumen pertama dapat `null` ketika Anda menyediakan stream nanti, tetapi untuk kesederhanaan kami merujuk ke path file di sini dan mengatur perataan ke sisi kanan halaman.
 
 ```java
-Image image = new Image(null, dataDir + "image1.jpg");
+Image image = new Image(dataDir + "image1.jpg");
 image.setAlignment(HorizontalAlignment.Right);
 ```
 
@@ -215,7 +215,7 @@ A5: Ya, Anda dapat mengunduh uji coba gratis dari halaman rilis Aspose untuk men
 ---
 
 **Terakhir Diperbarui:** 21-12-2025
-**Diuji Dengan:** Aspose.Note untuk Java 24.12 (terbaru pada saat penulisan)
+**Diuji Dengan:** Aspose.Note untuk Java 26.4 (terbaru pada saat penulisan)
 **Penulis:** Beranggapan  
 
 {{< /blocks/products/pf/tutorial-page-section >}}

@@ -73,7 +73,7 @@ String dataDir = "Your Document Directory";
 สร้างอินสแตนซ์ `Notebook` โดยชี้ไปที่ไฟล์ **`.onetoc2`** ของโน้ตบุ๊ก ขั้นตอนนี้แสดงคีย์เวิร์ดรอง **load onenote notebook**.  
 
 ```java
-Notebook notebook = new Notebook(dataDir + "Notizbuch öffnen.onetoc2");
+Notebook notebook = new Notebook(dataDir + "Notebook.onetoc2");
 ```
 
 ### ขั้นตอนที่ 3: วนลูปผ่านเนื้อหาโน้ตบุ๊ก (ดึงเนื้อหา OneNote)

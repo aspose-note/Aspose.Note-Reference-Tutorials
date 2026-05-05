@@ -111,7 +111,7 @@ Agora você aprendeu **como exportar onenote** carregando um arquivo OneNote, co
 ---
 
 **Última atualização:** 2025-12-17  
-**Testado com:** Aspose.Note 24.12 para Java  
+**Testado com:** Aspose.Note 26.4 para Java  
 **Autor:** Aspose  
 
 ---

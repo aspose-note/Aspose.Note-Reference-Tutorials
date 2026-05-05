@@ -74,7 +74,7 @@ Nahraďte `"Your Document Directory"` absolutní cestou ke složce, která obsah
 Vytvořte instanci `Notebook` a odkažte ji na soubor **`.onetoc2`** sešitu. Tento krok demonstruje sekundární klíčové slovo **load onenote notebook**.
 
 ```java
-Notebook notebook = new Notebook(dataDir + "Notizbuch öffnen.onetoc2");
+Notebook notebook = new Notebook(dataDir + "Notebook.onetoc2");
 ```
 
 ### Krok 3: Procházení obsahu sešitu (Extrahování obsahu OneNote)

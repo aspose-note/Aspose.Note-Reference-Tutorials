@@ -87,7 +87,7 @@ outline.setHorizontalOffset(0);
 Töltse be a beágyazni kívánt képet, és igazítsa az oldal jobb oldalához. Itt történik a **kép hozzáadása a OneNote-hoz**.
 
 ```java
-Image image = new Image(null, dataDir + "Input.jpg");
+Image image = new Image(dataDir + "Input.jpg");
 image.setAlignment(HorizontalAlignment.Right);
 ```
 
@@ -150,7 +150,7 @@ A5: Igen, ideiglenes licencet kérhet [itt](https://purchase.aspose.com/temporar
 ---
 
 **Legutóbb frissítve:** 2025-12-20  
-**Tesztelve a következővel:** Aspose.Note for Java 24.12 (latest)  
+**Tesztelve a következővel:** Aspose.Note for Java 26.4 (latest)  
 **Szerző:** Aspose  
 
 {{< /blocks/products/pf/tutorial-page-section >}}

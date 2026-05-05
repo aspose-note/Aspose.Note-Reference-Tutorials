@@ -58,7 +58,7 @@ Upewnij się, że określiłeś katalog, w którym przechowywane są Twoje dokum
 ## Krok 2: Załadowanie notesu OneNote
 
 ```java
-Notebook notebook = new Notebook(dataDir + "Notizbuch �ffnen.onetoc2");
+Notebook notebook = new Notebook(dataDir + "Notebook.onetoc2");
 ```
 
 Załaduj notes OneNote, który chcesz zmodyfikować.
@@ -118,7 +118,7 @@ A7: Próba zapisania zmian w notesie tylko do odczytu spowoduje wyrzucenie `IOEx
 ---
 
 **Ostatnia aktualizacja:** 2025-12-25  
-**Testowane z:** Aspose.Note dla Javy 24.10  
+**Testowane z:** Aspose.Note dla Javy 26.4  
 **Autor:** Aspose  
 
 {{< /blocks/products/pf/tutorial-page-section >}}

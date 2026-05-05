@@ -87,7 +87,7 @@ outline.setHorizontalOffset(0);
 Muat gambar yang ingin Anda sematkan dan sejajarkan ke sisi kanan halaman. Di sinilah kita **menambahkan gambar ke OneNote**.
 
 ```java
-Image image = new Image(null, dataDir + "Input.jpg");
+Image image = new Image(dataDir + "Input.jpg");
 image.setAlignment(HorizontalAlignment.Right);
 ```
 
@@ -150,7 +150,7 @@ J: Ya, Anda dapat meminta lisensi sementara [di sini](https://purchase.aspose.co
 ---
 
 **Terakhir Diperbarui:** 2025-12-20  
-**Diuji Dengan:** Aspose.Note untuk Java 24.12 (terbaru)  
+**Diuji Dengan:** Aspose.Note untuk Java 26.4 (terbaru)  
 **Penulis:** Aspose  
 
 {{< /blocks/products/pf/tutorial-page-section >}}

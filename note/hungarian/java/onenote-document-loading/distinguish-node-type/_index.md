@@ -91,7 +91,7 @@ A1: Igen, az Aspose.Note for Java API-kat biztosít a meglévő OneNote dokument
 
 ### Q2: Az Aspose.Note for Java kompatibilis különböző Java verziókkal?
 
-A2: Az Aspose.Note for Java kompatibilis a Java 6 (1.6) és újabb verziókkal.
+A2: Az Aspose.Note for Java kompatibilis a Java SE 7 és újabb verziókkal.
 
 ### Q3: Kinyerhetek szövegtartalmat OneNote dokumentumokból az Aspose.Note for Java segítségével?
 
@@ -108,7 +108,7 @@ A5: Igen, az Aspose.Note for Java funkcióit ingyenes próba keretében felfedez
 ---
 
 **Last Updated:** 2025-12-09  
-**Tested With:** Aspose.Note for Java 24.12 (latest at time of writing)  
+**Tested With:** Aspose.Note for Java 26.4 (latest at time of writing)  
 **Author:** Aspose  
 
 {{< /blocks/products/pf/tutorial-page-section >}}

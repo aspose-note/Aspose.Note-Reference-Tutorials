@@ -66,7 +66,7 @@ Aspose.Note.Page page = new Aspose.Note.Page(doc);
 ### 3단계: 개요 개체 초기화
 
 ```csharp
-Outline outline = new Outline(doc);
+Outline outline = new Outline();
 ```
 
  안`Outline` 페이지 내의 콘텐츠를 구성하기 위해 개체가 생성됩니다.
@@ -74,7 +74,7 @@ Outline outline = new Outline(doc);
 ### 4단계: OutlineElement 객체 초기화
 
 ```csharp
-OutlineElement outlineElem = new OutlineElement(doc);
+OutlineElement outlineElem = new OutlineElement();
 ```
 
 `OutlineElement` 개요 구조 내의 요소를 나타냅니다.
@@ -82,7 +82,7 @@ OutlineElement outlineElem = new OutlineElement(doc);
 ### 5단계: AttachedFile 객체 초기화
 
 ```csharp
-AttachedFile attachedFile = new AttachedFile(doc,  dataDir + "attachment.txt");
+AttachedFile attachedFile = new AttachedFile(dataDir + "attachment.txt");
 ```
 
  여기서는 인스턴스를 생성합니다.`AttachedFile`, 첨부하려는 파일의 경로를 지정합니다.

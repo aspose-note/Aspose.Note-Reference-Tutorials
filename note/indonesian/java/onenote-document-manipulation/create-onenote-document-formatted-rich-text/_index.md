@@ -169,7 +169,7 @@ Dalam panduan ini kami menunjukkan cara **menyimpan OneNote sebagai PDF** sambil
 ---
 
 **Last Updated:** 2025-12-09  
-**Tested With:** Aspose.Note untuk Java 24.11 (terbaru pada saat penulisan)  
+**Tested With:** Aspose.Note untuk Java 26.4 (terbaru pada saat penulisan)  
 **Author:** Aspose  
 
 {{< /blocks/products/pf/tutorial-page-section >}}

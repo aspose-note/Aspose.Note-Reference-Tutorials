@@ -143,7 +143,7 @@ A5: Ja, eine kommerzielle Lizenz erlaubt die Nutzung der Bibliothek in Produktio
 ---
 
 **Zuletzt aktualisiert:** 2025-12-18  
-**Getestet mit:** Aspose.Note für Java 24.12 (neueste)  
+**Getestet mit:** Aspose.Note für Java 26.4 (neueste)  
 **Autor:** Aspose  
 
 {{< /blocks/products/pf/tutorial-page-section >}}

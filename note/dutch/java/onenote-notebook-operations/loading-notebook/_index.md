@@ -74,7 +74,7 @@ Vervang `"Your Document Directory"` door het absolute pad naar de map die het `.
 Maak een `Notebook`‑instantie aan door te verwijzen naar het **`.onetoc2`**‑bestand van het notitieboek. Dit demonstreert het secundaire trefwoord **load onenote notebook**.
 
 ```java
-Notebook notebook = new Notebook(dataDir + "Notizbuch öffnen.onetoc2");
+Notebook notebook = new Notebook(dataDir + "Notebook.onetoc2");
 ```
 
 ### Stap 3: Itereer door de inhoud van het notitieboek (OneNote-inhoud extraheren)

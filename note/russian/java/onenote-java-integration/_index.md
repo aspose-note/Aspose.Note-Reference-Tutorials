@@ -78,7 +78,7 @@ A: Нет, Aspose.Note работает независимо от приложе
 ---
 
 **Последнее обновление:** 2025-12-23  
-**Тестировано с:** Aspose.Note for Java 24.12  
+**Тестировано с:** Aspose.Note for Java 26.4  
 **Автор:** Aspose
 
 {{< /blocks/products/pf/tutorial-page-section >}}

@@ -58,7 +58,7 @@ OutlineElement outlineElem = new OutlineElement();
 ## 5단계: 이미지 로드 및 삽입
 ```java
 // 이미지 로드
-Image image = new Image(null, dataDir + "Input.jpg");
+Image image = new Image(dataDir + "Input.jpg");
 // 문서 노드에 이미지 삽입
 outlineElem.appendChildLast(image);
 ```

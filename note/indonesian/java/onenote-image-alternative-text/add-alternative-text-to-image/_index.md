@@ -89,7 +89,7 @@ Sebuah halaman akan menampung gambar yang akan kita tambahkan.
 ### Langkah 4: Tambahkan Gambar ke Halaman
 
 ```java
-Image image = new Image(null, dataDir + "image.jpg");
+Image image = new Image(dataDir + "image.jpg");
 ```
 
 Konstruktor `Image` memuat file gambar dari path yang ditentukan.
@@ -164,7 +164,7 @@ Dengan mengikuti panduan langkah demi langkah ini, Anda kini tahu **cara menamba
 ---
 
 **Terakhir Diperbarui:** 2025-12-23  
-**Diuji Dengan:** Aspose.Note for Java 24.11  
+**Diuji Dengan:** Aspose.Note for Java 26.4  
 **Penulis:** Aspose  
 
 {{< /blocks/products/pf/tutorial-page-section >}}

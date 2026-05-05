@@ -130,7 +130,7 @@ System.out.println(myConverter.getText());
 ---
 
 **Τελευταία Ενημέρωση:** 2025-12-09  
-**Δοκιμάστηκε Με:** Aspose.Note for Java 24.10  
+**Δοκιμάστηκε Με:** Aspose.Note for Java 26.4  
 **Συγγραφέας:** Aspose  
 
 {{< /blocks/products/pf/tutorial-page-section >}}

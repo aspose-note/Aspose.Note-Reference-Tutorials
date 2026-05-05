@@ -32,7 +32,7 @@ weight: 24
 
 Πριν ξεκινήσουμε, βεβαιωθείτε ότι έχετε ρυθμίσει τα παρακάτω:
 
-1. **Java Development Kit (JDK)** – Βεβαιωθείτε ότι η Java είναι εγκατεστημένη στο σύστημά σας. Μπορείτε να την κατεβάσετε και να την εγκαταστήσετε από [εδώ](https://www.oracle.com/java/technologies/javase-jdk15-downloads.html).
+1. **Java Development Kit (JDK)** – Βεβαιωθείτε ότι η Java είναι εγκατεστημένη στο σύστημά σας. Μπορείτε να την κατεβάσετε και να την εγκαταστήσετε από [εδώ](https://www.oracle.com/java/technologies/downloads/).
 
 2. **Aspose.Note for Java** – Κατεβάστε και εγκαταστήστε τη βιβλιοθήκη Aspose.Note for Java από την [ιστοσελίδα](https://purchase.aspose.com/buy). Μπορείτε επίσης να αποκτήσετε δωρεάν δοκιμή από [εδώ](https://releases.aspose.com/).
 
@@ -137,7 +137,7 @@ notebook.save(dataDir);
 ---
 
 **Τελευταία Ενημέρωση:** 2026-01-02  
-**Δοκιμασμένο Με:** Aspose.Note 24.11 for Java  
+**Δοκιμασμένο Με:** Aspose.Note 26.4 for Java  
 **Συγγραφέας:** Aspose  
 
 ---

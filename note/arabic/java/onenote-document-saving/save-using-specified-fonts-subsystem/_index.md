@@ -25,7 +25,7 @@ weight: 22
 - **أي واجهة برمجة تطبيقات تتعامل مع الخطوط؟** `DocumentFontsSubsystem` تتيح لك تحديد خط افتراضي أو تحميل ملف/تدفق خط مخصص.  
 - **هل أحتاج إلى ترخيص للاستخدام في الإنتاج؟** نعم، يلزم وجود ترخيص تجاري لـ Aspose.Note للاستخدام غير التجريبي.  
 - **هل يمكنني تحويل ملفات متعددة دفعة واحدة؟** بالتأكيد – ما عليك سوى تكرار منطق تحميل وحفظ `Document`.  
-- **ما نسخة Java المطلوبة؟** Java 15 أو أحدث (المثال يستخدم JDK 15).
+- **ما نسخة Java المطلوبة؟** Java 8 أو أحدث (المثال يستخدم JDK 8).
 
 ## ما هو “save OneNote as PDF” مع نظام الخطوط؟
 
@@ -41,7 +41,7 @@ weight: 22
 
 ### 1. Java Development Kit (JDK)
 
-تأكد من تثبيت Java Development Kit (JDK) على نظامك. يمكنك تنزيله من [هنا](https://www.oracle.com/java/technologies/javase-jdk15-downloads.html) إذا لم تقم بذلك بعد.
+تأكد من تثبيت Java Development Kit (JDK) على نظامك. يمكنك تنزيله من [هنا](https://www.oracle.com/java/technologies/downloads/) إذا لم تقم بذلك بعد.
 
 ### 2. Aspose.Note for Java Library
 
@@ -185,7 +185,7 @@ public static void SaveUsingDocumentFontsSubsystemWithDefaultFontFromStream() th
 ---
 
 **Last Updated:** 2025-12-18  
-**Tested With:** Aspose.Note for Java 24.11  
+**Tested With:** Aspose.Note for Java 26.4  
 **Author:** Aspose  
 
 {{< /blocks/products/pf/tutorial-page-section >}}

@@ -73,7 +73,7 @@ String dataDir = "Your Document Directory";
 노트북의 **`.onetoc2`** 파일을 지정하여 `Notebook` 인스턴스를 생성합니다. 이 예시는 보조 키워드 **load onenote notebook**를 보여줍니다.
 
 ```java
-Notebook notebook = new Notebook(dataDir + "Notizbuch öffnen.onetoc2");
+Notebook notebook = new Notebook(dataDir + "Notebook.onetoc2");
 ```
 
 ### 3단계: 노트북 내용 순회 (OneNote 콘텐츠 추출)

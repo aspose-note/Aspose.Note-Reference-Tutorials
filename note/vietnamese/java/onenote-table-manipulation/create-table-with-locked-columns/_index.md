@@ -87,7 +87,7 @@ Chúc mừng! Bạn đã tạo thành công bảng có các cột bị khóa tro
 Trong hướng dẫn này, chúng tôi đã khám phá quy trình sử dụng Aspose.Note cho Java để nâng cao trải nghiệm OneNote của bạn bằng cách tạo các bảng có các cột bị khóa. Chức năng này thêm một lớp tổ chức và cấu trúc mới vào ghi chú của bạn.
 ## Câu hỏi thường gặp
 ### Aspose.Note for Java có tương thích với tất cả các phiên bản Java không?
-Có, Aspose.Note for Java tương thích với Java 6 và các phiên bản mới hơn.
+Có, Aspose.Note for Java tương thích với Java SE 7 và các phiên bản mới hơn.
 ### Tôi có thể tùy chỉnh thêm hình thức của bảng không?
 Tuyệt đối! Aspose.Note for Java cung cấp các tùy chọn mở rộng để tùy chỉnh bảng, chẳng hạn như điều chỉnh đường viền, khoảng cách ô, v.v.
 ### Có bản dùng thử trước khi mua không?

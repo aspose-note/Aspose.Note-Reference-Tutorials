@@ -126,7 +126,7 @@ A4: Igen, egy teljes funkcionalitású ingyenes próbaverzió letölthető a [we
 A5: Ideiglenes licenceket a [ideiglenes licenc oldalán](https://purchase.aspose.com/temporary-license/) lehet igényelni.
 
 **Utoljára frissítve:** 2025-12-05  
-**Tesztelve ezzel:** Aspose.Note for Java 24.12 (a legújabb a írás időpontjában)  
+**Tesztelve ezzel:** Aspose.Note for Java 26.4 (a legújabb a írás időpontjában)  
 **Szerző:** Aspose  
 
 {{< /blocks/products/pf/tutorial-page-section >}}

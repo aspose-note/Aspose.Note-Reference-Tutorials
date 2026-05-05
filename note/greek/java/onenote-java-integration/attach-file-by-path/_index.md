@@ -85,7 +85,7 @@ OutlineElement outlineElem = new OutlineElement();
 Δημιουργήστε ένα `AttachedFile` με την πλήρη διαδρομή προς το αρχείο που θέλετε να ενσωματώσετε:
 
 ```java
-AttachedFile attachedFile = new AttachedFile(null, dataDir + "attachment.txt");
+AttachedFile attachedFile = new AttachedFile(dataDir + "attachment.txt");
 ```
 
 Αλλάξτε το `"attachment.txt"` στο όνομα του αρχείου που θέλετε να επισυνάψετε (αρχείο επισύναψης κώδικα java).
@@ -167,7 +167,7 @@ doc.save(dataDir);
 ---
 
 **Τελευταία ενημέρωση:** 25-12-2025
-**Δοκιμάστηκε με:** Aspose.Note για Java 24.11
+**Δοκιμάστηκε με:** Aspose.Note για Java 26.4
 **Συγγραφέας:** Aspose
 
 {{< /blocks/products/pf/tutorial-page-section >}}

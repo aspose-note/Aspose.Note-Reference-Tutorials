@@ -58,7 +58,7 @@ Assicurati di specificare la directory in cui sono archiviati i tuoi documenti O
 ## Passo 2: Carica il taccuino OneNote
 
 ```java
-Notebook notebook = new Notebook(dataDir + "Notizbuch �ffnen.onetoc2");
+Notebook notebook = new Notebook(dataDir + "Notebook.onetoc2");
 ```
 
 Carica il taccuino OneNote che desideri modificare.
@@ -118,7 +118,7 @@ A7: Tentare di salvare le modifiche su un taccuino di sola lettura genererà un 
 ---
 
 **Ultimo aggiornamento:** 2025-12-25  
-**Testato con:** Aspose.Note for Java 24.10  
+**Testato con:** Aspose.Note for Java 26.4  
 **Autore:** Aspose  
 
 {{< /blocks/products/pf/tutorial-page-section >}}

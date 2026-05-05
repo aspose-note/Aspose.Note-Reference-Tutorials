@@ -83,7 +83,7 @@ OutlineElement outlineElem = new OutlineElement();
 أنشئ كائن `AttachedFile` باستخدام المسار الكامل للملف الذي تريد تضمينه:
 
 ```java
-AttachedFile attachedFile = new AttachedFile(null, dataDir + "attachment.txt");
+AttachedFile attachedFile = new AttachedFile(dataDir + "attachment.txt");
 ```
 
 غيّر `"attachment.txt"` إلى اسم الملف الذي ترغب في إرفاقه (java code attach file).
@@ -165,7 +165,7 @@ doc.save(dataDir);
 ---
 
 **آخر تحديث:** 2025-12-25  
-**تم الاختبار مع:** Aspose.Note for Java 24.11  
+**تم الاختبار مع:** Aspose.Note for Java 26.4  
 **المؤلف:** Aspose
 
 {{< /blocks/products/pf/tutorial-page-section >}}

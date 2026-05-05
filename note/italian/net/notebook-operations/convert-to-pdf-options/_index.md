@@ -50,7 +50,7 @@ Per prima cosa dobbiamo caricare il taccuino OneNote che vogliamo convertire in 
 string dataDir = "Your Document Directory";
 
 // Carica un blocco appunti di OneNote
-var notebook = new Notebook(dataDir + "Notizbuch �ffnen.onetoc2");
+var notebook = new Notebook(dataDir + "Notebook.onetoc2");
 ```
 
 ## Passaggio 2: specificare le opzioni di salvataggio del PDF

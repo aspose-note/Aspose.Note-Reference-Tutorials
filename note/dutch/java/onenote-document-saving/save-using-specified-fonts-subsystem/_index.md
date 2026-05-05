@@ -25,7 +25,7 @@ In veel zakelijke scenario’s moet je **OneNote opslaan als PDF** terwijl je de
 - **Welke API behandelt lettertypen?** `DocumentFontsSubsystem` laat je een standaardlettertype definiëren of een aangepast lettertype‑bestand/‑stream laden.  
 - **Heb ik een licentie nodig voor productie?** Ja, een commerciële Aspose.Note‑licentie is vereist voor niet‑trial gebruik.  
 - **Kan ik meerdere bestanden in één batch converteren?** Absoluut – loop gewoon over de `Document`‑laad‑ en‑opsla‑logica.  
-- **Welke Java‑versie is vereist?** Java 15 of hoger (het voorbeeld gebruikt JDK 15).
+- **Welke Java‑versie is vereist?** Java 8 of hoger (het voorbeeld gebruikt JDK 8).
 
 ## Wat betekent “OneNote opslaan als PDF” met een lettertype‑subsystem?
 
@@ -41,7 +41,7 @@ OneNote opslaan als PDF met een lettertype‑subsystem betekent dat tijdens het 
 
 ### 1. Java Development Kit (JDK)
 
-Zorg ervoor dat je Java Development Kit (JDK) op je systeem geïnstalleerd hebt. Je kunt het downloaden van [hier](https://www.oracle.com/java/technologies/javase-jdk15-downloads.html) als je dat nog niet hebt gedaan.
+Zorg ervoor dat je Java Development Kit (JDK) op je systeem geïnstalleerd hebt. Je kunt het downloaden van [hier](https://www.oracle.com/java/technologies/downloads/) als je dat nog niet hebt gedaan.
 
 ### 2. Aspose.Note for Java Bibliotheek
 
@@ -185,7 +185,7 @@ In deze tutorial hebben we geleerd hoe je **OneNote opslaat als PDF** terwijl je
 ---
 
 **Last Updated:** 2025-12-18  
-**Tested With:** Aspose.Note for Java 24.11  
+**Tested With:** Aspose.Note for Java 26.4  
 **Author:** Aspose  
 
 {{< /blocks/products/pf/tutorial-page-section >}}

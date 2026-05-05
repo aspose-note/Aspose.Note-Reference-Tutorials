@@ -22,7 +22,7 @@ In this tutorial, we'll walk through **how to convert onenote to pdf** using Asp
 - **What does this tutorial cover?** Converting a OneNote notebook (.one) to a PDF file with Aspose.Note for Java.  
 - **Which library is required?** Aspose.Note for Java (free trial available).  
 - **Do I need a license?** A license is required for production use; a trial works for development and testing.  
-- **What Java version is supported?** Any JDK 8+ (the example uses JDK 15).  
+- **What Java version is supported?** Any JDK 8+ (the example uses JDK 8).  
 - **Can I batch‑convert multiple notebooks?** Yes—wrap the code in a loop to process many files.
 
 ## What is “convert onenote to pdf”?
@@ -36,7 +36,7 @@ Converting OneNote to PDF means taking a `.one` notebook file and producing a po
 
 ## Prerequisites
 
-1. **Java Development Kit (JDK)** – Ensure JDK is installed. You can download it from the [Oracle website](https://www.oracle.com/java/technologies/javase-jdk15-downloads.html).  
+1. **Java Development Kit (JDK)** – Ensure JDK is installed. You can download it from the [Oracle website](https://www.oracle.com/java/technologies/downloads/).  
 2. **Aspose.Note for Java Library** – Download the latest JAR from the [Aspose website](https://releases.aspose.com/note/java/). Add the JAR to your project’s classpath.
 
 ## Import Packages
@@ -123,7 +123,7 @@ You've now learned how to **convert onenote to pdf**, **save onenote as pdf**, a
 ---
 
 **Last Updated:** 2026-01-02  
-**Tested With:** Aspose.Note 24.12 for Java  
+**Tested With:** Aspose.Note 26.4 for Java  
 **Author:** Aspose  
 
 ---

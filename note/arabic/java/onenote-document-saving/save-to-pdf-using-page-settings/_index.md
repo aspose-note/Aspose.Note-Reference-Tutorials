@@ -135,7 +135,7 @@ oneFile.save(dst, options);
 ---
 
 **آخر تحديث:** 2025-12-17  
-**تم الاختبار مع:** Aspose.Note for Java 23.12  
+**تم الاختبار مع:** Aspose.Note for Java 26.4  
 **المؤلف:** Aspose  
 
 {{< /blocks/products/pf/tutorial-page-section >}}

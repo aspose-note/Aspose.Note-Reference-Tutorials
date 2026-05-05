@@ -31,7 +31,7 @@ Before we dive into the implementation, ensure you have the following prerequisi
 
 ### 1. Java Development Kit (JDK)
 
-Make sure you have Java Development Kit (JDK) installed on your system. You can download and install the latest JDK from the [Oracle website](https://www.oracle.com/java/technologies/javase-jdk15-downloads.html).
+Make sure you have Java Development Kit (JDK) installed on your system. You can download and install the latest JDK from the [Oracle website](https://www.oracle.com/java/technologies/downloads/).
 
 ### 2. Aspose.Note for Java Library
 
@@ -146,7 +146,7 @@ By following the steps outlined in this tutorial, you can effectively **get imag
 ---
 
 **Last Updated:** 2025-12-21  
-**Tested With:** Aspose.Note for Java 23.12  
+**Tested With:** Aspose.Note for Java 26.4  
 **Author:** Aspose  
 
 ---

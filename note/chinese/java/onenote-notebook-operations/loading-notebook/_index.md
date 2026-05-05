@@ -72,7 +72,7 @@ String dataDir = "Your Document Directory";
 通过指向笔记本的 **`.onetoc2`** 文件创建 `Notebook` 实例。这演示了二级关键词 **load onenote notebook**。
 
 ```java
-Notebook notebook = new Notebook(dataDir + "Notizbuch öffnen.onetoc2");
+Notebook notebook = new Notebook(dataDir + "Notebook.onetoc2");
 ```
 
 ### 步骤 3：遍历笔记本内容（提取 OneNote 内容）

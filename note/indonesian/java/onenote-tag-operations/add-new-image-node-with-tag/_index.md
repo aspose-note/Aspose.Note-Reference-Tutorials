@@ -58,7 +58,7 @@ OutlineElement outlineElem = new OutlineElement();
 ## Langkah 5: Muat dan Sisipkan Gambar
 ```java
 // memuat gambar
-Image image = new Image(null, dataDir + "Input.jpg");
+Image image = new Image(dataDir + "Input.jpg");
 // masukkan gambar ke dalam node dokumen
 outlineElem.appendChildLast(image);
 ```

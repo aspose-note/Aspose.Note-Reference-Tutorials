@@ -142,7 +142,7 @@ C5: Destek ve kaynakları Aspose.Note forumunda [burada](https://forum.aspose.co
 ---
 
 **Son Güncelleme:** 2025-12-25  
-**Test Edilen Versiyon:** Aspose.Note for Java 24.12  
+**Test Edilen Versiyon:** Aspose.Note for Java 26.4  
 **Yazar:** Aspose  
 
 {{< /blocks/products/pf/tutorial-page-section >}}

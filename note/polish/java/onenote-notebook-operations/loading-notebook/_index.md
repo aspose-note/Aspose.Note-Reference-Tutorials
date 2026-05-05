@@ -74,7 +74,7 @@ Zastąp `"Your Document Directory"` absolutną ścieżką do folderu, w którym 
 Utwórz instancję `Notebook`, wskazując plik **`.onetoc2`** notesu. To ilustruje drugorzędne słowo kluczowe **load onenote notebook**.
 
 ```java
-Notebook notebook = new Notebook(dataDir + "Notizbuch öffnen.onetoc2");
+Notebook notebook = new Notebook(dataDir + "Notebook.onetoc2");
 ```
 
 ### Krok 3: Iteruj przez zawartość notesu (Wyodrębnij zawartość OneNote)

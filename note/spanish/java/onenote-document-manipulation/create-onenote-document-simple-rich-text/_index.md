@@ -196,7 +196,7 @@ Ahora ha visto cómo **establecer estilo de párrafo**, **añadir elemento de co
 ---
 
 **Última actualización:** 2025-12-08  
-**Probado con:** Aspose.Note para Java 24.11 (última versión)  
+**Probado con:** Aspose.Note para Java 26.4 (última versión)  
 **Autor:** Aspose  
 
 {{< /blocks/products/pf/tutorial-page-section >}}

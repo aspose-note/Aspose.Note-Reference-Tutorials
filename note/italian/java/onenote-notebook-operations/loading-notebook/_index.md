@@ -73,7 +73,7 @@ Sostituisci `"Your Document Directory"` con il percorso assoluto della cartella 
 Crea un'istanza `Notebook` puntando al file **`.onetoc2`** del blocco appunti. Questo dimostra la keyword secondaria **load onenote notebook**.
 
 ```java
-Notebook notebook = new Notebook(dataDir + "Notizbuch öffnen.onetoc2");
+Notebook notebook = new Notebook(dataDir + "Notebook.onetoc2");
 ```
 
 ### Passo 3: Itera sui contenuti del blocco appunti (Estrai contenuto OneNote)

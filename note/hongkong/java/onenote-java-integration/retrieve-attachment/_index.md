@@ -145,7 +145,7 @@ A：有，開發者可透過 Aspose.Note 論壇取得完整支援，網址為 [h
 ---
 
 **最後更新：** 2025-12-31  
-**測試環境：** Aspose.Note for Java 24.11  
+**測試環境：** Aspose.Note for Java 26.4  
 **作者：** Aspose  
 
 {{< /blocks/products/pf/tutorial-page-section >}}

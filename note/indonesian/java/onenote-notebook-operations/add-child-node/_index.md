@@ -58,7 +58,7 @@ Pastikan untuk menentukan direktori tempat dokumen OneNote Anda disimpan.
 ## Langkah 2: Muat Notebook OneNote
 
 ```java
-Notebook notebook = new Notebook(dataDir + "Notizbuch �ffnen.onetoc2");
+Notebook notebook = new Notebook(dataDir + "Notebook.onetoc2");
 ```
 
 Muat notebook OneNote yang ingin Anda modifikasi.
@@ -118,7 +118,7 @@ A7: Mencoba menyimpan perubahan ke notebook yang bersifat read‑only akan melem
 ---
 
 **Terakhir Diperbarui:** 2025-12-25  
-**Diuji Dengan:** Aspose.Note untuk Java 24.10  
+**Diuji Dengan:** Aspose.Note untuk Java 26.4  
 **Penulis:** Aspose  
 
 {{< /blocks/products/pf/tutorial-page-section >}}

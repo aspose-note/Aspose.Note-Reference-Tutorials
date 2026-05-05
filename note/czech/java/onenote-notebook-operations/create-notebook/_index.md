@@ -32,7 +32,7 @@ Než začneme, ujistěte se, že máte připraveno následující:
 
 ### Nainstalovaný Java Development Kit (JDK)
 
-Potřebujete aktuální JDK. Stáhněte jej z [webu Java](https://www.oracle.com/java/technologies/javase-jdk15-downloads.html).
+Potřebujete aktuální JDK. Stáhněte jej z [webu Java](https://www.oracle.com/java/technologies/downloads/).
 
 ### Knihovna Aspose.Note pro Java
 
@@ -118,7 +118,7 @@ Nyní jste se naučili **jak vytvořit OneNote sešity** pomocí Aspose.Note pro
 ---
 
 **Last Updated:** 2025-12-31  
-**Tested With:** Aspose.Note for Java 24.12  
+**Tested With:** Aspose.Note for Java 26.4  
 **Author:** Aspose
 
 {{< /blocks/products/pf/tutorial-page-section >}}

@@ -73,7 +73,7 @@ String dataDir = "Your Document Directory";
 أنشئ كائن `Notebook` بالإشارة إلى ملف **`.onetoc2`** الخاص بدفتر الملاحظات. يوضح ذلك الكلمة المفتاحية الثانوية **load onenote notebook**.
 
 ```java
-Notebook notebook = new Notebook(dataDir + "Notizbuch öffnen.onetoc2");
+Notebook notebook = new Notebook(dataDir + "Notebook.onetoc2");
 ```
 
 ### الخطوة 3: التنقل عبر محتويات دفتر الملاحظات (استخراج محتوى OneNote)

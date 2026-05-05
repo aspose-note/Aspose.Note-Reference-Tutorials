@@ -105,7 +105,7 @@ Teraz wiesz, **jak chronić OneNote**, tworząc plik zabezpieczony hasłem przy 
 ---
 
 **Ostatnia aktualizacja:** 2025-12-02  
-**Testowano z:** Aspose.Note for Java 24.12 (najnowsza w momencie pisania)  
+**Testowano z:** Aspose.Note for Java 26.4 (najnowsza w momencie pisania)  
 **Autor:** Aspose  
 
 {{< /blocks/products/pf/tutorial-page-section >}}

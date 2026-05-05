@@ -132,7 +132,7 @@ try {
 Vytvořte objekt `Image`. První argument může být `null`, když později poskytnete stream, ale pro jednoduchost zde odkazujeme na cestu k souboru a nastavíme jeho zarovnání na pravou stranu stránky.
 
 ```java
-Image image = new Image(null, dataDir + "image1.jpg");
+Image image = new Image(dataDir + "image1.jpg");
 image.setAlignment(HorizontalAlignment.Right);
 ```
 
@@ -214,7 +214,7 @@ A5: Ano, můžete si stáhnout bezplatnou zkušební verzi z stránky vydání A
 ---
 
 **Poslední aktualizace:** 2025-12-21  
-**Testováno s:** Aspose.Note for Java 24.12 (nejnovější v době psaní)  
+**Testováno s:** Aspose.Note for Java 26.4 (nejnovější v době psaní)  
 **Autor:** Aspose  
 
 {{< /blocks/products/pf/tutorial-page-section >}}

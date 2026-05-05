@@ -115,7 +115,7 @@ A: ใช่, คุณสามารถใช้ [free trial](https://releases
 A: คุณสามารถขอ [temporary license](https://purchase.aspose.com/temporary-license/) เพื่อประเมินผลิตภัณฑ์ในช่วงทดลองใช้งาน  
 
 **อัปเดตล่าสุด:** 2025-12-18  
-**ทดสอบกับ:** Aspose.Note 24.12 for Java  
+**ทดสอบกับ:** Aspose.Note 26.4 for Java  
 **ผู้เขียน:** Aspose  
 
 {{< /blocks/products/pf/tutorial-page-section >}}

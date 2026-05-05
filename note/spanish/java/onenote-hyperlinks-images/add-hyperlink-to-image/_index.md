@@ -79,8 +79,8 @@ Page page = new Page();
 Ahora añadimos la imagen a la página y **establecemos el hipervínculo de la imagen** (la acción principal de este tutorial). El método `setHyperlinkUrl` adjunta la URL que proporciones.
 
 ```java
-Image image = new Image(null, dataDir + "image1.jpg");
-image.setHyperlinkUrl("http://www.aspose.com");
+Image image = new Image(dataDir + "image1.jpg");
+image.setHyperlinkUrl("https://www.aspose.com");
 page.appendChildLast(image);
 ```
 
@@ -139,7 +139,7 @@ Añadir un **hipervínculo a una imagen** en OneNote usando Java es sencillo con
 ---
 
 **Última actualización:** 2025-12-20  
-**Probado con:** Aspose.Note for Java 24.11  
+**Probado con:** Aspose.Note for Java 26.4  
 **Autor:** Aspose  
 
 ---

@@ -159,7 +159,7 @@ R: Visite o site oficial da Aspose ou o Maven Central Repository para a versão 
 ---
 
 **Última atualização:** 2025-12-11  
-**Testado com:** Aspose.Note 24.12 for Java  
+**Testado com:** Aspose.Note 26.4 for Java  
 **Autor:** Aspose  
 
 {{< /blocks/products/pf/tutorial-page-section >}}

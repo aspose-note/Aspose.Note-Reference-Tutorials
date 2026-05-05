@@ -87,7 +87,7 @@ Page page = new Page();
 ### 步驟 4：將圖片加入頁面
 
 ```java
-Image image = new Image(null, dataDir + "image.jpg");
+Image image = new Image(dataDir + "image.jpg");
 ```
 
 `Image` 建構子會從指定路徑載入圖片檔案。
@@ -162,7 +162,7 @@ A: 可從 [here](https://releases.aspose.com/) 取得免費試用。
 ---
 
 **最後更新：** 2025-12-23  
-**測試環境：** Aspose.Note for Java 24.11  
+**測試環境：** Aspose.Note for Java 26.4  
 **作者：** Aspose  
 
 {{< /blocks/products/pf/tutorial-page-section >}}

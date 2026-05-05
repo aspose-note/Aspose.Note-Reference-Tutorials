@@ -129,7 +129,7 @@ Použitím **visitor pattern java** s Aspose.Note nyní máte čistý, rozšiři
 ---
 
 **Poslední aktualizace:** 2025-12-09  
-**Testováno s:** Aspose.Note pro Java 24.10  
+**Testováno s:** Aspose.Note pro Java 26.4  
 **Autor:** Aspose  
 
 {{< /blocks/products/pf/tutorial-page-section >}}

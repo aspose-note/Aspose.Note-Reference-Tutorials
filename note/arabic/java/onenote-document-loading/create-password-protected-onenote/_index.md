@@ -103,7 +103,7 @@ document.save(dataDir + "CreatePasswordProtected_out.one", saveOptions);
 ---
 
 **آخر تحديث:** 2025-12-02  
-**تم الاختبار مع:** Aspose.Note for Java 24.12 (latest at time of writing)  
+**تم الاختبار مع:** Aspose.Note for Java 26.4 (latest at time of writing)  
 **المؤلف:** Aspose  
 
 {{< /blocks/products/pf/tutorial-page-section >}}

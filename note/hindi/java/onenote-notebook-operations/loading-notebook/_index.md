@@ -75,7 +75,7 @@ String dataDir = "Your Document Directory";
 नोटबुक की **`.onetoc2`** फ़ाइल पर पॉइंट करके एक `Notebook` इंस्टेंस बनाएं। यह सेकेंडरी कीवर्ड **load onenote notebook** दिखाता है।
 
 ```java
-Notebook notebook = new Notebook(dataDir + "Notizbuch öffnen.onetoc2");
+Notebook notebook = new Notebook(dataDir + "Notebook.onetoc2");
 ```
 
 ### स्टेप 3: नोटबुक कंटेंट में बदलाव करें (OneNote कंटेंट निकालें)

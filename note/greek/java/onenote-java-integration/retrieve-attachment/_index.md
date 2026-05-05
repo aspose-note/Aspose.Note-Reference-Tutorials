@@ -146,7 +146,7 @@ for (AttachedFile a : attachments) {
 ---
 
 **Τελευταία ενημέρωση:** 2025-12-31  
-**Δοκιμασμένο με:** Aspose.Note for Java 24.11  
+**Δοκιμασμένο με:** Aspose.Note for Java 26.4  
 **Συγγραφέας:** Aspose  
 
 {{< /blocks/products/pf/tutorial-page-section >}}

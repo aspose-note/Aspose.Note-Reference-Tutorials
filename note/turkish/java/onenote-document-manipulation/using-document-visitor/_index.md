@@ -129,7 +129,7 @@ Aspose.Note ile **visitor pattern java**'yi uygulayarak, artık OneNote dosyalar
 ---
 
 **Son Güncelleme:** 2025-12-09  
-**Test Edilen Sürüm:** Aspose.Note for Java 24.10  
+**Test Edilen Sürüm:** Aspose.Note for Java 26.4  
 **Yazar:** Aspose  
 
 {{< /blocks/products/pf/tutorial-page-section >}}

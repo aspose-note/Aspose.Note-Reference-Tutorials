@@ -86,7 +86,7 @@ Page page = oneFile.getFirstChild();
 載入您想要插入至 OneNote 文件的圖片。
 
 ```java
-Image image = new Image(oneFile, dataDir + "Input.jpg");
+Image image = new Image(dataDir + "Input.jpg");
 ```
 
 ## 步驟 4：自訂圖片屬性（可選）
@@ -150,7 +150,7 @@ A5：您可前往專屬於 Aspose.Note 產品的[論壇](https://forum.aspose.co
 ---
 
 **最後更新：** 2025-12-21  
-**測試環境：** Aspose.Note for Java 24.10  
+**測試環境：** Aspose.Note for Java 26.4  
 **作者：** Aspose  
 
 {{< /blocks/products/pf/tutorial-page-section >}}

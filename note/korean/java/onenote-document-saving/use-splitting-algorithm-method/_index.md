@@ -128,7 +128,7 @@ A: 제품을 평가할 수 있도록 [임시 라이선스](https://purchase.aspo
 ---
 
 **최종 업데이트:** 2025년 12월 18일
-**테스트 환경:** Aspose.Note 24.12 for Java
+**테스트 환경:** Aspose.Note 26.4 for Java
 **개발자:** Aspose  
 
 {{< /blocks/products/pf/tutorial-page-section >}}

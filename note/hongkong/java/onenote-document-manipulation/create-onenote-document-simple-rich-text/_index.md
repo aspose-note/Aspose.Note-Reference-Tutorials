@@ -195,7 +195,7 @@ A: 官方 Aspose.Note 文件與 [支援論壇](https://forum.aspose.com/c/note/2
 ---
 
 **最後更新：** 2025-12-08  
-**測試環境：** Aspose.Note for Java 24.11（最新發行版）  
+**測試環境：** Aspose.Note for Java 26.4（最新發行版）  
 **作者：** Aspose  
 
 {{< /blocks/products/pf/tutorial-page-section >}}

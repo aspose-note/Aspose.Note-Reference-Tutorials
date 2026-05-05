@@ -123,7 +123,7 @@ R4 : Pour toute question ou problème, vous pouvez visiter le forum de support [
 R5 : Si vous évaluez le produit, vous pouvez obtenir une licence temporaire [ici](https://purchase.aspose.com/temporary-license/).
 
 **Dernière mise à jour :** 2025-12-31  
-**Testé avec :** Aspose.Note 24.11 pour Java  
+**Testé avec :** Aspose.Note 26.4 pour Java  
 **Author:** Aspose
 
 {{< /blocks/products/pf/tutorial-page-section >}}

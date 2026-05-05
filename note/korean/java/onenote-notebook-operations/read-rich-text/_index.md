@@ -124,7 +124,7 @@ A5: [Aspose.Note forum](https://forum.aspose.com/c/note/28)에서 지원 및 도
 ---
 
 **마지막 업데이트:** 2026-01-02  
-**테스트 환경:** Aspose.Note for Java 23.12  
+**테스트 환경:** Aspose.Note for Java 26.4  
 **작성자:** Aspose  
 
 {{< /blocks/products/pf/tutorial-page-section >}}

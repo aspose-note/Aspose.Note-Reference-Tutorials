@@ -143,7 +143,7 @@ oneFile.save(dst, options);
 ---
 
 **최종 업데이트:** 2025-12-17
-**테스트 환경:** Aspose.Note for Java 23.12
+**테스트 환경:** Aspose.Note for Java 26.4
 **작성자:**  
 
 {{< /blocks/products/pf/tutorial-page-section >}}

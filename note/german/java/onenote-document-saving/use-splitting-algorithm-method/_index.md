@@ -129,7 +129,7 @@ A: Sie können eine [temporäre Lizenz](https://purchase.aspose.com/temporary-li
 ---
 
 **Zuletzt aktualisiert:** 2025-12-18  
-**Getestet mit:** Aspose.Note 24.12 für Java  
+**Getestet mit:** Aspose.Note 26.4 für Java  
 **Autor:** Aspose  
 
 {{< /blocks/products/pf/tutorial-page-section >}}

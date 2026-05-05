@@ -129,7 +129,7 @@ R: Você pode solicitar uma [temporary license](https://purchase.aspose.com/temp
 ---
 
 **Última atualização:** 2025-12-18  
-**Testado com:** Aspose.Note 24.12 para Java  
+**Testado com:** Aspose.Note 26.4 para Java  
 **Autor:** Aspose  
 
 {{< /blocks/products/pf/tutorial-page-section >}}

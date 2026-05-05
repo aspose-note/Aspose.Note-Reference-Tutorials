@@ -124,7 +124,7 @@ A5: Je kunt een licentie voor Aspose.Note for Java aanschaffen [hier](https://pu
 ---
 
 **Laatst bijgewerkt:** 2025-12-18  
-**Getest met:** Aspose.Note for Java 24.12  
+**Getest met:** Aspose.Note for Java 26.4  
 **Auteur:** Aspose  
 
 {{< /blocks/products/pf/tutorial-page-section >}}

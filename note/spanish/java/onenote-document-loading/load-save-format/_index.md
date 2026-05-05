@@ -93,7 +93,7 @@ R: La biblioteca es independiente de la plataforma; se ejecuta donde haya una JV
 R: Únase a los foros de Aspose en la [página de la comunidad Aspose.Note](https://forum.aspose.com/c/note/28) para obtener consejos y solucionar problemas.
 
 **Última actualización:** 2025-12-07  
-**Probado con:** Aspose.Note for Java 24.11  
+**Probado con:** Aspose.Note for Java 26.4  
 **Autor:** Aspose  
 
 {{< /blocks/products/pf/tutorial-page-section >}}

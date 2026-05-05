@@ -60,7 +60,7 @@ Stellen Sie sicher, dass Sie das Verzeichnis angeben, in dem Ihre OneNote‑Doku
 ## Schritt 2: OneNote‑Notebook laden
 
 ```java
-Notebook notebook = new Notebook(dataDir + "Notizbuch �ffnen.onetoc2");
+Notebook notebook = new Notebook(dataDir + "Notebook.onetoc2");
 ```
 
 Laden Sie das OneNote‑Notebook, das Sie ändern möchten.
@@ -120,7 +120,7 @@ A7: Der Versuch, Änderungen an einem schreibgeschützten Notebook zu speichern,
 ---
 
 **Zuletzt aktualisiert:** 2025-12-25  
-**Getestet mit:** Aspose.Note für Java 24.10  
+**Getestet mit:** Aspose.Note für Java 26.4  
 **Autor:** Aspose  
 
 {{< /blocks/products/pf/tutorial-page-section >}}

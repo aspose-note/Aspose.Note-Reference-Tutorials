@@ -130,7 +130,7 @@ A5: Ja, je kunt deelnemen aan het community‑forum op [Aspose.Note for Java Sup
 ---
 
 **Laatst bijgewerkt:** 2025-11-30  
-**Getest met:** Aspose.Note for Java 24.12  
+**Getest met:** Aspose.Note for Java 26.4  
 **Auteur:** Aspose  
 
 {{< /blocks/products/pf/tutorial-page-section >}}

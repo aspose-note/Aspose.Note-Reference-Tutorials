@@ -124,7 +124,7 @@ C5: Aspose.Note for Java lisansını [buradan](https://purchase.aspose.com/buy) 
 ---
 
 **Son Güncelleme:** 2025-12-18  
-**Test Edilen Versiyon:** Aspose.Note for Java 24.12  
+**Test Edilen Versiyon:** Aspose.Note for Java 26.4  
 **Yazar:** Aspose  
 
 {{< /blocks/products/pf/tutorial-page-section >}}

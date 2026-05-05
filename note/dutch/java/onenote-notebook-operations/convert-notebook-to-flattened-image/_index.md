@@ -142,7 +142,7 @@ Antwoord 5: U kunt ondersteuning en informatie vinden op het Aspose.Note-forum [
 ---
 
 **Laatst bijgewerkt:** 25-12-2025
-**Getest met:** Aspose.Note voor Java 24.12
+**Getest met:** Aspose.Note voor Java 26.4
 **Auteur:** Aspose 
 
 {{< /blocks/products/pf/tutorial-page-section >}}

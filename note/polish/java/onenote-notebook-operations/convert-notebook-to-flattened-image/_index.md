@@ -143,7 +143,7 @@ Odp5: Wsparcie i zasoby znajdziesz na forum Aspose.Note [tutaj](https://forum.as
 ---
 
 **Ostatnia aktualizacja:** 2025-12-25  
-**Testowano z:** Aspose.Note dla Javy 24.12  
+**Testowano z:** Aspose.Note dla Javy 26.4  
 **Autor:** Aspose  
 
 {{< /blocks/products/pf/tutorial-page-section >}}

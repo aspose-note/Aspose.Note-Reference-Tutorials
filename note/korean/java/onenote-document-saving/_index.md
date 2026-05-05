@@ -156,7 +156,7 @@ A: 아니요. Aspose.Note는 순수 Java 라이브러리이며 Java를 지원하
 A: 공식 Aspose 웹사이트 또는 Maven Central Repository에서 최신 릴리스를 확인하십시오.
 
 **마지막 업데이트:** 2025-12-11  
-**테스트 환경:** Aspose.Note 24.12 for Java  
+**테스트 환경:** Aspose.Note 26.4 for Java  
 **작성자:** Aspose  
 
 {{< /blocks/products/pf/tutorial-page-section >}}

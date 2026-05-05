@@ -107,7 +107,7 @@ doc.save(dataDir + "SetOutputImageResolution_out.jpeg", imageSaveOptions);
 **О:** Да. Перечисление `SaveFormat` включает PNG, BMP, GIF и другие. Замените `SaveFormat.Jpeg` на нужный формат.
 
 **В: Совместима ли Aspose.Note со всеми версиями Java?**  
-**О:** Библиотека работает с Java 1.6 и новее, включая Java 8, 11 и более новые LTS‑версии.
+**О:** Библиотека работает с Java SE 7 и новее, включая Java 8, 11 и более новые LTS‑версии.
 
 **В: Можно ли управлять другими свойствами изображения (например, обрезкой, вращением) в OneNote?**  
 **О:** Да. Aspose.Note предоставляет полный набор API для манипуляций изображениями: изменение размера, обрезка, вращение и регулировка глубины цвета.
@@ -122,7 +122,7 @@ doc.save(dataDir + "SetOutputImageResolution_out.jpeg", imageSaveOptions);
 ---
 
 **Last Updated:** 2025-12-18  
-**Тестировано с:** Aspose.Note for Java 24.12 (latest at time of writing)  
+**Тестировано с:** Aspose.Note for Java 26.4 (latest at time of writing)  
 **Автор:** Aspose  
 
 {{< /blocks/products/pf/tutorial-page-section >}}

@@ -138,7 +138,7 @@ A: Διατίθεται δωρεάν δοκιμαστική έκδοση για 
 ---
 
 **Τελευταία ενημέρωση:** 2025-12-17  
-**Δοκιμή με:** Aspose.Note for Java 23.12  
+**Δοκιμή με:** Aspose.Note for Java 26.4  
 **Συγγραφέας:** Aspose  
 
 {{< /blocks/products/pf/tutorial-page-section >}}

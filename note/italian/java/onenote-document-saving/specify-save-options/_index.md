@@ -143,7 +143,7 @@ R5: Sì, una licenza commerciale consente di utilizzare la libreria in ambienti 
 ---
 
 **Ultimo aggiornamento:** 2025-12-18  
-**Testato con:** Aspose.Note per Java 24.12 (ultima versione)  
+**Testato con:** Aspose.Note per Java 26.4 (ultima versione)  
 **Autore:** Aspose  
 
 {{< /blocks/products/pf/tutorial-page-section >}}

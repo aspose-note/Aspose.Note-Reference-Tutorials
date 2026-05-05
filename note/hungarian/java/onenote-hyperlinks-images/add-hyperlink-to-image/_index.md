@@ -79,8 +79,8 @@ Page page = new Page();
 Most adjuk hozzá a képet az oldalhoz, és **állítsuk be a kép hiperhivatkozását** (az útmutató fő művelete). A `setHyperlinkUrl` metódus csatolja a megadott URL-t.
 
 ```java
-Image image = new Image(null, dataDir + "image1.jpg");
-image.setHyperlinkUrl("http://www.aspose.com");
+Image image = new Image(dataDir + "image1.jpg");
+image.setHyperlinkUrl("https://www.aspose.com");
 page.appendChildLast(image);
 ```
 
@@ -139,7 +139,7 @@ A **kép hiperhivatkozás hozzáadása a OneNote-ban Java használatával** egys
 ---
 
 **Utolsó frissítés:** 2025-12-20  
-**Tesztelve:** Aspose.Note for Java 24.11  
+**Tesztelve:** Aspose.Note for Java 26.4  
 **Szerző:** Aspose
 
 {{< /blocks/products/pf/tutorial-page-section >}}

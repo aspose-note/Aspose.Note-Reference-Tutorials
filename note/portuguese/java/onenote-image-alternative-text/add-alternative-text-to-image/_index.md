@@ -89,7 +89,7 @@ Uma página hospedará a imagem que estamos prestes a adicionar.
 ### Passo 4: Adicionar uma Imagem à Página
 
 ```java
-Image image = new Image(null, dataDir + "image.jpg");
+Image image = new Image(dataDir + "image.jpg");
 ```
 
 O construtor `Image` carrega o arquivo de imagem a partir do caminho especificado.
@@ -164,7 +164,7 @@ Seguindo este guia passo a passo, você agora sabe **how to add alt** texto a im
 ---
 
 **Última Atualização:** 2025-12-23  
-**Testado com:** Aspose.Note for Java 24.11  
+**Testado com:** Aspose.Note for Java 26.4  
 **Autor:** Aspose  
 
 {{< /blocks/products/pf/tutorial-page-section >}}

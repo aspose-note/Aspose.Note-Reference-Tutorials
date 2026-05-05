@@ -143,7 +143,7 @@ A5: Igen, egy kereskedelmi licenc lehetővé teszi a könyvtár használatát te
 ---
 
 **Utolsó frissítés:** 2025-12-18  
-**Tesztelve:** Aspose.Note for Java 24.12 (legújabb)  
+**Tesztelve:** Aspose.Note for Java 26.4 (legújabb)  
 **Szerző:** Aspose  
 
 {{< /blocks/products/pf/tutorial-page-section >}}

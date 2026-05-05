@@ -143,7 +143,7 @@ A5: Có, giấy phép thương mại cho phép bạn sử dụng thư viện tro
 ---
 
 **Cập nhật lần cuối:** 2025-12-18
-**Kiểm tra với:** Aspose.Note for Java 24.12 (mới nhất)
+**Kiểm tra với:** Aspose.Note for Java 26.4 (mới nhất)
 **Tác giả:** Aspose 
 
 {{< /blocks/products/pf/tutorial-page-section >}}

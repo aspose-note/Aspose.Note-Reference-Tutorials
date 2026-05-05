@@ -87,7 +87,7 @@ Page page = new Page();
 ### 步骤 4：向页面添加图像
 
 ```java
-Image image = new Image(null, dataDir + "image.jpg");
+Image image = new Image(dataDir + "image.jpg");
 ```
 
 `Image` 构造函数从指定路径加载图像文件。
@@ -162,7 +162,7 @@ A: 您可以从 [here](https://releases.aspose.com/) 获取免费试用。
 ---
 
 **最后更新：** 2025-12-23  
-**测试环境：** Aspose.Note for Java 24.11  
+**测试环境：** Aspose.Note for Java 26.4  
 **作者：** Aspose  
 
 {{< /blocks/products/pf/tutorial-page-section >}}

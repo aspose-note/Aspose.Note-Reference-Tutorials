@@ -66,7 +66,7 @@ Aspose.Note.Page page = new Aspose.Note.Page(doc);
 ### Bước 3: Khởi tạo đối tượng Outline
 
 ```csharp
-Outline outline = new Outline(doc);
+Outline outline = new Outline();
 ```
 
  MỘT`Outline` đối tượng được tạo để sắp xếp nội dung trong trang.
@@ -74,7 +74,7 @@ Outline outline = new Outline(doc);
 ### Bước 4: Khởi tạo đối tượng OutlineElement
 
 ```csharp
-OutlineElement outlineElem = new OutlineElement(doc);
+OutlineElement outlineElem = new OutlineElement();
 ```
 
 `OutlineElement` đại diện cho một phần tử trong cấu trúc phác thảo.
@@ -82,7 +82,7 @@ OutlineElement outlineElem = new OutlineElement(doc);
 ### Bước 5: Khởi tạo đối tượng AttachedFile
 
 ```csharp
-AttachedFile attachedFile = new AttachedFile(doc,  dataDir + "attachment.txt");
+AttachedFile attachedFile = new AttachedFile(dataDir + "attachment.txt");
 ```
 
  Ở đây, chúng ta tạo một thể hiện của`AttachedFile`, chỉ định đường dẫn đến tệp chúng tôi muốn đính kèm.

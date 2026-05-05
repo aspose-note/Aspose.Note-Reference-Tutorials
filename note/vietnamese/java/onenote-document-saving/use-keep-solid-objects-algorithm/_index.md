@@ -124,7 +124,7 @@ A5: Bạn có thể mua giấy phép cho Aspose.Note for Java [đây](https://pu
 ---
 
 **Cập nhật lần cuối:** 2025-12-18  
-**Kiểm tra với:** Aspose.Note for Java 24.12  
+**Kiểm tra với:** Aspose.Note for Java 26.4  
 **Tác giả:** Aspose  
 
 {{< /blocks/products/pf/tutorial-page-section >}}

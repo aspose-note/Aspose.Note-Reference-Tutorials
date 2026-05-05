@@ -133,7 +133,7 @@ try {
 Créez un objet `Image`. Le premier argument peut être `null` lorsque vous fournissez un flux ultérieurement, mais pour simplifier nous référencions ici le chemin du fichier et définissons son alignement sur le côté droit de la page.
 
 ```java
-Image image = new Image(null, dataDir + "image1.jpg");
+Image image = new Image(dataDir + "image1.jpg");
 image.setAlignment(HorizontalAlignment.Right);
 ```
 
@@ -215,7 +215,7 @@ R5 : Oui, vous pouvez télécharger une version d’essai gratuite depuis la p
 ---
 
 **Dernière mise à jour :** 2025-12-21  
-**Testé avec :** Aspose.Note for Java 24.12 (dernière version au moment de la rédaction)  
+**Testé avec :** Aspose.Note for Java 26.4 (dernière version au moment de la rédaction)  
 **Auteur :** Aspose  
 
 {{< /blocks/products/pf/tutorial-page-section >}}

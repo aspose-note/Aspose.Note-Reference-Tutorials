@@ -137,7 +137,7 @@ A: वैल्यूएशन के लिए एक फ्री ट्रा
 ---
 
 **आखिरी अपडेट:** 2025-12-17
-**इसके साथ टेस्ट किया गया:** Aspose.Note for Java 23.12
+**इसके साथ टेस्ट किया गया:** Aspose.Note for Java 26.4
 **लेखक:** Aspose  
 
 {{< /blocks/products/pf/tutorial-page-section >}}

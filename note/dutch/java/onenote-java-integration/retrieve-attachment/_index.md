@@ -146,7 +146,7 @@ A: Ja, ontwikkelaars hebben toegang tot uitgebreide ondersteuning via het Aspose
 ---
 
 **Laatst bijgewerkt:** 2025-12-31  
-**Getest met:** Aspose.Note for Java 24.11  
+**Getest met:** Aspose.Note for Java 26.4  
 **Auteur:** Aspose  
 
 {{< /blocks/products/pf/tutorial-page-section >}}

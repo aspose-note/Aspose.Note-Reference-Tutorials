@@ -168,7 +168,7 @@ A: 许可证可在 [Aspose website](https://purchase.aspose.com/buy) 购买。
 ---
 
 **最后更新：** 2025-12-02  
-**测试环境：** Aspose.Note for Java 24.12  
+**测试环境：** Aspose.Note for Java 26.4  
 **作者：** Aspose  
 
 {{< /blocks/products/pf/tutorial-page-section >}}

@@ -137,7 +137,7 @@ Ora sai **come salvare PDF** da file OneNote usando Aspose.Note per Java, con pi
 ---
 
 **Ultimo aggiornamento:** 2025-12-17  
-**Testato con:** Aspose.Note per Java 23.12  
+**Testato con:** Aspose.Note per Java 26.4  
 **Autore:** Aspose  
 
 {{< /blocks/products/pf/tutorial-page-section >}}

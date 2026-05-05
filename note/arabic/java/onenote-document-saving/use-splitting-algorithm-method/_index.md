@@ -125,7 +125,7 @@ try {
 ج: يمكنك طلب [temporary license](https://purchase.aspose.com/temporary-license/) لتقييم المنتج خلال فترة التجربة.
 
 **آخر تحديث:** 2025-12-18  
-**تم الاختبار مع:** Aspose.Note 24.12 for Java  
+**تم الاختبار مع:** Aspose.Note 26.4 for Java  
 **المؤلف:** Aspose  
 
 {{< /blocks/products/pf/tutorial-page-section >}}

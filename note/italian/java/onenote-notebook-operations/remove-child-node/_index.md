@@ -32,7 +32,7 @@ In questo tutorial scoprirai **come rimuovere un nodo** — in particolare u
 
 Prima di iniziare, assicurati di aver configurato i seguenti prerequisiti:
 
-1. **Java Development Kit (JDK)** – Verifica di avere Java installato sul tuo sistema. Puoi scaricare e installare l'ultima versione del JDK da [qui](https://www.oracle.com/java/technologies/javase-jdk15-downloads.html).
+1. **Java Development Kit (JDK)** – Verifica di avere Java installato sul tuo sistema. Puoi scaricare e installare l'ultima versione del JDK da [qui](https://www.oracle.com/java/technologies/downloads/).
 
 2. **Aspose.Note per Java** – Scarica e installa la libreria Aspose.Note per Java dal [sito web](https://purchase.aspose.com/buy). Puoi anche ottenere una versione di prova gratuita da [qui](https://releases.aspose.com/).
 
@@ -137,7 +137,7 @@ In questo tutorial abbiamo illustrato **come rimuovere un nodo** — in part
 ---
 
 **Ultimo aggiornamento:** 2026-01-02  
-**Testato con:** Aspose.Note 24.11 per Java  
+**Testato con:** Aspose.Note 26.4 per Java  
 **Autore:** Aspose  
 
 ---

@@ -21,7 +21,7 @@ In questo tutorial esploreremo come convertire un notebook in un'immagine in One
 
 Prima di iniziare, assicurati di avere quanto segue:
 
-1.  Java Development Kit (JDK): assicurati di avere Java installato sul tuo sistema. È possibile scaricare e installare la versione più recente da[sito web](https://www.oracle.com/java/technologies/javase-jdk15-downloads.html).
+1.  Java Development Kit (JDK): assicurati di avere Java installato sul tuo sistema. È possibile scaricare e installare la versione più recente da[sito web](https://www.oracle.com/java/technologies/downloads/).
 
 2.  Aspose.Note per la libreria Java: scarica e includi la libreria Aspose.Note per Java nel tuo progetto. È possibile ottenere la libreria da[Sito web Aspose](https://releases.aspose.com/note/java/).
 

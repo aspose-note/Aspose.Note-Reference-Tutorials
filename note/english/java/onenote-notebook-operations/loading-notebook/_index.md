@@ -72,7 +72,7 @@ Replace `"Your Document Directory"` with the absolute path to the folder that ho
 Create a `Notebook` instance by pointing to the notebook’s **`.onetoc2`** file. This demonstrates the secondary keyword **load onenote notebook**.
 
 ```java
-Notebook notebook = new Notebook(dataDir + "Notizbuch öffnen.onetoc2");
+Notebook notebook = new Notebook(dataDir + "Notebook.onetoc2");
 ```
 
 ### Step 3: Iterate Through Notebook Contents (Extract OneNote Content)

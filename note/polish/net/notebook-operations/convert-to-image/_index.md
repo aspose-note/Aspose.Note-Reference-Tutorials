@@ -42,7 +42,7 @@ Na początek musimy załadować notatnik OneNote, który chcemy przekonwertować
 
 ```csharp
 string dataDir = "Your Document Directory";
-var notebook = new Notebook(dataDir + "Notizbuch �ffnen.onetoc2");
+var notebook = new Notebook(dataDir + "Notebook.onetoc2");
 ```
 
 ## Krok 2: Zapisz notatnik jako obraz

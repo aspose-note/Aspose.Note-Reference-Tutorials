@@ -166,7 +166,7 @@ Bạn đã có một bộ công cụ **java tiff conversion** hoàn chỉnh, cho
 ---
 
 **Last Updated:** 2025-12-17  
-**Tested With:** Aspose.Note for Java 23.12 (phiên bản mới nhất tại thời điểm viết)  
+**Tested With:** Aspose.Note for Java 26.4 (phiên bản mới nhất tại thời điểm viết)  
 **Author:** Aspose  
 
 {{< /blocks/products/pf/tutorial-page-section >}}

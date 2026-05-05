@@ -58,7 +58,7 @@ Se till att ange katalogen där dina OneNote-dokument lagras.
 ## Steg 2: Ladda OneNote-anteckningsboken
 
 ```java
-Notebook notebook = new Notebook(dataDir + "Notizbuch �ffnen.onetoc2");
+Notebook notebook = new Notebook(dataDir + "Notebook.onetoc2");
 ```
 
 Ladda OneNote-anteckningsboken du vill ändra.
@@ -118,7 +118,7 @@ A7: Att försöka spara ändringar i en skrivskyddad anteckningsbok kommer att k
 ---
 
 **Last Updated:** 2025-12-25  
-**Tested With:** Aspose.Note for Java 24.10  
+**Tested With:** Aspose.Note for Java 26.4  
 **Author:** Aspose  
 
 {{< /blocks/products/pf/tutorial-page-section >}}

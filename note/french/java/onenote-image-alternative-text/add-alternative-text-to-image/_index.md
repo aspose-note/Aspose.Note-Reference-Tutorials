@@ -89,7 +89,7 @@ Une page hébergera l'image que nous allons ajouter.
 ### Étape 4 : Ajouter une image à la page
 
 ```java
-Image image = new Image(null, dataDir + "image.jpg");
+Image image = new Image(dataDir + "image.jpg");
 ```
 
 Le constructeur `Image` charge le fichier image depuis le chemin spécifié.
@@ -164,7 +164,7 @@ En suivant ce guide étape par étape, vous savez maintenant **comment ajouter a
 ---
 
 **Dernière mise à jour :** 23/12/2025
-**Testé avec :** Aspose.Note pour Java 24.11
+**Testé avec :** Aspose.Note pour Java 26.4
 **Auteur :** Aspose  
 
 {{< /blocks/products/pf/tutorial-page-section >}}

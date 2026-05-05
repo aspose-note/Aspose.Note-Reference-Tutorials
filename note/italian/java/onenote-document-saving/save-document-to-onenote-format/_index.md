@@ -116,7 +116,7 @@ In questa guida abbiamo coperto tutto ciò che devi sapere per **esportare il do
 ---
 
 **Ultimo aggiornamento:** 2025-12-11  
-**Testato con:** Aspose.Note 24.11 per Java  
+**Testato con:** Aspose.Note 26.4 per Java  
 **Autore:** Aspose  
 
 {{< /blocks/products/pf/tutorial-page-section >}}

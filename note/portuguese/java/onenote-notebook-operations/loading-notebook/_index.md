@@ -73,7 +73,7 @@ Substitua `"Your Document Directory"` pelo caminho absoluto da pasta que contém
 Crie uma instância `Notebook` apontando para o arquivo **`.onetoc2`** do caderno. Isto demonstra a palavra‑chave secundária **load onenote notebook**.
 
 ```java
-Notebook notebook = new Notebook(dataDir + "Notizbuch öffnen.onetoc2");
+Notebook notebook = new Notebook(dataDir + "Notebook.onetoc2");
 ```
 
 ### Etapa 3: Iterar pelo Conteúdo do Caderno (Extrair Conteúdo OneNote)

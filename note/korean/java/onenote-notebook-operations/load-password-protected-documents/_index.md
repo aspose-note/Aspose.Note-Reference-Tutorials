@@ -54,7 +54,7 @@ String dataDir = "Your Document Directory";
 
 NotebookLoadOptions loadOptions = new NotebookLoadOptions();
 loadOptions.setDeferredLoading(true);
-Notebook notebook = new Notebook(dataDir + "Notizbuch öffnen.onetoc2", loadOptions);
+Notebook notebook = new Notebook(dataDir + "Notebook.onetoc2", loadOptions);
 notebook.loadChildDocument(dataDir + "Neuer Abschnitt 1.one");
 ```
 
@@ -97,7 +97,7 @@ A: 예, 구매 전 기능을 살펴볼 수 있도록 [here](https://releases.asp
 ---
 
 **마지막 업데이트:** 2026-01-02  
-**테스트 환경:** Aspose.Note 24.12 for Java  
+**테스트 환경:** Aspose.Note 26.4 for Java  
 **작성자:** Aspose  
 
 {{< /blocks/products/pf/tutorial-page-section >}}

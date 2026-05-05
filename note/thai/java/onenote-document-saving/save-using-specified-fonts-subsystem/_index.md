@@ -23,7 +23,7 @@ weight: 22
 - **API ใดจัดการฟอนต์?** `DocumentFontsSubsystem` ให้คุณกำหนดฟอนต์เริ่มต้นหรือโหลดไฟล์/สตรีมฟอนต์ที่กำหนดเอง.  
 - **ต้องการไลเซนส์สำหรับการใช้งานจริงหรือไม่?** ใช่, จำเป็นต้องมีไลเซนส์เชิงพาณิชย์ของ Aspose.Note สำหรับการใช้งานที่ไม่ใช่แบบทดลอง.  
 - **สามารถแปลงหลายไฟล์พร้อมกันได้หรือไม่?** แน่นอน – เพียงวนลูปการโหลดและบันทึก `Document`.  
-- **ต้องการเวอร์ชัน Java ใด?** Java 15 หรือใหม่กว่า (ตัวอย่างใช้ JDK 15).
+- **ต้องการเวอร์ชัน Java ใด?** Java 8 หรือใหม่กว่า (ตัวอย่างใช้ JDK 8).
 
 ## “save OneNote as PDF” กับระบบฟอนต์คืออะไร?
 
@@ -39,7 +39,7 @@ weight: 22
 
 ### 1. Java Development Kit (JDK)
 
-ตรวจสอบว่าคุณได้ติดตั้ง Java Development Kit (JDK) บนระบบของคุณแล้ว คุณสามารถดาวน์โหลดได้จาก [ที่นี่](https://www.oracle.com/java/technologies/javase-jdk15-downloads.html) หากยังไม่ได้ทำ.
+ตรวจสอบว่าคุณได้ติดตั้ง Java Development Kit (JDK) บนระบบของคุณแล้ว คุณสามารถดาวน์โหลดได้จาก [ที่นี่](https://www.oracle.com/java/technologies/downloads/) หากยังไม่ได้ทำ.
 
 ### 2. ไลบรารี Aspose.Note for Java
 
@@ -181,7 +181,7 @@ public static void SaveUsingDocumentFontsSubsystemWithDefaultFontFromStream() th
 ---
 
 **อัปเดตล่าสุด:** 2025-12-18  
-**ทดสอบกับ:** Aspose.Note for Java 24.11  
+**ทดสอบกับ:** Aspose.Note for Java 26.4  
 **ผู้เขียน:** Aspose  
 
 {{< /blocks/products/pf/tutorial-page-section >}}

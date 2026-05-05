@@ -146,7 +146,7 @@ A: Sim, desenvolvedores podem acessar suporte completo através do fórum Aspose
 ---
 
 **Última atualização:** 2025-12-31  
-**Testado com:** Aspose.Note for Java 24.11  
+**Testado com:** Aspose.Note for Java 26.4  
 **Autor:** Aspose  
 
 {{< /blocks/products/pf/tutorial-page-section >}}

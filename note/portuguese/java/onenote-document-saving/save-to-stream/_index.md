@@ -120,7 +120,7 @@ A: Sim, Aspose.Note preserva imagens, gráficos e outros objetos incorporados du
 
 ---
 **Última Atualização:** 2025-12-17  
-**Testado Com:** Aspose.Note para Java 24.12 (mais recente)  
+**Testado Com:** Aspose.Note para Java 26.4 (mais recente)  
 **Autor:** Aspose  
 
 {{< /blocks/products/pf/tutorial-page-section >}}

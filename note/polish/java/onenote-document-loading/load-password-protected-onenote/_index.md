@@ -109,7 +109,7 @@ O: Tak. API jest niezależne od platformy i działa równie dobrze w kontenerach
 O: Po pomyślnym załadowaniu dokumentu możesz przeglądać jego strony i wyodrębniać obrazy przy użyciu standardowego API Aspose.Note.
 
 **Ostatnia aktualizacja:** 2025-12-11  
-**Testowano z:** Aspose.Note for Java 24.12  
+**Testowano z:** Aspose.Note for Java 26.4  
 **Autor:** Aspose  
 
 {{< /blocks/products/pf/tutorial-page-section >}}

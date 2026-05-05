@@ -124,7 +124,7 @@ En esta guía demostramos **cómo leer texto enriquecido de OneNote** usando Asp
 ---
 
 **Última actualización:** 2026-01-02  
-**Probado con:** Aspose.Note for Java 23.12  
+**Probado con:** Aspose.Note for Java 26.4  
 **Autor:** Aspose  
 
 {{< /blocks/products/pf/tutorial-page-section >}}

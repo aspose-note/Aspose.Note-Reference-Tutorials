@@ -129,7 +129,7 @@ Abbiamo coperto tutto ciò che ti serve per **salvare OneNote come immagine** us
 ---
 
 **Last Updated:** 2025-12-17  
-**Testato con:** Aspose.Note per Java 23.12 (latest at time of writing)  
+**Testato con:** Aspose.Note per Java 26.4 (latest at time of writing)  
 **Autore:** Aspose  
 
 {{< /blocks/products/pf/tutorial-page-section >}}

@@ -166,7 +166,7 @@ Artık **java tiff conversion** araç setinizle OneNote belgelerini JPEG, PackBi
 ---
 
 **Son Güncelleme:** 2025-12-17  
-**Test Edilen Versiyon:** Aspose.Note for Java 23.12 (yazım anındaki en yeni)  
+**Test Edilen Versiyon:** Aspose.Note for Java 26.4 (yazım anındaki en yeni)  
 **Yazar:** Aspose  
 
 {{< /blocks/products/pf/tutorial-page-section >}}

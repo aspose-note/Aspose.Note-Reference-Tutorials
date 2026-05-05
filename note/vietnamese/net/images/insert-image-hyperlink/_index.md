@@ -41,7 +41,7 @@ using System.Text;
 
 ```csharp
 var document = new Document();
-var page = new Page(document);
+var page = new Page();
 ```
 
 ## Bước 2: Chèn ảnh bằng Hyperlink
@@ -50,7 +50,7 @@ Bây giờ, hãy chèn hình ảnh có siêu liên kết. Chúng tôi sẽ tạo
 
 ```csharp
 string imagePath = "path_to_your_image.jpg";
-var image = new Image(document, imagePath) { HyperlinkUrl = "http://example.com" };
+var image = new Image(imagePath) { HyperlinkUrl = "https://example.com" };
 ```
 
 ## Bước 3: Nối hình ảnh vào trang

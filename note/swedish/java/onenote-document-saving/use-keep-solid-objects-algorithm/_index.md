@@ -124,7 +124,7 @@ A5: Du kan köpa en licens för Aspose.Note för Java [här](https://purchase.as
 ---
 
 **Senast uppdaterad:** 2025-12-18  
-**Testat med:** Aspose.Note for Java 24.12  
+**Testat med:** Aspose.Note for Java 26.4  
 **Författare:** Aspose  
 
 {{< /blocks/products/pf/tutorial-page-section >}}

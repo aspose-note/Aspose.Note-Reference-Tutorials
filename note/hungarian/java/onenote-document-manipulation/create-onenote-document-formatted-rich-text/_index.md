@@ -169,7 +169,7 @@ Ebben az útmutatóban bemutattuk, hogyan **mentheted a OneNote‑ot PDF‑ként
 ---
 
 **Utoljára frissítve:** 2025-12-09  
-**Tesztelt verzió:** Aspose.Note for Java 24.11 (a írás időpontjában legújabb)  
+**Tesztelt verzió:** Aspose.Note for Java 26.4 (a írás időpontjában legújabb)  
 **Szerző:** Aspose  
 
 {{< /blocks/products/pf/tutorial-page-section >}}

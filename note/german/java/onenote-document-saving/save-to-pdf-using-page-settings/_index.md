@@ -137,7 +137,7 @@ Sie wissen jetzt **wie Sie PDF** aus OneNote‑Dateien mit Aspose.Note für Java
 ---
 
 **Zuletzt aktualisiert:** 2025-12-17  
-**Getestet mit:** Aspose.Note für Java 23.12  
+**Getestet mit:** Aspose.Note für Java 26.4  
 **Autor:** Aspose  
 
 {{< /blocks/products/pf/tutorial-page-section >}}

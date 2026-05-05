@@ -166,7 +166,7 @@ Sie verfügen nun über ein vollständiges **Java‑TIFF‑Konvertierungs‑Tool
 ---
 
 **Last Updated:** 2025-12-17  
-**Tested With:** Aspose.Note für Java 23.12 (aktuell zum Zeitpunkt der Erstellung)  
+**Tested With:** Aspose.Note für Java 26.4 (aktuell zum Zeitpunkt der Erstellung)  
 **Autor:** Aspose  
 
 {{< /blocks/products/pf/tutorial-page-section >}}

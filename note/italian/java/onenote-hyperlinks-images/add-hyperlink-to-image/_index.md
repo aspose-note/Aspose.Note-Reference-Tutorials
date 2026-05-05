@@ -79,8 +79,8 @@ Page page = new Page();
 Ora aggiungiamo l'immagine alla pagina e **impostiamo il collegamento ipertestuale dell'immagine** (l'azione principale di questo tutorial). Il metodo `setHyperlinkUrl` associa l'URL fornito.
 
 ```java
-Image image = new Image(null, dataDir + "image1.jpg");
-image.setHyperlinkUrl("http://www.aspose.com");
+Image image = new Image(dataDir + "image1.jpg");
+image.setHyperlinkUrl("https://www.aspose.com");
 page.appendChildLast(image);
 ```
 
@@ -139,7 +139,7 @@ Aggiungere un **collegamento ipertestuale a un'immagine** in OneNote usando Java
 ---
 
 **Last Updated:** 2025-12-20  
-**Tested With:** Aspose.Note for Java 24.11  
+**Tested With:** Aspose.Note for Java 26.4  
 **Author:** Aspose
 
 {{< /blocks/products/pf/tutorial-page-section >}}

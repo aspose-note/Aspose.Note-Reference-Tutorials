@@ -72,7 +72,7 @@ String dataDir = "Your Document Directory";
 透過指向筆記本的 **`.onetoc2`** 檔案來建立 `Notebook` 實例。此示範次要關鍵字 **load onenote notebook**。
 
 ```java
-Notebook notebook = new Notebook(dataDir + "Notizbuch öffnen.onetoc2");
+Notebook notebook = new Notebook(dataDir + "Notebook.onetoc2");
 ```
 
 ### 步驟 3：遍歷筆記本內容（提取 OneNote 內容）

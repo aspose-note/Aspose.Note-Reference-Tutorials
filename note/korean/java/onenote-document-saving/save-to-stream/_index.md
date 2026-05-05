@@ -119,7 +119,7 @@ A: `Document` 생성자에 비밀번호를 제공하면 Aspose.Note가 비밀번
 A: 예, Aspose.Note는 변환 과정에서 이미지, 차트 및 기타 삽입된 객체를 보존합니다.
 
 **마지막 업데이트:** 2025-12-17  
-**테스트 환경:** Aspose.Note for Java 24.12 (latest)  
+**테스트 환경:** Aspose.Note for Java 26.4 (latest)  
 **작성자:** Aspose  
 
 {{< /blocks/products/pf/tutorial-page-section >}}

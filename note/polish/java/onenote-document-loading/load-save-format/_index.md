@@ -97,7 +97,7 @@ A: Dołącz do forów Aspose na [stronie społeczności Aspose.Note](https://for
 ---
 
 **Ostatnia aktualizacja:** 2025-12-07  
-**Testowano z:** Aspose.Note for Java 24.11  
+**Testowano z:** Aspose.Note for Java 26.4  
 **Autor:** Aspose  
 
 {{< /blocks/products/pf/tutorial-page-section >}}

@@ -79,8 +79,8 @@ Page page = new Page();
 Şimdi görseli sayfaya ekliyoruz ve **görsel bağlantısını ayarlıyoruz** (bu öğreticinin temel eylemi). `setHyperlinkUrl` yöntemi, sağladığınız URL'yi ekler.
 
 ```java
-Image image = new Image(null, dataDir + "image1.jpg");
-image.setHyperlinkUrl("http://www.aspose.com");
+Image image = new Image(dataDir + "image1.jpg");
+image.setHyperlinkUrl("https://www.aspose.com");
 page.appendChildLast(image);
 ```
 
@@ -139,7 +139,7 @@ Java kullanarak OneNote'ta **görsele bağlantı eklemek**, Aspose.Note ile oldu
 ---
 
 **Son Güncelleme:** 2025-12-20  
-**Test Edilen:** Aspose.Note for Java 24.11  
+**Test Edilen:** Aspose.Note for Java 26.4  
 **Yazar:** Aspose
 
 {{< /blocks/products/pf/tutorial-page-section >}}

@@ -83,7 +83,7 @@ Page page = oneFile.getFirstChild();
 जिस छवि को आप OneNote दस्तावेज़ में सम्मिलित करना चाहते हैं, उसे लोड करें।
 
 ```java
-Image image = new Image(oneFile, dataDir + "Input.jpg");
+Image image = new Image(dataDir + "Input.jpg");
 ```
 
 ## चरण 4: छवि गुण अनुकूलित करें (वैकल्पिक)
@@ -147,7 +147,7 @@ A5: आप Aspose.Note उत्पादों के लिए समर्प
 ---
 
 **Last Updated:** 2025-12-21  
-**Tested With:** Aspose.Note for Java 24.10  
+**Tested With:** Aspose.Note for Java 26.4  
 **Author:** Aspose  
 
 {{< /blocks/products/pf/tutorial-page-section >}}

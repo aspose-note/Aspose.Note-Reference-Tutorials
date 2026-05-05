@@ -135,7 +135,7 @@ S: Du kan begära en [tillfällig licens](https://purchase.aspose.com/temporary-
 ---
 
 **Senast uppdaterad:** 2025-12-18
-**Testad med:** Aspose.Note 24.12 för Java
+**Testad med:** Aspose.Note 26.4 för Java
 **Författare:** Aspose 
 
 {{< /blocks/products/pf/tutorial-page-section >}}

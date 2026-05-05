@@ -30,7 +30,7 @@ weight: 24
 
 قبل أن نبدأ، تأكد من إعداد المتطلبات التالية:
 
-1. **Java Development Kit (JDK)** – تأكد من تثبيت Java على نظامك. يمكنك تنزيل وتثبيت أحدث JDK من [here](https://www.oracle.com/java/technologies/javase-jdk15-downloads.html).
+1. **Java Development Kit (JDK)** – تأكد من تثبيت Java على نظامك. يمكنك تنزيل وتثبيت أحدث JDK من [here](https://www.oracle.com/java/technologies/downloads/).
 
 2. **Aspose.Note for Java** – قم بتنزيل وتثبيت مكتبة Aspose.Note for Java من [website](https://purchase.aspose.com/buy). يمكنك أيضًا الحصول على نسخة تجريبية مجانية من [here](https://releases.aspose.com/).
 
@@ -135,7 +135,7 @@ notebook.save(dataDir);
 ---
 
 **آخر تحديث:** 2026-01-02  
-**تم الاختبار مع:** Aspose.Note 24.11 for Java  
+**تم الاختبار مع:** Aspose.Note 26.4 for Java  
 **المؤلف:** Aspose  
 
 ---

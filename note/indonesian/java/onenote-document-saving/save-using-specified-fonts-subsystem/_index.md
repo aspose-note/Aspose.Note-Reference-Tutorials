@@ -25,7 +25,7 @@ Dalam banyak skenario bisnis Anda perlu **menyimpan OneNote sebagai PDF** sambil
 - **API mana yang menangani font?** `DocumentFontsSubsystem` memungkinkan Anda menentukan font default atau memuat file/stream font khusus.  
 - **Apakah saya memerlukan lisensi untuk produksi?** Ya, lisensi komersial Aspose.Note diperlukan untuk penggunaan non‑trial.  
 - **Bisakah saya mengonversi beberapa file sekaligus?** Tentu – cukup lakukan perulangan pada logika pemuatan dan penyimpanan `Document`.  
-- **Versi Java apa yang dibutuhkan?** Java 15 atau lebih baru (contoh menggunakan JDK 15).
+- **Versi Java apa yang dibutuhkan?** Java 8 atau lebih baru (contoh menggunakan JDK 8).
 
 ## Apa itu “simpan OneNote sebagai PDF” dengan subsystem font?
 
@@ -41,7 +41,7 @@ Menyimpan OneNote sebagai PDF dengan subsystem font berarti bahwa selama proses 
 
 ### 1. Java Development Kit (JDK)
 
-Pastikan Anda telah menginstal Java Development Kit (JDK) di sistem Anda. Anda dapat mengunduhnya dari [here](https://www.oracle.com/java/technologies/javase-jdk15-downloads.html) jika belum.
+Pastikan Anda telah menginstal Java Development Kit (JDK) di sistem Anda. Anda dapat mengunduhnya dari [here](https://www.oracle.com/java/technologies/downloads/) jika belum.
 
 ### 2. Perpustakaan Aspose.Note untuk Java
 
@@ -184,7 +184,7 @@ Pada tutorial ini kami mempelajari cara **menyimpan OneNote sebagai PDF** sambil
 ---
 
 **Terakhir Diperbarui:** 2025-12-18  
-**Diuji Dengan:** Aspose.Note untuk Java 24.11  
+**Diuji Dengan:** Aspose.Note untuk Java 26.4  
 **Penulis:** Aspose  
 
 {{< /blocks/products/pf/tutorial-page-section >}}

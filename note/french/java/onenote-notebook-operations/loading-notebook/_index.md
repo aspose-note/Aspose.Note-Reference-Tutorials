@@ -74,7 +74,7 @@ Remplacez `"Your Document Directory"` par le chemin absolu du dossier qui contie
 Créez une instance `Notebook` en pointant vers le fichier **`.onetoc2`** du carnet. Cela illustre le mot‑clé secondaire **load onenote notebook**.
 
 ```java
-Notebook notebook = new Notebook(dataDir + "Notizbuch öffnen.onetoc2");
+Notebook notebook = new Notebook(dataDir + "Notebook.onetoc2");
 ```
 
 ### Étape 3 : Parcourir le contenu du carnet (Extraire le contenu OneNote)

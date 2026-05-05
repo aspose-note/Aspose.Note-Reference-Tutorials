@@ -61,7 +61,7 @@ Here, we initialize a new instance of the `Page` class, which represents a page 
 ## Step 3: Initialize Outline Object
 
 ```csharp
-Outline outline = new Outline(doc);
+Outline outline = new Outline();
 ```
 
 The `Outline` class represents an outline node in the document hierarchy. We create a new outline object to structure our document.
@@ -69,7 +69,7 @@ The `Outline` class represents an outline node in the document hierarchy. We cre
 ## Step 4: Initialize OutlineElement Object
 
 ```csharp
-OutlineElement outlineElem = new OutlineElement(doc);
+OutlineElement outlineElem = new OutlineElement();
 ```
 
 An `OutlineElement` represents an element within an outline. Here, we create a new outline element to add content to our document.

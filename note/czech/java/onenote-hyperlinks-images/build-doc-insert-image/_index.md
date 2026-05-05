@@ -85,7 +85,7 @@ outline.setHorizontalOffset(0);
 Načtěte obrázek, který chcete vložit, a zarovnejte jej na pravou stranu stránky. Zde skutečně **přidáváme obrázek do OneNote**.
 
 ```java
-Image image = new Image(null, dataDir + "Input.jpg");
+Image image = new Image(dataDir + "Input.jpg");
 image.setAlignment(HorizontalAlignment.Right);
 ```
 
@@ -148,7 +148,7 @@ A5: Ano, dočasnou licenci můžete požádat [zde](https://purchase.aspose.com/
 ---
 
 **Poslední aktualizace:** 2025-12-20  
-**Testováno s:** Aspose.Note for Java 24.12 (nejnovější)  
+**Testováno s:** Aspose.Note for Java 26.4 (nejnovější)  
 **Autor:** Aspose  
 
 {{< /blocks/products/pf/tutorial-page-section >}}

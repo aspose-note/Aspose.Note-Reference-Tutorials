@@ -58,7 +58,7 @@ OutlineElement outlineElem = new OutlineElement();
 ## Krok 5: Načtěte a vložte obrázek
 ```java
 // načíst obrázek
-Image image = new Image(null, dataDir + "Input.jpg");
+Image image = new Image(dataDir + "Input.jpg");
 // vložit obrázek do uzlu dokumentu
 outlineElem.appendChildLast(image);
 ```

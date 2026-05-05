@@ -24,7 +24,7 @@ Khi bạn làm việc với các tệp OneNote trong một ứng dụng Java, đ
 
 - **Phương thức nào xác định việc mã hoá?** `Document.isEncrypted`  
 - **Có cần mật khẩu để kiểm tra không?** Không, bạn có thể truy vấn trạng thái mà không cần mật khẩu.  
-- **Phiên bản API nào hoạt động?** Bất kỳ bản phát hành gần đây nào của Aspose.Note cho Java (đã kiểm tra với 24.11).  
+- **Phiên bản API nào hoạt động?** Bất kỳ bản phát hành gần đây nào của Aspose.Note cho Java (đã kiểm tra với 26.4).  
 - **Có thể kiểm tra cả stream và đường dẫn tệp không?** Có – API hỗ trợ cả hai.  
 - **Điều gì xảy ra nếu mật khẩu sai?** Phương thức trả về `true`, cho biết tệp vẫn còn được mã hoá.  
 
@@ -148,7 +148,7 @@ Trong hướng dẫn này chúng tôi đã trình bày **cách kiểm tra mã ho
 ---  
 
 **Cập nhật lần cuối:** 2025-11-29  
-**Kiểm tra với:** Aspose.Note 24.11 cho Java  
+**Kiểm tra với:** Aspose.Note 26.4 cho Java  
 **Tác giả:** Aspose  
 
 {{< /blocks/products/pf/tutorial-page-section >}}  

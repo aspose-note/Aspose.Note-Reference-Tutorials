@@ -124,7 +124,7 @@ Ebben az útmutatóban bemutattuk, **hogyan exportálhat OneNote oldalakat** egy
 ---
 
 **Utolsó frissítés:** 2025-11-30  
-**Tesztelt verzió:** Aspose.Note for Java 24.11  
+**Tesztelt verzió:** Aspose.Note for Java 26.4  
 **Szerző:** Aspose  
 
 {{< /blocks/products/pf/tutorial-page-section >}}

@@ -137,7 +137,7 @@ Bạn đã biết **cách lưu PDF** từ các tệp OneNote bằng Aspose.Note 
 ---
 
 **Cập nhật lần cuối:** 2025-12-17  
-**Được kiểm tra với:** Aspose.Note cho Java 23.12  
+**Được kiểm tra với:** Aspose.Note cho Java 26.4  
 **Tác giả:** Aspose  
 
 {{< /blocks/products/pf/tutorial-page-section >}}

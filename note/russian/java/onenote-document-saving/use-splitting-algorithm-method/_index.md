@@ -129,7 +129,7 @@ try {
 ---
 
 **Последнее обновление:** 2025-12-18  
-**Тестировано с:** Aspose.Note 24.12 for Java  
+**Тестировано с:** Aspose.Note 26.4 for Java  
 **Автор:** Aspose  
 
 {{< /blocks/products/pf/tutorial-page-section >}}

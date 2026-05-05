@@ -74,7 +74,7 @@ Ersetzen Sie `"Your Document Directory"` durch den absoluten Pfad zu dem Ordner,
 Erzeugen Sie eine `Notebook`‑Instanz, indem Sie auf die **`.onetoc2`**‑Datei des Notebooks verweisen. Dies demonstriert das sekundäre Schlüsselwort **load onenote notebook**.
 
 ```java
-Notebook notebook = new Notebook(dataDir + "Notizbuch öffnen.onetoc2");
+Notebook notebook = new Notebook(dataDir + "Notebook.onetoc2");
 ```
 
 ### Schritt 3: Durch Notebook‑Inhalte iterieren (OneNote‑Inhalt extrahieren)

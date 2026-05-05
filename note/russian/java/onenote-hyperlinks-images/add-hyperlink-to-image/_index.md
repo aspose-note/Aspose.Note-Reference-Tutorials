@@ -78,8 +78,8 @@ Page page = new Page();
 Теперь добавляем изображение на страницу и **устанавливаем гиперссылку изображения** (основное действие этого руководства). Метод `setHyperlinkUrl` привязывает указанный URL.
 
 ```java
-Image image = new Image(null, dataDir + "image1.jpg");
-image.setHyperlinkUrl("http://www.aspose.com");
+Image image = new Image(dataDir + "image1.jpg");
+image.setHyperlinkUrl("https://www.aspose.com");
 page.appendChildLast(image);
 ```
 
@@ -138,7 +138,7 @@ document.save(dataDir + "HyperlinkToImage_out.one");
 ---
 
 **Последнее обновление:** 2025-12-20  
-**Тестировано с:** Aspose.Note for Java 24.11  
+**Тестировано с:** Aspose.Note for Java 26.4  
 **Автор:** Aspose  
 
 ---

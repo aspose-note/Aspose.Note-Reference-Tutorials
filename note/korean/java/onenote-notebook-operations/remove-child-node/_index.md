@@ -30,7 +30,7 @@ weight: 24
 
 시작하기 전에 다음 사전 요구 사항이 설정되어 있는지 확인하십시오:
 
-1. **Java Development Kit (JDK)** – 시스템에 Java가 설치되어 있어야 합니다. 최신 JDK는 [여기](https://www.oracle.com/java/technologies/javase-jdk15-downloads.html)에서 다운로드 및 설치할 수 있습니다.
+1. **Java Development Kit (JDK)** – 시스템에 Java가 설치되어 있어야 합니다. 최신 JDK는 [여기](https://www.oracle.com/java/technologies/downloads/)에서 다운로드 및 설치할 수 있습니다.
 
 2. **Aspose.Note for Java** – [웹사이트](https://purchase.aspose.com/buy)에서 Aspose.Note for Java 라이브러리를 다운로드 및 설치하십시오. 무료 체험판은 [여기](https://releases.aspose.com/)에서 받을 수 있습니다.
 
@@ -135,7 +135,7 @@ A: 직접적인 복구는 불가능합니다. 나중에 복원해야 할 경우 
 ---
 
 **마지막 업데이트:** 2026-01-02  
-**테스트 환경:** Aspose.Note 24.11 for Java  
+**테스트 환경:** Aspose.Note 26.4 for Java  
 **작성자:** Aspose  
 
 ---

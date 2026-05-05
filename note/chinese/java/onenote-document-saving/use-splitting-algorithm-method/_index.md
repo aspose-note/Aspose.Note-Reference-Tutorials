@@ -126,7 +126,7 @@ A: 可以，您可以通过 [free trial](https://releases.aspose.com/) 体验功
 A: 您可以申请 [temporary license](https://purchase.aspose.com/temporary-license/) 在试用期间评估产品。
 
 **最后更新：** 2025-12-18  
-**测试环境：** Aspose.Note 24.12 for Java  
+**测试环境：** Aspose.Note 26.4 for Java  
 **作者：** Aspose  
 
 {{< /blocks/products/pf/tutorial-page-section >}}

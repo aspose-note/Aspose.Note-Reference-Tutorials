@@ -86,7 +86,7 @@ OutlineElement outlineElem = new OutlineElement();
 Gömmek istediğiniz dosyanın tam yolu ile bir `AttachedFile` nesnesi oluşturun:
 
 ```java
-AttachedFile attachedFile = new AttachedFile(null, dataDir + "attachment.txt");
+AttachedFile attachedFile = new AttachedFile(dataDir + "attachment.txt");
 ```
 
 `"attachment.txt"` ifadesini eklemek istediğiniz dosyanın adıyla değiştirin (java code attach file).
@@ -168,7 +168,7 @@ C: Üretim dağıtımları için geçerli bir Aspose.Note lisansı gereklidir; d
 ---
 
 **Son Güncelleme:** 2025-12-25  
-**Test Edilen Versiyon:** Aspose.Note for Java 24.11  
+**Test Edilen Versiyon:** Aspose.Note for Java 26.4  
 **Yazar:** Aspose
 
 {{< /blocks/products/pf/tutorial-page-section >}}

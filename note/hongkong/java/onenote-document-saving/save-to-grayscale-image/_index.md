@@ -110,7 +110,7 @@ A5：您可於 Aspose.Note 論壇取得支援，請點擊 [here](https://forum.a
 ---
 
 **Last Updated:** 2025-12-17  
-**Tested With:** Aspose.Note 24.12 for Java  
+**Tested With:** Aspose.Note 26.4 for Java  
 **Author:** Aspose  
 
 ---

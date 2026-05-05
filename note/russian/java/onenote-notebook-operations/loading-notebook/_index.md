@@ -74,7 +74,7 @@ String dataDir = "Your Document Directory";
 Создайте экземпляр `Notebook`, указав путь к файлу **`.onetoc2`** блокнота. Это демонстрирует вторичное ключевое слово **load onenote notebook**.
 
 ```java
-Notebook notebook = new Notebook(dataDir + "Notizbuch öffnen.onetoc2");
+Notebook notebook = new Notebook(dataDir + "Notebook.onetoc2");
 ```
 
 ### Шаг 3: Обойти содержимое блокнота (Extract OneNote Content)

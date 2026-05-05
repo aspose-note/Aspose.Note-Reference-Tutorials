@@ -156,7 +156,7 @@ for (AttachedFile a : attachments) {
 ---
 
 **Последнее обновление:** 31.12.2025
-**Протестировано с:** Aspose.Note для Java 24.11
+**Протестировано с:** Aspose.Note для Java 26.4
 **Автор:** Aspose 
 
 {{< /blocks/products/pf/tutorial-page-section >}}

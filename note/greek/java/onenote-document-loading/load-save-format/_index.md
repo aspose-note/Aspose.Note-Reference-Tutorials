@@ -97,7 +97,7 @@ A: Συμμετέχετε στα φόρουμ της Aspose στη [Aspose.Note 
 ---
 
 **Τελευταία Ενημέρωση:** 2025-12-07  
-**Δοκιμάστηκε Με:** Aspose.Note for Java 24.11  
+**Δοκιμάστηκε Με:** Aspose.Note for Java 26.4  
 **Συγγραφέας:** Aspose  
 
 {{< /blocks/products/pf/tutorial-page-section >}}

@@ -40,7 +40,7 @@ Instant loading onenote, API'ye tüm defter hiyerarşisini (bölümler, sayfalar
 
 Başlamadan önce aşağıdaki önkoşullara sahip olduğunuzdan emin olun:
 
-1. **Java Development Kit (JDK):** Sisteminizde Java kurulu olduğundan emin olun. En son JDK'yı [buradan](https://www.oracle.com/java/technologies/javase-jdk15-downloads.html) indirebilir ve kurabilirsiniz.
+1. **Java Development Kit (JDK):** Sisteminizde Java kurulu olduğundan emin olun. En son JDK'yı [buradan](https://www.oracle.com/java/technologies/downloads/) indirebilir ve kurabilirsiniz.
 
 2. **Aspose.Note for Java:** Aspose.Note for Java kütüphanesine ihtiyacınız var. Bunu [indirme sayfasından](https://releases.aspose.com/note/java/) edinebilirsiniz.
 
@@ -115,7 +115,7 @@ C4: Evet, [buradan](https://releases.aspose.com/) ücretsiz deneme sürümünü 
 C5: [Geçici lisans sayfasından](https://purchase.aspose.com/temporary-license/) geçici bir lisans talep edebilirsiniz.
 
 **Son Güncelleme:** 2025-12-31  
-**Test Edilen Versiyon:** Aspose.Note for Java 24.12 (latest)  
+**Test Edilen Versiyon:** Aspose.Note for Java 26.4 (latest)  
 **Yazar:** Aspose  
 
 {{< /blocks/products/pf/tutorial-page-section >}}

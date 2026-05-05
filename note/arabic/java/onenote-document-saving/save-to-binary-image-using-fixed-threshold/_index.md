@@ -126,7 +126,7 @@ oneFile.save(dataDir, options);
 ج: مكتبة Aspose.Note Java مستقلة عن النظام الأساسي، لذا يعمل نفس الكود على أي نظام تشغيل يحتوي على JDK متوافق.
 
 **آخر تحديث:** 2025-12-13  
-**تم الاختبار مع:** Aspose.Note for Java 24.12 (latest)  
+**تم الاختبار مع:** Aspose.Note for Java 26.4 (latest)  
 **المؤلف:** Aspose  
 
 {{< /blocks/products/pf/tutorial-page-section >}}

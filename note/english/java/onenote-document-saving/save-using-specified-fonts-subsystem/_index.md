@@ -23,7 +23,7 @@ In many business scenarios you need to **save OneNote as PDF** while preserving 
 - **Which API handles fonts?** `DocumentFontsSubsystem` lets you define a default font or load a custom font file/stream.  
 - **Do I need a license for production?** Yes, a commercial Aspose.Note license is required for non‑trial use.  
 - **Can I convert multiple files in a batch?** Absolutely – just loop over the `Document` loading and saving logic.  
-- **What Java version is required?** Java 15 or later (the example uses JDK 15).
+- **What Java version is required?** Java 8 or later (the example uses JDK 8).
 
 ## What is “save OneNote as PDF” with a fonts subsystem?
 
@@ -39,7 +39,7 @@ Saving OneNote as PDF with a fonts subsystem means that during the conversion pr
 
 ### 1. Java Development Kit (JDK)
 
-Ensure you have Java Development Kit (JDK) installed on your system. You can download it from [here](https://www.oracle.com/java/technologies/javase-jdk15-downloads.html) if you haven't already.
+Ensure you have Java Development Kit (JDK) installed on your system. You can download it from [here](https://www.oracle.com/java/technologies/downloads/) if you haven't already.
 
 ### 2. Aspose.Note for Java Library
 
@@ -183,7 +183,7 @@ In this tutorial we learned how to **save OneNote as PDF** while controlling the
 ---
 
 **Last Updated:** 2025-12-18  
-**Tested With:** Aspose.Note for Java 24.11  
+**Tested With:** Aspose.Note for Java 26.4  
 **Author:** Aspose  
 
 {{< /blocks/products/pf/tutorial-page-section >}}

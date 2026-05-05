@@ -137,7 +137,7 @@ Je weet nu **hoe je PDF kunt opslaan** vanuit OneNote‑bestanden met Aspose.Not
 ---
 
 **Laatst bijgewerkt:** 2025-12-17  
-**Getest met:** Aspose.Note voor Java 23.12  
+**Getest met:** Aspose.Note voor Java 26.4  
 **Auteur:** Aspose  
 
 {{< /blocks/products/pf/tutorial-page-section >}}

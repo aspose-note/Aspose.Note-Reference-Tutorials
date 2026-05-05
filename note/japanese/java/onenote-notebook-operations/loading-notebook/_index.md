@@ -73,7 +73,7 @@ String dataDir = "Your Document Directory";
 ノートブックの **`.onetoc2`** ファイルを指すことで `Notebook` インスタンスを作成します。この例は二次キーワード **load onenote notebook** を示しています。
 
 ```java
-Notebook notebook = new Notebook(dataDir + "Notizbuch öffnen.onetoc2");
+Notebook notebook = new Notebook(dataDir + "Notebook.onetoc2");
 ```
 
 ### 手順 3: ノートブック内容のイテレーション（OneNote コンテンツの抽出）

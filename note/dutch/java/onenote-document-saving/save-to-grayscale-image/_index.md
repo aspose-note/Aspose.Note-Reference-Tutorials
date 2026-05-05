@@ -111,7 +111,7 @@ Je hebt nu geleerd **hoe je onen OneNote‑bestand te laden, de opslaan‑opties
 ---
 
 **Last Updated:** 2025-12-17  
-**Tested With:** Aspose.Note 24.12 for Java  
+**Tested With:** Aspose.Note 26.4 for Java  
 **Author:** Aspose  
 
 ---

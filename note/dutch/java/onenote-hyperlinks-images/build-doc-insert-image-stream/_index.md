@@ -132,7 +132,7 @@ try {
 Maak een `Image`‑object. Het eerste argument kan `null` zijn wanneer je later een stream opgeeft, maar voor de eenvoud verwijzen we hier naar het bestandspad en stellen we de uitlijning in op de rechterkant van de pagina.
 
 ```java
-Image image = new Image(null, dataDir + "image1.jpg");
+Image image = new Image(dataDir + "image1.jpg");
 image.setAlignment(HorizontalAlignment.Right);
 ```
 
@@ -212,7 +212,7 @@ A4: De officiële Aspose‑website biedt uitgebreide documentatie, code‑voorbe
 A5: Ja, je kunt een gratis proefversie downloaden van de Aspose‑releasepagina om alle functies te verkennen voordat je koopt.
 
 **Laatst bijgewerkt:** 2025-12-21  
-**Getest met:** Aspose.Note for Java 24.12 (latest at time of writing)  
+**Getest met:** Aspose.Note for Java 26.4 (latest at time of writing)  
 **Auteur:** Aspose  
 
 {{< /blocks/products/pf/tutorial-page-section >}}

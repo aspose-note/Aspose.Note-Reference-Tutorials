@@ -23,7 +23,7 @@ weight: 15
 - **本教學涵蓋什麼內容？** 使用 Aspose.Note for Java 將 OneNote 筆記本（.one）轉換為 PDF 檔案。  
 - **需要哪個程式庫？** Aspose.Note for Java（提供免費試用）。  
 - **需要授權嗎？** 生產環境必須購買授權；開發與測試可使用試用版。  
-- **支援哪個 Java 版本？** 任意 JDK 8 以上（範例使用 JDK 15）。  
+- **支援哪個 Java 版本？** 任意 JDK 8 以上（範例使用 JDK 8）。  
 - **可以批次轉換多個筆記本嗎？** 可以——將程式碼包在迴圈中即可一次處理多個檔案。
 
 ## 什麼是「將 OneNote 轉換為 PDF」？
@@ -37,7 +37,7 @@ weight: 15
 
 ## 前提條件
 
-1. **Java Development Kit (JDK)** – 請確保已安裝 JDK。可從 [Oracle website](https://www.oracle.com/java/technologies/javase-jdk15-downloads.html) 下載。  
+1. **Java Development Kit (JDK)** – 請確保已安裝 JDK。可從 [Oracle website](https://www.oracle.com/java/technologies/downloads/) 下載。  
 2. **Aspose.Note for Java Library** – 從 [Aspose website](https://releases.aspose.com/note/java/) 下載最新的 JAR，並將其加入專案的 classpath。
 
 ## 導入包
@@ -131,7 +131,7 @@ System.out.println("File saved: " + dataDir + "ConvertToPdf_out.pdf");
 ---
 
 **Last Updated:** 2026-01-02  
-**Tested With:** Aspose.Note 24.12 for Java  
+**Tested With:** Aspose.Note 26.4 for Java  
 **Author:** Aspose  
 
 ---

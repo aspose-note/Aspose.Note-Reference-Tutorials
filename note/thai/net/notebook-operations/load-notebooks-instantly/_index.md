@@ -49,7 +49,7 @@ NotebookLoadOptions loadOptions = new NotebookLoadOptions { InstantLoading = tru
 ถัดไป ระบุเส้นทางไปยังไฟล์สมุดบันทึกและเริ่มต้นออบเจ็กต์สมุดบันทึกโดยใช้ตัวเลือกการโหลดที่ระบุ
 
 ```csharp
-String inputFile = "Notizbuch öffnen.onetoc2";
+String inputFile = "Notebook.onetoc2";
 String dataDir = "Your Document Directory";
 Notebook notebook = new Notebook(dataDir + inputFile, loadOptions);
 ```

@@ -49,7 +49,7 @@ Stellen Sie sicher, dass Sie Ihre Entwicklungsumgebung mit Visual Studio eingeri
 ```csharp
 string dataDir = "Your Document Directory";
 
-FileStream stream = new FileStream(dataDir + "Notizbuch öffnen.onetoc2", FileMode.Open);
+FileStream stream = new FileStream(dataDir + "Notebook.onetoc2", FileMode.Open);
 ```
 
 ## Schritt 3: Notebook-Objekt initialisieren

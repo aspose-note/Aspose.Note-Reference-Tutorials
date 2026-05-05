@@ -181,7 +181,7 @@ A: Nadat `myConverter.GetText()` een `String` retourneert, schrijf je deze naar 
 ---  
 
 **Laatst bijgewerkt:** 2025-12-04  
-**Getest met:** Aspose.Note for Java 24.10  
+**Getest met:** Aspose.Note for Java 26.4  
 **Auteur:** Aspose  
 
 {{< /blocks/products/pf/tutorial-page-section >}}

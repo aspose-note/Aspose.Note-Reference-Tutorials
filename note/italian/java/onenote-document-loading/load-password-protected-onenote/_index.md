@@ -115,7 +115,7 @@ R: Sì. L'API è indipendente dalla piattaforma e funziona allo stesso modo in c
 R: Una volta caricato con successo il documento, puoi attraversare le sue pagine ed estrarre le immagini usando l'API standard di Aspose.Note.
 
 **Ultimo aggiornamento:** 2025-12-11  
-**Testato con:** Aspose.Note per Java 24.12  
+**Testato con:** Aspose.Note per Java 26.4  
 **Autore:** Aspose  
 
 {{< /blocks/products/pf/tutorial-page-section >}}

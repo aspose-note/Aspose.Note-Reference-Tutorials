@@ -74,7 +74,7 @@ Reemplaza `"Your Document Directory"` con la ruta absoluta a la carpeta que cont
 Crea una instancia de `Notebook` apuntando al archivo **`.onetoc2`** del cuaderno. Esto demuestra la palabra clave secundaria **load onenote notebook**.
 
 ```java
-Notebook notebook = new Notebook(dataDir + "Notizbuch öffnen.onetoc2");
+Notebook notebook = new Notebook(dataDir + "Notebook.onetoc2");
 ```
 
 ### Paso 3: Recorrer el contenido del cuaderno (Extraer contenido OneNote)

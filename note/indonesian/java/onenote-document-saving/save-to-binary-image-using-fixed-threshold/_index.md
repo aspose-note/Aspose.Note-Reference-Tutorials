@@ -132,7 +132,7 @@ A: Muat dokumen dengan overload yang menerima string kata sandi sebelum menerapk
 A: Perpustakaan Aspose.Note Java bersifat platform‑independen, sehingga kode yang sama berjalan di OS apa pun dengan JDK yang kompatibel.
 
 **Terakhir Diperbarui:** 2025-12-13  
-**Diuji Dengan:** Aspose.Note for Java 24.12 (latest)  
+**Diuji Dengan:** Aspose.Note for Java 26.4 (latest)  
 **Penulis:** Aspose  
 
 {{< /blocks/products/pf/tutorial-page-section >}}

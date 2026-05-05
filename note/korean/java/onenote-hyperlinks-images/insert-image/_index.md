@@ -84,7 +84,7 @@ Page page = oneFile.getFirstChild();
 OneNote 문서에 삽입할 이미지를 로드합니다.
 
 ```java
-Image image = new Image(oneFile, dataDir + "Input.jpg");
+Image image = new Image(dataDir + "Input.jpg");
 ```
 
 ## 단계 4: 이미지 속성 사용자 지정 (선택 사항)
@@ -148,7 +148,7 @@ A5: Aspose.Note 제품 전용 [포럼](https://forum.aspose.com/c/note/28)에서
 ---
 
 **마지막 업데이트:** 2025-12-21  
-**테스트 대상:** Aspose.Note for Java 24.10  
+**테스트 대상:** Aspose.Note for Java 26.4  
 **작성자:** Aspose  
 
 {{< /blocks/products/pf/tutorial-page-section >}}

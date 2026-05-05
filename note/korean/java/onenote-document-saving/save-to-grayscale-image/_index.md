@@ -112,7 +112,7 @@ A5: Aspose.Note 포럼에서 지원을 받을 수 있습니다. [여기](https:/
 ---
 
 **마지막 업데이트:** 2025-12-17  
-**테스트 환경:** Aspose.Note 24.12 for Java  
+**테스트 환경:** Aspose.Note 26.4 for Java  
 **작성자:** Aspose
 
 {{< /blocks/products/pf/tutorial-page-section >}}

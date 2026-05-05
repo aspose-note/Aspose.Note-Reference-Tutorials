@@ -32,7 +32,7 @@ Ebben az oktatóanyagról megtudhatja, **hogyan távolítsunk el egy csomóponto
 
 Mielőtt elkezdenénk, győződjön meg arról, hogy az alábbi előfeltételek telepítve vannak:
 
-1. **Java Development Kit (JDK)** – Győződjön meg róla, hogy a Java telepítve van a rendszerén. A legújabb JDK letölthető [innen](https://www.oracle.com/java/technologies/javase-jdk15-downloads.html).
+1. **Java Development Kit (JDK)** – Győződjön meg róla, hogy a Java telepítve van a rendszerén. A legújabb JDK letölthető [innen](https://www.oracle.com/java/technologies/downloads/).
 
 2. **Aspose.Note for Java** – Töltse le és telepítse az Aspose.Note for Java könyvtárat a [weboldalról](https://purchase.aspose.com/buy). Ingyenes próbaverziót is szerezhet [innen](https://releases.aspose.com/).
 
@@ -137,7 +137,7 @@ Ebben az oktatóanyagban bemutattuk, **hogyan távolítsunk el egy csomópontot*
 ---
 
 **Utoljára frissítve:** 2026-01-02  
-**Tesztelt verzió:** Aspose.Note 24.11 for Java  
+**Tesztelt verzió:** Aspose.Note 26.4 for Java  
 **Szerző:** Aspose  
 
 ---

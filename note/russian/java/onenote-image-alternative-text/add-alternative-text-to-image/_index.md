@@ -89,7 +89,7 @@ Page page = new Page();
 ### Шаг 4: Добавление изображения на страницу
 
 ```java
-Image image = new Image(null, dataDir + "image.jpg");
+Image image = new Image(dataDir + "image.jpg");
 ```
 
 Конструктор `Image` загружает файл изображения по указанному пути.
@@ -164,7 +164,7 @@ A: Вы можете получить бесплатную пробную вер
 ---
 
 **Последнее обновление:** 2025-12-23  
-**Тестировано с:** Aspose.Note for Java 24.11  
+**Тестировано с:** Aspose.Note for Java 26.4  
 **Автор:** Aspose  
 
 {{< /blocks/products/pf/tutorial-page-section >}}

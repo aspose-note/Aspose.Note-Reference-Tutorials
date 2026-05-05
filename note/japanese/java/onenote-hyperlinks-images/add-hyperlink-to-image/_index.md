@@ -77,8 +77,8 @@ Page page = new Page();
 ページに画像を追加し、**画像ハイパーリンクを設定** します（本チュートリアルの主要アクション）。`setHyperlinkUrl` メソッドで指定した URL が画像に付与されます。
 
 ```java
-Image image = new Image(null, dataDir + "image1.jpg");
-image.setHyperlinkUrl("http://www.aspose.com");
+Image image = new Image(dataDir + "image1.jpg");
+image.setHyperlinkUrl("https://www.aspose.com");
 page.appendChildLast(image);
 ```
 
@@ -137,7 +137,7 @@ Aspose.Note を使えば、Java を使用して OneNote に **画像へのハイ
 ---
 
 **最終更新日:** 2025年12月20日
-**テスト環境:** Aspose.Note for Java 24.11
+**テスト環境:** Aspose.Note for Java 26.4
 **作成者:** Aspose  
 
 ---

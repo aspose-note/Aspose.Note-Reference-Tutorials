@@ -25,7 +25,7 @@ I många affärsscenarier behöver du **spara OneNote som PDF** samtidigt som du
 - **Vilket API hanterar teckensnitt?** `DocumentFontsSubsystem` låter dig definiera ett standardteckensnitt eller läsa in en anpassad teckensnittfil/-ström.  
 - **Behöver jag en licens för produktion?** Ja, en kommersiell Aspose.Note-licens krävs för icke‑testanvändning.  
 - **Kan jag konvertera flera filer i ett batch?** Absolut – loopa bara över `Document`‑laddnings- och sparlogiken.  
-- **Vilken Java-version krävs?** Java 15 eller senare (exemplet använder JDK 15).
+- **Vilken Java-version krävs?** Java 8 eller senare (exemplet använder JDK 8).
 
 ## Vad är “spara OneNote som PDF” med ett teckensnittssystem?
 
@@ -41,7 +41,7 @@ Att spara OneNote som PDF med ett teckensnittssystem innebär att under konverte
 
 ### 1. Java Development Kit (JDK)
 
-Se till att du har Java Development Kit (JDK) installerat på ditt system. Du kan ladda ner det från [här](https://www.oracle.com/java/technologies/javase-jdk15-downloads.html) om du inte redan har gjort det.
+Se till att du har Java Development Kit (JDK) installerat på ditt system. Du kan ladda ner det från [här](https://www.oracle.com/java/technologies/downloads/) om du inte redan har gjort det.
 
 ### 2. Aspose.Note för Java-biblioteket
 
@@ -183,7 +183,7 @@ I den här handledningen lärde vi oss hur man **sparar OneNote som PDF** samtid
 ---
 
 **Senast uppdaterad:** 2025-12-18  
-**Testat med:** Aspose.Note for Java 24.11  
+**Testat med:** Aspose.Note for Java 26.4  
 **Författare:** Aspose  
 
 {{< /blocks/products/pf/tutorial-page-section >}}

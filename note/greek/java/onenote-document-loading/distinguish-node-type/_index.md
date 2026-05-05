@@ -91,7 +91,7 @@ A1: Ναι, το Aspose.Note for Java παρέχει API για προγραμμ
 
 ### Q2: Είναι το Aspose.Note for Java συμβατό με διαφορετικές εκδόσεις Java;
 
-A2: Το Aspose.Note for Java είναι συμβατό με Java 6 (1.6) και νεότερες εκδόσεις.
+A2: Το Aspose.Note for Java είναι συμβατό με Java SE 7 και νεότερες εκδόσεις.
 
 ### Q3: Μπορώ να εξάγω κείμενο από έγγραφα OneNote χρησιμοποιώντας το Aspose.Note for Java;
 
@@ -108,7 +108,7 @@ A5: Ναι, μπορείτε να εξερευνήσετε τις δυνατότ
 ---
 
 **Τελευταία Ενημέρωση:** 2025-12-09  
-**Δοκιμή Με:** Aspose.Note for Java 24.12 (latest at time of writing)  
+**Δοκιμή Με:** Aspose.Note for Java 26.4 (latest at time of writing)  
 **Συγγραφέας:** Aspose  
 
 {{< /blocks/products/pf/tutorial-page-section >}}

@@ -129,7 +129,7 @@ Vi har igenom allt du behöver för att **spara OneNote som bild** med Aspose.No
 ---
 
 **Senast uppdaterad:** 2025-12-17
-**Testad med:** Aspose.Note för Java 23.12 (senaste vid skrivandet)
+**Testad med:** Aspose.Note för Java 26.4 (senaste vid skrivandet)
 **Författare:** Aspose  
 
 {{< /blocks/products/pf/tutorial-page-section >}}

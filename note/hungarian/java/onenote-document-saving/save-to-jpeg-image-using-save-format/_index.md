@@ -130,7 +130,7 @@ Mindezt lefedtük, ami a **OneNote képként való mentéséhez** szükséges az
 ---
 
 **Utolsó frissítés:** 2025-12-17  
-**Tesztelt verzióval:** Aspose.Note for Java 23.12 (a legújabb a írás időpontjában)  
+**Tesztelt verzióval:** Aspose.Note for Java 26.4 (a legújabb a írás időpontjában)  
 **Szerző:** Aspose  
 
 {{< /blocks/products/pf/tutorial-page-section >}}

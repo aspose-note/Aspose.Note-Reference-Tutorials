@@ -31,7 +31,7 @@ weight: 15
 
 ### 1. Java Development Kit (JDK)
 
-确保系统已安装 Java Development Kit (JDK)。您可以从 [Oracle website](https://www.oracle.com/java/technologies/javase-jdk15-downloads.html) 下载并安装最新的 JDK。
+确保系统已安装 Java Development Kit (JDK)。您可以从 [Oracle website](https://www.oracle.com/java/technologies/downloads/) 下载并安装最新的 JDK。
 
 ### 2. Aspose.Note for Java 库
 
@@ -146,7 +146,7 @@ A5：您可以从 [Temporary license/](https://purchase.aspose.com/temporary-lic
 ---
 
 **Last Updated:** 2025-12-21  
-**Tested With:** Aspose.Note for Java 23.12  
+**Tested With:** Aspose.Note for Java 26.4  
 **Author:** Aspose  
 
 ---

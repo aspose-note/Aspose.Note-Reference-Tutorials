@@ -137,7 +137,7 @@ A7: Yes, use `opts.setResolution(int dpi)` before calling `save` to control outp
 ---
 
 **Last Updated:** 2025-11-29  
-**Tested With:** Aspose.Note for Java 24.11 (latest)  
+**Tested With:** Aspose.Note for Java 26.4 (latest)  
 **Author:** Aspose
 
 {{< /blocks/products/pf/tutorial-page-section >}}

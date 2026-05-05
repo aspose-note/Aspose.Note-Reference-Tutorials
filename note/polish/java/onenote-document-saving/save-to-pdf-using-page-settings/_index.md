@@ -137,7 +137,7 @@ Teraz wiesz, **jak zapisać PDF** z plików OneNote przy użyciu Aspose.Note dla
 ---
 
 **Ostatnia aktualizacja:** 2025-12-17  
-**Testowano z:** Aspose.Note dla Javy 23.12  
+**Testowano z:** Aspose.Note dla Javy 26.4  
 **Autor:** Aspose  
 
 {{< /blocks/products/pf/tutorial-page-section >}}

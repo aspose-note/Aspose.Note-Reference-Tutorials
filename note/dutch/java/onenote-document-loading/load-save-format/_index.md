@@ -97,7 +97,7 @@ A: Word lid van de Aspose‑forums op de [Aspose.Note community‑pagina](https:
 ---
 
 **Laatst bijgewerkt:** 2025-12-07  
-**Getest met:** Aspose.Note voor Java 24.11  
+**Getest met:** Aspose.Note voor Java 26.4  
 **Auteur:** Aspose  
 
 {{< /blocks/products/pf/tutorial-page-section >}}

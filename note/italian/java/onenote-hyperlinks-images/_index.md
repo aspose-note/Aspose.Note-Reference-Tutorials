@@ -85,7 +85,7 @@ A: Un'immagine pu√≤ contenere solo un collegamento ipertestuale. Per fornire pi√
 ---
 
 **Ultimo aggiornamento:** 2025-12-20  
-**Testato con:** Aspose.Note for Java 24.10  
+**Testato con:** Aspose.Note for Java 26.4  
 **Autore:** Aspose
 
 {{< /blocks/products/pf/tutorial-page-section >}}

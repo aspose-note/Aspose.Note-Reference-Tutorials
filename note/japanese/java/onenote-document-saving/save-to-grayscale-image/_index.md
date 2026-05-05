@@ -110,7 +110,7 @@ A5: Aspose.Note フォーラムは [こちら](https://forum.aspose.com/c/note/2
 ---
 
 **最終更新日:** 2025-12-17  
-**テスト環境:** Aspose.Note 24.12 for Java  
+**テスト環境:** Aspose.Note 26.4 for Java  
 **作者:** Aspose  
 
 ---

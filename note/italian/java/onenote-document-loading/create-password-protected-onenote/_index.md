@@ -104,7 +104,7 @@ Ora sai **come proteggere OneNote** creando un file protetto da password usando 
 ---
 
 **Ultimo aggiornamento:** 2025-12-02  
-**Testato con:** Aspose.Note per Java 24.12 (ultima versione al momento della stesura)  
+**Testato con:** Aspose.Note per Java 26.4 (ultima versione al momento della stesura)  
 **Autore:** Aspose  
 
 {{< /blocks/products/pf/tutorial-page-section >}}

@@ -26,7 +26,7 @@ In vielen geschäftlichen Szenarien müssen Sie **OneNote als PDF speichern**, w
 - **Welche API verwaltet Schriftarten?** `DocumentFontsSubsystem` ermöglicht das Festlegen einer Standardschrift oder das Laden einer benutzerdefinierten Schriftdatei/eines Streams.  
 - **Benötige ich eine Lizenz für die Produktion?** Ja, für die Nutzung außerhalb der Testphase ist eine kommerzielle Aspose.Note‑Lizenz erforderlich.  
 - **Kann ich mehrere Dateien stapelweise konvertieren?** Absolut – einfach die `Document`‑Lade‑ und Speicherlogik in einer Schleife wiederholen.  
-- **Welche Java‑Version wird benötigt?** Java 15 oder höher (im Beispiel wird JDK 15 verwendet).
+- **Welche Java‑Version wird benötigt?** Java 8 oder höher (im Beispiel wird JDK 8 verwendet).
 
 ## Was bedeutet „OneNote als PDF speichern“ mit einem Schriftarten‑Subsystem?
 
@@ -42,7 +42,7 @@ Das Speichern von OneNote als PDF mit einem Schriftarten‑Subsystem bedeutet, d
 
 ### 1. Java Development Kit (JDK)
 
-Stellen Sie sicher, dass das Java Development Kit (JDK) auf Ihrem System installiert ist. Sie können es von [hier](https://www.oracle.com/java/technologies/javase-jdk15-downloads.html) herunterladen, falls Sie es noch nicht haben.
+Stellen Sie sicher, dass das Java Development Kit (JDK) auf Ihrem System installiert ist. Sie können es von [hier](https://www.oracle.com/java/technologies/downloads/) herunterladen, falls Sie es noch nicht haben.
 
 ### 2. Aspose.Note für Java Bibliothek
 
@@ -186,7 +186,7 @@ In diesem Tutorial haben wir gelernt, wie man **OneNote als PDF speichert**, wä
 ---
 
 **Zuletzt aktualisiert:** 2025-12-18  
-**Getestet mit:** Aspose.Note für Java 24.11  
+**Getestet mit:** Aspose.Note für Java 26.4  
 **Autor:** Aspose  
 
 {{< /blocks/products/pf/tutorial-page-section >}}

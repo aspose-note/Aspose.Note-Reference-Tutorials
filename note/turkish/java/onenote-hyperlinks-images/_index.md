@@ -85,7 +85,7 @@ C: Bir görsel yalnızca bir bağlantı tutabilir. Birden fazla bağlantı sağl
 ---
 
 **Son Güncelleme:** 2025-12-20  
-**Test Edilen Sürüm:** Aspose.Note for Java 24.10  
+**Test Edilen Sürüm:** Aspose.Note for Java 26.4  
 **Yazar:** Aspose
 
 {{< /blocks/products/pf/tutorial-page-section >}}

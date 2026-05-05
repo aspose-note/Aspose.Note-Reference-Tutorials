@@ -89,7 +89,7 @@ Eine Seite wird das Bild hosten, das wir gleich hinzufügen.
 ### Schritt 4: Bild zur Seite hinzufügen
 
 ```java
-Image image = new Image(null, dataDir + "image.jpg");
+Image image = new Image(dataDir + "image.jpg");
 ```
 
 Der `Image`‑Konstruktor lädt die Bilddatei vom angegebenen Pfad.
@@ -164,7 +164,7 @@ Durch Befolgen dieser Schritt‑für‑Schritt‑Anleitung wissen Sie jetzt **wi
 ---
 
 **Zuletzt aktualisiert:** 2025-12-23  
-**Getestet mit:** Aspose.Note für Java 24.11  
+**Getestet mit:** Aspose.Note für Java 26.4  
 **Autor:** Aspose  
 
 {{< /blocks/products/pf/tutorial-page-section >}}

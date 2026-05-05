@@ -129,7 +129,7 @@ A: Je kunt een [tijdelijke licentie](https://purchase.aspose.com/temporary-licen
 ---
 
 **Laatst bijgewerkt:** 2025-12-18  
-**Getest met:** Aspose.Note 24.12 voor Java  
+**Getest met:** Aspose.Note 26.4 voor Java  
 **Auteur:** Aspose  
 
 {{< /blocks/products/pf/tutorial-page-section >}}

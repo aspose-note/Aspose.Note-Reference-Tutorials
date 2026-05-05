@@ -114,7 +114,7 @@ A: Nej. Kreditvalideringen kräver ett online‑anrop till Asposes licensserver.
 ---
 
 **Senast uppdaterad:** 2025-12-04  
-**Testat med:** Aspose.Note för Java 24.12 (senaste vid skrivande)  
+**Testat med:** Aspose.Note för Java 26.4 (senaste vid skrivande)  
 **Författare:** Aspose
 
 {{< /blocks/products/pf/tutorial-page-section >}}

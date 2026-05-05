@@ -74,7 +74,7 @@ Byt ut `"Your Document Directory"` mot den absoluta sökvägen till kartan som i
 Skapa en `Anteckningsbok`‑instans genom att peka på anteckningsbokens **`.onetoc2`**‑fil. Detta demonstrerar det sekundära nyckelordet **ladda onenote notebook**.
 
 ```java
-Notebook notebook = new Notebook(dataDir + "Notizbuch öffnen.onetoc2");
+Notebook notebook = new Notebook(dataDir + "Notebook.onetoc2");
 ```
 
 ### Steg 3: Iterera genom anteckningsbokens innehåll (extrahera OneNote-innehåll)

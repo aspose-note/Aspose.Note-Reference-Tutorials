@@ -130,7 +130,7 @@ C5: Ürünü değerlendiriyorsanız, geçici bir lisansı [burada](https://purch
 ---
 
 **Son Güncelleme:** 2025-12-31
-**Test Edilen Sürüm:** Aspose.Note 24.11 for Java
+**Test Edilen Sürüm:** Aspose.Note 26.4 for Java
 **Yazar:** Aspose
 
 {{< /blocks/products/pf/tutorial-page-section >}}

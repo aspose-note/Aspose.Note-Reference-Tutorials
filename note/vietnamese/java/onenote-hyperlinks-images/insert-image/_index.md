@@ -85,7 +85,7 @@ Page page = oneFile.getFirstChild();
 Tải hình ảnh mà bạn muốn chèn vào tài liệu OneNote.
 
 ```java
-Image image = new Image(oneFile, dataDir + "Input.jpg");
+Image image = new Image(dataDir + "Input.jpg");
 ```
 
 ## Bước 4: Tùy chỉnh thuộc tính hình ảnh (Tùy chọn)
@@ -144,7 +144,7 @@ A5: Bạn có thể nhận hỗ trợ kỹ thuật cho Aspose.Note for Java bằ
 ---
 
 **Last Updated:** 2025-12-21  
-**Tested With:** Aspose.Note for Java 24.10  
+**Tested With:** Aspose.Note for Java 26.4  
 **Author:** Aspose  
 
 {{< /blocks/products/pf/tutorial-page-section >}}

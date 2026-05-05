@@ -108,7 +108,7 @@ doc.save(dataDir + "SetOutputImageResolution_out.jpeg", imageSaveOptions);
 
 **س: هل Aspose.Note متوافق مع جميع إصدارات Java؟**
 
-ج: تعمل المكتبة مع Java 1.6 والإصدارات الأحدث، بما في ذلك Java 8 و11 والإصدارات الأحدث ذات الدعم طويل الأمد (LTS).
+ج: تعمل المكتبة مع Java SE 7 والإصدارات الأحدث، بما في ذلك Java 8 و11 والإصدارات الأحدث ذات الدعم طويل الأمد (LTS).
 
 
 **س: هل يمكنني تعديل خصائص الصور الأخرى (مثل القص والتدوير) في OneNote؟**
@@ -127,7 +127,7 @@ doc.save(dataDir + "SetOutputImageResolution_out.jpeg", imageSaveOptions);
 ---
 
 **آخر تحديث:** 18-12-2025
-** تم الاختبار باستخدام: ** Aspose.Note لـ Java 24.12 (الأحدث وقت كتابة هذا التقرير)
+** تم الاختبار باستخدام: ** Aspose.Note لـ Java 26.4 (الأحدث وقت كتابة هذا التقرير)
 **المؤلف:** اطرح
 
 {{< /blocks/products/pf/tutorial-page-section >}}

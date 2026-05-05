@@ -84,7 +84,7 @@ OutlineElement outlineElem = new OutlineElement();
 Instancia un `AttachedFile` con la ruta completa al archivo que deseas incrustar:
 
 ```java
-AttachedFile attachedFile = new AttachedFile(null, dataDir + "attachment.txt");
+AttachedFile attachedFile = new AttachedFile(dataDir + "attachment.txt");
 ```
 
 Cambia `"attachment.txt"` por el nombre del archivo que deseas adjuntar (java code attach file).
@@ -164,7 +164,7 @@ A: Se requiere una licencia válida de Aspose.Note para despliegues en producci�
 ---
 
 **Última actualización:** 2025-12-25  
-**Probado con:** Aspose.Note for Java 24.11  
+**Probado con:** Aspose.Note for Java 26.4  
 **Autor:** Aspose
 
 {{< /blocks/products/pf/tutorial-page-section >}}

@@ -131,7 +131,7 @@ try {
 `Image` オブジェクトを作成します。最初の引数はストリームを後で渡す場合 `null` にできますが、簡単のためここではファイルパスを指定し、ページ右側に配置するようアラインメントを設定します。
 
 ```java
-Image image = new Image(null, dataDir + "image1.jpg");
+Image image = new Image(dataDir + "image1.jpg");
 image.setAlignment(HorizontalAlignment.Right);
 ```
 
@@ -213,7 +213,7 @@ A5: はい、Aspose のリリースページから無料トライアルをダウ
 ---
 
 **最終更新日:** 2025-12-21  
-**テスト環境:** Aspose.Note for Java 24.12（執筆時点の最新バージョン）  
+**テスト環境:** Aspose.Note for Java 26.4（執筆時点の最新バージョン）  
 **作者:** Aspose  
 
 {{< /blocks/products/pf/tutorial-page-section >}}

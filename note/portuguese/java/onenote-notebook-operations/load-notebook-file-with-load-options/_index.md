@@ -123,7 +123,7 @@ A4: Para quaisquer dúvidas ou problemas, você pode visitar o fórum de suporte
 A5: Se você estiver avaliando o produto, pode obter uma licença temporária [aqui](https://purchase.aspose.com/temporary-license/).
 
 **Última atualização:** 2025-12-31  
-**Testado com:** Aspose.Note 24.11 for Java  
+**Testado com:** Aspose.Note 26.4 for Java  
 **Autor:** Aspose
 
 {{< /blocks/products/pf/tutorial-page-section >}}

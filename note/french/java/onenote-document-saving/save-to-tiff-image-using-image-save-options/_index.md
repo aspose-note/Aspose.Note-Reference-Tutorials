@@ -166,7 +166,7 @@ Vous disposez maintenant d'une boîte à outils complète de **conversion TIFF J
 ---
 
 **Dernière mise à jour :** 2025-12-17  
-**Testé avec :** Aspose.Note for Java 23.12 (dernière version au moment de la rédaction)  
+**Testé avec :** Aspose.Note for Java 26.4 (dernière version au moment de la rédaction)  
 **Auteur :** Aspose  
 
 {{< /blocks/products/pf/tutorial-page-section >}}

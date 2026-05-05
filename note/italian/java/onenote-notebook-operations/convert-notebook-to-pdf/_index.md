@@ -24,7 +24,7 @@ In questo tutorial, vedremo **come convertire un blocco appunti di OneNote in PD
 - **Cosa tratta questo tutorial?** Conversione di un blocco appunti di OneNote (.one) in un file PDF con Aspose.Note per Java.
 - **Quale libreria è necessaria?** Aspose.Note per Java (è disponibile una versione di prova gratuita).
 - **È necessaria una licenza?** È necessaria una licenza per l'utilizzo in produzione; la versione di prova è adatta per lo sviluppo e il test.
-- **Quale versione di Java è supportata?** Qualsiasi JDK 8 o superiore (l'esempio utilizza JDK 15).
+- **Quale versione di Java è supportata?** Qualsiasi JDK 8 o superiore (l'esempio utilizza JDK 8).
 - **Posso convertire più blocchi appunti in batch?** Sì, basta racchiudere il codice in un ciclo per elaborare più file.
 
 ## Cos'è "convertire OneNote in PDF"?
@@ -40,7 +40,7 @@ Convertire OneNote in PDF significa prendere un file di blocco appunti `.one` e 
 
 ## Prerequisiti
 
-1. **Java Development Kit (JDK)** – Assicurati che JDK sia installato. Puoi scaricarlo dal [sito web di Oracle](https://www.oracle.com/java/technologies/javase-jdk15-downloads.html).
+1. **Java Development Kit (JDK)** – Assicurati che JDK sia installato. Puoi scaricarlo dal [sito web di Oracle](https://www.oracle.com/java/technologies/downloads/).
 
 2. **Aspose.Note for Java Library** – Scarica il file JAR più recente dal [sito web di Aspose](https://releases.aspose.com/note/java/). Aggiungi il file JAR al classpath del tuo progetto.
 
@@ -132,7 +132,7 @@ Ora hai imparato come **convertire un OneNote in PDF**, **salvare un OneNote com
 ---
 
 **Ultimo aggiornamento:** 2026-01-02
-**Testato con:** Aspose.Note 24.12 per Java
+**Testato con:** Aspose.Note 26.4 per Java
 **Autore:** Aspose  
 
 ---

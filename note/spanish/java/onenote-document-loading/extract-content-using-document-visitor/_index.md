@@ -180,7 +180,7 @@ R: Después de que `myConverter.GetText()` devuelva un `String`, escríbalo a un
 ---  
 
 **Última actualización:** 2025-12-04  
-**Probado con:** Aspose.Note for Java 24.10  
+**Probado con:** Aspose.Note for Java 26.4  
 **Autor:** Aspose  
 
 {{< /blocks/products/pf/tutorial-page-section >}}

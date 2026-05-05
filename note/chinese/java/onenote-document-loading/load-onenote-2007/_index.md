@@ -126,7 +126,7 @@ A5: 临时许可证可通过 [temporary license page](https://purchase.aspose.co
 ---
 
 **最后更新：** 2025-12-05  
-**测试环境：** Aspose.Note for Java 24.12 (latest at time of writing)  
+**测试环境：** Aspose.Note for Java 26.4 (latest at time of writing)  
 **作者：** Aspose  
 
 {{< /blocks/products/pf/tutorial-page-section >}}

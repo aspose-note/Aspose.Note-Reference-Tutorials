@@ -146,7 +146,7 @@ A: Sì, gli sviluppatori possono accedere a un supporto completo tramite il foru
 ---
 
 **Ultimo aggiornamento:** 2025-12-31  
-**Testato con:** Aspose.Note per Java 24.11  
+**Testato con:** Aspose.Note per Java 26.4  
 **Autore:** Aspose  
 
 {{< /blocks/products/pf/tutorial-page-section >}}

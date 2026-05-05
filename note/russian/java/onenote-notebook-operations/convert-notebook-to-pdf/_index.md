@@ -24,7 +24,7 @@ weight: 15
 - **Что рассматривается в этом руководстве?** Конвертация блокнота OneNote (.one) в PDF‑файл с помощью Aspose.Note для Java.  
 - **Какая библиотека требуется?** Aspose.Note для Java (доступна бесплатная пробная версия).  
 - **Нужна ли лицензия?** Лицензия требуется для использования в продакшене; пробная версия подходит для разработки и тестирования.  
-- **Какая версия Java поддерживается?** Любой JDK 8+ (в примере используется JDK 15).  
+- **Какая версия Java поддерживается?** Любой JDK 8+ (в примере используется JDK 8).  
 - **Можно ли пакетно конвертировать несколько блокнотов?** Да — оберните код в цикл для обработки множества файлов.
 
 ## Что означает «convert onenote to pdf»?
@@ -38,7 +38,7 @@ weight: 15
 
 ## Требования
 
-1. **Java Development Kit (JDK)** – Убедитесь, что JDK установлен. Скачать его можно с [сайта Oracle](https://www.oracle.com/java/technologies/javase-jdk15-downloads.html).  
+1. **Java Development Kit (JDK)** – Убедитесь, что JDK установлен. Скачать его можно с [сайта Oracle](https://www.oracle.com/java/technologies/downloads/).  
 2. **Aspose.Note for Java Library** – Скачайте последнюю JAR‑файл с [сайта Aspose](https://releases.aspose.com/note/java/). Добавьте JAR в classpath вашего проекта.
 
 ## Импорт пакетов
@@ -125,7 +125,7 @@ A: Да, Aspose.Note — чистая Java‑библиотека и не тре
 ---
 
 **Last Updated:** 2026-01-02  
-**Tested With:** Aspose.Note 24.12 for Java  
+**Tested With:** Aspose.Note 26.4 for Java  
 **Author:** Aspose  
 
 ---

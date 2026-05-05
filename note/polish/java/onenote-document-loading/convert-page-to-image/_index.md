@@ -136,7 +136,7 @@ O: Odwiedź [forum Aspose.Note](https://forum.aspose.com/c/note/28) lub zapoznaj
 ---
 
 **Ostatnia aktualizacja:** 2025-11-29  
-**Testowano z:** Aspose.Note for Java 24.12  
+**Testowano z:** Aspose.Note for Java 26.4  
 **Autor:** Aspose  
 
 {{< /blocks/products/pf/tutorial-page-section >}}

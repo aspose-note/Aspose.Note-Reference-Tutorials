@@ -106,7 +106,7 @@ document.save(dataDir + "SaveDocToOneNoteFormatUsingSaveformat_out.one", SaveFor
 ---
 
 **Τελευταία ενημέρωση:** 2025-12-11  
-**Δοκιμασμένο με:** Aspose.Note for Java 24.12 (τελευταία έκδοση)  
+**Δοκιμασμένο με:** Aspose.Note for Java 26.4 (τελευταία έκδοση)  
 **Συγγραφέας:** Aspose  
 
 {{< /blocks/products/pf/tutorial-page-section >}}

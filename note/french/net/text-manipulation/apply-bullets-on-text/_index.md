@@ -41,7 +41,7 @@ Aspose.Note.Document doc = new Aspose.Note.Document();
 // Initialiser l'objet de classe Page
 Aspose.Note.Page page = new Aspose.Note.Page(doc);
 // Initialiser l'objet de classe Outline
-Outline outline = new Outline(doc);
+Outline outline = new Outline();
 ```
 ## Étape 3 : définir le style de texte par défaut
 ```csharp
@@ -51,8 +51,8 @@ ParagraphStyle defaultStyle = new ParagraphStyle { FontColor = Color.Black, Font
 ## Étape 4 : Créer des éléments de plan avec des puces
 ```csharp
 // Initialisez les objets de la classe OutlineElement et appliquez des puces
-OutlineElement outlineElem1 = new OutlineElement(doc) { NumberList = new NumberList("*", "Arial", 10) };
-RichText text1 = new RichText(doc) { Text = "First", ParagraphStyle = defaultStyle };
+OutlineElement outlineElem1 = new OutlineElement() { NumberList = new NumberList("*", "Arial", 10) };
+RichText text1 = new RichText() { Text = "First", ParagraphStyle = defaultStyle };
 outlineElem1.AppendChildLast(text1);
 // Répétez l’opération pour les autres éléments du contour
 ```

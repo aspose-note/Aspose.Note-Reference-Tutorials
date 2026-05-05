@@ -74,7 +74,7 @@ String dataDir = "Your Document Directory";
 Δημιουργήστε ένα αντικείμενο `Notebook` δείχνοντας στο αρχείο **`.onetoc2`** του σημειωματάριου. Αυτό δείχνει τη δευτερεύουσα λέξη-κλειδί **load onenote notebook**.
 
 ```java
-Notebook notebook = new Notebook(dataDir + "Notizbuch öffnen.onetoc2");
+Notebook notebook = new Notebook(dataDir + "Notebook.onetoc2");
 ```
 
 ### Βήμα 3: Επανάληψη Στοιχείων Σημειωματάριου (Εξαγωγή Περιεχομένου OneNote)

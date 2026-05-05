@@ -130,7 +130,7 @@ R5 : Oui, vous pouvez rejoindre le forum communautaire à l'adresse [Aspose.No
 ---
 
 **Dernière mise à jour :** 2025-11-30  
-**Testé avec :** Aspose.Note for Java 24.12  
+**Testé avec :** Aspose.Note for Java 26.4  
 **Auteur :** Aspose  
 
 {{< /blocks/products/pf/tutorial-page-section >}}

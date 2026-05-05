@@ -125,7 +125,7 @@ A5: Licencet az Aspose.Note for Java‑hoz [itt](https://purchase.aspose.com/buy
 ---
 
 **Utoljára frissítve:** 2025-12-18  
-**Tesztelve:** Aspose.Note for Java 24.12  
+**Tesztelve:** Aspose.Note for Java 26.4  
 **Szerző:** Aspose  
 
 {{< /blocks/products/pf/tutorial-page-section >}}

@@ -105,7 +105,7 @@ Sie wissen jetzt, **wie Sie OneNote schützen** können, indem Sie mit Java und 
 ---
 
 **Zuletzt aktualisiert:** 2025-12-02  
-**Getestet mit:** Aspose.Note für Java 24.12 (zum Zeitpunkt der Erstellung die neueste)  
+**Getestet mit:** Aspose.Note für Java 26.4 (zum Zeitpunkt der Erstellung die neueste)  
 **Autor:** Aspose  
 
 {{< /blocks/products/pf/tutorial-page-section >}}

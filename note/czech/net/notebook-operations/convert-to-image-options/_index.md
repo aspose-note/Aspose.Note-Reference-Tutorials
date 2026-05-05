@@ -50,7 +50,7 @@ Nejprve načtěte soubor poznámkového bloku, který chcete převést na obráz
 string dataDir = "Your Document Directory";
 
 // Načtěte poznámkový blok OneNotu
-var notebook = new Notebook(dataDir + "Notizbuch �ffnen.onetoc2");
+var notebook = new Notebook(dataDir + "Notebook.onetoc2");
 ```
 
 ## Krok 2: Nastavte možnosti uložení obrázku

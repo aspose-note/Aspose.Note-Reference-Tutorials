@@ -73,7 +73,7 @@ String dataDir = "Your Document Directory";
 Defterin **`.onetoc2`** dosyasına işaret ederek bir `Notebook` örneği oluşturun. Bu, ikincil anahtar kelime **load onenote notebook** örneğidir.
 
 ```java
-Notebook notebook = new Notebook(dataDir + "Notizbuch öffnen.onetoc2");
+Notebook notebook = new Notebook(dataDir + "Notebook.onetoc2");
 ```
 
 ### Adım 3: Defter İçeriklerinde Döngü Yap (OneNote İçeriğini Çıkar)

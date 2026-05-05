@@ -168,7 +168,7 @@ Je hebt nu een complete **java tiff-conversie**‑toolkit die je in staat stelt 
 ---
 
 **Laatst bijgewerkt:** 2025-12-17  
-**Getest met:** Aspose.Note for Java 23.12 (latest op het moment van schrijven)  
+**Getest met:** Aspose.Note for Java 26.4 (latest op het moment van schrijven)  
 **Auteur:** Aspose  
 
 {{< /blocks/products/pf/tutorial-page-section >}}

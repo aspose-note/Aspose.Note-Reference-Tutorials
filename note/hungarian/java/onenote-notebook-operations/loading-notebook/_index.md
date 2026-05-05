@@ -74,7 +74,7 @@ Cserélje le a `"Your Document Directory"` értéket a `.onetoc2` fájlt tartalm
 Hozzon létre egy `Notebook` példányt a jegyzetfüzet **`.onetoc2`** fájljára mutatva. Ez szemlélteti a másodlagos kulcsszót **load onenote notebook**.
 
 ```java
-Notebook notebook = new Notebook(dataDir + "Notizbuch öffnen.onetoc2");
+Notebook notebook = new Notebook(dataDir + "Notebook.onetoc2");
 ```
 
 ### 3. lépés: Jegyzetfüzet tartalmának bejárása (OneNote tartalom kinyerése)

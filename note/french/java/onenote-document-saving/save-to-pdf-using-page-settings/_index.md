@@ -138,7 +138,7 @@ Vous savez maintenant **comment enregistrer un PDF** à partir de fichiers OneNo
 ---
 
 **Dernière mise à jour :** 2025-12-17  
-**Testé avec :** Aspose.Note pour Java 23.12  
+**Testé avec :** Aspose.Note pour Java 26.4  
 **Auteur :** Aspose  
 
 {{< /blocks/products/pf/tutorial-page-section >}}

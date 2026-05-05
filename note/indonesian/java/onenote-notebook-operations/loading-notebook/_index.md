@@ -74,7 +74,7 @@ Ganti `"Your Document Directory"` dengan path absolut ke folder yang berisi file
 Buat instance `Notebook` dengan menunjuk ke file **`.onetoc2`** notebook. Ini memperlihatkan kata kunci sekunder **load onenote notebook**.
 
 ```java
-Notebook notebook = new Notebook(dataDir + "Notizbuch öffnen.onetoc2");
+Notebook notebook = new Notebook(dataDir + "Notebook.onetoc2");
 ```
 
 ### Langkah 3: Iterasi Isi Notebook (Ekstrak Konten OneNote)

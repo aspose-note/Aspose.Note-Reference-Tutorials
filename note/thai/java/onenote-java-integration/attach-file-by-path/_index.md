@@ -83,7 +83,7 @@ OutlineElement outlineElem = new OutlineElement();
 สร้างอ็อบเจ็กต์ `AttachedFile` พร้อมเส้นทางเต็มของไฟล์ที่คุณต้องการฝัง:
 
 ```java
-AttachedFile attachedFile = new AttachedFile(null, dataDir + "attachment.txt");
+AttachedFile attachedFile = new AttachedFile(dataDir + "attachment.txt");
 ```
 
 เปลี่ยน `"attachment.txt"` ให้เป็นชื่อไฟล์ที่คุณต้องการแนบ (java code attach file)
@@ -165,7 +165,7 @@ doc.save(dataDir);
 ---
 
 **อัปเดตล่าสุด:** 2025-12-25
-**ทดสอบกับ:** Aspose.Note สำหรับ Java 24.11
+**ทดสอบกับ:** Aspose.Note สำหรับ Java 26.4
 **ผู้เขียน:** Aspose
 
 {{< /blocks/products/pf/tutorial-page-section >}}

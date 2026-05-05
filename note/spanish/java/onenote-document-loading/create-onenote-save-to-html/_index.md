@@ -169,7 +169,7 @@ Ahora sabe **cómo exportar fuentes** mientras **guarda OneNote como HTML** usan
 ---
 
 **Última actualización:** 2025-12-02  
-**Probado con:** Aspose.Note for Java 24.12  
+**Probado con:** Aspose.Note for Java 26.4  
 **Autor:** Aspose  
 
 {{< /blocks/products/pf/tutorial-page-section >}}
