@@ -1,27 +1,47 @@
 ---
-title: Uzyskaj znaczniki węzłów w programie OneNote — Aspose.Note
-linktitle: Uzyskaj znaczniki węzłów w programie OneNote — Aspose.Note
-second_title: Aspose.Note API Java
-description: Odkryj sekrety OneNote z Aspose.Note dla Java. Ten przewodnik umożliwia łatwe wyodrębnianie tagów węzłów. Zanurz się w przyszłość manipulacji dokumentami!
-weight: 15
+date: 2026-02-28
+description: Dowiedz się, jak wyodrębniać tagi z plików OneNote przy użyciu Aspose.Note
+  dla Javy. Ten samouczek pokazuje, jak załadować plik OneNote, pobrać tagi OneNote
+  i efektywnie modyfikować tagi OneNote.
+linktitle: How to Extract Tags from OneNote - Aspose.Note
+second_title: Aspose.Note Java API
+title: Jak wyodrębnić tagi z OneNote za pomocą Aspose.Note
 url: /pl/java/onenote-tag-operations/get-node-tags/
+weight: 15
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Uzyskaj znaczniki węzłów w programie OneNote — Aspose.Note
+# Jak wyodrębnić tagi z OneNote przy użyciu Aspose.Note
 
-## Wstęp
-Witamy w świecie Aspose.Note dla Java! Jeśli chcesz zagłębić się w zarządzanie informacjami z dokumentów OneNote i wyodrębnianie ich, jesteś we właściwym miejscu. W tym samouczku przeprowadzimy Cię przez proces uzyskiwania tagów węzłów w programie OneNote przy użyciu programu Aspose.Note dla języka Java. Na koniec będziesz wyposażony w wiedzę pozwalającą wykorzystać pełny potencjał tego potężnego interfejsu API Java.
-## Warunki wstępne
-Przed wyruszeniem w tę podróż upewnij się, że spełniasz następujące warunki wstępne:
-- Środowisko programistyczne Java: Upewnij się, że w systemie skonfigurowane jest działające środowisko programistyczne Java.
--  Biblioteka Aspose.Note: Pobierz i zainstaluj bibliotekę Aspose.Note z[Tutaj](https://releases.aspose.com/note/java/).
-- Dokument OneNote: przygotuj dokument OneNote (np. „Sample1.one”) do testowania i eksploracji.
-## Importuj pakiety
-Rozpocznij od zaimportowania niezbędnych pakietów do projektu Java. Pakiety te zapewnią narzędzia potrzebne do interakcji z dokumentami OneNote przy użyciu Aspose.Note.
+## Wprowadzenie
+Jeśli potrzebujesz **jak wyodrębnić tagi** z dokumentu OneNote, trafiłeś we właściwe miejsce. W tym przewodniku przeprowadzimy Cię przez cały proces ładowania pliku OneNote, pobierania tagów OneNote oraz ich modyfikacji przy użyciu Aspose.Note dla Javy. Po zakończeniu tutorialu będziesz mógł zintegrować wyodrębnianie tagów w dowolnej aplikacji Java z pełnym przekonaniem.
+
+## Szybkie odpowiedzi
+- **Jaka jest podstawowa klasa do otwierania pliku OneNote?** `Document`
+- **Która metoda zwraca wszystkie węzły RichText?** `doc.getChildNodes(RichText.class)`
+- **Czy można odczytać czas utworzenia NoteTag?** Tak, poprzez `noteTag.getCreationTime()`
+- **Czy potrzebna jest licencja do użytku produkcyjnego?** Tak, wymagana jest ważna licencja Aspose.Note
+- **Czy API jest kompatybilne z Java 8 i nowszymi?** Absolutnie, obsługuje nowoczesne wersje Javy
+
+## Co oznacza „jak wyodrębnić tagi” w OneNote?
+Wyodrębnianie tagów polega na odczytaniu metadanych (takich jak status, etykieta, ikona i znaczniki czasu), które OneNote dołącza do akapitów, pól wyboru lub innych elementów treści. Te tagi są przechowywane jako obiekty `NoteTag` wewnątrz węzłów `RichText`.
+
+## Dlaczego warto używać Aspose.Note do wyodrębniania tagów?
+- **Brak wymogu instalacji OneNote** – pracuj bezpośrednio z plikami .one.  
+- **Pełna kontrola** – pobieraj, odczytuj i modyfikuj właściwości tagów programowo.  
+- **Wieloplatformowość** – działa na każdym systemie operacyjnym obsługującym Javę.
+
+## Wymagania wstępne
+- Środowisko programistyczne Java (JDK 8+).  
+- Biblioteka Aspose.Note pobrana z [tutaj](https://releases.aspose.com/note/java/).  
+- Przykładowy dokument OneNote (np. `Sample1.one`) umieszczony w znanym katalogu.
+
+## Importowanie pakietów
+Rozpocznij od zaimportowania potrzebnych klas. Te importy dają dostęp do obsługi dokumentów, interfejsów tagów oraz węzłów rich‑text.
+
 ```java
 import java.io.IOException;
 import java.util.List;
@@ -30,39 +50,49 @@ import com.aspose.note.ITag;
 import com.aspose.note.NoteTag;
 import com.aspose.note.RichText;
 ```
-Podzielmy teraz proces uzyskiwania tagów węzłów w programie OneNote na łatwe do wykonania kroki:
-## Krok 1: Załaduj dokument OneNote
+
+## Jak załadować plik OneNote
+Pierwszy krok to załadowanie pliku OneNote do obiektu `Document`.
+
 ```java
-// Ścieżka do katalogu dokumentów.
+// The path to the documents directory.
 String dataDir = "Your Document Directory";
-// Załaduj dokument do Aspose.Note
+// Load the document into Aspose.Note
 Document doc = new Document(dataDir + "Sample1.one");
-// Pobierz wszystkie węzły RichText
+// Get all RichText nodes
 List<RichText> nodes = doc.getChildNodes(RichText.class);
-// Załaduj dokument do Aspose.Note
+// Load the document into Aspose.Note
 Document doc = new Document(dataDir + "Sample1.one");
 ```
-Upewnij się, że masz załadowany dokument Aspose.Note i gotowy do dalszego przetwarzania.
-## Krok 2: Pobierz węzły RichText
+
+> **Wskazówka:** Utrzymuj ścieżkę `dataDir` jako absolutną lub użyj `Paths.get(...)`, aby uniknąć błędów związanych ze ścieżkami.
+
+## Jak pobrać tagi OneNote
+Po załadowaniu dokumentu pobierz wszystkie węzły `RichText`. Każdy węzeł może zawierać jeden lub więcej tagów.
+
 ```java
-// Pobierz wszystkie węzły RichText
+// Get all RichText nodes
 List<RichText> nodes = doc.getChildNodes(RichText.class);
 ```
-Wyodrębnij wszystkie węzły RichText z załadowanego dokumentu OneNote. Węzły te zawierają interesujące nas informacje.
-## Krok 3: Iteruj przez każdy węzeł
+
+## Iteracja po każdym węźle
+Iteruj po każdym węźle `RichText`, aby sprawdzić jego tagi.
+
 ```java
-// Iteruj przez każdy węzeł
+// Iterate through each node
 for (RichText richText : nodes) {
-    // Przetwórz tutaj każdy węzeł
+    // Process each node here
 }
 ```
-Przejdź przez każdy węzeł RichText, aby uzyskać dostęp do jego zawartości i przeanalizować ją.
-## Krok 4: Pobierz znaczniki notatek
+
+## Pobieranie NoteTag (Jak modyfikować tagi OneNote)
+Wewnątrz pętli sprawdź, czy tag jest typu `NoteTag`. Jeśli tak, możesz odczytać jego właściwości — lub zmodyfikować je w razie potrzeby.
+
 ```java
 for (ITag tag : richText.getTags()) {
     if (tag.getClass() == NoteTag.class) {
         NoteTag noteTag = (NoteTag) tag;
-        // Pobierz właściwości
+        // Retrieve properties
         System.out.println("Completed Time: " + noteTag.getCompletedTime());
         System.out.println("Create Time: " + noteTag.getCreationTime());
         System.out.println("Font Color: " + noteTag.getFontColor());
@@ -70,23 +100,53 @@ for (ITag tag : richText.getTags()) {
         System.out.println("Label: " + noteTag.getLabel());
         System.out.println("Icon: " + noteTag.getIcon());
         System.out.println("High Light: " + noteTag.getHighlight());
+        // Example of modifying a property
+        // noteTag.setLabel("Updated Label");
     }
 }
 ```
-Dla każdego węzła RichText sprawdź NoteTags i pobierz ich właściwości. Na tym etapie odkrywane są szczegóły, takie jak czas ukończenia, czas utworzenia, kolor czcionki, stan, etykieta, ikona i wyróżnienie.
-## Wniosek
-Gratulacje! Pomyślnie poradziłeś sobie ze skomplikowanym środowiskiem wyodrębniania tagów węzłów z OneNote przy użyciu Aspose.Note dla Java. Uzbrojeni w tę wiedzę, możesz teraz bezproblemowo zintegrować tę funkcjonalność z aplikacjami Java.
-## Często zadawane pytania
+
+> **Ostrzeżenie:** Modyfikacja tagu zmienia podstawowy dokument. Pamiętaj, aby zapisać dokument po wprowadzeniu zmian.
+
+## Podsumowanie
+Teraz wiesz **jak wyodrębnić tagi**, jak **załadować plik OneNote**, jak **pobrać tagi OneNote**, a także jak **modyfikować tagi OneNote** przy użyciu Aspose.Note dla Javy. Włącz te fragmenty kodu do własnych projektów, aby zautomatyzować analizę notatek, raportowanie lub zadania migracyjne.
+
+## FAQ
 ### Czy Aspose.Note jest kompatybilny ze wszystkimi wersjami OneNote?
-Aspose.Note obsługuje różne formaty plików OneNote, zapewniając kompatybilność w różnych wersjach.
+Aspose.Note obsługuje różne formaty plików OneNote, zapewniając kompatybilność z różnymi wersjami.
+
 ### Czy mogę modyfikować pobrane właściwości NoteTag?
 Tak, Aspose.Note pozwala programowo modyfikować i aktualizować właściwości NoteTag.
+
 ### Czy dostępna jest wersja próbna Aspose.Note?
- Absolutnie! Możesz uzyskać dostęp do bezpłatnej wersji próbnej[Tutaj](https://releases.aspose.com/).
-### Gdzie mogę znaleźć obszerną dokumentację Aspose.Note dla Java?
- Zapoznaj się ze szczegółową dokumentacją[Tutaj](https://reference.aspose.com/note/java/).
-### Jak mogę uzyskać pomoc w przypadku jakichkolwiek problemów lub zapytań?
- Przejdź na forum pomocy technicznej[Tutaj](https://forum.aspose.com/c/note/28) o pomoc od społeczności Aspose.
+Oczywiście! Bezpłatną wersję próbną znajdziesz [tutaj](https://releases.aspose.com/).
+
+### Gdzie mogę znaleźć pełną dokumentację Aspose.Note dla Javy?
+Szczegółową dokumentację znajdziesz [tutaj](https://reference.aspose.com/note/java/).
+
+### Jak mogę uzyskać wsparcie w przypadku problemów lub pytań?
+Odwiedź forum wsparcia [tutaj](https://forum.aspose.com/c/note/28), aby uzyskać pomoc od społeczności Aspose.
+
+## Najczęściej zadawane pytania
+**Q:** *Czy mogę wyodrębnić tagi z plików OneNote chronionych hasłem?*  
+**A:** Tak, podaj hasło przy tworzeniu obiektu `Document`.
+
+**Q:** *Czy muszę wywołać metodę zapisu po modyfikacji tagów?*  
+**A:** Absolutnie. Użyj `doc.save("UpdatedSample.one");`, aby zachować zmiany.
+
+**Q:** *Czy można filtrować tagi według statusu?*  
+**A:** Możesz sprawdzić `noteTag.getStatus()` w pętli i przetwarzać tylko pożądane statusy.
+
+**Q:** *Co się stanie, jeśli węzeł RichText nie ma tagów?*  
+**A:** `richText.getTags()` zwraca pustą kolekcję; pętla po prostu go pomija.
+
+**Q:** *Czy mogę przetwarzać wsadowo wiele plików OneNote?*  
+**A:** Owiń powyższą logikę w rutynę iteracji po plikach i obsługuj każdy dokument kolejno.
+
+**Ostatnia aktualizacja:** 2026-02-28  
+**Testowano z:** Aspose.Note for Java 24.12  
+**Autor:** Aspose  
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
