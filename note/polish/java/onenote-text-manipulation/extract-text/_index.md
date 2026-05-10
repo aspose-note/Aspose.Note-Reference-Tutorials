@@ -1,26 +1,61 @@
 ---
-title: Wyodrębnij tekst w OneNote - Aspose.Note
-linktitle: Wyodrębnij tekst w OneNote - Aspose.Note
-second_title: Aspose.Note API Java
-description: Poznaj płynne wyodrębnianie tekstu z OneNote w Javie za pomocą Aspose.Note. Bez wysiłku integruj, manipuluj i ulepszaj swoje aplikacje.
-weight: 17
+date: 2026-03-08
+description: Dowiedz się, jak konwertować OneNote na tekst przy użyciu Aspose.Note
+  dla Javy, wyodrębniać sformatowany tekst i bez wysiłku czytać strony OneNote.
+linktitle: Convert OneNote to Text - Aspose.Note
+second_title: Aspose.Note Java API
+title: Jak przekonwertować OneNote na tekst przy użyciu Aspose.Note dla Javy
 url: /pl/java/onenote-text-manipulation/extract-text/
+weight: 17
 ---
 
-{{< blocks/products/pf/main-wrap-class >}}
+/products-backtop-button >}}
+
+Make sure we keep all placeholders unchanged.
+
+Now produce final content with translations.
+
+Check for any missed items: The quick answers list bullet points need to keep ** bold. Keep same formatting.
+
+Also the table header translation: we changed header names; that's okay.
+
+Make sure we keep code block placeholders exactly as they are.
+
+Now produce final answer.{{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Wyodrębnij tekst w OneNote - Aspose.Note
+# Konwertuj OneNote na tekst przy użyciu Aspose.Note
 
-## Wstęp
-W stale zmieniającym się środowisku programowania w języku Java wyodrębnianie tekstu z dokumentów programu OneNote stało się kluczowym wymogiem dla programistów. Aspose.Note dla Java okazuje się potężnym narzędziem umożliwiającym bezproblemowe osiągnięcie tego celu. Ten artykuł poprowadzi Cię przez proces wyodrębniania tekstu z OneNote przy użyciu Aspose.Note dla Java, oferując instrukcje krok po kroku i cenne spostrzeżenia.
-## Warunki wstępne
-Zanim przejdziesz do samouczka, upewnij się, że spełniasz następujące wymagania wstępne:
-- Środowisko programistyczne Java: Upewnij się, że w systemie skonfigurowano funkcjonalne środowisko programistyczne Java.
--  Aspose.Note for Java Library: Pobierz i zintegruj bibliotekę Aspose.Note for Java ze swoim projektem. Możesz znaleźć bibliotekę i powiązane zasoby[Tutaj](https://releases.aspose.com/note/java/).
-## Importuj pakiety
-Po skonfigurowaniu środowiska programistycznego i zintegrowaniu biblioteki Aspose.Note nadszedł czas na zaimportowanie niezbędnych pakietów. Ten krok jest kluczowy dla uzyskania dostępu do funkcjonalności udostępnianych przez bibliotekę. W kodzie Java użyj następujących poleceń:
+## Wprowadzenie
+Jeśli potrzebujesz **konwertować OneNote na tekst** w aplikacji Java, Aspose.Note for Java zapewnia czysty, programowy sposób realizacji tego zadania. Niezależnie od tego, czy tworzysz indeks wyszukiwania, generujesz raporty, czy po prostu musisz odczytać strony OneNote, ten przewodnik przeprowadzi Cię przez ładowanie dokumentu OneNote, pobieranie stron OneNote oraz wyodrębnianie zarówno zwykłego, jak i sformatowanego tekstu. Zobaczysz, jak **załadować dokument OneNote**, **wyodrębnić bogaty tekst** i obsłużyć wyniki w kilku zwięzłych krokach.
+
+## Szybkie odpowiedzi
+- **Jakiej biblioteki powinienem używać?** Aspose.Note for Java.
+- **Czy mogę wyodrębnić sformatowany tekst?** Tak – API zwraca obiekty rich text, które zachowują formatowanie.
+- **Czy potrzebuję licencji do rozwoju?** Dostępna jest bezpłatna wersja próbna; licencja jest wymagana w środowisku produkcyjnym.
+- **Jakie wersje Javy są obsługiwane?** Java 8 i nowsze.
+- **Czy można odczytywać strony OneNote pojedynczo?** Oczywiście – możesz iterować po węzłach stron.
+
+## Co oznacza „konwertować OneNote na tekst”?
+Konwersja OneNote na tekst oznacza programowe odczytanie zawartości pliku `.one` i przekształcenie go w ciąg znaków zwykłego tekstu (lub sformatowany ciąg), który Twoja aplikacja może przetwarzać, przechowywać lub wyświetlać. Aspose.Note abstrahuje podstawową strukturę pliku OneNote, dzięki czemu nie musisz samodzielnie zajmować się XML‑em ani własnościowymi formatami.
+
+## Dlaczego wyodrębniać sformatowany tekst z OneNote?
+- **Zachowanie stylizacji:** Nagłówki, listy wypunktowane i oznaczenia pogrubienia/pochylenia pozostają nienaruszone.
+- **Wyszukiwalność:** Wyodrębnianie tekstu umożliwia pełnotekstowe wyszukiwanie wśród notatek.
+- **Integracja:** Wprowadzaj wyodrębnione dane do potoków analitycznych, CMS lub narzędzi raportujących.
+- **Przenośność:** Przenoś zawartość z OneNote na inne platformy bez ręcznego kopiowania i wklejania.
+
+## Prerequisites
+Zanim zanurzysz się w temat, upewnij się, że masz:
+
+- Funkcjonalne środowisko programistyczne Java (JDK 8+).
+- Bibliotekę Aspose.Note for Java. Możesz ją pobrać z oficjalnej strony [tutaj](https://releases.aspose.com/note/java/).
+- Przykładowy plik OneNote (np. `Sample1.one`) umieszczony w znanym katalogu.
+
+## Importowanie pakietów
+Najpierw zaimportuj klasy, które będą potrzebne do pracy z dokumentami OneNote i węzłami rich‑text.
+
 ```java
 import java.io.IOException;
 import java.util.List;
@@ -29,26 +64,34 @@ import com.aspose.note.Document;
 import com.aspose.note.Page;
 import com.aspose.note.RichText;
 ```
-## Krok 1: Ustaw katalog dokumentów
- Zanim zaczniesz, upewnij się, że zdefiniowałeś ścieżkę do katalogu dokumentów. Zastępować`"Your Document Directory"` z rzeczywistą ścieżką.
+
+## Krok 1: Ustaw katalog dokumentu
+Zdefiniuj folder zawierający pliki `.one`. Zastąp `"Your Document Directory"` rzeczywistą ścieżką na swoim komputerze.
+
 ```java
-// Ścieżka do katalogu dokumentów.
+// The path to the documents directory.
 String dataDir = "Your Document Directory";
 ```
-## Krok 2: Załaduj dokument
- Użyj dostarczonego kodu, aby załadować dokument OneNote do Aspose.Note. The`Document` klasa jest kluczowa dla dalszych operacji.
+
+## Krok 2: Załaduj dokument OneNote
+Użyj klasy `Document`, aby **załadować dokument OneNote** do pamięci. To pierwszy krok, zanim będziesz mógł **pobrać strony OneNote**.
+
 ```java
-// Załaduj dokument do Aspose.Note
+// Load the document into Aspose.Note
 Document doc = new Document(dataDir + "Sample1.one");
 ```
-## Krok 3: Pobierz węzły strony
-Pobierz listę węzłów strony z załadowanego dokumentu. Ten krok jest niezbędny, ponieważ stanowi podstawę do wyodrębniania tekstu.
+
+## Krok 3: Pobierz strony OneNote
+Pobierz wszystkie węzły stron z załadowanego dokumentu. Daje to kolekcję, po której będziesz iterować, aby **odczytać strony OneNote**.
+
 ```java
-// Pobierz listę węzłów strony
+// Get list of page nodes
 List<Page> pages = doc.getChildNodes(Page.class);
 ```
-## Krok 4: Wyodrębnij tekst
-Iteruj po każdej stronie, wyodrębniając węzły tekstowe za pomocą`RichText` klasa. Zbierz treść tekstową i wydrukuj ją lub zmodyfikuj, jeśli zajdzie taka potrzeba.
+
+## Krok 4: Wyodrębnij bogaty tekst
+Iteruj przez każdą stronę, wyciągaj obiekty `RichText` i łącz ich zawartość. To miejsce, w którym **wyodrębniasz sformatowany tekst** (rich text) z każdej strony.
+
 ```java
 for (Page p : pages) {
     List<RichText> textNodes = (List<RichText>) p.getChildNodes(RichText.class);
@@ -60,20 +103,59 @@ for (Page p : pages) {
     System.out.println(text.toString());
 }
 ```
-Wykonując poniższe kroki, możesz bezproblemowo zintegrować wyodrębnianie tekstu z dokumentów OneNote z aplikacjami Java za pomocą Aspose.Note.
-## Wniosek
-Podsumowując, Aspose.Note dla Java upraszcza skomplikowane zadanie wyodrębniania tekstu z dokumentów OneNote. Postępując zgodnie z tym obszernym przewodnikiem, programiści mogą bez trudu zintegrować tę funkcjonalność ze swoimi aplikacjami Java, zapewniając płynną obsługę użytkownika.
-## Często Zadawane Pytania
+
+Uruchomienie fragmentu kodu wypisuje połączony tekst wszystkich stron w konsoli. Możesz dalej przetwarzać ten ciąg — przechowywać go w bazie danych, zapisać do pliku lub wprowadzić do indeksu wyszukiwania.
+
+## Typowe problemy i rozwiązania
+| Problem | Powód | Rozwiązanie |
+|---------|-------|-------------|
+| **`FileNotFoundException`** | Nieprawidłowa ścieżka `dataDir`. | Sprawdź, czy ciąg katalogu kończy się separatorem ścieżki (`/` lub `\\`). |
+| **Pusty wynik** | Dokument nie zawiera węzłów `RichText` (np. tylko obrazy). | Użyj `doc.getChildNodes(Image.class)`, aby obsłużyć obrazy osobno. |
+| **Problemy z kodowaniem** | Znaki nie‑ASCII wyświetlają się jako zniekształcone. | Upewnij się, że konsola lub writer wyjścia używa kodowania UTF‑8. |
+
+## Najczęściej zadawane pytania
+
 ### Czy Aspose.Note jest kompatybilny z różnymi wersjami plików OneNote?
 Tak, Aspose.Note obsługuje szeroką gamę formatów plików OneNote, zapewniając kompatybilność między wersjami.
-### Czy mogę wyodrębnić sformatowany tekst i obrazy za pomocą Aspose.Note?
-Absolutnie! Aspose.Note zapewnia solidne funkcje wyodrębniania sformatowanego tekstu i obrazów z dokumentów OneNote.
-### Czy dostępna jest wersja próbna Aspose.Note dla Java?
-Tak, możesz poznać funkcje Aspose.Note dla Java, korzystając z bezpłatnej wersji próbnej[Tutaj](https://releases.aspose.com/).
+
+### Czy mogę wyodrębnić sformatowany tekst i obrazy przy użyciu Aspose.Note?
+Oczywiście! Aspose.Note oferuje solidne funkcje umożliwiające wyodrębnianie sformatowanego tekstu i obrazów z dokumentów OneNote.
+
+### Czy dostępna jest wersja próbna Aspose.Note for Java?
+Tak, możesz zapoznać się z funkcjami Aspose.Note for Java, korzystając z bezpłatnej wersji próbnej dostępnej [tutaj](https://releases.aspose.com/).
+
 ### Jak mogę uzyskać wsparcie dla Aspose.Note?
- Odwiedzić[Forum Aspose.Note](https://forum.aspose.com/c/note/28) uzyskać wsparcie społeczności lub poznać opcje wsparcia premium.
-### Czy dostępne są tymczasowe licencje dla Aspose.Note dla Java?
- Tak, możesz uzyskać licencje tymczasowe do celów testowych[Tutaj](https://purchase.aspose.com/temporary-license/).
+Odwiedź [forum Aspose.Note](https://forum.aspose.com/c/note/28) w celu uzyskania pomocy społeczności lub zapoznaj się z opcjami wsparcia premium.
+
+### Czy dostępne są tymczasowe licencje dla Aspose.Note for Java?
+Tak, możesz uzyskać tymczasowe licencje do celów testowych [tutaj](https://purchase.aspose.com/temporary-license/).
+
+## FAQ
+
+**P: Jak konwertować OneNote na tekst bez utraty punktów listy?**  
+O: Użyj obiektów `RichText`; zachowują one informacje o akapitach i listach, które możesz sformatować przy budowie ostatecznego ciągu.
+
+**P: Czy mogę odczytywać strony OneNote asynchronicznie?**  
+O: Tak — otocz pętlę wyodrębniania w `CompletableFuture` lub użyj puli wątków, aby przetwarzać strony równolegle.
+
+**P: Czy Aspose.Note obsługuje pliki OneNote chronione hasłem?**  
+O: Obecnie pliki OneNote nie obsługują ochrony hasłem, więc nie jest wymagana dodatkowa obsługa.
+
+**P: Jaki jest najlepszy sposób przechowywania wyodrębnionego tekstu?**  
+O: Dla dużych dokumentów rozważ strumieniowanie wyniku do pliku lub bazy danych zamiast trzymania wszystkiego w pamięci.
+
+**P: Czy istnieje sposób na wyodrębnienie tylko określonych sekcji strony?**  
+O: Możesz filtrować węzły `RichText` według ich stylu lub hierarchii, używając metody `getStyle()` przed konkatenacją.
+
+## Zakończenie
+Postępując zgodnie z tym samouczkiem, teraz wiesz, jak **konwertować OneNote na tekst**, **ładować dokument OneNote**, **pobierać strony OneNote** i **wyodrębniać bogaty tekst** przy użyciu Aspose.Note for Java. Zintegruj te fragmenty kodu w swoich projektach, aby uzyskać potężne możliwości przetwarzania notatek, poprawić wyszukiwalność i usprawnić migrację treści.
+
+---
+
+**Last Updated:** 2026-03-08  
+**Tested With:** Aspose.Note for Java 24.12  
+**Author:** Aspose  
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

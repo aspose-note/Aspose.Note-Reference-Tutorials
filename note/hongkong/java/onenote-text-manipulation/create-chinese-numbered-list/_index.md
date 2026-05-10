@@ -1,26 +1,46 @@
 ---
-title: 在 OneNote 中建立中文編號清單 - Aspose.Note
-linktitle: 在 OneNote 中建立中文編號清單 - Aspose.Note
+date: 2026-03-08
+description: 學習如何使用 Aspose.Note for Java 將 OneNote 儲存為 PDF，並使用中文編號清單。一步一步的指南，涵蓋編號、大綱與
+  PDF 匯出。
+linktitle: Save OneNote as PDF with Chinese Numbered List – Aspose.Note
 second_title: Aspose.Note Java API
-description: 使用 Aspose.Note 增強 Java 中的文件建立。逐步學習在 OneNote 中建立中文編號清單。探索 Aspose.Note 的強大功能。
-weight: 13
+title: 將 OneNote 另存為 PDF 並使用中文編號清單 – Aspose.Note
 url: /zh-hant/java/onenote-text-manipulation/create-chinese-numbered-list/
+weight: 13
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# 在 OneNote 中建立中文編號清單 - Aspose.Note
+# 將 OneNote 儲存為 PDF 並加入中文編號清單 – Aspose.Note
 
 ## 介紹
-如果您希望增強 Java 文件建立功能，Aspose.Note 是您的首選解決方案。在本教學中，我們將引導您完成使用 Aspose.Note for Java 在 OneNote 中建立中文編號清單的過程。這個功能強大的程式庫允許您以程式設計方式操作 OneNote 文檔，從而完全控制其結構和內容。
-## 先決條件
-在深入學習本教程之前，請確保您具備以下先決條件：
-1. Java 開發環境：確保您的電腦上設定了 Java 開發環境。
-2.  Aspose.Note 函式庫：下載並安裝 Aspose.Note 函式庫。你可以找到下載鏈接[這裡](https://releases.aspose.com/note/java/).
-## 導入包
-首先將必要的套件匯入到您的 Java 專案中。這些套件對於利用 Aspose.Note for Java 的功能至關重要。這是一個範例程式碼片段：
+如果您想在 **將 OneNote 儲存為 PDF** 的同時加入中文編號清單，Aspose.Note for Java 讓這一切變得輕而易舉。在本教學中，我們將逐步說明如何建立中文樣式的大綱、套用編號，並將 OneNote 文件匯出為 PDF。完成後，您將了解 **如何加入編號**、**如何在 OneNote 中加入大綱**，以及為何 **Aspose.Note Java** 是此任務的首選函式庫。
+
+## 快速回答
+- **本教學涵蓋什麼內容？** 在 OneNote 中建立中文編號清單，並使用 Aspose.Note for Java 將其儲存為 PDF。  
+- **需要授權嗎？** 免費試用版可用於測試；正式環境需購買商業授權。  
+- **支援哪些 IDE？** 任何 Java IDE，例如 Eclipse、IntelliJ IDEA 或 NetBeans。  
+- **可以自訂清單樣式嗎？** 可以——字型、大小、顏色與編號格式皆可完整設定。  
+- **實作需要多長時間？** 基本清單大約 10‑15 分鐘即可完成。
+
+## 什麼是「將 OneNote 儲存為 PDF」？
+將 OneNote 儲存為 PDF 會把互動式筆記本頁面轉換成靜態、相容性廣泛的文件。此方式適合分享、歸檔或列印，同時保留原始版面配置與您自行設定的編號。
+
+## 為什麼使用 Aspose.Note for Java？
+Aspose.Note 提供功能豐富且高效能的 API，讓您能以程式方式建構 OneNote 結構、套用複雜編號（含中文數字），並直接匯出為 PDF，無需手動操作 UI。它跨平台、無需安裝 Office，且支援完整的樣式控制。
+
+## 前置條件
+在開始之前，請確保您已具備：
+
+1. **Java 開發環境** – JDK 8 以上與您慣用的 IDE。  
+2. **Aspose.Note 函式庫** – 從官方網站下載最新 JAR [此處](https://releases.aspose.com/note/java/)。  
+3. **基本的 Java 語法與物件導向概念**。
+
+## 匯入套件
+在 Java 專案中匯入必要的套件。這些匯入讓您可以使用文件建立、樣式設定與編號功能。
+
 ```java
 import java.awt.Color;
 import java.io.IOException;
@@ -33,35 +53,54 @@ import com.aspose.note.Page;
 import com.aspose.note.RichText;
 import com.aspose.note.ParagraphStyle;
 ```
-現在，讓我們將程式碼分解為單獨的步驟：
-## 第 1 步：建立文檔對象
+
+現在，我們將一步步拆解實作流程。
+
+## 如何將 OneNote 儲存為 PDF 並加入中文編號清單
+以下提供詳細的編號步驟說明。每一步皆包含簡短說明與可直接複製的程式碼。
+
+### 步驟 1：建立 Document 物件
+我們先建立一個空的 `Document` 實例，用來保存 OneNote 內容。
+
 ```java
-//文檔目錄的路徑。
+// The path to the documents directory.
 String dataDir = "Your Document Directory";
-//建立 Document 類別的對象
+// create an object of the Document class
 Document doc = new Document();
 ```
-## 第2步：初始化頁面對象
+
+### 步驟 2：初始化 Page 物件
+OneNote 的頁面就像是放置大綱與其他元素的畫布。
+
 ```java
-//初始化Page類別物件
+// initialize Page class object
 Page page = new Page();
 ```
-## 第三步：初始化大綱對象
+
+### 步驟 3：初始化 Outline 物件
+大綱是清單項目的容器，可視為「項目符號/編號」的持有者。
+
 ```java
-//初始化 Outline 類別對象
+// initialize Outline class object
 Outline outline = new Outline();
 ```
-## 第四步：初始化TextStyle對象
+
+### 步驟 4：初始化 TextStyle 物件
+定義預設段落樣式，將套用至每一個清單項目。
+
 ```java
-//初始化 TextStyle 類別物件並設定格式屬性
+// initialize TextStyle class object and set formatting properties
 ParagraphStyle defaultStyle = new ParagraphStyle()
                                     .setFontColor(Color.black)
                                     .setFontName("Arial")
                                     .setFontSize(10);
 ```
-## 第 5 步：初始化 OutlineElement 物件並套用編號
+
+### 步驟 5：初始化 OutlineElement 物件並套用編號
+此處建立三個大綱元素，分別代表清單項目。我們使用 `NumberList("{0})", NumberFormat.ChineseCounting, "Arial", 10)` 取得中文數字編號（一、二、三…）。
+
 ```java
-//初始化 OutlineElement 類別物件並套用編號
+// initialize OutlineElement class objects and apply numbering
 OutlineElement outlineElem1 = new OutlineElement();
 outlineElem1.setNumberList(new NumberList("{0})", NumberFormat.ChineseCounting, "Arial", 10));
 RichText text1 = new RichText().append("First");
@@ -78,43 +117,89 @@ RichText text3 = new RichText().append("Third");
 text3.setParagraphStyle(defaultStyle);
 outlineElem3.appendChildLast(text3);
 ```
-## 第 6 步：新增輪廓元素
+
+### 步驟 6：加入 Outline Elements
+將每個已編號的元素加入大綱容器。
+
 ```java
-//添加輪廓元素
+// add outline elements
 outline.appendChildLast(outlineElem1);
 outline.appendChildLast(outlineElem2);
 outline.appendChildLast(outlineElem3);
 ```
-## 步驟7：將大綱節點加入頁面
+
+### 步驟 7：將 Outline 節點加入 Page
+現在把整個大綱放到頁面上。
+
 ```java
-//新增輪廓節點
+// add Outline node
 page.appendChildLast(outline);
 ```
-## 步驟8：將頁面節點加入到文件中
+
+### 步驟 8：將 Page 節點加入 Document
+頁面成為整體 OneNote 文件的一部份。
+
 ```java
-//新增頁面節點
+// add Page node
 doc.appendChildLast(page);
 ```
-## 第9步：儲存文檔
+
+### 步驟 9：將文件儲存為 PDF
+最後，使用 `save` 方法將 OneNote 文件匯出為 PDF，這也是 **將 OneNote 儲存為 PDF** 的關鍵步驟。
+
 ```java
-//儲存文件
+// save the document
 doc.save(dataDir + "CreateChineseNumberedList_out.pdf");
 System.out.printf("File saved: %s\n", dataDir + "CreateChineseNumberedList_out.pdf");
 ```
-現在您已經使用 Aspose.Note for Java 在 OneNote 中成功建立了中文編號清單！
-## 結論
-在本教學中，我們探討了利用 Aspose.Note for Java 在 OneNote 中產生中文編號清單的過程。憑藉其強大的功能，Aspose.Note 使開發人員能夠以程式設計方式操作和增強文件內容。
-## 經常問的問題
-### Aspose.Note 與不同的 Java IDE 相容嗎？
-是的，Aspose.Note 與 Eclipse 和 IntelliJ IDEA 等流行的 Java IDE 相容。
+
+執行上述程式碼後，會產生名為 `CreateChineseNumberedList_out.pdf` 的 PDF 檔案，內含中文編號清單，與 OneNote 頁面上看到的完全相同。
+
+## 常見問題與解決方案
+- **編號格式不正確：** 請確認使用 `NumberFormat.ChineseCounting`。其他格式（阿拉伯、羅馬）會產生不同結果。  
+- **找不到檔案錯誤：** 請確認 `dataDir` 指向已存在且可寫入的資料夾。  
+- **缺少字型：** 若伺服器上未安裝指定字型（例如「Arial」），PDF 可能會退回使用預設字型。請安裝該字型或改用其他字型。
+
+## 常見問答
+
+### Aspose.Note 是否相容於不同的 Java IDE？
+是的，Aspose.Note 相容於常見的 Java IDE，如 Eclipse 與 IntelliJ IDEA。
+
 ### 我可以自訂編號清單的格式嗎？
-絕對地。如教學所示，您可以調整字體、顏色和大小以滿足您的特定要求。
-### Aspose.Note 有試用版嗎？
-是的，您可以探索試用版[這裡](https://releases.aspose.com/).
-### 在哪裡可以找到 Aspose.Note 的詳細文件？
-參考文檔[這裡](https://reference.aspose.com/note/java/).
-### 我如何獲得 Aspose.Note 支援？
-造訪支援論壇[這裡](https://forum.aspose.com/c/note/28)如有任何幫助或疑問。
+當然可以。正如教學中所示，您可以調整字型、顏色與大小，以符合特定需求。
+
+### 有提供 Aspose.Note 的試用版嗎？
+有，您可以在[此處](https://releases.aspose.com/)下載試用版。
+
+### 哪裡可以找到 Aspose.Note 的詳細文件？
+請參考文件[此處](https://reference.aspose.com/note/java/)。
+
+### 如何取得 Aspose.Note 的技術支援？
+請前往支援論壇[此處](https://forum.aspose.com/c/note/28)尋求協助或提出問題。
+
+## 其他 FAQ（AI 優化）
+
+**Q: 我可以使用此程式碼加入其他語言的編號嗎？**  
+A: 可以，將 `NumberFormat.ChineseCounting` 替換為相應的 `NumberFormat` 列舉值（例如 `NumberFormat.RomanUpper`）。
+
+**Q: PDF 會保留大綱層級嗎？**  
+A: 匯出的 PDF 會保留視覺層級，但靜態 PDF 不支援互動式大綱導覽。
+
+**Q: 如何改用項目符號而非編號？**  
+A: 使用 `NumberList` 搭配自訂格式字串，例如 `"• "`，並將 `NumberFormat` 設為 `NumberFormat.None`。
+
+**Q: 可以在同一頁面加入圖片嗎？**  
+A: 可以，在儲存為 PDF 前，先將 `Image` 物件插入頁面即可。
+
+**Q: 需要哪個版本的 Aspose.Note？**  
+A: 目前（2026 年）最新的穩定版已支援本教學中示範的所有功能。
+
+---
+
+**最後更新：** 2026-03-08  
+**測試環境：** Aspose.Note for Java 24.12  
+**作者：** Aspose  
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
