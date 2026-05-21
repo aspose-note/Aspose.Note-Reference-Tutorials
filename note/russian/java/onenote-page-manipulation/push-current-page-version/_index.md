@@ -126,13 +126,6 @@ document.save(dataDir + "PushCurrentPageVersion_out.one");
 **В: Где получить помощь, если возникнут проблемы?**  
 О: Посетите [форум Aspose.Note](https://forum.aspose.com/c/note/28) для получения помощи от сообщества или свяжитесь со службой поддержки Aspose.
 
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}
-
 ---
 
 **Последнее обновление:** 2026-01-12  
@@ -140,3 +133,10 @@ document.save(dataDir + "PushCurrentPageVersion_out.one");
 **Автор:** Aspose  
 
 ---
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

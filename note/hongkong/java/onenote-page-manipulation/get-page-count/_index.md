@@ -79,29 +79,7 @@ System.out.printf("Total Pages: %s", count);
 
 依照上述簡單步驟，您即可輕鬆取得並顯示任何 OneNote 文件的頁面數量，使用 Aspose.Note for Java。將此程式碼片段整合到更大的應用程式中，可自動化文件分析、產生摘要，或驗證內容結構。
 
-## 常見問題
-
-### Q1: Aspose.Note for Java 是否相容所有版本的 OneNote 檔案？
-
-A1: Aspose.Note for Java 支援多種 OneNote 檔案格式，包括 .one 與 .onetoc2。
-
-### Q2: 我可以使用 Aspose.Note for Java 操作 OneNote 文件嗎？
-
-A2: 可以，您能執行多種操作，例如新增或移除頁面、擷取內容，並轉換為其他格式。
-
-### Q3: Aspose.Note for Java 商業使用需要授權嗎？
-
-A3: 需要。您必須購買授權才能在商業環境中使用 Aspose.Note for Java。授權可於 [purchase page](https://purchase.aspose.com/buy) 取得。
-
-### Q4: 有免費資源可以學習 Aspose.Note for Java 嗎？
-
-A4: 有，您可在 [Aspose website](https://reference.aspose.com/note/java/) 上取得文件與論壇，獲得指引與支援。
-
-### Q5: 有提供測試用的 Aspose.Note for Java 試用版嗎？
-
-A5: 有，您可從 [releases page](https://releases.aspose.com/) 下載免費試用版，以評估 API 功能。
-
-## Frequently Asked Questions
+## 常見問題解答
 
 **Q: 可以在多執行緒環境中使用此程式碼嗎？**  
 A: 可以，`Document` 類別在唯讀操作下是執行緒安全的。僅需避免同時修改同一個 `Document` 實例。

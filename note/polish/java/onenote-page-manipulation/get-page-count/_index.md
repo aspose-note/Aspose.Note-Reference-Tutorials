@@ -81,28 +81,6 @@ Ten wiersz **wyświetla łączną liczbę stron OneNote** w konsoli, dając naty
 
 Postępując zgodnie z tymi prostymi krokami, możesz łatwo pobrać i wyświetlić liczbę stron dowolnego dokumentu OneNote przy użyciu Aspose.Note dla Javy. Włącz ten fragment kodu do większych aplikacji, aby automatyzować analizę dokumentów, generować podsumowania lub weryfikować struktury treści.
 
-## FAQ's
-
-### Q1: Czy Aspose.Note dla Javy jest kompatybilny ze wszystkimi wersjami plików OneNote?
-
-A1: Aspose.Note dla Javy obsługuje różne wersje plików OneNote, w tym formaty .one i .onetoc2.
-
-### Q2: Czy mogę manipulować dokumentami OneNote przy użyciu Aspose.Note dla Javy?
-
-A2: Tak, możesz wykonywać szeroki zakres operacji na dokumentach OneNote, takich jak dodawanie lub usuwanie stron, wyodrębnianie treści oraz konwersja do innych formatów.
-
-### Q3: Czy Aspose.Note dla Javy wymaga licencji do użytku komercyjnego?
-
-A3: Tak, do komercyjnego wykorzystania Aspose.Note dla Javy potrzebna jest licencja. Licencję można uzyskać na [stronie zakupu](https://purchase.aspose.com/buy).
-
-### Q4: Czy dostępne są darmowe zasoby do nauki Aspose.Note dla Javy?
-
-A4: Tak, dokumentację i fora można znaleźć na [stronie Aspose](https://reference.aspose.com/note/java/), gdzie dostępne są wskazówki i wsparcie.
-
-### Q5: Czy istnieje wersja próbna Aspose.Note dla Javy do testów?
-
-A5: Tak, darmową wersję próbną można pobrać ze [strony wydań](https://releases.aspose.com/), aby ocenić możliwości API.
-
 ## Najczęściej zadawane pytania
 
 **P: Czy mogę używać tego kodu w środowisku wielowątkowym?**  

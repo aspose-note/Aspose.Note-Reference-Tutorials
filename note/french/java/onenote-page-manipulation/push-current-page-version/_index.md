@@ -20,35 +20,35 @@ weight: 18
 
 ## Introduction
 
-Dans ce tutoriel, vous découvrirez **comment enregistrer des pages OneNote** en poussant la version actuelle de la page à l'aide d'Aspose.Note pour Java. Que vous ayez besoin de conserver une piste d’audit complète ou simplement de gérer l’historique des versions, les étapes ci‑dessous vous montrent comment charger un fichier OneNote, ajouter des entrées d’historique, cloner une page et mettre à jour la version OneNote de façon programmatique.
+Dans ce tutoriel, vous découvrirez **comment enregistrer des pages OneNote** en poussant la version actuelle de la page à l'aide d'Aspose.Note pour Java. Que vous ayez besoin de conserver une piste d'audit complète ou simplement de gérer l'historique des versions, les étapes ci-dessous vous montreront comment charger un fichier OneNote, ajouter des entrées d'historique, cloner une page et mettre à jour la version OneNote de façon programmatique.
 
-## Quick Answers
-- **Que signifie « pousser la version actuelle de la page » ?** Cela ajoute un instantané de la page actuelle à l’historique des versions du document.  
-- **Pourquoi utiliser Aspose.Note pour Java ?** Il fournit une API pure‑Java pour manipuler les fichiers OneNote sans nécessiter Microsoft Office.  
-- **Ai‑je besoin d’une licence pour essayer cela ?** Un essai gratuit peut être téléchargé, mais une licence est requise pour une utilisation en production.  
-- **Puis‑je automatiser la gestion des versions pour de nombreuses pages ?** Oui, vous pouvez parcourir les pages et appeler la même API pour chacune d’elles.  
-- **Le fichier enregistré est‑il compatible avec la dernière version de OneNote ?** Aspose.Note maintient la compatibilité avec les formats OneNote actuels.
+## Réponses rapides
+- **Que signifie «pousser la version actuelle de la page»?** Cela ajoute un instantané de la page actuelle à l'historique des versions du document.
+- **Pourquoi utiliser Aspose.Note pour Java?** Il fournit une API pure‑Java pour manipuler les fichiers OneNote sans nécessiter Microsoft Office.
+- **Ai‑je besoin d’une licence pour essayer cela ?** Un essai gratuit peut être téléchargé, mais une licence est requise pour une utilisation en production.
+- **Puis‑je automatiser la gestion des versions pour de nombreuses pages ?** Oui, vous pouvez parcourir les pages et appeler la même API pour chacune d'elles.
+- **Le fichier enregistré est‑il compatible avec la dernière version de OneNote?** Aspose.Note maintient la compatibilité avec les formats OneNote actuels.
 
-## What is “how to save OneNote” with version history?
-Enregistrer OneNote avec l’historique des versions signifie stocker chaque modification comme une entrée distincte afin de pouvoir revenir en arrière ou examiner les changements ultérieurement. La classe `PageHistory` d’Aspose.Note rend cela simple.
+## Qu'est-ce que « comment enregistrer OneNote » avec l'historique des versions ?
+Enregistrer OneNote avec l’historique des versions signifie stocker chaque modification comme une entrée distincte afin de pouvoir revenir en arrière ou examiner les modifications ultérieurement. La classe `PageHistory` d’Aspose.Note rend cela simple.
 
-## Why push the current page version?
-- **Auditabilité :** Chaque modification est enregistrée, répondant aux exigences de conformité.  
-- **Collaboration :** Les membres de l’équipe peuvent voir qui a changé quoi et quand.  
-- **Sécurité :** Le contenu écrasé accidentellement peut être restauré à partir de l’historique.
+## Pourquoi pousser la version actuelle de la page ?
+- **Auditabilité:** Chaque modification est enregistrée, répondant aux exigences de conformité.
+- **Collaboration :** Les membres de l’équipe peuvent voir qui a changé quoi et quand.
+- **Sécurité :** Le contenu écrasé peut être restauré à partir de l'historique.
 
-## Prerequisites
+## Prérequis
 
-Avant de commencer, assurez‑vous d’avoir :
+Avant de commencer, assurez-vous d’avoir :
 
-1. Connaissances de base en programmation Java.  
-2. Java Development Kit (JDK) installé sur votre machine.  
-3. Bibliothèque Aspose.Note pour Java – téléchargez‑la depuis [ici](https://releases.aspose.com/note/java/).  
-4. Un document OneNote d’exemple (par ex., `Sample1.one`) que vous souhaitez versionner.
+1. Connaissances de base en programmation Java.
+2. Kit de développement Java (JDK) installé sur votre machine.
+3. Bibliothèque Aspose.Note pour Java – télécharger‑la depuis [ici](https://releases.aspose.com/note/java/).
+4. Un document OneNote d'exemple (par ex., `Sample1.one`) que vous souhaitez versionner.
 
-## Import Packages
+## Importer des packages
 
-First, import the required classes so you can work with OneNote documents and their history.
+Tout d’abord, importez les classes requises afin de pouvoir travailler avec les documents OneNote et leur historique.
 
 ```java
 import java.io.IOException;
@@ -58,76 +58,82 @@ import com.aspose.note.Page;
 import com.aspose.note.PageHistory;
 ```
 
-## Step 1: Load the OneNote Document
+## Étape 1 : Charger le document OneNote
 
-Loading the OneNote file is the first step in **how to add history**. The API reads the `.one` file into a `Document` object.
+Le chargement du fichier OneNote est la première étape de **comment ajouter un historique**. L'API lit le fichier « .one » dans un objet « Document ».
 
 ```java
 String dataDir = "Your Document Directory";
 Document document = new Document(dataDir + "Sample1.one");
 ```
 
-> **Conseil :** `dataDir` doit pointer vers le dossier contenant votre fichier OneNote. Ajustez le nom du fichier si vous travaillez avec un autre document.
+> **Conseil :** `dataDir` doit pointer vers le dossier contenant votre fichier OneNote. Ajustez le nom du fichier si vous travaillez avec un autre document.
 
-## Step 2: Get the Current Page and Its History
+## Étape 2 : Obtenez la page actuelle et son historique
 
-To manage version history you need a reference to the page you want to version and its associated `PageHistory` object.
+Pour gérer l'historique des versions, vous avez besoin d'une référence à la page dont vous souhaitez versionner et à son objet `PageHistory` associé.
 
 ```java
 Page page = document.getFirstChild();
 PageHistory pageHistory = document.getPageHistory(page);
 ```
 
-> **Pourquoi c’est important :** `getFirstChild()` récupère la première page (vous pouvez itérer pour les autres), et `getPageHistory(page)` vous fournit le conteneur où les instantanés de version sont stockés.
+> **Pourquoi c'est important :** `getFirstChild()` récupère la première page (vous pouvez itérer pour les autres), et `getPageHistory(page)` vous fournit le conteneur où les instantanés de version sont stockés.
 
-## Step 3: Push the Current Page Version
+## Étape 3 : Transférer la version actuelle de la page
 
-Now we **how to clone page** and push it into the history. Cloning creates a deep copy, ensuring the snapshot is independent of future edits.
+Maintenant, nous **comment cloner la page** et l'insérer dans l'historique. Le clonage crée une copie complète, garantissant que l'instantané est indépendant des modifications futures.
 
 ```java
 pageHistory.addItem(page.deepClone());
 ```
 
-> **Astuce pro :** Utiliser `deepClone()` garantit que tous les éléments imbriqués (texte, images, tableaux) sont capturés dans l’entrée de version.
+> **Astuce pro :** Utiliser `deepClone()` garantit que tous les éléments imbriqués (texte, images, tableaux) sont capturés dans l'entrée de version.
 
-## Step 4: Save the Document
+## Étape 4 : Enregistrez le document
 
-Finally, **update OneNote version** by saving the document. The new file will contain the added history entry.
+Enfin, **mettez à jour la version OneNote** en enregistrant le document. Le nouveau fichier contiendra l'entrée d'historique ajoutée.
 
 ```java
 document.save(dataDir + "PushCurrentPageVersion_out.one");
 ```
 
-When you open `PushCurrentPageVersion_out.one` in OneNote, you’ll see the version history accessible via the UI.
+Lorsque vous ouvrez « PushCurrentPageVersion_out.one » dans OneNote, vous verrez l'historique des versions accessible via l'interface utilisateur.
 
-> Lorsque vous ouvrez `PushCurrentPageVersion_out.one` dans OneNote, vous verrez l’historique des versions accessible via l’interface utilisateur.
+> Lorsque vous ouvrez `PushCurrentPageVersion_out.one` dans OneNote, vous verrez l'historique des versions accessibles via l'interface utilisateur.
 
-## Common Pitfalls & How to Avoid Them
+## Pièges courants et comment les éviter
 
-- **Permissions d’écriture manquantes :** Assurez‑vous que le répertoire de sortie est accessible en écriture ; sinon `save()` lèvera une exception.  
-- **Chemin de fichier incorrect :** Vérifiez que `dataDir` se termine par un séparateur de chemin (`/` ou `\`).  
-- **Documents volumineux :** Pour des fichiers OneNote très gros, envisagez de cloner uniquement les pages que vous devez versionner afin de réduire l’utilisation de la mémoire.
+- **Permissions d’écriture manquantes :** Assurez-vous que le répertoire de sortie est accessible en écriture ; sinon `save()` générera une exception.
+- **Chemin de fichier incorrect :** Vérifiez que `dataDir` se termine par un séparateur de chemin (`/` ou `\`).
+- **Documents considérables :** Pour des fichiers OneNote très gros, envisagez de cloner uniquement les pages que vous devez versionner afin de réduire l'utilisation de la mémoire.
 
 ## Conclusion
 
-Vous savez maintenant **comment enregistrer des pages OneNote** en poussant la version actuelle, ce qui vous permet de **gérer l’historique des versions** et **mettre à jour la version OneNote** à l’aide d’Aspose.Note pour Java. Cette approche peut être intégrée aux pipelines de génération de rapports automatisés, aux solutions de sauvegarde ou aux outils d’édition collaborative.
+Vous savez maintenant **comment enregistrer des pages OneNote** en poussant la version actuelle, ce qui vous permet de **gerer l'historique des versions** et **mettre à jour la version OneNote** à l'aide d'Aspose.Note pour Java. Cette approche peut être intégrée aux pipelines de génération de rapports automatisés, aux solutions de sauvegarde ou aux outils d’édition collaborative.
 
-## Frequently Asked Questions
+## Questions fréquemment posées
 
-**Q :** Puis‑je utiliser Aspose.Note pour Java avec des fichiers OneNote chiffrés ?  
-**R :** Oui, la bibliothèque prend en charge l’ouverture des documents OneNote chiffrés et non chiffrés.
+**Q:** Puis‑je utiliser Aspose.Note pour Java avec des fichiers OneNote chiffrés ?
+**R:** Oui, la bibliothèque prend en charge l'ouverture des documents OneNote chiffrés et non chiffrés.
 
-**Q :** L’API est‑elle compatible avec les dernières versions de OneNote ?  
-**R :** Aspose.Note s’efforce de rester compatible avec les formats de fichiers OneNote les plus récents.
+**Q :** L’API est‑elle compatible avec les dernières versions de OneNote ?
+**R:** Aspose.Note s'efforce de rester compatible avec les formats de fichiers OneNote les plus récents.
 
-**Q :** Puis‑je manipuler le texte et les images lors du versionnage ?  
-**R :** Absolument. Vous pouvez modifier le contenu de la page, puis pousser une nouvelle version pour capturer les changements.
+**Q:** Puis‑je manipuler le texte et les images lors du versionnage ?
+**R :** Absolument. Vous pouvez modifier le contenu de la page, puis pousser une nouvelle version pour capturer les changements.
 
-**Q :** Aspose.Note permet‑il la conversion des fichiers OneNote vers d’autres formats ?  
-**R :** Oui, vous pouvez convertir directement via l’API en PDF, HTML ou formats d’image.
+**Q :** Aspose.Note permet‑il la conversion des fichiers OneNote vers d'autres formats ?
+**R:** Oui, vous pouvez convertir directement via l'API en PDF, HTML ou formats d'image.
 
-**Q :** Où puis‑je obtenir de l’aide si je rencontre des problèmes ?  
-**R :** Visitez le [forum Aspose.Note](https://forum.aspose.com/c/note/28) pour obtenir de l’assistance communautaire ou contactez le support Aspose.
+**Q:** Où puis‑je obtenir de l’aide si je rencontre des problèmes ?
+**R:** Visitez le [forum Aspose.Note](https://forum.aspose.com/c/note/28) pour obtenir de l’assistance communautaire ou contactez le support Aspose.
+
+---
+
+**Dernière mise à jour :** 2026-01-12
+**Testé avec :** Aspose.Note pour Java 24.11
+**Auteur :** Aspose
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
@@ -135,9 +141,3 @@ Vous savez maintenant **comment enregistrer des pages OneNote** en poussant la v
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
-
----
-
-**Dernière mise à jour :** 2026-01-12  
-**Testé avec :** Aspose.Note for Java 24.11  
-**Auteur :** Aspose

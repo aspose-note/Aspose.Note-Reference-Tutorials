@@ -83,28 +83,6 @@ Po provedení těchto jednoduchých kroků můžete snadno získat a zobrazit po
 
 ## Často kladené otázky
 
-### Q1: Je Aspose.Note pro Java kompatibilní se všemi verzemi souborů OneNote?
-
-A1: Aspose.Note pro Java podporuje různé verze souborů OneNote, včetně formátů .one a .onetoc2.
-
-### Q2: Mohu manipulovat s dokumenty OneNote pomocí Aspose.Note pro Java?
-
-A2: Ano, můžete provádět širokou škálu operací s dokumenty OneNote, jako je přidávání nebo odstraňování stránek, extrahování obsahu a konverze do jiných formátů.
-
-### Q3: Vyžaduje Aspose.Note pro Java licenci pro komerční použití?
-
-A3: Ano, pro komerční používání Aspose.Note pro Java je nutné získat licenci. Licenci můžete získat na [stránce nákupu](https://purchase.aspose.com/buy).
-
-### Q4: Existují nějaké bezplatné zdroje pro výuku Aspose.Note pro Java?
-
-A4: Ano, můžete získat přístup k dokumentaci a fórům na [webu Aspose](https://reference.aspose.com/note/java/) pro pomoc a podporu.
-
-### Q5: Je k dispozici zkušební verze Aspose.Note pro Java pro testovací účely?
-
-A5: Ano, můžete si stáhnout bezplatnou zkušební verzi ze [stránky vydání](https://releases.aspose.com/) a vyzkoušet možnosti API.
-
-## Často kladené otázky
-
 **Q: Mohu použít tento kód v multithreadovém prostředí?**  
 A: Ano, třída `Document` je bezpečná pro vlákna při operacích jen pro čtení. Jen se vyhněte současné úpravě stejné instance `Document`.
 

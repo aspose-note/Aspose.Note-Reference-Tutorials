@@ -14,30 +14,30 @@ weight: 19
 
 # OneNote のロールバック方法 - Aspose.Note
 
-## Introduction
+## はじめに
 
 ミスが発生したときに **OneNote のページをロールバック** する明確でプログラム的な方法をお探しなら、ここが適切な場所です。このチュートリアルでは、Aspose.Note for Java を使用して OneNote ページを以前の状態に戻す手順を解説します。自動化されたノート管理ツールを構築している場合や、共同ノートブックの安全策が必要な場合でも、ページをロールバックすることでコンテンツの正確性と信頼性を保つことができます。
 
-## Quick Answers
+## よくある質問
 - **OneNote の「ロールバック」とは何ですか？** ページの履歴に保存された以前のバージョンに復元することです。  
 - **ロールバックを処理する API はどれですか？** Aspose.Note for Java の `PageHistory` クラスです。  
 - **ライセンスは必要ですか？** 本番環境で使用する場合は有効な Aspose.Note ライセンスが必要です。  
 - **任意の過去バージョンを選択できますか？** はい、ページの履歴リストから任意のエントリを選択できます。  
 - **大規模なノートブックでも安全ですか？** 完全に安全です。操作は個々のページ単位で行われ、ノートブック全体をメモリに読み込む必要はありません。
 
-## How to Roll Back OneNote Page Version
+## OneNote ページのバージョンをロールバックする方法
 以下はロールバックを実行するための簡潔なステップバイステップガイドです。各ステップには簡単な説明が付いており、**何を入力するか** だけでなく **なぜそれを行うか** が理解できます。
 
-## Prerequisites
+## 前提条件
 
 コードに入る前に、以下の準備ができていることを確認してください。
 
-### Java Development Environment Setup
+### Java 開発環境のセットアップ
 1. **Java Development Kit (JDK) のインストール:** Oracle の公式サイトまたはお好みのパッケージマネージャから最新の JDK を取得してください。  
 2. **環境変数の設定:** `JAVA_HOME` を設定し、`PATH` を更新して `java` と `javac` コマンドがコマンドラインから実行できるようにします。  
 3. **Aspose.Note for Java の追加:** ライブラリを [website](https://purchase.aspose.com/buy) からダウンロードし、JAR をプロジェクトのクラスパスに追加します。
 
-## Import Packages
+## パッケージのインポート
 
 OneNote ファイルとやり取りするために、必要な Aspose.Note クラスをインポートします。
 
@@ -49,51 +49,51 @@ import com.aspose.note.Page;
 import com.aspose.note.PageHistory;
 ```
 
-## Step 1: Load OneNote Document
+## ステップ 1: OneNote ドキュメントを読み込む
 ```java
 String dataDir = "Your Document Directory";
 Document document = new Document(dataDir + "Sample1.one");
 ```
 まず `.one` ファイルが格納されているフォルダーを指し示し、`Document` オブジェクトにロードします。
 
-## Step 2: Get Page History
+## ステップ 2: ページ履歴を取得する
 ```java
 Page page = document.getFirstChild();
 PageHistory pageHistory = document.getPageHistory(page);
 ```
 `PageHistory` を使用すると、選択したページのすべての保存バージョンにアクセスでき、**以前の OneNote バージョンを復元** する機能が得られます。
 
-## Step 3: Remove Current Page
+## ステップ 3: 現在のページを削除する
 ```java
 document.removeChild(page);
 ```
 現在のページを削除することで、復元したいバージョンを挿入するスペースを確保します。
 
-## Step 4: Append Previous Page Version
+## ステップ 4: 前のページバージョンを追加する
 ```java
 document.appendChildLast(pageHistory.get_Item(pageHistory.size() - 1));
 ```
 ここでは最新の履歴エントリを取得します（インデックスを変更すれば任意の古いバージョンを対象にできます）そしてそれをドキュメントに再追加します。
 
-## Step 5: Save Document
+## ステップ 5: ドキュメントを保存する
 ```java
 document.save(dataDir + "RollBackToPreviousPageVersion_out.one");
 ```
 最後に変更されたノートブックを保存します。出力ファイルにはロールバックされたページが含まれます。
 
-## Restore Previous OneNote Version
+## 以前の OneNote バージョンを復元する
 `PageHistory` と `appendChildLast` の組み合わせにより、数行のコードだけで **以前の OneNote バージョンを復元** できます。手動の元に戻す操作が困難な自動化ワークフローで特に便利です。
 
-## Common Issues & Tips
+## よくある問題とヒント
 - **履歴が空:** `pageHistory.size()` が 0 を返す場合、そのページには保存されたバージョンがありません。OneNote でバージョン管理が有効になっているか確認してください。  
 - **インデックス範囲外:** 履歴リストは 0 ベースです。目的のバージョンを取得するにはインデックス (`size() - 1` など) を調整してください。  
 - **パフォーマンス:** 単一ページだけを操作するため、ノートブック全体をメモリにロードする必要がなく、大容量ファイルでも高速に処理できます。
 
-## Conclusion
+## まとめ
 
 Aspose.Note for Java を使用した **OneNote のページロールバック** 方法を、実運用レベルで実装できるようになりました。`PageHistory` を活用すれば、ノートブックページの任意の過去状態を安全に復元でき、データの整合性を保ちつつ共同作業環境でのユーザー信頼を向上させます。
 
-## Frequently Asked Questions
+## よくある質問
 
 **Q1: 複数バージョンをロールバックできますか？**  
 A: はい、ページ履歴全体にアクセスでき、必要に応じて任意の過去バージョンにロールバックできます。

@@ -81,28 +81,6 @@ Ez a sor **kiírja a teljes OneNote oldalak számát** a konzolra, azonnali viss
 
 Ezeket az egyszerű lépéseket követve könnyedén lekérheti és megjelenítheti bármely OneNote dokumentum oldal számát az Aspose.Note for Java segítségével. Illessze be ezt a kódrészletet nagyobb alkalmazásokba a dokumentumelemzés automatizálásához, összefoglalók generálásához vagy a tartalmi struktúrák ellenőrzéséhez.
 
-## Gyakran ismételt kérdések
-
-### Q1: Az Aspose.Note for Java kompatibilis-e minden OneNote fájlverzióval?
-
-A1: Az Aspose.Note for Java különböző OneNote fájlverziókat támogat, beleértve a .one és .onetoc2 formátumokat.
-
-### Q2: Manipulálhatok OneNote dokumentumokat az Aspose.Note for Java-val?
-
-A2: Igen, számos műveletet végezhet OneNote dokumentumokon, például oldalak hozzáadása vagy eltávolítása, tartalom kinyerése és más formátumokba konvertálása.
-
-### Q3: Az Aspose.Note for Java kereskedelmi felhasználáshoz licencet igényel?
-
-A3: Igen, kereskedelmi használathoz licenc szükséges. Licencet a [vásárlási oldalon](https://purchase.aspose.com/buy) szerezhet be.
-
-### Q4: Van ingyenes forrás a Aspose.Note for Java tanulásához?
-
-A4: Igen, a dokumentációt és a fórumokat a [Aspose weboldalán](https://reference.aspose.com/note/java/) érheti el segítség és támogatás céljából.
-
-### Q5: Elérhető próba verzió az Aspose.Note for Java‑ból teszteléshez?
-
-A5: Igen, egy ingyenes próba verzió letölthető a [kiadási oldalról](https://releases.aspose.com/), amely lehetővé teszi az API képességeinek kipróbálását.
-
 ## Gyakran feltett kérdések
 
 **K: Használhatom ezt a kódot több szálon?**  

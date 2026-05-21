@@ -126,13 +126,6 @@ R: Sim, você pode converter para PDF, HTML ou formatos de imagem diretamente pe
 **P: Onde posso obter ajuda se encontrar problemas?**  
 R: Visite o [fórum Aspose.Note](https://forum.aspose.com/c/note/28) para assistência da comunidade ou entre em contato com o suporte da Aspose.
 
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}
-
 ---
 
 **Última atualização:** 2026-01-12  
@@ -140,3 +133,10 @@ R: Visite o [fórum Aspose.Note](https://forum.aspose.com/c/note/28) para assist
 **Autor:** Aspose  
 
 ---
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -81,28 +81,6 @@ Esta línea **imprime el total de páginas de OneNote** en la consola, brindánd
 
 Al seguir estos pasos sencillos, puedes recuperar y mostrar sin esfuerzo el recuento de páginas de cualquier documento OneNote usando Aspose.Note para Java. Integra este fragmento en aplicaciones más grandes para automatizar el análisis de documentos, generar resúmenes o validar estructuras de contenido.
 
-## Preguntas frecuentes
-
-### Q1: ¿Es Aspose.Note para Java compatible con todas las versiones de archivos OneNote?
-
-A1: Aspose.Note para Java admite diversas versiones de archivos OneNote, incluidos los formatos .one y .onetoc2.
-
-### Q2: ¿Puedo manipular documentos OneNote usando Aspose.Note para Java?
-
-A2: Sí, puedes realizar una amplia gama de operaciones en documentos OneNote, como agregar o eliminar páginas, extraer contenido y convertir a otros formatos.
-
-### Q3: ¿Aspose.Note para Java requiere una licencia para uso comercial?
-
-A3: Sí, necesitas adquirir una licencia para el uso comercial de Aspose.Note para Java. Puedes obtener una licencia en la [página de compra](https://purchase.aspose.com/buy).
-
-### Q4: ¿Hay recursos gratuitos disponibles para aprender Aspose.Note para Java?
-
-A4: Sí, puedes acceder a la documentación y a los foros en el [sitio web de Aspose](https://reference.aspose.com/note/java/) para obtener orientación y soporte.
-
-### Q5: ¿Existe una versión de prueba de Aspose.Note para Java disponible para propósitos de prueba?
-
-A5: Sí, puedes descargar una versión de prueba gratuita desde la [página de lanzamientos](https://releases.aspose.com/) para evaluar las capacidades de la API.
-
 ## Preguntas frecuentes adicionales
 
 **P: ¿Puedo usar este código en un entorno multihilo?**  

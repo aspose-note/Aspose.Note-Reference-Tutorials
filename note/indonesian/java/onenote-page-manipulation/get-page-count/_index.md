@@ -81,28 +81,6 @@ Baris ini **mencetak total halaman OneNote** ke konsol, memberikan umpan balik l
 
 Dengan mengikuti langkah‑langkah sederhana ini, Anda dapat dengan mudah mengambil dan menampilkan jumlah halaman dari dokumen OneNote apa pun menggunakan Aspose.Note untuk Java. Gabungkan potongan kode ini ke dalam aplikasi yang lebih besar untuk mengotomatisasi analisis dokumen, menghasilkan ringkasan, atau memvalidasi struktur konten.
 
-## FAQ
-
-### Q1: Apakah Aspose.Note untuk Java kompatibel dengan semua versi file OneNote?
-
-A1: Aspose.Note untuk Java mendukung berbagai versi file OneNote, termasuk format .one dan .onetoc2.
-
-### Q2: Bisakah saya memanipulasi dokumen OneNote menggunakan Aspose.Note untuk Java?
-
-A2: Ya, Anda dapat melakukan berbagai operasi pada dokumen OneNote, seperti menambah atau menghapus halaman, mengekstrak konten, dan mengonversi ke format lain.
-
-### Q3: Apakah Aspose.Note untuk Java memerlukan lisensi untuk penggunaan komersial?
-
-A3: Ya, Anda harus memperoleh lisensi untuk penggunaan komersial Aspose.Note untuk Java. Lisensi dapat diperoleh dari [halaman pembelian](https://purchase.aspose.com/buy).
-
-### Q4: Apakah ada sumber daya gratis untuk belajar Aspose.Note untuk Java?
-
-A4: Ya, Anda dapat mengakses dokumentasi dan forum di [situs web Aspose](https://reference.aspose.com/note/java/) untuk panduan dan dukungan.
-
-### Q5: Apakah tersedia versi percobaan Aspose.Note untuk Java untuk tujuan pengujian?
-
-A5: Ya, Anda dapat mengunduh versi percobaan gratis dari [halaman rilis](https://releases.aspose.com/) untuk mengevaluasi kemampuan API.
-
 ## Pertanyaan yang Sering Diajukan
 
 **Q: Bisakah saya menggunakan kode ini di lingkungan multi‑thread?**  

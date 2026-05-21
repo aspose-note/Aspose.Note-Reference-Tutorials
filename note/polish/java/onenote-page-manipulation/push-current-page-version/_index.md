@@ -126,15 +126,15 @@ A: Tak, możesz konwertować bezpośrednio z API do PDF, HTML lub formatów obra
 **Q: Gdzie mogę uzyskać pomoc, jeśli napotkam problemy?**  
 A: Odwiedź [forum Aspose.Note](https://forum.aspose.com/c/note/28) w celu uzyskania pomocy od społeczności lub skontaktuj się z wsparciem Aspose.
 
+---
+
+**Ostatnia aktualizacja:** 2026-01-12  
+**Testowane z:** Aspose.Note for Java 24.11  
+**Autor:** Aspose
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
-
----
-
-**Ostatnia aktualizacja:** 2026-01-12  
-**Testowane z:** Aspose.Note for Java 24.11  
-**Autor:** Aspose

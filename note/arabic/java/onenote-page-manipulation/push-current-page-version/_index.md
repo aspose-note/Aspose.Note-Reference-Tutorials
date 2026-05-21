@@ -125,15 +125,15 @@ document.save(dataDir + "PushCurrentPageVersion_out.one");
 **س: أين يمكنني الحصول على المساعدة إذا واجهت مشاكل؟**  
 ج: زر [منتدى Aspose.Note](https://forum.aspose.com/c/note/28) للحصول على مساعدة المجتمع أو اتصل بدعم Aspose.
 
+---
+
+**آخر تحديث:** 2026-01-12  
+**تم الاختبار مع:** Aspose.Note for Java 24.11  
+**المؤلف:** Aspose
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
-
----
-
-**آخر تحديث:** 2026-01-12  
-**تم الاختبار مع:** Aspose.Note for Java 24.11  
-**المؤلف:** Aspose

@@ -14,11 +14,11 @@ weight: 19
 
 # 如何回滾 OneNote - Aspose.Note
 
-## Introduction
+## 簡介
 
 如果您正在尋找一種清晰、程式化的方式來 **如何回滾 OneNote** 頁面，當錯誤發生時，您來對地方了。在本教學中，我們將示範如何使用 Aspose.Note for Java 將 OneNote 頁面還原至較早的狀態。無論您是構建自動化筆記管理工具，或是需要為協作筆記本提供安全網，回滾頁面都有助於保持內容的準確與可信。
 
-## Quick Answers
+## 快速解答
 - **「回滾」在 OneNote 中是什麼意思？** 將頁面還原至其歷史中先前儲存的版本。  
 - **哪個 API 處理回滾？** Aspose.Note for Java 中的 `PageHistory` 類別。  
 - **我需要授權嗎？** 生產環境使用需具備有效的 Aspose.Note 授權。  
@@ -28,16 +28,16 @@ weight: 19
 ## 如何回滾 OneNote 頁面版本
 以下是一個簡潔的逐步指南，說明如何執行回滾。每一步都附有簡短說明，讓您了解 *為何* 這麼做，而不只是 *輸入什麼*。
 
-## Prerequisites
+## 前提條件
 
 在深入程式碼之前，請確保您已準備好以下項目：
 
-### Java Development Environment Setup
+### Java 開發環境搭建
 1. **安裝 Java Development Kit (JDK)：** 從 Oracle 官方網站或您偏好的套件管理器取得最新的 JDK。  
 2. **設定環境變數：** 設定 `JAVA_HOME` 並更新 `PATH`，使 `java` 與 `javac` 指令可在命令列中使用。  
 3. **加入 Aspose.Note for Java：** 從[網站](https://purchase.aspose.com/buy)下載程式庫，並將 JAR 檔加入專案的 classpath。
 
-## Import Packages
+## 導入包
 
 若要操作 OneNote 檔案，請匯入必要的 Aspose.Note 類別：
 
@@ -49,51 +49,51 @@ import com.aspose.note.Page;
 import com.aspose.note.PageHistory;
 ```
 
-## Step 1: Load OneNote Document
+## 步驟 1：載入 OneNote 文檔
 ```java
 String dataDir = "Your Document Directory";
 Document document = new Document(dataDir + "Sample1.one");
 ```
 我們首先指向存放 `.one` 檔案的資料夾，並將其載入 `Document` 物件。
 
-## Step 2: Get Page History
+## 步驟 2：取得頁面歷史記錄
 ```java
 Page page = document.getFirstChild();
 PageHistory pageHistory = document.getPageHistory(page);
 ```
 `PageHistory` 讓您取得所選頁面的所有已儲存版本，從而具備 **還原先前 OneNote 版本** 的功能。
 
-## Step 3: Remove Current Page
+## 步驟 3：刪除目前頁面
 ```java
 document.removeChild(page);
 ```
 透過移除目前的頁面，我們為欲還原的版本騰出空間。
 
-## Step 4: Append Previous Page Version
+## 步驟 4：追加一頁版本
 ```java
 document.appendChildLast(pageHistory.get_Item(pageHistory.size() - 1));
 ```
 此處我們選取最新的歷史條目（您可更改索引以針對任意較舊的版本），並將其重新加入文件中。
 
-## Step 5: Save Document
+## 步驟 5：儲存文檔
 ```java
 document.save(dataDir + "RollBackToPreviousPageVersion_out.one");
 ```
 最後，將修改後的筆記本儲存。輸出檔案現在已包含回滾的頁面。
 
-## Restore Previous OneNote Version
+## 恢復先前的 OneNote 版本
 `PageHistory` 與 `appendChildLast` 的結合，使您僅需幾行程式碼即可 **還原先前 OneNote 版本**。在手動復原不可行的自動化工作流程中，這特別實用。
 
-## Common Issues & Tips
+## 常見問題及提示
 - **歷史記錄為空：** 若 `pageHistory.size()` 回傳 0，表示該頁面沒有已儲存的版本——請確認 OneNote 已啟用版本功能。  
 - **索引超出範圍：** 請記得歷史清單是從零開始。調整索引（`size() - 1`）以定位您需要的確切版本。  
 - **效能：** 僅處理單一頁面可避免載入整本筆記本至記憶體，即使對大型檔案亦能保持快速執行。
 
-## Conclusion
+## 總結
 
 您現在已掌握使用 Aspose.Note for Java 進行 **如何回滾 OneNote** 頁面的完整、可投入生產的解決方案。透過 `PageHistory`，您能安全地還原筆記本頁面的任何先前狀態，確保資料完整性，並讓最終使用者在協作環境中充滿信心。
 
-## Frequently Asked Questions
+## 常見問題解答
 
 **Q1：我可以回滾頁面的多個版本嗎？**  
 A：可以，您可以存取整個頁面歷史，並依需求回滾至任意先前的版本。

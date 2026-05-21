@@ -80,28 +80,6 @@ Dòng này **in tổng số trang OneNote** ra console, cung cấp phản hồi 
 
 Bằng cách thực hiện các bước đơn giản này, bạn có thể dễ dàng truy xuất và hiển thị số trang của bất kỳ tài liệu OneNote nào bằng Aspose.Note cho Java. Hãy tích hợp đoạn mã này vào các ứng dụng lớn hơn để tự động phân tích tài liệu, tạo bản tóm tắt, hoặc xác thực cấu trúc nội dung.
 
-## FAQ's
-
-### Q1: Aspose.Note cho Java có tương thích với mọi phiên bản tệp OneNote không?
-
-A1: Aspose.Note cho Java hỗ trợ nhiều phiên bản tệp OneNote, bao gồm định dạng .one và .onetoc2.
-
-### Q2: Tôi có thể thao tác tài liệu OneNote bằng Aspose.Note cho Java không?
-
-A2: Có, bạn có thể thực hiện nhiều thao tác trên tài liệu OneNote, chẳng hạn như thêm hoặc xóa trang, trích xuất nội dung, và chuyển đổi sang các định dạng khác.
-
-### Q3: Aspose.Note cho Java có yêu cầu giấy phép cho việc sử dụng thương mại không?
-
-A3: Có, bạn cần mua giấy phép để sử dụng Aspose.Note cho Java trong môi trường thương mại. Bạn có thể mua giấy phép tại [trang mua hàng](https://purchase.aspose.com/buy).
-
-### Q4: Có tài nguyên miễn phí nào để học Aspose.Note cho Java không?
-
-A4: Có, bạn có thể truy cập tài liệu và diễn đàn trên [trang web Aspose](https://reference.aspose.com/note/java/) để được hướng dẫn và hỗ trợ.
-
-### Q5: Có phiên bản dùng thử của Aspose.Note cho Java để thử nghiệm không?
-
-A5: Có, bạn có thể tải phiên bản dùng thử miễn phí từ [trang phát hành](https://releases.aspose.com/) để đánh giá khả năng của API.
-
 ## Các câu hỏi thường gặp
 
 **H: Tôi có thể sử dụng đoạn mã này trong môi trường đa luồng không?**  

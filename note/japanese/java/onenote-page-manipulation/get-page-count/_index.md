@@ -14,11 +14,11 @@ weight: 13
 
 # Aspose.Note for Java を使用した OneNote ページ数の取得
 
-## Introduction
+## はじめに
 
 このチュートリアルでは、Aspose.Note for Java を使用して OneNote ドキュメントから **OneNote ページ数を取得する方法** を学びます。プロジェクトの設定、`.one` ファイルの読み込み、ページ数の取得、そして最終的に **コンソールに総ページ数を出力** する手順を順に説明します。レポートツールの作成やドキュメント構造の検証が必要な場合にも、このガイドはすぐに実行できる明確なソリューションを提供します。
 
-## Quick Answers
+## 簡単な回答
 - **このチュートリアルの内容は何ですか？** Aspose.Note for Java を使用して OneNote ファイルの総ページ数を取得し、出力します。  
 - **必要なライブラリはどれですか？** Aspose.Note for Java（公式リリースページからダウンロード）。  
 - **ライセンスは必要ですか？** テスト用には無料トライアルで動作しますが、本番環境では商用ライセンスが必要です。  
@@ -76,28 +76,6 @@ System.out.printf("Total Pages: %s", count);
 ## 結論
 
 これらのシンプルな手順に従うだけで、Aspose.Note for Java を使用して任意の OneNote ドキュメントのページ数を簡単に取得し、表示できます。このスニペットを大規模なアプリケーションに組み込めば、ドキュメント分析の自動化、サマリー生成、コンテンツ構造の検証などが可能になります。
-
-## FAQ
-
-### Q1: Aspose.Note for Java はすべてのバージョンの OneNote ファイルと互換性がありますか？
-
-A1: Aspose.Note for Java は .one や .onetoc2 形式を含むさまざまなバージョンの OneNote ファイルをサポートしています。
-
-### Q2: Aspose.Note for Java を使用して OneNote ドキュメントを操作できますか？
-
-A2: はい、ページの追加・削除、コンテンツの抽出、他形式への変換など、OneNote ドキュメントに対して幅広い操作を行うことができます。
-
-### Q3: Aspose.Note for Java の商用利用にはライセンスが必要ですか？
-
-A3: はい、Aspose.Note for Java の商用利用にはライセンスが必要です。ライセンスは [purchase page](https://purchase.aspose.com/buy) から取得できます。
-
-### Q4: Aspose.Note for Java を学ぶための無料リソースはありますか？
-
-A4: はい、[Aspose website](https://reference.aspose.com/note/java/) のドキュメントやフォーラムでガイダンスやサポートを受けられます。
-
-### Q5: テスト目的で利用できる Aspose.Note for Java のトライアル版はありますか？
-
-A5: はい、[releases page](https://releases.aspose.com/) から無料トライアル版をダウンロードして API の機能を評価できます。
 
 ## よくある質問
 

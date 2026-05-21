@@ -15,38 +15,38 @@ weight: 18
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Hur man sparar OneNote‑sidversion – Skjut aktuell sidversion i OneNote
+# Hur man sparar OneNote-sidversion – Skjut aktuell sidversion i OneNote
 
-## Introduction
+## Introduktion
 
-I den här handledningen kommer du att upptäcka **hur man sparar OneNote**‑sidor genom att skjuta den aktuella sidversionen med Aspose.Note för Java. Oavsett om du behöver behålla en komplett revisionsspårning eller bara hantera versionshistorik, visar stegen nedan hur du laddar en OneNote‑fil, lägger till historikposter, klonar en sida och uppdaterar OneNote‑versionen programmässigt.
+I den här handledningen kommer du att upptäcka **hur man sparar OneNote**‑sidor genom att skjuta den aktuella sidan med Aspose.Note för Java. Oavsett om du behöver behålla en komplett revisionsspårning eller bara hantera versionshistorik, visar stegen nedan hur du laddar en OneNote-fil, förlänger till historikposter, klonar en sida och uppdaterar OneNote-versionen programmässigt.
 
-## Quick Answers
-- **Vad betyder “push current page version”?** Det lägger till en ögonblicksbild av den aktuella sidan i dokumentets versionshistorik.  
-- **Varför använda Aspose.Note för Java?** Det erbjuder ett rent Java‑API för att manipulera OneNote‑filer utan att behöva Microsoft Office.  
-- **Behöver jag en licens för att prova detta?** En gratis provversion kan laddas ner, men en licens krävs för produktionsanvändning.  
-- **Kan jag automatisera versionering för många sidor?** Ja, du kan loopa igenom sidor och anropa samma API för var och en.  
-- **Är den sparade filen kompatibel med den senaste OneNote?** Aspose.Note upprätthåller kompatibilitet med aktuella OneNote‑format.
+## Snabba svar
+- **Vad betyder "push aktuell sida version"?** Det lägger till en ögonblicksbild av den aktuella sidan i dokumentets versionshistorik.
+- **Varför använda Aspose.Note för Java?** Det erbjuder en uthyrning av Java‑API för att manipulera OneNote‑filer utan att behöva Microsoft Office.
+- **Behöver jag en licens för att prova detta?** En gratis provversion kan laddas ner, men en licens krävs för produktionsanvändning.
+- **Kan jag automatisera versionering för många sidor?** Ja, du kan loopa igenom sidor och anropa samma API för var och en.
+- **Är den sparade filkompatibla med den senaste OneNote?** Aspose.Note upprätthåller kompatibilitet med aktuellt OneNote-format.
 
-## What is “how to save OneNote” with version history?
+## Vad är "hur man sparar OneNote" med versionshistorik?
 
-Att spara OneNote med versionshistorik innebär att lagra varje redigering som en separat post så att du senare kan återgå eller granska förändringar. Aspose.Note:s `PageHistory`‑class gör detta enkelt.
+Att OneNote med versionshistorik sparar innebär att varje redigering som ett separat inlägg lagras så att du senare kan återgå eller granska förändringar. Aspose.Note:s `PageHistory`-klass gör detta enkelt.
 
-## Why push the current page version?
-- **Spårbarhet:** Varje förändring registreras, vilket uppfyller efterlevnadskrav.  
-- **Samarbete:** Teammedlemmar kan se vem som ändrade vad och när.  
+## Varför trycka på den aktuella sidversionen?
+- **Spårbarhet:** Varje förändring registreras, vilket visar efterlevnadskrav.
+- **Samarbete:** Teammedlemmar kan se vem som ändrar vad och när.
 - **Säkerhet:** Av misstag överskrivet innehåll kan återställas från historiken.
 
-## Prerequisites
+## Förutsättningar
 
 Innan vi dyker ner, se till att du har:
 
-1. Grundläggande kunskaper i Java‑programmering.  
-2. Java Development Kit (JDK) installerat på din maskin.  
-3. Aspose.Note för Java‑biblioteket – ladda ner det från [here](https://releases.aspose.com/note/java/).  
+1. Grundläggande kunskaper i Java-programmering.
+2. Java Development Kit (JDK) installeras på din maskin.
+3. Aspose.Note för Java‑biblioteket – ladda ner det från [här](https://releases.aspose.com/note/java/).
 4. Ett exempel‑OneNote‑dokument (t.ex. `Sample1.one`) som du vill versionera.
 
-## Import Packages
+## Importera paket
 
 Först, importera de nödvändiga klasserna så att du kan arbeta med OneNote‑dokument och deras historik.
 
@@ -58,7 +58,7 @@ import com.aspose.note.Page;
 import com.aspose.note.PageHistory;
 ```
 
-## Step 1: Load the OneNote Document
+## Steg 1: Ladda OneNote-dokumentet
 
 Att ladda OneNote‑filen är det första steget i **how to add history**. API‑et läser `.one`‑filen till ett `Document`‑objekt.
 
@@ -69,7 +69,7 @@ Document document = new Document(dataDir + "Sample1.one");
 
 > **Tips:** `dataDir` bör peka på mappen som innehåller din OneNote‑fil. Justera filnamnet om du arbetar med ett annat dokument.
 
-## Step 2: Get the Current Page and Its History
+## Steg 2: Hämta den aktuella sidan och dess historik
 
 För att hantera versionshistorik behöver du en referens till den sida du vill versionera och dess associerade `PageHistory`‑objekt.
 
@@ -80,7 +80,7 @@ PageHistory pageHistory = document.getPageHistory(page);
 
 > **Varför detta är viktigt:** `getFirstChild()` hämtar den första sidan (du kan iterera för andra), och `getPageHistory(page)` ger dig behållaren där versionsögonblicksbilder lagras.
 
-## Step 3: Push the Current Page Version
+## Steg 3: Skicka den aktuella sidversionen
 
 Nu **how to clone page** och skjuter den in i historiken. Kloning skapar en djup kopia, vilket säkerställer att ögonblicksbilden är oberoende av framtida redigeringar.
 
@@ -90,7 +90,7 @@ pageHistory.addItem(page.deepClone());
 
 > **Proffstips:** Att använda `deepClone()` garanterar att alla nästlade element (text, bilder, tabeller) fångas i versionsposten.
 
-## Step 4: Save the Document
+## Steg 4: Spara dokumentet
 
 Slutligen, **update OneNote version** genom att spara dokumentet. Den nya filen kommer att innehålla den tillagda historikposten.
 
@@ -100,32 +100,38 @@ document.save(dataDir + "PushCurrentPageVersion_out.one");
 
 När du öppnar `PushCurrentPageVersion_out.one` i OneNote kommer du att se versionshistoriken tillgänglig via UI‑t.
 
-## Common Pitfalls & How to Avoid Them
+## Vanliga fallgropar och hur man undviker dem
 
-- **Saknade skrivbehörigheter:** Se till att utskriftskatalogen är skrivbar; annars kommer `save()` att kasta ett undantag.  
-- **Felaktig filsökväg:** Dubbelkolla att `dataDir` slutar med en sökvägsseparator (`/` eller `\`).  
+- **Saknade skrivbehörigheter:** Se till att utskriftskatalogen är skrivbar; annars kommer `save()` att kasta ett undantag.
+- **Felaktig filsökväg:** Dubbelkolla att `dataDir` slutar med en sökvägsseparator (`/` eller `\`).
 - **Stora dokument:** För mycket stora OneNote‑filer, överväg att bara klona de sidor du behöver versionera för att minska minnesanvändningen.
 
-## Conclusion
+## Slutsats
 
-Du vet nu **how to save OneNote**‑sidor genom att skjuta den aktuella versionen, vilket effektivt **manage version history** och **update OneNote version** med Aspose.Note för Java. Detta tillvägagångssätt kan integreras i automatiserade rapporteringspipeline, backup‑lösningar eller verktyg för samarbetsredigering.
+Du vet nu **hur man sparar OneNote**‑sidor genom att skjuta den aktuella versionen, vilket effektivt **hantera versionshistorik** och **uppdatera OneNote-version** med Aspose.Note för Java. Detta tillvägagångssätt kan integreras i automatiserade rapporteringspipeline, backup-lösningar eller verktyg för samarbetsredigering.
 
-## Frequently Asked Questions
+## Vanliga frågor
 
-**Q: Kan jag använda Aspose.Note för Java med krypterade OneNote‑filer?**  
+**Fråga: Kan jag använda Aspose.Note för Java med krypterade OneNote-filer?**
 A: Ja, biblioteket stöder att öppna både krypterade och okrypterade OneNote‑dokument.
 
-**Q: Är API‑et kompatibelt med de senaste OneNote‑utgåvorna?**  
-A: Aspose.Note strävar efter att vara kompatibelt med de senaste OneNote‑filformaten.
+**Fråga: Är API‑et kompatibel med de senaste OneNote‑utgåvorna?**
+A: Aspose.Note strävar efter att vara kompatibel med de senaste OneNote-filformaten.
 
-**Q: Kan jag manipulera text och bilder medan jag versionerar?**  
+**F: Kan jag manipulera text och bilder medan jag versionerar?**
 A: Absolut. Du kan redigera sidans innehåll och sedan skjuta en ny version för att fånga förändringarna.
 
-**Q: Tillåter Aspose.Note konvertering av OneNote‑filer till andra format?**  
+**Fråga: Tillåter Aspose.Note konvertering av OneNote‑filer till andra format?**
 A: Ja, du kan konvertera till PDF, HTML eller bildformat direkt från API‑et.
 
-**Q: Var kan jag få hjälp om jag stöter på problem?**  
+**F: Var kan jag få hjälp om jag stöter på problemet?**
 A: Besök [Aspose.Note forum](https://forum.aspose.com/c/note/28) för gemenskapsstöd eller kontakta Aspose‑support.
+
+---
+
+**Senast uppdaterad:** 2026-01-12
+**Testat med:** Aspose.Note för Java 24.11
+**Författare:** Aspose
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
@@ -133,9 +139,3 @@ A: Besök [Aspose.Note forum](https://forum.aspose.com/c/note/28) för gemenskap
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
-
----
-
-**Last Updated:** 2026-01-12  
-**Tested With:** Aspose.Note for Java 24.11  
-**Author:** Aspose

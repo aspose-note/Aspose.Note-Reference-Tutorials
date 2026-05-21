@@ -125,15 +125,15 @@ A: Igen, közvetlenül az API‑ból konvertálhat PDF, HTML vagy kép formátum
 **Q: Hol kaphatok segítséget, ha problémába ütközöm?**  
 A: Látogassa meg a [Aspose.Note fórumot](https://forum.aspose.com/c/note/28) a közösségi segítségért, vagy vegye fel a kapcsolatot az Aspose támogatással.
 
+---
+
+**Last Updated:** 2026-01-12  
+**Tested With:** Aspose.Note for Java 24.11  
+**Author:** Aspose
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
-
----
-
-**Last Updated:** 2026-01-12  
-**Tested With:** Aspose.Note for Java 24.11  
-**Author:** Aspose
