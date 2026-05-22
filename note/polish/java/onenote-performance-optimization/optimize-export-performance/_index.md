@@ -17,35 +17,35 @@ weight: 10
 
 # Jak eksportować OneNote przy użyciu Java – optymalizacja wydajności eksportu
 
-## Introduction
+## Wstęp
 
-W tym samouczku dowiesz się, **jak efektywnie eksportować dokumenty OneNote** i optymalizować wydajność eksportu przy użyciu Java i Aspose.Note. Przeprowadzimy Cię przez każdy krok, od tworzenia dokumentu OneNote po ustawianie stylu akapitu, dodawanie tytułu do strony i dostosowywanie rozmiaru czcionki, abyś mógł eksportować do PDF, TIFF, JPG i BMP z maksymalną prędkością.
+W tym samouczku dowiesz się, **jak poznać eksportować dokumenty OneNote** i optymalizować wydajność eksportu przy użyciu Java i Aspose.Note. Przeprowadzimy Cię przez każdy krok, od tworzenia dokumentu OneNote po ustawieniu stylu akapitu, dodawanie tytułu do stron i wysyłanie urządzenia, które może eksportować do PDF, TIFF, JPG i BMP z kontrolą numeryczną.
 
-## Quick Answers
-- **Jaki jest główny cel?** Export OneNote content quickly while keeping quality.  
-- **Jakiej biblioteki użyto?** Aspose.Note for Java.  
-- **Czy potrzebna jest licencja?** A trial is free; a commercial license is required for production.  
-- **Jakie formaty są obsługiwane?** PDF, TIFF, JPG, BMP, and more.  
-- **Jak mogę poprawić wydajność?** Disable automatic layout detection and set text styles before export.
+## Szybkie odpowiedzi
+- **Jaki jest główny cel?** Eksportuj zawartość OneNote szybko, zachowując jakość.
+- **Jakiej biblioteki użyźnia?** Aspose.Note for Java.
+- **Czy istnieje licencjat?** Okres próbny jest bezpłatny; do produkcji wymagana jest licencja komercyjna.
+- **Jakie formaty są pobierane?** PDF, TIFF, JPG, BMP i inne.
+- **Jak można uruchomić?** Wyłącz automatyczne wykrywanie układu i ustaw style tekstu przed eksportem.
 
-## What is “how to export onenote”?
+## Co to jest „jak wyeksportować OneNote”?
 
-Eksportowanie OneNote oznacza konwersję pliku OneNote `.one` do innych powszechnie używanych formatów, takich jak PDF lub pliki graficzne. Jest to przydatne, gdy trzeba udostępnić notatki użytkownikom, którzy nie mają OneNote, osadzić je w raportach lub zarchiwizować w celu spełnienia wymogów zgodności.
+Eksportowanie OneNote oznacza konwersję pliku OneNote `.one` do innych powiązanych formatów, takich jak PDF lub pliki graficzne. Jest to wymagane, gdy trzeba udostępnić notatki użytkownikom, którzy nie mają OneNote, osadzić je w raportach lub zarchiwizować w celu uzyskania zgodności.
 
-## Why optimize export performance?
+## Po co optymalizować wydajność eksportu?
 
-Duże notatniki lub scenariusze eksportu wsadowego mogą stać się wolne, jeśli biblioteka stale sprawdza zmiany układu lub przelicza style. Wyłączając automatyczne wykrywanie układu i definiując style tekstu z góry, zmniejszasz obciążenie CPU i przyspieszasz operację zapisu — co jest szczególnie ważne przy przetwarzaniu po stronie serwera lub w zautomatyzowanych pipeline'ach.
+Duże notatniki lub scenariusze eksportu wsadowego mogą stać się wolne, jeśli biblioteka nieaktualne sprawdzanie zmian konfiguracji lub przelicza styl. Wyłączając automatyczne wykrywanie systemu i definiując styl tekstu z góry, zmniejszając obciążenie procesora i przyspieszasz szyfrowanie — co jest szczególnie ważne przy działającym po stronie serwera lub w zautomatyzowanych potokach.
 
-## Prerequisites
+## Wymagania wstępne
 
-Zanim zaczniemy, upewnij się, że masz następujące elementy:
+Zanim zaczniemy, to się, że masz następujące elementy:
 
-1. **Java Development Kit (JDK)** – download from the [Oracle website](https://www.oracle.com/java/technologies/javase-jdk11-downloads.html).  
-2. **Aspose.Note for Java** – get the latest version from the [download link](https://releases.aspose.com/note/java/).
+1. **Java Development Kit (JDK)** – pobierz ze [strony internetowej Oracle](https://www.oracle.com/java/technologies/javase-jdk11-downloads.html).
+2. **Aspose.Note dla Javy** – pobierz najnowszą wersję z [linku do pobrania](https://releases.aspose.com/note/java/).
 
-## Import Packages
+## Importowanie pakietów
 
-First, import the classes you’ll need. This block remains unchanged:
+Najpierw zaimportuj potrzebne klasy. Ten blok pozostaje niezmieniony:
 
 ```java
 import java.awt.Color;
@@ -58,13 +58,13 @@ import com.aspose.note.ParagraphStyle;
 import com.aspose.note.Title;
 ```
 
-## Step‑by‑Step Guide
+## Przewodnik krok po kroku
 
-### Step 1: Set up Document Directory
+### Krok 1: Skonfiguruj katalog dokumentów
 
 Utwórz folder na swoim komputerze, w którym będą zapisywane wyeksportowane pliki. Ścieżka ta jest później używana przy wywołaniu `doc.save()`.
 
-### Step 2: Initialize a New OneNote Document
+### Krok 2: Zainicjuj nowy dokument programu OneNote
 
 ```java
 String dataDir = "Your Document Directory";
@@ -73,7 +73,7 @@ Document doc = new Document();
 
 To **tworzy dokument OneNote** (`Document` object) that you’ll later populate with pages and content.
 
-### Step 3: Disable Automatic Layout Changes Detection
+### Krok 3: Wyłącz automatyczne wykrywanie zmian układu
 
 ```java
 doc.setAutomaticLayoutChangesDetectionEnabled(false);
@@ -81,7 +81,7 @@ doc.setAutomaticLayoutChangesDetectionEnabled(false);
 
 Wyłączenie tej funkcji zapobiega ponownemu przeliczaniu układu po każdej drobnej zmianie, co znacząco przyspiesza eksport.
 
-### Step 4: Create a New Page
+### Krok 4: Utwórz nową stronę
 
 ```java
 Page page = new Page();
@@ -89,7 +89,7 @@ Page page = new Page();
 
 Strona (**page**) jest podstawowym kontenerem dla wszystkich elementów notatki — tekstu, obrazów, tabel itp.
 
-### Step 5: Define a Paragraph Style (Set Text Style)
+### Krok 5: Zdefiniuj styl akapitu (Ustaw styl tekstu)
 
 ```java
 ParagraphStyle textStyle = new ParagraphStyle()
@@ -100,7 +100,7 @@ ParagraphStyle textStyle = new ParagraphStyle()
 
 Tutaj **ustawiamy styl akapitu** dla całej strony: czarny tekst Arial o rozmiarze 10 pt. Później zobaczysz, jak zmiana rozmiaru czcionki wpływa na wykrywanie układu.
 
-### Step 6: Create Title Text, Date, and Time
+### Krok 6: Utwórz tekst tytułu, datę i godzinę
 
 ```java
 RichText titleText = new RichText().append("Title text.");
@@ -110,7 +110,7 @@ RichText titleTime = new RichText().append("12:34");
 
 Te obiekty przechowują wartości **tytułu, daty i czasu**, które będą wyświetlane u góry strony.
 
-### Step 7: Add Title to Page (Add Title to Page)
+### Krok 7: Dodaj tytuł do strony (Dodaj tytuł do strony)
 
 ```java
 Title title = new Title();
@@ -122,7 +122,7 @@ page.setTitle(title);
 
 **Tytuł jest teraz dołączony** do strony, nadając wyeksportowanemu dokumentowi wyraźny nagłówek.
 
-### Step 8: Append the Page to the Document
+### Krok 8: Dołącz stronę do dokumentu
 
 ```java
 doc.appendChildLast(page);
@@ -130,7 +130,7 @@ doc.appendChildLast(page);
 
 Po dodaniu strony dokument zawiera jedną w pełni wystylizowaną stronę gotową do eksportu.
 
-### Step 9: Save the Document in Various Formats
+### Krok 9: Zapisz dokument w różnych formatach
 
 ```java
 doc.save(dataDir + "OptimizeExportPerformance_out.pdf");
@@ -141,7 +141,7 @@ doc.save(dataDir + "OptimizeExportPerformance_out.bmp");
 
 Możesz eksportować do **PDF, TIFF, JPG i BMP** w jednej sekwencji wywołań. Dostosuj rozszerzenia plików do potrzebnego formatu.
 
-### Step 10: Change Font Size and Manually Trigger Layout Detection
+### Krok 10: Zmień rozmiar czcionki i ręcznie uruchom wykrywanie układu
 
 ```java
 textStyle.setFontSize(24);
@@ -150,40 +150,40 @@ doc.detectLayoutChanges();
 
 Zwiększenie **rozmiaru czcionki** powoduje powiększenie tekstu, a wywołanie `detectLayoutChanges()` wymusza przeliczenie układu tylko raz — po zakończeniu wszystkich zmian — zachowując wydajność.
 
-## Common Pitfalls & Tips
+## Typowe pułapki i wskazówki
 
-- **Nie włączaj ponownie wykrywania układu** po jego wyłączeniu; unieważnia to zysk w wydajności.  
-- **Zawsze ustaw styl akapitu** przed dodaniem dużej ilości tekstu; zapobiega to wielokrotnym obliczeniom stylu.  
-- **Używaj ścieżek bezwzględnych** dla `dataDir` podczas uruchamiania na serwerze, aby uniknąć problemów z uprawnieniami.  
-- **Pro tip:** If you export many notebooks in a loop, instantiate a single `Document` object per notebook and reuse the same `ParagraphStyle` instance.
+- **Nie włączaj dodatkowego systemu** po jego wyłączeniu; u prowadzenia się do zysku w wydajności.
+- **Zawsze ustaw styl akapitu** przedm dużej ilości tekstu; Zapobieganie wielokrotnym obliczeniom rysika.
+- **Używaj parametrów bezwzględnych** dla `dataDir` podczas uruchamiania, aby uzyskać dostęp do uprawnień.
+- **Wskazówka:** jeśli eksportujesz wiele notatników w pętli, utwórz instancję pojedynczego obiektu `Document` na każdy notatnik i ponownie użyj tej samej instancji `ParagraphStyle`.
 
-## Frequently Asked Questions
+## Często zadawane pytania
 
-### Q1: Can Aspose.Note handle large OneNote documents efficiently?
+### P1: Czy Aspose.Note może wydajnie obsługiwać duże dokumenty OneNote?
 
-A1: **Tak**, Aspose.Note provides robust capabilities to handle large OneNote documents efficiently, allowing for smooth export operations.
+O1: **Tak**, Aspose.Note zapewnia solidne możliwości wydajnej obsługi dużych dokumentów OneNote, umożliwiając płynne operacje eksportu.
 
-### Q2: Is Aspose.Note compatible with different operating systems?
+### P2: Czy Aspose.Note jest kompatybilny z różnymi systemami operacyjnymi?
 
-A2: **Aspose.Note** is primarily designed for Java and .NET platforms, making it compatible with various operating systems, including Windows, Linux, and macOS.
+A2: **Aspose.Note** jest przeznaczony głównie dla platform Java i .NET, dzięki czemu jest kompatybilny z różnymi systemami operacyjnymi, w tym Windows, Linux i macOS.
 
-### Q3: Does Aspose.Note support cloud integration?
+### P3: Czy Aspose.Note obsługuje integrację z chmurą?
 
-A3: **Aspose.Note** offers cloud integration options through its APIs, enabling seamless interaction with cloud storage services such as Amazon S3, Google Drive, and Microsoft OneDrive.
+A3: **Aspose.Note** oferuje opcje integracji z chmurą za pośrednictwem swoich interfejsów API, umożliwiając bezproblemową interakcję z usługami przechowywania danych w chmurze, takimi jak Amazon S3, Google Drive i Microsoft OneDrive.
 
-### Q4: Can I customize the export settings for OneNote documents?
+### P4: Czy mogę dostosować ustawienia eksportu dokumentów OneNote?
 
-A4: **Tak**, Aspose.Note provides extensive customization options, allowing users to tailor export settings according to their specific requirements, including image quality, resolution, and formatting.
+A4: **Tak**, Aspose.Note oferuje rozbudowane opcje dostosowywania, pozwalając użytkownikom dostosować ustawienia eksportu do swoich specyficznych wymagań, w tym jakości obrazu, rozdzielczości i formatowania.
 
-### Q5: Is technical support available for Aspose.Note users?
+### P5: Czy użytkownicy Aspose.Note mają dostęp do pomocy technicznej?
 
-A5: **Tak**, Aspose provides dedicated technical support to assist users with any inquiries or issues they may encounter while using Aspose.Note.
+A5: **Tak**, Aspose zapewnia dedykowane wsparcie techniczne, aby pomóc użytkownikom w przypadku pytań lub problemów, które mogą napotkać podczas korzystania z Aspose.Note.
 
 ---
 
-**Last Updated:** 2026-01-15  
-**Tested With:** Aspose.Note for Java 24.11 (latest at time of writing)  
-**Author:** Aspose  
+**Ostatnia aktualizacja:** 2026-01-15
+**Testowano z:** Aspose.Note dla Java 24.11 (najnowsza wersja w momencie pisania)
+**Autor:** Aspose  
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

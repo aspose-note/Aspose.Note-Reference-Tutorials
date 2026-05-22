@@ -135,15 +135,15 @@ document.save(dataDir.resolve("SetPageBackgroundColor.one").toString());
 
 Chúc mừng! Bạn đã học thành công cách **thay đổi nền trang OneNote** và **chỉnh sửa màu trang OneNote** bằng Aspose.Note cho Java. Hãy thử nghiệm với các giá trị `Color` khác nhau, kết hợp kỹ thuật này với các tính năng API khác, và tùy chỉnh sổ tay OneNote của bạn để phù hợp với bất kỳ phong cách trực quan nào bạn cần.
 
+---
+
+**Cập nhật lần cuối:** 2026-01-15  
+**Kiểm tra với:** Aspose.Note cho Java 24.12  
+**Tác giả:** Aspose
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
-
----
-
-**Cập nhật lần cuối:** 2026-01-15  
-**Kiểm tra với:** Aspose.Note cho Java 24.12  
-**Tác giả:** Aspose

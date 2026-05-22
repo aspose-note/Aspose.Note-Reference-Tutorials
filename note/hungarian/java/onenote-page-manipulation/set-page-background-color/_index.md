@@ -135,15 +135,15 @@ document.save(dataDir.resolve("SetPageBackgroundColor.one").toString());
 
 Gratulálunk! Sikeresen megtanulta, hogyan **változtassa meg a OneNote oldal háttérszínét** és **módosítsa a OneNote oldal színét** az Aspose.Note for Java segítségével. Kísérletezzen különböző `Color` értékekkel, kombinálja ezt a technikát más API funkciókkal, és alakítsa a OneNote jegyzetfüzeteit a kívánt vizuális stílusra.
 
+---
+
+**Utolsó frissítés:** 2026-01-15  
+**Tesztelt verzió:** Aspose.Note for Java 24.12  
+**Szerző:** Aspose
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
-
----
-
-**Utolsó frissítés:** 2026-01-15  
-**Tesztelt verzió:** Aspose.Note for Java 24.12  
-**Szerző:** Aspose

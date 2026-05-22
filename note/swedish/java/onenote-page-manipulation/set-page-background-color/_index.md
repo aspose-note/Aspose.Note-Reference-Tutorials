@@ -133,15 +133,15 @@ document.save(dataDir.resolve("SetPageBackgroundColor.one").toString());
 
 Grattis! Du har nu framgångsrikt lärt dig hur du **ändrar OneNote‑sidbakgrund** och **modifierar OneNote‑sidfärg** med Aspose.Note för Java. Experimentera med olika `Color`‑värden, kombinera denna teknik med andra API‑funktioner och anpassa dina OneNote‑anteckningsböcker efter vilken visuell stil du än behöver.
 
+---
+
+**Senast uppdaterad:** 2026-01-15  
+**Testad med:** Aspose.Note för Java 24.12  
+**Författare:** Aspose
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
-
----
-
-**Senast uppdaterad:** 2026-01-15  
-**Testad med:** Aspose.Note för Java 24.12  
-**Författare:** Aspose

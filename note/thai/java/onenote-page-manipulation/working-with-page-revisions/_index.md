@@ -15,39 +15,39 @@ weight: 21
 
 # ทำงานกับการแก้ไขหน้าใน OneNote - Aspose.Note
 
-## Introduction
+## การแนะนำ
 
-OneNote เป็นเครื่องมือที่มีประสิทธิภาพสำหรับการจัดระเบียบโน้ต และเมื่อคุณต้องการ **track changes onenote** การจัดการการแก้ไขหน้าเป็นสิ่งสำคัญสำหรับการทำงานร่วมกันอย่างมีประสิทธิภาพ ด้วย Aspose.Note for Java คุณสามารถจัดการการแก้ไขได้โดยโปรแกรม ดูว่าใครแก้ไขหน้า และแม้กระทั่งปรับแต่งเวลาประทับ นี่คือบทแนะนำที่พาคุณผ่านแต่ละขั้นตอน ตั้งแต่การโหลดเอกสารจนถึงการอัปเดตสรุปการแก้ไข
+OneNote การเปลี่ยนแปลงโครงสร้างสำหรับโน้ตและเมื่อจำเป็น **track การเปลี่ยนแปลง onenote** จะทำให้หน้ามีความสำคัญสำหรับการควบคุมอย่างมีประสิทธิภาพด้วย Aspose.Note สำหรับ Java คุณจะเข้าใจถึงประสิทธิภาพของโปรแกรมว่าใครแก้ไขหน้า และปรับแต่งเวลาได้อย่างเต็มที่แนะนำบทที่พาคุณผ่านแต่ละขั้นตอนในการพิจารณาเอกสารจนกว่าจะสรุปได้ทั้งหมด
 
-## Quick Answers
-- **“track changes onenote” หมายถึงอะไร?** หมายถึงการตรวจสอบว่าใครแก้ไขหน้า OneNote และเมื่อใด
-- **ต้องใช้ไลบรารีอะไร?** Aspose.Note for Java.
-- **ฉันสามารถเปลี่ยนผู้เขียนหรือวันที่ของการแก้ไขได้หรือไม่?** ใช่, โดยใช้ RevisionSummary API (`modify revision date`).
-- **ฉันต้องมีไฟล์ OneNote ล่วงหน้าหรือไม่?** ใช่, จำเป็นต้องมีไฟล์ `.one` ตัวอย่าง
-- **ต้องการใบอนุญาตสำหรับการใช้งานจริงหรือไม่?** จำเป็นต้องมีใบอนุญาต Aspose.Note ที่ถูกต้องสำหรับการใช้งานเชิงพาณิชย์
+## คำตอบด่วน
+- **“ติดตามการเปลี่ยนแปลง onenote” สำหรับอะไร?** ตรวจสอบว่าใครแก้ไขหน้า OneNote และเมื่อใด
+- **ต้องใช้ไลบรารีอะไร?** Aspose.Note สำหรับ Java
+- **ฉันมักจะต้องติดตามหรือวันที่ของผลิตภัณฑ์ใดบ้าง?** ต้องอาศัย RevisionSummary API (`แก้ไขวันที่แก้ไข`)
+- **ฉันต้องมีไฟล์ OneNote ล่วงหน้าหรือไม่** สามารถตรวจสอบไฟล์ `.one` อธิบายได้
+- **ต้องการและจำเป็นต้องมีจริงหรือไม่?** จำเป็นต้องมีอีกครั้งหมายเหตุสำหรับเรื่องนี้
 
-## What is a revision summary example?
-A *revision summary* ให้ข้อมูลเมตาเกี่ยวกับการเปลี่ยนแปลงล่าสุดบนหน้า—ชื่อผู้เขียน, เวลาแก้ไขล่าสุด, และรายละเอียดอื่น ๆ ในคู่มือนี้เราจะดึงและแสดงข้อมูลนั้น, จากนั้นจะแสดงวิธี **modify revision date**.
+## ตัวอย่างสรุปการแก้ไขคืออะไร?
+A *สรุปการแก้ไข* ข้อมูลเพิ่มเติมเมตาเกี่ยวกับการเปลี่ยนแปลงล่าสุดบนหน้า—ชื่อดังกล่าว, เวลาแก้ไขล่าสุด, และรายละเอียดอื่นๆ ในคู่มือนี้เราจะดึงและแสดงข้อมูลนั้น, จะต้องทราบวิธี **แก้ไขวันที่แก้ไข**.
 
-## Why track changes onenote with Aspose.Note?
-- **Collaboration:** ดูว่าใครทำการแก้ไขล่าสุดอย่างรวดเร็ว
-- **Auditing:** เก็บประวัติการเปลี่ยนแปลงที่เชื่อถือได้เพื่อการปฏิบัติตามข้อกำหนด
-- **Automation:** ผสานการจัดการการแก้ไขเข้ากับบริการ back‑end หรือเครื่องมือการย้ายข้อมูล
+## เหตุใดจึงติดตามการเปลี่ยนแปลง onenote ด้วย Aspose.Note
+- **การทำงานร่วมกัน:** ว่าใครทำอย่างรวดเร็วอย่างรวดเร็ว
+- **การตรวจสอบ:** บันทึกประวัติการเปลี่ยนแปลงเพื่อตรวจสอบข้อกำหนด
+- **ระบบอัตโนมัติ:** การจัดการกับบริการแบ็กเอนด์หรือเครื่องมือนั้นจะเป็นข้อมูล
 
-## Prerequisites
+## ข้อกำหนดเบื้องต้น
 
-### สภาพแวดล้อมการพัฒนา Java
-ตรวจสอบว่าคุณได้ติดตั้ง Java Development Kit (JDK) บนระบบของคุณแล้ว
+### และยังคงมีการพัฒนา Java
+เรียนรู้การติดตั้ง Java Development Kit (JDK) บนระบบของคุณแล้ว
 
-### ไลบรารี Aspose.Note for Java
-ดาวน์โหลดและติดตั้งไลบรารี Aspose.Note for Java จาก [here](https://releases.aspose.com/note/java/).
+### ไลบรารี Aspose.Note สำหรับ Java
+ดาวน์โหลดรวมไลบรารี Aspose.Note for Java จาก [ที่นี่](https://releases.aspose.com/note/java/)
 
 ### เอกสาร OneNote
-เตรียมเอกสาร OneNote ตัวอย่างสำหรับการทดสอบ
+เอกสาร OneNote อธิบายสำหรับการทดสอบ
 
-## Import Packages
+## แพคเกจนำเข้า
 
-In your Java project, import the necessary packages to work with Aspose.Note for Java.
+ในโปรเจ็กต์ Java ของคุณ ให้นำเข้าแพ็คเกจที่จำเป็นเพื่อทำงานกับ Aspose.Note สำหรับ Java
 
 ```java
 import com.aspose.note.Document;
@@ -59,9 +59,9 @@ import java.util.Calendar;
 
 เรามาแยกตัวอย่างที่ให้มาออกเป็นหลายขั้นตอนเพื่อความเข้าใจที่ชัดเจน
 
-## Step 1: Load OneNote Document
+## ขั้นตอนที่ 1: โหลดเอกสาร OneNote
 
-First, load the OneNote document and get the first child page.
+ขั้นแรก โหลดเอกสาร OneNote และดึงหน้าย่อยแรกออกมา
 
 ```java
 String dataDir = "Your Document Directory";
@@ -69,9 +69,9 @@ Document document = new Document(dataDir + "Sample1.one");
 Page page = document.getFirstChild();
 ```
 
-## Step 2: Read Page Revision Summary
+## ขั้นตอนที่ 2: อ่านสรุปการแก้ไขหน้า
 
-Read the content revision summary for the page. This is the **revision summary example** that shows who edited the page last.
+อ่านสรุปการแก้ไขเนื้อหาของหน้า นี่คือ **ตัวอย่างสรุปการแก้ไข** ที่แสดงว่าใครเป็นผู้แก้ไขหน้าล่าสุด
 
 ```java
 RevisionSummary pageRevisionInfo = page.getPageContentRevisionSummary();
@@ -80,9 +80,9 @@ System.out.println(String.format("Author:\t%s\nModified:\t%s",
         pageRevisionInfo.getLastModifiedTime().toString()));
 ```
 
-## Step 3: Update Page Revision Summary
+## ขั้นตอนที่ 3: อัปเดตสรุปการแก้ไขหน้า
 
-Update the page revision summary with a new author and a new modified date. This demonstrates how to **modify revision date** programmatically.
+อัปเดตสรุปการแก้ไขหน้าด้วยผู้เขียนใหม่และวันที่แก้ไขใหม่ ตัวอย่างนี้แสดงวิธีการ **แก้ไขวันที่แก้ไข** โดยใช้โปรแกรม
 
 ```java
 pageRevisionInfo.setAuthorMostRecent("New Author");
@@ -91,32 +91,32 @@ pageRevisionInfo.setLastModifiedTime(modifiedDate.getTime());
 document.save(dataDir + "WorkingWithPageRevisions_out.one");
 ```
 
-## Conclusion
+## บทสรุป
 
-การจัดการการแก้ไขหน้าในเอกสาร OneNote ด้วยโปรแกรมสามารถทำได้ง่ายขึ้นด้วย Aspose.Note for Java โดยการทำตามขั้นตอนในบทแนะนำนี้ คุณจะสามารถ **track changes onenote** ได้อย่างมีประสิทธิภาพ, ดูรายละเอียดการแก้ไข, และแม้กระทั่ง **modify revision date** ให้สอดคล้องกับกระบวนการทำงานของคุณ
+ต้องที่หน้าในเอกสาร OneNote ด้วยโปรแกรมที่ต้องใช้ด้วย Aspose.Note for Java ต้องใช้ขั้นตอนในบทแนะนำนี้ทำอะไร **ติดตามการเปลี่ยนแปลง onenote** ได้อย่างมีประสิทธิภาพ, เจาะลึก, และอย่างเป็นทางการ **แก้ไขวันที่แก้ไข** ช่วยให้คุณสามารถทำงานของคุณได้
 
-## FAQ's
+## คำถามที่พบบ่อย
 
-### Q1: ฉันสามารถใช้ Aspose.Note for Java กับไลบรารี Java อื่นได้หรือไม่?
-A: ใช่, Aspose.Note for Java สามารถผสานรวมกับไลบรารี Java อื่นเพื่อเพิ่มฟังก์ชันการทำงาน
+### Q1: ฉันสามารถใช้ Aspose.Note for Java กับไลบรารี Java อย่างอื่นได้หรือไม่?
+ตอบ: ทดสอบ, Aspose.Note สำหรับ Java ความสามารถของไลบรารี Java อื่นๆ เพื่อเพิ่มฟังก์ชั่นการทำงาน
 
-### Q2: Aspose.Note for Java รองรับเวอร์ชันทั้งหมดของเอกสาร OneNote หรือไม่?
-A: Aspose.Note for Java รองรับหลายเวอร์ชันของเอกสาร OneNote รวมถึงเวอร์ชันเก่า
+### Q2: Aspose.Note for Java รองรับการตรวจสอบเอกสาร OneNote ได้หรือไม่?
+ตอบ: Aspose.Note สำหรับ Java รองรับหลายบันทึกของเอกสาร OneNote และบันทึกเก่า
 
-### Q3: Aspose.Note for Java เหมาะกับแอปพลิเคชันระดับองค์กรหรือไม่?
-A: แน่นอน, Aspose.Note for Java ถูกออกแบบมาเพื่อรองรับความต้องการของแอปพลิเคชันระดับองค์กรด้วยคุณสมบัติที่แข็งแกร่งและความสามารถในการขยาย
+### Q3: Aspose.Note for Java รองรับระดับองค์กรหรือไม่?
+ตอบ: แน่นอน, Aspose.Note สำหรับ Java ความต้องการของรองรับแอปพลิเคชันระดับองค์กรด้วยคุณสมบัติและการขยายการขยาย
 
-### Q4: ฉันสามารถปรับแต่งการแก้ไขหน้าโดยใช้ Aspose.Note for Java ได้หรือไม่?
-A: ใช่, คุณสามารถปรับแต่งการแก้ไขหน้าให้ตรงตามความต้องการของคุณโดยใช้ Aspose.Note for Java
+### คำถามที่ 4: ฉันต้องทำตามความต้องการของหน้า Aspose.Note สำหรับ Java สามารถทำได้หรือไม่
+ตอบ: พิสูจน์ได้ว่าเราสามารถปรับแต่งหน้าให้ตรงตามความต้องการของคุณ Aspose.Note สำหรับ Java
 
-### Q5: ฉันจะหาแหล่งสนับสนุนสำหรับ Aspose.Note for Java ได้จากที่ไหน?
-A: คุณสามารถรับการสนับสนุนสำหรับ Aspose.Note for Java ได้จาก [Aspose.Note forum](https://forum.aspose.com/c/note/28).
+### Q5: ฉันหาแหล่งสนับสนุนสำหรับ Aspose.Note สำหรับ Java จากที่ไหน?
+ตอบ: เรายินดีรับสำหรับ Aspose.Note for Java จาก [ฟอรัม Aspose.Note](https://forum.aspose.com/c/note/28)
 
 ---
 
-**Last Updated:** 2026-01-15  
-**Tested With:** Aspose.Note for Java 24.12  
-**Author:** Aspose  
+**อัปเดตล่าสุด:** 15-01-2026
+**ทดสอบกับ:** Aspose.Note สำหรับ Java 24.12
+**ผู้เขียน:** สมมติ  
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

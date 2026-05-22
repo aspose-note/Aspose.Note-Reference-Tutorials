@@ -98,23 +98,23 @@ OneNote दस्तावेज़ों में पेज संशोधन
 
 ## अक्सर पूछे जाने वाले प्रश्न
 
-### Q1: Can I use Aspose.Note for Java with other Java libraries?
+### Q1: क्या मैं दूसरी Java लाइब्रेरी के साथ Aspose.Note for Java का इस्तेमाल कर सकता हूँ?
 
-A: हाँ, Aspose.Note for Java को अन्य Java लाइब्रेरीज़ के साथ एकीकृत किया जा सकता है ताकि कार्यक्षमता बढ़े।
+A: हाँ, Aspose.Note for Java को दूसरी Java लाइब्रेरी के साथ इस्तेमाल किया जा सकता है ताकि काम बढ़ सके।
 
-### Q2: Does Aspose.Note for Java support all versions of OneNote documents?
+### Q2: क्या Aspose.Note for Java OneNote डॉक्यूमेंट के सभी वर्शन को सपोर्ट करता है?
 
-A: Aspose.Note for Java विभिन्न संस्करणों के OneNote दस्तावेज़ों का समर्थन करता है, जिसमें पुराने संस्करण भी शामिल हैं।
+A: Aspose.Note for Java के अलग-अलग वर्शन के OneNote डॉक्यूमेंट को सपोर्ट करता है, जिसमें पुराने वर्शन भी शामिल हैं।
 
-### Q3: Is Aspose.Note for Java suitable for enterprise-level applications?
+### Q3: क्या Aspose.Note for Java एंटरप्राइज़-लेवल एप्लिकेशन के लिए सही है?
 
-A: बिल्कुल, Aspose.Note for Java को एंटरप्राइज़-स्तर के अनुप्रयोगों की जरूरतों को पूरा करने के लिए मजबूत फीचर्स और स्केलेबिलिटी के साथ डिजाइन किया गया है।
+A: बिल्कुल, Aspose.Note for Java को दूसरी लाइब्रेरी के साथ इस्तेमाल करने की ज़रूरत नहीं है, इसलिए इसे पूरा करने के लिए मज़बूत फीचर्स और स्केल एडजस्टमेंट के साथ डिज़ाइन किया गया है।
 
-### Q4: Can I customize page revisions with Aspose.Note for Java?
+### Q4: क्या मैं Aspose.Note for Java से पेज रिविज़न को कस्टमाइज़ कर सकता हूँ?
 
-A: हाँ, आप अपनी आवश्यकताओं के अनुसार Aspose.Note for Java का उपयोग करके पेज संशोधनों को कस्टमाइज़ कर सकते हैं।
+A: हाँ, आप अपनी ज़रूरत के हिसाब से Aspose.Note for Java का इस्तेमाल करके पेज में बदलाव को कस्टमाइज़ कर सकते हैं।
 
-### Q5: Where can I get support for Aspose.Note for Java?
+### Q5: मुझे Aspose.Note for Java के लिए सपोर्ट कहाँ से मिल सकता है?
 
 A: आप Aspose.Note for Java के लिए समर्थन [Aspose.Note forum](https://forum.aspose.com/c/note/28) से प्राप्त कर सकते हैं।
 

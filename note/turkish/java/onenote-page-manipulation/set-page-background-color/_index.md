@@ -135,15 +135,15 @@ document.save(dataDir.resolve("SetPageBackgroundColor.one").toString());
 
 Tebrikler! Aspose.Note for Java kullanarak **OneNote sayfa arka planını değiştirmeyi** ve **OneNote sayfa rengini** başarıyla öğrendiniz. Farklı `Color` değerleriyle deneyler yapın, bu tekniği diğer API özellikleriyle birleştirin ve OneNote not defterlerinizi ihtiyacınız olan herhangi bir görsel stile uyacak şekilde özelleştirin.
 
+---
+
+**Last Updated:** 2026-01-15  
+**Tested With:** Aspose.Note for Java 24.12  
+**Author:** Aspose
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
-
----
-
-**Last Updated:** 2026-01-15  
-**Tested With:** Aspose.Note for Java 24.12  
-**Author:** Aspose

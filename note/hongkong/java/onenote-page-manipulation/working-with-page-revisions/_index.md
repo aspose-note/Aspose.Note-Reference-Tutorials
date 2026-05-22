@@ -60,7 +60,7 @@ import java.util.Calendar;
 
 讓我們將提供的範例分解為多個步驟，以便清晰理解。
 
-## Step 1: Load OneNote Document
+## 步驟 1：載入 OneNote 文檔
 
 首先，載入 OneNote 文件並取得第一個子頁面。
 
@@ -70,7 +70,7 @@ Document document = new Document(dataDir + "Sample1.one");
 Page page = document.getFirstChild();
 ```
 
-## Step 2: Read Page Revision Summary
+## 步驟 2：讀取頁面修訂摘要
 
 讀取該頁面的內容修訂摘要。這就是顯示最後編輯者的 **revision summary example**。
 
@@ -81,7 +81,7 @@ System.out.println(String.format("Author:\t%s\nModified:\t%s",
         pageRevisionInfo.getLastModifiedTime().toString()));
 ```
 
-## Step 3: Update Page Revision Summary
+## 步驟 3：更新頁面修訂摘要
 
 使用新作者與新修改日期更新頁面修訂摘要。此範例示範如何以程式方式 **modify revision date**。
 
@@ -96,27 +96,27 @@ document.save(dataDir + "WorkingWithPageRevisions_out.one");
 
 以程式方式管理 OneNote 文件中的頁面修訂，可藉由 Aspose.Note for Java 簡化。依循本教學的步驟，您即可有效 **track changes onenote**、檢視修訂細節，甚至 **modify revision date** 以符合工作流程需求。
 
-## FAQ's
+## 常見問題解答
 
-### Q1: Can I use Aspose.Note for Java with other Java libraries?
+### 問題1：我可以將 Aspose.Note for Java 與其他 Java 函式庫一起使用嗎？
 
-A: 可以，Aspose.Note for Java 可與其他 Java 程式庫整合，以增強功能。
+回答： 可以，Aspose.Note for Java 可與其他 Java 程式庫整合，以增強功能。
 
-### Q2: Does Aspose.Note for Java support all versions of OneNote documents?
+### 問題2：Aspose.Note for Java 是否支援所有版本的 OneNote 文件？
 
-A: Aspose.Note for Java 支援多種 OneNote 文件版本，包括較舊的版本。
+回答： Aspose.Note for Java 支援多種 OneNote 文件版本，包括較舊的版本。
 
-### Q3: Is Aspose.Note for Java suitable for enterprise-level applications?
+### 問題3：Aspose.Note for Java 是否適用於企業級應用？
 
-A: 絕對適合，Aspose.Note for Java 為企業級應用設計，具備強大功能與可擴充性。
+回答： 絕對適合，Aspose.Note for Java 為企業級應用設計，具備強大功能與可擴充性。
 
-### Q4: Can I customize page revisions with Aspose.Note for Java?
+### 問題4：我可以使用 Aspose.Note for Java 自訂頁面修訂嗎？
 
-A: 可以，您可依需求使用 Aspose.Note for Java 自訂頁面修訂。
+回答： 可以，您可依需求使用 Aspose.Note for Java 自訂頁面修訂。
 
-### Q5: Where can I get support for Aspose.Note for Java?
+### 問題5：我可以在哪裡獲得 Aspose.Note for Java 的支援？
 
-A: 您可從 [Aspose.Note forum](https://forum.aspose.com/c/note/28) 取得 Aspose.Note for Java 的支援。
+回答： 您可從 [Aspose.Note forum](https://forum.aspose.com/c/note/28) 取得 Aspose.Note for Java 的支援。
 
 ---
 
