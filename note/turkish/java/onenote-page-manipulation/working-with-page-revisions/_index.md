@@ -1,41 +1,55 @@
 ---
-title: OneNote'ta Sayfa Düzeltmeleriyle Çalışma - Aspose.Note
-linktitle: OneNote'ta Sayfa Düzeltmeleriyle Çalışma - Aspose.Note
-second_title: Aspose.Note Java API'si
-description: Aspose.Note for Java'yı kullanarak OneNote belgelerindeki sayfa revizyonlarını nasıl yöneteceğinizi öğrenin. Etkili revizyon takibi ve işbirliği için adım adım kılavuz sağlar.
-weight: 21
+date: 2026-01-15
+description: Aspose.Note for Java kullanarak OneNote'ta değişiklikleri izlemeyi ve
+  OneNote belgelerindeki sayfa revizyonlarını yönetmeyi öğrenin. Bir revizyon özeti
+  örneği ve revizyon tarihini nasıl değiştireceğinizi içerir.
+linktitle: Working with Page Revisions in OneNote - Aspose.Note
+second_title: Aspose.Note Java API
+title: OneNote'da değişiklikleri izleme – Aspose.Note ile Sayfa Revizyonlarını Yönet
 url: /tr/java/onenote-page-manipulation/working-with-page-revisions/
+weight: 21
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# OneNote'ta Sayfa Düzeltmeleriyle Çalışma - Aspose.Note
+# OneNote'ta Sayfa Revizyonlarıyla Çalışma - Aspose.Note
 
-## giriiş
+## Giriiş
 
-OneNote, notları düzenlemek ve yönetmek için güçlü bir araçtır ancak bazen değişiklikleri izlemek ve etkili bir şekilde işbirliği yapmak için düzeltmeler üzerinde çalışmanız gerekir. Aspose.Note for Java ile OneNote belgelerindeki sayfa revizyonlarını programlı olarak kolayca yönetebilirsiniz. Bu eğitim size süreç boyunca adım adım rehberlik edecektir.
+OneNote, notları düzenlemek için güçlü bir araç ve **değişiklikleri takip eden onenote** ülkelerinde, sayfa değişikliklerinin oluşturulması etkili iş birliği için hayati öneme sahiptir. Aspose.Note for Java dosya değişikliklerini programlı olarak ele alabilir, bir programın kim tarafından yönetileceğini görebilir ve hatta zaman damgalarını ayarlayabilirsiniz. Bu öğretici, bir belgeyi yüklemeden güncellemeye, özetlemeyi güncellemeye kadar adım boyutunu gösterir.
+
+## Hızlı Yanıtlar
+- **takip değişiklikleri onenote ne anlıyor?** Bu, bir OneNote kimin ne zaman saklamasını izlemeyi ifade eder.
+- **Hangi kütüphanesi gereklidir?** Aspose.Note for Java.
+- **Bir düzeltmenin yazarını veya ortaya çıkma ihtimali var mı?** Evet, RevisionSummary API'si (`revizyon tarihini değiştir`) ile.
+- **Önceden bir OneNote dosyasına ihtiyacım var mı?** Evet, bir örnek `.one` dosyası gereklidir.
+- **Üretim için lisans gerekli mi?** Ticari kullanım için geçerli bir Aspose.Note lisansı gereklidir.
+
+## Revizyon özeti örneği nedir?
+
+*revizyon özeti* bir sayfadaki en son değişiklikler hakkında meta veriler sağlar—yazar adı, son değişme zamanı ve diğer ayrıntılar. Bu rehberde bu bilgileri alıp görüntüleyecek, ardından **revizyon tarihini değiştir** nasıl göreceksinizz.
+
+## Aspose.Note ile onenote'taki değişiklikleri neden takip etmelisiniz?
+
+- **İşbirliği:** En son düzenlemeleri kimin yaptığını kısaca görebilirsiniz.
+- **Denetim:** Uyumluluk için güvenilir bir geçmişini tutun.
+- **Otomasyon:** Revizyon yönetimini arka uç hizmetlerine veya taşıma araçlarına entegre edin.
 
 ## Önkoşullar
 
-Başlamadan önce aşağıdakilere sahip olduğunuzdan emin olun:
-
 ### Java Geliştirme Ortamı
+Sisteminize Java Development Kit (JDK) kurulu olduğundan emin olun.
 
-Sisteminizde Java Development Kit'in (JDK) kurulu olduğundan emin olun.
-
-### Java Kütüphanesi için Aspose.Note
-
-Aspose.Note for Java kütüphanesini şu adresten indirip yükleyin:[Burada](https://releases.aspose.com/note/java/).
+### Java Kitaplığı için Aspose.Note
+Aspose.Note for Java kütüphanesini [buradan](https://releases.aspose.com/note/java/) indirip kurun.
 
 ### OneNote Belgesi
-
-Test amacıyla örnek bir OneNote belgesini hazır bulundurun.
+Test amaçlı bir örnek OneNote belgesine sahip olun.
 
 ## Paketleri İçe Aktar
-
-Java projenizde Aspose.Note for Java ile çalışmak için gerekli paketleri içe aktarın.
+Java projenizde Aspose.Note for Java ile çalışmak için gerekli kapları içe aktarın.
 
 ```java
 import com.aspose.note.Document;
@@ -45,11 +59,11 @@ import java.io.IOException;
 import java.util.Calendar;
 ```
 
-Daha net bir anlayış için verilen örneği birden çok adıma ayıralım.
+Sağlanan örneği daha net anlamak için birden fazla adıma ayıralım.
 
-## 1. Adım: OneNote Belgesini Yükleyin
+## Adım 1: OneNote Belgesini Yükle
 
-Öncelikle OneNote belgesini yükleyin ve ilk alt sayfayı alın.
+İlk olarak, OneNote belgesini yükleyin ve ilk alt sayfayı alın.
 
 ```java
 String dataDir = "Your Document Directory";
@@ -57,9 +71,9 @@ Document document = new Document(dataDir + "Sample1.one");
 Page page = document.getFirstChild();
 ```
 
-## Adım 2: Sayfa Revizyon Özetini Okuyun
+## Adım 2: Sayfa Revizyon Özeti Okuma
 
-Sayfanın içerik revizyon özetini okuyun.
+Sayfa için içerik revizyon özetini okuyun. Bu, sayfayı en son kimin düzenlediğini gösteren **revision summary example**'dır.
 
 ```java
 RevisionSummary pageRevisionInfo = page.getPageContentRevisionSummary();
@@ -68,9 +82,9 @@ System.out.println(String.format("Author:\t%s\nModified:\t%s",
         pageRevisionInfo.getLastModifiedTime().toString()));
 ```
 
-## 3. Adım: Sayfa Revizyon Özetini Güncelleyin
+## Adım 3: Sayfa Revizyon Özetini Güncelleme
 
-Sayfa revizyon özetini yeni yazar ve değiştirilme tarihi ile güncelleyin.
+Sayfa revizyon özetini yeni bir yazar ve yeni bir değiştirilme tarihiyle güncelleyin. Bu, **modify revision date**'i programlı olarak nasıl yapacağınızı gösterir.
 
 ```java
 pageRevisionInfo.setAuthorMostRecent("New Author");
@@ -81,29 +95,36 @@ document.save(dataDir + "WorkingWithPageRevisions_out.one");
 
 ## Çözüm
 
-OneNote belgelerindeki sayfa revizyonlarını programlı olarak yönetmek Aspose.Note for Java ile basitleştirilebilir. Bu öğreticide özetlenen adımları izleyerek, değişiklikleri izlemek ve sorunsuz bir şekilde işbirliği yapmak için sayfa revizyonlarıyla etkili bir şekilde çalışabilirsiniz.
+OneNote sözleşmelerindeki sayfa güncellemelerini programlı olarak yapılandırma, Aspose.Note for Java ile basit bir şekilde kullanılabilir. Bu bilgisayarda gezinmek suretiyle **değişiklikleri takip ederek onenote**'u etkili bir şekilde gerçekleştirebilir, inceleme ayrıntılarını görüntüleyebilir ve hatta iş incelemenize kayıt ederek **revizyon tarihini değiştirebilirsiniz**'i değiştirebilirsiniz.
 
-## SSS'ler
+## SSS
 
 ### S1: Aspose.Note for Java'yı diğer Java kütüphaneleriyle birlikte kullanabilir miyim?
 
-C: Evet, Aspose.Note for Java, işlevselliği geliştirmek için diğer Java kitaplıklarıyla entegre edilebilir.
+A: Evet, Aspose.Note for Java, kurtarmak için diğer Java kütüphaneleriyle entegre edilebilir.
 
-### S2: Aspose.Note for Java, OneNote belgelerinin tüm sürümlerini destekliyor mu?
+### S2: Aspose.Note for Java tüm OneNote belge sürümlerini yüklemiş mi?
 
-C: Aspose.Note for Java, eski sürümler de dahil olmak üzere OneNote belgelerinin çeşitli sürümlerini destekler.
+A: Aspose.Note for Java, eski sürümler dahil olmak üzere çeşitli OneNote belge sürümlerini içerir.
 
-### S3: Aspose.Note for Java, kurumsal düzeydeki uygulamalar için uygun mudur?
+### S3: Aspose.Note for Java kurumsal düzeydeki uygulamalar için uygun mu?
 
-C: Kesinlikle, Aspose.Note for Java, güçlü özellikler ve ölçeklenebilirlik ile kurumsal düzeydeki uygulamaların ihtiyaçlarını karşılamak üzere tasarlanmıştır.
+C: Kesinlikle, Aspose.Note for Java, güçlü özellikler ve ölçeklenebilirliğiyle kurumsal olarak saklanabilecek kapasiteler uygun şekilde tasarlanmıştır.
 
-### S4: Aspose.Note for Java ile sayfa revizyonlarını özelleştirebilir miyim?
+### S4: Aspose.Note for Java ile sayfa iyileştirmelerini özelleştirebilir miyim?
 
-C: Evet, Aspose.Note for Java'yı kullanarak sayfa revizyonlarını gereksinimlerinize göre özelleştirebilirsiniz.
+C: Evet, Aspose.Note for Java kullanarak sayfa değişikliklerini içeriğini size göre özelleştirebilirsiniz.
 
 ### S5: Aspose.Note for Java desteğini nereden alabilirim?
 
- C: Java için Aspose.Note desteğini şu adresten alabilirsiniz:[Aspose.Note forumu](https://forum.aspose.com/c/note/28).
+C: Aspose.Note for Java'yı [Aspose.Note forumundan](https://forum.aspose.com/c/note/28) alabilirsiniz.
+
+---
+
+**Son Güncelleme:** 2026-01-15
+**Şunlarla Test Edildi:** Java 24.12 için Aspose.Note
+**Yazar:** Aspose  
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

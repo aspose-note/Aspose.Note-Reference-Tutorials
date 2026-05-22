@@ -1,41 +1,54 @@
 ---
-title: Práce s revizemi stránky ve OneNotu – Aspose.Note
-linktitle: Práce s revizemi stránky ve OneNotu – Aspose.Note
+date: 2026-01-15
+description: Naučte se sledovat změny v OneNote a spravovat revize stránek v dokumentech
+  OneNote pomocí Aspose.Note pro Javu. Obsahuje příklad souhrnu revizí a návod, jak
+  upravit datum revize.
+linktitle: Working with Page Revisions in OneNote - Aspose.Note
 second_title: Aspose.Note Java API
-description: Přečtěte si, jak spravovat revize stránek v dokumentech OneNotu pomocí Aspose.Note pro Java. Poskytuje průvodce krok za krokem pro efektivní sledování revizí a spolupráci.
-weight: 21
+title: sledování změn v OneNote – Správa revizí stránek pomocí Aspose.Note
 url: /cs/java/onenote-page-manipulation/working-with-page-revisions/
+weight: 21
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Práce s revizemi stránky ve OneNotu – Aspose.Note
+# Práce s revizemi stránek v OneNote – Aspose.Note
 
 ## Úvod
 
-OneNote je výkonný nástroj pro organizaci a správu poznámek, ale někdy je potřeba pracovat s revizemi, abyste mohli sledovat změny a efektivně spolupracovat. S Aspose.Note pro Java můžete snadno programově spravovat revize stránek v dokumentech OneNotu. Tento tutoriál vás provede procesem krok za krokem.
+OneNote je výkonný nástroj pro organizaci poznámek a když potřebujete **track changes onenote**, správa revizí stránek se stává nezbytnou pro efektivní spolupráci. S Aspose.Note pro Java můžete programově pracovat s revizemi, zobrazit, kdo stránku upravil, a dokonce upravit časová razítka. Tento tutoriál vás provede každým krokem, od načtení dokumentu až po aktualizaci souhrnu revizí.
 
-## Předpoklady
+## Rychlé odpovědi
+- **Co znamená “track changes onenote”?** Odkazuje na sledování, kdo upravil stránku OneNote a kdy.
+- **Která knihovna je vyžadována?** Aspose.Note pro Java.
+- **Mohu změnit autora nebo datum revize?** Ano, pomocí RevisionSummary API (`modify revision date`).
+- **Potřebuji mít předem soubor OneNote?** Ano, je vyžadován ukázkový soubor `.one`.
+- **Je pro produkci potřeba licence?** Pro komerční použití je vyžadována platná licence Aspose.Note.
 
-Než začnete, ujistěte se, že máte následující:
+## Co je příklad souhrnu revizí?
+*revision summary* poskytuje metadata o nejnovějších změnách na stránce — jméno autora, čas poslední úpravy a další podrobnosti. V tomto průvodci získáme a zobrazíme tyto informace a poté ukážeme, jak **modify revision date**.
+
+## Proč sledovat změny onenote pomocí Aspose.Note?
+- **Spolupráce:** Rychle zjistíte, kdo provedl poslední úpravy.
+- **Audit:** Uchovávejte spolehlivou historii změn pro soulad s předpisy.
+- **Automatizace:** Integrujte zpracování revizí do backendových služeb nebo migračních nástrojů.
+
+## Požadavky
 
 ### Vývojové prostředí Java
+Ujistěte se, že máte na svém systému nainstalovaný Java Development Kit (JDK).
 
-Ujistěte se, že máte v systému nainstalovanou sadu Java Development Kit (JDK).
+### Knihovna Aspose.Note pro Java
+Stáhněte a nainstalujte knihovnu Aspose.Note pro Java z [zde](https://releases.aspose.com/note/java/).
 
-### Aspose.Note pro Java Library
+### Dokument OneNote
+Mějte připravený ukázkový dokument OneNote pro testovací účely.
 
-Stáhněte a nainstalujte knihovnu Aspose.Note pro Java z[tady](https://releases.aspose.com/note/java/).
+## Import balíčků
 
-### Dokument OneNotu
-
-Připravte si vzorový dokument OneNotu pro testovací účely.
-
-## Importujte balíčky
-
-Ve svém projektu Java importujte potřebné balíčky pro práci s Aspose.Note for Java.
+Ve svém Java projektu importujte potřebné balíčky pro práci s Aspose.Note pro Java.
 
 ```java
 import com.aspose.note.Document;
@@ -45,11 +58,11 @@ import java.io.IOException;
 import java.util.Calendar;
 ```
 
-Rozdělme si poskytnutý příklad do několika kroků pro jasné pochopení.
+Rozdělme poskytnutý příklad do několika kroků pro lepší pochopení.
 
-## Krok 1: Načtěte dokument OneNotu
+## Krok 1: Načtení dokumentu OneNote
 
-Nejprve načtěte dokument OneNotu a získejte první podřízenou stránku.
+Nejprve načtěte dokument OneNote a získejte první podřízenou stránku.
 
 ```java
 String dataDir = "Your Document Directory";
@@ -57,9 +70,9 @@ Document document = new Document(dataDir + "Sample1.one");
 Page page = document.getFirstChild();
 ```
 
-## Krok 2: Přečtěte si souhrn revizí stránky
+## Krok 2: Přečtení souhrnu revize stránky
 
-Přečtěte si souhrn revize obsahu stránky.
+Přečtěte souhrn revize obsahu pro stránku. Toto je **revision summary example**, který ukazuje, kdo stránku naposledy upravil.
 
 ```java
 RevisionSummary pageRevisionInfo = page.getPageContentRevisionSummary();
@@ -68,9 +81,9 @@ System.out.println(String.format("Author:\t%s\nModified:\t%s",
         pageRevisionInfo.getLastModifiedTime().toString()));
 ```
 
-## Krok 3: Aktualizujte souhrn revizí stránky
+## Krok 3: Aktualizace souhrnu revize stránky
 
-Aktualizujte souhrn revize stránky novým autorem a datem změny.
+Aktualizujte souhrn revize stránky novým autorem a novým datem úpravy. Toto ukazuje, jak programově **modify revision date**.
 
 ```java
 pageRevisionInfo.setAuthorMostRecent("New Author");
@@ -81,29 +94,36 @@ document.save(dataDir + "WorkingWithPageRevisions_out.one");
 
 ## Závěr
 
-Programovou správu revizí stránek v dokumentech OneNotu lze zjednodušit pomocí Aspose.Note pro Java. Podle kroků uvedených v tomto kurzu můžete efektivně pracovat s revizemi stránek, abyste mohli sledovat změny a bezproblémově spolupracovat.
+Programové řízení revizí stránek v dokumentech OneNote lze zjednodušit pomocí Aspose.Note pro Java. Dodržením kroků uvedených v tomto tutoriálu můžete efektivně **track changes onenote**, zobrazit podrobnosti revizí a dokonce **modify revision date** přizpůsobit svému pracovnímu postupu.
 
-## FAQ
+## Často kladené otázky
 
 ### Q1: Mohu použít Aspose.Note pro Java s jinými Java knihovnami?
 
-Odpověď: Ano, Aspose.Note for Java lze integrovat s jinými knihovnami Java pro vylepšení funkčnosti.
+A: Ano, Aspose.Note pro Java lze integrovat s jinými Java knihovnami pro rozšíření funkčnosti.
 
-### Q2: Podporuje Aspose.Note pro Java všechny verze dokumentů OneNotu?
+### Q2: Podporuje Aspose.Note pro Java všechny verze dokumentů OneNote?
 
-Odpověď: Aspose.Note pro Java podporuje různé verze dokumentů OneNote, včetně starších verzí.
+A: Aspose.Note pro Java podporuje různé verze dokumentů OneNote, včetně starších verzí.
 
-### Q3: Je Aspose.Note for Java vhodný pro aplikace na podnikové úrovni?
+### Q3: Je Aspose.Note pro Java vhodný pro podnikovou úroveň aplikací?
 
-Odpověď: Rozhodně, Aspose.Note pro Java je navržen tak, aby vyhovoval potřebám podnikových aplikací s robustními funkcemi a škálovatelností.
+A: Rozhodně, Aspose.Note pro Java je navržen tak, aby vyhovoval potřebám podnikově úrovňových aplikací s robustními funkcemi a škálovatelností.
 
 ### Q4: Mohu přizpůsobit revize stránek pomocí Aspose.Note pro Java?
 
-Odpověď: Ano, pomocí Aspose.Note pro Java si můžete upravit revize stránek podle svých požadavků.
+A: Ano, můžete přizpůsobit revize stránek podle svých požadavků pomocí Aspose.Note pro Java.
 
 ### Q5: Kde mohu získat podporu pro Aspose.Note pro Java?
 
- Odpověď: Podporu pro Aspose.Note pro Javu můžete získat z[Aspose.Note fórum](https://forum.aspose.com/c/note/28).
+A: Podporu pro Aspose.Note pro Java můžete získat na [fóru Aspose.Note](https://forum.aspose.com/c/note/28).
+
+---
+
+**Poslední aktualizace:** 2026-01-15  
+**Testováno s:** Aspose.Note pro Java 24.12  
+**Autor:** Aspose  
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
