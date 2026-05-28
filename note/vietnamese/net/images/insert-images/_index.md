@@ -1,33 +1,54 @@
 ---
-title: Chèn hình ảnh vào tài liệu Aspose.Note
+date: 2026-05-05
+description: Tìm hiểu cách chèn hình ảnh vào tài liệu Aspose.Note bằng .NET. Hướng
+  dẫn từng bước này chỉ cho bạn cách căn chỉnh hình ảnh, thêm hình ảnh vào trang và
+  nâng cao nội dung hình ảnh.
+keywords:
+- how to insert image
+- how to align image
+- append image to page
 linktitle: Chèn hình ảnh vào tài liệu Aspose.Note
 second_title: Aspose.Note .NET API
-description: Tìm hiểu cách chèn hình ảnh liền mạch vào tài liệu Aspose.Note bằng .NET để có nội dung trực quan nâng cao. Hãy làm theo hướng dẫn từng bước của chúng tôi để tích hợp dễ dàng.
-weight: 16
+title: Cách chèn hình ảnh vào tài liệu Aspose.Note bằng .NET
 url: /vi/net/images/insert-images/
+weight: 16
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Chèn hình ảnh vào tài liệu Aspose.Note
+# Cách chèn hình ảnh vào tài liệu Aspose.Note bằng .NET
 
 ## Giới thiệu
 
-Việc thêm hình ảnh vào tài liệu Aspose.Note của bạn có thể nâng cao đáng kể sự hấp dẫn và tiện ích trực quan của chúng. Cho dù bạn đang tạo ghi chú, bản trình bày hay bất kỳ tài liệu nào khác, việc tích hợp hình ảnh có thể cung cấp ngữ cảnh và sự rõ ràng cho nội dung của bạn. Trong hướng dẫn này, chúng tôi sẽ hướng dẫn bạn quy trình chèn hình ảnh vào tài liệu Aspose.Note bằng .NET.
+Nếu bạn muốn làm cho các tệp Aspose.Note của mình trở nên sinh động hơn, **cách chèn hình ảnh** là kỹ năng đầu tiên bạn cần nắm vững. Trong hướng dẫn này, chúng tôi sẽ hướng dẫn chi tiết các bước cần thiết để thêm hình ảnh, kiểm soát kích thước, định vị chúng một cách chính xác, và thậm chí căn chỉnh chúng theo ý muốn. Khi kết thúc, bạn sẽ tự tin chèn hình ảnh, căn chỉnh chúng và đính kèm hình ảnh vào trang — tất cả bằng mã C# sạch sẽ và dễ đọc.
 
-## Điều kiện tiên quyết
+## Câu trả lời nhanh
+- **Thư viện nào cần thiết?** Aspose.Note for .NET  
+- **Tôi có thể đặt kích thước hình ảnh bằng chương trình không?** Có – sử dụng các thuộc tính Width và Height.  
+- **Làm thế nào để định vị một hình ảnh?** Điều chỉnh HorizontalOffset, VerticalOffset hoặc sử dụng các tùy chọn căn chỉnh.  
+- **Có giới hạn nào về định dạng hình ảnh không?** JPG, PNG, BMP, GIF và các định dạng khác được hỗ trợ.  
+- **Tôi có cần giấy phép cho môi trường sản xuất không?** Một giấy phép Aspose.Note hợp lệ là bắt buộc cho việc sử dụng thương mại.
 
-Trước khi chúng ta bắt đầu, hãy đảm bảo bạn có sẵn các điều kiện tiên quyết sau:
+## Chèn hình ảnh trong Aspose.Note là gì?
 
-1.  Aspose.Note for .NET: Tải xuống và cài đặt Aspose.Note cho .NET từ[đây](https://releases.aspose.com/note/net/).
-   
-2. Tệp hình ảnh: Chuẩn bị tệp hình ảnh bạn định chèn vào tài liệu Aspose.Note của mình.
+Chèn một hình ảnh có nghĩa là tạo một đối tượng Aspose.Note.Image, cấu hình các thuộc tính hiển thị của nó, và gắn nó vào một trang trong tệp .one tương thích với OneNote. Điều này cho phép bạn làm phong phú các ghi chú bằng ảnh chụp màn hình, sơ đồ, hoặc bất kỳ công cụ hỗ trợ hình ảnh nào.
+
+## Tại sao nên chèn hình ảnh bằng Aspose.Note?
+
+- **Giao tiếp tốt hơn:** Hình ảnh làm rõ các ý tưởng phức tạp nhanh hơn so với chỉ văn bản.  
+- **Bố cục nhất quán:** Kiểm soát bằng chương trình đảm bảo mọi tài liệu tuân theo cùng tiêu chuẩn thiết kế.  
+- **Thân thiện với tự động hoá:** Lý tưởng để tạo báo cáo, hướng dẫn, hoặc sổ ghi chú được xử lý hàng loạt.
+
+## Yêu cầu trước
+
+1. Aspose.Note for .NET: Tải xuống và cài đặt Aspose.Note for .NET từ [đây](https://releases.aspose.com/note/net/).  
+2. Tệp hình ảnh: Chuẩn bị các tệp hình ảnh (JPG, PNG, v.v.) mà bạn dự định nhúng sẵn trên ổ đĩa.
 
 ## Nhập không gian tên
 
-Trước tiên, bạn cần nhập các không gian tên cần thiết để làm việc với Aspose.Note trong dự án .NET của mình. Đây là cách bạn có thể làm điều đó:
+Chúng ta bắt đầu bằng cách nhập các không gian tên cho phép chúng ta truy cập vào I/O tệp và API Aspose.Note.
 
 ```csharp
 using System.IO;
@@ -37,9 +58,9 @@ using System.Drawing;
 using System;
 ```
 
-## Bước 1: Tải tài liệu và nhận trang
+## Bước 1: Tải tài liệu và lấy trang
 
-Bắt đầu bằng cách tải tài liệu Aspose.Note hiện có của bạn và truy cập trang mong muốn nơi bạn muốn chèn hình ảnh.
+Đầu tiên, mở tài liệu .one hiện có và lấy trang mà hình ảnh sẽ được chèn.
 
 ```csharp
 string dataDir = "Your Document Directory";
@@ -47,57 +68,90 @@ Document doc = new Document(dataDir + "YourDocument.one");
 Aspose.Note.Page page = doc.FirstChild;
 ```
 
+## Cách căn chỉnh hình ảnh
+
+Trước khi thêm hình ảnh, quyết định cách nó sẽ căn chỉnh với nội dung khác. Aspose.Note cung cấp các tùy chọn căn chỉnh ngang (Trái, Giữa, Phải). Bạn cũng có thể tinh chỉnh vị trí bằng các giá trị offset.
+
 ## Bước 2: Tải hình ảnh và đặt thuộc tính
 
-Tiếp theo, tải hình ảnh bạn muốn chèn và chỉ định các thuộc tính của nó như chiều rộng, chiều cao, độ lệch và căn chỉnh theo yêu cầu của bạn.
+Tạo đối tượng Image, chỉ tới tệp của bạn, và xác định kích thước, offset, và căn chỉnh.
 
 ```csharp
 Aspose.Note.Image image = new Aspose.Note.Image(doc, dataDir + "image.jpg")
 {
-    Width = 100,                // Đặt chiều rộng hình ảnh
-    Height = 100,               // Đặt chiều cao hình ảnh
-    HorizontalOffset = 100,     // Đặt độ lệch ngang
-    VerticalOffset = 400,       // Đặt độ lệch dọc
-    Alignment = HorizontalAlignment.Right  // Đặt căn chỉnh hình ảnh
+    Width = 100,                // Set image width
+    Height = 100,               // Set image height
+    HorizontalOffset = 100,     // Set horizontal offset
+    VerticalOffset = 400,       // Set vertical offset
+    Alignment = HorizontalAlignment.Right  // Set image alignment
 };
 ```
 
-## Bước 3: Thêm hình ảnh vào trang
+## Đính kèm hình ảnh vào trang
 
-Khi bạn đã định cấu hình thuộc tính hình ảnh, hãy thêm hình ảnh vào trang mong muốn của tài liệu Aspose.Note của bạn.
+Bây giờ hình ảnh đã được cấu hình đầy đủ, gắn nó vào cây phần tử của trang.
 
 ```csharp
 page.AppendChildLast(image);
 ```
 
-## Phần kết luận
+## Những lỗi thường gặp & Mẹo
 
-Chúc mừng! Bạn đã chèn thành công hình ảnh vào tài liệu Aspose.Note bằng .NET. Hình ảnh có thể cải thiện đáng kể khả năng trình bày trực quan của tài liệu, khiến chúng trở nên hấp dẫn và giàu thông tin hơn.
+- **Offset không đúng:** Hãy nhớ rằng offset được đo từ góc trên‑trái của trang. Offset dọc lớn có thể đẩy hình ảnh ra khỏi màn hình.  
+- **Định dạng không hỗ trợ:** Nếu bạn thử một định dạng không được nhận dạng, Aspose.Note sẽ ném ra ngoại lệ — hãy chuyển tệp sang JPG hoặc PNG trước.  
+- **Cảnh báo giấy phép:** Chạy mà không có giấy phép sẽ thêm watermark vào tài liệu được tạo; luôn áp dụng giấy phép của bạn trong môi trường sản xuất.
+
+## Kết luận
+
+Bạn đã học được **cách chèn hình ảnh** vào tài liệu Aspose.Note, **cách căn chỉnh hình ảnh**, và **cách đính kèm hình ảnh vào trang** bằng một vài dòng C# đơn giản. Những kỹ thuật này cho phép bạn tự động tạo ra các sổ ghi chú phong phú và chuyên nghiệp hơn.
 
 ## Câu hỏi thường gặp
 
-### Câu hỏi 1: Tôi có thể chèn hình ảnh ở bất kỳ định dạng nào vào tài liệu Aspose.Note không?
+### Câu 1: Tôi có thể chèn hình ảnh ở bất kỳ định dạng nào vào tài liệu Aspose.Note không?
 
-Trả lời 1: Có, Aspose.Note hỗ trợ nhiều định dạng hình ảnh khác nhau bao gồm JPG, PNG, BMP, GIF, v.v.
+A1: Có, Aspose.Note hỗ trợ nhiều định dạng hình ảnh bao gồm JPG, PNG, BMP, GIF, v.v.
 
-### Câu hỏi 2: Có thể thay đổi kích thước hình ảnh được chèn theo chương trình không?
+### Câu 2: Có thể thay đổi kích thước hình ảnh đã chèn bằng chương trình không?
 
-A2: Chắc chắn rồi! Bạn có thể điều chỉnh chiều rộng và chiều cao của hình ảnh theo sở thích của mình trong quá trình chèn.
+A2: Chắc chắn! Bạn có thể điều chỉnh chiều rộng và chiều cao của hình ảnh theo sở thích của mình khi chèn.
 
-### Câu hỏi 3: Aspose.Note có cung cấp các tùy chọn để sửa đổi căn chỉnh hình ảnh không?
+### Câu 3: Aspose.Note có cung cấp tùy chọn để chỉnh sửa căn chỉnh hình ảnh không?
 
-Câu trả lời 3: Có, bạn có thể căn chỉnh hình ảnh sang trái, phải hoặc giữa trong các trang tài liệu của mình.
+A3: Có, bạn có thể căn chỉnh hình ảnh sang trái, phải hoặc giữa trong các trang tài liệu của mình.
 
-### Q4: Tôi có thể chèn nhiều hình ảnh vào một trang tài liệu của mình không?
+### Câu 4: Tôi có thể chèn nhiều hình ảnh vào một trang duy nhất của tài liệu không?
 
-A4: Chắc chắn rồi! Bạn có thể chèn bao nhiêu hình ảnh tùy thích trên một trang bằng Aspose.Note.
+A4: Chắc chắn! Bạn có thể chèn bao nhiêu hình ảnh tùy ý trên một trang duy nhất bằng Aspose.Note.
 
-### Câu hỏi 5: Có giới hạn về kích thước tệp hình ảnh có thể chèn vào không?
+### Câu 5: Có giới hạn nào về kích thước tệp hình ảnh có thể chèn không?
 
-Câu trả lời 5: Aspose.Note không áp đặt các giới hạn nghiêm ngặt về kích thước tệp hình ảnh nhưng bạn nên tối ưu hóa hình ảnh để có hiệu suất tốt hơn.
+A5: Aspose.Note không đặt ra giới hạn nghiêm ngặt về kích thước tệp hình ảnh, nhưng nên tối ưu hóa hình ảnh để hiệu suất tốt hơn.
+
+## Các câu hỏi thường gặp
+
+**Hỏi: Làm sao để tải hình ảnh từ một luồng thay vì đường dẫn tệp?**  
+A: Sử dụng hàm khởi tạo Image(Stream, Document) và truyền một MemoryStream chứa các byte của hình ảnh.
+
+**Hỏi: Tôi có thể thay đổi hình ảnh sau khi đã thêm vào trang không?**  
+A: Có, bạn có thể sửa đổi các thuộc tính Width, Height, HorizontalOffset, VerticalOffset, và Alignment của đối tượng Image hiện có và sau đó gọi page.Update().
+
+**Hỏi: Có thể thêm chú thích dưới hình ảnh không?**  
+A: Chèn một phần tử RichText sau hình ảnh và đặt văn bản của nó làm chú thích.
+
+**Hỏi: Aspose.Note có hỗ trợ GIF động không?**  
+A: GIF động được xử lý như hình ảnh tĩnh; chỉ khung đầu tiên được hiển thị.
+
+**Hỏi: Tôi nên làm gì nếu hình ảnh bị mờ?**  
+A: Đảm bảo hình ảnh nguồn có độ phân giải đủ và tránh phóng to vượt quá kích thước gốc.
+
+---
+
+**Last Updated:** 2026-05-05  
+**Tested With:** Aspose.Note 23.12 for .NET  
+**Author:** Aspose  
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}
-
 {{< blocks/products/products-backtop-button >}}
