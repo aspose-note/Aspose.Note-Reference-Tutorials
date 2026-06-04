@@ -1,10 +1,13 @@
 ---
-title: Dapatkan Revisi Halaman di OneNote - Aspose.Note
-linktitle: Dapatkan Revisi Halaman di OneNote - Aspose.Note
-second_title: Aspose.Catatan Java API
-description: Pelajari cara mengambil revisi halaman di OneNote menggunakan Aspose.Note untuk Java. Ikuti panduan langkah demi langkah kami untuk pelacakan perubahan yang efisien.
-weight: 14
+date: 2026-01-10
+description: Pelajari tutorial revisi halaman Aspose.Note untuk Java – ambil revisi
+  halaman OneNote secara programatis menggunakan Aspose.Note. Ikuti panduan langkah
+  demi langkah kami.
+linktitle: Get Page Revisions in OneNote - Aspose.Note
+second_title: Aspose.Note Java API
+title: Tutorial revisi halaman aspose.note – Dapatkan Revisi Halaman di OneNote
 url: /id/java/onenote-page-manipulation/get-page-revisions/
+weight: 14
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
@@ -13,29 +16,37 @@ url: /id/java/onenote-page-manipulation/get-page-revisions/
 
 # Dapatkan Revisi Halaman di OneNote - Aspose.Note
 
-## Perkenalan
+OneNote adalah platform pencatatan yang kuat, dan ketika Anda perlu mengaudit perubahan, **aspose.note page revisions tutorial** menunjukkan secara tepat cara mengambil riwayat revisi dengan hanya beberapa baris kode Java. Dalam panduan ini kami akan membahas semua yang Anda perlukan—dari menyiapkan lingkungan hingga mencetak detail setiap revisi—sehingga Anda dapat melacak edit, kontribusi penulis, dan cap waktu dengan mudah.
 
-OneNote adalah alat canggih untuk mengatur dan mengelola catatan Anda, namun terkadang Anda perlu melacak perubahan dan revisi yang dilakukan pada halaman Anda. Dengan Aspose.Note untuk Java, Anda dapat dengan mudah mengambil revisi halaman secara terprogram. Dalam tutorial ini, kami akan memandu Anda melalui proses mendapatkan revisi halaman di OneNote menggunakan Aspose.Note untuk Java.
+## Quick Answers
+- **What does the tutorial cover?** Mengambil riwayat revisi halaman dari file OneNote menggunakan Aspose.Note untuk Java.  
+- **Which library version is required?** Versi terbaru Aspose.Note untuk Java yang mendukung `LoadOptions.setLoadHistory`.  
+- **Do I need a license?** Lisensi evaluasi sementara dapat digunakan untuk pengujian; lisensi komersial diperlukan untuk produksi.  
+- **Can I modify revisions?** API bersifat read‑only untuk revisi; Anda hanya dapat mengambilnya.  
+- **What are the main prerequisites?** Java JDK, Aspose.Note untuk Java, dan dokumen OneNote dengan data revisi.
 
-## Prasyarat
+## What is the “aspose.note page revisions tutorial”?
+Tutorial ini menunjukkan cara mengakses secara programatis versi historis dari sebuah halaman OneNote. Setiap revisi berisi metadata seperti penulis, waktu pembuatan, dan waktu modifikasi, memungkinkan Anda membangun jejak audit atau fitur log perubahan di dalam aplikasi Anda.
 
-Sebelum kita mulai, pastikan Anda memiliki prasyarat berikut:
+## Why use Aspose.Note for page revision tracking?
+- **No UI dependency** – berfungsi sepenuhnya dalam kode, cocok untuk layanan backend.  
+- **Cross‑platform** – Java berjalan di Windows, Linux, dan macOS.  
+- **Full control** – mengambil setiap properti revisi tanpa membuka OneNote secara manual.  
+- **Performance** – memuat riwayat dioptimalkan, sehingga bahkan notebook besar diproses dengan cepat.
 
-### 1. Kit Pengembangan Java (JDK)
+## Prerequisites
 
-Pastikan Anda telah menginstal Java Development Kit (JDK) di sistem Anda. Anda dapat mengunduh dan menginstal JDK dari situs web Oracle.
+### 1. Java Development Kit (JDK)
+Pastikan JDK terbaru (8 atau lebih tinggi) terinstal dan `JAVA_HOME` sudah diset.
 
-### 2. Aspose.Note untuk Java
+### 2. Aspose.Note for Java
+Unduh pustaka dari [download link](https://releases.aspose.com/note/java/).
 
-Unduh dan instal Aspose.Note untuk Java dari[tautan unduhan](https://releases.aspose.com/note/java/).
+### 3. Sample OneNote Document
+Buat atau dapatkan file OneNote (misalnya `Sample1.one`) yang berisi halaman dengan riwayat revisi.
 
-### 3. Contoh Dokumen OneNote
-
-Siapkan contoh dokumen OneNote (`Sample1.one`) yang berisi halaman yang ingin Anda ambil revisinya.
-
-## Paket Impor
-
-Pertama, Anda perlu mengimpor paket yang diperlukan dari Aspose.Note untuk Java.
+## Import Packages
+First, import the required Aspose.Note classes.
 
 ```java
 import java.io.IOException;
@@ -45,19 +56,17 @@ import com.aspose.note.LoadOptions;
 import com.aspose.note.Page;
 ```
 
-Sekarang, mari kita bagi contoh yang diberikan menjadi beberapa langkah:
+## Step‑by‑Step Implementation
 
-## Langkah 1: Siapkan Direktori Dokumen
-
-Tentukan jalur direktori tempat dokumen OneNote Anda berada.
+### Step 1: Set Up Document Directory
+Define the folder where your OneNote file resides.
 
 ```java
 String dataDir = "Your Document Directory";
 ```
 
-## Langkah 2: Muat Dokumen OneNote
-
- Muat dokumen OneNote menggunakan`LoadOptions` untuk mengaktifkan riwayat pemuatan.
+### Step 2: Load OneNote Document with History Enabled
+Enable the `LoadOptions` flag to pull revision data.
 
 ```java
 LoadOptions loadOptions = new LoadOptions();
@@ -65,17 +74,15 @@ loadOptions.setLoadHistory(true);
 Document document = new Document(dataDir + "Sample1.one", loadOptions);
 ```
 
-## Langkah 3: Dapatkan Halaman Pertama
-
-Ambil halaman pertama dari dokumen yang dimuat.
+### Step 3: Get the First Page
+Grab the first page object; this will be the reference point for retrieving its history.
 
 ```java
 Page firstPage = document.getFirstChild();
 ```
 
-## Langkah 4: Ulangi Revisi Halaman
-
-Ulangi setiap revisi halaman dan ambil informasi yang relevan seperti waktu modifikasi terakhir, waktu pembuatan, judul, level, dan penulis.
+### Step 4: Iterate Through Page Revisions
+Loop through each revision and print useful metadata such as timestamps, title, level, and author.
 
 ```java
 for (Page pageRevision : document.getPageHistory(firstPage)) {
@@ -88,31 +95,36 @@ for (Page pageRevision : document.getPageHistory(firstPage)) {
 }
 ```
 
-## Kesimpulan
+> **Pro tip:** Jika Anda perlu menyaring revisi berdasarkan penulis tertentu atau rentang tanggal, cukup tambahkan pemeriksaan kondisional di dalam loop `for`.
 
-Dalam tutorial ini, kita telah mempelajari cara mengambil revisi halaman di OneNote menggunakan Aspose.Note untuk Java. Dengan mengikuti langkah-langkah ini, Anda bisa secara efisien melacak perubahan yang dibuat pada halaman OneNote Anda secara terprogram.
+## Common Issues & Solutions
+- **No revisions returned:** Verifikasi bahwa `loadOptions.setLoadHistory(true)` dipanggil sebelum memuat dokumen.  
+- **Null author or title:** Beberapa versi OneNote yang lebih lama mungkin tidak menyimpan bidang ini; tangani nilai `null` dengan hati-hati.  
+- **Performance lag on large notebooks:** Muat hanya bagian yang Anda perlukan atau tingkatkan ukuran heap JVM.
 
-## FAQ
+## Frequently Asked Questions
 
-### Q1: Dapatkah saya menggunakan Aspose.Note untuk Java untuk mengubah revisi halaman?
+**Q1: Can I use Aspose.Note for Java to modify page revisions?**  
+A1: Tidak, API saat ini hanya mendukung akses read‑only ke revisi halaman.
 
-A1: Tidak, Aspose.Note untuk Java saat ini mendukung pengambilan revisi halaman tetapi tidak memodifikasinya.
+**Q2: Is Aspose.Note for Java compatible with different versions of OneNote documents?**  
+A2: Ya, ia bekerja dengan berbagai format file OneNote, memungkinkan pemrosesan mulus di semua versi.
 
-### Q2: Apakah Aspose.Note untuk Java kompatibel dengan versi dokumen OneNote yang berbeda?
+**Q3: Does Aspose.Note for Java require a license to use?**  
+A3: Lisensi komersial diperlukan untuk penggunaan produksi, namun lisensi evaluasi sementara tersedia untuk pengujian.
 
-A2: Ya, Aspose.Note untuk Java mendukung berbagai versi dokumen OneNote, memungkinkan Anda bekerja dengan format file berbeda secara lancar.
+**Q4: Can I seek support if I encounter any issues while using Aspose.Note for Java?**  
+A4: Ya, Anda dapat mengajukan pertanyaan di forum Aspose.Note [here](https://forum.aspose.com/c/note/28).
 
-### Q3: Apakah Aspose.Note untuk Java memerlukan lisensi untuk digunakan?
+**Q5: Is there a free trial available for Aspose.Note for Java?**  
+A5: Ya, Anda dapat mengunduh trial gratis dari [website](https://releases.aspose.com/).
 
-A3: Ya, Anda perlu membeli lisensi untuk menggunakan Aspose.Note untuk Java dalam proyek komersial. Namun, Anda juga bisa mendapatkan lisensi sementara untuk tujuan evaluasi.
+---
 
-### Q4: Dapatkah saya mencari dukungan jika saya mengalami masalah apa pun saat menggunakan Aspose.Note untuk Java?
+**Last Updated:** 2026-01-10  
+**Tested With:** Aspose.Note for Java (latest release)  
+**Author:** Aspose  
 
- A4: Ya, Anda dapat mencari dukungan dari forum Aspose.Note[Di Sini](https://forum.aspose.com/c/note/28).
-
-### Q5: Apakah tersedia uji coba gratis untuk Aspose.Note untuk Java?
-
- A5: Ya, Anda dapat mengakses uji coba gratis Aspose.Note untuk Java dari[situs web](https://releases.aspose.com/).
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

@@ -158,7 +158,7 @@ A: Nie. Aspose.Note jest czystą biblioteką Java i działa na każdym systemie 
 A: Odwiedź oficjalną stronę Aspose lub Maven Central Repository, aby pobrać najnowsze wydanie.
 
 **Ostatnia aktualizacja:** 2025-12-11  
-**Testowano z:** Aspose.Note 24.12 for Java  
+**Testowano z:** Aspose.Note 26.4 for Java  
 **Autor:** Aspose  
 
 {{< /blocks/products/pf/tutorial-page-section >}}

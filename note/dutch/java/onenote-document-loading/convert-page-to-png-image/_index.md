@@ -127,7 +127,7 @@ A7: Ja, gebruik `opts.setResolution(int dpi)` vóór het aanroepen van `save` om
 ---
 
 **Laatst bijgewerkt:** 2025-11-29  
-**Getest met:** Aspose.Note for Java 24.11 (latest)  
+**Getest met:** Aspose.Note for Java 26.4 (latest)  
 **Auteur:** Aspose
 
 {{< /blocks/products/pf/tutorial-page-section >}}

@@ -108,7 +108,7 @@ A5: Ja, Sie können die Funktionen von Aspose.Note für Java mit einer kostenlos
 ---
 
 **Zuletzt aktualisiert:** 2025-12-09  
-**Getestet mit:** Aspose.Note for Java 24.12 (latest at time of writing)  
+**Getestet mit:** Aspose.Note for Java 26.4 (latest at time of writing)  
 **Autor:** Aspose  
 
 {{< /blocks/products/pf/tutorial-page-section >}}

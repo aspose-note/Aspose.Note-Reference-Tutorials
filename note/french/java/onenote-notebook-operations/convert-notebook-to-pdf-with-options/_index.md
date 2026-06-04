@@ -45,7 +45,7 @@ Pour convertir un bloc-notes en PDF, vous devez d'abord charger le bloc-notes On
 ```java
 String dataDir = "Your Document Directory";
 // Charger un bloc-notes OneNote
-Notebook notebook = new Notebook(dataDir + "Notizbuch �ffnen.onetoc2");
+Notebook notebook = new Notebook(dataDir + "Notebook.onetoc2");
 ```
 
 ## Étape 2 : Spécifier les options d'enregistrement PDF

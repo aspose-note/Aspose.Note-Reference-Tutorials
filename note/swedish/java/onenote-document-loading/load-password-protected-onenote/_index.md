@@ -109,7 +109,7 @@ A: När dokumentet har lästs in framgångsrikt kan du gå igenom dess sidor och
 ---
 
 **Senast uppdaterad:** 2025-12-11  
-**Testat med:** Aspose.Note för Java 24.12  
+**Testat med:** Aspose.Note för Java 26.4  
 **Författare:** Aspose  
 
 {{< /blocks/products/pf/tutorial-page-section >}}

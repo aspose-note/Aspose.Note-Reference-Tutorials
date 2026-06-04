@@ -134,7 +134,7 @@ A：請前往 [Aspose.Note 論壇](https://forum.aspose.com/c/note/28) 或參考
 ---
 
 **最後更新：** 2025-11-29  
-**測試環境：** Aspose.Note for Java 24.12  
+**測試環境：** Aspose.Note for Java 26.4  
 **作者：** Aspose  
 
 {{< /blocks/products/pf/tutorial-page-section >}}

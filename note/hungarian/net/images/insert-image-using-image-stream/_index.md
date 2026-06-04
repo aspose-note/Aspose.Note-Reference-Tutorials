@@ -54,8 +54,8 @@ Létrehozunk egy új oldalobjektumot, hogy tartalmat adjunk hozzá.
 
 ## 3. lépés: Inicializálja az Outline és OutlineElement objektumokat
 ```csharp
-Outline outline1 = new Outline(doc);
-OutlineElement outlineElem1 = new OutlineElement(doc);
+Outline outline1 = new Outline();
+OutlineElement outlineElem1 = new OutlineElement();
 ```
 Létrehozzuk az Outline és OutlineElement osztályok példányait, hogy strukturáljuk tartalmainkat az oldalon.
 

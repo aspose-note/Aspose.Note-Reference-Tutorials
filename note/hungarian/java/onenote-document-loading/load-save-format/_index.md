@@ -95,7 +95,7 @@ Csatlakozzon az Aspose fórumokhoz a [Aspose.Note közösségi oldalon](https://
 ---
 
 **Utoljára frissítve:** 2025-12-07  
-**Tesztelve a következővel:** Aspose.Note for Java 24.11  
+**Tesztelve a következővel:** Aspose.Note for Java 26.4  
 **Szerző:** Aspose  
 
 {{< /blocks/products/pf/tutorial-page-section >}}

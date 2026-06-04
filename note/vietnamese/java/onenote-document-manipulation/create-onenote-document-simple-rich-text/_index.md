@@ -196,7 +196,7 @@ Bạn đã thấy cách **đặt kiểu đoạn văn**, **thêm outline element*
 ---
 
 **Cập nhật lần cuối:** 2025-12-08  
-**Đã kiểm tra với:** Aspose.Note for Java 24.11 (phiên bản mới nhất)  
+**Đã kiểm tra với:** Aspose.Note for Java 26.4 (phiên bản mới nhất)  
 **Tác giả:** Aspose  
 
 {{< /blocks/products/pf/tutorial-page-section >}}

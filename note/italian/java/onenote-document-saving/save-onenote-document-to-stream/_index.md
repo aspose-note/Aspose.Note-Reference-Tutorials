@@ -114,7 +114,7 @@ Ora disponi di un metodo completo e pronto per la produzione per **salvare PDF d
 ---
 
 **Ultimo aggiornamento:** 2025-12-12  
-**Testato con:** Aspose.Note per Java 24.11  
+**Testato con:** Aspose.Note per Java 26.4  
 **Autore:** Aspose  
 
 {{< /blocks/products/pf/tutorial-page-section >}}

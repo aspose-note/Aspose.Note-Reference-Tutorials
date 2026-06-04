@@ -126,7 +126,7 @@ A5: [temporary license page](https://purchase.aspose.com/temporary-license/) で
 ---
 
 **最終更新日:** 2025-12-05  
-**テスト環境:** Aspose.Note for Java 24.12（執筆時点での最新バージョン）  
+**テスト環境:** Aspose.Note for Java 26.4（執筆時点での最新バージョン）  
 **作者:** Aspose  
 
 {{< /blocks/products/pf/tutorial-page-section >}}

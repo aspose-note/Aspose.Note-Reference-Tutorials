@@ -127,7 +127,7 @@ R5: Las licencias temporales se proporcionan a través de la [página de licenci
 ---
 
 **Última actualización:** 2025-12-05  
-**Probado con:** Aspose.Note para Java 24.12 (última versión al momento de escribir)  
+**Probado con:** Aspose.Note para Java 26.4 (última versión al momento de escribir)  
 **Autor:** Aspose  
 
 {{< /blocks/products/pf/tutorial-page-section >}}

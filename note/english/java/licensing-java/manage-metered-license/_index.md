@@ -116,7 +116,7 @@ You now have a complete, production‑ready workflow to **convert OneNote to PDF
 ---
 
 **Last Updated:** 2025-11-28  
-**Tested With:** Aspose.Note for Java 24.12 (latest at time of writing)  
+**Tested With:** Aspose.Note for Java 26.4 (latest at time of writing)  
 **Author:** Aspose  
 
 {{< /blocks/products/pf/tutorial-page-section >}}

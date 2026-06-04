@@ -105,7 +105,7 @@ Trong hướng dẫn này, chúng tôi đã trình bày cách **how to save onen
 ---
 
 **Cập nhật lần cuối:** 2025-12-11  
-**Đã kiểm tra với:** Aspose.Note for Java 24.12 (latest)  
+**Đã kiểm tra với:** Aspose.Note for Java 26.4 (latest)  
 **Tác giả:** Aspose  
 
 {{< /blocks/products/pf/tutorial-page-section >}}

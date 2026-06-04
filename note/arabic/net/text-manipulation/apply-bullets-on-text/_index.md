@@ -41,7 +41,7 @@ Aspose.Note.Document doc = new Aspose.Note.Document();
 // تهيئة كائن فئة الصفحة
 Aspose.Note.Page page = new Aspose.Note.Page(doc);
 // تهيئة كائن فئة المخطط التفصيلي
-Outline outline = new Outline(doc);
+Outline outline = new Outline();
 ```
 ## الخطوة 3: تعيين نمط النص الافتراضي
 ```csharp
@@ -51,8 +51,8 @@ ParagraphStyle defaultStyle = new ParagraphStyle { FontColor = Color.Black, Font
 ## الخطوة 4: إنشاء عناصر المخطط التفصيلي باستخدام الرموز النقطية
 ```csharp
 // تهيئة كائنات فئة OutlineElement وتطبيق الرموز النقطية
-OutlineElement outlineElem1 = new OutlineElement(doc) { NumberList = new NumberList("*", "Arial", 10) };
-RichText text1 = new RichText(doc) { Text = "First", ParagraphStyle = defaultStyle };
+OutlineElement outlineElem1 = new OutlineElement() { NumberList = new NumberList("*", "Arial", 10) };
+RichText text1 = new RichText() { Text = "First", ParagraphStyle = defaultStyle };
 outlineElem1.AppendChildLast(text1);
 // كرر لعناصر المخطط التفصيلي الأخرى
 ```

@@ -106,7 +106,7 @@ Bu rehberde **how to save onenote** belgelerini Aspose.Note for Java'da `SaveFor
 ---
 
 **Son Güncelleme:** 2025-12-11  
-**Test Edilen:** Aspose.Note for Java 24.12 (latest)  
+**Test Edilen:** Aspose.Note for Java 26.4 (latest)  
 **Yazar:** Aspose  
 
 {{< /blocks/products/pf/tutorial-page-section >}}

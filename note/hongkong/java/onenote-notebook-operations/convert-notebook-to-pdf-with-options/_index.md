@@ -45,7 +45,7 @@ import com.aspose.note.PdfSaveOptions;
 ```java
 String dataDir = "Your Document Directory";
 //載入 OneNote 筆記本
-Notebook notebook = new Notebook(dataDir + "Notizbuch �ffnen.onetoc2");
+Notebook notebook = new Notebook(dataDir + "Notebook.onetoc2");
 ```
 
 ## 步驟 2：指定 PDF 儲存選項

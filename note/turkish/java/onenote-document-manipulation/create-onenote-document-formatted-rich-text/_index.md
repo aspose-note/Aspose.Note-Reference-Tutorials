@@ -169,7 +169,7 @@ Bu rehberde, Aspose.Note for Java kullanarak zengin metin biçimlendirmesi uygul
 ---
 
 **Son Güncelleme:** 2025-12-09  
-**Test Edilen Versiyon:** Aspose.Note for Java 24.11 (yazım zamanındaki en son sürüm)  
+**Test Edilen Versiyon:** Aspose.Note for Java 26.4 (yazım zamanındaki en son sürüm)  
 **Yazar:** Aspose  
 
 {{< /blocks/products/pf/tutorial-page-section >}}

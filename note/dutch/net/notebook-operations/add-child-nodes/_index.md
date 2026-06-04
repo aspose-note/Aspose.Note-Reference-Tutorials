@@ -47,7 +47,7 @@ Laad het bestaande notitieblok waaraan u een onderliggend knooppunt wilt toevoeg
 string dataDir = "Your Document Directory";
 
 // Laad een OneNote-notitieblok
-var notebook = new Notebook(dataDir + "Notizbuch �ffnen.onetoc2");
+var notebook = new Notebook(dataDir + "Notebook.onetoc2");
 ```
 
 ## Stap 2: Voeg een nieuw onderliggend knooppunt toe

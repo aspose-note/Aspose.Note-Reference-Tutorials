@@ -156,7 +156,7 @@ A: ไม่จำเป็น Aspose.Note เป็นไลบรารี Jav
 A: เยี่ยมชมเว็บไซต์ทางการของ Aspose หรือ Maven Central Repository เพื่อดาวน์โหลดรุ่นล่าสุด  
 
 **Last Updated:** 2025-12-11  
-**Tested With:** Aspose.Note 24.12 for Java  
+**Tested With:** Aspose.Note 26.4 for Java  
 **Author:** Aspose  
 
 {{< /blocks/products/pf/tutorial-page-section >}}

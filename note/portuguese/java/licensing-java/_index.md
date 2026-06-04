@@ -114,7 +114,7 @@ A: Não. A validação de créditos requer uma chamada online ao servidor de lic
 ---
 
 **Última atualização:** 2025-12-04  
-**Testado com:** Aspose.Note para Java 24.12 (mais recente na data da escrita)  
+**Testado com:** Aspose.Note para Java 26.4 (mais recente na data da escrita)  
 **Autor:** Aspose
 
 {{< /blocks/products/pf/tutorial-page-section >}}

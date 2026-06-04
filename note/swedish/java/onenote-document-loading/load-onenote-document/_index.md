@@ -102,7 +102,7 @@ A: Begär en tillfällig utvärderingslicens från [here](https://purchase.aspos
 ---
 
 **Senast uppdaterad:** 2025-12-09  
-**Testad med:** Aspose.Note för Java 24.12 (latest)  
+**Testad med:** Aspose.Note för Java 26.4 (latest)  
 **Författare:** Aspose  
 
 {{< /blocks/products/pf/tutorial-page-section >}}

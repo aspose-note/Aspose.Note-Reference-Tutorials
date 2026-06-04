@@ -41,7 +41,7 @@ using System.Text;
 
 ```csharp
 var document = new Document();
-var page = new Page(document);
+var page = new Page();
 ```
 
 ## 2단계: 하이퍼링크로 이미지 삽입
@@ -50,7 +50,7 @@ var page = new Page(document);
 
 ```csharp
 string imagePath = "path_to_your_image.jpg";
-var image = new Image(document, imagePath) { HyperlinkUrl = "http://example.com" };
+var image = new Image(imagePath) { HyperlinkUrl = "https://example.com" };
 ```
 
 ## 3단계: 페이지에 이미지 추가

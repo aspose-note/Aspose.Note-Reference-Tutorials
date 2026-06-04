@@ -49,7 +49,7 @@ Visual Studio を使用して開発環境をセットアップし、Aspose.Note 
 ```csharp
 string dataDir = "Your Document Directory";
 
-FileStream stream = new FileStream(dataDir + "Notizbuch öffnen.onetoc2", FileMode.Open);
+FileStream stream = new FileStream(dataDir + "Notebook.onetoc2", FileMode.Open);
 ```
 
 ## ステップ 3: ノートブック オブジェクトを初期化する

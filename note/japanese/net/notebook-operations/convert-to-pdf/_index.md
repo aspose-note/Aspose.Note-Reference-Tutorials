@@ -45,7 +45,7 @@ using System.Collections.Generic;
 string dataDir = "Your Document Directory";
 
 // OneNote ノートブックをロードする
-var notebook = new Notebook(dataDir + "Notizbuch öffnen.onetoc2");
+var notebook = new Notebook(dataDir + "Notebook.onetoc2");
 ```
 
 このステップでは、ノートブック ファイルが配置されているディレクトリを指定し、それをアプリケーションにロードします。`Notebook` Aspose.Note によって提供されるクラス。

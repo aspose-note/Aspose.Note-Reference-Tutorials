@@ -1,37 +1,54 @@
 ---
-title: OneNote でページのリビジョンを取得する - Aspose.Note
-linktitle: OneNote でページのリビジョンを取得する - Aspose.Note
+date: 2026-01-10
+description: Aspose.Note for Java を使用して OneNote ページの最終更新時刻の取得方法とリビジョンの取得方法を学びましょう。これを
+  Java アプリに統合して、効率的なドキュメント管理を実現してください。
+linktitle: Get Revisions of Pages in OneNote - Aspose.Note
 second_title: Aspose.Note Java API
-description: Aspose.Note Java を使用して OneNote ドキュメント内のページのリビジョンを取得する方法を学習します。これを Java アプリに統合して、効率的なドキュメント管理を実現します。
-weight: 15
+title: OneNoteページの最終更新日時を取得する方法 – Aspose.Note
 url: /ja/java/onenote-page-manipulation/get-revisions-of-pages/
+weight: 15
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# OneNote でページのリビジョンを取得する - Aspose.Note
+# OneNote のページのリビジョン取得 - Aspose.Note
 
-## 導入
+## Introduction
 
-このチュートリアルでは、Java アプリケーションで Microsoft OneNote ファイルをシームレスに操作できるようにする強力なライブラリである Aspose.Note for Java の機能を詳しく説明します。具体的には、OneNote ドキュメント内のページのリビジョンを取得する方法に焦点を当てます。このガイドを終えると、最終変更時刻、作成時刻、タイトル、レベル、作成者などの詳細を含む、ページ リビジョンを効率的に抽出するための知識が身につくでしょう。
+このチュートリアルでは、OneNote ドキュメント内のページの **最終更新時刻** を取得し、Aspose.Note for Java を使用して完全なリビジョン履歴を取得する方法を解説します。ドキュメント管理システムの構築、変更の監査、または単にページが最後に編集された時刻を表示したい場合でも、本ガイドはプログラムで情報を抽出する手順を正確に示します。
 
-## 前提条件
+## Quick Answers
+- **「最終更新時刻を取得する」 は何を返しますか？** OneNote ページで最後に行われた編集のタイムスタンプを返します。  
+- **どのクラスがリビジョン履歴を提供しますか？** `Document.getPageHistory(Page)` で取得できる `PageHistory` クラスです。  
+- **この機能を使用するのにライセンスは必要ですか？** はい、商用利用には有効な Aspose.Note ライセンスが必要です。  
+- **サポートされている Java バージョンは？** Java 8 以上 (JDK 8+) がサポートされています。  
+- **作者でリビジョンをフィルタリングできますか？** 各 `Page` オブジェクトの `Author` プロパティを取得し、独自にフィルタを適用できます。
 
-このチュートリアルに進む前に、次の前提条件が設定されていることを確認してください。
+## What is “get last modified time” in OneNote?
 
-### Java 開発キット (JDK) がインストールされている
+**最終更新時刻** は、各ページに保存されるメタデータフィールドで、ページが最後に変更された日時を記録します。Aspose.Note はこの値を `Page.getLastModifiedTime()` メソッドで公開しており、変更日付の表示やログ記録が簡単に行えます。
 
-システムに Java Development Kit がインストールされていることを確認してください。 Oracle Web サイトからダウンロードしてインストールするか、Unix ベースのシステムを使用している場合はパッケージ マネージャーを使用できます。
+## Why retrieve page revisions?
 
-### Java ライブラリの Aspose.Note
+- **監査トレイル:** 誰が何をいつ変更したかの記録を保持します。  
+- **バージョン比較:** 2 つのリビジョンを並べて比較する機能を構築できます。  
+- **ユーザーコラボレーションの洞察:** 共有ノートブックでの編集パターンを把握できます。  
 
- Web サイトから Aspose.Note for Java ライブラリをダウンロードしてインストールします。ダウンロードリンクが見つかります[ここ](https://releases.aspose.com/note/java/)。ドキュメントに記載されているインストール手順に従ってください[ここ](https://reference.aspose.com/note/java/).
+## Prerequisites
 
-## パッケージのインポート
+開始する前に、以下が揃っていることを確認してください。
 
-まず、必要なパッケージを Java プロジェクトにインポートします。これらのパッケージを使用すると、Aspose.Note for Java が提供する機能を利用できるようになります。
+### Java Development Kit (JDK) Installed
+Oracle のウェブサイトまたはお好みのパッケージマネージャーから JDK 8 以降をインストールします。
+
+### Aspose.Note for Java Library
+公式サイトからライブラリをダウンロードします。ダウンロードリンクは **[here](https://releases.aspose.com/note/java/)** にあります。インストール手順はドキュメントの **[here](https://reference.aspose.com/note/java/)** を参照してください。
+
+## Import Packages
+
+まず、Java プロジェクトに必要なパッケージをインポートします。これらのパッケージにより、Aspose.Note for Java が提供する機能を利用できます。
 
 ```java
 import java.io.IOException;
@@ -41,43 +58,40 @@ import com.aspose.note.Page;
 import com.aspose.note.PageHistory;
 ```
 
-ここで、提供されているサンプル コードを複数のステップに分けて、各コンポーネントとその機能を理解しましょう。
+次に、提供されたサンプルコードを複数のステップに分解し、各コンポーネントとその機能を理解しましょう。
 
-## ステップ 1: ドキュメント ディレクトリを設定する
+## How to Get Last Modified Time of a OneNote Page
 
-OneNote ドキュメントが配置されるディレクトリを定義します。
+### Step 1: Set Document Directory
+OneNote ドキュメントが格納されているディレクトリを定義します。
 
 ```java
 String dataDir = "Your Document Directory";
 ```
 
-## ステップ 2: ドキュメントをロードする
-
-OneNote ドキュメントを Aspose.Note に読み込みます。
+### Step 2: Load the Document
+OneNote ドキュメントを Aspose.Note にロードします。
 
 ```java
 Document doc = new Document(dataDir + "Sample1.one");
 ```
 
-## ステップ 3: 最初のページを取得する
-
+### Step 3: Get First Page
 ドキュメントから最初のページを取得します。
 
 ```java
 Page firstPage = doc.getFirstChild();
 ```
 
-## ステップ 4: ページのリビジョンを取得する
-
-ページの更新履歴を取得します。
+### Step 4: Get Page Revisions
+ページのリビジョン履歴を取得します。
 
 ```java
 PageHistory revisions = doc.getPageHistory(firstPage);
 ```
 
-## ステップ 5: ページの改訂を確認する
-
-ページ リビジョンのリストを繰り返し処理し、関連情報を取得します。
+### Step 5: Traverse Page Revisions
+ページリビジョンのリストを走査し、**最終更新時刻** を含む関連情報を取得します。
 
 ```java
 for (Page pageRevision : revisions) {
@@ -90,31 +104,34 @@ for (Page pageRevision : revisions) {
 }
 ```
 
-## 結論
+## Common Issues and Solutions
+- **`PageHistory` が null:** ドキュメントにリビジョンが実際に含まれているか確認してください。含まれていない場合、`getPageHistory` は `null` を返すことがあります。  
+- **タイムゾーンの違い:** `getLastModifiedTime()` はシステムのデフォルトタイムゾーンで `java.util.Date` を返します。必要に応じて UTC に変換してください。  
+- **ライセンスがロードされていない:** 有効なライセンスがない場合、Aspose.Note は評価モードで動作し、処理できるページ数が制限されます。
 
-このチュートリアルでは、Aspose.Note for Java を使用して OneNote ドキュメント内のページのリビジョンを取得する方法を説明しました。ステップバイステップのガイドに従い、提供されているサンプル コードを活用すると、この機能を Java アプリケーションに簡単に統合でき、OneNote ファイルを効率的に管理できるようになります。
+## Frequently Asked Questions
 
-## よくある質問
+### Q1: Can I use Aspose.Note for Java to create new OneNote documents?
+A1: はい、Aspose.Note for Java はプログラムから OneNote ドキュメントの作成、読み取り、操作を包括的にサポートします。
 
-### Q1: Aspose.Note for Java を使用して新しい OneNote ドキュメントを作成できますか?
+### Q2: Is Aspose.Note for Java compatible with different versions of OneNote files?
+A2: はい、Aspose.Note for Java はさまざまなバージョンの Microsoft OneNote ファイルに対応しており、異なる環境間での互換性を確保します。
 
-A1: はい、Aspose.Note for Java は、OneNote ドキュメントをプログラムで作成、読み取り、操作するための包括的なサポートを提供します。
+### Q3: Can I customize the output format when exporting OneNote documents?
+A3: もちろんです。Aspose.Note for Java は PDF、HTML、画像など複数の形式へのエクスポートを柔軟にカスタマイズできるオプションを提供します。
 
-### Q2: Aspose.Note for Java は、さまざまなバージョンの OneNote ファイルと互換性がありますか?
+### Q4: Does Aspose.Note for Java require a license for commercial use?
+A4: はい、商用利用には有効なライセンスが必要です。ライセンスは Aspose のウェブサイトから取得できます。
 
-A2: はい、Aspose.Note for Java はさまざまなバージョンの Microsoft OneNote ファイルをサポートしており、さまざまな環境間での互換性が確保されています。
+### Q5: Where can I seek assistance if I encounter issues or have questions about Aspose.Note for Java?
+A5: サポートや質問は Aspose.Note フォーラム **[here](https://forum.aspose.com/c/note/28)** で受け付けています。質問の投稿や経験の共有、他のユーザーやエキスパートとの交流が可能です。
 
-### Q3: OneNote ドキュメントをエクスポートするときに出力形式をカスタマイズできますか?
+---
 
-A3: もちろん、Aspose.Note for Java は、OneNote ドキュメントを PDF、HTML、画像などのさまざまな形式に柔軟にエクスポートでき、カスタマイズのオプションも提供します。
+**Last Updated:** 2026-01-10  
+**Tested With:** Aspose.Note for Java 23.12 (latest at time of writing)  
+**Author:** Aspose  
 
-### Q4: Aspose.Note for Java を商用利用するにはライセンスが必要ですか?
-
-A4: はい、Aspose.Note for Java を商用利用するには有効なライセンスが必要です。ライセンスは、Aspose Web サイトから取得できます。
-
-### Q5: Aspose.Note for Java に関して問題が発生したり質問がある場合は、どこに問い合わせればよいですか?
-
- A5: サポートと支援が必要な場合は、Aspose.Note フォーラムにアクセスしてください。[ここ](https://forum.aspose.com/c/note/28)、質問したり、経験を共有したり、他のユーザーや専門家と交流したりできます。
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

@@ -61,7 +61,7 @@ Aspose.Note.Page page = new Aspose.Note.Page(doc);
 ## Etapa 3: inicializar o objeto Outline
 
 ```csharp
-Outline outline = new Outline(doc);
+Outline outline = new Outline();
 ```
 
  O`Outline`classe representa um nó de estrutura de tópicos na hierarquia do documento. Criamos um novo objeto de contorno para estruturar nosso documento.
@@ -69,7 +69,7 @@ Outline outline = new Outline(doc);
 ## Etapa 4: inicializar o objeto OutlineElement
 
 ```csharp
-OutlineElement outlineElem = new OutlineElement(doc);
+OutlineElement outlineElem = new OutlineElement();
 ```
 
  Um`OutlineElement` representa um elemento dentro de um contorno. Aqui, criamos um novo elemento de estrutura de tópicos para adicionar conteúdo ao nosso documento.

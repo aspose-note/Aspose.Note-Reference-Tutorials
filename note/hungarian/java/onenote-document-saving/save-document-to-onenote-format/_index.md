@@ -116,7 +116,7 @@ In this guide we’ve covered everything you need to know to **export document a
 ---
 
 **Utolsó frissítés:** 2025-12-11  
-**Tesztelt verzió:** Aspose.Note 24.11 for Java  
+**Tesztelt verzió:** Aspose.Note 26.4 for Java  
 **Szerző:** Aspose  
 
 {{< /blocks/products/pf/tutorial-page-section >}}

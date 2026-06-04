@@ -44,7 +44,7 @@ using System.Collections.Generic;
 string dataDir = "Your Document Directory";
 
 // Załaduj notatnik programu OneNote
-var notebook = new Notebook(dataDir + "Notizbuch �ffnen.onetoc2");
+var notebook = new Notebook(dataDir + "Notebook.onetoc2");
 ```
 
  Na tym etapie ładujemy Notatnik programu OneNote przy użyciu pliku`Notebook` klasa dostarczona przez Aspose.Note.

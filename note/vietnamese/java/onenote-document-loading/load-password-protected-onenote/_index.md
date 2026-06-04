@@ -109,7 +109,7 @@ A: Có. API không phụ thuộc vào nền tảng và hoạt động tốt tron
 A: Khi tài liệu được tải thành công, bạn có thể duyệt các trang và trích xuất hình ảnh bằng API chuẩn của Aspose.Note.
 
 **Cập nhật lần cuối:** 2025-12-11  
-**Được kiểm tra với:** Aspose.Note cho Java 24.12  
+**Được kiểm tra với:** Aspose.Note cho Java 26.4  
 **Tác giả:** Aspose  
 
 {{< /blocks/products/pf/tutorial-page-section >}}

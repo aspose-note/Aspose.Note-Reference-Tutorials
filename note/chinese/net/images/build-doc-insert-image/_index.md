@@ -61,7 +61,7 @@ Aspose.Note.Page page = new Aspose.Note.Page(doc);
 ## 第三步：初始化大纲对象
 
 ```csharp
-Outline outline = new Outline(doc);
+Outline outline = new Outline();
 ```
 
 这`Outline`class 表示文档层次结构中的大纲节点。我们创建一个新的大纲对象来构建我们的文档。
@@ -69,7 +69,7 @@ Outline outline = new Outline(doc);
 ## 步骤 4：初始化 OutlineElement 对象
 
 ```csharp
-OutlineElement outlineElem = new OutlineElement(doc);
+OutlineElement outlineElem = new OutlineElement();
 ```
 
 一个`OutlineElement`表示轮廓内的元素。在这里，我们创建一个新的大纲元素来将内容添加到我们的文档中。

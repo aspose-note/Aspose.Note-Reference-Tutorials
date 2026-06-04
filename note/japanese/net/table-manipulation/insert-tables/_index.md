@@ -47,10 +47,10 @@ Aspose.Note.Page page = new Aspose.Note.Page(doc);
 
 次に、テーブルの行とセルを初期化してテーブルを構造化します。
 ```csharp
-TableRow row1 = new TableRow(doc);
-TableCell cell11 = new TableCell(doc);
-TableCell cell12 = new TableCell(doc);
-TableCell cell13 = new TableCell(doc);
+TableRow row1 = new TableRow();
+TableCell cell11 = new TableCell();
+TableCell cell12 = new TableCell();
+TableCell cell13 = new TableCell();
 ```
 
 ## ステップ 3: 表のセルにデータを入力する
@@ -75,7 +75,7 @@ row1.AppendChildLast(cell13);
 
 テーブル オブジェクトを作成し、境界線の表示設定や列の幅などのプロパティを設定します。
 ```csharp
-Table table = new Table(doc)
+Table table = new Table()
 {
     IsBordersVisible = true,
     Columns = { new TableColumn { Width = 200 }, new TableColumn { Width = 200 }, new TableColumn { Width = 200 } }
@@ -94,8 +94,8 @@ table.AppendChildLast(row2);
 
 表をアウトラインに追加して、文書構造に組み込みます。
 ```csharp
-Outline outline = new Outline(doc);
-OutlineElement outlineElem = new OutlineElement(doc);
+Outline outline = new Outline();
+OutlineElement outlineElem = new OutlineElement();
 outlineElem.AppendChildLast(table);
 outline.AppendChildLast(outlineElem);
 page.AppendChildLast(outline);

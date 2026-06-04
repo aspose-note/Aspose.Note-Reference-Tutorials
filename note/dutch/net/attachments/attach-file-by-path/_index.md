@@ -66,7 +66,7 @@ Aspose.Note.Page page = new Aspose.Note.Page(doc);
 ### Stap 3: Initialiseer het omtrekobject
 
 ```csharp
-Outline outline = new Outline(doc);
+Outline outline = new Outline();
 ```
 
  Een`Outline` Er wordt een object gemaakt om de inhoud op de pagina te ordenen.
@@ -74,7 +74,7 @@ Outline outline = new Outline(doc);
 ### Stap 4: Initialiseer het OutlineElement-object
 
 ```csharp
-OutlineElement outlineElem = new OutlineElement(doc);
+OutlineElement outlineElem = new OutlineElement();
 ```
 
 `OutlineElement` vertegenwoordigt een element binnen de omtrekstructuur.
@@ -82,7 +82,7 @@ OutlineElement outlineElem = new OutlineElement(doc);
 ### Stap 5: Initialiseer het AttachedFile-object
 
 ```csharp
-AttachedFile attachedFile = new AttachedFile(doc,  dataDir + "attachment.txt");
+AttachedFile attachedFile = new AttachedFile(dataDir + "attachment.txt");
 ```
 
  Hier maken we een exemplaar van`AttachedFile`, waarbij u het pad opgeeft naar het bestand dat we willen bijvoegen.

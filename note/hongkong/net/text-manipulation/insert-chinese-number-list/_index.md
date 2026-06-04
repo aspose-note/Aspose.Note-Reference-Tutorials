@@ -37,7 +37,7 @@ Aspose.Note.Document doc = new Aspose.Note.Document();
 ## 步驟2：初始化OneNote頁面
 ```csharp
 Aspose.Note.Page page = new Aspose.Note.Page(doc);
-Outline outline = new Outline(doc);
+Outline outline = new Outline();
 ```
 ## 第 3 步：套用文字樣式設定
 ```csharp
@@ -47,20 +47,20 @@ ParagraphStyle defaultStyle = new ParagraphStyle { FontColor = Color.Black, Font
 現在，讓我們用中文數字清單建立三個大綱元素：
 ### 步驟 4.1：第一個元素
 ```csharp
-OutlineElement outlineElem1 = new OutlineElement(doc) { NumberList = new NumberList("{0})", NumberFormat.ChineseCounting, "Arial", 10) };
-RichText text1 = new RichText(doc) { Text = "First", ParagraphStyle = defaultStyle };
+OutlineElement outlineElem1 = new OutlineElement() { NumberList = new NumberList("{0})", NumberFormat.ChineseCounting, "Arial", 10) };
+RichText text1 = new RichText() { Text = "First", ParagraphStyle = defaultStyle };
 outlineElem1.AppendChildLast(text1);
 ```
 ### 步驟 4.2：第二個元素
 ```csharp
-OutlineElement outlineElem2 = new OutlineElement(doc) { NumberList = new NumberList("{0})", NumberFormat.ChineseCounting, "Arial", 10) };
-RichText text2 = new RichText(doc) { Text = "Second", ParagraphStyle = defaultStyle };
+OutlineElement outlineElem2 = new OutlineElement() { NumberList = new NumberList("{0})", NumberFormat.ChineseCounting, "Arial", 10) };
+RichText text2 = new RichText() { Text = "Second", ParagraphStyle = defaultStyle };
 outlineElem2.AppendChildLast(text2);
 ```
 ### 步驟 4.3：第三個元素
 ```csharp
-OutlineElement outlineElem3 = new OutlineElement(doc) { NumberList = new NumberList("{0})", NumberFormat.ChineseCounting, "Arial", 10) };
-RichText text3 = new RichText(doc) { Text = "Third", ParagraphStyle = defaultStyle };
+OutlineElement outlineElem3 = new OutlineElement() { NumberList = new NumberList("{0})", NumberFormat.ChineseCounting, "Arial", 10) };
+RichText text3 = new RichText() { Text = "Third", ParagraphStyle = defaultStyle };
 outlineElem3.AppendChildLast(text3);
 ```
 ## 第 5 步：將元素附加到大綱中

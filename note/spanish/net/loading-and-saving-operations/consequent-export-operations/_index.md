@@ -59,11 +59,11 @@ Defina el título de la página junto con la información de fecha y hora:
 
 ```csharp
 ParagraphStyle textStyle = new ParagraphStyle { FontColor = Color.Black, FontName = "Arial", FontSize = 10 };
-page.Title = new Title(doc)
+page.Title = new Title()
 {
-    TitleText = new RichText(doc) { Text = "Title text.", ParagraphStyle = textStyle },
-    TitleDate = new RichText(doc) { Text = new DateTime(2011, 11, 11).ToString("D", CultureInfo.InvariantCulture), ParagraphStyle = textStyle },
-    TitleTime = new RichText(doc) { Text = "12:34", ParagraphStyle = textStyle }
+    TitleText = new RichText() { Text = "Title text.", ParagraphStyle = textStyle },
+    TitleDate = new RichText() { Text = new DateTime(2011, 11, 11).ToString("D", CultureInfo.InvariantCulture), ParagraphStyle = textStyle },
+    TitleTime = new RichText() { Text = "12:34", ParagraphStyle = textStyle }
 };
 ```
 

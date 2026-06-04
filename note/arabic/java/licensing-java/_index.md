@@ -115,7 +115,7 @@ weight: 24
 ---
 
 **آخر تحديث:** 2025-12-04  
-**تم الاختبار مع:** Aspose.Note for Java 24.12 (أحدث نسخة عند كتابة هذا الدليل)  
+**تم الاختبار مع:** Aspose.Note for Java 26.4 (أحدث نسخة عند كتابة هذا الدليل)  
 **المؤلف:** Aspose
 
 {{< /blocks/products/pf/tutorial-page-section >}}

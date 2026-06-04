@@ -51,8 +51,8 @@ Aspose.Note.Page page = new Aspose.Note.Page(doc);
  Στη συνέχεια, αρχικοποίηση`Outline` και`OutlineElement` αντικείμενα:
 
 ```csharp
-Outline outline = new Outline(doc);
-OutlineElement outlineElem = new OutlineElement(doc);
+Outline outline = new Outline();
+OutlineElement outlineElem = new OutlineElement();
 ```
 
 ## Βήμα 3: Φόρτωση και εισαγωγή εικόνας

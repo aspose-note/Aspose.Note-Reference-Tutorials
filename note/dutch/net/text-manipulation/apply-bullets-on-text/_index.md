@@ -41,7 +41,7 @@ Aspose.Note.Document doc = new Aspose.Note.Document();
 // Initialiseer het Page-klasseobject
 Aspose.Note.Page page = new Aspose.Note.Page(doc);
 // Initialiseer het Outline-klasseobject
-Outline outline = new Outline(doc);
+Outline outline = new Outline();
 ```
 ## Stap 3: Stel de standaardtekststijl in
 ```csharp
@@ -51,8 +51,8 @@ ParagraphStyle defaultStyle = new ParagraphStyle { FontColor = Color.Black, Font
 ## Stap 4: Maak overzichtselementen met opsommingstekens
 ```csharp
 // Initialiseer de klasseobjecten van OutlineElement en pas kogels toe
-OutlineElement outlineElem1 = new OutlineElement(doc) { NumberList = new NumberList("*", "Arial", 10) };
-RichText text1 = new RichText(doc) { Text = "First", ParagraphStyle = defaultStyle };
+OutlineElement outlineElem1 = new OutlineElement() { NumberList = new NumberList("*", "Arial", 10) };
+RichText text1 = new RichText() { Text = "First", ParagraphStyle = defaultStyle };
 outlineElem1.AppendChildLast(text1);
 // Herhaal dit voor andere overzichtselementen
 ```

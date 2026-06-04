@@ -162,7 +162,7 @@ A: Visite o [forum Aspose.Note](https://forum.aspose.com/c/note/28) para ajuda d
 ---
 
 **Última Atualização:** 2025-12-02  
-**Testado com:** Aspose.Note for Java 24.12 (mais recente no momento da escrita)  
+**Testado com:** Aspose.Note for Java 26.4 (mais recente no momento da escrita)  
 **Autor:** Aspose  
 
 {{< /blocks/products/pf/tutorial-page-section >}}

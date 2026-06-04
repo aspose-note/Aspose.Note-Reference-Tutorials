@@ -58,7 +58,7 @@ OutlineElement outlineElem = new OutlineElement();
 ## चरण 5: छवि लोड करें और डालें
 ```java
 // एक छवि लोड करें
-Image image = new Image(null, dataDir + "Input.jpg");
+Image image = new Image(dataDir + "Input.jpg");
 // दस्तावेज़ नोड में छवि डालें
 outlineElem.appendChildLast(image);
 ```

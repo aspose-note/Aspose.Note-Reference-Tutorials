@@ -88,7 +88,7 @@ OutlineElement outlineElem = new OutlineElement();
 *(This step demonstrates **insert image into OneNote**)*  
 ```java
 // load an image
-Image image = new Image(null, dataDir + "Input.jpg");
+Image image = new Image(dataDir + "Input.jpg");
 // insert image in the document node
 outlineElem.appendChildLast(image);
 ```

@@ -49,7 +49,7 @@ Document doc = new Document();
 Bir TableCell nesnesi oluşturun ve metin içeriğini arka plan rengiyle birlikte ayarlayın:
 
 ```csharp
-TableCell cell11 = new TableCell(doc);
+TableCell cell11 = new TableCell();
 cell11.AppendChildLast(InsertTable.GetOutlineElementWithText(doc, "Small text"));
 cell11.BackgroundColor = Color.Coral;
 ```
@@ -59,7 +59,7 @@ cell11.BackgroundColor = Color.Coral;
 Bir TableRow nesnesini başlatın ve önceden oluşturulan hücreyi ekleyin:
 
 ```csharp
-TableRow row = new TableRow(doc);
+TableRow row = new TableRow();
 row.AppendChildLast(cell11);
 ```
 
@@ -68,7 +68,7 @@ row.AppendChildLast(cell11);
 Belirtilen sütunlara sahip bir tablo oluşturun ve kenarlıklarını görünür hale getirin:
 
 ```csharp
-Table table = new Table(doc)
+Table table = new Table()
 {
     IsBordersVisible = true,
     Columns = { new TableColumn() { Width = 200 } }
@@ -81,13 +81,13 @@ table.AppendChildLast(row);
 Bir anahat öğesi ve sayfa oluşturun ve tabloyu sayfaya ekleyin:
 
 ```csharp
-OutlineElement oe = new OutlineElement(doc);
+OutlineElement oe = new OutlineElement();
 oe.AppendChildLast(table);
 
-Outline o = new Outline(doc);
+Outline o = new Outline();
 o.AppendChildLast(oe);
 
-Page page = new Page(doc);
+Page page = new Page();
 page.AppendChildLast(o);
 
 doc.AppendChildLast(page);

@@ -45,7 +45,7 @@ using System.Collections.Generic;
 string dataDir = "Your Document Directory";
 
 // Загрузите записную книжку OneNote
-var notebook = new Notebook(dataDir + "Notizbuch öffnen.onetoc2");
+var notebook = new Notebook(dataDir + "Notebook.onetoc2");
 ```
 
  На этом этапе мы указываем каталог, в котором находится файл нашей записной книжки, и загружаем его в наше приложение, используя команду`Notebook` класс, предоставленный Aspose.Note.

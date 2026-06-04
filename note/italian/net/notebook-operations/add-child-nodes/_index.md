@@ -47,7 +47,7 @@ Carica il notebook esistente in cui desideri aggiungere un nodo figlio. Puoi far
 string dataDir = "Your Document Directory";
 
 // Carica un blocco appunti di OneNote
-var notebook = new Notebook(dataDir + "Notizbuch �ffnen.onetoc2");
+var notebook = new Notebook(dataDir + "Notebook.onetoc2");
 ```
 
 ## Passaggio 2: aggiungi un nuovo nodo figlio

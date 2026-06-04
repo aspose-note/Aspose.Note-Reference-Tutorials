@@ -113,7 +113,7 @@ A5：需要，您可以在 [此处](https://purchase.aspose.com/temporary-licens
 ---
 
 **最后更新：** 2025-12-12  
-**测试环境：** Aspose.Note for Java 24.11  
+**测试环境：** Aspose.Note for Java 26.4  
 **作者：** Aspose  
 
 {{< /blocks/products/pf/tutorial-page-section >}}

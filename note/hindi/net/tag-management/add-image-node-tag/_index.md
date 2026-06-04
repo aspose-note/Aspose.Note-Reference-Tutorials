@@ -51,8 +51,8 @@ Aspose.Note.Page page = new Aspose.Note.Page(doc);
  अगला, आरंभ करें`Outline` और`OutlineElement` वस्तुएं:
 
 ```csharp
-Outline outline = new Outline(doc);
-OutlineElement outlineElem = new OutlineElement(doc);
+Outline outline = new Outline();
+OutlineElement outlineElem = new OutlineElement();
 ```
 
 ## चरण 3: छवि लोड करें और डालें

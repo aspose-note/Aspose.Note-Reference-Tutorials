@@ -87,7 +87,7 @@ Grattis! Du har framgångsrikt skapat en tabell med låsta kolumner i OneNote me
 den här handledningen utforskade vi processen att använda Aspose.Note för Java för att förbättra din OneNote-upplevelse genom att skapa tabeller med låsta kolumner. Den här funktionen lägger till ett nytt lager av organisation och struktur till dina anteckningar.
 ## Vanliga frågor
 ### Är Aspose.Note for Java kompatibel med alla Java-versioner?
-Ja, Aspose.Note för Java är kompatibel med Java 6 och senare versioner.
+Ja, Aspose.Note för Java är kompatibel med Java SE 7 och senare versioner.
 ### Kan jag anpassa utseendet på bordet ytterligare?
 Absolut! Aspose.Note för Java tillhandahåller omfattande alternativ för att anpassa tabeller, som att justera kanter, cellavstånd och mer.
 ### Finns det en testversion innan köp?

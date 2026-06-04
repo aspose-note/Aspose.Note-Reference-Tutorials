@@ -37,7 +37,7 @@ Aspose.Note.Document doc = new Aspose.Note.Document();
 ## ขั้นตอนที่ 2: เริ่มต้นหน้า OneNote
 ```csharp
 Aspose.Note.Page page = new Aspose.Note.Page(doc);
-Outline outline = new Outline(doc);
+Outline outline = new Outline();
 ```
 ## ขั้นตอนที่ 3: ใช้การตั้งค่าสไตล์ข้อความ
 ```csharp
@@ -47,20 +47,20 @@ ParagraphStyle defaultStyle = new ParagraphStyle { FontColor = Color.Black, Font
 ตอนนี้ เรามาสร้างองค์ประกอบเค้าร่างสามองค์ประกอบด้วยรายการตัวเลขภาษาจีน:
 ### ขั้นตอนที่ 4.1: องค์ประกอบแรก
 ```csharp
-OutlineElement outlineElem1 = new OutlineElement(doc) { NumberList = new NumberList("{0})", NumberFormat.ChineseCounting, "Arial", 10) };
-RichText text1 = new RichText(doc) { Text = "First", ParagraphStyle = defaultStyle };
+OutlineElement outlineElem1 = new OutlineElement() { NumberList = new NumberList("{0})", NumberFormat.ChineseCounting, "Arial", 10) };
+RichText text1 = new RichText() { Text = "First", ParagraphStyle = defaultStyle };
 outlineElem1.AppendChildLast(text1);
 ```
 ### ขั้นตอนที่ 4.2: องค์ประกอบที่สอง
 ```csharp
-OutlineElement outlineElem2 = new OutlineElement(doc) { NumberList = new NumberList("{0})", NumberFormat.ChineseCounting, "Arial", 10) };
-RichText text2 = new RichText(doc) { Text = "Second", ParagraphStyle = defaultStyle };
+OutlineElement outlineElem2 = new OutlineElement() { NumberList = new NumberList("{0})", NumberFormat.ChineseCounting, "Arial", 10) };
+RichText text2 = new RichText() { Text = "Second", ParagraphStyle = defaultStyle };
 outlineElem2.AppendChildLast(text2);
 ```
 ### ขั้นตอนที่ 4.3: องค์ประกอบที่สาม
 ```csharp
-OutlineElement outlineElem3 = new OutlineElement(doc) { NumberList = new NumberList("{0})", NumberFormat.ChineseCounting, "Arial", 10) };
-RichText text3 = new RichText(doc) { Text = "Third", ParagraphStyle = defaultStyle };
+OutlineElement outlineElem3 = new OutlineElement() { NumberList = new NumberList("{0})", NumberFormat.ChineseCounting, "Arial", 10) };
+RichText text3 = new RichText() { Text = "Third", ParagraphStyle = defaultStyle };
 outlineElem3.AppendChildLast(text3);
 ```
 ## ขั้นตอนที่ 5: ผนวกองค์ประกอบเข้ากับโครงร่าง

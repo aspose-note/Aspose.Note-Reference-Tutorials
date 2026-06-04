@@ -50,7 +50,7 @@ Tout d’abord, chargez le fichier notebook que vous souhaitez convertir en imag
 string dataDir = "Your Document Directory";
 
 // Charger un bloc-notes OneNote
-var notebook = new Notebook(dataDir + "Notizbuch �ffnen.onetoc2");
+var notebook = new Notebook(dataDir + "Notebook.onetoc2");
 ```
 
 ## Étape 2 : définir les options d'enregistrement de l'image

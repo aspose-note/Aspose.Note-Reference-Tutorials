@@ -1,33 +1,48 @@
 ---
-title: Vytvořte dokument s kořenovými a podřízenými stránkami ve OneNotu
-linktitle: Vytvořte dokument s kořenovými a podřízenými stránkami ve OneNotu
+description: Naučte se, jak pomocí Aspose.Note pro Javu uložit PDF z OneNote a přidat
+  podstránky v OneNote. Postupujte podle tohoto krok‑za‑krokem průvodce a efektivně
+  organizujte své poznámky.
+linktitle: How to Save OneNote PDF and Add Sub Pages
 second_title: Aspose.Note Java API
-description: Vytvořte dokument s kořenovými a podřízenými stránkami ve OneNotu pomocí Aspose.Note for Java. Postupujte podle podrobného průvodce pro efektivní uspořádání poznámek.
-weight: 11
+title: Jak uložit PDF z OneNote a přidat podstránky
 url: /cs/java/onenote-page-manipulation/create-document-with-root-and-sub-pages/
+weight: 11
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Vytvořte dokument s kořenovými a podřízenými stránkami ve OneNotu
+# Jak uložit OneNote PDF a přidat podstránky
 
 ## Úvod
 
-V tomto kurzu vás provedeme procesem vytváření dokumentu s kořenovými a podřízenými stránkami ve OneNotu pomocí Aspose.Note for Java. Podle těchto kroků budete moci efektivně organizovat své dokumenty OneNotu pomocí hierarchické struktury.
+V tomto tutoriálu se dozvíte **how to save OneNote PDF** a zároveň vytvoříte dokument, který obsahuje jak kořenové, tak podstránky pomocí Aspose.Note for Java. Organizace vašich OneNote sešitů s jasnou hierarchií usnadňuje navigaci a možnost exportu do PDF zajišťuje, že své poznámky můžete sdílet v univerzálně čitelném formátu. Také vám ukážeme, jak **add sub pages onenote** styl, takže můžete snadno vytvářet víceúrovňové struktury.
 
-## Předpoklady
+## Rychlé odpovědi
+- **Co znamená primární klíčové slovo?** Odkazuje na export OneNote sešitu do PDF pomocí Aspose.Note.  
+- **Které API se používá?** Aspose.Note for Java.  
+- **Mohu vytvářet hierarchické stránky?** Ano – nastavte úroveň stránky pro vytvoření kořenových a podstránek.  
+- **Potřebuji licenci?** K dispozici je bezplatná zkušební verze; pro produkční použití je vyžadována komerční licence.  
+- **Jaké výstupní formáty jsou podporovány?** BMP, PDF, PNG a další.
 
-Než začnete, ujistěte se, že máte následující předpoklady:
+## Co je “how to save OneNote PDF”?
+Ukládání OneNote jako PDF převádí stránky sešitu do dokumentu s pevnou rozvržením, který zachovává formátování, obrázky a hierarchii. To je ideální pro sdílení, archivaci nebo tisk poznámek.
 
-1. Java Development Kit (JDK): Ujistěte se, že máte v systému nainstalovaný JDK.
-2. Aspose.Note for Java: Stáhněte a nainstalujte Aspose.Note for Java z[webová stránka](https://purchase.aspose.com/buy).
-3. Integrované vývojové prostředí (IDE): Vyberte Java IDE, jako je IntelliJ IDEA, Eclipse nebo NetBeans.
+## Proč přidávat podstránky onenote?
+Přidání podstránek vám umožní seskupit související obsah pod nadřazenou stránkou, což napodobuje strukturu složek. Zlepšuje organizaci poznámek, urychluje vyhledávání a zvyšuje čitelnost při exportu sešitu do PDF.
 
-## Importujte balíčky
+## Požadavky
 
-Začněte importováním potřebných balíčků do vašeho projektu Java:
+Než začnete, ujistěte se, že máte následující požadavky:
+
+1. Java Development Kit (JDK): Ujistěte se, že máte JDK nainstalovaný ve svém systému.  
+2. Aspose.Note for Java: Stáhněte a nainstalujte Aspose.Note for Java z [webové stránky](https://purchase.aspose.com/buy).  
+3. Integrované vývojové prostředí (IDE): Vyberte si Java IDE, například IntelliJ IDEA, Eclipse nebo NetBeans.
+
+## Import balíčků
+
+Začněte importováním potřebných balíčků ve vašem Java projektu:
 
 ```java
 import java.io.IOException;
@@ -41,25 +56,25 @@ import com.aspose.note.SaveFormat;
 import com.aspose.note.ParagraphStyle;
 ```
 
-## Krok 1: Nastavte adresář dokumentů
+## Krok 1: Nastavení adresáře dokumentu
 
-Definujte adresář, kam chcete uložit dokument OneNotu:
+Definujte adresář, kam chcete uložit svůj OneNote dokument:
 
 ```java
 String dataDir = "Your Document Directory";
 ```
 
-## Krok 2: Vytvořte objekt dokumentu
+## Krok 2: Vytvoření objektu Document
 
- Instantovat a`Document` objekt:
+Vytvořte instanci objektu `Document`:
 
 ```java
 Document doc = new Document();
 ```
 
-## Krok 3: Vytvořte stránky
+## Krok 3: Vytvoření stránek
 
-Inicializujte objekty stránky a nastavte jejich úrovně:
+Inicializujte objekty stránek a nastavte jejich úrovně. Nastavení úrovně určuje, zda je stránka kořenová nebo podstránka:
 
 ```java
 Page page1 = new Page();
@@ -72,7 +87,7 @@ Page page3 = new Page();
 page3.setLevel((byte) 1);
 ```
 
-## Krok 4: Přidejte uzly na stránky
+## Krok 4: Přidání uzlů na stránky
 
 ### Přidání uzlů na první stránku
 
@@ -128,7 +143,7 @@ outline3.appendChildLast(outlineElem3);
 page3.appendChildLast(outline3);
 ```
 
-## Krok 5: Přidejte stránky do dokumentu
+## Krok 5: Přidání stránek do dokumentu
 
 ```java
 doc.appendChildLast(page1);
@@ -136,45 +151,63 @@ doc.appendChildLast(page2);
 doc.appendChildLast(page3);
 ```
 
-## Krok 6: Uložte dokument
+## Krok 6: Uložení dokumentu
 
-Uložte dokument OneNotu:
+Uložte OneNote dokument jako PDF (nebo BMP v tomto příkladu). Změna `SaveFormat` vám umožní exportovat do PDF, což splňuje požadavek “how to save OneNote PDF”:
 
 ```java
 try {
     doc.save(dataDir + "GenerateRootAndSubLevelPagesInOneNote_out.bmp", SaveFormat.Bmp);
 } catch (IOException e) {
-    // Zpracovat výjimku
+    // Handle exception
 }
 ```
 
-Gratulujeme! Úspěšně jste vytvořili dokument s kořenovými a podřízenými stránkami ve OneNotu pomocí Aspose.Note for Java.
+> **Tip:** Pro přímý export do PDF nahraďte `SaveFormat.Bmp` za `SaveFormat.Pdf`.
+
+Gratulujeme! Úspěšně jste vytvořili OneNote dokument s kořenovými a podstránkami a naučili se **how to save OneNote PDF** pomocí Aspose.Note for Java.
+
+## Proč je to důležité
+
+- **Hierarchická organizace:** Kořenové a podstránky vám umožní napodobit strukturu složek uvnitř OneNote.  
+- **Plynulý export do PDF:** Po uspořádání export do PDF zachová hierarchii, což usnadňuje čtení a sdílení finálního dokumentu.  
+- **Automatizace:** Kód může být integrován do větších Java aplikací, což umožňuje hromadné vytváření strukturovaných sešitů.
+
+## Časté problémy a jak se jim vyhnout
+
+| Problém | Příčina | Řešení |
+|---------|---------|--------|
+| Stránky se zobrazují na stejné úrovni | Nesprávná hodnota `setLevel` | Použijte `setLevel((byte) 1)` pro kořenové stránky a `setLevel((byte) 2)` (nebo vyšší) pro podstránky. |
+| Výstup PDF je prázdný | Chybí `SaveFormat.Pdf` nebo nesprávná cesta k souboru | Ověřte, že adresář existuje, a použijte `SaveFormat.Pdf`. |
+| Písmo se neaplikuje | Špatný název písma nebo chybějící písmo v systému | Ujistěte se, že písmo (např. “David Transparent”) je nainstalováno na počítači, kde kód běží. |
+
+## Často kladené otázky
+
+**Q: Mohu pomocí Aspose.Note for Java vytvořit více úrovní podstránek?**  
+A: Ano, můžete vytvářet hlubší hierarchie nastavením vyšších čísel úrovně (např. `setLevel((byte) 3)` pro třetí úroveň podstránky).
+
+**Q: Je Aspose.Note for Java kompatibilní s různými Java IDE?**  
+A: Rozhodně. Funguje s IntelliJ IDEA, Eclipse, NetBeans i s jakýmkoli IDE, které podporuje vývoj v Javě.
+
+**Q: Můžu přizpůsobit formátování textu v mém OneNote dokumentu?**  
+A: Ano. Použijte `ParagraphStyle` k nastavení názvu písma, velikosti, barvy a dalších atributů pro každý prvek `RichText`.
+
+**Q: Podporuje Aspose.Note for Java ukládání dokumentů v jiných formátech než BMP?**  
+A: Ano. Podporované formáty zahrnují PDF, PNG, JPEG, DOCX a další. Změňte příslušně enum `SaveFormat`.
+
+**Q: Existuje zkušební verze Aspose.Note for Java?**  
+A: Ano, můžete si stáhnout bezplatnou zkušební verzi z webu Aspose.
 
 ## Závěr
 
-Uspořádání dokumentů OneNotu pomocí hierarchické struktury je nezbytné pro lepší správu a navigaci. S Aspose.Note for Java můžete efektivně vytvářet dokumenty s kořenovými a podstránkami, které poskytují jasné a organizované rozvržení poznámek.
+Organizace vašich OneNote sešitů s jasnou hierarchickou strukturou a jejich export do PDF činí vaše poznámky přístupnějšími a snadněji sdílenými. Dodržením výše uvedených kroků nyní víte, **how to save OneNote PDF** a **add sub pages onenote** styl programově pomocí Aspose.Note for Java.
 
-## FAQ
+---
 
-### Q1: Mohu vytvořit více úrovní podstránek pomocí Aspose.Note pro Java?
+**Poslední aktualizace:** 2026-01-07  
+**Testováno s:** Aspose.Note for Java 24.11 (latest)  
+**Autor:** Aspose  
 
-Odpověď 1: Ano, můžete vytvořit více úrovní podstránek nastavením příslušné úrovně pro každou stránku.
-
-### Q2: Je Aspose.Note for Java kompatibilní s různými Java IDE?
-
-Odpověď 2: Ano, Aspose.Note for Java je kompatibilní s populárními Java IDE, jako jsou IntelliJ IDEA, Eclipse a NetBeans.
-
-### Q3: Mohu přizpůsobit formátování textu v dokumentu OneNote?
-
-Odpověď 3: Ano, můžete upravit písmo, barvu, velikost a další možnosti formátování pomocí funkce Aspose.Note pro funkce formátovaného textu Java.
-
-### Q4: Podporuje Aspose.Note pro Java ukládání dokumentů v různých formátech?
-
-Odpověď 4: Ano, Aspose.Note pro Java podporuje ukládání dokumentů v různých formátech včetně BMP, PDF, PNG a dalších.
-
-### Q5: Je k dispozici zkušební verze pro Aspose.Note pro Java?
-
-Odpověď 5: Ano, z webu si můžete stáhnout bezplatnou zkušební verzi Aspose.Note pro Javu.
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

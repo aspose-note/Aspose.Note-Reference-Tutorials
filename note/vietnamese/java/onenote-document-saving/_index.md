@@ -159,7 +159,7 @@ Nếu bạn cần chia một sổ OneNote lớn thành các phần nhỏ hơn, d
 ---
 
 **Cập nhật lần cuối:** 2025-12-11  
-**Được kiểm tra với:** Aspose.Note 24.12 for Java  
+**Được kiểm tra với:** Aspose.Note 26.4 for Java  
 **Tác giả:** Aspose  
 
 {{< /blocks/products/pf/tutorial-page-section >}}

@@ -168,7 +168,7 @@ I den här guiden har vi demonstrerat hur du **sparar OneNote som PDF** samtidig
 ---
 
 **Senast uppdaterad:** 2025-12-09  
-**Testad med:** Aspose.Note för Java 24.11 (senaste vid skrivtillfället)  
+**Testad med:** Aspose.Note för Java 26.4 (senaste vid skrivtillfället)  
 **Författare:** Aspose  
 
 {{< /blocks/products/pf/tutorial-page-section >}}

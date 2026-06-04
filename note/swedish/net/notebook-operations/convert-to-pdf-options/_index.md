@@ -50,7 +50,7 @@ Först måste vi ladda OneNote-anteckningsboken som vi vill konvertera till en P
 string dataDir = "Your Document Directory";
 
 // Ladda en OneNote-anteckningsbok
-var notebook = new Notebook(dataDir + "Notizbuch �ffnen.onetoc2");
+var notebook = new Notebook(dataDir + "Notebook.onetoc2");
 ```
 
 ## Steg 2: Ange PDF-sparalternativ

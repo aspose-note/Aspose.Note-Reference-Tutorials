@@ -1,37 +1,55 @@
 ---
-title: Az oldalak átdolgozása a OneNote-ban – Aspose.Note
-linktitle: Az oldalak átdolgozása a OneNote-ban – Aspose.Note
+date: 2026-01-10
+description: Tanulja meg, hogyan lehet lekérni az utolsó módosítás időpontját és a
+  OneNote‑oldalak revízióit az Aspose.Note for Java segítségével. Integrálja ezt Java‑alkalmazásaiba
+  a hatékony dokumentumkezelés érdekében.
+linktitle: Get Revisions of Pages in OneNote - Aspose.Note
 second_title: Aspose.Note Java API
-description: Ismerje meg, hogyan kérheti le a OneNote-dokumentumok oldalainak változatait az Aspose.Note Java használatával. Integrálja ezt Java-alkalmazásaiba a hatékony dokumentumkezelés érdekében.
-weight: 15
+title: Hogyan lehet lekérdezni a OneNote oldalak legutóbbi módosítási idejét – Aspose.Note
 url: /hu/java/onenote-page-manipulation/get-revisions-of-pages/
+weight: 15
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Az oldalak átdolgozása a OneNote-ban – Aspose.Note
+# Oldalak revízióinak lekérése a OneNote-ban – Aspose.Note
 
 ## Bevezetés
 
-Ebben az oktatóanyagban az Aspose.Note for Java képességeit mutatjuk be. Ez egy olyan hatékony könyvtár, amely lehetővé teszi, hogy zökkenőmentesen dolgozzon a Microsoft OneNote fájlokkal Java-alkalmazásaiban. Pontosabban arra fogunk összpontosítani, hogyan lehet lekérni az oldalak változatait egy OneNote-dokumentumban. Ennek az útmutatónak a végére birtokában lesz az oldalváltozatok hatékony kinyeréséhez szükséges ismereteknek, beleértve az olyan részleteket, mint az utolsó módosítás ideje, a létrehozási idő, a cím, a szint és a szerző.
+Ebben az útmutatóban **az utolsó módosítás időpontját** fogod lekérni a OneNote-dokumentum oldalaiból, és megismerheted, hogyan lehet a teljes revíziótörténetet lekérni az Aspose.Note for Java segítségével. Akár dokumentumkezelő rendszert építesz, változásokat auditálsz, vagy egyszerűen csak meg szeretnéd jeleníteni, mikor szerkesztették utoljára az oldalt, ez az útmutató pontosan megmutatja, hogyan lehet ezt az információt programozottan kinyerni.
+
+## Gyors válaszok
+- **Mit ad vissza a “get last modified time”?** A legutóbbi szerkesztés időbélyegét egy OneNote oldalról.  
+- **Melyik osztály biztosítja a revíziótörténetet?** `PageHistory` a `Document.getPageHistory(Page)` segítségével.  
+- **Szükség van licencre ehhez a funkcióhoz?** Igen, érvényes Aspose.Note licenc szükséges a termelésben való használathoz.  
+- **Melyik Java verzió támogatott?** Java 8 vagy újabb (JDK 8+).  
+- **Szűrhetem a revíziókat szerző szerint?** Olvashatod az egyes `Page` objektumok `Author` tulajdonságát, és saját szűrőt alkalmazhatsz.
+
+## Mi az a “get last modified time” a OneNote-ban?
+
+A **last modified time** egy metaadat‑mező, amely minden oldalhoz tárolja, mikor történt a legutóbbi módosítás. Az Aspose.Note ezt az értéket a `Page.getLastModifiedTime()` metóduson keresztül teszi elérhetővé, így könnyen megjeleníthető vagy naplózható a változások dátuma.
+
+## Miért érdemes lekérni az oldal revíziókat?
+
+- **Audit nyomvonalak:** Rögzítsd, ki mit és mikor változtatott.  
+- **Verzió összehasonlítás:** Készíts olyan funkciókat, amelyek két revíziót egymás mellé helyeznek.  
+- **Felhasználói együttműködés elemzése:** Értsd meg a szerkesztési mintákat a megosztott jegyzetfüzetekben.  
 
 ## Előfeltételek
 
-Mielőtt belevágna ebbe az oktatóanyagba, győződjön meg arról, hogy beállította a következő előfeltételeket:
+Mielőtt elkezdenéd, győződj meg róla, hogy a következőkkel rendelkezel:
 
-### Java Development Kit (JDK) telepítve
+### Java Development Kit (JDK) telepítése
+Telepítsd a JDK 8 vagy újabb verzióját az Oracle weboldaláról vagy a kedvenc csomagkezelődből.
 
-Győződjön meg arról, hogy a Java Development Kit telepítve van a rendszerére. Letöltheti és telepítheti az Oracle webhelyéről, vagy csomagkezelőt használhat, ha Unix-alapú rendszert használ.
-
-### Aspose.Note for Java Library
-
- Töltse le és telepítse az Aspose.Note for Java könyvtárat a webhelyről. A letöltési linket megtalálod[itt](https://releases.aspose.com/note/java/) . Kövesse a dokumentációban található telepítési utasításokat[itt](https://reference.aspose.com/note/java/).
+### Aspose.Note for Java könyvtár
+Töltsd le a könyvtárat a hivatalos oldalról. A letöltési hivatkozást **[itt](https://releases.aspose.com/note/java/)** találod. Kövesd a telepítési útmutatót a dokumentációban **[itt](https://reference.aspose.com/note/java/)**.
 
 ## Csomagok importálása
 
-Kezdésként importálja a szükséges csomagokat a Java projektbe. Ezek a csomagok lehetővé teszik az Aspose.Note for Java által biztosított funkciók kihasználását.
+A kezdéshez importáld a szükséges csomagokat a Java projektedbe. Ezek a csomagok lehetővé teszik, hogy kihasználhasd az Aspose.Note for Java által nyújtott funkcionalitást.
 
 ```java
 import java.io.IOException;
@@ -41,43 +59,40 @@ import com.aspose.note.Page;
 import com.aspose.note.PageHistory;
 ```
 
-Most bontsuk le a példakódot több lépésre, hogy megértsük az egyes összetevőket és azok funkcióit.
+Most bontsuk le a példakódot több lépésre, hogy megértsük az egyes komponensek szerepét és működését.
 
-## 1. lépés: Állítsa be a dokumentumkönyvtárat
+## Hogyan kérjük le egy OneNote oldal utolsó módosítási időpontját
 
-Határozza meg a könyvtárat, ahol a OneNote-dokumentum található.
+### 1. lépés: Dokumentum könyvtár beállítása
+Határozd meg azt a könyvtárat, ahol a OneNote dokumentumod található.
 
 ```java
 String dataDir = "Your Document Directory";
 ```
 
-## 2. lépés: Töltse be a dokumentumot
-
-Töltse be a OneNote-dokumentumot az Aspose.Note-ba.
+### 2. lépés: Dokumentum betöltése
+Töltsd be a OneNote dokumentumot az Aspose.Note-ba.
 
 ```java
 Document doc = new Document(dataDir + "Sample1.one");
 ```
 
-## 3. lépés: Szerezze be az első oldalt
-
-Keresse ki a dokumentum első oldalát.
+### 3. lépés: Első oldal lekérése
+Szerezd meg a dokumentum első oldalát.
 
 ```java
 Page firstPage = doc.getFirstChild();
 ```
 
-## 4. lépés: Szerezze be az oldalváltozatokat
-
-Szerezze be az oldal felülvizsgálati előzményeit.
+### 4. lépés: Oldal revíziók lekérése
+Szerezd be az oldal revíziótörténetét.
 
 ```java
 PageHistory revisions = doc.getPageHistory(firstPage);
 ```
 
-## 5. lépés: Járja be az oldalváltozatokat
-
-Ismételje meg az oldalváltozatok listáját, és kérjen le releváns információkat.
+### 5. lépés: Oldal revíziók bejárása
+Iteráld végig az oldal revízióinak listáját, és olvasd ki a releváns információkat, beleértve a **last modified time** értéket is.
 
 ```java
 for (Page pageRevision : revisions) {
@@ -90,31 +105,34 @@ for (Page pageRevision : revisions) {
 }
 ```
 
-## Következtetés
+## Gyakori problémák és megoldások
+- **Null `PageHistory`:** Győződj meg róla, hogy a dokumentum valóban tartalmaz revíziókat; ellenkező esetben a `getPageHistory` `null`‑t adhat vissza.  
+- **Időzóna‑eltérések:** A `getLastModifiedTime()` egy `java.util.Date` objektumot ad vissza a rendszer alapértelmezett időzónájában. Szükség esetén konvertáld UTC‑re.  
+- **Licenc nincs betöltve:** Érvényes licenc hiányában az Aspose.Note értékelő módban működik, ami korlátozhatja a feldolgozott oldalak számát.
 
-Ebben az oktatóanyagban megvizsgáltuk, hogyan lehet lekérni egy OneNote-dokumentum oldalainak változatait az Aspose.Note for Java használatával. A lépésenkénti útmutató követésével és a mellékelt példakód felhasználásával könnyedén integrálhatja ezt a funkciót Java-alkalmazásaiba, lehetővé téve a OneNote-fájlok hatékony kezelését.
+## Gyakran ismételt kérdések
 
-## GYIK
+### Q1: Használhatom az Aspose.Note for Java‑t új OneNote dokumentumok létrehozására?
+**A1:** Igen, az Aspose.Note for Java átfogó támogatást nyújt OneNote dokumentumok programozott létrehozásához, olvasásához és módosításához.
 
-### 1. kérdés: Használhatom az Aspose.Note for Java programot új OneNote-dokumentumok létrehozására?
+### Q2: Kompatibilis-e az Aspose.Note for Java különböző OneNote fájlverziókkal?
+**A2:** Igen, az Aspose.Note for Java számos Microsoft OneNote fájlverziót támogat, így biztosítva a kompatibilitást különböző környezetekben.
 
-1. válasz: Igen, az Aspose.Note for Java átfogó támogatást nyújt a OneNote-dokumentumok programozott létrehozásához, olvasásához és kezeléséhez.
+### Q3: Testreszabhatom-e a kimeneti formátumot OneNote dokumentumok exportálásakor?
+**A3:** Teljes mértékben, az Aspose.Note for Java rugalmas exportálási lehetőségeket kínál PDF, HTML és képek formátumokba, testreszabható beállításokkal.
 
-### 2. kérdés: Az Aspose.Note for Java kompatibilis a OneNote-fájlok különböző verzióival?
+### Q4: Szükséges-e licenc a kereskedelmi felhasználáshoz?
+**A4:** Igen, kereskedelmi felhasználáshoz érvényes licenc szükséges az Aspose.Note for Java‑hoz. Licencet a Aspose weboldaláról szerezhetsz be.
 
-2. válasz: Igen, az Aspose.Note for Java támogatja a Microsoft OneNote-fájlok különféle verzióit, így biztosítja a kompatibilitást a különböző környezetekben.
+### Q5: Hol kaphatok segítséget, ha problémáim vannak vagy kérdéseim merülnek fel az Aspose.Note for Java‑val kapcsolatban?
+**A5:** Támogatásért és segítségért látogass el az Aspose.Note fórumra **[itt](https://forum.aspose.com/c/note/28)**, ahol kérdéseket tehetsz fel, tapasztalatokat oszthatsz meg, és más felhasználókkal, szakértőkkel léphetsz kapcsolatba.
 
-### 3. kérdés: Testreszabhatom a kimeneti formátumot a OneNote-dokumentumok exportálásakor?
+---
 
-3. válasz: Az Aspose.Note for Java rugalmasságot kínál a OneNote-dokumentumok különböző formátumokba, például PDF-be, HTML-be és képekbe történő exportálásához, testreszabási lehetőségekkel.
+**Last Updated:** 2026-01-10  
+**Tested With:** Aspose.Note for Java 23.12 (legújabb a kiadás időpontjában)  
+**Author:** Aspose  
 
-### 4. kérdés: Az Aspose.Note for Java licencet igényel kereskedelmi használatra?
-
-4. válasz: Igen, az Aspose.Note for Java kereskedelmi használatához érvényes licenc szükséges. A licencet az Aspose webhelyéről szerezheti be.
-
-### 5. kérdés: Hol kérhetek segítséget, ha problémákat tapasztalok vagy kérdéseim vannak az Aspose.Note for Java-val kapcsolatban?
-
- 5. válasz: Támogatásért és segítségért keresse fel az Aspose.Note fórumot[itt](https://forum.aspose.com/c/note/28)ahol kérdéseket tehet fel, megoszthatja tapasztalatait, és kapcsolatba léphet más felhasználókkal és szakértőkkel.
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

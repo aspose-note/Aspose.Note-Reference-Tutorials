@@ -44,7 +44,7 @@ using System.Collections.Generic;
 string dataDir = "Your Document Directory";
 
 // Tải sổ tay OneNote
-var notebook = new Notebook(dataDir + "Notizbuch �ffnen.onetoc2");
+var notebook = new Notebook(dataDir + "Notebook.onetoc2");
 ```
 
  Trong bước này, chúng tôi tải Sổ ghi chép OneNote bằng cách sử dụng`Notebook` lớp được cung cấp bởi Aspose.Note.

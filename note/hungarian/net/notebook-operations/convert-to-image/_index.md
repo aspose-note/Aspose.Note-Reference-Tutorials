@@ -42,7 +42,7 @@ A kezdéshez be kell töltenünk a konvertálni kívánt OneNote-jegyzetfüzetet
 
 ```csharp
 string dataDir = "Your Document Directory";
-var notebook = new Notebook(dataDir + "Notizbuch �ffnen.onetoc2");
+var notebook = new Notebook(dataDir + "Notebook.onetoc2");
 ```
 
 ## 2. lépés: Mentse el a Jegyzetfüzetet képként

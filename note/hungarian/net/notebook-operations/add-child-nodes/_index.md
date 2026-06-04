@@ -47,7 +47,7 @@ Töltse be a meglévő jegyzetfüzetet, ahová gyermekcsomópontot szeretne hozz
 string dataDir = "Your Document Directory";
 
 // Töltsön be egy OneNote-jegyzetfüzetet
-var notebook = new Notebook(dataDir + "Notizbuch �ffnen.onetoc2");
+var notebook = new Notebook(dataDir + "Notebook.onetoc2");
 ```
 
 ## 2. lépés: Új gyermekcsomópont hozzáfűzése

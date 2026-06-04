@@ -51,8 +51,8 @@ Aspose.Note.Page page = new Aspose.Note.Page(doc);
  Ezután inicializálja`Outline` és`OutlineElement` objektumok:
 
 ```csharp
-Outline outline = new Outline(doc);
-OutlineElement outlineElem = new OutlineElement(doc);
+Outline outline = new Outline();
+OutlineElement outlineElem = new OutlineElement();
 ```
 
 ## 3. lépés: Töltse be és helyezze be a képet

@@ -50,7 +50,7 @@ First, we need to load the OneNote notebook that we want to convert into a PDF f
 string dataDir = "Your Document Directory";
 
 // Load a OneNote Notebook
-var notebook = new Notebook(dataDir + "Notizbuch �ffnen.onetoc2");
+var notebook = new Notebook(dataDir + "Notebook.onetoc2");
 ```
 
 ## Step 2: Specify PDF Save Options

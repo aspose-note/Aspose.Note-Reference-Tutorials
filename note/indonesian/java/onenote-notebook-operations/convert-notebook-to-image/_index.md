@@ -21,7 +21,7 @@ Dalam tutorial ini, kita akan mempelajari cara mengonversi buku catatan menjadi 
 
 Sebelum kita mulai, pastikan Anda memiliki hal berikut:
 
-1.  Java Development Kit (JDK): Pastikan Anda telah menginstal Java di sistem Anda. Anda dapat mengunduh dan menginstal versi terbaru dari[situs web](https://www.oracle.com/java/technologies/javase-jdk15-downloads.html).
+1.  Java Development Kit (JDK): Pastikan Anda telah menginstal Java di sistem Anda. Anda dapat mengunduh dan menginstal versi terbaru dari[situs web](https://www.oracle.com/java/technologies/downloads/).
 
 2.  Aspose.Note untuk Perpustakaan Java: Unduh dan sertakan perpustakaan Aspose.Note untuk Java dalam proyek Anda. Anda dapat memperoleh perpustakaan dari[Asumsikan situs web](https://releases.aspose.com/note/java/).
 

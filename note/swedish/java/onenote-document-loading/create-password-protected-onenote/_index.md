@@ -104,7 +104,7 @@ Du vet nu **hur du skyddar OneNote** genom att skapa en lösenordsskyddad fil me
 ---
 
 **Senast uppdaterad:** 2025-12-02  
-**Testat med:** Aspose.Note for Java 24.12 (senaste vid skrivtillfället)  
+**Testat med:** Aspose.Note for Java 26.4 (senaste vid skrivtillfället)  
 **Författare:** Aspose  
 
 {{< /blocks/products/pf/tutorial-page-section >}}

@@ -41,7 +41,7 @@ Först måste vi initiera ett nytt dokument och skapa en sida för att infoga v�
 
 ```csharp
 var document = new Document();
-var page = new Page(document);
+var page = new Page();
 ```
 
 ## Steg 2: Infoga bild med hyperlänk
@@ -50,7 +50,7 @@ Låt oss nu infoga bilden med en hyperlänk. Vi skapar en`Image` objekt och stä
 
 ```csharp
 string imagePath = "path_to_your_image.jpg";
-var image = new Image(document, imagePath) { HyperlinkUrl = "http://exempel.com" };
+var image = new Image(imagePath) { HyperlinkUrl = "https://exempel.com" };
 ```
 
 ## Steg 3: Lägg till bild på sidan

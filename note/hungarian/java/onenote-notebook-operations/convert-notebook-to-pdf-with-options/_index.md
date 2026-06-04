@@ -45,7 +45,7 @@ Jegyzetfüzet PDF formátumba konvertálásához először be kell töltenie a O
 ```java
 String dataDir = "Your Document Directory";
 // Töltsön be egy OneNote-jegyzetfüzetet
-Notebook notebook = new Notebook(dataDir + "Notizbuch �ffnen.onetoc2");
+Notebook notebook = new Notebook(dataDir + "Notebook.onetoc2");
 ```
 
 ## 2. lépés: Adja meg a PDF mentési beállításokat

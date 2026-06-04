@@ -126,10 +126,10 @@ foreach (var row in ranking.Skip(1))
    var contactsCell = row.ElementAt(1);
    contactsCell.AppendChildLast(new OutlineElement())
 			   .AppendChildLast(new RichText() { ParagraphStyle = ParagraphStyle.Default })
-			   .Append("Web: ").Append("link", new TextStyle() { HyperlinkAddress = "www.link.com", IsHyperlink = true });
+			   .Append("Web: ").Append("link", new TextStyle() { HyperlinkAddress = "https://www.link.com" });
    contactsCell.AppendChildLast(new OutlineElement())
 			   .AppendChildLast(new RichText() { ParagraphStyle = ParagraphStyle.Default })
-			   .Append("E-mail: ").Append("mail", new TextStyle() { HyperlinkAddress = "mailto:hi@link.com", IsHyperlink = true });
+			   .Append("E-mail: ").Append("mail", new TextStyle() { HyperlinkAddress = "mailto:hi@link.com" });
 }
 ```
 

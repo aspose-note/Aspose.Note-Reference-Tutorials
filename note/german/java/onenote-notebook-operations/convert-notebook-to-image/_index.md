@@ -21,7 +21,7 @@ In diesem Tutorial erfahren Sie, wie Sie mithilfe der Aspose.Note für Java-Bibl
 
 Bevor wir beginnen, stellen Sie sicher, dass Sie über Folgendes verfügen:
 
-1.  Java Development Kit (JDK): Stellen Sie sicher, dass Java auf Ihrem System installiert ist. Sie können die neueste Version von herunterladen und installieren[Webseite](https://www.oracle.com/java/technologies/javase-jdk15-downloads.html).
+1.  Java Development Kit (JDK): Stellen Sie sicher, dass Java auf Ihrem System installiert ist. Sie können die neueste Version von herunterladen und installieren[Webseite](https://www.oracle.com/java/technologies/downloads/).
 
 2.  Aspose.Note für Java-Bibliothek: Laden Sie die Aspose.Note für Java-Bibliothek herunter und fügen Sie sie in Ihr Projekt ein. Die Bibliothek erhalten Sie über die[Aspose-Website](https://releases.aspose.com/note/java/).
 

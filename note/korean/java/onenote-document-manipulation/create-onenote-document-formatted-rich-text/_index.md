@@ -168,7 +168,7 @@ A: PDF, HTML, PNG, JPEG 등 여러 내보내기 형식을 지원하므로 OneNot
 ---
 
 **마지막 업데이트:** 2025-12-09  
-**테스트 환경:** Aspose.Note for Java 24.11 (작성 시 최신 버전)  
+**테스트 환경:** Aspose.Note for Java 26.4 (작성 시 최신 버전)  
 **작성자:** Aspose  
 
 {{< /blocks/products/pf/tutorial-page-section >}}

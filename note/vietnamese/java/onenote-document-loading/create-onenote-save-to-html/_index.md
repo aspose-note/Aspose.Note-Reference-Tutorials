@@ -169,7 +169,7 @@ Bây giờ bạn đã biết **cách xuất phông** khi **lưu OneNote dưới 
 ---
 
 **Cập nhật lần cuối:** 2025-12-02  
-**Đã kiểm tra với:** Aspose.Note for Java 24.12  
+**Đã kiểm tra với:** Aspose.Note for Java 26.4  
 **Tác giả:** Aspose  
 
 {{< /blocks/products/pf/tutorial-page-section >}}

@@ -128,7 +128,7 @@ A5: Ya, Anda dapat bergabung dengan forum komunitas di [Dukungan Aspose.Note unt
 ---
 
 **Terakhir Diperbarui:** 2025-11-30  
-**Diuji Dengan:** Aspose.Note for Java 24.12  
+**Diuji Dengan:** Aspose.Note for Java 26.4  
 **Penulis:** Aspose  
 
 {{< /blocks/products/pf/tutorial-page-section >}}

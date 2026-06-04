@@ -25,7 +25,7 @@ Lorsque vous travaillez avec des fichiers OneNote dans une application Java, la 
 
 - **Quelle méthode détermine le chiffrement ?** `Document.isEncrypted`  
 - **Ai‑je besoin d’un mot de passe pour vérifier ?** Non, vous pouvez interroger l’état sans mot de passe.  
-- **Quelle version de l’API fonctionne ?** Toute version récente d’Aspose.Note for Java (testée avec la 24.11).  
+- **Quelle version de l’API fonctionne ?** Toute version récente d’Aspose.Note for Java (testée avec la 26.4).  
 - **Puis‑je vérifier à la fois les flux et les chemins de fichiers ?** Oui – l’API prend en charge les deux.  
 - **Que se passe‑t‑il si le mot de passe est incorrect ?** La méthode renvoie `true`, indiquant que le fichier reste chiffré.  
 
@@ -149,7 +149,7 @@ Dans ce guide, nous avons démontré **comment vérifier le chiffrement OneNote 
 ---  
 
 **Dernière mise à jour :** 2025-11-29  
-**Testé avec :** Aspose.Note 24.11 for Java  
+**Testé avec :** Aspose.Note 26.4 for Java  
 **Auteur :** Aspose  
 
 {{< /blocks/products/pf/tutorial-page-section >}}  
