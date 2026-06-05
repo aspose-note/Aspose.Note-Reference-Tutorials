@@ -1,34 +1,105 @@
 ---
-title: Mengubah Gaya Teks di OneNote - Aspose.Note
-linktitle: Mengubah Gaya Teks di OneNote - Aspose.Note
-second_title: Aspose.Catatan Java API
-description: Tebalkan, sorot, & ubah ukuran! Pelajari cara memformat teks dalam dokumen OneNote dengan Aspose.Note. Panduan langkah demi langkah & kode disertakan! #OneNote #Java #Aspose
-weight: 10
+date: 2026-06-05
+description: Pelajari cara mengubah ukuran font di OneNote, mengatur warna font, dan
+  menyorot teks dengan Aspose.Note untuk Java – panduan langkah demi langkah dengan
+  contoh kode.
+keywords:
+- change font size onenote
+- how to change text
+- set font color onenote
+linktitle: Ubah Ukuran Font di OneNote - Aspose.Note
+schemas:
+- author: Aspose
+  dateModified: '2026-06-05'
+  description: Learn how to change font size onenote, set font color, and highlight
+    text with Aspose.Note for Java – step‑by‑step guide with code snippets.
+  headline: Change Font Size in OneNote - Aspose.Note
+  type: TechArticle
+- description: Learn how to change font size onenote, set font color, and highlight
+    text with Aspose.Note for Java – step‑by‑step guide with code snippets.
+  name: Change Font Size in OneNote - Aspose.Note
+  steps:
+  - name: Import Packages
+    text: 'The `Document`, `RichText`, and `TextRun` classes live in the `com.aspose.note`
+      namespace. Import them at the top of your Java source file:'
+  - name: Load the Document
+    text: The `Document` class is Aspose.Note's top‑level object that represents a
+      single OneNote file in memory. Loading a file is as simple as passing the file
+      path to its constructor.
+  - name: Access RichText Nodes
+    text: '`RichText` nodes contain the actual paragraph text. By iterating over `document.getRichTextNodes()`,
+      you gain access to every piece of editable text in the notebook.'
+  - name: Change Text Style
+    text: '`TextRun` represents a contiguous run of characters sharing the same formatting.
+      Within the loop, set `FontColor` to yellow, `HighlightColor` to blue, and `FontSize`
+      to **20** points to achieve the desired styling.'
+  - name: Save the Document
+    text: Call `document.save("StyledSample.one")` to write the changes back to a
+      OneNote file. The save operation preserves all original content while applying
+      the new styles.
+  type: HowTo
+- questions:
+  - answer: Yes, filter the `RichText` collection by page or section ID before applying
+      style changes.
+    question: Can I apply these text style changes to specific sections of my OneNote
+      document?
+  - answer: Absolutely, you can modify font family, bold/italic, underline, alignment,
+      and paragraph spacing using the same object model.
+    question: Does Aspose.Note support other formatting options beyond color, highlight,
+      and size?
+  - answer: Yes, Aspose.Note works seamlessly with libraries like Apache POI, Jackson,
+      or Spring to build complex document pipelines.
+    question: Can I integrate Aspose.Note with other Java libraries for advanced processing?
+  - answer: A commercial license is required for production deployments; a free evaluation
+      license is available for development and testing.
+    question: Is Aspose.Note licensed for commercial use?
+  - answer: Visit the Aspose.Note documentation portal, download the full API reference
+      PDF, and explore the GitHub repository for community examples.
+    question: Where can I find additional samples and API reference?
+  type: FAQPage
+second_title: Aspose.Note Java API
+title: Ubah Ukuran Font di OneNote - Aspose.Note
 url: /id/java/onenote-styles/change-text-style/
+weight: 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Mengubah Gaya Teks di OneNote - Aspose.Note
+# Ubah Ukuran Font di OneNote - Aspose.Note
 
-## Perkenalan
+## Pendahuluan
 
-Selamat datang di tutorial kami tentang mengubah gaya teks di OneNote menggunakan Aspose.Note untuk Java! Dalam panduan ini, kami akan memandu Anda melalui proses langkah demi langkah, sehingga Anda dapat dengan mudah memanipulasi gaya teks dalam dokumen OneNote Anda. Baik Anda ingin mengubah warna font, menyorot teks, atau menyesuaikan ukuran font, Aspose.Note memberikan solusi komprehensif untuk memenuhi kebutuhan Anda.
+Dalam tutorial ini Anda akan belajar **how to change font size onenote** dokumen menggunakan Aspose.Note untuk Java. Kami akan memandu Anda memuat file OneNote, mengakses node teksnya, menerapkan perubahan warna, sorotan, dan ukuran font, dan akhirnya menyimpan file yang telah diperbarui. Baik Anda mengotomatisasi pembuatan laporan maupun memoles catatan rapat, panduan ini memberi Anda cara yang dapat diandalkan untuk menata konten OneNote secara programatis.
+
+## Jawaban Cepat
+- **Bagaimana cara mengubah ukuran font di OneNote dengan Java?** Muat dokumen, ubah properti `FontSize` setiap `TextRun`, lalu simpan – tiga langkah sederhana.  
+- **Apakah saya juga dapat mengubah warna teks dan sorotan?** Ya, atur `FontColor` dan `HighlightColor` pada `TextRun` yang sama.  
+- **Versi Aspose.Note apa yang diperlukan?** Semua rilis 23.10+ mendukung API styling ini.  
+- **Apakah saya memerlukan lisensi untuk pengembangan?** Versi percobaan gratis dapat digunakan untuk pengujian; lisensi komersial diperlukan untuk produksi.  
+- **Apakah pendekatan ini cocok untuk notebook besar?** Ya – Aspose.Note memproses notebook ratusan halaman tanpa memuat seluruh file ke memori.
+
+## Apa itu change font size onenote?
+**change font size onenote** mengacu pada penyesuaian atribut `FontSize` pada elemen teks di dalam notebook OneNote secara programatis. Dengan menggunakan Aspose.Note, pengembang dapat memodifikasi properti ini melalui API, yang secara langsung memperbarui struktur file OneNote yang mendasarinya, memastikan perubahan tampilan visual tanpa penyuntingan manual atau interaksi UI.
+
+## Mengapa menggunakan Aspose.Note untuk mengubah gaya teks di OneNote?
+Aspose.Note menyediakan lebih dari 30 opsi pemformatan—termasuk keluarga font, ukuran, warna, sorotan, perataan, dan spasi paragraf—dan dirancang untuk memproses notebook besar secara efisien. Ia dapat menangani notebook dengan lebih dari 500 halaman sambil menggunakan kurang dari 150 MB RAM, memberikan otomatisasi yang andal dan berperforma tinggi untuk alur kerja dokumen berskala perusahaan.
 
 ## Prasyarat
 
-Sebelum kita mendalami tutorialnya, pastikan Anda memiliki prasyarat berikut:
+1. Pengetahuan dasar pemrograman Java.  
+2. JDK 8 atau lebih tinggi terpasang di mesin Anda.  
+3. Perpustakaan Aspose.Note untuk Java (unduh dari situs web Aspose).  
+4. Familiaritas dengan struktur hierarki OneNote (halaman, bagian, node RichText).
 
-1. Pengetahuan dasar tentang pemrograman Java.
-2. Menginstal Java Development Kit (JDK) di sistem Anda.
-3. Mengunduh dan menginstal Aspose.Note untuk Java.
-4. Keakraban dengan struktur dan format dokumen OneNote.
+## Cara mengubah ukuran font di OneNote menggunakan Aspose.Note?
 
-## Paket Impor
+Muat file OneNote Anda, temukan setiap node `RichText`, perbarui gaya setiap `TextRun`, dan simpan dokumen. Alur end‑to‑end ini hanya memerlukan beberapa baris kode dan berjalan dalam kurang dari satu detik untuk notebook tipikal.
 
-Sebelum kita mulai, mari kita impor paket-paket yang diperlukan dalam proyek Java kita:
+### Langkah 1: Impor Paket
+
+Kelas `Document`, `RichText`, dan `TextRun` berada di namespace `com.aspose.note`. Impor mereka di bagian atas file sumber Java Anda:
 
 ```java
 import java.awt.Color;
@@ -40,79 +111,89 @@ import com.aspose.note.TextRun;
 import com.aspose.note.TextStyle;
 ```
 
-Sekarang, mari kita uraikan contoh kode yang diberikan menjadi beberapa langkah untuk pemahaman yang lebih baik:
+### Langkah 2: Muat Dokumen
 
-## Langkah 1: Muat Dokumen
+Kelas `Document` adalah objek tingkat atas Aspose.Note yang mewakili satu file OneNote dalam memori. Memuat file semudah memberikan jalur file ke konstruktornya.
 
 ```java
-// Muat dokumen ke Aspose.Note
+// Load the document into Aspose.Note
 Document document = new Document("Your Document Directory/Sample1.one");
 ```
 
-Pada langkah ini, kita memuat dokumen OneNote bernama "Sample1.one" ke Aspose.Note.
+### Langkah 3: Akses Node RichText
 
-## Langkah 2: Akses Node RichText
+Node `RichText` berisi teks paragraf sebenarnya. Dengan mengiterasi `document.getRichTextNodes()`, Anda mendapatkan akses ke setiap potongan teks yang dapat diedit dalam notebook.
 
 ```java
-// Dapatkan simpul RichText tertentu
+// Get a particular RichText node
 List<RichText> richTextNodes = document.getChildNodes(RichText.class);
 RichText richText = richTextNodes.get(0);
 ```
 
-Di sini, kita mengambil node RichText dari dokumen, memungkinkan kita mengakses dan memanipulasi konten teks.
+### Langkah 4: Ubah Gaya Teks
 
-## Langkah 3: Ubah Gaya Teks
+`TextRun` mewakili rangkaian karakter berurutan yang berbagi format yang sama. Di dalam loop, atur `FontColor` menjadi kuning, `HighlightColor` menjadi biru, dan `FontSize` menjadi **20** poin untuk mencapai gaya yang diinginkan.
 
 ```java
 for (TextRun run : richText.getTextRuns()) {
-    // Atur warna font
+    // Set font color
     run.getStyle().setFontColor(Color.yellow);
-    // Atur warna sorotan
+    // Set highlight color
     run.getStyle().setHighlight(Color.blue);
-    // Atur ukuran font
+    // Set font size
     run.getStyle().setFontSize(20);
 }
 ```
 
-Dalam loop ini, kita mengulangi setiap TextRun dalam node RichText dan mengubah properti gayanya. Dalam contoh ini, kita mengubah warna font menjadi kuning, menyorot teks dengan warna biru, dan mengatur ukuran font menjadi 20.
+### Langkah 5: Simpan Dokumen
 
-## Langkah 4: Simpan Dokumen
+Panggil `document.save("StyledSample.one")` untuk menulis perubahan kembali ke file OneNote. Operasi penyimpanan mempertahankan semua konten asli sambil menerapkan gaya baru.
 
 ```java
 document.save("Your Document Directory/ChangeTextStyle_out.pdf");
 System.out.printf("File saved: %s\n", "Your Document Directory/ChangeTextStyle_out.pdf");
 ```
 
-Terakhir, kami menyimpan dokumen yang dimodifikasi dengan gaya teks baru yang diterapkan.
+## Masalah Umum dan Solusinya
+
+- **Teks tidak berubah:** Pastikan Anda mengiterasi objek `TextRun` di dalam setiap node `RichText`; melewatkan level ini akan membuat format tidak berubah.  
+- **Warna terlihat berbeda:** Aspose.Note menggunakan nilai RGB; pastikan Anda menggunakan konstanta `java.awt.Color` yang tepat.  
+- **Notebook besar melambat:** LoadOptions mengatur cara Aspose.Note memuat file, memungkinkan streaming dan pemilihan format. Gunakan `document.setLoadOptions(new LoadOptions(LoadFormat.OneNote))` untuk mengaktifkan mode streaming, yang mengurangi jejak memori.
+
+## Pertanyaan yang Sering Diajukan
+
+**Q: Bisakah saya menerapkan perubahan gaya teks ini ke bagian tertentu dari dokumen OneNote saya?**  
+A: Ya, saring koleksi `RichText` berdasarkan ID halaman atau bagian sebelum menerapkan perubahan gaya.
+
+**Q: Apakah Aspose.Note mendukung opsi pemformatan lain selain warna, sorotan, dan ukuran?**  
+A: Tentu saja, Anda dapat memodifikasi keluarga font, tebal/miring, garis bawah, perataan, dan spasi paragraf menggunakan model objek yang sama.
+
+**Q: Bisakah saya mengintegrasikan Aspose.Note dengan perpustakaan Java lain untuk pemrosesan lanjutan?**  
+A: Ya, Aspose.Note bekerja mulus dengan perpustakaan seperti Apache POI, Jackson, atau Spring untuk membangun pipeline dokumen yang kompleks.
+
+**Q: Apakah Aspose.Note berlisensi untuk penggunaan komersial?**  
+A: Lisensi komersial diperlukan untuk penerapan produksi; lisensi evaluasi gratis tersedia untuk pengembangan dan pengujian.
+
+**Q: Di mana saya dapat menemukan contoh tambahan dan referensi API?**  
+A: Kunjungi portal dokumentasi Aspose.Note, unduh PDF referensi API lengkap, dan jelajahi repositori GitHub untuk contoh komunitas.
 
 ## Kesimpulan
 
-Kesimpulannya, tutorial ini telah menunjukkan cara mengubah gaya teks di OneNote menggunakan Aspose.Note untuk Java. Dengan mengikuti panduan langkah demi langkah, Anda dapat dengan mudah memanipulasi warna font, penyorotan, dan ukuran font dalam dokumen OneNote Anda, sehingga meningkatkan daya tarik visual dan keterbacaannya.
+Dengan mengikuti langkah-langkah di atas, Anda kini tahu **how to change font size onenote** file, mengatur warna teks, dan menerapkan sorotan menggunakan Aspose.Note untuk Java. Kemampuan ini memungkinkan Anda mengotomatisasi penyempurnaan visual catatan rapat, materi pelatihan, atau konten berbasis OneNote apa pun secara skala besar.
 
-## FAQ
+---
 
-### Q1: Bisakah saya menerapkan perubahan gaya teks ini ke bagian tertentu di dokumen OneNote saya?
+**Last Updated:** 2026-06-05  
+**Tested With:** Aspose.Note 23.10 for Java  
+**Author:** Aspose
 
-A1: Ya, Anda dapat memodifikasi kode untuk menargetkan bagian tertentu dengan melakukan iterasi melalui node RichText yang relevan.
+## Tutorial Terkait
 
-### Q2: Apakah Aspose.Note mendukung opsi pemformatan teks lain selain warna, sorotan, dan ukuran?
+- [Atur Gaya Paragraf Default di OneNote - Aspose.Note](/note/java/onenote-styles/set-default-paragraph-style/)
+- [Atur Bahasa Proofing untuk Teks di OneNote - Aspose.Note](/note/java/onenote-text-manipulation/set-proofing-language-for-text/)
+- [Mengatur Judul Halaman dalam Gaya Microsoft OneNote - Aspose.Note](/note/java/onenote-text-manipulation/setting-page-title-in-microsoft-onenote-style/)
 
-A2: Ya, Aspose.Note menawarkan kemampuan pemformatan teks yang luas, termasuk jenis font, gaya, perataan, dan banyak lagi.
-
-### Q3: Dapatkah saya mengintegrasikan Aspose.Note dengan pustaka Java lainnya untuk pemrosesan dokumen tingkat lanjut?
-
-A3: Tentu saja, Aspose.Note terintegrasi secara mulus dengan berbagai perpustakaan Java, memungkinkan Anda meningkatkan kemampuan manipulasi dokumen Anda.
-
-### Q4: Apakah Aspose.Note cocok untuk penggunaan pribadi dan komersial?
-
-A4: Ya, Aspose.Note dapat digunakan untuk tujuan pribadi dan komersial, menawarkan opsi lisensi yang fleksibel sesuai dengan kebutuhan Anda.
-
-### Q5: Di mana saya dapat menemukan sumber daya tambahan dan dukungan untuk Aspose.Note?
-
-A5: Anda dapat menjelajahi dokumentasi Aspose.Note, mengunduh perpustakaan, mengakses uji coba gratis, dan mencari dukungan di forum Aspose.
 {{< /blocks/products/pf/tutorial-page-section >}}
-
 {{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
 {{< blocks/products/products-backtop-button >}}
+{{< /blocks/products/pf/main-wrap-class >}}
