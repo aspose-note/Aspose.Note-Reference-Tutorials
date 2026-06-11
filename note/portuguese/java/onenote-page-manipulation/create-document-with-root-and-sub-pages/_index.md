@@ -1,10 +1,15 @@
 ---
-description: Aprenda a salvar PDFs do OneNote e adicionar subpáginas no OneNote usando
-  Aspose.Note para Java. Siga este guia passo a passo para organizar suas anotações
+date: 2026-04-30
+description: Aprenda a **salvar o OneNote como PDF** e adicionar subpáginas no OneNote
+  usando Aspose.Note para Java. Siga este guia passo a passo para organizar suas notas
   de forma eficiente.
-linktitle: How to Save OneNote PDF and Add Sub Pages
+keywords:
+- save onenote as pdf
+- add sub pages onenote
+- Aspose.Note Java
+linktitle: Como salvar o OneNote como PDF e adicionar subpáginas
 second_title: Aspose.Note Java API
-title: Como salvar PDF do OneNote e adicionar subpáginas
+title: Como salvar o OneNote como PDF e adicionar subpáginas
 url: /pt/java/onenote-page-manipulation/create-document-with-root-and-sub-pages/
 weight: 11
 ---
@@ -13,34 +18,34 @@ weight: 11
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Como Salvar OneNote PDF e Adicionar Subpáginas
+# Como Salvar OneNote como PDF e Adicionar Subpáginas
 
 ## Introdução
 
-Neste tutorial, você descobrirá **como salvar OneNote PDF** enquanto cria um documento que contém tanto páginas raiz quanto subpáginas usando Aspose.Note for Java. Organizar seus cadernos OneNote com uma hierarquia clara torna a navegação sem esforço, e a capacidade de exportar para PDF garante que você possa compartilhar suas notas em um formato universalmente legível. Também mostraremos como **adicionar subpáginas estilo onenote**, para que você possa construir estruturas de múltiplos níveis com facilidade.
+Neste tutorial, você descobrirá **como salvar onenote como pdf** enquanto cria um documento que contém páginas raiz e subpáginas usando Aspose.Note for Java. Organizar seus cadernos do OneNote com uma hierarquia clara torna a navegação fácil, e exportar para PDF garante que você possa compartilhar suas notas em um formato universalmente legível. Também mostraremos como **adicionar subpáginas no estilo onenote**, para que você possa construir estruturas de vários níveis com facilidade.
 
 ## Respostas Rápidas
-- **O que significa a palavra‑chave principal?** Refere‑se à exportação de um caderno OneNote para PDF usando Aspose.Note.  
-- **Qual API é usada?** Aspose.Note for Java.  
-- **Posso criar páginas hierárquicas?** Sim – defina o nível da página para construir páginas raiz e subpáginas.  
-- **Preciso de licença?** Um teste gratuito está disponível; uma licença comercial é necessária para produção.  
-- **Quais formatos de saída são suportados?** BMP, PDF, PNG e mais.
+- **O que significa “save onenote as pdf”?** Refere‑se à exportação de um caderno OneNote para um arquivo PDF usando Aspose.Note for Java.  
+- **Qual API é necessária?** Aspose.Note for Java fornece as classes e métodos necessários.  
+- **Posso criar páginas hierárquicas?** Sim – defina o nível da página para criar páginas raiz e subpáginas.  
+- **Preciso de licença para produção?** Um teste gratuito está disponível, mas uma licença comercial é necessária para uso em produção.  
+- **Para quais formatos posso exportar?** Além de PDF, você pode exportar para BMP, PNG, JPEG, DOCX e outros.
 
-## O que é “como salvar OneNote PDF”?
+## Como Salvar OneNote como PDF
 
-Salvar OneNote como PDF converte as páginas do caderno em um documento de layout fixo que mantém a formatação, imagens e hierarquia. Isso é ideal para compartilhar, arquivar ou imprimir notas.
+Salvar OneNote como PDF converte cada página do caderno em um documento de layout fixo que preserva a formatação, imagens e a hierarquia das páginas. Isso é ideal para compartilhar, arquivar ou imprimir notas mantendo a estrutura original intacta.
 
 ## Por que adicionar subpáginas no OneNote?
 
-Adicionar subpáginas permite agrupar conteúdo relacionado sob uma página pai, espelhando uma estrutura semelhante a pastas. Isso melhora a organização das notas, torna a busca mais rápida e aprimora a experiência de leitura quando o caderno é exportado para PDF.
+Adicionar subpáginas permite agrupar conteúdo relacionado sob uma página pai, espelhando uma estrutura semelhante a pastas. Isso melhora a organização das notas, acelera as buscas e aprimora a experiência de leitura quando o caderno é exportado para PDF.
 
 ## Pré‑requisitos
 
-Antes de começar, certifique‑se de que você tem os seguintes pré‑requisitos:
+Antes de começar, certifique‑se de que você possui os seguintes pré‑requisitos:
 
-1. Java Development Kit (JDK): Certifique‑se de que o JDK está instalado no seu sistema.  
-2. Aspose.Note for Java: Baixe e instale o Aspose.Note for Java a partir do [site](https://purchase.aspose.com/buy).  
-3. Ambiente de Desenvolvimento Integrado (IDE): Escolha uma IDE Java como IntelliJ IDEA, Eclipse ou NetBeans.
+1. **Java Development Kit (JDK)** – Certifique‑se de que o JDK está instalado em seu sistema.  
+2. **Aspose.Note for Java** – Baixe e instale o Aspose.Note for Java a partir do [website](https://purchase.aspose.com/buy).  
+3. **Integrated Development Environment (IDE)** – Escolha um IDE Java como IntelliJ IDEA, Eclipse ou NetBeans.
 
 ## Importar Pacotes
 
@@ -76,7 +81,7 @@ Document doc = new Document();
 
 ## Etapa 3: Criar Páginas
 
-Inicialize objetos de página e defina seus níveis. Definir o nível determina se a página é raiz ou subpágina:
+Inicialize objetos de página e defina seus níveis. Definir o nível determina se a página é uma página raiz ou uma subpágina:
 
 ```java
 Page page1 = new Page();
@@ -155,7 +160,7 @@ doc.appendChildLast(page3);
 
 ## Etapa 6: Salvar o Documento
 
-Salve o documento OneNote como PDF (ou BMP neste exemplo). Alterar o `SaveFormat` permite exportar para PDF, atendendo ao requisito de “como salvar OneNote PDF”:
+Salve o documento OneNote como PDF (ou BMP neste exemplo). Alterar o `SaveFormat` permite exportar para PDF, atendendo ao requisito de “save onenote as pdf”:
 
 ```java
 try {
@@ -167,9 +172,9 @@ try {
 
 > **Dica profissional:** Para exportar diretamente para PDF, substitua `SaveFormat.Bmp` por `SaveFormat.Pdf`.
 
-Parabéns! Você criou com sucesso um documento OneNote com páginas raiz e subpáginas e aprendeu **como salvar OneNote PDF** usando Aspose.Note for Java.
+Parabéns! Você criou com sucesso um documento OneNote com páginas raiz e subpáginas e aprendeu **como salvar onenote como pdf** usando Aspose.Note for Java.
 
-## Por que Isso é Importante
+## Por que Isso Importa
 
 - **Organização hierárquica:** Páginas raiz e subpáginas permitem imitar estruturas de pastas dentro do OneNote.  
 - **Exportação de PDF sem falhas:** Uma vez organizadas, a exportação para PDF preserva a hierarquia, tornando o documento final fácil de ler e compartilhar.  
@@ -178,35 +183,35 @@ Parabéns! Você criou com sucesso um documento OneNote com páginas raiz e subp
 ## Armadilhas Comuns e Como Evitá‑las
 
 | Problema | Causa | Solução |
-|----------|-------|----------|
-| Páginas aparecem no mesmo nível | Valor incorreto de `setLevel` | Use `setLevel((byte) 1)` para páginas raiz e `setLevel((byte) 2)` (ou superior) para subpáginas. |
+|----------|-------|--------|
+| Páginas aparecem no mesmo nível | Valor `setLevel` incorreto | Use `setLevel((byte) 1)` para páginas raiz e `setLevel((byte) 2)` (ou superior) para subpáginas. |
 | Saída PDF aparece em branco | Falta `SaveFormat.Pdf` ou caminho de arquivo incorreto | Verifique se o diretório existe e use `SaveFormat.Pdf`. |
-| Fonte não aplicada | Nome de fonte errado ou fonte ausente no sistema | Certifique‑se de que a fonte (ex.: “David Transparent”) está instalada na máquina que executa o código. |
+| Fonte não aplicada | Nome da fonte errado ou fonte ausente no sistema | Certifique‑se de que a fonte (ex.: “David Transparent”) está instalada na máquina que executa o código. |
 
 ## Perguntas Frequentes
 
-**Q: Posso criar múltiplos níveis de subpáginas usando Aspose.Note for Java?**  
+**Q: Posso criar vários níveis de sub‑páginas usando Aspose.Note for Java?**  
 A: Sim, você pode criar hierarquias mais profundas definindo números de nível maiores (por exemplo, `setLevel((byte) 3)` para uma subpágina de terceiro nível).
 
 **Q: O Aspose.Note for Java é compatível com diferentes IDEs Java?**  
 A: Absolutamente. Ele funciona com IntelliJ IDEA, Eclipse, NetBeans e qualquer IDE que suporte desenvolvimento Java.
 
 **Q: Posso personalizar a formatação do texto no meu documento OneNote?**  
-A: Sim. Use `ParagraphStyle` para definir nome da fonte, tamanho, cor e outros atributos para cada elemento `RichText`.
+A: Sim. Use `ParagraphStyle` para definir o nome da fonte, tamanho, cor e outros atributos para cada elemento `RichText`.
 
 **Q: O Aspose.Note for Java suporta salvar documentos em formatos diferentes de BMP?**  
-A: Sim. Os formatos suportados incluem PDF, PNG, JPEG, DOCX e mais. Altere o enum `SaveFormat` conforme necessário.
+A: Sim. Os formatos suportados incluem PDF, PNG, JPEG, DOCX e outros. Altere o enum `SaveFormat` conforme necessário.
 
 **Q: Existe uma versão de avaliação disponível para Aspose.Note for Java?**  
 A: Sim, você pode baixar uma avaliação gratuita no site da Aspose.
 
 ## Conclusão
 
-Organizar seus cadernos OneNote com uma estrutura hierárquica clara e exportá‑los como PDFs torna suas notas mais acessíveis e compartilháveis. Seguindo os passos acima, agora você sabe **como salvar OneNote PDF** e **adicionar subpáginas estilo onenote** programaticamente com Aspose.Note for Java.
+Organizar seus cadernos OneNote com uma estrutura hierárquica clara e exportá‑los como PDFs torna suas notas mais acessíveis e compartilháveis. Seguindo os passos acima, você agora sabe **como salvar onenote como pdf** e **adicionar subpáginas no estilo onenote** programaticamente com Aspose.Note for Java.
 
 ---
 
-**Last Updated:** 2026-01-07  
+**Last Updated:** 2026-04-30  
 **Tested With:** Aspose.Note for Java 24.11 (latest)  
 **Author:** Aspose  
 

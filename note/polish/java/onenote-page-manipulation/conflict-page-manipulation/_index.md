@@ -1,9 +1,13 @@
 ---
-date: 2026-01-07
+date: 2026-04-30
 description: Poznaj strategię rozwiązywania konfliktów, aby rozwiązywać konflikty
   w OneNote i efektywnie zarządzać stronami konfliktów przy użyciu Aspose.Note dla
   Javy.
-linktitle: Conflict Resolution Strategy for OneNote Pages – Aspose.Note
+keywords:
+- conflict resolution strategy
+- resolve onenote conflicts
+- remove onenote conflict pages
+linktitle: Strategia rozwiązywania konfliktów dla stron OneNote – Aspose.Note
 second_title: Aspose.Note Java API
 title: Strategia rozwiązywania konfliktów dla stron OneNote – Aspose.Note
 url: /pl/java/onenote-page-manipulation/conflict-page-manipulation/
@@ -18,32 +22,32 @@ weight: 10
 
 ## Wprowadzenie
 
-Użytkownicy OneNote często napotykają konflikty, gdy wielu użytkowników edytuje tę samą stronę jednocześnie. **Wdrożenie strategii rozwiązywania konfliktów** pomaga skutecznie rozwiązywać te problemy i utrzymać integralność dokumentu. W tym samouczku przeprowadzimy Cię przez manipulację stronami konfliktowymi przy użyciu Aspose.Note for Java, abyś mógł **rozwiązywać konflikty OneNote** i utrzymać swoje notatniki w czystości.
+Użytkownicy OneNote często napotykają konflikty, gdy wiele osób edytuje tę samą stronę jednocześnie. **Wdrożenie strategii rozwiązywania konfliktów** pozwala programowo wykrywać te kolizje, decydować, którą wersję zachować, oraz oczyścić notes, aby pozostał spójny. W tym samouczku przeprowadzimy Cię przez manipulację stronami konfliktowymi przy użyciu Aspose.Note dla Java, abyś mógł **rozwiązywać konflikty OneNote**, **usuwać strony konfliktowe OneNote** i **zapisywać dokumenty OneNote** bez ręcznego czyszczenia.
 
 ## Szybkie Odpowiedzi
-- **Czym jest strategia rozwiązywania konfliktów?** Zestaw programistycznych kroków służących do identyfikacji, oceny i obsługi konfliktowych wersji stron w OneNote.  
-- **Dlaczego manipulować stronami konfliktowymi?** Aby usunąć niepożądane dane konfliktowe i zapewnić, że końcowy dokument odzwierciedla prawidłową wersję.  
-- **Która biblioteka to obsługuje?** Aspose.Note for Java udostępnia dedykowane API do zarządzania stronami konfliktowymi.  
-- **Czy potrzebna jest licencja?** Wymagana jest ważna licencja Aspose.Note do użytku produkcyjnego; dostępna jest darmowa wersja próbna.  
+- **Czym jest strategia rozwiązywania konfliktów?** Zestaw programowych kroków, które identyfikują, oceniają i obsługują konfliktujące wersje stron w OneNote.  
+- **Dlaczego manipulować stronami konfliktowymi?** Aby usunąć niechciane dane konfliktowe i zapewnić, że ostateczny dokument odzwierciedla prawidłową wersję.  
+- **Która biblioteka to obsługuje?** Aspose.Note dla Java udostępnia dedykowane API do zarządzania stronami konfliktowymi.  
+- **Czy potrzebna jest licencja?** Wymagana jest ważna licencja Aspose.Note do użytku produkcyjnego; dostępna jest bezpłatna wersja próbna.  
 - **Czy mogę zautomatyzować to w pipeline'ach CI?** Tak — wystarczy zintegrować kod Java z Twoimi skryptami budowania.
 
-## Czym jest Strategia Rozwiązywania Konfliktów?
-**Strategia rozwiązywania konfliktów** to podejście, które programowo wykrywa strony z konfliktującymi edycjami, decyduje, którą wersję zachować, i opcjonalnie usuwa lub oznacza pozostałe. Dzięki temu współdzielone notatniki pozostają spójne bez ręcznej interwencji.
+## Czym jest strategia rozwiązywania konfliktów?
+**Strategia rozwiązywania konfliktów** to podejście, które programowo wykrywa strony z konfliktującymi edycjami, decyduje, którą wersję zachować, oraz opcjonalnie usuwa lub oznacza pozostałe. Zapewnia to, że współdzielone notesy pozostają spójne bez ręcznej interwencji.
 
-## Dlaczego używać Aspose.Note for Java?
-Aspose.Note abstrahuje format pliku OneNote, dając bezpośredni dostęp do historii stron, metadanych wersji i flag konfliktów. Pozwala to na automatyzację obsługi konfliktów, integrację z istniejącymi aplikacjami Java oraz unikanie problemów związanych z ręcznym czyszczeniem notatników.
+## Dlaczego używać Aspose.Note dla Java?
+Aspose.Note abstrahuje format pliku OneNote, dając bezpośredni dostęp do historii stron, metadanych wersji i flag konfliktów. Dzięki temu możesz **rozwiązywać konflikty OneNote**, **usuwać strony konfliktowe OneNote** i **zapisywać dokumenty OneNote** automatycznie, co czyni go idealnym rozwiązaniem dla automatyzacji klasy enterprise lub pipeline'ów CI/CD.
 
-## Prerequisites
+## Wymagania wstępne
 
-Zanim zagłębisz się w manipulację stronami konfliktowymi, upewnij się, że masz spełnione następujące wymagania:
+Przed przystąpieniem do manipulacji stronami konfliktowymi upewnij się, że masz następujące elementy:
 
 1. **Java Development Kit (JDK)** – Zainstaluj JDK, aby kompilować i uruchamiać programy Java.  
 2. **Aspose.Note for Java** – Pobierz i zainstaluj Aspose.Note for Java ze [strony internetowej](https://releases.aspose.com/note/java/).  
-3. **Zintegrowane Środowisko Programistyczne (IDE)** – Wybierz IDE, takie jak IntelliJ IDEA lub Eclipse, do programowania w Javie.
+3. **Zintegrowane Środowisko Programistyczne (IDE)** – Wybierz IDE, takie jak IntelliJ IDEA lub Eclipse, do programowania w Javie.  
 
-## Importowanie Pakietów
+## Importowanie pakietów
 
-Begin by importing the necessary packages into your Java project:
+Rozpocznij od zaimportowania niezbędnych pakietów do swojego projektu Java:
 
 ```java
 import java.io.IOException;
@@ -59,7 +63,7 @@ import com.aspose.note.SaveFormat;
 
 ## Krok 1: Załaduj dokument
 
-First, load the OneNote document into Aspose.Note:
+Najpierw załaduj dokument OneNote do Aspose.Note:
 
 ```java
 String dataDir = "Your Document Directory";
@@ -68,9 +72,9 @@ LoadOptions options = new LoadOptions();
 Document doc = new Document(dataDir + "Aspose.one", options);
 ```
 
-## Krok 2: Pobierz historię stron
+## Krok 2: Pobierz historię strony
 
-Next, retrieve the page history to identify conflict pages:
+Następnie pobierz historię strony, aby zidentyfikować strony konfliktowe:
 
 ```java
 PageHistory history = doc.getPageHistory(doc.getFirstChild());
@@ -78,7 +82,7 @@ PageHistory history = doc.getPageHistory(doc.getFirstChild());
 
 ## Krok 3: Przejdź przez historię i zastosuj strategię rozwiązywania konfliktów
 
-Iteruj przez historię stron, aby przeanalizować każdą wersję. Tutaj **rozwiązujemy konflikty OneNote** poprzez usunięcie flagi konfliktu, skutecznie **usuwając strony konfliktowe OneNote** z zapisanego dokumentu.
+Iteruj przez historię strony, aby przeanalizować każdą wersję. Tutaj **rozwiązujemy konflikty OneNote** poprzez usunięcie flagi konfliktu, skutecznie **usuwając strony konfliktowe OneNote** z zapisanego dokumentu.
 
 ```java
 DateFormat df = new SimpleDateFormat("dd.MM.yyyy HH.mm.ss");
@@ -98,41 +102,49 @@ for (int i = 0; i < history.size(); i++)
 }
 ```
 
-### Common Pitfalls
+### Typowe pułapki
 - **Pomijanie wywołania `setConflictPage(false)`** – Strony konfliktowe zostaną pominięte w zapisywanym pliku, co może nie być pożądane.  
 - **Modyfikowanie niewłaściwego obiektu strony** – Zawsze pracuj z obiektem `historyPage` pobranym z kolekcji historii.
 
 ## Krok 4: Zapisz zmiany
 
-Save the manipulated document. The conflict pages are now treated as normal pages and will appear in the final file.
+Zapisz zmodyfikowany dokument. Strony konfliktowe są teraz traktowane jak zwykłe strony i pojawią się w ostatecznym pliku, gdy **zapiszesz dokument OneNote**.
 
 ```java
 doc.save(dataDir + "ConflictPageManipulation_out.one", SaveFormat.One);
 //ExEnd: ConflictPageManipulation
 ```
 
-Gratulacje! Pomyślnie zastosowałeś **strategię rozwiązywania konfliktów**, aby zarządzać i **usuwać strony konfliktowe OneNote** przy użyciu Aspose.Note for Java.
+## Dlaczego to ma znaczenie
 
-## Zakończenie
+- **Bezpieczeństwo współpracy:** Zespoły mogą edytować notesy jednocześnie, nie tworząc osieroconych stron konfliktowych.  
+- **Gotowość do automatyzacji:** Ten sam kod może działać w zadaniach zaplanowanych, pipeline'ach CI lub usługach po stronie serwera.  
+- **Czystsze eksporty:** Gdy później wyeksportujesz notes do PDF lub innych formatów, strony konfliktowe nie będą już zanieczyszczać wyniku.
 
-Efektywne zarządzanie stronami konfliktowymi jest kluczowe dla współpracy przy edycji dokumentów. Dzięki Aspose.Note for Java możesz płynnie **rozwiązywać konflikty OneNote**, utrzymywać integralność dokumentu i automatyzować czyszczenie jako część swojego przepływu pracy.
+## Typowe przypadki użycia
 
-## Często zadawane pytania
+| Scenariusz | Jak strategia pomaga |
+|------------|----------------------|
+| **Udostępnione notesy zespołowe** | Automatyczne usuwanie stron konfliktowych po każdym synchronizowaniu. |
+| **Migracja dokumentów** | Czyszczenie konfliktów przed konwersją plików OneNote do innych formatów. |
+| **Ciągła integracja** | Walidacja, że repozytorium plików OneNote nie zawiera nierozwiązanych konfliktów przed wydaniem. |
 
-**Q1: Czy mogę używać Aspose.Note for Java z innymi bibliotekami Java?**  
-A: Oczywiście! Aspose.Note for Java integruje się płynnie z innymi bibliotekami Java, aby zwiększyć możliwości przetwarzania dokumentów.
+## Najczęściej zadawane pytania
 
-**Q2: Czy Aspose.Note for Java jest kompatybilny z różnymi systemami operacyjnymi?**  
-A: Tak, Aspose.Note for Java jest kompatybilny z Windows, Linux i macOS, zapewniając elastyczność na różnych platformach.
+**Q1: Czy mogę używać Aspose.Note dla Java z innymi bibliotekami Java?**  
+A: Oczywiście! Aspose.Note dla Java integruje się bezproblemowo z innymi bibliotekami Java, aby zwiększyć możliwości przetwarzania dokumentów.
 
-**Q3: Czy Aspose.Note for Java obsługuje integrację z chmurą?**  
-A: Tak, Aspose.Note for Java oferuje opcje integracji z chmurą, umożliwiając płynne korzystanie z usług przechowywania w chmurze.
+**Q2: Czy Aspose.Note dla Java jest kompatybilny z różnymi systemami operacyjnymi?**  
+A: Tak, Aspose.Note dla Java jest kompatybilny z Windows, Linux i macOS, zapewniając elastyczność na różnych platformach.
 
-**Q4: Czy mogę dostosować strategie rozwiązywania konfliktów w Aspose.Note for Java?**  
-A: Tak, Aspose.Note for Java zapewnia rozbudowane opcje dostosowywania, pozwalając dopasować strategie rozwiązywania konfliktów do konkretnych wymagań.
+**Q3: Czy Aspose.Note dla Java obsługuje integrację z chmurą?**  
+A: Tak, Aspose.Note dla Java oferuje opcje integracji z chmurą, umożliwiając płynne korzystanie z usług przechowywania w chmurze.
 
-**Q5: Czy istnieje forum społecznościowe dla użytkowników Aspose.Note for Java?**  
-A: Oczywiście! Dołącz do naszego aktywnego forum społecznościowego pod adresem [Aspose.Note for Java Support](https://forum.aspose.com/c/note/28), aby połączyć się z innymi użytkownikami i uzyskać pomoc ekspertów.
+**Q4: Czy mogę dostosować strategie rozwiązywania konfliktów w Aspose.Note dla Java?**  
+A: Tak, Aspose.Note dla Java zapewnia rozbudowane opcje dostosowywania, pozwalając dopasować strategie rozwiązywania konfliktów do konkretnych wymagań.
+
+**Q5: Czy istnieje forum społecznościowe dla użytkowników Aspose.Note dla Java?**  
+A: Oczywiście! Dołącz do naszego tętniącego życiem forum społecznościowego pod adresem [Aspose.Note for Java Support](https://forum.aspose.com/c/note/28), aby połączyć się z innymi użytkownikami i uzyskać pomoc ekspertów.
 
 **Q6: Jak programowo zidentyfikować, które strony są stronami konfliktowymi?**  
 A: Użyj metody `isConflictPage()` na każdym obiekcie `Page` pobranym z kolekcji `PageHistory`.
@@ -140,7 +152,9 @@ A: Użyj metody `isConflictPage()` na każdym obiekcie `Page` pobranym z kolekcj
 **Q7: Czy usunięcie flagi konfliktu wpłynie na inne wersje?**  
 A: Nie. Zmiana flagi konfliktu wpływa tylko na sposób traktowania strony podczas zapisu; inne metadane wersji pozostają niezmienione.
 
-**Ostatnia aktualizacja:** 2026-01-07  
+---
+
+**Ostatnia aktualizacja:** 2026-04-30  
 **Testowano z:** Aspose.Note for Java 24.11  
 **Autor:** Aspose  
 
