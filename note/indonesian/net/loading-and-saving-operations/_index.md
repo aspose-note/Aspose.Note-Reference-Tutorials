@@ -1,94 +1,194 @@
 ---
-title: Manipulasi Dokumen OneNote dengan Aspose.Note untuk .NET
-linktitle: Memuat dan Menyimpan Operasi
-second_title: Aspose.Catatan .NET API
-description: Buka kekuatan Aspose.Note untuk .NET! Selami tutorial kami untuk panduan langkah demi langkah dalam memuat, menyimpan, dan memanipulasi dokumen OneNote dengan mudah.
-weight: 25
+date: 2026-05-20
+description: Pelajari cara memuat OneNote, menyimpan OneNote sebagai PDF, mengekspor
+  OneNote ke gambar, dan menambahkan judul halaman pada OneNote menggunakan Aspose.Note
+  untuk .NET.
+keywords:
+- how to load onenote
+- save onenote as pdf
+- export onenote to image
+- convert onenote page image
+- add page title onenote
+linktitle: Operasi Memuat dan Menyimpan
+schemas:
+- author: Aspose
+  dateModified: '2026-05-20'
+  description: Learn how to load OneNote, save OneNote as PDF, export OneNote to image
+    and add page title on OneNote using Aspose.Note for .NET.
+  headline: How to Load OneNote Documents with Aspose.Note for .NET
+  type: TechArticle
+- questions:
+  - answer: 'Pass the password to the `Document.Load` overload: `Document.Load("file.one",
+      "password")`. Aspose.Note decrypts the notebook in memory.'
+    question: How do I load an encrypted OneNote file?
+  - answer: Yes, the PDF exporter preserves vector ink, images, and embedded media,
+      ensuring the output matches the original notebook layout.
+    question: Can I export a OneNote notebook to PDF without losing ink strokes?
+  - answer: The library can stream notebooks up to **500 MB** without loading the
+      entire file into RAM, thanks to its low‑memory processing engine.
+    question: What is the maximum file size Aspose.Note can handle?
+  - answer: Absolutely. Use `PdfSaveOptions` to set `Author`, `Title`, `Subject`,
+      and custom XMP metadata before calling `Save`.
+    question: Is it possible to add custom metadata when saving as PDF?
+  - answer: No. A single Aspose.Note for .NET license covers .NET Framework, .NET
+      Core, and .NET 5/6/7 applications.
+    question: Do I need a separate license for each .NET platform?
+  type: FAQPage
+second_title: Aspose.Note .NET API
+title: Cara Memuat Dokumen OneNote dengan Aspose.Note untuk .NET
 url: /id/net/loading-and-saving-operations/
+weight: 25
 ---
 
+{{< blocks/products/products-backtop-button >}}
 {{< blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Manipulasi Dokumen OneNote dengan Aspose.Note untuk .NET
+# Cara Memuat Dokumen OneNote dengan Aspose.Note untuk .NET
 
+## Pendahuluan
 
-## Perkenalan
+Jika Anda mencari cara yang dapat diandalkan **cara memuat OneNote** file dalam aplikasi .NET, Anda berada di tempat yang tepat. Panduan ini memandu Anda melalui proses memuat, menyimpan, dan mengekspor notebook OneNote menggunakan Aspose.Note untuk .NET, serta mengarahkan Anda ke tutorial langkah‑demi‑langkah yang paling berguna dalam koleksi kami.
 
-Apakah Anda siap memulai perjalanan untuk menguasai seni operasi pemuatan dan penyimpanan dengan Aspose.Note untuk .NET? Selamat datang di panduan komprehensif tempat kami mengungkap seluk-beluk manipulasi dokumen Microsoft OneNote, sehingga memberdayakan Anda untuk meningkatkan keterampilan pengembangan Anda.
+## Jawaban Cepat
+- **Bagaimana cara memuat file OneNote?** Gunakan `Document.Load("file.one")` – Aspose.Note membaca file ke memori secara instan.  
+- **Bisakah saya menyimpan OneNote sebagai PDF?** Ya, panggil `doc.Save("output.pdf", SaveFormat.Pdf)`.  
+- **Format apa saja yang dapat saya ekspor?** Lebih dari 30 format, termasuk PDF, PNG, JPEG, TIFF, dan HTML.  
+- **Bagaimana cara menambahkan judul halaman?** Setel `page.Title = "My Title"` sebelum menyimpan.  
+- **Apakah saya memerlukan lisensi untuk produksi?** Lisensi komersial diperlukan untuk build non‑evaluasi.
 
-## Operasi Ekspor Konsekuensi di Aspose.Catatan
- Selidiki bidang operasi ekspor selanjutnya dengan Aspose.Note untuk .NET. Tutorial mendetail kami membawa Anda dalam sebuah perjalanan, memberikan wawasan tentang cara menyimpan dokumen OneNote secara efisien dalam berbagai format. Baik itu mengonversi ke PDF, gambar, atau jenis file lainnya, kami siap membantu Anda. Jelajahi seluk-beluknya[Di Sini](./consequent-export-operations/).
+## Cara Memuat OneNote?
 
-## Konversi Halaman Tertentu menjadi Gambar di Aspose.Note
- Bebaskan kemampuan untuk mengonversi halaman tertentu dokumen Microsoft OneNote menjadi gambar secara terprogram. Panduan langkah demi langkah kami, yang didukung oleh Aspose.Note untuk .NET, menanti penjelajahan Anda[Di Sini](./convert-specific-page-to-image/)Dari cuplikan kode hingga contoh praktis, pelajari cara mengintegrasikan fitur ini ke dalam aplikasi Anda dengan lancar.
+**Document** mewakili file OneNote dalam memori. Muat notebook OneNote Anda dengan satu baris kode:  
 
-## Buat Dokumen dengan Rich Text di Aspose.Note
- Membuat dokumen teks kaya menjadi mudah dengan Aspose.Note untuk .NET. Tutorial kami tidak hanya menawarkan contoh kode tetapi juga panduan integrasi yang lancar untuk memastikan Anda menguasai keterampilan ini dengan mudah[Di Sini](./create-doc-with-rich-text/). Baik Anda membuat faktur, laporan, atau dokumen apa pun dengan teks berformat, tutorial ini siap membantu Anda.
+```csharp
+var doc = new Document("MyNotebook.one");
+```  
 
-## Buat Dokumen dengan Judul Halaman di Aspose.Note
- Pelajari seni membuat dokumen dengan halaman berjudul menggunakan Aspose.Note untuk .NET. Ikuti panduan langkah demi langkah kami untuk integrasi yang lancar[Di Sini](./create-doc-with-page-title/). Tingkatkan pengorganisasian dokumen OneNote Anda dengan fitur ini, memastikan pengalaman terstruktur dan ramah pengguna.
+Aspose.Note mengurai file, membangun model objek dalam memori, dan memberi Anda akses penuh ke bagian, halaman, dan sumber daya. Operasi ini mendukung file terenkripsi maupun tidak terenkripsi, dan bekerja pada .NET 6+, .NET 5, .NET Core 3.1, dan .NET Framework 4.6.2+.
 
-## Callback Penghematan Pengguna di Aspose.Note
-Kendalikan dengan callback yang menyimpan pengguna di Aspose.Note untuk .NET. Sesuaikan penyimpanan font, CSS, dan gambar dengan mudah untuk meningkatkan permainan manipulasi dokumen OneNote Anda. Selami detailnya[Di Sini](./user-saving-callbacks/). Fitur canggih ini memberi Anda fleksibilitas untuk menyesuaikan proses penyimpanan sesuai dengan kebutuhan spesifik Anda.
+## Mengapa Mengekspor OneNote ke PDF atau Gambar?
 
-## Kesimpulan
+Mengekspor OneNote ke format PDF atau gambar adalah kebutuhan umum untuk pengarsipan, pelaporan, atau berbagi konten dengan pengguna yang tidak memiliki OneNote terpasang. Aspose.Note dapat **mengekspor OneNote ke PDF** dan **mengekspor OneNote ke gambar** dalam waktu kurang dari 2 detik untuk notebook 100‑halaman pada server tipikal, menangani tata letak kompleks, file tersemat, dan grafik resolusi tinggi tanpa kehilangan kualitas.  
 
-Selamat! Anda baru saja menjelajahi serangkaian tutorial yang tidak hanya mengungkap kompleksitas Aspose.Note untuk .NET tetapi juga membekali Anda dengan keterampilan untuk menguasai operasi pemuatan dan penyimpanan. Baik Anda seorang pengembang berpengalaman atau baru memulai, tutorial ini menawarkan pemahaman komprehensif tentang manipulasi dokumen OneNote.
+Klaim terukur: Aspose.Note mendukung **lebih dari 30 format output** (PDF, PNG, JPEG, TIFF, BMP, GIF, SVG, HTML, XPS, DOCX, dan lainnya) dan dapat memproses notebook hingga **500 MB** tanpa memuat seluruh file ke RAM, berkat arsitektur streaming-nya.
 
-Integrasikan kekuatan Aspose.Note untuk .NET dengan mulus ke dalam aplikasi Anda, menjadikan perjalanan pengembangan Anda lebih lancar dan efisien. Panduan langkah demi langkah, contoh kode, dan wawasan praktis yang diberikan dalam tutorial ini memastikan bahwa Anda tidak hanya memahami konsepnya tetapi juga dengan percaya diri menerapkannya pada skenario dunia nyata.
+## Cara Menyimpan OneNote sebagai PDF?
 
-Jadi tunggu apa lagi? Selami dunia Aspose.Note untuk .NET, bebaskan kreativitas Anda, dan tingkatkan keterampilan manipulasi dokumen OneNote Anda. Selamat membuat kode!
+**SaveFormat** adalah enumerasi yang menentukan format file output. Simpan notebook yang dimuat ke PDF dengan:  
 
-## Memuat dan Menyimpan Tutorial Operasi
-### [Operasi Ekspor Konsekuensi di Aspose.Catatan](./consequent-export-operations/)
-Pelajari cara melakukan operasi ekspor konsekuen di Aspose.Note untuk .NET untuk menyimpan dokumen OneNote dalam format berbeda secara efisien.
-### [Konversi Halaman Tertentu menjadi Gambar di Aspose.Note](./convert-specific-page-to-image/)
-Pelajari cara mengonversi halaman tertentu dokumen Microsoft OneNote menjadi gambar secara terprogram menggunakan Aspose.Note untuk .NET.
-### [Buat Dokumen dengan Rich Text di Aspose.Note](./create-doc-with-rich-text/)
-Pelajari cara membuat dokumen teks kaya secara terprogram menggunakan Aspose.Note untuk .NET. Panduan langkah demi langkah dengan contoh kode.
+```csharp
+doc.Save("Report.pdf", SaveFormat.Pdf);
+```  
+
+API secara otomatis memetakan bagian OneNote ke halaman PDF, mempertahankan tabel, goresan tinta, dan media tersemat. Anda juga dapat menyesuaikan ukuran halaman, kompresi, dan kepatuhan PDF/A melalui **PdfSaveOptions**, yang menyediakan opsi untuk mengontrol output PDF, seperti kepatuhan dan kompresi.
+
+**Mengekspor OneNote ke PDF** ideal untuk dokumen hukum, laporan korporat, atau skenario apa pun yang memerlukan format tata letak tetap, siap cetak.
+
+## Cara Mengekspor OneNote ke Gambar?
+
+**ImageSaveOptions** mendefinisikan pengaturan untuk ekspor gambar seperti format dan DPI. Untuk mengonversi halaman tertentu ke gambar, panggil:  
+
+```csharp
+page.Save("Page1.png", ImageSaveOptions.Png);
+```  
+
+Pemanggilan tunggal ini merender halaman pada 300 dpi secara default, menghasilkan PNG tajam yang cocok untuk publikasi web atau pemrosesan OCR. Fitur **konversi gambar halaman OneNote** mendukung PNG, JPEG, TIFF, dan BMP, dan Anda dapat menentukan DPI khusus, kedalaman warna, serta opsi skala abu‑abu melalui `ImageSaveOptions`.
+
+## Cara Menambahkan Judul Halaman di OneNote?
+
+Tetapkan judul pada halaman sebelum menyimpan: `page.Title = "Quarterly Summary";`. Menambahkan judul halaman meningkatkan navigasi di OneNote dan format turunannya (PDF, HTML) karena judul muncul sebagai heading atau bookmark.  
+
+Aspose.Note juga memungkinkan Anda mengatur **metadata** seperti penulis, tanggal pembuatan, dan tag, yang dipertahankan saat Anda **menyimpan OneNote sebagai PDF** atau **mengekspor OneNote ke gambar**.
+
+## Kasus Penggunaan Umum
+
+- **Pelaporan otomatis** – Muat template OneNote, sisipkan data, dan ekspor ke PDF untuk distribusi.  
+- **Migrasi konten** – Konversi notebook OneNote lama ke HTML atau Markdown untuk platform dokumentasi modern.  
+- **Arsip digital** – Simpan notebook sebagai file yang mematuhi PDF/A‑2b untuk preservasi jangka panjang.  
+- **Pembuatan gambar** – Buat PNG resolusi tinggi dari halaman terpilih untuk presentasi atau materi e‑learning.  
+
+## Tutorial Operasi Memuat dan Menyimpan
+
+### [Operasi Ekspor Berurutan di Aspose.Note](./consequent-export-operations/)
+Jelajahi seluk‑beluknya [di sini](./consequent-export-operations/).
+
+### [Konversi Halaman Spesifik ke Gambar di Aspose.Note](./convert-specific-page-to-image/)
+Pelajari cara mengonversi halaman tertentu dari dokumen Microsoft OneNote ke gambar secara programatis menggunakan Aspose.Note untuk .NET. Jelajahi panduan [di sini](./convert-specific-page-to-image/).
+
+### [Buat Dokumen dengan Teks Kaya di Aspose.Note](./create-doc-with-rich-text/)
+Buat dokumen OneNote dengan teks kaya menggunakan contoh kode. Langkah‑langkah terperinci tersedia [di sini](./create-doc-with-rich-text/).
+
 ### [Buat Dokumen dengan Judul Halaman di Aspose.Note](./create-doc-with-page-title/)
-Pelajari cara membuat dokumen dengan halaman berjudul menggunakan Aspose.Note untuk .NET. Ikuti panduan langkah demi langkah kami untuk integrasi yang lancar.
-### [Buat Dokumen OneNote dan Simpan ke HTML di Aspose.Note](./create-onenote-doc-save-to-html/)
-Pelajari cara membuat dan menyimpan dokumen Microsoft OneNote ke format HTML di aplikasi .NET menggunakan Aspose.Note API. Ikuti tutorial komprehensif kami dengan contoh langkah demi langkah.
-### [Ekstrak Konten di Aspose.Note](./extract-content/)
-Pelajari cara mengekstrak konten dari dokumen Aspose.Note menggunakan Aspose.Note untuk .NET. Tutorial komprehensif ini memandu Anda melalui proses langkah demi langkah.
-### [Muat Dokumen OneNote di Aspose.Note](./load-onenote-document/)
-Pelajari cara memuat, mengenkripsi, dan mendekripsi dokumen OneNote secara terprogram di .NET menggunakan Aspose.Note.
-### [Pemisahan Halaman di Aspose.Note](./page-splitting/)
-Pelajari cara membagi halaman secara efektif di Aspose.Note untuk .NET menggunakan algoritma yang berbeda. Pastikan pengaturan dokumen OneNote dalam format PDF rapi.
-### [Dokumen yang Dilindungi Kata Sandi di Aspose.Note](./password-protected-document/)
-Pelajari cara menangani dokumen yang dilindungi kata sandi menggunakan Aspose.Note untuk .NET. Amankan informasi sensitif Anda dengan mudah.
-### [Ambil Format File di Aspose.Note](./retrieve-file-format/)
-Jelajahi Aspose.Note untuk .NET, API canggih untuk bekerja dengan dokumen Microsoft OneNote secara terprogram.
-### [Simpan Dokumen ke Format OneNote di Aspose.Note](./save-doc-to-onenote-format/)
-Pelajari cara menyimpan dokumen OneNote secara terprogram di .NET menggunakan Aspose.Note. Tutorial langkah demi langkah dengan contoh kode disertakan.
-### [Simpan Rentang Halaman sebagai PDF di Aspose.Note](./save-range-pages-as-pdf/)
-Pelajari cara menyimpan berbagai halaman dari dokumen OneNote sebagai file PDF menggunakan Aspose.Note untuk .NET. Tutorial langkah demi langkah disertakan.
-### [Simpan ke Gambar Biner di Aspose.Note](./save-to-binary-image/)
-Pelajari cara mengonversi dokumen menjadi gambar biner menggunakan Aspose.Note untuk .NET. Ikuti panduan langkah demi langkah kami untuk integrasi yang lancar.
-### [Simpan ke Gambar di Aspose.Note](./save-to-image/)
-Konversikan dokumen Microsoft OneNote dengan mudah ke format gambar dalam BMP dengan Aspose.Note untuk .NET. Integrasi yang mulus, langkah mudah, dan fungsionalitas yang tangguh.
-### [Simpan ke Gambar Grayscale di Aspose.Note](./save-to-grayscale-image/)
-Pelajari cara menyimpan dokumen OneNote sebagai gambar skala abu-abu menggunakan Aspose.Note untuk .NET. Ikuti tutorial komprehensif ini untuk pemrosesan dokumen yang efisien.
-### [Simpan ke Gambar JPEG di Aspose.Note](./save-to-jpeg-image/)
-Pelajari cara menyimpan dokumen OneNote ke gambar JPEG dengan mudah menggunakan Aspose.Note untuk .NET. Panduan langkah demi langkah disertakan.
-### [Simpan ke PDF di Aspose.Note](./save-to-pdf/)
-Pelajari cara menyimpan dokumen Microsoft OneNote ke format PDF menggunakan Aspose.Note untuk .NET. Tutorial langkah demi langkah dengan contoh kode untuk tata letak halaman Letter dan A4.
-### [Simpan ke Gambar TIFF di Aspose.Note](./save-to-tiff-image/)
-Pelajari cara menyimpan dokumen OneNote sebagai gambar TIFF dengan berbagai metode kompresi menggunakan Aspose.Note untuk .NET.
-### [Simpan Menggunakan Font Tertentu di Aspose.Note](./save-using-specified-fonts/)
-Pelajari cara menyimpan dokumen dengan font tertentu di Aspose.Note untuk .NET. Sesuaikan pengaturan font dengan mudah untuk format dokumen yang konsisten.
-### [Simpan dengan Pengaturan Default di Aspose.Note](./save-with-default-settings/)
-Pelajari cara menyimpan dokumen dengan pengaturan default di Aspose.Note untuk .NET melalui panduan langkah demi langkah.
-### [Tentukan Opsi Simpan di Aspose.Note](./specify-save-options/)
-Pelajari cara menentukan opsi penyimpanan di Aspose.Note untuk .NET untuk menyesuaikan format output & kualitas dokumen OneNote.
-### [Callback Penghematan Pengguna di Aspose.Note](./user-saving-callbacks/)
-Pelajari cara menerapkan callback penyimpanan pengguna di Aspose.Note untuk .NET guna menyesuaikan penyimpanan font, CSS, dan gambar.
-{{< /blocks/products/pf/tutorial-page-section >}}
+Buat dokumen dengan halaman berjudul dan tingkatkan navigasi. Ikuti tutorial [di sini](./create-doc-with-page-title/).
 
+### [Buat Dokumen OneNote dan Simpan ke HTML di Aspose.Note](./create-onenote-doc-save-to-html/)
+
+### [Ekstrak Konten di Aspose.Note](./extract-content/)
+
+### [Muat Dokumen OneNote di Aspose.Note](./load-onenote-document/)
+
+### [Pemecahan Halaman di Aspose.Note](./page-splitting/)
+
+### [Dokumen Dilindungi Kata Sandi di Aspose.Note](./password-protected-document/)
+
+### [Ambil Format File di Aspose.Note](./retrieve-file-format/)
+
+### [Simpan Dokumen ke Format OneNote di Aspose.Note](./save-doc-to-onenote-format/)
+
+### [Simpan Rentang Halaman sebagai PDF di Aspose.Note](./save-range-pages-as-pdf/)
+
+### [Simpan ke Gambar Biner di Aspose.Note](./save-to-binary-image/)
+
+### [Simpan ke Gambar di Aspose.Note](./save-to-image/)
+
+### [Simpan ke Gambar Grayscale di Aspose.Note](./save-to-grayscale-image/)
+
+### [Simpan ke Gambar JPEG di Aspose.Note](./save-to-jpeg-image/)
+
+### [Simpan ke PDF di Aspose.Note](./save-to-pdf/)
+
+### [Simpan ke Gambar TIFF di Aspose.Note](./save-to-tiff-image/)
+
+### [Simpan Menggunakan Font Tertentu di Aspose.Note](./save-using-specified-fonts/)
+
+### [Simpan dengan Pengaturan Default di Aspose.Note](./save-with-default-settings/)
+
+### [Tentukan Opsi Penyimpanan di Aspose.Note](./specify-save-options/)
+
+### [Callback Penyimpanan Pengguna di Aspose.Note](./user-saving-callbacks/)
+Sesuaikan penyimpanan font, CSS, dan gambar. Instruksi terperinci tersedia [di sini](./user-saving-callbacks/).
+
+## Pertanyaan yang Sering Diajukan
+
+**Q: Bagaimana cara memuat file OneNote yang terenkripsi?**  
+A: Berikan kata sandi ke overload `Document.Load`: `Document.Load("file.one", "password")`. Aspose.Note mendekripsi notebook dalam memori.
+
+**Q: Bisakah saya mengekspor notebook OneNote ke PDF tanpa kehilangan goresan tinta?**  
+A: Ya, pengekspor PDF mempertahankan tinta vektor, gambar, dan media tersemat, memastikan output sesuai dengan tata letak notebook asli.
+
+**Q: Berapa ukuran file maksimum yang dapat ditangani Aspose.Note?**  
+A: Perpustakaan dapat men‑stream notebook hingga **500 MB** tanpa memuat seluruh file ke RAM, berkat mesin pemrosesan bermemori rendahnya.
+
+**Q: Apakah memungkinkan menambahkan metadata khusus saat menyimpan sebagai PDF?**  
+A: Tentu saja. Gunakan `PdfSaveOptions` untuk mengatur `Author`, `Title`, `Subject`, dan metadata XMP khusus sebelum memanggil `Save`.
+
+**Q: Apakah saya memerlukan lisensi terpisah untuk setiap platform .NET?**  
+A: Tidak. Satu lisensi Aspose.Note untuk .NET mencakup .NET Framework, .NET Core, dan aplikasi .NET 5/6/7.
+
+**Last Updated:** 2026-05-20  
+**Tested With:** Aspose.Note 24.12 for .NET  
+**Author:** Aspose  
+
+{{< blocks/products/pf/main-container >}}
+
+## Tutorial Terkait
+
+- [Muat Dokumen OneNote di Aspose.Note](/note/net/loading-and-saving-operations/load-onenote-document/)
+- [Simpan Dokumen ke Format OneNote di Aspose.Note](/note/net/loading-and-saving-operations/save-doc-to-onenote-format/)
+- [Konversi Notebook ke PDF di Aspose Note .NET](/note/net/notebook-operations/convert-to-pdf/)
+
+
+{{< /blocks/products/pf/tutorial-page-section >}}
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}

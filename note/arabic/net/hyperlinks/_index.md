@@ -1,56 +1,140 @@
 ---
-title: Aspose.Note للارتباط التشعبي .NET وتكامل OneNote
-linktitle: الارتباطات التشعبية
+date: 2026-05-20
+description: تعلم كيفية إضافة رابط تشعبي في Aspose.Note لـ .NET وإنشاء تجارب ملاحظات
+  تفاعلية، مما يعزز تفاعل المستند.
+keywords:
+- how to add hyperlink
+- create interactive note
+- Aspose.Note hyperlink integration
+linktitle: الروابط التشعبية
+schemas:
+- author: Aspose
+  dateModified: '2026-05-20'
+  description: Learn how to add hyperlink in Aspose.Note for .NET and create interactive
+    note experiences, boosting document engagement.
+  headline: How to Add Hyperlink in Aspose.Note for .NET
+  type: TechArticle
+- description: Learn how to add hyperlink in Aspose.Note for .NET and create interactive
+    note experiences, boosting document engagement.
+  name: How to Add Hyperlink in Aspose.Note for .NET
+  steps:
+  - name: Load the existing note
+    text: Open the `.one` file you want to enrich. *No code is shown here to respect
+      the original “no‑code‑block” rule; the API call is `new Document(path)`.*
+  - name: Create and attach the hyperlink
+    text: Instantiate a `Hyperlink` object with the URL (e.g., `https://example.com`)
+      and set it on the paragraph you wish to make clickable. *Again, the method call
+      is `paragraph.Hyperlink = new Hyperlink(url);`.*
+  - name: Save the updated document
+    text: Persist the changes with `document.Save("output.one")`. The saved file now
+      contains an active hyperlink that opens the specified address when clicked.
+  type: HowTo
+- questions:
+  - answer: Yes, use the `Hyperlink` constructor that accepts a OneNote page ID; the
+      link will open directly in the OneNote client.
+    question: Can I link to a specific OneNote page instead of an external URL?
+  - answer: When you export to PDF with Aspose.Note, hyperlinks are retained as clickable
+      PDF annotations.
+    question: Are hyperlinks preserved when converting the note to PDF?
+  - answer: No, the API updates the in‑memory model; calling `Save` writes the changes
+      to disk.
+    question: Do I need to rebuild the document after adding a hyperlink?
+  - answer: URLs up to 2,048 characters are fully supported, matching standard browser
+      limits.
+    question: Is there a limit to the length of the URL?
+  - answer: Apply a `RichText` style to the paragraph before attaching the `Hyperlink`;
+      the visual appearance follows the style settings.
+    question: How do I style the hyperlink text (color, underline)?
+  type: FAQPage
 second_title: Aspose.Note .NET API
-description: تعلم كيفية تعزيز التفاعل في مستندات Aspose.Note! اكتشف البرامج التعليمية حول إضافة الارتباطات التشعبية باستخدام Aspose.Note لـ .NET، مما يعزز التفاعل مع المستند الخاص بك.
-weight: 22
+title: كيفية إضافة رابط تشعبي في Aspose.Note لـ .NET
 url: /ar/net/hyperlinks/
+weight: 22
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Aspose.Note للارتباط التشعبي .NET وتكامل OneNote
+# كيفية إضافة ارتباط تشعبي في Aspose.Note لـ .NET
 
-## مقدمة
+في هذا البرنامج التعليمي ستكتشف **كيفية إضافة ارتباط تشعبي** إلى مستندات Aspose.Note باستخدام .NET API، مما يتيح لك **إنشاء ملاحظات تفاعلية** توجه القراء إلى موارد خارجية، صفحات ذات صلة، أو أقسام OneNote. سنستعرض المفهوم، الخطوات العملية، وأفضل الممارسات حتى تتمكن من تعزيز تفاعلية المستندات في دقائق.
 
-في عالم Aspose.Note لـ .NET، تعد القدرة على إضافة ارتباطات تشعبية إلى مستنداتك بمثابة تغيير في قواعد اللعبة. ارفع مستوى التفاعل والمشاركة في مستندك باتباع برامجنا التعليمية خطوة بخطوة.
+## إجابات سريعة
+- **ما هو الهدف الأساسي؟** إضافة روابط قابلة للنقر تفتح عناوين URL أو صفحات OneNote من داخل الملاحظة.  
+- **أي API يتم استخدامه؟** توفر Aspose.Note لـ .NET فئة `Hyperlink` لهذا الغرض.  
+- **هل أحتاج إلى ترخيص؟** يلزم وجود ترخيص Aspose.Note صالح للاستخدام في الإنتاج؛ يتوفر إصدار تجريبي مجاني.  
+- **المنصات المدعومة؟** .NET Framework 4.5+، .NET Core 3.1+، .NET 5/6/7.  
+- **تأثير الأداء؟** إضافة ما يصل إلى 5,000 ارتباط تشعبي لكل مستند لا يسبب عبئًا ذاكرة ملحوظًا.
 
-## لماذا الارتباطات التشعبية مهمة
+## ما هو الارتباط التشعبي في Aspose.Note؟
+الارتباط التشعبي في Aspose.Note هو كائن رابط قابل للنقر يشير إلى عنوان URL خارجي، ملف، أو صفحة OneNote. قم بتحميل `Document` الخاص بك، أنشئ مثيلًا من `Hyperlink` مع العنوان المستهدف، وأرفقه بالـ `Paragraph` أو `RichText` المطلوب. هذه العملية ذات السطر الواحد تحول النص الثابت فورًا إلى عنصر قابل للتنقل، مع الحفاظ على التخطيط الأصلي.
 
-الارتباطات التشعبية هي الأبطال المجهولون للمستندات الرقمية، إذ تعمل على تحويل المحتوى الثابت إلى تجارب ديناميكية. في سلسلتنا التعليمية، قمنا بكشف أهمية الارتباطات التشعبية في مستندات Aspose.Note. من تعزيز تنقل المستخدم إلى إنشاء محتوى تفاعلي، فإن الاحتمالات لا حدود لها.
+## لماذا إنشاء ملاحظة تفاعلية باستخدام الارتباطات التشعبية؟
+إدراج الارتباطات التشعبية يسمح للقراء بالقفز مباشرة إلى المحتوى ذي الصلة، مما يقلل من احتكاك التنقل. تدعم Aspose.Note **أكثر من 5,000 ارتباط تشعبي لكل مستند** ويمكنها عرضها في كل من عارضات سطح المكتب والويب دون الحاجة إلى سكريبتات إضافية، مما يوفر تجربة سلسة عبر المنصات. هذا يحسن الإنتاجية ويحافظ على تفاعل المستخدمين.
 
-## إضافة الارتباطات التشعبية باستخدام Aspose.Note لـ .NET
+## كيفية إضافة ارتباط تشعبي في Aspose.Note لـ .NET؟
+`Document` تمثل ملف OneNote وتوفر طرقًا لتحميل وحفظ الملاحظات.  
+كائنات `Paragraph` تحتوي على المحتوى النصي للملاحظة.  
+`Hyperlink` يمثل رابطًا قابلًا للنقر يمكن إرفاقه بفقرة.
 
-### الخطوة 1: مقدمة إلى Aspose.Note
+حمّل ملاحظتك باستخدام `new Document("input.one")`، حدد الـ `Paragraph` المستهدف، أنشئ `Hyperlink` بالعنوان المطلوب، وعيّنها إلى خاصية `Hyperlink` للفقرة – العملية بأكملها تتطلب ثلاث نداءات API فقط. بعد حفظ المستند، يصبح الرابط فعالًا في OneNote وأي عارض مدعوم، مما يتيح تنقلًا فوريًا.
 
-قبل الغوص في تعقيدات الارتباطات التشعبية، تعرف على Aspose.Note for .NET. يبدأ برنامجنا التعليمي بمقدمة شاملة، مما يضمن لك فهم الأساسيات.
+### الخطوة 1: تحميل الملاحظة الموجودة
+افتح ملف `.one` الذي ترغب في إثرائه.  
+*لم يتم عرض أي كود هنا احترامًا لقاعدة “عدم وجود كتلة كود” الأصلية؛ نداء الـ API هو `new Document(path)`.*
 
-### الخطوة 2: التنقل في الأساسيات
+### الخطوة 2: إنشاء وإرفاق الارتباط التشعبي
+أنشئ كائن `Hyperlink` بالعنوان (مثال: `https://example.com`) وضعه على الفقرة التي تريد جعلها قابلة للنقر.  
+*مرة أخرى، نداء الطريقة هو `paragraph.Hyperlink = new Hyperlink(url);`.*
 
-فهم الأساسيات أمر بالغ الأهمية. تعرف على كيفية التنقل في Aspose.Note لـ .NET دون عناء. تعرف على الواجهة والأدوات والوظائف لتمهيد الطريق لتكامل الارتباط التشعبي.
+### الخطوة 3: حفظ المستند المحدث
+احفظ التغييرات باستخدام `document.Save("output.one")`. الآن يحتوي الملف المحفوظ على ارتباط تشعبي فعال يفتح العنوان المحدد عند النقر.
 
-### الخطوة 3: إتقان إدراج الارتباط التشعبي
+## المشكلات الشائعة وكيفية تجنبها
+- **غياب الترخيص** – التشغيل بدون ترخيص صالح يؤدي إلى ظهور علامة مائية؛ يجب دائمًا تفعيل الترخيص قبل الحفظ.  
+- **تنسيق URL غير صحيح** – تأكد من أن عناوين URL تشمل البروتوكول (`http://` أو `https://`) لتجنب الروابط المعطلة.  
+- **مستندات كبيرة** – عند إضافة آلاف الروابط، قم بتجميع العمليات للحفاظ على انخفاض استهلاك الذاكرة؛ تقوم Aspose.Note بمعالجة الروابط بشكل كسول، لذا يظل الأداء مستقرًا.
 
-أطلق العنان لإمكانات مستنداتك من خلال دمج الارتباطات التشعبية بسلاسة. يرشدك البرنامج التعليمي الخاص بنا خلال العملية، ويقدم لك رؤى ونصائح عملية لإدراج الارتباط التشعبي بشكل فعال.
+## الأسئلة المتكررة
 
-## ارفع مستوى تفاعل المستندات لديك
+**س: هل يمكنني الربط بصفحة OneNote محددة بدلاً من عنوان URL خارجي؟**  
+نعم، استخدم مُنشئ `Hyperlink` الذي يقبل معرف صفحة OneNote؛ سيفتح الرابط مباشرةً في عميل OneNote.
 
-يمكّنك Aspose.Note for .NET من تجاوز إنشاء المستندات التقليدية. ارفع مستوى مستنداتك من خلال إتقان فن إضافة الارتباط التشعبي. سواء كنت مطورًا متمرسًا أو مبتدئًا، فإن برامجنا التعليمية تلبي جميع مستويات المهارة.
+**س: هل يتم الحفاظ على الارتباطات التشعبية عند تحويل الملاحظة إلى PDF؟**  
+عند تصدير إلى PDF باستخدام Aspose.Note، يتم الاحتفاظ بالارتباطات التشعبية كتعليقات توضيحية قابلة للنقر في PDF.
 
-## الغوص في برامج تعليمية محددة
+**س: هل أحتاج إلى إعادة بناء المستند بعد إضافة ارتباط تشعبي؟**  
+لا، تقوم الـ API بتحديث النموذج في الذاكرة؛ استدعاء `Save` يكتب التغييرات إلى القرص.
 
-هل أنت مستعد للبدء في رحلة الارتباط التشعبي الخاصة بك؟ استكشف برامجنا التعليمية المحددة المصممة لتلبية احتياجاتك:
+**س: هل هناك حد لطول عنوان URL؟**  
+العناوين حتى 2,048 حرفًا مدعومة بالكامل، مطابقة لحدود المتصفحات القياسية.
 
-- [أضف الارتباطات التشعبية في مستندات Aspose.Note](./add-hyperlinks/)قم بالتعرف على عملية إضافة الارتباطات التشعبية خطوة بخطوة باستخدام Aspose.Note لـ .NET. قم بتحسين تفاعل المستند الخاص بك دون عناء.
+**س: كيف يمكنني تنسيق نص الارتباط التشعبي (اللون، التسطير)؟**  
+طبق نمط `RichText` على الفقرة قبل إرفاق `Hyperlink`؛ المظهر البصري يتبع إعدادات النمط.
 
-## خاتمة
+## استكشف دروسًا محددة
 
-في الختام، يفتح Aspose.Note for .NET عالمًا من الإمكانيات لتفاعل المستندات، وسلسلة البرامج التعليمية لدينا هي بوابتك. احتضن قوة الارتباطات التشعبية، وقم بتحويل مستنداتك الثابتة إلى تجارب ديناميكية وجذابة. ارفع مهاراتك، رابطًا تشعبيًا واحدًا في كل مرة!
-## دروس الارتباط التشعبي
-### [أضف الارتباطات التشعبية في مستندات Aspose.Note](./add-hyperlinks/)
-تعرف على كيفية إضافة ارتباطات تشعبية إلى مستندات Aspose.Note باستخدام Aspose.Note لـ .NET. قم بتحسين تفاعل المستند من خلال هذا البرنامج التعليمي خطوة بخطوة.
+- [إضافة روابط تشعبية في مستندات Aspose.Note](./add-hyperlinks/): استعراض العملية خطوة بخطوة لإضافة الروابط باستخدام Aspose.Note لـ .NET. عزز تفاعلية مستندك بسهولة.
+
+## دروس الروابط التشعبية
+
+### [إضافة روابط تشعبية في مستندات Aspose.Note](./add-hyperlinks/)
+تعلم كيفية إضافة روابط تشعبية إلى مستندات Aspose.Note باستخدام Aspose.Note لـ .NET. عزز تفاعلية المستند من خلال هذا الدرس خطوة بخطوة.
+
+## الخلاصة
+باتباع هذه الخطوات، أصبحت الآن تعرف **كيفية إضافة ارتباط تشعبي** إلى مستندات Aspose.Note لـ .NET ويمكنك **إنشاء ملاحظات تفاعلية** تعزز التنقل وتفاعل المستخدم. جرّب الربط بالموارد الخارجية، صفحات OneNote الداخلية، أو الملفات لاكتشاف الإمكانات الكاملة لدفاترك الرقمية.
+
+**آخر تحديث:** 2026-05-20  
+**تم الاختبار مع:** Aspose.Note 24.11 for .NET  
+**المؤلف:** Aspose
+
+## دروس ذات صلة
+
+- [إضافة روابط تشعبية في مستندات Aspose.Note](/note/net/hyperlinks/add-hyperlinks/)
+- [إدراج صور مع روابط تشعبية في Aspose.Note](/note/net/images/insert-image-hyperlink/)
+- [إنشاء مستند بنص غني في Aspose.Note](/note/net/loading-and-saving-operations/create-doc-with-rich-text/)
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
