@@ -1,27 +1,49 @@
 ---
-title: OneNote'ta Madde İşaretli Liste Oluşturma - Aspose.Note
-linktitle: OneNote'ta Madde İşaretli Liste Oluşturma - Aspose.Note
-second_title: Aspose.Note Java API'si
-description: Aspose.Note for Java'yı kullanarak OneNote'ta madde işaretli listeler oluşturmaya ilişkin adım adım kılavuzu keşfedin. Belge oluşturma sürecinizi kolaylıkla geliştirin.
-weight: 12
+date: 2026-03-03
+description: Java için Aspose.Note kullanarak OneNote'ta madde işaretli liste oluşturmayı
+  ve OneNote belgesini PDF olarak kaydetmeyi öğrenin. Java madde işaretleriyle adım
+  adım rehber.
+linktitle: Create Bulleted List OneNote - Aspose.Note
+second_title: Aspose.Note Java API
+title: OneNote'ta Madde İşaretli Liste Oluştur - Aspose.Note
 url: /tr/java/onenote-text-manipulation/create-bulleted-list/
+weight: 12
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# OneNote'ta Madde İşaretli Liste Oluşturma - Aspose.Note
+# OneNote'da Madde İşaretli Liste Oluşturma - Aspose.Note
 
-## giriiş
-Java geliştirmenin dinamik ortamında ilgi çekici ve düzenli belgeler oluşturmak çok önemlidir. Aspose.Note for Java, belge oluşturma sürecinizi geliştirmek için güçlü bir araç seti sağlar. Bu eğitim, Aspose.Note for Java'yı kullanarak OneNote'ta madde işaretli listeler oluşturma sürecinde size rehberlik edecektir. Ayrıntılara dalalım.
-## Önkoşullar
-Başlamadan önce aşağıdaki önkoşullara sahip olduğunuzdan emin olun:
-- Java programlamanın temel bilgisi.
--  Aspose.Note for Java kütüphanesi kuruldu. adresinden indirebilirsiniz.[Java Belgelendirmesi için Aspose.Note](https://reference.aspose.com/note/java/).
-- Makinenizde kurulu bir Java Tümleşik Geliştirme Ortamı (IDE).
-## Paketleri İçe Aktar
-Gerekli paketleri Java projenize aktararak başlayın. Bu, Aspose.Note for Java işlevlerine erişiminizi sağlar.
+## Introduction
+Eğer programlı olarak **OneNote'da madde işaretli liste oluşturmak** istiyorsanız, Aspose.Note for Java size OneNote iç işleyişini sizin yerinize yöneten temiz, akıcı bir API sunar. Bu öğreticide, Java'da madde işaretlerini ayarlama, bunları bir taslağa ekleme ve sonunda **OneNote belgesini PDF olarak kaydetme** adımlarını adım adım göstereceğiz. Sonunda, herhangi bir Java projesine ekleyebileceğiniz hazır bir kod parçacığına sahip olacaksınız.
+
+## Quick Answers
+- **Aspose.Note ne yapar?** OneNote dosyalarını OneNote kurmadan oluşturmanıza, düzenlemenize ve dönüştürmenize olanak tanır.  
+- **Java ile madde işaretleri ayarlayabilir miyim?** Evet – madde işareti stilini tanımlamak için `NumberList` kullanın.  
+- **PDF olarak nasıl dışa aktarırım?** Sayfayı oluşturduktan sonra `doc.save(...".pdf")` çağırın.  
+- **Geliştirme için lisansa ihtiyacım var mı?** Test için ücretsiz deneme sürümü çalışır; üretim için lisans gereklidir.  
+- **Hangi IDE'ler destekleniyor?** Eclipse, IntelliJ IDEA veya VS Code gibi herhangi bir Java IDE'si.
+
+## What is “create bulleted list OneNote”?
+OneNote'da madde işaretli bir liste oluşturmak, her öğesi bir madde işareti karakteri (ör. “*”) ile başlayan bir dizi taslak öğesi eklemek anlamına gelir. Bu yapı okunabilirliği artırır ve kullanıcıların OneNote arayüzünde manuel olarak liste ekleme şeklini taklit eder.
+
+## Why use Aspose.Note for Java to set bullet points?
+- **OneNote kurulumu gerekmez** – sunucularda ve CI pipeline'larında çalışır.  
+- **Stil üzerinde tam kontrol** – yazı tipi, boyut, renk ve madde işareti karakteri tamamen yapılandırılabilir.  
+- **Doğrudan PDF dışa aktarımı** – tek satırda PDF oluşturur, raporlama veya arşivleme için mükemmeldir.  
+
+## Prerequisites
+Başlamadan önce şunlara sahip olduğunuzdan emin olun:
+
+- Temel Java programlama bilgisi.  
+- Aspose.Note for Java kütüphanesi yüklü – [Aspose.Note for Java Documentation](https://reference.aspose.com/note/java/) adresinden indirin.  
+- Makinenizde kurulu bir Java IDE'si (Eclipse, IntelliJ IDEA vb.).
+
+## Import Packages
+Gerekli paketleri Java projenize içe aktararak başlayın. Bu, kullanacağımız tüm Aspose.Note sınıflarına erişmenizi sağlar.
+
 ```java
 import java.awt.Color;
 import java.io.IOException;
@@ -32,75 +54,108 @@ import com.aspose.note.OutlineElement;
 import com.aspose.note.Page;
 import com.aspose.note.RichText;
 import com.aspose.note.ParagraphStyle;
-// Aspose.Note for Java paketlerini içe aktarın
+// Import Aspose.Note for Java packages
 ```
-## 1. Adım: Belgeyi ve Sayfayı Başlatın
-Document sınıfının bir nesnesini oluşturun ve bir Page sınıfı nesnesini başlatın.
+
+## Step 1: Initialize Document and Page
+`Outline`'ın bulunacağı bir `Document` örneği ve bir `Page` oluşturun.
+
 ```java
 String dataDir = "Your Document Directory";
-// Document sınıfının bir nesnesini oluşturun
+// create an object of the Document class
 Document doc = new Document();
-// Sayfa sınıfı nesnesini başlat
+// initialize Page class object
 Page page = new Page();
 ```
-## 2. Adım: Outline'ı ve TextStyle'ı başlatın
-Şimdi, biçimlendirme özellikleriyle bir Outline sınıfı nesnesini ve bir TextStyle sınıfı nesnesini başlatın.
+
+## Step 2: Initialize Outline and TextStyle (set bullet points java)
+Bir `Outline` konteyneri kuracağız ve varsayılan bir `ParagraphStyle` tanımlayacağız. İşte **Java madde işareti ayarlama** stil formatlamasını yaptığımız yer.
+
 ```java
-// Outline sınıfı nesnesini başlat
+// initialize Outline class object
 Outline outline = new Outline();
-// TextStyle sınıfı nesnesini başlatın ve biçimlendirme özelliklerini ayarlayın
+// initialize TextStyle class object and set formatting properties
 ParagraphStyle defaultStyle = new ParagraphStyle()
                                     .setFontColor(Color.black)
                                     .setFontName("Arial")
                                     .setFontSize(10);
 ```
-## Adım 3: Madde İşaretli Liste Öğeleri Oluşturun
-OutlineElement sınıfı nesneleri oluşturun ve madde işaretli bir liste oluşturmak için madde işaretleri uygulayın.
+
+## Step 3: Create Bulleted List Elements
+Bireysel `OutlineElement` nesneleri oluşturun, madde işareti karakterini tanımlayan bir `NumberList` ekleyin ve metni ekleyin.
+
 ```java
-// OutlineElement sınıfı nesnelerini başlatın ve madde işaretleri uygulayın
+// initialize OutlineElement class objects and apply bullets
 OutlineElement outlineElem1 = new OutlineElement();
 outlineElem1.setNumberList(new NumberList("*", "Arial", 10));
-// RichText sınıfı nesnesini başlatın ve metin stilini uygulayın
+// initialize RichText class object and apply text style
 RichText text1 = new RichText().append("First");
 text1.setParagraphStyle(defaultStyle);
 outlineElem1.appendChildLast(text1);
 ```
-Madde işaretli listenizdeki her öğe için yukarıdaki adımları tekrarlayın.
-## 4. Adım: Anahat'a Anahat Öğeleri Ekleme
-Oluşturulan OutlineElement nesnelerini Outline'a ekleyin.
+
+*İhtiyacınız olan her ek madde için yukarıdaki bloğu tekrarlayın (ör. `outlineElem2`, `outlineElem3`).*
+
+## Step 4: Add Outline Elements to Outline
+Tüm madde işareti öğelerini ana `Outline` içine toplayın.
+
 ```java
-// anahat öğeleri ekle
+// add outline elements
 outline.appendChildLast(outlineElem1);
 outline.appendChildLast(outlineElem2);
 outline.appendChildLast(outlineElem3);
 ```
-## 5. Adım: Sayfaya Anahat Ekleyin ve Kaydedin
-Anahat düğümünü Sayfaya ekleyin ve ardından Sayfa düğümünü Belgeye ekleyin. Son olarak belgeyi kaydedin.
+
+## Step 5: Add Outline to Page and Save (save OneNote document as PDF)
+`Outline`'ı `Page`'e ekleyin, sayfayı `Document`'e ekleyin ve sonunda **OneNote belgesini PDF olarak kaydedin**.
+
 ```java
-// Anahat düğümü ekle
+// add Outline node
 page.appendChildLast(outline);
-// Sayfa düğümü ekle
+// add Page node
 doc.appendChildLast(page);
-// belgeyi kaydet
+// save the document
 doc.save(dataDir + "CreateBulletedList_out.pdf");
 ```
-Tebrikler! Aspose.Note for Java'yı kullanarak OneNote'ta başarıyla madde işaretli bir liste oluşturdunuz.
-## Çözüm
-Aspose.Note for Java, iyi biçimlendirilmiş belgeler oluşturma sürecini basitleştirir. Bu eğitim, OneNote'ta madde işaretli liste oluşturma adımlarında size yol gösterdi. Belge oluşturma deneyiminizi geliştirmek için Aspose.Note ile daha fazla olasılığı keşfedin.
-## SSS
-### Aspose.Note for Java tüm Java IDE'leriyle uyumlu mu?
-Evet, Aspose.Note for Java, Eclipse ve IntelliJ IDEA gibi popüler Java Entegre Geliştirme Ortamlarıyla uyumludur.
-### Madde işaretli listenin formatını özelleştirebilir miyim?
-Kesinlikle! Madde işaretli liste öğelerinin yazı tipini, rengini ve boyutunu tercihlerinize göre değiştirebilirsiniz.
-### Aspose.Note for Java için ek desteği nerede bulabilirim?
- Ziyaret edin[Aspose.Note for Java destek forumu](https://forum.aspose.com/c/note/28) topluluktan yardım almak için.
-### Aspose.Note for Java'nın ücretsiz deneme sürümü mevcut mu?
- Evet, ücretsiz deneme sürümünü keşfedebilirsiniz[Burada](https://releases.aspose.com/).
-### Aspose.Note for Java için nasıl geçici lisans edinebilirim?
- Geçici lisans alın[Burada](https://purchase.aspose.com/temporary-license/).
+
+Tebrikler! Artık programlı olarak **OneNote'da madde işaretli liste oluşturmuş** ve Aspose.Note for Java kullanarak PDF olarak dışa aktarmış durumdasınız.
+
+## Common Issues and Solutions
+| Sorun | Çözüm |
+|-------|----------|
+| `outlineElem2` veya `outlineElem3` tanımlı değil | Step 3'ten kod bloğunu her ek madde için çoğaltıp değişkenleri uygun şekilde yeniden adlandırdığınızdan emin olun. |
+| PDF dosyası oluşturulmadı | `dataDir`'in yazılabilir bir klasöre işaret ettiğini ve yazma izinlerinizin olduğunu doğrulayın. |
+| Madde işareti stili farklı görünüyor | İstediğiniz görünüme uyması için `NumberList` yapıcı parametrelerini (yazı tipi, boyut veya karakter) ayarlayın. |
+
+## Frequently Asked Questions
+
+**S: Aspose.Note for Java tüm Java IDE'leriyle uyumlu mu?**  
+C: Evet, Eclipse, IntelliJ IDEA, NetBeans ve standart Java projelerini destekleyen herhangi bir IDE ile çalışır.
+
+**S: Madde işaretli listenin biçimlendirmesini özelleştirebilir miyim?**  
+C: Kesinlikle! `NumberList` parametrelerini değiştirerek yazı tipini, rengi, boyutu ve hatta özel Unicode sembollerini kullanabilirsiniz.
+
+**S: Aspose.Note for Java için ek destek nereden bulunabilir?**  
+C: Topluluk yardımı ve resmi destek için [Aspose.Note for Java support forum](https://forum.aspose.com/c/note/28) adresini ziyaret edin.
+
+**S: Aspose.Note for Java için ücretsiz deneme sürümü var mı?**  
+C: Evet, ücretsiz deneme sürümünü [buradan](https://releases.aspose.com/) inceleyebilirsiniz.
+
+**S: Aspose.Note for Java için geçici lisans nasıl alınır?**  
+C: Geçici lisansı [buradan](https://purchase.aspose.com/temporary-license/) edinebilirsiniz.
+
+## Conclusion
+Aspose.Note for Java, birkaç kısa adımda **OneNote'da madde işaretli liste oluşturmayı**, her maddeyi biçimlendirmeyi ve **OneNote belgesini PDF olarak kaydetmeyi** kolaylaştırır. Uygulamanızın tasarım diline uyması için farklı madde işareti karakterleri, yazı tipleri ve renklerle denemeler yapmaktan çekinmeyin. Tablolar, görseller ve hiperlinkler gibi diğer Aspose.Note özelliklerini keşfederek daha zengin OneNote içeriği oluşturun.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
+
+---
+
+**Son Güncelleme:** 2026-03-03  
+**Test Edilen Sürüm:** Aspose.Note for Java 24.11  
+**Yazar:** Aspose
