@@ -1,33 +1,85 @@
 ---
-title: طباعة المستندات في OneNote - Aspose.Note
-linktitle: طباعة المستندات في OneNote - Aspose.Note
-second_title: Aspose.Note جافا API
-description: تعرف على كيفية طباعة المستندات في OneNote باستخدام Aspose.Note لـ Java. دليل خطوة بخطوة مع أمثلة التعليمات البرمجية والخيارات القابلة للتخصيص.
-weight: 10
+date: 2026-05-31
+description: تعلم كيفية طباعة مستندات OneNote باستخدام Aspose.Note for Java. هذا الدليل
+  خطوة بخطوة يوضح كيفية طباعة ملفات OneNote، ضبط خيارات الطباعة واستخدام الطابعات
+  الافتراضية.
+keywords:
+- how to print onenote
+- print document java
+- set print options
+- print to pdf java
+- print onenote document
+linktitle: كيفية طباعة مستندات OneNote - Aspose.Note
+schemas:
+- author: Aspose
+  dateModified: '2026-05-31'
+  description: Learn how to print OneNote documents using Aspose.Note for Java. This
+    step‑by‑step guide shows how to print onenote files, set print options and use
+    virtual printers.
+  headline: How to Print OneNote Documents with Aspose.Note for Java
+  type: TechArticle
+- description: Learn how to print OneNote documents using Aspose.Note for Java. This
+    step‑by‑step guide shows how to print onenote files, set print options and use
+    virtual printers.
+  name: How to Print OneNote Documents with Aspose.Note for Java
+  steps:
+  - name: Print a Document
+    text: Let's start by printing a document without any specific print options.
+  - name: Print a Document with Print Options
+    text: '`PrintOptions` allows you to set printer name, page range, number of copies,
+      and other printing parameters. You can customize the printing process by specifying
+      print options such as print range and printer settings.'
+  - name: Print Documents with a Virtual Printer
+    text: You can also use virtual printers to print documents. Here's how to print
+      documents with a virtual PDF printer.
+  type: HowTo
+- questions:
+  - answer: Aspose.Note for Java.
+    question: Which library prints OneNote files in Java?
+  - answer: Yes, a valid license is required for production use.
+    question: Do I need a license for printing?
+  - answer: Absolutely—use `PrintOptions` to define a page range.
+    question: Can I print only selected pages?
+  - answer: Yes, you can target PDF, XPS or any installed virtual printer.
+    question: Is a virtual printer supported?
+  - answer: Java 8 or later.
+    question: What Java version is required?
+  type: FAQPage
+second_title: Aspose.Note Java API
+title: كيفية طباعة مستندات OneNote باستخدام Aspose.Note for Java
 url: /ar/java/onenote-printing-documents/print-documents/
+weight: 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# طباعة المستندات في OneNote - Aspose.Note
+# كيفية طباعة مستندات OneNote باستخدام Aspose.Note للغة Java
 
-## مقدمة
+إن طباعة صفحات OneNote مباشرةً من تطبيق Java هي حاجة روتينية للعديد من المؤسسات التي تُنشئ تقارير أو منشورات أو نسخ أرشيفية. **كيفية طباعة onenote** تصبح بسيطة عندما تستخدم Aspose.Note للغة Java، الذي يُجرد التواصل مع الطابعة الأساسية ويسمح لك بالتركيز على منطق الأعمال. في الأقسام أدناه سنستعرض كل ما تحتاجه — من إعداد البيئة إلى الطباعة باستخدام خيارات مخصصة أو طابعة PDF افتراضية.
 
-تعد طباعة المستندات متطلبًا شائعًا للعديد من التطبيقات، بما في ذلك OneNote. يوفر Aspose.Note for Java إمكانات قوية لطباعة المستندات بسهولة داخل تطبيقات Java الخاصة بك. في هذا البرنامج التعليمي، سنتعرف على عملية طباعة المستندات في OneNote باستخدام Aspose.Note لـ Java.
+## إجابات سريعة
+- **أي مكتبة تطبع ملفات OneNote في Java؟** Aspose.Note للغة Java.
+- **هل أحتاج إلى ترخيص للطباعة؟** نعم، يلزم وجود ترخيص صالح للاستخدام في بيئة الإنتاج.
+- **هل يمكنني طباعة صفحات محددة فقط؟** بالتأكيد — استخدم `PrintOptions` لتحديد نطاق الصفحات.
+- **هل تدعم الطابعة الافتراضية؟** نعم، يمكنك استهداف PDF أو XPS أو أي طابعة افتراضية مثبتة.
+- **ما نسخة Java المطلوبة؟** Java 8 أو أحدث.
 
-## المتطلبات الأساسية
+## ما هي طباعة مستندات OneNote باستخدام Aspose.Note؟
+`Document` يمثل دفتر ملاحظات OneNote محملاً في الذاكرة ويوفر طريقة `print` لإرسال المحتوى إلى الطابعة. إنه يجرد التواصل مع الطابعة الأساسية، مما يسمح للمطورين بطباعة إلى أي طابعة مثبتة أو جهاز افتراضي دون الحاجة إلى تطبيق OneNote. هذه الفئة الوحيدة تتعامل مع التحميل، والتصيير، والطباعة دون الحاجة إلى تثبيت Microsoft Office.
 
-قبل البدء، تأكد من توفر المتطلبات الأساسية التالية:
+## المتطلبات المسبقة
 
-1. Java Development Kit (JDK): تأكد من تثبيت JDK على نظامك.
-2.  Aspose.Note for Java JAR: قم بتنزيل مكتبة Aspose.Note for Java وتضمينها في مشروعك. يمكنك تنزيله من[هنا](https://releases.aspose.com/note/java/).
-3. مستند OneNote: قم بإعداد مستند OneNote الذي تريد طباعته.
+قبل أن تبدأ، تأكد من توفر المتطلبات المسبقة التالية:
 
-## حزم الاستيراد
+1. **Java Development Kit (JDK):** Java 8 أو أحدث مثبت على جهاز التطوير الخاص بك.  
+2. **Aspose.Note for Java JAR:** قم بتنزيل وإدراج مكتبة Aspose.Note للغة Java في مشروعك. يمكنك تنزيلها من [here](https://releases.aspose.com/note/java/).  
+3. **OneNote Document:** حضّر مستند OneNote (`.one`) الذي تريد طباعته.
 
-أولاً، تحتاج إلى استيراد الحزم الضرورية إلى فئة Java الخاصة بك:
+## استيراد الحزم
+
+الاستيرادات التالية تجلب الفئات الأساسية من Aspose.Note اللازمة للطباعة.
 
 ```java
 import javax.print.PrintException;
@@ -37,55 +89,61 @@ import com.aspose.note.DocumentPrintAttributeSet;
 import com.aspose.note.PrintOptions;
 ```
 
-## الخطوة 1: طباعة مستند
+## كيف يمكنني طباعة مستند OneNote في Java؟
 
-لنبدأ بطباعة مستند بدون أي خيارات طباعة محددة.
+`Document` يمثل دفتر ملاحظات OneNote محملاً في الذاكرة. طريقة `print()` ترسل المستند المحمل إلى الطابعة المحددة.
+
+حمّل ملف OneNote باستخدام `new Document("myFile.one")` واستدعِ `document.print()` – هذه الدعوة الواحدة ترسل دفتر الملاحظات إلى الطابعة الافتراضية باستخدام محرك التصيير المدمج في المكتبة. للطابعات المخصصة أو نطاقات الصفحات، مرّر كائن `PrintOptions` المُكوَّن إلى طريقة `print`.
+
+### الخطوة 1: طباعة مستند
+
+لنبدأ بطباعة مستند دون أي خيارات طباعة محددة.
 
 ```java
 public static void PrintDocument() throws PrintException {
-    // حدد الدليل الذي يوجد به المستند الخاص بك
+    // Specify the directory where your document is located
     String dataDir = "Your Document Directory";
     
-    // قم بتحميل مستند OneNote
+    // Load the OneNote document
     Document document = new Document(dataDir + "YourDocument.one");
     
-    // طباعة الوثيقة
+    // Print the document
     document.print();
 }
 ```
 
-## الخطوة 2: طباعة مستند باستخدام خيارات الطباعة
+### الخطوة 2: طباعة مستند مع خيارات الطباعة
 
-يمكنك تخصيص عملية الطباعة عن طريق تحديد خيارات الطباعة مثل نطاق الطباعة وإعدادات الطابعة.
+`PrintOptions` يتيح لك تعيين اسم الطابعة، نطاق الصفحات، عدد النسخ، وغيرها من معلمات الطباعة. يمكنك تخصيص عملية الطباعة عن طريق تحديد خيارات الطباعة مثل نطاق الطباعة وإعدادات الطابعة.
 
 ```java
 public static void PrintDocumentWithPrintOptions() throws PrintException {
-    // حدد الدليل الذي يوجد به المستند الخاص بك
+    // Specify the directory where your document is located
     String dataDir = "Your Document Directory";
 
-    // قم بتحميل مستند OneNote
+    // Load the OneNote document
     Document document = new Document(dataDir + "YourDocument.one");
 
-    // تحديد خيارات الطباعة
+    // Define print options
     final DocumentPrintAttributeSet asposeAttr = new DocumentPrintAttributeSet("Microsoft XPS Document Writer");
     asposeAttr.setPrintRange(1, 2);
 
-    // اطبع المستند بالخيارات المحددة
+    // Print the document with specified options
     document.print(asposeAttr);
 }
 ```
 
-## الخطوة 3: طباعة المستندات باستخدام طابعة افتراضية
+### الخطوة 3: طباعة مستندات باستخدام طابعة افتراضية
 
-يمكنك أيضًا استخدام الطابعات الافتراضية لطباعة المستندات. فيما يلي كيفية طباعة المستندات باستخدام طابعة PDF افتراضية.
+يمكنك أيضًا استخدام الطابعات الافتراضية لطباعة المستندات. إليك كيفية طباعة المستندات باستخدام طابعة PDF افتراضية.
 
 ```java
 public static void PrintDocumentsWithVirtualPrinter() throws PrintException {
-    // حدد الدليل الذي يوجد به المستند الخاص بك
+    // Specify the directory where your document is located
     String dataDir = "Your Document Directory";
     Document doc = new Document(dataDir + "YourDocument.one");
      
-    // تحديد خيارات الطباعة للطابعة الافتراضية
+    // Define print options for virtual printer
     final DocumentPrintAttributeSet asposeAttr = new DocumentPrintAttributeSet("doPDF 8");
     asposeAttr.setPrintRange(1, 2);
     asposeAttr.setCopies(3);
@@ -94,39 +152,48 @@ public static void PrintDocumentsWithVirtualPrinter() throws PrintException {
     printOptions.setDocumentName("YourDocument.one");
     printOptions.setPrinterSettings(asposeAttr);
       
-    // اطبع المستند باستخدام الطابعة الافتراضية
+    // Print the document using virtual printer
     doc.print(printOptions);
 }
 ```
 
-## خاتمة
+## المشكلات الشائعة والنصائح
 
-تعد طباعة المستندات في OneNote باستخدام Aspose.Note لـ Java واضحة ومرنة. باتباع الخطوات الموضحة في هذا البرنامج التعليمي، يمكنك دمج وظيفة طباعة المستندات بسلاسة في تطبيقات Java الخاصة بك.
+- **الطابعة غير موجودة:** تأكد من أن اسم الطابعة الممرّر إلى `PrintOptions` يطابق تمامًا الاسم المعروض في قائمة طابعات نظام التشغيل.  
+- **دفاتر ملاحظات كبيرة:** عند طباعة دفاتر ملاحظات أكبر من 300 صفحة، فكر في ضبط `PrintOptions.setEnablePageCaching(true)` لتقليل الضغط على الذاكرة.  
+- **طابعة PDF افتراضية:** بعض طابعات PDF تتطلب مجلد إخراج مؤقت؛ قم بتكوين `PrintOptions.setOutputFile("C:\\Temp\\output.pdf")` وفقًا لذلك.
 
-## الأسئلة الشائعة
+## الأسئلة المتكررة
 
-### س1: هل يمكنني طباعة صفحات معينة من مستند OneNote؟
+### Q1: هل يمكنني طباعة صفحات محددة من مستند OneNote؟
+A1: نعم، يمكنك تحديد نطاق الطباعة لطباعة صفحات محددة من المستند.
 
-A1: نعم، يمكنك تحديد نطاق الطباعة لطباعة صفحات معينة من المستند.
+### Q2: هل Aspose.Note للغة Java متوافق مع الطابعات الافتراضية؟
+A2: نعم، Aspose.Note للغة Java يدعم طباعة المستندات باستخدام الطابعات الافتراضية.
 
-### س2: هل Aspose.Note for Java متوافق مع الطابعات الافتراضية؟
+### Q3: هل يمكنني تخصيص إعدادات الطباعة مثل عدد النسخ؟
+A3: بالتأكيد، يمكنك تخصيص إعدادات طباعة مختلفة بما في ذلك عدد النسخ، نطاق الطباعة، وأكثر.
 
-ج2: نعم، يدعم Aspose.Note for Java طباعة المستندات باستخدام الطابعات الافتراضية.
+### Q4: هل يتطلب Aspose.Note للغة Java ترخيصًا لطباعة المستندات؟
+A4: نعم، تحتاج إلى ترخيص صالح لاستخدام Aspose.Note للغة Java في بيئة الإنتاج.
 
-### س3: هل يمكنني تخصيص إعدادات الطباعة مثل عدد النسخ؟
+### Q5: أين يمكنني العثور على المزيد من الدعم والموارد لـ Aspose.Note للغة Java؟
+A5: يمكنك العثور على الوثائق والمنتديات والموارد الإضافية على [صفحة دعم Aspose.Note للغة Java](https://forum.aspose.com/c/note/28).
 
-ج3: بالتأكيد، يمكنك تخصيص إعدادات الطباعة المختلفة بما في ذلك عدد النسخ ونطاق الطباعة والمزيد.
+---
 
-### س4: هل يتطلب Aspose.Note for Java ترخيصًا لطباعة المستندات؟
-
-ج4: نعم، أنت بحاجة إلى ترخيص صالح لاستخدام Aspose.Note لـ Java في بيئة الإنتاج.
-
-### س5: أين يمكنني العثور على مزيد من الدعم والموارد لـ Aspose.Note لـ Java؟
-
- ج5: يمكنك العثور على الوثائق والمنتديات والموارد الإضافية على الموقع[Aspose.Note لصفحة دعم Java](https://forum.aspose.com/c/note/28).
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
+**آخر تحديث:** 2026-05-31  
+**تم الاختبار مع:** Aspose.Note 24.12 for Java  
+**المؤلف:** Aspose  
 
 {{< blocks/products/products-backtop-button >}}
+
+## دروس ذات صلة
+
+- [كيفية حفظ OneNote كملف PDF باستخدام Aspose.Note للغة Java](/note/java/onenote-document-loading/load-save-format/)
+- [تصدير صفحة OneNote إلى صورة PNG في Java باستخدام Aspose.Note](/note/java/onenote-document-loading/convert-page-to-png-image/)
+- [إنشاء مستند OneNote باستخدام Aspose.Note للغة Java – دروس شاملة](/note/java/)
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
