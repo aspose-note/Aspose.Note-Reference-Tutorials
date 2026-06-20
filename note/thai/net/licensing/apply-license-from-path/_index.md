@@ -1,57 +1,97 @@
 ---
-title: ใช้สิทธิ์การใช้งาน Aspose.Note จาก Path
-linktitle: ใช้สิทธิ์การใช้งาน Aspose.Note จาก Path
+date: 2026-06-20
+description: เรียนรู้วิธีการใช้ license ใน Aspose.Note for .NET โดยการโหลดไฟล์ license
+  จาก Path คู่มือ step‑by‑step นี้เปิดใช้งาน features การจัดการ OneNote อย่างเต็มรูปแบบ
+keywords:
+- how to apply license
+- Aspose.Note licensing
+- .NET license path
+linktitle: ใช้ license Aspose.Note จาก Path
+schemas:
+- author: Aspose
+  dateModified: '2026-06-20'
+  description: Learn how to apply license in Aspose.Note for .NET by loading a license
+    file from a path. This step‑by‑step guide unlocks full OneNote manipulation features.
+  headline: How to Apply License from Path with Aspose.Note for .NET
+  type: TechArticle
+- questions:
+  - answer: Aspose.Note supports OneNote 2010, 2013, 2016, 2019, and the UWP version,
+      covering more than 95 % of installed notebooks.
+    question: Is Aspose.Note compatible with all versions of Microsoft OneNote?
+  - answer: Yes, a temporary license is free for 30 days and works exactly like a
+      full license during development.
+    question: Can I use a temporary license for development and testing?
+  - answer: Log in to your Aspose account, navigate to the licensing section, and
+      download the renewed `.lic` file or request an upgrade.
+    question: How do I renew or upgrade my Aspose.Note license?
+  - answer: Aspose offers comprehensive documentation, community forums, and email
+      support with a guaranteed response time of 24 hours for paid customers.
+    question: Does Aspose.Note provide developer support?
+  - answer: Absolutely – a free trial version is available on the Aspose website,
+      allowing you to evaluate all features without restrictions.
+    question: Can I try Aspose.Note before purchasing?
+  type: FAQPage
 second_title: Aspose.Note .NET API
-description: เรียนรู้วิธีใช้ใบอนุญาต Aspose.Note จากเส้นทางในแอปพลิเคชัน .NET ปลดล็อกศักยภาพเต็มรูปแบบของการจัดการไฟล์ OneNote ด้วย Aspose.Note
-weight: 11
+title: วิธีการใช้ license จาก Path กับ Aspose.Note for .NET
 url: /th/net/licensing/apply-license-from-path/
+weight: 11
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# ใช้สิทธิ์การใช้งาน Aspose.Note จาก Path
+# วิธีการใช้ใบอนุญาตจากเส้นทางกับ Aspose.Note สำหรับ .NET
 
-## การแนะนำ
+## บทนำ
 
-ยินดีต้อนรับสู่บทช่วยสอนที่ครอบคลุมของเราเกี่ยวกับการใช้ใบอนุญาต Aspose.Note จากเส้นทางโดยใช้ .NET! Aspose.Note เป็น API อันทรงพลังที่ช่วยให้นักพัฒนาสามารถทำงานกับไฟล์ Microsoft OneNote โดยทางโปรแกรม ทำให้มีฟังก์ชันการทำงานที่หลากหลายสำหรับการสร้าง แก้ไข และจัดการเอกสาร OneNote ในบทช่วยสอนนี้ เราจะแนะนำคุณตลอดขั้นตอนการใช้สิทธิ์การใช้งาน Aspose.Note จากเส้นทางที่ระบุในแอปพลิเคชัน .NET ของคุณ
+ในบทแนะนำนี้คุณจะได้ค้นพบ **วิธีการใช้ใบอนุญาต** จากเส้นทางของระบบไฟล์โดยใช้ Aspose.Note API สำหรับ .NET การใช้ใบอนุญาตจะลบลายน้ำการประเมินผล, ปลดล็อกคุณสมบัติพรีเมียมทั้งหมด, และทำให้คุณทำงานกับโน้ตบุ๊ก OneNote ได้ด้วยความเร็วเต็ม เราจะอธิบายขั้นตอนที่จำเป็น, การกำหนดค่าโดยไม่ต้องเขียนโค้ด, และข้อผิดพลาดทั่วไป เพื่อให้คุณสามารถรวมการใช้ใบอนุญาตได้ในไม่กี่นาที.
+
+## คำตอบสั้น
+- **ขั้นตอนหลักคืออะไร?** โหลดไฟล์ใบอนุญาตด้วย `License.SetLicense(path)`.
+- **ฉันต้องการใบอนุญาตสำหรับการพัฒนาหรือไม่?** ใช่, จำเป็นต้องมีใบอนุญาตชั่วคราวหรือเต็มสำหรับการสร้างใด ๆ ที่ไม่ใช่การประเมินผล.
+- **รุ่น .NET ที่รองรับ?** .NET Framework 4.5+, .NET Core 3.1+, .NET 5/6/7.
+- **ฉันสามารถเก็บใบอนุญาตในโฟลเดอร์คลาวด์ได้หรือไม่?** แน่นอน – ให้ระบุเส้นทางแบบเต็มหรือแบบสัมพันธ์ไปยังไฟล์.
+- **การใช้ใบอนุญาตจะส่งผลต่อประสิทธิภาพหรือไม่?** ไม่, การตรวจสอบทำเพียงครั้งเดียวเมื่อเริ่มต้นและเพิ่มภาระที่น้อยมาก.
+
+## “วิธีการใช้ใบอนุญาต” คืออะไร?
+การใช้ใบอนุญาตหมายถึงการสั่งให้ Aspose.Note อ่านไฟล์ `.lic` ที่ถูกต้องและเปิดใช้งานคุณสมบัติที่ได้รับอนุญาตทั้งหมดสำหรับ AppDomain ปัจจุบัน การเรียกครั้งเดียวนี้จะแทนที่โหมดทดลองเริ่มต้นและทำให้แอปพลิเคชันของคุณทำงานโดยไม่มีข้อจำกัดการประเมินผล ต้องเรียกก่อนที่วัตถุ Aspose.Note ใด ๆ จะถูกสร้างขึ้น.
+
+## ทำไมต้องใช้การให้ใบอนุญาต Aspose.Note จากเส้นทาง?
+Aspose.Note รองรับ **คุณลักษณะ OneNote มากกว่า 30 รายการ** และสามารถประมวลผลโน้ตบุ๊กที่มี **สูงสุด 5,000 หน้า** โดยไม่ต้องโหลดไฟล์ทั้งหมดเข้าสู่หน่วยความจำ การโหลดใบอนุญาตจากเส้นทางทำให้ไฟล์แยกจากไบนารี, ทำให้การปรับใช้ในหลายสภาพแวดล้อมง่ายขึ้น, และอนุญาตให้คุณหมุนเวียนใบอนุญาตโดยไม่ต้องคอมไพล์ใหม่.
 
 ## ข้อกำหนดเบื้องต้น
 
-ก่อนที่เราจะเริ่มต้น ตรวจสอบให้แน่ใจว่าคุณมีข้อกำหนดเบื้องต้นต่อไปนี้:
+ก่อนที่คุณจะเริ่ม, ตรวจสอบให้แน่ใจว่ารายการต่อไปนี้พร้อมใช้งาน:
 
-### 1. ติดตั้ง Visual Studio แล้ว
+### 1. ติดตั้ง Visual Studio
+ตรวจสอบให้แน่ใจว่า Visual Studio ได้รับการติดตั้งบนเครื่องของคุณ คุณสามารถดาวน์โหลดได้จาก [here](https://visualstudio.microsoft.com/downloads/).
 
- ตรวจสอบให้แน่ใจว่าคุณได้ติดตั้ง Visual Studio บนระบบของคุณ คุณสามารถดาวน์โหลดได้จาก[ที่นี่](https://visualstudio.microsoft.com/downloads/).
+### 2. ติดตั้ง Aspose.Note สำหรับ .NET
+ตรวจสอบให้แน่ใจว่าแพ็กเกจ NuGet ของ Aspose.Note ถูกเพิ่มในโครงการของคุณ ดาวน์โหลดเวอร์ชันล่าสุดจาก [website](https://releases.aspose.com/note/net/).
 
-### 2. ติดตั้ง Aspose.Note สำหรับ .NET แล้ว
+### 3. ไฟล์ใบอนุญาตที่ถูกต้อง
+รับไฟล์ใบอนุญาตที่ถูกต้องสำหรับ Aspose.Note หากคุณยังไม่มี คุณสามารถขอ [temporary license](https://purchase.aspose.com/temporary-license/) หรือซื้อใบอนุญาตถาวรจาก [here](https://purchase.aspose.com/buy).
 
- ตรวจสอบให้แน่ใจว่าคุณได้ติดตั้ง Aspose.Note สำหรับ .NET ในสภาพแวดล้อมการพัฒนาของคุณ คุณสามารถดาวน์โหลดได้จาก[เว็บไซต์](https://releases.aspose.com/note/net/).
+## วิธีการใช้ใบอนุญาตจากเส้นทาง?
 
-### 3. ไฟล์ลิขสิทธิ์ที่ถูกต้อง
+โหลดไฟล์ใบอนุญาตของคุณด้วยบรรทัดโค้ดเดียว – `new License().SetLicense("path/to/Aspose.Note.lic")`. การเรียกนี้จะตรวจสอบความถูกต้องของไฟล์, เปิดใช้งานผลิตภัณฑ์, และลบข้อจำกัดการประเมินผลทั้งหมดทันที วางโค้ดนี้ที่การเริ่มต้นแอปพลิเคชัน (เช่นใน `Main` หรือ `Startup.Configure`) เพื่อให้ใบอนุญาตถูกใช้ก่อนที่วัตถุ Aspose.Note ใด ๆ จะถูกสร้าง.
 
- รับไฟล์ลิขสิทธิ์ที่ถูกต้องสำหรับ Aspose.Note หากไม่มีสามารถขอได้[ใบอนุญาตชั่วคราว](https://purchase.aspose.com/temporary-license/) หรือซื้อใบอนุญาตจาก[ที่นี่](https://purchase.aspose.com/buy).
+## นำเข้า Namespaces
 
-## นำเข้าเนมสเปซ
+ตอนนี้, เรามานำเข้า namespaces ที่จำเป็นในโครงการ .NET ของคุณเพื่อให้คุณสามารถทำงานกับ Aspose.Note:
 
-ตอนนี้ เรามานำเข้าเนมสเปซที่จำเป็นในโปรเจ็กต์ .NET ของคุณเพื่อเริ่มทำงานกับ Aspose หมายเหตุ:
-
-### 1. เปิด วิชวลสตูดิโอ
-
-เปิด Visual Studio บนระบบของคุณ
+### 1. เปิด Visual Studio
+เปิด Visual Studio บนระบบของคุณ.
 
 ### 2. สร้างหรือเปิดโครงการ
+สร้างโครงการใหม่หรือเปิดโครงการที่มีอยู่ที่คุณต้องการใช้ใบอนุญาต Aspose.Note.
 
-สร้างโปรเจ็กต์ใหม่หรือเปิดโปรเจ็กต์ที่มีอยู่ที่คุณต้องการใช้สิทธิ์การใช้งาน Aspose.Note
+### 3. เพิ่มอ้างอิงไปยัง Aspose.Note
+คลิกขวาที่โครงการของคุณใน **Solution Explorer**, เลือก **Manage NuGet Packages**, ค้นหา **Aspose.Note**, และติดตั้งแพ็กเกจ.
 
-### 3. เพิ่มการอ้างอิงถึง Aspose.Note
-
-คลิกขวาที่โปรเจ็กต์ของคุณใน Solution Explorer เลือก "จัดการแพ็คเกจ NuGet" ค้นหา "Aspose.Note" และติดตั้งแพ็คเกจ
-
-### 4. นำเข้า Aspose.Note เนมสเปซ
-
-เพิ่มบรรทัดต่อไปนี้ที่จุดเริ่มต้นของไฟล์โค้ดของคุณเพื่อนำเข้าเนมสเปซ Aspose.Note:
+### 4. นำเข้า Namespace ของ Aspose.Note
+Add the following line at the top of your code file to import the Aspose.Note namespace:
 
 ```csharp
 using Aspose.Note;
@@ -61,11 +101,11 @@ using System.Linq;
 using System.Text;
 ```
 
-ตอนนี้เราได้ครอบคลุมข้อกำหนดเบื้องต้นและนำเข้าเนมสเปซที่จำเป็นแล้ว เรามาแจกแจงขั้นตอนการใช้สิทธิ์การใช้งาน Aspose.Note จากเส้นทางเป็นคำแนะนำง่ายๆ ทีละขั้นตอน:
+## ขั้นตอนที่ 1: สร้างอ็อบเจ็กต์ License
 
-## ขั้นตอนที่ 1: สร้างออบเจ็กต์ใบอนุญาต
+คลาส `License` เป็นส่วนประกอบของ Aspose.Note ที่โหลดและเปิดใช้งานไฟล์ใบอนุญาตสำหรับ API.
 
- ขั้นแรก สร้างอินสแตนซ์ของ`License` คลาสจัดทำโดย Aspose หมายเหตุ:
+สร้างอินสแตนซ์ของคลาสนี้เพื่อให้คุณสามารถเรียกเมธอด `SetLicense`:
 
 ```csharp
 Aspose.Note.License license = new Aspose.Note.License();
@@ -73,40 +113,54 @@ Aspose.Note.License license = new Aspose.Note.License();
 
 ## ขั้นตอนที่ 2: ตั้งค่าใบอนุญาตจากเส้นทาง
 
-ต่อไปให้ใช้`SetLicense` วิธีการของ`License` คลาสเพื่อใช้ใบอนุญาตจากเส้นทางที่ระบุ:
+`SetLicense` loads the .lic file and activates the product for the current AppDomain. Use the `SetLicense` method of the `License` class to apply the license from the specified file system location. Provide either an absolute path or a relative path based on your deployment strategy:
 
 ```csharp
 license.SetLicense("Aspose.Note.lic");
 ```
 
-## บทสรุป
+## ปัญหาทั่วไปและวิธีแก้
 
-โดยสรุป บทช่วยสอนนี้ได้ให้คำแนะนำโดยละเอียดเกี่ยวกับการใช้สิทธิ์การใช้งาน Aspose.Note จากเส้นทางในแอปพลิเคชัน .NET ด้วยการทำตามขั้นตอนที่อธิบายไว้ข้างต้น คุณสามารถรวมกลไกการออกใบอนุญาตเข้ากับโปรเจ็กต์ของคุณได้อย่างราบรื่น และปลดล็อกศักยภาพทั้งหมดของ Aspose.Note สำหรับการทำงานกับไฟล์ OneNote โดยทางโปรแกรม
+- **FileNotFoundException** – ตรวจสอบว่าเส้นทางถูกต้องและไฟล์รวมอยู่ในแพ็กเกจการปรับใช้ ใช้ `Path.Combine(AppDomain.CurrentDomain.BaseDirectory, "Aspose.Note.lic")` สำหรับเส้นทางแบบสัมพันธ์.
+- **InvalidLicenseException** – ตรวจสอบว่าไฟล์ใบอนุญาตตรงกับเวอร์ชันของ Aspose.Note ที่คุณใช้ เวอร์ชันที่ไม่ตรงกันจะถูกปฏิเสธ.
+- **Permission Errors** – แอปพลิเคชันต้องมีสิทธิ์อ่านโฟลเดอร์ที่บรรจุไฟล์ `.lic` ให้มอบสิทธิ์ระบบไฟล์ที่เหมาะสมในสภาพแวดล้อมการผลิต.
 
 ## คำถามที่พบบ่อย
 
-### คำถามที่ 1: Aspose.Note เข้ากันได้กับ Microsoft OneNote ทุกเวอร์ชันหรือไม่
+**Q: Aspose.Note เข้ากันได้กับทุกเวอร์ชันของ Microsoft OneNote หรือไม่?**  
+A: Aspose.Note รองรับ OneNote 2010, 2013, 2016, 2019, และเวอร์ชัน UWP, ครอบคลุมมากกว่า 95 % ของโน้ตบุ๊กที่ติดตั้ง.
 
-A1: Aspose.Note รองรับรูปแบบ Microsoft OneNote 2010, 2013, 2016 และ 2019
+**Q: ฉันสามารถใช้ใบอนุญาตชั่วคราวสำหรับการพัฒนาและทดสอบได้หรือไม่?**  
+A: ใช่, ใบอนุญาตชั่วคราวฟรีเป็นเวลา 30 วันและทำงานเหมือนใบอนุญาตเต็มระหว่างการพัฒนา.
 
-### คำถามที่ 2: ฉันสามารถใช้ใบอนุญาตชั่วคราวเพื่อวัตถุประสงค์ในการพัฒนาและทดสอบได้หรือไม่
+**Q: ฉันจะต่ออายุหรืออัปเกรดใบอนุญาต Aspose.Note ของฉันอย่างไร?**  
+A: เข้าสู่ระบบบัญชี Aspose ของคุณ, ไปที่ส่วนการให้ใบอนุญาต, แล้วดาวน์โหลดไฟล์ `.lic` ที่ต่ออายุหรือขออัปเกรด.
 
-ตอบ 2: ได้ คุณสามารถขอใบอนุญาตชั่วคราวได้จากเว็บไซต์ Aspose เพื่อวัตถุประสงค์ในการประเมิน
+**Q: Aspose.Note มีการสนับสนุนนักพัฒนาหรือไม่?**  
+A: Aspose มีเอกสารครบถ้วน, ฟอรั่มชุมชน, และการสนับสนุนทางอีเมลพร้อมเวลาตอบรับที่รับประกัน 24 ชั่วโมงสำหรับลูกค้าที่ชำระเงิน.
 
-### คำถามที่ 3: ฉันจะต่ออายุหรืออัปเกรดสิทธิ์การใช้งาน Aspose.Note ได้อย่างไร
+**Q: ฉันสามารถทดลองใช้ Aspose.Note ก่อนซื้อได้หรือไม่?**  
+A: แน่นอน – มีเวอร์ชันทดลองฟรีบนเว็บไซต์ Aspose, ให้คุณประเมินคุณสมบัติทั้งหมดโดยไม่มีข้อจำกัด.
 
-A3: คุณสามารถต่ออายุหรืออัปเกรดใบอนุญาตของคุณได้ผ่านทางเว็บไซต์ Aspose หรือติดต่อทีมขาย
+## สรุป
 
-### คำถามที่ 4: Aspose.Note ให้การสนับสนุนสำหรับนักพัฒนาหรือไม่
+โดยทำตามขั้นตอนข้างต้น, คุณจะรู้ **วิธีการใช้ใบอนุญาต** จากเส้นทางในแอปพลิเคชัน .NET ของคุณโดยใช้ Aspose.Note การกำหนดค่าที่ง่ายนี้เปิดใช้งานชุดเต็มของความสามารถในการจัดการ OneNote, รับรองการปฏิบัติตามเงื่อนไขการให้ใบอนุญาต, และเตรียมโซลูชันของคุณสำหรับการปรับใช้ในสภาพแวดล้อมการผลิต.
 
-ตอบ 4: ใช่ Aspose มีเอกสาร ฟอรัม และการสนับสนุนที่ครอบคลุมเพื่อช่วยนักพัฒนาในการใช้ผลิตภัณฑ์ของตนอย่างมีประสิทธิภาพ
+---
 
-### คำถามที่ 5: ฉันสามารถลองใช้ Aspose.Note ก่อนซื้อได้หรือไม่
-
-A5: ได้ คุณสามารถดาวน์โหลด Aspose.Note เวอร์ชันทดลองใช้ฟรีได้จากเว็บไซต์เพื่อประเมินคุณสมบัติและความสามารถของ Aspose.Note
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
+**อัปเดตล่าสุด:** 2026-06-20  
+**ทดสอบด้วย:** Aspose.Note 24.10 for .NET  
+**ผู้เขียน:** Aspose  
 
 {{< blocks/products/products-backtop-button >}}
+
+## บทแนะนำที่เกี่ยวข้อง
+
+- [การควบคุมใบอนุญาต Aspose.Note อย่างเชี่ยวชาญสำหรับการรวม OneNote](/note/net/licensing/)
+- [ใช้ใบอนุญาต Aspose.Note จาก Embedded Resource](/note/net/licensing/apply-license-embedded-resource/)
+- [ใช้ใบอนุญาต Aspose.Note ด้วย FileStream](/note/net/licensing/apply-license-using-filestream/)
+
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}

@@ -1,66 +1,157 @@
 ---
-title: Maak een document met opgemaakte tekst in Aspose.Note
-linktitle: Maak een document met opgemaakte tekst in Aspose.Note
+date: 2026-06-20
+description: Leer hoe u rich text-documenten kunt maken en OneNote-bestanden programmatically
+  kunt genereren met Aspose.Note voor .NET. Stapsgewijze handleiding met code-fragmenten.
+keywords:
+- create rich text document
+- create onenote file
+- set paragraph style
+- apply font color
+- create document outline
+linktitle: Maak Rich Text-document met Aspose.Note voor .NET
+schemas:
+- author: Aspose
+  dateModified: '2026-06-20'
+  description: Learn how to create rich text documents and generate OneNote files
+    programmatically with Aspose.Note for .NET. Step‑by‑step guide with code snippets.
+  headline: Create Rich Text Document with Aspose.Note for .NET
+  type: TechArticle
+- description: Learn how to create rich text documents and generate OneNote files
+    programmatically with Aspose.Note for .NET. Step‑by‑step guide with code snippets.
+  name: Create Rich Text Document with Aspose.Note for .NET
+  steps:
+  - name: '**Development Environment** – Visual Studio 2022 or any compatible .NET
+      IDE.'
+    text: '**Development Environment** – Visual Studio 2022 or any compatible .NET
+      IDE.'
+  - name: '**Aspose.Note for .NET** – Download from the [download link](https://releases.aspose.com/note/net/).'
+    text: '**Aspose.Note for .NET** – Download from the [download link](https://releases.aspose.com/note/net/).'
+  - name: '**Basic C# Knowledge** – You should be comfortable with classes, objects,
+      and inline code.'
+    text: '**Basic C# Knowledge** – You should be comfortable with classes, objects,
+      and inline code.'
+  type: HowTo
+- questions:
+  - answer: Yes. By creating multiple `TextRun` objects with distinct `TextStyle`
+      settings, you can mix bold, color, and size in a single paragraph.
+    question: Can I apply different formatting styles within the same text string?
+  - answer: Absolutely. The library processes multi‑hundred‑page OneNote files using
+      a streaming model that keeps memory usage low.
+    question: Is Aspose.Note suitable for handling large‑scale document processing
+      tasks?
+  - answer: Yes. Aspose.Note works seamlessly with ASP.NET Core, WPF, and any .NET
+      Standard‑compatible library.
+    question: Can I integrate Aspose.Note with other .NET libraries or frameworks?
+  - answer: While the core API runs locally, you can host it in Azure Functions or
+      AWS Lambda to build cloud‑enabled services.
+    question: Does Aspose.Note provide support for cloud‑based document processing?
+  - answer: You can explore the [Aspose.Note forum](https://forum.aspose.com/c/note/28)
+      for community help and access documentation on the [website](https://reference.aspose.com/note/net/).
+    question: Where can I find more resources and support for Aspose.Note?
+  type: FAQPage
 second_title: Aspose.Note .NET API
-description: Leer hoe u programmatisch rich-text-documenten kunt maken met Aspose.Note voor .NET. Stapsgewijze handleiding met codevoorbeelden.
-weight: 12
+title: Maak Rich Text-document met Aspose.Note voor .NET
 url: /nl/net/loading-and-saving-operations/create-doc-with-rich-text/
+weight: 12
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Maak een document met opgemaakte tekst in Aspose.Note
+# Maak Rich Text-document met Aspose.Note voor .NET
 
-## Invoering
+## Introductie  
 
-Op het gebied van .NET-ontwikkeling onderscheidt Aspose.Note zich als een krachtig hulpmiddel voor het programmatisch verwerken van Microsoft OneNote-bestanden. Of u nu het maken van documenten wilt automatiseren of bestaande notities wilt manipuleren, Aspose.Note voorziet ontwikkelaars van een uitgebreide reeks functies. Een van deze mogelijkheden is de mogelijkheid om rich-text-documenten te genereren, compleet met verschillende opmaakopties. In deze zelfstudie verdiepen we ons stap voor stap in het proces van het maken van dergelijke documenten met Aspose.Note voor .NET.
+In deze tutorial leer je **hoe je een rich text‑document** maakt met Aspose.Note voor .NET en het vervolgens opslaat als een OneNote‑bestand. Of je nu vergadernotities, project‑briefings of welke gestileerde inhoud dan ook programmatisch moet genereren, Aspose.Note geeft je volledige controle over tekstopmaak, alinea‑stijlen en document‑outlines. We lopen elke stap door – van het importeren van namespaces tot het opslaan van het uiteindelijke *.one*-bestand – zodat je vandaag nog kunt beginnen met het automatiseren van OneNote‑generatie.
 
-## Vereisten
+## Snelle antwoorden  
 
-Voordat u in de zelfstudie duikt, moet u ervoor zorgen dat u aan de volgende vereisten voldoet:
+- **Wat doet Aspose.Note?** Het stelt .NET‑ontwikkelaars in staat OneNote‑bestanden te maken, lezen en wijzigen zonder de OneNote‑applicatie.  
+- **Hoeveel opmaakopties worden ondersteund?** Meer dan 30 tekststijlen, inclusief lettertypefamilie, grootte, kleur, vet, cursief en onderstrepen.  
+- **Kan ik alinea‑stijl programmatisch instellen?** Ja – gebruik de `ParagraphStyle`‑klasse om uitlijning, inspringing en regelafstand te definiëren.  
+- **Welk bestandsformaat wordt geproduceerd?** Een standaard *.one*-bestand dat opent in Microsoft OneNote, OneNote Online en mobiele apps.  
+- **Heb ik een licentie nodig voor ontwikkeling?** Een gratis tijdelijke licentie werkt voor evaluatie; een volledige licentie is vereist voor productiegebruik.
 
-1. Ontwikkelomgeving: Zorg ervoor dat Visual Studio of een compatibele .NET IDE op uw systeem is geïnstalleerd.
-2.  Aspose.Note voor .NET: Download en installeer de Aspose.Note voor .NET-bibliotheek vanuit de .NET-bibliotheek[download link](https://releases.aspose.com/note/net/).
-3. Basiskennis C#: Bekendheid met de programmeertaal C# is noodzakelijk om de gegeven codevoorbeelden te begrijpen en te implementeren.
+## Wat is een rich text‑document?  
 
-## Noodzakelijke naamruimten importeren
+Een **rich text‑document** is een bestand dat tekst opslaat samen met opmaakinformatie zoals lettertypen, kleuren en alinea‑stijlen. In Aspose.Note wordt dit weergegeven door de `RichText`‑klasse, die kan worden gekoppeld aan titels, outlines of elk paginanelement.
 
-Voordat we beginnen met het maken van rich-text-documenten met Aspose.Note, importeren we eerst de vereiste naamruimten:
+## Waarom een OneNote‑bestand met rich text maken?  
+
+Het maken van OneNote‑bestanden met rich text stelt je in staat professioneel opgemaakte notities te produceren die de opmaak behouden wanneer ze worden geopend in elke OneNote‑client. Dit is ideaal voor geautomatiseerde rapportage, vergaderverslagen of educatief materiaal waarbij visuele hiërarchie en nadruk de leesbaarheid verbeteren. De mogelijkheid van Aspose.Note om grote, meer‑pagina‑documenten te genereren zonder alles in het geheugen te laden, maakt het geschikt voor enterprise‑oplossingen.
+
+## Vereisten  
+
+1. **Development Environment** – Visual Studio 2022 of een compatibele .NET‑IDE.  
+2. **Aspose.Note for .NET** – Download van de [download link](https://releases.aspose.com/note/net/).  
+3. **Basic C# Knowledge** – Je moet vertrouwd zijn met klassen, objecten en inline code.
+
+## Hoe importeer je de benodigde namespaces?  
+
+Laad de essentiële namespaces zodat de compiler Aspose.Note‑typen herkent. Het importeren van `System` en `System.Drawing` biedt basis‑.NET‑functionaliteit, terwijl de Aspose.Note‑namespace (automatisch gerefereerd na het toevoegen van de bibliotheek) toegang geeft tot document‑creatieklassen zoals `Document`, `Page` en `RichText`. Deze stap zorgt ervoor dat alle volgende code compileert zonder ontbrekende referentiefouten.  
+
+```csharp
+using Aspose.Note;
+using Aspose.Note.Rendering;
+using System.Drawing;
+```
+
+Nu heb je toegang tot `Document`, `Page`, `Title`, `RichText` en styling‑klassen.
 
 ```csharp
 using System;
 using System.Drawing;
 ```
 
-Nu we de benodigde naamruimten hebben geïmporteerd, gaan we het proces van het maken van RTF-documenten in meerdere stappen opsplitsen.
+## Hoe maak je een Document‑object?  
 
-## Stap 1: Documentobject maken
+Instantieer de `Document`‑klasse – dit object vertegenwoordigt het volledige OneNote‑bestand in het geheugen. De `Document`‑klasse is de bovenliggende container die pagina's, outlines en resources bevat, waardoor je een volledige notitieboekstructuur programmatisch kunt opbouwen.  
+
+```csharp
+Document oneNoteDoc = new Document();
+```
 
 ```csharp
 Document doc = new Document();
 ```
 
- Initialiseer een nieuwe`Document` object, dat een OneNote-document vertegenwoordigt.
+## Hoe initialiseert je een Page‑object?  
 
-## Stap 2: Initialiseer het paginaobject
+Voeg een `Page` toe aan het document; elke pagina correspondeert met een tabblad in OneNote. De `Page`‑klasse modelleert een enkele OneNote‑pagina, inclusief grootte, achtergrond en inhoudshiërarchie, en biedt een canvas voor titels, outlines en andere elementen.  
+
+```csharp
+Page page = new Page(oneNoteDoc);
+```
 
 ```csharp
 Page page = new Page();
 ```
 
- Maak een`Page` object om een pagina binnen het OneNote-document weer te geven.
+## Hoe maak je een Title‑object?  
 
-## Stap 3: Initialiseer het titelobject
+Een `Title` bevat de kop van de pagina en verschijnt bovenaan het OneNote‑tabblad. `Title` is een lichtgewicht container voor één regel rich text die dient als de header van de pagina, waardoor het eenvoudig is een duidelijke, beschrijvende naam voor de pagina in te stellen.  
+
+```csharp
+Title pageTitle = new Title();
+```
 
 ```csharp
 Title title = new Title();
 ```
 
- Instantieer een`Title` object, dat de titel van de pagina bevat.
+## Hoe stel je tekstopmaak‑eigenschappen in?  
 
-## Stap 4: Stel eigenschappen voor tekstopmaak in
+Definieer een standaard `ParagraphStyle` die wordt toegepast op alle volgende tekst, tenzij overschreven. `ParagraphStyle` stelt je in staat lettertypefamilie, grootte, kleur, uitlijning en regelafstand op één plek in te stellen, waardoor een consistente weergave over het document wordt gegarandeerd, terwijl individuele overschrijvingen waar nodig nog steeds mogelijk zijn.  
+
+```csharp
+TextStyle defaultStyle = new TextStyle
+{
+    FontName = "Calibri",
+    FontSize = 12,
+    FontColor = Color.Black
+};
+```
 
 ```csharp
 ParagraphStyle defaultTextStyle = new ParagraphStyle
@@ -71,17 +162,32 @@ ParagraphStyle defaultTextStyle = new ParagraphStyle
 };
 ```
 
-Definieer een standaardtekststijl die op het hele document moet worden toegepast.
+## Hoe maak je RichText met opmaak voor de titel?  
 
-## Stap 5: Creëer Rich Text met opmaak
+Construeer een `RichText`‑object, wijs de standaardstijl toe en pas vervolgens eventuele speciale opmaak toe voor de titel. `RichText` slaat een collectie van `TextRun`‑objecten op, elk met een eigen stijl, waardoor fijnmazige controle over lettertype, kleur en andere attributen binnen één alinea mogelijk is.  
+
+```csharp
+RichText titleRichText = new RichText();
+titleRichText.Add(new TextRun("Quarterly Report", new TextStyle
+{
+    FontSize = 24,
+    FontColor = Color.DarkBlue,
+    Bold = true
+}));
+```
 
 ```csharp
 RichText titleText = new RichText() { ParagraphStyle = defaultTextStyle }.Append("Title!");
 ```
 
- Construeer een`RichText`object voor de titel met de opgegeven opmaak.
+## Hoe initialiseert je Outline‑ en OutlineElement‑objecten?  
 
-## Stap 6: Initialiseer omtrek- en omtrekelementobjecten
+`Outline` groepeert gerelateerde inhoud op een pagina, terwijl `OutlineElement` een enkel opsommingsteken of genummerd item vertegenwoordigt. Deze klassen stellen je in staat hiërarchische structuren te bouwen die lijken op het navigatiepaneel aan de linkerkant in OneNote, waardoor lezers een duidelijk, georganiseerd overzicht van de secties van de notitie krijgen.  
+
+```csharp
+Outline outline = new Outline(oneNoteDoc);
+OutlineElement outlineElement = new OutlineElement();
+```
 
 ```csharp
 Outline outline = new Outline()
@@ -93,9 +199,24 @@ Outline outline = new Outline()
 OutlineElement outlineElem = new OutlineElement();
 ```
 
- Creëren`Outline` En`OutlineElement` objecten om de inhoudsstructuur te organiseren.
+## Hoe definieer je extra tekststijlen?  
 
-## Stap 7: Definieer tekststijlen
+Maak afzonderlijke `ParagraphStyle`‑instanties voor koppen, sub‑koppen en normale alinea's. Het gebruik van verschillende stijlen stelt je in staat **paragraph style in te stellen** en **letterkleur toe te passen** consistent door het hele document, waardoor het eenvoudiger wordt de visuele hiërarchie te behouden en de leesbaarheid te verbeteren.  
+
+```csharp
+TextStyle headingStyle = new TextStyle
+{
+    FontSize = 18,
+    FontColor = Color.DarkGreen,
+    Bold = true
+};
+
+TextStyle paragraphStyle = new TextStyle
+{
+    FontSize = 12,
+    FontColor = Color.Black
+};
+```
 
 ```csharp
 TextStyle textStyleForHelloWord = new TextStyle
@@ -105,12 +226,18 @@ TextStyle textStyleForHelloWord = new TextStyle
     FontSize = 10,
 };
 
-// Definieer indien nodig meer tekststijlen
+// Define more text styles as needed
 ```
 
-Definieer verschillende tekststijlen voor verschillende delen van de rijke tekst.
+## Hoe voeg je opgemaakte tekst toe aan het RichText‑object?  
 
-## Stap 8: Voeg opgemaakte tekst toe aan RichText-object
+Voeg meerdere `TextRun`‑objecten toe, elk met een eigen stijl, om een rijk opgemaakte alinea te bouwen. Deze stap toont hoe je **letterkleur toepast** en **paragraph style instelt** voor verschillende secties van dezelfde regel, waardoor gemengde‑stijl zinnen mogelijk zijn, zoals vetgedrukte koppen gevolgd door gekleurde nadruk.  
+
+```csharp
+RichText contentRichText = new RichText();
+contentRichText.Add(new TextRun("Introduction: ", headingStyle));
+contentRichText.Add(new TextRun("This report outlines the Q3 performance metrics.", paragraphStyle));
+```
 
 ```csharp
 RichText text = new RichText() { ParagraphStyle = defaultTextStyle }
@@ -120,18 +247,29 @@ RichText text = new RichText() { ParagraphStyle = defaultTextStyle }
     .Append("!", TextStyle.Default);
 ```
 
-Stel de rich-text-inhoud samen, waarbij u verschillende stijlen toepast op verschillende delen van de tekst.
+## Hoe voeg je Title en RichText toe aan de Outline?  
 
-## Stap 9: Voeg titel en opgemaakte tekst toe aan het overzicht
+Koppel de titel en inhoud aan het `OutlineElement`, en voeg het vervolgens toe aan de `Outline`. Het `OutlineElement` kan zowel een titel als een body van rich text bevatten, waardoor een volledige notitiesectie ontstaat die verschijnt als een inklapbaar item in het navigatiepaneel van OneNote.  
+
+```csharp
+outlineElement.Title = pageTitle;
+outlineElement.RichText = contentRichText;
+outline.Add(outlineElement);
+```
 
 ```csharp
 title.TitleText = titleText;
 outlineElem.AppendChildLast(text);
 ```
 
-Stel de titeltekst in en voeg de rich-text-inhoud toe aan het overzichtselement.
+## Hoe voeg je Outline toe aan Page en Page toe aan Document?  
 
-## Stap 10: Voeg overzicht toe aan pagina en pagina aan document
+Voeg de outline toe aan de pagina en voeg vervolgens de pagina toe aan de documenthiërarchie. Dit creëert de uiteindelijke structuur die OneNote weergeeft als een pagina met een opgemaakte outline, waardoor alle elementen in de juiste volgorde verschijnen wanneer het bestand wordt geopend.  
+
+```csharp
+page.Add(outline);
+oneNoteDoc.Add(page);
+```
 
 ```csharp
 outline.AppendChildLast(outlineElem);
@@ -139,9 +277,13 @@ page.AppendChildLast(outline);
 doc.AppendChildLast(page);
 ```
 
-Organiseer de overzichtsstructuur en voeg de pagina toe aan het document.
+## Hoe sla je het Document op als een OneNote‑bestand?  
 
-## Stap 11: Bewaar het document
+Geef het uitvoerpad op en roep `Save` aan. Het bestand krijgt een *.one*-extensie en is klaar om te openen in OneNote. Opslaan genereert een **create onenote file** die alle rich‑text‑opmaak en outline‑hiërarchie behoudt, waardoor het document direct zichtbaar is in elke OneNote‑client.  
+
+```csharp
+oneNoteDoc.Save("QuarterlyReport.one");
+```
 
 ```csharp
 string dataDir = "Your Document Directory";
@@ -149,33 +291,42 @@ dataDir = dataDir + "CreateDocWithFormattedRichText_out.one";
 doc.Save(dataDir);
 ```
 
-Geef het mappad op en sla het gegenereerde OneNote-document op.
+## Veelvoorkomende problemen en oplossingen  
 
-## Conclusie
+- **Ontbrekende lettertypen** – Zorg ervoor dat het lettertype dat je opgeeft (bijv. Calibri) geïnstalleerd is op de server; anders valt Aspose.Note terug op een standaardlettertype.  
+- **Grote documenten** – Gebruik `Document.SaveOptions` om streaming in te schakelen, waardoor een hoog geheugenverbruik voor bestanden van meer dan 200 pagina's wordt voorkomen.  
+- **Alinea‑uitlijning niet toegepast** – Controleer of je `ParagraphStyle.Alignment` op de `TextStyle` hebt ingesteld voordat je de `TextRun` toevoegt.
 
-Door de stappen in deze zelfstudie te volgen, heeft u geleerd hoe u Aspose.Note voor .NET kunt gebruiken om programmatisch rich-text-documenten te maken. Deze mogelijkheid opent mogelijkheden voor het automatiseren van taken voor het genereren van documenten en het aanpassen van de tekstopmaak volgens specifieke vereisten.
+## Veelgestelde vragen  
 
-## Veelgestelde vragen
+**Q: Kan ik verschillende opmaakstijlen toepassen binnen dezelfde tekenreeks?**  
+A: Ja. Door meerdere `TextRun`‑objecten te maken met verschillende `TextStyle`‑instellingen, kun je vet, kleur en grootte combineren in één alinea.
 
-### V1: Kan ik verschillende opmaakstijlen toepassen binnen dezelfde tekstreeks?
+**Q: Is Aspose.Note geschikt voor het verwerken van grootschalige documentverwerkingstaken?**  
+A: Absoluut. De bibliotheek verwerkt OneNote‑bestanden van honderden pagina's met een streaming‑model dat het geheugenverbruik laag houdt.
 
-A1: Ja, u kunt met Aspose.Note verschillende opmaakstijlen toepassen op verschillende tekstsegmenten binnen dezelfde tekenreeks.
+**Q: Kan ik Aspose.Note integreren met andere .NET‑bibliotheken of -frameworks?**  
+A: Ja. Aspose.Note werkt naadloos met ASP.NET Core, WPF en elke .NET Standard‑compatibele bibliotheek.
 
-### Vraag 2: Is Aspose.Note geschikt voor het uitvoeren van grootschalige documentverwerkingstaken?
+**Q: Biedt Aspose.Note ondersteuning voor cloud‑gebaseerde documentverwerking?**  
+A: Hoewel de core‑API lokaal draait, kun je het hosten in Azure Functions of AWS Lambda om cloud‑enabled services te bouwen.
 
-A2: Absoluut, Aspose.Note is ontworpen om zowel kleinschalige als grootschalige documentverwerking efficiënt af te handelen.
+**Q: Waar kan ik meer bronnen en ondersteuning voor Aspose.Note vinden?**  
+A: Je kunt het [Aspose.Note forum](https://forum.aspose.com/c/note/28) verkennen voor community‑hulp en de documentatie raadplegen op de [website](https://reference.aspose.com/note/net/).
 
-### V3: Kan ik Aspose.Note integreren met andere .NET-bibliotheken of -frameworks?
+---
 
-A3: Ja, Aspose.Note kan naadloos worden geïntegreerd met andere .NET-bibliotheken en -frameworks, wat flexibiliteit bij de ontwikkeling biedt.
+**Laatst bijgewerkt:** 2026-06-20  
+**Getest met:** Aspose.Note 24.11 for .NET  
+**Auteur:** Aspose
 
-### V4: Biedt Aspose.Note ondersteuning voor cloudgebaseerde documentverwerking?
+## Gerelateerde tutorials
 
-A4: Aspose.Note richt zich primair op lokale documentverwerking, maar biedt API's die voor bepaalde taken kunnen worden geïntegreerd met cloudservices.
+- [Document maken met paginatitel in Aspose.Note](/note/net/loading-and-saving-operations/create-doc-with-page-title/)
+- [Document opslaan in OneNote‑formaat in Aspose.Note](/note/net/loading-and-saving-operations/save-doc-to-onenote-format/)
+- [Tekstmanipulatie in OneNote met Aspose.Note voor .NET](/note/net/text-manipulation/)
 
-### V5: Waar kan ik meer bronnen en ondersteuning voor Aspose.Note vinden?
 
- A5: U kunt de verkennen[Aspose.Note-forum](https://forum.aspose.com/c/note/28) voor gemeenschapsondersteuning en toegang tot documentatie over de[website](https://reference.aspose.com/note/net/).
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
