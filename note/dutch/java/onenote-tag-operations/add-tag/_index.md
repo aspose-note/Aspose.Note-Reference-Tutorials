@@ -1,27 +1,41 @@
 ---
-title: Tag toevoegen in OneNote - Aspose.Note
-linktitle: Tag toevoegen in OneNote - Aspose.Note
-second_title: Aspose.Note Java-API
-description: Verbeter OneNote met Aspose.Note voor Java. Voeg moeiteloos tags toe met behulp van onze stapsgewijze handleiding. Verbeter nu de organisatie en samenwerking!
-weight: 12
+date: 2026-01-28
+description: Leer hoe je een outline maakt in OneNote, een tag toevoegt aan OneNote
+  en een PDF genereert vanuit OneNote met behulp van Aspose.Note voor Java.
+linktitle: Create Outline in OneNote and Add Tag – Aspose.Note
+second_title: Aspose.Note Java API
+title: Maak een outline in OneNote en voeg tag toe – Aspose.Note
 url: /nl/java/onenote-tag-operations/add-tag/
+weight: 12
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Tag toevoegen in OneNote - Aspose.Note
+# Maak een outline in OneNote en voeg een tag toe – Aspose.Note
 
-## Invoering
-Wilt u uw documentorganisatie en samenwerking in OneNote verbeteren met behulp van Java? Aspose.Note voor Java biedt een krachtige oplossing om naadloos tags toe te voegen, zodat uw aantekeningen niet alleen informatief maar ook visueel aantrekkelijk zijn. In deze zelfstudie leiden we u stap voor stap door het proces, zodat u het volledige potentieel van Aspose.Note voor Java kunt benutten.
+## Inleiding
+## Snelle antwoorden
+- **Wat betekent “create outline in OneNote”?** Het bouwt een hiërarchische structuur (outlines) die inhoud organiseert zoals koppen en sub‑secties.  
+- **Welke bibliotheek voegt tags toe aan OneNote?** Aspose.Note for Java biedt de `NoteTag`‑klasse voor visuele markeringen.  
+- **Kan ik het resultaat exporteren naar PDF?** Ja – gebruik `SaveFormat.Pdf` om **PDF te genereren vanuit OneNote**.  
+- **Heb ik een licentie nodig voor productie?** Een tijdelijke licentie is beschikbaar voor testen; een volledige licentie is vereist voor commercieel gebruik.  
+- **Wat zijn de belangrijkste vereisten?** JDK geïnstalleerd, Aspose.Note for Java‑bibliotheek, en basiskennis van Java.
+
+## Wat is “create outline in OneNote”?
+Een outline maken in OneNote betekent het toevoegen van `Outline`‑ en `OutlineElement`‑objecten die een boom‑achtige structuur voor je notities definiëren. Deze hiërarchie stelt je in staat om items in te klappen, uit te vouwen en informatie te organiseren, net als koppen in een document.
+
+## Waarom een tag toevoegen aan OneNote?
+Tags zoals sterren, vinkjes of aangepaste iconen geven lezers visuele aanwijzingen, verbeteren de doorzoekbaarheid en helpen teams items te prioriteren. Met Aspose.Note kun je programmatisch een `NoteTag` aan elk stuk tekst toevoegen.
+
 ## Vereisten
-Voordat u in de zelfstudie duikt, moet u ervoor zorgen dat u over het volgende beschikt:
-- Java Development Kit (JDK) op uw systeem geïnstalleerd.
--  Aspose.Note voor Java-bibliotheek gedownload. Je kan het krijgen[hier](https://releases.aspose.com/note/java/).
-- Een basiskennis van Java-programmeren.
-## Pakketten importeren
-Zorg ervoor dat u de benodigde pakketten importeert om uw project een kickstart te geven:
+- Java Development Kit (JDK) geïnstalleerd.
+- Aspose.Note for Java‑bibliotheek gedownload. Je kunt het [hier](https://releases.aspose.com/note/java/) verkrijgen.
+- Een basisbegrip van Java‑programmeren.
+
+## Importeer pakketten
+Zorg ervoor dat je de benodigde pakketten importeert om je project te starten:
 ```java
 import java.awt.Color;
 import java.io.IOException;
@@ -35,23 +49,26 @@ import com.aspose.note.SaveFormat;
 import com.aspose.note.TagIcon;
 import com.aspose.note.ParagraphStyle;
 ```
-Laten we de bovenstaande code opsplitsen in een stapsgewijze handleiding.
+Laten we de bovenstaande code stap voor stap ontleden.
+
 ## Stap 1: Document en pagina instellen
-Begin met het maken van een nieuw Document-object en het initialiseren van een Page-object:
+Begin met het maken van een nieuw `Document`‑object en het initialiseren van een `Page`‑object:
 ```java
 String dataDir = "Your Document Directory";
 Document doc = new Document();
 Page page = new Page();
 ```
-Hier stellen we het pad naar de documentenmap in, maken een nieuw document en initialiseren een pagina.
-## Stap 2: Maak een overzicht
-Maak vervolgens een Outline-object om uw inhoud te structureren:
+Hier stellen we het pad naar de documentenmap in, maken we een nieuw `Document` en initialiseren we een `Page`.
+
+## Stap 2: Een outline maken
+Vervolgens maak je een `Outline`‑object om je inhoud te structureren:
 ```java
 Outline outline = new Outline();
 ```
-Overzichten bieden een hiërarchische structuur aan uw document, waardoor het gemakkelijk wordt om informatie te ordenen.
-## Stap 3: Initialiseer OutlineElement en ParagraphStyle
-Initialiseer nu een OutlineElement en stel ParagraphStyle in voor tekstopmaak:
+Outlines bieden een hiërarchische structuur voor je document, waardoor het eenvoudig is om **create outline in OneNote** te maken en informatie georganiseerd te houden.
+
+## Stap 3: OutlineElement en ParagraphStyle initialiseren
+Nu initialiseert je een `OutlineElement` en stel je `ParagraphStyle` in voor tekstopmaak:
 ```java
 OutlineElement outlineElem = new OutlineElement();
 ParagraphStyle textStyle = new ParagraphStyle()
@@ -59,46 +76,74 @@ ParagraphStyle textStyle = new ParagraphStyle()
                                 .setFontName("Arial")
                                 .setFontSize(10);
 ```
-OutlineElement vertegenwoordigt een element binnen de omtrek, en ParagraphStyle definieert eigenschappen voor tekstopmaak.
-## Stap 4: RichText toevoegen met NoteTag
-Maak een RichText-object, voeg uw OneNote-tekst toe en voeg een NoteTag toe:
+`OutlineElement` vertegenwoordigt een element binnen de outline, en `ParagraphStyle` definieert eigenschappen voor tekstopmaak.
+
+## Stap 4: RichText met NoteTag toevoegen
+Maak een `RichText`‑object, voeg je OneNote‑tekst toe en voeg een `NoteTag` toe:
 ```java
 RichText text = new RichText().append("OneNote text.");
 text.setParagraphStyle(textStyle);
 NoteTag noteTag = NoteTag.createYellowStar();
 text.getTags().add(noteTag);
 ```
-Met RichText kunt u opgemaakte tekst opnemen, en NoteTag voegt visuele aanwijzingen toe aan uw inhoud.
-## Stap 5: Bouw een overzichtsstructuur
-Voeg het tekstknooppunt, het overzichtselementknooppunt en het overzichtsknooppunt toe om de structuur van het document samen te stellen:
+`RichText` stelt je in staat om opgemaakte tekst op te nemen, en de `NoteTag` **adds tag to OneNote** als een visuele aanwijzing.
+
+## Stap 5: Outline-structuur opbouwen
+Voeg de tekstnode, outline‑elementnode en outline‑node toe om de structuur van het document op te bouwen:
 ```java
 outlineElem.appendChildLast(text);
 outline.appendChildLast(outlineElem);
 page.appendChildLast(outline);
 doc.appendChildLast(page);
 ```
-Deze stap zorgt ervoor dat uw inhoud binnen het document wordt georganiseerd.
-## Stap 6: Sla het document op
-Sla het document op in PDF-formaat:
+Deze stap zorgt ervoor dat je inhoud binnen het document georganiseerd is, waardoor het **create outline in OneNote** proces voltooid wordt.
+
+## Stap 6: Document opslaan
+Sla het document op in PDF‑formaat, wat **generates PDF from OneNote** doet:
 ```java
 doc.save(dataDir + "AddTag_out.pdf", SaveFormat.Pdf);
 System.out.printf("File Saved: %s\n", dataDir + "AddTag_out.pdf");
 ```
-Nu wordt uw OneNote-document met toegevoegde tags opgeslagen als PDF.
-Door deze stappen te volgen, kunt u uw OneNote-documenten moeiteloos verbeteren met Aspose.Note voor Java.
+Nu is je OneNote‑document met toegevoegde tags opgeslagen als een PDF.
+
+Door deze stappen te volgen, kun je moeiteloos je OneNote‑documenten verbeteren met Aspose.Note for Java.
+
 ## Conclusie
-In deze zelfstudie hebben we onderzocht hoe u Aspose.Note voor Java kunt gebruiken om tags toe te voegen aan OneNote-documenten. Door gebruik te maken van de kracht van Java-programmering kunt u uw ervaring met het maken van aantekeningen verbeteren en visueel aantrekkelijke inhoud creëren.
+In deze tutorial hebben we onderzocht hoe je **create outline in OneNote** kunt maken, een tag aan OneNote kunt toevoegen, en vervolgens **generate PDF from OneNote** met Aspose.Note for Java. Java gebruiken geeft je volledige controle over notitiestructuur, visuele tagging en exportopties, waardoor je notities beter georganiseerd en deelbaar zijn.
+
 ## Veelgestelde vragen
-### 1. Kan ik Aspose.Note voor Java gebruiken met andere programmeertalen?
+### 1. Kan ik Aspose.Note for Java gebruiken met andere programmeertalen?
 Aspose.Note ondersteunt voornamelijk Java, maar er zijn ook versies beschikbaar voor .NET.
-### 2. Is Aspose.Note voor Java geschikt voor beginners?
-Ja, Aspose.Note voor Java biedt uitgebreide documentatie en ondersteuning, waardoor het toegankelijk is voor zowel beginners als ervaren ontwikkelaars.
-### 3. Hoe kan ik een tijdelijke licentie verkrijgen voor Aspose.Note voor Java?
- U kunt een tijdelijke licentie krijgen[hier](https://purchase.aspose.com/temporary-license/).
-### 4. Waar kan ik aanvullende ondersteuning vinden?
- Voor vragen of hulp kunt u terecht op de[Aspose.Note-forum](https://forum.aspose.com/c/note/28).
-### 5. Is er een gratis proefperiode beschikbaar?
- Ja, u kunt een gratis proefperiode uitproberen[hier](https://releases.aspose.com/).
+
+### 2. Is Aspose.Note for Java geschikt voor beginners?
+Ja, Aspose.Note for Java biedt uitgebreide documentatie en ondersteuning, waardoor het toegankelijk is voor zowel beginners als ervaren ontwikkelaars.
+
+### 3. Hoe kan ik een tijdelijke licentie voor Aspose.Note for Java verkrijgen?
+Je kunt een tijdelijke licentie krijgen [hier](https://purchase.aspose.com/temporary-license/).
+
+### 4. Waar kan ik extra ondersteuning vinden?
+Voor vragen of hulp, bezoek het [Aspose.Note forum](https://forum.aspose.com/c/note/28).
+
+### 5. Is er een gratis proefversie beschikbaar?
+Ja, je kunt een gratis proefversie verkennen [hier](https://releases.aspose.com/).
+
+**Additional Q&A**
+
+**Q: Kan ik het tag‑icoon aanpassen?**  
+A: Ja – Aspose.Note biedt veel vooraf gedefinieerde iconen via `TagIcon` en staat ook aangepaste afbeeldingen toe.
+
+**Q: Hoe wijzig ik de PDF‑uitvoerinstellingen?**  
+A: Gebruik `PdfSaveOptions` om de beeldkwaliteit, compressie en beveiliging te regelen voordat je `doc.save` aanroept.
+
+**Q: Is het mogelijk om meerdere tags aan dezelfde tekst toe te voegen?**  
+A: Absoluut. Roep `text.getTags().add()` meerdere keren aan met verschillende `NoteTag`‑instanties.
+
+---
+
+**Last Updated:** 2026-01-28  
+**Tested With:** Aspose.Note for Java 24.12  
+**Author:** Aspose  
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

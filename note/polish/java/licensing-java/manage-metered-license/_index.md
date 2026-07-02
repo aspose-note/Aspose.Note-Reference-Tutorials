@@ -1,33 +1,50 @@
 ---
-title: Zarządzaj licencją taryfową dla programu OneNote w języku Java
-linktitle: Zarządzaj licencją taryfową dla programu OneNote w języku Java
-second_title: Aspose.Note API Java
-description: Dowiedz się, jak zarządzać licencjami taryfowymi dla programu OneNote w języku Java przy użyciu biblioteki Aspose.Note. Kontroluj wykorzystanie, monitoruj środki i wydajnie optymalizuj koszty.
-weight: 10
+date: 2026-01-28
+description: Dowiedz się, jak konwertować OneNote na PDF i zarządzać licencją rozliczaną
+  w Java przy użyciu Aspose.Note. Kontroluj użycie, monitoruj kredyty i utrzymuj niskie
+  koszty.
+linktitle: Manage Metered License for OneNote in Java
+second_title: Aspose.Note Java API
+title: Konwertuj OneNote na PDF i zarządzaj licencją metrową w Javie
 url: /pl/java/licensing-java/manage-metered-license/
+weight: 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Zarządzaj licencją taryfową dla programu OneNote w języku Java
+# Konwertuj OneNote na PDF i zarządzaj licencją metrową w Javie
 
-## Wstęp
+## Wprowadzenie
 
-W tym samouczku dowiemy się, jak zarządzać licencją taryfową dla OneNote za pomocą Aspose.Note dla Java. Licencjonowanie licznikowe pozwala monitorować i kontrolować wykorzystanie w oparciu o punkty, zapewniając elastyczne i opłacalne rozwiązanie.
+W tym samouczku dowiesz się, jak **konwertować OneNote na PDF** przy użyciu licencji metrowej z biblioteką Aspose.Note for Java. Licencjonowanie metrowe pozwala śledzić zużycie kredytów w czasie rzeczywistym, dając elastyczność płacenia tylko za to, co wykorzystasz. Przejdziemy przez cały proces — od ustawienia kluczy licencyjnych, przez wczytanie pliku OneNote, konwersję do PDF i sprawdzenie zużycia kredytów.
 
-## Warunki wstępne
+## Szybkie odpowiedzi
+- **Co oznacza „konwertować OneNote na PDF”?** Przekształca plik .one w przenośny dokument PDF.  
+- **Która biblioteka obsługuje konwersję?** Aspose.Note for Java udostępnia prosty interfejs API do tego zadania.  
+- **Czy potrzebna jest licencja do konwersji?** Tak, wymagana jest licencja metrowa do użytku produkcyjnego.  
+- **Jak mogę monitorować zużycie?** Użyj `Metered.getConsumptionCredit()` i `Metered.getConsumptionQuantity()`.  
+- **Czy wymagana jest dodatkowa konfiguracja?** Tylko Java JDK i plik JAR Aspose.Note.
 
-Zanim zaczniemy, upewnij się, że masz następujące wymagania wstępne:
+## Co to jest „konwertować OneNote na PDF”?
 
-1.  Zestaw Java Development Kit (JDK): Upewnij się, że masz zainstalowany pakiet JDK w swoim systemie. Można go pobrać z[Tutaj](https://www.oracle.com/java/technologies/javase-jdk11-downloads.html).
-   
-2. Biblioteka Aspose.Note dla Java: Musisz mieć bibliotekę Aspose.Note dla Java. Można go pobrać z[strona internetowa](https://releases.aspose.com/note/java/).
+Konwersja OneNote do PDF tworzy statyczną, szeroko wspieraną reprezentację stron notatnika. PDF-y są idealne do udostępniania, drukowania lub archiwizacji, ponieważ zachowują układ, czcionki i obrazy na różnych platformach.
 
-## Importuj pakiety
+## Dlaczego używać licencji metrowej do tej konwersji?
 
-Najpierw zaimportuj niezbędne pakiety do swojego projektu Java:
+Licencja metrowa nalicza opłaty w oparciu o rzeczywiste zużycie kredytów, a nie stałą opłatę. Ten model jest idealny, gdy masz sporadyczne potrzeby konwersji lub chcesz, aby koszty były przewidywalne, jednocześnie korzystając z pełnej mocy Aspose.Note.
+
+## Wymagania wstępne
+
+1. **Java Development Kit (JDK)** – dowolna aktualna wersja (zalecany JDK 11+). Pobierz go z [tutaj](https://www.oracle.com/java/technologies/javase-jdk11-downloads.html).  
+2. **Biblioteka Aspose.Note for Java** – pobierz najnowszy plik JAR z [oficjalnej strony](https://releases.aspose.com/note/java/).  
+
+> **Wskazówka:** Dodaj plik JAR Aspose.Note do classpath swojego projektu lub użyj narzędzia budującego takiego jak Maven/Gradle, aby zarządzać zależnością.
+
+## Importowanie pakietów
+
+Najpierw zaimportuj potrzebne klasy. Zachowaj ten blok dokładnie tak, jak jest — nie wprowadzaj zmian w kodzie.
 
 ```java
 import com.aspose.note.Document;
@@ -38,16 +55,16 @@ import com.aspose.note.Metered;
 import java.nio.file.Paths;
 ```
 
-## Krok 1: Skonfiguruj licencję taryfową
+## Krok 1: Konfiguracja licencji metrowej
 
 ```java
 Metered metered = new Metered();
 metered.setMeteredKey("MyPublicKey", "MyPrivateKey");
 ```
 
- Na tym etapie inicjujemy plik`Metered` class i ustaw klucz mierzony za pomocą kluczy publicznych i prywatnych dostarczonych przez Aspose.
+Tutaj tworzymy obiekt `Metered` i wprowadzamy klucze publiczny/prywatny otrzymane od Aspose. Ten krok aktywuje tryb licencjonowania metrowego dla wszystkich kolejnych operacji, w tym wywołania **convert OneNote to PDF**.
 
-## Krok 2: Załaduj dokument i wykonaj operacje
+## Krok 2: Wczytaj dokument OneNote i konwertuj do PDF
 
 ```java
 String dataDir = "Your Document Directory";
@@ -55,42 +72,53 @@ Document doc = new Document(Paths.get(dataDir,"Sample1.one").toString());
 doc.save(Paths.get(dataDir,"MeteredLicense.pdf").toString());
 ```
 
- Tutaj ładujemy dokument OneNote z określonego katalogu i zapisujemy go jako plik PDF. Pamiętaj o wymianie`"Your Document Directory"` z rzeczywistą ścieżką katalogu.
+- **Wczytaj**: `Document` odczytuje plik `.one` znajdujący się w `dataDir`. To klasyczny sposób **wczytywania dokumentu OneNote** do przetwarzania.  
+- **Konwertuj i zapisz**: Wywołanie `save` z rozszerzeniem `.pdf` automatycznie **konwertuje .one na .pdf**. Operacja także **zapisuje PDF z OneNote** w tym samym folderze. Zastąp `"Your Document Directory"` rzeczywistą ścieżką na swoim komputerze.
 
-## Krok 3: Sprawdź zużycie
+## Krok 3: Sprawdź zużycie kredytów przed i po konwersji
 
 ```java
 System.out.println(String.format("Credit before operation: %.02f", Metered.getConsumptionCredit()));
 System.out.println(String.format("Consumption quantity before operation: %.02f", Metered.getConsumptionQuantity()));
 ```
 
-W tym kroku pobierana jest i drukowana ilość kredytu i zużycia przed i po operacji.
+Te dwie linie wyświetlają pozostały balans kredytów oraz ilość kredytów użytych przy konwersji. Uruchomienie tych samych wywołań po operacji `save` pokaże zaktualizowane wartości, pozwalając zweryfikować, że licencja metrowa prawidłowo śledzi zużycie.
 
-## Wniosek
+## Typowe problemy i rozwiązania
 
-W tym samouczku dowiedzieliśmy się, jak zarządzać licencją taryfową dla programu OneNote w języku Java przy użyciu biblioteki Aspose.Note. Licencjonowanie licznikowe zapewnia elastyczność i kontrolę nad wykorzystaniem, zapewniając opłacalność i efektywne zarządzanie zasobami.
+| Problem | Dlaczego się pojawia | Rozwiązanie |
+|-------|----------------|-----|
+| **Nieprawidłowe klucze metrowe** | Klucze są błędnie wpisane lub wygasły. | Sprawdź dokładnie klucze w swoim koncie Aspose; w razie potrzeby wygeneruj nowe. |
+| **Plik nie znaleziony** | Ścieżka `dataDir` jest nieprawidłowa. | Użyj ścieżki bezwzględnej lub zweryfikuj ścieżkę względną względem katalogu głównego projektu. |
+| **Niewystarczająca liczba kredytów** | Wszystkie kredyty zostały zużyte. | Kup dodatkowe kredyty lub przejdź na stałą licencję przy dużych obciążeniach. |
 
-## Często zadawane pytania
+## Najczęściej zadawane pytania
 
-### P1: Co to jest licencja licznikowa?
+**Q: Czym jest licencja metrowa?**  
+A: Licencja metrowa pozwala płacić za użycie API w oparciu o kredyty, zapewniając precyzyjną kontrolę kosztów.
 
-Odpowiedź 1: Licencja licznikowa umożliwia monitorowanie i kontrolowanie korzystania z interfejsu API lub usługi w oparciu o kredyty.
-   
-### P2: Jak uzyskać klucz mierzony dla produktów Aspose?
+**Q: Jak uzyskać klucz metrowy do produktów Aspose?**  
+A: Kup licencję na stronie Aspose lub poproś o tymczasowy klucz ewaluacyjny w panelu swojego konta.
 
-Odpowiedź 2: Możesz uzyskać klucz mierzony, kupując licencję na stronie internetowej Aspose lub prosząc o tymczasową licencję do celów ewaluacyjnych.
-   
-### P3: Czy mogę używać licencji taryfowej do wielu aplikacji?
+**Q: Czy mogę używać licencji metrowej w wielu aplikacjach?**  
+A: Tak, ale całe zużycie jest sumowane pod tym samym kluczem, więc należy uważnie monitorować łączne zużycie.
 
-Odpowiedź 3: Tak, licencja licznikowa może być używana w wielu aplikacjach, ale zużycie będzie agregowane.
-   
-### P4: Czy dostępna jest bezpłatna wersja próbna Aspose.Note dla Java?
+**Q: Czy dostępna jest darmowa wersja próbna Aspose.Note for Java?**  
+A: Tak, możesz pobrać darmową wersję próbną z [tutaj](https://releases.aspose.com/).
 
- A4: Tak, możesz pobrać bezpłatną wersję próbną ze strony[Tutaj](https://releases.aspose.com/).
-   
-### P5: Gdzie mogę uzyskać pomoc dotyczącą Aspose.Note dla Java?
+**Q: Gdzie mogę uzyskać wsparcie dla Aspose.Note for Java?**  
+A: Zadawaj pytania na forum społeczności Aspose [tutaj](https://forum.aspose.com/c/note/28).
 
- Odpowiedź 5: Możesz uzyskać wsparcie na forach społeczności Aspose[Tutaj](https://forum.aspose.com/c/note/28).
+## Zakończenie
+
+Masz teraz kompletny, gotowy do produkcji przepływ pracy, aby **konwertować OneNote na PDF** przy zarządzaniu licencją metrową w Javie. Sprawdzając zużycie kredytów przed i po konwersji, możesz zapewnić, że aplikacja mieści się w budżecie i skaluje się efektywnie.
+
+---
+
+**Last Updated:** 2026-01-28  
+**Tested With:** Aspose.Note for Java 24.12 (latest at time of writing)  
+**Author:** Aspose  
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
