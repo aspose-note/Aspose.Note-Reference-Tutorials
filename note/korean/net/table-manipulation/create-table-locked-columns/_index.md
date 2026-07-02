@@ -59,8 +59,8 @@ Aspose.Note.Page page = new Aspose.Note.Page(doc);
 테이블에 대한 TableRow 객체를 만듭니다.
 
 ```csharp
-TableRow row1 = new TableRow(doc);
-TableRow row2 = new TableRow(doc);
+TableRow row1 = new TableRow();
+TableRow row2 = new TableRow();
 ```
 
 ## 4단계: TableCell 개체 초기화
@@ -68,10 +68,10 @@ TableRow row2 = new TableRow(doc);
 TableCell 객체를 만들고 각 셀의 텍스트 내용을 설정합니다.
 
 ```csharp
-TableCell cell11 = new TableCell(doc);
+TableCell cell11 = new TableCell();
 cell11.AppendChildLast(InsertTable.GetOutlineElementWithText(doc, "Small text"));
 
-TableCell cell21 = new TableCell(doc);
+TableCell cell21 = new TableCell();
 cell21.AppendChildLast(InsertTable.GetOutlineElementWithText(doc, "Long text with several words and spaces."));
 ```
 
@@ -80,7 +80,7 @@ cell21.AppendChildLast(InsertTable.GetOutlineElementWithText(doc, "Long text wit
 Table 클래스 객체를 초기화하고 열 너비 및 잠긴 너비와 같은 속성을 설정합니다.
 
 ```csharp
-Table table = new Table(doc)
+Table table = new Table()
 {
     IsBordersVisible = true,
     Columns = { new TableColumn { Width = 70, LockedWidth = true } }
@@ -101,8 +101,8 @@ table.AppendChildLast(row2);
 OutlineElement에 테이블 노드를 추가합니다.
 
 ```csharp
-Outline outline = new Outline(doc);
-OutlineElement outlineElem = new OutlineElement(doc);
+Outline outline = new Outline();
+OutlineElement outlineElem = new OutlineElement();
 outlineElem.AppendChildLast(table);
 outline.AppendChildLast(outlineElem);
 ```

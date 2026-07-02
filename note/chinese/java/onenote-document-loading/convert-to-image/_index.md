@@ -129,7 +129,7 @@ System.out.println("File saved: " + dataDir + "ConvertToImage_out.png");
 ---
 
 **最后更新：** 2025-12-04  
-**测试版本：** Aspose.Note for Java 24.12  
+**测试版本：** Aspose.Note for Java 26.4  
 **作者：** Aspose  
 
 {{< /blocks/products/pf/tutorial-page-section >}}

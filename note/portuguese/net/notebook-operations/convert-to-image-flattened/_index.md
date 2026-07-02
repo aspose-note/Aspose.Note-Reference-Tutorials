@@ -48,7 +48,7 @@ Primeiro, carregue o bloco de anotações do OneNote que deseja converter em seu
 string dataDir = "Your Document Directory";
 
 // Carregar um bloco de anotações do OneNote
-var notebook = new Notebook(dataDir + "Notizbuch öffnen.onetoc2");
+var notebook = new Notebook(dataDir + "Notebook.onetoc2");
 ```
 
 ## Etapa 2: definir opções para salvar

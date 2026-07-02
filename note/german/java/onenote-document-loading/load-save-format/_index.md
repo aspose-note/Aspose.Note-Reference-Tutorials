@@ -95,7 +95,7 @@ A: Die Bibliothek ist plattformunabhängig; sie läuft überall dort, wo eine ko
 A: Treten Sie den Aspose‑Foren auf der [Aspose.Note community page](https://forum.aspose.com/c/note/28) bei für Tipps und Fehlersuche.
 
 **Zuletzt aktualisiert:** 2025-12-07  
-**Getestet mit:** Aspose.Note für Java 24.11  
+**Getestet mit:** Aspose.Note für Java 26.4  
 **Autor:** Aspose  
 
 {{< /blocks/products/pf/tutorial-page-section >}}

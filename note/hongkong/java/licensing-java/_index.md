@@ -112,7 +112,7 @@ A: 不能。點數驗證需要連線至 Aspose 的授權伺服器。離線情況
 ---
 
 **Last Updated:** 2025-12-04  
-**測試環境：** Aspose.Note for Java 24.12 (latest at time of writing)  
+**測試環境：** Aspose.Note for Java 26.4 (latest at time of writing)  
 **作者：** Aspose
 
 {{< /blocks/products/pf/tutorial-page-section >}}

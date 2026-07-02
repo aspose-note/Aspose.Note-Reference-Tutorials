@@ -51,8 +51,8 @@ Aspose.Note.Page page = new Aspose.Note.Page(doc);
  Selanjutnya, inisialisasi`Outline` Dan`OutlineElement` objek:
 
 ```csharp
-Outline outline = new Outline(doc);
-OutlineElement outlineElem = new OutlineElement(doc);
+Outline outline = new Outline();
+OutlineElement outlineElem = new OutlineElement();
 ```
 
 ## Langkah 3: Muat dan Sisipkan Gambar

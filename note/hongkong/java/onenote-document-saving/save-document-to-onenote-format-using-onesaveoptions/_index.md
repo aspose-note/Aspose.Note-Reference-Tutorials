@@ -98,7 +98,7 @@ A: 您可在 [Aspose 網站](https://forum.aspose.com/c/note/28) 找到完整文
 ---
 
 **最後更新：** 2025-12-11  
-**測試環境：** Aspose.Note for Java 24.11  
+**測試環境：** Aspose.Note for Java 26.4  
 **作者：** Aspose  
 
 {{< /blocks/products/pf/tutorial-page-section >}}

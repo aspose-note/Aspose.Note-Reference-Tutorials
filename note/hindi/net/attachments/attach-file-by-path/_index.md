@@ -66,7 +66,7 @@ Aspose.Note.Page page = new Aspose.Note.Page(doc);
 ### चरण 3: आउटलाइन ऑब्जेक्ट को आरंभ करें
 
 ```csharp
-Outline outline = new Outline(doc);
+Outline outline = new Outline();
 ```
 
  एक`Outline` ऑब्जेक्ट पृष्ठ के भीतर सामग्री को व्यवस्थित करने के लिए बनाया गया है।
@@ -74,7 +74,7 @@ Outline outline = new Outline(doc);
 ### चरण 4: आउटलाइनएलिमेंट ऑब्जेक्ट को आरंभ करें
 
 ```csharp
-OutlineElement outlineElem = new OutlineElement(doc);
+OutlineElement outlineElem = new OutlineElement();
 ```
 
 `OutlineElement` रूपरेखा संरचना के भीतर एक तत्व का प्रतिनिधित्व करता है।
@@ -82,7 +82,7 @@ OutlineElement outlineElem = new OutlineElement(doc);
 ### चरण 5: अटैच्डफ़ाइल ऑब्जेक्ट को आरंभ करें
 
 ```csharp
-AttachedFile attachedFile = new AttachedFile(doc,  dataDir + "attachment.txt");
+AttachedFile attachedFile = new AttachedFile(dataDir + "attachment.txt");
 ```
 
  यहां, हम इसका एक उदाहरण बनाते हैं`AttachedFile`, उस फ़ाइल का पथ निर्दिष्ट करना जिसे हम संलग्न करना चाहते हैं।

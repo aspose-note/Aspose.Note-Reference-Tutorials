@@ -66,7 +66,7 @@ Aspose.Note.Page page = new Aspose.Note.Page(doc);
 ### Krok 3: Zainicjuj obiekt konspektu
 
 ```csharp
-Outline outline = new Outline(doc);
+Outline outline = new Outline();
 ```
 
  Jakiś`Outline` obiekt jest tworzony w celu uporządkowania treści na stronie.
@@ -74,7 +74,7 @@ Outline outline = new Outline(doc);
 ### Krok 4: Zainicjuj obiekt OutlineElement
 
 ```csharp
-OutlineElement outlineElem = new OutlineElement(doc);
+OutlineElement outlineElem = new OutlineElement();
 ```
 
 `OutlineElement` reprezentuje element w strukturze konspektu.
@@ -82,7 +82,7 @@ OutlineElement outlineElem = new OutlineElement(doc);
 ### Krok 5: Zainicjuj obiekt ApplyedFile
 
 ```csharp
-AttachedFile attachedFile = new AttachedFile(doc,  dataDir + "attachment.txt");
+AttachedFile attachedFile = new AttachedFile(dataDir + "attachment.txt");
 ```
 
  Tutaj tworzymy instancję`AttachedFile`, podając ścieżkę do pliku, który chcemy załączyć.

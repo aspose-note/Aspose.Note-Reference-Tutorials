@@ -127,7 +127,7 @@ L’appel à `save` écrit la page sélectionnée dans un fichier PNG sur le dis
 ---
 
 **Dernière mise à jour :** 2025-11-29  
-**Testé avec :** Aspose.Note pour Java 24.11 (dernière version)  
+**Testé avec :** Aspose.Note pour Java 26.4 (dernière version)  
 **Auteur :** Aspose  
 
 {{< /blocks/products/pf/tutorial-page-section >}}

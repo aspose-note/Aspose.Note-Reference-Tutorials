@@ -87,7 +87,7 @@ Gratulacje! Pomyślnie utworzyłeś tabelę z zablokowanymi kolumnami w OneNote 
 tym samouczku omówiliśmy proces wykorzystania Aspose.Note dla języka Java w celu ulepszenia środowiska programu OneNote poprzez tworzenie tabel z zablokowanymi kolumnami. Ta funkcja dodaje nową warstwę organizacji i struktury do Twoich notatek.
 ## Często zadawane pytania
 ### Czy Aspose.Note dla Java jest kompatybilny ze wszystkimi wersjami Java?
-Tak, Aspose.Note dla Java jest kompatybilny z Java 6 i nowszymi wersjami.
+Tak, Aspose.Note dla Java jest kompatybilny z Java SE 7 i nowszymi wersjami.
 ### Czy mogę jeszcze bardziej dostosować wygląd stołu?
 Absolutnie! Aspose.Note dla Java zapewnia rozbudowane opcje dostosowywania tabel, takie jak dostosowywanie obramowań, odstępów między komórkami i inne.
 ### Czy przed zakupem dostępna jest wersja próbna?

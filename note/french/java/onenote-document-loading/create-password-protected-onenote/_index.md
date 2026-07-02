@@ -105,7 +105,7 @@ Vous savez maintenant **comment protéger OneNote** en créant un fichier proté
 ---
 
 **Dernière mise à jour :** 2025-12-02  
-**Testé avec :** Aspose.Note for Java 24.12 (dernière version au moment de la rédaction)  
+**Testé avec :** Aspose.Note for Java 26.4 (dernière version au moment de la rédaction)  
 **Auteur :** Aspose  
 
 {{< /blocks/products/pf/tutorial-page-section >}}

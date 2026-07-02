@@ -127,7 +127,7 @@ A5: Tijdelijke licenties worden verstrekt via de [temporary license page](https:
 ---
 
 **Laatst bijgewerkt:** 2025-12-05  
-**Getest met:** Aspose.Note for Java 24.12 (latest at time of writing)  
+**Getest met:** Aspose.Note for Java 26.4 (latest at time of writing)  
 **Auteur:** Aspose  
 
 {{< /blocks/products/pf/tutorial-page-section >}}

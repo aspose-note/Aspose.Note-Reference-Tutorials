@@ -37,7 +37,7 @@ Aspose.Note.Document doc = new Aspose.Note.Document();
 ## الخطوة 2: تهيئة صفحة OneNote
 ```csharp
 Aspose.Note.Page page = new Aspose.Note.Page(doc);
-Outline outline = new Outline(doc);
+Outline outline = new Outline();
 ```
 ## الخطوة 3: تطبيق إعدادات نمط النص
 ```csharp
@@ -47,20 +47,20 @@ ParagraphStyle defaultStyle = new ParagraphStyle { FontColor = Color.Black, Font
 الآن، لنقم بإنشاء ثلاثة عناصر مخطط تفصيلي باستخدام قوائم الأرقام الصينية:
 ### الخطوة 4.1: العنصر الأول
 ```csharp
-OutlineElement outlineElem1 = new OutlineElement(doc) { NumberList = new NumberList("{0})", NumberFormat.ChineseCounting, "Arial", 10) };
-RichText text1 = new RichText(doc) { Text = "First", ParagraphStyle = defaultStyle };
+OutlineElement outlineElem1 = new OutlineElement() { NumberList = new NumberList("{0})", NumberFormat.ChineseCounting, "Arial", 10) };
+RichText text1 = new RichText() { Text = "First", ParagraphStyle = defaultStyle };
 outlineElem1.AppendChildLast(text1);
 ```
 ### الخطوة 4.2: العنصر الثاني
 ```csharp
-OutlineElement outlineElem2 = new OutlineElement(doc) { NumberList = new NumberList("{0})", NumberFormat.ChineseCounting, "Arial", 10) };
-RichText text2 = new RichText(doc) { Text = "Second", ParagraphStyle = defaultStyle };
+OutlineElement outlineElem2 = new OutlineElement() { NumberList = new NumberList("{0})", NumberFormat.ChineseCounting, "Arial", 10) };
+RichText text2 = new RichText() { Text = "Second", ParagraphStyle = defaultStyle };
 outlineElem2.AppendChildLast(text2);
 ```
 ### الخطوة 4.3: العنصر الثالث
 ```csharp
-OutlineElement outlineElem3 = new OutlineElement(doc) { NumberList = new NumberList("{0})", NumberFormat.ChineseCounting, "Arial", 10) };
-RichText text3 = new RichText(doc) { Text = "Third", ParagraphStyle = defaultStyle };
+OutlineElement outlineElem3 = new OutlineElement() { NumberList = new NumberList("{0})", NumberFormat.ChineseCounting, "Arial", 10) };
+RichText text3 = new RichText() { Text = "Third", ParagraphStyle = defaultStyle };
 outlineElem3.AppendChildLast(text3);
 ```
 ## الخطوة 5: إلحاق العناصر بالمخطط التفصيلي

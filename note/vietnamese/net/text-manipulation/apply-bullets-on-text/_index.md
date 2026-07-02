@@ -41,7 +41,7 @@ Aspose.Note.Document doc = new Aspose.Note.Document();
 // Khởi tạo đối tượng lớp Trang
 Aspose.Note.Page page = new Aspose.Note.Page(doc);
 // Khởi tạo đối tượng lớp Outline
-Outline outline = new Outline(doc);
+Outline outline = new Outline();
 ```
 ## Bước 3: Đặt kiểu văn bản mặc định
 ```csharp
@@ -51,8 +51,8 @@ ParagraphStyle defaultStyle = new ParagraphStyle { FontColor = Color.Black, Font
 ## Bước 4: Tạo các phần tử phác thảo bằng dấu đầu dòng
 ```csharp
 // Khởi tạo các đối tượng lớp OutlineElement và áp dụng dấu đầu dòng
-OutlineElement outlineElem1 = new OutlineElement(doc) { NumberList = new NumberList("*", "Arial", 10) };
-RichText text1 = new RichText(doc) { Text = "First", ParagraphStyle = defaultStyle };
+OutlineElement outlineElem1 = new OutlineElement() { NumberList = new NumberList("*", "Arial", 10) };
+RichText text1 = new RichText() { Text = "First", ParagraphStyle = defaultStyle };
 outlineElem1.AppendChildLast(text1);
 // Lặp lại cho các phần tử phác thảo khác
 ```

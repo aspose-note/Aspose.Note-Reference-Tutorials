@@ -127,7 +127,7 @@ A5: Temporäre Lizenzen werden über die [temporäre Lizenz‑Seite](https://pur
 ---
 
 **Zuletzt aktualisiert:** 2025-12-05  
-**Getestet mit:** Aspose.Note for Java 24.12 (zum Zeitpunkt der Erstellung die neueste Version)  
+**Getestet mit:** Aspose.Note for Java 26.4 (zum Zeitpunkt der Erstellung die neueste Version)  
 **Autor:** Aspose  
 
 {{< /blocks/products/pf/tutorial-page-section >}}

@@ -49,7 +49,7 @@ NotebookLoadOptions loadOptions = new NotebookLoadOptions { InstantLoading = tru
 Затем укажите путь к файлу блокнота и инициализируйте объект блокнота, используя указанные параметры загрузки.
 
 ```csharp
-String inputFile = "Notizbuch öffnen.onetoc2";
+String inputFile = "Notebook.onetoc2";
 String dataDir = "Your Document Directory";
 Notebook notebook = new Notebook(dataDir + inputFile, loadOptions);
 ```

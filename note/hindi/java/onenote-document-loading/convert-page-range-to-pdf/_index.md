@@ -124,7 +124,7 @@ System.out.println("File saved: " + dataDir + "ConvertSpecificPageRangeToPdf_out
 ---
 
 **अंतिम अपडेट:** 2025-11-30  
-**परीक्षित संस्करण:** Aspose.Note for Java 24.11  
+**परीक्षित संस्करण:** Aspose.Note for Java 26.4  
 **लेखक:** Aspose  
 
 {{< /blocks/products/pf/tutorial-page-section >}}

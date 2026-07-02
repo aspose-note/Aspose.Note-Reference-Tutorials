@@ -56,13 +56,13 @@ Aspose.Note.Page page = new Aspose.Note.Page(doc);
 ### ステップ 3: アウトライン オブジェクトを初期化する
 
 ```csharp
-Outline outline = new Outline(doc);
+Outline outline = new Outline();
 ```
 
 ### ステップ 4:OutlineElement オブジェクトを初期化する
 
 ```csharp
-OutlineElement outlineElem = new OutlineElement(doc);
+OutlineElement outlineElem = new OutlineElement();
 ```
 
 ### ステップ 5: ファイルを読み取り、AttachedFile オブジェクトを初期化する
@@ -71,7 +71,7 @@ OutlineElement outlineElem = new OutlineElement(doc);
 string dataDir = "Your Document Directory";
 using (var stream = File.OpenRead(dataDir + "icon.jpg"))
 {
-    AttachedFile attachedFile = new AttachedFile(doc, dataDir + "attachment.txt", stream, ImageFormat.Jpeg);
+    AttachedFile attachedFile = new AttachedFile(dataDir + "attachment.txt", stream, ImageFormat.Jpeg);
 }
 ```
 

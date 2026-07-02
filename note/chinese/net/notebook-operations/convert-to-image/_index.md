@@ -42,7 +42,7 @@ using System.Collections.Generic;
 
 ```csharp
 string dataDir = "Your Document Directory";
-var notebook = new Notebook(dataDir + "Notizbuch �ffnen.onetoc2");
+var notebook = new Notebook(dataDir + "Notebook.onetoc2");
 ```
 
 ## 第 2 步：将笔记本另存为图像

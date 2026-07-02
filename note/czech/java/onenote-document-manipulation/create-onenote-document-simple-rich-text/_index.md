@@ -189,7 +189,7 @@ Nyní jste viděli, jak **set paragraph style**, **add outline element** a **gen
 ---
 
 **Poslední aktualizace:** 2025-12-08  
-**Testováno s:** Aspose.Note for Java 24.11 (nejnovější verze)  
+**Testováno s:** Aspose.Note for Java 26.4 (nejnovější verze)  
 **Autor:** Aspose  
 
 {{< /blocks/products/pf/tutorial-page-section >}}

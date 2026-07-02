@@ -127,7 +127,7 @@ V: Természetesen – iteráljon a `Document.getPages()`-en, és alkalmazza ugya
 ---
 
 **Utoljára frissítve:** 2025-12-14  
-**Tesztelve a következővel:** Aspose.Note for Java 24.12  
+**Tesztelve a következővel:** Aspose.Note for Java 26.4  
 **Szerző:** Aspose  
 
 {{< /blocks/products/pf/tutorial-page-section >}}

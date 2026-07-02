@@ -156,7 +156,7 @@ weight: 27
 ج: زر الموقع الرسمي لـ Aspose أو مستودع Maven Central للحصول على أحدث إصدار.
 
 **آخر تحديث:** 2025-12-11  
-**تم الاختبار مع:** Aspose.Note 24.12 for Java  
+**تم الاختبار مع:** Aspose.Note 26.4 for Java  
 **المؤلف:** Aspose  
 
 {{< /blocks/products/pf/tutorial-page-section >}}

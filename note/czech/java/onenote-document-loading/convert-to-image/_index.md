@@ -129,7 +129,7 @@ Po absolvování těchto jednoduchých kroků nyní víte **jak uložit OneNote*
 ---
 
 **Poslední aktualizace:** 2025-12-04  
-**Testováno s:** Aspose.Note pro Java 24.12  
+**Testováno s:** Aspose.Note pro Java 26.4  
 **Autor:** Aspose  
 
 {{< /blocks/products/pf/tutorial-page-section >}}

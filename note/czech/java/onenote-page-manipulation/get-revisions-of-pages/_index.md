@@ -1,37 +1,55 @@
 ---
-title: Získejte revize stránek ve OneNotu – Aspose.Note
-linktitle: Získejte revize stránek ve OneNotu – Aspose.Note
+date: 2026-01-10
+description: Naučte se, jak získat čas poslední úpravy a načíst revize stránek OneNote
+  pomocí Aspose.Note pro Javu. Začleňte to do svých Java aplikací pro efektivní správu
+  dokumentů.
+linktitle: Get Revisions of Pages in OneNote - Aspose.Note
 second_title: Aspose.Note Java API
-description: Přečtěte si, jak načíst revize stránek v dokumentech OneNotu pomocí Aspose.Note Java. Integrujte to do svých aplikací Java pro efektivní správu dokumentů.
-weight: 15
+title: Jak získat čas poslední úpravy stránek OneNote – Aspose.Note
 url: /cs/java/onenote-page-manipulation/get-revisions-of-pages/
+weight: 15
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Získejte revize stránek ve OneNotu – Aspose.Note
+# Získání revizí stránek v OneNote - Aspose.Note
 
 ## Úvod
 
-tomto tutoriálu se ponoříme do možností Aspose.Note for Java, výkonné knihovny, která vám umožňuje bezproblémově pracovat se soubory Microsoft OneNote v aplikacích Java. Konkrétně se zaměříme na to, jak načíst revize stránek v dokumentu OneNotu. Na konci této příručky budete vybaveni znalostmi pro efektivní extrahování revizí stránek, včetně podrobností, jako je čas poslední úpravy, čas vytvoření, název, úroveň a autor.
+V tomto tutoriálu **získáte čas poslední úpravy** pro stránky uvnitř dokumentu OneNote a prozkoumáte, jak získat úplnou historii revizí pomocí Aspose.Note pro Java. Ať už vytváříte systém pro správu dokumentů, provádíte audit změn, nebo jen potřebujete zobrazit, kdy byla stránka naposledy upravena, tento průvodce vám přesně ukáže, jak tuto informaci programově získat.
 
-## Předpoklady
+## Rychlé odpovědi
+- **Co vrací “get last modified time”?** Časové razítko nejnovější úpravy na stránce OneNote.  
+- **Která třída poskytuje historii revizí?** `PageHistory` přes `Document.getPageHistory(Page)`.  
+- **Potřebuji licenci pro tuto funkci?** Ano, pro produkční použití je vyžadována platná licence Aspose.Note.  
+- **Jaká verze Javy je podporována?** Java 8 nebo vyšší (JDK 8+).  
+- **Mohu filtrovat revize podle autora?** Můžete číst vlastnost `Author` každého objektu `Page` a aplikovat vlastní filtr.
 
-Než se pustíte do tohoto výukového programu, ujistěte se, že máte nastaveny následující předpoklady:
+## Co je “get last modified time” v OneNote?
+
+**Čas poslední úpravy** je metadata uložená u každé stránky, která zaznamenává, kdy byla stránka naposledy změněna. Aspose.Note tuto hodnotu zpřístupňuje metodou `Page.getLastModifiedTime()`, což usnadňuje zobrazování nebo zaznamenávání dat změn.
+
+## Proč získávat revize stránek?
+
+- **Auditní stopy:** Uchovávejte záznam o tom, kdo co a kdy změnil.  
+- **Porovnání verzí:** Vytvořte funkce, které porovnávají dvě revize vedle sebe.  
+- **Přehled o spolupráci uživatelů:** Pochopte vzorce úprav ve sdílených poznámkových blocích.  
+
+## Požadavky
+
+Než začnete, ujistěte se, že máte následující:
 
 ### Java Development Kit (JDK) nainstalován
+Nainstalujte JDK 8 nebo novější z webu Oracle nebo z vašeho preferovaného správce balíčků.
 
-Ujistěte se, že máte v systému nainstalovanou sadu Java Development Kit. Můžete si jej stáhnout a nainstalovat z webu Oracle nebo použít správce balíčků, pokud používáte systém založený na Unixu.
+### Knihovna Aspose.Note pro Java
+Stáhněte knihovnu z oficiálního webu. Stahovací odkaz najdete **[zde](https://releases.aspose.com/note/java/)**. Postup instalace najdete v dokumentaci **[zde](https://reference.aspose.com/note/java/)**.
 
-### Aspose.Note pro Java Library
+## Import balíčků
 
- Stáhněte si a nainstalujte knihovnu Aspose.Note for Java z webu. Odkaz ke stažení najdete[tady](https://releases.aspose.com/note/java/) . Postupujte podle pokynů k instalaci uvedených v dokumentaci[tady](https://reference.aspose.com/note/java/).
-
-## Importujte balíčky
-
-Chcete-li začít, importujte potřebné balíčky do svého projektu Java. Tyto balíčky vám umožní využít funkce poskytované Aspose.Note pro Java.
+Pro začátek importujte potřebné balíčky do svého Java projektu. Tyto balíčky vám umožní využít funkčnost poskytovanou Aspose.Note pro Java.
 
 ```java
 import java.io.IOException;
@@ -41,43 +59,40 @@ import com.aspose.note.Page;
 import com.aspose.note.PageHistory;
 ```
 
-Nyní si rozeberme poskytnutý příklad kódu do několika kroků, abychom porozuměli jednotlivým komponentám a jejich funkcím.
+Nyní si rozložíme ukázkový kód do několika kroků, abychom pochopili každou součást a její funkci.
 
-## Krok 1: Nastavte adresář dokumentů
+## Jak získat čas poslední úpravy stránky OneNote
 
-Definujte adresář, kde se nachází váš dokument OneNotu.
+### Krok 1: Nastavte adresář dokumentu
+Definujte adresář, kde se nachází váš OneNote dokument.
 
 ```java
 String dataDir = "Your Document Directory";
 ```
 
-## Krok 2: Vložte dokument
-
-Načtěte dokument OneNotu do Aspose.Note.
+### Krok 2: Načtěte dokument
+Načtěte OneNote dokument do Aspose.Note.
 
 ```java
 Document doc = new Document(dataDir + "Sample1.one");
 ```
 
-## Krok 3: Získejte první stránku
-
-Načtěte první stránku z dokumentu.
+### Krok 3: Získejte první stránku
+Získejte první stránku z dokumentu.
 
 ```java
 Page firstPage = doc.getFirstChild();
 ```
 
-## Krok 4: Získejte revize stránky
-
+### Krok 4: Získejte revize stránky
 Získejte historii revizí stránky.
 
 ```java
 PageHistory revisions = doc.getPageHistory(firstPage);
 ```
 
-## Krok 5: Procházení revizí stránek
-
-Procházejte seznam revizí stránek a získejte relevantní informace.
+### Krok 5: Procházejte revize stránky
+Iterujte přes seznam revizí stránky a získejte relevantní informace, včetně **last modified time**.
 
 ```java
 for (Page pageRevision : revisions) {
@@ -90,31 +105,34 @@ for (Page pageRevision : revisions) {
 }
 ```
 
-## Závěr
+## Časté problémy a řešení
+- **Null `PageHistory`:** Ujistěte se, že dokument skutečně obsahuje revize; jinak může `getPageHistory` vrátit `null`.  
+- **Rozdíly časových pásem:** `getLastModifiedTime()` vrací `java.util.Date` v výchozím časovém pásmu systému. V případě potřeby jej převedete na UTC.  
+- **Licence není načtena:** Bez platné licence může Aspose.Note fungovat v evaluačním režimu, který omezuje počet zpracovávaných stránek.
 
-V tomto kurzu jsme prozkoumali, jak načíst revize stránek v dokumentu OneNote pomocí Aspose.Note pro Java. Pokud budete postupovat podle podrobného průvodce a využít poskytnutý ukázkový kód, můžete tuto funkci snadno integrovat do svých aplikací Java a umožnit tak efektivní správu souborů OneNotu.
+## Často kladené otázky
 
-## FAQ
+### Q1: Mohu pomocí Aspose.Note pro Java vytvářet nové dokumenty OneNote?
+**A1:** Ano, Aspose.Note pro Java poskytuje komplexní podporu pro vytváření, čtení a manipulaci s OneNote dokumenty programově.
 
-### Q1: Mohu použít Aspose.Note pro Java k vytváření nových dokumentů OneNotu?
+### Q2: Je Aspose.Note pro Java kompatibilní s různými verzemi souborů OneNote?
+**A2:** Ano, Aspose.Note pro Java podporuje různé verze souborů Microsoft OneNote, což zajišťuje kompatibilitu napříč různými prostředími.
 
-Odpověď 1: Ano, Aspose.Note pro Java poskytuje komplexní podporu pro vytváření, čtení a manipulaci s dokumenty OneNote programově.
-
-### Q2: Je Aspose.Note for Java kompatibilní s různými verzemi souborů OneNote?
-
-Odpověď 2: Ano, Aspose.Note for Java podporuje různé verze souborů Microsoft OneNote, což zajišťuje kompatibilitu v různých prostředích.
-
-### Q3: Mohu přizpůsobit výstupní formát při exportu dokumentů OneNotu?
-
-Odpověď 3: Absolutně, Aspose.Note pro Java nabízí flexibilitu při exportu dokumentů OneNote do různých formátů, jako je PDF, HTML a obrázky, s možnostmi přizpůsobení.
+### Q3: Mohu přizpůsobit výstupní formát při exportu dokumentů OneNote?
+**A3:** Rozhodně, Aspose.Note pro Java nabízí flexibilitu při exportu OneNote dokumentů do různých formátů, jako jsou PDF, HTML a obrázky, s možnostmi přizpůsobení.
 
 ### Q4: Vyžaduje Aspose.Note pro Java licenci pro komerční použití?
+**A4:** Ano, pro komerční použití Aspose.Note pro Java je vyžadována platná licence. Licenci můžete získat na webu Aspose.
 
-A4: Ano, pro komerční použití Aspose.Note pro Java je vyžadována platná licence. Licenci můžete získat z webu Aspose.
+### Q5: Kde mohu získat pomoc, pokud narazím na problémy nebo mám otázky ohledně Aspose.Note pro Java?
+**A5:** Pro podporu a pomoc můžete navštívit fórum Aspose.Note **[zde](https://forum.aspose.com/c/note/28)**, kde můžete klást otázky, sdílet zkušenosti a komunikovat s ostatními uživateli a odborníky.
 
-### Otázka 5: Kde mohu požádat o pomoc, pokud narazím na problémy nebo mám dotazy ohledně Aspose.Note pro Java?
+---
 
- Odpověď 5: Pro podporu a pomoc můžete navštívit fórum Aspose.Note[tady](https://forum.aspose.com/c/note/28)kde můžete klást otázky, sdílet zkušenosti a komunikovat s ostatními uživateli a odborníky.
+**Last Updated:** 2026-01-10  
+**Testováno s:** Aspose.Note pro Java 23.12 (nejnovější v době psaní)  
+**Author:** Aspose  
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

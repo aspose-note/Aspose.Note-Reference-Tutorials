@@ -41,7 +41,7 @@ Pertama, kita perlu menginisialisasi dokumen baru dan membuat halaman untuk meny
 
 ```csharp
 var document = new Document();
-var page = new Page(document);
+var page = new Page();
 ```
 
 ## Langkah 2: Sisipkan Gambar dengan Hyperlink
@@ -50,7 +50,7 @@ Sekarang, mari sisipkan gambar dengan hyperlink. Kami akan membuat`Image` objek 
 
 ```csharp
 string imagePath = "path_to_your_image.jpg";
-var image = new Image(document, imagePath) { HyperlinkUrl = "http://contoh.com" };
+var image = new Image(imagePath) { HyperlinkUrl = "https://contoh.com" };
 ```
 
 ## Langkah 3: Tambahkan Gambar ke Halaman

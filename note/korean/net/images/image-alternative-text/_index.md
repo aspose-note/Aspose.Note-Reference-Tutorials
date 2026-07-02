@@ -42,14 +42,14 @@ using System;
 
 ```csharp
 var document = new Document();
-var page = new Page(document);
+var page = new Page();
 ```
 
 ## 2단계: 이미지 로드
 
 ```csharp
 string dataDir = "Your Document Directory";
-var image = new Image(document, dataDir + "image.jpg");
+var image = new Image(dataDir + "image.jpg");
 ```
 
 ## 3단계: 대체 텍스트 설정

@@ -66,7 +66,7 @@ Aspose.Note.Page page = new Aspose.Note.Page(doc);
 ### ขั้นตอนที่ 3: เริ่มต้นวัตถุเค้าร่าง
 
 ```csharp
-Outline outline = new Outline(doc);
+Outline outline = new Outline();
 ```
 
  หนึ่ง`Outline` วัตถุถูกสร้างขึ้นเพื่อจัดระเบียบเนื้อหาภายในหน้า
@@ -74,7 +74,7 @@ Outline outline = new Outline(doc);
 ### ขั้นตอนที่ 4: เริ่มต้นวัตถุ OutlineElement
 
 ```csharp
-OutlineElement outlineElem = new OutlineElement(doc);
+OutlineElement outlineElem = new OutlineElement();
 ```
 
 `OutlineElement` แสดงถึงองค์ประกอบภายในโครงสร้างเค้าร่าง
@@ -82,7 +82,7 @@ OutlineElement outlineElem = new OutlineElement(doc);
 ### ขั้นตอนที่ 5: เริ่มต้นวัตถุ AttachedFile
 
 ```csharp
-AttachedFile attachedFile = new AttachedFile(doc,  dataDir + "attachment.txt");
+AttachedFile attachedFile = new AttachedFile(dataDir + "attachment.txt");
 ```
 
  ที่นี่เราสร้างอินสแตนซ์ของ`AttachedFile`โดยระบุเส้นทางไปยังไฟล์ที่เราต้องการแนบ

@@ -169,7 +169,7 @@ Sie wissen jetzt **wie man Fonts exportiert**, während Sie **OneNote als HTML s
 ---
 
 **Zuletzt aktualisiert:** 2025-12-02  
-**Getestet mit:** Aspose.Note for Java 24.12  
+**Getestet mit:** Aspose.Note for Java 26.4  
 **Autor:** Aspose
 
 {{< /blocks/products/pf/tutorial-page-section >}}

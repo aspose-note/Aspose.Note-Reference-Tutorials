@@ -114,7 +114,7 @@ A5: Ναι, μπορείτε να αποκτήσετε προσωρινή άδε
 ---
 
 **Τελευταία ενημέρωση:** 2025-12-12  
-**Δοκιμασμένο με:** Aspose.Note for Java 24.11  
+**Δοκιμασμένο με:** Aspose.Note for Java 26.4  
 **Συγγραφέας:** Aspose  
 
 {{< /blocks/products/pf/tutorial-page-section >}}

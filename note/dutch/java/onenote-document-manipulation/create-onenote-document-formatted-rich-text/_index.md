@@ -167,7 +167,7 @@ In deze gids hebben we laten zien hoe je **OneNote als PDF kunt opslaan** terwij
 ---
 
 **Laatst bijgewerkt:** 2025-12-09  
-**Getest met:** Aspose.Note for Java 24.11 (latest at time of writing)  
+**Getest met:** Aspose.Note for Java 26.4 (latest at time of writing)  
 **Auteur:** Aspose  
 
 {{< /blocks/products/pf/tutorial-page-section >}}

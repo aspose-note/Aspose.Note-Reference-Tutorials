@@ -45,7 +45,7 @@ Bir not defterini PDF'ye dönüştürmek için önce OneNote not defterini yükl
 ```java
 String dataDir = "Your Document Directory";
 // OneNote Not Defteri Yükleme
-Notebook notebook = new Notebook(dataDir + "Notizbuch �ffnen.onetoc2");
+Notebook notebook = new Notebook(dataDir + "Notebook.onetoc2");
 ```
 
 ## 2. Adım: PDF Kaydetme Seçeneklerini Belirleyin

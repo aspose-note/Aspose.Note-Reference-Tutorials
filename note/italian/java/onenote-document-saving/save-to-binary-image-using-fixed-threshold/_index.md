@@ -134,7 +134,7 @@ R: La libreria Aspose.Note Java è indipendente dalla piattaforma, quindi lo ste
 ---
 
 **Ultimo Aggiornamento:** 2025-12-13  
-**Testato Con:** Aspose.Note per Java 24.12 (latest)  
+**Testato Con:** Aspose.Note per Java 26.4 (latest)  
 **Autore:** Aspose  
 
 {{< /blocks/products/pf/tutorial-page-section >}}

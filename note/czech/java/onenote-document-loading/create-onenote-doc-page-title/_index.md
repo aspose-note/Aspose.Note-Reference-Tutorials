@@ -162,7 +162,7 @@ A: Navštivte [Aspose.Note fórum](https://forum.aspose.com/c/note/28) pro komun
 ---
 
 **Poslední aktualizace:** 2025-12-02  
-**Testováno s:** Aspose.Note pro Java 24.12 (nejnovější v době psaní)  
+**Testováno s:** Aspose.Note pro Java 26.4 (nejnovější v době psaní)  
 **Autor:** Aspose  
 
 {{< /blocks/products/pf/tutorial-page-section >}}

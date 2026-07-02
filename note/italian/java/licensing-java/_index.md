@@ -113,7 +113,7 @@ A: No. La convalida dei crediti richiede una chiamata online al server di licenz
 ---
 
 **Ultimo aggiornamento:** 2025-12-04  
-**Testato con:** Aspose.Note per Java 24.12 (ultima versione al momento della stesura)  
+**Testato con:** Aspose.Note per Java 26.4 (ultima versione al momento della stesura)  
 **Autore:** Aspose
 
 {{< /blocks/products/pf/tutorial-page-section >}}

@@ -116,7 +116,7 @@ Dalam panduan ini kami telah membahas semua yang perlu Anda ketahui untuk **meng
 ---
 
 **Terakhir Diperbarui:** 2025-12-11  
-**Diuji Dengan:** Aspose.Note 24.11 untuk Java  
+**Diuji Dengan:** Aspose.Note 26.4 untuk Java  
 **Penulis:** Aspose  
 
 {{< /blocks/products/pf/tutorial-page-section >}}

@@ -129,7 +129,7 @@ A: Możesz iterować po wartościach wyliczenia `FileFormat`, aby zobaczyć każ
 ---
 
 **Last Updated:** 2025-12-04  
-**Tested With:** Aspose.Note for Java 24.11  
+**Tested With:** Aspose.Note for Java 26.4  
 **Author:** Aspose  
 
 {{< /blocks/products/pf/tutorial-page-section >}}

@@ -42,7 +42,7 @@ Başlamak için dönüştürmek istediğimiz OneNote not defterini yüklememiz g
 
 ```csharp
 string dataDir = "Your Document Directory";
-var notebook = new Notebook(dataDir + "Notizbuch �ffnen.onetoc2");
+var notebook = new Notebook(dataDir + "Notebook.onetoc2");
 ```
 
 ## Adım 2: Not Defterini Görüntü Olarak Kaydetme

@@ -47,10 +47,10 @@ Aspose.Note.Page page = new Aspose.Note.Page(doc);
 
 Selanjutnya, inisialisasi baris dan sel tabel untuk menyusun tabel Anda.
 ```csharp
-TableRow row1 = new TableRow(doc);
-TableCell cell11 = new TableCell(doc);
-TableCell cell12 = new TableCell(doc);
-TableCell cell13 = new TableCell(doc);
+TableRow row1 = new TableRow();
+TableCell cell11 = new TableCell();
+TableCell cell12 = new TableCell();
+TableCell cell13 = new TableCell();
 ```
 
 ## Langkah 3: Isi Sel Tabel
@@ -75,7 +75,7 @@ row1.AppendChildLast(cell13);
 
 Buat objek tabel dan atur propertinya, seperti visibilitas batas dan lebar kolom.
 ```csharp
-Table table = new Table(doc)
+Table table = new Table()
 {
     IsBordersVisible = true,
     Columns = { new TableColumn { Width = 200 }, new TableColumn { Width = 200 }, new TableColumn { Width = 200 } }
@@ -94,8 +94,8 @@ table.AppendChildLast(row2);
 
 Gabungkan tabel ke dalam struktur dokumen dengan menambahkannya ke kerangka.
 ```csharp
-Outline outline = new Outline(doc);
-OutlineElement outlineElem = new OutlineElement(doc);
+Outline outline = new Outline();
+OutlineElement outlineElem = new OutlineElement();
 outlineElem.AppendChildLast(table);
 outline.AppendChildLast(outlineElem);
 page.AppendChildLast(outline);

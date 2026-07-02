@@ -109,7 +109,7 @@ R : Une fois le document chargé avec succès, vous pouvez parcourir ses pages
 ---
 
 **Dernière mise à jour :** 2025-12-11  
-**Testé avec :** Aspose.Note for Java 24.12  
+**Testé avec :** Aspose.Note for Java 26.4  
 **Auteur :** Aspose  
 
 {{< /blocks/products/pf/tutorial-page-section >}}

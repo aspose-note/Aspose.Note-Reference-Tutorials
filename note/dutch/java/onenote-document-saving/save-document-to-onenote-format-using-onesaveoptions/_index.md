@@ -99,7 +99,7 @@ A: Je vindt uitgebreide documentatie, tutorials en community‑forums op de [Asp
 ---
 
 **Laatst bijgewerkt:** 2025-12-11  
-**Getest met:** Aspose.Note for Java 24.11  
+**Getest met:** Aspose.Note for Java 26.4  
 **Auteur:** Aspose  
 
 {{< /blocks/products/pf/tutorial-page-section >}}

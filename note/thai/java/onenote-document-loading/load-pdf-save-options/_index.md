@@ -106,7 +106,7 @@ A: มี, คุณสามารถดาวน์โหลดรุ่นท
 A: ฟอรั่มชุมชนของ Aspose เป็นสถานที่ดีสำหรับถามคำถาม: [support forum](https://forum.aspose.com/c/note/28).
 
 **อัปเดตล่าสุด:** 2025-12-05  
-**ทดสอบด้วย:** Aspose.Note for Java 24.12  
+**ทดสอบด้วย:** Aspose.Note for Java 26.4  
 **ผู้เขียน:** Aspose  
 
 {{< /blocks/products/pf/tutorial-page-section >}}

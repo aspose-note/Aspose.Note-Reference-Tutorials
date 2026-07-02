@@ -129,7 +129,7 @@ Al aplicar el **visitor pattern java** con Aspose.Note, ahora tienes una forma l
 ---
 
 **Última actualización:** 2025-12-09  
-**Probado con:** Aspose.Note for Java 24.10  
+**Probado con:** Aspose.Note for Java 26.4  
 **Autor:** Aspose  
 
 {{< /blocks/products/pf/tutorial-page-section >}}

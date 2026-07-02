@@ -56,13 +56,13 @@ Aspose.Note.Page page = new Aspose.Note.Page(doc);
 ### Schritt 3: Gliederungsobjekt initialisieren
 
 ```csharp
-Outline outline = new Outline(doc);
+Outline outline = new Outline();
 ```
 
 ### Schritt 4: OutlineElement-Objekt initialisieren
 
 ```csharp
-OutlineElement outlineElem = new OutlineElement(doc);
+OutlineElement outlineElem = new OutlineElement();
 ```
 
 ### Schritt 5: Datei lesen und AttachedFile-Objekt initialisieren
@@ -71,7 +71,7 @@ OutlineElement outlineElem = new OutlineElement(doc);
 string dataDir = "Your Document Directory";
 using (var stream = File.OpenRead(dataDir + "icon.jpg"))
 {
-    AttachedFile attachedFile = new AttachedFile(doc, dataDir + "attachment.txt", stream, ImageFormat.Jpeg);
+    AttachedFile attachedFile = new AttachedFile(dataDir + "attachment.txt", stream, ImageFormat.Jpeg);
 }
 ```
 

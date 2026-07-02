@@ -56,13 +56,13 @@ Aspose.Note.Page page = new Aspose.Note.Page(doc);
 ### ขั้นตอนที่ 3: เริ่มต้นวัตถุเค้าร่าง
 
 ```csharp
-Outline outline = new Outline(doc);
+Outline outline = new Outline();
 ```
 
 ### ขั้นตอนที่ 4: เริ่มต้นวัตถุ OutlineElement
 
 ```csharp
-OutlineElement outlineElem = new OutlineElement(doc);
+OutlineElement outlineElem = new OutlineElement();
 ```
 
 ### ขั้นตอนที่ 5: อ่านไฟล์และเริ่มต้นวัตถุ AttachedFile
@@ -71,7 +71,7 @@ OutlineElement outlineElem = new OutlineElement(doc);
 string dataDir = "Your Document Directory";
 using (var stream = File.OpenRead(dataDir + "icon.jpg"))
 {
-    AttachedFile attachedFile = new AttachedFile(doc, dataDir + "attachment.txt", stream, ImageFormat.Jpeg);
+    AttachedFile attachedFile = new AttachedFile(dataDir + "attachment.txt", stream, ImageFormat.Jpeg);
 }
 ```
 

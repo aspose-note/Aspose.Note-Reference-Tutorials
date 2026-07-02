@@ -107,7 +107,7 @@ A: Az Aspose közösségi fórum nagyszerű hely a kérdések feltevésére: [su
 ---
 
 **Legutóbb frissítve:** 2025-12-05  
-**Tesztelve:** Aspose.Note for Java 24.12  
+**Tesztelve:** Aspose.Note for Java 26.4  
 **Szerző:** Aspose  
 
 {{< /blocks/products/pf/tutorial-page-section >}}

@@ -41,7 +41,7 @@ Aspose.Note.Document doc = new Aspose.Note.Document();
 // เริ่มต้นวัตถุคลาสหน้า
 Aspose.Note.Page page = new Aspose.Note.Page(doc);
 // เริ่มต้นวัตถุคลาสเค้าร่าง
-Outline outline = new Outline(doc);
+Outline outline = new Outline();
 ```
 ## ขั้นตอนที่ 3: ตั้งค่ารูปแบบข้อความเริ่มต้น
 ```csharp
@@ -51,8 +51,8 @@ ParagraphStyle defaultStyle = new ParagraphStyle { FontColor = Color.Black, Font
 ## ขั้นตอนที่ 4: สร้างองค์ประกอบโครงร่างด้วยสัญลักษณ์แสดงหัวข้อย่อย
 ```csharp
 // เริ่มต้นวัตถุคลาส OutlineElement และใช้สัญลักษณ์แสดงหัวข้อย่อย
-OutlineElement outlineElem1 = new OutlineElement(doc) { NumberList = new NumberList("*", "Arial", 10) };
-RichText text1 = new RichText(doc) { Text = "First", ParagraphStyle = defaultStyle };
+OutlineElement outlineElem1 = new OutlineElement() { NumberList = new NumberList("*", "Arial", 10) };
+RichText text1 = new RichText() { Text = "First", ParagraphStyle = defaultStyle };
 outlineElem1.AppendChildLast(text1);
 // ทำซ้ำกับองค์ประกอบโครงร่างอื่นๆ
 ```

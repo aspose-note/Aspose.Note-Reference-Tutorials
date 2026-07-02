@@ -127,7 +127,7 @@ A5: Giấy phép tạm thời được cung cấp qua [trang giấy phép tạm 
 ---
 
 **Cập nhật lần cuối:** 2025-12-05  
-**Kiểm tra với:** Aspose.Note for Java 24.12 (phiên bản mới nhất tại thời điểm viết)  
+**Kiểm tra với:** Aspose.Note for Java 26.4 (phiên bản mới nhất tại thời điểm viết)  
 **Tác giả:** Aspose  
 
 {{< /blocks/products/pf/tutorial-page-section >}}

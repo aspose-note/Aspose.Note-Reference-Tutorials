@@ -48,7 +48,7 @@ using System.Text;
 string dataDir = "Your Document Directory";
 
 // قم بتحميل دفتر ملاحظات OneNote
-var notebook = new Notebook(dataDir + "Notizbuch öffnen.onetoc2");
+var notebook = new Notebook(dataDir + "Notebook.onetoc2");
 ```
 
 ## الخطوة 2: قم بتعيين خيارات الحفظ

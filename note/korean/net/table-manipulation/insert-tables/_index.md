@@ -47,10 +47,10 @@ Aspose.Note.Page page = new Aspose.Note.Page(doc);
 
 다음으로, 테이블 행과 셀을 초기화하여 테이블을 구성합니다.
 ```csharp
-TableRow row1 = new TableRow(doc);
-TableCell cell11 = new TableCell(doc);
-TableCell cell12 = new TableCell(doc);
-TableCell cell13 = new TableCell(doc);
+TableRow row1 = new TableRow();
+TableCell cell11 = new TableCell();
+TableCell cell12 = new TableCell();
+TableCell cell13 = new TableCell();
 ```
 
 ## 3단계: 표 셀 채우기
@@ -75,7 +75,7 @@ row1.AppendChildLast(cell13);
 
 테이블 객체를 생성하고 테두리 가시성, 열 너비 등의 속성을 설정합니다.
 ```csharp
-Table table = new Table(doc)
+Table table = new Table()
 {
     IsBordersVisible = true,
     Columns = { new TableColumn { Width = 200 }, new TableColumn { Width = 200 }, new TableColumn { Width = 200 } }
@@ -94,8 +94,8 @@ table.AppendChildLast(row2);
 
 표를 개요에 추가하여 문서 구조에 통합합니다.
 ```csharp
-Outline outline = new Outline(doc);
-OutlineElement outlineElem = new OutlineElement(doc);
+Outline outline = new Outline();
+OutlineElement outlineElem = new OutlineElement();
 outlineElem.AppendChildLast(table);
 outline.AppendChildLast(outlineElem);
 page.AppendChildLast(outline);

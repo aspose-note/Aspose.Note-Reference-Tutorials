@@ -134,7 +134,7 @@ A5: Tak, możesz dołączyć do forum społeczności pod adresem [Aspose.Note dl
 ---
 
 **Ostatnia aktualizacja:** 2025-11-30  
-**Testowano z:** Aspose.Note dla Javy 24.12  
+**Testowano z:** Aspose.Note dla Javy 26.4  
 **Autor:** Aspose  
 
 {{< /blocks/products/pf/tutorial-page-section >}}

@@ -134,7 +134,7 @@ A5: Igen, csatlakozhat a közösségi fórumhoz a [Aspose.Note for Java Support]
 ---
 
 **Utoljára frissítve:** 2025-11-30  
-**Tesztelt verzió:** Aspose.Note for Java 24.12  
+**Tesztelt verzió:** Aspose.Note for Java 26.4  
 **Szerző:** Aspose  
 
 {{< /blocks/products/pf/tutorial-page-section >}}

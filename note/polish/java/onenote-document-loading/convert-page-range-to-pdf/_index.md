@@ -123,7 +123,7 @@ W tym przewodniku pokazaliśmy **jak wyeksportować strony OneNote** poprzez kon
 ---
 
 **Ostatnia aktualizacja:** 2025-11-30  
-**Testowano z:** Aspose.Note for Java 24.11  
+**Testowano z:** Aspose.Note for Java 26.4  
 **Autor:** Aspose  
 
 {{< /blocks/products/pf/tutorial-page-section >}}

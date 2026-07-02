@@ -132,7 +132,7 @@ Stosując **visitor pattern java** z Aspose.Note, masz teraz czysty, rozszerzaln
 ---
 
 **Ostatnia aktualizacja:** 2025-12-09  
-**Testowano z:** Aspose.Note for Java 24.10  
+**Testowano z:** Aspose.Note for Java 26.4  
 **Autor:** Aspose  
 
 {{< /blocks/products/pf/tutorial-page-section >}}

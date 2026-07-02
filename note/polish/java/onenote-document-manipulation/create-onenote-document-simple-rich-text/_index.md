@@ -196,7 +196,7 @@ Widzisz teraz, jak **ustawić styl akapitu**, **dodać element outline** i **wyg
 ---
 
 **Ostatnia aktualizacja:** 2025-12-08  
-**Testowano z:** Aspose.Note for Java 24.11 (najnowsze wydanie)  
+**Testowano z:** Aspose.Note for Java 26.4 (najnowsze wydanie)  
 **Autor:** Aspose  
 
 {{< /blocks/products/pf/tutorial-page-section >}}

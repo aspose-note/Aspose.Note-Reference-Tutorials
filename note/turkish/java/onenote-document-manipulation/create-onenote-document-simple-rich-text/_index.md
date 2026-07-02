@@ -196,7 +196,7 @@ Artık **paragraf stilini ayarlamayı**, **outline öğesi eklemeyi** ve Aspose.
 ---
 
 **Son Güncelleme:** 2025-12-08  
-**Test Edilen Sürüm:** Aspose.Note for Java 24.11 (en son sürüm)  
+**Test Edilen Sürüm:** Aspose.Note for Java 26.4 (en son sürüm)  
 **Yazar:** Aspose  
 
 {{< /blocks/products/pf/tutorial-page-section >}}

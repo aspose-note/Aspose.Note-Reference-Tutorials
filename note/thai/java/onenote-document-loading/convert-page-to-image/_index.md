@@ -133,7 +133,7 @@ A: เยี่ยมชม [ฟอรั่ม Aspose.Note](https://forum.aspos
 ---
 
 **อัปเดตล่าสุด:** 2025-11-29  
-**ทดสอบกับ:** Aspose.Note for Java 24.12  
+**ทดสอบกับ:** Aspose.Note for Java 26.4  
 **ผู้เขียน:** Aspose  
 
 {{< /blocks/products/pf/tutorial-page-section >}}

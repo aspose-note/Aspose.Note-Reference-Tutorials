@@ -41,7 +41,7 @@ Aspose.Note.Document doc = new Aspose.Note.Document();
 // Sayfa sınıfı nesnesini başlat
 Aspose.Note.Page page = new Aspose.Note.Page(doc);
 // Outline sınıfı nesnesini başlat
-Outline outline = new Outline(doc);
+Outline outline = new Outline();
 ```
 ## 3. Adım: Varsayılan Metin Stilini Ayarlayın
 ```csharp
@@ -51,8 +51,8 @@ ParagraphStyle defaultStyle = new ParagraphStyle { FontColor = Color.Black, Font
 ## Adım 4: Madde İşaretleriyle Anahat Öğeleri Oluşturun
 ```csharp
 // OutlineElement sınıfı nesnelerini başlatın ve madde işaretleri uygulayın
-OutlineElement outlineElem1 = new OutlineElement(doc) { NumberList = new NumberList("*", "Arial", 10) };
-RichText text1 = new RichText(doc) { Text = "First", ParagraphStyle = defaultStyle };
+OutlineElement outlineElem1 = new OutlineElement() { NumberList = new NumberList("*", "Arial", 10) };
+RichText text1 = new RichText() { Text = "First", ParagraphStyle = defaultStyle };
 outlineElem1.AppendChildLast(text1);
 // Diğer anahat öğeleri için tekrarlayın
 ```

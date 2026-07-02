@@ -49,7 +49,7 @@ Document doc = new Document();
 Cree un objeto TableCell y establezca su contenido de texto junto con el color de fondo:
 
 ```csharp
-TableCell cell11 = new TableCell(doc);
+TableCell cell11 = new TableCell();
 cell11.AppendChildLast(InsertTable.GetOutlineElementWithText(doc, "Small text"));
 cell11.BackgroundColor = Color.Coral;
 ```
@@ -59,7 +59,7 @@ cell11.BackgroundColor = Color.Coral;
 Inicialice un objeto TableRow y agregue la celda creada anteriormente:
 
 ```csharp
-TableRow row = new TableRow(doc);
+TableRow row = new TableRow();
 row.AppendChildLast(cell11);
 ```
 
@@ -68,7 +68,7 @@ row.AppendChildLast(cell11);
 Cree una tabla con columnas específicas y haga visibles sus bordes:
 
 ```csharp
-Table table = new Table(doc)
+Table table = new Table()
 {
     IsBordersVisible = true,
     Columns = { new TableColumn() { Width = 200 } }
@@ -81,13 +81,13 @@ table.AppendChildLast(row);
 Cree un elemento de esquema y una página, y agregue la tabla a la página:
 
 ```csharp
-OutlineElement oe = new OutlineElement(doc);
+OutlineElement oe = new OutlineElement();
 oe.AppendChildLast(table);
 
-Outline o = new Outline(doc);
+Outline o = new Outline();
 o.AppendChildLast(oe);
 
-Page page = new Page(doc);
+Page page = new Page();
 page.AppendChildLast(o);
 
 doc.AppendChildLast(page);

@@ -59,8 +59,8 @@ Aspose.Note.Page page = new Aspose.Note.Page(doc);
 為表建立TableRow物件：
 
 ```csharp
-TableRow row1 = new TableRow(doc);
-TableRow row2 = new TableRow(doc);
+TableRow row1 = new TableRow();
+TableRow row2 = new TableRow();
 ```
 
 ## 步驟 4：初始化 TableCell 物件
@@ -68,10 +68,10 @@ TableRow row2 = new TableRow(doc);
 建立TableCell物件並為每個單元格設定文字內容：
 
 ```csharp
-TableCell cell11 = new TableCell(doc);
+TableCell cell11 = new TableCell();
 cell11.AppendChildLast(InsertTable.GetOutlineElementWithText(doc, "Small text"));
 
-TableCell cell21 = new TableCell(doc);
+TableCell cell21 = new TableCell();
 cell21.AppendChildLast(InsertTable.GetOutlineElementWithText(doc, "Long text with several words and spaces."));
 ```
 
@@ -80,7 +80,7 @@ cell21.AppendChildLast(InsertTable.GetOutlineElementWithText(doc, "Long text wit
 初始化 Table 類別物件並設定列寬和鎖定寬度等屬性：
 
 ```csharp
-Table table = new Table(doc)
+Table table = new Table()
 {
     IsBordersVisible = true,
     Columns = { new TableColumn { Width = 70, LockedWidth = true } }
@@ -101,8 +101,8 @@ table.AppendChildLast(row2);
 將表節點加入 OutlineElement：
 
 ```csharp
-Outline outline = new Outline(doc);
-OutlineElement outlineElem = new OutlineElement(doc);
+Outline outline = new Outline();
+OutlineElement outlineElem = new OutlineElement();
 outlineElem.AppendChildLast(table);
 outline.AppendChildLast(outlineElem);
 ```

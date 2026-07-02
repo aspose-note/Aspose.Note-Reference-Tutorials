@@ -58,7 +58,7 @@ OutlineElement outlineElem = new OutlineElement();
 ## Шаг 5: Загрузите и вставьте изображение
 ```java
 // загрузить изображение
-Image image = new Image(null, dataDir + "Input.jpg");
+Image image = new Image(dataDir + "Input.jpg");
 // вставить изображение в узел документа
 outlineElem.appendChildLast(image);
 ```

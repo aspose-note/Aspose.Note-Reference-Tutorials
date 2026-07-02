@@ -45,7 +45,7 @@ Merüljünk el az átalakítási folyamatban. A könnyebb érthetőség érdeké
 string dataDir = "Your Document Directory";
 
 // Töltsön be egy OneNote-jegyzetfüzetet
-var notebook = new Notebook(dataDir + "Notizbuch öffnen.onetoc2");
+var notebook = new Notebook(dataDir + "Notebook.onetoc2");
 ```
 
  Ebben a lépésben megadjuk azt a könyvtárat, ahol a notebook fájlunk található, és a segítségével betöltjük az alkalmazásunkba`Notebook` osztály által biztosított Aspose.Megjegyzés.

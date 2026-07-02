@@ -97,7 +97,7 @@ A: Připojte se k fóru Aspose na [Aspose.Note community page](https://forum.asp
 ---
 
 **Poslední aktualizace:** 2025-12-07  
-**Testováno s:** Aspose.Note pro Java 24.11  
+**Testováno s:** Aspose.Note pro Java 26.4  
 **Autor:** Aspose  
 
 {{< /blocks/products/pf/tutorial-page-section >}}

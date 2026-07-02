@@ -41,7 +41,7 @@ Aspose.Note.Document doc = new Aspose.Note.Document();
 // Inicializar objeto de classe Page
 Aspose.Note.Page page = new Aspose.Note.Page(doc);
 // Inicializar objeto de classe Outline
-Outline outline = new Outline(doc);
+Outline outline = new Outline();
 ```
 ## Etapa 3: definir estilo de texto padrão
 ```csharp
@@ -51,8 +51,8 @@ ParagraphStyle defaultStyle = new ParagraphStyle { FontColor = Color.Black, Font
 ## Etapa 4: criar elementos de contorno com marcadores
 ```csharp
 // Inicialize objetos da classe OutlineElement e aplique marcadores
-OutlineElement outlineElem1 = new OutlineElement(doc) { NumberList = new NumberList("*", "Arial", 10) };
-RichText text1 = new RichText(doc) { Text = "First", ParagraphStyle = defaultStyle };
+OutlineElement outlineElem1 = new OutlineElement() { NumberList = new NumberList("*", "Arial", 10) };
+RichText text1 = new RichText() { Text = "First", ParagraphStyle = defaultStyle };
 outlineElem1.AppendChildLast(text1);
 // Repita para outros elementos de contorno
 ```

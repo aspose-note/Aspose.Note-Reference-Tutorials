@@ -58,7 +58,7 @@ OutlineElement outlineElem = new OutlineElement();
 ## الخطوة 5: تحميل وإدراج الصورة
 ```java
 // تحميل صورة
-Image image = new Image(null, dataDir + "Input.jpg");
+Image image = new Image(dataDir + "Input.jpg");
 // إدراج صورة في عقدة الوثيقة
 outlineElem.appendChildLast(image);
 ```

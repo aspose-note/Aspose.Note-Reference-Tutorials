@@ -41,7 +41,7 @@ Aspose.Note.Document doc = new Aspose.Note.Document();
 // Initialize Page class object
 Aspose.Note.Page page = new Aspose.Note.Page(doc);
 // Initialize Outline class object
-Outline outline = new Outline(doc);
+Outline outline = new Outline();
 ```
 ## Step 3: Set Default Text Style
 ```csharp
@@ -51,8 +51,8 @@ ParagraphStyle defaultStyle = new ParagraphStyle { FontColor = Color.Black, Font
 ## Step 4: Create Outline Elements with Bullets
 ```csharp
 // Initialize OutlineElement class objects and apply bullets
-OutlineElement outlineElem1 = new OutlineElement(doc) { NumberList = new NumberList("*", "Arial", 10) };
-RichText text1 = new RichText(doc) { Text = "First", ParagraphStyle = defaultStyle };
+OutlineElement outlineElem1 = new OutlineElement() { NumberList = new NumberList("*", "Arial", 10) };
+RichText text1 = new RichText() { Text = "First", ParagraphStyle = defaultStyle };
 outlineElem1.AppendChildLast(text1);
 // Repeat for other outline elements
 ```

@@ -48,7 +48,7 @@ Innanzitutto, carica il blocco appunti di OneNote che desideri convertire nella 
 string dataDir = "Your Document Directory";
 
 // Carica un blocco appunti di OneNote
-var notebook = new Notebook(dataDir + "Notizbuch öffnen.onetoc2");
+var notebook = new Notebook(dataDir + "Notebook.onetoc2");
 ```
 
 ## Passaggio 2: imposta le opzioni di salvataggio

@@ -47,7 +47,7 @@ Ladda den befintliga anteckningsboken där du vill lägga till en underordnad no
 string dataDir = "Your Document Directory";
 
 // Ladda en OneNote-anteckningsbok
-var notebook = new Notebook(dataDir + "Notizbuch �ffnen.onetoc2");
+var notebook = new Notebook(dataDir + "Notebook.onetoc2");
 ```
 
 ## Steg 2: Lägg till en ny underordnad nod

@@ -179,7 +179,7 @@ A: `myConverter.GetText()` が `String` を返したら、標準的な Java I/O 
 ---  
 
 **最終更新日:** 2025-12-04  
-**テスト環境:** Aspose.Note for Java 24.10  
+**テスト環境:** Aspose.Note for Java 26.4  
 **作者:** Aspose  
 
 {{< /blocks/products/pf/tutorial-page-section >}}

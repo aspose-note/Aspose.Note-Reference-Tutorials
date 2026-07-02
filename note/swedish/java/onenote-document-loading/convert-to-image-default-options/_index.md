@@ -128,7 +128,7 @@ A5: Ja, du kan gå med i community‑forumet på [Aspose.Note för Java‑suppor
 ---
 
 **Senast uppdaterad:** 2025-11-30  
-**Testat med:** Aspose.Note for Java 24.12  
+**Testat med:** Aspose.Note for Java 26.4  
 **Författare:** Aspose  
 
 {{< /blocks/products/pf/tutorial-page-section >}}

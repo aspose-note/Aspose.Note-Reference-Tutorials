@@ -167,7 +167,7 @@ In this guide we demonstrated how to **save OneNote as PDF** while applying rich
 ---
 
 **Last Updated:** 2025-12-09  
-**Tested With:** Aspose.Note for Java 24.11 (latest at time of writing)  
+**Tested With:** Aspose.Note for Java 26.4 (latest at time of writing)  
 **Author:** Aspose  
 
 {{< /blocks/products/pf/tutorial-page-section >}}

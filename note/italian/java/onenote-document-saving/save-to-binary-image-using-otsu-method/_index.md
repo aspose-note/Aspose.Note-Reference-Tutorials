@@ -127,7 +127,7 @@ R: Certamente – itera su `Document.getPages()` e applica la stessa logica di s
 ---
 
 **Ultimo Aggiornamento:** 2025-12-14  
-**Testato Con:** Aspose.Note per Java 24.12  
+**Testato Con:** Aspose.Note per Java 26.4  
 **Autore:** Aspose  
 
 {{< /blocks/products/pf/tutorial-page-section >}}

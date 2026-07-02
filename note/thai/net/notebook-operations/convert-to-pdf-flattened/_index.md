@@ -44,7 +44,7 @@ using System.Collections.Generic;
 string dataDir = "Your Document Directory";
 
 // โหลดสมุดบันทึก OneNote
-var notebook = new Notebook(dataDir + "Notizbuch �ffnen.onetoc2");
+var notebook = new Notebook(dataDir + "Notebook.onetoc2");
 ```
 
  ในขั้นตอนนี้ เราจะโหลด OneNote Notebook โดยใช้ไฟล์`Notebook` คลาสจัดทำโดย Aspose.Note
