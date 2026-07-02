@@ -15,30 +15,30 @@ weight: 12
 
 # 在 OneNote 中建立大綱並新增標籤 – Aspose.Note
 
-## Introduction
+## 簡介
 您是否希望使用 Java **在 OneNote 中建立大綱** 並透過標籤提升協作？Aspose.Note for Java 讓您輕鬆新增標籤、結構化筆記，甚至 **從 OneNote 產生 PDF**。在本教學中，我們將逐步說明每個步驟，解釋 *為何* 每個環節重要，並展示如何在最後產出精緻的 PDF。
 
-## Quick Answers
+## 快速解答
 - **「在 OneNote 中建立大綱」是什麼意思？** 它會建立層級結構（大綱），將內容如標題與子節等組織起來。  
 - **哪個程式庫可在 OneNote 中新增標籤？** Aspose.Note for Java 提供 `NoteTag` 類別作為視覺標記。  
 - **我可以將結果匯出為 PDF 嗎？** 可以 – 使用 `SaveFormat.Pdf` **從 OneNote 產生 PDF**。  
 - **正式環境需要授權嗎？** 測試可使用臨時授權；商業使用則需正式授權。  
 - **主要前置條件是什麼？** 已安裝 JDK、Aspose.Note for Java 程式庫，以及基本的 Java 知識。
 
-## What is “create outline in OneNote”?
+## 什麼是「在 OneNote 中建立大綱」？
 在 OneNote 中建立大綱是指加入 `Outline` 與 `OutlineElement` 物件，定義筆記的樹狀結構。此層級讓您可以折疊、展開並組織資訊，就像文件中的標題一樣。
 
-## Why add tag to OneNote?
+## 為什麼要為 OneNote 新增標籤？
 標籤（如星號、核取方塊或自訂圖示）為讀者提供視覺提示、提升搜尋能⼒，並協助團隊優先處理項目。使用 Aspose.Note，您可以以程式方式將 `NoteTag` 附加至任何文字。
 
-## Prerequisites
+## 前提條件
 在開始之前，請確認您已具備：
 
 - 已安裝 Java Development Kit (JDK)。
 - 已下載 Aspose.Note for Java 程式庫。您可於 [here](https://releases.aspose.com/note/java/) 取得。
 - 具備基本的 Java 程式設計概念。
 
-## Import Packages
+## 導入包
 確保匯入必要的套件以啟動您的專案：
 ```java
 import java.awt.Color;
@@ -55,7 +55,7 @@ import com.aspose.note.ParagraphStyle;
 ```
 讓我們把上述程式碼拆解成逐步說明。
 
-## Step 1: Set up Document and Page
+## 步驟 1：設定文件和頁面
 開始建立新的 `Document` 物件並初始化 `Page` 物件：
 ```java
 String dataDir = "Your Document Directory";
@@ -64,14 +64,14 @@ Page page = new Page();
 ```
 此處，我們設定文件目錄路徑，建立新的 `Document`，並初始化 `Page`。
 
-## Step 2: Create an Outline
+## 步驟 2：建立大綱
 接著，建立 `Outline` 物件以結構化您的內容：
 ```java
 Outline outline = new Outline();
 ```
 大綱提供文件的層級結構，使您能輕鬆 **在 OneNote 中建立大綱** 並保持資訊有序。
 
-## Step 3: Initialize OutlineElement and ParagraphStyle
+## 步驟 3：初始化大綱元素和段落樣式
 現在，初始化 `OutlineElement` 並設定 `ParagraphStyle` 以進行文字格式化：
 ```java
 OutlineElement outlineElem = new OutlineElement();
@@ -82,7 +82,7 @@ ParagraphStyle textStyle = new ParagraphStyle()
 ```
 `OutlineElement` 代表大綱中的一個元素，`ParagraphStyle` 定義文字的格式屬性。
 
-## Step 4: Add RichText with NoteTag
+## 步驟 4：新增帶有註解標籤的富文本
 建立 `RichText` 物件，加入您的 OneNote 文字，並新增 `NoteTag`：
 ```java
 RichText text = new RichText().append("OneNote text.");
@@ -92,7 +92,7 @@ text.getTags().add(noteTag);
 ```
 `RichText` 允許您加入格式化文字，而 `NoteTag` **在 OneNote 中新增標籤** 作為視覺提示。
 
-## Step 5: Build Outline Structure
+## 步驟 5：建構大綱結構
 將文字節點、大綱元素節點與大綱節點加入，以建構文件的結構：
 ```java
 outlineElem.appendChildLast(text);
@@ -102,7 +102,7 @@ doc.appendChildLast(page);
 ```
 此步驟確保您的內容在文件中有條理，完成 **在 OneNote 中建立大綱** 的流程。
 
-## Step 6: Save the Document
+## 步驟 6：儲存文檔
 將文件以 PDF 格式儲存，這會 **從 OneNote 產生 PDF**：
 ```java
 doc.save(dataDir + "AddTag_out.pdf", SaveFormat.Pdf);
@@ -112,10 +112,10 @@ System.out.printf("File Saved: %s\n", dataDir + "AddTag_out.pdf");
 
 透過上述步驟，您可以輕鬆使用 Aspose.Note for Java 強化 OneNote 文件。
 
-## Conclusion
+## 結論
 在本教學中，我們探討了如何 **在 OneNote 中建立大綱**、為 OneNote 新增標籤，並使用 Aspose.Note for Java **從 OneNote 產生 PDF**。利用 Java，您可全面掌控筆記結構、視覺標籤與匯出選項，讓筆記更有條理且易於分享。
 
-## FAQs
+## 常見問題解答
 ### 1. 我可以將 Aspose.Note for Java 與其他程式語言一起使用嗎？
 Aspose.Note 主要支援 Java，但也提供 .NET 版本。
 
@@ -131,7 +131,7 @@ Aspose.Note 主要支援 Java，但也提供 .NET 版本。
 ### 5. 是否提供免費試用？
 是，您可於 [here](https://releases.aspose.com/) 探索免費試用。
 
-**Additional Q&A**
+**其他問答**
 
 **Q: 我可以自訂標籤圖示嗎？**  
 A: 可以 – Aspose.Note 透過 `TagIcon` 提供多種預設圖示，亦支援自訂圖片。

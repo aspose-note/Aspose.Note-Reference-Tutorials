@@ -1,6 +1,6 @@
 ---
-title: Insert Table Row Java: Add Table Node with Tag in OneNote - Aspose.Note
-linktitle: Insert Table Row Java: Add Table Node with Tag in OneNote - Aspose.Note
+title: Insert Table Row Java - Add Table Node with Tag in OneNote - Aspose.Note
+linktitle: Insert Table Row Java - Add Table Node with Tag in OneNote - Aspose.Note
 second_title: Aspose.Note Java API
 description: Learn how to insert table row java in OneNote, add table cell onenote and save onenote document as pdf using Aspose.Note for Java.
 weight: 11
@@ -153,15 +153,15 @@ A: Visit the [Aspose.Note Java Documentation](https://reference.aspose.com/note/
 **Q: How can I get support for Aspose.Note for Java?**  
 A: Visit the [Aspose.Note Forum](https://forum.aspose.com/c/note/28) for community support or [purchase a support plan](https://purchase.aspose.com/buy) for dedicated assistance.
 
+---
+
+**Last Updated:** 2026-01-28  
+**Tested With:** Aspose.Note for Java 24.12  
+**Author:** Aspose
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
-
----
-
-**Last Updated:** 2026-01-28  
-**Tested With:** Aspose.Note for Java 24.12  
-**Author:** Aspose

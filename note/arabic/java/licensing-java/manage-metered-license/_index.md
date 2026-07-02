@@ -20,15 +20,15 @@ weight: 10
 في هذا البرنامج التعليمي ستكتشف كيفية **convert OneNote to PDF** أثناء استخدام ترخيص قائم على الاستهلاك مع مكتبة Aspose.Note for Java. يتيح الترخيص القائم على الاستهلاك تتبع استهلاك الرصيد في الوقت الفعلي، مما يمنحك المرونة لدفع ما تستخدمه فقط. سنستعرض العملية بالكامل — من إعداد مفاتيح الترخيص إلى تحميل ملف OneNote، تحويله إلى PDF، والتحقق من استهلاك الرصيد.
 
 ## إجابات سريعة
-- **What does “convert OneNote to PDF” mean?** It transforms a .one file into a portable PDF document.  
-  إنّه يحول ملف .one إلى مستند PDF محمول.  
-- **Which library handles the conversion?** Aspose.Note for Java provides a simple API for this task.  
-  توفر Aspose.Note for Java واجهة برمجة تطبيقات بسيطة لهذه المهمة.  
-- **Do I need a license to convert?** Yes, a metered license is required for production use.  
-  نعم، يلزم ترخيص قائم على الاستهلاك للاستخدام في بيئة الإنتاج.  
-- **How can I monitor usage?** Use `Metered.getConsumptionCredit()` and `Metered.getConsumptionQuantity()`.  
-  استخدم `Metered.getConsumptionCredit()` و `Metered.getConsumptionQuantity()`.  
-- **Is any additional setup required?** Just a Java JDK and the Aspose.Note JAR file.  
+- **ماذا يعني "تحويل OneNote إلى PDF"؟ ** يقوم بتحويل ملف .one إلى مستند PDF محمول. 
+يمكنك تحويل ملف .one إلى مستند PDF محمول.
+- **ما هي المكتبة التي تتعامل مع التحويل؟** يوفر Aspose.Note for Java واجهة برمجة تطبيقات بسيطة لهذه المهمة. 
+توفر Aspose.Note for Java برمجة تطبيقات بسيطة لهذه المهمة.
+- **هل أحتاج إلى ترخيص للتحويل؟** نعم، يلزم الحصول على ترخيص مقنن لاستخدام الإنتاج. 
+نعم، يجب تخصيص قائمة للاستثمارات الاستهلاكية في بيئة الإنتاج.
+- **كيف يمكنني مراقبة الاستخدام؟** استخدم `Metered.getConsumptionCredit()` و`Metered.getConsumptionQuantity()`. 
+استخدم `Metered.getConsumptionCredit()` و `Metered.getConsumptionQuantity()`.
+- **هل يلزم أي إعداد إضافي؟** فقط Java JDK وملف Aspose.Note JAR. 
   فقط Java JDK وملف Aspose.Note JAR.
 
 ## ما هو “convert OneNote to PDF”؟
@@ -100,20 +100,20 @@ System.out.println(String.format("Consumption quantity before operation: %.02f",
 
 ## الأسئلة المتكررة
 
-**Q: What is a metered license?**  
-A: ترخيص قائم على الاستهلاك يتيح لك الدفع لاستخدام API بناءً على الرصيد، مما يمنحك تحكمًا دقيقًا في التكلفة.
+**س: ما هو الترخيص المقنن؟**
+ج: يتيح لك ترخيص قائم على الاستهلاك استخدام واجهة برمجة التطبيقات (API) للدفع، مما يتيح لك التحكم الدقيق في التكلفة.
 
-**Q: How do I obtain a metered key for Aspose products?**  
-A: اشترِ ترخيصًا من موقع Aspose أو اطلب مفتاح تقييم مؤقت عبر لوحة التحكم في حسابك.
+**س: كيف يمكنني الحصول على مفتاح مقنن لمنتجات Aspose؟**
+ج: اشترِ ترخيصًا من موقع Aspose أو اطلب مفتاحًا مؤقتًا عبر لوحة التحكم في حسابك.
 
-**Q: Can I use a metered license across multiple applications?**  
-A: نعم، لكن يتم تجميع كل الاستهلاك تحت نفس المفتاح، لذا راقب الاستخدام الكلي بعناية.
+**س: هل يمكنني استخدام ترخيص مقنن عبر تطبيقات متعددة؟**
+ج: نعم، ولكن يتم تقليل الاستهلاك تحت نفس المفتاح، لذا راقب الاستخدام الكلي الجيد.
 
-**Q: Is there a free trial for Aspose.Note for Java?**  
-A: نعم، يمكنك تنزيل نسخة تجريبية مجانية من [here](https://releases.aspose.com/).
+**س: هل هناك نسخة تجريبية مجانية من Aspose.Note لـ Java؟**
+ج: نعم، يمكنك تنزيل النسخة المجانية المجانية من [هنا](https://releases.aspose.com/).
 
-**Q: Where can I get support for Aspose.Note for Java?**  
-A: اطرح أسئلتك على منتديات مجتمع Aspose [here](https://forum.aspose.com/c/note/28).
+**س: أين يمكنني الحصول على الدعم لـ Aspose.Note لـ Java؟**
+ج: اطرح أسئلتك على منتديات مجتمع Aspose [هنا](https://forum.aspose.com/c/note/28).
 
 ## الخاتمة
 

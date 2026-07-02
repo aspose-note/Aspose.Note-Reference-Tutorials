@@ -1,5 +1,5 @@
 ---
-title: How to create OneNote document: Add Text Node with Tag using Aspose.Note
+title: How to create OneNote document - Add Text Node with Tag using Aspose.Note
 linktitle: Add Text Node with Tag in OneNote - Aspose.Note
 second_title: Aspose.Note Java API
 description: Learn how to create OneNote documents and add text nodes with tags using Aspose.Note for Java. Includes steps to add tag to text and save OneNote file.
