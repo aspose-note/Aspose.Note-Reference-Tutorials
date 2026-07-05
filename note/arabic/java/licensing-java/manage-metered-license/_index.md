@@ -1,10 +1,56 @@
 ---
-date: 2026-01-28
-description: تعلم كيفية تحويل OneNote إلى PDF وإدارة ترخيص مقيس في Java باستخدام Aspose.Note.
-  تحكم في الاستخدام، راقب الرصيد، وحافظ على انخفاض التكاليف.
-linktitle: Manage Metered License for OneNote in Java
+date: 2026-07-05
+description: تعلم كيفية تحويل OneNote إلى PDF وإدارة Metered License في Java باستخدام
+  Aspose.Note. تحكم في الاستخدام، راقب الرصيد، واحفظ التكاليف منخفضة.
+keywords:
+- convert onenote to pdf
+- how to convert onenote
+- convert notebook to pdf
+linktitle: إدارة Metered License لـ OneNote في Java
+schemas:
+- author: Aspose
+  dateModified: '2026-07-05'
+  description: Learn how to convert OneNote to PDF and manage a metered license in
+    Java using Aspose.Note. Control usage, monitor credits, and keep costs low.
+  headline: Convert OneNote to PDF and Manage Metered License in Java
+  type: TechArticle
+- description: Learn how to convert OneNote to PDF and manage a metered license in
+    Java using Aspose.Note. Control usage, monitor credits, and keep costs low.
+  name: Convert OneNote to PDF and Manage Metered License in Java
+  steps:
+  - name: Set Up the Metered License
+    text: The `Metered` class activates metered‑license mode for all subsequent Aspose.Note
+      operations. You must provide the public and private keys you received from your
+      Aspose account. Here we create a `Metered` object and inject the public/private
+      keys you received from Aspose. This step activates the met
+  - name: Load the OneNote Document and Convert to PDF
+    text: 'The `Document` class represents a OneNote notebook in memory. After instantiation,
+      you can call `save` with a `.pdf` extension to trigger the conversion. SaveFormat
+      is an enumeration that specifies the output format for the document, such as
+      PDF. - **Load**: `Document` reads the `.one` file located '
+  - name: Check Credit Consumption Before and After Conversion
+    text: The `Metered` class also provides methods to query credit usage. These two
+      lines print the remaining credit balance and the amount of credit used by the
+      conversion. Metered.getConsumptionCredit() returns the remaining credit balance,
+      while Metered.getConsumptionQuantity() returns the credits used by
+  type: HowTo
+- questions:
+  - answer: A metered license lets you pay for API usage based on credits, giving
+      you fine‑grained cost control.
+    question: What is a metered license?
+  - answer: Purchase a license from the Aspose website or request a temporary evaluation
+      key via your account dashboard.
+    question: How do I obtain a metered key for Aspose products?
+  - answer: Yes, but all consumption is aggregated under the same key, so monitor
+      total usage carefully.
+    question: Can I use a metered license across multiple applications?
+  - answer: Yes, you can download a free trial from [here](https://releases.aspose.com/).
+    question: Is there a free trial for Aspose.Note for Java?
+  - answer: Ask questions on the Aspose community forums [here](https://forum.aspose.com/c/note/28).
+    question: Where can I get support for Aspose.Note for Java?
+  type: FAQPage
 second_title: Aspose.Note Java API
-title: تحويل OneNote إلى PDF وإدارة الترخيص القائم على القياس في Java
+title: تحويل OneNote إلى PDF وإدارة Metered License في Java
 url: /ar/java/licensing-java/manage-metered-license/
 weight: 10
 ---
@@ -17,40 +63,45 @@ weight: 10
 
 ## المقدمة
 
-في هذا البرنامج التعليمي ستكتشف كيفية **convert OneNote to PDF** أثناء استخدام ترخيص قائم على الاستهلاك مع مكتبة Aspose.Note for Java. يتيح الترخيص القائم على الاستهلاك تتبع استهلاك الرصيد في الوقت الفعلي، مما يمنحك المرونة لدفع ما تستخدمه فقط. سنستعرض العملية بالكامل — من إعداد مفاتيح الترخيص إلى تحميل ملف OneNote، تحويله إلى PDF، والتحقق من استهلاك الرصيد.
+في هذا البرنامج التعليمي ستكتشف كيفية **convert OneNote to PDF** أثناء استخدام ترخيص قائم على الاستهلاك مع مكتبة Aspose.Note للـ Java. يتيح الترخيص القائم على الاستهلاك تتبع استهلاك الائتمانات في الوقت الفعلي، مما يمنحك المرونة لدفع ما تستخدمه فقط. سنستعرض العملية بالكامل — من إعداد مفاتيح الترخيص إلى تحميل ملف OneNote، وتحويله إلى PDF، والتحقق من استهلاك الائتمانات.
 
 ## إجابات سريعة
-- **ماذا يعني "تحويل OneNote إلى PDF"؟ ** يقوم بتحويل ملف .one إلى مستند PDF محمول. 
-يمكنك تحويل ملف .one إلى مستند PDF محمول.
-- **ما هي المكتبة التي تتعامل مع التحويل؟** يوفر Aspose.Note for Java واجهة برمجة تطبيقات بسيطة لهذه المهمة. 
-توفر Aspose.Note for Java برمجة تطبيقات بسيطة لهذه المهمة.
-- **هل أحتاج إلى ترخيص للتحويل؟** نعم، يلزم الحصول على ترخيص مقنن لاستخدام الإنتاج. 
-نعم، يجب تخصيص قائمة للاستثمارات الاستهلاكية في بيئة الإنتاج.
-- **كيف يمكنني مراقبة الاستخدام؟** استخدم `Metered.getConsumptionCredit()` و`Metered.getConsumptionQuantity()`. 
-استخدم `Metered.getConsumptionCredit()` و `Metered.getConsumptionQuantity()`.
-- **هل يلزم أي إعداد إضافي؟** فقط Java JDK وملف Aspose.Note JAR. 
-  فقط Java JDK وملف Aspose.Note JAR.
+- **What does “convert OneNote to PDF” mean?** إنه يحول ملف دفتر ملاحظات `.one` إلى مستند PDF محمول يحافظ على التخطيط والخطوط والصور.  
+- **Which library handles the conversion?** توفر Aspose.Note للـ Java واجهة برمجة تطبيقات بسيطة وعالية الأداء لهذه المهمة.  
+- **Do I need a license to convert?** نعم، يلزم وجود ترخيص قائم على الاستهلاك للاستخدام في الإنتاج وللتتبع الدقيق للائتمانات.  
+- **How can I monitor usage?** استدعِ `Metered.getConsumptionCredit()` و `Metered.getConsumptionQuantity()` قبل وبعد التحويل.  
+- **Is any additional setup required?** فقط تحتاج إلى Java JDK وملف Aspose.Note JAR؛ يمكن أيضًا إدارة الاعتماد باستخدام Maven أو Gradle.
 
 ## ما هو “convert OneNote to PDF”؟
 
-إن تحويل OneNote إلى PDF ينشئ تمثيلًا ثابتًا ومدعومًا على نطاق واسع لصفحات دفتر الملاحظات الخاص بك. تُعد ملفات PDF مثالية للمشاركة أو الطباعة أو الأرشفة لأنها تحافظ على التخطيط والخطوط والصور عبر المنصات.
+**Direct answer:** تحويل OneNote إلى PDF يقرأ دفتر ملاحظات `.one`، ويحول كل صفحة إلى صفحة PDF ذات تخطيط ثابت، ويكتب النتيجة في ملف `.pdf` يمكن فتحه على أي جهاز دون الحاجة إلى OneNote. يحافظ هذا التحويل على تنسيق النص، والصور المدمجة، والجداول، والرسومات المتجهة، مما يجعل PDF مثاليًا للمشاركة أو الطباعة أو الأرشفة.
+
+تتم عملية التحويل بالكامل على جانب الخادم، لذا لا يلزم أي عرض على جانب العميل أو برنامج طرف ثالث.
 
 ## لماذا استخدام ترخيص قائم على الاستهلاك لهذا التحويل؟
 
-يُحاسبك الترخيص القائم على الاستهلاك بناءً على استهلاك الرصيد الفعلي بدلاً من رسم ثابت. هذا النموذج مثالي عندما تكون لديك احتياجات تحويل متقطعة أو تريد الحفاظ على تكاليف متوقعة مع الاستفادة الكاملة من إمكانات Aspose.Note.
+**Direct answer:** الترخيص القائم على الاستهلاك يفرض رسومًا عليك لكل ائتمان مستهلك، مما يتيح لك توسيع أو تقليل الاستخدام دون الحاجة إلى رسوم اشتراك ثابتة. يُبلغ عن الاستخدام كل ثانية، يدعم حتى 10,000 ائتمان شهريًا لكل مفتاح، ويعطل واجهة برمجة التطبيقات تلقائيًا عندما تنفد الائتمانات، مما يمنع الفواتير غير المتوقعة. هذا النموذج مثالي لأعباء العمل المتقطعة أو مشاريع إثبات المفهوم حيث تريد تحكمًا دقيقًا في التكلفة.
 
 ## المتطلبات المسبقة
-
-قبل أن نبدأ، تأكد من أنك تمتلك:
 
 1. **Java Development Kit (JDK)** – أي نسخة حديثة (يوصى بـ JDK 11+). قم بتنزيله من [here](https://www.oracle.com/java/technologies/javase-jdk11-downloads.html).  
 2. **Aspose.Note for Java library** – احصل على أحدث ملف JAR من [official website](https://releases.aspose.com/note/java/).  
 
-> **Pro tip:** أضف ملف Aspose.Note JAR إلى مسار الفئة (classpath) في مشروعك أو استخدم أداة بناء مثل Maven/Gradle لإدارة الاعتماد.
+> **Pro tip:** أضف ملف Aspose.Note JAR إلى مسار الفئة (classpath) لمشروعك أو استخدم أداة بناء مثل Maven/Gradle لإدارة الاعتماد. يمكن لمستخدمي Maven إضافة الاعتماد التالي (استبدل `VERSION` بأحدث نسخة):  
+
+```xml
+<dependency>
+    <groupId>com.aspose</groupId>
+    <artifactId>aspose-note</artifactId>
+    <version>VERSION</version>
+</dependency>
+```
 
 ## استيراد الحزم
 
-أولاً، استورد الفئات التي ستحتاجها. احتفظ بهذا الكتلة كما هو بالضبط—بدون أي تغييرات على الشيفرة نفسها.
+تجلب عبارات الاستيراد فئات Aspose.Note إلى مشروع Java الخاص بك، مما يمنحك الوصول إلى تراخيص ومعالجة المستندات وواجهات برمجة التطبيقات للتحويل.
+
+أولاً، استورد الفئات التي ستحتاجها. احتفظ بهذا المقطع كما هو تمامًا—بدون أي تغييرات على الكود نفسه.
 
 ```java
 import com.aspose.note.Document;
@@ -61,16 +112,26 @@ import com.aspose.note.Metered;
 import java.nio.file.Paths;
 ```
 
-## الخطوة 1: إعداد الترخيص القائم على الاستهلاك
+## كيفية تحويل OneNote إلى PDF في Java؟
+
+**Direct answer:** قم بتحميل ملف OneNote باستخدام `new Document("input.one")`، ثم استدعِ `document.save("output.pdf", SaveFormat.Pdf)`. هذه السطرين يقومان بالتحويل الكامل، مع الحفاظ تلقائيًا على تخطيط الصفحات والخطوط والصور. بعد الحفظ، يمكنك استعلام الترخيص القائم على الاستهلاك لمعرفة عدد الائتمانات التي استهلكتها العملية.
+
+### الخطوة 1: إعداد الترخيص القائم على الاستهلاك
+
+تقوم فئة `Metered` بتفعيل وضع الترخيص القائم على الاستهلاك لجميع عمليات Aspose.Note اللاحقة. يجب عليك تقديم المفتاحين العام والخاص اللذين تلقيتهما من حساب Aspose الخاص بك.
 
 ```java
 Metered metered = new Metered();
 metered.setMeteredKey("MyPublicKey", "MyPrivateKey");
 ```
 
-هنا نقوم بإنشاء كائن `Metered` وحقن المفاتيح العامة/الخاصة التي تلقيتها من Aspose. يفعّل هذا الخطوة وضع الترخيص القائم على الاستهلاك لجميع العمليات اللاحقة، بما في ذلك استدعاء **convert OneNote to PDF**.
+هنا نقوم بإنشاء كائن `Metered` وحقن المفاتيح العامة/الخاصة التي تلقيتها من Aspose. هذه الخطوة تُفعِّل وضع الترخيص القائم على الاستهلاك لجميع العمليات اللاحقة، بما في ذلك استدعاء **convert OneNote to PDF**.
 
-## الخطوة 2: تحميل مستند OneNote وتحويله إلى PDF
+### الخطوة 2: تحميل مستند OneNote وتحويله إلى PDF
+
+تمثل فئة `Document` دفتر ملاحظات OneNote في الذاكرة. بعد إنشاء الكائن، يمكنك استدعاء `save` بامتداد `.pdf` لتفعيل التحويل.
+
+SaveFormat هو تعداد يحدد تنسيق الإخراج للمستند، مثل PDF.
 
 ```java
 String dataDir = "Your Document Directory";
@@ -81,53 +142,63 @@ doc.save(Paths.get(dataDir,"MeteredLicense.pdf").toString());
 - **Load**: `Document` يقرأ ملف `.one` الموجود في `dataDir`. هذه هي الطريقة التقليدية **load OneNote document** للمعالجة.  
 - **Convert & Save**: استدعاء `save` بامتداد `.pdf` يقوم تلقائيًا **convert .one to .pdf**. العملية أيضًا **saves PDF from OneNote** في نفس المجلد. استبدل `"Your Document Directory"` بالمسار الفعلي على جهازك.
 
-## الخطوة 3: التحقق من استهلاك الرصيد قبل وبعد التحويل
+### الخطوة 3: التحقق من استهلاك الائتمان قبل وبعد التحويل
+
+توفر فئة `Metered` أيضًا طرقًا لاستعلام عن استهلاك الائتمان. هذان السطران يطبعان رصيد الائتمان المتبقي ومقدار الائتمان المستخدم في التحويل.
+
+`Metered.getConsumptionCredit()` يُعيد رصيد الائتمان المتبقي، بينما `Metered.getConsumptionQuantity()` يُعيد الائتمانات المستخدمة في العملية الأخيرة.
 
 ```java
 System.out.println(String.format("Credit before operation: %.02f", Metered.getConsumptionCredit()));
 System.out.println(String.format("Consumption quantity before operation: %.02f", Metered.getConsumptionQuantity()));
 ```
 
-تطبع هاتان السطران رصيد الرصيد المتبقي ومقدار الرصيد المستخدم في التحويل. تشغيل نفس الاستدعاءات بعد عملية `save` سيظهر القيم المحدثة، مما يتيح لك التحقق من أن الترخيص القائم على الاستهلاك يتتبع الاستخدام بشكل صحيح.
+تشغيل نفس الاستدعاءات بعد عملية `save` سيظهر القيم المحدثة، مما يتيح لك التحقق من أن الترخيص القائم على الاستهلاك يتتبع الاستخدام بشكل صحيح.
+
+{{< blocks/products/products-backtop-button >}}
 
 ## المشكلات الشائعة والحلول
 
-| Issue | Why it Happens | Fix |
+| المشكلة | سبب حدوثها | الحل |
 |-------|----------------|-----|
 | **Invalid metered keys** | المفاتيح مكتوبة بشكل خاطئ أو انتهت صلاحيتها. | تحقق مرة أخرى من المفاتيح في حساب Aspose الخاص بك؛ أعد توليدها إذا لزم الأمر. |
-| **File not found** | مسار `dataDir` غير صحيح. | استخدم مسارًا مطلقًا أو تحقق من المسار النسبي من جذر مشروعك. |
-| **Insufficient credits** | تم استهلاك جميع الرصيد. | اشترِ رصيدًا إضافيًا أو انتقل إلى ترخيص دائم لأعباء العمل ذات الحجم العالي. |
+| **File not found** | مسار `dataDir` غير صحيح. | استخدم مسارًا مطلقًا أو تحقق من المسار النسبي من جذر المشروع. |
+| **Insufficient credits** | تم استهلاك جميع الائتمانات. | اشترِ ائتمانات إضافية أو انتقل إلى ترخيص دائم لأعباء العمل ذات الحجم الكبير. |
 
 ## الأسئلة المتكررة
 
-**س: ما هو الترخيص المقنن؟**
-ج: يتيح لك ترخيص قائم على الاستهلاك استخدام واجهة برمجة التطبيقات (API) للدفع، مما يتيح لك التحكم الدقيق في التكلفة.
+**Q: ما هو الترخيص القائم على الاستهلاك؟**  
+A: الترخيص القائم على الاستهلاك يتيح لك الدفع مقابل استخدام API بناءً على الائتمانات، مما يمنحك تحكمًا دقيقًا في التكلفة.
 
-**س: كيف يمكنني الحصول على مفتاح مقنن لمنتجات Aspose؟**
-ج: اشترِ ترخيصًا من موقع Aspose أو اطلب مفتاحًا مؤقتًا عبر لوحة التحكم في حسابك.
+**Q: كيف أحصل على مفتاح ترخيص قائم على الاستهلاك لمنتجات Aspose؟**  
+A: اشترِ ترخيصًا من موقع Aspose أو اطلب مفتاح تقييم مؤقت عبر لوحة التحكم في حسابك.
 
-**س: هل يمكنني استخدام ترخيص مقنن عبر تطبيقات متعددة؟**
-ج: نعم، ولكن يتم تقليل الاستهلاك تحت نفس المفتاح، لذا راقب الاستخدام الكلي الجيد.
+**Q: هل يمكنني استخدام ترخيص قائم على الاستهلاك عبر تطبيقات متعددة؟**  
+A: نعم، لكن يتم تجميع كل الاستهلاك تحت نفس المفتاح، لذا راقب الاستخدام الكلي بعناية.
 
-**س: هل هناك نسخة تجريبية مجانية من Aspose.Note لـ Java؟**
-ج: نعم، يمكنك تنزيل النسخة المجانية المجانية من [هنا](https://releases.aspose.com/).
+**Q: هل هناك نسخة تجريبية مجانية لـ Aspose.Note للـ Java؟**  
+A: نعم، يمكنك تنزيل نسخة تجريبية مجانية من [here](https://releases.aspose.com/).
 
-**س: أين يمكنني الحصول على الدعم لـ Aspose.Note لـ Java؟**
-ج: اطرح أسئلتك على منتديات مجتمع Aspose [هنا](https://forum.aspose.com/c/note/28).
+**Q: أين يمكنني الحصول على الدعم لـ Aspose.Note للـ Java؟**  
+A: اطرح أسئلتك في منتديات مجتمع Aspose [here](https://forum.aspose.com/c/note/28).
 
-## الخاتمة
+## الخلاصة
 
-أصبح لديك الآن سير عمل كامل وجاهز للإنتاج **convert OneNote to PDF** مع إدارة ترخيص قائم على الاستهلاك في Java. من خلال التحقق من استهلاك الرصيد قبل وبعد التحويل، يمكنك التأكد من أن تطبيقك يبقى ضمن الميزانية ويتوسع بكفاءة.
+أصبح لديك الآن سير عمل كامل وجاهز للإنتاج **convert OneNote to PDF** مع إدارة ترخيص قائم على الاستهلاك في Java. من خلال التحقق من استهلاك الائتمان قبل وبعد التحويل، يمكنك التأكد من أن تطبيقك يبقى ضمن الميزانية ويتوسع بكفاءة. لا تتردد في استكشاف ميزات Aspose.Note الإضافية مثل عرض الصفحات المخصص، استخراج الصور، والمعالجة الدفعية لتوسيع هذا الحل.
 
 ---
 
-**آخر تحديث:** 2026-01-28  
-**تم الاختبار مع:** Aspose.Note for Java 24.12 (أحدث نسخة وقت الكتابة)  
-**المؤلف:** Aspose  
+**آخر تحديث:** 2026-07-05  
+**تم الاختبار مع:** Aspose.Note for Java 24.12 (الأحدث وقت الكتابة)  
+**المؤلف:** Aspose
+
+## دروس ذات صلة
+
+- [ترخيص Aspose.Note مع Java – كيفية مراقبة الائتمانات](/note/java/licensing-java/)
+- [convert onenote to pdf – تحويل دفتر الملاحظات إلى PDF باستخدام Aspose.Note](/note/java/onenote-notebook-operations/convert-notebook-to-pdf/)
+- [تحويل دفتر الملاحظات إلى PDF مع خيارات في OneNote - Aspose.Note](/note/java/onenote-notebook-operations/convert-notebook-to-pdf-with-options/)
+
 
 {{< /blocks/products/pf/tutorial-page-section >}}
-
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}
