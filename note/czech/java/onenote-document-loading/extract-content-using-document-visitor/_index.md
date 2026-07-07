@@ -1,10 +1,11 @@
 ---
-date: 2025-12-04
-description: Naučte se, jak extrahovat obrázky ze souborů OneNote a převést OneNote
-  na text v Javě pomocí Aspose.Note. Podrobný průvodce krok za krokem s ukázkami kódu.
-linktitle: Extract Images from OneNote using Document Visitor - Java
+date: 2026-02-10
+description: Naučte se, jak převést OneNote na text a extrahovat obrázky pomocí Aspose.Note
+  pro Javu. Průvodce ukazuje, jak číst soubor .one v Javě a provádět extrakci textu
+  z OneNote.
+linktitle: Convert OneNote to Text and Extract Images using Document Visitor - Java
 second_title: Aspose.Note Java API
-title: Extrahovat obrázky z OneNote pomocí Document Visitor – Java
+title: Převod OneNote na text a extrakce obrázků pomocí Document Visitor – Java
 url: /cs/java/onenote-document-loading/extract-content-using-document-visitor/
 weight: 21
 ---
@@ -13,26 +14,38 @@ weight: 21
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Extrahování obrázků z OneNote pomocí Document Visitor - Java
+# Převod OneNote na text a extrakce obrázků pomocí Document Visitor - Java
 
 ## Úvod
 
-Aspose.Note for Java usnadňuje **extrahování obrázků z OneNote** sešitů a také čtení podkladového souboru `.one` v Javě. V tomto tutoriálu vás provedeme kompletním praktickým příkladem, který ukazuje, jak načíst soubor OneNote, projít jeho strukturu pomocí vlastního `DocumentVisitor` a získat jak obrázky, tak prostý text. Na konci také budete vědět, jak **převést OneNote na text**, pokud potřebujete jen textový obsah.
+Aspose.Note pro Java **převést OneNote na text** a zároveň **extahování obrázků z OneNote** notebooků. V tomto tutoriálu vás provedeme kompletním praktickým příkladem, který ukazuje, jak načíst soubor OneNote, projít jeho strukturu pomocí vlastního `DocumentVisitor` a získat jak obrázky, tak čistý text. Na konci také budete vědět, jak **číst .one soubor v Javě** projektech a proč je tento přístup ideální pro automatizovanou migraci obsahu nebo reportování.
 
 ## Rychlé odpovědi
-- **Jakou knihovnu potřebuji?** Aspose.Note pro Java (odkaz ke stažení níže).  
-- **Mohu extrahovat jen obrázky?** Ano – implementujte metodu `VisitImageStart` ve `DocumentVisitor`.  
-- **Jak načíst soubor .one v Javě?** Použijte `new Document(path, new LoadOptions())`.  
-- **Potřebuji licenci pro produkci?** Pro ne‑zkušební použití je vyžadována komerční licence.  
-- **Jaká verze Javy je podporována?** JDK 8 nebo vyšší.
+- **Jaká knihovna potřebuji?** Aspose.Note pro Java (odkaz ke stažení níže).
+- **Mohu extrahovat jen obrázky?** Ano – implementujte metodu `VisitImageStart` ve `DocumentVisitor`.
+- **Jak načíst .one soubor v Javě?** Použijte `new Document(path, new LoadOptions())`.
+- **Potřebuji licenci pro produkci?** Pro ne-zkušební použití je vyžadována komerční licence.
+- **Jaká verze Javy je podporována?** JDK8nebo vyšší.
+
+## Co je převod OneNotu na text?
+
+Převod OneNote na text znamená extrahování surového textového obsahu z notebooku `.one` a jeho uložení jako čistý Unicode text. To je užitečné, když potřebujete prohledávat archiv, lehké datové kanály nebo jednoduché souhrny bez původního formátování OneNote.
+
+## Proč používat Aspose.Note's Document Visitor pro extrakci textu jedné poznámky?
+
+- **Detailní kontrola:** Vzor návštěvníka vám umožňuje přesně rozhodnout, které obrázky (stránky, osnovy, formát, text) chcete zpracovat.
+- **Výkon:** Vyhnete se načítání celého dokumentu do paměti jako jedné velké bloky; každý uzel je navštíven na vyžádání.
+- **Všestrannost:** Stejný návštěvník může být rozšířen pro extrakci obrázků, tabulek nebo vlastních metadat, což z něj činí univerzální řešení pro úkoly **konvertovat onenote na text** a **jak extrahovat obrázky**.
 
 ## Předpoklady
 
-1. Nainstalovaný Java Development Kit (JDK) 8 nebo novější.  
-2. Stažená knihovna Aspose.Note pro Java. Můžete ji stáhnout **[zde](https://releases.aspose.com/note/java/)**.  
+Před začátkem se jedná, že máte:
+
+1. Nainstalovaný Java Development Kit (JDK)8nebo novější.
+2. Staženou knihovnu Aspose.Note pro Java. Můžete si ji stáhnout **[zde](https://releases.aspose.com/note/java/)**.
 3. Dokument OneNote (`.one` soubor), ze kterého chcete extrahovat obrázky nebo jej převést na text.
 
-## Import balíčků
+## Importujte balíčky
 
 Nejprve importujte potřebné třídy z API Aspose.Note.
 
@@ -51,9 +64,9 @@ import com.aspose.note.RichText;
 import com.aspose.note.Title;
 ```
 
-## Krok 1: Nastavení vlastního Document Visitor
+## Krok 1: Nastavení vlastního návštěvníka dokumentu
 
-Vytvořte třídu, která rozšiřuje `DocumentVisitor`. Tato třída bude volána pro každý uzel v dokumentu OneNote, což vám umožní **extrahovat obrázky z OneNote** a volitelně sbírat text.
+Vytvořte třídu, která rozšiřuje `DocumentVisitor`. Tato třída bude volána pro každý uzel v dokumentu OneNote, což vám umožní **extrahovat obrázky OneNote** a volitelně sbírat text.
 
 ```java
 public class ExtractOneNoteContentUsingDocumentvisitor extends DocumentVisitor {
@@ -72,9 +85,9 @@ public class ExtractOneNoteContentUsingDocumentvisitor extends DocumentVisitor {
 }
 ```
 
-## Krok 2: Implementace metod Visitor
+## Krok 2: Implementace metod návštěvníka
 
-Přidejte přepsání (overrides) proy uzlů, které vás zajímají. Níže zpracováváme rich‑text, obrázky, tituly, stránky, obrysy a elementy obrysu. Metoda `VisitImageStart` je místem, kde probíhá extrakce obrázku.
+Přidejte přepsání metod pro typy uzlů, o které vám jde. Níže zpracováváme formátovaný text, obrázky, názvy, stránky, osnovy a elementy osnovy. Metoda `VisitImageStart` je místem, kde probíhá extrakce obrázku.
 
 ```java
 // Visitor methods for different types of nodes
@@ -117,13 +130,13 @@ public void VisitOutlineElementStart(OutlineElement outlineElement) {
 
 ### Proč implementovat tyto metody?
 
-- **Extrahovat obrázky z OneNote:** `VisitImageStart` poskytuje přímý přístup k surovým bajtům obrázku.  
-- **Převést OneNote na text:** `VisitRichTextStart` sbírá textový obsah, což umožňuje jednoduchou operaci **převodu OneNote na text**.  
-- **Číst .one soubor v Javě:** Vzor Visitor abstrahuje podkladovou strukturu souboru `.one`, takže nemusíte sami parsovat binární formát.
+- **Extrahovat obrázky z OneNote:** `VisitImageStart` vám poskytuje přímý přístup k surovým bajtům obrázku.  
+- **Převést OneNote na text:** `VisitRichTextStart` sbírá textový obsah, což umožňuje jednoduchou operaci **convert OneNote to text**.  
+- **Číst .one soubor v Javě:** Vzor návštěvníka abstrahuje podkladovou strukturu souboru `.one`, takže nemusíte sami parsovat binární formát.
 
-## Krok 3: Spuštění Visitoru z hlavní metody
+## Krok 3: Spuštění návštěvníka z vaší hlavní metody
 
-Načtěte soubor `.one`, vytvořte instanci vašeho visitoru a spusťte procházení.
+Načtěte soubor `.one`, vytvořte instanci svého návštěvníka a spusťte procházení.
 
 ```java
 public static void main(String[] args) throws IOException {
@@ -145,40 +158,40 @@ public static void main(String[] args) throws IOException {
 
 ## Běžné případy použití
 
-- **Automatizované reportování:** Vytažení obrázků a textu z OneNote sešitu schůzek pro vytvoření souhrnu v PDF nebo HTML.  
-- **Migrace obsahu:** Převod starých archivů OneNote na soubory prostého textu pro indexaci nebo ingestování do vyhledávačů.  
-- **Extrahování digitálních aktiv:** Sklízení vložených screenshotů, diagramů nebo fotografií pro opětovné použití v jiných aplikacích.
+- **Automatizované reportování:** Vytažení obrázků a textu z OneNote zápisníku schůzky pro vytvoření PDF nebo HTML souhrnu.
+- **Migrace obsahu:** Převod starých archivů OneNote na čisté textové soubory pro indexaci nebo ingestování vyhledávači.
+- **Extraování digitálních aktiv:** Sklízení vložených snímků obrazovky, diagramů nebo fotografií pro použití v jiných aplikacích.
 
-## Řešení problémů a tipy
+## Odstraňování problémů a tipy
 
-- **Velké sešity:** Pokud narazíte na problémy s pamětí, zpracovávejte stránky jednotlivě kontrolou `VisitPageStart` a načítáním zdrojů na úrovni stránky jen podle potřeby.  
-- **Formáty obrázků:** Objekt `Image` vrací surové bajty; může být nutné detekovat formát (PNG, JPEG) před uložením.  
-- **Chyby licence:** Ujistěte se, že jste nastavili licenci Aspose (`License license = new License(); license.setLicense("Aspose.Note.Java.lic");`) před načtením dokumentu v produkci.
+- **Velké notebooky:** Pokud narazíte na problémy s pamětí, zpracovávejte stránky jednotlivě kontrolou `VisitPageStart` a načítání zdrojů na úrovni stránek jen podle potřeb.
+- **Formáty obrázků:** Objekt `Image` vrací surové bajty; před uložením možná budete muset zjistit formát (PNG, JPEG).
+- **Chyby licence:** se nachází, že jste nastavili licenci Aspose (`Licence license = new License(); license.setLicense("Aspose.Note.Java.lic");`) před načtením dokumentu v produkci.
+- **Jak efektivně extrahovat obrázky:** Filtrovat uzly uvnitř `VisitImageStart` podle velikosti nebo formátu, pokud potřebujete jen určité typy obrázků.
 
 ## Často kladené otázky
 
-**Q: Můžu extrahovat konkrétní typy obsahu z dokumentu OneNote?**  
-A: Ano – přepsáním (override) jen těch metod visitoru, které potřebujete (např. `VisitImageStart` pro obrázky, `VisitRichTextStart` pro text).
+**O: Mohu extrahovat konkrétní typy obsahu z dokumentu OneNote?**
+A: Ano – přepsáním pouze těch metod návštěvníka, které potřebujete (např. `VisitImageStart` pro obrázky, `VisitRichTextStart` pro text).
 
-**Q: Je Aspose.Note pro Java kompatibilní s různými verzemi dokumentů OneNote?**  
-A: Naprosto. Knihovna podporuje všechny hlavní verze souborů OneNote, takže můžete bezpečně **číst .one soubor v Javě** projekty bez ohledu na původní verzi OneNote.
+**Q: Je Aspose.Note pro Java kompatibilní s různými verzemi dokumentů OneNote?**
+A: Rozhodně. Knihovna podporuje všechny hlavní verze souborů OneNote, takže můžete bezpečně **read .one file java** projekty bez ohledu na původní verzi OneNote.
 
-**Q: Můžu integrovat tento proces extrakce do své Java aplikace?**  
-A: Ano. Vzor Visitor funguje hladce v jakémkoli Java kódu; stačí přidat JAR knihovny a zavolat ukázkový kód výše.
+**Q: Můžu tento proces extrakce integrovat do své Java aplikace?**
+A: Ano. Vzor návštěvníka funguje hladce v jakémkoli kódu Java; stačí přidat JAR knihovny a zavolat ukázkový kód výše.
 
-**Q: Poskytuje Aspose.Note pro Java podporu pro práci se složitými dokumenty OneNote?**  
-A: Ano. Vnořené obrysy, vložená média a vlastní data jsou všechny zpřístupněny přes API visitoru.
+**Otázka: Poskytuje Aspose.Note pro podporu Java pro práci s komplexními dokumenty OneNote?**
+A: Ano. Vnořené osnovy, vložená média a vlastní data jsou všechny zpřístupněny přes API návštěvníka.
 
-**Q: Existuje nějaký limit velikosti dokumentu OneNote, který lze zpracovat?**  
-A: Neexistuje pevný limit, ale extrémně velké sešity mohou vyžadovat více paměti heap; zvažte jejich zpracování stránku po stránce.
+**Q: Existuje nějaký limit velikosti dokumentu OneNote, který lze zpracovat?**
+A: Neexistuje pevný limit, ale extrémně velké notebooky mohou vyžadovat více haldy; jejich zpracování stránky po stránce.
 
-**Q: Jak převést extrahovaný text do souboru prostého textu?**  
-A: Po tom, co `myConverter.GetText()` vrátí `String`, zapište jej do souboru pomocí standardního Java I/O (`Files.write(Paths.get("output.txt"), text.getBytes());`).
+**Q: Jak převést extrahovaný text do prostého textového souboru?**
+A: Po tom, co `myConverter.GetText()` vrátí `String`, zapíšete jej do souboru pomocí standardního Java I/O (`Files.write(Paths.get("output.txt"), text.getBytes());`).
 
----  
-
-**Poslední aktualizace:** 2025-12-04  
-**Testováno s:** Aspose.Note for Java 26.4  
+---
+**Poslední aktualizace:** 2026-02-10  
+**Testováno s:** Aspose.Note for Java 24.10  
 **Autor:** Aspose  
 
 {{< /blocks/products/pf/tutorial-page-section >}}
