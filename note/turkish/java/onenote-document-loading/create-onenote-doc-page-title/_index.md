@@ -1,11 +1,83 @@
 ---
-date: 2025-12-02
-description: Java'da Aspose.Note for Java kullanarak başlıklı bir OneNote sayfası
-  oluşturmayı öğrenin. Bu kılavuz, OneNote sayfa başlığını nasıl ayarlayacağınızı
-  ve başlık yazı tipini nasıl özelleştireceğinizi gösterir.
-linktitle: How to Create OneNote Page with Title - Java
+date: 2026-07-14
+description: Aspose.Note for Java kullanarak Java'da OneNote sayfa başlığını nasıl
+  ayarlayacağınızı öğrenin. Bu kılavuz ayrıca OneNote başlık yazı tipini özelleştirmeyi
+  ve defter oluşturmayı otomatikleştirmeyi gösterir.
+keywords:
+- set onenote page title
+- customize onenote title font
+- Aspose.Note Java
+- OneNote automation
+lastmod: 2026-07-14
+linktitle: Java'da OneNote Sayfa Başlığını Nasıl Ayarlarsınız
+og_description: Aspose.Note ile Java'da OneNote sayfa başlığını nasıl ayarlayacağınızı
+  öğrenin. Kılavuz, başlık yazı tipini özelleştirmeyi, defter oluşturmayı otomatikleştirmeyi
+  ve dosyayı kaydetmeyi kapsar.
+og_image_alt: 'Developer guide: Set OneNote page title using Aspose.Note for Java'
+og_title: Java'da OneNote Sayfa Başlığını Ayarlama – Aspose.Note Eğitimi
+schemas:
+- author: Aspose
+  dateModified: '2026-07-14'
+  description: Learn how to set OneNote page title in Java using Aspose.Note for Java.
+    This guide also shows how to customize OneNote title font and automate notebook
+    creation.
+  headline: How to Set OneNote Page Title in Java
+  type: TechArticle
+- description: Learn how to set OneNote page title in Java using Aspose.Note for Java.
+    This guide also shows how to customize OneNote title font and automate notebook
+    creation.
+  name: How to Set OneNote Page Title in Java
+  steps:
+  - name: Set Up Document Directory
+    text: Define where the generated OneNote file will be saved.
+  - name: Create Document Object
+    text: The `Document` class represents a OneNote notebook in memory, providing
+      methods to manipulate pages and save the file. Instantiate a new `Document`
+      – this represents the OneNote file you’ll build.
+  - name: Initialize Page Object
+    text: The `Page` class models a single page inside a OneNote notebook. Creating
+      a `Page` object gives you a container for the title and any additional content
+      you may add later.
+  - name: Set Default Text Style
+    text: '`ParagraphStyle` defines the visual appearance of text elements. By configuring
+      a `ParagraphStyle` you can **customize OneNote title font**, specifying font
+      name, size, and color in a single place.'
+  - name: Set Page Title Properties
+    text: Here we set the actual title text, creation date, and time. The `Title`
+      object holds these values and will be linked to the page in the next step.
+  - name: Assign the Title to the Page
+    text: Now we add the `Title` object to the `Page`. This action binds the styled
+      text to the page header, making the title visible when the notebook opens.
+  - name: Append Page to Document
+    text: Add the configured page to the document structure so it becomes part of
+      the final notebook.
+  - name: Save OneNote Document
+    text: Specify the output file name and save the notebook. This completes the **java
+      create onenote file** process.
+  type: HowTo
+- questions:
+  - answer: Yes, the library works with Java 8 and newer, giving you flexibility across
+      environments.
+    question: Is Aspose.Note for Java compatible with different Java versions?
+  - answer: Absolutely! Use `ParagraphStyle` (as shown in Step 4) to set any font
+      name, size, and color.
+    question: Can I customize the font style and size of the page title?
+  - answer: Create additional `RichText` or `Image` objects, set their styles, and
+      add them to the `Page` with `page.appendChildLast(yourObject)`.
+    question: How do I add more content (e.g., paragraphs, images) to the page?
+  - answer: Yes, you can download a free trial from the Aspose website to evaluate
+      all features.
+    question: Is there a trial version available for Aspose.Note for Java?
+  - answer: Visit the [Aspose.Note forum](https://forum.aspose.com/c/note/28) for
+      community help or open a support ticket with Aspose.
+    question: Where can I get support if I run into problems?
+  type: FAQPage
 second_title: Aspose.Note Java API
-title: Başlıklı OneNote Sayfası Nasıl Oluşturulur - Java
+tags:
+- set onenote page title
+- Aspose.Note
+- Java OneNote API
+title: Java'da OneNote Sayfa Başlığını Nasıl Ayarlarsınız
 url: /tr/java/onenote-document-loading/create-onenote-doc-page-title/
 weight: 17
 ---
@@ -14,36 +86,41 @@ weight: 17
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# OneNote Sayfası Başlığı Nasıl Oluşturulur - Java
+# Java'da OneNote Sayfa Başlığını Nasıl Ayarlarsınız
 
 ## Giriş
 
-Programlı olarak **OneNote sayfası oluşturma** ihtiyacınız varsa, Aspose.Note for Java bunu çok basit hâle getirir. Bu öğreticide bir OneNote dosyası oluşturmayı, sayfa başlığını ayarlamayı ve hatta başlığın yazı tipini özelleştirmeyi Java kodu üzerinden öğreneceksiniz. Sonunda, herhangi bir Java uygulamasına entegre edebileceğiniz kullanıma hazır bir OneNote belgeniz olacak.
+Bu öğreticide, Aspose.Note for Java kullanarak **OneNote sayfa başlığını** programlı olarak nasıl ayarlayacağınızı öğreneceksiniz. OneNote belgesi oluşturmayı, başlığa özel bir yazı tipi uygulamayı ve dosyayı kaydetmeyi adım adım göstereceğiz, böylece defteri herhangi bir Java‑tabanlı iş akışına gömebilirsiniz. Sonunda, entegrasyon için tamamen biçimlendirilmiş bir sayfaya sahip olacaksınız.
 
 ## Hızlı Yanıtlar
-- **Hangi kütüphane gerekiyor?** Aspose.Note for Java.
-- **Başlık için özel bir yazı tipi ayarlayabilir miyim?** Evet – `ParagraphStyle` kullanarak yazı tipi adı, boyutu ve rengini tanımlayabilirsiniz.
-- **Hangi Java sürümü destekleniyor?** JDK 8+ (API geriye dönük uyumludur).
-- **Geliştirme için lisansa ihtiyacım var mı?** Test için ücretsiz deneme sürümü yeterlidir; üretim için lisans gereklidir.
-- **Çıktı nerede kaydedilir?** `dataDir` değişkeninde belirttiğiniz yolda.
+- **Hangi kütüphane gereklidir?** Aspose.Note for Java.
+- **Başlık için özel bir yazı tipi ayarlayabilir miyim?** Evet – `ParagraphStyle` kullanarak yazı tipi adı, boyutu ve rengini tanımlayın.
+- **Hangi Java sürümü destekleniyor?** Herhangi bir JDK 8+ (API geriye dönük uyumludur).
+- **Geliştirme için lisansa ihtiyacım var mı?** Test için ücretsiz deneme çalışır; üretim için lisans gereklidir.
+- **Çıktı nerede kaydedilir?** `dataDir` değişkeninde yolu tanımlarsınız.
+- **Aspose.Note kaç formatı destekliyor?** OneNote 2016, OneNote Online ve PDF dahil olmak üzere 30’dan fazla giriş ve çıkış formatı.
 
 ## OneNote Sayfa Başlığı Nedir?
-OneNote sayfa başlığı, her sayfanın üst kısmında görüntülenen başlıktır. Genellikle sayfa adı, oluşturulma tarihi ve zamanı içerir. Bu başlığı programlı olarak ayarlamak, tutarlı ve iyi yapılandırılmış defterler oluşturmanıza yardımcı olur.
 
-## OneNote Sayfa Başlığı Programlı Olarak Neden Ayarlanmalı?
-- **Otomasyon:** Raporları veya toplantı notlarını manuel düzenleme yapmadan oluşturun.  
-- **Tutarlılık:** Tüm sayfalarda aynı adlandırma kurallarını uygulayın.  
-- **Entegrasyon:** OneNote’u diğer sistemlerle (ör. CRM, proje yönetim araçları) birleştirin.  
+OneNote sayfa başlığı, her sayfanın üst kısmında görüntülenen, sayfa adını, oluşturulma tarihini ve saatini gösteren başlıktır. Programlı olarak ayarlanması, tutarlı ve iyi yapılandırılmış defterler oluşturmanıza ve rapor oluşturmayı otomatikleştirmenize olanak tanır. Başlık, OneNote kullanıcı arayüzünde görünür ve API aracılığıyla biçimlendirilebilir.
+
+## OneNote Sayfa Başlığını Programlı Olarak Neden Ayarlamalısınız?
+
+OneNote sayfa başlığını kod aracılığıyla ayarlamak, defter oluşturmanın tam otomasyonunu sağlar, her sayfanın tutarlı bir adlandırma kuralına uymasını garantiler ve CRM veya proje yönetim araçları gibi diğer sistemlerle sorunsuz entegrasyon sağlar. Manuel düzenlemeyi ortadan kaldırır, hataları azaltır ve rapor‑oluşturma süreçlerini hızlandırır.
+
+- **Otomasyon:** Manuel düzenleme olmadan raporlar veya toplantı notları oluşturun.  
+- **Tutarlılık:** Tüm sayfalarda bir adlandırma kuralı zorlayın.  
+- **Entegrasyon:** OneNote'u diğer sistemlerle birleştirin (ör. CRM, proje yönetim araçları).  
 
 ## Önkoşullar
 
-- **Java Development Kit (JDK)** – sürüm 8 veya üzeri.  
+- **Java Development Kit (JDK)** – version 8 or higher.  
 - **Aspose.Note for Java** – resmi siteden **[buradan](https://releases.aspose.com/note/java/)** indirin.  
-- **IDE** – IntelliJ IDEA, Eclipse veya NetBeans (seçiminize göre).
+- **IDE** – IntelliJ IDEA, Eclipse veya NetBeans (seçiminiz).
 
 ## Paketleri İçe Aktar
 
-İlk olarak, Aspose.Note kütüphanesinden ihtiyacımız olan sınıfları içe aktaralım.
+İlk olarak, Aspose.Note kütüphanesinden ihtiyacımız olan sınıfları içe aktarın.
 
 ```java
 import com.aspose.note.*;
@@ -53,31 +130,31 @@ import java.util.Calendar;
 ```
 
 ### Adım 1: Belge Dizinini Ayarla  
-Oluşturulacak OneNote dosyasının kaydedileceği yeri tanımlayın.
+Oluşturulan OneNote dosyasının nereye kaydedileceğini tanımlayın.
 
 ```java
 // The path to the documents directory.
 String dataDir = "Your Document Directory";
 ```
 
-### Adım 2: Belge Nesnesi Oluştur  
-Yeni bir `Document` örneği oluşturun – bu, oluşturacağınız OneNote dosyasını temsil eder.
+### Adım 2: Document Nesnesi Oluştur  
+`Document` sınıfı, bellekte bir OneNote defterini temsil eder ve sayfaları manipüle edip dosyayı kaydetmek için yöntemler sağlar. Yeni bir `Document` örneği oluşturun – bu, oluşturacağınız OneNote dosyasını temsil eder.
 
 ```java
 // Create an object of the Document class
 Document doc = new Document();
 ```
 
-### Adım 3: Sayfa Nesnesini Başlat  
-Başlığı ve diğer içeriği tutacak bir `Page` nesnesi oluşturun.
+### Adım 3: Page Nesnesini Başlat  
+`Page` sınıfı, bir OneNote defterindeki tek bir sayfayı modellemektedir. Bir `Page` nesnesi oluşturmak, başlık ve daha sonra ekleyebileceğiniz ek içerikler için bir kapsayıcı sağlar.
 
 ```java
 // Initialize Page class object
 Page page = new Page();
 ```
 
-### Adım 4: Varsayılan Metin Stili Ayarla  
-Başlık metnine uygulanacak varsayılan bir `ParagraphStyle` tanımlayın. Burada **OneNote başlık yazı tipini özelleştiriyoruz**.
+### Adım 4: Varsayılan Metin Stilini Ayarla  
+`ParagraphStyle` metin öğelerinin görsel görünümünü tanımlar. Bir `ParagraphStyle` yapılandırarak **OneNote başlık yazı tipini özelleştirebilir**, yazı tipi adı, boyutu ve rengini tek bir yerde belirtebilirsiniz.
 
 ```java
 // Default style for all text in the document.
@@ -88,7 +165,7 @@ ParagraphStyle textStyle = new ParagraphStyle()
 ```
 
 ### Adım 5: Sayfa Başlığı Özelliklerini Ayarla  
-Burada **OneNote sayfa başlığını** detaylarıyla (başlık metni, tarih ve saat) ayarlıyoruz. Kullanım senaryonuza göre dizeleri değiştirebilirsiniz.
+Burada gerçek başlık metnini, oluşturulma tarihini ve saatini ayarlarız. `Title` nesnesi bu değerleri tutar ve bir sonraki adımda sayfaya bağlanacaktır.
 
 ```java
 // Set page title properties
@@ -110,21 +187,21 @@ title.setTitleText(titleTime);
 ```
 
 ### Adım 6: Başlığı Sayfaya Ata  
-Şimdi `Title` nesnesini `Page` ile ilişkilendirerek **başlığı OneNote’a ekliyoruz**.
+Şimdi `Title` nesnesini `Page` e ekliyoruz. Bu işlem, biçimlendirilmiş metni sayfa başlığına bağlar ve defter açıldığında başlığın görünmesini sağlar.
 
 ```java
 page.setTitle(title);
 ```
 
 ### Adım 7: Sayfayı Belgeye Ekle  
-Yapılandırılmış sayfayı belge yapısına ekleyin.
+Yapılandırılmış sayfayı belge yapısına ekleyin, böylece son defterin bir parçası olur.
 
 ```java
 doc.appendChildLast(page);
 ```
 
 ### Adım 8: OneNote Belgesini Kaydet  
-Çıktı dosya adını belirleyin ve defteri kaydedin. Bu, **java create onenote file** sürecini tamamlar.
+Çıktı dosya adını belirtin ve defteri kaydedin. Bu, **java create onenote file** sürecini tamamlar.
 
 ```java
 dataDir = dataDir + "load//CreateDocWithPageTitle_out.one";
@@ -137,37 +214,40 @@ doc.save(dataDir);
 
 | Sorun | Çözüm |
 |-------|----------|
-| **Geçersiz dosya yolu** | `dataDir` değişkeninin uygun bir ayırıcı (`/` veya `\\`) ile bittiğinden ve klasörün var olduğundan emin olun. |
-| **Başlık görünmüyor** | `ParagraphStyle`’ın her `RichText` öğesine uygulandığını kontrol edin. |
-| **Lisans istisnası** | Test için deneme lisansı kullanın; dağıtıma geçmeden önce tam lisansı uygulayın. |
+| **Geçersiz dosya yolu** | `dataDir`'in uygun bir ayırıcı (`/` veya `\\`) ile bittiğinden ve klasörün mevcut olduğundan emin olun. |
+| **Başlık görünmüyor** | `ParagraphStyle`'ın her `RichText` öğesine uygulandığını doğrulayın. |
+| **Lisans istisnası** | Test için deneme lisansı kullanın; dağıtmadan önce tam lisans uygulayın. |
 | **Tarih yanlış ay gösteriyor** | Java ayları sıfır‑tabanlıdır; `cal.set(2018, 04, 03)` aslında Mayıs ayını ayarlar. Buna göre düzeltin. |
 
-## Sık Sorulan Sorular
+## Sıkça Sorulan Sorular
 
-**S: Aspose.Note for Java farklı Java sürümleriyle uyumlu mu?**  
-C: Evet, kütüphane Java 8 ve üzeri sürümlerle çalışır, böylece ortamlar arasında esneklik sağlar.
+**Q:** Aspose.Note for Java farklı Java sürümleriyle uyumlu mu?  
+**A:** Evet, kütüphane Java 8 ve üzeri sürümlerle çalışır, böylece ortamlar arasında esneklik sağlar.
 
-**S: Sayfa başlığının yazı tipi stilini ve boyutunu özelleştirebilir miyim?**  
-C: Kesinlikle! Adım 4’te gösterildiği gibi `ParagraphStyle` kullanarak istediğiniz yazı tipi adı, boyutu ve rengini ayarlayabilirsiniz.
+**Q:** Sayfa başlığının yazı tipi stilini ve boyutunu özelleştirebilir miyim?  
+**A:** Kesinlikle! `ParagraphStyle`'ı (Adım 4'te gösterildiği gibi) kullanarak istediğiniz yazı tipi adı, boyutu ve rengini ayarlayabilirsiniz.
 
-**S: Sayfaya daha fazla içerik (ör. paragraflar, resimler) eklemek istiyorum, nasıl?**  
-C: Ek `RichText` veya `Image` nesneleri oluşturun, stillerini ayarlayın ve `page.appendChildLast(yourObject)` ile sayfaya ekleyin.
+**Q:** Sayfaya daha fazla içerik (ör. paragraflar, görseller) nasıl eklerim?  
+**A:** Ek `RichText` veya `Image` nesneleri oluşturun, stillerini ayarlayın ve `page.appendChildLast(yourObject)` ile `Page` e ekleyin.
 
-**S: Aspose.Note for Java için deneme sürümü mevcut mu?**  
-C: Evet, tüm özellikleri değerlendirebilmeniz için Aspose web sitesinden ücretsiz bir deneme sürümü indirebilirsiniz.
+**Q:** Aspose.Note for Java için bir deneme sürümü mevcut mu?  
+**A:** Evet, tüm özellikleri değerlendirmek için Aspose web sitesinden ücretsiz bir deneme sürümü indirebilirsiniz.
 
-**S: Sorun yaşarsam nereden destek alabilirim?**  
-C: Topluluk yardımı için [Aspose.Note forumunu](https://forum.aspose.com/c/note/28) ziyaret edin veya Aspose’tan bir destek bileti açın.
+**Q:** Sorun yaşarsam nereden destek alabilirim?  
+**A:** [Aspose.Note forumunu](https://forum.aspose.com/c/note/28) ziyaret ederek topluluk yardımını alabilir veya Aspose ile bir destek bileti açabilirsiniz.
 
----
+**Son Güncelleme:** 2026-07-14  
+**Test Edildi:** Aspose.Note for Java 26.4 (yazım zamanındaki en son sürüm)  
+**Yazar:** Aspose
 
-**Son Güncelleme:** 2025-12-02  
-**Test Edilen Versiyon:** Aspose.Note for Java 26.4 (yazım anındaki en yeni sürüm)  
-**Yazar:** Aspose  
+## İlgili Öğreticiler
+
+- [Microsoft OneNote Stiliyle Sayfa Başlığı Ayarlama - Aspose.Note](/note/java/onenote-text-manipulation/setting-page-title-in-microsoft-onenote-style/)
+- [Java ile Başlıklı OneNote Sayfası Oluşturma](/note/java/onenote-document-loading/create-onenote-doc-page-title/)
+- [OneNote Sayfa Arka Planını Değiştir – Aspose.Note for Java](/note/java/onenote-page-manipulation/set-page-background-color/)
+
 
 {{< /blocks/products/pf/tutorial-page-section >}}
-
 {{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
 {{< blocks/products/products-backtop-button >}}
+{{< /blocks/products/pf/main-wrap-class >}}
