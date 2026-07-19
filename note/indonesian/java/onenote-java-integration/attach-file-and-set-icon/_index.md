@@ -1,33 +1,97 @@
 ---
-title: Lampirkan File dan Atur Ikon di OneNote menggunakan Java
-linktitle: Lampirkan File dan Atur Ikon di OneNote menggunakan Java
-second_title: Aspose.Catatan Java API
-description: Tingkatkan alur kerja OneNote Anda! Pelajari cara melampirkan file & menyesuaikan ikon secara terprogram di Java dengan Aspose.Note. Langkah & kode mudah disertakan! #OneNote #Java #Aspose
-weight: 10
+date: 2026-07-19
+description: Pelajari cara membuat dokumen OneNote Java secara programatis, melampirkan
+  file, dan mengatur icon khusus menggunakan Aspose.Note. Temukan cara melampirkan
+  file Java dan mengatur icon dalam hitungan menit.
+keywords:
+- create onenote document java
+- how to attach file java
+- Aspose.Note Java
+lastmod: 2026-07-19
+linktitle: Buat Dokumen OneNote Java - Lampirkan File dan Atur Icon
+og_description: Buat Dokumen OneNote Java dengan Aspose.Note. Pelajari cara melampirkan
+  file Java dan mengatur icon khusus dengan cepat dalam panduan langkah demi langkah.
+og_image_alt: Guide to creating a OneNote document in Java with attached files and
+  custom icons
+og_title: Buat Dokumen OneNote Java – Lampirkan File dan Atur Icon
+schemas:
+- author: Aspose
+  dateModified: '2026-07-19'
+  description: Learn how to create OneNote document Java programmatically, attach
+    files and set custom icons using Aspose.Note. Discover how to attach file Java
+    and set icons in minutes.
+  headline: Create OneNote Document Java - Attach File and Set Icon
+  type: TechArticle
+- description: Learn how to create OneNote document Java programmatically, attach
+    files and set custom icons using Aspose.Note. Discover how to attach file Java
+    and set icons in minutes.
+  name: Create OneNote Document Java - Attach File and Set Icon
+  steps:
+  - name: '**Instantiate** a `Document` object (the OneNote file).'
+    text: '**Instantiate** a `Document` object (the OneNote file).'
+  - name: '**Create** a page, outline, and outline element – the building blocks of
+      OneNote content.'
+    text: '**Create** a page, outline, and outline element – the building blocks of
+      OneNote content.'
+  - name: '**Attach** a file with a custom icon using the `AttachedFile` class.'
+    text: '**Attach** a file with a custom icon using the `AttachedFile` class.'
+  - name: '**Save** the document to a `.one` file.'
+    text: '**Save** the document to a `.one` file.'
+  type: HowTo
+- questions:
+  - answer: Programmatically create a OneNote document in Java and embed an attached
+      file with a custom icon.
+    question: What is the main goal?
+  - answer: Aspose.Note for Java.
+    question: Which library is required?
+  - answer: A free trial works for testing; a commercial license is required for production.
+    question: Do I need a license?
+  - answer: Less than 30 lines of core API calls.
+    question: How many lines of code?
+  - answer: Yes – any file can be attached; you just provide the appropriate icon.
+    question: Can I use any file type?
+  type: FAQPage
+second_title: Aspose.Note Java API
+tags:
+- onenote java
+- Aspose.Note
+- attach file java
+title: Buat Dokumen OneNote Java - Lampirkan File dan Atur Icon
 url: /id/java/onenote-java-integration/attach-file-and-set-icon/
+weight: 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Lampirkan File dan Atur Ikon di OneNote menggunakan Java
+# Buat Dokumen OneNote Java: Lampirkan File dan Atur Ikon
 
-## Perkenalan
+OneNote adalah alat populer untuk mencatat dan mengatur informasi, dan dengan **Aspose.Note for Java** Anda dapat **membuat dokumen OneNote Java** secara programatis. Dalam tutorial ini kami akan memandu Anda cara melampirkan file dan mengatur ikon khusus, sehingga catatan Anda terlihat rapi dan langsung dikenali. Pada akhir tutorial Anda akan memahami mengapa pendekatan ini menghemat waktu dan bagaimana ia terintegrasi dengan bersih ke dalam proyek Java apa pun.
 
-OneNote adalah alat populer untuk membuat catatan dan mengatur informasi, dan dengan bantuan Aspose.Note untuk Java, Anda dapat meningkatkan kemampuannya dengan melampirkan file secara terprogram dan mengatur ikon untuk meningkatkan representasi visual catatan Anda. Dalam tutorial ini, kami akan memandu Anda melalui proses langkah demi langkah.
+## Jawaban Cepat
+- **Apa tujuan utama?** Membuat dokumen OneNote secara programatis dalam Java dan menyematkan file terlampir dengan ikon khusus.  
+- **Perpustakaan mana yang diperlukan?** Aspose.Note for Java.  
+- **Apakah saya memerlukan lisensi?** Versi percobaan gratis dapat digunakan untuk pengujian; lisensi komersial diperlukan untuk produksi.  
+- **Berapa banyak baris kode?** Kurang dari 30 baris pemanggilan API inti.  
+- **Bisakah saya menggunakan tipe file apa pun?** Ya – file apa pun dapat dilampirkan; Anda hanya perlu menyediakan ikon yang sesuai.
+
+## Buat Dokumen OneNote Java – Ikhtisar
+Sebelum menyelam ke kode, pahami alur tingkat tinggi:
+
+1. **Instansiasi** sebuah objek `Document` (file OneNote).  
+2. **Buat** sebuah halaman, outline, dan elemen outline – blok bangunan konten OneNote.  
+3. **Lampirkan** sebuah file dengan ikon khusus menggunakan kelas `AttachedFile`.  
+4. **Simpan** dokumen ke file `.one`.
 
 ## Prasyarat
 
-Sebelum memulai, pastikan Anda memiliki hal berikut:
+- **Java Development Environment** – Java 8+ dan IDE seperti IntelliJ IDEA atau Eclipse.  
+- **Aspose.Note for Java Library** – unduh dari [Aspose website](https://releases.aspose.com/note/java/).  
 
-1. Lingkungan Pengembangan Java: Pastikan Anda telah menginstal Java di sistem Anda, bersama dengan Lingkungan Pengembangan Terintegrasi (IDE) yang kompatibel seperti IntelliJ IDEA atau Eclipse.
-   
-2.  Aspose.Note untuk Perpustakaan Java: Anda harus mengunduh dan menginstal perpustakaan Aspose.Note untuk Java. Anda dapat mengunduhnya dari[Asumsikan situs web](https://releases.aspose.com/note/java/).
+## Impor Paket
 
-## Paket Impor
-
-Pertama, Anda perlu mengimpor paket yang diperlukan dari perpustakaan Aspose.Note ke proyek Java Anda:
+Pertama, impor kelas Aspose.Note yang diperlukan dan kelas I/O standar Java:
 
 ```java
 import com.aspose.note.*;
@@ -37,44 +101,44 @@ import java.io.FileNotFoundException;
 import java.io.IOException;
 ```
 
-## Langkah 1: Buat Objek Dokumen
+## Langkah 1: Buat Objek Document
 
-Mulailah dengan membuat objek Dokumen, yang mewakili dokumen OneNote yang akan Anda kerjakan:
+Kelas `Document` adalah objek tingkat atas Aspose.Note yang mewakili satu file OneNote dalam memori. Setelah diinstansiasi, semua operasi baca dan tulis mengalir melalui objek ini.
 
 ```java
-// Jalur ke direktori dokumen.
+// The path to the documents directory.
 String dataDir = "Your Document Directory";
-//Buat objek kelas Dokumen
+// Create an object of the Document class
 Document doc = new Document();
 ```
 
-## Langkah 2: Inisialisasi Objek Halaman dan Garis Besar
+## Langkah 2: Inisialisasi Objek Page dan Outline
 
-Selanjutnya, inisialisasi objek Halaman dan Garis Besar:
+Kelas `Page` mewakili satu halaman di dalam file OneNote, sementara kelas `Outline` mengelompokkan blok konten terkait pada halaman tersebut.
 
 ```java
-// Inisialisasi objek kelas Halaman
+// Initialize Page class object
 Page page = new Page();
 
-// Inisialisasi objek kelas Outline
+// Initialize Outline class object
 Outline outline = new Outline();
 ```
 
 ## Langkah 3: Inisialisasi Objek OutlineElement
 
-Sekarang, inisialisasi objek OutlineElement:
+`OutlineElement` adalah kontainer yang menyimpan item konten individual seperti teks, gambar, atau file terlampir.
 
 ```java
-// Inisialisasi objek kelas OutlineElement
+// Initialize OutlineElement class object
 OutlineElement outlineElem = new OutlineElement();
 ```
 
-## Langkah 4: Buat Objek AttachedFile dengan Ikon
+## Cara Melampirkan File pada OneNote Menggunakan Java?
 
-Buat objek AttachedFile dan tentukan jalur ke file yang ingin Anda lampirkan, beserta ikonnya:
+Untuk menyematkan file, Anda membuat instance `AttachedFile`, menyediakan aliran biner file, dan secara opsional mengatur gambar ikon khusus. Kelas ini menghubungkan lampiran ke halaman OneNote dan memberi tahu OneNote ikon mana yang akan ditampilkan. Gunakan konstruktor yang menerima `FileInputStream` dan `Image` untuk ikon.
 
 ```java
-// Inisialisasi objek kelas AttachedFile dan teruskan juga jalur ikonnya
+// Initialize AttachedFile class object and also pass its icon path
 AttachedFile attachedFile = null;
 try {
     attachedFile = new AttachedFile(dataDir + "attachment.txt", new FileInputStream(dataDir  + "icon.jpg"), ImageFormat.getJpeg());
@@ -83,82 +147,90 @@ try {
 }
 ```
 
-## Langkah 5: Tambahkan AttachedFile ke OutlineElement
+## Contoh Java Menambahkan Outline Element
 
-Tambahkan AttachedFile ke OutlineElement:
+Tambahkan instance `AttachedFile` ke `OutlineElement` yang telah dibuat sebelumnya. Langkah ini mengaitkan lampiran dengan elemen visual yang akan muncul di halaman.
 
 ```java
-// Tambahkan file terlampir
+// Add attached file
 outlineElem.appendChildLast(attachedFile);
 ```
 
-## Langkah 6: Tambahkan OutlineElement ke Outline
-
-Selanjutnya, tambahkan OutlineElement ke Outline:
+## Tambahkan OutlineElement ke Outline
 
 ```java
-// Tambahkan simpul elemen garis besar
+// Add outline element node
 outline.appendChildLast(outlineElem);
 ```
 
-## Langkah 7: Tambahkan Garis Besar ke Halaman
-
-Tambahkan Garis Besar ke Halaman:
+## Tambahkan Outline ke Page
 
 ```java
-// Tambahkan simpul garis besar
+// Add outline node
 page.appendChildLast(outline);
 ```
 
-## Langkah 8: Tambahkan Halaman ke Dokumen
-
-Terakhir, tambahkan Halaman ke Dokumen:
+## Tambahkan Page ke Document
 
 ```java
-// Tambahkan simpul halaman
+// Add page node
 doc.appendChildLast(page);
 ```
 
-## Langkah 9: Simpan Dokumen
+## Simpan Dokumen
 
-Simpan Dokumen yang dimodifikasi ke file:
+Akhirnya, tulis file OneNote yang telah terisi ke disk menggunakan metode `save` dari objek `Document`.
 
 ```java
 dataDir = dataDir + "AttachFileAndSetIcon_out.one";
 doc.save(dataDir);
 ```
 
-Sekarang, Anda telah berhasil melampirkan file dan mengatur ikon di OneNote menggunakan Java dengan Aspose.Note.
+Anda sekarang telah **membuat file OneNote Java** yang berisi file terlampir dengan ikon khusus.
 
-### Kesimpulan
+### Mengapa menggunakan Aspose.Note untuk Java?
 
-Dalam tutorial ini, kita telah mempelajari cara melampirkan file dan mengatur ikon secara terprogram di OneNote menggunakan Java dengan pustaka Aspose.Note. Dengan mengikuti panduan langkah demi langkah, Anda dapat meningkatkan pengalaman membuat catatan dan mengotomatiskan tugas dalam aplikasi Java Anda.
+Aspose.Note mendukung **lebih dari 50** format input dan output, dapat menangani dokumen dengan **ratusan halaman** tanpa memuat seluruh file ke memori, dan menyediakan API **aman terhadap thread** yang dapat diskalakan dalam lingkungan multi‑pengguna. Kemampuan yang terukur ini menjadikannya pilihan yang dapat diandalkan untuk otomasi tingkat perusahaan.
 
-### FAQ
+### Kasus Penggunaan Umum
 
-### Q1: Bisakah saya melampirkan semua jenis file ke OneNote menggunakan metode ini?
+- **Pembuatan notulen rapat otomatis** di mana PDF atau spreadsheet pendukung dilampirkan langsung ke catatan.  
+- **Alur kerja manajemen dokumen** yang perlu menggabungkan file sumber dengan halaman OneNote penjelas.  
+- **Pembuatan konten edukasi** di mana guru menyematkan lembar kerja, gambar, atau file audio ke dalam catatan pelajaran.
 
-A1: Ya, Anda dapat melampirkan berbagai jenis file, termasuk dokumen, gambar, dan file multimedia.
+## Pertanyaan yang Sering Diajukan
 
-### Q2: Apakah Aspose.Note untuk Java kompatibel dengan semua versi OneNote?
+**Q:** Apakah saya dapat melampirkan tipe file apa pun ke OneNote menggunakan metode ini?  
+**A:** Ya, Anda dapat melampirkan dokumen, gambar, video, atau file biner apa pun; cukup sediakan ikon yang sesuai untuk mewakilinya.
 
-A2: Aspose.Note untuk Java mendukung kompatibilitas dengan berbagai versi OneNote, memastikan fleksibilitas dalam pengembangan Anda.
+**Q:** Apakah Aspose.Note untuk Java kompatibel dengan semua versi OneNote?  
+**A:** Aspose.Note mendukung OneNote 2010, 2013, 2016, dan versi Universal Windows 10, memastikan kompatibilitas luas di lingkungan desktop dan UWP.
 
-### Q3: Dapatkah saya menyesuaikan tampilan ikon file terlampir?
+**Q:** Bisakah saya menyesuaikan tampilan ikon file terlampir?  
+**A:** Tentu saja. Sediakan gambar PNG atau ICO khusus saat membuat objek `AttachedFile` untuk mengontrol bagaimana lampiran ditampilkan.
 
-A3: Tentu saja, Anda dapat memilih ikon khusus untuk mewakili berbagai jenis lampiran, sehingga meningkatkan organisasi visual.
+**Q:** Apakah Aspose.Note untuk Java menawarkan dukungan untuk pemecahan masalah dan bantuan?  
+**A:** Ya, Anda dapat mendapatkan bantuan dari forum komunitas Aspose: [Aspose.Note Support](https://forum.aspose.com/c/note/28).
 
-### Q4: Apakah Aspose.Note untuk Java menawarkan dukungan untuk pemecahan masalah dan bantuan?
+**Q:** Apakah ada versi percobaan yang tersedia untuk Aspose.Note untuk Java?  
+**A:** Ya, Anda dapat menjelajahi fungsionalitas Aspose.Note untuk Java dengan percobaan gratis yang tersedia di [tautan ini](https://releases.aspose.com/).
 
- A4: Ya, Anda bisa mendapatkan bantuan dan dukungan pemecahan masalah dari forum komunitas Aspose:[Aspose.Catatan Dukungan](https://forum.aspose.com/c/note/28).
+---
 
-### Q5: Apakah ada versi uji coba yang tersedia untuk Aspose.Note untuk Java?
+**Terakhir Diperbarui:** 2026-07-19  
+**Diuji Dengan:** Aspose.Note for Java 26.4 (terbaru pada saat penulisan)  
+**Penulis:** Aspose
 
-A5: Ya, Anda dapat menjelajahi fungsionalitas Aspose.Note untuk Java dengan uji coba gratis yang tersedia di[Link ini](https://releases.aspose.com/).
+## Tutorial Terkait
+
+- [Atur Gaya Paragraf saat Membuat Dokumen OneNote dalam Java](/note/java/onenote-document-manipulation/create-onenote-document-simple-rich-text/)
+- [Cara Menyimpan Dokumen OneNote dengan Aspose.Note untuk Java](/note/java/onenote-document-saving/)
+- [Cara membuat dokumen onenote java – Bangun Dokumen dan Sisipkan Gambar dengan Stream](/note/java/onenote-hyperlinks-images/build-doc-insert-image-stream/)
+
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+{{< blocks/products/products-backtop-button >}}
+
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}

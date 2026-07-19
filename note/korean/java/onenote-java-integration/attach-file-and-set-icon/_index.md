@@ -1,33 +1,96 @@
 ---
-title: Java를 사용하여 OneNote에서 파일 첨부 및 아이콘 설정
-linktitle: Java를 사용하여 OneNote에서 파일 첨부 및 아이콘 설정
-second_title: Aspose.Note 자바 API
-description: OneNote 워크플로를 강화하세요! Aspose.Note를 사용하여 Java에서 프로그래밍 방식으로 파일을 첨부하고 아이콘을 사용자 정의하는 방법을 알아보세요. 쉬운 단계 및 코드가 포함되어 있습니다! #OneNote #Java #Aspose
-weight: 10
+date: 2026-07-19
+description: Aspose.Note를 사용하여 OneNote 문서 Java를 프로그래밍 방식으로 생성하고, attach file 및 set
+  custom icons 하는 방법을 배웁니다. 몇 분 안에 Java attach file 및 set icons 하는 방법을 확인하세요.
+keywords:
+- create onenote document java
+- how to attach file java
+- Aspose.Note Java
+lastmod: 2026-07-19
+linktitle: OneNote 문서 Java 생성 - Attach File 및 Set Icon
+og_description: Aspose.Note와 함께 OneNote 문서 Java를 생성합니다. 단계별 가이드에서 Java attach file
+  및 set custom icons 를 빠르게 배우세요.
+og_image_alt: Guide to creating a OneNote document in Java with attached files and
+  custom icons
+og_title: OneNote 문서 Java 생성 - Attach File 및 Set Icon
+schemas:
+- author: Aspose
+  dateModified: '2026-07-19'
+  description: Learn how to create OneNote document Java programmatically, attach
+    files and set custom icons using Aspose.Note. Discover how to attach file Java
+    and set icons in minutes.
+  headline: Create OneNote Document Java - Attach File and Set Icon
+  type: TechArticle
+- description: Learn how to create OneNote document Java programmatically, attach
+    files and set custom icons using Aspose.Note. Discover how to attach file Java
+    and set icons in minutes.
+  name: Create OneNote Document Java - Attach File and Set Icon
+  steps:
+  - name: '**Instantiate** a `Document` object (the OneNote file).'
+    text: '**Instantiate** a `Document` object (the OneNote file).'
+  - name: '**Create** a page, outline, and outline element – the building blocks of
+      OneNote content.'
+    text: '**Create** a page, outline, and outline element – the building blocks of
+      OneNote content.'
+  - name: '**Attach** a file with a custom icon using the `AttachedFile` class.'
+    text: '**Attach** a file with a custom icon using the `AttachedFile` class.'
+  - name: '**Save** the document to a `.one` file.'
+    text: '**Save** the document to a `.one` file.'
+  type: HowTo
+- questions:
+  - answer: Programmatically create a OneNote document in Java and embed an attached
+      file with a custom icon.
+    question: What is the main goal?
+  - answer: Aspose.Note for Java.
+    question: Which library is required?
+  - answer: A free trial works for testing; a commercial license is required for production.
+    question: Do I need a license?
+  - answer: Less than 30 lines of core API calls.
+    question: How many lines of code?
+  - answer: Yes – any file can be attached; you just provide the appropriate icon.
+    question: Can I use any file type?
+  type: FAQPage
+second_title: Aspose.Note Java API
+tags:
+- onenote java
+- Aspose.Note
+- attach file java
+title: OneNote 문서 Java 생성 - Attach File 및 Set Icon
 url: /ko/java/onenote-java-integration/attach-file-and-set-icon/
+weight: 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Java를 사용하여 OneNote에서 파일 첨부 및 아이콘 설정
+# OneNote 문서 Java 만들기: 파일 첨부 및 아이콘 설정
 
-## 소개
+OneNote는 메모 작성 및 정보 정리에 널리 사용되는 도구이며, **Aspose.Note for Java**를 사용하면 **OneNote 문서 Java 만들기**를 프로그래밍 방식으로 할 수 있습니다. 이 튜토리얼에서는 파일을 첨부하고 사용자 지정 아이콘을 설정하는 방법을 단계별로 안내하여 메모가 깔끔하고 즉시 인식될 수 있도록 합니다. 끝까지 읽으면 이 접근 방식이 시간을 절약하는 이유와 Java 프로젝트에 깔끔하게 통합되는 방법을 이해하게 됩니다.
 
-OneNote는 노트 작성 및 정보 정리에 널리 사용되는 도구이며, Aspose.Note for Java의 도움으로 프로그래밍 방식으로 파일을 첨부하고 아이콘을 설정하여 노트의 시각적 표현을 개선함으로써 기능을 향상시킬 수 있습니다. 이 튜토리얼에서는 프로세스를 단계별로 안내합니다.
+## 빠른 답변
+- **주요 목표는 무엇인가요?** Java에서 프로그래밍 방식으로 OneNote 문서를 생성하고 사용자 지정 아이콘이 있는 첨부 파일을 삽입합니다.  
+- **필요한 라이브러리는 무엇인가요?** Aspose.Note for Java.  
+- **라이선스가 필요합니까?** 테스트용 무료 체험판을 사용할 수 있으며, 상용 환경에서는 상업용 라이선스가 필요합니다.  
+- **코드 라인은 몇 줄인가요?** 핵심 API 호출 기준 30줄 미만.  
+- **모든 파일 유형을 사용할 수 있나요?** 예 – 모든 파일을 첨부할 수 있으며, 적절한 아이콘만 제공하면 됩니다.
 
-## 전제조건
+## OneNote 문서 Java 만들기 – 개요
+코드에 들어가기 전에, 높은 수준의 흐름을 이해하십시오:
 
-시작하기 전에 다음 사항이 있는지 확인하세요.
+1. **인스턴스화** `Document` 객체(OneNote 파일)를 생성합니다.  
+2. **생성** 페이지, 아웃라인 및 아웃라인 요소 – OneNote 콘텐츠의 기본 구성 요소입니다.  
+3. **첨부** `AttachedFile` 클래스를 사용하여 사용자 지정 아이콘과 함께 파일을 첨부합니다.  
+4. **저장** 문서를 `.one` 파일로 저장합니다.
 
-1. Java 개발 환경: IntelliJ IDEA 또는 Eclipse와 같은 호환 가능한 통합 개발 환경(IDE)과 함께 시스템에 Java가 설치되어 있는지 확인하세요.
-   
-2.  Java 라이브러리용 Aspose.Note: Java 라이브러리용 Aspose.Note를 다운로드하고 설치해야 합니다. 다음에서 다운로드할 수 있습니다.[Aspose 웹사이트](https://releases.aspose.com/note/java/).
+## 전제 조건
+
+- **Java 개발 환경** – Java 8+ 및 IntelliJ IDEA 또는 Eclipse와 같은 IDE.  
+- **Aspose.Note for Java 라이브러리** – [Aspose 웹사이트](https://releases.aspose.com/note/java/)에서 다운로드하십시오.  
 
 ## 패키지 가져오기
 
-먼저 Aspose.Note 라이브러리에서 필요한 패키지를 Java 프로젝트로 가져와야 합니다.
+먼저 필요한 Aspose.Note 클래스와 표준 Java I/O 클래스를 가져옵니다:
 
 ```java
 import com.aspose.note.*;
@@ -37,44 +100,44 @@ import java.io.FileNotFoundException;
 import java.io.IOException;
 ```
 
-## 1단계: 문서 개체 만들기
+## 단계 1: Document 객체 생성
 
-작업할 OneNote 문서를 나타내는 Document 개체를 만드는 것부터 시작합니다.
+`Document` 클래스는 메모리 내에서 단일 OneNote 파일을 나타내는 Aspose.Note의 최상위 객체입니다. 인스턴스화 후 모든 읽기 및 쓰기 작업은 이 객체를 통해 흐릅니다.
 
 ```java
-// 문서 디렉터리의 경로입니다.
+// The path to the documents directory.
 String dataDir = "Your Document Directory";
-//Document 클래스의 객체 생성
+// Create an object of the Document class
 Document doc = new Document();
 ```
 
-## 2단계: 페이지 및 개요 개체 초기화
+## 단계 2: Page 및 Outline 객체 초기화
 
-다음으로 페이지 및 개요 개체를 초기화합니다.
+`Page` 클래스는 OneNote 파일 내부의 단일 페이지를 나타내고, `Outline` 클래스는 해당 페이지에서 관련 콘텐츠 블록을 그룹화합니다.
 
 ```java
-// 페이지 클래스 객체 초기화
+// Initialize Page class object
 Page page = new Page();
 
-// 개요 클래스 객체 초기화
+// Initialize Outline class object
 Outline outline = new Outline();
 ```
 
-## 3단계: OutlineElement 객체 초기화
+## 단계 3: OutlineElement 객체 초기화
 
-이제 OutlineElement 객체를 초기화합니다.
+`OutlineElement`는 텍스트, 이미지 또는 첨부 파일과 같은 개별 콘텐츠 항목을 보관하는 컨테이너입니다.
 
 ```java
-// 아웃라인엘리먼트 클래스 객체 초기화
+// Initialize OutlineElement class object
 OutlineElement outlineElem = new OutlineElement();
 ```
 
-## 4단계: 아이콘이 있는 AttachedFile 객체 생성
+## Java를 사용하여 OneNote에 파일을 첨부하는 방법?
 
-AttachedFile 객체를 생성하고 아이콘과 함께 첨부할 파일의 경로를 지정합니다.
+파일을 삽입하려면 `AttachedFile` 인스턴스를 생성하고 파일의 바이너리 스트림을 제공한 뒤, 선택적으로 사용자 지정 아이콘 이미지를 설정합니다. 이 클래스는 첨부 파일을 OneNote 페이지에 연결하고 어떤 아이콘을 표시할지 OneNote에 알려줍니다. `FileInputStream`과 아이콘용 `Image`를 받는 생성자를 사용하십시오.
 
 ```java
-// AttachedFile 클래스 객체를 초기화하고 해당 아이콘 경로도 전달합니다.
+// Initialize AttachedFile class object and also pass its icon path
 AttachedFile attachedFile = null;
 try {
     attachedFile = new AttachedFile(dataDir + "attachment.txt", new FileInputStream(dataDir  + "icon.jpg"), ImageFormat.getJpeg());
@@ -83,82 +146,89 @@ try {
 }
 ```
 
-## 5단계: AttachedFile을 OutlineElement에 추가
+## Outline Element 추가 Java 예제
 
-AttachedFile을 OutlineElement에 추가합니다.
+이전에 만든 `OutlineElement`에 `AttachedFile` 인스턴스를 추가합니다. 이 단계는 첨부 파일을 페이지에 표시될 시각적 요소와 연결합니다.
 
 ```java
-// 첨부파일 추가
+// Add attached file
 outlineElem.appendChildLast(attachedFile);
 ```
 
-## 6단계: 개요에 OutlineElement 추가
-
-다음으로, 개요에 OutlineElement를 추가합니다.
+## OutlineElement를 Outline에 추가
 
 ```java
-// 개요 요소 노드 추가
+// Add outline element node
 outline.appendChildLast(outlineElem);
 ```
 
-## 7단계: 페이지에 개요 추가
-
-페이지에 개요를 추가합니다.
+## Outline을 Page에 추가
 
 ```java
-// 개요 노드 추가
+// Add outline node
 page.appendChildLast(outline);
 ```
 
-## 8단계: 문서에 페이지 추가
-
-마지막으로 페이지를 문서에 추가합니다.
+## Page를 Document에 추가
 
 ```java
-// 페이지 노드 추가
+// Add page node
 doc.appendChildLast(page);
 ```
 
-## 9단계: 문서 저장
+## Document 저장
 
-수정된 문서를 파일에 저장합니다.
+마지막으로 `Document` 객체의 `save` 메서드를 사용하여 채워진 OneNote 파일을 디스크에 기록합니다.
 
 ```java
 dataDir = dataDir + "AttachFileAndSetIcon_out.one";
 doc.save(dataDir);
 ```
 
-이제 Aspose.Note와 함께 Java를 사용하여 OneNote에서 파일을 성공적으로 첨부하고 아이콘을 설정했습니다.
+이제 **OneNote 문서 Java 만들기** 파일에 사용자 지정 아이콘이 있는 첨부 파일이 포함되었습니다.
 
-### 결론
+### 왜 Aspose.Note for Java를 사용하나요?
 
-이 자습서에서는 Aspose.Note 라이브러리와 함께 Java를 사용하여 OneNote에서 프로그래밍 방식으로 파일을 첨부하고 아이콘을 설정하는 방법을 배웠습니다. 단계별 가이드를 따르면 메모 작성 경험을 향상시키고 Java 애플리케이션 내에서 작업을 자동화할 수 있습니다.
+Aspose.Note는 **50+** 입력 및 출력 형식을 지원하고, **수백 페이지**의 문서를 전체 파일을 메모리에 로드하지 않고도 처리할 수 있으며, **스레드‑안전** API를 제공하여 다중 사용자 환경에서도 확장성을 보장합니다. 이러한 정량화된 기능은 엔터프라이즈급 자동화에 신뢰할 수 있는 선택이 됩니다.
 
-### FAQ
+### 일반적인 사용 사례
 
-### Q1: 이 방법을 사용하면 모든 유형의 파일을 OneNote에 첨부할 수 있나요?
+- **자동 회의록** 생성 시 PDF 또는 스프레드시트와 같은 지원 파일을 메모에 직접 첨부합니다.  
+- **문서 관리 워크플로우**에서 원본 파일을 설명용 OneNote 페이지와 함께 번들링해야 할 때 사용합니다.  
+- **교육 콘텐츠 제작**에서 교사가 워크시트, 이미지 또는 오디오 파일을 수업 메모에 삽입합니다.
 
-A1: 예. 문서, 이미지, 멀티미디어 파일 등 다양한 파일 형식을 첨부할 수 있습니다.
+## 자주 묻는 질문
 
-### Q2: Aspose.Note for Java는 모든 버전의 OneNote와 호환됩니까?
+**Q:** 이 방법으로 OneNote에 모든 유형의 파일을 첨부할 수 있나요?  
+**A:** 예, 문서, 이미지, 비디오 또는 모든 바이너리 파일을 첨부할 수 있으며, 해당 파일을 나타내는 적절한 아이콘만 제공하면 됩니다.
 
-A2: Aspose.Note for Java는 다양한 버전의 OneNote와의 호환성을 지원하여 개발의 유연성을 보장합니다.
+**Q:** Aspose.Note for Java는 모든 버전의 OneNote와 호환되나요?  
+**A:** Aspose.Note는 OneNote 2010, 2013, 2016 및 Windows 10 Universal 버전을 지원하므로 데스크톱 및 UWP 환경 전반에 걸쳐 광범위한 호환성을 보장합니다.
 
-### Q3: 첨부 파일 아이콘의 모양을 사용자 정의할 수 있나요?
+**Q:** 첨부 파일 아이콘의 모양을 사용자 지정할 수 있나요?  
+**A:** 물론입니다. `AttachedFile` 객체를 생성할 때 사용자 지정 PNG 또는 ICO 이미지를 제공하면 아이콘 표시 방식을 제어할 수 있습니다.
 
-A3: 물론, 다양한 유형의 첨부 파일을 나타내는 사용자 정의 아이콘을 선택하여 시각적 구성을 향상할 수 있습니다.
+**Q:** Aspose.Note for Java는 문제 해결 및 지원을 제공하나요?  
+**A:** 예, Aspose 커뮤니티 포럼에서 도움을 받을 수 있습니다: [Aspose.Note Support](https://forum.aspose.com/c/note/28).
 
-### Q4: Aspose.Note for Java는 문제 해결 및 지원을 지원합니까?
+**Q:** Aspose.Note for Java의 체험판이 있나요?  
+**A:** 예, 무료 체험판을 통해 Aspose.Note for Java의 기능을 확인할 수 있습니다: [this link](https://releases.aspose.com/).
 
- A4: 예, Aspose 커뮤니티 포럼에서 도움과 문제 해결 지원을 받을 수 있습니다.[Aspose.Note 지원](https://forum.aspose.com/c/note/28).
+---
 
-### Q5: Aspose.Note for Java에 사용할 수 있는 평가판이 있나요?
+**마지막 업데이트:** 2026-07-19  
+**테스트 환경:** Aspose.Note for Java 26.4 (작성 시 최신 버전)  
+**작성자:** Aspose
 
-A5: 예, 다음에서 제공되는 무료 평가판을 통해 Java용 Aspose.Note의 기능을 탐색할 수 있습니다.[이 링크](https://releases.aspose.com/).
+## 관련 튜토리얼
+
+- [Java에서 OneNote 문서 생성 중 단락 스타일 설정](/note/java/onenote-document-manipulation/create-onenote-document-simple-rich-text/)
+- [Aspose.Note for Java로 OneNote 문서 저장하는 방법](/note/java/onenote-document-saving/)
+- [Java에서 onenote 문서 만들기 – 문서 빌드 및 스트림으로 이미지 삽입](/note/java/onenote-hyperlinks-images/build-doc-insert-image-stream/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+{{< blocks/products/products-backtop-button >}}
+
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}

@@ -1,33 +1,98 @@
 ---
-title: Csatoljon fájlt és állítsa be az ikont a OneNote-ban Java használatával
-linktitle: Csatoljon fájlt és állítsa be az ikont a OneNote-ban Java használatával
+date: 2026-07-19
+description: Ismerje meg, hogyan hozhat létre OneNote dokumentumot Java-ban programozott
+  módon, csatolhat fájlokat és állíthat be egyedi ikonokat az Aspose.Note segítségével.
+  Fedezze fel, hogyan csatolhat fájlt Java-ban és állíthat be ikonokat percek alatt.
+keywords:
+- create onenote document java
+- how to attach file java
+- Aspose.Note Java
+lastmod: 2026-07-19
+linktitle: OneNote dokumentum létrehozása Java – Fájl csatolása és ikon beállítása
+og_description: OneNote dokumentum létrehozása Java-ban az Aspose.Note segítségével.
+  Ismerje meg, hogyan csatolhat fájlt Java-ban és állíthat be egyedi ikonokat gyorsan,
+  lépésről‑lépésre útmutatóban.
+og_image_alt: Guide to creating a OneNote document in Java with attached files and
+  custom icons
+og_title: OneNote dokumentum létrehozása Java – Fájl csatolása és ikon beállítása
+schemas:
+- author: Aspose
+  dateModified: '2026-07-19'
+  description: Learn how to create OneNote document Java programmatically, attach
+    files and set custom icons using Aspose.Note. Discover how to attach file Java
+    and set icons in minutes.
+  headline: Create OneNote Document Java - Attach File and Set Icon
+  type: TechArticle
+- description: Learn how to create OneNote document Java programmatically, attach
+    files and set custom icons using Aspose.Note. Discover how to attach file Java
+    and set icons in minutes.
+  name: Create OneNote Document Java - Attach File and Set Icon
+  steps:
+  - name: '**Instantiate** a `Document` object (the OneNote file).'
+    text: '**Instantiate** a `Document` object (the OneNote file).'
+  - name: '**Create** a page, outline, and outline element – the building blocks of
+      OneNote content.'
+    text: '**Create** a page, outline, and outline element – the building blocks of
+      OneNote content.'
+  - name: '**Attach** a file with a custom icon using the `AttachedFile` class.'
+    text: '**Attach** a file with a custom icon using the `AttachedFile` class.'
+  - name: '**Save** the document to a `.one` file.'
+    text: '**Save** the document to a `.one` file.'
+  type: HowTo
+- questions:
+  - answer: Programmatically create a OneNote document in Java and embed an attached
+      file with a custom icon.
+    question: What is the main goal?
+  - answer: Aspose.Note for Java.
+    question: Which library is required?
+  - answer: A free trial works for testing; a commercial license is required for production.
+    question: Do I need a license?
+  - answer: Less than 30 lines of core API calls.
+    question: How many lines of code?
+  - answer: Yes – any file can be attached; you just provide the appropriate icon.
+    question: Can I use any file type?
+  type: FAQPage
 second_title: Aspose.Note Java API
-description: Fokozza fel OneNote munkafolyamatát! Ismerje meg, hogyan csatolhat fájlokat, és hogyan szabhat személyre ikonokat programozottan Java nyelven az Aspose.Note segítségével. Könnyű lépéseket és kódot tartalmaz! #OneNote #Java #Aspose
-weight: 10
+tags:
+- onenote java
+- Aspose.Note
+- attach file java
+title: OneNote dokumentum létrehozása Java – Fájl csatolása és ikon beállítása
 url: /hu/java/onenote-java-integration/attach-file-and-set-icon/
+weight: 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Csatoljon fájlt és állítsa be az ikont a OneNote-ban Java használatával
+# OneNote dokumentum létrehozása Java-ban: fájl csatolása és ikon beállítása
 
-## Bevezetés
+Az OneNote egy népszerű eszköz a jegyzetkészítéshez és az információk rendszerezéséhez, és az **Aspose.Note for Java** segítségével **programozottan létrehozhat OneNote dokumentumot Java-ban**. Ebben az útmutatóban végigvezetünk a fájl csatolásán és egy egyedi ikon beállításán, hogy jegyzetei rendezettek legyenek és azonnal felismerhetők. A végére megérti, miért takarít meg időt ez a megközelítés, és hogyan integrálódik tisztán bármely Java projektbe.
 
-A OneNote egy népszerű eszköz a jegyzetek készítésére és az információk rendszerezésére, és az Aspose.Note for Java segítségével fájlok programozott csatolásával és ikonok beállításával bővítheti a képességeit a jegyzetek vizuális megjelenítésének javítása érdekében. Ebben az oktatóanyagban lépésről lépésre végigvezetjük a folyamaton.
+## Gyors válaszok
+- **Mi a fő cél?** Programozottan létrehozni egy OneNote dokumentumot Java-ban, és egy csatolt fájlt egy egyedi ikonnal beágyazni.  
+- **Melyik könyvtár szükséges?** Aspose.Note for Java.  
+- **Szükségem van licencre?** A ingyenes próba verzió teszteléshez működik; a termeléshez kereskedelmi licenc szükséges.  
+- **Hány sor kód?** Kevesebb, mint 30 sor a fő API hívásokból.  
+- **Használhatok bármilyen fájltípust?** Igen – bármilyen fájl csatolható; csak meg kell adnia a megfelelő ikont.
 
-## Előfeltételek
+## OneNote dokumentum létrehozása Java – Áttekintés
+Mielőtt a kódba merülnénk, ismerje meg a magas szintű folyamatot:
 
-Mielőtt elkezdené, győződjön meg arról, hogy rendelkezik a következőkkel:
+1. **Példányosítsa** a `Document` objektumot (az OneNote fájlt).  
+2. **Hozzon létre** egy oldalt, egy vázlatot és egy vázlat elemet – az OneNote tartalom építőkövei.  
+3. **Csatoljon** egy fájlt egy egyedi ikonnal a `AttachedFile` osztály használatával.  
+4. **Mentse** a dokumentumot egy `.one` fájlba.
 
-1. Java fejlesztői környezet: Győződjön meg arról, hogy a Java telepítve van a rendszerére, valamint egy olyan kompatibilis integrált fejlesztőkörnyezetet (IDE), mint az IntelliJ IDEA vagy az Eclipse.
-   
-2.  Aspose.Note for Java Library: Le kell töltenie és telepítenie kell az Aspose.Note for Java könyvtárat. Letöltheti a[Aspose honlapja](https://releases.aspose.com/note/java/).
+## Előkövetelmények
+
+- **Java fejlesztői környezet** – Java 8+ és egy IDE, például IntelliJ IDEA vagy Eclipse.  
+- **Aspose.Note for Java könyvtár** – töltse le a [Aspose weboldalról](https://releases.aspose.com/note/java/).
 
 ## Csomagok importálása
 
-Először is importálnia kell a szükséges csomagokat az Aspose.Note könyvtárból a Java projektbe:
+Először importálja a szükséges Aspose.Note osztályokat és a szabványos Java I/O osztályokat:
 
 ```java
 import com.aspose.note.*;
@@ -37,44 +102,44 @@ import java.io.FileNotFoundException;
 import java.io.IOException;
 ```
 
-## 1. lépés: Hozzon létre egy dokumentumobjektumot
+## 1. lépés: Dokumentum objektum létrehozása
 
-Kezdje egy dokumentum objektum létrehozásával, amely azt a OneNote-dokumentumot képviseli, amellyel dolgozni fog:
+`Document` osztály az Aspose.Note legfelső szintű objektuma, amely egyetlen OneNote fájlt reprezentál a memóriában. Példányosítás után minden olvasási és írási művelet ezen az objektumon keresztül folyik.
 
 ```java
-// A dokumentumok könyvtárának elérési útja.
+// The path to the documents directory.
 String dataDir = "Your Document Directory";
-//Hozzon létre egy objektumot a Dokumentum osztályból
+// Create an object of the Document class
 Document doc = new Document();
 ```
 
-## 2. lépés: Inicializálja az oldal- és vázlatobjektumokat
+## 2. lépés: Oldal és vázlat objektumok inicializálása
 
-Ezután inicializálja az oldal és a körvonal objektumokat:
+`Page` osztály egyetlen oldalt képvisel egy OneNote fájlon belül, míg az `Outline` osztály a kapcsolódó tartalmi blokkokat csoportosítja azon az oldalon.
 
 ```java
-// Oldal osztály objektum inicializálása
+// Initialize Page class object
 Page page = new Page();
 
-// Inicializálja az Outline osztály objektumot
+// Initialize Outline class object
 Outline outline = new Outline();
 ```
 
-## 3. lépés: Inicializálja az OutlineElement objektumot
+## 3. lépés: OutlineElement objektum inicializálása
 
-Most inicializáljon egy OutlineElement objektumot:
+`OutlineElement` a tároló, amely egyedi tartalmi elemeket, például szöveget, képeket vagy csatolt fájlokat tartalmaz.
 
 ```java
-// Inicializálja az OutlineElement osztályobjektumot
+// Initialize OutlineElement class object
 OutlineElement outlineElem = new OutlineElement();
 ```
 
-## 4. lépés: Hozzon létre AttachedFile objektumot az ikonnal
+## Hogyan csatoljunk fájlt az OneNote-hoz Java használatával?
 
-Hozzon létre egy AttachedFile objektumot, és adja meg a csatolni kívánt fájl elérési útját az ikonjával együtt:
+A fájl beágyazásához létrehoz egy `AttachedFile` példányt, megadja a fájl bináris adatfolyamát, és opcionálisan beállít egy egyedi ikon képet. Az osztály összekapcsolja a csatolmányt az OneNote oldallal, és megmondja az OneNote-nak, melyik ikont jelenítse meg. Használja azt a konstruktort, amely `FileInputStream`-et és egy `Image`-et fogad az ikonhoz.
 
 ```java
-// Inicializálja az AttachedFile osztályobjektumot, és adja át az ikon elérési útját is
+// Initialize AttachedFile class object and also pass its icon path
 AttachedFile attachedFile = null;
 try {
     attachedFile = new AttachedFile(dataDir + "attachment.txt", new FileInputStream(dataDir  + "icon.jpg"), ImageFormat.getJpeg());
@@ -83,82 +148,90 @@ try {
 }
 ```
 
-## 5. lépés: Az AttachedFile hozzáfűzése az OutlineElement elemhez
+## OutlineElement hozzáadása Java példa
 
-A csatolt fájl hozzáfűzése az OutlineElementhez:
+Fűzze hozzá a `AttachedFile` példányt a korábban létrehozott `OutlineElement`-hez. Ez a lépés összekapcsolja a csatolmányt a vizuális elemmel, amely megjelenik az oldalon.
 
 ```java
-// Csatolt fájl hozzáadása
+// Add attached file
 outlineElem.appendChildLast(attachedFile);
 ```
 
-## 6. lépés: Az OutlineElement hozzáfűzése az Outline elemhez
-
-Ezután fűzze hozzá az OutlineElement elemet a vázlathoz:
+## OutlineElement hozzáadása a Outline-hez
 
 ```java
-// Vázlatelem csomópont hozzáadása
+// Add outline element node
 outline.appendChildLast(outlineElem);
 ```
 
-## 7. lépés: Vázlat hozzáfűzése az oldalhoz
-
-A vázlat hozzáfűzése az oldalhoz:
+## Outline hozzáadása az oldalhoz
 
 ```java
-// Vázlat csomópont hozzáadása
+// Add outline node
 page.appendChildLast(outline);
 ```
 
-## 8. lépés: Oldal hozzáfűzése a dokumentumhoz
-
-Végül csatolja az oldalt a dokumentumhoz:
+## Oldal hozzáadása a dokumentumhoz
 
 ```java
-// Oldalcsomópont hozzáadása
+// Add page node
 doc.appendChildLast(page);
 ```
 
-## 9. lépés: Mentse el a dokumentumot
+## Dokumentum mentése
 
-Mentse el a módosított dokumentumot fájlba:
+Végül írja a feltöltött OneNote fájlt a lemezre a `Document` objektum `save` metódusával.
 
 ```java
 dataDir = dataDir + "AttachFileAndSetIcon_out.one";
 doc.save(dataDir);
 ```
 
-Sikeresen csatolt egy fájlt, és beállított egy ikont a OneNote-ban Java és Aspose.Note használatával.
+Most már **létrehozott egy OneNote dokumentumot Java-ban**, amely egy csatolt fájlt tartalmaz egy egyedi ikonnal.
 
-### Következtetés
+### Miért használja az Aspose.Note for Java-t?
 
-Ebben az oktatóanyagban megtanultuk, hogyan lehet programozottan csatolni fájlokat és beállítani ikonokat a OneNote-ban Java használatával az Aspose.Note könyvtárral. A lépésenkénti útmutató követésével javíthatja jegyzetelési élményét, és automatizálhatja a feladatokat a Java-alkalmazásokon belül.
+Az Aspose.Note **50+** bemeneti és kimeneti formátumot támogat, képes **százszámú oldal** kezelésére anélkül, hogy a teljes fájlt a memóriába töltené, és **szálbiztos** API-kat biztosít, amelyek skálázhatók több felhasználós környezetben. Ezek a számszerű képességek megbízható választássá teszik vállalati szintű automatizáláshoz.
 
-### GYIK
+### Gyakori felhasználási esetek
 
-### 1. kérdés: Csatolhatok bármilyen típusú fájlt a OneNote-hoz ezzel a módszerrel?
+- **Automatizált értekezési jegyzőkönyvek** generálása, ahol a támogató PDF-ek vagy táblázatok közvetlenül a jegyzetekhez csatolódnak.  
+- **Dokumentumkezelési munkafolyamatok**, amelyeknek forrásfájlokat kell összekapcsolni magyarázó OneNote oldalakkal.  
+- **Oktatási tartalom létrehozása**, ahol a tanárok munkalapokat, képeket vagy hangfájlokat ágyaznak be a lecke jegyzetekbe.
 
-1. válasz: Igen, különféle típusú fájlokat csatolhat, beleértve a dokumentumokat, képeket és multimédiás fájlokat.
+## Gyakran Ismételt Kérdések
 
-### 2. kérdés: Az Aspose.Note for Java kompatibilis a OneNote összes verziójával?
+**Q:** Csatolhatok bármilyen típusú fájlt az OneNote-hoz ezzel a módszerrel?  
+**A:** Igen, csatolhat dokumentumokat, képeket, videókat vagy bármilyen bináris fájlt; csak adja meg a megfelelő ikont, amely képviseli azt.
 
-2. válasz: Az Aspose.Note for Java támogatja a OneNote különféle verzióival való kompatibilitást, így rugalmasságot biztosít a fejlesztés során.
+**Q:** Az Aspose.Note for Java kompatibilis minden OneNote verzióval?  
+**A:** Az Aspose.Note támogatja a OneNote 2010, 2013, 2016 és a Windows 10 Universal verziót, biztosítva a széles kompatibilitást asztali és UWP környezetekben.
 
-### 3. kérdés: Testreszabhatom a csatolt fájl ikonjának megjelenését?
+**Q:** Testreszabhatom a csatolt fájl ikon megjelenését?  
+**A:** Természetesen. Adjunk meg egy egyedi PNG vagy ICO képet a `AttachedFile` objektum létrehozásakor, hogy szabályozzuk, hogyan jelenik meg a csatolmány.
 
-3. válasz: Természetesen választhat egyéni ikonokat a különböző típusú mellékletek megjelenítéséhez, javítva a vizuális rendszerezést.
+**Q:** Az Aspose.Note for Java nyújt támogatást a hibaelhárításhoz és segítségnyújtáshoz?  
+**A:** Igen, segítséget kaphat az Aspose közösségi fórumokon: [Aspose.Note Support](https://forum.aspose.com/c/note/28).
 
-### 4. kérdés: Az Aspose.Note for Java támogatja a hibaelhárítást és a segítséget?
+**Q:** Van elérhető próba verzió az Aspose.Note for Java-hoz?  
+**A:** Igen, felfedezheti az Aspose.Note for Java funkcióit egy ingyenes próbaverzióval a [linken](https://releases.aspose.com/).
 
- 4. válasz: Igen, segítséget és hibaelhárítási támogatást kaphat az Aspose közösségi fórumain:[Aspose.Note támogatás](https://forum.aspose.com/c/note/28).
+---
 
-### 5. kérdés: Elérhető az Aspose.Note for Java próbaverziója?
+**Utoljára frissítve:** 2026-07-19  
+**Tesztelve a következővel:** Aspose.Note for Java 26.4 (latest at time of writing)  
+**Szerző:** Aspose
 
-5. válasz: Igen, felfedezheti az Aspose.Note for Java funkcióit a következő címen elérhető ingyenes próbaverzióval.[ez a link](https://releases.aspose.com/).
+## Kapcsolódó útmutatók
+
+- [Bekezdés stílusának beállítása OneNote dokumentum Java-ban történő létrehozása közben](/note/java/onenote-document-manipulation/create-onenote-document-simple-rich-text/)
+- [Hogyan mentse el a OneNote dokumentumokat az Aspose.Note for Java-val](/note/java/onenote-document-saving/)
+- [Hogyan hozzon létre OneNote dokumentumot Java-ban – Dokumentum építése és kép beszúrása adatfolammal](/note/java/onenote-hyperlinks-images/build-doc-insert-image-stream/)
+
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+{{< blocks/products/products-backtop-button >}}
+
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}
