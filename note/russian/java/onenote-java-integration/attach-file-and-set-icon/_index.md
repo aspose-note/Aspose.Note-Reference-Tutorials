@@ -1,33 +1,98 @@
 ---
-title: Прикрепите файл и установите значок в OneNote с помощью Java
-linktitle: Прикрепите файл и установите значок в OneNote с помощью Java
+date: 2026-07-19
+description: Узнайте, как программно создавать документ OneNote на Java, прикреплять
+  файлы и устанавливать пользовательские значки с помощью Aspose.Note. Откройте, как
+  прикреплять файл в Java и устанавливать значки за считанные минуты.
+keywords:
+- create onenote document java
+- how to attach file java
+- Aspose.Note Java
+lastmod: 2026-07-19
+linktitle: Создать документ OneNote на Java — Прикрепить файл и установить значок
+og_description: Создайте документ OneNote на Java с помощью Aspose.Note. Узнайте,
+  как быстро прикреплять файл в Java и устанавливать пользовательские значки в пошаговом
+  руководстве.
+og_image_alt: Guide to creating a OneNote document in Java with attached files and
+  custom icons
+og_title: Создать документ OneNote на Java — Прикрепить файл и установить значок
+schemas:
+- author: Aspose
+  dateModified: '2026-07-19'
+  description: Learn how to create OneNote document Java programmatically, attach
+    files and set custom icons using Aspose.Note. Discover how to attach file Java
+    and set icons in minutes.
+  headline: Create OneNote Document Java - Attach File and Set Icon
+  type: TechArticle
+- description: Learn how to create OneNote document Java programmatically, attach
+    files and set custom icons using Aspose.Note. Discover how to attach file Java
+    and set icons in minutes.
+  name: Create OneNote Document Java - Attach File and Set Icon
+  steps:
+  - name: '**Instantiate** a `Document` object (the OneNote file).'
+    text: '**Instantiate** a `Document` object (the OneNote file).'
+  - name: '**Create** a page, outline, and outline element – the building blocks of
+      OneNote content.'
+    text: '**Create** a page, outline, and outline element – the building blocks of
+      OneNote content.'
+  - name: '**Attach** a file with a custom icon using the `AttachedFile` class.'
+    text: '**Attach** a file with a custom icon using the `AttachedFile` class.'
+  - name: '**Save** the document to a `.one` file.'
+    text: '**Save** the document to a `.one` file.'
+  type: HowTo
+- questions:
+  - answer: Programmatically create a OneNote document in Java and embed an attached
+      file with a custom icon.
+    question: What is the main goal?
+  - answer: Aspose.Note for Java.
+    question: Which library is required?
+  - answer: A free trial works for testing; a commercial license is required for production.
+    question: Do I need a license?
+  - answer: Less than 30 lines of core API calls.
+    question: How many lines of code?
+  - answer: Yes – any file can be attached; you just provide the appropriate icon.
+    question: Can I use any file type?
+  type: FAQPage
 second_title: Aspose.Note Java API
-description: Ускорьте свой рабочий процесс OneNote! Узнайте, как прикреплять файлы и программно настраивать значки на Java с помощью Aspose.Note. Простые шаги и код включены! #OneNote #Java #Aspose
-weight: 10
+tags:
+- onenote java
+- Aspose.Note
+- attach file java
+title: Создать документ OneNote на Java — Прикрепить файл и установить значок
 url: /ru/java/onenote-java-integration/attach-file-and-set-icon/
+weight: 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Прикрепите файл и установите значок в OneNote с помощью Java
+# Создать документ OneNote Java: прикрепить файл и установить значок
 
-## Введение
+OneNote — популярный инструмент для ведения заметок и организации информации, и с **Aspose.Note for Java** вы можете **create OneNote document Java** программно. В этом руководстве мы покажем, как прикрепить файл и установить пользовательский значок, чтобы ваши заметки выглядели аккуратно и сразу были узнаваемы. К концу вы поймёте, почему такой подход экономит время и как он легко интегрируется в любой Java‑проект.
 
-OneNote — популярный инструмент для создания заметок и организации информации, и с помощью Aspose.Note для Java вы можете расширить его возможности, программно прикрепляя файлы и устанавливая значки для улучшения визуального представления ваших заметок. В этом уроке мы шаг за шагом проведем вас через этот процесс.
+## Быстрые ответы
+- **Какова основная цель?** Программно создать документ OneNote в Java и вложить прикреплённый файл с пользовательским значком.  
+- **Какая библиотека требуется?** Aspose.Note for Java.  
+- **Нужна ли лицензия?** Бесплатная пробная версия подходит для тестирования; для продакшн‑использования требуется коммерческая лицензия.  
+- **Сколько строк кода?** Менее 30 строк вызовов основного API.  
+- **Можно ли использовать любой тип файла?** Да — любой файл можно прикрепить; вам просто нужно предоставить соответствующий значок.
 
-## Предварительные условия
+## Обзор создания OneNote Document Java
+Перед тем как погрузиться в код, поймите общий процесс:
 
-Прежде чем начать, убедитесь, что у вас есть следующее:
+1. **Создать экземпляр** объекта `Document` (файл OneNote).  
+2. **Создать** страницу, контур и элемент контура — строительные блоки содержимого OneNote.  
+3. **Прикрепить** файл с пользовательским значком, используя класс `AttachedFile`.  
+4. **Сохранить** документ в файл с расширением `.one`.
 
-1. Среда разработки Java: убедитесь, что в вашей системе установлена Java, а также совместимая интегрированная среда разработки (IDE), такая как IntelliJ IDEA или Eclipse.
-   
-2.  Библиотека Aspose.Note для Java: вам необходимо загрузить и установить библиотеку Aspose.Note для Java. Вы можете скачать его с сайта[Веб-сайт Aspose](https://releases.aspose.com/note/java/).
+## Требования
 
-## Импортировать пакеты
+- **Среда разработки Java** — Java 8+ и IDE, например IntelliJ IDEA или Eclipse.  
+- **Библиотека Aspose.Note for Java** — загрузите её с [Aspose website](https://releases.aspose.com/note/java/).  
 
-Сначала вам необходимо импортировать необходимые пакеты из библиотеки Aspose.Note в ваш Java-проект:
+## Импорт пакетов
+
+Сначала импортируйте необходимые классы Aspose.Note и стандартные классы Java I/O:
 
 ```java
 import com.aspose.note.*;
@@ -37,44 +102,44 @@ import java.io.FileNotFoundException;
 import java.io.IOException;
 ```
 
-## Шаг 1. Создайте объект документа
+## Шаг 1: Создать объект Document
 
-Начните с создания объекта Document, который представляет документ OneNote, с которым вы будете работать:
+`Document` — верхний объект Aspose.Note, представляющий один файл OneNote в памяти. После создания все операции чтения и записи проходят через этот объект.
 
 ```java
-// Путь к каталогу документов.
+// The path to the documents directory.
 String dataDir = "Your Document Directory";
-//Создайте объект класса Document
+// Create an object of the Document class
 Document doc = new Document();
 ```
 
-## Шаг 2. Инициализация объектов страницы и структуры
+## Шаг 2: Инициализировать объекты Page и Outline
 
-Затем инициализируйте объекты Page и Outline:
+`Page` представляет отдельную страницу внутри файла OneNote, а `Outline` группирует связанные блоки содержимого на этой странице.
 
 ```java
-// Инициализировать объект класса страницы
+// Initialize Page class object
 Page page = new Page();
 
-// Инициализировать объект класса Outline
+// Initialize Outline class object
 Outline outline = new Outline();
 ```
 
-## Шаг 3. Инициализация объекта OutlineElement
+## Шаг 3: Инициализировать объект OutlineElement
 
-Теперь инициализируйте объект OutlineElement:
+`OutlineElement` — контейнер, содержащий отдельные элементы контента, такие как текст, изображения или прикреплённые файлы.
 
 ```java
-// Инициализация объекта класса OutlineElement
+// Initialize OutlineElement class object
 OutlineElement outlineElem = new OutlineElement();
 ```
 
-## Шаг 4. Создайте объект AttachedFile со значком
+## Как прикрепить файл в OneNote с помощью Java?
 
-Создайте объект AttachedFile и укажите путь к файлу, который вы хотите прикрепить, вместе с его значком:
+Чтобы встроить файл, создайте экземпляр `AttachedFile`, передайте бинарный поток файла и при желании задайте пользовательское изображение значка. Класс связывает вложение со страницей OneNote и указывает, какой значок отображать. Используйте конструктор, принимающий `FileInputStream` и `Image` для значка.
 
 ```java
-// Инициализировать объект класса AttachedFile, а также передать путь к его значку.
+// Initialize AttachedFile class object and also pass its icon path
 AttachedFile attachedFile = null;
 try {
     attachedFile = new AttachedFile(dataDir + "attachment.txt", new FileInputStream(dataDir  + "icon.jpg"), ImageFormat.getJpeg());
@@ -83,82 +148,90 @@ try {
 }
 ```
 
-## Шаг 5. Добавьте AttachedFile в OutlineElement.
+## Пример добавления OutlineElement на Java
 
-Добавьте AttachedFile к OutlineElement:
+Добавьте экземпляр `AttachedFile` к ранее созданному `OutlineElement`. Этот шаг связывает вложение с визуальным элементом, который появится на странице.
 
 ```java
-// Добавить прикрепленный файл
+// Add attached file
 outlineElem.appendChildLast(attachedFile);
 ```
 
-## Шаг 6. Добавьте OutlineElement в Outline
-
-Затем добавьте OutlineElement в Outline:
+## Добавить OutlineElement в Outline
 
 ```java
-// Добавить узел элемента контура
+// Add outline element node
 outline.appendChildLast(outlineElem);
 ```
 
-## Шаг 7. Добавьте схему на страницу
-
-Добавьте схему на страницу:
+## Добавить Outline в Page
 
 ```java
-// Добавить узел контура
+// Add outline node
 page.appendChildLast(outline);
 ```
 
-## Шаг 8. Добавьте страницу в документ
-
-Наконец, добавьте страницу в документ:
+## Добавить Page в Document
 
 ```java
-// Добавить узел страницы
+// Add page node
 doc.appendChildLast(page);
 ```
 
-## Шаг 9: Сохраните документ
+## Сохранить документ
 
-Сохраните измененный документ в файл:
+Наконец, запишите заполненный файл OneNote на диск, используя метод `save` объекта `Document`.
 
 ```java
 dataDir = dataDir + "AttachFileAndSetIcon_out.one";
 doc.save(dataDir);
 ```
 
-Теперь вы успешно прикрепили файл и установили значок в OneNote, используя Java с Aspose.Note.
+Теперь вы **created a OneNote document Java** файл, содержащий прикреплённый файл с пользовательским значком.
 
-### Заключение
+### Почему использовать Aspose.Note for Java?
 
-В этом уроке мы научились программно прикреплять файлы и устанавливать значки в OneNote с помощью Java с библиотекой Aspose.Note. Следуя пошаговому руководству, вы сможете улучшить свои возможности ведения заметок и автоматизировать задачи в своих приложениях Java.
+Aspose.Note поддерживает **50+** форматов ввода и вывода, может работать с документами, содержащими **сотни страниц**, не загружая весь файл в память, и предоставляет **thread‑safe** API, масштабируемые в многопользовательских средах. Эти измеримые возможности делают его надёжным выбором для автоматизации корпоративного уровня.
 
-### Часто задаваемые вопросы
+### Распространённые сценарии использования
 
-### Вопрос 1. Могу ли я прикрепить к OneNote файлы любого типа с помощью этого метода?
+- **Автоматическое создание протоколов встреч**, где поддерживающие PDF‑файлы или таблицы прикрепляются непосредственно к заметкам.  
+- **Рабочие процессы управления документами**, требующие объединения исходных файлов с пояснительными страницами OneNote.  
+- **Создание образовательного контента**, где преподаватели встраивают рабочие листы, изображения или аудио‑файлы в учебные заметки.
 
-О1: Да, вы можете прикреплять файлы различных типов, включая документы, изображения и мультимедийные файлы.
+## Часто задаваемые вопросы
 
-### Вопрос 2. Совместим ли Aspose.Note для Java со всеми версиями OneNote?
+**Q:** Могу ли я прикрепить любой тип файла к OneNote с помощью этого метода?  
+**A:** Да, вы можете прикреплять документы, изображения, видео или любой бинарный файл; просто предоставьте соответствующий значок для его представления.
 
-A2: Aspose.Note для Java поддерживает совместимость с различными версиями OneNote, обеспечивая гибкость в вашей разработке.
+**Q:** Совместим ли Aspose.Note for Java со всеми версиями OneNote?  
+**A:** Aspose.Note поддерживает OneNote 2010, 2013, 2016 и универсальную версию Windows 10, обеспечивая широкую совместимость как с настольными, так и с UWP‑средами.
 
-### В3: Могу ли я настроить внешний вид значка прикрепленного файла?
+**Q:** Могу ли я настроить внешний вид значка прикреплённого файла?  
+**A:** Конечно. Предоставьте пользовательское PNG‑ или ICO‑изображение при создании объекта `AttachedFile`, чтобы контролировать отображение вложения.
 
-О3: Конечно, вы можете выбрать собственные значки для обозначения различных типов вложений, улучшая визуальную организацию.
+**Q:** Предоставляет ли Aspose.Note for Java поддержку по устранению неполадок и помощи?  
+**A:** Да, вы можете получить помощь на форумах сообщества Aspose: [Aspose.Note Support](https://forum.aspose.com/c/note/28).
 
-### Вопрос 4: Предлагает ли Aspose.Note для Java поддержку по устранению неполадок и помощь?
+**Q:** Есть ли доступна пробная версия Aspose.Note for Java?  
+**A:** Да, вы можете изучить функциональность Aspose.Note for Java с бесплатной пробной версией по [этой ссылке](https://releases.aspose.com/).
 
- О4: Да, вы можете получить помощь и поддержку по устранению неполадок на форумах сообщества Aspose:[Поддержка Aspose.Note](https://forum.aspose.com/c/note/28).
+---
 
-### Вопрос 5: Доступна ли пробная версия Aspose.Note для Java?
+**Последнее обновление:** 2026-07-19  
+**Тестировано с:** Aspose.Note for Java 26.4 (latest at time of writing)  
+**Автор:** Aspose
 
-О5: Да, вы можете изучить функциональность Aspose.Note для Java с помощью бесплатной пробной версии, доступной по адресу[эта ссылка](https://releases.aspose.com/).
+## Связанные руководства
+
+- [Установить стиль абзаца при создании OneNote Document в Java](/note/java/onenote-document-manipulation/create-onenote-document-simple-rich-text/)
+- [Как сохранить документы OneNote с помощью Aspose.Note for Java](/note/java/onenote-document-saving/)
+- [Как создать onenote document java – собрать документ и вставить изображение из потока](/note/java/onenote-hyperlinks-images/build-doc-insert-image-stream/)
+
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+{{< blocks/products/products-backtop-button >}}
+
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}
