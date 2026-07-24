@@ -45,32 +45,33 @@ Each guide is self‑contained, includes ready‑to‑run sample code, and expla
 Below is a quick overview of the three tutorials you’ll explore. Click any link to dive into the detailed, step‑by‑step implementation.
 
 ### Using Document Visitor in OneNote with Java
-Navigate the intricate world of OneNote document manipulation by harnessing the power of the [Document Visitor](./using-document-visitor/) in Java. Aspose.Note simplifies the traversal and manipulation of OneNote documents, offering seamless integration for developers. Follow our comprehensive guide to efficiently utilize the Document Visitor, ensuring a smooth and effective workflow. 
+Navigate the intricate world of OneNote document manipulation by harnessing the power of the [Document Visitor]({{< relref "using-document-visitor/_index.md" >}}) in Java. Aspose.Note simplifies the traversal and manipulation of OneNote documents, offering seamless integration for developers. Follow our comprehensive guide to efficiently utilize the Document Visitor, ensuring a smooth and effective workflow. 
 
 ### Create OneNote Document with Formatted Rich Text in Java
-Unlock the potential of Aspose.Note for Java to programmatically create [richly formatted OneNote documents](./create-onenote-document-formatted-rich-text/). Our step‑by‑step tutorial empowers you to leverage the library's capabilities, enabling the creation of visually appealing and structured documents. Dive into the world of formatted rich text and elevate your Java applications with automated document creation.
+Unlock the potential of Aspose.Note for Java to programmatically create [richly formatted OneNote documents]({{< relref "create-onenote-document-formatted-rich-text/_index.md" >}}). Our step‑by‑step tutorial empowers you to leverage the library's capabilities, enabling the creation of visually appealing and structured documents. Dive into the world of formatted rich text and elevate your Java applications with automated document creation.
 
 ### Create OneNote Document with Simple Rich Text in Java
-Simplify document management in Java applications with Aspose.Note. Learn how to create [OneNote documents with simple rich text](./create-onenote-document-simple-rich-text/) effortlessly. Our tutorial guides you through the process, ensuring a seamless integration of this functionality into your Java projects. Enhance your document creation process with simplicity and efficiency. 
+Simplify document management in Java applications with Aspose.Note. Learn how to create [OneNote documents with simple rich text]({{< relref "create-onenote-document-simple-rich-text/_index.md" >}}) effortlessly. Our tutorial guides you through the process, ensuring a seamless integration of this functionality into your Java projects. Enhance your document creation process with simplicity and efficiency. 
 
 Embrace the power of Aspose.Note for Java to streamline your OneNote document manipulation tasks. Whether you're exploring the intricacies of Document Visitor or aiming for richly formatted or simple rich text, our tutorials provide a holistic guide to elevate your Java development experience. Harness the potential of Aspose.Note and unlock new possibilities in OneNote document automation.
 
 ## OneNote Document Manipulation Tutorials
-### [Using Document Visitor in OneNote with Java](./using-document-visitor/)
+### [Using Document Visitor in OneNote with Java]({{< relref "using-document-visitor/_index.md" >}})
 Learn how to utilize the Document Visitor in OneNote using Java with Aspose.Note. Traverse and manipulate OneNote documents seamlessly.
 
-### [Create OneNote Document with Formatted Rich Text in Java](./create-onenote-document-formatted-rich-text/)
+### [Create OneNote Document with Formatted Rich Text in Java]({{< relref "create-onenote-document-formatted-rich-text/_index.md" >}})
 Learn how to create richly formatted OneNote documents programmatically in Java using Aspose.Note for Java. Follow our step‑by‑step guide for seamless document automation.
 
-### [Create OneNote Document with Simple Rich Text in Java](./create-onenote-document-simple-rich-text/)
+### [Create OneNote Document with Simple Rich Text in Java]({{< relref "create-onenote-document-simple-rich-text/_index.md" >}})
 Learn how to create OneNote documents with simple rich text using Aspose.Note for Java. Seamlessly integrate this functionality into your Java applications for efficient document management.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+{{< blocks/products/products-backtop-button >}}
+{{< /blocks/products/products-backtop-button >}}
+
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}
 
 ## Frequently Asked Questions
 
@@ -94,3 +95,20 @@ A: Visit the official Aspose.Note for Java API documentation on the Aspose websi
 **Last Updated:** 2026-02-15  
 **Tested With:** Aspose.Note for Java 23.12 (latest at time of writing)  
 **Author:** Aspose
+
+```java
+// Create a new OneNote document
+Document doc = new Document();
+Section section = new Section(doc);
+doc.getSections().add(section);
+Page page = new Page(section);
+doc.getPages().add(page);
+
+// Add simple rich text
+RichTextParagraph paragraph = new RichTextParagraph(page);
+paragraph.getParagraphElements().add(new RichText(doc, "Hello, OneNote!"));
+page.getRichTextParagraphs().add(paragraph);
+
+// Save the document
+doc.save("output.one");
+```

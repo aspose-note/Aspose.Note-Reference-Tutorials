@@ -1,8 +1,8 @@
 ---
-title: Load OneNote File Java: How to Load OneNote File with Java
+title: "Load OneNote File with Java: Use Aspose.Note to Load OneNote Documents"
 linktitle: Load OneNote Document - Java
 second_title: Aspose.Note Java API
-description: Learn how to load onenote file java using Aspose.Note for Java. This step‑by‑step guide shows effortless loading of OneNote files.
+description: Learn how to quickly load OneNote files with Java using Aspose.Note for Java. This step‑by‑step guide shows effortless loading of OneNote files.
 weight: 25
 url: /java/onenote-document-loading/load-onenote-document/
 date: 2026-02-15
@@ -111,7 +111,7 @@ A: Request a temporary evaluation license from [here](https://purchase.aspose.co
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+{{< blocks/products/products-backtop-button >}}
+
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}
