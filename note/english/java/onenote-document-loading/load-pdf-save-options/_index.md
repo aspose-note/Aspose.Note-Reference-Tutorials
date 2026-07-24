@@ -1,10 +1,10 @@
 ---
-title: Convert OneNote to PDF with Aspose.Note using PdfSaveOptions
-linktitle: Load OneNote Document into Aspose.Note using PdfSaveOptions
-second_title: Aspose.Note Java API
-description: Learn how to convert OneNote to PDF and save OneNote as PDF using Aspose.Note for Java. Simplify your document conversion tasks with PdfSaveOptions.
+title: "Learn to Convert OneNote to PDF with Aspose.Note using PdfSaveOptions"
+linktitle: "Load OneNote Document into Aspose.Note using PdfSaveOptions"
+second_title: "Aspose.Note Java API"
+description: "Learn how to convert OneNote to PDF and save OneNote as PDF using Aspose.Note for Java. Simplify your document conversion tasks with PdfSaveOptions."
 weight: 23
-url: /java/onenote-document-loading/load-pdf-save-options/
+url: "/java/onenote-document-loading/load-pdf-save-options/"
 date: 2026-02-15
 ---
 
@@ -119,8 +119,6 @@ A: The Aspose community forum is a great place to ask questions: [support forum]
 **Author:** Aspose  
 
 {{< /blocks/products/pf/tutorial-page-section >}}
-
+{{< blocks/products/products-backtop-button >}}
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}
