@@ -1,11 +1,92 @@
 ---
-date: 2025-12-25
-description: Pelajari cara menambahkan lampiran ke OneNote menggunakan Java dan Aspose.Note.
-  Panduan langkah demi langkah menampilkan kode Java untuk melampirkan file melalui
-  jalur dan cara menyimpan OneNote dengan lampiran.
-linktitle: Attach File by Path in OneNote with Java
+date: 2026-07-24
+description: Pelajari cara menempelkan file ke OneNote menggunakan Java dan Aspose.Note.
+  Tutorial langkah‑demi‑langkah ini menampilkan kode Java untuk menempelkan file berdasarkan
+  jalur dan menyimpan notebook OneNote dengan lampiran.
+keywords:
+- how to attach onenote
+- java create onenote file
+- Aspose.Note attachment
+lastmod: 2026-07-24
+linktitle: Menempelkan File dengan Jalur di OneNote menggunakan Java
+og_description: Cara menempelkan file OneNote secara programatis dengan Java. Pelajari
+  cara menambahkan lampiran, menyimpan notebook, dan mengotomatiskan OneNote menggunakan
+  Aspose.Note dalam hitungan menit.
+og_image_alt: Developer guide showing Java code that attaches a file to a OneNote
+  page with Aspose.Note
+og_title: Cara Menempelkan OneNote dengan Jalur Menggunakan Java – Tutorial Lengkap
+schemas:
+- author: Aspose
+  dateModified: '2026-07-24'
+  description: Learn how to attach files to OneNote using Java and Aspose.Note. This
+    step‑by‑step tutorial shows Java code to attach a file by path and save the OneNote
+    notebook with the attachment.
+  headline: How to Attach Onenote by Path Using Java – Step‑by‑Step Guide
+  type: TechArticle
+- description: Learn how to attach files to OneNote using Java and Aspose.Note. This
+    step‑by‑step tutorial shows Java code to attach a file by path and save the OneNote
+    notebook with the attachment.
+  name: How to Attach Onenote by Path Using Java – Step‑by‑Step Guide
+  steps:
+  - name: Import Packages
+    text: The `Document`, `Page`, `Outline`, `OutlineElement`, and `AttachedFile`
+      classes are required. `Document` represents a notebook, `Page` a notebook page,
+      `Outline` a container for elements, `OutlineElement` an individual element,
+      and `AttachedFile` the embedded file. Import them at the top of your Jav
+  - name: Set Up Document Directory
+    text: 'Define the folder where the new OneNote file will be saved. Use an absolute
+      path to avoid ambiguity: > **Pro tip:** End the path with a separator (`/` or
+      `\`) so you can safely concatenate file names later.'
+  - name: Create Document Object
+    text: 'The `Document` class is Aspose.Note''s top‑level object that represents
+      a single OneNote notebook in memory. Instantiating it gives you a fresh notebook
+      to work with:'
+  - name: Initialize Page and Outline Objects
+    text: 'A OneNote page contains an `Outline` which in turn holds `OutlineElement`
+      objects. Create these containers before adding content:'
+  - name: Initialize AttachedFile Object
+    text: 'The `AttachedFile` class represents the file you want to embed. Pass the
+      full file path to its constructor: Replace `"attachment.txt"` with the actual
+      file name you wish to attach.'
+  - name: Add Attached File to Outline Element
+    text: 'Link the `AttachedFile` to the `OutlineElement` so the attachment appears
+      on the page:'
+  - name: Add Outline Element to Outline
+    text: 'Insert the element that now contains the attachment into the outline container:'
+  - name: Add Outline to Page
+    text: 'Place the fully prepared outline onto the page:'
+  - name: Add Page to Document
+    text: 'Add the completed page to the notebook document:'
+  - name: Save Document (save onenote with attachment)
+    text: 'Finally, write the notebook to disk. The file will be a standard `.one`
+      file that any modern OneNote client can open: The resulting `AttachFileByPath_out.one`
+      file now contains the embedded attachment and can be opened in OneNote for Windows,
+      OneNote for the web, or OneNote for macOS.'
+  type: HowTo
+- questions:
+  - answer: Yes, the generated `.one` file is fully compatible with OneNote for Windows
+      10, Windows 11, the web version, and the macOS client.
+    question: Does this approach work with OneNote for Windows 10?
+  - answer: Download the file to a local temporary folder first, then use the same
+      `AttachedFile` constructor with the local path.
+    question: How can I attach a file from a remote URL?
+  - answer: No. Aspose.Note internally manages file streams for the `AttachedFile`
+      object, so explicit closing is unnecessary.
+    question: Do I need to close any streams manually?
+  - answer: Yes. Use the `AttachedFile(String displayName, String filePath)` constructor
+      to specify a friendly name that appears in OneNote.
+    question: Can I set a custom display name for the attachment?
+  - answer: A valid Aspose.Note license is required for production deployments; a
+      free trial is available for evaluation and testing.
+    question: Is a license required for production use?
+  type: FAQPage
 second_title: Aspose.Note Java API
-title: Cara Menambahkan Lampiran di OneNote dengan Java
+tags:
+- onenote attachment
+- Aspose.Note
+- java onenote integration
+- document automation
+title: Cara Menempelkan OneNote dengan Jalur Menggunakan Java – Panduan Langkah‑demi‑Langkah
 url: /id/java/onenote-java-integration/attach-file-by-path/
 weight: 11
 ---
@@ -14,164 +95,205 @@ weight: 11
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Lampirkan File dengan Path di OneNote menggunakan Java
+# Cara Menyisipkan OneNote dengan Path Menggunakan Java
 
 ## Pendahuluan
 
-Dalam panduan ini, Anda akan mempelajari **cara menambahkan lampiran** ke catatan OneNote secara programatis menggunakan Java dan Aspose.Note. OneNote adalah alat serbaguna untuk mengatur informasi, dan dengan menggunakan API Aspose.Note untuk Java Anda dapat memperkaya notebook Anda dengan file seperti PDF, gambar, atau dokumen teks. Kami akan membimbing Anda melalui setiap langkah, mulai dari menyiapkan lingkungan hingga menyimpan file OneNote dengan dokumen yang dilampirkan.
+Dalam panduan komprehensif ini Anda akan menemukan **cara menyisipkan onenote** halaman dengan file eksternal menggunakan Java dan API Aspose.Note untuk Java. OneNote adalah buku catatan digital yang kuat, dan menyematkan PDF, gambar, atau file teks langsung ke dalam halaman menjaga informasi terkait tetap bersama dan meningkatkan kolaborasi. Kami akan memandu Anda melalui setiap prasyarat, menunjukkan pernyataan Java yang tepat yang Anda perlukan, dan menjelaskan mengapa pendekatan ini ideal untuk mengotomatisasi pembuatan laporan, notulen rapat, atau pengarsipan dokumen hukum.
 
 ## Jawaban Cepat
-- **Apa perpustakaan utama?** Aspose.Note untuk Java  
-- **Kata kunci apa yang ditargetkan tutorial ini?** how to add attachment  
-- **Apakah saya memerlukan lisensi?** Versi percobaan gratis dapat digunakan untuk evaluasi; lisensi diperlukan untuk produksi.  
-- **Apakah saya dapat melampirkan jenis file apa pun?** Ya – file teks, gambar, PDF, dll. (java code attach file)  
-- **Berapa lama implementasinya?** Sekitar 10‑15 menit untuk lampiran dasar.
+- **Perpustakaan apa yang menangani lampiran?** Aspose.Note for Java  
+- **Frasa utama apa yang menjadi target tutorial ini?** cara menyisipkan onenote  
+- **Apakah lisensi wajib?** Versi percobaan gratis dapat digunakan untuk evaluasi; lisensi komersial diperlukan untuk produksi.  
+- **Apakah semua jenis file dapat dilampirkan?** Ya – teks, gambar, PDF, dan sebagian besar format kantor umum (java code attach file)  
+- **Waktu implementasi tipikal?** Sekitar 10‑15 menit untuk lampiran file‑by‑path dasar.
 
-## Apa itu “how to add attachment” di OneNote?
-Menambahkan lampiran berarti menyematkan file eksternal di dalam halaman OneNote sehingga pembaca dapat membuka atau mengunduhnya langsung dari catatan. Kemampuan ini penting ketika Anda ingin menyimpan dokumen terkait bersama catatan Anda.
+## Apa itu “cara menyisipkan onenote” di OneNote?
 
-## Mengapa melampirkan file secara programatis?
-- **Otomatisasi:** Mengurangi langkah manual saat menghasilkan laporan atau notulen rapat.  
-- **Konsistensi:** Memastikan setiap notebook yang dihasilkan mengikuti struktur yang sama.  
-- **Skalabilitas:** Melampirkan puluhan file dalam sebuah loop (programmatically attach file) tanpa pekerjaan UI yang berulang.
+**Cara menyisipkan onenote** berarti menyematkan file eksternal ke dalam halaman OneNote sehingga pembaca dapat membuka atau mengunduhnya langsung dari catatan. Fitur ini memungkinkan Anda menyimpan dokumen pendukung, skema, atau kontrak bersama catatan tulisan tangan atau ketik Anda, menghilangkan kebutuhan mengelola file terpisah.
+
+## Mengapa menyisipkan file secara programatik?
+
+Menyematkan file secara otomatis menghilangkan langkah manual, menjamin struktur notebook yang konsisten, dan dapat diskalakan ke ribuan halaman tanpa kesalahan manusia. Dalam skenario pelaporan berskala besar, Anda dapat melampirkan puluhan PDF dalam sebuah loop, memastikan setiap notebook yang dihasilkan lengkap dan siap didistribusikan.
 
 ## Prasyarat
 
-Sebelum memulai, pastikan Anda memiliki:
+Sebelum Anda memulai, pastikan Anda memiliki:
 
 1. **Java Development Kit (JDK)** – unduh dari [situs Java](https://www.oracle.com/java/).  
-2. **Aspose.Note untuk Java** – dapatkan perpustakaan terbaru dari [halaman unduhan](https://releases.aspose.com/note/java/).  
+2. **Aspose.Note for Java** – dapatkan JAR terbaru dari [halaman unduhan](https://releases.aspose.com/note/java/).  
 
-## Impor Paket
+## Cara menyisipkan file dengan path di OneNote menggunakan Java?
 
-Untuk memulai, impor paket yang diperlukan ke dalam proyek Java Anda:
+Untuk melampirkan file dengan path sistem file-nya, pertama Anda memuat atau membuat `Document` OneNote, menambahkan `Page`, lalu membuat `Outline` dan `OutlineElement`. Di dalam elemen tersebut Anda menginstansiasi `AttachedFile` dengan path lengkap dan menambahkannya ke outline. Akhirnya Anda menyimpan `Document` sebagai file `.one`. Langkah‑langkah berikut menjelaskan urutan tepat yang harus Anda ikuti.
+
+### Langkah 0: Impor Paket
+
+Kelas `Document`, `Page`, `Outline`, `OutlineElement`, dan `AttachedFile` diperlukan. `Document` mewakili sebuah notebook, `Page` sebuah halaman notebook, `Outline` wadah untuk elemen, `OutlineElement` elemen individual, dan `AttachedFile` file yang disematkan. Impor mereka di bagian atas file sumber Java Anda:
 
 ```java
 import com.aspose.note.*;
-import java.io.IOException;
 ```
 
-## Langkah 1: Siapkan Direktori Dokumen
+### Langkah 1: Siapkan Direktori Dokumen
 
-Siapkan direktori tempat dokumen OneNote Anda akan dibuat:
+Tentukan folder tempat file OneNote baru akan disimpan. Gunakan path absolut untuk menghindari ambiguitas:
 
 ```java
-String dataDir = "Your Document Directory";
+String dataDir = "C:/Your/Document/Directory/";
 ```
 
-Ganti `"Your Document Directory"` dengan path absolut ke folder yang akan menyimpan file OneNote Anda.
+> **Tip profesional:** Akhiri path dengan pemisah (`/` atau `\`) sehingga Anda dapat menggabungkan nama file dengan aman nanti.
 
-## Langkah 2: Buat Objek Dokumen
+### Langkah 2: Buat Objek Document
 
-Buat instance dari kelas `Document` – ini mewakili notebook OneNote baru:
+Kelas `Document` adalah objek tingkat‑atas Aspose.Note yang mewakili satu notebook OneNote dalam memori. Menginstansiasinya memberi Anda notebook baru yang bersih untuk bekerja:
 
 ```java
 Document doc = new Document();
 ```
 
-## Langkah 3: Inisialisasi Objek Halaman dan Outline
+### Langkah 3: Inisialisasi Objek Page dan Outline
 
-Buat hierarki halaman yang akan berisi lampiran:
+Sebuah halaman OneNote berisi `Outline` yang pada gilirannya menampung objek `OutlineElement`. Buat kontainer ini sebelum menambahkan konten:
 
 ```java
 Page page = new Page();
 Outline outline = new Outline();
-OutlineElement outlineElem = new OutlineElement();
+OutlineElement element = new OutlineElement();
 ```
 
-## Langkah 4: Inisialisasi Objek AttachedFile
+### Langkah 4: Inisialisasi Objek AttachedFile
 
-Instansiasi `AttachedFile` dengan path lengkap ke file yang ingin Anda sematkan:
+Kelas `AttachedFile` mewakili file yang ingin Anda sematkan. Berikan path file lengkap ke konstruktornya:
 
 ```java
 AttachedFile attachedFile = new AttachedFile(dataDir + "attachment.txt");
 ```
 
-Ubah `"attachment.txt"` menjadi nama file yang ingin Anda lampirkan (java code attach file).
+Ganti `"attachment.txt"` dengan nama file sebenarnya yang ingin Anda lampirkan.
 
-## Langkah 5: Tambahkan File Lampiran ke Elemen Outline
+### Langkah 5: Tambahkan File Terlampir ke OutlineElement
 
-Hubungkan file lampiran ke elemen outline sehingga muncul di catatan:
+Hubungkan `AttachedFile` ke `OutlineElement` sehingga lampiran muncul di halaman:
 
+```java
+element.setAttachedFile(attachedFile);
+```
+
+### Langkah 6: Tambahkan OutlineElement ke Outline
+
+Masukkan elemen yang kini berisi lampiran ke dalam kontainer outline:
+
+```java
+outline.getElements().add(element);
+```
+
+### Langkah 7: Tambahkan Outline ke Page
+
+Letakkan outline yang telah disiapkan sepenuhnya ke halaman:
+
+```java
+page.getOutlines().add(outline);
+```
+
+### Langkah 8: Tambahkan Page ke Document
+
+Tambahkan halaman yang selesai ke dokumen notebook:
+
+```java
+doc.getPages().add(page);
+```
+
+### Langkah 9: Simpan Document (simpan OneNote dengan lampiran)
+
+Akhirnya, tulis notebook ke disk. File tersebut akan menjadi file `.one` standar yang dapat dibuka oleh klien OneNote modern mana pun:
+
+```java
+doc.save(dataDir + "AttachFileByPath_out.one");
+```
+
+File `AttachFileByPath_out.one` yang dihasilkan kini berisi lampiran yang disematkan dan dapat dibuka di OneNote untuk Windows, OneNote untuk web, atau OneNote untuk macOS.
+
+## Kasus Penggunaan Umum
+
+- **Notulen rapat:** Lampirkan PDF agenda asli sehingga peserta dapat merujuknya saat membaca catatan.  
+- **Dokumentasi proyek:** Sematkan diagram desain langsung dalam notebook, menghilangkan kebutuhan beralih antar aplikasi.  
+- **File hukum:** Sertakan kontrak, bukti, atau dokumen pengadilan bersama catatan kasus untuk pengambilan cepat.
+
+## Tips Pemecahan Masalah & Kesalahan Umum
+
+- **Path file tidak tepat:** Verifikasi bahwa `dataDir` diakhiri dengan pemisah path sebelum menambahkan nama file.  
+- **Lampiran besar:** File yang sangat besar meningkatkan ukuran file `.one`; kompres terlebih dahulu atau pertimbangkan menautkan alih‑alih menyematkan.  
+- **Format tidak didukung:** Sebagian besar format umum berfungsi, tetapi file proprietari atau terenkripsi mungkin tidak ditampilkan dengan benar di OneNote.
+
+## Pertanyaan yang Sering Diajukan
+
+**Q: Apakah pendekatan ini bekerja dengan OneNote untuk Windows 10?**  
+**A:** Ya, file `.one` yang dihasilkan sepenuhnya kompatibel dengan OneNote untuk Windows 10, Windows 11, versi web, dan klien macOS.
+
+**Q: Bagaimana cara melampirkan file dari URL remote?**  
+**A:** Unduh file ke folder sementara lokal terlebih dahulu, kemudian gunakan konstruktor `AttachedFile` yang sama dengan path lokal.
+
+**Q: Apakah saya perlu menutup stream secara manual?**  
+**A:** Tidak. Aspose.Note secara internal mengelola stream file untuk objek `AttachedFile`, sehingga penutupan eksplisit tidak diperlukan.
+
+**Q: Bisakah saya menetapkan nama tampilan khusus untuk lampiran?**  
+**A:** Ya. Gunakan konstruktor `AttachedFile(String displayName, String filePath)` untuk menentukan nama ramah yang muncul di OneNote.
+
+**Q: Apakah lisensi diperlukan untuk penggunaan produksi?**  
+**A:** Lisensi Aspose.Note yang valid diperlukan untuk penerapan produksi; versi percobaan gratis tersedia untuk evaluasi dan pengujian.
+
+---
+
+**Terakhir Diperbarui:** 2026-07-24  
+**Diuji Dengan:** Aspose.Note for Java 26.4  
+**Penulis:** Aspose
+
+```java
+import com.aspose.note.*;
+import java.io.IOException;
+```
+```java
+String dataDir = "Your Document Directory";
+```
+```java
+Document doc = new Document();
+```
+```java
+Page page = new Page();
+Outline outline = new Outline();
+OutlineElement outlineElem = new OutlineElement();
+```
+```java
+AttachedFile attachedFile = new AttachedFile(dataDir + "attachment.txt");
+```
 ```java
 outlineElem.appendChildLast(attachedFile);
 ```
-
-## Langkah 6: Tambahkan Elemen Outline ke Outline
-
-Letakkan elemen outline di dalam kontainer outline:
-
 ```java
 outline.appendChildLast(outlineElem);
 ```
-
-## Langkah 7: Tambahkan Outline ke Halaman
-
-Tambahkan outline (dengan file lampiran) ke halaman:
-
 ```java
 page.appendChildLast(outline);
 ```
-
-## Langkah 8: Tambahkan Halaman ke Dokumen
-
-Masukkan halaman yang selesai ke dalam dokumen OneNote:
-
 ```java
 doc.appendChildLast(page);
 ```
-
-## Langkah 9: Simpan Dokumen (save onenote with attachment)
-
-Akhirnya, simpan notebook. Langkah ini mendemonstrasikan fungsi **save onenote with attachment**:
-
 ```java
 dataDir = dataDir + "AttachFileByPath_out.one";
 doc.save(dataDir);
 ```
 
-File hasil `AttachFileByPath_out.one` kini berisi lampiran yang disematkan.
+{{< blocks/products/products-backtop-button >}}
 
-Selamat! Anda telah berhasil mempelajari **cara menambahkan lampiran** dengan path di OneNote menggunakan Java dengan Aspose.Note.
+## Tutorial Terkait
 
-## Kasus Penggunaan Umum
+- [Buat Notebook OneNote – Operasi dengan Aspose.Note untuk Java](/note/java/onenote-notebook-operations/)
+- [Buat Dokumen OneNote Java - Lampirkan File dan Atur Ikon](/note/java/onenote-java-integration/attach-file-and-set-icon/)
+- [Cara Menyimpan Notebook OneNote ke Stream dengan Aspose.Note](/note/java/onenote-notebook-operations/save-notebook-to-stream/)
 
-- **Notulen rapat:** Lampirkan PDF agenda asli ke dalam catatan.  
-- **Dokumentasi proyek:** Sematkan diagram desain langsung di dalam notebook.  
-- **File legal:** Sertakan kontrak atau bukti bersama catatan kasus.
-
-## Tips Pemecahan Masalah & Kesalahan Umum
-
-- **Path file tidak tepat:** Pastikan `dataDir` diakhiri dengan pemisah path (`/` atau `\`) sebelum menambahkan nama file.  
-- **Lampiran besar:** File yang sangat besar dapat meningkatkan ukuran file OneNote; pertimbangkan untuk mengompresnya terlebih dahulu.  
-- **Format tidak didukung:** Meskipun sebagian besar tipe file berfungsi, beberapa format proprietari mungkin tidak terbuka dengan benar di OneNote.
-
-## Pertanyaan yang Sering Diajukan
-
-**T: Apakah pendekatan ini bekerja dengan OneNote untuk Windows 10?**  
-J: Ya, file `.one` yang dihasilkan kompatibel dengan semua klien OneNote modern, termasuk Windows 10, Windows 11, dan versi web.
-
-**T: Bagaimana cara melampirkan file dari URL remote?**  
-J: Unduh file ke path lokal terlebih dahulu, kemudian gunakan konstruktor `AttachedFile` yang sama dengan path file lokal.
-
-**T: Apakah saya perlu menutup stream secara manual?**  
-J: API Aspose.Note menangani stream file secara internal, jadi penutupan eksplisit tidak diperlukan untuk objek `AttachedFile`.
-
-**T: Bisakah saya mengatur nama tampilan khusus untuk lampiran?**  
-J: Ya, gunakan konstruktor `AttachedFile` yang menerima nama tampilan sebagai argumen pertama.
-
-**T: Apakah lisensi diperlukan untuk penggunaan produksi?**  
-J: Lisensi Aspose.Note yang valid diperlukan untuk penyebaran produksi; versi percobaan dapat digunakan untuk evaluasi.
-
----
-
-**Last Updated:** 2025-12-25  
-**Tested With:** Aspose.Note for Java 26.4  
-**Author:** Aspose
 
 {{< /blocks/products/pf/tutorial-page-section >}}
-
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}
