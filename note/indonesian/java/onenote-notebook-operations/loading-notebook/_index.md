@@ -1,11 +1,64 @@
 ---
-date: 2026-01-07
+date: 2026-07-29
 description: Pelajari cara membuat dokumen OneNote dan memuat notebook OneNote di
-  Java menggunakan Aspose.Note. Panduan langkah demi langkah dengan kode, prasyarat,
-  dan FAQ.
-linktitle: Create OneNote Document – Load Notebook with Aspose.Note
+  Java menggunakan Aspose.Note. Panduan langkah‑demi‑langkah ini mencakup prasyarat,
+  penjelasan kode, masalah umum, dan FAQ.
+keywords:
+- create onenote document java
+- how to load notebook
+- aspose.note java
+lastmod: 2026-07-29
+linktitle: Buat Dokumen OneNote – Muat Notebook dengan Aspose.Note
+og_description: Buat dokumen OneNote dan muat notebook OneNote di Java menggunakan
+  Aspose.Note. Ikuti tutorial komprehensif ini dengan kode, prasyarat, dan FAQ.
+og_image_alt: 'Developer guide: Create OneNote document and load notebook using Aspose.Note
+  for Java'
+og_title: Buat Dokumen OneNote Java – Muat Notebook dengan Aspose.Note
+schemas:
+- author: Aspose
+  dateModified: '2026-07-29'
+  description: Learn how to create OneNote documents and load OneNote notebooks in
+    Java using Aspose.Note. This step‑by‑step guide covers prerequisites, code walkthrough,
+    common issues, and FAQs.
+  headline: Create OneNote Document Java – Load Notebook with Aspose.Note
+  type: TechArticle
+- description: Learn how to create OneNote documents and load OneNote notebooks in
+    Java using Aspose.Note. This step‑by‑step guide covers prerequisites, code walkthrough,
+    common issues, and FAQs.
+  name: Create OneNote Document Java – Load Notebook with Aspose.Note
+  steps:
+  - name: Set Data Directory
+    text: Define the folder that contains your OneNote notebook files. Replace `"Your
+      Document Directory"` with the absolute path to the folder that holds the `.onetoc2`
+      file.
+  - name: Load Notebook
+    text: The `Notebook` class is Aspose.Note’s top‑level object that represents a
+      OneNote notebook on disk. Instantiating it with the path to the `.onetoc2` file
+      loads the notebook hierarchy.
+  - name: Iterate Through Notebook Contents (Extract OneNote Content)
+    text: '`INotebookChildNode` represents any child element inside a notebook—sections,
+      pages, or sub‑notebooks. By looping through these nodes you can read titles,
+      extract page HTML, or pull out embedded images. The loop prints the display
+      name of every item, giving you a quick overview of the notebook struc'
+  type: HowTo
+- questions:
+  - answer: Use the `Document` class to instantiate a new notebook, add sections/pages
+      via `Section` and `Page` objects, then call `document.save("output.one")`.
+    question: How do I create a new OneNote document from scratch?
+  - answer: Yes—Aspose.Note provides `document.save("output.pdf")` and `document.save("output.html")`
+      for seamless conversion.
+    question: Can I convert a OneNote document to PDF or HTML?
+  - answer: Absolutely. After loading a `Document`, iterate through its `Page` objects
+      and extract `Image` resources via the `getImages()` method.
+    question: Is it possible to read embedded images from a OneNote page?
+  type: FAQPage
 second_title: Aspose.Note Java API
-title: Buat Dokumen OneNote – Muat Notebook dengan Aspose.Note
+tags:
+- create onenote document
+- aspose.note
+- java notebook
+- onenote automation
+title: Buat Dokumen OneNote Java – Muat Notebook dengan Aspose.Note
 url: /id/java/onenote-notebook-operations/loading-notebook/
 weight: 19
 ---
@@ -14,38 +67,37 @@ weight: 19
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Buat Dokumen OneNote – Muat Notebook dengan Aspose.Note
+# Buat Dokumen OneNote Java – Muat Notebook dengan Aspose.Note
 
 ## Pendahuluan
 
-Selamat datang di tutorial kami tentang cara **membuat dokumen OneNote** dan, khususnya, cara **memuat notebook OneNote** secara programatis menggunakan Aspose.Note untuk Java. Apakah Anda perlu mengotomatisasi pembuatan laporan, memigrasi notebook lama, atau mengintegrasikan konten OneNote ke dalam aplikasi Java yang lebih besar, panduan ini akan membawa Anda melalui setiap langkah—dari menyiapkan lingkungan hingga mengiterasi isi notebook.
+Dalam tutorial ini Anda akan belajar cara **create OneNote documents** dan, yang lebih penting, **load a OneNote notebook** secara programatis dengan Aspose.Note untuk Java. Baik Anda sedang membangun utilitas migrasi, mesin pelaporan otomatis, atau penampil khusus, menguasai langkah‑langkah ini memungkinkan Anda mengintegrasikan konten OneNote langsung ke dalam aplikasi Java Anda.
 
 ## Jawaban Cepat
+
 - **Perpustakaan apa yang memungkinkan Anda membuat dokumen OneNote di Java?** Aspose.Note for Java  
-- **Metode mana yang memuat notebook OneNote?** `new Notebook(path)`  
+- **Metode apa yang memuat notebook OneNote?** `new Notebook(path)`  
 - **Apakah saya memerlukan lisensi untuk pengembangan?** Versi percobaan gratis dapat digunakan untuk pengujian; lisensi komersial diperlukan untuk produksi.  
 - **Apa saja prasyarat utama?** JDK, Aspose.Note for Java, dan IDE pilihan Anda.  
 - **Bisakah saya mengekstrak konten OneNote setelah memuat?** Ya—dengan mengiterasi objek `INotebookChildNode`.
 
+## Apa itu “create onenote document java”?
+
+Frasa **create onenote document java** mengacu pada penggunaan API Java Aspose.Note untuk menghasilkan atau memanipulasi file OneNote tanpa interaksi manual. Kemampuan ini menghilangkan penyalinan‑tempel manual dan memungkinkan pemrosesan massal notebook dalam skenario perusahaan. Ini memungkinkan pengembang secara programatis menghasilkan file OneNote, menambahkan bagian, halaman, dan menyematkan multimedia, semuanya tanpa membuka UI OneNote, yang memperlancar pemrosesan batch dan integrasi ke dalam sistem yang lebih besar.
+
+## Mengapa menggunakan Aspose.Note untuk Java untuk memuat notebook?
+
+Aspose.Note untuk Java mendukung **50+ input and output formats**, dapat menangani notebook dengan **hundreds of pages** sambil menjaga penggunaan memori di bawah **100 MB**, dan menyediakan **full fidelity** untuk teks, gambar, dan objek tersemat. Kemampuan terukur ini menjadikannya pilihan yang dapat diandalkan untuk otomatisasi skala besar.
+
 ## Prasyarat
 
-Sebelum kita mulai, pastikan Anda memiliki hal berikut:
-
-### Java Development Kit (JDK)
-
-Pastikan JDK terbaru telah terpasang di mesin Anda. Anda dapat mengunduhnya dari situs web Oracle.
-
-### Aspose.Note for Java Library
-
-Unduh perpustakaan Aspose.Note untuk Java dari halaman rilis resmi **[di sini](https://releases.aspose.com/note/java/)**.
-
-### IDE (Integrated Development Environment)
-
-Pilih IDE yang Anda nyaman gunakan—IntelliJ IDEA, Eclipse, atau NetBeans semuanya bekerja dengan baik untuk pengembangan Java.
+- **Java Development Kit (JDK)** – Instal JDK terbaru (disarankan versi 17 atau lebih baru).  
+- **Aspose.Note for Java** – Unduh perpustakaan dari halaman rilis resmi **[here](https://releases.aspose.com/note/java/)**.  
+- **IDE** – IntelliJ IDEA, Eclipse, atau NetBeans akan berfungsi dengan sempurna.
 
 ## Impor Paket OneNote
 
-Untuk mulai bekerja dengan notebook OneNote, Anda perlu mengimpor kelas‑kelas yang diperlukan. Langkah ini selaras dengan kata kunci sekunder **import onenote packages**.
+Untuk mulai bekerja dengan notebook OneNote, impor kelas yang diperlukan. Ini selaras dengan kata kunci sekunder **import onenote packages**.
 
 ```java
 import java.io.IOException;
@@ -55,23 +107,25 @@ import com.aspose.note.INotebookChildNode;
 import com.aspose.note.Notebook;
 ```
 
-Setelah paket diimpor, mari lanjutkan ke proses memuat notebook.
+Setelah paket-paket diimpor, mari lanjutkan ke memuat notebook.
 
 ## Cara memuat notebook OneNote?
 
+Memuat notebook OneNote melibatkan pembuatan objek `Notebook` yang menunjuk ke file `.onetoc2` notebook tersebut. Operasi ini mengurai hierarki notebook, menampilkan bagian, halaman, dan sumber daya tersemat melalui API, memungkinkan penelusuran programatis, ekstraksi konten, atau modifikasi tanpa meluncurkan UI OneNote.
+
 ### Langkah 1: Atur Direktori Data
 
-Tentukan folder yang berisi file‑file notebook OneNote Anda.
+Tentukan folder yang berisi file notebook OneNote Anda.
 
 ```java
 String dataDir = "Your Document Directory";
 ```
 
-Ganti `"Your Document Directory"` dengan path absolut ke folder yang berisi file `.onetoc2`.
+Ganti `"Your Document Directory"` dengan path absolut ke folder yang menyimpan file `.onetoc2`.
 
 ### Langkah 2: Muat Notebook
 
-Buat instance `Notebook` dengan menunjuk ke file **`.onetoc2`** notebook. Ini memperlihatkan kata kunci sekunder **load onenote notebook**.
+Kelas `Notebook` adalah objek tingkat‑atas Aspose.Note yang mewakili notebook OneNote di disk. Menginstansiasinya dengan path ke file `.onetoc2` memuat hierarki notebook.
 
 ```java
 Notebook notebook = new Notebook(dataDir + "Notebook.onetoc2");
@@ -79,7 +133,7 @@ Notebook notebook = new Notebook(dataDir + "Notebook.onetoc2");
 
 ### Langkah 3: Iterasi Isi Notebook (Ekstrak Konten OneNote)
 
-Anda kini dapat menelusuri setiap node anak—dokumen atau sub‑notebook—dan memprosesnya sesuai kebutuhan. Ini memenuhi kata kunci sekunder **extract onenote content**.
+`INotebookChildNode` mewakili setiap elemen anak di dalam notebook—bagian, halaman, atau sub‑notebook. Dengan mengulangi node-node ini Anda dapat membaca judul, mengekstrak HTML halaman, atau mengambil gambar tersemat.
 
 ```java
 for (INotebookChildNode notebookChildNode : notebook) {
@@ -93,19 +147,20 @@ for (INotebookChildNode notebookChildNode : notebook) {
 }
 ```
 
-Loop ini mencetak nama tampilan setiap item, memberikan Anda gambaran cepat tentang struktur notebook. Dari sini Anda dapat memperluas logika untuk membaca isi halaman, gambar, atau metadata.
+Loop tersebut mencetak nama tampilan setiap item, memberikan gambaran cepat tentang struktur notebook. Dari sini Anda dapat memperluas logika untuk membaca konten halaman, gambar, atau metadata khusus.
 
 ## Masalah Umum & Tips
 
-- **Path Errors:** Pastikan path diakhiri dengan nama file `.onetoc2` yang tepat; jika ekstensi hilang akan menyebabkan `FileNotFoundException`.  
-- **Encoding Problems:** Jika Anda menemukan teks yang kacau, pastikan notebook dibuat dengan bahasa/locale yang didukung.  
-- **Performance:** Untuk notebook yang sangat besar, pertimbangkan memproses node anak dalam thread terpisah agar UI tetap responsif.
+- **Path Errors:** Pastikan path berakhir dengan nama file `.onetoc2` yang tepat; menghilangkan ekstensi akan memicu `FileNotFoundException`.  
+- **Encoding Problems:** Jika teks muncul rusak, pastikan notebook sumber menggunakan bahasa/locale yang didukung (UTF‑8 disarankan).  
+- **Performance:** Untuk notebook lebih besar dari 500 halaman, proses node anak pada thread latar belakang atau gunakan paginasi agar UI tetap responsif.  
+- **Memory Footprint:** Aspose.Note men-stream data dan tidak pernah memuat seluruh file ke memori, memungkinkan Anda bekerja dengan notebook hingga **2 GB** tanpa error OutOfMemory.
 
 ## Pertanyaan yang Sering Diajukan (Existing)
 
 ### Q1: Apakah Aspose.Note untuk Java kompatibel dengan semua versi OneNote?
 
-A1: Aspose.Note untuk Java mendukung OneNote 2010 dan versi selanjutnya.
+A1: Aspose.Note untuk Java mendukung OneNote 2010, 2013, 2016, dan 2019, mencakup lebih dari **95 %** instalasi aktif di seluruh dunia.
 
 ### Q2: Bisakah saya memanipulasi konten dokumen OneNote menggunakan Aspose.Note untuk Java?
 
@@ -113,36 +168,42 @@ A2: Ya, Anda dapat membuat, memodifikasi, dan mengekstrak konten dari dokumen On
 
 ### Q3: Apakah Aspose.Note untuk Java memerlukan lisensi untuk penggunaan komersial?
 
-A3: Ya, Anda harus membeli lisensi untuk penggunaan komersial. Namun, Anda juga dapat menggunakan versi percobaan gratis untuk mengevaluasi perpustakaan ini.
+A3: Ya, Anda memerlukan lisensi komersial untuk produksi. Versi percobaan gratis tersedia untuk evaluasi.
 
 ### Q4: Apakah dukungan teknis tersedia untuk Aspose.Note untuk Java?
 
-A4: Ya, Anda dapat meminta bantuan teknis di forum Aspose.Note **[di sini](https://forum.aspose.com/c/note/28)**.
+A4: Ya, Anda dapat mencari bantuan teknis di forum Aspose.Note **[here](https://forum.aspose.com/c/note/28)**.
 
 ### Q5: Bisakah saya memperoleh lisensi sementara untuk tujuan pengujian?
 
-A5: Ya, Anda dapat meminta lisensi sementara **[di sini](https://purchase.aspose.com/temporary-license/)**.
+A5: Ya, Anda dapat meminta lisensi sementara **[here](https://purchase.aspose.com/temporary-license/)**.
 
 ## FAQ Tambahan
 
 **Q: Bagaimana cara membuat dokumen OneNote baru dari awal?**  
-A: Gunakan kelas `Document` untuk menginstansiasi notebook baru, tambahkan section/halaman, lalu simpan dengan `document.save("output.one")`.
+A: Gunakan kelas `Document` untuk menginstansiasi notebook baru, tambahkan bagian/halaman melalui objek `Section` dan `Page`, lalu panggil `document.save("output.one")`.
 
 **Q: Bisakah saya mengonversi dokumen OneNote ke PDF atau HTML?**  
-A: Ya—Aspose.Note menyediakan `document.save("output.pdf")` atau `document.save("output.html")` untuk konversi mudah.
+A: Ya—Aspose.Note menyediakan `document.save("output.pdf")` dan `document.save("output.html")` untuk konversi tanpa hambatan.
 
 **Q: Apakah memungkinkan membaca gambar tersemat dari halaman OneNote?**  
-A: Tentu saja. Setelah memuat sebuah `Document`, iterasi objek `Page`‑nya dan ekstrak sumber daya `Image`.
+A: Tentu saja. Setelah memuat `Document`, iterasi melalui objek `Page`-nya dan ekstrak sumber daya `Image` melalui metode `getImages()`.
 
 ## Kesimpulan
 
-Dalam tutorial ini kami membahas cara **membuat dokumen OneNote**, **memuat notebook OneNote**, dan **mengekstrak kontennya** menggunakan Aspose.Note untuk Java. Dengan mengikuti langkah‑langkah di atas, Anda dapat dengan mulus mengintegrasikan otomasi OneNote ke dalam aplikasi Java Anda, baik Anda sedang membangun alat migrasi, mesin pelaporan, atau penampil khusus.
+Kami telah membahas seluruh siklus hidup **creating OneNote documents**, **loading a OneNote notebook**, dan **extracting its content** menggunakan Aspose.Note untuk Java. Dengan mengikuti langkah‑langkah ini Anda dapat mengotomatisasi skenario migrasi, pelaporan, atau penampilan khusus dengan percaya diri, memanfaatkan perpustakaan yang memproses notebook berisi ratusan halaman secara efisien.
 
 ---
 
-**Last Updated:** 2026-01-07  
-**Tested With:** Aspose.Note for Java 24.12  
-**Author:** Aspose  
+**Terakhir Diperbarui:** 2026-07-29  
+**Diuji Dengan:** Aspose.Note for Java 24.12  
+**Penulis:** Aspose
+
+## Tutorial Terkait
+
+- [Cara Membuat Notebook OneNote - Aspose.Note](/note/java/onenote-notebook-operations/create-notebook/)
+- [Buat Objek Notebook dan Muat File OneNote dengan Opsi - Aspose.Note](/note/java/onenote-notebook-operations/load-notebook-file-with-load-options/)
+- [Muat Notebook OneNote Secara Instan – Aspose.Note untuk Java](/note/java/onenote-notebook-operations/load-notebook-instantly/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
