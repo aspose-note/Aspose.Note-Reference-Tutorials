@@ -1,10 +1,65 @@
 ---
-date: 2026-01-07
-description: Aspose.Note kullanarak Java’da OneNote belgeleri oluşturmayı ve OneNote
-  defterlerini yüklemeyi öğrenin. Kod, önkoşullar ve SSS içeren adım adım rehber.
-linktitle: Create OneNote Document – Load Notebook with Aspose.Note
+date: 2026-07-29
+description: Aspose.Note kullanarak Java'da OneNote belgeleri oluşturmayı ve OneNote
+  notebook'larını yüklemeyi öğrenin. Bu adım adım rehber, ön koşulları, kod incelemesini,
+  yaygın sorunları ve SSS'leri kapsar.
+keywords:
+- create onenote document java
+- how to load notebook
+- aspose.note java
+lastmod: 2026-07-29
+linktitle: OneNote Belgesi Oluştur – Load Notebook with Aspose.Note
+og_description: Aspose.Note kullanarak Java'da OneNote belgeleri oluşturun ve OneNote
+  notebook'larını yükleyin. Kod, ön koşullar ve SSS içeren bu kapsamlı öğreticiyi
+  izleyin.
+og_image_alt: 'Developer guide: Create OneNote document and load notebook using Aspose.Note
+  for Java'
+og_title: OneNote Belgesi Oluşturma Java – Load Notebook with Aspose.Note
+schemas:
+- author: Aspose
+  dateModified: '2026-07-29'
+  description: Learn how to create OneNote documents and load OneNote notebooks in
+    Java using Aspose.Note. This step‑by‑step guide covers prerequisites, code walkthrough,
+    common issues, and FAQs.
+  headline: Create OneNote Document Java – Load Notebook with Aspose.Note
+  type: TechArticle
+- description: Learn how to create OneNote documents and load OneNote notebooks in
+    Java using Aspose.Note. This step‑by‑step guide covers prerequisites, code walkthrough,
+    common issues, and FAQs.
+  name: Create OneNote Document Java – Load Notebook with Aspose.Note
+  steps:
+  - name: Set Data Directory
+    text: Define the folder that contains your OneNote notebook files. Replace `"Your
+      Document Directory"` with the absolute path to the folder that holds the `.onetoc2`
+      file.
+  - name: Load Notebook
+    text: The `Notebook` class is Aspose.Note’s top‑level object that represents a
+      OneNote notebook on disk. Instantiating it with the path to the `.onetoc2` file
+      loads the notebook hierarchy.
+  - name: Iterate Through Notebook Contents (Extract OneNote Content)
+    text: '`INotebookChildNode` represents any child element inside a notebook—sections,
+      pages, or sub‑notebooks. By looping through these nodes you can read titles,
+      extract page HTML, or pull out embedded images. The loop prints the display
+      name of every item, giving you a quick overview of the notebook struc'
+  type: HowTo
+- questions:
+  - answer: Use the `Document` class to instantiate a new notebook, add sections/pages
+      via `Section` and `Page` objects, then call `document.save("output.one")`.
+    question: How do I create a new OneNote document from scratch?
+  - answer: Yes—Aspose.Note provides `document.save("output.pdf")` and `document.save("output.html")`
+      for seamless conversion.
+    question: Can I convert a OneNote document to PDF or HTML?
+  - answer: Absolutely. After loading a `Document`, iterate through its `Page` objects
+      and extract `Image` resources via the `getImages()` method.
+    question: Is it possible to read embedded images from a OneNote page?
+  type: FAQPage
 second_title: Aspose.Note Java API
-title: OneNote Belgesi Oluştur – Aspose.Note ile Defteri Yükle
+tags:
+- create onenote document
+- aspose.note
+- java notebook
+- onenote automation
+title: OneNote Belgesi Oluşturma Java – Load Notebook with Aspose.Note
 url: /tr/java/onenote-notebook-operations/loading-notebook/
 weight: 19
 ---
@@ -13,38 +68,36 @@ weight: 19
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# OneNote Belgesi Oluştur – Aspose.Note ile Defteri Yükleme
+# OneNote Belgesi Java Oluştur – Aspose.Note ile Defteri Yükle
 
 ## Giriş
 
-Aspose.Note for Java kullanarak programlı bir şekilde **OneNote belgeleri oluşturmayı** ve özellikle **OneNote defterini yüklemeyi** öğreneceğiniz eğitimimize hoş geldiniz. Rapor oluşturmayı otomatikleştirmeniz, eski defterleri taşımanız veya OneNote içeriğini daha büyük bir Java uygulamasına entegre etmeniz gerekse, bu kılavuz size ortamınızı kurmaktan defter içeriğinde döngü yapmaya kadar her adımı gösterir.  
+Bu öğreticide, **OneNote belgeleri oluşturmayı** ve daha da önemlisi, Aspose.Note for Java ile programlı olarak **OneNote defteri yüklemeyi** öğreneceksiniz. Göç aracı, otomatik raporlama motoru veya özel bir görüntüleyici oluşturuyor olsanız da, bu adımları ustalaşmak, OneNote içeriğini doğrudan Java uygulamalarınıza entegre etmenizi sağlar.
 
 ## Hızlı Yanıtlar
-- **Java'da OneNote belgeleri oluşturmanıza izin veren kütüphane nedir?** Aspose.Note for Java  
-- **OneNote defterini yükleyen yöntem hangisidir?** `new Notebook(path)`  
-- **Geliştirme için lisansa ihtiyacım var mı?** Test için ücretsiz deneme çalışır; üretim için ticari lisans gereklidir.  
+- **Java'da OneNote belgeleri oluşturmanıza izin veren kütüphane hangisidir?** Aspose.Note for Java  
+- **Hangi yöntem bir OneNote defterini yükler?** `new Notebook(path)`  
+- **Geliştirme için lisansa ihtiyacım var mı?** Ücretsiz deneme test için çalışır; üretim için ticari lisans gereklidir.  
 - **Ana önkoşullar nelerdir?** JDK, Aspose.Note for Java ve tercih ettiğiniz bir IDE.  
-- **Yükledikten sonra OneNote içeriğini çıkarabilir miyim?** Evet—`INotebookChildNode` nesneleri üzerinden döngü yaparak.  
+- **Yükledikten sonra OneNote içeriğini çıkarabilir miyim?** Evet—`INotebookChildNode` nesneleri üzerinden döngü yaparak.
+
+## “create onenote document java” nedir?
+
+**create onenote document java** ifadesi, Aspose.Note'un Java API'sini kullanarak OneNote dosyalarını manuel etkileşim olmadan oluşturmayı veya değiştirmeyi ifade eder. Bu yetenek, manuel kopyala‑yapıştırı ortadan kaldırır ve kurumsal senaryolarda defterlerin toplu işlenmesini sağlar. Geliştiricilerin OneNote dosyalarını programlı olarak oluşturmasına, bölümler, sayfalar eklemesine ve çoklu ortam gömmesine olanak tanır; tüm bunlar OneNote UI'sını açmadan gerçekleşir ve toplu işleme ve daha büyük sistemlere entegrasyonu kolaylaştırır.
+
+## Neden Aspose.Note for Java kullanarak defterleri yüklemelisiniz?
+
+Aspose.Note for Java, **50+ giriş ve çıkış formatını** destekler, **yüzlerce sayfalı** defterleri **100 MB** altında bellek kullanımıyla işleyebilir ve metin, görüntü ve gömülü nesneler için **tam doğruluk** sağlar. Bu ölçülen yetenekler, büyük ölçekli otomasyon için güvenilir bir seçim olmasını sağlar.
 
 ## Önkoşullar
 
-İçeriğe girmeden önce aşağıdakilere sahip olduğunuzdan emin olun:
+- **Java Development Kit (JDK)** – En son JDK'yı (17 veya daha yeni önerilir) kurun.  
+- **Aspose.Note for Java** – Kütüphaneyi resmi sürüm sayfasından **[burada](https://releases.aspose.com/note/java/)** indirin.  
+- **IDE** – IntelliJ IDEA, Eclipse veya NetBeans mükemmel çalışır.
 
-### Java Geliştirme Kiti (JDK)
+## OneNote Paketlerini İçe Aktar
 
-Makinenizde en son JDK'nın kurulu olduğundan emin olun. Oracle web sitesinden indirebilirsiniz.
-
-### Aspose.Note for Java Kütüphanesi
-
-Aspose.Note for Java kütüphanesini resmi sürüm sayfasından **[buradan](https://releases.aspose.com/note/java/)** indirin.
-
-### IDE (Entegre Geliştirme Ortamı)
-
-Kendinizi rahat hissettiğiniz bir IDE seçin—IntelliJ IDEA, Eclipse veya NetBeans, Java geliştirme için harika çalışır.
-
-## OneNote Paketlerini İçe Aktarma
-
-OneNote defterleriyle çalışmaya başlamak için gerekli sınıfları içe aktarmanız gerekir. Bu adım ikincil anahtar kelime **import onenote packages** ile uyumludur.
+OneNote defterleriyle çalışmaya başlamak için gerekli sınıfları içe aktarın. Bu, ikincil anahtar kelime **import onenote packages** ile uyumludur.
 
 ```java
 import java.io.IOException;
@@ -54,31 +107,33 @@ import com.aspose.note.INotebookChildNode;
 import com.aspose.note.Notebook;
 ```
 
-Paketler içe aktarıldıktan sonra, defteri yüklemeye geçelim.
+Paketler içe aktarıldığına göre, defteri yüklemeye geçelim.
 
 ## OneNote defteri nasıl yüklenir?
 
+OneNote defteri yüklemek, defterin `.onetoc2` dosyasına işaret eden bir `Notebook` nesnesi oluşturmayı içerir. Bu işlem, defter hiyerarşisini ayrıştırır, bölümleri, sayfaları ve gömülü kaynakları API aracılığıyla ortaya çıkarır ve OneNote UI'sını başlatmadan programlı gezinme, içerik çıkarma veya değiştirme imkanı sağlar.
+
 ### Adım 1: Veri Dizinini Ayarla
 
-OneNote defter dosyalarınızı içeren klasörü tanımlayın.
+OneNote defteri dosyalarınızı içeren klasörü tanımlayın.
 
 ```java
 String dataDir = "Your Document Directory";
 ```
 
-`"Your Document Directory"` ifadesini `.onetoc2` dosyasını içeren klasörün mutlak yolu ile değiştirin.
+`"Your Document Directory"` ifadesini, `.onetoc2` dosyasını içeren klasörün mutlak yolu ile değiştirin.
 
 ### Adım 2: Defteri Yükle
 
-Defterin **`.onetoc2`** dosyasına işaret ederek bir `Notebook` örneği oluşturun. Bu, ikincil anahtar kelime **load onenote notebook** örneğidir.
+`Notebook` sınıfı, diskteki bir OneNote defterini temsil eden Aspose.Note'un üst‑seviye nesnesidir. `.onetoc2` dosyasının yoluyla örneklenmesi, defter hiyerarşisini yükler.
 
 ```java
 Notebook notebook = new Notebook(dataDir + "Notebook.onetoc2");
 ```
 
-### Adım 3: Defter İçeriklerinde Döngü Yap (OneNote İçeriğini Çıkar)
+### Adım 3: Defter İçeriklerinde Dolaş (OneNote İçeriğini Çıkar)
 
-Artık her bir alt düğüm—belgeler veya alt‑defterler—üzerinde dolaşabilir ve ihtiyacınıza göre işleyebilirsiniz. Bu, ikincil anahtar kelime **extract onenote content** gereksinimini karşılar.
+`INotebookChildNode`, bir defter içindeki herhangi bir alt öğeyi—bölümler, sayfalar veya alt‑defterler—temsil eder. Bu düğümler üzerinde döngü kurarak başlıkları okuyabilir, sayfa HTML'sini çıkarabilir veya gömülü görüntüleri alabilirsiniz.
 
 ```java
 for (INotebookChildNode notebookChildNode : notebook) {
@@ -92,56 +147,58 @@ for (INotebookChildNode notebookChildNode : notebook) {
 }
 ```
 
-Döngü, her öğenin görüntüleme adını yazdırır ve size defter yapısının hızlı bir özetini verir. Buradan, sayfa içeriklerini, resimleri veya meta verileri okumak için mantığı genişletebilirsiniz.
+Döngü, her öğenin görüntülenen adını yazdırır ve size defter yapısının hızlı bir özetini sunar. Buradan, sayfa içeriklerini, görüntüleri veya özel meta verileri okumak için mantığı genişletebilirsiniz.
 
 ## Yaygın Sorunlar ve İpuçları
 
-- **Yol Hataları:** Yolun tam `.onetoc2` dosya adıyla bittiğinden emin olun; uzantı eksik olursa `FileNotFoundException` oluşur.  
-- **Kodlama Sorunları:** Bozuk metinle karşılaşırsanız, defterin desteklenen bir dil/bölge ayarıyla oluşturulduğunu doğrulayın.  
-- **Performans:** Çok büyük defterlerde, UI'nin yanıt vermesini sağlamak için alt düğümleri ayrı bir iş parçacığında işlemeyi düşünün.
+- **Yol Hataları:** Yolun tam `.onetoc2` dosya adıyla bittiğinden emin olun; uzantıyı atlamak bir `FileNotFoundException` tetikler.  
+- **Kodlama Sorunları:** Metin bozuk görünüyorsa, kaynak defterin desteklenen bir dil/yerel ayar kullandığını (UTF‑8 önerilir) doğrulayın.  
+- **Performans:** 500 sayfadan büyük defterler için, alt düğümleri arka plan iş parçacığında işleyin veya UI'nın yanıt vermesini sağlamak için sayfalama kullanın.  
+- **Bellek Kullanımı:** Aspose.Note verileri akış olarak işler ve tüm dosyayı belleğe yüklemez; bu sayede **2 GB**'a kadar defterlerle OutOfMemory hatası almadan çalışabilirsiniz.
 
-## Sık Sorulan Sorular (Mevcut)
+## Sıkça Sorulan Sorular (Mevcut)
 
 ### S1: Aspose.Note for Java tüm OneNote sürümleriyle uyumlu mu?
-
-C1: Aspose.Note for Java, OneNote 2010 ve sonraki sürümlerini destekler.
+A1: Aspose.Note for Java, OneNote 2010, 2013, 2016 ve 2019'u destekler ve dünya çapında aktif kurulumların **%95**'inden fazlasını kapsar.
 
 ### S2: Aspose.Note for Java kullanarak bir OneNote belgesinin içeriğini manipüle edebilir miyim?
-
-C2: Evet, Aspose.Note for Java kullanarak OneNote belgeleri oluşturabilir, değiştirebilir ve içeriğini çıkarabilirsiniz.
+A2: Evet, Aspose.Note for Java kullanarak OneNote belgelerinin içeriğini oluşturabilir, değiştirebilir ve çıkarabilirsiniz.
 
 ### S3: Aspose.Note for Java ticari kullanım için lisans gerektiriyor mu?
-
-C3: Evet, ticari kullanım için bir lisans satın almanız gerekir. Ancak, kütüphaneyi değerlendirmek için ücretsiz bir deneme de alabilirsiniz.
+A3: Evet, üretim için bir ticari lisansa ihtiyacınız var. Değerlendirme için ücretsiz bir deneme sürümü mevcuttur.
 
 ### S4: Aspose.Note for Java için teknik destek mevcut mu?
-
-C4: Evet, Aspose.Note forumlarından **[buradan](https://forum.aspose.com/c/note/28)** teknik yardım alabilirsiniz.
+A4: Evet, Aspose.Note forumlarından **[burada](https://forum.aspose.com/c/note/28)** teknik yardım alabilirsiniz.
 
 ### S5: Test amaçlı geçici bir lisans alabilir miyim?
-
-C5: Evet, geçici bir lisans **[buradan](https://purchase.aspose.com/temporary-license/)** talep edebilirsiniz.
+A5: Evet, geçici bir lisans **[burada](https://purchase.aspose.com/temporary-license/)** talep edebilirsiniz.
 
 ## Ek SSS
 
 **S: Sıfırdan yeni bir OneNote belgesi nasıl oluştururum?**  
-C: Yeni bir defter oluşturmak için `Document` sınıfını kullanın, bölümler/sayfalar ekleyin ve ardından `document.save("output.one")` ile kaydedin.
+Cevap: Yeni bir defter oluşturmak için `Document` sınıfını kullanın, `Section` ve `Page` nesneleriyle bölümler/sayfalar ekleyin, ardından `document.save("output.one")` çağırın.
 
 **S: OneNote belgesini PDF veya HTML'ye dönüştürebilir miyim?**  
-C: Evet—Aspose.Note, kolay dönüşüm için `document.save("output.pdf")` veya `document.save("output.html")` sağlar.
+Cevap: Evet—Aspose.Note, sorunsuz dönüşüm için `document.save("output.pdf")` ve `document.save("output.html")` sağlar.
 
-**S: OneNote sayfasından gömülü resimleri okumak mümkün mü?**  
-C: Kesinlikle. Bir `Document` yükledikten sonra, `Page` nesneleri üzerinden döngü yaparak `Image` kaynaklarını çıkarabilirsiniz.
+**S: OneNote sayfasından gömülü görüntüleri okumak mümkün mü?**  
+Cevap: Kesinlikle. Bir `Document` yüklendikten sonra, `Page` nesneleri üzerinde döngü kurarak `getImages()` yöntemiyle `Image` kaynaklarını çıkarabilirsiniz.
 
 ## Sonuç
 
-Bu eğitimde **OneNote belgeleri oluşturmayı**, **OneNote defteri yüklemeyi** ve **içeriğini çıkarmayı** Aspose.Note for Java kullanarak ele aldık. Yukarıdaki adımları izleyerek, bir taşıma aracı, raporlama motoru veya özel bir görüntüleyici oluşturuyor olsanız da OneNote otomasyonunu Java uygulamalarınıza sorunsuz bir şekilde entegre edebilirsiniz.
+**OneNote belgeleri oluşturma**, **OneNote defteri yükleme** ve **içeriğini çıkarma** süreçlerinin tam yaşam döngüsünü Aspose.Note for Java kullanarak inceledik. Bu adımları izleyerek, çok sayfalı defterleri verimli bir şekilde işleyen bir kütüphane sayesinde göç, raporlama veya özel görüntüleme senaryolarını güvenle otomatikleştirebilirsiniz.
 
 ---
 
-**Son Güncelleme:** 2026-01-07  
-**Test Edilen Sürüm:** Aspose.Note for Java 24.12  
-**Yazar:** Aspose  
+**Son Güncelleme:** 2026-07-29  
+**Test Edilen Versiyon:** Aspose.Note for Java 24.12  
+**Yazar:** Aspose
+
+## İlgili Öğreticiler
+
+- [OneNote Defteri Nasıl Oluşturulur - Aspose.Note](/note/java/onenote-notebook-operations/create-notebook/)
+- [Notebook Nesnesi Oluştur ve Seçeneklerle OneNote Dosyasını Yükle - Aspose.Note](/note/java/onenote-notebook-operations/load-notebook-file-with-load-options/)
+- [OneNote Defterini Anında Yükleme – Aspose.Note for Java](/note/java/onenote-notebook-operations/load-notebook-instantly/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

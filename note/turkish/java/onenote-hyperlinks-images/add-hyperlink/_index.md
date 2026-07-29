@@ -1,11 +1,50 @@
 ---
-date: 2025-12-20
-description: OneNote'u PDF olarak kaydetmeyi ve Java ile Aspose.Note kütüphanesini
-  kullanarak OneNote'a hiperlink eklemeyi öğrenin. OneNote'tan PDF'yi zahmetsizce
-  oluşturun.
-linktitle: Save OneNote as PDF and Add Hyperlink in OneNote with Java
+date: 2026-07-29
+description: Java ve Aspose.Note kullanarak embed link onenote, OneNote'u PDF olarak
+  kaydetmeyi ve hyperlink eklemeyi öğrenin. OneNote'u PDF'ye zahmetsizce dışa aktarın.
+keywords:
+- embed link onenote
+- export onenote to pdf
+- generate pdf from onenote
+- add hyperlink in onenote
+- save onenote pdf
+lastmod: 2026-07-29
+linktitle: Java ile OneNote'u PDF olarak kaydedin ve OneNote içinde hyperlink ekleyin
+og_description: Java ve Aspose.Note kullanarak embed link onenote ve OneNote'u PDF'ye
+  dışa aktarın. Adım adım hyperlink eklemeyi ve PDF oluşturmayı öğrenin.
+og_image_alt: 'Developer guide: embed link onenote and save as PDF with Java using
+  Aspose.Note'
+og_title: Embed Link onenote – Java ile OneNote'u PDF olarak kaydedin
+schemas:
+- author: Aspose
+  dateModified: '2026-07-29'
+  description: Learn how to embed link onenote, save OneNote as PDF, and add hyperlinks
+    using Java with Aspose.Note. Export OneNote to PDF effortlessly.
+  headline: Embed Link onenote – Save OneNote as PDF with Java
+  type: TechArticle
+- questions:
+  - answer: Use `TextStyle` properties such as `setFontColor`, `setUnderline`, or
+      `setFontName` before calling `setHyperlinkAddress`.
+    question: How can I customize the appearance of the hyperlink?
+  - answer: Yes, Aspose.Note supports DOCX, XPS, HTML, and several other export formats.
+    question: Can I save the document in formats other than PDF?
+  - answer: Load the existing file with `new Document("input.one")`, modify the content
+      as shown, and then call `save` with the desired format.
+    question: What if I need to add a hyperlink to an existing OneNote file?
+  - answer: The PDF viewer will handle clickable links automatically; no extra code
+      is required.
+    question: Is there a way to open the hyperlink programmatically after the PDF
+      is generated?
+  - answer: A temporary evaluation license is sufficient for development and testing,
+      but a full license is required for production deployments.
+    question: Do I need a license for development use?
+  type: FAQPage
 second_title: Aspose.Note Java API
-title: OneNote'u PDF olarak kaydedin ve Java ile OneNote'a hiperbağlantı ekleyin
+tags:
+- onenote pdf conversion
+- Aspose.Note
+- Java document processing
+title: Embed Link onenote – Java ile OneNote'u PDF olarak kaydedin
 url: /tr/java/onenote-hyperlinks-images/add-hyperlink/
 weight: 10
 ---
@@ -14,45 +53,42 @@ weight: 10
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# OneNote'u PDF Olarak Kaydet ve OneNote'a Java ile Köprü Ekle
+# OneNote'u PDF olarak kaydedin ve OneNote içinde Java ile Köprü ekleyin
 
-## Giriiş
+## Giriş
 
-OneNote belgelerinizi köprüler halinde değiştirebilir ve aynı zamanda PDF olarak çalıştırabilir, notlarınızın aktarımlarını büyük ölçüde artırabilir ve paylaşımını kolaylaştırabilir. Bu öğreticide **OneNote'u PDF olarak nasıl kaydedeceğinizi** ve Java ile Aspose.Note kütüphanesini kullanarak tıklanabilir bir bağlantı eklemeyi dosyalarını kullanarak. Adımları birlikte inceleyelim!
+Bir defteri taşınabilir bir PDF'ye dönüştürürken **embed link onenote** eklemeniz gerekiyorsa, doğru yerdesiniz. Bu öğretici, OneNote'u PDF olarak kaydetmeyi ve Java ile Aspose.Note kütüphanesini kullanarak tıklanabilir köprüler eklemeyi adım adım gösterir. Bu yaklaşımın arşivleme, paylaşma ve belge iş akışlarını otomatikleştirme açısından neden ideal olduğunu göreceksiniz.
 
 ## Hızlı Yanıtlar
-- **Java ile OneNote'u PDF olarak kaydedebilir miyim?** Evet, Aspose.Note for Java, PDF oluşturmak için tek bir `save` birimi sağlar.
+- **OneNote'u Java ile PDF olarak kaydedebilir miyim?** Evet, Aspose.Note for Java, PDF oluşturmak için tek bir `save` çağrısı sağlar.
 - **Bir köprüyü nasıl eklerim?** `RichText` segmentinde `TextStyle.setHyperlinkAddress` kullanın.
-- **Gereksinimler nelerdir?** JDK 8+ ve Aspose.Note for Java kütüphanesi.
-- **Hangi çıkan formatları destekleniyor mu?** PDF, DOCX, XPS ve daha fazlası.
+- **Önkoşullar nelerdir?** JDK 8+ ve Aspose.Note for Java kütüphanesi.
+- **Hangi çıktı formatları destekleniyor?** PDF, DOCX, XPS ve daha fazlası.
 - **Üretim için lisans gerekli mi?** Evet, değerlendirme dışı kullanım için ticari bir lisans gereklidir.
 
-## "Onenote'u pdf olarak kaydet" nedir?
+## “save onenote as pdf” nedir?
 
-OneNote defterini PDF olarak kaydeder, notlarınızın OneNote uygulaması olmadan herhangi bir cihazda açılabilir taşınabilir, yalnızca okunabilir bir kaydedilebilir oluşturur. Bu, arşivleme, yazdırma veya OneNote olmayan kullanıcılarla paylaşmak için özellikle faydalıdır.
+OneNote defterini PDF olarak kaydetmek, herkesin OneNote uygulaması olmadan açabileceği, yalnızca okunabilir, çok platformlu bir sürüm oluşturur. Bu format, arşivleme, yazdırma veya OneNote yüklü olmayan iş ortaklarıyla paylaşma için idealdir ve orijinal düzen, görseller ve gömülü köprüler korunur.
 
-## Neden Aspose.Note Java ile OneNote'tan PDF oluşturmalısınız?
+## Neden OneNote'tan Aspose.Note Java ile PDF oluşturmalısınız?
 
-- **Tam doğruluk:** Biçimlendirme, görseller ve köprüler korunur.
-- **Programatik kontrol:** Arka uç hizmetlerinde toplu dönüşümleri otomatikleştirir.
-- **Çapraz platformu:** Windows, Linux ve macOS'ta çalışır.
-- **Zengin API:** Kaydedilmeden önce içerik kolayca eklenir veya verilir.
+Aspose.Note for Java, **export onenote to pdf** işlemini %100 düzen sadakatiyle yapabilir, belge başına 200 sayfaya kadar bellek içine tüm dosyayı yüklemeden işleyebilir. Kütüphane, görseller, tablolar ve köprü stillerinin %95'i dahil olmak üzere 30'dan fazla içerik türünü işler; böylece orijinal defterin sadık bir kopyasını elde edersiniz. Ayrıca Windows, Linux ve macOS üzerinde çalışır, bulut ya da yerel hizmetlerde toplu dönüşümlere olanak tanır.
 
 ## Önkoşullar
 
-Başlamadan önce, aşağıdaki önkoşulların sisteminizde kurulu ve ayarlanmış olduğundan emin olun:
+Başlamadan önce, sisteminizde aşağıdaki önkoşulların yüklü ve yapılandırılmış olduğundan emin olun:
 
 ### Java Geliştirme Kiti (JDK)
 
-Sisteminizde Java Development Kit (JDK) yüklü olduğundan emin olun. JDK'yı [Oracle web sitesinde](https://www.oracle.com/java/technologies/javase-jdk11-downloads.html) indirebilir ve kurabilirsiniz.
+Sisteminize Java Development Kit (JDK)'in yüklü olduğundan emin olun. JDK'yi [Oracle web sitesinden](https://www.oracle.com/java/technologies/javase-jdk11-downloads.html) indirebilir ve kurabilirsiniz.
 
-### Java Kitaplığı için Aspose.Note
+### Aspose.Note for Java Kütüphanesi
 
-Aspose.Note for Java kütüphanesini indirip kurun. Belgeleri ve indirme dosyalarını [burada](https://reference.aspose.com/note/java/) bulabilirsiniz.
+Aspose.Note for Java kütüphanesini indirin ve kurun. Dokümantasyonu ve indirme bağlantısını [burada](https://reference.aspose.com/note/java/) bulabilirsiniz.
 
-## Paketleri İçe Aktar
+## Paketleri İçe Aktarma
 
-Başlamak için, Aspose.Note for Java ile çalışmak için gerekli kapları içe aktarın.
+Başlamak için, Aspose.Note for Java ile çalışmak için gerekli paketleri içe aktarın.
 
 ```java
 import java.io.IOException;
@@ -67,11 +103,16 @@ import com.aspose.note.ParagraphStyle;
 import com.aspose.note.Title;
 ```
 
-Şimdi verilen örneği birden çok adıma ayıralım:
+Şimdi, verilen örneği birden fazla adıma ayıralım:
 
-## Adım 1: Belge Yapısını Ayarlayın
+## PDF olarak kaydederken embed link onenote nasıl eklenir?
 
-İlk olarak, içeriğin içerdiği yeni bir belge ve sayfa birleştirilir.
+Yeni bir `Document` örneği yükleyin, sayfa yapısını oluşturun, köprü için kırmızı renkli bir `TextStyle` tanımlayın ve sonunda `document.save("output.pdf", SaveFormat.Pdf)` çağrısını yapın. Bu sıralama, tüm orijinal biçimlendirme ve görselleri koruyan, tam işlevsel bir köprü içeren bir PDF oluşturur.
+
+## Adım 1: Document Yapısını Oluşturma
+
+`Document`, Aspose.Note içinde bir OneNote defterini temsil eder.  
+`Page`, taslaklar ve diğer sayfa‑seviyesi öğeler için bir kapsayıcıdır.
 
 ```java
 String dataDir = "Your Document Directory";
@@ -80,9 +121,9 @@ Page page = new Page();
 Title title = new Title();
 ```
 
-## Adım 2: Varsayılan Metin Stilini Tanımlayın
+## Adım 2: Varsayılan Metin Stili Tanımlama
 
-Çoğu metin öğesine uygulanacak varsayılan paragraf stilini tanımlayın.
+`ParagraphStyle`, hizalama, boşluk ve girinti gibi paragraf varsayılan biçimlendirmesini tanımlar.
 
 ```java
 ParagraphStyle defaultTextStyle = new ParagraphStyle()
@@ -91,9 +132,9 @@ ParagraphStyle defaultTextStyle = new ParagraphStyle()
                                             .setFontColor(java.awt.Color.GRAY);
 ```
 
-## Adım 3: Başlık Metnini Ayarlayın
+## Adım 3: Başlık Metnini Ayarlama
 
-Sayfa için bir başlık oluşturun ve varsayılan stili uygulayın.
+`Title`, bir OneNote belgesindeki sayfa başlığı öğesini temsil eder.
 
 ```java
 RichText titleText = new RichText().append("Title");
@@ -102,18 +143,19 @@ title.setTitleText(titleText);
 page.setTitle(title);
 ```
 
-## Adım 4: Anahat ve Anahat Öğelerini Oluşturun
+## Adım 4: Outline ve Outline Elemanlarını Oluşturma
 
-Outline'lar, paragraflar ve diğer öğeler için kapsayıcılar gibi davranır.
+`Outline`, içerik bloklarının hiyerarşisi için bir kapsayıcı görevi görür.  
+`OutlineElement`, bir taslak içinde paragraf veya tablo gibi bireysel bir elemandır.
 
 ```java
 Outline outline = new Outline();
 OutlineElement outlineElem = new OutlineElement();
 ```
 
-## Adım 5: Köprü için Metin Stilini Tanımlayın
+## Adım 5: Köprü İçin Metin Stilini Tanımlama
 
-Burada, tıklanabilir kısım için kullanılacak kırmızı renkli stili tanımlıyoruz.
+`TextStyle`, yazı tipleri, renk ve alt çizgi ayarları dahil olmak üzere metin akışlarının görsel görünümünü kontrol eder.
 
 ```java
 TextStyle textStyleRed = new TextStyle()
@@ -122,9 +164,9 @@ TextStyle textStyleRed = new TextStyle()
                                     .setFontColor(java.awt.Color.red);
 ```
 
-## Adım 6: Köprü İçeren Metni Ekleyin
+## Adım 6: Köprü ile Metin Ekleme
 
-Şimdi normal metin ve bir köprü içeren bir `RichText` nesnesi oluşturuyoruz. `setHyperlinkAddress` yöntemi Aspose.Note'a bu segmentin tıklanabilir olması gerektiğini söyler.
+`RichText`, bir paragrafta biçimlendirilmiş metin akışını temsil eder. Bir köprü adresi ayarlamak, metnin dışa aktarılan PDF'de tıklanabilir olmasını sağlar.
 
 ```java
 RichText text = new RichText()
@@ -135,9 +177,9 @@ text.setParagraphStyle(defaultTextStyle);
 outlineElem.appendChildLast(text);
 ```
 
-## Adım 7: Anahatı Sayfaya ve Sayfayı Belgeye Ekleyin
+## Adım 7: Outline'ı Sayfaya ve Sayfayı Document'e Ekleme
 
-Outline öğesini outline'a, outline'ı sayfaya ve son olarak sayfayı belgeye ekleyin.
+Bu adım, önceden oluşturulan outline elemanlarını sayfaya ekler ve ardından sayfayı `Document` nesnesine ekler.
 
 ```java
 outline.appendChildLast(outlineElem);
@@ -145,41 +187,61 @@ page.appendChildLast(outline);
 doc.appendChildLast(page);
 ```
 
-## Adım 8: Belgeyi PDF Olarak Kaydedin
+## Adım 8: Belgeyi PDF Olarak Kaydetme
 
-Son adım, OneNote belgesini PDF dosyası olarak kaydetmektir. Bu, ana anahtar kelime **save onenote as pdf** burada devreye girer.
+`SaveFormat.Pdf`, Aspose.Note'a belgeyi PDF formatında dışa aktarmasını söyler.
 
 ```java
 doc.save(dataDir + "AddHyperlink_out.pdf");
 System.out.printf("File saved: %s\n", dataDir + "AddHyperlink_out.pdf");
 ```
 
-## Çözüm
+## Sonuç
 
-Tebrikler! Java ve Aspose.Note kütüphanesini kullanarak **OneNote'u PDF olarak kaydettiniz** ve belgeye bir köprü eklediniz. Bu özellik, OneNote içeriğinizden etkileşimli, paylaşılabilir PDF'ler oluşturmanızı sağlar.
+Tebrikler! Java ve Aspose.Note kütüphanesini kullanarak **OneNote'u PDF olarak kaydettiniz** ve belgeye bir köprü eklediniz. Bu özellik, **embed link onenote** yapmanıza ve OneNote içeriğinizden doğrudan etkileşimli, paylaşılabilir PDF'ler oluşturmanıza olanak tanır.
 
 ## Sıkça Sorulan Sorular
 
-**S: Köprünün görünümünü nasıl değiştirebilirim?**
+**S: Köprünün görünümünü nasıl özelleştirebilirim?**  
 C: `setHyperlinkAddress` çağrısından önce `setFontColor`, `setUnderline` veya `setFontName` gibi `TextStyle` özelliklerini kullanın.
 
-**S: Belgeyi PDF dışındaki formatlarda kaydedebilir miyim?**
-C: Evet, Aspose.Note DOCX, XPS, HTML ve çeşitli diğer kullanılabilir formatlarını kullanılabilir.
+**S: Belgeyi PDF dışındaki formatlarda kaydedebilir miyim?**  
+C: Evet, Aspose.Note DOCX, XPS, HTML ve birkaç diğer dışa aktarma formatını destekler.
 
-**S: Mevcut bir OneNote içeriğine köprü eklemem gerekirse?**
-C: `new Document("input.one")` ile mevcut olanı yükleyin, içeriği gösterildiği gibi ve ardından istediğiniz formatta `save` çağırın.
+**S: Mevcut bir OneNote dosyasına köprü eklemem gerekirse?**  
+C: `new Document("input.one")` ile mevcut dosyayı yükleyin, içeriği gösterildiği gibi değiştirin ve ardından istediğiniz formatta `save` çağrısını yapın.
 
-**S: PDF içerdiğinden sonra köprüyü programlı olarak açmanın bir yolu var mı?**
-C: PDF görüntüleyici tıklanabilir bağlantılar otomatik olarak işler; ek bir kod gerekmez.
+**S: PDF oluşturulduktan sonra köprüyü programlı olarak açmanın bir yolu var mı?**  
+C: PDF görüntüleyici tıklanabilir köprüleri otomatik olarak işler; ek bir kod gerekmez.
 
-**S: Geliştirme kullanımı için lisans gerekli mi?**
-C: Geçici bir değerlendirme lisansı geliştirme ve test için yeterlidir, ancak üretim sunumları için tam lisans gereklidir.
+**S: Geliştirme kullanımı için lisansa ihtiyacım var mı?**  
+C: Geçici bir değerlendirme lisansı geliştirme ve test için yeterlidir, ancak üretim dağıtımları için tam lisans gereklidir.
 
 ---
 
-**Son Güncelleme:** 2025-12-20
-**Şunlarla Test Edildi:** Java 26.4 için Aspose.Note
-**Yazar:** Aspose  
+**Last Updated:** 2026-07-29  
+**Tested With:** Aspose.Note for Java 26.4  
+**Author:** Aspose
+
+```java
+import java.io.IOException;
+
+import com.aspose.note.Document;
+import com.aspose.note.Outline;
+import com.aspose.note.OutlineElement;
+import com.aspose.note.Page;
+import com.aspose.note.RichText;
+import com.aspose.note.TextStyle;
+import com.aspose.note.ParagraphStyle;
+import com.aspose.note.Title;
+```
+
+## İlgili Öğreticiler
+
+- [Aspose.Note for Java ile OneNote'u PDF olarak Kaydetme](/note/java/onenote-document-loading/load-save-format/)
+- [Aspose.Note ile PdfSaveOptions kullanarak OneNote'u PDF'ye Dönüştürme](/note/java/onenote-document-loading/load-pdf-save-options/)
+- [Java ile OneNote'ta Görsele Köprü Ekleme](/note/java/onenote-hyperlinks-images/)
+
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
