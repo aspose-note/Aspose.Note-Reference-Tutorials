@@ -1,22 +1,83 @@
 ---
-title: Aspose Java Tutorial - Get Information about Pages in OneNote - Aspose.Note
+date: 2026-08-03
+description: Learn how to extract aspose note page details such as last modified time,
+  creation date, title, level, and author from OneNote files using Aspose.Note for
+  Java.
+images:
+- /java/onenote-page-manipulation/get-information-about-pages/og-image.png
+keywords:
+- aspose note page details
+- one note metadata
+- java aspose note
+lastmod: 2026-08-03
 linktitle: Get Information about Pages in OneNote - Aspose.Note
+og_description: Learn how to extract aspose note page details such as last modified
+  time, creation date, title, level, and author from OneNote files using Aspose.Note
+  for Java.
+og_image_alt: 'Developer guide: Extract Aspose Note page details in Java'
+og_title: Aspose Note Page Details – Java Tutorial for OneNote
+schemas:
+- author: Aspose
+  dateModified: '2026-08-03'
+  description: Learn how to extract aspose note page details such as last modified
+    time, creation date, title, level, and author from OneNote files using Aspose.Note
+    for Java.
+  headline: Aspose Note Page Details – Java Tutorial for OneNote
+  type: TechArticle
+- description: Learn how to extract aspose note page details such as last modified
+    time, creation date, title, level, and author from OneNote files using Aspose.Note
+    for Java.
+  name: Aspose Note Page Details – Java Tutorial for OneNote
+  steps:
+  - name: '**Java Development Kit (JDK)** – Ensure JDK 8+ is installed and `java`/`javac`
+      are on your PATH.'
+    text: '**Java Development Kit (JDK)** – Ensure JDK 8+ is installed and `java`/`javac`
+      are on your PATH.'
+  - name: '**Aspose.Note for Java** – Download the library from the [website](https://purchase.aspose.com/buy).'
+    text: '**Aspose.Note for Java** – Download the library from the [website](https://purchase.aspose.com/buy).'
+  - name: '**Sample OneNote Document** – Have a `.one` file ready (e.g., `Sample1.one`)
+      to test the extraction.'
+    text: '**Sample OneNote Document** – Have a `.one` file ready (e.g., `Sample1.one`)
+      to test the extraction.'
+  type: HowTo
+- questions:
+  - answer: Yes, Aspose.Note provides a comprehensive set of features for editing
+      and manipulating OneNote documents programmatically.
+    question: Can I use Aspose.Note for Java to edit OneNote documents?
+  - answer: Aspose.Note supports various versions of OneNote, ensuring compatibility
+      across different environments.
+    question: Is Aspose.Note compatible with all versions of OneNote?
+  - answer: Absolutely, Aspose.Note allows you to convert OneNote documents to formats
+      such as PDF, HTML, and images effortlessly.
+    question: Can I convert OneNote documents to other formats using Aspose.Note?
+  - answer: Yes, Aspose provides dedicated technical support to assist developers
+      with any issues they encounter while using Aspose.Note.
+    question: Does Aspose.Note offer technical support to developers?
+  - answer: Yes, you can download a free trial version of Aspose.Note for Java from
+      [here](https://releases.aspose.com/).
+    question: Is there a trial version available for Aspose.Note for Java?
+  type: FAQPage
 second_title: Aspose.Note Java API
-description: Learn an Aspose Java tutorial to extract page details like last modified time, creation time, and author from OneNote documents using Aspose.Note.
-weight: 12
+tags:
+- aspose note
+- java
+- one note
+- page metadata
+- aspose note page details
+title: Aspose Note Page Details – Java Tutorial for OneNote
 url: /java/onenote-page-manipulation/get-information-about-pages/
-date: 2026-01-15
+weight: 12
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Aspose Java Tutorial: Get Information about Pages in OneNote
+# Aspose Note Page Details – Java Tutorial for OneNote
 
 ## Introduction
 
-In this **aspose java tutorial** we’ll walk you through extracting rich metadata from OneNote pages—such as the **last modified time**, creation time, title, level, and author—using the Aspose.Note library for Java. Whether you’re building a reporting tool, synchronizing notes, or simply need to audit document changes, this guide shows you exactly how to pull that information programmatically.
+In this **aspose java tutorial** we’ll walk you through extracting **aspose note page details**—such as the **last modified time**, creation time, title, level, and author—using the Aspose.Note library for Java. Whether you’re building a reporting tool, synchronizing notes, or simply need to audit document changes, this guide shows you exactly how to pull that information programmatically.
 
 ## Quick Answers
 - **What does this tutorial cover?** Extracting page metadata (last modified time, creation time, title, author) from OneNote files with Aspose.Note for Java.  
@@ -27,17 +88,15 @@ In this **aspose java tutorial** we’ll walk you through extracting rich metada
 
 ## What is an Aspose Java Tutorial?
 
-An **Aspose Java tutorial** is a step‑by‑step guide that demonstrates how to use Aspose’s .NET‑style APIs from Java applications. These tutorials focus on real‑world scenarios, giving you ready‑to‑run code and clear explanations so you can integrate Aspose functionality quickly.
+An **Aspose Java tutorial** is a step‑by‑step guide that demonstrates how to use Aspose’s .NET‑style APIs from Java applications. These tutorials focus on real‑world scenarios, giving you ready‑to‑run code and clear explanations so you can integrate Aspose functionality quickly. **They are designed for developers who need fast, reliable integration without extensive setup.**
 
 ## Why extract last modified time from OneNote pages?
 
-The **last modified time** tells you when a page was last edited, which is essential for:
+Extracting the last modified time lets you track when each OneNote page was edited, enabling automated audit logs, synchronization across devices, and activity reporting. By programmatically reading this timestamp you can build tools that highlight recent changes, trigger notifications, or generate compliance reports without manual inspection. The **last modified time** tells you when a page was last edited, which is essential for:
 
 - Change‑tracking and audit logs  
 - Synchronizing notes across devices  
 - Generating reports that show recent activity  
-
-By pulling this timestamp programmatically, you avoid manual inspection and can automate downstream processes.
 
 ## Prerequisites
 
@@ -60,6 +119,8 @@ import com.aspose.note.Page;
 
 ## Step 1: Load the OneNote Document
 
+`Document` is Aspose.Note's primary class that represents a OneNote notebook loaded into memory, providing access to its sections and pages.
+
 Load your OneNote file into an `Aspose.Note` `Document` object.
 
 ```java
@@ -69,7 +130,9 @@ LoadOptions options = new LoadOptions();
 Document doc = new Document(dataDir + "Sample1.one", options);
 ```
 
-Replace `"Your Document Directory"` with the absolute or relative path where `Sample1.one` resides.
+## How to retrieve aspose note page details programmatically?
+
+Load the document, then iterate over its pages collection. **`Page` represents an individual page within a OneNote document, containing its content and metadata.** For each `Page` object you can read `getLastModifiedTime()`, `getCreationTime()`, `getTitle()`, `getLevel()`, and `getAuthor()`. This straightforward loop returns all the aspose note page details you need in just a few lines of code.
 
 ## Step 2: Retrieve Page Information
 
@@ -116,15 +179,22 @@ A: Yes, you can download a free trial version of Aspose.Note for Java from [here
 
 ## Conclusion
 
-You’ve now completed an **aspose java tutorial** that extracts detailed page information—including the crucial **last modified time**—from OneNote files using Aspose.Note. Incorporate this code into your own applications to build audit logs, sync services, or any solution that needs insight into OneNote page metadata.
+You’ve now completed an **aspose java tutorial** that extracts detailed **aspose note page details**—including the crucial **last modified time**—from OneNote files using Aspose.Note. Incorporate this code into your own applications to build audit logs, sync services, or any solution that needs insight into OneNote page metadata.
 
 ---
 
-**Last Updated:** 2026-01-15  
+**Last Updated:** 2026-08-03  
 **Tested With:** Aspose.Note for Java 24.12  
 **Author:** Aspose  
 
 ---
+
+## Related Tutorials
+
+- [How to Get Last Modified Time of OneNote Pages – Aspose.Note](/note/java/onenote-page-manipulation/get-revisions-of-pages/)
+- [Get OneNote Page Count with Aspose.Note for Java](/note/java/onenote-page-manipulation/get-page-count/)
+- [Extract Text from a Page in OneNote - Aspose.Note](/note/java/onenote-text-manipulation/extract-text-from-a-page/)
+
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

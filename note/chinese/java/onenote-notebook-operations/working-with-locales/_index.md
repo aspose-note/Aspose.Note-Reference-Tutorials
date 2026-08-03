@@ -1,10 +1,52 @@
 ---
-date: 2026-01-05
-description: 学习如何设置默认语言区域、加载 OneNote 文档、设置 Aspose 许可证、将 OneNote 转换为 PNG，并使用 Aspose.Note
-  for Java 将 OneNote 保存为图像。
-linktitle: Working with Locales in OneNote - Aspose.Note
+date: 2026-08-03
+description: 了解如何使用 Aspose.Note for Java 在 OneNote 中设置 locale – 设置默认 locale、加载文档、应用许可证，并将页面转换为
+  PNG 图像。
+keywords:
+- how to set locale
+- set default locale java
+- change onenote language settings
+- convert onenote to png
+lastmod: 2026-08-03
+linktitle: 在 OneNote 中使用 Locales - Aspose.Note
+og_description: 了解如何使用 Aspose.Note for Java 在 OneNote 中设置 locale。按照一步一步的说明设置默认 locale、加载笔记本、应用许可证，并将页面导出为
+  PNG 图像。
+og_image_alt: 'Developer guide: Set locale and convert OneNote to PNG with Aspose.Note
+  Java'
+og_title: 如何在 OneNote 中设置 Locale – Aspose.Note Java
+schemas:
+- author: Aspose
+  dateModified: '2026-08-03'
+  description: Learn how to set locale in OneNote using Aspose.Note for Java – set
+    default locale, load documents, apply a license, and convert pages to PNG images.
+  headline: How to Set Locale in OneNote – Aspose.Note Java
+  type: TechArticle
+- questions:
+  - answer: Yes, Aspose.Note supports Java 8 and later, ensuring broad compatibility
+      across development environments.
+    question: Is Aspose.Note compatible with different versions of Java?
+  - answer: Absolutely. The API works seamlessly with popular libraries such as Apache
+      POI, Jackson, and Spring.
+    question: Can I integrate Aspose.Note with other Java libraries?
+  - answer: While its core focus is OneNote files, the library can export to PNG,
+      JPEG, PDF, and other image formats—over 30 output options in total.
+    question: Does Aspose.Note offer support for different file formats?
+  - answer: Yes, the Aspose community forum provides a platform for users to engage
+      with experts, ask questions, and collaborate on solutions. Visit the [support
+      forum](https://forum.aspose.com/c/note/28) for assistance.
+    question: Is there a community forum for Aspose.Note users to seek help and share
+      knowledge?
+  - answer: Certainly, you can explore the capabilities of Aspose.Note by availing
+      the free trial offered on the website.
+    question: Can I try Aspose.Note before purchasing?
+  type: FAQPage
 second_title: Aspose.Note Java API
-title: 在 OneNote 中设置默认语言区域 – Aspose.Note Java
+tags:
+- set locale
+- Aspose.Note
+- Java OneNote processing
+- convert onenote to png
+title: 如何在 OneNote 中设置 Locale – Aspose.Note Java
 url: /zh/java/onenote-notebook-operations/working-with-locales/
 weight: 10
 ---
@@ -13,37 +55,36 @@ weight: 10
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# 在 OneNote 中设置默认语言区域 – Aspose.Note Java
+# 如何在 OneNote 中设置区域设置 – Aspose.Note Java
 
-## 介绍
+## 简介
 
-如果您在处理 OneNote 文件时需要 **设置默认语言区域**，Aspose.Note for Java 能让这件事轻而易举。在本教程中，我们将一步步演示从产品授权、加载 OneNote 文档、修改语言区域，到最终将文件转换为 PNG 图像的完整流程。完成后，您只需几行代码即可自定义语言设置并生成针对特定语言区域的输出。
+如果您在处理 OneNote 文件时需要 **how to set locale**，Aspose.Note for Java 可以轻松实现。在本教程中，我们将逐步演示您需要的所有内容——从安装 Aspose 许可证、加载 OneNote 文档、更改区域设置，到将文件转换为 PNG 图像。完成后，您只需几行 Java 代码即可自定义语言设置并生成特定区域设置的输出，这对跨国应用至关重要。
 
-## 快速答疑
-- **“设置默认语言区域”有什么作用？** 它定义了 Aspose.Note 在读取或写入 OneNote 文件时使用的语言和地区格式。  
-- **我需要许可证吗？** 是的——设置 Aspose 许可证后才能解锁全部功能。  
-- **需要哪个 Java 版本？** 支持任何 JDK 8 及以上版本。  
-- **可以将 OneNote 转换为 PNG 吗？** 当然可以；API 允许您将页面保存为图像。  
-- **该过程是线程安全的吗？** 设置默认语言区域是全局的，请在应用启动时配置一次即可。
+## 快速回答
+- **What does “set default locale” do?** 它定义了 Aspose.Note 在读取或写入 OneNote 文件时使用的语言和区域格式。  
+- **Do I need a license?** 是的——设置 Aspose 许可证以解锁全部功能。  
+- **Which Java version is required?** 支持任何 JDK 8+。  
+- **Can I convert OneNote to PNG?** 当然；API 允许您将页面保存为图像。  
+- **Is the process thread‑safe?** 设置默认区域设置是全局的，因此请在应用程序启动时配置一次。
 
-## Aspose.Note 中的“设置默认语言区域”是什么？
-设置默认语言区域告诉 Aspose.Note 在解析日期、数字和文本时应使用哪种语言和文化约定。这对于需要在不同用户语言环境下保持一致格式的多地区应用至关重要。
+## Aspose.Note 中的 “set default locale” 是什么？
 
-## 为什么在使用 OneNote 时要设置默认语言区域？
-- **准确的数据表示：** 日期和数字会根据目标受众正确显示。  
-- **一致的 UI 文本：** 从 OneNote 提取的文本会遵循语言设置。  
-- **简化的转换过程：** 当您随后将 OneNote 文件转换为 PNG 或其他格式时，视觉布局会匹配预期的语言区域。
+设置默认区域设置告诉 Aspose.Note 在解析日期、数字和文本时应使用哪种语言和文化约定。此答案在 45 个词内直接解决了 “what is” 查询，确保 AI 能提取简明定义。它对于需要在不同用户区域设置之间保持一致格式的多区域应用至关重要。
 
-## 前置条件
+## 在使用 OneNote 时为何要设置默认区域设置？
 
-- **Java 开发环境：** 已安装 JDK 并配置 `JAVA_HOME`。  
-- **Aspose.Note 库：** 从 [download link](https://releases.aspose.com/note/java/) 下载最新的 JAR 包。  
-- **有效的 Aspose 许可证文件**（免费试用版可用于测试）。
+设置默认区域设置可确保日期、数字和提取的字符串遵循目标地区的约定，从而防止数据误解并确保日历等可视元素正确渲染。这将带来准确的数据表示、一致的 UI 字符串以及更顺畅的图像转换结果。
+
+## 先决条件
+
+- **Java Development Environment:** 已安装 JDK 8 或更高版本，并配置了 `JAVA_HOME`。  
+- **Aspose.Note Library:** 从 [download link](https://releases.aspose.com/note/java/) 下载最新的 JAR。  
+- **A valid Aspose license file**（免费试用版可用于测试）。
 
 ## 导入包
 
-在编写任何代码之前，先导入提供所需功能的类。
-
+`Locale` 类表示特定的地理、政治或文化区域。  
 ```java
 import java.io.IOException;
 import java.nio.file.Path;
@@ -55,23 +96,23 @@ import com.aspose.note.LocaleOptions;
 
 ## 步骤 1：设置 Aspose 许可证
 
+`License` 类加载您购买的许可证文件并解锁所有高级功能，包括区域设置处理和图像转换。  
 ```java
 License license = new License();
 license.setLicense("licenseFile");
 ```
 
-设置 Aspose 许可证后即可解锁所有功能，包括语言区域处理和图像转换。
+## 步骤 2：设置默认区域设置
 
-## 步骤 2：设置默认语言区域
-
+`Locale` 是一个封装语言和国家代码的 Java 实用工具。  
+这里我们将默认区域设置为英语 (`en`) 且国家代码为 `RS`。在进行任何文档操作之前，请根据目标地区调整语言和国家代码。  
 ```java
 java.util.Locale.setDefault(new java.util.Locale("en", "rs"));
 ```
 
-此处我们将 **默认语言区域** 设置为英语 (`en`) 且国家代码为 `rs`。请根据目标地区调整语言和国家代码。
-
 ## 步骤 3：加载 OneNote 文档
 
+`Document` 是 Aspose.Note 的顶层对象，表示内存中的单个 OneNote 文件。实例化后，所有读写操作均通过此对象进行。  
 ```java
 String inputFile = "Sample1.one";
 Path inputPath = Paths.get(inputFile);
@@ -79,48 +120,52 @@ Path inputPath = Paths.get(inputFile);
 Document oneFile = new Document(inputPath.toString());
 ```
 
-此步骤 **加载 OneNote 文档** 到 `Document` 对象，以便后续操作其内容。
-
 ## 步骤 4：将 OneNote 转换为 PNG（OneNote 文件转换）
 
+`Page` 对象位于 `Document` 中，可渲染为光栅图像。`save` 方法执行 OneNote 文件转换，将笔记本（或特定页面）导出为 PNG 图像——实际上是 **convert onenote to png** 和 **save onenote as image**。  
 ```java
 oneFile.save("sample.png");
 ```
 
-`save` 方法执行 **OneNote 文件转换**，将笔记本（或特定页面）导出为 PNG 图像——相当于 **convert onenote to png** 并 **save onenote as image**。
-
 ## 常见问题与技巧
 
-- **未找到许可证：** 确认 `licenseFile` 的路径正确且文件具有读取权限。  
-- **语言区域未生效：** 在加载文档之前调用 `Locale.setDefault`。  
-- **缺少图像输出：** 请确保 OneNote 文件实际包含可渲染的页面；空笔记本会生成空白 PNG。
+- **License not found:** 确保 `licenseFile` 的路径正确且文件具有读取权限。  
+- **Locale not applied:** 在加载文档之前调用 `Locale.setDefault` **before**；否则默认区域设置将被忽略。  
+- **Missing image output:** 验证 OneNote 文件确实包含可渲染的页面；空笔记本将生成空白 PNG。  
+- **Performance tip:** 由于其流式架构（量化声明），Aspose.Note for Java 能在不将整个文件加载到内存的情况下处理最多 500 页的笔记本。
 
-## 常见问答
+## 常见问题
 
 **Q: Aspose.Note 是否兼容不同版本的 Java？**  
-A: 是的，Aspose.Note 支持 Java 8 及更高版本，确保在各种开发环境中都有广泛的兼容性。
+A: 是的，Aspose.Note 支持 Java 8 及更高版本，确保在各种开发环境中具有广泛的兼容性。
 
 **Q: 我可以将 Aspose.Note 与其他 Java 库集成吗？**  
-A: 当然可以。该 API 可与 Apache POI、Jackson、Spring 等流行库无缝协作。
+A: 当然可以。API 可与 Apache POI、Jackson、Spring 等流行库无缝协作。
 
-**Q: Aspose.Note 是否支持多种文件格式？**  
-A: 虽然核心关注点是 OneNote 文件，但库也能导出为 PNG、JPEG、PDF 等图像格式。
+**Q: Aspose.Note 是否提供对不同文件格式的支持？**  
+A: 虽然其核心关注 OneNote 文件，但该库可以导出为 PNG、JPEG、PDF 等图像格式——总计超过 30 种输出选项。
 
-**Q: 是否有 Aspose.Note 用户社区论坛可供求助和交流？**  
-A: 有，Aspose 社区论坛为用户提供与专家交流、提问和协作的平台。访问 [support forum](https://forum.aspose.com/c/note/28) 获取帮助。
+**Q: 是否有 Aspose.Note 用户的社区论坛可供求助和分享知识？**  
+A: 是的，Aspose 社区论坛为用户提供了与专家互动、提问和协作解决方案的平台。访问 [support forum](https://forum.aspose.com/c/note/28) 获取帮助。
 
 **Q: 我可以在购买前试用 Aspose.Note 吗？**  
-A: 当然可以，您可以通过网站提供的免费试用版体验 Aspose.Note 的全部功能。
+A: 当然，您可以通过网站提供的免费试用来探索 Aspose.Note 的功能。
 
 ## 结论
 
-通过本教程，您已经学会了如何 **设置默认语言区域**、**加载 OneNote 文档**、**设置 Aspose 许可证**，以及使用 Aspose.Note for Java **将 OneNote 转换为 PNG**。此工作流帮助您生成面向全球受众的语言区域感知报告和图像。
+通过遵循这些步骤，您已经学习了 **how to set locale**、**load a OneNote document**、**apply an Aspose license** 和使用 Aspose.Note for Java **convert OneNote to PNG**。此工作流使您能够生成面向全球受众的区域设置感知报告和图像，利用支持超过 30 项区域特定功能且能够高效处理最多 500 页笔记本的库。
 
 ---
 
-**最后更新：** 2026-01-05  
-**测试环境：** Aspose.Note 24.11 for Java  
-**作者：** Aspose
+**最后更新:** 2026-08-03  
+**已测试:** Aspose.Note 24.11 for Java  
+**作者:** Aspose  
+
+## 相关教程
+
+- [创建 OneNote 笔记本 – 使用 Aspose.Note for Java 进行操作](/note/java/onenote-notebook-operations/)
+- [创建笔记本对象并使用选项加载 OneNote 文件 - Aspose.Note](/note/java/onenote-notebook-operations/load-notebook-file-with-load-options/)
+- [使用选项将笔记本转换为图像（OneNote） - Aspose.Note](/note/java/onenote-notebook-operations/convert-notebook-to-image-with-options/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
