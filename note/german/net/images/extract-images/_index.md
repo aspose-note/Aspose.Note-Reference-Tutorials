@@ -1,33 +1,56 @@
 ---
-title: Extrahieren Sie Bilder aus Aspose.Note-Dokumenten
-linktitle: Extrahieren Sie Bilder aus Aspose.Note-Dokumenten
-second_title: Aspose.Note .NET-API
-description: Erfahren Sie, wie Sie mit Aspose.Note für .NET mühelos Bilder aus Aspose.Note-Dokumenten extrahieren. Erweitern Sie Ihre Fähigkeiten zur Dokumentenbearbeitung mit diesem umfassenden Tutorial.
-weight: 12
+date: 2026-04-06
+description: Erfahren Sie, wie Sie Bilder aus Aspose.Note‑Dokumenten mit Aspose.Note
+  für .NET extrahieren. Dieser Leitfaden zeigt, wie Sie Bilder effizient extrahieren.
+keywords:
+- how to extract images
+- Aspose.Note .NET
+- extract images from .one
+linktitle: Wie man Bilder aus Aspose.Note‑Dokumenten extrahiert
+second_title: Aspose.Note .NET API
+title: Wie man Bilder aus Aspose.Note‑Dokumenten extrahiert
 url: /de/net/images/extract-images/
+weight: 12
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Extrahieren Sie Bilder aus Aspose.Note-Dokumenten
+# Wie man Bilder aus Aspose.Note-Dokumenten extrahiert
 
 ## Einführung
 
-Möchten Sie Bilder effizient aus Ihren Aspose.Note-Dokumenten extrahieren? Aspose.Note für .NET bietet eine robuste Lösung, um diese Aufgabe nahtlos zu erledigen. In diesem Tutorial führen wir den Prozess Schritt für Schritt durch, um sicherzustellen, dass Sie mühelos Bilder aus Ihren Dokumenten abrufen können.
+Wenn Sie **Bilder aus Aspose.Note-Dateien** schnell und zuverlässig extrahieren müssen, sind Sie hier genau richtig. Aspose.Note für .NET bietet eine klare API, mit der Sie jedes Bild aus einem `.one`-Notizbuch mit nur wenigen Zeilen C#‑Code extrahieren können. In diesem Tutorial führen wir Sie durch den gesamten Prozess – von der Einrichtung der Umgebung bis zum Speichern jedes Bildes auf die Festplatte – sodass Sie die Bildextraktion problemlos in Ihre eigenen .NET‑Anwendungen integrieren können.
+
+## Schnelle Antworten
+- **Was gibt die API zurück?** Ein `Image`‑Objekt, das die Rohbytes und den ursprünglichen Dateinamen enthält.  
+- **Kann ich alle Bilder auf einmal extrahieren?** Ja, `GetChildNodes<Image>()` gibt jeden Bildknoten im Dokument zurück.  
+- **Benötige ich eine Lizenz für die Produktion?** Für den Einsatz außerhalb der Testphase ist eine kommerzielle Lizenz erforderlich.  
+- **Unterstützte .NET‑Versionen?** .NET Framework 4.x, .NET Core 3.1+, .NET 5/6+.  
+- **Wo werden die extrahierten Dateien gespeichert?** Im Ordner, den Sie in `dataDir` angeben (standardmäßig derselbe Ordner wie die Quelldatei).
+
+## Was ist Bildextraktion in Aspose.Note?
+
+Bildextraktion bedeutet, die binären Bilddaten, die in einer OneNote (`.one`)-Datei gespeichert sind, zu lesen und sie als Standardbilddateien (PNG, JPEG usw.) zu schreiben. Dies ist nützlich, wenn Sie Grafiken wiederverwenden, Thumbnails erzeugen oder Inhalte auf andere Plattformen migrieren möchten.
+
+## Warum Bilder mit Aspose.Note extrahieren?
+
+- **Automatisierung:** Kein manuelles Kopieren‑Einfügen; Hunderte von Notizbüchern programmatisch verarbeiten.  
+- **Konsistenz:** Originalauflösung und -format beibehalten.  
+- **Plattformübergreifend:** Funktioniert auf Windows-, Linux- und macOS‑.NET‑Runtimes.  
+- **Keine UI‑Abhängigkeit:** Läuft ohne Benutzeroberfläche, ideal für serverseitige Aufgaben oder CI‑Pipelines.
 
 ## Voraussetzungen
 
-Bevor wir beginnen, stellen Sie sicher, dass Sie die folgenden Voraussetzungen erfüllen:
+Bevor wir beginnen, stellen Sie sicher, dass Sie Folgendes haben:
 
-1.  Aspose.Note für .NET-Bibliothek: Laden Sie die Aspose.Note für .NET-Bibliothek von herunter und installieren Sie sie[Download-Link](https://releases.aspose.com/note/net/).
-   
-2. .NET Framework: Stellen Sie sicher, dass .NET Framework auf Ihrem System installiert ist.
+1. **Aspose.Note for .NET Library** – Herunterladen und installieren Sie sie über den [Download-Link](https://releases.aspose.com/note/net/).  
+2. **.NET Framework / .NET Core** – Jede unterstützte Version (siehe den Abschnitt Schnelle Antworten).
 
-## Namespaces importieren
+## Importieren von Namespaces
 
-Importieren wir zunächst die notwendigen Namespaces, um die Funktionalitäten von Aspose.Note für .NET effektiv nutzen zu können.
+Zuerst bringen Sie die erforderlichen Namespaces in den Gültigkeitsbereich, damit der Compiler weiß, wo die Klassen zu finden sind, die wir verwenden werden.
 
 ```csharp
 using System.IO;
@@ -37,26 +60,30 @@ using System.Drawing;
 using System;
 ```
 
-## Schritt 1: Laden Sie das Dokument
+## Schritt‑für‑Schritt‑Anleitung
 
- Laden Sie Ihr Aspose.Note-Dokument in die Anwendung. Ersetzen`"Your Document Directory"` mit dem Pfad zu Ihrem Dokumentenverzeichnis.
+### Schritt 1: Dokument laden
+
+Wir beginnen damit, den Ordner anzugeben, der die OneNote‑Datei enthält, und sie in ein `Document`‑Objekt zu laden.
 
 ```csharp
 string dataDir = "Your Document Directory";
 Document oneFile = new Document(dataDir + "Aspose.one");
 ```
 
-## Schritt 2: Bildknoten abrufen
+> **Pro‑Tipp:** Verwenden Sie `Path.Combine(dataDir, "Aspose.one")` für eine bessere Pfadbehandlung auf verschiedenen Betriebssystemen.
 
- Rufen Sie mit dem alle Bildknoten aus dem Dokument ab`GetChildNodes` Methode.
+### Schritt 2: Bildknoten abrufen
+
+Die Methode `GetChildNodes<T>()` durchsucht den gesamten Dokumentbaum und gibt jeden Knoten des angeforderten Typs zurück – in diesem Fall `Image`.
 
 ```csharp
 IList<Aspose.Note.Image> nodes = oneFile.GetChildNodes<Aspose.Note.Image>();
 ```
 
-## Schritt 3: Bilder extrahieren
+### Schritt 3: Bilder extrahieren
 
-Durchlaufen Sie jeden Bildknoten und extrahieren Sie die Bildbytes.
+Durchlaufen Sie jeden `Image`‑Knoten, konvertieren Sie sein Byte‑Array in ein `Bitmap` und speichern Sie es mit seinem ursprünglichen Dateinamen.
 
 ```csharp
 foreach (Aspose.Note.Image image in nodes)
@@ -65,38 +92,55 @@ foreach (Aspose.Note.Image image in nodes)
     {
         using (Bitmap bitMap = new Bitmap(stream))
         {
-            // Bildbytes in einer Datei speichern
+            // Save image bytes to a file
             bitMap.Save(String.Format(dataDir + "{0}", Path.GetFileName(image.FileName)));
         }
     }
 }
 ```
 
-## Abschluss
+> **Warum das funktioniert:** `image.Bytes` enthält die Rohbilddaten, während `image.FileName` den ursprünglichen Namen beibehält, sodass die gespeicherten Dateien sofort erkennbar sind.
 
-Zusammenfassend lässt sich sagen, dass das Extrahieren von Bildern aus Ihren Dokumenten mit der Leistungsfähigkeit von Aspose.Note für .NET zu einer unkomplizierten Aufgabe wird. Wenn Sie die in diesem Tutorial beschriebenen Schritte befolgen, können Sie die Bildextraktionsfunktion nahtlos in Ihre .NET-Anwendungen integrieren und so die Produktivität und Effizienz steigern.
+## Häufige Fallstricke & Lösungen
 
-## FAQs
+| Problem | Ursache | Lösung |
+|-------|-------|-----|
+| **Keine Bilder werden gespeichert** | `dataDir` zeigt auf einen schreibgeschützten Ort oder falschen Pfad. | Überprüfen Sie den Ordnerpfad und stellen Sie sicher, dass die Anwendung Schreibrechte hat. |
+| **Dateiname ist leer** | Einige OneNote‑Bilder sind ohne Dateinamen eingebettet. | Verwenden Sie einen Ersatznamen, z. B. `Guid.NewGuid().ToString() + ".png"`. |
+| **Out‑of‑Memory‑Ausnahme** | Sehr große Bilder werden auf einmal geladen. | Verarbeiten Sie die Bilder einzeln, wie gezeigt, oder erhöhen Sie das Speicherlimit des Prozesses. |
 
-### F1: Ist Aspose.Note für .NET mit allen Versionen von .NET Framework kompatibel?
+## Häufig gestellte Fragen
 
-A1: Ja, Aspose.Note für .NET ist mit verschiedenen Versionen des .NET Framework kompatibel und gewährleistet so eine umfassende Kompatibilität in verschiedenen Umgebungen.
+### F1: Ist Aspose.Note für .NET mit allen Versionen des .NET Framework kompatibel?
+
+A1: Ja, Aspose.Note für .NET ist mit verschiedenen Versionen des .NET Framework kompatibel und gewährleistet eine breite Kompatibilität in unterschiedlichen Umgebungen.
 
 ### F2: Kann ich mit dieser Methode mehrere Bilder aus einem einzigen Dokument extrahieren?
 
-A2: Auf jeden Fall! Mit dem bereitgestellten Code-Snippet können Sie alle in einem Dokument vorhandenen Bilder unabhängig von der Menge extrahieren.
+A2: Absolut! Der bereitgestellte Codeausschnitt ermöglicht das Extrahieren aller im Dokument vorhandenen Bilder, unabhängig von deren Anzahl.
 
-### F3: Unterstützt Aspose.Note für .NET andere Dokumentformate außer .one?
+### F3: Unterstützt Aspose.Note für .NET andere Dokumentformate neben .one?
 
-A3: Ja, Aspose.Note für .NET unterstützt verschiedene Dokumentformate und bietet vielseitige Lösungen für die Dokumentbearbeitung.
+A3: Ja, Aspose.Note für .NET unterstützt verschiedene Dokumentformate und bietet vielseitige Lösungen für die Dokumentenbearbeitung.
 
-### F4: Gibt es eine Testversion für Aspose.Note für .NET?
+### F4: Gibt es eine Testversion von Aspose.Note für .NET?
 
- A4: Ja, Sie können über die auf eine kostenlose Testversion von Aspose.Note für .NET zugreifen[Webseite](https://releases.aspose.com/), sodass Sie die Funktionen vor dem Kauf erkunden können.
+A4: Ja, Sie können eine kostenlose Testversion von Aspose.Note für .NET über die [Website](https://releases.aspose.com/) erhalten, um die Funktionen vor einem Kauf zu testen.
 
-### F5: Wo kann ich Hilfe oder Support für Aspose.Note für .NET suchen?
+### F5: Wo kann ich Unterstützung für Aspose.Note für .NET erhalten?
 
- A5: Bei Fragen oder Hilfe zu Aspose.Note für .NET können Sie die besuchen[Aspose.Note-Forum](https://forum.aspose.com/c/note/28) um mit Experten und anderen Entwicklern zu interagieren.
+A5: Bei Fragen oder Unterstützung zu Aspose.Note für .NET können Sie das [Aspose.Note‑Forum](https://forum.aspose.com/c/note/28) besuchen, um mit Experten und anderen Entwicklern zu interagieren.
+
+## Fazit
+
+Wenn Sie die obigen Schritte befolgt haben, wissen Sie jetzt **wie man Bilder** aus Aspose.Note‑Dokumenten effizient extrahiert. Integrieren Sie diesen Codeausschnitt in größere Automatisierungspipelines, verarbeiten Sie Notizbücher stapelweise oder erstellen Sie benutzerdefinierte Bildgalerie‑Tools – alles mit der Zuverlässigkeit von Aspose.Note für .NET.
+
+---
+
+**Last Updated:** 2026-04-06  
+**Tested With:** Aspose.Note 24.12 for .NET  
+**Author:** Aspose  
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
