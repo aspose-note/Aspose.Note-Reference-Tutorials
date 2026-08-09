@@ -1,10 +1,15 @@
 ---
-description: Tanulja meg, hogyan menthet OneNote PDF-et, és adhat hozzá aloldalakat
-  a OneNote-ban az Aspose.Note for Java használatával. Kövesse ezt a lépésről‑lépésre
-  útmutatót, hogy hatékonyan szervezze meg jegyzeteit.
-linktitle: How to Save OneNote PDF and Add Sub Pages
+date: 2026-04-30
+description: Ismerje meg, hogyan **mentse a OneNote-ot PDF‑ként**, és hogyan adjon
+  hozzá aloldalakat a OneNote-ban az Aspose.Note for Java használatával. Kövesse ezt
+  a lépésről‑lépésre útmutatót, hogy hatékonyan szervezze meg jegyzeteit.
+keywords:
+- save onenote as pdf
+- add sub pages onenote
+- Aspose.Note Java
+linktitle: Hogyan mentse a OneNote-ot PDF-ként, és adjon hozzá aloldalakat
 second_title: Aspose.Note Java API
-title: Hogyan mentse el a OneNote PDF-et, és adjon hozzá aloldalakat
+title: Hogyan mentse a OneNote-ot PDF‑ként, és adjon hozzá aloldalakat
 url: /hu/java/onenote-page-manipulation/create-document-with-root-and-sub-pages/
 weight: 11
 ---
@@ -13,36 +18,38 @@ weight: 11
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Hogyan mentsük el a OneNote PDF-et és adjunk hozzá aloldalakat
+# Hogyan mentse a OneNote-ot PDF-ként és adjon hozzá aloldalakat
 
 ## Bevezetés
 
-Ebben az útmutatóban megtanulja, **hogyan mentse el a OneNote PDF-et**, miközben egy olyan dokumentumot hoz létre, amely gyökér‑ és aloldalakat egyaránt tartalmaz az Aspose.Note for Java segítségével. A OneNote jegyzetfüzetek világos hierarchiával való rendezése megkönnyíti a navigációt, és a PDF‑be exportálás lehetővé teszi, hogy a jegyzeteket egy mindenki által olvasható formátumban ossza meg. Emellett megmutatjuk, hogyan **adjunk hozzá aloldalakat onenote** stílusban, így könnyedén építhet több szintű struktúrákat.
+Ebben az útmutatóban megtudja, hogyan **mentse a onenote-ot PDF-ként**, miközben egy olyan dokumentumot hoz létre, amely mind a gyökér-, mind az aloldalakat tartalmazza az Aspose.Note for Java használatával. A OneNote jegyzetfüzeteinek világos hierarchiával való szervezése megkönnyíti a navigációt, és a PDF-be exportálás biztosítja, hogy jegyzeteit univerzálisan olvasható formátumban oszthassa meg. Emellett megmutatjuk, hogyan **adhat hozzá aloldalakat a OneNote stílusában**, így könnyedén építhet több szintű struktúrákat.
 
 ## Gyors válaszok
-- **Mit jelent a fő kulcsszó?** A OneNote jegyzetfüzet PDF‑be exportálását jelenti az Aspose.Note segítségével.
-- **Melyik API-t használja?** Aspose.Note for Java.
-- **Létrehozhatok hierarchikus oldalakat?** Igen – állítsa be az oldal szintjét a gyökér‑ és aloldalak építéséhez.
-- **Szükség van licencre?** Elérhető ingyenes próba, a kereskedelmi licenc a termeléshez kötelező.
-- **Milyen kimeneti formátumok támogatottak?** BMP, PDF, PNG és továbbiak.
+- **Mit jelent a „save onenote as pdf”?** Ez a OneNote jegyzetfüzet PDF-fájlba exportálását jelenti az Aspose.Note for Java használatával.  
+- **Melyik API szükséges?** Az Aspose.Note for Java biztosítja a szükséges osztályokat és metódusokat.  
+- **Létrehozhatok hierarchikus oldalakat?** Igen – állítsa be az oldal szintjét a gyökér- és aloldalak létrehozásához.  
+- **Szükségem van licencre a termeléshez?** Egy ingyenes próba elérhető, de a kereskedelmi licenc szükséges a termelési használathoz.  
+- **Milyen formátumokba exportálhatok?** A PDF mellett exportálhat BMP, PNG, JPEG, DOCX és további formátumokba.
 
-## Mi az a „hogyan mentsük el a OneNote PDF-et”?
-A OneNote PDF‑ként való mentése a jegyzetfüzet oldalait egy rögzített elrendezésű dokumentummá alakítja, amely megőrzi a formázást, a képeket és a hierarchiát. Ideális megosztásra, archiválásra vagy nyomtatásra.
+## Hogyan mentse a OneNote-ot PDF-ként
 
-## Miért adjunk hozzá aloldalakat onenote?
-Az aloldalak hozzáadása lehetővé teszi, hogy kapcsolódó tartalmakat egy szülőoldal alá csoportosítson, egy mappaszerű struktúrát tükrözve. Ez javítja a jegyzetek szervezését, felgyorsítja a keresést, és fokozza az olvasási élményt, amikor a jegyzetfüzet PDF‑be exportálódik.
+A OneNote PDF-ként való mentése minden jegyzetfüzet oldalt egy rögzített elrendezésű dokumentummá alakít, amely megőrzi a formázást, a képeket és az oldal hierarchiáját. Ez ideális a jegyzetek megosztásához, archiválásához vagy nyomtatásához, miközben az eredeti struktúra változatlan marad.
+
+## Miért adjunk hozzá aloldalakat a OneNote-ban?
+
+Az aloldalak hozzáadása lehetővé teszi, hogy a kapcsolódó tartalmakat egy szülőoldal alá csoportosítsa, egy mappaszerű struktúrát tükrözve. Javítja a jegyzetek szervezését, felgyorsítja a keresést, és javítja az olvasási élményt, amikor a jegyzetfüzet PDF-be exportálódik.
 
 ## Előfeltételek
 
-Mielőtt elkezdené, győződjön meg róla, hogy rendelkezik a következőkkel:
+Mielőtt elkezdené, győződjön meg róla, hogy az alábbi előfeltételek rendelkezésre állnak:
 
-1. Java Development Kit (JDK): Győződjön meg, hogy a JDK telepítve van a rendszerén.  
-2. Aspose.Note for Java: Töltse le és telepítse az Aspose.Note for Java‑t a [weboldalról](https://purchase.aspose.com/buy).  
-3. Integrated Development Environment (IDE): Válasszon Java IDE‑t, például IntelliJ IDEA, Eclipse vagy NetBeans.
+1. **Java Development Kit (JDK)** – Győződjön meg róla, hogy a JDK telepítve van a rendszerén.  
+2. **Aspose.Note for Java** – Töltse le és telepítse az Aspose.Note for Java-t a [weboldalról](https://purchase.aspose.com/buy).  
+3. **Integrated Development Environment (IDE)** – Válasszon egy Java IDE-t, például IntelliJ IDEA, Eclipse vagy NetBeans.
 
 ## Csomagok importálása
 
-Importálja a szükséges csomagokat a Java projektjébe:
+Kezdje a szükséges csomagok importálásával a Java projektjében:
 
 ```java
 import java.io.IOException;
@@ -74,7 +81,7 @@ Document doc = new Document();
 
 ## 3. lépés: Oldalak létrehozása
 
-Inicializálja az oldal objektumokat és állítsa be a szintjeiket. A szint beállítása határozza meg, hogy egy oldal gyökér‑ vagy aloldal legyen:
+Inicializálja az oldal objektumokat, és állítsa be a szintjeiket. A szint beállítása határozza meg, hogy egy oldal gyökéroldal vagy aloldal.
 
 ```java
 Page page1 = new Page();
@@ -153,7 +160,7 @@ doc.appendChildLast(page3);
 
 ## 6. lépés: Dokumentum mentése
 
-Mentse a OneNote dokumentumot PDF‑ként (vagy ebben a példában BMP‑ként). A `SaveFormat` módosításával exportálhat PDF‑be, ami teljesíti a „hogyan mentsük el a OneNote PDF-et” követelményt:
+Mentse a OneNote dokumentumot PDF-ként (vagy ebben a példában BMP-ként). A `SaveFormat` módosításával exportálhat PDF-be, ami teljesíti a „save onenote as pdf” követelményt:
 
 ```java
 try {
@@ -163,49 +170,49 @@ try {
 }
 ```
 
-> **Hasznos tipp:** A közvetlen PDF exporthoz cserélje le a `SaveFormat.Bmp`‑et `SaveFormat.Pdf`‑re.
+> **Pro tipp:** A közvetlen PDF exportáláshoz cserélje le a `SaveFormat.Bmp`-t `SaveFormat.Pdf`-re.
 
-Gratulálunk! Sikeresen létrehozott egy OneNote dokumentumot gyökér‑ és aloldalakkal, és megtanulta, **hogyan mentsük el a OneNote PDF-et** az Aspose.Note for Java segítségével.
+Gratulálunk! Sikeresen létrehozott egy OneNote dokumentumot gyökér- és aloldalakkal, és megtanulta, hogyan **mentse a onenote-ot PDF-ként** az Aspose.Note for Java segítségével.
 
 ## Miért fontos ez
 
-- **Hierarchikus szervezés:** A gyökér‑ és aloldalak lehetővé teszik a mappaszerű struktúrák utánzását a OneNote‑ban.  
-- **Zökkenőmentes PDF export:** A megfelelő szervezés után a PDF export megőrzi a hierarchiát, így a végdokumentum könnyen olvasható és megosztható.  
-- **Automatizálás:** A kód integrálható nagyobb Java alkalmazásokba, lehetővé téve strukturált jegyzetfüzetek tömeges létrehozását.
+- **Hierarchikus szervezés:** A gyökér- és aloldalak lehetővé teszik, hogy mappaszerű struktúrákat utánozzon a OneNote-ban.  
+- **Zökkenőmentes PDF exportálás:** A szervezés után a PDF-be exportálás megőrzi a hierarchiát, így a végdokumentum könnyen olvasható és megosztható.  
+- **Automatizálás:** A kód integrálható nagyobb Java alkalmazásokba, lehetővé téve strukturált jegyzetfüzetek kötegelt létrehozását.
 
-## Gyakori hibák és elkerülésük
+## Gyakori hibák és hogyan kerüljük el őket
 
 | Probléma | Ok | Megoldás |
 |----------|----|----------|
-| Az oldalak ugyanazon a szinten jelennek meg | Hibás `setLevel` érték | Használja a `setLevel((byte) 1)`‑et a gyökéroldalakhoz és a `setLevel((byte) 2)`‑t (vagy magasabbat) az aloldalakhoz. |
-| A PDF kimenet üres | Hiányzó `SaveFormat.Pdf` vagy helytelen fájlútvonal | Ellenőrizze, hogy a könyvtár létezik, és használja a `SaveFormat.Pdf`‑t. |
-| A betűtípus nem alkalmazódik | Rossz betűtípus név vagy hiányzó betűtípus a rendszeren | Győződjön meg róla, hogy a betűtípus (pl. “David Transparent”) telepítve van a kódot futtató gépen. |
+| Az oldalak ugyanazon a szinten jelennek meg | Helytelen `setLevel` érték | Használja a `setLevel((byte) 1)`-et a gyökéroldalakhoz, és a `setLevel((byte) 2)`-t (vagy magasabbat) az aloldalakhoz. |
+| A PDF kimenet üresnek tűnik | Hiányzó `SaveFormat.Pdf` vagy helytelen fájlútvonal | Ellenőrizze, hogy a könyvtár létezik, és használja a `SaveFormat.Pdf`-t. |
+| A betűtípus nem alkalmazott | Helytelen betűtípus név vagy hiányzó betűtípus a rendszeren | Győződjön meg róla, hogy a betűtípus (pl. „David Transparent”) telepítve van a kódot futtató gépen. |
 
-## Gyakran ismételt kérdések
+## Gyakran feltett kérdések
 
-**K: Létrehozhatok több szintű aloldalakat az Aspose.Note for Java‑val?**  
-V: Igen, mélyebb hierarchiákat hozhat létre magasabb szintszámok beállításával (pl. `setLevel((byte) 3)` a harmadszintű aloldalhoz).
+**Q: Létrehozhatok több szintű aloldalakat az Aspose.Note for Java használatával?**  
+A: Igen, mélyebb hierarchiákat hozhat létre magasabb szintszámok beállításával (pl. `setLevel((byte) 3)` a harmadik szintű aloldalhoz).
 
-**K: Az Aspose.Note for Java kompatibilis-e különböző Java IDE‑kkel?**  
-V: Teljesen. Működik IntelliJ IDEA, Eclipse, NetBeans és bármely, Java fejlesztést támogató IDE‑vel.
+**Q: Az Aspose.Note for Java kompatibilis különböző Java IDE-kkel?**  
+A: Teljesen. Működik IntelliJ IDEA, Eclipse, NetBeans és bármely Java fejlesztést támogató IDE-vel.
 
-**K: Testreszabhatom a szöveg formázását a OneNote dokumentumban?**  
-V: Igen. Használja a `ParagraphStyle`‑t a betűtípus, méret, szín és egyéb attribútumok beállításához minden `RichText` elemhez.
+**Q: Testreszabhatom a szöveg formázását a OneNote dokumentumban?**  
+A: Igen. Használja a `ParagraphStyle`-t a betűtípus név, méret, szín és egyéb attribútumok beállításához minden `RichText` elemhez.
 
-**K: Az Aspose.Note for Java támogatja-e a dokumentumok mentését a BMP‑n kívül más formátumokba?**  
-V: Igen. Támogatott formátumok közé tartozik a PDF, PNG, JPEG, DOCX és továbbiak. Ennek megfelelően módosítsa a `SaveFormat` enum értékét.
+**Q: Az Aspose.Note for Java támogatja a dokumentumok mentését BMP-n kívül más formátumokba?**  
+A: Igen. Támogatott formátumok közé tartozik a PDF, PNG, JPEG, DOCX és továbbiak. Ennek megfelelően módosítsa a `SaveFormat` enumot.
 
-**K: Elérhető-e próba verzió az Aspose.Note for Java‑hoz?**  
-V: Igen, letölthet egy ingyenes próbaverziót az Aspose weboldaláról.
+**Q: Elérhető próba verzió az Aspose.Note for Java-hoz?**  
+A: Igen, letölthet egy ingyenes próbaverziót az Aspose weboldaláról.
 
 ## Összegzés
 
-A OneNote jegyzetfüzetek világos hierarchikus struktúrával való rendezése és PDF‑be exportálása hozzáférhetőbbé és megoszthatóbbá teszi a jegyzeteket. A fenti lépések követésével most már tudja, **hogyan mentsük el a OneNote PDF-et** és **aloldalakat adjon hozzá onenote** stílusban programozottan az Aspose.Note for Java segítségével.
+A OneNote jegyzetfüzeteinek világos hierarchikus struktúrával való szervezése és PDF-ként való exportálása hozzáférhetőbbé és megoszthatóbbá teszi a jegyzeteit. A fenti lépések követésével most már tudja, hogyan **mentse a onenote-ot PDF-ként** és hogyan **adjunk hozzá aloldalakat a OneNote stílusában** programozottan az Aspose.Note for Java segítségével.
 
 ---
 
-**Utoljára frissítve:** 2026-01-07  
-**Tesztelve a következővel:** Aspose.Note for Java 24.11 (legújabb)  
+**Utoljára frissítve:** 2026-04-30  
+**Tesztelve:** Aspose.Note for Java 24.11 (legújabb)  
 **Szerző:** Aspose  
 
 {{< /blocks/products/pf/tutorial-page-section >}}
