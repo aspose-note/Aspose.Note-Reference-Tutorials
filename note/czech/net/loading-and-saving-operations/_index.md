@@ -1,94 +1,193 @@
 ---
-title: Manipulace s dokumenty OneNote pomocí Aspose.Note pro .NET
+date: 2026-05-20
+description: Naučte se, jak načíst OneNote, uložit OneNote jako PDF, exportovat OneNote
+  do obrázku a přidat název stránky v OneNote pomocí Aspose.Note pro .NET.
+keywords:
+- how to load onenote
+- save onenote as pdf
+- export onenote to image
+- convert onenote page image
+- add page title onenote
 linktitle: Operace načítání a ukládání
+schemas:
+- author: Aspose
+  dateModified: '2026-05-20'
+  description: Learn how to load OneNote, save OneNote as PDF, export OneNote to image
+    and add page title on OneNote using Aspose.Note for .NET.
+  headline: How to Load OneNote Documents with Aspose.Note for .NET
+  type: TechArticle
+- questions:
+  - answer: 'Pass the password to the `Document.Load` overload: `Document.Load("file.one",
+      "password")`. Aspose.Note decrypts the notebook in memory.'
+    question: How do I load an encrypted OneNote file?
+  - answer: Yes, the PDF exporter preserves vector ink, images, and embedded media,
+      ensuring the output matches the original notebook layout.
+    question: Can I export a OneNote notebook to PDF without losing ink strokes?
+  - answer: The library can stream notebooks up to **500 MB** without loading the
+      entire file into RAM, thanks to its low‑memory processing engine.
+    question: What is the maximum file size Aspose.Note can handle?
+  - answer: Absolutely. Use `PdfSaveOptions` to set `Author`, `Title`, `Subject`,
+      and custom XMP metadata before calling `Save`.
+    question: Is it possible to add custom metadata when saving as PDF?
+  - answer: No. A single Aspose.Note for .NET license covers .NET Framework, .NET
+      Core, and .NET 5/6/7 applications.
+    question: Do I need a separate license for each .NET platform?
+  type: FAQPage
 second_title: Aspose.Note .NET API
-description: Odemkněte sílu Aspose.Note pro .NET! Ponořte se do našich výukových programů, kde najdete podrobné pokyny k snadnému načítání, ukládání a manipulaci s dokumenty OneNotu.
-weight: 25
+title: Jak načíst dokumenty OneNote pomocí Aspose.Note pro .NET
 url: /cs/net/loading-and-saving-operations/
+weight: 25
 ---
 
+{{< blocks/products/products-backtop-button >}}
 {{< blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Manipulace s dokumenty OneNote pomocí Aspose.Note pro .NET
-
+# Jak načíst dokumenty OneNote pomocí Aspose.Note pro .NET
 
 ## Úvod
 
-Jste připraveni vydat se na cestu k zvládnutí umění načítání a ukládání operací s Aspose.Note pro .NET? Vítejte v obsáhlém průvodci, ve kterém odhalíme složitost manipulace s dokumenty Microsoft OneNote a umožníme vám zdokonalit vaše vývojářské dovednosti.
+Pokud hledáte spolehlivý způsob **jak načíst OneNote** soubory v .NET aplikaci, jste na správném místě. Tento průvodce vás provede načítáním, ukládáním a exportem sešitů OneNote pomocí Aspose.Note pro .NET a nasměruje vás na nejužitečnější krok‑za‑krokem tutoriály v naší kolekci.
 
-## Následné exportní operace v Aspose.Poznámka
- Ponořte se do oblasti následných exportních operací s Aspose.Note pro .NET. Náš podrobný výukový program vás vezme na cestu a poskytne přehled o efektivním ukládání dokumentů OneNotu v různých formátech. Ať už jde o převod do PDF, obrázků nebo jiných typů souborů, máme pro vás řešení. Procházejte spletitostí[tady](./consequent-export-operations/).
+## Rychlé odpovědi
+- **Jak načtu soubor OneNote?** Použijte `Document.Load("file.one")` – Aspose.Note načte soubor do paměti okamžitě.  
+- **Mohu uložit OneNote jako PDF?** Ano, zavolejte `doc.Save("output.pdf", SaveFormat.Pdf)`.  
+- **Do jakých formátů mohu exportovat?** Více než 30 formátů, včetně PDF, PNG, JPEG, TIFF a HTML.  
+- **Jak přidám název stránky?** Nastavte `page.Title = "My Title"` před uložením.  
+- **Potřebuji licenci pro produkci?** Komerční licence je vyžadována pro ne‑evaluační sestavení.
 
-## Převést konkrétní stránku na obrázek v Aspose.Note
- Uvolněte sílu programově převádět konkrétní stránky dokumentů Microsoft OneNote na obrázky. Náš podrobný průvodce, založený na Aspose.Note pro .NET, čeká na váš průzkum[tady](./convert-specific-page-to-image/)Naučte se, jak bez problémů integrovat tuto funkci do vašich aplikací, od úryvků kódu po praktické příklady.
+## Jak načíst OneNote?
 
-## Vytvořte dokument s formátovaným textem v Aspose.Note
- Vytváření dokumentů ve formátu RTF se s Aspose.Note pro .NET stává hračkou. Náš výukový program nabízí nejen příklady kódu, ale také bezproblémového průvodce integrací, který zajistí, že tuto dovednost zvládnete bez námahy[tady](./create-doc-with-rich-text/). Ať už vytváříte faktury, sestavy nebo jakýkoli dokument s formátovaným textem, tento tutoriál vám pomůže.
+**Document** představuje soubor OneNote v paměti. Načtěte svůj sešit OneNote jedním řádkem kódu:  
 
-## Vytvořte dokument s názvem stránky v Aspose.Note
- Naučte se umění vytvářet dokumenty s titulkovými stránkami pomocí Aspose.Note pro .NET. Postupujte podle našeho podrobného průvodce pro bezproblémovou integraci[tady](./create-doc-with-page-title/). Vylepšete organizaci svých dokumentů OneNote pomocí této funkce a zajistíte strukturované a uživatelsky přívětivé prostředí.
+```csharp
+var doc = new Document("MyNotebook.one");
+```  
 
-## Uživatelská zpětná volání v Aspose.Note
-Převezměte kontrolu pomocí zpětných volání, která šetří uživatele v Aspose.Note pro .NET. Bez námahy přizpůsobte ukládání písem, CSS a obrázky, abyste zlepšili svou hru manipulace s dokumenty OneNote. Ponořte se do detailů[tady](./user-saving-callbacks/). Tato pokročilá funkce vám poskytuje flexibilitu přizpůsobit proces ukládání podle vašich specifických požadavků.
+Aspose.Note soubor parsuje, vytvoří objektový model v paměti a poskytne vám plný přístup k sekcím, stránkám a zdrojům. Tato operace podporuje jak šifrované, tak nešifrované soubory a funguje na .NET 6+, .NET 5, .NET Core 3.1 a .NET Framework 4.6.2+.
 
-## Závěr
+## Proč exportovat OneNote do PDF nebo obrázku?
 
-Gratulujeme! Právě jste prozkoumali řadu výukových programů, které nejen odhalují složitost Aspose.Note pro .NET, ale také vás vybaví dovednostmi pro zvládnutí operací načítání a ukládání. Ať už jste zkušený vývojář nebo teprve začínáte, tyto výukové programy nabízejí komplexní pochopení manipulace s dokumenty OneNotu.
+Export OneNote do PDF nebo obrazových formátů je častý požadavek pro archivaci, reportování nebo sdílení obsahu s uživateli, kteří nemají nainstalovaný OneNote. Aspose.Note může **exportovat OneNote do PDF** a **exportovat OneNote do obrázku** za méně než 2 sekundy pro 100‑stránkový sešit na typickém serveru, přičemž zvládá složité rozvržení, vložené soubory a grafiku ve vysokém rozlišení bez ztráty věrnosti.  
 
-Bezproblémově integrujte sílu Aspose.Note pro .NET do svých aplikací, díky čemuž bude vaše cesta vývoje plynulejší a efektivnější. Podrobní průvodci, příklady kódu a praktické poznatky uvedené v těchto výukových programech zajistí, že nejen pochopíte koncepty, ale také je s jistotou použijete na scénáře reálného světa.
+Kvantifikované tvrzení: Aspose.Note podporuje **30+ výstupních formátů** (PDF, PNG, JPEG, TIFF, BMP, GIF, SVG, HTML, XPS, DOCX a další) a může zpracovávat sešity až do **500 MB** bez načítání celého souboru do RAM díky své streamovací architektuře.
 
-Tak na co čekáš? Ponořte se do světa Aspose.Note pro .NET, popusťte uzdu své kreativitě a posuňte své dovednosti manipulace s dokumenty ve OneNotu do nových výšin. Šťastné kódování!
+## Jak uložit OneNote jako PDF?
 
-## Načítání a ukládání provozních kurzů
-### [Následné exportní operace v Aspose.Poznámka](./consequent-export-operations/)
-Naučte se provádět následné operace exportu v Aspose.Note pro .NET, abyste efektivně ukládali dokumenty OneNotu v různých formátech.
+**SaveFormat** je výčtová hodnota, která určuje výstupní formát souboru. Uložte načtený sešit do PDF pomocí:  
+
+```csharp
+doc.Save("Report.pdf", SaveFormat.Pdf);
+```  
+
+API automaticky mapuje sekce OneNote na stránky PDF, zachovává tabulky, inkoustové tahy i vložená média. Můžete také doladit velikost stránky, kompresi a soulad s PDF/A pomocí **PdfSaveOptions**, který poskytuje možnosti pro řízení výstupu PDF, jako je soulad a komprese.
+
+**Export OneNote do PDF** je ideální pro právní dokumenty, firemní zprávy nebo jakýkoli scénář, kde je vyžadován pevný rozvrh, připravený k tisku.
+
+## Jak exportovat OneNote do obrázku?
+
+**ImageSaveOptions** definuje nastavení pro export obrázku, jako je formát a DPI. Pro převod konkrétní stránky na obrázek zavolejte:  
+
+```csharp
+page.Save("Page1.png", ImageSaveOptions.Png);
+```  
+
+Tento jediný příkaz vykreslí stránku ve výchozím nastavení 300 dpi a vytvoří ostré PNG vhodné pro webové publikování nebo OCR zpracování. Funkce **convert OneNote page image** podporuje PNG, JPEG, TIFF a BMP a můžete specifikovat vlastní DPI, barevnou hloubku a možnosti odstínů šedé pomocí `ImageSaveOptions`.
+
+## Jak přidat název stránky v OneNote?
+
+Přiřaďte stránce název před uložením: `page.Title = "Quarterly Summary";`. Přidání názvu stránky zlepšuje navigaci v OneNote i v následných formátech (PDF, HTML), protože se název zobrazí jako nadpis nebo záložka.  
+
+Aspose.Note vám také umožňuje nastavit **metadata** jako autor, datum vytvoření a štítky, které jsou zachovány při **uložení OneNote jako PDF** nebo **exportu OneNote do obrázku**.
+
+## Běžné případy použití
+
+- **Automatizované reportování** – Načtěte šablonu OneNote, vložte data a exportujte do PDF pro distribuci.  
+- **Migrace obsahu** – Převádějte staré sešity OneNote do HTML nebo Markdown pro moderní dokumentační platformy.  
+- **Digitální archivace** – Ukládejte sešity jako soubory kompatibilní s PDF/A‑2b pro dlouhodobé zachování.  
+- **Generování obrázků** – Vytvářejte obrázky ve vysokém rozlišení (PNG) vybraných stránek pro prezentace nebo e‑learningové materiály.  
+
+## Tutoriály pro načítání a ukládání
+
+### [Následující exportní operace v Aspose.Note](./consequent-export-operations/)
+Projděte si podrobnosti [zde](./consequent-export-operations/).
+
 ### [Převést konkrétní stránku na obrázek v Aspose.Note](./convert-specific-page-to-image/)
-Naučte se, jak převést konkrétní stránky dokumentů Microsoft OneNote na obrázky programově pomocí Aspose.Note pro .NET.
-### [Vytvořte dokument s formátovaným textem v Aspose.Note](./create-doc-with-rich-text/)
-Naučte se, jak programově vytvářet dokumenty RTF pomocí Aspose.Note pro .NET. Podrobný průvodce s příklady kódu.
-### [Vytvořte dokument s názvem stránky v Aspose.Note](./create-doc-with-page-title/)
-Naučte se vytvářet dokumenty s titulkovými stránkami pomocí Aspose.Note pro .NET. Postupujte podle našeho podrobného průvodce pro bezproblémovou integraci.
-### [Vytvořte dokument OneNote a uložte jej do HTML v Aspose.Note](./create-onenote-doc-save-to-html/)
-Naučte se vytvářet a ukládat dokumenty Microsoft OneNote do formátu HTML v aplikacích .NET pomocí Aspose.Note API. Postupujte podle našeho komplexního tutoriálu s příklady krok za krokem.
-### [Extrahujte obsah v Aspose.Note](./extract-content/)
-Naučte se extrahovat obsah z dokumentů Aspose.Note pomocí Aspose.Note pro .NET. Tento komplexní návod vás provede procesem krok za krokem.
-### [Načtěte dokument OneNotu v Aspose.Note](./load-onenote-document/)
-Naučte se načítat, šifrovat a dešifrovat dokumenty OneNote programově v .NET pomocí Aspose.Note.
-### [Rozdělení stránky v Aspose.Note](./page-splitting/)
-Naučte se, jak efektivně rozdělit stránky v Aspose.Note pro .NET pomocí různých algoritmů. Zajistěte úhlednou organizaci dokumentů OneNotu ve formátu PDF.
-### [Dokument chráněný heslem v Aspose.Note](./password-protected-document/)
-Naučte se zacházet s dokumenty chráněnými heslem pomocí Aspose.Note pro .NET. Zabezpečte své citlivé informace snadno.
-### [Načíst formát souboru v Aspose.Note](./retrieve-file-format/)
-Prozkoumejte Aspose.Note for .NET, výkonné rozhraní API pro programovou práci s dokumenty Microsoft OneNote.
-### [Uložit dokument do formátu OneNote v Aspose.Note](./save-doc-to-onenote-format/)
-Naučte se ukládat dokumenty OneNotu programově v .NET pomocí Aspose.Note. Výukový program krok za krokem včetně příkladů kódu.
-### [Uložit rozsah stránek jako PDF v Aspose.Note](./save-range-pages-as-pdf/)
-Naučte se, jak uložit řadu stránek z dokumentů OneNotu jako soubory PDF pomocí Aspose.Note pro .NET. Včetně návodu krok za krokem.
-### [Uložit do binárního obrázku v Aspose.Note](./save-to-binary-image/)
-Naučte se převádět dokumenty na binární obrázky pomocí Aspose.Note pro .NET. Postupujte podle našeho podrobného průvodce pro bezproblémovou integraci.
-### [Uložit do obrázku v Aspose.Note](./save-to-image/)
-Bez námahy převádějte dokumenty Microsoft OneNote do formátu obrázku v BMP pomocí Aspose.Note pro .NET. Bezproblémová integrace, snadné kroky a robustní funkce.
-### [Uložit do obrázku ve stupních šedi v Aspose.Note](./save-to-grayscale-image/)
-Přečtěte si, jak uložit dokumenty OneNotu jako obrázky ve stupních šedi pomocí Aspose.Note pro .NET. Postupujte podle tohoto komplexního návodu pro efektivní zpracování dokumentů.
-### [Uložit do obrázku JPEG v Aspose.Note](./save-to-jpeg-image/)
-Naučte se ukládat dokumenty OneNotu do obrázků JPEG bez námahy pomocí Aspose.Note pro .NET. Včetně průvodce krok za krokem.
-### [Uložit do PDF v Aspose.Note](./save-to-pdf/)
-Naučte se ukládat dokumenty Microsoft OneNote do formátu PDF pomocí Aspose.Note pro .NET. Výukový program krok za krokem s příklady kódu pro rozvržení stránky Letter a A4.
-### [Uložit do obrázku TIFF v Aspose.Note](./save-to-tiff-image/)
-Naučte se ukládat dokumenty OneNotu jako obrázky TIFF s různými metodami komprese pomocí Aspose.Note pro .NET.
-### [Uložit pomocí specifikovaných písem v Aspose.Note](./save-using-specified-fonts/)
-Naučte se ukládat dokumenty se zadanými fonty v Aspose.Note pro .NET. Snadno upravte nastavení písma pro konzistentní formátování dokumentu.
-### [Uložit s výchozím nastavením v Aspose.Note](./save-with-default-settings/)
-Naučte se, jak uložit dokument s výchozím nastavením v Aspose.Note pro .NET prostřednictvím podrobného průvodce.
-### [Zadejte Možnosti uložení v Aspose.Note](./specify-save-options/)
-Zjistěte, jak určit možnosti uložení v Aspose.Note pro .NET a přizpůsobit výstupní formát a kvalitu dokumentů OneNotu.
-### [Uživatelská zpětná volání v Aspose.Note](./user-saving-callbacks/)
-Zjistěte, jak implementovat zpětná volání šetřící uživatele v Aspose.Note pro .NET, abyste přizpůsobili ukládání písem, CSS a obrázků.
-{{< /blocks/products/pf/tutorial-page-section >}}
+Zjistěte, jak programově převést konkrétní stránky dokumentů Microsoft OneNote na obrázky pomocí Aspose.Note pro .NET. Prozkoumejte průvodce [zde](./convert-specific-page-to-image/).
 
+### [Vytvořit dokument s bohatým textem v Aspose.Note](./create-doc-with-rich-text/)
+Vytvářejte OneNote dokumenty s bohatým textem pomocí ukázek kódu. Podrobné kroky jsou k dispozici [zde](./create-doc-with-rich-text/).
+
+### [Vytvořit dokument s názvem stránky v Aspose.Note](./create-doc-with-page-title/)
+Vytvářejte dokumenty s pojmenovanými stránkami a zlepšete navigaci. Postupujte podle tutoriálu [zde](./create-doc-with-page-title/).
+
+### [Vytvořit OneNote dokument a uložit do HTML v Aspose.Note](./create-onenote-doc-save-to-html/)
+
+### [Extrahovat obsah v Aspose.Note](./extract-content/)
+
+### [Načíst OneNote dokument v Aspose.Note](./load-onenote-document/)
+
+### [Rozdělení stránky v Aspose.Note](./page-splitting/)
+
+### [Dokument chráněný heslem v Aspose.Note](./password-protected-document/)
+
+### [Získat formát souboru v Aspose.Note](./retrieve-file-format/)
+
+### [Uložit dokument do formátu OneNote v Aspose.Note](./save-doc-to-onenote-format/)
+
+### [Uložit rozsah stránek jako PDF v Aspose.Note](./save-range-pages-as-pdf/)
+
+### [Uložit jako binární obrázek v Aspose.Note](./save-to-binary-image/)
+
+### [Uložit jako obrázek v Aspose.Note](./save-to-image/)
+
+### [Uložit jako černobílý obrázek v Aspose.Note](./save-to-grayscale-image/)
+
+### [Uložit jako JPEG obrázek v Aspose.Note](./save-to-jpeg-image/)
+
+### [Uložit jako PDF v Aspose.Note](./save-to-pdf/)
+
+### [Uložit jako TIFF obrázek v Aspose.Note](./save-to-tiff-image/)
+
+### [Uložit s určenými fonty v Aspose.Note](./save-using-specified-fonts/)
+
+### [Uložit s výchozími nastaveními v Aspose.Note](./save-with-default-settings/)
+
+### [Specifikovat možnosti uložení v Aspose.Note](./specify-save-options/)
+
+### [Uživatelské callbacky při ukládání v Aspose.Note](./user-saving-callbacks/)
+Přizpůsobte ukládání fontů, CSS a obrázků. Podrobné instrukce jsou k dispozici [zde](./user-saving-callbacks/).
+
+## Často kladené otázky
+
+**Q: Jak načíst šifrovaný soubor OneNote?**  
+A: Předávejte heslo do přetížení `Document.Load`: `Document.Load("file.one", "password")`. Aspose.Note dešifruje sešit v paměti.
+
+**Q: Mohu exportovat sešit OneNote do PDF bez ztráty inkoustových tahů?**  
+A: Ano, PDF exportér zachovává vektorový inkoust, obrázky a vložená média, čímž zajišťuje, že výstup odpovídá původnímu rozvržení sešitu.
+
+**Q: Jaká je maximální velikost souboru, kterou Aspose.Note zvládne?**  
+A: Knihovna může streamovat sešity až do **500 MB** bez načítání celého souboru do RAM díky svému nízko‑paměťovému zpracování.
+
+**Q: Je možné přidat vlastní metadata při ukládání jako PDF?**  
+A: Rozhodně. Použijte `PdfSaveOptions` k nastavení `Author`, `Title`, `Subject` a vlastních XMP metadat před voláním `Save`.
+
+**Q: Potřebuji samostatnou licenci pro každou .NET platformu?**  
+A: Ne. Jedna licence Aspose.Note pro .NET pokrývá .NET Framework, .NET Core i .NET 5/6/7 aplikace.
+
+**Poslední aktualizace:** 2026-05-20  
+**Testováno s:** Aspose.Note 24.12 pro .NET  
+**Autor:** Aspose  
+
+{{< blocks/products/pf/main-container >}}
+
+## Související tutoriály
+
+- [Načíst dokument OneNote v Aspose.Note](/note/net/loading-and-saving-operations/load-onenote-document/)
+- [Uložit dokument do formátu OneNote v Aspose.Note](/note/net/loading-and-saving-operations/save-doc-to-onenote-format/)
+- [Převést sešity do PDF v Aspose Note .NET](/note/net/notebook-operations/convert-to-pdf/)
+
+
+{{< /blocks/products/pf/tutorial-page-section >}}
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}

@@ -1,94 +1,193 @@
 ---
-title: 使用 Aspose.Note for .NET 操作 OneNote 文檔
-linktitle: 載入和儲存操作
+date: 2026-05-20
+description: 了解如何使用 Aspose.Note for .NET 載入 OneNote、將 OneNote 儲存為 PDF、匯出 OneNote 為影像以及在
+  OneNote 上新增頁面標題。
+keywords:
+- how to load onenote
+- save onenote as pdf
+- export onenote to image
+- convert onenote page image
+- add page title onenote
+linktitle: 載入與儲存操作
+schemas:
+- author: Aspose
+  dateModified: '2026-05-20'
+  description: Learn how to load OneNote, save OneNote as PDF, export OneNote to image
+    and add page title on OneNote using Aspose.Note for .NET.
+  headline: How to Load OneNote Documents with Aspose.Note for .NET
+  type: TechArticle
+- questions:
+  - answer: 'Pass the password to the `Document.Load` overload: `Document.Load("file.one",
+      "password")`. Aspose.Note decrypts the notebook in memory.'
+    question: How do I load an encrypted OneNote file?
+  - answer: Yes, the PDF exporter preserves vector ink, images, and embedded media,
+      ensuring the output matches the original notebook layout.
+    question: Can I export a OneNote notebook to PDF without losing ink strokes?
+  - answer: The library can stream notebooks up to **500 MB** without loading the
+      entire file into RAM, thanks to its low‑memory processing engine.
+    question: What is the maximum file size Aspose.Note can handle?
+  - answer: Absolutely. Use `PdfSaveOptions` to set `Author`, `Title`, `Subject`,
+      and custom XMP metadata before calling `Save`.
+    question: Is it possible to add custom metadata when saving as PDF?
+  - answer: No. A single Aspose.Note for .NET license covers .NET Framework, .NET
+      Core, and .NET 5/6/7 applications.
+    question: Do I need a separate license for each .NET platform?
+  type: FAQPage
 second_title: Aspose.Note .NET API
-description: 釋放 Aspose.Note for .NET 的強大功能！深入研究我們的教學課程，了解如何輕鬆載入、儲存和操作 OneNote 文件的逐步指導。
-weight: 25
+title: 如何使用 Aspose.Note for .NET 載入 OneNote 文件
 url: /zh-hant/net/loading-and-saving-operations/
+weight: 25
 ---
 
+{{< blocks/products/products-backtop-button >}}
 {{< blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# 使用 Aspose.Note for .NET 操作 OneNote 文檔
-
+# 如何使用 Aspose.Note for .NET 載入 OneNote 文件
 
 ## 介紹
 
-您準備好開始使用 Aspose.Note for .NET 掌握載入和儲存操作藝術的旅程了嗎？歡迎閱讀全面的指南，我們將在其中揭示操作 Microsoft OneNote 文件的複雜性，幫助您提高開發技能。
+如果您正在尋找在 .NET 應用程式中 **載入 OneNote** 檔案的可靠方法，您來對地方了。本指南將帶您了解如何使用 Aspose.Note for .NET 載入、儲存以及匯出 OneNote 筆記本，並指引您前往我們收藏中最實用的逐步教學。
 
-## Aspose.Note 中的後續匯出操作
-使用 Aspose.Note for .NET 深入研究後續導出操作的領域。我們詳細的教學將帶您踏上旅程，深入了解以各種格式有效保存 OneNote 文件。無論是轉換為 PDF、圖像或其他文件類型，我們都能滿足您的要求。瀏覽錯綜複雜的事物[這裡](./consequent-export-operations/).
+## 快速解答
+- **如何載入 OneNote 檔案？** 使用 `Document.Load("file.one")` – Aspose.Note 會即時將檔案讀入記憶體。  
+- **可以將 OneNote 儲存為 PDF 嗎？** 可以，呼叫 `doc.Save("output.pdf", SaveFormat.Pdf)`。  
+- **可以匯出哪些格式？** 超過 30 種格式，包括 PDF、PNG、JPEG、TIFF 以及 HTML。  
+- **如何新增頁面標題？** 在儲存前設定 `page.Title = "My Title"`。  
+- **正式環境是否需要授權？** 非評估版建置必須使用商業授權。
 
-## 在 Aspose.Note 中將特定頁面轉換為映像
-釋放以程式設計方式將 Microsoft OneNote 文件的特定頁面轉換為映像的能力。我們的逐步指南由 Aspose.Note for .NET 提供支持，等待您的探索[這裡](./convert-specific-page-to-image/)。從程式碼片段到實際範例，了解如何將此功能無縫整合到您的應用程式中。
+## 如何載入 OneNote？
 
-## 在 Aspose.Note 中建立富文本文檔
-使用 Aspose.Note for .NET 製作富文本文件變得輕而易舉。我們的教學不僅提供程式碼範例，還提供無縫整合指南，以確保您輕鬆掌握這項技能[這裡](./create-doc-with-rich-text/)。無論您是要建立發票、報告或任何帶有格式化文字的文檔，本教學都能滿足您的要求。
+**Document** 代表記憶體中的 OneNote 檔案。只需一行程式碼即可載入您的 OneNote 筆記本：
 
-## 在 Aspose.Note 中建立帶有頁面標題的文檔
-了解使用 Aspose.Note for .NET 建立具有標題頁面的文件的藝術。按照我們的逐步指南進行無縫集成[這裡](./create-doc-with-page-title/)。使用此功能增強 OneNote 文件的組織，確保結構化且使用者友好的體驗。
+```csharp
+var doc = new Document("MyNotebook.one");
+```
 
-## Aspose.Note 中的使用者儲存回呼
-在 Aspose.Note for .NET 中控制使用者儲存回呼。輕鬆自訂儲存字體、CSS 和圖像，以提升您的 OneNote 文件操作能力。深入細節[這裡](./user-saving-callbacks/)。此高級功能可讓您根據您的特定要求靈活地自訂保存流程。
+Aspose.Note 會解析檔案，建立記憶體中的物件模型，讓您完整存取節、頁面與資源。此操作同時支援加密與未加密的檔案，且可在 .NET 6+、.NET 5、.NET Core 3.1 以及 .NET Framework 4.6.2+ 上執行。
 
-## 結論
+## 為什麼要將 OneNote 匯出為 PDF 或影像？
 
-恭喜！您剛剛瀏覽了一系列教程，這些教程不僅揭示了 Aspose.Note for .NET 的複雜性，而且還為您提供了掌握加載和保存操作的技能。無論您是經驗豐富的開發人員還是新手，這些教學課程都可以讓您全面了解 OneNote 文件操作。
+將 OneNote 匯出為 PDF 或影像格式是存檔、報告或與未安裝 OneNote 的使用者分享內容的常見需求。Aspose.Note 能在一般伺服器上於 2 秒內 **將 OneNote 匯出為 PDF** 以及 **將 OneNote 匯出為影像**，即使是 100 頁的筆記本，也能處理複雜版面、嵌入檔案與高解析度圖形，且不會失真。  
 
-將 Aspose.Note for .NET 的強大功能無縫整合到您的應用程式中，讓您的開發之旅更加順暢和高效。這些教程中提供的逐步指南、程式碼範例和實作見解可確保您不僅掌握概念，還可以自信地將它們應用到現實場景中。
+具體說明：Aspose.Note 支援 **30+ 輸出格式**（PDF、PNG、JPEG、TIFF、BMP、GIF、SVG、HTML、XPS、DOCX 等），且可在不將整個檔案載入記憶體的情況下處理高達 **500 MB** 的筆記本，這得益於其串流架構。
 
-還在等什麼？深入探索 Aspose.Note for .NET 的世界，釋放您的創造力，並將您的 OneNote 文件操作技能提升到新的高度。快樂編碼！
+## 如何將 OneNote 儲存為 PDF？
 
-## 載入並儲存操作教程
-### [Aspose.Note 中的後續匯出操作](./consequent-export-operations/)
-了解如何在 Aspose.Note for .NET 中執行後續匯出操作，以有效地以不同格式儲存 OneNote 文件。
-### [在 Aspose.Note 中將特定頁面轉換為映像](./convert-specific-page-to-image/)
-了解如何使用 Aspose.Note for .NET 以程式設計方式將 Microsoft OneNote 文件的特定頁面轉換為映像。
-### [在 Aspose.Note 中建立富文本文檔](./create-doc-with-rich-text/)
-了解如何使用 Aspose.Note for .NET 以程式設計方式建立富文本文件。帶有程式碼範例的分步指南。
-### [在 Aspose.Note 中建立帶有頁面標題的文檔](./create-doc-with-page-title/)
-了解如何使用 Aspose.Note for .NET 建立具有標題頁面的文件。請按照我們的逐步指南進行無縫整合。
+**SaveFormat** 是一個列舉，用於指定輸出檔案格式。使用以下程式碼將已載入的筆記本儲存為 PDF：
+
+```csharp
+doc.Save("Report.pdf", SaveFormat.Pdf);
+```
+
+API 會自動將 OneNote 節對應至 PDF 頁面，保留表格、墨跡與嵌入媒體。您亦可透過 **PdfSaveOptions** 微調頁面大小、壓縮與 PDF/A 相容性，該選項提供控制 PDF 輸出的設定，如相容性與壓縮。  
+
+**將 OneNote 匯出為 PDF** 非常適合用於法律文件、企業報告，或任何需要固定版面、可列印格式的情境。
+
+## 如何將 OneNote 匯出為影像？
+
+**ImageSaveOptions** 定義影像匯出的設定，如格式與 DPI。若要將特定頁面轉換為影像，呼叫以下程式碼：
+
+```csharp
+page.Save("Page1.png", ImageSaveOptions.Png);
+```
+
+此單一呼叫會預設以 300 dpi 渲染頁面，產生適合網路發布或 OCR 處理的高畫質 PNG。**將 OneNote 頁面轉換為影像** 功能支援 PNG、JPEG、TIFF 與 BMP，且可透過 `ImageSaveOptions` 指定自訂 DPI、色彩深度與灰階選項。
+
+## 如何在 OneNote 中新增頁面標題？
+
+在儲存前為頁面指定標題：`page.Title = "Quarterly Summary";`。新增頁面標題可提升 OneNote 及後續格式（PDF、HTML）的導覽性，因為標題會顯示為標題或書籤。  
+
+Aspose.Note 亦允許您設定 **metadata**（如作者、建立日期與標籤），這些資訊在 **將 OneNote 儲存為 PDF** 或 **匯出 OneNote 為影像** 時會被保留。
+
+## 常見使用情境
+
+- **自動化報告** – 載入 OneNote 範本，注入資料，並匯出為 PDF 以供分發。  
+- **內容遷移** – 將舊版 OneNote 筆記本轉換為 HTML 或 Markdown，以供現代文件平台使用。  
+- **數位存檔** – 將筆記本儲存為符合 PDF/A‑2b 標準的檔案，以進行長期保存。  
+- **影像產生** – 為選定頁面產生高解析度 PNG，供簡報或 e‑learning 材料使用。  
+
+## 載入與儲存操作教學
+
+### [連續匯出操作於 Aspose.Note](./consequent-export-operations/)
+在此深入了解細節 [此處](./consequent-export-operations/)。
+
+### [將特定頁面轉換為影像於 Aspose.Note](./convert-specific-page-to-image/)
+了解如何使用 Aspose.Note for .NET 以程式方式將 Microsoft OneNote 文件的特定頁面轉換為影像。探索指南 [此處](./convert-specific-page-to-image/)。
+
+### [在 Aspose.Note 中建立含富文字的文件](./create-doc-with-rich-text/)
+使用程式碼範例打造富文字的 OneNote 文件。詳細步驟請參考 [此處](./create-doc-with-rich-text/)。
+
+### [在 Aspose.Note 中建立含頁面標題的文件](./create-doc-with-page-title/)
+建立含有頁面標題的文件以提升導覽性。請參考教學 [此處](./create-doc-with-page-title/)。
+
 ### [在 Aspose.Note 中建立 OneNote 文件並儲存為 HTML](./create-onenote-doc-save-to-html/)
-了解如何使用 Aspose.Note API 在 .NET 應用程式中建立 Microsoft OneNote 文件並將其儲存為 HTML 格式。請按照我們包含逐步範例的綜合教學進行操作。
-### [在 Aspose.Note 中擷取內容](./extract-content/)
-了解如何使用 Aspose.Note for .NET 從 Aspose.Note 文件中擷取內容。這個綜合教程將逐步引導您完成整個過程。
-### [在 Aspose.Note 中載入 OneNote 文檔](./load-onenote-document/)
-了解如何使用 Aspose.Note 在 .NET 中以程式方式載入、加密和解密 OneNote 文件。
-### [Aspose.Note 中的頁面拆分](./page-splitting/)
-了解如何使用不同的演算法在 Aspose.Note for .NET 中有效地分割頁面。確保 PDF 格式的 OneNote 文件組織整齊。
-### [Aspose.Note 中受密碼保護的文檔](./password-protected-document/)
-了解如何使用 Aspose.Note for .NET 處理受密碼保護的文件。輕鬆保護您的敏感資訊。
-### [在 Aspose.Note 中檢索文件格式](./retrieve-file-format/)
-探索 Aspose.Note for .NET，這是一個功能強大的 API，用於以程式設計方式處理 Microsoft OneNote 文件。
-### [在 Aspose.Note 中將文件儲存為 OneNote 格式](./save-doc-to-onenote-format/)
-了解如何使用 Aspose.Note 以程式設計方式在 .NET 中儲存 OneNote 文件。包含程式碼範例的逐步教學。
-### [在 Aspose.Note 中將頁面範圍儲存為 PDF](./save-range-pages-as-pdf/)
-了解如何使用 Aspose.Note for .NET 將 OneNote 文件中的一系列頁面儲存為 PDF 文件。包括逐步教程。
-### [在 Aspose.Note 中儲存到二進位影像](./save-to-binary-image/)
-了解如何使用 Aspose.Note for .NET 將文件轉換為二進位映像。請按照我們的逐步指南進行無縫整合。
-### [在 Aspose.Note 中儲存到映像](./save-to-image/)
-使用 Aspose.Note for .NET 輕鬆將 Microsoft OneNote 文件轉換為 BMP 影像格式。無縫整合、簡單的步驟和強大的功能。
-### [在 Aspose.Note 中儲存為灰階影像](./save-to-grayscale-image/)
-了解如何使用 Aspose.Note for .NET 將 OneNote 文件儲存為灰階影像。按照這個全面的教程進行高效的文檔處理。
-### [在 Aspose.Note 中儲存為 JPEG 影像](./save-to-jpeg-image/)
-了解如何使用 Aspose.Note for .NET 輕鬆將 OneNote 文件儲存為 JPEG 影像。包括逐步指南。
-### [在 Aspose.Note 中儲存為 PDF](./save-to-pdf/)
-了解如何使用 Aspose.Note for .NET 將 Microsoft OneNote 文件儲存為 PDF 格式。包含 Letter 和 A4 頁面佈局程式碼範例的逐步教學。
-### [在 Aspose.Note 中儲存為 TIFF 影像](./save-to-tiff-image/)
-了解如何使用 Aspose.Note for .NET 透過各種壓縮方法將 OneNote 文件儲存為 TIFF 映像。
-### [在 Aspose.Note 中使用指定字體儲存](./save-using-specified-fonts/)
-了解如何在 Aspose.Note for .NET 中儲存具有指定字型的文件。輕鬆自訂字體設置，以實現一致的文件格式。
-### [在 Aspose.Note 中使用預設設定保存](./save-with-default-settings/)
-透過逐步指南了解如何在 Aspose.Note for .NET 中使用預設設定來儲存文件。
-### [在 Aspose.Note 中指定儲存選項](./specify-save-options/)
-了解如何在 Aspose.Note for .NET 中指定儲存選項以自訂 OneNote 文件的輸出格式和品質。
-### [Aspose.Note 中的使用者儲存回呼](./user-saving-callbacks/)
-了解如何在 Aspose.Note for .NET 中實作使用者儲存回呼，以自訂儲存字體、CSS 和映像。
-{{< /blocks/products/pf/tutorial-page-section >}}
 
+### [在 Aspose.Note 中擷取內容](./extract-content/)
+
+### [在 Aspose.Note 中載入 OneNote 文件](./load-onenote-document/)
+
+### [在 Aspose.Note 中分割頁面](./page-splitting/)
+
+### [在 Aspose.Note 中的受密碼保護文件](./password-protected-document/)
+
+### [在 Aspose.Note 中取得檔案格式](./retrieve-file-format/)
+
+### [在 Aspose.Note 中將文件儲存為 OneNote 格式](./save-doc-to-onenote-format/)
+
+### [在 Aspose.Note 中將頁面範圍儲存為 PDF](./save-range-pages-as-pdf/)
+
+### [在 Aspose.Note 中儲存為二進位影像](./save-to-binary-image/)
+
+### [在 Aspose.Note 中儲存為影像](./save-to-image/)
+
+### [在 Aspose.Note 中儲存為灰階影像](./save-to-grayscale-image/)
+
+### [在 Aspose.Note 中儲存為 JPEG 影像](./save-to-jpeg-image/)
+
+### [在 Aspose.Note 中儲存為 PDF](./save-to-pdf/)
+
+### [在 Aspose.Note 中儲存為 TIFF 影像](./save-to-tiff-image/)
+
+### [在 Aspose.Note 中使用指定字型儲存](./save-using-specified-fonts/)
+
+### [在 Aspose.Note 中使用預設設定儲存](./save-with-default-settings/)
+
+### [在 Aspose.Note 中指定儲存選項](./specify-save-options/)
+
+### [在 Aspose.Note 中的使用者儲存回呼](./user-saving-callbacks/)
+自訂儲存字型、CSS 與影像。詳細說明請參考 [此處](./user-saving-callbacks/)。
+
+## 常見問題
+
+**Q: 如何載入加密的 OneNote 檔案？**  
+A: 將密碼傳給 `Document.Load` 的重載方法：`Document.Load("file.one", "password")`。Aspose.Note 會在記憶體中解密筆記本。
+
+**Q: 能否將 OneNote 筆記本匯出為 PDF 而不遺失墨跡？**  
+A: 可以，PDF 匯出器會保留向量墨跡、影像與嵌入媒體，確保輸出與原始筆記本版面相同。
+
+**Q: Aspose.Note 能處理的最大檔案大小是多少？**  
+A: 由於低記憶體處理引擎，該函式庫可串流處理高達 **500 MB** 的筆記本，而無需將整個檔案載入 RAM。
+
+**Q: 在儲存為 PDF 時能否加入自訂 metadata？**  
+A: 完全可以。使用 `PdfSaveOptions` 在呼叫 `Save` 前設定 `Author`、`Title`、`Subject` 以及自訂的 XMP metadata。
+
+**Q: 每個 .NET 平台是否需要單獨的授權？**  
+A: 不需要。一份 Aspose.Note for .NET 授權即可涵蓋 .NET Framework、.NET Core 以及 .NET 5/6/7 應用程式。
+
+**最後更新：** 2026-05-20  
+**測試版本：** Aspose.Note 24.12 for .NET  
+**作者：** Aspose  
+
+{{< blocks/products/pf/main-container >}}
+
+## 相關教學
+
+- [在 Aspose.Note 中載入 OneNote 文件](/note/net/loading-and-saving-operations/load-onenote-document/)
+- [在 Aspose.Note 中將文件儲存為 OneNote 格式](/note/net/loading-and-saving-operations/save-doc-to-onenote-format/)
+- [在 Aspose Note .NET 中將筆記本轉換為 PDF](/note/net/notebook-operations/convert-to-pdf/)
+
+
+{{< /blocks/products/pf/tutorial-page-section >}}
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}

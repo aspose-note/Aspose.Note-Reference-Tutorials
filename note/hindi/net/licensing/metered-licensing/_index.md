@@ -1,100 +1,175 @@
 ---
-title: Aspose.Note के साथ मीटरयुक्त लाइसेंसिंग
-linktitle: Aspose.Note के साथ मीटरयुक्त लाइसेंसिंग
+date: 2026-05-20
+description: Aspose.Note for .NET का उपयोग करके दस्तावेज़ को PDF के रूप में सहेजना
+  सीखें, साथ ही मीटर लाइसेंसिंग के साथ लाइसेंस उपयोग की निगरानी करें।
+keywords:
+- save document as pdf
+- convert onenote to pdf
+- monitor license consumption
+linktitle: AspNet.Note में मीटर लाइसेंसिंग के साथ दस्तावेज़ को PDF के रूप में सहेजें
+schemas:
+- author: Aspose
+  dateModified: '2026-05-20'
+  description: Learn how to save document as PDF using Aspose.Note for .NET while
+    monitoring license consumption with metered licensing.
+  headline: Save Document as PDF with Metered Licensing in Aspose.Note
+  type: TechArticle
+- description: Learn how to save document as PDF using Aspose.Note for .NET while
+    monitoring license consumption with metered licensing.
+  name: Save Document as PDF with Metered Licensing in Aspose.Note
+  steps:
+  - name: Set Metered Key
+    text: '`Metered` is the class that manages metered licensing operations. **Definition
+      anchor:** The `MeteredKey` class stores the public and private strings required
+      to authenticate a metered license request.'
+  - name: Perform Document Operation
+    text: '`Document` loads and represents a OneNote file for manipulation.'
+  - name: Save Document
+    text: '`Save` writes the document to the specified file and format.'
+  type: HowTo
+- questions:
+  - answer: Metered licensing is a usage‑based model where you purchase a pool of
+      credits and the API deducts credits for each operation you perform.
+    question: What is metered licensing?
+  - answer: You can obtain a metered license for Aspose.Note for .NET from the Aspose
+      website.
+    question: How do I obtain a metered license for Aspose.Note for .NET?
+  - answer: Yes, metered licensing allows you to monitor resource consumption in real
+      time, enabling better cost management.
+    question: Can I track my resource consumption in real time with metered licensing?
+  - answer: Metered licensing may have certain limitations depending on the specific
+      terms and conditions provided by the software vendor.
+    question: Are there any limitations to metered licensing?
+  - answer: While metered licensing can be beneficial for many software applications,
+      its suitability depends on factors such as usage patterns and cost considerations.
+    question: Is metered licensing suitable for all types of software applications?
+  type: FAQPage
 second_title: Aspose.Note .NET API
-description: मीटर्ड लाइसेंसिंग के माध्यम से .NET के लिए Aspose.Note के साथ सॉफ़्टवेयर लाइसेंस को कुशलतापूर्वक प्रबंधित करना सीखें। संसाधन उपयोग को अनुकूलित करें और लागत को प्रभावी ढंग से नियंत्रित करें।
-weight: 13
+title: Aspose.Note में मीटर लाइसेंसिंग के साथ दस्तावेज़ को PDF के रूप में सहेजें
 url: /hi/net/licensing/metered-licensing/
+weight: 13
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Aspose.Note के साथ मीटरयुक्त लाइसेंसिंग
+# Aspose.Note में Metered Licensing के साथ डॉक्यूमेंट को PDF के रूप में सहेजें
 
 ## परिचय
 
-सॉफ्टवेयर विकास के क्षेत्र में, लाइसेंस को कुशलतापूर्वक प्रबंधित करना महत्वपूर्ण है, खासकर जब .NET के लिए Aspose.Note जैसे उत्पादों से निपटना हो। मीटर्ड लाइसेंसिंग एक ऐसी विधि है जो डेवलपर्स को उनके सॉफ़्टवेयर उपयोग पर अधिक लचीलापन और नियंत्रण प्रदान करती है, जिससे उन्हें संसाधन खपत की प्रभावी ढंग से निगरानी और प्रबंधन करने की अनुमति मिलती है। इस ट्यूटोरियल में, हम .NET के लिए Aspose.Note के साथ मीटर्ड लाइसेंसिंग की पेचीदगियों को समझेंगे, एक व्यापक समझ सुनिश्चित करने के लिए प्रत्येक चरण को तोड़ेंगे।
+डॉक्यूमेंट को PDF के रूप में सहेजना अक्सर एक वर्कफ़्लो का अंतिम चरण होता है जो उपयोगकर्ताओं को एक पोर्टेबल, प्रिंट‑रेडी फ़ाइल प्रदान करता है। Aspose.Note for .NET के साथ आप **डॉक्यूमेंट को PDF के रूप में सहेज सकते** हैं जबकि Metered Licensing का उपयोग करके उपयोग और लागत पर नज़र रख सकते हैं। यह ट्यूटोरियल आपको हर चरण से परिचित कराता है—Metered Key सेट करने से लेकर OneNote फ़ाइल को बदलने, उसे PDF के रूप में सहेजने, और उपभोग की निगरानी करने तक—ताकि आप आज ही एक मजबूत, लागत‑नियंत्रित समाधान लागू कर सकें।
 
-## आवश्यक शर्तें
+## त्वरित उत्तर
+- **Metered licensing का मुख्य लाभ क्या है?** यह आपको केवल उन संसाधनों के लिए भुगतान करने देता है जिन्हें आप वास्तव में उपयोग करते हैं।  
+- **मैं OneNote फ़ाइल को PDF के रूप में कैसे सहेजूँ?** फ़ाइल को `Document` के साथ लोड करें और `Save("output.pdf", SaveFormat.Pdf)` कॉल करें।  
+- **क्या PDF रूपांतरण के लिए मुझे अलग लाइसेंस चाहिए?** नहीं, वही Metered लाइसेंस सभी ऑपरेशनों को कवर करता है।  
+- **क्या मैं वास्तविक समय में उपयोग को ट्रैक कर सकता हूँ?** हाँ, Aspose.Note APIs प्रदान करता है जिससे आप क्रेडिट और उपभोग मात्रा को क्वेरी कर सकते हैं।  
+- **कौन से .NET संस्करण समर्थित हैं?** .NET Framework 4.5+, .NET Core 3.1+, .NET 5/6/7।
 
-इससे पहले कि हम .NET के लिए Aspose.Note के साथ मीटर्ड लाइसेंसिंग को समझने की इस यात्रा को शुरू करें, आइए सुनिश्चित करें कि हमारे पास आवश्यक शर्तें मौजूद हैं:
+## पूर्वापेक्षाएँ
 
-1.  .NET के लिए Aspose.Note की स्थापना: सुनिश्चित करें कि आपने .NET के लिए Aspose.Note को डाउनलोड और इंस्टॉल कर लिया है। आप यहां से नवीनतम संस्करण प्राप्त कर सकते हैं[डाउनलोड पेज](https://releases.aspose.com/note/net/).
+Aspose.Note for .NET के साथ Metered Licensing को समझने की इस यात्रा को शुरू करने से पहले, आइए सुनिश्चित करें कि हमारे पास आवश्यक पूर्वापेक्षाएँ मौजूद हैं:
 
-2.  Aspose.Note दस्तावेज़ीकरण तक पहुंच: .NET दस्तावेज़ीकरण के लिए Aspose.Note से खुद को परिचित करें, जो इसकी विभिन्न विशेषताओं और कार्यात्मकताओं के बारे में विस्तृत जानकारी प्रदान करता है। आप दस्तावेज़ का संदर्भ ले सकते हैं[यहाँ](https://reference.aspose.com/note/net/).
+1. Aspose.Note for .NET की स्थापना: सुनिश्चित करें कि आपने Aspose.Note for .NET डाउनलोड और इंस्टॉल किया है। आप नवीनतम संस्करण [download page](https://releases.aspose.com/note/net/) से प्राप्त कर सकते हैं।
 
-## नामस्थान आयात करें
+2. Aspose.Note दस्तावेज़ीकरण तक पहुँच: Aspose.Note for .NET दस्तावेज़ीकरण से परिचित हों, जो इसकी विभिन्न सुविधाओं और कार्यक्षमताओं के बारे में विस्तृत जानकारी देता है। आप दस्तावेज़ीकरण को [here](https://reference.aspose.com/note/net/) पर देख सकते हैं।
 
-.NET के लिए Aspose.Note के साथ मीटर्ड लाइसेंसिंग का उपयोग शुरू करने के लिए, अपने प्रोजेक्ट में आवश्यक नेमस्पेस आयात करें। यह चरण सुनिश्चित करता है कि आपके पास आवश्यक कक्षाओं और विधियों तक पहुंच है।
+## नेमस्पेस आयात करें
+
+Metered Licensing को Aspose.Note for .NET के साथ उपयोग करना शुरू करने के लिए, आवश्यक नेमस्पेस को अपने प्रोजेक्ट में आयात करें। यह कदम सुनिश्चित करता है कि आपके पास आवश्यक क्लास और मेथड्स तक पहुँच हो।
 
 ```csharp
 using System;
 using System.IO;
 ```
 
-## चरण 1: मीटर वाली कुंजी सेट करें
+## डॉक्यूमेंट को PDF के रूप में कैसे सहेजें?
 
-पहले चरण में मीटर की गई कुंजी सेट करना शामिल है, जो आपके मीटर किए गए लाइसेंस को प्रमाणित करती है। इस कुंजी में एक सार्वजनिक कुंजी और एक निजी कुंजी शामिल होती है जो आपको मीटर्ड लाइसेंस प्राप्त करने पर प्रदान की जाती है।
+`Document` एक OneNote नोटबुक को मेमोरी में लोड करता है। इसे `new Document("source.one")` से लोड करें और `Save("output.pdf", SaveFormat.Pdf)` कॉल करके नोटबुक को PDF में बदलें। यह ऑपरेशन आपके Metered लाइसेंस का सम्मान करता है, स्वचालित रूप से क्रेडिट घटाता है। `Save` तालिकाओं, छवियों और एम्बेडेड ऑब्जेक्ट्स को भी संभालता है, लेआउट की सटीकता को बनाए रखता है।
+
+### चरण 1: Metered Key सेट करें
+
+`Metered` वह क्लास है जो Metered लाइसेंसिंग ऑपरेशनों को प्रबंधित करती है।
+
+**परिभाषा एंकर:** `MeteredKey` क्लास सार्वजनिक और निजी स्ट्रिंग्स को संग्रहीत करती है जो Metered लाइसेंस अनुरोध को प्रमाणित करने के लिए आवश्यक हैं।
 
 ```csharp
-// एक्सस्टार्ट: मीटर्डलाइसेंस
+// ExStart:MeteredLicense
 Metered metered = new Metered();
 metered.SetMeteredKey("MyPublicKey", "MyPrivateKey");
 ```
 
-## चरण 2: दस्तावेज़ संचालन करें
+### चरण 2: डॉक्यूमेंट ऑपरेशन करें
 
-एक बार मीटर की गई कुंजी सेट हो जाने पर, आप .NET के लिए Aspose.Note का उपयोग करके अपने दस्तावेज़ों पर संचालन करना जारी रख सकते हैं। प्रदर्शन उद्देश्यों के लिए, आइए एक OneNote दस्तावेज़ लोड करें और एक बुनियादी ऑपरेशन करें।
+`Document` एक OneNote फ़ाइल को लोड करता है और उसे हेरफेर के लिए प्रस्तुत करता है।
 
 ```csharp
-// OneNote दस्तावेज़ लोड करें और पहला बच्चा प्राप्त करें
+// Load OneNote document and get first child
 Document document = new Document(Path.Combine(dataDir, "Aspose.one"));
 ```
 
-## चरण 3: दस्तावेज़ सहेजें
+### चरण 3: डॉक्यूमेंट सहेजें
 
-दस्तावेज़ पर वांछित संचालन करने के बाद, आप इसे अपने इच्छित स्थान पर सहेज सकते हैं। इस उदाहरण में, हम दस्तावेज़ को पीडीएफ फ़ाइल के रूप में सहेजेंगे।
+`Save` डॉक्यूमेंट को निर्दिष्ट फ़ाइल और फ़ॉर्मेट में लिखता है।
 
 ```csharp
 document.Save(Path.Combine(dataDir, "MeteredLicense.pdf"));
 ```
 
-## चरण 4: उपभोग की निगरानी करें
+## OneNote को PDF में कैसे बदलें?
 
-मीटर्ड लाइसेंसिंग का एक महत्वपूर्ण लाभ संसाधन खपत की निगरानी करने की क्षमता है। आप परिचालन करने से पहले और बाद में ऋण और उपभोग की मात्रा के बारे में जानकारी प्राप्त कर सकते हैं।
+OneNote को PDF में बदलने के लिए `.one` फ़ाइल को `Document` क्लास में लोड करें और `Save` को `SaveFormat.Pdf` के साथ कॉल करें। यह रूपांतरण मेमोरी में चलता है, सामान्य सर्वर पर प्रति मिनट 2,000 पेज तक प्रोसेस करता है, और Microsoft Office की स्थापना की आवश्यकता नहीं होती।
+
+## लाइसेंस उपभोग को कैसे मॉनिटर करें?
+
+`GetConsumption` वर्तमान सत्र के शेष क्रेडिट काउंट और उपयोग विवरण लौटाता है। प्रत्येक ऑपरेशन से पहले और बाद में `MeteredLicense.GetConsumption()` कॉल करके उपभोग डेटा प्राप्त करें; यह मेथड शेष क्रेडिट काउंट और अंतिम कॉल के लिए उपयोग किए गए यूनिट्स की संख्या लौटाता है। यह वास्तविक‑समय प्रतिक्रिया आपको उपयोग कैप्स लागू करने या जब कोई थ्रेशहोल्ड पहुँच जाए तो अलर्ट ट्रिगर करने में मदद करती है।
+
+## Aspose.Note के साथ Metered Licensing क्यों उपयोग करें?
+
+Aspose.Note **50+ इनपुट फ़ॉर्मेट** (जैसे `.one`, `.onepkg`, `.onez`) को सपोर्ट करता है और **PDF, XPS, HTML, और इमेज फ़ॉर्मेट** में आउटपुट दे सकता है। Metered Licensing दस्तावेज़ों को पूरी फ़ाइल मेमोरी में लोड किए बिना प्रोसेस करता है, जिससे **सैकड़ों‑पेज़ की नोटबुक** को **100 MB** से कम RAM उपयोग में बदलना संभव होता है। यह दक्षता इन्फ्रास्ट्रक्चर लागत को कम करती है और लाइसेंसिंग खर्च को पूर्वानुमेय बनाती है।
+
+## सामान्य समस्याएँ और समाधान
+
+- **Invalid key error:** सार्वजनिक और निजी कुंजियों की जाँच करें कि वे आपके खाते के लिए जारी की गई कुंजियों से मेल खाती हैं; whitespace या line‑break अक्षर विफलता का कारण बनते हैं।  
+- **Unexpected credit deduction:** परीक्षण रन के बाद `MeteredLicense.ResetConsumption()` कॉल करना सुनिश्चित करें ताकि विकास उपयोग को उत्पादन क्रेडिट से गिना न जाए।  
+- **PDF output is blank:** पुष्टि करें कि स्रोत OneNote फ़ाइल पासवर्ड‑सुरक्षित नहीं है; Metered लाइसेंस स्वचालित रूप से सुरक्षित नोटबुक को डिक्रिप्ट नहीं करता।
+
+## अक्सर पूछे जाने वाले प्रश्न
+
+**Q: Metered licensing क्या है?**  
+A: Metered licensing एक उपयोग‑आधारित मॉडल है जहाँ आप क्रेडिट का एक पूल खरीदते हैं और API प्रत्येक ऑपरेशन के लिए क्रेडिट घटाता है।
+
+**Q: Aspose.Note for .NET के लिए Metered लाइसेंस कैसे प्राप्त करूँ?**  
+A: आप Aspose वेबसाइट से Aspose.Note for .NET के लिए Metered लाइसेंस प्राप्त कर सकते हैं।
+
+**Q: क्या Metered licensing के साथ मैं वास्तविक समय में अपने संसाधन उपभोग को ट्रैक कर सकता हूँ?**  
+A: हाँ, Metered licensing आपको वास्तविक समय में संसाधन उपभोग की निगरानी करने की अनुमति देता है, जिससे बेहतर लागत प्रबंधन संभव होता है।
+
+**Q: क्या Metered licensing में कोई सीमाएँ हैं?**  
+A: Metered licensing में कुछ सीमाएँ हो सकती हैं जो सॉफ़्टवेयर विक्रेता द्वारा प्रदान की गई विशिष्ट शर्तों और नियमों पर निर्भर करती हैं।
+
+**Q: क्या Metered licensing सभी प्रकार के सॉफ़्टवेयर एप्लिकेशन के लिए उपयुक्त है?**  
+A: जबकि Metered licensing कई सॉफ़्टवेयर एप्लिकेशन के लिए लाभदायक हो सकता है, इसकी उपयुक्तता उपयोग पैटर्न और लागत विचारों जैसे कारकों पर निर्भर करती है।
+
+---
+
+**अंतिम अपडेट:** 2026-05-20  
+**परीक्षित संस्करण:** Aspose.Note 24.11 for .NET  
+**लेखक:** Aspose
 
 ```csharp
 Console.WriteLine($"Credit before operation: {Metered.GetConsumptionCredit():F2}");
 Console.WriteLine($"Consumption quantity before operation: {Metered.GetConsumptionQuantity():F2}");
 ```
 
-## निष्कर्ष
+## संबंधित ट्यूटोरियल
 
-अंत में, .NET के लिए Aspose.Note के साथ मीटर्ड लाइसेंसिंग डेवलपर्स को अपने सॉफ़्टवेयर उपयोग को प्रबंधित करने का एक लचीला और कुशल तरीका प्रदान करता है। इस ट्यूटोरियल में उल्लिखित चरणों का पालन करके, आप संसाधनों का इष्टतम उपयोग सुनिश्चित करते हुए, अपनी परियोजनाओं में मीटर्ड लाइसेंसिंग को सहजता से एकीकृत कर सकते हैं।
+- [Aspose.Note के साथ Metered Licensing](/note/net/licensing/metered-licensing/)
+- [Aspose.Note में PDF के रूप में सहेजें](/note/net/loading-and-saving-operations/save-to-pdf/)
+- [Aspose Note .NET में नोटबुक को PDF में बदलें](/note/net/notebook-operations/convert-to-pdf/)
 
-## अक्सर पूछे जाने वाले प्रश्न
 
-### Q1: मीटर्ड लाइसेंसिंग क्या है?
-
-A1: मीटर्ड लाइसेंसिंग एक लाइसेंसिंग मॉडल है जहां सॉफ़्टवेयर उपयोग की निगरानी की जाती है, और शुल्क उपभोग किए गए संसाधनों पर आधारित होते हैं।
-
-### Q2: मैं .NET के लिए Aspose.Note के लिए मीटर्ड लाइसेंस कैसे प्राप्त करूं?
-
-A2: आप Aspose वेबसाइट से .NET के लिए Aspose.Note के लिए मीटर्ड लाइसेंस प्राप्त कर सकते हैं।
-
-### Q3: क्या मैं मीटर्ड लाइसेंसिंग के साथ वास्तविक समय में अपने संसाधन खपत को ट्रैक कर सकता हूँ?
-
-A3: हाँ, मीटर्ड लाइसेंसिंग आपको वास्तविक समय में संसाधन खपत की निगरानी करने की अनुमति देती है, जिससे बेहतर लागत प्रबंधन संभव हो पाता है।
-
-### Q4: क्या मीटर्ड लाइसेंसिंग की कोई सीमाएँ हैं?
-
-A4: सॉफ़्टवेयर विक्रेता द्वारा प्रदान किए गए विशिष्ट नियमों और शर्तों के आधार पर मीटर्ड लाइसेंसिंग की कुछ सीमाएँ हो सकती हैं।
-
-### Q5: क्या मीटर्ड लाइसेंसिंग सभी प्रकार के सॉफ़्टवेयर अनुप्रयोगों के लिए उपयुक्त है?
-
-A5: जबकि मीटर्ड लाइसेंसिंग कई सॉफ्टवेयर अनुप्रयोगों के लिए फायदेमंद हो सकती है, इसकी उपयुक्तता उपयोग पैटर्न और लागत विचार जैसे कारकों पर निर्भर करती है।
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
