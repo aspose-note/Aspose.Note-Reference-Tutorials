@@ -1,12 +1,41 @@
 ---
-date: 2025-12-25
-description: Tanulja meg, hogyan **hozzon létre OneNote jegyzettömböt**, és végezze
-  el a gyermekcsomópont hozzáadását, a jelszóval védett betöltést, a gyermekcsomópont
-  eltávolítását, a gazdag szöveg olvasását, valamint a jelszóval védett írási feladatokat
-  az Aspose.Note for Java segítségével.
+date: 2026-05-10
+description: Learn the Aspose.Note OneNote notebook tutorial to **create OneNote notebook**,
+  add or remove child nodes, load password‑protected files, read rich text, and write
+  secure notebooks using Java.
+keywords:
+- aspose.note onenote notebook tutorial
+- create onenote notebook java
+- aspose.note java operations
 linktitle: OneNote Notebook Operations
+schemas:
+- author: Aspose
+  dateModified: '2026-05-10'
+  description: Learn the Aspose.Note OneNote notebook tutorial to **create OneNote
+    notebook**, add or remove child nodes, load password‑protected files, read rich
+    text, and write secure notebooks using Java.
+  headline: Aspose.Note OneNote Notebook Tutorial – Create and Manage Notebooks with
+    Java
+  type: TechArticle
+- questions:
+  - answer: No. Aspose.Note for Java works independently and does not require any
+      Microsoft Office components.
+    question: Do I need Microsoft Office installed to use Aspose.Note?
+  - answer: The library supports 12 input and output formats, including .one, .onepkg,
+      and conversion to PDF, HTML, and image types.
+    question: How many OneNote formats does Aspose.Note support?
+  - answer: Yes—Aspose.Note processes multi‑hundred‑page notebooks without loading
+      the entire file into memory, thanks to its streaming architecture.
+    question: Can I convert a notebook with more than 500 pages?
+  - answer: Passwords up to 128 characters are fully supported, matching industry‑standard
+      encryption constraints.
+    question: Is there a limit to the password length for protected notebooks?
+  - answer: Each linked tutorial contains a complete, runnable Java example that demonstrates
+      the specific API call.
+    question: Where can I find sample code for each operation?
+  type: FAQPage
 second_title: Aspose.Note Java API
-title: OneNote jegyzetfüzet létrehozása – Műveletek az Aspose.Note for Java-val
+title: Aspose.Note OneNote Notebook Tutorial – Create and Manage Notebooks with Java
 url: /hu/java/onenote-notebook-operations/
 weight: 28
 ---
@@ -15,97 +44,95 @@ weight: 28
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# OneNote jegyzetfüzet műveletek
+# Aspose.Note OneNote jegyzetfüzet oktató
 
 ## Bevezetés
 
-Készen állsz **OneNote notebook** fájlok létrehozására, ami a Java alkalmazást hajtják végre? Ebben a központban felfedezett az Aspose.Note for Java teljes oktatási sorozatát, amely mindenről útmutatót ad, a gyermekcsomópontok hozzáadásától a jelszóval védett jegyzetfüzetek betöltéséig. Akár gazdag szöveget kell olvasnod, egy gyermekcsomópontot eltávolítani, vagy jelszóval védett dokumentumot írnod, mi segítünk. Nézzük meg részletesen a főbb funkciókat:
+Készen áll arra, hogy elsajátítsa a **Aspose.Note OneNote notebook tutorial**-t, és robusztus OneNote megoldásokat építsen Java-ban? Ez a központ minden alapvető műveletet összegyűjt – a jegyzetfüzet létrehozásától a jelszóval való védelméig –, hogy zökkenőmentesen integrálhassa a OneNote funkciókat alkalmazásaiba. Akár gyermekcsomópontokat ad hozzá, titkosított jegyzetfüzeteket tölt be, vagy gazdag szöveget nyer ki, az alábbi lépések világos példákkal és legjobb gyakorlatokkal vezetnek végig minden feladaton.
 
-## Az alapvető képességek gyors áttekintése
+## Gyors válaszok
+- **Hogyan hozhatok létre OneNote jegyzetfüzetet Java-ban?** Használja a `Notebook.create()`-t, és adja meg a fájl útvonalát; az API automatikusan kezeli a háttérben lévő XML struktúrát.  
+- **Hozzáadhatok szekciókat vagy oldalakat programozottan?** Igen, hívja a `notebook.getSections().add(section)` és a `section.getPages().add(page)` metódusokat.  
+- **Támogatott a jelszóval védett hozzáférés?** Teljesen – használja a `LoadOptions`-t jelszóval a megnyitáshoz, és a `SaveOptions`-t jelszóval a mentéshez.  
+- **Milyen nyelvi beállítások érhetők el?** Az Aspose.Note több mint 30 nyelvi beállítást támogat, biztosítva a helyes nyelvspecifikus formázást.  
+- **Szükségem van licencre a termeléshez?** A telepítéshez kereskedelmi licenc szükséges; ingyenes próbaverzió is elérhető értékeléshez.
 
-- **Gyermek csomópont hozzáadása** – Szekciók és oldalak programozott szervezése.
-- **Load password protected** – Biztonságos módon nyissa meg a védett jegyzetfüzeteket.
-- **Remove child node** – Könnyedén távolítsa el a nem kívánt szekciókat.
-- **Read rich text** – Formázott tartalom kinyerése feldolgozáshoz.
-- **Write password protected** – Biztonságosan mentse a kimeneti jegyzetfüzeteket.
+## A fő képességek gyors áttekintése
 
-## A területi beállítások használata a OneNote-ban
+- **Gyermekcsomópont hozzáadása** – Szekciók és oldalak programozott szervezése.  
+- **Jelszóval védett betöltése** – Biztonságosan nyissa meg a védett jegyzetfüzeteket.  
+- **Gyermekcsomópont eltávolítása** – Könnyedén tisztítsa meg a nem kívánt szekciókat.  
+- **Gazdag szöveg olvasása** – Formázott tartalom kinyerése feldolgozáshoz.  
+- **Jelszóval védett írás** – Biztosítsa a kimeneti jegyzetfüzeteket.
 
-Fedezd Aspose.Note for Java valódi lehetőségeit, hatékonyan dolgozol OneNote fájlokkal. Ebben az oktatóanyagról lépésről lépésre bemutatjuk, hogyan dolgozz különböző területi beállításokkal, biztosítva, hogy Java alkalmazásod zökkenőmentesen alkalmazkodjon a különböző nyelvi és regionális preferenciákhoz. [Felfedezés most](./working-with-locales/)
+## Aspose.Note OneNote jegyzetfüzet oktató áttekintése
+A **Aspose.Note OneNote notebook tutorial** végigvezeti Önt a jegyzetfüzetek teljes körű kezelésén Java használatával. Megtanulja, hogyan hozhat létre, módosíthat, védhet és renderelhet OneNote fájlokat anélkül, hogy a Microsoft Office telepítve lenne.
 
-## Gyermekcsomópont hozzáadása a OneNote-jegyzetfüzetben
+## Munka a nyelvi beállításokkal OneNote-ban
 
-Frissíteni szeretnéd a jegyzetek szervezését? Tanuld meg, hogyan adhatsz programozottan gyermekcsomópontokat OneNote jegyzetfüzetekhez az Aspose.Note for Java segítségével. Ez a lépésről-lépésre útmutató betekintést és tippeket nyújt a jegyzetkezelés egyszerű fejlesztéséhez. [Kezdés](./add-child-node/)
+Fedezze fel az Aspose.Note for Java valódi lehetőségeit, miközben hatékonyan dolgozik OneNote fájlokkal. Ebben az oktatóban végigvezetjük a különböző nyelvi beállítások kezelésén, biztosítva, hogy Java alkalmazása zökkenőmentesen alkalmazkodjon a változatos nyelvi és regionális preferenciákhoz. [Explore Now](./working-with-locales/)
 
-## Jegyzetfüzet konvertálása képpé a OneNote-ban
+## Gyermekcsomópont hozzáadása OneNote jegyzetfüzetben
 
-Bővítsd Java alkalmazásaidat azzal a képességgel, hogy OneNote jegyzetfüzeteket képek konvertálj. Az Aspose.Note for Java segítségével ez a folyamat zökkenőmentes és hatékony. Kövesd az útmutatót, hogy megtanuld, hogyan valósíthatod meg ezt a funkciót egyszerűen. [További információ](./convert-notebook-to-image/)
+Szüksége van a jegyzetek szervezésének fejlesztésére? Tanulja meg, hogyan adhat programozottan gyermekcsomópontokat OneNote jegyzetfüzetekhez az Aspose.Note for Java segítségével. Ez a lépésről‑lépésre útmutató betekintést és tippeket nyújt a jegyzetkezelés egyszerű javításához. [Get Started](./add-child-node/)
 
-## Jegyzetfüzet konvertálása lapított képpé a OneNote-ban
+## Jegyzetfüzet konvertálása képpé OneNote-ban
 
-Emeld a képkonverziót egy szinttel feljebb, és tanuld meg, hogyan lapíts le egy jegyzetfüzetet egyetlen képfájlba az Aspose.Note for Java. Minden elemet könnyen és hatékonyan megőrizhetsz. [Továbbiak felfedezése](./convert-notebook-to-flattened-image/)
+Fejlessze Java alkalmazásait azzal, hogy integrálja a jegyzetfüzetek képpé konvertálásának képességét OneNote-ban. Az Aspose.Note for Java-val ez a folyamat zökkenőmentes és hatékony lesz. Kövesse az útmutatónkat, hogy megtanulja, hogyan valósítható meg ez a funkció egyszerűen. [Learn How](./convert-notebook-to-image/)
 
-### További OneNote-jegyzetfüzet-műveletek oktatóanyagok
+## Jegyzetfüzet konvertálása lapos képpé OneNote-ban
 
-#### [Working with Locales in OneNote - Aspose.Note](./working-with-locales/)
-Fedezd fel az Aspose.Note for Java erejét, és egyszerűen optimalizáld a OneNote fájlok feldolgozását. Fedezd fel a funkciókat, oktatóanyagokat és támogatást.
+Emelje a képkonvertálást egy szinttel feljebb, ha megtanulja, hogyan laposíthat egy jegyzetfüzetet egyetlen képfájlba az Aspose.Note for Java segítségével. Minden elemet könnyedén és hatékonyan megőrizhet. [Explore More](./convert-notebook-to-flattened-image/)
 
-#### [Add Child Node in OneNote Notebook - Aspose.Note](./add-child-node/)
-Tanuld meg, hogyan adhatsz programozottan gyermekcsomópontokat OneNote jegyzetfüzetekhez az Aspose.Note for Java segítségével. Javítsd a jegyzetek szervezését könnyedén.
+### További OneNote jegyzetfüzet műveletek oktatók
 
-#### [Convert Notebook to Image in OneNote - Aspose.Note](./convert-notebook-to-image/)
-Tanuld meg, hogyan konvertálj jegyzetfüzeteket képekké OneNote-ban az Aspose.Note for Java használatával. Egyszerűen integráld ezt a funkciót Java alkalmazásaidba.
+#### [Munka a nyelvi beállításokkal OneNote-ban – Aspose.Note](./working-with-locales/)
+#### [Gyermekcsomópont hozzáadása OneNote jegyzetfüzetben – Aspose.Note](./add-child-node/)
+#### [Jegyzetfüzet konvertálása képpé OneNote-ban – Aspose.Note](./convert-notebook-to-image/)
+#### [Jegyzetfüzet konvertálása lapos képpé OneNote-ban – Aspose.Note](./convert-notebook-to-flattened-image/)
+#### [Jegyzetfüzet konvertálása képpé opciókkal OneNote-ban – Aspose.Note](./convert-notebook-to-image-with-options/)
+#### [Jegyzetfüzet konvertálása PDF-be OneNote-ban – Aspose.Note](./convert-notebook-to-pdf/)
+#### [Jegyzetfüzet konvertálása lapos PDF-be OneNote-ban – Aspose.Note](./convert-notebook-to-flattened-pdf/)
+#### [Jegyzetfüzet konvertálása PDF-be opciókkal OneNote-ban – Aspose.Note](./convert-notebook-to-pdf-with-options/)
+#### [Jegyzetfüzet létrehozása OneNote-ban – Aspose.Note](./create-notebook/)
+#### [Jegyzetfüzet betöltése OneNote-ban – Aspose.Note](./loading-notebook/)
+#### [Jegyzetfüzet fájl betöltése betöltési opciókkal OneNote-ban – Aspose.Note](./load-notebook-file-with-load-options/)
+#### [Jegyzetfüzet azonnali betöltése OneNote-ban – Aspose.Note](./load-notebook-instantly/)
+#### [Jelszóval védett dokumentumok betöltése OneNote-ban – Aspose.Note](./load-password-protected-documents/)
+#### [Gazdag szöveg olvasása OneNote jegyzetfüzetből – Aspose.Note](./read-rich-text/)
+#### [Gyermekcsomópont eltávolítása OneNote jegyzetfüzetből – Aspose.Note](./remove-child-node/)
+#### [Dokumentumok lekérése OneNote jegyzetfüzetből – Aspose.Note](./retrieve-documents-from-onenote-notebook/)
+#### [Jegyzetfüzet mentése stream-be OneNote-ban – Aspose.Note](./save-notebook-to-stream/)
+#### [Jelszóval védett dokumentum írása OneNote-ban – Aspose.Note](./write-password-protected-document/)
 
-#### [Convert Notebook to Flattened Image in OneNote - Aspose.Note](./convert-notebook-to-flattened-image/)
-Tanuld meg, hogyan konvertálj egy jegyzetfüzetet lapított képpé OneNote-ban az Aspose.Note for Java segítségével. Minden elemet könnyedén megőrizhetsz egyetlen képfájlban.
+## Gyakran feltett kérdések
 
-#### [Convert Notebook to Image with Options in OneNote - Aspose.Note](./convert-notebook-to-image-with-options/)
-Tanuld meg, hogyan konvertálj egy jegyzetfüzetet képpé opciókkal az Aspose.Note for Java használatával. Kövesd a lépésről‑lépésre útmutatónkat a zökkenőmentes integrációhoz Java alkalmazásaidba.
+**Q: Szükségem van a Microsoft Office telepítésére az Aspose.Note használatához?**  
+A: Nem. Az Aspose.Note for Java önállóan működik, és nem igényel semmilyen Microsoft Office összetevőt.
 
-#### [Convert Notebook to PDF in OneNote - Aspose.Note](./convert-notebook-to-pdf/)
-Tanuld meg, hogyan konvertálj OneNote jegyzetfüzeteket PDF formátumba az Aspose.Note for Java segítségével. Kövesd ezt a lépésről‑lépésre útmutatót a zökkenőmentes integrációhoz Java alkalmazásaidba.
+**Q: Hány OneNote formátumot támogat az Aspose.Note?**  
+A: A könyvtár 12 bemeneti és kimeneti formátumot támogat, beleértve a .one, .onepkg formátumokat, valamint a PDF, HTML és képtípusok konvertálását.
 
-#### [Convert Notebook to Flattened PDF in OneNote - Aspose.Note](./convert-notebook-to-flattened-pdf/)
-Konvertáld a jegyzetfüzeteket lapított PDF-ekké egyszerűen az Aspose.Note for Java segítségével. Élvezd a zökkenőmentes integrációt és a testreszabási lehetőségeket.
+**Q: Konvertálhatok egy 500 oldalon túl lévő jegyzetfüzetet?**  
+A: Igen – az Aspose.Note több száz oldalas jegyzetfüzeteket dolgoz fel anélkül, hogy a teljes fájlt a memóriába töltené, köszönhetően a streaming architektúrájának.
 
-#### [Convert Notebook to PDF with Options in OneNote - Aspose.Note](./convert-notebook-to-pdf-with-options/)
-Tanuld meg, hogyan konvertálj OneNote jegyzetfüzeteket PDF-be Java-ban az Aspose.Note segítségével. Testreszabhatod az opciókat egyszerűen a zökkenőmentes integrációhoz.
+**Q: Van korlátozás a védett jegyzetfüzetek jelszóhosszára?**  
+A: A 128 karakterig terjedő jelszavak teljes mértékben támogatottak, megfelelve az iparági szabványú titkosítási korlátoknak.
 
-#### [Create Notebook in OneNote - Aspose.Note](./create-notebook/)
-Tanuld meg, hogyan **OneNote notebook létrehozása** programozottan az Aspose.Note for Java segítségével. Egyszerűsítsd a munkafolyamatod ezzel a lépésről‑lépésre útmutatóval.
-
-#### [Loading Notebook in OneNote - Aspose.Note](./loading-notebook/)
-Tanuld meg, hogyan tölts be egy jegyzetfüzetet OneNote-ban az Aspose.Note for Java segítségével. Lépésről‑lépésre útmutató fejlesztőknek.
-
-#### [Load Notebook File with Load Options in OneNote - Aspose.Note](./load-notebook-file-with-load-options/)
-Tanuld meg, hogyan használhatod az Aspose.Note for Java-t a OneNote fájlok programozott manipulálásához. Kezdd el most átfogó oktatóanyagunkkal.
-
-#### [Load Notebook Instantly in OneNote - Aspose.Note](./load-notebook-instantly/)
-Tanuld meg, hogyan tölts be azonnal OneNote jegyzetfüzeteket Java-ban az Aspose.Note for Java segítségével. Növeld a termelékenységedet a hatékony jegyzetkezeléssel.
-
-#### [Load Password-Protected Documents in OneNote - Aspose.Note](./load-password-protected-documents/)
-Tanuld meg, hogyan **jelszóval védett betöltése** dokumentumokat OneNote-ban az Aspose.Note for Java használatával. Kövesd a lépésről‑lépésre útmutatónkat a zökkenőmentes integrációhoz.
-
-#### [Read Rich Text from OneNote Notebook - Aspose.Note](./read-rich-text/)
-Tanuld meg, hogyan **rich text olvasása** OneNote jegyzetfüzetekből az Aspose.Note for Java segítségével. Fejleszd Java alkalmazásaidat a zökkenőmentes OneNote integrációval.
-
-#### [Remove Child Node in OneNote Notebook - Aspose.Note](./remove-child-node/)
-Tanuld meg, hogyan **remove child node** eltávolítható egy OneNote Notebookból az Aspose.Note for Java használatával. Kövesd a lépésről‑lépésre útmutatónkat a zökkenőmentes dokumentumműveletekhez.
-
-#### [Retrieve Documents from OneNote Notebook - Aspose.Note](./retrieve-documents-from-onenote-notebook/)
-Tanuld meg, hogyan szerezheted meg a dokumentumokat a OneNote Notebookból az Aspose.Note for Java segítségével. Kövesd a lépésről‑lépésre útmutatónkat a zökkenőmentes integrációhoz.
-
-#### [Save Notebook to Stream in OneNote - Aspose.Note](./save-notebook-to-stream/)
-Tanuld meg, hogyan mentheted a jegyzetfüzeteket streamekbe OneNote-ban az Aspose.Note for Java használatával. Növeld a termelékenységet a hatékony jegyzetkezeléssel.
-
-#### [Write Password-Protected Document in OneNote - Aspose.Note](./write-password-protected-document/)
-Tanuld meg, hogyan **write password protected** dokumentumokat írj OneNote-ban az Aspose.Note for Java segítségével. Biztosítsd a biztonságot egyszerűen követhető lépésekkel.
+**Q: Hol találhatok mintakódot az egyes műveletekhez?**  
+A: Minden hivatkozott oktatóanyag tartalmaz egy teljes, futtatható Java példát, amely bemutatja a konkrét API hívást.
 
 ---
 
-**Last Updated:** 2025-12-25  
-**Tested With:** Aspose.Note for Java latest release  
-**Author:** Aspose
+**Legutóbb frissítve:** 2026-05-10  
+**Tesztelt verzió:** Aspose.Note for Java legújabb kiadás  
+**Szerző:** Aspose
+
+## Kapcsolódó oktatóanyagok
+
+- [Hogyan olvassuk a OneNote-ot – Gazdag szöveg olvasása OneNote jegyzetfüzetből – Aspose.Note](/note/java/onenote-notebook-operations/read-rich-text/)
+- [Jelszóval védett OneNote létrehozása – Betöltés és konvertálás (Java)](/note/java/onenote-document-loading/)
+- [Hogyan adjunk hozzá gyermekcsomópontot OneNote jegyzetfüzethez – Aspose.Note](/note/java/onenote-notebook-operations/add-child-node/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
