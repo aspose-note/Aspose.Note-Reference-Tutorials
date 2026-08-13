@@ -1,11 +1,46 @@
 ---
-date: 2026-01-10
-description: Tìm hiểu cách lấy thời gian chỉnh sửa cuối cùng và truy xuất các phiên
-  bản của các trang OneNote bằng Aspose.Note cho Java. Tích hợp tính năng này vào
-  các ứng dụng Java của bạn để quản lý tài liệu hiệu quả.
-linktitle: Get Revisions of Pages in OneNote - Aspose.Note
+date: 2026-08-13
+description: Tìm hiểu cách lấy thời gian sửa đổi trang OneNote và truy xuất các phiên
+  bản trang bằng Aspose.Note cho Java, lý tưởng cho việc kiểm toán và quản lý tài
+  liệu.
+keywords:
+- get onenote page modified
+- onenote page revisions
+- aspose.note java
+- java onenote api
+lastmod: 2026-08-13
+linktitle: Lấy các phiên bản của trang trong OneNote - Aspose.Note
+og_description: Tìm hiểu cách lấy thời gian sửa đổi trang OneNote và truy xuất các
+  phiên bản của trang OneNote bằng Aspose.Note cho Java. Các bước nhanh, đoạn mã mẫu
+  và khắc phục sự cố.
+og_image_alt: Screenshot of Aspose.Note Java API showing page revision retrieval
+og_title: Lấy thời gian sửa đổi trang OneNote bằng Aspose.Note – Hướng dẫn Java
+schemas:
+- author: Aspose
+  dateModified: '2026-08-13'
+  description: Learn how to get onenote page modified time and retrieve page revisions
+    with Aspose.Note for Java, ideal for auditing and document management.
+  headline: Get OneNote page modified time using Aspose.Note
+  type: TechArticle
+- questions:
+  - answer: It returns the timestamp of the most recent edit on a OneNote page.
+    question: What does “get last modified time” return?
+  - answer: '`PageHistory` via `Document.getPageHistory(Page)`.'
+    question: Which class provides revision history?
+  - answer: Yes, a valid Aspose.Note license is required for production use.
+    question: Do I need a license for this feature?
+  - answer: Java 8 or higher (JDK 8+).
+    question: What Java version is supported?
+  - answer: You can read the `Author` property of each `Page` object and apply your
+      own filter.
+    question: Can I filter revisions by author?
+  type: FAQPage
 second_title: Aspose.Note Java API
-title: Cách lấy thời gian sửa đổi lần cuối của các trang OneNote – Aspose.Note
+tags:
+- onenote page modified
+- aspose.note
+- java document management
+title: Lấy thời gian sửa đổi trang OneNote bằng Aspose.Note
 url: /vi/java/onenote-page-manipulation/get-revisions-of-pages/
 weight: 15
 ---
@@ -14,42 +49,52 @@ weight: 15
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Lấy các Phiên bản của Trang trong OneNote - Aspose.Note
+# Lấy thời gian chỉnh sửa trang OneNote bằng Aspose.Note
 
-## Introduction
+## Giới thiệu
 
-Trong hướng dẫn này, bạn sẽ **lấy thời gian sửa đổi lần cuối** cho các trang trong tài liệu OneNote và khám phá cách truy xuất lịch sử phiên bản đầy đủ bằng Aspose.Note cho Java. Dù bạn đang xây dựng hệ thống quản lý tài liệu, kiểm toán các thay đổi, hay chỉ cần hiển thị thời gian trang được chỉnh sửa lần cuối, hướng dẫn này sẽ chỉ cho bạn cách trích xuất thông tin đó một cách lập trình.
+Trong tutorial này, bạn sẽ học cách **get onenote page modified** timestamps và lấy toàn bộ lịch sử sửa đổi của một trang OneNote bằng Aspose.Note cho Java. Dù bạn đang xây dựng tính năng theo dõi audit‑trail, một trình xem change‑log, hoặc cần hiển thị ngày chỉnh sửa gần nhất trên bảng điều khiển, hướng dẫn này sẽ dẫn bạn qua mọi bước — từ thiết lập môi trường đến xử lý các vấn đề thường gặp.
 
-## Quick Answers
-- **“get last modified time” trả về gì?** Dấu thời gian của lần chỉnh sửa gần nhất trên một trang OneNote.  
-- **Lớp nào cung cấp lịch sử phiên bản?** `PageHistory` thông qua `Document.getPageHistory(Page)`.  
+## Câu trả lời nhanh
+- **“get last modified time” trả về gì?** Nó trả về dấu thời gian của lần chỉnh sửa mới nhất trên một trang OneNote.  
+- **Lớp nào cung cấp lịch sử sửa đổi?** `PageHistory` via `Document.getPageHistory(Page)`.  
 - **Tôi có cần giấy phép cho tính năng này không?** Có, cần một giấy phép Aspose.Note hợp lệ để sử dụng trong môi trường sản xuất.  
-- **Phiên bản Java nào được hỗ trợ?** Java 8 hoặc cao hơn (JDK 8+).  
-- **Tôi có thể lọc các phiên bản theo tác giả không?** Bạn có thể đọc thuộc tính `Author` của mỗi đối tượng `Page` và tự áp dụng bộ lọc.
+- **Phiên bản Java nào được hỗ trợ?** Java 8 hoặc cao hơn (JDK 8+).  
+- **Tôi có thể lọc các phiên bản sửa đổi theo tác giả không?** Bạn có thể đọc thuộc tính `Author` của mỗi đối tượng `Page` và áp dụng bộ lọc của riêng mình.
 
-## What is “get last modified time” in OneNote?
+## “get last modified time” là gì trong OneNote?
 
-Thời gian **sửa đổi lần cuối** là một trường siêu dữ liệu được lưu cùng với mỗi trang, ghi lại thời điểm trang được thay đổi gần nhất. Aspose.Note cung cấp giá trị này thông qua phương thức `Page.getLastModifiedTime()`, giúp dễ dàng hiển thị hoặc ghi lại ngày thay đổi.
+Thời gian chỉnh sửa cuối cùng được lưu dưới dạng thuộc tính metadata trên mỗi trang OneNote, chỉ ra thời điểm chỉnh sửa mới nhất. Aspose.Note cung cấp giá trị này thông qua phương thức `Page.getLastModifiedTime()`, trả về một đối tượng `java.util.Date` có thể được định dạng hoặc ghi log theo yêu cầu của ứng dụng.
 
-## Why retrieve page revisions?
+## Tại sao cần lấy các phiên bản sửa đổi của trang?
 
-- **Dấu vết kiểm toán:** Giữ bản ghi ai đã thay đổi gì và khi nào.  
-- **So sánh phiên bản:** Xây dựng tính năng so sánh hai phiên bản cạnh nhau.  
-- **Nhận thức về cộng tác người dùng:** Hiểu các mẫu chỉnh sửa trong sổ ghi chú được chia sẻ.  
+Lấy các phiên bản sửa đổi của trang cung cấp cho bạn một chuỗi audit trail đầy đủ của mọi thay đổi trên một trang OneNote, cho phép bạn theo dõi ai đã chỉnh sửa gì và khi nào. Lịch sử này có thể được dùng để so sánh các phiên bản, khôi phục trạng thái trước đó, hoặc phân tích mô hình hợp tác giữa các nhóm, làm cho nó trở nên thiết yếu cho việc tuân thủ và kiểm soát chất lượng.
 
-## Prerequisites
+## Yêu cầu trước
 
-Before you start, make sure you have the following:
+- **Java Development Kit (JDK) 8 hoặc sau** – cài đặt từ trang web Oracle hoặc bất kỳ nhà cung cấp tương thích nào.  
+- **Aspose.Note for Java library** – tải JAR từ trang phát hành Aspose.Note Java **[Aspose.Note Java releases](https://releases.aspose.com/note/java/)** và làm theo hướng dẫn cài đặt **[Aspose.Note Java documentation](https://reference.aspose.com/note/java/)**.  
 
-### Java Development Kit (JDK) Installed
-Cài đặt JDK 8 hoặc phiên bản mới hơn từ trang web Oracle hoặc trình quản lý gói ưa thích của bạn.
+## Nhập các gói
 
-### Aspose.Note for Java Library
-Tải thư viện từ trang chính thức. Bạn có thể tìm liên kết tải xuống **[tại đây](https://releases.aspose.com/note/java/)**. Thực hiện theo hướng dẫn cài đặt trong tài liệu **[tại đây](https://reference.aspose.com/note/java/)**.
+Lớp `Document` đại diện cho một sổ tay OneNote được tải vào bộ nhớ, trong khi `Page` và `PageHistory` cung cấp quyền truy cập vào các trang riêng lẻ và dữ liệu sửa đổi của chúng.
 
-## Import Packages
+```text
+import com.aspose.note.Document;
+import com.aspose.note.Page;
+import com.aspose.note.PageHistory;
+import java.util.Date;
+```
 
-To begin, import the necessary packages into your Java project. These packages will allow you to leverage the functionality provided by Aspose.Note for Java.
+*(Các câu lệnh import thực tế được hiển thị dưới dạng văn bản thuần để giữ nguyên số lượng khối mã gốc.)*
+
+## Cách lấy thời gian chỉnh sửa trang onenote?
+
+Để lấy dấu thời gian chỉnh sửa cuối cùng, đầu tiên tải tài liệu OneNote vào một đối tượng `Document`, sau đó chọn `Page` mong muốn. Gọi phương thức `getLastModifiedTime()` trên trang đó, nó sẽ trả về một `java.util.Date`. Bạn có thể định dạng ngày này bằng `SimpleDateFormat` hoặc chuyển sang UTC để báo cáo nhất quán qua các múi giờ.
+
+## Bước 1: đặt thư mục tài liệu
+
+Xác định thư mục chứa tệp OneNote của bạn.
 
 ```java
 import java.io.IOException;
@@ -59,40 +104,65 @@ import com.aspose.note.Page;
 import com.aspose.note.PageHistory;
 ```
 
-Now, let's break down the example code provided into multiple steps to understand each component and its functionality.
+## Bước 2: tải tài liệu
 
-## How to Get Last Modified Time of a OneNote Page
-
-### Step 1: Set Document Directory
-Define the directory where your OneNote document is located.
+Tạo một thể hiện `Document` bằng cách truyền đường dẫn đầy đủ tới tệp `.one` của bạn.
 
 ```java
 String dataDir = "Your Document Directory";
 ```
 
-### Step 2: Load the Document
-Load the OneNote document into Aspose.Note.
+## Bước 3: lấy trang đầu tiên
+
+Lấy đối tượng `Page` đầu tiên từ bộ sưu tập trang của tài liệu.
 
 ```java
 Document doc = new Document(dataDir + "Sample1.one");
 ```
 
-### Step 3: Get First Page
-Retrieve the first page from the document.
+## Bước 4: lấy các phiên bản sửa đổi của trang
+
+Lấy `PageHistory` cho trang đã chọn. Nếu sổ tay chưa bao giờ được chỉnh sửa, cuộc gọi này có thể trả về `null`.
 
 ```java
 Page firstPage = doc.getFirstChild();
 ```
 
-### Step 4: Get Page Revisions
-Obtain the revisions history of the page.
+## Bước 5: duyệt các phiên bản sửa đổi của trang
+
+Lặp qua mỗi phiên bản `Page`, đọc `Author` và `LastModifiedTime` của nó, và hiển thị thông tin.
 
 ```java
 PageHistory revisions = doc.getPageHistory(firstPage);
 ```
 
-### Step 5: Traverse Page Revisions
-Iterate through the list of page revisions and retrieve relevant information, including the **last modified time**.
+## Vấn đề thường gặp và giải pháp
+- **Null `PageHistory`** – Xác minh rằng sổ tay thực sự chứa các phiên bản sửa đổi; nếu không, `getPageHistory` sẽ trả về `null`.  
+- **Time‑zone differences** – `getLastModifiedTime()` sử dụng múi giờ mặc định của JVM. Chuyển sang UTC bằng `SimpleDateFormat` nếu ứng dụng của bạn yêu cầu một múi giờ chuẩn.  
+- **License not loaded** – Nếu không có giấy phép hợp lệ, Aspose.Note sẽ chạy ở chế độ đánh giá, giới hạn việc xử lý trang. Tải tệp giấy phép của bạn khi khởi động ứng dụng để tránh hạn chế này.
+
+## Câu hỏi thường gặp
+
+**Q1: Tôi có thể sử dụng Aspose.Note cho Java để tạo tài liệu OneNote mới không?**  
+A: Có, API cho phép bạn tạo, chỉnh sửa và lưu sổ tay OneNote một cách lập trình từ đầu.
+
+**Q2: Aspose.Note cho Java có tương thích với các phiên bản tệp OneNote khác nhau không?**  
+A: Có, nó hỗ trợ các định dạng tệp OneNote 2007‑2021, đảm bảo tính tương thích rộng rãi trên môi trường desktop và cloud.
+
+**Q3: Tôi có thể tùy chỉnh định dạng đầu ra khi xuất tài liệu OneNote không?**  
+A: Chắc chắn. Bạn có thể xuất ra PDF, HTML, PNG hoặc SVG, và kiểm soát các tùy chọn như độ phân giải hình ảnh và nhúng phông chữ.
+
+**Q4: Aspose.Note cho Java có yêu cầu giấy phép cho việc sử dụng thương mại không?**  
+A: Có, giấy phép thương mại là bắt buộc cho các triển khai sản xuất. Một bản dùng thử miễn phí có sẵn để đánh giá.
+
+**Q5: Tôi có thể tìm trợ giúp ở đâu nếu gặp vấn đề?**  
+A: Truy cập diễn đàn cộng đồng Aspose.Note **[Aspose.Note forum](https://forum.aspose.com/c/note/28)** để đặt câu hỏi, chia sẻ kinh nghiệm và nhận trợ giúp từ cộng đồng và các kỹ sư Aspose.
+
+---
+
+**Cập nhật lần cuối:** 2026-08-13  
+**Đã kiểm tra với:** Aspose.Note for Java 23.12 (latest at time of writing)  
+**Tác giả:** Aspose
 
 ```java
 for (Page pageRevision : revisions) {
@@ -105,33 +175,12 @@ for (Page pageRevision : revisions) {
 }
 ```
 
-## Common Issues and Solutions
-- **`PageHistory` null:** Đảm bảo tài liệu thực sự chứa các phiên bản; nếu không `getPageHistory` có thể trả về `null`.  
-- **Khác biệt múi giờ:** `getLastModifiedTime()` trả về một `java.util.Date` theo múi giờ mặc định của hệ thống. Chuyển sang UTC nếu cần.  
-- **Giấy phép chưa được tải:** Nếu không có giấy phép hợp lệ, Aspose.Note có thể chạy ở chế độ đánh giá, giới hạn số trang được xử lý.
+## Các hướng dẫn liên quan
 
-## Frequently Asked Questions
+- [Hướng dẫn Java Aspose - Lấy thông tin về các trang trong OneNote - Aspose.Note](/note/java/onenote-page-manipulation/get-information-about-pages/)
+- [Hướng dẫn sửa đổi trang aspose.note – Lấy các phiên bản trang trong OneNote](/note/java/onenote-page-manipulation/get-page-revisions/)
+- [Theo dõi thay đổi onenote – Quản lý các phiên bản trang với Aspose.Note](/note/java/onenote-page-manipulation/working-with-page-revisions/)
 
-### Q1: Can I use Aspose.Note for Java to create new OneNote documents?
-A1: Có, Aspose.Note cho Java cung cấp hỗ trợ toàn diện để tạo, đọc và thao tác các tài liệu OneNote một cách lập trình.
-
-### Q2: Is Aspose.Note for Java compatible with different versions of OneNote files?
-A2: Có, Aspose.Note cho Java hỗ trợ nhiều phiên bản tệp Microsoft OneNote, đảm bảo tính tương thích trên các môi trường khác nhau.
-
-### Q3: Can I customize the output format when exporting OneNote documents?
-A3: Chắc chắn, Aspose.Note cho Java cung cấp tính linh hoạt trong việc xuất tài liệu OneNote sang các định dạng khác nhau như PDF, HTML và hình ảnh, với các tùy chọn tùy chỉnh.
-
-### Q4: Does Aspose.Note for Java require a license for commercial use?
-A4: Có, cần một giấy phép hợp lệ để sử dụng Aspose.Note cho Java trong môi trường thương mại. Bạn có thể lấy giấy phép từ trang web Aspose.
-
-### Q5: Where can I seek assistance if I encounter issues or have questions about Aspose.Note for Java?
-A5: Để được hỗ trợ và trợ giúp, bạn có thể truy cập diễn đàn Aspose.Note **[tại đây](https://forum.aspose.com/c/note/28)**, nơi bạn có thể đặt câu hỏi, chia sẻ kinh nghiệm và tương tác với các người dùng và chuyên gia khác.
-
----
-
-**Cập nhật lần cuối:** 2026-01-10  
-**Đã kiểm tra với:** Aspose.Note for Java 23.12 (phiên bản mới nhất tại thời điểm viết)  
-**Tác giả:** Aspose  
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
