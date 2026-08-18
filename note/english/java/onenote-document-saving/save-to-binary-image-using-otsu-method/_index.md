@@ -28,7 +28,7 @@ In this tutorial you’ll learn **how to use Otsu method Java** to convert a One
 ## What is the Otsu Method?
 The Otsu method analyzes the histogram of a grayscale image and selects a threshold that minimizes intra‑class variance, effectively separating foreground (black) from background (white). This makes it ideal for creating **black‑white image Java** outputs from OneNote pages.
 
-## Why Use the Otsu Method Java for Binary Image Conversion?
+## Why use the otsu method java for binary image conversion?
 - **Universal compatibility:** PNG works across browsers, mobile apps, and desktop tools.  
 - **Loss‑less compression:** No quality degradation, which is crucial for downstream processing.  
 - **OCR‑ready output:** Binary PNGs are the preferred input for most OCR engines, boosting recognition rates.  
@@ -47,7 +47,7 @@ import com.aspose.note.*;
 import java.io.IOException;
 ```
 
-## Step 1: Load the OneNote Document
+## Step 1: load the oneNote document
 First, point to the folder that contains your `.one` file and load it into the `Document` object.
 
 ```java
@@ -56,7 +56,7 @@ String dataDir = "Your Document Directory";
 Document oneFile = new Document(dataDir + "Aspose.one");
 ```
 
-## Step 2: Configure Binarization with Otsu
+## Step 2: configure binarization with otsu
 Create an `ImageBinarizationOptions` instance and tell Aspose.Note to use the Otsu algorithm.
 
 ```java
@@ -65,7 +65,7 @@ ImageBinarizationOptions binarizationOptions = new ImageBinarizationOptions();
 binarizationOptions.setBinarizationMethod(BinarizationMethod.Otsu);
 ```
 
-## Step 3: Set Image Save Options (PNG, Black‑White)
+## Step 3: set image save options (PNG, black‑White)
 Define how the image will be saved. Here we choose PNG, force a black‑and‑white color mode, and attach the binarization options.
 
 ```java
@@ -82,7 +82,7 @@ Finally, write the binary PNG to disk using the options we prepared.
 oneFile.save(dataDir, options);
 ```
 
-## Common Issues & Tips
+## Common issues & tips
 - **File not found:** Verify `dataDir` ends with a path separator (`/` or `\\`) before appending the file name.  
 - **Blank output:** Ensure the source OneNote page contains content; empty pages will produce a blank PNG.  
 - **Performance:** For large notebooks, process pages individually to keep memory usage low.
@@ -112,7 +112,7 @@ A4: While Aspose.Note primarily deals with manipulating OneNote documents, you c
 
 A5: You can visit the Aspose.Note forum or contact their support team for assistance with any technical issues or inquiries.
 
-## Additional Frequently Asked Questions
+## Additional frequently asked questions
 
 **Q: How do I change the output format from PNG to JPEG?**  
 A: Replace `SaveFormat.Png` with `SaveFormat.Jpeg` in the `ImageSaveOptions` constructor.
@@ -123,7 +123,7 @@ A: Yes, use `options.setResolution(double dpi)` before calling `save`.
 **Q: Can I process multiple OneNote pages in a loop?**  
 A: Definitely – iterate over `Document.getPages()` and apply the same save logic to each page.
 
-## Frequently Asked Questions
+## Frequently asked questions
 
 **Q: Is the Otsu algorithm the only binarization method available?**  
 A: No, Aspose.Note also supports other methods such as FixedThreshold. You can switch by setting `BinarizationMethod.FixedThreshold` and providing a custom threshold value.

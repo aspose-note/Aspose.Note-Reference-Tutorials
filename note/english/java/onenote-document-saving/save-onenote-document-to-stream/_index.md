@@ -26,7 +26,7 @@ In this tutorial you’ll learn how to **convert OneNote to PDF** and directly *
 - **Can I export other formats?** Absolutely—use other `SaveFormat` values like `Docx`, `Html`, `Png`, etc.
 
 ## What is converting OneNote to PDF?
-Converting OneNote to PDF means taking the rich, multi‑page content of a OneNote notebook and flattening it into a portable PDF document. This is useful when you need a read‑only, universally viewable version of your notes, or when you must embed the content into other workflows such as email, reporting, or archival.
+Converting OneNote to PDF means taking the rich, multi‑page content of a OneNote notebook and flattenting it into a portable PDF document. This is useful when you need a read‑only, universally viewable version of your notes, or when you must embed the content into other workflows such as email, reporting, or archival.
 
 ## Why stream PDF in Java?
 Streaming the PDF in Java avoids the overhead of writing a temporary file to disk. It enables you to:
@@ -41,7 +41,7 @@ Before we begin, ensure you have the following prerequisites:
 
 - Basic understanding of Java programming.  
 - JDK installed on your system.  
-- Aspose.Note for Java library downloaded and added to your project. You can download it from [here](https://releases.aspose.com/note/java/).
+- Aspose.Note for Java library downloaded and added to your project. You can download it from [Aspose.Note Java download page](https://releases.aspose.com/note/java/).
 
 ## Import Packages
 
@@ -54,7 +54,7 @@ import com.aspose.note.Document;
 import com.aspose.note.SaveFormat;
 ```
 
-## Step 1: Load the OneNote Document
+## Step 1: load the oneNote document
 
 Load the source OneNote file into an `Aspose.Note` `Document` object. Replace the placeholder path with the actual location of your `.one` file.
 
@@ -63,7 +63,7 @@ String dataDir = "Your Document Directory";
 Document doc = new Document(dataDir + "Sample1.one");
 ```
 
-## Step 2: Save Document to Stream
+## Step 2: save document to stream
 
 Now we export the loaded document as a PDF and write it to a `ByteArrayOutputStream`. This stream can be sent directly to a client, saved to a database, or further manipulated.
 
@@ -75,7 +75,7 @@ doc.save(dstStream, SaveFormat.Pdf);
 ### How to **export PDF byte array** to other destinations
 If you need the PDF as a byte array, simply call `dstStream.toByteArray()`. For web responses, write the byte array to the HTTP output stream. The same approach works for other formats—just change `SaveFormat.Pdf` to the desired enum value.
 
-## Common Issues and Solutions
+## Common issues and solutions
 
 - **OutOfMemoryError** – When handling very large OneNote files, consider using a `FileOutputStream` to write directly to disk instead of keeping everything in memory.  
 - **Missing fonts** – PDFs may lose custom fonts if they aren’t installed on the server. Use `FontSettings` to embed fonts if needed.  
@@ -89,21 +89,21 @@ A1: Yes, Aspose.Note supports saving documents in various formats like DOCX, HTM
 
 ### Q2: Is there a free trial available for Aspose.Note for Java?
 
-A2: Yes, you can download a free trial from [here](https://releases.aspose.com/).
+A2: Yes, you can download a free trial from [Aspose free trial download page](https://releases.aspose.com/).
 
 ### Q3: Where can I find more support or ask questions related to Aspose.Note?
 
-A3: You can visit the Aspose.Note forum [here](https://forum.aspose.com/c/note/28).
+A3: You can visit the Aspose.Note forum [Aspose.Note forum](https://forum.aspose.com/c/note/28).
 
 ### Q4: How can I purchase a license for Aspose.Note for Java?
 
-A4: You can buy a license from [here](https://purchase.aspose.com/buy).
+A4: You can buy a license from [Aspose purchase page](https://purchase.aspose.com/buy).
 
 ### Q5: Do I need a temporary license for evaluation purposes?
 
-A5: Yes, you can obtain a temporary license from [here](https://purchase.aspose.com/temporary-license/).
+A5: Yes, you can obtain a temporary license from [temporary license request page](https://purchase.aspose.com/temporary-license/).
 
-## Frequently Asked Questions
+## Frequently asked questions
 
 **Q: Can I stream the PDF directly to an HTTP response?**  
 A: Yes—retrieve the byte array with `dstStream.toByteArray()` and write it to the servlet’s `OutputStream` with the appropriate `Content-Type: application/pdf`.

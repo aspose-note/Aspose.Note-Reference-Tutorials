@@ -1,5 +1,5 @@
 ---
-title: Adjust Threshold onenote: Save OneNote to Binary Image
+title: 'Adjust Threshold onenote: Save OneNote to Binary Image'
 linktitle: Save to Binary Image Using Fixed Threshold in OneNote
 second_title: Aspose.Note Java API
 description: Learn how to adjust threshold onenote to convert OneNote to PNG using Aspose.Note Java, creating black white onenote images with image binarization.
@@ -14,7 +14,7 @@ date: 2026-02-23
 
 # Adjust Threshold onenote: Save OneNote to Binary Image
 
-## Adjust Threshold onenote – Introduction
+## Adjust threshold onenote – introduction
 
 In this tutorial you’ll discover how to **adjust threshold onenote** to export a Microsoft OneNote page as a high‑contrast, black‑and‑white PNG image. By tweaking the fixed threshold value you gain precise control over the conversion, making it perfect for scenarios like OCR preprocessing, document archiving, or any workflow that needs a clean **black white onenote** output. We’ll walk through every step using the Aspose.Note Java API, so you can quickly **convert onenote to png** with reliable image binarization techniques.
 
@@ -31,7 +31,7 @@ In this tutorial you’ll discover how to **adjust threshold onenote** to export
 Before you begin, make sure you have:
 
 1. Java Development Kit (JDK) installed.  
-2. Aspose.Note for Java library downloaded from [here](https://releases.aspose.com/note/java/).  
+2. Aspose.Note for Java library downloaded from [Aspose.Note for Java download page](https://releases.aspose.com/note/java/).  
 3. Basic familiarity with Java syntax.
 
 ## Import Packages
@@ -43,7 +43,7 @@ import com.aspose.note.*;
 import java.io.IOException;
 ```
 
-## Step 1: Load the Document
+## Step 1: load the document
 
 Load the OneNote file you want to process. This creates a `Document` object that represents the entire notebook.
 
@@ -52,7 +52,7 @@ String dataDir = "Your Document Directory";
 Document oneFile = new Document(dataDir + "Aspose.one");
 ```
 
-## Step 2: Set Binarization Options
+## Step 2: set binarization options
 
 Define the **image binarization Java** settings and specify the fixed threshold you wish to use. The threshold value ranges from 0‑255.
 
@@ -65,7 +65,7 @@ binarizationOptions.setBinarizationThreshold(123);
 
 > **Pro tip:** Experiment with threshold values between 0‑255 to find the sweet spot for your particular document. Lower values produce lighter images, higher values give darker output.
 
-## Step 3: Set Image Save Options
+## Step 3: set image save options
 
 Configure the image format, color mode, and attach the binarization options you just created.
 
@@ -77,7 +77,7 @@ options.setBinarizationOptions(binarizationOptions);
 
 The `ColorMode.BlackAndWhite` setting ensures the final file is a **black white onenote** image.
 
-## Step 4: Save the Document
+## Step 4: save the document
 
 Execute the save operation with the previously defined options. The library writes a PNG file that contains the binarized page.
 
@@ -87,13 +87,13 @@ oneFile.save(dataDir, options);
 
 After running the code, you’ll find a PNG file named `SaveToBinaryImageUsingFixedThreshold_out.png` in your output folder, ready for OCR, printing, or long‑term digital preservation.
 
-## Why Adjust the Threshold?
+## Why adjust the threshold?
 
 - **Improved OCR Accuracy:** A clean black‑and‑white image reduces noise for text‑recognition engines.  
 - **Consistent Archiving:** Fixed thresholds give you repeatable results across batches of documents.  
 - **File Size Reduction:** Binary images are typically smaller than full‑color PNGs, saving storage.
 
-## Common Issues & Solutions
+## Common issues & solutions
 
 | Issue | Solution |
 |-------|----------|
@@ -102,7 +102,7 @@ After running the code, you’ll find a PNG file named `SaveToBinaryImageUsingFi
 | Text is missing after binarization | Try the adaptive method: replace `BinarizationMethod.FixedThreshold` with `BinarizationMethod.Adaptive`. |
 | Password‑protected OneNote files fail to load | Use the overload `new Document(path, password)` before applying binarization. |
 
-## Frequently Asked Questions
+## Frequently asked questions
 
 ### Q1: Can I adjust the threshold value for binarization?
 
