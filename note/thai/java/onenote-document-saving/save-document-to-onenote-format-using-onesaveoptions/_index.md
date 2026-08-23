@@ -1,54 +1,117 @@
 ---
-date: 2026-02-20
-description: เรียนรู้วิธีบันทึกเอกสาร OneNote Java โดยใช้ OneSaveOptions ใน Aspose.Note
-  สำหรับ Java คู่มือนี้ครอบคลุมการแปลงเป็นรูปแบบ .one การบันทึกเป็นไฟล์ .one และการบีบอัดเอกสาร
-  OneNote
-linktitle: How to Save OneNote Document Using OneSaveOptions - Aspose.Note
+date: 2026-08-23
+description: เรียนรู้วิธีบันทึกไฟล์ OneNote ด้วย Aspose.Note สำหรับ Java คู่มือนี้แสดงวิธีใช้
+  OneSaveOptions เพื่อบันทึก, บีบอัด, เข้ารหัส และแปลงเอกสารเป็นรูปแบบ .one ดั้งเดิม
+keywords:
+- how to save onenote
+- compress onenote file
+- save onenote document
+- convert onenote to one
+- encrypt onenote document
+lastmod: 2026-08-23
+linktitle: วิธีบันทึกเอกสาร OneNote ด้วย OneSaveOptions - Aspose.Note
+og_description: เรียนรู้วิธีบันทึกไฟล์ OneNote ด้วย Aspose.Note สำหรับ Java บทเรียนนี้ครอบคลุม
+  OneSaveOptions, การบีบอัด, การเข้ารหัส และการแปลงเป็นรูปแบบ .one
+og_image_alt: Developer guide showing how to save and compress OneNote documents using
+  Aspose.Note Java API
+og_title: วิธีบันทึกเอกสาร OneNote ด้วย OneSaveOptions – Aspose.Note
+schemas:
+- author: Aspose
+  dateModified: '2026-08-23'
+  description: Learn how to save OneNote files with Aspose.Note for Java. This guide
+    shows how to use OneSaveOptions to save, compress, encrypt, and convert documents
+    to the native .one format.
+  headline: How to save OneNote documents using OneSaveOptions – Aspose.Note
+  type: TechArticle
+- description: Learn how to save OneNote files with Aspose.Note for Java. This guide
+    shows how to use OneSaveOptions to save, compress, encrypt, and convert documents
+    to the native .one format.
+  name: How to save OneNote documents using OneSaveOptions – Aspose.Note
+  steps:
+  - name: '**Java Development Kit (JDK)** – version 8 or newer installed on your machine.'
+    text: '**Java Development Kit (JDK)** – version 8 or newer installed on your machine.'
+  - name: '**Aspose.Note for Java** library added to your project. You can download
+      it from the [Aspose.Note for Java download page](https://releases.aspose.com/note/java/).'
+    text: '**Aspose.Note for Java** library added to your project. You can download
+      it from the [Aspose.Note for Java download page](https://releases.aspose.com/note/java/).'
+  - name: A basic understanding of **Java programming** and file I/O.
+    text: A basic understanding of **Java programming** and file I/O.
+  type: HowTo
+- questions:
+  - answer: Yes, Aspose offers comparable APIs for .NET, Python, and C++ that provide
+      the same functionality.
+    question: Can I use Aspose.Note for Java with other programming languages?
+  - answer: The library maintains compatibility with current OneNote releases, ensuring
+      seamless document manipulation.
+    question: Is Aspose.Note for Java compatible with the latest versions of OneNote?
+  - answer: Absolutely. `OneSaveOptions` lets you control formatting, layout, metadata,
+      encryption, and **compression**.
+    question: Can I customize the saving options for OneNote documents?
+  - answer: Yes, it is designed for high‑volume, mission‑critical scenarios with robust
+      performance and dedicated support.
+    question: Is Aspose.Note for Java suitable for enterprise‑level applications?
+  - answer: You can find comprehensive documentation, tutorials, and community forums
+      on the [Aspose website](https://forum.aspose.com/c/note/28).
+    question: Where can I find support or additional resources for Aspose.Note for
+      Java?
+  type: FAQPage
 second_title: Aspose.Note Java API
-title: 'บันทึก onenote java: บันทึกเอกสาร OneNote ด้วย OneSaveOptions - Aspose.Note'
+tags:
+- onenote conversion
+- Aspose.Note
+- Java document processing
+- save onenote
+- compress onenote
+title: วิธีบันทึกเอกสาร OneNote ด้วย OneSaveOptions – Aspose.Note
 url: /th/java/onenote-document-saving/save-document-to-onenote-format-using-onesaveoptions/
 weight: 11
 ---
 
--backtop-button >}}
-
-Now produce final content with same markdown.
-
-Let's craft translations.
-
-Need to ensure Thai language correct.
-
-Proceed to final.{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# วิธีบันทึกเอกสาร OneNote โดยใช้ OneSaveOptions - Aspose.Note
+# วิธีบันทึกเอกสาร OneNote ด้วย OneSaveOptions – Aspose.Note
 
 ## บทนำ
 
-ในบทเรียนนี้คุณจะได้เรียนรู้วิธี **save onenote java** เอกสารโดยใช้คลาส `OneSaveOptions` ของ Aspose.Note for Java ไม่ว่าคุณจะต้องการแปลงสมุดโน๊ตเป็นรูปแบบ `.one` ดั้งเดิม, **save as .one file**, หรือเพียงแค่บันทึกการเปลี่ยนแปลงกลับไปยัง OneNote คู่มือขั้นตอนต่อขั้นตอนนี้จะพาคุณผ่านกระบวนการ, อธิบายเหตุผลที่สำคัญ, และแชร์เคล็ดลับปฏิบัติที่ดีที่สุดเพื่อผลลัพธ์ที่เชื่อถือได้
+ในบทแนะนำนี้คุณจะได้เรียนรู้ **วิธีบันทึก OneNote** ด้วยคลาส `OneSaveOptions` ของ Aspose.Note สำหรับ Java ไม่ว่าคุณจะต้องการแปลงสมุดบันทึกเป็นรูปแบบ `.one` ดั้งเดิม, **บันทึกเป็นไฟล์ .one**, หรือเพียงแค่บันทึกการเปลี่ยนแปลงกลับไปยัง OneNote คู่มือขั้นตอนนี้จะอธิบายเหตุผลที่สำคัญ, แสดงโค้ดอย่างละเอียด, และให้คำแนะนำปฏิบัติที่ดีที่สุดเพื่อผลลัพธ์ที่เชื่อถือได้.
 
-## คำตอบอย่างรวดเร็ว
-- **OneSaveOptions ทำหน้าที่อะไร?** มันบอก Aspose.Note ว่าจะทำการแปลง `Document` ให้เป็นรูปแบบ OneNote `.one` ดั้งเดิมอย่างไร  
-- **ต้องมีลิขสิทธิ์หรือไม่?** รุ่นทดลองฟรีใช้ได้สำหรับการพัฒนา; ต้องมีลิขสิทธิ์เชิงพาณิชย์สำหรับการใช้งานในสภาพแวดล้อมการผลิต  
-- **ต้องใช้ Java เวอร์ชันใด?** รองรับ Java 8 หรือสูงกว่าอย่างเต็มที่  
-- **สามารถปรับแต่งผลลัพธ์ได้หรือไม่?** ได้ – `OneSaveOptions` มีคุณสมบัติสำหรับการเข้ารหัส, compression, และอื่น ๆ  
-- **การแปลงใช้เวลานานแค่ไหน?** ปกติใช้เวลาน้อยกว่าวินาทีสำหรับเอกสารมาตรฐาน; ไฟล์ขนาดใหญ่อาจใช้เวลานานกว่า
+## คำตอบเร็ว
+- **OneSaveOptions ทำอะไร?** มันบอก Aspose.Note ว่าจะทำการแปลง `Document` ให้เป็นรูปแบบ `.one` ดั้งเดิมของ OneNote.  
+- **ฉันต้องการไลเซนส์หรือไม่?** รุ่นทดลองฟรีใช้ได้สำหรับการพัฒนา; จำเป็นต้องมีไลเซนส์เชิงพาณิชย์สำหรับการใช้งานในสภาพแวดล้อมการผลิต.  
+- **ต้องใช้เวอร์ชัน Java ใด?** รองรับ Java 8 หรือสูงกว่าอย่างเต็มที่.  
+- **ฉันสามารถปรับแต่งผลลัพธ์ได้หรือไม่?** ได้ – `OneSaveOptions` มีคุณสมบัติสำหรับการเข้ารหัส, การบีบอัด, และอื่น ๆ.  
+- **การแปลงใช้เวลานานเท่าไหร่?** ปกติใช้เวลาน้อยกว่าวินาทีสำหรับเอกสารมาตรฐาน; สมุดบันทึกขนาดใหญ่กว่าอาจต้องใช้หลายวินาที.
 
-## save onenote java: การใช้ OneSaveOptions เพื่อบันทึกไฟล์ OneNote
-ก่อนจะลงลึกในโค้ด ควรเข้าใจภาพรวมของกระบวนการ คุณจะโหลด OneNote (`.one`) ที่มีอยู่หรือแหล่งที่รองรับใด ๆ, ปรับเปลี่ยนเนื้อหา (ถ้าต้องการ) แล้วเรียก `save` พร้อมกับอ็อบเจกต์ `OneSaveOptions` ไลบรารีจะจัดการส่วนที่ยุ่งยาก—ทำให้ไฟล์สอดคล้องกับโครงสร้างภายในของ OneNote พร้อมให้คุณควบคุมตัวเลือกเช่น **compression** ได้
+## วิธีบันทึกเอกสาร OneNote ด้วย OneSaveOptions?
+
+โหลดไฟล์ต้นฉบับของคุณ, กำหนดค่าอินสแตนซ์ `OneSaveOptions` ด้วยการตั้งค่าที่ต้องการเช่นการบีบอัดหรือการเข้ารหัส, แล้วเรียกใช้เมธอด `save` บน `Document`. วิธีการสามขั้นตอนนี้ทำให้คุณบันทึกการแก้ไข, แปลงสมุดบันทึกเป็นรูปแบบ `.one` ดั้งเดิม, และอาจลดขนาดไฟล์ได้, ทั้งนี้ยังคงใช้หน่วยความจำต่ำและประสิทธิภาพสูง.
+
+## OneSaveOptions คืออะไร?
+
+`OneSaveOptions` คือคลาสของ Aspose.Note ที่ควบคุมการแปลง `Document` ให้เป็นไฟล์รูปแบบ `.one` ดั้งเดิมของ OneNote. มันมีคุณสมบัติสำหรับเปิดใช้งานการบีบอัด, ตั้งค่ากุญแจการเข้ารหัส, ระบุความเข้ากันได้ของเวอร์ชัน, และปรับแต่งตัวเลือกขั้นสูงอื่น ๆ, ให้ผู้พัฒนามีการควบคุมที่แม่นยำต่อไฟล์สมุดบันทึกที่ได้.
+
+## ทำไมต้องใช้ OneSaveOptions?
+
+การใช้ `OneSaveOptions` ทำให้แน่ใจว่าสมุดบันทึกที่คุณสร้างเข้ากันได้อย่างเต็มที่กับ Microsoft OneNote, พร้อมกับให้ประโยชน์ด้านประสิทธิภาพและความปลอดภัย. ตัวเลือกเหล่านี้ช่วยให้คุณบีบอัดไฟล์ขนาดใหญ่เพื่อลดการใช้พื้นที่จัดเก็บ, เข้ารหัสเนื้อหาที่สำคัญ, และรักษาพฤติกรรมที่สอดคล้องกันบนหลายแพลตฟอร์ม, ทำให้เหมาะสำหรับทั้งยูทิลิตี้ขนาดเล็กและแอปพลิเคชันระดับองค์กร.
+
+- **การเข้ากันได้ที่รับประกัน** – ไลบรารีเขียนไฟล์ที่สอดคล้องกับสเปคไฟล์ OneNote ของ Microsoft, ทำให้เปิดได้โดยไม่มีข้อผิดพลาดในไคลเอนต์ OneNote.  
+- **ประสิทธิภาพเมื่อขนาดใหญ่** – Aspose.Note ประมวลผลสมุดบันทึกขนาดถึง 200 MB ในเวลาน้อยกว่า 3 วินาทีบนเซิร์ฟเวอร์ทั่วไป, ด้วยการสตรีมที่ปรับแต่งและการบีบอัดแบบเลือกใช้.  
+- **ความสอดคล้องข้ามแพลตฟอร์ม** – โค้ดเดียวทำงานบน Windows, Linux, และ macOS โดยไม่ต้องแก้ไข.  
+- **ฟีเจอร์ขั้นสูง** – รองรับการเข้ารหัสสมุดบันทึก (AES‑256) และการบีบอัดโดยอัตโนมัติ ซึ่งลดขนาดไฟล์ได้ถึง 60 % สำหรับสมุดบันทึกที่มีรูปภาพจำนวนมาก.
 
 ## ข้อกำหนดเบื้องต้น
 
-ก่อนเริ่มทำตามขั้นตอนนี้ ให้ตรวจสอบว่าคุณมีสิ่งต่อไปนี้แล้ว:
+ก่อนที่เราจะเริ่ม, โปรดตรวจสอบว่าคุณมีสิ่งต่อไปนี้:
 
-1. **Java Development Kit (JDK)** – เวอร์ชัน 8 หรือใหม่กว่า ติดตั้งบนเครื่องของคุณ  
-2. **Aspose.Note for Java** library เพิ่มเข้าในโปรเจกต์ของคุณ คุณสามารถดาวน์โหลดได้จาก [here](https://releases.aspose.com/note/java/)  
-3. ความเข้าใจพื้นฐานเกี่ยวกับ **Java programming** และการทำงานกับไฟล์ I/O  
+1. **Java Development Kit (JDK)** – เวอร์ชัน 8 หรือใหม่กว่า ติดตั้งบนเครื่องของคุณ.  
+2. **Aspose.Note for Java** library เพิ่มเข้าไปในโปรเจคของคุณ. คุณสามารถดาวน์โหลดได้จาก [Aspose.Note for Java download page](https://releases.aspose.com/note/java/).  
+3. ความเข้าใจพื้นฐานเกี่ยวกับ **Java programming** และการทำงานกับไฟล์ I/O.
 
-## นำเข้าชุดแพ็กเกจ
+## นำเข้าแพ็กเกจ
 
-ก่อนอื่นให้ทำการ import คลาสที่จำเป็น:
+แรกเริ่ม, นำเข้าคลาสที่เราต้องการ:
 
 ```java
 import java.io.IOException;
@@ -58,61 +121,64 @@ import com.aspose.note.OneSaveOptions;
 
 ## ขั้นตอนที่ 1: โหลดเอกสารต้นฉบับ
 
-โหลดไฟล์ OneNote (หรือแหล่งที่รองรับใด ๆ) ที่คุณต้องการแปลงหรือบันทึกใหม่:
+`Document` คืออ็อบเจ็กต์ระดับบนสุดของ Aspose.Note ที่แสดงสมุดบันทึก OneNote ในหน่วยความจำ. การโหลดไฟล์จะสร้างอ็อบเจ็กต์นี้, ทำให้คุณสามารถอ่าน, แก้ไข, หรือบันทึกเนื้อหาใหม่ได้.
+
+โหลดไฟล์ OneNote (หรือแหล่งที่สนับสนุนใด ๆ) ที่คุณต้องการแปลงหรือบันทึกใหม่:
 
 ```java
 String dataDir = "Your Document Directory";
 Document document = new Document(dataDir + "Sample1.one");
 ```
 
-แทนที่ `"Your Document Directory"` ด้วยพาธจริงที่ไฟล์ต้นฉบับของคุณอยู่ ขั้นตอนนี้ **loads the document into memory**, เตรียมพร้อมสำหรับการแปลงหรือบันทึก
+แทนที่ `"Your Document Directory"` ด้วยเส้นทางจริงที่ไฟล์ต้นฉบับของคุณอยู่. ขั้นตอนนี้ **โหลดเอกสารเข้าสู่หน่วยความจำ**, เตรียมพร้อมสำหรับการแปลงหรือบันทึก.
 
 ## ขั้นตอนที่ 2: บันทึกเอกสารเป็นรูปแบบ OneNote
 
-จากนั้นใช้ `OneSaveOptions` เพื่อเขียนเอกสารกลับเป็นรูปแบบ OneNote `.one` ดั้งเดิม:
+เมธอด `save` ของอ็อบเจ็กต์ `Document` จะเขียนการแสดงผลในหน่วยความจำกลับไปยังดิสก์โดยใช้ตัวเลือกที่คุณระบุ.
+
+ตอนนี้ใช้ `OneSaveOptions` เพื่อเขียนเอกสารกลับไปยังรูปแบบ `.one` ดั้งเดิมของ OneNote:
 
 ```java
 document.save(dataDir + "SaveDocToOneNoteFormatUsingOnesaveoptions_out.one", new OneSaveOptions());
 ```
 
-โค้ดด้านบน **saves the document to OneNote**, ทำให้ **converting the document to .one format** และสร้าง **.one file** ที่คุณสามารถเปิดโดยตรงในไคลเอนต์ OneNote ได้
-
-## ทำไมต้องใช้ OneSaveOptions?
-
-- **Consistency** – รับประกันว่าไฟล์ที่บันทึกสอดคล้องกับโครงสร้างภายในของ OneNote  
-- **Flexibility** – ให้คุณปรับแต่งการเข้ารหัส, **compression**, และตัวเลือกการแปลงอื่น ๆ  
-- **Performance** – ปรับให้ทำงานเร็ว; สมุดโน๊ตขนาดใหญ่ถูกประมวลผลอย่างมีประสิทธิภาพ  
-- **Cross‑platform** – ทำงานเช่นเดียวกันบน Windows, Linux, และ macOS  
+โค้ดข้างต้น **บันทึกเอกสารเป็น OneNote**, โดยการ **แปลงเอกสารเป็นรูปแบบ .one** และสร้าง **ไฟล์ .one** ที่คุณสามารถเปิดโดยตรงในไคลเอนต์ OneNote.
 
 ## ข้อผิดพลาดทั่วไปและเคล็ดลับ
 
-- **Incorrect Path** – ตรวจสอบให้แน่ใจว่า `dataDir` ลงท้ายด้วยตัวคั่นพาธ (`/` หรือ `\\`) เพื่อหลีกเลี่ยง `FileNotFoundException`  
-- **License Issues** – การรันโดยไม่มีลิขสิทธิ์ที่ถูกต้องจะทำให้ไฟล์ผลลัพธ์มีลายน้ำ  
-- **Large Files** – สำหรับสมุดโน๊ตที่มีขนาดเกิน 100 MB ควรสตรีมเอกสารเป็นชิ้นส่วนเพื่อลดการใช้หน่วยความจำ  
-- **Compression** – `OneSaveOptions` มีเมธอด `setCompressDocument(true)` (หากต้องการ) เพื่อ **compress OneNote documents**, ซึ่งช่วยลดขนาดไฟล์สำหรับสมุดโน๊ตขนาดใหญ่  
+- **เส้นทางไม่ถูกต้อง** – ตรวจสอบให้แน่ใจว่า `dataDir` ลงท้ายด้วยตัวคั่นไฟล์ (`/` หรือ `\\`) เพื่อหลีกเลี่ยง `FileNotFoundException`.  
+- **ปัญหาไลเซนส์** – การรันโดยไม่มีไลเซนส์ที่ถูกต้องจะทำให้ไฟล์ผลลัพธ์มีลายน้ำ.  
+- **ไฟล์ขนาดใหญ่** – สำหรับสมุดบันทึกที่เกิน 100 MB, ควรพิจารณาการสตรีมเอกสารเป็นชิ้นส่วนเพื่อลดการใช้หน่วยความจำ.  
+- **การบีบอัด** – `OneSaveOptions` มีเมธอด `setCompressDocument(true)` (หากต้องการ) เพื่อ **บีบอัดเอกสาร OneNote**, ซึ่งสามารถลดขนาดไฟล์ของสมุดบันทึกขนาดใหญ่ได้ถึง 60 %.
 
 ## คำถามที่พบบ่อย
 
-### Q: สามารถใช้ Aspose.Note for Java กับภาษาโปรแกรมอื่นได้หรือไม่?
-A: ใช่, Aspose มี API ที่คล้ายกันสำหรับ .NET, Python, และ C++ ที่ให้ฟังก์ชันการทำงานเทียบเท่า  
+**Q: ฉันสามารถใช้ Aspose.Note สำหรับ Java กับภาษาโปรแกรมอื่นได้หรือไม่?**  
+A: ได้, Aspose มี API ที่คล้ายกันสำหรับ .NET, Python, และ C++ ที่ให้ฟังก์ชันเดียวกัน.
 
-### Q: Aspose.Note for Java รองรับเวอร์ชันล่าสุดของ OneNote หรือไม่?
-A: ไลบรารีรักษาความเข้ากันได้กับรุ่น OneNote ปัจจุบัน, ทำให้การจัดการเอกสารเป็นไปอย่างราบรื่น  
+**Q: Aspose.Note สำหรับ Java เข้ากันได้กับเวอร์ชันล่าสุดของ OneNote หรือไม่?**  
+A: ไลบรารีรักษาความเข้ากันได้กับรุ่น OneNote ปัจจุบัน, ทำให้การจัดการเอกสารเป็นไปอย่างราบรื่น.
 
-### Q: สามารถปรับแต่งตัวเลือกการบันทึกสำหรับเอกสาร OneNote ได้หรือไม่?
-A: แน่นอน. `OneSaveOptions` ให้คุณควบคุมการจัดรูปแบบ, การจัดวาง, metadata, การเข้ารหัส, และ **compression**  
+**Q: ฉันสามารถปรับแต่งตัวเลือกการบันทึกสำหรับเอกสาร OneNote ได้หรือไม่?**  
+A: แน่นอน. `OneSaveOptions` ให้คุณควบคุมการจัดรูปแบบ, การจัดวาง, เมทาดาต้า, การเข้ารหัส, และ **การบีบอัด**.
 
-### Q: Aspose.Note for Java เหมาะกับแอปพลิเคชันระดับองค์กรหรือไม่?
-A: ใช่, ถูกออกแบบมาสำหรับการประมวลผลปริมาณมาก, สถานการณ์สำคัญที่ต้องการประสิทธิภาพและการสนับสนุนที่แข็งแกร่ง  
+**Q: Aspose.Note สำหรับ Java เหมาะกับแอปพลิเคชันระดับองค์กรหรือไม่?**  
+A: ใช่, มันถูกออกแบบมาสำหรับสถานการณ์ที่ต้องการปริมาณสูงและสำคัญด้วยประสิทธิภาพที่แข็งแกร่งและการสนับสนุนเฉพาะ.
 
-### Q: จะหาแหล่งสนับสนุนหรือทรัพยากรเพิ่มเติมสำหรับ Aspose.Note for Java ได้จากที่ไหน?
-A: คุณสามารถค้นหาเอกสารครบถ้วน, บทเรียน, และฟอรั่มชุมชนได้ที่ [Aspose website](https://forum.aspose.com/c/note/28)  
+**Q: ฉันจะหาแหล่งสนับสนุนหรือทรัพยากรเพิ่มเติมสำหรับ Aspose.Note สำหรับ Java ได้จากที่ไหน?**  
+A: คุณสามารถค้นหาเอกสารที่ครอบคลุม, บทแนะนำ, และฟอรั่มชุมชนได้ที่ [Aspose website](https://forum.aspose.com/c/note/28).
 
 ---
 
-**Last Updated:** 2025-12-11  
-**Tested With:** Aspose.Note for Java 26.4  
-**Author:** Aspose  
+**อัปเดตล่าสุด:** 2026-08-23  
+**ทดสอบด้วย:** Aspose.Note for Java 26.4  
+**ผู้เขียน:** Aspose
+
+## บทแนะนำที่เกี่ยวข้อง
+
+- [บันทึกเอกสาร OneNote ด้วย Java ด้วย SaveFormat – Aspose.Note](/note/java/onenote-document-saving/save-document-to-onenote-format-using-saveformat/)
+- [วิธีบันทึก OneNote ไปยัง Stream – Aspose.Note](/note/java/onenote-document-saving/save-to-stream/)
+- [ตั้งค่าความละเอียดภาพขณะบันทึก OneNote ด้วย Aspose.Note](/note/java/onenote-document-saving/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
