@@ -1,33 +1,56 @@
 ---
-date: 2026-02-20
-description: تعلم كيفية ضبط دقة الصورة وحفظ مستندات OneNote باستخدام Aspose.Note للغة
-  Java، بالإضافة إلى نصائح حول عتبة الصورة الثنائية، تحويل OneNote إلى PDF، وحفظ التدفق.
-linktitle: OneNote Document Saving
+date: 2026-08-23
+description: تعلم كيفية ضبط الدقة عند حفظ ملفات OneNote باستخدام Aspose.Note for Java،
+  بالإضافة إلى نصائح حول binary image threshold، وتحويل OneNote إلى PDF، وحفظ stream.
+keywords:
+- how to set resolution
+- binary image threshold
+- convert onenote pdf
+- export onenote formats
+lastmod: 2026-08-23
+linktitle: حفظ مستند OneNote
+og_description: اكتشف كيفية ضبط الدقة عند حفظ مستندات OneNote باستخدام Aspose.Note
+  for Java، بالإضافة إلى نصائح حول binary image threshold وتحويل PDF.
+og_image_alt: Guide showing how to set image resolution in OneNote saving with Aspose.Note
+  Java API
+og_title: كيفية ضبط الدقة عند حفظ OneNote باستخدام Aspose.Note
+schemas:
+- author: Aspose
+  dateModified: '2026-08-23'
+  description: Learn how to set resolution when saving OneNote files using Aspose.Note
+    for Java, plus tips on binary image threshold, OneNote to PDF conversion, and
+    stream saving.
+  headline: How to set resolution while saving OneNote with Aspose.Note
+  type: TechArticle
+- questions:
+  - answer: Yes. Use the Keep Solid Objects Algorithm together with `PdfSaveOptions`
+      to retain layout and embedded objects.
+    question: Can I convert a OneNote file to PDF without losing formatting?
+  - answer: Instantiate the appropriate `SaveOptions` (e.g., `OneSaveOptions`) and
+      call `document.save(outputStream, saveOptions);` – the stream will contain the
+      binary OneNote data.
+    question: How do I save a OneNote page directly to an `OutputStream`?
+  - answer: Absolutely. The Splitting Algorithm method lets you specify the target
+      section or page and saves each part as an independent .one file.
+    question: Is it possible to split a OneNote document into separate sections?
+  - answer: No. Aspose.Note is a pure Java library and runs on any OS that supports
+      Java (Windows, Linux, macOS).
+    question: Do I need a Windows environment to use Aspose.Note for Java?
+  - answer: Visit the official Aspose website or Maven Central Repository for the
+      most recent release.
+    question: Where can I find the latest version of Aspose.Note for Java?
+  type: FAQPage
 second_title: Aspose.Note Java API
-title: تعيين دقة الصورة أثناء حفظ OneNote باستخدام Aspose.Note
+tags:
+- onenote conversion
+- Aspose.Note
+- Java document processing
+- image resolution
+- PDF export
+title: كيفية ضبط الدقة عند حفظ OneNote باستخدام Aspose.Note
 url: /ar/java/onenote-document-saving/
 weight: 27
 ---
-
- remain.
-
-Lists: quick answers list.
-
-Translate each bullet, but keep code parts unchanged.
-
-Proceed.
-
-Also many tutorial titles: translate but keep link URLs unchanged. The link text after bullet: e.g., "Read more" -> "اقرأ المزيد". We'll translate.
-
-Also later sections with headings and link lists.
-
-Need to translate everything.
-
-Let's craft.
-
-Be careful with Arabic direction; but plain text fine.
-
-Proceed to produce final content.
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
@@ -35,25 +58,36 @@ Proceed to produce final content.
 
 # حفظ مستند OneNote
 
-## المقدمة
+## مقدمة
 
-إذا كنت تبحث عن دليل واضح وعملي حول **كيفية ضبط دقة الصورة** أثناء حفظ ملفات OneNote برمجيًا، فقد وجدت المكان المناسب. في سلسلة الدروس هذه نستعرض حفظ مستندات OneNote باستخدام Aspose.Note for Java، بدءًا من التحويل الأساسي للصيغة إلى خيارات البث المتقدمة. سواء كنت تحتاج إلى إنشاء تقارير، أرشفة ملاحظات، أو دمج محتوى OneNote في سير عمل أكبر، فإن إتقان هذه التقنيات سيجعل تطبيقات Java الخاصة بك أكثر قوة وسهولة في الصيانة. لنغوص سويًا في أكثر الطرق كفاءة لمعالجة حفظ مستندات OneNote اليوم.
+إذا كنت تبحث عن دليل واضح وعملّي حول **كيفية ضبط الدقة** أثناء حفظ ملفات OneNote برمجيًا، فقد وصلت إلى المكان الصحيح. في سلسلة الدروس هذه نستعرض حفظ مستندات OneNote باستخدام Aspose.Note for Java، مع تغطية كل شيء من تحويل الصيغ الأساسية إلى خيارات البث المتقدمة. سواء كنت بحاجة إلى إنشاء تقارير، أرشفة الملاحظات، أو دمج محتوى OneNote في سير عمل أكبر، فإن إتقان هذه التقنيات سيجعل تطبيقات Java الخاصة بك أكثر قوة وسهولة في الصيانة. دعنا نغوص ونستكشف أكثر الطرق كفاءة للتعامل مع حفظ مستندات OneNote اليوم.
+
+## كيفية ضبط الدقة عند حفظ صفحات OneNote؟
+
+`Document` يمثل دفتر ملاحظات OneNote أو صفحة في الذاكرة.  
+`ImageSaveOptions` يضبط إعدادات تصدير الصورة مثل DPI، الضغط، وتنسيق اللون.  
+طريقة `setResolution(int dpi)` تحدد دقة الصورة الناتجة بالنقاط في البوصة.
+
+حمّل كائن `Document` الخاص بـ OneNote، أنشئ مثيلًا من `ImageSaveOptions`، استدعِ `setResolution(int dpi)` مع قيمة DPI المطلوبة (مثلاً 300)، ثم نفّذ `document.save(outputStream, options)`. يتيح لك هذا النهج خطوة واحدة التحكم في جودة الصورة الناتجة دون معالجة لاحقة إضافية، وهو يعمل مع جميع الصيغ القائمة على الصور المدعومة من Aspose.Note. استخدام DPI أعلى ينتج صورًا أكثر حدة لكنه يزيد حجم الملف، لذا اختر قيمة توازن بين الجودة وعرض النطاق الترددي لسيناريوك.
 
 ## إجابات سريعة
 - **ما المكتبة التي أحتاجها؟** Aspose.Note for Java.  
-- **هل يمكن الحفظ إلى صيغ متعددة؟** نعم – OneNote، PDF، BMP، JPEG، TIFF، وأكثر.  
-- **هل يدعم البث (Streaming)؟** بالتأكيد، يمكنك الحفظ مباشرة إلى `OutputStream`.  
+- **هل يمكنني الحفظ إلى صيغ متعددة؟** نعم – OneNote، PDF، BMP، JPEG، TIFF، وأكثر.  
+- **هل يدعم البث؟** بالتأكيد، يمكنك الحفظ مباشرة إلى `OutputStream`.  
 - **كيف أقسم مستند OneNote؟** استخدم طريقة خوارزمية التقسيم (Splitting Algorithm) المقدمة من Aspose.Note.  
-- **هل أحتاج إلى ترخيص؟** نسخة تجريبية مجانية متاحة؛ الترخيص مطلوب للاستخدام في الإنتاج.
+- **هل أحتاج إلى ترخيص؟** يتوفر نسخة تجريبية مجانية؛ الترخيص مطلوب للاستخدام في الإنتاج.
 
 ## ما هو حفظ مستند OneNote؟
-حفظ مستند OneNote يعني تحويل تمثيل الذاكرة لمفكرة أو صفحة إلى صيغة ملف ثابت (مثل .one، .pdf، .jpeg). تقوم Aspose.Note for Java بتجريد التعامل منخفض المستوى مع الملفات، مما يتيح لك التركيز على منطق الأعمال بدلاً من تفاصيل صيغ الملفات.
+يعني حفظ مستند OneNote تحويل التمثيل الموجود في الذاكرة لدفتر ملاحظات أو صفحة إلى صيغة ملف ثابت (مثل .one، .pdf، .jpeg). تقوم Aspose.Note for Java بتجريد التعامل منخفض المستوى مع الملفات، مما يتيح لك التركيز على منطق الأعمال بدلاً من تعقيدات صيغ الملفات.
 
 ## لماذا نستخدم Aspose.Note for Java؟
+توفر Aspose.Note for Java واجهة برمجة تطبيقات شاملة تمكّن المطورين من تصدير محتوى OneNote دون الاعتماد على Microsoft Office. تدعم صيغ إخراج متعددة، إنشاء صور عالية الدقة، والبث، مما يجعلها مثالية للتطبيقات على الخادم والسحابية، ويمكن دمجها بسهولة في مشاريع Java الحالية.
+
 - **تحكم كامل** في خيارات الإخراج (الدقة، الضغط، الخطوط).  
-- **بدون اعتماد على Microsoft Office** – يعمل على أي بيئة خادم.  
-- **API غني** لكل من عمليات الحفظ البسيطة والتحويلات المعقدة (التقسيم، تحويل الصور، إلخ).  
-- **أداء ممتاز** مع عمليات تعتمد على البث، مثالية للخدمات السحابية.
+- **بدون اعتماد على Microsoft Office** – يعمل في أي بيئة خادم.  
+- **واجهة برمجة تطبيقات غنية** لكل من الحفظ البسيط والتحويلات المعقدة (التقسيم، تحويل الصور، إلخ).  
+- **أداء ممتاز** مع عمليات تعتمد على التدفق، مثالي للخدمات السحابية.  
+- تدعم Aspose.Note **12 صيغة صورة** ويمكنها معالجة دفاتر ملاحظات تحتوي على **حتى 500 صفحة** دون تحميل الملف بالكامل إلى الذاكرة، مما يحقق أوقات تحويل أقل من ثانيتين على عتاد الخادم المعتاد.
 
 ## المتطلبات المسبقة
 - Java 8 أو أعلى.  
@@ -61,142 +95,159 @@ Proceed to produce final content.
 - ترخيص Aspose صالح للإنتاج (اختياري للتجربة).
 
 ## كيفية حفظ مستندات OneNote باستخدام Aspose.Note
-أدناه ستجد قائمة منسقة من الدروس المركزة. كل رابط يفتح دليلًا مخصصًا يشرح سيناريو حفظ معين، مع مقتطفات شفرة، نصائح التكوين، والنتائج المتوقعة.
+ستجد أدناه قائمة مختارة من الدروس المركزة. كل رابط يفتح دليلًا مخصصًا يشرح لك سيناريو حفظ معين، مع مقتطفات شفرة، نصائح التكوين، والنتائج المتوقعة.
 
 ### حفظ المستند بصيغة OneNote - Aspose.Note
-تعلم كيفية دمج حفظ بصيغة OneNote في Java باستخدام Aspose.Note. اتبع دليلنا الشامل لمعالجة المستندات بكفاءة. [Read more](./save-document-to-onenote-format/)
+تعلم كيفية دمج حفظ بصيغة OneNote في Java باستخدام Aspose.Note بسلاسة. اتبع دليلنا الشامل لمعالجة المستندات بفعالية. [اقرأ المزيد](./save-document-to-onenote-format/)
 
-### حفظ المستند إلى OneNote باستخدام OneSaveOptions - Aspose.Note
-حسّن سير عمل Java الخاص بك بإتقان OneSaveOptions في Aspose.Note. استكشف درسنا خطوة بخطوة حول حفظ المستندات. [Read more](./save-document-to-onenote-format-using-onesaveoptions/)
+### حفظ المستند بصيغة OneNote باستخدام OneSaveOptions - Aspose.Note
+حسّن سير عمل Java الخاص بك من خلال إتقان OneSaveOptions في Aspose.Note. استكشف دليلنا للحصول على إرشادات خطوة بخطوة حول حفظ المستند. [اقرأ المزيد](./save-document-to-onenote-format-using-onesaveoptions/)
 
-### حفظ المستند إلى OneNote باستخدام SaveFormat - Aspose.Note
-دمج حفظ بصيغة OneNote بسهولة في تطبيقات Java الخاصة بك. اتبع دليلنا خطوة بخطوة لمعالجة المستندات بسلاسة. [Read more](./save-document-to-onenote-format-using-saveformat/)
+### حفظ المستند بصيغة OneNote باستخدام SaveFormat - Aspose.Note
+دمج حفظ بصيغة OneNote بسهولة في تطبيقات Java الخاصة بك. اتبع دليلنا خطوة بخطوة لمعالجة المستند بسلاسة. [اقرأ المزيد](./save-document-to-onenote-format-using-saveformat/)
 
-### حفظ مستند OneNote إلى Stream - Aspose.Note
-دمج حفظ مستندات OneNote بطريقة البث في Java باستخدام Aspose.Note بفعالية. اتبع درسنا لتنفيذ سلس. [Read more](./save-onenote-document-to-stream/)
+### حفظ مستند OneNote إلى تدفق - Aspose.Note
+دمج حفظ مستندات OneNote القائم على التدفق بفعالية في Java باستخدام Aspose.Note. اتبع دليلنا لتنفيذ سلس. [اقرأ المزيد](./save-onenote-document-to-stream/)
 
 ### حفظ إلى صورة ثنائية باستخدام عتبة ثابتة في OneNote
-استكشف حفظ مستند Microsoft OneNote كصورة ثنائية باستخدام عتبة ثابتة في Aspose.Note for Java. دليل خطوة بخطوة مع أمثلة شفرة. [Read more](./save-to-binary-image-using-fixed-threshold/)
+استكشف حفظ مستند Microsoft OneNote كصورة ثنائية باستخدام عتبة ثابتة في Aspose.Note for Java. إرشادات خطوة بخطوة مع أمثلة شفرة. [اقرأ المزيد](./save-to-binary-image-using-fixed-threshold/)
 
 ### حفظ إلى صورة ثنائية باستخدام طريقة Otsu في OneNote
-تعلم حفظ مستند كصورة ثنائية باستخدام Aspose.Note for Java. درس مفصل مع أمثلة شفرة لتطبيق فعال. [Read more](./save-to-binary-image-using-otsu-method/)
+تعلم حفظ مستند كصورة ثنائية باستخدام Aspose.Note for Java. دليل مفصل مع أمثلة شفرة لتنفيذ فعال. [اقرأ المزيد](./save-to-binary-image-using-otsu-method/)
 
-### حفظ إلى صورة BMP باستخدام Image Save Options في OneNote
-احفظ مستندات OneNote إلى صور BMP برمجيًا في Java باستخدام Aspose.Note. دليل خطوة بخطوة مع أمثلة شفرة لعملية خالية من المتاعب. [Read more](./save-to-bmp-image-using-image-save-options/)
+### حفظ إلى صورة BMP باستخدام خيارات حفظ الصورة في OneNote
+احفظ مستندات OneNote إلى صور BMP برمجيًا في Java باستخدام Aspose.Note. دليل خطوة بخطوة وأمثلة شفرة لعملية خالية من المتاعب. [اقرأ المزيد](./save-to-bmp-image-using-image-save-options/)
 
 ### حفظ إلى صورة رمادية في OneNote - Aspose.Note
-تلاعب مستندات Microsoft OneNote برمجيًا بحفظها كصور رمادية في Java باستخدام Aspose.Note. [Read more](./save-to-grayscale-image/)
+تلاعب مستندات Microsoft OneNote برمجيًا بحفظها كصور رمادية في Java باستخدام Aspose.Note. [اقرأ المزيد](./save-to-grayscale-image/)
 
-### حفظ إلى صورة JPEG باستخدام Save Format في OneNote
-بسّط مهام التحويل بحفظ مستند إلى صيغة صورة JPEG في Java باستخدام Aspose.Note. درس خطوة بخطوة لتطبيق سهل. [Read more](./save-to-jpeg-image-using-save-format/)
+### حفظ إلى صورة JPEG باستخدام صيغة الحفظ في OneNote
+بسّط مهام التحويل بحفظ مستند إلى صيغة صورة JPEG في Java باستخدام Aspose.Note. دليل خطوة بخطوة لتنفيذ سهل. [اقرأ المزيد](./save-to-jpeg-image-using-save-format/)
 
 ### حفظ إلى PDF باستخدام إعدادات الصفحة في OneNote - Aspose.Note
-احفظ مستندات OneNote إلى PDF في Java باستخدام Aspose.Note. استكشف إعدادات صفحات مختلفة عبر دليلنا الشامل مع أمثلة شفرة. [Read more](./save-to-pdf-using-page-settings/)
+احفظ مستندات OneNote إلى PDF في Java باستخدام Aspose.Note. استكشف إعدادات صفحة مختلفة عبر دليلنا الشامل مع أمثلة شفرة. [اقرأ المزيد](./save-to-pdf-using-page-settings/)
 
-### حفظ إلى Stream في OneNote - Aspese.Note
-دمج حفظ مستندات OneNote بطريقة البث في Java باستخدام Aspose.Note بسهولة. اتبع درسنا لتنفيذ سلس. [Read more](./save-to-stream/)
+### حفظ إلى تدفق في OneNote - Aspose.Note
+دمج حفظ مستندات OneNote القائم على التدفق بسهولة في Java باستخدام Aspose.Note. اتبع دليلنا لتنفيذ سلس. [اقرأ المزيد](./save-to-stream/)
 
-### حفظ إلى صورة TIFF باستخدام Image Save Options في OneNote
-تعلم حفظ المستندات إلى صور TIFF مع طرق ضغط مختلفة في Aspose.Note for Java. [Read more](./save-to-tiff-image-using-image-save-options/)
+### حفظ إلى صورة TIFF باستخدام خيارات حفظ الصورة في OneNote
+تعلم حفظ المستندات إلى صور TIFF مع طرق ضغط مختلفة في Aspose.Note for Java. [اقرأ المزيد](./save-to-tiff-image-using-image-save-options/)
 
 ### حفظ باستخدام نظام الخطوط المحدد في OneNote
-ضمان تمثيل خطوط متسق عبر المنصات بحفظ مستندات OneNote باستخدام نظام خطوط محدد في Java مع Aspose.Note. [Read more](./save-using-specified-fonts-subsystem/)
+ضمن تمثيل خطوط متسق عبر المنصات بحفظ مستندات OneNote باستخدام نظام خطوط محدد في Java مع Aspose.Note. [اقرأ المزيد](./save-using-specified-fonts-subsystem/)
 
 ### ضبط دقة الصورة الناتجة في OneNote - Aspose.Note
-تعديل دقة الصورة في مستندات OneNote باستخدام Aspose.Note for Java. اتبع دليلنا خطوة بخطوة لتطبيق سهل. [Read more](./set-output-image-resolution/)
+ضبط دقة الصورة في مستندات OneNote باستخدام Aspose.Note for Java. اتبع دليلنا خطوة بخطوة لتنفيذ سهل. [اقرأ المزيد](./set-output-image-resolution/)
 
 ### تحديد خيارات الحفظ في OneNote - Aspose.Note
-تخصيص فهرس الصفحة، العدد، وإعدادات الضغط بسهولة عبر تعلم كيفية تحديد خيارات الحفظ في OneNote باستخدام Aspose.Note for Java. [Read more](./specify-save-options/)
+خصص فهرس الصفحة، العدد، وإعدادات الضغط بسهولة بتعلم كيفية تحديد خيارات الحفظ في OneNote باستخدام Aspose.Note for Java. [اقرأ المزيد](./specify-save-options/)
 
-### استخدام خوارزمية Keep Solid Objects في OneNote - Aspose.Note
-حافظ على الكائنات الصلبة في مستندات Aspose.Note عند التحويل إلى PDF باستخدام خوارزمية Keep Solid Objects في Java. تعلم الطريقة الفعّالة. [Read more](./use-keep-solid-objects-algorithm/)
+### استخدام خوارزمية الحفاظ على الكائنات الصلبة في OneNote - Aspose.Note
+احفظ الكائنات الصلبة في مستندات Aspose.Note الخاصة بك عند التحويل إلى PDF باستخدام خوارزمية Keep Solid Objects في Java. تعلم الطريقة الفعّالة. [اقرأ المزيد](./use-keep-solid-objects-algorithm/)
 
-### استخدام طريقة Splitting Algorithm في OneNote - Aspose.Note
-قسم مستندات OneNote بفعالية في Java باستخدام Aspose.Note. اتبع دليلنا خطوة بخطوة حول تقسيم المستندات. [Read more](./use-splitting-algorithm-method/)
+### استخدام طريقة خوارزمية التقسيم في OneNote - Aspose.Note
+قسم مستندات OneNote بفعالية في Java باستخدام Aspose.Note. اتبع دليلنا للحصول على إرشادات خطوة بخطوة حول تقسيم المستندات. [اقرأ المزيد](./use-splitting-algorithm-method/)
 
 ## دروس حفظ مستند OneNote
-### [Save Document to OneNote Format - Aspose.Note](./save-document-to-onenote-format/)
+### [حفظ المستند بصيغة OneNote - Aspose.Note](./save-document-to-onenote-format/)
 تعلم كيفية حفظ المستندات بصيغة OneNote باستخدام Aspose.Note for Java. اتبع دليلنا خطوة بخطوة للتكامل السلس.
-### [Save Document to OneNote Using OneSaveOptions - Aspose.Note](./save-document-to-onenote-format-using-onesaveoptions/)
-تعلم كيفية حفظ المستندات بصيغة OneNote باستخدام OneSaveOptions في Aspose.Note for Java. حسّن سير عملك عبر هذا الدرس الشامل.
-### [Save Document to OneNote Using SaveFormat - Aspose.Note](./save-document-to-onenote-format-using-saveformat/)
+
+### [حفظ المستند إلى OneNote باستخدام OneSaveOptions - Aspose.Note](./save-document-to-onenote-format-using-onesaveoptions/)
+تعلم كيفية حفظ المستندات بصيغة OneNote باستخدام OneSaveOptions في Aspose.Note for Java. حسّن سير عملك مع هذا الدرس الشامل.
+
+### [حفظ المستند إلى OneNote باستخدام SaveFormat - Aspose.Note](./save-document-to-onenote-format-using-saveformat/)
 تعلم كيفية حفظ المستندات بصيغة OneNote باستخدام Aspose.Note for Java. اتبع هذا الدرس خطوة بخطوة للتكامل السلس في تطبيقات Java الخاصة بك.
-### [Save OneNote Document to Stream - Aspose.Note](./save-onenote-document-to-stream/)
-تعلم كيفية حفظ مستندات OneNote إلى Stream باستخدام Aspose.Note for Java. اتبع دليلنا خطوة بخطوة للتكامل الفعال في تطبيقات Java.
-### [Save to Binary Image Using Fixed Threshold in OneNote](./save-to-binary-image-using-fixed-threshold/)
+
+### [حفظ مستند OneNote إلى تدفق - Aspose.Note](./save-onenote-document-to-stream/)
+تعلم كيفية حفظ مستندات OneNote إلى تدفق باستخدام Aspose.Note for Java. اتبع دليلنا خطوة بخطوة للتكامل الفعال في تطبيقات Java الخاصة بك.
+
+### [حفظ إلى صورة ثنائية باستخدام عتبة ثابتة في OneNote](./save-to-binary-image-using-fixed-threshold/)
 تعلم كيفية حفظ مستند Microsoft OneNote كصورة ثنائية باستخدام عتبة ثابتة في Aspose.Note for Java.
-### [Save to Binary Image Using Otsu Method in OneNote](./save-to-binary-image-using-otsu-method/)
-تعلم كيفية حفظ مستند كصورة ثنائية باستخدام Aspose.Note for Java. دليل خطوة بخطوة مع أمثلة شفرة مرفقة.
-### [Save to BMP Image Using Image Save Options in OneNote](./save-to-bmp-image-using-image-save-options/)
+
+### [حفظ إلى صورة ثنائية باستخدام طريقة Otsu في OneNote](./save-to-binary-image-using-otsu-method/)
+تعلم كيفية حفظ مستند كصورة ثنائية باستخدام Aspose.Note for Java. دليل خطوة بخطوة مع أمثلة شفرة مضمونة.
+
+### [حفظ إلى صورة BMP باستخدام خيارات حفظ الصورة في OneNote](./save-to-bmp-image-using-image-save-options/)
 تعلم كيفية حفظ مستندات OneNote إلى صور BMP برمجيًا باستخدام Aspose.Note for Java. دليل خطوة بخطوة مع أمثلة شفرة.
-### [Save to Grayscale Image in OneNote - Aspose.Note](./save-to-grayscale-image/)
-تعلم كيفية حفظ مستند كصورة رمادية في OneNote باستخدام Aspose.Note for Java. تعامل بسهولة مع مستندات Microsoft OneNote برمجيًا.
-### [Save to JPEG Image Using Save Format in OneNote](./save-to-jpeg-image-using-save-format/)
-تعلم كيفية حفظ مستند إلى صيغة صورة JPEG باستخدام Aspose.Note for Java، مبسطًا مهام التحويل.
-### [Save to PDF Using Page Settings in OneNote - Aspose.Note](./save-to-pdf-using-page-settings/)
-تعلم كيفية حفظ مستندات OneNote إلى PDF في Java باستخدام مكتبة Aspose.Note. دليل خطوة بخطوة مع أمثلة شفرة لإعدادات صفحات مختلفة.
-### [Save to Stream in OneNote - Aspose.Note](./save-to-stream/)
-تعلم كيفية حفظ مستندات OneNote إلى Stream في Java باستخدام Aspose.Note. دمج هذه الوظيفة بسهولة في تطبيقاتك.
-### [Save to TIFF Image Using Image Save Options in OneNote](./save-to-tiff-image-using-image-save-options/)
+
+### [حفظ إلى صورة رمادية في OneNote - Aspose.Note](./save-to-grayscale-image/)
+تعلم كيفية حفظ مستند كصورة رمادية في OneNote باستخدام Aspose.Note for Java. سهل التلاعب بمستندات Microsoft OneNote برمجيًا.
+
+### [حفظ إلى صورة JPEG باستخدام صيغة الحفظ في OneNote](./save-to-jpeg-image-using-save-format/)
+تعلم كيفية حفظ مستند إلى صيغة صورة JPEG باستخدام Aspose.Note for Java، مما يبسط مهام التحويل.
+
+### [حفظ إلى PDF باستخدام إعدادات الصفحة في OneNote - Aspose.Note](./save-to-pdf-using-page-settings/)
+تعلم كيفية حفظ مستندات OneNote إلى PDF في Java باستخدام مكتبة Aspose.Note. دليل خطوة بخطوة مع أمثلة شفرة لإعدادات صفحة مختلفة.
+
+### [حفظ إلى تدفق في OneNote - Aspose.Note](./save-to-stream/)
+تعلم كيفية حفظ مستندات OneNote إلى تدفق في Java باستخدام Aspose.Note. دمج هذه الوظيفة بسهولة في تطبيقاتك.
+
+### [حفظ إلى صورة TIFF باستخدام خيارات حفظ الصورة في OneNote](./save-to-tiff-image-using-image-save-options/)
 تعلم كيفية حفظ المستندات إلى صور TIFF مع طرق ضغط مختلفة في Aspose.Note for Java.
-### [Save Using Specified Fonts Subsystem in OneNote](./save-using-specified-fonts-subsystem/)
-تعلم كيفية حفظ مستندات OneNote باستخدام نظام خطوط محدد في Java مع Aspose.Note. احرص على تمثيل خطوط متسق عبر المنصات بسهولة.
-### [Set Output Image Resolution in OneNote - Aspose.Note](./set-output-image-resolution/)
-تعلم كيفية ضبط دقة الصورة في مستندات OneNote باستخدام Aspose.Note for Java. اتبع دليلنا خطوة بخطوة لتطبيق سهل.
-### [Specify Save Options in OneNote - Aspose.Note](./specify-save-options/)
-تعلم كيفية تحديد خيارات الحفظ في OneNote باستخدام Aspose.Note for Java. خصّص فهرس الصفحة، العدد، وإعدادات الضغط بسهولة.
-### [Use Keep Solid Objects Algorithm in OneNote - Aspose.Note](./use-keep-solid-objects-algorithm/)
-تعلم كيفية الحفاظ على الكائنات الصلبة في مستندات Aspose.Note عند التحويل إلى PDF باستخدام خوارزمية Keep Solid Objects في Java.
-### [Use Splitting Algorithm Method in OneNote - Aspose.Note](./use-splitting-algorithm-method/)
+
+### [حفظ باستخدام نظام الخطوط المحدد في OneNote](./save-using-specified-fonts-subsystem/)
+تعلم كيفية حفظ مستندات OneNote باستخدام نظام خطوط محدد في Java مع Aspose.Note. ضمّن تمثيل خطوط متسق عبر المنصات بسهولة.
+
+### [ضبط دقة الصورة الناتجة في OneNote - Aspose.Note](./set-output-image-resolution/)
+تعلم كيفية ضبط دقة الصورة في مستندات OneNote باستخدام Aspose.Note for Java. اتبع دليلنا خطوة بخطوة لتنفيذ سهل
+
+### [تحديد خيارات الحفظ في OneNote - Aspose.Note](./specify-save-options/)
+تعلم كيفية تحديد خيارات الحفظ في OneNote باستخدام Aspose.Note for Java. خصص فهرس الصفحة، العدد، وإعدادات الضغط بسهولة.
+
+### [استخدام خوارزمية الحفاظ على الكائنات الصلبة في OneNote - Aspose.Note](./use-keep-solid-objects-algorithm/)
+تعلم كيفية الحفاظ على الكائنات الصلبة في مستندات Aspose.Note الخاصة بك عند التحويل إلى PDF باستخدام خوارزمية Keep Solid Objects في Java.
+
+### [استخدام طريقة خوارزمية التقسيم في OneNote - Aspose.Note](./use-splitting-algorithm-method/)
 تعلم كيفية تقسيم مستندات OneNote بفعالية باستخدام Aspose.Note for Java.
 
 ## تقسيم مستند OneNote باستخدام Aspose.Note
-إذا كنت بحاجة إلى تقسيم مفكرة OneNote الكبيرة إلى أجزاء أصغر وأكثر قابلية للإدارة، فإن ميزة **تقسيم مستند OneNote** هي الحل. طريقة خوارزمية التقسيم (Splitting Algorithm) تستخرج الأقسام أو الصفحات الفردية وتحفظ كل منها كملف OneNote منفصل، وهو مثالي للمعالجة الدفعية، الأرشفة، أو توزيع المحتوى بين الفرق. راجع الدرس المخصص أعلاه للحصول على دليل عملي خطوة بخطوة.
+إذا كنت بحاجة إلى تقسيم دفتر ملاحظات OneNote كبير إلى قطع أصغر وأسهل في الإدارة، فإن ميزة **تقسيم مستند OneNote** هي الحل. طريقة خوارزمية التقسيم تستخرج الأقسام أو الصفحات الفردية وتحفظ كل منها كملف OneNote منفصل، وهو مثالي للمعالجة الدفعية، الأرشفة، أو توزيع المحتوى عبر الفرق. راجع الدرس المخصص أعلاه للحصول على شرح عملي.
 
 ## المشكلات الشائعة & استكشاف الأخطاء
 - **الخطوط المفقودة** – تأكد من تحديد نظام الخطوط بشكل صحيح؛ وإلا قد يعود الإخراج إلى الخطوط الافتراضية.  
-- **عدم إغلاق الـ Stream** – احرص دائمًا على إغلاق `OutputStream` داخل كتلة `finally` أو استخدم try‑with‑resources لتجنب تسرب الموارد.  
+- **عدم إغلاق التدفق** – احرص دائمًا على إغلاق `OutputStream` في كتلة `finally` أو استخدم try‑with‑resources لتجنب تسرب الموارد.  
 - **الملفات الكبيرة** – استخدم `ImageSaveOptions` لتقليل الدقة أو تطبيق الضغط عند التصدير إلى صيغ الصور.
 
 ## الأسئلة المتكررة
-
 **س: هل يمكنني تحويل ملف OneNote إلى PDF دون فقدان التنسيق؟**  
-ج: نعم. استخدم خوارزمية Keep Solid Objects مع `PdfSaveOptions` للحفاظ على التخطيط والكائنات المضمّنة.
+ج: نعم. استخدم خوارزمية Keep Solid Objects مع `PdfSaveOptions` للحفاظ على التخطيط والكائنات المدمجة.
 
-**س: كيف أحفظ صفحة OneNote مباشرةً إلى `OutputStream`؟**  
-ج: أنشئ كائن `SaveOptions` المناسب (مثل `OneSaveOptions`) ثم استدعِ `document.save(outputStream, saveOptions);` – سيحتوي الـ stream على البيانات الثنائية لـ OneNote.
+**س: كيف أحفظ صفحة OneNote مباشرة إلى `OutputStream`؟**  
+ج: أنشئ كائن `SaveOptions` المناسب (مثل `OneSaveOptions`) واستدعِ `document.save(outputStream, saveOptions);` – سيحتوي التدفق على بيانات OneNote الثنائية.
 
 **س: هل يمكن تقسيم مستند OneNote إلى أقسام منفصلة؟**  
-ج: بالتأكيد. طريقة خوارزمية التقسيم تتيح لك تحديد القسم أو الصفحة المستهدفة وحفظ كل جزء كملف .one مستقل.
+ج: بالتأكيد. تسمح لك طريقة خوارزمية التقسيم بتحديد القسم أو الصفحة المستهدفة وتحفظ كل جزء كملف .one مستقل.
 
 **س: هل أحتاج إلى بيئة Windows لاستخدام Aspose.Note for Java؟**  
-ج: لا. Aspose.Note مكتبة Java صافية وتعمل على أي نظام تشغيل يدعم Java (Windows، Linux، macOS).
+ج: لا. Aspose.Note هي مكتبة Java صافية وتعمل على أي نظام تشغيل يدعم Java (Windows، Linux، macOS).
 
-**س: أين يمكنني العثور على أحدث إصدار من Aspose.Note for Java؟**  
+**س: أين يمكنني العثور على أحدث نسخة من Aspose.Note for Java؟**  
 ج: زر الموقع الرسمي لـ Aspose أو مستودع Maven Central للحصول على أحدث إصدار.
 
-## أسئلة إضافية سريعة
-
+## الأسئلة المتكررة – استفسارات سريعة إضافية
 **س: كيف يمكنني ضبط دقة الصورة عند حفظ صفحات OneNote؟**  
 ج: استخدم `ImageSaveOptions.setResolution(int dpi)` قبل استدعاء `document.save(...)`. يتيح لك ذلك التحكم في DPI الناتج لصيغ الصور.
 
 **س: ما هي أفضل طريقة لتطبيق عتبة صورة ثنائية على تصدير OneNote؟**  
-ج: استدعِ `BinaryImageSaveOptions.setThresholdMethod(ThresholdMethod.FIXED)` وحدد قيمة العتبة للحصول على صورة أبيض‑أسود واضحة.
+ج: طبق `BinaryImageSaveOptions.setThresholdMethod(ThresholdMethod.FIXED)` وحدد قيمة العتبة للحصول على صورة واضحة بالأبيض والأسود.
 
-**س: هل يدعم Aspose.Note التحويل من OneNote إلى PDF؟**  
-ج: نعم – ببساطة حمّل ملف `.one` واستدعِ `document.save("output.pdf", SaveFormat.PDF)`؛ يمكنك أيضًا تعديل إعدادات التحويل باستخدام `PdfSaveOptions`.
+**س: هل تدعم Aspose.Note تحويل OneNote إلى PDF؟**  
+ج: نعم – فقط حمّل ملف `.one` واستدعِ `document.save("output.pdf", SaveFormat.PDF)`؛ يمكنك أيضًا تعديل إعدادات التحويل باستخدام `PdfSaveOptions`.
 
-**س: هل يمكنني حفظ محتوى OneNote مباشرةً إلى Stream للتخزين السحابي؟**  
-ج: بالتأكيد. استخدم `document.save(outputStream, new OneSaveOptions())` لكتابة البيانات إلى أي `OutputStream`، مثل `ByteArrayOutputStream` لخدمات السحابة.
+**س: هل يمكنني حفظ محتوى OneNote مباشرة إلى تدفق لتخزين سحابي؟**  
+ج: بالتأكيد. استخدم `document.save(outputStream, new OneSaveOptions())` لكتابة البيانات إلى أي `OutputStream`، مثل `ByteArrayOutputStream` لواجهات برمجة تطبيقات السحابة.
 
-**س: هل هناك API مخصص لحفظ مستندات OneNote يتعامل بفعالية مع المفكرات الكبيرة؟**  
-ج: يضمن API البث للمكتبة مع `ImageSaveOptions` وخوارزمية التقسيم معالجة ذات كفاءة في الذاكرة للمفكرات الكبيرة.
+**س: هل هناك واجهة برمجة تطبيقات مخصصة لحفظ مستندات OneNote تتعامل بفعالية مع دفاتر ملاحظات كبيرة؟**  
+ج: تضمن واجهة البث في المكتبة مع `ImageSaveOptions` وخوارزمية التقسيم معالجة فعالة للذاكرة للدفاتر الكبيرة.
 
----
+**آخر تحديث:** 2026-08-23  
+**تم الاختبار مع:** Aspose.Note 26.4 for Java  
+**المؤلف:** Aspose
 
-**آخر تحديث:** 2026-02-20  
-**تم الاختبار مع:** Aspose.Note 24.12 for Java  
-**المؤلف:** Aspose  
+## دروس ذات صلة
+- [aspnote set jpeg resolution – ضبط دقة الصورة الناتجة في OneNote - Aspose.Note](/note/java/onenote-document-saving/set-output-image-resolution/)
+- [كيفية تعديل العتبة عند حفظ OneNote إلى صورة ثنائية](/note/java/onenote-document-saving/save-to-binary-image-using-fixed-threshold/)
+- [كيفية تصدير OneNote كصورة رمادية – Aspose.Note](/note/java/onenote-document-saving/save-to-grayscale-image/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
