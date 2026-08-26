@@ -1,6 +1,6 @@
 ---
-title: OneNote to PDF with Dark Theme – Apply Dark Theme to Text
-linktitle: OneNote to PDF with Dark Theme – Apply Dark Theme to Text
+title: Convert OneNote to PDF with Dark Theme – Apply Dark Theme to Text using Aspose.Note for Java
+linktitle: Convert OneNote to PDF with Dark Theme – Apply Dark Theme to Text using Aspose.Note for Java
 second_title: Aspose.Note Java API
 description: Learn how to convert OneNote to PDF with a dark theme and change text color using Aspose.Note for Java. Follow simple steps to adjust font color and set page background.
 weight: 11
@@ -34,7 +34,7 @@ Converting OneNote to PDF creates a portable, read‑only version of your notes.
 
 ## Prerequisites
 Before diving into the tutorial, ensure you have the following prerequisites:
-- Aspose.Note for Java: Download and install the Aspose.Note for Java library from [here](https://releases.aspose.com/note/java/).
+- Aspose.Note for Java: Download and install the Aspose.Note for Java library from [Aspose.Note for Java download page](https://releases.aspose.com/note/java/).
 - Java Development Kit (JDK): Make sure you have Java installed on your machine.
 - Integrated Development Environment (IDE): Choose an IDE like Eclipse or IntelliJ for seamless development.
 
@@ -48,7 +48,7 @@ import java.io.IOException;
 import java.nio.file.Paths;
 ```
 
-## Step 1: Set Page Background Color
+## Step 1: set page background color
 First, we change the page background to black – this is the **set page background java** step that creates the dark theme foundation.
 
 ```java
@@ -62,7 +62,7 @@ for (Page page: doc)
 }
 ```
 
-## Step 2: Adjust Text Color
+## Step 2: adjust text color
 Next, we scan every `RichText` node. If the existing font color is too dark (or almost invisible on a black background), we switch it to white. This is the **change text color java** / **adjust font color java** logic.
 
 ```java
@@ -85,12 +85,12 @@ doc.save(Paths.get(dataDir, "AsposeDarkTheme.pdf").toString());
 
 Repeat these steps for each document, and you'll have successfully applied a dark theme to your OneNote text and exported it as a PDF using Aspose.Note for Java.
 
-## Common Use Cases
+## Common use cases
 - **Corporate presentations** where a dark slide deck is preferred.  
 - **Night‑mode reading** on tablets or e‑readers.  
 - **Brand‑consistent documentation** that matches a company’s dark UI guidelines.
 
-## Troubleshooting Tips & Common Pitfalls
+## Troubleshooting tips & common pitfalls
 - **Text remains invisible:** Verify that the original font color isn’t already white; the conditional check may skip it.  
 - **PDF output is blank:** Ensure the source `.one` file is correctly loaded and the file path is accurate.  
 - **Performance on large notebooks:** Process pages in batches or increase JVM heap size to avoid `OutOfMemoryError`.
@@ -106,12 +106,12 @@ As of now, Aspose.Note for Java allows you to customize themes, but there are no
 Yes, Aspose.Note for Java supports various document formats, including PDF, DOCX, and HTML.
 
 ### Is there a trial version available for Aspose.Note for Java?
-Yes, you can access the free trial version [here](https://releases.aspose.com/).
+Yes, you can access the free trial version [Aspose.Note free trial download page](https://releases.aspose.com/).
 
 ### How can I get support for Aspose.Note for Java?
-Visit the [Aspose.Note forum](https://forum.aspose.com/c/note/28) for community support or explore premium support options [here](https://purchase.aspose.com/temporary-license/).
+Visit the [Aspose.Note forum](https://forum.aspose.com/c/note/28) for community support or explore premium support options [Aspose temporary license purchase page](https://purchase.aspose.com/temporary-license/).
 
-## Additional Frequently Asked Questions
+## Additional frequently asked questions
 
 **Q: How does the dark theme affect searchable text in the PDF?**  
 A: The text remains searchable because the underlying characters are unchanged; only the visual color is altered.
@@ -131,15 +131,22 @@ A: The conversion preserves the page order and basic formatting, but complex One
 ## Conclusion
 By following this step‑by‑step guide, you can effortlessly **convert OneNote to PDF** with a professional dark theme, change text color, and control page background—all using Aspose.Note for Java. This technique not only enhances visual appeal but also prepares your notes for secure, shareable distribution.
 
-{{< /blocks/products/pf/tutorial-page-section >}}
 
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
 
-{{< blocks/products/products-backtop-button >}}
+
+
+
+
 
 ---
 
 **Last Updated:** 2026-03-03  
 **Tested With:** Aspose.Note for Java 24.5  
 **Author:** Aspose
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

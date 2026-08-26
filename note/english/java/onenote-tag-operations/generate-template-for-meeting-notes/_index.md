@@ -1,6 +1,6 @@
 ---
-title: Create Outline in OneNote – Meeting Notes Template
-linktitle: Create Outline in OneNote – Meeting Notes Template
+title: Generate Meeting Notes Template with Aspose.Note for Java – Create Outline in OneNote
+linktitle: Generate Meeting Notes Template with Aspose.Note for Java – Create Outline in OneNote
 second_title: Aspose.Note Java API
 description: Learn how to create outline in OneNote and generate meeting notes template with Aspose.Note for Java. Customize font style and add checkboxes easily.
 weight: 14
@@ -35,7 +35,7 @@ Creating an outline in OneNote means defining a page with a title, multiple outl
 
 ## Prerequisites
 - Basic understanding of Java programming.  
-- Aspose.Note for Java library installed. You can download it [here](https://releases.aspose.com/note/java/).  
+- Aspose.Note for Java library installed. You can **download Aspose.Note for Java** [here](https://releases.aspose.com/note/java/).  
 - An IDE such as Eclipse or IntelliJ IDEA.  
 
 ## Import Packages
@@ -51,7 +51,7 @@ import java.util.Date;
 import java.util.Locale;
 ```
 
-## Step 1: Create Document Structure
+## Step 1: create document structure
 We start by building the document, setting up a title, and preparing paragraph styles that will later help us **customize font style onenote**.
 
 ```java
@@ -80,7 +80,7 @@ d.appendChildLast(page);
 - Defined two `ParagraphStyle` objects (`headerStyle` for headings, `bodyStyle` for normal text).  
 - Created a `Document` and added a `Title` that includes the current date, giving the page a clear heading.
 
-## Step 2: Outline Important Points
+## Step 2: outline important points
 Next, we **create outline in OneNote** by adding an `Outline` object and populating it with sections such as “Important”. This is where the agenda items live.
 
 ```java
@@ -128,7 +128,7 @@ for (String e: new String[] { "First", "Second", "Third" })
 
 *Pro tip:* Use `NoteCheckBox.createBlueCheckBox()` for a blue tick box; other colors are available if you need a different visual style.
 
-## Step 4: Save the Document
+## Step 4: save the document
 Finally, write the OneNote file to disk. The file can be opened directly in the OneNote desktop app.
 
 ```java
@@ -136,7 +136,7 @@ Finally, write the OneNote file to disk. The file can be opened directly in the 
 d.save(Paths.get(dataDir, "meetingNotes.one").toString());
 ```
 
-## Common Issues and Solutions
+## Common issues and solutions
 | Issue | Solution |
 |-------|----------|
 | **Checkboxes not appearing** | Ensure you called `richText.getTags().add(NoteCheckBox.createBlueCheckBox())` after setting the paragraph style. |
@@ -144,7 +144,7 @@ d.save(Paths.get(dataDir, "meetingNotes.one").toString());
 | **Outline not indented** | Adjust `setVerticalOffset` and `setHorizontalOffset` on the `Outline` object. |
 | **Numbering restarts unexpectedly** | Use the `restartFlag` correctly; set it to `true` only for the first list in a new section. |
 
-## Frequently Asked Questions
+## Frequently asked questions
 ### Can I customize the font styles in my meeting notes?
 Yes, Aspose.Note allows you to define custom font styles for headers and body text.
 
@@ -158,7 +158,7 @@ You can easily extend the outline structure by following the same pattern demons
 Refer to the [Aspose.Note documentation](https://reference.aspose.com/note/java/) for licensing details.
 
 ### Is there a trial version available for Aspose.Note?
-Yes, you can access the [free trial here](https://releases.aspose.com/).
+Yes, you can access the **free Aspose.Note trial download** [here](https://releases.aspose.com/).
 
 ## FAQ
 **Q: How do I add a checklist to OneNote without using checkboxes?**  
