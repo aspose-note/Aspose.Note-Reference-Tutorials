@@ -104,7 +104,7 @@ A: Ja, du kan lägga till, redigera eller ta bort sidor, sektioner och rikt inne
 A: Ja, Aspose erbjuder teknisk support och ett dedikerat forum. Besök [Aspose.Note forum](https://forum.aspose.com/c/note/28) för hjälp.
 
 **Senast uppdaterad:** 2026-03-05  
-**Testat med:** Aspose.Note for Java 24.12  
+**Testat med:** Aspose.Note for Java 26.4  
 **Författare:** Aspose  
 
 {{< /blocks/products/pf/tutorial-page-section >}}

@@ -61,7 +61,7 @@ Aspose.Note.Page page = new Aspose.Note.Page(doc);
 ## Bước 3: Khởi tạo đối tượng Outline
 
 ```csharp
-Outline outline = new Outline(doc);
+Outline outline = new Outline();
 ```
 
  Các`Outline`lớp đại diện cho một nút phác thảo trong hệ thống phân cấp tài liệu. Chúng tôi tạo một đối tượng phác thảo mới để cấu trúc tài liệu của chúng tôi.
@@ -69,7 +69,7 @@ Outline outline = new Outline(doc);
 ## Bước 4: Khởi tạo đối tượng OutlineElement
 
 ```csharp
-OutlineElement outlineElem = new OutlineElement(doc);
+OutlineElement outlineElem = new OutlineElement();
 ```
 
  MỘT`OutlineElement` đại diện cho một phần tử trong một phác thảo. Ở đây, chúng ta tạo một phần tử phác thảo mới để thêm nội dung vào tài liệu của mình.

@@ -52,8 +52,8 @@ Aspose.Note.Page page = new Aspose.Note.Page(doc);
  Inisialisasi`Table`, `TableRow` , Dan`TableCell` objek:
 
 ```csharp
-TableRow row = new TableRow(doc);
-TableCell cell = new TableCell(doc);
+TableRow row = new TableRow();
+TableCell cell = new TableCell();
 ```
 
 ## Langkah 3: Masukkan Konten ke dalam Sel
@@ -69,7 +69,7 @@ cell.AppendChildLast(InsertTable.GetOutlineElementWithText(doc, "Single cell."))
  Inisialisasi`Table` objek dengan properti tertentu:
 
 ```csharp
-Table table = new Table(doc)
+Table table = new Table()
 {
     IsBordersVisible = true,
     Columns = { new TableColumn { Width = 70 } }
@@ -97,8 +97,8 @@ table.Tags.Add(NoteTag.CreateQuestionMark());
  Buat sebuah`Outline` Dan`OutlineElement` untuk menambahkan simpul tabel:
 
 ```csharp
-Outline outline = new Outline(doc);
-OutlineElement outlineElem = new OutlineElement(doc);
+Outline outline = new Outline();
+OutlineElement outlineElem = new OutlineElement();
 outlineElem.AppendChildLast(table);
 outline.AppendChildLast(outlineElem);
 page.AppendChildLast(outline);

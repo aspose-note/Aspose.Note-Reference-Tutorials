@@ -54,8 +54,8 @@ Wir erstellen ein neues Seitenobjekt, um ihm Inhalte hinzuzufügen.
 
 ## Schritt 3: Outline- und OutlineElement-Objekte initialisieren
 ```csharp
-Outline outline1 = new Outline(doc);
-OutlineElement outlineElem1 = new OutlineElement(doc);
+Outline outline1 = new Outline();
+OutlineElement outlineElem1 = new OutlineElement();
 ```
 Wir erstellen Instanzen der Klassen Outline und OutlineElement, um unseren Inhalt innerhalb der Seite zu strukturieren.
 

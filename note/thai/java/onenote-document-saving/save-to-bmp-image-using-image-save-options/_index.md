@@ -104,7 +104,7 @@ A: มี, Aspose มีการสนับสนุนทางเทคน�
 ---
 
 **อัปเดตล่าสุด:** 2026-03-05  
-**ทดสอบด้วย:** Aspose.Note for Java 24.12  
+**ทดสอบด้วย:** Aspose.Note for Java 26.4  
 **ผู้เขียน:** Aspose  
 
 {{< /blocks/products/pf/tutorial-page-section >}}

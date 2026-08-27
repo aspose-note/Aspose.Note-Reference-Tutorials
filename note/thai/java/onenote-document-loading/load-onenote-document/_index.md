@@ -102,7 +102,7 @@ A: ขอรับลิขสิทธิ์ชั่วคราวจาก [
 ---
 
 **อัปเดตล่าสุด:** 2025-12-09  
-**ทดสอบด้วย:** Aspose.Note for Java 24.12 (ล่าสุด)  
+**ทดสอบด้วย:** Aspose.Note for Java 26.4 (ล่าสุด)  
 **ผู้เขียน:** Aspose  
 
 {{< /blocks/products/pf/tutorial-page-section >}}

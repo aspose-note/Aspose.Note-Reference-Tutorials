@@ -54,8 +54,8 @@ Nous créons un nouvel objet Page pour y ajouter du contenu.
 
 ## Étape 3 : initialiser les objets Outline et OutlineElement
 ```csharp
-Outline outline1 = new Outline(doc);
-OutlineElement outlineElem1 = new OutlineElement(doc);
+Outline outline1 = new Outline();
+OutlineElement outlineElem1 = new OutlineElement();
 ```
 Nous créons des instances des classes Outline et OutlineElement pour structurer notre contenu dans la page.
 

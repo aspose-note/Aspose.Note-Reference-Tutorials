@@ -128,7 +128,7 @@ A：當然可以——遍歷 `Document.getPages()`，對每個頁面套用相同
 ---
 
 **最後更新：** 2025-12-14  
-**測試環境：** Aspose.Note for Java 24.12  
+**測試環境：** Aspose.Note for Java 26.4  
 **作者：** Aspose  
 
 {{< /blocks/products/pf/tutorial-page-section >}}

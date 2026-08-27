@@ -58,7 +58,7 @@ OutlineElement outlineElem = new OutlineElement();
 ## Stap 5: Afbeelding laden en invoegen
 ```java
 // laad een afbeelding
-Image image = new Image(null, dataDir + "Input.jpg");
+Image image = new Image(dataDir + "Input.jpg");
 // voeg een afbeelding in het documentknooppunt in
 outlineElem.appendChildLast(image);
 ```

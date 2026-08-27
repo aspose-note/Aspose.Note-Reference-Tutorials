@@ -106,7 +106,7 @@ A: Ano, můžete přidávat, upravovat nebo mazat stránky, sekce a bohatý obsa
 A: Ano, Aspose nabízí technickou podporu a vyhrazené fórum. Navštivte [Aspose.Note forum](https://forum.aspose.com/c/note/28) pro pomoc.
 
 **Poslední aktualizace:** 2026-03-05  
-**Testováno s:** Aspose.Note for Java 24.12  
+**Testováno s:** Aspose.Note for Java 26.4  
 **Autor:** Aspose  
 
 {{< /blocks/products/pf/tutorial-page-section >}}

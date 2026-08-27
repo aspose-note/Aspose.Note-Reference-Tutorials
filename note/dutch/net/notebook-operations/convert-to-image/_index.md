@@ -42,7 +42,7 @@ Om te beginnen moeten we het OneNote-notitieboekje laden dat we willen converter
 
 ```csharp
 string dataDir = "Your Document Directory";
-var notebook = new Notebook(dataDir + "Notizbuch �ffnen.onetoc2");
+var notebook = new Notebook(dataDir + "Notebook.onetoc2");
 ```
 
 ## Stap 2: Sla het notitieboekje op als afbeelding

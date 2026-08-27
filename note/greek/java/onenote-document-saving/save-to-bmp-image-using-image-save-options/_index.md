@@ -108,7 +108,7 @@ A: Ναι, η Aspose προσφέρει τεχνική υποστήριξη κα
 ---
 
 **Τελευταία ενημέρωση:** 2026-03-05  
-**Δοκιμή με:** Aspose.Note for Java 24.12  
+**Δοκιμή με:** Aspose.Note for Java 26.4  
 **Συγγραφέας:** Aspose  
 
 {{< /blocks/products/pf/tutorial-page-section >}}

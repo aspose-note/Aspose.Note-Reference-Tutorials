@@ -105,7 +105,7 @@ A: Да, через API вы можете добавлять, редактиро
 A: Да, Aspose предлагает техническую поддержку и специализированный форум. Посетите [форум Aspose.Note](https://forum.aspose.com/c/note/28) для получения помощи.
 
 **Последнее обновление:** 2026-03-05  
-**Тестировано с:** Aspose.Note for Java 24.12  
+**Тестировано с:** Aspose.Note for Java 26.4  
 **Автор:** Aspose  
 
 {{< /blocks/products/pf/tutorial-page-section >}}

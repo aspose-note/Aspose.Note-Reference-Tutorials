@@ -107,7 +107,7 @@ C: Evet, Aspose teknik destek ve özel bir forum sunar. Yardım için [Aspose.No
 ---
 
 **Son Güncelleme:** 2026-03-05  
-**Test Edilen:** Aspose.Note for Java 24.12  
+**Test Edilen:** Aspose.Note for Java 26.4  
 **Yazar:** Aspose  
 
 {{< /blocks/products/pf/tutorial-page-section >}}

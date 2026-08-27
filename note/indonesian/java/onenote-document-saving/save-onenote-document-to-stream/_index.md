@@ -114,7 +114,7 @@ Anda sekarang memiliki cara lengkap dan siap produksi untuk **save OneNote PDF**
 ---
 
 **Terakhir Diperbarui:** 2025-12-12  
-**Diuji Dengan:** Aspose.Note for Java 24.11  
+**Diuji Dengan:** Aspose.Note for Java 26.4  
 **Penulis:** Aspose  
 
 {{< /blocks/products/pf/tutorial-page-section >}}

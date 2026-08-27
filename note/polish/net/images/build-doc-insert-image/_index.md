@@ -61,7 +61,7 @@ Aspose.Note.Page page = new Aspose.Note.Page(doc);
 ## Krok 3: Zainicjuj obiekt konspektu
 
 ```csharp
-Outline outline = new Outline(doc);
+Outline outline = new Outline();
 ```
 
  The`Outline`klasa reprezentuje węzeł konspektu w hierarchii dokumentu. Tworzymy nowy obiekt konspektu, aby uporządkować nasz dokument.
@@ -69,7 +69,7 @@ Outline outline = new Outline(doc);
 ## Krok 4: Zainicjuj obiekt OutlineElement
 
 ```csharp
-OutlineElement outlineElem = new OutlineElement(doc);
+OutlineElement outlineElem = new OutlineElement();
 ```
 
  Jakiś`OutlineElement` reprezentuje element w obrębie konspektu. Tutaj tworzymy nowy element konspektu, aby dodać treść do naszego dokumentu.

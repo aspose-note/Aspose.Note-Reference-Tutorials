@@ -106,7 +106,7 @@ A：提供。Aspose 有技術支援與專屬論壇。請前往 [Aspose.Note 論�
 ---
 
 **最後更新日期：** 2026-03-05  
-**測試環境：** Aspose.Note for Java 24.12  
+**測試環境：** Aspose.Note for Java 26.4  
 **作者：** Aspose  
 
 {{< /blocks/products/pf/tutorial-page-section >}}

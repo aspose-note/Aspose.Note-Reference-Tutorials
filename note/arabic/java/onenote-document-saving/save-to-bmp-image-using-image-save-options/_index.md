@@ -103,7 +103,7 @@ oneFile.save(dataDir, new ImageSaveOptions(SaveFormat.Bmp));
 ج: نعم، تقدم Aspose دعمًا فنيًا ومنتدى مخصص. زر [منتدى Aspose.Note](https://forum.aspose.com/c/note/28) للحصول على المساعدة.
 
 **آخر تحديث:** 2026-03-05  
-**تم الاختبار مع:** Aspose.Note for Java 24.12  
+**تم الاختبار مع:** Aspose.Note for Java 26.4  
 **المؤلف:** Aspose  
 
 {{< /blocks/products/pf/tutorial-page-section >}}

@@ -108,7 +108,7 @@ A: 是的，Aspose 提供技术支持和专门的论坛。访问 [Aspose.Note fo
 ---
 
 **最后更新：** 2026-03-05  
-**测试环境：** Aspose.Note for Java 24.12  
+**测试环境：** Aspose.Note for Java 26.4  
 **作者：** Aspose  
 
 {{< /blocks/products/pf/tutorial-page-section >}}

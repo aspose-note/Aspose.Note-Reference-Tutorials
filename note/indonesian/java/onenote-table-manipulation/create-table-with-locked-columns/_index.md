@@ -87,7 +87,7 @@ Selamat! Anda telah berhasil membuat tabel dengan kolom terkunci di OneNote meng
 Dalam tutorial ini, kami menjelajahi proses penggunaan Aspose.Note untuk Java untuk meningkatkan pengalaman OneNote Anda dengan membuat tabel dengan kolom terkunci. Fungsionalitas ini menambahkan lapisan organisasi dan struktur baru pada catatan Anda.
 ## FAQ
 ### Apakah Aspose.Note untuk Java kompatibel dengan semua versi Java?
-Ya, Aspose.Note untuk Java kompatibel dengan Java 6 dan versi yang lebih baru.
+Ya, Aspose.Note untuk Java kompatibel dengan Java SE 7 dan versi yang lebih baru.
 ### Bisakah saya menyesuaikan tampilan tabel lebih lanjut?
 Sangat! Aspose.Note untuk Java menyediakan opsi ekstensif untuk menyesuaikan tabel, seperti menyesuaikan batas, spasi sel, dan banyak lagi.
 ### Apakah ada versi uji coba yang tersedia sebelum membeli?

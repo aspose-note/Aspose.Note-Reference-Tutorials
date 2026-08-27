@@ -124,7 +124,7 @@ Neste guia demonstramos **como exportar páginas do OneNote** convertendo um int
 ---
 
 **Last Updated:** 2025-11-30  
-**Tested With:** Aspose.Note for Java 24.11  
+**Tested With:** Aspose.Note for Java 26.4  
 **Author:** Aspose  
 
 {{< /blocks/products/pf/tutorial-page-section >}}

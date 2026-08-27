@@ -21,7 +21,7 @@ I den här handledningen kommer vi att utforska hur man konverterar en antecknin
 
 Innan vi börjar, se till att du har följande:
 
-1.  Java Development Kit (JDK): Se till att du har Java installerat på ditt system. Du kan ladda ner och installera den senaste versionen från[hemsida](https://www.oracle.com/java/technologies/javase-jdk15-downloads.html).
+1.  Java Development Kit (JDK): Se till att du har Java installerat på ditt system. Du kan ladda ner och installera den senaste versionen från[hemsida](https://www.oracle.com/java/technologies/downloads/).
 
 2.  Aspose.Note for Java Library: Ladda ner och inkludera Aspose.Note for Java-biblioteket i ditt projekt. Du kan hämta biblioteket från[Aspose hemsida](https://releases.aspose.com/note/java/).
 

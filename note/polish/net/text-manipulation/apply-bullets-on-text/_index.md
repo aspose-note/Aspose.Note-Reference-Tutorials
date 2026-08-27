@@ -41,7 +41,7 @@ Aspose.Note.Document doc = new Aspose.Note.Document();
 // Zainicjuj obiekt klasy Page
 Aspose.Note.Page page = new Aspose.Note.Page(doc);
 // Zainicjuj obiekt klasy Outline
-Outline outline = new Outline(doc);
+Outline outline = new Outline();
 ```
 ## Krok 3: Ustaw domyślny styl tekstu
 ```csharp
@@ -51,8 +51,8 @@ ParagraphStyle defaultStyle = new ParagraphStyle { FontColor = Color.Black, Font
 ## Krok 4: Utwórz elementy konturu za pomocą punktorów
 ```csharp
 // Zainicjuj obiekty klasy OutlineElement i zastosuj punktory
-OutlineElement outlineElem1 = new OutlineElement(doc) { NumberList = new NumberList("*", "Arial", 10) };
-RichText text1 = new RichText(doc) { Text = "First", ParagraphStyle = defaultStyle };
+OutlineElement outlineElem1 = new OutlineElement() { NumberList = new NumberList("*", "Arial", 10) };
+RichText text1 = new RichText() { Text = "First", ParagraphStyle = defaultStyle };
 outlineElem1.AppendChildLast(text1);
 // Powtórz dla pozostałych elementów konturu
 ```

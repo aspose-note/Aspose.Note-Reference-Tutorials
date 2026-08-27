@@ -48,7 +48,7 @@ Najpierw załaduj notatnik programu OneNote, który chcesz przekonwertować na a
 string dataDir = "Your Document Directory";
 
 // Załaduj notatnik programu OneNote
-var notebook = new Notebook(dataDir + "Notizbuch öffnen.onetoc2");
+var notebook = new Notebook(dataDir + "Notebook.onetoc2");
 ```
 
 ## Krok 2: Ustaw opcje zapisywania

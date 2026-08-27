@@ -48,7 +48,7 @@ Laad eerst het OneNote-notitieblok dat u naar uw toepassing wilt converteren.
 string dataDir = "Your Document Directory";
 
 // Laad een OneNote-notitieblok
-var notebook = new Notebook(dataDir + "Notizbuch öffnen.onetoc2");
+var notebook = new Notebook(dataDir + "Notebook.onetoc2");
 ```
 
 ## Stap 2: Stel de opslagopties in

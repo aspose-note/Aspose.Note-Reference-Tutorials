@@ -114,7 +114,7 @@ A5: हाँ, आप एक अस्थायी लाइसेंस [यह
 ---
 
 **अंतिम अपडेट:** 2025-12-12  
-**परीक्षण किया गया:** Aspose.Note for Java 24.11  
+**परीक्षण किया गया:** Aspose.Note for Java 26.4  
 **लेखक:** Aspose  
 
 {{< /blocks/products/pf/tutorial-page-section >}}

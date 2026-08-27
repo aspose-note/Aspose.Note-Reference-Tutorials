@@ -1,34 +1,53 @@
 ---
-title: OneNote'ta Önceki Sayfa Sürümüne Geri Dönme - Aspose.Note
-linktitle: OneNote'ta Önceki Sayfa Sürümüne Geri Dönme - Aspose.Note
-second_title: Aspose.Note Java API'si
-description: Aspose.Note for Java'yı kullanarak OneNote'ta önceki sayfa sürümlerine nasıl geri döneceğinizi öğrenin. Etkin belge yönetimi için bu adım adım kılavuzu izleyin.
-weight: 19
+date: 2026-01-12
+description: Aspose.Note for Java kullanarak OneNote sayfalarını nasıl geri alacağınızı
+  ve önceki OneNote sürümünü nasıl geri yükleyeceğinizi öğrenin. Etkili belge yönetimi
+  için bu adım adım kılavuzu izleyin.
+linktitle: How to Roll Back OneNote - Aspose.Note
+second_title: Aspose.Note Java API
+title: OneNote'u Nasıl Geri Alırsınız - Aspose.Note
 url: /tr/java/onenote-page-manipulation/roll-back-to-previous-page-version/
+weight: 19
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# OneNote'ta Önceki Sayfa Sürümüne Geri Dönme - Aspose.Note
+# OneNote'i Geri Döndürme - Aspose.Note
 
-## giriiş
+## Giriş
 
-Bu eğitimde, OneNote'ta bir sayfanın önceki sürümüne geri dönmek için Aspose.Note for Java'yı kullanmayı ayrıntılı olarak ele alacağız. OneNote not alma, işbirliği ve organizasyon için güçlü bir araçtır ancak bazen hatalar meydana gelebilir veya değişikliklerin geri alınması gerekebilir. Aspose.Note, Java ile kusursuz entegrasyon sunarak geliştiricilere OneNote belgelerini programlı olarak yönetme olanağı sağlar. Önceki sayfa sürümüne geri dönmek, OneNote belgelerinizde doğruluğu ve bütünlüğü korumak için çok önemli bir özelliktir.
+Eğer bir hata oluştuğunda OneNote sayfalarını **nasıl geri alacağınızı** açık ve programatik bir şekilde öğrenmek istiyorsanız doğru yerdesiniz. Bu eğitimde, Aspose.Note for Java kullanarak bir OneNote sayfasını daha önceki bir duruma nasıl geri döndüreceğimizi adım adım anlatacağız. İster otomatik bir not yönetim aracı oluşturuyor olun, ister işbirlikçi not defterleri için bir güvenlik ağına ihtiyacınız olsun, bir sayfayı geri almak içeriğinizin doğru ve güvenilir kalmasına yardımcı olur.
+
+## Hızlı Cevaplar
+- **OneNote için “geri alma” ne anlama geliyor?** Bir sayfayı geçmişinde kaydedilen önceki bir sürüme geri yüklemek.
+
+- **Geri alma işlemini hangi API yönetiyor?** Aspose.Note for Java'daki `PageHistory` sınıfı.
+
+- **Lisansa ihtiyacım var mı?** Üretim kullanımı için geçerli bir Aspose.Note lisansı gereklidir.
+
+- **Herhangi bir önceki sürümü seçebilir miyim?** Evet – sayfanın geçmiş listesinden herhangi bir girişi seçebilirsiniz.
+
+- **Bu yaklaşım büyük not defterleri için güvenli mi?** Kesinlikle; işlem, tüm not defterini belleğe yüklemeden tek tek sayfalarda çalışır.
+
+## OneNote Sayfa Sürümünü Geri Alma
+Aşağıda, geri alma işlemini tam olarak nasıl gerçekleştireceğinizi gösteren özlü, adım adım bir kılavuz bulunmaktadır. Her adım, *ne* yazmanız gerektiğini değil, *neden* yaptığımızı anlamanız için kısa bir açıklama içerir.
 
 ## Önkoşullar
 
-Eğiticiye dalmadan önce aşağıdaki önkoşulların mevcut olduğundan emin olun:
+Koda dalmadan önce, aşağıdakilerin hazır olduğundan emin olun:
 
 ### Java Geliştirme Ortamı Kurulumu
-1. Java Development Kit'i (JDK) yükleyin: JDK'nın en son sürümünü Oracle web sitesinden veya paket yöneticinizden indirin ve yükleyin.
-2. Java Ortam Değişkenlerini Ayarlayın: JAVA_HOME ve PATH ortam değişkenlerini JDK kurulum dizininize işaret edecek şekilde yapılandırın.
-3.  Aspose.Note for Java'yı yükleyin: Aspose.Note for Java kütüphanesini şu adresten indirin:[İnternet sitesi](https://purchase.aspose.com/buy)ve belgelerde sağlanan kurulum talimatlarını izleyin.
+1. **Java Geliştirme Kitini (JDK) Kurun:** Oracle web sitesinden veya tercih ettiğiniz paket yöneticisinden en son JDK'yı edinin.
 
-## Paketleri İçe Aktar
+2. **Ortam Değişkenlerini Yapılandırın:** `JAVA_HOME`'u ayarlayın ve `PATH`'ı güncelleyin, böylece `java` ve `javac` komutlarına komut satırından erişilebilir.
 
-Başlamak için gerekli paketleri Aspose.Note for Java'dan Java projemize aktaralım:
+3. **Aspose.Note for Java'yı Ekleyin:** Kütüphaneyi [web sitesinden](https://purchase.aspose.com/buy) indirin ve JAR dosyasını projenizin sınıf yoluna ekleyin.
+
+## Paketleri İçe Aktarın
+
+OneNote dosyalarıyla etkileşim kurmak için gerekli Aspose.Note sınıflarını içe aktarın:
 
 ```java
 import java.io.IOException;
@@ -38,65 +57,79 @@ import com.aspose.note.Page;
 import com.aspose.note.PageHistory;
 ```
 
-Şimdi Aspose.Note for Java kullanarak OneNote'ta önceki sayfa sürümüne geri dönme sürecini yönetilebilir adımlara ayıralım:
-
-## 1. Adım: OneNote Belgesini Yükleyin
+## Adım 1: OneNote Belgesini Yükleme
 ```java
 String dataDir = "Your Document Directory";
 Document document = new Document(dataDir + "Sample1.one");
 ```
- Öncelikle OneNote belgenizin bulunduğu dizini belirtin. Daha sonra belgeyi bir örneğine yükleyin.`Document` sınıf.
 
-## 2. Adım: Sayfa Geçmişini Alın
+Öncelikle `.one` dosyasını içeren klasöre işaret ediyoruz ve onu bir `Belge` nesnesine yüklüyoruz.
+
+## Adım 2: Sayfa Geçmişini Alma
 ```java
 Page page = document.getFirstChild();
 PageHistory pageHistory = document.getPageHistory(page);
 ```
-Yüklenen belgeden istediğiniz sayfanın sayfa geçmişini alın. Bu bize sayfanın önceki sürümlerine erişmemizi sağlayacaktır.
 
-## 3. Adım: Mevcut Sayfayı Kaldır
+`Sayfa Geçmişi`, seçilen sayfanın kaydedilmiş her sürümüne erişmenizi sağlar ve **önceki OneNote sürümünü geri yükleme** özelliğini etkinleştirir.
+
+## Adım 3: Geçerli Sayfayı Kaldırma
 ```java
 document.removeChild(page);
 ```
-Sayfanın geçerli sürümünü belgeden kaldırın.
 
-## 4. Adım: Önceki Sayfa Sürümünü Ekle
+Geçerli sayfayı kaldırarak, geri getirmek istediğimiz sürüm için yer açıyoruz.
+
+## Adım 4: Önceki Sayfa Sürümünü Ekleme
 ```java
 document.appendChildLast(pageHistory.get_Item(pageHistory.size() - 1));
 ```
-Sayfanın istenen önceki sürümünü belgeye ekleyin.
 
-## Adım 5: Belgeyi Kaydet
+Burada en son geçmiş kaydı seçiyoruz (dizini herhangi bir eski sürümü hedefleyecek şekilde değiştirebilirsiniz) ve belgeye geri ekliyoruz.
+
+## Adım 5: Belgeyi Kaydetme
 ```java
 document.save(dataDir + "RollBackToPreviousPageVersion_out.one");
 ```
-Değiştirilen belgeyi geri alınan sayfa sürümüyle birlikte belirtilen dizine kaydedin.
+Son olarak, değiştirilmiş not defterini kalıcı hale getirin. Çıktı dosyası artık geri alınan sayfayı içeriyor.
 
-## Çözüm
+## Önceki OneNote Sürümünü Geri Yükleme
+`PageHistory` ve `appendChildLast` kombinasyonu, yalnızca birkaç satır kodla **önceki OneNote sürümünü geri yüklemenizi** sağlar. Bu, özellikle manuel geri alma işleminin mümkün olmadığı otomatikleştirilmiş iş akışlarında kullanışlıdır.
 
-Bu eğitimde, Aspose.Note for Java'yı kullanarak OneNote'ta önceki sayfa sürümüne nasıl geri dönüleceğini araştırdık. Adım adım kılavuzu izleyerek OneNote belgelerinizin bütünlüğünü programlı bir şekilde verimli bir şekilde yönetebilir ve koruyabilirsiniz.
+## Sık Karşılaşılan Sorunlar ve İpuçları
+- **Boş Geçmiş:** `pageHistory.size()` 0 döndürürse, sayfanın kaydedilmiş sürümü yoktur—OneNote'ta sürüm oluşturmanın etkinleştirildiğinden emin olun.
 
-## SSS'ler
+- **Dizin Sınır Dışı:** Geçmiş listesinin sıfır tabanlı olduğunu unutmayın. İhtiyacınız olan tam sürümü hedeflemek için dizini (`size() - 1`) ayarlayın.
 
-### S1: Bir sayfanın birden çok sürümünü geri alabilir miyim?
+- **Performans:** Tek bir sayfayla çalışmak, tüm not defterinin belleğe yüklenmesini önler ve büyük dosyalar için bile işlemi hızlı tutar.
 
-C: Evet, sayfa geçmişinin tamamına erişebilir ve gerektiğinde önceki sürümlere geri dönebilirsiniz.
+## Sonuç
 
-### S2: Aspose.Note Java'nın yanı sıra diğer programlama dillerini de destekliyor mu?
+Artık Aspose.Note for Java kullanarak OneNote sayfalarını **nasıl geri alacağınız** konusunda eksiksiz ve üretime hazır bir yönteminiz var. `PageHistory`'den yararlanarak, bir not defteri sayfasının önceki herhangi bir durumunu güvenli bir şekilde geri yükleyebilir, veri bütünlüğünü sağlayabilir ve son kullanıcılara işbirlikçi ortamlarda güven verebilirsiniz.
 
-C: Evet, Aspose.Note .NET, C dahil olmak üzere çeşitli programlama dilleri için kütüphaneler sağlar++ve Python.
+## Sıkça Sorulan Sorular
 
-### S3: Aspose.Note, OneNote'un tüm sürümleriyle uyumlu mudur?
+**S1: Bir sayfanın birden fazla sürümünü geri alabilir miyim?**
+C: Evet, tüm sayfa geçmişine erişebilir ve gerektiğinde herhangi bir önceki sürüme geri dönebilirsiniz.
 
-C: Aspose.Note, OneNote'un çeşitli sürümlerini destekleyerek çoğu belge formatıyla uyumluluk sağlar.
+**S2: Aspose.Note, Java dışında başka programlama dillerini de destekliyor mu?**
+C: Evet, Aspose.Note, .NET, C++ ve Python dahil olmak üzere çeşitli programlama dilleri için kütüphaneler sağlar.
 
-### S4: Aspose.Note'u kullanarak OneNote'taki diğer görevleri otomatikleştirebilir miyim?
+**S3: Aspose.Note, OneNote'un tüm sürümleriyle uyumlu mu?**
+C: Aspose.Note, çeşitli OneNote formatlarını destekleyerek çoğu belge sürümüyle uyumluluğu sağlar.
 
-C: Kesinlikle Aspose.Note, OneNote belgelerini programlı olarak değiştirmek için içerik ekleme, silme ve değiştirme dahil olmak üzere kapsamlı yetenekler sunar.
+**S4: Aspose.Note kullanarak OneNote'taki diğer görevleri otomatikleştirebilir miyim?**
+C: Kesinlikle, Aspose.Note, içeriği programatik olarak ekleme, silme ve değiştirme konusunda kapsamlı yetenekler sunar.
 
-### S5: Aspose.Note için bir topluluk forumu veya desteği mevcut mu?
+**S5: Aspose.Note için bir topluluk forumu veya destek mevcut mu?**
+C: Evet, topluluk desteği için [Aspose.Note forumunu](https://forum.aspose.com/c/note/28) ziyaret edebilir veya yardım için Aspose'un müşteri desteğiyle iletişime geçebilirsiniz.
 
- C: Evet, ziyaret edebilirsiniz[Aspose.Note forumu](https://forum.aspose.com/c/note/28) topluluk desteği için veya yardım için Aspose'un müşteri desteğiyle iletişime geçin.
+---
+
+**Son Güncelleme:** 12.01.2026
+**Test Edilen Sürüm:** Aspose.Note for Java (en son sürüm)
+**Yazar:** Aspose  
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

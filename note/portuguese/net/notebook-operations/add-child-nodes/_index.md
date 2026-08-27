@@ -47,7 +47,7 @@ Carregue o notebook existente onde você deseja adicionar um nó filho. Você po
 string dataDir = "Your Document Directory";
 
 // Carregar um bloco de anotações do OneNote
-var notebook = new Notebook(dataDir + "Notizbuch �ffnen.onetoc2");
+var notebook = new Notebook(dataDir + "Notebook.onetoc2");
 ```
 
 ## Etapa 2: anexar um novo nó filho

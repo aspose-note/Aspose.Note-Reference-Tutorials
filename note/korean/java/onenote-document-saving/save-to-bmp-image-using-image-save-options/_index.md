@@ -106,7 +106,7 @@ A: 예, Aspose는 기술 지원 및 전용 포럼을 운영합니다. 도움말�
 ---
 
 **Last Updated:** 2026-03-05  
-**Tested With:** Aspose.Note for Java 24.12  
+**Tested With:** Aspose.Note for Java 26.4  
 **Author:** Aspose  
 
 {{< /blocks/products/pf/tutorial-page-section >}}

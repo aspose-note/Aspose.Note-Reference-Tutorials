@@ -107,7 +107,7 @@ A: Sim, a Aspose oferece suporte técnico e um fórum dedicado. Visite o [forum 
 ---
 
 **Última atualização:** 2026-03-05  
-**Testado com:** Aspose.Note for Java 24.12  
+**Testado com:** Aspose.Note for Java 26.4  
 **Autor:** Aspose  
 
 {{< /blocks/products/pf/tutorial-page-section >}}

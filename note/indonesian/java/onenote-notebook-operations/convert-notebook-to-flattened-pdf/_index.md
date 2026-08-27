@@ -41,7 +41,7 @@ Untuk memulai, muat buku catatan OneNote yang ingin Anda konversi ke PDF:
 
 ```java
 String dataDir = "Your Document Directory";
-Notebook notebook = new Notebook(dataDir + "Notizbuch öffnen.onetoc2");
+Notebook notebook = new Notebook(dataDir + "Notebook.onetoc2");
 ```
 
 ## Langkah 2: Tetapkan Opsi Konversi

@@ -49,7 +49,7 @@ Document doc = new Document();
 एक टेबलसेल ऑब्जेक्ट बनाएं और उसकी टेक्स्ट सामग्री को पृष्ठभूमि रंग के साथ सेट करें:
 
 ```csharp
-TableCell cell11 = new TableCell(doc);
+TableCell cell11 = new TableCell();
 cell11.AppendChildLast(InsertTable.GetOutlineElementWithText(doc, "Small text"));
 cell11.BackgroundColor = Color.Coral;
 ```
@@ -59,7 +59,7 @@ cell11.BackgroundColor = Color.Coral;
 TableRow ऑब्जेक्ट को प्रारंभ करें और पहले से बनाए गए सेल को जोड़ें:
 
 ```csharp
-TableRow row = new TableRow(doc);
+TableRow row = new TableRow();
 row.AppendChildLast(cell11);
 ```
 
@@ -68,7 +68,7 @@ row.AppendChildLast(cell11);
 निर्दिष्ट स्तंभों के साथ एक तालिका बनाएं और उसकी सीमाओं को दृश्यमान बनाएं:
 
 ```csharp
-Table table = new Table(doc)
+Table table = new Table()
 {
     IsBordersVisible = true,
     Columns = { new TableColumn() { Width = 200 } }
@@ -81,13 +81,13 @@ table.AppendChildLast(row);
 एक रूपरेखा तत्व और पृष्ठ बनाएं, और तालिका को पृष्ठ में जोड़ें:
 
 ```csharp
-OutlineElement oe = new OutlineElement(doc);
+OutlineElement oe = new OutlineElement();
 oe.AppendChildLast(table);
 
-Outline o = new Outline(doc);
+Outline o = new Outline();
 o.AppendChildLast(oe);
 
-Page page = new Page(doc);
+Page page = new Page();
 page.AppendChildLast(o);
 
 doc.AppendChildLast(page);

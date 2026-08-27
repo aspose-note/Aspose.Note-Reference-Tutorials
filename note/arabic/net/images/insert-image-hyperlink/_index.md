@@ -41,7 +41,7 @@ using System.Text;
 
 ```csharp
 var document = new Document();
-var page = new Page(document);
+var page = new Page();
 ```
 
 ## الخطوة 2: إدراج صورة باستخدام الارتباط التشعبي
@@ -50,7 +50,7 @@ var page = new Page(document);
 
 ```csharp
 string imagePath = "path_to_your_image.jpg";
-var image = new Image(document, imagePath) { HyperlinkUrl = "http://example.com" };
+var image = new Image(imagePath) { HyperlinkUrl = "https://example.com" };
 ```
 
 ## الخطوة 3: إلحاق الصورة بالصفحة

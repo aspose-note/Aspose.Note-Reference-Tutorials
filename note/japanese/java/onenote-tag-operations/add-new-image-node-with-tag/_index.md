@@ -58,7 +58,7 @@ OutlineElement outlineElem = new OutlineElement();
 ## ステップ 5: 画像をロードして挿入する
 ```java
 //画像をロードする
-Image image = new Image(null, dataDir + "Input.jpg");
+Image image = new Image(dataDir + "Input.jpg");
 //ドキュメントノードに画像を挿入する
 outlineElem.appendChildLast(image);
 ```

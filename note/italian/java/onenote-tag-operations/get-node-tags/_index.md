@@ -1,27 +1,47 @@
 ---
-title: Ottieni tag nodo in OneNote - Aspose.Note
-linktitle: Ottieni tag nodo in OneNote - Aspose.Note
-second_title: Aspose.Note API Java
-description: Scopri i segreti di OneNote con Aspose.Note per Java. Questa guida ti consente di estrarre i tag dei nodi senza sforzo. Tuffati nel futuro della manipolazione dei documenti!
-weight: 15
+date: 2026-02-28
+description: Scopri come estrarre i tag dai file OneNote usando Aspose.Note per Java.
+  Questo tutorial mostra come caricare un file OneNote, ottenere i tag di OneNote
+  e modificare i tag di OneNote in modo efficiente.
+linktitle: How to Extract Tags from OneNote - Aspose.Note
+second_title: Aspose.Note Java API
+title: Come estrarre i tag da OneNote con Aspose.Note
 url: /it/java/onenote-tag-operations/get-node-tags/
+weight: 15
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Ottieni tag nodo in OneNote - Aspose.Note
+# Come estrarre i tag da OneNote con Aspose.Note
 
-## introduzione
-Benvenuti nel regno di Aspose.Note per Java! Se stai cercando di approfondire la gestione e l'estrazione di informazioni dai documenti OneNote, sei nel posto giusto. In questo tutorial ti guideremo attraverso il processo per ottenere i tag dei nodi in OneNote utilizzando Aspose.Note per Java. Alla fine, avrai le conoscenze necessarie per sfruttare tutto il potenziale di questa potente API Java.
+## Introduzione
+Se hai bisogno di **come estrarre i tag** da un documento OneNote, sei nel posto giusto. In questa guida percorreremo l’intero processo di caricamento di un file OneNote, ottenimento dei tag di OneNote e persino la modifica di tali tag usando Aspose.Note per Java. Alla fine del tutorial sarai in grado di integrare l’estrazione dei tag in qualsiasi applicazione Java con sicurezza.
+
+## Risposte rapide
+- **Qual è la classe principale per aprire un file OneNote?** `Document`
+- **Quale metodo restituisce tutti i nodi RichText?** `doc.getChildNodes(RichText.class)`
+- **È possibile leggere l'ora di creazione di un NoteTag?** Sì, tramite `noteTag.getCreationTime()`
+- **È necessaria una licenza per l'uso in produzione?** Sì, è richiesta una licenza valida di Aspose.Note
+- **L'API è compatibile con Java 8 e versioni successive?** Assolutamente, supporta le versioni moderne di Java
+
+## Cos'è “come estrarre i tag” in OneNote?
+L'estrazione dei tag consiste nella lettura dei metadati (come stato, etichetta, icona e timestamp) che OneNote associa a paragrafi, caselle di controllo o altri elementi di contenuto. Questi tag sono memorizzati come oggetti `NoteTag` all’interno dei nodi `RichText`.
+
+## Perché usare Aspose.Note per l'estrazione dei tag?
+- **Nessuna installazione di OneNote richiesta** – lavora direttamente con file .one.  
+- **Controllo totale** – recupera, leggi e modifica le proprietà dei tag programmaticamente.  
+- **Cross‑platform** – funziona su qualsiasi OS che supporta Java.
+
 ## Prerequisiti
-Prima di intraprendere questo viaggio, assicurati di possedere i seguenti prerequisiti:
-- Ambiente di sviluppo Java: assicurati di avere un ambiente di sviluppo Java funzionante configurato sul tuo sistema.
--  Libreria Aspose.Note: scarica e installa la libreria Aspose.Note da[Qui](https://releases.aspose.com/note/java/).
-- Documento OneNote: avere un documento OneNote (ad esempio, "Sample1.one") pronto per il test e l'esplorazione.
-## Importa pacchetti
-Inizia importando i pacchetti necessari nel tuo progetto Java. Questi pacchetti forniranno gli strumenti necessari per interagire con i documenti OneNote utilizzando Aspose.Note.
+- Un ambiente di sviluppo Java (JDK 8+).  
+- Libreria Aspose.Note scaricata da [qui](https://releases.aspose.com/note/java/).  
+- Un documento OneNote di esempio (ad es., `Sample1.one`) posizionato in una directory nota.
+
+## Importa i pacchetti
+Inizia importando le classi necessarie. Questi import ti danno accesso alla gestione dei documenti, alle interfacce dei tag e ai nodi di testo formattato.
+
 ```java
 import java.io.IOException;
 import java.util.List;
@@ -30,39 +50,49 @@ import com.aspose.note.ITag;
 import com.aspose.note.NoteTag;
 import com.aspose.note.RichText;
 ```
-Ora suddividiamo il processo per ottenere i tag dei nodi in OneNote in passaggi facili da seguire:
-## Passaggio 1: caricare il documento OneNote
+
+## Come caricare un file OneNote
+Il primo passo è caricare il file OneNote in un oggetto `Document`.
+
 ```java
-// Il percorso della directory dei documenti.
+// The path to the documents directory.
 String dataDir = "Your Document Directory";
-// Caricare il documento in Aspose.Note
+// Load the document into Aspose.Note
 Document doc = new Document(dataDir + "Sample1.one");
-// Ottieni tutti i nodi RichText
+// Get all RichText nodes
 List<RichText> nodes = doc.getChildNodes(RichText.class);
-// Caricare il documento in Aspose.Note
+// Load the document into Aspose.Note
 Document doc = new Document(dataDir + "Sample1.one");
 ```
-Assicurati di avere il documento Aspose.Note caricato e pronto per ulteriori elaborazioni.
-## Passaggio 2: recupera i nodi RichText
+
+> **Consiglio professionale:** mantieni il percorso `dataDir` assoluto o usa `Paths.get(...)` per evitare errori legati al percorso.
+
+## Come ottenere i tag di OneNote
+Dopo aver caricato il documento, recupera tutti i nodi `RichText`. Ogni nodo può contenere uno o più tag.
+
 ```java
-// Ottieni tutti i nodi RichText
+// Get all RichText nodes
 List<RichText> nodes = doc.getChildNodes(RichText.class);
 ```
-Estrai tutti i nodi RichText dal documento OneNote caricato. Questi nodi contengono le informazioni che ci interessano.
-## Passaggio 3: scorrere ciascun nodo
+
+## Itera attraverso ogni nodo
+Scorri ciascun nodo `RichText` per ispezionare i suoi tag.
+
 ```java
-// Scorrere ogni nodo
+// Iterate through each node
 for (RichText richText : nodes) {
-    // Elabora ogni nodo qui
+    // Process each node here
 }
 ```
-Passa attraverso ogni nodo RichText per accedere e analizzarne il contenuto.
-## Passaggio 4: recuperare i tag delle note
+
+## Recupera i NoteTag (Come modificare i tag di OneNote)
+All’interno del ciclo, verifica se un tag è un `NoteTag`. Se lo è, puoi leggere le sue proprietà — o modificarle se necessario.
+
 ```java
 for (ITag tag : richText.getTags()) {
     if (tag.getClass() == NoteTag.class) {
         NoteTag noteTag = (NoteTag) tag;
-        // Recuperare le proprietà
+        // Retrieve properties
         System.out.println("Completed Time: " + noteTag.getCompletedTime());
         System.out.println("Create Time: " + noteTag.getCreationTime());
         System.out.println("Font Color: " + noteTag.getFontColor());
@@ -70,23 +100,53 @@ for (ITag tag : richText.getTags()) {
         System.out.println("Label: " + noteTag.getLabel());
         System.out.println("Icon: " + noteTag.getIcon());
         System.out.println("High Light: " + noteTag.getHighlight());
+        // Example of modifying a property
+        // noteTag.setLabel("Updated Label");
     }
 }
 ```
-Per ogni nodo RichText, controlla i NoteTag e recupera le loro proprietà. Questo passaggio rivela dettagli come l'ora di completamento, l'ora di creazione, il colore del carattere, lo stato, l'etichetta, l'icona e l'evidenziazione.
+
+> **Attenzione:** modificare un tag cambia il documento sottostante. Ricorda di salvare il documento dopo aver apportato modifiche.
+
 ## Conclusione
-Congratulazioni! Hai navigato con successo nell'intricato panorama dell'estrazione dei tag dei nodi da OneNote utilizzando Aspose.Note per Java. Grazie a queste conoscenze, ora puoi integrare perfettamente questa funzionalità nelle tue applicazioni Java.
-## Domande frequenti
+Ora sai **come estrarre i tag**, come **caricare un file OneNote**, come **ottenere i tag di OneNote** e persino come **modificare i tag di OneNote** usando Aspose.Note per Java. Integra questi snippet nei tuoi progetti per automatizzare l'analisi delle note, la generazione di report o le attività di migrazione.
+
+## FAQ
 ### Aspose.Note è compatibile con tutte le versioni di OneNote?
-Aspose.Note supporta vari formati di file OneNote, garantendo la compatibilità tra diverse versioni.
-### Posso modificare le proprietà NoteTag recuperate?
-Sì, Aspose.Note consente di modificare e aggiornare le proprietà NoteTag a livello di codice.
+Aspose.Note supporta vari formati di file OneNote, garantendo la compatibilità con diverse versioni.
+
+### Posso modificare le proprietà del NoteTag recuperato?
+Sì, Aspose.Note consente di modificare e aggiornare le proprietà del NoteTag programmaticamente.
+
 ### È disponibile una versione di prova per Aspose.Note?
- Assolutamente! Puoi accedere alla versione di prova gratuita[Qui](https://releases.aspose.com/).
+Assolutamente! Puoi accedere alla versione di prova gratuita [qui](https://releases.aspose.com/).
+
 ### Dove posso trovare la documentazione completa per Aspose.Note per Java?
- Esplora la documentazione dettagliata[Qui](https://reference.aspose.com/note/java/).
+Esplora la documentazione dettagliata [qui](https://reference.aspose.com/note/java/).
+
 ### Come posso ottenere supporto per eventuali problemi o domande?
- Vai al forum di supporto[Qui](https://forum.aspose.com/c/note/28) per l'assistenza della comunità Aspose.
+Vai al forum di supporto [qui](https://forum.aspose.com/c/note/28) per assistenza dalla community di Aspose.
+
+## Domande frequenti
+**Q:** *Posso estrarre i tag da file OneNote protetti da password?*  
+**A:** Sì, fornisci la password quando costruisci l'oggetto `Document`.
+
+**Q:** *Devo chiamare un metodo di salvataggio dopo aver modificato i tag?*  
+**A:** Assolutamente. Usa `doc.save("UpdatedSample.one");` per persistere le modifiche.
+
+**Q:** *È possibile filtrare i tag per stato?*  
+**A:** Puoi controllare `noteTag.getStatus()` all'interno del ciclo e processare solo gli stati desiderati.
+
+**Q:** *Cosa succede se un nodo RichText non ha tag?*  
+**A:** `richText.getTags()` restituisce una collezione vuota; il ciclo semplicemente lo salta.
+
+**Q:** *Posso elaborare in batch più file OneNote?*  
+**A:** Avvolgi la logica sopra in una routine di iterazione sui file e gestisci ogni documento in sequenza.
+
+**Ultimo aggiornamento:** 2026-02-28  
+**Testato con:** Aspose.Note for Java 24.12  
+**Autore:** Aspose  
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

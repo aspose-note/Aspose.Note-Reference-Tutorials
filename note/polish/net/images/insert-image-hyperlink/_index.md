@@ -41,7 +41,7 @@ Najpierw musimy zainicjować nowy dokument i utworzyć stronę, na której będz
 
 ```csharp
 var document = new Document();
-var page = new Page(document);
+var page = new Page();
 ```
 
 ## Krok 2: Wstaw obraz z hiperłączem
@@ -50,7 +50,7 @@ Teraz wstawmy obraz z hiperłączem. Stworzymy`Image` obiekt i ustaw go`Hyperlin
 
 ```csharp
 string imagePath = "path_to_your_image.jpg";
-var image = new Image(document, imagePath) { HyperlinkUrl = "http://przykład.com" };
+var image = new Image(imagePath) { HyperlinkUrl = "https://przykład.com" };
 ```
 
 ## Krok 3: Dołącz obraz do strony

@@ -58,7 +58,7 @@ OutlineElement outlineElem = new OutlineElement();
 ## Paso 5: cargar e insertar imagen
 ```java
 // cargar una imagen
-Image image = new Image(null, dataDir + "Input.jpg");
+Image image = new Image(dataDir + "Input.jpg");
 // insertar imagen en el nodo del documento
 outlineElem.appendChildLast(image);
 ```

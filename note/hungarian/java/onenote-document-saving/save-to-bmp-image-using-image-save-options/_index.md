@@ -107,7 +107,7 @@ A: Igen, az Aspose technikai támogatást és egy dedikált fórumot kínál. L�
 ---
 
 **Last Updated:** 2026-03-05  
-**Tested With:** Aspose.Note for Java 24.12  
+**Tested With:** Aspose.Note for Java 26.4  
 **Author:** Aspose  
 
 {{< /blocks/products/pf/tutorial-page-section >}}

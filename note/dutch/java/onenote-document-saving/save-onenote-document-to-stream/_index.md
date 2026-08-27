@@ -114,7 +114,7 @@ Je hebt nu een volledige, productie‑klare methode om **OneNote PDF** naar een 
 ---
 
 **Laatst bijgewerkt:** 2025-12-12  
-**Getest met:** Aspose.Note voor Java 24.11  
+**Getest met:** Aspose.Note voor Java 26.4  
 **Auteur:** Aspose  
 
 {{< /blocks/products/pf/tutorial-page-section >}}

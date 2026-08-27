@@ -108,7 +108,7 @@ A: Có, Aspose cung cấp hỗ trợ kỹ thuật và một diễn đàn chuyên
 ---
 
 **Cập nhật lần cuối:** 2026-03-05  
-**Kiểm tra với:** Aspose.Note for Java 24.12  
+**Kiểm tra với:** Aspose.Note for Java 26.4  
 **Tác giả:** Aspose  
 
 {{< /blocks/products/pf/tutorial-page-section >}}

@@ -44,7 +44,7 @@ using System.Collections.Generic;
 string dataDir = "Your Document Directory";
 
 // OneNote Not Defteri Yükleme
-var notebook = new Notebook(dataDir + "Notizbuch �ffnen.onetoc2");
+var notebook = new Notebook(dataDir + "Notebook.onetoc2");
 ```
 
  Bu adımda OneNote Not Defteri'ni kullanarak yüklüyoruz.`Notebook` Aspose.Note tarafından sağlanan sınıf.

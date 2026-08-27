@@ -61,7 +61,7 @@ Aspose.Note.Page page = new Aspose.Note.Page(doc);
 ## 第三步：初始化大綱對象
 
 ```csharp
-Outline outline = new Outline(doc);
+Outline outline = new Outline();
 ```
 
 這`Outline`class 表示文檔層次結構中的大綱節點。我們建立一個新的大綱物件來建立我們的文件。
@@ -69,7 +69,7 @@ Outline outline = new Outline(doc);
 ## 步驟 4：初始化 OutlineElement 對象
 
 ```csharp
-OutlineElement outlineElem = new OutlineElement(doc);
+OutlineElement outlineElem = new OutlineElement();
 ```
 
 一個`OutlineElement`表示輪廓內的元素。在這裡，我們建立一個新的大綱元素來將內容新增到我們的文件中。

@@ -45,7 +45,7 @@ Zagłębmy się w proces konwersji. Aby ułatwić zrozumienie, podzielimy każdy
 string dataDir = "Your Document Directory";
 
 // Załaduj notatnik programu OneNote
-var notebook = new Notebook(dataDir + "Notizbuch öffnen.onetoc2");
+var notebook = new Notebook(dataDir + "Notebook.onetoc2");
 ```
 
  W tym kroku określamy katalog, w którym znajduje się nasz plik notatnika i ładujemy go do naszej aplikacji za pomocą`Notebook` klasa dostarczona przez Aspose.Note.

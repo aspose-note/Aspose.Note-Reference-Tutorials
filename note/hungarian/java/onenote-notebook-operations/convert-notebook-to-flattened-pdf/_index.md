@@ -41,7 +41,7 @@ Kezdésként töltse be a OneNote-jegyzetfüzetet, amelyet PDF formátumba szere
 
 ```java
 String dataDir = "Your Document Directory";
-Notebook notebook = new Notebook(dataDir + "Notizbuch öffnen.onetoc2");
+Notebook notebook = new Notebook(dataDir + "Notebook.onetoc2");
 ```
 
 ## 2. lépés: Állítsa be a konverziós beállításokat

@@ -66,7 +66,7 @@ Aspose.Note.Page page = new Aspose.Note.Page(doc);
 ### 3. Adım: Anahat Nesnesini Başlatın
 
 ```csharp
-Outline outline = new Outline(doc);
+Outline outline = new Outline();
 ```
 
  Bir`Outline` Nesne, sayfa içindeki içeriği düzenlemek için oluşturulur.
@@ -74,7 +74,7 @@ Outline outline = new Outline(doc);
 ### Adım 4: OutlineElement Nesnesini Başlatın
 
 ```csharp
-OutlineElement outlineElem = new OutlineElement(doc);
+OutlineElement outlineElem = new OutlineElement();
 ```
 
 `OutlineElement` anahat yapısı içindeki bir öğeyi temsil eder.
@@ -82,7 +82,7 @@ OutlineElement outlineElem = new OutlineElement(doc);
 ### Adım 5: Ekli Dosya Nesnesini Başlatın
 
 ```csharp
-AttachedFile attachedFile = new AttachedFile(doc,  dataDir + "attachment.txt");
+AttachedFile attachedFile = new AttachedFile(dataDir + "attachment.txt");
 ```
 
  Burada bir örneğini oluşturuyoruz`AttachedFile`eklemek istediğimiz dosyanın yolunu belirterek.

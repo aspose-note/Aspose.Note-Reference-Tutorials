@@ -101,7 +101,7 @@ A: 可在 [here](https://purchase.aspose.com/temporary-license/) 申请临时评
 ---
 
 **最后更新：** 2025-12-09  
-**测试环境：** Aspose.Note for Java 24.12（最新）  
+**测试环境：** Aspose.Note for Java 26.4（最新）  
 **作者：** Aspose  
 
 {{< /blocks/products/pf/tutorial-page-section >}}

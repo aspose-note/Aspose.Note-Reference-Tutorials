@@ -45,7 +45,7 @@ import com.aspose.note.PdfSaveOptions;
 ```java
 String dataDir = "Your Document Directory";
 // Φορτώστε ένα Σημειωματάριο OneNote
-Notebook notebook = new Notebook(dataDir + "Notizbuch �ffnen.onetoc2");
+Notebook notebook = new Notebook(dataDir + "Notebook.onetoc2");
 ```
 
 ## Βήμα 2: Καθορίστε τις επιλογές αποθήκευσης PDF

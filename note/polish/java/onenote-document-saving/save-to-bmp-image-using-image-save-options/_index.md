@@ -103,7 +103,7 @@ A: Tak, możesz dodawać, edytować lub usuwać strony, sekcje i bogatą zawarto
 A: Tak, Aspose oferuje wsparcie techniczne i dedykowane forum. Odwiedź [Aspose.Note forum](https://forum.aspose.com/c/note/28) po pomoc.
 
 **Ostatnia aktualizacja:** 2026-03-05  
-**Testowano z:** Aspose.Note for Java 24.12  
+**Testowano z:** Aspose.Note for Java 26.4  
 **Autor:** Aspose  
 
 {{< /blocks/products/pf/tutorial-page-section >}}
