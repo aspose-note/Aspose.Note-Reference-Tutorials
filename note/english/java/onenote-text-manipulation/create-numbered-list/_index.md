@@ -1,6 +1,6 @@
 ---
-title: Save OneNote as PDF – Create Numbered List with Aspose.Note
-linktitle: Save OneNote as PDF – Create Numbered List with Aspose.Note
+title: Use Aspose.Note for Java to Save OneNote as PDF and Create Numbered List
+linktitle: Use Aspose.Note for Java to Save OneNote as PDF and Create Numbered List
 second_title: Aspose.Note Java API
 description: Learn how to save OneNote as PDF while creating a numbered list using Aspose.Note for Java. Includes steps to set default text style and customize numbering.
 weight: 14
@@ -12,7 +12,7 @@ date: 2026-03-05
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Save OneNote as PDF – Create Numbered List with Aspose.Note
+# Use Aspose.Note for Java to Save OneNote as PDF and Create Numbered List
 
 ## Introduction
 Aspose.Note for Java empowers Java developers to **save OneNote as PDF** and enrich the document with advanced formatting, such as numbered lists. In this tutorial, we’ll walk you through the complete process—from setting a default text style to customizing the numbering format—so you can export OneNote to PDF with a professional look.
@@ -34,7 +34,7 @@ A numbered list adds structure and readability, making the exported PDF look lik
 Before diving in, make sure you have:
 
 - Java Development Kit (JDK) installed on your machine.  
-- Aspose.Note for Java library downloaded from [here](https://releases.aspose.com/note/java/).  
+- Aspose.Note for Java library downloaded from [Aspose.Note for Java release page](https://releases.aspose.com/note/java/).  
 
 ## Importing Packages
 First, import the required classes so you can work with OneNote objects and PDF conversion.
@@ -55,7 +55,7 @@ import com.aspose.note.ParagraphStyle;
 ## How to save OneNote as PDF with a numbered list?
 Below is a step‑by‑step guide that shows **how to create list** elements, **set default text style**, and finally **export OneNote to PDF**.
 
-### Step 1: Initialize Document, Page, and Outline Objects
+### Step 1: initialize document, page, and outline objects
 We start by creating the core OneNote structures. This also demonstrates **add outline element java** usage.
 
 ```java
@@ -77,7 +77,7 @@ Outline outline = new Outline();
 
 > **Pro tip:** Keep the `dataDir` path absolute or use `System.getProperty("user.dir")` to avoid path issues.
 
-### Step 2: Set Default Text Style
+### Step 2: set default text style
 A consistent style ensures the list looks uniform across all items.
 
 ```java
@@ -87,7 +87,7 @@ ParagraphStyle defaultStyle = new ParagraphStyle()
                                         .setFontSize(10);
 ```
 
-### Step 3: Create Outline Elements (Numbered List)
+### Step 3: create outline elements (Numbered list)
 Here we **customize numbering format** using `NumberList`. The pattern `"{0})"` produces “1)”, “2)”, etc.
 
 ```java
@@ -128,7 +128,7 @@ System.out.printf("File saved: %s\n", dataDir + "CreateNumberedList_out.pdf");
 
 Running the code above generates a PDF named `CreateNumberedList_out.pdf` in your specified directory, preserving the numbered list format.
 
-## Common Issues & Solutions
+## Common issues & solutions
 | Issue | Solution |
 |-------|----------|
 | **PDF is empty** | Ensure `doc.appendChildLast(page);` is called before `doc.save()`. |
@@ -136,12 +136,12 @@ Running the code above generates a PDF named `CreateNumberedList_out.pdf` in you
 | **File not found error** | Use an absolute path for `dataDir` or create the directory beforehand. |
 | **Font mismatch** | Install the font (e.g., Arial) on the machine running the code. |
 
-## Frequently Asked Questions
+## Frequently asked questions
 ### Q: Can I customize the numbering format in my OneNote list?
 A: Absolutely! You can customize the numbering format using the `NumberList` class provided by Aspose.Note for Java.
 
 ### Q: Is there a trial version available for Aspose.Note for Java?
-A: Yes, you can download a free trial [here](https://releases.aspose.com/).
+A: Yes, you can download a free trial [Aspose.Note free trial download page](https://releases.aspose.com/).
 
 ### Q: How can I get support for Aspose.Note for Java?
 A: Visit the [Aspose.Note for Java forum](https://forum.aspose.com/c/note/28) for community support.
@@ -150,17 +150,17 @@ A: Visit the [Aspose.Note for Java forum](https://forum.aspose.com/c/note/28) fo
 A: Refer to the [documentation](https://reference.aspose.com/note/java/) for comprehensive information.
 
 ### Q: How do I purchase a license for Aspose.Note for Java?
-A: You can buy a license [here](https://purchase.aspose.com/buy).
+A: You can buy a license [Aspose.Note license purchase page](https://purchase.aspose.com/buy).
 
 ## Conclusion
 In this tutorial we demonstrated how to **save OneNote as PDF** while creating a clean, numbered list using Aspose.Note for Java. By setting a default text style, customizing the numbering format, and following the step‑by‑step guide, you can generate professional PDFs from OneNote pages quickly and reliably.
 
-{{< /blocks/products/pf/tutorial-page-section >}}
 
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
 
-{{< blocks/products/products-backtop-button >}}
+
+
+
+
 
 ---
 
@@ -169,3 +169,10 @@ In this tutorial we demonstrated how to **save OneNote as PDF** while creating a
 **Author:** Aspose  
 
 ---
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}
