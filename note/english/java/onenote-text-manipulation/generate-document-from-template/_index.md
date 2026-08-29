@@ -35,7 +35,7 @@ Using Aspose means leveraging its rich object model (`Document`, `RichText`, etc
 ## Prerequisites
 Before diving into the tutorial, ensure you have the following prerequisites:
 - A basic understanding of Java programming.  
-- Aspose.Note for Java library. If not installed, download it from [here](https://releases.aspose.com/note/java/).  
+- Aspose.Note for Java library. If not installed, download it from [Aspose.Note for Java download page](https://releases.aspose.com/note/java/).  
 - A template document (e.g., *JobOffer.one*) for document generation.
 
 ## Import Packages
@@ -50,7 +50,7 @@ import java.util.Map;
 import com.aspose.note.RichText
 ```
 
-## Step 1: Define Template Data
+## Step 1: define template data
 Here, we define a hashmap (`D`) with key‑value pairs representing the template data. These values will replace the placeholders in the template document.
 
 ```java
@@ -69,7 +69,7 @@ D.put("YourName", "Ayn Rand");
 
 > **Pro tip:** Keep the placeholder names (`${Company}`, `${CandidateName}`, etc.) exactly as they appear in the template to avoid missed replacements.
 
-## Step 2: Load Template Document
+## Step 2: load template document
 Now, we load the template document (*JobOffer.one*) using the `Document` class from Aspose.Note for Java.
 
 ```java
@@ -77,7 +77,7 @@ Now, we load the template document (*JobOffer.one*) using the `Document` class f
 Document d = new Document(Paths.get(dataDir, "JobOffer.one").toString());
 ```
 
-## Step 3: Replace Template Words
+## Step 3: replace template words
 In this step, we iterate through the document's child nodes to replace template words with the corresponding values from the hashmap.
 
 ```java
@@ -91,7 +91,7 @@ for (RichText e : d.getChildNodes(RichText.class)) {
 
 This ensures that each placeholder in the document is replaced with the relevant data.
 
-## Step 4: Save the Generated Document
+## Step 4: save the generated document
 After replacing the template words, we save the modified document with a new name (e.g., *JobOffer_out.one*) to the specified directory.
 
 ```java
@@ -99,7 +99,7 @@ After replacing the template words, we save the modified document with a new nam
 d.save(Paths.get(dataDir, "JobOffer_out.one").toString());
 ```
 
-## Step 5: Confirm Successful Generation
+## Step 5: confirm successful generation
 Finally, we display a confirmation message to indicate that the document has been generated successfully.
 
 ```java
@@ -109,12 +109,12 @@ System.out.println("\nThe document is generated successfully.");
 
 With these detailed steps and corresponding code snippets, you can seamlessly **generate document from template** using Aspose.Note for Java. If you have any further questions, feel free to ask!
 
-## Common Issues and Solutions
+## Common issues and solutions
 - **Placeholder not replaced:** Verify that the placeholder syntax in the template matches `${Key}` exactly.  
 - **File not found errors:** Ensure `dataDir` points to the correct absolute or relative path.  
 - **License exceptions:** If you see a licensing error, make sure a valid Aspose.Note license file is loaded before creating the `Document` object.
 
-## Frequently Asked Questions
+## Frequently asked questions
 
 ### Can I use Aspose.Note for Java with other programming languages?
 Aspose.Note primarily supports Java, but there are versions available for other languages like .NET.

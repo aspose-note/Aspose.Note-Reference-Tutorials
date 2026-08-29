@@ -34,7 +34,7 @@ Aspose.Note provides a rich, high‑performance API that lets you programmatical
 Before diving in, ensure you have:
 
 1. **Java Development Environment** – JDK 8+ and your favorite IDE.  
-2. **Aspose.Note Library** – Download the latest JAR from the official site [here](https://releases.aspose.com/note/java/).  
+2. **Aspose.Note Library** – Download the latest JAR from the official site [Aspose.Note Java download page](https://releases.aspose.com/note/java/).  
 3. **Basic familiarity** with Java syntax and object‑oriented concepts.
 
 ## Import Packages
@@ -58,7 +58,7 @@ Now, let's break down the implementation step by step.
 ## How to save OneNote as PDF with Chinese Numbered List
 Below is a detailed, numbered walkthrough. Each step includes a short explanation followed by the exact code you need to copy.
 
-### Step 1: Create Document Object
+### Step 1: create document object
 We start by creating an empty `Document` instance that will hold the OneNote content.
 
 ```java
@@ -68,7 +68,7 @@ String dataDir = "Your Document Directory";
 Document doc = new Document();
 ```
 
-### Step 2: Initialize Page Object
+### Step 2: initialize page object
 A OneNote page acts like a canvas for outlines and other elements.
 
 ```java
@@ -76,7 +76,7 @@ A OneNote page acts like a canvas for outlines and other elements.
 Page page = new Page();
 ```
 
-### Step 3: Initialize Outline Object
+### Step 3: initialize outline object
 Outlines are the containers for list items. Think of them as the “bullet/number” holder.
 
 ```java
@@ -84,7 +84,7 @@ Outlines are the containers for list items. Think of them as the “bullet/numbe
 Outline outline = new Outline();
 ```
 
-### Step 4: Initialize TextStyle Object
+### Step 4: initialize textStyle object
 Define a default paragraph style that will be applied to every list entry.
 
 ```java
@@ -95,7 +95,7 @@ ParagraphStyle defaultStyle = new ParagraphStyle()
                                     .setFontSize(10);
 ```
 
-### Step 5: Initialize OutlineElement Objects and Apply Numbering
+### Step 5: initialize outlineElement objects and apply numbering
 Here we create three outline elements, each representing a list item. We use `NumberList("{0})", NumberFormat.ChineseCounting, "Arial", 10)` to get Chinese counting (一、二、三…).
 
 ```java
@@ -117,7 +117,7 @@ text3.setParagraphStyle(defaultStyle);
 outlineElem3.appendChildLast(text3);
 ```
 
-### Step 6: Add Outline Elements
+### Step 6: add outline elements
 Attach each numbered element to the outline container.
 
 ```java
@@ -127,7 +127,7 @@ outline.appendChildLast(outlineElem2);
 outline.appendChildLast(outlineElem3);
 ```
 
-### Step 7: Add Outline Node to Page
+### Step 7: add outline node to page
 Now we place the whole outline onto the page.
 
 ```java
@@ -135,7 +135,7 @@ Now we place the whole outline onto the page.
 page.appendChildLast(outline);
 ```
 
-### Step 8: Add Page Node to Document
+### Step 8: add page node to document
 The page becomes part of the overall OneNote document.
 
 ```java
@@ -154,12 +154,12 @@ System.out.printf("File saved: %s\n", dataDir + "CreateChineseNumberedList_out.p
 
 Running the code above produces a PDF file (`CreateChineseNumberedList_out.pdf`) that contains a Chinese‑numbered list, exactly as you would see in a OneNote page.
 
-## Common Issues and Solutions
+## Common issues and solutions
 - **Incorrect numbering format:** Ensure you use `NumberFormat.ChineseCounting`. Other formats (Arabic, Roman) will produce different results.  
 - **File not found error:** Verify that `dataDir` points to an existing, writable folder.  
 - **Missing font:** If the specified font (e.g., "Arial") isn’t installed on the server, the PDF may fall back to a default font. Install the font or choose another one.
 
-## Frequently Asked Questions
+## Frequently asked questions
 
 ### Is Aspose.Note compatible with different Java IDEs?
 Yes, Aspose.Note is compatible with popular Java IDEs like Eclipse and IntelliJ IDEA.
@@ -168,13 +168,13 @@ Yes, Aspose.Note is compatible with popular Java IDEs like Eclipse and IntelliJ 
 Absolutely. As shown in the tutorial, you can adjust the font, color, and size to meet your specific requirements.
 
 ### Is there a trial version available for Aspose.Note?
-Yes, you can explore the trial version [here](https://releases.aspose.com/).
+Yes, you can explore the trial version [Aspose.Note trial download page](https://releases.aspose.com/).
 
 ### Where can I find detailed documentation for Aspose.Note?
-Refer to the documentation [here](https://reference.aspose.com/note/java/).
+Refer to the documentation [Aspose.Note Java API documentation](https://reference.aspose.com/note/java/).
 
 ### How can I get support for Aspose.Note?
-Visit the support forum [here](https://forum.aspose.com/c/note/28) for any assistance or queries.
+Visit the support forum [Aspose.Note support forum](https://forum.aspose.com/c/note/28) for any assistance or queries.
 
 ## Additional FAQ (AI‑Optimized)
 

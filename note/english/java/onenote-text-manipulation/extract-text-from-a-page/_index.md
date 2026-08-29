@@ -1,6 +1,6 @@
 ---
 title: How to Extract OneNote Text from a Page – Aspose.Note Java
-linktitle: Extract Text from a Page in OneNote - Aspose.Note
+linktitle: Extract Text from a Page in OneNote - Aspise.Note
 second_title: Aspose.Note Java API
 description: Learn how to extract onenote text from a page and convert OneNote to text using Aspose.Note for Java. Step‑by‑step guide for reading .one file Java projects.
 weight: 16
@@ -36,7 +36,7 @@ Extracting OneNote means programmatically reading the content stored inside a On
 Before you start, make sure you have:
 
 - A basic understanding of Java programming.  
-- Aspose.Note for Java installed. You can download it [here](https://releases.aspose.com/note/java/).  
+- Aspose.Note for Java installed. You can download it [Aspose.Note for Java download page](https://releases.aspose.com/note/java/).  
 
 ## Import Packages
 Start by importing the necessary packages in your Java project to leverage Aspose.Note functionalities:
@@ -53,7 +53,7 @@ import java.util.stream.Collectors;
 
 Now, let's break down each step in detail.
 
-## Step 1: Set Document Directory
+## Step 1: set document directory
 Ensure you have a designated document directory where your OneNote file is stored. Replace `"Your Document Directory"` with the actual path.
 
 ```java
@@ -61,7 +61,7 @@ Ensure you have a designated document directory where your OneNote file is store
 String dataDir = "Your Document Directory";
 ```
 
-## Step 2: Load OneNote Document
+## Step 2: load oneNote document
 Use the `Document` class from Aspose.Note to load your OneNote document. This step demonstrates **read .one file java** functionality.
 
 ```java
@@ -70,14 +70,14 @@ Document oneFile = new Document(dataDir + "Sample1.one");
 
 Replace `"Sample1.one"` with your OneNote file name.
 
-## Step 3: Retrieve Page Nodes
+## Step 3: retrieve page nodes
 Get the list of page nodes from the loaded document. This gives you access to each page so you can **get onenote page text** later.
 
 ```java
 List<Node> nodes = oneFile.getChildNodes(Node.class);
 ```
 
-## Step 4: Check and Extract Text
+## Step 4: check and extract text
 Check if the document has pages, and if so, retrieve the text. This is where we **extract text from onenote** and could also be used to **convert onenote to text** for downstream processing.
 
 ```java
@@ -98,35 +98,35 @@ if (nodes.size() > 0 && nodes.get(0).getNodeType() == NodeType.Page)
 
 This snippet checks if the first node is a page, extracts all `RichText` elements, concatenates them, and prints the resulting plain text.
 
-## Common Issues and Solutions
+## Common issues and solutions
 | Symptom | Likely Cause | Fix |
 |---------|--------------|-----|
 | `FileNotFoundException` | Incorrect `dataDir` or file name | Verify the path and ensure the `.one` file exists. |
 | No output printed | Document has no pages or wrong node index | Iterate through `nodes` and check each node’s type. |
 | Text appears garbled | Using an outdated Aspose.Note version | Update to the latest Aspose.Note for Java release. |
 
-## Frequently Asked Questions
+## Frequently asked questions
 ### Can I use Aspose.Note for Java with other programming languages?
 Aspose.Note primarily supports Java but has versions for other languages like .NET. Check the documentation for language compatibility.
 
 ### Is there a trial version available for Aspose.Note for Java?
-Yes, you can explore a free trial version [here](https://releases.aspose.com/).
+Yes, you can explore a free trial version [Aspose.Note free trial download page](https://releases.aspose.com/).
 
 ### Where can I find support for Aspose.Note for Java?
 Visit the Aspose.Note [forum](https://forum.aspose.com/c/note/28) for community support and discussions.
 
 ### How can I purchase Aspose.Note for Java?
-You can buy the product [here](https://purchase.aspose.com/buy).
+You can buy the product [Aspose.Note purchase page](https://purchase.aspose.com/buy).
 
 ### Do I need a temporary license for Aspose.Note for Java?
-If you require a temporary license, you can obtain one [here](https://purchase.aspose.com/temporary-license/).
+If you require a temporary license, you can obtain one [temporary license request page](https://purchase.aspose.com/temporary-license/).
 
-{{< /blocks/products/pf/tutorial-page-section >}}
 
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
 
-{{< blocks/products/products-backtop-button >}}
+
+
+
+
 
 ---
 
@@ -135,3 +135,10 @@ If you require a temporary license, you can obtain one [here](https://purchase.a
 **Author:** Aspose  
 
 ---
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -36,7 +36,7 @@ OneNote stores each list item as an `OutlineElement` that may contain a `NumberL
 ## Prerequisites
 Before you start, ensure you have the following:
 
-- Aspose.Note for Java: Download the latest release **[here](https://releases.aspose.com/note/java/)**.  
+- Aspose.Note for Java: Download the latest release **[Aspose.Note for Java download page](https://releases.aspose.com/note/java/)**.  
 - A Java development environment (JDK 8 or higher).  
 - A OneNote document (e.g., `Sample1.one`) placed in a known directory.
 
@@ -55,7 +55,7 @@ Now let’s walk through the implementation step by step.
 
 ## How to extract list properties – Step‑by‑Step Guide
 
-### Step 1: Load the OneNote Document
+### Step 1: load the oneNote document
 Provide the correct path to the `.one` file and create a `Document` instance.
 
 ```java
@@ -111,14 +111,14 @@ System.out.println("Is italic: " + list.isItalic());
 
 The console output will display each property, allowing you to log, analyze, or further process the list styling information.
 
-## Common Issues & Troubleshooting
+## Common issues & troubleshooting
 | Symptom | Likely Cause | Fix |
 |---------|--------------|-----|
 | `NullPointerException` on `list.getFont()` | The node does not contain a `NumberList`. | Add a null‑check (`if (node.getNumberList() != null)`). |
 | No output appears | `dataDir` points to the wrong folder. | Verify the path and ensure `Sample1.one` exists. |
 | Font color shows as `null` | The list uses the default theme color. | Use `list.getFontColor()` with a fallback to the document’s theme. |
 
-## Frequently Asked Questions
+## Frequently asked questions
 
 **Q: Is Aspose.Note compatible with different OneNote versions?**  
 A: Yes, Aspose.Note supports a wide range of OneNote file formats, from older 2007 versions to the latest Office 365 releases.
@@ -130,10 +130,10 @@ A: Absolutely. You can call only the getters you need (e.g., `getFontSize()` or 
 A: For any queries or issues, visit the [Aspose.Note forum](https://forum.aspose.com/c/note/28) for prompt assistance.
 
 **Q: Do I need a temporary license for testing?**  
-A: Yes, you can obtain a temporary license **[here](https://purchase.aspose.com/temporary-license/)** for evaluation purposes.
+A: Yes, you can obtain a temporary license **[temporary license page](https://purchase.aspose.com/temporary-license/)** for evaluation purposes.
 
 **Q: What if I want to purchase Aspose.Note for Java?**  
-A: You can purchase the product **[here](https://purchase.aspose.com/buy)** to unlock its full potential for your projects.
+A: You can purchase the product **[Aspose.Note purchase page](https://purchase.aspose.com/buy)** to unlock its full potential for your projects.
 
 ---
 

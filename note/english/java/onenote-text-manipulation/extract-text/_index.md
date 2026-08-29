@@ -37,7 +37,7 @@ Converting OneNote to text means programmatically reading the content of a `.one
 Before diving in, make sure you have:
 
 - A functional Java development environment (JDK 8+).
-- The Aspose.Note for Java library. You can download it from the official site [here](https://releases.aspose.com/note/java/).
+- The Aspose.Note for Java library. You can download it from the official site [Aspose.Note for Java download page](https://releases.aspose.com/note/java/).
 - A sample OneNote file (e.g., `Sample1.one`) placed in a known directory.
 
 ## Import Packages
@@ -52,7 +52,7 @@ import com.aspose.note.Page;
 import com.aspose.note.RichText;
 ```
 
-## Step 1: Set Document Directory
+## Step 1: set document directory
 Define the folder that contains your `.one` files. Replace `"Your Document Directory"` with the actual path on your machine.
 
 ```java
@@ -60,7 +60,7 @@ Define the folder that contains your `.one` files. Replace `"Your Document Direc
 String dataDir = "Your Document Directory";
 ```
 
-## Step 2: Load OneNote Document
+## Step 2: load oneNote document
 Use the `Document` class to **load OneNote document** into memory. This is the first step before you can **get OneNote pages**.
 
 ```java
@@ -68,7 +68,7 @@ Use the `Document` class to **load OneNote document** into memory. This is the f
 Document doc = new Document(dataDir + "Sample1.one");
 ```
 
-## Step 3: Get OneNote Pages
+## Step 3: get oneNote pages
 Retrieve all page nodes from the loaded document. This gives you the collection you’ll iterate over to **read OneNote pages**.
 
 ```java
@@ -76,7 +76,7 @@ Retrieve all page nodes from the loaded document. This gives you the collection 
 List<Page> pages = doc.getChildNodes(Page.class);
 ```
 
-## Step 4: Extract Rich Text
+## Step 4: extract rich text
 Iterate through each page, pull out `RichText` objects, and concatenate their contents. This is where you **extract formatted text** (rich text) from each page.
 
 ```java
@@ -93,14 +93,14 @@ for (Page p : pages) {
 
 Running the snippet prints the combined text of every page to the console. You can further process the string—store it in a database, write to a file, or feed it into a search index.
 
-## Common Issues and Solutions
+## Common issues and solutions
 | Issue | Reason | Fix |
 |-------|--------|-----|
 | **`FileNotFoundException`** | Incorrect `dataDir` path. | Verify the directory string ends with a path separator (`/` or `\\`). |
 | **Empty output** | Document contains no `RichText` nodes (e.g., only images). | Use `doc.getChildNodes(Image.class)` to handle images separately. |
 | **Encoding problems** | Non‑ASCII characters appear garbled. | Ensure your console or output writer uses UTF‑8 encoding. |
 
-## Frequently Asked Questions
+## Frequently asked questions
 
 ### Is Aspose.Note compatible with different versions of OneNote files?
 Yes, Aspose.Note supports a wide range of OneNote file formats, ensuring compatibility across versions.
@@ -109,13 +109,13 @@ Yes, Aspose.Note supports a wide range of OneNote file formats, ensuring compati
 Absolutely! Aspose.Note provides robust functionalities to extract formatted text and images from OneNote documents.
 
 ### Is there a trial version available for Aspose.Note for Java?
-Yes, you can explore the features of Aspose.Note for Java with a free trial available [here](https://releases.aspose.com/).
+Yes, you can explore the features of Aspose.Note for Java with a free trial available [Aspose.Note free trial page](https://releases.aspose.com/).
 
 ### How can I get support for Aspose.Note?
 Visit the [Aspose.Note forum](https://forum.aspose.com/c/note/28) for community support or explore premium support options.
 
 ### Are temporary licenses available for Aspose.Note for Java?
-Yes, you can obtain temporary licenses for testing purposes [here](https://purchase.aspose.com/temporary-license/).
+Yes, you can obtain temporary licenses for testing purposes [temporary license request page](https://purchase.aspose.com/temporary-license/).
 
 ## FAQ
 
