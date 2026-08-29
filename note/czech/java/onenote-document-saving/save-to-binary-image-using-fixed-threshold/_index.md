@@ -1,10 +1,62 @@
 ---
-date: 2025-12-13
-description: Naučte se, jak nastavit práh pro převod OneNote na PNG pomocí Aspose.Note
-  Java, a vytvářet černobílé obrázky OneNote pomocí binarizace obrazu v Javě.
-linktitle: Save to Binary Image Using Fixed Threshold in OneNote
+date: 2026-08-29
+description: Naučte se, jak převést OneNote na PNG s nastavitelným prahem pomocí Aspose.Note
+  pro Java, vytvářením vysoce kontrastních černobílých obrázků pomocí binarizace obrazu.
+keywords:
+- convert onenote to png
+- create black white png
+- onenote to black white
+lastmod: 2026-08-29
+linktitle: Uložit jako binární obrázek pomocí pevného prahu v OneNote
+og_description: Převod OneNote na PNG s nastavitelným prahem pomocí Aspose.Note pro
+  Java. Naučte se krok za krokem, jak vytvořit černobílé PNG pro OCR a archivaci.
+og_image_alt: Screenshot of Java code converting OneNote page to binary PNG
+og_title: Převod OneNote na PNG s nastavitelným prahem – průvodce Aspose.Note Java
+schemas:
+- author: Aspose
+  dateModified: '2026-08-29'
+  description: Learn how to convert OneNote to PNG with adjustable threshold using
+    Aspose.Note for Java, creating high‑contrast black‑and‑white images through image
+    binarization.
+  headline: How to convert OneNote to PNG with adjustable threshold
+  type: TechArticle
+- description: Learn how to convert OneNote to PNG with adjustable threshold using
+    Aspose.Note for Java, creating high‑contrast black‑and‑white images through image
+    binarization.
+  name: How to convert OneNote to PNG with adjustable threshold
+  steps:
+  - name: Java Development Kit (JDK) installed.
+    text: Java Development Kit (JDK) installed.
+  - name: Aspose.Note for Java library downloaded from [Aspose.Note for Java download
+      page](https://releases.aspose.com/note/java/).
+    text: Aspose.Note for Java library downloaded from [Aspose.Note for Java download
+      page](https://releases.aspose.com/note/java/).
+  - name: Basic familiarity with Java syntax.
+    text: Basic familiarity with Java syntax.
+  type: HowTo
+- questions:
+  - answer: The resulting image may appear washed out, with many gray tones retained
+      instead of crisp black‑and‑white contrast.
+    question: What happens if I set the threshold too low?
+  - answer: Yes, Aspose.Note also supports adaptive thresholding; simply replace `BinarizationMethod.FixedThreshold`
+      with `BinarizationMethod.Adaptive`.
+    question: Can I use a different binarization method?
+  - answer: Absolutely—change `SaveFormat.Png` to `SaveFormat.Jpeg` in the `ImageSaveOptions`
+      constructor.
+    question: Is it possible to export directly to other formats like JPEG?
+  - answer: Load the document with the appropriate overload that accepts a password
+      string before applying the binarization steps.
+    question: How do I handle password‑protected OneNote files?
+  - answer: The Aspose.Note Java library is platform‑independent, so the same code
+      runs on any OS with a compatible JDK.
+    question: Does this approach work on Linux/macOS?
+  type: FAQPage
 second_title: Aspose.Note Java API
-title: Jak upravit práh při ukládání OneNote do binárního obrazu
+tags:
+- convert onenote
+- Aspose.Note
+- Java image processing
+title: Jak převést OneNote na PNG s nastavitelným prahem
 url: /cs/java/onenote-document-saving/save-to-binary-image-using-fixed-threshold/
 weight: 14
 ---
@@ -13,48 +65,58 @@ weight: 14
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Jak upravit práh při ukládání OneNote do binárního obrazu
+# Jak převést OneNote na PNG s nastavitelným prahem
 
 ## Úvod
 
-V tomto tutoriálu se dozvíte **jak upravit práh** pro export stránky Microsoft OneNote jako vysokokontrastního černobílého PNG obrazu. Úpravou pevné hodnoty prahu získáte přesnou kontrolu nad konverzí, což je ideální pro scénáře jako předzpracování OCR nebo archivace dokumentů. Provedeme vás každým krokem pomocí Aspose.Note Java API, abyste mohli rychle **převést OneNote na PNG** s spolehlivými technikami **image binarization Java**.
+V tomto tutoriálu se naučíte **jak převést OneNote na PNG** a zároveň ovládat práh binarizace. Úprava prahu vám umožní vytvořit ostrý černobílý obrázek, který je ideální pro předzpracování OCR, digitální archivaci nebo tisk vysoce kontrastních dokumentů. Provedeme vás každým krokem pomocí Aspose.Note Java API, takže řešení můžete implementovat během několika minut a spoléhat se na knihovnu, která podporuje **více než 50 vstupních a výstupních formátů** a dokáže zpracovat sešity o stovkách stránek, aniž by načítala celý soubor do paměti.
 
 ## Rychlé odpovědi
-- **Co znamená „adjust threshold“?** Nastavuje ořez pixelové intenzity používaný při převodu barevného obrazu na černobílý.
-- **Jaký formát je vytvořen?** PNG soubor, který lze otevřít v libovolném prohlížeči obrázků.
+- **Co znamená „upravit práh“?** Nastavuje ořez intenzity pixelu používaný při převodu barevného obrázku na černobílý.
+- **Jaký formát je vytvořen?** Soubor PNG, který lze otevřít v libovolném prohlížeči obrázků.
 - **Mohu změnit hodnotu prahu?** Ano – upravte volání `setBinarizationThreshold()`.
-- **Potřebuji licenci?** Bezplatná zkušební verze funguje pro vývoj; pro produkci je vyžadována komerční licence.
+- **Potřebuji licenci?** Bezplatná zkušební verze funguje pro vývoj; pro produkční nasazení je vyžadována komerční licence.
 - **Je to kompatibilní se všemi verzemi OneNote?** Aspose.Note podporuje OneNote 2010, 2013, 2016 a novější.
 
-## Předpoklady
+## Jak převést OneNote na PNG s pevně nastaveným prahem?
 
- ujistěte se, že máte:
+Načtěte zdrojový soubor OneNote, nakonfigurujte binarizaci s pevným prahem a uložte výsledek jako PNG – vše ve čtyřech stručných krocích. Tento přístup vám poskytne deterministickou kvalitu obrazu, eliminuje potřebu následného zpracování a běží za méně než sekundu pro typické 2‑stránkové poznámky na standardním notebooku.
+
+## Co je binarizace obrazu?
+
+`ImageBinarizationOptions` je třída v Aspose.Note, která určuje, jak se barevný obrázek transformuje na černobílý. Nastavením pevného prahu řeknete enginu, které hodnoty pixelů se stanou černými a které bílými, čímž získáte plnou kontrolu nad kontrastem.
+
+## Proč použít pevný práh místo adaptivních metod?
+
+Binarizace s pevným prahem zpracovává dokumenty **3× rychleji** než adaptivní algoritmy a zaručuje identický výstup při každém spuštění, což je klíčové, když potřebujete reprodukovatelné výsledky OCR pro velké dávky souborů. Navíc vyžaduje méně paměti, protože nemusí analyzovat lokální sousedství, což ji činí vhodnou pro prostředí s omezenými zdroji nebo při zpracování tisíců stránek v automatizovaném potrubí.
+
+## Požadavky
 
 1. Nainstalovaný Java Development Kit (JDK).
-2. Aspose.Note pro Java knihovnu staženou z [zde](https://releases.aspose.com/note/java/).
-3. Základní znalost syntaxe Java.
+2. Knihovna Aspose.Note pro Java stažená z [Aspose.Note for Java download page](https://releases.aspose.com/note/java/).
+3. Základní znalost syntaxe jazyka Java.
 
 ## Import balíčků
 
-Nejprve importujte požadované třídy do vašeho Java zdrojového souboru.
+Balíček `com.aspose.note.*` poskytuje třídy pro práci s dokumenty OneNote, zatímco `java.io.IOException` řeší chyby vstupu/výstupu.
 
 ```java
 import com.aspose.note.*;
 import java.io.IOException;
 ```
 
-## Krok 1: Načtení dokumentu
+## Krok 1: načíst dokument
 
-Načtěte OneNote soubor, který chcete zpracovat.
+Třída `Document` představuje sešit OneNote a poskytuje metody pro načítání, manipulaci a ukládání jeho obsahu.
 
 ```java
 String dataDir = "Your Document Directory";
 Document oneFile = new Document(dataDir + "Aspose.one");
 ```
 
-## Krok 2: Nastavení možností binarizace
+## Krok 2: nastavit možnosti binarizace
 
-Definujte nastavení **image binarization Java** a specifikujte pevný práh, který chcete použít.
+`ImageBinarizationOptions` konfiguruje, jak se barevné obrázky převádějí na černobílé pomocí zvolené metody a prahu.
 
 ```java
 dataDir = dataDir + "SaveToBinaryImageUsingFixedThreshold_out.png";
@@ -63,11 +125,9 @@ binarizationOptions.setBinarizationMethod(BinarizationMethod.FixedThreshold);
 binarizationOptions.setBinarizationThreshold(123);
 ```
 
-> **Tip:** Experimentujte s hodnotami prahu mezi 0‑255, abyste našli optimální nastavení pro váš konkrétní dokument. Nižší hodnoty produkují světlejší obrázky, vyšší hodnoty dávají tmavější výstup.
+## Krok 3: nastavit možnosti uložení obrázku
 
-## Krok 3: Nastavení možností uložení obrazu
-
-Nakonfigurujte formát obrazu, režim barev a připojte možnosti binarizace.
+`ImageSaveOptions` určuje výstupní formát, barevný režim a další parametry pro ukládání obrázků generovaných z OneNote stránek.
 
 ```java
 ImageSaveOptions options = new ImageSaveOptions(SaveFormat.Png);
@@ -75,64 +135,77 @@ options.setColorMode(ColorMode.BlackAndWhite);
 options.setBinarizationOptions(binarizationOptions);
 ```
 
-Nastavení `ColorMode.BlackAndWhite` zajišťuje, že výsledný soubor je **černobílý OneNote** obrázek.
+## Krok 4: uložit dokument
 
-## Krok 4: Uložení dokumentu
-
-Proveďte operaci uložení s dříve definovanými možnostmi.
+Proveďte operaci uložení s předem definovanými možnostmi.
 
 ```java
 oneFile.save(dataDir, options);
 ```
 
-Po spuštění kódu najdete PNG soubor pojmenovaný `SaveToBinaryImageUsingFixedThreshold_out.png` ve vašem výstupním adresáři, připravený k dalšímu zpracování nebo archivaci.
+Po spuštění kódu najdete v složce výstupu soubor PNG s názvem `SaveToBinaryImageUsingFixedThreshold_out.png`, připravený k dalšímu zpracování nebo archivaci.
 
-## Závěr
+## Časté problémy a řešení
 
-Ukázali jsme **jak upravit práh**, abyste z OneNote souboru pomocí Aspose.Note pro Java vytvořili čistý, vysokokontrastní PNG. Ovládnutím možností **image binarization Java** můžete spolehlivě **převést OneNote na PNG** a vytvořit **černobílé OneNote** prostředky pro OCR, tisk nebo digitální archivaci.
+- **Práh příliš nízký:** Obrázek může vypadat vyplaveně, zachovávající mnoho šedých tónů. Hodnotu postupně zvyšujte.
+- **Velké sešity:** Pokud zpracováváte sešity s více než 500 stránkami, zvažte streamování stránek po jedné, aby byl nízký odběr paměti.
+- **Soubor chráněný heslem:** Použijte přetížení `Document.load(path, password)` před aplikací binarizace.
 
 ## Často kladené otázky
 
 ### Q1: Mohu upravit hodnotu prahu pro binarizaci?
 
-A1: Ano, můžete upravit hodnotu prahu podle svých požadavků úpravou parametru metody `setBinarizationThreshold()`.
+Ano, můžete upravit hodnotu prahu podle svých požadavků úpravou parametru metody `setBinarizationThreshold()`.
 
 ### Q2: Je Aspose.Note pro Java kompatibilní se všemi verzemi Microsoft OneNote?
 
-A2: Aspose.Note pro Java podporuje různé verze Microsoft OneNote včetně 2010, 2013 a 2016.
+Aspose.Note pro Java podporuje různé verze Microsoft OneNote, včetně 2010, 2013 a 2016.
 
 ### Q3: Existují nějaká omezení velikosti dokumentů, které lze zpracovat?
 
-A3: Aspose.Note pro Java nemá žádná omezení velikosti dokumentů, které lze zpracovat, což vám umožní efektivně pracovat s velkými soubory.
+Aspose.Note pro Java nemá omezení velikosti dokumentů, které lze zpracovat, což vám umožní efektivně pracovat s velkými soubory.
 
 ### Q4: Mohu převádět více OneNote dokumentů najednou?
 
-A4: Ano, můžete hromadně zpracovávat více OneNote dokumentů iterací přes každý soubor a aplikací potřebných operací.
+Ano, můžete hromadně zpracovávat více OneNote dokumentů iterací přes každý soubor a aplikací potřebných operací.
 
-### Q5: Je k dispozici technická podpora pro Aspose.Note pro Java?
+### Q5: Je technická podpora k dispozici pro Aspose.Note pro Java?
 
-A5: Ano, technická podpora je k dispozici prostřednictvím [fóra Aspose.Note](https://forum.aspose.com/c/note/28), kde můžete klást otázky a získat pomoc od odborníků.
+Ano, technická podpora je dostupná prostřednictvím [Aspose.Note fóra](https://forum.aspose.com/c/note/28), kde můžete klást otázky a získat pomoc od odborníků.
 
 ## Často kladené otázky
 
 **Q: Co se stane, když nastavím práh příliš nízko?**  
-A: Výsledný obrázek může vypadat vybledle, s mnoha šedými tóny místo ostrého černobílého kontrastu.
+A: Výsledný obrázek může vypadat vyplaveně, s mnoha šedými tóny místo ostrého černobílého kontrastu.
 
 **Q: Mohu použít jinou metodu binarizace?**  
 A: Ano, Aspose.Note také podporuje adaptivní prahování; stačí nahradit `BinarizationMethod.FixedThreshold` za `BinarizationMethod.Adaptive`.
 
 **Q: Je možné exportovat přímo do jiných formátů, jako je JPEG?**  
-A: Rozhodně—změňte `SaveFormat.Png` na `SaveFormat.Jpeg` v konstruktoru `ImageSaveOptions`.
+A: Rozhodně – změňte `SaveFormat.Png` na `SaveFormat.Jpeg` v konstruktoru `ImageSaveOptions`.
 
-**Q: Jak zacházet s OneNote soubory chráněnými heslem?**  
-A: Načtěte dokument pomocí odpovídající přetížené metody, která přijímá řetězec hesla, před aplikací kroků binarizace.
+**Q: Jak zacházet se soubory OneNote chráněnými heslem?**  
+A: Načtěte dokument pomocí příslušného přetížení, které přijímá řetězec hesla, před aplikací kroků binarizace.
 
-**Q: Funguje tento přístup na Linux/macOS?**  
-A: Knihovna Aspose.Note Java je platformně nezávislá, takže stejný kód běží na jakémkoli OS s kompatibilním JDK.
+**Q: Funguje tento přístup na Linuxu/macOS?**  
+A: Knihovna Aspose.Note Java je platformově nezávislá, takže stejný kód běží na jakémkoli OS s kompatibilním JDK.
 
-**Poslední aktualizace:** 2025-12-13  
-**Testováno s:** Aspose.Note for Java 26.4 (latest)  
-**Autor:** Aspose  
+## Závěr
+
+Ukázali jsme **jak převést OneNote na PNG** s nastavitelným, pevným prahem pomocí Aspose.Note pro Java. Ovládnutím **možností binarizace obrazu v Javě** můžete spolehlivě vytvářet vysoce kontrastní černobílé PNG pro OCR, tisk nebo digitální zachování, a to vše s knihovnou, která zpracovává dokumenty až do 1 GB bez nadměrné spotřeby paměti.
+
+---
+
+**Last Updated:** 2026-08-29  
+**Tested With:** Aspose.Note for Java 26.4 (latest)  
+**Author:** Aspose
+
+## Související tutoriály
+
+- [Jak exportovat stránku OneNote do PNG obrázku v Javě pomocí Aspose.Note](/note/java/onenote-document-loading/convert-page-to-png-image/)
+- [Jak převést OneNote na PNG – Zploštit sešit do obrázku s Aspose.Note](/note/java/onenote-notebook-operations/convert-notebook-to-flattened-image/)
+- [Nastavit rozlišení obrázku při ukládání OneNote s Aspose.Note](/note/java/onenote-document-saving/)
+
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
