@@ -1,6 +1,6 @@
 ---
-title: Convert OneNote to PDF with Page Settings – Aspose.Note
-linktitle: Convert OneNote to PDF with Page Settings – Aspose.Note
+title: Convert OneNote to PDF Using Page Settings with Aspose.Note for Java
+linktitle: Convert OneNote to PDF Using Page Settings with Aspose.Note for Java
 second_title: Aspose.Note Java API
 description: Learn how to convert OneNote to PDF using Aspose.Note for Java, with step‑by‑step guidance to customize PDF page size, including Letter and A4 formats.
 weight: 19
@@ -45,7 +45,7 @@ import java.nio.file.Paths;
 
 ## How to Export OneNote as PDF with Letter Page Settings
 
-### Step 1: Load the OneNote Document
+### Step 1: load the oneNote document
 
 We start by loading the source `.one` file. Replace the placeholder path with the actual location of your OneNote file.
 
@@ -53,7 +53,7 @@ We start by loading the source `.one` file. Replace the placeholder path with th
 Document oneFile = new Document("path/to/your/OneNote.one");
 ```
 
-### Step 2: Define the Destination Path
+### Step 2: define the destination path
 
 Choose where the resulting PDF should be written. Again, update the path to suit your environment.
 
@@ -61,7 +61,7 @@ Choose where the resulting PDF should be written. Again, update the path to suit
 String dst = "path/to/your/SaveToPdfUsingLetterPageSettings.pdf";
 ```
 
-### Step 3: Save with Letter Page Settings
+### Step 3: save with letter page settings
 
 Create a `PdfSaveOptions` instance, set the **Letter** page size (a common US paper format), and invoke `save`. This demonstrates **customize PDF page size** using Aspose.Note’s built‑in helpers.
 
@@ -75,7 +75,7 @@ oneFile.save(dst, options);
 
 ## How to Export OneNote as PDF with A4 Page Settings Without Height Limit
 
-### Step 1: Load the OneNote Document
+### Step 1: load the oneNote document
 
 The loading step is identical for the A4 scenario.
 
@@ -83,7 +83,7 @@ The loading step is identical for the A4 scenario.
 Document oneFile = new Document("path/to/your/OneNote.one");
 ```
 
-### Step 2: Define the Destination Path
+### Step 2: define the destination path
 
 Provide a distinct file name to avoid overwriting the previous PDF.
 
@@ -91,7 +91,7 @@ Provide a distinct file name to avoid overwriting the previous PDF.
 String dst = "path/to/your/SaveToPdfUsingA4PageSettingsWithoutHeightLimit.pdf";
 ```
 
-### Step 3: Save with A4 Page Settings (No Height Limit)
+### Step 3: save with A4 page settings (No height limit)
 
 Here we use `PageSettings.getA4NoHeightLimit()` to generate a PDF that automatically expands vertically—perfect for long notes or scrollable content.
 
@@ -103,7 +103,7 @@ oneFile.save(dst, options);
 
 > **Why this matters:** The **A4 no‑height‑limit** option prevents content truncation, ensuring the entire OneNote page appears in the PDF, regardless of its length. This is especially useful when you need to **save PDF A4 size** for international printing standards.
 
-## Common Issues & Solutions
+## Common issues & solutions
 
 | Issue | Why it Happens | Fix |
 |-------|----------------|-----|
@@ -111,7 +111,7 @@ oneFile.save(dst, options);
 | **Page size not applied** | `PdfSaveOptions` not linked to the `save` call. | Make sure you pass the `options` object to `oneFile.save()`. |
 | **Out‑of‑memory for large notes** | Loading very large `.one` files can consume heap space. | Increase JVM heap (`-Xmx`) or process files in smaller batches. |
 
-## Frequently Asked Questions
+## Frequently asked questions
 
 **Q: Can I further customize the page settings, such as margins or orientation?**  
 A: Yes, `PageSettings` provides properties for margins, orientation, and DPI. You can create a custom `PageSettings` object and assign it to `PdfSaveOptions`.

@@ -1,5 +1,5 @@
 ---
-title: "increase jpeg dpi – Set Output Image Resolution in OneNote with Aspose.Note"
+title: "Learn to increase JPEG DPI – Set Output Image Resolution in OneNote with Aspose.Note"
 linktitle: "increase jpeg dpi – Set Output Image Resolution in OneNote - Aspose.Note"
 second_title: "Aspose.Note Java API"
 description: "Learn how to increase jpeg dpi and set jpeg resolution to boost OneNote image quality using Aspose.Note for Java. Follow our step‑by‑step guide."
@@ -56,7 +56,7 @@ import com.aspose.note.SaveFormat;
 
 ## How to increase jpeg dpi when exporting OneNote images
 
-### Step 1: Load the OneNote Document
+### Step 1: load the oneNote document
 
 Start by loading the OneNote document into your Java application:
 
@@ -67,7 +67,7 @@ Document doc = new Document(dataDir + "Sample1.one");
 
 Replace `"Your Document Directory"` with the actual path where your `.one` file lives.
 
-### Step 2: Set Image Save Options
+### Step 2: set image save options
 
 Define the image save options and specify the desired resolution. This is the core of **aspnote set jpeg resolution**:
 
@@ -78,7 +78,7 @@ imageSaveOptions.setResolution(120);
 
 The example sets the resolution to **120 dpi**. Feel free to increase this value—e.g., `300` for print‑quality images—to **increase onenote image resolution** as needed.
 
-### Step 3: Save the Document with Modified Resolution
+### Step 3: save the document with modified resolution
 
 Finally, save the document using the configured options:
 
@@ -88,7 +88,7 @@ doc.save(dataDir + "SetOutputImageResolution_out.jpeg", imageSaveOptions);
 
 The output file `SetOutputImageResolution_out.jpeg` will contain the JPEG image rendered at the DPI you specified.
 
-## Common Issues & Troubleshooting
+## Common issues & troubleshooting
 
 | Symptom | Possible Cause | Fix |
 |---------|----------------|-----|
@@ -96,7 +96,7 @@ The output file `SetOutputImageResolution_out.jpeg` will contain the JPEG image 
 | `NullPointerException` on `setResolution` | Using an older Aspose.Note version | Upgrade to the latest Aspose.Note for Java release |
 | File size becomes too large | DPI set excessively high (e.g., 600 dpi) | Balance DPI with acceptable file size; 150–300 dpi is typical for print |
 
-## Frequently Asked Questions
+## Frequently asked questions
 
 **Q: Can I set a resolution higher than 120 dpi?**  
 A: Absolutely. You can set any integer value that meets your quality requirements—just remember that higher DPI increases file size.
@@ -111,7 +111,7 @@ A: The library works with Java 1.6 and later, including Java 8, 11, and newe
 A: Yes. Aspose.Note offers a full suite of image manipulation APIs for resizing, cropping, rotating, and adjusting color depth.
 
 **Q: Where can I get support for Aspose.Note?**  
-A: You can seek assistance from the Aspose.Note community forum [here](https://forum.aspose.com/c/note/28).
+A: You can seek assistance from the Aspose.Note community forum [Aspose.Note community forum](https://forum.aspose.com/c/note/28).
 
 ## Conclusion
 
@@ -123,11 +123,18 @@ By following these steps, you now know how to **increase jpeg dpi** and effectiv
 **Tested With:** Aspose.Note for Java 24.12 (latest at time of writing)  
 **Author:** Aspose  
 
+
+
+
+
+
+
+
+---
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
-
----

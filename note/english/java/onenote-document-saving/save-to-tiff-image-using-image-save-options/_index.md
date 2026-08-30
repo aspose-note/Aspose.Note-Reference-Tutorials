@@ -1,6 +1,6 @@
 ---
-title: Save to TIFF Image Using TIFF JPEG Compression in OneNote
-linktitle: Save to TIFF Image Using TIFF JPEG Compression in OneNote
+title: Convert OneNote to TIFF with JPEG Compression using Aspose.Note for Java
+linktitle: Convert OneNote to TIFF with JPEG Compression using Aspose.Note for Java
 second_title: Aspose.Note Java API
 description: Learn how to save OneNote documents as TIFF files using TIFF JPEG compression, TIFF PackBits compression, or CCITT Group 3 Fax in Java. Control image quality, file size, and color mode with Aspose.Note. #OneNote #Java #Aspose
 weight: 21
@@ -12,7 +12,7 @@ date: 2026-03-14
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Save to TIFF Image Using TIFF JPEG Compression in OneNote
+# Convert OneNote to TIFF with JPEG Compression using Aspose.Note for Java
 
 ## Introduction
 
@@ -28,14 +28,14 @@ In this tutorial you’ll discover **how to save a OneNote document to a TIFF fi
 ## What is TIFF JPEG Compression?
 TIFF JPEG compression stores image data in a TIFF container but applies JPEG’s lossy algorithm to shrink the file. It’s ideal when you need a balance between **tiff image quality** and smaller file size, especially for web or archival scenarios.
 
-## Why Use Different TIFF Compression Types?
+## Why use different TIFF compression types?
 - **JPEG** – Good for photographs; offers adjustable quality.  
 - **PackBits** – Simple, loss‑less run‑length encoding; useful for graphics with large uniform areas.  
 - **CCITT Group 3 Fax** – Black‑and‑white only; perfect for scanned documents and fax transmission.  
 
 Choosing the right compression lets you meet storage constraints without sacrificing the visual fidelity required for your application.
 
-## Convert One to TIFF Using Aspose.Note
+## Convert one to TIFF using Aspose.Note
 If your goal is to **convert OneNote to TIFF**, the three methods below cover the most common scenarios. Each method loads a `.one` file, configures `ImageSaveOptions`, and saves the result as a `.tiff` file.
 
 ## Prerequisites
@@ -54,7 +54,7 @@ import java.io.IOException;
 import java.nio.file.Paths;
 ```
 
-## Step 1: Save to TIFF Using TIFF JPEG Compression
+## Step 1: save to TIFF using TIFF JPEG compression
 
 Below is the complete method that loads a OneNote file and saves it as a TIFF with JPEG compression. Adjust the `quality` value (0‑100) to control **tiff image quality**.
 
@@ -85,11 +85,11 @@ public static void SaveToTiffUsingJpegCompression() throws IOException {
 2. Call `SaveToTiffUsingJpegCompression()` from your main method or service.  
 3. The resulting `.tiff` file will appear in the same directory.
 
-## TIFF PackBits Compression Overview
+## TIFF packBits compression overview
 
 PackBits is a lossless compression algorithm that works best for images with large areas of solid color. It’s often referred to as **tiff packbits compression** in documentation.
 
-## Step 2: Save to TIFF Using PackBits Compression
+## Step 2: save to TIFF using packBits compression
 
 If you need a loss‑less option, PackBits is a simple run‑length algorithm that works well for graphics with solid colors.
 
@@ -138,7 +138,7 @@ public static void SaveToTiffUsingCcitt3Compression() throws IOException {
 - `setColorMode(ColorMode.BlackAndWhite)` forces a monochrome output.  
 - `setTiffCompression(TiffCompression.Ccitt3)` applies the fax‑oriented compression.
 
-## Common Issues & Tips
+## Common issues & tips
 
 | Issue | Solution |
 |-------|----------|
@@ -147,7 +147,7 @@ public static void SaveToTiffUsingCcitt3Compression() throws IOException {
 | **Unsupported image format error** | Verify you’re using a recent version of Aspose.Note; older builds may lack certain compression enums. |
 | **LicenseException at runtime** | Install a valid Aspose.Note license (`License license = new License(); license.setLicense("Aspose.Note.Java.lic");`). |
 
-## Frequently Asked Questions
+## Frequently asked questions
 
 **Q: Can I convert other document types (e.g., PDF, DOCX) to TIFF with these options?**  
 A: Yes. While Aspose.Note focuses on OneNote files, Aspose.PDF, Aspose.Words, and other libraries provide similar `ImageSaveOptions` for their formats.

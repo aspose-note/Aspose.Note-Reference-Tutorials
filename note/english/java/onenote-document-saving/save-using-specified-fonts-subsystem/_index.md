@@ -1,6 +1,6 @@
 ---
-title: Save OneNote as PDF Using Specified Fonts Subsystem
-linktitle: Save OneNote as PDF Using Specified Fonts Subsystem
+title: Use Aspose.Note for Java to Save OneNote as PDF with Specified Fonts Subsystem
+linktitle: Use Aspose.Note for Java to Save OneNote as PDF with Specified Fonts Subsystem
 second_title: Aspose.Note Java API
 description: Learn how to **save OneNote as PDF** using the specified fonts subsystem in Java with Aspose.Note. This guide also shows how to convert OneNote to PDF, load custom font files, and specify default fonts.
 weight: 22
@@ -48,11 +48,11 @@ Saving OneNote as PDF with a fonts subsystem means that during the conversion pr
 
 ### 1. Java Development Kit (JDK)
 
-Ensure you have Java Development Kit (JDK) installed on your system. You can download it from [here](https://www.oracle.com/java/technologies/javase-jdk15-downloads.html) if you haven't already.
+Ensure you have Java Development Kit (JDK) installed on your system. You can download it from the **Oracle JDK 15 download page**(https://www.oracle.com/java/technologies/javase-jdk15-downloads.html) if you haven't already.
 
 ### 2. Aspose.Note for Java Library
 
-Download and set up the Aspose.Note for Java library. You can download it from the [website](https://releases.aspose.com/note/java/).
+Download and set up the Aspose.Note for Java library. You can download it from the **Aspose.Note for Java release page**(https://releases.aspose.com/note/java/).
 
 ## Import Packages
 
@@ -72,7 +72,7 @@ Now let's break down each example into multiple steps to understand the process 
 
 ## How to **save OneNote as PDF** using Document Fonts Subsystem with a default font
 
-### Step 1: Save Using Document Fonts Subsystem with Default Font Name
+### Step 1: save using document fonts subsystem with default font name
 
 This step demonstrates how to **save OneNote as PDF** in a simple way by specifying a default font name.
 
@@ -96,7 +96,7 @@ In this step:
 - The **default PDF font** is specified as **"Times New Roman"**.
 - The document is saved in PDF format with the chosen font.
 
-### Step 2: Save Using Document Fonts Subsystem with Default Font from File
+### Step 2: save using document fonts subsystem with default font from file
 
 Here we **load a custom font file** and use it as the fallback when converting to PDF. This demonstrates the **load custom font java** scenario.
 
@@ -123,7 +123,7 @@ Key points:
 - `usingDefaultFontFromFile` **specifies default font from file**, ensuring the PDF uses this font when the original is missing.
 - The resulting PDF preserves the intended look.
 
-### Step 3: Save Using Document Fonts Subsystem with Default Font from Stream
+### Step 3: save using document fonts subsystem with default font from stream
 
 Sometimes the font may be stored in a database or received over a network. This example shows how to **use a font stream**—a common **load custom font java** technique.
 
@@ -160,7 +160,7 @@ What happens here:
 - `usingDefaultFontFromStream` **uses a font stream** to define the fallback font.
 - The OneNote file is saved as PDF with the stream‑based font.
 
-## Common Issues and Solutions
+## Common issues and solutions
 
 | Issue | Why it Happens | How to Fix |
 |-------|----------------|------------|
@@ -168,7 +168,7 @@ What happens here:
 | **File not found for custom font** | Incorrect path to the `.ttf` file. | Use absolute paths or verify the relative path from the working directory. |
 | **Stream not closed** | Exception occurs before `close()` is called. | Use try‑with‑resources (`try (InputStream stream = ...) { ... }`) for automatic closing. |
 
-## Frequently Asked Questions
+## Frequently asked questions
 
 **Q: Can I specify different fonts for different parts of the document?**  
 A: Yes, you can apply custom font settings to individual rich text elements using the `Font` class in Aspose.Note.
