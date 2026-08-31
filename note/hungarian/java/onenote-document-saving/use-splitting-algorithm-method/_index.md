@@ -129,7 +129,7 @@ V: Kérhet egy [ideiglenes licencet](https://purchase.aspose.com/temporary-licen
 ---
 
 **Legutóbb frissítve:** 2025-12-18  
-**Tesztelve:** Aspose.Note 24.12 for Java  
+**Tesztelve:** Aspose.Note 26.4 for Java  
 **Szerző:** Aspose  
 
 {{< /blocks/products/pf/tutorial-page-section >}}

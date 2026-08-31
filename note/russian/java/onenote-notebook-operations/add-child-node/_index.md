@@ -58,7 +58,7 @@ String dataDir = "Your Document Directory";
 ## Шаг 2: Загрузка блокнота OneNote
 
 ```java
-Notebook notebook = new Notebook(dataDir + "Notizbuch �ffnen.onetoc2");
+Notebook notebook = new Notebook(dataDir + "Notebook.onetoc2");
 ```
 
 Загрузите блокнот OneNote, который хотите изменить.
@@ -118,7 +118,7 @@ A7: Попытка сохранить изменения в блокнот, до
 ---
 
 **Last Updated:** 2025-12-25  
-**Tested With:** Aspose.Note for Java 24.10  
+**Tested With:** Aspose.Note for Java 26.4  
 **Author:** Aspose  
 
 {{< /blocks/products/pf/tutorial-page-section >}}

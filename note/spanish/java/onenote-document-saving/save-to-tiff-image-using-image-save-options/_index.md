@@ -175,8 +175,8 @@ Ahora tienes un conjunto completo de herramientas de **conversión tiff java** q
 
 ---
 
-**Última actualización:** 2026-03-14  
-**Probado con:** Aspose.Note for Java 23.12 (última versión al momento de escribir)  
+**Última actualización:** 2025-12-17  
+**Probado con:** Aspose.Note for Java 26.4 (última versión al momento de escribir)  
 **Autor:** Aspose  
 
 {{< /blocks/products/pf/tutorial-page-section >}}

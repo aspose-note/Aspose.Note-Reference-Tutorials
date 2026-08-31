@@ -122,9 +122,9 @@ By following these steps, you now know how to **increase jpeg dpi** and effectiv
 
 ---
 
-**Last Updated:** 2026-03-14  
-**Tested With:** Aspose.Note for Java 24.12 (latest at time of writing)  
-**Author:** Aspose  
+**Ostatnia aktualizacja:** 2025-12-18
+**Testowano z:** Aspose.Note dla Java 26.4 (najnowsza wersja w momencie pisania)
+**Autor:** Aspose 
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

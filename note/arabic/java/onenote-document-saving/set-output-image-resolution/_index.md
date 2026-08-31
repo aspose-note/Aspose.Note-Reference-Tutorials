@@ -114,15 +114,15 @@ A: Yes. Aspose.Note offers a full suite of image manipulation APIs for resizing,
 **Q: Where can I get support for Aspose.Note?**  
 A: You can seek assistance from the Aspose.Note community forum [here](https://forum.aspose.com/c/note/28).
 
-## Conclusion
+ج: تعمل المكتبة مع Java SE 7 والإصدارات الأحدث، بما في ذلك Java 8 و11 والإصدارات الأحدث ذات الدعم طويل الأمد (LTS).
 
 باتباع هذه الخطوات، أصبحت الآن تعرف كيفية **increase jpeg dpi** و**increase onenote image resolution** لأي مستند OneNote باستخدام Aspose.Note للغة Java. اضبط DPI ليتناسب مع متطلبات مشروعك البصرية، واستمتع بصور واضحة وعالية الجودة في تطبيقاتك اللاحقة.
 
 ---
 
-**Last Updated:** 2026-03-14  
-**Tested With:** Aspose.Note for Java 24.12 (latest at time of writing)  
-**Author:** Aspose  
+**آخر تحديث:** 18-12-2025
+** تم الاختبار باستخدام: ** Aspose.Note لـ Java 26.4 (الأحدث وقت كتابة هذا التقرير)
+**المؤلف:** اطرح
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

@@ -48,7 +48,7 @@ Először töltse be az alkalmazásba konvertálni kívánt OneNote-jegyzetfüze
 string dataDir = "Your Document Directory";
 
 // Töltsön be egy OneNote-jegyzetfüzetet
-var notebook = new Notebook(dataDir + "Notizbuch öffnen.onetoc2");
+var notebook = new Notebook(dataDir + "Notebook.onetoc2");
 ```
 
 ## 2. lépés: Állítsa be a mentési beállításokat

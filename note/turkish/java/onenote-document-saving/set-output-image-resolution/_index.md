@@ -106,8 +106,8 @@ C: Kesinlikle. Kalite gereksinimlerinize uygun herhangi bir tam sayı değeri be
 **S: Aspose.Note JPEG dışındaki görüntü formatlarını destekliyor mu?**  
 C: Evet. `SaveFormat` enum’u PNG, BMP, GIF ve daha fazlasını içerir. `SaveFormat.Jpeg` ifadesini istediğiniz formatla değiştirin.
 
-**S: Aspose.Note tüm Java sürümleriyle uyumlu mu?**  
-C: Kütüphane Java 1.6 ve üzeri sürümlerle çalışır; Java 8, 11 ve yeni LTS sürümlerini de destekler.
+**Q: Aspose.Note tüm Java sürümleriyle uyumlu mu?**  
+A: Kütüphane Java SE 7 ve üzeri sürümlerle çalışır, Java 8, 11 ve daha yeni LTS sürümlerini de kapsar.
 
 **S: OneNote içinde başka görüntü özelliklerini (ör. kırpma, döndürme) manipüle edebilir miyim?**  
 C: Evet. Aspose.Note, yeniden boyutlandırma, kırpma, döndürme ve renk derinliği ayarlama gibi tam bir görüntü işleme API seti sunar.
@@ -121,9 +121,9 @@ Bu adımları izleyerek, Aspose.Note for Java kullanarak herhangi bir OneNote be
 
 ---
 
-**Son Güncelleme:** 2026-03-14  
-**Test Edilen Sürüm:** Aspose.Note for Java 24.12 (yazım anındaki en yeni sürüm)  
-**Yazar:** Aspose  
+**Last Updated:** 2025-12-18  
+**Tested With:** Aspose.Note for Java 26.4 (latest at time of writing)  
+**Author:** Aspose  
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

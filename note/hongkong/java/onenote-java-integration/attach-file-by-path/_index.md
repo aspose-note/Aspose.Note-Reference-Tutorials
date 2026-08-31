@@ -83,7 +83,7 @@ OutlineElement outlineElem = new OutlineElement();
 以欲嵌入檔案的完整路徑建立 `AttachedFile`：
 
 ```java
-AttachedFile attachedFile = new AttachedFile(null, dataDir + "attachment.txt");
+AttachedFile attachedFile = new AttachedFile(dataDir + "attachment.txt");
 ```
 
 將 `"attachment.txt"` 改為您想要附加的檔名 (java code attach file)。
@@ -187,7 +187,7 @@ A：正式部署必須使用有效的 Aspose.Note 授權；評估階段可使用
 ---
 
 **最後更新：** 2025-12-25  
-**測試環境：** Aspose.Note for Java 24.11  
+**測試環境：** Aspose.Note for Java 26.4  
 **作者：** Aspose
 
 {{< /blocks/products/pf/tutorial-page-section >}}

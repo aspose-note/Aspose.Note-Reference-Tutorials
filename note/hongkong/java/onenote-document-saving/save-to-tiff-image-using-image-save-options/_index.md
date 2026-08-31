@@ -174,9 +174,9 @@ A: API 本身是同步的，但您可以將呼叫包裝在 Java 的 `Completable
 
 ---
 
-**Last Updated:** 2026-03-14  
-**Tested With:** Aspose.Note for Java 23.12 (latest at time of writing)  
-**Author:** Aspose  
+**最後更新日期：** 2025-12-17  
+**測試環境：** Aspose.Note for Java 26.4（撰寫時的最新版本）  
+**作者：** Aspose  
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

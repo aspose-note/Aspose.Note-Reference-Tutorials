@@ -122,7 +122,7 @@ A: Yes, Aspose.Note preserves images, charts, and other embedded objects during 
 ---
 
 **Last Updated:** 2025-12-17  
-**Tested With:** Aspose.Note for Java 24.12 (latest)  
+**Tested With:** Aspose.Note for Java 26.4 (latest)  
 **Author:** Aspose  
 
 {{< /blocks/products/pf/tutorial-page-section >}}

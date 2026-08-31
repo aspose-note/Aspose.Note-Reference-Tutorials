@@ -106,8 +106,8 @@ A: Zeker. Je kunt elke gehele waarde gebruiken die aan je kwaliteitsvereisten vo
 **Q: Ondersteunt Aspose.Note andere afbeeldingsformaten dan JPEG?**  
 A: Ja. De `SaveFormat`‑enum omvat PNG, BMP, GIF en meer. Vervang `SaveFormat.Jpeg` door het gewenste formaat.
 
-**Q: Is Aspose.Note compatibel met alle Java‑versies?**  
-A: De bibliotheek werkt met Java 1.6 en later, inclusief Java 8, 11 en nieuwere LTS‑releases.
+**V: Is Aspose.Note compatibel met alle Java‑versies?**
+A: De bibliotheek werkt met Java SE 7 en later, inclusief Java8, 11 en nieuwere LTS‑releases.
 
 **Q: Kan ik andere afbeeldings‑eigenschappen (bijv. bijsnijden, roteren) in OneNote manipuleren?**  
 A: Ja. Aspose.Note biedt een volledige reeks API’s voor het aanpassen van afbeeldingen, zoals schalen, bijsnijden, roteren en het aanpassen van de kleurdiepte.
@@ -121,8 +121,8 @@ Door deze stappen te volgen, weet je nu hoe je **increase jpeg dpi** kunt toepas
 
 ---
 
-**Laatst bijgewerkt:** 2026-03-14  
-**Getest met:** Aspose.Note for Java 24.12 (latest op het moment van schrijven)  
+**Laatst bijgewerkt:** 2025-12-18
+**Getest met:** Aspose.Note voor Java 26.4 (laatste op het moment van schrijven)
 **Auteur:** Aspose  
 
 {{< /blocks/products/pf/tutorial-page-section >}}

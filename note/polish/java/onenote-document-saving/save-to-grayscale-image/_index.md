@@ -113,7 +113,7 @@ Teraz wiesz, **jak wyeksportować onenote**, ładując plik OneNote, konfiguruj�
 ---
 
 **Aktualizacja Ostatnia:** 2025-12-17
-**Testowano z:** Aspose.Note 24.12 dla Java
+**Testowano z:** Aspose.Note 26.4 dla Java
 **Autor:** Asponuj
 
 {{< /blocks/products/pf/tutorial-page-section >}}

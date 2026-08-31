@@ -32,7 +32,7 @@ weight: 15
 
 ### 1. مجموعة تطوير جافا (JDK)
 
-تأكد من تثبيت مجموعة تطوير جافا (JDK) على نظامك. يمكنك تنزيل وتثبيت أحدث نسخة من JDK من [موقع Oracle](https://www.oracle.com/java/technologies/javase-jdk15-downloads.html).
+تأكد من تثبيت مجموعة تطوير جافا (JDK) على نظامك. يمكنك تنزيل وتثبيت أحدث نسخة من JDK من [موقع Oracle](https://www.oracle.com/java/technologies/downloads/).
 
 ### 2. مكتبة Aspose.Note for Java
 
@@ -147,7 +147,7 @@ for (Image image : list) {
 ---
 
 **آخر تحديث:** 2025-12-21  
-**تم الاختبار مع:** Aspose.Note for Java 23.12  
+**تم الاختبار مع:** Aspose.Note for Java 26.4  
 **المؤلف:** Aspose
 
 {{< /blocks/products/pf/tutorial-page-section >}}

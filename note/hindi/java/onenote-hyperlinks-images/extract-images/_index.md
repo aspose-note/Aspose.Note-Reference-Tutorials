@@ -24,7 +24,7 @@ weight: 14
 - **कौन सी लाइब्रेरी अनुशंसित है?** Aspose.Note for Java  
 - **क्या मैं पासवर्ड‑सुरक्षित नोटबुक से छवियां निकाल सकता हूँ?** हाँ, Aspose.Note इसे सपोर्ट करता है।  
 - **क्या विकास के लिए लाइसेंस चाहिए?** परीक्षण के लिए एक मुफ्त ट्रायल काम करता है; उत्पादन के लिए लाइसेंस आवश्यक है।  
-- **कौन से Java संस्करण समर्थित हैं?** Java 8 और उसके बाद के (Java 15 सहित)।  
+- **कौन से Java संस्करण समर्थित हैं?** Java 8 और उसके बाद के (Java 8 सहित)।  
 - **निकालने में कितना समय लगता है?** सामान्य नोटबुक के लिए आमतौर पर कुछ सेकंड।
 
 ## OneNote से छवि निष्कर्षण क्या है?
@@ -41,7 +41,7 @@ weight: 14
 
 शुरू करने से पहले, सुनिश्चित करें कि आपके पास निम्नलिखित हैं:
 
-1. **Java Development Kit (JDK)** – सुनिश्चित करें कि आपके सिस्टम पर Java स्थापित है। आप इसे [website](https://www.oracle.com/java/technologies/javase-jdk15-downloads.html) से डाउनलोड और इंस्टॉल कर सकते हैं।
+1. **Java Development Kit (JDK)** – सुनिश्चित करें कि आपके सिस्टम पर Java स्थापित है। आप इसे [website](https://www.oracle.com/java/technologies/downloads/) से डाउनलोड और इंस्टॉल कर सकते हैं।
 
 2. **Aspose.Note Library** – Aspose.Note लाइब्रेरी को डाउनलोड करके अपने Java प्रोजेक्ट में शामिल करें। आप इसे [download link](https://releases.aspose.com/note/java/) से प्राप्त कर सकते हैं।
 
@@ -119,7 +119,7 @@ for (int i = 0; i < list.size(); i++) {
 ---
 
 **अंतिम अपडेट:** 2025-12-21  
-**परीक्षण किया गया:** Aspose.Note for Java 24.12  
+**परीक्षण किया गया:** Aspose.Note for Java 26.4  
 **लेखक:** Aspose  
 
 {{< /blocks/products/pf/tutorial-page-section >}}

@@ -112,8 +112,8 @@ A: Perpustakaan ini bekerja dengan Java 1.6 ke atas, termasuk Java 8, 11, da
 **Q: Can I manipulate other image properties (e.g., cropping, rotation) in OneNote?**  
 A: Ya. Aspose.Note menawarkan rangkaian lengkap API manipulasi gambar untuk mengubah ukuran, memotong, memutar, dan menyesuaikan kedalaman warna.
 
-**Q: Where can I get support for Aspose.Note?**  
-A: Anda dapat mencari bantuan di forum komunitas Aspose.Note [di sini](https://forum.aspose.com/c/note/28).
+**T: Apakah Aspose.Note kompatibel dengan semua versi Java?**
+J: Pustaka ini berfungsi dengan Java SE 7 dan yang lebih baru, termasuk Java 8, 11, dan rilis LTS yang lebih baru.
 
 ## Conclusion
 
@@ -121,9 +121,9 @@ Dengan mengikuti langkah‑langkah ini, Anda kini tahu cara **meningkatkan jpeg 
 
 ---
 
-**Last Updated:** 2026-03-14  
-**Tested With:** Aspose.Note for Java 24.12 (latest at time of writing)  
-**Author:** Aspose  
+**Terakhir Diperbarui:** 18-12-2025
+**Diuji Dengan:** Aspose.Note untuk Java 26.4 (terbaru pada saat penulisan)
+**Penulis:** Beranggapan  
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

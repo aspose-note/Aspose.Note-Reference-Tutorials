@@ -41,7 +41,7 @@ using System.Text;
 
 ```csharp
 var document = new Document();
-var page = new Page(document);
+var page = new Page();
 ```
 
 ## ステップ 2: ハイパーリンク付きの画像を挿入する
@@ -50,7 +50,7 @@ var page = new Page(document);
 
 ```csharp
 string imagePath = "path_to_your_image.jpg";
-var image = new Image(document, imagePath) { HyperlinkUrl = "http://例.com" };
+var image = new Image(imagePath) { HyperlinkUrl = "https://例.com" };
 ```
 
 ## ステップ 3: ページに画像を追加する

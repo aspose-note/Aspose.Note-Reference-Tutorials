@@ -26,7 +26,7 @@ Trong nhiều tình huống kinh doanh, bạn cần **lưu OneNote dưới dạn
 - **API nào quản lý phông chữ?** `DocumentFontsSubsystem` cho phép bạn định nghĩa phông chữ mặc định hoặc tải tệp/luồng phông chữ tùy chỉnh.  
 - **Có cần giấy phép cho môi trường sản xuất không?** Có, cần giấy phép thương mại của Aspose.Note cho việc sử dụng không phải bản dùng thử.  
 - **Có thể chuyển đổi nhiều tệp cùng lúc không?** Chắc chắn – chỉ cần lặp lại logic tải và lưu `Document`.  
-- **Yêu cầu phiên bản Java nào?** Java 15 trở lên (ví dụ sử dụng JDK 15).
+- **Yêu cầu phiên bản Java nào?** Java 8 trở lên (ví dụ sử dụng JDK 8).
 
 ## “Lưu OneNote dưới dạng PDF” với hệ thống phông chữ là gì?
 
@@ -51,7 +51,7 @@ Lưu OneNote dưới dạng PDF với hệ thống phông chữ có nghĩa là t
 
 ### 1. Java Development Kit (JDK)
 
-Đảm bảo bạn đã cài đặt Java Development Kit (JDK) trên hệ thống. Bạn có thể tải xuống từ [here](https://www.oracle.com/java/technologies/javase-jdk15-downloads.html) nếu chưa có.
+Đảm bảo bạn cài đặt Java Development Kit (JDK) trên hệ thống. Bạn có thể tải về từ [tại đây](https://www.oracle.com/java/technologies/downloads/) nếu chưa có.
 
 ### 2. Thư viện Aspose.Note for Java
 
@@ -194,9 +194,9 @@ Trong hướng dẫn này, chúng ta đã học cách **lưu OneNote dưới d�
 
 ---
 
-**Last Updated:** 2026-03-14  
-**Tested With:** Aspose.Note for Java 24.11  
-**Author:** Aspose  
+**Cập nhật lần cuối:** 2025-12-18  
+**Đã kiểm tra với:** Aspose.Note for Java 26.4  
+**Tác giả:** Aspose  
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

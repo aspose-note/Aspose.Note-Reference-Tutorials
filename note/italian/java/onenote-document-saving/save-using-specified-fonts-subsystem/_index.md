@@ -23,11 +23,11 @@ Now produce final content.{{< blocks/products/pf/main-wrap-class >}}
 In molti scenari aziendali è necessario **save OneNote as PDF** mantenendo l'aspetto esatto delle pagine originali. Aspose.Note for Java rende tutto questo semplice consentendo di controllare il sottosistema dei font durante la conversione. In questo tutorial illustreremo tre modi pratici per **convert OneNote to PDF**, coprendo come **load custom font files**, **specify a default PDF font**, e persino **use a font stream** quando il font non è disponibile sulla macchina di destinazione. Queste tecniche sono utili anche quando è necessario **convert .one to pdf** in pipeline automatizzate.
 
 ## Risposte rapide
-- **What does “save OneNote as PDF” mean?** Converte un file .one in un PDF mantenendo intatti layout e stile.  
-- **Which API handles fonts?** `DocumentFontsSubsystem` consente di definire un font predefinito o caricare un file/stream di font personalizzato.  
-- **Do I need a license for production?** Sì, è necessaria una licenza commerciale di Aspose.Note per l'uso non‑trial.  
-- **Can I convert multiple files in a batch?** Assolutamente – basta iterare sulla logica di caricamento e salvataggio del `Document`.  
-- **What Java version is required?** Java 15 o successiva (l'esempio utilizza JDK 15).
+- **Cosa significa “salvare OneNote come PDF”?** Converte un file .one in un PDF mantenendo intatti layout e stile.  
+- **Quale API gestisce i font?** `DocumentFontsSubsystem` consente di definire un font predefinito o caricare un file/stream di font personalizzato.  
+- **È necessaria una licenza per la produzione?** Sì, è richiesta una licenza commerciale di Aspose.Note per l’uso non‑trial.  
+- **Posso convertire più file in batch?** Assolutamente – basta iterare sulla logica di caricamento e salvataggio del `Document`.  
+- **Quale versione di Java è richiesta?** Java 8 o successiva (l’esempio utilizza JDK 8).
 
 ## Cos'è “save OneNote as PDF” con un sottosistema dei font?
 
@@ -52,7 +52,7 @@ Salvare OneNote come PDF con un sottosistema dei font significa che durante il p
 
 ### 1. Java Development Kit (JDK)
 
-Assicurati di avere Java Development Kit (JDK) installato sul tuo sistema. Puoi scaricarlo da [qui](https://www.oracle.com/java/technologies/javase-jdk15-downloads.html) se non lo hai già fatto.
+Assicurati di avere installato il Java Development Kit (JDK) sul tuo sistema. Puoi scaricarlo da [qui](https://www.oracle.com/java/technologies/downloads/) se non lo hai già fatto.
 
 ### 2. Libreria Aspose.Note per Java
 
@@ -195,8 +195,8 @@ In questo tutorial abbiamo imparato come **save OneNote as PDF** controllando il
 
 ---
 
-**Ultimo aggiornamento:** 2026-03-14  
-**Testato con:** Aspose.Note for Java 24.11  
+**Ultimo aggiornamento:** 2025-12-18  
+**Testato con:** Aspose.Note per Java 26.4  
 **Autore:** Aspose  
 
 {{< /blocks/products/pf/tutorial-page-section >}}

@@ -129,7 +129,7 @@ try {
 ---
 
 **Τελευταία Ενημέρωση:** 2025-12-18  
-**Δοκιμασμένο Με:** Aspose.Note 24.12 for Java  
+**Δοκιμασμένο Με:** Aspose.Note 26.4 for Java  
 **Συγγραφέας:** Aspose  
 
 {{< /blocks/products/pf/tutorial-page-section >}}

@@ -133,7 +133,7 @@ try {
 Δημιουργήστε ένα αντικείμενο `Image`. Το πρώτο όρισμα μπορεί να είναι `null` όταν παρέχετε ροή αργότερα, αλλά για απλότητα αναφερόμαστε εδώ στη διαδρομή του αρχείου και ορίζουμε την ευθυγράμμιση στη δεξιά πλευρά της σελίδας.
 
 ```java
-Image image = new Image(null, dataDir + "image1.jpg");
+Image image = new Image(dataDir + "image1.jpg");
 image.setAlignment(HorizontalAlignment.Right);
 ```
 
@@ -215,7 +215,7 @@ try {
 ---
 
 **Τελευταία ενημέρωση:** 2025-12-21  
-**Δοκιμασμένο με:** Aspose.Note for Java 24.12 (τελευταία έκδοση τη στιγμή της συγγραφής)  
+**Δοκιμασμένο με:** Aspose.Note for Java 26.4 (τελευταία έκδοση τη στιγμή της συγγραφής)  
 **Συγγραφέας:** Aspose  
 
 {{< /blocks/products/pf/tutorial-page-section >}}

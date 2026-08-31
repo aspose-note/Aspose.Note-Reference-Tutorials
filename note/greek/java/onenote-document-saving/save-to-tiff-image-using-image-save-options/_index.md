@@ -172,9 +172,9 @@ public static void SaveToTiffUsingCcitt3Compression() throws IOException {
 
 ---
 
-**Τελευταία ενημέρωση:** 2026-03-14  
-**Δοκιμή με:** Aspose.Note for Java 23.12 (τελευταία έκδοση τη στιγμή της συγγραφής)  
-**Συγγραφέας:** Aspose  
+**Last Updated:** 2025-12-17  
+**Tested With:** Aspose.Note for Java 26.4 (latest at time of writing)  
+**Author:** Aspose  
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

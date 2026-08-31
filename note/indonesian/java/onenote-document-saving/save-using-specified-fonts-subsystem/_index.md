@@ -22,12 +22,12 @@ weight: 22
 
 Dalam banyak skenario bisnis Anda perlu **save OneNote as PDF** sambil mempertahankan tampilan persis halaman asli. Aspose.Note untuk Java mempermudah hal ini dengan memungkinkan Anda mengontrol subsystem font selama konversi. Pada tutorial ini kami akan membahas tiga cara praktis untuk **convert OneNote to PDF**, mencakup cara **load custom font files**, **specify a default PDF font**, dan bahkan **use a font stream** ketika font tidak tersedia di mesin target. Teknik ini juga membantu ketika Anda perlu **convert .one to pdf** dalam pipeline otomatis.
 
-## Quick Answers
-- **What does “save OneNote as PDF” mean?** Itu mengonversi file .one menjadi PDF sambil menjaga tata letak dan gaya tetap utuh.  
-- **Which API handles fonts?** `DocumentFontsSubsystem` memungkinkan Anda mendefinisikan font default atau memuat file/stream font khusus.  
-- **Do I need a license for production?** Ya, lisensi komersial Aspose.Note diperlukan untuk penggunaan non‑trial.  
-- **Can I convert multiple files in a batch?** Tentu – cukup lakukan loop pada logika pemuatan dan penyimpanan `Document`.  
-- **What Java version is required?** Java 15 atau lebih baru (contoh menggunakan JDK 15).
+## Jawaban Cepat
+- **Apa arti “simpan OneNote sebagai PDF”?** Itu mengonversi file .one menjadi PDF sambil menjaga tata letak dan gaya tetap utuh.  
+- **API mana yang menangani font?** `DocumentFontsSubsystem` memungkinkan Anda menentukan font default atau memuat file/stream font khusus.  
+- **Apakah saya memerlukan lisensi untuk produksi?** Ya, lisensi komersial Aspose.Note diperlukan untuk penggunaan non‑trial.  
+- **Bisakah saya mengonversi beberapa file sekaligus?** Tentu – cukup lakukan perulangan pada logika pemuatan dan penyimpanan `Document`.  
+- **Versi Java apa yang dibutuhkan?** Java 8 atau lebih baru (contoh menggunakan JDK 8).
 
 ## What is “save OneNote as PDF” with a fonts subsystem?
 
@@ -52,7 +52,7 @@ Menyimpan OneNote sebagai PDF dengan subsystem font berarti selama proses konver
 
 ### 1. Java Development Kit (JDK)
 
-Pastikan Anda telah menginstal Java Development Kit (JDK) di sistem Anda. Anda dapat mengunduhnya dari [here](https://www.oracle.com/java/technologies/javase-jdk15-downloads.html) jika belum.
+Pastikan Anda telah menginstal Java Development Kit (JDK) di sistem Anda. Anda dapat mengunduhnya dari [here](https://www.oracle.com/java/technologies/downloads/) jika belum.
 
 ### 2. Aspose.Note for Java Library
 
@@ -195,9 +195,9 @@ Pada tutorial ini kami mempelajari cara **save OneNote as PDF** sambil mengontro
 
 ---
 
-**Last Updated:** 2026-03-14  
-**Tested With:** Aspose.Note for Java 24.11  
-**Author:** Aspose  
+**Terakhir Diperbarui:** 2025-12-18  
+**Diuji Dengan:** Aspose.Note untuk Java 26.4  
+**Penulis:** Aspose  
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

@@ -130,7 +130,7 @@ try {
 ---
 
 **最後更新：** 2025-12-18  
-**測試環境：** Aspose.Note 24.12 for Java  
+**測試環境：** Aspose.Note 26.4 for Java  
 **作者：** Aspose  
 
 {{< /blocks/products/pf/tutorial-page-section >}}

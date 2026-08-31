@@ -121,7 +121,7 @@ A5: คุณสามารถเยี่ยมชมฟอรั่ม Aspose
 ---
 
 **อัปเดตล่าสุด:** 2025-12-14  
-**ทดสอบด้วย:** Aspose.Note for Java 24.12  
+**ทดสอบด้วย:** Aspose.Note for Java 26.4  
 **ผู้เขียน:** Aspose  
 
 {{< /blocks/products/pf/tutorial-page-section >}}

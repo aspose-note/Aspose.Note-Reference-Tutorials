@@ -87,7 +87,7 @@ outline.setHorizontalOffset(0);
 Laden Sie das Bild, das Sie einbetten möchten, und richten Sie es an der rechten Seite der Seite aus. Hier fügen wir tatsächlich **ein Bild zu OneNote hinzu**.
 
 ```java
-Image image = new Image(null, dataDir + "Input.jpg");
+Image image = new Image(dataDir + "Input.jpg");
 image.setAlignment(HorizontalAlignment.Right);
 ```
 
@@ -150,7 +150,7 @@ A5: Ja, Sie können eine temporäre Lizenz [hier](https://purchase.aspose.com/te
 ---
 
 **Zuletzt aktualisiert:** 2025-12-20  
-**Getestet mit:** Aspose.Note für Java 24.12 (neueste)  
+**Getestet mit:** Aspose.Note für Java 26.4 (neueste)  
 **Autor:** Aspose  
 
 {{< /blocks/products/pf/tutorial-page-section >}}

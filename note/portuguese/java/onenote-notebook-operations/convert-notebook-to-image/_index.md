@@ -21,7 +21,7 @@ Neste tutorial, exploraremos como converter um notebook em uma imagem no OneNote
 
 Antes de começarmos, certifique-se de ter o seguinte:
 
-1.  Java Development Kit (JDK): Certifique-se de ter o Java instalado em seu sistema. Você pode baixar e instalar a versão mais recente do[local na rede Internet](https://www.oracle.com/java/technologies/javase-jdk15-downloads.html).
+1.  Java Development Kit (JDK): Certifique-se de ter o Java instalado em seu sistema. Você pode baixar e instalar a versão mais recente do[local na rede Internet](https://www.oracle.com/java/technologies/downloads/).
 
 2.  Biblioteca Aspose.Note para Java: Baixe e inclua a biblioteca Aspose.Note para Java em seu projeto. Você pode obter a biblioteca no[Aspor site](https://releases.aspose.com/note/java/).
 

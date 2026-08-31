@@ -85,7 +85,7 @@ Page page = oneFile.getFirstChild();
 Töltse be azt a képet, amelyet be szeretne szúrni a OneNote dokumentumba.
 
 ```java
-Image image = new Image(oneFile, dataDir + "Input.jpg");
+Image image = new Image(dataDir + "Input.jpg");
 ```
 
 ## 4. lépés: Kép attribútumok testreszabása (opcionális)
@@ -149,7 +149,7 @@ Technikai támogatást az Aspose.Note for Java-hoz a [forum](https://forum.aspos
 ---
 
 **Last Updated:** 2025-12-21  
-**Tested With:** Aspose.Note for Java 24.10  
+**Tested With:** Aspose.Note for Java 26.4  
 **Author:** Aspose  
 
 {{< /blocks/products/pf/tutorial-page-section >}}

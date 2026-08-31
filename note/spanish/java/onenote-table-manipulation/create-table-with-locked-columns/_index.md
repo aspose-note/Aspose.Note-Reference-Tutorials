@@ -87,7 +87,7 @@ doc.save(dataDir);
 En este tutorial, exploramos el proceso de utilización de Aspose.Note para Java para mejorar su experiencia con OneNote mediante la creación de tablas con columnas bloqueadas. Esta funcionalidad agrega una nueva capa de organización y estructura a sus notas.
 ## Preguntas frecuentes
 ### ¿Aspose.Note para Java es compatible con todas las versiones de Java?
-Sí, Aspose.Note para Java es compatible con Java 6 y versiones posteriores.
+Sí, Aspose.Note para Java es compatible con Java SE 7 y versiones posteriores.
 ### ¿Puedo personalizar aún más la apariencia de la mesa?
 ¡Absolutamente! Aspose.Note para Java ofrece amplias opciones para personalizar tablas, como ajustar bordes, espaciado de celdas y más.
 ### ¿Hay una versión de prueba disponible antes de comprar?

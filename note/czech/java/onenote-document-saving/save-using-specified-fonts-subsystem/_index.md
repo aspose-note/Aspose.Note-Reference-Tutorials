@@ -24,8 +24,8 @@ V mnoha obchodních scénářích potřebujete **uložit OneNote jako PDF** a za
 - **Co znamená „save OneNote as PDF“?** Převádí soubor .one do PDF a zachovává rozvržení i stylování.  
 - **Které API pracuje s písmy?** `DocumentFontsSubsystem` vám umožní definovat výchozí písmo nebo načíst vlastní soubor/proud písma.  
 - **Potřebuji licenci pro produkční použití?** Ano, pro ne‑zkušební použití je vyžadována komerční licence Aspose.Note.  
-- **Mohu převádět více souborů najednou?** Ano – stačí v cyklu provádět načítání a ukládání `Document`.  
-- **Jaká verze Javy je požadována?** Java 15 nebo novější (příklad používá JDK 15).
+- **Mohu převádět více souborů najednou?** Ano – stačí smyčkovat načítání a ukládání `Document`.  
+- **Jaká verze Javy je požadována?** Java 8 nebo novější (příklad používá JDK 8).
 
 ## Co je „save OneNote as PDF“ s podsystémem písem?
 
@@ -50,7 +50,7 @@ Uložení OneNote jako PDF s podsystémem písem znamená, že během konverze A
 
 ### 1. Java Development Kit (JDK)
 
-Ujistěte se, že máte na svém systému nainstalovaný Java Development Kit (JDK). Můžete si jej stáhnout z [zde](https://www.oracle.com/java/technologies/javase-jdk15-downloads.html), pokud jej ještě nemáte.
+Ujistěte se, že máte nainstalovaný Java Development Kit (JDK). Můžete si jej stáhnout z [here](https://www.oracle.com/java/technologies/downloads/), pokud jej ještě nemáte.
 
 ### 2. Knihovna Aspose.Note pro Java
 
@@ -193,8 +193,8 @@ V tomto tutoriálu jsme se naučili, jak **uložit OneNote jako PDF** a zárove�
 
 ---
 
-**Poslední aktualizace:** 2026-03-14  
-**Testováno s:** Aspose.Note for Java 24.11  
+**Poslední aktualizace:** 2025-12-18  
+**Testováno s:** Aspose.Note for Java 26.4  
 **Autor:** Aspose  
 
 {{< /blocks/products/pf/tutorial-page-section >}}

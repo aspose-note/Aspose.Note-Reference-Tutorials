@@ -23,7 +23,7 @@ En este tutorial, le guiaremos a través de **cómo extraer imágenes** de un do
 - **¿Qué biblioteca se recomienda?** Aspose.Note para Java  
 - **¿Puedo extraer imágenes de un cuaderno protegido con contraseña?** Sí, Aspose.Note lo admite.  
 - **¿Necesito una licencia para el desarrollo?** Una prueba gratuita funciona para pruebas; se requiere una licencia para producción.  
-- **¿Qué versiones de Java son compatibles?** Java 8 y posteriores (incluido Java 15).  
+- **¿Qué versiones de Java son compatibles?** Java 8 y posteriores (incluido Java 8).  
 - **¿Cuánto tiempo lleva la extracción?** Normalmente unos pocos segundos para un cuaderno estándar.
 
 ## ¿Qué es la extracción de imágenes de OneNote?
@@ -38,7 +38,7 @@ Extraer imágenes significa localizar programáticamente cada foto incrustada en
 
 Antes de comenzar, asegúrese de contar con lo siguiente:
 
-1. **Java Development Kit (JDK)** – Asegúrese de que tiene Java instalado en su sistema. Puede descargarlo e instalarlo desde el [website](https://www.oracle.com/java/technologies/javase-jdk15-downloads.html).
+1. **Java Development Kit (JDK)** – Asegúrese de que tiene Java instalado en su sistema. Puede descargarlo e instalarlo desde el [website](https://www.oracle.com/java/technologies/downloads/).
 
 2. **Aspose.Note Library** – Descargue e incluya la biblioteca Aspose.Note en su proyecto Java. Puede obtenerla desde el [download link](https://releases.aspose.com/note/java/).
 
@@ -116,7 +116,7 @@ R: Sí, también puede extraer texto, archivos adjuntos y otros objetos incrusta
 ---
 
 **Última actualización:** 2025-12-21  
-**Probado con:** Aspose.Note para Java 24.12  
+**Probado con:** Aspose.Note para Java 26.4  
 **Autor:** Aspose  
 
 {{< /blocks/products/pf/tutorial-page-section >}}

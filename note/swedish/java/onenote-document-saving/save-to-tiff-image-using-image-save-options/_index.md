@@ -184,9 +184,9 @@ Du har nu ett komplett **java tiff conversion**‑verktyg som låter dig spara O
 
 ---
 
-**Senast uppdaterad:** 2026-03-14  
-**Testat med:** Aspose.Note för Java 23.12 (senaste vid skrivtillfället)  
-**Författare:** Aspose  
+**Last Updated:** 2025-12-17  
+**Tested With:** Aspose.Note for Java 26.4 (latest at time of writing)  
+**Author:** Aspose  
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

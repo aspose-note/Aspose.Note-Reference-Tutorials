@@ -23,7 +23,7 @@ V tomto tutoriálu vás provedeme **jak extrahovat obrázky** z dokumentu OneNot
 - **Jaká knihovna je doporučena?** Aspose.Note for Java  
 - **Mohu extrahovat obrázky z notebooku chráněného heslem?** Ano, Aspose.Note to podporuje.  
 - **Potřebuji licenci pro vývoj?** Bezplatná zkušební verze funguje pro testování; licence je vyžadována pro produkci.  
-- **Které verze Javy jsou podporovány?** Java 8 a novější (včetně Java 15).  
+- **Které verze Javy jsou podporovány?** Java 8 a novější (včetně Java 8).  
 - **Jak dlouho trvá extrakce?** Obvykle několik sekund pro standardní notebook.
 
 ## Co je extrakce obrázků z OneNote?
@@ -38,7 +38,7 @@ Extrakce obrázků znamená programově najít každý obrázek vložený v soub
 
 Před začátkem se ujistěte, že máte následující:
 
-1. **Java Development Kit (JDK)** – Ujistěte se, že máte Javu nainstalovanou ve svém systému. Můžete si ji stáhnout a nainstalovat z [webové stránky](https://www.oracle.com/java/technologies/javase-jdk15-downloads.html).
+1. **Java Development Kit (JDK)** – Ujistěte se, že máte Javu nainstalovanou ve svém systému. Můžete si ji stáhnout a nainstalovat z [webové stránky](https://www.oracle.com/java/technologies/downloads/).
 
 2. **Aspose.Note Library** – Stáhněte a zahrňte knihovnu Aspose.Note do svého Java projektu. Můžete ji získat z [odkazu ke stažení](https://releases.aspose.com/note/java/).
 
@@ -116,7 +116,7 @@ A: Ano, můžete také extrahovat text, přílohy a další vložené objekty.
 ---
 
 **Poslední aktualizace:** 2025-12-21  
-**Testováno s:** Aspose.Note for Java 24.12  
+**Testováno s:** Aspose.Note for Java 26.4  
 **Autor:** Aspose  
 
 {{< /blocks/products/pf/tutorial-page-section >}}

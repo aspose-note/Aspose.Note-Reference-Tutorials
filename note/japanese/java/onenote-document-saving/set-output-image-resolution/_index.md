@@ -105,7 +105,7 @@ A: もちろんです。品質要件に合わせて任意の整数値を設定�
 A: はい。`SaveFormat` 列挙体には PNG、BMP、GIF などが含まれます。`SaveFormat.Jpeg` を目的の形式に置き換えてください。
 
 **Q: Aspose.Note はすべての Java バージョンと互換性がありますか？**  
-A: ライブラリは Java 1.6 以降、Java 8、11、その他の LTS リリースで動作します。
+A: ライブラリは Java SE 7 以降、Java 8、11、そして新しい LTS リリースでも動作します。
 
 **Q: OneNote 内の画像プロパティ（トリミングや回転など）を操作できますか？**  
 A: できます。Aspose.Note はリサイズ、トリミング、回転、色深度調整など、画像操作用の豊富な API を提供しています。
@@ -119,8 +119,8 @@ A: Aspose.Note コミュニティフォーラム [here](https://forum.aspose.com
 
 ---
 
-**最終更新日:** 2026-03-14  
-**テスト環境:** Aspose.Note for Java 24.12（執筆時点での最新）  
+**最終更新日:** 2025-12-18  
+**テスト環境:** Aspose.Note for Java 26.4（執筆時点での最新）  
 **作者:** Aspose  
 
 {{< /blocks/products/pf/tutorial-page-section >}}

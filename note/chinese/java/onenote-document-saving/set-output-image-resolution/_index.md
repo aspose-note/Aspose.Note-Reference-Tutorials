@@ -104,8 +104,8 @@ A: 当然可以。您可以设置满足质量需求的任意整数值——只�
 **Q: Aspose.Note 是否支持除 JPEG 之外的图像格式？**  
 A: 是的。`SaveFormat` 枚举包括 PNG、BMP、GIF 等。将 `SaveFormat.Jpeg` 替换为所需的格式即可。
 
-**Q: Aspose.Note 是否兼容所有 Java 版本？**  
-A: 该库支持 Java 1.6 及更高版本，包括 Java 8、11 以及更新的 LTS 版本。
+**Q: Aspose.Note 与所有 Java 版本兼容吗？**  
+A: 该库兼容 Java SE 7 及以上版本，包括 Java 8、11 以及更新的 LTS 发行版。
 
 **Q: 我可以在 OneNote 中操作其他图像属性（例如裁剪、旋转）吗？**  
 A: 可以。Aspose.Note 提供完整的图像操作 API，支持调整大小、裁剪、旋转以及颜色深度等。
@@ -119,9 +119,9 @@ A: 您可以在 Aspose.Note 社区论坛[这里](https://forum.aspose.com/c/note
 
 ---
 
-**最后更新:** 2026-03-14  
-**测试环境:** Aspose.Note for Java 24.12 (latest at time of writing)  
-**作者:** Aspose  
+**Last Updated:** 2025-12-18  
+**Tested With:** Aspose.Note for Java 26.4（撰写时的最新版本）  
+**Author:** Aspose  
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

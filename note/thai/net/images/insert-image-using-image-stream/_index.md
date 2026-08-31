@@ -54,8 +54,8 @@ Aspose.Note.Page page = new Aspose.Note.Page(doc);
 
 ## ขั้นตอนที่ 3: เริ่มต้นออบเจ็กต์ Outline และ OutlineElement
 ```csharp
-Outline outline1 = new Outline(doc);
-OutlineElement outlineElem1 = new OutlineElement(doc);
+Outline outline1 = new Outline();
+OutlineElement outlineElem1 = new OutlineElement();
 ```
 เราสร้างอินสแตนซ์ของคลาส Outline และ OutlineElement เพื่อจัดโครงสร้างเนื้อหาของเราภายในเพจ
 

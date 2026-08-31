@@ -135,8 +135,8 @@ A: 提供免費試用版供評估，但在生產環境部署時需購買商業�
 
 ---
 
-**最後更新：** 2026-03-14  
-**測試環境：** Aspose.Note for Java 23.12  
+**最後更新：** 2025-12-17  
+**測試環境：** Aspose.Note for Java 26.4  
 **作者：** Aspose  
 
 {{< /blocks/products/pf/tutorial-page-section >}}

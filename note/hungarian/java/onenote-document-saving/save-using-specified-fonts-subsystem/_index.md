@@ -20,11 +20,11 @@ weight: 22
 ## Bevezetés
 
 ## Gyors válaszok
-- **Mi jelent a “save OneNote as PDF”?** Átalakít egy .one fájlt PDF-be, miközben a elrendezést és a stílusokat érintetlenül hagyja.  
-- **Melyik API kezeli a betűkészleteket?** A `DocumentFontsSubsystem` lehetővé teszi alapértelmezett betűtípus meghatározását vagy egy egyedi betűkészlet fájl/folyam betöltését.  
-- **Szükségem van licencre a termeléshez?** Igen, egy kereskedelmi Aspose.Note licenc szükséges a nem‑próba használathoz.  
-- **Konvertálhatok több fájlt egy kötegben?** Természetesen – csak ciklusba kell helyezni a `Document` betöltési és mentési logikát.  
-- **Milyen Java verzió szükséges?** Java 15 vagy újabb (a példa JDK 15‑öt használ).
+- **Mi jelent a “save OneNote as PDF”?** Egy .one fájlt PDF-be konvertál, miközben a elrendezést és a stílusokat érintetlenül hagyja.  
+- **Melyik API kezeli a betűkészleteket?** A `DocumentFontsSubsystem` lehetővé teszi alapértelmezett betűkészlet meghatározását vagy egyedi betűkészlet fájl/stream betöltését.  
+- **Szükség van licencre a termeléshez?** Igen, kereskedelmi Aspose.Note licenc szükséges a nem‑próbaverzió használatához.  
+- **Több fájlt konvertálhatok egyszerre?** Természetesen – csak ciklusba kell tenni a `Document` betöltési és mentési logikáját.  
+- **Milyen Java verzió szükséges?** Java 8 vagy újabb (a példa JDK 8-öt használ).
 
 ## Mi az a “save OneNote as PDF” betűkészlet alrendszerrel?
 
@@ -49,7 +49,7 @@ A OneNote PDF-be mentése betűkészlet alrendszerrel azt jelenti, hogy az átal
 
 ### 1. Java Development Kit (JDK)
 
-Győződjön meg róla, hogy a rendszerén telepítve van a Java Development Kit (JDK). Letöltheti [innen](https://www.oracle.com/java/technologies/javase-jdk15-downloads.html), ha még nincs.
+Győződjön meg róla, hogy a rendszerén telepítve van a Java Development Kit (JDK). Letöltheti [innen](https://www.oracle.com/java/technologies/downloads/), ha még nincs.
 
 ### 2. Aspose.Note for Java könyvtár
 
@@ -192,8 +192,8 @@ Ebben az útmutatóban megtanultuk, hogyan **save OneNote as PDF** miközben a b
 
 ---
 
-**Utolsó frissítés:** 2026-03-14  
-**Tesztelve a következővel:** Aspose.Note for Java 24.11  
+**Legutóbb frissítve:** 2025-12-18  
+**Tesztelve:** Aspose.Note for Java 26.4  
 **Szerző:** Aspose  
 
 {{< /blocks/products/pf/tutorial-page-section >}}

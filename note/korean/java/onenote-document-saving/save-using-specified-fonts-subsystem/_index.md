@@ -24,7 +24,7 @@ weight: 22
 - **어떤 API가 글꼴을 처리하나요?** `DocumentFontsSubsystem`을 사용하면 기본 글꼴을 정의하거나 사용자 정의 글꼴 파일/스트림을 로드할 수 있습니다.  
 - **프로덕션에서 라이선스가 필요합니까?** 예, 비시험용으로는 상업용 Aspose.Note 라이선스가 필요합니다.  
 - **여러 파일을 배치로 변환할 수 있나요?** 물론입니다 – `Document` 로드 및 저장 로직을 반복하면 됩니다.  
-- **필요한 Java 버전은?** Java 15 이상 (예제는 JDK 15 사용).
+- **필요한 Java 버전은?** Java 8 이상 (예제는 JDK 8 사용).
 
 ## What is “save OneNote as PDF” with a fonts subsystem?
 
@@ -48,6 +48,7 @@ weight: 22
 ## Prerequisites
 
 ### 1. Java Development Kit (JDK)
+시스템에 Java Development Kit (JDK)이 설치되어 있는지 확인하십시오. 아직 설치하지 않았다면 [여기](https://www.oracle.com/java/technologies/downloads/)에서 다운로드할 수 있습니다.
 
 시스템에 Java Development Kit (JDK)가 설치되어 있는지 확인하세요. 아직 설치하지 않으셨다면 [here](https://www.oracle.com/java/technologies/javase-jdk15-downloads.html)에서 다운로드할 수 있습니다.
 
@@ -192,9 +193,9 @@ A: 예, Aspose 웹사이트에서 무료 체험판을 다운로드할 수 있습
 
 ---
 
-**Last Updated:** 2026-03-14  
-**Tested With:** Aspose.Note for Java 24.11  
-**Author:** Aspose  
+**마지막 업데이트:** 2025-12-18  
+**테스트 환경:** Aspose.Note for Java 26.4  
+**작성자:** Aspose  
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

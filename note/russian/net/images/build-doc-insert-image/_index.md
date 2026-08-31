@@ -61,7 +61,7 @@ Aspose.Note.Page page = new Aspose.Note.Page(doc);
 ## Шаг 3. Инициализация объекта структуры
 
 ```csharp
-Outline outline = new Outline(doc);
+Outline outline = new Outline();
 ```
 
 `Outline`Класс представляет собой узел схемы в иерархии документов. Мы создаем новый объект структуры для структурирования нашего документа.
@@ -69,7 +69,7 @@ Outline outline = new Outline(doc);
 ## Шаг 4. Инициализация объекта OutlineElement
 
 ```csharp
-OutlineElement outlineElem = new OutlineElement(doc);
+OutlineElement outlineElem = new OutlineElement();
 ```
 
  Ан`OutlineElement` представляет элемент внутри контура. Здесь мы создаем новый элемент структуры, чтобы добавить контент в наш документ.

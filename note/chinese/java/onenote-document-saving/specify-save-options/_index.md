@@ -142,7 +142,7 @@ A5: 是的，商业许可证允许您在生产环境中使用该库。
 ---
 
 **Last Updated:** 2025-12-18  
-**Tested With:** Aspose.Note for Java 24.12 (latest)  
+**Tested With:** Aspose.Note for Java 26.4 (latest)  
 **Author:** Aspose  
 
 {{< /blocks/products/pf/tutorial-page-section >}}

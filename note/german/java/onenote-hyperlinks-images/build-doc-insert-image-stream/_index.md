@@ -132,7 +132,7 @@ try {
 Erzeugen Sie ein `Image`‑Objekt. Das erste Argument kann `null` sein, wenn Sie später einen Stream bereitstellen, aber zur Vereinfachung referenzieren wir hier den Dateipfad und setzen die Ausrichtung auf die rechte Seite der Seite.
 
 ```java
-Image image = new Image(null, dataDir + "image1.jpg");
+Image image = new Image(dataDir + "image1.jpg");
 image.setAlignment(HorizontalAlignment.Right);
 ```
 
@@ -214,7 +214,7 @@ A5: Ja, Sie können eine kostenlose Testversion von der Aspose‑Release‑Seite
 ---
 
 **Zuletzt aktualisiert:** 2025-12-21  
-**Getestet mit:** Aspose.Note for Java 24.12 (neueste zum Zeitpunkt der Erstellung)  
+**Getestet mit:** Aspose.Note for Java 26.4 (neueste zum Zeitpunkt der Erstellung)  
 **Autor:** Aspose  
 
 {{< /blocks/products/pf/tutorial-page-section >}}

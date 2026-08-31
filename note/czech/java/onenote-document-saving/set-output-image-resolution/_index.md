@@ -107,7 +107,7 @@ A: Rozhodně. Můžete nastavit libovolnou celočíselnou hodnotu, která splňu
 A: Ano. Výčtový typ `SaveFormat` zahrnuje PNG, BMP, GIF a další. Vyměňte `SaveFormat.Jpeg` za požadovaný formát.
 
 **Q: Je Aspose.Note kompatibilní se všemi verzemi Javy?**  
-A: Knihovna funguje s Java 1.6 a novějšími, včetně Java 8, 11 a novějších LTS verzí.
+A: Knihovna funguje s Java SE 7 a novějšími, včetně Java 8, 11 a dalších LTS verzí.
 
 **Q: Mohu v OneNote manipulovat s dalšími vlastnostmi obrázku (např. oříznutí, otočení)?**  
 A: Ano. Aspose.Note nabízí kompletní sadu API pro manipulaci s obrázky, včetně změny velikosti, oříznutí, otáčení a úpravy barevné hloubky.
@@ -121,8 +121,8 @@ Po provedení těchto kroků nyní víte, jak **increase jpeg dpi** a efektivně
 
 ---
 
-**Poslední aktualizace:** 2026-03-14  
-**Testováno s:** Aspose.Note for Java 24.12 (nejnovější v době psaní)  
+**Poslední aktualizace:** 2025-12-18  
+**Testováno s:** Aspose.Note for Java 26.4 (nejnovější v době psaní)  
 **Autor:** Aspose  
 
 {{< /blocks/products/pf/tutorial-page-section >}}

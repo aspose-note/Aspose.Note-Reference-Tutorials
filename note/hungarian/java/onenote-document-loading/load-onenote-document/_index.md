@@ -103,7 +103,7 @@ V: Kérj ideiglenes értékelési licencet [ide](https://purchase.aspose.com/tem
 ---
 
 **Utolsó frissítés:** 2025-12-09  
-**Tesztelve ezzel:** Aspose.Note for Java 24.12 (latest)  
+**Tesztelve ezzel:** Aspose.Note for Java 26.4 (latest)  
 **Szerző:** Aspose  
 
 {{< /blocks/products/pf/tutorial-page-section >}}

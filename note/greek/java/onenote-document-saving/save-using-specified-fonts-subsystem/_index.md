@@ -33,10 +33,10 @@ Now produce final content.{{< blocks/products/pf/main-wrap-class >}}
 
 ## Γρήγορες Απαντήσεις
 - **Τι σημαίνει “save OneNote as PDF”;** Μετατρέπει ένα αρχείο .one σε PDF διατηρώντας τη διάταξη και το στυλ αμετάβλητα.  
-- **Ποιο API διαχειρίζεται τις γραμματοσειρές;** `DocumentFontsSubsystem` σας επιτρέπει να ορίσετε προεπιλεγμένη γραμματοσειρά ή να φορτώσετε προσαρμοσμένο αρχείο/ροή γραμματοσειράς.  
-- **Χρειάζομαι άδεια για παραγωγή;** Ναι, απαιτείται εμπορική άδεια Aspose.Note για χρήση εκτός δοκιμής.  
-- **Μπορώ να μετατρέψω πολλαπλά αρχεία σε batch;** Απόλυτα – απλώς κάντε βρόχο πάνω στη λογική φόρτωσης και αποθήκευσης του `Document`.  
-- **Ποια έκδοση Java απαιτείται;** Java 15 ή νεότερη (το παράδειγμα χρησιμοποιεί JDK 15).
+- **Ποιο API διαχειρίζεται τις γραμματοσειρές;** Το `DocumentFontsSubsystem` σας επιτρέπει να ορίσετε προεπιλεγμένη γραμματοσειρά ή να φορτώσετε προσαρμοσμένο αρχείο/ροή γραμματοσειράς.  
+- **Χρειάζομαι άδεια για παραγωγική χρήση;** Ναι, απαιτείται εμπορική άδεια Aspose.Note για χρήση εκτός δοκιμής.  
+- **Μπορώ να μετατρέψω πολλά αρχεία σε batch;** Απόλυτα – απλώς κάντε βρόχο πάνω στη λογική φόρτωσης και αποθήκευσης του `Document`.  
+- **Ποια έκδοση Java απαιτείται;** Java 8 ή νεότερη (το παράδειγμα χρησιμοποιεί JDK 8).
 
 ## Τι είναι “save OneNote as PDF” με υποσύστημα γραμματοσειρών;
 
@@ -61,7 +61,7 @@ Now produce final content.{{< blocks/products/pf/main-wrap-class >}}
 
 ### 1. Java Development Kit (JDK)
 
-Βεβαιωθείτε ότι έχετε εγκατεστημένο το Java Development Kit (JDK) στο σύστημά σας. Μπορείτε να το κατεβάσετε από [εδώ](https://www.oracle.com/java/technologies/javase-jdk15-downloads.html) αν δεν το έχετε ήδη.
+Βεβαιωθείτε ότι έχετε εγκατεστημένο το Java Development Kit (JDK) στο σύστημά σας. Μπορείτε να το κατεβάσετε από [εδώ](https://www.oracle.com/java/technologies/downloads/) αν δεν το έχετε ήδη.
 
 ### 2. Aspose.Note for Java Library
 
@@ -204,9 +204,9 @@ public static void SaveUsingDocumentFontsSubsystemWithDefaultFontFromStream() th
 
 ---
 
-**Last Updated:** 2026-03-14  
-**Tested With:** Aspose.Note for Java 24.11  
-**Author:** Aspose  
+**Τελευταία ενημέρωση:** 2025-12-18  
+**Δοκιμασμένο με:** Aspose.Note for Java 26.4  
+**Συγγραφέας:** Aspose  
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

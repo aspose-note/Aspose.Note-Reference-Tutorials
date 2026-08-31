@@ -21,7 +21,7 @@ Dans ce didacticiel, nous allons explorer comment convertir un bloc-notes en ima
 
 Avant de commencer, assurez-vous d'avoir les éléments suivants :
 
-1.  Kit de développement Java (JDK) : assurez-vous que Java est installé sur votre système. Vous pouvez télécharger et installer la dernière version à partir du[site web](https://www.oracle.com/java/technologies/javase-jdk15-downloads.html).
+1.  Kit de développement Java (JDK) : assurez-vous que Java est installé sur votre système. Vous pouvez télécharger et installer la dernière version à partir du[site web](https://www.oracle.com/java/technologies/downloads/).
 
 2.  Bibliothèque Aspose.Note pour Java : téléchargez et incluez la bibliothèque Aspose.Note pour Java dans votre projet. Vous pouvez obtenir la bibliothèque auprès du[Site Aspose](https://releases.aspose.com/note/java/).
 

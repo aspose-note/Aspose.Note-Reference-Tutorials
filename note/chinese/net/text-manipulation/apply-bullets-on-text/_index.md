@@ -41,7 +41,7 @@ Aspose.Note.Document doc = new Aspose.Note.Document();
 //初始化Page类对象
 Aspose.Note.Page page = new Aspose.Note.Page(doc);
 //初始化 Outline 类对象
-Outline outline = new Outline(doc);
+Outline outline = new Outline();
 ```
 ## 步骤 3：设置默认文本样式
 ```csharp
@@ -51,8 +51,8 @@ ParagraphStyle defaultStyle = new ParagraphStyle { FontColor = Color.Black, Font
 ## 第 4 步：使用项目符号创建大纲元素
 ```csharp
 //初始化 OutlineElement 类对象并应用项目符号
-OutlineElement outlineElem1 = new OutlineElement(doc) { NumberList = new NumberList("*", "Arial", 10) };
-RichText text1 = new RichText(doc) { Text = "First", ParagraphStyle = defaultStyle };
+OutlineElement outlineElem1 = new OutlineElement() { NumberList = new NumberList("*", "Arial", 10) };
+RichText text1 = new RichText() { Text = "First", ParagraphStyle = defaultStyle };
 outlineElem1.AppendChildLast(text1);
 //对其他轮廓元素重复此操作
 ```

@@ -111,7 +111,7 @@ Bạn đã học **cách xuất onenote** bằng cách tải tệp OneNote, cấ
 ---
 
 **Cập nhật lần cuối:** 2025-12-17  
-**Kiểm tra với:** Aspose.Note 24.12 cho Java  
+**Kiểm tra với:** Aspose.Note 26.4 cho Java  
 **Tác giả:** Aspose  
 
 ---

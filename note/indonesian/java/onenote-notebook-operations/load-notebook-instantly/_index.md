@@ -41,7 +41,7 @@ Instant loading onenote adalah fitur dari kelas `NotebookLoadOptions` yang membe
 
 Sebelum kita mulai, pastikan Anda memiliki prasyarat berikut:
 
-1. **Java Development Kit (JDK):** Pastikan Anda memiliki Java terpasang di sistem Anda. Anda dapat mengunduh dan menginstal JDK terbaru dari [here](https://www.oracle.com/java/technologies/javase-jdk15-downloads.html).
+1. **Java Development Kit (JDK):** Pastikan Anda memiliki Java terpasang di sistem Anda. Anda dapat mengunduh dan menginstal JDK terbaru dari [here](https://www.oracle.com/java/technologies/downloads/).
 
 2. **Aspose.Note for Java:** Anda perlu memiliki pustaka Aspose.Note untuk Java. Anda dapat memperolehnya dari [download page](https://releases.aspose.com/note/java/).
 
@@ -116,7 +116,7 @@ A4: Ya, Anda dapat mengunduh versi percobaan gratis dari [here](https://releases
 A5: Anda dapat meminta lisensi sementara dari [temporary license page](https://purchase.aspose.com/temporary-license/).
 
 **Terakhir Diperbarui:** 2025-12-31  
-**Diuji Dengan:** Aspose.Note for Java 24.12 (latest)  
+**Diuji Dengan:** Aspose.Note for Java 26.4 (latest)  
 **Penulis:** Aspose  
 
 {{< /blocks/products/pf/tutorial-page-section >}}

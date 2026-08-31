@@ -136,9 +136,9 @@ A: Διατίθεται δωρεάν δοκιμή για αξιολόγηση, �
 
 ---
 
-**Last Updated:** 2026-03-14  
-**Tested With:** Aspose.Note for Java 23.12  
-**Author:** Aspose  
+**Τελευταία ενημέρωση:** 2025-12-17  
+**Δοκιμή με:** Aspose.Note for Java 26.4  
+**Συγγραφέας:** Aspose  
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

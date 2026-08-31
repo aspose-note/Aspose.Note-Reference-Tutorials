@@ -143,7 +143,7 @@ A5: Sim, uma licença comercial permite usar a biblioteca em ambientes de produ�
 ---
 
 **Última Atualização:** 2025-12-18  
-**Testado Com:** Aspose.Note for Java 24.12 (latest)  
+**Testado Com:** Aspose.Note for Java 26.4 (latest)  
 **Autor:** Aspose  
 
 {{< /blocks/products/pf/tutorial-page-section >}}

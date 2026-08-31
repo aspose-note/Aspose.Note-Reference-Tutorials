@@ -18,14 +18,12 @@ weight: 22
 
 ## บทนำ
 
-ในหลายสถานการณ์ทางธุรกิจ คุณจำเป็นต้อง **save OneNote as PDF** พร้อมคงลักษณะหน้าตาเดิมของหน้าเอกสารอย่างแม่นยำ Aspose.Note for Java ทำให้เรื่องนี้ง่ายขึ้นโดยให้คุณควบคุมระบบฟอนต์ระหว่างการแปลง ในบทเรียนนี้เราจะพาไปผ่านสามวิธีที่ใช้งานได้จริงเพื่อ **convert OneNote to PDF** โดยครอบคลุมวิธี **load custom font files**, **specify a default PDF font**, และแม้กระทั่ง **use a font stream** เมื่อฟอนต์ไม่พร้อมใช้งานบนเครื่องเป้าหมาย เทคนิคเหล่านี้ยังช่วยเมื่อคุณต้อง **convert .one to pdf** ในกระบวนการอัตโนมัติ
-
-## คำตอบอย่างรวดเร็ว
-- **What does “save OneNote as PDF” mean?** มันแปลงไฟล์ .one เป็น PDF พร้อมคงเลย์เอาต์และสไตล์เดิมไว้  
-- **Which API handles fonts?** `DocumentFontsSubsystem` ให้คุณกำหนดฟอนต์เริ่มต้นหรือโหลดไฟล์/สตรีมฟอนต์ที่กำหนดเอง  
-- **Do I need a license for production?** ใช่, จำเป็นต้องมีลิขสิทธิ์ Aspose.Note แบบเชิงพาณิชย์สำหรับการใช้งานที่ไม่ใช่รุ่นทดลอง  
-- **Can I convert multiple files in a batch?** แน่นอน – เพียงวนลูปการโหลดและบันทึก `Document`  
-- **What Java version is required?** Java 15 หรือใหม่กว่า (ตัวอย่างใช้ JDK 15)
+## คำตอบสั้น
+- **อะไรหมายถึง “save OneNote as PDF”?** มันแปลงไฟล์ .one เป็น PDF พร้อมรักษาเลย์เอาต์และสไตล์ไว้เหมือนเดิม.  
+- **API ใดจัดการฟอนต์?** `DocumentFontsSubsystem` ให้คุณกำหนดฟอนต์เริ่มต้นหรือโหลดไฟล์/สตรีมฟอนต์ที่กำหนดเอง.  
+- **ต้องการไลเซนส์สำหรับการใช้งานจริงหรือไม่?** ใช่, จำเป็นต้องมีไลเซนส์เชิงพาณิชย์ของ Aspose.Note สำหรับการใช้งานที่ไม่ใช่แบบทดลอง.  
+- **สามารถแปลงหลายไฟล์พร้อมกันได้หรือไม่?** แน่นอน – เพียงวนลูปการโหลดและบันทึก `Document`.  
+- **ต้องการเวอร์ชัน Java ใด?** Java 8 หรือใหม่กว่า (ตัวอย่างใช้ JDK 8).
 
 ## “save OneNote as PDF” กับระบบฟอนต์คืออะไร?
 
@@ -50,7 +48,7 @@ weight: 22
 
 ### 1. Java Development Kit (JDK)
 
-ตรวจสอบว่าคุณได้ติดตั้ง Java Development Kit (JDK) บนระบบของคุณแล้ว คุณสามารถดาวน์โหลดได้จาก [here](https://www.oracle.com/java/technologies/javase-jdk15-downloads.html) หากยังไม่ได้ทำ
+ตรวจสอบว่าคุณได้ติดตั้ง Java Development Kit (JDK) บนระบบของคุณแล้ว คุณสามารถดาวน์โหลดได้จาก [ที่นี่](https://www.oracle.com/java/technologies/downloads/) หากยังไม่ได้ทำ.
 
 ### 2. Aspose.Note for Java Library
 
@@ -191,8 +189,8 @@ A: ใช่, สามารถดาวน์โหลดรุ่นทดล
 
 ---
 
-**อัปเดตล่าสุด:** 2026-03-14  
-**ทดสอบด้วย:** Aspose.Note for Java 24.11  
+**อัปเดตล่าสุด:** 2025-12-18  
+**ทดสอบกับ:** Aspose.Note for Java 26.4  
 **ผู้เขียน:** Aspose  
 
 {{< /blocks/products/pf/tutorial-page-section >}}

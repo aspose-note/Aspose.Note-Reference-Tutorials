@@ -161,7 +161,7 @@ C5: Evet, ticari bir lisans, kütüphaneyi üretim ortamlarında kullanmanıza i
 ---
 
 **Son Güncelleme:** 2025-12-18
-**Edilen Sürümünü Test Edin:** Aspose.Note for Java 24.12 (en yeni)
+**Edilen Sürümünü Test Edin:** Aspose.Note for Java 26.4 (en yeni)
 **Yazar:** Aspose  
 
 {{< /blocks/products/pf/tutorial-page-section >}}

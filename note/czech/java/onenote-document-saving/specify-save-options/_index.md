@@ -141,7 +141,7 @@ A5: Ano, komerční licence vám umožní používat knihovnu v produkčních pr
 ---
 
 **lední aktualizace:** 2025-12-18  
-**Testováno s:** Aspose.Note for Java 24.12 (latest)  
+**Testováno s:** Aspose.Note for Java 26.4 (latest)  
 **Autor:** Aspose  
 
 {{< /blocks/products/pf/tutorial-page-section >}}

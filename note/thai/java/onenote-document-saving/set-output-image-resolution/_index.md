@@ -105,8 +105,8 @@ doc.save(dataDir + "SetOutputImageResolution_out.jpeg", imageSaveOptions);
 **ถาม: Aspose.Note รองรับฟอร์แมตภาพอื่นนอกจาก JPEG หรือไม่?**  
 ตอบ: รองรับ. enum `SaveFormat` มี PNG, BMP, GIF และอื่น ๆ ให้เปลี่ยน `SaveFormat.Jpeg` เป็นฟอร์แมตที่ต้องการ
 
-**ถาม: Aspose.Note เข้ากันได้กับทุกเวอร์ชันของ Java หรือไม่?**  
-ตอบ: ไลบรารีทำงานกับ Java 1.6 ขึ้นไป รวมถึง Java 8, 11 และรุ่น LTS ใหม่ ๆ
+**ถาม: Aspose.Note เข้ากันได้กับ Java ทุกเวอร์ชันหรือไม่?**
+ตอบ: ไลบรารีใช้งานได้กับ Java SE 7 และเวอร์ชันที่ใหม่กว่า รวมถึง Java 8, 11 และเวอร์ชัน LTS ที่ใหม่กว่า
 
 **ถาม: สามารถจัดการคุณสมบัติเพิ่มเติมของภาพ (เช่น การครอป, การหมุน) ใน OneNote ได้หรือไม่?**  
 ตอบ: ได้. Aspose.Note มี API ครบชุดสำหรับการปรับขนาด, ครอป, หมุนและปรับความลึกสีของภาพ
@@ -120,9 +120,9 @@ doc.save(dataDir + "SetOutputImageResolution_out.jpeg", imageSaveOptions);
 
 ---
 
-**อัปเดตล่าสุด:** 2026-03-14  
-**ทดสอบด้วย:** Aspose.Note for Java 24.12 (ล่าสุด ณ เวลาที่เขียน)  
-**ผู้เขียน:** Aspose  
+**อัปเดตล่าสุด:** 2025-12-18
+**ทดสอบกับ:** Aspose.Note สำหรับ Java 26.4 (เวอร์ชันล่าสุด ณ เวลาที่เขียน)
+**ผู้เขียน:** Aspose 
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

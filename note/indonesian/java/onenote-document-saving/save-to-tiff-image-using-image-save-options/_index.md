@@ -172,9 +172,9 @@ Anda kini memiliki toolkit **java tiff conversion** lengkap yang memungkinkan An
 
 ---
 
-**Terakhir Diperbarui:** 2026-03-14  
-**Diuji Dengan:** Aspose.Note untuk Java 23.12 (versi terbaru pada saat penulisan)  
-**Penulis:** Aspose  
+**Last Updated:** 2025-12-17  
+**Tested With:** Aspose.Note for Java 26.4 (latest at time of writing)  
+**Author:** Aspose  
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

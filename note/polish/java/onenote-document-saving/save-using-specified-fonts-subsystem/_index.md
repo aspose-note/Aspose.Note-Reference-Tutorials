@@ -25,11 +25,11 @@ Now craft final answer.{{< blocks/products/pf/main-wrap-class >}}
 W wielu scenariuszach biznesowych musisz **zapisz OneNote jako PDF** zachowując dokładny wygląd oryginalnych stron. Aspose.Note for Java ułatwia to, umożliwiając kontrolowanie podsystemu czcionek podczas konwersji. W tym samouczku przeprowadzimy trzy praktyczne sposoby **konwersji OneNote do PDF**, obejmujące **ładowanie własnych plików czcionek**, **określenie domyślnej czcionki PDF** oraz **użycie strumienia czcionki**, gdy czcionka nie jest dostępna na docelowym komputerze. Techniki te pomagają również przy **konwersji .one do pdf** w zautomatyzowanych pipeline'ach.
 
 ## Szybkie odpowiedzi
-- **Co oznacza „zapisz OneNote jako PDF”?** Konwertuje plik .one do PDF, zachowując układ i styl.  
-- **Które API obsługuje czcionki?** `DocumentFontsSubsystem` pozwala zdefiniować domyślną czcionkę lub załadować własny plik/strumień czcionki.  
-- **Czy potrzebna jest licencja do produkcji?** Tak, wymagana jest komercyjna licencja Aspose.Note do użytku nie‑testowego.  
-- **Czy mogę konwertować wiele plików w partii?** Oczywiście – wystarczy pętla nad logiką ładowania i zapisywania `Document`.  
-- **Jaka wersja Java jest wymagana?** Java 15 lub nowsza (przykład używa JDK 15).
+- **Co oznacza „zapisz program OneNote jako plik PDF”?** Konwertuje plik .one do PDF, udostępniac układ i styl.
+- **Które API obsługiwane?** `DocumentFontsSubsystem` pozwala na domyślną czcionkę lub za korzystanie z własnego pliku/strumień.
+- **Czy jest połączeniem licencji do produkcji?** Tak, komercyjna licencja Aspose. Uwaga jest wymagana do użytku nietestowego.
+- **Czy mogę konwertować wiele plików jednocześnie?** Oczywiście – wystarczy pudełko nad logiką obciążającą i zawartą w `Document`.
+- **Jakiej wersji Javy wymaga?** Java 8 lub nowsza (przykład używa JDK 8).
 
 ## Co to jest „zapisz OneNote jako PDF” z podsystemem czcionek?
 
@@ -50,7 +50,7 @@ Zapisywanie OneNote jako PDF z podsystemem czcionek oznacza, że podczas procesu
 | Archiwa OneNote z przeszłości | Umożliwia konwersję starych plików, które odwołują się do czcionek już niedostępnych. |
 | Platforma SaaS wielodzierżawcowa | Każdy najemca może dostarczyć własną czcionkę marki za pomocą strumienia lub pliku. |
 
-## Wymagania wstępne
+zadziała, że ​​masz zainstalowany zestaw Java Development Kit (JDK) w swoim systemie. Możesz iść z [tutaj](https://www.oracle.com/java/technologies/downloads/), jeśli jeszcze tego nie zrobiłeś.
 
 ### 1. Java Development Kit (JDK)
 
@@ -197,9 +197,9 @@ W tym samouczku nauczyliśmy się, jak **zapisz OneNote jako PDF** kontrolując 
 
 ---
 
-**Ostatnia aktualizacja:** 2026-03-14  
-**Testowano z:** Aspose.Note for Java 24.11  
-**Autor:** Aspose  
+**Last Updated:** 2025-12-18  
+**Tested With:** Aspose.Note for Java 26.4  
+**Author:** Aspose  
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

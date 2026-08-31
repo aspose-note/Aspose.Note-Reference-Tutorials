@@ -21,7 +21,7 @@ url: /ru/java/onenote-notebook-operations/convert-notebook-to-image/
 
 Прежде чем мы начнем, убедитесь, что у вас есть следующее:
 
-1.  Комплект разработки Java (JDK): убедитесь, что в вашей системе установлена Java. Вы можете загрузить и установить последнюю версию с сайта[Веб-сайт](https://www.oracle.com/java/technologies/javase-jdk15-downloads.html).
+1.  Комплект разработки Java (JDK): убедитесь, что в вашей системе установлена Java. Вы можете загрузить и установить последнюю версию с сайта[Веб-сайт](https://www.oracle.com/java/technologies/downloads/).
 
 2.  Библиотека Aspose.Note для Java: Загрузите и включите библиотеку Aspose.Note для Java в свой проект. Вы можете получить библиотеку по адресу[Веб-сайт Aspose](https://releases.aspose.com/note/java/).
 

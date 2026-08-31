@@ -180,8 +180,8 @@ A: API 자체는 동기식이지만, Java의 `CompletableFuture`나 스레드 �
 
 ---
 
-**마지막 업데이트:** 2026-03-14  
-**테스트 환경:** Aspose.Note for Java 23.12 (latest at time of writing)  
+**마지막 업데이트:** 2025-12-17  
+**테스트 환경:** Aspose.Note for Java 26.4 (작성 시 최신 버전)  
 **작성자:** Aspose  
 
 {{< /blocks/products/pf/tutorial-page-section >}}

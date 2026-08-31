@@ -120,7 +120,7 @@ A4: ご質問や問題がある場合は、サポートフォーラム[こちら
 A5: 製品を評価中の場合は、[こちら](https://purchase.aspose.com/temporary-license/) から一時ライセンスを取得できます。
 
 **Last Updated:** 2025-12-31  
-**Tested With:** Aspose.Note 24.11 for Java  
+**Tested With:** Aspose.Note 26.4 for Java  
 **Author:** Aspose
 
 {{< /blocks/products/pf/tutorial-page-section >}}

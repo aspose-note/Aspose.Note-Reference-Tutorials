@@ -25,8 +25,8 @@ Birçok iş senaryosunda, orijinal sayfaların tam görünümünü koruyarak **O
 - **“OneNote'u PDF olarak kaydetmek” ne anlama geliyor?** Bir .one dosyasını, düzeni ve stilini koruyarak PDF'e dönüştürür.  
 - **Hangi API yazı tiplerini yönetir?** `DocumentFontsSubsystem` varsayılan bir yazı tipi tanımlamanıza veya özel bir yazı tipi dosyası/akışı yüklemenize olanak tanır.  
 - **Üretim için lisansa ihtiyacım var mı?** Evet, deneme dışı kullanım için ticari bir Aspose.Note lisansı gereklidir.  
-- **Bir kerede birden fazla dosyayı dönüştürebilir miyim?** Kesinlikle – sadece `Document` yükleme ve kaydetme mantığını döngüye alın.  
-- **Hangi Java sürümü gerekiyor?** Java 15 veya daha yenisi (örnek JDK 15 kullanıyor).
+- **Bir kerede birden fazla dosyayı dönüştürebilir miyim?** Kesinlikle – `Document` yükleme ve kaydetme mantığını döngü içinde çalıştırmanız yeterli.  
+- **Hangi Java sürümü gerekiyor?** Java 8 veya üzeri (örnek JDK 8 kullanıyor).
 
 ## “OneNote'u PDF olarak kaydetmek” yazı tipi alt sistemiyle ne anlama geliyor?
 
@@ -51,7 +51,7 @@ Yazı tipi alt sistemiyle OneNote'u PDF olarak kaydetmek, dönüşüm sürecinde
 
 ### 1. Java Development Kit (JDK)
 
-Sisteminizde Java Development Kit (JDK) kurulu olduğundan emin olun. Henüz kurmadıysanız, [buradan](https://www.oracle.com/java/technologies/javase-jdk15-downloads.html) indirebilirsiniz.
+Sisteminizde Java Development Kit (JDK) yüklü olduğundan emin olun. Henüz yüklemediyseniz, [buradan](https://www.oracle.com/java/technologies/downloads/) indirebilirsiniz.
 
 ### 2. Aspose.Note for Java Kütüphanesi
 
@@ -189,10 +189,8 @@ C: Evet, Aspose web sitesinden ücretsiz bir deneme sürümü indirilebilir.
 
 Bu öğreticide, Aspose.Note ile Java'da yazı tipi alt sistemini kontrol ederek **OneNote'u PDF olarak kaydetmeyi** öğrendik. Üç yaklaşımı—varsayılan bir yazı tipi adı belirleme, özel bir yazı tipi dosyası yükleme veya bir yazı tipi akışı kullanma—takip ederek, **.one dosyasını pdf'e dönüştürürken** veya başka bir OneNote dönüşüm senaryosunda platformlar arasında tutarlı bir yazı tipi temsili garanti edebilirsiniz.
 
----
-
-**Last Updated:** 2026-03-14  
-**Tested With:** Aspose.Note for Java 24.11  
+**Last Updated:** 2025-12-18  
+**Tested With:** Aspose.Note for Java 26.4  
 **Author:** Aspose  
 
 {{< /blocks/products/pf/tutorial-page-section >}}

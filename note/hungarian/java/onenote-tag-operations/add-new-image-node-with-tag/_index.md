@@ -58,7 +58,7 @@ OutlineElement outlineElem = new OutlineElement();
 ## 5. lépés: Töltse be és helyezze be a képet
 ```java
 // tölts be egy képet
-Image image = new Image(null, dataDir + "Input.jpg");
+Image image = new Image(dataDir + "Input.jpg");
 // szúrjon be képet a dokumentum csomópontjába
 outlineElem.appendChildLast(image);
 ```

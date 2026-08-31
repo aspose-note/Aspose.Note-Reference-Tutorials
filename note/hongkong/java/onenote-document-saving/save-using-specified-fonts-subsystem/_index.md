@@ -22,7 +22,7 @@ weight: 22
 - **哪個 API 處理字型？** `DocumentFontsSubsystem` 讓您可以定義預設字型或載入自訂字型檔案/串流。  
 - **生產環境需要授權嗎？** 是的，非試用使用必須購買商業版 Aspose.Note 授權。  
 - **可以批次轉換多個檔案嗎？** 當然可以，只要在 `Document` 的載入與儲存邏輯上加上迴圈即可。  
-- **需要哪個 Java 版本？** Java 15 或更新版本（範例使用 JDK 15）。
+- **需要哪個 Java 版本？** Java 8 或更新版本（範例使用 JDK 8）。
 
 ## 使用字型子系統的「將 OneNote 儲存為 PDF」是什麼？
 
@@ -43,11 +43,7 @@ weight: 22
 | 舊版 OneNote 檔案 | 允許轉換引用已不再提供的字型的舊檔案。 |
 | 多租戶 SaaS 平台 | 每個租戶可透過串流或檔案提供自訂品牌字型。 |
 
-## 先決條件
-
-### 1. Java 開發套件 (JDK)
-
-確保您的系統已安裝 Java Development Kit (JDK)。如果尚未安裝，可從 [here](https://www.oracle.com/java/technologies/javase-jdk15-downloads.html) 下載。
+確保您的系統已安裝 Java Development Kit (JDK)。若尚未安裝，可從 [here](https://www.oracle.com/java/technologies/downloads/) 下載。
 
 ### 2. Aspose.Note for Java 程式庫
 
@@ -190,8 +186,8 @@ A: 有，您可從 Aspose 官方網站下載免費試用版。
 
 ---
 
-**最後更新：** 2026-03-14  
-**測試環境：** Aspose.Note for Java 24.11  
+**最後更新：** 2025-12-18  
+**測試環境：** Aspose.Note for Java 26.4  
 **作者：** Aspose  
 
 {{< /blocks/products/pf/tutorial-page-section >}}

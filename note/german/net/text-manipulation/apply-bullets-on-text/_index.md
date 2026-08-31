@@ -41,7 +41,7 @@ Aspose.Note.Document doc = new Aspose.Note.Document();
 // Initialisieren Sie das Page-Klassenobjekt
 Aspose.Note.Page page = new Aspose.Note.Page(doc);
 // Initialisieren Sie das Outline-Klassenobjekt
-Outline outline = new Outline(doc);
+Outline outline = new Outline();
 ```
 ## Schritt 3: Standardtextstil festlegen
 ```csharp
@@ -51,8 +51,8 @@ ParagraphStyle defaultStyle = new ParagraphStyle { FontColor = Color.Black, Font
 ## Schritt 4: Erstellen Sie Gliederungselemente mit Aufzählungszeichen
 ```csharp
 // Initialisieren Sie OutlineElement-Klassenobjekte und wenden Sie Aufzählungszeichen an
-OutlineElement outlineElem1 = new OutlineElement(doc) { NumberList = new NumberList("*", "Arial", 10) };
-RichText text1 = new RichText(doc) { Text = "First", ParagraphStyle = defaultStyle };
+OutlineElement outlineElem1 = new OutlineElement() { NumberList = new NumberList("*", "Arial", 10) };
+RichText text1 = new RichText() { Text = "First", ParagraphStyle = defaultStyle };
 outlineElem1.AppendChildLast(text1);
 // Wiederholen Sie den Vorgang für andere Gliederungselemente
 ```

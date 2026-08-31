@@ -136,9 +136,9 @@ Most már tudja, **hogyan konvertáljuk a OneNote-ot PDF-re** az Aspose.Note for
 
 ---
 
-**Utolsó frissítés:** 2026-03-14  
-**Tesztelve:** Aspose.Note for Java 23.12  
-**Szerző:** Aspose  
+**Last Updated:** 2025-12-17  
+**Tested With:** Aspose.Note for Java 26.4  
+**Author:** Aspose  
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

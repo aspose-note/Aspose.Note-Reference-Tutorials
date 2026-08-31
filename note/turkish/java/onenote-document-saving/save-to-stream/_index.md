@@ -121,7 +121,7 @@ C: Evet, Aspose.Note dönüşüm sırasında resimleri, grafikleri ve diğer gö
 ---
 
 **Son Güncelleme:** 2025-12-17  
-**Test Edilen Versiyon:** Aspose.Note for Java 24.12 (latest)  
+**Test Edilen Versiyon:** Aspose.Note for Java 26.4 (latest)  
 **Yazar:** Aspose  
 
 {{< /blocks/products/pf/tutorial-page-section >}}

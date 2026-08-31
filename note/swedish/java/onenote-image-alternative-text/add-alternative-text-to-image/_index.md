@@ -89,7 +89,7 @@ En sida kommer att hysa bilden vi håller på att lägga till.
 ### Steg 4: Lägg till en bild på sidan
 
 ```java
-Image image = new Image(null, dataDir + "image.jpg");
+Image image = new Image(dataDir + "image.jpg");
 ```
 
 `Image`‑konstruktorn laddar bildfilen från den angivna sökvägen.
@@ -164,7 +164,7 @@ Genom att följa den här steg‑för‑steg‑guiden vet du nu **hur man lägge
 ---
 
 **Last Updated:** 2025-12-23  
-**Tested With:** Aspose.Note for Java 24.11  
+**Tested With:** Aspose.Note for Java 26.4  
 **Author:** Aspose  
 
 {{< /blocks/products/pf/tutorial-page-section >}}

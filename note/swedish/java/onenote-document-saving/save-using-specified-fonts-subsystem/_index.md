@@ -21,11 +21,11 @@ weight: 22
 I många affärsscenarier behöver du **save OneNote as PDF** samtidigt som du bevarar den exakta utformningen av de ursprungliga sidorna. Aspose.Note för Java gör detta enkelt genom att låta dig kontrollera teckensnittssystemet under konverteringen. I den här handledningen går vi igenom tre praktiska sätt att **convert OneNote to PDF**, inklusive hur du **load custom font files**, **specify a default PDF font**, och till och med **use a font stream** när teckensnittet inte finns på målmaskinen. Dessa tekniker är också användbara när du behöver **convert .one to pdf** i automatiserade pipelines.
 
 ## Snabba svar
-- **What does “save OneNote as PDF” mean?** Det konverterar en .one‑fil till en PDF samtidigt som layout och stil bevaras.  
-- **Which API handles fonts?** `DocumentFontsSubsystem` låter dig definiera ett standardteckensnitt eller ladda en anpassad teckensnittfil/ström.  
-- **Do I need a license for production?** Ja, en kommersiell Aspose.Note‑licens krävs för icke‑testanvändning.  
-- **Can I convert multiple files in a batch?** Absolut – bara loopa över `Document`‑laddnings‑ och sparlogiken.  
-- **What Java version is required?** Java 15 eller senare (exemplet använder JDK 15).
+- **Vad betyder “spara OneNote som PDF”?** Det konverterar en .one-fil till en PDF samtidigt som layout och stil bevaras.  
+- **Vilket API hanterar teckensnitt?** `DocumentFontsSubsystem` låter dig definiera ett standardteckensnitt eller läsa in en anpassad teckensnittfil/-ström.  
+- **Behöver jag en licens för produktion?** Ja, en kommersiell Aspose.Note-licens krävs för icke‑testanvändning.  
+- **Kan jag konvertera flera filer i ett batch?** Absolut – loopa bara över `Document`‑laddnings- och sparlogiken.  
+- **Vilken Java-version krävs?** Java 8 eller senare (exemplet använder JDK 8).
 
 ## Vad är “save OneNote as PDF” med ett teckensnittssystem?
 
@@ -50,7 +50,7 @@ Att spara OneNote som PDF med ett teckensnittssystem innebär att Aspose.Note un
 
 ### 1. Java Development Kit (JDK)
 
-Se till att du har Java Development Kit (JDK) installerat på ditt system. Du kan ladda ner det från [here](https://www.oracle.com/java/technologies/javase-jdk15-downloads.html) om du ännu inte har gjort det.
+Se till att du har Java Development Kit (JDK) installerat på ditt system. Du kan ladda ner det från [här](https://www.oracle.com/java/technologies/downloads/) om du inte redan har gjort det.
 
 ### 2. Aspose.Note for Java Library
 
@@ -193,9 +193,9 @@ I den här handledningen har vi lärt oss hur man **save OneNote as PDF** samtid
 
 ---
 
-**Last Updated:** 2026-03-14  
-**Tested With:** Aspose.Note for Java 24.11  
-**Author:** Aspose  
+**Senast uppdaterad:** 2025-12-18  
+**Testat med:** Aspose.Note for Java 26.4  
+**Författare:** Aspose  
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

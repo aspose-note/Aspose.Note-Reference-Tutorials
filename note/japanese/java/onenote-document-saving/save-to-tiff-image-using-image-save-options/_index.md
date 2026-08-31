@@ -171,9 +171,9 @@ A: API 自体は同期ですが、Java の `CompletableFuture` やスレッド�
 
 ---
 
-**最終更新日:** 2026-03-14  
-**テスト環境:** Aspose.Note for Java 23.12（執筆時点の最新）  
-**作者:** Aspose  
+**最終更新日:** 2025-12-17  
+**テスト環境:** Aspose.Note for Java 26.4（執筆時点での最新）  
+**作成者:** Aspose  
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

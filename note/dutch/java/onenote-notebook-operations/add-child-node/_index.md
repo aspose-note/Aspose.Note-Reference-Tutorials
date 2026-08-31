@@ -58,7 +58,7 @@ Zorg ervoor dat u de map opgeeft waar uw OneNote‑documenten zijn opgeslagen.
 ## Stap 2: Het OneNote‑notebook laden
 
 ```java
-Notebook notebook = new Notebook(dataDir + "Notizbuch �ffnen.onetoc2");
+Notebook notebook = new Notebook(dataDir + "Notebook.onetoc2");
 ```
 
 Laad het OneNote‑notebook dat u wilt aanpassen.
@@ -118,7 +118,7 @@ A7: Het proberen op te slaan van wijzigingen in een alleen‑lezen notebook zal 
 ---
 
 **Last Updated:** 2025-12-25  
-**Tested With:** Aspose.Note for Java 24.10  
+**Tested With:** Aspose.Note for Java 26.4  
 **Author:** Aspose  
 
 {{< /blocks/products/pf/tutorial-page-section >}}

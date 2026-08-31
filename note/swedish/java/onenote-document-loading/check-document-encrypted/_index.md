@@ -23,7 +23,7 @@ När du arbetar med OneNote-filer i en Java-applikation är det första du behö
 
 - **Vilken metod bestämmer kryptering?** `Document.isEncrypted`  
 - **Behöver jag ett lösenord för att kontrollera?** Nej, du kan fråga statusen utan ett lösenord.  
-- **Vilken API-version fungerar?** Alla senaste Aspose.Note för Java-utgåvor (testad med 24.11).  
+- **Vilken API-version fungerar?** Alla senaste Aspose.Note för Java-utgåvor (testad med 26.4).  
 - **Kan jag kontrollera både strömmar och filsökvägar?** Ja – API:et stödjer båda.  
 - **Vad händer om lösenordet är fel?** Metoden returnerar `true`, vilket indikerar att filen fortfarande är krypterad.  
 
@@ -147,7 +147,7 @@ I den här guiden demonstrerade vi **hur man kontrollerar onenote encryption jav
 ---  
 
 **Senast uppdaterad:** 2025-11-29  
-**Testad med:** Aspose.Note 24.11 för Java  
+**Testad med:** Aspose.Note 26.4 för Java  
 **Författare:** Aspose  
 
 {{< /blocks/products/pf/tutorial-page-section >}}  

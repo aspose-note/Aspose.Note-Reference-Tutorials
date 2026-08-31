@@ -33,7 +33,7 @@ weight: 15
 
 ### 1. Java Development Kit (JDK)
 
-Убедитесь, что Java Development Kit (JDK) установлен на вашей системе. Вы можете скачать и установить последнюю версию JDK с [сайта Oracle](https://www.oracle.com/java/technologies/javase-jdk15-downloads.html).
+Убедитесь, что Java Development Kit (JDK) установлен на вашей системе. Вы можете скачать и установить последнюю версию JDK с [сайта Oracle](https://www.oracle.com/java/technologies/downloads/).
 
 ### 2. Библиотека Aspose.Note for Java
 
@@ -148,7 +148,7 @@ A5: Вы можете получить временную лицензию по 
 ---
 
 **Последнее обновление:** 2025-12-21  
-**Тестировано с:** Aspose.Note for Java 23.12  
+**Тестировано с:** Aspose.Note for Java 26.4  
 **Автор:** Aspose  
 
 ---

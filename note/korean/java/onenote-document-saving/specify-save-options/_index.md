@@ -142,7 +142,7 @@ A5: 네, 상업용 라이선스를 통해 프로덕션 환경에서 라이브러
 ---
 
 **마지막 업데이트:** 2025-12-18  
-**테스트 환경:** Aspose.Note for Java 24.12 (latest)  
+**테스트 환경:** Aspose.Note for Java 26.4 (latest)  
 **작성자:** Aspose  
 
 {{< /blocks/products/pf/tutorial-page-section >}}

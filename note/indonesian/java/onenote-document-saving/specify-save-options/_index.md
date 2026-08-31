@@ -143,7 +143,7 @@ A5: Ya, lisensi komersial memungkinkan Anda menggunakan perpustakaan ini di ling
 ---
 
 **Terakhir Diperbarui:** 2025-12-18  
-**Diuji Dengan:** Aspose.Note untuk Java 24.12 (terbaru)  
+**Diuji Dengan:** Aspose.Note untuk Java 26.4 (terbaru)  
 **Penulis:** Aspose  
 
 {{< /blocks/products/pf/tutorial-page-section >}}

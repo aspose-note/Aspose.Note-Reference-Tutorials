@@ -24,7 +24,7 @@ In questo tutorial, esploreremo come **convertire OneNote in PDF** utilizzando A
 - **Quale libreria mi serve?** Aspose.Note per Java  
 - **Posso convertire solo pagine selezionate?** Sì – usa `PdfSaveOptions.setPageIndex` e `setPageCount`  
 - **È necessaria una licenza per la produzione?** È richiesta una licenza commerciale per l’uso non‑trial  
-- **Quale versione di Java è supportata?** JDK 8 o successive (JDK 15 è consigliato)  
+- **Quale versione di Java è supportata?** JDK 8 o successive (JDK 8 è consigliato)  
 - **Il PDF generato è ricercabile?** Sì, il PDF prodotto mantiene il testo ricercabile per impostazione predefinita  
 
 ## Che cosa significa “convertire OneNote in PDF”?
@@ -40,7 +40,7 @@ Convertire un blocco appunti OneNote in PDF significa prendere il ricco file One
 
 Prima di iniziare, assicurati di avere quanto segue:
 
-1. **Java Development Kit (JDK)** – JDK 8+ installato. Puoi scaricarlo da [qui](https://www.oracle.com/java/technologies/javase-jdk15-downloads.html).  
+1. **Java Development Kit (JDK)** – JDK 8+ installato. Puoi scaricarlo da [qui](https://www.oracle.com/java/technologies/downloads/).  
 2. **Aspose.Note per Java** – scarica l’ultimo JAR da [qui](https://releases.aspose.com/note/java/).  
 
 ## Importa i pacchetti
@@ -129,7 +129,7 @@ R: Una versione di prova gratuita è disponibile per il download [qui](https://r
 ---
 
 **Ultimo aggiornamento:** 2025-11-30  
-**Testato con:** Aspose.Note per Java 24.11  
+**Testato con:** Aspose.Note per Java 26.4  
 **Autore:** Aspose  
 
 {{< /blocks/products/pf/tutorial-page-section >}}

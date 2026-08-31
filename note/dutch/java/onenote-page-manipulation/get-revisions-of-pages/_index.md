@@ -1,37 +1,55 @@
 ---
-title: Ontvang revisies van pagina's in OneNote - Aspose.Note
-linktitle: Ontvang revisies van pagina's in OneNote - Aspose.Note
-second_title: Aspose.Note Java-API
-description: Leer hoe u revisies van pagina's binnen OneNote-documenten kunt ophalen met Aspose.Note Java. Integreer dit in uw Java-apps voor efficiënt documentbeheer.
-weight: 15
+date: 2026-01-10
+description: Leer hoe u de laatst gewijzigde tijd kunt opvragen en revisies van OneNote‑pagina’s
+  kunt ophalen met Aspose.Note voor Java. Integreer dit in uw Java‑applicaties voor
+  efficiënt documentbeheer.
+linktitle: Get Revisions of Pages in OneNote - Aspose.Note
+second_title: Aspose.Note Java API
+title: Hoe de laatste wijzigingstijd van OneNote-pagina’s op te halen – Aspose.Note
 url: /nl/java/onenote-page-manipulation/get-revisions-of-pages/
+weight: 15
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Ontvang revisies van pagina's in OneNote - Aspose.Note
+# Ophalen van revisies van pagina's in OneNote - Aspose.Note
 
-## Invoering
+## Inleiding
 
-In deze zelfstudie verdiepen we ons in de mogelijkheden van Aspose.Note voor Java, een krachtige bibliotheek waarmee u naadloos met Microsoft OneNote-bestanden kunt werken in uw Java-toepassingen. We zullen ons specifiek concentreren op het ophalen van revisies van pagina's binnen een OneNote-document. Aan het einde van deze handleiding beschikt u over de kennis om paginarevisies efficiënt te extraheren, inclusief details zoals tijd van laatste wijziging, aanmaaktijd, titel, niveau en auteur.
+In deze tutorial **get last modified time** voor pagina's in een OneNote‑document ophalen en ontdekken hoe je de volledige revisiegeschiedenis kunt ophalen met Aspose.Note voor Java. Of je nu een document‑beheersysteem bouwt, wijzigingen audit, of simpelweg de datum wilt weergeven waarop een pagina voor het laatst is bewerkt, deze gids laat je precies zien hoe je die informatie programmatically kunt extraheren.
 
-## Vereisten
+## Snelle antwoorden
+- **Wat retourneert “get last modified time”?** De tijdstempel van de meest recente bewerking op een OneNote‑pagina.  
+- **Welke klasse levert de revisiegeschiedenis?** `PageHistory` via `Document.getPageHistory(Page)`.  
+- **Heb ik een licentie nodig voor deze functie?** Ja, een geldige Aspose.Note‑licentie is vereist voor productiegebruik.  
+- **Welke Java‑versie wordt ondersteund?** Java 8 of hoger (JDK 8+).  
+- **Kan ik revisies filteren op auteur?** Je kunt de `Author`‑eigenschap van elk `Page`‑object lezen en je eigen filter toepassen.
 
-Voordat u in deze zelfstudie duikt, moet u ervoor zorgen dat u aan de volgende vereisten voldoet:
+## Wat is “get last modified time” in OneNote?
 
-### Java Development Kit (JDK) geïnstalleerd
+De **last modified time** is een metagegevensveld dat bij elke pagina wordt opgeslagen en registreert wanneer de pagina voor het laatst is gewijzigd. Aspose.Note maakt deze waarde beschikbaar via de `Page.getLastModifiedTime()`‑methode, waardoor het eenvoudig is om wijzigingsdatums weer te geven of te loggen.
 
-Zorg ervoor dat de Java Development Kit op uw systeem is geïnstalleerd. U kunt het downloaden en installeren vanaf de Oracle-website of een pakketbeheerder gebruiken als u op een Unix-gebaseerd systeem werkt.
+## Waarom paginarevisies ophalen?
 
-### Aspose.Note voor Java-bibliotheek
+- **Auditsporen:** Houd een overzicht bij van wie wat en wanneer heeft gewijzigd.  
+- **Versie‑vergelijking:** Bouw functionaliteit die twee revisies naast elkaar vergelijkt.  
+- **Inzichten in gebruikerssamenwerking:** Begrijp bewerkingspatronen in gedeelde notitieblokken.  
 
- Download en installeer Aspose.Note voor Java-bibliotheek vanaf de website. Je kunt de downloadlink vinden[hier](https://releases.aspose.com/note/java/) . Volg de installatie-instructies in de documentatie[hier](https://reference.aspose.com/note/java/).
+## Voorvereisten
 
-## Pakketten importeren
+Zorg ervoor dat je het volgende hebt voordat je begint:
 
-Importeer om te beginnen de benodigde pakketten in uw Java-project. Met deze pakketten kunt u gebruikmaken van de functionaliteit van Aspose.Note voor Java.
+### Java Development Kit (JDK) Installed
+Installeer JDK 8 of later vanaf de Oracle‑website of via je favoriete pakketbeheerder.
+
+### Aspose.Note for Java Library
+Download de bibliotheek van de officiële site. Je kunt de downloadlink **[hier](https://releases.aspose.com/note/java/)** vinden. Volg de installatie‑instructies in de documentatie **[hier](https://reference.aspose.com/note/java/)**.
+
+## Importeer pakketten
+
+Om te beginnen, importeer je de benodigde pakketten in je Java‑project. Deze pakketten stellen je in staat om de functionaliteit van Aspose.Note voor Java te benutten.
 
 ```java
 import java.io.IOException;
@@ -41,43 +59,40 @@ import com.aspose.note.Page;
 import com.aspose.note.PageHistory;
 ```
 
-Laten we nu de voorbeeldcode in meerdere stappen opsplitsen om elk onderdeel en de functionaliteit ervan te begrijpen.
+Laten we nu de voorbeeldcode opsplitsen in meerdere stappen om elk onderdeel en de functionaliteit ervan te begrijpen.
 
-## Stap 1: Documentmap instellen
+## Hoe de last modified time van een OneNote‑pagina ophalen
 
-Definieer de map waarin uw OneNote-document zich bevindt.
+### Stap 1: Documentmap instellen
+Definieer de map waarin je OneNote‑document zich bevindt.
 
 ```java
 String dataDir = "Your Document Directory";
 ```
 
-## Stap 2: Laad het document
-
-Laad het OneNote-document in Aspose.Note.
+### Stap 2: Document laden
+Laad het OneNote‑document in Aspose.Note.
 
 ```java
 Document doc = new Document(dataDir + "Sample1.one");
 ```
 
-## Stap 3: Krijg de eerste pagina
-
-Haal de eerste pagina uit het document op.
+### Stap 3: Eerste pagina ophalen
+Haal de eerste pagina op uit het document.
 
 ```java
 Page firstPage = doc.getFirstChild();
 ```
 
-## Stap 4: Paginarevisies ophalen
-
-Haal de revisiegeschiedenis van de pagina op.
+### Stap 4: Pagina‑revisies ophalen
+Verkrijg de revisiegeschiedenis van de pagina.
 
 ```java
 PageHistory revisions = doc.getPageHistory(firstPage);
 ```
 
-## Stap 5: Doorloop paginarevisies
-
-Blader door de lijst met paginarevisies en haal relevante informatie op.
+### Stap 5: Pagina‑revisies doorlopen
+Itereer door de lijst met pagina‑revisies en haal relevante informatie op, inclusief de **last modified time**.
 
 ```java
 for (Page pageRevision : revisions) {
@@ -90,31 +105,34 @@ for (Page pageRevision : revisions) {
 }
 ```
 
-## Conclusie
-
-In deze zelfstudie hebben we onderzocht hoe u revisies van pagina's in een OneNote-document kunt ophalen met Aspose.Note voor Java. Door de stapsgewijze handleiding te volgen en gebruik te maken van de meegeleverde voorbeeldcode, kunt u deze functionaliteit eenvoudig in uw Java-applicaties integreren, waardoor een efficiënt beheer van OneNote-bestanden mogelijk wordt.
+## Veelvoorkomende problemen en oplossingen
+- **Null `PageHistory`:** Zorg ervoor dat het document daadwerkelijk revisies bevat; anders kan `getPageHistory` `null` retourneren.  
+- **Tijdzoneverschillen:** `getLastModifiedTime()` retourneert een `java.util.Date` in de standaardtijdzone van het systeem. Converteer naar UTC indien nodig.  
+- **Licentie niet geladen:** Zonder een geldige licentie kan Aspose.Note in evaluatiemodus werken, waardoor het aantal verwerkte pagina's wordt beperkt.
 
 ## Veelgestelde vragen
 
-### V1: Kan ik Aspose.Note voor Java gebruiken om nieuwe OneNote-documenten te maken?
+### Q1: Kan ik Aspose.Note voor Java gebruiken om nieuwe OneNote‑documenten te maken?
+A1: Ja, Aspose.Note voor Java biedt uitgebreide ondersteuning voor het programmatically maken, lezen en manipuleren van OneNote‑documenten.
 
-A1: Ja, Aspose.Note voor Java biedt uitgebreide ondersteuning voor het programmatisch maken, lezen en manipuleren van OneNote-documenten.
+### Q2: Is Aspose.Note voor Java compatibel met verschillende versies van OneNote‑bestanden?
+A2: Ja, Aspose.Note voor Java ondersteunt verschillende versies van Microsoft OneNote‑bestanden, waardoor compatibiliteit in diverse omgevingen wordt gegarandeerd.
 
-### V2: Is Aspose.Note voor Java compatibel met verschillende versies van OneNote-bestanden?
+### Q3: Kan ik het uitvoerformaat aanpassen bij het exporteren van OneNote‑documenten?
+A3: Absoluut, Aspose.Note voor Java biedt flexibiliteit bij het exporteren van OneNote‑documenten naar verschillende formaten zoals PDF, HTML en afbeeldingen, met aanpassingsopties.
 
-A2: Ja, Aspose.Note voor Java ondersteunt verschillende versies van Microsoft OneNote-bestanden, waardoor compatibiliteit tussen verschillende omgevingen wordt gegarandeerd.
+### Q4: Vereist Aspose.Note voor Java een licentie voor commercieel gebruik?
+A4: Ja, een geldige licentie is vereist voor commercieel gebruik van Aspose.Note voor Java. Je kunt een licentie verkrijgen via de Aspose‑website.
 
-### V3: Kan ik het uitvoerformaat aanpassen bij het exporteren van OneNote-documenten?
+### Q5: Waar kan ik hulp zoeken als ik problemen ondervind of vragen heb over Aspose.Note voor Java?
+A5: Voor ondersteuning kun je het Aspose.Note‑forum **[hier](https://forum.aspose.com/c/note/28)** bezoeken, waar je vragen kunt stellen, ervaringen kunt delen en kunt communiceren met andere gebruikers en experts.
 
-A3: Absoluut, Aspose.Note voor Java biedt flexibiliteit bij het exporteren van OneNote-documenten naar verschillende formaten zoals PDF, HTML en afbeeldingen, met opties voor aanpassing.
+---
 
-### V4: Heeft Aspose.Note voor Java een licentie nodig voor commercieel gebruik?
+**Last Updated:** 2026-01-10  
+**Tested With:** Aspose.Note for Java 23.12 (latest at time of writing)  
+**Author:** Aspose  
 
-A4: Ja, voor commercieel gebruik van Aspose.Note voor Java is een geldige licentie vereist. U kunt een licentie verkrijgen via de Aspose-website.
-
-### V5: Waar kan ik hulp zoeken als ik problemen ondervind of vragen heb over Aspose.Note voor Java?
-
- A5: Voor ondersteuning en assistentie kunt u het Aspose.Note-forum bezoeken[hier](https://forum.aspose.com/c/note/28)waar u vragen kunt stellen, ervaringen kunt delen en kunt communiceren met andere gebruikers en experts.
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

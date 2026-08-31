@@ -106,8 +106,8 @@ A: Chắc chắn rồi. Bạn có thể đặt bất kỳ giá trị nguyên nà
 **Q: Does Aspose.Note support image formats other than JPEG?**  
 A: Có. Enum `SaveFormat` bao gồm PNG, BMP, GIF và nhiều định dạng khác. Thay `SaveFormat.Jpeg` bằng định dạng mong muốn.
 
-**Q: Is Aspose.Note compatible with all Java versions?**  
-A: Thư viện hoạt động với Java 1.6 trở lên, bao gồm Java 8, 11 và các phiên bản LTS mới hơn.
+**H: Aspose.Note có tương thích với mọi phiên bản Java không?**  
+Đ: Thư viện hoạt động với Java SE 7 trở lên, bao gồm Java 8, 11 và các bản LTS mới hơn.
 
 **Q: Can I manipulate other image properties (e.g., cropping, rotation) in OneNote?**  
 A: Có. Aspose.Note cung cấp bộ API đầy đủ để thay đổi kích thước, cắt, xoay và điều chỉnh độ sâu màu của hình ảnh.
@@ -121,9 +121,9 @@ Bằng cách thực hiện các bước trên, bạn đã biết cách **tăng d
 
 ---
 
-**Last Updated:** 2026-03-14  
-**Tested With:** Aspose.Note for Java 24.12 (latest at time of writing)  
-**Author:** Aspose  
+**Cập nhật lần cuối:** 2025-12-18  
+**Kiểm tra với:** Aspose.Note for Java 26.4 (phiên bản mới nhất tại thời điểm viết)  
+**Tác giả:** Aspose  
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

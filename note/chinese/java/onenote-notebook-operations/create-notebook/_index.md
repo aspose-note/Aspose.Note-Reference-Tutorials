@@ -31,7 +31,7 @@ weight: 18
 
 ### 已安装 Java Development Kit (JDK)
 
-您需要一个较新的 JDK。请从[Java 网站](https://www.oracle.com/java/technologies/javase-jdk15-downloads.html)下载。
+您需要一个较新的 JDK。请从[Java 网站](https://www.oracle.com/java/technologies/downloads/)下载。
 
 ### Aspose.Note for Java 库
 
@@ -117,7 +117,7 @@ A：该库支持 Java 8 及更高版本。
 ---
 
 **Last Updated:** 2025-12-31  
-**Tested With:** Aspose.Note for Java 24.12  
+**Tested With:** Aspose.Note for Java 26.4  
 **Author:** Aspose  
 
 ---

@@ -54,8 +54,8 @@ Aspose.Note.Page page = new Aspose.Note.Page(doc);
 
 ## ステップ 3: アウトライン オブジェクトとアウトライン要素オブジェクトを初期化する
 ```csharp
-Outline outline1 = new Outline(doc);
-OutlineElement outlineElem1 = new OutlineElement(doc);
+Outline outline1 = new Outline();
+OutlineElement outlineElem1 = new OutlineElement();
 ```
 ページ内のコンテンツを構造化するために、Outline クラスと OutlineElement クラスのインスタンスを作成します。
 

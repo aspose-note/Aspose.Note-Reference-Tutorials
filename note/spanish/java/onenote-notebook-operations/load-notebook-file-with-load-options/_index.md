@@ -127,7 +127,7 @@ A5: Si está evaluando el producto, puede obtener una licencia temporal [aquí](
 ---
 
 **Última actualización:** 2025-12-31  
-**Probado con:** Aspose.Note 24.11 para Java  
+**Probado con:** Aspose.Note 26.4 para Java  
 **Autor:** Aspose
 
 {{< /blocks/products/pf/tutorial-page-section >}}

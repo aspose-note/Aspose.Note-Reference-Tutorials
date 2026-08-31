@@ -58,7 +58,7 @@ String dataDir = "Your Document Directory";
 ## الخطوة 2: تحميل دفتر ملاحظات OneNote
 
 ```java
-Notebook notebook = new Notebook(dataDir + "Notizbuch �ffnen.onetoc2");
+Notebook notebook = new Notebook(dataDir + "Notebook.onetoc2");
 ```
 
 حمّل دفتر ملاحظات OneNote الذي تريد تعديلّه.
@@ -118,7 +118,7 @@ notebook.save(dataDir);
 ---
 
 **آخر تحديث:** 2025-12-25  
-**تم الاختبار مع:** Aspose.Note for Java 24.10  
+**تم الاختبار مع:** Aspose.Note for Java 26.4  
 **المؤلف:** Aspose  
 
 {{< /blocks/products/pf/tutorial-page-section >}}

@@ -162,7 +162,7 @@ V: Látogasd meg az [Aspose.Note fórumot](https://forum.aspose.com/c/note/28) a
 ---
 
 **Utolsó frissítés:** 2025-12-02  
-**Tesztelt verzió:** Aspose.Note for Java 24.12 (a cikk írásakor legújabb)  
+**Tesztelt verzió:** Aspose.Note for Java 26.4 (a cikk írásakor legújabb)  
 **Szerző:** Aspose  
 
 {{< /blocks/products/pf/tutorial-page-section >}}

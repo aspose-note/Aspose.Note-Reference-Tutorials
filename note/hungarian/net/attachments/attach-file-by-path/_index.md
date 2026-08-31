@@ -66,7 +66,7 @@ Aspose.Note.Page page = new Aspose.Note.Page(doc);
 ### 3. lépés: Inicializálja az Outline objektumot
 
 ```csharp
-Outline outline = new Outline(doc);
+Outline outline = new Outline();
 ```
 
  An`Outline` objektum jön létre az oldalon belüli tartalom rendszerezésére.
@@ -74,7 +74,7 @@ Outline outline = new Outline(doc);
 ### 4. lépés: Inicializálja az OutlineElement objektumot
 
 ```csharp
-OutlineElement outlineElem = new OutlineElement(doc);
+OutlineElement outlineElem = new OutlineElement();
 ```
 
 `OutlineElement` egy elemet képvisel a vázlatszerkezeten belül.
@@ -82,7 +82,7 @@ OutlineElement outlineElem = new OutlineElement(doc);
 ### 5. lépés: Inicializálja az AttachedFile objektumot
 
 ```csharp
-AttachedFile attachedFile = new AttachedFile(doc,  dataDir + "attachment.txt");
+AttachedFile attachedFile = new AttachedFile(dataDir + "attachment.txt");
 ```
 
  Itt létrehozunk egy példányt`AttachedFile`, megadva a csatolni kívánt fájl elérési útját.

@@ -136,8 +136,8 @@ Sie wissen jetzt, **wie man OneNote in PDF konvertiert** mit Aspose.Note für Ja
 
 ---
 
-**Zuletzt aktualisiert:** 2026-03-14  
-**Getestet mit:** Aspose.Note for Java 23.12  
+**Zuletzt aktualisiert:** 2025-12-17  
+**Getestet mit:** Aspose.Note für Java 26.4  
 **Autor:** Aspose  
 
 {{< /blocks/products/pf/tutorial-page-section >}}

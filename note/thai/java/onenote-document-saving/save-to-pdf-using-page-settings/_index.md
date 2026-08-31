@@ -141,9 +141,9 @@ oneFile.save(dst, options);
 
 ---
 
-**อัปเดตล่าสุด:** 2026-03-14  
-**ทดสอบด้วย:** Aspose.Note for Java 23.12  
-**ผู้เขียน:** Aspose  
+**Last Updated:** 2025-12-17  
+**Tested With:** Aspose.Note for Java 26.4  
+**Author:** Aspose  
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

@@ -61,7 +61,7 @@ Aspose.Note.Page page = new Aspose.Note.Page(doc);
 ## 3. Adım: Anahat Nesnesini Başlatın
 
 ```csharp
-Outline outline = new Outline(doc);
+Outline outline = new Outline();
 ```
 
 `Outline`sınıf, belge hiyerarşisindeki bir anahat düğümünü temsil eder. Belgemizi yapılandırmak için yeni bir taslak nesnesi oluşturuyoruz.
@@ -69,7 +69,7 @@ Outline outline = new Outline(doc);
 ## Adım 4: OutlineElement Nesnesini Başlatın
 
 ```csharp
-OutlineElement outlineElem = new OutlineElement(doc);
+OutlineElement outlineElem = new OutlineElement();
 ```
 
  Bir`OutlineElement` bir taslak içindeki bir öğeyi temsil eder. Burada belgemize içerik eklemek için yeni bir taslak öğesi oluşturuyoruz.

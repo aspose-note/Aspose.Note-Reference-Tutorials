@@ -189,9 +189,9 @@ Masz teraz kompletny zestaw narzędzi **java tiff conversion**, który pozwala z
 
 ---
 
-**Last Updated:** 2026-03-14  
-**Tested With:** Aspose.Note for Java 23.12 (latest at time of writing)  
-**Author:** Aspose  
+**Ostatnia aktualizacja:** 2025-12-17  
+**Testowano z:** Aspose.Note for Java 26.4 (najnowsza w momencie pisania)  
+**Autor:** Aspose  
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

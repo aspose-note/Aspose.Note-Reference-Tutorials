@@ -25,7 +25,7 @@ Amikor OneNote fájlokkal dolgozik egy Java alkalmazásban, az első dolog, amit
 
 - **Melyik metódus határozza meg a titkosítást?** `Document.isEncrypted`  
 - **Szükség van jelszóra az ellenőrzéshez?** Nem, a státuszt jelszó nélkül is lekérdezheti.  
-- **Melyik API‑verzió működik?** Bármelyik friss Aspose.Note for Java kiadás (tesztelve a 24.11‑el).  
+- **Melyik API‑verzió működik?** Bármelyik friss Aspose.Note for Java kiadás (tesztelve a 26.4‑el).  
 - **Ellenőrizhetem mind a stream‑eket, mind a fájlútvonalakat?** Igen – az API mindkettőt támogatja.  
 - **Mi történik, ha a jelszó rossz?** A metódus `true`‑t ad vissza, jelezve, hogy a fájl továbbra is titkosított.  
 
@@ -149,7 +149,7 @@ Ebben az útmutatóban bemutattuk, **hogyan ellenőrizhetjük a OneNote titkosí
 ---  
 
 **Utoljára frissítve:** 2025-11-29  
-**Tesztelve:** Aspose.Note 24.11 for Java  
+**Tesztelve:** Aspose.Note 26.4 for Java  
 **Szerző:** Aspose  
 
 {{< /blocks/products/pf/tutorial-page-section >}}  

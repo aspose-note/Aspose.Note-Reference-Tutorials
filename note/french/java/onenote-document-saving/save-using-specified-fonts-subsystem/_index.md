@@ -26,7 +26,7 @@ Dans de nombreux scénarios professionnels, vous devez **enregistrer OneNote en 
 - **Quelle API gère les polices ?** `DocumentFontsSubsystem` vous permet de définir une police par défaut ou de charger un fichier/flux de police personnalisé.  
 - **Ai‑je besoin d’une licence pour la production ?** Oui, une licence commerciale Aspose.Note est requise pour un usage non‑essai.  
 - **Puis‑je convertir plusieurs fichiers en lot ?** Absolument – il suffit de boucler sur la logique de chargement et d’enregistrement du `Document`.  
-- **Quelle version de Java est requise ?** Java 15 ou ultérieure (l’exemple utilise JDK 15).
+- **Quelle version de Java est requise ?** Java 8 ou supérieure (l’exemple utilise JDK 8).
 
 ## Qu’est‑ce que « enregistrer OneNote en PDF » avec un sous‑système de polices ?
 
@@ -51,7 +51,7 @@ Enregistrer OneNote en PDF avec un sous‑système de polices signifie que, pend
 
 ### 1. Kit de développement Java (JDK)
 
-Assurez‑vous que le Kit de développement Java (JDK) est installé sur votre système. Vous pouvez le télécharger [ici](https://www.oracle.com/java/technologies/javase-jdk15-downloads.html) si ce n’est pas déjà fait.
+Assurez‑vous d’avoir le Kit de développement Java (JDK) installé sur votre système. Vous pouvez le télécharger [ici](https://www.oracle.com/java/technologies/downloads/) si ce n’est pas déjà fait.
 
 ### 2. Bibliothèque Aspose.Note pour Java
 
@@ -194,8 +194,8 @@ Dans ce tutoriel, nous avons appris comment **enregistrer OneNote en PDF** tout 
 
 ---
 
-**Dernière mise à jour :** 2026-03-14  
-**Testé avec :** Aspose.Note pour Java 24.11  
+**Dernière mise à jour :** 2025-12-18  
+**Testé avec :** Aspose.Note pour Java 26.4  
 **Auteur :** Aspose  
 
 {{< /blocks/products/pf/tutorial-page-section >}}

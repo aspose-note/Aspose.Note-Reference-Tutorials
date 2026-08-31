@@ -173,9 +173,9 @@ Bây giờ bạn đã có một bộ công cụ **java tiff conversion** hoàn c
 
 ---
 
-**Cập nhật lần cuối:** 2026-03-14  
-**Kiểm tra với:** Aspose.Note for Java 23.12 (latest at time of writing)  
-**Tác giả:** Aspose  
+**Last Updated:** 2025-12-17  
+**Tested With:** Aspose.Note for Java 26.4 (phiên bản mới nhất tại thời điểm viết)  
+**Author:** Aspose  
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

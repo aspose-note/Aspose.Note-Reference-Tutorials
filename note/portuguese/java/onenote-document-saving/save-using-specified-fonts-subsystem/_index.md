@@ -23,9 +23,9 @@ Em muitos cenários empresariais você precisa **salvar OneNote como PDF** prese
 ## Respostas Rápidas
 - **O que significa “save OneNote as PDF”?** Converte um arquivo .one em PDF mantendo o layout e o estilo intactos.  
 - **Qual API lida com fontes?** `DocumentFontsSubsystem` permite definir uma fonte padrão ou carregar um arquivo/fluxo de fonte personalizado.  
-- **Preciso de licença para produção?** Sim, uma licença comercial do Aspose.Note é necessária para uso que não seja de avaliação.  
-- **Posso converter vários arquivos em lote?** Absolutamente – basta iterar sobre a lógica de carregamento e salvamento do `Document`.  
-- **Qual versão do Java é necessária?** Java 15 ou posterior (o exemplo usa JDK 15).
+- **Preciso de uma licença para produção?** Sim, uma licença comercial do Aspose.Note é necessária para uso que não seja de avaliação.  
+- **Posso converter vários arquivos em lote?** Absolutamente – basta percorrer a lógica de carregamento e salvamento do `Document`.  
+- **Qual versão do Java é necessária?** Java 8 ou posterior (o exemplo usa JDK 8).
 
 ## O que é “save OneNote as PDF” com um subsistema de fontes?
 
@@ -50,7 +50,7 @@ Salvar OneNote como PDF com um subsistema de fontes significa que, durante o pro
 
 ### 1. Java Development Kit (JDK)
 
-Certifique‑se de que o Java Development Kit (JDK) esteja instalado em seu sistema. Você pode baixá‑lo [aqui](https://www.oracle.com/java/technologies/javase-jdk15-downloads.html) se ainda não o fez.
+Certifique-se de que o Java Development Kit (JDK) esteja instalado em seu sistema. Você pode baixá-lo [aqui](https://www.oracle.com/java/technologies/downloads/) se ainda não o fez.
 
 ### 2. Biblioteca Aspose.Note para Java
 
@@ -193,8 +193,8 @@ Neste tutorial aprendemos como **salvar OneNote como PDF** controlando o subsist
 
 ---
 
-**Última atualização:** 2026-03-14  
-**Testado com:** Aspose.Note for Java 24.11  
+**Última atualização:** 2025-12-18  
+**Testado com:** Aspose.Note for Java 26.4  
 **Autor:** Aspose  
 
 {{< /blocks/products/pf/tutorial-page-section >}}

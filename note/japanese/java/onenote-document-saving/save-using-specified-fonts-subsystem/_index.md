@@ -19,12 +19,17 @@ weight: 22
 
 多くのビジネスシナリオでは、元のページと同じ外観を保ったまま **OneNote を PDF に保存**する必要があります。Aspose.Note for Java は、変換中にフォントサブシステムを制御できるため、これを簡単に実現します。このチュートリアルでは、**OneNote を PDF に変換**するための実用的な 3 つの方法を紹介します。**カスタムフォントファイルの読み込み**、**デフォルト PDF フォントの指定**、そしてフォントが対象マシンに存在しない場合の **フォントストリームの使用** について解説します。これらの手法は、**.one を pdf に変換**する自動化パイプラインでも役立ちます。
 
-## クイック回答
-- **「OneNote を PDF に保存」とは何ですか？** .one ファイルを PDF に変換し、レイアウトとスタイリングをそのまま保持します。  
-- **フォントを扱う API はどれですか？** `DocumentFontsSubsystem` はデフォルトフォントの設定やカスタムフォントファイル/ストリームの読み込みを行えます。  
-- **本番環境でライセンスは必要ですか？** はい、トライアル以外で使用する場合は商用の Aspose.Note ライセンスが必要です。  
-- **バッチで複数ファイルを変換できますか？** もちろんです。`Document` の読み込みと保存ロジックをループさせるだけです。  
-- **必要な Java バージョンは？** Java 15 以降（例は JDK 15 を使用）。
+## クイック アンサー
+- **「OneNote を PDF として保存」とは何ですか？**  
+  .one ファイルを PDF に変換し、レイアウトとスタイリングをそのまま保持します。  
+- **フォントを扱う API はどれですか？**  
+  `DocumentFontsSubsystem` を使用すると、デフォルトフォントの設定やカスタムフォントファイル/ストリームの読み込みが可能です。  
+- **本番環境でライセンスは必要ですか？**  
+  はい、商用利用には Aspose.Note の商用ライセンスが必要です（トライアル版以外）。  
+- **バッチで複数ファイルを変換できますか？**  
+  もちろんです。`Document` の読み込みと保存ロジックをループさせるだけです。  
+- **必要な Java バージョンは？**  
+  Java 8 以降（サンプルは JDK 8 を使用）。
 
 ## フォントサブシステムを使用した「OneNote を PDF に保存」とは何か？
 
@@ -49,7 +54,7 @@ weight: 22
 
 ### 1. Java Development Kit (JDK)
 
-システムに Java Development Kit (JDK) がインストールされていることを確認してください。まだインストールしていない場合は、[here](https://www.oracle.com/java/technologies/javase-jdk15-downloads.html) からダウンロードできます。
+システムに Java Development Kit (JDK) がインストールされていることを確認してください。まだインストールしていない場合は、[here](https://www.oracle.com/java/technologies/downloads/) からダウンロードできます。
 
 ### 2. Aspose.Note for Java Library
 
@@ -192,9 +197,9 @@ A: はい、Aspose のウェブサイトから無料トライアルをダウン�
 
 ---
 
-**最終更新日:** 2026-03-14  
-**テスト対象:** Aspose.Note for Java 24.11  
-**作者:** Aspose  
+**Last Updated:** 2025-12-18  
+**Tested With:** Aspose.Note for Java 26.4  
+**Author:** Aspose  
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

@@ -135,9 +135,9 @@ A: 평가용 무료 체험판을 제공하지만, 프로덕션 환경에 배포�
 
 ---
 
-**Last Updated:** 2026-03-14  
-**Tested With:** Aspose.Note for Java 23.12  
-**Author:** Aspose  
+**최종 업데이트:** 2025-12-17
+**테스트 환경:** Aspose.Note for Java 26.4
+**작성자:**  
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

@@ -25,7 +25,7 @@ weight: 16
 - **मुझे कौनसी लाइब्रेरी चाहिए?** Aspose.Note for Java  
 - **क्या मैं केवल चयनित पृष्ठों को बदल सकता हूँ?** हाँ – `PdfSaveOptions.setPageIndex` और `setPageCount` का उपयोग करें  
 - **क्या उत्पादन के लिए लाइसेंस चाहिए?** गैर‑ट्रायल उपयोग के लिए एक व्यावसायिक लाइसेंस आवश्यक है  
-- **कौनसा Java संस्करण समर्थित है?** JDK 8 या बाद का (JDK 15 की सिफारिश की जाती है)  
+- **कौनसा Java संस्करण समर्थित है?** JDK 8 या बाद का (JDK 8 की सिफारिश की जाती है)  
 - **क्या आउटपुट PDF खोज योग्य है?** हाँ, उत्पन्न PDF डिफ़ॉल्ट रूप से टेक्स्ट खोज योग्य रखता है  
 
 ## “OneNote को PDF में बदलना” क्या है?
@@ -41,7 +41,7 @@ OneNote नोटबुक को PDF में बदलना का अर्
 
 शुरू करने से पहले, सुनिश्चित करें कि आपके पास निम्नलिखित हैं:
 
-1. **Java Development Kit (JDK)** – JDK 8+ स्थापित हो। आप इसे [here](https://www.oracle.com/java/technologies/javase-jdk15-downloads.html) से डाउनलोड कर सकते हैं।  
+1. **Java Development Kit (JDK)** – JDK 8+ स्थापित हो। आप इसे [here](https://www.oracle.com/java/technologies/downloads/) से डाउनलोड कर सकते हैं।  
 2. **Aspose.Note for Java** – नवीनतम JAR को [here](https://releases.aspose.com/note/java/) से डाउनलोड करें।  
 
 ## पैकेज आयात करें
@@ -130,7 +130,7 @@ A: एक मुफ्त ट्रायल डाउनलोड के लि
 ---
 
 **अंतिम अपडेट:** 2025-11-30  
-**परीक्षित संस्करण:** Aspose.Note for Java 24.11  
+**परीक्षित संस्करण:** Aspose.Note for Java 26.4  
 **लेखक:** Aspose  
 
 {{< /blocks/products/pf/tutorial-page-section >}}
