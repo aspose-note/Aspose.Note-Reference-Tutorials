@@ -49,7 +49,7 @@ Ujistěte se, že jste nastavili vývojové prostředí pomocí sady Visual Stud
 ```csharp
 string dataDir = "Your Document Directory";
 
-FileStream stream = new FileStream(dataDir + "Notizbuch öffnen.onetoc2", FileMode.Open);
+FileStream stream = new FileStream(dataDir + "Notebook.onetoc2", FileMode.Open);
 ```
 
 ## Krok 3: Inicializujte objekt Notebook

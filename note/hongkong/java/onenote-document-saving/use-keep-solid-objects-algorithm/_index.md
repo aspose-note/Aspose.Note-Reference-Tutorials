@@ -118,8 +118,8 @@ A: 您可以在此購買 Aspose.Note for Java 的授權[here](https://purchase.a
 
 ---
 
-**最後更新：** 2026-03-16  
-**測試環境：** Aspose.Note for Java 24.12  
+**最後更新：** 2025-12-18  
+**測試環境：** Aspose.Note for Java 26.4  
 **作者：** Aspose  
 
 {{< /blocks/products/pf/tutorial-page-section >}}

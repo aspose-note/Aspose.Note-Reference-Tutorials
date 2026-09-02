@@ -42,7 +42,7 @@ using System.Collections.Generic;
 
 ```csharp
 string dataDir = "Your Document Directory";
-var notebook = new Notebook(dataDir + "Notizbuch �ffnen.onetoc2");
+var notebook = new Notebook(dataDir + "Notebook.onetoc2");
 ```
 
 ## ขั้นตอนที่ 2: บันทึกสมุดบันทึกเป็นรูปภาพ

@@ -85,7 +85,7 @@ outline.setHorizontalOffset(0);
 Ladda bilden du vill bädda in och justera den till högra sidan av sidan. Här lägger vi faktiskt **till bild i OneNote**.
 
 ```java
-Image image = new Image(null, dataDir + "Input.jpg");
+Image image = new Image(dataDir + "Input.jpg");
 image.setAlignment(HorizontalAlignment.Right);
 ```
 
@@ -148,7 +148,7 @@ A5: Ja, du kan begära en tillfällig licens [här](https://purchase.aspose.com/
 ---
 
 **Senast uppdaterad:** 2025-12-20  
-**Testad med:** Aspose.Note för Java 24.12 (senaste)  
+**Testad med:** Aspose.Note för Java 26.4 (senaste)  
 **Författare:** Aspose  
 
 {{< /blocks/products/pf/tutorial-page-section >}}

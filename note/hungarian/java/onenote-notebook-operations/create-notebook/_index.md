@@ -33,7 +33,7 @@ Mielőtt elkezdenénk, győződjön meg róla, hogy a következők rendelkezésr
 
 ### Java Development Kit (JDK) telepítve
 
-Friss JDK‑ra van szüksége. Töltse le a [Java weboldaláról](https://www.oracle.com/java/technologies/javase-jdk15-downloads.html).
+Friss JDK‑ra van szüksége. Töltse le a [Java weboldaláról](https://www.oracle.com/java/technologies/downloads/).
 
 ### Aspose.Note for Java könyvtár
 
@@ -119,7 +119,7 @@ V: A könyvtár Java 8‑as és újabb verziókkal működik.
 ---
 
 **Utoljára frissítve:** 2025-12-31  
-**Tesztelt verzió:** Aspose.Note for Java 24.12  
+**Tesztelt verzió:** Aspose.Note for Java 26.4  
 **Szerző:** Aspose  
 
 ---

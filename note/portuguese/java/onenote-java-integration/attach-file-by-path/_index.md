@@ -86,7 +86,7 @@ OutlineElement outlineElem = new OutlineElement();
 Instancie um `AttachedFile` com o caminho completo do arquivo que você deseja incorporar:
 
 ```java
-AttachedFile attachedFile = new AttachedFile(null, dataDir + "attachment.txt");
+AttachedFile attachedFile = new AttachedFile(dataDir + "attachment.txt");
 ```
 
 Altere `"attachment.txt"` para o nome do arquivo que você deseja anexar (java code attach file).
@@ -168,7 +168,7 @@ R: Uma licença válida do Aspose.Note é necessária para implantações em pro
 ---
 
 **Última Atualização:** 2025-12-25  
-**Testado com:** Aspose.Note for Java 24.11  
+**Testado com:** Aspose.Note for Java 26.4  
 **Autor:** Aspose
 
 {{< /blocks/products/pf/tutorial-page-section >}}

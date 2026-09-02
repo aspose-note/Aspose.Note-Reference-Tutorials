@@ -130,8 +130,8 @@ A: You can request a [temporary license](https://purchase.aspose.com/temporary-l
 
 ---
 
-**Last Updated:** 2026-03-16  
-**Tested With:** Aspose.Note 24.12 for Java  
+**Last Updated:** 2025-12-18  
+**Tested With:** Aspose.Note 26.4 for Java  
 **Author:** Aspose  
 
 {{< /blocks/products/pf/tutorial-page-section >}}

@@ -154,9 +154,9 @@ A7 : Oui, `PdfSaveOptions` prend en charge des paramètres supplémentaires te
 
 ---
 
-**Dernière mise à jour :** 2026-03-16  
-**Testé avec :** Aspose.Note for Java 24.12 (latest)  
-**Auteur :** Aspose  
+**Dernière mise à jour:** 2025-12-18
+**Testé avec:** Aspose.Note pour Java 26.4 (dernière version)
+**Auteur :** Aspose 
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

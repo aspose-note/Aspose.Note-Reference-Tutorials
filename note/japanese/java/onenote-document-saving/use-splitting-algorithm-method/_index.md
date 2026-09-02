@@ -129,11 +129,9 @@ A: Yes, you can avail of a [free trial](https://releases.aspose.com/) to explore
 **Q: How can I obtain a temporary license for Aspose.Note?**  
 A: You can request a [temporary license](https://purchase.aspose.com/temporary-license/) to evaluate the product under a trial period.
 
----
-
-**Last Updated:** 2026-03-16  
-**Tested With:** Aspose.Note 24.12 for Java  
-**Author:** Aspose  
+**最終更新日:** 2025-12-18  
+**テスト環境:** Aspose.Note 26.4 for Java  
+**作者:** Aspose  
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

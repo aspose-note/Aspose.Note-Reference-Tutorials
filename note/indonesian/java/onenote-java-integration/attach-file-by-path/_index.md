@@ -84,7 +84,7 @@ OutlineElement outlineElem = new OutlineElement();
 Instansiasi `AttachedFile` dengan path lengkap ke file yang ingin Anda sematkan:
 
 ```java
-AttachedFile attachedFile = new AttachedFile(null, dataDir + "attachment.txt");
+AttachedFile attachedFile = new AttachedFile(dataDir + "attachment.txt");
 ```
 
 Ubah `"attachment.txt"` menjadi nama file yang ingin Anda lampirkan (java code attach file).
@@ -166,7 +166,7 @@ J: Lisensi Aspose.Note yang valid diperlukan untuk penyebaran produksi; versi pe
 ---
 
 **Last Updated:** 2025-12-25  
-**Tested With:** Aspose.Note for Java 24.11  
+**Tested With:** Aspose.Note for Java 26.4  
 **Author:** Aspose
 
 {{< /blocks/products/pf/tutorial-page-section >}}

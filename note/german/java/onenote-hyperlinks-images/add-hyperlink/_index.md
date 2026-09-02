@@ -130,7 +130,7 @@ Die Methode `setHyperlinkAddress` teilt Aspose.Note mit, dass dieses Segment ank
 ```java
 RichText text = new RichText()
                             .append("This is ", textStyleRed)
-                            .append("hyperlink", new TextStyle().setHyperlinkAddress("www.google.com"))
+                            .append("hyperlink", new TextStyle().setHyperlinkAddress("https://www.google.com"))
                             .append(". This text is not a hyperlink.", TextStyle.getDefault());
 text.setParagraphStyle(defaultTextStyle);
 outlineElem.appendChildLast(text);
@@ -179,7 +179,7 @@ A: Eine temporäre Evaluationslizenz reicht für Entwicklung und Tests aus, für
 ---
 
 **Zuletzt aktualisiert:** 2025-12-20  
-**Getestet mit:** Aspose.Note for Java 23.12  
+**Getestet mit:** Aspose.Note for Java 26.4  
 **Autor:** Aspose  
 
 {{< /blocks/products/pf/tutorial-page-section >}}

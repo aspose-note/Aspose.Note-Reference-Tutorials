@@ -146,12 +146,9 @@ A5: 네, 상용 라이선스를 구매하면 프로덕션 환경에서 라이브
 **Q6: JPEG 압축이 최종 PDF 크기에 어떤 영향을 미치나요?**  
 A6: JPEG 압축은 삽입된 이미지 크기를 크게 줄이며, 이는 그래픽이 많은 페이지에서 **reduce pdf size**의 주요 요인입니다.
 
-**Q7: 페이지 선택과 동시에 워터마크 추가 등 여러 저장 옵션을 체인할 수 있나요?**  
-A7: 네, `PdfSaveOptions`는 워터마크, 암호화, 메타데이터 등 추가 설정을 지원하므로 페이지 선택과 함께 사용할 수 있습니다.
-
-**Last Updated:** 2026-03-16  
-**Tested With:** Aspose.Note for Java 24.12 (latest)  
-**Author:** Aspose  
+**마지막 업데이트:** 2025-12-18  
+**테스트 환경:** Aspose.Note for Java 26.4 (latest)  
+**작성자:** Aspose  
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

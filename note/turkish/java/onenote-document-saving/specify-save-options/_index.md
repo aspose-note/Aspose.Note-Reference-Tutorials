@@ -154,8 +154,8 @@ C7: Evet, `PdfSaveOptions` sayfa seçimiyle birleştirilebilen filigran, şifrel
 
 ---
 
-**Son Güncelleme:** 2026-03-16  
-**Test Edilen Versiyon:** Aspose.Note for Java 24.12 (en son)  
+**Son Güncelleme:** 2025-12-18
+**Edilen Sürümünü Test Edin:** Aspose.Note for Java 26.4 (en yeni)
 **Yazar:** Aspose  
 
 {{< /blocks/products/pf/tutorial-page-section >}}

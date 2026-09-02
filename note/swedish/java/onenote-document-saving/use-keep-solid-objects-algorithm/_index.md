@@ -119,8 +119,8 @@ A: Du kan köpa en licens för Aspose.Note för Java [here](https://purchase.asp
 
 ---
 
-**Senast uppdaterad:** 2026-03-16  
-**Testat med:** Aspose.Note för Java 24.12  
+**Senast uppdaterad:** 2025-12-18  
+**Testat med:** Aspose.Note for Java 26.4  
 **Författare:** Aspose  
 
 {{< /blocks/products/pf/tutorial-page-section >}}

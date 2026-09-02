@@ -85,7 +85,7 @@ Page page = oneFile.getFirstChild();
 OneNote belgesine eklemek istediğiniz resmi yükleyin.
 
 ```java
-Image image = new Image(oneFile, dataDir + "Input.jpg");
+Image image = new Image(dataDir + "Input.jpg");
 ```
 
 ## Adım 4: Resim Özelliklerini Özelleştirin (İsteğe Bağlı)
@@ -149,7 +149,7 @@ C5: Aspose.Note ürünlerine özel [forum](https://forum.aspose.com/c/note/28) �
 ---
 
 **Son Güncelleme:** 2025-12-21  
-**Test Edilen Versiyon:** Aspose.Note for Java 24.10  
+**Test Edilen Versiyon:** Aspose.Note for Java 26.4  
 **Yazar:** Aspose  
 
 {{< /blocks/products/pf/tutorial-page-section >}}

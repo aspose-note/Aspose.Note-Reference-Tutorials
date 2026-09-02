@@ -1,26 +1,46 @@
 ---
-title: Crear lista numerada en OneNote - Aspose.Note
-linktitle: Crear lista numerada en OneNote - Aspose.Note
-second_title: Aspose.Nota Java API
-description: Aprenda cómo crear fácilmente una lista numerada en OneNote con Aspose.Note para Java. ¡Descarga una prueba gratuita y sumérgete en el mundo del desarrollo Java!
-weight: 14
+date: 2026-03-05
+description: Aprende cómo guardar OneNote como PDF mientras creas una lista numerada
+  usando Aspose.Note para Java. Incluye pasos para establecer el estilo de texto predeterminado
+  y personalizar la numeración.
+linktitle: Save OneNote as PDF – Create Numbered List with Aspose.Note
+second_title: Aspose.Note Java API
+title: Guardar OneNote como PDF – Crear lista numerada con Aspose.Note
 url: /es/java/onenote-text-manipulation/create-numbered-list/
+weight: 14
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Crear lista numerada en OneNote - Aspose.Note
+# Guardar OneNote como PDF – Crear lista numerada con Aspose.Note
 
 ## Introducción
-Aspose.Note para Java permite a los desarrolladores de Java trabajar sin problemas con archivos de Microsoft OneNote. En este tutorial, lo guiaremos a través del proceso de elaboración de una lista numerada en OneNote con la poderosa biblioteca Aspose.Note para Java.
+Aspose.Note for Java permite a los desarrolladores Java **save OneNote as PDF** y enriquecer el documento con formato avanzado, como listas numeradas. En este tutorial, le guiaremos a través del proceso completo—desde establecer un estilo de texto predeterminado hasta personalizar el formato de numeración—para que pueda exportar OneNote a PDF con un aspecto profesional.
+
+## Respuestas rápidas
+- **¿Qué cubre este tutorial?** Crear una lista numerada en OneNote y guardar el archivo como PDF usando Aspose.Note for Java.  
+- **¿Qué palabra clave principal se dirige?** *save onenote as pdf*  
+- **¿Necesito una licencia?** Hay una versión de prueba disponible; se requiere una licencia comercial para producción.  
+- **¿Qué versión de Java se necesita?** JDK 8 o posterior.  
+- **¿Cuánto tiempo lleva la implementación?** Aproximadamente 10–15 minutos para una lista básica.
+
+## ¿Qué es “save OneNote as PDF”?
+Guardar OneNote como PDF convierte la página de OneNote con texto enriquecido en un documento portátil de diseño fijo que puede compartirse entre plataformas sin requerir OneNote. Esto es especialmente útil para archivado, informes o distribución de contenido a usuarios que no tienen OneNote instalado.
+
+## ¿Por qué crear una lista numerada antes de exportar?
+Una lista numerada agrega estructura y legibilidad, haciendo que el PDF exportado parezca un informe pulido. Con Aspose.Note puedes **customizar el formato de numeración**, establecer fuentes y controlar el espaciado, todo mientras preservas el diseño original de OneNote.
+
 ## Requisitos previos
-Antes de sumergirse en el tutorial, asegúrese de que se cumplan los siguientes requisitos previos:
-- Instaló el kit de desarrollo de Java (JDK) en su máquina.
--  Biblioteca Aspose.Note para Java descargada de[aquí](https://releases.aspose.com/note/java/).
-## Importación de paquetes
-Primero, importemos los paquetes necesarios en su proyecto Java para aprovechar al máximo las funcionalidades de Aspose.Note. Incluya el siguiente código en su proyecto:
+Antes de comenzar, asegúrese de tener:
+
+- Kit de desarrollo de Java (JDK) instalado en su máquina.  
+- Biblioteca Aspose.Note for Java descargada desde [here](https://releases.aspose.com/note/java/).  
+
+## Importando paquetes
+Primero, importe las clases requeridas para trabajar con objetos OneNote y la conversión a PDF.
+
 ```java
 import java.awt.Color;
 import java.io.IOException;
@@ -33,15 +53,21 @@ import com.aspose.note.Page;
 import com.aspose.note.RichText;
 import com.aspose.note.ParagraphStyle;
 ```
-## Paso 1: Inicializar objetos de documento, página y esquema
+
+## ¿Cómo guardar OneNote como PDF con una lista numerada?
+A continuación se muestra una guía paso a paso que explica **cómo crear elementos de lista**, **establecer el estilo de texto predeterminado** y, finalmente, **exportar OneNote a PDF**.
+
+### Paso 1: Inicializar objetos Document, Page y Outline
+Comenzamos creando las estructuras centrales de OneNote. Esto también demuestra el uso de **add outline element java**.
+
 ```java
-// Su directorio de documentos
+// Your Document Directory
 String dataDir = "Your Document Directory";
-// Crear objetos de documento, página y esquema
+// Create Document, Page, and Outline objects
 Document doc = new Document();
 Page page = new Page();
 Outline outline = new Outline();
-// Establecer estilo de texto predeterminado
+// Set default text style
 ParagraphStyle defaultStyle = new ParagraphStyle()
                                         .setFontColor(Color.black)
                                         .setFontName("Arial")
@@ -50,56 +76,96 @@ Document doc = new Document();
 Page page = new Page();
 Outline outline = new Outline();
 ```
-## Paso 2: configurar el estilo de texto predeterminado
+
+> **Consejo profesional:** Mantenga la ruta `dataDir` absoluta o use `System.getProperty("user.dir")` para evitar problemas de ruta.
+
+### Paso 2: Establecer estilo de texto predeterminado
+Un estilo consistente asegura que la lista tenga un aspecto uniforme en todos los elementos.
+
 ```java
 ParagraphStyle defaultStyle = new ParagraphStyle()
                                         .setFontColor(Color.black)
                                         .setFontName("Arial")
                                         .setFontSize(10);
 ```
-## Paso 3: crear elementos de esquema
-Ahora, creemos los elementos para su lista numerada.
+
+### Paso 3: Crear elementos Outline (lista numerada)
+Aquí **customizamos el formato de numeración** usando `NumberList`. El patrón `"{0})"` produce “1)”, “2)”, etc.
+
 ```java
 OutlineElement outlineElem1 = new OutlineElement();
 outlineElem1.setNumberList(new NumberList("{0})", NumberFormat.DecimalNumbers, "Arial", 10));
 RichText text1 = new RichText().append("First");
 text1.setParagraphStyle(defaultStyle);
 outlineElem1.appendChildLast(text1);
-// Repita para otros elementos (outlineElem2 y esquemaElem3)
+// Repeat for other elements (outlineElem2 and outlineElem3)
 ```
-## Paso 4: Agregar elementos de esquema al esquema
+
+> **Por qué es importante:** Al adjuntar un `NumberList` a cada `OutlineElement`, obtiene control total sobre el estilo de numeración, la fuente y el tamaño.
+
+### Paso 4: Añadir elementos Outline al Outline
+Ahora agrupamos los elementos individuales de la lista en un solo outline.
+
 ```java
 outline.appendChildLast(outlineElem1);
 outline.appendChildLast(outlineElem2);
 outline.appendChildLast(outlineElem3);
 ```
-## Paso 5: agregar un esquema a la página
+
+### Paso 5: Adjuntar Outline a la página
+El outline pasa a formar parte de la jerarquía de la página de OneNote.
+
 ```java
 page.appendChildLast(outline);
 ```
-## Paso 6: guardar el documento
+
+### Paso 6: Guardar el documento como PDF
+Finalmente, **save OneNote as PDF**. El archivo de salida contendrá la lista numerada exactamente como se definió.
+
 ```java
 doc.appendChildLast(page);
 doc.save(dataDir + "CreateNumberedList_out.pdf");
 System.out.printf("File saved: %s\n", dataDir + "CreateNumberedList_out.pdf");
 ```
-Siga estos pasos meticulosamente y creará sin esfuerzo una lista numerada en OneNote usando Aspose.Note para Java.
-## Conclusión
-En este tutorial, exploramos el proceso perfecto de creación de una lista numerada en OneNote usando Aspose.Note para Java. Las sólidas funciones de la biblioteca la convierten en una herramienta invaluable para los desarrolladores de Java que trabajan con archivos de Microsoft OneNote.
+
+Ejecutar el código anterior genera un PDF llamado `CreateNumberedList_out.pdf` en el directorio especificado, preservando el formato de la lista numerada.
+
+## Problemas comunes y soluciones
+| Problema | Solución |
+|----------|----------|
+| **PDF está vacío** | Asegúrese de que `doc.appendChildLast(page);` se llame antes de `doc.save()`. |
+| **La numeración no se muestra** | Verifique que el patrón de `NumberList` y `NumberFormat` estén configurados correctamente. |
+| **Error de archivo no encontrado** | Use una ruta absoluta para `dataDir` o cree el directorio con antelación. |
+| **Desajuste de fuente** | Instale la fuente (p. ej., Arial) en la máquina donde se ejecuta el código. |
+
 ## Preguntas frecuentes
 ### P: ¿Puedo personalizar el formato de numeración en mi lista de OneNote?
-R: ¡Absolutamente! Puede personalizar el formato de numeración utilizando la clase NumberList proporcionada por Aspose.Note para Java.
-### P: ¿Existe una versión de prueba disponible de Aspose.Note para Java?
- R: Sí, puedes descargar una prueba gratuita[aquí](https://releases.aspose.com/).
-### P: ¿Cómo puedo obtener soporte para Aspose.Note para Java?
- R: Visita el[Aspose.Note para el foro de Java](https://forum.aspose.com/c/note/28) para el apoyo de la comunidad.
-### P: ¿Dónde puedo encontrar documentación detallada de Aspose.Note para Java?
- R: Consulte el[documentación](https://reference.aspose.com/note/java/) para obtener información completa.
-### P: ¿Cómo compro una licencia de Aspose.Note para Java?
- R: Puedes comprar una licencia[aquí](https://purchase.aspose.com/buy).
+R: ¡Absolutamente! Puede personalizar el formato de numeración usando la clase `NumberList` proporcionada por Aspose.Note for Java.
+
+### P: ¿Hay una versión de prueba disponible para Aspose.Note for Java?
+R: Sí, puede descargar una prueba gratuita [here](https://releases.aspose.com/).
+
+### P: ¿Cómo puedo obtener soporte para Aspose.Note for Java?
+R: Visite el [foro de Aspose.Note for Java](https://forum.aspose.com/c/note/28) para obtener soporte de la comunidad.
+
+### P: ¿Dónde puedo encontrar documentación detallada para Aspose.Note for Java?
+R: Consulte la [documentación](https://reference.aspose.com/note/java/) para obtener información completa.
+
+### P: ¿Cómo compro una licencia para Aspose.Note for Java?
+R: Puede adquirir una licencia [here](https://purchase.aspose.com/buy).
+
+## Conclusión
+En este tutorial demostramos cómo **save OneNote as PDF** mientras creamos una lista numerada limpia usando Aspose.Note for Java. Al establecer un estilo de texto predeterminado, personalizar el formato de numeración y seguir la guía paso a paso, puede generar PDFs profesionales a partir de páginas de OneNote de forma rápida y fiable.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
+
+---
+
+**Última actualización:** 2026-03-05  
+**Probado con:** Aspose.Note for Java 24.11  
+**Autor:** Aspose

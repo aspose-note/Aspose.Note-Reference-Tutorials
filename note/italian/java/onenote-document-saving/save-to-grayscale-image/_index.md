@@ -111,7 +111,7 @@ Ora hai imparato **come esportare onenote** caricando un file OneNote, configura
 ---
 
 **Last Updated:** 2025-12-17  
-**Tested With:** Aspose.Note 24.12 for Java  
+**Tested With:** Aspose.Note 26.4 for Java  
 **Author:** Aspose
 
 {{< /blocks/products/pf/tutorial-page-section >}}

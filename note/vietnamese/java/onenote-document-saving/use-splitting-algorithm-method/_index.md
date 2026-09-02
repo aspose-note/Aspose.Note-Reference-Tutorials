@@ -130,11 +130,9 @@ try {
 **H: Làm sao để lấy giấy phép tạm thời cho Aspose.Note?**  
 Đ: Bạn có thể yêu cầu [temporary license](https://purchase.aspose.com/temporary-license/) để đánh giá sản phẩm trong thời gian thử nghiệm.
 
----
-
-**Cập nhật lần cuối:** 2026-03-16  
-**Kiểm tra với:** Aspose.Note 24.12 cho Java  
-**Tác giả:** Aspose  
+**Last Updated:** 2025-12-18  
+**Tested With:** Aspose.Note 26.4 for Java  
+**Author:** Aspose  
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

@@ -33,7 +33,7 @@ Antes de mergulharmos na implementação, certifique-se de que você tem os segu
 
 ### 1. Kit de Desenvolvimento Java (JDK)
 
-Certifique-se de que o Java Development Kit (JDK) está instalado em seu sistema. Você pode baixar e instalar o JDK mais recente no [site da Oracle](https://www.oracle.com/java/technologies/javase-jdk15-downloads.html).
+Certifique-se de que o Java Development Kit (JDK) está instalado em seu sistema. Você pode baixar e instalar o JDK mais recente no [site da Oracle](https://www.oracle.com/java/technologies/downloads/).
 
 ### 2. Biblioteca Aspose.Note para Java
 
@@ -148,7 +148,7 @@ Seguindo as etapas descritas neste tutorial, você pode efetivamente **obter dim
 ---
 
 **Última atualização:** 2025-12-21  
-**Testado com:** Aspose.Note for Java 23.12  
+**Testado com:** Aspose.Note for Java 26.4  
 **Autor:** Aspose
 
 {{< /blocks/products/pf/tutorial-page-section >}}

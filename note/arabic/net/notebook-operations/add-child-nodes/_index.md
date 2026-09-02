@@ -47,7 +47,7 @@ using System.Collections.Generic;
 string dataDir = "Your Document Directory";
 
 // قم بتحميل دفتر ملاحظات OneNote
-var notebook = new Notebook(dataDir + "Notizbuch �ffnen.onetoc2");
+var notebook = new Notebook(dataDir + "Notebook.onetoc2");
 ```
 
 ## الخطوة 2: إلحاق عقدة فرعية جديدة

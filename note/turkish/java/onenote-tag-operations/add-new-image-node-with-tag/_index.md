@@ -58,7 +58,7 @@ OutlineElement outlineElem = new OutlineElement();
 ## Adım 5: Görüntüyü Yükleyin ve Ekleyin
 ```java
 // bir resim yükle
-Image image = new Image(null, dataDir + "Input.jpg");
+Image image = new Image(dataDir + "Input.jpg");
 // belge düğümüne resim ekle
 outlineElem.appendChildLast(image);
 ```

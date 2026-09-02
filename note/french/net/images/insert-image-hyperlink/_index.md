@@ -41,7 +41,7 @@ Tout d’abord, nous devons initialiser un nouveau document et créer une page p
 
 ```csharp
 var document = new Document();
-var page = new Page(document);
+var page = new Page();
 ```
 
 ## Étape 2 : Insérer une image avec un lien hypertexte
@@ -50,7 +50,7 @@ Maintenant, insérons l'image avec un lien hypertexte. Nous allons créer un`Ima
 
 ```csharp
 string imagePath = "path_to_your_image.jpg";
-var image = new Image(document, imagePath) { HyperlinkUrl = "http://exemple.com" };
+var image = new Image(imagePath) { HyperlinkUrl = "https://exemple.com" };
 ```
 
 ## Étape 3 : ajouter une image à la page

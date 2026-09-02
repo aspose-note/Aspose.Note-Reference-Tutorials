@@ -165,8 +165,8 @@ A7: はい、`PdfSaveOptions` は透かし、暗号化、メタデータなど�
 
 ---
 
-**最終更新日:** 2026-03-16  
-**テスト環境:** Aspose.Note for Java 24.12 (latest)  
+**最終更新日:** 2025-12-18  
+**テスト環境:** Aspose.Note for Java 26.4 (latest)  
 **作者:** Aspose  
 
 {{< /blocks/products/pf/tutorial-page-section >}}

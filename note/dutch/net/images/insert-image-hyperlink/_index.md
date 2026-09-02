@@ -41,7 +41,7 @@ Eerst moeten we een nieuw document initialiseren en een pagina maken om onze afb
 
 ```csharp
 var document = new Document();
-var page = new Page(document);
+var page = new Page();
 ```
 
 ## Stap 2: Afbeelding invoegen met hyperlink
@@ -50,7 +50,7 @@ Laten we nu de afbeelding met een hyperlink invoegen. We maken een`Image` object
 
 ```csharp
 string imagePath = "path_to_your_image.jpg";
-var image = new Image(document, imagePath) { HyperlinkUrl = "http://voorbeeld.com" };
+var image = new Image(imagePath) { HyperlinkUrl = "https://voorbeeld.com" };
 ```
 
 ## Stap 3: Afbeelding aan pagina toevoegen

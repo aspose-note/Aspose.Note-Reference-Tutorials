@@ -32,7 +32,7 @@ Innan vi börjar, se till att du har följande redo:
 
 ### Java Development Kit (JDK) installerat
 
-Du behöver en aktuell JDK. Ladda ner den från [Java website](https://www.oracle.com/java/technologies/javase-jdk15-downloads.html).
+Du behöver en aktuell JDK. Ladda ner den från [Java website](https://www.oracle.com/java/technologies/downloads/).
 
 ### Aspose.Note för Java-biblioteket
 
@@ -118,7 +118,7 @@ A: Biblioteket fungerar med Java 8 och senare versioner.
 ---
 
 **Last Updated:** 2025-12-31  
-**Tested With:** Aspose.Note for Java 24.12  
+**Tested With:** Aspose.Note for Java 26.4  
 **Author:** Aspose
 
 {{< /blocks/products/pf/tutorial-page-section >}}

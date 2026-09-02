@@ -24,7 +24,7 @@ Trong hướng dẫn này, chúng ta sẽ khám phá cách **chuyển OneNote sa
 - **Thư viện nào tôi cần?** Aspose.Note for Java  
 - **Tôi có thể chỉ chuyển các trang đã chọn không?** Yes – use `PdfSaveOptions.setPageIndex` and `setPageCount`  
 - **Tôi có cần giấy phép cho môi trường sản xuất không?** A commercial license is required for non‑trial use  
-- **Phiên bản Java nào được hỗ trợ?** JDK 8 hoặc mới hơn (JDK 15 được khuyến nghị)  
+- **Phiên bản Java nào được hỗ trợ?** JDK 8 hoặc mới hơn (JDK 8 được khuyến nghị)  
 - **PDF đầu ra có thể tìm kiếm được không?** Yes, the generated PDF retains text searchable by default  
 
 ## Chuyển OneNote sang PDF là gì?
@@ -40,7 +40,7 @@ Chuyển một sổ ghi chú OneNote sang PDF có nghĩa là lấy tệp OneNote
 
 Trước khi bắt đầu, hãy chắc chắn bạn có những thứ sau:
 
-1. **Java Development Kit (JDK)** – JDK 8+ đã được cài đặt. Bạn có thể tải xuống từ [here](https://www.oracle.com/java/technologies/javase-jdk15-downloads.html).  
+1. **Java Development Kit (JDK)** – JDK 8+ đã được cài đặt. Bạn có thể tải xuống từ [here](https://www.oracle.com/java/technologies/downloads/).  
 2. **Aspose.Note for Java** – tải JAR mới nhất từ [here](https://releases.aspose.com/note/java/).  
 
 ## Nhập các gói
@@ -129,7 +129,7 @@ A: A free trial is available for download [here](https://releases.aspose.com/).
 ---
 
 **Cập nhật lần cuối:** 2025-11-30  
-**Kiểm tra với:** Aspose.Note for Java 24.11  
+**Kiểm tra với:** Aspose.Note for Java 26.4  
 **Tác giả:** Aspose  
 
 {{< /blocks/products/pf/tutorial-page-section >}}

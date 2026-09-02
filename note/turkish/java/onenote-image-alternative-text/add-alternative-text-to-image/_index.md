@@ -89,7 +89,7 @@ Ekleyeceğimiz görseli bir sayfaya yerleştireceğiz.
 ### Adım 4: Sayfaya Görsel Ekleme
 
 ```java
-Image image = new Image(null, dataDir + "image.jpg");
+Image image = new Image(dataDir + "image.jpg");
 ```
 
 `Görüntü` yapıcı fonksiyonu, belirtilen yoldan görsel dosyasını yükler.
@@ -166,7 +166,7 @@ Bu adım adım kılavuzu izleyerek, artık Java kullanarak OneNote'ta resimlere 
 ---
 
 **Son Güncelleme:** 2025-12-23
-**Test Edildiği Sürüm:** Aspose.Note for Java 24.11
+**Test Edildiği Sürüm:** Aspose.Note for Java 26.4
 **Yazar:** Aspose  
 
 {{< /blocks/products/pf/tutorial-page-section >}}

@@ -61,7 +61,7 @@ Aspose.Note.Page page = new Aspose.Note.Page(doc);
 ## Krok 3: Inicializujte objekt obrysu
 
 ```csharp
-Outline outline = new Outline(doc);
+Outline outline = new Outline();
 ```
 
  The`Outline`class představuje uzel osnovy v hierarchii dokumentů. Vytvoříme nový objekt osnovy pro strukturování našeho dokumentu.
@@ -69,7 +69,7 @@ Outline outline = new Outline(doc);
 ## Krok 4: Inicializujte objekt OutlineElement
 
 ```csharp
-OutlineElement outlineElem = new OutlineElement(doc);
+OutlineElement outlineElem = new OutlineElement();
 ```
 
  An`OutlineElement` představuje prvek v obrysu. Zde vytvoříme nový prvek osnovy pro přidání obsahu do našeho dokumentu.

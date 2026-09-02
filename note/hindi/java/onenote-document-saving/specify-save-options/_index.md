@@ -152,8 +152,8 @@ A7: हाँ, `PdfSaveOptions` अतिरिक्त सेटिंग्�
 
 ---
 
-**अंतिम अपडेट:** 2026-03-16  
-**परीक्षित संस्करण:** Aspose.Note for Java 24.12 (latest)  
+**अंतिम अपडेट:** 2025-12-18  
+**परीक्षण किया गया:** Aspose.Note for Java 26.4 (latest)  
 **लेखक:** Aspose  
 
 {{< /blocks/products/pf/tutorial-page-section >}}

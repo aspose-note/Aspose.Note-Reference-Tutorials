@@ -132,7 +132,7 @@ try {
 Create un oggetto `Image`. Il primo argomento può essere `null` quando fornite successivamente uno stream, ma per semplicità facciamo riferimento al percorso del file qui e impostiamo il suo allineamento sul lato destro della pagina.
 
 ```java
-Image image = new Image(null, dataDir + "image1.jpg");
+Image image = new Image(dataDir + "image1.jpg");
 image.setAlignment(HorizontalAlignment.Right);
 ```
 
@@ -214,7 +214,7 @@ A5: Sì, potete scaricare una prova gratuita dalla pagina di rilascio Aspose per
 ---
 
 **Ultimo aggiornamento:** 2025-12-21  
-**Testato con:** Aspose.Note for Java 24.12 (ultima versione al momento della scrittura)  
+**Testato con:** Aspose.Note for Java 26.4 (ultima versione al momento della scrittura)  
 **Autore:** Aspose  
 
 {{< /blocks/products/pf/tutorial-page-section >}}

@@ -119,8 +119,8 @@ J: Anda dapat membeli lisensi untuk Aspose.Note untuk Java [here](https://purcha
 
 ---
 
-**Terakhir Diperbarui:** 2026-03-16  
-**Diuji Dengan:** Aspose.Note untuk Java 24.12  
+**Terakhir Diperbarui:** 2025-12-18  
+**Diuji Dengan:** Aspose.Note for Java 26.4  
 **Penulis:** Aspose  
 
 {{< /blocks/products/pf/tutorial-page-section >}}

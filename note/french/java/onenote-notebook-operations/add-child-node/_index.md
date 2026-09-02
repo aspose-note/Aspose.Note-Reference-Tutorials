@@ -58,7 +58,7 @@ Assurez‑vous de spécifier le répertoire où vos documents OneNote sont stock
 ## Étape 2 : Charger le carnet OneNote
 
 ```java
-Notebook notebook = new Notebook(dataDir + "Notizbuch �ffnen.onetoc2");
+Notebook notebook = new Notebook(dataDir + "Notebook.onetoc2");
 ```
 
 Chargez le carnet OneNote que vous souhaitez modifier.
@@ -118,7 +118,7 @@ A7 : Tenter d’enregistrer des modifications sur un carnet en lecture‑seule
 ---
 
 **Dernière mise à jour :** 2025-12-25  
-**Testé avec :** Aspose.Note for Java 24.10  
+**Testé avec :** Aspose.Note for Java 26.4  
 **Auteur :** Aspose  
 
 {{< /blocks/products/pf/tutorial-page-section >}}

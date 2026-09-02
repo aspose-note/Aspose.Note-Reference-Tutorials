@@ -152,9 +152,9 @@ A7: Ya, `PdfSaveOptions` mendukung pengaturan tambahan seperti watermark, enkrip
 
 ---
 
-**Last Updated:** 2026-03-16  
-**Tested With:** Aspose.Note for Java 24.12 (latest)  
-**Author:** Aspose  
+**Terakhir Diperbarui:** 2025-12-18  
+**Diuji Dengan:** Aspose.Note untuk Java 26.4 (terbaru)  
+**Penulis:** Aspose  
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

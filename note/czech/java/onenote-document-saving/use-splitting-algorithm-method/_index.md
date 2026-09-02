@@ -131,8 +131,8 @@ A: Můžete požádat o [dočasnou licenci](https://purchase.aspose.com/temporar
 
 ---
 
-**Poslední aktualizace:** 2026-03-16  
-**Testováno s:** Aspose.Note 24.12 pro Java  
+**Poslední aktualizace:** 2025-12-18  
+**Testováno s:** Aspose.Note 26.4 pro Java  
 **Autor:** Aspose  
 
 {{< /blocks/products/pf/tutorial-page-section >}}

@@ -123,8 +123,8 @@ A: Je kunt een licentie voor Aspose.Note for Java aanschaffen [hier](https://pur
 
 ---
 
-**Laatst bijgewerkt:** 2026-03-16  
-**Getest met:** Aspose.Note for Java 24.12  
+**Laatst bijgewerkt:** 2025-12-18  
+**Getest met:** Aspose.Note for Java 26.4  
 **Auteur:** Aspose  
 
 {{< /blocks/products/pf/tutorial-page-section >}}

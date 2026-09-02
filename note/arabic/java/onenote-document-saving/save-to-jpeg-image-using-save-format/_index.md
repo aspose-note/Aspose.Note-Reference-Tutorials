@@ -129,7 +129,7 @@ oneFile.save(dataDir, SaveFormat.Jpeg);
 ---
 
 **آخر تحديث:** 2025-12-17  
-**تم الاختبار مع:** Aspose.Note for Java 23.12 (latest at time of writing)  
+**تم الاختبار مع:** Aspose.Note for Java 26.4 (latest at time of writing)  
 **المؤلف:** Aspose  
 
 {{< /blocks/products/pf/tutorial-page-section >}}

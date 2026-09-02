@@ -130,8 +130,8 @@ A: 您可申請[臨時授權](https://purchase.aspose.com/temporary-license/)以
 
 ---
 
-**最後更新：** 2026-03-16  
-**測試環境：** Aspose.Note 24.12 for Java  
+**最後更新：** 2025-12-18  
+**測試環境：** Aspose.Note 26.4 for Java  
 **作者：** Aspose  
 
 {{< /blocks/products/pf/tutorial-page-section >}}

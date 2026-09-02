@@ -150,8 +150,8 @@ A7: Tak, `PdfSaveOptions` obsługuje dodatkowe ustawienia, takie jak znaki wodne
 
 ---
 
-**Ostatnia aktualizacja:** 2026-03-16  
-**Testowano z:** Aspose.Note for Java 24.12 (najnowsza)  
+**Ostatnia aktualizacja:** 2025-12-18  
+**Testowano z:** Aspose.Note for Java 26.4 (latest)  
 **Autor:** Aspose  
 
 {{< /blocks/products/pf/tutorial-page-section >}}

@@ -41,7 +41,7 @@ Aspose.Note.Document doc = new Aspose.Note.Document();
 // 페이지 클래스 객체 초기화
 Aspose.Note.Page page = new Aspose.Note.Page(doc);
 // 개요 클래스 객체 초기화
-Outline outline = new Outline(doc);
+Outline outline = new Outline();
 ```
 ## 3단계: 기본 텍스트 스타일 설정
 ```csharp
@@ -51,8 +51,8 @@ ParagraphStyle defaultStyle = new ParagraphStyle { FontColor = Color.Black, Font
 ## 4단계: 글머리 기호가 있는 개요 요소 만들기
 ```csharp
 // 아웃라인엘리먼트 클래스 객체 초기화 및 글머리 기호 적용
-OutlineElement outlineElem1 = new OutlineElement(doc) { NumberList = new NumberList("*", "Arial", 10) };
-RichText text1 = new RichText(doc) { Text = "First", ParagraphStyle = defaultStyle };
+OutlineElement outlineElem1 = new OutlineElement() { NumberList = new NumberList("*", "Arial", 10) };
+RichText text1 = new RichText() { Text = "First", ParagraphStyle = defaultStyle };
 outlineElem1.AppendChildLast(text1);
 // 다른 개요 요소에 대해 반복합니다.
 ```

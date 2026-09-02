@@ -78,8 +78,8 @@ Page page = new Page();
 الآن نضيف الصورة إلى الصفحة و**نحدد ارتباط الصورة التشعبي** (الإجراء الأساسي في هذا الدرس). طريقة `setHyperlinkUrl` ترفق عنوان URL الذي تقدمه.
 
 ```java
-Image image = new Image(null, dataDir + "image1.jpg");
-image.setHyperlinkUrl("http://www.aspose.com");
+Image image = new Image(dataDir + "image1.jpg");
+image.setHyperlinkUrl("https://www.aspose.com");
 page.appendChildLast(image);
 ```
 
@@ -138,7 +138,7 @@ document.save(dataDir + "HyperlinkToImage_out.one");
 ---
 
 **آخر تحديث:** 2025-12-20  
-**تم الاختبار مع:** Aspose.Note for Java 24.11  
+**تم الاختبار مع:** Aspose.Note for Java 26.4  
 **المؤلف:** Aspose
 
 {{< /blocks/products/pf/tutorial-page-section >}}

@@ -150,8 +150,8 @@ A7: Igen, a `PdfSaveOptions` további beállításokat támogat, mint például 
 
 ---
 
-**Utoljára frissítve:** 2026-03-16  
-**Tesztelve:** Aspose.Note for Java 24.12 (legújabb)  
+**Utolsó frissítés:** 2025-12-18  
+**Tesztelve:** Aspose.Note for Java 26.4 (legújabb)  
 **Szerző:** Aspose  
 
 {{< /blocks/products/pf/tutorial-page-section >}}

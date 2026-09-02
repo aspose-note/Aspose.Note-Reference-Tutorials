@@ -132,8 +132,8 @@ try {
 
 ---
 
-**Τελευταία ενημέρωση:** 2026-03-16  
-**Δοκιμασμένο με:** Aspose.Note 24.12 for Java  
+**Τελευταία Ενημέρωση:** 2025-12-18  
+**Δοκιμασμένο Με:** Aspose.Note 26.4 for Java  
 **Συγγραφέας:** Aspose  
 
 {{< /blocks/products/pf/tutorial-page-section >}}

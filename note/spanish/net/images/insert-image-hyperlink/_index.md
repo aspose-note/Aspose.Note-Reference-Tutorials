@@ -41,7 +41,7 @@ Primero, necesitamos inicializar un nuevo documento y crear una página para ins
 
 ```csharp
 var document = new Document();
-var page = new Page(document);
+var page = new Page();
 ```
 
 ## Paso 2: insertar imagen con hipervínculo
@@ -50,7 +50,7 @@ Ahora, insertemos la imagen con un hipervínculo. Crearemos un`Image` objeto y e
 
 ```csharp
 string imagePath = "path_to_your_image.jpg";
-var image = new Image(document, imagePath) { HyperlinkUrl = "http://ejemplo.com" };
+var image = new Image(imagePath) { HyperlinkUrl = "https://ejemplo.com" };
 ```
 
 ## Paso 3: agregar imagen a la página

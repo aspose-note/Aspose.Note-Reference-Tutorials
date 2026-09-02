@@ -131,8 +131,8 @@ A: Możesz poprosić o [tymczasową licencję](https://purchase.aspose.com/tempo
 
 ---
 
-**Ostatnia aktualizacja:** 2026-03-16  
-**Testowano z:** Aspose.Note 24.12 for Java  
+**Ostatnia aktualizacja:** 2025-12-18  
+**Testowano z:** Aspose.Note 26.4 for Java  
 **Autor:** Aspose  
 
 {{< /blocks/products/pf/tutorial-page-section >}}

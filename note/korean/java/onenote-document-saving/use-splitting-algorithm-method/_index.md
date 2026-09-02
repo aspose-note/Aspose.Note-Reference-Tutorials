@@ -115,9 +115,11 @@ A: 예, [free trial](https://releases.aspose.com/)을 이용해 기능을 살펴
 **Q: Aspose.Note의 임시 라이선스를 어떻게 받을 수 있나요?**  
 A: 제품을 평가할 수 있는 [temporary license](https://purchase.aspose.com/temporary-license/)를 요청하십시오.
 
-**마지막 업데이트:** 2026-03-16  
-**테스트 환경:** Aspose.Note 24.12 for Java  
-**작성자:** Aspose  
+---
+
+**최종 업데이트:** 2025년 12월 18일
+**테스트 환경:** Aspose.Note 26.4 for Java
+**개발자:** Aspose  
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

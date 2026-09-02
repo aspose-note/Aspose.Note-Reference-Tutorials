@@ -119,8 +119,8 @@ V: Az Aspose.Note for Java licencet [itt](https://purchase.aspose.com/buy) vás�
 
 ---
 
-**Utoljára frissítve:** 2026-03-16  
-**Tesztelve a következővel:** Aspose.Note for Java 24.12  
+**Utoljára frissítve:** 2025-12-18  
+**Tesztelve:** Aspose.Note for Java 26.4  
 **Szerző:** Aspose  
 
 {{< /blocks/products/pf/tutorial-page-section >}}

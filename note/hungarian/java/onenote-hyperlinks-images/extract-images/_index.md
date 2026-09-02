@@ -24,7 +24,7 @@ Ebben az útmutatóban végigvezetünk a **képek kinyerésének** folyamatán e
 - **Melyik könyvtár ajánlott?** Aspose.Note for Java  
 - **Kinyerhetek képeket egy jelszóval védett jegyzetfüzetből?** Igen, az Aspose.Note támogatja.  
 - **Szükségem van licencre a fejlesztéshez?** A ingyenes próba verzió teszteléshez megfelelő; a termeléshez licenc szükséges.  
-- **Mely Java verziók támogatottak?** Java 8 és újabb (beleértve a Java 15‑öt).  
+- **Mely Java verziók támogatottak?** Java 8 és újabb (beleértve a Java 8‑öt).  
 - **Mennyi időt vesz igénybe a kinyerés?** Általában néhány másodperc egy átlagos jegyzetfüzet esetén.
 
 ## Mi az a képkinyerés a OneNote‑ból?
@@ -39,7 +39,7 @@ A képek kinyerése azt jelenti, hogy programozottan megtaláljuk a OneNote (.on
 
 Mielőtt elkezdené, győződjön meg róla, hogy a következőkkel rendelkezik:
 
-1. **Java Development Kit (JDK)** – Győződjön meg róla, hogy a Java telepítve van a rendszerén. Letöltheti és telepítheti a [weboldalról](https://www.oracle.com/java/technologies/javase-jdk15-downloads.html).
+1. **Java Development Kit (JDK)** – Győződjön meg róla, hogy a Java telepítve van a rendszerén. Letöltheti és telepítheti a [weboldalról](https://www.oracle.com/java/technologies/downloads/).
 
 2. **Aspose.Note Library** – Töltse le és adja hozzá az Aspose.Note könyvtárat a Java projektjéhez. Letöltheti a [letöltési hivatkozásról](https://releases.aspose.com/note/java/).
 
@@ -117,7 +117,7 @@ V: Igen, szöveget, mellékleteket és egyéb beágyazott objektumokat is ki leh
 ---
 
 **Legutóbb frissítve:** 2025-12-21  
-**Tesztelve a következővel:** Aspose.Note for Java 24.12  
+**Tesztelve a következővel:** Aspose.Note for Java 26.4  
 **Szerző:** Aspose  
 
 {{< /blocks/products/pf/tutorial-page-section >}}

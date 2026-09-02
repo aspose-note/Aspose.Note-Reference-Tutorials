@@ -131,10 +131,8 @@ try {
 **س: كيف يمكنني الحصول على ترخيص مؤقت لـ Aspose.Note؟**  
 ج: يمكنك طلب [ترخيص مؤقت](https://purchase.aspose.com/temporary-license/) لتقييم المنتج خلال فترة التجربة.
 
----
-
-**آخر تحديث:** 2026-03-16  
-**تم الاختبار مع:** Aspose.Note 24.12 for Java  
+**آخر تحديث:** 2025-12-18  
+**تم الاختبار مع:** Aspose.Note 26.4 for Java  
 **المؤلف:** Aspose  
 
 {{< /blocks/products/pf/tutorial-page-section >}}

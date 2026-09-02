@@ -152,8 +152,8 @@ doc.save(dataDir, opts);
 
 ---
 
-**Τελευταία ενημέρωση:** 2026-03-16  
-**Δοκιμάστηκε με:** Aspose.Note for Java 24.12 (latest)  
+**Τελευταία ενημέρωση: ** 18-12-2025
+**Δοκιμασμένο με: ** Aspose.Note για Java 26.4 (πιο πρόσφατο)
 **Συγγραφέας:** Aspose  
 
 {{< /blocks/products/pf/tutorial-page-section >}}

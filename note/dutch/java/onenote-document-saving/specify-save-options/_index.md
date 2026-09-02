@@ -147,12 +147,9 @@ A5: Ja, een commerciële licentie stelt je in staat de bibliotheek in productieo
 **Q6: Hoe beïnvloedt JPEG‑compressie de uiteindelijke PDF‑grootte?**  
 A6: JPEG‑compressie verkleint de grootte van ingesloten afbeeldingen aanzienlijk, wat de belangrijkste factor is in **reduce pdf size** voor grafisch intensieve pagina's.
 
-**Q7: Kan ik meerdere opslaan‑opties combineren, zoals het toevoegen van een watermerk tijdens het opslaan van specifieke pagina's?**  
-A7: Ja, `PdfSaveOptions` ondersteunt extra instellingen zoals watermerken, encryptie en metadata die gecombineerd kunnen worden met paginaselectie.
-
-**Laatst bijgewerkt:** 2026-03-16  
-**Getest met:** Aspose.Note for Java 24.12 (latest)  
-**Auteur:** Aspose  
+**Last Updated:** 2025-12-18  
+**Tested With:** Aspose.Note for Java 26.4 (latest)  
+**Author:** Aspose  
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

@@ -45,7 +45,7 @@ Låt oss dyka in i konverteringsprocessen. Vi delar upp varje steg i hanterbara 
 string dataDir = "Your Document Directory";
 
 // Ladda en OneNote-anteckningsbok
-var notebook = new Notebook(dataDir + "Notizbuch öffnen.onetoc2");
+var notebook = new Notebook(dataDir + "Notebook.onetoc2");
 ```
 
  I det här steget anger vi katalogen där vår notebook-fil finns och laddar in den i vår applikation med hjälp av`Notebook` klass tillhandahållen av Aspose.Note.

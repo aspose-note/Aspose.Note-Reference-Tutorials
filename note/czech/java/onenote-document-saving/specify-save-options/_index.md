@@ -152,8 +152,8 @@ A7: Ano, `PdfSaveOptions` podporuje další nastavení, jako jsou vodoznaky, ši
 
 ---
 
-**Poslední aktualizace:** 2026-03-16  
-**Testováno s:** Aspose.Note pro Java 24.12 (nejnovější)  
+**lední aktualizace:** 2025-12-18  
+**Testováno s:** Aspose.Note for Java 26.4 (latest)  
 **Autor:** Aspose  
 
 {{< /blocks/products/pf/tutorial-page-section >}}

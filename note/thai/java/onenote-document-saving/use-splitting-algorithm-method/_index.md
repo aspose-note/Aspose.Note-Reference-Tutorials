@@ -126,14 +126,9 @@ A: คุณสามารถอ้างอิง [documentation](https://refe
 **Q: สามารถทดลองใช้ Aspose.Note ก่อนซื้อได้หรือไม่?**  
 A: ได้, คุณสามารถใช้ [free trial](https://releases.aspose.com/) เพื่อสำรวจคุณสมบัติก่อนตัดสินใจซื้อ
 
-**Q: จะขอรับลิขสิทธิ์ชั่วคราวสำหรับ Aspose.Note อย่างไร?**  
-A: คุณสามารถขอรับ [temporary license](https://purchase.aspose.com/temporary-license/) เพื่อประเมินผลิตภัณฑ์ในช่วงทดลองใช้ได้
-
----
-
-**Last Updated:** 2026-03-16  
-**Tested With:** Aspose.Note 24.12 for Java  
-**Author:** Aspose  
+**อัปเดตล่าสุด:** 2025-12-18  
+**ทดสอบกับ:** Aspose.Note 26.4 for Java  
+**ผู้เขียน:** Aspose  
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

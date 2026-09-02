@@ -147,11 +147,8 @@ A5: Sì, una licenza commerciale ti consente di utilizzare la libreria in ambien
 **Q6: Come influisce la compressione JPEG sulla dimensione finale del PDF?**  
 A6: La compressione JPEG riduce significativamente la dimensione delle immagini incorporate, che è il fattore principale nel **reduce pdf size** per pagine ricche di grafica.
 
-**Q7: Posso concatenare più opzioni di salvataggio, ad esempio aggiungere una filigrana durante il salvataggio di pagine specifiche?**  
-A7: Sì, `PdfSaveOptions` supporta impostazioni aggiuntive come filigrane, crittografia e metadati che possono essere combinate con la selezione delle pagine.
-
-**Ultimo aggiornamento:** 2026-03-16  
-**Testato con:** Aspose.Note per Java 24.12 (ultima versione)  
+**Ultimo aggiornamento:** 2025-12-18  
+**Testato con:** Aspose.Note per Java 26.4 (ultima versione)  
 **Autore:** Aspose  
 
 {{< /blocks/products/pf/tutorial-page-section >}}

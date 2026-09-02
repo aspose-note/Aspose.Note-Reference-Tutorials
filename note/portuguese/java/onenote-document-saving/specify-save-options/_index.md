@@ -160,8 +160,8 @@ A7: Sim, `PdfSaveOptions` suporta configurações adicionais como marcas d’ág
 
 ---
 
-**Última atualização:** 2026-03-16  
-**Testado com:** Aspose.Note for Java 24.12 (latest)  
+**Última Atualização:** 2025-12-18  
+**Testado Com:** Aspose.Note for Java 26.4 (latest)  
 **Autor:** Aspose  
 
 {{< /blocks/products/pf/tutorial-page-section >}}

@@ -130,7 +130,7 @@ try {
 Create an `Image` object. The first argument can be `null` when you provide a stream later, but for simplicity we reference the file path here and set its alignment to the right side of the page.
 
 ```java
-Image image = new Image(null, dataDir + "image1.jpg");
+Image image = new Image(dataDir + "image1.jpg");
 image.setAlignment(HorizontalAlignment.Right);
 ```
 
@@ -212,7 +212,7 @@ A5: Yes, you can download a free trial from the Aspose release page to explore a
 ---
 
 **Last Updated:** 2025-12-21  
-**Tested With:** Aspose.Note for Java 24.12 (latest at time of writing)  
+**Tested With:** Aspose.Note for Java 26.4 (latest at time of writing)  
 **Author:** Aspose  
 
 {{< /blocks/products/pf/tutorial-page-section >}}

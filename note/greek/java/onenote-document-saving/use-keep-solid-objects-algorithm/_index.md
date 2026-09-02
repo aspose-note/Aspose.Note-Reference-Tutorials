@@ -119,8 +119,8 @@ doc.save(outputFile);
 
 ---
 
-**Τελευταία ενημέρωση:** 2026-03-16  
-**Δοκιμάστηκε με:** Aspose.Note for Java 24.12  
+**Τελευταία ενημέρωση:** 2025-12-18  
+**Δοκιμάστηκε με:** Aspose.Note for Java 26.4  
 **Συγγραφέας:** Aspose  
 
 {{< /blocks/products/pf/tutorial-page-section >}}

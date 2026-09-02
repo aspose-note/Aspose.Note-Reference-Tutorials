@@ -144,16 +144,8 @@ A4: Ja, API‑et innehåller metoder för att kryptera och dekryptera OneNote‑
 **Q5: Är Aspose.Note lämpligt för kommersiell användning?**  
 A5: Ja, en kommersiell licens tillåter dig att använda biblioteket i produktionsmiljöer.
 
-**Q6: Hur påverkar JPEG‑komprimering den slutliga PDF‑storleken?**  
-A6: JPEG‑komprimering minskar avsevärt storleken på inbäddade bilder, vilket är den primära faktorn för **reduce pdf size** på grafik‑tunga sidor.
-
-**Q7: Kan jag kedja flera sparalternativ, som att lägga till en vattenstämpel medan jag sparar specifika sidor?**  
-A7: Ja, `PdfSaveOptions` stödjer ytterligare inställningar såsom vattenstämplar, kryptering och metadata som kan kombineras med sidval.
-
----
-
-**Senast uppdaterad:** 2026-03-16  
-**Testad med:** Aspose.Note for Java 24.12 (latest)  
+**Senast uppdaterad:** 2025-12-18  
+**Testat med:** Aspose.Note for Java 26.4 (latest)  
 **Författare:** Aspose  
 
 {{< /blocks/products/pf/tutorial-page-section >}}

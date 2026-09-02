@@ -131,7 +131,7 @@ try {
 สร้างอ็อบเจกต์ `Image` อาร์กิวเมนต์แรกสามารถเป็น `null` เมื่อคุณจะให้สตรีมภายหลัง แต่เพื่อความง่าย เราอ้างอิงพาธไฟล์ที่นี่และตั้งค่าการจัดตำแหน่งให้ชิดด้านขวาของหน้า
 
 ```java
-Image image = new Image(null, dataDir + "image1.jpg");
+Image image = new Image(dataDir + "image1.jpg");
 image.setAlignment(HorizontalAlignment.Right);
 ```
 
@@ -213,7 +213,7 @@ A5: มี คุณสามารถดาวน์โหลดเวอร์
 ---
 
 **อัปเดตล่าสุด:** 2025-12-21  
-**ทดสอบกับ:** Aspose.Note for Java 24.12 (ล่าสุด ณ เวลาที่เขียน)  
+**ทดสอบกับ:** Aspose.Note for Java 26.4 (ล่าสุด ณ เวลาที่เขียน)  
 **ผู้เขียน:** Aspose  
 
 {{< /blocks/products/pf/tutorial-page-section >}}

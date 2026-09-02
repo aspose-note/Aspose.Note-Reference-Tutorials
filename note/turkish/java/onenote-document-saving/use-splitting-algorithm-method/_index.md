@@ -130,10 +130,8 @@ C: Evet, satın almadan önce özellikleri keşfetmek için bir [free trial](htt
 **S: Aspose.Note için geçici bir lisans nasıl alabilirim?**  
 C: Ürünü deneme süresi içinde değerlendirmek için bir [temporary license](https://purchase.aspose.com/temporary-license/) talep edebilirsiniz.
 
----
-
-**Son Güncelleme:** 2026-03-16  
-**Test Edilen Versiyon:** Aspose.Note 24.12 for Java  
+**Son Güncelleme:** 2025-12-18  
+**Test Edilen Versiyon:** Aspose.Note 26.4 for Java  
 **Yazar:** Aspose  
 
 {{< /blocks/products/pf/tutorial-page-section >}}

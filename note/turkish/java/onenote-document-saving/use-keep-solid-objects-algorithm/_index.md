@@ -118,8 +118,20 @@ C: Aspose topluluğundan [burada](https://forum.aspose.com/c/note/28) destek ala
 **S: Lisansı nereden satın alabilirim?**  
 C: Aspose.Note for Java lisansını [buradan](https://purchase.aspose.com/buy) satın alabilirsiniz.
 
-**Son Güncelleme:** 2026-03-16  
-**Test Edilen Versiyon:** Aspose.Note for Java 24.12  
+C3: Evet, Aspose.Note for Java için ücretsiz deneme sürümünü [buradan](https://releases.aspose.com/) alabilirsiniz.
+
+### S4: Sorun yaşarsam nasıl destek alabilirim?
+
+C4: Aspose topluluğundan [burada](https://forum.aspose.com/c/note/28) destek alabilirsiniz.
+
+### S5: Lisans satın alabileceğim yer neresi?
+
+C5: Aspose.Note for Java lisansını [buradan](https://purchase.aspose.com/buy) satın alabilirsiniz.
+
+---
+
+**Son Güncelleme:** 2025-12-18  
+**Test Edilen Versiyon:** Aspose.Note for Java 26.4  
 **Yazar:** Aspose  
 
 {{< /blocks/products/pf/tutorial-page-section >}}

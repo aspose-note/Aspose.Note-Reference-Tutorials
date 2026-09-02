@@ -33,7 +33,7 @@ Prima di immergerci nell'implementazione, assicurati di avere i seguenti prerequ
 
 ### 1. Java Development Kit (JDK)
 
-Assicurati di avere il Java Development Kit (JDK) installato sul tuo sistema. Puoi scaricare e installare l'ultima versione del JDK dal [sito Oracle](https://www.oracle.com/java/technologies/javase-jdk15-downloads.html).
+Assicurati di avere il Java Development Kit (JDK) installato sul tuo sistema. Puoi scaricare e installare l'ultima versione del JDK dal [sito Oracle](https://www.oracle.com/java/technologies/downloads/).
 
 ### 2. Aspose.Note for Java Library
 
@@ -148,7 +148,7 @@ Seguendo i passaggi descritti in questo tutorial, puoi efficacemente **get image
 ---
 
 **Ultimo aggiornamento:** 2025-12-21  
-**Testato con:** Aspose.Note for Java 23.12  
+**Testato con:** Aspose.Note for Java 26.4  
 **Autore:** Aspose  
 
 ---

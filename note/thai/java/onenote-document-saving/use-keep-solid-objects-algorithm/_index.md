@@ -117,8 +117,20 @@ A: คุณสามารถขอรับการสนับสนุน�
 **Q: ฉันจะซื้อใบอนุญาตได้จากที่ไหน?**  
 A: คุณสามารถซื้อใบอนุญาตสำหรับ Aspose.Note for Java ได้ที่ [here](https://purchase.aspose.com/buy).
 
-**อัปเดตล่าสุด:** 2026-03-16  
-**ทดสอบกับ:** Aspose.Note for Java 24.12  
+A3: มี คุณสามารถรับรุ่นทดลองฟรีของ Aspose.Note for Java ได้ที่ [here](https://releases.aspose.com/)
+
+### Q4: จะขอรับการสนับสนุนเมื่อเจอปัญหาได้อย่างไร?
+
+A4: คุณสามารถรับการสนับสนุนจากชุมชน Aspose ได้ที่ [here](https://forum.aspose.com/c/note/28)
+
+### Q5: จะซื้อไลเซนส์ได้จากที่ไหน?
+
+A5: คุณสามารถซื้อไลเซนส์สำหรับ Aspose.Note for Java ได้ที่ [here](https://purchase.aspose.com/buy)
+
+---
+
+**อัปเดตล่าสุด:** 2025-12-18  
+**ทดสอบกับ:** Aspose.Note for Java 26.4  
 **ผู้เขียน:** Aspose  
 
 {{< /blocks/products/pf/tutorial-page-section >}}

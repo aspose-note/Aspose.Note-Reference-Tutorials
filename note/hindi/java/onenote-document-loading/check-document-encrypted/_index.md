@@ -24,7 +24,7 @@ weight: 10
 
 - **एन्क्रिप्शन निर्धारित करने की विधि कौन सी है?** `Document.isEncrypted`  
 - **क्या जाँच के लिए पासवर्ड चाहिए?** नहीं, आप पासवर्ड के बिना स्थिति क्वेरी कर सकते हैं।  
-- **कौन सा API संस्करण काम करता है?** कोई भी हालिया Aspose.Note for Java रिलीज़ (24.11 के साथ परीक्षण किया गया)।  
+- **कौन सा API संस्करण काम करता है?** कोई भी हालिया Aspose.Note for Java रिलीज़ (26.4 के साथ परीक्षण किया गया)।  
 - **क्या मैं दोनों स्ट्रीम और फ़ाइल पाथ की जाँच कर सकता हूँ?** हाँ – API दोनों को सपोर्ट करता है।  
 - **यदि पासवर्ड गलत हो तो क्या होता है?** मेथड `true` लौटाता है, जिससे पता चलता है कि फ़ाइल अभी भी एन्क्रिप्टेड है।  
 
@@ -148,7 +148,7 @@ public static void CheckIfDocumentFromFileIsEncrypted() throws IOException {
 ---  
 
 **Last Updated:** 2025-11-29  
-**Tested With:** Aspose.Note 24.11 for Java  
+**Tested With:** Aspose.Note 26.4 for Java  
 **Author:** Aspose  
 
 {{< /blocks/products/pf/tutorial-page-section >}}  

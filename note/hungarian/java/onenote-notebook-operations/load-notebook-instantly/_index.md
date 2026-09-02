@@ -39,7 +39,7 @@ Az instant loading onenote a `NotebookLoadOptions` osztály egy funkciója, amel
 
 Mielőtt elkezdenénk, győződjön meg arról, hogy rendelkezik a következő előfeltételekkel:
 
-1. **Java Development Kit (JDK):** Győződjön meg róla, hogy a rendszerén telepítve van a Java. A legújabb JDK-t letöltheti és telepítheti [itt](https://www.oracle.com/java/technologies/javase-jdk15-downloads.html).
+1. **Java Development Kit (JDK):** Győződjön meg róla, hogy a rendszerén telepítve van a Java. A legújabb JDK-t letöltheti és telepítheti [itt](https://www.oracle.com/java/technologies/downloads/).
 
 2. **Aspose.Note for Java:** Szüksége van az Aspose.Note for Java könyvtárra. Letöltheti a [letöltési oldalról](https://releases.aspose.com/note/java/).
 
@@ -116,7 +116,7 @@ A5: Ideiglenes licencet kérhet a [temporary license page](https://purchase.aspo
 ---
 
 **Utolsó frissítés:** 2025-12-31  
-**Tesztelve ezzel:** Aspose.Note for Java 24.12 (legújabb)  
+**Tesztelve ezzel:** Aspose.Note for Java 26.4 (legújabb)  
 **Szerző:** Aspose  
 
 {{< /blocks/products/pf/tutorial-page-section >}}

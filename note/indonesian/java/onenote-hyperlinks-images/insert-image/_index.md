@@ -85,7 +85,7 @@ Page page = oneFile.getFirstChild();
 Muat gambar yang ingin Anda sisipkan ke dalam dokumen OneNote.
 
 ```java
-Image image = new Image(oneFile, dataDir + "Input.jpg");
+Image image = new Image(dataDir + "Input.jpg");
 ```
 
 ## Langkah 4: Sesuaikan Atribut Gambar (Opsional)
@@ -149,7 +149,7 @@ A5: Anda dapat mendapatkan dukungan teknis untuk Aspose.Note untuk Java dengan m
 ---
 
 **Terakhir Diperbarui:** 2025-12-21  
-**Diuji Dengan:** Aspose.Note for Java 24.10  
+**Diuji Dengan:** Aspose.Note for Java 26.4  
 **Penulis:** Aspose  
 
 {{< /blocks/products/pf/tutorial-page-section >}}

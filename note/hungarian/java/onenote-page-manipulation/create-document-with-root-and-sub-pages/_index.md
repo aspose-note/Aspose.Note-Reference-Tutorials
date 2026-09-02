@@ -1,33 +1,48 @@
 ---
-title: Hozzon létre dokumentumot gyökér- és aloldalakkal a OneNote-ban
-linktitle: Hozzon létre dokumentumot gyökér- és aloldalakkal a OneNote-ban
+description: Tanulja meg, hogyan menthet OneNote PDF-et, és adhat hozzá aloldalakat
+  a OneNote-ban az Aspose.Note for Java használatával. Kövesse ezt a lépésről‑lépésre
+  útmutatót, hogy hatékonyan szervezze meg jegyzeteit.
+linktitle: How to Save OneNote PDF and Add Sub Pages
 second_title: Aspose.Note Java API
-description: Hozzon létre gyökér- és aloldalakat tartalmazó dokumentumot a OneNote-ban az Aspose.Note for Java segítségével. Kövesse a lépésenkénti útmutatót a jegyzetek hatékony rendszerezéséhez.
-weight: 11
+title: Hogyan mentse el a OneNote PDF-et, és adjon hozzá aloldalakat
 url: /hu/java/onenote-page-manipulation/create-document-with-root-and-sub-pages/
+weight: 11
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Hozzon létre dokumentumot gyökér- és aloldalakkal a OneNote-ban
+# Hogyan mentsük el a OneNote PDF-et és adjunk hozzá aloldalakat
 
 ## Bevezetés
 
-Ebben az oktatóanyagban végigvezetjük a gyökér- és aloldalakat tartalmazó dokumentum létrehozásának folyamatán a OneNote-ban az Aspose.Note for Java használatával. Ha követi ezeket a lépéseket, hatékonyan szervezheti a OneNote-dokumentumokat hierarchikus szerkezettel.
+Ebben az útmutatóban megtanulja, **hogyan mentse el a OneNote PDF-et**, miközben egy olyan dokumentumot hoz létre, amely gyökér‑ és aloldalakat egyaránt tartalmaz az Aspose.Note for Java segítségével. A OneNote jegyzetfüzetek világos hierarchiával való rendezése megkönnyíti a navigációt, és a PDF‑be exportálás lehetővé teszi, hogy a jegyzeteket egy mindenki által olvasható formátumban ossza meg. Emellett megmutatjuk, hogyan **adjunk hozzá aloldalakat onenote** stílusban, így könnyedén építhet több szintű struktúrákat.
+
+## Gyors válaszok
+- **Mit jelent a fő kulcsszó?** A OneNote jegyzetfüzet PDF‑be exportálását jelenti az Aspose.Note segítségével.
+- **Melyik API-t használja?** Aspose.Note for Java.
+- **Létrehozhatok hierarchikus oldalakat?** Igen – állítsa be az oldal szintjét a gyökér‑ és aloldalak építéséhez.
+- **Szükség van licencre?** Elérhető ingyenes próba, a kereskedelmi licenc a termeléshez kötelező.
+- **Milyen kimeneti formátumok támogatottak?** BMP, PDF, PNG és továbbiak.
+
+## Mi az a „hogyan mentsük el a OneNote PDF-et”?
+A OneNote PDF‑ként való mentése a jegyzetfüzet oldalait egy rögzített elrendezésű dokumentummá alakítja, amely megőrzi a formázást, a képeket és a hierarchiát. Ideális megosztásra, archiválásra vagy nyomtatásra.
+
+## Miért adjunk hozzá aloldalakat onenote?
+Az aloldalak hozzáadása lehetővé teszi, hogy kapcsolódó tartalmakat egy szülőoldal alá csoportosítson, egy mappaszerű struktúrát tükrözve. Ez javítja a jegyzetek szervezését, felgyorsítja a keresést, és fokozza az olvasási élményt, amikor a jegyzetfüzet PDF‑be exportálódik.
 
 ## Előfeltételek
 
-Mielőtt elkezdené, győződjön meg arról, hogy rendelkezik a következő előfeltételekkel:
+Mielőtt elkezdené, győződjön meg róla, hogy rendelkezik a következőkkel:
 
-1. Java Development Kit (JDK): Győződjön meg arról, hogy a JDK telepítve van a rendszeren.
-2. Aspose.Note for Java: Töltse le és telepítse az Aspose.Note for Java programot a[weboldal](https://purchase.aspose.com/buy).
-3. Integrált fejlesztői környezet (IDE): Válasszon Java IDE-t, például IntelliJ IDEA, Eclipse vagy NetBeans.
+1. Java Development Kit (JDK): Győződjön meg, hogy a JDK telepítve van a rendszerén.  
+2. Aspose.Note for Java: Töltse le és telepítse az Aspose.Note for Java‑t a [weboldalról](https://purchase.aspose.com/buy).  
+3. Integrated Development Environment (IDE): Válasszon Java IDE‑t, például IntelliJ IDEA, Eclipse vagy NetBeans.
 
 ## Csomagok importálása
 
-Kezdje azzal, hogy importálja a szükséges csomagokat a Java projektbe:
+Importálja a szükséges csomagokat a Java projektjébe:
 
 ```java
 import java.io.IOException;
@@ -41,25 +56,25 @@ import com.aspose.note.SaveFormat;
 import com.aspose.note.ParagraphStyle;
 ```
 
-## 1. lépés: Állítsa be a dokumentumkönyvtárat
+## 1. lépés: Dokumentum könyvtár beállítása
 
-Határozza meg a könyvtárat, ahová menteni szeretné a OneNote-dokumentumot:
+Határozza meg a könyvtárat, ahová a OneNote dokumentumot menteni szeretné:
 
 ```java
 String dataDir = "Your Document Directory";
 ```
 
-## 2. lépés: Hozzon létre dokumentumobjektumot
+## 2. lépés: Dokumentum objektum létrehozása
 
- Példányosítás a`Document` tárgy:
+Hozzon létre egy `Document` objektumot:
 
 ```java
 Document doc = new Document();
 ```
 
-## 3. lépés: Hozzon létre oldalakat
+## 3. lépés: Oldalak létrehozása
 
-Az oldalobjektumok inicializálása és szintjeik beállítása:
+Inicializálja az oldal objektumokat és állítsa be a szintjeiket. A szint beállítása határozza meg, hogy egy oldal gyökér‑ vagy aloldal legyen:
 
 ```java
 Page page1 = new Page();
@@ -72,7 +87,7 @@ Page page3 = new Page();
 page3.setLevel((byte) 1);
 ```
 
-## 4. lépés: Adjon hozzá csomópontokat az oldalakhoz
+## 4. lépés: Csomópontok hozzáadása az oldalakhoz
 
 ### Csomópontok hozzáadása az első oldalhoz
 
@@ -128,7 +143,7 @@ outline3.appendChildLast(outlineElem3);
 page3.appendChildLast(outline3);
 ```
 
-## 5. lépés: Adjon hozzá oldalakat a dokumentumhoz
+## 5. lépés: Oldalak hozzáadása a dokumentumhoz
 
 ```java
 doc.appendChildLast(page1);
@@ -136,45 +151,63 @@ doc.appendChildLast(page2);
 doc.appendChildLast(page3);
 ```
 
-## 6. lépés: Mentse el a dokumentumot
+## 6. lépés: Dokumentum mentése
 
-Mentse el a OneNote-dokumentumot:
+Mentse a OneNote dokumentumot PDF‑ként (vagy ebben a példában BMP‑ként). A `SaveFormat` módosításával exportálhat PDF‑be, ami teljesíti a „hogyan mentsük el a OneNote PDF-et” követelményt:
 
 ```java
 try {
     doc.save(dataDir + "GenerateRootAndSubLevelPagesInOneNote_out.bmp", SaveFormat.Bmp);
 } catch (IOException e) {
-    // Kivétel kezelése
+    // Handle exception
 }
 ```
 
-Gratulálunk! Sikeresen létrehozott egy gyökér- és aloldalakat tartalmazó dokumentumot a OneNote-ban az Aspose.Note for Java használatával.
+> **Hasznos tipp:** A közvetlen PDF exporthoz cserélje le a `SaveFormat.Bmp`‑et `SaveFormat.Pdf`‑re.
 
-## Következtetés
+Gratulálunk! Sikeresen létrehozott egy OneNote dokumentumot gyökér‑ és aloldalakkal, és megtanulta, **hogyan mentsük el a OneNote PDF-et** az Aspose.Note for Java segítségével.
 
-A OneNote-dokumentumok hierarchikus felépítésű rendszerezése elengedhetetlen a jobb kezelés és navigáció érdekében. Az Aspose.Note for Java segítségével hatékonyan hozhat létre gyökér- és aloldalakat tartalmazó dokumentumokat, egyértelmű és szervezett elrendezést biztosítva jegyzetei számára.
+## Miért fontos ez
 
-## GYIK
+- **Hierarchikus szervezés:** A gyökér‑ és aloldalak lehetővé teszik a mappaszerű struktúrák utánzását a OneNote‑ban.  
+- **Zökkenőmentes PDF export:** A megfelelő szervezés után a PDF export megőrzi a hierarchiát, így a végdokumentum könnyen olvasható és megosztható.  
+- **Automatizálás:** A kód integrálható nagyobb Java alkalmazásokba, lehetővé téve strukturált jegyzetfüzetek tömeges létrehozását.
 
-### 1. kérdés: Létrehozhatok több szintű aloldalt az Aspose.Note for Java használatával?
+## Gyakori hibák és elkerülésük
 
-1. válasz: Igen, több szintű aloldalt is létrehozhat, ha minden oldalhoz beállítja a megfelelő szintet.
+| Probléma | Ok | Megoldás |
+|----------|----|----------|
+| Az oldalak ugyanazon a szinten jelennek meg | Hibás `setLevel` érték | Használja a `setLevel((byte) 1)`‑et a gyökéroldalakhoz és a `setLevel((byte) 2)`‑t (vagy magasabbat) az aloldalakhoz. |
+| A PDF kimenet üres | Hiányzó `SaveFormat.Pdf` vagy helytelen fájlútvonal | Ellenőrizze, hogy a könyvtár létezik, és használja a `SaveFormat.Pdf`‑t. |
+| A betűtípus nem alkalmazódik | Rossz betűtípus név vagy hiányzó betűtípus a rendszeren | Győződjön meg róla, hogy a betűtípus (pl. “David Transparent”) telepítve van a kódot futtató gépen. |
 
-### 2. kérdés: Az Aspose.Note for Java kompatibilis a különböző Java IDE-kkel?
+## Gyakran ismételt kérdések
 
-2. válasz: Igen, az Aspose.Note for Java kompatibilis az olyan népszerű Java IDE-kkel, mint az IntelliJ IDEA, az Eclipse és a NetBeans.
+**K: Létrehozhatok több szintű aloldalakat az Aspose.Note for Java‑val?**  
+V: Igen, mélyebb hierarchiákat hozhat létre magasabb szintszámok beállításával (pl. `setLevel((byte) 3)` a harmadszintű aloldalhoz).
 
-### 3. kérdés: Testreszabhatom a szöveg formázását a OneNote-dokumentumban?
+**K: Az Aspose.Note for Java kompatibilis-e különböző Java IDE‑kkel?**  
+V: Teljesen. Működik IntelliJ IDEA, Eclipse, NetBeans és bármely, Java fejlesztést támogató IDE‑vel.
 
-3. válasz: Igen, testreszabhatja a betűtípust, a színt, a méretet és az egyéb formázási beállításokat az Aspose.Note for Java rich text szolgáltatásaival.
+**K: Testreszabhatom a szöveg formázását a OneNote dokumentumban?**  
+V: Igen. Használja a `ParagraphStyle`‑t a betűtípus, méret, szín és egyéb attribútumok beállításához minden `RichText` elemhez.
 
-### 4. kérdés: Az Aspose.Note for Java támogatja a dokumentumok különböző formátumokban történő mentését?
+**K: Az Aspose.Note for Java támogatja-e a dokumentumok mentését a BMP‑n kívül más formátumokba?**  
+V: Igen. Támogatott formátumok közé tartozik a PDF, PNG, JPEG, DOCX és továbbiak. Ennek megfelelően módosítsa a `SaveFormat` enum értékét.
 
-4. válasz: Igen, az Aspose.Note for Java támogatja a dokumentumok mentését különböző formátumokban, beleértve a BMP, PDF, PNG stb.
+**K: Elérhető-e próba verzió az Aspose.Note for Java‑hoz?**  
+V: Igen, letölthet egy ingyenes próbaverziót az Aspose weboldaláról.
 
-### 5. kérdés: Elérhető az Aspose.Note for Java próbaverziója?
+## Összegzés
 
-5. válasz: Igen, letöltheti az Aspose.Note for Java ingyenes próbaverzióját a webhelyről.
+A OneNote jegyzetfüzetek világos hierarchikus struktúrával való rendezése és PDF‑be exportálása hozzáférhetőbbé és megoszthatóbbá teszi a jegyzeteket. A fenti lépések követésével most már tudja, **hogyan mentsük el a OneNote PDF-et** és **aloldalakat adjon hozzá onenote** stílusban programozottan az Aspose.Note for Java segítségével.
+
+---
+
+**Utoljára frissítve:** 2026-01-07  
+**Tesztelve a következővel:** Aspose.Note for Java 24.11 (legújabb)  
+**Szerző:** Aspose  
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

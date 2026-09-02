@@ -117,8 +117,20 @@ A: Puedes obtener soporte de la comunidad Aspose [aquí](https://forum.aspose.co
 **Q: ¿Dónde puedo comprar una licencia?**  
 A: Puedes comprar una licencia para Aspose.Note for Java [aquí](https://purchase.aspose.com/buy).
 
-**Última actualización:** 2026-03-16  
-**Probado con:** Aspose.Note for Java 24.12  
+R3: Sí, puede obtener una prueba gratuita de Aspose.Note for Java [here](https://releases.aspose.com/).
+
+### P4: ¿Cómo puedo obtener soporte si encuentro algún problema?
+
+R4: Puede obtener soporte de la comunidad Aspose [here](https://forum.aspose.com/c/note/28).
+
+### P5: ¿Dónde puedo comprar una licencia?
+
+R5: Puede comprar una licencia para Aspose.Note for Java [here](https://purchase.aspose.com/buy).
+
+---
+
+**Última actualización:** 2025-12-18  
+**Probado con:** Aspose.Note for Java 26.4  
 **Autor:** Aspose  
 
 {{< /blocks/products/pf/tutorial-page-section >}}

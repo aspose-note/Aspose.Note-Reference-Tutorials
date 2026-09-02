@@ -32,7 +32,7 @@ weight: 18
 
 ### تم تثبيت Java Development Kit (JDK)
 
-تحتاج إلى JDK حديث. قم بتنزيله من [موقع Java](https://www.oracle.com/java/technologies/javase-jdk15-downloads.html).
+تحتاج إلى JDK حديث. قم بتنزيله من [موقع Java](https://www.oracle.com/java/technologies/downloads/).
 
 ### مكتبة Aspose.Note للغة Java
 
@@ -118,7 +118,7 @@ notebook.save(dataDir + "CreatandSaveANotebook.onetoc2");
 ---
 
 **آخر تحديث:** 2025-12-31  
-**تم الاختبار مع:** Aspose.Note for Java 24.12  
+**تم الاختبار مع:** Aspose.Note for Java 26.4  
 **المؤلف:** Aspose
 
 {{< /blocks/products/pf/tutorial-page-section >}}

@@ -152,9 +152,9 @@ A7: Có, `PdfSaveOptions` hỗ trợ các cài đặt bổ sung như watermark, 
 
 ---
 
-**Cập nhật lần cuối:** 2026-03-16  
-**Kiểm tra với:** Aspose.Note cho Java 24.12 (phiên bản mới nhất)  
-**Tác giả:** Aspose  
+**Cập nhật lần cuối:** 2025-12-18
+**Kiểm tra với:** Aspose.Note for Java 26.4 (mới nhất)
+**Tác giả:** Aspose 
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

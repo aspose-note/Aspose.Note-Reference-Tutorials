@@ -84,7 +84,7 @@ outline.setHorizontalOffset(0);
 Load the picture you want to embed and align it to the right side of the page. This is where we actually **add picture to OneNote**.
 
 ```java
-Image image = new Image(null, dataDir + "Input.jpg");
+Image image = new Image(dataDir + "Input.jpg");
 image.setAlignment(HorizontalAlignment.Right);
 ```
 
@@ -147,7 +147,7 @@ A5: Yes, you can request a temporary license [here](https://purchase.aspose.com/
 ---
 
 **Last Updated:** 2025-12-20  
-**Tested With:** Aspose.Note for Java 24.12 (latest)  
+**Tested With:** Aspose.Note for Java 26.4 (latest)  
 **Author:** Aspose  
 
 {{< /blocks/products/pf/tutorial-page-section >}}

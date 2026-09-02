@@ -50,7 +50,7 @@ Először is be kell töltenünk a OneNote jegyzetfüzetet, amelyet PDF-fájllá
 string dataDir = "Your Document Directory";
 
 // Töltsön be egy OneNote-jegyzetfüzetet
-var notebook = new Notebook(dataDir + "Notizbuch �ffnen.onetoc2");
+var notebook = new Notebook(dataDir + "Notebook.onetoc2");
 ```
 
 ## 2. lépés: Adja meg a PDF mentési beállításokat

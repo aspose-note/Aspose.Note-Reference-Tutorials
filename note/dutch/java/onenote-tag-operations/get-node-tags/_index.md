@@ -1,27 +1,47 @@
 ---
-title: Knooppunttags ophalen in OneNote - Aspose.Note
-linktitle: Knooppunttags ophalen in OneNote - Aspose.Note
-second_title: Aspose.Note Java-API
-description: Ontdek de geheimen van OneNote met Aspose.Note voor Java. Met deze handleiding kunt u moeiteloos knooppunttags extraheren. Duik in de toekomst van documentmanipulatie!
-weight: 15
+date: 2026-02-28
+description: Leer hoe u tags uit OneNote‑bestanden kunt extraheren met Aspose.Note
+  voor Java. Deze tutorial laat zien hoe u een OneNote‑bestand laadt, OneNote‑tags
+  ophaalt en OneNote‑tags efficiënt wijzigt.
+linktitle: How to Extract Tags from OneNote - Aspose.Note
+second_title: Aspose.Note Java API
+title: Hoe tags uit OneNote te extraheren met Aspose.Note
 url: /nl/java/onenote-tag-operations/get-node-tags/
+weight: 15
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Knooppunttags ophalen in OneNote - Aspose.Note
+# Hoe tags uit OneNote te extraheren met Aspose.Note
 
-## Invoering
-Welkom in het rijk van Aspose.Note voor Java! Als u zich diep wilt verdiepen in het beheren en extraheren van informatie uit OneNote-documenten, bent u hier aan het juiste adres. In deze zelfstudie begeleiden we u bij het verkrijgen van knooppunttags in OneNote met behulp van Aspose.Note voor Java. Aan het einde zul je over de kennis beschikken om het volledige potentieel van deze krachtige Java API te benutten.
+## Inleiding
+Als je **hoe tags te extraheren** uit een OneNote‑document nodig hebt, ben je op de juiste plek. In deze gids lopen we het volledige proces door van het laden van een OneNote‑bestand, het verkrijgen van OneNote‑tags, en zelfs het aanpassen van die tags met Aspose.Note voor Java. Aan het einde van de tutorial kun je tag‑extractie integreren in elke Java‑applicatie met vertrouwen.
+
+## Snelle antwoorden
+- **Wat is de primaire klasse voor het openen van een OneNote‑bestand?** `Document`
+- **Welke methode retourneert alle RichText‑nodes?** `doc.getChildNodes(RichText.class)`
+- **Kun je de creatietijd van een NoteTag lezen?** Ja, via `noteTag.getCreationTime()`
+- **Heb ik een licentie nodig voor productiegebruik?** Ja, een geldige Aspose.Note‑licentie is vereist
+- **Is de API compatibel met Java 8 en later?** Absoluut, het ondersteunt moderne Java‑versies
+
+## Wat betekent “hoe tags te extraheren” in OneNote?
+Het extraheren van tags betekent het lezen van de metadata (zoals status, label, pictogram en tijdstempels) die OneNote aan alinea’s, selectievakjes of andere inhoudselementen toevoegt. Deze tags worden opgeslagen als `NoteTag`‑objecten binnen `RichText`‑nodes.
+
+## Waarom Aspose.Note gebruiken voor tag‑extractie?
+- **Geen OneNote‑installatie vereist** – werk direct met .one‑bestanden.
+- **Volledige controle** – haal op, lees en wijzig tag‑eigenschappen programmatisch.
+- **Cross‑platform** – werkt op elk OS dat Java ondersteunt.
+
 ## Vereisten
-Voordat u aan deze reis begint, moet u ervoor zorgen dat u aan de volgende vereisten voldoet:
-- Java-ontwikkelomgeving: Zorg ervoor dat u een werkende Java-ontwikkelomgeving op uw systeem hebt geïnstalleerd.
--  Aspose.Note-bibliotheek: Download en installeer de Aspose.Note-bibliotheek van[hier](https://releases.aspose.com/note/java/).
-- OneNote-document: zorg ervoor dat u een OneNote-document (bijvoorbeeld "Sample1.one") gereed heeft om te testen en te verkennen.
+- Een Java‑ontwikkelomgeving (JDK 8+).
+- Aspose.Note‑bibliotheek gedownload van [hier](https://releases.aspose.com/note/java/).
+- Een voorbeeld‑OneNote‑document (bijv. `Sample1.one`) geplaatst in een bekende map.
+
 ## Pakketten importeren
-Begin met het importeren van de benodigde pakketten in uw Java-project. Deze pakketten bieden de tools die nodig zijn voor interactie met OneNote-documenten met behulp van Aspose.Note.
+Begin met het importeren van de klassen die je nodig hebt. Deze imports geven je toegang tot documentverwerking, tag‑interfaces en rich‑text‑nodes.
+
 ```java
 import java.io.IOException;
 import java.util.List;
@@ -30,39 +50,49 @@ import com.aspose.note.ITag;
 import com.aspose.note.NoteTag;
 import com.aspose.note.RichText;
 ```
-Laten we nu het proces voor het ophalen van knooppunttags in OneNote opsplitsen in eenvoudig te volgen stappen:
-## Stap 1: Laad het OneNote-document
+
+## Hoe OneNote‑bestand laden
+De eerste stap is het laden van het OneNote‑bestand in een `Document`‑object.
+
 ```java
-// Het pad naar de documentenmap.
+// The path to the documents directory.
 String dataDir = "Your Document Directory";
-// Laad het document in Aspose.Note
+// Load the document into Aspose.Note
 Document doc = new Document(dataDir + "Sample1.one");
-// Haal alle RichText-knooppunten op
+// Get all RichText nodes
 List<RichText> nodes = doc.getChildNodes(RichText.class);
-// Laad het document in Aspose.Note
+// Load the document into Aspose.Note
 Document doc = new Document(dataDir + "Sample1.one");
 ```
-Zorg ervoor dat het Aspose.Note-document is geladen en gereed is voor verdere verwerking.
-## Stap 2: RichText-knooppunten ophalen
+
+> **Pro tip:** Houd het `dataDir`‑pad absoluut of gebruik `Paths.get(...)` om pad‑gerelateerde fouten te voorkomen.
+
+## Hoe OneNote‑tags verkrijgen
+Na het laden van het document, haal alle `RichText`‑nodes op. Elke node kan één of meer tags bevatten.
+
 ```java
-// Haal alle RichText-knooppunten op
+// Get all RichText nodes
 List<RichText> nodes = doc.getChildNodes(RichText.class);
 ```
-Extraheer alle RichText-knooppunten uit het geladen OneNote-document. Deze knooppunten bevatten de informatie waarin we geïnteresseerd zijn.
-## Stap 3: Herhaal elk knooppunt
+
+## Door elke node itereren
+Loop door elke `RichText`‑node om de tags te inspecteren.
+
 ```java
-// Herhaal elk knooppunt
+// Iterate through each node
 for (RichText richText : nodes) {
-    // Verwerk elk knooppunt hier
+    // Process each node here
 }
 ```
-Loop door elk RichText-knooppunt om de inhoud ervan te openen en te analyseren.
-## Stap 4: Notitietags ophalen
+
+## NoteTags ophalen (Hoe OneNote‑tags wijzigen)
+Binnen de lus, controleer of een tag een `NoteTag` is. Als dat zo is, kun je de eigenschappen lezen — of ze aanpassen indien nodig.
+
 ```java
 for (ITag tag : richText.getTags()) {
     if (tag.getClass() == NoteTag.class) {
         NoteTag noteTag = (NoteTag) tag;
-        // Eigenschappen ophalen
+        // Retrieve properties
         System.out.println("Completed Time: " + noteTag.getCompletedTime());
         System.out.println("Create Time: " + noteTag.getCreationTime());
         System.out.println("Font Color: " + noteTag.getFontColor());
@@ -70,23 +100,55 @@ for (ITag tag : richText.getTags()) {
         System.out.println("Label: " + noteTag.getLabel());
         System.out.println("Icon: " + noteTag.getIcon());
         System.out.println("High Light: " + noteTag.getHighlight());
+        // Example of modifying a property
+        // noteTag.setLabel("Updated Label");
     }
 }
 ```
-Controleer voor elk RichText-knooppunt op NoteTags en haal hun eigenschappen op. Deze stap onthult details zoals voltooiingstijd, aanmaaktijd, letterkleur, status, label, pictogram en markering.
+
+> **Waarschuwing:** Het aanpassen van een tag wijzigt het onderliggende document. Vergeet niet het document op te slaan na het aanbrengen van wijzigingen.
+
 ## Conclusie
-Gefeliciteerd! U heeft met succes door het ingewikkelde landschap van het extraheren van knooppunttags uit OneNote genavigeerd met Aspose.Note voor Java. Gewapend met deze kennis kunt u deze functionaliteit nu naadloos integreren in uw Java-applicaties.
+Je weet nu **hoe tags te extraheren**, hoe **OneNote‑bestand te laden**, hoe **OneNote‑tags te verkrijgen**, en zelfs hoe **OneNote‑tags te wijzigen** met Aspose.Note voor Java. Integreer deze fragmenten in je eigen projecten om notitie‑analyse, rapportage of migratietaken te automatiseren.
+
 ## Veelgestelde vragen
 ### Is Aspose.Note compatibel met alle versies van OneNote?
-Aspose.Note ondersteunt verschillende OneNote-bestandsindelingen, waardoor compatibiliteit tussen verschillende versies wordt gegarandeerd.
-### Kan ik de opgehaalde NoteTag-eigenschappen wijzigen?
-Ja, met Aspose.Note kunt u de NoteTag-eigenschappen programmatisch wijzigen en bijwerken.
+Aspose.Note ondersteunt verschillende OneNote‑bestandsformaten, waardoor compatibiliteit met verschillende versies wordt gegarandeerd.
+
+### Kan ik de opgehaalde NoteTag‑eigenschappen wijzigen?
+Ja, Aspose.Note stelt je in staat om NoteTag‑eigenschappen programmatisch te wijzigen en bij te werken.
+
 ### Is er een proefversie beschikbaar voor Aspose.Note?
- Absoluut! U kunt toegang krijgen tot de gratis proefversie[hier](https://releases.aspose.com/).
-### Waar kan ik uitgebreide documentatie vinden voor Aspose.Note voor Java?
- Bekijk de gedetailleerde documentatie[hier](https://reference.aspose.com/note/java/).
-### Hoe kan ik ondersteuning krijgen bij eventuele problemen of vragen?
- Ga naar het ondersteuningsforum[hier](https://forum.aspose.com/c/note/28) voor hulp van de Aspose-gemeenschap.
+Absoluut! Je kunt de gratis proefversie benaderen [hier](https://releases.aspose.com/).
+
+### Waar vind ik uitgebreide documentatie voor Aspose.Note voor Java?
+Bekijk de gedetailleerde documentatie [hier](https://reference.aspose.com/note/java/).
+
+### Hoe kan ik ondersteuning krijgen voor eventuele problemen of vragen?
+Ga naar het ondersteuningsforum [hier](https://forum.aspose.com/c/note/28) voor hulp van de Aspose‑community.
+
+## Frequently Asked Questions
+**Q:** *Kan ik tags extraheren uit met een wachtwoord beveiligde OneNote‑bestanden?*  
+**A:** Ja, geef het wachtwoord op bij het construeren van het `Document`‑object.
+
+**Q:** *Moet ik een save‑methode aanroepen na het aanpassen van tags?*  
+**A:** Absoluut. Gebruik `doc.save("UpdatedSample.one");` om de wijzigingen op te slaan.
+
+**Q:** *Is het mogelijk om tags te filteren op status?*  
+**A:** Je kunt `noteTag.getStatus()` in de lus controleren en alleen de gewenste statussen verwerken.
+
+**Q:** *Wat gebeurt er als een RichText‑node geen tags heeft?*  
+**A:** `richText.getTags()` retourneert een lege collectie; de lus slaat deze simpelweg over.
+
+**Q:** *Kan ik meerdere OneNote‑bestanden in batch verwerken?*  
+**A:** Plaats de bovenstaande logica in een bestands‑iteratieroutine en verwerk elk document opeenvolgend.
+
+---
+
+**Last Updated:** 2026-02-28  
+**Tested With:** Aspose.Note for Java 24.12  
+**Author:** Aspose  
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

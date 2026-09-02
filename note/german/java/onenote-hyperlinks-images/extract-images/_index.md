@@ -24,7 +24,7 @@ In diesem Tutorial führen wir Sie durch **wie man Bilder extrahiert** aus einem
 - **Welche Bibliothek wird empfohlen?** Aspose.Note for Java  
 - **Kann ich Bilder aus einem passwortgeschützten Notizbuch extrahieren?** Ja, Aspose.Note unterstützt das.  
 - **Benötige ich eine Lizenz für die Entwicklung?** Eine kostenlose Testversion funktioniert zum Testen; für die Produktion ist eine Lizenz erforderlich.  
-- **Welche Java-Versionen werden unterstützt?** Java 8 und neuer (einschließlich Java 15).  
+- **Welche Java-Versionen werden unterstützt?** Java 8 und neuer (einschließlich Java 8).  
 - **Wie lange dauert die Extraktion?** In der Regel ein paar Sekunden für ein Standard-Notizbuch.
 
 ## Was ist die Bildextraktion aus OneNote?
@@ -39,7 +39,7 @@ Die Bildextraktion bedeutet, programmgesteuert jedes in einer OneNote‑Datei (.
 
 Bevor Sie beginnen, stellen Sie sicher, dass Sie Folgendes haben:
 
-1. **Java Development Kit (JDK)** – Stellen Sie sicher, dass Java auf Ihrem System installiert ist. Sie können es von der [Website](https://www.oracle.com/java/technologies/javase-jdk15-downloads.html) herunterladen und installieren.
+1. **Java Development Kit (JDK)** – Stellen Sie sicher, dass Java auf Ihrem System installiert ist. Sie können es von der [Website](https://www.oracle.com/java/technologies/downloads/) herunterladen und installieren.
 
 2. **Aspose.Note Library** – Laden Sie die Aspose.Note‑Bibliothek herunter und binden Sie sie in Ihr Java‑Projekt ein. Sie erhalten sie über den [Download‑Link](https://releases.aspose.com/note/java/).
 
@@ -117,7 +117,7 @@ Wenn Sie die obigen Schritte befolgt haben, wissen Sie jetzt **wie man Bilder** 
 ---
 
 **Letzte Aktualisierung:** 2025-12-21  
-**Getestet mit:** Aspose.Note for Java 24.12  
+**Getestet mit:** Aspose.Note for Java 26.4  
 **Autor:** Aspose  
 
 {{< /blocks/products/pf/tutorial-page-section >}}

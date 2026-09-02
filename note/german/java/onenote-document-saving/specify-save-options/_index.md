@@ -156,9 +156,9 @@ A7: Ja, `PdfSaveOptions` unterstützt zusätzliche Einstellungen wie Wasserzeich
 
 ---
 
-**Last Updated:** 2026-03-16  
-**Tested With:** Aspose.Note for Java 24.12 (latest)  
-**Author:** Aspose  
+**Zuletzt aktualisiert:** 2025-12-18  
+**Getestet mit:** Aspose.Note für Java 26.4 (neueste)  
+**Autor:** Aspose  
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

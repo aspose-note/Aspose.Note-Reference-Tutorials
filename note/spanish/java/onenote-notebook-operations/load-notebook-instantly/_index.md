@@ -41,7 +41,7 @@ Instant loading onenote es una característica de la clase `NotebookLoadOptions`
 
 Antes de comenzar, asegúrese de tener los siguientes requisitos:
 
-1. **Java Development Kit (JDK):** Asegúrese de que tiene Java instalado en su sistema. Puede descargar e instalar el último JDK desde [aquí](https://www.oracle.com/java/technologies/javase-jdk15-downloads.html).
+1. **Java Development Kit (JDK):** Asegúrese de que tiene Java instalado en su sistema. Puede descargar e instalar el último JDK desde [aquí](https://www.oracle.com/java/technologies/downloads/).
 
 2. **Aspose.Note para Java:** Necesita la biblioteca Aspose.Note para Java. Puede obtenerla desde la [página de descarga](https://releases.aspose.com/note/java/).
 
@@ -118,7 +118,7 @@ A5: Puede solicitar una licencia temporal en la [página de licencia temporal](h
 ---
 
 **Última actualización:** 2025-12-31  
-**Probado con:** Aspose.Note para Java 24.12 (última)  
+**Probado con:** Aspose.Note para Java 26.4 (última)  
 **Autor:** Aspose  
 
 {{< /blocks/products/pf/tutorial-page-section >}}

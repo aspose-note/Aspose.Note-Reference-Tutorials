@@ -135,9 +135,9 @@ A: Aspose.Note for Java のライセンスは [here](https://purchase.aspose.com
 
 ---
 
-**Last Updated:** 2026-03-16  
-**Tested With:** Aspose.Note for Java 24.12  
-**Author:** Aspose  
+**最終更新日:** 2025-12-18  
+**テスト環境:** Aspose.Note for Java 26.4  
+**作成者:** Aspose  
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

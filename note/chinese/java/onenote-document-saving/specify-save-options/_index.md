@@ -151,9 +151,9 @@ A7: 可以，`PdfSaveOptions` 支持水印、加密、元数据等额外设置�
 
 ---
 
-**最后更新：** 2026-03-16  
-**测试环境：** Aspose.Note for Java 24.12（最新）  
-**作者：** Aspose  
+**Last Updated:** 2025-12-18  
+**Tested With:** Aspose.Note for Java 26.4 (latest)  
+**Author:** Aspose  
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

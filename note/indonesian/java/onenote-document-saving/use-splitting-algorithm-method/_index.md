@@ -132,9 +132,9 @@ A: Anda dapat meminta [temporary license](https://purchase.aspose.com/temporary-
 
 ---
 
-**Last Updated:** 2026-03-16  
-**Tested With:** Aspose.Note 24.12 for Java  
-**Author:** Aspose  
+**Terakhir Diperbarui:** 2025-12-18  
+**Diuji Dengan:** Aspose.Note 26.4 untuk Java  
+**Penulis:** Aspose  
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

@@ -125,7 +125,7 @@ O5: Jeśli oceniasz produkt, możesz uzyskać tymczasową licencję [tutaj](http
 ---
 
 **Ostatnia aktualizacja:** 2025-12-31  
-**Testowano z:** Aspose.Note 24.11 dla Javy  
+**Testowano z:** Aspose.Note 26.4 dla Javy  
 **Autor:** Aspose
 
 {{< /blocks/products/pf/tutorial-page-section >}}

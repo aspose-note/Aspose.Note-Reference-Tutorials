@@ -137,8 +137,10 @@ A: Ja, Sie können eine [kostenlose Testversion](https://releases.aspose.com/) n
 **F: Wie erhalte ich eine temporäre Lizenz für Aspose.Note?**  
 A: Sie können eine [temporäre Lizenz](https://purchase.aspose.com/temporary-license/) anfordern, um das Produkt im Testzeitraum zu evaluieren.
 
-**Letzte Aktualisierung:** 2026-03-16  
-**Getestet mit:** Aspose.Note 24.12 für Java  
+---
+
+**Zuletzt aktualisiert:** 2025-12-18  
+**Getestet mit:** Aspose.Note 26.4 für Java  
 **Autor:** Aspose  
 
 {{< /blocks/products/pf/tutorial-page-section >}}
