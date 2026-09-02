@@ -87,7 +87,7 @@ outline.setHorizontalOffset(0);
 삽입할 그림을 로드하고 페이지 오른쪽에 정렬합니다. 여기서 **OneNote에 그림을 추가**하는 실제 작업이 이루어집니다. `Image` 생성자는 **이미지 파일을 Java에서 로드**하는 방법을 보여줍니다.
 
 ```java
-Image image = new Image(null, dataDir + "Input.jpg");
+Image image = new Image(dataDir + "Input.jpg");
 image.setAlignment(HorizontalAlignment.Right);
 ```
 
@@ -155,8 +155,8 @@ A7: 예, 알파 채널이 있는 PNG 파일을 완전히 지원하며 삽입 시
 
 ---
 
-**마지막 업데이트:** 2026-03-19  
-**테스트 환경:** Aspose.Note for Java 24.12 (최신)  
+**마지막 업데이트:** 2025-12-20  
+**테스트 환경:** Aspose.Note for Java 26.4 (최신)  
 **작성자:** Aspose  
 
 {{< /blocks/products/pf/tutorial-page-section >}}

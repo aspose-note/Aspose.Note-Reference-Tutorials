@@ -130,7 +130,7 @@ try {
 创建 `Image` 对象。当稍后提供流时，第一个参数可以为 `null`，但为简化起见，这里使用文件路径，并将其对齐方式设置为页面右侧。
 
 ```java
-Image image = new Image(null, dataDir + "image1.jpg");
+Image image = new Image(dataDir + "image1.jpg");
 image.setAlignment(HorizontalAlignment.Right);
 ```
 
@@ -215,8 +215,8 @@ A5: 有，你可以从 Aspose 发布页面下载免费试用版，全面体验�
 
 ---
 
-**最后更新：** 2026-03-19  
-**测试环境：** Aspose.Note for Java 24.12（撰写时的最新版本）  
+**最后更新：** 2025-12-21  
+**测试环境：** Aspose.Note for Java 26.4（撰写时的最新版本）  
 **作者：** Aspose  
 
 {{< /blocks/products/pf/tutorial-page-section >}}

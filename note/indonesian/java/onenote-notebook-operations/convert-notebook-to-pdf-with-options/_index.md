@@ -45,7 +45,7 @@ Untuk mengonversi buku catatan ke PDF, Anda perlu memuat buku catatan OneNote te
 ```java
 String dataDir = "Your Document Directory";
 // Memuat Buku Catatan OneNote
-Notebook notebook = new Notebook(dataDir + "Notizbuch �ffnen.onetoc2");
+Notebook notebook = new Notebook(dataDir + "Notebook.onetoc2");
 ```
 
 ## Langkah 2: Tentukan Opsi Penyimpanan PDF

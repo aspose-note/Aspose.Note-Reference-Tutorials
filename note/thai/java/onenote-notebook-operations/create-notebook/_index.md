@@ -32,7 +32,7 @@ weight: 18
 
 ### ติดตั้ง Java Development Kit (JDK)
 
-คุณต้องใช้ JDK เวอร์ชันล่าสุด ดาวน์โหลดได้จาก [Java website](https://www.oracle.com/java/technologies/javase-jdk15-downloads.html)
+คุณต้องใช้ JDK เวอร์ชันล่าสุด ดาวน์โหลดได้จาก [Java website](https://www.oracle.com/java/technologies/downloads/)
 
 ### ไลบรารี Aspose.Note สำหรับ Java
 
@@ -118,7 +118,7 @@ A: ไลบรารีทำงานกับ Java 8 ขึ้นไป
 ---
 
 **อัปเดตล่าสุด:** 2025-12-31  
-**ทดสอบด้วย:** Aspose.Note for Java 24.12  
+**ทดสอบด้วย:** Aspose.Note for Java 26.4  
 **ผู้เขียน:** Aspose
 
 {{< /blocks/products/pf/tutorial-page-section >}}

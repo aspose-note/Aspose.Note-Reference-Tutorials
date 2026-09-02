@@ -86,7 +86,7 @@ Page page = oneFile.getFirstChild();
 通过传入文档引用和图片文件路径来实例化 `Image` 对象。
 
 ```java
-Image image = new Image(oneFile, dataDir + "Input.jpg");
+Image image = new Image(dataDir + "Input.jpg");
 ```
 
 ### 步骤 4：设置图片尺寸 Java（可选）
@@ -157,8 +157,8 @@ try {
 
 ---
 
-**最后更新：** 2026-03-19  
-**测试环境：** Aspose.Note for Java 24.10  
+**最后更新：** 2025-12-21  
+**测试版本：** Aspose.Note for Java 26.4  
 **作者：** Aspose  
 
 {{< /blocks/products/pf/tutorial-page-section >}}

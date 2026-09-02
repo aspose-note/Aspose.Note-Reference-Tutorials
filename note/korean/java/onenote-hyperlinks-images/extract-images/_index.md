@@ -21,10 +21,10 @@ weight: 14
 
 ## Quick Answers
 - **추천 라이브러리는?** Aspose.Note for Java  
-- **비밀번호로 보호된 노트북에서 이미지를 추출할 수 있나요?** 예, Aspose.Note가 지원합니다.  
-- **개발에 라이선스가 필요합니까?** 테스트용 무료 체험판을 사용할 수 있지만, 프로덕션에서는 라이선스가 필요합니다.  
-- **지원되는 Java 버전은?** Java 8 이상 (Java 15 포함).  
-- **추출에 걸리는 시간은?** 일반적인 노트북은 보통 몇 초 정도 소요됩니다.  
+- **암호로 보호된 노트북에서 이미지를 추출할 수 있나요?** 예, Aspose.Note가 지원합니다.  
+- **개발에 라이선스가 필요합니까?** 무료 체험판으로 테스트가 가능하지만, 프로덕션에서는 라이선스가 필요합니다.  
+- **지원되는 Java 버전은?** Java 8 이후 버전(Java 8 포함).  
+- **추출에 얼마나 걸리나요?** 일반적인 노트북의 경우 보통 몇 초 정도 소요됩니다.
 
 ## What is **extract images from .one**?
 
@@ -36,7 +36,8 @@ OneNote 파일에서 이미지를 추출한다는 것은 `.one` 노트북에 포
 - **일관성:** 모든 파일에 대해 동일한 추출 로직을 보장합니다.  
 - **통합:** OCR, 이미지 분석, 콘텐츠 관리 시스템 등 Java 기반 워크플로우에 결과를 손쉽게 연결할 수 있습니다.  
 
-## Prerequisites
+1. **Java Development Kit (JDK)** – 시스템에 Java가 설치되어 있는지 확인하십시오. [website](https://www.oracle.com/java/technologies/downloads/)에서 다운로드하고 설치할 수 있습니다.
+2. **Aspose.Note Library** – Aspose.Note 라이브러리를 다운로드하여 Java 프로젝트에 포함하십시오. [download link](https://releases.aspose.com/note/java/)에서 받을 수 있습니다.
 
 Before you begin, make sure you have the following items ready:
 
@@ -117,8 +118,8 @@ A: 예, 유사한 API를 사용해 텍스트, 표, 삽입 파일 및 기타 객�
 
 ---
 
-**마지막 업데이트:** 2026-03-19  
-**테스트 대상:** Aspose.Note for Java 24.12  
+**마지막 업데이트:** 2025-12-21  
+**테스트 환경:** Aspose.Note for Java 26.4  
 **작성자:** Aspose  
 
 {{< /blocks/products/pf/tutorial-page-section >}}

@@ -110,7 +110,7 @@ You've now learned **how to export onenote** by loading a OneNote file, configur
 ---
 
 **อัปเดตล่าสุด:** 2025-12-17  
-**ทดสอบด้วย:** Aspose.Note 24.12 for Java  
+**ทดสอบด้วย:** Aspose.Note 26.4 for Java  
 **ผู้เขียน:** Aspose  
 
 ---

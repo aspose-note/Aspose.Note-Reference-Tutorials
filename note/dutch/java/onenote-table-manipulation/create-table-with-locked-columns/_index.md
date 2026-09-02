@@ -87,7 +87,7 @@ Gefeliciteerd! U hebt met succes een tabel met vergrendelde kolommen in OneNote 
 In deze zelfstudie hebben we het proces van het gebruik van Aspose.Note voor Java onderzocht om uw OneNote-ervaring te verbeteren door tabellen met vergrendelde kolommen te maken. Deze functionaliteit voegt een nieuwe laag organisatie en structuur toe aan uw notities.
 ## Veelgestelde vragen
 ### Is Aspose.Note voor Java compatibel met alle Java-versies?
-Ja, Aspose.Note voor Java is compatibel met Java 6 en latere versies.
+Ja, Aspose.Note voor Java is compatibel met Java SE 7 en latere versies.
 ### Kan ik het uiterlijk van de tafel verder aanpassen?
 Absoluut! Aspose.Note voor Java biedt uitgebreide opties voor het aanpassen van tabellen, zoals het aanpassen van randen, celafstanden en meer.
 ### Is er een proefversie beschikbaar voordat u deze aanschaft?

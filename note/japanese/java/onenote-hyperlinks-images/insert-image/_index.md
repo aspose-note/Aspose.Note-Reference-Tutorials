@@ -86,7 +86,7 @@ Page page = oneFile.getFirstChild();
 ドキュメント参照と画像ファイルへのパスを渡して `Image` オブジェクトをインスタンス化します。
 
 ```java
-Image image = new Image(oneFile, dataDir + "Input.jpg");
+Image image = new Image(dataDir + "Input.jpg");
 ```
 
 ### 手順 4: 画像サイズを設定する（任意）
@@ -157,9 +157,9 @@ try {
 
 ---
 
-**最終更新日:** 2026-03-19  
-**テスト環境:** Aspose.Note for Java 24.10  
-**作者:** Aspose  
+**最終更新日:** 2025年12月21日
+**テスト環境:** Aspose.Note for Java 26.4
+**作成者:** Aspose 
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

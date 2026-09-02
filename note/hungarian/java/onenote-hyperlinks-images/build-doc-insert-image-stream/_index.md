@@ -133,7 +133,7 @@ try {
 Hozz létre egy `Image` objektumot. Az első argumentum lehet `null`, ha később stream‑et adsz meg, de egyszerűség kedvéért itt a fájl útvonalra hivatkozunk, és a kép igazítását az oldal jobb oldalára állítjuk.
 
 ```java
-Image image = new Image(null, dataDir + "image1.jpg");
+Image image = new Image(dataDir + "image1.jpg");
 image.setAlignment(HorizontalAlignment.Right);
 ```
 
@@ -218,9 +218,9 @@ Most már van egy teljes, vég‑től‑végig példád arra, hogyan **create on
 
 ---
 
-**Utoljára frissítve:** 2026-03-19  
-**Tesztelve:** Aspose.Note for Java 24.12 (latest at time of writing)  
-**Szerző:** Aspose  
+**Last Updated:** 2025-1221  
+**Tested With:** Aspose.Note for Java 26.4 (latest at time of writing)  
+**Author:** Aspose  
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

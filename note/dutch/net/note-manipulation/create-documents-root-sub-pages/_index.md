@@ -52,18 +52,18 @@ Document doc = new Document();
 
 ```csharp
 // Initialiseer Page-klasseobjecten en stel hun niveaus in
-Page page1 = new Page(doc) { Level = 1 };
-Page page2 = new Page(doc) { Level = 2 };
-Page page3 = new Page(doc) { Level = 1 };
+Page page1 = new Page() { Level = 1 };
+Page page2 = new Page() { Level = 2 };
+Page page3 = new Page() { Level = 1 };
 ```
 
 ### Voor pagina 1:
 
 ```csharp
-Outline outline1 = new Outline(doc);
-OutlineElement outlineElem1 = new OutlineElement(doc);
+Outline outline1 = new Outline();
+OutlineElement outlineElem1 = new OutlineElement();
 ParagraphStyle textStyle1 = new ParagraphStyle { FontColor = Color.Black, FontName = "Arial", FontSize = 10 };
-RichText text1 = new RichText(doc) { Text = "First page.", ParagraphStyle = textStyle1 };
+RichText text1 = new RichText() { Text = "First page.", ParagraphStyle = textStyle1 };
 outlineElem1.AppendChildLast(text1);
 outline1.AppendChildLast(outlineElem1);
 page1.AppendChildLast(outline1);
@@ -72,10 +72,10 @@ page1.AppendChildLast(outline1);
 ### Voor pagina 2:
 
 ```csharp
-Outline outline2 = new Outline(doc);
-OutlineElement outlineElem2 = new OutlineElement(doc);
+Outline outline2 = new Outline();
+OutlineElement outlineElem2 = new OutlineElement();
 ParagraphStyle textStyle2 = new ParagraphStyle { FontColor = Color.Black, FontName = "Arial", FontSize = 10 };
-RichText text2 = new RichText(doc) { Text = "Second page.", ParagraphStyle = textStyle2 };
+RichText text2 = new RichText() { Text = "Second page.", ParagraphStyle = textStyle2 };
 outlineElem2.AppendChildLast(text2);
 outline2.AppendChildLast(outlineElem2);
 page2.AppendChildLast(outline2);
@@ -84,10 +84,10 @@ page2.AppendChildLast(outline2);
 ### Voor pagina 3:
 
 ```csharp
-Outline outline3 = new Outline(doc);
-OutlineElement outlineElem3 = new OutlineElement(doc);
+Outline outline3 = new Outline();
+OutlineElement outlineElem3 = new OutlineElement();
 ParagraphStyle textStyle3 = new ParagraphStyle { FontColor = Color.Black, FontName = "Arial", FontSize = 10 };
-RichText text3 = new RichText(doc) { Text = "Third page.", ParagraphStyle = textStyle3 };
+RichText text3 = new RichText() { Text = "Third page.", ParagraphStyle = textStyle3 };
 outlineElem3.AppendChildLast(text3);
 outline3.AppendChildLast(outlineElem3);
 page3.AppendChildLast(outline3);

@@ -89,7 +89,7 @@ outline.setHorizontalOffset(0);
 जिस चित्र को आप एम्बेड करना चाहते हैं उसे लोड करें और पेज के दाएँ पक्ष पर संरेखित करें। यही वह जगह है जहाँ हम वास्तव में **OneNote में चित्र जोड़ते** हैं। `Image` कंस्ट्रक्टर दिखाता है कि **इमेज फ़ाइल java** को कोड‑स्तर पर कैसे लोड किया जाता है।
 
 ```java
-Image image = new Image(null, dataDir + "Input.jpg");
+Image image = new Image(dataDir + "Input.jpg");
 image.setAlignment(HorizontalAlignment.Right);
 ```
 
@@ -157,8 +157,8 @@ try {
 
 ---
 
-**अंतिम अपडेट:** 2026-03-19  
-**परीक्षित संस्करण:** Aspose.Note for Java 24.12 (नवीनतम)  
+**अंतिम अपडेट:** 2025-12-20  
+**परीक्षित संस्करण:** Aspose.Note for Java 26.4 (latest)  
 **लेखक:** Aspose  
 
 {{< /blocks/products/pf/tutorial-page-section >}}

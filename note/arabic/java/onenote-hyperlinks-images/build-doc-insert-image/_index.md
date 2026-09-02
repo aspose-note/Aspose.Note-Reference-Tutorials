@@ -88,7 +88,7 @@ outline.setHorizontalOffset(0);
 حمّل الصورة التي تريد تضمينها وقم بمحاذاتها إلى الجانب الأيمن من الصفحة. هنا نضيف فعليًا **صورة إلى OneNote**. يوضح مُنشئ `Image` كيفية **تحميل ملف صورة java** برمجيًا.
 
 ```java
-Image image = new Image(null, dataDir + "Input.jpg");
+Image image = new Image(dataDir + "Input.jpg");
 image.setAlignment(HorizontalAlignment.Right);
 ```
 
@@ -156,8 +156,8 @@ A7: نعم، ملفات PNG ذات القنوات ألفا مدعومة بالك
 
 ---
 
-**آخر تحديث:** 2026-03-19  
-**تم الاختبار مع:** Aspose.Note for Java 24.12 (latest)  
+**آخر تحديث:** 2025-12-20  
+**تم الاختبار باستخدام:** Aspose.Note for Java 26.4 (latest)  
 **المؤلف:** Aspose  
 
 {{< /blocks/products/pf/tutorial-page-section >}}

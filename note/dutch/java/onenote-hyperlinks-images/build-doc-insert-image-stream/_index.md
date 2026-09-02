@@ -132,7 +132,7 @@ try {
 Maak een `Image`‑object. Het eerste argument kan `null` zijn wanneer je later een stream opgeeft, maar voor de eenvoud refereren we hier naar het bestandspad en stellen we de uitlijning in op de rechterkant van de pagina.
 
 ```java
-Image image = new Image(null, dataDir + "image1.jpg");
+Image image = new Image(dataDir + "image1.jpg");
 image.setAlignment(HorizontalAlignment.Right);
 ```
 
@@ -211,14 +211,8 @@ A4: De officiële Aspose‑website biedt uitgebreide documentatie, code‑voorbe
 
 A5: Ja, je kunt een gratis proefversie downloaden van de Aspose‑releasepagina om alle functies te verkennen voordat je een aankoop doet.
 
-## Conclusie
-
-Je hebt nu een volledig end‑to‑end voorbeeld van hoe je **onenote document java** maakt en afbeeldingen direct vanuit een `InputStream` insluit. Voel je vrij om te experimenteren met extra elementen – tekst, tabellen of vormen – om je notities te verrijken. Wanneer je er klaar voor bent, ontdek dan de vele exportopties die Aspose.Note biedt om je OneNote‑inhoud te delen als PDF, DOCX, HTML en meer.
-
----
-
-**Laatst bijgewerkt:** 2026-03-19  
-**Getest met:** Aspose.Note for Java 24.12 (latest op het moment van schrijven)  
+**Laatst bijgewerkt:** 2025-12-21  
+**Getest met:** Aspose.Note for Java 26.4 (latest at time of writing)  
 **Auteur:** Aspose  
 
 {{< /blocks/products/pf/tutorial-page-section >}}

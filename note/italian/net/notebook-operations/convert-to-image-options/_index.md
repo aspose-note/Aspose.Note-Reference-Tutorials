@@ -50,7 +50,7 @@ Innanzitutto, carica il file del notebook che desideri convertire in un'immagine
 string dataDir = "Your Document Directory";
 
 // Carica un blocco appunti di OneNote
-var notebook = new Notebook(dataDir + "Notizbuch �ffnen.onetoc2");
+var notebook = new Notebook(dataDir + "Notebook.onetoc2");
 ```
 
 ## Passaggio 2: imposta le opzioni di salvataggio dell'immagine

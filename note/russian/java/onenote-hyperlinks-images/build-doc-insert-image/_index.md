@@ -89,7 +89,7 @@ outline.setHorizontalOffset(0);
 Загрузите изображение, которое хотите встроить, и выровняйте его по правой стороне страницы. Здесь мы фактически **добавляем изображение в OneNote**. Конструктор `Image` демонстрирует, как **загрузить файл изображения в Java** программно.
 
 ```java
-Image image = new Image(null, dataDir + "Input.jpg");
+Image image = new Image(dataDir + "Input.jpg");
 image.setAlignment(HorizontalAlignment.Right);
 ```
 
@@ -157,8 +157,8 @@ try {
 
 ---
 
-**Последнее обновление:** 2026-03-19  
-**Тестировано с:** Aspose.Note for Java 24.12 (latest)  
+**Последнее обновление:** 2025-12-20  
+**Тестировано с:** Aspose.Note for Java 26.4 (latest)  
 **Автор:** Aspose  
 
 {{< /blocks/products/pf/tutorial-page-section >}}

@@ -122,7 +122,7 @@ V: Igen, az Aspose.Note megőrzi a képeket, diagramokat és egyéb beágyazott 
 ---
 
 **Utoljára frissítve:** 2025-12-17  
-**Tesztelve a következővel:** Aspose.Note for Java 24.12 (legújabb)  
+**Tesztelve a következővel:** Aspose.Note for Java 26.4 (legújabb)  
 **Szerző:** Aspose  
 
 {{< /blocks/products/pf/tutorial-page-section >}}

@@ -20,12 +20,12 @@ weight: 14
 
 Dalam tutorial ini Anda akan menemukan **how to extract onenote images java** dengan pustaka Aspose.Note for Java. Apakah Anda membutuhkan gambar untuk pelaporan, arsip, atau memasukkannya ke dalam pipeline OCR, kami akan memandu Anda melalui seluruh alur kerja—dari memuat notebook `.one` hingga menyimpan setiap gambar sebagai file terpisah di disk.
 
-## Quick Answers
-- **Library apa yang direkomendasikan?** Aspose.Note for Java  
-- **Apakah saya dapat mengekstrak gambar dari notebook yang dilindungi kata sandi?** Ya, Aspose.Note mendukungnya.  
-- **Apakah saya memerlukan lisensi untuk pengembangan?** Versi percobaan gratis dapat digunakan untuk pengujian; lisensi diperlukan untuk produksi.  
-- **Versi Java apa yang didukung?** Java 8 dan yang lebih baru (termasuk Java 15).  
-- **Berapa lama proses ekstraksi?** Biasanya beberapa detik untuk notebook standar.  
+## Jawaban Cepat
+- **Library apa yang direkomendasikan?** Aspose.Note untuk Java
+- **Apakah saya dapat mengekstrak gambar dari notebook yang dilindungi kata sandi?** Ya, Aspose.Note mendukungnya.
+- **Apakah saya memerlukan lisensi untuk pengembangan?** Versi percobaan gratis dapat digunakan untuk pengujian; lisensi diperlukan untuk produksi.
+- **Versi Java mana yang didukung?** Java8dan yang lebih baru (termasuk Java 8).
+- **Berapa lama proses ekstraksi berlangsung?** Biasanya beberapa detik untuk notebook standar.
 
 ## What is **extract images from .one**?
 
@@ -37,7 +37,7 @@ Mengekstrak gambar dari file OneNote berarti secara program menemukan setiap gam
 - **Konsistensi:** Menjamin logika ekstraksi yang identik di semua file.  
 - **Integrasi:** Dengan mudah menghubungkan output ke alur kerja berbasis Java lainnya seperti OCR, analisis gambar, atau sistem manajemen konten.  
 
-## Prerequisites
+1. **Java Development Kit (JDK)** – Pastikan Java terpasang di sistem Anda. Anda dapat mengunduh dan mengunduh dari [situs web](https://www.oracle.com/java/technologies/downloads/).
 
 Sebelum memulai, pastikan Anda memiliki hal‑hal berikut siap:
 
@@ -118,9 +118,9 @@ A: Ya, Anda juga dapat mengekstrak teks, tabel, file tertanam, dan objek lain me
 
 ---
 
-**Terakhir Diperbarui:** 2026-03-19  
-**Diuji Dengan:** Aspose.Note for Java 24.12  
-**Penulis:** Aspose  
+**Terakhir Diperbarui:** 21-12-2025
+**Diuji Dengan:** Aspose.Note untuk Java 26.4
+**Penulis:** Beranggapan
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

@@ -130,7 +130,7 @@ A `setHyperlinkAddress` metódus azt jelzi az Aspose.Note-nak, hogy ez a szegmen
 ```java
 RichText text = new RichText()
                             .append("This is ", textStyleRed)
-                            .append("hyperlink", new TextStyle().setHyperlinkAddress("www.google.com"))
+                            .append("hyperlink", new TextStyle().setHyperlinkAddress("https://www.google.com"))
                             .append(". This text is not a hyperlink.", TextStyle.getDefault());
 text.setParagraphStyle(defaultTextStyle);
 outlineElem.appendChildLast(text);
@@ -177,7 +177,7 @@ V: A PDF-olvasó automatikusan kezeli a kattintható hivatkozásokat; nincs szü
 V: Egy ideiglenes értékelő licenc elegendő fejlesztéshez és teszteléshez, de a termelési környezethez teljes licenc szükséges.
 
 **Utolsó frissítés:** 2025-12-20  
-**Tesztelve ezzel:** Aspose.Note for Java 23.12  
+**Tesztelve ezzel:** Aspose.Note for Java 26.4  
 **Szerző:** Aspose  
 
 {{< /blocks/products/pf/tutorial-page-section >}}

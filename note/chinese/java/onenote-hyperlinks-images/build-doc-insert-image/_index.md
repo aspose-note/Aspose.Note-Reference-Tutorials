@@ -87,7 +87,7 @@ outline.setHorizontalOffset(0);
 加载您想嵌入的图片并将其对齐到页面的右侧。这正是我们实际 **向 OneNote 添加图片** 的地方。`Image` 构造函数演示了如何 **加载图像文件 java**。
 
 ```java
-Image image = new Image(null, dataDir + "Input.jpg");
+Image image = new Image(dataDir + "Input.jpg");
 image.setAlignment(HorizontalAlignment.Right);
 ```
 
@@ -155,8 +155,8 @@ A7: 支持，带有 Alpha 通道的 PNG 文件在插入时会完整保留透明�
 
 ---
 
-**最后更新：** 2026-03-19  
-**测试环境：** Aspose.Note for Java 24.12（最新）  
+**最后更新：** 2025-12-20  
+**测试环境：** Aspose.Note for Java 26.4（最新）  
 **作者：** Aspose  
 
 {{< /blocks/products/pf/tutorial-page-section >}}

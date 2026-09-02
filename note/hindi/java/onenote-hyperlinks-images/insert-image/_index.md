@@ -87,7 +87,7 @@ Page page = oneFile.getFirstChild();
 डॉक्यूमेंट रेफ़रेंस और चित्र फ़ाइल के पथ को पास करके एक `Image` ऑब्जेक्ट बनाएं।
 
 ```java
-Image image = new Image(oneFile, dataDir + "Input.jpg");
+Image image = new Image(dataDir + "Input.jpg");
 ```
 
 ### चरण 4: छवि आयाम सेट करें Java (वैकल्पिक)
@@ -158,9 +158,9 @@ try {
 
 ---
 
-**अंतिम अपडेट:** 2026-03-19  
-**परीक्षण किया गया:** Aspose.Note for Java 24.10  
-**लेखक:** Aspose  
+**Last Updated:** 2025-12-21  
+**Tested With:** Aspose.Note for Java 26.4  
+**Author:** Aspose  
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

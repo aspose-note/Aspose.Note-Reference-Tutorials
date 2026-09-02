@@ -50,7 +50,7 @@ First, load the notebook file that you want to convert to an image.
 string dataDir = "Your Document Directory";
 
 // Load a OneNote Notebook
-var notebook = new Notebook(dataDir + "Notizbuch �ffnen.onetoc2");
+var notebook = new Notebook(dataDir + "Notebook.onetoc2");
 ```
 
 ## Step 2: Set Image Save Options

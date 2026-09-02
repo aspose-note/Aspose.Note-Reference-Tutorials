@@ -133,7 +133,7 @@ try {
 Erstellen Sie ein `Image`‑Objekt. Das erste Argument kann `null` sein, wenn Sie später einen Stream bereitstellen, aber aus Einfachheitsgründen referenzieren wir hier den Dateipfad und setzen die Ausrichtung auf die rechte Seite der Seite.
 
 ```java
-Image image = new Image(null, dataDir + "image1.jpg");
+Image image = new Image(dataDir + "image1.jpg");
 image.setAlignment(HorizontalAlignment.Right);
 ```
 
@@ -218,9 +218,9 @@ Sie haben nun ein vollständiges End‑zu‑Ende‑Beispiel, wie man **onenote d
 
 ---
 
-**Last Updated:** 2026-03-19  
-**Tested With:** Aspose.Note for Java 24.12 (latest at time of writing)  
-**Author:** Aspose  
+**Zuletzt aktualisiert:** 2025-12-21  
+**Getestet mit:** Aspose.Note for Java 26.4 (neueste zum Zeitpunkt der Erstellung)  
+**Autor:** Aspose  
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

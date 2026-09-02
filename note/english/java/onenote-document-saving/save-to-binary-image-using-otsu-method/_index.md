@@ -125,7 +125,7 @@ A: Definitely – iterate over `Document.getPages()` and apply the same save log
 ---
 
 **Last Updated:** 2025-12-14  
-**Tested With:** Aspose.Note for Java 24.12  
+**Tested With:** Aspose.Note for Java 26.4  
 **Author:** Aspose  
 
 {{< /blocks/products/pf/tutorial-page-section >}}

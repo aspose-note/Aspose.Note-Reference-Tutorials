@@ -48,7 +48,7 @@ First, load the OneNote notebook you want to convert into your application.
 string dataDir = "Your Document Directory";
 
 // Load a OneNote Notebook
-var notebook = new Notebook(dataDir + "Notizbuch öffnen.onetoc2");
+var notebook = new Notebook(dataDir + "Notebook.onetoc2");
 ```
 
 ## Step 2: Set Save Options

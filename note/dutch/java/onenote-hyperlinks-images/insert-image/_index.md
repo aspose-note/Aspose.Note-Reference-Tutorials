@@ -89,7 +89,7 @@ Page page = oneFile.getFirstChild();
 Instantieer een `Image`‑object door de documentreferentie en het pad naar het afbeeldingsbestand door te geven.
 
 ```java
-Image image = new Image(oneFile, dataDir + "Input.jpg");
+Image image = new Image(dataDir + "Input.jpg");
 ```
 
 ### Step 4: Set image dimensions Java (optional)
@@ -160,9 +160,9 @@ Je hebt nu een compleet, productie‑klaar voorbeeld dat **how to add image to O
 
 ---
 
-**Last Updated:** 2026-03-19  
-**Tested With:** Aspose.Note for Java 24.10  
-**Author:** Aspose  
+**Laatst bijgewerkt:** 21-12-2025
+**Getest met:** Aspose.Note voor Java 26.4
+**Auteur:** Aspose  
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

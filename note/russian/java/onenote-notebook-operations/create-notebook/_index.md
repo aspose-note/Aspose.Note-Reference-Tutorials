@@ -32,7 +32,7 @@ weight: 18
 
 ### Комплект разработки Java (JDK) установлен
 
-Вам нужен современный JDK. скачайте его с [веб-сайта Java](https://www.oracle.com/java/technologies/javase-jdk15-downloads.html).
+Вам нужен современный JDK. скачайте его с [веб-сайта Java](https://www.oracle.com/java/technologies/downloads/).
 
 ### Aspose.Note для библиотеки Java
 
@@ -118,7 +118,7 @@ notebook.save(dataDir + "CreatandSaveANotebook.onetoc2");
 ---
 
 **Последнее обновление:** 2025-12-31  
-**Тестировано с:** Aspose.Note for Java 24.12  
+**Тестировано с:** Aspose.Note for Java 26.4  
 **Автор:** Aspose
 
 {{< /blocks/products/pf/tutorial-page-section >}}

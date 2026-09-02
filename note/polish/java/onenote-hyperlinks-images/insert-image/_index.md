@@ -86,7 +86,7 @@ Page page = oneFile.getFirstChild();
 Instantiate an `Image` object by passing the document reference and the path to the picture file.
 
 ```java
-Image image = new Image(oneFile, dataDir + "Input.jpg");
+Image image = new Image(dataDir + "Input.jpg");
 ```
 
 ### Step 4: Set image dimensions Java (optional)
@@ -157,9 +157,9 @@ You now have a complete, production‑ready example that shows **how to add imag
 
 ---
 
-**Last Updated:** 2026-03-19  
-**Tested With:** Aspose.Note for Java 24.10  
-**Author:** Aspose  
+**Ostatnia aktualizacja:** 2025-12-21  
+**Testowano z:** Aspose.Note for Java 26.4  
+**Autor:** Aspose  
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

@@ -131,7 +131,7 @@ try {
 أنشئ كائن `Image`. يمكن أن يكون الوسيط الأول `null` عندما تقدم تدفقًا لاحقًا، لكن للتبسيط نشير إلى مسار الملف هنا ونضبط محاذاته إلى الجانب الأيمن من الصفحة.
 
 ```java
-Image image = new Image(null, dataDir + "image1.jpg");
+Image image = new Image(dataDir + "image1.jpg");
 image.setAlignment(HorizontalAlignment.Right);
 ```
 
@@ -216,8 +216,8 @@ A5: نعم، يمكنك تنزيل نسخة تجريبية مجانية من ص�
 
 ---
 
-**آخر تحديث:** 2026-03-19  
-**تم الاختبار باستخدام:** Aspose.Note for Java 24.12 (أحدث نسخة وقت الكتابة)  
+**آخر تحديث:** 2025-12-21  
+**تم الاختبار مع:** Aspose.Note for Java 26.4 (latest at time of writing)  
 **المؤلف:** Aspose  
 
 {{< /blocks/products/pf/tutorial-page-section >}}

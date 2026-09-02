@@ -33,7 +33,7 @@ Avant de plonger dans l’implémentation, assurez‑vous que les pré‑requis 
 
 ### 1. Kit de développement Java (JDK)
 
-Vérifiez que le Kit de développement Java (JDK) est installé sur votre système. Vous pouvez télécharger et installer le dernier JDK depuis le [site d’Oracle](https://www.oracle.com/java/technologies/javase-jdk15-downloads.html).
+Vérifiez que le Kit de développement Java (JDK) est installé sur votre système. Vous pouvez télécharger et installer le dernier JDK depuis le [site d’Oracle](https://www.oracle.com/java/technologies/downloads/).
 
 ### 2. Bibliothèque Aspose.Note for Java
 
@@ -148,7 +148,7 @@ En suivant les étapes décrites dans ce tutoriel, vous pouvez efficacement **ob
 ---
 
 **Dernière mise à jour :** 2025-12-21  
-**Testé avec :** Aspose.Note for Java 23.12  
+**Testé avec :** Aspose.Note for Java 26.4  
 **Auteur :** Aspose  
 
 ---

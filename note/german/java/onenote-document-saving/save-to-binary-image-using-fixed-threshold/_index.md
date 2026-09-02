@@ -134,7 +134,7 @@ A: Die Aspose.Note Java‑Bibliothek ist plattformunabhängig, sodass derselbe C
 ---
 
 **Zuletzt aktualisiert:** 2025-12-13  
-**Getestet mit:** Aspose.Note für Java 24.12 (neueste)  
+**Getestet mit:** Aspose.Note für Java 26.4 (neueste)  
 **Autor:** Aspose  
 
 {{< /blocks/products/pf/tutorial-page-section >}}

@@ -87,7 +87,7 @@ outline.setHorizontalOffset(0);
 โหลดรูปที่ต้องการฝังและจัดตำแหน่งให้ชิดขวาของหน้า นี่คือขั้นตอนที่เราจริง ๆ **เพิ่มรูปภาพไปยัง OneNote** ตัวสร้าง `Image` แสดงวิธี **โหลดไฟล์รูปภาพ java** ผ่านโค้ด
 
 ```java
-Image image = new Image(null, dataDir + "Input.jpg");
+Image image = new Image(dataDir + "Input.jpg");
 image.setAlignment(HorizontalAlignment.Right);
 ```
 
@@ -155,9 +155,9 @@ A7: ใช่, ไฟล์ PNG ที่มีช่อง alpha จะได�
 
 ---
 
-**Last Updated:** 2026-03-19  
-**Tested With:** Aspose.Note for Java 24.12 (latest)  
-**Author:** Aspose  
+**อัปเดตล่าสุด:** 2025-12-20  
+**ทดสอบกับ:** Aspose.Note for Java 26.4 (ล่าสุด)  
+**ผู้เขียน:** Aspose  
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

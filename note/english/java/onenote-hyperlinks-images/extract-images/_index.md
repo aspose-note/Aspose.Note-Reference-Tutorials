@@ -22,8 +22,8 @@ In this tutorial you’ll discover **how to extract onenote images java** with t
 - **What library is recommended?** Aspose.Note for Java  
 - **Can I extract images from a password‑protected notebook?** Yes, Aspose.Note supports it.  
 - **Do I need a license for development?** A free trial works for testing; a license is required for production.  
-- **Which Java versions are supported?** Java 8 and newer (including Java 15).  
-- **How long does the extraction take?** Typically a few seconds for a standard notebook.  
+- **Which Java versions are supported?** Java 8 and newer (including Java 8).  
+- **How long does the extraction take?** Typically a few seconds for a standard notebook.
 
 ## What is **extract images from .one**?
 
@@ -39,8 +39,9 @@ Extracting images from a OneNote file means programmatically locating every pict
 
 Before you begin, make sure you have the following items ready:
 
-1. **Java Development Kit (JDK)** – Install Java 8 or newer. You can download it from the [website](https://www.oracle.com/java/technologies/javase-jdk15-downloads.html).  
-2. **Aspose.Note Library** – Download the latest Aspose.Note for Java package and add it to your project’s classpath. Get it from the [download link](https://releases.aspose.com/note/java/).  
+1. **Java Development Kit (JDK)** – Make sure you have Java installed on your system. You can download and install it from the [website](https://www.oracle.com/java/technologies/downloads/).
+
+2. **Aspose.Note Library** – Download and include the Aspose.Note library in your Java project. You can get it from the [download link](https://releases.aspose.com/note/java/).
 
 ## Import Packages
 
@@ -116,8 +117,8 @@ A: Yes, you can also extract text, tables, embedded files, and other objects usi
 
 ---
 
-**Last Updated:** 2026-03-19  
-**Tested With:** Aspose.Note for Java 24.12  
+**Last Updated:** 2025-12-21  
+**Tested With:** Aspose.Note for Java 26.4  
 **Author:** Aspose  
 
 {{< /blocks/products/pf/tutorial-page-section >}}

@@ -22,10 +22,10 @@ Bu öğreticide **how to extract onenote images java** konusunu Aspose.Note for 
 
 ## Hızlı Yanıtlar
 - **Önerilen kütüphane nedir?** Aspose.Note for Java  
-- **Şifre korumalı bir defterden görselleri çıkarabilir miyim?** Evet, Aspose.Note bunu destekler.  
-- **Geliştirme için lisansa ihtiyacım var mı?** Ücretsiz deneme sürümü test için çalışır; üretim için lisans gereklidir.  
-- **Hangi Java sürümleri destekleniyor?** Java 8 ve üzeri (Java 15 dahil).  
-- **Çıkarma işlemi ne kadar sürer?** Standart bir defter için genellikle birkaç saniye.  
+- **Şifre korumalı bir defterden görüntü çıkarabilir miyim?** Evet, Aspose.Note bunu destekler.  
+- **Geliştirme için lisansa ihtiyacım var mı?** Test için ücretsiz deneme sürümü çalışır; üretim için lisans gereklidir.  
+- **Hangi Java sürümleri destekleniyor?** Java 8 ve üzeri (Java 8 dahil).  
+- **Çıkarma işlemi ne kadar sürer?** Standart bir defter için genellikle birkaç saniye.
 
 ## **extract images from .one** nedir?
 
@@ -41,8 +41,9 @@ OneNote dosyasından görselleri çıkarmak, bir `.one` defterine gömülü tüm
 
 Başlamadan önce aşağıdaki öğelerin hazır olduğundan emin olun:
 
-1. **Java Development Kit (JDK)** – Java 8 veya daha yenisini kurun. [website](https://www.oracle.com/java/technologies/javase-jdk15-downloads.html) adresinden indirebilirsiniz.  
-2. **Aspose.Note Library** – En son Aspose.Note for Java paketini indirin ve projenizin sınıf yoluna ekleyin. [download link](https://releases.aspose.com/note/java/) adresinden temin edebilirsiniz.  
+1. **Java Development Kit (JDK)** – Sisteminizde Java yüklü olduğundan emin olun. [website](https://www.oracle.com/java/technologies/downloads/) adresinden indirebilirsiniz.
+
+2. **Aspose.Note Library** – Aspose.Note kütüphanesini indirin ve Java projenize ekleyin. [download link](https://releases.aspose.com/note/java/) adresinden temin edebilirsiniz.
 
 ## Paketleri İçe Aktarma
 
@@ -118,8 +119,8 @@ C: Evet, benzer API'ler kullanarak metin, tablolar, gömülü dosyalar ve diğer
 
 ---
 
-**Son Güncelleme:** 2026-03-19  
-**Test Edilen:** Aspose.Note for Java 24.12  
+**Son Güncelleme:** 2025-12-21  
+**Test Edilen Sürüm:** Aspose.Note for Java 26.4  
 **Yazar:** Aspose  
 
 {{< /blocks/products/pf/tutorial-page-section >}}

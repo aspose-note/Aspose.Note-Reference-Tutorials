@@ -53,7 +53,7 @@ Buat objek Halaman dan Kerangka untuk menyusun konten dokumen OneNote.
 
 ```csharp
 Aspose.Note.Page page = new Aspose.Note.Page(doc);
-Outline outline = new Outline(doc);
+Outline outline = new Outline();
 ```
 
 ## Langkah 3: Tambahkan Node Teks dengan Tag
@@ -61,9 +61,9 @@ Outline outline = new Outline(doc);
 Buat objek RichText dengan teks dan gaya yang diinginkan, lalu tambahkan ke OutlineElement.
 
 ```csharp
-OutlineElement outlineElem = new OutlineElement(doc);
+OutlineElement outlineElem = new OutlineElement();
 ParagraphStyle textStyle = new ParagraphStyle { FontColor = Color.Black, FontName = "Arial", FontSize = 10 };
-RichText text = new RichText(doc) { Text = "OneNote text.", ParagraphStyle = textStyle };
+RichText text = new RichText() { Text = "OneNote text.", ParagraphStyle = textStyle };
 text.Tags.Add(NoteTag.CreateYellowStar());
 outlineElem.AppendChildLast(text);
 ```

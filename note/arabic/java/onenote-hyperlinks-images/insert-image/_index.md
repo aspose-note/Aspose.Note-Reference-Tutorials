@@ -86,7 +86,7 @@ Page page = oneFile.getFirstChild();
 أنشئ كائن `Image` بتمرير مرجع المستند ومسار ملف الصورة.
 
 ```java
-Image image = new Image(oneFile, dataDir + "Input.jpg");
+Image image = new Image(dataDir + "Input.jpg");
 ```
 
 ### الخطوة 4: تعيين أبعاد الصورة Java (اختياري)
@@ -157,8 +157,8 @@ try {
 
 ---
 
-**آخر تحديث:** 2026-03-19  
-**تم الاختبار مع:** Aspose.Note for Java 24.10  
+**آخر تحديث:** 2025-12-21  
+**تم الاختبار مع:** Aspose.Note for Java 26.4  
 **المؤلف:** Aspose  
 
 {{< /blocks/products/pf/tutorial-page-section >}}

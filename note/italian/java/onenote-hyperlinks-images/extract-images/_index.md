@@ -22,10 +22,10 @@ In questo tutorial scoprirai **come estrarre immagini onenote java** con la libr
 
 ## Risposte rapide
 - **Quale libreria è consigliata?** Aspose.Note per Java  
-- **Posso estrarre immagini da un notebook protetto da password?** Sì, Aspose.Note lo supporta.  
-- **È necessaria una licenza per lo sviluppo?** Una prova gratuita è sufficiente per i test; è richiesta una licenza per la produzione.  
-- **Quali versioni di Java sono supportate?** Java 8 e successive (inclusa Java 15).  
-- **Quanto tempo richiede l'estrazione?** Tipicamente pochi secondi per un notebook standard.  
+- **Posso estrarre immagini da un blocco appunti protetto da password?** Sì, Aspose.Note lo supporta.  
+- **Ho bisogno di una licenza per lo sviluppo?** Una prova gratuita è sufficiente per i test; è necessaria una licenza per la produzione.  
+- **Quali versioni di Java sono supportate?** Java 8 e successive (inclusa Java 8).  
+- **Quanto tempo richiede l'estrazione?** Tipicamente pochi secondi per un blocco appunti standard.
 
 ## Che cosa è **estrarre immagini da .one**?
 
@@ -41,8 +41,7 @@ Estrarre immagini da un file OneNote significa individuare programmaticamente og
 
 Prima di iniziare, assicurati di avere a disposizione i seguenti elementi:
 
-1. **Java Development Kit (JDK)** – Installa Java 8 o versioni successive. Puoi scaricarlo dal [sito web](https://www.oracle.com/java/technologies/javase-jdk15-downloads.html).  
-2. **Libreria Aspose.Note** – Scarica l'ultima versione di Aspose.Note per Java e aggiungila al classpath del tuo progetto. Ottienila dal [link di download](https://releases.aspose.com/note/java/).  
+1. **Java Development Kit (JDK)** – Assicurati di avere Java installato sul tuo sistema. Puoi scaricarlo e installarlo dal [sito web](https://www.oracle.com/java/technologies/downloads/).
 
 ## Importa i pacchetti
 
@@ -118,8 +117,8 @@ R: Sì, è possibile estrarre anche testo, tabelle, file incorporati e altri ogg
 
 ---
 
-**Ultimo aggiornamento:** 2026-03-19  
-**Testato con:** Aspose.Note per Java 24.12  
+**Ultimo aggiornamento:** 2025-12-21  
+**Testato con:** Aspose.Note per Java 26.4  
 **Autore:** Aspose  
 
 {{< /blocks/products/pf/tutorial-page-section >}}

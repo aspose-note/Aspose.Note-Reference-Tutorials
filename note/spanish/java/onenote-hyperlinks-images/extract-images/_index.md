@@ -23,9 +23,9 @@ En este tutorial descubrirás **how to extract onenote images java** con la bibl
 ## Respuestas rápidas
 - **¿Qué biblioteca se recomienda?** Aspose.Note for Java  
 - **¿Puedo extraer imágenes de un cuaderno protegido con contraseña?** Sí, Aspose.Note lo admite.  
-- **¿Necesito una licencia para desarrollo?** Una prueba gratuita funciona para pruebas; se requiere una licencia para producción.  
-- **¿Qué versiones de Java son compatibles?** Java 8 y posteriores (incluido Java 15).  
-- **¿Cuánto tiempo lleva la extracción?** Normalmente unos pocos segundos para un cuaderno estándar.  
+- **¿Necesito una licencia para el desarrollo?** Una prueba gratuita funciona para pruebas; se requiere una licencia para producción.  
+- **¿Qué versiones de Java son compatibles?** Java 8 y posteriores (incluido Java 8).  
+- **¿Cuánto tiempo lleva la extracción?** Normalmente unos pocos segundos para un cuaderno estándar.
 
 ## Qué es **extract images from .one**?
 
@@ -41,8 +41,9 @@ Extraer imágenes de un archivo OneNote significa localizar programáticamente c
 
 Antes de comenzar, asegúrate de tener los siguientes elementos listos:
 
-1. **Java Development Kit (JDK)** – Instala Java 8 o posterior. Puedes descargarlo desde el [website](https://www.oracle.com/java/technologies/javase-jdk15-downloads.html).  
-2. **Aspose.Note Library** – Descarga el paquete más reciente de Aspose.Note for Java y añádelo al classpath de tu proyecto. Obténlo desde el [download link](https://releases.aspose.com/note/java/).  
+1. **Java Development Kit (JDK)** – Asegúrese de que tiene Java instalado en su sistema. Puede descargarlo e instalarlo desde el [website](https://www.oracle.com/java/technologies/downloads/).
+
+2. **Aspose.Note Library** – Descargue e incluya la biblioteca Aspose.Note en su proyecto Java. Puede obtenerla desde el [download link](https://releases.aspose.com/note/java/).
 
 ## Importar paquetes
 
@@ -118,8 +119,8 @@ A: Sí, también puedes extraer texto, tablas, archivos incrustados y otros obje
 
 ---
 
-**Última actualización:** 2026-03-19  
-**Probado con:** Aspose.Note for Java 24.12  
+**Última actualización:** 2025-12-21  
+**Probado con:** Aspose.Note para Java 26.4  
 **Autor:** Aspose  
 
 {{< /blocks/products/pf/tutorial-page-section >}}

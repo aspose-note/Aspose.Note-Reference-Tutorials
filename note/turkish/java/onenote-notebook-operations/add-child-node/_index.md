@@ -58,7 +58,7 @@ OneNote belgelerinizin saklandığı dizini belirtmeyi unutmayın.
 ## Adım 2: OneNote Defterini Yükleme
 
 ```java
-Notebook notebook = new Notebook(dataDir + "Notizbuch �ffnen.onetoc2");
+Notebook notebook = new Notebook(dataDir + "Notebook.onetoc2");
 ```
 
 Değiştirmek istediğiniz OneNote defterini yükleyin.
@@ -118,7 +118,7 @@ A7: Yalnızca‑okunur bir deftere değişiklikleri kaydetmeye çalışmak bir `
 ---
 
 **Son Güncelleme:** 2025-12-25  
-**Test Edilen:** Aspose.Note for Java 24.10  
+**Test Edilen:** Aspose.Note for Java 26.4  
 **Yazar:** Aspose  
 
 {{< /blocks/products/pf/tutorial-page-section >}}

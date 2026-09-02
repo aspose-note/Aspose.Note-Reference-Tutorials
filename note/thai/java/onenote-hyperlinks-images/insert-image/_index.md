@@ -86,7 +86,7 @@ Page page = oneFile.getFirstChild();
 สร้างอ็อบเจ็กต์ `Image` โดยส่งอ้างอิงเอกสารและพาธของไฟล์รูปภาพเข้าไป
 
 ```java
-Image image = new Image(oneFile, dataDir + "Input.jpg");
+Image image = new Image(dataDir + "Input.jpg");
 ```
 
 ### Step 4: Set image dimensions Java (optional)
@@ -157,9 +157,9 @@ try {
 
 ---
 
-**Last Updated:** 2026-03-19  
-**Tested With:** Aspose.Note for Java 24.10  
-**Author:** Aspose  
+**อัปเดตล่าสุด:** 2025-12-21  
+**ทดสอบด้วย:** Aspose.Note for Java 26.4  
+**ผู้เขียน:** Aspose  
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

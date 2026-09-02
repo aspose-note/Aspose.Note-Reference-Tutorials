@@ -132,7 +132,7 @@ try {
 Создайте объект `Image`. Первый аргумент может быть `null`, если вы позже передадите поток, но для простоты мы указываем здесь путь к файлу и задаём выравнивание по правой стороне страницы.
 
 ```java
-Image image = new Image(null, dataDir + "image1.jpg");
+Image image = new Image(dataDir + "image1.jpg");
 image.setAlignment(HorizontalAlignment.Right);
 ```
 
@@ -217,8 +217,8 @@ A5: Да, вы можете скачать бесплатную пробную �
 
 ---
 
-**Последнее обновление:** 2026-03-19  
-**Тестировано с:** Aspose.Note for Java 24.12 (latest at time of writing)  
+**Последнее обновление:** 2025-12-21  
+**Тестировано с:** Aspose.Note for Java 26.4 (последняя на момент написания)  
 **Автор:** Aspose  
 
 {{< /blocks/products/pf/tutorial-page-section >}}

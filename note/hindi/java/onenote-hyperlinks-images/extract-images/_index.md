@@ -20,12 +20,12 @@ weight: 14
 
 इस ट्यूटोरियल में आप **how to extract onenote images java** को Aspose.Note for Java लाइब्रेरी की मदद से सीखेंगे। चाहे आपको रिपोर्टिंग, आर्काइविंग, या OCR पाइपलाइन में फ़ीड करने के लिए चित्रों की ज़रूरत हो, हम आपको पूरे वर्कफ़्लो के माध्यम से ले जाएंगे — `.one` नोटबुक को लोड करने से लेकर प्रत्येक चित्र को डिस्क पर अलग फ़ाइल के रूप में सहेजने तक।
 
-## Quick Answers
-- **What library is recommended?** Aspose.Note for Java  
-- **Can I extract images from a password‑protected notebook?** Yes, Aspose.Note supports it.  
-- **Do I need a license for development?** A free trial works for testing; a license is required for production.  
-- **Which Java versions are supported?** Java 8 and newer (including Java 15).  
-- **How long does the extraction take?** Typically a few seconds for a standard notebook.  
+## त्वरित उत्तर
+- **कौन सी लाइब्रेरी अनुशंसित है?** Aspose.Note for Java  
+- **क्या मैं पासवर्ड‑सुरक्षित नोटबुक से छवियां निकाल सकता हूँ?** हाँ, Aspose.Note इसे सपोर्ट करता है।  
+- **क्या विकास के लिए लाइसेंस चाहिए?** परीक्षण के लिए एक मुफ्त ट्रायल काम करता है; उत्पादन के लिए लाइसेंस आवश्यक है।  
+- **कौन से Java संस्करण समर्थित हैं?** Java 8 और उसके बाद के (Java 8 सहित)।  
+- **निकालने में कितना समय लगता है?** सामान्य नोटबुक के लिए आमतौर पर कुछ सेकंड।
 
 ## What is **extract images from .one**?
 
@@ -41,8 +41,7 @@ OneNote फ़ाइल से इमेज निकालना मतलब �
 
 शुरू करने से पहले सुनिश्चित करें कि आपके पास निम्नलिखित चीज़ें तैयार हों:
 
-1. **Java Development Kit (JDK)** – Java 8 या उससे नया इंस्टॉल करें। आप इसे [website](https://www.oracle.com/java/technologies/javase-jdk15-downloads.html) से डाउनलोड कर सकते हैं।  
-2. **Aspose.Note Library** – नवीनतम Aspose.Note for Java पैकेज डाउनलोड करें और इसे अपने प्रोजेक्ट की classpath में जोड़ें। इसे [download link](https://releases.aspose.com/note/java/) से प्राप्त करें।  
+1. **Java Development Kit (JDK)** – सुनिश्चित करें कि आपके सिस्टम पर Java स्थापित है। आप इसे [website](https://www.oracle.com/java/technologies/downloads/) से डाउनलोड और इंस्टॉल कर सकते हैं।
 
 ## Import Packages
 
@@ -118,9 +117,9 @@ A: Yes, you can also extract text, tables, embedded files, and other objects usi
 
 ---
 
-**Last Updated:** 2026-03-19  
-**Tested With:** Aspose.Note for Java 24.12  
-**Author:** Aspose  
+**अंतिम अपडेट:** 2025-12-21  
+**परीक्षण किया गया:** Aspose.Note for Java 26.4  
+**लेखक:** Aspose  
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

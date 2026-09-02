@@ -41,7 +41,7 @@ Primeiro precisamos inicializar um novo documento e criar uma página para inser
 
 ```csharp
 var document = new Document();
-var page = new Page(document);
+var page = new Page();
 ```
 
 ## Etapa 2: inserir imagem com hiperlink
@@ -50,7 +50,7 @@ Agora vamos inserir a imagem com um hiperlink. Criaremos um`Image` objeto e defi
 
 ```csharp
 string imagePath = "path_to_your_image.jpg";
-var image = new Image(document, imagePath) { HyperlinkUrl = "http://exemplo.com" };
+var image = new Image(imagePath) { HyperlinkUrl = "https://exemplo.com" };
 ```
 
 ## Etapa 3: anexar imagem à página

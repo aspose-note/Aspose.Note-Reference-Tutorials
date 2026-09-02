@@ -88,7 +88,7 @@ outline.setHorizontalOffset(0);
 Töltse be a beágyazni kívánt képet, és igazítsa a oldal jobb oldalához. Itt történik a tényleges **kép hozzáadása a OneNote-hoz**. Az `Image` konstruktor bemutatja, hogyan **töltsön be képfájlt Java-ban** kódszinten.
 
 ```java
-Image image = new Image(null, dataDir + "Input.jpg");
+Image image = new Image(dataDir + "Input.jpg");
 image.setAlignment(HorizontalAlignment.Right);
 ```
 
@@ -156,8 +156,8 @@ A7: Igen, az alfa csatornával rendelkező PNG‑fájlok teljes mértékben tám
 
 ---
 
-**Utoljára frissítve:** 2026-03-19  
-**Tesztelve a következővel:** Aspose.Note for Java 24.12 (legújabb)  
+**Legutóbb frissítve:** 2025-12-20  
+**Tesztelve a következővel:** Aspose.Note for Java 26.4 (latest)  
 **Szerző:** Aspose  
 
 {{< /blocks/products/pf/tutorial-page-section >}}

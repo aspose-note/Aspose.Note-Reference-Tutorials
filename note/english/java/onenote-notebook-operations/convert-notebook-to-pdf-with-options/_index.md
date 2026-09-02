@@ -45,7 +45,7 @@ To convert a notebook to PDF, you need to load the OneNote notebook first. Ensur
 ```java
 String dataDir = "Your Document Directory";
 // Load a OneNote Notebook
-Notebook notebook = new Notebook(dataDir + "Notizbuch �ffnen.onetoc2");
+Notebook notebook = new Notebook(dataDir + "Notebook.onetoc2");
 ```
 
 ## Step 2: Specify PDF Save Options

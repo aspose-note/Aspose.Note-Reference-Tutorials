@@ -87,7 +87,7 @@ Page page = oneFile.getFirstChild();
 Instansiera ett `Image`‑objekt genom att skicka dokumentreferensen och sökvägen till bildfilen.
 
 ```java
-Image image = new Image(oneFile, dataDir + "Input.jpg");
+Image image = new Image(dataDir + "Input.jpg");
 ```
 
 ### Steg 4: Ställ in bilddimensioner Java (valfritt)
@@ -158,8 +158,8 @@ Du har nu ett komplett, produktionsklart exempel som visar **hur man lägger til
 
 ---
 
-**Last Updated:** 2026-03-19  
-**Tested With:** Aspose.Note for Java 24.10  
+**Last Updated:** 2025-12-21  
+**Tested With:** Aspose.Note for Java 26.4  
 **Author:** Aspose  
 
 {{< /blocks/products/pf/tutorial-page-section >}}

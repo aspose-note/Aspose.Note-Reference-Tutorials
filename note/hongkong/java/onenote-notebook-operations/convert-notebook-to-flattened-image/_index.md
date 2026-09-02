@@ -141,7 +141,7 @@ A5：您可在 Aspose.Note 論壇的 [此處](https://forum.aspose.com/c/note/28
 ---
 
 **最後更新：** 2025-12-25  
-**測試環境：** Aspose.Note for Java 24.12  
+**測試環境：** Aspose.Note for Java 26.4  
 **作者：** Aspose  
 
 {{< /blocks/products/pf/tutorial-page-section >}}

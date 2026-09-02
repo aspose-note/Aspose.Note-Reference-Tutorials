@@ -21,11 +21,11 @@ weight: 14
 Neste tutorial você descobrirá **como extrair imagens onenote java** com a biblioteca Aspose.Note for Java. Seja para relatórios, arquivamento ou alimentar um pipeline de OCR, vamos guiá-lo por todo o fluxo de trabalho — desde o carregamento de um notebook `.one` até a gravação de cada imagem como um arquivo individual no disco.
 
 ## Respostas Rápidas
-- **Qual biblioteca é recomendada?** Aspose.Note for Java  
-- **Posso extrair imagens de um notebook protegido por senha?** Sim, o Aspose.Note suporta isso.  
-- **Preciso de uma licença para desenvolvimento?** Um teste gratuito funciona para testes; uma licença é necessária para produção.  
-- **Quais versões do Java são suportadas?** Java 8 e posteriores (incluindo Java 15).  
-- **Quanto tempo leva a extração?** Normalmente alguns segundos para um notebook padrão.  
+- **Qual biblioteca é recomendada?** Aspose.Note para Java  
+- **Posso extrair imagens de um bloco de notas protegido por senha?** Sim, o Aspose.Note oferece suporte.  
+- **Preciso de licença para desenvolvimento?** Uma avaliação gratuita funciona para testes; uma licença é necessária para produção.  
+- **Quais versões do Java são suportadas?** Java 8 e posteriores (incluindo Java 8).  
+- **Quanto tempo leva a extração?** Normalmente alguns segundos para um bloco de notas padrão.
 
 ## O que é **extrair imagens de .one**?
 
@@ -37,7 +37,7 @@ Extrair imagens de um arquivo OneNote significa localizar programaticamente cada
 - **Consistência:** Garante lógica de extração idêntica em todos os arquivos.  
 - **Integração:** Encadeia facilmente a saída em outros fluxos de trabalho baseados em Java, como OCR, análise de imagens ou sistemas de gerenciamento de conteúdo.  
 
-## Pré-requisitos
+1. **Java Development Kit (JDK)** – Certifique‑se de que o Java está instalado em seu sistema. Você pode baixá‑lo e instalá‑lo a partir do [site](https://www.oracle.com/java/technologies/downloads/).
 
 Antes de começar, certifique‑se de que você tem os seguintes itens prontos:
 
@@ -118,8 +118,8 @@ A: Sim, você também pode extrair texto, tabelas, arquivos incorporados e outro
 
 ---
 
-**Última atualização:** 2026-03-19  
-**Testado com:** Aspose.Note for Java 24.12  
+**Última atualização:** 2025-12-21  
+**Testado com:** Aspose.Note for Java 26.4  
 **Autor:** Aspose  
 
 {{< /blocks/products/pf/tutorial-page-section >}}

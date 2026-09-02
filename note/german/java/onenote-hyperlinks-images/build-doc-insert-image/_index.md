@@ -89,7 +89,7 @@ outline.setHorizontalOffset(0);
 Laden Sie das Bild, das Sie einbetten möchten, und richten Sie es an der rechten Seite der Seite aus. Hier fügen wir tatsächlich **ein Bild zu OneNote hinzu**. Der `Image`‑Konstruktor zeigt, wie man **Bilddatei in Java lädt**.
 
 ```java
-Image image = new Image(null, dataDir + "Input.jpg");
+Image image = new Image(dataDir + "Input.jpg");
 image.setAlignment(HorizontalAlignment.Right);
 ```
 
@@ -157,8 +157,8 @@ A7: Ja, PNG‑Dateien mit Alphakanälen werden vollständig unterstützt und beh
 
 ---
 
-**Zuletzt aktualisiert:** 2026-03-19  
-**Getestet mit:** Aspose.Note for Java 24.12 (latest)  
+**Zuletzt aktualisiert:** 2025-12-20  
+**Getestet mit:** Aspose.Note für Java 26.4 (neueste)  
 **Autor:** Aspose  
 
 {{< /blocks/products/pf/tutorial-page-section >}}

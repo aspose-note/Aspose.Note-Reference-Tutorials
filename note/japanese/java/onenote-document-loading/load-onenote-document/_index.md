@@ -100,7 +100,7 @@ A: 評価用の一時ライセンスは [こちら](https://purchase.aspose.com/
 ---
 
 **最終更新日:** 2025-12-09  
-**テスト環境:** Aspose.Note for Java 24.12 (latest)  
+**テスト環境:** Aspose.Note for Java 26.4 (latest)  
 **作者:** Aspose  
 
 {{< /blocks/products/pf/tutorial-page-section >}}

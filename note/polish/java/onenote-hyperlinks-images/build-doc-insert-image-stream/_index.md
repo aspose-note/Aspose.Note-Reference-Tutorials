@@ -133,7 +133,7 @@ try {
 Utwórz obiekt `Image`. Pierwszy argument może być `null`, gdy później podasz strumień, ale dla uproszczenia odwołujemy się tutaj do ścieżki pliku i ustawiamy wyrównanie po prawej stronie strony.
 
 ```java
-Image image = new Image(null, dataDir + "image1.jpg");
+Image image = new Image(dataDir + "image1.jpg");
 image.setAlignment(HorizontalAlignment.Right);
 ```
 
@@ -218,8 +218,8 @@ Masz teraz kompletny, kompleksowy przykład, jak **utworzyć dokument onenote w 
 
 ---
 
-**Ostatnia aktualizacja:** 2026-03-19  
-**Testowano z:** Aspose.Note for Java 24.12 (latest at time of writing)  
+**Ostatnia aktualizacja:** 2025-12-21  
+**Testowano z:** Aspose.Note for Java 26.4 (najnowsza w momencie pisania)  
 **Autor:** Aspose  
 
 {{< /blocks/products/pf/tutorial-page-section >}}

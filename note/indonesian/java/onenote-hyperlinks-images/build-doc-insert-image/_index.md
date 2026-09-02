@@ -89,7 +89,7 @@ outline.setHorizontalOffset(0);
 Muat gambar yang ingin Anda sematkan dan atur ke sisi kanan halaman. Di sinilah kita sebenarnya **menambahkan gambar ke OneNote**. Konstruktor `Image` menunjukkan cara **memuat file gambar java** secara kode.
 
 ```java
-Image image = new Image(null, dataDir + "Input.jpg");
+Image image = new Image(dataDir + "Input.jpg");
 image.setAlignment(HorizontalAlignment.Right);
 ```
 
@@ -157,8 +157,8 @@ A7: Ya, file PNG dengan saluran alfa sepenuhnya didukung dan mempertahankan tran
 
 ---
 
-**Terakhir Diperbarui:** 2026-03-19  
-**Diuji Dengan:** Aspose.Note for Java 24.12 (latest)  
+**Terakhir Diperbarui:** 2025-12-20  
+**Diuji Dengan:** Aspose.Note untuk Java 26.4 (terbaru)  
 **Penulis:** Aspose  
 
 {{< /blocks/products/pf/tutorial-page-section >}}

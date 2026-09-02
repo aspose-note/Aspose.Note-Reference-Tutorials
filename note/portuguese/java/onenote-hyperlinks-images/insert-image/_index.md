@@ -87,7 +87,7 @@ Page page = oneFile.getFirstChild();
 Instancie um objeto `Image` passando a referência do documento e o caminho para o arquivo de imagem.
 
 ```java
-Image image = new Image(oneFile, dataDir + "Input.jpg");
+Image image = new Image(dataDir + "Input.jpg");
 ```
 
 ### Etapa 4: Definir dimensões da imagem Java (opcional)
@@ -158,9 +158,9 @@ Agora você tem um exemplo completo, pronto para produção, que mostra **como a
 
 ---
 
-**Last Updated:** 2026-03-19  
-**Tested With:** Aspose.Note for Java 24.10  
-**Author:** Aspose  
+**Última atualização:** 2025-12-21  
+**Testado com:** Aspose.Note for Java 26.4  
+**Autor:** Aspose  
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

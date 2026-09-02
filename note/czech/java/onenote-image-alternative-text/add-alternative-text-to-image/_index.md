@@ -89,7 +89,7 @@ Stránka bude hostovat obrázek, který se chystáme přidat.
 ### Krok 4: Přidání obrázku na stránku
 
 ```java
-Image image = new Image(null, dataDir + "image.jpg");
+Image image = new Image(dataDir + "image.jpg");
 ```
 
 Konstruktor `Image` načte soubor obrázku ze zadané cesty.
@@ -164,7 +164,7 @@ Podle tohoto krok‑za‑krokem průvodce nyní víte **jak přidat alt** text k
 ---
 
 **Poslední aktualizace:** 2025-12-23  
-**Testováno s:** Aspose.Note for Java 24.11  
+**Testováno s:** Aspose.Note for Java 26.4  
 **Autor:** Aspose  
 
 {{< /blocks/products/pf/tutorial-page-section >}}

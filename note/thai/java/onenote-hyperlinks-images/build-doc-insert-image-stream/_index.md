@@ -131,7 +131,7 @@ try {
 สร้างอ็อบเจกต์ `Image` พารามิเตอร์แรกสามารถเป็น `null` เมื่อคุณให้ stream ภายหลัง แต่เพื่อความง่าย เราอ้างอิงพาธไฟล์ที่นี่และตั้งค่าการจัดแนวให้ด้านขวาของหน้า
 
 ```java
-Image image = new Image(null, dataDir + "image1.jpg");
+Image image = new Image(dataDir + "image1.jpg");
 image.setAlignment(HorizontalAlignment.Right);
 ```
 
@@ -216,8 +216,8 @@ A5: มี คุณสามารถดาวน์โหลดเวอร์
 
 ---
 
-**อัปเดตล่าสุด:** 2026-03-19  
-**ทดสอบด้วย:** Aspose.Note for Java 24.12 (latest at time of writing)  
+**อัปเดตล่าสุด:** 2025-12-21  
+**ทดสอบกับ:** Aspose.Note for Java 26.4 (ล่าสุด ณ เวลาที่เขียน)  
 **ผู้เขียน:** Aspose  
 
 {{< /blocks/products/pf/tutorial-page-section >}}

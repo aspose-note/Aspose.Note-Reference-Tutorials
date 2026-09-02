@@ -24,8 +24,8 @@ I den här handledningen kommer du att upptäcka **how to extract onenote images
 - **Vilket bibliotek rekommenderas?** Aspose.Note for Java  
 - **Kan jag extrahera bilder från en lösenordsskyddad anteckningsbok?** Ja, Aspose.Note stödjer det.  
 - **Behöver jag en licens för utveckling?** En gratis provversion fungerar för testning; en licens krävs för produktion.  
-- **Vilka Java-versioner stöds?** Java 8 och nyare (inklusive Java 15).  
-- **Hur lång tid tar extraktionen?** Vanligtvis några sekunder för en standardanteckningsbok.  
+- **Vilka Java‑versioner stöds?** Java 8 och nyare (inklusive Java 8).  
+- **Hur lång tid tar extraktionen?** Vanligtvis några sekunder för ett standardanteckningsblock.
 
 ## Vad är **extract images from .one**?
 
@@ -41,8 +41,9 @@ Att extrahera bilder från en OneNote-fil innebär att programmässigt lokaliser
 
 Innan du börjar, se till att du har följande saker redo:
 
-1. **Java Development Kit (JDK)** – Installera Java 8 eller nyare. Du kan ladda ner det från [webbplatsen](https://www.oracle.com/java/technologies/javase-jdk15-downloads.html).  
-2. **Aspose.Note Library** – Ladda ner det senaste Aspose.Note för Java-paketet och lägg till det i ditt projekts classpath. Hämta det från [nedladdningslänken](https://releases.aspose.com/note/java/).  
+1. **Java Development Kit (JDK)** – Se till att Java är installerat på ditt system. Du kan ladda ner och installera det från [webbplatsen](https://www.oracle.com/java/technologies/downloads/).
+
+2. **Aspose.Note Library** – Ladda ner och inkludera Aspose.Note‑biblioteket i ditt Java‑projekt. Du kan hämta det via [nedladdningslänken](https://releases.aspose.com/note/java/).
 
 ## Importera paket
 
@@ -118,8 +119,8 @@ A: Ja, du kan även extrahera text, tabeller, inbäddade filer och andra objekt 
 
 ---
 
-**Senast uppdaterad:** 2026-03-19  
-**Testad med:** Aspose.Note for Java 24.12  
+**Senast uppdaterad:** 2025-12-21  
+**Testad med:** Aspose.Note för Java 26.4  
 **Författare:** Aspose  
 
 {{< /blocks/products/pf/tutorial-page-section >}}

@@ -66,7 +66,7 @@ Aspose.Note.Page page = new Aspose.Note.Page(doc);
 ### 第三步：初始化大綱對象
 
 ```csharp
-Outline outline = new Outline(doc);
+Outline outline = new Outline();
 ```
 
 一個`Outline`建立物件來組織頁面內的內容。
@@ -74,7 +74,7 @@ Outline outline = new Outline(doc);
 ### 步驟 4：初始化 OutlineElement 對象
 
 ```csharp
-OutlineElement outlineElem = new OutlineElement(doc);
+OutlineElement outlineElem = new OutlineElement();
 ```
 
 `OutlineElement`表示大綱結構中的一個元素。
@@ -82,7 +82,7 @@ OutlineElement outlineElem = new OutlineElement(doc);
 ### 第 5 步：初始化 AttachedFile 對象
 
 ```csharp
-AttachedFile attachedFile = new AttachedFile(doc,  dataDir + "attachment.txt");
+AttachedFile attachedFile = new AttachedFile(dataDir + "attachment.txt");
 ```
 
 在這裡，我們建立一個實例`AttachedFile`，指定我們要附加的文件的路徑。

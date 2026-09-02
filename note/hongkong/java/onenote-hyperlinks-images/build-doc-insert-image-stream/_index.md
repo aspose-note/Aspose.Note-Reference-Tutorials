@@ -130,7 +130,7 @@ try {
 建立一個 `Image` 物件。若稍後提供串流，第一個參數可以為 `null`；但為了簡化示範，我們在此直接使用檔案路徑，並將其對齊設定為頁面的右側。
 
 ```java
-Image image = new Image(null, dataDir + "image1.jpg");
+Image image = new Image(dataDir + "image1.jpg");
 image.setAlignment(HorizontalAlignment.Right);
 ```
 
@@ -209,14 +209,8 @@ A4：官方 Aspose 網站提供完整的文件、程式碼範例、論壇，以�
 
 A5：有，您可從 Aspose 釋出頁面下載免費試用版，以在購買前體驗全部功能。
 
-## 結論
-
-現在您已掌握完整的端對端範例，說明如何**建立 onenote document java**，並直接從 `InputStream` 嵌入圖片。歡迎嘗試加入其他元素——文字、表格或圖形，以豐富您的筆記。準備好後，可探索 Aspose.Note 提供的多種匯出選項，將 OneNote 內容分享為 PDF、DOCX、HTML 等格式。
-
----
-
-**最後更新：** 2026-03-19  
-**測試環境：** Aspose.Note for Java 24.12（撰寫時的最新版本）  
+**最後更新：** 2025-12-21  
+**測試環境：** Aspose.Note for Java 26.4（撰寫時的最新版本）  
 **作者：** Aspose  
 
 {{< /blocks/products/pf/tutorial-page-section >}}

@@ -89,7 +89,7 @@ outline.setHorizontalOffset(0);
 Załaduj obraz, który chcesz osadzić i wyrównaj go do prawej strony strony. To jest miejsce, w którym faktycznie **dodajemy obraz do OneNote**. Konstruktor `Image` pokazuje, jak **załadować plik obrazu w Javie** w kodzie.
 
 ```java
-Image image = new Image(null, dataDir + "Input.jpg");
+Image image = new Image(dataDir + "Input.jpg");
 image.setAlignment(HorizontalAlignment.Right);
 ```
 
@@ -157,8 +157,8 @@ O7: Tak, pliki PNG z kanałami alfa są w pełni obsługiwane i zachowują przez
 
 ---
 
-**Ostatnia aktualizacja:** 2026-03-19  
-**Testowano z:** Aspose.Note for Java 24.12 (najnowsza)  
+**Ostatnia aktualizacja:** 2025-12-20  
+**Testowano z:** Aspose.Note for Java 26.4 (latest)  
 **Autor:** Aspose  
 
 {{< /blocks/products/pf/tutorial-page-section >}}

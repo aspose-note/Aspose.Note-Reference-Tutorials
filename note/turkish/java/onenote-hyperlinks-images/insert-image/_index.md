@@ -86,7 +86,7 @@ Page page = oneFile.getFirstChild();
 Belge referansını ve resim dosyasının yolunu geçirerek bir `Image` nesnesi örnekleyin.
 
 ```java
-Image image = new Image(oneFile, dataDir + "Input.jpg");
+Image image = new Image(dataDir + "Input.jpg");
 ```
 
 ### Adım 4: Görsel boyutlarını ayarlayın Java (isteğe bağlı)
@@ -152,8 +152,8 @@ Artık **OneNote'a görsel ekleme** yöntemini Java ile gösteren, görünümün
 
 ---
 
-**Son Güncelleme:** 2026-03-19  
-**Test Edilen Sürüm:** Aspose.Note for Java 24.10  
+**Son Güncelleme:** 2025-12-21  
+**Test Edilen Versiyon:** Aspose.Note for Java 26.4  
 **Yazar:** Aspose  
 
 {{< /blocks/products/pf/tutorial-page-section >}}

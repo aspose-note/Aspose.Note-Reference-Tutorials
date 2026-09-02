@@ -133,7 +133,7 @@ try {
 Crie um objeto `Image`. O primeiro argumento pode ser `null` quando você fornecer um stream posteriormente, mas para simplificar referenciamos o caminho do arquivo aqui e definimos seu alinhamento para o lado direito da página.
 
 ```java
-Image image = new Image(null, dataDir + "image1.jpg");
+Image image = new Image(dataDir + "image1.jpg");
 image.setAlignment(HorizontalAlignment.Right);
 ```
 
@@ -218,8 +218,8 @@ Agora você tem um exemplo completo, de ponta a ponta, de como **criar onenote d
 
 ---
 
-**Última atualização:** 2026-03-19  
-**Testado com:** Aspose.Note for Java 24.12 (latest at time of writing)  
+**Última atualização:** 2025-12-21  
+**Testado com:** Aspose.Note for Java 26.4 (mais recente no momento da escrita)  
 **Autor:** Aspose  
 
 {{< /blocks/products/pf/tutorial-page-section >}}

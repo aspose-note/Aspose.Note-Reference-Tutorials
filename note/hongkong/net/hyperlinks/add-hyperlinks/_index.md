@@ -57,8 +57,7 @@ TextStyle textStyleRed = new TextStyle
 
 TextStyle textStyleHyperlink = new TextStyle
 {
-    IsHyperlink = true,
-    HyperlinkAddress = "www.google.com"
+    HyperlinkAddress = "https://www.google.com"
 };
 ```
 

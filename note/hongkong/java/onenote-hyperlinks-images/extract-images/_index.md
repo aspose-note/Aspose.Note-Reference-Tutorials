@@ -21,10 +21,10 @@ weight: 14
 
 ## 快速回答
 - **建議使用哪個函式庫？** Aspose.Note for Java  
-- **可以從受密碼保護的筆記本擷取圖片嗎？** 可以，Aspose.Note 支援此功能。  
-- **開發階段需要授權嗎？** 免費試用可用於測試；正式上線需購買授權。  
-- **支援哪些 Java 版本？** Java 8 及更新版本（含 Java 15）。  
-- **擷取需要多長時間？** 一般筆記本只需數秒即可完成。  
+- **我可以從受密碼保護的筆記本提取圖像嗎？** 可以，Aspose.Note 支援此功能。  
+- **開發時需要授權嗎？** 免費試用可用於測試；正式環境需購買授權。  
+- **支援哪些 Java 版本？** Java 8 及更新版本（包括 Java 8）。  
+- **提取需要多長時間？** 一般標準筆記本只需數秒。
 
 ## 什麼是 **extract images from .one**？
 
@@ -40,8 +40,8 @@ weight: 14
 
 在開始之前，請先準備好以下項目：
 
-1. **Java Development Kit (JDK)** – 安裝 Java 8 或更新版本。可從 [網站](https://www.oracle.com/java/technologies/javase-jdk15-downloads.html) 下載。  
-2. **Aspose.Note Library** – 下載最新的 Aspose.Note for Java 套件，並將其加入專案的 classpath。取得方式請見 [下載連結](https://releases.aspose.com/note/java/)。  
+1. **Java Development Kit (JDK)** – 確認您的系統已安裝 Java。您可以從[網站](https://www.oracle.com/java/technologies/downloads/)下載並安裝。  
+2. **Aspose.Note Library** – 下載並將 Aspose.Note 函式庫加入您的 Java 專案。您可以從[下載連結](https://releases.aspose.com/note/java/)取得。  
 
 ## 匯入套件
 
@@ -117,8 +117,8 @@ A: 可以，您也能使用類似的 API 擷取文字、表格、嵌入檔案及
 
 ---
 
-**最後更新：** 2026-03-19  
-**測試環境：** Aspose.Note for Java 24.12  
+**最後更新：** 2025-12-21  
+**測試環境：** Aspose.Note for Java 26.4  
 **作者：** Aspose  
 
 {{< /blocks/products/pf/tutorial-page-section >}}

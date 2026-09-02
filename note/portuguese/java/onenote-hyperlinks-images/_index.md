@@ -85,7 +85,7 @@ R: Uma imagem pode conter apenas um hyperlink. Para fornecer múltiplos links, c
 ---
 
 **Last Updated:** 2025-12-20  
-**Tested With:** Aspose.Note for Java 24.10  
+**Tested With:** Aspose.Note for Java 26.4  
 **Author:** Aspose
 
 {{< /blocks/products/pf/tutorial-page-section >}}

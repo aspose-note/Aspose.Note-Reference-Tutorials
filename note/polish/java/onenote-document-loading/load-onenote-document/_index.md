@@ -102,7 +102,7 @@ A: Poproś o tymczasową licencję ewaluacyjną z [tutaj](https://purchase.aspos
 ---
 
 **Ostatnia aktualizacja:** 2025-12-09  
-**Testowano z:** Aspose.Note for Java 24.12 (latest)  
+**Testowano z:** Aspose.Note for Java 26.4 (latest)  
 **Autor:** Aspose  
 
 {{< /blocks/products/pf/tutorial-page-section >}}

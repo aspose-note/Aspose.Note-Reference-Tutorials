@@ -131,7 +131,7 @@ try {
 `Image` オブジェクトを作成します。後でストリームを提供する場合、最初の引数は `null` にできますが、簡単のためここではファイルパスを参照し、ページの右側に配置するように設定します。
 
 ```java
-Image image = new Image(null, dataDir + "image1.jpg");
+Image image = new Image(dataDir + "image1.jpg");
 image.setAlignment(HorizontalAlignment.Right);
 ```
 
@@ -216,8 +216,8 @@ Aspose.Note for Java はさまざまな OneNote ファイル形式をサポー�
 
 ---
 
-**最終更新日:** 2026-03-19  
-**テスト環境:** Aspose.Note for Java 24.12（執筆時点での最新）  
+**最終更新日:** 2025-12-21  
+**テスト環境:** Aspose.Note for Java 26.4（執筆時点の最新バージョン）  
 **作者:** Aspose  
 
 {{< /blocks/products/pf/tutorial-page-section >}}

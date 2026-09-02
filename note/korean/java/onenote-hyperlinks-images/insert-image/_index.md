@@ -86,7 +86,7 @@ Page page = oneFile.getFirstChild();
 `Image` 객체를 생성할 때 문서 참조와 이미지 파일 경로를 전달합니다.
 
 ```java
-Image image = new Image(oneFile, dataDir + "Input.jpg");
+Image image = new Image(dataDir + "Input.jpg");
 ```
 
 ### Step 4: Set image dimensions Java (optional)
@@ -157,8 +157,8 @@ try {
 
 ---
 
-**마지막 업데이트:** 2026-03-19  
-**테스트 환경:** Aspose.Note for Java 24.10  
+**마지막 업데이트:** 2025-12-21  
+**테스트 대상:** Aspose.Note for Java 26.4  
 **작성자:** Aspose  
 
 {{< /blocks/products/pf/tutorial-page-section >}}

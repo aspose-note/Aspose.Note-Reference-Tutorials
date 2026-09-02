@@ -88,7 +88,7 @@ outline.setHorizontalOffset(0);
 Ladda bilden du vill infoga och justera den till högra sidan av sidan. Detta är där vi faktiskt **lägger till bild i OneNote**. `Image`‑konstruktorn visar hur man **laddar bildfil java** i kod.
 
 ```java
-Image image = new Image(null, dataDir + "Input.jpg");
+Image image = new Image(dataDir + "Input.jpg");
 image.setAlignment(HorizontalAlignment.Right);
 ```
 
@@ -156,8 +156,8 @@ A7: Ja, PNG‑filer med alfakanaler stöds fullt ut och behåller transparens n�
 
 ---
 
-**Senast uppdaterad:** 2026-03-19  
-**Testat med:** Aspose.Note for Java 24.12 (latest)  
+**Senast uppdaterad:** 2025-12-20  
+**Testad med:** Aspose.Note för Java 26.4 (senaste)  
 **Författare:** Aspose  
 
 {{< /blocks/products/pf/tutorial-page-section >}}

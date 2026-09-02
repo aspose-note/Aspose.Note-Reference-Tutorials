@@ -127,7 +127,7 @@ C: Kesinlikle – `Document.getPages()` üzerinden döngü kurarak aynı kaydetm
 ---
 
 **Son Güncelleme:** 2025-12-14  
-**Test Edilen Versiyon:** Aspose.Note for Java 24.12  
+**Test Edilen Versiyon:** Aspose.Note for Java 26.4  
 **Yazar:** Aspose  
 
 {{< /blocks/products/pf/tutorial-page-section >}}

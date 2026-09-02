@@ -21,11 +21,11 @@ weight: 14
 Dans ce tutoriel, vous découvrirez **comment extraire des images onenote java** avec la bibliothèque Aspose.Note for Java. Que vous ayez besoin des images pour des rapports, de l'archivage ou pour les alimenter dans un pipeline OCR, nous vous guiderons à travers l'ensemble du flux de travail — du chargement d'un cahier `.one` à l'enregistrement de chaque image sous forme de fichier individuel sur le disque.
 
 ## Réponses rapides
-- **Quelle bibliothèque est recommandée ?** Aspose.Note for Java  
-- **Puis-je extraire des images d'un cahier protégé par mot de passe ?** Oui, Aspose.Note le prend en charge.  
-- **Ai-je besoin d'une licence pour le développement ?** Un essai gratuit suffit pour les tests ; une licence est requise en production.  
-- **Quelles versions de Java sont prises en charge ?** Java 8 et ultérieures (y compris Java 15).  
-- **Combien de temps prend l'extraction ?** Généralement quelques secondes pour un cahier standard.  
+- **Quelle bibliothèque est recommandée ?** Aspose.Note for Java  
+- **Puis‑je extraire des images d’un bloc‑note protégé par mot de passe ?** Oui, Aspose.Note le prend en charge.  
+- **Ai‑je besoin d’une licence pour le développement ?** Un essai gratuit suffit pour les tests ; une licence est requise en production.  
+- **Quelles versions de Java sont supportées ?** Java 8 et ultérieures (y compris Java 8).  
+- **Combien de temps dure l’extraction ?** Généralement quelques secondes pour un bloc‑note standard.
 
 ## Qu'est-ce que **extraire des images d'un .one** ?
 
@@ -41,8 +41,9 @@ Extraire des images d'un fichier OneNote signifie localiser programmatiquement c
 
 Avant de commencer, assurez-vous d'avoir les éléments suivants prêts :
 
-1. **Java Development Kit (JDK)** – Installez Java 8 ou une version plus récente. Vous pouvez le télécharger depuis le [site web](https://www.oracle.com/java/technologies/javase-jdk15-downloads.html).  
-2. **Bibliothèque Aspose.Note** – Téléchargez le dernier package Aspose.Note for Java et ajoutez-le au classpath de votre projet. Obtenez-le via le [lien de téléchargement](https://releases.aspose.com/note/java/).  
+1. **Java Development Kit (JDK)** – Vérifiez que Java est installé sur votre système. Vous pouvez le télécharger et l’installer depuis le [site web](https://www.oracle.com/java/technologies/downloads/).
+
+2. **Bibliothèque Aspose.Note** – Téléchargez et ajoutez la bibliothèque Aspose.Note à votre projet Java. Vous pouvez l’obtenir via le [lien de téléchargement](https://releases.aspose.com/note/java/).
 
 ## Importer les packages
 
@@ -118,9 +119,9 @@ R : Oui, vous pouvez également extraire du texte, des tableaux, des fichiers in
 
 ---
 
-**Dernière mise à jour :** 2026-03-19  
-**Testé avec :** Aspose.Note for Java 24.12  
-**Auteur :** Aspose  
+**Dernière mise à jour :** 2025-12-21  
+**Testé avec :** Aspose.Note for Java 26.4  
+**Auteur :** Aspose  
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

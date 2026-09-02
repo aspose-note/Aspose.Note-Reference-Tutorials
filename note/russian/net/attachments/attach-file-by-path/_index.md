@@ -66,7 +66,7 @@ Aspose.Note.Page page = new Aspose.Note.Page(doc);
 ### Шаг 3. Инициализация объекта структуры
 
 ```csharp
-Outline outline = new Outline(doc);
+Outline outline = new Outline();
 ```
 
  Ан`Outline` Объект создается для организации содержимого на странице.
@@ -74,7 +74,7 @@ Outline outline = new Outline(doc);
 ### Шаг 4. Инициализация объекта OutlineElement
 
 ```csharp
-OutlineElement outlineElem = new OutlineElement(doc);
+OutlineElement outlineElem = new OutlineElement();
 ```
 
 `OutlineElement` представляет элемент внутри структуры структуры.
@@ -82,7 +82,7 @@ OutlineElement outlineElem = new OutlineElement(doc);
 ### Шаг 5. Инициализация объекта AttachedFile
 
 ```csharp
-AttachedFile attachedFile = new AttachedFile(doc,  dataDir + "attachment.txt");
+AttachedFile attachedFile = new AttachedFile(dataDir + "attachment.txt");
 ```
 
  Здесь мы создаем экземпляр`AttachedFile`, указав путь к файлу, который мы хотим прикрепить.

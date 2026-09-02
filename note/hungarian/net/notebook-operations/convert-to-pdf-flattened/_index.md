@@ -44,7 +44,7 @@ using System.Collections.Generic;
 string dataDir = "Your Document Directory";
 
 // Töltsön be egy OneNote-jegyzetfüzetet
-var notebook = new Notebook(dataDir + "Notizbuch �ffnen.onetoc2");
+var notebook = new Notebook(dataDir + "Notebook.onetoc2");
 ```
 
  Ebben a lépésben betöltjük a OneNote-jegyzetfüzetet a`Notebook` osztály által biztosított Aspose.Megjegyzés.

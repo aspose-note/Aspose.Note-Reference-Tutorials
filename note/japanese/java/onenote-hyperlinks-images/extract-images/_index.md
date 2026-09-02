@@ -19,12 +19,12 @@ weight: 14
 
 このチュートリアルでは、Aspose.Note for Java ライブラリを使用して **how to extract onenote images java** を学びます。レポート作成、アーカイブ、または OCR パイプラインへの入力など、画像が必要な場合でも、`.one` ノートブックの読み込みから各画像をディスク上の個別ファイルとして保存するまでの全工程を順を追って説明します。
 
-## クイック回答
-- **What library is recommended?** Aspose.Note for Java  
-- **Can I extract images from a password‑protected notebook?** Yes, Aspose.Note supports it.  
-- **Do I need a license for development?** A free trial works for testing; a license is required for production.  
-- **Which Java versions are supported?** Java 8 and newer (including Java 15).  
-- **How long does the extraction take?** Typically a few seconds for a standard notebook.  
+## クイックアンサー
+- **推奨ライブラリはどれですか？** Aspose.Note for Java
+- **パスワード保護されたノートブックから画像を抽出できますか？** はい、Aspose.Note はサポートしています。
+- **開発にはライセンスが必要ですか？** 無料トライアルはテスト用として使用できますが、本番環境ではライセンスが必要です。
+- **サポートされている Java のバージョンはどれですか？** Java8 以降（Java 8 を含む）。
+- **抽出にはどのくらいの時間がかかりますか？** 標準的なノートブックでは通常数秒です。
 
 ## **extract images from .one** とは何ですか？
 
@@ -40,8 +40,9 @@ OneNote ファイルから画像を抽出するとは、`.one` ノートブッ�
 
 開始する前に、以下の項目を用意してください。
 
-1. **Java Development Kit (JDK)** – Java 8 以降をインストールします。ダウンロードは [website](https://www.oracle.com/java/technologies/javase-jdk15-downloads.html) から。  
-2. **Aspose.Note Library** – 最新の Aspose.Note for Java パッケージをダウンロードし、プロジェクトのクラスパスに追加します。取得は [download link](https://releases.aspose.com/note/java/) から。  
+1. **Java Development Kit (JDK)** – システムに Java がインストールされていることを確認してください。ダウンロードは [website](https://www.oracle.com/java/technologies/downloads/) から行えます。
+
+2. **Aspose.Note Library** – Aspose.Note ライブラリをダウンロードし、Java プロジェクトに組み込んでください。入手は [download link](https://releases.aspose.com/note/java/) からです。
 
 ## パッケージのインポート
 
@@ -117,9 +118,9 @@ A: はい、テキスト、テーブル、埋め込みファイル、その他�
 
 ---
 
-**最終更新日:** 2026-03-19  
-**テスト環境:** Aspose.Note for Java 24.12  
-**作者:** Aspose  
+**最終更新日:** 2025年12月21日
+**テスト環境:** Aspose.Note for Java 26.4
+**作成者:** Aspose  
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

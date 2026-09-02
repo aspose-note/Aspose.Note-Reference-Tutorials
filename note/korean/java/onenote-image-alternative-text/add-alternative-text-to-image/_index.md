@@ -88,7 +88,7 @@ Page page = new Page();
 ### 단계 4: 페이지에 이미지 추가
 
 ```java
-Image image = new Image(null, dataDir + "image.jpg");
+Image image = new Image(dataDir + "image.jpg");
 ```
 
 `Image` 생성자는 지정된 경로에서 이미지 파일을 로드합니다.
@@ -163,7 +163,7 @@ A: [here](https://releases.aspose.com/)에서 무료 체험판을 받을 수 있
 ---
 
 **마지막 업데이트:** 2025-12-23  
-**테스트 환경:** Aspose.Note for Java 24.11  
+**테스트 환경:** Aspose.Note for Java 26.4  
 **작성자:** Aspose  
 
 {{< /blocks/products/pf/tutorial-page-section >}}

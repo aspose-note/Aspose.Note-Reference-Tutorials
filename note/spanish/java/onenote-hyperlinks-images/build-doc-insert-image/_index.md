@@ -89,7 +89,7 @@ outline.setHorizontalOffset(0);
 Carga la imagen que deseas incrustar y alínala al lado derecho de la página. Aquí es donde realmente **agregamos una imagen a OneNote**. El constructor `Image` muestra cómo **cargar un archivo de imagen en Java** a nivel de código.
 
 ```java
-Image image = new Image(null, dataDir + "Input.jpg");
+Image image = new Image(dataDir + "Input.jpg");
 image.setAlignment(HorizontalAlignment.Right);
 ```
 
@@ -157,8 +157,8 @@ Sí, los archivos PNG con canales alfa son totalmente compatibles y conservan la
 
 ---
 
-**Última actualización:** 2026-03-19  
-**Probado con:** Aspose.Note for Java 24.12 (última versión)  
+**Última actualización:** 2025-12-20  
+**Probado con:** Aspose.Note para Java 26.4 (última)  
 **Autor:** Aspose  
 
 {{< /blocks/products/pf/tutorial-page-section >}}

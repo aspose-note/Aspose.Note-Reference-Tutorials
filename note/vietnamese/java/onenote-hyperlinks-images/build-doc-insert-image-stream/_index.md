@@ -133,7 +133,7 @@ try {
 Tạo một đối tượng `Image`. Tham số đầu tiên có thể là `null` khi bạn cung cấp stream sau này, nhưng để đơn giản chúng ta tham chiếu đến đường dẫn file ở đây và đặt căn chỉnh sang phía bên phải của trang.
 
 ```java
-Image image = new Image(null, dataDir + "image1.jpg");
+Image image = new Image(dataDir + "image1.jpg");
 image.setAlignment(HorizontalAlignment.Right);
 ```
 
@@ -218,8 +218,8 @@ Bạn đã có một ví dụ hoàn chỉnh, từ đầu đến cuối, về cá
 
 ---
 
-**Cập nhật lần cuối:** 2026-03-19  
-**Kiểm tra với:** Aspose.Note for Java 24.12 (phiên bản mới nhất tại thời điểm viết)  
+**Cập nhật lần cuối:** 2025-12-21  
+**Kiểm thử với:** Aspose.Note for Java 26.4 (phiên bản mới nhất tại thời điểm viết)  
 **Tác giả:** Aspose  
 
 {{< /blocks/products/pf/tutorial-page-section >}}

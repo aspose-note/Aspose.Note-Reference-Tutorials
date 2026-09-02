@@ -88,7 +88,7 @@ outline.setHorizontalOffset(0);
 Načtěte obrázek, který chcete vložit, a zarovnejte jej na pravou stranu stránky. Zde skutečně **přidáváme obrázek do OneNote**. Konstruktor `Image` ukazuje, jak **načíst soubor obrázku v Javě** kódem.
 
 ```java
-Image image = new Image(null, dataDir + "Input.jpg");
+Image image = new Image(dataDir + "Input.jpg");
 image.setAlignment(HorizontalAlignment.Right);
 ```
 
@@ -156,8 +156,8 @@ A7: Ano, soubory PNG s alfa kanálem jsou plně podporovány a při vložení za
 
 ---
 
-**Poslední aktualizace:** 2026-03-19  
-**Testováno s:** Aspose.Note for Java 24.12 (nejnovější)  
+**Poslední aktualizace:** 2025-12-20  
+**Testováno s:** Aspose.Note for Java 26.4 (nejnovější)  
 **Autor:** Aspose  
 
 {{< /blocks/products/pf/tutorial-page-section >}}

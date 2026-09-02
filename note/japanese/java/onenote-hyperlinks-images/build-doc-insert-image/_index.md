@@ -87,7 +87,7 @@ outline.setHorizontalOffset(0);
 埋め込みたい画像を読み込み、ページの右側に配置します。ここが実際に **OneNote に画像を追加する** 部分です。`Image` コンストラクタは **Java で画像ファイルを読み込む** 方法を示しています。
 
 ```java
-Image image = new Image(null, dataDir + "Input.jpg");
+Image image = new Image(dataDir + "Input.jpg");
 image.setAlignment(HorizontalAlignment.Right);
 ```
 
@@ -155,8 +155,8 @@ A7: はい、アルファチャンネルを持つ PNG ファイルは完全に�
 
 ---
 
-**最終更新日:** 2026-03-19  
-**テスト環境:** Aspose.Note for Java 24.12 (latest)  
+**最終更新日:** 2025-12-20  
+**テスト環境:** Aspose.Note for Java 26.4（最新）  
 **作者:** Aspose  
 
 {{< /blocks/products/pf/tutorial-page-section >}}

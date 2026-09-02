@@ -87,7 +87,7 @@ Page page = oneFile.getFirstChild();
 Instansiasikan objek `Image` dengan memberikan referensi dokumen dan jalur ke file gambar.
 
 ```java
-Image image = new Image(oneFile, dataDir + "Input.jpg");
+Image image = new Image(dataDir + "Input.jpg");
 ```
 
 ### Langkah 4: Mengatur dimensi gambar Java (opsional)
@@ -158,8 +158,8 @@ Anda kini memiliki contoh lengkap yang siap produksi yang menunjukkan **cara men
 
 ---
 
-**Terakhir Diperbarui:** 2026-03-19  
-**Diuji Dengan:** Aspose.Note for Java 24.10  
+**Terakhir Diperbarui:** 2025-12-21  
+**Diuji Dengan:** Aspose.Note for Java 26.4  
 **Penulis:** Aspose  
 
 {{< /blocks/products/pf/tutorial-page-section >}}

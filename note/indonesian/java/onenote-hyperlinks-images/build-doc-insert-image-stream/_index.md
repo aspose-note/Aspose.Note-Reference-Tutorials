@@ -133,7 +133,7 @@ try {
 Buat objek `Image`. Argumen pertama dapat `null` ketika Anda menyediakan stream nanti, tetapi untuk kesederhanaan kami merujuk ke path file di sini dan mengatur perataan ke sisi kanan halaman.
 
 ```java
-Image image = new Image(null, dataDir + "image1.jpg");
+Image image = new Image(dataDir + "image1.jpg");
 image.setAlignment(HorizontalAlignment.Right);
 ```
 
@@ -218,9 +218,9 @@ Anda kini memiliki contoh lengkap, end‑to‑end tentang cara **membuat onenote
 
 ---
 
-**Terakhir Diperbarui:** 2026-03-19  
-**Diuji Dengan:** Aspose.Note for Java 24.12 (latest at time of writing)  
-**Penulis:** Aspose  
+**Terakhir Diperbarui:** 21-12-2025
+**Diuji Dengan:** Aspose.Note untuk Java 26.4 (terbaru pada saat penulisan)
+**Penulis:** Beranggapan  
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

@@ -87,7 +87,7 @@ Page page = oneFile.getFirstChild();
 Példányosítunk egy `Image` objektumot a dokumentum hivatkozásával és a kép fájl elérési útjával.
 
 ```java
-Image image = new Image(oneFile, dataDir + "Input.jpg");
+Image image = new Image(dataDir + "Input.jpg");
 ```
 
 ### 4. lépés: Kép méretek beállítása Java (opcionális)
@@ -158,9 +158,9 @@ Most már rendelkezik egy teljes, termelés‑kész példával, amely megmutatja
 
 ---
 
-**Utolsó frissítés:** 2026-03-19  
-**Tesztelve:** Aspose.Note for Java 24.10  
-**Szerző:** Aspose  
+**Last Updated:** 2025-12-21  
+**Tested With:** Aspose.Note for Java 26.4  
+**Author:** Aspose  
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

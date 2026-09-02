@@ -86,7 +86,7 @@ Page page = oneFile.getFirstChild();
 Vytvořte objekt `Image` tak, že předáte odkaz na dokument a cestu k souboru obrázku.
 
 ```java
-Image image = new Image(oneFile, dataDir + "Input.jpg");
+Image image = new Image(dataDir + "Input.jpg");
 ```
 
 ### Krok 4: Nastavení rozměrů obrázku v Javě (volitelné)
@@ -157,8 +157,8 @@ Nyní máte kompletní, připravený příklad, který ukazuje **jak přidat obr
 
 ---
 
-**Poslední aktualizace:** 2026-03-19  
-**Testováno s:** Aspose.Note pro Java 24.10  
+**Poslední aktualizace:** 2025-12-21  
+**Testováno s:** Aspose.Note for Java 26.4  
 **Autor:** Aspose  
 
 {{< /blocks/products/pf/tutorial-page-section >}}

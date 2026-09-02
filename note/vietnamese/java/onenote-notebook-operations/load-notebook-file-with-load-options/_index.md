@@ -123,7 +123,7 @@ A4: Đối với bất kỳ câu hỏi hoặc vấn đề nào, bạn có thể 
 A5: Nếu bạn đang đánh giá sản phẩm, bạn có thể lấy giấy phép tạm thời [đây](https://purchase.aspose.com/temporary-license/).
 
 **Cập nhật lần cuối:** 2025-12-31  
-**Kiểm tra với:** Aspose.Note 24.11 cho Java  
+**Kiểm tra với:** Aspose.Note 26.4 cho Java  
 **Tác giả:** Aspose
 
 {{< /blocks/products/pf/tutorial-page-section >}}

@@ -22,10 +22,10 @@ Ebben az útmutatóban megismerheted, hogyan **extract onenote images java** a A
 
 ## Gyors válaszok
 - **Melyik könyvtár ajánlott?** Aspose.Note for Java  
-- **Kivonhatok képeket egy jelszóval védett jegyzetfüzetből?** Igen, az Aspose.Note támogatja.  
-- **Szükség van licencre fejlesztéshez?** Egy ingyenes próba a teszteléshez elegendő; a termeléshez licenc szükséges.  
-- **Mely Java verziók támogatottak?** Java 8 és újabb (beleértve a Java 15‑öt).  
-- **Mennyi időt vesz igénybe a kinyerés?** Általában néhány másodperc egy átlagos jegyzetfüzet esetén.  
+- **Kinyerhetek képeket egy jelszóval védett jegyzetfüzetből?** Igen, az Aspose.Note támogatja.  
+- **Szükségem van licencre a fejlesztéshez?** A ingyenes próba verzió teszteléshez megfelelő; a termeléshez licenc szükséges.  
+- **Mely Java verziók támogatottak?** Java 8 és újabb (beleértve a Java 8‑öt).  
+- **Mennyi időt vesz igénybe a kinyerés?** Általában néhány másodperc egy átlagos jegyzetfüzet esetén.
 
 ## Mi az **extract images from .one**?
 
@@ -37,7 +37,7 @@ A képek kinyerése egy OneNote fájlból azt jelenti, hogy programozottan megta
 - **Következetesség:** Biztosítja az azonos kinyerési logikát minden fájlban.  
 - **Integráció:** Könnyen összekapcsolható a kimenet más Java‑alapú munkafolyamatokkal, például OCR, képelemzés vagy tartalomkezelő rendszerek.  
 
-## Előfeltételek
+1. **Java Development Kit (JDK)** – Győződjön meg róla, hogy a Java telepítve van a rendszerén. Letöltheti és telepítheti a [weboldalról](https://www.oracle.com/java/technologies/downloads/).
 
 Mielőtt elkezdenéd, győződj meg róla, hogy a következő elemek rendelkezésre állnak:
 
@@ -118,8 +118,8 @@ A: Igen, hasonló API-k segítségével szöveget, táblázatokat, beágyazott f
 
 ---
 
-**Utolsó frissítés:** 2026-03-19  
-**Tesztelt verzió:** Aspose.Note for Java 24.12  
+**Legutóbb frissítve:** 2025-12-21  
+**Tesztelve a következővel:** Aspose.Note for Java 26.4  
 **Szerző:** Aspose  
 
 {{< /blocks/products/pf/tutorial-page-section >}}

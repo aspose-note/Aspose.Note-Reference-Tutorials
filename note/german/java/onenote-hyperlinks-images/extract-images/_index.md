@@ -23,9 +23,9 @@ In diesem Tutorial erfahren Sie **how to extract onenote images java** mit der A
 ## Schnelle Antworten
 - **Welche Bibliothek wird empfohlen?** Aspose.Note for Java  
 - **Kann ich Bilder aus einem passwortgeschützten Notizbuch extrahieren?** Ja, Aspose.Note unterstützt das.  
-- **Benötige ich eine Lizenz für die Entwicklung?** Eine kostenlose Testversion reicht für Tests; für den Produktionseinsatz ist eine Lizenz erforderlich.  
-- **Welche Java‑Versionen werden unterstützt?** Java 8 und neuer (einschließlich Java 15).  
-- **Wie lange dauert die Extraktion?** In der Regel ein paar Sekunden für ein Standard‑Notizbuch.  
+- **Benötige ich eine Lizenz für die Entwicklung?** Eine kostenlose Testversion funktioniert zum Testen; für die Produktion ist eine Lizenz erforderlich.  
+- **Welche Java-Versionen werden unterstützt?** Java 8 und neuer (einschließlich Java 8).  
+- **Wie lange dauert die Extraktion?** In der Regel ein paar Sekunden für ein Standard-Notizbuch.
 
 ## Was ist **extract images from .one**?
 
@@ -41,8 +41,9 @@ Das Extrahieren von Bildern aus einer OneNote‑Datei bedeutet, programmgesteuer
 
 Bevor Sie beginnen, stellen Sie sicher, dass Sie die folgenden Dinge bereit haben:
 
-1. **Java Development Kit (JDK)** – Installieren Sie Java 8 oder neuer. Sie können es von der [website](https://www.oracle.com/java/technologies/javase-jdk15-downloads.html) herunterladen.  
-2. **Aspose.Note Library** – Laden Sie das neueste Aspose.Note for Java‑Paket herunter und fügen Sie es dem Klassenpfad Ihres Projekts hinzu. Erhältlich über den [download link](https://releases.aspose.com/note/java/).  
+1. **Java Development Kit (JDK)** – Stellen Sie sicher, dass Java auf Ihrem System installiert ist. Sie können es von der [Website](https://www.oracle.com/java/technologies/downloads/) herunterladen und installieren.
+
+2. **Aspose.Note Library** – Laden Sie die Aspose.Note‑Bibliothek herunter und binden Sie sie in Ihr Java‑Projekt ein. Sie erhalten sie über den [Download‑Link](https://releases.aspose.com/note/java/).
 
 ## Pakete importieren
 
@@ -118,8 +119,8 @@ A: Ja, Sie können ebenfalls Text, Tabellen, eingebettete Dateien und andere Obj
 
 ---
 
-**Zuletzt aktualisiert:** 2026-03-19  
-**Getestet mit:** Aspose.Note for Java 24.12  
+**Letzte Aktualisierung:** 2025-12-21  
+**Getestet mit:** Aspose.Note for Java 26.4  
 **Autor:** Aspose  
 
 {{< /blocks/products/pf/tutorial-page-section >}}

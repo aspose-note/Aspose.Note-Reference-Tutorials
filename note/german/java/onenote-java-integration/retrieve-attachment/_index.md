@@ -146,7 +146,7 @@ A: Ja, Entwickler können umfassenden Support über das Aspose.Note‑Forum unte
 ---
 
 **Zuletzt aktualisiert:** 2025-12-31  
-**Getestet mit:** Aspose.Note for Java 24.11  
+**Getestet mit:** Aspose.Note for Java 26.4  
 **Autor:** Aspose  
 
 {{< /blocks/products/pf/tutorial-page-section >}}

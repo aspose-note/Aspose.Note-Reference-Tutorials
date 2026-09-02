@@ -20,12 +20,12 @@ weight: 14
 
 W tym samouczku dowiesz się **how to extract onenote images java** przy użyciu biblioteki Aspose.Note for Java. Niezależnie od tego, czy potrzebujesz obrazów do raportowania, archiwizacji, czy wprowadzania ich do potoku OCR, przeprowadzimy Cię przez cały proces — od załadowania notatnika `.one` po zapisanie każdego obrazu jako osobnego pliku na dysku.
 
-## Quick Answers
-- **Jakiej biblioteki należy używać?** Aspose.Note for Java  
-- **Czy mogę wyodrębnić obrazy z notatnika chronionego hasłem?** Tak, Aspose.Note to obsługuje.  
-- **Czy potrzebna jest licencja do rozwoju?** Darmowa wersja próbna działa do testów; licencja jest wymagana w produkcji.  
-- **Jakie wersje Javy są obsługiwane?** Java 8 i nowsze (w tym Java 15).  
-- **Jak długo trwa wyodrębnianie?** Zazwyczaj kilka sekund dla standardowego notatnika.  
+## Szybkie odpowiedzi
+- **Jakiej biblioteki używać?** Aspose.Note for Java  
+- **Czy mogę wyodrębnić obrazy z notatnika zabezpieczonego hasłem?** Tak, Aspose.Note to obsługuje.  
+- **Czy potrzebna jest licencja do rozwoju?** Darmowa wersja próbna wystarczy do testów; licencja jest wymagana w produkcji.  
+- **Jakie wersje Javy są wspierane?** Java 8 i nowsze (w tym Java 8).  
+- **Jak długo trwa wyodrębnianie?** Zazwyczaj kilka sekund dla standardowego notatnika.
 
 ## What is **extract images from .one**?
 
@@ -37,7 +37,7 @@ Wyodrębnianie obrazów z pliku OneNote oznacza programowe znajdowanie każdego 
 - **Spójność:** Gwarantuje identyczną logikę wyodrębniania we wszystkich plikach.  
 - **Integracja:** Łatwo łączy wynik z innymi przepływami pracy opartymi na Javie, takimi jak OCR, analiza obrazów czy systemy zarządzania treścią.  
 
-## Prerequisites
+1. **Java Development Kit (JDK)** – Upewnij się, że Java jest zainstalowana w Twoim systemie. Możesz ją pobrać i zainstalować ze [strony internetowej](https://www.oracle.com/java/technologies/downloads/).
 
 Before you begin, make sure you have the following items ready:
 
@@ -118,8 +118,8 @@ for (int i = 0; i < list.size(); i++) {
 
 ---
 
-**Ostatnia aktualizacja:** 2026-03-19  
-**Testowano z:** Aspose.Note for Java 24.12  
+**Ostatnia aktualizacja:** 2025-12-21  
+**Testowano z:** Aspose.Note for Java 26.4  
 **Autor:** Aspose  
 
 {{< /blocks/products/pf/tutorial-page-section >}}

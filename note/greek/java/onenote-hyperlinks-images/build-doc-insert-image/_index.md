@@ -89,7 +89,7 @@ outline.setHorizontalOffset(0);
 Φορτώστε την εικόνα που θέλετε να ενσωματώσετε και ευθυγραμμίστε την στη δεξιά πλευρά της σελίδας. Εδώ είναι που πραγματικά **προσθέτετε εικόνα στο OneNote**. Ο κατασκευαστής `Image` δείχνει πώς να **φορτώσετε αρχείο εικόνας java** κωδικά.
 
 ```java
-Image image = new Image(null, dataDir + "Input.jpg");
+Image image = new Image(dataDir + "Input.jpg");
 image.setAlignment(HorizontalAlignment.Right);
 ```
 
@@ -157,8 +157,8 @@ try {
 
 ---
 
-**Τελευταία ενημέρωση:** 2026-03-19  
-**Δοκιμασμένο με:** Aspose.Note for Java 24.12 (τελευταία)  
+**Τελευταία ενημέρωση:** 2025-12-20  
+**Δοκιμή με:** Aspose.Note for Java 26.4 (τελευταία)  
 **Συγγραφέας:** Aspose  
 
 {{< /blocks/products/pf/tutorial-page-section >}}

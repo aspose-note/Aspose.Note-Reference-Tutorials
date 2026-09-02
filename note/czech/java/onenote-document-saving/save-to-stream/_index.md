@@ -121,7 +121,7 @@ A: Ano, Aspose.Note zachovává obrázky, grafy a další vložené objekty běh
 ---
 
 **Poslední aktualizace:** 2025-12-17  
-**Testováno s:** Aspose.Note pro Java 24.12 (nejnovější)  
+**Testováno s:** Aspose.Note pro Java 26.4 (nejnovější)  
 **Autor:** Aspose  
 
 {{< /blocks/products/pf/tutorial-page-section >}}

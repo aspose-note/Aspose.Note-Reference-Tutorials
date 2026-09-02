@@ -66,7 +66,7 @@ Aspose.Note.Page page = new Aspose.Note.Page(doc);
 ### Etapa 3: inicializar o objeto Outline
 
 ```csharp
-Outline outline = new Outline(doc);
+Outline outline = new Outline();
 ```
 
  Um`Outline` objeto é criado para organizar o conteúdo da página.
@@ -74,7 +74,7 @@ Outline outline = new Outline(doc);
 ### Etapa 4: inicializar o objeto OutlineElement
 
 ```csharp
-OutlineElement outlineElem = new OutlineElement(doc);
+OutlineElement outlineElem = new OutlineElement();
 ```
 
 `OutlineElement` representa um elemento dentro da estrutura de tópicos.
@@ -82,7 +82,7 @@ OutlineElement outlineElem = new OutlineElement(doc);
 ### Etapa 5: inicializar o objeto AttachedFile
 
 ```csharp
-AttachedFile attachedFile = new AttachedFile(doc,  dataDir + "attachment.txt");
+AttachedFile attachedFile = new AttachedFile(dataDir + "attachment.txt");
 ```
 
  Aqui, criamos uma instância de`AttachedFile`, especificando o caminho para o arquivo que queremos anexar.

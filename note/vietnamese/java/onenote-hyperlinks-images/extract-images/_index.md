@@ -22,10 +22,10 @@ Trong hướng dẫn này, bạn sẽ khám phá **how to extract onenote images
 
 ## Câu trả lời nhanh
 - **Thư viện nào được đề xuất?** Aspose.Note for Java  
-- **Tôi có thể trích xuất hình ảnh từ sổ tay được bảo vệ bằng mật khẩu không?** Có, Aspose.Note hỗ trợ.  
-- **Tôi có cần giấy phép cho việc phát triển không?** Bản dùng thử miễn phí đủ cho việc thử nghiệm; cần giấy phép cho môi trường sản xuất.  
-- **Các phiên bản Java nào được hỗ trợ?** Java 8 và các phiên bản mới hơn (bao gồm Java 15).  
-- **Quá trình trích xuất mất bao lâu?** Thông thường chỉ vài giây cho một sổ tay tiêu chuẩn.  
+- **Tôi có thể trích xuất hình ảnh từ sổ ghi chú được bảo vệ bằng mật khẩu không?** Có, Aspose.Note hỗ trợ.  
+- **Tôi có cần giấy phép cho việc phát triển không?** Bản dùng thử miễn phí hoạt động cho việc thử nghiệm; cần giấy phép cho môi trường sản xuất.  
+- **Phiên bản Java nào được hỗ trợ?** Java 8 và các phiên bản mới hơn (bao gồm Java 8).  
+- **Quá trình trích xuất mất bao lâu?** Thông thường chỉ vài giây cho một sổ ghi chú tiêu chuẩn.
 
 ## Khái niệm **extract images from .one**
 
@@ -41,8 +41,7 @@ Việc trích xuất hình ảnh từ tệp OneNote có nghĩa là lập trình 
 
 Trước khi bắt đầu, hãy chắc chắn rằng bạn đã chuẩn bị các mục sau:
 
-1. **Java Development Kit (JDK)** – Cài đặt Java 8 hoặc mới hơn. Bạn có thể tải xuống từ [website](https://www.oracle.com/java/technologies/javase-jdk15-downloads.html).  
-2. **Aspose.Note Library** – Tải gói Aspose.Note cho Java mới nhất và thêm vào classpath của dự án. Lấy nó từ [download link](https://releases.aspose.com/note/java/).  
+1. **Java Development Kit (JDK)** – Đảm bảo bạn đã cài đặt Java trên hệ thống. Bạn có thể tải và cài đặt từ [website](https://www.oracle.com/java/technologies/downloads/).
 
 ## Nhập các gói
 
@@ -116,10 +115,8 @@ A: Aspose.Note xử lý hiệu quả các sổ tay lớn; không có giới hạ
 **Q: Aspose.Note có cho phép trích xuất các loại nội dung khác không?**  
 A: Có, bạn cũng có thể trích xuất văn bản, bảng, tệp nhúng và các đối tượng khác bằng các API tương tự.
 
----
-
-**Cập nhật lần cuối:** 2026-03-19  
-**Kiểm tra với:** Aspose.Note for Java 24.12  
+**Cập nhật lần cuối:** 2025-12-21  
+**Kiểm tra với:** Aspose.Note for Java 26.4  
 **Tác giả:** Aspose  
 
 {{< /blocks/products/pf/tutorial-page-section >}}

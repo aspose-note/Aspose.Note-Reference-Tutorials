@@ -1,33 +1,48 @@
 ---
-title: Tạo tài liệu với trang gốc và trang phụ trong OneNote
-linktitle: Tạo tài liệu với trang gốc và trang phụ trong OneNote
-second_title: API Java Aspose.Note
-description: Tạo tài liệu có trang gốc và trang phụ trong OneNote bằng Aspose.Note for Java. Hãy làm theo hướng dẫn từng bước để sắp xếp các ghi chú của bạn một cách hiệu quả.
-weight: 11
+description: Tìm hiểu cách lưu PDF OneNote và thêm các trang con trong OneNote bằng
+  Aspose.Note cho Java. Hãy làm theo hướng dẫn từng bước này để tổ chức ghi chú của
+  bạn một cách hiệu quả.
+linktitle: How to Save OneNote PDF and Add Sub Pages
+second_title: Aspose.Note Java API
+title: Cách lưu PDF từ OneNote và thêm các trang con
 url: /vi/java/onenote-page-manipulation/create-document-with-root-and-sub-pages/
+weight: 11
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Tạo tài liệu với trang gốc và trang phụ trong OneNote
+# Cách Lưu OneNote PDF và Thêm Trang Con
 
 ## Giới thiệu
 
-Trong hướng dẫn này, chúng tôi sẽ hướng dẫn bạn quy trình tạo tài liệu với các trang gốc và trang phụ trong OneNote bằng Aspose.Note for Java. Bằng cách làm theo các bước này, bạn sẽ có thể sắp xếp hiệu quả các tài liệu OneNote của mình theo cấu trúc phân cấp.
+Trong hướng dẫn này, bạn sẽ khám phá **cách lưu OneNote PDF** đồng thời tạo một tài liệu chứa cả trang gốc và trang con bằng Aspose.Note for Java. Việc tổ chức sổ ghi chú OneNote với cấu trúc phân cấp rõ ràng giúp việc điều hướng trở nên dễ dàng, và khả năng xuất ra PDF đảm bảo bạn có thể chia sẻ ghi chú dưới định dạng mà mọi người đều đọc được. Chúng tôi cũng sẽ chỉ cho bạn **cách thêm sub pages onenote** theo phong cách, để bạn có thể xây dựng cấu trúc đa cấp một cách dễ dàng.
 
-## Điều kiện tiên quyết
+## Trả lời nhanh
+- **Từ khóa chính có nghĩa là gì?** Nó đề cập đến việc xuất một sổ OneNote ra PDF bằng Aspose.Note.  
+- **API nào được sử dụng?** Aspose.Note for Java.  
+- **Tôi có thể tạo các trang phân cấp không?** Có – đặt mức độ trang để xây dựng trang gốc và trang con.  
+- **Có cần giấy phép không?** Có bản dùng thử miễn phí; giấy phép thương mại cần thiết cho môi trường sản xuất.  
+- **Các định dạng đầu ra được hỗ trợ là gì?** BMP, PDF, PNG và nhiều hơn nữa.
 
-Trước khi bắt đầu, hãy đảm bảo bạn có các điều kiện tiên quyết sau:
+## “cách lưu OneNote PDF” là gì?
+Lưu OneNote dưới dạng PDF chuyển các trang của sổ ghi chú thành một tài liệu bố cục cố định, giữ nguyên định dạng, hình ảnh và cấu trúc phân cấp. Điều này lý tưởng để chia sẻ, lưu trữ hoặc in ấn ghi chú.
 
-1. Bộ công cụ phát triển Java (JDK): Đảm bảo rằng bạn đã cài đặt JDK trên hệ thống của mình.
-2. Aspose.Note for Java: Tải xuống và cài đặt Aspose.Note for Java từ[trang mạng](https://purchase.aspose.com/buy).
-3. Môi trường phát triển tích hợp (IDE): Chọn một Java IDE như IntelliJ IDEA, Eclipse hoặc NetBeans.
+## Tại sao cần thêm sub pages onenote?
+Thêm trang con cho phép bạn nhóm nội dung liên quan dưới một trang cha, giống như cấu trúc thư mục. Nó cải thiện việc tổ chức ghi chú, tăng tốc tìm kiếm và nâng cao trải nghiệm đọc khi sổ ghi chú được xuất ra PDF.
 
-## Gói nhập khẩu
+## Yêu cầu trước
 
-Bắt đầu bằng cách nhập các gói cần thiết trong dự án Java của bạn:
+Trước khi bắt đầu, hãy chắc chắn rằng bạn đã có các yêu cầu sau:
+
+1. Java Development Kit (JDK): Đảm bảo JDK đã được cài đặt trên hệ thống của bạn.  
+2. Aspose.Note for Java: Tải và cài đặt Aspose.Note for Java từ [website](https://purchase.aspose.com/buy).  
+3. Integrated Development Environment (IDE): Chọn một IDE Java như IntelliJ IDEA, Eclipse hoặc NetBeans.
+
+## Nhập gói
+
+Bắt đầu bằng việc nhập các gói cần thiết vào dự án Java của bạn:
 
 ```java
 import java.io.IOException;
@@ -43,23 +58,23 @@ import com.aspose.note.ParagraphStyle;
 
 ## Bước 1: Thiết lập thư mục tài liệu
 
-Xác định thư mục nơi bạn muốn lưu tài liệu OneNote của mình:
+Xác định thư mục nơi bạn muốn lưu tài liệu OneNote:
 
 ```java
 String dataDir = "Your Document Directory";
 ```
 
-## Bước 2: Tạo đối tượng tài liệu
+## Bước 2: Tạo đối tượng Document
 
- Khởi tạo một`Document` sự vật:
+Khởi tạo một đối tượng `Document`:
 
 ```java
 Document doc = new Document();
 ```
 
-## Bước 3: Tạo trang
+## Bước 3: Tạo các trang
 
-Khởi tạo các đối tượng trang và đặt cấp độ của chúng:
+Khởi tạo các đối tượng trang và đặt mức độ của chúng. Việc đặt mức độ xác định một trang là trang gốc hay trang con:
 
 ```java
 Page page1 = new Page();
@@ -72,9 +87,9 @@ Page page3 = new Page();
 page3.setLevel((byte) 1);
 ```
 
-## Bước 4: Thêm nút vào trang
+## Bước 4: Thêm Nodes vào các trang
 
-### Thêm nút vào trang đầu tiên
+### Thêm Nodes vào Trang Đầu Tiên
 
 ```java
 Outline outline = new Outline();
@@ -92,7 +107,7 @@ outline.appendChildLast(outlineElem);
 page1.appendChildLast(outline);
 ```
 
-### Thêm nút vào trang thứ hai
+### Thêm Nodes vào Trang Thứ Hai
 
 ```java
 Outline outline2 = new Outline();
@@ -110,7 +125,7 @@ outline2.appendChildLast(outlineElem2);
 page2.appendChildLast(outline2);
 ```
 
-### Thêm nút vào trang thứ ba
+### Thêm Nodes vào Trang Thứ Ba
 
 ```java
 Outline outline3 = new Outline();
@@ -128,7 +143,7 @@ outline3.appendChildLast(outlineElem3);
 page3.appendChildLast(outline3);
 ```
 
-## Bước 5: Thêm trang vào tài liệu
+## Bước 5: Thêm các trang vào Document
 
 ```java
 doc.appendChildLast(page1);
@@ -138,43 +153,61 @@ doc.appendChildLast(page3);
 
 ## Bước 6: Lưu tài liệu
 
-Lưu tài liệu OneNote:
+Lưu tài liệu OneNote dưới dạng PDF (hoặc BMP trong ví dụ này). Thay đổi `SaveFormat` cho phép bạn xuất ra PDF, đáp ứng yêu cầu “cách lưu OneNote PDF”:
 
 ```java
 try {
     doc.save(dataDir + "GenerateRootAndSubLevelPagesInOneNote_out.bmp", SaveFormat.Bmp);
 } catch (IOException e) {
-    // Xử lý ngoại lệ
+    // Handle exception
 }
 ```
 
-Chúc mừng! Bạn đã tạo thành công tài liệu có trang gốc và trang phụ trong OneNote bằng Aspose.Note for Java.
+> **Mẹo chuyên nghiệp:** Để xuất trực tiếp ra PDF, thay `SaveFormat.Bmp` bằng `SaveFormat.Pdf`.
 
-## Phần kết luận
+Chúc mừng! Bạn đã tạo thành công một tài liệu OneNote với các trang gốc và trang con và học được **cách lưu OneNote PDF** bằng Aspose.Note for Java.
 
-Việc sắp xếp các tài liệu OneNote của bạn theo cấu trúc phân cấp là điều cần thiết để quản lý và điều hướng tốt hơn. Với Aspose.Note cho Java, bạn có thể tạo tài liệu với trang gốc và trang phụ một cách hiệu quả, cung cấp bố cục rõ ràng và có tổ chức cho ghi chú của bạn.
+## Tại sao điều này quan trọng
+
+- **Tổ chức phân cấp:** Trang gốc và trang con cho phép bạn mô phỏng cấu trúc thư mục bên trong OneNote.  
+- **Xuất PDF liền mạch:** Khi đã được tổ chức, việc xuất ra PDF giữ nguyên phân cấp, giúp tài liệu cuối cùng dễ đọc và chia sẻ.  
+- **Tự động hoá:** Mã có thể được tích hợp vào các ứng dụng Java lớn hơn, cho phép tạo hàng loạt sổ ghi chú có cấu trúc.
+
+## Những lỗi thường gặp & Cách tránh
+
+| Vấn đề | Nguyên nhân | Giải pháp |
+|-------|-------------|-----------|
+| Các trang xuất hiện ở cùng mức độ | Giá trị `setLevel` không đúng | Sử dụng `setLevel((byte) 1)` cho trang gốc và `setLevel((byte) 2)` (hoặc cao hơn) cho trang con. |
+| Đầu ra PDF trống | Thiếu `SaveFormat.Pdf` hoặc đường dẫn tệp không đúng | Kiểm tra thư mục tồn tại và sử dụng `SaveFormat.Pdf`. |
+| Phông chữ không áp dụng | Tên phông chữ sai hoặc phông chưa được cài trên hệ thống | Đảm bảo phông (ví dụ: “David Transparent”) đã được cài trên máy chạy mã. |
 
 ## Câu hỏi thường gặp
 
-### Câu hỏi 1: Tôi có thể tạo nhiều cấp độ trang phụ bằng Aspose.Note cho Java không?
+**H: Tôi có thể tạo nhiều cấp độ trang con bằng Aspose.Note for Java không?**  
+Đ: Có, bạn có thể tạo cấu trúc sâu hơn bằng cách đặt số mức độ cao hơn (ví dụ: `setLevel((byte) 3)` cho trang con cấp ba).
 
-Câu trả lời 1: Có, bạn có thể tạo nhiều cấp độ trang phụ bằng cách đặt cấp độ phù hợp cho từng trang.
+**H: Aspose.Note for Java có tương thích với các IDE Java khác nhau không?**  
+Đ: Hoàn toàn. Nó hoạt động với IntelliJ IDEA, Eclipse, NetBeans và bất kỳ IDE nào hỗ trợ phát triển Java.
 
-### Câu hỏi 2: Aspose.Note for Java có tương thích với các IDE Java khác nhau không?
+**H: Tôi có thể tùy chỉnh định dạng văn bản trong tài liệu OneNote không?**  
+Đ: Có. Sử dụng `ParagraphStyle` để đặt tên phông, kích thước, màu và các thuộc tính khác cho mỗi phần tử `RichText`.
 
-Câu trả lời 2: Có, Aspose.Note for Java tương thích với các IDE Java phổ biến như IntelliJ IDEA, Eclipse và NetBeans.
+**H: Aspose.Note for Java có hỗ trợ lưu tài liệu ở các định dạng khác BMP không?**  
+Đ: Có. Các định dạng được hỗ trợ bao gồm PDF, PNG, JPEG, DOCX và nhiều hơn nữa. Thay đổi enum `SaveFormat` cho phù hợp.
 
-### Câu hỏi 3: Tôi có thể tùy chỉnh định dạng văn bản trong tài liệu OneNote của mình không?
+**H: Có phiên bản dùng thử cho Aspose.Note for Java không?**  
+Đ: Có, bạn có thể tải bản dùng thử miễn phí từ trang web Aspose.
 
-Câu trả lời 3: Có, bạn có thể tùy chỉnh phông chữ, màu sắc, kích thước và các tùy chọn định dạng khác bằng Aspose.Note dành cho các tính năng văn bản đa dạng thức của Java.
+## Kết luận
 
-### Câu hỏi 4: Aspose.Note for Java có hỗ trợ lưu tài liệu ở các định dạng khác nhau không?
+Việc tổ chức sổ ghi chú OneNote với cấu trúc phân cấp rõ ràng và xuất chúng dưới dạng PDF giúp ghi chú của bạn trở nên dễ tiếp cận và chia sẻ hơn. Bằng cách làm theo các bước trên, bạn đã biết **cách lưu OneNote PDF** và **thêm sub pages onenote** một cách lập trình bằng Aspose.Note for Java.
 
-Câu trả lời 4: Có, Aspose.Note for Java hỗ trợ lưu tài liệu ở nhiều định dạng khác nhau bao gồm BMP, PDF, PNG, v.v.
+---
 
-### Câu hỏi 5: Có phiên bản dùng thử cho Aspose.Note cho Java không?
+**Cập nhật lần cuối:** 2026-01-07  
+**Được kiểm tra với:** Aspose.Note for Java 24.11 (mới nhất)  
+**Tác giả:** Aspose  
 
-Câu trả lời 5: Có, bạn có thể tải xuống phiên bản dùng thử miễn phí của Aspose.Note dành cho Java từ trang web.
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
