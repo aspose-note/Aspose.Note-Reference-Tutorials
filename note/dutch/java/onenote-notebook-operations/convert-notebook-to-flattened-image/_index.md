@@ -143,9 +143,9 @@ A5: Je kunt ondersteuning en bronnen vinden op het Aspose.Note‑forum [here](ht
 
 ---
 
-**Laatst bijgewerkt:** 2026-03-21  
-**Getest met:** Aspose.Note for Java 24.12  
-**Auteur:** Aspose  
+**Laatst bijgewerkt:** 25-12-2025
+**Getest met:** Aspose.Note voor Java 26.4
+**Auteur:** Aspose 
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

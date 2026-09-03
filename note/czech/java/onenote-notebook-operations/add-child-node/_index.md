@@ -69,7 +69,7 @@ String dataDir = "Your Document Directory";
 Vytvořte objekt `Notebook`, který ukazuje na existující soubor `.onetoc2`.
 
 ```java
-Notebook notebook = new Notebook(dataDir + "Notizbuch �ffnen.onetoc2");
+Notebook notebook = new Notebook(dataDir + "Notebook.onetoc2");
 ```
 
 Pokud soubor nelze najít, bude vyhozena výjimka `IOException` — ujistěte se, že název souboru a cesta jsou správné.
@@ -140,9 +140,9 @@ V tomto tutoriálu jsme pokryli **how to add onenote** podřízené uzly pomocí
 
 ---
 
-**Poslední aktualizace:** 2026-03-21  
-**Testováno s:** Aspose.Note for Java 24.11  
-**Autor:** Aspose  
+**Last Updated:** 2025-12-25  
+**Tested With:** Aspose.Note for Java 26.4  
+**Author:** Aspose  
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

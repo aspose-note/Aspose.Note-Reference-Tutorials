@@ -71,7 +71,7 @@ String dataDir = "Your Document Directory";
 สร้างอ็อบเจกต์ `Notebook` ที่ชี้ไปยังไฟล์ `.onetoc2` ที่มีอยู่  
 
 ```java
-Notebook notebook = new Notebook(dataDir + "Notizbuch �ffnen.onetoc2");
+Notebook notebook = new Notebook(dataDir + "Notebook.onetoc2");
 ```
 
 หากไม่พบไฟล์, จะเกิด `IOException` — ตรวจสอบให้แน่ใจว่าไฟล์และเส้นทางถูกต้อง  
@@ -142,9 +142,9 @@ A7: การพยายามบันทึกการเปลี่ยน�
 
 ---
 
-**อัปเดตล่าสุด:** 2026-03-21  
-**ทดสอบด้วย:** Aspose.Note for Java 24.11  
-**ผู้เขียน:** Aspose  
+**อัปเดตล่าสุด:** 25-12-2568
+**ทดสอบกับ:** Aspose.Note สำหรับ Java 26.4
+**ผู้เขียน:** สมมติ
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

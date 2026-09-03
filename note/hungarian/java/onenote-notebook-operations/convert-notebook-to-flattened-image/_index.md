@@ -144,9 +144,9 @@ A5: Támogatást és erőforrásokat az Aspose.Note fórumon talál [itt](https:
 
 ---
 
-**Utoljára frissítve:** 2026-03-21  
-**Tesztelt verzió:** Aspose.Note for Java 24.12  
-**Szerző:** Aspose  
+**Last Updated:** 2025-12-25  
+**Tested With:** Aspose.Note for Java 26.4  
+**Author:** Aspose  
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

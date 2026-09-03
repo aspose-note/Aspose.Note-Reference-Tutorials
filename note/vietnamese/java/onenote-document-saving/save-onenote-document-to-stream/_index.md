@@ -114,7 +114,7 @@ Bạn đã có một cách hoàn chỉnh, sẵn sàng cho môi trường product
 ---
 
 **Cập nhật lần cuối:** 2025-12-12  
-**Kiểm thử với:** Aspose.Note cho Java 24.11  
+**Kiểm thử với:** Aspose.Note cho Java 26.4  
 **Tác giả:** Aspose  
 
 {{< /blocks/products/pf/tutorial-page-section >}}

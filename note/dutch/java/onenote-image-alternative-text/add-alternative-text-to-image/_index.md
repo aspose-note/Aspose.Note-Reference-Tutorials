@@ -89,7 +89,7 @@ Een pagina fungeert als een canvas voor de afbeelding en eventuele andere elemen
 ### Stap 4: Een afbeelding aan de pagina toevoegen
 
 ```java
-Image image = new Image(null, dataDir + "image.jpg");
+Image image = new Image(dataDir + "image.jpg");
 ```
 
 De `Image`‑constructor laadt het afbeeldingsbestand vanaf het opgegeven pad. Dit is het moment waarop je **append image onenote** zult uitvoeren.
@@ -169,8 +169,8 @@ Door deze gids te volgen weet je nu **how to create OneNote document**, **append
 
 ---
 
-**Laatst bijgewerkt:** 2026-03-21  
-**Getest met:** Aspose.Note for Java 24.11  
+**Laatst bijgewerkt:** 2025-12-23  
+**Getest met:** Aspose.Note for Java 26.4  
 **Auteur:** Aspose  
 
 {{< /blocks/products/pf/tutorial-page-section >}}

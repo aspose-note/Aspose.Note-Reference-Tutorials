@@ -111,7 +111,7 @@ Du har nu lärt dig **hur man exporterar onenote** genom att ladda en OneNote‑
 ---
 
 **Last Updated:** 2025-12-17  
-**Tested With:** Aspose.Note 24.12 for Java  
+**Tested With:** Aspose.Note 26.4 for Java  
 **Author:** Aspose  
 
 ---

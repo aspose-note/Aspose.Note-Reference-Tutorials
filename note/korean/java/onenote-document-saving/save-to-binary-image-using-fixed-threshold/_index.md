@@ -133,7 +133,7 @@ A: Aspose.Note Java 라이브러리는 플랫폼에 독립적이므로 호환되
 ---
 
 **Last Updated:** 2025-12-13  
-**Tested With:** Aspose.Note for Java 24.12 (latest)  
+**Tested With:** Aspose.Note for Java 26.4 (latest)  
 **Author:** Aspose  
 
 {{< /blocks/products/pf/tutorial-page-section >}}

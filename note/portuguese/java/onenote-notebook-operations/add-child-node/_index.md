@@ -71,7 +71,7 @@ String dataDir = "Your Document Directory";
 Crie um objeto `Notebook` que aponta para o arquivo `.onetoc2` existente.
 
 ```java
-Notebook notebook = new Notebook(dataDir + "Notizbuch �ffnen.onetoc2");
+Notebook notebook = new Notebook(dataDir + "Notebook.onetoc2");
 ```
 
 Se o arquivo não for encontrado, será lançada uma `IOException`—garanta que o nome do arquivo e o caminho estejam corretos.
@@ -142,8 +142,8 @@ Neste tutorial abordamos **how to add onenote** nós filhos usando Aspose.Note f
 
 ---
 
-**Última atualização:** 2026-03-21  
-**Testado com:** Aspose.Note for Java 24.11  
+**Última Atualização:** 2025-12-25  
+**Testado com:** Aspose.Note for Java 26.4  
 **Autor:** Aspose  
 
 {{< /blocks/products/pf/tutorial-page-section >}}

@@ -48,7 +48,7 @@ using System.Text;
 string dataDir = "Your Document Directory";
 
 //加载 OneNote 笔记本
-var notebook = new Notebook(dataDir + "Notizbuch öffnen.onetoc2");
+var notebook = new Notebook(dataDir + "Notebook.onetoc2");
 ```
 
 ## 第 2 步：设置保存选项

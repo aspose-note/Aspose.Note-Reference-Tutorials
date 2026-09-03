@@ -71,7 +71,7 @@ String dataDir = "Your Document Directory";
 Skapa ett `Notebook`‑objekt som pekar på den befintliga `.onetoc2`‑filen.
 
 ```java
-Notebook notebook = new Notebook(dataDir + "Notizbuch �ffnen.onetoc2");
+Notebook notebook = new Notebook(dataDir + "Notebook.onetoc2");
 ```
 
 Om filen inte kan hittas kommer ett `IOException` att kastas—se till att filnamnet och sökvägen är korrekta.
@@ -142,9 +142,9 @@ I den här handledningen har vi gått igenom **how to add onenote** undernoder m
 
 ---
 
-**Senast uppdaterad:** 2026-03-21  
-**Testad med:** Aspose.Note for Java 24.11  
-**Författare:** Aspose  
+**Last Updated:** 2025-12-25  
+**Tested With:** Aspose.Note for Java 26.4  
+**Author:** Aspose  
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

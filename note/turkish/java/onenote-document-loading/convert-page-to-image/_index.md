@@ -134,7 +134,7 @@ C: [Aspose.Note forumunu](https://forum.aspose.com/c/note/28) ziyaret edin veya 
 ---
 
 **Son Güncelleme:** 2025-11-29  
-**Test Edilen Sürüm:** Aspose.Note for Java 24.12  
+**Test Edilen Sürüm:** Aspose.Note for Java 26.4  
 **Yazar:** Aspose  
 
 {{< /blocks/products/pf/tutorial-page-section >}}

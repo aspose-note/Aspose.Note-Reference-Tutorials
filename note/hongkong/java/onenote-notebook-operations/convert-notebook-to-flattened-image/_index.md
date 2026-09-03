@@ -142,9 +142,9 @@ A5: 您可於 Aspose.Note 論壇 [here](https://forum.aspose.com/c/note/28) 找�
 
 ---
 
-**Last Updated:** 2026-03-21  
-**Tested With:** Aspose.Note for Java 24.12  
-**Author:** Aspose  
+**最後更新：** 2025-12-25  
+**測試環境：** Aspose.Note for Java 26.4  
+**作者：** Aspose  
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

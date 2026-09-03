@@ -134,7 +134,7 @@ V: Az Aspose.Note Java könyvtár platform‑független, így ugyanaz a kód bá
 ---
 
 **Last Updated:** 2025-12-13  
-**Tested With:** Aspose.Note for Java 24.12 (latest)  
+**Tested With:** Aspose.Note for Java 26.4 (latest)  
 **Author:** Aspose  
 
 {{< /blocks/products/pf/tutorial-page-section >}}

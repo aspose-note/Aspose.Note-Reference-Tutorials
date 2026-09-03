@@ -102,7 +102,7 @@ A: [여기](https://purchase.aspose.com/temporary-license/)에서 임시 평가 
 ---
 
 **마지막 업데이트:** 2025-12-09  
-**테스트 환경:** Aspose.Note for Java 24.12 (최신)  
+**테스트 환경:** Aspose.Note for Java 26.4 (최신)  
 **작성자:** Aspose  
 
 {{< /blocks/products/pf/tutorial-page-section >}}

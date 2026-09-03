@@ -153,9 +153,9 @@ A5: คุณสามารถหาแหล่งสนับสนุนแ�
 
 ---
 
-**Last Updated:** 2026-03-21  
-**Tested With:** Aspose.Note for Java 24.12  
-**Author:** Aspose  
+**อัปเดตล่าสุด:** 2025-12-25  
+**ทดสอบกับ:** Aspose.Note for Java 26.4  
+**ผู้เขียน:** Aspose  
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

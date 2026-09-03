@@ -89,7 +89,7 @@ Eine Seite dient als Leinwand für das Bild und alle anderen Elemente, die Sie h
 ### Schritt 4: Bild zur Seite hinzufügen
 
 ```java
-Image image = new Image(null, dataDir + "image.jpg");
+Image image = new Image(dataDir + "image.jpg");
 ```
 
 Der `Image`‑Konstruktor lädt die Bilddatei vom angegebenen Pfad. Dies ist der Punkt, an dem Sie **append image onenote** ausführen.
@@ -169,9 +169,9 @@ Durch das Befolgen dieses Leitfadens wissen Sie jetzt, **how to create OneNote d
 
 ---
 
-**Last Updated:** 2026-03-21  
-**Tested With:** Aspose.Note for Java 24.11  
-**Author:** Aspose  
+**Zuletzt aktualisiert:** 2025-12-23  
+**Getestet mit:** Aspose.Note für Java 26.4  
+**Autor:** Aspose  
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

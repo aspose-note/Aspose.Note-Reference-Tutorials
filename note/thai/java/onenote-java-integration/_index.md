@@ -79,7 +79,7 @@ A: ไม่, Aspose.Note ทำงานแยกจากแอปพลิเ
 ---
 
 ** อัปเดตล่าสุด:** 23-12-2025
-**ทดสอบกับ:** Aspose.Note for Java 24.12
+**ทดสอบกับ:** Aspose.Note for Java 26.4
 **หมายเหตุ:** สมมุติ
 
 {{< /blocks/products/pf/tutorial-page-section >}}

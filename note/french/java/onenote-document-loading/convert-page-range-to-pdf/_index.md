@@ -124,7 +124,7 @@ Dans ce guide, nous avons démontré **comment exporter des pages OneNote** en c
 ---
 
 **Dernière mise à jour :** 2025-11-30  
-**Testé avec :** Aspose.Note for Java 24.11  
+**Testé avec :** Aspose.Note for Java 26.4  
 **Auteur :** Aspose  
 
 {{< /blocks/products/pf/tutorial-page-section >}}

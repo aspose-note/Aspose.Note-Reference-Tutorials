@@ -118,7 +118,7 @@ A: Process the PDF in chunks (e.g., one page at a time) and dispose of intermedi
 ---
 
 **Last Updated:** 2025-11-28  
-**Tested With:** Aspose.Note 24.11 for .NET & Java  
+**Tested With:** Aspose.Note 26.4 for .NET & Java  
 **Author:** Aspose  
 
 {{< /blocks/products/pf/tutorial-page-section >}}

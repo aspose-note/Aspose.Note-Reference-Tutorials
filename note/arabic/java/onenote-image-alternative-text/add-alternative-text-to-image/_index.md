@@ -88,7 +88,7 @@ Page page = new Page();
 ### Step 4: Add an Image to the Page
 
 ```java
-Image image = new Image(null, dataDir + "image.jpg");
+Image image = new Image(dataDir + "image.jpg");
 ```
 
 المُنشئ `Image` يحمل ملف الصورة من المسار المحدد. هذه هي النقطة التي ستقوم فيها **بإضافة صورة إلى OneNote**.
@@ -168,9 +168,9 @@ document.save(dataDir + "AlternativeText_out.one");
 
 ---
 
-**Last Updated:** 2026-03-21  
-**Tested With:** Aspose.Note for Java 24.11  
-**Author:** Aspose  
+**آخر تحديث:** 2025-12-23  
+**تم الاختبار مع:** Aspose.Note for Java 26.4  
+**المؤلف:** Aspose  
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

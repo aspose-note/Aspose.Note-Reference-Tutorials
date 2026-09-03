@@ -49,7 +49,7 @@ NotebookLoadOptions loadOptions = new NotebookLoadOptions { InstantLoading = tru
 Dále zadejte cestu k souboru poznámkového bloku a inicializujte objekt poznámkového bloku pomocí zadaných možností načtení.
 
 ```csharp
-String inputFile = "Notizbuch öffnen.onetoc2";
+String inputFile = "Notebook.onetoc2";
 String dataDir = "Your Document Directory";
 Notebook notebook = new Notebook(dataDir + inputFile, loadOptions);
 ```

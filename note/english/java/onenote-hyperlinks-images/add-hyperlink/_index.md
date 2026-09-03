@@ -128,7 +128,7 @@ The `setHyperlinkAddress` method tells Aspose.Note that this segment should be c
 ```java
 RichText text = new RichText()
                             .append("This is ", textStyleRed)
-                            .append("hyperlink", new TextStyle().setHyperlinkAddress("www.google.com"))
+                            .append("hyperlink", new TextStyle().setHyperlinkAddress("https://www.google.com"))
                             .append(". This text is not a hyperlink.", TextStyle.getDefault());
 text.setParagraphStyle(defaultTextStyle);
 outlineElem.appendChildLast(text);
@@ -177,7 +177,7 @@ A: A temporary evaluation license is sufficient for development and testing, but
 ---
 
 **Last Updated:** 2025-12-20  
-**Tested With:** Aspose.Note for Java 23.12  
+**Tested With:** Aspose.Note for Java 26.4  
 **Author:** Aspose  
 
 {{< /blocks/products/pf/tutorial-page-section >}}

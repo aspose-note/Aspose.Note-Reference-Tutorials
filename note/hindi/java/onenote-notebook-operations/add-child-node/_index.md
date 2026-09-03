@@ -71,7 +71,7 @@ String dataDir = "Your Document Directory";
 एक `Notebook` ऑब्जेक्ट बनाएं जो मौजूदा `.onetoc2` फ़ाइल की ओर इशारा करता हो।
 
 ```java
-Notebook notebook = new Notebook(dataDir + "Notizbuch �ffnen.onetoc2");
+Notebook notebook = new Notebook(dataDir + "Notebook.onetoc2");
 ```
 
 यदि फ़ाइल नहीं मिलती है, तो `IOException` फेंका जाएगा—फ़ाइलनाम और पाथ को सही सुनिश्चित करें।
@@ -142,8 +142,8 @@ A7: रीड‑ऑनली नोटबुक में बदलाव सह
 
 ---
 
-**अंतिम अपडेट:** 2026-03-21  
-**परीक्षण किया गया:** Aspose.Note for Java 24.11  
+**अंतिम अपडेट:** 2025-12-25  
+**परीक्षित संस्करण:** Aspose.Note for Java 26.4  
 **लेखक:** Aspose  
 
 {{< /blocks/products/pf/tutorial-page-section >}}

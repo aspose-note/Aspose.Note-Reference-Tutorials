@@ -50,7 +50,7 @@ using System.Collections.Generic;
 string dataDir = "Your Document Directory";
 
 //加载 OneNote 笔记本
-var notebook = new Notebook(dataDir + "Notizbuch �ffnen.onetoc2");
+var notebook = new Notebook(dataDir + "Notebook.onetoc2");
 ```
 
 ## 第 2 步：设置图像保存选项

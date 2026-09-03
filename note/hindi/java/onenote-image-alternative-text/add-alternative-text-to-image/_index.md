@@ -89,7 +89,7 @@ Page page = new Page();
 ### चरण 4: पृष्ठ में एक छवि जोड़ें
 
 ```java
-Image image = new Image(null, dataDir + "image.jpg");
+Image image = new Image(dataDir + "image.jpg");
 ```
 
 `Image` कंस्ट्रक्टर निर्दिष्ट पथ से छवि फ़ाइल लोड करता है। यही वह बिंदु है जहाँ आप **छवि OneNote पृष्ठ में जोड़**ेंगे।
@@ -169,9 +169,9 @@ A: हाँ। `new Document(<filePath>)` से मौजूदा दस्�
 
 ---
 
-**Last Updated:** 2026-03-21  
-**Tested With:** Aspose.Note for Java 24.11  
-**Author:** Aspose  
+**अंतिम अपडेट:** 2025-12-23  
+**परीक्षित संस्करण:** Aspose.Note for Java 26.4  
+**लेखक:** Aspose  
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

@@ -1,27 +1,49 @@
 ---
-title: Δημιουργία λίστας με κουκκίδες στο OneNote - Aspose.Note
-linktitle: Δημιουργία λίστας με κουκκίδες στο OneNote - Aspose.Note
+date: 2026-03-03
+description: Μάθετε πώς να δημιουργήσετε λίστα με κουκίδες στο OneNote χρησιμοποιώντας
+  το Aspose.Note για Java και επίσης να αποθηκεύσετε το έγγραφο OneNote ως PDF. Οδηγός
+  βήμα‑βήμα με κουκίδες Java.
+linktitle: Create Bulleted List OneNote - Aspose.Note
 second_title: Aspose.Note Java API
-description: Εξερευνήστε τον οδηγό βήμα προς βήμα για τη δημιουργία λιστών με κουκκίδες στο OneNote χρησιμοποιώντας το Aspose.Note για Java. Αναβαθμίστε τη δημιουργία εγγράφων με ευκολία.
-weight: 12
+title: Δημιουργία λίστας με κουκκίδες στο OneNote - Aspose.Note
 url: /el/java/onenote-text-manipulation/create-bulleted-list/
+weight: 12
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Δημιουργία λίστας με κουκκίδες στο OneNote - Aspose.Note
+# Δημιουργία Λίστας με Κουκκίδες OneNote - Aspose.Note
 
 ## Εισαγωγή
-Στο δυναμικό τοπίο της ανάπτυξης Java, η δημιουργία ελκυστικών και οργανωμένων εγγράφων είναι απαραίτητη. Το Aspose.Note για Java παρέχει ένα ισχυρό σύνολο εργαλείων για τη βελτίωση της διαδικασίας δημιουργίας εγγράφων. Αυτό το σεμινάριο θα σας καθοδηγήσει στη διαδικασία δημιουργίας λιστών με κουκκίδες στο OneNote χρησιμοποιώντας το Aspose.Note για Java. Ας βουτήξουμε στις λεπτομέρειες.
+Αν χρειάζεστε να **create bulleted list OneNote** προγραμματιστικά, το Aspose.Note for Java σας παρέχει ένα καθαρό, εύχρηστο API που διαχειρίζεται όλα τα εσωτερικά στοιχεία του OneNote για εσάς. Σε αυτό το tutorial θα περάσουμε βήμα προς βήμα τις ακριβείς ενέργειες για να ορίσετε κουκκίδες σε Java, να τις προσθέσετε σε ένα περίγραμμα και τελικά να **save OneNote document as PDF**. Στο τέλος θα έχετε ένα έτοιμο κομμάτι κώδικα που μπορείτε να ενσωματώσετε σε οποιοδήποτε έργο Java.
+
+## Γρήγορες Απαντήσεις
+- **What does Aspose.Note do?** Σας επιτρέπει να δημιουργείτε, επεξεργάζεστε και μετατρέπετε αρχεία OneNote χωρίς να εγκαταστήσετε το OneNote.  
+- **Can I set bullet points with Java?** Ναι – χρησιμοποιήστε το `NumberList` για να ορίσετε το στυλ της κουκκίδας.  
+- **How do I export to PDF?** Καλέστε το `doc.save(...".pdf")` μετά τη δημιουργία της σελίδας.  
+- **Do I need a license for development?** Μια δωρεάν δοκιμαστική έκδοση λειτουργεί για δοκιμές· απαιτείται άδεια για παραγωγή.  
+- **Which IDEs are supported?** Οποιοδήποτε Java IDE όπως το Eclipse, IntelliJ IDEA ή VS Code.
+
+## Τι είναι το “create bulleted list OneNote”;
+Η δημιουργία λίστας με κουκκίδες στο OneNote σημαίνει την προσθήκη μιας σειράς στοιχείων περιγράμματος όπου κάθε στοιχείο αρχίζει με χαρακτήρα κουκκίδας (π.χ., “*”). Αυτή η δομή βελτιώνει την αναγνωσιμότητα και μιμείται τον τρόπο με τον οποίο οι χρήστες προσθέτουν χειροκίνητα λίστες μέσα στη διεπαφή του OneNote.
+
+## Γιατί να χρησιμοποιήσετε το Aspose.Note for Java για να ορίσετε κουκκίδες;
+- **No OneNote installation required** – λειτουργεί σε διακομιστές και CI pipelines.  
+- **Full control over styling** – η γραμματοσειρά, το μέγεθος, το χρώμα και ο χαρακτήρας της κουκκίδας είναι όλα ρυθμιζόμενα.  
+- **Direct PDF export** – δημιουργήστε ένα PDF με μία γραμμή κώδικα, ιδανικό για αναφορές ή αρχειοθέτηση.  
+
 ## Προαπαιτούμενα
-Πριν ξεκινήσουμε, βεβαιωθείτε ότι έχετε τις ακόλουθες προϋποθέσεις:
-- Βασικές γνώσεις προγραμματισμού Java.
--  Εγκαταστάθηκε το Aspose.Note για τη βιβλιοθήκη Java. Μπορείτε να το κατεβάσετε από το[Aspose.Note for Java Documentation](https://reference.aspose.com/note/java/).
-- Ένα Java Integrated Development Environment (IDE) έχει ρυθμιστεί στον υπολογιστή σας.
-## Εισαγωγή πακέτων
-Ξεκινήστε εισάγοντας τα απαραίτητα πακέτα στο έργο σας Java. Αυτό διασφαλίζει ότι έχετε πρόσβαση στις λειτουργίες Aspose.Note για Java.
+Πριν ξεκινήσουμε, βεβαιωθείτε ότι έχετε:
+
+- Βασικές γνώσεις προγραμματισμού Java.  
+- Βιβλιοθήκη Aspose.Note for Java εγκατεστημένη – κατεβάστε την από την [Aspose.Note for Java Documentation](https://reference.aspose.com/note/java/).  
+- Ένα Java IDE (Eclipse, IntelliJ IDEA κ.λπ.) εγκατεστημένο στον υπολογιστή σας.
+
+## Εισαγωγή Πακέτων
+Ξεκινήστε εισάγοντας τα απαραίτητα πακέτα στο έργο Java σας. Αυτό σας δίνει πρόσβαση σε όλες τις κλάσεις Aspose.Note που θα χρησιμοποιήσουμε.
+
 ```java
 import java.awt.Color;
 import java.io.IOException;
@@ -32,75 +54,108 @@ import com.aspose.note.OutlineElement;
 import com.aspose.note.Page;
 import com.aspose.note.RichText;
 import com.aspose.note.ParagraphStyle;
-// Εισαγωγή Aspose.Note για πακέτα Java
+// Import Aspose.Note for Java packages
 ```
-## Βήμα 1: Αρχικοποίηση εγγράφου και σελίδας
-Δημιουργήστε ένα αντικείμενο της κλάσης Document και αρχικοποιήστε ένα αντικείμενο κλάσης Page.
+
+## Βήμα 1: Αρχικοποίηση Document και Page
+Δημιουργήστε ένα αντικείμενο `Document` και ένα `Page` όπου θα βρίσκεται το περίγραμμα.
+
 ```java
 String dataDir = "Your Document Directory";
-// δημιουργήστε ένα αντικείμενο της κλάσης Document
+// create an object of the Document class
 Document doc = new Document();
-// αρχικοποίηση αντικειμένου κλάσης σελίδας
+// initialize Page class object
 Page page = new Page();
 ```
-## Βήμα 2: Αρχικοποίηση Outline και TextStyle
-Τώρα, αρχικοποιήστε ένα αντικείμενο κλάσης Outline και ένα αντικείμενο κλάσης TextStyle με ιδιότητες μορφοποίησης.
+
+## Βήμα 2: Αρχικοποίηση Outline και TextStyle (set bullet points java)
+Θα δημιουργήσουμε ένα κοντέινερ `Outline` και θα ορίσουμε ένα προεπιλεγμένο `ParagraphStyle`. Εδώ είναι που **set bullet points java**‑style μορφοποίηση.
+
 ```java
-// αρχικοποίηση αντικειμένου κλάσης Outline
+// initialize Outline class object
 Outline outline = new Outline();
-// αρχικοποίηση αντικειμένου κλάσης TextStyle και ορισμός ιδιοτήτων μορφοποίησης
+// initialize TextStyle class object and set formatting properties
 ParagraphStyle defaultStyle = new ParagraphStyle()
                                     .setFontColor(Color.black)
                                     .setFontName("Arial")
                                     .setFontSize(10);
 ```
-## Βήμα 3: Δημιουργήστε στοιχεία λίστας με κουκκίδες
-Δημιουργήστε αντικείμενα κλάσης OutlineElement και εφαρμόστε κουκκίδες για να δημιουργήσετε μια λίστα με κουκκίδες.
+
+## Βήμα 3: Δημιουργία Στοιχείων Λίστας με Κουκκίδες
+Δημιουργήστε ξεχωριστά αντικείμενα `OutlineElement`, συνδέστε ένα `NumberList` που ορίζει τον χαρακτήρα της κουκκίδας και προσθέστε το κείμενο.
+
 ```java
-// αρχικοποιήστε αντικείμενα κλάσης OutlineElement και εφαρμόστε κουκκίδες
+// initialize OutlineElement class objects and apply bullets
 OutlineElement outlineElem1 = new OutlineElement();
 outlineElem1.setNumberList(new NumberList("*", "Arial", 10));
-// αρχικοποιήστε το αντικείμενο κλάσης RichText και εφαρμόστε στυλ κειμένου
+// initialize RichText class object and apply text style
 RichText text1 = new RichText().append("First");
 text1.setParagraphStyle(defaultStyle);
 outlineElem1.appendChildLast(text1);
 ```
-Επαναλάβετε τα παραπάνω βήματα για κάθε στοιχείο στη λίστα με κουκκίδες.
-## Βήμα 4: Προσθέστε στοιχεία περιγράμματος στο περίγραμμα
-Προσθέστε τα δημιουργημένα αντικείμενα OutlineElement στο Outline.
+
+*Επαναλάβετε το παραπάνω μπλοκ για κάθε επιπλέον κουκκίδα που χρειάζεστε (π.χ., `outlineElem2`, `outlineElem3`).*
+
+## Βήμα 4: Προσθήκη Στοιχείων Outline στο Outline
+Συλλέξτε όλα τα στοιχεία κουκκίδας στο γονικό `Outline`.
+
 ```java
-// προσθέστε στοιχεία περιγράμματος
+// add outline elements
 outline.appendChildLast(outlineElem1);
 outline.appendChildLast(outlineElem2);
 outline.appendChildLast(outlineElem3);
 ```
-## Βήμα 5: Προσθέστε περίγραμμα στη σελίδα και αποθηκεύστε
-Προσθέστε τον κόμβο Περίγραμμα στη Σελίδα και, στη συνέχεια, προσθέστε τον κόμβο Σελίδας στο Έγγραφο. Τέλος, αποθηκεύστε το έγγραφο.
+
+## Βήμα 5: Προσθήκη Outline στη Σελίδα και Αποθήκευση (save OneNote document as PDF)
+Συνδέστε το `Outline` με το `Page`, προσθέστε τη σελίδα στο `Document` και τελικά **save OneNote document as PDF**.
+
 ```java
-// προσθήκη κόμβου Outline
+// add Outline node
 page.appendChildLast(outline);
-// προσθήκη κόμβου σελίδας
+// add Page node
 doc.appendChildLast(page);
-// αποθηκεύστε το έγγραφο
+// save the document
 doc.save(dataDir + "CreateBulletedList_out.pdf");
 ```
-Συγχαρητήρια! Δημιουργήσατε με επιτυχία μια λίστα με κουκκίδες στο OneNote χρησιμοποιώντας το Aspose.Note για Java.
-## συμπέρασμα
-Το Aspose.Note για Java απλοποιεί τη διαδικασία δημιουργίας καλά μορφοποιημένων εγγράφων. Αυτός ο οδηγός σας καθοδήγησε στα βήματα για τη δημιουργία μιας λίστας με κουκκίδες στο OneNote. Εξερευνήστε περισσότερες δυνατότητες με το Aspose.Note για να βελτιώσετε την εμπειρία δημιουργίας εγγράφων.
-## Συχνές ερωτήσεις
-### Είναι το Aspose.Note για Java συμβατό με όλα τα Java IDE;
-Ναι, το Aspose.Note για Java είναι συμβατό με δημοφιλή Java Integrated Development Environments όπως το Eclipse και το IntelliJ IDEA.
-### Μπορώ να προσαρμόσω τη μορφοποίηση της λίστας με κουκκίδες;
-Απολύτως! Μπορείτε να τροποποιήσετε τη γραμματοσειρά, το χρώμα και το μέγεθος των στοιχείων της λίστας με κουκκίδες σύμφωνα με τις προτιμήσεις σας.
-### Πού μπορώ να βρω πρόσθετη υποστήριξη για το Aspose.Note για Java;
- Επισκέψου το[Aspose.Note για το φόρουμ υποστήριξης Java](https://forum.aspose.com/c/note/28) για βοήθεια από την κοινότητα.
-### Υπάρχει διαθέσιμη δωρεάν δοκιμή για το Aspose.Note για Java;
- Ναι, μπορείτε να εξερευνήσετε μια δωρεάν δοκιμαστική έκδοση[εδώ](https://releases.aspose.com/).
-### Πώς μπορώ να αποκτήσω μια προσωρινή άδεια χρήσης για το Aspose.Note για Java;
- Πάρτε μια προσωρινή άδεια[εδώ](https://purchase.aspose.com/temporary-license/).
+
+Συγχαρητήρια! Έχετε τώρα προγραμματιστικά **create bulleted list OneNote** και το εξάγετε σε PDF χρησιμοποιώντας το Aspose.Note for Java.
+
+## Συχνά Προβλήματα και Λύσεις
+| Πρόβλημα | Λύση |
+|----------|------|
+| `outlineElem2` ή `outlineElem3` δεν ορίζονται | Βεβαιωθείτε ότι έχετε αντιγράψει το μπλοκ κώδικα από το Βήμα 3 για κάθε επιπλέον κουκκίδα και μετονομάστε τις μεταβλητές αναλόγως. |
+| Το αρχείο PDF δεν δημιουργήθηκε | Επαληθεύστε ότι το `dataDir` δείχνει σε φάκελο με δυνατότητα εγγραφής και ότι έχετε δικαιώματα εγγραφής. |
+| Το στυλ της κουκκίδας φαίνεται διαφορετικό | Ρυθμίστε τις παραμέτρους του κατασκευαστή `NumberList` (γραμματοσειρά, μέγεθος ή χαρακτήρας) ώστε να ταιριάζουν με την επιθυμητή εμφάνιση. |
+
+## Συχνές Ερωτήσεις
+
+**Q: Is Aspose.Note for Java compatible with all Java IDEs?**  
+A: Ναι, λειτουργεί με Eclipse, IntelliJ IDEA, NetBeans και οποιοδήποτε IDE που υποστηρίζει τυπικά έργα Java.
+
+**Q: Can I customize the formatting of the bulleted list?**  
+A: Απόλυτα! Μπορείτε να αλλάξετε τη γραμματοσειρά, το χρώμα, το μέγεθος και ακόμη να χρησιμοποιήσετε προσαρμοσμένα σύμβολα Unicode τροποποιώντας τις παραμέτρους του `NumberList`.
+
+**Q: Where can I find additional support for Aspose.Note for Java?**  
+A: Visit the [Aspose.Note for Java support forum](https://forum.aspose.com/c/note/28) for community help and official assistance.
+
+**Q: Is there a free trial available for Aspose.Note for Java?**  
+A: Yes, you can explore a free trial version [here](https://releases.aspose.com/).
+
+**Q: How can I obtain a temporary license for Aspose.Note for Java?**  
+A: Get a temporary license [here](https://purchase.aspose.com/temporary-license/).
+
+## Συμπέρασμα
+Το Aspose.Note for Java καθιστά εύκολο το **create bulleted list OneNote**, το στυλ κάθε κουκκίδας, και το **save OneNote document as PDF** σε λίγα σύντομα βήματα. Μη διστάσετε να πειραματιστείτε με διαφορετικούς χαρακτήρες κουκκίδας, γραμματοσειρές και χρώματα για να ταιριάζουν με τη γλώσσα σχεδίασης της εφαρμογής σας. Εξερευνήστε άλλες δυνατότητες του Aspose.Note όπως πίνακες, εικόνες και υπερσυνδέσμους για να δημιουργήσετε πιο πλούσιο περιεχόμενο OneNote.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
+
+---
+
+**Last Updated:** 2026-03-03  
+**Tested With:** Aspose.Note for Java 24.11  
+**Author:** Aspose

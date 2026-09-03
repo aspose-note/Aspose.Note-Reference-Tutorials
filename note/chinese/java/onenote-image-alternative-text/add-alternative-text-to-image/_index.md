@@ -88,7 +88,7 @@ Page page = new Page();
 ### 步骤 4：向页面添加图像
 
 ```java
-Image image = new Image(null, dataDir + "image.jpg");
+Image image = new Image(dataDir + "image.jpg");
 ```
 
 `Image` 构造函数会从指定路径加载图像文件。这一步就是 **追加图像到 OneNote** 的时机。
@@ -168,8 +168,8 @@ document.save(dataDir + "AlternativeText_out.one");
 
 ---
 
-**最后更新：** 2026-03-21  
-**测试环境：** Aspose.Note for Java 24.11  
+**最后更新：** 2025-12-23  
+**测试环境：** Aspose.Note for Java 26.4  
 **作者：** Aspose  
 
 {{< /blocks/products/pf/tutorial-page-section >}}

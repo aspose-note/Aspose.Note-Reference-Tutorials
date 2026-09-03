@@ -32,7 +32,7 @@ Trước khi bắt đầu, hãy đảm bảo rằng bạn đã chuẩn bị các
 
 ### Đã cài đặt Bộ công cụ phát triển Java (JDK)
 
-Bạn cần có một JDK mới. Tải xuống từ [trang web Java](https://www.oracle.com/java/technologists/javase-jdk15-downloads.html).
+Bạn cần có một JDK mới. Tải xuống từ [trang web Java](https://www.oracle.com/java/technologies/downloads/).
 
 ### Aspose.Note cho Thư viện Java
 
@@ -120,7 +120,7 @@ A: Thư viện hoạt động với Java 8 và các phiên bản sau.
 ---
 
 **Cập nhật lần cuối:** 2025-12-31
-**Đã thử nghiệm với:** Aspose.Note dành cho Java 24.12
+**Đã thử nghiệm với:** Aspose.Note dành cho Java 26.4
 **Tác giả:** Giả định  
 
 ---

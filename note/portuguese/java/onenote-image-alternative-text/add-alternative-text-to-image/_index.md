@@ -87,7 +87,7 @@ Uma página funciona como uma tela para a imagem e quaisquer outros elementos qu
 ### Passo 4: Adicionar uma Imagem à Página
 
 ```java
-Image image = new Image(null, dataDir + "image.jpg");
+Image image = new Image(dataDir + "image.jpg");
 ```
 
 O construtor `Image` carrega o arquivo de imagem a partir do caminho especificado. Este é o ponto onde você **anexará imagem onenote**.
@@ -167,8 +167,8 @@ Seguindo este guia, você agora sabe **como criar documento OneNote**, **anexar 
 
 ---
 
-**Última atualização:** 2026-03-21  
-**Testado com:** Aspose.Note for Java 24.11  
+**Última Atualização:** 2025-12-23  
+**Testado com:** Aspose.Note for Java 26.4  
 **Autor:** Aspose  
 
 {{< /blocks/products/pf/tutorial-page-section >}}

@@ -88,7 +88,7 @@ Page page = new Page();
 ### Βήμα 4: Προσθήκη εικόνας στη σελίδα
 
 ```java
-Image image = new Image(null, dataDir + "image.jpg");
+Image image = new Image(dataDir + "image.jpg");
 ```
 
 Ο κατασκευαστής `Image` φορτώνει το αρχείο εικόνας από τη συγκεκριμένη διαδρομή. Αυτό είναι το σημείο όπου θα **append image onenote**.
@@ -168,8 +168,8 @@ A: Ναι. Φορτώστε το υπάρχον έγγραφο με `new Documen
 
 ---
 
-**Τελευταία ενημέρωση:** 2026-03-21  
-**Δοκιμή με:** Aspose.Note for Java 24.11  
+**Τελευταία ενημέρωση:** 2025-12-23  
+**Δοκιμή με:** Aspose.Note for Java 26.4  
 **Συγγραφέας:** Aspose  
 
 {{< /blocks/products/pf/tutorial-page-section >}}

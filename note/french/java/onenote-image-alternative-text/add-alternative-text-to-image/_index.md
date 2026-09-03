@@ -89,7 +89,7 @@ Une page agit comme une toile pour l’image et tout autre élément que vous so
 ### Étape 4 : Ajouter une image à la page
 
 ```java
-Image image = new Image(null, dataDir + "image.jpg");
+Image image = new Image(dataDir + "image.jpg");
 ```
 
 Le constructeur `Image` charge le fichier image depuis le chemin spécifié. C’est à ce moment‑ci que vous **append image onenote**.
@@ -169,9 +169,9 @@ En suivant ce guide, vous savez maintenant **comment créer un document OneNote*
 
 ---
 
-**Dernière mise à jour :** 2026-03-21  
-**Testé avec :** Aspose.Note for Java 24.11  
-**Auteur :** Aspose  
+**Dernière mise à jour :** 23/12/2025
+**Testé avec :** Aspose.Note pour Java 26.4
+**Auteur :** Aspose  
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

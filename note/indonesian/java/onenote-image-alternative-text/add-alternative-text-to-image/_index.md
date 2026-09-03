@@ -90,7 +90,7 @@ Sebuah halaman berfungsi sebagai kanvas untuk gambar dan elemen lain yang mungki
 ### Langkah 4: Tambahkan Gambar ke Halaman
 
 ```java
-Image image = new Image(null, dataDir + "image.jpg");
+Image image = new Image(dataDir + "image.jpg");
 ```
 
 Konstruktor `Image` memuat file gambar dari jalur yang ditentukan. Ini adalah titik di mana Anda akan **menambahkan gambar onenote**.
@@ -170,8 +170,8 @@ Dengan mengikuti panduan ini Anda kini tahu **cara membuat dokumen OneNote**, **
 
 ---
 
-**Terakhir Diperbarui:** 2026-03-21  
-**Diuji Dengan:** Aspose.Note for Java 24.11  
+**Terakhir Diperbarui:** 2025-12-23  
+**Diuji Dengan:** Aspose.Note for Java 26.4  
 **Penulis:** Aspose  
 
 {{< /blocks/products/pf/tutorial-page-section >}}

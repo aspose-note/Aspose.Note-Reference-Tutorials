@@ -41,7 +41,7 @@ Aspose.Note.Document doc = new Aspose.Note.Document();
 // Инициализировать объект класса страницы
 Aspose.Note.Page page = new Aspose.Note.Page(doc);
 // Инициализировать объект класса Outline
-Outline outline = new Outline(doc);
+Outline outline = new Outline();
 ```
 ## Шаг 3. Установите стиль текста по умолчанию
 ```csharp
@@ -51,8 +51,8 @@ ParagraphStyle defaultStyle = new ParagraphStyle { FontColor = Color.Black, Font
 ## Шаг 4. Создайте элементы контура с помощью маркеров
 ```csharp
 // Инициализируйте объекты класса OutlineElement и примените маркеры.
-OutlineElement outlineElem1 = new OutlineElement(doc) { NumberList = new NumberList("*", "Arial", 10) };
-RichText text1 = new RichText(doc) { Text = "First", ParagraphStyle = defaultStyle };
+OutlineElement outlineElem1 = new OutlineElement() { NumberList = new NumberList("*", "Arial", 10) };
+RichText text1 = new RichText() { Text = "First", ParagraphStyle = defaultStyle };
 outlineElem1.AppendChildLast(text1);
 // Повторите эти действия для других элементов контура.
 ```

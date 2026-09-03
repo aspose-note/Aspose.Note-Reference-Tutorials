@@ -71,7 +71,7 @@ String dataDir = "Your Document Directory";
 Tạo một đối tượng `Notebook` trỏ tới tệp `.onetoc2` hiện có.
 
 ```java
-Notebook notebook = new Notebook(dataDir + "Notizbuch �ffnen.onetoc2");
+Notebook notebook = new Notebook(dataDir + "Notebook.onetoc2");
 ```
 
 Nếu không tìm thấy tệp, một `IOException` sẽ được ném—đảm bảo tên tệp và đường dẫn là chính xác.
@@ -142,8 +142,8 @@ Trong hướng dẫn này, chúng tôi đã trình bày cách **how to add oneno
 
 ---
 
-**Cập nhật lần cuối:** 2026-03-21  
-**Kiểm thử với:** Aspose.Note for Java 24.11  
+**Cập nhật lần cuối:** 2025-12-25  
+**Kiểm tra với:** Aspose.Note for Java 26.4  
 **Tác giả:** Aspose  
 
 {{< /blocks/products/pf/tutorial-page-section >}}

@@ -53,7 +53,7 @@ OneNote belgesinin içeriğini yapılandırmak için Sayfa ve Anahat nesneleri o
 
 ```csharp
 Aspose.Note.Page page = new Aspose.Note.Page(doc);
-Outline outline = new Outline(doc);
+Outline outline = new Outline();
 ```
 
 ## 3. Adım: Etiketli Metin Düğümü Ekleme
@@ -61,9 +61,9 @@ Outline outline = new Outline(doc);
 İstediğiniz metin ve stille bir RichText nesnesi oluşturun ve ardından onu OutlineElement'e ekleyin.
 
 ```csharp
-OutlineElement outlineElem = new OutlineElement(doc);
+OutlineElement outlineElem = new OutlineElement();
 ParagraphStyle textStyle = new ParagraphStyle { FontColor = Color.Black, FontName = "Arial", FontSize = 10 };
-RichText text = new RichText(doc) { Text = "OneNote text.", ParagraphStyle = textStyle };
+RichText text = new RichText() { Text = "OneNote text.", ParagraphStyle = textStyle };
 text.Tags.Add(NoteTag.CreateYellowStar());
 outlineElem.AppendChildLast(text);
 ```

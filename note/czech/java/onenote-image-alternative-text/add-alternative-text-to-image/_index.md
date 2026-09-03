@@ -89,7 +89,7 @@ Stránka slouží jako plátno pro obrázek a jakékoli další prvky, které ch
 ### Krok 4: Přidání obrázku na stránku
 
 ```java
-Image image = new Image(null, dataDir + "image.jpg");
+Image image = new Image(dataDir + "image.jpg");
 ```
 
 Konstruktor `Image` načte soubor obrázku ze zadané cesty. Toto je místo, kde **přidáte obrázek onenote**.
@@ -169,8 +169,8 @@ Po absolvování tohoto průvodce nyní víte **jak vytvořit dokument OneNote**
 
 ---
 
-**Poslední aktualizace:** 2026-03-21  
-**Testováno s:** Aspose.Note for Java 24.11  
+**Poslední aktualizace:** 2025-12-23  
+**Testováno s:** Aspose.Note for Java 26.4  
 **Autor:** Aspose  
 
 {{< /blocks/products/pf/tutorial-page-section >}}

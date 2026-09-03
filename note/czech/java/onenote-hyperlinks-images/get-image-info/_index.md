@@ -32,7 +32,7 @@ Než se ponoříme do implementace, ujistěte se, že máte následující před
 
 ### 1. Java Development Kit (JDK)
 
-Ujistěte se, že máte nainstalovaný Java Development Kit (JDK) na svém systému. Nejnovější JDK si můžete stáhnout a nainstalovat z [Oracle website](https://www.oracle.com/java/technologies/javase-jdk15-downloads.html).
+Ujistěte se, že máte nainstalovaný Java Development Kit (JDK) na svém systému. Nejnovější JDK si můžete stáhnout a nainstalovat z [Oracle website](https://www.oracle.com/java/technologies/downloads/).
 
 ### 2. Aspose.Note for Java Library
 
@@ -147,7 +147,7 @@ Postupováním podle kroků uvedených v tomto tutoriálu můžete efektivně **
 ---
 
 **Poslední aktualizace:** 2025-12-21  
-**Testováno s:** Aspose.Note for Java 23.12  
+**Testováno s:** Aspose.Note for Java 26.4  
 **Autor:** Aspose  
 
 ---

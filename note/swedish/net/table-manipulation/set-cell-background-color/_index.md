@@ -49,7 +49,7 @@ Document doc = new Document();
 Skapa ett TableCell-objekt och ställ in dess textinnehåll tillsammans med bakgrundsfärg:
 
 ```csharp
-TableCell cell11 = new TableCell(doc);
+TableCell cell11 = new TableCell();
 cell11.AppendChildLast(InsertTable.GetOutlineElementWithText(doc, "Small text"));
 cell11.BackgroundColor = Color.Coral;
 ```
@@ -59,7 +59,7 @@ cell11.BackgroundColor = Color.Coral;
 Initiera ett TableRow-objekt och lägg till den tidigare skapade cellen:
 
 ```csharp
-TableRow row = new TableRow(doc);
+TableRow row = new TableRow();
 row.AppendChildLast(cell11);
 ```
 
@@ -68,7 +68,7 @@ row.AppendChildLast(cell11);
 Skapa en tabell med specificerade kolumner och gör dess gränser synliga:
 
 ```csharp
-Table table = new Table(doc)
+Table table = new Table()
 {
     IsBordersVisible = true,
     Columns = { new TableColumn() { Width = 200 } }
@@ -81,13 +81,13 @@ table.AppendChildLast(row);
 Skapa ett dispositionselement och en sida och lägg till tabellen på sidan:
 
 ```csharp
-OutlineElement oe = new OutlineElement(doc);
+OutlineElement oe = new OutlineElement();
 oe.AppendChildLast(table);
 
-Outline o = new Outline(doc);
+Outline o = new Outline();
 o.AppendChildLast(oe);
 
-Page page = new Page(doc);
+Page page = new Page();
 page.AppendChildLast(o);
 
 doc.AppendChildLast(page);

@@ -71,7 +71,7 @@ String dataDir = "Your Document Directory";
 أنشئ كائن `Notebook` يشير إلى ملف `.onetoc2` الموجود.
 
 ```java
-Notebook notebook = new Notebook(dataDir + "Notizbuch �ffnen.onetoc2");
+Notebook notebook = new Notebook(dataDir + "Notebook.onetoc2");
 ```
 
 إذا تعذر العثور على الملف، سيتم إلقاء استثناء `IOException`—تأكد من صحة اسم الملف والمسار.
@@ -142,8 +142,8 @@ Aspose.Note for Java يدعم إصدارات مختلفة من OneNote، مما 
 
 ---
 
-**آخر تحديث:** 2026-03-21  
-**تم الاختبار مع:** Aspose.Note for Java 24.11  
+**آخر تحديث:** 2025-12-25  
+**تم الاختبار مع:** Aspose.Note for Java 26.4  
 **المؤلف:** Aspose  
 
 {{< /blocks/products/pf/tutorial-page-section >}}

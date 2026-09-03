@@ -49,7 +49,7 @@ Document doc = new Document();
 Tạo một đối tượng TableCell và đặt nội dung văn bản của nó cùng với màu nền:
 
 ```csharp
-TableCell cell11 = new TableCell(doc);
+TableCell cell11 = new TableCell();
 cell11.AppendChildLast(InsertTable.GetOutlineElementWithText(doc, "Small text"));
 cell11.BackgroundColor = Color.Coral;
 ```
@@ -59,7 +59,7 @@ cell11.BackgroundColor = Color.Coral;
 Khởi tạo một đối tượng TableRow và nối thêm ô đã tạo trước đó:
 
 ```csharp
-TableRow row = new TableRow(doc);
+TableRow row = new TableRow();
 row.AppendChildLast(cell11);
 ```
 
@@ -68,7 +68,7 @@ row.AppendChildLast(cell11);
 Tạo một bảng với các cột được chỉ định và hiển thị đường viền của nó:
 
 ```csharp
-Table table = new Table(doc)
+Table table = new Table()
 {
     IsBordersVisible = true,
     Columns = { new TableColumn() { Width = 200 } }
@@ -81,13 +81,13 @@ table.AppendChildLast(row);
 Tạo một phần tử và trang phác thảo, rồi nối bảng vào trang:
 
 ```csharp
-OutlineElement oe = new OutlineElement(doc);
+OutlineElement oe = new OutlineElement();
 oe.AppendChildLast(table);
 
-Outline o = new Outline(doc);
+Outline o = new Outline();
 o.AppendChildLast(oe);
 
-Page page = new Page(doc);
+Page page = new Page();
 page.AppendChildLast(o);
 
 doc.AppendChildLast(page);

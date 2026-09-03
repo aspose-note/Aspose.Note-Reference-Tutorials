@@ -45,7 +45,7 @@ Let's dive into the conversion process. We'll break down each step into manageab
 string dataDir = "Your Document Directory";
 
 // Load a OneNote Notebook
-var notebook = new Notebook(dataDir + "Notizbuch öffnen.onetoc2");
+var notebook = new Notebook(dataDir + "Notebook.onetoc2");
 ```
 
 In this step, we specify the directory where our notebook file is located and load it into our application using the `Notebook` class provided by Aspose.Note.

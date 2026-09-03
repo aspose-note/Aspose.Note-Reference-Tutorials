@@ -140,8 +140,10 @@ A4: はい、[here](https://releases.aspose.com/) から無料トライアル版
 **Q5: Aspose.Note for Java のサポートはどこで見つけられますか？**  
 A5: Aspose.Note フォーラム [here](https://forum.aspose.com/c/note/28) でサポートとリソースを確認できます。
 
-**最終更新日:** 2026-03-21  
-**テスト環境:** Aspose.Note for Java 24.12  
+---
+
+**最終更新日:** 2025-12-25  
+**テスト環境:** Aspose.Note for Java 26.4  
 **作者:** Aspose  
 
 {{< /blocks/products/pf/tutorial-page-section >}}

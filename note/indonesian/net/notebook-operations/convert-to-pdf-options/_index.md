@@ -50,7 +50,7 @@ Pertama, kita perlu memuat buku catatan OneNote yang ingin kita ubah menjadi fil
 string dataDir = "Your Document Directory";
 
 // Memuat Buku Catatan OneNote
-var notebook = new Notebook(dataDir + "Notizbuch �ffnen.onetoc2");
+var notebook = new Notebook(dataDir + "Notebook.onetoc2");
 ```
 
 ## Langkah 2: Tentukan Opsi Penyimpanan PDF

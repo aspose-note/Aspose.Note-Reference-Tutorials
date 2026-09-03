@@ -87,7 +87,7 @@ Congratulazioni! Hai creato con successo una tabella con colonne bloccate in One
 In questo tutorial, abbiamo esplorato il processo di utilizzo di Aspose.Note per Java per migliorare la tua esperienza su OneNote creando tabelle con colonne bloccate. Questa funzionalità aggiunge un nuovo livello di organizzazione e struttura alle tue note.
 ## Domande frequenti
 ### Aspose.Note per Java è compatibile con tutte le versioni Java?
-Sì, Aspose.Note per Java è compatibile con Java 6 e versioni successive.
+Sì, Aspose.Note per Java è compatibile con Java SE 7 e versioni successive.
 ### Posso personalizzare ulteriormente l'aspetto della tabella?
 Assolutamente! Aspose.Note per Java fornisce ampie opzioni per personalizzare le tabelle, come la regolazione dei bordi, la spaziatura delle celle e altro.
 ### È disponibile una versione di prova prima dell'acquisto?

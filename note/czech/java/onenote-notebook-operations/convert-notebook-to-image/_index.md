@@ -21,7 +21,7 @@ V tomto tutoriálu prozkoumáme, jak převést poznámkový blok na obrázek ve 
 
 Než začneme, ujistěte se, že máte následující:
 
-1.  Java Development Kit (JDK): Ujistěte se, že máte v systému nainstalovanou Javu. Nejnovější verzi si můžete stáhnout a nainstalovat z[webová stránka](https://www.oracle.com/java/technologies/javase-jdk15-downloads.html).
+1.  Java Development Kit (JDK): Ujistěte se, že máte v systému nainstalovanou Javu. Nejnovější verzi si můžete stáhnout a nainstalovat z[webová stránka](https://www.oracle.com/java/technologies/downloads/).
 
 2.  Aspose.Note for Java Library: Stáhněte si a zahrňte knihovnu Aspose.Note for Java do svého projektu. Knihovnu můžete získat z[Aspose webové stránky](https://releases.aspose.com/note/java/).
 

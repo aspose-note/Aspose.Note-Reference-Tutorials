@@ -89,7 +89,7 @@ Bir sayfa, görüntü ve eklemek isteyebileceğiniz diğer öğeler için bir tu
 ### Adım 4: Sayfaya Bir Görüntü Ekleme
 
 ```java
-Image image = new Image(null, dataDir + "image.jpg");
+Image image = new Image(dataDir + "image.jpg");
 ```
 
 `Image` yapıcı metodu, belirtilen yoldan görüntü dosyasını yükler. İşte **OneNote'a görüntü ekleme** (append image onenote) noktasına geldiğiniz yer.
@@ -169,8 +169,8 @@ Bu kılavuzu izleyerek artık Java kullanarak **OneNote belgesi oluşturmayı**,
 
 ---
 
-**Son Güncelleme:** 2026-03-21  
-**Test Edilen Versiyon:** Aspose.Note for Java 24.11  
+**Son Güncelleme:** 2025-12-23
+**Test Edildiği Sürüm:** Aspose.Note for Java 26.4
 **Yazar:** Aspose  
 
 {{< /blocks/products/pf/tutorial-page-section >}}

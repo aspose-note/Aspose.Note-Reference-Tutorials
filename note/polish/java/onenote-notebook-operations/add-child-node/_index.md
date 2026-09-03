@@ -71,7 +71,7 @@ String dataDir = "Your Document Directory";
 Utwórz obiekt `Notebook`, który wskazuje na istniejący plik `.onetoc2`.
 
 ```java
-Notebook notebook = new Notebook(dataDir + "Notizbuch �ffnen.onetoc2");
+Notebook notebook = new Notebook(dataDir + "Notebook.onetoc2");
 ```
 
 Jeśli plik nie zostanie znaleziony, zostanie wyrzucony `IOException` — upewnij się, że nazwa pliku i ścieżka są poprawne.
@@ -142,8 +142,8 @@ W tym tutorialu omówiliśmy **jak dodać węzeł podrzędny OneNote** przy uży
 
 ---
 
-**Ostatnia aktualizacja:** 2026-03-21  
-**Testowano z:** Aspose.Note dla Javy 24.11  
+**Ostatnia aktualizacja:** 2025-12-25  
+**Testowane z:** Aspose.Note dla Javy 26.4  
 **Autor:** Aspose  
 
 {{< /blocks/products/pf/tutorial-page-section >}}

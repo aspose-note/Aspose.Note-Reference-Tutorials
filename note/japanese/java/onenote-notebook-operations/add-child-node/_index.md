@@ -70,7 +70,7 @@ String dataDir = "Your Document Directory";
 既存の `.onetoc2` ファイルを指す `Notebook` オブジェクトを作成します。
 
 ```java
-Notebook notebook = new Notebook(dataDir + "Notizbuch �ffnen.onetoc2");
+Notebook notebook = new Notebook(dataDir + "Notebook.onetoc2");
 ```
 
 ファイルが見つからない場合は `IOException` がスローされますので、ファイル名とパスが正しいことを確認してください。
@@ -141,8 +141,8 @@ A7: 読み取り専用ノートブックに変更を保存しようとすると 
 
 ---
 
-**最終更新日:** 2026-03-21  
-**テスト環境:** Aspose.Note for Java 24.11  
+**最終更新日:** 2025年12月25日
+**テスト環境:** Aspose.Note for Java 26.4
 **作成者:** Aspose  
 
 {{< /blocks/products/pf/tutorial-page-section >}}

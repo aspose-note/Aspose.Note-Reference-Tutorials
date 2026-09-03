@@ -84,7 +84,7 @@ OutlineElement outlineElem = new OutlineElement();
 Instansiera ett `AttachedFile` med den fullständiga sökvägen till filen du vill bädda in:
 
 ```java
-AttachedFile attachedFile = new AttachedFile(null, dataDir + "attachment.txt");
+AttachedFile attachedFile = new AttachedFile(dataDir + "attachment.txt");
 ```
 
 Ändra `"attachment.txt"` till namnet på den fil du vill bifoga (java code attach file).
@@ -166,7 +166,7 @@ A: En giltig Aspose.Note‑licens krävs för produktionsmiljöer; en gratis pro
 ---
 
 **Senast uppdaterad:** 2025-12-25  
-**Testad med:** Aspose.Note för Java 24.11  
+**Testad med:** Aspose.Note för Java 26.4  
 **Författare:** Aspose
 
 {{< /blocks/products/pf/tutorial-page-section >}}

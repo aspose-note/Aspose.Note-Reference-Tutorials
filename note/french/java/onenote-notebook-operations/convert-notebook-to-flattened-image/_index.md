@@ -143,9 +143,9 @@ R5 : Vous pouvez trouver du support et des ressources sur le forum Aspose.Note
 
 ---
 
-**Last Updated:** 2026-03-21  
-**Tested With:** Aspose.Note for Java 24.12  
-**Author:** Aspose  
+**Dernière mise à jour :** 2025-12-25  
+**Testé avec :** Aspose.Note for Java 26.4  
+**Auteur :** Aspose  
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

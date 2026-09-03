@@ -143,8 +143,8 @@ A5: Du kan hitta support och resurser på Aspose.Note‑forumet [here](https://f
 
 ---
 
-**Senast uppdaterad:** 2026-03-21  
-**Testad med:** Aspose.Note för Java 24.12  
+**Senast uppdaterad:** 2025-12-25  
+**Testad med:** Aspose.Note för Java 26.4  
 **Författare:** Aspose  
 
 {{< /blocks/products/pf/tutorial-page-section >}}

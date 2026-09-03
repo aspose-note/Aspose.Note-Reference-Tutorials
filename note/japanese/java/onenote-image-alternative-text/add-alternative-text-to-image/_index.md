@@ -88,7 +88,7 @@ Page page = new Page();
 ### Step 4: Add an Image to the Page
 
 ```java
-Image image = new Image(null, dataDir + "image.jpg");
+Image image = new Image(dataDir + "image.jpg");
 ```
 
 `Image` コンストラクタは指定されたパスから画像ファイルを読み込みます。ここが **画像の onenote への追加** のポイントです。
@@ -168,8 +168,8 @@ A: Yes. Load the existing document with `new Document(<filePath>)`, then follow 
 
 ---
 
-**Last Updated:** 2026-03-21  
-**Tested With:** Aspose.Note for Java 24.11  
+**Last Updated:** 2025-12-23  
+**Tested With:** Aspose.Note for Java 26.4  
 **Author:** Aspose  
 
 {{< /blocks/products/pf/tutorial-page-section >}}

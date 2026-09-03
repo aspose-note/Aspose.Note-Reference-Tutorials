@@ -5,7 +5,7 @@ second_title: Aspose.Note Java API
 description: Learn how to convert OneNote to PDF and manage a metered license in Java using Aspose.Note. Control usage, monitor credits, and keep costs low.
 weight: 10
 url: /java/licensing-java/manage-metered-license/
-date: 2025-11-28
+date: 2026-01-28
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
@@ -72,8 +72,8 @@ Document doc = new Document(Paths.get(dataDir,"Sample1.one").toString());
 doc.save(Paths.get(dataDir,"MeteredLicense.pdf").toString());
 ```
 
-- **Load**: `Document` reads the `.one` file located in `dataDir`.  
-- **Convert & Save**: Calling `save` with a `.pdf` extension automatically converts the notebook to PDF. Replace `"Your Document Directory"` with the actual path on your machine.
+- **Load**: `Document` reads the `.one` file located in `dataDir`. This is the classic way to **load OneNote document** for processing.  
+- **Convert & Save**: Calling `save` with a `.pdf` extension automatically **convert .one to .pdf**. The operation also **saves PDF from OneNote** in the same folder. Replace `"Your Document Directory"` with the actual path on your machine.
 
 ## Step 3: Check Credit Consumption Before and After Conversion
 
@@ -115,7 +115,7 @@ You now have a complete, production‑ready workflow to **convert OneNote to PDF
 
 ---
 
-**Last Updated:** 2025-11-28  
+**Last Updated:** 2026-01-28  
 **Tested With:** Aspose.Note for Java 24.12 (latest at time of writing)  
 **Author:** Aspose  
 

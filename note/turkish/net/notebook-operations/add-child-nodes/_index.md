@@ -47,7 +47,7 @@ Mevcut not defterini alt düğüm eklemek istediğiniz yere yükleyin. Bunu not 
 string dataDir = "Your Document Directory";
 
 // OneNote Not Defteri Yükleme
-var notebook = new Notebook(dataDir + "Notizbuch �ffnen.onetoc2");
+var notebook = new Notebook(dataDir + "Notebook.onetoc2");
 ```
 
 ## Adım 2: Yeni Bir Alt Düğüm Ekleme

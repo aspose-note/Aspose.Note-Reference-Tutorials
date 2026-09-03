@@ -39,7 +39,7 @@ weight: 21
 
 Πριν ξεκινήσουμε, βεβαιωθείτε ότι έχετε τα παρακάτω προαπαιτούμενα:
 
-1. **Java Development Kit (JDK):** Βεβαιωθείτε ότι έχετε εγκατεστημένο το Java στο σύστημά σας. Μπορείτε να κατεβάσετε και να εγκαταστήσετε το τελευταίο JDK από [here](https://www.oracle.com/java/technologies/javase-jdk15-downloads.html).
+1. **Java Development Kit (JDK):** Βεβαιωθείτε ότι έχετε εγκατεστημένο το Java στο σύστημά σας. Μπορείτε να κατεβάσετε και να εγκαταστήσετε το τελευταίο JDK από [here](https://www.oracle.com/java/technologies/downloads/).
 
 2. **Aspose.Note for Java:** Χρειάζεστε τη βιβλιοθήκη Aspose.Note for Java. Μπορείτε να την αποκτήσετε από τη [download page](https://releases.aspose.com/note/java/).
 
@@ -116,7 +116,7 @@ A5: Μπορείτε να ζητήσετε προσωρινή άδεια από 
 ---
 
 **Τελευταία Ενημέρωση:** 2025-12-31  
-**Δοκιμάστηκε Με:** Aspose.Note for Java 24.12 (latest)  
+**Δοκιμάστηκε Με:** Aspose.Note for Java 26.4 (latest)  
 **Συγγραφέας:** Aspose  
 
 {{< /blocks/products/pf/tutorial-page-section >}}

@@ -86,7 +86,7 @@ Page page = new Page();
 ### ขั้นตอน 4: เพิ่มรูปภาพลงในหน้า
 
 ```java
-Image image = new Image(null, dataDir + "image.jpg");
+Image image = new Image(dataDir + "image.jpg");
 ```
 
 คอนสตรัคเตอร์ `Image` โหลดไฟล์รูปภาพจากเส้นทางที่ระบุ นี่คือจุดที่คุณจะ **เพิ่มรูปภาพลงใน OneNote**.
@@ -166,9 +166,9 @@ A: ได้. โหลดเอกสารที่มีอยู่ด้ว
 
 ---
 
-**อัปเดตล่าสุด:** 2026-03-21  
-**ทดสอบกับ:** Aspose.Note for Java 24.11  
-**ผู้เขียน:** Aspose  
+**Last Updated:** 2025-12-23  
+**Tested With:** Aspose.Note for Java 26.4  
+**Author:** Aspose  
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

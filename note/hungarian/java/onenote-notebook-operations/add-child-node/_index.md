@@ -73,7 +73,7 @@ String dataDir = "Your Document Directory";
 Hozzon létre egy `Notebook` objektumot, amely a meglévő `.onetoc2` fájlra mutat.
 
 ```java
-Notebook notebook = new Notebook(dataDir + "Notizbuch �ffnen.onetoc2");
+Notebook notebook = new Notebook(dataDir + "Notebook.onetoc2");
 ```
 
 Ha a fájl nem található, `IOException` kerül dobásra – ellenőrizze, hogy a fájlnév és az útvonal helyes-e.
@@ -144,8 +144,8 @@ Ebben a bemutatóban áttekintettük, **hogyan adjunk hozzá OneNote** alcsomóp
 
 ---
 
-**Utoljára frissítve:** 2026-03-21  
-**Tesztelve:** Aspose.Note for Java 24.11  
+**Legutóbb frissítve:** 2025-12-25  
+**Tesztelt verzió:** Aspose.Note for Java 26.4  
 **Szerző:** Aspose  
 
 {{< /blocks/products/pf/tutorial-page-section >}}

@@ -130,7 +130,7 @@ Aspose.Note for Java kullanarak **OneNote'u görüntü olarak kaydetme** süreci
 ---
 
 **Son Güncelleme:** 2025-12-17  
-**Test Edilen Sürüm:** Aspose.Note for Java 23.12 (yazım anındaki en yeni sürüm)  
+**Test Edilen Sürüm:** Aspose.Note for Java 26.4 (yazım anındaki en yeni sürüm)  
 **Yazar:** Aspose  
 
 {{< /blocks/products/pf/tutorial-page-section >}}

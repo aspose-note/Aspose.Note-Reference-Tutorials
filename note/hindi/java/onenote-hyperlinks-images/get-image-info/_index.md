@@ -32,7 +32,7 @@ weight: 15
 
 ### 1. जावा डेवलपमेंट किट (JDK)
 
-सुनिश्चित करें कि आपके सिस्टम पर जावा डेवलपमेंट किट (JDK) स्थापित है। आप नवीनतम JDK को [Oracle वेबसाइट](https://www.oracle.com/java/technologies/javase-jdk15-downloads.html) से डाउनलोड और इंस्टॉल कर सकते हैं।
+सुनिश्चित करें कि आपके सिस्टम पर जावा डेवलपमेंट किट (JDK) स्थापित है। आप नवीनतम JDK को [Oracle वेबसाइट](https://www.oracle.com/java/technologies/downloads/) से डाउनलोड और इंस्टॉल कर सकते हैं।
 
 ### 2. Aspose.Note for Java लाइब्रेरी
 
@@ -147,7 +147,7 @@ A5: आप [Temporary license/](https://purchase.aspose.com/temporary-license/) 
 ---
 
 **अंतिम अपडेट:** 2025-12-21  
-**परीक्षित संस्करण:** Aspose.Note for Java 23.12  
+**परीक्षित संस्करण:** Aspose.Note for Java 26.4  
 **लेखक:** Aspose  
 
 ---

@@ -2,10 +2,10 @@
 title: "How to create onenote document java – Build Doc and Insert Image with Stream"
 linktitle: "How to create onenote document java – Build Doc and Insert Image with Stream"
 second_title: Aspose.Note Java API
-description: "Learn how to create onenote document java and effortlessly insert images using Aspose.Note for Java. Step‑by‑step guide for Java developers."
+description: "Learn how to create onenote document java using Aspose.Note for Java and insert images from a stream. Step‑by‑step guide for Java developers."
 weight: 13
 url: /java/onenote-hyperlinks-images/build-doc-insert-image-stream/
-date: 2025-12-21
+date: 2026-03-19
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
@@ -130,7 +130,7 @@ try {
 Create an `Image` object. The first argument can be `null` when you provide a stream later, but for simplicity we reference the file path here and set its alignment to the right side of the page.
 
 ```java
-Image image = new Image(null, dataDir + "image1.jpg");
+Image image = new Image(dataDir + "image1.jpg");
 image.setAlignment(HorizontalAlignment.Right);
 ```
 
@@ -209,10 +209,14 @@ A4: The official Aspose website offers extensive documentation, code examples, f
 
 A5: Yes, you can download a free trial from the Aspose release page to explore all features before purchasing.
 
+## Conclusion
+
+You now have a complete, end‑to‑end example of how to **create onenote document java** and embed images directly from an `InputStream`. Feel free to experiment with additional elements—text, tables, or shapes—to enrich your notes. When you’re ready, explore the many export options Aspose.Note provides to share your OneNote content as PDF, DOCX, HTML, and more.
+
 ---
 
 **Last Updated:** 2025-12-21  
-**Tested With:** Aspose.Note for Java 24.12 (latest at time of writing)  
+**Tested With:** Aspose.Note for Java 26.4 (latest at time of writing)  
 **Author:** Aspose  
 
 {{< /blocks/products/pf/tutorial-page-section >}}

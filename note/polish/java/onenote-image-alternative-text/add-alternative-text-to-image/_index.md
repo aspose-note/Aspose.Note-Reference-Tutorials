@@ -97,7 +97,7 @@ Strona pełni rolę płótna dla obrazu i innych elementów, które możesz chci
 Dodaj obraz do strony
 
 ```java
-Image image = new Image(null, dataDir + "image.jpg");
+Image image = new Image(dataDir + "image.jpg");
 ```
 
 Konstruktor `Image` ładuje plik obrazu z określonej ścieżki. To jest moment, w którym **dołączysz obraz do OneNote**.
@@ -187,9 +187,9 @@ Postępując zgodnie z tym przewodnikiem, teraz wiesz, **jak utworzyć dokument 
 
 ---
 
-**Last Updated:** 2026-03-21  
-**Tested With:** Aspose.Note for Java 24.11  
-**Author:** Aspose  
+**Ostatnia aktualizacja:** 2025-12-23  
+**Testowane z:** Aspose.Note for Java 26.4  
+**Autor:** Aspose  
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

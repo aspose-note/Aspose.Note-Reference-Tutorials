@@ -70,7 +70,7 @@ String dataDir = "Your Document Directory";
 Maak een `Notebook`‑object dat naar het bestaande `.onetoc2`‑bestand wijst.
 
 ```java
-Notebook notebook = new Notebook(dataDir + "Notizbuch �ffnen.onetoc2");
+Notebook notebook = new Notebook(dataDir + "Notebook.onetoc2");
 ```
 
 Als het bestand niet gevonden kan worden, wordt een `IOException` gegooid — zorg ervoor dat de bestandsnaam en het pad correct zijn.
@@ -141,9 +141,9 @@ In deze tutorial hebben we **how to add onenote** onderknooppunten behandeld met
 
 ---
 
-**Laatst bijgewerkt:** 2026-03-21  
-**Getest met:** Aspose.Note for Java 24.11  
-**Auteur:** Aspose  
+**Last Updated:** 2025-12-25  
+**Tested With:** Aspose.Note for Java 26.4  
+**Author:** Aspose  
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

@@ -32,7 +32,7 @@ Voordat we beginnen, zorg ervoor dat je het volgende klaar hebt:
 
 ### Java Development Kit (JDK) geïnstalleerd
 
-Je hebt een recente JDK nodig. Download deze van de [Java website](https://www.oracle.com/java/technologies/javase-jdk15-downloads.html).
+Je hebt een recente JDK nodig. Download deze van de [Java website](https://www.oracle.com/java/technologies/downloads/).
 
 ### Aspose.Note voor Java bibliotheek
 
@@ -118,7 +118,7 @@ A: De bibliotheek werkt met Java 8 en latere versies.
 ---
 
 **Laatst bijgewerkt:** 2025-12-31  
-**Getest met:** Aspose.Note for Java 24.12  
+**Getest met:** Aspose.Note for Java 26.4  
 **Auteur:** Aspose
 
 {{< /blocks/products/pf/tutorial-page-section >}}

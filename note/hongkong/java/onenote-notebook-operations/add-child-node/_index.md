@@ -70,7 +70,7 @@ String dataDir = "Your Document Directory";
 建立指向現有 `.onetoc2` 檔案的 `Notebook` 物件。
 
 ```java
-Notebook notebook = new Notebook(dataDir + "Notizbuch �ffnen.onetoc2");
+Notebook notebook = new Notebook(dataDir + "Notebook.onetoc2");
 ```
 
 若找不到檔案，將拋出 `IOException`——請確認檔名與路徑正確。
@@ -141,9 +141,9 @@ A7：嘗試將變更儲存至唯讀筆記本會拋出 `IOException`。請在儲�
 
 ---
 
-**Last Updated:** 2026-03-21  
-**Tested With:** Aspose.Note for Java 24.11  
-**Author:** Aspose  
+**最後更新：** 2025-12-25  
+**測試環境：** Aspose.Note for Java 26.4  
+**作者：** Aspose  
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

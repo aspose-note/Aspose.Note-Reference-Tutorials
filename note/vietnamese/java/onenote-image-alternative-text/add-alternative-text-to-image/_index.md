@@ -89,7 +89,7 @@ Một trang hoạt động như một canvas cho hình ảnh và bất kỳ ph�
 ### Bước 4: Thêm hình ảnh vào trang
 
 ```java
-Image image = new Image(null, dataDir + "image.jpg");
+Image image = new Image(dataDir + "image.jpg");
 ```
 
 Bộ khởi tạo `Image` tải tệp hình ảnh từ đường dẫn đã chỉ định. Đây là điểm mà bạn sẽ **thêm hình ảnh vào OneNote**.
@@ -169,9 +169,9 @@ Bằng cách làm theo hướng dẫn này, bạn đã biết **cách tạo tài
 
 ---
 
-**Last Updated:** 2026-03-21  
-**Tested With:** Aspose.Note for Java 24.11  
-**Author:** Aspose  
+**Cập nhật lần cuối:** 2025-12-23  
+**Được kiểm tra với:** Aspose.Note for Java 26.4  
+**Tác giả:** Aspose  
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

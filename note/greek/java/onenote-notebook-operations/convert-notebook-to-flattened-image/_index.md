@@ -144,9 +144,9 @@ notebook.save(dataDir + "ExportImageasFlattenedNotebook_out.png", saveOptions);
 
 ---
 
-**Last Updated:** 2026-03-21  
-**Tested With:** Aspose.Note for Java 24.12  
-**Author:** Aspose  
+**Τελευταία Ενημέρωση:** 2025-12-25  
+**Δοκιμή Με:** Aspose.Note for Java 26.4  
+**Συγγραφέας:** Aspose  
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

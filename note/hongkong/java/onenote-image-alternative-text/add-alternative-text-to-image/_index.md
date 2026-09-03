@@ -87,7 +87,7 @@ Page page = new Page();
 ### Step 4: Add an Image to the Page
 
 ```java
-Image image = new Image(null, dataDir + "image.jpg");
+Image image = new Image(dataDir + "image.jpg");
 ```
 
 `Image` 建構子會從指定路徑載入圖像檔案。此時您將 **append image onenote**。
@@ -167,8 +167,8 @@ A: 可以。使用 `new Document(<filePath>)` 載入現有文件，然後依照�
 
 ---
 
-**最後更新：** 2026-03-21  
-**測試環境：** Aspose.Note for Java 24.11  
+**最後更新：** 2025-12-23  
+**測試環境：** Aspose.Note for Java 26.4  
 **作者：** Aspose  
 
 {{< /blocks/products/pf/tutorial-page-section >}}

@@ -33,7 +33,7 @@ weight: 18
 
 ### Java Development Kit (JDK) Εγκατεστημένο
 
-Χρειάζεστε ένα πρόσφατο JDK. Κατεβάστε το από την [Java website](https://www.oracle.com/java/technologies/javase-jdk15-downloads.html).
+Χρειάζεστε ένα πρόσφατο JDK. Κατεβάστε το από την [Java website](https://www.oracle.com/java/technologies/downloads/).
 
 ### Aspose.Note for Java Library
 
@@ -119,7 +119,7 @@ notebook.save(dataDir + "CreatandSaveANotebook.onetoc2");
 ---
 
 **Τελευταία Ενημέρωση:** 2025-12-31  
-**Δοκιμή Με:** Aspose.Note for Java 24.12  
+**Δοκιμή Με:** Aspose.Note for Java 26.4  
 **Συγγραφέας:** Aspose
 
 {{< /blocks/products/pf/tutorial-page-section >}}

@@ -24,7 +24,7 @@ Saat Anda bekerja dengan file OneNote dalam aplikasi Java, hal pertama yang perl
 
 - **Metode apa yang menentukan enkripsi?** `Document.isEncrypted`  
 - **Apakah saya perlu kata sandi untuk memeriksa?** Tidak, Anda dapat menanyakan status tanpa kata sandi.  
-- **Versi API mana yang berfungsi?** Semua rilis terbaru Aspose.Note untuk Java (dicoba dengan 24.11).  
+- **Versi API mana yang berfungsi?** Semua rilis terbaru Aspose.Note untuk Java (dicoba dengan 26.4).  
 - **Bisakah saya memeriksa aliran dan jalur file?** Ya – API mendukung keduanya.  
 - **Apa yang terjadi jika kata sandi salah?** Metode mengembalikan `true`, menandakan file tetap terenkripsi.  
 
@@ -148,7 +148,7 @@ Dalam panduan ini kami menunjukkan **cara memeriksa enkripsi onenote java** meng
 ---  
 
 **Terakhir Diperbarui:** 2025-11-29  
-**Dicoba Dengan:** Aspose.Note 24.11 untuk Java  
+**Dicoba Dengan:** Aspose.Note 26.4 untuk Java  
 **Penulis:** Aspose  
 
 {{< /blocks/products/pf/tutorial-page-section >}}  

@@ -41,7 +41,7 @@ Le chargement instantané onenote est une fonctionnalité de la classe `Notebook
 
 Avant de commencer, assurez‑vous de disposer des éléments suivants :
 
-1. **Java Development Kit (JDK) :** Assurez‑vous que Java est installé sur votre système. Vous pouvez télécharger et installer le dernier JDK depuis [here](https://www.oracle.com/java/technologies/javase-jdk15-downloads.html).
+1. **Java Development Kit (JDK) :** Assurez‑vous que Java est installé sur votre système. Vous pouvez télécharger et installer le dernier JDK depuis [here](https://www.oracle.com/java/technologies/downloads/).
 
 2. **Aspose.Note pour Java :** Vous devez disposer de la bibliothèque Aspose.Note pour Java. Vous pouvez l'obtenir depuis la [page de téléchargement](https://releases.aspose.com/note/java/).
 
@@ -118,7 +118,7 @@ R5 : Vous pouvez demander une licence temporaire sur la [page de licence tempo
 ---
 
 **Dernière mise à jour :** 2025-12-31  
-**Testé avec :** Aspose.Note pour Java 24.12 (latest)  
+**Testé avec :** Aspose.Note pour Java 26.4 (latest)  
 **Auteur :** Aspose  
 
 {{< /blocks/products/pf/tutorial-page-section >}}

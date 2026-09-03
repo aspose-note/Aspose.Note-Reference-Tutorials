@@ -71,7 +71,7 @@ String dataDir = "Your Document Directory";
 기존 `.onetoc2` 파일을 가리키는 `Notebook` 객체를 생성합니다.
 
 ```java
-Notebook notebook = new Notebook(dataDir + "Notizbuch �ffnen.onetoc2");
+Notebook notebook = new Notebook(dataDir + "Notebook.onetoc2");
 ```
 
 파일을 찾을 수 없으면 `IOException`이 발생합니다—파일명과 경로가 올바른지 확인하세요.
@@ -122,29 +122,9 @@ A3: No, Aspose.Note for Java is a standalone library that works offline, providi
 
 ### Q4: Can I integrate Aspose.Note for Java into my existing Java projects?
 
-A4: Yes, you can easily integrate Aspose.Note for Java into your Java projects by adding the library to your dependencies.
-
-### Q5: Is there a community forum where I can seek help and guidance for using Aspose.Note for Java?
-
-A5: Yes, you can visit the [Aspose.Note forum](https://forum.aspose.com/c/note/28) to ask questions, share knowledge, and interact with other users and experts.
-
-### Q6: How do I create multiple sections at once?
-
-A6: Loop over an array of file paths and call `appendChild` for each `Document` instance.
-
-### Q7: What happens if the target notebook is read‑only?
-
-A7: Attempting to save changes to a read‑only notebook will throw an `IOException`. Ensure the file has write permissions before saving.
-
-## Conclusion
-
-이 튜토리얼에서는 Aspose.Note for Java를 사용하여 **how to add onenote** 하위 노드를 추가하는 방법을 환경 설정부터 업데이트된 노트북 저장까지 다루었습니다. OneNote 섹션 생성을 자동화하면 문서 작업 흐름을 간소화하고, 명명 표준을 강제하며, 메모 기능을 더 큰 Java 기반 솔루션에 통합할 수 있습니다.
-
----
-
-**Last Updated:** 2026-03-21  
-**Tested With:** Aspose.Note for Java 24.11  
-**Author:** Aspose  
+**마지막 업데이트:** 2025-12-25  
+**테스트 환경:** Aspose.Note for Java 26.4  
+**작성자:** Aspose  
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

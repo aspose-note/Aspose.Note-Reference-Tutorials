@@ -56,13 +56,13 @@ Aspose.Note.Page page = new Aspose.Note.Page(doc);
 ### Step 3: Initialize Outline Object
 
 ```csharp
-Outline outline = new Outline(doc);
+Outline outline = new Outline();
 ```
 
 ### Step 4: Initialize OutlineElement Object
 
 ```csharp
-OutlineElement outlineElem = new OutlineElement(doc);
+OutlineElement outlineElem = new OutlineElement();
 ```
 
 ### Step 5: Read File and Initialize AttachedFile Object
@@ -71,7 +71,7 @@ OutlineElement outlineElem = new OutlineElement(doc);
 string dataDir = "Your Document Directory";
 using (var stream = File.OpenRead(dataDir + "icon.jpg"))
 {
-    AttachedFile attachedFile = new AttachedFile(doc, dataDir + "attachment.txt", stream, ImageFormat.Jpeg);
+    AttachedFile attachedFile = new AttachedFile(dataDir + "attachment.txt", stream, ImageFormat.Jpeg);
 }
 ```
 

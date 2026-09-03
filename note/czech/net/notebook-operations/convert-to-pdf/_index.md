@@ -45,7 +45,7 @@ Pojďme se ponořit do procesu konverze. Pro snadné pochopení rozdělíme kaž
 string dataDir = "Your Document Directory";
 
 // Načtěte poznámkový blok OneNotu
-var notebook = new Notebook(dataDir + "Notizbuch öffnen.onetoc2");
+var notebook = new Notebook(dataDir + "Notebook.onetoc2");
 ```
 
  V tomto kroku určíme adresář, kde se nachází náš soubor notebooku a nahrajeme jej do naší aplikace pomocí`Notebook` třídy poskytuje Aspose.Note.

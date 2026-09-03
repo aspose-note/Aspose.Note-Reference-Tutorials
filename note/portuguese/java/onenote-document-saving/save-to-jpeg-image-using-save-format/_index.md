@@ -129,7 +129,7 @@ Cobremos tudo o que você precisa para **salvar OneNote como imagem** usando Asp
 ---
 
 **Última atualização:** 2025-12-17  
-**Testado com:** Aspose.Note para Java 23.12 (mais recente na data de escrita)  
+**Testado com:** Aspose.Note para Java 26.4 (mais recente na data de escrita)  
 **Autor:** Aspose  
 
 {{< /blocks/products/pf/tutorial-page-section >}}

@@ -72,7 +72,7 @@ String dataDir = "Your Document Directory";
 Créez un objet `Notebook` qui pointe vers le fichier `.onetoc2` existant.
 
 ```java
-Notebook notebook = new Notebook(dataDir + "Notizbuch �ffnen.onetoc2");
+Notebook notebook = new Notebook(dataDir + "Notebook.onetoc2");
 ```
 
 Si le fichier est introuvable, une `IOException` sera levée — vérifiez que le nom de fichier et le chemin sont corrects.
@@ -143,8 +143,8 @@ Dans ce tutoriel, nous avons couvert **comment ajouter OneNote** des nœuds enfa
 
 ---
 
-**Dernière mise à jour :** 2026-03-21  
-**Testé avec :** Aspose.Note pour Java 24.11  
+**Dernière mise à jour :** 2025-12-25  
+**Testé avec :** Aspose.Note for Java 26.4  
 **Auteur :** Aspose  
 
 {{< /blocks/products/pf/tutorial-page-section >}}

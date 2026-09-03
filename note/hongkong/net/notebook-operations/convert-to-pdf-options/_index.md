@@ -50,7 +50,7 @@ using System.Collections.Generic;
 string dataDir = "Your Document Directory";
 
 //載入 OneNote 筆記本
-var notebook = new Notebook(dataDir + "Notizbuch �ffnen.onetoc2");
+var notebook = new Notebook(dataDir + "Notebook.onetoc2");
 ```
 
 ## 步驟 2：指定 PDF 儲存選項

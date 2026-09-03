@@ -89,7 +89,7 @@ Una página actúa como lienzo para la imagen y cualquier otro elemento que dese
 ### Paso 4: Agregar una imagen a la página
 
 ```java
-Image image = new Image(null, dataDir + "image.jpg");
+Image image = new Image(dataDir + "image.jpg");
 ```
 
 El constructor `Image` carga el archivo de imagen desde la ruta especificada. Este es el punto donde **agregará la imagen a OneNote**.
@@ -169,8 +169,8 @@ Al seguir esta guía ahora sabe **cómo crear un documento OneNote**, **agregar 
 
 ---
 
-**Última actualización:** 2026-03-21  
-**Probado con:** Aspose.Note for Java 24.11  
+**Última actualización:** 2025-12-23  
+**Probado con:** Aspose.Note for Java 26.4  
 **Autor:** Aspose  
 
 {{< /blocks/products/pf/tutorial-page-section >}}

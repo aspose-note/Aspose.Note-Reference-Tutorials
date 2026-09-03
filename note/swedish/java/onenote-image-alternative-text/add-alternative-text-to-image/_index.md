@@ -89,7 +89,7 @@ En sida fungerar som en duk för bilden och eventuella andra element du vill lä
 ### Step 4: Add an Image to the Page
 
 ```java
-Image image = new Image(null, dataDir + "image.jpg");
+Image image = new Image(dataDir + "image.jpg");
 ```
 
 `Image`‑konstruktorn laddar bildfilen från den angivna sökvägen. Detta är punkten där du kommer att **append image onenote**.
@@ -169,8 +169,8 @@ Genom att följa den här guiden vet du nu **how to create OneNote document**, *
 
 ---
 
-**Last Updated:** 2026-03-21  
-**Tested With:** Aspose.Note for Java 24.11  
+**Last Updated:** 2025-12-23  
+**Tested With:** Aspose.Note for Java 26.4  
 **Author:** Aspose  
 
 {{< /blocks/products/pf/tutorial-page-section >}}

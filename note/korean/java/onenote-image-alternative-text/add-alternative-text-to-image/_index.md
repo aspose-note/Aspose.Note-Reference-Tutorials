@@ -86,7 +86,7 @@ Page page = new Page();
 ### 단계 4: 페이지에 이미지 추가
 
 ```java
-Image image = new Image(null, dataDir + "image.jpg");
+Image image = new Image(dataDir + "image.jpg");
 ```
 
 `Image` 생성자는 지정된 경로에서 이미지 파일을 로드합니다. 여기서 **append image onenote**를 수행하게 됩니다.
@@ -166,8 +166,8 @@ A: 예. `new Document(<filePath>)`로 기존 문서를 로드한 뒤 단계 3�
 
 ---
 
-**마지막 업데이트:** 2026-03-21  
-**테스트 대상:** Aspose.Note for Java 24.11  
+**마지막 업데이트:** 2025-12-23  
+**테스트 환경:** Aspose.Note for Java 26.4  
 **작성자:** Aspose  
 
 {{< /blocks/products/pf/tutorial-page-section >}}

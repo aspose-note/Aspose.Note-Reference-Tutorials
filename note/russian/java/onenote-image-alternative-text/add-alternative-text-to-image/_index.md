@@ -87,7 +87,7 @@ Page page = new Page();
 ### Шаг 4: Добавление изображения на страницу
 
 ```java
-Image image = new Image(null, dataDir + "image.jpg");
+Image image = new Image(dataDir + "image.jpg");
 ```
 
 Конструктор `Image` загружает файл изображения из указанного пути. Здесь вы **добавляете изображение в OneNote**.
@@ -167,9 +167,9 @@ A: Да. Загрузите существующий документ с пом�
 
 ---
 
-**Last Updated:** 2026-03-21  
-**Tested With:** Aspose.Note for Java 24.11  
-**Author:** Aspose  
+**Последнее обновление:** 2025-12-23  
+**Тестировано с:** Aspose.Note for Java 26.4  
+**Автор:** Aspose  
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

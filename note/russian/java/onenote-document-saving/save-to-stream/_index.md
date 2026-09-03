@@ -121,7 +121,7 @@ System.out.println("Stream Size: " + stream.size() + " bytes");
 ---
 
 **Last Updated:** 2025-12-17  
-**Tested With:** Aspose.Note for Java 24.12 (latest)  
+**Tested With:** Aspose.Note for Java 26.4 (latest)  
 **Author:** Aspose  
 
 {{< /blocks/products/pf/tutorial-page-section >}}

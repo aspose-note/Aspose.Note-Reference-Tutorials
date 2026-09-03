@@ -130,7 +130,7 @@ Kami telah membahas semua yang Anda perlukan untuk **menyimpan OneNote sebagai g
 ---
 
 **Terakhir Diperbarui:** 2025-12-17  
-**Diuji Dengan:** Aspose.Note for Java 23.12 (latest at time of writing)  
+**Diuji Dengan:** Aspose.Note for Java 26.4 (latest at time of writing)  
 **Penulis:** Aspose  
 
 {{< /blocks/products/pf/tutorial-page-section >}}

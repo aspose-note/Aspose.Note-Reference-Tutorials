@@ -72,7 +72,7 @@ String dataDir = "Your Document Directory";
 Erstellen Sie ein `Notebook`‑Objekt, das auf die vorhandene `.onetoc2`‑Datei verweist.
 
 ```java
-Notebook notebook = new Notebook(dataDir + "Notizbuch �ffnen.onetoc2");
+Notebook notebook = new Notebook(dataDir + "Notebook.onetoc2");
 ```
 
 Wenn die Datei nicht gefunden werden kann, wird eine `IOException` ausgelöst – stellen Sie sicher, dass Dateiname und Pfad korrekt sind.
@@ -143,8 +143,8 @@ In diesem Tutorial haben wir **wie man OneNote hinzufügt** Unterknoten mithilfe
 
 ---
 
-**Zuletzt aktualisiert:** 2026-03-21  
-**Getestet mit:** Aspose.Note for Java 24.11  
+**Zuletzt aktualisiert:** 2025-12-25  
+**Getestet mit:** Aspose.Note für Java 26.4  
 **Autor:** Aspose  
 
 {{< /blocks/products/pf/tutorial-page-section >}}

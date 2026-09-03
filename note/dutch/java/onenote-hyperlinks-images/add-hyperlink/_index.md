@@ -129,7 +129,7 @@ De `setHyperlinkAddress`‑methode vertelt Aspose.Note dat dit segment klikbaar 
 ```java
 RichText text = new RichText()
                             .append("This is ", textStyleRed)
-                            .append("hyperlink", new TextStyle().setHyperlinkAddress("www.google.com"))
+                            .append("hyperlink", new TextStyle().setHyperlinkAddress("https://www.google.com"))
                             .append(". This text is not a hyperlink.", TextStyle.getDefault());
 text.setParagraphStyle(defaultTextStyle);
 outlineElem.appendChildLast(text);
@@ -178,7 +178,7 @@ A: Een tijdelijke evaluatielicentie is voldoende voor ontwikkeling en testen, ma
 ---
 
 **Last Updated:** 2025-12-20  
-**Tested With:** Aspose.Note for Java 23.12  
+**Tested With:** Aspose.Note for Java 26.4  
 **Author:** Aspose  
 
 {{< /blocks/products/pf/tutorial-page-section >}}

@@ -22,7 +22,7 @@ When you work with OneNote files in a Java application, the first thing you need
 
 - **What method determines encryption?** `Document.isEncrypted`  
 - **Do I need a password to check?** No, you can query the status without a password.  
-- **Which API version works?** Any recent Aspose.Note for Java release (tested with 24.11).  
+- **Which API version works?** Any recent Aspose.Note for Java release (tested with 26.4).  
 - **Can I check both streams and file paths?** Yes – the API supports both.  
 - **What happens if the password is wrong?** The method returns `true`, indicating the file remains encrypted.  
 
@@ -146,7 +146,7 @@ In this guide we demonstrated **how to check onenote encryption java** using Asp
 ---  
 
 **Last Updated:** 2025-11-29  
-**Tested With:** Aspose.Note 24.11 for Java  
+**Tested With:** Aspose.Note 26.4 for Java  
 **Author:** Aspose  
 
 {{< /blocks/products/pf/tutorial-page-section >}}  

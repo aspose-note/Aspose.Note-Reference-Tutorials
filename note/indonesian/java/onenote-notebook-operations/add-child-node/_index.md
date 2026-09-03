@@ -71,7 +71,7 @@ String dataDir = "Your Document Directory";
 Buat objek `Notebook` yang menunjuk ke file `.onetoc2` yang ada.
 
 ```java
-Notebook notebook = new Notebook(dataDir + "Notizbuch �ffnen.onetoc2");
+Notebook notebook = new Notebook(dataDir + "Notebook.onetoc2");
 ```
 
 Jika file tidak dapat ditemukan, `IOException` akan dilempar—pastikan nama file dan path sudah benar.
@@ -142,8 +142,8 @@ Dalam tutorial ini kami telah membahas **how to add onenote** node anak mengguna
 
 ---
 
-**Terakhir Diperbarui:** 2026-03-21  
-**Diuji Dengan:** Aspose.Note for Java 24.11  
+**Terakhir Diperbarui:** 2025-12-25  
+**Diuji Dengan:** Aspose.Note untuk Java 26.4  
 **Penulis:** Aspose  
 
 {{< /blocks/products/pf/tutorial-page-section >}}

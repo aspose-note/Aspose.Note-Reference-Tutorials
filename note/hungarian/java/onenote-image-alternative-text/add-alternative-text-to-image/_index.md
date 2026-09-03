@@ -87,7 +87,7 @@ Az oldal egy vászonként szolgál a képhez és bármely egyéb elemhez, amelye
 ### 4. lépés: Kép hozzáadása az oldalhoz
 
 ```java
-Image image = new Image(null, dataDir + "image.jpg");
+Image image = new Image(dataDir + "image.jpg");
 ```
 
 Az `Image` konstruktor betölti a képfájlt a megadott útvonalról. Ez az a pont, ahol **append image onenote**-t hajt végre.
@@ -167,8 +167,8 @@ Ezt a útmutatót követve most már tudja, hogyan **how to create OneNote docum
 
 ---
 
-**Utolsó frissítés:** 2026-03-21  
-**Tesztelve:** Aspose.Note for Java 24.11  
+**Utolsó frissítés:** 2025-12-23  
+**Tesztelve:** Aspose.Note for Java 26.4  
 **Szerző:** Aspose  
 
 {{< /blocks/products/pf/tutorial-page-section >}}

@@ -24,7 +24,7 @@ Když pracujete se soubory OneNote v aplikaci Java, první věc, kterou musíte 
 
 - **Jaká metoda určuje šifrování?** `Document.isEncrypted`  
 - **Potřebuji heslo pro kontrolu?** Ne, stav můžete dotázat bez hesla.  
-- **Která verze API funguje?** Jakákoli nedávná verze Aspose.Note pro Java (testováno s 24.11).  
+- **Která verze API funguje?** Jakákoli nedávná verze Aspose.Note pro Java (testováno s 26.4).  
 - **Mohu zkontrolovat jak streamy, tak cesty k souborům?** Ano – API podporuje obojí.  
 - **Co se stane, když je heslo špatné?** Metoda vrátí `true`, což naznačuje, že soubor zůstává šifrován.  
 
@@ -148,7 +148,7 @@ V tomto průvodci jsme ukázali **jak zkontrolovat šifrování OneNote v Javě*
 ---  
 
 **Poslední aktualizace:** 2025-11-29  
-**Testováno s:** Aspose.Note 24.11 pro Java  
+**Testováno s:** Aspose.Note 26.4 pro Java  
 **Autor:** Aspose  
 
 {{< /blocks/products/pf/tutorial-page-section >}}  

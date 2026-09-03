@@ -24,7 +24,7 @@ Wenn Sie in einer Java‑Anwendung mit OneNote‑Dateien arbeiten, ist das Erste
 
 - **Welche Methode bestimmt die Verschlüsselung?** `Document.isEncrypted`  
 - **Benötige ich ein Passwort, um den Status zu prüfen?** Nein, Sie können den Status ohne Passwort abfragen.  
-- **Welche API‑Version funktioniert?** Jede aktuelle Aspose.Note‑Version für Java (getestet mit 24.11).  
+- **Welche API‑Version funktioniert?** Jede aktuelle Aspose.Note‑Version für Java (getestet mit 26.4).  
 - **Kann ich sowohl Streams als auch Dateipfade prüfen?** Ja – die API unterstützt beides.  
 - **Was passiert, wenn das Passwort falsch ist?** Die Methode gibt `true` zurück, was anzeigt, dass die Datei weiterhin verschlüsselt ist.  
 
@@ -148,7 +148,7 @@ In diesem Leitfaden haben wir **wie man die OneNote‑Verschlüsselung in Java p
 ---  
 
 **Zuletzt aktualisiert:** 2025-11-29  
-**Getestet mit:** Aspose.Note 24.11 für Java  
+**Getestet mit:** Aspose.Note 26.4 für Java  
 **Autor:** Aspose  
 
 {{< /blocks/products/pf/tutorial-page-section >}}  

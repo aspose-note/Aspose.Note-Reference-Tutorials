@@ -109,7 +109,7 @@ A5：您可以在 Aspose.Note 论坛 [here](https://forum.aspose.com/c/note/28) 
 ---
 
 **Last Updated:** 2025-12-17  
-**Tested With:** Aspose.Note 24.12 for Java  
+**Tested With:** Aspose.Note 26.4 for Java  
 **Author:** Aspose  
 
 ---

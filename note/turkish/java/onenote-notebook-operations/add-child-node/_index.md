@@ -72,7 +72,7 @@ String dataDir = "Your Document Directory";
 Mevcut `.onetoc2` dosyasına işaret eden bir `Notebook` nesnesi oluşturun.
 
 ```java
-Notebook notebook = new Notebook(dataDir + "Notizbuch �ffnen.onetoc2");
+Notebook notebook = new Notebook(dataDir + "Notebook.onetoc2");
 ```
 
 Dosya bulunamazsa bir `IOException` fırlatılacaktır—dosya adı ve yolunun doğru olduğundan emin olun.
@@ -143,9 +143,9 @@ Bu öğreticide, Aspose.Note for Java kullanarak **how to add onenote** çocuk d
 
 ---
 
-**Last Updated:** 2026-03-21  
-**Tested With:** Aspose.Note for Java 24.11  
-**Author:** Aspose  
+**Son Güncelleme:** 2025-12-25  
+**Test Edilen:** Aspose.Note for Java 26.4  
+**Yazar:** Aspose  
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
