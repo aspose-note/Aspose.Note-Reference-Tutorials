@@ -1,6 +1,6 @@
 ---
-title: How to Flatten PDF from OneNote Notebook – Aspose.Note
-linktitle: Convert Notebook to Flattened PDF in OneNote - Aspose.Note
+title: How to Flatten a Document from a OneNote Notebook
+linktitle: Convert Notebook to Flattened PDF in OneNote
 second_title: Aspose.Note Java API
 description: Learn how to flatten PDF from a OneNote notebook using Aspose.Note for Java – convert onenote to pdf quickly with easy integration and customization.
 weight: 16
@@ -12,7 +12,7 @@ date: 2026-03-24
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# How to Flatten PDF from OneNote Notebook – Aspose.Note
+# How to Flatten a Document from a OneNote Notebook
 
 ## Introduction
 
@@ -39,7 +39,7 @@ Flattening a PDF means taking the rich, multi‑layered content of a OneNote not
 Before we begin, make sure you have the following:
 
 1. **Java Development Kit (JDK)** – JDK 8 or newer installed on your machine.  
-2. **Aspose.Note for Java Library** – Download the latest release from [here](https://releases.aspose.com/note/java/).  
+2. **Aspose.Note for Java Library** – Download the latest release from [Aspose.Note for Java release page](https://releases.aspose.com/note/java/).  
 3. **Integrated Development Environment (IDE)** – IntelliJ IDEA, Eclipse, or any editor you prefer.  
 
 ## Import Packages
@@ -52,7 +52,7 @@ import com.aspose.note.NotebookPdfSaveOptions;
 import java.io.IOException;
 ```
 
-## Step 1: Load the OneNote Notebook
+## Step 1: load the oneNote notebook
 
 Load the notebook you want to convert. Replace the placeholder path with the actual location of your `.onetoc2` file.
 
@@ -83,7 +83,7 @@ notebook.save(dataDir, notebookSaveOptions);
 ### How to Convert Notebook to PDF (Non‑Flattened) – Optional
 If you ever need a regular (non‑flattened) PDF, simply set `setFlatten(false)` or omit the call entirely. The same API handles both scenarios.
 
-## Common Issues and Solutions
+## Common issues and solutions
 
 | Issue | Cause | Fix |
 |-------|-------|-----|
@@ -103,12 +103,12 @@ A2: Absolutely, you can customize the PDF output according to your requirements,
 A3: Yes, you can batch convert multiple notebooks to PDFs efficiently using Aspose.Note for Java.
 
 ### Q4: Is there a trial version available for Aspose.Note for Java?
-A4: Yes, you can access a free trial of Aspose.Note for Java from [here](https://releases.aspose.com/).
+A4: Yes, you can access a free trial of Aspose.Note for Java from the [Aspose trial download page](https://releases.aspose.com/).
 
 ### Q5: Where can I find support for Aspose.Note for Java?
 A5: You can find support and assistance for Aspose.Note for Java on the [Aspose.Note forum](https://forum.aspose.com/c/note/28).
 
-## Frequently Asked Questions
+## Frequently asked questions
 
 **Q: How do I flatten a PDF while preserving image quality?**  
 A: The `NotebookPdfSaveOptions` class retains the original image resolution; just ensure you do not downscale images before saving.

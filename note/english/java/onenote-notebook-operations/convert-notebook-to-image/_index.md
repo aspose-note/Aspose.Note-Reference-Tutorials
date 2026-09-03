@@ -1,6 +1,6 @@
 ---
-title: Save OneNote as Image – Convert Notebook to Image with Aspose.Note
-linktitle: Save OneNote as Image – Convert Notebook to Image with Aspose.Note
+title: Export OneNote notebook pages using Java
+linktitle: Export OneNote notebook pages using Java
 second_title: Aspose.Note Java API
 description: Learn how to save OneNote as image and convert OneNote to image using Aspose.Note for Java. Step‑by‑step guide for Java developers.
 weight: 12
@@ -12,7 +12,7 @@ date: 2026-03-24
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Save OneNote as Image – Convert Notebook to Image with Aspise.Note
+# Export OneNote notebook pages using Java
 
 ## Introduction
 
@@ -40,8 +40,8 @@ Saving OneNote as image means rendering each page of a `.one` notebook into a ra
 
 Before you start, make sure you have:
 
-1. **Java Development Kit (JDK)** – Download the latest JDK from the [website](https://www.oracle.com/java/technologies/javase-jdk15-downloads.html).  
-2. **Aspose.Note for Java library** – Grab the JAR from the [Aspose website](https://releases.aspose.com/note/java/) and add it to your project’s classpath.
+1. **Java Development Kit (JDK)** – Download the latest JDK from the [Oracle JDK download page](https://www.oracle.com/java/technologies/javase-jdk15-downloads.html).  
+2. **Aspose.Note for Java library** – Grab the JAR from the [Aspose.Note Java library download](https://releases.aspose.com/note/java/) and add it to your project’s classpath.
 
 ## Import Packages
 
@@ -55,7 +55,7 @@ import com.aspose.note.SaveFormat;
 
 Now let’s walk through the conversion process step by step.
 
-## Step 1: Load the Notebook Document
+## Step 1: load the notebook document
 
 ```java
 // Specify the directory where your notebook file is located
@@ -67,7 +67,7 @@ Document oneFile = new Document(dataDir + "Sample1.one");
 
 We point the API to the folder that contains `Sample1.one` and load it into a `Document` object. From here you can access pages, sections, and other notebook elements.
 
-## Step 2: Initialize ImageSaveOptions
+## Step 2: initialize imageSaveOptions
 
 ```java
 // Initialize PdfSaveOptions object
@@ -76,7 +76,7 @@ ImageSaveOptions options = new ImageSaveOptions(SaveFormat.Png);
 
 `ImageSaveOptions` tells Aspose.Note how you want the output rendered. In this example we choose PNG, but you could replace `SaveFormat.Png` with `SaveFormat.Jpeg`, `SaveFormat.Bmp`, etc., to **convert OneNote to image** in a different format.
 
-## Step 3: Save the Document as Image
+## Step 3: save the document as image
 
 ```java
 // Save the document as PNG
@@ -85,7 +85,7 @@ oneFile.save(dataDir + "ConvertToImage_out.png", options);
 
 The `save()` call writes the rendered notebook page(s) to `ConvertToImage_out.png`. If the notebook contains multiple pages, Aspose.Note will generate separate image files automatically (e.g., `ConvertToImage_out_1.png`, `ConvertToImage_out_2.png`).
 
-## Step 4: Print Confirmation
+## Step 4: print confirmation
 
 ```java
 System.out.println("File saved: " + dataDir + "ConvertToImage_out.png");
@@ -93,7 +93,7 @@ System.out.println("File saved: " + dataDir + "ConvertToImage_out.png");
 
 A simple console message confirms that the **save OneNote as image** operation succeeded and tells you where to find the output file.
 
-## Common Issues & Tips
+## Common issues & tips
 
 - **Large notebooks** – Increase the JVM heap (`-Xmx`) if you encounter `OutOfMemoryError`.  
 - **Resolution control** – Use `options.setResolution(300);` to boost DPI for print‑quality images.  

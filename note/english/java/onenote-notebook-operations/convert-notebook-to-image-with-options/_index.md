@@ -1,5 +1,5 @@
 ---
-title: Save OneNote as PNG with Options – Convert Notebook to Image using Aspose.Note
+title: Use Aspose.Note for Java to Save OneNote as PNG with Options – Convert Notebook to Image
 linktitle: Convert Notebook to Image with Options in OneNote - Aspose.Note
 second_title: Aspose.Note Java API
 description: Learn how to save OneNote as PNG with options using Aspose.Note for Java. This guide shows how to export OneNote as image, set image resolution Java, and convert OneNote to image programmatically.
@@ -34,7 +34,7 @@ Exporting OneNote as image allows you to share content with users who don’t ha
 ## Prerequisites
 
 1. Java Development Kit (JDK) installed on your machine.  
-2. Aspose.Note for Java JAR files. Download the library from [here](https://releases.aspose.com/note/java/) and add it to your project's classpath.
+2. Aspose.Note for Java JAR files. Download the library from [download the Aspose.Note for Java library](https://releases.aspose.com/note/java/) and add it to your project's classpath.
 
 ## Import Packages
 
@@ -51,7 +51,7 @@ import com.aspose.note.SaveFormat;
 
 ## Step‑by‑Step Guide
 
-### Step 1: Load the Notebook
+### Step 1: load the notebook
 Load the OneNote notebook you want to convert.
 
 ```java
@@ -60,7 +60,7 @@ String dataDir = "Your Document Directory";
 Notebook notebook = new Notebook(dataDir + "test.onetoc2");
 ```
 
-### Step 2: Set Save Options
+### Step 2: set save options
 Create a `NotebookImageSaveOptions` instance, choose PNG as the format, and **set image resolution Java**‑style.
 
 ```java
@@ -71,7 +71,7 @@ ImageSaveOptions documentSaveOptions = notebookSaveOptions.getDocumentSaveOption
 documentSaveOptions.setResolution(400);
 ```
 
-### Step 3: Save the Notebook as Image
+### Step 3: save the notebook as image
 Define the output path and invoke the `save` method. This will **save OneNote as PNG** with the resolution you specified.
 
 ```java
@@ -81,7 +81,7 @@ dataDir = dataDir + "ExportNotebooktoImagewithOptions_out.png";
 notebook.save(dataDir, notebookSaveOptions);
 ```
 
-## Common Issues & Tips
+## Common issues & tips
 
 - **Resolution not applied:** Ensure you call `getDocumentSaveOptions()` before setting the resolution; otherwise the default DPI is used.  
 - **File not found:** Verify that `dataDir` points to the correct folder and that `test.onetoc2` exists.  
@@ -103,17 +103,17 @@ A2: Absolutely! Aspose.Note for Java provides a straightforward API that is easy
 A3: Yes, Aspose.Note allows you to customize the image output by specifying options such as resolution, format, and more.
 
 ### Q4: Does Aspose.Note offer support for developers?
-A4: Yes, Aspose provides excellent support for developers through their forums and documentation, ensuring smooth integration and troubleshooting.
+A5: Yes, Aspose provides excellent support for developers through their forums and documentation, ensuring smooth integration and troubleshooting.
 
 ### Q5: Is there a free trial available for Aspose.Note for Java?
-A5: Yes, you can avail of a free trial of Aspose.Note for Java from [here](https://releases.aspose.com/).
+A5: Yes, you can avail of a free trial of Aspose.Note for Java from [download the free trial of Aspose.Note for Java](https://releases.aspose.com/).
 
-{{< /blocks/products/pf/tutorial-page-section >}}
 
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
 
-{{< blocks/products/products-backtop-button >}}
+
+
+
+
 
 ---
 
@@ -122,3 +122,10 @@ A5: Yes, you can avail of a free trial of Aspose.Note for Java from [here](https
 **Author:** Aspose  
 
 ---
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}
