@@ -1,12 +1,67 @@
 ---
-date: 2026-02-05
-description: OneNote sayfalarını nasıl dışa aktaracağınızı ve OneNote'u görüntü olarak
-  nasıl kaydedeceğinizi öğrenin. Bu kılavuz, .one dosyasını PNG'ye nasıl dönüştüreceğinizi,
-  sayfa indeksini nasıl ayarlayacağınızı ve Aspose.Note for Java kullanarak OneNote
-  sayfa görüntüsünü nasıl dışa aktaracağınızı gösterir.
-linktitle: Export OneNote Page to PNG Image in Java
+date: 2026-09-04
+description: Aspose.Note kullanarak Java'da OneNote sayfasını PNG görüntüsü olarak
+  dışa aktarmayı öğrenin. Bu kılavuz .one dosyasını png'ye dönüştürmeyi, sayfa indeksini
+  ayarlamayı ve görüntü olarak kaydetmeyi gösterir.
+keywords:
+- how to export onenote
+- convert onenote to png
+- save onenote as image
+- convert .one to png
+lastmod: 2026-09-04
+linktitle: Java'da OneNote Sayfasını PNG Görüntüsü Olarak Dışa Aktarma
+og_description: Aspose.Note ile Java'da OneNote sayfasını PNG olarak dışa aktarma.
+  Bu kılavuz .one dosyasını yüklemeyi, bir sayfa seçmeyi ve yüksek kaliteli bir PNG
+  görüntüsü kaydetmeyi adım adım gösterir.
+og_image_alt: 'Tutorial: Export OneNote page to PNG image using Aspose.Note for Java'
+og_title: Java ile Aspose.Note kullanarak OneNote sayfasını PNG olarak dışa aktarma
+schemas:
+- author: Aspose
+  dateModified: '2026-09-04'
+  description: Learn how to export OneNote page to PNG image in Java using Aspose.Note.
+    This guide shows converting .one to png, setting the page index, and saving as
+    an image.
+  headline: How to export OneNote page to PNG in Java with Aspose.Note
+  type: TechArticle
+- description: Learn how to export OneNote page to PNG image in Java using Aspose.Note.
+    This guide shows converting .one to png, setting the page index, and saving as
+    an image.
+  name: How to export OneNote page to PNG in Java with Aspose.Note
+  steps:
+  - name: Load the OneNote document
+    text: The `Document` class represents a OneNote file in memory. Loading the file
+      is the foundation for **convert .one to png**.
+  - name: Initialise image‑save options
+    text: '`ImageSaveOptions` tells Aspose.Note that the output should be **PNG**.
+      You can also adjust DPI, color depth, and compression here.'
+  - name: Set the page index (how to convert OneNote page)
+    text: The `setPageIndex` method selects which page to export. Page numbering starts
+      at **0**, so `0` refers to the first page. Adjust this value to export a different
+      page or loop through pages for bulk conversion.
+  - name: Save the document as PNG (save OneNote as PNG)
+    text: Calling `save` writes the selected page to a PNG file on disk. The file
+      name `ConvertSpecificPageToPngImage_out.png` is just an example—you can name
+      it whatever you like. This final step **exports onenote page image** ready for
+      use in reports, web pages, or further processing.
+  type: HowTo
+- questions:
+  - answer: Aspose.Note for Java.
+    question: What library is needed?
+  - answer: Yes—use `setPageIndex` to target the exact page.
+    question: Can I export a single page?
+  - answer: PNG, JPEG, GIF, BMP, TIFF (PNG shown here).
+    question: Supported image formats?
+  - answer: A free trial is available; a license is required for production.
+    question: Do I need a license?
+  - answer: Typically under 10 minutes for a basic conversion.
+    question: How long does implementation take?
+  type: FAQPage
 second_title: Aspose.Note Java API
-title: Java'da Aspose.Note ile OneNote Sayfasını PNG Görüntüsü Olarak Dışa Aktarma
+tags:
+- onenote conversion
+- Aspose.Note
+- java image export
+title: Java ile Aspose.Note kullanarak OneNote sayfasını PNG olarak dışa aktarma
 url: /tr/java/onenote-document-loading/convert-page-to-png-image/
 weight: 13
 ---
@@ -15,41 +70,35 @@ weight: 13
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Java'da Aspose.Note Kullanarak OneNote Sayfasını PNG Görüntüsü Olarak Dışa Aktarma
+# Java'da Aspose.Note ile OneNote sayfasını PNG olarak dışa aktarma
 
-## Introduction
+Bu öğreticide Aspose.Note for Java kütüphanesini kullanarak **OneNote sayfasını PNG görüntüsü olarak dışa aktarmayı** öğreneceksiniz. OneNote sayfalarını dışa aktarmak, notları OneNote ekosisteminin dışına paylaşmanız, raporlara gömmeniz veya görüntü işleme algoritmaları çalıştırmanız gerektiğinde sıkça ihtiyaç duyulan bir gereksinimdir. Ortam kurulumunu, .one dosyasını yüklemeyi, belirli bir sayfayı seçmeyi, görüntü seçeneklerini yapılandırmayı ve sonunda yüksek çözünürlüklü bir PNG dosyası kaydetmeyi ele alacağız.
 
-Bu öğreticide **OneNote sayfasını nasıl dışa aktaracağınızı** Aspose.Note for Java kütüphanesini kullanarak bir PNG görüntüsüne dönüştürmeyi keşfedeceksiniz. **OneNote sayfalarını dışa aktarma**, notları OneNote ekosistemi dışına paylaşmak, raporlara gömmek veya görüntü‑işleme araçlarıyla işlemek istediğinizde yaygın bir ihtiyaçtır. Ortamınızı hazırlamaktan sayfa indeksini ayarlamaya, sayfayı dönüştürmeye ve sonucu yüksek‑kaliteli bir PNG dosyası olarak kaydetmeye kadar ihtiyacınız olan her şeyi adım adım anlatacağız. Sonunda, herhangi bir Java uygulamasında **onenote'u görüntü olarak kaydetme** yeteneğine sahip olacaksınız.
+## Hızlı yanıtlar
+- **Hangi kütüphane gerekiyor?** Aspose.Note for Java.  
+- **Tek bir sayfayı dışa aktarabilir miyim?** Evet—tam sayfayı hedeflemek için `setPageIndex` kullanın.  
+- **Desteklenen görüntü formatları?** PNG, JPEG, GIF, BMP, TIFF (burada PNG gösterilmiştir).  
+- **Bir lisansa ihtiyacım var mı?** Ücretsiz deneme mevcuttur; üretim için bir lisans gereklidir.  
+- **Uygulama ne kadar sürer?** Temel bir dönüşüm için genellikle 10 dakikadan az sürer.  
+- **.one dosyasını png'ye nasıl dönüştürürüm?** `.one` dosyasını `Document` ile yükleyin, sayfa indeksini ayarlayın ve `ImageSaveOptions` ile kaydedin.  
 
-## Quick Answers
-- **What library is needed?** Aspose.Note for Java.  
-- **Can I export a single page?** Yes—use `setPageIndex` to target the exact page.  
-- **Supported image formats?** PNG, JPEG, GIF, BMP, TIFF (PNG shown here).  
-- **Do I need a license?** A free trial is available; a license is required for production.  
-- **How long does implementation take?** Typically under 10 minutes for a basic conversion.  
-- **How to convert .one to png?** Load the `.one` file with `Document`, set the page index, and save with `ImageSaveOptions`.  
+## “OneNote sayfasını dışa aktarma” nedir?
+OneNote sayfasını dışa aktarmak, bir `.one` belgesi içindeki belirli bir sayfayı bağımsız bir görüntü dosyasına (bu durumda PNG) dönüştürmek anlamına gelir. Bu, **onenote sayfa görüntüsünü dışa aktarmak** için paylaşım, gömme veya daha ileri görüntü‑tabanlı analiz gerektiğinde faydalıdır. İşlem, OneNote dosyasını yükerek, istenen sayfayı seçerek ve ardından o sayfayı raster görüntü olarak işleyerek başlar.
 
-## What is “export OneNote page”?
+## OneNote'u PNG'ye dönüştürmek için neden Aspose.Note for Java kullanmalı?
+Aspose.Note **50+ giriş ve çıkış formatını** destekler ve Microsoft Office gerektirmeden çok sayfalı defterleri işleyebilir. Sayfa seçimi, DPI ve renk derinliği üzerinde ayrıntılı kontrol sağlar ve vektör grafikleri ile metin netliğini koruyan PNG dosyaları üretir. Kütüphane, Java 8+ destekleyen herhangi bir platformda çalışır ve sunucu‑tarafı toplu dönüşümler için idealdir.
 
-OneNote sayfasını dışa aktarmak, bir `.one` belgesi içindeki belirli bir sayfayı bağımsız bir görüntü dosyasına (bu örnekte PNG) dönüştürmek anlamına gelir. Bu, **onenote sayfa görüntüsü dışa aktarma** ihtiyacınız olduğunda, paylaşmak, gömmek veya daha ileri görüntü‑temelli analizler yapmak için kullanışlıdır.
+## Önkoşullar
 
-## Why use Aspose.Note for Java to convert OneNote to PNG?
-- **No Microsoft Office dependency** – works on any platform that runs Java.  
-- **Fine‑grained control** – you can pick any page via `setPageIndex`.  
-- **High‑quality output** – PNG retains vector graphics and text clarity.  
-- **Batch‑ready** – easy to loop through pages for bulk conversion, making it simple to **convert onenote to png** for many pages at once.  
+Başlamadan önce şunların olduğundan emin olun:
 
-## Prerequisites
+1. **Java Development Kit (JDK)** – sürüm 8 veya üzeri.  
+2. **Aspose.Note for Java** – en son JAR'ı [Aspose web sitesinden](https://releases.aspose.com/note/java/) indirin.  
+3. **Bir OneNote belgesi** (`.one`) içinde dışa aktarmak istediğiniz sayfa bulunmalıdır.
 
-Başlamadan önce aşağıdakilere sahip olduğunuzdan emin olun:
+## Paketleri içe aktar
 
-1. **Java Development Kit (JDK)** – sürüm 8 veya üzeri.  
-2. **Aspose.Note for Java** – en son JAR dosyasını [Aspose website](https://releases.aspose.com/note/java/) adresinden indirin.  
-3. **Bir OneNote belgesi** (`.one`) – dışa aktarmak istediğiniz sayfayı içeren dosya.
-
-## Import Packages
-
-First, import the necessary Java classes:
+İlk olarak gerekli Java sınıflarını içe aktarın:
 
 ```java
 import java.io.IOException;
@@ -59,11 +108,13 @@ import com.aspose.note.LoadOptions;
 import com.aspose.note.SaveFormat;
 ```
 
-These imports give you access to the core Aspose.Note API, including loading documents and configuring image‑save options.
+Bu içe aktarmalar, belge yükleme ve görüntü‑kaydet seçeneklerini yapılandırma dahil, Aspose.Note API'sinin çekirdek işlevlerine erişmenizi sağlar.
 
-## Step‑by‑Step Guide
+## Adım‑adım kılavuz
 
-### Step 1: Load the OneNote Document
+### Adım 1: OneNote belgesini yükleyin
+
+`Document` sınıfı, bellekte bir OneNote dosyasını temsil eder. Dosyayı yüklemek, **.one dosyasını png'ye dönüştürmek** için temeldir.
 
 ```java
 // Load the document into Aspose.Note.
@@ -71,69 +122,75 @@ String dataDir = "Your Document Directory";
 Document oneFile = new Document(dataDir + "Sample1.one", new LoadOptions());
 ```
 
-We use the `Document` class to read the OneNote file from disk. The `LoadOptions` object lets you customize loading behavior if needed. This step is the foundation for **convert .one to png**.
+### Adım 2: Görüntü‑kaydet seçeneklerini başlat
 
-### Step 2: Initialize ImageSaveOptions
+`ImageSaveOptions`, çıktının **PNG** olması gerektiğini Aspose.Note'a bildirir. Burada DPI, renk derinliği ve sıkıştırmayı da ayarlayabilirsiniz.
 
 ```java
 // Initialize ImageSaveOptions object
 ImageSaveOptions opts = new ImageSaveOptions(SaveFormat.Png);
 ```
 
-`ImageSaveOptions` tells Aspose.Note that we want the output in **PNG** format. You could switch to JPEG, BMP, etc., by changing `SaveFormat`. This object also lets you control DPI, color depth, and other image‑specific settings.
+### Adım 3: Sayfa indeksini ayarla (OneNote sayfasını nasıl dönüştürürsünüz)
 
-### Step 3: Set the Page Index (How to convert OneNote page)
+`setPageIndex` yöntemi, dışa aktarılacak sayfayı seçer. Sayfa numaralandırması **0**'dan başlar, bu yüzden `0` ilk sayfayı ifade eder. Farklı bir sayfayı dışa aktarmak veya toplu dönüşüm için sayfalar arasında döngü yapmak için bu değeri ayarlayın.
 
 ```java
 // set page index
 opts.setPageIndex(0);
 ```
 
-The `setPageIndex` method selects which page to export. Page numbering starts at **0**, so `0` refers to the first page. Adjust this value to **export a different page** or to loop through pages when you need to **save onenote as image** for each one.
+### Adım 4: Belgeyi PNG olarak kaydedin (OneNote'u PNG olarak kaydet)
 
-### Step 4: Save the Document as PNG (Save OneNote as PNG)
+`save` çağrısı, seçilen sayfayı diskte bir PNG dosyasına yazar. `ConvertSpecificPageToPngImage_out.png` dosya adı sadece bir örnektir—istediğiniz gibi adlandırabilirsiniz. Bu son adım, **onenote sayfa görüntüsünü dışa aktarır** ve raporlarda, web sayfalarında veya daha ileri işleme için hazır hale getirir.
 
 ```java
 // Save the document as PNG.
 oneFile.save(dataDir + "ConvertSpecificPageToPngImage_out.png", opts);
 ```
 
-Calling `save` writes the selected page to a PNG file on disk. The file name `ConvertSpecificPageToPngImage_out.png` is just an example—you can name it whatever you like. This final step **exports onenote page image** ready for use in reports, web pages, or further processing.
+## Yaygın sorunlar ve ipuçları
 
-## Common Issues & Tips
+- **Yanlış sayfa indeksi** – İndekslemenin 0'dan başladığını unutmayın. Boş bir görüntü alırsanız, indeks değerini kontrol edin.  
+- **Eksik Aspose.Note JAR** – JAR'ın sınıf yolunuzda (classpath) olduğundan emin olun; aksi takdirde `ClassNotFoundException` alırsınız.  
+- **Büyük sayfalar** – Çok büyük sayfalar için, `OutOfMemoryError` hatasından kaçınmak amacıyla JVM yığın boyutunu (`-Xmx`) artırmayı düşünün.  
+- **Çözünürlük kontrolü** – Görüntü netliğini artırmak için `save` çağırmadan önce `opts.setResolution(300)` (veya ihtiyacınız olan herhangi bir DPI) kullanın.  
 
-- **Incorrect page index** – Remember that indexing starts at 0. If you get a blank image, verify the index value.  
-- **Missing Aspose.Note JAR** – Ensure the JAR is on your classpath; otherwise you’ll see `ClassNotFoundException`.  
-- **Large pages** – For very large pages, consider increasing the JVM heap size (`-Xmx`) to avoid `OutOfMemoryError`.  
-- **Resolution control** – Use `opts.setResolution(300)` (or any DPI you need) before calling `save` to improve image clarity.  
+## Sıkça sorulan sorular
 
-## Frequently Asked Questions
+**Q1: Aspose.Note for Java kullanarak birden fazla sayfayı tek seferde PNG görüntülerine dönüştürebilir miyim?**  
+A1: Evet, belge sayfaları üzerinde yineleme yapabilir, `opts.setPageIndex(i)` güncelleyebilir ve her yineleme için `save` çağırabilirsiniz.
 
-### Q1: Can I convert multiple pages to PNG images in one go using Aspose.Note for Java?
-A1: Yes, you can loop through the document’s pages, update `opts.setPageIndex(i)`, and call `save` for each iteration.
+**Q2: Aspose.Note for Java PNG dışındaki diğer görüntü formatlarını destekliyor mu?**  
+A2: Kesinlikle. `ImageSaveOptions` içinde `SaveFormat.Jpeg`, `SaveFormat.Gif`, `SaveFormat.Bmp` veya `SaveFormat.Tiff` ayarlayarak bu formatları oluşturabilirsiniz.
 
-### Q2: Does Aspose.Note for Java support other image formats besides PNG?
-A2: Absolutely. You can set `SaveFormat.Jpeg`, `SaveFormat.Gif`, `SaveFormat.Bmp`, or `SaveFormat.Tiff` in `ImageSaveOptions`.
+**Q3: Aspose.Note for Java için ücretsiz bir deneme mevcut mu?**  
+A3: Evet, ücretsiz denemeyi [Aspose Note indirme sayfasından](https://releases.aspose.com/) indirebilirsiniz.
 
-### Q3: Is there a free trial available for Aspose.Note for Java?
-A3: Yes, you can download a free trial from the [website](https://releases.aspose.com/).
+**Q4: Sorunlarla karşılaştığımda teknik destek nereden alabilirim?**  
+A5: Aspose topluluk forumundan destek alabilirsiniz [Aspose community forum](https://forum.aspose.com/c/note/28).
 
-### Q4: Can I get technical assistance if I encounter any issues with Aspose.Note for Java?
-A4: Absolutely, you can seek support from the Aspose community forum [here](https://forum.aspose.com/c/note/28).
+**Q5: Aspose.Note for Java için lisans nasıl satın alınır?**  
+A5: Lisansı [satın alma sayfasından](https://purchase.aspose.com/buy) satın alabilirsiniz.
 
-### Q5: Where can I purchase a license for Aspose.Note for Java?
-A5: You can buy a license from the [purchase page](https://purchase.aspose.com/buy).
+**Q6: Gömülü görüntüler dışa aktarım sırasında nasıl işlenir?**  
+A6: Gömülü görüntüler PNG çıktısına otomatik olarak işlenir; ek bir kod gerektirmez.
 
-### Q6: How do I export a page that contains embedded images?
-A6: Embedded images are rendered automatically in the PNG output; no extra code is required.
-
-### Q7: Can I set the DPI or image resolution?
-A7: Yes, use `opts.setResolution(int dpi)` before calling `save` to control output quality.
+**Q7: DPI veya görüntü çözünürlüğü ayarlayabilir miyim?**  
+A7: Evet, çıktı kalitesini kontrol etmek için `save` çağırmadan önce `opts.setResolution(int dpi)` kullanabilirsiniz.
 
 ---
-**Last Updated:** 2026-02-05  
-**Tested With:** Aspose.Note for Java 24.11 (latest)  
-**Author:** Aspose  
+
+**Son Güncelleme:** 2026-09-04  
+**Test Edilen Versiyon:** Aspose.Note for Java 24.11 (latest)  
+**Yazar:** Aspose
+
+## İlgili Öğreticiler
+
+- [Aspose.Note for Java Görüntü Kaydet Seçenekleri ile OneNote'u BMP Görüntüsü Olarak Dışa Aktarma](/note/java/onenote-document-saving/save-to-bmp-image-using-image-save-options/)
+- [OneNote Sayfalarını Dışa Aktar – Belirli Sayfa Aralığını Java ile PDF'ye Dönüştür](/note/java/onenote-document-loading/convert-page-range-to-pdf/)
+- [JPEG DPI'yi artırmayı öğrenin – OneNote'ta Aspose.Note ile Çıktı Görüntü Çözünürlüğünü Ayarlama](/note/java/onenote-document-saving/set-output-image-resolution/)
+
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

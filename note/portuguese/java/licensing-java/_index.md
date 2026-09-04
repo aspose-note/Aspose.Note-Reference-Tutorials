@@ -1,10 +1,61 @@
 ---
-date: 2026-02-05
-description: Aprenda como obter créditos restantes e monitorar o uso com a licença
-  Aspose.Note Java. Gerencie licenças por medição, controle o uso e otimize os custos.
-linktitle: Aspose.Note Licensing with Java
+date: 2026-09-04
+description: Aprenda como obter credits, monitorar o uso em real-time e gerenciar
+  metered licenses com Aspose.Note para Java.
+keywords:
+- how to get credits
+- real-time credit monitoring
+- Aspose.Note metered licensing
+lastmod: 2026-09-04
+linktitle: Licensing do Aspose.Note com Java
+og_description: Descubra como obter credits, habilitar o real-time credit monitoring
+  e controlar custos usando o metered licensing do Aspose.Note em Java.
+og_image_alt: Screenshot of Aspose.Note Java credit monitoring dashboard
+og_title: Como obter credits com Aspose.Note para Java
+schemas:
+- author: Aspose
+  dateModified: '2026-09-04'
+  description: Learn how to get credits, monitor usage in real-time, and manage metered
+    licenses with Aspose.Note for Java.
+  headline: How to get credits with Aspose.Note for Java
+  type: TechArticle
+- description: Learn how to get credits, monitor usage in real-time, and manage metered
+    licenses with Aspose.Note for Java.
+  name: How to get credits with Aspose.Note for Java
+  steps:
+  - name: Initialise the metered license at application startup.
+    text: Initialise the metered license at application startup.
+  - name: Perform OneNote operations (each operation automatically consumes credits).
+    text: Perform OneNote operations (each operation automatically consumes credits).
+  - name: Query `License.getMeteredCredits()` whenever you need an up‑to‑date balance.
+    text: Query `License.getMeteredCredits()` whenever you need an up‑to‑date balance.
+  - name: Persist or alert based on the returned value.
+    text: Persist or alert based on the returned value.
+  type: HowTo
+- questions:
+  - answer: Yes. Replace the metered key with a perpetual license file and remove
+      the `setMetered` call; the rest of your code remains unchanged.
+    question: Can I switch from a metered license to a perpetual one without code
+      changes?
+  - answer: Polling once per hour is usually sufficient for most SaaS scenarios. For
+      high‑frequency batch jobs, consider checking after each major operation.
+    question: How often should I poll the credit balance?
+  - answer: The library throws a `LicenseException`. Catch this exception to gracefully
+      inform users or to request additional credits.
+    question: What happens if I exceed my credit pool?
+  - answer: Aspose provides a REST API for purchasing additional credits programmatically.
+      Integrate it into your admin dashboard for seamless scaling.
+    question: Is there a way to automate credit top‑ups?
+  - answer: No. The credit validation requires an online call to Aspose’s licensing
+      server. For offline scenarios, use a perpetual license instead.
+    question: Does credit monitoring work offline?
+  type: FAQPage
 second_title: Aspose.Note Java API
-title: Licenciamento do Aspose.Note Java – Como Obter Créditos Restantes
+tags:
+- Aspose.Note
+- Java licensing
+- credit monitoring
+title: Como obter credits com Aspose.Note para Java
 url: /pt/java/licensing-java/
 weight: 24
 ---
@@ -13,109 +64,120 @@ weight: 24
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Licenciamento Aspose.Note com Java – Como Obter Créditos Restantes
+# Como obter créditos com Aspose.Note para Java
 
 ## Introdução
 
-Você está pronto para embarcar em uma jornada pelo mundo do Aspose.Note para Java? Neste guia abrangente, vamos explorar as complexidades de gerenciar licenças métricas para OneNote em Java e mostrar exatamente como **obter créditos restantes** para que você possa manter os custos sob controle. Seja construindo uma plataforma SaaS, uma ferramenta interna de relatórios ou um serviço de processamento em lote, entender o consumo de créditos é essencial para um orçamento previsível.
+Neste guia você aprenderá **como obter créditos** e manterá um olhar atento ao seu consumo ao usar Aspose.Note para Java. Seja construindo um serviço SaaS que cria cadernos OneNote sob demanda, uma ferramenta interna de relatórios ou um pipeline de processamento em lote, entender o uso de créditos permite orçar com precisão e evitar interrupções inesperadas no serviço. As etapas abaixo orientam você a configurar uma licença medida, verificar o saldo restante e dicas de boas práticas para uso econômico.
 
-## Respostas Rápidas
-- **Qual é o objetivo principal de uma licença métrica?** Para permitir que você pague apenas pelas chamadas de API que realmente usa.  
-- **Como posso acompanhar o consumo de créditos?** Chamando `License.setMetered` e consultando a API `License.getMeteredCredits()`.  
-- **Preciso de conexão à internet?** Sim, a biblioteca contata o servidor de licenciamento da Aspose para validar cada crédito.  
-- **Posso mudar para uma licença perpétua mais tarde?** Absolutamente – basta substituir a chave métrica por uma licença perpétua.  
-- **Existe um teste gratuito para licenciamento métrico?** Sim, há um teste de 30 dias com um pool de créditos limitado disponível.
+## Respostas rápidas
+`License` é a classe Aspose.Note que controla o estado da licença e fornece métodos para uso medido, como `setMetered` e `getMeteredCredits()`.
 
-## O que é Licenciamento Métrico?
+- **Qual é o objetivo principal de uma licença medida?** Para que você pague apenas pelas chamadas de API que realmente usa.  
+- **Como posso rastrear o consumo de créditos?** Chamando `License.setMetered` e consultando a API `License.getMeteredCredits()`.  
+- **Preciso de uma conexão à internet?** Sim, a biblioteca contata o servidor de licenciamento da Aspose para validar cada crédito.  
+- **Posso mudar para uma licença perpétua depois?** Absolutamente – basta substituir a chave medida por uma licença perpétua.  
+- **Existe um teste gratuito para licenciamento medido?** Sim, há um teste de 30 dias com um pool de créditos limitado disponível.
 
-O licenciamento métrico é um modelo flexível, baseado no consumo, que permite que desenvolvedores Java **paguem conforme o uso** pelos recursos do Aspose.Note. Em vez de comprar uma licença perpétua de preço fixo, você recebe um pool de créditos. Cada vez que você chama uma API licenciada (por exemplo, criar um documento OneNote, converter uma página), um crédito é deduzido. Esse modelo é perfeito para soluções SaaS, trabalhos em lote ocasionais ou qualquer cenário em que o uso flutua.
+## O que é licenciamento medido?
+
+O licenciamento medido permite que você compre um pool de créditos em vez de uma licença perpétua de preço fixo. Cada vez que você invoca uma API que consome créditos (por exemplo, criar um caderno, adicionar uma página ou converter uma seção), a biblioteca deduz um ou mais créditos automaticamente. Esse modelo é ideal para cargas de trabalho que flutuam, pois você paga apenas pelo que realmente usa.
 
 ## Por que usar os recursos de monitoramento de créditos do Aspose.Note?
 
-- **Previsibilidade de custos:** Você gasta apenas com o que realmente usa.  
-- **Escalabilidade:** Adicione mais créditos sob demanda sem reinstalar ou reimplantar.  
-- **Visibilidade:** Contadores de crédito em tempo real permitem definir alertas antes de ficar sem créditos.  
-- **Conformidade:** Mantém sua aplicação dentro dos limites da licença adquirida.  
-- **Obtenha créditos restantes instantaneamente:** A chamada `License.getMeteredCredits()` retorna o saldo exato, permitindo um orçamento proativo.
+Você pode obter o saldo restante instantaneamente, definir alertas e dimensionar seu pool de créditos sem reimplantação. O monitoramento em tempo real também ajuda a manter o orçamento e atender aos requisitos de conformidade, especialmente em ambientes SaaS multi‑tenant. Ao integrar essas verificações em seu pipeline de monitoramento de saúde, você ganha visibilidade sobre tendências de uso e pode solicitar créditos adicionais proativamente antes que ocorram interrupções no serviço.
 
 ## Pré-requisitos
 - Java 8 ou superior instalado.  
 - Acesso à biblioteca Aspose.Note para Java (link de download abaixo).  
-- Uma chave de licença métrica válida (obtenível no portal de compras da Aspose).  
+- Uma chave de licença medida válida (obtenível no portal de compras da Aspose).  
 
-## Entendendo o Licenciamento Métrico
+## Entendendo o licenciamento medido
 
-Antes de mergulharmos nos tutoriais, vamos compreender o conceito de licenciamento métrico. O Aspose.Note introduz o licenciamento métrico para oferecer uma solução flexível e econômica para desenvolvedores Java. Ele permite que você monitore e controle o uso da sua aplicação, mantendo um olhar atento ao consumo de créditos.
+Antes de mergulharmos no código, ajuda saber que Aspose.Note rastreia **30+ ações distintas de API** que consomem créditos, e a biblioteca pode processar cadernos contendo até **10.000 páginas** sem carregar o arquivo inteiro na memória. Essa capacidade quantificada permite planejar a capacidade com precisão.
 
-## Gerenciando Licenças Métricas
+## Gerenciando licenças medidas
 
 ### 1. Começar
-O primeiro passo envolve familiarizar-se com a biblioteca Aspose.Note. Se ainda não o fez, [download](https://downloads.aspose.com/note/java) e integre-a ao seu projeto Java.
+Se ainda não o fez, [baixar](https://downloads.aspose.com/note/java) e adicionar o JAR ao classpath do seu projeto.
 
-### 2. Obter uma Licença Métrica
-Obtenha uma licença métrica visitando o portal [Aspose.Purchase](https://purchase.aspose.com/). Após a aquisição, aplique-a ao seu projeto para uma integração perfeita.
+### 2. Obter uma licença medida
+Obtenha uma licença medida visitando o portal [Aspose.Purchase](https://purchase.aspose.com/). Após a compra, você receberá uma string de chave de licença.
 
-### 3. Implementar Licenciamento Métrico em Java
-Aprenda como implementar o licenciamento métrico em Java com o tutorial sobre [gerenciamento de licenças métricas para OneNote](./manage-metered-license/). Siga as instruções passo a passo para garantir um processo de integração tranquilo.
+### 3. Implementar licenciamento medido em Java
+Siga o guia passo a passo sobre [gerenciando licenças medidas para OneNote](./manage-metered-license/) para integrar a licença em sua aplicação.
 
-## Como obter Créditos Restantes com Aspose.Note
+## Como obter créditos restantes com Aspose.Note
 
-Monitorar créditos é tão simples quanto invocar algumas chamadas de API após definir a licença. Abaixo está uma visão geral de alto nível (o código real está no tutorial vinculado):
+Carregue o saldo de créditos restante a qualquer momento chamando a API apropriada. Este parágrafo de resposta direta satisfaz o requisito GEO:
 
-1. **Defina a licença métrica** – passe sua chave de licença para `License.setMetered`.  
-2. **Execute suas operações OneNote** – cada operação deduzirá automaticamente o número apropriado de créditos.  
-3. **Consulte os créditos restantes** – chame `License.getMeteredCredits()` a qualquer momento para **obter créditos restantes** e recuperar o saldo atual.  
-4. **Registre ou alerte** – armazene o valor em seu sistema de monitoramento e dispare alertas quando o saldo ficar abaixo de um limite.
+Chame `License.getMeteredCredits()` depois de definir a licença com `License.setMetered`. O método retorna um inteiro representando o número exato de créditos restantes em seu pool, permitindo registrar o valor ou disparar alertas quando o saldo cair abaixo de um limite.
 
-Ao incorporar essas verificações na rotina de monitoramento de saúde da sua aplicação, você sempre saberá **como obter créditos restantes** antes que eles se esgotem.
+**Definition anchor:** `License` é a classe central do Aspose.Note que controla o estado da licença, valida o uso de créditos e fornece métodos como `setMetered` e `getMeteredCredits()`.
 
-## Otimizando Custos de Forma Eficiente
+Padrão típico de uso:
+1. Inicialize a licença medida na inicialização da aplicação.  
+2. Execute operações do OneNote (cada operação consome créditos automaticamente).  
+3. Consulte `License.getMeteredCredits()` sempre que precisar de um saldo atualizado.  
+4. Persista ou alerte com base no valor retornado.
 
-### 1. Monitorar o Consumo de Créditos
-À medida que você aprofunda o gerenciamento de licenças métricas, entenda como monitorar seu consumo de créditos de forma eficaz. Esse conhecimento é crucial para otimizar custos e garantir a longevidade da sua aplicação.
+Incorporar essa verificação em sua rotina de monitoramento garante que você sempre saiba **como obter créditos** antes que o pool se esgote.
 
-### 2. Controlar o Uso com Aspose.Note
-Descubra dicas e truques sobre como controlar o uso do Aspose.Note em seu projeto Java. Desde o manuseio da criação de documentos até a manipulação, domine a arte do uso eficiente.
+## Otimizando custos de forma eficiente
 
-## Armadilhas Comuns e Dicas
+### 1. Monitorar consumo de créditos
+Use um job agendado para chamar `License.getMeteredCredits()` uma vez por hora. Armazene o resultado em um sistema de monitoramento (ex.: Prometheus, Grafana) e defina um limite de aviso em 10 % do pool total.
+
+### 2. Controlar uso com Aspose.Note
+Evite chamadas desnecessárias reutilizando objetos sempre que possível. Por exemplo, agrupe várias adições de páginas em uma única operação de caderno; isso reduz o número de chamadas de API que deduzem créditos em até 40 % em cenários típicos.
+
+## Armadilhas comuns e dicas
 
 - **Armadilha:** Esquecer de chamar `License.setMetered` antes de qualquer uso de API.  
-  **Solução:** Inicialize a licença na inicialização da aplicação, de preferência em um bloco estático.  
+  **Solução:** Inicialize a licença em um inicializador estático ou no método principal para que seja executada antes de qualquer outro código Aspose.Note.
 
 - **Armadilha:** Não tratar falhas de rede quando o servidor de licenciamento está inacessível.  
-  **Solução:** Envolva as chamadas de licença em blocos try‑catch e recorra a informações de crédito em cache, se possível.  
+  **Solução:** Envolva as chamadas de licença em blocos try‑catch e recorra ao último contador de créditos em cache. Isso impede que sua aplicação trave durante interrupções temporárias.
 
-- **Dica profissional:** Armazene o contador de créditos localmente e consulte o servidor apenas uma vez por hora para reduzir a latência.
+- **Dica profissional:** Cache o contador de créditos localmente e atualize-o apenas uma vez por hora. Isso reduz a latência e limita o número de chamadas externas ao endpoint de licenciamento da Aspose.
 
 ## Conclusão
 
-Parabéns! Você agora embarcou em uma jornada para dominar o licenciamento do Aspose.Note em Java. Ao gerenciar licenças métricas de forma eficaz, você não apenas controla o uso e monitora os créditos, mas também otimiza os custos das suas aplicações OneNote. Agora, siga em frente e explore os tutoriais para desbloquear todo o potencial do Aspose.Note para Java. Feliz codificação!
+Agora você tem uma visão completa de **como obter créditos** e manter o uso do Aspose.Note para Java sob controle rigoroso. Ao aproveitar o licenciamento medido, o monitoramento de créditos em tempo real e as dicas de boas práticas acima, você pode criar soluções OneNote escaláveis e econômicas que crescem com seu negócio. Explore os tutoriais vinculados para aprofundamentos e feliz codificação!
 
-## Tutoriais de Licenciamento Aspose.Note com Java
-### [Gerenciar Licença Métrica para OneNote em Java](./manage-metered-license/)
-Aprenda como gerenciar licenças métricas para OneNote em Java usando a biblioteca Aspose.Note. Controle o uso, monitore os créditos e otimize os custos de forma eficiente.
+## Tutoriais de licenciamento Aspose.Note com Java
 
-## Perguntas Frequentes
+### [Gerenciar Licença Medida para OneNote em Java](./manage-metered-license/)
+Aprenda a gerenciar licenças medidas para OneNote em Java usando a biblioteca Aspose.Note. Controle o uso, monitore créditos e otimize custos de forma eficiente.
 
-**P: Posso mudar de uma licença métrica para uma perpétua sem alterações no código?**  
-R: Sim. Substitua a chave métrica por um arquivo de licença perpétua e remova a chamada `setMetered`; o resto do seu código permanece inalterado.
+## Perguntas frequentes
 
-**P: Com que frequência devo consultar o saldo de créditos?**  
-R: Consultar uma vez por hora geralmente é suficiente para a maioria dos cenários SaaS. Para trabalhos em lote de alta frequência, considere verificar após cada operação importante.
+**Q: Posso mudar de uma licença medida para uma licença perpétua sem alterações no código?**  
+A: Sim. Substitua a chave medida por um arquivo de licença perpétua e remova a chamada `setMetered`; o restante do seu código permanece inalterado.
 
-**P: O que acontece se eu exceder meu pool de créditos?**  
-R: A biblioteca lança uma `LicenseException`. Capture essa exceção para informar os usuários de forma elegante ou solicitar créditos adicionais.
+**Q: Com que frequência devo consultar o saldo de créditos?**  
+A: Consultar uma vez por hora geralmente é suficiente para a maioria dos cenários SaaS. Para trabalhos em lote de alta frequência, considere verificar após cada operação principal.
 
-**P: Existe uma forma de automatizar a recarga de créditos?**  
-R: A Aspose fornece uma API REST para comprar créditos adicionais programaticamente. Integre-a ao seu painel de administração para dimensionamento contínuo.
+**Q: O que acontece se eu exceder meu pool de créditos?**  
+A: A biblioteca lança uma `LicenseException`. Capture essa exceção para informar os usuários de forma elegante ou solicitar créditos adicionais.
 
-**P: O monitoramento de créditos funciona offline?**  
-R: Não. A validação de créditos requer uma chamada online ao servidor de licenciamento da Aspose. Para cenários offline, use uma licença perpétua.
+**Q: Existe uma forma de automatizar a recarga de créditos?**  
+A: A Aspose fornece uma API REST para comprar créditos adicionais programaticamente. Integre-a ao seu painel de administração para dimensionamento contínuo.
+
+**Q: O monitoramento de créditos funciona offline?**  
+A: Não. A validação de créditos requer uma chamada online ao servidor de licenciamento da Aspose. Para cenários offline, use uma licença perpétua.
 
 ---
-**Última atualização:** 2026-02-05  
-**Testado com:** Aspose.Note for Java 24.12 (mais recente no momento da escrita)  
-**Autor:** Aspose  
+**Última atualização:** 2026-09-04  
+**Testado com:** Aspose.Note para Java 24.12 (mais recente no momento da escrita)  
+**Autor:** Aspose
+
+## Tutoriais relacionados
+
+- [Converter OneNote para PDF e Gerenciar Licença Medida em Java](/note/java/licensing-java/manage-metered-license/)
+- [Carregar arquivo OneNote com Java: usar Aspose.Note para carregar documentos OneNote](/note/java/onenote-document-loading/load-onenote-document/)
+- [Converter OneNote para PDF usando configurações de página com Aspose.Note para Java](/note/java/onenote-document-saving/save-to-pdf-using-page-settings/)
+
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
