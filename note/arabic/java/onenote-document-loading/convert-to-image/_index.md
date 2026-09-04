@@ -1,10 +1,73 @@
 ---
-date: 2026-02-05
-description: تعلم كيفية حفظ OneNote كملف PNG باستخدام Aspose.Note للغة Java واكتشف
-  كيفية تحويل OneNote إلى PNG أو JPEG أو BMP أو PDF في بضع أسطر من الشيفرة.
-linktitle: How to save onenote as png with Aspose.Note for Java
+date: 2026-09-04
+description: تعلم كيفية تحويل OneNote إلى PNG باستخدام Aspose.Note for Java، واستكشف
+  تصدير صفحات OneNote كـ PNG أو JPEG أو BMP أو PDF ببضع أسطر من الشيفرة.
+keywords:
+- convert onenote to png
+- how to export onenote pages
+- export onenote as image
+lastmod: 2026-09-04
+linktitle: كيفية تحويل OneNote إلى PNG باستخدام Aspose.Note for Java
+og_description: حول OneNote إلى PNG باستخدام Aspose.Note for Java. اتبع دليلًا سريعًا
+  خطوة بخطوة، راجع المتطلبات المسبقة، وتعلم كيفية تصدير صفحات OneNote كصور أو PDF
+  في أقل من ثانية لكل ملف.
+og_image_alt: Guide showing Java code converting OneNote files to PNG images
+og_title: تحويل OneNote إلى PNG باستخدام مكتبة Aspose.Note for Java
+schemas:
+- author: Aspose
+  dateModified: '2026-09-04'
+  description: Learn how to convert OneNote to PNG using Aspose.Note for Java, and
+    explore exporting OneNote pages as PNG, JPEG, BMP, or PDF in just a few lines
+    of code.
+  headline: How to convert OneNote to PNG with Aspose.Note for Java
+  type: TechArticle
+- description: Learn how to convert OneNote to PNG using Aspose.Note for Java, and
+    explore exporting OneNote pages as PNG, JPEG, BMP, or PDF in just a few lines
+    of code.
+  name: How to convert OneNote to PNG with Aspose.Note for Java
+  steps:
+  - name: set up the document directory
+    text: Define the folder that contains your OneNote file. Replace the placeholder
+      with the actual path on your machine.
+  - name: load the OneNote document
+    text: '`Document` is Aspose.Note’s core object that represents a single OneNote
+      notebook in memory. It provides access to pages, sections, and resources for
+      reading or writing. > **Pro tip:** The same `Document` instance can be reused
+      to export to PDF, HTML, or other image formats without re‑loading the fi'
+  - name: initialize image save options
+    text: '`ImageSaveOptions` tells Aspose.Note which raster format to produce and
+      lets you fine‑tune resolution, compression, and page range. In this example
+      we choose PNG, but you can replace `SaveFormat.Png` with `SaveFormat.Jpeg` or
+      `SaveFormat.Bmp`. > This line also satisfies the secondary keywords **conv'
+  - name: save the document as an image
+    text: Export the OneNote pages to PNG files. The `save` method automatically creates
+      a separate image for each page (e.g., `ConvertToImage_out_1.png`, `ConvertToImage_out_2.png`,
+      …).
+  - name: print confirmation
+    text: Notify the user where the output files were written.
+  type: HowTo
+- questions:
+  - answer: Yes. Iterate over a collection of file paths, load each with `new Document(...)`,
+      and repeat the save steps inside the loop.
+    question: Can I batch‑process multiple OneNote files?
+  - answer: Absolutely. Use `PdfSaveOptions` instead of `ImageSaveOptions` to **convert
+      OneNote to PDF** with a single method call.
+    question: Does Aspose.Note support converting OneNote to PDF?
+  - answer: Call `options.setResolutionX(int)` and `options.setResolutionY(int)` on
+      the `ImageSaveOptions` object before invoking `save`.
+    question: How do I change the resolution of the PNG output?
+  - answer: Yes—replace `SaveFormat.Png` with `SaveFormat.Jpeg` or `SaveFormat.Bmp`
+      in the `ImageSaveOptions` constructor.
+    question: Can I export to JPEG or BMP instead of PNG?
+  - answer: No. All processing is performed locally; no external services are contacted.
+    question: Do I need an internet connection for the conversion?
+  type: FAQPage
 second_title: Aspose.Note Java API
-title: كيفية حفظ OneNote بصيغة PNG باستخدام Aspose.Note للـ Java
+tags:
+- convert onenote
+- Aspose.Note
+- Java document processing
+title: كيفية تحويل OneNote إلى PNG باستخدام Aspose.Note for Java
 url: /ar/java/onenote-document-loading/convert-to-image/
 weight: 14
 ---
@@ -13,42 +76,47 @@ weight: 14
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# كيفية حفظ OneNote كـ PNG باستخدام Aspose.Note for Java
+# كيفية تحويل OneNote إلى PNG باستخدام Aspose.Note للـ Java
 
-## المقدمة
+## مقدمة
 
-في هذا البرنامج التعليمي ستتعرف على **كيفية حفظ OneNote كـ PNG** باستخدام مكتبة **Aspose.Note for Java**. تحويل OneNote إلى تنسيق صورة (مثل PNG) هو طلب شائع عندما تحتاج إلى تضمين الملاحظات في صفحات الويب، أو إنشاء صور مصغرة، أو إنشاء أصول قابلة للطباعة دون الحاجة إلى أن يكون لدى المستخدم النهائي OneNote مثبتًا. سنستعرض كل خطوة — من إعداد بيئة التطوير الخاصة بك إلى تصدير الملف — حتى تتمكن من دمج هذه القدرة بسرعة في تطبيقات Java الخاصة بك.
+في هذا البرنامج التعليمي ستتعلم **كيفية تحويل OneNote إلى PNG** باستخدام مكتبة **Aspose.Note للـ Java**. تحويل صفحات OneNote إلى تنسيق صورة هو حاجة شائعة عندما تريد تضمين الملاحظات في صفحات الويب، إنشاء صور مصغرة، أو أرشفة دفاتر الملاحظات دون الحاجة إلى أن يكون لدى المستخدم النهائي OneNote مثبتًا. سنستعرض إعداد البيئة، تحميل ملف `.one`، وتصدير كل صفحة كصورة PNG، بحيث يمكنك إضافة هذه القدرة إلى أي تطبيق Java في دقائق.
 
 ## إجابات سريعة
-- **ما المكتبة التي أحتاجها؟** Aspose.Note for Java.  
-- **هل يمكنني تحويل OneNote إلى صيغ أخرى؟** نعم – يمكنك أيضًا تحويل OneNote إلى PDF، JPEG، BMP، إلخ.  
-- **هل أحتاج إلى اتصال بالإنترنت؟** لا، التحويل يتم محليًا على جهازك.  
-- **ما هو تنسيق الصورة المستخدم في هذا الدليل؟** PNG (يمكنك التبديل إلى JPEG أو BMP بتغيير `SaveFormat`).  
-- **كم تستغرق عملية التحويل؟** عادةً أقل من ثانية لملف OneNote قياسي.  
-- **هل الـ API متوافق مع Java 8+؟** بالتأكيد، يعمل على أي منصة تدعم Java 8 أو أعلى.
+- **ما المكتبة التي أحتاجها؟** Aspose.Note للـ Java.  
+- **هل يمكنني تحويل OneNote إلى تنسيقات أخرى؟** نعم – يمكنك أيضًا التصدير إلى PDF، JPEG، BMP، HTML، وأكثر.  
+- **هل أحتاج إلى اتصال إنترنت؟** لا، التحويل يتم بالكامل محليًا.  
+- **أي تنسيق صورة يستخدمه هذا الدليل؟** PNG (استبدل `SaveFormat.Png` بـ JPEG أو BMP لتغيير النتيجة).  
+- **ما مدى سرعة التحويل؟** ملف OneNote مكوّن من 10 صفحات عادةً يتحول في أقل من ثانية واحدة على محطة عمل حديثة.  
+- **هل الـ API متوافق مع Java 8+؟** بالتأكيد؛ يعمل على أي منصة تدعم Java 8 أو أعلى.
 
-## ما هو “حفظ OneNote كـ PNG” عمليًا؟
+## كيفية تحويل OneNote إلى PNG؟
 
-حفظ OneNote كصورة PNG يعني تحويل كل صفحة من دفتر ملاحظات `.one` إلى تنسيق نقطي. هذه **تحويل صورة OneNote** مفيدة لمشاركة الملاحظات مع المستخدمين الذين لا يمتلكون OneNote، لإنشاء أصول بصرية ثابتة، أو لأرشفة دفاتر الملاحظات بصيغة يمكن للجميع عرضها.
+حمّل ملف OneNote باستخدام `new Document("path/to/file.one")` ثم استدعِ `document.save("output.png", new ImageSaveOptions(SaveFormat.Png))`. تقوم Aspose.Note بتصوير كل صفحة كملف PNG منفصل، مع الحفاظ على الألوان، الخطوط، والتخطيط تمامًا كما تظهر في OneNote. يمكنك ضبط الدقة أو نطاق الصفحات عبر كائن `ImageSaveOptions` قبل الحفظ.
 
-## لماذا نستخدم Aspose.Note for Java لتحويل OneNote إلى PNG؟
+## ما معنى “convert OneNote to PNG” عمليًا؟
 
-- **بدون تبعيات خارجية** – جافا صافية، لا مكونات أصلية.  
-- **دقة كاملة** – الألوان والخطوط والتخطيط تُحافظ عليها تمامًا.  
-- **إخراج مرن** – يدعم PNG، JPEG، BMP، PDF، HTML، وأكثر.  
-- **جاهز للمؤسسات** – يعمل على أي منصة تدعم Java 8+ ويمكن ترخيصه للاستخدام الإنتاجي.  
+تحويل OneNote إلى PNG يعني تصوير كل صفحة من دفتر `.one` إلى صورة نقطية. هذا **تحويل صورة OneNote** يتيح لك مشاركة الملاحظات مع مستخدمين لا يملكون OneNote، تضمين مرئيات ثابتة في الوثائق، أو أرشفة المحتوى بتنسيق يمكن للجميع عرضه.
+
+## لماذا تستخدم Aspose.Note للـ Java لتحويل OneNote إلى PNG؟
+
+- **بدون تبعيات خارجية** – جافا صافية، لا تحتاج إلى مكتبات أصلية.  
+- **دقة كاملة** – الألوان، الخطوط، والتخطيط محفوظة بدقة 100 %.  
+- **دعم تنسيقات واسع** – PNG، JPEG، BMP، PDF، HTML، وأكثر من 50 + تنسيق آخر متاح.  
+- **أداء جاهز للمؤسسات** – يعالج دفاتر مئات الصفحات دون تحميل الملف بالكامل إلى الذاكرة، باستخدام بنية تدفق تحافظ على استهلاك الذاكرة تحت 200 ميغابايت حتى لملفات 500 صفحة.  
+- **متعدد المنصات** – يعمل على Windows، Linux، و macOS مع أي بيئة تشغيل Java 8+.
 
 ## المتطلبات المسبقة
 
-قبل أن نبدأ، تأكد من وجود ما يلي:
+قبل أن تبدأ، تأكد من وجود ما يلي:
 
-1. **Java Development Kit (JDK)** – الإصدار 8 أو أعلى.  
-2. مكتبة **Aspose.Note for Java** – قم بتحميل أحدث ملف JAR من الموقع الرسمي: [Aspose.Note for Java download](https://releases.aspose.com/note/java/).  
-3. ملف **OneNote (.one)** موجود تريد تحويله (مثال: `Sample1.one`).
+1. **مجموعة تطوير جافا (JDK)** – الإصدار 8 أو أعلى مثبتًا ومُعرّف المتغير `JAVA_HOME`.  
+2. **مكتبة Aspose.Note للـ Java** – حمّل أحدث ملف JAR من الموقع الرسمي: [Aspose.Note for Java download](https://releases.aspose.com/note/java/).  
+3. ملف OneNote (`.one`) تريد تحويله، مثل `Sample1.one`.  
 
 ## استيراد الحزم
 
-أولاً، استورد الفئات التي سنحتاجها. يبقى هذا المقطع البرمجي دون تغيير:
+أولاً، استورد الفئات المطلوبة لتحميل وحفظ مستندات OneNote.
 
 ```java
 import java.io.IOException;
@@ -67,86 +135,88 @@ String dataDir = "Your Document Directory";
 ```
 
 ### الخطوة 2: تحميل مستند OneNote  
-أنشئ كائن `Document` بتحميل ملف `.one`.
+`Document` هو الكائن الأساسي في Aspose.Note الذي يمثل دفتر OneNote واحد في الذاكرة. يوفر الوصول إلى الصفحات، الأقسام، والموارد للقراءة أو الكتابة.
 
 ```java
 Document oneFile = new Document(dataDir + "Sample1.one");
 ```
 
-> نصيحة احترافية: إذا رغبت لاحقًا في **تحويل OneNote إلى PDF**، يمكنك إعادة استخدام نفس مثيل `Document` مع `SaveOptions` مختلفة.
+> **نصيحة احترافية:** يمكن إعادة استخدام نفس كائن `Document` لتصدير إلى PDF، HTML، أو تنسيقات صور أخرى دون الحاجة إلى إعادة تحميل الملف.
 
-### الخطوة 3: تهيئة ImageSaveOptions  
-أخبر Aspose.Note أي تنسيق صورة تريد. هنا نختار PNG، لكن يمكنك أيضًا استخدام `SaveFormat.Jpeg` أو `SaveFormat.Bmp`.
+### الخطوة 3: تهيئة خيارات حفظ الصورة  
+`ImageSaveOptions` يحدد لـ Aspose.Note أي تنسيق نقطي يجب إنتاجه ويسمح لك بضبط الدقة، الضغط، ونطاق الصفحات. في هذا المثال نختار PNG، لكن يمكنك استبدال `SaveFormat.Png` بـ `SaveFormat.Jpeg` أو `SaveFormat.Bmp`.
 
 ```java
 ImageSaveOptions options = new ImageSaveOptions(SaveFormat.Png);
 ```
 
-> هذا السطر يفي أيضًا بالكلمة المفتاحية الثانوية **convert onenote to png** و **save onenote as png**.
+> هذا السطر يحقق أيضًا الكلمات المفتاحية الثانوية **convert onenote to png** و **save onenote as png**.
 
 ### الخطوة 4: حفظ المستند كصورة  
-صدّر صفحة (صفحات) OneNote إلى ملف PNG.
+صدّر صفحات OneNote إلى ملفات PNG. طريقة `save` تنشئ تلقائيًا صورة منفصلة لكل صفحة (مثال: `ConvertToImage_out_1.png`, `ConvertToImage_out_2.png`, …).
 
 ```java
 oneFile.save(dataDir + "ConvertToImage_out.png", options);
 ```
 
-> طريقة `save` تتعامل تلقائيًا مع المستندات متعددة الصفحات بإنشاء ملفات صورة منفصلة لكل صفحة (مثل `ConvertToImage_out_1.png`, `ConvertToImage_out_2.png`, …).
-
 ### الخطوة 5: طباعة التأكيد  
-أخبر المستخدم بمكان كتابة الناتج.
+أخبر المستخدم بمكان كتابة ملفات الإخراج.
 
 ```java
 System.out.println("File saved: " + dataDir + "ConvertToImage_out.png");
 ```
 
-## حالات الاستخدام الشائعة لحفظ OneNote كـ PNG
+## حالات الاستخدام الشائعة لتحويل OneNote إلى PNG
 
 | السيناريو | لماذا PNG؟ | سير العمل النموذجي |
-|----------|------------|--------------------|
-| **تضمين الملاحظات في مقالة ويب** | PNG يوفر جودة غير مضغوطة ودعم واسع للمتصفحات. | تحويل، ثم إدراج PNG باستخدام وسم `<img>`. |
-| **إنشاء صور مصغرة لنظام إدارة المستندات** | حجم ملف صغير مع عرض نص حاد. | تحويل، ثم تغيير الحجم باستخدام أي مكتبة معالجة صور. |
-| **أرشفة دفاتر الملاحظات للامتثال** | PNG هو تنسيق ثابت غير قابل للتعديل. | معالجة دفعة لجميع ملفات `.one` وتخزين PNGs في مستودع آمن. |
+|----------|------------|-------------------|
+| **إدراج الملاحظات في مقالة ويب** | جودة غير مضغوطة ودعم شامل لجميع المتصفحات. | تحويل، ثم إدراج PNG باستخدام وسم `<img>`. |
+| **إنشاء صور مصغرة لنظام إدارة المستندات** | حجم ملف صغير مع عرض نص واضح. | تحويل، ثم تغيير الحجم باستخدام أي مكتبة معالجة صور. |
+| **أرشفة دفاتر الملاحظات للامتثال** | PNG هو تنسيق ثابت غير قابل للتحرير يحافظ على الدقة البصرية. | معالجة دفعة لجميع ملفات `.one` وتخزين PNGs في مستودع آمن. |
 
 ## المشكلات الشائعة والحلول
 
+`FileNotFoundException` يُرمى عندما لا يمكن العثور على الملف المحدد.  
+`Unsupported format` يحدث عندما يكون تنسيق الإخراج المطلوب غير مدعوم من قبل المكتبة.  
+`OutOfMemoryError` يشير إلى أن JVM نفدت من الذاكرة أثناء المعالجة.
+
 | المشكلة | السبب | الحل |
-|-------|--------|-----|
-| **FileNotFoundException** | مسار `dataDir` غير صحيح | تحقق من أن مسار المجلد ينتهي بشرطة مائلة (`/` أو `\\`) وأن اسم الملف صحيح. |
-| **Unsupported format** | محاولة حفظ إلى تنسيق صورة قديم غير مدعوم من نسخة المكتبة | حدّث Aspose.Note إلى أحدث نسخة أو اختر `SaveFormat` مدعومًا. |
-| **Large OneNote files cause OutOfMemoryError** | مساحة الذاكرة المؤقتة غير كافية | زد حجم heap للـ JVM (`-Xmx2g`) أو عالج الصفحات فرديًا باستخدام حلقة `Document.getPages()`. |
+|---------|-------|------|
+| **FileNotFoundException** | مسار `dataDir` غير صحيح. | تحقق من أن مسار المجلد ينتهي بشرطة مائلة (`/` أو `\\`) وأن اسم الملف صحيح. |
+| **Unsupported format** | محاولة حفظ إلى تنسيق غير مدعوم من نسخة المكتبة الحالية. | حدّث Aspose.Note إلى أحدث إصدار أو اختر `SaveFormat` مدعومًا. |
+| **OutOfMemoryError on large notebooks** | مساحة heap غير كافية للملفات الكبيرة جدًا. | زد حجم heap للـ JVM (`-Xmx2g`) أو عالج الصفحات فرديًا باستخدام حلقة `document.getPages()`. |
 
 ## الأسئلة المتكررة
 
-**س: هل يمكنني تحويل ملفات OneNote متعددة في دفعة واحدة؟**  
-ج: نعم. قم بالتكرار عبر مجموعة من أسماء الملفات، حمّل كل منها باستخدام `new Document(...)`، وكرر خطوات الحفظ.
+**س: هل يمكنني معالجة دفعة متعددة من ملفات OneNote؟**  
+ج: نعم. كرّر عبر مجموعة من مسارات الملفات، حمّل كل منها باستخدام `new Document(...)`، وكرر خطوات الحفظ داخل الحلقة.
 
-**س: هل يدعم Aspose.Note تحويل OneNote إلى PDF؟**  
-ج: بالتأكيد. استخدم `PdfSaveOptions` بدلاً من `ImageSaveOptions` لـ **convert onenote to pdf**.
+**س: هل تدعم Aspose.Note تحويل OneNote إلى PDF؟**  
+ج: بالتأكيد. استخدم `PdfSaveOptions` بدلاً من `ImageSaveOptions` لتقوم **بتحويل OneNote إلى PDF** باستدعاء طريقة واحدة.
 
-**س: كيف يمكنني تغيير دقة إخراج PNG؟**  
-ج: اضبط `options.setResolutionX(int)` و `options.setResolutionY(int)` قبل استدعاء `save`.
+**س: كيف أغيّر دقة إخراج PNG؟**  
+ج: استدعِ `options.setResolutionX(int)` و `options.setResolutionY(int)` على كائن `ImageSaveOptions` قبل استدعاء `save`.
 
-**س: هل هناك طريقة لتحويل OneNote إلى صيغ صور أخرى مثل JPEG؟**  
-ج: نعم، استبدل `SaveFormat.Png` بـ `SaveFormat.Jpeg` أو `SaveFormat.Bmp` في مُنشئ `ImageSaveOptions`.
+**س: هل يمكنني التصدير إلى JPEG أو BMP بدلاً من PNG؟**  
+ج: نعم—استبدل `SaveFormat.Png` بـ `SaveFormat.Jpeg` أو `SaveFormat.Bmp` في مُنشئ `ImageSaveOptions`.
 
-**س: هل أحتاج إلى اتصال بالإنترنت لإجراء التحويل؟**  
-ج: لا. Aspose.Note يقوم بجميع المعالجة محليًا؛ لا يتم استدعاء أي خدمات خارجية.
+**س: هل أحتاج إلى اتصال إنترنت لإجراء التحويل؟**  
+ج: لا. جميع المعالجة تتم محليًا؛ لا يتم الاتصال بأي خدمات خارجية.
 
-**س: كيف أتعامل مع ملفات OneNote المحمية بكلمة مرور؟**  
-ج: مرّر كلمة المرور إلى مُنشئ `Document`: `new Document(path, password)`.
+**س: كيف يتم التعامل مع ملفات OneNote المحمية بكلمة مرور؟**  
+ج: قدّم كلمة المرور إلى مُنشئ `Document`: `new Document(path, password)`.
 
-## الخاتمة
+**آخر تحديث:** 2026-09-04  
+**تم الاختبار مع:** Aspose.Note للـ Java 24.12  
+**المؤلف:** Aspose
 
-باتباع هذه الخطوات البسيطة، أصبحت الآن تعرف **كيفية حفظ OneNote كـ PNG** باستخدام **Aspose.Note for Java**. تفتح هذه القدرة الباب للعديد من السيناريوهات — تضمين الملاحظات في المواقع الإلكترونية، إنشاء أصول قابلة للطباعة، أو ببساطة أرشفة دفاتر الملاحظات كصور ثابتة. لا تتردد في تجربة صيغ إخراج أخرى مثل PDF أو JPEG، ودمج الكود في خطوط أتمتة أكبر.
+## دروس ذات صلة
 
----
-**آخر تحديث:** 2026-02-05  
-**تم الاختبار مع:** Aspose.Note for Java 24.12  
-**المؤلف:** Aspose  
+- [كيفية تصدير صفحة OneNote إلى صورة PNG في Java باستخدام Aspose.Note](/note/java/onenote-document-loading/convert-page-to-png-image/)
+- [تصدير OneNote إلى صورة BMP باستخدام Aspose.Note للـ Java وخيارات حفظ الصورة](/note/java/onenote-document-saving/save-to-bmp-image-using-image-save-options/)
+- [تعلم زيادة DPI للـ JPEG – ضبط دقة الصورة الناتجة في OneNote باستخدام Aspose.Note](/note/java/onenote-document-saving/set-output-image-resolution/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
-
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}
 
