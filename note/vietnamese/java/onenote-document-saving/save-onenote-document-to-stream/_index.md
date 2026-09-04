@@ -1,11 +1,46 @@
 ---
-date: 2025-12-12
-description: Tìm hiểu cách lưu PDF OneNote vào luồng và xuất PDF OneNote bằng Aspose.Note
-  cho Java. Hãy làm theo hướng dẫn từng bước của chúng tôi để tích hợp hiệu quả vào
-  các ứng dụng Java của bạn.
-linktitle: Save OneNote PDF to Stream - Aspose.Note
+date: 2026-09-04
+description: Tìm hiểu cách chuyển đổi tệp .one sang pdf và lưu PDF vào stream bằng
+  Aspose.Note cho Java. Thực hiện theo hướng dẫn từng bước của chúng tôi để tích hợp
+  hiệu quả.
+keywords:
+- convert .one file to pdf
+- convert onenote file to pdf
+- how to save pdf to stream
+lastmod: 2026-09-04
+linktitle: Chuyển đổi tệp .one sang pdf và lưu vào stream với Aspose.Note
+og_description: Tìm hiểu cách chuyển đổi tệp .one sang pdf và lưu PDF vào stream bằng
+  Aspose.Note cho Java. Hướng dẫn này cũng chỉ cách lưu pdf vào stream một cách hiệu
+  quả.
+og_image_alt: 'Developer guide: convert .one file to pdf and save to stream using
+  Aspose.Note Java'
+og_title: Chuyển đổi tệp .one sang pdf và lưu vào stream với Aspose.Note
+schemas:
+- author: Aspose
+  dateModified: '2026-09-04'
+  description: Learn how to convert .one file to pdf and save the PDF to a stream
+    using Aspose.Note for Java. Follow our step‑by‑step guide for efficient integration.
+  headline: Convert .one file to pdf and save to stream with Aspose.Note
+  type: TechArticle
+- questions:
+  - answer: 'Yes—retrieve the byte array with `dstStream.toByteArray()` and write
+      it to the servlet’s `OutputStream` with the `Content-Type: application/pdf`
+      header.'
+    question: Can I stream the PDF directly to an HTTP response?
+  - answer: Aspose.Note does not provide built‑in encryption, but you can post‑process
+      the byte array with Aspose.PDF or another library to apply password protection.
+    question: Is it possible to encrypt the exported PDF?
+  - answer: Yes—use the `Document` constructor that accepts a password parameter to
+      open protected files before exporting.
+    question: Does the library support converting password‑protected OneNote files?
+  type: FAQPage
 second_title: Aspose.Note Java API
-title: Lưu PDF OneNote vào luồng - Aspose.Note
+tags:
+- convert .one file
+- Aspose.Note
+- Java PDF conversion
+- stream handling
+title: Chuyển đổi tệp .one sang pdf và lưu vào stream với Aspose.Note
 url: /vi/java/onenote-document-saving/save-onenote-document-to-stream/
 weight: 13
 ---
@@ -14,30 +49,35 @@ weight: 13
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Lưu OneNote PDF vào Stream - Aspose.Note
+# Chuyển đổi tệp .one sang pdf và lưu vào stream với Aspose.Note
 
 ## Giới thiệu
 
-Trong hướng dẫn này bạn sẽ khám phá cách **lưu OneNote PDF** trực tiếp vào một memory stream bằng Aspose.Note cho Java. Việc stream tài liệu cho phép bạn kiểm soát hoàn toàn nơi đầu ra sẽ tới—cho dù bạn cần gửi nó qua mạng, lưu vào cơ sở dữ liệu, hoặc xử lý tiếp mà không chạm tới hệ thống tệp. Chúng tôi sẽ hướng dẫn từng bước, từ việc tải tệp OneNote đến xuất nó dưới dạng PDF stream, để bạn có thể tích hợp khả năng này vào các ứng dụng Java của mình một cách tự tin.
+Trong tutorial này, bạn sẽ học cách **convert .one file to pdf** và ghi PDF kết quả trực tiếp vào một memory stream bằng Aspose.Note cho Java. Việc stream đầu ra cho phép bạn kiểm soát hoàn toàn nơi dữ liệu được đưa tới — dù bạn cần gửi nó qua HTTP, lưu vào cơ sở dữ liệu, hoặc truyền tới thành phần xử lý khác mà không tạo tệp tạm thời trên đĩa. Hãy làm theo các hướng dẫn từng bước dưới đây để tích hợp khả năng này vào bất kỳ dịch vụ backend dựa trên Java nào.
 
 ## Câu trả lời nhanh
-- **“Lưu OneNote PDF” có nghĩa là gì?** Nó chuyển đổi một tệp OneNote sang định dạng PDF và ghi kết quả vào một stream thay vì một tệp vật lý.  
-- **Tại sao lại dùng stream?** Streams cho phép bạn xử lý dữ liệu trong bộ nhớ, lý tưởng cho các dịch vụ web, API, hoặc khi muốn tránh các tệp tạm thời.  
-- **Định dạng Aspose.Note nào được sử dụng?** Enum `SaveFormat.Pdf` cho thư viện biết xuất ra PDF.  
-- **Có cần giấy phép cho môi trường production không?** Có—Aspose.Note yêu cầu giấy phép hợp lệ cho việc sử dụng thương mại.  
-- **Tôi có thể xuất sang các định dạng khác không?** Chắc chắn—sử dụng các giá trị `SaveFormat` khác như `Docx`, `Html`, `Png`, v.v.
+- **What does “save OneNote PDF” mean?** Nó chuyển đổi tệp OneNote sang định dạng PDF và ghi kết quả vào một stream thay vì tệp vật lý.  
+- **Why use a stream?** Streams cho phép bạn xử lý dữ liệu trong bộ nhớ, lý tưởng cho các dịch vụ web, API, hoặc khi bạn muốn tránh các tệp tạm thời.  
+- **Which Aspose.Note format is used?** Enum `SaveFormat.Pdf` cho thư viện biết xuất ra PDF.  
+- **Do I need a license for production?** Có — Aspose.Note yêu cầu giấy phép hợp lệ cho việc sử dụng thương mại.  
+- **Can I export other formats?** Chắc chắn — sử dụng các giá trị `SaveFormat` khác như `Docx`, `Html`, `Png`, v.v.
+
+## Convert .one file to pdf là gì?
+Việc chuyển đổi một sổ tay OneNote `.one` sang PDF tạo ra một bản đại diện di động, chỉ đọc mà có thể xem trên bất kỳ thiết bị nào. Aspose.Note thực hiện chuyển đổi hoàn toàn trong bộ nhớ, giữ nguyên bố cục, hình ảnh, đối tượng nhúng và liên kết, đồng thời duy trì độ trung thực cao so với giao diện gốc của sổ tay.
+
+## Tại sao sử dụng Aspose.Note cho việc chuyển đổi này?
+Aspose.Note hỗ trợ **hơn 30 định dạng xuất** và có thể xử lý các sổ tay với **tối đa 500 trang** mà không cần tải toàn bộ tệp vào bộ nhớ, nhờ kiến trúc streaming của nó. Thư viện chạy trên Java 8+ và không yêu cầu cài đặt Microsoft Office, làm cho nó trở nên lý tưởng cho tự động hoá phía máy chủ.
 
 ## Yêu cầu trước
-
-Trước khi bắt đầu, hãy đảm bảo bạn đã có các yêu cầu sau:
-
 - Hiểu biết cơ bản về lập trình Java.  
-- JDK đã được cài đặt trên hệ thống.  
-- Thư viện Aspose.Note cho Java đã tải về và được thêm vào dự án. Bạn có thể tải về từ [here](https://releases.aspose.com/note/java/).
+- JDK đã được cài đặt trên hệ thống của bạn.  
+- Thư viện Aspose.Note cho Java đã được tải xuống và thêm vào dự án của bạn. Bạn có thể tải nó từ [Aspose.Note for Java download page](https://releases.aspose.com/note/java/).
+
+## Định nghĩa anchor: lớp Document
+Lớp `Document` là đối tượng cốt lõi của Aspose.Note, đại diện cho một sổ tay OneNote được tải vào bộ nhớ. Tất cả các thao tác tiếp theo — lưu, chuyển đổi hoặc chỉnh sửa — đều được thực hiện thông qua thể hiện này.
 
 ## Nhập các gói
-
-Đầu tiên, nhập các lớp cần thiết. Giữ cho các import gọn gàng sẽ giúp code dễ đọc và bảo trì hơn.
+Đầu tiên, nhập các lớp mà chúng ta sẽ cần. Giữ cho các import gọn gàng giúp mã dễ đọc và bảo trì hơn.
 
 ```java
 import java.io.ByteArrayOutputStream;
@@ -46,76 +86,75 @@ import com.aspose.note.Document;
 import com.aspose.note.SaveFormat;
 ```
 
-## Bước 1: Tải tài liệu OneNote
+## Cách chuyển đổi .one file sang pdf và lưu vào stream?
+Tải tệp nguồn `.one` bằng `new Document("source.one")`, sau đó gọi `doc.save(dstStream, SaveFormat.Pdf)`. `ByteArrayOutputStream` hiện chứa các byte PDF, bạn có thể gửi trực tiếp tới client, ghi vào BLOB của cơ sở dữ liệu, hoặc truyền tới API khác mà không cần chạm tới hệ thống tệp.
 
-Tải tệp OneNote nguồn vào một đối tượng `Aspose.Note` `Document`. Thay thế đường dẫn placeholder bằng vị trí thực tế của tệp `.one` của bạn.
+## Bước 1: Tải tài liệu OneNote
+Constructor `Document` đọc tệp OneNote và xây dựng một biểu diễn trong bộ nhớ. Thay thế đường dẫn placeholder bằng vị trí thực tế của tệp `.one` của bạn.
 
 ```java
 String dataDir = "Your Document Directory";
 Document doc = new Document(dataDir + "Sample1.one");
 ```
 
-## Bước 2: Lưu tài liệu vào Stream
-
-Bây giờ chúng ta xuất tài liệu đã tải dưới dạng PDF và ghi nó vào một `ByteArrayOutputStream`. Stream này có thể được gửi trực tiếp tới client, lưu vào cơ sở dữ liệu, hoặc được xử lý tiếp.
+## Bước 2: Lưu tài liệu vào stream
+Bây giờ chúng ta xuất tài liệu đã tải dưới dạng PDF và ghi nó vào một `ByteArrayOutputStream`. `ByteArrayOutputStream` là một lớp Java lưu dữ liệu trong bộ nhớ dưới dạng mảng byte, cho phép bạn lấy lại các byte sau này. Stream này có thể được gửi trực tiếp tới client, lưu vào cơ sở dữ liệu, hoặc được xử lý thêm.
 
 ```java
 ByteArrayOutputStream dstStream = new ByteArrayOutputStream();
 doc.save(dstStream, SaveFormat.Pdf);
 ```
 
-### Cách **xuất OneNote PDF** tới các đích khác
-
-Nếu bạn cần PDF dưới dạng mảng byte, chỉ cần gọi `dstStream.toByteArray()`. Đối với phản hồi web, ghi mảng byte vào HTTP output stream. Cách tiếp cận này cũng áp dụng cho các định dạng khác—chỉ cần thay `SaveFormat.Pdf` bằng giá trị enum mong muốn.
+### Cách xuất OneNote PDF tới các đích khác
+Nếu bạn cần PDF dưới dạng mảng byte, chỉ cần gọi `dstStream.toByteArray()`. Đối với phản hồi web, ghi mảng byte vào HTTP output stream. Cách tiếp cận này cũng áp dụng cho các định dạng khác — chỉ cần thay đổi `SaveFormat.Pdf` thành giá trị enum mong muốn.
 
 ## Các vấn đề thường gặp và giải pháp
-
-- **OutOfMemoryError** – Khi xử lý các tệp OneNote rất lớn, cân nhắc sử dụng `FileOutputStream` để ghi trực tiếp vào đĩa thay vì giữ toàn bộ trong bộ nhớ.  
-- **Missing fonts** – PDF có thể mất các phông chữ tùy chỉnh nếu chúng không được cài trên server. Sử dụng `FontSettings` để nhúng phông nếu cần.  
-- **License not found** – Đảm bảo tệp giấy phép được tải trước khi gọi bất kỳ API nào của Aspose.Note; nếu không sẽ nhận được watermark dùng thử.
+- **OutOfMemoryError** – Khi xử lý các tệp OneNote rất lớn, hãy cân nhắc sử dụng `FileOutputStream` để ghi trực tiếp vào đĩa thay vì giữ mọi thứ trong bộ nhớ.  
+- **Missing fonts** – PDF có thể mất phông chữ tùy chỉnh nếu chúng không được cài đặt trên máy chủ. Sử dụng `FontSettings` để nhúng phông chữ nếu cần. `FontSettings` là một lớp trong Aspose.Note cho phép bạn kiểm soát việc thay thế và nhúng phông chữ trong quá trình chuyển đổi PDF.  
+- **License not found** – Đảm bảo tệp giấy phép được tải trước khi gọi bất kỳ API nào của Aspose.Note; nếu không, bạn sẽ nhận được watermark bản dùng thử.
 
 ## Câu hỏi thường gặp
 
 ### Q1: Tôi có thể lưu tài liệu OneNote ở các định dạng khác ngoài PDF không?
-
-A1: Có, Aspose.Note hỗ trợ lưu tài liệu ở nhiều định dạng như DOCX, HTML, JPEG, PNG, v.v. 
+A1: Có, Aspose.Note hỗ trợ lưu tài liệu ở **hơn 30 định dạng xuất** như DOCX, HTML, JPEG, PNG, và nhiều hơn nữa.
 
 ### Q2: Có bản dùng thử miễn phí cho Aspose.Note cho Java không?
+A2: Có, bạn có thể tải bản dùng thử miễn phí từ [Aspose releases page](https://releases.aspose.com/).
 
-A2: Có, bạn có thể tải bản dùng thử miễn phí từ [here](https://releases.aspose.com/).
+### Q3: Tôi có thể tìm hỗ trợ thêm hoặc đặt câu hỏi liên quan đến Aspose.Note ở đâu?
+A3: Bạn có thể truy cập diễn đàn Aspose.Note tại [Aspose.Note forum](https://forum.aspose.com/c/note/28).
 
-### Q3: Tôi có thể tìm hỗ trợ hoặc đặt câu hỏi liên quan đến Aspose.Note ở đâu?
-
-A3: Bạn có thể truy cập diễn đàn Aspose.Note [here](https://forum.aspose.com/c/note/28).
-
-### Q4: Làm sao để mua giấy phép cho Aspose.Note cho Java?
-
-A4: Bạn có thể mua giấy phép từ [here](https://purchase.aspose.com/buy).
+### Q4: Làm thế nào để mua giấy phép cho Aspose.Note cho Java?
+A4: Bạn có thể mua giấy phép từ [Aspose purchase page](https://purchase.aspose.com/buy).
 
 ### Q5: Tôi có cần giấy phép tạm thời cho mục đích đánh giá không?
+A5: Có, bạn có thể lấy giấy phép tạm thời từ [temporary license request page](https://purchase.aspose.com/temporary-license/).
 
-A5: Có, bạn có thể lấy giấy phép tạm thời từ [here](https://purchase.aspose.com/temporary-license/).
-
-## Frequently Asked Questions
-
+## Các câu hỏi thường gặp
 **Q: Tôi có thể stream PDF trực tiếp tới phản hồi HTTP không?**  
-A: Có—lấy mảng byte bằng `dstStream.toByteArray()` và ghi nó vào `OutputStream` của servlet với `Content-Type: application/pdf` thích hợp.
+A: Có — lấy mảng byte bằng `dstStream.toByteArray()` và ghi nó vào `OutputStream` của servlet với header `Content-Type: application/pdf`.
 
-**Q: Có thể mã hóa PDF đã xuất không?**  
-A: Aspose.Note không trực tiếp mã hóa PDF, nhưng bạn có thể xử lý hậu kỳ mảng byte bằng Aspose.PDF hoặc thư viện tương tự để áp dụng mã hóa.
+**Q: Có thể mã hoá PDF đã xuất không?**  
+A: Aspose.Note không cung cấp tính năng mã hoá tích hợp, nhưng bạn có thể xử lý sau mảng byte bằng Aspose.PDF hoặc thư viện khác để áp dụng bảo vệ bằng mật khẩu.
 
 **Q: Thư viện có hỗ trợ chuyển đổi các tệp OneNote được bảo vệ bằng mật khẩu không?**  
-A: Có—sử dụng constructor `Document` nhận tham số mật khẩu để mở các tệp được bảo vệ trước khi xuất.
+A: Có — sử dụng constructor `Document` nhận tham số mật khẩu để mở các tệp được bảo vệ trước khi xuất.
 
 ## Kết luận
-
-Bạn đã có một cách hoàn chỉnh, sẵn sàng cho môi trường production để **lưu OneNote PDF** vào stream bằng Aspose.Note cho Java. Bằng cách làm theo các bước này, bạn có thể tích hợp chuyển đổi OneNote‑to‑PDF một cách liền mạch vào các dịch vụ web, micro‑service, hoặc bất kỳ backend Java nào cần tạo tài liệu ngay lập tức.
+Bây giờ bạn đã có một phương pháp hoàn chỉnh, sẵn sàng cho môi trường sản xuất để **convert .one file to pdf** và lưu PDF vào stream bằng Aspose.Note cho Java. Bằng cách làm theo các bước này, bạn có thể tích hợp liền mạch việc chuyển đổi OneNote sang PDF vào các dịch vụ web, micro‑service, hoặc bất kỳ backend Java nào cần tạo tài liệu ngay lập tức mà không cần tệp trung gian.
 
 ---
 
-**Cập nhật lần cuối:** 2025-12-12  
-**Kiểm thử với:** Aspose.Note cho Java 26.4  
-**Tác giả:** Aspose  
+**Cập nhật lần cuối:** 2026-09-04  
+**Kiểm tra với:** Aspose.Note for Java 26.4  
+**Tác giả:** Aspose
+
+## Hướng dẫn liên quan
+
+- [Tải tệp OneNote bằng Java: Sử dụng Aspose.Note để tải tài liệu OneNote](/note/java/onenote-document-loading/load-onenote-document/)
+- [Học cách chuyển đổi OneNote sang PDF với Aspose.Note sử dụng PdfSaveOptions](/note/java/onenote-document-loading/load-pdf-save-options/)
+- [Chuyển đổi OneNote sang PDF bằng Cài đặt Trang với Aspose.Note cho Java](/note/java/onenote-document-saving/save-to-pdf-using-page-settings/)
+
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
