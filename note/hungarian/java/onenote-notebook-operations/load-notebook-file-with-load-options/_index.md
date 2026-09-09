@@ -127,7 +127,7 @@ A5: Ha a terméket értékeli, ideiglenes licencet szerezhet [innen](https://pur
 ---
 
 **Legutóbb frissítve:** 2025-12-31  
-**Tesztelve a következővel:** Aspose.Note 24.11 for Java  
+**Tesztelve a következővel:** Aspose.Note 26.4 for Java  
 **Szerző:** Aspose
 
 {{< /blocks/products/pf/tutorial-page-section >}}

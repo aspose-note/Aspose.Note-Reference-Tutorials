@@ -48,7 +48,7 @@ using System.Text;
 string dataDir = "Your Document Directory";
 
 // OneNote ノートブックをロードする
-var notebook = new Notebook(dataDir + "Notizbuch öffnen.onetoc2");
+var notebook = new Notebook(dataDir + "Notebook.onetoc2");
 ```
 
 ## ステップ 2: 保存オプションを設定する

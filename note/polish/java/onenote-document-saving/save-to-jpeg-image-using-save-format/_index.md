@@ -129,9 +129,9 @@ Omówiliśmy wszystko, co potrzebne do **renderowania obrazu strony OneNote** pr
 
 ---
 
-**Ostatnia aktualizacja:** 2026-03-24  
-**Testowano z:** Aspose.Note for Java 24.0 (najnowsza w momencie pisania)  
-**Autor:** Aspose  
+**Last Updated:** 2025-12-17  
+**Tested With:** Aspose.Note for Java 26.4 (najnowsza w momencie pisania)  
+**Author:** Aspose  
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

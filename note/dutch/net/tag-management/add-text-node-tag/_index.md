@@ -53,7 +53,7 @@ Maak pagina- en overzichtsobjecten om de inhoud van het OneNote-document te stru
 
 ```csharp
 Aspose.Note.Page page = new Aspose.Note.Page(doc);
-Outline outline = new Outline(doc);
+Outline outline = new Outline();
 ```
 
 ## Stap 3: Voeg een tekstknooppunt met tag toe
@@ -61,9 +61,9 @@ Outline outline = new Outline(doc);
 Maak een RichText-object met de gewenste tekst en stijl en voeg dit vervolgens toe aan het OutlineElement.
 
 ```csharp
-OutlineElement outlineElem = new OutlineElement(doc);
+OutlineElement outlineElem = new OutlineElement();
 ParagraphStyle textStyle = new ParagraphStyle { FontColor = Color.Black, FontName = "Arial", FontSize = 10 };
-RichText text = new RichText(doc) { Text = "OneNote text.", ParagraphStyle = textStyle };
+RichText text = new RichText() { Text = "OneNote text.", ParagraphStyle = textStyle };
 text.Tags.Add(NoteTag.CreateYellowStar());
 outlineElem.AppendChildLast(text);
 ```

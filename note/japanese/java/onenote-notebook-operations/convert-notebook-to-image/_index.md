@@ -28,7 +28,7 @@ weight: 12
 
 ## What is **save OneNote as image**?
 
-OneNote を画像として保存するとは、`.one` ノートブックの各ページをラスタ画像ファイル（例: PNG）にレンダリングすることです。これにより、OneNote が不要な、ポータブルで閲覧専用の表現が作成され、どこでも表示できます。
+1.  Java 開発キット (JDK): システムに Java がインストールされていることを確認してください。最新バージョンをダウンロードしてインストールできます。[Webサイト](https://www.oracle.com/java/technologies/downloads/).
 
 ## Why convert OneNote to image?
 

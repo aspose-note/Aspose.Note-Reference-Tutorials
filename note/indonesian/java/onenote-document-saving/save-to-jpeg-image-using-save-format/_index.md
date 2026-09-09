@@ -129,9 +129,9 @@ Kami telah membahas semua yang Anda perlukan untuk **render OneNote page image**
 
 ---
 
-**Last Updated:** 2026-03-24  
-**Tested With:** Aspose.Note untuk Java 24.0 (terbaru pada saat penulisan)  
-**Author:** Aspose  
+**Terakhir Diperbarui:** 2025-12-17  
+**Diuji Dengan:** Aspose.Note for Java 26.4 (latest at time of writing)  
+**Penulis:** Aspose  
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

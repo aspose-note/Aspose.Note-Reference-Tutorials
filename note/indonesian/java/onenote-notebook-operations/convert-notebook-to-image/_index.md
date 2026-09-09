@@ -42,8 +42,7 @@ Menyimpan OneNote sebagai gambar berarti merender setiap halaman notebook `.one`
 
 Sebelum Anda memulai, pastikan Anda memiliki:
 
-1. **Java Development Kit (JDK)** – Unduh JDK terbaru dari [website](https://www.oracle.com/java/technologies/javase-jdk15-downloads.html).  
-2. **Aspose.Note for Java library** – Dapatkan JAR dari [Aspose website](https://releases.aspose.com/note/java/) dan tambahkan ke classpath proyek Anda.
+1.  Java Development Kit (JDK): Pastikan Anda telah menginstal Java di sistem Anda. Anda dapat mengunduh dan menginstal versi terbaru dari[situs web](https://www.oracle.com/java/technologies/downloads/).
 
 ## Impor Paket
 

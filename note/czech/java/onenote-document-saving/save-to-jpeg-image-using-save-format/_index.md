@@ -129,8 +129,8 @@ Probrali jsme vše, co potřebujete k **vykreslení obrázku stránky OneNote** 
 
 ---
 
-**Last Updated:** 2026-03-24  
-**Tested With:** Aspose.Note for Java 24.0 (latest at time of writing)  
+**Last Updated:** 2025-12-17  
+**Testováno s:** Aspose.Note pro Java 26.4 (nejnovější v době psaní)  
 **Author:** Aspose  
 
 {{< /blocks/products/pf/tutorial-page-section >}}

@@ -129,8 +129,8 @@ Nous avons couvert tout ce dont vous avez besoin pour **rendre une image de page
 
 ---
 
-**Dernière mise à jour :** 2026-03-24  
-**Testé avec :** Aspose.Note for Java 24.0 (dernière version au moment de la rédaction)  
+**Dernière mise à jour :** 2025-12-17  
+**Testé avec :** Aspose.Note for Java 26.4 (dernière version au moment de la rédaction)  
 **Auteur :** Aspose  
 
 {{< /blocks/products/pf/tutorial-page-section >}}

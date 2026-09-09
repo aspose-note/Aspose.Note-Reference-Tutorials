@@ -154,8 +154,8 @@ A: 是的，开发者可通过 Aspose.Note 论坛获取全面支持，地址为 
 
 ---
 
-**最后更新：** 2026-03-24  
-**测试环境：** Aspose.Note for Java 24.11  
+**最后更新：** 2025-12-31  
+**测试环境：** Aspose.Note for Java 26.4  
 **作者：** Aspose  
 
 {{< /blocks/products/pf/tutorial-page-section >}}

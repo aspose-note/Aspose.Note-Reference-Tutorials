@@ -41,7 +41,7 @@ Aspose.Note.Document doc = new Aspose.Note.Document();
 // Αρχικοποίηση αντικειμένου κλάσης σελίδας
 Aspose.Note.Page page = new Aspose.Note.Page(doc);
 // Αρχικοποίηση αντικειμένου κλάσης Outline
-Outline outline = new Outline(doc);
+Outline outline = new Outline();
 ```
 ## Βήμα 3: Ορίστε το προεπιλεγμένο στυλ κειμένου
 ```csharp
@@ -51,8 +51,8 @@ ParagraphStyle defaultStyle = new ParagraphStyle { FontColor = Color.Black, Font
 ## Βήμα 4: Δημιουργήστε στοιχεία περιγράμματος με κουκκίδες
 ```csharp
 // Αρχικοποιήστε αντικείμενα κλάσης OutlineElement και εφαρμόστε κουκκίδες
-OutlineElement outlineElem1 = new OutlineElement(doc) { NumberList = new NumberList("*", "Arial", 10) };
-RichText text1 = new RichText(doc) { Text = "First", ParagraphStyle = defaultStyle };
+OutlineElement outlineElem1 = new OutlineElement() { NumberList = new NumberList("*", "Arial", 10) };
+RichText text1 = new RichText() { Text = "First", ParagraphStyle = defaultStyle };
 outlineElem1.AppendChildLast(text1);
 // Επαναλάβετε για άλλα στοιχεία περιγράμματος
 ```

@@ -49,7 +49,7 @@ NotebookLoadOptions loadOptions = new NotebookLoadOptions { InstantLoading = tru
 Ensuite, spécifiez le chemin d'accès au fichier notebook et initialisez l'objet notebook à l'aide des options de chargement spécifiées.
 
 ```csharp
-String inputFile = "Notizbuch öffnen.onetoc2";
+String inputFile = "Notebook.onetoc2";
 String dataDir = "Your Document Directory";
 Notebook notebook = new Notebook(dataDir + inputFile, loadOptions);
 ```

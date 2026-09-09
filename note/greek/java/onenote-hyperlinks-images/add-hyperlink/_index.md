@@ -130,7 +130,7 @@ TextStyle textStyleRed = new TextStyle()
 ```java
 RichText text = new RichText()
                             .append("This is ", textStyleRed)
-                            .append("hyperlink", new TextStyle().setHyperlinkAddress("www.google.com"))
+                            .append("hyperlink", new TextStyle().setHyperlinkAddress("https://www.google.com"))
                             .append(". This text is not a hyperlink.", TextStyle.getDefault());
 text.setParagraphStyle(defaultTextStyle);
 outlineElem.appendChildLast(text);
@@ -179,7 +179,7 @@ A: Μια προσωρινή άδεια αξιολόγησης είναι επα
 ---
 
 **Τελευταία Ενημέρωση:** 2025-12-20  
-**Δοκιμή Με:** Aspose.Note for Java 23.12  
+**Δοκιμή Με:** Aspose.Note for Java 26.4  
 **Συγγραφέας:** Aspose  
 
 {{< /blocks/products/pf/tutorial-page-section >}}

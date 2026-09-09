@@ -155,8 +155,10 @@ A: Absolut – passen Sie die Variablen `outputFile` und `outputPath` in der
 **Q5: Bietet Aspose.Note for Java Support und Hilfe bei technischen Problemen?**  
 A: Ja, Entwickler können umfassenden Support über das Aspose.Note‑Forum unter [https://forum.aspose.com/c/note/28](https://forum.aspose.com/c/note/28) erhalten.
 
-**Letzte Aktualisierung:** 2026-03-24  
-**Getestet mit:** Aspose.Note for Java 24.11  
+---
+
+**Zuletzt aktualisiert:** 2025-12-31  
+**Getestet mit:** Aspose.Note for Java 26.4  
 **Autor:** Aspose  
 
 {{< /blocks/products/pf/tutorial-page-section >}}

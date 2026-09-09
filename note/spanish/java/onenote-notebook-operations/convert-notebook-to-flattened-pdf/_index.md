@@ -59,7 +59,7 @@ Cargue el cuaderno que desea convertir. Reemplace la ruta del marcador de posici
 
 ```java
 String dataDir = "Your Document Directory";
-Notebook notebook = new Notebook(dataDir + "Notizbuch öffnen.onetoc2");
+Notebook notebook = new Notebook(dataDir + "Notebook.onetoc2");
 ```
 
 ## Paso 2: Establecer opciones de conversión (Flatten PDF)

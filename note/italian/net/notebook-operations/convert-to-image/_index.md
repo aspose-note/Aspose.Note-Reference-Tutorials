@@ -42,7 +42,7 @@ Per iniziare, dobbiamo caricare il taccuino OneNote che vogliamo convertire. Ecc
 
 ```csharp
 string dataDir = "Your Document Directory";
-var notebook = new Notebook(dataDir + "Notizbuch �ffnen.onetoc2");
+var notebook = new Notebook(dataDir + "Notebook.onetoc2");
 ```
 
 ## Passaggio 2: salva il taccuino come immagine

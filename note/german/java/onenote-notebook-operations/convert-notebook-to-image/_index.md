@@ -41,8 +41,9 @@ OneNote als Bild zu speichern bedeutet, jede Seite eines `.one`‑Notebooks in e
 
 Bevor Sie beginnen, stellen Sie sicher, dass Sie Folgendes haben:
 
-1. **Java Development Kit (JDK)** – Laden Sie das neueste JDK von der [Website](https://www.oracle.com/java/technologies/javase-jdk15-downloads.html) herunter.  
-2. **Aspose.Note für Java‑Bibliothek** – Holen Sie sich das JAR von der [Aspose‑Website](https://releases.aspose.com/note/java/) und fügen Sie es dem Klassenpfad Ihres Projekts hinzu.
+1.  Java Development Kit (JDK): Stellen Sie sicher, dass Java auf Ihrem System installiert ist. Sie können die neueste Version von herunterladen und installieren[Webseite](https://www.oracle.com/java/technologies/downloads/).
+
+2.  Aspose.Note für Java-Bibliothek: Laden Sie die Aspose.Note für Java-Bibliothek herunter und fügen Sie sie in Ihr Projekt ein. Die Bibliothek erhalten Sie über die[Aspose-Website](https://releases.aspose.com/note/java/).
 
 ## Pakete importieren
 

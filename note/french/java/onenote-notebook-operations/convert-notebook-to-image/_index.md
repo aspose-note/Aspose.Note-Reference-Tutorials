@@ -29,7 +29,7 @@ Dans ce tutoriel, vous apprendrez **comment enregistrer OneNote en image** en co
 
 ## Qu’est‑ce que **enregistrer OneNote en image** ?
 
-Enregistrer OneNote en image signifie rendre chaque page d’un carnet `.one` sous forme de fichier image raster (par ex., PNG). Cela crée une représentation portable, en lecture‑seule, qui peut être affichée partout sans nécessiter OneNote.
+1.  Kit de développement Java (JDK) : assurez-vous que Java est installé sur votre système. Vous pouvez télécharger et installer la dernière version à partir du[site web](https://www.oracle.com/java/technologies/downloads/).
 
 ## Pourquoi convertir OneNote en image ?
 

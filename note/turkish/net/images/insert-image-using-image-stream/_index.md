@@ -54,8 +54,8 @@ Aspose.Note.Page page = new Aspose.Note.Page(doc);
 
 ## 3. Adım: Outline ve OutlineElement Nesnelerini Başlatın
 ```csharp
-Outline outline1 = new Outline(doc);
-OutlineElement outlineElem1 = new OutlineElement(doc);
+Outline outline1 = new Outline();
+OutlineElement outlineElem1 = new OutlineElement();
 ```
 İçeriğimizi sayfa içinde yapılandırmak için Outline ve OutlineElement sınıflarının örneklerini oluştururuz.
 

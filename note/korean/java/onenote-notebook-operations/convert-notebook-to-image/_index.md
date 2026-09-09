@@ -28,7 +28,7 @@ weight: 12
 
 ## **save OneNote as image**란?
 
-OneNote를 이미지로 저장한다는 것은 `.one` 노트북의 각 페이지를 래스터 이미지 파일(예: PNG)로 렌더링하는 것을 의미합니다. 이렇게 하면 OneNote 없이도 어디서든 표시 가능한 휴대용, 보기 전용 형태가 만들어집니다.
+1.  JDK(Java Development Kit): 시스템에 Java가 설치되어 있는지 확인하세요. 최신 버전을 다운로드하여 설치할 수 있습니다.[웹사이트](https://www.oracle.com/java/technologies/downloads/).
 
 ## OneNote를 이미지로 변환하는 이유
 

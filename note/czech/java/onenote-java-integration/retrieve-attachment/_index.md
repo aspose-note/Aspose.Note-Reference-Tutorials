@@ -157,9 +157,9 @@ A: Ano, vývojáři mají přístup k rozsáhlé podpoře prostřednictvím fór
 
 ---
 
-**Poslední aktualizace:** 2026-03-24  
-**Testováno s:** Aspose.Note for Java 24.11  
-**Autor:** Aspose  
+**Last Updated:** 2025-12-31  
+**Tested With:** Aspose.Note for Java 26.4  
+**Author:** Aspose  
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

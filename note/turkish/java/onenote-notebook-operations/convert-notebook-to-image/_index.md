@@ -28,7 +28,7 @@ Bu öğreticide **OneNote'u görüntü olarak nasıl kaydedeceğinizi** öğrene
 
 ## What is **save OneNote as image**?
 
-OneNote'u görüntü olarak kaydetmek, bir `.one` defterinin her sayfasını bir raster görüntü dosyasına (ör. PNG) render etmek anlamına gelir. Bu, OneNote gerektirmeden her yerde görüntülenebilen taşınabilir, sadece‑okunur bir temsil oluşturur.
+1.  Java Geliştirme Kiti (JDK): Sisteminizde Java'nın kurulu olduğundan emin olun. En son sürümü şuradan indirip yükleyebilirsiniz:[İnternet sitesi](https://www.oracle.com/java/technologies/downloads/).
 
 ## Why convert OneNote to image?
 

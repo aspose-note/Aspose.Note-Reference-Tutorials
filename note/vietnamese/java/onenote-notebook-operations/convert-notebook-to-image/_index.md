@@ -29,7 +29,7 @@ Trong hướng dẫn này, bạn sẽ học **cách lưu OneNote dưới dạng 
 
 ## What is **save OneNote as image**?
 
-Lưu OneNote dưới dạng hình ảnh có nghĩa là render mỗi trang của một sổ `.one` thành một tệp ảnh raster (ví dụ: PNG). Điều này tạo ra một bản sao chỉ xem được, có thể hiển thị ở bất kỳ đâu mà không cần cài đặt OneNote.
+1.  Bộ công cụ phát triển Java (JDK): Đảm bảo bạn đã cài đặt Java trên hệ thống của mình. Bạn có thể tải xuống và cài đặt phiên bản mới nhất từ[trang mạng](https://www.oracle.com/java/technologies/downloads/).
 
 ## Why convert OneNote to image?
 

@@ -28,7 +28,7 @@ V tomto tutoriálu se naučíte **jak uložit OneNote jako obrázek** převodem 
 
 ## Co znamená **save OneNote as image**?
 
-Uložení OneNote jako obrázek znamená vykreslení každé stránky poznámkového bloku `.one` do rastrového souboru obrázku (např. PNG). Vytvoří to přenosnou, pouze‑pro‑zobrazení reprezentaci, kterou lze zobrazit kdekoliv bez potřeby OneNote.
+1.  Java Development Kit (JDK): Ujistěte se, že máte v systému nainstalovanou Javu. Nejnovější verzi si můžete stáhnout a nainstalovat z[webová stránka](https://www.oracle.com/java/technologies/downloads/).
 
 ## Proč převádět OneNote na obrázek?
 

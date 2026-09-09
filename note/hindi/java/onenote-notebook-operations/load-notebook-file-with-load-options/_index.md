@@ -128,7 +128,7 @@ A5: अगर आप प्रोडक्ट का वैल्यूएशन
 ---
 
 **लास्ट अपडेटेड:** 2025-12-31
-**टेस्टेड विद:** Aspose.Note 24.11 फॉर Java
+**टेस्टेड विद:** Aspose.Note 26.4 फॉर Java
 **ऑथर:** Aspose
 
 {{< /blocks/products/pf/tutorial-page-section >}}

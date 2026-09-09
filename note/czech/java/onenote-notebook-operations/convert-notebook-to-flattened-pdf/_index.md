@@ -59,7 +59,7 @@ Načtěte poznámkový blok, který chcete převést. Nahraďte zástupnou cestu
 
 ```java
 String dataDir = "Your Document Directory";
-Notebook notebook = new Notebook(dataDir + "Notizbuch öffnen.onetoc2");
+Notebook notebook = new Notebook(dataDir + "Notebook.onetoc2");
 ```
 
 ## Krok 2: Nastavit možnosti převodu (Zploštění PDF)

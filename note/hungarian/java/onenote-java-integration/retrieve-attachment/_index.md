@@ -158,8 +158,8 @@ A: Igen, a fejlesztők átfogó támogatást kaphatnak az Aspose.Note fórumon a
 
 ---
 
-**Utolsó frissítés:** 2026-03-24  
-**Tesztelve:** Aspose.Note for Java 24.11  
+**Legutóbb frissítve:** 2025-12-31  
+**Tesztelve ezzel:** Aspose.Note for Java 26.4  
 **Szerző:** Aspose  
 
 {{< /blocks/products/pf/tutorial-page-section >}}

@@ -29,7 +29,7 @@ Ebben az útmutatóban megtanulja, **hogyan mentse a OneNote-ot képként**, egy
 
 ## Mi az **OneNote mentése képként**?
 
-A OneNote képként való mentése azt jelenti, hogy egy `.one` jegyzetfüzet minden oldalát raszteres képfájlba (például PNG) rendereljük. Ez hordozható, csak‑olvasásra alkalmas ábrát hoz létre, amely bárhol megjeleníthető OneNote nélkül is.
+1.  Java Development Kit (JDK): Győződjön meg arról, hogy a Java telepítve van a rendszeren. A legújabb verziót letöltheti és telepítheti a[weboldal](https://www.oracle.com/java/technologies/downloads/).
 
 ## Miért konvertáljuk a OneNote-ot képre?
 

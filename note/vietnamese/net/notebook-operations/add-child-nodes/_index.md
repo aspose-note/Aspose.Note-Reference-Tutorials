@@ -47,7 +47,7 @@ Tải sổ ghi chép hiện có vào nơi bạn muốn thêm nút con. Bạn có
 string dataDir = "Your Document Directory";
 
 // Tải sổ tay OneNote
-var notebook = new Notebook(dataDir + "Notizbuch �ffnen.onetoc2");
+var notebook = new Notebook(dataDir + "Notebook.onetoc2");
 ```
 
 ## Bước 2: Thêm một nút con mới

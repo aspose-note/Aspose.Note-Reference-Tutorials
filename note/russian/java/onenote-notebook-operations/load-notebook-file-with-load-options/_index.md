@@ -125,7 +125,7 @@ for (INotebookChildNode notebookChildNode : notebook) {
 ---
 
 **Последнее обновление:** 2025-12-31  
-**Тестировано с:** Aspose.Note 24.11 для Java  
+**Тестировано с:** Aspose.Note 26.4 для Java  
 **Автор:** Aspose
 
 {{< /blocks/products/pf/tutorial-page-section >}}

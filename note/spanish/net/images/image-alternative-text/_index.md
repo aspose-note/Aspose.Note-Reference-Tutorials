@@ -42,14 +42,14 @@ using System;
 
 ```csharp
 var document = new Document();
-var page = new Page(document);
+var page = new Page();
 ```
 
 ## Paso 2: carga la imagen
 
 ```csharp
 string dataDir = "Your Document Directory";
-var image = new Image(document, dataDir + "image.jpg");
+var image = new Image(dataDir + "image.jpg");
 ```
 
 ## Paso 3: establecer texto alternativo

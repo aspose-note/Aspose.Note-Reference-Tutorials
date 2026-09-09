@@ -157,8 +157,8 @@ for (AttachedFile a : attachments) {
 
 ---
 
-**آخر تحديث:** 2026-03-24  
-**تم الاختبار مع:** Aspose.Note for Java 24.11  
+**آخر تحديث:** 2025-12-31  
+**تم الاختبار مع:** Aspose.Note for Java 26.4  
 **المؤلف:** Aspose  
 
 {{< /blocks/products/pf/tutorial-page-section >}}

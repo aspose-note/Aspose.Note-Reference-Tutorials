@@ -61,7 +61,7 @@ Chargez le carnet que vous souhaitez convertir. Remplacez le chemin d'espace ré
 
 ```java
 String dataDir = "Your Document Directory";
-Notebook notebook = new Notebook(dataDir + "Notizbuch öffnen.onetoc2");
+Notebook notebook = new Notebook(dataDir + "Notebook.onetoc2");
 ```
 
 ## Step 2: Set Conversion Options (Flatten PDF)

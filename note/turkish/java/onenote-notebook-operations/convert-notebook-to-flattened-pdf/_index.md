@@ -61,7 +61,7 @@ Dönüştürmek istediğiniz defteri yükleyin. Yer tutucu yolu, `.onetoc2` dosy
 
 ```java
 String dataDir = "Your Document Directory";
-Notebook notebook = new Notebook(dataDir + "Notizbuch öffnen.onetoc2");
+Notebook notebook = new Notebook(dataDir + "Notebook.onetoc2");
 ```
 
 ## Adım 2: Dönüşüm Seçeneklerini Ayarlayın (PDF'yi Düzleştirme)

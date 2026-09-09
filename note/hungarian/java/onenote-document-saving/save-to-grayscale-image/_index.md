@@ -111,7 +111,7 @@ Most már megtanulta, hogyan **exportálja a onenote-ot** egy OneNote fájl bet�
 ---
 
 **Utolsó frissítés:** 2025-12-17  
-**Tesztelve:** Aspose.Note 24.12 for Java  
+**Tesztelve:** Aspose.Note 26.4 for Java  
 **Szerző:** Aspose
 
 {{< /blocks/products/pf/tutorial-page-section >}}

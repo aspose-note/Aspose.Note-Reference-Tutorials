@@ -60,7 +60,7 @@ Laad het notebook dat je wilt converteren. Vervang het tijdelijke pad door de da
 
 ```java
 String dataDir = "Your Document Directory";
-Notebook notebook = new Notebook(dataDir + "Notizbuch öffnen.onetoc2");
+Notebook notebook = new Notebook(dataDir + "Notebook.onetoc2");
 ```
 
 ## Stap 2: Conversie‑opties instellen (Flatten PDF)

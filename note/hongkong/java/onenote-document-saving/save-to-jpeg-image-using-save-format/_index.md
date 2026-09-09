@@ -128,8 +128,8 @@ A: 先從 `Document` 取得目標 `Page` 物件，然後呼叫 `page.save(output
 
 ---
 
-**最後更新：** 2026-03-24  
-**測試環境：** Aspose.Note for Java 24.0（撰寫時最新版本）  
+**最後更新：** 2025-12-17  
+**測試環境：** Aspose.Note for Java 26.4（撰寫時最新版本）  
 **作者：** Aspose  
 
 {{< /blocks/products/pf/tutorial-page-section >}}

@@ -130,8 +130,8 @@ A5: Подробную документацию по Aspose.Note for Java мож
 
 ---
 
-**Последнее обновление:** 2026-03-24  
-**Тестировано с:** Aspose.Note for Java 24.0 (latest at time of writing)  
+**Последнее обновление:** 2025-12-17  
+**Тестировано с:** Aspose.Note for Java 26.4 (последняя на момент написания)  
 **Автор:** Aspose  
 
 {{< /blocks/products/pf/tutorial-page-section >}}

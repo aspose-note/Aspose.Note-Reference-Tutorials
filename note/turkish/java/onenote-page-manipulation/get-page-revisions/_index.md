@@ -1,10 +1,14 @@
 ---
-title: OneNote'ta Sayfa Revizyonlarını Alın - Aspose.Note
-linktitle: OneNote'ta Sayfa Revizyonlarını Alın - Aspose.Note
-second_title: Aspose.Note Java API'si
-description: Aspose.Note for Java'yı kullanarak OneNote'ta sayfa revizyonlarını nasıl alacağınızı öğrenin. Değişikliklerin verimli takibi için adım adım kılavuzumuzu izleyin.
-weight: 14
+date: 2026-01-10
+description: Java için Aspose.Note sayfa revizyonları öğreticisini öğrenin – Aspose.Note
+  kullanarak OneNote sayfa revizyonlarını programlı olarak alın. Adım adım rehberimizi
+  izleyin.
+linktitle: Get Page Revisions in OneNote - Aspose.Note
+second_title: Aspose.Note Java API
+title: aspose.note sayfa revizyonları öğreticisi – OneNote'ta Sayfa Revizyonlarını
+  Al
 url: /tr/java/onenote-page-manipulation/get-page-revisions/
+weight: 14
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
@@ -13,29 +17,37 @@ url: /tr/java/onenote-page-manipulation/get-page-revisions/
 
 # OneNote'ta Sayfa Revizyonlarını Alın - Aspose.Note
 
-## giriiş
+OneNote, güçlü bir not alma platformudur ve değişiklikleri denetlemeniz gerektiğinde, **aspose.note page revisions tutorial** size sadece birkaç Java kod satırıyla revizyon geçmişini nasıl alacağınızı tam olarak gösterir. Bu rehberde, ortamı kurmaktan her revizyonun ayrıntılarını yazdırmaya kadar ihtiyacınız olan her şeyi adım adım anlatacağız—böylece düzenlemeleri, yazar katkılarını ve zaman damgalarını zahmetsizce izleyebilirsiniz.
 
-OneNote, notlarınızı düzenlemek ve yönetmek için güçlü bir araçtır ancak bazen sayfalarınızda yapılan değişiklikleri ve düzeltmeleri izlemeniz gerekir. Aspose.Note for Java ile sayfa revizyonlarını programlı olarak kolayca alabilirsiniz. Bu eğitimde, Aspose.Note for Java'yı kullanarak OneNote'ta sayfa revizyonları alma sürecinde size rehberlik edeceğiz.
+## Hızlı Yanıtlar
+- **Bu eğitim neyi kapsıyor?** Aspose.Note for Java kullanarak bir OneNote dosyasından sayfa revizyon geçmişini alma.  
+- **Hangi kütüphane sürümü gerekiyor?** `LoadOptions.setLoadHistory` özelliğini destekleyen herhangi bir güncel Aspose.Note for Java sürümü.  
+- **Lisans gerekli mi?** Test için geçici bir değerlendirme lisansı yeterlidir; üretim için ticari lisans gerekir.  
+- **Revizyonları değiştirebilir miyim?** API revizyonlar için yalnızca okuma izni verir; sadece alabilirsiniz.  
+- **Ana önkoşullar nelerdir?** Java JDK, Aspose.Note for Java ve revizyon verisi içeren bir OneNote belgesi.
+
+## “aspose.note page revisions tutorial” nedir?
+Bu eğitim, bir OneNote sayfasının tarihsel sürümlerine programlı olarak nasıl erişileceğini gösterir. Her revizyon, yazar, oluşturulma zamanı ve değiştirilme zamanı gibi meta verileri içerir; bu sayede uygulamalarınız içinde denetim izleri veya değişiklik günlükleri oluşturabilirsiniz.
+
+## Sayfa revizyon takibi için neden Aspose.Note kullanmalı?
+- **UI bağımlılığı yok** – tamamen kod içinde çalışır, arka uç hizmetleri için mükemmeldir.  
+- **Çapraz platform** – Java, Windows, Linux ve macOS üzerinde çalışır.  
+- **Tam kontrol** – OneNote’u manuel olarak açmadan her revizyon özelliğini alabilirsiniz.  
+- **Performans** – geçmişin yüklenmesi optimize edilmiştir, bu sayede büyük not defterleri bile hızlı işlenir.
 
 ## Önkoşullar
 
-Başlamadan önce aşağıdaki önkoşulların mevcut olduğundan emin olun:
+### 1. Java Development Kit (JDK)
+Güncel bir JDK (8 veya üzeri) kurulu olduğundan ve `JAVA_HOME` değişkeninin ayarlandığından emin olun.
 
-### 1. Java Geliştirme Kiti (JDK)
+### 2. Aspose.Note for Java
+Kütüphaneyi [download link](https://releases.aspose.com/note/java/) adresinden indirin.
 
-Sisteminizde Java Development Kit'in (JDK) kurulu olduğundan emin olun. JDK'yı Oracle web sitesinden indirip yükleyebilirsiniz.
+### 3. Sample OneNote Document
+Revizyon geçmişi içeren sayfalara sahip bir OneNote dosyası (ör. `Sample1.one`) oluşturun veya edinin.
 
-### 2. Java için Aspose.Note
-
-Aspose.Note for Java'yı şu adresten indirip yükleyin:[İndirme: {link](https://releases.aspose.com/note/java/).
-
-### 3. Örnek OneNote Belgesi
-
-Örnek bir OneNote belgesi hazırlayın (`Sample1.one`) revizyonları almak istediğiniz sayfaları içeren.
-
-## Paketleri İçe Aktar
-
-Öncelikle gerekli paketleri Aspose.Note for Java'dan içe aktarmanız gerekiyor.
+## Paketleri İçe Aktarın
+İlk olarak, gerekli Aspose.Note sınıflarını içe aktarın.
 
 ```java
 import java.io.IOException;
@@ -45,19 +57,17 @@ import com.aspose.note.LoadOptions;
 import com.aspose.note.Page;
 ```
 
-Şimdi verilen örneği birden çok adıma ayıralım:
+## Adım Adım Uygulama
 
-## 1. Adım: Belge Dizinini Ayarlayın
-
-OneNote belgenizin bulunduğu dizin yolunu tanımlayın.
+### Adım 1: Belge Dizinini Ayarlama
+OneNote dosyanızın bulunduğu klasörü tanımlayın.
 
 ```java
 String dataDir = "Your Document Directory";
 ```
 
-## 2. Adım: OneNote Belgesini Yükleyin
-
- OneNote belgesini şunu kullanarak yükleyin:`LoadOptions` yükleme geçmişini etkinleştirmek için.
+### Adım 2: Geçmişi Etkinleştirerek OneNote Belgesini Yükleme
+`LoadOptions` bayrağını etkinleştirerek revizyon verilerini alın.
 
 ```java
 LoadOptions loadOptions = new LoadOptions();
@@ -65,17 +75,15 @@ loadOptions.setLoadHistory(true);
 Document document = new Document(dataDir + "Sample1.one", loadOptions);
 ```
 
-## 3. Adım: İlk Sayfayı Alın
-
-Yüklenen belgenin ilk sayfasını alın.
+### Adım 3: İlk Sayfayı Alın
+İlk sayfa nesnesini alın; bu, geçmişini alırken referans noktası olacaktır.
 
 ```java
 Page firstPage = document.getFirstChild();
 ```
 
-## Adım 4: Sayfa Revizyonlarını Yineleyin
-
-Her sayfa revizyonunu yineleyin ve son değiştirilme zamanı, oluşturulma zamanı, başlık, seviye ve yazar gibi ilgili bilgileri alın.
+### Adım 4: Sayfa Revizyonları Üzerinde Döngü
+Her revizyonu döngüye alarak zaman damgaları, başlık, seviye ve yazar gibi faydalı meta verileri yazdırın.
 
 ```java
 for (Page pageRevision : document.getPageHistory(firstPage)) {
@@ -88,31 +96,34 @@ for (Page pageRevision : document.getPageHistory(firstPage)) {
 }
 ```
 
-## Çözüm
+> **Pro tip:** Belirli bir yazar veya tarih aralığına göre revizyonları filtrelemeniz gerekiyorsa, `for` döngüsü içinde koşullu kontroller eklemeniz yeterlidir.
 
-Bu eğitimde Aspose.Note for Java'yı kullanarak OneNote'ta sayfa revizyonlarının nasıl alınacağını öğrendik. Bu adımları izleyerek OneNote sayfalarınızda yapılan değişiklikleri programlı bir şekilde etkili bir şekilde izleyebilirsiniz.
+## Yaygın Sorunlar ve Çözümler
+- **Revizyon döndürülmedi:** Belgeyi yüklemeden önce `loadOptions.setLoadHistory(true)` çağrısının yapıldığını doğrulayın.  
+- **Yazar veya başlık null:** Bazı eski OneNote sürümleri bu alanları saklamayabilir; `null` değerleri nazikçe ele alın.  
+- **Büyük not defterlerinde performans gecikmesi:** Sadece ihtiyacınız olan bölümleri yükleyin veya JVM yığın boyutunu artırın.
 
-## SSS'ler
+## Sık Sorulan Sorular
 
-### S1: Sayfa revizyonlarını değiştirmek için Aspose.Note for Java'yı kullanabilir miyim?
+**S1: Aspose.Note for Java kullanarak sayfa revizyonlarını değiştirebilir miyim?**  
+C1: Hayır, API şu anda sadece sayfa revizyonlarına yalnızca okuma erişimini desteklemektedir.
 
-Cevap1: Hayır, Aspose.Note for Java şu anda sayfa revizyonlarının alınmasını desteklemektedir ancak bunların değiştirilmesini desteklememektedir.
+**S2: Aspose.Note for Java farklı OneNote belge sürümleriyle uyumlu mu?**  
+C2: Evet, çeşitli OneNote dosya formatlarıyla çalışır ve sürümler arasında sorunsuz işleme imkanı sunar.
 
-### S2: Aspose.Note for Java, OneNote belgelerinin farklı sürümleriyle uyumlu mudur?
+**S3: Aspose.Note for Java kullanmak için lisans gerekiyor mu?**  
+C3: Üretim kullanımı için ticari lisans gerekir, ancak test için geçici bir değerlendirme lisansı mevcuttur.
 
-C2: Evet, Aspose.Note for Java, OneNote belgelerinin çeşitli sürümlerini destekleyerek farklı dosya formatlarıyla sorunsuz bir şekilde çalışmanıza olanak tanır.
+**S4: Aspose.Note for Java kullanırken bir sorunla karşılaşırsam destek alabilir miyim?**  
+C4: Evet, Aspose.Note forumunda sorularınızı [burada](https://forum.aspose.com/c/note/28) sorabilirsiniz.
 
-### S3: Aspose.Note for Java'yı kullanmak için lisans gerekiyor mu?
+**S5: Aspose.Note for Java için ücretsiz deneme sürümü var mı?**  
+C5: Evet, ücretsiz deneme sürümünü [website](https://releases.aspose.com/) üzerinden indirebilirsiniz.
 
-Cevap3: Evet, Aspose.Note for Java'yı ticari projelerde kullanmak için lisans satın almanız gerekiyor. Ancak değerlendirme amacıyla geçici bir lisans da alabilirsiniz.
+**Son Güncelleme:** 2026-01-10  
+**Test Edilen Versiyon:** Aspose.Note for Java (en son sürüm)  
+**Yazar:** Aspose  
 
-### S4: Aspose.Note for Java'yı kullanırken herhangi bir sorunla karşılaşırsam destek alabilir miyim?
-
- Cevap4: Evet, Aspose.Note forumundan destek alabilirsiniz[Burada](https://forum.aspose.com/c/note/28).
-
-### S5: Aspose.Note for Java'nın ücretsiz deneme sürümü mevcut mu?
-
- Cevap5: Evet, Aspose.Note for Java'nın ücretsiz deneme sürümüne şu adresten erişebilirsiniz:[İnternet sitesi](https://releases.aspose.com/).
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

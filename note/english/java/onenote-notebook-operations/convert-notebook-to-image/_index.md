@@ -40,8 +40,9 @@ Saving OneNote as image means rendering each page of a `.one` notebook into a ra
 
 Before you start, make sure you have:
 
-1. **Java Development Kit (JDK)** – Download the latest JDK from the [Oracle JDK download page](https://www.oracle.com/java/technologies/javase-jdk15-downloads.html).  
-2. **Aspose.Note for Java library** – Grab the JAR from the [Aspose.Note Java library download](https://releases.aspose.com/note/java/) and add it to your project’s classpath.
+1. Java Development Kit (JDK): Make sure you have Java installed on your system. You can download and install the latest version from the [website](https://www.oracle.com/java/technologies/downloads/).
+
+2. Aspose.Note for Java Library: Download and include the Aspose.Note for Java library in your project. You can obtain the library from the [Aspose website](https://releases.aspose.com/note/java/).
 
 ## Import Packages
 

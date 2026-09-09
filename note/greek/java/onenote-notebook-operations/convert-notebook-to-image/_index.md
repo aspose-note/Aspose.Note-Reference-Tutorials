@@ -43,8 +43,9 @@ weight: 12
 
 Πριν ξεκινήσετε, βεβαιωθείτε ότι έχετε:
 
-1. **Java Development Kit (JDK)** – Κατεβάστε το τελευταίο JDK από την [ιστοσελίδα](https://www.oracle.com/java/technologies/javase-jdk15-downloads.html).  
-2. **Aspose.Note for Java library** – Κατεβάστε το JAR από την [ιστοσελίδα της Aspose](https://releases.aspose.com/note/java/) και προσθέστε το στο classpath του έργου σας.
+1.  Java Development Kit (JDK): Βεβαιωθείτε ότι έχετε εγκαταστήσει Java στο σύστημά σας. Μπορείτε να κατεβάσετε και να εγκαταστήσετε την πιο πρόσφατη έκδοση από το[δικτυακός τόπος](https://www.oracle.com/java/technologies/downloads/).
+
+2.  Aspose.Note για Java Library: Κάντε λήψη και συμπεριλάβετε τη βιβλιοθήκη Aspose.Note για Java στο έργο σας. Μπορείτε να αποκτήσετε τη βιβλιοθήκη από το[Aspose website](https://releases.aspose.com/note/java/).
 
 ## Εισαγωγή πακέτων
 

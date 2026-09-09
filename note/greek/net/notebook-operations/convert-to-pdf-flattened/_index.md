@@ -44,7 +44,7 @@ using System.Collections.Generic;
 string dataDir = "Your Document Directory";
 
 // Φορτώστε ένα Σημειωματάριο OneNote
-var notebook = new Notebook(dataDir + "Notizbuch �ffnen.onetoc2");
+var notebook = new Notebook(dataDir + "Notebook.onetoc2");
 ```
 
  Σε αυτό το βήμα, φορτώνουμε το Σημειωματάριο OneNote χρησιμοποιώντας το`Notebook` τάξη που παρέχεται από την Aspose.Σημείωση.

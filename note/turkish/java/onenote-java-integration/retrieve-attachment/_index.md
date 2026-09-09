@@ -160,8 +160,8 @@ C: Evet, geliştiriciler Aspose.Note forumu üzerinden kapsamlı desteğe ulaşa
 
 ---
 
-**Son Güncelleme:** 2026-03-24  
-**Test Edilen Sürüm:** Aspose.Note for Java 24.11  
+**Son Güncelleme:** 2025-12-31  
+**Test Edilen Sürüm:** Aspose.Note for Java 26.4  
 **Yazar:** Aspose  
 
 {{< /blocks/products/pf/tutorial-page-section >}}

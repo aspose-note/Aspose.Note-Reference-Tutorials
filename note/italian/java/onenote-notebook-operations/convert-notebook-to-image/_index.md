@@ -41,8 +41,7 @@ Salvare OneNote come immagine significa renderizzare ogni pagina di un notebook 
 
 Prima di iniziare, assicurati di avere:
 
-1. **Java Development Kit (JDK)** – Scarica l’ultima versione del JDK dal [sito web](https://www.oracle.com/java/technologies/javase-jdk15-downloads.html).  
-2. **Libreria Aspose.Note per Java** – Ottieni il JAR dal [sito web Aspose](https://releases.aspose.com/note/java/) e aggiungilo al classpath del tuo progetto.
+1.  Java Development Kit (JDK): assicurati di avere Java installato sul tuo sistema. È possibile scaricare e installare la versione più recente da[sito web](https://www.oracle.com/java/technologies/downloads/).
 
 ## Importa i pacchetti
 

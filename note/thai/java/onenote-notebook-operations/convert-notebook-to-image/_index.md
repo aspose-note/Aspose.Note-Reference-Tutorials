@@ -41,8 +41,7 @@ weight: 12
 
 ก่อนเริ่มทำตามขั้นตอนต่อไปนี้ให้แน่ใจว่าคุณมี:
 
-1. **Java Development Kit (JDK)** – ดาวน์โหลด JDK ล่าสุดจาก [website](https://www.oracle.com/java/technologies/javase-jdk15-downloads.html)  
-2. **ไลบรารี Aspose.Note สำหรับ Java** – ดาวน์โหลดไฟล์ JAR จาก [Aspose website](https://releases.aspose.com/note/java/) แล้วเพิ่มเข้าไปใน classpath ของโปรเจกต์ของคุณ
+1.  Java Development Kit (JDK): ตรวจสอบให้แน่ใจว่าคุณได้ติดตั้ง Java บนระบบของคุณแล้ว คุณสามารถดาวน์โหลดและติดตั้งเวอร์ชันล่าสุดได้จาก[เว็บไซต์](https://www.oracle.com/java/technologies/downloads/).
 
 ## นำเข้าแพ็กเกจ
 

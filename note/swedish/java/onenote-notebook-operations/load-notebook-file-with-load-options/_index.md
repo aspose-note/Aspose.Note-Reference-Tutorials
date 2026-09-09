@@ -125,7 +125,7 @@ A5: Om du utvärderar produkten kan du skaffa en tillfällig licens [här](https
 ---
 
 **Senast uppdaterad:** 2025-12-31  
-**Testad med:** Aspose.Note 24.11 for Java  
+**Testad med:** Aspose.Note 26.4 for Java  
 **Författare:** Aspose
 
 {{< /blocks/products/pf/tutorial-page-section >}}

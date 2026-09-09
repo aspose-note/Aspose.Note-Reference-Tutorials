@@ -129,9 +129,9 @@ Chúng ta đã bao quát mọi thứ bạn cần để **render OneNote page ima
 
 ---
 
-**Last Updated:** 2026-03-24  
-**Tested With:** Aspose.Note for Java 24.0 (latest at time of writing)  
-**Author:** Aspose  
+**Last Updated:** 2025-12-17  
+**Được kiểm tra với:** Aspose.Note for Java 26.4 (phiên bản mới nhất tại thời điểm viết)  
+**Tác giả:** Aspose  
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

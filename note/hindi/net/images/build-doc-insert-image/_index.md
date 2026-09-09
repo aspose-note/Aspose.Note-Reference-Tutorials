@@ -61,7 +61,7 @@ Aspose.Note.Page page = new Aspose.Note.Page(doc);
 ## चरण 3: आउटलाइन ऑब्जेक्ट को आरंभ करें
 
 ```csharp
-Outline outline = new Outline(doc);
+Outline outline = new Outline();
 ```
 
 `Outline`क्लास दस्तावेज़ पदानुक्रम में एक रूपरेखा नोड का प्रतिनिधित्व करता है। हम अपने दस्तावेज़ की संरचना के लिए एक नई रूपरेखा वस्तु बनाते हैं।
@@ -69,7 +69,7 @@ Outline outline = new Outline(doc);
 ## चरण 4: आउटलाइनएलिमेंट ऑब्जेक्ट को आरंभ करें
 
 ```csharp
-OutlineElement outlineElem = new OutlineElement(doc);
+OutlineElement outlineElem = new OutlineElement();
 ```
 
  एक`OutlineElement` एक रूपरेखा के भीतर एक तत्व का प्रतिनिधित्व करता है। यहां, हम अपने दस्तावेज़ में सामग्री जोड़ने के लिए एक नया रूपरेखा तत्व बनाते हैं।

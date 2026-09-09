@@ -61,7 +61,7 @@ Załaduj notatnik, który chcesz skonwertować. Zastąp ścieżkę zastępczą r
 
 ```java
 String dataDir = "Your Document Directory";
-Notebook notebook = new Notebook(dataDir + "Notizbuch öffnen.onetoc2");
+Notebook notebook = new Notebook(dataDir + "Notebook.onetoc2");
 ```
 
 ## Krok 2: Ustaw opcje konwersji (Flatten PDF)

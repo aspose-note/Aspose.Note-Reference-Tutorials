@@ -23,7 +23,7 @@ weight: 10
 
 - **哪个方法判断加密？** `Document.isEncrypted`  
 - **检查时需要密码吗？** 不需要，你可以在不提供密码的情况下查询状态。  
-- **哪个 API 版本可用？** 任意近期的 Aspose.Note for Java 发行版（已在 24.11 上测试）。  
+- **哪个 API 版本可用？** 任意近期的 Aspose.Note for Java 发行版（已在 26.4 上测试）。  
 - **可以同时检查流和文件路径吗？** 可以 – API 同时支持两者。  
 - **密码错误会怎样？** 方法返回 `true`，表示文件仍然加密。  
 
@@ -147,7 +147,7 @@ public static void CheckIfDocumentFromFileIsEncrypted() throws IOException {
 ---  
 
 **最后更新：** 2025-11-29  
-**测试环境：** Aspose.Note 24.11 for Java  
+**测试环境：** Aspose.Note 26.4 for Java  
 **作者：** Aspose  
 
 {{< /blocks/products/pf/tutorial-page-section >}}  

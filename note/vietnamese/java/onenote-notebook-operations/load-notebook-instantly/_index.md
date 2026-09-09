@@ -40,7 +40,7 @@ Instant loading onenote là một tính năng của lớp `NotebookLoadOptions` 
 
 Trước khi bắt đầu, hãy chắc chắn bạn có các yêu cầu sau:
 
-1. **Java Development Kit (JDK):** Đảm bảo rằng bạn đã cài đặt Java trên hệ thống. Bạn có thể tải và cài đặt JDK mới nhất từ [here](https://www.oracle.com/java/technologies/javase-jdk15-downloads.html).
+1. **Java Development Kit (JDK):** Đảm bảo rằng bạn đã cài đặt Java trên hệ thống. Bạn có thể tải và cài đặt JDK mới nhất từ [here](https://www.oracle.com/java/technologies/downloads/).
 
 2. **Aspose.Note for Java:** Bạn cần có thư viện Aspose.Note cho Java. Bạn có thể tải nó từ [download page](https://releases.aspose.com/note/java/).
 
@@ -117,7 +117,7 @@ A5: Bạn có thể yêu cầu giấy phép tạm thời từ [temporary license
 ---
 
 **Last Updated:** 2025-12-31  
-**Tested With:** Aspose.Note for Java 24.12 (latest)  
+**Tested With:** Aspose.Note for Java 26.4 (latest)  
 **Author:** Aspose  
 
 {{< /blocks/products/pf/tutorial-page-section >}}

@@ -28,7 +28,7 @@ weight: 12
 
 ## What is **save OneNote as image**?
 
-حفظ OneNote كصورة يعني تحويل كل صفحة من دفتر ملاحظات `.one` إلى ملف صورة نقطية (مثل PNG). هذا يخلق تمثيلاً محمولاً للعرض فقط يمكن عرضه في أي مكان دون الحاجة إلى OneNote.
+1.  Java Development Kit (JDK): تأكد من تثبيت Java على نظامك. يمكنك تنزيل وتثبيت أحدث إصدار من[موقع إلكتروني](https://www.oracle.com/java/technologies/downloads/).
 
 ## Why convert OneNote to image?
 

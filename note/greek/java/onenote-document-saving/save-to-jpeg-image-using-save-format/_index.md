@@ -130,8 +130,8 @@ A: Ανακτήστε το επιθυμητό αντικείμενο `Page` απ
 
 ---
 
-**Τελευταία Ενημέρωση:** 2026-03-24  
-**Δοκιμή Με:** Aspose.Note for Java 24.0 (latest at time of writing)  
+**Τελευταία ενημέρωση:** 2025-12-17  
+**Δοκιμασμένο με:** Aspose.Note for Java 26.4 (τελευταία έκδοση τη στιγμή της συγγραφής)  
 **Συγγραφέας:** Aspose  
 
 {{< /blocks/products/pf/tutorial-page-section >}}

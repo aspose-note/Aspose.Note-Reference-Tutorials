@@ -128,8 +128,8 @@ A5: आप Aspose.Note for Java की विस्तृत डॉक्यू�
 
 ---
 
-**अंतिम अपडेट:** 2026-03-24  
-**परीक्षित संस्करण:** Aspose.Note for Java 24.0 (लेखन समय पर नवीनतम)  
+**अंतिम अपडेट:** 2025-12-17  
+**टेस्टेड विथ:** Aspose.Note for Java 26.4 (लेखन समय पर नवीनतम)  
 **लेखक:** Aspose  
 
 {{< /blocks/products/pf/tutorial-page-section >}}

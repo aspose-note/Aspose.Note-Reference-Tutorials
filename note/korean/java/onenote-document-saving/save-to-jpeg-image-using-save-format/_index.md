@@ -128,9 +128,9 @@ A: Retrieve the desired `Page` object from the `Document` and call `page.save(ou
 
 ---
 
-**마지막 업데이트:** 2026-03-24  
-**테스트 환경:** Aspose.Note for Java 24.0 (작성 시 최신 버전)  
-**작성자:** Aspose  
+**최종 업데이트:** 2025년 12월 17일
+**테스트 대상:** Java 26.4용 Aspose.Note(작성 당시 최신)
+**저자:** Aspose  
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

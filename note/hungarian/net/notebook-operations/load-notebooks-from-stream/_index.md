@@ -49,7 +49,7 @@ Győződjön meg arról, hogy beállította a fejlesztői környezetet a Visual 
 ```csharp
 string dataDir = "Your Document Directory";
 
-FileStream stream = new FileStream(dataDir + "Notizbuch öffnen.onetoc2", FileMode.Open);
+FileStream stream = new FileStream(dataDir + "Notebook.onetoc2", FileMode.Open);
 ```
 
 ## 3. lépés: Inicializálja a Notebook objektumot

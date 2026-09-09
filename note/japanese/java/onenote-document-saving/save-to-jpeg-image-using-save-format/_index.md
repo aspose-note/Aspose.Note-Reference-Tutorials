@@ -128,8 +128,8 @@ We’ve covered everything you need to **render OneNote page image** using Aspos
 
 ---
 
-**最終更新日:** 2026-03-24  
-**テスト環境:** Aspose.Note for Java 24.0 (latest at time of writing)  
+**最終更新日:** 2025-12-17  
+**テスト対象:** Aspose.Note for Java 26.4 (執筆時点での最新バージョン)  
 **作者:** Aspose  
 
 {{< /blocks/products/pf/tutorial-page-section >}}

@@ -42,7 +42,7 @@ Para começar, precisamos carregar o bloco de notas OneNote que queremos convert
 
 ```csharp
 string dataDir = "Your Document Directory";
-var notebook = new Notebook(dataDir + "Notizbuch �ffnen.onetoc2");
+var notebook = new Notebook(dataDir + "Notebook.onetoc2");
 ```
 
 ## Etapa 2: salve o notebook como uma imagem

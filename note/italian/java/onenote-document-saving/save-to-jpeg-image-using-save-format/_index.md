@@ -129,9 +129,9 @@ Abbiamo coperto tutto ciò che ti serve per **renderizzare l'immagine di una pag
 
 ---
 
-**Last Updated:** 2026-03-24  
-**Testato con:** Aspose.Note per Java 24.0 (latest at time of writing)  
-**Author:** Aspose  
+**Last Updated:** 2025-12-17  
+**Testato con:** Aspose.Note per Java 26.4 (latest at time of writing)  
+**Autore:** Aspose  
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

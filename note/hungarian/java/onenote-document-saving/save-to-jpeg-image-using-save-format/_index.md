@@ -129,8 +129,8 @@ A: Szerezze meg a kívánt `Page` objektumot a `Document`‑ból, és hívja a `
 
 ---
 
-**Utolsó frissítés:** 2026-03-24  
-**Tesztelve:** Aspose.Note for Java 24.0 (legújabb a kiadás időpontjában)  
+**Utolsó frissítés:** 2025-12-17  
+**Tesztelt verzióval:** Aspose.Note for Java 26.4 (a legújabb a írás időpontjában)  
 **Szerző:** Aspose  
 
 {{< /blocks/products/pf/tutorial-page-section >}}

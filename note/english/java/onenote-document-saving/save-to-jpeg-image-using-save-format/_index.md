@@ -127,8 +127,8 @@ We’ve covered everything you need to **render OneNote page image** using Aspos
 
 ---
 
-**Last Updated:** 2026-03-24  
-**Tested With:** Aspose.Note for Java 24.0 (latest at time of writing)  
+**Last Updated:** 2025-12-17  
+**Tested With:** Aspose.Note for Java 26.4 (latest at time of writing)  
 **Author:** Aspose  
 
 {{< /blocks/products/pf/tutorial-page-section >}}

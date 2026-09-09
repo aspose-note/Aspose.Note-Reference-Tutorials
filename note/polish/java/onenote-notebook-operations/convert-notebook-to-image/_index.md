@@ -29,7 +29,7 @@ W tym samouczku nauczysz się **jak zapisać OneNote jako obraz** poprzez konwer
 
 ## Co to jest **zapis OneNote jako obraz**?
 
-Zapisanie OneNote jako obrazu oznacza renderowanie każdej strony notatnika `.one` do pliku obrazu rastrowego (np. PNG). Tworzy to przenośną, tylko do odczytu reprezentację, którą można wyświetlić wszędzie bez potrzeby posiadania OneNote.
+1.  Zestaw Java Development Kit (JDK): Upewnij się, że w systemie jest zainstalowana Java. Możesz pobrać i zainstalować najnowszą wersję ze strony[strona internetowa](https://www.oracle.com/java/technologies/downloads/).
 
 ## Dlaczego konwertować OneNote na obraz?
 

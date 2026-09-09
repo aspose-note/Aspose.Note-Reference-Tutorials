@@ -157,8 +157,8 @@ R: Sim, os desenvolvedores podem acessar suporte abrangente através do fórum A
 
 ---
 
-**Última atualização:** 2026-03-24  
-**Testado com:** Aspose.Note for Java 24.11  
+**Última atualização:** 2025-12-31  
+**Testado com:** Aspose.Note for Java 26.4  
 **Autor:** Aspose  
 
 {{< /blocks/products/pf/tutorial-page-section >}}

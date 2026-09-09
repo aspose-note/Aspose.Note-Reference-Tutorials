@@ -66,7 +66,7 @@ Aspose.Note.Page page = new Aspose.Note.Page(doc);
 ### Krok 3: Inicializujte objekt obrysu
 
 ```csharp
-Outline outline = new Outline(doc);
+Outline outline = new Outline();
 ```
 
  An`Outline` objekt je vytvořen k uspořádání obsahu na stránce.
@@ -74,7 +74,7 @@ Outline outline = new Outline(doc);
 ### Krok 4: Inicializujte objekt OutlineElement
 
 ```csharp
-OutlineElement outlineElem = new OutlineElement(doc);
+OutlineElement outlineElem = new OutlineElement();
 ```
 
 `OutlineElement` představuje prvek v rámci struktury osnovy.
@@ -82,7 +82,7 @@ OutlineElement outlineElem = new OutlineElement(doc);
 ### Krok 5: Inicializujte objekt AttachedFile
 
 ```csharp
-AttachedFile attachedFile = new AttachedFile(doc,  dataDir + "attachment.txt");
+AttachedFile attachedFile = new AttachedFile(dataDir + "attachment.txt");
 ```
 
  Zde vytvoříme instanci`AttachedFile`, s uvedením cesty k souboru, který chceme připojit.

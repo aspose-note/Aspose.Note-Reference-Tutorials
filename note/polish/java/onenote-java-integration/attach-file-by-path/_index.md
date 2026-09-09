@@ -84,7 +84,7 @@ OutlineElement outlineElem = new OutlineElement();
 Zainicjuj `AttachedFile` podając pełną ścieżkę do pliku, który chcesz osadzić:
 
 ```java
-AttachedFile attachedFile = new AttachedFile(null, dataDir + "attachment.txt");
+AttachedFile attachedFile = new AttachedFile(dataDir + "attachment.txt");
 ```
 
 Zmień `"attachment.txt"` na nazwę pliku, który chcesz dołączyć (java code attach file).
@@ -166,7 +166,7 @@ A: Ważna licencjat Aspose. Uwaga jest wymagana w środowisku produkcji; Wersja 
 ---
 
 **Ostatnia aktualizacja:** 2025-12-25  
-**Testowano z:** Aspose.Note for Java 24.11  
+**Testowano z:** Aspose.Note for Java 26.4  
 **Autor:** Aspose
 
 {{< /blocks/products/pf/tutorial-page-section >}}

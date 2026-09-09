@@ -157,9 +157,9 @@ A: มี, นักพัฒนาสามารถเข้าถึงกา
 
 ---
 
-**อัปเดตล่าสุด:** 2026-03-24  
-**ทดสอบกับ:** Aspose.Note for Java 24.11  
-**ผู้เขียน:** Aspose  
+**Last Updated:** 2025-12-31  
+**Tested With:** Aspose.Note for Java 26.4  
+**Author:** Aspose  
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

@@ -54,8 +54,8 @@ Aspose.Note.Page page = new Aspose.Note.Page(doc);
 
 ## चरण 3: आउटलाइन और आउटलाइनएलिमेंट ऑब्जेक्ट को आरंभ करें
 ```csharp
-Outline outline1 = new Outline(doc);
-OutlineElement outlineElem1 = new OutlineElement(doc);
+Outline outline1 = new Outline();
+OutlineElement outlineElem1 = new OutlineElement();
 ```
 हम पृष्ठ के भीतर अपनी सामग्री को संरचित करने के लिए आउटलाइन और आउटलाइनएलिमेंट कक्षाओं के उदाहरण बनाते हैं।
 

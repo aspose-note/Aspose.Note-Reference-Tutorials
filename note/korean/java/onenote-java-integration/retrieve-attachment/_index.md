@@ -158,9 +158,9 @@ A: Yes, developers can access comprehensive support through the Aspose.Note foru
 
 ---
 
-**Last Updated:** 2026-03-24  
-**Tested With:** Aspose.Note for Java 24.11  
-**Author:** Aspose  
+**최종 업데이트:** 2025년 12월 31일
+**테스트 환경:** Aspose.Note for Java 26.4
+**제작자:** Aspose 
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

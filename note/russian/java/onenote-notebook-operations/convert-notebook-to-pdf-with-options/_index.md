@@ -45,7 +45,7 @@ import com.aspose.note.PdfSaveOptions;
 ```java
 String dataDir = "Your Document Directory";
 // Загрузите записную книжку OneNote
-Notebook notebook = new Notebook(dataDir + "Notizbuch �ffnen.onetoc2");
+Notebook notebook = new Notebook(dataDir + "Notebook.onetoc2");
 ```
 
 ## Шаг 2. Укажите параметры сохранения PDF-файла.

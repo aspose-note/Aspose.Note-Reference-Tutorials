@@ -53,7 +53,7 @@ Hozzon létre Page és Outline objektumokat a OneNote-dokumentum tartalmának st
 
 ```csharp
 Aspose.Note.Page page = new Aspose.Note.Page(doc);
-Outline outline = new Outline(doc);
+Outline outline = new Outline();
 ```
 
 ## 3. lépés: Adjon hozzá szövegcsomópontot címkével
@@ -61,9 +61,9 @@ Outline outline = new Outline(doc);
 Hozzon létre egy RichText objektumot a kívánt szöveggel és stílussal, majd adja hozzá az OutlineElementhez.
 
 ```csharp
-OutlineElement outlineElem = new OutlineElement(doc);
+OutlineElement outlineElem = new OutlineElement();
 ParagraphStyle textStyle = new ParagraphStyle { FontColor = Color.Black, FontName = "Arial", FontSize = 10 };
-RichText text = new RichText(doc) { Text = "OneNote text.", ParagraphStyle = textStyle };
+RichText text = new RichText() { Text = "OneNote text.", ParagraphStyle = textStyle };
 text.Tags.Add(NoteTag.CreateYellowStar());
 outlineElem.AppendChildLast(text);
 ```

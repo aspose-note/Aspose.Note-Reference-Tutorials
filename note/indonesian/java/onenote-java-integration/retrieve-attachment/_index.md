@@ -153,11 +153,8 @@ A: API dirancang untuk menangani notebook besar, namun batas praktis tergantung 
 **Q4: Bisakah saya menyesuaikan lokasi output dan konvensi penamaan file untuk lampiran yang diambil?**  
 A: Tentu—ubah variabel `outputFile` dan `outputPath` dalam loop agar sesuai dengan skema penamaan dan struktur direktori Anda.
 
-**Q5: Apakah Aspose.Note for Java menyediakan dukungan dan bantuan untuk masalah teknis?**  
-A: Ya, pengembang dapat mengakses dukungan komprehensif melalui forum Aspose.Note di [https://forum.aspose.com/c/note/28](https://forum.aspose.com/c/note/28).
-
-**Terakhir Diperbarui:** 2026-03-24  
-**Diuji Dengan:** Aspose.Note for Java 24.11  
+**Terakhir Diperbarui:** 2025-12-31
+**Diuji Dengan:** Aspose.Note for Java 26.4
 **Penulis:** Aspose  
 
 {{< /blocks/products/pf/tutorial-page-section >}}

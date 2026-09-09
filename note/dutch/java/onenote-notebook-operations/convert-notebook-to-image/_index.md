@@ -29,7 +29,7 @@ In deze tutorial leer je **hoe je OneNote als afbeelding opslaat** door een OneN
 
 ## What is **save OneNote as image**?
 
-OneNote opslaan als afbeelding betekent dat elke pagina van een `.one` notebook wordt gerenderd naar een raster‑afbeeldingsbestand (bijv. PNG). Dit creëert een draagbare, alleen‑lezen weergave die overal kan worden getoond zonder dat OneNote nodig is.
+1.  Java Development Kit (JDK): Zorg ervoor dat Java op uw systeem is geïnstalleerd. U kunt de nieuwste versie downloaden en installeren vanaf de[website](https://www.oracle.com/java/technologies/downloads/).
 
 ## Why convert OneNote to image?
 

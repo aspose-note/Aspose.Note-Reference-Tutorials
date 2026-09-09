@@ -28,7 +28,7 @@ Neste tutorial você aprenderá **como salvar OneNote como imagem** convertendo 
 
 ## O que é **salvar OneNote como imagem**?
 
-Salvar OneNote como imagem significa renderizar cada página de um notebook `.one` em um arquivo de imagem raster (por exemplo, PNG). Isso cria uma representação portátil, somente de visualização, que pode ser exibida em qualquer lugar sem exigir OneNote.
+1.  Java Development Kit (JDK): Certifique-se de ter o Java instalado em seu sistema. Você pode baixar e instalar a versão mais recente do[local na rede Internet](https://www.oracle.com/java/technologies/downloads/).
 
 ## Por que converter OneNote em imagem?
 

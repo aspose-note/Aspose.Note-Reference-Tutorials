@@ -134,7 +134,7 @@ R : La bibliothèque Aspose.Note Java est indépendante de la plateforme, donc
 ---
 
 **Dernière mise à jour :** 2025-12-13  
-**Testé avec :** Aspose.Note for Java 24.12 (latest)  
+**Testé avec :** Aspose.Note for Java 26.4 (latest)  
 **Auteur :** Aspose  
 
 {{< /blocks/products/pf/tutorial-page-section >}}

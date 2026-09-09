@@ -58,7 +58,7 @@ Töltse be a konvertálni kívánt jegyzetfüzetet. Cserélje le a helyőrző ú
 
 ```java
 String dataDir = "Your Document Directory";
-Notebook notebook = new Notebook(dataDir + "Notizbuch öffnen.onetoc2");
+Notebook notebook = new Notebook(dataDir + "Notebook.onetoc2");
 ```
 
 ## 2. lépés: Konverziós beállítások megadása (Flatten PDF)

@@ -155,8 +155,8 @@ R: Sí, los desarrolladores pueden acceder a soporte integral a través del foro
 
 ---
 
-**Última actualización:** 2026-03-24  
-**Probado con:** Aspose.Note for Java 24.11  
+**Última actualización:** 2025-12-31  
+**Probado con:** Aspose.Note for Java 26.4  
 **Autor:** Aspose  
 
 {{< /blocks/products/pf/tutorial-page-section >}}

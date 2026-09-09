@@ -52,8 +52,8 @@ Aspose.Note.Page page = new Aspose.Note.Page(doc);
  เริ่มต้น`Table`, `TableRow` , และ`TableCell` วัตถุ:
 
 ```csharp
-TableRow row = new TableRow(doc);
-TableCell cell = new TableCell(doc);
+TableRow row = new TableRow();
+TableCell cell = new TableCell();
 ```
 
 ## ขั้นตอนที่ 3: แทรกเนื้อหาลงในเซลล์
@@ -69,7 +69,7 @@ cell.AppendChildLast(InsertTable.GetOutlineElementWithText(doc, "Single cell."))
  เริ่มต้น`Table` วัตถุที่มีคุณสมบัติระบุ:
 
 ```csharp
-Table table = new Table(doc)
+Table table = new Table()
 {
     IsBordersVisible = true,
     Columns = { new TableColumn { Width = 70 } }
@@ -97,8 +97,8 @@ table.Tags.Add(NoteTag.CreateQuestionMark());
  สร้าง`Outline` และ`OutlineElement` เพื่อเพิ่มโหนดตาราง:
 
 ```csharp
-Outline outline = new Outline(doc);
-OutlineElement outlineElem = new OutlineElement(doc);
+Outline outline = new Outline();
+OutlineElement outlineElem = new OutlineElement();
 outlineElem.AppendChildLast(table);
 outline.AppendChildLast(outlineElem);
 page.AppendChildLast(outline);

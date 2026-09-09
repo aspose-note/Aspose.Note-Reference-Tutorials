@@ -44,7 +44,7 @@ using System.Collections.Generic;
 string dataDir = "Your Document Directory";
 
 // Charger un bloc-notes OneNote
-var notebook = new Notebook(dataDir + "Notizbuch �ffnen.onetoc2");
+var notebook = new Notebook(dataDir + "Notebook.onetoc2");
 ```
 
  Dans cette étape, nous chargeons le bloc-notes OneNote à l'aide du`Notebook` classe fournie par Aspose.Note.

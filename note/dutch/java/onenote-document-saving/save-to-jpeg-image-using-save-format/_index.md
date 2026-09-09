@@ -129,8 +129,8 @@ We hebben alles behandeld wat je nodig hebt om **een OneNote‑pagina‑afbeeldi
 
 ---
 
-**Laatst bijgewerkt:** 2026-03-24  
-**Getest met:** Aspose.Note for Java 24.0 (latest at time of writing)  
+**Laatst bijgewerkt:** 2025-12-17  
+**Getest met:** Aspose.Note for Java 26.4 (latest op het moment van schrijven)  
 **Auteur:** Aspose  
 
 {{< /blocks/products/pf/tutorial-page-section >}}

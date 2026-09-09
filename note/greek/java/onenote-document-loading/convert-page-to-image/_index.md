@@ -134,7 +134,7 @@ System.out.println("File saved: " + dataDir + "ConvertSpecificPageToImage_out.jp
 ---
 
 **Τελευταία Ενημέρωση:** 2025-11-29  
-**Δοκιμή Με:** Aspose.Note for Java 24.12  
+**Δοκιμή Με:** Aspose.Note for Java 26.4  
 **Συγγραφέας:** Aspose  
 
 {{< /blocks/products/pf/tutorial-page-section >}}

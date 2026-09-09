@@ -62,7 +62,7 @@ Carica il taccuino che desideri convertire. Sostituisci il percorso segnaposto c
 
 ```java
 String dataDir = "Your Document Directory";
-Notebook notebook = new Notebook(dataDir + "Notizbuch öffnen.onetoc2");
+Notebook notebook = new Notebook(dataDir + "Notebook.onetoc2");
 ```
 
 ## Passo 2: Impostare le opzioni di conversione (Flatten PDF)

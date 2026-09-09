@@ -54,8 +54,8 @@ Aspose.Note.Page page = new Aspose.Note.Page(doc);
 
 ## 3단계: 아웃라인 및 아웃라인엘리먼트 개체 초기화
 ```csharp
-Outline outline1 = new Outline(doc);
-OutlineElement outlineElem1 = new OutlineElement(doc);
+Outline outline1 = new Outline();
+OutlineElement outlineElem1 = new OutlineElement();
 ```
 페이지 내 콘텐츠를 구조화하기 위해 아웃라인 및 아웃라인엘리먼트 클래스의 인스턴스를 만듭니다.
 

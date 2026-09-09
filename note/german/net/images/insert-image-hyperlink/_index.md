@@ -41,7 +41,7 @@ Zuerst müssen wir ein neues Dokument initialisieren und eine Seite erstellen, u
 
 ```csharp
 var document = new Document();
-var page = new Page(document);
+var page = new Page();
 ```
 
 ## Schritt 2: Bild mit Hyperlink einfügen
@@ -50,7 +50,7 @@ Fügen wir nun das Bild mit einem Hyperlink ein. Wir erstellen eine`Image` Objek
 
 ```csharp
 string imagePath = "path_to_your_image.jpg";
-var image = new Image(document, imagePath) { HyperlinkUrl = "http://example.com" };
+var image = new Image(imagePath) { HyperlinkUrl = "https://example.com" };
 ```
 
 ## Schritt 3: Bild an Seite anhängen

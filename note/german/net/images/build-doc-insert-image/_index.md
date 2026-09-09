@@ -61,7 +61,7 @@ Aspose.Note.Page page = new Aspose.Note.Page(doc);
 ## Schritt 3: Gliederungsobjekt initialisieren
 
 ```csharp
-Outline outline = new Outline(doc);
+Outline outline = new Outline();
 ```
 
  Der`Outline`Die Klasse stellt einen Gliederungsknoten in der Dokumenthierarchie dar. Wir erstellen ein neues Gliederungsobjekt, um unser Dokument zu strukturieren.
@@ -69,7 +69,7 @@ Outline outline = new Outline(doc);
 ## Schritt 4: OutlineElement-Objekt initialisieren
 
 ```csharp
-OutlineElement outlineElem = new OutlineElement(doc);
+OutlineElement outlineElem = new OutlineElement();
 ```
 
  Ein`OutlineElement` stellt ein Element innerhalb einer Gliederung dar. Hier erstellen wir ein neues Gliederungselement, um unserem Dokument Inhalt hinzuzufügen.

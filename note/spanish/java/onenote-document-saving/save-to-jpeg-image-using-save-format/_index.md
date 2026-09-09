@@ -130,9 +130,9 @@ Hemos cubierto todo lo que necesita para **renderizar una imagen de página de O
 
 ---
 
-**Last Updated:** 2026-03-24  
-**Tested With:** Aspose.Note for Java 24.0 (latest at time of writing)  
-**Author:** Aspose  
+**Última actualización:** 2025-12-17  
+**Probado con:** Aspose.Note for Java 26.4 (última versión al momento de escribir)  
+**Autor:** Aspose  
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

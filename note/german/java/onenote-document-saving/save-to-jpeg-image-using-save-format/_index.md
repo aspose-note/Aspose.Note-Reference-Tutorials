@@ -129,9 +129,9 @@ Wir haben alles behandelt, was Sie benötigen, um **OneNote‑Seitenbilder** mit
 
 ---
 
-**Zuletzt aktualisiert:** 2026-03-24  
-**Getestet mit:** Aspose.Note für Java 24.0 (zum Zeitpunkt der Erstellung)  
-**Autor:** Aspose  
+**Last Updated:** 2025-12-17  
+**Tested With:** Aspose.Note for Java 26.4 (latest at time of writing)  
+**Author:** Aspose  
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

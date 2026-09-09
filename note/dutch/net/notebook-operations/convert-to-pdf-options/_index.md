@@ -50,7 +50,7 @@ Eerst moeten we het OneNote-notitieboekje laden dat we naar een PDF-bestand will
 string dataDir = "Your Document Directory";
 
 // Laad een OneNote-notitieblok
-var notebook = new Notebook(dataDir + "Notizbuch �ffnen.onetoc2");
+var notebook = new Notebook(dataDir + "Notebook.onetoc2");
 ```
 
 ## Stap 2: Geef de PDF-opslagopties op

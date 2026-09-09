@@ -128,9 +128,9 @@ A: ดึงอ็อบเจกต์ `Page` ที่ต้องการจ
 
 ---
 
-**อัปเดตล่าสุด:** 2026-03-24  
-**ทดสอบกับ:** Aspose.Note for Java 24.0 (ล่าสุด ณ เวลาที่เขียน)  
-**ผู้เขียน:** Aspose  
+**Last Updated:** 2025-12-17  
+**Tested With:** ทดสอบด้วย: Aspose.Note for Java 26.4 (รุ่นล่าสุด ณ เวลาที่เขียน)  
+**Author:** Aspose  
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

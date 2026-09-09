@@ -128,8 +128,8 @@ Vi har gått igenom allt du behöver för att **rendera OneNote‑sidbild** med 
 
 ---
 
-**Senast uppdaterad:** 2026-03-24  
-**Testad med:** Aspose.Note för Java 24.0 (senaste vid skrivande)  
+**Senast uppdaterad:** 2025-12-17
+**Testad med:** Aspose.Note för Java 26.4 (senaste vid skrivandet)
 **Författare:** Aspose  
 
 {{< /blocks/products/pf/tutorial-page-section >}}

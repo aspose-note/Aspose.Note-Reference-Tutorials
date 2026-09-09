@@ -48,7 +48,7 @@ using System.Text;
 string dataDir = "Your Document Directory";
 
 // Φορτώστε ένα Σημειωματάριο OneNote
-var notebook = new Notebook(dataDir + "Notizbuch öffnen.onetoc2");
+var notebook = new Notebook(dataDir + "Notebook.onetoc2");
 ```
 
 ## Βήμα 2: Ορίστε τις επιλογές αποθήκευσης

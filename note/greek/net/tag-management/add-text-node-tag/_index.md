@@ -53,7 +53,7 @@ Document doc = new Document();
 
 ```csharp
 Aspose.Note.Page page = new Aspose.Note.Page(doc);
-Outline outline = new Outline(doc);
+Outline outline = new Outline();
 ```
 
 ## Βήμα 3: Προσθήκη κόμβου κειμένου με ετικέτα
@@ -61,9 +61,9 @@ Outline outline = new Outline(doc);
 Δημιουργήστε ένα αντικείμενο εμπλουτισμένου κειμένου με το επιθυμητό κείμενο και στυλ και, στη συνέχεια, προσθέστε το στο OutlineElement.
 
 ```csharp
-OutlineElement outlineElem = new OutlineElement(doc);
+OutlineElement outlineElem = new OutlineElement();
 ParagraphStyle textStyle = new ParagraphStyle { FontColor = Color.Black, FontName = "Arial", FontSize = 10 };
-RichText text = new RichText(doc) { Text = "OneNote text.", ParagraphStyle = textStyle };
+RichText text = new RichText() { Text = "OneNote text.", ParagraphStyle = textStyle };
 text.Tags.Add(NoteTag.CreateYellowStar());
 outlineElem.AppendChildLast(text);
 ```
