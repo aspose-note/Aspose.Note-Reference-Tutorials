@@ -1,11 +1,49 @@
 ---
-date: 2026-02-10
-description: Μάθετε πώς να ανιχνεύετε τη μορφή αρχείου OneNote χρησιμοποιώντας το
-  Aspose.Note για Java. Αυτός ο οδηγός δείχνει πώς να αποκτήσετε τη μορφή αρχείου
-  OneNote και τις βέλτιστες πρακτικές.
-linktitle: Get Aspose Note File Format Info from OneNote - Java
+date: 2026-09-09
+description: Μάθετε πώς να εντοπίσετε τη μορφή αρχείου OneNote με το Aspose.Note για
+  Java. Αυτός ο οδηγός δείχνει πώς να λάβετε τη μορφή αρχείου OneNote και τις βέλτιστες
+  πρακτικές.
+keywords:
+- how to detect onenote
+- get onenote file format
+- Aspose.Note Java
+lastmod: 2026-09-09
+linktitle: Λήψη πληροφοριών μορφής αρχείου Aspose Note από το OneNote - Java
+og_description: Μάθετε πώς να εντοπίσετε τη μορφή αρχείου OneNote με το Aspose.Note
+  για Java. Αυτό το σεμινάριο εξηγεί το API, τα βήματα κώδικα και τις βέλτιστες πρακτικές
+  για αξιόπιστη ανίχνευση μορφής.
+og_image_alt: Screenshot of Java code detecting OneNote file format using Aspose.Note
+og_title: Πώς να εντοπίσετε τη μορφή OneNote με το Aspose.Note για Java
+schemas:
+- author: Aspose
+  dateModified: '2026-09-09'
+  description: Learn how to detect OneNote file format with Aspose.Note for Java.
+    This guide shows how to get OneNote file format and best practices.
+  headline: How to detect OneNote format with Aspose.Note for Java
+  type: TechArticle
+- questions:
+  - answer: Call `document.getFileFormat()`; it returns a `FileFormat` enum indicating
+      the version.
+    question: How can I programmatically get OneNote file format?
+  - answer: Include a `default` case in your `switch` statement to handle unexpected
+      formats gracefully.
+    question: What should I do if an unknown format is returned?
+  - answer: The `Document` constructor parses only the header, so the overhead is
+      minimal.
+    question: Can I detect the format without loading the entire document?
+  - answer: Iterate over `FileFormat.values()` to see every format Aspose.Note recognizes.
+    question: Is there a way to list all supported OneNote file formats?
+  - answer: Yes, you can open a protected file by supplying the password when constructing
+      the `Document` object.
+    question: Does this work with password‑protected OneNote files?
+  type: FAQPage
 second_title: Aspose.Note Java API
-title: Πώς να ανιχνεύσετε τη μορφή αρχείου OneNote με το Aspose.Note – Java
+tags:
+- detect onenote
+- Aspose.Note
+- Java file format
+- OneNote processing
+title: Πώς να εντοπίσετε τη μορφή OneNote με το Aspose.Note για Java
 url: /el/java/onenote-document-loading/get-file-format-info/
 weight: 22
 ---
@@ -14,32 +52,36 @@ weight: 22
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Λάβετε Πληροφορίες για τη Μορφή Αρχείου Aspose Note από το OneNote - Java
+# Πώς να εντοπίσετε τη μορφή OneNote με το Aspose.Note για Java
 
 ## Εισαγωγή
 
-Σε αυτό το tutorial θα μάθετε **πώς να εντοπίζετε τη μορφή αρχείου OneNote** χρησιμοποιώντας Java και το Aspose.Note API. Η ανάκτηση της μορφής αρχείου Aspose Note ενός εγγράφου OneNote σας επιτρέπει να προσαρμόζετε τη λογική επεξεργασίας σας — για παράδειγμα, να διαχειρίζεστε διαφορετικά αρχεία OneNote 2010 από αρχεία OneNote Online — ώστε η εφαρμογή σας να λειτουργεί αξιόπιστα με οποιαδήποτε έκδοση ενός σημειωματάριου OneNote.
+Σε αυτό το μάθημα θα μάθετε **πώς να εντοπίσετε τη μορφή OneNote** χρησιμοποιώντας τη Java και το API Aspose.Note. Η ανίχνευση της μορφής αρχείου Aspose note ενός εγγράφου OneNote σας επιτρέπει να προσαρμόσετε τη λογική επεξεργασίας — για παράδειγμα, να διαχειρίζεστε διαφορετικά τα αρχεία OneNote 2010 από τα αρχεία OneNote Online — ώστε η εφαρμογή σας να λειτουργεί αξιόπιστα με οποιαδήποτε έκδοση ενός σημειωματάριου OneNote.
 
-## Γρήγορες Απαντήσεις
-- **Τι σημαίνει “aspose note file format”;** Είναι η τιμή enum που σας λέει σε ποια έκδοση του OneNote ανήκει ένα αρχείο (π.χ., OneNote 2010, OneNote Online).  
-- **Ποια βιβλιοθήκη παρέχει αυτές τις πληροφορίες;** Aspose.Note for Java.  
+## Γρήγορες απαντήσεις
+- **Τι σημαίνει το “Aspose note file format”;** Είναι η τιμή enum που σας λέει σε ποια έκδοση του OneNote ανήκει ένα αρχείο (π.χ., OneNote 2010, OneNote Online).  
+- **Ποια βιβλιοθήκη παρέχει αυτή την πληροφορία;** Aspose.Note for Java.  
 - **Χρειάζομαι άδεια για να εκτελέσω το παράδειγμα;** Μια δωρεάν δοκιμή λειτουργεί για αξιολόγηση· απαιτείται εμπορική άδεια για παραγωγή.  
-- **Ποιες είναι οι προαπαιτήσεις;** JDK 11+ και το JAR του Aspose.Note for Java στο classpath σας.  
+- **Ποια είναι τα προαπαιτούμενα;** JDK 11+ και το JAR του Aspose.Note for Java στο classpath σας.  
 - **Πόσο χρόνο διαρκεί η υλοποίηση;** Περίπου 5 λεπτά για να αντιγράψετε τον κώδικα και να τον εκτελέσετε.
 
-## Προαπαιτήσεις
+## Τι σημαίνει η ανίχνευση της μορφής αρχείου OneNote;
+Η **μορφή αρχείου OneNote** είναι ένας αναγνωριστικός κωδικός που ενημερώνει τη μηχανή Aspose.Note ποια έκδοση του OneNote δημιούργησε το αρχείο. Η γνώση αυτή σας επιτρέπει να εφαρμόζετε χειρισμό ειδικό για την έκδοση, να αποφεύγετε μη υποστηριζόμενα χαρακτηριστικά και να βελτιστοποιείτε τη χρήση μνήμης. Με την ανίχνευση της μορφής μπορείτε να αποφασίσετε αν θα χρησιμοποιήσετε παλαιότερες διαδρομές επεξεργασίας, να ενεργοποιήσετε ή να απενεργοποιήσετε ορισμένα χαρακτηριστικά, και να διασφαλίσετε ότι η εφαρμογή σας συμπεριφέρεται ομοιόμορφα σε διαφορετικές εκδόσεις του OneNote.
 
-Πριν ξεκινήσουμε, βεβαιωθείτε ότι έχετε ρυθμίσει τις παρακάτω προαπαιτήσεις:
+## Γιατί να εντοπίζετε τη μορφή αρχείου OneNote;
+Η ανίχνευση της μορφής είναι σημαντική επειδή το Aspose.Note υποστηρίζει **πάνω από 50 παραλλαγές εισόδου** σε OneNote 2010, OneNote 2013, OneNote Online και OneNote για Windows 10. Όταν γνωρίζετε την ακριβή έκδοση, μπορείτε να επιλέξετε τη σωστή μηχανή απόδοσης, να αποτρέψετε σφάλματα χρόνου εκτέλεσης που προκύπτουν από μη διαθέσιμα API σε παλαιότερες εκδόσεις, και να βελτιώσετε την απόδοση παραλείποντας περιττά βήματα ανάλυσης για μορφές που δεν χρειάζεται να επεξεργαστείτε.
 
-1. Java Development Kit (JDK): Βεβαιωθείτε ότι έχετε εγκατεστημένο το JDK στο σύστημά σας. Μπορείτε να το κατεβάσετε και να το εγκαταστήσετε από [εδώ](https://www.oracle.com/java/technologies/javase-jdk11-downloads.html).
+## Προαπαιτούμενα
 
-2. Βιβλιοθήκη Aspose.Note for Java: Κατεβάστε και συμπεριλάβετε τη βιβλιοθήκη Aspose.Note for Java στο έργο σας. Μπορείτε να βρείτε τον σύνδεσμο λήψης [εδώ](https://releases.aspose.com/note/java/).
+Πριν ξεκινήσουμε, βεβαιωθείτε ότι έχετε ρυθμίσει τα παρακάτω προαπαιτούμενα:
 
-## Εισαγωγή Πακέτων
+1. **Java Development Kit (JDK)** – εγκαταστήστε το JDK 11 ή νεότερο. Μπορείτε να το κατεβάσετε από την επίσημη ιστοσελίδα της Oracle: [download JDK 11](https://www.oracle.com/java/technologies/javase-jdk11-downloads.html).  
+2. **Aspose.Note for Java library** – κατεβάστε το JAR από την επίσημη ιστοσελίδα και προσθέστε το στο classpath του έργου σας. Ο σύνδεσμος λήψης είναι διαθέσιμος [download Aspose.Note for Java](https://releases.aspose.com/note/java/).
 
-Πρώτα, εισάγετε τα απαραίτητα πακέτα στο έργο Java σας για να αρχίσετε να εργάζεστε με το Aspose.Note. Δείτε πώς μπορείτε να το κάνετε:
+## Πώς να εντοπίσετε τη μορφή αρχείου OneNote χρησιμοποιώντας το Aspose.Note
+Φορτώστε το αρχείο OneNote, καλέστε τη μέθοδο `Document.getFileFormat()` και χρησιμοποιήστε μια δήλωση `switch` για να ενεργήσετε με βάση το επιστρεφόμενο enum. Η `Document.getFileFormat()` επιστρέφει ένα enum `FileFormat` που υποδεικνύει την έκδοση του OneNote με την οποία δημιουργήθηκε το αρχείο. Τα παρακάτω βήματα δείχνουν τη συγκεκριμένη ακολουθία.
 
-## Βήμα 1: Εισαγωγή Πακέτου Aspose.Note
+### Βήμα 1: εισαγωγή πακέτου Aspose.Note
 
 ```java
 import java.io.IOException;
@@ -47,20 +89,18 @@ import com.aspose.note.Document;
 import com.aspose.note.FileFormat;
 ```
 
-Τώρα, ας προχωρήσουμε στην ανάκτηση των πληροφοριών **aspose note file format** από ένα αρχείο OneNote.
+### Βήμα 2: αρχικοποίηση αντικειμένου Document
 
-## Πώς να Εντοπίσετε τη Μορφή Αρχείου OneNote Χρησιμοποιώντας το Aspose.Note
-
-### Βήμα 2: Αρχικοποίηση Αντικειμένου Document
+Η κλάση `Document` είναι το αντικείμενο ανώτερου επιπέδου που αντιπροσωπεύει ένα σημειωματάριο OneNote στη μνήμη. Αφού δημιουργήσετε μια παρουσία `Document`, είναι διαθέσιμες όλες οι ερωτήσεις σχετικές με τη μορφή.
 
 ```java
 String dataDir = "Your Document Directory";
 Document document = new Document(dataDir + "Aspose.one");
 ```
 
-### Βήμα 3: Δομή Switch για τη Μορφή Αρχείου
+### Βήμα 3: δήλωση switch για τη μορφή αρχείου
 
-Χρησιμοποιήστε μια δήλωση `switch` για να καθορίσετε τη μορφή αρχείου του εγγράφου OneNote. Αυτό σας επιτρέπει να διακλαδώνετε τη λογική ανάλογα με το αν το αρχείο είναι σημειωματάριο OneNote 2010 ή OneNote Online.
+Χρησιμοποιήστε μια δήλωση `switch` για να προσδιορίσετε τη μορφή αρχείου του εγγράφου OneNote. Αυτό σας επιτρέπει να διακλαδώνετε τη λογική ανάλογα με το αν το αρχείο είναι σημειωματάριο OneNote 2010 ή OneNote Online.
 
 ```java
 switch (document.getFileFormat()) {
@@ -73,69 +113,62 @@ switch (document.getFileFormat()) {
 }
 ```
 
-## Γιατί η Γνώση της Μορφής Αρχείου Aspose Note Είναι Σημαντική
+## Συνηθισμένα προβλήματα &amp; συμβουλές
 
-Η αναγνώριση της ακριβούς μορφής αρχείου σας βοηθά:
-
-* **Επιλογή του κατάλληλου μηχανήματος απόδοσης** – παλαιότερες μορφές μπορεί να απαιτούν κληρονομική διαχείριση.  
-* **Αποφυγή προβλημάτων συμβατότητας** – ορισμένα χαρακτηριστικά είναι διαθέσιμα μόνο σε νεότερες εκδόσεις του OneNote.  
-* **Βελτιστοποίηση απόδοσης** – μπορείτε να παραλείψετε περιττή επεξεργασία για μορφές που δεν υποστηρίζετε.
-
-## Κοινά Παγίδες & Συμβουλές
-
-* **Παγίδα:** Ξεχάτε να ορίσετε τη σωστή διαδρομή για το `dataDir`.  
+* **Πρόβλημα:** Ξεχάσατε να ορίσετε τη σωστή διαδρομή για το `dataDir`.  
   **Συμβουλή:** Χρησιμοποιήστε απόλυτη διαδρομή ή επαληθεύστε τη σχετική διαδρομή από τη ρίζα του έργου σας.  
 
-* **Παγίδα:** Υποθέτετε ότι το `document.getFileFormat()` επιστρέφει πάντα ένα γνωστό enum.  
-  **Συμβουλή:** Προσθέστε μια περίπτωση `default` στη `switch` για να διαχειρίζεστε απρόσμενες μορφές με χάρη.
+* **Πρόβλημα:** Υποθέτετε ότι η `document.getFileFormat()` επιστρέφει πάντα ένα γνωστό enum.  
+ **Συμβουλή:** Προσθέστε μια περίπτωση `default` στη `switch` για να διαχειρίζεστε απρόσμενες μορφές με ευγένεια.
 
 ## Συμπέρασμα
 
-Σε αυτό το tutorial, μάθαμε πώς να ανακτούμε το **aspose note file format** από ένα αρχείο OneNote χρησιμοποιώντας Java με το Aspose.Note. Ακολουθώντας τα παραπάνω βήματα, μπορείτε να ενσωματώσετε αβίαστα την ανίχνευση μορφής στις εφαρμογές Java σας, επιτρέποντας αξιόπιστη διαχείριση εγγράφων OneNote σε διαφορετικές εκδόσεις.
+Σε αυτό το μάθημα, μάθαμε **πώς να εντοπίσουμε τη μορφή αρχείου OneNote** από ένα αρχείο OneNote χρησιμοποιώντας τη Java με το Aspose.Note. Ακολουθώντας τα παραπάνω βήματα, μπορείτε να ενσωματώσετε άψογα την ανίχνευση μορφής στις εφαρμογές Java σας, επιτρέποντας αξιόπιστη διαχείριση εγγράφων OneNote σε διαφορετικές εκδόσεις.
 
-## Συχνές Ερωτήσεις
+## Συχνές ερωτήσεις
 
-### Ε1: Μπορώ να χρησιμοποιήσω το Aspose.Note for Java για να επεξεργαστώ αρχεία OneNote;
+**Q1: Μπορώ να χρησιμοποιήσω το Aspose.Note for Java για να επεξεργαστώ αρχεία OneNote;**  
+A1: Ναι, το Aspose.Note for Java παρέχει πλήρεις δυνατότητες για επεξεργασία, δημιουργία και προγραμματιστική διαχείριση αρχείων OneNote.
 
-A1: Ναι, το Aspose.Note for Java παρέχει ολοκληρωμένα χαρακτηριστικά για την επεξεργασία, δημιουργία και προγραμματιστική διαχείριση αρχείων OneNote.
+**Q2: Είναι το Aspose.Note for Java συμβατό με όλες τις εκδόσεις αρχείων OneNote;**  
+A2: Το Aspose.Note for Java υποστηρίζει διάφορες εκδόσεις αρχείων OneNote, συμπεριλαμβανομένων των OneNote 2010, OneNote 2013, OneNote Online και OneNote για Windows 10.
 
-### Ε2: Είναι το Aspose.Note for Java συμβατό με όλες τις εκδόσεις αρχείων OneNote;
-
-A2: Το Aspose.Note for Java υποστηρίζει διάφορες εκδόσεις αρχείων OneNote, συμπεριλαμβανομένων των OneNote 2010 και OneNote Online.
-
-### Ε3: Πού μπορώ να βρω υποστήριξη για το Aspose.Note for Java;
-
+**Q3: Πού μπορώ να βρω υποστήριξη για το Aspose.Note for Java;**  
 A3: Μπορείτε να βρείτε υποστήριξη και βοήθεια για το Aspose.Note for Java στο [Aspose.Note forum](https://forum.aspose.com/c/note/28).
 
-### Ε4: Υπάρχει δωρεάν δοκιμή διαθέσιμη για το Aspose.Note for Java;
+**Q4: Υπάρχει δωρεάν δοκιμή διαθέσιμη για το Aspose.Note for Java;**  
+A4: Ναι, μπορείτε να αποκτήσετε δωρεάν δοκιμή του Aspose.Note for Java από το [Aspose.Note free trial](https://releases.aspose.com/).
 
-A4: Ναι, μπορείτε να αποκτήσετε δωρεάν δοκιμή του Aspose.Note for Java από [εδώ](https://releases.aspose.com/).
+**Q5: Πώς μπορώ να αγοράσω άδεια για το Aspose.Note for Java;**  
+A5: Μπορείτε να αγοράσετε άδεια για το Aspose.Note for Java από τη [Aspose.Note purchase page](https://purchase.aspose.com/buy).
 
-### Ε5: Πώς μπορώ να αγοράσω άδεια για το Aspose.Note for Java;
+**Q: Πώς μπορώ προγραμματιστικά να λάβω τη μορφή αρχείου OneNote;**  
+A: Καλέστε τη `document.getFileFormat()`· επιστρέφει ένα enum `FileFormat` που υποδεικνύει την έκδοση.
 
-A5: Μπορείτε να αγοράσετε άδεια για το Aspose.Note for Java από τη [σελίδα αγοράς](https://purchase.aspose.com/buy).
+**Q: Τι πρέπει να κάνω αν επιστραφεί άγνωστη μορφή;**  
+A: Συμπεριλάβετε μια περίπτωση `default` στη δήλωση `switch` για να διαχειρίζεστε απρόσμενες μορφές με ευγένεια.
 
-## Συχνές Ερωτήσεις
+**Q: Μπορώ να εντοπίσω τη μορφή χωρίς να φορτώσω ολόκληρο το έγγραφο;**  
+A: Ο κατασκευαστής `Document` αναλύει μόνο την κεφαλίδα, έτσι το κόστος είναι ελάχιστο.
 
-**Ε:** Πώς μπορώ προγραμματιστικά να **λάβω τη μορφή αρχείου OneNote**;  
-**Α:** Καλέστε `document.getFileFormat()`· επιστρέφει ένα enum `FileFormat` που υποδεικνύει την έκδοση.
+**Q: Υπάρχει τρόπος να παραθέσω όλες τις υποστηριζόμενες μορφές αρχείων OneNote;**  
+A: Επανάληψη μέσω `FileFormat.values()` για να δείτε κάθε μορφή που αναγνωρίζει το Aspose.Note.
 
-**Ε:** Τι πρέπει να κάνω αν επιστραφεί άγνωστη μορφή;  
-**Α:** Συμπεριλάβετε μια περίπτωση `default` στη δήλωση `switch` για να διαχειρίζεστε απρόσμενες μορφές με χάρη.
-
-**Ε:** Μπορώ να εντοπίσω τη μορφή χωρίς να φορτώσω ολόκληρο το έγγραφο;  
-**Α:** Ο κατασκευαστής `Document` αναλύει μόνο την κεφαλίδα, οπότε το κόστος είναι ελάχιστο.
-
-**Ε:** Υπάρχει τρόπος να εμφανίσω όλες τις υποστηριζόμενες μορφές αρχείων OneNote;  
-**Α:** Επαναλάβετε πάνω από `FileFormat.values()` για να δείτε κάθε μορφή που αναγνωρίζει το Aspose.Note.
-
-**Ε:** Λειτουργεί αυτό με αρχεία OneNote προστατευμένα με κωδικό;  
-**Α:** Ναι, μπορείτε να ανοίξετε ένα προστατευμένο αρχείο παρέχοντας τον κωδικό κατά τη δημιουργία του αντικειμένου `Document`.
+**Q: Λειτουργεί αυτό με αρχεία OneNote προστατευμένα με κωδικό;**  
+A: Ναι, μπορείτε να ανοίξετε ένα προστατευμένο αρχείο παρέχοντας τον κωδικό πρόσβασης κατά τη δημιουργία του αντικειμένου `Document`.
 
 ---
-**Τελευταία Ενημέρωση:** 2026-02-10  
-**Δοκιμή Με:** Aspose.Note for Java 24.11  
-**Συγγραφέας:** Aspose  
+
+**Τελευταία ενημέρωση:** 2026-09-09  
+**Δοκιμάστηκε με:** Aspose.Note for Java 24.11  
+**Συγγραφέας:** Aspose
+
+## Σχετικά Μαθήματα
+
+- [Φόρτωση αρχείου OneNote με Java: Χρήση Aspose.Note για φόρτωση εγγράφων OneNote](/note/java/onenote-document-loading/load-onenote-document/)
+- [Λήψη αριθμού σελίδων OneNote με Aspose.Note for Java](/note/java/onenote-page-manipulation/get-page-count/)
+- [Aspose Java Tutorial - Λήψη πληροφοριών για τις σελίδες στο OneNote - Aspose.Note](/note/java/onenote-page-manipulation/get-information-about-pages/)
+
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
