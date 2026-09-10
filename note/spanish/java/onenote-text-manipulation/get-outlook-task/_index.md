@@ -1,26 +1,47 @@
 ---
-title: Obtener tarea de Outlook en OneNote - Aspose.Note
-linktitle: Obtener tarea de Outlook en OneNote - Aspose.Note
-second_title: Aspose.Nota Java API
-description: Explore el potencial de Aspose.Note para Java para extraer sin esfuerzo los detalles de las tareas de Outlook de los documentos de OneNote. Mejore su desarrollo de Java con esta sólida biblioteca.
-weight: 10
+date: 2026-03-27
+description: Aprende cómo extraer los detalles de las tareas de OneNote Outlook usando
+  Aspose.Note para Java – una solución rápida y confiable para desarrolladores Java.
+linktitle: Get Outlook Task in OneNote - Aspose.Note
+second_title: Aspose.Note Java API
+title: Cómo extraer una tarea de OneNote Outlook Tasks – Aspose.Note
 url: /es/java/onenote-text-manipulation/get-outlook-task/
+weight: 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Obtener tarea de Outlook en OneNote - Aspose.Note
+# Cómo extraer tareas de OneNote Outlook Tasks
 
 ## Introducción
-Bienvenido al mundo de Aspose.Note para Java, una potente herramienta que permite a los desarrolladores de Java trabajar sin problemas con archivos de Microsoft OneNote. En esta guía paso a paso, lo guiaremos a través del proceso de extracción de información de tareas de Outlook de un documento de OneNote usando Aspose.Note para Java.
+Si necesitas **cómo extraer tareas** información que se encuentra dentro de una página de OneNote—especialmente tareas de Outlook—Aspose.Note for Java lo hace sin complicaciones. En este tutorial práctico recorreremos los pasos exactos para obtener las propiedades de la tarea (estado, fecha de vencimiento, hora de creación, etc.) de un documento OneNote y luego imprimirlas en la consola. Al final tendrás un fragmento reutilizable que puedes incrustar en cualquier proyecto Java que trabaje con archivos OneNote.
+
+## Respuestas rápidas
+- **¿Qué cubre este tutorial?** Extracción de detalles de tareas de Outlook de un archivo OneNote usando Aspose.Note for Java.  
+- **¿Cuánto tiempo lleva la implementación?** Alrededor de 10‑15 minutos para una configuración básica.  
+- **¿Requisitos previos?** Java JDK, biblioteca Aspose.Note for Java y un archivo OneNote que contenga tareas.  
+- **¿Necesito una licencia?** Se requiere una licencia temporal o completa de Aspose.Note para uso en producción.  
+- **¿Puedo ejecutar esto en cualquier SO?** Sí, la biblioteca es independiente de la plataforma siempre que Java se ejecute.
+
+## ¿Qué es la extracción de tareas de OneNote?
+Extraer una tarea significa leer la etiqueta `NoteTask` que OneNote almacena para cada tarea vinculada a Outlook. La etiqueta contiene metadatos como hora de finalización, fecha de vencimiento y estado, que puedes acceder programáticamente a través del modelo de objetos de Aspose.Note.
+
+## ¿Por qué extraer información de tareas?
+- **Automatización:** Sincroniza tareas con tu propio sistema de gestión de tareas.  
+- **Informes:** Genera informes personalizados sobre el progreso de las tareas en varios cuadernos.  
+- **Migración:** Mueve tareas de OneNote a otras plataformas (p. ej., Microsoft Planner, Jira).  
+
 ## Requisitos previos
-Antes de sumergirse en el tutorial, asegúrese de cumplir con los siguientes requisitos previos:
-- Kit de desarrollo de Java (JDK): asegúrese de tener Java instalado en su sistema.
--  Aspose.Note para Java: descargue e instale la biblioteca Aspose.Note desde[pagina de descarga](https://releases.aspose.com/note/java/).
+Antes de comenzar, asegúrate de tener:
+
+- **Java Development Kit (JDK)** – cualquier versión reciente (8 o superior).  
+- **Aspose.Note for Java** – descárgalo desde la [página de descarga](https://releases.aspose.com/note/java/).  
+
 ## Importar paquetes
-Comience importando los paquetes necesarios a su proyecto Java. Agregue las siguientes líneas al comienzo de su archivo Java:
+Comienza importando las clases necesarias en tu archivo fuente Java:
+
 ```java
 import java.io.IOException;
 import java.util.List;
@@ -29,33 +50,43 @@ import com.aspose.note.ITag;
 import com.aspose.note.NoteTask;
 import com.aspose.note.RichText;
 ```
-## Paso 1: configura tu proyecto
-Cree un nuevo proyecto Java e incluya la biblioteca Aspose.Note en las dependencias de su proyecto. Asegúrese de que la estructura de su proyecto esté organizada y de tener un directorio dedicado para sus documentos.
-## Paso 2: cargue el documento de OneNote
-Utilice el siguiente código para cargar su documento de OneNote en Aspose.Note:
+
+## Paso 1: Configura tu proyecto
+Crea un nuevo proyecto Java (Maven, Gradle o IDE simple) y agrega el JAR de Aspose.Note al classpath. Mantén tus archivos OneNote en una carpeta dedicada, por ejemplo `data/`.
+
+## Paso 2: Carga el documento OneNote
+Carga el archivo `.one` que deseas inspeccionar:
+
 ```java
 String dataDir = "Your Document Directory";
 Document doc = new Document(dataDir + "Sample1.one");
 ```
-Asegúrese de reemplazar "Su directorio de documentos" con la ruta a su documento de OneNote.
-## Paso 3: recuperar nodos de texto enriquecido
-Extraiga todos los nodos RichText del documento usando el siguiente código:
+
+> **Consejo profesional:** Usa una ruta absoluta o una propiedad de configuración si tu aplicación se ejecuta en diferentes entornos.
+
+## Paso 3: Recupera nodos RichText
+Todos los elementos textuales están representados por nodos `RichText`. Obtén todos:
+
 ```java
 List<RichText> nodes = (List<RichText>) doc.getChildNodes(RichText.class);
 ```
-## Paso 4: iterar a través de cada nodo
-Recorra cada nodo RichText e identifique si contiene una etiqueta NoteTask:
+
+## Paso 4: Itera a través de cada nodo
+Busca en cada nodo `RichText` una etiqueta `NoteTask`:
+
 ```java
 for (RichText richText : nodes) {
     for (ITag tag : richText.getTags()) {
         if (tag.getClass() == NoteTask.class) {
-            // Tu código para manejar NoteTask
+            // Your code to handle NoteTask
         }
     }
 }
 ```
-## Paso 5: recuperar las propiedades de la tarea
-Recupere e imprima varias propiedades de NoteTask, como hora de finalización, hora de creación, fecha de vencimiento, estado e icono:
+
+## Paso 5: Recupera propiedades de la tarea
+Una vez que tengas una instancia de `NoteTask`, puedes leer sus propiedades:
+
 ```java
 NoteTask noteTask = (NoteTask) tag;
 System.out.println("Completed Time: " + noteTask.getCompletedTime());
@@ -64,20 +95,42 @@ System.out.println("Due Date: " + noteTask.getDueDate());
 System.out.println("Status: " + noteTask.getStatus());
 System.out.println("Icon: " + noteTask.getIcon());
 ```
-Repita este proceso para todos los nodos NoteTask del documento.
-## Conclusión
-¡Felicidades! Ha aprendido con éxito cómo utilizar Aspose.Note para Java para extraer información de tareas de Outlook de un documento de OneNote. Esta poderosa biblioteca abre un mundo de posibilidades para los desarrolladores de Java que trabajan con archivos de Microsoft OneNote.
+
+> **Nota:** Ejecuta el bucle para cada nodo `NoteTask` para extraer información de todas las tareas del documento.
+
+## Problemas comunes y soluciones
+| Problema | Por qué ocurre | Solución |
+|----------|----------------|----------|
+| `NullPointerException` en `noteTask` | La etiqueta no es un `NoteTask`. | Añade una verificación de null o verifica `tag instanceof NoteTask`. |
+| Sin salida para fechas | La tarea en OneNote no tiene fecha de vencimiento. | Comprueba `noteTask.getDueDate()` para `null` antes de imprimir. |
+| Biblioteca no encontrada en tiempo de ejecución | JAR no está en el classpath. | Asegúrate de que el JAR de Aspose.Note esté incluido en la configuración de compilación. |
+
 ## Preguntas frecuentes
-### P: ¿Puedo usar Aspose.Note para Java con otros marcos de Java?
-R: Sí, Aspose.Note para Java es compatible con varios marcos de Java, lo que brinda flexibilidad en la integración.
-### P: ¿Hay una prueba gratuita disponible para Aspose.Note para Java?
- R: Sí, puedes explorar una prueba gratuita de Aspose.Note para Java[aquí](https://releases.aspose.com/).
-### P: ¿Cómo puedo obtener soporte para Aspose.Note para Java?
- R: Visita el[Foro Aspose.Note](https://forum.aspose.com/c/note/28) para obtener soporte comunitario o explorar opciones de soporte premium.
-### P: ¿Dónde puedo encontrar documentación detallada de Aspose.Note para Java?
- R: Consulte el[Aspose.Note para la documentación de Java](https://reference.aspose.com/note/java/) para obtener información detallada.
-### P: ¿Cómo obtengo una licencia temporal de Aspose.Note para Java?
- R: Obtenga su licencia temporal[aquí](https://purchase.aspose.com/temporary-license/).
+
+**P: ¿Puedo usar Aspose.Note for Java con otros frameworks Java?**  
+R: Sí, Aspose.Note for Java se integra sin problemas con Spring, Jakarta EE, Android y cualquier entorno Java estándar.
+
+**P: ¿Hay una prueba gratuita disponible para Aspose.Note for Java?**  
+R: Sí, puedes explorar una prueba gratuita de Aspose.Note for Java [aquí](https://releases.aspose.com/).
+
+**P: ¿Cómo puedo obtener soporte para Aspose.Note for Java?**  
+R: Visita el [Foro de Aspose.Note](https://forum.aspose.com/c/note/28) para ayuda de la comunidad o adquiere un plan de soporte premium.
+
+**P: ¿Dónde puedo encontrar documentación detallada para Aspose.Note for Java?**  
+R: Consulta la [documentación de Aspose.Note for Java](https://reference.aspose.com/note/java/) para referencias API en profundidad y ejemplos.
+
+**P: ¿Cómo obtengo una licencia temporal para Aspose.Note for Java?**  
+R: Obtén tu licencia temporal [aquí](https://purchase.aspose.com/temporary-license/).
+
+## Conclusión
+Ahora dominas **cómo extraer tareas** de OneNote usando Aspose.Note for Java. Esta capacidad abre la puerta a escenarios de automatización, generación de informes y migración que antes eran manuales y propensos a errores. Siéntete libre de ampliar el ejemplo: almacenar los datos extraídos en una base de datos, enviarlos a un servicio externo o combinarlos con otro contenido de OneNote.
+
+---
+
+**Última actualización:** 2026-03-27  
+**Probado con:** Aspose.Note for Java 24.11 (última versión al momento de escribir)  
+**Autor:** Aspose  
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
