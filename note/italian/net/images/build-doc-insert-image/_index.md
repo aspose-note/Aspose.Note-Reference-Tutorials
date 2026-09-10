@@ -61,7 +61,7 @@ Aspose.Note.Page page = new Aspose.Note.Page(doc);
 ## Passaggio 3: inizializza l'oggetto contorno
 
 ```csharp
-Outline outline = new Outline(doc);
+Outline outline = new Outline();
 ```
 
  IL`Outline`La classe rappresenta un nodo di struttura nella gerarchia del documento. Creiamo un nuovo oggetto struttura per strutturare il nostro documento.
@@ -69,7 +69,7 @@ Outline outline = new Outline(doc);
 ## Passaggio 4: inizializzare l'oggetto OutlineElement
 
 ```csharp
-OutlineElement outlineElem = new OutlineElement(doc);
+OutlineElement outlineElem = new OutlineElement();
 ```
 
  UN`OutlineElement` rappresenta un elemento all'interno di un contorno. Qui creiamo un nuovo elemento di struttura per aggiungere contenuto al nostro documento.

@@ -87,7 +87,7 @@ doc.save(dataDir);
 이 튜토리얼에서는 잠긴 열이 있는 테이블을 생성하여 OneNote 경험을 향상시키기 위해 Java용 Aspose.Note를 활용하는 프로세스를 살펴보았습니다. 이 기능은 메모에 새로운 조직 및 구조 계층을 추가합니다.
 ## 자주 묻는 질문
 ### Aspose.Note for Java는 모든 Java 버전과 호환됩니까?
-예, Java용 Aspose.Note는 Java 6 이상 버전과 호환됩니다.
+예, Java용 Aspose.Note는 Java SE 7 이상 버전과 호환됩니다.
 ### 테이블의 모양을 추가로 사용자 정의할 수 있나요?
 전적으로! Aspose.Note for Java는 테두리 조정, 셀 간격 등과 같은 테이블 사용자 정의를 위한 광범위한 옵션을 제공합니다.
 ### 구매하기 전에 체험판을 사용할 수 있나요?

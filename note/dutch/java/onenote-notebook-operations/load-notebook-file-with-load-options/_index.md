@@ -111,9 +111,9 @@ A5: Als je het product evalueert, kun je een tijdelijke licentie verkrijgen [hie
 
 ---
 
-**Laatst bijgewerkt:** 2026-03-27  
-**Tested With:** Aspose.Note 24.11 for Java  
-**Author:** Aspose
+**Laatst bijgewerkt:** 2025-12-31  
+**Getest met:** Aspose.Note 26.4 for Java  
+**Auteur:** Aspose
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

@@ -110,9 +110,9 @@ A5: 제품을 평가하는 경우 [here](https://purchase.aspose.com/temporary-l
 
 ---
 
-**Last Updated:** 2026-03-27  
-**Tested With:** Aspose.Note 24.11 for Java  
-**Author:** Aspose
+**마지막 업데이트:** 2025-12-31  
+**테스트 환경:** Aspose.Note 26.4 for Java  
+**작성자:** Aspose
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

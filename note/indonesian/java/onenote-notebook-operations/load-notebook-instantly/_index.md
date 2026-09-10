@@ -42,7 +42,7 @@ Instant loading OneNote adalah fitur dari kelas `NotebookLoadOptions` yang membe
 
 Sebelum kita mulai, pastikan Anda memiliki prasyarat berikut:
 
-1. **Java Development Kit (JDK):** Pastikan Anda telah menginstal Java di sistem Anda. Anda dapat mengunduh dan menginstal JDK terbaru dari [here](https://www.oracle.com/java/technologies/javase-jdk15-downloads.html).
+1. **Java Development Kit (JDK):** Pastikan Anda memiliki Java terpasang di sistem Anda. Anda dapat mengunduh dan menginstal JDK terbaru dari [here](https://www.oracle.com/java/technologies/downloads/).
 
 2. **Aspose.Note for Java:** Anda perlu memiliki pustaka Aspose.Note untuk Java. Anda dapat memperolehnya dari [download page](https://releases.aspose.com/note/java/).
 
@@ -121,20 +121,8 @@ A4: Ya, Anda dapat mengunduh versi percobaan gratis dari [here](https://releases
 **Q5: Bagaimana saya dapat memperoleh lisensi sementara untuk Aspose.Note untuk Java?**  
 A5: Anda dapat meminta lisensi sementara dari [temporary license page](https://purchase.aspose.com/temporary-license/).
 
-**Q6: Apakah memungkinkan memuat notebook lalu menambahkan bagian baru tanpa memuat ulang?**  
-A6: Tentu saja. Setelah pemuatan instan awal, Anda dapat menggunakan API `Notebook` untuk menambah, menghapus, atau memperbarui bagian dan halaman, lalu menyimpan notebook kembali ke disk.
-
-**Q7: Pertimbangan memori apa yang harus saya perhatikan untuk notebook yang sangat besar?**  
-A7: Instant loading menyimpan seluruh notebook di memori. Untuk notebook yang lebih besar dari beberapa ratus megabyte, pantau penggunaan heap JVM dan pertimbangkan memproses bagian dalam thread terpisah atau menggunakan teknik paginasi.
-
-## Kesimpulan
-
-Anda kini telah mempelajari cara **meningkatkan kinerja OneNote** dengan memanfaatkan instant loading menggunakan Aspose.Note untuk Java. Pendekatan yang disederhanakan ini memungkinkan Anda memuat seluruh notebook dan isinya dalam satu langkah, membuka jalan bagi pemrosesan yang lebih cepat, pengurangan beban I/O, dan kode yang lebih bersih ketika Anda perlu **membaca bagian OneNote** atau **memodifikasi data notebook OneNote**.
-
----
-
-**Terakhir Diperbarui:** 2026-03-27  
-**Diuji Dengan:** Aspose.Note for Java 24.12 (latest)  
+**Terakhir Diperbarui:** 2025-12-31  
+**Diuji Dengan:** Aspose.Note for Java 26.4 (latest)  
 **Penulis:** Aspose  
 
 {{< /blocks/products/pf/tutorial-page-section >}}

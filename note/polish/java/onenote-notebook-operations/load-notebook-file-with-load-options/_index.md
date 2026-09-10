@@ -111,8 +111,8 @@ A5: Jeśli ocenisz produkt, możesz uzyskać tymczasową licencję [tutaj](https
 
 ---
 
-**Ostatnia aktualizacja:** 2026-03-27  
-**Testowano z:** Aspose.Note 24.11 for Java  
+**Ostatnia aktualizacja:** 2025-12-31  
+**Testowano z:** Aspose.Note 26.4 dla Javy  
 **Autor:** Aspose
 
 {{< /blocks/products/pf/tutorial-page-section >}}

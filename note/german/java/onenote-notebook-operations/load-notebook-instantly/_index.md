@@ -43,7 +43,7 @@ Sofort‑Laden in OneNote ist eine Funktion der Klasse `NotebookLoadOptions`, di
 
 Bevor wir beginnen, stellen Sie sicher, dass Sie die folgenden Voraussetzungen erfüllen:
 
-1. **Java Development Kit (JDK):** Stellen Sie sicher, dass Java auf Ihrem System installiert ist. Sie können das neueste JDK von [hier](https://www.oracle.com/java/technologies/javase-jdk15-downloads.html) herunterladen und installieren.
+1. **Java Development Kit (JDK):** Stellen Sie sicher, dass Java auf Ihrem System installiert ist. Sie können das neueste JDK von [here](https://www.oracle.com/java/technologies/downloads/) herunterladen und installieren.
 
 2. **Aspose.Note for Java:** Sie benötigen die Aspose.Note für Java‑Bibliothek. Sie können sie von der [Download‑Seite](https://releases.aspose.com/note/java/) erhalten.
 
@@ -134,8 +134,8 @@ Sie haben nun gelernt, wie Sie die **OneNote‑Leistung** verbessern können, in
 
 ---
 
-**Zuletzt aktualisiert:** 2026-03-27  
-**Getestet mit:** Aspose.Note for Java 24.12 (latest)  
+**Zuletzt aktualisiert:** 2025-12-31  
+**Getestet mit:** Aspose.Note für Java 26.4 (latest)  
 **Autor:** Aspose  
 
 {{< /blocks/products/pf/tutorial-page-section >}}

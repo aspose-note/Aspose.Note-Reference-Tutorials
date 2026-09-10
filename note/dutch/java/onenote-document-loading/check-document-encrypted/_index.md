@@ -24,7 +24,7 @@ Wanneer je met OneNote‑bestanden werkt in een Java‑applicatie, is het eerste
 
 - **Welke methode bepaalt versleuteling?** `Document.isEncrypted`  
 - **Heb ik een wachtwoord nodig om te controleren?** Nee, je kunt de status opvragen zonder wachtwoord.  
-- **Welke API‑versie werkt?** Elke recente Aspose.Note voor Java‑release (getest met 24.11).  
+- **Welke API‑versie werkt?** Elke recente Aspose.Note voor Java‑release (getest met 26.4).  
 - **Kan ik zowel streams als bestandspaden controleren?** Ja – de API ondersteunt beide.  
 - **Wat gebeurt er als het wachtwoord onjuist is?** De methode retourneert `true`, wat aangeeft dat het bestand versleuteld blijft.  
 
@@ -148,7 +148,7 @@ In deze gids hebben we **hoe je onenote encryptie java controleert** met Aspose.
 ---  
 
 **Laatst bijgewerkt:** 2025-11-29  
-**Getest met:** Aspose.Note 24.11 voor Java  
+**Getest met:** Aspose.Note 26.4 voor Java  
 **Auteur:** Aspose  
 
 {{< /blocks/products/pf/tutorial-page-section >}}  

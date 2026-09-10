@@ -41,7 +41,7 @@ Aspose.Note.Document doc = new Aspose.Note.Document();
 // Inisialisasi objek kelas Halaman
 Aspose.Note.Page page = new Aspose.Note.Page(doc);
 // Inisialisasi objek kelas Outline
-Outline outline = new Outline(doc);
+Outline outline = new Outline();
 ```
 ## Langkah 3: Tetapkan Gaya Teks Default
 ```csharp
@@ -51,8 +51,8 @@ ParagraphStyle defaultStyle = new ParagraphStyle { FontColor = Color.Black, Font
 ## Langkah 4: Buat Elemen Garis Besar dengan Poin
 ```csharp
 // Inisialisasi objek kelas OutlineElement dan terapkan poin
-OutlineElement outlineElem1 = new OutlineElement(doc) { NumberList = new NumberList("*", "Arial", 10) };
-RichText text1 = new RichText(doc) { Text = "First", ParagraphStyle = defaultStyle };
+OutlineElement outlineElem1 = new OutlineElement() { NumberList = new NumberList("*", "Arial", 10) };
+RichText text1 = new RichText() { Text = "First", ParagraphStyle = defaultStyle };
 outlineElem1.AppendChildLast(text1);
 // Ulangi untuk elemen kerangka lainnya
 ```

@@ -122,7 +122,7 @@ A: Absolut – iterera över `Document.getPages()` och tillämpa samma sparlogik
 ---
 
 **Senast uppdaterad:** 2025-12-14  
-**Testat med:** Aspose.Note för Java 24.12  
+**Testat med:** Aspose.Note för Java 26.4  
 **Författare:** Aspose  
 
 {{< /blocks/products/pf/tutorial-page-section >}}

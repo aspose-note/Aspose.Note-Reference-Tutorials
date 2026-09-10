@@ -77,8 +77,8 @@ Page page = new Page();
 现在将图像添加到页面，并 **设置图像超链接**（本教程的核心操作）。`setHyperlinkUrl` 方法会将您提供的 URL 附加到图像上。
 
 ```java
-Image image = new Image(null, dataDir + "image1.jpg");
-image.setHyperlinkUrl("http://www.aspose.com");
+Image image = new Image(dataDir + "image1.jpg");
+image.setHyperlinkUrl("https://www.aspose.com");
 page.appendChildLast(image);
 ```
 
@@ -137,7 +137,7 @@ document.save(dataDir + "HyperlinkToImage_out.one");
 ---
 
 **最后更新：** 2025-12-20  
-**测试环境：** Aspose.Note for Java 24.11  
+**测试环境：** Aspose.Note for Java 26.4  
 **作者：** Aspose  
 
 ---

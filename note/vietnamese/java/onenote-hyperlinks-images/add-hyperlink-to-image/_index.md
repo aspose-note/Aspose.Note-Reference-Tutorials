@@ -78,8 +78,8 @@ Page page = new Page();
 Bây giờ chúng ta thêm hình ảnh vào trang và **đặt siêu liên kết cho hình ảnh** (hành động chính của hướng dẫn này). Phương thức `setHyperlinkUrl` sẽ gắn URL bạn cung cấp.
 
 ```java
-Image image = new Image(null, dataDir + "image1.jpg");
-image.setHyperlinkUrl("http://www.aspose.com");
+Image image = new Image(dataDir + "image1.jpg");
+image.setHyperlinkUrl("https://www.aspose.com");
 page.appendChildLast(image);
 ```
 
@@ -138,7 +138,7 @@ Thêm **siêu liên kết vào hình ảnh** trong OneNote bằng Java trở nê
 ---
 
 **Last Updated:** 2025-12-20  
-**Tested With:** Aspose.Note for Java 24.11  
+**Tested With:** Aspose.Note for Java 26.4  
 **Author:** Aspose  
 
 ---

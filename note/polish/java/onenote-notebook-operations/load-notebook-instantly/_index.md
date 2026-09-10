@@ -42,7 +42,7 @@ Natychmiastowe ładowanie OneNote to funkcja klasy `NotebookLoadOptions`, która
 
 Zanim zaczniemy, upewnij się, że masz następujące wymagania:
 
-1. **Java Development Kit (JDK):** Upewnij się, że masz zainstalowaną Javę w systemie. Najnowszy JDK możesz pobrać i zainstalować z [tutaj](https://www.oracle.com/java/technologies/javase-jdk15-downloads.html).
+1. **Java Development Kit (JDK):** Upewnij się, że masz zainstalowaną Javę w systemie. Najnowszy JDK możesz pobrać i zainstalować z [tutaj](https://www.oracle.com/java/technologies/downloads/).
 
 2. **Aspose.Note for Java:** Musisz mieć bibliotekę Aspose.Note dla Javy. Możesz ją uzyskać ze [strony pobierania](https://releases.aspose.com/note/java/).
 
@@ -121,20 +121,8 @@ A4: Tak, możesz pobrać darmową wersję próbną z [tutaj](https://releases.as
 **Q5: Jak mogę uzyskać tymczasową licencję dla Aspose.Note dla Javy?**  
 A5: Możesz poprosić o tymczasową licencję na [stronie tymczasowej licencji](https://purchase.aspose.com/temporary-license/).
 
-**Q6: Czy można załadować notatnik, a następnie dodać nowe sekcje bez ponownego ładowania?**  
-A6: Absolutnie. Po początkowym natychmiastowym załadowaniu możesz użyć API `Notebook`, aby dodawać, usuwać lub aktualizować sekcje i strony, a następnie zapisać notatnik z powrotem na dysk.
-
-**Q7: Jakie kwestie pamięciowe należy mieć na uwadze przy bardzo dużych notatnikach?**  
-A7: Natychmiastowe ładowanie utrzymuje cały notatnik w pamięci. Dla notatników większych niż kilka set megabajtów, monitoruj zużycie sterty JVM i rozważ przetwarzanie sekcji w osobnych wątkach lub użycie technik paginacji.
-
-## Podsumowanie
-
-Teraz wiesz, jak **poprawić wydajność OneNote** wykorzystując natychmiastowe ładowanie z Aspose.Note dla Javy. To usprawnione podejście pozwala załadować cały notatnik i jego zawartość w jednym kroku, otwierając drogę do szybszego przetwarzania, zmniejszonego narzutu I/O oraz czystszego kodu, gdy potrzebujesz **odczytywać sekcje OneNote** lub **modyfikować dane notatnika OneNote**.
-
----
-
-**Ostatnia aktualizacja:** 2026-03-27  
-**Testowano z:** Aspose.Note for Java 24.12 (latest)  
+**Ostatnia aktualizacja:** 2025-12-31  
+**Testowano z:** Aspose.Note for Java 26.4 (latest)  
 **Autor:** Aspose  
 
 {{< /blocks/products/pf/tutorial-page-section >}}

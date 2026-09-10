@@ -109,10 +109,8 @@ A4: Pro jakékoli dotazy nebo problémy můžete navštívit fórum podpory [zde
 **Q5: Potřebuji dočasnou licenci pro použití Aspose.Note pro Java?**  
 A5: Pokud produkt hodnotíte, můžete získat dočasnou licenci [zde](https://purchase.aspose.com/temporary-license/).
 
----
-
-**Poslední aktualizace:** 2026-03-27  
-**Testováno s:** Aspose.Note 24.11 pro Java  
+**Poslední aktualizace:** 2025-12-31  
+**Testováno s:** Aspose.Note 26.4 pro Java  
 **Autor:** Aspose
 
 {{< /blocks/products/pf/tutorial-page-section >}}

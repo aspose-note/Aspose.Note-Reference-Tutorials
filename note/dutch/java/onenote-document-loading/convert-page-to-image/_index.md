@@ -134,7 +134,7 @@ A: Bezoek het [Aspose.Note‑forum](https://forum.aspose.com/c/note/28) of raadp
 ---
 
 **Laatst bijgewerkt:** 2025-11-29  
-**Getest met:** Aspose.Note for Java 24.12  
+**Getest met:** Aspose.Note for Java 26.4  
 **Auteur:** Aspose  
 
 {{< /blocks/products/pf/tutorial-page-section >}}

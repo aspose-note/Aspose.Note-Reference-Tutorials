@@ -45,7 +45,7 @@ import com.aspose.note.PdfSaveOptions;
 ```java
 String dataDir = "Your Document Directory";
 // OneNote ノートブックをロードする
-Notebook notebook = new Notebook(dataDir + "Notizbuch �ffnen.onetoc2");
+Notebook notebook = new Notebook(dataDir + "Notebook.onetoc2");
 ```
 
 ## ステップ 2: PDF 保存オプションを指定する

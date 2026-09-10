@@ -43,7 +43,7 @@ Instant loading OneNote is een functie van de `NotebookLoadOptions`‑klasse die
 
 Voordat we beginnen, zorg ervoor dat je de volgende vereisten hebt:
 
-1. **Java Development Kit (JDK):** Zorg ervoor dat Java op je systeem is geïnstalleerd. Je kunt de nieuwste JDK downloaden en installeren via [hier](https://www.oracle.com/java/technologies/javase-jdk15-downloads.html).
+1. **Java Development Kit (JDK):** Zorg ervoor dat Java op je systeem is geïnstalleerd. Je kunt de nieuwste JDK downloaden en installeren via [here](https://www.oracle.com/java/technologies/downloads/).
 
 2. **Aspose.Note for Java:** Je moet de Aspose.Note voor Java‑bibliotheek hebben. Deze kun je verkrijgen via de [downloadpagina](https://releases.aspose.com/note/java/).
 
@@ -122,21 +122,9 @@ A4: Ja, je kunt een gratis proefversie downloaden via [hier](https://releases.as
 **Q5: Hoe kan ik een tijdelijke licentie voor Aspose.Note voor Java verkrijgen?**  
 A5: Je kunt een tijdelijke licentie aanvragen via de [pagina voor tijdelijke licenties](https://purchase.aspose.com/temporary-license/).
 
-**Q6: Is het mogelijk een notitieboek te laden en vervolgens nieuwe secties toe te voegen zonder opnieuw te laden?**  
-A6: Absoluut. Na de eerste instant load kun je de `Notebook`‑API gebruiken om secties en pagina's toe te voegen, te verwijderen of bij te werken, en vervolgens het notitieboek weer naar schijf op te slaan.
-
-**Q7: Aan welke geheugenoverwegingen moet ik denken bij zeer grote notitieboeken?**  
-A7: Instant loading houdt het volledige notitieboek in het geheugen. Voor notitieboeken groter dan enkele honderden megabytes, houd je het JVM‑heap‑gebruik in de gaten en overweeg je om secties in aparte threads te verwerken of paginatietechnieken te gebruiken.
-
-## Conclusie
-
-Je hebt nu geleerd hoe je **OneNote-prestaties kunt verbeteren** door instant loading te benutten met Aspose.Note voor Java. Deze gestroomlijnde aanpak stelt je in staat een volledig notitieboek en de inhoud ervan in één stap te laden, wat leidt tot snellere verwerking, minder I/O‑overhead en schonere code wanneer je **OneNote‑secties moet lezen** of **OneNote‑notitieboek‑gegevens moet wijzigen**.
-
----
-
-**Last Updated:** 2026-03-27  
-**Tested With:** Aspose.Note for Java 24.12 (latest)  
-**Author:** Aspose  
+**Last Updated:** 2025-12-31  
+**Getest met:** Aspose.Note for Java 26.4 (latest)  
+**Auteur:** Aspose  
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

@@ -50,7 +50,7 @@ Zuerst müssen wir das OneNote-Notizbuch laden, das wir in eine PDF-Datei konver
 string dataDir = "Your Document Directory";
 
 // Laden Sie ein OneNote-Notizbuch
-var notebook = new Notebook(dataDir + "Notizbuch �ffnen.onetoc2");
+var notebook = new Notebook(dataDir + "Notebook.onetoc2");
 ```
 
 ## Schritt 2: Legen Sie die PDF-Speicheroptionen fest

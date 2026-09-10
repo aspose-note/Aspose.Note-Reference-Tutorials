@@ -42,7 +42,7 @@ O carregamento instantâneo do OneNote é um recurso da classe `NotebookLoadOpti
 
 ## Pré-requisitos
 
-Antes de começarmos, certifique‑se de que você tem os seguintes pré-requisitos:
+1. **Java Development Kit (JDK):** Certifique‑se de que o Java está instalado em seu sistema. Você pode baixar e instalar o JDK mais recente a partir de [here](https://www.oracle.com/java/technologies/downloads/).
 
 1. **Java Development Kit (JDK):** Certifique‑se de que o Java está instalado no seu sistema. Você pode baixar e instalar o JDK mais recente [aqui](https://www.oracle.com/java/technologies/javase-jdk15-downloads.html).
 
@@ -135,8 +135,8 @@ Agora você aprendeu como **melhorar o desempenho do OneNote** aproveitando o ca
 
 ---
 
-**Última atualização:** 2026-03-27  
-**Testado com:** Aspose.Note for Java 24.12 (latest)  
+**Última atualização:** 2025-12-31  
+**Testado com:** Aspose.Note for Java 26.4 (latest)  
 **Autor:** Aspose  
 
 {{< /blocks/products/pf/tutorial-page-section >}}

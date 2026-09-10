@@ -41,7 +41,7 @@ Instant loading OneNote는 `NotebookLoadOptions` 클래스의 기능으로, API�
 
 시작하기 전에 다음 사전 조건을 확인하세요:
 
-1. **Java Development Kit (JDK):** 시스템에 Java가 설치되어 있어야 합니다. 최신 JDK는 [here](https://www.oracle.com/java/technologies/javase-jdk15-downloads.html)에서 다운로드 및 설치할 수 있습니다.
+1. **Java Development Kit (JDK):** 시스템에 Java가 설치되어 있는지 확인하십시오. 최신 JDK는 [here](https://www.oracle.com/java/technologies/downloads/)에서 다운로드하고 설치할 수 있습니다.
 
 2. **Aspose.Note for Java:** Aspose.Note for Java 라이브러리가 필요합니다. [download page](https://releases.aspose.com/note/java/)에서 받을 수 있습니다.
 
@@ -132,9 +132,9 @@ A7: 즉시 로딩은 전체 노트북을 메모리에 보관합니다. 몇 백 �
 
 ---
 
-**Last Updated:** 2026-03-27  
-**Tested With:** Aspose.Note for Java 24.12 (latest)  
-**Author:** Aspose  
+**마지막 업데이트:** 2025-12-31  
+**테스트 환경:** Aspose.Note for Java 26.4 (latest)  
+**작성자:** Aspose  
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

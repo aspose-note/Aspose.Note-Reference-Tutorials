@@ -61,7 +61,7 @@ Aspose.Note.Page page = new Aspose.Note.Page(doc);
 ## Étape 3 : initialiser l'objet de contour
 
 ```csharp
-Outline outline = new Outline(doc);
+Outline outline = new Outline();
 ```
 
  Le`Outline`La classe représente un nœud de plan dans la hiérarchie du document. Nous créons un nouvel objet de plan pour structurer notre document.
@@ -69,7 +69,7 @@ Outline outline = new Outline(doc);
 ## Étape 4 : initialiser l'objet OutlineElement
 
 ```csharp
-OutlineElement outlineElem = new OutlineElement(doc);
+OutlineElement outlineElem = new OutlineElement();
 ```
 
  Un`OutlineElement` représente un élément dans un contour. Ici, nous créons un nouvel élément de plan pour ajouter du contenu à notre document.

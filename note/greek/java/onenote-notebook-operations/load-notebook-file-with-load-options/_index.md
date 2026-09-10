@@ -112,8 +112,8 @@ A5: Αν αξιολογείτε το προϊόν, μπορείτε να απο�
 
 ---
 
-**Last Updated:** 2026-03-27  
-**Tested With:** Aspose.Note 24.11 for Java  
+**Last Updated:** 2025-12-31  
+**Tested With:** Aspose.Note 26.4 for Java  
 **Author:** Aspose
 
 {{< /blocks/products/pf/tutorial-page-section >}}

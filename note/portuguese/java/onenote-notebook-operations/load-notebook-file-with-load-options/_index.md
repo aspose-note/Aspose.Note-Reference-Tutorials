@@ -107,10 +107,8 @@ A4: Para quaisquer dúvidas ou problemas, visite o fórum de suporte [aqui](http
 **Q5: Preciso de uma licença temporária para usar o Aspose.Note para Java?**  
 A5: Se você estiver avaliando o produto, pode obter uma licença temporária [aqui](https://purchase.aspose.com/temporary-license/).
 
----
-
-**Última atualização:** 2026-03-27  
-**Testado com:** Aspose.Note 24.11 for Java  
+**Última atualização:** 2025-12-31  
+**Testado com:** Aspose.Note 26.4 for Java  
 **Autor:** Aspose
 
 {{< /blocks/products/pf/tutorial-page-section >}}

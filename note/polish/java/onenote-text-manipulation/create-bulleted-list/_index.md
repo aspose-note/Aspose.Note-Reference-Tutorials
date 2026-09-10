@@ -1,27 +1,47 @@
 ---
-title: Utwórz listę punktowaną w programie OneNote — Aspose.Note
-linktitle: Utwórz listę punktowaną w programie OneNote — Aspose.Note
-second_title: Aspose.Note API Java
-description: Zapoznaj się z przewodnikiem krok po kroku dotyczącym tworzenia list punktowanych w programie OneNote przy użyciu programu Aspose.Note dla języka Java. Z łatwością udoskonal swoje tworzenie dokumentów.
-weight: 12
+date: 2026-03-03
+description: Dowiedz się, jak tworzyć listy wypunktowane w OneNote przy użyciu Aspose.Note
+  dla Javy oraz jak zapisać dokument OneNote jako PDF. Przewodnik krok po kroku z
+  przykładami wypunktowań w Javie.
+linktitle: Create Bulleted List OneNote - Aspose.Note
+second_title: Aspose.Note Java API
+title: Utwórz listę punktowaną w OneNote – Aspose.Note
 url: /pl/java/onenote-text-manipulation/create-bulleted-list/
+weight: 12
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Utwórz listę punktowaną w programie OneNote — Aspose.Note
+# Utwórz listę punktowaną w OneNote - Aspose.Note
 
-## Wstęp
-W dynamicznym środowisku rozwoju języka Java tworzenie angażujących i zorganizowanych dokumentów jest niezbędne. Aspose.Note dla Java zapewnia potężny zestaw narzędzi usprawniających proces tworzenia dokumentów. Ten samouczek poprowadzi Cię przez proces tworzenia list punktowanych w OneNote przy użyciu Aspose.Note dla Java. Zagłębmy się w szczegóły.
-## Warunki wstępne
-Zanim zaczniemy, upewnij się, że masz następujące wymagania wstępne:
-- Podstawowa znajomość programowania w języku Java.
--  Zainstalowana biblioteka Aspose.Note dla Java. Można go pobrać z[Aspose.Note dla dokumentacji Java](https://reference.aspose.com/note/java/).
-- Zintegrowane środowisko programistyczne Java (IDE) skonfigurowane na komputerze.
-## Importuj pakiety
-Zacznij od zaimportowania niezbędnych pakietów do projektu Java. Dzięki temu masz dostęp do funkcjonalności Aspose.Note for Java.
+## Wprowadzenie
+Jeśli potrzebujesz **utworzyć listę punktowaną w OneNote** programowo, Aspose.Note for Java zapewnia czyste, płynne API, które obsługuje wszystkie wewnętrzne elementy OneNote za Ciebie. W tym samouczku przeprowadzimy Cię przez dokładne kroki, aby ustawić punkty wypunktowania w Javie, dodać je do konspektu i ostatecznie **zapisz dokument OneNote jako PDF**. Po zakończeniu będziesz mieć gotowy fragment kodu, który możesz wkleić do dowolnego projektu Java.
+
+## Szybkie odpowiedzi
+- **Co robi Aspose.Note?** Umożliwia generowanie, edytowanie i konwertowanie plików OneNote bez instalowania OneNote.  
+- **Czy mogę ustawić punkty wypunktowania w Javie?** Tak – użyj `NumberList`, aby zdefiniować styl wypunktowania.  
+- **Jak wyeksportować do PDF?** Wywołaj `doc.save(...".pdf")` po zbudowaniu strony.  
+- **Czy potrzebna jest licencja do rozwoju?** Darmowa wersja próbna działa do testów; licencja jest wymagana w produkcji.  
+- **Jakie IDE są obsługiwane?** Dowolne IDE Java, takie jak Eclipse, IntelliJ IDEA lub VS Code.
+
+## Co to jest „utworzyć listę punktowaną w OneNote”?
+Tworzenie listy punktowanej w OneNote oznacza dodanie serii elementów konspektu, gdzie każdy element zaczyna się od znaku wypunktowania (np. „*”). Ta struktura poprawia czytelność i naśladuje sposób, w jaki użytkownicy ręcznie dodają listy w interfejsie OneNote.
+
+## Dlaczego używać Aspose.Note for Java do ustawiania punktów wypunktowania?
+- **Brak wymogu instalacji OneNote** – działa na serwerach i w pipeline'ach CI.  
+- **Pełna kontrola nad stylizacją** – czcionka, rozmiar, kolor i znak wypunktowania są konfigurowalne.  
+- **Bezpośredni eksport do PDF** – generuj PDF w jednej linii, idealny do raportowania lub archiwizacji.  
+
+## Wymagania wstępne
+- Podstawowa znajomość programowania w Javie.  
+- Zainstalowana biblioteka Aspose.Note for Java – pobierz ją z [Aspose.Note for Java Documentation](https://reference.aspose.com/note/java/).  
+- IDE Java (Eclipse, IntelliJ IDEA itp.) skonfigurowane na Twoim komputerze.
+
+## Importowanie pakietów
+Zacznij od zaimportowania niezbędnych pakietów do swojego projektu Java. Dzięki temu uzyskasz dostęp do wszystkich klas Aspose.Note, których będziemy używać.
+
 ```java
 import java.awt.Color;
 import java.io.IOException;
@@ -32,75 +52,108 @@ import com.aspose.note.OutlineElement;
 import com.aspose.note.Page;
 import com.aspose.note.RichText;
 import com.aspose.note.ParagraphStyle;
-// Importuj Aspose.Note dla pakietów Java
+// Import Aspose.Note for Java packages
 ```
-## Krok 1: Zainicjuj dokument i stronę
-Utwórz obiekt klasy Document i zainicjuj obiekt klasy Page.
+
+## Krok 1: Inicjalizacja dokumentu i strony
+Utwórz instancję `Document` oraz `Page`, na której będzie znajdował się konspekt.
+
 ```java
 String dataDir = "Your Document Directory";
-// utwórz obiekt klasy Dokument
+// create an object of the Document class
 Document doc = new Document();
-// zainicjuj obiekt klasy Page
+// initialize Page class object
 Page page = new Page();
 ```
-## Krok 2: Zainicjuj kontur i styl tekstu
-Teraz zainicjuj obiekt klasy Outline i obiekt klasy TextStyle z właściwościami formatowania.
+
+## Krok 2: Inicjalizacja Outline i TextStyle (ustawianie punktów wypunktowania w Java)
+Ustawimy kontener `Outline` i zdefiniujemy domyślny `ParagraphStyle`. To miejsce, w którym **ustawiamy formatowanie punktów wypunktowania w stylu Java**.
+
 ```java
-// zainicjuj obiekt klasy Outline
+// initialize Outline class object
 Outline outline = new Outline();
-// zainicjuj obiekt klasy TextStyle i ustaw właściwości formatowania
+// initialize TextStyle class object and set formatting properties
 ParagraphStyle defaultStyle = new ParagraphStyle()
                                     .setFontColor(Color.black)
                                     .setFontName("Arial")
                                     .setFontSize(10);
 ```
-## Krok 3: Utwórz elementy listy wypunktowanej
-Utwórz obiekty klasy OutlineElement i zastosuj punktory, aby utworzyć listę punktowaną.
+
+## Krok 3: Tworzenie elementów listy punktowanej
+Utwórz poszczególne obiekty `OutlineElement`, dołącz `NumberList` definiujący znak wypunktowania i dodaj tekst.
+
 ```java
-// inicjuj obiekty klasy OutlineElement i zastosuj punktory
+// initialize OutlineElement class objects and apply bullets
 OutlineElement outlineElem1 = new OutlineElement();
 outlineElem1.setNumberList(new NumberList("*", "Arial", 10));
-// zainicjuj obiekt klasy RichText i zastosuj styl tekstu
+// initialize RichText class object and apply text style
 RichText text1 = new RichText().append("First");
 text1.setParagraphStyle(defaultStyle);
 outlineElem1.appendChildLast(text1);
 ```
-Powtórz powyższe kroki dla każdego elementu listy punktowanej.
-## Krok 4: Dodaj elementy konspektu do konspektu
-Dodaj utworzone obiekty OutlineElement do Outline.
+
+*Powtórz powyższy blok dla każdego dodatkowego punktu, którego potrzebujesz (np. `outlineElem2`, `outlineElem3`).*
+
+## Krok 4: Dodawanie elementów Outline do Outline
+Zbierz wszystkie elementy punktowane w nadrzędnym `Outline`.
+
 ```java
-// dodaj elementy konturu
+// add outline elements
 outline.appendChildLast(outlineElem1);
 outline.appendChildLast(outlineElem2);
 outline.appendChildLast(outlineElem3);
 ```
-## Krok 5: Dodaj kontur do strony i zapisz
-Dodaj węzeł Konspekt do strony, a następnie dodaj węzeł Strona do dokumentu. Na koniec zapisz dokument.
+
+## Krok 5: Dodaj Outline do strony i zapisz (zapisz dokument OneNote jako PDF)
+Dołącz `Outline` do `Page`, dodaj stronę do `Document`, a na koniec **zapisz dokument OneNote jako PDF**.
+
 ```java
-// dodaj węzeł Kontur
+// add Outline node
 page.appendChildLast(outline);
-// dodaj węzeł strony
+// add Page node
 doc.appendChildLast(page);
-// zapisz dokument
+// save the document
 doc.save(dataDir + "CreateBulletedList_out.pdf");
 ```
-Gratulacje! Pomyślnie utworzyłeś listę punktowaną w OneNote przy użyciu Aspose.Note dla Java.
-## Wniosek
-Aspose.Note dla Java upraszcza proces tworzenia dobrze sformatowanych dokumentów. W tym samouczku opisano kroki tworzenia listy punktowanej w programie OneNote. Odkryj więcej możliwości dzięki Aspose.Note, aby ulepszyć swoje doświadczenie w tworzeniu dokumentów.
-## Często zadawane pytania
-### Czy Aspose.Note dla Java jest kompatybilny ze wszystkimi IDE Java?
-Tak, Aspose.Note for Java jest kompatybilny z popularnymi zintegrowanymi środowiskami programistycznymi Java, takimi jak Eclipse i IntelliJ IDEA.
-### Czy mogę dostosować formatowanie listy punktowanej?
-Absolutnie! Możesz modyfikować czcionkę, kolor i rozmiar elementów listy punktowanej zgodnie ze swoimi preferencjami.
-### Gdzie mogę znaleźć dodatkowe wsparcie dla Aspose.Note dla Java?
- Odwiedzić[Aspose.Note na forum wsparcia Java](https://forum.aspose.com/c/note/28) o pomoc ze strony gminy.
-### Czy dostępna jest bezpłatna wersja próbna Aspose.Note dla Java?
- Tak, możesz skorzystać z bezpłatnej wersji próbnej[Tutaj](https://releases.aspose.com/).
-### Jak mogę uzyskać tymczasową licencję na Aspose.Note dla Java?
- Zdobądź licencję tymczasową[Tutaj](https://purchase.aspose.com/temporary-license/).
+
+Gratulacje! Programowo **utworzyłeś listę punktowaną w OneNote** i wyeksportowałeś ją do PDF przy użyciu Aspose.Note for Java.
+
+## Typowe problemy i rozwiązania
+| Problem | Rozwiązanie |
+|-------|----------|
+| `outlineElem2` lub `outlineElem3` nie zdefiniowane | Upewnij się, że powielasz blok kodu z Kroku 3 dla każdego dodatkowego punktu i odpowiednio zmieniasz nazwy zmiennych. |
+| Plik PDF nie został utworzony | Sprawdź, czy `dataDir` wskazuje na folder, do którego można zapisywać, oraz czy masz odpowiednie uprawnienia do zapisu. |
+| Styl wypunktowania wygląda inaczej | Dostosuj parametry konstruktora `NumberList` (czcionka, rozmiar lub znak), aby uzyskać pożądany wygląd. |
+
+## Najczęściej zadawane pytania
+
+**Q: Czy Aspose.Note for Java jest kompatybilny ze wszystkimi IDE Java?**  
+A: Tak, działa z Eclipse, IntelliJ IDEA, NetBeans i każdym IDE obsługującym standardowe projekty Java.
+
+**Q: Czy mogę dostosować formatowanie listy punktowanej?**  
+A: Oczywiście! Możesz zmienić czcionkę, kolor, rozmiar, a nawet używać własnych symboli Unicode, modyfikując parametry `NumberList`.
+
+**Q: Gdzie mogę znaleźć dodatkowe wsparcie dla Aspose.Note for Java?**  
+A: Odwiedź [forum wsparcia Aspose.Note for Java](https://forum.aspose.com/c/note/28), aby uzyskać pomoc społeczności i oficjalną pomoc.
+
+**Q: Czy dostępna jest darmowa wersja próbna Aspose.Note for Java?**  
+A: Tak, możesz wypróbować darmową wersję próbną [tutaj](https://releases.aspose.com/).
+
+**Q: Jak mogę uzyskać tymczasową licencję dla Aspose.Note for Java?**  
+A: Uzyskaj tymczasową licencję [tutaj](https://purchase.aspose.com/temporary-license/).
+
+## Zakończenie
+Aspose.Note for Java ułatwia **tworzenie listy punktowanej w OneNote**, stylizowanie każdego punktu oraz **zapis dokumentu OneNote jako PDF** w kilku zwięzłych krokach. Śmiało eksperymentuj z różnymi znakami wypunktowania, czcionkami i kolorami, aby dopasować je do języka projektowego Twojej aplikacji. Odkryj inne funkcje Aspose.Note, takie jak tabele, obrazy i hiperłącza, aby tworzyć bogatszą zawartość OneNote.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
+
+---
+
+**Ostatnia aktualizacja:** 2026-03-03  
+**Testowano z:** Aspose.Note for Java 24.11  
+**Autor:** Aspose

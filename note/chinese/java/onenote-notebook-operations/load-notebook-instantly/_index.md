@@ -40,8 +40,9 @@ weight: 21
 
 在开始之前，请确保您具备以下前置条件：
 
-1. **Java Development Kit (JDK)：** 确保系统已安装 Java。您可以从 [here](https://www.oracle.com/java/technologies/javase-jdk15-downloads.html) 下载并安装最新的 JDK。  
-2. **Aspose.Note for Java：** 需要拥有 Aspose.Note for Java 库。您可以从 [download page](https://releases.aspose.com/note/java/) 获取。
+1. **Java Development Kit (JDK)：** 确认系统已安装 Java。您可以从 [here](https://www.oracle.com/java/technologies/downloads/) 下载并安装最新的 JDK。  
+
+2. **Aspose.Note for Java：** 您需要拥有 Aspose.Note for Java 库。可从 [download page](https://releases.aspose.com/note/java/) 获取。
 
 ## 导入包
 
@@ -130,8 +131,8 @@ A7：即时加载会将整个笔记本保存在内存中。对于超过几百兆
 
 ---
 
-**最后更新：** 2026-03-27  
-**测试环境：** Aspose.Note for Java 24.12（最新）  
+**最后更新：** 2025-12-31  
+**测试环境：** Aspose.Note for Java 26.4（最新）  
 **作者：** Aspose  
 
 {{< /blocks/products/pf/tutorial-page-section >}}

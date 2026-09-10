@@ -41,7 +41,7 @@ weight: 21
 
 開始する前に、以下の前提条件を満たしていることを確認してください。
 
-1. **Java Development Kit (JDK):** システムに Java がインストールされていることを確認してください。最新の JDK は [こちら](https://www.oracle.com/java/technologies/javase-jdk15-downloads.html) からダウンロードできます。
+1. **Java Development Kit (JDK):** システムに Java がインストールされていることを確認してください。最新の JDK は [here](https://www.oracle.com/java/technologies/downloads/) からダウンロードしてインストールできます。
 
 2. **Aspose.Note for Java:** Aspose.Note for Java ライブラリが必要です。ダウンロードは [ダウンロードページ](https://releases.aspose.com/note/java/) から入手してください。
 
@@ -132,9 +132,9 @@ Aspose.Note for Java のインスタントローディングを活用するこ�
 
 ---
 
-**最終更新日:** 2026-03-27  
-**テスト環境:** Aspose.Note for Java 24.12（最新）  
-**作者:** Aspose  
+**Last Updated:** 2025-12-31  
+**Tested With:** Aspose.Note for Java 26.4 (latest)  
+**Author:** Aspose  
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

@@ -43,7 +43,7 @@ La carga instantánea de OneNote es una característica de la clase `NotebookLoa
 
 Antes de comenzar, asegúrese de contar con los siguientes requisitos:
 
-1. **Java Development Kit (JDK):** Asegúrese de tener Java instalado en su sistema. Puede descargar e instalar el JDK más reciente desde [here](https://www.oracle.com/java/technologies/javase-jdk15-downloads.html).
+1. **Java Development Kit (JDK):** Asegúrese de que tiene Java instalado en su sistema. Puede descargar e instalar el último JDK desde [aquí](https://www.oracle.com/java/technologies/downloads/).
 
 2. **Aspose.Note for Java:** Necesita la biblioteca Aspose.Note para Java. Puede obtenerla desde la [download page](https://releases.aspose.com/note/java/).
 
@@ -134,8 +134,8 @@ Ahora ha aprendido cómo **mejorar el rendimiento de OneNote** aprovechando la c
 
 ---
 
-**Última actualización:** 2026-03-27  
-**Probado con:** Aspose.Note for Java 24.12 (latest)  
+**Última actualización:** 2025-12-31  
+**Probado con:** Aspose.Note para Java 26.4 (última)  
 **Autor:** Aspose  
 
 {{< /blocks/products/pf/tutorial-page-section >}}

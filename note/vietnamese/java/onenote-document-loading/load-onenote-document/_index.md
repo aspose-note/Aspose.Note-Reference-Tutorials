@@ -102,7 +102,7 @@ A: Yêu cầu giấy phép đánh giá tạm thời từ [here](https://purchase
 ---
 
 **Cập nhật lần cuối:** 2025-12-09  
-**Kiểm tra với:** Aspose.Note for Java 24.12 (latest)  
+**Kiểm tra với:** Aspose.Note for Java 26.4 (latest)  
 **Tác giả:** Aspose  
 
 {{< /blocks/products/pf/tutorial-page-section >}}

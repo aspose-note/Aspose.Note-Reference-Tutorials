@@ -130,7 +130,7 @@ R: Carga el documento con la sobrecarga adecuada que acepta una cadena de contra
 
 **P: ¿Este enfoque funciona en Linux/macOS?**  
 R: La biblioteca Aspose.Note Java es independiente de la plataforma, por lo que el mismo código se ejecuta en cualquier SO con un JDKima actualización:** 2025-12-13  
-**Probado con:** Aspose.Note para Java 24.12 (última)  
+**Probado con:** Aspose.Note para Java 26.4 (última)  
 **Autor:** Aspose  
 
 {{< /blocks/products/pf/tutorial-page-section >}}

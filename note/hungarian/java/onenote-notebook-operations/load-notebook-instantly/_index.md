@@ -43,7 +43,7 @@ Az azonnali betöltés a OneNote-ban a `NotebookLoadOptions` osztály egy funkci
 
 Mielőtt elkezdenénk, győződjön meg arról, hogy rendelkezik a következő előfeltételekkel:
 
-1. **Java Development Kit (JDK):** Győződjön meg róla, hogy a rendszerén telepítve van a Java. A legújabb JDK-t letöltheti és telepítheti [itt](https://www.oracle.com/java/technologies/javase-jdk15-downloads.html).
+1. **Java Development Kit (JDK):** Győződjön meg róla, hogy a rendszerén telepítve van a Java. A legújabb JDK-t letöltheti és telepítheti [itt](https://www.oracle.com/java/technologies/downloads/).
 
 2. **Aspose.Note for Java:** Szüksége van az Aspose.Note for Java könyvtárra. Letöltheti a [letöltési oldalról](https://releases.aspose.com/note/java/).
 
@@ -125,15 +125,8 @@ A5: Ideiglenes licencet kérhet a [ideiglenes licenc oldalról](https://purchase
 **Q6: Lehetséges betölteni egy jegyzetfüzetet, majd új szekciókat hozzáadni újratöltés nélkül?**  
 A6: Teljesen. Az elsődleges azonnali betöltés után használhatja a `Notebook` API-t szekciók és oldalak hozzáadására, eltávolítására vagy frissítésére, majd a jegyzetfüzetet vissza mentheti a lemezre.
 
-**Q7: Milyen memória szempontokat kell figyelembe venni nagyon nagy jegyzetfüzetek esetén?**  
-A7: Az azonnali betöltés a teljes jegyzetfüzetet a memóriában tartja. Több száz megabájtnál nagyobb jegyzetfüzetek esetén figyelje a JVM heap használatát, és fontolja meg a szekciók külön szálakon történő feldolgozását vagy lapozási technikák alkalmazását.
-
-## Összegzés
-
-Most már megtanulta, hogyan **javíthatja a OneNote teljesítményét** az Aspose.Note for Java-val történő azonnali betöltés kihasználásával. Ez az egyszerűsített megközelítés lehetővé teszi, hogy egyetlen lépésben betöltsön egy teljes jegyzetfüzetet és annak tartalmát, ami gyorsabb feldolgozást, csökkent I/O terhelést és tisztább kódot eredményez, amikor **OneNote szekciókat kell olvasnia** vagy **OneNote jegyzetfüzet adatokat módosítania**.
-
-**Utolsó frissítés:** 2026-03-27  
-**Tesztelve a következővel:** Aspose.Note for Java 24.12 (latest)  
+**Utolsó frissítés:** 2025-12-31  
+**Tesztelve ezzel:** Aspose.Note for Java 26.4 (legújabb)  
 **Szerző:** Aspose  
 
 {{< /blocks/products/pf/tutorial-page-section >}}

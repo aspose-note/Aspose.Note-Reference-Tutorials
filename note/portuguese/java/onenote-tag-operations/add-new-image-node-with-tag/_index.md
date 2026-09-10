@@ -1,27 +1,49 @@
 ---
-title: Adicionar novo nó de imagem com tag no OneNote - Aspose.Note
-linktitle: Adicionar novo nó de imagem com tag no OneNote - Aspose.Note
-second_title: API Java Aspose.Note
-description: Aprenda como adicionar um novo nó de imagem com uma tag no OneNote usando Aspose.Note para Java. Eleve suas habilidades de programação Java sem esforço.
-weight: 10
+date: 2026-01-25
+description: Aprenda como adicionar tag a uma imagem, inserir imagem no OneNote e
+  salvar o OneNote como PDF usando Aspose.Note para Java.
+linktitle: Add Tag to Image in OneNote – Aspose.Note
+second_title: Aspose.Note Java API
+title: Adicionar etiqueta à imagem no OneNote com Aspose.Note – Java
 url: /pt/java/onenote-tag-operations/add-new-image-node-with-tag/
+weight: 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Adicionar novo nó de imagem com tag no OneNote - Aspose.Note
+# Adicionar Tag a Imagem no OneNote com Aspose.Note – Java
 
 ## Introdução
-No domínio da programação Java, Aspose.Note se destaca como uma ferramenta poderosa para lidar com documentos do OneNote com facilidade. Se você deseja aprimorar suas habilidades e aprender como adicionar um novo nó de imagem com uma tag no OneNote usando Aspose.Note, você veio ao lugar certo. Este guia passo a passo orientará você durante o processo, garantindo que você compreenda cada conceito completamente.
+Se você precisa **adicionar tag a imagem** dentro de um caderno do OneNote enquanto trabalha com Java, o Aspose.Note torna todo o processo simples. Neste tutorial, vamos percorrer a inserção de uma imagem no OneNote, a aplicação de uma tag de estrela amarela nessa imagem e, finalmente, **salvar o OneNote como PDF**. Ao final, você verá exatamente como **adicionar tag a imagem**, inserir imagem no OneNote e converter o OneNote para PDF — tudo com apenas algumas linhas de código.
+
+## Respostas Rápidas
+- **O que significa “add tag to image”?** Anexa uma tag visual de nota (por exemplo, uma estrela amarela) a um nó de imagem em uma página do OneNote.  
+- **Qual biblioteca lida com isso?** Aspose.Note for Java.  
+- **Preciso de uma licença para testes?** Uma avaliação gratuita funciona para desenvolvimento; uma licença comercial é necessária para produção.  
+- **Posso exportar o resultado como PDF?** Sim – use `doc.save(..., SaveFormat.Pdf)` para **salvar o OneNote como PDF**.  
+- **Quanto tempo leva a implementação?** Normalmente menos de 10 minutos para um cenário básico.
+
+## O que é “add tag to image” no OneNote?
+Adicionar uma tag a uma imagem significa anexar um elemento de metadados (como uma estrela, bandeira ou ícone personalizado) ao nó da imagem. Essa tag é exibida na interface do OneNote e pode ser usada para buscas rápidas, categorização ou indicações visuais.
+
+## Por que adicionar tag a imagem no OneNote?
+- Organizar conteúdo visual sem alterar a própria imagem.  
+- Localizar rapidamente gráficos importantes usando a pesquisa de tags do OneNote.  
+- Fornecer contexto (por exemplo, “revisar depois”, “referência importante”) diretamente na página.  
+
 ## Pré-requisitos
-Antes de mergulharmos no tutorial, vamos ter certeza de que você tem tudo o que precisa:
-1.  Aspose.Note para Java: certifique-se de ter a biblioteca Aspose.Note instalada. Se não, você pode baixá-lo[aqui](https://releases.aspose.com/note/java/).
-2. Ambiente de desenvolvimento Java: certifique-se de ter um ambiente de desenvolvimento Java funcional configurado em sua máquina.
-Agora que temos os pré-requisitos definidos, vamos passar para as próximas etapas.
-## Importar pacotes
+Antes de mergulharmos, certifique‑se de que você tem o seguinte:
+
+1. Aspose.Note for Java: Certifique‑se de que a biblioteca Aspose.Note está instalada. Caso contrário, você pode baixá‑la [aqui](https://releases.aspose.com/note/java/).  
+2. Ambiente de Desenvolvimento Java: Certifique‑se de que você tem um ambiente de desenvolvimento Java funcional configurado em sua máquina.  
+
+Agora que temos os pré-requisitos configurados, vamos avançar para os próximos passos.
+
+## Importar Pacotes
 No seu projeto Java, comece importando os pacotes necessários:
+
 ```java
 import java.io.IOException;
 import com.aspose.note.Document;
@@ -33,75 +55,112 @@ import com.aspose.note.Page;
 import com.aspose.note.SaveFormat;
 import com.aspose.note.TagIcon;
 ```
-## Etapa 1: Criar objeto de documento
+
+## Guia Passo a Passo
+
+### Etapa 1: Criar Objeto Document
 ```java
-// O caminho para o diretório de documentos.
+// The path to the documents directory.
 String dataDir = "Your Document Directory";
-// crie um objeto da classe Document
+// create an object of the Document class
 Document doc = new Document();
 ```
-## Etapa 2: inicializar o objeto de classe de página
+
+### Etapa 2: Inicializar Objeto da Classe Page
 ```java
-// inicializar objeto de classe Page
+// initialize Page class object
 Page page = new Page();
 ```
-## Etapa 3: inicializar o objeto de classe Outline
+
+### Etapa 3: Inicializar Objeto da Classe Outline
 ```java
-// inicializar o objeto da classe Outline
+// initialize Outline class object
 Outline outline = new Outline();
 ```
-## Etapa 4: inicializar o objeto da classe OutlineElement
+
+### Etapa 4: Inicializar Objeto da Classe OutlineElement
 ```java
-// inicializar o objeto da classe OutlineElement
+// initialize OutlineElement class object
 OutlineElement outlineElem = new OutlineElement();
 ```
-## Etapa 5: carregar e inserir imagem
+
+### Etapa 5: Carregar e Inserir Imagem  
+*(Esta etapa demonstra **insert image into OneNote**)*  
 ```java
-// carregar uma imagem
+// load an image
 Image image = new Image(null, dataDir + "Input.jpg");
-// inserir imagem no nó do documento
+// insert image in the document node
 outlineElem.appendChildLast(image);
 ```
-## Etapa 6: adicionar etiqueta de nota à imagem
+
+### Etapa 6: Adicionar Tag de Nota à Imagem  
+*(Aqui respondemos **how to add image tag**)*  
 ```java
-// adicione uma etiqueta de nota com estrela amarela à imagem
+// add a yellow star note tag to the image
 NoteTag noteTag = NoteTag.createYellowStar();
 image.getTags().add(noteTag);
 ```
-## Etapa 7: Adicionar nó do elemento de contorno
+
+### Etapa 7: Adicionar Nó de OutlineElement
 ```java
-// adicionar nó de elemento de contorno
+// add outline element node
 outline.appendChildLast(outlineElem);
 ```
-## Etapa 8: adicionar nó de contorno
+
+### Etapa 8: Adicionar Nó de Outline
 ```java
-// adicionar nó de contorno
+// add outline node
 page.appendChildLast(outline);
 ```
-## Etapa 9: adicionar nó de página
+
+### Etapa 9: Adicionar Nó de Page
 ```java
-// adicionar nó de página
+// add page node
 doc.appendChildLast(page);
 ```
-## Etapa 10: Salvar documento do OneNote
+
+### Etapa 10: Salvar Documento OneNote  
+*(Agora **save OneNote as PDF** e efetivamente **convert OneNote to PDF**)*  
 ```java
-// salvar documento do OneNote como PDF
+// save OneNote document as a PDF
 doc.save(dataDir + "AddNewImageNodeWithTag_out.pdf", SaveFormat.Pdf);
 ```
-Parabéns! Você adicionou com êxito um novo nó de imagem com uma tag no OneNote usando Aspose.Note para Java.
+
+Parabéns! Você adicionou **add tag to image** com sucesso, inseriu uma imagem no OneNote e exportou o caderno para PDF usando Aspose.Note for Java.
+
+## Problemas Comuns e Soluções
+| Issue | Solution |
+|-------|----------|
+| **Imagem não exibida** | Verifique se o caminho em `dataDir + "Input.jpg"` está correto e o arquivo está acessível. |
+| **Tag não visível** | Certifique‑se de que está usando uma versão do OneNote que suporta tags de nota (as versões mais recentes suportam). |
+| **Saída PDF em branco** | Verifique se o documento contém ao menos uma página/outline antes de chamar `save`. |
+
+## Perguntas Frequentes
+
+**Q: Onde posso encontrar a documentação do Aspose.Note?**  
+A: Você pode encontrar a documentação [aqui](https://reference.aspose.com/note/java/).
+
+**Q: Como faço o download do Aspose.Note para Java?**  
+A: Você pode baixá‑lo na página de lançamentos [aqui](https://releases.aspose.com/note/java/).
+
+**Q: Existe uma avaliação gratuita disponível?**  
+A: Sim, você pode acessar a avaliação gratuita [aqui](https://releases.aspose.com/).
+
+**Q: Onde posso obter suporte para o Aspose.Note?**  
+A: Visite o fórum da comunidade [aqui](https://forum.aspose.com/c/note/28) para suporte.
+
+**Q: Preciso de uma licença temporária?**  
+A: Se necessário, você pode obter uma licença temporária [aqui](https://purchase.aspose.com/temporary-license/).
+
 ## Conclusão
- Dominar o Aspose.Note para Java abre possibilidades interessantes na manipulação de documentos do OneNote. Seguindo este tutorial, você adquiriu uma habilidade prática que pode ser aplicada a vários projetos. Continue explorando a documentação do Aspose.Note[aqui](https://reference.aspose.com/note/java/)para recursos e possibilidades mais avançados.
-## Perguntas frequentes
-### Onde posso encontrar a documentação do Aspose.Note?
- Você pode encontrar a documentação[aqui](https://reference.aspose.com/note/java/).
-### Como faço o download do Aspose.Note para Java?
- Você pode baixá-lo na página de lançamentos[aqui](https://releases.aspose.com/note/java/).
-### Existe um teste gratuito disponível?
- Sim, você pode acessar o teste gratuito[aqui](https://releases.aspose.com/).
-### Onde posso obter suporte para Aspose.Note?
- Visite o fórum da comunidade[aqui](https://forum.aspose.com/c/note/28) para suporte.
-### Preciso de uma licença temporária?
- Se necessário, você pode obter uma licença temporária[aqui](https://purchase.aspose.com/temporary-license/).
+Dominar o Aspose.Note para Java abre possibilidades empolgantes na manipulação de documentos do OneNote. Seguindo este tutorial, você aprendeu **how to add tag to image**, **insert image into OneNote** e **save OneNote as PDF** — habilidades que podem ser aplicadas a uma ampla gama de projetos de automação. Continue explorando a documentação do Aspose.Note [aqui](https://reference.aspose.com/note/java/) para recursos e possibilidades mais avançados.
+
+---
+
+**Última atualização:** 2026-01-25  
+**Testado com:** Aspose.Note 24.11 para Java  
+**Autor:** Aspose  
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

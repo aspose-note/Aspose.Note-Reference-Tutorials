@@ -112,11 +112,9 @@ A4: ご質問や問題がある場合は、サポートフォーラム [here](ht
 **Q5: Aspose.Note for Java を使用する際に一時的なライセンスは必要ですか？**  
 A5: 製品を評価する場合は、[here](https://purchase.aspose.com/temporary-license/) から一時ライセンスを取得できます。
 
----
-
-**最終更新日:** 2026-03-27  
-**テスト環境:** Aspose.Note 24.11 for Java  
-**作者:** Aspose
+**Last Updated:** 2025-12-31  
+**Tested With:** Aspose.Note 26.4 for Java  
+**Author:** Aspose
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

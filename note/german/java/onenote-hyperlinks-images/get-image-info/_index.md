@@ -33,7 +33,7 @@ Bevor wir in die Implementierung eintauchen, stellen Sie sicher, dass die folgen
 
 ### 1. Java Development Kit (JDK)
 
-Stellen Sie sicher, dass das Java Development Kit (JDK) auf Ihrem System installiert ist. Sie können das neueste JDK von der [Oracle-Website](https://www.oracle.com/java/technologies/javase-jdk15-downloads.html) herunterladen und installieren.
+Stellen Sie sicher, dass das Java Development Kit (JDK) auf Ihrem System installiert ist. Sie können das neueste JDK von der [Oracle-Website](https://www.oracle.com/java/technologies/downloads/) herunterladen und installieren.
 
 ### 2. Aspose.Note für Java-Bibliothek
 
@@ -148,7 +148,7 @@ Wenn Sie die in diesem Tutorial beschriebenen Schritte befolgen, können Sie eff
 ---
 
 **Letzte Aktualisierung:** 21.12.2025
-**Getestet mit:** Aspose.Note für Java 23.12
+**Getestet mit:** Aspose.Note für Java 26.4
 **Autor:** Aspose
 
 {{< /blocks/products/pf/tutorial-page-section >}}

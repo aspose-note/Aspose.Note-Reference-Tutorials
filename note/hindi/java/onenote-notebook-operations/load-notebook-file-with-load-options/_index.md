@@ -112,9 +112,9 @@ A5: यदि आप प्रोडक्ट का मूल्यांकन
 
 ---
 
-**अंतिम अपडेट:** 2026-03-27  
-**परीक्षण किया गया:** Aspose.Note 24.11 for Java  
-**लेखक:** Aspose
+**लास्ट अपडेटेड:** 2025-12-31
+**टेस्टेड विद:** Aspose.Note 26.4 फॉर Java
+**ऑथर:** Aspose
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

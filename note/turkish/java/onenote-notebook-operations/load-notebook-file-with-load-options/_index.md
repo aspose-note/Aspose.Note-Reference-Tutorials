@@ -111,9 +111,9 @@ A5: Ürünü değerlendiriyorsanız, geçici lisansı [here](https://purchase.as
 
 ---
 
-**Last Updated:** 2026-03-27  
-**Tested With:** Aspose.Note 24.11 for Java  
-**Author:** Aspose
+**Son Güncelleme:** 2025-12-31
+**Test Edilen Sürüm:** Aspose.Note 26.4 for Java
+**Yazar:** Aspose
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

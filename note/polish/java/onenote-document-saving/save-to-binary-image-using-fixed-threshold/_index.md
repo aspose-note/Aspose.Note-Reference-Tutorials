@@ -132,7 +132,7 @@ A: Załaduj dokument przy użyciu odpowiedniego przeciążenia, które przyjmuje
 A: Biblioteka Aspose.Note Java jest niezależna od platformy, więc ten sam kod działa na każdym systemie operacyjnym z kompatybilnym JDK.
 
 **Ostatnia aktualizacja:** 2025-12-13  
-**Testowano z:** Aspose.Note for Java 24.12 (latest)  
+**Testowano z:** Aspose.Note for Java 26.4 (latest)  
 **Autor:** Aspose  
 
 {{< /blocks/products/pf/tutorial-page-section >}}

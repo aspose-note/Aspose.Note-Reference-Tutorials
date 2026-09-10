@@ -61,7 +61,7 @@ Aspose.Note.Page page = new Aspose.Note.Page(doc);
 ## الخطوة 3: تهيئة كائن المخطط التفصيلي
 
 ```csharp
-Outline outline = new Outline(doc);
+Outline outline = new Outline();
 ```
 
  ال`Outline`تمثل الفئة عقدة مخطط تفصيلي في التسلسل الهرمي للوثيقة. نقوم بإنشاء كائن مخطط تفصيلي جديد لتنظيم وثيقتنا.
@@ -69,7 +69,7 @@ Outline outline = new Outline(doc);
 ## الخطوة 4: تهيئة كائن OutlineElement
 
 ```csharp
-OutlineElement outlineElem = new OutlineElement(doc);
+OutlineElement outlineElem = new OutlineElement();
 ```
 
  ان`OutlineElement` يمثل عنصرا داخل المخطط التفصيلي. هنا، نقوم بإنشاء عنصر مخطط تفصيلي جديد لإضافة محتوى إلى وثيقتنا.

@@ -66,7 +66,7 @@ Aspose.Note.Page page = new Aspose.Note.Page(doc);
 ### Βήμα 3: Αρχικοποίηση αντικειμένου περίγραμμα
 
 ```csharp
-Outline outline = new Outline(doc);
+Outline outline = new Outline();
 ```
 
  Ενα`Outline` Το αντικείμενο δημιουργείται για να οργανώσει το περιεχόμενο μέσα στη σελίδα.
@@ -74,7 +74,7 @@ Outline outline = new Outline(doc);
 ### Βήμα 4: Αρχικοποιήστε το αντικείμενο OutlineElement
 
 ```csharp
-OutlineElement outlineElem = new OutlineElement(doc);
+OutlineElement outlineElem = new OutlineElement();
 ```
 
 `OutlineElement` αντιπροσωπεύει ένα στοιχείο μέσα στη δομή του περιγράμματος.
@@ -82,7 +82,7 @@ OutlineElement outlineElem = new OutlineElement(doc);
 ### Βήμα 5: Αρχικοποιήστε το αντικείμενο AttachedFile
 
 ```csharp
-AttachedFile attachedFile = new AttachedFile(doc,  dataDir + "attachment.txt");
+AttachedFile attachedFile = new AttachedFile(dataDir + "attachment.txt");
 ```
 
  Εδώ, δημιουργούμε ένα παράδειγμα του`AttachedFile`, καθορίζοντας τη διαδρομή προς το αρχείο που θέλουμε να επισυνάψουμε.

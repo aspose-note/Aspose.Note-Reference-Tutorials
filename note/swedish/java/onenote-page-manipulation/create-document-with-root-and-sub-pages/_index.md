@@ -1,33 +1,48 @@
 ---
-title: Skapa dokument med rot- och undersidor i OneNote
-linktitle: Skapa dokument med rot- och undersidor i OneNote
+description: Lär dig hur du sparar OneNote PDF och lägger till undersidor i OneNote
+  med Aspose.Note för Java. Följ den här steg‑för‑steg‑guiden för att organisera dina
+  anteckningar effektivt.
+linktitle: How to Save OneNote PDF and Add Sub Pages
 second_title: Aspose.Note Java API
-description: Skapa ett dokument med rot- och undersidor i OneNote med Aspose.Note för Java. Följ steg-för-steg-guiden för att effektivt organisera dina anteckningar.
-weight: 11
+title: Hur man sparar OneNote PDF och lägger till undersidor
 url: /sv/java/onenote-page-manipulation/create-document-with-root-and-sub-pages/
+weight: 11
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Skapa dokument med rot- och undersidor i OneNote
+# Hur man sparar OneNote PDF och lägger till undersidor
 
 ## Introduktion
 
-I den här handledningen guidar vi dig genom processen att skapa ett dokument med rot- och undersidor i OneNote med Aspose.Note för Java. Genom att följa dessa steg kan du effektivt organisera dina OneNote-dokument med hierarkisk struktur.
+I den här handledningen kommer du att upptäcka **hur man sparar OneNote PDF** medan du skapar ett dokument som innehåller både huvud‑ och undersidor med Aspose.Note för Java. Att organisera dina OneNote‑anteckningsböcker med en tydlig hierarki gör navigeringen enkel, och möjligheten att exportera till PDF säkerställer att du kan dela dina anteckningar i ett universellt läsbart format. Vi kommer också att visa dig hur du **lägger till undersidor onenote**‑stil, så att du enkelt kan bygga flernivåstrukturer.
+
+## Snabba svar
+- **Vad betyder huvudnyckelordet?** Det avser export av en OneNote‑anteckningsbok till PDF med Aspose.Note.  
+- **Vilket API används?** Aspose.Note för Java.  
+- **Kan jag skapa hierarkiska sidor?** Ja – ange sidnivån för att bygga huvud‑ och undersidor.  
+- **Behöver jag en licens?** En gratis provversion finns tillgänglig; en kommersiell licens krävs för produktion.  
+- **Vilka utdataformat stöds?** BMP, PDF, PNG och mer.
+
+## Vad är “how to save OneNote PDF”?
+Att spara OneNote som PDF konverterar anteckningsbokens sidor till ett fast layout‑dokument som behåller formatering, bilder och hierarki. Detta är idealiskt för att dela, arkivera eller skriva ut anteckningar.
+
+## Varför lägga till undersidor onenote?
+Att lägga till undersidor låter dig gruppera relaterat innehåll under en föräldrasida, vilket efterliknar en mapp‑liknande struktur. Det förbättrar organiseringen av anteckningar, gör sökningar snabbare och förbättrar läsupplevelsen när anteckningsboken exporteras till PDF.
 
 ## Förutsättningar
 
 Innan du börjar, se till att du har följande förutsättningar:
 
-1. Java Development Kit (JDK): Se till att du har JDK installerat på ditt system.
-2. Aspose.Note for Java: Ladda ner och installera Aspose.Note for Java från[hemsida](https://purchase.aspose.com/buy).
-3. Integrated Development Environment (IDE): Välj en Java IDE som IntelliJ IDEA, Eclipse eller NetBeans.
+1. Java Development Kit (JDK): Se till att du har JDK installerat på ditt system.  
+2. Aspose.Note för Java: Ladda ner och installera Aspose.Note för Java från [webbplatsen](https://purchase.aspose.com/buy).  
+3. Integrated Development Environment (IDE): Välj en Java‑IDE såsom IntelliJ IDEA, Eclipse eller NetBeans.
 
 ## Importera paket
 
-Börja med att importera de nödvändiga paketen i ditt Java-projekt:
+Börja med att importera de nödvändiga paketen i ditt Java‑projekt:
 
 ```java
 import java.io.IOException;
@@ -41,9 +56,9 @@ import com.aspose.note.SaveFormat;
 import com.aspose.note.ParagraphStyle;
 ```
 
-## Steg 1: Konfigurera dokumentkatalog
+## Steg 1: Ställ in dokumentkatalog
 
-Definiera katalogen där du vill spara ditt OneNote-dokument:
+Definiera katalogen där du vill spara ditt OneNote‑dokument:
 
 ```java
 String dataDir = "Your Document Directory";
@@ -51,7 +66,7 @@ String dataDir = "Your Document Directory";
 
 ## Steg 2: Skapa dokumentobjekt
 
- Instantiera en`Document` objekt:
+Instansiera ett `Document`‑objekt:
 
 ```java
 Document doc = new Document();
@@ -59,7 +74,7 @@ Document doc = new Document();
 
 ## Steg 3: Skapa sidor
 
-Initiera sidobjekt och ställ in deras nivåer:
+Initiera sidobjekt och ange deras nivåer. Att ange nivå bestämmer om en sida är en huvud‑ eller en undersida:
 
 ```java
 Page page1 = new Page();
@@ -138,43 +153,61 @@ doc.appendChildLast(page3);
 
 ## Steg 6: Spara dokumentet
 
-Spara OneNote-dokumentet:
+Spara OneNote‑dokumentet som en PDF (eller BMP i detta exempel). Genom att ändra `SaveFormat` kan du exportera till PDF, vilket uppfyller kravet “how to save OneNote PDF”:
 
 ```java
 try {
     doc.save(dataDir + "GenerateRootAndSubLevelPagesInOneNote_out.bmp", SaveFormat.Bmp);
 } catch (IOException e) {
-    // Hantera undantag
+    // Handle exception
 }
 ```
 
-Grattis! Du har framgångsrikt skapat ett dokument med rot- och undersidor i OneNote med Aspose.Note för Java.
+> **Pro tip:** För att exportera direkt till PDF, ersätt `SaveFormat.Bmp` med `SaveFormat.Pdf`.
+
+Grattis! Du har framgångsrikt skapat ett OneNote‑dokument med huvud‑ och undersidor och lärt dig **hur man sparar OneNote PDF** med Aspose.Note för Java.
+
+## Varför detta är viktigt
+
+- **Hierarkisk organisering:** Huvud‑ och undersidor låter dig efterlikna mappstrukturer i OneNote.  
+- **Sömlös PDF‑export:** När strukturen är klar bevarar export till PDF hierarkin, vilket gör det slutgiltiga dokumentet lättläst och delbart.  
+- **Automation:** Koden kan integreras i större Java‑applikationer, vilket möjliggör batch‑skapande av strukturerade anteckningsböcker.
+
+## Vanliga fallgropar & hur man undviker dem
+
+| Problem | Orsak | Lösning |
+|-------|-------|----------|
+| Sidor visas på samma nivå | Felaktigt `setLevel`‑värde | Använd `setLevel((byte) 1)` för huvud‑sidor och `setLevel((byte) 2)` (eller högre) för undersidor. |
+| PDF‑utdata ser tom ut | Saknar `SaveFormat.Pdf` eller felaktig filsökväg | Verifiera att katalogen finns och använd `SaveFormat.Pdf`. |
+| Typsnittet tillämpas inte | Fel typsnittsnamn eller saknat typsnitt på systemet | Se till att typsnittet (t.ex. “David Transparent”) är installerat på maskinen som kör koden. |
+
+## Vanliga frågor
+
+**Q: Kan jag skapa flera nivåer av undersidor med Aspose.Note för Java?**  
+A: Ja, du kan skapa djupare hierarkier genom att ange högre nivånummer (t.ex. `setLevel((byte) 3)` för en tredje‑nivå‑undersida).
+
+**Q: Är Aspose.Note för Java kompatibelt med olika Java‑IDE:er?**  
+A: Absolut. Det fungerar med IntelliJ IDEA, Eclipse, NetBeans och alla IDE:er som stödjer Java‑utveckling.
+
+**Q: Kan jag anpassa formateringen av text i mitt OneNote‑dokument?**  
+A: Ja. Använd `ParagraphStyle` för att sätta typsnitt, storlek, färg och andra attribut för varje `RichText`‑element.
+
+**Q: Stöder Aspose.Note för Java att spara dokument i andra format än BMP?**  
+A: Ja. Stödda format inkluderar PDF, PNG, JPEG, DOCX och fler. Ändra `SaveFormat`‑enumen därefter.
+
+**Q: Finns det en provversion av Aspose.Note för Java?**  
+A: Ja, du kan ladda ner en gratis provversion från Aspose‑webbplatsen.
 
 ## Slutsats
 
-Att organisera dina OneNote-dokument med hierarkisk struktur är avgörande för bättre hantering och navigering. Med Aspose.Note för Java kan du effektivt skapa dokument med rot- och undersidor, vilket ger en tydlig och organiserad layout för dina anteckningar.
+Att organisera dina OneNote‑anteckningsböcker med en tydlig hierarkisk struktur och exportera dem som PDF gör dina anteckningar mer tillgängliga och delbara. Genom att följa stegen ovan vet du nu **hur man sparar OneNote PDF** och **lägger till undersidor onenote**‑stil programatiskt med Aspose.Note för Java.
 
-## FAQ's
+---
 
-### F1: Kan jag skapa flera nivåer av undersidor med Aspose.Note för Java?
+**Senast uppdaterad:** 2026-01-07  
+**Testad med:** Aspose.Note för Java 24.11 (senaste)  
+**Författare:** Aspose  
 
-S1: Ja, du kan skapa flera nivåer av undersidor genom att ställa in lämplig nivå för varje sida.
-
-### F2: Är Aspose.Note for Java kompatibelt med olika Java IDE:er?
-
-S2: Ja, Aspose.Note för Java är kompatibel med populära Java IDEs som IntelliJ IDEA, Eclipse och NetBeans.
-
-### F3: Kan jag anpassa formateringen av text i mitt OneNote-dokument?
-
-S3: Ja, du kan anpassa teckensnitt, färg, storlek och andra formateringsalternativ med Aspose.Note för Javas rika textfunktioner.
-
-### F4: Stöder Aspose.Note för Java att spara dokument i olika format?
-
-S4: Ja, Aspose.Note för Java stöder att spara dokument i olika format inklusive BMP, PDF, PNG och mer.
-
-### F5: Finns det en testversion tillgänglig för Aspose.Note för Java?
-
-S5: Ja, du kan ladda ner en gratis testversion av Aspose.Note för Java från webbplatsen.
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

@@ -102,7 +102,7 @@ A: Ζητήστε μια προσωρινή άδεια αξιολόγησης α
 ---
 
 **Τελευταία Ενημέρωση:** 2025-12-09  
-**Δοκιμάστηκε Με:** Aspose.Note for Java 24.12 (latest)  
+**Δοκιμάστηκε Με:** Aspose.Note for Java 26.4 (latest)  
 **Συγγραφέας:** Aspose
 
 {{< /blocks/products/pf/tutorial-page-section >}}

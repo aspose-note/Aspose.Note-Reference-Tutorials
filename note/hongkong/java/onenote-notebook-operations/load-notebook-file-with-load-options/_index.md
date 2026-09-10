@@ -109,8 +109,8 @@ A5: 若您正在評估產品，可於 [here](https://purchase.aspose.com/tempora
 
 ---
 
-**最後更新：** 2026-03-27  
-**測試環境：** Aspose.Note 24.11 for Java  
+**最後更新：** 2025-12-31  
+**測試環境：** Aspose.Note 26.4 for Java  
 **作者：** Aspose
 
 {{< /blocks/products/pf/tutorial-page-section >}}

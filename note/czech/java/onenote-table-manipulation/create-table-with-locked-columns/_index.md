@@ -87,7 +87,7 @@ Gratulujeme! Úspěšně jste vytvořili tabulku se zamčenými sloupci ve OneNo
 tomto tutoriálu jsme prozkoumali proces využití Aspose.Note pro Javu k vylepšení vašeho prostředí OneNote vytvářením tabulek se zamčenými sloupci. Tato funkce přidává vašim poznámkám novou úroveň organizace a struktury.
 ## Nejčastější dotazy
 ### Je Aspose.Note for Java kompatibilní se všemi verzemi Java?
-Ano, Aspose.Note for Java je kompatibilní s Java 6 a novějšími verzemi.
+Ano, Aspose.Note for Java je kompatibilní s Java SE 7 a novějšími verzemi.
 ### Mohu si vzhled stolu dále upravit?
 Absolutně! Aspose.Note for Java poskytuje rozsáhlé možnosti přizpůsobení tabulek, jako je úprava ohraničení, mezer mezi buňkami a další.
 ### Je před zakoupením k dispozici zkušební verze?

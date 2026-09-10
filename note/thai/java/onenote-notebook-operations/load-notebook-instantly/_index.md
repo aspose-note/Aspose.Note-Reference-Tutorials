@@ -41,7 +41,7 @@ Instant loading OneNote เป็นคุณสมบัติของคล�
 
 ก่อนที่เราจะเริ่ม, โปรดตรวจสอบว่าคุณมีข้อกำหนดต่อไปนี้:
 
-1. **Java Development Kit (JDK):** ตรวจสอบว่าคุณได้ติดตั้ง Java บนระบบของคุณแล้ว. คุณสามารถดาวน์โหลดและติดตั้ง JDK เวอร์ชันล่าสุดจาก [here](https://www.oracle.com/java/technologies/javase-jdk15-downloads.html).
+1. **Java Development Kit (JDK):** ตรวจสอบว่าคุณได้ติดตั้ง Java บนระบบของคุณแล้ว. คุณสามารถดาวน์โหลดและติดตั้ง JDK ล่าสุดได้จาก [ที่นี่](https://www.oracle.com/java/technologies/downloads/).
 
 2. **Aspose.Note for Java:** คุณต้องมีไลบรารี Aspose.Note for Java. คุณสามารถรับได้จาก [download page](https://releases.aspose.com/note/java/).
 
@@ -132,9 +132,9 @@ A7: การโหลดแบบทันทีทำให้สมุดบ�
 
 ---
 
-**Last Updated:** 2026-03-27  
-**Tested With:** Aspose.Note for Java 24.12 (latest)  
-**Author:** Aspose  
+**อัปเดตล่าสุด:** 2025-12-31  
+**ทดสอบกับ:** Aspose.Note for Java 26.4 (ล่าสุด)  
+**ผู้เขียน:** Aspose  
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

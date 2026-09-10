@@ -32,7 +32,7 @@ Başlamadan önce aşağıdakilerin hazır olduğundan emin olun:
 
 ### Java Development Kit (JDK) Yüklü
 
-Yeni bir JDK'ye ihtiyacınız var. [Java web sitesinden](https://www.oracle.com/java/technologies/javase-jdk15-downloads.html) indirebilirsiniz.
+Yeni bir JDK'ye ihtiyacınız var. [Java web sitesinden](https://www.oracle.com/java/technologies/downloads/) indirebilirsiniz.
 
 ### Aspose.Note for Java Kütüphanesi
 
@@ -118,7 +118,7 @@ C: Kütüphane Java 8 ve üzeri sürümlerle çalışır.
 ---
 
 **Son Güncelleme:** 2025-12-31  
-**Test Edilen Versiyon:** Aspose.Note for Java 24.12  
+**Test Edilen Versiyon:** Aspose.Note for Java 26.4  
 **Yazar:** Aspose  
 
 ---

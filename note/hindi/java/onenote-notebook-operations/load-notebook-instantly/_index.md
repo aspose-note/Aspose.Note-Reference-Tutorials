@@ -41,7 +41,7 @@ Instant loading OneNote `NotebookLoadOptions` क्लास की एक स�
 
 शुरू करने से पहले सुनिश्चित करें कि आपके पास निम्नलिखित पूर्वापेक्षाएँ हैं:
 
-1. **Java Development Kit (JDK):** सुनिश्चित करें कि आपके सिस्टम पर Java स्थापित है। आप नवीनतम JDK [यहाँ](https://www.oracle.com/java/technologies/javase-jdk15-downloads.html) से डाउनलोड और इंस्टॉल कर सकते हैं।
+1. **Java Development Kit (JDK):** सुनिश्चित करें कि आपके सिस्टम पर Java स्थापित है। आप नवीनतम JDK को [here](https://www.oracle.com/java/technologies/downloads/) से डाउनलोड और इंस्टॉल कर सकते हैं।
 
 2. **Aspose.Note for Java:** आपको Aspose.Note for Java लाइब्रेरी चाहिए। आप इसे [डाउनलोड पेज](https://releases.aspose.com/note/java/) से प्राप्त कर सकते हैं।
 
@@ -132,9 +132,9 @@ Instant loading I/O ऑपरेशनों की संख्या को �
 
 ---
 
-**अंतिम अपडेट:** 2026-03-27  
-**परीक्षित संस्करण:** Aspose.Note for Java 24.12 (नवीनतम)  
-**लेखक:** Aspose  
+**अंतिम अपडेट:** 2025-12-31  
+**Tested With:** Aspose.Note for Java 26.4 (latest)  
+**Author:** Aspose  
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

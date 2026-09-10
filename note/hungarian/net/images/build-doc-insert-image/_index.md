@@ -61,7 +61,7 @@ Aspose.Note.Page page = new Aspose.Note.Page(doc);
 ## 3. lépés: Inicializálja az Outline objektumot
 
 ```csharp
-Outline outline = new Outline(doc);
+Outline outline = new Outline();
 ```
 
  A`Outline`osztály egy vázlatos csomópontot képvisel a dokumentumhierarchiában. Létrehozunk egy új vázlatobjektumot a dokumentumunk felépítéséhez.
@@ -69,7 +69,7 @@ Outline outline = new Outline(doc);
 ## 4. lépés: Inicializálja az OutlineElement objektumot
 
 ```csharp
-OutlineElement outlineElem = new OutlineElement(doc);
+OutlineElement outlineElem = new OutlineElement();
 ```
 
  An`OutlineElement` egy elemet jelöl a körvonalon belül. Itt létrehozunk egy új vázlatelemet, amellyel tartalmat adhatunk a dokumentumunkhoz.

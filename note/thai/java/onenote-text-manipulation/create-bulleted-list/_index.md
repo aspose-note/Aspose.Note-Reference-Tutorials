@@ -1,27 +1,49 @@
 ---
-title: สร้างรายการสัญลักษณ์แสดงหัวข้อย่อยใน OneNote - Aspose.Note
-linktitle: สร้างรายการสัญลักษณ์แสดงหัวข้อย่อยใน OneNote - Aspose.Note
+date: 2026-03-03
+description: เรียนรู้วิธีสร้างรายการแบบหัวข้อย่อยใน OneNote ด้วย Aspose.Note สำหรับ
+  Java และบันทึกเอกสาร OneNote เป็น PDF คู่มือแบบขั้นตอนต่อขั้นตอนพร้อมจุดหัวข้อใน
+  Java.
+linktitle: Create Bulleted List OneNote - Aspose.Note
 second_title: Aspose.Note Java API
-description: สำรวจคำแนะนำทีละขั้นตอนเกี่ยวกับการสร้างรายการสัญลักษณ์แสดงหัวข้อย่อยใน OneNote โดยใช้ Aspose.Note สำหรับ Java ยกระดับการสร้างเอกสารของคุณอย่างง่ายดาย
-weight: 12
+title: สร้างรายการหัวข้อย่อยใน OneNote - Aspose.Note
 url: /th/java/onenote-text-manipulation/create-bulleted-list/
+weight: 12
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# สร้างรายการสัญลักษณ์แสดงหัวข้อย่อยใน OneNote - Aspose.Note
+# สร้างรายการหัวข้อแบบมีจุดใน OneNote - Aspose.Note
 
-## การแนะนำ
-ในภูมิทัศน์แบบไดนามิกของการพัฒนา Java การสร้างเอกสารที่มีส่วนร่วมและจัดระเบียบถือเป็นสิ่งสำคัญ Aspose.Note สำหรับ Java มีชุดเครื่องมืออันทรงพลังเพื่อปรับปรุงกระบวนการสร้างเอกสารของคุณ บทช่วยสอนนี้จะแนะนำคุณตลอดกระบวนการสร้างรายการสัญลักษณ์แสดงหัวข้อย่อยใน OneNote โดยใช้ Aspose.Note สำหรับ Java มาดูรายละเอียดกันดีกว่า
-## ข้อกำหนดเบื้องต้น
-ก่อนที่เราจะเริ่มต้น ตรวจสอบให้แน่ใจว่าคุณมีข้อกำหนดเบื้องต้นดังต่อไปนี้:
-- ความรู้พื้นฐานเกี่ยวกับการเขียนโปรแกรม Java
--  Aspose.Note สำหรับไลบรารี Java ติดตั้งแล้ว คุณสามารถดาวน์โหลดได้จาก[Aspose.Note สำหรับเอกสารประกอบ Java](https://reference.aspose.com/note/java/).
-- การตั้งค่า Java Integrated Development Environment (IDE) บนเครื่องของคุณ
-## แพ็คเกจนำเข้า
-เริ่มต้นด้วยการนำเข้าแพ็คเกจที่จำเป็นไปยังโปรเจ็กต์ Java ของคุณ สิ่งนี้ทำให้แน่ใจได้ว่าคุณจะสามารถเข้าถึงฟังก์ชัน Aspose.Note สำหรับ Java ได้
+## Introduction
+If you need to **create bulleted list OneNote** programmatically, Aspose.Note for Java gives you a clean, fluent API that handles all the OneNote internals for you. In this tutorial we’ll walk through the exact steps to set bullet points in Java, add them to an outline, and finally **save OneNote document as PDF**. By the end you’ll have a ready‑to‑use snippet that you can drop into any Java project.
+
+## Quick Answers
+- **What does Aspose.Note do?** It lets you generate, edit, and convert OneNote files without installing OneNote.  
+- **Can I set bullet points with Java?** Yes – use `NumberList` to define the bullet style.  
+- **How do I export to PDF?** Call `doc.save(...".pdf")` after building the page.  
+- **Do I need a license for development?** A free trial works for testing; a license is required for production.  
+- **Which IDEs are supported?** Any Java IDE such as Eclipse, IntelliJ IDEA, or VS Code.
+
+## What is “create bulleted list OneNote”?
+Creating a bulleted list in OneNote means adding a series of outline elements where each element starts with a bullet character (e.g., “*”). This structure improves readability and mimics the way users manually add lists inside the OneNote UI.
+
+## Why use Aspose.Note for Java to set bullet points?
+- **No OneNote installation required** – works on servers and CI pipelines.  
+- **Full control over styling** – font, size, color, and bullet character are all configurable.  
+- **Direct PDF export** – generate a PDF in one line, perfect for reporting or archiving.  
+
+## Prerequisites
+Before we begin, make sure you have:
+
+- Basic Java programming knowledge.  
+- Aspose.Note for Java library installed – download it from the [Aspose.Note for Java Documentation](https://reference.aspose.com/note/java/).  
+- A Java IDE (Eclipse, IntelliJ IDEA, etc.) set up on your machine.
+
+## Import Packages
+Start by importing the necessary packages into your Java project. This gives you access to all Aspose.Note classes we’ll use.
+
 ```java
 import java.awt.Color;
 import java.io.IOException;
@@ -32,75 +54,108 @@ import com.aspose.note.OutlineElement;
 import com.aspose.note.Page;
 import com.aspose.note.RichText;
 import com.aspose.note.ParagraphStyle;
-// อิมพอร์ต Aspose.Note สำหรับแพ็คเกจ Java
+// Import Aspose.Note for Java packages
 ```
-## ขั้นตอนที่ 1: เริ่มต้นเอกสารและหน้า
-สร้างวัตถุของคลาส Document และเริ่มต้นวัตถุคลาส Page
+
+## Step 1: Initialize Document and Page
+Create a `Document` instance and a `Page` where the outline will live.
+
 ```java
 String dataDir = "Your Document Directory";
-// สร้างวัตถุของคลาสเอกสาร
+// create an object of the Document class
 Document doc = new Document();
-// เริ่มต้นวัตถุคลาสหน้า
+// initialize Page class object
 Page page = new Page();
 ```
-## ขั้นตอนที่ 2: เริ่มต้นโครงร่างและ TextStyle
-ตอนนี้ เริ่มต้นวัตถุคลาส Outline และวัตถุคลาส TextStyle ด้วยคุณสมบัติการจัดรูปแบบ
+
+## Step 2: Initialize Outline and TextStyle (set bullet points java)
+We’ll set up an `Outline` container and define a default `ParagraphStyle`. This is where we **set bullet points java**‑style formatting.
+
 ```java
-// เริ่มต้นวัตถุคลาสเค้าร่าง
+// initialize Outline class object
 Outline outline = new Outline();
-// เริ่มต้นวัตถุคลาส TextStyle และตั้งค่าคุณสมบัติการจัดรูปแบบ
+// initialize TextStyle class object and set formatting properties
 ParagraphStyle defaultStyle = new ParagraphStyle()
                                     .setFontColor(Color.black)
                                     .setFontName("Arial")
                                     .setFontSize(10);
 ```
-## ขั้นตอนที่ 3: สร้างองค์ประกอบรายการสัญลักษณ์แสดงหัวข้อย่อย
-สร้างออบเจ็กต์คลาส OutlineElement และใช้สัญลักษณ์แสดงหัวข้อย่อยเพื่อสร้างรายการสัญลักษณ์แสดงหัวข้อย่อย
+
+## Step 3: Create Bulleted List Elements
+Create individual `OutlineElement` objects, attach a `NumberList` that defines the bullet character, and add the text.
+
 ```java
-// เริ่มต้นวัตถุคลาส OutlineElement และใช้สัญลักษณ์แสดงหัวข้อย่อย
+// initialize OutlineElement class objects and apply bullets
 OutlineElement outlineElem1 = new OutlineElement();
 outlineElem1.setNumberList(new NumberList("*", "Arial", 10));
-// เริ่มต้นวัตถุคลาส RichText และใช้สไตล์ข้อความ
+// initialize RichText class object and apply text style
 RichText text1 = new RichText().append("First");
 text1.setParagraphStyle(defaultStyle);
 outlineElem1.appendChildLast(text1);
 ```
-ทำซ้ำขั้นตอนข้างต้นสำหรับแต่ละองค์ประกอบในรายการสัญลักษณ์แสดงหัวข้อย่อยของคุณ
-## ขั้นตอนที่ 4: เพิ่มองค์ประกอบโครงร่างลงในโครงร่าง
-เพิ่มออบเจ็กต์ OutlineElement ที่สร้างขึ้นใน Outline
+
+*Repeat the above block for each additional bullet you need (e.g., `outlineElem2`, `outlineElem3`).*
+
+## Step 4: Add Outline Elements to Outline
+Collect all the bullet elements into the parent `Outline`.
+
 ```java
-// เพิ่มองค์ประกอบโครงร่าง
+// add outline elements
 outline.appendChildLast(outlineElem1);
 outline.appendChildLast(outlineElem2);
 outline.appendChildLast(outlineElem3);
 ```
-## ขั้นตอนที่ 5: เพิ่มโครงร่างลงในเพจและบันทึก
-เพิ่มโหนดเค้าร่างลงในเพจ และจากนั้น เพิ่มโหนดเพจลงในเอกสาร สุดท้ายให้บันทึกเอกสาร
+
+## Step 5: Add Outline to Page and Save (save OneNote document as PDF)
+Attach the `Outline` to the `Page`, add the page to the `Document`, and finally **save OneNote document as PDF**.
+
 ```java
-// เพิ่มโหนดเค้าร่าง
+// add Outline node
 page.appendChildLast(outline);
-// เพิ่มโหนดเพจ
+// add Page node
 doc.appendChildLast(page);
-// บันทึกเอกสาร
+// save the document
 doc.save(dataDir + "CreateBulletedList_out.pdf");
 ```
-ยินดีด้วย! คุณสร้างรายการสัญลักษณ์แสดงหัวข้อย่อยใน OneNote สำเร็จแล้วโดยใช้ Aspose.Note for Java
-## บทสรุป
-Aspose.Note สำหรับ Java ช่วยให้กระบวนการสร้างเอกสารที่มีการจัดรูปแบบอย่างดีง่ายขึ้น บทช่วยสอนนี้จะอธิบายขั้นตอนต่างๆ ในการสร้างรายการสัญลักษณ์แสดงหัวข้อย่อยใน OneNote สำรวจความเป็นไปได้เพิ่มเติมด้วย Aspose.Note เพื่อปรับปรุงประสบการณ์การสร้างเอกสารของคุณ
-## คำถามที่พบบ่อย
-### Aspose.Note สำหรับ Java เข้ากันได้กับ Java IDE ทั้งหมดหรือไม่
-ใช่ Aspose.Note สำหรับ Java เข้ากันได้กับ Java Integrated Development Environment ยอดนิยม เช่น Eclipse และ IntelliJ IDEA
-### ฉันสามารถปรับแต่งการจัดรูปแบบของรายการหัวข้อย่อยได้หรือไม่
-อย่างแน่นอน! คุณสามารถปรับเปลี่ยนแบบอักษร สี และขนาดขององค์ประกอบรายการสัญลักษณ์แสดงหัวข้อย่อยได้ตามความต้องการของคุณ
-### ฉันจะรับการสนับสนุนเพิ่มเติมสำหรับ Aspose.Note สำหรับ Java ได้ที่ไหน
- เยี่ยมชม[Aspose.Note สำหรับฟอรัมสนับสนุน Java](https://forum.aspose.com/c/note/28) เพื่อขอความช่วยเหลือจากชุมชน
-### มีการทดลองใช้ฟรีสำหรับ Aspose.Note สำหรับ Java หรือไม่
- ใช่ คุณสามารถสำรวจเวอร์ชันทดลองใช้ฟรีได้[ที่นี่](https://releases.aspose.com/).
-### ฉันจะขอรับใบอนุญาตชั่วคราวสำหรับ Aspose.Note สำหรับ Java ได้อย่างไร
- รับใบอนุญาตชั่วคราว[ที่นี่](https://purchase.aspose.com/temporary-license/).
+
+Congratulations! You’ve now programmatically **create bulleted list OneNote** and exported it to PDF using Aspose.Note for Java.
+
+## Common Issues and Solutions
+| Issue | Solution |
+|-------|----------|
+| `outlineElem2` or `outlineElem3` not defined | Ensure you duplicate the code block from Step 3 for each additional bullet and rename the variables accordingly. |
+| PDF file not created | Verify `dataDir` points to a writable folder and that you have write permissions. |
+| Bullet style looks different | Adjust the `NumberList` constructor parameters (font, size, or character) to match your desired appearance. |
+
+## Frequently Asked Questions
+
+**Q: Is Aspose.Note for Java compatible with all Java IDEs?**  
+A: Yes, it works with Eclipse, IntelliJ IDEA, NetBeans, and any IDE that supports standard Java projects.
+
+**Q: Can I customize the formatting of the bulleted list?**  
+A: Absolutely! You can change the font, color, size, and even use custom Unicode symbols by modifying the `NumberList` parameters.
+
+**Q: Where can I find additional support for Aspose.Note for Java?**  
+A: Visit the [Aspose.Note for Java support forum](https://forum.aspose.com/c/note/28) for community help and official assistance.
+
+**Q: Is there a free trial available for Aspose.Note for Java?**  
+A: Yes, you can explore a free trial version [here](https://releases.aspose.com/).
+
+**Q: How can I obtain a temporary license for Aspose.Note for Java?**  
+A: Get a temporary license [here](https://purchase.aspose.com/temporary-license/).
+
+## Conclusion
+Aspose.Note for Java makes it straightforward to **create bulleted list OneNote**, style each bullet, and **save OneNote document as PDF** in a few concise steps. Feel free to experiment with different bullet characters, fonts, and colors to match your application’s design language. Explore other Aspose.Note features such as tables, images, and hyperlinks to build richer OneNote content.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
+
+---
+
+**อัปเดตล่าสุด:** 2026-03-03  
+**ทดสอบด้วย:** Aspose.Note for Java 24.11  
+**ผู้เขียน:** Aspose

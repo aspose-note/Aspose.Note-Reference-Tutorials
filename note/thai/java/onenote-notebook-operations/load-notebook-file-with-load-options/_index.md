@@ -108,9 +108,11 @@ A4: สำหรับคำถามหรือปัญหาใด ๆ ค�
 **Q5: ฉันต้องการลิขสิทธิ์ชั่วคราวเพื่อใช้ Aspose.Note for Java หรือไม่?**  
 A5: หากคุณกำลังประเมินผลิตภัณฑ์ คุณสามารถรับลิขสิทธิ์ชั่วคราวได้ที่ [here](https://purchase.aspose.com/temporary-license/)  
 
-**อัปเดตล่าสุด:** 2026-03-27  
-**ทดสอบด้วย:** Aspose.Note 24.11 for Java  
-**ผู้เขียน:** Aspose  
+---
+
+**อัปเดตล่าสุด:** 2025-12-31  
+**ทดสอบกับ:** Aspose.Note 26.4 for Java  
+**ผู้เขียน:** Aspose
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

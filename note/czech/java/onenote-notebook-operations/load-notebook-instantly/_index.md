@@ -41,7 +41,7 @@ Instant loading OneNote je funkce třídy `NotebookLoadOptions`, která říká 
 
 Než začneme, ujistěte se, že máte následující předpoklady:
 
-1. **Java Development Kit (JDK):** Ujistěte se, že máte na svém systému nainstalovanou Javu. Nejnovější JDK můžete stáhnout a nainstalovat z [zde](https://www.oracle.com/java/technologies/javase-jdk15-downloads.html).
+1. **Java Development Kit (JDK):** Ujistěte se, že máte na svém systému nainstalovanou Javu. Nejnovější JDK můžete stáhnout a nainstalovat z [zde](https://www.oracle.com/java/technologies/downloads/).
 
 2. **Aspose.Note pro Java:** Potřebujete knihovnu Aspose.Note pro Java. Můžete ji získat ze [stránky ke stažení](https://releases.aspose.com/note/java/).
 
@@ -120,21 +120,9 @@ A4: Ano, můžete si stáhnout bezplatnou zkušební verzi z [zde](https://relea
 **Q5: Jak mohu získat dočasnou licenci pro Aspose.Note pro Java?**  
 A5: Můžete požádat o dočasnou licenci na [stránce dočasné licence](https://purchase.aspose.com/temporary-license/).
 
-**Q6: Je možné načíst sešit a poté přidat nové sekce bez opětovného načtení?**  
-A6: Rozhodně. Po úvodním okamžitém načtení můžete použít API `Notebook` k přidání, odebrání nebo aktualizaci sekcí a stránek a poté sešit uložit zpět na disk.
-
-**Q7: Jaké úvahy o paměti bych měl mít na paměti u velmi velkých sešitů?**  
-A7: Okamžité načítání udržuje celý sešit v paměti. U sešitů větších než několik stovek megabajtů sledujte využití haldy JVM a zvažte zpracování sekcí v samostatných vláknech nebo použití technik stránkování.
-
-## Závěr
-
-Nyní jste se naučili, jak **zlepšit výkon OneNote** využitím okamžitého načítání s Aspose.Note pro Java. Tento zjednodušený přístup vám umožní načíst celý sešit a jeho obsah v jediném kroku, což otevírá cestu k rychlejšímu zpracování, sníženému I/O zatížení a čistšímu kódu, když potřebujete **číst sekce OneNote** nebo **upravit data OneNote sešitu**.
-
----
-
-**Last Updated:** 2026-03-27  
-**Tested With:** Aspose.Note for Java 24.12 (latest)  
-**Author:** Aspose  
+**Poslední aktualizace:** 2025-12-31  
+**Testováno s:** Aspose.Note pro Java 26.4 (nejnovější)  
+**Autor:** Aspose  
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

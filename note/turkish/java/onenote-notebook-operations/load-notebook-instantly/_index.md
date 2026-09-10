@@ -43,7 +43,7 @@ Instant loading OneNote, `NotebookLoadOptions` sınıfının bir özelliğidir v
 
 Başlamadan önce aşağıdaki önkoşullara sahip olduğunuzdan emin olun:
 
-1. **Java Development Kit (JDK):** Sisteminizde Java yüklü olduğundan emin olun. En son JDK'yı [buradan](https://www.oracle.com/java/technologies/javase-jdk15-downloads.html) indirebilir ve kurabilirsiniz.
+1. **Java Development Kit (JDK):** Sisteminizde Java kurulu olduğundan emin olun. En son JDK'yı [buradan](https://www.oracle.com/java/technologies/downloads/) indirebilir ve kurabilirsiniz.
 
 2. **Aspose.Note for Java:** Aspose.Note for Java kütüphanesine ihtiyacınız var. Kütüphaneyi [indirme sayfasından](https://releases.aspose.com/note/java/) temin edebilirsiniz.
 
@@ -116,27 +116,9 @@ A2: Aspose.Note for Java supports various versions of OneNote files, including .
 **Q3: Where can I find more resources and support for Aspose.Note for Java?**  
 A3: You can explore the [Aspose.Note for Java documentation](https://reference.aspose.com/note/java/) and visit the [Aspose.Note forum](https://forum.aspose.com/c/note/28) for assistance and discussions.
 
-**Q4: Can I try Aspose.Note for Java before purchasing?**  
-A4: Yes, you can download a free trial version from [here](https://releases.aspose.com/).
-
-**Q5: How can I obtain a temporary license for Aspose.Note for Java?**  
-A5: You can request a temporary license from the [temporary license page](https://purchase.aspose.com/temporary-license/).
-
-**Q6: Is it possible to load a notebook and then add new sections without re‑loading?**  
-A6: Absolutely. After the initial instant load, you can use the `Notebook` API to add, remove, or update sections and pages, and then save the notebook back to disk.
-
-**Q7: What memory considerations should I keep in mind for very large notebooks?**  
-A7: Instant loading keeps the entire notebook in memory. For notebooks larger than a few hundred megabytes, monitor JVM heap usage and consider processing sections in separate threads or using pagination techniques.
-
-## Conclusion
-
-Artık **OneNote performansını** Aspose.Note for Java ile anında yükleme kullanarak nasıl iyileştireceğinizi öğrendiniz. Bu sadeleştirilmiş yaklaşım, bir defteri ve içeriğini tek adımda yüklemenizi sağlar; böylece daha hızlı işleme, azalan I/O yükü ve **OneNote bölümlerini** okurken ya da **OneNote defterini** değiştirirken daha temiz kod yazma imkanı sunar.
-
----
-
-**Last Updated:** 2026-03-27  
-**Tested With:** Aspose.Note for Java 24.12 (latest)  
-**Author:** Aspose  
+**Son Güncelleme:** 2025-12-31  
+**Test Edilen Versiyon:** Aspose.Note for Java 26.4 (latest)  
+**Yazar:** Aspose  
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

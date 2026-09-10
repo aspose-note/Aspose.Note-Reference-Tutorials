@@ -49,7 +49,7 @@ NotebookLoadOptions loadOptions = new NotebookLoadOptions { InstantLoading = tru
 Στη συνέχεια, καθορίστε τη διαδρομή προς το αρχείο σημειωματάριου και αρχικοποιήστε το αντικείμενο του σημειωματάριου χρησιμοποιώντας τις καθορισμένες επιλογές φόρτωσης.
 
 ```csharp
-String inputFile = "Notizbuch öffnen.onetoc2";
+String inputFile = "Notebook.onetoc2";
 String dataDir = "Your Document Directory";
 Notebook notebook = new Notebook(dataDir + inputFile, loadOptions);
 ```

@@ -49,7 +49,7 @@ Visual Studio를 사용하여 개발 환경을 설정하고 .NET 라이브러리
 ```csharp
 string dataDir = "Your Document Directory";
 
-FileStream stream = new FileStream(dataDir + "Notizbuch öffnen.onetoc2", FileMode.Open);
+FileStream stream = new FileStream(dataDir + "Notebook.onetoc2", FileMode.Open);
 ```
 
 ## 3단계: 노트북 개체 초기화

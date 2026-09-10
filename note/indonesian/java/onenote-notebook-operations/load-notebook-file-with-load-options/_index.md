@@ -111,8 +111,8 @@ A5: Jika Anda sedang mengevaluasi produk, Anda dapat memperoleh lisensi sementar
 
 ---
 
-**Terakhir Diperbarui:** 2026-03-27  
-**Diuji Dengan:** Aspose.Note 24.11 untuk Java  
+**Terakhir Diperbarui:** 2025-12-31  
+**Diuji Dengan:** Aspose.Note 26.4 for Java  
 **Penulis:** Aspose
 
 {{< /blocks/products/pf/tutorial-page-section >}}

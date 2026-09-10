@@ -109,9 +109,9 @@ A5: 如果您正在评估产品，可以在 [here](https://purchase.aspose.com/t
 
 ---
 
-**最后更新：** 2026-03-27  
-**测试环境：** Aspose.Note 24.11 for Java  
-**作者：** Aspose
+**Last Updated:** 2025-12-31  
+**Tested With:** Aspose.Note 26.4 for Java  
+**Author:** Aspose
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

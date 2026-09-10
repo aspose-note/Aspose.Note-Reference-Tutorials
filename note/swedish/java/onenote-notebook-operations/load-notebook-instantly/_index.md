@@ -42,7 +42,7 @@ Instant loading OneNote är en funktion i klassen `NotebookLoadOptions` som inst
 
 Innan vi börjar, se till att du har följande förutsättningar:
 
-1. **Java Development Kit (JDK):** Se till att du har Java installerat på ditt system. Du kan ladda ner och installera den senaste JDK från [here](https://www.oracle.com/java/technologies/javase-jdk15-downloads.html).
+1. **Java Development Kit (JDK):** Du kan installera Java på ditt system. När du installerar JDK:n från [här](https://www.oracle.com/java/technologies/downloads/).
 
 2. **Aspose.Note for Java:** Du behöver ha Aspose.Note för Java‑biblioteket. Du kan hämta det från [download page](https://releases.aspose.com/note/java/).
 
@@ -133,8 +133,8 @@ Du har nu lärt dig hur du **förbättrar OneNote-prestanda** genom att utnyttja
 
 ---
 
-**Senast uppdaterad:** 2026-03-27  
-**Testat med:** Aspose.Note for Java 24.12 (latest)  
+**Senast uppdaterad:** 2025-12-31
+**Testad med:** Aspose.Note för Java 26.4 (senaste)
 **Författare:** Aspose  
 
 {{< /blocks/products/pf/tutorial-page-section >}}

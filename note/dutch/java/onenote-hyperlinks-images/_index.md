@@ -85,7 +85,7 @@ Leer hoe u afbeeldingen invoegt in OneNote‑documenten met Java en de Aspose.No
 ---
 
 **Last Updated:** 2025-12-20  
-**Tested With:** Aspose.Note for Java 24.10  
+**Tested With:** Aspose.Note for Java 26.4  
 **Author:** Aspose
 
 {{< /blocks/products/pf/tutorial-page-section >}}

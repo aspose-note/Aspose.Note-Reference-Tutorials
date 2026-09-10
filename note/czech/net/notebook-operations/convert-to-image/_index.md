@@ -42,7 +42,7 @@ Chcete-li začít, musíme načíst poznámkový blok OneNote, který chceme př
 
 ```csharp
 string dataDir = "Your Document Directory";
-var notebook = new Notebook(dataDir + "Notizbuch �ffnen.onetoc2");
+var notebook = new Notebook(dataDir + "Notebook.onetoc2");
 ```
 
 ## Krok 2: Uložte notebook jako obrázek

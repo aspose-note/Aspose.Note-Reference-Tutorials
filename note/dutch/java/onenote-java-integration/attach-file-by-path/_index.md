@@ -84,7 +84,7 @@ OutlineElement outlineElem = new OutlineElement();
 Instantieer een `AttachedFile` met het volledige pad naar het bestand dat je wilt embedden:
 
 ```java
-AttachedFile attachedFile = new AttachedFile(null, dataDir + "attachment.txt");
+AttachedFile attachedFile = new AttachedFile(dataDir + "attachment.txt");
 ```
 
 Verander `"attachment.txt"` naar de naam van het bestand dat je wilt bijvoegen (java code attach file).
@@ -166,7 +166,7 @@ A: Een geldige Aspose.Note‑licentie is vereist voor productie‑implementaties
 ---
 
 **Laatst bijgewerkt:** 2025-12-25  
-**Getest met:** Aspose.Note for Java 24.11  
+**Getest met:** Aspose.Note for Java 26.4  
 **Auteur:** Aspose
 
 {{< /blocks/products/pf/tutorial-page-section >}}

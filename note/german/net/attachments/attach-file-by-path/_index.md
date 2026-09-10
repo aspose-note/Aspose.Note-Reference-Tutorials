@@ -66,7 +66,7 @@ Aspose.Note.Page page = new Aspose.Note.Page(doc);
 ### Schritt 3: Gliederungsobjekt initialisieren
 
 ```csharp
-Outline outline = new Outline(doc);
+Outline outline = new Outline();
 ```
 
  Ein`Outline` Das Objekt wird erstellt, um den Inhalt innerhalb der Seite zu organisieren.
@@ -74,7 +74,7 @@ Outline outline = new Outline(doc);
 ### Schritt 4: OutlineElement-Objekt initialisieren
 
 ```csharp
-OutlineElement outlineElem = new OutlineElement(doc);
+OutlineElement outlineElem = new OutlineElement();
 ```
 
 `OutlineElement` stellt ein Element innerhalb der Gliederungsstruktur dar.
@@ -82,7 +82,7 @@ OutlineElement outlineElem = new OutlineElement(doc);
 ### Schritt 5: AttachedFile-Objekt initialisieren
 
 ```csharp
-AttachedFile attachedFile = new AttachedFile(doc,  dataDir + "attachment.txt");
+AttachedFile attachedFile = new AttachedFile(dataDir + "attachment.txt");
 ```
 
  Hier erstellen wir eine Instanz von`AttachedFile`, unter Angabe des Pfads zu der Datei, die wir anhängen möchten.
