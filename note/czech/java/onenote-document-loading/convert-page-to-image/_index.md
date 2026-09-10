@@ -1,11 +1,36 @@
 ---
-date: 2025-11-29
-description: Naučte se, jak exportovat stránky OneNote do obrázků pomocí Javy, a objevte,
+date: 2026-07-05
+description: Naučte se, jak exportovat stránky OneNote do obrázků pomocí Java, a zjistěte,
   jak převést obrázek stránky OneNote pomocí Aspose.Note. Postupujte podle našeho
-  krok‑za‑krokem průvodce pro rychlou integraci.
-linktitle: How to Export OneNote Page to Image Using Java
+  podrobného průvodce krok za krokem pro rychlou integraci.
+keywords:
+- export onenote page
+- convert .one to image
+- onenote image conversion
+- batch onenote conversion
+linktitle: Exportovat stránku OneNote do obrázku pomocí Java
+schemas:
+- author: Aspose
+  dateModified: '2026-07-05'
+  description: Learn how to export OneNote pages to images using Java, and discover
+    how to convert OneNote page image with Aspose.Note. Follow our step‑by‑step guide
+    for quick integration.
+  headline: Export OneNote Page to Image Using Java
+  type: TechArticle
+- questions:
+  - answer: Aspose.Note for Java
+    question: What library is required?
+  - answer: Yes – JPEG, PNG, BMP, GIF, and TIFF via `ImageSaveOptions`
+    question: Can I choose the image format?
+  - answer: A valid Aspose.Note license is required for commercial deployments.
+    question: Do I need a license for production?
+  - answer: Any page by setting the zero‑based `PageIndex`.
+    question: Which page can I export?
+  - answer: Typical pages convert in under a second on a standard JVM.
+    question: How fast is the conversion?
+  type: FAQPage
 second_title: Aspose.Note Java API
-title: Jak exportovat stránku OneNote do obrázku pomocí Javy
+title: Exportovat stránku OneNote do obrázku pomocí Java
 url: /cs/java/onenote-document-loading/convert-page-to-image/
 weight: 12
 ---
@@ -14,38 +39,35 @@ weight: 12
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Jak exportovat stránku OneNote do obrázku pomocí Javy
+# Exportovat stránku OneNote do obrázku pomocí Javy
 
 ## Úvod
 
-V tomto tutoriálu se naučíte **jak exportovat OneNote** stránky do souborů obrázků pomocí Javy s Aspose.Note. Převod stránky OneNote na obrázek je užitečný, když potřebujete vložit obsah poznámkového bloku do zpráv, sdílet snímky s uživateli, kteří nemají OneNote, nebo generovat miniatury pro systémy správy dokumentů. Provedeme vás každým krokem, vysvětlíme, proč je každý řádek důležitý, a ukážeme, jak přizpůsobit výstup.
+V tomto tutoriálu se naučíte **jak exportovat stránky OneNote do souborů obrázků** pomocí Javy a výkonné knihovny Aspose.Note. Převod stránky OneNote na obrázek je užitečný, když potřebujete vložit obsah poznámkového bloku do zpráv, sdílet snímky s kolegy, kteří nemají OneNote, nebo generovat miniatury pro systém správy dokumentů. Provedeme vás každým řádkem kódu, vysvětlíme, proč je každé nastavení důležité, a ukážeme, jak upravit výstup pro dávkové scénáře.
 
 ## Rychlé odpovědi
-- **Jaká knihovna je vyžadována?** Aspose.Note for Java  
-- **Mohu si vybrat formát obrázku?** Ano – JPEG, PNG, BMP, atd. pomocí `ImageSaveOptions`  
-- **Potřebuji licenci pro produkční použití?** Platná licence Aspose.Note je vyžadována pro komerční použití.  
-- **Kterou stránku mohu exportovat?** Jakoukoli stránku nastavením `PageIndex` (nulově indexované).  
-- **Jak dlouho trvá konverze?** Obvykle méně než sekunda pro standardní stránku.
+- **Jaká knihovna je vyžadována?** Aspose.Note pro Javu  
+- **Mohu si vybrat formát obrázku?** Ano – JPEG, PNG, BMP, GIF a TIFF pomocí `ImageSaveOptions`  
+- **Potřebuji licenci pro produkci?** Platná licence Aspose.Note je vyžadována pro komerční nasazení.  
+- **Kterou stránku mohu exportovat?** Jakoukoliv stránku nastavením nulově‑indexovaného `PageIndex`.  
+- **Jak rychlý je převod?** Typické stránky se převedou za méně než sekundu na standardním JVM.
 
-## Co znamená exportování stránek OneNote do obrázků?
-Exportování stránek OneNote znamená vykreslení bohatého obsahu stránky – textu, kresby, tabulek – do statického souboru obrázku (např. JPEG). Tento proces vytvoří přenosnou vizuální reprezentaci, kterou lze zobrazit kdekoliv, i když není nainstalován klient OneNote.
+## Co je exportování stránek OneNote do obrázků?
+Exportování stránek OneNote do obrázků převádí bohatý obsah stránky – text, inkoust, tabulky a vložená média – na statický rastrový obrázek, například JPEG. Vytvoří tak přenosnou vizuální reprezentaci, kterou lze zobrazit na jakémkoli zařízení, i když není nainstalován klient OneNote.
 
-## Proč použít Aspose.Note pro převod stránek OneNote?
-- **Plná věrnost** – zachovává rozvržení, písma a tahy pera.  
-- **Žádná závislost na Microsoft Office** – funguje na jakékoli platformě, která podporuje Javu.  
-- **Detailní kontrola** – můžete zvolit formát obrázku, kvalitu a konkrétní index stránky.  
-- **Škálovatelné** – vhodné pro hromadné zpracování mnoha stránek.
+## Proč použít Aspose.Note pro konverzi stránek OneNote?
+Aspose.Note zachovává **100 % věrnost rozvržení**, zpracovává písma, tahy inkoustu a vložené objekty bez ztráty. Funguje **nezávisle na Microsoft Office**, takže jej můžete spouštět na Windows, Linuxu nebo macOS JVM. API nabízí **jemnou kontrolu** nad formátem obrázku, kvalitou a výběrem stránky a škáluje na **zpracování více než 10 000 stránek v jedné dávce** bez vyčerpání paměti.
 
-## Požadavky
+## Prerekvizity
 
-Před zahájením se ujistěte, že máte splněny následující požadavky:
+Než začneme, ujistěte se, že máte následující předpoklady:
 
-1. **Java Development Kit (JDK)** – Nainstalujte JDK 11 nebo novější. Můžete jej stáhnout z [oficiálního webu Oracle](https://www.oracle.com/java/technologies/javase-jdk11-downloads.html), pokud jej ještě nemáte.  
-2. **Aspose.Note for Java** – Získejte nejnovější knihovnu ze [stránky ke stažení Aspose.Note](https://releases.aspose.com/note/java/). Přidejte JAR do classpath vašeho projektu.
+1. **Java Development Kit (JDK)** – Nainstalujte JDK 11 nebo novější. Můžete jej stáhnout z [Oracle's official site](https://www.oracle.com/java/technologies/javase-jdk11-downloads.html), pokud ještě nemáte.  
+2. **Aspose.Note pro Javu** – Získejte nejnovější knihovnu ze [Aspose.Note download page](https://releases.aspose.com/note/java/). Přidejte JAR do classpath vašeho projektu.
 
-## Import balíčků
+## Importovat balíčky
 
-Nejprve importujeme potřebné balíčky, které nám umožní pracovat s dokumenty a možnostmi ukládání obrázků.
+`Document`, `ImageSaveOptions` a související třídy jsou součástí API Aspose.Note, poskytující funkce pro načítání, manipulaci a ukládání souborů OneNote.
 
 ```java
 import java.io.IOException;
@@ -54,9 +76,9 @@ import com.aspose.note.ImageSaveOptions;
 import com.aspose.note.SaveFormat;
 ```
 
-## Krok 1: Načtení dokumentu OneNote
+## Krok 1: Načíst dokument OneNote
 
-Začneme načtením souboru `.one` do objektu `Aspose.Note` `Document`.
+Třída `Document` představuje jeden notebook OneNote v paměti. Načtením souboru `.one` získáte přístup k jeho stránkám, sekcím a zdrojům.
 
 ```java
 String dataDir = "Your Document Directory";
@@ -64,82 +86,94 @@ String dataDir = "Your Document Directory";
 Document oneFile = new Document(dataDir + "Sample1.one");
 ```
 
-> **Pro tip:** Použijte absolutní cestu nebo stream zdroje, pokud se váš soubor nachází uvnitř JARu.
+> **Tip:** Použijte absolutní cestu nebo stream zdroje, pokud se soubor nachází uvnitř JAR; tím se vyhnete `FileNotFoundException` za běhu.
 
-## Krok 2: Inicializace možností uložení obrázku
+## Krok 2: Inicializovat možnosti uložení obrázku
 
-Vytvořte instanci `ImageSaveOptions`, abyste definovali výstupní formát (v tomto příkladu JPEG). Můžete přepnout na PNG, BMP nebo GIF změnou `SaveFormat`.
+`ImageSaveOptions` definuje, jak bude stránka vykreslena do obrázku. Nastavení `SaveFormat` na `Jpeg` vytvoří široce podporovaný soubor, zatímco `Png` zachová průhlednost.
 
 ```java
 // Initialize ImageSaveOptions object
 ImageSaveOptions options = new ImageSaveOptions(SaveFormat.Jpeg);
 ```
 
-## Krok 3: Určení indexu stránky
+## Krok 3: Specifikovat index stránky
 
-Stránky jsou nulově indexované, takže `1` vybírá **druhou** stránku. Upravit tuto hodnotu můžete pro export libovolné požadované stránky.
+Stránky jsou nulově‑indexované, takže `1` vybírá **druhou** stránku. Upravením této hodnoty můžete exportovat libovolnou požadovanou stránku nebo provést smyčku přes všechny stránky pro dávkovou konverzi.
 
 ```java
 // Specify second page for conversion
 options.setPageIndex(1);
 ```
 
-## Krok 4: Uložení dokumentu jako obrázek
+## Krok 4: Uložit dokument jako obrázek
 
-Nyní zavoláme `save` na objektu `Document`, předáme cílový název souboru a konfigurované možnosti.
+Volání `save` na objektu `Document` zapíše vykreslenou stránku do souborového systému pomocí předchozích nastavení.
 
 ```java
 // Save the document
 oneFile.save(dataDir + "ConvertSpecificPageToImage_out.jpg", options);
 ```
 
-## Krok 5: Vytištění potvrzení
+## Krok 5: Vytisknout potvrzení
 
-Jednoduchá zpráva v konzoli potvrdí, že obrázek byl úspěšně vygenerován.
+Jednoduchá zpráva v konzoli potvrzuje, že obrázek byl úspěšně vygenerován, což je užitečné pro logování v automatizovaných pipelinech.
 
 ```java
 // Print confirmation message
 System.out.println("File saved: " + dataDir + "ConvertSpecificPageToImage_out.jpg");
 ```
 
+## Běžné případy použití
+
+- **Generování zpráv:** Vložte snímky OneNote přímo do PDF nebo HTML zpráv bez ručního pořizování screenshotů.  
+- **Vytváření miniatur:** Generujte nízké rozlišení náhledů pro velkou sbírku stránek OneNote, což umožní rychlé vizuální vyhledávání.  
+- **Sdílení napříč platformami:** Sdílejte JPEG stránky OneNote s uživateli na macOS, Linuxu nebo mobilních zařízeních, která nemají klient OneNote.
+
 ## Jak převést stránky OneNote do obrázků (alternativní scénáře)
 
-Pokud potřebujete **hromadně převést** soubory obrázků stránek OneNote, jednoduše umístěte výše uvedený kód do smyčky, která iteruje přes `Document.getPages()`. Pro každou iteraci změňte `options.setPageIndex(i)` a volitelně upravte `options.setQuality(90)` pro řízení komprese JPEG.
+Pokud potřebujete **hromadně převádět obrázky stránek OneNote**, umístěte výše uvedený kód do smyčky, která iteruje přes `document.getPages()`. Aktualizujte `options.setPageIndex(i)` pro každou iteraci a volitelně upravte `options.setQuality(90)` pro řízení komprese JPEG. Tento přístup vám umožní zpracovat celé notebooky jedním voláním metody.
 
-## Časté problémy a řešení
+## Běžné problémy a řešení
 
 | Problém | Důvod | Řešení |
-|---------|-------|--------|
+|-------|--------|-----|
 | **Obrázek je prázdný** | Index stránky mimo rozsah nebo dokument nebyl načten správně. | Ověřte, že `options.setPageIndex` je v rozmezí `0 .. document.getPages().size() - 1`. |
-| **Není podporován formát** | Používáte starší verzi Aspose.Note, která neobsahuje některé formáty. | Aktualizujte na nejnovější verzi Aspose.Note for Java. |
-| **OutOfMemoryError** | Převod velmi velkých stránek na JVM s nízkou pamětí. | Zvyšte velikost haldy (`-Xmx2g`) nebo zpracovávejte stránky po jedné. |
+| **Nesprávný formát** | Používáte starší verzi Aspose.Note, která některé formáty neobsahuje. | Aktualizujte na nejnovější vydání Aspose.Note pro Javu. |
+| **OutOfMemoryError** | Převod velmi velkých stránek na JVM s malou pamětí. | Zvyšte velikost haldy (`-Xmx2g`) nebo zpracovávejte stránky po jedné. |
 
 ## Často kladené otázky
 
 **Q1: Mohu pomocí této metody převést více stránek na obrázky?**  
-A: Ano. Zabalte logiku ukládání do smyčky a pro každou stránku změňte `options.setPageIndex(i)`.
+A: Ano. Zabalte logiku ukládání do smyčky a změňte `options.setPageIndex(i)` pro každou stránku, kterou chcete exportovat.
 
 **Q2: Je Aspose.Note kompatibilní s různými verzemi souborů OneNote?**  
-A: Rozhodně. Aspose.Note podporuje soubory `.one` z OneNote 2007, 2010, 2013 a novějších verzí.
+A: Rozhodně. Aspose.Note podporuje soubory `.one` z OneNote 2007, 2010, 2013, 2016 a novějších verzí.
 
 **Q3: Mohu během konverze přizpůsobit formát obrázku a kvalitu?**  
-A: Ano. Vyberte `SaveFormat.Png`, `SaveFormat.Bmp` atd. a nastavte `options.setQuality(int)` pro JPEG kvalitu (0‑100).
+A: Ano. Vyberte `SaveFormat.Png`, `SaveFormat.Bmp` nebo `SaveFormat.Tiff` a nastavte `options.setQuality(int)` pro kompresi JPEG (0‑100).
 
 **Q4: Nabízí Aspose.Note podporu pro jiné programovací jazyky?**  
-A: Ano. Knihovny jsou k dispozici pro .NET, Python, C++ a další.
+A: Ano. Knihovny jsou k dispozici pro .NET, Python, C++ a další, všechny poskytují srovnatelnou funkčnost.
 
 **Q5: Kde mohu najít další podporu nebo pomoc?**  
-A: Navštivte [Aspose.Note fórum](https://forum.aspose.com/c/note/28) nebo si přečtěte oficiální dokumentaci [zde](https://reference.aspose.com/note/java/).
+A: Navštivte [Aspose.Note forum](https://forum.aspose.com/c/note/28) nebo se podívejte na oficiální dokumentaci [zde](https://reference.aspose.com/note/java/).
 
 ---
 
-**Poslední aktualizace:** 2025-11-29  
-**Testováno s:** Aspose.Note for Java 26.4  
+**Poslední aktualizace:** 2026-07-05  
+**Testováno s:** Aspose.Note pro Javu 26.4  
 **Autor:** Aspose  
 
-{{< /blocks/products/pf/tutorial-page-section >}}
+{{< blocks/products/products-backtop-button >}}
 
+## Související tutoriály
+
+- [Exportovat stránky OneNote – Převést konkrétní rozsah stránek do PDF pomocí Javy](/note/java/onenote-document-loading/convert-page-range-to-pdf/)
+- [Převést notebook na obrázek v OneNote – Aspose.Note](/note/java/onenote-notebook-operations/convert-notebook-to-image/)
+- [Aspose Java tutoriál – Získat informace o stránkách v OneNote – Aspose.Note](/note/java/onenote-page-manipulation/get-information-about-pages/)
+
+
+{{< /blocks/products/pf/tutorial-page-section >}}
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}

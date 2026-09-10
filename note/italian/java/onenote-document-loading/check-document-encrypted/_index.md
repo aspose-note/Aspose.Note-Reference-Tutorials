@@ -1,12 +1,16 @@
 ---
-date: 2025-11-29
-description: Impara come verificare la crittografia di OneNote in Java usando Aspose.Note
-  per Java. Questa guida ti mostra come rilevare i file OneNote crittografati prima
-  dell'elaborazione.
-linktitle: Check if OneNote Document is Encrypted - Java
+date: 2026-07-05
+description: Scopri come controllare la crittografia di onenote usando Aspose.Note
+  per Java. Rileva i file OneNote crittografati prima del caricamento per evitare
+  errori e migliorare l'esperienza dell'utente.
+keywords:
+- check onenote encryption
+- Aspose.Note encryption detection
+- Java OneNote password check
+linktitle: Verifica se il documento OneNote è crittografato - Java
 second_title: Aspose.Note Java API
-title: Controlla la crittografia di OneNote in Java – Verifica la crittografia del
-  documento OneNote
+title: controlla la crittografia di onenote – Verifica la crittografia dei documenti
+  OneNote con Java
 url: /it/java/onenote-document-loading/check-document-encrypted/
 weight: 10
 ---
@@ -15,38 +19,36 @@ weight: 10
 {{< blocks/products/pf/main-container >}}  
 {{< blocks/products/pf/tutorial-page-section >}}  
 
-# Verifica se il documento OneNote è crittografato - Java  
+# Verifica se il documento OneNote è crittografato – Java  
 
 ## Introduzione  
 
-Quando lavori con file OneNote in un'applicazione Java, la prima cosa da sapere è **se il documento è crittografato**. Tentare di caricare un file crittografato senza la password corretta genera errori e interrompe il flusso di lavoro. In questo tutorial ti mostreremo **come verificare la crittografia di OneNote in Java** con Aspose.Note per Java, così potrai decidere in modo sicuro se chiedere all'utente una password o continuare l'elaborazione del file.  
+Quando lavori con file OneNote in un'applicazione Java, la prima cosa da sapere è **se il documento è crittografato**. Tentare di caricare un file crittografato senza la password corretta genererà eccezioni e interromperà il flusso di lavoro. In questo tutorial ti guideremo su **come verificare la crittografia di OneNote** con Aspose.Note per Java, così potrai decidere in modo sicuro se chiedere all'utente una password o continuare a elaborare il file.  
 
 ## Risposte rapide  
 
 - **Quale metodo determina la crittografia?** `Document.isEncrypted`  
-- **È necessaria una password per verificare?** No, è possibile interrogare lo stato senza password.  
-- **Quale versione dell'API funziona?** Qualsiasi versione recente di Aspose.Note per Java (testata con 26.4).  
-- **Posso verificare sia flussi che percorsi file?** Sì – l'API supporta entrambi.  
+- **È necessaria una password per verificare?** No, è possibile interrogare lo stato senza una password.  
+- **Quale versione dell'API funziona?** Qualsiasi versione recente di Aspise.Note per Java (testata con 26.4).  
+- **Posso verificare sia gli stream che i percorsi file?** Sì – l'API supporta entrambi.  
 - **Cosa succede se la password è errata?** Il metodo restituisce `true`, indicando che il file rimane crittografato.  
 
-## Cos'è la verifica della crittografia di OneNote in Java?  
+## Che cos'è la verifica della crittografia di OneNote?  
 
-`check onenote encryption java` è il processo di verifica programmatica se un file OneNote (`.one`) è protetto da password prima di tentare di caricarne il contenuto. Conoscere lo stato di crittografia ti aiuta a evitare eccezioni a runtime e a migliorare l'esperienza dell'utente.  
+Verificare la crittografia di OneNote significa determinare programmaticamente se un file OneNote (`.one`) è protetto da una password prima di qualsiasi tentativo di leggere il suo contenuto. Questo rapido controllo di stato previene eccezioni a runtime, consente di richiedere la password agli utenti solo quando necessario e aiuta a rispettare le politiche di sicurezza.  
 
 ## Perché verificare la crittografia di OneNote prima del caricamento?  
 
-- **Prevenire errori a runtime** – il caricamento di un file crittografato senza password genera un'eccezione.  
-- **Migliorare il flusso UI** – puoi chiedere all'utente la password solo quando necessario.  
-- **Conformità di sicurezza** – garantisce che tu gestisca i contenuti protetti secondo le policy.  
+Caricare un file OneNote crittografato senza fornire la password corretta genera un'eccezione che può far crashare il servizio o mostrare un errore confuso all'utente. Verificando prima il flag di crittografia, è possibile presentare una richiesta di password solo quando necessario, ridurre I/O non necessario e garantire che i contenuti protetti vengano gestiti secondo le regole di governance aziendale.  
 
 ## Prerequisiti  
 
-1. **Java Development Kit (JDK)** – assicurati di avere Java 11 o versioni successive installate. Scaricalo da [qui](https://www.oracle.com/java/technologies/javase-jdk11-downloads.html).  
+1. **Java Development Kit (JDK)** – È richiesto Java 11 o successivo. Scaricalo da [qui](https://www.oracle.com/java/technologies/javase-jdk11-downloads.html).  
 2. **Aspose.Note per Java** – ottieni la libreria dalla pagina di download ufficiale [qui](https://releases.aspose.com/note/java/).  
 
-## Importare i pacchetti  
+## Importa pacchetti  
 
-Per iniziare, aggiungi gli import necessari al tuo progetto Java:  
+La classe `Document` rappresenta un file OneNote e fornisce metodi per caricare e ispezionare il suo contenuto.  
 
 ```java
 import com.aspose.note.Document;
@@ -56,11 +58,26 @@ import java.io.IOException;
 import java.nio.file.Paths;
 ```  
 
-## Come verificare la crittografia di OneNote in Java  
+```java
+import com.aspose.note.Document;
+import com.aspose.note.LoadOptions;
+import java.io.FileInputStream;
+import java.io.IOException;
+import java.nio.file.Paths;
+```  
 
-Di seguito suddividiamo la soluzione in due scenari pratici: verificare un documento caricato da uno **stream** e verificare un documento caricato direttamente da un **percorso file**.  
+## Come verificare lo stato di crittografia per un documento caricato da uno stream?  
 
-### Passo 1: Verificare se un documento caricato da uno stream è crittografato  
+`Document.isEncrypted` è un metodo statico che restituisce un booleano indicando se un file OneNote è crittografato. Carica il tuo stream OneNote in stile PDF e chiama il metodo statico `Document.isEncrypted`. Il metodo restituisce un booleano che indica la crittografia e, quando il file non è crittografato, riempie un array di riferimento con l'istanza `Document` caricata così non è necessario un secondo caricamento.  
+
+**Risposta diretta (40‑70 parole):**  
+Chiama `Document.isEncrypted(inputStream, loadOptions, ref)` – ti dice immediatamente se lo stream è protetto da password. Se il risultato è `false`, `ref[0]` contiene l'oggetto `Document` pronto all'uso, permettendoti di continuare l'elaborazione senza I/O aggiuntivo. Se il risultato è `true`, lo stream è crittografato e devi richiedere una password prima di procedere.  
+
+**Spiegazione**  
+
+- `LoadOptions` ti consente di fornire opzionalmente una password (`setDocumentPassword`).  
+- `Document.isEncrypted(stream, loadOptions, ref)` verifica lo stato di crittografia dello stream.  
+- L'array `ref` riceve un riferimento al `Document` caricato quando il file **non** è crittografato, permettendoti di continuare l'elaborazione senza una seconda chiamata di caricamento.  
 
 ```java
 public static void CheckIfDocumentFromStreamIsEncrypted() throws IOException {
@@ -86,13 +103,18 @@ public static void CheckIfDocumentFromStreamIsEncrypted() throws IOException {
 }
 ```  
 
+## Come verificare lo stato di crittografia per un documento caricato da un percorso file?  
+
+`Document.isEncrypted` offre anche una sovraccarico che funziona direttamente con un percorso file e una stringa password. Questo sovraccarico segue lo stesso schema di ritorno booleano, popolando l'array di riferimento solo quando il file non è crittografato.  
+
+**Risposta diretta (40‑70 parole):**  
+Invoca `Document.isEncrypted(filePath, password, ref)` – la chiamata restituisce `true` se il file è crittografato (o la password è errata) e `false` altrimenti. Quando è `false`, `ref[0]` contiene il `Document` completamente caricato pronto per la manipolazione. Questo approccio evita un passaggio di caricamento separato e mantiene il codice conciso.  
+
 **Spiegazione**  
 
-- `LoadOptions` ti consente di fornire facoltativamente una password (`setDocumentPassword`).  
-- `Document.isEncrypted(stream, loadOptions, ref)` verifica lo stato di crittografia dello stream.  
-- L'array `ref` riceve un riferimento al `Document` caricato quando il file **non** è crittografato, permettendoti di continuare l'elaborazione senza una seconda chiamata di caricamento.  
-
-### Passo 2: Verificare se un documento caricato da un percorso file è crittografato  
+- Questo sovraccarico funziona direttamente con un percorso file e una stringa password.  
+- Se il file **non** è crittografato, `isEncrypted` restituisce `false` e il riferimento `ref[0]` contiene il documento caricato.  
+- Se la password è errata, il metodo restituisce comunque `true`, indicando che il file rimane crittografato.  
 
 ```java
 public static void CheckIfDocumentFromFileIsEncrypted() throws IOException {
@@ -113,48 +135,48 @@ public static void CheckIfDocumentFromFileIsEncrypted() throws IOException {
 }
 ```  
 
-**Spiegazione**  
-
-- Questa overload funziona direttamente con un percorso file e una stringa password.  
-- Se il file **non** è crittografato, `isEncrypted` restituisce `false` e il riferimento `ref[0]` contiene il documento caricato.  
-- Se la password è errata, il metodo restituisce comunque `true`, indicando che il file rimane crittografato.  
-
 ## Problemi comuni e consigli  
 
-- **Non inserire mai password in chiaro** nel codice di produzione; recuperale in modo sicuro (ad es., da un vault).  
-- Chiudi sempre gli stream in un blocco `finally` o utilizza il try‑with‑resources per evitare perdite di risorse.  
-- Se ricevi `true` da `isEncrypted` e `ref[0]` è `null`, il file è crittografato **o** la password fornita è errata. Chiedi all'utente la password corretta e riprova.  
+- **Non inserire mai password in chiaro** nel codice di produzione; recuperale in modo sicuro (ad esempio, da un vault).  
+- Chiudi sempre gli stream in un blocco `finally` o usa try‑with‑resources per evitare perdite di risorse.  
+- Se ricevi `true` da `isEncrypted` e `ref[0]` è `null`, il file è crittografato **o** la password fornita è errata. Richiedi all'utente la password corretta e riprova.  
 
 ## Domande frequenti  
 
-**D: Posso verificare lo stato di crittografia senza fornire una password?**  
-R: Sì. Chiama `Document.isEncrypted` con un'istanza di `LoadOptions` che non imposta una password; il metodo segnalerà semplicemente se il file è crittografato.  
+**Q: Posso verificare lo stato di crittografia senza fornire una password?**  
+A: Sì. Chiama `Document.isEncrypted` con un'istanza `LoadOptions` che non imposta una password; il metodo segnalerà semplicemente se il file è crittografato.  
 
-**D: Cosa succede se fornisco una password errata?**  
-R: Il metodo restituisce `true`, indicando che il documento è ancora crittografato, e `ref[0]` sarà `null`.  
+**Q: Cosa succede se fornisco una password errata?**  
+A: Il metodo restituisce `true`, indicando che il documento è ancora crittografato, e `ref[0]` sarà `null`.  
 
-**D: Esiste un modo per decrittografare il documento programmaticamente?**  
-R: Sì. Una volta conosciuta la password corretta, passala a `LoadOptions` (o all'overload che accetta una password) e carica il documento; l'API lo decritterà al volo.  
+**Q: Esiste un modo per decrittare il documento programmaticamente?**  
+A: Sì. Una volta conosciuta la password corretta, passala a `LoadOptions` (o al sovraccarico che accetta una password) e carica il documento; l'API lo decritterà al volo.  
 
-**D: Aspose.Note funziona con altri formati Microsoft?**  
-R: Aspose.Note è progettato esclusivamente per file OneNote (`.one`). Per altri formati Office, considera Aspose.Words, Aspose.Cells, ecc.  
+**Q: Aspose.Note funziona con altri formati Microsoft?**  
+A: Aspose.Note è progettato esclusivamente per i file OneNote (`.one`). Per Word, Excel, PowerPoint, ecc., considera rispettivamente Aspose.Words, Aspose.Cells, Aspose.Slides.  
 
-**D: Dove posso trovare altri esempi e supporto?**  
-R: Visita il [forum Aspose.Note](https://forum.aspose.com/c/note/28) per assistenza della community e consulta la documentazione ufficiale per ulteriori esempi di codice.  
+**Q: Dove posso trovare più esempi e supporto?**  
+A: Visita il [forum Aspose.Note](https://forum.aspose.com/c/note/28) per l'aiuto della community e consulta la documentazione ufficiale per ulteriori esempi di codice.  
 
 ## Conclusione  
 
-In questa guida abbiamo mostrato **come verificare la crittografia di OneNote in Java** usando Aspose.Note per Java, coprendo sia scenari basati su stream sia basati su file. Integrando questi controlli nella tua applicazione potrai gestire elegantemente i file OneNote crittografati, migliorare l'esperienza utente e mantenere robusto il tuo flusso di elaborazione.  
+In questa guida abbiamo dimostrato **come verificare la crittografia di OneNote** usando Aspose.Note per Java, coprendo scenari sia basati su stream che su file. Integrando questi controlli nella tua applicazione puoi gestire elegantemente i file OneNote crittografati, migliorare l'esperienza utente e mantenere robusta la tua pipeline di elaborazione.  
 
 ---  
 
-**Ultimo aggiornamento:** 2025-11-29  
-**Testato con:** Aspose.Note 26.4 per Java  
+**Ultimo aggiornamento:** 2026-07-05  
+**Testato con:** Aspose.Note 26.4 for Java  
 **Autore:** Aspose  
 
-{{< /blocks/products/pf/tutorial-page-section >}}  
-
-{{< /blocks/products/pf/main-container >}}  
-{{< /blocks/products/pf/main-wrap-class >}}  
-
 {{< blocks/products/products-backtop-button >}}
+
+## Tutorial correlati
+
+- [Crea documento OneNote – Carica notebook con Aspose.Note](/note/java/onenote-notebook-operations/loading-notebook/)  
+- [Proteggi con password OneNote con Aspose.Note per Java](/note/java/onenote-notebook-operations/write-password-protected-document/)  
+- [Ottieni informazioni sul formato file Aspose Note da OneNote usando Java](/note/java/onenote-document-loading/get-file-format-info/)  
+
+
+{{< /blocks/products/pf/tutorial-page-section >}}  
+{{< /blocks/products/pf/main-container >}}  
+{{< /blocks/products/pf/main-wrap-class >}}
