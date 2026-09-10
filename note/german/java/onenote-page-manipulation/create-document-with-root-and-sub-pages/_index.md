@@ -1,10 +1,15 @@
 ---
-description: Erfahren Sie, wie Sie OneNote‑PDFs speichern und Unterseiten in OneNote
-  mit Aspose.Note für Java hinzufügen. Folgen Sie dieser Schritt‑für‑Schritt‑Anleitung,
+date: 2026-04-30
+description: Erfahren Sie, wie Sie **OneNote als PDF speichern** und Unterseiten in
+  OneNote mit Aspose.Note für Java hinzufügen. Folgen Sie dieser Schritt‑für‑Schritt‑Anleitung,
   um Ihre Notizen effizient zu organisieren.
-linktitle: How to Save OneNote PDF and Add Sub Pages
+keywords:
+- save onenote as pdf
+- add sub pages onenote
+- Aspose.Note Java
+linktitle: Wie man OneNote als PDF speichert und Unterseiten hinzufügt
 second_title: Aspose.Note Java API
-title: Wie man OneNote-PDF speichert und Unterseiten hinzufügt
+title: Wie man OneNote als PDF speichert und Unterseiten hinzufügt
 url: /de/java/onenote-page-manipulation/create-document-with-root-and-sub-pages/
 weight: 11
 ---
@@ -13,36 +18,38 @@ weight: 11
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Wie man OneNote PDF speichert und Unterseiten hinzufügt
+# Wie man OneNote als PDF speichert und Unterseiten hinzufügt
 
 ## Einführung
 
-In diesem Tutorial erfahren Sie **wie man OneNote PDF speichert** und dabei ein Dokument erstellt, das sowohl Stamm‑ als auch Unterseiten enthält, mithilfe von Aspose.Note für Java. Die Organisation Ihrer OneNote-Notizbücher mit einer klaren Hierarchie erleichtert die Navigation, und die Möglichkeit, in PDF zu exportieren, stellt sicher, dass Sie Ihre Notizen in einem universell lesbaren Format teilen können. Wir zeigen Ihnen außerdem, wie Sie **Unterseiten im OneNote‑Stil hinzufügen** können, um mehrstufige Strukturen mühelos aufzubauen.
+In diesem Tutorial erfahren Sie **wie man OneNote als PDF speichert** und dabei ein Dokument erstellt, das sowohl Stamm- als auch Unterseiten mit Aspose.Note für Java enthält. Die Organisation Ihrer OneNote-Notizbücher mit einer klaren Hierarchie erleichtert die Navigation, und das Exportieren nach PDF stellt sicher, dass Sie Ihre Notizen in einem universell lesbaren Format teilen können. Wir zeigen Ihnen außerdem, wie Sie **Unterseiten im OneNote‑Stil** hinzufügen, sodass Sie mehrstufige Strukturen mühelos aufbauen können.
 
 ## Schnelle Antworten
-- **Was bedeutet das primäre Schlüsselwort?** Es bezieht sich auf das Exportieren eines OneNote-Notizbuchs nach PDF mit Aspose.Note.  
-- **Welche API wird verwendet?** Aspose.Note für Java.  
-- **Kann ich hierarchische Seiten erstellen?** Ja – setzen Sie das Seitenlevel, um Stamm‑ und Unterseiten zu bauen.  
-- **Benötige ich eine Lizenz?** Eine kostenlose Testversion ist verfügbar; für den Produktionseinsatz ist eine kommerzielle Lizenz erforderlich.  
-- **Welche Ausgabeformate werden unterstützt?** BMP, PDF, PNG und mehr.
+- **Was bedeutet „save onenote as pdf“?** Es bezieht sich auf das Exportieren eines OneNote-Notizbuchs in eine PDF‑Datei mithilfe von Aspose.Note für Java.  
+- **Welche API wird benötigt?** Aspose.Note für Java stellt die erforderlichen Klassen und Methoden bereit.  
+- **Kann ich hierarchische Seiten erstellen?** Ja – setzen Sie die Seitenebene, um Stammseiten und Unterseiten zu erstellen.  
+- **Benötige ich eine Lizenz für die Produktion?** Eine kostenlose Testversion ist verfügbar, aber für den Produktionseinsatz ist eine kommerzielle Lizenz erforderlich.  
+- **In welche Formate kann ich exportieren?** Neben PDF können Sie in BMP, PNG, JPEG, DOCX und weitere Formate exportieren.
 
-## Was bedeutet „how to save OneNote PDF“?
-OneNote als PDF zu speichern konvertiert die Seiten des Notizbuchs in ein festes Layout‑Dokument, das Formatierung, Bilder und Hierarchie beibehält. Das ist ideal zum Teilen, Archivieren oder Drucken von Notizen.
+## Wie man OneNote als PDF speichert
 
-## Warum Unterseiten in OneNote hinzufügen?
-Das Hinzufügen von Unterseiten ermöglicht es, verwandte Inhalte unter einer übergeordneten Seite zu gruppieren, ähnlich einer Ordnerstruktur. Es verbessert die Organisation, beschleunigt die Suche und optimiert das Leseerlebnis, wenn das Notizbuch nach PDF exportiert wird.
+Das Speichern von OneNote als PDF konvertiert jede Notizbuchseite in ein festes Layout‑Dokument, das Formatierung, Bilder und die Seitenhierarchie beibehält. Dies ist ideal zum Teilen, Archivieren oder Drucken von Notizen, während die ursprüngliche Struktur erhalten bleibt.
+
+## Warum Unterseiten zu OneNote hinzufügen?
+
+Das Hinzufügen von Unterseiten ermöglicht es, verwandte Inhalte unter einer übergeordneten Seite zu gruppieren, ähnlich einer Ordnerstruktur. Es verbessert die Organisation von Notizen, beschleunigt die Suche und verbessert das Leseerlebnis, wenn das Notizbuch als PDF exportiert wird.
 
 ## Voraussetzungen
 
 Bevor Sie beginnen, stellen Sie sicher, dass Sie die folgenden Voraussetzungen erfüllen:
 
-1. Java Development Kit (JDK): Stellen Sie sicher, dass das JDK auf Ihrem System installiert ist.  
-2. Aspose.Note für Java: Laden Sie Aspose.Note für Java von der [Website](https://purchase.aspose.com/buy) herunter und installieren Sie es.  
-3. Integrated Development Environment (IDE): Wählen Sie eine Java‑IDE wie IntelliJ IDEA, Eclipse oder NetBeans.
+1. **Java Development Kit (JDK)** – Stellen Sie sicher, dass das JDK auf Ihrem System installiert ist.  
+2. **Aspose.Note for Java** – Laden Sie Aspose.Note für Java von der [Website](https://purchase.aspose.com/buy) herunter und installieren Sie es.  
+3. **Integrated Development Environment (IDE)** – Wählen Sie eine Java‑IDE wie IntelliJ IDEA, Eclipse oder NetBeans.
 
 ## Pakete importieren
 
-Starten Sie, indem Sie die notwendigen Pakete in Ihrem Java‑Projekt importieren:
+Beginnen Sie damit, die erforderlichen Pakete in Ihrem Java‑Projekt zu importieren:
 
 ```java
 import java.io.IOException;
@@ -74,7 +81,7 @@ Document doc = new Document();
 
 ## Schritt 3: Seiten erstellen
 
-Initialisieren Sie Seitenobjekte und setzen Sie deren Level. Das Setzen des Levels bestimmt, ob eine Seite eine Stamm‑ oder eine Unterseite ist:
+Initialisieren Sie Seitenobjekte und setzen Sie deren Ebenen. Das Festlegen der Ebene bestimmt, ob eine Seite eine Stammseite oder eine Unterseite ist:
 
 ```java
 Page page1 = new Page();
@@ -153,7 +160,7 @@ doc.appendChildLast(page3);
 
 ## Schritt 6: Dokument speichern
 
-Speichern Sie das OneNote‑Dokument als PDF (oder BMP in diesem Beispiel). Durch Ändern von `SaveFormat` können Sie nach PDF exportieren, was die Anforderung „how to save OneNote PDF“ erfüllt:
+Speichern Sie das OneNote‑Dokument als PDF (oder BMP in diesem Beispiel). Durch Ändern von `SaveFormat` können Sie zu PDF exportieren, was die Anforderung „save onenote as pdf“ erfüllt:
 
 ```java
 try {
@@ -165,48 +172,48 @@ try {
 
 > **Pro Tipp:** Um direkt nach PDF zu exportieren, ersetzen Sie `SaveFormat.Bmp` durch `SaveFormat.Pdf`.
 
-Herzlichen Glückwunsch! Sie haben erfolgreich ein OneNote‑Dokument mit Stamm‑ und Unterseiten erstellt und **wie man OneNote PDF speichert** mit Aspose.Note für Java gelernt.
+Herzlichen Glückwunsch! Sie haben erfolgreich ein OneNote‑Dokument mit Stamm‑ und Unterseiten erstellt und gelernt **wie man OneNote als PDF speichert** mit Aspose.Note für Java.
 
 ## Warum das wichtig ist
 
-- **Hierarchische Organisation:** Stamm‑ und Unterseiten ermöglichen es, Ordnerstrukturen innerhalb von OneNote nachzuahmen.  
-- **Nahtloser PDF‑Export:** Sobald die Struktur erstellt ist, bewahrt der Export nach PDF die Hierarchie, sodass das Enddokument leicht zu lesen und zu teilen ist.  
-- **Automatisierung:** Der Code kann in größere Java‑Anwendungen integriert werden, wodurch die stapelweise Erstellung strukturierter Notizbücher ermöglicht wird.
+- **Hierarchische Organisation:** Stamm‑ und Unterseiten ermöglichen es, Ordnerstrukturen in OneNote nachzubilden.  
+- **Nahtloser PDF‑Export:** Sobald die Struktur vorhanden ist, bewahrt der Export nach PDF die Hierarchie, wodurch das Enddokument leicht zu lesen und zu teilen ist.  
+- **Automatisierung:** Der Code kann in größere Java‑Anwendungen integriert werden und ermöglicht die stapelweise Erstellung strukturierter Notizbücher.
 
 ## Häufige Fallstricke & wie man sie vermeidet
 
 | Problem | Ursache | Lösung |
 |---------|---------|--------|
 | Seiten erscheinen auf derselben Ebene | Falscher `setLevel`‑Wert | Verwenden Sie `setLevel((byte) 1)` für Stammseiten und `setLevel((byte) 2)` (oder höher) für Unterseiten. |
-| PDF‑Ausgabe ist leer | Fehlendes `SaveFormat.Pdf` oder falscher Dateipfad | Stellen Sie sicher, dass das Verzeichnis existiert, und verwenden Sie `SaveFormat.Pdf`. |
-| Schriftart wird nicht angewendet | Falscher Schriftname oder Schriftart fehlt im System | Stellen Sie sicher, dass die Schriftart (z. B. „David Transparent“) auf dem Rechner, auf dem der Code läuft, installiert ist. |
+| PDF‑Ausgabe ist leer | Fehlendes `SaveFormat.Pdf` oder falscher Dateipfad | Stellen Sie sicher, dass das Verzeichnis existiert und verwenden Sie `SaveFormat.Pdf`. |
+| Schrift wird nicht angewendet | Falscher Schriftname oder Schrift fehlt auf dem System | Stellen Sie sicher, dass die Schrift (z. B. „David Transparent“) auf dem Rechner, auf dem der Code läuft, installiert ist. |
 
 ## Häufig gestellte Fragen
 
-**F: Kann ich mehrere Ebenen von Unterseiten mit Aspose.Note für Java erstellen?**  
-A: Ja, Sie können tiefere Hierarchien erzeugen, indem Sie höhere Level‑Zahlen setzen (z. B. `setLevel((byte) 3)` für eine Unterseite der dritten Ebene).
+**Q: Kann ich mehrere Ebenen von Unterseiten mit Aspose.Note für Java erstellen?**  
+A: Ja, Sie können tiefere Hierarchien erzeugen, indem Sie höhere Ebenennummern festlegen (z. B. `setLevel((byte) 3)` für eine Unterseite der dritten Ebene).
 
-**F: Ist Aspose.Note für Java mit verschiedenen Java‑IDEs kompatibel?**  
-A: Absolut. Es funktioniert mit IntelliJ IDEA, Eclipse, NetBeans und jeder IDE, die Java‑Entwicklung unterstützt.
+**Q: Ist Aspose.Note für Java mit verschiedenen Java‑IDEs kompatibel?**  
+A: Absolut. Es funktioniert mit IntelliJ IDEA, Eclipse, NetBeans und jeder IDE, die Java‑Entwicklung unterstützt.
 
-**F: Kann ich die Formatierung von Text in meinem OneNote‑Dokument anpassen?**  
+**Q: Kann ich die Formatierung von Text in meinem OneNote‑Dokument anpassen?**  
 A: Ja. Verwenden Sie `ParagraphStyle`, um Schriftname, Größe, Farbe und weitere Attribute für jedes `RichText`‑Element festzulegen.
 
-**F: Unterstützt Aspose.Note für Java das Speichern von Dokumenten in anderen Formaten als BMP?**  
-A: Ja. Unterstützte Formate umfassen PDF, PNG, JPEG, DOCX und mehr. Ändern Sie das `SaveFormat`‑Enum entsprechend.
+**Q: Unterstützt Aspose.Note für Java das Speichern von Dokumenten in anderen Formaten als BMP?**  
+A: Ja. Unterstützte Formate umfassen PDF, PNG, JPEG, DOCX und weitere. Ändern Sie das `SaveFormat`‑Enum entsprechend.
 
-**F: Gibt es eine Testversion von Aspose.Note für Java?**  
+**Q: Gibt es eine Testversion von Aspose.Note für Java?**  
 A: Ja, Sie können eine kostenlose Testversion von der Aspose‑Website herunterladen.
 
 ## Fazit
 
-Die Organisation Ihrer OneNote‑Notizbücher mit einer klaren hierarchischen Struktur und das Exportieren als PDF machen Ihre Notizen zugänglicher und teilbarer. Mit den oben beschriebenen Schritten wissen Sie jetzt **wie man OneNote PDF speichert** und **Unterseiten im OneNote‑Stil** programmgesteuert mit Aspose.Note für Java erstellt.
+Die Organisation Ihrer OneNote‑Notizbücher mit einer klaren hierarchischen Struktur und das Exportieren als PDFs macht Ihre Notizen zugänglicher und teilbarer. Durch die Befolgung der obigen Schritte wissen Sie jetzt **wie man OneNote als PDF speichert** und **Unterseiten im OneNote‑Stil** programmgesteuert mit Aspose.Note für Java hinzuzufügen.
 
 ---
 
-**Last Updated:** 2026-01-07  
-**Tested With:** Aspose.Note für Java 24.11 (latest)  
-**Author:** Aspose  
+**Zuletzt aktualisiert:** 2026-04-30  
+**Getestet mit:** Aspose.Note for Java 24.11 (latest)  
+**Autor:** Aspose  
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
