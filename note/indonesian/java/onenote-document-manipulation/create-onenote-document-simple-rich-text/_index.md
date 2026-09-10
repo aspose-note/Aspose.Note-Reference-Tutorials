@@ -1,12 +1,89 @@
 ---
-date: 2026-02-18
-description: Pelajari cara mengatur gaya paragraf dan menambahkan elemen outline saat
-  membuat dokumen OneNote dengan Java menggunakan Aspose.Note. Ekspor OneNote ke PDF,
-  simpan OneNote sebagai PDF, dan hasilkan file OneNote dengan mudah.
-linktitle: Set Paragraph Style while Creating OneNote Document in Java
+date: 2026-08-18
+description: Pelajari cara mengekspor OneNote ke PDF, mengatur paragraph formatting
+  di Java, dan menyimpan OneNote sebagai PDF menggunakan Aspose.Note untuk Java.
+keywords:
+- export onenote to pdf
+- save onenote as pdf
+- paragraph formatting java
+- rich text formatting java
+- aspose note java
+lastmod: 2026-08-18
+linktitle: Atur Paragraph Style saat Membuat Dokumen OneNote di Java
+og_description: Ekspor OneNote ke PDF dan atur paragraph style di Java menggunakan
+  Aspose.Note. Ikuti panduan langkah demi langkah ini untuk menghasilkan PDF yang
+  halus dengan mudah.
+og_image_alt: Screenshot of Java code exporting OneNote to PDF with styled paragraphs
+og_title: Ekspor OneNote ke PDF dengan paragraph style di Java (58 chars)
+schemas:
+- author: Aspose
+  dateModified: '2026-08-18'
+  description: Learn how to export OneNote to PDF, set paragraph formatting in Java,
+    and save OneNote as PDF using Aspose.Note for Java.
+  headline: How to export OneNote to PDF with paragraph style in Java
+  type: TechArticle
+- description: Learn how to export OneNote to PDF, set paragraph formatting in Java,
+    and save OneNote as PDF using Aspose.Note for Java.
+  name: How to export OneNote to PDF with paragraph style in Java
+  steps:
+  - name: set document directory
+    text: Define where the generated files will be saved. Replace `"Your Document
+      Directory"` with an absolute or relative path on your machine.
+  - name: initialize document object
+    text: Create the root `Document` that represents the OneNote file. **Definition
+      anchor:** `Document` is Aspose.Note’s top‑level object that holds one or more
+      pages in memory.
+  - name: initialize page object
+    text: A OneNote file consists of one or more pages; we start with a single page.
+      **Definition anchor:** `Page` represents a single OneNote page, containing outlines,
+      images, and other elements.
+  - name: initialize outline object
+    text: Outlines act as containers for outline elements (think of them as sections).
+      **Definition anchor:** `Outline` groups related `OutlineElement` objects and
+      defines their visual hierarchy.
+  - name: initialize outline element object
+    text: Here we **add outline element** that will hold our rich text. **Definition
+      anchor:** `OutlineElement` is a leaf node inside an `Outline` that can contain
+      text, images, or other media.
+  - name: set text style (set paragraph style)
+    text: '`ParagraphStyle` defines the font family, size, color, and other typographic
+      attributes for a paragraph. The `ParagraphStyle` instance defines the font,
+      size, and color—this is where we **set paragraph style** for the upcoming text
+      node.'
+  - name: initialize rich text object
+    text: '`RichText` is the node that stores styled text within an `OutlineElement`.
+      We create a `RichText` node, insert a simple string, and attach the previously
+      defined style.'
+  - name: add rich text node to outline element
+    text: Now the styled text lives inside the outline element.
+  - name: add outline element node to outline
+    text: The outline now contains the element that holds our paragraph.
+  - name: add outline node to page
+    text: We place the outline onto the page.
+  type: HowTo
+- questions:
+  - answer: Yes, the API supports tables, images, hyperlinks, and advanced layout
+      features in addition to plain text.
+    question: Can Aspose.Note handle complex formatting such as tables or images?
+  - answer: Direct conversion isn’t provided, but you can extract PDF content and
+      rebuild a OneNote document using the API.
+    question: Is it possible to convert a OneNote PDF back to a OneNote file?
+  - answer: Absolutely. Aspose.Note for Java is platform‑independent; just ensure
+      a compatible JDK is installed.
+    question: Does the library work on Linux/macOS environments?
+  - answer: Create additional `Page` and `Outline` objects, then append them to the
+      `Document` just like the single‑page example.
+    question: How do I add multiple pages or outlines?
+  - answer: The official Aspose.Note documentation and the [support forum](https://forum.aspose.com/c/note/28)
+      contain many code samples and real‑world scenarios.
+    question: Where can I find more examples?
+  type: FAQPage
 second_title: Aspose.Note Java API
-title: Ekspor OneNote ke PDF – Atur Gaya Paragraf saat Membuat Dokumen OneNote dengan
-  Java
+tags:
+- export onenote
+- aspose.note
+- java document processing
+title: Cara mengekspor OneNote ke PDF dengan paragraph style di Java
 url: /id/java/onenote-document-manipulation/create-onenote-document-simple-rich-text/
 weight: 12
 ---
@@ -15,43 +92,42 @@ weight: 12
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Atur Gaya Paragraf saat Membuat Dokumen OneNote dengan Java
+# Atur gaya paragraf saat membuat dokumen OneNote dalam Java
 
 ## Pendahuluan
 
-Dalam lanskap pengembangan yang bergerak cepat saat ini, kemampuan untuk **mengekspor OneNote ke PDF** secara programatik sangat penting untuk menghasilkan dokumen yang rapi dan siap dibagikan. Tutorial ini akan memandu Anda melalui pembuatan file OneNote, menerapkan gaya paragraf khusus, dan akhirnya **mengekspor OneNote ke PDF** menggunakan Aspose.Note untuk Java. Baik Anda sedang membangun mesin pelaporan, solusi pencatatan otomatis, atau layanan konversi dokumen, teknik yang dibahas di sini akan membantu Anda **menyimpan OneNote sebagai PDF** dengan kontrol format yang tepat.
+Mengekspor OneNote ke PDF secara programatis adalah kebutuhan umum untuk mesin pelaporan, layanan pencatatan otomatis, dan pipeline konversi dokumen. Dalam tutorial ini Anda akan belajar cara **export OneNote to PDF**, menerapkan pemformatan paragraf khusus, dan menyimpan file OneNote — semuanya menggunakan Aspose.Note untuk Java. Pada akhir tutorial Anda akan memiliki potongan kode Java siap pakai yang menghasilkan PDF yang rapi dengan tampilan persis yang Anda definisikan.
 
 ## Jawaban Cepat
-- **Apa arti “set paragraph style”?** Itu menerapkan font, ukuran, warna, dan format lainnya ke sebuah paragraf teks.  
-- **Apakah saya dapat mengekspor hasilnya ke PDF?** Ya – tutorial berakhir dengan menyimpan file OneNote sebagai PDF.  
-- **Apakah saya memerlukan lisensi untuk Aspose.Note?** Versi percobaan gratis dapat digunakan untuk evaluasi; lisensi diperlukan untuk produksi.  
+- **Apa arti “set paragraph style”?** Itu menerapkan font, ukuran, warna, dan atribut pemformatan lainnya ke sebuah paragraf teks.  
+- **Apakah saya dapat mengekspor hasil ke PDF?** Ya – panduan berakhir dengan menyimpan file OneNote sebagai PDF.  
+- **Apakah saya memerlukan lisensi untuk Aspose.Note?** Versi percobaan gratis dapat digunakan untuk evaluasi; lisensi komersial diperlukan untuk penggunaan produksi.  
 - **IDE mana yang didukung?** Semua IDE Java – Eclipse, IntelliJ IDEA, NetBeans, dll.  
 - **Berapa lama implementasinya?** Sekitar 10‑15 menit untuk dokumen dasar.
 
+## Cara mengekspor OneNote ke PDF dalam Java?
+
+`Document` mewakili file OneNote yang berisi halaman, outline, dan elemen lainnya. Muat dokumen OneNote Anda dengan `new Document()` (atau buat yang baru) dan panggil `document.save("output.pdf", SaveFormat.Pdf)`. Aspose.Note menulis PDF dalam satu langkah, mempertahankan gaya, gambar, dan outline tanpa memerlukan Microsoft OneNote terinstal. Pendekatan langsung ini bekerja di Windows, Linux, dan macOS dengan JDK 1.8+ apa pun.
+
 ## Apa itu “set paragraph style” di Aspose.Note?
-Mengatur gaya paragraf mengacu pada konfigurasi objek `ParagraphStyle` (nama font, ukuran, warna, dll.) dan melampirkannya ke node `RichText`. Ini memberi Anda kontrol penuh atas tampilan teks di dalam halaman OneNote.
 
-## Bagaimana Cara Mengatur Gaya Paragraf di OneNote?
-Menerapkan gaya semudah membuat instance `ParagraphStyle`, menyesuaikan propertinya, dan menetapkannya ke elemen `RichText`. API menjadikan ini operasi satu baris begitu objek gaya siap.
+`ParagraphStyle` adalah kelas yang menyimpan nama font, ukuran, warna, perataan, dan pengaturan tipografi lainnya untuk sebuah paragraf. Dengan melampirkan instance `ParagraphStyle` ke node `RichText` Anda mengontrol secara tepat bagaimana paragraf tersebut muncul di halaman OneNote akhir dan PDF yang diekspor.
 
-## Mengapa Mengekspor OneNote ke PDF?
-- **Branding konsisten:** Mempertahankan font dan warna perusahaan saat membagikan catatan ke luar.  
-- **Keterbacaan:** PDF menjaga tata letak persis, menjadikannya ideal untuk pencetakan atau pengarsipan.  
-- **Akses lintas‑platform:** Penerima dapat melihat PDF di perangkat apa pun tanpa memerlukan OneNote.  
+## Mengapa mengekspor OneNote ke PDF?
+
+Mengekspor OneNote ke PDF memastikan konsistensi merek dengan mempertahankan font dan warna perusahaan, meningkatkan keterbacaan dengan menjaga tata letak tepat untuk pencetakan atau pengarsipan, dan menyediakan akses lintas platform sehingga penerima dapat melihat dokumen di perangkat apa pun tanpa memerlukan OneNote. Ini juga memberikan manfaat kinerja, memungkinkan dokumen besar diproses dengan cepat.
 
 ## Prasyarat
 
-Sebelum memulai, pastikan Anda memiliki:
+1. **Java Development Kit (JDK) 1.8+** – semua JDK terbaru akan berfungsi.  
+2. **Aspose.Note for Java** – unduh JAR terbaru dari [Aspose.Note download page](https://releases.aspose.com/note/java/).  
+3. **Sebuah IDE** (Eclipse, IntelliJ IDEA, atau NetBeans) untuk mengkompilasi dan menjalankan contoh.  
 
-1. **Java Development Kit (JDK) 1.8+** – JDK terbaru mana pun akan berfungsi.  
-2. **Aspose.Note untuk Java** – unduh JAR terbaru dari [halaman unduhan Aspose.Note](https://releases.aspose.com/note/java/).  
-3. **IDE** (Eclipse, IntelliJ IDEA, atau NetBeans) untuk mengkompilasi dan menjalankan contoh.  
+> **Tip pro:** Tambahkan JAR Aspose.Note ke classpath proyek Anda melalui Maven (`<dependency>`) atau dengan secara manual merujuk JAR di IDE Anda.
 
-> **Tips pro:** Tambahkan JAR Aspose.Note ke classpath proyek Anda melalui Maven atau dengan mereferensikan JAR secara manual di IDE.
+## Impor paket
 
-## Mengimpor Paket
-
-Pertama, impor kelas‑kelas yang diperlukan. Blok ini tetap tidak berubah.
+Pertama, impor namespace yang diperlukan. Blok ini tetap tidak berubah.
 
 ```java
 import java.awt.Color;
@@ -67,12 +143,12 @@ import com.aspose.note.ParagraphStyle;
 
 > Kelas `ParagraphStyle` adalah kunci untuk **set paragraph style** nanti dalam tutorial.
 
-## Panduan Langkah‑per‑Langkah
+## Panduan langkah‑demi‑langkah
 
-Berikut adalah penjelasan singkat setiap operasi. Blok kode persis seperti contoh asli; kami hanya menambahkan teks penjelasan.
+Berikut adalah penjelasan singkat dari setiap operasi. Blok kode persis seperti contoh asli; kami hanya menambahkan teks penjelasan.
 
-### Langkah 1: Atur Direktori Dokumen
-Tentukan tempat file yang dihasilkan akan disimpan.
+### Langkah 1: atur direktori dokumen
+Tentukan di mana file yang dihasilkan akan disimpan.
 
 ```java
 String dataDir = "Your Document Directory";
@@ -80,35 +156,44 @@ String dataDir = "Your Document Directory";
 
 Ganti `"Your Document Directory"` dengan jalur absolut atau relatif di mesin Anda.
 
-### Langkah 2: Inisialisasi Objek Document
+### Langkah 2: inisialisasi objek dokumen
 Buat `Document` root yang mewakili file OneNote.
 
 ```java
 Document doc = new Document();
 ```
 
-### Langkah 3: Inisialisasi Objek Page
-File OneNote terdiri dari satu atau lebih halaman; kita mulai dengan satu halaman.
+**Definisi:** `Document` adalah objek tingkat‑atas Aspose.Note yang menyimpan satu atau lebih halaman dalam memori.
+
+### Langkah 3: inisialisasi objek halaman
+File OneNote terdiri dari satu atau lebih halaman; kami memulai dengan satu halaman.
 
 ```java
 Page page = new Page();
 ```
 
-### Langkah 4: Inisialisasi Objek Outline
-Outline berfungsi sebagai kontainer untuk elemen outline (anggap sebagai bagian).
+**Definisi:** `Page` mewakili satu halaman OneNote, berisi outline, gambar, dan elemen lainnya.
+
+### Langkah 4: inisialisasi objek outline
+Outline berfungsi sebagai wadah untuk elemen outline (anggap sebagai bagian).
 
 ```java
 Outline outline = new Outline();
 ```
 
-### Langkah 5: Inisialisasi Objek OutlineElement
-Di sini kita **menambahkan outline element** yang akan menampung teks kaya kami.
+**Definisi:** `Outline` mengelompokkan objek `OutlineElement` terkait dan mendefinisikan hierarki visualnya.
+
+### Langkah 5: inisialisasi objek elemen outline
+Di sini kami **menambahkan elemen outline** yang akan menampung teks kaya kami.
 
 ```java
 OutlineElement outlineElem = new OutlineElement();
 ```
 
-### Langkah 6: Atur Gaya Teks (Set Paragraph Style)
+**Definisi:** `OutlineElement` adalah node daun di dalam `Outline` yang dapat berisi teks, gambar, atau media lainnya.
+
+### Langkah 6: atur gaya teks (set paragraph style)
+`ParagraphStyle` mendefinisikan keluarga font, ukuran, warna, dan atribut tipografi lainnya untuk sebuah paragraf.
 
 ```java
 ParagraphStyle textStyle = new ParagraphStyle()
@@ -117,9 +202,10 @@ ParagraphStyle textStyle = new ParagraphStyle()
                                     .setFontSize(10);
 ```
 
-Instansi `ParagraphStyle` mendefinisikan font, ukuran, dan warna—ini tempat kami **set paragraph style** untuk node teks yang akan datang.
+Instance `ParagraphStyle` menentukan font, ukuran, dan warna — di sinilah kami **set paragraph style** untuk node teks yang akan datang.
 
-### Langkah 7: Inisialisasi Objek RichText
+### Langkah 7: inisialisasi objek teks kaya
+`RichText` adalah node yang menyimpan teks bergaya di dalam `OutlineElement`.
 
 ```java
 RichText text = new RichText().append("Hello OneNote text!");
@@ -128,80 +214,82 @@ text.setParagraphStyle(textStyle);
 
 Kami membuat node `RichText`, menyisipkan string sederhana, dan melampirkan gaya yang telah didefinisikan sebelumnya.
 
-### Langkah 8: Tambahkan Node RichText ke OutlineElement
-
+### Langkah 8: tambahkan node teks kaya ke elemen outline
 ```java
 outlineElem.appendChildLast(text);
 ```
 
-Sekarang teks yang telah bergaya berada di dalam outline element.
+Sekarang teks bergaya berada di dalam elemen outline.
 
-### Langkah 9: Tambahkan Node OutlineElement ke Outline
-
+### Langkah 9: tambahkan node elemen outline ke outline
 ```java
 outline.appendChildLast(outlineElem);
 ```
 
-Outline kini berisi elemen yang memegang paragraf kami.
+Outline kini berisi elemen yang menampung paragraf kami.
 
-### Langkah 10: Tambahkan Node Outline ke Page
-
+### Langkah 10: tambahkan node outline ke halaman
 ```java
 page.appendChildLast(outline);
 ```
 
-Kami menempatkan outline pada halaman.
+Kami menempatkan outline ke halaman.
 
-### Langkah 11: Tambahkan Node Page ke Document
-
+### Langkah 11: tambahkan node halaman ke dokumen
 ```java
 doc.appendChildLast(page);
 ```
 
 Dokumen kini memiliki satu halaman dengan teks bergaya kami.
 
-### Langkah 12: Simpan Dokumen (Ekspor OneNote PDF)
-
+### Langkah 12: simpan dokumen (export OneNote PDF)
 ```java
 doc.save(dataDir + "CreateOneNoteDocumentWithSimpleRichText_out.pdf", SaveFormat.Pdf);
 ```
 
-Metode `save` menulis file OneNote dan **mengekspor OneNote PDF** dalam satu langkah. Anda juga dapat menyimpan sebagai `.one` dengan menggunakan `SaveFormat.One` jika memerlukan format asli.
+Metode `save` menulis file OneNote dan **exports OneNote to PDF** dalam satu langkah. Anda juga dapat menyimpan sebagai `.one` dengan menggunakan `SaveFormat.One` jika memerlukan format asli.
 
-## Masalah Umum & Solusi
+## Masalah umum & solusi
 
-| Masalah | Penyebab | Solusi |
+| Masalah | Alasan | Solusi |
 |-------|--------|-----|
 | **File tidak ditemukan** | `dataDir` mengarah ke folder yang tidak ada. | Pastikan direktori ada atau buat secara programatis (`new File(dataDir).mkdirs();`). |
-| **PDF kosong** | Tidak ada konten yang ditambahkan sebelum menyimpan. | Verifikasi bahwa node `RichText` telah ditambahkan dan gaya telah diatur. |
-| **Font tidak didukung** | Nama font tidak terpasang di sistem. | Gunakan font umum seperti `"Arial"` atau sematkan font dalam proyek. |
+| **Blank PDF** | Tidak ada konten yang ditambahkan sebelum menyimpan. | Verifikasi bahwa node `RichText` telah ditambahkan dan gaya telah diatur. |
+| **Unsupported font** | Nama font tidak terpasang di sistem. | Gunakan font umum seperti `"Arial"` atau sematkan font dalam proyek. |
 
-## Pertanyaan yang Sering Diajukan
+## Pertanyaan yang sering diajukan
 
-**T: Apakah Aspose.Note dapat menangani format kompleks seperti tabel atau gambar?**  
-J: Ya, API mendukung tabel, gambar, hyperlink, dan fitur tata letak lanjutan lainnya.
+**Q: Apakah Aspose.Note dapat menangani pemformatan kompleks seperti tabel atau gambar?**  
+A: Ya, API mendukung tabel, gambar, hyperlink, dan fitur tata letak lanjutan selain teks biasa.
 
-**T: Apakah memungkinkan untuk **convert OneNote PDF** kembali ke file OneNote?**  
-J: Konversi langsung tidak disediakan, tetapi Anda dapat mengekstrak konten PDF dan membangun kembali dokumen OneNote menggunakan API.
+**Q: Apakah memungkinkan mengonversi PDF OneNote kembali ke file OneNote?**  
+A: Konversi langsung tidak disediakan, tetapi Anda dapat mengekstrak konten PDF dan membangun kembali dokumen OneNote menggunakan API.
 
-**T: Apakah perpustakaan ini bekerja di lingkungan Linux/macOS?**  
-J: Tentu. Aspose.Note untuk Java bersifat platform‑independen; cukup pastikan JDK terinstal.
+**Q: Apakah perpustakaan ini bekerja di lingkungan Linux/macOS?**  
+A: Tentu saja. Aspose.Note untuk Java bersifat lintas platform; pastikan JDK yang kompatibel terinstal.
 
-**T: Bagaimana cara menambahkan beberapa halaman atau outline?**  
-J: Buat objek `Page` dan `Outline` tambahan, lalu tambahkan ke `Document` seperti contoh satu halaman.
+**Q: Bagaimana cara menambahkan beberapa halaman atau outline?**  
+A: Buat objek `Page` dan `Outline` tambahan, lalu tambahkan ke `Document` seperti contoh satu‑halaman.
 
-**T: Di mana saya dapat menemukan contoh lebih lanjut?**  
-J: Dokumentasi resmi Aspose.Note dan [forum dukungan](https://forum.aspose.com/c/note/28) berisi banyak contoh kode.
+**Q: Di mana saya dapat menemukan contoh lebih banyak?**  
+A: Dokumentasi resmi Aspose.Note dan [forum dukungan](https://forum.aspose.com/c/note/28) berisi banyak contoh kode dan skenario dunia nyata.
 
 ## Kesimpulan
 
-Anda kini telah melihat cara **set paragraph style**, **menambahkan outline element**, dan **menghasilkan file OneNote** yang dapat **diekspor ke PDF** menggunakan Aspose.Note untuk Java. Menyertakan teks bergaya sejak awal proses pembuatan memastikan dokumen akhir terlihat profesional dan setiap operasi **convert OneNote PDF** berikutnya mempertahankan formatnya. Jangan ragu untuk memperluas fondasi ini dengan gambar, tabel, atau metadata khusus sesuai kebutuhan proyek Anda.
+Anda kini telah melihat cara **set paragraph style**, **add outline element**, dan **export OneNote to PDF** menggunakan Aspose.Note untuk Java. Menerapkan teks bergaya sejak awal memastikan PDF akhir terlihat profesional, dan operasi `save` satu kali menangani konversi secara efisien. Perluas fondasi ini dengan gambar, tabel, atau metadata khusus untuk memenuhi kebutuhan spesifik aplikasi Anda.
 
 ---
 
-**Terakhir Diperbarui:** 2025-12-08  
-**Diuji Dengan:** Aspose.Note for Java 26.4 (latest release)  
-**Penulis:** Aspose  
+**Last Updated:** 2026-08-18  
+**Tested With:** Aspose.Note for Java 26.5 (latest release)  
+**Author:** Aspose
+
+## Tutorial Terkait
+
+- [Cara Menyimpan OneNote sebagai PDF dengan Aspose.Note untuk Java](/note/java/onenote-document-loading/load-save-format/)
+- [Pelajari Cara Mengonversi OneNote ke PDF dengan Aspose.Note menggunakan PdfSaveOptions](/note/java/onenote-document-loading/load-pdf-save-options/)
+- [Atur Gaya Paragraf Default di OneNote - Aspose.Note](/note/java/onenote-styles/set-default-paragraph-style/)
+
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

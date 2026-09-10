@@ -1,10 +1,45 @@
 ---
-date: 2026-02-20
-description: تعلم كيفية استخدام نمط الزائر في جافا مع Aspose.Note لاستخراج نص OneNote،
-  وتحويل OneNote إلى ملف txt، وتصفح المستندات بسلاسة.
-linktitle: Visitor Pattern Java for OneNote Document Traversal
+date: 2026-08-18
+description: تعلم كيفية تحويل OneNote إلى txt باستخدام visitor pattern في Java مع
+  Aspose.Note، استخراج النص بكفاءة، وتصفح document nodes.
+keywords:
+- convert onenote to txt
+- visitor pattern java
+- java visitor pattern example
+lastmod: 2026-08-18
+linktitle: كيفية تحويل OneNote إلى txt باستخدام visitor pattern في Java
+og_description: تحويل OneNote إلى txt باستخدام visitor pattern في Java. تعلم استخراج
+  خطوة بخطوة، التصفح، وتصدير النص مع Aspose.Note في أقل من 5 دقائق.
+og_image_alt: Screenshot of Java code converting OneNote to txt using Aspose.Note
+  visitor pattern
+og_title: تحويل OneNote إلى txt باستخدام visitor pattern في Java – دليل Aspose.Note
+schemas:
+- author: Aspose
+  dateModified: '2026-08-18'
+  description: Learn how to convert OneNote to txt using the visitor pattern in Java
+    with Aspose.Note, extract text efficiently, and traverse document nodes.
+  headline: How to convert OneNote to txt with Java visitor pattern
+  type: TechArticle
+- questions:
+  - answer: It separates operations from the object structure, letting you walk through
+      a document without changing its classes.
+    question: What does the visitor pattern do?
+  - answer: Aspose.Note for Java provides a ready‑made `DocumentVisitor` implementation.
+    question: Which library supports this in Java?
+  - answer: Implement a custom visitor that concatenates `RichText` nodes – see the
+      steps below.
+    question: How can I extract text from a OneNote file?
+  - answer: Yes, after visiting you can write the collected text to `.txt`.
+    question: Can I convert OneNote to a plain‑text file?
+  - answer: Java JDK 8+ and Aspose.Note for Java (download link provided).
+    question: What are the prerequisites?
+  type: FAQPage
 second_title: Aspose.Note Java API
-title: نمط الزائر جافا لتصفح مستند OneNote
+tags:
+- convert onenote
+- Aspose.Note
+- Java document processing
+title: كيفية تحويل OneNote إلى txt باستخدام visitor pattern في Java
 url: /ar/java/onenote-document-manipulation/using-document-visitor/
 weight: 10
 ---
@@ -13,37 +48,39 @@ weight: 10
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# نمط الزائر Visitor Pattern Java لتصفح مستند OneNote
+# كيفية تحويل OneNote إلى txt باستخدام نمط الزائر في Java
 
-## Introduction
+في هذا البرنامج التعليمي ستتعلم **كيفية تحويل OneNote إلى txt** باستخدام **نمط الزائر** مع مكتبة Aspose.Note للغة Java. يتيح لك نمط الزائر التنقل عبر مستند OneNote عقدةً بعقدة، جمع المحتوى النصي العادي، وكتابته إلى ملف `.txt` — كل ذلك دون تعديل بنية المستند الأصلية. سواءً كنت تبني فهرس بحث، تنقل الملاحظات، أو تقوم بأتمتة استخراج المحتوى، فإن هذا الدليل يوفر لك حلاً نظيفًا وقابلًا لإعادة الاستخدام يمكنك دمجه في أي مشروع Java.
 
-في هذا الدرس ستكتشف **كيفية تطبيق نمط الزائر Visitor Pattern Java** على ملفات OneNote باستخدام مكتبة Aspose.Note. من خلال الاستفادة من هذا النمط يمكنك استخراج **نص OneNote** بفعالية، **تحويل OneNote إلى txt**، و**تصفح هياكل OneNote** عقدةً بعقدة. سنستعرض مثالًا كاملاً عمليًا لتتمكن من بدء استخراج المحتوى من دفاتر ملاحظاتك فورًا. سواء كنت بحاجة إلى بناء **فهرس بحث onenote**، **ترحيل ملاحظات onenote**، أو ببساطة أتمتة عملية تدوين الملاحظات، فإن نمط الزائر Visitor Pattern Java يمنحك طريقة نظيفة وقابلة لإعادة الاستخدام للعمل مع شجرة المستند.
+## إجابات سريعة
+- **ما الذي يفعله نمط الزائر؟** يفصل بين العمليات وبنية الكائنات، مما يتيح لك التنقل عبر المستند دون تغيير فئاته.  
+- **أي مكتبة تدعم ذلك في Java؟** توفر Aspose.Note للغة Java تنفيذًا جاهزًا لـ `DocumentVisitor`.  
+- **كيف يمكنني استخراج النص من ملف OneNote؟** نفّذ زائرًا مخصصًا يجمع عقد `RichText` — راجع الخطوات أدناه.  
+- **هل يمكنني تحويل OneNote إلى ملف نص عادي؟** نعم، بعد الزيارة يمكنك كتابة النص المجمّع إلى `.txt`.  
+- **ما هي المتطلبات المسبقة؟** Java JDK 8+ و Aspose.Note للغة Java (رابط التحميل مرفق).  
 
-## Quick Answers
-- **ماذا يفعل نمط الزائر؟** يفصل بين العمليات وبنية الكائنات، مما يسمح لك بتصفح المستند دون تعديل فئاته.  
-- **أي مكتبة تدعم ذلك في جافا؟** توفر Aspose.Note for Java تنفيذًا جاهزًا لـ `DocumentVisitor`.  
-- **كيف يمكنني استخراج النص من ملف OneNote؟** قم بتنفيذ زائر مخصص يجمع عقد `RichText` – راجع الشيفرة أدناه.  
-- **هل يمكنني تحويل OneNote إلى ملف نصي عادي؟** نعم، بعد عملية الزيارة يمكنك كتابة النص المجمّع إلى `.txt`.  
-- **ما المتطلبات المسبقة؟** Java JDK 8+ و Aspose.Note for Java (رابط التحميل مرفق).
+## ما هو نمط الزائر في Java؟
+**نمط الزائر في Java** هو نمط تصميم كلاسيكي يتيح لك تعريف عمليات جديدة على مجموعة من الكائنات دون تغيير الكائنات نفسها. في OneNote كل عنصر—الصفحات، المخططات، الصور، الجداول—هو عقدة في شجرة المستند. يقوم `DocumentVisitor` بتجوال هذه الشجرة، مستدعيًا ردود نداء لكل نوع عقدة، مما يجعله مثاليًا لمهام مثل **كيفية استخراج النص** أو **كيفية تجوال هياكل OneNote**.
 
-## What is Visitor Pattern Java?
+## لماذا نستخدم الزائر لـ OneNote؟
+استخدام الزائر لـ OneNote يتيح لك تجوال المستند بالكامل في مرور واحد، مع الحفاظ على استهلاك الذاكرة منخفضًا وفصل منطق الاستخراج عن نموذج المستند. هذا النهج يجعل الكود أسهل صيانة وتوسيع لميزات إضافية مثل معالجة الصور أو استخراج بيانات وصفية مخصصة.
 
-الـ **visitor pattern java** هو نمط تصميم كلاسيكي يتيح لك تعريف عمليات جديدة على مجموعة من الكائنات دون تغيير الكائنات نفسها. في سياق OneNote، كل عنصر (صفحات، مخططات، صور، إلخ) يمثل عقدة في شجرة المستند. يقوم `DocumentVisitor` بتجوال هذه الشجرة، مستدعيًا ردود نداء لكل نوع عقدة، مما يجعله مثاليًا لمهام مثل **كيفية استخراج النص** أو **كيفية تصفح هياكل OneNote**.
+- **فصل الاهتمامات:** يبقى الكود الذي يستخرج النص في مكان واحد، بينما يظل نموذج OneNote دون تعديل.  
+- **القابلية للتوسع:** يمكنك توسيع نفس الزائر لمعالجة الصور، الجداول، أو البيانات الوصفية المخصصة دون إعادة كتابة كود التجوال.  
+- **الأداء:** تقوم Aspose.Note بمعالجة كل عقدة مرة واحدة، مما يتجنب عبء المرور المتعدد.  
+- **ملاءمة فهرس البحث:** جمع النص العادي مع الحفاظ على السياق الهرمي (عناوين الصفحات، عناوين المخطط) للحصول على فهرسة أكثر دقة.  
 
-## Why Use a Visitor for OneNote?
-- **فصل الاهتمامات:** منطق الاستخراج يبقى في مكان واحد، بينما يظل نموذج المستند دون تعديل.  
-- **قابلية التوسع:** يمكن توسيع نفس الزائر للتعامل مع الصور، الجداول، أو بيانات تعريف مخصصة.  
-- **الأداء:** يتم التجوال في تمريرة واحدة، مما يقلل من استهلاك الذاكرة.  
-- **المرونة لفهرسة البحث:** من خلال جمع النص العادي أثناء التجوال يمكنك إمداده مباشرةً إلى خط أنابيب **search index onenote**.
+## المتطلبات المسبقة
 
-## Prerequisites
+1. **مجموعة تطوير جافا (JDK):** تأكد من تثبيت JDK 8 أو أحدث.  
+2. **Aspose.Note للغة Java:** قم بتنزيل وتثبيت المكتبة من [رابط التحميل](https://releases.aspose.com/note/java/).  
+   يمكنك أيضًا تصفح جميع إصدارات Aspose [هنا](https://releases.aspose.com/).
 
-1. **Java Development Kit (JDK):** تأكد من تثبيت JDK 8 أو أحدث.  
-2. **Aspose.Note for Java:** قم بتحميل وتثبيت المكتبة من [download link](https://releases.aspose.com/note/java/).  
+## استيراد الحزم
 
-## Import Packages
+`Document`، `DocumentVisitor`، وفئات العقد المرتبطة مطلوبة لتحميل ملف OneNote وتنفيذ الزائر.
 
-First, import the classes we’ll need for loading the OneNote file and implementing the visitor.
+`Document` يمثل ملف OneNote ويوفر الوصول إلى شجرة العقد. `DocumentVisitor` هي فئة مجردة تقوم بتمديدها لتلقي ردود نداء لكل نوع عقدة. هذه الفئات جزء من Aspose.Note API.
 
 ```java
 import java.io.IOException;
@@ -59,89 +96,100 @@ import com.aspose.note.RichText;
 import com.aspose.note.Title;
 ```
 
-## Step 1: Load the Document
+## الخطوة 1: تحميل المستند
+
+`Document` هو الكائن الأعلى مستوى في Aspose.Note الذي يمثل ملف OneNote واحد في الذاكرة. تحميل الملف ينشئ شجرة العقد الكاملة التي سيجولها الزائر لاحقًا.
 
 ```java
 String dataDir = "Your Document Directory";
 Document doc = new Document(dataDir + "Sample1.one");
 ```
 
-> **Pro tip:** استبدل `"Your Document Directory"` بالمسار المطلق للمجلد الذي يحتوي على ملف `.one` الخاص بك.
+> **نصيحة احترافية:** استبدل `"Your Document Directory"` بالمسار المطلق للمجلد الذي يحتوي على ملف `.one` الخاص بك.
 
-## Step 2: Create a Custom Document Visitor
+## الخطوة 2: إنشاء زائر مستند مخصص
+
+`DocumentVisitor` هي الفئة الأساسية المجردة لتنفيذ زوار مخصصين يعالجون عقد المستند. الطريقة الأولى التي عادةً ما تتجاوزها هي `visit(RichText rt)`، والتي تمنحك الوصول إلى محتوى النص العادي للملاحظة.
 
 ```java
 MyOneNoteToTxtWriter myConverter = new MyOneNoteToTxtWriter();
 ```
 
-`MyOneNoteToTxtWriter` يمتد من `DocumentVisitor`. داخلها ستقوم بتجاوز طرق مثل `visit(RichText rt)` لجمع النص، ويمكنك أيضًا عد العقد، استخراج الصور، إلخ. هنا يتألق **visitor pattern java** – تعرف العملية مرة واحدة وتدع المكتبة تتولى التجوال.
+`MyOneNoteToTxtWriter` يمد `DocumentVisitor`. داخلها ستتجاوز طرقًا مثل `visit(RichText rt)` لجمع النص، ويمكنك أيضًا عد العقد، استخراج الصور، إلخ. هنا يبرز **نمط الزائر في Java** – تعرف العملية مرة واحدة وتدع المكتبة تتولى التجوال.
 
-## Step 3: Traverse and Visit Document Nodes
+## الخطوة 3: تجوال وزيارة عقد المستند
+
+استدعاء `accept()` على كائن `Document` يُشغِّل الزائر. `accept()` يبدأ التجوال، مما يجعل المستند يستدعي طرق الزائر لكل عقدة.
 
 ```java
 doc.accept(myConverter);
 ```
 
-استدعاء `accept()` يُفعّل الزائر. المكتبة تتجول عبر كل صفحة، مخطط، وعنصر، مستدعية ردود النداء التي نفذتها.
+## الخطوة 4: استرجاع النتائج
 
-## Step 4: Retrieve Results
+بعد انتهاء التجوال، يمكنك الاستعلام عن الزائر للحصول على إجمالي عدد العقد التي تمت زيارتها والنص العادي المتراكم. هذا هو بالضبط ما تحتاجه **لاستخراج نص OneNote** ثم **تحويل OneNote إلى txt** بكتابة السلسلة المرجعة إلى ملف.
 
 ```java
 System.out.println("Total Nodes: " + myConverter.getNodeCount());
 System.out.println(myConverter.getText());
 ```
 
-بعد انتهاء التجوال، يمكنك الاستعلام من الزائر عن إجمالي عدد العقد التي تم زيارتها والنص العادي المتراكم. هذا هو بالضبط ما تحتاجه **لاستخراج نص OneNote** ولاحقًا **لتحويل OneNote إلى txt** بكتابة السلسلة المسترجعة إلى ملف.
+## حالات الاستخدام الشائعة
 
-## Common Use Cases
+- **تلخيص الملاحظات تلقائيًا:** استخراج النص العادي من العديد من دفاتر الملاحظات وإدخاله في محرك تلخيص.  
+- **فهرسة البحث:** بناء **فهرس بحث onenote** قابل للبحث عن طريق استخراج النص من كل ملف OneNote.  
+- **نصوص ترحيل:** **ترحيل ملاحظات onenote** إلى نص عادي، Markdown، أو صيغ حديثة أخرى لأنظمة التوثيق.  
+- **أرشفة المحتوى:** تخزين النص المستخرج في قاعدة بيانات للاحتفاظ طويل الأمد والامتثال.  
 
-- **تلخيص الملاحظات تلقائيًا:** سحب النص العادي من العديد من الدفاتر وإدخاله في محرك تلخيص.  
-- **فهرسة البحث:** بناء **search index onenote** قابل للبحث عن طريق استخراج النص من كل ملف OneNote.  
-- **سكريبتات الترحيل:** **ترحيل ملاحظات onenote** إلى نص عادي، Markdown، أو صيغ حديثة أخرى لأنظمة التوثيق.  
-- **أرشفة المحتوى:** تخزين النص المستخرج في قاعدة بيانات للاحتفاظ طويل الأمد والامتثال.
+## كيفية بناء فهرس بحث onenote باستخدام نمط الزائر في Java
 
-## How to Build a Search Index Onenote with Visitor Pattern Java
+حمِّل المستند، شغِّل الزائر المخصص، وادخل السلسلة المجمَّعة إلى Lucene أو Elasticsearch أو أي محلل نصوص آخر. نظرًا لأن الزائر يعالج العقد بترتيب المستند، تحتفظ بالإشارات الهرمية (عناوين الصفحات، عناوين المخطط) التي تحسن درجة الصلة في الفهرس.
 
-عندما تحتاج إلى جعل محتوى OneNote قابلًا للبحث، يمكن لنمط الزائر visitor pattern java إمداد محلل النص مباشرةً. بعد أن يجمع الزائر النص، يمكنك دفعه إلى Lucene أو Elasticsearch أو أي محرك فهرسة آخر. لأن الزائر يعالج العقد بترتيبها، تحتفظ أيضًا بالسياق الهرمي (عناوين الصفحات، رؤوس المخططات) مما يحسن من تقييم الصلة.
+## ترحيل ملاحظات onenote باستخدام نمط الزائر في Java
 
-## Migrating OneNote Notes Using Visitor Pattern Java
+إذا كنت تنتقل بعيدًا عن OneNote، يمكن توسيع نفس الزائر لإخراج Markdown أو HTML أو JSON مخصص. من خلال تركيز منطق الاستخراج في `MyOneNoteToTxtWriter`، تحتاج فقط إلى إضافة طرق إخراج جديدة—لا حاجة لتغيير كود التجوال.
 
-إذا كنت تنتقل بعيدًا عن OneNote، يمكن توسيع نفس الزائر لإنتاج Markdown أو HTML أو حتى هياكل JSON مخصصة. من خلال تركيز منطق الاستخراج في `MyOneNoteToTxtWriter`، تحتاج فقط إلى إضافة طرق إخراج جديدة—دون تعديل كود التجوال.
+## استكشاف الأخطاء وإصلاحها & نصائح
 
-## Troubleshooting & Tips
-
-| Issue | Cause | Solution |
+| المشكلة | السبب | الحل |
 |-------|-------|----------|
-| `NullPointerException` on `doc.accept()` | مسار المستند غير صحيح | تحقق من `dataDir` واسم الملف؛ استخدم مسارات مطلقة للاختبار. |
-| No text returned | الزائر لم يتجاوز `visit(RichText)` | تأكد من أن الزائر المخصص يلتقط عقد `RichText`. |
-| Large notebooks cause memory pressure | الزائر يحتفظ بالنص بالكامل في الذاكرة | اكتب النص إلى ملف بشكل تدريجي داخل الزائر بدلاً من تخزينه كله. |
+| `NullPointerException` on `doc.accept()` | مسار المستند غير صحيح | تحقق من `dataDir` واسم الملف؛ استخدم المسارات المطلقة للاختبار. |
+| لم يتم إرجاع نص | لم يقم الزائر بتجاوز `visit(RichText)` | تأكد من أن الزائر المخصص يلتقط عقد `RichText`. |
+| دفاتر الملاحظات الكبيرة تسبب ضغطًا على الذاكرة | الزائر يحتفظ بالنص بالكامل في الذاكرة | اكتب النص إلى ملف بشكل تدريجي داخل الزائر بدلاً من تخزينه كله. |
 
-## Frequently Asked Questions
+## الأسئلة المتكررة
 
-### Q1: Can I use Aspose.Note for languages other than Java?
-A1: نعم، تدعم Aspose.Note .NET و C++ و Python وغيرها. تحقق من الوثائق الرسمية لكل لغة.
+**س1: هل يمكنني استخدام Aspose.Note للغات غير Java؟**  
+**ج1:** نعم، تدعم Aspose.Note .NET، C++، Python، وغيرها. راجع الوثائق الرسمية لكل لغة.
 
-### Q2: Is Aspose.Note free to use?
-A2: Aspose.Note مكتبة تجارية. يمكنك تحميل نسخة تجريبية مجانية من [here](https://releases.aspose.com/).
+**س2: هل Aspose.Note مجانية للاستخدام؟**  
+**ج2:** Aspose.Note هي مكتبة تجارية. يمكنك تنزيل نسخة تجريبية مجانية من [هنا](https://releases.aspose.com/).
 
-### Q3: How can I get support for Aspose.Note?
-A3: يمكنك الحصول على الدعم من منتديات مجتمع Aspose [here](https://forum.aspose.com/c/note/28).
+**س3: كيف يمكنني الحصول على دعم Aspose.Note؟**  
+**ج3:** يمكنك الحصول على الدعم من منتديات مجتمع Aspose [هنا](https://forum.aspose.com/c/note/28).
 
-### Q4: Can I purchase a temporary license for testing purposes?
-A4: نعم، يمكنك شراء ترخيص مؤقت من [here](https://purchase.aspose.com/temporary-license/).
+**س4: هل يمكنني شراء ترخيص مؤقت لأغراض الاختبار؟**  
+**ج4:** نعم، يمكنك شراء ترخيص مؤقت من [هنا](https://purchase.aspose.com/temporary-license/).
 
-### Q5: Is there any documentation available for Aspose.Note?
-A5: نعم، يمكنك العثور على الوثائق [here](https://reference.aspose.com/note/java/).
+**س5: هل هناك أي وثائق متاحة لـ Aspose.Note؟**  
+**ج5:** نعم، يمكنك العثور على الوثائق [هنا](https://reference.aspose.com/note/java/).
 
-## Conclusion
+## الخاتمة
 
-بتطبيق **visitor pattern java** مع Aspose.Note، لديك الآن طريقة نظيفة وقابلة للتوسيع **لاستخراج نص** من ملفات OneNote، **لتحويل OneNote إلى txt**، وبشكل عام **لتصفح هياكل OneNote**. يفتح النمط أيضًا أبوابًا لبناء **search index onenote**، **ترحيل ملاحظات onenote**، وإنشاء خطوط تصدير مخصصة. لا تتردد في توسيع `MyOneNoteToTxtWriter` للتعامل مع الصور، الجداول، أو بيانات تعريف مخصصة مع تطور مشروعك.
+بتطبيق **نمط الزائر في Java** مع Aspose.Note، لديك الآن طريقة نظيفة وقابلة للتوسيع **لتحويل OneNote إلى txt**، **لاستخراج نص OneNote**، وبشكل عام **لتجوال هياكل OneNote**. يفتح النمط أيضًا أبوابًا لبناء **فهرس بحث onenote**، **ترحيل ملاحظات onenote**، وإنشاء خطوط تصدير مخصصة. لا تتردد في توسيع `MyOneNoteToTxtWriter` لمعالجة الصور، الجداول، أو البيانات الوصفية المخصصة مع تطور مشروعك.
 
 ---
 
-**Last Updated:** 2025-12-09  
-**Tested With:** Aspose.Note for Java 26.4  
-**Author:** Aspose  
+**آخر تحديث:** 2026-08-18  
+**تم الاختبار مع:** Aspose.Note للغة Java 27.0  
+**المؤلف:** Aspose
+
+## دروس ذات صلة
+
+- [تحويل OneNote إلى نص واستخراج الصور باستخدام Document Visitor - Java](/note/java/onenote-document-loading/extract-content-using-document-visitor/)
+- [استخراج كل النص في OneNote - Aspose.Note](/note/java/onenote-text-manipulation/extract-all-text/)
+- [نمط الزائر Java لتجوال مستند OneNote](/note/java/onenote-document-manipulation/using-document-visitor/)
+
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
