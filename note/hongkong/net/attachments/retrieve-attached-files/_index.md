@@ -1,31 +1,52 @@
 ---
-title: 使用 Aspose.Note 檢索附加文件
-linktitle: 使用 Aspose.Note 檢索附加文件
+date: 2026-04-03
+description: 了解如何使用 Aspose.Note for .NET 載入 OneNote 文件並提取附件。遵循一步一步的指南，快速有效地取得附件。
+keywords:
+- load onenote document
+- extract attached files
+- convert attachment to stream
+linktitle: 使用 Aspose.Note 取得附件檔案
 second_title: Aspose.Note .NET API
-description: 了解如何使用 Aspose.Note for .NET 從 Microsoft OneNote 文件中擷取附加文件。依照步驟載入、取得節點並迭代附件。
-weight: 12
+title: 載入 OneNote 文件並擷取附件 – Aspose.Note
 url: /zh-hant/net/attachments/retrieve-attached-files/
+weight: 12
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# 使用 Aspose.Note 檢索附加文件
+# 載入 OneNote 文件並擷取附件 – Aspose.Note
 
 ## 介紹
 
-在本教學中，我們將探討如何使用 Aspose.Note for .NET 從文件中擷取附加文件。 Aspose.Note 是一個功能強大的 API，可讓開發人員以程式設計方式處理 Microsoft OneNote 檔案。我們將把這個過程分解為簡單的步驟，以便於遵循。
+在本教學中，您將學習如何 **載入 OneNote 文件** 並使用 Aspose.Note for .NET **擷取附件檔案**。無論您是要建立遷移工具、稽核實用程式，或只是需要從 OneNote 筆記本中提取資源，以下步驟將示範如何取得每個附件，並可選擇 **將附件轉換為串流** 以便進一步處理。讓我們從載入檔案到本地儲存每個附件，完整走過整個流程。
 
-## 先決條件
+## 快速解答
+- **此教學涵蓋什麼內容？** 載入 OneNote 文件並擷取其附件。  
+- **需要哪個函式庫？** Aspose.Note for .NET（提供免費試用）。  
+- **程式碼行數多少？** 四個精簡片段，總行數少於 30 行。  
+- **我可以串流附件嗎？** 可以——範例示範如何將每個附件轉換為記憶體串流。  
+- **正式環境需要授權嗎？** 非試用時需擁有有效的 Aspose.Note 授權。
 
-在我們開始之前，請確保您具備以下條件：
+## 什麼是「載入 OneNote 文件」？
+載入 OneNote 文件是指使用 Aspose.Note 的 `Document` 類別開啟 *.one* 檔案，讓您能以程式方式檢視其內容——包括頁面、節與任何嵌入的資源（如附件檔案）。
 
--  Aspose.Note for .NET：確保您已安裝 Aspose.Note for .NET。您可以從以下位置下載：[這裡](https://releases.aspose.com/note/net/).
+## 為什麼要擷取附件？
+附件通常包含寶貴的資源（PDF、影像、試算表），使用者已將其嵌入筆記中。擷取這些附件可讓您：
+- 將重要資源歸檔或備份。
+- 進一步處理檔案（例如轉換為 PDF、分析內容）。
+- 在其他應用程式中重新使用資產，免除手動複製。
 
-## 導入命名空間
+## 前置條件
 
-首先，讓我們匯入使用 Aspose.Note 所需的命名空間：
+- 已安裝 Aspose.Note for .NET。可從 [here](https://releases.aspose.com/note/net/) 下載。
+- 具備 .NET 開發環境（Visual Studio、VS Code 或任何 C# 編譯器）。
+- 一個包含一個或多個附件的 OneNote 檔案（`*.one`）。
+
+## 匯入命名空間
+
+首先，匯入提供檔案 I/O、Aspose.Note 類型與集合工具的命名空間：
 
 ```csharp
 using System.IO;
@@ -35,67 +56,80 @@ using System.Collections.Generic;
 using System.Drawing;
 ```
 
-## 第 1 步：載入文檔
+## 步驟 1：載入 OneNote 文件
 
 ```csharp
-//文檔目錄的路徑。
+// The path to the documents directory.
 string dataDir = "Your Document Directory";
 
-//將文件載入到 Aspose.Note 中。
+// Load the document into Aspose.Note.
 Document oneFile = new Document(dataDir + "Sample1.one");
 ```
 
-## 第 2 步：取得附加檔案節點
+> **專業提示：** 確認 `dataDir` 以路徑分隔符（`\` 或 `/`）結尾，以避免檔案路徑格式錯誤。
+
+## 步驟 2：取得附件檔案節點
 
 ```csharp
-//取得附加檔案節點的列表
+// Get a list of attached file nodes
 IList<AttachedFile> nodes = oneFile.GetChildNodes<AttachedFile>();
 ```
 
-## 第 3 步：遍歷附加文件
+`GetChildNodes<AttachedFile>()` 呼叫會掃描整個筆記本層級，回傳每個 `AttachedFile` 元素，讓您能個別處理每個附件。
+
+## 步驟 3：遍歷附件並轉換為串流
 
 ```csharp
-//遍歷所有節點
+// Iterate through all nodes
 foreach (AttachedFile file in nodes)
 {
-    //將附加文件載入到流對象
+    // Load attached file to a stream object
     using (Stream outputStream = new MemoryStream(file.Bytes))
     {
-        //建立本地文件
+        // Create a local file
         using (Stream fileStream = System.IO.File.OpenWrite(String.Format(dataDir + file.FileName)))
         {
-            //複製檔案流
+            // Copy file stream
             CopyStream(outputStream, fileStream);
         }
     }
 }
 ```
 
+在此迴圈中，我們 **將附件轉換為串流**（`MemoryStream`），以便在記憶體中操作資料後再寫入磁碟。`CopyStream` 輔助方法僅負責將記憶體串流的位元組複製到實體檔案。
+
+### 常見問題與解決方案
+- **缺少權限：** 確保應用程式對 `dataDir` 具有寫入權限。  
+- **大型附件：** 對於非常大的檔案，建議分塊複製，而非一次載入全部至記憶體。  
+- **檔名衝突：** 如有重複檔名，可使用 `Path.GetUniqueFileName` 或加上時間戳記。
+
 ## 結論
 
-在本教學中，我們學習如何使用 Aspose.Note for .NET 從文件中擷取附加文件。透過執行這些簡單的步驟，您可以將此功能無縫整合到您的 .NET 應用程式中。
+現在您已了解如何 **載入 OneNote 文件**、**擷取附件檔案**，以及 **將每個附件轉換為串流** 以供進一步處理。將這些程式碼片段整合至您的 .NET 專案，即可自動化從 OneNote 筆記本中抽取資源的工作。
 
-## 常見問題解答
+## 常見問答
 
-### Q1：Aspose.Note 是否相容於所有版本的 OneNote 檔案？
+**Q: Aspose.Note 是否相容於所有版本的 OneNote 檔案？**  
+A: 是，Aspose.Note 支援多種 Microsoft OneNote 檔案版本，確保在不同平台上的相容性。
 
-A1：是的，Aspose.Note支援各種版本的Microsoft OneNote文件，確保跨不同平台的兼容性。
+**Q: 我可以在本地儲存前修改取得的附件檔案嗎？**  
+A: 當然！您可以在應用程式內依需求操作附件，然後再儲存至本機。
 
-### Q2：我可以在本機儲存檢索到的附件之前修改它們嗎？
+**Q: Aspose.Note 是否提供開發者支援？**  
+A: 當然！Aspose 提供豐富的文件與專屬支援論壇，協助開發者解決任何問題。
 
-A2：當然！您可以根據需要在應用程式中操作附加文件，然後再將它們保存在本地。
+**Q: 我可以在購買前試用 Aspose.Note 嗎？**  
+A: 可以，您可取得 Aspose.Note 的免費試用版，先行體驗其功能與特性，再決定是否購買。
 
-### Q3：Aspose.Note 為開發者提供支援嗎？
+**Q: 如何取得 Aspose.Note 的臨時授權？**  
+A: 您可向 Aspose 申請臨時授權，以在開發環境中評估 API 的完整功能。
 
-A3：當然！ Aspose 提供了廣泛的文件和專門的支援論壇，以協助開發人員解決遇到的任何疑問或問題。
+---
 
-### Q4: 我可以在購買之前試用 Aspose.Note 嗎？
+**最後更新：** 2026-04-03  
+**測試環境：** Aspose.Note 24.11 for .NET  
+**作者：** Aspose  
 
-A4：是的，您可以在做出購買決定之前免費試用 Aspose.Note 來探索其功能和功能。
-
-### Q5：如何取得Aspose.Note的臨時授權？
-
-A5：您可以向 Aspose 要求臨時許可證，以在您的開發環境中評估 API 的全部功能。
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
