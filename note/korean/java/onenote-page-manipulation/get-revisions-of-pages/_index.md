@@ -1,37 +1,54 @@
 ---
-title: OneNote에서 페이지 개정판 가져오기 - Aspose.Note
-linktitle: OneNote에서 페이지 개정판 가져오기 - Aspose.Note
-second_title: Aspose.Note 자바 API
-description: Aspose.Note Java를 사용하여 OneNote 문서 내의 페이지 개정판을 검색하는 방법을 알아보세요. 효율적인 문서 관리를 위해 이를 Java 앱에 통합하세요.
-weight: 15
+date: 2026-01-10
+description: Aspose.Note for Java를 사용하여 OneNote 페이지의 마지막 수정 시간과 수정 내역을 가져오는 방법을 배우세요.
+  이를 Java 애플리케이션에 통합하여 효율적인 문서 관리를 구현하세요.
+linktitle: Get Revisions of Pages in OneNote - Aspose.Note
+second_title: Aspose.Note Java API
+title: OneNote 페이지의 마지막 수정 시간 가져오기 – Aspose.Note
 url: /ko/java/onenote-page-manipulation/get-revisions-of-pages/
+weight: 15
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# OneNote에서 페이지 개정판 가져오기 - Aspose.Note
+# OneNote 페이지 개정 가져오기 - Aspose.Note
 
 ## 소개
 
-이 튜토리얼에서는 Java 애플리케이션에서 Microsoft OneNote 파일을 원활하게 사용할 수 있게 해주는 강력한 라이브러리인 Aspose.Note for Java의 기능을 자세히 살펴보겠습니다. 특히 OneNote 문서 내에서 페이지 수정본을 검색하는 방법에 중점을 둘 것입니다. 이 가이드를 마치면 마지막 수정 시간, 생성 시간, 제목, 수준, 작성자 등의 세부 정보를 포함하여 페이지 개정판을 효율적으로 추출하는 지식을 갖추게 됩니다.
+이 튜토리얼에서는 OneNote 문서 내부 페이지의 **마지막 수정 시간**을 가져오고 Aspose.Note for Java를 사용하여 전체 개정 기록을 검색하는 방법을 살펴봅니다. 문서 관리 시스템을 구축하거나, 변경 사항을 감사하거나, 페이지가 마지막으로 편집된 시점을 표시해야 할 경우, 이 가이드는 해당 정보를 프로그래밍 방식으로 추출하는 방법을 정확히 보여줍니다.
 
-## 전제조건
+## 빠른 답변
+- **“마지막 수정 시간 가져오기”가 반환하는 값은 무엇인가요?** OneNote 페이지에서 가장 최근에 편집된 시점의 타임스탬프입니다.  
+- **어떤 클래스가 개정 기록을 제공하나요?** `Document.getPageHistory(Page)`를 통해 얻는 `PageHistory` 클래스입니다.  
+- **이 기능을 사용하려면 라이선스가 필요합니까?** 예, 프로덕션 사용을 위해서는 유효한 Aspose.Note 라이선스가 필요합니다.  
+- **지원되는 Java 버전은 무엇인가요?** Java 8 이상 (JDK 8+).  
+- **작성자별로 개정을 필터링할 수 있나요?** 각 `Page` 객체의 `Author` 속성을 읽어 직접 필터링을 적용할 수 있습니다.
 
-이 튜토리얼을 시작하기 전에 다음 전제 조건이 설정되어 있는지 확인하세요.
+## OneNote에서 “마지막 수정 시간 가져오기”란 무엇인가요?
 
-### JDK(Java 개발 키트)가 설치되었습니다.
+**마지막 수정 시간**은 각 페이지에 저장되는 메타데이터 필드로, 페이지가 가장 최근에 변경된 시점을 기록합니다. Aspose.Note는 `Page.getLastModifiedTime()` 메서드를 통해 이 값을 제공하므로 변경 날짜를 표시하거나 로그에 기록하기가 쉽습니다.
 
-시스템에 Java Development Kit가 설치되어 있는지 확인하십시오. Oracle 웹 사이트에서 다운로드하여 설치할 수 있으며 Unix 기반 시스템을 사용하는 경우 패키지 관리자를 사용할 수 있습니다.
+## 페이지 개정을 가져와야 하는 이유
 
-### Java 라이브러리용 Aspose.Note
+- **감사 추적:** 누가 무엇을 언제 변경했는지 기록을 유지합니다.  
+- **버전 비교:** 두 개정을 나란히 비교하는 기능을 구축합니다.  
+- **사용자 협업 인사이트:** 공유 노트북에서의 편집 패턴을 파악합니다.  
 
- 웹사이트에서 Aspose.Note for Java 라이브러리를 다운로드하여 설치하세요. 다운로드 링크를 찾을 수 있습니다[여기](https://releases.aspose.com/note/java/) . 설명서에 제공된 설치 지침을 따르십시오.[여기](https://reference.aspose.com/note/java/).
+## 사전 요구 사항
+
+시작하기 전에 다음 항목이 준비되어 있는지 확인하십시오:
+
+### Java Development Kit (JDK) 설치
+Oracle 웹사이트 또는 선호하는 패키지 관리자를 통해 JDK 8 이상을 설치하십시오.
+
+### Aspose.Note for Java 라이브러리
+공식 사이트에서 라이브러리를 다운로드하십시오. 다운로드 링크는 **[here](https://releases.aspose.com/note/java/)** 에서 확인할 수 있습니다. 문서의 설치 안내는 **[here](https://reference.aspose.com/note/java/)** 를 참고하십시오.
 
 ## 패키지 가져오기
 
-시작하려면 필요한 패키지를 Java 프로젝트로 가져옵니다. 이 패키지를 사용하면 Aspose.Note for Java가 제공하는 기능을 활용할 수 있습니다.
+시작하려면 Java 프로젝트에 필요한 패키지를 가져오세요. 이 패키지들을 통해 Aspose.Note for Java가 제공하는 기능을 활용할 수 있습니다.
 
 ```java
 import java.io.IOException;
@@ -41,43 +58,40 @@ import com.aspose.note.Page;
 import com.aspose.note.PageHistory;
 ```
 
-이제 제공된 예제 코드를 여러 단계로 나누어 각 구성 요소와 해당 기능을 이해해 보겠습니다.
+이제 제공된 예제 코드를 여러 단계로 나누어 각 구성 요소와 기능을 이해해 보겠습니다.
 
-## 1단계: 문서 디렉터리 설정
+## OneNote 페이지의 마지막 수정 시간 가져오기
 
-OneNote 문서가 있는 디렉터리를 정의합니다.
+### 단계 1: 문서 디렉터리 설정
+OneNote 문서가 위치한 디렉터리를 정의하십시오.
 
 ```java
 String dataDir = "Your Document Directory";
 ```
 
-## 2단계: 문서 로드
-
-OneNote 문서를 Aspose.Note에 로드합니다.
+### 단계 2: 문서 로드
+OneNote 문서를 Aspose.Note에 로드하십시오.
 
 ```java
 Document doc = new Document(dataDir + "Sample1.one");
 ```
 
-## 3단계: 첫 페이지 가져오기
-
-문서의 첫 번째 페이지를 검색합니다.
+### 단계 3: 첫 번째 페이지 가져오기
+문서에서 첫 번째 페이지를 가져옵니다.
 
 ```java
 Page firstPage = doc.getFirstChild();
 ```
 
-## 4단계: 페이지 개정판 가져오기
-
-페이지의 개정 내역을 가져옵니다.
+### 단계 4: 페이지 개정 가져오기
+페이지의 개정 기록을 가져옵니다.
 
 ```java
 PageHistory revisions = doc.getPageHistory(firstPage);
 ```
 
-## 5단계: 페이지 개정 트래버스
-
-페이지 개정 목록을 반복하고 관련 정보를 검색합니다.
+### 단계 5: 페이지 개정 순회
+페이지 개정 목록을 순회하면서 **마지막 수정 시간**을 포함한 관련 정보를 가져옵니다.
 
 ```java
 for (Page pageRevision : revisions) {
@@ -90,31 +104,34 @@ for (Page pageRevision : revisions) {
 }
 ```
 
-## 결론
+## 일반적인 문제 및 해결책
+- **Null `PageHistory`**: 문서에 실제로 개정이 포함되어 있는지 확인하십시오; 그렇지 않으면 `getPageHistory`가 `null`을 반환할 수 있습니다.  
+- **시간대 차이**: `getLastModifiedTime()`은 시스템 기본 시간대의 `java.util.Date`를 반환합니다. 필요에 따라 UTC로 변환하십시오.  
+- **라이선스 미로드**: 유효한 라이선스가 없으면 Aspose.Note가 평가 모드로 동작하여 처리 가능한 페이지 수가 제한될 수 있습니다.
 
-이 튜토리얼에서는 Java용 Aspose.Note를 사용하여 OneNote 문서 내의 페이지 개정판을 검색하는 방법을 살펴보았습니다. 단계별 가이드를 따르고 제공된 예제 코드를 활용하면 이 기능을 Java 응용 프로그램에 쉽게 통합하여 OneNote 파일을 효율적으로 관리할 수 있습니다.
+## 자주 묻는 질문
 
-## FAQ
-
-### Q1: Java용 Aspose.Note를 사용하여 새 OneNote 문서를 만들 수 있나요?
-
+### Q1: Aspose.Note for Java를 사용해 새로운 OneNote 문서를 만들 수 있나요?
 A1: 예, Aspose.Note for Java는 OneNote 문서를 프로그래밍 방식으로 생성, 읽기 및 조작하기 위한 포괄적인 지원을 제공합니다.
 
-### Q2: Java용 Aspose.Note는 다른 버전의 OneNote 파일과 호환됩니까?
+### Q2: Aspose.Note for Java가 다양한 버전의 OneNote 파일과 호환되나요?
+A2: 예, Aspose.Note for Java는 다양한 Microsoft OneNote 파일 버전을 지원하여 여러 환경에서 호환성을 보장합니다.
 
-A2: 예, Aspose.Note for Java는 다양한 버전의 Microsoft OneNote 파일을 지원하여 다양한 환경에서 호환성을 보장합니다.
+### Q3: OneNote 문서를 내보낼 때 출력 형식을 맞춤 설정할 수 있나요?
+A3: 물론입니다. Aspose.Note for Java는 PDF, HTML, 이미지 등 다양한 형식으로 OneNote 문서를 내보낼 때 맞춤 옵션을 제공하여 유연하게 처리할 수 있습니다.
 
-### Q3: OneNote 문서를 내보낼 때 출력 형식을 사용자 지정할 수 있나요?
+### Q4: Aspose.Note for Java를 상업적으로 사용하려면 라이선스가 필요합니까?
+A4: 예, Aspose.Note for Java를 상업적으로 사용하려면 유효한 라이선스가 필요합니다. 라이선스는 Aspose 웹사이트에서 구매할 수 있습니다.
 
-A3: 물론입니다. Java용 Aspose.Note는 사용자 지정 옵션을 통해 OneNote 문서를 PDF, HTML, 이미지 등 다양한 형식으로 내보낼 수 있는 유연성을 제공합니다.
+### Q5: Aspose.Note for Java와 관련된 문제나 질문이 있을 때 어디에서 도움을 받을 수 있나요?
+A5: 지원 및 도움을 원하시면 Aspose.Note 포럼 **[here](https://forum.aspose.com/c/note/28)** 를 방문하십시오. 여기서 질문을 하고, 경험을 공유하며, 다른 사용자 및 전문가와 소통할 수 있습니다.
 
-### Q4: Java용 Aspose.Note를 상업적으로 사용하려면 라이선스가 필요합니까?
+---
 
-A4: 네, Aspose.Note for Java를 상업적으로 사용하려면 유효한 라이선스가 필요합니다. Aspose 웹사이트에서 라이선스를 얻을 수 있습니다.
+**마지막 업데이트:** 2026-01-10  
+**테스트 환경:** Aspose.Note for Java 23.12 (작성 시 최신 버전)  
+**작성자:** Aspose  
 
-### Q5: Aspose.Note for Java에 대해 문제가 발생하거나 질문이 있는 경우 어디서 도움을 받을 수 있나요?
-
- A5: 지원 및 지원을 받으려면 Aspose.Note 포럼을 방문하세요.[여기](https://forum.aspose.com/c/note/28)에서 질문하고, 경험을 공유하고, 다른 사용자 및 전문가와 상호 작용할 수 있습니다.
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

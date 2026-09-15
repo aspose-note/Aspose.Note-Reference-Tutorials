@@ -50,7 +50,7 @@ Trước tiên, chúng ta cần tải sổ ghi chép OneNote mà chúng ta muố
 string dataDir = "Your Document Directory";
 
 // Tải sổ tay OneNote
-var notebook = new Notebook(dataDir + "Notizbuch �ffnen.onetoc2");
+var notebook = new Notebook(dataDir + "Notebook.onetoc2");
 ```
 
 ## Bước 2: Chỉ định tùy chọn lưu PDF

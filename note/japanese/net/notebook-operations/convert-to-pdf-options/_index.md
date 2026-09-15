@@ -50,7 +50,7 @@ using System.Collections.Generic;
 string dataDir = "Your Document Directory";
 
 // OneNote ノートブックをロードする
-var notebook = new Notebook(dataDir + "Notizbuch �ffnen.onetoc2");
+var notebook = new Notebook(dataDir + "Notebook.onetoc2");
 ```
 
 ## ステップ 2: PDF 保存オプションを指定する

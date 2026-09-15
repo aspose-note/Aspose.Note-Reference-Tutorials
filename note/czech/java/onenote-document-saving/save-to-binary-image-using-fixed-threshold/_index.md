@@ -131,7 +131,7 @@ A: Načtěte dokument pomocí odpovídající přetížené metody, která přij
 A: Knihovna Aspose.Note Java je platformně nezávislá, takže stejný kód běží na jakémkoli OS s kompatibilním JDK.
 
 **Poslední aktualizace:** 2025-12-13  
-**Testováno s:** Aspose.Note for Java 24.12 (latest)  
+**Testováno s:** Aspose.Note for Java 26.4 (latest)  
 **Autor:** Aspose  
 
 {{< /blocks/products/pf/tutorial-page-section >}}

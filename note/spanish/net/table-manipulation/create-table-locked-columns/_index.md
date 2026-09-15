@@ -59,8 +59,8 @@ Aspose.Note.Page page = new Aspose.Note.Page(doc);
 Cree objetos TableRow para la tabla:
 
 ```csharp
-TableRow row1 = new TableRow(doc);
-TableRow row2 = new TableRow(doc);
+TableRow row1 = new TableRow();
+TableRow row2 = new TableRow();
 ```
 
 ## Paso 4: inicializar los objetos TableCell
@@ -68,10 +68,10 @@ TableRow row2 = new TableRow(doc);
 Cree objetos TableCell y establezca el contenido de texto para cada celda:
 
 ```csharp
-TableCell cell11 = new TableCell(doc);
+TableCell cell11 = new TableCell();
 cell11.AppendChildLast(InsertTable.GetOutlineElementWithText(doc, "Small text"));
 
-TableCell cell21 = new TableCell(doc);
+TableCell cell21 = new TableCell();
 cell21.AppendChildLast(InsertTable.GetOutlineElementWithText(doc, "Long text with several words and spaces."));
 ```
 
@@ -80,7 +80,7 @@ cell21.AppendChildLast(InsertTable.GetOutlineElementWithText(doc, "Long text wit
 Inicialice el objeto de clase Tabla y establezca propiedades como el ancho de columna y el ancho bloqueado:
 
 ```csharp
-Table table = new Table(doc)
+Table table = new Table()
 {
     IsBordersVisible = true,
     Columns = { new TableColumn { Width = 70, LockedWidth = true } }
@@ -101,8 +101,8 @@ table.AppendChildLast(row2);
 Agregue el nodo de la tabla al OutlineElement:
 
 ```csharp
-Outline outline = new Outline(doc);
-OutlineElement outlineElem = new OutlineElement(doc);
+Outline outline = new Outline();
+OutlineElement outlineElem = new OutlineElement();
 outlineElem.AppendChildLast(table);
 outline.AppendChildLast(outlineElem);
 ```

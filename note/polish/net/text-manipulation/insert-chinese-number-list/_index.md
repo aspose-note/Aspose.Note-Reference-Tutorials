@@ -37,7 +37,7 @@ Aspose.Note.Document doc = new Aspose.Note.Document();
 ## Krok 2: Zainicjuj stronę OneNote
 ```csharp
 Aspose.Note.Page page = new Aspose.Note.Page(doc);
-Outline outline = new Outline(doc);
+Outline outline = new Outline();
 ```
 ## Krok 3: Zastosuj ustawienia stylu tekstu
 ```csharp
@@ -47,20 +47,20 @@ ParagraphStyle defaultStyle = new ParagraphStyle { FontColor = Color.Black, Font
 Utwórzmy teraz trzy elementy konspektu z chińskimi listami liczbowymi:
 ### Krok 4.1: Pierwszy element
 ```csharp
-OutlineElement outlineElem1 = new OutlineElement(doc) { NumberList = new NumberList("{0})", NumberFormat.ChineseCounting, "Arial", 10) };
-RichText text1 = new RichText(doc) { Text = "First", ParagraphStyle = defaultStyle };
+OutlineElement outlineElem1 = new OutlineElement() { NumberList = new NumberList("{0})", NumberFormat.ChineseCounting, "Arial", 10) };
+RichText text1 = new RichText() { Text = "First", ParagraphStyle = defaultStyle };
 outlineElem1.AppendChildLast(text1);
 ```
 ### Krok 4.2: Drugi element
 ```csharp
-OutlineElement outlineElem2 = new OutlineElement(doc) { NumberList = new NumberList("{0})", NumberFormat.ChineseCounting, "Arial", 10) };
-RichText text2 = new RichText(doc) { Text = "Second", ParagraphStyle = defaultStyle };
+OutlineElement outlineElem2 = new OutlineElement() { NumberList = new NumberList("{0})", NumberFormat.ChineseCounting, "Arial", 10) };
+RichText text2 = new RichText() { Text = "Second", ParagraphStyle = defaultStyle };
 outlineElem2.AppendChildLast(text2);
 ```
 ### Krok 4.3: Trzeci element
 ```csharp
-OutlineElement outlineElem3 = new OutlineElement(doc) { NumberList = new NumberList("{0})", NumberFormat.ChineseCounting, "Arial", 10) };
-RichText text3 = new RichText(doc) { Text = "Third", ParagraphStyle = defaultStyle };
+OutlineElement outlineElem3 = new OutlineElement() { NumberList = new NumberList("{0})", NumberFormat.ChineseCounting, "Arial", 10) };
+RichText text3 = new RichText() { Text = "Third", ParagraphStyle = defaultStyle };
 outlineElem3.AppendChildLast(text3);
 ```
 ## Krok 5: Dołącz elementy do konspektu

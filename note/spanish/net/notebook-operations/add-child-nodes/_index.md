@@ -47,7 +47,7 @@ Cargue el cuaderno existente donde desea agregar un nodo secundario. Puede hacer
 string dataDir = "Your Document Directory";
 
 // Cargar una libreta de OneNote
-var notebook = new Notebook(dataDir + "Notizbuch �ffnen.onetoc2");
+var notebook = new Notebook(dataDir + "Notebook.onetoc2");
 ```
 
 ## Paso 2: agregar un nuevo nodo secundario

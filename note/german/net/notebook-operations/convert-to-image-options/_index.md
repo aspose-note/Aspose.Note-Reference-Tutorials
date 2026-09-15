@@ -50,7 +50,7 @@ Laden Sie zunächst die Notebook-Datei, die Sie in ein Bild konvertieren möchte
 string dataDir = "Your Document Directory";
 
 // Laden Sie ein OneNote-Notizbuch
-var notebook = new Notebook(dataDir + "Notizbuch �ffnen.onetoc2");
+var notebook = new Notebook(dataDir + "Notebook.onetoc2");
 ```
 
 ## Schritt 2: Legen Sie die Optionen zum Speichern von Bildern fest

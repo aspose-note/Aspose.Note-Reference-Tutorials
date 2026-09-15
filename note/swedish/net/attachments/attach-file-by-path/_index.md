@@ -66,7 +66,7 @@ Aspose.Note.Page page = new Aspose.Note.Page(doc);
 ### Steg 3: Initiera Outline Object
 
 ```csharp
-Outline outline = new Outline(doc);
+Outline outline = new Outline();
 ```
 
  En`Outline` objekt skapas för att organisera innehållet på sidan.
@@ -74,7 +74,7 @@ Outline outline = new Outline(doc);
 ### Steg 4: Initiera OutlineElement-objekt
 
 ```csharp
-OutlineElement outlineElem = new OutlineElement(doc);
+OutlineElement outlineElem = new OutlineElement();
 ```
 
 `OutlineElement` representerar ett element i konturstrukturen.
@@ -82,7 +82,7 @@ OutlineElement outlineElem = new OutlineElement(doc);
 ### Steg 5: Initiera AttachedFile Object
 
 ```csharp
-AttachedFile attachedFile = new AttachedFile(doc,  dataDir + "attachment.txt");
+AttachedFile attachedFile = new AttachedFile(dataDir + "attachment.txt");
 ```
 
  Här skapar vi en instans av`AttachedFile`, och anger sökvägen till filen vi vill bifoga.

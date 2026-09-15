@@ -42,7 +42,7 @@ Untuk memulai, kita perlu memuat buku catatan OneNote yang ingin kita konversi. 
 
 ```csharp
 string dataDir = "Your Document Directory";
-var notebook = new Notebook(dataDir + "Notizbuch �ffnen.onetoc2");
+var notebook = new Notebook(dataDir + "Notebook.onetoc2");
 ```
 
 ## Langkah 2: Simpan Buku Catatan sebagai Gambar

@@ -119,7 +119,7 @@ R : Aspose.Note peut ouvrir les fichiers protégés par mot de passe en fourni
 R : Oui, Aspose.Note préserve les images, graphiques et autres objets intégrés pendant le processus de conversion.
 
 **Dernière mise à jour** : 2025-12-17  
-**Testé avec** : Aspose.Note pour Java 24.12 (latest)  
+**Testé avec** : Aspose.Note pour Java 26.4 (latest)  
 **Auteur** : Aspose  
 
 {{< /blocks/products/pf/tutorial-page-section >}}

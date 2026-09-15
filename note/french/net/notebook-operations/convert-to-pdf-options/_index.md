@@ -50,7 +50,7 @@ Tout d’abord, nous devons charger le bloc-notes OneNote que nous souhaitons co
 string dataDir = "Your Document Directory";
 
 // Charger un bloc-notes OneNote
-var notebook = new Notebook(dataDir + "Notizbuch �ffnen.onetoc2");
+var notebook = new Notebook(dataDir + "Notebook.onetoc2");
 ```
 
 ## Étape 2 : Spécifier les options d'enregistrement PDF

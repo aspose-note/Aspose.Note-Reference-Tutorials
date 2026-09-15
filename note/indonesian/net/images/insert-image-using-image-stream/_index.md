@@ -54,8 +54,8 @@ Kami membuat objek Halaman baru untuk menambahkan konten ke dalamnya.
 
 ## Langkah 3: Inisialisasi Objek Outline dan OutlineElement
 ```csharp
-Outline outline1 = new Outline(doc);
-OutlineElement outlineElem1 = new OutlineElement(doc);
+Outline outline1 = new Outline();
+OutlineElement outlineElem1 = new OutlineElement();
 ```
 Kami membuat instance kelas Outline dan OutlineElement untuk menyusun konten kami di dalam halaman.
 

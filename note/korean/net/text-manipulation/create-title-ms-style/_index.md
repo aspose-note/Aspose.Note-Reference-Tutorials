@@ -37,24 +37,24 @@ string outputPath = dataDir + "CreateTitleMsStyle_out.one";
  새 인스턴스화`Document` 그리고`Page` .NET용 Aspose.Note를 사용합니다.
 ```csharp
 var doc = new Document();
-var page = new Page(doc);
+var page = new Page();
 ```
 ## 3단계: Microsoft OneNote 스타일로 제목 정의
 이제 Microsoft OneNote 스타일로 페이지 제목을 만드세요. 여기에는 타이틀 텍스트, 날짜 및 시간 설정이 포함됩니다.
 ```csharp
-page.Title = new Title(doc)
+page.Title = new Title()
 {
-    TitleText = new RichText(doc)
+    TitleText = new RichText()
     {
         Text = "Title text.",
         ParagraphStyle = ParagraphStyle.Default
     },
-    TitleDate = new RichText(doc)
+    TitleDate = new RichText()
     {
         Text = new DateTime(2011, 11, 11).ToString("D", CultureInfo.InvariantCulture),
         ParagraphStyle = ParagraphStyle.Default
     },
-    TitleTime = new RichText(doc)
+    TitleTime = new RichText()
     {
         Text = "12:34",
         ParagraphStyle = ParagraphStyle.Default

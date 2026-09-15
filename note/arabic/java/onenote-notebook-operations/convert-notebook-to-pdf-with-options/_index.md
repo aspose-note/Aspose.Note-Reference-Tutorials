@@ -1,53 +1,33 @@
 ---
-date: 2026-03-29
-description: تحويل دفاتر OneNote إلى PDF مع خيارات، حفظ الدفتر كملف PDF، وإضافة رأس
-  وتذييل PDF باستخدام Aspose.Note للغة Java.
-linktitle: Convert Notebook to PDF with Options in OneNote - Aspose.Note
-second_title: Aspose.Note Java API
-title: تحويل OneNote إلى PDF مع خيارات - Aspose.Note
-url: /ar/java/onenote-notebook-operations/convert-notebook-to-pdf-with-options/
+title: تحويل دفتر الملاحظات إلى PDF باستخدام الخيارات في OneNote - Aspose.Note
+linktitle: تحويل دفتر الملاحظات إلى PDF باستخدام الخيارات في OneNote - Aspose.Note
+second_title: Aspose.Note جافا API
+description: قم بتخصيص وتصدير دفاتر ملاحظات OneNote إلى PDF بسهولة! Aspose.Note لـ Java يتعامل مع الرفع الثقيل. دليل خطوة بخطوة متضمن! #OneNote #Java #Aspose
 weight: 17
+url: /ar/java/onenote-notebook-operations/convert-notebook-to-pdf-with-options/
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# تحويل OneNote إلى PDF مع خيارات باستخدام Aspose.Note
+# تحويل دفتر الملاحظات إلى PDF باستخدام الخيارات في OneNote - Aspose.Note
 
-## المقدمة
+## مقدمة
 
-في هذا الدرس ستتعلم كيفية **convert onenote to pdf** مع تحكم كامل في الناتج. تجعل Aspose.Note for Java عملية تصدير دفاتر OneNote إلى PDF سهلة، مما يتيح لك **save notebook as pdf** مع تخصيص رؤوس وتذييلات الصفحات وسلوك تقسيم الصفحات. سواء كنت بحاجة إلى إنشاء تقارير، أرشفة ملاحظات الاجتماعات، أو مشاركة المحتوى مع المستخدمين الذين لا يمتلكون OneNote، فإن هذا الدليل يرافقك في كل خطوة.
+في هذا البرنامج التعليمي، سنتعمق في عالم تحويل دفاتر الملاحظات إلى PDF مع خيارات قابلة للتخصيص باستخدام Aspose.Note لـ Java. Aspose.Note عبارة عن واجهة برمجة تطبيقات Java قوية تسمح للمطورين بمعالجة مستندات Microsoft OneNote برمجيًا. يعد تحويل دفاتر الملاحظات إلى تنسيق PDF متطلبًا شائعًا في العديد من التطبيقات، ومع Aspose.Note، تصبح هذه المهمة مبسطة وفعالة.
 
-## إجابات سريعة
-- **ما المكتبة التي تتعامل مع التحويل؟** Aspose.Note for Java.
-- **هل يمكنني إضافة رأس أو تذييل إلى PDF؟** نعم – استخدم خيارات حفظ PDF لإدراج رؤوس/تذييلات مخصصة.
-- **هل أحتاج إلى ترخيص للإنتاج؟** الترخيص التجاري مطلوب للاستخدام غير التجريبي.
-- **ما إصدارات Java المدعومة؟** Java 8 وما بعدها.
-- **كم يستغرق التحويل من الوقت؟** عادةً بضع ثوانٍ للدفاتر ذات الحجم المتوسط.
+## المتطلبات الأساسية
 
-## ما هو “convert onenote to pdf”؟
+قبل أن نبدأ، تأكد من توفر المتطلبات الأساسية التالية:
 
-تحويل OneNote إلى PDF يعني أخذ دفتر OneNote (ملف *.onetoc2*) وتحويل كل صفحة إلى صفحة PDF. يحافظ PDF الناتج على النصوص والصور والتخطيط، مما يجعله قابلاً للعرض على أي جهاز دون الحاجة إلى OneNote.
+1. Java Development Kit (JDK): تأكد من تثبيت JDK على نظامك.
+2. Aspose.Note لـ Java: قم بتنزيل Aspose.Note لـ Java وتثبيته من[رابط التحميل](https://releases.aspose.com/note/java/).
+3. IDE (بيئة التطوير المتكاملة): اختر IDE المفضل لديك لتطوير Java. تعد IntelliJ IDEA أو Eclipse أو NetBeans من الخيارات الشائعة.
 
-## لماذا نستخدم Aspose.Note لتصدير دفتر onenote إلى pdf؟
+## حزم الاستيراد
 
-- **لا يتطلب تثبيت Office** – الـ API يعمل بشكل مستقل.
-- **تحكم دقيق** – يمكنك ضبط خوارزميات تقسيم الصفحات، تضمين الخطوط، وإضافة رؤوس/تذييلات.
-- **دقة عالية** – يتم الحفاظ على المظهر البصري للدفتر الأصلي.
-- **متعدد المنصات** – يعمل على Windows وLinux وmacOS مع أي بيئة تشغيل Java.
-
-## المتطلبات المسبقة
-
-قبل أن نبدأ، تأكد من توفر المتطلبات التالية:
-
-1. Java Development Kit (JDK) – تم تثبيت JDK 8 أو أحدث.
-2. Aspose.Note for Java – قم بتنزيله وتثبيته من [download link](https://releases.aspose.com/note/java/).
-3. IDE (بيئة التطوير المتكاملة) – IntelliJ IDEA أو Eclipse أو NetBeans هي خيارات شائعة.
-
-## استيراد الحزم
-
-أولاً، تحتاج إلى استيراد الحزم الضرورية إلى مشروع Java الخاص بك. توفر هذه الحزم الفئات والطرق المطلوبة للعمل مع مستندات OneNote.
+أولاً، تحتاج إلى استيراد الحزم الضرورية إلى مشروع Java الخاص بك. توفر هذه الحزم الفئات والأساليب المطلوبة للعمل مع مستندات OneNote.
 
 ```java
 import com.aspose.note.Notebook;
@@ -58,87 +38,64 @@ import com.aspose.note.NotebookPdfSaveOptions;
 import com.aspose.note.PdfSaveOptions;
 ```
 
-## الخطوة 1: تحميل دفتر OneNote
+## الخطوة 1: قم بتحميل دفتر ملاحظات OneNote
 
-لـ **convert onenote to pdf**، تحتاج أولاً إلى تحميل دفتر OneNote. تأكد من تحديد مسار ملف الدفتر بشكل صحيح.
+لتحويل دفتر ملاحظات إلى PDF، يتعين عليك تحميل دفتر ملاحظات OneNote أولاً. تأكد من تحديد المسار إلى ملف دفتر الملاحظات بشكل صحيح.
 
 ```java
 String dataDir = "Your Document Directory";
-// Load a OneNote Notebook
-Notebook notebook = new Notebook(dataDir + "Notizbuch �ffnen.onetoc2");
+// قم بتحميل دفتر ملاحظات OneNote
+Notebook notebook = new Notebook(dataDir + "Notebook.onetoc2");
 ```
 
-## الخطوة 2: تحديد خيارات حفظ PDF
+## الخطوة 2: حدد خيارات حفظ PDF
 
-توفر Aspose.Note خيارات متعددة لتخصيص مخرجات PDF. يمكنك تحديد خيارات مثل خوارزميات تقسيم الصفحات، إعدادات الرأس/التذييل، وأكثر.
+يوفر Aspose.Note خيارات متنوعة لتخصيص مخرجات PDF. يمكنك تحديد خيارات مثل خوارزميات تقسيم الصفحة وإعدادات الرأس/التذييل والمزيد.
 
 ```java
-// Specify PDF save options
+// حدد خيارات حفظ PDF
 NotebookPdfSaveOptions notebookSaveOptions = new NotebookPdfSaveOptions();
 PdfSaveOptions documentSaveOptions = notebookSaveOptions.getDocumentSaveOptions();
 documentSaveOptions.setPageSplittingAlgorithm(new KeepSolidObjectsAlgorithm());
 ```
 
-## الخطوة 3: حفظ الدفتر كملف PDF
+## الخطوة 3: احفظ دفتر الملاحظات بصيغة PDF
 
-بعد تحميل الدفتر وتحديد خيارات الحفظ، حان الوقت لـ **save the notebook as pdf**.
+بمجرد تحميل دفتر الملاحظات وتحديد خيارات الحفظ، فقد حان الوقت لحفظ دفتر الملاحظات كملف PDF.
 
 ```java
 dataDir = dataDir + "ExportNotebooktoPDFwithOptions_out.pdf";
-// Save the Notebook
+// احفظ دفتر الملاحظات
 notebook.save(dataDir, notebookSaveOptions);
 ```
 
-## المشكلات الشائعة والحلول
+## خاتمة
 
-| المشكلة | السبب | الحل |
-|-------|-------|----------|
-| PDF يفتقد الصور | الصور مخزنة ككائنات مدمجة ولم يتم تحميلها | تأكد من أن ملف الدفتر وجميع الموارد المرتبطة موجودة في نفس الدليل قبل التحميل. |
-| الرأس/التذييل لا يظهر | لم يتم تعيين خيارات الرأس/التذييل في `PdfSaveOptions` | استخدم `documentSaveOptions.setHeaderFooter()` لتحديد المحتوى قبل الحفظ. |
-| خطأ الذاكرة في دفاتر كبيرة | تم تحميل الدفتر بالكامل في الذاكرة | قم بمعالجة الدفتر على أقسام أو زد حجم ذاكرة JVM (`-Xmx2g`). |
-
-## الأسئلة المتكررة
-
-### س1: هل يمكنني تخصيص مظهر مخرجات PDF؟
-
-ج1: نعم، توفر Aspose.Note خيارات متعددة لتخصيص مخرجات PDF، بما في ذلك إعدادات الرأس/التذييل، خوارزميات تقسيم الصفحات، وأكثر.
-
-### س2: هل Aspose.Note متوافق مع جميع إصدارات OneNote؟
-
-ج2: يدعم Aspose.Note Microsoft OneNote 2010 والإصدارات الأحدث.
-
-### س3: هل تقدم Aspose.Note نسخة تجريبية مجانية؟
-
-ج3: نعم، يمكنك تنزيل نسخة تجريبية مجانية من Aspose.Note من [here](https://releases.aspose.com/).
-
-### س4: أين يمكنني العثور على وثائق Aspose.Note؟
-
-ج4: يمكنك العثور على وثائق شاملة لـ Aspose.Note [here](https://reference.aspose.com/note/java/).
-
-### س5: كيف يمكنني الحصول على دعم Aspose.Note؟
-
-ج5: لأي مساعدة تقنية أو استفسارات، يمكنك زيارة منتدى دعم Aspose.Note [here](https://forum.aspose.com/c/note/28).
-
-## أسئلة متكررة إضافية
-
-**س: كيف أضيف رأس أو تذييل PDF مخصص؟**  
-ج: أنشئ كائن `PdfHeaderFooterOptions`، قم بتكوين النص أو الصور، وعيّنها إلى `documentSaveOptions.setHeaderFooterOptions()` قبل استدعاء `save`.
-
-**س: هل يمكنني تصدير أقسام محددة فقط من الدفتر؟**  
-ج: نعم – قم بتحميل الدفتر، استخرج كائنات `Section` المطلوبة، واستدعِ `section.save()` مع نفس خيارات PDF.
-
-**س: هل يمكن تشفير PDF المُولد؟**  
-ج: بالتأكيد. استخدم `documentSaveOptions.setEncryptionPassword("yourPassword")` لحماية PDF.
-
-**س: ما هي الاعتبارات المتعلقة بالأداء التي يجب أن أضعها في الاعتبار؟**  
-ج: بالنسبة للدفاتر الكبيرة جدًا، فكر في تدفق الإخراج إلى `FileOutputStream` وزيادة حجم ذاكرة JVM إذا واجهت `OutOfMemoryError`.
+في هذا البرنامج التعليمي، اكتشفنا كيفية تحويل دفاتر ملاحظات OneNote إلى تنسيق PDF باستخدام Aspose.Note لـ Java. باتباع هذه الخطوات البسيطة، يمكنك التعامل بكفاءة مع تحويلات المستندات في تطبيقات Java الخاصة بك.
 
 ---
 
-**آخر تحديث:** 2026-03-29  
-**تم الاختبار مع:** Aspose.Note for Java 24.12  
-**المؤلف:** Aspose  
+## الأسئلة الشائعة
 
+### س1: هل يمكنني تخصيص مظهر مخرجات PDF؟
+
+ج1: نعم، يوفر Aspose.Note خيارات متنوعة لتخصيص مخرجات PDF، بما في ذلك إعدادات الرأس/التذييل وخوارزميات تقسيم الصفحة والمزيد.
+
+### س2: هل Aspose.Note متوافق مع كافة إصدارات OneNote؟
+
+ج2: يدعم Aspose.Note Microsoft OneNote 2010 والإصدارات الأحدث.
+
+### س3: هل يقدم Aspose.Note نسخة تجريبية مجانية؟
+
+ ج3: نعم، يمكنك تنزيل نسخة تجريبية مجانية من Aspose.Note من[هنا](https://releases.aspose.com/).
+
+### س4: أين يمكنني العثور على وثائق Aspose.Note؟
+
+ ج4: يمكنك العثور على وثائق شاملة لـ Aspose.Note[هنا](https://reference.aspose.com/note/java/).
+
+### س5: كيف يمكنني الحصول على الدعم لـ Aspose.Note؟
+
+ ج5: للحصول على أي مساعدة فنية أو استفسارات، يمكنك زيارة منتدى دعم Aspose.Note[هنا](https://forum.aspose.com/c/note/28).
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

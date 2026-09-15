@@ -48,7 +48,7 @@ Pertama, muat buku catatan OneNote yang ingin Anda konversi menjadi aplikasi And
 string dataDir = "Your Document Directory";
 
 // Memuat Buku Catatan OneNote
-var notebook = new Notebook(dataDir + "Notizbuch öffnen.onetoc2");
+var notebook = new Notebook(dataDir + "Notebook.onetoc2");
 ```
 
 ## Langkah 2: Tetapkan Opsi Penyimpanan

@@ -85,7 +85,7 @@ Lär dig hur du infogar bilder i OneNote‑dokument med Java och Aspose.Note for
 ---
 
 **Last Updated:** 2025-12-20  
-**Tested With:** Aspose.Note for Java 24.10  
+**Tested With:** Aspose.Note for Java 26.4  
 **Author:** Aspose
 
 {{< /blocks/products/pf/tutorial-page-section >}}

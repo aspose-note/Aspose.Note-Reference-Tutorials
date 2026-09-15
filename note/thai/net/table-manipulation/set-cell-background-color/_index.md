@@ -49,7 +49,7 @@ Document doc = new Document();
 สร้างวัตถุ TableCell และตั้งค่าเนื้อหาข้อความพร้อมกับสีพื้นหลัง:
 
 ```csharp
-TableCell cell11 = new TableCell(doc);
+TableCell cell11 = new TableCell();
 cell11.AppendChildLast(InsertTable.GetOutlineElementWithText(doc, "Small text"));
 cell11.BackgroundColor = Color.Coral;
 ```
@@ -59,7 +59,7 @@ cell11.BackgroundColor = Color.Coral;
 เริ่มต้นวัตถุ TableRow และผนวกเซลล์ที่สร้างไว้ก่อนหน้านี้:
 
 ```csharp
-TableRow row = new TableRow(doc);
+TableRow row = new TableRow();
 row.AppendChildLast(cell11);
 ```
 
@@ -68,7 +68,7 @@ row.AppendChildLast(cell11);
 สร้างตารางที่มีคอลัมน์ที่ระบุและทำให้เส้นขอบมองเห็นได้:
 
 ```csharp
-Table table = new Table(doc)
+Table table = new Table()
 {
     IsBordersVisible = true,
     Columns = { new TableColumn() { Width = 200 } }
@@ -81,13 +81,13 @@ table.AppendChildLast(row);
 สร้างองค์ประกอบเค้าร่างและหน้า และผนวกตารางเข้ากับหน้า:
 
 ```csharp
-OutlineElement oe = new OutlineElement(doc);
+OutlineElement oe = new OutlineElement();
 oe.AppendChildLast(table);
 
-Outline o = new Outline(doc);
+Outline o = new Outline();
 o.AppendChildLast(oe);
 
-Page page = new Page(doc);
+Page page = new Page();
 page.AppendChildLast(o);
 
 doc.AppendChildLast(page);

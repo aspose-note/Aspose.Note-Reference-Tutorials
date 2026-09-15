@@ -47,10 +47,10 @@ Aspose.Note.Page page = new Aspose.Note.Page(doc);
 
 Initialiseer vervolgens de tabelrijen en -cellen om uw tabel te structureren.
 ```csharp
-TableRow row1 = new TableRow(doc);
-TableCell cell11 = new TableCell(doc);
-TableCell cell12 = new TableCell(doc);
-TableCell cell13 = new TableCell(doc);
+TableRow row1 = new TableRow();
+TableCell cell11 = new TableCell();
+TableCell cell12 = new TableCell();
+TableCell cell13 = new TableCell();
 ```
 
 ## Stap 3: Tabelcellen vullen
@@ -75,7 +75,7 @@ row1.AppendChildLast(cell13);
 
 Maak het tabelobject en stel de eigenschappen ervan in, zoals de zichtbaarheid van de randen en de kolombreedte.
 ```csharp
-Table table = new Table(doc)
+Table table = new Table()
 {
     IsBordersVisible = true,
     Columns = { new TableColumn { Width = 200 }, new TableColumn { Width = 200 }, new TableColumn { Width = 200 } }
@@ -94,8 +94,8 @@ table.AppendChildLast(row2);
 
 Neem de tabel op in de documentstructuur door deze aan het overzicht toe te voegen.
 ```csharp
-Outline outline = new Outline(doc);
-OutlineElement outlineElem = new OutlineElement(doc);
+Outline outline = new Outline();
+OutlineElement outlineElem = new OutlineElement();
 outlineElem.AppendChildLast(table);
 outline.AppendChildLast(outlineElem);
 page.AppendChildLast(outline);

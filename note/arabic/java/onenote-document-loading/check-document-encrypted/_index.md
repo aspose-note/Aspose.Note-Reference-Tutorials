@@ -23,7 +23,7 @@ weight: 10
 
 - **ما الطريقة التي تحدد التشفير؟** `Document.isEncrypted`  
 - **هل أحتاج كلمة مرور للتحقق؟** لا، يمكنك الاستعلام عن الحالة دون كلمة مرور.  
-- **أي نسخة من API تعمل؟** أي إصدار حديث من Aspose.Note for Java (تم الاختبار مع 24.11).  
+- **أي نسخة من API تعمل؟** أي إصدار حديث من Aspose.Note for Java (تم الاختبار مع 26.4).  
 - **هل يمكنني التحقق من كل من التدفقات ومسارات الملفات؟** نعم – API يدعم كلاهما.  
 - **ماذا يحدث إذا كانت كلمة المرور خاطئة؟** تُعيد الطريقة `true`، مما يدل على أن الملف لا يزال مشفرًا.  
 
@@ -147,7 +147,7 @@ public static void CheckIfDocumentFromFileIsEncrypted() throws IOException {
 ---  
 
 **آخر تحديث:** 2025-11-29  
-**تم الاختبار مع:** Aspose.Note 24.11 for Java  
+**تم الاختبار مع:** Aspose.Note 26.4 for Java  
 **المؤلف:** Aspose  
 
 {{< /blocks/products/pf/tutorial-page-section >}}  

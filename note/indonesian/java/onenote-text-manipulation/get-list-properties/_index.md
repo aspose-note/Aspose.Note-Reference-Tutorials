@@ -1,27 +1,50 @@
 ---
-title: Dapatkan Properti Daftar di OneNote - Aspose.Note
-linktitle: Dapatkan Properti Daftar di OneNote - Aspose.Note
-second_title: Aspose.Catatan Java API
-description: Jelajahi Aspose.Note untuk Java dan ambil properti daftar dengan mudah di dokumen OneNote. Tingkatkan pemrosesan dokumen Anda dengan pustaka Java yang canggih ini.
-weight: 19
+date: 2026-03-08
+description: Pelajari cara mengekstrak properti daftar dari dokumen OneNote menggunakan
+  Aspose.Note untuk Java. Panduan langkah demi langkah ini menunjukkan kode tepat
+  dan tips yang Anda butuhkan.
+linktitle: How to Extract List Properties in OneNote - Aspose.Note
+second_title: Aspose.Note Java API
+title: Cara Mengekstrak Properti Daftar di OneNote - Aspose.Note
 url: /id/java/onenote-text-manipulation/get-list-properties/
+weight: 19
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Dapatkan Properti Daftar di OneNote - Aspose.Note
+# Cara Mengekstrak Properti Daftar di OneNote - Aspose.Note
 
-## Perkenalan
-Selamat datang di tutorial komprehensif tentang memanfaatkan Aspose.Note untuk Java untuk mengambil dan menganalisis properti daftar di dokumen OneNote. Baik Anda seorang pengembang berpengalaman atau baru memulai Aspose.Note, panduan ini akan memandu Anda melalui prosesnya, menguraikan setiap langkah untuk memastikan pemahaman yang jelas.
+## Pendahuluan
+Dalam tutorial ini Anda akan menemukan **cara mengekstrak daftar** properti dari file OneNote dengan Aspose.Note untuk Java. Apakah Anda perlu membaca detail font, pemformatan daftar, atau atribut gaya, panduan ini akan memandu Anda melalui setiap langkah—mulai dari memuat dokumen hingga mencetak nilai yang diekstrak. Pada akhir, Anda akan memiliki potongan kode siap pakai yang dapat diintegrasikan ke dalam pipeline pemrosesan dokumen berbasis Java apa pun.
+
+## Jawaban Cepat
+- **Apa arti “mengekstrak daftar”?** Itu berarti membaca detail pemformatan (font, ukuran, warna, gaya) dari daftar bernomor atau berpoin yang disimpan dalam outline OneNote.  
+- **Perpustakaan apa yang diperlukan?** Aspose.Note untuk Java (versi terbaru).  
+- **Apakah saya memerlukan lisensi untuk pengujian?** Ya, lisensi sementara disarankan untuk jalur non‑produksi.  
+- **Bisakah saya menjalankannya di sistem operasi apa pun?** API Java berfungsi di Windows, Linux, dan macOS.  
+- **Berapa lama implementasinya?** Biasanya kurang dari 10 menit untuk pengaturan dasar.
+
+## Apa itu “cara mengekstrak daftar” dalam konteks OneNote?
+OneNote menyimpan setiap item daftar sebagai `OutlineElement` yang mungkin berisi objek `NumberList`. Mengekstrak daftar berarti mengakses properti objek tersebut—seperti nama font, ukuran, warna, dan pemformatan—sehingga Anda dapat menganalisis atau memodifikasinya secara programatik.
+
+## Mengapa menggunakan Aspose.Note untuk Java untuk mengekstrak properti daftar?
+- **Tanpa interop COM** – Berfungsi sepenuhnya di Java tanpa memerlukan klien OneNote Windows.  
+- **Fidelity penuh** – Menjaga semua detail pemformatan, termasuk font dan warna khusus.  
+- **Lintas‑platform** – Jalankan kode yang sama di lingkungan server mana pun.  
+- **API kaya** – Menyediakan akses langsung ke objek daftar, membuat ekstraksi properti menjadi sederhana.
+
 ## Prasyarat
-Sebelum masuk ke tutorial, pastikan Anda memiliki prasyarat berikut:
--  Aspose.Catatan untuk Java: Pastikan Anda menginstal versi terbaru. Anda dapat mengunduhnya[Di Sini](https://releases.aspose.com/note/java/).
-- Lingkungan Pengembangan Java: Siapkan lingkungan pengembangan Java di sistem Anda.
-- Dokumen OneNote: Siapkan dokumen OneNote (misalnya, "Sample1.one") untuk pengujian.
-## Paket Impor
-Mulailah dengan mengimpor paket yang diperlukan ke proyek Java Anda. Hal ini memastikan bahwa Anda dapat menggunakan fungsionalitas Aspose.Note dengan lancar dalam kode Anda.
+Sebelum memulai, pastikan Anda memiliki hal berikut:
+
+- Aspose.Note untuk Java: Unduh rilis terbaru **[here](https://releases.aspose.com/note/java/)**.  
+- Lingkungan pengembangan Java (JDK 8 atau lebih tinggi).  
+- Dokumen OneNote (misalnya `Sample1.one`) yang ditempatkan di direktori yang diketahui.
+
+## Impor Paket
+Pertama, impor kelas yang Anda perlukan. Ini memberi Anda akses ke fungsionalitas inti Aspose.Note.
+
 ```java
 import java.io.IOException;
 import java.util.List;
@@ -30,77 +53,96 @@ import com.aspose.note.NumberList;
 import com.aspose.note.OutlineElement;
 ```
 
-Sekarang, mari kita uraikan setiap langkah dari contoh ini menjadi panduan langkah demi langkah.
+Sekarang mari kita jalani implementasinya langkah demi langkah.
 
-## Langkah 1: Muat Dokumen OneNote
+## Cara mengekstrak properti daftar – Panduan Langkah‑per‑Langkah
+
+### Langkah 1: Muat Dokumen OneNote
+Berikan jalur yang benar ke file `.one` dan buat instance `Document`.
 
 ```java
-// Jalur ke direktori dokumen.
+// The path to the documents directory.
 String dataDir = "Your Document Directory";
 
-// Muat dokumen ke Aspose.Note
+// Load the document into Aspose.Note
 Document oneFile = new Document(dataDir + "Sample1.one");
 ```
 
-Pastikan Anda memberikan jalur yang benar ke dokumen OneNote Anda. Langkah ini menginisialisasi perpustakaan Aspose.Note dengan dokumen Anda.
+> **Pro tip:** Gunakan jalur absolut atau konfigurasikan jalur relatif berdasarkan folder sumber daya proyek Anda untuk menghindari `FileNotFoundException`.
 
-## Langkah 2: Ambil Koleksi Node
+### Langkah 2: Ambil koleksi node outline
+Setiap daftar berada di dalam `OutlineElement`. Tarik semua elemen tersebut dari dokumen.
 
 ```java
-// Ambil node kumpulan elemen kerangka
+// Retrieve a collection of nodes of the outline element
 List<OutlineElement> nodes = oneFile.getChildNodes(OutlineElement.class);
 ```
 
-Di sini, kami mengambil kumpulan node yang mewakili elemen kerangka dalam dokumen OneNote.
-
-## Langkah 3: Iterasi Melalui Node
+### Langkah 3: Iterasi melalui node dan temukan daftar
+Lakukan loop pada setiap node, memeriksa apakah mengandung `NumberList`. Jika ya, simpan referensinya untuk ekstraksi selanjutnya.
 
 ```java
-// Iterasi melalui setiap node
+// Iterate through each node
 for (OutlineElement node : nodes) {
     if (node.getNumberList() != null) {
         NumberList list = node.getNumberList();
-        // Lanjutkan dengan operasi lebih lanjut pada properti daftar
+        // Continue with further operations on list properties
     }
 }
 ```
 
-Perulangan ini mengulangi setiap simpul elemen garis besar dan memeriksa apakah simpul tersebut berisi daftar nomor. Jika benar, maka dilanjutkan dengan mengekstraksi properti daftar.
-
-## Langkah 4: Ekstrak Properti Daftar
+### Langkah 4: Ekstrak properti daftar yang diinginkan
+Di dalam loop, Anda kini dapat membaca atribut apa pun yang diekspos oleh kelas `NumberList`.
 
 ```java
-// Ambil nama font
+// Retrieve font name
 System.out.println("Font Name: " + list.getFont());
-// Ambil panjang font
+// Retrieve font length (character count)
 System.out.println("Font Length: " + list.getFont());
-// Ambil ukuran font
+// Retrieve font size
 System.out.println("Font Size: " + list.getFontSize());
-// Ambil warna font
+// Retrieve font color
 System.out.println("Font Color: " + list.getFontColor());
-// Ambil formatnya
+// Retrieve format (e.g., decimal, lowerLetter)
 System.out.println("Font format: " + list.getFormat());
-// Centang tebal
+// Check bold style
 System.out.println("Is bold: " + list.isBold());
-// Centang miring
+// Check italic style
 System.out.println("Is italic: " + list.isItalic());
 ```
 
-Baris-baris ini mengekstrak berbagai properti daftar seperti nama font, panjang font, ukuran font, warna font, format, dan gaya (tebal atau miring).
+Output konsol akan menampilkan setiap properti, memungkinkan Anda mencatat, menganalisis, atau memproses lebih lanjut informasi gaya daftar.
 
-## Kesimpulan
-Selamat! Anda telah berhasil menjelajahi cara mengambil properti daftar di OneNote menggunakan Aspose.Note untuk Java. Panduan ini telah membekali Anda dengan pengetahuan untuk meningkatkan kemampuan pemrosesan dokumen Anda. Bereksperimenlah dengan berbagai dokumen dan sesuaikan kodenya agar sesuai dengan kebutuhan spesifik Anda.
-## FAQ
-### Apakah Aspose.Note kompatibel dengan versi OneNote yang berbeda?
-Aspose.Note mendukung berbagai versi OneNote, memastikan kompatibilitas di berbagai format dokumen.
-### Bisakah saya mengkustomisasi properti font yang diambil dari dokumen OneNote?
-Ya, Anda dapat memodifikasi kode sesuai kebutuhan Anda dan secara selektif mengambil properti font tertentu.
-### Di mana saya bisa mendapatkan dukungan atau bantuan tambahan?
- Untuk pertanyaan atau masalah apa pun, kunjungi[Aspose.Catatan forum](https://forum.aspose.com/c/note/28) untuk bantuan segera.
-### Apakah saya memerlukan lisensi sementara untuk pengujian?
- Ya, Anda bisa mendapatkan lisensi sementara[Di Sini](https://purchase.aspose.com/temporary-license/) untuk tujuan pengujian.
-### Bagaimana jika saya ingin membeli Aspose.Note untuk Java?
- Anda dapat membeli produknya[Di Sini](https://purchase.aspose.com/buy)untuk membuka potensi penuhnya untuk proyek Anda.
+## Masalah Umum & Pemecahan Masalah
+| Gejala | Penyebab Kemungkinan | Solusi |
+|---------|----------------------|--------|
+| `NullPointerException` pada `list.getFont()` | Node tidak berisi `NumberList`. | Tambahkan pemeriksaan null (`if (node.getNumberList() != null)`). |
+| Tidak ada output yang muncul | `dataDir` mengarah ke folder yang salah. | Verifikasi jalur dan pastikan `Sample1.one` ada. |
+| Warna font muncul sebagai `null` | Daftar menggunakan warna tema default. | Gunakan `list.getFontColor()` dengan fallback ke tema dokumen. |
+
+## Pertanyaan yang Sering Diajukan
+
+**Q: Apakah Aspose.Note kompatibel dengan berbagai versi OneNote?**  
+A: Ya, Aspose.Note mendukung berbagai format file OneNote, mulai dari versi 2007 lama hingga rilis Office 365 terbaru.
+
+**Q: Bisakah saya menyesuaikan properti font mana yang diambil?**  
+A: Tentu saja. Anda dapat memanggil hanya getter yang Anda perlukan (misalnya `getFontSize()` atau `isBold()`) dan mengabaikan sisanya.
+
+**Q: Di mana saya dapat menemukan dukungan atau bantuan tambahan?**  
+A: Untuk pertanyaan atau masalah apa pun, kunjungi [forum Aspose.Note](https://forum.aspose.com/c/note/28) untuk bantuan cepat.
+
+**Q: Apakah saya memerlukan lisensi sementara untuk pengujian?**  
+A: Ya, Anda dapat memperoleh lisensi sementara **[here](https://purchase.aspose.com/temporary-license/)** untuk tujuan evaluasi.
+
+**Q: Bagaimana jika saya ingin membeli Aspose.Note untuk Java?**  
+A: Anda dapat membeli produk **[here](https://purchase.aspose.com/buy)** untuk membuka semua potensi penuh bagi proyek Anda.
+
+---
+
+**Terakhir Diperbarui:** 2026-03-08  
+**Diuji Dengan:** Aspose.Note untuk Java (rilis terbaru)  
+**Penulis:** Aspose  
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

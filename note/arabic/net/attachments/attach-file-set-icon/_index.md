@@ -56,13 +56,13 @@ Aspose.Note.Page page = new Aspose.Note.Page(doc);
 ### الخطوة 3: تهيئة كائن المخطط التفصيلي
 
 ```csharp
-Outline outline = new Outline(doc);
+Outline outline = new Outline();
 ```
 
 ### الخطوة 4: تهيئة كائن OutlineElement
 
 ```csharp
-OutlineElement outlineElem = new OutlineElement(doc);
+OutlineElement outlineElem = new OutlineElement();
 ```
 
 ### الخطوة 5: قراءة الملف وتهيئة كائن الملف المرفق
@@ -71,7 +71,7 @@ OutlineElement outlineElem = new OutlineElement(doc);
 string dataDir = "Your Document Directory";
 using (var stream = File.OpenRead(dataDir + "icon.jpg"))
 {
-    AttachedFile attachedFile = new AttachedFile(doc, dataDir + "attachment.txt", stream, ImageFormat.Jpeg);
+    AttachedFile attachedFile = new AttachedFile(dataDir + "attachment.txt", stream, ImageFormat.Jpeg);
 }
 ```
 

@@ -49,7 +49,7 @@ NotebookLoadOptions loadOptions = new NotebookLoadOptions { InstantLoading = tru
 Ezután adja meg a notebook fájl elérési útját, és inicializálja a notebook objektumot a megadott betöltési beállításokkal.
 
 ```csharp
-String inputFile = "Notizbuch öffnen.onetoc2";
+String inputFile = "Notebook.onetoc2";
 String dataDir = "Your Document Directory";
 Notebook notebook = new Notebook(dataDir + inputFile, loadOptions);
 ```

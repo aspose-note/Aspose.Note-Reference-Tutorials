@@ -23,7 +23,7 @@ weight: 16
 - **需要哪個程式庫？** Aspose.Note for Java  
 - **我可以只轉換選取的頁面嗎？** 是 – 使用 `PdfSaveOptions.setPageIndex` 和 `setPageCount`  
 - **生產環境需要授權嗎？** 非試用版需購買商業授權  
-- **支援哪個 Java 版本？** JDK 8 或以上（建議使用 JDK 15）  
+- **支援哪個 Java 版本？** JDK 8 或以上（建議使用 JDK 8）  
 - **輸出的 PDF 可搜尋嗎？** 是，預設會保留可搜尋的文字  
 
 ## 什麼是「將 OneNote 轉換為 PDF」？
@@ -39,7 +39,7 @@ weight: 16
 
 在開始之前，請確保您具備以下條件：
 
-1. **Java Development Kit (JDK)** – 已安裝 JDK 8 以上。您可以從[此處](https://www.oracle.com/java/technologies/javase-jdk15-downloads.html)下載。  
+1. **Java Development Kit (JDK)** – 已安裝 JDK 8 以上。您可以從[此處](https://www.oracle.com/java/technologies/downloads/)下載。  
 2. **Aspose.Note for Java** – 從[此處](https://releases.aspose.com/note/java/)下載最新的 JAR 檔案。  
 
 ## 匯入套件
@@ -128,7 +128,7 @@ A: 有提供免費試用版，您可從[此處](https://releases.aspose.com/)下
 ---
 
 **最後更新：** 2025-11-30  
-**測試環境：** Aspose.Note for Java 24.11  
+**測試環境：** Aspose.Note for Java 26.4  
 **作者：** Aspose  
 
 {{< /blocks/products/pf/tutorial-page-section >}}

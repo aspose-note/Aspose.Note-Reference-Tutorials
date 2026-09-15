@@ -53,7 +53,7 @@ Document doc = new Document();
 
 ```csharp
 Aspose.Note.Page page = new Aspose.Note.Page(doc);
-Outline outline = new Outline(doc);
+Outline outline = new Outline();
 ```
 
 ## 第三步：添加带有标签的文本节点
@@ -61,9 +61,9 @@ Outline outline = new Outline(doc);
 创建具有所需文本和样式的 RichText 对象，然后将其添加到 OutlineElement。
 
 ```csharp
-OutlineElement outlineElem = new OutlineElement(doc);
+OutlineElement outlineElem = new OutlineElement();
 ParagraphStyle textStyle = new ParagraphStyle { FontColor = Color.Black, FontName = "Arial", FontSize = 10 };
-RichText text = new RichText(doc) { Text = "OneNote text.", ParagraphStyle = textStyle };
+RichText text = new RichText() { Text = "OneNote text.", ParagraphStyle = textStyle };
 text.Tags.Add(NoteTag.CreateYellowStar());
 outlineElem.AppendChildLast(text);
 ```

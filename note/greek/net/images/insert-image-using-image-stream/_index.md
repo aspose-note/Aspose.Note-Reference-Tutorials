@@ -54,8 +54,8 @@ Aspose.Note.Page page = new Aspose.Note.Page(doc);
 
 ## Βήμα 3: Αρχικοποίηση αντικειμένων Outline και OutlineElement
 ```csharp
-Outline outline1 = new Outline(doc);
-OutlineElement outlineElem1 = new OutlineElement(doc);
+Outline outline1 = new Outline();
+OutlineElement outlineElem1 = new OutlineElement();
 ```
 Δημιουργούμε παρουσίες των κλάσεων Outline και OutlineElement για να δομήσουμε το περιεχόμενό μας μέσα στη σελίδα.
 

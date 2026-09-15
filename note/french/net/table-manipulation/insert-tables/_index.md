@@ -47,10 +47,10 @@ Aspose.Note.Page page = new Aspose.Note.Page(doc);
 
 Ensuite, initialisez les lignes et les cellules du tableau pour structurer votre tableau.
 ```csharp
-TableRow row1 = new TableRow(doc);
-TableCell cell11 = new TableCell(doc);
-TableCell cell12 = new TableCell(doc);
-TableCell cell13 = new TableCell(doc);
+TableRow row1 = new TableRow();
+TableCell cell11 = new TableCell();
+TableCell cell12 = new TableCell();
+TableCell cell13 = new TableCell();
 ```
 
 ## Étape 3 : remplir les cellules du tableau
@@ -75,7 +75,7 @@ row1.AppendChildLast(cell13);
 
 Créez l'objet tableau et définissez ses propriétés, telles que la visibilité des bordures et la largeur des colonnes.
 ```csharp
-Table table = new Table(doc)
+Table table = new Table()
 {
     IsBordersVisible = true,
     Columns = { new TableColumn { Width = 200 }, new TableColumn { Width = 200 }, new TableColumn { Width = 200 } }
@@ -94,8 +94,8 @@ table.AppendChildLast(row2);
 
 Incorporez le tableau dans la structure du document en l'ajoutant au plan.
 ```csharp
-Outline outline = new Outline(doc);
-OutlineElement outlineElem = new OutlineElement(doc);
+Outline outline = new Outline();
+OutlineElement outlineElem = new OutlineElement();
 outlineElem.AppendChildLast(table);
 outline.AppendChildLast(outlineElem);
 page.AppendChildLast(outline);

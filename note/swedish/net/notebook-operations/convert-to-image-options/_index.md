@@ -50,7 +50,7 @@ Ladda först anteckningsboken som du vill konvertera till en bild.
 string dataDir = "Your Document Directory";
 
 // Ladda en OneNote-anteckningsbok
-var notebook = new Notebook(dataDir + "Notizbuch �ffnen.onetoc2");
+var notebook = new Notebook(dataDir + "Notebook.onetoc2");
 ```
 
 ## Steg 2: Ställ in alternativ för bildspar

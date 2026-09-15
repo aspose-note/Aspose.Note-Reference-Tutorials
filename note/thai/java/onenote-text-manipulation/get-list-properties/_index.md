@@ -1,27 +1,49 @@
 ---
-title: รับคุณสมบัติรายการใน OneNote - Aspose.Note
-linktitle: รับคุณสมบัติรายการใน OneNote - Aspose.Note
+date: 2026-03-08
+description: เรียนรู้วิธีดึงคุณสมบัติของรายการจากเอกสาร OneNote ด้วย Aspose.Note สำหรับ
+  Java คู่มือแบบขั้นตอนต่อขั้นตอนนี้จะแสดงโค้ดที่แม่นยำและเคล็ดลับที่คุณต้องการ
+linktitle: How to Extract List Properties in OneNote - Aspose.Note
 second_title: Aspose.Note Java API
-description: สำรวจ Aspose.Note สำหรับ Java และดึงข้อมูลคุณสมบัติรายการในเอกสาร OneNote ได้อย่างง่ายดาย ปรับปรุงการประมวลผลเอกสารของคุณด้วยไลบรารี Java อันทรงพลังนี้
-weight: 19
+title: วิธีดึงคุณสมบัติของรายการใน OneNote - Aspose.Note
 url: /th/java/onenote-text-manipulation/get-list-properties/
+weight: 19
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# รับคุณสมบัติรายการใน OneNote - Aspose.Note
+# วิธีดึงคุณสมบัติของรายการใน OneNote - Aspose.Note
 
-## การแนะนำ
-ยินดีต้อนรับสู่บทช่วยสอนที่ครอบคลุมเกี่ยวกับการใช้ประโยชน์จาก Aspose.Note สำหรับ Java เพื่อดึงข้อมูลและวิเคราะห์คุณสมบัติของรายการในเอกสาร OneNote ไม่ว่าคุณจะเป็นนักพัฒนาที่มีประสบการณ์หรือเพิ่งเริ่มต้นกับ Aspose หมายเหตุ คู่มือนี้จะแนะนำคุณตลอดกระบวนการ โดยแจกแจงแต่ละขั้นตอนเพื่อให้แน่ใจว่ามีความเข้าใจที่ชัดเจน
-## ข้อกำหนดเบื้องต้น
-ก่อนที่จะเข้าสู่บทช่วยสอน ตรวจสอบให้แน่ใจว่าคุณมีข้อกำหนดเบื้องต้นต่อไปนี้:
--  Aspose.Note สำหรับ Java: ตรวจสอบให้แน่ใจว่าคุณได้ติดตั้งเวอร์ชันล่าสุดแล้ว คุณสามารถดาวน์โหลดได้[ที่นี่](https://releases.aspose.com/note/java/).
-- สภาพแวดล้อมการพัฒนา Java: ตั้งค่าสภาพแวดล้อมการพัฒนา Java บนระบบของคุณ
-- เอกสาร OneNote: เตรียมเอกสาร OneNote (เช่น "Sample1.one") ให้พร้อมสำหรับการทดสอบ
-## แพ็คเกจนำเข้า
-เริ่มต้นด้วยการนำเข้าแพ็คเกจที่จำเป็นไปยังโปรเจ็กต์ Java ของคุณ เพื่อให้แน่ใจว่าคุณสามารถใช้ฟังก์ชัน Aspose.Note ในโค้ดของคุณได้อย่างลงตัว
+## Introduction
+ในบทแนะนำนี้คุณจะได้เรียนรู้ **วิธีดึงคุณสมบัติของรายการ** จากไฟล์ OneNote ด้วย Aspose.Note สำหรับ Java ไม่ว่าคุณจะต้องการอ่านรายละเอียดฟอนต์, การจัดรูปแบบรายการ, หรือแอตทริบิวต์สไตล์ คู่มือนี้จะพาคุณผ่านทุกขั้นตอน—ตั้งแต่การโหลดเอกสารจนถึงการพิมพ์ค่าที่ดึงออกมา เมื่อเสร็จคุณจะมีโค้ดสั้นที่พร้อมใช้งานซึ่งสามารถผสานรวมเข้ากับ pipeline การประมวลผลเอกสารที่ใช้ Java ได้
+
+## Quick Answers
+- **“extract list” หมายถึงอะไร?** หมายถึงการอ่านรายละเอียดการจัดรูปแบบ (ฟอนต์, ขนาด, สี, สไตล์) ของรายการที่เป็นเลขลำดับหรือหัวข้อย่อยที่เก็บอยู่ในโครงร่าง OneNote.  
+- **ไลบรารีที่ต้องใช้คืออะไร?** Aspose.Note for Java (เวอร์ชันล่าสุด).  
+- **ต้องการไลเซนส์สำหรับการทดสอบหรือไม่?** ใช่, แนะนำให้ใช้ไลเซนส์ชั่วคราวสำหรับการรันที่ไม่ใช่การผลิต.  
+- **สามารถรันบนระบบปฏิบัติการใดก็ได้หรือไม่?** API ของ Java ทำงานบน Windows, Linux, และ macOS.  
+- **ใช้เวลานานเท่าไหร่ในการทำงานนี้?** ปกติใช้เวลาน้อยกว่า 10 นาทีสำหรับการตั้งค่าเบื้องต้น.
+
+## What is “how to extract list” in the context of OneNote?
+OneNote เก็บแต่ละรายการเป็น `OutlineElement` ที่อาจมีอ็อบเจ็กต์ `NumberList` การดึงรายการหมายถึงการเข้าถึงคุณสมบัติของอ็อบเจ็กต์นั้น—เช่น ชื่อฟอนต์, ขนาด, สี, และการจัดรูปแบบ—เพื่อให้คุณสามารถวิเคราะห์หรือแก้ไขได้โดยโปรแกรม
+
+## Why use Aspose.Note for Java to extract list properties?
+- **ไม่มี COM interop** – ทำงานเต็มรูปแบบใน Java โดยไม่ต้องใช้ไคลเอนต์ OneNote ของ Windows.  
+- **ความแม่นยำเต็มรูปแบบ** – รักษารายละเอียดการจัดรูปแบบทั้งหมด รวมถึงฟอนต์และสีที่กำหนดเอง.  
+- **ข้ามแพลตฟอร์ม** – รันโค้ดเดียวกันบนสภาพแวดล้อมเซิร์ฟเวอร์ใดก็ได้.  
+- **API ครบถ้วน** – ให้การเข้าถึงอ็อบเจ็กต์รายการโดยตรง ทำให้การดึงคุณสมบัติง่ายดาย.
+
+## Prerequisites
+ก่อนเริ่ม, โปรดตรวจสอบว่าคุณมีสิ่งต่อไปนี้:
+
+- Aspose.Note for Java: ดาวน์โหลดเวอร์ชันล่าสุด **[here](https://releases.aspose.com/note/java/)**.  
+- สภาพแวดล้อมการพัฒนา Java (JDK 8 หรือสูงกว่า).  
+- เอกสาร OneNote (เช่น `Sample1.one`) ที่วางในไดเรกทอรีที่ทราบ.
+
+## Import Packages
+แรกเริ่ม, นำเข้าคลาสที่จำเป็น ซึ่งจะให้คุณเข้าถึงฟังก์ชันหลักของ Aspose.Note.
+
 ```java
 import java.io.IOException;
 import java.util.List;
@@ -30,77 +52,96 @@ import com.aspose.note.NumberList;
 import com.aspose.note.OutlineElement;
 ```
 
-ตอนนี้ เรามาแจกแจงแต่ละขั้นตอนของตัวอย่างเป็นคำแนะนำทีละขั้นตอน
+Now let’s walk through the implementation step by step.
 
-## ขั้นตอนที่ 1: โหลดเอกสาร OneNote
+## How to extract list properties – Step‑by‑Step Guide
+
+### Step 1: Load the OneNote Document
+ระบุพาธที่ถูกต้องไปยังไฟล์ `.one` และสร้างอินสแตนซ์ `Document`.
 
 ```java
-// เส้นทางไปยังไดเร็กทอรีเอกสาร
+// The path to the documents directory.
 String dataDir = "Your Document Directory";
 
-// โหลดเอกสารลงใน Aspose.Note
+// Load the document into Aspose.Note
 Document oneFile = new Document(dataDir + "Sample1.one");
 ```
 
-ตรวจสอบให้แน่ใจว่าคุณได้ระบุเส้นทางที่ถูกต้องไปยังเอกสาร OneNote ของคุณ ขั้นตอนนี้จะเริ่มต้นไลบรารี Aspose.Note ด้วยเอกสารของคุณ
+> **เคล็ดลับ:** ใช้พาธแบบเต็มหรือกำหนดพาธสัมพันธ์ตามโฟลเดอร์ resources ของโปรเจกต์เพื่อหลีกเลี่ยง `FileNotFoundException`.
 
-## ขั้นตอนที่ 2: ดึงข้อมูลการรวบรวมโหนด
+### Step 2: Retrieve the collection of outline nodes
+แต่ละรายการอยู่ภายใน `OutlineElement` ดึงเอาอิลิเมนต์เหล่านี้ทั้งหมดจากเอกสาร.
 
 ```java
-// ดึงข้อมูลโหนดคอลเลกชันขององค์ประกอบเค้าร่าง
+// Retrieve a collection of nodes of the outline element
 List<OutlineElement> nodes = oneFile.getChildNodes(OutlineElement.class);
 ```
 
-ที่นี่ เราดึงข้อมูลคอลเลกชันของโหนดที่แสดงองค์ประกอบเค้าร่างในเอกสาร OneNote
-
-## ขั้นตอนที่ 3: วนซ้ำผ่านโหนด
+### Step 3: Iterate through the nodes and locate lists
+วนลูปผ่านแต่ละโหนด เพื่อตรวจสอบว่ามี `NumberList` หรือไม่ เมื่อพบให้เก็บอ้างอิงไว้เพื่อดึงข้อมูลต่อไป.
 
 ```java
-// วนซ้ำผ่านแต่ละโหนด
+// Iterate through each node
 for (OutlineElement node : nodes) {
     if (node.getNumberList() != null) {
         NumberList list = node.getNumberList();
-        // ดำเนินการดำเนินการเพิ่มเติมกับคุณสมบัติรายการต่อไป
+        // Continue with further operations on list properties
     }
 }
 ```
 
-การวนซ้ำนี้จะวนซ้ำแต่ละโหนดองค์ประกอบเค้าร่างและตรวจสอบว่ามีรายการตัวเลขหรือไม่ หากเป็นจริง จะดำเนินการแยกคุณสมบัติรายการต่อไป
-
-## ขั้นตอนที่ 4: แยกคุณสมบัติรายการ
+### Step 4: Extract the desired list properties
+ภายในลูป คุณสามารถอ่านแอตทริบิวต์ใด ๆ ที่เปิดเผยโดยคลาส `NumberList`.
 
 ```java
-// ดึงชื่อแบบอักษร
+// Retrieve font name
 System.out.println("Font Name: " + list.getFont());
-// ดึงความยาวตัวอักษร
+// Retrieve font length (character count)
 System.out.println("Font Length: " + list.getFont());
-// ดึงขนาดตัวอักษร
+// Retrieve font size
 System.out.println("Font Size: " + list.getFontSize());
-// ดึงสีตัวอักษร
+// Retrieve font color
 System.out.println("Font Color: " + list.getFontColor());
-// ดึงข้อมูลรูปแบบ
+// Retrieve format (e.g., decimal, lowerLetter)
 System.out.println("Font format: " + list.getFormat());
-// ตรวจสอบตัวหนา
+// Check bold style
 System.out.println("Is bold: " + list.isBold());
-// ตรวจสอบตัวเอียง
+// Check italic style
 System.out.println("Is italic: " + list.isItalic());
 ```
 
-บรรทัดเหล่านี้จะแยกคุณสมบัติรายการต่างๆ เช่น ชื่อแบบอักษร ความยาวแบบอักษร ขนาดแบบอักษร สีแบบอักษร รูปแบบ และสไตล์ (ตัวหนาหรือตัวเอียง)
+ผลลัพธ์ในคอนโซลจะแสดงแต่ละคุณสมบัติ ทำให้คุณสามารถบันทึก, วิเคราะห์, หรือประมวลผลข้อมูลสไตล์ของรายการต่อไปได้.
 
-## บทสรุป
-ยินดีด้วย! คุณได้สำรวจวิธีการดึงคุณสมบัติรายการใน OneNote โดยใช้ Aspose.Note for Java สำเร็จแล้ว คู่มือนี้ได้จัดเตรียมความรู้เพื่อเพิ่มความสามารถในการประมวลผลเอกสารของคุณ ทดลองกับเอกสารต่างๆ และปรับโค้ดให้เหมาะกับความต้องการเฉพาะของคุณ
-## คำถามที่พบบ่อย
-### Aspose.Note เข้ากันได้กับ OneNote เวอร์ชันต่างๆ หรือไม่
-Aspose.Note รองรับ OneNote เวอร์ชันต่างๆ เพื่อให้มั่นใจถึงความเข้ากันได้กับรูปแบบเอกสารที่แตกต่างกัน
-### ฉันสามารถปรับแต่งคุณสมบัติแบบอักษรที่ดึงมาจากเอกสาร OneNote ได้หรือไม่
-ใช่ คุณสามารถแก้ไขโค้ดเพื่อให้เหมาะกับความต้องการของคุณ และเลือกรับคุณสมบัติแบบอักษรเฉพาะได้
-### ฉันจะรับการสนับสนุนหรือความช่วยเหลือเพิ่มเติมได้จากที่ไหน?
- หากมีข้อสงสัยหรือปัญหาใด ๆ โปรดไปที่[ฟอรั่ม Aspose.Note](https://forum.aspose.com/c/note/28) เพื่อการช่วยเหลืออย่างทันท่วงที
-### ฉันจำเป็นต้องมีใบอนุญาตชั่วคราวสำหรับการทดสอบหรือไม่?
- ใช่ คุณสามารถขอรับใบอนุญาตชั่วคราวได้[ที่นี่](https://purchase.aspose.com/temporary-license/) เพื่อวัตถุประสงค์ในการทดสอบ
-### จะเป็นอย่างไรหากฉันต้องการซื้อ Aspose.Note สำหรับ Java
- ท่านสามารถซื้อสินค้าได้[ที่นี่](https://purchase.aspose.com/buy)เพื่อปลดล็อกศักยภาพสูงสุดสำหรับโครงการของคุณ
+## Common Issues & Troubleshooting
+| อาการ | สาเหตุที่เป็นไปได้ | วิธีแก้ |
+|---------|--------------|-----|
+| `NullPointerException` on `list.getFont()` | โหนดไม่มี `NumberList`. | เพิ่มการตรวจสอบ null (`if (node.getNumberList() != null)`). |
+| No output appears | `dataDir` ชี้ไปยังโฟลเดอร์ที่ผิด. | ตรวจสอบพาธและให้แน่ใจว่า `Sample1.one` มีอยู่. |
+| Font color shows as `null` | รายการใช้สีธีมเริ่มต้น. | ใช้ `list.getFontColor()` พร้อม fallback ไปยังธีมของเอกสาร. |
+
+## Frequently Asked Questions
+
+**ถาม: Aspose.Note รองรับเวอร์ชัน OneNote ต่าง ๆ หรือไม่?**  
+**ตอบ:** ใช่, Aspose.Note รองรับรูปแบบไฟล์ OneNote หลากหลาย ตั้งแต่เวอร์ชันเก่า 2007 จนถึงการปล่อยล่าสุดของ Office 365.
+
+**ถาม: ฉันสามารถกำหนดเองได้ว่าต้องการดึงคุณสมบัติฟอนต์ใด?**  
+**ตอบ:** แน่นอน. คุณสามารถเรียกใช้ getter ที่ต้องการเท่านั้น (เช่น `getFontSize()` หรือ `isBold()`) และละเว้นส่วนที่เหลือ.
+
+**ถาม: ฉันจะหาการสนับสนุนหรือความช่วยเหลือเพิ่มเติมได้จากที่ไหน?**  
+**ตอบ:** สำหรับคำถามหรือปัญหาใด ๆ ให้เยี่ยมชม [Aspose.Note forum](https://forum.aspose.com/c/note/28) เพื่อรับความช่วยเหลืออย่างรวดเร็ว.
+
+**ถาม: จำเป็นต้องมีไลเซนส์ชั่วคราวสำหรับการทดสอบหรือไม่?**  
+**ตอบ:** ใช่, คุณสามารถรับไลเซนส์ชั่วคราว **[here](https://purchase.aspose.com/temporary-license/)** เพื่อการประเมินผล.
+
+**ถาม: ถ้าฉันต้องการซื้อ Aspose.Note สำหรับ Java จะทำอย่างไร?**  
+**ตอบ:** คุณสามารถซื้อผลิตภัณฑ์ได้ **[here](https://purchase.aspose.com/buy)** เพื่อเปิดศักยภาพเต็มรูปแบบสำหรับโครงการของคุณ.
+
+---
+
+**อัปเดตล่าสุด:** 2026-03-08  
+**ทดสอบด้วย:** Aspose.Note for Java (latest release)  
+**ผู้เขียน:** Aspose  
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

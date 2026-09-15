@@ -1,27 +1,48 @@
 ---
-title: OneNote'ta Düğüm Etiketlerini Alma - Aspose.Note
-linktitle: OneNote'ta Düğüm Etiketlerini Alma - Aspose.Note
-second_title: Aspose.Note Java API'si
-description: Aspose.Note for Java ile OneNote'un sırlarını ortaya çıkarın. Bu kılavuz, düğüm etiketlerini zahmetsizce çıkarmanızı sağlar. Belge manipülasyonunun geleceğine dalın!
-weight: 15
+date: 2026-02-28
+description: Aspose.Note for Java kullanarak OneNote dosyalarından etiketleri nasıl
+  çıkaracağınızı öğrenin. Bu öğreticide OneNote dosyasını nasıl yükleyeceğiniz, OneNote
+  etiketlerini nasıl alacağınız ve OneNote etiketlerini verimli bir şekilde nasıl
+  değiştireceğiniz gösterilmektedir.
+linktitle: How to Extract Tags from OneNote - Aspose.Note
+second_title: Aspose.Note Java API
+title: Aspose.Note ile OneNote'tan Etiketleri Nasıl Çıkarabilirsiniz
 url: /tr/java/onenote-tag-operations/get-node-tags/
+weight: 15
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# OneNote'ta Düğüm Etiketlerini Alma - Aspose.Note
+# OneNote'tan Etiketleri Nasıl Çıkarabilirsiniz Aspose.Note ile
 
-## giriiş
-Aspose.Note for Java dünyasına hoş geldiniz! OneNote belgelerinden bilgi yönetimi ve çıkarılması konusunda derinlemesine bilgi edinmek istiyorsanız doğru yerdesiniz. Bu eğitimde, Aspose.Note for Java'yı kullanarak OneNote'ta düğüm etiketleri alma sürecinde size rehberlik edeceğiz. Sonunda, bu güçlü Java API'nin tüm potansiyelinden yararlanacak bilgiyle donatılmış olacaksınız.
+## Giriş
+OneNote belgesinden **etiketleri nasıl çıkaracağınızı** öğrenmeniz gerekiyorsa, doğru yerdesiniz. Bu rehberde bir OneNote dosyasını yükleme, OneNote etiketlerini alma ve hatta bu etiketleri Aspose.Note for Java kullanarak değiştirme sürecini adım adım inceleyeceğiz. Eğitimin sonunda etiket çıkarımını herhangi bir Java uygulamasına güvenle entegre edebileceksiniz.
+
+## Hızlı Yanıtlar
+- **OneNote dosyasını açmak için birincil sınıf nedir?** `Document`
+- **Tüm RichText düğümlerini döndüren yöntem hangisidir?** `doc.getChildNodes(RichText.class)`
+- **Bir NoteTag'in oluşturulma zamanını okuyabilir misiniz?** Evet, `noteTag.getCreationTime()` ile
+- **Üretim kullanımı için lisansa ihtiyacım var mı?** Evet, geçerli bir Aspose.Note lisansı gereklidir
+- **API, Java 8 ve üzeri sürümlerle uyumlu mu?** Kesinlikle, modern Java sürümlerini destekler
+
+## OneNote'ta “etiketleri nasıl çıkaracağınız” nedir?
+Etiketleri çıkarmak, OneNote'un paragraflara, onay kutularına veya diğer içerik öğelerine eklediği meta verileri (durum, etiket, simge ve zaman damgaları gibi) okumak anlamına gelir. Bu etiketler, `RichText` düğümleri içinde `NoteTag` nesneleri olarak depolanır.
+
+## Etiket çıkarımı için neden Aspose.Note kullanmalı?
+- **OneNote kurulumu gerekmez** – .one dosyalarıyla doğrudan çalışın.
+- **Tam kontrol** – etiket özelliklerini programlı olarak alabilir, okuyabilir ve değiştirebilirsiniz.
+- **Çapraz platform** – Java'yı destekleyen herhangi bir işletim sisteminde çalışır.
+
 ## Önkoşullar
-Bu yolculuğa çıkmadan önce aşağıdaki önkoşulların yerine getirildiğinden emin olun:
-- Java Geliştirme Ortamı: Sisteminizde çalışan bir Java geliştirme ortamının kurulu olduğundan emin olun.
--  Aspose.Note Kütüphanesi: Aspose.Note kütüphanesini şuradan indirip yükleyin:[Burada](https://releases.aspose.com/note/java/).
-- OneNote Belgesi: Test ve keşif için hazır bir OneNote belgesi (örneğin, "Sample1.one") bulundurun.
-## Paketleri İçe Aktar
-Gerekli paketleri Java projenize aktararak başlayın. Bu paketler, Aspose.Note'u kullanarak OneNote belgeleriyle etkileşim kurmak için gereken araçları sağlayacaktır.
+- Java geliştirme ortamı (JDK 8+).
+- Aspose.Note kütüphanesi [buradan](https://releases.aspose.com/note/java/) indirilebilir.
+- Bilinen bir dizine yerleştirilmiş örnek bir OneNote belgesi (ör. `Sample1.one`).
+
+## Paketleri İçe Aktarma
+İhtiyacınız olan sınıfları içe aktararak başlayın. Bu importlar belge işleme, etiket arabirimleri ve zengin metin düğümlerine erişim sağlar.
+
 ```java
 import java.io.IOException;
 import java.util.List;
@@ -30,39 +51,49 @@ import com.aspose.note.ITag;
 import com.aspose.note.NoteTag;
 import com.aspose.note.RichText;
 ```
-Şimdi OneNote'ta düğüm etiketleri alma sürecini takip edilmesi kolay adımlara ayıralım:
-## 1. Adım: OneNote Belgesini Yükleyin
+
+## OneNote Dosyasını Nasıl Yükleyebilirsiniz
+İlk adım, OneNote dosyasını bir `Document` nesnesine yüklemektir.
+
 ```java
-// Belgeler dizininin yolu.
+// The path to the documents directory.
 String dataDir = "Your Document Directory";
-// Belgeyi Aspose.Note'a yükleyin
+// Load the document into Aspose.Note
 Document doc = new Document(dataDir + "Sample1.one");
-// Tüm RichText düğümlerini alın
+// Get all RichText nodes
 List<RichText> nodes = doc.getChildNodes(RichText.class);
-// Belgeyi Aspose.Note'a yükleyin
+// Load the document into Aspose.Note
 Document doc = new Document(dataDir + "Sample1.one");
 ```
-Aspose.Note belgesinin yüklendiğinden ve daha sonraki işlemlere hazır olduğundan emin olun.
-## Adım 2: RichText Düğümlerini Alın
+
+> **Pro ipucu:** `dataDir` yolunu mutlak tutun veya yol hatalarını önlemek için `Paths.get(...)` kullanın.
+
+## OneNote Etiketlerini Nasıl Alabilirsiniz
+Belge yüklendikten sonra, tüm `RichText` düğümlerini alın. Her düğüm bir veya daha fazla etiket içerebilir.
+
 ```java
-// Tüm RichText düğümlerini alın
+// Get all RichText nodes
 List<RichText> nodes = doc.getChildNodes(RichText.class);
 ```
-Yüklenen OneNote belgesinden tüm RichText düğümlerini çıkarın. Bu düğümler ilgilendiğimiz bilgileri içerir.
-## Adım 3: Her Düğümde Yineleme Yapın
+
+## Her Düğüm Üzerinde Döngü
+Her `RichText` düğümünü döngüye alarak etiketlerini inceleyin.
+
 ```java
-// Her düğümde yineleme
+// Iterate through each node
 for (RichText richText : nodes) {
-    // Her düğümü burada işleyin
+    // Process each node here
 }
 ```
-İçeriğine erişmek ve analiz etmek için her RichText düğümünde döngü yapın.
-## 4. Adım: Not Etiketlerini Alın
+
+## NoteTag'leri Alın (OneNote Etiketlerini Nasıl Değiştirebilirsiniz)
+Döngü içinde, bir etiketin `NoteTag` olup olmadığını kontrol edin. Eğer öyleyse, özelliklerini okuyabilir veya gerekirse değiştirebilirsiniz.
+
 ```java
 for (ITag tag : richText.getTags()) {
     if (tag.getClass() == NoteTag.class) {
         NoteTag noteTag = (NoteTag) tag;
-        // Özellikleri al
+        // Retrieve properties
         System.out.println("Completed Time: " + noteTag.getCompletedTime());
         System.out.println("Create Time: " + noteTag.getCreationTime());
         System.out.println("Font Color: " + noteTag.getFontColor());
@@ -70,23 +101,55 @@ for (ITag tag : richText.getTags()) {
         System.out.println("Label: " + noteTag.getLabel());
         System.out.println("Icon: " + noteTag.getIcon());
         System.out.println("High Light: " + noteTag.getHighlight());
+        // Example of modifying a property
+        // noteTag.setLabel("Updated Label");
     }
 }
 ```
-Her RichText düğümü için NoteTag'leri kontrol edin ve özelliklerini alın. Bu adım, tamamlanma süresi, oluşturma süresi, yazı tipi rengi, durum, etiket, simge ve vurgulama gibi ayrıntıları ortaya çıkarır.
-## Çözüm
-Tebrikler! Aspose.Note for Java'yı kullanarak OneNote'tan düğüm etiketlerini ayıklamanın karmaşık ortamında başarıyla gezindiniz. Bu bilgiyle donanmış olarak artık bu işlevselliği Java uygulamalarınıza sorunsuz bir şekilde entegre edebilirsiniz.
+
+> **Uyarı:** Bir etiketi değiştirmek temel belgeyi değiştirir. Değişiklik yaptıktan sonra belgeyi kaydetmeyi unutmayın.
+
+## Sonuç
+Artık **etiketleri nasıl çıkaracağınızı**, **OneNote dosyasını nasıl yükleyeceğinizi**, **OneNote etiketlerini nasıl alacağınızı** ve hatta Aspose.Note for Java kullanarak **OneNote etiketlerini nasıl değiştireceğinizi** biliyorsunuz. Bu kod parçacıklarını kendi projelerinize entegre ederek not analizi, raporlama veya taşıma görevlerini otomatikleştirebilirsiniz.
+
 ## SSS
-### Aspose.Note, OneNote'un tüm sürümleriyle uyumlu mu?
-Aspose.Note, çeşitli OneNote dosya formatlarını destekleyerek farklı sürümler arasında uyumluluk sağlar.
+### Aspose.Note tüm OneNote sürümleriyle uyumlu mu?
+Aspose.Note, çeşitli OneNote dosya formatlarını destekler ve farklı sürümler arasında uyumluluk sağlar.
+
 ### Alınan NoteTag özelliklerini değiştirebilir miyim?
 Evet, Aspose.Note, NoteTag özelliklerini programlı olarak değiştirmenize ve güncellemenize olanak tanır.
-### Aspose.Note'un deneme sürümü mevcut mu?
- Kesinlikle! Ücretsiz deneme sürümüne erişebilirsiniz[Burada](https://releases.aspose.com/).
-### Aspose.Note for Java'nın kapsamlı belgelerini nerede bulabilirim?
- Ayrıntılı belgeleri inceleyin[Burada](https://reference.aspose.com/note/java/).
-### Herhangi bir sorun veya soru için nasıl destek alabilirim?
- Destek forumuna gidin[Burada](https://forum.aspose.com/c/note/28) Aspose topluluğundan yardım için.
+
+### Aspose.Note için bir deneme sürümü mevcut mu?
+Kesinlikle! Ücretsiz deneme sürümüne [buradan](https://releases.aspose.com/) ulaşabilirsiniz.
+
+### Aspose.Note for Java için kapsamlı belgeleri nerede bulabilirim?
+Detaylı belgeleri [buradan](https://reference.aspose.com/note/java/) inceleyebilirsiniz.
+
+### Herhangi bir sorun veya soruya destek nasıl alabilirim?
+Aspose topluluğundan yardım almak için destek forumuna [buradan](https://forum.aspose.com/c/note/28) gidin.
+
+## Sıkça Sorulan Sorular
+**S:** *Şifre korumalı OneNote dosyalarından etiket çıkarabilir miyim?*  
+**C:** Evet, `Document` nesnesini oluştururken şifreyi sağlayın.
+
+**S:** *Etiketleri değiştirdikten sonra bir kaydetme yöntemi çağırmam gerekiyor mu?*  
+**C:** Kesinlikle. Değişiklikleri kalıcı hale getirmek için `doc.save("UpdatedSample.one");` kullanın.
+
+**S:** *Etiketleri durumuna göre filtrelemek mümkün mü?*  
+**C:** `noteTag.getStatus()` metodunu döngü içinde kontrol ederek yalnızca istenen durumları işleyebilirsiniz.
+
+**S:** *Bir RichText düğümünün etiketi yoksa ne olur?*  
+**C:** `richText.getTags()` boş bir koleksiyon döndürür; döngü sadece atlar.
+
+**S:** *Birden fazla OneNote dosyasını toplu işleyebilir miyim?*  
+**C:** Yukarıdaki mantığı bir dosya yineleme rutinine sararak her belgeyi sırasıyla işleyebilirsiniz.
+
+---
+
+**Son Güncelleme:** 2026-02-28  
+**Test Edilen:** Aspose.Note for Java 24.12  
+**Yazar:** Aspose  
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

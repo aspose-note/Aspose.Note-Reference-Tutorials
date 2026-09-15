@@ -42,7 +42,7 @@ Zunächst müssen wir das OneNote-Notizbuch laden, das wir konvertieren möchten
 
 ```csharp
 string dataDir = "Your Document Directory";
-var notebook = new Notebook(dataDir + "Notizbuch �ffnen.onetoc2");
+var notebook = new Notebook(dataDir + "Notebook.onetoc2");
 ```
 
 ## Schritt 2: Speichern Sie das Notizbuch als Bild

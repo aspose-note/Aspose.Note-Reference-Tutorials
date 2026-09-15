@@ -50,7 +50,7 @@ using System.Collections.Generic;
 string dataDir = "Your Document Directory";
 
 // โหลดสมุดบันทึก OneNote
-var notebook = new Notebook(dataDir + "Notizbuch �ffnen.onetoc2");
+var notebook = new Notebook(dataDir + "Notebook.onetoc2");
 ```
 
 ## ขั้นตอนที่ 2: ตั้งค่าตัวเลือกการบันทึกรูปภาพ
