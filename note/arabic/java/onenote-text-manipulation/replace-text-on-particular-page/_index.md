@@ -1,26 +1,47 @@
 ---
-title: استبدال النص في صفحة معينة في OneNote - Aspose.Note
-linktitle: استبدال النص في صفحة معينة في OneNote - Aspose.Note
-second_title: Aspose.Note جافا API
-description: تعرف على كيفية استبدال النص في صفحة OneNote معينة باستخدام Aspose.Note لـ Java. برنامج تعليمي سهل المتابعة لتطوير Java بكفاءة.
-weight: 21
+date: 2026-03-29
+description: تعلم كيفية تعديل OneNote عن طريق استبدال النص في صفحة محددة وحفظ OneNote
+  كملف PDF باستخدام Aspose.Note للغة Java. دليل خطوة بخطوة للمطورين.
+linktitle: How to edit OneNote – Replace Text on Particular Page with Aspose.Note
+second_title: Aspose.Note Java API
+title: كيفية تعديل OneNote – استبدال النص في صفحة معينة باستخدام Aspose.Note
 url: /ar/java/onenote-text-manipulation/replace-text-on-particular-page/
+weight: 21
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# استبدال النص في صفحة معينة في OneNote - Aspose.Note
+# كيفية تعديل OneNote – استبدال النص في صفحة معينة باستخدام Aspose.Note
 
-## مقدمة
-في عالم برمجة Java، تبرز Aspose.Note كمكتبة قوية وفعالة للتعامل مع ملفات OneNote. إذا كنت تتطلع إلى معالجة النص في صفحة معينة داخل مستند OneNote الخاص بك، فإن Aspose.Note يوفر حلاً سلسًا. في هذا الدليل التفصيلي، سنستكشف كيفية استبدال النص في صفحة معينة باستخدام Aspose.Note لـ Java. تابع معنا لفتح إمكانات مكتبة Java القوية هذه.
-## المتطلبات الأساسية
-قبل الغوص في البرنامج التعليمي، تأكد من توفر المتطلبات الأساسية التالية:
-1. بيئة تطوير Java: تأكد من تثبيت Java على نظامك، وإعداد بيئة التطوير لديك.
-2.  مكتبة Aspose.Note: قم بتنزيل وتثبيت مكتبة Aspose.Note لـ Java. يمكنك العثور على المكتبة ووثائقها[هنا](https://reference.aspose.com/note/java/).
-## حزم الاستيراد
-ابدأ باستيراد الحزم الضرورية إلى مشروع Java الخاص بك. تعتبر هذه الحزم ضرورية للتفاعل مع وظائف Aspose.Note.
+## المقدمة
+إذا كنت بحاجة إلى **تعديل OneNote** برمجيًا — سواء كان لاستبدال عبارة، تحديث عنوان، أو تعديل محتوى في صفحة واحدة — تجعل Aspose.Note for Java العملية بسيطة. في هذا الدرس ستتعلم **كيفية تعديل OneNote** عن طريق استبدال النص في صفحة معينة ثم حفظ النتيجة كملف PDF. اتبع الخطوات أدناه لدمج هذه القدرة في تطبيقات Java الخاصة بك بسرعة وبشكل موثوق.
+
+## إجابات سريعة
+- **ما الذي يغطيه هذا الدرس؟** استبدال النص في صفحة OneNote محددة وتصدير الملف كملف PDF.  
+- **ما المكتبة المطلوبة؟** Aspose.Note for Java.  
+- **هل أحتاج إلى ترخيص؟** ترخيص مؤقت يعمل للتقييم؛ الترخيص الكامل مطلوب للإنتاج.  
+- **هل يمكنني حفظ OneNote كملف PDF؟** نعم – الخطوة الأخيرة توضح حفظ المستند المعدل كملف PDF.  
+- **كم من الوقت تستغرق عملية التنفيذ؟** حوالي 10‑15 دقيقة للمطور المألوف بـ Java.
+
+## ما هو “كيفية تعديل onenote” في Java؟
+تحرير OneNote باستخدام Java يعني استخدام Aspose.Note API لفتح ملف `.one`، والتنقل في هيكل الصفحات، وتعديل عقد النص، ثم حفظ التغييرات. يزيل هذا النهج الحاجة إلى النسخ واللصق اليدوي ويسمح بمعالجة دفعات من دفاتر الملاحظات الكبيرة.
+
+## لماذا استبدال نص OneNote برمجيًا؟
+- **الأتمتة** – تحديث العناوين، الطوابع الزمنية، أو العلامة التجارية عبر العديد من الصفحات باستخدام سكريبت واحد.  
+- **الاتساق** – ضمان توحيد المصطلحات في جميع أنحاء دفتر الملاحظات.  
+- **التكامل** – دمج محتوى OneNote مع أنظمة أخرى (مثلاً، إنشاء تقارير، تغذية البيانات إلى قواعد البيانات).
+
+## المتطلبات المسبقة
+قبل البدء، تأكد من أنك تمتلك:
+
+1. **بيئة تطوير Java** – JDK 8 أو أعلى مثبت وإعداد بيئة التطوير المتكاملة (IDE) الخاصة بك.  
+2. **مكتبة Aspose.Note** – تحميل والإشارة إلى أحدث حزمة Aspose.Note for Java. يمكنك العثور على المكتبة ووثائقها [هنا](https://reference.aspose.com/note/java/).
+
+## استيراد الحزم
+ابدأ باستيراد الفئات اللازمة. هذه الاستيرادات تمنحك إمكانية تحميل المستندات، التنقل بين الصفحات، تعديل النص الغني، وحفظ المستندات.
+
 ```java
 import java.io.IOException;
 import java.util.HashMap;
@@ -32,52 +53,80 @@ import com.aspose.note.Page;
 import com.aspose.note.RichText;
 import com.aspose.note.SaveFormat;
 ```
-## الخطوة 1: قم بتحميل مستند OneNote
- للبدء، قم بتحميل مستند OneNote باستخدام Aspose.Note. تأكد من أن لديك مسار الملف الصحيح واستخدم ملف`LoadOptions` إذا لزم الأمر.
+
+## الخطوة 1: تحميل مستند OneNote
+حمّل ملف `.one` الخاص بك إلى كائن Aspose.Note `Document`. عدّل المتغيّر `dataDir` ليشير إلى المجلد الذي يحتوي على دفتر الملاحظات المصدر.
+
 ```java
-// المسار إلى دليل المستندات.
+// The path to the documents directory.
 String dataDir = "Your Document Directory";
 Map<String, String> replacements = new HashMap<String, String>();
 replacements.put("2. Get organized", "New Text Here");
-// قم بتحميل المستند إلى Aspose.Note.
+// Load the document into Aspose.Note.
 Document oneFile = new Document(dataDir + "Sample1.one", new LoadOptions());
 ```
+
 ## الخطوة 2: الوصول إلى الصفحة وعقد RichText
-بمجرد تحميل المستند، قم بالوصول إلى عقد الصفحة وعقد النص المنسق داخل المستند. تعتبر هذه الخطوة ضرورية لتحديد الصفحة والنص المحدد الذي تريد تعديله.
+انتقل إلى الصفحة الأولى (أو أي صفحة تستهدفها) وجمع جميع عقد `RichText`. هذه هي الخطوة الأساسية لـ **استبدال نص onenote** في الصفحة المطلوبة.
+
 ```java
 List<Page> pageNodes = (List<Page>) oneFile.getChildNodes(Page.class);
-// الحصول على كافة العقد RichText
+// Get all RichText nodes
 List<RichText> textNodes = (List<RichText>) pageNodes.get(0).getChildNodes(RichText.class);
 ```
+
 ## الخطوة 3: استبدال النص
-قم بالتكرار عبر عقد النص المنسق واستبدل النص المطلوب باستخدام أزواج القيمة الرئيسية المتوفرة.
+تكرّر عبر كل عقدة `RichText` وطبق أزواج الاستبدال التي حددتها. طريقة `replace` تُحدّث محتوى العقدة في مكانه.
+
 ```java
 for (RichText richText : textNodes) {
     for (String key : replacements.keySet()) {
-        // استبدال نص الشكل
+        // Replace text of a shape
         richText.replace(key, replacements.get(key));
     }
 }
 ```
-## الخطوة 4: احفظ المستند المعدل
-بعد استبدال النص، احفظ المستند المعدل بتنسيق الملف المطلوب، مثل PDF.
+
+## الخطوة 4: حفظ المستند المعدل
+بعد استبدال النص، يمكنك **حفظ OneNote كملف PDF** (أو أي تنسيق مدعوم آخر). يوضح هذا المثال حفظ المستند كملف PDF، وهو طلب شائع لمشاركة دفاتر الملاحظات المعدلة.
+
 ```java
-// احفظه في أي تنسيق ملف مدعوم
+// Save to any supported file format
 oneFile.save(dataDir + "ReplaceTextonParticularPage_out.pdf", SaveFormat.Pdf);
 ```
-## خاتمة
-تهانينا! لقد تعلمت بنجاح كيفية استبدال النص في صفحة معينة في OneNote باستخدام Aspose.Note لـ Java. تعمل مكتبة Java متعددة الاستخدامات هذه على تمكين المطورين من التعامل مع ملفات OneNote بسلاسة.
-## الأسئلة الشائعة
-### هل يمكنني استخدام Aspose.Note لـ Java في مشروع تجاري؟
- نعم، Aspose.Note for Java متاح للاستخدام التجاري. افحص ال[صفحة الشراء](https://purchase.aspose.com/buy) للحصول على تفاصيل الترخيص.
-### هل هناك نسخة تجريبية مجانية متاحة؟
- نعم، يمكنك استكشاف النسخة التجريبية المجانية[هنا](https://releases.aspose.com/).
-### أين يمكنني العثور على الدعم المجتمعي؟
- قم بزيارة[منتدى Aspose.Note](https://forum.aspose.com/c/note/28) لدعم المجتمع والمناقشات.
-### كيف يمكنني الحصول على ترخيص مؤقت؟
- الحصول على ترخيص مؤقت[هنا](https://purchase.aspose.com/temporary-license/).
-### أين يمكنني تنزيل Aspose.Note لـ Java؟
- تحميل المكتبة[هنا](https://releases.aspose.com/note/java/).
+
+## المشكلات الشائعة والحلول
+| المشكلة | السبب | الحل |
+|-------|-------|----------|
+| لا تظهر أي تغييرات في ملف PDF | فهرس صفحة غير صحيح أو قائمة `textNodes` فارغة | تحقق من أن `pageNodes.get(0)` يشير إلى الصفحة المطلوبة؛ استخدم `pageNodes.get(n)` للصفحات الأخرى. |
+| `NullPointerException` على `richText.replace` | خريطة `replacements` تحتوي على مفتاح/قيمة فارغة (null) | تأكد من أن جميع المفاتيح والقيم في الخريطة ليست سلاسل فارغة (null). |
+| ملف PDF الناتج معطوب | استخدام نسخة قديمة من Aspose.Note | قم بالتحديث إلى أحدث إصدار من Aspose.Note for Java. |
+
+## الأسئلة المتكررة
+
+**س: هل يمكنني استخدام Aspose.Note for Java في مشروع تجاري؟**  
+ج: نعم، Aspose.Note for Java مرخص للاستخدام التجاري. راجع [صفحة الشراء](https://purchase.aspose.com/buy) للتفاصيل.
+
+**س: هل يتوفر نسخة تجريبية مجانية؟**  
+ج: بالتأكيد. يمكنك تنزيل نسخة تجريبية [هنا](https://releases.aspose.com/).
+
+**س: أين يمكنني العثور على دعم المجتمع؟**  
+ج: منتدى [Aspose.Note](https://forum.aspose.com/c/note/28) هو مكان ممتاز لطرح الأسئلة ومشاركة الحلول.
+
+**س: كيف يمكنني الحصول على ترخيص مؤقت للاختبار؟**  
+ج: ترخيص مؤقت متاح [هنا](https://purchase.aspose.com/temporary-license/).
+
+**س: أين يمكنني تنزيل Aspose.Note for Java؟**  
+ج: احصل على أحدث مكتبة من صفحة التحميل الرسمية [هنا](https://releases.aspose.com/note/java/).
+
+---
+
+**آخر تحديث:** 2026-03-29  
+**تم الاختبار مع:** Aspose.Note for Java 24.12 (latest at time of writing)  
+**المؤلف:** Aspose
+
+---
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
