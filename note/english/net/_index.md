@@ -1,5 +1,5 @@
 ---
-title: How to Embed Hyperlink in OneNote with Aspose.Note for .NET
+title: Embedding Hyperlinks in OneNote Documents
 linktitle: Aspose.Note for .NET Tutorials
 weight: 10
 url: /net/
@@ -26,6 +26,22 @@ Ready to learn **how to embed hyperlink** in a OneNote document using Aspose.Not
 ## How to Embed Hyperlink in OneNote Documents
 
 Embedding a hyperlink is as simple as creating a `HyperlinkNode` and attaching it to a page or a paragraph. The dedicated tutorial in the **Hyperlinking Brilliance** section walks you through the exact API calls, sample code, and best practices for handling URL validation and target behavior. Mastering this technique lets you connect your OneNote content to external resources, internal sections, or even custom URI schemes.
+
+```csharp
+// Create a new HyperlinkNode
+var hyperlink = new HyperlinkNode("https://example.com")
+{
+    Target = HyperlinkTarget.NewWindow
+};
+
+// Add the hyperlink to a paragraph
+var paragraph = new ParagraphNode();
+paragraph.AppendChild(hyperlink);
+
+// Add the paragraph to a page
+var page = new PageNode();
+page.AppendChild(paragraph);
+```
 
 ## How to Add Attachment to OneNote
 
@@ -62,12 +78,12 @@ Boost your .NET applications with Aspose.Note! Dive into tutorials that unravel 
 
 Enhance interactivity in Aspose.Note documents effortlessly! Our step‑by‑step tutorials on adding hyperlinks with Aspose.Note for .NET will transform your document's engagement. Uncover the secrets of effective hyperlinking and boost the interactive elements of your OneNote creations.
 
-## Image Handling Excellence 
+## Image handling excellence
 [Explore Image Tutorials](./images/)
 
 Enter the world of OneNote document manipulation with tutorials on seamless image handling. Elevate your visual content effortlessly with Aspose.Note for .NET. Explore the intricacies of manipulating images within your OneNote documents.
 
-## PDF Import Mastery 
+## PDF import mastery
 [Dive into Import Tutorials](./import/)
 
 Import PDF documents into Aspose.Note .NET seamlessly! Our tutorials guide you through the integration process using various merge options. Learn with step‑by‑step guidance, including OneNote integration, and unlock the full potential of Aspose.Note for .NET.
@@ -82,27 +98,27 @@ Dive into our tutorials for step‑by‑step guidance on loading, saving, and ma
 
 Learn notebook operations, from adding child nodes to converting to images or PDFs. Dive into creating and loading notebooks, enhancing security, and becoming a master of Aspose.Note for .NET.
 
-## Note Manipulation Wizardry 
+## Note manipulation wizardry
 [Explore Note Manipulation](./note-manipulation/)
 
 Unlock the power of Aspose.Note for .NET with our OneNote‑focused tutorials. Resolve conflicts, create dynamic documents, and explore efficient page manipulation. Become a wizard in note manipulation with our comprehensive guides.
 
-## Document Printing Magic 
+## Document printing magic
 [Print OneNote Documents](./printing-document/)
 
 Print OneNote documents with Aspose.Note for .NET. Explore seamless integration into .NET apps, customize print options, and unleash the power of document printing. Master the art of bringing your OneNote creations to life on paper.
 
-## Crafting Tables with Precision 
+## Crafting tables with precision
 [Table Manipulation Techniques](./table-manipulation/)
 
 Create visually appealing documents with Aspose.Note for .NET! Our tutorials on table manipulation cover everything from changing styles to composing tables and extracting text. Enhance your document aesthetics with precision table crafting.
 
-## Tag Management Mastery 
+## Tag management mastery
 [Master Tag Management](./tag-management/)
 
 Become a master of Aspose.Note with tag management. Add images, tables, text nodes, and generate meeting notes. Retrieve tag details and enhance your document manipulation skills with our comprehensive tutorials.
 
-## Transformative Text Manipulation 
+## Transformative text manipulation
 [Transform with Text Manipulation](./text-manipulation/)
 
 Transform your OneNote documents with Aspose.Note for .NET! Learn text manipulation techniques, from applying bullets and numbering to changing styles. Elevate your text game and bring a new dimension to your OneNote creations.

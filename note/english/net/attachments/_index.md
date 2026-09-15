@@ -1,5 +1,5 @@
 ---
-title: Attach File OneNote: Managing Attachments and Retrieval
+title: 'Add Attachments to OneNote with Aspose.Note for .NET: Managing Attachments and Retrieval'
 linktitle: Attachments
 second_title: Aspose.Note .NET API
 description: Learn how to attach file OneNote, set attachment icons, and retrieve attachments using Aspose.Note for .NET. Step‑by‑step tutorials for developers.
@@ -42,19 +42,39 @@ Attaching a file to a OneNote page means embedding the file’s binary data insi
 ## Attach File and Set Icon in Aspose.Note
 In the first tutorial, we'll unravel the magic of attaching files and setting icons using Aspose.Note for .NET. Follow our step‑by‑step guide to enhance the functionality of your .NET applications. Whether you're a seasoned developer or just starting, this tutorial caters to all skill levels. Learn the ropes and empower your applications with the capability to seamlessly manage attachments.
 
-### [Attach File and Set Icon in Aspose.Note Tutorial](./attach-file-set-icon/)
+### [Attach file and set icon in Aspose.Note tutorial](./attach-file-set-icon/)
 Is your goal to streamline file attachment processes and elevate the visual appeal of your applications? Look no further. Our tutorial not only covers the technical aspects of attaching files but also guides you on setting icons for a visually pleasing user experience. Dive in and make your applications stand out!
+
+#### Sample code: Adding an attachment with a custom icon
+```csharp
+// Example: Adding an attachment with a custom icon
+using Aspose.Note;
+using System.IO;
+
+Document doc = new Document("Sample.one");
+Page page = doc.Pages[0];
+
+using (FileStream stream = File.OpenRead("example.pdf"))
+{
+    Attachment attachment = new Attachment(stream, "example.pdf")
+    {
+        Icon = AttachmentIcon.Pdf // set custom icon
+    };
+    page.Attachments.Add(attachment);
+}
+doc.Save("Output.one");
+```
 
 ## Attach File by Path in Aspose.Note
 The second tutorial in our series focuses on attaching files to Microsoft OneNote documents programmatically. With Aspose.Note for .NET, simplify your development process by incorporating this comprehensive tutorial. We'll walk you through the intricacies of attaching files using file paths. Say goodbye to manual processes and embrace efficiency.
 
-### [Attach File by Path in Aspose.Note Tutorial](./attach-file-by-path/)
+### [Attach file by path in Aspose.Note tutorial](./attach-file-by-path/)
 Are you seeking a hassle‑free method to attach files to Microsoft OneNote documents? Our tutorial provides a detailed roadmap, ensuring you grasp the concept effortlessly. Learn how to integrate Aspose.Note for .NET seamlessly and simplify your development workflow.
 
 ## Retrieve Attached Files with Aspose.Note
 The final tutorial unveils the art of retrieving attached files from Microsoft OneNote documents using Aspose.Note for .NET. We guide you through the process – from loading files to iterating through attachments. Elevate your application's capabilities by mastering this essential skill.
 
-### [Retrieve Attached Files with Aspose.Note Tutorial](./retrieve-attached-files/)
+### [Retrieve attached files with Aspose.Note tutorial](./retrieve-attached-files/)
 Ready to take control of attached files in your OneNote documents? Our tutorial equips you with the knowledge to effortlessly retrieve attached files. Follow the steps, understand the nodes, and gain the expertise to enhance your application's functionality.
 
 ## Attachments Tutorials
@@ -65,7 +85,7 @@ Learn how to attach files to Microsoft OneNote documents programmatically using 
 ### [Retrieve Attached Files with Aspose.Note](./retrieve-attached-files/)
 Learn how to retrieve attached files from Microsoft OneNote documents using Aspose.Note for .NET. Follow steps to load, get nodes, and iterate through attachments.
 
-## Frequently Asked Questions
+## Frequently asked questions
 
 **Q: How do I attach a file without specifying an icon?**  
 A: Simply omit the `Icon` property when creating the attachment; OneNote will use the default file‑type icon.

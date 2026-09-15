@@ -1,6 +1,6 @@
 ---
-title: Create OneNote Document & Attach File by Path with Aspose.Note
-linktitle: Create OneNote Document & Attach File by Path with Aspose.Note
+title: Create OneNote Document & Attach File by Path using Aspose.Note API
+linktitle: Create OneNote Document & Attach File by Path using Aspose.Note API
 second_title: Aspose.Note .NET API
 description: Learn how to create OneNote document and attach file to OneNote programmatically using Aspose.Note for .NET.
 weight: 11
@@ -16,7 +16,7 @@ keywords:
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Create OneNote Document & Attach File by Path with Aspose.Note
+# Create OneNote Document & Attach File by Path using Aspose.Note API
 
 ## Introduction
 
@@ -42,7 +42,7 @@ Attaching a file by path lets you embed any supporting document—PDFs, spreadsh
 Before you start, make sure you have:
 
 1. **Development Environment** – .NET Framework or .NET Core installed and Visual Studio (or your preferred IDE).  
-2. **Aspose.Note for .NET** – Download and install from the [download link](https://releases.aspose.com/note/net/).  
+2. **Aspose.Note for .NET** – Download and install from the [Aspose.Note .NET download page](https://releases.aspose.com/note/net/).  
 3. **C# Knowledge** – Basic familiarity with C# syntax.  
 4. **OneNote Basics** – Understanding of pages, outlines, and attachments helps but isn’t mandatory.
 
@@ -62,7 +62,7 @@ using System.Drawing;
 
 Attaching files to a OneNote document using Aspose.Note for .NET is a straightforward process. Let's break it down into multiple steps:
 
-### Step 1: Initialize Document Object
+### Step 1: initialize document object
 
 ```csharp
 // The path to the documents directory.
@@ -72,7 +72,7 @@ Document doc = new Document();
 
 This initializes a new instance of the `Document` class, which represents a OneNote document.
 
-### Step 2: Initialize Page Object
+### Step 2: initialize page object
 
 ```csharp
 Aspose.Note.Page page = new Aspose.Note.Page(doc);
@@ -80,7 +80,7 @@ Aspose.Note.Page page = new Aspose.Note.Page(doc);
 
 Here, we create a new instance of the `Page` class, which represents a page within the document.
 
-### Step 3: Initialize Outline Object
+### Step 3: initialize outline object
 
 ```csharp
 Outline outline = new Outline(doc);
@@ -88,7 +88,7 @@ Outline outline = new Outline(doc);
 
 An `Outline` object is created to organize the content within the page.
 
-### Step 4: Initialize OutlineElement Object
+### Step 4: initialize outlineElement object
 
 ```csharp
 OutlineElement outlineElem = new OutlineElement(doc);
@@ -96,7 +96,7 @@ OutlineElement outlineElem = new OutlineElement(doc);
 
 `OutlineElement` represents an element within the outline structure.
 
-### Step 5: Initialize AttachedFile Object
+### Step 5: initialize attachedFile object
 
 ```csharp
 AttachedFile attachedFile = new AttachedFile(doc,  dataDir + "attachment.txt");
@@ -104,7 +104,7 @@ AttachedFile attachedFile = new AttachedFile(doc,  dataDir + "attachment.txt");
 
 Here, we create an instance of `AttachedFile`, specifying the path to the file we want to attach.
 
-### Step 6: Append Attached File
+### Step 6: append attached file
 
 ```csharp
 outlineElem.AppendChildLast(attachedFile);
@@ -112,7 +112,7 @@ outlineElem.AppendChildLast(attachedFile);
 
 The attached file is appended to the outline element.
 
-### Step 7: Append Outline Element
+### Step 7: append outline element
 
 ```csharp
 outline.AppendChildLast(outlineElem);
@@ -120,7 +120,7 @@ outline.AppendChildLast(outlineElem);
 
 The outline element is appended to the outline.
 
-### Step 8: Append Outline
+### Step 8: append outline
 
 ```csharp
 page.AppendChildLast(outline);
@@ -128,7 +128,7 @@ page.AppendChildLast(outline);
 
 The outline is appended to the page.
 
-### Step 9: Append Page
+### Step 9: append page
 
 ```csharp
 doc.AppendChildLast(page);
@@ -136,7 +136,7 @@ doc.AppendChildLast(page);
 
 Finally, the page is appended to the document.
 
-### Step 10: Save Document
+### Step 10: save document
 
 ```csharp
 dataDir = dataDir + "AttachFileByPath_out.one";
@@ -145,7 +145,7 @@ doc.Save(dataDir);
 
 The document is saved, and the file is attached successfully.
 
-## Common Issues and Solutions
+## Common issues and solutions
 
 | Issue | Why it Happens | How to Fix |
 |-------|----------------|------------|
@@ -153,7 +153,7 @@ The document is saved, and the file is attached successfully.
 | **Attachment not visible in OneNote** | The outline hierarchy may be incomplete. | Ensure you append the outline element to the outline, then the outline to the page, and finally the page to the document (as shown in the steps). |
 | **Saving fails with access denied** | The target folder is read‑only or you lack permissions. | Save to a writable directory or run Visual Studio as administrator. |
 
-## Frequently Asked Questions
+## Frequently asked questions
 
 ### Q1: Is Aspose.Note for .NET compatible with all versions of OneNote?
 
@@ -165,15 +165,15 @@ A2: Yes, you can edit, modify, and manipulate existing OneNote files programmati
 
 ### Q3: Does Aspose.Note for .NET require a license for commercial use?
 
-A3: Yes, you need to acquire a license for commercial use of Aspose.Note for .NET. You can obtain a license from the [purchase page](https://purchase.aspose.com/buy).
+A3: Yes, you need to acquire a license for commercial use of Aspose.Note for .NET. You can obtain a license from the [Aspose.Note purchase page](https://purchase.aspose.com/buy).
 
 ### Q4: Is there a free trial available for Aspose.Note for .NET?
 
-A4: Yes, you can avail of a free trial of Aspose.Note for .NET from the [trial page](https://releases.aspose.com/).
+A4: Yes, you can avail of a free trial of Aspose.Note for .NET from the [Aspose.Note trial page](https://releases.aspose.com/).
 
 ### Q5: Where can I seek support for Aspose.Note for .NET?
 
-A5: You can seek support from the Aspose.Note community forums [here](https://forum.aspose.com/c/note/28).
+A5: You can seek support from the Aspose.Note community forums at the [Aspose.Note community forums](https://forum.aspose.com/c/note/28).
 
 ---
 

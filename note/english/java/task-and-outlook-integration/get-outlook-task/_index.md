@@ -1,5 +1,5 @@
 ---
-title: How to Extract Outlook Tasks in OneNote with Aspose.Note
+title: Extract Outlook Tasks in OneNote Using Aspose.Note Java API
 linktitle: Get Outlook Task in OneNote - Aspose.Note
 second_title: Aspose.Note Java API
 description: Learn how to extract tasks from Outlook in OneNote using Aspose.Note for Java. Follow this step‑by‑step guide to retrieve task details quickly.
@@ -40,7 +40,7 @@ Task extraction refers to reading structured task information (such as due dates
 Before we dive in, make sure you have the following ready:
 
 - **Java Development Environment** – JDK 8 or newer installed and configured.  
-- **Aspose.Note Library** – Download the latest Java package from the official site [here](https://releases.aspose.com/note/java/).  
+- **Aspose.Note Library** – Download the latest Java package from the Aspose.Note Java download page [https://releases.aspose.com/note/java/](https://releases.aspose.com/note/java/).  
 - **A sample OneNote file** – The tutorial uses `Sample1.one`; you can replace it with any notebook that contains Outlook tasks.
 
 ## Import Packages
@@ -57,28 +57,28 @@ import com.aspose.note.RichText;
 
 ## Step‑by‑step Guide
 
-### Step 1: Set up Your Document Directory
+### Step 1: set up your document directory
 Define the folder that holds your OneNote file. Using an absolute or relative path works, but keep the path string tidy for readability.
 
 ```java
 String dataDir = "Your Document Directory";
 ```
 
-### Step 2: Load the OneNote Document
+### Step 2: load the oneNote document
 Create a `Document` instance by pointing to the `.one` file. Aspose.Note parses the file into a DOM‑like structure you can traverse.
 
 ```java
 Document doc = new Document(dataDir + "Sample1.one");
 ```
 
-### Step 3: Get All RichText Nodes
+### Step 3: get all richText nodes
 Outlook tasks are stored inside `RichText` elements. Retrieve every `RichText` node so you can inspect its tags.
 
 ```java
 List<RichText> nodes = (List<RichText>) doc.getChildNodes(RichText.class);
 ```
 
-### Step 4: Iterate Through Each Node
+### Step 4: iterate through each node
 Loop through each `RichText` node, examine its tags, and act when you encounter a `NoteTask`. The code below prints the most useful properties for each task.
 
 ```java
@@ -100,7 +100,7 @@ for (RichText richText : nodes) {
 
 **Pro tip:** If you only need a subset of properties, you can skip the others to improve performance when processing large notebooks.
 
-### Common Issues & Solutions
+### Common issues & solutions
 - **No tasks found:** Ensure the OneNote page actually contains Outlook tasks. They appear as check‑boxes with a small Outlook icon.  
 - **Null values:** Some task fields (e.g., `CompletedTime`) may be `null` if the task hasn’t been completed. Guard against `NullPointerException` by checking for `null` before printing.  
 - **File not found:** Verify that `dataDir` ends with the appropriate path separator (`/` or `\\`) for your OS.
@@ -108,22 +108,22 @@ for (RichText richText : nodes) {
 ## Conclusion
 Congratulations! You’ve learned **how to extract tasks** from Outlook in OneNote using the Aspose.Note Java API. This approach gives you full programmatic control over task data, enabling integration with custom reporting tools, databases, or other business workflows.
 
-## Frequently Asked Questions
+## Frequently asked questions
 
 **Q: Is Aspose.Note compatible with all versions of OneNote?**  
 A: Aspose.Note supports Microsoft OneNote 2010 and later versions.
 
 **Q: Can I use Aspose.Note for both personal and commercial projects?**  
-A: Yes, Aspose.Note can be used for both personal and commercial projects. Visit [here](https://purchase.aspose.com/buy) to explore licensing options.
+A: Yes, Aspose.Note can be used for both personal and commercial projects. Visit the Aspose.Note licensing page [https://purchase.aspose.com/buy](https://purchase.aspose.com/buy) to explore licensing options.
 
 **Q: Is there a free trial available for Aspose.Note?**  
-A: Yes, you can access the free trial [here](https://releases.aspose.com/).
+A: Yes, you can access the Aspose.Note free trial [https://releases.aspose.com/](https://releases.aspose.com/).
 
 **Q: How can I get support for Aspose.Note?**  
 A: Visit the [Aspose.Note Forum](https://forum.aspose.com/c/note/28) for community support. For additional assistance, consider purchasing a [temporary license](https://purchase.aspose.com/temporary-license/).
 
 **Q: Are there any sample OneNote documents available for testing?**  
-A: You can find sample documents in the Aspose.Note documentation [here](https://reference.aspose.com/note/java/).
+A: You can find sample OneNote documents in the Aspose.Note documentation [https://reference.aspose.com/note/java/](https://reference.aspose.com/note/java/).
 
 ---
 
