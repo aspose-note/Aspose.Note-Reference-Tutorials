@@ -1,6 +1,6 @@
 ---
-title: How to Add Hyperlink to Images in Aspose.Note
-linktitle: Insert Images with Hyperlink in Aspose.Note
+title: Insert Hyperlinked Image Using Aspose.Note for .NET
+linktitle: Insert Hyperlinked Image with Aspose.Note for .NET
 second_title: Aspose.Note .NET API
 description: Learn how to add hyperlink to images in Aspose.Note for .NET and make your documents interactive with clickable graphics.
 weight: 15
@@ -39,7 +39,7 @@ Below you’ll find a step‑by‑step guide that walks you through the whole pr
 
 Before we begin, ensure you have the following:
 
-1. Aspose.Note for .NET: Make sure you have installed Aspose.Note for .NET. If not, you can download it from [here](https://releases.aspose.com/note/net/).  
+1. Aspose.Note for .NET: Make sure you have installed Aspose.Note for .NET. If not, you can download it from [Aspose.Note .NET download page](https://releases.aspose.com/note/net/).  
 2. Development Environment: Set up your development environment with .NET framework.  
 3. Image: Have the image you want to insert ready in your document directory.  
 4. Basic Knowledge: Familiarity with C# and .NET framework.
@@ -53,7 +53,7 @@ using System.Linq;
 using System.Text;
 ```
 
-## Step 1: Initialize Document and Page
+## Step 1: initialize document and page
 
 First, we need to create a fresh `Document` instance and add a `Page` where the image will live.
 
@@ -62,7 +62,7 @@ var document = new Document();
 var page = new Page(document);
 ```
 
-## Step 2: Insert Image with Hyperlink
+## Step 2: insert image with hyperlink
 
 Now, let’s **insert image hyperlink** by creating an `Image` object and assigning its `HyperlinkUrl` property.
 
@@ -73,7 +73,7 @@ var image = new Image(document, imagePath) { HyperlinkUrl = "http://example.com"
 
 > **Pro tip:** The `HyperlinkUrl` can point to any web address, a local file, or even a deep‑link inside another OneNote document.
 
-## Step 3: Append Image to Page
+## Step 3: append image to page
 
 After the image is ready, we **append image to page** using the `AppendChildLast` method.
 
@@ -81,7 +81,7 @@ After the image is ready, we **append image to page** using the `AppendChildLast
 page.AppendChildLast(image);
 ```
 
-## Step 4: Append Page to Document
+## Step 4: append page to document
 
 Finally, add the page to the document and persist the file.
 
@@ -90,7 +90,7 @@ document.AppendChildLast(page);
 document.Save("path_to_output_file.one");
 ```
 
-## Why Use Clickable Images?
+## Why use clickable images?
 
 Adding a hyperlink to an image lets you:
 
@@ -98,7 +98,7 @@ Adding a hyperlink to an image lets you:
 * Create richer, more engaging notes that behave like interactive presentations.  
 * Keep the visual design clean while still providing full navigation capabilities.
 
-## Common Issues & Tips
+## Common issues & tips
 
 | Issue | Solution |
 |-------|----------|
@@ -107,7 +107,7 @@ Adding a hyperlink to an image lets you:
 | **Multiple images needed** | Repeat **Step 2** and **Step 3** for each image, then **append** each to the same page or to different pages as required. |
 | **Performance concerns** | Load large images once, reuse the `Image` object, or compress the source files before insertion. |
 
-## Frequently Asked Questions
+## Frequently asked questions
 
 **Q: Can I insert multiple images with hyperlinks in a single document?**  
 A: Yes, you can insert as many images with hyperlinks as needed in a single document using Aspose.Note for .NET.
@@ -119,7 +119,7 @@ A: Yes, Aspose.Note supports various **supported image formats**, including JPEG
 A: Yes, you can customize the appearance of hyperlinks, including color, underline, and hover effects, using Aspose.Note for .NET.
 
 **Q: Is there a trial version available for Aspose.Note for .NET?**  
-A: Yes, you can download a free trial version of Aspose.Note for .NET from [here](https://releases.aspose.com/).
+A: Yes, you can download a free trial version of Aspose.Note for .NET from [Aspose.Note free trial download page](https://releases.aspose.com/).
 
 **Q: Where can I get support for Aspose.Note for .NET?**  
 A: You can get support for Aspose.Note for .NET from the [Aspose.Note forums](https://forum.aspose.com/c/note/28), where you can ask questions, seek guidance, and interact with other users and experts.

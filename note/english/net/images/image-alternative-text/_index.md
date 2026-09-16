@@ -1,6 +1,6 @@
 ---
-title: How to Add Alt Text to Images in Aspose.Note
-linktitle: Add Alternative Text to Images in Aspose.Note
+title: Set Image Alternative Text Using Aspose.Note API for .NET
+linktitle: Set Image Alternative Text Using Aspose.Note API for .NET
 second_title: Aspose.Note .NET API
 description: Learn how to add alt text to images in Aspose.Note for .NET easily. Enhance accessibility and improve user experience with this step‑by‑step guide.
 weight: 14
@@ -45,7 +45,7 @@ Before you begin, make sure you have:
 
 - Basic knowledge of C# and .NET development.  
 - Visual Studio installed on your machine.  
-- Aspose.Note for .NET downloaded and referenced in your project – you can get it [here](https://releases.aspose.com/note/net/).  
+- Aspose.Note for .NET downloaded and referenced in your project – you can get it from the [Aspose.Note .NET download page](https://releases.aspose.com/note/net/).  
 - An image file (e.g., `image.jpg`) that you want to embed.
 
 ## Import Namespaces
@@ -60,7 +60,7 @@ using System.Drawing;
 using System;
 ```
 
-## Step 1: Initialize Document and Page
+## Step 1: initialize document and page
 
 Create a new `Document` instance and add a `Page` where the image will live.
 
@@ -69,7 +69,7 @@ var document = new Document();
 var page = new Page(document);
 ```
 
-## Step 2: Load the Image
+## Step 2: load the image
 
 Point to the folder that contains your picture and create an `Image` object.
 
@@ -78,7 +78,7 @@ string dataDir = "Your Document Directory";
 var image = new Image(document, dataDir + "image.jpg");
 ```
 
-## Step 3: Set Alternative Text
+## Step 3: set alternative text
 
 Here we **add alternative text image** by filling both the title and description fields.
 
@@ -87,7 +87,7 @@ image.AlternativeTextTitle = "This is an image's title!";
 image.AlternativeTextDescription = "And this is an image's description!";
 ```
 
-## Step 4: Append Image to Page
+## Step 4: append image to page
 
 Now we **append image to page** using the `AppendChildLast` method.
 
@@ -95,7 +95,7 @@ Now we **append image to page** using the `AppendChildLast` method.
 page.AppendChildLast(image);
 ```
 
-## Step 5: Save Document
+## Step 5: save document
 
 Specify the output file name and persist the OneNote document.
 
@@ -104,7 +104,7 @@ dataDir = dataDir + "ImageAlternativeText_out.one";
 document.Save(dataDir);
 ```
 
-## Step 6: Display Success Message
+## Step 6: display success message
 
 A simple console message confirms that the operation succeeded.
 
@@ -112,7 +112,7 @@ A simple console message confirms that the operation succeeded.
 Console.WriteLine("\nImage alternative text setup successfully.\nFile saved at " + dataDir); 
 ```
 
-## Common Issues and Solutions
+## Common issues and solutions
 
 | Issue | Cause | Fix |
 |-------|-------|-----|
@@ -120,7 +120,7 @@ Console.WriteLine("\nImage alternative text setup successfully.\nFile saved at "
 | **File not found** | Wrong `dataDir` path | Use an absolute path or verify the relative folder exists. |
 | **Exception on Save** | Insufficient write permissions | Run Visual Studio as administrator or choose a writable folder. |
 
-## Frequently Asked Questions
+## Frequently asked questions
 
 ### Q1: Why is alternative text important for images?
 
@@ -140,7 +140,7 @@ A4: You can get support for Aspose.Note by visiting the [Aspose.Note forum](http
 
 ### Q5: Is there a free trial available for Aspose.Note?
 
-A5: Yes, you can avail of a free trial of Aspose.Note by visiting [here](https://releases.aspose.com/).
+A5: Yes, you can avail of a free trial of Aspose.Note by visiting the [Aspose.Note free trial page](https://releases.aspose.com/).
 
 ## Conclusion
 

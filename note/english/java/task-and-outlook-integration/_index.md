@@ -1,6 +1,6 @@
 ---
-title: Java Document Processing: Task and Outlook Integration
-linktitle: Java Document Processing: Task and Outlook Integration
+title: 'Integrate Outlook Tasks with Aspose.Note for Java'
+linktitle: 'Integrate Outlook Tasks with Aspose.Note for Java'
 second_title: Aspose.Note Java API
 description: Learn how to use Aspose.Note for Java to integrate Outlook tasks into OneNote and boost your java document processing workflow.
 weight: 35
@@ -43,22 +43,33 @@ Aspose.Note for Java is not just a tool; it's a game‑changer in the realm of *
 
 The heart of our tutorial series lies in seamlessly integrating Outlook tasks into OneNote using Aspose.Note for Java. Say goodbye to manual data transfer and embrace efficiency. Follow our carefully curated steps, and you'll be effortlessly extracting Outlook tasks into OneNote in no time.
 
-### [Get Outlook Task in OneNote - Aspose.Note Tutorial](./get-outlook-task/)
+```java
+// Load Outlook task and add to OneNote
+NotesDocument document = new NotesDocument();
+Task outlookTask = getOutlookTask(); // implement retrieval logic
+OneNoteTask oneNoteTask = new OneNoteTask();
+oneNoteTask.setTitle(outlookTask.getSubject());
+oneNoteTask.setDueDate(outlookTask.getDueDate());
+document.appendTask(oneNoteTask);
+document.save("IntegratedTasks.one");
+```
+
+### [Get outlook task in oneNote - Aspose.Note tutorial](./get-outlook-task/)
 
 Our first tutorial focuses on extracting Outlook tasks from OneNote using Aspose.Note for Java. We break down the process into simple, actionable steps, ensuring even beginners can follow along. Elevate your workflow and productivity with this essential integration.
 
-## Enhance Your Document Processing Skills
+## Enhance your document processing skills
 
 Beyond the specific task and Outlook integration, Aspose.Note for Java offers a plethora of features to enhance your overall **java document processing** capabilities. From creating and manipulating notes to advanced formatting, our tutorials cover it all. Become a master in leveraging Aspose.Note for Java to its fullest potential.
 
-## Why Import Outlook Tasks into OneNote?
+## Why import outlook tasks into oneNote?
 
 - **Centralized information** – Keep meetings, emails, and tasks together in a single notebook.  
 - **Automation** – Reduce repetitive copy‑paste work, freeing up developer time.  
 - **Consistency** – Ensure task details (due dates, priorities) stay synchronized across platforms.  
 - **Scalability** – Apply the same approach to bulk imports or scheduled sync jobs.
 
-## Common Pitfalls & Pro Tips
+## Common pitfalls & pro tips
 
 - **Pro tip:** Always dispose of the `NotesDocument` object after use to free native resources.  
 - **Pitfall:** Forgetting to set the correct time‑zone when importing due dates can cause mismatched deadlines.  
@@ -69,10 +80,10 @@ Beyond the specific task and Outlook integration, Aspose.Note for Java offers a 
 As you embark on this journey with Aspose.Note for Java, remember that efficiency and productivity are just a tutorial away. Whether you're a seasoned developer or a novice, our step‑by‑step guides cater to all levels. Dive in, explore, and transform your document processing experience with Aspose.Note for Java. Your enhanced capabilities await!
 
 ## Task and Outlook Integration Tutorials
-### [Get Outlook Task in OneNote - Aspose.Note](./get-outlook-task/)
+### [Get outlook task in oneNote - Aspose.Note](./get-outlook-task/)
 Explore the power of Aspose.Note for Java in extracting Outlook tasks from OneNote effortlessly. Follow our step‑by‑step guide and enhance your document processing capabilities.
 
-## Frequently Asked Questions
+## Frequently asked questions
 
 **Q: Can I use this integration in a commercial application?**  
 A: Yes, as long as you have a valid Aspose.Note for Java license. A free trial is available for evaluation.

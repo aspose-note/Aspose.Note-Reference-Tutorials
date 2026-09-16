@@ -1,6 +1,6 @@
 ---
-title: How to extract image metadata from OneNote using Aspose.Note
-linktitle: How to extract image metadata from OneNote using Aspose.Note
+title: How to Extract Image Metadata from OneNote with Aspose.Note for .NET (C#)
+linktitle: How to Extract Image Metadata from OneNote with Aspose.Note for .NET (C#)
 second_title: Aspose.Note .NET API
 description: Learn how to extract image metadata and get image dimensions from OneNote files with Aspose.Note for .NET. Step‑by‑step guide for C# developers.
 weight: 13
@@ -40,7 +40,7 @@ Extracting image metadata means programmatically reading the descriptive attribu
 
 ## Prerequisites
 1. **C# fundamentals** – You should be comfortable writing basic C# code.  
-2. **Aspose.Note for .NET** – Download and install the library from the official site [here](https://releases.aspose.com/note/net/).  
+2. **Aspose.Note for .NET** – Download and install the library from the official site [Aspose.Note .NET download page](https://releases.aspose.com/note/net/).  
 3. **A OneNote (.one) file** – Any existing OneNote document that contains images.
 
 ## Import Namespaces
@@ -94,14 +94,14 @@ foreach (Aspose.Note.Image image in images)
 
 The output shows each image’s current width/height (as rendered in the page), the original dimensions stored in the file, the file name, and the timestamp of the last modification.
 
-## Common Issues and Solutions
+## Common issues and solutions
 | Issue | Reason | Fix |
 |-------|--------|-----|
 | **NullReferenceException** when `images` is empty | Document contains no images | Verify the source `.one` file actually has embedded images. |
 | **Incorrect dimensions** | Images are scaled in OneNote | Use `OriginalWidth`/`OriginalHeight` to obtain the true size. |
 | **FileName is empty** | Image was pasted from clipboard | The API may not have a filename; handle `null` or empty strings in your code. |
 
-## Frequently Asked Questions
+## Frequently asked questions
 
 **Q: Is Aspose.Note compatible with all versions of Microsoft OneNote?**  
 A: Aspose.Note supports .one, .onepkg, and .onetoc2 formats, covering most OneNote versions from 2007 onward.
@@ -116,7 +116,7 @@ A: Absolutely. The library is fully compatible with .NET Core, .NET 5, and .NET 
 A: Yes, you can download a trial version from the Aspose website to explore all features.
 
 **Q: Where can I get additional help or community support?**  
-A: Visit the Aspose.Note forum [here](https://forum.aspose.com/c/note/28) for tips, sample code, and answers from the community.
+A: Visit the Aspose.Note forum [Aspose.Note community forum](https://forum.aspose.com/c/note/28) for tips, sample code, and answers from the community.
 
 ---
 
