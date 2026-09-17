@@ -47,7 +47,7 @@ Adding an image to a OneNote file means embedding a visual element directly insi
 Before we dive in, make sure you have:
 
 1. **Development Environment** – Visual Studio 2022 or any .NET‑compatible IDE.  
-2. **Aspose.Note Library** – download it from the official site [here](https://releases.aspose.com/note/net/).  
+2. **Aspose.Note Library** – download it from the official site [Aspose.Note .NET download page](https://releases.aspose.com/note/net/).  
 3. **Image Files** – at least one picture (JPG, PNG, BMP, GIF, or TIFF) you want to embed.  
 4. **Basic C# Knowledge** – familiarity with file handling and object‑oriented code.
 
@@ -64,7 +64,7 @@ using System;
 
 Now let’s walk through the process step‑by‑step.
 
-### Step 1: Initialize Document Object
+### Step 1: initialize document object
 We start by creating a fresh `Document` instance that will hold the OneNote file.
 
 ```csharp
@@ -73,14 +73,14 @@ string dataDir = "Your Document Directory";
 Document doc = new Document();
 ```
 
-### Step 2: Create Page Object
+### Step 2: create page object
 A OneNote file consists of one or more pages. Here we create a new page to host our content.
 
 ```csharp
 Aspose.Note.Page page = new Aspose.Note.Page(doc);
 ```
 
-### Step 3: Initialize Outline and OutlineElement Objects
+### Step 3: initialize outline and outlineElement objects
 Outlines are containers for rich content (text, images, tables). An `OutlineElement` is a child that actually holds the items.
 
 ```csharp
@@ -88,7 +88,7 @@ Outline outline1 = new Outline(doc);
 OutlineElement outlineElem1 = new OutlineElement(doc);
 ```
 
-### Step 4: Load Image from Stream
+### Step 4: load image from stream
 Using a `FileStream` (or any `Stream`) we read the image file and create an `Image` object. This is where the **load image from stream** keyword shines.
 
 ```csharp
@@ -102,42 +102,42 @@ using (FileStream fs = File.OpenRead(dataDir + "image.jpg"))
 }
 ```
 
-### Step 5: Append Image to OutlineElement
+### Step 5: append image to outlineElement
 The image is now part of the `OutlineElement`. This step demonstrates **append image to outline** functionality.
 
 ```csharp
 outlineElem1.AppendChildLast(image1);
 ```
 
-### Step 6: Append OutlineElement to Outline
+### Step 6: append outlineElement to outline
 We now attach the element (with the image) to the outline container.
 
 ```csharp
 outline1.AppendChildLast(outlineElem1);
 ```
 
-### Step 7: Append Outline to Page
+### Step 7: append outline to page
 The outline, containing the image, is added to the page.
 
 ```csharp
 page.AppendChildLast(outline1);
 ```
 
-### Step 8: Append Page to Document
+### Step 8: append page to document
 With the page ready, we insert it into the document hierarchy.
 
 ```csharp
 doc.AppendChildLast(page);
 ```
 
-### Step 9: Save Document
+### Step 9: save document
 Finally, we persist the OneNote file to disk. The resulting file can be opened in Microsoft OneNote.
 
 ```csharp
 doc.Save(dataDir + "BuildDocAndInsertImageUsingImageStream_out.one");
 ```
 
-## Common Issues and Solutions
+## Common issues and solutions
 
 | Issue | Why it Happens | Fix |
 |-------|----------------|-----|
@@ -146,7 +146,7 @@ doc.Save(dataDir + "BuildDocAndInsertImageUsingImageStream_out.one");
 | **Unsupported image format** | Trying to load a format not recognized by Aspose.Note. | Convert the image to JPG, PNG, BMP, GIF, or TIFF first. |
 | **File path errors** | `dataDir` points to a non‑existent folder. | Use `Path.Combine` and verify the folder exists before running. |
 
-## Frequently Asked Questions
+## Frequently asked questions
 
 **Q: Can I insert multiple images into a single document using this method?**  
 A: Yes. Simply repeat the *Load Image from Stream* and *Append Image to OutlineElement* steps for each picture.

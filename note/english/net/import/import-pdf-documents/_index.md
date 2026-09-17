@@ -1,5 +1,5 @@
 ---
-title: Single Page PDF Merge: Import PDF Documents into Aspose.Note
+title: 'Single Page PDF Merge: Import PDF Documents into Aspose.Note'
 linktitle: Import PDF Documents into Aspose.Note
 second_title: Aspose.Note .NET API
 description: Learn how to perform a single page pdf merge and how to import pdf documents into Aspose.Note for .NET effortlessly using various merge options for seamless integration.
@@ -45,7 +45,7 @@ A **single page pdf merge** takes the content of several PDF files and places th
 
 Before diving into the tutorial, ensure you have the following:
 
-1. Aspose.Note for .NET: Download and install the library from [here](https://releases.aspose.com/note/net/).  
+1. Aspose.Note for .NET: Download and install the library from [Aspose.Note .NET download page](https://releases.aspose.com/note/net/).  
 2. Basic knowledge of C# and .NET Framework: Understanding of the C# programming language and .NET Framework will be beneficial.
 
 ## Import Namespaces
@@ -61,7 +61,7 @@ using System.Linq;
 using Aspose.Note.Importing;
 ```
 
-## Step 1: Import PDF Documents using Simple Merge
+## Step 1: import PDF documents using simple merge
 
 The Simple Merge approach allows importing all pages from multiple PDF documents page by page:
 
@@ -82,7 +82,7 @@ public static void ImportSetOfFiles_SimpleMerge()
 }
 ```
 
-## Step 2: Import PDF Documents using Structured Merge
+## Step 2: import PDF documents using structured merge
 
 Structured Merge imports all pages from PDF documents while inserting pages from each document as children of a top‑level OneNote page:
 
@@ -105,7 +105,7 @@ public static void ImportSetOfFiles_StructuredMerge()
 }
 ```
 
-## Step 3: Import PDF Documents using Single Page Merge
+## Step 3: import PDF documents using single page merge
 
 Single Page Merge merges content from multiple PDF documents onto a single OneNote page—perfect for the **single page pdf merge** scenario:
 
@@ -129,7 +129,7 @@ public static void ImportSetOfFiles_SinglePageMerge()
 }
 ```
 
-## Step 4: Import PDF Documents using Custom Merge
+## Step 4: import PDF documents using custom merge
 
 Custom Merge allows grouping pages from PDF documents into single OneNote pages based on custom criteria:
 
@@ -155,13 +155,13 @@ public static void ImportSetOfFiles_CustomMerge()
 }
 ```
 
-## Common Issues and Solutions
+## Common issues and solutions
 
 - **Encrypted PDFs fail to import** – Ensure you pass the correct password via `PdfImportOptions.Password`.  
 - **Large PDFs cause memory pressure** – Process PDFs in batches or increase the application’s memory limit.  
 - **Unexpected page ordering** – Verify the order of files passed to the `Import` method; use explicit sorting if needed.
 
-## Frequently Asked Questions
+## Frequently asked questions
 
 ### Q1: Can I import encrypted PDF documents?
 
