@@ -162,7 +162,7 @@ C: Topluluk yardımı için [Aspose.Note forumunu](https://forum.aspose.com/c/no
 ---
 
 **Son Güncelleme:** 2025-12-02  
-**Test Edilen Versiyon:** Aspose.Note for Java 24.12 (yazım anındaki en yeni sürüm)  
+**Test Edilen Versiyon:** Aspose.Note for Java 26.4 (yazım anındaki en yeni sürüm)  
 **Yazar:** Aspose  
 
 {{< /blocks/products/pf/tutorial-page-section >}}

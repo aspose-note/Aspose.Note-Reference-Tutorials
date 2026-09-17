@@ -1,10 +1,10 @@
 ---
-date: 2025-12-18
-description: Aspose.Note for Java を使用して OneNote ページを PDF にエクスポートする方法を学びましょう。分割アルゴリズムを選択し、ページ分割を設定して、簡単に
-  PDF ファイルを生成できます。
-linktitle: Export OneNote Pages with Splitting Algorithm Method – Aspose.Note
+date: 2026-03-16
+description: Aspose.Note for Java の分割アルゴリズム手法を使用して OneNote PDF をエクスポートし、改ページを制御し、PDF
+  画像を効率的に圧縮する方法を学びましょう。
+linktitle: Export OneNote PDF with Splitting Algorithm Method – Aspose.Note
 second_title: Aspose.Note Java API
-title: 分割アルゴリズム手法によるOneNoteページのエクスポート – Aspose.Note
+title: 分割アルゴリズム手法でOneNote PDFをエクスポート – Aspose.Note
 url: /ja/java/onenote-document-saving/use-splitting-algorithm-method/
 weight: 26
 ---
@@ -13,41 +13,43 @@ weight: 26
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Splitting Algorithm メソッドで OneNote ページをエクスポート – Aspose.Note
+# Splitting Algorithm メソッドで OneNote PDF をエクスポート – Aspose.Note
 
-## はじめに
+## Introduction
 
-プログラムで OneNote ページを PDF ドキュメントに **エクスポート** する必要がある場合、Aspose.Note for Java を使用すれば簡単に実現できます。このチュートリアルでは Splitting Algorithm メソッドを順に解説し、ページ間でコンテンツがどのように分割されるかを制御して、きれいで読みやすい PDF 出力を実現します。PDF 保存オプションの設定方法、適切なページ分割アルゴリズムの選択方法、そして最終的に PDF ファイルを生成する手順を、数行の Java コードで示します。
+プログラムから **OneNote PDF をエクスポート** したい場合、Aspose.Note for Java を使用すれば簡単に実現できます。このチュートリアルでは、ページ間のコンテンツ分割を制御できる Splitting Algorithm メソッドの手順を解説します。PDF 保存オプションの設定、適切なページ分割アルゴリズムの選択、そして最終的に PDF ファイルを生成するまで、数行の Java コードで完了します。
 
-## クイック回答
-- **Splitting Algorithm は何をするものですか？** OneNote ページを PDF にエクスポートする際、ページ境界をまたぐオブジェクトの処理方法を決定します。  
-- **必要なライブラリは何ですか？** Aspose.Note for Java（公式 Aspose サイトからダウンロード）。  
-- **ライセンスは必要ですか？** 本番環境で使用するには一時ライセンスまたはフルライセンスが必要です。無料トライアルも利用可能です。  
-- **大規模な OneNote ノートブックをエクスポートできますか？** はい。ライブラリは大きなファイルを効率的に処理し、ページ分割ルールを設定できます。  
-- **サポートされている出力形式は何ですか？** PDF、JPEG、PNG、XPS など。本ガイドは PDF エクスポートに焦点を当てています。
+## Quick Answers
+- **Splitting Algorithm は何をするものですか？** OneNote ページを PDF にエクスポートする際、ページ境界を跨ぐオブジェクトの扱い方を決定します。  
+- **必要なライブラリはどれですか？** Aspose.Note for Java（公式 Aspose サイトからダウンロード）。  
+- **ライセンスは必要ですか？** 本番環境で使用する場合は一時ライセンスまたはフルライセンスが必要です。無料トライアルも利用可能です。  
+- **大容量の OneNote ノートブックもエクスポートできますか？** はい。ライブラリは大きなファイルを効率的に処理し、ページ分割ルールを設定できます。  
+- **サポートされている出力形式は？** PDF、JPEG、PNG、XPS など多数ありますが、本ガイドは PDF エクスポートに焦点を当てています。  
+- **PDF の画像を圧縮するには？** `pdfSaveOptions.setCompressImages(true)` を使用して、生成される PDF の画像サイズを削減できます。  
 
-## **export onenote pages** とは何ですか？
+## How to export OneNote PDF with Splitting Algorithm
+このセクションでは、**OneNote ページ** を PDF に変換し、ページ区切りをインテリジェントに処理する手順を詳しく説明します。
 
-OneNote ページのエクスポートとは、ネイティブの `.one` ファイル形式を PDF などのより汎用的な形式に変換することです。これにより、OneNote アプリケーションが不要な状態でコンテンツを共有、アーカイブ、印刷することが可能になります。
+## What is export onenote pdf?
+OneNote PDF のエクスポートとは、ネイティブの `.one` ファイル形式を携帯性の高い PDF ドキュメントに変換することです。共有、アーカイブ、印刷など、OneNote アプリケーションが不要なシーンで便利に利用できます。
 
-## **export onenote pages** に Splitting Algorithm を使用する理由
+## Why use the Splitting Algorithm for export onenote pdf?
+このアルゴリズムを使用すると、テーブル、画像、図形などの複雑なオブジェクトがページ区切りでどのように処理されるかを細かく制御できます。適切なアルゴリズムを選択することで、以下が実現できます。
 
-このアルゴリズムは、テーブル、画像、図形などの複雑なオブジェクトがページ区切りでどのように処理されるかを細かく制御できます。適切なアルゴリズムを選択することで、以下が可能です。
+* 各ページのビジュアルレイアウトを保持。  
+* 切り取られたコンテンツが発生するのを防止。  
+* オブジェクトを次ページへきれいに移動できる場合、生成されるページ数を削減。  
 
-* 各ページのビジュアルレイアウトを保持する。  
-* 切り取られる可能性のあるコンテンツの切れ端を防止する。  
-* オブジェクトを次ページへきれいに移動できる場合、生成されるページ数を削減する。  
+## Prerequisites
 
-## 前提条件
+開始する前に、以下の前提条件を確認してください。
 
-開始する前に、以下の前提条件が揃っていることをご確認ください。
+1. Java Development Kit (JDK): システムに JDK がインストールされていることを確認してください。ダウンロードは [website](https://www.oracle.com/java/technologies/javase-jdk11-downloads.html) から行えます。  
+2. Aspose.Note for Java Library: Aspose.Note for Java ライブラリを [download link](https://releases.aspose.com/note/java/) からダウンロードし、インストールしてください。
 
-1. Java Development Kit (JDK)：システムに JDK がインストールされていることを確認してください。[website](https://www.oracle.com/java/technologies/javase-jdk11-downloads.html) からダウンロードできます。  
-2. Aspose.Note for Java ライブラリ： [download link](https://releases.aspose.com/note/java/) から Aspose.Note for Java ライブラリをダウンロードしてインストールしてください。
+## Import Packages
 
-## パッケージのインポート
-
-Java プロジェクトで、Aspose.Note の機能を利用するために必要なパッケージをインポートします。
+Java プロジェクトで Aspose.Note の機能を利用するために、必要なパッケージをインポートします。
 
 ```java
 import java.io.IOException;
@@ -58,7 +60,7 @@ import com.aspose.note.KeepSolidObjectsAlgorithm;
 import com.aspose.note.PdfSaveOptions;
 ```
 
-## 手順 1: ドキュメントディレクトリの定義
+## Step 1: Define Document Directory
 
 OneNote ドキュメントが格納されているディレクトリを設定します。
 
@@ -66,7 +68,7 @@ OneNote ドキュメントが格納されているディレクトリを設定し
 String dataDir = "Your Document Directory";
 ```
 
-## 手順 2: OneNote ドキュメントのロード
+## Step 2: Load the OneNote Document
 
 Aspose.Note の `Document` クラスを使用して OneNote ドキュメントをロードします。
 
@@ -74,25 +76,25 @@ Aspose.Note の `Document` クラスを使用して OneNote ドキュメント�
 Document doc = new Document(dataDir + "Sample1.one");
 ```
 
-## 手順 3: PDF 保存オプションの設定
+## Step 3: Set PDF Save Options
 
-`PdfSaveOptions` のインスタンスを作成し、ドキュメントを PDF として保存するオプションを指定します。ここで **ページ分割** の動作やその他の PDF 関連設定を行います。
+`PdfSaveOptions` のインスタンスを作成し、PDF 保存時のオプションを指定します。ここで **ページ分割** の動作やその他 PDF 関連設定を行います。
 
 ```java
 PdfSaveOptions pdfSaveOptions = new PdfSaveOptions();
 ```
 
-## 手順 4: ページ分割アルゴリズムの設定
+## Step 4: Set Page Splitting Algorithm
 
-要件に合わせて適切な分割アルゴリズムを選択します。ここでは `KeepPartAndCloneSolidObjectToNextPageAlgorithm` を使用しています。このアルゴリズムはオブジェクトの一部を現在のページに残し、残りを次のページにクローンします。
+要件に合わせて適切な分割アルゴリズムを選択します。ここでは、オブジェクトの一部を現在のページに残し、残りを次ページにクローンする `KeepPartAndCloneSolidObjectToNextPageAlgorithm` を使用しています。
 
 ```java
 pdfSaveOptions.setPageSplittingAlgorithm(new KeepPartAndCloneSolidObjectToNextPageAlgorithm(100));
 ```
 
-## 手順 5: ドキュメントの保存
+## Step 5: Save the Document
 
-指定した PDF 保存オプションでドキュメントを保存します。この手順で **PDF onenote** 出力が生成され、開いたり共有したり印刷したりできます。
+指定した PDF 保存オプションでドキュメントを保存します。この手順で **PDF onenote** 出力が生成され、開いたり共有したり印刷したりできるようになります。
 
 ```java
 try {
@@ -102,33 +104,33 @@ try {
 }
 ```
 
-## よくある問題と解決策
+## Common Issues and Solutions
 
-| 問題 | 解決策 |
-|------|--------|
-| **オブジェクトがページ境界で切り取られる** | `AlwaysSplitObjectsAlgorithm` などの別のアルゴリズムを試すか、`KeepPartAndCloneSolidObjectToNextPageAlgorithm` のしきい値を増やしてください。 |
-| **出力 PDF が空白** | ソースの `.one` ファイルが破損していないか、`dataDir` パスが正しいかを確認してください。 |
-| **大規模ノートブックでパフォーマンスが低下** | `pdfSaveOptions.setCompressImages(true)` を使用してメモリ使用量を削減し、ノートブックを小さなセクションに分割して処理することを検討してください。 |
+| Issue | Solution |
+|-------|----------|
+| **Objects are cut off at page boundaries** | `AlwaysSplitObjectsAlgorithm` など別のアルゴリズムを試すか、`KeepPartAndCloneSolidObjectToNextPageAlgorithm` の閾値を増やしてください。 |
+| **Output PDF is blank** | ソースの `.one` ファイルが破損していないか、`dataDir` パスが正しいかを確認してください。 |
+| **Performance is slow with large notebooks** | `pdfSaveOptions.setCompressImages(true)` を使用してメモリ使用量を削減し、ノートブックを小さなセクションに分割して処理することを検討してください。 |
 
-## よくある質問
+## Frequently Asked Questions
 
-**Q: Aspose.Note for Java を他のプログラミング言語でも使用できますか？**  
-A: はい、Aspose.Note は .NET、C++、Python でも利用可能です。
+**Q: Can I use Aspose.Note for Java with other programming languages?**  
+A: Yes, Aspose.Note is also available for .NET, C++, and Python.
 
-**Q: 大規模な OneNote ファイルの処理に Aspose.Note は適していますか？**  
-A: はい。ライブラリは大規模ノートブックを効率的に処理できるよう最適化されています。
+**Q: Is Aspose.Note suitable for processing large OneNote files?**  
+A: Absolutely. The library is optimized for handling large notebooks efficiently.
 
-**Q: Aspose.Note の追加リソースやサポートはどこで見つけられますか？**  
-A: サポートやガイダンスについては、[documentation](https://reference.aspose.com/note/java/) と [forum](https://forum.aspose.com/c/note/28) を参照してください。
+**Q: Where can I find additional resources and support for Aspose.Note?**  
+A: You can refer to the [documentation](https://reference.aspose.com/note/java/) and [forum](https://forum.aspose.com/c/note/28) for support and guidance.
 
-**Q: 購入前に Aspose.Note を試すことはできますか？**  
-A: はい、[free trial](https://releases.aspose.com/) を利用して機能を確認できます。
+**Q: Can I try Aspose.Note before purchasing?**  
+A: Yes, you can avail of a [free trial](https://releases.aspose.com/) to explore the features before making a purchase.
 
-**Q: Aspose.Note の一時ライセンスはどのように取得できますか？**  
-A: [temporary license](https://purchase.aspose.com/temporary-license/) をリクエストして、試用期間中に製品を評価できます。
+**Q: How can I obtain a temporary license for Aspose.Note?**  
+A: You can request a [temporary license](https://purchase.aspose.com/temporary-license/) to evaluate the product under a trial period.
 
 **最終更新日:** 2025-12-18  
-**テスト環境:** Aspose.Note 24.12 for Java  
+**テスト環境:** Aspose.Note 26.4 for Java  
 **作者:** Aspose  
 
 {{< /blocks/products/pf/tutorial-page-section >}}

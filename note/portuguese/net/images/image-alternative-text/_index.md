@@ -68,7 +68,7 @@ Crie uma nova instância de `Document` e adicione uma `Page` onde a imagem ficar
 
 ```csharp
 var document = new Document();
-var page = new Page(document);
+var page = new Page();
 ```
 
 ## Etapa 2: Carregar a Imagem
@@ -77,7 +77,7 @@ Aponte para a pasta que contém sua foto e crie um objeto `Image`.
 
 ```csharp
 string dataDir = "Your Document Directory";
-var image = new Image(document, dataDir + "image.jpg");
+var image = new Image(dataDir + "image.jpg");
 ```
 
 ## Etapa 3: Definir Texto Alternativo

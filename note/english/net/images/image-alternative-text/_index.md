@@ -66,7 +66,7 @@ Create a new `Document` instance and add a `Page` where the image will live.
 
 ```csharp
 var document = new Document();
-var page = new Page(document);
+var page = new Page();
 ```
 
 ## Step 2: load the image
@@ -75,7 +75,7 @@ Point to the folder that contains your picture and create an `Image` object.
 
 ```csharp
 string dataDir = "Your Document Directory";
-var image = new Image(document, dataDir + "image.jpg");
+var image = new Image(dataDir + "image.jpg");
 ```
 
 ## Step 3: set alternative text

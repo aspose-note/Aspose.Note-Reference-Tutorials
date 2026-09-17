@@ -91,7 +91,7 @@ O: Jeden obraz może zawierać tylko jedno hiperłącze. Aby udostępnić wiele 
 ---
 
 **Aktualizacja Ostatnia:** 2025-12-20
-**Testowano z:** Aspose.Note dla Java 24.10
+**Testowano z:** Aspose.Note dla Java 26.4
 **Autor:** Asponuj
 
 {{< /blocks/products/pf/tutorial-page-section >}}

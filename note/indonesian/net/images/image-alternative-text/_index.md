@@ -68,7 +68,7 @@ Buat instance `Document` baru dan tambahkan `Page` tempat gambar akan berada.
 
 ```csharp
 var document = new Document();
-var page = new Page(document);
+var page = new Page();
 ```
 
 ## Langkah 2: Muat Gambar
@@ -77,7 +77,7 @@ Tunjuk folder yang berisi gambar Anda dan buat objek `Image`.
 
 ```csharp
 string dataDir = "Your Document Directory";
-var image = new Image(document, dataDir + "image.jpg");
+var image = new Image(dataDir + "image.jpg");
 ```
 
 ## Langkah 3: Atur Teks Alternatif

@@ -59,7 +59,7 @@ using System.Text;
 
 ```csharp
 var document = new Document();
-var page = new Page(document);
+var page = new Page();
 ```
 
 ## 步骤 2：插入带超链接的图像
@@ -68,7 +68,7 @@ var page = new Page(document);
 
 ```csharp
 string imagePath = "path_to_your_image.jpg";
-var image = new Image(document, imagePath) { HyperlinkUrl = "http://example.com" };
+var image = new Image(imagePath) { HyperlinkUrl = "https://example.com" };
 ```
 
 > **专业提示：** `HyperlinkUrl` 可以指向任意网页地址、本地文件，甚至是另一个 OneNote 文档中的深层链接。

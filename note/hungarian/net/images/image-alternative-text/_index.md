@@ -68,7 +68,7 @@ Hozzon létre egy új `Document` példányt, és adjon hozzá egy `Page`-et, aho
 
 ```csharp
 var document = new Document();
-var page = new Page(document);
+var page = new Page();
 ```
 
 ## 2. lépés: Kép betöltése
@@ -77,7 +77,7 @@ Mutasson a mappára, amely a képet tartalmazza, és hozzon létre egy `Image` o
 
 ```csharp
 string dataDir = "Your Document Directory";
-var image = new Image(document, dataDir + "image.jpg");
+var image = new Image(dataDir + "image.jpg");
 ```
 
 ## 3. lépés: Alternatív szöveg beállítása

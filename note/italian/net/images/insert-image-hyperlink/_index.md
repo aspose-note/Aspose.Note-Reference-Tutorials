@@ -60,7 +60,7 @@ Prima, dobbiamo creare una nuova istanza di `Document` e aggiungere una `Page` d
 
 ```csharp
 var document = new Document();
-var page = new Page(document);
+var page = new Page();
 ```
 
 ## Passo 2: Inserisci immagine con collegamento ipertestuale
@@ -69,7 +69,7 @@ Ora, **insert image hyperlink** creando un oggetto `Image` e assegnando la sua p
 
 ```csharp
 string imagePath = "path_to_your_image.jpg";
-var image = new Image(document, imagePath) { HyperlinkUrl = "http://example.com" };
+var image = new Image(imagePath) { HyperlinkUrl = "https://esempio.com" };
 ```
 
 > **Pro tip:** Il `HyperlinkUrl` può puntare a qualsiasi indirizzo web, a un file locale o anche a un deep‑link all'interno di un altro documento OneNote.

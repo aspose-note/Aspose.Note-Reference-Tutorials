@@ -124,7 +124,7 @@ In deze gids hebben we **hoe je OneNote‑pagina’s exporteert** gedemonstreerd
 ---
 
 **Laatst bijgewerkt:** 2025-11-30  
-**Getest met:** Aspose.Note for Java 24.11  
+**Getest met:** Aspose.Note for Java 26.4  
 **Auteur:** Aspose  
 
 {{< /blocks/products/pf/tutorial-page-section >}}

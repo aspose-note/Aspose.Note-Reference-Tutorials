@@ -32,7 +32,7 @@ Zanim zaczniemy, upewnij się, że masz przygotowane następujące elementy:
 
 ### Zainstalowany Java Development Kit (JDK)
 
-Potrzebujesz aktualnego JDK. Pobierz go ze [strony Java](https://www.oracle.com/java/technologies/javase-jdk15-downloads.html).
+Potrzebujesz aktualnego JDK. Pobierz go ze [strony Java](https://www.oracle.com/java/technologies/downloads/).
 
 ### Biblioteka Aspose.Note dla Java
 
@@ -118,7 +118,7 @@ A: Biblioteka działa z Javą 8 i nowszymi wersjami.
 ---
 
 **Ostatnia aktualizacja:** 2025-12-31  
-**Testowano z:** Aspose.Note dla Java 24.12  
+**Testowano z:** Aspose.Note dla Java 26.4  
 **Autor:** Aspose  
 
 ---

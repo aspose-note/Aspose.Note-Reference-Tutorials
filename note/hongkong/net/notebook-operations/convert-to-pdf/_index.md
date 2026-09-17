@@ -45,7 +45,7 @@ using System.Collections.Generic;
 string dataDir = "Your Document Directory";
 
 //載入 OneNote 筆記本
-var notebook = new Notebook(dataDir + "Notizbuch öffnen.onetoc2");
+var notebook = new Notebook(dataDir + "Notebook.onetoc2");
 ```
 
 在此步驟中，我們指定筆記本檔案所在的目錄，並使用以下命令將其載入到我們的應用程式中：`Notebook`Aspose.Note 提供的類別。

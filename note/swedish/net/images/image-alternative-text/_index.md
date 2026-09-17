@@ -68,7 +68,7 @@ Skapa en ny `Document`‑instans och lägg till en `Page` där bilden kommer att
 
 ```csharp
 var document = new Document();
-var page = new Page(document);
+var page = new Page();
 ```
 
 ## Steg 2: Ladda bilden
@@ -77,7 +77,7 @@ Peka på mappen som innehåller din bild och skapa ett `Image`‑objekt.
 
 ```csharp
 string dataDir = "Your Document Directory";
-var image = new Image(document, dataDir + "image.jpg");
+var image = new Image(dataDir + "image.jpg");
 ```
 
 ## Steg 3: Ange alternativ text

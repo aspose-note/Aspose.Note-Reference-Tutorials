@@ -58,7 +58,7 @@ Először létre kell hoznunk egy új `Document` példányt, és hozzá kell adn
 
 ```csharp
 var document = new Document();
-var page = new Page(document);
+var page = new Page();
 ```
 
 ## 2. lépés: Kép beillesztése hiperhivatkozással
@@ -67,7 +67,7 @@ Most **illesszük be a kép hiperhivatkozását** egy `Image` objektum létrehoz
 
 ```csharp
 string imagePath = "path_to_your_image.jpg";
-var image = new Image(document, imagePath) { HyperlinkUrl = "http://example.com" };
+var image = new Image(imagePath) { HyperlinkUrl = "https://example.com" };
 ```
 
 > **Pro tipp:** A `HyperlinkUrl` mutathat bármilyen webcímre, helyi fájlra, vagy akár egy mélyhivatkozásra egy másik OneNote dokumentumban.

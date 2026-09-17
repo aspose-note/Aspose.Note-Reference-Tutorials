@@ -60,7 +60,7 @@ using System.Text;
 
 ```csharp
 var document = new Document();
-var page = new Page(document);
+var page = new Page();
 ```
 
 ## चरण 2: हाइपरलिंक के साथ छवि डालें
@@ -69,7 +69,7 @@ var page = new Page(document);
 
 ```csharp
 string imagePath = "path_to_your_image.jpg";
-var image = new Image(document, imagePath) { HyperlinkUrl = "http://example.com" };
+var image = new Image(imagePath) { HyperlinkUrl = "https://example.com" };
 ```
 
 > **Pro tip:** `HyperlinkUrl` किसी भी वेब पते, स्थानीय फ़ाइल, या यहाँ तक कि किसी अन्य OneNote दस्तावेज़ के भीतर एक डीप‑लिंक की ओर इशारा कर सकता है।

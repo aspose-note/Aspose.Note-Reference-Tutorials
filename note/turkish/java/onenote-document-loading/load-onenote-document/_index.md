@@ -103,7 +103,7 @@ C: [buradan](https://purchase.aspose.com/temporary-license/) geçici değerlendi
 ---
 
 **Son Güncelleme:** 2025-12-09  
-**Test Edilen Versiyon:** Aspose.Note for Java 24.12 (en yeni)  
+**Test Edilen Versiyon:** Aspose.Note for Java 26.4 (en yeni)  
 **Yazar:** Aspose  
 
 {{< /blocks/products/pf/tutorial-page-section >}}

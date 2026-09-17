@@ -1,59 +1,103 @@
 ---
-title: A OneNote képkezelés elsajátítása
+date: 2026-04-06
+description: Tanulja meg, hogyan szúrjon be képet a OneNote-ba az Aspose.Note for
+  .NET használatával, hogyan szúrjon be képet stream‑el, és hogyan nyerjen ki képeket
+  a OneNote‑ból lépésről‑lépésre útmutatókkal.
+keywords:
+- insert image into onenote
+- how to insert image
+- extract images from onenote
+- insert image using stream
 linktitle: Képek
 second_title: Aspose.Note .NET API
-description: Fedezze fel a OneNote dokumentumkezelés világát az Aspose.Note for .NET oktatóanyagaival a zökkenőmentes képkezelésről. Emelje fel vizuális tartalmát könnyedén.
-weight: 23
+title: Kép beszúrása a OneNote-ba – Képmódosítási útmutató
 url: /hu/net/images/
+weight: 23
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# A OneNote képkezelés elsajátítása
+# Kép beszúrása a OneNote-ba – A OneNote képek kezelésének elsajátítása
 
 ## Bevezetés
 
-Készen áll a OneNote dokumentumkezelési készségeinek fejlesztésére? Merüljön el az Aspose.Note for .NET-hez készült átfogó oktatóanyagainkban, amelyek a képkezelés bonyolult világára összpontosítanak. A képek programozott beszúrásától az értékes vizuális információk kinyeréséig mi mindent megtalálunk.
+Ha programozott módon kell **insert image into OneNote**, jó helyen jár. Ez a központ a leggyakorlatibb Aspose.Note for .NET oktatóanyagokat gyűjti össze, amelyek lépésről lépésre végigvezetnek – az egyszerű kép beszúrástól a fejlett forgatókönyvekig, mint például alternatív szöveg hozzáadása vagy hiperhivatkozások beágyazása. Akár dokumentációgenerátort, automatizált jelentéskészítő eszközt vagy egyedi OneNote kiegészítőt építesz, a képek kezelésének elsajátítása időt takarít meg és javítja a jegyzeteid vizuális minőségét.
 
-## Készítsen dokumentumot és szúrjon be képet a OneNote-ba az Aspose.Note segítségével
- Első oktatóanyagunkban[Dokumentum létrehozása és kép beszúrása a OneNote-ban](./build-doc-insert-image/), végigvezetjük a képek OneNote dokumentumokba való programozott beszúrásának folyamatán. Sajátítsa el a zökkenőmentes dokumentumkezelés egyszerű lépéseit, és könnyedén emelje fel a vizuális tartalommal kapcsolatos játékát.
+## Miért érdemes képet beszúrni a OneNote-ba?
 
-## Képek beszúrása az Image Stream segítségével a OneNote-ban az Aspose.Note segítségével
- Emelje fel a képbeillesztési játékot ezzel[Képek beszúrása az Image Stream segítségével a OneNote-ban](./insert-image-using-image-stream/). Tanulja meg, hogyan illeszthet be zökkenőmentesen képeket a .NET-ben lévő képfolyamok segítségével, és javíthatja OneNote-fájljait olyan látványelemekkel, amelyek lenyűgözik a közönséget. Kövesse a lépéseket az egyszerű integrációs folyamat érdekében.
+- **Enhanced readability** – A vizuális elemek széttörik a hosszú szövegrészeket és gyorsabban közvetítik az ötleteket.  
+- **Automation friendly** – A programozott beszúrás lehetővé teszi, hogy nagymértékben konzisztens, a márkához igazodó tartalmat generálj.  
+- **Accessibility** – A képek megfelelő metaadatokkal (alternatív szöveg, feliratok) való ellátása javítja a képernyőolvasó felhasználók használhatóságát.  
 
-## Képek kibontása a OneNote-dokumentumokból az Aspose.Note for .NET segítségével
- A bekapcsolt oktatóprogramunk segítségével könnyedén kivonhatja a képeket a OneNote-dokumentumokból[Képek kibontása a OneNote-dokumentumokból](./extract-images/). Használja ki az Aspose.Note for .NET-et a dokumentumkezelési képességek javításához és a fejlesztési folyamatok egyszerűsítéséhez.
+## Hogyan szúrjunk be képet stream használatával a OneNote-ban
 
-## Szerezzen információkat a OneNote-ban lévő képekről az Aspose.Note for .NET segítségével
- Kíváncsi a képadatok kinyerésére a Microsoft OneNote-fájlokból? Oktatóanyagunk a[Szerezzen információkat a képekről a OneNote-ban](./get-info-of-images/) lépésről lépésre nyújt útmutatót a hatékony fejlesztéshez. Fedezze fel az Aspose.Note for .NET-ben rejlő lehetőségeket, és maradjon a képkezelés világában.
+Ha már van egy kép a memóriában (például egy webszolgáltatásból letöltve vagy futás közben generálva), a stream használatával történő beszúrás elkerüli az ideiglenes fájlok szükségességét. Az “Insert Images using Image Stream” oktatóanyag bemutatja ezt a hatékony megközelítést.
 
-## Adjon hozzá alternatív szöveget a OneNote képeihez az Aspose.Note segítségével
- Növelje a kisegítő lehetőségeket és javítsa a felhasználói élményt, ha megtanulja, hogyan adjon alternatív szöveget a OneNote képeihez az Aspose.Note for .NET segítségével. oktatóanyagunk,[Alternatív szöveg hozzáadása a OneNote képeihez](./image-alternative-text/)könnyedén végigvezeti a folyamaton. Fokozza a dokumentumok hozzáférhetőségét könnyedén.
+## Hogyan vonjunk ki képeket a OneNote-ból
 
-## Szúrjon be képeket hiperhivatkozásokkal a OneNote-ba az Aspose.Note for .NET használatával
- Emelje a dokumentum interaktivitását a következő szintre[Szúrjon be képeket hiperhivatkozásokkal a OneNote-ba](./insert-image-hyperlink/). Ismerje meg, hogyan illeszthet be könnyedén képeket hiperhivatkozásokkal, és hogyan adhat hozzá kattintható elemeket a OneNote-fájlokhoz. Zökkenőmentesen fokozza vizuális tartalom vonzerejét.
+Néha szükség van arra, hogy a meglévő vizuális elemeket egy OneNote jegyzetfüzetből kinyerjük – archiválás, elemzés vagy más helyen való újrahasználat céljából. A “Extract Images from OneNote Documents” útmutató megmutatja, hogyan lehet minden beágyazott képet csak néhány kódsorral lekérni.
 
-## Szúrjon be képeket a OneNote dokumentumokba az Aspose.Note for .NET használatával
- Utolsó oktatóanyagunkban[Képek beszúrása a OneNote dokumentumokba](./insert-images/), végigvezetjük a képek zökkenőmentes beszúrásán a .NET használatával. Fokozza az Aspose.Note for .NET-dokumentumok vizuális tartalmát lépésenkénti útmutatónkkal, így biztosítva az egyszerű integrációt és a lenyűgöző eredményeket.
+## Dokumentum felépítése és kép beszúrása a OneNote-ban
 
-Induljon el a vizuális fejlesztés útjára az Aspose.Note for .NET segítségével a OneNote dokumentumok világában. Fedezze fel oktatóanyagainkat, kövesse a részletes lépéseket, és aknázza ki a OneNote-fájlok képkezelésében rejlő lehetőségeket. Növelje fejlesztési készségeit, és könnyedén készítsen lenyűgöző vizuális dokumentumokat.
-## Képek oktatóanyagok
-### [Készítsen dokumentumot és szúrjon be képet az Aspose.Note-ba](./build-doc-insert-image/)
-Ismerje meg, hogyan illeszthet be képeket a OneNote dokumentumokba programozottan az Aspose.Note for .NET használatával. Egyszerű lépések a zökkenőmentes dokumentumkezeléshez.
-### [Szúrjon be képeket az Image Stream segítségével az Aspose.Note-ba](./insert-image-using-image-stream/)
-Ismerje meg, hogyan lehet zökkenőmentesen beilleszteni képeket az Aspose.Note dokumentumokba a .NET képfolyamaival. Növelje Note-fájljait látványelemekkel könnyedén.
-### [Kivonat képeket az Aspose.Note dokumentumokból](./extract-images/)
-Ismerje meg, hogyan bonthat ki könnyedén képeket az Aspose.Note dokumentumokból az Aspose.Note for .NET segítségével. Növelje dokumentumkezelési képességeit ezzel az átfogó oktatóanyaggal.
-### [Szerezzen információkat az Aspose.Note képeiről](./get-info-of-images/)
-Ismerje meg, hogyan nyerhet ki képadatokat Microsoft OneNote-fájlokból az Aspose.Note for .NET segítségével. Kövesse lépésről lépésre útmutatónkat a hatékony fejlesztés érdekében.
-### [Adjon hozzá alternatív szöveget az Aspose.Note képeihez](./image-alternative-text/)
-Tanulja meg, hogyan adhat egyszerűen alternatív szöveget a képekhez az Aspose.Note for .NET alkalmazásban. Ezzel a lépésenkénti útmutatóval javíthatja a hozzáférhetőséget és javíthatja a felhasználói élményt.
-### [Szúrjon be képeket hiperhivatkozásokkal az Aspose.Note-ba](./insert-image-hyperlink/)
-Ismerje meg, hogyan illeszthet be könnyedén képeket hiperhivatkozásokkal az Aspose.Note for .NET-be. Fokozza a dokumentumok interaktivitását kattintható képekkel.
-### [Szúrjon be képeket az Aspose.Note dokumentumokba](./insert-images/)
-Ismerje meg, hogyan lehet zökkenőmentesen beilleszteni képeket Aspose.Note dokumentumokba .NET használatával a továbbfejlesztett vizuális tartalom érdekében. Kövesse lépésenkénti útmutatónkat az egyszerű integráció érdekében.
+Az első oktatóanyagunkban, [Build Document and Insert Image in OneNote](./build-doc-insert-image/), végigvezetünk a képek programozott beszúrásának folyamatán a OneNote dokumentumokba. Sajátítsd el a könnyű lépéseket a zökkenőmentes dokumentumművelethez, és emeld a vizuális tartalom színvonalát egyszerűen.
+
+## Képek beszúrása image stream használatával a OneNote-ban
+
+Emeld a képek beszúrásának szintjét a [Insert Images using Image Stream in OneNote](./insert-image-using-image-stream/) segítségével. Tanuld meg, hogyan szúrj be zökkenőmentesen képeket image stream-ekkel .NET-ben, így a OneNote fájljaid vizuális elemekkel gazdagodnak, amelyek elbűvölik a közönségedet. Kövesd a lépéseket egy könnyed integrációs folyamatért.
+
+## Képek kinyerése OneNote dokumentumokból az Aspose.Note for .NET használatával
+
+Szerezd meg a lehetőséget, hogy könnyedén kinyerj képeket OneNote dokumentumokból a [Extract Images from OneNote Documents](./extract-images/) oktatóanyagaink segítségével. Használd ki az Aspose.Note for .NET-et a dokumentumműveletek képességeinek bővítésére és a fejlesztési folyamat egyszerűsítésére.
+
+## Képek információinak lekérése a OneNote-ban az Aspose.Note for .NET használatával
+
+Kíváncsi vagy a képinformációk kinyerésére a Microsoft OneNote fájlokból? A [Get Information of Images in OneNote](./get-info-of-images/) oktatóanyagunk lépésről-lépésre útmutatót nyújt a hatékony fejlesztéshez. Fedezd fel az Aspose.Note for .NET lehetőségeit, és maradj a képkezelés világában a legelső.
+
+## Alternatív szöveg hozzáadása képekhez a OneNote-ban az Aspose.Note segítségével
+
+Javítsd a hozzáférhetőséget és a felhasználói élményt azzal, hogy megtanulod, hogyan adj alternatív szöveget a képekhez a OneNote-ban az Aspose.Note for .NET segítségével. Oktatóanyagunk, [Add Alternative Text to Images in OneNote](./image-alternative-text/), egyszerűen végigvezet a folyamaton. Emeld a dokumentumok hozzáférhetőségét könnyedén.
+
+## Képek beszúrása hiperhivatkozásokkal a OneNote-ban az Aspose.Note for .NET használatával
+
+Emeld a dokumentum interaktivitását a következő szintre a [Insert Images with Hyperlinks in OneNote](./insert-image-hyperlink/) segítségével. Tanuld meg, hogyan szúrj be könnyedén képeket hiperhivatkozásokkal, így kattintható elemeket adva a OneNote fájljaidhoz. Növeld a vizuális tartalom elköteleződését zökkenőmentesen.
+
+## Képek beszúrása OneNote dokumentumokba az Aspose.Note for .NET használatával
+
+Az utolsó oktatóanyagunkban, [Insert Images in OneNote Documents](./insert-images/), végigvezetünk a képek .NET használatával történő zökkenőmentes beszúrásán. Javítsd az Aspose.Note for .NET dokumentumaid vizuális tartalmát lépésről-lépésre útmutatónkkal, biztosítva a könnyű integrációt és lenyűgöző eredményeket.
+
+Indulj el a vizuális fejlesztés útján az Aspose.Note for .NET segítségével a OneNote dokumentumok világában. Fedezd fel oktatóanyagainkat, kövesd a részletes lépéseket, és szabadítsd fel a képek kezelésének teljes potenciálját a OneNote fájljaidban. Emeld fejlesztői képességeidet, és hozz létre vizuálisan lenyűgöző dokumentumokat könnyedén.
+
+## Képek oktatóanyagai
+
+### [Build Document and Insert Image in Aspose.Note](./build-doc-insert-image/)
+Tanuld meg, hogyan szúrj be képeket OneNote dokumentumokba programozott módon az Aspose.Note for .NET segítségével. Egyszerű lépések a zökkenőmentes dokumentumművelethez.
+
+### [Insert Images using Image Stream in Aspose.Note](./insert-image-using-image-stream/)
+Tanuld meg, hogyan szúrj be zökkenőmentesen képeket Aspose.Note dokumentumokba image stream-ek használatával .NET-ben. Javítsd Note fájljaidat vizuális elemekkel könnyedén.
+
+### [Extract Images from Aspose.Note Documents](./extract-images/)
+Tanuld meg, hogyan nyerj ki könnyedén képeket Aspose.Note dokumentumokból az Aspose.Note for .NET használatával. Bővítsd dokumentumműveleteid képességeit ezzel az átfogó oktatóanyaggal.
+
+### [Get Information of Images in Aspose.Note](./get-info-of-images/)
+Tanuld meg, hogyan nyerj ki képinformációkat a Microsoft OneNote fájlokból az Aspose.Note for .NET használatával. Kövesd lépésről-lépésre útmutatónkat a hatékony fejlesztéshez.
+
+### [Add Alternative Text to Images in Aspose.Note](./image-alternative-text/)
+Tanuld meg, hogyan adj alternatív szöveget a képekhez az Aspose.Note for .NET-ben egyszerűen. Javítsd a hozzáférhetőséget és a felhasználói élményt ezzel a lépésről-lépésre útmutatóval.
+
+### [Insert Images with Hyperlinks in Aspose.Note](./insert-image-hyperlink/)
+Tanuld meg, hogyan szúrj be képeket hiperhivatkozásokkal az Aspose.Note for .NET-ben könnyedén. Növeld a dokumentum interaktivitását kattintható képekkel.
+
+### [Insert Images in Aspose.Note Documents](./insert-images/)
+Tanuld meg, hogyan szúrj be zökkenőmentesen képeket Aspose.Note dokumentumokba .NET használatával a vizuális tartalom fokozásához. Kövesd lépésről-lépésre útmutatónkat a könnyű integrációhoz.
+
+---
+
+**Legutóbb frissítve:** 2026-04-06  
+**Tesztelt verzió:** Aspose.Note for .NET (latest release)  
+**Szerző:** Aspose  
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

@@ -122,7 +122,7 @@ A5: Μπορείτε να επισκεφθείτε το φόρουμ Aspose.Note
 ---
 
 **Τελευταία Ενημέρωση:** 2025-12-14  
-**Δοκιμή με:** Aspose.Note for Java 24.12  
+**Δοκιμή με:** Aspose.Note for Java 26.4  
 **Συγγραφέας:** Aspose
 
 {{< /blocks/products/pf/tutorial-page-section >}}

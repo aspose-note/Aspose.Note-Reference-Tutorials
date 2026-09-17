@@ -79,7 +79,7 @@ A: No, Aspose.Note funciona de forma independiente de la aplicación OneNote; le
 ---
 
 **Última actualización:** 2025-12-23  
-**Probado con:** Aspose.Note for Java 24.12  
+**Probado con:** Aspose.Note for Java 26.4  
 **Autor:** Aspose
 
 {{< /blocks/products/pf/tutorial-page-section >}}

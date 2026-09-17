@@ -53,7 +53,7 @@ Document doc = new Document();
 
 ```csharp
 Aspose.Note.Page page = new Aspose.Note.Page(doc);
-Outline outline = new Outline(doc);
+Outline outline = new Outline();
 ```
 
 ## ขั้นตอนที่ 3: เพิ่มโหนดข้อความด้วยแท็ก
@@ -61,9 +61,9 @@ Outline outline = new Outline(doc);
 สร้างออบเจ็กต์ RichText ด้วยข้อความและสไตล์ที่ต้องการ จากนั้นเพิ่มลงใน OutlineElement
 
 ```csharp
-OutlineElement outlineElem = new OutlineElement(doc);
+OutlineElement outlineElem = new OutlineElement();
 ParagraphStyle textStyle = new ParagraphStyle { FontColor = Color.Black, FontName = "Arial", FontSize = 10 };
-RichText text = new RichText(doc) { Text = "OneNote text.", ParagraphStyle = textStyle };
+RichText text = new RichText() { Text = "OneNote text.", ParagraphStyle = textStyle };
 text.Tags.Add(NoteTag.CreateYellowStar());
 outlineElem.AppendChildLast(text);
 ```

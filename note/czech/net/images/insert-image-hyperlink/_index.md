@@ -60,7 +60,7 @@ Nejprve musíme vytvořit novou instanci `Document` a přidat `Page`, kde bude o
 
 ```csharp
 var document = new Document();
-var page = new Page(document);
+var page = new Page();
 ```
 
 ## Krok 2: Vložit obrázek s hypertextovým odkazem
@@ -69,7 +69,7 @@ Nyní **insert image hyperlink** vytvořením objektu `Image` a přiřazením je
 
 ```csharp
 string imagePath = "path_to_your_image.jpg";
-var image = new Image(document, imagePath) { HyperlinkUrl = "http://example.com" };
+var image = new Image(imagePath) { HyperlinkUrl = "https://example.com" };
 ```
 
 > **Tip:** `HyperlinkUrl` může odkazovat na jakoukoli webovou adresu, lokální soubor nebo dokonce na deep‑link uvnitř jiného OneNote dokumentu.

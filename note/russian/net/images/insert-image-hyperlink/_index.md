@@ -58,7 +58,7 @@ using System.Text;
 
 ```csharp
 var document = new Document();
-var page = new Page(document);
+var page = new Page();
 ```
 
 ## Шаг 2: Вставка изображения с гиперссылкой
@@ -67,7 +67,7 @@ var page = new Page(document);
 
 ```csharp
 string imagePath = "path_to_your_image.jpg";
-var image = new Image(document, imagePath) { HyperlinkUrl = "http://example.com" };
+var image = new Image(imagePath) { HyperlinkUrl = "https://пример.com" };
 ```
 
 > **Pro tip:** `HyperlinkUrl` может указывать на любой веб‑адрес, локальный файл или даже глубокую ссылку внутри другого документа OneNote.

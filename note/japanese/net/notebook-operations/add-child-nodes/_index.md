@@ -47,7 +47,7 @@ using System.Collections.Generic;
 string dataDir = "Your Document Directory";
 
 // OneNote ノートブックをロードする
-var notebook = new Notebook(dataDir + "Notizbuch �ffnen.onetoc2");
+var notebook = new Notebook(dataDir + "Notebook.onetoc2");
 ```
 
 ## ステップ 2: 新しい子ノードを追加する

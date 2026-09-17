@@ -54,8 +54,8 @@ Aspose.Note.Page page = new Aspose.Note.Page(doc);
 
 ## 步驟 3：初始化 Outline 和 OutlineElement 對象
 ```csharp
-Outline outline1 = new Outline(doc);
-OutlineElement outlineElem1 = new OutlineElement(doc);
+Outline outline1 = new Outline();
+OutlineElement outlineElem1 = new OutlineElement();
 ```
 我們創建 Outline 和 OutlineElement 類別的實例來建立頁面中的內容。
 

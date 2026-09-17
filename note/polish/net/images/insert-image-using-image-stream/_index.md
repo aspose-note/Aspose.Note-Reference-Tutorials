@@ -54,8 +54,8 @@ Tworzymy nowy obiekt Page, aby dodać do niego treść.
 
 ## Krok 3: Zainicjuj obiekty Outline i OutlineElement
 ```csharp
-Outline outline1 = new Outline(doc);
-OutlineElement outlineElem1 = new OutlineElement(doc);
+Outline outline1 = new Outline();
+OutlineElement outlineElem1 = new OutlineElement();
 ```
 Tworzymy instancje klas Outline i OutlineElement, aby uporządkować naszą treść na stronie.
 

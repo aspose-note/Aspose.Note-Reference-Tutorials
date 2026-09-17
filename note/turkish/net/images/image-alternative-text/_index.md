@@ -67,7 +67,7 @@ Yeni bir `Document` örneği oluşturun ve görüntünün yer alacağı bir `Pag
 
 ```csharp
 var document = new Document();
-var page = new Page(document);
+var page = new Page();
 ```
 
 ## Adım 2: Görüntüyü Yükleme
@@ -76,7 +76,7 @@ Resminizin bulunduğu klasöre işaret edin ve bir `Image` nesnesi oluşturun.
 
 ```csharp
 string dataDir = "Your Document Directory";
-var image = new Image(document, dataDir + "image.jpg");
+var image = new Image(dataDir + "image.jpg");
 ```
 
 ## Adım 3: Alternatif Metni Ayarlama

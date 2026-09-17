@@ -60,7 +60,7 @@ using System.Text;
 
 ```csharp
 var document = new Document();
-var page = new Page(document);
+var page = new Page();
 ```
 
 ## الخطوة 2: إدراج صورة مع ارتباط تشعبي
@@ -69,7 +69,7 @@ var page = new Page(document);
 
 ```csharp
 string imagePath = "path_to_your_image.jpg";
-var image = new Image(document, imagePath) { HyperlinkUrl = "http://example.com" };
+var image = new Image(imagePath) { HyperlinkUrl = "https://example.com" };
 ```
 
 > **نصيحة احترافية:** يمكن أن يشير `HyperlinkUrl` إلى أي عنوان ويب، ملف محلي، أو حتى ارتباط عميق داخل مستند OneNote آخر.

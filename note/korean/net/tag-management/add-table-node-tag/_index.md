@@ -52,8 +52,8 @@ Aspose.Note.Page page = new Aspose.Note.Page(doc);
  초기화`Table`, `TableRow` , 그리고`TableCell` 사물:
 
 ```csharp
-TableRow row = new TableRow(doc);
-TableCell cell = new TableCell(doc);
+TableRow row = new TableRow();
+TableCell cell = new TableCell();
 ```
 
 ## 3단계: 셀에 콘텐츠 삽입
@@ -69,7 +69,7 @@ cell.AppendChildLast(InsertTable.GetOutlineElementWithText(doc, "Single cell."))
  초기화`Table` 지정된 속성을 가진 객체:
 
 ```csharp
-Table table = new Table(doc)
+Table table = new Table()
 {
     IsBordersVisible = true,
     Columns = { new TableColumn { Width = 70 } }
@@ -97,8 +97,8 @@ table.Tags.Add(NoteTag.CreateQuestionMark());
  만들기`Outline` 그리고`OutlineElement` 테이블 노드를 추가하려면 다음을 수행하십시오.
 
 ```csharp
-Outline outline = new Outline(doc);
-OutlineElement outlineElem = new OutlineElement(doc);
+Outline outline = new Outline();
+OutlineElement outlineElem = new OutlineElement();
 outlineElem.AppendChildLast(table);
 outline.AppendChildLast(outlineElem);
 page.AppendChildLast(outline);

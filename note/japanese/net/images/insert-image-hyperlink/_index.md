@@ -59,7 +59,7 @@ using System.Text;
 
 ```csharp
 var document = new Document();
-var page = new Page(document);
+var page = new Page();
 ```
 
 ## 手順 2: ハイパーリンク付き画像の挿入
@@ -68,7 +68,7 @@ var page = new Page(document);
 
 ```csharp
 string imagePath = "path_to_your_image.jpg";
-var image = new Image(document, imagePath) { HyperlinkUrl = "http://example.com" };
+var image = new Image(imagePath) { HyperlinkUrl = "https://例.com" };
 ```
 
 > **プロのヒント:** `HyperlinkUrl` は任意のウェブアドレス、ローカルファイル、または別の OneNote ドキュメント内のディープリンクを指すことができます。

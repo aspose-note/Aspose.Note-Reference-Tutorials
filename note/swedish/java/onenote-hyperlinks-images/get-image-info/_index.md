@@ -32,7 +32,7 @@ Innan vi dyker ner i implementeringen, se till att du har följande förutsättn
 
 ### 1. Java Development Kit (JDK)
 
-Se till att du har Java Development Kit (JDK) installerat på ditt system. Du kan ladda ner och installera den senaste JDK:n från [Oracle-webbplatsen](https://www.oracle.com/java/technologies/javase-jdk15-downloads.html).
+Se till att du har Java Development Kit (JDK) installerat på ditt system. Du kan ladda ner och installera den senaste JDK:n från [Oracle-webbplatsen](https://www.oracle.com/java/technologies/downloads/).
 
 ### 2. Aspose.Note för Java Library
 
@@ -147,7 +147,7 @@ Genom att följa stegen i den här handledningen kan du effektivt **get image di
 ---
 
 **Senast uppdaterad:** 2025-12-21
-**Testad med:** Aspose.Note för Java 23.12
+**Testad med:** Aspose.Note för Java 26.4
 **Författare:** Aspose 
 
 ---

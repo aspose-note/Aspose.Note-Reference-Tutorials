@@ -59,7 +59,7 @@ using System.Text;
 
 ```csharp
 var document = new Document();
-var page = new Page(document);
+var page = new Page();
 ```
 
 ## ขั้นตอน 2: แทรกรูปภาพพร้อมไฮเปอร์ลิงก์
@@ -68,7 +68,7 @@ var page = new Page(document);
 
 ```csharp
 string imagePath = "path_to_your_image.jpg";
-var image = new Image(document, imagePath) { HyperlinkUrl = "http://example.com" };
+var image = new Image(imagePath) { HyperlinkUrl = "https://ตัวอย่าง.com" };
 ```
 
 > **เคล็ดลับ:** `HyperlinkUrl` สามารถชี้ไปยังที่อยู่เว็บใดก็ได้, ไฟล์ในเครื่อง, หรือแม้กระทั่งลิงก์ลึกภายในเอกสาร OneNote อื่น.

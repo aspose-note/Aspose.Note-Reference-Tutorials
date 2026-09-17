@@ -68,7 +68,7 @@ Utwórz nową instancję `Document` i dodaj `Page`, na której będzie znajdowa�
 
 ```csharp
 var document = new Document();
-var page = new Page(document);
+var page = new Page();
 ```
 
 ## Krok 2: Załadowanie obrazu
@@ -77,7 +77,7 @@ Wskaż folder zawierający Twój obraz i utwórz obiekt `Image`.
 
 ```csharp
 string dataDir = "Your Document Directory";
-var image = new Image(document, dataDir + "image.jpg");
+var image = new Image(dataDir + "image.jpg");
 ```
 
 ## Krok 3: Ustawienie tekstu alternatywnego

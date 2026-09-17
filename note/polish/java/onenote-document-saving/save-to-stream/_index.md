@@ -121,7 +121,7 @@ O: Tak, Aspose.Note zachowuje obrazy, wykresy i inne osadzone obiekty podczas pr
 ---
 
 **Ostatnia aktualizacja:** 2025-12-17  
-**Testowano z:** Aspose.Note for Java 24.12 (latest)  
+**Testowano z:** Aspose.Note for Java 26.4 (latest)  
 **Autor:** Aspose  
 
 {{< /blocks/products/pf/tutorial-page-section >}}

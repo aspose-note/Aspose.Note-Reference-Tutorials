@@ -23,7 +23,7 @@ weight: 16
 - **需要哪个库？** Aspose.Note for Java  
 - **可以只转换选定的页面吗？** 可以 – 使用 `PdfSaveOptions.setPageIndex` 和 `setPageCount`  
 - **生产环境需要许可证吗？** 商业许可证是非试用情况下的必需品  
-- **支持哪个 Java 版本？** JDK 8 或更高（推荐使用 JDK 15）  
+- **支持哪个 Java 版本？** JDK 8 或更高（推荐使用 JDK 8）  
 - **输出的 PDF 可搜索吗？** 是的，生成的 PDF 默认保留可搜索的文本  
 
 ## 什么是“将 OneNote 转换为 PDF”？
@@ -39,7 +39,7 @@ weight: 16
 
 在开始之前，请确保您具备以下条件：
 
-1. **Java 开发工具包 (JDK)** – 已安装 JDK 8 及以上版本。您可以从 [here](https://www.oracle.com/java/technologies/javase-jdk15-downloads.html) 下载。  
+1. **Java 开发工具包 (JDK)** – 已安装 JDK 8 及以上版本。您可以从 [here](https://www.oracle.com/java/technologies/downloads/) 下载。  
 2. **Aspose.Note for Java** – 从 [here](https://releases.aspose.com/note/java/) 下载最新的 JAR 包。  
 
 ## 导入包
@@ -128,7 +128,7 @@ System.out.println("File saved: " + dataDir + "ConvertToPdf_out.pdf");
 ---
 
 **最后更新：** 2025-11-30  
-**测试环境：** Aspose.Note for Java 24.11  
+**测试环境：** Aspose.Note for Java 26.4  
 **作者：** Aspose  
 
 {{< /blocks/products/pf/tutorial-page-section >}}

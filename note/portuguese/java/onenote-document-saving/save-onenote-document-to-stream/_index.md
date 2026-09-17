@@ -114,7 +114,7 @@ Agora você tem uma maneira completa e pronta para produção de **salvar OneNot
 ---
 
 **Última atualização:** 2025-12-12  
-**Testado com:** Aspose.Note for Java 24.11  
+**Testado com:** Aspose.Note for Java 26.4  
 **Autor:** Aspose  
 
 {{< /blocks/products/pf/tutorial-page-section >}}

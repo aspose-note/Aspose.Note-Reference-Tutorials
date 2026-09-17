@@ -58,7 +58,7 @@ Primeiro, precisamos criar uma nova instância de `Document` e adicionar uma `Pa
 
 ```csharp
 var document = new Document();
-var page = new Page(document);
+var page = new Page();
 ```
 
 ## Etapa 2: Inserir Imagem com Hyperlink
@@ -67,7 +67,7 @@ Agora, vamos **inserir hyperlink de imagem** criando um objeto `Image` e atribui
 
 ```csharp
 string imagePath = "path_to_your_image.jpg";
-var image = new Image(document, imagePath) { HyperlinkUrl = "http://example.com" };
+var image = new Image(imagePath) { HyperlinkUrl = "https://exemplo.com" };
 ```
 
 > **Dica profissional:** O `HyperlinkUrl` pode apontar para qualquer endereço web, um arquivo local ou até mesmo um deep‑link dentro de outro documento OneNote.

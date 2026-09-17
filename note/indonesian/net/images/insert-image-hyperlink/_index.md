@@ -58,7 +58,7 @@ Pertama, kita perlu membuat instance `Document` baru dan menambahkan `Page` temp
 
 ```csharp
 var document = new Document();
-var page = new Page(document);
+var page = new Page();
 ```
 
 ## Langkah 2: Sisipkan Gambar dengan Hyperlink
@@ -67,7 +67,7 @@ Sekarang, mari **insert image hyperlink** dengan membuat objek `Image` dan menet
 
 ```csharp
 string imagePath = "path_to_your_image.jpg";
-var image = new Image(document, imagePath) { HyperlinkUrl = "http://example.com" };
+var image = new Image(imagePath) { HyperlinkUrl = "https://contoh.com" };
 ```
 
 > **Pro tip:** `HyperlinkUrl` dapat mengarah ke alamat web apa pun, file lokal, atau bahkan deep‑link di dalam dokumen OneNote lain.

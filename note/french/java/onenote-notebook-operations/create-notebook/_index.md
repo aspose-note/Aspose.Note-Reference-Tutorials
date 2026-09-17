@@ -33,7 +33,7 @@ Avant de commencer, assurez‑vous d’avoir ce qui suit prêt :
 
 ### Kit de développement Java (JDK) installé
 
-Vous avez besoin d’un JDK récent. Téléchargez‑le depuis le [site Java](https://www.oracle.com/java/technologies/javase-jdk15-downloads.html).
+Vous avez besoin d’un JDK récent. Téléchargez‑le depuis le [site Java](https://www.oracle.com/java/technologies/downloads/).
 
 ### Bibliothèque Aspose.Note pour Java
 
@@ -119,7 +119,7 @@ R : La bibliothèque fonctionne avec Java 8 et les versions ultérieures.
 ---
 
 **Last Updated:** 2025-12-31  
-**Tested With:** Aspose.Note for Java 24.12  
+**Tested With:** Aspose.Note for Java 26.4  
 **Author:** Aspose
 
 {{< /blocks/products/pf/tutorial-page-section >}}

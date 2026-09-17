@@ -68,7 +68,7 @@ Vytvořte novou instanci `Document` a přidejte `Page`, na kterou bude obrázek 
 
 ```csharp
 var document = new Document();
-var page = new Page(document);
+var page = new Page();
 ```
 
 ## Krok 2: Načíst obrázek
@@ -77,7 +77,7 @@ Odkazujte na složku, která obsahuje váš obrázek, a vytvořte objekt `Image`
 
 ```csharp
 string dataDir = "Your Document Directory";
-var image = new Image(document, dataDir + "image.jpg");
+var image = new Image(dataDir + "image.jpg");
 ```
 
 ## Krok 3: Nastavit alternativní text

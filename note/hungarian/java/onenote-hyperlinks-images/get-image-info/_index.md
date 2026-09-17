@@ -33,7 +33,7 @@ Mielőtt belemerülnénk a megvalósításba, győződjön meg róla, hogy az al
 
 ### 1. Java Development Kit (JDK)
 
-Győződjön meg róla, hogy a Java Development Kit (JDK) telepítve van a rendszerén. A legújabb JDK-t letöltheti és telepítheti az [Oracle weboldalról](https://www.oracle.com/java/technologies/javase-jdk15-downloads.html).
+Győződjön meg róla, hogy a Java Development Kit (JDK) telepítve van a rendszerén. A legújabb JDK-t letöltheti és telepítheti az [Oracle weboldalról](https://www.oracle.com/java/technologies/downloads/).
 
 ### 2. Aspose.Note for Java Library
 
@@ -148,7 +148,7 @@ A tutorialban leírt lépések követésével hatékonyan **get image dimensions
 ---
 
 **Last Updated:** 2025-12-21  
-**Tested With:** Aspose.Note for Java 23.12  
+**Tested With:** Aspose.Note for Java 26.4  
 **Author:** Aspose  
 
 ---

@@ -1,31 +1,54 @@
 ---
-title: Recuperar archivos adjuntos con Aspose.Note
+date: 2026-04-03
+description: Aprende cómo cargar un documento de OneNote y extraer los archivos adjuntos
+  usando Aspose.Note para .NET. Sigue la guía paso a paso para recuperar los adjuntos
+  de manera eficiente.
+keywords:
+- load onenote document
+- extract attached files
+- convert attachment to stream
 linktitle: Recuperar archivos adjuntos con Aspose.Note
-second_title: Aspose.Nota .NET API
-description: Aprenda cómo recuperar archivos adjuntos de documentos de Microsoft OneNote usando Aspose.Note para .NET. Siga los pasos para cargar, obtener nodos e iterar a través de archivos adjuntos.
-weight: 12
+second_title: Aspose.Note .NET API
+title: Cargar documento de OneNote y recuperar archivos adjuntos – Aspose.Note
 url: /es/net/attachments/retrieve-attached-files/
+weight: 12
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Recuperar archivos adjuntos con Aspose.Note
+# Cargar documento OneNote y recuperar archivos adjuntos – Aspose.Note
 
 ## Introducción
 
-En este tutorial, exploraremos cómo recuperar archivos adjuntos de un documento usando Aspose.Note para .NET. Aspose.Note es una potente API que permite a los desarrolladores trabajar con archivos de Microsoft OneNote mediante programación. Dividiremos el proceso en pasos simples para que sea fácil de seguir.
+En este tutorial aprenderás a **cargar un documento OneNote** y **extraer los archivos adjuntos** con Aspose.Note para .NET. Ya sea que estés construyendo una herramienta de migración, una utilidad de auditoría o simplemente necesites extraer recursos de un cuaderno OneNote, los pasos a continuación te mostrarán cómo recuperar cada adjunto y, opcionalmente, **convertir el adjunto a un flujo** para su procesamiento posterior. Vamos a recorrer todo el proceso, desde cargar el archivo hasta guardar cada adjunto localmente.
+
+## Respuestas rápidas
+- **¿Qué cubre este tutorial?** Cargar un documento OneNote y extraer sus archivos adjuntos.  
+- **¿Qué biblioteca se requiere?** Aspose.Note para .NET (prueba gratuita disponible).  
+- **¿Cuántas líneas de código?** Menos de 30 líneas en cuatro fragmentos concisos.  
+- **¿Puedo transmitir los archivos adjuntos?** Sí – el ejemplo muestra cómo convertir cada adjunto a un flujo de memoria.  
+- **¿Necesito una licencia para producción?** Se requiere una licencia válida de Aspose.Note para uso no de prueba.
+
+## ¿Qué significa “cargar documento OneNote”?
+Cargar un documento OneNote implica abrir un archivo *.one* con la clase `Document` de Aspose.Note para que puedas inspeccionar programáticamente su contenido: páginas, secciones y cualquier recurso incrustado, como archivos adjuntos.
+
+## ¿Por qué extraer archivos adjuntos?
+Los archivos adjuntos a menudo contienen recursos valiosos (PDF, imágenes, hojas de cálculo) que los usuarios han incrustado en sus notas. Extraerlos te permite:
+- Archivar o respaldar recursos importantes.
+- Procesar los archivos posteriormente (p. ej., convertir a PDF, analizar contenido).
+- Reutilizar los activos en otras aplicaciones sin copiar manualmente.
 
 ## Requisitos previos
 
-Antes de comenzar, asegúrese de tener lo siguiente:
-
--  Aspose.Note para .NET: asegúrese de haber instalado Aspose.Note para .NET. Puedes descargarlo desde[aquí](https://releases.aspose.com/note/net/).
+- Aspose.Note para .NET instalado. Puedes descargarlo desde [aquí](https://releases.aspose.com/note/net/).
+- Un entorno de desarrollo .NET (Visual Studio, VS Code o cualquier compilador C#).
+- Un archivo OneNote (`*.one`) que contenga uno o más archivos adjuntos.
 
 ## Importar espacios de nombres
 
-Primero, importemos los espacios de nombres necesarios para trabajar con Aspose. Nota:
+Primero, importa los espacios de nombres que proporcionan I/O de archivos, tipos de Aspose.Note y utilidades de colecciones:
 
 ```csharp
 using System.IO;
@@ -35,67 +58,80 @@ using System.Collections.Generic;
 using System.Drawing;
 ```
 
-## Paso 1: cargue el documento
+## Paso 1: Cargar el documento OneNote
 
 ```csharp
-// La ruta al directorio de documentos.
+// The path to the documents directory.
 string dataDir = "Your Document Directory";
 
-// Cargue el documento en Aspose.Note.
+// Load the document into Aspose.Note.
 Document oneFile = new Document(dataDir + "Sample1.one");
 ```
 
-## Paso 2: obtener nodos de archivos adjuntos
+> **Consejo profesional:** Verifica que `dataDir` termine con un separador de ruta (`\` o `/`) para evitar rutas de archivo mal formadas.
+
+## Paso 2: Obtener nodos de archivos adjuntos
 
 ```csharp
-// Obtener una lista de nodos de archivos adjuntos
+// Get a list of attached file nodes
 IList<AttachedFile> nodes = oneFile.GetChildNodes<AttachedFile>();
 ```
 
-## Paso 3: iterar a través de archivos adjuntos
+La llamada `GetChildNodes<AttachedFile>()` escanea toda la jerarquía del cuaderno y devuelve cada elemento `AttachedFile`, permitiéndote manejar cada adjunto individualmente.
+
+## Paso 3: Recorrer los archivos adjuntos y convertir a flujo
 
 ```csharp
-// Iterar a través de todos los nodos
+// Iterate through all nodes
 foreach (AttachedFile file in nodes)
 {
-    // Cargar archivo adjunto a un objeto de secuencia
+    // Load attached file to a stream object
     using (Stream outputStream = new MemoryStream(file.Bytes))
     {
-        // Crear un archivo local
+        // Create a local file
         using (Stream fileStream = System.IO.File.OpenWrite(String.Format(dataDir + file.FileName)))
         {
-            // Copiar secuencia de archivos
+            // Copy file stream
             CopyStream(outputStream, fileStream);
         }
     }
 }
 ```
 
+En este bucle **convertimos el adjunto a un flujo** (`MemoryStream`) para que puedas manipular los datos en memoria antes de persistirlos. El ayudante `CopyStream` simplemente copia los bytes del flujo de memoria a un archivo físico en disco.
+
+### Problemas comunes y soluciones
+- **Permisos faltantes:** Asegúrate de que la aplicación tenga acceso de escritura a `dataDir`.
+- **Adjuntos grandes:** Para archivos muy grandes, considera copiar en bloques en lugar de cargar todo el archivo en memoria.
+- **Conflictos de nombres de archivo:** Usa `Path.GetUniqueFileName` o agrega una marca de tiempo si pueden existir nombres duplicados.
+
 ## Conclusión
 
-En este tutorial, aprendimos cómo recuperar archivos adjuntos de un documento usando Aspose.Note para .NET. Si sigue estos sencillos pasos, podrá integrar perfectamente esta funcionalidad en sus aplicaciones .NET.
+Ahora sabes cómo **cargar un documento OneNote**, **extraer archivos adjuntos** y **convertir cada adjunto a un flujo** para su procesamiento posterior. Incorpora estos fragmentos en tus proyectos .NET para automatizar la extracción de recursos de cuadernos OneNote.
 
 ## Preguntas frecuentes
 
-### P1: ¿Aspose.Note es compatible con todas las versiones de archivos OneNote?
+**P: ¿Es Aspose.Note compatible con todas las versiones de archivos OneNote?**  
+R: Sí, Aspose.Note soporta varias versiones de archivos Microsoft OneNote, garantizando compatibilidad en diferentes plataformas.
 
-R1: Sí, Aspose.Note admite varias versiones de archivos de Microsoft OneNote, lo que garantiza la compatibilidad entre diferentes plataformas.
+**P: ¿Puedo modificar los archivos adjuntos recuperados antes de guardarlos localmente?**  
+R: ¡Claro! Puedes manipular los archivos adjuntos según sea necesario dentro de tu aplicación antes de guardarlos localmente.
 
-### P2: ¿Puedo modificar los archivos adjuntos recuperados antes de guardarlos localmente?
+**P: ¿Aspose.Note ofrece soporte para desarrolladores?**  
+R: ¡Absolutamente! Aspose proporciona documentación extensa y un foro de soporte dedicado para ayudar a los desarrolladores con cualquier consulta o problema que encuentren.
 
-R2: ¡Por supuesto! Puede manipular los archivos adjuntos según sea necesario dentro de su aplicación antes de guardarlos localmente.
+**P: ¿Puedo probar Aspose.Note antes de comprarlo?**  
+R: Sí, puedes obtener una prueba gratuita de Aspose.Note para explorar sus características y funcionalidades antes de decidir la compra.
 
-### P3: ¿Aspose.Note ofrece soporte para desarrolladores?
+**P: ¿Cómo puedo obtener una licencia temporal para Aspose.Note?**  
+R: Puedes solicitar una licencia temporal a Aspose para evaluar todas las capacidades de la API en tu entorno de desarrollo.
 
-R3: ¡Absolutamente! Aspose proporciona documentación extensa y un foro de soporte dedicado para ayudar a los desarrolladores con cualquier consulta o problema que encuentren.
+---
 
-### P4: ¿Puedo probar Aspose.Note antes de comprarlo?
+**Última actualización:** 2026-04-03  
+**Probado con:** Aspose.Note 24.11 para .NET  
+**Autor:** Aspose  
 
-R4: Sí, puede aprovechar una prueba gratuita de Aspose.Note para explorar sus características y funcionalidades antes de tomar una decisión de compra.
-
-### P5: ¿Cómo puedo obtener una licencia temporal para Aspose.Note?
-
-R5: Puede solicitar una licencia temporal a Aspose para evaluar todas las capacidades de la API en su entorno de desarrollo.
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

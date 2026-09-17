@@ -68,7 +68,7 @@ Tạo một thể hiện `Document` mới và thêm một `Page` nơi hình ản
 
 ```csharp
 var document = new Document();
-var page = new Page(document);
+var page = new Page();
 ```
 
 ## Bước 2: Tải hình ảnh
@@ -77,7 +77,7 @@ Chỉ đến thư mục chứa ảnh của bạn và tạo một đối tượng
 
 ```csharp
 string dataDir = "Your Document Directory";
-var image = new Image(document, dataDir + "image.jpg");
+var image = new Image(dataDir + "image.jpg");
 ```
 
 ## Bước 3: Đặt Văn bản Thay thế

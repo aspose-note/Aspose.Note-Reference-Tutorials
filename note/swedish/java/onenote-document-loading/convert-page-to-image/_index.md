@@ -132,7 +132,7 @@ A: Ja. Bibliotek finns för .NET, Python, C++ och mer.
 A: Besök [Aspose.Note‑forumet](https://forum.aspose.com/c/note/28) eller se den officiella dokumentationen [här](https://reference.aspose.com/note/java/).
 
 **Senast uppdaterad:** 2025-11-29  
-**Testat med:** Aspose.Note for Java 24.12  
+**Testat med:** Aspose.Note for Java 26.4  
 **Författare:** Aspose  
 
 {{< /blocks/products/pf/tutorial-page-section >}}

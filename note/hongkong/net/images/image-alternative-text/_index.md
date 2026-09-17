@@ -66,7 +66,7 @@ using System;
 
 ```csharp
 var document = new Document();
-var page = new Page(document);
+var page = new Page();
 ```
 
 ## 步驟 2：載入圖像
@@ -75,7 +75,7 @@ var page = new Page(document);
 
 ```csharp
 string dataDir = "Your Document Directory";
-var image = new Image(document, dataDir + "image.jpg");
+var image = new Image(dataDir + "image.jpg");
 ```
 
 ## 步驟 3：設定替代文字

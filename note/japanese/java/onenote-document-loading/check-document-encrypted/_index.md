@@ -23,7 +23,7 @@ Java アプリケーションで OneNote ファイルを扱う際に、最初に
 
 - **暗号化かどうかを判定するメソッドは？** `Document.isEncrypted`  
 - **チェックするのにパスワードは必要ですか？** いいえ、パスワードなしでステータスを問い合わせられます。  
-- **対応している API バージョンは？** 最近の Aspose.Note for Java リリース（24.11 でテスト）  
+- **対応している API バージョンは？** 最近の Aspose.Note for Java リリース（26.4 でテスト）  
 - **ストリームとファイルパスの両方をチェックできますか？** はい、API は両方に対応しています。  
 - **パスワードが間違っている場合はどうなりますか？** メソッドは `true` を返し、ファイルが暗号化されたままであることを示します。  
 
@@ -147,7 +147,7 @@ A: コミュニティサポートは [Aspose.Note forum](https://forum.aspose.co
 ---  
 
 **Last Updated:** 2025-11-29  
-**Tested With:** Aspose.Note 24.11 for Java  
+**Tested With:** Aspose.Note 26.4 for Java  
 **Author:** Aspose  
 
 {{< /blocks/products/pf/tutorial-page-section >}}  

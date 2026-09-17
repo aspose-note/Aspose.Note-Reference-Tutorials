@@ -112,7 +112,7 @@ oneFile.save(dataDir, options);
 ---
 
 **Τελευταία ενημέρωση:** 2025-12-17  
-**Δοκιμάστηκε με:** Aspose.Note 24.12 for Java  
+**Δοκιμάστηκε με:** Aspose.Note 26.4 for Java  
 **Συγγραφέας:** Aspose  
 
 ---

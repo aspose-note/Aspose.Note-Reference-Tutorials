@@ -68,7 +68,7 @@ Crea una nuova istanza di `Document` e aggiungi una `Page` dove l'immagine sarà
 
 ```csharp
 var document = new Document();
-var page = new Page(document);
+var page = new Page();
 ```
 
 ## Passo 2: Carica l'Immagine
@@ -77,7 +77,7 @@ Indica la cartella che contiene la tua immagine e crea un oggetto `Image`.
 
 ```csharp
 string dataDir = "Your Document Directory";
-var image = new Image(document, dataDir + "image.jpg");
+var image = new Image(dataDir + "image.jpg");
 ```
 
 ## Passo 3: Imposta Testo Alternativo

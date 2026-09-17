@@ -121,7 +121,7 @@ A: Ja, Aspose.Note bevat afbeeldingen, diagrammen en andere ingesloten objecten 
 ---
 
 **Laatst bijgewerkt:** 17-12-2025
-**Getest met:** Aspose.Note voor Java 24.12 (nieuwste versie)
+**Getest met:** Aspose.Note voor Java 26.4 (nieuwste versie)
 **Auteur:** Aspose  
 
 {{< /blocks/products/pf/tutorial-page-section >}}

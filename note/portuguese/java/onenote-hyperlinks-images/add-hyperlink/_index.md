@@ -129,7 +129,7 @@ O método `setHyperlinkAddress` informa ao Aspose.Note que este segmento deve se
 ```java
 RichText text = new RichText()
                             .append("This is ", textStyleRed)
-                            .append("hyperlink", new TextStyle().setHyperlinkAddress("www.google.com"))
+                            .append("hyperlink", new TextStyle().setHyperlinkAddress("https://www.google.com"))
                             .append(". This text is not a hyperlink.", TextStyle.getDefault());
 text.setParagraphStyle(defaultTextStyle);
 outlineElem.appendChildLast(text);
@@ -176,7 +176,7 @@ R: O visualizador de PDF lidará com os links clicáveis automaticamente; nenhum
 R: Uma licença de avaliação temporária é suficiente para desenvolvimento e testes, mas uma licença completa é necessária para implantações em produção.
 
 **Última Atualização:** 2025-12-20  
-**Testado com:** Aspose.Note for Java 23.12  
+**Testado com:** Aspose.Note for Java 26.4  
 **Autor:** Aspose  
 
 {{< /blocks/products/pf/tutorial-page-section >}}

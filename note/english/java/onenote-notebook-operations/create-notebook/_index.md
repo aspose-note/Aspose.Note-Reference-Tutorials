@@ -31,7 +31,7 @@ Before we begin, make sure you have the following ready:
 
 ### Java Development Kit (JDK) Installed
 
-You need a recent JDK. Download it from the [Java website](https://www.oracle.com/java/technologies/javase-jdk15-downloads.html).
+You need a recent JDK. Download it from the [Java website](https://www.oracle.com/java/technologies/downloads/).
 
 ### Aspose.Note for Java Library
 
@@ -117,7 +117,7 @@ A: The library works with Java 8 and later versions.
 ---
 
 **Last Updated:** 2025-12-31  
-**Tested With:** Aspose.Note for Java 24.12  
+**Tested With:** Aspose.Note for Java 26.4  
 **Author:** Aspose  
 
 ---

@@ -58,7 +58,7 @@ using System.Text;
 
 ```csharp
 var document = new Document();
-var page = new Page(document);
+var page = new Page();
 ```
 
 ## Bước 2: Chèn Hình Ảnh với Siêu Liên Kết
@@ -67,7 +67,7 @@ Bây giờ, chúng ta sẽ **chèn siêu liên kết hình ảnh** bằng cách 
 
 ```csharp
 string imagePath = "path_to_your_image.jpg";
-var image = new Image(document, imagePath) { HyperlinkUrl = "http://example.com" };
+var image = new Image(imagePath) { HyperlinkUrl = "https://example.com" };
 ```
 
 > **Mẹo chuyên nghiệp:** `HyperlinkUrl` có thể trỏ tới bất kỳ địa chỉ web nào, một tệp cục bộ, hoặc thậm chí một liên kết sâu bên trong một tài liệu OneNote khác.

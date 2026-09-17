@@ -49,7 +49,7 @@ Geliştirme ortamınızı Visual Studio ile kurduğunuzdan ve Aspose.Note for .N
 ```csharp
 string dataDir = "Your Document Directory";
 
-FileStream stream = new FileStream(dataDir + "Notizbuch öffnen.onetoc2", FileMode.Open);
+FileStream stream = new FileStream(dataDir + "Notebook.onetoc2", FileMode.Open);
 ```
 
 ## 3. Adım: Not Defteri Nesnesini Başlatın

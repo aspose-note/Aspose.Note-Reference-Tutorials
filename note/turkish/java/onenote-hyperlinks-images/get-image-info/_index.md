@@ -33,7 +33,7 @@ Uygulamaya geçmeden önce, aşağıdaki önkoşulların karşılandığından e
 
 ### 1. Java Development Kit (JDK)
 
-Sisteminizde Java Development Kit (JDK) yüklü olduğundan emin olun. En son JDK'yı [Oracle web sitesinden](https://www.oracle.com/java/technologies/javase-jdk15-downloads.html) indirebilir ve kurabilirsiniz.
+Sisteminizde Java Development Kit (JDK) yüklü olduğundan emin olun. En son JDK'yı [Oracle web sitesinden](https://www.oracle.com/java/technologies/downloads/) indirebilir ve kurabilirsiniz.
 
 ### 2. Aspose.Note for Java Kütüphanesi
 
@@ -148,7 +148,7 @@ Bu öğreticide belirtilen adımları izleyerek, Aspose.Note for Java kullanarak
 ---
 
 **Last Updated:** 2025-12-21  
-**Tested With:** Aspose.Note for Java 23.12  
+**Tested With:** Aspose.Note for Java 26.4  
 **Author:** Aspose  
 
 ---

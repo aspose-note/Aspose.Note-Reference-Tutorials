@@ -48,7 +48,7 @@ using System.Text;
 string dataDir = "Your Document Directory";
 
 // Загрузите записную книжку OneNote
-var notebook = new Notebook(dataDir + "Notizbuch öffnen.onetoc2");
+var notebook = new Notebook(dataDir + "Notebook.onetoc2");
 ```
 
 ## Шаг 2. Установите параметры сохранения.
