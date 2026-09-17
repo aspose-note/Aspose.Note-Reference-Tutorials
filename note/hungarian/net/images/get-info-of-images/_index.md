@@ -1,32 +1,52 @@
 ---
-title: Szerezzen információkat az Aspose.Note képeiről
-linktitle: Szerezzen információkat az Aspose.Note képeiről
+date: 2026-04-09
+description: Tanulja meg, hogyan lehet kinyerni a képek metaadatait és lekérni a képméreteket
+  OneNote-fájlokból az Aspose.Note for .NET segítségével. Lépésről lépésre útmutató
+  C# fejlesztőknek.
+keywords:
+- extract image metadata
+- how to extract images
+- get image dimensions
+- load onenote document
+- c# get image properties
+linktitle: Hogyan lehet képadatokat kinyerni a OneNote-ból az Aspose.Note segítségével
 second_title: Aspose.Note .NET API
-description: Ismerje meg, hogyan nyerhet ki képadatokat Microsoft OneNote-fájlokból az Aspose.Note for .NET segítségével. Kövesse lépésről lépésre útmutatónkat a hatékony fejlesztés érdekében.
-weight: 13
+title: Hogyan lehet képadatokat kinyerni a OneNote-ból az Aspose.Note segítségével
 url: /hu/net/images/get-info-of-images/
+weight: 13
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Szerezzen információkat az Aspose.Note képeiről
+# Kép metaadatok kinyerése az Aspose.Note for .NET segítségével
 
-## Bevezetés
+Ebben a gyakorlati útmutatóban megtanulja, **hogyan kell kinyerni a kép metaadatokat** – beleértve a szélességet, magasságot, az eredeti méretet, a fájlnevet és a módosítási időt – a Microsoft OneNote fájlokból az Aspose.Note C# könyvtár segítségével. Akár képkicsiket kell megjelenítenie, képméreteket ellenőriznie, vagy beágyazott eszközök katalógusát építené, a metaadatok programozott kinyerése rengeteg manuális lépést takarít meg.
 
-A .NET fejlesztés világában az Aspose.Note hatékony eszközkészletet biztosít a Microsoft OneNote fájlokkal való munkavégzéshez. Az egyik gyakori feladat, amellyel a fejlesztők gyakran szembesülnek, hogy információkat nyerjenek ki a jegyzetekbe ágyazott képekből. Legyen szó méretekről, fájlnevekről vagy módosítási időkről, az Aspose.Note leegyszerűsíti ezt a folyamatot.
+## Gyors válaszok
+- **Mi jelent a „kép metaadatok kinyerése”?** A képekhez tartozó tulajdonságok, például méretek, fájlnév és időbélyegek lekérése egy OneNote dokumentumban tárolt képekből.  
+- **Melyik könyvtár kezeli ezt?** Aspose.Note for .NET.  
+- **Szükségem van licencre?** A fejlesztéshez ingyenes próba verzió működik; a termeléshez kereskedelmi licenc szükséges.  
+- **Támogatott platformok?** .NET Framework 4.6+, .NET Core 3.1+, .NET 5/6+.  
+- **Tipikus futási idő?** Kevesebb mint egy másodperc egy standard .one fájl esetén.
+
+## Mi az a kép metaadatok kinyerése?
+A kép metaadatok kinyerése azt jelenti, hogy programozottan beolvassuk a leíró attribútumokat (szélesség, magasság, eredeti méretek, fájlnév, utolsó módosítás időpontja stb.), amelyek minden képobjektumhoz tartoznak egy OneNote oldalán. Ezek az adatok hasznosak az ellenőrzéshez, jelentéskészítéshez vagy további képfeldolgozáshoz.
+
+## Miért kell kinyerni a kép metaadatokat a OneNote-ból?
+- **Automatizálás** – Olyan eszközök építése, amelyek automatikusan generálják a kép leltárakat.  
+- **Érvényesítés** – Biztosítsa, hogy a képek megfeleljenek a méretkövetelményeknek a közzététel előtt.  
+- **Integráció** – A OneNote tartalom kombinálása más rendszerekkel, amelyeknek szükségük van a kép részleteire (CMS, DAM stb.).  
+- **Teljesítmény** – Kerülje el a teljes kép binárisok betöltését, ha csak a méretekre van szükség.
 
 ## Előfeltételek
+1. **C# alapok** – Kényelmesen kell tudnia alap C# kódot írni.  
+2. **Aspose.Note for .NET** – Töltse le és telepítse a könyvtárat a hivatalos oldalról [itt](https://releases.aspose.com/note/net/).  
+3. **OneNote (.one) fájl** – Bármely meglévő OneNote dokumentum, amely képeket tartalmaz.
 
-Mielőtt belevetnénk magunkat a képinformációk Aspose.Note segítségével történő kinyeréséhez, győződjön meg arról, hogy rendelkezik a következőkkel:
-
-1. C# alapismeretek: A kódpéldák megértéséhez elengedhetetlen a C# programozási nyelv ismerete.
-2.  Aspose.Note for .NET telepítve: Győződjön meg arról, hogy az Aspose.Note könyvtár telepítve van a fejlesztői környezetben. Letöltheti[itt](https://releases.aspose.com/note/net/).
-
-## Névterek importálása
-
-Mielőtt elkezdenénk, importáljuk a szükséges névtereket:
+## Névtér importálása
+Mielőtt elkezdenénk, importálja a szükséges névtereket:
 
 ```csharp
 using System.IO;
@@ -35,34 +55,31 @@ using System.Collections.Generic;
 using System;
 ```
 
-## 1. lépés: Töltse be a dokumentumot
-
-Először töltse be a cél OneNote dokumentumot az Aspose-ba.Note:
+## 1. lépés: OneNote dokumentum betöltése
+Először töltse be a cél OneNote fájlt egy `Aspose.Note.Document` objektumba. Ez a **load onenote document** lépés, amely előkészíti az API-t a további lekérdezésekhez.
 
 ```csharp
-// A dokumentumok könyvtárának elérési útja.
+// The path to the documents directory.
 string dataDir = "Your Document Directory";
 
-// Töltse be a dokumentumot az Aspose.Note-ba.
+// Load the document into Aspose.Note.
 Document oneFile = new Document(dataDir + "Aspose.one");
 ```
 
- Cserélje ki`"Your Document Directory"` a OneNote-fájl elérési útjával.
+Cserélje le a `"Your Document Directory"` értéket a tényleges mappára, amely a `.one` fájlt tartalmazza.
 
-## 2. lépés: Képinformációk lekérése
-
-Ezután kérje le az összes képcsomópontot a dokumentumból:
+## 2. lépés: Az összes képcsomópont lekérése
+Most **how to extract images**-t fogjuk végrehajtani, az összes `Image` csomópont lekérésével a dokumentumból.
 
 ```csharp
-// Az összes képcsomópont letöltése
+// Get all Image nodes
 IList<Aspose.Note.Image> images = oneFile.GetChildNodes<Aspose.Note.Image>();
 ```
 
-Ez a kódrészlet lekéri a betöltött OneNote-dokumentum összes képcsomópontját.
+A `GetChildNodes<T>()` metódus átvizsgálja az egész jegyzetfüzet hierarchiáját, és egy képobjektumok gyűjteményét adja vissza.
 
-## 3. lépés: Iteráció képeken keresztül
-
-Most ismételjük át az egyes képcsomópontokat a metaadatok kinyeréséhez:
+## 3. lépés: Végigiterálás minden képen és **c# get image properties**
+Végigiterálunk a gyűjteményen, és kiírjuk a metaadatokat, beleértve a **get image dimensions** és **extract original image size** értékeket.
 
 ```csharp
 foreach (Aspose.Note.Image image in images)
@@ -77,33 +94,38 @@ foreach (Aspose.Note.Image image in images)
 }
 ```
 
-Ez a hurok minden egyes kép különféle attribútumait nyomtatja ki, például szélességet, magasságot, eredeti méretet, fájlnevet és az utolsó módosítás idejét.
+A kimenet megjeleníti minden kép aktuális szélességét/magasságát (ahogyan az oldalon megjelenik), a fájlban tárolt eredeti méreteket, a fájlnevet és az utolsó módosítás időbélyegét.
 
-## Következtetés
+## Gyakori problémák és megoldások
+| Probléma | Ok | Megoldás |
+|----------|----|----------|
+| **NullReferenceException** when `images` is empty | A dokumentum nem tartalmaz képeket | Ellenőrizze, hogy a forrás `.one` fájl valóban beágyazott képeket tartalmaz. |
+| **Incorrect dimensions** | A képek mérete a OneNote-ban skálázott | Használja az `OriginalWidth`/`OriginalHeight` értékeket a valódi méret meghatározásához. |
+| **FileName is empty** | A kép a vágólapról lett beillesztve | Az API esetleg nem rendelkezik fájlnévvel; kezelje a `null` vagy üres karakterláncokat a kódban. |
 
-Az Aspose.Note for .NET segítségével a képadatok kinyerése a OneNote-dokumentumokból zökkenőmentes folyamattá válik. Az ebben az oktatóanyagban vázolt lépések követésével a fejlesztők hatékonyan lekérhetik a metaadatokat a beágyazott képekből, így robusztus alkalmazásokat hozhatnak létre.
+## Gyakran ismételt kérdések
 
-## GYIK
+**K: Az Aspose.Note kompatibilis a Microsoft OneNote minden verziójával?**  
+A: Az Aspose.Note támogatja a .one, .onepkg és .onetoc2 formátumokat, amelyek lefedik a legtöbb OneNote verziót 2007-től napjainkig.
 
-### 1. kérdés: Az Aspose.Note kompatibilis a Microsoft OneNote összes verziójával?
+**K: Módosíthatom a kép tulajdonságait a kinyerés után?**  
+A: Igen, módosíthatja a `Width`, `Height` vagy `FileName` tulajdonságokat, majd elmentheti a dokumentumot.
 
-1. válasz: Az Aspose.Note a OneNote-fájlok különféle formátumait támogatja, beleértve a .one, .onepkg és .onetoc2 fájlokat, biztosítva a különböző verziók közötti kompatibilitást.
+**K: Az Aspose.Note működik .NET Core‑dal?**  
+A: Teljesen. A könyvtár teljes mértékben kompatibilis a .NET Core, .NET 5 és .NET 6 verziókkal.
 
-### 2. kérdés: Módosíthatom a kép tulajdonságait az Aspose.Note segítségével?
+**K: Elérhető ingyenes próba?**  
+A: Igen, letölthet egy próba verziót az Aspose weboldaláról, hogy felfedezze az összes funkciót.
 
-2. válasz: Igen, az Aspose.Note lehetővé teszi a képtulajdonságok, például a méretek, fájlnevek és a módosítási idők programozott kezelését.
+**K: Hol kaphatok további segítséget vagy közösségi támogatást?**  
+A: Látogassa meg az Aspose.Note fórumot [itt](https://forum.aspose.com/c/note/28) tippek, minta kódok és a közösség válaszaiért.
 
-### 3. kérdés: Az Aspose.Note támogatja a .NET Core-t?
+---
 
-3. válasz: Igen, az Aspose.Note támogatja a .NET Core-t, lehetővé téve az alkalmazások többplatformos fejlesztését.
+**Utoljára frissítve:** 2026-04-09  
+**Tesztelve:** Aspose.Note 24.11 for .NET  
+**Szerző:** Aspose  
 
-### 4. kérdés: Van ingyenes próbaverzió az Aspose.Note számára?
-
-4. válasz: Igen, hozzáférhet az Aspose.Note ingyenes próbaverziójához, hogy vásárlás előtt felfedezze a funkcióit.
-
-### 5. kérdés: Hol találhatok további támogatást vagy segítséget az Aspose.Note-hoz?
-
-5. válasz: Ha kérdése van, vagy segítségre van szüksége, keresse fel az Aspose.Note fórumot[itt](https://forum.aspose.com/c/note/28).
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
