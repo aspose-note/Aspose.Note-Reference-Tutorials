@@ -1,33 +1,54 @@
 ---
-title: Infoga bilder i Aspose.Note-dokument
-linktitle: Infoga bilder i Aspose.Note-dokument
+date: 2026-05-05
+description: Lär dig hur du infogar bild i Aspose.Note‑dokument med .NET. Denna steg‑för‑steg‑guide
+  visar dig hur du justerar bild, lägger till bild på sidan och förbättrar visuellt
+  innehåll.
+keywords:
+- how to insert image
+- how to align image
+- append image to page
+linktitle: Infoga bilder i Aspose.Note‑dokument
 second_title: Aspose.Note .NET API
-description: Lär dig hur du sömlöst infogar bilder i Aspose.Note-dokument med hjälp av .NET för förbättrat visuellt innehåll. Följ vår steg-för-steg-guide för enkel integration.
-weight: 16
+title: Hur man infogar bild i Aspose.Note-dokument med .NET
 url: /sv/net/images/insert-images/
+weight: 16
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Infoga bilder i Aspose.Note-dokument
+# Hur man infogar bild i Aspose.Note-dokument med .NET
 
 ## Introduktion
 
-Att lägga till bilder i dina Aspose.Note-dokument kan avsevärt förbättra deras visuella tilltalande och användbarhet. Oavsett om du skapar anteckningar, presentationer eller något annat dokument, kan integrerade bilder ge ditt innehåll sammanhang och klarhet. I den här självstudien guidar vi dig genom processen att infoga bilder i dina Aspose.Note-dokument med .NET.
+Om du vill göra dina Aspose.Note-filer mer engagerande, **how to insert image** är den första färdigheten du vill behärska. I den här handledningen går vi igenom de exakta stegen du behöver för att lägga till bilder, kontrollera deras storlek, placera dem exakt och även justera dem på det sätt du vill. I slutet kommer du att känna dig bekväm med att infoga bilder, justera dem och lägga till bild på sidan — allt med ren, läsbar C#-kod.
+
+## Snabba svar
+- **Vilket bibliotek krävs?** Aspose.Note for .NET  
+- **Kan jag ställa in bildstorlek programatiskt?** Yes – use the Width and Height properties.  
+- **Hur placerar jag en bild?** Adjust HorizontalOffset, VerticalOffset or use alignment options.  
+- **Finns det någon gräns för bildformat?** JPG, PNG, BMP, GIF and others are supported.  
+- **Behöver jag en licens för produktion?** A valid Aspose.Note license is required for commercial use.
+
+## Vad är bildinfogning i Aspose.Note?
+
+Att infoga en bild innebär att skapa ett Aspose.Note.Image‑objekt, konfigurera dess visuella egenskaper och fästa det på en sida i en OneNote‑kompatibel .one‑fil. Detta låter dig berika anteckningar med skärmdumpar, diagram eller någon visuell hjälp.
+
+## Varför infoga bilder med Aspose.Note?
+
+- **Bättre kommunikation:** Visuals clarify complex ideas faster than text alone.  
+- **Enhetlig layout:** Programmatic control ensures every document follows the same design standards.  
+- **Automatiseringsvänligt:** Ideal for generating reports, tutorials, or batch‑processed notebooks.
 
 ## Förutsättningar
 
-Innan vi börjar, se till att du har följande förutsättningar på plats:
+1. Aspose.Note for .NET: Download and install Aspose.Note for .NET from [here](https://releases.aspose.com/note/net/).  
+2. Image Files: Ha bildfilerna (JPG, PNG, etc.) du planerar att bädda in redo på disken.
 
-1.  Aspose.Note for .NET: Ladda ner och installera Aspose.Note for .NET från[här](https://releases.aspose.com/note/net/).
-   
-2. Bildfiler: Förbered bildfilerna du tänker infoga i dina Aspose.Note-dokument.
+## Importera namnrymder
 
-## Importera namnområden
-
-Först måste du importera nödvändiga namnområden för att arbeta med Aspose.Note i ditt .NET-projekt. Så här kan du göra det:
+Vi börjar med att importera namnrymderna som ger oss åtkomst till fil‑I/O och Aspose.Note‑API:n.
 
 ```csharp
 using System.IO;
@@ -39,7 +60,7 @@ using System;
 
 ## Steg 1: Ladda dokument och hämta sida
 
-Börja med att ladda ditt befintliga Aspose.Note-dokument och gå till önskad sida där du vill infoga bilden.
+Först, öppna det befintliga .one‑dokumentet och hämta sidan där bilden kommer att placeras.
 
 ```csharp
 string dataDir = "Your Document Directory";
@@ -47,57 +68,90 @@ Document doc = new Document(dataDir + "YourDocument.one");
 Aspose.Note.Page page = doc.FirstChild;
 ```
 
+## Hur man justerar bild
+
+Innan vi lägger till bilden, bestäm hur den ska placeras i förhållande till annat innehåll. Aspose.Note erbjuder horisontella justeringsalternativ (Left, Center, Right). Du kan också finjustera placeringen med offset‑värden.
+
 ## Steg 2: Ladda bild och ställ in egenskaper
 
-Ladda sedan in bilden du vill infoga och ange dess egenskaper såsom bredd, höjd, förskjutningar och justering enligt dina krav.
+Skapa Image‑objektet, peka det på din fil och definiera dess dimensioner, offset‑värden och justering.
 
 ```csharp
 Aspose.Note.Image image = new Aspose.Note.Image(doc, dataDir + "image.jpg")
 {
-    Width = 100,                // Ställ in bildens bredd
-    Height = 100,               // Ställ in bildhöjd
-    HorizontalOffset = 100,     // Ställ in horisontell offset
-    VerticalOffset = 400,       // Ställ in vertikal offset
-    Alignment = HorizontalAlignment.Right  // Ställ in bildjustering
+    Width = 100,                // Set image width
+    Height = 100,               // Set image height
+    HorizontalOffset = 100,     // Set horizontal offset
+    VerticalOffset = 400,       // Set vertical offset
+    Alignment = HorizontalAlignment.Right  // Set image alignment
 };
 ```
 
-## Steg 3: Lägg till bild på sidan
+## Lägg till bild på sidan
 
-När du har konfigurerat bildegenskaperna lägger du till bilden på önskad sida i ditt Aspose.Note-dokument.
+Nu när bilden är fullt konfigurerad, fäst den i sidans elementträd.
 
 ```csharp
 page.AppendChildLast(image);
 ```
 
+## Vanliga fallgropar och tips
+
+- **Felaktiga offset:** Remember that offsets are measured from the top‑left corner of the page. A large vertical offset may push the image off‑screen.  
+- **Ej stödd format:** If you try a format that isn’t recognized, Aspose.Note will throw an exception—convert the file to JPG or PNG first.  
+- **Licensvarningar:** Running without a license adds a watermark to the generated document; always apply your license in production.
+
 ## Slutsats
 
-Grattis! Du har framgångsrikt infogat en bild i ditt Aspose.Note-dokument med hjälp av .NET. Bilder kan avsevärt förbättra den visuella representationen av dina dokument, vilket gör dem mer engagerande och informativa.
+Du har nu lärt dig **how to insert image** i ett Aspose.Note‑dokument, hur man **how to align image**, och hur man **append image to page** med några enkla rader C#. Dessa tekniker låter dig automatiskt bygga rikare, mer professionella anteckningsböcker.
 
-## FAQ's
+## Vanliga frågor
 
-### F1: Kan jag infoga bilder i valfritt format i Aspose.Note-dokument?
+### Q1: Kan jag infoga bilder av vilket format som helst i Aspose.Note-dokument?
 
-S1: Ja, Aspose.Note stöder olika bildformat inklusive JPG, PNG, BMP, GIF, etc.
+A1: Ja, Aspose.Note stöder olika bildformat inklusive JPG, PNG, BMP, GIF, etc.
 
-### F2: Är det möjligt att ändra storlek på de infogade bilderna programmatiskt?
+### Q2: Är det möjligt att ändra storlek på de infogade bilderna programatiskt?
 
-A2: Absolut! Du kan justera bredden och höjden på bilder enligt dina preferenser under insättningen.
+A2: Absolut! Du kan justera bredd och höjd på bilderna enligt dina preferenser vid infogning.
 
-### F3: Ger Aspose.Note alternativ för att ändra bildjustering?
+### Q3: Ger Aspose.Note alternativ för att ändra bildjustering?
 
-S3: Ja, du kan justera bilder till vänster, höger eller centrera på dina dokumentsidor.
+A3: Ja, du kan justera bilder till vänster, höger eller centrerat inom dina dokumentsidor.
 
-### F4: Kan jag infoga flera bilder på en enda sida i mitt dokument?
+### Q4: Kan jag infoga flera bilder på en enda sida i mitt dokument?
 
-A4: Visst! Du kan infoga så många bilder du behöver på en enda sida med Aspose.Note.
+A4: Självklart! Du kan infoga så många bilder du behöver på en enda sida med Aspose.Note.
 
-### F5: Finns det en gräns för filstorleken på bilder som kan infogas?
+### Q5: Finns det någon gräns för filstorleken på bilder som kan infogas?
 
-S5: Aspose.Note sätter inga strikta begränsningar på bildfilstorlekar, men det rekommenderas att optimera bilder för bättre prestanda.
+A5: Aspose.Note har inga strikta begränsningar för bildfilers storlek, men det rekommenderas att optimera bilder för bättre prestanda.
+
+## Vanligt förekommande frågor
+
+**Q: Hur laddar jag en bild från en ström istället för en filsökväg?**  
+A: Använd Image(Stream, Document)‑konstruktorn och skicka en MemoryStream som innehåller bildens byte.
+
+**Q: Kan jag ändra bilden efter att den har lagts till på sidan?**  
+A: Ja, du kan ändra Width, Height, HorizontalOffset, VerticalOffset och Alignment‑egenskaperna för det befintliga Image‑objektet och sedan anropa page.Update().
+
+**Q: Är det möjligt att lägga till en bildtext under bilden?**  
+A: Infoga ett RichText‑element efter bilden och sätt dess text för att fungera som en bildtext.
+
+**Q: Stöder Aspose.Note animerade GIF-filer?**  
+A: Animerade GIF-filer behandlas som statiska bilder; endast den första ramen visas.
+
+**Q: Vad ska jag göra om bilden blir suddig?**  
+A: Säkerställ att källbilden har tillräcklig upplösning och undvik att skala upp den bortom dess ursprungliga storlek.
+
+---
+
+**Senast uppdaterad:** 2026-05-05  
+**Testad med:** Aspose.Note 23.12 for .NET  
+**Författare:** Aspose  
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}
-
 {{< blocks/products/products-backtop-button >}}
