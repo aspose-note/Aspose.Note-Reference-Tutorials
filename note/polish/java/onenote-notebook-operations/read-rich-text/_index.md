@@ -1,11 +1,19 @@
 ---
-date: 2026-01-02
-description: Dowiedz się, jak odczytywać sformatowany tekst OneNote przy użyciu Aspose.Note
-  dla Javy. Ten przewodnik krok po kroku pokazuje, jak efektywnie odczytywać notatniki
-  OneNote.
-linktitle: How to Read OneNote - Read Rich Text from OneNote Notebook - Aspose.Note
+date: 2026-04-24
+description: Dowiedz się, jak wyodrębniać tekst OneNote z notatników OneNote przy
+  użyciu Aspose.Note dla Javy, ładować pliki notatników OneNote i odczytywać pliki
+  .one w Javie w scenariuszach migracji oraz indeksowania wyszukiwania OneNote.
+keywords:
+- extract text onenote
+- load onenote notebook
+- search index onenote
+- read .one file java
+- migrate onenote content
+linktitle: Wyodrębnij tekst OneNote – Odczytaj sformatowany tekst z notatnika OneNote
+  przy użyciu Aspose.Note
 second_title: Aspose.Note Java API
-title: Jak odczytywać OneNote – Odczyt bogatego tekstu z notatnika OneNote – Aspose.Note
+title: Wyodrębnij tekst OneNote – Odczytaj sformatowany tekst z notatnika OneNote
+  przy użyciu Aspose.Note
 url: /pl/java/onenote-notebook-operations/read-rich-text/
 weight: 23
 ---
@@ -14,30 +22,41 @@ weight: 23
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Odczyt tekstu sformatowanego z notatnika OneNote – Aspose.Note
+# Wyodrębnianie tekstu onenote – Odczyt tekstu sformatowanego z notatnika OneNote przy użyciu Aspose.Note
 
 ## Wprowadzenie
 
-Jeśli szukasz **sposobu odczytania danych z OneNote** programowo, trafiłeś we właściwe miejsce. W tym samouczku przeprowadzimy Cię przez użycie **Aspose.Note for Java**, aby wyodrębnić zawartość tekstu sformatowanego z notatnika OneNote. Po zakończeniu będziesz mógł pobrać czysty tekst z dowolnego notatnika, manipulować nim i zintegrować go ze swoimi aplikacjami Java — niezależnie od tego, czy tworzysz narzędzia raportujące, indeksy wyszukiwania, czy skrypty migracyjne.
+Jeśli potrzebujesz **extract text onenote** programowo, trafiłeś we właściwe miejsce. W tym samouczku przeprowadzimy Cię przez użycie **Aspose.Note for Java** do odczytu treści sformatowanego tekstu z notatnika OneNote. Po zakończeniu będziesz mógł wyciągnąć zwykły tekst z dowolnego notatnika, manipulować nim i zintegrować go ze swoimi aplikacjami Java — niezależnie od tego, czy tworzysz narzędzia raportujące, indeks wyszukiwania onenote, czy skrypty migracyjne do **migrate onenote content**.
 
 ## Szybkie odpowiedzi
-- **Jakiej biblioteki potrzebuję?** Aspose.Note for Java  
+- **Jakiej biblioteki potrzebujesz?** Aspose.Note for Java  
 - **Czy mogę odczytać zarówno pliki .one, jak i .onetoc2?** Tak, API obsługuje wszystkie natywne formaty OneNote.  
-- **Czy potrzebna jest licencja do rozwoju?** Darmowa wersja próbna wystarczy do testów; licencja komercyjna jest wymagana w produkcji.  
-- **Jakiej wersji Javy potrzebuję?** Java 8 lub wyższa.  
+- **Czy potrzebuję licencji do rozwoju?** Darmowa wersja próbna działa do testów; licencja komercyjna jest wymagana w produkcji.  
+- **Jaka wersja Java jest wymagana?** Java 8 lub wyższa.  
 - **Jak długo trwa implementacja?** Zazwyczaj poniżej 15 minut dla podstawowego wyodrębniania.
+
+## Czym jest „extract text onenote”?
+
+Wyodrębnianie tekstu onenote oznacza programowe pobieranie reprezentacji zwykłego tekstu każdego elementu RichText przechowywanego w pliku OneNote. Daje to możliwość przeszukiwania, indeksowania lub migracji treści bez oryginalnego interfejsu OneNote.
+
+## Dlaczego ładować notatnik OneNote programowo?
+
+Ładowanie notatnika OneNote przy użyciu kodu pozwala na:
+- Search index onenote – przekazanie wyodrębnionego tekstu do Elasticsearch, Azure Cognitive Search lub dowolnego własnego indeksu.  
+- Migrate onenote content – przeniesienie starszych notatek do SharePoint, Confluence lub bazy danych.  
+- Automate reporting – generowanie podsumowań, analiz lub raportów zgodności z notatek ze spotkań.  
 
 ## Wymagania wstępne
 
 Zanim rozpoczniesz, upewnij się, że masz następujące elementy:
 
-### Java Development Kit (JDK)
+### Zestaw narzędzi Java (JDK)
 
 Najnowszy JDK (Java 8+). Pobierz go ze strony Oracle lub użyj OpenJDK.
 
 ### Aspose.Note for Java
 
-Pobierz i skonfiguruj Aspose.Note for Java z podanego [linku do pobrania](https://releases.aspose.com/note/java/). Postępuj zgodnie z instrukcjami instalacji, aby dodać pliki JAR do ścieżki klas swojego projektu.
+Pobierz i skonfiguruj Aspose.Note for Java z podanego [download link](https://releases.aspose.com/note/java/). Postępuj zgodnie z instrukcjami instalacji, aby dodać pliki JAR do classpath Twojego projektu.
 
 ## Importowanie pakietów
 
@@ -53,7 +72,7 @@ import com.aspose.note.RichText;
 
 ## Krok 1: Skonfiguruj środowisko programistyczne
 
-Upewnij się, że pliki JAR Aspose.Note są uwzględnione w Twoim narzędziu budowania (Maven, Gradle lub ręcznie dodane do IDE). Ten krok zapewnia, że kompilator znajdzie klasy `Notebook` i `RichText`.
+Upewnij się, że pliki JAR Aspose.Note są odwoływane w Twoim narzędziu budującym (Maven, Gradle lub ręcznie dodane do IDE). Ten krok zapewnia, że kompilator może znaleźć `Notebook` i `RichText`.
 
 ## Krok 2: Uzyskaj dostęp do notatnika OneNote
 
@@ -70,7 +89,7 @@ Zastąp `Your Document Directory` absolutną lub względną ścieżką do folder
 List<RichText> allRichTextNodes = rootNotebook.getChildNodes(RichText.class);
 ```
 
-`getChildNodes(RichText.class)` przeszukuje drzewo notatnika i zwraca każdy węzeł przechowujący dane tekstu sformatowanego, takie jak akapity, elementy list i komórki tabel.
+`getChildNodes(RichText.class)` przegląda drzewo notatnika i zwraca każdy węzeł przechowujący dane rich‑text, takie jak akapity, elementy list i komórki tabel.
 
 ## Krok 4: Iteruj po węzłach Rich Text
 
@@ -80,21 +99,15 @@ for (RichText richTextNode : allRichTextNodes) {
 }
 ```
 
-Pętla wypisuje czysty tekst każdego węzła `RichText` na konsolę. Możesz zamienić `System.out.println` na dowolne własne przetwarzanie — zapisywanie do bazy danych, wprowadzanie do indeksu wyszukiwania lub analizę językową.
-
-## Dlaczego odczytywać tekst sformatowany z OneNote?
-
-- **Migracja danych:** Przenieś starszą zawartość OneNote do nowoczesnych systemów zarządzania treścią.  
-- **Wyszukiwanie i indeksowanie:** Twórz indeksy przeszukiwalne dla korporacyjnych baz wiedzy.  
-- **Raportowanie:** Automatycznie generuj podsumowania lub analizy z notatek ze spotkań.  
+Pętla wypisuje zwykły tekst każdego węzła `RichText` na konsolę. Możesz zamienić `System.out.println` na dowolne własne przetwarzanie — zapisywanie do bazy danych, wprowadzanie do indeksu wyszukiwania lub przeprowadzanie analizy językowej.
 
 ## Typowe problemy i rozwiązania
 
 | Problem | Rozwiązanie |
-|---------|-------------|
-| **FileNotFoundException** | Sprawdź, czy `dataDir` wskazuje na właściwy folder i czy plik `.onetoc2` istnieje. |
+|-------|----------|
+| **FileNotFoundException** | Zweryfikuj, że `dataDir` wskazuje na właściwy folder i że plik `.onetoc2` istnieje. |
 | **Unsupported format** | Upewnij się, że notatnik został utworzony w obsługiwanej wersji OneNote; starsze pliki `.one` są nadal kompatybilne. |
-| **License not found** | Umieść plik `Aspose.Note.lic` w ścieżce klas lub ustaw licencję programowo przed załadowaniem notatnika. |
+| **License not found** | Umieść plik `Aspose.Note.lic` w classpath lub ustaw licencję programowo przed załadowaniem notatnika. |
 
 ## Najczęściej zadawane pytania
 
@@ -108,23 +121,19 @@ A2: Aspose.Note for Java obsługuje różne wersje Microsoft OneNote, zapewniaj�
 
 ### Q3: Czy Aspose.Note for Java wymaga licencji do użytku komercyjnego?
 
-A3: Tak, do użytku komercyjnego wymagana jest ważna licencja. Licencję możesz uzyskać na [stronie zakupu](https://purchase.aspose.com/buy).
+A3: Tak, wymagana jest ważna licencja do użytku komercyjnego. Licencję można uzyskać na [purchase page](https://purchase.aspose.com/buy).
 
 ### Q4: Czy mogę wypróbować Aspose.Note for Java przed zakupem?
 
-A4: Tak, możesz skorzystać z darmowej wersji próbnej dostępnej na [stronie internetowej](https://releases.aspose.com/).
+A4: Tak, możesz skorzystać z darmowej wersji próbnej na [website](https://releases.aspose.com/).
 
 ### Q5: Gdzie mogę znaleźć wsparcie dla Aspose.Note for Java?
 
-A5: Wsparcie i pomoc znajdziesz na [forum Aspose.Note](https://forum.aspose.com/c/note/28).
-
-## Podsumowanie
-
-W tym przewodniku pokazaliśmy **jak odczytać tekst sformatowany z OneNote** przy użyciu Aspose.Note for Java. Postępując zgodnie z czterema prostymi krokami — skonfigurowaniem środowiska, załadowaniem notatnika, wyodrębnieniem węzłów `RichText` i iteracją po nich — możesz odblokować ukryte dane tekstowe w plikach OneNote i wykorzystać je w dowolnym rozwiązaniu opartym na Javie.
+A5: Wsparcie i pomoc można znaleźć na [Aspose.Note forum](https://forum.aspose.com/c/note/28).
 
 ---
 
-**Ostatnia aktualizacja:** 2026-01-02  
+**Ostatnia aktualizacja:** 2026-04-24  
 **Testowano z:** Aspose.Note for Java 26.4  
 **Autor:** Aspose  
 
